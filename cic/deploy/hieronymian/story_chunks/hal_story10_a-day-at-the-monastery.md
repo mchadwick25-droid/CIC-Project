@@ -10,7 +10,7 @@ Do-Not-Retrieve-When:Participant asks for a specific liturgical schedule (this w
 
 ## Story Text
 
-This is how it would have been, in the typical shape of a day at Bethlehem — not a specific day the household remembers, but the pattern its own life took. A day given over to prayer in common, alongside a day given over to the correction of a Hebrew word against its Greek rendering, were not different kinds of days for this household; both were the same discipline, worked at from different ends. Study of Hebrew continued under teachers who did not share the household's own faith, but whose learning was needed and paid for. Manual labor and the ordinary work of a large household ran alongside the scholarly correspondence that connected Bethlehem to Rome.
+This is how it would have been, in the typical shape of a day at Bethlehem — not a specific day the household remembers, but the pattern its own life took. Prayer in common and the correction of a Hebrew word against its Greek rendering were not different kinds of days for this household. Both were the same discipline, worked at from different ends. Study of Hebrew continued under teachers who did not share the household's own faith. Their learning was needed, though, and it was paid for. Manual labor and the ordinary work of a large household went on too. Alongside it ran the scholarly correspondence that connected Bethlehem to Rome.
 
 ## Formation Ecology Connection
 
@@ -34,3 +34,11 @@ Appropriate as typical practice put together from what is attested, and said to 
 ## Absent Story Note
 
 This chunk deliberately does not supply a specific horarium (hours of prayer, specific psalms used) because no source attests one for this specific community — only the general fact of structured common life. A participant asking for the schedule should receive honest brevity, not an invented timetable.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 13.3 / FRE 51.1 - a semicolon-joined comparison sentence and a "but whose" relative clause. Per
+Mark's decision to extend the readability pass to story records, the semicolon and the "but whose" clause
+each become their own sentence, and the closing "ran alongside" sentence splits into two shorter ones.
+No element of the composite is dropped - communal prayer, Hebrew study under paid non-Christian teachers,
+manual labor, and the Bethlehem-Rome correspondence all remain, in the same order and with the same
+Tier-4 "typical shape, not a specific day" framing. Re-scored: FK 7.8 / FRE 67.3, clearing both thresholds.

@@ -3,7 +3,7 @@
   "world_id": "post-apostolic-house-church",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 145,
+  "record_count": 153,
   "records": [
     {
       "id": "pahcamb001",
@@ -1053,6 +1053,12 @@
               "name_kind": "scholarly"
             }
           ],
+          "dates": {
+            "kind": "work",
+            "display": "letters traditionally dated c. 107-117; redated to the 130s-140s by one camp and to 160-180 by another; authenticity itself disputed",
+            "approximate": true,
+            "note": "In-build attestation (T3-E): pahcstory001 gives the traditional c. 107-117 for the seven letters, srcPAHCS10 licenses the \"130s-140s camp\", and pahcclaim003 carries the 160-180 reading in which the letters are a later composition using Ignatius as vehicle. No start_year/end_year deliberately - the three positions are not a range, and collapsing them to one would settle in a data field the three-way dispute this record requires every telling to carry. Bounds the LETTERS, not the man."
+          },
           "bridge_line": "A bishop of Antioch, taken to Rome to die. Seven of his letters survive.",
           "narratable": true,
           "story_ids": [
@@ -1160,6 +1166,13 @@
               "name_kind": "scholarly"
             }
           ],
+          "dates": {
+            "kind": "life",
+            "display": "martyred c. 155-156 by the traditional dating; Eusebius's Chronicon dates it 167",
+            "end_year": 156,
+            "approximate": true,
+            "note": "In-build attestation (T3-E): pahcstory008's locus carries both readings verbatim - \"traditional dating c. 155-156 CE; Eusebius's Chronicon dates it 167 CE\". display keeps both; end_year holds the traditional date as a machine-comparable bound only. Death date only - no birth date is attested here."
+          },
           "bridge_line": "A church leader at Smyrna, burned for refusing to curse Christ. His own letter survives.",
           "narratable": true,
           "story_ids": [
@@ -1213,6 +1226,14 @@
               "name_kind": "scholarly"
             }
           ],
+          "dates": {
+            "kind": "work",
+            "display": "the Shepherd composed c. 90-150, possibly in stages",
+            "start_year": 90,
+            "end_year": 150,
+            "approximate": true,
+            "note": "Transcribed from this record's own attribution_note (T3-E): the composite-composition dating stays open. These bound the WORK, not the man - hence kind: work - so nothing the voice says about when Hermas himself lived or died conflicts with them. His own dates are not attested in this build."
+          },
           "bridge_line": "A freed slave in Rome who wrote down his own visions.",
           "narratable": true,
           "story_ids": [
@@ -4897,6 +4918,283 @@
       }
     },
     {
+      "id": "pahcq001",
+      "record_type": "quote",
+      "title": "Saying - Ignatius, Epistle to the Romans 4 (SHORTER/middle recension)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcPAHCS62"
+      },
+      "level3": {
+        "record_id": "pahcq001",
+        "record_type": "quote",
+        "title": "Saying - Ignatius, Epistle to the Romans 4 (SHORTER/middle recension)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: pahcfig001.",
+          "Locus: Ignatius, Epistle to the Romans 4 (SHORTER/middle recension).",
+          "Text: \"I am the wheat of God, and let me be ground by the teeth of the wild beasts, that I may be found the pure bread of Christ.\"",
+          "Translation used: srcPAHCS62.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcq001",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "pahcfig001",
+          "text_translation": "I am the wheat of God, and let me be ground by the teeth of the wild beasts, that I may be found the pure bread of Christ.",
+          "locus": "Ignatius, Epistle to the Romans 4 (SHORTER/middle recension)",
+          "translation_used": "srcPAHCS62",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - ignatius, epistle to the romans 4 (shorter/middle recension) pahcq001 quote ignatius, epistle to the romans 4 (shorter/middle recension)"
+    },
+    {
+      "id": "pahcq002",
+      "record_type": "quote",
+      "title": "Saying - Ignatius, Epistle to the Smyrnaeans 8 (SHORTER/middle recension)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcPAHCS62"
+      },
+      "level3": {
+        "record_id": "pahcq002",
+        "record_type": "quote",
+        "title": "Saying - Ignatius, Epistle to the Smyrnaeans 8 (SHORTER/middle recension)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: pahcfig001.",
+          "Locus: Ignatius, Epistle to the Smyrnaeans 8 (SHORTER/middle recension).",
+          "Text: \"Let that be deemed a proper Eucharist, which is [administered] either by the bishop, or by one to whom he has entrusted it. Wherever the bishop shall appear, there let the multitude [of the people] also be. Even as, wherever Jesus Christ is, there is the Catholic Church.\"",
+          "Translation used: srcPAHCS62.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcq002",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "pahcfig001",
+          "text_translation": "Let that be deemed a proper Eucharist, which is [administered] either by the bishop, or by one to whom he has entrusted it. Wherever the bishop shall appear, there let the multitude [of the people] also be. Even as, wherever Jesus Christ is, there is the Catholic Church.",
+          "locus": "Ignatius, Epistle to the Smyrnaeans 8 (SHORTER/middle recension)",
+          "translation_used": "srcPAHCS62",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-16",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - ignatius, epistle to the smyrnaeans 8 (shorter/middle recension) pahcq002 quote ignatius, epistle to the smyrnaeans 8 (shorter/middle recension)"
+    },
+    {
+      "id": "pahcq003",
+      "record_type": "quote",
+      "title": "Saying - Martyrdom of Polycarp 9",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcPAHCS62"
+      },
+      "level3": {
+        "record_id": "pahcq003",
+        "record_type": "quote",
+        "title": "Saying - Martyrdom of Polycarp 9",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: pahcfig003.",
+          "Locus: Martyrdom of Polycarp 9.",
+          "Text: \"Eighty and six years have I served Him, and He never did me any injury: how then can I blaspheme my King and my Saviour?\"",
+          "Translation used: srcPAHCS62.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Widely Accepted\" - nearly all scholars who study this world read the evidence this way.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcq003",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "pahcfig003",
+          "text_translation": "Eighty and six years have I served Him, and He never did me any injury: how then can I blaspheme my King and my Saviour?",
+          "locus": "Martyrdom of Polycarp 9",
+          "translation_used": "srcPAHCS62",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Widely Accepted"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - martyrdom of polycarp 9 pahcq003 quote martyrdom of polycarp 9"
+    },
+    {
+      "id": "pahcq004",
+      "record_type": "quote",
+      "title": "Saying - Justin Martyr, First Apology 67",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcPAHCS62"
+      },
+      "level3": {
+        "record_id": "pahcq004",
+        "record_type": "quote",
+        "title": "Saying - Justin Martyr, First Apology 67",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: pahcfig005.",
+          "Locus: Justin Martyr, First Apology 67.",
+          "Text: \"And they who are well to do, and willing, give what each thinks fit. What is collected is deposited with the president, who succours the orphans and widows and those who, through sickness or any other cause, are in want. [He] takes care of those who are in bonds and the strangers sojourning among us.\"",
+          "Translation used: srcPAHCS62.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "pahcq004",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "pahcfig005",
+          "text_translation": "And they who are well to do, and willing, give what each thinks fit. What is collected is deposited with the president, who succours the orphans and widows and those who, through sickness or any other cause, are in want. [He] takes care of those who are in bonds and the strangers sojourning among us.",
+          "locus": "Justin Martyr, First Apology 67",
+          "translation_used": "srcPAHCS62",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-16",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - justin martyr, first apology 67 pahcq004 quote justin martyr, first apology 67"
+    },
+    {
+      "id": "pahcq005",
+      "record_type": "quote",
+      "title": "Saying - The Didache (Teaching of the Twelve Apostles) 1:2",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcPAHCS63"
+      },
+      "level3": {
+        "record_id": "pahcq005",
+        "record_type": "quote",
+        "title": "Saying - The Didache (Teaching of the Twelve Apostles) 1:2",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: pahcfig008.",
+          "Locus: The Didache (Teaching of the Twelve Apostles) 1:2.",
+          "Text: \"First, thou shalt love God who made thee. Second, thy neighbour as thyself. And all things whatsoever thou wouldst should not occur to thee, thou also to another do not do.\"",
+          "Translation used: srcPAHCS63.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Contested\" - scholars genuinely disagree about this. More than one serious reading of the evidence exists.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity C / verified-direct."
+        ],
+        "question": [
+          "This record's confidence level is \"Contested\" - what would count as better evidence, and does it exist?"
+        ],
+        "full_record": {
+          "id": "pahcq005",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "pahcfig008",
+          "text_translation": "First, thou shalt love God who made thee. Second, thy neighbour as thyself. And all things whatsoever thou wouldst should not occur to thee, thou also to another do not do.",
+          "locus": "The Didache (Teaching of the Twelve Apostles) 1:2",
+          "translation_used": "srcPAHCS63",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "C",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-16",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Contested"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - the didache (teaching of the twelve apostles) 1:2 pahcq005 quote the didache (teaching of the twelve apostles) 1:2"
+    },
+    {
       "id": "pahcstory001",
       "record_type": "story",
       "title": "Ignatius's Guarded Journey to Rome",
@@ -4912,7 +5210,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Direct textual attestation: these are Ignatius's own surviving letters, not a later account about him. Named author, identifiable social location (bishop of a major see, in Roman custody), and a datable historical horizon under the majority (Trajanic, c. 107–117 CE) reading.\\n\\nGenuine uncertainty exists and is carried at full strength rather than resolved quietly. A serious minority scholarly position (Hübner, Lechner, and others) holds that these letters may be later — mid-second-century — and possibly not genuinely Antiochene at all, but a later composition using Ignatius as a vehicle for a developed monarchical-episcopate program. Doc_01 §10 already flagged this as a three-way dispute: traditional Trajanic dating, a redated 130s–140s position, and a pseudepigraphic 160–180 CE position. This story's Tier 1 classification follows the majority position but does not erase the minority one — see Usage Guidance.\"}.",
           "Attested occasion: Ignatius's guarded journey toward the Roman arena (trad. c. 107-117, under Trajan): the seven letters written in transit - delegations meeting him at Smyrna, the letter sent ahead to Rome begging no rescue, the one-bishop instruction pressed with a condemned man's urgency. The three-way authenticity dispute (Trajanic / 130s-140s redating / pseudepigraphic 160-180) carried at full strength per the chunk's own Tier Justification - the majority reading followed, the minority never erased.",
-          "In his letters, Ignatius, bishop of Antioch, records that he was condemned and sent under armed guard — \"ten leopards,\" he calls his soldiers, \"who only get worse the better they are treated\" — on the long overland journey toward Rome, where he expected to be thrown to wild beasts in the arena. Writing from stops along that route, he tells us that churches came out to meet him: delegations from Ephesus, Magnesia, Tralles met him at Smyrna; the church at Rome received a letter sent ahead of him, urging them not to intervene to save his life. \"Let me be food for the wild beasts,\" he writes, \"through which I can reach God... I am God's wheat, and I am being ground by the teeth of wild beasts, that I may prove to be pure bread of Christ.\"\n\nAlong the way he wrote at least seven letters that survive, addressing controversies in the churches he passed or heard from — insisting that each community gather around one bishop, one altar, one eucharist, and pressing this instruction with real urgency, as a man who believed his own approaching death gave his words unusual weight. He asks Polycarp, bishop of Smyrna, to write on his behalf to the churches ahead, and thanks Polycarp of Smyrna's community by name for their hospitality.\n\nThis is a condemned man's own account, written in transit, of what he believed his death would mean and what he believed the churches receiving his letters needed to hear before it happened."
+          "In his letters, Ignatius, bishop of Antioch, records that he was condemned and sent under armed guard. \"Ten leopards,\" he calls his soldiers, \"who only get worse the better they are treated.\" He was sent on the long overland journey toward Rome, where he expected to be thrown to wild beasts in the arena. Writing from stops along that route, he tells us that churches came out to meet him. Delegations from Ephesus, Magnesia, and Tralles met him at Smyrna. The church at Rome received a letter sent ahead of him, urging them not to intervene to save his life. \"Let me be food for the wild beasts,\" he writes, \"through which I can reach God... I am God's wheat, and I am being ground by the teeth of wild beasts, that I may prove to be pure bread of Christ.\"\n\nAlong the way he wrote at least seven letters that survive, addressing controversies in the churches he passed or heard from. He insisted that each community gather around one bishop, one altar, one eucharist. He pressed this instruction with real urgency, as a man who believed his own approaching death gave his words unusual weight. He asks Polycarp, bishop of Smyrna, to write on his behalf to the churches ahead. And he thanks Polycarp of Smyrna's community by name for their hospitality.\n\nThis is a condemned man's own account, written in transit. It tells what he believed his death would mean, and what he believed the churches receiving his letters needed to hear before it happened."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -4939,7 +5237,7 @@
             "tier": 1,
             "justification": "Direct textual attestation: these are Ignatius's own surviving letters, not a later account about him. Named author, identifiable social location (bishop of a major see, in Roman custody), and a datable historical horizon under the majority (Trajanic, c. 107–117 CE) reading.\n\nGenuine uncertainty exists and is carried at full strength rather than resolved quietly. A serious minority scholarly position (Hübner, Lechner, and others) holds that these letters may be later — mid-second-century — and possibly not genuinely Antiochene at all, but a later composition using Ignatius as a vehicle for a developed monarchical-episcopate program. Doc_01 §10 already flagged this as a three-way dispute: traditional Trajanic dating, a redated 130s–140s position, and a pseudepigraphic 160–180 CE position. This story's Tier 1 classification follows the majority position but does not erase the minority one — see Usage Guidance."
           },
-          "text": "In his letters, Ignatius, bishop of Antioch, records that he was condemned and sent under armed guard — \"ten leopards,\" he calls his soldiers, \"who only get worse the better they are treated\" — on the long overland journey toward Rome, where he expected to be thrown to wild beasts in the arena. Writing from stops along that route, he tells us that churches came out to meet him: delegations from Ephesus, Magnesia, Tralles met him at Smyrna; the church at Rome received a letter sent ahead of him, urging them not to intervene to save his life. \"Let me be food for the wild beasts,\" he writes, \"through which I can reach God... I am God's wheat, and I am being ground by the teeth of wild beasts, that I may prove to be pure bread of Christ.\"\n\nAlong the way he wrote at least seven letters that survive, addressing controversies in the churches he passed or heard from — insisting that each community gather around one bishop, one altar, one eucharist, and pressing this instruction with real urgency, as a man who believed his own approaching death gave his words unusual weight. He asks Polycarp, bishop of Smyrna, to write on his behalf to the churches ahead, and thanks Polycarp of Smyrna's community by name for their hospitality.\n\nThis is a condemned man's own account, written in transit, of what he believed his death would mean and what he believed the churches receiving his letters needed to hear before it happened.",
+          "text": "In his letters, Ignatius, bishop of Antioch, records that he was condemned and sent under armed guard. \"Ten leopards,\" he calls his soldiers, \"who only get worse the better they are treated.\" He was sent on the long overland journey toward Rome, where he expected to be thrown to wild beasts in the arena. Writing from stops along that route, he tells us that churches came out to meet him. Delegations from Ephesus, Magnesia, and Tralles met him at Smyrna. The church at Rome received a letter sent ahead of him, urging them not to intervene to save his life. \"Let me be food for the wild beasts,\" he writes, \"through which I can reach God... I am God's wheat, and I am being ground by the teeth of wild beasts, that I may prove to be pure bread of Christ.\"\n\nAlong the way he wrote at least seven letters that survive, addressing controversies in the churches he passed or heard from. He insisted that each community gather around one bishop, one altar, one eucharist. He pressed this instruction with real urgency, as a man who believed his own approaching death gave his words unusual weight. He asks Polycarp, bishop of Smyrna, to write on his behalf to the churches ahead. And he thanks Polycarp of Smyrna's community by name for their hospitality.\n\nThis is a condemned man's own account, written in transit. It tells what he believed his death would mean, and what he believed the churches receiving his letters needed to hear before it happened.",
           "attested_occasion": "Ignatius's guarded journey toward the Roman arena (trad. c. 107-117, under Trajan): the seven letters written in transit - delegations meeting him at Smyrna, the letter sent ahead to Rome begging no rescue, the one-bishop instruction pressed with a condemned man's urgency. The three-way authenticity dispute (Trajanic / 130s-140s redating / pseudepigraphic 160-180) carried at full strength per the chunk's own Tier Justification - the majority reading followed, the minority never erased.",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig001",
@@ -4994,7 +5292,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "ignatius's guarded journey to rome pahcstory001 story ignatius's guarded journey to rome in his letters, ignatius, bishop of antioch, records that he was condemned and sent under armed guard — \"ten leopards,\" he calls his soldiers, \"who only get worse the better they are treated\" — on the long overland journey toward rome, where he expected to be thrown to wild beasts in the arena. writing from stops along that route, he tells us that churches came out to meet him: delegations from ephesus, magnesia, tralles met him at smyrna; the church at rome received a letter sent ahead of him, urging them not to intervene to save his life. \"let me be food for the wild beasts,\" he writes, \"through which i can reach god... i am god's wheat, and i am being ground by the teeth of wild beasts, that i may prove to be pure bread of christ.\"\n\nalong the way he wrote at least seven letters that survive, addressing controversies in the churches he passed or heard from — insisting that each community gather around one bishop, one altar, one eucharist, and pressing this instruction with real urgency, as a man who believed his own approaching death gave his words unusual weight. he asks polycarp, bishop of smyrna, to write on his behalf to the churches ahead, and thanks polycarp of smyrna's community by name for their hospitality.\n\nthis is a condemned man's own account, written in transit, of what he believed his death would mean and what he believed the churches receiving his letters needed to hear before it happened. ignatius's guarded journey toward the roman arena (trad. c. 107-117, under trajan): the seven letters written in transit - delegations meeting him at smyrna, the letter sent ahead to rome begging no rescue, the one-bishop instruction pressed with a condemned man's urgency. the three-way authenticity dispute (trajanic / 130s-140s redating / pseudepigraphic 160-180) carried at full strength per the chunk's own tier justification - the majority reading followed, the minority never erased."
+      "search_text": "ignatius's guarded journey to rome pahcstory001 story ignatius's guarded journey to rome in his letters, ignatius, bishop of antioch, records that he was condemned and sent under armed guard. \"ten leopards,\" he calls his soldiers, \"who only get worse the better they are treated.\" he was sent on the long overland journey toward rome, where he expected to be thrown to wild beasts in the arena. writing from stops along that route, he tells us that churches came out to meet him. delegations from ephesus, magnesia, and tralles met him at smyrna. the church at rome received a letter sent ahead of him, urging them not to intervene to save his life. \"let me be food for the wild beasts,\" he writes, \"through which i can reach god... i am god's wheat, and i am being ground by the teeth of wild beasts, that i may prove to be pure bread of christ.\"\n\nalong the way he wrote at least seven letters that survive, addressing controversies in the churches he passed or heard from. he insisted that each community gather around one bishop, one altar, one eucharist. he pressed this instruction with real urgency, as a man who believed his own approaching death gave his words unusual weight. he asks polycarp, bishop of smyrna, to write on his behalf to the churches ahead. and he thanks polycarp of smyrna's community by name for their hospitality.\n\nthis is a condemned man's own account, written in transit. it tells what he believed his death would mean, and what he believed the churches receiving his letters needed to hear before it happened. ignatius's guarded journey toward the roman arena (trad. c. 107-117, under trajan): the seven letters written in transit - delegations meeting him at smyrna, the letter sent ahead to rome begging no rescue, the one-bishop instruction pressed with a condemned man's urgency. the three-way authenticity dispute (trajanic / 130s-140s redating / pseudepigraphic 160-180) carried at full strength per the chunk's own tier justification - the majority reading followed, the minority never erased."
     },
     {
       "id": "pahcstory002",
@@ -5012,7 +5310,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': 'A specific, named occasion — the deposition of legitimately appointed Corinthian presbyters — addressed in a real, surviving letter. The letter itself is anonymous; attribution to \"Clement\" is traditional (first attested by later writers, not self-declared in the text), which is why Confidence is Widely Accepted for the intervention itself but Contested for the precise date, since dating arguments partly rest on assumptions about Clement\\'s own identity and career.'}.",
           "Attested occasion: Rome's letter to Corinth (trad. c. 96; contested range 80-140): presbyters removed without cause, and a sister church's long, scripture-laden appeal for their restoration - appealing, never commanding; anonymous in its own text, 'Clement' a traditional attribution the letter itself does not make (the chunk's own confidence split).",
-          "In this letter, the church at Rome — writing anonymously in its own text, though later tradition names Clement as its author — tells us that the church at Corinth had removed certain presbyters from office who had served blamelessly. The letter addresses this directly: it argues at length that the Corinthians' action was a departure from proper order, drawing on scriptural example after scriptural example of jealousy and strife destroying what unity had built, and it urges the restoration of the deposed presbyters.\n\nThe letter does not claim any formal jurisdiction over Corinth — it does not command, in the register of a later ecclesial authority; it appeals, at length and with real theological seriousness, as one church writing to another out of concern. Rome's own letter tells us Rome believed disputes in a sister church were its business to address, even without institutional authority to compel a result."
+          "In this letter, the church at Rome tells us that the church at Corinth had removed certain presbyters from office who had served blamelessly. Rome wrote anonymously in its own text, though later tradition names Clement as its author. The letter addresses this directly. It argues at length that the Corinthians' action was a departure from proper order. It draws on scriptural example after scriptural example of jealousy and strife destroying what unity had built. And it urges the restoration of the deposed presbyters.\n\nThe letter does not claim any formal authority over Corinth. It does not command, in the register of a later church authority. Instead it appeals, at length and with real theological seriousness. It writes as one church to another, out of concern. Rome's own letter tells us Rome believed disputes in a sister church were its own business. This was true even without power to compel a result."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5037,7 +5335,7 @@
             "tier": 1,
             "justification": "A specific, named occasion — the deposition of legitimately appointed Corinthian presbyters — addressed in a real, surviving letter. The letter itself is anonymous; attribution to \"Clement\" is traditional (first attested by later writers, not self-declared in the text), which is why Confidence is Widely Accepted for the intervention itself but Contested for the precise date, since dating arguments partly rest on assumptions about Clement's own identity and career."
           },
-          "text": "In this letter, the church at Rome — writing anonymously in its own text, though later tradition names Clement as its author — tells us that the church at Corinth had removed certain presbyters from office who had served blamelessly. The letter addresses this directly: it argues at length that the Corinthians' action was a departure from proper order, drawing on scriptural example after scriptural example of jealousy and strife destroying what unity had built, and it urges the restoration of the deposed presbyters.\n\nThe letter does not claim any formal jurisdiction over Corinth — it does not command, in the register of a later ecclesial authority; it appeals, at length and with real theological seriousness, as one church writing to another out of concern. Rome's own letter tells us Rome believed disputes in a sister church were its business to address, even without institutional authority to compel a result.",
+          "text": "In this letter, the church at Rome tells us that the church at Corinth had removed certain presbyters from office who had served blamelessly. Rome wrote anonymously in its own text, though later tradition names Clement as its author. The letter addresses this directly. It argues at length that the Corinthians' action was a departure from proper order. It draws on scriptural example after scriptural example of jealousy and strife destroying what unity had built. And it urges the restoration of the deposed presbyters.\n\nThe letter does not claim any formal authority over Corinth. It does not command, in the register of a later church authority. Instead it appeals, at length and with real theological seriousness. It writes as one church to another, out of concern. Rome's own letter tells us Rome believed disputes in a sister church were its own business. This was true even without power to compel a result.",
           "attested_occasion": "Rome's letter to Corinth (trad. c. 96; contested range 80-140): presbyters removed without cause, and a sister church's long, scripture-laden appeal for their restoration - appealing, never commanding; anonymous in its own text, 'Clement' a traditional attribution the letter itself does not make (the chunk's own confidence split).",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig002",
@@ -5083,7 +5381,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "1 clement's intervention in the corinthian dispute pahcstory002 story 1 clement's intervention in the corinthian dispute in this letter, the church at rome — writing anonymously in its own text, though later tradition names clement as its author — tells us that the church at corinth had removed certain presbyters from office who had served blamelessly. the letter addresses this directly: it argues at length that the corinthians' action was a departure from proper order, drawing on scriptural example after scriptural example of jealousy and strife destroying what unity had built, and it urges the restoration of the deposed presbyters.\n\nthe letter does not claim any formal jurisdiction over corinth — it does not command, in the register of a later ecclesial authority; it appeals, at length and with real theological seriousness, as one church writing to another out of concern. rome's own letter tells us rome believed disputes in a sister church were its business to address, even without institutional authority to compel a result. rome's letter to corinth (trad. c. 96; contested range 80-140): presbyters removed without cause, and a sister church's long, scripture-laden appeal for their restoration - appealing, never commanding; anonymous in its own text, 'clement' a traditional attribution the letter itself does not make (the chunk's own confidence split)."
+      "search_text": "1 clement's intervention in the corinthian dispute pahcstory002 story 1 clement's intervention in the corinthian dispute in this letter, the church at rome tells us that the church at corinth had removed certain presbyters from office who had served blamelessly. rome wrote anonymously in its own text, though later tradition names clement as its author. the letter addresses this directly. it argues at length that the corinthians' action was a departure from proper order. it draws on scriptural example after scriptural example of jealousy and strife destroying what unity had built. and it urges the restoration of the deposed presbyters.\n\nthe letter does not claim any formal authority over corinth. it does not command, in the register of a later church authority. instead it appeals, at length and with real theological seriousness. it writes as one church to another, out of concern. rome's own letter tells us rome believed disputes in a sister church were its own business. this was true even without power to compel a result. rome's letter to corinth (trad. c. 96; contested range 80-140): presbyters removed without cause, and a sister church's long, scripture-laden appeal for their restoration - appealing, never commanding; anonymous in its own text, 'clement' a traditional attribution the letter itself does not make (the chunk's own confidence split)."
     },
     {
       "id": "pahcstory003",
@@ -5101,7 +5399,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"A specific, directly attested transmission event, named by the person who performed it, in his own surviving letter. The uncertainty here is not about whether the act happened but about the letter's own composition history — some scholars (following Harrison) argue *To the Philippians* is a composite of two originally separate letters, which affects how confidently this passage can be dated relative to Ignatius's own journey (Story 001).\"}.",
           "Attested occasion: Polycarp's forwarding of the collected Ignatius letters to Philippi at their request (Philippians 13) - the correspondence network's ordinary, almost administrative operation; the Harrison two-letter-splice question carried as the chunk carries it (affects dating confidence, not the act's attestation).",
-          "In his letter to the Philippians, Polycarp — who names himself only as \"one of the presbyters,\" not as bishop, though later tradition remembers him as Smyrna's bishop — tells the Philippian church that he is sending them, at their own request, the collected letters of Ignatius that Polycarp's community had gathered. \"The letters of Ignatius which he sent to us, and any others we had by us, we have sent to you, as you requested,\" he writes, \"from which you will be able to derive great advantage.\"\n\nIt is a small, practical act, described in a single line, but it tells us something no larger claim could: that letters moved between named individuals, at specific requests, and that at least one community made a point of collecting and preserving them for others."
+          "In his letter to the Philippians, Polycarp tells the Philippian church that he is sending them the collected letters of Ignatius. Polycarp's community had gathered these letters, and now sent them at the Philippians' own request. Polycarp names himself only as \"one of the presbyters,\" not as bishop, though later tradition remembers him as Smyrna's bishop. \"The letters of Ignatius which he sent to us, and any others we had by us, we have sent to you, as you requested,\" he writes, \"from which you will be able to derive great advantage.\"\n\nIt is a small, practical act, described in a single line. But it tells us something no larger claim could: that letters moved between named individuals, at specific requests. At least one community made a point of collecting and keeping them for others."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5126,7 +5424,7 @@
             "tier": 1,
             "justification": "A specific, directly attested transmission event, named by the person who performed it, in his own surviving letter. The uncertainty here is not about whether the act happened but about the letter's own composition history — some scholars (following Harrison) argue *To the Philippians* is a composite of two originally separate letters, which affects how confidently this passage can be dated relative to Ignatius's own journey (Story 001)."
           },
-          "text": "In his letter to the Philippians, Polycarp — who names himself only as \"one of the presbyters,\" not as bishop, though later tradition remembers him as Smyrna's bishop — tells the Philippian church that he is sending them, at their own request, the collected letters of Ignatius that Polycarp's community had gathered. \"The letters of Ignatius which he sent to us, and any others we had by us, we have sent to you, as you requested,\" he writes, \"from which you will be able to derive great advantage.\"\n\nIt is a small, practical act, described in a single line, but it tells us something no larger claim could: that letters moved between named individuals, at specific requests, and that at least one community made a point of collecting and preserving them for others.",
+          "text": "In his letter to the Philippians, Polycarp tells the Philippian church that he is sending them the collected letters of Ignatius. Polycarp's community had gathered these letters, and now sent them at the Philippians' own request. Polycarp names himself only as \"one of the presbyters,\" not as bishop, though later tradition remembers him as Smyrna's bishop. \"The letters of Ignatius which he sent to us, and any others we had by us, we have sent to you, as you requested,\" he writes, \"from which you will be able to derive great advantage.\"\n\nIt is a small, practical act, described in a single line. But it tells us something no larger claim could: that letters moved between named individuals, at specific requests. At least one community made a point of collecting and keeping them for others.",
           "attested_occasion": "Polycarp's forwarding of the collected Ignatius letters to Philippi at their request (Philippians 13) - the correspondence network's ordinary, almost administrative operation; the Harrison two-letter-splice question carried as the chunk carries it (affects dating confidence, not the act's attestation).",
           "tellable_as": "background-fact",
           "owner_figure_id": "pahcfig003",
@@ -5167,7 +5465,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "polycarp forwards ignatius's letters to philippi pahcstory003 story polycarp forwards ignatius's letters to philippi in his letter to the philippians, polycarp — who names himself only as \"one of the presbyters,\" not as bishop, though later tradition remembers him as smyrna's bishop — tells the philippian church that he is sending them, at their own request, the collected letters of ignatius that polycarp's community had gathered. \"the letters of ignatius which he sent to us, and any others we had by us, we have sent to you, as you requested,\" he writes, \"from which you will be able to derive great advantage.\"\n\nit is a small, practical act, described in a single line, but it tells us something no larger claim could: that letters moved between named individuals, at specific requests, and that at least one community made a point of collecting and preserving them for others. polycarp's forwarding of the collected ignatius letters to philippi at their request (philippians 13) - the correspondence network's ordinary, almost administrative operation; the harrison two-letter-splice question carried as the chunk carries it (affects dating confidence, not the act's attestation)."
+      "search_text": "polycarp forwards ignatius's letters to philippi pahcstory003 story polycarp forwards ignatius's letters to philippi in his letter to the philippians, polycarp tells the philippian church that he is sending them the collected letters of ignatius. polycarp's community had gathered these letters, and now sent them at the philippians' own request. polycarp names himself only as \"one of the presbyters,\" not as bishop, though later tradition remembers him as smyrna's bishop. \"the letters of ignatius which he sent to us, and any others we had by us, we have sent to you, as you requested,\" he writes, \"from which you will be able to derive great advantage.\"\n\nit is a small, practical act, described in a single line. but it tells us something no larger claim could: that letters moved between named individuals, at specific requests. at least one community made a point of collecting and keeping them for others. polycarp's forwarding of the collected ignatius letters to philippi at their request (philippians 13) - the correspondence network's ordinary, almost administrative operation; the harrison two-letter-splice question carried as the chunk carries it (affects dating confidence, not the act's attestation)."
     },
     {
       "id": "pahcstory004",
@@ -5185,7 +5483,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': 'A specific, dated, named-author account of a real interrogation, written to a named recipient (the emperor) who replied in writing — an unusually well-documented exchange for this period. Contested points: whether the \"ordinary meal\" Pliny describes was itself a Eucharist, an agape meal, or something else; and whether Pliny\\'s account reflects a general legal condition applying across the empire or scattered, locally-triggered exposure specific to Bithynia-Pontus.'}.",
           "Attested occasion: Bithynia-Pontus, c. 111-113: Pliny's own letter to Trajan - executions after warning, citizens reserved for Rome, two ministrae tortured for information, 'nothing else than depraved, excessive superstition' found; Trajan's rescript (no seeking out, no anonymous accusations) preserved with it. The sole non-Christian eyewitness account of a gathering, its oath, and its meal.",
-          "In his letter to the emperor Trajan, Pliny the Younger, governor of Bithynia-Pontus, records that he was uncertain how to handle accusations against Christians brought before him, and asked the emperor directly for guidance. He describes questioning those accused, executing those who persisted in the name after repeated warning (reserving Roman citizens for trial in Rome), and — wanting to learn more about what these people actually did — he tells us he tortured two enslaved women, called *ministrae* (a term some read as a functional title, \"ministers\" or \"deaconesses,\" though this is contested), to extract information.\n\nWhat Pliny reports learning was, in his own words, \"nothing else than depraved, excessive superstition\" — people who met before dawn on a fixed day, sang a hymn to Christ \"as to a god,\" bound themselves by oath not to commit theft, adultery, or breach of trust, and later reassembled to share an ordinary, harmless meal.\n\nTrajan's reply, also preserved, instructs Pliny not to seek out Christians actively, not to act on anonymous accusations, but to punish those who are properly accused and refuse to recant."
+          "In his letter to the emperor Trajan, Pliny the Younger, governor of Bithynia-Pontus, records that he was unsure how to handle charges against Christians brought before him. He asked the emperor directly for guidance. He describes questioning those accused. He executed those who persisted in the name after repeated warning. He reserved Roman citizens for trial in Rome instead. He wanted to learn more about what these people actually did. So he tells us he tortured two enslaved women, called *ministrae*, to get information. Some read *ministrae* as a functional title, \"ministers\" or \"deaconesses,\" though this is contested.\n\nWhat Pliny reports learning was, in his own words, \"nothing else than depraved, excessive superstition.\" These were people who met before dawn on a fixed day. They sang a hymn to Christ \"as to a god.\" They bound themselves by oath not to commit theft, adultery, or breach of trust. Later they met again to share an ordinary, harmless meal.\n\nTrajan's reply, also preserved, instructs Pliny not to seek out Christians actively, and not to act on anonymous charges. But he was to punish those who were rightly accused and refused to recant."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5212,7 +5510,7 @@
             "tier": 1,
             "justification": "A specific, dated, named-author account of a real interrogation, written to a named recipient (the emperor) who replied in writing — an unusually well-documented exchange for this period. Contested points: whether the \"ordinary meal\" Pliny describes was itself a Eucharist, an agape meal, or something else; and whether Pliny's account reflects a general legal condition applying across the empire or scattered, locally-triggered exposure specific to Bithynia-Pontus."
           },
-          "text": "In his letter to the emperor Trajan, Pliny the Younger, governor of Bithynia-Pontus, records that he was uncertain how to handle accusations against Christians brought before him, and asked the emperor directly for guidance. He describes questioning those accused, executing those who persisted in the name after repeated warning (reserving Roman citizens for trial in Rome), and — wanting to learn more about what these people actually did — he tells us he tortured two enslaved women, called *ministrae* (a term some read as a functional title, \"ministers\" or \"deaconesses,\" though this is contested), to extract information.\n\nWhat Pliny reports learning was, in his own words, \"nothing else than depraved, excessive superstition\" — people who met before dawn on a fixed day, sang a hymn to Christ \"as to a god,\" bound themselves by oath not to commit theft, adultery, or breach of trust, and later reassembled to share an ordinary, harmless meal.\n\nTrajan's reply, also preserved, instructs Pliny not to seek out Christians actively, not to act on anonymous accusations, but to punish those who are properly accused and refuse to recant.",
+          "text": "In his letter to the emperor Trajan, Pliny the Younger, governor of Bithynia-Pontus, records that he was unsure how to handle charges against Christians brought before him. He asked the emperor directly for guidance. He describes questioning those accused. He executed those who persisted in the name after repeated warning. He reserved Roman citizens for trial in Rome instead. He wanted to learn more about what these people actually did. So he tells us he tortured two enslaved women, called *ministrae*, to get information. Some read *ministrae* as a functional title, \"ministers\" or \"deaconesses,\" though this is contested.\n\nWhat Pliny reports learning was, in his own words, \"nothing else than depraved, excessive superstition.\" These were people who met before dawn on a fixed day. They sang a hymn to Christ \"as to a god.\" They bound themselves by oath not to commit theft, adultery, or breach of trust. Later they met again to share an ordinary, harmless meal.\n\nTrajan's reply, also preserved, instructs Pliny not to seek out Christians actively, and not to act on anonymous charges. But he was to punish those who were rightly accused and refused to recant.",
           "attested_occasion": "Bithynia-Pontus, c. 111-113: Pliny's own letter to Trajan - executions after warning, citizens reserved for Rome, two ministrae tortured for information, 'nothing else than depraved, excessive superstition' found; Trajan's rescript (no seeking out, no anonymous accusations) preserved with it. The sole non-Christian eyewitness account of a gathering, its oath, and its meal.",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig006",
@@ -5253,7 +5551,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "pliny's interrogation in bithynia-pontus pahcstory004 story pliny's interrogation in bithynia-pontus in his letter to the emperor trajan, pliny the younger, governor of bithynia-pontus, records that he was uncertain how to handle accusations against christians brought before him, and asked the emperor directly for guidance. he describes questioning those accused, executing those who persisted in the name after repeated warning (reserving roman citizens for trial in rome), and — wanting to learn more about what these people actually did — he tells us he tortured two enslaved women, called *ministrae* (a term some read as a functional title, \"ministers\" or \"deaconesses,\" though this is contested), to extract information.\n\nwhat pliny reports learning was, in his own words, \"nothing else than depraved, excessive superstition\" — people who met before dawn on a fixed day, sang a hymn to christ \"as to a god,\" bound themselves by oath not to commit theft, adultery, or breach of trust, and later reassembled to share an ordinary, harmless meal.\n\ntrajan's reply, also preserved, instructs pliny not to seek out christians actively, not to act on anonymous accusations, but to punish those who are properly accused and refuse to recant. bithynia-pontus, c. 111-113: pliny's own letter to trajan - executions after warning, citizens reserved for rome, two ministrae tortured for information, 'nothing else than depraved, excessive superstition' found; trajan's rescript (no seeking out, no anonymous accusations) preserved with it. the sole non-christian eyewitness account of a gathering, its oath, and its meal."
+      "search_text": "pliny's interrogation in bithynia-pontus pahcstory004 story pliny's interrogation in bithynia-pontus in his letter to the emperor trajan, pliny the younger, governor of bithynia-pontus, records that he was unsure how to handle charges against christians brought before him. he asked the emperor directly for guidance. he describes questioning those accused. he executed those who persisted in the name after repeated warning. he reserved roman citizens for trial in rome instead. he wanted to learn more about what these people actually did. so he tells us he tortured two enslaved women, called *ministrae*, to get information. some read *ministrae* as a functional title, \"ministers\" or \"deaconesses,\" though this is contested.\n\nwhat pliny reports learning was, in his own words, \"nothing else than depraved, excessive superstition.\" these were people who met before dawn on a fixed day. they sang a hymn to christ \"as to a god.\" they bound themselves by oath not to commit theft, adultery, or breach of trust. later they met again to share an ordinary, harmless meal.\n\ntrajan's reply, also preserved, instructs pliny not to seek out christians actively, and not to act on anonymous charges. but he was to punish those who were rightly accused and refused to recant. bithynia-pontus, c. 111-113: pliny's own letter to trajan - executions after warning, citizens reserved for rome, two ministrae tortured for information, 'nothing else than depraved, excessive superstition' found; trajan's rescript (no seeking out, no anonymous accusations) preserved with it. the sole non-christian eyewitness account of a gathering, its oath, and its meal."
     },
     {
       "id": "pahcstory005",
@@ -5271,7 +5569,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': 'A specific, dated historical event, from a named, datable historian, describing named individuals in the surrounding narrative (Nero) though no Christian individual by name. Widely Accepted as basically authentic to Tacitus\\'s own text; Contested is the live scholarly dispute (associated with Brent Shaw\\'s 2015 argument and the responses to it, including Christopher Jones) over whether a discrete, fire-linked, named-group persecution of \"Christians\" actually occurred in 64 CE as Tacitus describes, or whether this reflects a later, more general memory of scapegoating retrojected onto the fire.'}.",
           "Attested occasion: Rome, 64 CE, told c. 116: Tacitus's account of Nero's scapegoating after the fire - a great multitude convicted 'not so much of arson as of hatred of the human race,' the theatrical cruelty, no Christian named. The Shaw/Jones dispute (whether a discrete fire-linked persecution of Christians as a named group occurred, or later memory retrojected) carried at full strength per the chunk.",
-          "Writing roughly fifty years after the event, the Roman historian Tacitus records that after the great fire of Rome in 64 CE, amid rumors that the emperor Nero himself had ordered the burning, Nero shifted blame onto a group he calls Chrestiani (Christians), \"hated for their abominations.\" Tacitus tells us that those arrested named others, and that a great multitude was convicted — \"not so much of the crime of arson as of hatred of the human race\" — and executed with deliberate theatrical cruelty: wrapped in animal skins and torn apart by dogs, crucified, or set alight as human torches to illuminate Nero's gardens at night.\n\nNo Christian individual is named. The account comes entirely from outside, written decades later by a historian with his own reasons for portraying Nero as a monster."
+          "The Roman historian Tacitus wrote about this roughly fifty years after it happened. He records what happened after the great fire of Rome in 64 CE. Rumors spread that the emperor Nero himself had ordered the burning. Nero shifted blame onto a group he calls Chrestiani (Christians), \"hated for their abominations.\" Tacitus tells us that those arrested named others. A great multitude was convicted - \"not so much of the crime of arson as of hatred of the human race.\" They were executed with cruelty that was public and deliberate. They were wrapped in animal skins and torn apart by dogs, crucified, or set alight as human torches to light Nero's gardens at night.\n\nNo Christian individual is named. The account comes entirely from outside. It was written decades later by a historian with his own reasons for painting Nero as a monster."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5297,7 +5595,7 @@
             "tier": 1,
             "justification": "A specific, dated historical event, from a named, datable historian, describing named individuals in the surrounding narrative (Nero) though no Christian individual by name. Widely Accepted as basically authentic to Tacitus's own text; Contested is the live scholarly dispute (associated with Brent Shaw's 2015 argument and the responses to it, including Christopher Jones) over whether a discrete, fire-linked, named-group persecution of \"Christians\" actually occurred in 64 CE as Tacitus describes, or whether this reflects a later, more general memory of scapegoating retrojected onto the fire."
           },
-          "text": "Writing roughly fifty years after the event, the Roman historian Tacitus records that after the great fire of Rome in 64 CE, amid rumors that the emperor Nero himself had ordered the burning, Nero shifted blame onto a group he calls Chrestiani (Christians), \"hated for their abominations.\" Tacitus tells us that those arrested named others, and that a great multitude was convicted — \"not so much of the crime of arson as of hatred of the human race\" — and executed with deliberate theatrical cruelty: wrapped in animal skins and torn apart by dogs, crucified, or set alight as human torches to illuminate Nero's gardens at night.\n\nNo Christian individual is named. The account comes entirely from outside, written decades later by a historian with his own reasons for portraying Nero as a monster.",
+          "text": "The Roman historian Tacitus wrote about this roughly fifty years after it happened. He records what happened after the great fire of Rome in 64 CE. Rumors spread that the emperor Nero himself had ordered the burning. Nero shifted blame onto a group he calls Chrestiani (Christians), \"hated for their abominations.\" Tacitus tells us that those arrested named others. A great multitude was convicted - \"not so much of the crime of arson as of hatred of the human race.\" They were executed with cruelty that was public and deliberate. They were wrapped in animal skins and torn apart by dogs, crucified, or set alight as human torches to light Nero's gardens at night.\n\nNo Christian individual is named. The account comes entirely from outside. It was written decades later by a historian with his own reasons for painting Nero as a monster.",
           "attested_occasion": "Rome, 64 CE, told c. 116: Tacitus's account of Nero's scapegoating after the fire - a great multitude convicted 'not so much of arson as of hatred of the human race,' the theatrical cruelty, no Christian named. The Shaw/Jones dispute (whether a discrete fire-linked persecution of Christians as a named group occurred, or later memory retrojected) carried at full strength per the chunk.",
           "tellable_as": "background-fact",
           "owner_figure_id": "pahcfig007",
@@ -5342,7 +5640,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "nero's fire and the first scapegoating pahcstory005 story nero's fire and the first scapegoating writing roughly fifty years after the event, the roman historian tacitus records that after the great fire of rome in 64 ce, amid rumors that the emperor nero himself had ordered the burning, nero shifted blame onto a group he calls chrestiani (christians), \"hated for their abominations.\" tacitus tells us that those arrested named others, and that a great multitude was convicted — \"not so much of the crime of arson as of hatred of the human race\" — and executed with deliberate theatrical cruelty: wrapped in animal skins and torn apart by dogs, crucified, or set alight as human torches to illuminate nero's gardens at night.\n\nno christian individual is named. the account comes entirely from outside, written decades later by a historian with his own reasons for portraying nero as a monster. rome, 64 ce, told c. 116: tacitus's account of nero's scapegoating after the fire - a great multitude convicted 'not so much of arson as of hatred of the human race,' the theatrical cruelty, no christian named. the shaw/jones dispute (whether a discrete fire-linked persecution of christians as a named group occurred, or later memory retrojected) carried at full strength per the chunk."
+      "search_text": "nero's fire and the first scapegoating pahcstory005 story nero's fire and the first scapegoating the roman historian tacitus wrote about this roughly fifty years after it happened. he records what happened after the great fire of rome in 64 ce. rumors spread that the emperor nero himself had ordered the burning. nero shifted blame onto a group he calls chrestiani (christians), \"hated for their abominations.\" tacitus tells us that those arrested named others. a great multitude was convicted - \"not so much of the crime of arson as of hatred of the human race.\" they were executed with cruelty that was public and deliberate. they were wrapped in animal skins and torn apart by dogs, crucified, or set alight as human torches to light nero's gardens at night.\n\nno christian individual is named. the account comes entirely from outside. it was written decades later by a historian with his own reasons for painting nero as a monster. rome, 64 ce, told c. 116: tacitus's account of nero's scapegoating after the fire - a great multitude convicted 'not so much of arson as of hatred of the human race,' the theatrical cruelty, no christian named. the shaw/jones dispute (whether a discrete fire-linked persecution of christians as a named group occurred, or later memory retrojected) carried at full strength per the chunk."
     },
     {
       "id": "pahcstory006",
@@ -5360,7 +5658,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Classified Tier 1 rather than Tier 4 on the following reasoning: this is Justin's own direct, first-person report in his own surviving text, not a builder's later composite drawn across multiple sources. The genuine edge case is that the content describes recurring, typical practice rather than a single narrated event — the Framework's tier definitions do not perfectly anticipate a primary source directly reporting on its own routine, repeated practice. Because the report itself is Documented (Justin's own text, addressed to a specific, named, dated audience), Tier 1 is the better fit than Tier 4, which is reserved for a builder's own composite reconstruction across sources the world's evidence does not, by itself, narrate as a single account.\\n\\nWidely Accepted as an accurate general description of Roman liturgical shape in this period; Contested is whether this reflects a single template shared across the whole network, or one Roman writer's own account specific to his own community (Bradshaw's caution).\"}.",
           "Attested occasion: Rome, c. 153-157: Justin's own first-person account, addressed to emperor and Senate, of the Sunday gathering - reading, discourse, standing prayer, thanksgiving over bread and mixed cup 'according to his ability,' the Amen, the collection for orphans, widows, the sick, prisoners, strangers. Tier 1 by the chunk's own reasoned edge-case argument (a primary source reporting its own routine practice); Bradshaw's network-template caution carried.",
-          "Writing to the emperor and the Roman Senate in his own defense of Christian practice, Justin tells us plainly what \"we\" do. On the day named for the sun, he writes, those in the cities and the countryside gather together in one place. The records of the apostles, or the writings of the prophets, are read for as long as time allows. Then the one presiding gives a discourse, exhorting the people to imitate these good examples. Then all stand together and offer prayers. Bread and wine mixed with water are brought, and the president offers prayers and thanksgivings \"according to his ability,\" and the people assent, saying \"Amen.\" Those present who have means, and are willing, give what they choose, and this collection is given to the one presiding, who cares for orphans and widows, the sick, prisoners, and strangers sojourning among them — \"in a word, he takes care of all who are in need.\"\n\nThis is Justin's own report, addressed to an outside, imperial audience, of what happens on the day his own community gathers."
+          "Writing to the emperor and the Roman Senate in his own defense of Christian practice, Justin tells us plainly what \"we\" do. On the day named for the sun, he writes, those in the cities and the countryside gather together in one place. The records of the apostles, or the writings of the prophets, are read for as long as time allows. Then the one presiding gives a discourse, exhorting the people to imitate these good examples. Then all stand together and offer prayers. Bread and wine mixed with water are brought. The president offers prayers and thanksgivings \"according to his ability,\" and the people assent, saying \"Amen.\" Those present who have means, and are willing, give what they choose. This collection is given to the one presiding. He cares for orphans and widows, the sick, prisoners, and strangers sojourning among them — \"in a word, he takes care of all who are in need.\"\n\nThis is Justin's own report, addressed to an outside, imperial audience, of what happens on the day his own community gathers."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5386,7 +5684,7 @@
             "tier": 1,
             "justification": "Classified Tier 1 rather than Tier 4 on the following reasoning: this is Justin's own direct, first-person report in his own surviving text, not a builder's later composite drawn across multiple sources. The genuine edge case is that the content describes recurring, typical practice rather than a single narrated event — the Framework's tier definitions do not perfectly anticipate a primary source directly reporting on its own routine, repeated practice. Because the report itself is Documented (Justin's own text, addressed to a specific, named, dated audience), Tier 1 is the better fit than Tier 4, which is reserved for a builder's own composite reconstruction across sources the world's evidence does not, by itself, narrate as a single account.\n\nWidely Accepted as an accurate general description of Roman liturgical shape in this period; Contested is whether this reflects a single template shared across the whole network, or one Roman writer's own account specific to his own community (Bradshaw's caution)."
           },
-          "text": "Writing to the emperor and the Roman Senate in his own defense of Christian practice, Justin tells us plainly what \"we\" do. On the day named for the sun, he writes, those in the cities and the countryside gather together in one place. The records of the apostles, or the writings of the prophets, are read for as long as time allows. Then the one presiding gives a discourse, exhorting the people to imitate these good examples. Then all stand together and offer prayers. Bread and wine mixed with water are brought, and the president offers prayers and thanksgivings \"according to his ability,\" and the people assent, saying \"Amen.\" Those present who have means, and are willing, give what they choose, and this collection is given to the one presiding, who cares for orphans and widows, the sick, prisoners, and strangers sojourning among them — \"in a word, he takes care of all who are in need.\"\n\nThis is Justin's own report, addressed to an outside, imperial audience, of what happens on the day his own community gathers.",
+          "text": "Writing to the emperor and the Roman Senate in his own defense of Christian practice, Justin tells us plainly what \"we\" do. On the day named for the sun, he writes, those in the cities and the countryside gather together in one place. The records of the apostles, or the writings of the prophets, are read for as long as time allows. Then the one presiding gives a discourse, exhorting the people to imitate these good examples. Then all stand together and offer prayers. Bread and wine mixed with water are brought. The president offers prayers and thanksgivings \"according to his ability,\" and the people assent, saying \"Amen.\" Those present who have means, and are willing, give what they choose. This collection is given to the one presiding. He cares for orphans and widows, the sick, prisoners, and strangers sojourning among them — \"in a word, he takes care of all who are in need.\"\n\nThis is Justin's own report, addressed to an outside, imperial audience, of what happens on the day his own community gathers.",
           "attested_occasion": "Rome, c. 153-157: Justin's own first-person account, addressed to emperor and Senate, of the Sunday gathering - reading, discourse, standing prayer, thanksgiving over bread and mixed cup 'according to his ability,' the Amen, the collection for orphans, widows, the sick, prisoners, strangers. Tier 1 by the chunk's own reasoned edge-case argument (a primary source reporting its own routine practice); Bradshaw's network-template caution carried.",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig005",
@@ -5427,7 +5725,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "a sunday gathering in rome, as justin describes it pahcstory006 story a sunday gathering in rome, as justin describes it writing to the emperor and the roman senate in his own defense of christian practice, justin tells us plainly what \"we\" do. on the day named for the sun, he writes, those in the cities and the countryside gather together in one place. the records of the apostles, or the writings of the prophets, are read for as long as time allows. then the one presiding gives a discourse, exhorting the people to imitate these good examples. then all stand together and offer prayers. bread and wine mixed with water are brought, and the president offers prayers and thanksgivings \"according to his ability,\" and the people assent, saying \"amen.\" those present who have means, and are willing, give what they choose, and this collection is given to the one presiding, who cares for orphans and widows, the sick, prisoners, and strangers sojourning among them — \"in a word, he takes care of all who are in need.\"\n\nthis is justin's own report, addressed to an outside, imperial audience, of what happens on the day his own community gathers. rome, c. 153-157: justin's own first-person account, addressed to emperor and senate, of the sunday gathering - reading, discourse, standing prayer, thanksgiving over bread and mixed cup 'according to his ability,' the amen, the collection for orphans, widows, the sick, prisoners, strangers. tier 1 by the chunk's own reasoned edge-case argument (a primary source reporting its own routine practice); bradshaw's network-template caution carried."
+      "search_text": "a sunday gathering in rome, as justin describes it pahcstory006 story a sunday gathering in rome, as justin describes it writing to the emperor and the roman senate in his own defense of christian practice, justin tells us plainly what \"we\" do. on the day named for the sun, he writes, those in the cities and the countryside gather together in one place. the records of the apostles, or the writings of the prophets, are read for as long as time allows. then the one presiding gives a discourse, exhorting the people to imitate these good examples. then all stand together and offer prayers. bread and wine mixed with water are brought. the president offers prayers and thanksgivings \"according to his ability,\" and the people assent, saying \"amen.\" those present who have means, and are willing, give what they choose. this collection is given to the one presiding. he cares for orphans and widows, the sick, prisoners, and strangers sojourning among them — \"in a word, he takes care of all who are in need.\"\n\nthis is justin's own report, addressed to an outside, imperial audience, of what happens on the day his own community gathers. rome, c. 153-157: justin's own first-person account, addressed to emperor and senate, of the sunday gathering - reading, discourse, standing prayer, thanksgiving over bread and mixed cup 'according to his ability,' the amen, the collection for orphans, widows, the sick, prisoners, strangers. tier 1 by the chunk's own reasoned edge-case argument (a primary source reporting its own routine practice); bradshaw's network-template caution carried."
     },
     {
       "id": "pahcstory007",
@@ -5445,7 +5743,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Classified Tier 1 rather than Tier 3 on the following reasoning: Hermas names himself as the direct recipient and narrator of these visions in his own surviving text — this is direct textual attestation of a named author reporting his own experience, not a hagiographic account attributed to a figure by someone else after the fact (which is what distinguishes Tier 3 material like Story 008). Widely Accepted that the text is genuinely Hermas's own reported content; Contested is the composition's own dating and whether it was written in stages over decades or as a more unified composition.\\n\\nA genre distinction must be disclosed explicitly: this Tier 1 classification concerns the text's own direct, named attestation of *reporting* these visions — it is not a claim that the supernatural content of the visions (an elderly woman who is secretly the Church, a shepherd-figure delivering angelic instruction) is being offered as historically factual. The textual-attestation fact and the supernatural-content claim are two different things, and only the first is what Tier 1 confidence here rests on.\"}.",
           "Attested occasion: Rome, composite composition c. 90-150: Hermas's own reported visions - the Church as an elderly woman growing younger, the Shepherd, the one urgent post-baptismal repentance offered before the door closes; Clement and Grapte named to specific roles (Vision 2.4.3), Rome's plural-leadership pattern in the text's own address. The chunk's genre disclosure carried whole: Tier 1 attests the REPORTING, never the supernatural content as fact.",
-          "Hermas, a freedman living in Rome, tells us in his own text that he received a series of visions. In the first, an elderly woman appears to him, who he later learns represents the Church itself, grown old because she was created first, before all things. In a later vision, she grows younger and more radiant as Hermas's own understanding and the Church's own renewal progress. Through her, and later through a figure called the Shepherd, Hermas is given a message that becomes the center of his book: that God has granted one — and only one — opportunity for repentance after baptism for those who have fallen into serious sin, and that this mercy is offered now, before a final closing of that door.\n\nHermas names Clement by name as a specific, named figure in this world's own tradition (*Vision* 2.4.3), instructed to send copies of the visions to other cities, and Grapte, instructed to exhort the widows and orphans — placing Hermas's own household squarely inside Rome's own plural-leadership pattern, addressed to specific, named roles rather than to a single bishop."
+          "Hermas, a freedman living in Rome, tells us in his own text that he received a series of visions. In the first, an elderly woman appears to him. He later learns she represents the Church itself, grown old because she was created first, before all things. In a later vision, she grows younger and more radiant, as Hermas's own understanding and the Church's own renewal progress. Through her, and later through a figure called the Shepherd, Hermas is given a message that becomes the center of his book. God has granted one - and only one - opportunity for repentance after baptism for those who have fallen into serious sin. This mercy is offered now, before a final closing of that door.\n\nHermas names Clement by name as a specific, named figure in this world's own tradition (*Vision* 2.4.3). Clement is instructed to send copies of the visions to other cities. Grapte is instructed to exhort the widows and orphans. This places Hermas's own household squarely inside Rome's own plural-leadership pattern, addressed to specific, named roles rather than to a single bishop."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5470,7 +5768,7 @@
             "tier": 1,
             "justification": "Classified Tier 1 rather than Tier 3 on the following reasoning: Hermas names himself as the direct recipient and narrator of these visions in his own surviving text — this is direct textual attestation of a named author reporting his own experience, not a hagiographic account attributed to a figure by someone else after the fact (which is what distinguishes Tier 3 material like Story 008). Widely Accepted that the text is genuinely Hermas's own reported content; Contested is the composition's own dating and whether it was written in stages over decades or as a more unified composition.\n\nA genre distinction must be disclosed explicitly: this Tier 1 classification concerns the text's own direct, named attestation of *reporting* these visions — it is not a claim that the supernatural content of the visions (an elderly woman who is secretly the Church, a shepherd-figure delivering angelic instruction) is being offered as historically factual. The textual-attestation fact and the supernatural-content claim are two different things, and only the first is what Tier 1 confidence here rests on."
           },
-          "text": "Hermas, a freedman living in Rome, tells us in his own text that he received a series of visions. In the first, an elderly woman appears to him, who he later learns represents the Church itself, grown old because she was created first, before all things. In a later vision, she grows younger and more radiant as Hermas's own understanding and the Church's own renewal progress. Through her, and later through a figure called the Shepherd, Hermas is given a message that becomes the center of his book: that God has granted one — and only one — opportunity for repentance after baptism for those who have fallen into serious sin, and that this mercy is offered now, before a final closing of that door.\n\nHermas names Clement by name as a specific, named figure in this world's own tradition (*Vision* 2.4.3), instructed to send copies of the visions to other cities, and Grapte, instructed to exhort the widows and orphans — placing Hermas's own household squarely inside Rome's own plural-leadership pattern, addressed to specific, named roles rather than to a single bishop.",
+          "text": "Hermas, a freedman living in Rome, tells us in his own text that he received a series of visions. In the first, an elderly woman appears to him. He later learns she represents the Church itself, grown old because she was created first, before all things. In a later vision, she grows younger and more radiant, as Hermas's own understanding and the Church's own renewal progress. Through her, and later through a figure called the Shepherd, Hermas is given a message that becomes the center of his book. God has granted one - and only one - opportunity for repentance after baptism for those who have fallen into serious sin. This mercy is offered now, before a final closing of that door.\n\nHermas names Clement by name as a specific, named figure in this world's own tradition (*Vision* 2.4.3). Clement is instructed to send copies of the visions to other cities. Grapte is instructed to exhort the widows and orphans. This places Hermas's own household squarely inside Rome's own plural-leadership pattern, addressed to specific, named roles rather than to a single bishop.",
           "attested_occasion": "Rome, composite composition c. 90-150: Hermas's own reported visions - the Church as an elderly woman growing younger, the Shepherd, the one urgent post-baptismal repentance offered before the door closes; Clement and Grapte named to specific roles (Vision 2.4.3), Rome's plural-leadership pattern in the text's own address. The chunk's genre disclosure carried whole: Tier 1 attests the REPORTING, never the supernatural content as fact.",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig004",
@@ -5507,7 +5805,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "hermas's visions of mercy after sin pahcstory007 story hermas's visions of mercy after sin hermas, a freedman living in rome, tells us in his own text that he received a series of visions. in the first, an elderly woman appears to him, who he later learns represents the church itself, grown old because she was created first, before all things. in a later vision, she grows younger and more radiant as hermas's own understanding and the church's own renewal progress. through her, and later through a figure called the shepherd, hermas is given a message that becomes the center of his book: that god has granted one — and only one — opportunity for repentance after baptism for those who have fallen into serious sin, and that this mercy is offered now, before a final closing of that door.\n\nhermas names clement by name as a specific, named figure in this world's own tradition (*vision* 2.4.3), instructed to send copies of the visions to other cities, and grapte, instructed to exhort the widows and orphans — placing hermas's own household squarely inside rome's own plural-leadership pattern, addressed to specific, named roles rather than to a single bishop. rome, composite composition c. 90-150: hermas's own reported visions - the church as an elderly woman growing younger, the shepherd, the one urgent post-baptismal repentance offered before the door closes; clement and grapte named to specific roles (vision 2.4.3), rome's plural-leadership pattern in the text's own address. the chunk's genre disclosure carried whole: tier 1 attests the reporting, never the supernatural content as fact."
+      "search_text": "hermas's visions of mercy after sin pahcstory007 story hermas's visions of mercy after sin hermas, a freedman living in rome, tells us in his own text that he received a series of visions. in the first, an elderly woman appears to him. he later learns she represents the church itself, grown old because she was created first, before all things. in a later vision, she grows younger and more radiant, as hermas's own understanding and the church's own renewal progress. through her, and later through a figure called the shepherd, hermas is given a message that becomes the center of his book. god has granted one - and only one - opportunity for repentance after baptism for those who have fallen into serious sin. this mercy is offered now, before a final closing of that door.\n\nhermas names clement by name as a specific, named figure in this world's own tradition (*vision* 2.4.3). clement is instructed to send copies of the visions to other cities. grapte is instructed to exhort the widows and orphans. this places hermas's own household squarely inside rome's own plural-leadership pattern, addressed to specific, named roles rather than to a single bishop. rome, composite composition c. 90-150: hermas's own reported visions - the church as an elderly woman growing younger, the shepherd, the one urgent post-baptismal repentance offered before the door closes; clement and grapte named to specific roles (vision 2.4.3), rome's plural-leadership pattern in the text's own address. the chunk's genre disclosure carried whole: tier 1 attests the reporting, never the supernatural content as fact."
     },
     {
       "id": "pahcstory008",
@@ -5525,7 +5823,7 @@
         "observe": [
           "Narrative tier: {'tier': 3, 'justification': \"This is this world's clearest Tier 3 case. It is attributed to a specific figure and moment — Polycarp's arrest and death — and transmitted by the receiving community, framed within its own text as a letter from Smyrna to Philomelium, rather than direct documentation by Polycarp himself or a contemporaneous outside witness. The account is shaped throughout by recognizable hagiographic and martyrological convention: idealized courage under interrogation, a theatrically staged arrest and death (the fire that will not touch him, the dagger, the dove), and the *dies natalis* framing of death as birth into true life. The bone-collection scene (ch. 18) explicitly echoes relic-veneration language.\\n\\nThe text's own concluding chapters (20–22) are independently regarded by scholars as later redactional additions — meaning even this text's own ending is not a single-layer witness, and this document does not treat that as a defect to be smoothed over. Per the Framework's own discipline, the account of what a formed life looks like is itself genuine formation-ecology evidence, even where specific narrated details (the fire's behavior, the dove) cannot be treated as historical reporting.\"}.",
           "Attested occasion: Smyrna's letter to Philomelium (trad. c. 155-156; Eusebius 167; chs. 20-22 widely held later additions): Polycarp's arrest, the eighty-six-years answer, the fire like a ship's sail, the dagger, the disputed dove, the bones 'more precious than the finest gold' and the annual gathering at the tomb - the community's own martyrology, told in its own commemorative register (Tier 3 by the chunk's own genre analysis).",
-          "This is how the tradition remembers Polycarp — what the community that had known him believed a life fully given to this world's formation logic could become, even to its very end. The church at Smyrna tells the story of Polycarp, aged bishop, refused flight when his own community begged him to go into hiding, then withdrew briefly at their urging before being betrayed by someone in his own household under torture. Brought before the proconsul and told to swear by the emperor's fortune, curse Christ, and be spared, Polycarp answers: \"Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?\"\n\nThe tradition tells us the crowd called for a lion, then for fire; that the fire, when lit, arched around him \"like a ship's sail filled by the wind\" without touching him, so that he had to be finished with a dagger; that the wound produced not blood but such a quantity that it quenched the fire around it, and that a dove flew out — a detail many manuscripts do not carry, and which even ancient copyists disputed. The community tells us they gathered his bones afterward, \"more precious than the finest gold,\" to keep at his tomb and gather there each year on the day of his death — his *dies natalis*, his birthday into true life — \"both in memory of those who have already fought the contest, and for the training and preparation of those who will do so.\"\n\nThis is the tradition's own witness to what it believed formation could produce, told in the register the tradition itself uses to honor it — not a transcript of what happened, but a testimony to what it meant."
+          "This is how the tradition remembers Polycarp. It is what the community that had known him believed a life fully given to this world's formation logic could become, even to its very end. The church at Smyrna tells the story of Polycarp, an aged bishop. He refused flight when his own community begged him to go into hiding. He then withdrew briefly at their urging. He was betrayed by someone in his own household, under torture. He was brought before the proconsul and told to swear by the emperor's fortune, curse Christ, and be spared. Polycarp answers: \"Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?\"\n\nThe tradition tells us the crowd called for a lion, then for fire. The fire, when lit, arched around him \"like a ship's sail filled by the wind\" without touching him, so he had to be finished with a dagger. The wound produced not blood but such a quantity that it quenched the fire around it, and a dove flew out. This is a detail many manuscripts do not carry, and which even ancient copyists disputed. The community tells us they gathered his bones afterward, \"more precious than the finest gold.\" They kept the bones at his tomb and gathered there each year on the day of his death, his *dies natalis*, his birthday into true life. They did this \"both in memory of those who have already fought the contest, and for the training and preparation of those who will do so.\"\n\nThis is the tradition's own witness to what it believed formation could produce. It is told in the register the tradition itself uses to honor him. It is not a transcript of what happened, but a testimony to what it meant."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5552,7 +5850,7 @@
             "tier": 3,
             "justification": "This is this world's clearest Tier 3 case. It is attributed to a specific figure and moment — Polycarp's arrest and death — and transmitted by the receiving community, framed within its own text as a letter from Smyrna to Philomelium, rather than direct documentation by Polycarp himself or a contemporaneous outside witness. The account is shaped throughout by recognizable hagiographic and martyrological convention: idealized courage under interrogation, a theatrically staged arrest and death (the fire that will not touch him, the dagger, the dove), and the *dies natalis* framing of death as birth into true life. The bone-collection scene (ch. 18) explicitly echoes relic-veneration language.\n\nThe text's own concluding chapters (20–22) are independently regarded by scholars as later redactional additions — meaning even this text's own ending is not a single-layer witness, and this document does not treat that as a defect to be smoothed over. Per the Framework's own discipline, the account of what a formed life looks like is itself genuine formation-ecology evidence, even where specific narrated details (the fire's behavior, the dove) cannot be treated as historical reporting."
           },
-          "text": "This is how the tradition remembers Polycarp — what the community that had known him believed a life fully given to this world's formation logic could become, even to its very end. The church at Smyrna tells the story of Polycarp, aged bishop, refused flight when his own community begged him to go into hiding, then withdrew briefly at their urging before being betrayed by someone in his own household under torture. Brought before the proconsul and told to swear by the emperor's fortune, curse Christ, and be spared, Polycarp answers: \"Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?\"\n\nThe tradition tells us the crowd called for a lion, then for fire; that the fire, when lit, arched around him \"like a ship's sail filled by the wind\" without touching him, so that he had to be finished with a dagger; that the wound produced not blood but such a quantity that it quenched the fire around it, and that a dove flew out — a detail many manuscripts do not carry, and which even ancient copyists disputed. The community tells us they gathered his bones afterward, \"more precious than the finest gold,\" to keep at his tomb and gather there each year on the day of his death — his *dies natalis*, his birthday into true life — \"both in memory of those who have already fought the contest, and for the training and preparation of those who will do so.\"\n\nThis is the tradition's own witness to what it believed formation could produce, told in the register the tradition itself uses to honor it — not a transcript of what happened, but a testimony to what it meant.",
+          "text": "This is how the tradition remembers Polycarp. It is what the community that had known him believed a life fully given to this world's formation logic could become, even to its very end. The church at Smyrna tells the story of Polycarp, an aged bishop. He refused flight when his own community begged him to go into hiding. He then withdrew briefly at their urging. He was betrayed by someone in his own household, under torture. He was brought before the proconsul and told to swear by the emperor's fortune, curse Christ, and be spared. Polycarp answers: \"Eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King who saved me?\"\n\nThe tradition tells us the crowd called for a lion, then for fire. The fire, when lit, arched around him \"like a ship's sail filled by the wind\" without touching him, so he had to be finished with a dagger. The wound produced not blood but such a quantity that it quenched the fire around it, and a dove flew out. This is a detail many manuscripts do not carry, and which even ancient copyists disputed. The community tells us they gathered his bones afterward, \"more precious than the finest gold.\" They kept the bones at his tomb and gathered there each year on the day of his death, his *dies natalis*, his birthday into true life. They did this \"both in memory of those who have already fought the contest, and for the training and preparation of those who will do so.\"\n\nThis is the tradition's own witness to what it believed formation could produce. It is told in the register the tradition itself uses to honor him. It is not a transcript of what happened, but a testimony to what it meant.",
           "attested_occasion": "Smyrna's letter to Philomelium (trad. c. 155-156; Eusebius 167; chs. 20-22 widely held later additions): Polycarp's arrest, the eighty-six-years answer, the fire like a ship's sail, the dagger, the disputed dove, the bones 'more precious than the finest gold' and the annual gathering at the tomb - the community's own martyrology, told in its own commemorative register (Tier 3 by the chunk's own genre analysis).",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig003",
@@ -5594,7 +5892,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the martyrdom of polycarp pahcstory008 story the martyrdom of polycarp this is how the tradition remembers polycarp — what the community that had known him believed a life fully given to this world's formation logic could become, even to its very end. the church at smyrna tells the story of polycarp, aged bishop, refused flight when his own community begged him to go into hiding, then withdrew briefly at their urging before being betrayed by someone in his own household under torture. brought before the proconsul and told to swear by the emperor's fortune, curse christ, and be spared, polycarp answers: \"eighty-six years i have served him, and he has done me no wrong. how can i blaspheme my king who saved me?\"\n\nthe tradition tells us the crowd called for a lion, then for fire; that the fire, when lit, arched around him \"like a ship's sail filled by the wind\" without touching him, so that he had to be finished with a dagger; that the wound produced not blood but such a quantity that it quenched the fire around it, and that a dove flew out — a detail many manuscripts do not carry, and which even ancient copyists disputed. the community tells us they gathered his bones afterward, \"more precious than the finest gold,\" to keep at his tomb and gather there each year on the day of his death — his *dies natalis*, his birthday into true life — \"both in memory of those who have already fought the contest, and for the training and preparation of those who will do so.\"\n\nthis is the tradition's own witness to what it believed formation could produce, told in the register the tradition itself uses to honor it — not a transcript of what happened, but a testimony to what it meant. smyrna's letter to philomelium (trad. c. 155-156; eusebius 167; chs. 20-22 widely held later additions): polycarp's arrest, the eighty-six-years answer, the fire like a ship's sail, the dagger, the disputed dove, the bones 'more precious than the finest gold' and the annual gathering at the tomb - the community's own martyrology, told in its own commemorative register (tier 3 by the chunk's own genre analysis)."
+      "search_text": "the martyrdom of polycarp pahcstory008 story the martyrdom of polycarp this is how the tradition remembers polycarp. it is what the community that had known him believed a life fully given to this world's formation logic could become, even to its very end. the church at smyrna tells the story of polycarp, an aged bishop. he refused flight when his own community begged him to go into hiding. he then withdrew briefly at their urging. he was betrayed by someone in his own household, under torture. he was brought before the proconsul and told to swear by the emperor's fortune, curse christ, and be spared. polycarp answers: \"eighty-six years i have served him, and he has done me no wrong. how can i blaspheme my king who saved me?\"\n\nthe tradition tells us the crowd called for a lion, then for fire. the fire, when lit, arched around him \"like a ship's sail filled by the wind\" without touching him, so he had to be finished with a dagger. the wound produced not blood but such a quantity that it quenched the fire around it, and a dove flew out. this is a detail many manuscripts do not carry, and which even ancient copyists disputed. the community tells us they gathered his bones afterward, \"more precious than the finest gold.\" they kept the bones at his tomb and gathered there each year on the day of his death, his *dies natalis*, his birthday into true life. they did this \"both in memory of those who have already fought the contest, and for the training and preparation of those who will do so.\"\n\nthis is the tradition's own witness to what it believed formation could produce. it is told in the register the tradition itself uses to honor him. it is not a transcript of what happened, but a testimony to what it meant. smyrna's letter to philomelium (trad. c. 155-156; eusebius 167; chs. 20-22 widely held later additions): polycarp's arrest, the eighty-six-years answer, the fire like a ship's sail, the dagger, the disputed dove, the bones 'more precious than the finest gold' and the annual gathering at the tomb - the community's own martyrology, told in its own commemorative register (tier 3 by the chunk's own genre analysis)."
     },
     {
       "id": "pahcstory009",
@@ -5612,7 +5910,7 @@
         "observe": [
           "Narrative tier: {'tier': 4, 'justification': \"No single named catechumen is attested anywhere in this world's evidence. This is a composite reconstruction of typical practice — teaching the Two Ways, then baptism with its water and fasting instructions — built entirely from the Didache's own sequential instructional text (chs. 1–7), which itself is Documented as a genuine catechetical/church-order document from within this world's evidentiary base. Every element in the Story Text traces to a specific instruction in that text; see Source Identification below.\"}.",
           "Attested occasion: Tier-4 composite from the Didache's own sequential text (chs. 1-7): the Two Ways taught first - the Way of Life with its rule of restraint, the Way of Death by contrast - then the fasts, then the water (running, still, or poured threefold); every element traced in the chunk's own Source Identification table; never extended beyond the Didache's own single community (the chunk's own cap - the S2.1b watch item's story-side).",
-          "This is how it would have been, in the typical life of someone entering this community through the path the Didache itself lays out. Before anything else, the one preparing for baptism would be taught the Two Ways: the Way of Life, beginning with love of God and neighbor and the Golden Rule turned into a rule of restraint — \"whatever you do not want done to you, do not do to another\" — running through concrete instruction against murder, adultery, magic, abortion, exposure of infants, theft, lying, and reaching further into practical generosity, almsgiving, and how to treat those in need without grudging. And the Way of Death, listed by contrast as a catalog of the vices that Way rejects.\n\nOnce this teaching had been given, \"having first recited all these things,\" the one preparing would be baptized — in running water if it could be found, but cold standing water if not, and if neither was available, water poured three times over the head, in the name of the Father, Son, and Holy Spirit. Before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast — the one being baptized fasting one or two days before.\n\nThis is not the account of one named person. It is a composite of the instructions the Didache itself gives for anyone undergoing this preparation, reconstructed as a continuous path from teaching to water."
+          "This is how it would have been, in the typical life of someone entering this community through the path the Didache itself lays out. Before anything else, the one preparing for baptism would be taught the Two Ways. The Way of Life began with love of God and neighbor, and the Golden Rule turned into a rule of restraint: \"whatever you do not want done to you, do not do to another.\" It ran through concrete instruction against murder, adultery, magic, abortion, exposure of infants, theft, and lying. It reached further into practical generosity, almsgiving, and how to treat those in need without grudging. The Way of Death was listed by contrast, as a catalog of the vices that Way rejects.\n\nOnce this teaching had been given, \"having first recited all these things,\" the one preparing would be baptized. This was done in running water if it could be found, but cold standing water if not. If neither was available, water was poured three times over the head, in the name of the Father, Son, and Holy Spirit. Before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast. The one being baptized fasted one or two days before.\n\nThis is not the account of one named person. It is a composite of the instructions the Didache itself gives for anyone undergoing this preparation, reconstructed as a continuous path from teaching to water."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5639,7 +5937,7 @@
             "tier": 4,
             "justification": "No single named catechumen is attested anywhere in this world's evidence. This is a composite reconstruction of typical practice — teaching the Two Ways, then baptism with its water and fasting instructions — built entirely from the Didache's own sequential instructional text (chs. 1–7), which itself is Documented as a genuine catechetical/church-order document from within this world's evidentiary base. Every element in the Story Text traces to a specific instruction in that text; see Source Identification below."
           },
-          "text": "This is how it would have been, in the typical life of someone entering this community through the path the Didache itself lays out. Before anything else, the one preparing for baptism would be taught the Two Ways: the Way of Life, beginning with love of God and neighbor and the Golden Rule turned into a rule of restraint — \"whatever you do not want done to you, do not do to another\" — running through concrete instruction against murder, adultery, magic, abortion, exposure of infants, theft, lying, and reaching further into practical generosity, almsgiving, and how to treat those in need without grudging. And the Way of Death, listed by contrast as a catalog of the vices that Way rejects.\n\nOnce this teaching had been given, \"having first recited all these things,\" the one preparing would be baptized — in running water if it could be found, but cold standing water if not, and if neither was available, water poured three times over the head, in the name of the Father, Son, and Holy Spirit. Before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast — the one being baptized fasting one or two days before.\n\nThis is not the account of one named person. It is a composite of the instructions the Didache itself gives for anyone undergoing this preparation, reconstructed as a continuous path from teaching to water.",
+          "text": "This is how it would have been, in the typical life of someone entering this community through the path the Didache itself lays out. Before anything else, the one preparing for baptism would be taught the Two Ways. The Way of Life began with love of God and neighbor, and the Golden Rule turned into a rule of restraint: \"whatever you do not want done to you, do not do to another.\" It ran through concrete instruction against murder, adultery, magic, abortion, exposure of infants, theft, and lying. It reached further into practical generosity, almsgiving, and how to treat those in need without grudging. The Way of Death was listed by contrast, as a catalog of the vices that Way rejects.\n\nOnce this teaching had been given, \"having first recited all these things,\" the one preparing would be baptized. This was done in running water if it could be found, but cold standing water if not. If neither was available, water was poured three times over the head, in the name of the Father, Son, and Holy Spirit. Before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast. The one being baptized fasted one or two days before.\n\nThis is not the account of one named person. It is a composite of the instructions the Didache itself gives for anyone undergoing this preparation, reconstructed as a continuous path from teaching to water.",
           "attested_occasion": "Tier-4 composite from the Didache's own sequential text (chs. 1-7): the Two Ways taught first - the Way of Life with its rule of restraint, the Way of Death by contrast - then the fasts, then the water (running, still, or poured threefold); every element traced in the chunk's own Source Identification table; never extended beyond the Didache's own single community (the chunk's own cap - the S2.1b watch item's story-side).",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig008",
@@ -5674,7 +5972,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the two ways: a catechumen's path to the water pahcstory009 story the two ways: a catechumen's path to the water this is how it would have been, in the typical life of someone entering this community through the path the didache itself lays out. before anything else, the one preparing for baptism would be taught the two ways: the way of life, beginning with love of god and neighbor and the golden rule turned into a rule of restraint — \"whatever you do not want done to you, do not do to another\" — running through concrete instruction against murder, adultery, magic, abortion, exposure of infants, theft, lying, and reaching further into practical generosity, almsgiving, and how to treat those in need without grudging. and the way of death, listed by contrast as a catalog of the vices that way rejects.\n\nonce this teaching had been given, \"having first recited all these things,\" the one preparing would be baptized — in running water if it could be found, but cold standing water if not, and if neither was available, water poured three times over the head, in the name of the father, son, and holy spirit. before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast — the one being baptized fasting one or two days before.\n\nthis is not the account of one named person. it is a composite of the instructions the didache itself gives for anyone undergoing this preparation, reconstructed as a continuous path from teaching to water. tier-4 composite from the didache's own sequential text (chs. 1-7): the two ways taught first - the way of life with its rule of restraint, the way of death by contrast - then the fasts, then the water (running, still, or poured threefold); every element traced in the chunk's own source identification table; never extended beyond the didache's own single community (the chunk's own cap - the s2.1b watch item's story-side)."
+      "search_text": "the two ways: a catechumen's path to the water pahcstory009 story the two ways: a catechumen's path to the water this is how it would have been, in the typical life of someone entering this community through the path the didache itself lays out. before anything else, the one preparing for baptism would be taught the two ways. the way of life began with love of god and neighbor, and the golden rule turned into a rule of restraint: \"whatever you do not want done to you, do not do to another.\" it ran through concrete instruction against murder, adultery, magic, abortion, exposure of infants, theft, and lying. it reached further into practical generosity, almsgiving, and how to treat those in need without grudging. the way of death was listed by contrast, as a catalog of the vices that way rejects.\n\nonce this teaching had been given, \"having first recited all these things,\" the one preparing would be baptized. this was done in running water if it could be found, but cold standing water if not. if neither was available, water was poured three times over the head, in the name of the father, son, and holy spirit. before the baptism, both the one baptizing and the one being baptized, and any others who were able, were told to fast. the one being baptized fasted one or two days before.\n\nthis is not the account of one named person. it is a composite of the instructions the didache itself gives for anyone undergoing this preparation, reconstructed as a continuous path from teaching to water. tier-4 composite from the didache's own sequential text (chs. 1-7): the two ways taught first - the way of life with its rule of restraint, the way of death by contrast - then the fasts, then the water (running, still, or poured threefold); every element traced in the chunk's own source identification table; never extended beyond the didache's own single community (the chunk's own cap - the s2.1b watch item's story-side)."
     },
     {
       "id": "pahcstory010",
@@ -5692,7 +5990,7 @@
         "observe": [
           "Narrative tier: {'tier': 4, 'justification': \"A composite reconstruction of a distinctive, attested practice — cup-before-bread order, no institution narrative, confession required before participation — genuinely different in kind from Justin's (Story 006) and Ignatius's (Story 011) own eucharistic material, not a variant retelling of the same underlying practice. Every element traces to the Didache's own text; see Source Identification below.\"}.",
           "Attested occasion: Tier-4 composite from Didache 9-10 and 14: cup before bread, thanks for vine and knowledge and gathering, the baptized-only rule, the Maranatha, confession and reconciliation before the Lord's-day breaking of bread - and NO institution narrative anywhere in the order: 'a formation logic built without an institution narrative at all' (the chunk's own point; the diversity-first discipline, never merged with Justin's or Ignatius's orders).",
-          "This is how it would have been, in a community that gathered and gave thanks the way the Didache instructs. Over the cup, first, before the bread: \"We give you thanks, our Father, for the holy vine of David your servant, which you made known to us through Jesus your servant. To you be glory forever.\" Then over the broken bread: \"We give you thanks, our Father, for the life and knowledge you made known to us through Jesus your servant... As this broken bread was scattered upon the mountains and was gathered together and became one, so let your church be gathered together from the ends of the earth into your kingdom.\"\n\nNo one who was not baptized ate or drank of this thanksgiving, \"for concerning this also the Lord has said, do not give what is holy to the dogs.\" After all had eaten their fill, a longer thanksgiving followed, asking that the church be remembered and gathered, and ending with the community's own cry, in its own tongue: \"Maranatha\" — Our Lord, come. On the Lord's own day, the community would gather, break bread, and give thanks, \"having first confessed your transgressions, that your sacrifice may be pure\" — anyone in a dispute with another was to be reconciled first, \"that your sacrifice may not be defiled.\"\n\nNowhere in this order does anyone tell the story of a supper, a betrayal, or a body and blood given in memory. The thanksgiving is for knowledge, for the vine, for gathering — a formation logic built without an institution narrative at all."
+          "This is how it would have been, in a community that gathered and gave thanks the way the Didache instructs. Over the cup, first, before the bread: \"We give you thanks, our Father, for the holy vine of David your servant, which you made known to us through Jesus your servant. To you be glory forever.\" Then over the broken bread: \"We give you thanks, our Father, for the life and knowledge you made known to us through Jesus your servant... As this broken bread was scattered upon the mountains and was gathered together and became one, so let your church be gathered together from the ends of the earth into your kingdom.\"\n\nNo one who was not baptized ate or drank of this thanksgiving, \"for concerning this also the Lord has said, do not give what is holy to the dogs.\" After all had eaten their fill, a longer thanksgiving followed. It asked that the church be remembered and gathered. It ended with the community's own cry, in its own tongue: \"Maranatha\" — Our Lord, come. On the Lord's own day, the community would gather, break bread, and give thanks, \"having first confessed your transgressions, that your sacrifice may be pure.\" Anyone in a dispute with another was to be reconciled first, \"that your sacrifice may not be defiled.\"\n\nNowhere in this order does anyone tell the story of a supper, a betrayal, or a body and blood given in memory. The thanksgiving is for knowledge, for the vine, for gathering. It is a formation logic built without an institution narrative at all."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5717,11 +6015,11 @@
             "tier": 4,
             "justification": "A composite reconstruction of a distinctive, attested practice — cup-before-bread order, no institution narrative, confession required before participation — genuinely different in kind from Justin's (Story 006) and Ignatius's (Story 011) own eucharistic material, not a variant retelling of the same underlying practice. Every element traces to the Didache's own text; see Source Identification below."
           },
-          "text": "This is how it would have been, in a community that gathered and gave thanks the way the Didache instructs. Over the cup, first, before the bread: \"We give you thanks, our Father, for the holy vine of David your servant, which you made known to us through Jesus your servant. To you be glory forever.\" Then over the broken bread: \"We give you thanks, our Father, for the life and knowledge you made known to us through Jesus your servant... As this broken bread was scattered upon the mountains and was gathered together and became one, so let your church be gathered together from the ends of the earth into your kingdom.\"\n\nNo one who was not baptized ate or drank of this thanksgiving, \"for concerning this also the Lord has said, do not give what is holy to the dogs.\" After all had eaten their fill, a longer thanksgiving followed, asking that the church be remembered and gathered, and ending with the community's own cry, in its own tongue: \"Maranatha\" — Our Lord, come. On the Lord's own day, the community would gather, break bread, and give thanks, \"having first confessed your transgressions, that your sacrifice may be pure\" — anyone in a dispute with another was to be reconciled first, \"that your sacrifice may not be defiled.\"\n\nNowhere in this order does anyone tell the story of a supper, a betrayal, or a body and blood given in memory. The thanksgiving is for knowledge, for the vine, for gathering — a formation logic built without an institution narrative at all.",
+          "text": "This is how it would have been, in a community that gathered and gave thanks the way the Didache instructs. Over the cup, first, before the bread: \"We give you thanks, our Father, for the holy vine of David your servant, which you made known to us through Jesus your servant. To you be glory forever.\" Then over the broken bread: \"We give you thanks, our Father, for the life and knowledge you made known to us through Jesus your servant... As this broken bread was scattered upon the mountains and was gathered together and became one, so let your church be gathered together from the ends of the earth into your kingdom.\"\n\nNo one who was not baptized ate or drank of this thanksgiving, \"for concerning this also the Lord has said, do not give what is holy to the dogs.\" After all had eaten their fill, a longer thanksgiving followed. It asked that the church be remembered and gathered. It ended with the community's own cry, in its own tongue: \"Maranatha\" — Our Lord, come. On the Lord's own day, the community would gather, break bread, and give thanks, \"having first confessed your transgressions, that your sacrifice may be pure.\" Anyone in a dispute with another was to be reconciled first, \"that your sacrifice may not be defiled.\"\n\nNowhere in this order does anyone tell the story of a supper, a betrayal, or a body and blood given in memory. The thanksgiving is for knowledge, for the vine, for gathering. It is a formation logic built without an institution narrative at all.",
           "attested_occasion": "Tier-4 composite from Didache 9-10 and 14: cup before bread, thanks for vine and knowledge and gathering, the baptized-only rule, the Maranatha, confession and reconciliation before the Lord's-day breaking of bread - and NO institution narrative anywhere in the order: 'a formation logic built without an institution narrative at all' (the chunk's own point; the diversity-first discipline, never merged with Justin's or Ignatius's orders).",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig008",
-          "voice_surface": "We tell this table as the handbook gives it: the cup first, the broken bread scattered on the mountains and gathered into one, the thanks for knowledge and for gathering, and at the end the community's own cry - Maranatha. No supper is retold at it, no body and blood given in memory; that is not a lack we apologize for but the shape this thanksgiving actually has, and we keep it distinct from the other tables our record holds. Usage guidance (chunk, verbatim): The Representative may narrate this as typical practice in this specific community, explicitly marked as reconstruction — \"In a community following the Didache's own order...\" The Representative must be prepared to acknowledge that this is reconstruction from the Didache's own instructions, not a specific recorded event.\n\nAdditional guidance specific to this story: must be told as its own distinct practice, explicitly not blended with Story 006 or Story 011 into one composite \"the\" eucharist. If a participant asks \"which one is the real early eucharist,\" the honest answer this world's own evidence supports is that no single answer exists — this world attests at least three genuinely different orders.",
+          "voice_surface": "We tell this table as the handbook gives it: the cup first, the broken bread scattered on the mountains and gathered into one, the thanks for knowledge and for gathering, and at the end the community's own cry - Maranatha. No supper is retold at it, no body and blood given in memory; that is not a lack we apologize for but the shape this thanksgiving actually has, and we keep it distinct from the other tables our record holds. Usage guidance (chunk, verbatim): The Representative may narrate this as typical practice in this specific community, explicitly marked as a pattern drawn from the Didache's own instructions — \"In a community following the Didache's own order...\" The Representative must be prepared to acknowledge that this is drawn from the Didache's own instructions, not a specific recorded event.\n\nAdditional guidance specific to this story: must be told as its own distinct practice, explicitly not blended with Story 006 or Story 011 into one composite \"the\" eucharist. If a participant asks \"which one is the real early eucharist,\" the honest answer this world's own evidence supports is that no single answer exists — this world attests at least three genuinely different orders.",
           "confidence_line": "Inferential-Thin (always, per Tier 4)",
           "retrieval": {
             "tier": 4,
@@ -5758,7 +6056,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "a meal without a story pahcstory010 story a meal without a story this is how it would have been, in a community that gathered and gave thanks the way the didache instructs. over the cup, first, before the bread: \"we give you thanks, our father, for the holy vine of david your servant, which you made known to us through jesus your servant. to you be glory forever.\" then over the broken bread: \"we give you thanks, our father, for the life and knowledge you made known to us through jesus your servant... as this broken bread was scattered upon the mountains and was gathered together and became one, so let your church be gathered together from the ends of the earth into your kingdom.\"\n\nno one who was not baptized ate or drank of this thanksgiving, \"for concerning this also the lord has said, do not give what is holy to the dogs.\" after all had eaten their fill, a longer thanksgiving followed, asking that the church be remembered and gathered, and ending with the community's own cry, in its own tongue: \"maranatha\" — our lord, come. on the lord's own day, the community would gather, break bread, and give thanks, \"having first confessed your transgressions, that your sacrifice may be pure\" — anyone in a dispute with another was to be reconciled first, \"that your sacrifice may not be defiled.\"\n\nnowhere in this order does anyone tell the story of a supper, a betrayal, or a body and blood given in memory. the thanksgiving is for knowledge, for the vine, for gathering — a formation logic built without an institution narrative at all. tier-4 composite from didache 9-10 and 14: cup before bread, thanks for vine and knowledge and gathering, the baptized-only rule, the maranatha, confession and reconciliation before the lord's-day breaking of bread - and no institution narrative anywhere in the order: 'a formation logic built without an institution narrative at all' (the chunk's own point; the diversity-first discipline, never merged with justin's or ignatius's orders)."
+      "search_text": "a meal without a story pahcstory010 story a meal without a story this is how it would have been, in a community that gathered and gave thanks the way the didache instructs. over the cup, first, before the bread: \"we give you thanks, our father, for the holy vine of david your servant, which you made known to us through jesus your servant. to you be glory forever.\" then over the broken bread: \"we give you thanks, our father, for the life and knowledge you made known to us through jesus your servant... as this broken bread was scattered upon the mountains and was gathered together and became one, so let your church be gathered together from the ends of the earth into your kingdom.\"\n\nno one who was not baptized ate or drank of this thanksgiving, \"for concerning this also the lord has said, do not give what is holy to the dogs.\" after all had eaten their fill, a longer thanksgiving followed. it asked that the church be remembered and gathered. it ended with the community's own cry, in its own tongue: \"maranatha\" — our lord, come. on the lord's own day, the community would gather, break bread, and give thanks, \"having first confessed your transgressions, that your sacrifice may be pure.\" anyone in a dispute with another was to be reconciled first, \"that your sacrifice may not be defiled.\"\n\nnowhere in this order does anyone tell the story of a supper, a betrayal, or a body and blood given in memory. the thanksgiving is for knowledge, for the vine, for gathering. it is a formation logic built without an institution narrative at all. tier-4 composite from didache 9-10 and 14: cup before bread, thanks for vine and knowledge and gathering, the baptized-only rule, the maranatha, confession and reconciliation before the lord's-day breaking of bread - and no institution narrative anywhere in the order: 'a formation logic built without an institution narrative at all' (the chunk's own point; the diversity-first discipline, never merged with justin's or ignatius's orders)."
     },
     {
       "id": "pahcstory011",
@@ -5776,7 +6074,7 @@
         "observe": [
           "Narrative tier: {'tier': 4, 'justification': \"A composite reconstruction of a member attending the bishop's own eucharist and refusing any other, built from Ignatius's own instructions across two letters — not a single narrated event with a named participant undergoing this. Carries the same authenticity/dating caveats as Story 001, since it draws on the same contested source (Ignatius's letters); see Story 001's Tier Justification for the fuller three-way dispute. A further open question, not resolved here: how far this instruction reflects settled practice already in place versus an aspirational program Ignatius himself was actively arguing for and had not yet secured — Doc_01's own open Strand Determination question.\"}.",
           "Attested occasion: Tier-4 composite built entirely from Ignatius's own instructions (Philadelphians 4; Smyrnaeans 8): one eucharist, one altar, one bishop; nothing without him; 'composite in method, but not in subject' (the halstory11 precedent - one man's own program throughout); the same authenticity caveats as story 001, plus the open settled-practice-vs-aspirational-program question the chunk carries from Doc_01.",
-          "This is how it would have been, in a community formed under Ignatius's own instruction. Take care, he insists, to observe one eucharist — for there is one flesh of the Lord and one cup for union with his blood, one altar, as there is one bishop together with the presbytery and deacons. Whatever the bishop approves, he writes, is pleasing to God, \"so that everything you do may be secure and valid.\" No one should do anything pertaining to the church without the bishop: let that be considered a valid eucharist which is held under the bishop or one to whom the bishop has entrusted it. Wherever the bishop appears, let the congregation be there, \"just as wherever Jesus Christ is, there is the catholic church.\" It is not permitted, apart from the bishop, either to baptize or to hold a love-feast.\n\nA member formed this way would refuse, Ignatius's instruction implies, to attend any gathering that broke bread apart from this single, bishop-anchored table — treating the eucharist itself as inseparable from the question of who legitimately gathers the community at all."
+          "This is how it would have been, in a community formed under Ignatius's own instruction. Take care, he insists, to observe one eucharist. There is one flesh of the Lord and one cup for union with his blood, one altar, as there is one bishop together with the presbytery and deacons. Whatever the bishop approves, he writes, is pleasing to God, \"so that everything you do may be secure and valid.\" No one should do anything pertaining to the church without the bishop. Let that be considered a valid eucharist which is held under the bishop or one to whom the bishop has entrusted it. Wherever the bishop appears, let the congregation be there, \"just as wherever Jesus Christ is, there is the catholic church.\" It is not permitted, apart from the bishop, either to baptize or to hold a love-feast.\n\nA member formed this way would refuse, Ignatius's instruction implies, to attend any gathering that broke bread apart from this single, bishop-anchored table. This treats the eucharist itself as inseparable from the question of who legitimately gathers the community at all."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5802,11 +6100,11 @@
             "tier": 4,
             "justification": "A composite reconstruction of a member attending the bishop's own eucharist and refusing any other, built from Ignatius's own instructions across two letters — not a single narrated event with a named participant undergoing this. Carries the same authenticity/dating caveats as Story 001, since it draws on the same contested source (Ignatius's letters); see Story 001's Tier Justification for the fuller three-way dispute. A further open question, not resolved here: how far this instruction reflects settled practice already in place versus an aspirational program Ignatius himself was actively arguing for and had not yet secured — Doc_01's own open Strand Determination question."
           },
-          "text": "This is how it would have been, in a community formed under Ignatius's own instruction. Take care, he insists, to observe one eucharist — for there is one flesh of the Lord and one cup for union with his blood, one altar, as there is one bishop together with the presbytery and deacons. Whatever the bishop approves, he writes, is pleasing to God, \"so that everything you do may be secure and valid.\" No one should do anything pertaining to the church without the bishop: let that be considered a valid eucharist which is held under the bishop or one to whom the bishop has entrusted it. Wherever the bishop appears, let the congregation be there, \"just as wherever Jesus Christ is, there is the catholic church.\" It is not permitted, apart from the bishop, either to baptize or to hold a love-feast.\n\nA member formed this way would refuse, Ignatius's instruction implies, to attend any gathering that broke bread apart from this single, bishop-anchored table — treating the eucharist itself as inseparable from the question of who legitimately gathers the community at all.",
+          "text": "This is how it would have been, in a community formed under Ignatius's own instruction. Take care, he insists, to observe one eucharist. There is one flesh of the Lord and one cup for union with his blood, one altar, as there is one bishop together with the presbytery and deacons. Whatever the bishop approves, he writes, is pleasing to God, \"so that everything you do may be secure and valid.\" No one should do anything pertaining to the church without the bishop. Let that be considered a valid eucharist which is held under the bishop or one to whom the bishop has entrusted it. Wherever the bishop appears, let the congregation be there, \"just as wherever Jesus Christ is, there is the catholic church.\" It is not permitted, apart from the bishop, either to baptize or to hold a love-feast.\n\nA member formed this way would refuse, Ignatius's instruction implies, to attend any gathering that broke bread apart from this single, bishop-anchored table. This treats the eucharist itself as inseparable from the question of who legitimately gathers the community at all.",
           "attested_occasion": "Tier-4 composite built entirely from Ignatius's own instructions (Philadelphians 4; Smyrnaeans 8): one eucharist, one altar, one bishop; nothing without him; 'composite in method, but not in subject' (the halstory11 precedent - one man's own program throughout); the same authenticity caveats as story 001, plus the open settled-practice-vs-aspirational-program question the chunk carries from Doc_01.",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig001",
-          "voice_surface": "This is how it would have been in a household formed by his letters: one table, under one bishop, and no other counted valid. We tell it as his own instruction given flesh - and we carry the open question his letters cannot answer for us: whether he described an order already standing, or argued for one he feared would not stand without him. Usage guidance (chunk, verbatim): The Representative may narrate this as typical practice under this specific instruction, explicitly marked as reconstruction — \"Under Ignatius's own teaching, a member of this community would...\" The Representative must be prepared to acknowledge that whether this reflects widespread settled practice or one bishop's own urgent, still-contested program is genuinely uncertain.\n\nAdditional guidance specific to this story: carries the same Strand A framing caveat as Story 001 — this should not be presented as this whole world's consensus practice. Do not blend with Story 006 or Story 010.",
+          "voice_surface": "This is how it would have been in a household formed by his letters: one table, under one bishop, and no other counted valid. We tell it as his own instruction given flesh - and we carry the open question his letters cannot answer for us: whether he described an order already standing, or argued for one he feared would not stand without him. Usage guidance (chunk, verbatim): The Representative may narrate this as typical practice under this specific instruction, explicitly marked as a pattern drawn from his own instructions — \"Under Ignatius's own teaching, a member of this community would...\" The Representative must be prepared to acknowledge that whether this reflects widespread settled practice or one bishop's own urgent, still-contested program is genuinely uncertain.\n\nAdditional guidance specific to this story: carries the same Strand A framing caveat as Story 001 — this should not be presented as this whole world's consensus practice. Do not blend with Story 006 or Story 010.",
           "confidence_line": "Inferential-Thin (always, per Tier 4) — underlying instructional text is Documented; representativeness of settled practice vs. aspirational program is an open Strand Determination question",
           "retrieval": {
             "tier": 4,
@@ -5851,7 +6149,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the one eucharist, under the bishop pahcstory011 story the one eucharist, under the bishop this is how it would have been, in a community formed under ignatius's own instruction. take care, he insists, to observe one eucharist — for there is one flesh of the lord and one cup for union with his blood, one altar, as there is one bishop together with the presbytery and deacons. whatever the bishop approves, he writes, is pleasing to god, \"so that everything you do may be secure and valid.\" no one should do anything pertaining to the church without the bishop: let that be considered a valid eucharist which is held under the bishop or one to whom the bishop has entrusted it. wherever the bishop appears, let the congregation be there, \"just as wherever jesus christ is, there is the catholic church.\" it is not permitted, apart from the bishop, either to baptize or to hold a love-feast.\n\na member formed this way would refuse, ignatius's instruction implies, to attend any gathering that broke bread apart from this single, bishop-anchored table — treating the eucharist itself as inseparable from the question of who legitimately gathers the community at all. tier-4 composite built entirely from ignatius's own instructions (philadelphians 4; smyrnaeans 8): one eucharist, one altar, one bishop; nothing without him; 'composite in method, but not in subject' (the halstory11 precedent - one man's own program throughout); the same authenticity caveats as story 001, plus the open settled-practice-vs-aspirational-program question the chunk carries from doc_01."
+      "search_text": "the one eucharist, under the bishop pahcstory011 story the one eucharist, under the bishop this is how it would have been, in a community formed under ignatius's own instruction. take care, he insists, to observe one eucharist. there is one flesh of the lord and one cup for union with his blood, one altar, as there is one bishop together with the presbytery and deacons. whatever the bishop approves, he writes, is pleasing to god, \"so that everything you do may be secure and valid.\" no one should do anything pertaining to the church without the bishop. let that be considered a valid eucharist which is held under the bishop or one to whom the bishop has entrusted it. wherever the bishop appears, let the congregation be there, \"just as wherever jesus christ is, there is the catholic church.\" it is not permitted, apart from the bishop, either to baptize or to hold a love-feast.\n\na member formed this way would refuse, ignatius's instruction implies, to attend any gathering that broke bread apart from this single, bishop-anchored table. this treats the eucharist itself as inseparable from the question of who legitimately gathers the community at all. tier-4 composite built entirely from ignatius's own instructions (philadelphians 4; smyrnaeans 8): one eucharist, one altar, one bishop; nothing without him; 'composite in method, but not in subject' (the halstory11 precedent - one man's own program throughout); the same authenticity caveats as story 001, plus the open settled-practice-vs-aspirational-program question the chunk carries from doc_01."
     },
     {
       "id": "pahcstory012",
@@ -5869,7 +6167,7 @@
         "observe": [
           "Narrative tier: {'tier': 4, 'justification': 'The most fully composite story in this repository — not about any one named person, but a synthesized \"typical day\" reconstruction under each of this world\\'s two structurally parallel authority answers, drawing across four separate primary sources. Every specific claim traces to an already-attested instruction or argument in one of those four sources; see Source Identification below.'}.",
           "Attested occasion: The repository's most fully composite story (across P02/P03/P04/P05): a member's day under each of the two strands held side by side - the bishop-anchored day and the presbyter-council day - 'neither presented as more original, more correct, or more typical' (the chunk's own rule; Doc_05's inhabited-voice reconstruction carried into Tier-4 register).",
-          "This is how it would have been, in the typical life of someone formed under each of this world's two structurally parallel answers to the question of who leads.\n\nIn a community formed like Ignatius's own churches, a member's day would orient around the bishop: attendance at the bishop's own eucharist as the only valid one, deference to the bishop as one would to Jesus Christ himself, presbyters honored \"as the council of the apostles\" and deacons as entrusted with \"the ministry of Jesus Christ\" — every significant act of communal life, from baptism to the love-feast, checked against a single, named, visible authority whose approval made it secure and valid.\n\nIn a community formed like Rome's own — the Rome that produced 1 Clement, that Hermas addresses through named figures like Clement and Grapte rather than a single bishop, whose *Vision* 2.4.3 assumes plural, distinguishable roles without ever naming one bishop over the rest — a member's day would orient differently: toward a council of presbyters holding office by legitimate appointment and long service, removable only for genuine cause (as 1 Clement's own argument insists), with authority distributed across recognized elders rather than concentrated in one visible figure.\n\nBoth are reconstructions of what it would have meant to live inside each of this world's own answers — neither is presented as more original, more correct, or more typical than the other."
+          "This is how it would have been, in the typical life of someone formed under each of this world's two parallel answers to the question of who leads.\n\nIn a community formed like Ignatius's own churches, a member's day would orient around the bishop. The bishop's own eucharist was the only valid one to attend. Members owed him deference, as one would to Jesus Christ himself. Presbyters were honored \"as the council of the apostles,\" and deacons were entrusted with \"the ministry of Jesus Christ.\" This covered every significant act of communal life, from baptism to the love-feast. Each act was checked against a single, named, visible authority. His approval made it secure and valid.\n\nIn a community formed like Rome's own, a member's day would orient differently. This was the Rome that produced 1 Clement, the Rome Hermas addresses through named figures like Clement and Grapte rather than a single bishop. Its *Vision* 2.4.3 assumes plural, separate roles. It never names one bishop over the rest. The day oriented instead toward a council of presbyters, holding office by proper appointment and long service. They were removable only for real cause, as 1 Clement's own argument insists. Authority was spread across recognized elders, rather than held by one visible person.\n\nBoth are reconstructions of what it would have meant to live inside each of this world's own answers. Neither is presented as more original, more correct, or more typical than the other."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5897,11 +6195,11 @@
             "tier": 4,
             "justification": "The most fully composite story in this repository — not about any one named person, but a synthesized \"typical day\" reconstruction under each of this world's two structurally parallel authority answers, drawing across four separate primary sources. Every specific claim traces to an already-attested instruction or argument in one of those four sources; see Source Identification below."
           },
-          "text": "This is how it would have been, in the typical life of someone formed under each of this world's two structurally parallel answers to the question of who leads.\n\nIn a community formed like Ignatius's own churches, a member's day would orient around the bishop: attendance at the bishop's own eucharist as the only valid one, deference to the bishop as one would to Jesus Christ himself, presbyters honored \"as the council of the apostles\" and deacons as entrusted with \"the ministry of Jesus Christ\" — every significant act of communal life, from baptism to the love-feast, checked against a single, named, visible authority whose approval made it secure and valid.\n\nIn a community formed like Rome's own — the Rome that produced 1 Clement, that Hermas addresses through named figures like Clement and Grapte rather than a single bishop, whose *Vision* 2.4.3 assumes plural, distinguishable roles without ever naming one bishop over the rest — a member's day would orient differently: toward a council of presbyters holding office by legitimate appointment and long service, removable only for genuine cause (as 1 Clement's own argument insists), with authority distributed across recognized elders rather than concentrated in one visible figure.\n\nBoth are reconstructions of what it would have meant to live inside each of this world's own answers — neither is presented as more original, more correct, or more typical than the other.",
+          "text": "This is how it would have been, in the typical life of someone formed under each of this world's two parallel answers to the question of who leads.\n\nIn a community formed like Ignatius's own churches, a member's day would orient around the bishop. The bishop's own eucharist was the only valid one to attend. Members owed him deference, as one would to Jesus Christ himself. Presbyters were honored \"as the council of the apostles,\" and deacons were entrusted with \"the ministry of Jesus Christ.\" This covered every significant act of communal life, from baptism to the love-feast. Each act was checked against a single, named, visible authority. His approval made it secure and valid.\n\nIn a community formed like Rome's own, a member's day would orient differently. This was the Rome that produced 1 Clement, the Rome Hermas addresses through named figures like Clement and Grapte rather than a single bishop. Its *Vision* 2.4.3 assumes plural, separate roles. It never names one bishop over the rest. The day oriented instead toward a council of presbyters, holding office by proper appointment and long service. They were removable only for real cause, as 1 Clement's own argument insists. Authority was spread across recognized elders, rather than held by one visible person.\n\nBoth are reconstructions of what it would have meant to live inside each of this world's own answers. Neither is presented as more original, more correct, or more typical than the other.",
           "attested_occasion": "The repository's most fully composite story (across P02/P03/P04/P05): a member's day under each of the two strands held side by side - the bishop-anchored day and the presbyter-council day - 'neither presented as more original, more correct, or more typical' (the chunk's own rule; Doc_05's inhabited-voice reconstruction carried into Tier-4 register).",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig008",
-          "voice_surface": "We tell both days together because our world lived both: in one household the day orients to the bishop's table and his word makes things secure; in another it orients to the elders together, holding office none may strip without cause. We do not choose between them in the telling, because our own letters never did. Usage guidance (chunk, verbatim): The Representative may narrate this as typical practice under each strand, explicitly marked as reconstruction, and must hold both strands in genuinely unresolved parallel — the Representative should not present one strand's answer as more \"correct\" or more typical of this world than the other's. \"This is how it would have looked, under each of this world's two answers to who leads...\"\n\nAdditional guidance specific to this story: consider whether the participant's question is really asking about one strand specifically before deploying the full parallel version — if so, a single-strand story (Story 002 for Strand B, Story 011 for Strand A) may serve better, with this story reserved for genuinely comparative questions.",
+          "voice_surface": "We tell both days together because our world lived both: in one household the day orients to the bishop's table and his word makes things secure; in another it orients to the elders together, holding office none may strip without cause. We do not choose between them in the telling, because our own letters never did. Usage guidance (chunk, verbatim): The Representative may narrate this as typical practice under each strand, explicitly marked as a pattern drawn from what each strand's own sources instruct, and must hold both strands in genuinely unresolved parallel — the Representative should not present one strand's answer as more \"correct\" or more typical of this world than the other's. \"This is how it would have looked, under each of this world's two answers to who leads...\"\n\nAdditional guidance specific to this story: consider whether the participant's question is really asking about one strand specifically before deploying the full parallel version — if so, a single-strand story (Story 002 for Strand B, Story 011 for Strand A) may serve better, with this story reserved for genuinely comparative questions.",
           "confidence_line": "Inferential-Thin (always, per Tier 4)",
           "retrieval": {
             "tier": 4,
@@ -5958,7 +6256,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "a day under the bishop, a day under the presbyters pahcstory012 story a day under the bishop, a day under the presbyters this is how it would have been, in the typical life of someone formed under each of this world's two structurally parallel answers to the question of who leads.\n\nin a community formed like ignatius's own churches, a member's day would orient around the bishop: attendance at the bishop's own eucharist as the only valid one, deference to the bishop as one would to jesus christ himself, presbyters honored \"as the council of the apostles\" and deacons as entrusted with \"the ministry of jesus christ\" — every significant act of communal life, from baptism to the love-feast, checked against a single, named, visible authority whose approval made it secure and valid.\n\nin a community formed like rome's own — the rome that produced 1 clement, that hermas addresses through named figures like clement and grapte rather than a single bishop, whose *vision* 2.4.3 assumes plural, distinguishable roles without ever naming one bishop over the rest — a member's day would orient differently: toward a council of presbyters holding office by legitimate appointment and long service, removable only for genuine cause (as 1 clement's own argument insists), with authority distributed across recognized elders rather than concentrated in one visible figure.\n\nboth are reconstructions of what it would have meant to live inside each of this world's own answers — neither is presented as more original, more correct, or more typical than the other. the repository's most fully composite story (across p02/p03/p04/p05): a member's day under each of the two strands held side by side - the bishop-anchored day and the presbyter-council day - 'neither presented as more original, more correct, or more typical' (the chunk's own rule; doc_05's inhabited-voice reconstruction carried into tier-4 register)."
+      "search_text": "a day under the bishop, a day under the presbyters pahcstory012 story a day under the bishop, a day under the presbyters this is how it would have been, in the typical life of someone formed under each of this world's two parallel answers to the question of who leads.\n\nin a community formed like ignatius's own churches, a member's day would orient around the bishop. the bishop's own eucharist was the only valid one to attend. members owed him deference, as one would to jesus christ himself. presbyters were honored \"as the council of the apostles,\" and deacons were entrusted with \"the ministry of jesus christ.\" this covered every significant act of communal life, from baptism to the love-feast. each act was checked against a single, named, visible authority. his approval made it secure and valid.\n\nin a community formed like rome's own, a member's day would orient differently. this was the rome that produced 1 clement, the rome hermas addresses through named figures like clement and grapte rather than a single bishop. its *vision* 2.4.3 assumes plural, separate roles. it never names one bishop over the rest. the day oriented instead toward a council of presbyters, holding office by proper appointment and long service. they were removable only for real cause, as 1 clement's own argument insists. authority was spread across recognized elders, rather than held by one visible person.\n\nboth are reconstructions of what it would have meant to live inside each of this world's own answers. neither is presented as more original, more correct, or more typical than the other. the repository's most fully composite story (across p02/p03/p04/p05): a member's day under each of the two strands held side by side - the bishop-anchored day and the presbyter-council day - 'neither presented as more original, more correct, or more typical' (the chunk's own rule; doc_05's inhabited-voice reconstruction carried into tier-4 register)."
     },
     {
       "id": "pahcstory013",
@@ -5976,7 +6274,7 @@
         "observe": [
           "Narrative tier: {'tier': 4, 'justification': 'Lucian\\'s satirical portrait of \"Peregrinus\" himself cannot be used as a positive account of a named protagonist — his own explicit satirical and mocking intent makes any such use a misreading of the source. What can responsibly be reconstructed is the underlying, incidentally preserved practice pattern beneath the satire: widows and orphans at the prison, bribed officials, visitors traveling at communal expense, sacred texts read aloud. This is composited from attested elements into a typical-practice account of an unnamed imprisoned member, not a retelling of Lucian\\'s own narrative about Peregrinus. Every element traces to a specific passage; see Source Identification below.'}.",
           "Attested occasion: Tier-4 composite from two OUTSIDE accounts pointed in opposite directions - Lucian's mockery (c. 165) preserving the prison-gate widows, the bribed officials, the delegates sent from Asia's cities, the money 'no small sums'; Tertullian's defense (c. 197) describing the voluntary monthly fund for the buried poor, orphans, the old, the imprisoned - the same pattern attested by mock and by defense; Peregrinus himself explicitly NOT narrated (the chunk's own refusal).",
-          "This is how it would have been, in the life of a member of this community imprisoned under threat of execution, though no one narrates this member by name. An outside observer — hostile, mocking, writing to satirize a man he considered a fraud who had once associated with this community — nonetheless preserves, almost despite himself, a picture of what happened around such an imprisonment: widows and orphans waiting at the prison gates from early morning; officials bribed so that visitors could get inside; people traveling from the cities of Asia, sent by their own communities, to comfort and support the one held; sacred books read aloud to him inside the prison; and gifts of money brought, \"no small sums,\" in the outsider's own resentful account.\n\nA separate, later witness, defending this world's own communities to a hostile Roman audience, describes the standing practice behind such moments: a voluntary monthly contribution, given only by those willing and able, \"not spent on feasts and drinking-parties,\" but on burying the poor, supporting orphans and the elderly, and caring for those \"in the mines, or exiled to islands, or in prison\" for their standing in the community.\n\nTogether, these two outside accounts — one mocking, one defending — describe the same underlying pattern from opposite intentions: a community that organized real material and personal support around a member facing exactly this kind of threat."
+          "This is how it would have been for a member of this community imprisoned under threat of execution - though no one narrates this member by name. One outside observer left us a picture of it, almost despite himself. He was hostile and mocking. He was writing to mock a man he considered a fraud - a man who had once been part of this community. Even so, his account shows us what happened around such an imprisonment. Widows and orphans waited at the prison gates from early morning. Officials were bribed so visitors could get inside. People traveled from the cities of Asia, sent by their own communities, to comfort the one held. Sacred books were read aloud to him inside the prison. And gifts of money were brought - \"no small sums,\" in the outsider's own resentful account.\n\nA separate, later witness defended this world's own communities to a hostile Roman audience. He describes the standing practice behind such moments. A voluntary monthly gift was given, but only by those willing and able. It was \"not spent on feasts and drinking-parties,\" he says, but on burying the poor, supporting orphans and the elderly, and caring for those \"in the mines, or exiled to islands, or in prison\" for their standing in the community.\n\nTogether, these two outside accounts - one mocking, one defending - describe the same pattern from opposite intentions: a community that organized real support, in goods and in person, around a member facing exactly this kind of threat."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -6002,11 +6300,11 @@
             "tier": 4,
             "justification": "Lucian's satirical portrait of \"Peregrinus\" himself cannot be used as a positive account of a named protagonist — his own explicit satirical and mocking intent makes any such use a misreading of the source. What can responsibly be reconstructed is the underlying, incidentally preserved practice pattern beneath the satire: widows and orphans at the prison, bribed officials, visitors traveling at communal expense, sacred texts read aloud. This is composited from attested elements into a typical-practice account of an unnamed imprisoned member, not a retelling of Lucian's own narrative about Peregrinus. Every element traces to a specific passage; see Source Identification below."
           },
-          "text": "This is how it would have been, in the life of a member of this community imprisoned under threat of execution, though no one narrates this member by name. An outside observer — hostile, mocking, writing to satirize a man he considered a fraud who had once associated with this community — nonetheless preserves, almost despite himself, a picture of what happened around such an imprisonment: widows and orphans waiting at the prison gates from early morning; officials bribed so that visitors could get inside; people traveling from the cities of Asia, sent by their own communities, to comfort and support the one held; sacred books read aloud to him inside the prison; and gifts of money brought, \"no small sums,\" in the outsider's own resentful account.\n\nA separate, later witness, defending this world's own communities to a hostile Roman audience, describes the standing practice behind such moments: a voluntary monthly contribution, given only by those willing and able, \"not spent on feasts and drinking-parties,\" but on burying the poor, supporting orphans and the elderly, and caring for those \"in the mines, or exiled to islands, or in prison\" for their standing in the community.\n\nTogether, these two outside accounts — one mocking, one defending — describe the same underlying pattern from opposite intentions: a community that organized real material and personal support around a member facing exactly this kind of threat.",
+          "text": "This is how it would have been for a member of this community imprisoned under threat of execution - though no one narrates this member by name. One outside observer left us a picture of it, almost despite himself. He was hostile and mocking. He was writing to mock a man he considered a fraud - a man who had once been part of this community. Even so, his account shows us what happened around such an imprisonment. Widows and orphans waited at the prison gates from early morning. Officials were bribed so visitors could get inside. People traveled from the cities of Asia, sent by their own communities, to comfort the one held. Sacred books were read aloud to him inside the prison. And gifts of money were brought - \"no small sums,\" in the outsider's own resentful account.\n\nA separate, later witness defended this world's own communities to a hostile Roman audience. He describes the standing practice behind such moments. A voluntary monthly gift was given, but only by those willing and able. It was \"not spent on feasts and drinking-parties,\" he says, but on burying the poor, supporting orphans and the elderly, and caring for those \"in the mines, or exiled to islands, or in prison\" for their standing in the community.\n\nTogether, these two outside accounts - one mocking, one defending - describe the same pattern from opposite intentions: a community that organized real support, in goods and in person, around a member facing exactly this kind of threat.",
           "attested_occasion": "Tier-4 composite from two OUTSIDE accounts pointed in opposite directions - Lucian's mockery (c. 165) preserving the prison-gate widows, the bribed officials, the delegates sent from Asia's cities, the money 'no small sums'; Tertullian's defense (c. 197) describing the voluntary monthly fund for the buried poor, orphans, the old, the imprisoned - the same pattern attested by mock and by defense; Peregrinus himself explicitly NOT narrated (the chunk's own refusal).",
           "tellable_as": "scene",
           "owner_figure_id": "pahcfig008",
-          "voice_surface": "We tell what even a mocker could not help preserving: that when one of ours was held under threat, widows waited at the gates from dawn, officials were bribed for entry, cities sent their own to comfort him, and the books were read aloud inside. A scoffer saw it and sneered; a defender described the fund behind it; between the two of them, the care itself stands attested. The man the scoffer mocked we do not narrate - his story was never ours to tell. Usage guidance (chunk, verbatim): The Representative may narrate this as typical practice around an unnamed, composite member facing imprisonment, explicitly marked as reconstruction — \"In a case like this, the community would typically...\" The Representative must never narrate \"Peregrinus\" himself as an exemplary or even neutral figure, and must never present Lucian's mockery as if it were praise.\n\nAdditional guidance specific to this story: the two outside accounts describe the same underlying pattern but were written independently, by authors with no connection to one another. If a participant presses on how the two texts relate, the Representative should say plainly that they were never written together or in response to one another — only that, read side by side, they describe the same practice from opposite intentions.",
+          "voice_surface": "We tell what even a mocker could not help preserving: that when one of ours was held under threat, widows waited at the gates from dawn, officials were bribed for entry, cities sent their own to comfort him, and the books were read aloud inside. A scoffer saw it and sneered; a defender described the fund behind it; between the two of them, the care itself stands attested. The man the scoffer mocked we do not narrate - his story was never ours to tell. Usage guidance (chunk, verbatim): The Representative may narrate this as typical practice around an unnamed, composite member facing imprisonment, explicitly marked as a pattern drawn from what our own letters instruct — \"In a case like this, the community would typically...\" The Representative must never narrate \"Peregrinus\" himself as an exemplary or even neutral figure, and must never present Lucian's mockery as if it were praise.\n\nAdditional guidance specific to this story: the two outside accounts describe the same underlying pattern but were written independently, by authors with no connection to one another. If a participant presses on how the two texts relate, the Representative should say plainly that they were never written together or in response to one another — only that, read side by side, they describe the same practice from opposite intentions.",
           "confidence_line": "Inferential-Thin (always, per Tier 4)",
           "retrieval": {
             "tier": 4,
@@ -6041,7 +6339,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "carrying the prisoner's needs: mutual aid under threat pahcstory013 story carrying the prisoner's needs: mutual aid under threat this is how it would have been, in the life of a member of this community imprisoned under threat of execution, though no one narrates this member by name. an outside observer — hostile, mocking, writing to satirize a man he considered a fraud who had once associated with this community — nonetheless preserves, almost despite himself, a picture of what happened around such an imprisonment: widows and orphans waiting at the prison gates from early morning; officials bribed so that visitors could get inside; people traveling from the cities of asia, sent by their own communities, to comfort and support the one held; sacred books read aloud to him inside the prison; and gifts of money brought, \"no small sums,\" in the outsider's own resentful account.\n\na separate, later witness, defending this world's own communities to a hostile roman audience, describes the standing practice behind such moments: a voluntary monthly contribution, given only by those willing and able, \"not spent on feasts and drinking-parties,\" but on burying the poor, supporting orphans and the elderly, and caring for those \"in the mines, or exiled to islands, or in prison\" for their standing in the community.\n\ntogether, these two outside accounts — one mocking, one defending — describe the same underlying pattern from opposite intentions: a community that organized real material and personal support around a member facing exactly this kind of threat. tier-4 composite from two outside accounts pointed in opposite directions - lucian's mockery (c. 165) preserving the prison-gate widows, the bribed officials, the delegates sent from asia's cities, the money 'no small sums'; tertullian's defense (c. 197) describing the voluntary monthly fund for the buried poor, orphans, the old, the imprisoned - the same pattern attested by mock and by defense; peregrinus himself explicitly not narrated (the chunk's own refusal)."
+      "search_text": "carrying the prisoner's needs: mutual aid under threat pahcstory013 story carrying the prisoner's needs: mutual aid under threat this is how it would have been for a member of this community imprisoned under threat of execution - though no one narrates this member by name. one outside observer left us a picture of it, almost despite himself. he was hostile and mocking. he was writing to mock a man he considered a fraud - a man who had once been part of this community. even so, his account shows us what happened around such an imprisonment. widows and orphans waited at the prison gates from early morning. officials were bribed so visitors could get inside. people traveled from the cities of asia, sent by their own communities, to comfort the one held. sacred books were read aloud to him inside the prison. and gifts of money were brought - \"no small sums,\" in the outsider's own resentful account.\n\na separate, later witness defended this world's own communities to a hostile roman audience. he describes the standing practice behind such moments. a voluntary monthly gift was given, but only by those willing and able. it was \"not spent on feasts and drinking-parties,\" he says, but on burying the poor, supporting orphans and the elderly, and caring for those \"in the mines, or exiled to islands, or in prison\" for their standing in the community.\n\ntogether, these two outside accounts - one mocking, one defending - describe the same pattern from opposite intentions: a community that organized real support, in goods and in person, around a member facing exactly this kind of threat. tier-4 composite from two outside accounts pointed in opposite directions - lucian's mockery (c. 165) preserving the prison-gate widows, the bribed officials, the delegates sent from asia's cities, the money 'no small sums'; tertullian's defense (c. 197) describing the voluntary monthly fund for the buried poor, orphans, the old, the imprisoned - the same pattern attested by mock and by defense; peregrinus himself explicitly not narrated (the chunk's own refusal)."
     },
     {
       "id": "srcPAHCP01",
@@ -6430,7 +6728,7 @@
           "Author: Pliny the Younger",
           "Title: Pliny the Younger, Letters 10.96-97",
           "Locus/date: c.111-113 CE",
-          "Language: grc",
+          "Language: lat",
           "Attribution status: genuine"
         ],
         "reflect": [
@@ -6452,7 +6750,7 @@
           "boundary_status": "Native",
           "attribution_status": "genuine",
           "level_of_description": "work",
-          "language": "grc",
+          "language": "lat",
           "script": "Grek",
           "work_author": "Pliny the Younger",
           "work_title": "Pliny the Younger, Letters 10.96-97",
@@ -6492,7 +6790,7 @@
           "Author: Tacitus",
           "Title: Tacitus, Annals 15.44",
           "Locus/date: written c.116 CE, describing 64 CE",
-          "Language: grc",
+          "Language: lat",
           "Attribution status: genuine"
         ],
         "reflect": [
@@ -6514,7 +6812,7 @@
           "boundary_status": "Native",
           "attribution_status": "genuine",
           "level_of_description": "work",
-          "language": "grc",
+          "language": "lat",
           "script": "Grek",
           "work_author": "Tacitus",
           "work_title": "Tacitus, Annals 15.44",
@@ -6920,7 +7218,7 @@
           "Author: Tertullian",
           "Title: Tertullian, Apology 39",
           "Locus/date: c.197 CE, Carthage",
-          "Language: grc",
+          "Language: lat",
           "Attribution status: genuine"
         ],
         "reflect": [
@@ -6940,7 +7238,7 @@
           "boundary_status": "Native",
           "attribution_status": "genuine",
           "level_of_description": "work",
-          "language": "grc",
+          "language": "lat",
           "script": "Grek",
           "work_author": "Tertullian",
           "work_title": "Tertullian, Apology 39",
@@ -10630,6 +10928,179 @@
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
       "search_text": "the rise of christianity: a sociologist reconsiders history (princeton, 1996) srcpahcs60 source rodney stark the rise of christianity: a sociologist reconsiders history (princeton, 1996) esp. the network-growth and mutual-aid chapters"
+    },
+    {
+      "id": "srcPAHCS61",
+      "record_type": "source",
+      "title": "The Apostolic Fathers: Greek Texts and English Translations (3rd ed., Baker Academic, 2007)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcPAHCS61",
+        "record_type": "source",
+        "title": "The Apostolic Fathers: Greek Texts and English Translations (3rd ed., Baker Academic, 2007)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: Michael W. Holmes (ed. and trans.)",
+          "Title: The Apostolic Fathers: Greek Texts and English Translations (3rd ed., Baker Academic, 2007)",
+          "Locus/date: 2007",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcPAHCS61",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "removed-from-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "edition_status": "none-consulted",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "Michael W. Holmes (ed. and trans.)",
+          "work_title": "The Apostolic Fathers: Greek Texts and English Translations (3rd ed., Baker Academic, 2007)",
+          "work_locus": "2007",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's edition decision, 2026-08-15 (\"use Holmes for the Apostolic Fathers\"), taken as the standing choice of English rendering for this world's Apostolic-Fathers texts. Bibliographic details verified the same day by web search against publisher and bookseller listings (Baker Academic; ISBN 9780801034688; 3rd edition, 2007; Greek/Latin and English on facing pages) - the VOLUME ITSELF has not been consulted, and no wording has been checked against it. See verification_note.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "Standard English translation of this world's Apostolic-Fathers texts - the translation-used row its quote records need. Covers srcPAHCP03 (Ignatius's letters), srcPAHCP04 (Polycarp to the Philippians), srcPAHCP16 (Martyrdom of Polycarp), srcPAHCP02 (1 Clement), srcPAHCP01 (Didache) and srcPAHCP05 (Shepherd of Hermas). Does NOT cover srcPAHCP06 (Justin, First Apology), srcPAHCP07 (Pliny) or srcPAHCP08 (Tacitus) - none of the three is an Apostolic Father, and each still needs its own translation row before a quote record can cite it.",
+          "rights_status": "In copyright: Baker Academic, 2007. display_permitted is deliberately left UNSET, which the repository builder treats as DENIED (fail-closed, FLAG-013) - the same posture as desert's srcDES021 (Ward, 1975). Quote text traced to this edition may be compared internally by the grounding checks but must not be rendered to a participant or into the public repository unless permission is obtained and recorded here.",
+          "verification_note": "SUPERSEDED IN USE, 2026-08-15, the same day it was added: Mark's constraint that the project runs on free tools with no budget puts this volume out of reach, and srcPAHCS62 (Ante-Nicene Fathers vol. 1, 1885) is the operational translation row instead. Kept rather than deleted, per this build's convention for settled inputs - the supersession is the new fact, not an erasure of the choice. This remains the STANDING PREFERENCE on scholarship: modern, facing Greek, current apparatus, where ANF is a dated Victorian rendering. If it ever becomes affordable, quote records should be re-verified against it and moved here - and note that doing so would flip their rights posture from displayable back to denied, which is a real cost, not only a gain. edition_status is none-consulted because that is literally true: the volume has never been opened for this project. NOTHING HAS BEEN VERIFIED AGAINST THIS EDITION. The volume is in copyright and not available to this session, so no wording comparison has been performed: the seven English key_lines already carried in this world's story records (pahcstory001/004/005/006/008/009/011) are of UNRECORDED translation provenance and must NOT be assumed to be Holmes's rendering. Authoring a quote record against this row still requires a human to open the volume, transcribe the line at its locus, and record confidence.verification_state honestly.",
+          "added": "2026-08-15 (T3 follow-on; Mark''s edition decision)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the apostolic fathers: greek texts and english translations (3rd ed., baker academic, 2007) srcpahcs61 source michael w. holmes (ed. and trans.) the apostolic fathers: greek texts and english translations (3rd ed., baker academic, 2007) 2007"
+    },
+    {
+      "id": "srcPAHCS62",
+      "record_type": "source",
+      "title": "Ante-Nicene Fathers, Vol. 1: The Apostolic Fathers with Justin Martyr and Irenaeus (Christian Literature Publishing Co., Buffalo, 1885)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcPAHCS62",
+        "record_type": "source",
+        "title": "Ante-Nicene Fathers, Vol. 1: The Apostolic Fathers with Justin Martyr and Irenaeus (Christian Literature Publishing Co., Buffalo, 1885)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: Alexander Roberts and James Donaldson (eds. and trans.); A. Cleveland Coxe (American edition)",
+          "Title: Ante-Nicene Fathers, Vol. 1: The Apostolic Fathers with Justin Martyr and Irenaeus (Christian Literature Publishing Co., Buffalo, 1885)",
+          "Locus/date: 1885",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcPAHCS62",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "Alexander Roberts and James Donaldson (eds. and trans.); A. Cleveland Coxe (American edition)",
+          "work_title": "Ante-Nicene Fathers, Vol. 1: The Apostolic Fathers with Justin Martyr and Irenaeus (Christian Literature Publishing Co., Buffalo, 1885)",
+          "work_locus": "1885",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "builder-prior-knowledge",
+          "discovery_instrument": "The standard public-domain English translation of this world's Apostolic-Fathers texts. Selected 2026-08-15 after Mark's constraint that the project runs on free tools with no budget, which put srcPAHCS61 (Holmes, 2007, in copyright) out of reach. Bibliographic details verified the same day by web search against series listings (Roberts and Donaldson eds.; Christian Literature Publishing Co., Buffalo, 1885; contents: Clement, Mathetes, Polycarp, Ignatius, Barnabas, Papias, Justin Martyr, Irenaeus). The volume itself has not been consulted - see verification_note.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "English translation of this world's Apostolic-Fathers texts and of Justin - the translation-used row its quote records need. Covers srcPAHCP03 (Ignatius's letters), srcPAHCP04 (Polycarp to the Philippians), srcPAHCP16 (Martyrdom of Polycarp), srcPAHCP02 (1 Clement) and - unlike the Holmes row it replaces - srcPAHCP06 (Justin, First Apology), since ANF vol. 1 carries Justin as well as the Apostolic Fathers. Does NOT cover srcPAHCP01 (the Didache): it was published too late for vol. 1 and appears in ANF vol. 7 as \"The Teaching of the Twelve Apostles\", which needs its own row before the Didache quote can be authored. Does NOT cover srcPAHCP07 (Pliny) or srcPAHCP08 (Tacitus) - both classical, neither in this series.",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1885, long out of copyright in the US. This is why the switch away from Holmes is not purely a budget concession - text traced to THIS row MAY be rendered to a participant and into the public repository, where Holmes (in copyright) stays denied. A rights determination made on publication date alone; Mark should confirm it before the first public render, and modern reprints carrying new editorial matter are not covered by it.",
+          "display_permitted": true,
+          "verification_note": "Added so this world's quote records can carry a real, freely-checkable translation_used reference - the gap that has kept Check B inert here (0 quote records, T3-B's own finding). NOTHING HAS BEEN VERIFIED AGAINST THIS EDITION: every text host was blocked by this session's egress policy (ccel.org, newadvent.org, en.wikisource.org, archive.org, gutenberg.org, tertullian.org all refused), so no wording has been transcribed or compared. The seven English key_lines already sitting in this world's story records are of UNRECORDED translation provenance and must NOT be assumed to be this rendering. A human with browser access must still open the text at each locus, transcribe the line, and record confidence.verification_state honestly. Its 1885 idiom is dated by design - if a modern critical translation is ever affordable, srcPAHCS61 (Holmes) is the standing preference and this row is the interim.",
+          "added": "2026-08-15 (T3 follow-on; free-tools constraint)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "ante-nicene fathers, vol. 1: the apostolic fathers with justin martyr and irenaeus (christian literature publishing co., buffalo, 1885) srcpahcs62 source alexander roberts and james donaldson (eds. and trans.); a. cleveland coxe (american edition) ante-nicene fathers, vol. 1: the apostolic fathers with justin martyr and irenaeus (christian literature publishing co., buffalo, 1885) 1885"
+    },
+    {
+      "id": "srcPAHCS63",
+      "record_type": "source",
+      "title": "The Teaching of the Twelve Apostles (The Didache) - translation first published in the Sunday-School Times (Philadelphia), April 12, 1884, republished by permission in ANF vol. 7",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcPAHCS63",
+        "record_type": "source",
+        "title": "The Teaching of the Twelve Apostles (The Didache) - translation first published in the Sunday-School Times (Philadelphia), April 12, 1884, republished by permission in ANF vol. 7",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: Isaac H. Hall and John T. Napier (trans.), as republished with minor editorial changes by M. B. Riddle; in: Ante-Nicene Fathers, Vol. 7 (Roberts and Donaldson eds.; A. Cleveland Coxe, American ed.; Christian Literature Publishing Co., Buffalo, 1886)",
+          "Title: The Teaching of the Twelve Apostles (The Didache) - translation first published in the Sunday-School Times (Philadelphia), April 12, 1884, republished by permission in ANF vol. 7",
+          "Locus/date: 1884/1886",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcPAHCS63",
+          "world_id": "post-apostolic-house-church",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "Isaac H. Hall and John T. Napier (trans.), as republished with minor editorial changes by M. B. Riddle; in: Ante-Nicene Fathers, Vol. 7 (Roberts and Donaldson eds.; A. Cleveland Coxe, American ed.; Christian Literature Publishing Co., Buffalo, 1886)",
+          "work_title": "The Teaching of the Twelve Apostles (The Didache) - translation first published in the Sunday-School Times (Philadelphia), April 12, 1884, republished by permission in ANF vol. 7",
+          "work_locus": "1884/1886",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "builder-prior-knowledge",
+          "discovery_instrument": "This world's only Didache source (srcPAHCP01) named a translation gap at T3-D/E: srcPAHCS62 (ANF vol. 1) explicitly does not cover the Didache, which was published too late for that volume and appears instead in ANF vol. 7. Mark supplied vol. 7's CCEL text 2026-08-15. The specific translator credit - Hall and Napier, not the volume's general editors - was read directly out of the volume's own introductory notice to the Teaching, the same care taken with the Ignatius recension question on srcPAHCS62's quotes: a volume covering many authors does not have one uniform translator.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "English translation of The Teaching of the Twelve Apostles (Didache) ONLY - srcPAHCP01. SCOPED DELIBERATELY: this volume of ANF also carries Lactantius, the Apostolic Constitutions, and several liturgies, each with its own translator and its own editorial history; licensing this row covers none of that, only the Hall/Napier Didache rendering specifically.",
+          "rights_status": "PUBLIC DOMAIN: the underlying 1884 translation and its 1886 republication are both long out of copyright in the US. display_permitted is set true on that basis, the same posture as srcPAHCS62 (ANF vol. 1) and for the same reason.",
+          "display_permitted": true,
+          "verification_note": "Added so pahcq005 (the Didache quote deferred at the original quote-authoring pass, 2026-08-15, specifically because ANF vol. 1 does not carry this text) could be written. VERIFIED DIRECT: the passage was read from the vendored text itself (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml), not from a secondary quotation - see pahcq005.",
+          "added": "2026-08-15 (T3 follow-on; Mark supplied ANF vol. 7)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the teaching of the twelve apostles (the didache) - translation first published in the sunday-school times (philadelphia), april 12, 1884, republished by permission in anf vol. 7 srcpahcs63 source isaac h. hall and john t. napier (trans.), as republished with minor editorial changes by m. b. riddle; in: ante-nicene fathers, vol. 7 (roberts and donaldson eds.; a. cleveland coxe, american ed.; christian literature publishing co., buffalo, 1886) the teaching of the twelve apostles (the didache) - translation first published in the sunday-school times (philadelphia), april 12, 1884, republished by permission in anf vol. 7 1884/1886"
     }
   ],
   "browse": {
@@ -10851,10 +11322,21 @@
       ],
       "srcPAHCS51": [
         "pahcamb006"
+      ],
+      "srcPAHCS62": [
+        "pahcq001",
+        "pahcq002",
+        "pahcq003",
+        "pahcq004"
+      ],
+      "srcPAHCS63": [
+        "pahcq005"
       ]
     },
     "by_figure": {
       "pahcfig001": [
+        "pahcq001",
+        "pahcq002",
         "pahcstory001",
         "pahcstory003",
         "pahcstory011"
@@ -10864,6 +11346,7 @@
         "pahcstory007"
       ],
       "pahcfig003": [
+        "pahcq003",
         "pahcstory003",
         "pahcstory008"
       ],
@@ -10871,6 +11354,7 @@
         "pahcstory007"
       ],
       "pahcfig005": [
+        "pahcq004",
         "pahcstory006"
       ],
       "pahcfig006": [
@@ -10880,6 +11364,7 @@
         "pahcstory005"
       ],
       "pahcfig008": [
+        "pahcq005",
         "pahcstory009",
         "pahcstory010",
         "pahcstory012",

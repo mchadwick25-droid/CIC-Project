@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about Strand A's solitary pattern (s
 
 ## Story Text
 
-The Lives record that Pachomius, an early convert following military service, founded the first cenobitic community at Tabennesi in the Thebaid around 320, joined initially by his own brother John and then by additional companions. He established a written Rule, common property held by the community rather than by any individual, and a working hierarchy of housemasters and stewards to keep the community's shared life ordered. By the time of his death in 346, the koinonia had grown to nine houses for men and two for women.
+The Lives record that Pachomius was an early convert who had served in the military. He founded the first cenobitic community at Tabennesi in the Thebaid around 320. The community was joined at first by his own brother John, and then by additional companions. He established a written Rule. Property was held in common by the community rather than by any individual. He also set up a working hierarchy of housemasters and stewards. This kept the community's shared life ordered. By the time of his death in 346, the koinonia had grown to nine houses for men and two for women.
 
 ---
 

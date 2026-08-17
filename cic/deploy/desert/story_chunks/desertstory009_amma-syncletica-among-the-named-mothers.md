@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant asks for a specific saying or scene of hers - 
 
 ## Story Text
 
-The tradition preserves sayings under Amma Syncletica's name - she is one of the named mothers whose tested words the Apophthegmata kept, transmitted through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole; what can be told is that she is real, named, and attested, and that her material is thin - said plainly rather than filled.
+The tradition preserves sayings under Amma Syncletica's name. She is one of the named mothers whose tested words the Apophthegmata kept. Her words were passed down through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole. What can be told is that she is real, named, and attested. Her material is thin. This is said plainly, rather than filled in.
 
 ---
 

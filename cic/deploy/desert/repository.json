@@ -3,7 +3,7 @@
   "world_id": "desert-monasticism",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 110,
+  "record_count": 114,
   "records": [
     {
       "id": "desertamb001",
@@ -1172,6 +1172,14 @@
               "name_kind": "scholarly"
             }
           ],
+          "dates": {
+            "kind": "life",
+            "display": "c. 251-356",
+            "start_year": 251,
+            "end_year": 356,
+            "approximate": true,
+            "note": "UNVERIFIED (T3-E): reference-work lookup 2026-08-15 (Encyclopaedia Britannica, \"St. Anthony of Egypt\"), NOT verified against a primary edition and not carried by any record in this build - the build dates only Athanasius's Life of Antony (c. 356-362, desertstory001). Scholar recheck required before this is treated as attested."
+          },
           "bridge_line": "The Egyptian who went into the desert, and drew others after him.",
           "narratable": true,
           "story_ids": [
@@ -1318,6 +1326,14 @@
               "name_kind": "scholarly"
             }
           ],
+          "dates": {
+            "kind": "life",
+            "display": "c. 330-405",
+            "start_year": 330,
+            "end_year": 405,
+            "approximate": true,
+            "note": "UNVERIFIED (T3-E), and the weakest provenance in this set: reference-work lookup 2026-08-15, NOT verified against a primary edition and carried nowhere in this build - a corpus search for this figure alongside any year returned nothing at all. The traditions also vary on his death. Scholar recheck required before this is treated as attested."
+          },
           "bridge_line": "An elder at Scetis, remembered for refusing to judge another man's fault.",
           "narratable": true,
           "story_ids": [
@@ -1776,6 +1792,56 @@
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
       "search_text": "the desert communities themselves desertfig013 figure"
+    },
+    {
+      "id": "desertfig014",
+      "record_type": "figure",
+      "title": "Palladius",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "desertfig014",
+        "record_type": "figure",
+        "title": "Palladius",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Name: Palladius (in-world).",
+          "Name: Palladius of Galatia, bishop of Helenopolis (c. 419-420) (scholarly).",
+          "Narratable: yes."
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "desertfig014",
+          "world_id": "desert-monasticism",
+          "record_type": "figure",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2
+          ],
+          "register": "etic",
+          "review_state": "draft",
+          "names": [
+            {
+              "name": "Palladius",
+              "name_kind": "in-world"
+            },
+            {
+              "name": "Palladius of Galatia, bishop of Helenopolis (c. 419-420)",
+              "name_kind": "scholarly"
+            }
+          ],
+          "bridge_line": "A bishop who visited many of these communities as a young man and wrote down what he saw.",
+          "narratable": true,
+          "story_ids": [],
+          "attribution_note": "Author of the Lausiac History (srcDES007/srcDES028), desert's own principal narrative source for Nitria, Kellia, and Scetis - lived among these communities himself in his youth (c. 388-399) before later compiling the book as bishop, at Lausus's request. No individual story is owned here (story_ids left empty): the desert stories already authored (owned by desertfig001-013) draw on his reporting as one source among several rather than narrating his own particular experiences as a distinct scene. This figure exists to carry his own authorial voice directly, matching the shape already used for Eusebius in imperial_juridical (a historian-narrator whose own testimony about his method and standing is itself quotable, separate from the events he reports)."
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "palladius desertfig014 figure"
     },
     {
       "id": "desertforce1Ai",
@@ -6168,6 +6234,56 @@
       "search_text": "saying - apophthegmata patrum, macarius 19 (alphabetical collection) desertq006 quote apophthegmata patrum, macarius 19 (alphabetical collection)"
     },
     {
+      "id": "desertq007",
+      "record_type": "quote",
+      "title": "Saying - Palladius, Lausiac History, Prologue (close)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcDES028"
+      },
+      "level3": {
+        "record_id": "desertq007",
+        "record_type": "quote",
+        "title": "Saying - Palladius, Lausiac History, Prologue (close)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: desertfig014.",
+          "Locus: Palladius, Lausiac History, Prologue (close).",
+          "Text: \"So now I begin my tales. I shall leave unnoticed neither those in the cities nor those in the villages or deserts. For the object of our inquiry is not the place where they have settled but the fashion of their plan of life.\"",
+          "Translation used: srcDES028.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "desertq007",
+          "world_id": "desert-monasticism",
+          "record_type": "quote",
+          "schema_version": 1,
+          "register": "emic",
+          "review_state": "draft",
+          "text_translation": "So now I begin my tales. I shall leave unnoticed neither those in the cities nor those in the villages or deserts. For the object of our inquiry is not the place where they have settled but the fashion of their plan of life.",
+          "translation_used": "srcDES028",
+          "locus": "Palladius, Lausiac History, Prologue (close)",
+          "speaker_or_author": "desertfig014",
+          "license": "verbatim",
+          "confidence": {
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-15",
+            "citation_specificity": "A",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - palladius, lausiac history, prologue (close) desertq007 quote palladius, lausiac history, prologue (close)"
+    },
+    {
       "id": "desertstory001",
       "record_type": "story",
       "title": "Antony's Call — Hearing Matthew 19:21",
@@ -6183,7 +6299,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Named author (Athanasius), specific text and chapter reference, composed within a generation of Antony's death — well inside this world's own attested horizon. Confidence is calibrated at two levels, matching Doc_09a's own treatment: Widely Accepted as to the narrative's existence and general content within the Vita; Contested as to incident-level historical reliability specifically, per Doc_01 §10's carried-forward Rubenson/Athanasius tension over Antony's own philosophical literacy and Doc_08 Force 1B-ii's own confidence label. This is a Tier 1 story, not a Tier 3 one, because its narrative register is a restrained incident report, not a hagiographic portrait — contrast Story 007 (Antony's Combat in the Tombs), drawn from the same Vita but carrying clear hagiographic genre markers this story does not.\"}.",
           "Attested occasion: Hearing Matthew 19:21 read in church, not yet twenty and recently orphaned (Vita Antonii ch. 2).",
-          "In his Life of Antony, Athanasius records that Antony, not yet twenty years old and recently orphaned, entered church one day not long after reflecting on how the apostles left everything to follow Christ. He heard the Gospel being read: \"If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me.\" Athanasius tells us that Antony took the words as spoken directly to him — not as instruction offered generally to any hearer, but as an address meant for him in that hour. He left the church, and gave away the land and possessions he had inherited, keeping back only enough to provide for his sister."
+          "In his Life of Antony, Athanasius records that Antony was not yet twenty years old and recently orphaned. [He] entered church one day, not long after reflecting on how the apostles left everything to follow Christ. He heard the Gospel being read: \"If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me.\" Athanasius tells us that Antony took the words as spoken directly to him. They were not instruction offered generally to any hearer, but an address meant for him in that hour. He left the church. He gave away the land and possessions he had inherited, keeping back only enough to provide for his sister."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -6213,7 +6329,7 @@
             "tier": 1,
             "justification": "Named author (Athanasius), specific text and chapter reference, composed within a generation of Antony's death — well inside this world's own attested horizon. Confidence is calibrated at two levels, matching Doc_09a's own treatment: Widely Accepted as to the narrative's existence and general content within the Vita; Contested as to incident-level historical reliability specifically, per Doc_01 §10's carried-forward Rubenson/Athanasius tension over Antony's own philosophical literacy and Doc_08 Force 1B-ii's own confidence label. This is a Tier 1 story, not a Tier 3 one, because its narrative register is a restrained incident report, not a hagiographic portrait — contrast Story 007 (Antony's Combat in the Tombs), drawn from the same Vita but carrying clear hagiographic genre markers this story does not."
           },
-          "text": "In his Life of Antony, Athanasius records that Antony, not yet twenty years old and recently orphaned, entered church one day not long after reflecting on how the apostles left everything to follow Christ. He heard the Gospel being read: \"If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me.\" Athanasius tells us that Antony took the words as spoken directly to him — not as instruction offered generally to any hearer, but as an address meant for him in that hour. He left the church, and gave away the land and possessions he had inherited, keeping back only enough to provide for his sister.",
+          "text": "In his Life of Antony, Athanasius records that Antony was not yet twenty years old and recently orphaned. [He] entered church one day, not long after reflecting on how the apostles left everything to follow Christ. He heard the Gospel being read: \"If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me.\" Athanasius tells us that Antony took the words as spoken directly to him. They were not instruction offered generally to any hearer, but an address meant for him in that hour. He left the church. He gave away the land and possessions he had inherited, keeping back only enough to provide for his sister.",
           "attested_occasion": "Hearing Matthew 19:21 read in church, not yet twenty and recently orphaned (Vita Antonii ch. 2).",
           "tellable_as": "scene",
           "voice_surface": "Athanasius records that Antony heard the word as spoken to him in that hour - we tell it with his name on it, as remembered history, not as our own eyewitness. Usage guidance (chunk, verbatim): The Representative may tell this as remembered history, with Athanasius named as the source — \"Athanasius records that...\" The Representative should not claim more certainty about Antony's specific interior experience than the source supports, and should be prepared to note, if a participant presses further, that Antony's own literacy and philosophical formation are independently and genuinely contested among scholars (Doc_06 §2.2's [CT] tag) — this story's own confidence does not extend to settling that separate question.\n\n**Additional guidance:** This is the single clearest concrete instance of this world's own scriptural-address pattern, and the natural first story to reach for when a participant asks, in any form, \"what actually started this.\"",
@@ -6266,7 +6382,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "antony's call — hearing matthew 19:21 desertstory001 story antony's call — hearing matthew 19:21 in his life of antony, athanasius records that antony, not yet twenty years old and recently orphaned, entered church one day not long after reflecting on how the apostles left everything to follow christ. he heard the gospel being read: \"if you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me.\" athanasius tells us that antony took the words as spoken directly to him — not as instruction offered generally to any hearer, but as an address meant for him in that hour. he left the church, and gave away the land and possessions he had inherited, keeping back only enough to provide for his sister. hearing matthew 19:21 read in church, not yet twenty and recently orphaned (vita antonii ch. 2)."
+      "search_text": "antony's call — hearing matthew 19:21 desertstory001 story antony's call — hearing matthew 19:21 in his life of antony, athanasius records that antony was not yet twenty years old and recently orphaned. [he] entered church one day, not long after reflecting on how the apostles left everything to follow christ. he heard the gospel being read: \"if you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me.\" athanasius tells us that antony took the words as spoken directly to him. they were not instruction offered generally to any hearer, but an address meant for him in that hour. he left the church. he gave away the land and possessions he had inherited, keeping back only enough to provide for his sister. hearing matthew 19:21 read in church, not yet twenty and recently orphaned (vita antonii ch. 2)."
     },
     {
       "id": "desertstory002",
@@ -6284,7 +6400,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Same source and confidence basis as Story 001. The staged chronology — outer mountain from roughly the mid-280s, inner mountain from the early 310s — is treated by Doc_01 §2.1 as the standard, well-established outline, while incident-level narrative detail remains Contested on the same grounds as Story 001's own Rubenson/Athanasius tension.\"}.",
           "Attested occasion: The staged withdrawal: near the village under an older ascetic, the tombs, the outer mountain at Pispir (c. 286) with emergence c. 305, the inner mountain from c. 311-313 (Vita chs. 3-14, 49-50; Doc_01 SS2.1).",
-          "Athanasius records Antony's withdrawal as staged, not sudden. He first remained near his own village, under an older ascetic's guidance, before moving out to the tombs. From there he crossed the Nile to what came to be called the outer mountain, at Pispir, where he remained in near-total seclusion for some twenty years, before at last emerging to instruct the disciples who had by then gathered near him, drawn by report of his life. Later still, seeking greater solitude from the crowds his own reputation now drew, he withdrew further, to an inner mountain between the Nile and the Red Sea, where he spent most of what remained of his life."
+          "Athanasius records Antony's withdrawal as staged, not sudden. He first remained near his own village, under an older ascetic's guidance, before moving out to the tombs. From there he crossed the Nile to what came to be called the outer mountain, at Pispir. There he remained in near-total seclusion for some twenty years. At last he emerged to instruct the disciples who had by then gathered near him, drawn by report of his life. Later still, seeking greater solitude from the crowds his own reputation now drew, he withdrew further, to an inner mountain between the Nile and the Red Sea. There he spent most of what remained of his life."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -6312,7 +6428,7 @@
             "tier": 1,
             "justification": "Same source and confidence basis as Story 001. The staged chronology — outer mountain from roughly the mid-280s, inner mountain from the early 310s — is treated by Doc_01 §2.1 as the standard, well-established outline, while incident-level narrative detail remains Contested on the same grounds as Story 001's own Rubenson/Athanasius tension."
           },
-          "text": "Athanasius records Antony's withdrawal as staged, not sudden. He first remained near his own village, under an older ascetic's guidance, before moving out to the tombs. From there he crossed the Nile to what came to be called the outer mountain, at Pispir, where he remained in near-total seclusion for some twenty years, before at last emerging to instruct the disciples who had by then gathered near him, drawn by report of his life. Later still, seeking greater solitude from the crowds his own reputation now drew, he withdrew further, to an inner mountain between the Nile and the Red Sea, where he spent most of what remained of his life.",
+          "text": "Athanasius records Antony's withdrawal as staged, not sudden. He first remained near his own village, under an older ascetic's guidance, before moving out to the tombs. From there he crossed the Nile to what came to be called the outer mountain, at Pispir. There he remained in near-total seclusion for some twenty years. At last he emerged to instruct the disciples who had by then gathered near him, drawn by report of his life. Later still, seeking greater solitude from the crowds his own reputation now drew, he withdrew further, to an inner mountain between the Nile and the Red Sea. There he spent most of what remained of his life.",
           "attested_occasion": "The staged withdrawal: near the village under an older ascetic, the tombs, the outer mountain at Pispir (c. 286) with emergence c. 305, the inner mountain from c. 311-313 (Vita chs. 3-14, 49-50; Doc_01 SS2.1).",
           "tellable_as": "scene",
           "voice_surface": "Athanasius records the stages; we tell it as a lifelong deepening, not one departure. Usage guidance (chunk, verbatim): May be narrated as remembered history with the same author-named, distance-acknowledged framing as Story 001. Particularly useful for correcting a common misreading — that withdrawal in this world's own logic was a single departure — into the more accurate picture of a lifelong, deepening practice that kept moving further from what had already become familiar.",
@@ -6365,7 +6481,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "antony's withdrawal to the outer and inner mountain desertstory002 story antony's withdrawal to the outer and inner mountain athanasius records antony's withdrawal as staged, not sudden. he first remained near his own village, under an older ascetic's guidance, before moving out to the tombs. from there he crossed the nile to what came to be called the outer mountain, at pispir, where he remained in near-total seclusion for some twenty years, before at last emerging to instruct the disciples who had by then gathered near him, drawn by report of his life. later still, seeking greater solitude from the crowds his own reputation now drew, he withdrew further, to an inner mountain between the nile and the red sea, where he spent most of what remained of his life. the staged withdrawal: near the village under an older ascetic, the tombs, the outer mountain at pispir (c. 286) with emergence c. 305, the inner mountain from c. 311-313 (vita chs. 3-14, 49-50; doc_01 ss2.1)."
+      "search_text": "antony's withdrawal to the outer and inner mountain desertstory002 story antony's withdrawal to the outer and inner mountain athanasius records antony's withdrawal as staged, not sudden. he first remained near his own village, under an older ascetic's guidance, before moving out to the tombs. from there he crossed the nile to what came to be called the outer mountain, at pispir. there he remained in near-total seclusion for some twenty years. at last he emerged to instruct the disciples who had by then gathered near him, drawn by report of his life. later still, seeking greater solitude from the crowds his own reputation now drew, he withdrew further, to an inner mountain between the nile and the red sea. there he spent most of what remained of his life. the staged withdrawal: near the village under an older ascetic, the tombs, the outer mountain at pispir (c. 286) with emergence c. 305, the inner mountain from c. 311-313 (vita chs. 3-14, 49-50; doc_01 ss2.1)."
     },
     {
       "id": "desertstory003",
@@ -6383,7 +6499,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Named textual tradition with a datable founding event, but the multiple, only partially overlapping recensions of the Lives carry a genuinely live, unresolved version-priority debate (Doc_01 §10; Doc_02 §1.2) that this document does not adjudicate. This story is held at Tier 1 for the broad, cross-recension-consistent outline -- founding date range, house count, membership scale at Pachomius's death -- rather than for incident-level detail specific to any single recension.\"}.",
           "Attested occasion: The founding at Tabennesi c. 320, joined first by his brother John; by his death in 346, nine houses for men and two for women (the Lives, cross-recension outline).",
-          "The Lives record that Pachomius, an early convert following military service, founded the first cenobitic community at Tabennesi in the Thebaid around 320, joined initially by his own brother John and then by additional companions. He established a written Rule, common property held by the community rather than by any individual, and a working hierarchy of housemasters and stewards to keep the community's shared life ordered. By the time of his death in 346, the koinonia had grown to nine houses for men and two for women."
+          "The Lives record that Pachomius was an early convert who had served in the military. He founded the first cenobitic community at Tabennesi in the Thebaid around 320. The community was joined at first by his own brother John, and then by additional companions. He established a written Rule. Property was held in common by the community rather than by any individual. He also set up a working hierarchy of housemasters and stewards. This kept the community's shared life ordered. By the time of his death in 346, the koinonia had grown to nine houses for men and two for women."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -6411,7 +6527,7 @@
             "tier": 1,
             "justification": "Named textual tradition with a datable founding event, but the multiple, only partially overlapping recensions of the Lives carry a genuinely live, unresolved version-priority debate (Doc_01 §10; Doc_02 §1.2) that this document does not adjudicate. This story is held at Tier 1 for the broad, cross-recension-consistent outline -- founding date range, house count, membership scale at Pachomius's death -- rather than for incident-level detail specific to any single recension."
           },
-          "text": "The Lives record that Pachomius, an early convert following military service, founded the first cenobitic community at Tabennesi in the Thebaid around 320, joined initially by his own brother John and then by additional companions. He established a written Rule, common property held by the community rather than by any individual, and a working hierarchy of housemasters and stewards to keep the community's shared life ordered. By the time of his death in 346, the koinonia had grown to nine houses for men and two for women.",
+          "text": "The Lives record that Pachomius was an early convert who had served in the military. He founded the first cenobitic community at Tabennesi in the Thebaid around 320. The community was joined at first by his own brother John, and then by additional companions. He established a written Rule. Property was held in common by the community rather than by any individual. He also set up a working hierarchy of housemasters and stewards. This kept the community's shared life ordered. By the time of his death in 346, the koinonia had grown to nine houses for men and two for women.",
           "attested_occasion": "The founding at Tabennesi c. 320, joined first by his brother John; by his death in 346, nine houses for men and two for women (the Lives, cross-recension outline).",
           "tellable_as": "scene",
           "voice_surface": "The Lives record it; we tell the broad outline all recensions share and say plainly that their textual history is tangled. Usage guidance (chunk, verbatim): May be told as remembered history, with the caveat -- offered if the conversation reaches that depth -- that the Lives' own textual history is complex, and that this account does not claim priority for any single recension's specific wording. When a participant asks which authority mode this world actually trusted, this story should be paired honestly with the elder-authority sayings (Stories 004-006), not used alone to suggest the office-based pattern settled the question.",
@@ -6459,7 +6575,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "pachomius's founding of the koinonia at tabennesi desertstory003 story pachomius's founding of the koinonia at tabennesi the lives record that pachomius, an early convert following military service, founded the first cenobitic community at tabennesi in the thebaid around 320, joined initially by his own brother john and then by additional companions. he established a written rule, common property held by the community rather than by any individual, and a working hierarchy of housemasters and stewards to keep the community's shared life ordered. by the time of his death in 346, the koinonia had grown to nine houses for men and two for women. the founding at tabennesi c. 320, joined first by his brother john; by his death in 346, nine houses for men and two for women (the lives, cross-recension outline)."
+      "search_text": "pachomius's founding of the koinonia at tabennesi desertstory003 story pachomius's founding of the koinonia at tabennesi the lives record that pachomius was an early convert who had served in the military. he founded the first cenobitic community at tabennesi in the thebaid around 320. the community was joined at first by his own brother john, and then by additional companions. he established a written rule. property was held in common by the community rather than by any individual. he also set up a working hierarchy of housemasters and stewards. this kept the community's shared life ordered. by the time of his death in 346, the koinonia had grown to nine houses for men and two for women. the founding at tabennesi c. 320, joined first by his brother john; by his death in 346, nine houses for men and two for women (the lives, cross-recension outline)."
     },
     {
       "id": "desertstory004",
@@ -6571,7 +6687,7 @@
         "observe": [
           "Narrative tier: {'tier': 2, 'justification': \"Same basis as Story 004 -- attributed to a named figure, preserved through the compiled tradition rather than a contemporary datable text. Arsenius's own historical existence and imperial-court background are independently well-attested in the broader tradition, but this world's own evidence base does not extend to full verification of his court career specifically, and this document does not overclaim it. Confidence is Widely Accepted for the saying's place in the tradition; Inferential / Thin for the specific court-tutor biographical frame.\"}.",
           "Attested occasion: Prayer for guidance while still tutor at the imperial court, and again after withdrawal to Egypt (Apophthegmata, Arsenius, Alphabetical Collection).",
-          "The tradition tells that Arsenius, while still a tutor in the imperial court at Constantinople, prayed for guidance, and heard a voice say: \"Arsenius, flee the company of men and you will be saved.\" Having withdrawn to Egypt, he prayed again, and heard: \"Arsenius, flee, be silent, be still -- these are the roots of sinlessness.\""
+          "The tradition tells that Arsenius, while still a tutor in the imperial court at Constantinople, prayed for guidance. He heard a voice say: \"Arsenius, flee the company of men and you will be saved.\" Having withdrawn to Egypt, he prayed again. He heard: \"Arsenius, flee, be silent, be still -- these are the roots of sinlessness.\""
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -6600,7 +6716,7 @@
             "tier": 2,
             "justification": "Same basis as Story 004 -- attributed to a named figure, preserved through the compiled tradition rather than a contemporary datable text. Arsenius's own historical existence and imperial-court background are independently well-attested in the broader tradition, but this world's own evidence base does not extend to full verification of his court career specifically, and this document does not overclaim it. Confidence is Widely Accepted for the saying's place in the tradition; Inferential / Thin for the specific court-tutor biographical frame."
           },
-          "text": "The tradition tells that Arsenius, while still a tutor in the imperial court at Constantinople, prayed for guidance, and heard a voice say: \"Arsenius, flee the company of men and you will be saved.\" Having withdrawn to Egypt, he prayed again, and heard: \"Arsenius, flee, be silent, be still -- these are the roots of sinlessness.\"",
+          "text": "The tradition tells that Arsenius, while still a tutor in the imperial court at Constantinople, prayed for guidance. He heard a voice say: \"Arsenius, flee the company of men and you will be saved.\" Having withdrawn to Egypt, he prayed again. He heard: \"Arsenius, flee, be silent, be still -- these are the roots of sinlessness.\"",
           "attested_occasion": "Prayer for guidance while still tutor at the imperial court, and again after withdrawal to Egypt (Apophthegmata, Arsenius, Alphabetical Collection).",
           "tellable_as": "scene",
           "voice_surface": "They say of Abba Arsenius that... - the court frame told thinly, as the tradition gives it, without elaboration. Usage guidance (chunk, verbatim): Told as tradition, not verified biography -- \"They say of Abba Arsenius that...\" Particularly useful for illustrating gravity 1's own logic in its most compressed, memorable form -- a call, a departure, and a further call once the departure was already made.",
@@ -6648,7 +6764,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "abba arsenius's call to flee, be silent, be still desertstory005 story abba arsenius's call to flee, be silent, be still the tradition tells that arsenius, while still a tutor in the imperial court at constantinople, prayed for guidance, and heard a voice say: \"arsenius, flee the company of men and you will be saved.\" having withdrawn to egypt, he prayed again, and heard: \"arsenius, flee, be silent, be still -- these are the roots of sinlessness.\" prayer for guidance while still tutor at the imperial court, and again after withdrawal to egypt (apophthegmata, arsenius, alphabetical collection)."
+      "search_text": "abba arsenius's call to flee, be silent, be still desertstory005 story abba arsenius's call to flee, be silent, be still the tradition tells that arsenius, while still a tutor in the imperial court at constantinople, prayed for guidance. he heard a voice say: \"arsenius, flee the company of men and you will be saved.\" having withdrawn to egypt, he prayed again. he heard: \"arsenius, flee, be silent, be still -- these are the roots of sinlessness.\" prayer for guidance while still tutor at the imperial court, and again after withdrawal to egypt (apophthegmata, arsenius, alphabetical collection)."
     },
     {
       "id": "desertstory006",
@@ -6668,7 +6784,7 @@
         "observe": [
           "Narrative tier: {'tier': 2, 'justification': \"Same basis as Stories 004-005. Confidence is Widely Accepted for the saying's place in the tradition; Inferential / Thin for the specific narrated encounter's historicity.\"}.",
           "Attested occasion: Visiting elder monks coming to test or humble her as a woman (Apophthegmata, Sarah, Alphabetical Collection).",
-          "The tradition tells that when some elder monks came to Amma Sarah intending to test or humble her, saying, \"Be careful not to become conceited, thinking to yourself, 'Look, anchorites are coming to see me, a mere woman,'\" she answered: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\""
+          "The tradition tells that some elder monks came to Amma Sarah intending to test or humble her. [They] said, \"Be careful not to become conceited, thinking to yourself, 'Look, anchorites are coming to see me, a mere woman.'\" She answered: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\""
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -6698,7 +6814,7 @@
             "tier": 2,
             "justification": "Same basis as Stories 004-005. Confidence is Widely Accepted for the saying's place in the tradition; Inferential / Thin for the specific narrated encounter's historicity."
           },
-          "text": "The tradition tells that when some elder monks came to Amma Sarah intending to test or humble her, saying, \"Be careful not to become conceited, thinking to yourself, 'Look, anchorites are coming to see me, a mere woman,'\" she answered: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\"",
+          "text": "The tradition tells that some elder monks came to Amma Sarah intending to test or humble her. [They] said, \"Be careful not to become conceited, thinking to yourself, 'Look, anchorites are coming to see me, a mere woman.'\" She answered: \"[text withheld from public display - rights not established for the underlying source (FLAG-013 fail-closed); metadata and attribution above are the road to it]\"",
           "attested_occasion": "Visiting elder monks coming to test or humble her as a woman (Apophthegmata, Sarah, Alphabetical Collection).",
           "tellable_as": "scene",
           "voice_surface": "The tradition tells that Amma Sarah answered them - a pointed reversal under a hostile frame, flattened neither into equality nor inferiority claims. Usage guidance (chunk, verbatim): Told as tradition. Given the genuine thinness of surviving material specifically attributed to named ammas (Doc_02 §1.6's own flagged asymmetry), this story should be used, not held back, when the conversation reaches questions of women's presence and authority in this world -- but the Representative should be honest that this is one of only a small number of directly attributed sayings surviving for named ammas, not evidence of a fuller corpus that happens not to have been included here.\n\n**On the content itself:** the saying is a pointed reversal, not an egalitarian \"no difference\" claim -- Sarah affirms a difference in nature while claiming manliness in thought, turning the elders' own test back on them. It should not be flattened into either \"this tradition held women equal\" or \"this tradition held women inferior.\" Held honestly, it is closer to defiance under a hostile frame than to either simple reading.",
@@ -6746,7 +6862,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "amma sarah's answer to the visiting elders desertstory006 story amma sarah's answer to the visiting elders the tradition tells that when some elder monks came to amma sarah intending to test or humble her, saying, \"be careful not to become conceited, thinking to yourself, 'look, anchorites are coming to see me, a mere woman,'\" she answered: \"[text withheld from public display - rights not established for the underlying source (flag-013 fail-closed); metadata and attribution above are the road to it]\" visiting elder monks coming to test or humble her as a woman (apophthegmata, sarah, alphabetical collection)."
+      "search_text": "amma sarah's answer to the visiting elders desertstory006 story amma sarah's answer to the visiting elders the tradition tells that some elder monks came to amma sarah intending to test or humble her. [they] said, \"be careful not to become conceited, thinking to yourself, 'look, anchorites are coming to see me, a mere woman.'\" she answered: \"[text withheld from public display - rights not established for the underlying source (flag-013 fail-closed); metadata and attribution above are the road to it]\" visiting elder monks coming to test or humble her as a woman (apophthegmata, sarah, alphabetical collection)."
     },
     {
       "id": "desertstory007",
@@ -6764,7 +6880,7 @@
         "observe": [
           "Narrative tier: {'tier': 3, 'justification': \"This account carries clear hagiographic genre markers -- physically embodied demons, a beast-form combat scene, a climactic vision of light -- that distinguish it from the more restrained, incident-report register of the Tier 1 stories (001-003) drawn from the same Vita. It is classified Tier 3, the tradition's own account of what a formed life looks like at its most extreme, rather than Tier 1 documented history, precisely because the narrative register itself signals portrait rather than incident report.\"}.",
           "Attested occasion: Solitary enclosure in the tombs (Vita Antonii chs. 8-10) - the tradition's own portrait register, not incident report.",
-          "This is how the tradition remembers Antony's own struggle -- what it believed total combat against the interior enemy could involve. Athanasius portrays Antony shutting himself in an abandoned tomb for solitary combat, where he is assailed by demons taking the form of beasts, beating him nearly to death, and later by a vision of demons in the shape of wild animals filling the tomb entirely. Antony is portrayed emerging from these confrontations progressively strengthened rather than destroyed, until at last a vision of light comes to him, understood as divine aid arriving only once his own struggle had been sufficiently proven."
+          "This is how the tradition remembers Antony's own struggle. It shows what the tradition believed total combat against the interior enemy could involve. Athanasius portrays Antony shutting himself in an abandoned tomb for solitary combat. There, demons in the form of beasts assail him. They beat him nearly to death. Later, he has a vision of demons in the shape of wild animals filling the tomb entirely. Antony is portrayed emerging from these clashes stronger each time, not destroyed. At last a vision of light comes to him. This is understood as divine aid, arriving only once his own struggle had been proven enough."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -6792,7 +6908,7 @@
             "tier": 3,
             "justification": "This account carries clear hagiographic genre markers -- physically embodied demons, a beast-form combat scene, a climactic vision of light -- that distinguish it from the more restrained, incident-report register of the Tier 1 stories (001-003) drawn from the same Vita. It is classified Tier 3, the tradition's own account of what a formed life looks like at its most extreme, rather than Tier 1 documented history, precisely because the narrative register itself signals portrait rather than incident report."
           },
-          "text": "This is how the tradition remembers Antony's own struggle -- what it believed total combat against the interior enemy could involve. Athanasius portrays Antony shutting himself in an abandoned tomb for solitary combat, where he is assailed by demons taking the form of beasts, beating him nearly to death, and later by a vision of demons in the shape of wild animals filling the tomb entirely. Antony is portrayed emerging from these confrontations progressively strengthened rather than destroyed, until at last a vision of light comes to him, understood as divine aid arriving only once his own struggle had been sufficiently proven.",
+          "text": "This is how the tradition remembers Antony's own struggle. It shows what the tradition believed total combat against the interior enemy could involve. Athanasius portrays Antony shutting himself in an abandoned tomb for solitary combat. There, demons in the form of beasts assail him. They beat him nearly to death. Later, he has a vision of demons in the shape of wild animals filling the tomb entirely. Antony is portrayed emerging from these clashes stronger each time, not destroyed. At last a vision of light comes to him. This is understood as divine aid, arriving only once his own struggle had been proven enough.",
           "attested_occasion": "Solitary enclosure in the tombs (Vita Antonii chs. 8-10) - the tradition's own portrait register, not incident report.",
           "tellable_as": "scene",
           "voice_surface": "This is how the tradition remembers Antony's own struggle, what it believed total combat could involve - offered as portrait, explicitly marked, never as literal event-claim. Usage guidance (chunk, verbatim): The Representative may offer this as the tradition's own account of what total spiritual combat was understood to look like, explicitly marked as such -- \"This is how the tradition remembers Antony's own struggle, what it believed total combat against the interior enemy could involve...\" The Representative should not present the demons-as-beasts imagery as a claim about literal historical events, only as this world's own chosen register for representing interior struggle at its most extreme.",
@@ -6840,7 +6956,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "antony's combat in the tombs desertstory007 story antony's combat in the tombs this is how the tradition remembers antony's own struggle -- what it believed total combat against the interior enemy could involve. athanasius portrays antony shutting himself in an abandoned tomb for solitary combat, where he is assailed by demons taking the form of beasts, beating him nearly to death, and later by a vision of demons in the shape of wild animals filling the tomb entirely. antony is portrayed emerging from these confrontations progressively strengthened rather than destroyed, until at last a vision of light comes to him, understood as divine aid arriving only once his own struggle had been sufficiently proven. solitary enclosure in the tombs (vita antonii chs. 8-10) - the tradition's own portrait register, not incident report."
+      "search_text": "antony's combat in the tombs desertstory007 story antony's combat in the tombs this is how the tradition remembers antony's own struggle. it shows what the tradition believed total combat against the interior enemy could involve. athanasius portrays antony shutting himself in an abandoned tomb for solitary combat. there, demons in the form of beasts assail him. they beat him nearly to death. later, he has a vision of demons in the shape of wild animals filling the tomb entirely. antony is portrayed emerging from these clashes stronger each time, not destroyed. at last a vision of light comes to him. this is understood as divine aid, arriving only once his own struggle had been proven enough. solitary enclosure in the tombs (vita antonii chs. 8-10) - the tradition's own portrait register, not incident report."
     },
     {
       "id": "desertstory008",
@@ -6858,7 +6974,7 @@
         "observe": [
           "Narrative tier: {'tier': 4, 'justification': 'Every element in the Story Text is separately sourced below, per the Template\\'s own Tier 4 requirement. An earlier draft\\'s general \"simple and limited\" meals clause was removed rather than retained-and-flagged, per the Template\\'s own rule that an unsourced Tier 4 element must be removed from the Story Text, not kept with a caveat (Round 1 review, Finding 3).\\n\\n**Correction, 2026-07-23:** an earlier draft of the Story Text read \"On the sixth day\" for when the ascetic walked to the synaxis. This was a genuine error, not a stylistic choice — under this world\\'s own period-authentic day-counting (Sunday-first, the convention actually used by Greek/Coptic Christians of this era: Sunday = first day, Friday = sixth day, Saturday = the Sabbath/seventh day), \"the sixth day\" resolves to Friday, which contradicts this same Source Identification\\'s own \"Weekly Saturday-to-Sunday synaxis\" sourcing below. A Friday gathering is also independently implausible: Friday was a fast/station day, and this story\\'s own synaxis includes a communal meal, which would not occur on a fast day. The phrase was almost certainly written using modern (Monday-first) day-counting by mistake. Corrected to name the actual sourced days directly (\"on the Sabbath and the Lord\\'s Day\") rather than an ordinal count that reads as period vocabulary but isn\\'t. Historical grounding for the Saturday-Sunday rhythm: John Cassian\\'s *Institutes* 3 (firsthand account of Scetis), Palladius\\'s *Lausiac History*, the *Apophthegmata Patrum*, and standard modern scholarship on Nitria/Kellia/Scetis (Chitty, *The Desert a City*; the Guillaumonts\\' Kellia excavations).'}.",
           "Attested occasion: None - explicitly a typical/composite reconstruction (Tier 4); the absence of a specific occasion is this field's honest value.",
-          "In a typical day for someone formed in this tradition at Kellia, the day would open and close with recitation of the Psalter, continuous with manual labor -- weaving rope or baskets -- carried out through the daylight hours in the cell's own workspace. At the week's end, on the Sabbath and the Lord's Day, the ascetic would walk to the settlement's communal gathering point for the synaxis -- a vigil, a shared liturgy, and a communal meal -- before returning to the cell's own solitude for the coming week."
+          "In a typical day for someone formed in this tradition at Kellia, the day would open and close with recitation of the Psalter. The day was continuous with manual labor. This meant weaving rope or baskets, carried out through the daylight hours in the cell's own workspace. At the week's end, on the Sabbath and the Lord's Day, the ascetic would walk to the settlement's communal gathering point. This gathering was for the synaxis -- a vigil, a shared liturgy, and a communal meal. The ascetic then returned to the cell's own solitude for the coming week."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -6898,10 +7014,10 @@
             "tier": 4,
             "justification": "Every element in the Story Text is separately sourced below, per the Template's own Tier 4 requirement. An earlier draft's general \"simple and limited\" meals clause was removed rather than retained-and-flagged, per the Template's own rule that an unsourced Tier 4 element must be removed from the Story Text, not kept with a caveat (Round 1 review, Finding 3).\n\n**Correction, 2026-07-23:** an earlier draft of the Story Text read \"On the sixth day\" for when the ascetic walked to the synaxis. This was a genuine error, not a stylistic choice — under this world's own period-authentic day-counting (Sunday-first, the convention actually used by Greek/Coptic Christians of this era: Sunday = first day, Friday = sixth day, Saturday = the Sabbath/seventh day), \"the sixth day\" resolves to Friday, which contradicts this same Source Identification's own \"Weekly Saturday-to-Sunday synaxis\" sourcing below. A Friday gathering is also independently implausible: Friday was a fast/station day, and this story's own synaxis includes a communal meal, which would not occur on a fast day. The phrase was almost certainly written using modern (Monday-first) day-counting by mistake. Corrected to name the actual sourced days directly (\"on the Sabbath and the Lord's Day\") rather than an ordinal count that reads as period vocabulary but isn't. Historical grounding for the Saturday-Sunday rhythm: John Cassian's *Institutes* 3 (firsthand account of Scetis), Palladius's *Lausiac History*, the *Apophthegmata Patrum*, and standard modern scholarship on Nitria/Kellia/Scetis (Chitty, *The Desert a City*; the Guillaumonts' Kellia excavations)."
           },
-          "text": "In a typical day for someone formed in this tradition at Kellia, the day would open and close with recitation of the Psalter, continuous with manual labor -- weaving rope or baskets -- carried out through the daylight hours in the cell's own workspace. At the week's end, on the Sabbath and the Lord's Day, the ascetic would walk to the settlement's communal gathering point for the synaxis -- a vigil, a shared liturgy, and a communal meal -- before returning to the cell's own solitude for the coming week.",
+          "text": "In a typical day for someone formed in this tradition at Kellia, the day would open and close with recitation of the Psalter. The day was continuous with manual labor. This meant weaving rope or baskets, carried out through the daylight hours in the cell's own workspace. At the week's end, on the Sabbath and the Lord's Day, the ascetic would walk to the settlement's communal gathering point. This gathering was for the synaxis -- a vigil, a shared liturgy, and a communal meal. The ascetic then returned to the cell's own solitude for the coming week.",
           "attested_occasion": "None - explicitly a typical/composite reconstruction (Tier 4); the absence of a specific occasion is this field's honest value.",
           "tellable_as": "scene",
-          "voice_surface": "In a typical day for someone formed in this tradition... - marked as reconstruction from the outset, assembled from separately attested elements, never one person's recorded day. Usage guidance (chunk, verbatim): The Representative must explicitly mark this as reconstruction from the outset -- \"In a typical day for someone formed in this tradition...\" -- and must be prepared, if asked, to acknowledge this is assembled from several independently attested elements rather than a single recorded account of one person's actual day.",
+          "voice_surface": "In a typical day for someone formed in this tradition... - marked from the outset as a pattern drawn together from what is attested, assembled from separately attested elements, never one person's recorded day. Usage guidance (chunk, verbatim): The Representative must mark this from the outset as a pattern drawn together from what is attested, not one person's recorded day -- \"In a typical day for someone formed in this tradition...\" -- and must be prepared, if asked, to acknowledge this is assembled from several independently attested elements rather than a single recorded account of one person's actual day.",
           "retrieval": {
             "tier": 4,
             "retrieve_when": [
@@ -6974,7 +7090,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "a day in a kellia cell desertstory008 story a day in a kellia cell in a typical day for someone formed in this tradition at kellia, the day would open and close with recitation of the psalter, continuous with manual labor -- weaving rope or baskets -- carried out through the daylight hours in the cell's own workspace. at the week's end, on the sabbath and the lord's day, the ascetic would walk to the settlement's communal gathering point for the synaxis -- a vigil, a shared liturgy, and a communal meal -- before returning to the cell's own solitude for the coming week. none - explicitly a typical/composite reconstruction (tier 4); the absence of a specific occasion is this field's honest value."
+      "search_text": "a day in a kellia cell desertstory008 story a day in a kellia cell in a typical day for someone formed in this tradition at kellia, the day would open and close with recitation of the psalter. the day was continuous with manual labor. this meant weaving rope or baskets, carried out through the daylight hours in the cell's own workspace. at the week's end, on the sabbath and the lord's day, the ascetic would walk to the settlement's communal gathering point. this gathering was for the synaxis -- a vigil, a shared liturgy, and a communal meal. the ascetic then returned to the cell's own solitude for the coming week. none - explicitly a typical/composite reconstruction (tier 4); the absence of a specific occasion is this field's honest value."
     },
     {
       "id": "desertstory009",
@@ -6992,7 +7108,7 @@
         "observe": [
           "Narrative tier: {'tier': 2, 'justification': \"Named amma genuinely attested: Widely Accepted that Syncletica and her sayings are a real, if thin, part of the Apophthegmata tradition (Doc_02 §1.6; Doc_06 §1.6's plural-voices flag); Inferential / Thin for any claim beyond what the surviving sayings themselves state. No individual saying of hers is vetted into this build's record - which is why this record licenses allusion only, never scene-telling or quotation (CO-P2-07).\"}.",
           "Attested occasion: None carried - her attestation in this build is corpus-level (the ammas' sayings within the Apophthegmata tradition, srcDES006); no individual saying with its occasion is vetted into the record.",
-          "The tradition preserves sayings under Amma Syncletica's name - she is one of the named mothers whose tested words the Apophthegmata kept, transmitted through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole; what can be told is that she is real, named, and attested, and that her material is thin - said plainly rather than filled."
+          "The tradition preserves sayings under Amma Syncletica's name. She is one of the named mothers whose tested words the Apophthegmata kept. Her words were passed down through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole. What can be told is that she is real, named, and attested. Her material is thin. This is said plainly, rather than filled in."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -7018,7 +7134,7 @@
             "tier": 2,
             "justification": "Named amma genuinely attested: Widely Accepted that Syncletica and her sayings are a real, if thin, part of the Apophthegmata tradition (Doc_02 §1.6; Doc_06 §1.6's plural-voices flag); Inferential / Thin for any claim beyond what the surviving sayings themselves state. No individual saying of hers is vetted into this build's record - which is why this record licenses allusion only, never scene-telling or quotation (CO-P2-07)."
           },
-          "text": "The tradition preserves sayings under Amma Syncletica's name - she is one of the named mothers whose tested words the Apophthegmata kept, transmitted through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole; what can be told is that she is real, named, and attested, and that her material is thin - said plainly rather than filled.",
+          "text": "The tradition preserves sayings under Amma Syncletica's name. She is one of the named mothers whose tested words the Apophthegmata kept. Her words were passed down through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole. What can be told is that she is real, named, and attested. Her material is thin. This is said plainly, rather than filled in.",
           "attested_occasion": "None carried - her attestation in this build is corpus-level (the ammas' sayings within the Apophthegmata tradition, srcDES006); no individual saying with its occasion is vetted into the record.",
           "tellable_as": "allusion-only",
           "voice_surface": "Amma Syncletica is among the named mothers whose tested words the tradition kept. What we can tell of her is real but thin, and we say so plainly rather than filling the silence.",
@@ -7050,7 +7166,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "amma syncletica among the named mothers (allusion only) desertstory009 story amma syncletica among the named mothers (allusion only) the tradition preserves sayings under amma syncletica's name - she is one of the named mothers whose tested words the apophthegmata kept, transmitted through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. this build carries none of her individual sayings whole; what can be told is that she is real, named, and attested, and that her material is thin - said plainly rather than filled. none carried - her attestation in this build is corpus-level (the ammas' sayings within the apophthegmata tradition, srcdes006); no individual saying with its occasion is vetted into the record."
+      "search_text": "amma syncletica among the named mothers (allusion only) desertstory009 story amma syncletica among the named mothers (allusion only) the tradition preserves sayings under amma syncletica's name. she is one of the named mothers whose tested words the apophthegmata kept. her words were passed down through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. this build carries none of her individual sayings whole. what can be told is that she is real, named, and attested. her material is thin. this is said plainly, rather than filled in. none carried - her attestation in this build is corpus-level (the ammas' sayings within the apophthegmata tradition, srcdes006); no individual saying with its occasion is vetted into the record."
     },
     {
       "id": "desertstory010",
@@ -7068,7 +7184,7 @@
         "observe": [
           "Narrative tier: {'tier': 2, 'justification': \"Named amma genuinely attested: Widely Accepted that Theodora and her sayings are a real, if thin, part of the Apophthegmata tradition (Doc_02 §1.6; Doc_06 §1.6's plural-voices flag); Inferential / Thin for any claim beyond what the surviving sayings themselves state. No individual saying of hers is vetted into this build's record - which is why this record licenses allusion only, never scene-telling or quotation (CO-P2-07).\"}.",
           "Attested occasion: None carried - her attestation in this build is corpus-level (the ammas' sayings within the Apophthegmata tradition, srcDES006); no individual saying with its occasion is vetted into the record.",
-          "The tradition preserves sayings under Amma Theodora's name - she is one of the named mothers whose tested words the Apophthegmata kept, transmitted through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole; what can be told is that she is real, named, and attested, and that her material is thin - said plainly rather than filled."
+          "The tradition preserves sayings under Amma Theodora's name. She is one of the named mothers whose tested words the Apophthegmata kept. Her words were passed down through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole. What can be told is that she is real, named, and attested. Her material is thin. This is said plainly, rather than filled in."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -7094,7 +7210,7 @@
             "tier": 2,
             "justification": "Named amma genuinely attested: Widely Accepted that Theodora and her sayings are a real, if thin, part of the Apophthegmata tradition (Doc_02 §1.6; Doc_06 §1.6's plural-voices flag); Inferential / Thin for any claim beyond what the surviving sayings themselves state. No individual saying of hers is vetted into this build's record - which is why this record licenses allusion only, never scene-telling or quotation (CO-P2-07)."
           },
-          "text": "The tradition preserves sayings under Amma Theodora's name - she is one of the named mothers whose tested words the Apophthegmata kept, transmitted through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole; what can be told is that she is real, named, and attested, and that her material is thin - said plainly rather than filled.",
+          "text": "The tradition preserves sayings under Amma Theodora's name. She is one of the named mothers whose tested words the Apophthegmata kept. Her words were passed down through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. This build carries none of her individual sayings whole. What can be told is that she is real, named, and attested. Her material is thin. This is said plainly, rather than filled in.",
           "attested_occasion": "None carried - her attestation in this build is corpus-level (the ammas' sayings within the Apophthegmata tradition, srcDES006); no individual saying with its occasion is vetted into the record.",
           "tellable_as": "allusion-only",
           "voice_surface": "Amma Theodora is among the named mothers whose tested words the tradition kept. What we can tell of her is real but thin, and we say so plainly rather than filling the silence.",
@@ -7126,7 +7242,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "amma theodora among the named mothers (allusion only) desertstory010 story amma theodora among the named mothers (allusion only) the tradition preserves sayings under amma theodora's name - she is one of the named mothers whose tested words the apophthegmata kept, transmitted through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. this build carries none of her individual sayings whole; what can be told is that she is real, named, and attested, and that her material is thin - said plainly rather than filled. none carried - her attestation in this build is corpus-level (the ammas' sayings within the apophthegmata tradition, srcdes006); no individual saying with its occasion is vetted into the record."
+      "search_text": "amma theodora among the named mothers (allusion only) desertstory010 story amma theodora among the named mothers (allusion only) the tradition preserves sayings under amma theodora's name. she is one of the named mothers whose tested words the apophthegmata kept. her words were passed down through the same later-compiled apparatus as the male-attributed sayings, with a much smaller surviving sample. this build carries none of her individual sayings whole. what can be told is that she is real, named, and attested. her material is thin. this is said plainly, rather than filled in. none carried - her attestation in this build is corpus-level (the ammas' sayings within the apophthegmata tradition, srcdes006); no individual saying with its occasion is vetted into the record."
     },
     {
       "id": "srcDES001",
@@ -8572,6 +8688,118 @@
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
       "search_text": "de institutis coenobiorum (institutes); collationes (conferences) srcdes026 source john cassian de institutis coenobiorum (institutes); collationes (conferences) c. 420s (within the world's closing window, doc_01 ss2.3)"
+    },
+    {
+      "id": "srcDES027",
+      "record_type": "source",
+      "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 11: The Works of John Cassian (Edinburgh: T&T Clark)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcDES027",
+        "record_type": "source",
+        "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 11: The Works of John Cassian (Edinburgh: T&T Clark)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: Rev. Edgar C. S. Gibson (trans., with prolegomena, prefaces, and notes); Philip Schaff and Henry Wace (series eds.)",
+          "Title: Nicene and Post-Nicene Fathers, Second Series, Vol. 11: The Works of John Cassian (Edinburgh: T&T Clark)",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcDES027",
+          "world_id": "desert-monasticism",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "corpus",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "Rev. Edgar C. S. Gibson (trans., with prolegomena, prefaces, and notes); Philip Schaff and Henry Wace (series eds.)",
+          "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 11: The Works of John Cassian (Edinburgh: T&T Clark)",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's request, 2026-08-15 (\"deepen imperial_juridical... do all the other fixes you suggested\"), following up on the npnf211 ENTRIES note flagging that desert's srcDES026 (John Cassian, Latin primary source, never independently re-collated) had no English translation row. TRANSLATOR checked at the volume's own Cassian-specific title page, not assumed from the shared volume-level <DC.Creator> block (which also credits Sulpitius Severus and Vincent of Lerins as authors under one header): \"The Works of John Cassian. Translated, with prolegomena, prefaces, and notes, by Rev. Edgar C. S. Gibson\" - a distinct per-work credit, the same check that caught srcIJC42's and srcIJC45's translator splits.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "General English translation of John Cassian's Institutes and Conferences, corresponding to srcDES026's corpus-level primary-source row. SCOPED TO THE CASSIAN PORTION OF THIS VOLUME ONLY - it also carries Sulpitius Severus's and Vincent of Lerins's separate works, which this row does not license.",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: NPNF Second Series, same publisher/era as every other row in this build, long out of copyright in the US.",
+          "display_permitted": true,
+          "verification_note": "NOT YET WORDING-VERIFIED. srcDES026 is a corpus-level row (the whole Institutes and Conferences), cited load-bearingly across four of desert's own build documents for general transmission-history and terminology claims (apatheia -> puritas cordis, etc.) rather than any single quotable passage. No specific chapter or sentence has been identified and checked against this translation yet, unlike srcIJC46 (added the same day for the Chalcedon Tome, fully verified against a new quote). This row closes the \"no translation cited\" gap and records public-domain rights; a specific passage still needs to be located and checked before any quote can cite it.",
+          "added": "2026-08-15 (T3 follow-on; Mark's \"other fixes\" request)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "nicene and post-nicene fathers, second series, vol. 11: the works of john cassian (edinburgh: t&t clark) srcdes027 source rev. edgar c. s. gibson (trans., with prolegomena, prefaces, and notes); philip schaff and henry wace (series eds.) nicene and post-nicene fathers, second series, vol. 11: the works of john cassian (edinburgh: t&t clark)"
+    },
+    {
+      "id": "srcDES028",
+      "record_type": "source",
+      "title": "Palladius: The Lausiac History (Translations of Christian Literature, Series I: Greek Texts, Society for Promoting Christian Knowledge, 1918)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcDES028",
+        "record_type": "source",
+        "title": "Palladius: The Lausiac History (Translations of Christian Literature, Series I: Greek Texts, Society for Promoting Christian Knowledge, 1918)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: W.K. Lowther Clarke (trans.)",
+          "Title: Palladius: The Lausiac History (Translations of Christian Literature, Series I: Greek Texts, Society for Promoting Christian Knowledge, 1918)",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcDES028",
+          "world_id": "desert-monasticism",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "W.K. Lowther Clarke (trans.)",
+          "work_title": "Palladius: The Lausiac History (Translations of Christian Literature, Series I: Greek Texts, Society for Promoting Christian Knowledge, 1918)",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's request, 2026-08-15, following the \"which CCEL resources would be essential\" question earlier the same day - Palladius's Lausiac History was identified as the strongest candidate to close srcDES007 (Greek original, no translation cited, cited load-bearingly across desert's search_record/story/ambient/force records). Supplied as an RTF file attachment (cic/texts/palladius_lausiac-history_clarke1918.txt, converted mechanically via the striprtf library, structural integrity confirmed by chapter-marker count).",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "General English translation of Palladius's Lausiac History, corresponding to srcDES007's corpus-level primary-source row (Greek original, c. 419-420). SCOPED TO THIS WORK ONLY.",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: Clarke's translation first published 1918 (SPCK), long out of copyright in the US. The source file itself carries no rights statement (an RTF compilation, not a CCEL page export), but it is drawn from Roger Pearse's \"morefathers\" collection, whose pages carry an explicit public-domain declaration (\"transcribed by Roger Pearse... all material on this page is in the public domain - copy freely\"), confirmed on the companion Doctrine of Addai page from the same collection supplied in the same conversation.",
+          "display_permitted": true,
+          "verification_note": "UPDATE, same day: wording-verified against desertq007 (\"add a quote for Palladius too\") - the closing sentence of the Prologue, confirmed at line 193 of cic/texts/palladius_lausiac-history_clarke1918.txt. This single passage does not exhaust the row's corpus-level scope (desert's existing citations - Nitria population figures, the general narrative record - remain unverified against specific loci beyond this one), but the row has moved past the \"nothing checked yet\" state srcDES027 and srcSYR065 were left in earlier the same day.",
+          "added": "2026-08-15 (T3 follow-on; Mark's Lausiac History supply)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "palladius: the lausiac history (translations of christian literature, series i: greek texts, society for promoting christian knowledge, 1918) srcdes028 source w.k. lowther clarke (trans.) palladius: the lausiac history (translations of christian literature, series i: greek texts, society for promoting christian knowledge, 1918)"
     }
   ],
   "browse": {
@@ -8807,6 +9035,9 @@
       ],
       "srcDES026": [
         "desertlex018"
+      ],
+      "srcDES028": [
+        "desertq007"
       ]
     },
     "by_figure": {
@@ -8843,6 +9074,9 @@
       ],
       "desertfig013": [
         "desertstory008"
+      ],
+      "desertfig014": [
+        "desertq007"
       ]
     },
     "by_contested_claim": {},

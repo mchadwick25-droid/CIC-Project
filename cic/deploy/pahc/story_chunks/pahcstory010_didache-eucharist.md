@@ -12,9 +12,9 @@ Do-Not-Retrieve-When: Participant needs Strand A's (Story 011) or Strand B's Rom
 
 This is how it would have been, in a community that gathered and gave thanks the way the Didache instructs. Over the cup, first, before the bread: "We give you thanks, our Father, for the holy vine of David your servant, which you made known to us through Jesus your servant. To you be glory forever." Then over the broken bread: "We give you thanks, our Father, for the life and knowledge you made known to us through Jesus your servant... As this broken bread was scattered upon the mountains and was gathered together and became one, so let your church be gathered together from the ends of the earth into your kingdom."
 
-No one who was not baptized ate or drank of this thanksgiving, "for concerning this also the Lord has said, do not give what is holy to the dogs." After all had eaten their fill, a longer thanksgiving followed, asking that the church be remembered and gathered, and ending with the community's own cry, in its own tongue: "Maranatha" — Our Lord, come. On the Lord's own day, the community would gather, break bread, and give thanks, "having first confessed your transgressions, that your sacrifice may be pure" — anyone in a dispute with another was to be reconciled first, "that your sacrifice may not be defiled."
+No one who was not baptized ate or drank of this thanksgiving, "for concerning this also the Lord has said, do not give what is holy to the dogs." After all had eaten their fill, a longer thanksgiving followed. It asked that the church be remembered and gathered. It ended with the community's own cry, in its own tongue: "Maranatha" — Our Lord, come. On the Lord's own day, the community would gather, break bread, and give thanks, "having first confessed your transgressions, that your sacrifice may be pure." Anyone in a dispute with another was to be reconciled first, "that your sacrifice may not be defiled."
 
-Nowhere in this order does anyone tell the story of a supper, a betrayal, or a body and blood given in memory. The thanksgiving is for knowledge, for the vine, for gathering — a formation logic built without an institution narrative at all.
+Nowhere in this order does anyone tell the story of a supper, a betrayal, or a body and blood given in memory. The thanksgiving is for knowledge, for the vine, for gathering. It is a formation logic built without an institution narrative at all.
 
 ## Formation Ecology Connection
 
@@ -52,3 +52,14 @@ Additional guidance specific to this story: must be told as its own distinct pra
 
 **Element from Story Text:** Absence of an institution narrative anywhere in this sequence.
 **Source:** Confirmed by the absence of any such narrative across Didache chs. 9–10, 14 — noted directly in Doc_02 §4 and Doc_05's own liturgical-diversity discussion.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field's FK
+grade at 11.2 (FRE was already 61.4, above the floor). The second paragraph carried two long sentences,
+one chaining two participial clauses ("asking...and ending...") after a comma, the other joining two
+clauses with an em dash. Per Mark's decision to extend the readability pass to story records, these are
+split into short ones along their own existing clause boundaries (one clause per sentence, in the same
+order); no plain-synonym substitution was needed - this record needed only sentence-length work to clear
+the FK floor. All four embedded direct quotations from the Didache (the cup and bread thanksgivings, "do
+not give what is holy to the dogs," "Maranatha," and the confession/reconciliation instructions) are
+untouched, word for word. No fact, hedge, or attribution is dropped. Re-scored: FK 8.2 / FRE 69.4, clearing
+both thresholds.

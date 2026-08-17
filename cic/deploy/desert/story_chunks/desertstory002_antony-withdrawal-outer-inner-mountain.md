@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about the original call itself (see 
 
 ## Story Text
 
-Athanasius records Antony's withdrawal as staged, not sudden. He first remained near his own village, under an older ascetic's guidance, before moving out to the tombs. From there he crossed the Nile to what came to be called the outer mountain, at Pispir, where he remained in near-total seclusion for some twenty years, before at last emerging to instruct the disciples who had by then gathered near him, drawn by report of his life. Later still, seeking greater solitude from the crowds his own reputation now drew, he withdrew further, to an inner mountain between the Nile and the Red Sea, where he spent most of what remained of his life.
+Athanasius records Antony's withdrawal as staged, not sudden. He first remained near his own village, under an older ascetic's guidance, before moving out to the tombs. From there he crossed the Nile to what came to be called the outer mountain, at Pispir. There he remained in near-total seclusion for some twenty years. At last he emerged to instruct the disciples who had by then gathered near him, drawn by report of his life. Later still, seeking greater solitude from the crowds his own reputation now drew, he withdrew further, to an inner mountain between the Nile and the Red Sea. There he spent most of what remained of his life.
 
 ---
 

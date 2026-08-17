@@ -3,7 +3,7 @@
   "world_id": "hieronymian-ascetic-literary",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 99,
+  "record_count": 101,
   "records": [
     {
       "id": "halamb001",
@@ -1429,6 +1429,13 @@
               "name_kind": "scholarly"
             }
           ],
+          "dates": {
+            "kind": "life",
+            "display": "d. 399/400",
+            "end_year": 400,
+            "approximate": false,
+            "note": "Death in 399 or 400; the sources do not settle between them, so `display` is authoritative and end_year records the later candidate only as a machine-comparable bound - the more permissive one for any \"was she alive in year X\" question."
+          },
           "bridge_line": "A Roman woman of this circle who founded a hospital for the sick poor.",
           "narratable": false,
           "story_ids": [],
@@ -5129,6 +5136,56 @@
       "search_text": "saying - jerome, ep. 22.15 (the matthean harvest applied to virginity/widowhood/marriage); argued at full polemical pitch in adversus iovinianum 1.3 and defended in ep. 48/49 after pammachius tried to withdraw copies halq001 quote jerome, ep. 22.15 (the matthean harvest applied to virginity/widowhood/marriage); argued at full polemical pitch in adversus iovinianum 1.3 and defended in ep. 48/49 after pammachius tried to withdraw copies"
     },
     {
+      "id": "halq002",
+      "record_type": "quote",
+      "title": "Saying - Jerome, Letter LXXV (= Ep. 112), to Augustine, §22, a.d. 404 (the Oea \"ivy/gourd\" incident)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcHAL027"
+      },
+      "level3": {
+        "record_id": "halq002",
+        "record_type": "quote",
+        "title": "Saying - Jerome, Letter LXXV (= Ep. 112), to Augustine, §22, a.d. 404 (the Oea \"ivy/gourd\" incident)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: halfig001.",
+          "Locus: Jerome, Letter LXXV (= Ep. 112), to Augustine, §22, a.d. 404 (the Oea \"ivy/gourd\" incident).",
+          "Text: \"If, therefore, in translating word for word, I had put the word \"ciceia,\" no one would know what it meant; if I had used the word \"gourd,\" I would have said what is not found in the Hebrew. I therefore put down \"ivy,\" that I might not differ from all other translators.\"",
+          "Translation used: srcHAL027.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "halq002",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "quote",
+          "schema_version": 1,
+          "register": "emic",
+          "review_state": "draft",
+          "text_translation": "If, therefore, in translating word for word, I had put the word \"ciceia,\" no one would know what it meant; if I had used the word \"gourd,\" I would have said what is not found in the Hebrew. I therefore put down \"ivy,\" that I might not differ from all other translators.",
+          "translation_used": "srcHAL027",
+          "locus": "Jerome, Letter LXXV (= Ep. 112), to Augustine, §22, a.d. 404 (the Oea \"ivy/gourd\" incident)",
+          "speaker_or_author": "halfig001",
+          "license": "verbatim",
+          "confidence": {
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-16",
+            "citation_specificity": "A",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - jerome, letter lxxv (= ep. 112), to augustine, §22, a.d. 404 (the oea \"ivy/gourd\" incident) halq002 quote jerome, letter lxxv (= ep. 112), to augustine, §22, a.d. 404 (the oea \"ivy/gourd\" incident)"
+    },
+    {
       "id": "halstory01",
       "record_type": "story",
       "title": "The Departure from Rome and the Journey to Bethlehem",
@@ -5144,7 +5201,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Named author (the scholar, writing to Eustochium), datable (composed near the time of Paula's 404 death, describing events of 385-386), historically credible in broad outline though authored by an interested party and single-sourced. Meets Tier 1's core test of direct textual attestation with a named author and identifiable social location.\"}.",
           "Attested occasion: The 385 departure from Rome and the journey through Cyprus, Antioch, Egypt (Nitria - where Paula wished, and was refused, to stay), and Palestine to Bethlehem - as Jerome records it in Ep. 108, the epitaph letter written to Eustochium near the time of Paula's 404 death; named author, datable, credible in broad outline, but authored by an interested party and single-sourced (the chunk's own Tier Justification).",
-          "In his letter to Eustochium, written to mark her mother's death, the scholar among us records the journey plainly: how he himself left Rome first, in the month named for the harvest, and how Paula and her daughter followed within a month, sailing from the port below the city. He tells of the stop at Cyprus, where the bishop there received them; of the slower road through Antioch and down into Palestine and Egypt; of Nitria, where a bishop and countless monks came out to meet them, and where Paula wished, and was refused, to stay among them rather than press on toward the Holy Land. He tells us she turned back toward Jerusalem instead, and that from there the household settled at last near Bethlehem, by the cave where the Lord was born."
+          "In his letter to Eustochium, written to mark her mother's death, the scholar among us records the journey plainly. He left Rome first, in the month named for the harvest. Paula and her daughter followed within a month, sailing from the port below the city. He tells of the stop at Cyprus, where the bishop there received them. He tells of the slower road through Antioch and down into Palestine and Egypt. He tells of Nitria, where a bishop and countless monks came out to meet them, and where Paula wished, and was refused, to stay among them rather than press on toward the Holy Land. He tells us she turned back toward Jerusalem instead, and that from there the household settled at last near Bethlehem, by the cave where the Lord was born."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5169,7 +5226,7 @@
             "tier": 1,
             "justification": "Named author (the scholar, writing to Eustochium), datable (composed near the time of Paula's 404 death, describing events of 385-386), historically credible in broad outline though authored by an interested party and single-sourced. Meets Tier 1's core test of direct textual attestation with a named author and identifiable social location."
           },
-          "text": "In his letter to Eustochium, written to mark her mother's death, the scholar among us records the journey plainly: how he himself left Rome first, in the month named for the harvest, and how Paula and her daughter followed within a month, sailing from the port below the city. He tells of the stop at Cyprus, where the bishop there received them; of the slower road through Antioch and down into Palestine and Egypt; of Nitria, where a bishop and countless monks came out to meet them, and where Paula wished, and was refused, to stay among them rather than press on toward the Holy Land. He tells us she turned back toward Jerusalem instead, and that from there the household settled at last near Bethlehem, by the cave where the Lord was born.",
+          "text": "In his letter to Eustochium, written to mark her mother's death, the scholar among us records the journey plainly. He left Rome first, in the month named for the harvest. Paula and her daughter followed within a month, sailing from the port below the city. He tells of the stop at Cyprus, where the bishop there received them. He tells of the slower road through Antioch and down into Palestine and Egypt. He tells of Nitria, where a bishop and countless monks came out to meet them, and where Paula wished, and was refused, to stay among them rather than press on toward the Holy Land. He tells us she turned back toward Jerusalem instead, and that from there the household settled at last near Bethlehem, by the cave where the Lord was born.",
           "attested_occasion": "The 385 departure from Rome and the journey through Cyprus, Antioch, Egypt (Nitria - where Paula wished, and was refused, to stay), and Palestine to Bethlehem - as Jerome records it in Ep. 108, the epitaph letter written to Eustochium near the time of Paula's 404 death; named author, datable, credible in broad outline, but authored by an interested party and single-sourced (the chunk's own Tier Justification).",
           "tellable_as": "scene",
           "owner_figure_id": "halfig002",
@@ -5211,7 +5268,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the departure from rome and the journey to bethlehem halstory01 story the departure from rome and the journey to bethlehem in his letter to eustochium, written to mark her mother's death, the scholar among us records the journey plainly: how he himself left rome first, in the month named for the harvest, and how paula and her daughter followed within a month, sailing from the port below the city. he tells of the stop at cyprus, where the bishop there received them; of the slower road through antioch and down into palestine and egypt; of nitria, where a bishop and countless monks came out to meet them, and where paula wished, and was refused, to stay among them rather than press on toward the holy land. he tells us she turned back toward jerusalem instead, and that from there the household settled at last near bethlehem, by the cave where the lord was born. the 385 departure from rome and the journey through cyprus, antioch, egypt (nitria - where paula wished, and was refused, to stay), and palestine to bethlehem - as jerome records it in ep. 108, the epitaph letter written to eustochium near the time of paula's 404 death; named author, datable, credible in broad outline, but authored by an interested party and single-sourced (the chunk's own tier justification)."
+      "search_text": "the departure from rome and the journey to bethlehem halstory01 story the departure from rome and the journey to bethlehem in his letter to eustochium, written to mark her mother's death, the scholar among us records the journey plainly. he left rome first, in the month named for the harvest. paula and her daughter followed within a month, sailing from the port below the city. he tells of the stop at cyprus, where the bishop there received them. he tells of the slower road through antioch and down into palestine and egypt. he tells of nitria, where a bishop and countless monks came out to meet them, and where paula wished, and was refused, to stay among them rather than press on toward the holy land. he tells us she turned back toward jerusalem instead, and that from there the household settled at last near bethlehem, by the cave where the lord was born. the 385 departure from rome and the journey through cyprus, antioch, egypt (nitria - where paula wished, and was refused, to stay), and palestine to bethlehem - as jerome records it in ep. 108, the epitaph letter written to eustochium near the time of paula's 404 death; named author, datable, credible in broad outline, but authored by an interested party and single-sourced (the chunk's own tier justification)."
     },
     {
       "id": "halstory02",
@@ -5310,7 +5367,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': 'Two named authors (Jerome and Augustine), both sides independently attested in their own surviving letters — the rare case in this world\\'s evidence where \"the other side\" of a dispute is not lost to a single author\\'s framing.'}.",
           "Attested occasion: Oea: a bishop reads the corrected text of Jonah - 'ivy' where the congregation had always heard 'gourd' - and the disturbance reaches Augustine in Africa, who presses the concern by letter more than once (Ep. 112 = Augustine's Ep. 75); the rare two-sided case - both parties independently attested in their own surviving letters.",
-          "In one town, a bishop read from the corrected text in the assembly, at the passage where the prophet Jonah sits beneath a plant for shade. Where the congregation had always heard \"gourd,\" the corrected word, closer to the Hebrew, gave \"ivy\" — a climbing vine, not a gourd-plant. The change was small. The reaction was not: the people took it as tampering with scripture they trusted, and the disturbance reached as far as a respected bishop in Africa, Augustine, who wrote to raise the concern directly and press it more than once."
+          "In one town, a bishop read from the corrected text in the assembly, at the passage where the prophet Jonah sits beneath a plant for shade. Where the congregation had always heard \"gourd,\" the corrected word, closer to the Hebrew, gave \"ivy\" — a climbing vine, not a gourd-plant. The change was small. The reaction was not. The people took it as tampering with scripture they trusted. The disturbance reached as far as a respected bishop in Africa, Augustine, who wrote to raise the concern directly and press it more than once."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5335,7 +5392,7 @@
             "tier": 1,
             "justification": "Two named authors (Jerome and Augustine), both sides independently attested in their own surviving letters — the rare case in this world's evidence where \"the other side\" of a dispute is not lost to a single author's framing."
           },
-          "text": "In one town, a bishop read from the corrected text in the assembly, at the passage where the prophet Jonah sits beneath a plant for shade. Where the congregation had always heard \"gourd,\" the corrected word, closer to the Hebrew, gave \"ivy\" — a climbing vine, not a gourd-plant. The change was small. The reaction was not: the people took it as tampering with scripture they trusted, and the disturbance reached as far as a respected bishop in Africa, Augustine, who wrote to raise the concern directly and press it more than once.",
+          "text": "In one town, a bishop read from the corrected text in the assembly, at the passage where the prophet Jonah sits beneath a plant for shade. Where the congregation had always heard \"gourd,\" the corrected word, closer to the Hebrew, gave \"ivy\" — a climbing vine, not a gourd-plant. The change was small. The reaction was not. The people took it as tampering with scripture they trusted. The disturbance reached as far as a respected bishop in Africa, Augustine, who wrote to raise the concern directly and press it more than once.",
           "attested_occasion": "Oea: a bishop reads the corrected text of Jonah - 'ivy' where the congregation had always heard 'gourd' - and the disturbance reaches Augustine in Africa, who presses the concern by letter more than once (Ep. 112 = Augustine's Ep. 75); the rare two-sided case - both parties independently attested in their own surviving letters.",
           "tellable_as": "scene",
           "owner_figure_id": "halfig001",
@@ -5377,7 +5434,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the word that changed a congregation's prayer (the oea incident) halstory03 story the word that changed a congregation's prayer (the oea incident) in one town, a bishop read from the corrected text in the assembly, at the passage where the prophet jonah sits beneath a plant for shade. where the congregation had always heard \"gourd,\" the corrected word, closer to the hebrew, gave \"ivy\" — a climbing vine, not a gourd-plant. the change was small. the reaction was not: the people took it as tampering with scripture they trusted, and the disturbance reached as far as a respected bishop in africa, augustine, who wrote to raise the concern directly and press it more than once. oea: a bishop reads the corrected text of jonah - 'ivy' where the congregation had always heard 'gourd' - and the disturbance reaches augustine in africa, who presses the concern by letter more than once (ep. 112 = augustine's ep. 75); the rare two-sided case - both parties independently attested in their own surviving letters."
+      "search_text": "the word that changed a congregation's prayer (the oea incident) halstory03 story the word that changed a congregation's prayer (the oea incident) in one town, a bishop read from the corrected text in the assembly, at the passage where the prophet jonah sits beneath a plant for shade. where the congregation had always heard \"gourd,\" the corrected word, closer to the hebrew, gave \"ivy\" — a climbing vine, not a gourd-plant. the change was small. the reaction was not. the people took it as tampering with scripture they trusted. the disturbance reached as far as a respected bishop in africa, augustine, who wrote to raise the concern directly and press it more than once. oea: a bishop reads the corrected text of jonah - 'ivy' where the congregation had always heard 'gourd' - and the disturbance reaches augustine in africa, who presses the concern by letter more than once (ep. 112 = augustine's ep. 75); the rare two-sided case - both parties independently attested in their own surviving letters."
     },
     {
       "id": "halstory03a",
@@ -5395,7 +5452,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Two named authors, both sides independently attested in their own surviving works — like the Oea incident, an unusually two-sided story in this world's evidence base. The relative weight of doctrine versus personal and political motivation in the underlying dispute is genuinely, actively contested in the scholarship this construction draws on, and this story does not resolve that contest.\"}.",
           "Attested occasion: The rupture with Rufinus, 401-403: the friend who had labored over the same Greek texts becomes the fiercest opponent as the church turns against Origen's teachings - both Apologiae survive (Rufinus 401; Jerome 401-403, addressed to Pammachius and Marcella); occurrence Documented, but the relative weight of doctrine versus broken friendship is genuinely contested and this story does not resolve it (the chunk's own rule).",
-          "A friend once close enough to labor over the same Greek texts side by side became, in the end, the fiercest of opponents. The dispute concerned teachings associated with an earlier Alexandrian scholar, Origen — on whether souls existed before this life, on what the resurrected body actually is — teachings this household had absorbed, without quite noticing, from its own early formation. When the wider church turned decisively against those teachings, this household had to renounce them urgently and in public, and the friend who would not make the same renunciation as fully or as fast became, from then on, the target of some of this household's own harshest writing."
+          "A friend once close enough to work over the same Greek texts side by side became, in the end, the fiercest of opponents. The dispute concerned teachings linked to an earlier Alexandrian scholar, Origen. It turned on whether souls existed before this life, and on what the resurrected body actually is. These were teachings this household had absorbed, without quite noticing, from its own early formation. When the wider church turned firmly against those teachings, this household had to renounce them fast and in public. The friend who would not make the same renunciation as fully or as fast became, from then on, the target of some of this household's own harshest writing."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5421,7 +5478,7 @@
             "tier": 1,
             "justification": "Two named authors, both sides independently attested in their own surviving works — like the Oea incident, an unusually two-sided story in this world's evidence base. The relative weight of doctrine versus personal and political motivation in the underlying dispute is genuinely, actively contested in the scholarship this construction draws on, and this story does not resolve that contest."
           },
-          "text": "A friend once close enough to labor over the same Greek texts side by side became, in the end, the fiercest of opponents. The dispute concerned teachings associated with an earlier Alexandrian scholar, Origen — on whether souls existed before this life, on what the resurrected body actually is — teachings this household had absorbed, without quite noticing, from its own early formation. When the wider church turned decisively against those teachings, this household had to renounce them urgently and in public, and the friend who would not make the same renunciation as fully or as fast became, from then on, the target of some of this household's own harshest writing.",
+          "text": "A friend once close enough to work over the same Greek texts side by side became, in the end, the fiercest of opponents. The dispute concerned teachings linked to an earlier Alexandrian scholar, Origen. It turned on whether souls existed before this life, and on what the resurrected body actually is. These were teachings this household had absorbed, without quite noticing, from its own early formation. When the wider church turned firmly against those teachings, this household had to renounce them fast and in public. The friend who would not make the same renunciation as fully or as fast became, from then on, the target of some of this household's own harshest writing.",
           "attested_occasion": "The rupture with Rufinus, 401-403: the friend who had labored over the same Greek texts becomes the fiercest opponent as the church turns against Origen's teachings - both Apologiae survive (Rufinus 401; Jerome 401-403, addressed to Pammachius and Marcella); occurrence Documented, but the relative weight of doctrine versus broken friendship is genuinely contested and this story does not resolve it (the chunk's own rule).",
           "tellable_as": "scene",
           "owner_figure_id": "halfig001",
@@ -5471,7 +5528,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the rupture with rufinus halstory03a story the rupture with rufinus a friend once close enough to labor over the same greek texts side by side became, in the end, the fiercest of opponents. the dispute concerned teachings associated with an earlier alexandrian scholar, origen — on whether souls existed before this life, on what the resurrected body actually is — teachings this household had absorbed, without quite noticing, from its own early formation. when the wider church turned decisively against those teachings, this household had to renounce them urgently and in public, and the friend who would not make the same renunciation as fully or as fast became, from then on, the target of some of this household's own harshest writing. the rupture with rufinus, 401-403: the friend who had labored over the same greek texts becomes the fiercest opponent as the church turns against origen's teachings - both apologiae survive (rufinus 401; jerome 401-403, addressed to pammachius and marcella); occurrence documented, but the relative weight of doctrine versus broken friendship is genuinely contested and this story does not resolve it (the chunk's own rule)."
+      "search_text": "the rupture with rufinus halstory03a story the rupture with rufinus a friend once close enough to work over the same greek texts side by side became, in the end, the fiercest of opponents. the dispute concerned teachings linked to an earlier alexandrian scholar, origen. it turned on whether souls existed before this life, and on what the resurrected body actually is. these were teachings this household had absorbed, without quite noticing, from its own early formation. when the wider church turned firmly against those teachings, this household had to renounce them fast and in public. the friend who would not make the same renunciation as fully or as fast became, from then on, the target of some of this household's own harshest writing. the rupture with rufinus, 401-403: the friend who had labored over the same greek texts becomes the fiercest opponent as the church turns against origen's teachings - both apologiae survive (rufinus 401; jerome 401-403, addressed to pammachius and marcella); occurrence documented, but the relative weight of doctrine versus broken friendship is genuinely contested and this story does not resolve it (the chunk's own rule)."
     },
     {
       "id": "halstory04",
@@ -5489,7 +5546,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': 'Named author, near-contemporary account, but notably vague on specifics — the vagueness itself is part of the honest historical record, not a gap to be filled with invented detail.'}.",
           "Attested occasion: 416: the Pelagian dispute arrives at the Bethlehem monastery as a mob - buildings burned, at least one of the household dead; Jerome's own account (the letter to Riparius) is 'strikingly vague on the particulars', and the household has never filled the silence in (occurrence Documented; details Inferential/Thin - the chunk's own split).",
-          "A dispute that had, until then, stayed in argument and letters — over grace, over whether a person could, by their own effort, live without sin — arrived one year at this household's own door as a mob. Buildings burned. At least one member of the household died. The scholar among us, writing of it afterward, is strikingly vague on the particulars — how many came, exactly what was lost, exactly who died — a silence this household has never filled in with more than what he actually said."
+          "A dispute had, until then, stayed in argument and letters — over grace, over whether a person could, by their own effort, live without sin. One year it arrived at this household's own door as a mob. Buildings burned. At least one member of the household died. The scholar among us, writing of it afterward, is strikingly vague on the particulars: how many came, exactly what was lost, exactly who died. This household has never filled that silence in with more than what he actually said."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5514,7 +5571,7 @@
             "tier": 1,
             "justification": "Named author, near-contemporary account, but notably vague on specifics — the vagueness itself is part of the honest historical record, not a gap to be filled with invented detail."
           },
-          "text": "A dispute that had, until then, stayed in argument and letters — over grace, over whether a person could, by their own effort, live without sin — arrived one year at this household's own door as a mob. Buildings burned. At least one member of the household died. The scholar among us, writing of it afterward, is strikingly vague on the particulars — how many came, exactly what was lost, exactly who died — a silence this household has never filled in with more than what he actually said.",
+          "text": "A dispute had, until then, stayed in argument and letters — over grace, over whether a person could, by their own effort, live without sin. One year it arrived at this household's own door as a mob. Buildings burned. At least one member of the household died. The scholar among us, writing of it afterward, is strikingly vague on the particulars: how many came, exactly what was lost, exactly who died. This household has never filled that silence in with more than what he actually said.",
           "attested_occasion": "416: the Pelagian dispute arrives at the Bethlehem monastery as a mob - buildings burned, at least one of the household dead; Jerome's own account (the letter to Riparius) is 'strikingly vague on the particulars', and the household has never filled the silence in (occurrence Documented; details Inferential/Thin - the chunk's own split).",
           "tellable_as": "scene",
           "owner_figure_id": "halfig009",
@@ -5552,7 +5609,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the attack on the monastery halstory04 story the attack on the monastery a dispute that had, until then, stayed in argument and letters — over grace, over whether a person could, by their own effort, live without sin — arrived one year at this household's own door as a mob. buildings burned. at least one member of the household died. the scholar among us, writing of it afterward, is strikingly vague on the particulars — how many came, exactly what was lost, exactly who died — a silence this household has never filled in with more than what he actually said. 416: the pelagian dispute arrives at the bethlehem monastery as a mob - buildings burned, at least one of the household dead; jerome's own account (the letter to riparius) is 'strikingly vague on the particulars', and the household has never filled the silence in (occurrence documented; details inferential/thin - the chunk's own split)."
+      "search_text": "the attack on the monastery halstory04 story the attack on the monastery a dispute had, until then, stayed in argument and letters — over grace, over whether a person could, by their own effort, live without sin. one year it arrived at this household's own door as a mob. buildings burned. at least one member of the household died. the scholar among us, writing of it afterward, is strikingly vague on the particulars: how many came, exactly what was lost, exactly who died. this household has never filled that silence in with more than what he actually said. 416: the pelagian dispute arrives at the bethlehem monastery as a mob - buildings burned, at least one of the household dead; jerome's own account (the letter to riparius) is 'strikingly vague on the particulars', and the household has never filled the silence in (occurrence documented; details inferential/thin - the chunk's own split)."
     },
     {
       "id": "halstory05",
@@ -5570,7 +5627,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': 'Named author, near-contemporary (written two years after the event), but single-source with no independent corroboration.'}.",
           "Attested occasion: Rome, 410: Alaric's soldiers in the house of Marcella, demanding treasure given away years before; her death soon after from the injuries or deprivation - Jerome's Ep. 127 to Principia, written two years after the event; single-source, no independent corroboration, and the reported irony follows the epitaph genre's conventions (the chunk's own genre caution).",
-          "When Alaric's soldiers entered Rome, they came to the house of a widow who had given away most of her wealth years before, demanding treasure she no longer had. She died soon after, from the injuries or deprivation that followed. The household's own account dwells on the irony directly: soldiers searching a house that had already emptied itself for the poor."
+          "When Alaric's soldiers entered Rome, they came to the house of a widow who had given away most of her wealth years before. They demanded treasure she no longer had. She died soon after, from the injuries or deprivation that followed. The household's own account dwells on the irony directly: soldiers searching a house that had already emptied itself for the poor."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5595,7 +5652,7 @@
             "tier": 1,
             "justification": "Named author, near-contemporary (written two years after the event), but single-source with no independent corroboration."
           },
-          "text": "When Alaric's soldiers entered Rome, they came to the house of a widow who had given away most of her wealth years before, demanding treasure she no longer had. She died soon after, from the injuries or deprivation that followed. The household's own account dwells on the irony directly: soldiers searching a house that had already emptied itself for the poor.",
+          "text": "When Alaric's soldiers entered Rome, they came to the house of a widow who had given away most of her wealth years before. They demanded treasure she no longer had. She died soon after, from the injuries or deprivation that followed. The household's own account dwells on the irony directly: soldiers searching a house that had already emptied itself for the poor.",
           "attested_occasion": "Rome, 410: Alaric's soldiers in the house of Marcella, demanding treasure given away years before; her death soon after from the injuries or deprivation - Jerome's Ep. 127 to Principia, written two years after the event; single-source, no independent corroboration, and the reported irony follows the epitaph genre's conventions (the chunk's own genre caution).",
           "tellable_as": "scene",
           "owner_figure_id": "halfig003",
@@ -5633,7 +5690,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "a death in the sack of rome halstory05 story a death in the sack of rome when alaric's soldiers entered rome, they came to the house of a widow who had given away most of her wealth years before, demanding treasure she no longer had. she died soon after, from the injuries or deprivation that followed. the household's own account dwells on the irony directly: soldiers searching a house that had already emptied itself for the poor. rome, 410: alaric's soldiers in the house of marcella, demanding treasure given away years before; her death soon after from the injuries or deprivation - jerome's ep. 127 to principia, written two years after the event; single-source, no independent corroboration, and the reported irony follows the epitaph genre's conventions (the chunk's own genre caution)."
+      "search_text": "a death in the sack of rome halstory05 story a death in the sack of rome when alaric's soldiers entered rome, they came to the house of a widow who had given away most of her wealth years before. they demanded treasure she no longer had. she died soon after, from the injuries or deprivation that followed. the household's own account dwells on the irony directly: soldiers searching a house that had already emptied itself for the poor. rome, 410: alaric's soldiers in the house of marcella, demanding treasure given away years before; her death soon after from the injuries or deprivation - jerome's ep. 127 to principia, written two years after the event; single-source, no independent corroboration, and the reported irony follows the epitaph genre's conventions (the chunk's own genre caution)."
     },
     {
       "id": "halstory06",
@@ -5651,7 +5708,7 @@
         "observe": [
           "Narrative tier: {'tier': 3, 'justification': \"Attributed narrative in a recognized hagiographic-adjacent genre. The bare facts of Paula's death (26 January 404) are Tier 1-adjacent; the narrative texture — how her life is dramatized, what words are put in her mouth — follows genre conventions of idealization and cannot be treated as historical reporting of specific scenes.\"}.",
           "Attested occasion: The Epitaphium Sanctae Paulae (Ep. 108) as formation portrait: senatorial birth, wealth given until the household could not say where it had gone, and still - from the same emptied purse - a monastery, a convent, a house of welcome raised; the bare death date (26 January 404) Tier-1-adjacent, the narrative texture genre-idealized and not historical reporting of scenes (the chunk's own Tier Justification).",
-          "This is how the household remembers the widow Paula — not merely what happened to her, but what her life was held up to show: a woman of senatorial birth who gave away what she had until her own household could no longer easily say where the wealth had gone, and who still, from that same emptied purse, raised a monastery, a convent, and a house of welcome for travelers. The household does not ask which of these two things — total poverty, or the capacity still to build — was truer. Both are told together, without resolving the tension between them."
+          "This is how the household remembers the widow Paula — not merely what happened to her, but what her life was held up to show. She was a woman of senatorial birth who gave away what she had until her own household could no longer easily say where the wealth had gone. Yet she still, from that same emptied purse, raised a monastery, a convent, and a house of welcome for travelers. The household does not ask which of these two things — total poverty, or the capacity still to build — was truer. Both are told together, without resolving the tension between them."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5676,7 +5733,7 @@
             "tier": 3,
             "justification": "Attributed narrative in a recognized hagiographic-adjacent genre. The bare facts of Paula's death (26 January 404) are Tier 1-adjacent; the narrative texture — how her life is dramatized, what words are put in her mouth — follows genre conventions of idealization and cannot be treated as historical reporting of specific scenes."
           },
-          "text": "This is how the household remembers the widow Paula — not merely what happened to her, but what her life was held up to show: a woman of senatorial birth who gave away what she had until her own household could no longer easily say where the wealth had gone, and who still, from that same emptied purse, raised a monastery, a convent, and a house of welcome for travelers. The household does not ask which of these two things — total poverty, or the capacity still to build — was truer. Both are told together, without resolving the tension between them.",
+          "text": "This is how the household remembers the widow Paula — not merely what happened to her, but what her life was held up to show. She was a woman of senatorial birth who gave away what she had until her own household could no longer easily say where the wealth had gone. Yet she still, from that same emptied purse, raised a monastery, a convent, and a house of welcome for travelers. The household does not ask which of these two things — total poverty, or the capacity still to build — was truer. Both are told together, without resolving the tension between them.",
           "attested_occasion": "The Epitaphium Sanctae Paulae (Ep. 108) as formation portrait: senatorial birth, wealth given until the household could not say where it had gone, and still - from the same emptied purse - a monastery, a convent, a house of welcome raised; the bare death date (26 January 404) Tier-1-adjacent, the narrative texture genre-idealized and not historical reporting of scenes (the chunk's own Tier Justification).",
           "tellable_as": "scene",
           "owner_figure_id": "halfig002",
@@ -5714,7 +5771,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "what a formed life looked like (paula's epitaph) halstory06 story what a formed life looked like (paula's epitaph) this is how the household remembers the widow paula — not merely what happened to her, but what her life was held up to show: a woman of senatorial birth who gave away what she had until her own household could no longer easily say where the wealth had gone, and who still, from that same emptied purse, raised a monastery, a convent, and a house of welcome for travelers. the household does not ask which of these two things — total poverty, or the capacity still to build — was truer. both are told together, without resolving the tension between them. the epitaphium sanctae paulae (ep. 108) as formation portrait: senatorial birth, wealth given until the household could not say where it had gone, and still - from the same emptied purse - a monastery, a convent, a house of welcome raised; the bare death date (26 january 404) tier-1-adjacent, the narrative texture genre-idealized and not historical reporting of scenes (the chunk's own tier justification)."
+      "search_text": "what a formed life looked like (paula's epitaph) halstory06 story what a formed life looked like (paula's epitaph) this is how the household remembers the widow paula — not merely what happened to her, but what her life was held up to show. she was a woman of senatorial birth who gave away what she had until her own household could no longer easily say where the wealth had gone. yet she still, from that same emptied purse, raised a monastery, a convent, and a house of welcome for travelers. the household does not ask which of these two things — total poverty, or the capacity still to build — was truer. both are told together, without resolving the tension between them. the epitaphium sanctae paulae (ep. 108) as formation portrait: senatorial birth, wealth given until the household could not say where it had gone, and still - from the same emptied purse - a monastery, a convent, a house of welcome raised; the bare death date (26 january 404) tier-1-adjacent, the narrative texture genre-idealized and not historical reporting of scenes (the chunk's own tier justification)."
     },
     {
       "id": "halstory07",
@@ -5732,7 +5789,7 @@
         "observe": [
           "Narrative tier: {'tier': 3, 'justification': \"Attributed to a specific figure in a specific commemorative-genre account, authored after her death for the scholar's own partly self-vindicating purposes. The single most Author-Gravity-constrained story in this repository: single-source, Contested, authored by the one man whose pen survives, after the subject's own death.\"}.",
           "Attested occasion: Marcella's standing as the household remembers it (Ep. 127, written after her death, for the scholar's own partly self-vindicating purposes): clergy bringing their hardest scriptural questions to her own house on her own authority once the scholar had left Rome - THE single most Author-Gravity-constrained story in this repository (single-source, Contested, post-mortem; the chunk's own words), and the clearest evidence for the one real counter-current in this household's life.",
-          "This is how the household remembers one widow among us: after the traveling scholar left Rome for good, clergy who could no longer bring their hardest scriptural questions to him began, instead, bringing them to her, in her own house, on her own authority. Even before he left, the household remembers her disputing his own answers — not to win an argument, the household says, but to learn. She never needed anyone's patronage to hold this standing; her own settled wealth was enough."
+          "This is how the household remembers one widow among us. After the traveling scholar left Rome for good, clergy who could no longer bring their hardest scriptural questions to him began, instead, bringing them to her, in her own house, on her own authority. Even before he left, the household remembers her disputing his own answers — not to win an argument, the household says, but to learn. She never needed anyone's patronage to hold this standing. Her own settled wealth was enough."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5757,7 +5814,7 @@
             "tier": 3,
             "justification": "Attributed to a specific figure in a specific commemorative-genre account, authored after her death for the scholar's own partly self-vindicating purposes. The single most Author-Gravity-constrained story in this repository: single-source, Contested, authored by the one man whose pen survives, after the subject's own death."
           },
-          "text": "This is how the household remembers one widow among us: after the traveling scholar left Rome for good, clergy who could no longer bring their hardest scriptural questions to him began, instead, bringing them to her, in her own house, on her own authority. Even before he left, the household remembers her disputing his own answers — not to win an argument, the household says, but to learn. She never needed anyone's patronage to hold this standing; her own settled wealth was enough.",
+          "text": "This is how the household remembers one widow among us. After the traveling scholar left Rome for good, clergy who could no longer bring their hardest scriptural questions to him began, instead, bringing them to her, in her own house, on her own authority. Even before he left, the household remembers her disputing his own answers — not to win an argument, the household says, but to learn. She never needed anyone's patronage to hold this standing. Her own settled wealth was enough.",
           "attested_occasion": "Marcella's standing as the household remembers it (Ep. 127, written after her death, for the scholar's own partly self-vindicating purposes): clergy bringing their hardest scriptural questions to her own house on her own authority once the scholar had left Rome - THE single most Author-Gravity-constrained story in this repository (single-source, Contested, post-mortem; the chunk's own words), and the clearest evidence for the one real counter-current in this household's life.",
           "tellable_as": "scene",
           "owner_figure_id": "halfig003",
@@ -5795,7 +5852,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the widow roman clergy consulted halstory07 story the widow roman clergy consulted this is how the household remembers one widow among us: after the traveling scholar left rome for good, clergy who could no longer bring their hardest scriptural questions to him began, instead, bringing them to her, in her own house, on her own authority. even before he left, the household remembers her disputing his own answers — not to win an argument, the household says, but to learn. she never needed anyone's patronage to hold this standing; her own settled wealth was enough. marcella's standing as the household remembers it (ep. 127, written after her death, for the scholar's own partly self-vindicating purposes): clergy bringing their hardest scriptural questions to her own house on her own authority once the scholar had left rome - the single most author-gravity-constrained story in this repository (single-source, contested, post-mortem; the chunk's own words), and the clearest evidence for the one real counter-current in this household's life."
+      "search_text": "the widow roman clergy consulted halstory07 story the widow roman clergy consulted this is how the household remembers one widow among us. after the traveling scholar left rome for good, clergy who could no longer bring their hardest scriptural questions to him began, instead, bringing them to her, in her own house, on her own authority. even before he left, the household remembers her disputing his own answers — not to win an argument, the household says, but to learn. she never needed anyone's patronage to hold this standing. her own settled wealth was enough. marcella's standing as the household remembers it (ep. 127, written after her death, for the scholar's own partly self-vindicating purposes): clergy bringing their hardest scriptural questions to her own house on her own authority once the scholar had left rome - the single most author-gravity-constrained story in this repository (single-source, contested, post-mortem; the chunk's own words), and the clearest evidence for the one real counter-current in this household's life."
     },
     {
       "id": "halstory08",
@@ -5813,7 +5870,7 @@
         "observe": [
           "Narrative tier: {'tier': 3, 'justification': \"An autobiographical dream-vision embedded within an exhortatory letter — attributed to the scholar's own reported experience, genre-shaped (the dream-vision is a recognized period rhetorical device), datable but not independently verifiable as a literal event.\"}.",
           "Attested occasion: The Ciceronian dream (Ep. 22, to Eustochium): dragged before a judge, 'You lie. You are a Ciceronian, not a Christian' - the scholar's own reported dream, told of himself inside an exhortatory letter; the tension it dramatizes Widely Accepted as lived reality, the dream as literal event Inferential/Thin and genre-shaped (the dream-vision was a recognized rhetorical device - the chunk's own confidence split).",
-          "The household remembers a dream one of its scholars once had, and told of himself: dragged before a judge and asked what he was, he answered that he was a Christian — and was told, \"You lie. You are a Ciceronian, not a Christian; for where your treasure is, there will your heart be also.\" He woke changed, the household says, and set aside for a long while the classical books he had loved since boyhood, though he never fully escaped the training that had shaped how he thought and wrote."
+          "The household remembers a dream one of its scholars once had, and told of himself. Dragged before a judge and asked what he was, he answered that he was a Christian. He was told, \"You lie. You are a Ciceronian, not a Christian; for where your treasure is, there will your heart be also.\" He woke changed, the household says. He set aside for a long while the classical books he had loved since boyhood, though he never fully escaped the training that had shaped how he thought and wrote."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5840,7 +5897,7 @@
             "tier": 3,
             "justification": "An autobiographical dream-vision embedded within an exhortatory letter — attributed to the scholar's own reported experience, genre-shaped (the dream-vision is a recognized period rhetorical device), datable but not independently verifiable as a literal event."
           },
-          "text": "The household remembers a dream one of its scholars once had, and told of himself: dragged before a judge and asked what he was, he answered that he was a Christian — and was told, \"You lie. You are a Ciceronian, not a Christian; for where your treasure is, there will your heart be also.\" He woke changed, the household says, and set aside for a long while the classical books he had loved since boyhood, though he never fully escaped the training that had shaped how he thought and wrote.",
+          "text": "The household remembers a dream one of its scholars once had, and told of himself. Dragged before a judge and asked what he was, he answered that he was a Christian. He was told, \"You lie. You are a Ciceronian, not a Christian; for where your treasure is, there will your heart be also.\" He woke changed, the household says. He set aside for a long while the classical books he had loved since boyhood, though he never fully escaped the training that had shaped how he thought and wrote.",
           "attested_occasion": "The Ciceronian dream (Ep. 22, to Eustochium): dragged before a judge, 'You lie. You are a Ciceronian, not a Christian' - the scholar's own reported dream, told of himself inside an exhortatory letter; the tension it dramatizes Widely Accepted as lived reality, the dream as literal event Inferential/Thin and genre-shaped (the dream-vision was a recognized rhetorical device - the chunk's own confidence split).",
           "tellable_as": "scene",
           "owner_figure_id": "halfig001",
@@ -5872,7 +5929,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the dream that broke a habit of reading halstory08 story the dream that broke a habit of reading the household remembers a dream one of its scholars once had, and told of himself: dragged before a judge and asked what he was, he answered that he was a christian — and was told, \"you lie. you are a ciceronian, not a christian; for where your treasure is, there will your heart be also.\" he woke changed, the household says, and set aside for a long while the classical books he had loved since boyhood, though he never fully escaped the training that had shaped how he thought and wrote. the ciceronian dream (ep. 22, to eustochium): dragged before a judge, 'you lie. you are a ciceronian, not a christian' - the scholar's own reported dream, told of himself inside an exhortatory letter; the tension it dramatizes widely accepted as lived reality, the dream as literal event inferential/thin and genre-shaped (the dream-vision was a recognized rhetorical device - the chunk's own confidence split)."
+      "search_text": "the dream that broke a habit of reading halstory08 story the dream that broke a habit of reading the household remembers a dream one of its scholars once had, and told of himself. dragged before a judge and asked what he was, he answered that he was a christian. he was told, \"you lie. you are a ciceronian, not a christian; for where your treasure is, there will your heart be also.\" he woke changed, the household says. he set aside for a long while the classical books he had loved since boyhood, though he never fully escaped the training that had shaped how he thought and wrote. the ciceronian dream (ep. 22, to eustochium): dragged before a judge, 'you lie. you are a ciceronian, not a christian' - the scholar's own reported dream, told of himself inside an exhortatory letter; the tension it dramatizes widely accepted as lived reality, the dream as literal event inferential/thin and genre-shaped (the dream-vision was a recognized rhetorical device - the chunk's own confidence split)."
     },
     {
       "id": "halstory09",
@@ -5890,7 +5947,7 @@
         "observe": [
           "Narrative tier: {'tier': 3, 'justification': 'Explicit hagiographic romance genre with acknowledged legendary and rhetorical elements, not straightforward historical reporting — the clearest, most self-evident Tier 3 case in this repository. These are structurally about specific named individuals (Malchus, Hilarion), which is precisely why they cannot border Tier 4 regardless of how thin their historical confidence is — Tier 4 requires a story not about a specific named individual.'}.",
           "Attested occasion: The Vita Malchi and Vita Hilarionis as the household's own literary production: desert romances answering the Egyptian stories encountered on the founding journey - explicit hagiographic-romance genre, the clearest Tier 3 case in the repository, and structurally about named individuals, which is exactly why they cannot border Tier 4 (the chunk's own Tier Justification).",
-          "The household's scholar wrote his own tales of desert heroism — a captive monk, Malchus, who kept his vows even in slavery and returned at last to freedom; a hermit, Hilarion, who withdrew from the world to find what remained when everything else was stripped away. These are not remembered as plain history. They are remembered as the household's own answer to the Egyptian desert stories it encountered on its own journey — a way of giving Latin Christians their own account of what a formed ascetic life could become."
+          "The household's scholar wrote his own tales of desert heroism. One was Malchus, a captive monk who kept his vows even in slavery and returned at last to freedom. Another was Hilarion, a hermit who withdrew from the world to find what remained when everything else was stripped away. These are not remembered as plain history. They are remembered as the household's own answer to the Egyptian desert stories it encountered on its own journey — a way of giving Latin Christians their own account of what a formed ascetic life could become."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5915,7 +5972,7 @@
             "tier": 3,
             "justification": "Explicit hagiographic romance genre with acknowledged legendary and rhetorical elements, not straightforward historical reporting — the clearest, most self-evident Tier 3 case in this repository. These are structurally about specific named individuals (Malchus, Hilarion), which is precisely why they cannot border Tier 4 regardless of how thin their historical confidence is — Tier 4 requires a story not about a specific named individual."
           },
-          "text": "The household's scholar wrote his own tales of desert heroism — a captive monk, Malchus, who kept his vows even in slavery and returned at last to freedom; a hermit, Hilarion, who withdrew from the world to find what remained when everything else was stripped away. These are not remembered as plain history. They are remembered as the household's own answer to the Egyptian desert stories it encountered on its own journey — a way of giving Latin Christians their own account of what a formed ascetic life could become.",
+          "text": "The household's scholar wrote his own tales of desert heroism. One was Malchus, a captive monk who kept his vows even in slavery and returned at last to freedom. Another was Hilarion, a hermit who withdrew from the world to find what remained when everything else was stripped away. These are not remembered as plain history. They are remembered as the household's own answer to the Egyptian desert stories it encountered on its own journey — a way of giving Latin Christians their own account of what a formed ascetic life could become.",
           "attested_occasion": "The Vita Malchi and Vita Hilarionis as the household's own literary production: desert romances answering the Egyptian stories encountered on the founding journey - explicit hagiographic-romance genre, the clearest Tier 3 case in the repository, and structurally about named individuals, which is exactly why they cannot border Tier 4 (the chunk's own Tier Justification).",
           "tellable_as": "background-fact",
           "owner_figure_id": "halfig001",
@@ -5947,7 +6004,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the household's own desert tales halstory09 story the household's own desert tales the household's scholar wrote his own tales of desert heroism — a captive monk, malchus, who kept his vows even in slavery and returned at last to freedom; a hermit, hilarion, who withdrew from the world to find what remained when everything else was stripped away. these are not remembered as plain history. they are remembered as the household's own answer to the egyptian desert stories it encountered on its own journey — a way of giving latin christians their own account of what a formed ascetic life could become. the vita malchi and vita hilarionis as the household's own literary production: desert romances answering the egyptian stories encountered on the founding journey - explicit hagiographic-romance genre, the clearest tier 3 case in the repository, and structurally about named individuals, which is exactly why they cannot border tier 4 (the chunk's own tier justification)."
+      "search_text": "the household's own desert tales halstory09 story the household's own desert tales the household's scholar wrote his own tales of desert heroism. one was malchus, a captive monk who kept his vows even in slavery and returned at last to freedom. another was hilarion, a hermit who withdrew from the world to find what remained when everything else was stripped away. these are not remembered as plain history. they are remembered as the household's own answer to the egyptian desert stories it encountered on its own journey — a way of giving latin christians their own account of what a formed ascetic life could become. the vita malchi and vita hilarionis as the household's own literary production: desert romances answering the egyptian stories encountered on the founding journey - explicit hagiographic-romance genre, the clearest tier 3 case in the repository, and structurally about named individuals, which is exactly why they cannot border tier 4 (the chunk's own tier justification)."
     },
     {
       "id": "halstory10",
@@ -5965,7 +6022,7 @@
         "observe": [
           "Narrative tier: {'tier': 4, 'justification': 'No single source narrates a specific day. This is explicitly a composite reconstruction of typical practice, not a story about a specific named individual on a specific day — meeting the Tier 4 discipline exactly: every element traceable to attested evidence, nothing invented or extrapolated beyond it.'}.",
           "Attested occasion: Tier-4 composite: the typical shape of a day at the Bethlehem double monastery, assembled ONLY from attested elements (communal discipline per Ep. 108; Hebrew study under paid non-Christian teachers per the prefaces; the Bethlehem-Rome correspondence; manual labor by monastic-template analogy, declared as analogy) - no single source narrates a specific day, no individual is its subject (the chunk's own Source Identification table, parked verbatim in this record's body).",
-          "This is how it would have been, in the typical shape of a day at Bethlehem — not a specific day the household remembers, but the pattern its own life took. A day given over to prayer in common, alongside a day given over to the correction of a Hebrew word against its Greek rendering, were not different kinds of days for this household; both were the same discipline, worked at from different ends. Study of Hebrew continued under teachers who did not share the household's own faith, but whose learning was needed and paid for. Manual labor and the ordinary work of a large household ran alongside the scholarly correspondence that connected Bethlehem to Rome."
+          "This is how it would have been, in the typical shape of a day at Bethlehem — not a specific day the household remembers, but the pattern its own life took. Prayer in common and the correction of a Hebrew word against its Greek rendering were not different kinds of days for this household. Both were the same discipline, worked at from different ends. Study of Hebrew continued under teachers who did not share the household's own faith. Their learning was needed, though, and it was paid for. Manual labor and the ordinary work of a large household went on too. Alongside it ran the scholarly correspondence that connected Bethlehem to Rome."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5991,11 +6048,11 @@
             "tier": 4,
             "justification": "No single source narrates a specific day. This is explicitly a composite reconstruction of typical practice, not a story about a specific named individual on a specific day — meeting the Tier 4 discipline exactly: every element traceable to attested evidence, nothing invented or extrapolated beyond it."
           },
-          "text": "This is how it would have been, in the typical shape of a day at Bethlehem — not a specific day the household remembers, but the pattern its own life took. A day given over to prayer in common, alongside a day given over to the correction of a Hebrew word against its Greek rendering, were not different kinds of days for this household; both were the same discipline, worked at from different ends. Study of Hebrew continued under teachers who did not share the household's own faith, but whose learning was needed and paid for. Manual labor and the ordinary work of a large household ran alongside the scholarly correspondence that connected Bethlehem to Rome.",
+          "text": "This is how it would have been, in the typical shape of a day at Bethlehem — not a specific day the household remembers, but the pattern its own life took. Prayer in common and the correction of a Hebrew word against its Greek rendering were not different kinds of days for this household. Both were the same discipline, worked at from different ends. Study of Hebrew continued under teachers who did not share the household's own faith. Their learning was needed, though, and it was paid for. Manual labor and the ordinary work of a large household went on too. Alongside it ran the scholarly correspondence that connected Bethlehem to Rome.",
           "attested_occasion": "Tier-4 composite: the typical shape of a day at the Bethlehem double monastery, assembled ONLY from attested elements (communal discipline per Ep. 108; Hebrew study under paid non-Christian teachers per the prefaces; the Bethlehem-Rome correspondence; manual labor by monastic-template analogy, declared as analogy) - no single source narrates a specific day, no individual is its subject (the chunk's own Source Identification table, parked verbatim in this record's body).",
           "tellable_as": "scene",
           "owner_figure_id": "halfig009",
-          "voice_surface": "This is no remembered day. It is the shape our days took: prayer and the correcting of a Hebrew word, held as one discipline worked from different ends. We say plainly that it is a pattern put together from what is attested. Ask us for the hours and the psalms, and we will tell you honestly that no record of ours kept them. Usage guidance (chunk, verbatim): Appropriate as reconstruction of typical practice, explicitly marked as such when told. Must not include a specific liturgical horarium (which hours, which psalms) — that level of detail is not attested and is not supplied here.",
+          "voice_surface": "This is no remembered day. It is the shape our days took: prayer and the correcting of a Hebrew word, held as one discipline worked from different ends. We say plainly that it is a pattern put together from what is attested. Ask us for the hours and the psalms, and we will tell you honestly that no record of ours kept them. Usage guidance (chunk, verbatim): Appropriate as typical practice put together from what is attested, and said to be that plainly when told. Must not include a specific liturgical horarium (which hours, which psalms) — that level of detail is not attested and is not supplied here.",
           "confidence_line": "Inferential/Thin (always, for Tier 4, regardless of individual-element sourcing)",
           "retrieval": {
             "tier": 4,
@@ -6026,7 +6083,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "a day at the double monastery halstory10 story a day at the double monastery this is how it would have been, in the typical shape of a day at bethlehem — not a specific day the household remembers, but the pattern its own life took. a day given over to prayer in common, alongside a day given over to the correction of a hebrew word against its greek rendering, were not different kinds of days for this household; both were the same discipline, worked at from different ends. study of hebrew continued under teachers who did not share the household's own faith, but whose learning was needed and paid for. manual labor and the ordinary work of a large household ran alongside the scholarly correspondence that connected bethlehem to rome. tier-4 composite: the typical shape of a day at the bethlehem double monastery, assembled only from attested elements (communal discipline per ep. 108; hebrew study under paid non-christian teachers per the prefaces; the bethlehem-rome correspondence; manual labor by monastic-template analogy, declared as analogy) - no single source narrates a specific day, no individual is its subject (the chunk's own source identification table, parked verbatim in this record's body)."
+      "search_text": "a day at the double monastery halstory10 story a day at the double monastery this is how it would have been, in the typical shape of a day at bethlehem — not a specific day the household remembers, but the pattern its own life took. prayer in common and the correction of a hebrew word against its greek rendering were not different kinds of days for this household. both were the same discipline, worked at from different ends. study of hebrew continued under teachers who did not share the household's own faith. their learning was needed, though, and it was paid for. manual labor and the ordinary work of a large household went on too. alongside it ran the scholarly correspondence that connected bethlehem to rome. tier-4 composite: the typical shape of a day at the bethlehem double monastery, assembled only from attested elements (communal discipline per ep. 108; hebrew study under paid non-christian teachers per the prefaces; the bethlehem-rome correspondence; manual labor by monastic-template analogy, declared as analogy) - no single source narrates a specific day, no individual is its subject (the chunk's own source identification table, parked verbatim in this record's body)."
     },
     {
       "id": "halstory11",
@@ -6044,7 +6101,7 @@
         "observe": [
           "Narrative tier: {'tier': 4, 'justification': \"No single source narrates one complete translation process start to finish as a unified scene; this reconstructs the typical shape from independently attested stages. Every element is traceable — nothing is invented. This story's subject (biblical translation) was, on this world's own evidence, performed by exactly one person throughout the household's whole span — composite in method, but not in subject. This document does not claim this describes a specific attested episode.\"}.",
           "Attested occasion: Tier-4 composite of the translation process's typical shape - consultation with a Hebrew teacher, rendering against Greek and Hebrew both, the defensive preface and its dedication - reconstructed from independently attested stages (the prefaces; the documented dedication pattern of the Bethlehem commentaries); 'composite in method, but not in subject' - on this world's own evidence the work was performed by exactly one person, which is why this record is owned by the scholar's figure and not the community (the chunk's own Tier Justification, quoted; the CO-P2-06 call documented in the S2.4 checkpoint).",
-          "This is how the typical shape of the work went, not as a single remembered event but as the pattern this household's scholar followed across many books: consultation with a Hebrew teacher over a difficult word or passage; the labor of rendering it into Latin against both the received Greek and the Hebrew itself; and, at the end, a preface — written to defend the choices made, anticipate the objections that would come, and dedicate the finished work to the household member whose question or request had occasioned it."
+          "This is how the work typically went - not a single remembered event, but the pattern this household's scholar followed across many books. First, he consulted a Hebrew teacher over a hard word or passage. Next came the work of translating it into Latin, checked against both the received Greek and the Hebrew itself. At the end came a preface. It defended the choices made, answered objections in advance, and dedicated the finished work to the household member whose request had prompted it."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -6070,11 +6127,11 @@
             "tier": 4,
             "justification": "No single source narrates one complete translation process start to finish as a unified scene; this reconstructs the typical shape from independently attested stages. Every element is traceable — nothing is invented. This story's subject (biblical translation) was, on this world's own evidence, performed by exactly one person throughout the household's whole span — composite in method, but not in subject. This document does not claim this describes a specific attested episode."
           },
-          "text": "This is how the typical shape of the work went, not as a single remembered event but as the pattern this household's scholar followed across many books: consultation with a Hebrew teacher over a difficult word or passage; the labor of rendering it into Latin against both the received Greek and the Hebrew itself; and, at the end, a preface — written to defend the choices made, anticipate the objections that would come, and dedicate the finished work to the household member whose question or request had occasioned it.",
+          "text": "This is how the work typically went - not a single remembered event, but the pattern this household's scholar followed across many books. First, he consulted a Hebrew teacher over a hard word or passage. Next came the work of translating it into Latin, checked against both the received Greek and the Hebrew itself. At the end came a preface. It defended the choices made, answered objections in advance, and dedicated the finished work to the household member whose request had prompted it.",
           "attested_occasion": "Tier-4 composite of the translation process's typical shape - consultation with a Hebrew teacher, rendering against Greek and Hebrew both, the defensive preface and its dedication - reconstructed from independently attested stages (the prefaces; the documented dedication pattern of the Bethlehem commentaries); 'composite in method, but not in subject' - on this world's own evidence the work was performed by exactly one person, which is why this record is owned by the scholar's figure and not the community (the chunk's own Tier Justification, quoted; the CO-P2-06 call documented in the S2.4 checkpoint).",
           "tellable_as": "scene",
           "owner_figure_id": "halfig001",
-          "voice_surface": "This is how the work went, book by book - not one remembered afternoon, but the pattern of a working life. A teacher was consulted, and a word weighed against two tongues. At the end came a preface to defend the choices, and a dedication to the one whose asking had begun it. It is one man's own practice, put back together from its attested stages, and never told as a single attested day. Of how good his Hebrew finally was, we claim no more than our record can carry. Usage guidance (chunk, verbatim): Appropriate as reconstruction of typical scholarly practice, explicitly marked as such, and explicitly marked as reconstructing one scholar's own singular practice, not a generalizable household practice. Must not be used to assert this scholar's Hebrew fluency at higher confidence than the wider construction record establishes (Contested).",
+          "voice_surface": "This is how the work went, book by book - not one remembered afternoon, but the pattern of a working life. A teacher was consulted, and a word weighed against two tongues. At the end came a preface to defend the choices, and a dedication to the one whose asking had begun it. It is one man's own practice, put back together from its attested stages, and never told as a single attested day. Of how good his Hebrew finally was, we claim no more than our record can carry. Usage guidance (chunk, verbatim): Appropriate as typical scholarly practice put back together from its attested stages, said to be that plainly when told, and told only as one scholar's own singular practice, not a generalizable household practice. Must not be used to assert this scholar's Hebrew fluency at higher confidence than the wider construction record establishes (Contested).",
           "confidence_line": "Inferential/Thin (always, for Tier 4)",
           "retrieval": {
             "tier": 4,
@@ -6115,7 +6172,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "translating a book of scripture halstory11 story translating a book of scripture this is how the typical shape of the work went, not as a single remembered event but as the pattern this household's scholar followed across many books: consultation with a hebrew teacher over a difficult word or passage; the labor of rendering it into latin against both the received greek and the hebrew itself; and, at the end, a preface — written to defend the choices made, anticipate the objections that would come, and dedicate the finished work to the household member whose question or request had occasioned it. tier-4 composite of the translation process's typical shape - consultation with a hebrew teacher, rendering against greek and hebrew both, the defensive preface and its dedication - reconstructed from independently attested stages (the prefaces; the documented dedication pattern of the bethlehem commentaries); 'composite in method, but not in subject' - on this world's own evidence the work was performed by exactly one person, which is why this record is owned by the scholar's figure and not the community (the chunk's own tier justification, quoted; the co-p2-06 call documented in the s2.4 checkpoint)."
+      "search_text": "translating a book of scripture halstory11 story translating a book of scripture this is how the work typically went - not a single remembered event, but the pattern this household's scholar followed across many books. first, he consulted a hebrew teacher over a hard word or passage. next came the work of translating it into latin, checked against both the received greek and the hebrew itself. at the end came a preface. it defended the choices made, answered objections in advance, and dedicated the finished work to the household member whose request had prompted it. tier-4 composite of the translation process's typical shape - consultation with a hebrew teacher, rendering against greek and hebrew both, the defensive preface and its dedication - reconstructed from independently attested stages (the prefaces; the documented dedication pattern of the bethlehem commentaries); 'composite in method, but not in subject' - on this world's own evidence the work was performed by exactly one person, which is why this record is owned by the scholar's figure and not the community (the chunk's own tier justification, quoted; the co-p2-06 call documented in the s2.4 checkpoint)."
     },
     {
       "id": "srcHAL001",
@@ -7480,6 +7537,64 @@
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
       "search_text": "sancti eusebii hieronymi epistulae, csel 54-56 (vienna, 1910-1918) - the critical edition of jerome's letters srchal026 source isidor hilberg (ed.) sancti eusebii hieronymi epistulae, csel 54-56 (vienna, 1910-1918) - the critical edition of jerome's letters the three-volume critical edition (work level: an edition-class work), apparatus level"
+    },
+    {
+      "id": "srcHAL027",
+      "record_type": "source",
+      "title": "Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcHAL027",
+        "record_type": "source",
+        "title": "Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: Rev. J.G. Cunningham (trans.); Philip Schaff (ed.)",
+          "Title: Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+          "Locus/date: div3 id=\"vii.1.LXXV\" (Letter LXXV, \"From Jerome\" - Jerome's own letter, catalogued within Augustine's collected correspondence under his numbering; Jerome's own numbering for the same letter is Ep. 112, per srcHAL009's own cross-reference)",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcHAL027",
+          "world_id": "hieronymian-ascetic-literary",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "Rev. J.G. Cunningham (trans.); Philip Schaff (ed.)",
+          "work_title": "Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+          "work_locus": "div3 id=\"vii.1.LXXV\" (Letter LXXV, \"From Jerome\" - Jerome's own letter, catalogued within Augustine's collected correspondence under his numbering; Jerome's own numbering for the same letter is Ep. 112, per srcHAL009's own cross-reference)",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's request, 2026-08-15 (\"add a quote from Letter LXXV to close srcHAL009\"), using NPNF1-01 (vendored the same day for imperial_juridical's srcIJC08). TRANSLATOR checked at this volume's own section header, not assumed: Rev. J.G. Cunningham translated Augustine's Letters section (distinct from J.G. Pilkington, who translated the Confessions in the same volume - the same per-work check that closed srcIJC48).",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "srcHAL009's own exact license: the Jerome-Augustine correspondence as \"the external contemporary test of the world's defining textual-authority commitment,\" including the Oea \"ivy/gourd\" congregational incident. SCOPED TO LETTER LXXV ONLY, not the rest of Augustine's correspondence in this volume, and not the Confessions (a separate translator and a separate world's concern - see srcIJC48 in imperial_juridical).",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1886 (Christian Literature Publishing Co., New York), long out of copyright in the US - the same posture as every ANF/NPNF row in this build.",
+          "display_permitted": true,
+          "verification_note": "Wording verified DIRECT against the vendored text at cic/texts/npnf101_augustine-confessions-letters.xml, div3 id=\"vii.1.LXXV\", paragraph id=\"vii.1.LXXV-p89\" - see halq002. srcHAL009 itself was never independently re-collated before this session (its own verification_note: \"Doc_02 SS2.3\" only) - this is the first time its wording has actually been checked against a source text, the same status closing this brought to imperial_juridical's srcIJC08 earlier the same day.",
+          "added": "2026-08-15 (T3 follow-on; Mark's Letter LXXV request)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "nicene and post-nicene fathers, first series, vol. 1: the confessions and letters of st. augustine (christian literature publishing co., new york, 1886) srchal027 source rev. j.g. cunningham (trans.); philip schaff (ed.) nicene and post-nicene fathers, first series, vol. 1: the confessions and letters of st. augustine (christian literature publishing co., new york, 1886) div3 id=\"vii.1.lxxv\" (letter lxxv, \"from jerome\" - jerome's own letter, catalogued within augustine's collected correspondence under his numbering; jerome's own numbering for the same letter is ep. 112, per srchal009's own cross-reference)"
     }
   ],
   "browse": {
@@ -7677,11 +7792,15 @@
         "hallex13",
         "halstory10",
         "halstory11"
+      ],
+      "srcHAL027": [
+        "halq002"
       ]
     },
     "by_figure": {
       "halfig001": [
         "halq001",
+        "halq002",
         "halstory01",
         "halstory02",
         "halstory03",

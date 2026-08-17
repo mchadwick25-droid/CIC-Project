@@ -11,9 +11,9 @@ Do-Not-Retrieve-When: Participant needs specific internal community detail — t
 
 ## Story Text
 
-Writing roughly fifty years after the event, the Roman historian Tacitus records that after the great fire of Rome in 64 CE, amid rumors that the emperor Nero himself had ordered the burning, Nero shifted blame onto a group he calls Chrestiani (Christians), "hated for their abominations." Tacitus tells us that those arrested named others, and that a great multitude was convicted — "not so much of the crime of arson as of hatred of the human race" — and executed with deliberate theatrical cruelty: wrapped in animal skins and torn apart by dogs, crucified, or set alight as human torches to illuminate Nero's gardens at night.
+The Roman historian Tacitus wrote about this roughly fifty years after it happened. He records what happened after the great fire of Rome in 64 CE. Rumors spread that the emperor Nero himself had ordered the burning. Nero shifted blame onto a group he calls Chrestiani (Christians), "hated for their abominations." Tacitus tells us that those arrested named others. A great multitude was convicted - "not so much of the crime of arson as of hatred of the human race." They were executed with cruelty that was public and deliberate. They were wrapped in animal skins and torn apart by dogs, crucified, or set alight as human torches to light Nero's gardens at night.
 
-No Christian individual is named. The account comes entirely from outside, written decades later by a historian with his own reasons for portraying Nero as a monster.
+No Christian individual is named. The account comes entirely from outside. It was written decades later by a historian with his own reasons for painting Nero as a monster.
 
 ## Formation Ecology Connection
 

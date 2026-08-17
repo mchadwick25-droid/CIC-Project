@@ -20,11 +20,11 @@ Do-Not-Retrieve-When: the World Capsule Core has already told this story this tu
 
 ## Story Text
 
-Leo did not go to Chalcedon. He did not need to. His Tome went ahead of him, and when the assembled bishops heard it read, they are recorded as crying out that Peter had spoken through Leo — the letter received not as one opinion weighed against others, but as a settled word carrying the weight of the see that sent it.
+Leo did not go to Chalcedon. He did not need to. His Tome went ahead of him, and when the assembled bishops heard it read, they are recorded as crying out that Peter had spoken through Leo. [The letter was] received not as one opinion weighed against others, but as a settled word carrying the weight of the see that sent it.
 
-But the same council, in the same session, granted Constantinople a rank second only to Rome — not because Peter had ever set foot there, but because the city stood beside the emperor's own throne, and had come, in the fathers' own reasoning, to be New Rome. When word reached Leo, he would not receive it. His own legate had already objected at the council itself. Leo's own letters afterward make the ground of his refusal plain: rank secured by nearness to a throne is not the same kind of claim as rank secured by an apostle's own grave, and a council cannot make the two the same claim by voting.
+But the same council, in the same session, granted Constantinople a rank second only to Rome. [This was] not because Peter had ever set foot there, but because the city stood beside the emperor's own throne, and had come, in the fathers' own reasoning, to be New Rome. When word reached Leo, he would not receive it. His own legate had already objected at the council itself. Leo's own letters afterward make the ground of his refusal plain. Rank secured by nearness to a throne is not the same kind of claim as rank secured by an apostle's own grave, and a council cannot make the two the same claim by voting.
 
-The settlement that was meant to close this world's own long argument over where authority finally rests instead left it open — the council's own council chamber holding, in the end, both a claim received as though Peter himself had spoken, and a claim refused as though it had never been made.
+The settlement that was meant to close this world's own long argument over where authority finally rests instead left it open. [This left] the council's own council chamber holding, in the end, both a claim received as though Peter himself had spoken, and a claim refused as though it had never been made.
 
 ---
 
@@ -51,3 +51,13 @@ Additional guidance specific to this story: a strong candidate for always-presen
 ## Final Assembly Instruction
 
 Completed per `L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 11.6 / FRE 61.7 - four long sentences, each joining multiple clauses at a dash or colon (the
+Tome's reception, the Canon 28 grant, Leo's refusal, and the closing unreconciled-claim summary). Per
+Mark's decision to extend the readability pass to story records, each sentence is split at its own
+existing dash or colon boundary, with three bracketed supplied subjects ("[The letter was]", "[This
+was]", "[This left]") added where a resulting clause had no subject of its own. No fact, hedge,
+quotation, or attribution is dropped - the Tome's reception at Chalcedon, Canon 28's own reasoning, Leo's
+rejection and his legate's objection, and the closing unreconciled-claim framing are all unchanged.
+Re-scored: FK 8.0 / FRE 71.4, clearing both thresholds.

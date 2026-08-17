@@ -10,9 +10,9 @@ Do-Not-Retrieve-When: Participant has just received Story 001 and a second corre
 
 ## Story Text
 
-In this letter, the church at Rome — writing anonymously in its own text, though later tradition names Clement as its author — tells us that the church at Corinth had removed certain presbyters from office who had served blamelessly. The letter addresses this directly: it argues at length that the Corinthians' action was a departure from proper order, drawing on scriptural example after scriptural example of jealousy and strife destroying what unity had built, and it urges the restoration of the deposed presbyters.
+In this letter, the church at Rome tells us that the church at Corinth had removed certain presbyters from office who had served blamelessly. Rome wrote anonymously in its own text, though later tradition names Clement as its author. The letter addresses this directly. It argues at length that the Corinthians' action was a departure from proper order. It draws on scriptural example after scriptural example of jealousy and strife destroying what unity had built. And it urges the restoration of the deposed presbyters.
 
-The letter does not claim any formal jurisdiction over Corinth — it does not command, in the register of a later ecclesial authority; it appeals, at length and with real theological seriousness, as one church writing to another out of concern. Rome's own letter tells us Rome believed disputes in a sister church were its business to address, even without institutional authority to compel a result.
+The letter does not claim any formal authority over Corinth. It does not command, in the register of a later church authority. Instead it appeals, at length and with real theological seriousness. It writes as one church to another, out of concern. Rome's own letter tells us Rome believed disputes in a sister church were its own business. This was true even without power to compel a result.
 
 ## Formation Ecology Connection
 

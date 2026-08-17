@@ -16,7 +16,7 @@ Do-Not-Retrieve-When: participant is asking about Antony's later career, his com
 
 ## Story Text
 
-In his Life of Antony, Athanasius records that Antony, not yet twenty years old and recently orphaned, entered church one day not long after reflecting on how the apostles left everything to follow Christ. He heard the Gospel being read: "If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me." Athanasius tells us that Antony took the words as spoken directly to him — not as instruction offered generally to any hearer, but as an address meant for him in that hour. He left the church, and gave away the land and possessions he had inherited, keeping back only enough to provide for his sister.
+In his Life of Antony, Athanasius records that Antony was not yet twenty years old and recently orphaned. [He] entered church one day, not long after reflecting on how the apostles left everything to follow Christ. He heard the Gospel being read: "If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me." Athanasius tells us that Antony took the words as spoken directly to him. They were not instruction offered generally to any hearer, but an address meant for him in that hour. He left the church. He gave away the land and possessions he had inherited, keeping back only enough to provide for his sister.
 
 ---
 

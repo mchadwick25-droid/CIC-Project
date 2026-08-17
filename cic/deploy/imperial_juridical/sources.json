@@ -3,7 +3,7 @@
   "world_id": "imperial-juridical-christianity",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "id_scheme": "record ids are stable within this repository (srcIJCnn; referenced by every record's sources[] rows)",
-  "source_count": 41,
+  "source_count": 48,
   "sources": [
     {
       "id": "srcIJC01",
@@ -1233,6 +1233,216 @@
         "license": null,
         "display_permitted": null,
         "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcIJC42",
+      "world_id": "imperial-juridical-christianity",
+      "work_author": "John Henry Newman (trans., Oxford Library of the Fathers, Historical Tracts of S. Athanasius, 1843), reprinted with corrections by Archibald Robertson for this edition; Philip Schaff and Henry Wace (series eds.)",
+      "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 4: Athanasius: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1892; first printed in England 1891)",
+      "work_locus": "1892",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "42",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": "The standard public-domain English translation of Athanasius's Apologia contra Arianos, in which Julius I's letter of 341 is preserved (srcIJC04). Bibliographic details verified 2026-08-15 by web search against series listings (Schaff and Wace eds.; Christian Literature Publishing Co., Buffalo, 1892). Mark's decision of 2026-08-15 selected the TEXT - Julius's letter - not this translation; the choice of NPNF is the builder's, on public-domain grounds, and is open to replacement by a modern critical translation.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1892 (England 1891), so the translation is long out of copyright in the US. This is the opposite posture from pahc's srcPAHCS61 (Holmes, 2007, in copyright and therefore denied), and it is deliberate - text traced to this row MAY be rendered to a participant and into the public repository. A rights determination made on publication date alone; Mark should confirm it before the first public render, and any modern reprint carrying new editorial matter is NOT covered by it.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
+      }
+    },
+    {
+      "id": "srcIJC43",
+      "world_id": "imperial-juridical-christianity",
+      "work_author": "H. de Romestin (trans.); Philip Schaff and Henry Wace (series eds.)",
+      "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 10: Ambrose: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1896)",
+      "work_locus": "1896",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "43",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's request, 2026-08-15 (\"deepen imperial_juridical, add a quote for Ambrose\") - CCEL's ThML XML supplied directly. Its own <DC.Title> confirms NPNF2-10; translator attribution is read from the volume's own front matter, not inferred - the general NPNF2-10 series translator, distinct from the Newman/Robertson split found for the Athanasius volume (srcIJC42), which is why it was checked here rather than assumed to be the same.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1896, long out of copyright in the US - the same posture as srcIJC42 (NPNF2-04) and every ANF/NPNF row in this build. Text traced to this row MAY be rendered to a participant and into the public repository.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
+      }
+    },
+    {
+      "id": "srcIJC44",
+      "world_id": "imperial-juridical-christianity",
+      "work_author": "Eusebius of Caesarea",
+      "work_title": "Eusebius of Caesarea, *Vita Constantini* (Life of Constantine), Book I, ch. 28",
+      "work_locus": "Book I, ch. 28",
+      "edition": null,
+      "translation": null,
+      "language": "grc",
+      "script": null,
+      "source_type": "P",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "44",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's NPNF2-01 attachment, 2026-08-15, continuing \"deepen imperial_juridical.\" ijcstory001's own attested_occasion (\"Eusebius... reporting an account Eusebius states he heard from Constantine himself, under oath, some years after the event\") was checked against the vendored text directly, chapter by title, rather than trusted to srcIJC02's existing \"esp. 4.24\" citation - see verification_note. This row exists because srcIJC02 does NOT cover this locus.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": null,
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcIJC45",
+      "world_id": "imperial-juridical-christianity",
+      "work_author": "Eusebius Pamphilius; Bagster translation, revised with Prolegomena and Notes by Ernest Cushing Richardson; Philip Schaff and Henry Wace (series eds.)",
+      "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 1: Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine (Christian Literature Publishing Co., New York, 1890)",
+      "work_locus": "1890",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "45",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's attachment, 2026-08-15 (no accompanying text; continuing \"deepen imperial_juridical\" from the Ambrose request). Its own <DC.Title> confirms NPNF2-01. Translator attribution checked PER-WORK, not assumed from the volume's general <DC.Creator> (which names Arthur Cushman McGiffert, translator of the Church History): the Life of Constantine carries its own separate title page and Preface (Book IV, at div1 id=\"iv\"), crediting \"A Revised Translation, with Prolegomena and Notes, by Ernest Cushing Richardson,\" itself stated to be a revision of the earlier Bagster translation - a different translator than the Church History portion of the same volume, exactly the kind of per-work check that caught srcIJC42's Newman/Robertson split.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: published 1890 (Christian Literature Publishing Co., New York), long out of copyright in the US - the same posture as srcIJC42 (NPNF2-04) and srcIJC43 (NPNF2-10). Publication year read from the vendored file's own <published> element, not assumed. Text traced to this row MAY be rendered to a participant and into the public repository.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
+      }
+    },
+    {
+      "id": "srcIJC46",
+      "world_id": "imperial-juridical-christianity",
+      "work_author": "Rev. Wm. Bright (trans., 1886); reprinted in Henry R. Percival (ed.), Nicene and Post-Nicene Fathers, Second Series, Vol. 14; Philip Schaff and Henry Wace (series eds.)",
+      "work_title": "The Tome of St. Leo (Epistle XXVIII to Flavian), as printed within \"Extracts from the Acts\" of the Council of Chalcedon, in Nicene and Post-Nicene Fathers, Second Series, Vol. 14: The Seven Ecumenical Councils (Edinburgh: T&T Clark, 1899)",
+      "work_locus": "div1 id=\"xi\" (\"The Fourth Ecumenical Council. The Council of Chalcedon\"), div2 id=\"xi.vii\" (\"The Tome of St. Leo\")",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "46",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's request, 2026-08-15 (\"deepen imperial_juridical, add a quote from Chalcedon\"), using the NPNF2-14 volume already vendored the same session. TRANSLATOR checked at the passage itself, not assumed from Percival's volume-level editorship: the text carries its own inline note, \"The translation here given is that of Rev. Wm. Bright, D.D., found in his Select Sermons of S. Leo the Great on the Incarnation with his XXVIIIth Epistle called the 'Tome.' London, 1886\" - a distinct translator from the volume's general editor, the same discipline that caught srcIJC42's Newman/Robertson split and srcIJC45's McGiffert/Richardson split.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: Bright's translation first published 1886, reprinted in this NPNF2-14 volume (Edinburgh: T&T Clark, preface dated Pentecost 1899), long out of copyright in the US - the same posture as every other ANF/NPNF row in this build. Text traced to this row MAY be rendered to a participant and into the public repository.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
+      }
+    },
+    {
+      "id": "srcIJC47",
+      "world_id": "imperial-juridical-christianity",
+      "work_author": "Charles Lett Feltoe (trans.); Philip Schaff and Henry Wace (series eds.)",
+      "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 12: Leo the Great, Gregory the Great (Christian Literature Publishing Co.)",
+      "work_locus": "div3 id=\"ii.iv.xcix\" (Letter CIV, To Marcian Augustus); div3 id=\"ii.iv.c\" (Letter CV, To Pulcheria Augusta); div3 id=\"ii.iv.ci\" (Letter CVI, To Anatolius, Bishop of Constantinople) - all three dated 22 May 452, the same dispatch (Lucian the bishop and Basil the deacon as legates)",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "47",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's Leo/Chalcedon supply, 2026-08-15 (\"deepen imperial_juridical... do all the other fixes you suggested\"). This volume was flagged when vendored (npnf212 ENTRIES note) as covering srcIJC12 (Tome to Flavian) and srcIJC13 (Canon 28 rejection letters), both source_type P with no English translation row.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: NPNF Second Series, same publisher and era as every other row in this build (Christian Literature Publishing Co.), long out of copyright in the US.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
+      }
+    },
+    {
+      "id": "srcIJC48",
+      "world_id": "imperial-juridical-christianity",
+      "work_author": "J.G. Pilkington (trans.); Philip Schaff (ed.)",
+      "work_title": "Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+      "work_locus": "div3 id=\"vi.IX.VII\" (Confessions, Book IX, Chapter VII)",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "48",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's request, 2026-08-15 (\"add a quote from Confessions 9.7\"), using the NPNF1-01 volume vendored earlier the same day. TRANSLATOR checked at the volume's own section header, not assumed: this volume carries the Confessions (translated by J.G. Pilkington) and Augustine's Letters (translated by Rev. J.G. Cunningham) under one shared header - two distinct translators, confirmed directly from the text (npnf101 ENTRIES note already flagged this split when the volume was vendored).",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1886 (Christian Literature Publishing Co., New York), long out of copyright in the US - the same posture as every other ANF/NPNF row in this build.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
       }
     }
   ]

@@ -20,9 +20,9 @@ Do-Not-Retrieve-When: the participant's question concerns Ambrose's actual docum
 
 ## Story Text
 
-Paulinus tells it this way: while Ambrose lay as an infant in the courtyard of his father's house, a swarm of bees came down upon his face, going in and out of his open mouth, and left again — and left him unharmed, having done nothing but rest there a while. His father, seeing it, said that if the child lived, he would become something great.
+Paulinus tells it this way. While Ambrose lay as an infant in the courtyard of his father's house, a swarm of bees came down upon his face, going in and out of his open mouth, and left again. [It] left him unharmed, having done nothing but rest there a while. His father, seeing it, said that if the child lived, he would become something great.
 
-The bees left honey where they had touched him, so the story is told, or so it was told to explain what needed no further sign: a life that would come, in its own way, to be as full of speech as any voice this world's own record preserves.
+The bees left honey where they had touched him, so the story is told, or so it was told to explain what needed no further sign. [This was] a life that would come, in its own way, to be as full of speech as any voice this world's own record preserves.
 
 ---
 
@@ -47,3 +47,13 @@ The Representative may offer this story as the tradition's own account of what a
 ## Final Assembly Instruction
 
 Completed per `L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed (Tier 3 → Contested for portrait, Inferential/Thin for the specific event).
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 13.5 / FRE 65.9 - a colon-joined opening sentence describing the bee swarm in one long run, and
+a closing sentence joining a colon and an appositive into a single dense clause. Per Mark's decision to
+extend the readability pass to story records, both sentences are split at their own existing colon and
+dash boundaries, with two bracketed supplied subjects ("[It]", "[This was]") added where the resulting
+clauses had no subject of their own to stand alone, matching this project's existing quote-record
+convention. No fact, hedge, quotation, or attribution is dropped - Paulinus's attribution, the bee-swarm
+episode, the father's remark, and the closing comparison to Ambrose's eloquence are all unchanged.
+Re-scored: FK 6.2 / FRE 85.1, clearing both thresholds.

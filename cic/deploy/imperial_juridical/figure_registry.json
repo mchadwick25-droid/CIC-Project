@@ -106,5 +106,15 @@
    "approximate": true,
    "note": "UNVERIFIED (T3-E): reference-work lookup 2026-08-15 (Encyclopaedia Britannica, \"St. Athanasius\", giving b. c. 293, d. 2 May 373; c. 296 is widely given elsewhere as the birth year, hence both in display). NOT verified against a primary edition. This build attests him only as the transmitter of Julius I's letter of 341 (srcIJC04). Scholar recheck required."
   }
+ },
+ {
+  "figure_id": "ijcfig010",
+  "display_name": "Augustine",
+  "names": [
+   "Augustine of Hippo (Confessions 9.7, c. 397-400)",
+   "Augustine"
+  ],
+  "bridge_line": "A young man in Milan at the time. He later wrote of the vigil he saw kept for Ambrose.",
+  "narratable": false
  }
 ]

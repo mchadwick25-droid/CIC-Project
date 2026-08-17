@@ -10,9 +10,9 @@ Do-Not-Retrieve-When: Participant needs a straightforward historical-narrative r
 
 ## Story Text
 
-Hermas, a freedman living in Rome, tells us in his own text that he received a series of visions. In the first, an elderly woman appears to him, who he later learns represents the Church itself, grown old because she was created first, before all things. In a later vision, she grows younger and more radiant as Hermas's own understanding and the Church's own renewal progress. Through her, and later through a figure called the Shepherd, Hermas is given a message that becomes the center of his book: that God has granted one — and only one — opportunity for repentance after baptism for those who have fallen into serious sin, and that this mercy is offered now, before a final closing of that door.
+Hermas, a freedman living in Rome, tells us in his own text that he received a series of visions. In the first, an elderly woman appears to him. He later learns she represents the Church itself, grown old because she was created first, before all things. In a later vision, she grows younger and more radiant, as Hermas's own understanding and the Church's own renewal progress. Through her, and later through a figure called the Shepherd, Hermas is given a message that becomes the center of his book. God has granted one - and only one - opportunity for repentance after baptism for those who have fallen into serious sin. This mercy is offered now, before a final closing of that door.
 
-Hermas names Clement by name as a specific, named figure in this world's own tradition (*Vision* 2.4.3), instructed to send copies of the visions to other cities, and Grapte, instructed to exhort the widows and orphans — placing Hermas's own household squarely inside Rome's own plural-leadership pattern, addressed to specific, named roles rather than to a single bishop.
+Hermas names Clement by name as a specific, named figure in this world's own tradition (*Vision* 2.4.3). Clement is instructed to send copies of the visions to other cities. Grapte is instructed to exhort the widows and orphans. This places Hermas's own household squarely inside Rome's own plural-leadership pattern, addressed to specific, named roles rather than to a single bishop.
 
 ## Formation Ecology Connection
 

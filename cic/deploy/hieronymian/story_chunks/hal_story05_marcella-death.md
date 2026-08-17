@@ -10,7 +10,7 @@ Do-Not-Retrieve-When:Participant wants the full account of this widow's exegetic
 
 ## Story Text
 
-When Alaric's soldiers entered Rome, they came to the house of a widow who had given away most of her wealth years before, demanding treasure she no longer had. She died soon after, from the injuries or deprivation that followed. The household's own account dwells on the irony directly: soldiers searching a house that had already emptied itself for the poor.
+When Alaric's soldiers entered Rome, they came to the house of a widow who had given away most of her wealth years before. They demanded treasure she no longer had. She died soon after, from the injuries or deprivation that followed. The household's own account dwells on the irony directly: soldiers searching a house that had already emptied itself for the poor.
 
 ## Formation Ecology Connection
 

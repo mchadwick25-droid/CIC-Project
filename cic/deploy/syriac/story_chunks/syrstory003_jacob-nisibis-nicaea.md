@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant wants a first-person account of the Council it
 
 ## Story Text
 
-Jacob, bishop of Nisibis from around 309, is remembered as one of the bishops present at the Council of Nicaea in 325, standing among those who opposed the Arian teaching. The surviving lists of Nicene signatories that record his name are late, composite manuscripts, reconstructed by modern scholarship rather than a single contemporary document, and place him at the seventy-seventh position among the assembled bishops. Later church historians, writing a century or more afterward, remembered him specifically for his part in resisting Arius's teaching at the council.
+Jacob, bishop of Nisibis from around 309, is remembered as one of the bishops present at the Council of Nicaea in 325. He stood among those who opposed the Arian teaching. The lists of signers that survive and record his name are late. They are composite manuscripts, pieced together by modern scholars rather than a single document from that time. These lists place him at the seventy-seventh position among the gathered bishops. Later church historians wrote a century or more afterward. They remembered him for his part in standing against Arius's teaching at the council.
 
 ---
 

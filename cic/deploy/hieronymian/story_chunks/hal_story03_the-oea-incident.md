@@ -10,7 +10,7 @@ Do-Not-Retrieve-When:Participant wants an abstract explanation of Hebraica verit
 
 ## Story Text
 
-In one town, a bishop read from the corrected text in the assembly, at the passage where the prophet Jonah sits beneath a plant for shade. Where the congregation had always heard "gourd," the corrected word, closer to the Hebrew, gave "ivy" — a climbing vine, not a gourd-plant. The change was small. The reaction was not: the people took it as tampering with scripture they trusted, and the disturbance reached as far as a respected bishop in Africa, Augustine, who wrote to raise the concern directly and press it more than once.
+In one town, a bishop read from the corrected text in the assembly, at the passage where the prophet Jonah sits beneath a plant for shade. Where the congregation had always heard "gourd," the corrected word, closer to the Hebrew, gave "ivy" — a climbing vine, not a gourd-plant. The change was small. The reaction was not. The people took it as tampering with scripture they trusted. The disturbance reached as far as a respected bishop in Africa, Augustine, who wrote to raise the concern directly and press it more than once.
 
 ## Formation Ecology Connection
 

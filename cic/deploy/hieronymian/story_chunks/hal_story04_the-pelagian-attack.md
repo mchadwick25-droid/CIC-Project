@@ -10,7 +10,7 @@ Do-Not-Retrieve-When:Participant wants only the abstract Pelagianism lexicon ent
 
 ## Story Text
 
-A dispute that had, until then, stayed in argument and letters — over grace, over whether a person could, by their own effort, live without sin — arrived one year at this household's own door as a mob. Buildings burned. At least one member of the household died. The scholar among us, writing of it afterward, is strikingly vague on the particulars — how many came, exactly what was lost, exactly who died — a silence this household has never filled in with more than what he actually said.
+A dispute had, until then, stayed in argument and letters — over grace, over whether a person could, by their own effort, live without sin. One year it arrived at this household's own door as a mob. Buildings burned. At least one member of the household died. The scholar among us, writing of it afterward, is strikingly vague on the particulars: how many came, exactly what was lost, exactly who died. This household has never filled that silence in with more than what he actually said.
 
 ## Formation Ecology Connection
 

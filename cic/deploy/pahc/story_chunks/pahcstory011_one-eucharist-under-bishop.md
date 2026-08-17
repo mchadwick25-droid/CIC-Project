@@ -11,9 +11,9 @@ Do-Not-Retrieve-When: Do not blend with Story 006 or Story 010; participant need
 
 ## Story Text
 
-This is how it would have been, in a community formed under Ignatius's own instruction. Take care, he insists, to observe one eucharist — for there is one flesh of the Lord and one cup for union with his blood, one altar, as there is one bishop together with the presbytery and deacons. Whatever the bishop approves, he writes, is pleasing to God, "so that everything you do may be secure and valid." No one should do anything pertaining to the church without the bishop: let that be considered a valid eucharist which is held under the bishop or one to whom the bishop has entrusted it. Wherever the bishop appears, let the congregation be there, "just as wherever Jesus Christ is, there is the catholic church." It is not permitted, apart from the bishop, either to baptize or to hold a love-feast.
+This is how it would have been, in a community formed under Ignatius's own instruction. Take care, he insists, to observe one eucharist. There is one flesh of the Lord and one cup for union with his blood, one altar, as there is one bishop together with the presbytery and deacons. Whatever the bishop approves, he writes, is pleasing to God, "so that everything you do may be secure and valid." No one should do anything pertaining to the church without the bishop. Let that be considered a valid eucharist which is held under the bishop or one to whom the bishop has entrusted it. Wherever the bishop appears, let the congregation be there, "just as wherever Jesus Christ is, there is the catholic church." It is not permitted, apart from the bishop, either to baptize or to hold a love-feast.
 
-A member formed this way would refuse, Ignatius's instruction implies, to attend any gathering that broke bread apart from this single, bishop-anchored table — treating the eucharist itself as inseparable from the question of who legitimately gathers the community at all.
+A member formed this way would refuse, Ignatius's instruction implies, to attend any gathering that broke bread apart from this single, bishop-anchored table. This treats the eucharist itself as inseparable from the question of who legitimately gathers the community at all.
 
 ## Formation Ecology Connection
 
@@ -45,3 +45,16 @@ Additional guidance specific to this story: carries the same Strand A framing ca
 
 **Element from Story Text:** Prohibition on baptizing or holding a love-feast apart from the bishop.
 **Source:** Ignatius, *Smyrnaeans* 8.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 12.4 / FRE 52.6 - the first paragraph chained an em-dash-introduced clause and a colon-introduced
+clause into two of its sentences. Per Mark's decision to extend the readability pass to story records,
+these are split into short ones along their own existing clause boundaries (one clause per sentence, in
+the same order); no plain-synonym substitution was needed. Every phrase drawn from Ignatius's own letters
+is untouched, word for word, including the load-bearing "just as wherever Jesus Christ is, there is the
+catholic church" (the line pahcq002's own body note names this story as load-bearing for) and "so that
+everything you do may be secure and valid," as well as the unquoted-but-source-table-matched "let that
+be considered a valid eucharist which is held under the bishop or one to whom the bishop has entrusted
+it." No fact, hedge, or attribution is dropped - the one-eucharist, one-altar, one-bishop instruction,
+the baptism/love-feast prohibition, and the closing inference about a formed member's refusal are all
+still stated in full. Re-scored: FK 9.3 / FRE 61.0, clearing both thresholds.

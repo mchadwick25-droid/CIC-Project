@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about Ephrem's literary corpus or th
 
 ## Story Text
 
-In his notice on Ephrem, Gennadius records that toward the end of his life, Edessa was struck by famine. Ephrem, already known as a deacon and teacher within the city's ascetic community, came out from the discipline of his own retirement to organize relief for those suffering the famine — securing what provision he could for them and seeing to their care directly rather than through others. He died not long after, in the same year, worn by this labor on behalf of the starving. Gennadius dates this to the reign of the emperors Valens, Gratian, and the elder Valentinian — placing Ephrem's death in 373.
+In his notice on Ephrem, Gennadius records that toward the end of his life, Edessa was struck by famine. Ephrem was already known as a deacon and teacher within the city's ascetic community. He came out from the discipline of his own retirement to organize relief for those suffering the famine. He secured what provision he could for them and saw to their care directly rather than through others. He died not long after, in the same year, worn by this labor on behalf of the starving. Gennadius dates this to the reign of the emperors Valens, Gratian, and the elder Valentinian. This places Ephrem's death in 373.
 
 ---
 

@@ -12,11 +12,11 @@ Do-Not-Retrieve-When: Participant is vulnerable around themes of torture, sexual
 
 ## Story Text
 
-In his letter to the emperor Trajan, Pliny the Younger, governor of Bithynia-Pontus, records that he was uncertain how to handle accusations against Christians brought before him, and asked the emperor directly for guidance. He describes questioning those accused, executing those who persisted in the name after repeated warning (reserving Roman citizens for trial in Rome), and — wanting to learn more about what these people actually did — he tells us he tortured two enslaved women, called *ministrae* (a term some read as a functional title, "ministers" or "deaconesses," though this is contested), to extract information.
+In his letter to the emperor Trajan, Pliny the Younger, governor of Bithynia-Pontus, records that he was unsure how to handle charges against Christians brought before him. He asked the emperor directly for guidance. He describes questioning those accused. He executed those who persisted in the name after repeated warning. He reserved Roman citizens for trial in Rome instead. He wanted to learn more about what these people actually did. So he tells us he tortured two enslaved women, called *ministrae*, to get information. Some read *ministrae* as a functional title, "ministers" or "deaconesses," though this is contested.
 
-What Pliny reports learning was, in his own words, "nothing else than depraved, excessive superstition" — people who met before dawn on a fixed day, sang a hymn to Christ "as to a god," bound themselves by oath not to commit theft, adultery, or breach of trust, and later reassembled to share an ordinary, harmless meal.
+What Pliny reports learning was, in his own words, "nothing else than depraved, excessive superstition." These were people who met before dawn on a fixed day. They sang a hymn to Christ "as to a god." They bound themselves by oath not to commit theft, adultery, or breach of trust. Later they met again to share an ordinary, harmless meal.
 
-Trajan's reply, also preserved, instructs Pliny not to seek out Christians actively, not to act on anonymous accusations, but to punish those who are properly accused and refuse to recant.
+Trajan's reply, also preserved, instructs Pliny not to seek out Christians actively, and not to act on anonymous charges. But he was to punish those who were rightly accused and refused to recant.
 
 ## Formation Ecology Connection
 

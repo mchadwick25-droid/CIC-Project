@@ -3,7 +3,7 @@
   "world_id": "imperial-juridical-christianity",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "rights_rule": "fail-closed: third-party-derived text renders only on an explicit display_permitted: true on its provenance source row (FLAG-013)",
-  "record_count": 99,
+  "record_count": 118,
   "records": [
     {
       "id": "ijcamb001",
@@ -1466,6 +1466,14 @@
               "name_kind": "scholarly"
             }
           ],
+          "dates": {
+            "kind": "life",
+            "display": "c. 293/296-373",
+            "start_year": 293,
+            "end_year": 373,
+            "approximate": true,
+            "note": "UNVERIFIED (T3-E): reference-work lookup 2026-08-15 (Encyclopaedia Britannica, \"St. Athanasius\", giving b. c. 293, d. 2 May 373; c. 296 is widely given elsewhere as the birth year, hence both in display). NOT verified against a primary edition. This build attests him only as the transmitter of Julius I's letter of 341 (srcIJC04). Scholar recheck required."
+          },
           "bridge_line": "An Alexandrian bishop. We have Julius's letter only because he copied it out.",
           "narratable": false,
           "story_ids": [],
@@ -1474,6 +1482,58 @@
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
       "search_text": "athanasius of alexandria ijcfig009 figure"
+    },
+    {
+      "id": "ijcfig010",
+      "record_type": "figure",
+      "title": "Augustine",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "ijcfig010",
+        "record_type": "figure",
+        "title": "Augustine",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Name: Augustine (in-world).",
+          "Name: Augustine of Hippo (Confessions 9.7, c. 397-400) (scholarly).",
+          "Narratable: no.",
+          "Accepted refusal: Load-bearing as a voice (srcIJC08/srcIJC48, Confessions 9.7 - eyewitness testimony to Ambrose's own basilica standoff, 386) but no narratable scene of his own survives in this inventory - asked for an Augustine story, the voice declines honestly: he was present at the vigil ijcstory004 narrates, but that scene belongs to Ambrose (ijcfig004), who owns it. Augustine's words are kept as confirming testimony, not as a story of his own."
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "ijcfig010",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "figure",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2
+          ],
+          "register": "etic",
+          "review_state": "draft",
+          "names": [
+            {
+              "name": "Augustine",
+              "name_kind": "in-world"
+            },
+            {
+              "name": "Augustine of Hippo (Confessions 9.7, c. 397-400)",
+              "name_kind": "scholarly"
+            }
+          ],
+          "bridge_line": "A young man in Milan at the time. He later wrote of the vigil he saw kept for Ambrose.",
+          "narratable": false,
+          "story_ids": [],
+          "accepted_refusal_note": "Load-bearing as a voice (srcIJC08/srcIJC48, Confessions 9.7 - eyewitness testimony to Ambrose's own basilica standoff, 386) but no narratable scene of his own survives in this inventory - asked for an Augustine story, the voice declines honestly: he was present at the vigil ijcstory004 narrates, but that scene belongs to Ambrose (ijcfig004), who owns it. Augustine's words are kept as confirming testimony, not as a story of his own.",
+          "attribution_note": "Not this world's figure for Augustine's own corpus or theology (srcIJC08's own license restricts this passage narrowly to eyewitness testimony of Ambrose's conduct; Augustine's own build is World #8, Latin Pastoral-Congregational Christianity, per srcIJC08's Comparandum Note - Excluded here). Present in Milan as a still-unconverted young man during the 386 standoff (he describes himself in this same passage as \"still unmelted by the heat of Thy Spirit\"); his mother Monica was present too, \"bearing a chief part of those cares and watchings.\" Owns srcIJC48/ijcq008 only."
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "augustine ijcfig010 figure"
     },
     {
       "id": "ijcforce1A1",
@@ -4656,6 +4716,611 @@
       }
     },
     {
+      "id": "ijcq001",
+      "record_type": "quote",
+      "title": "Saying - Julius, Letter to the Eusebian Bishops, in Athanasius, Apologia contra Arianos 21 (part of the letter spanning ch. 20-35; the edition's own table of contents dates the letter 340 CE, one year off srcIJC04's 341 - not silently harmonized here)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC42"
+      },
+      "level3": {
+        "record_id": "ijcq001",
+        "record_type": "quote",
+        "title": "Saying - Julius, Letter to the Eusebian Bishops, in Athanasius, Apologia contra Arianos 21 (part of the letter spanning ch. 20-35; the edition's own table of contents dates the letter 340 CE, one year off srcIJC04's 341 - not silently harmonized here)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig006.",
+          "Locus: Julius, Letter to the Eusebian Bishops, in Athanasius, Apologia contra Arianos 21 (part of the letter spanning ch. 20-35; the edition's own table of contents dates the letter 340 CE, one year off srcIJC04's 341 - not silently harmonized here).",
+          "Text: \"Are you ignorant that the custom has been for word to be written first to us, and then for a just decision to be passed from this place?\"",
+          "Translation used: srcIJC42.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq001",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig006",
+          "text_translation": "Are you ignorant that the custom has been for word to be written first to us, and then for a just decision to be passed from this place?",
+          "locus": "Julius, Letter to the Eusebian Bishops, in Athanasius, Apologia contra Arianos 21 (part of the letter spanning ch. 20-35; the edition's own table of contents dates the letter 340 CE, one year off srcIJC04's 341 - not silently harmonized here)",
+          "translation_used": "srcIJC42",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - julius, letter to the eusebian bishops, in athanasius, apologia contra arianos 21 (part of the letter spanning ch. 20-35; the edition's own table of contents dates the letter 340 ce, one year off srcijc04's 341 - not silently harmonized here) ijcq001 quote julius, letter to the eusebian bishops, in athanasius, apologia contra arianos 21 (part of the letter spanning ch. 20-35; the edition's own table of contents dates the letter 340 ce, one year off srcijc04's 341 - not silently harmonized here)"
+    },
+    {
+      "id": "ijcq002",
+      "record_type": "quote",
+      "title": "Saying - Ambrose, Sermon Against Auxentius on the Giving Up of the Basilicas, §2",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC43"
+      },
+      "level3": {
+        "record_id": "ijcq002",
+        "record_type": "quote",
+        "title": "Saying - Ambrose, Sermon Against Auxentius on the Giving Up of the Basilicas, §2",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig004.",
+          "Locus: Ambrose, Sermon Against Auxentius on the Giving Up of the Basilicas, §2.",
+          "Text: \"I will never willingly desert you, though if force is used, I cannot meet it. I shall be able to grieve, to weep, to groan; against weapons, soldiers, Goths, my tears are my weapons, for these are a priest's defence. I ought not, I cannot resist in any other way; but to fly and forsake the Church is not my way.\"",
+          "Translation used: srcIJC43.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq002",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig004",
+          "text_translation": "I will never willingly desert you, though if force is used, I cannot meet it. I shall be able to grieve, to weep, to groan; against weapons, soldiers, Goths, my tears are my weapons, for these are a priest's defence. I ought not, I cannot resist in any other way; but to fly and forsake the Church is not my way.",
+          "locus": "Ambrose, Sermon Against Auxentius on the Giving Up of the Basilicas, §2",
+          "translation_used": "srcIJC43",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - ambrose, sermon against auxentius on the giving up of the basilicas, §2 ijcq002 quote ambrose, sermon against auxentius on the giving up of the basilicas, §2"
+    },
+    {
+      "id": "ijcq003",
+      "record_type": "quote",
+      "title": "Saying - Eusebius, Life of Constantine, Book I, ch. 28",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC45"
+      },
+      "level3": {
+        "record_id": "ijcq003",
+        "record_type": "quote",
+        "title": "Saying - Eusebius, Life of Constantine, Book I, ch. 28",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig002.",
+          "Locus: Eusebius, Life of Constantine, Book I, ch. 28.",
+          "Text: \"But since the victorious emperor himself long afterwards declared it to the writer of this history, when he was honored with his acquaintance and society, and confirmed his statement by an oath, who could hesitate to accredit the relation, especially since the testimony of after-time has established its truth?\"",
+          "Translation used: srcIJC45.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq003",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig002",
+          "text_translation": "But since the victorious emperor himself long afterwards declared it to the writer of this history, when he was honored with his acquaintance and society, and confirmed his statement by an oath, who could hesitate to accredit the relation, especially since the testimony of after-time has established its truth?",
+          "locus": "Eusebius, Life of Constantine, Book I, ch. 28",
+          "translation_used": "srcIJC45",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - eusebius, life of constantine, book i, ch. 28 ijcq003 quote eusebius, life of constantine, book i, ch. 28"
+    },
+    {
+      "id": "ijcq004",
+      "record_type": "quote",
+      "title": "Saying - Leo I, Tome to Flavian (Epistle XXVIII), as read into the Acts of the Council of Chalcedon (451)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC46"
+      },
+      "level3": {
+        "record_id": "ijcq004",
+        "record_type": "quote",
+        "title": "Saying - Leo I, Tome to Flavian (Epistle XXVIII), as read into the Acts of the Council of Chalcedon (451)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig007.",
+          "Locus: Leo I, Tome to Flavian (Epistle XXVIII), as read into the Acts of the Council of Chalcedon (451).",
+          "Text: \"For each of the natures retains its proper character without defect. And as the form of God does not take away the form of a servant, so the form of a servant does not impair the form of God.\"",
+          "Translation used: srcIJC46.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq004",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig007",
+          "text_translation": "For each of the natures retains its proper character without defect. And as the form of God does not take away the form of a servant, so the form of a servant does not impair the form of God.",
+          "locus": "Leo I, Tome to Flavian (Epistle XXVIII), as read into the Acts of the Council of Chalcedon (451)",
+          "translation_used": "srcIJC46",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-16",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - leo i, tome to flavian (epistle xxviii), as read into the acts of the council of chalcedon (451) ijcq004 quote leo i, tome to flavian (epistle xxviii), as read into the acts of the council of chalcedon (451)"
+    },
+    {
+      "id": "ijcq005",
+      "record_type": "quote",
+      "title": "Saying - Leo I, Letter CVI, to Anatolius, Bishop of Constantinople (22 May 452)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC47"
+      },
+      "level3": {
+        "record_id": "ijcq005",
+        "record_type": "quote",
+        "title": "Saying - Leo I, Letter CVI, to Anatolius, Bishop of Constantinople (22 May 452)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig007.",
+          "Locus: Leo I, Letter CVI, to Anatolius, Bishop of Constantinople (22 May 452).",
+          "Text: \"And, if anywhere men venture upon what is contrary to their decrees, it is ipso facto null and void.\"",
+          "Translation used: srcIJC47.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq005",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig007",
+          "text_translation": "And, if anywhere men venture upon what is contrary to their decrees, it is ipso facto null and void.",
+          "locus": "Leo I, Letter CVI, to Anatolius, Bishop of Constantinople (22 May 452)",
+          "translation_used": "srcIJC47",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-16",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - leo i, letter cvi, to anatolius, bishop of constantinople (22 may 452) ijcq005 quote leo i, letter cvi, to anatolius, bishop of constantinople (22 may 452)"
+    },
+    {
+      "id": "ijcq006",
+      "record_type": "quote",
+      "title": "Saying - Leo I, Letter CIV, to Marcian Augustus (22 May 452)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC47"
+      },
+      "level3": {
+        "record_id": "ijcq006",
+        "record_type": "quote",
+        "title": "Saying - Leo I, Letter CIV, to Marcian Augustus (22 May 452)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig007.",
+          "Locus: Leo I, Letter CIV, to Marcian Augustus (22 May 452).",
+          "Text: \"Let him not disdain a city which is royal, though he cannot make it an Apostolic See. And let him on no account hope that he can rise by doing injury to others.\"",
+          "Translation used: srcIJC47.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq006",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig007",
+          "text_translation": "Let him not disdain a city which is royal, though he cannot make it an Apostolic See. And let him on no account hope that he can rise by doing injury to others.",
+          "locus": "Leo I, Letter CIV, to Marcian Augustus (22 May 452)",
+          "translation_used": "srcIJC47",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-16",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - leo i, letter civ, to marcian augustus (22 may 452) ijcq006 quote leo i, letter civ, to marcian augustus (22 may 452)"
+    },
+    {
+      "id": "ijcq007",
+      "record_type": "quote",
+      "title": "Saying - Leo I, Letter CV, to Pulcheria Augusta (22 May 452)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC47"
+      },
+      "level3": {
+        "record_id": "ijcq007",
+        "record_type": "quote",
+        "title": "Saying - Leo I, Letter CV, to Pulcheria Augusta (22 May 452)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig007.",
+          "Locus: Leo I, Letter CV, to Pulcheria Augusta (22 May 452).",
+          "Text: \"But the bishops' assents, which are opposed to the regulations of the holy canons composed at Nicæa in conjunction with your faithful Grace, we do not recognize, and by the blessed Apostle Peter's authority we absolutely dis-annul in comprehensive terms.\"",
+          "Translation used: srcIJC47.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq007",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig007",
+          "text_translation": "But the bishops' assents, which are opposed to the regulations of the holy canons composed at Nicæa in conjunction with your faithful Grace, we do not recognize, and by the blessed Apostle Peter's authority we absolutely dis-annul in comprehensive terms.",
+          "locus": "Leo I, Letter CV, to Pulcheria Augusta (22 May 452)",
+          "translation_used": "srcIJC47",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - leo i, letter cv, to pulcheria augusta (22 may 452) ijcq007 quote leo i, letter cv, to pulcheria augusta (22 may 452)"
+    },
+    {
+      "id": "ijcq008",
+      "record_type": "quote",
+      "title": "Saying - Augustine, Confessions 9.7",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC48"
+      },
+      "level3": {
+        "record_id": "ijcq008",
+        "record_type": "quote",
+        "title": "Saying - Augustine, Confessions 9.7",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig010.",
+          "Locus: Augustine, Confessions 9.7.",
+          "Text: \"The pious people kept guard in the church, prepared to die with their bishop, Thy servant.\"",
+          "Translation used: srcIJC48.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq008",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig010",
+          "text_translation": "The pious people kept guard in the church, prepared to die with their bishop, Thy servant.",
+          "locus": "Augustine, Confessions 9.7",
+          "translation_used": "srcIJC48",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - augustine, confessions 9.7 ijcq008 quote augustine, confessions 9.7"
+    },
+    {
+      "id": "ijcq009",
+      "record_type": "quote",
+      "title": "Saying - Augustine, Confessions 9.7 (the discovery of Gervasius and Protasius)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC48"
+      },
+      "level3": {
+        "record_id": "ijcq009",
+        "record_type": "quote",
+        "title": "Saying - Augustine, Confessions 9.7 (the discovery of Gervasius and Protasius)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig010.",
+          "Locus: Augustine, Confessions 9.7 (the discovery of Gervasius and Protasius).",
+          "Text: \"Then didst Thou by a vision make known to Thy renowned bishop the spot where lay the bodies of Gervasius and Protasius, the martyrs. Thou hadst in Thy secret storehouse preserved [them] uncorrupted for so many years. Whence Thou mightest at the fitting time produce them to repress the feminine but royal fury.\"",
+          "Translation used: srcIJC48.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq009",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig010",
+          "text_translation": "Then didst Thou by a vision make known to Thy renowned bishop the spot where lay the bodies of Gervasius and Protasius, the martyrs. Thou hadst in Thy secret storehouse preserved [them] uncorrupted for so many years. Whence Thou mightest at the fitting time produce them to repress the feminine but royal fury.",
+          "locus": "Augustine, Confessions 9.7 (the discovery of Gervasius and Protasius)",
+          "translation_used": "srcIJC48",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-16",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - augustine, confessions 9.7 (the discovery of gervasius and protasius) ijcq009 quote augustine, confessions 9.7 (the discovery of gervasius and protasius)"
+    },
+    {
+      "id": "ijcq010",
+      "record_type": "quote",
+      "title": "Saying - Augustine, Confessions 9.7 (the blind man healed at the martyrs' bier)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC48"
+      },
+      "level3": {
+        "record_id": "ijcq010",
+        "record_type": "quote",
+        "title": "Saying - Augustine, Confessions 9.7 (the blind man healed at the martyrs' bier)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig010.",
+          "Locus: Augustine, Confessions 9.7 (the blind man healed at the martyrs' bier).",
+          "Text: \"He begged to be permitted to touch with his handkerchief the bier of Thy saints, whose death is precious in Thy sight. When he had done this, and put it to his eyes, they were forthwith opened.\"",
+          "Translation used: srcIJC48.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq010",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig010",
+          "text_translation": "He begged to be permitted to touch with his handkerchief the bier of Thy saints, whose death is precious in Thy sight. When he had done this, and put it to his eyes, they were forthwith opened.",
+          "locus": "Augustine, Confessions 9.7 (the blind man healed at the martyrs' bier)",
+          "translation_used": "srcIJC48",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-15",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - augustine, confessions 9.7 (the blind man healed at the martyrs' bier) ijcq010 quote augustine, confessions 9.7 (the blind man healed at the martyrs' bier)"
+    },
+    {
+      "id": "ijcq011",
+      "record_type": "quote",
+      "title": "Saying - Augustine, Confessions 9.7 (the miracle's effect on Justina's party)",
+      "rights": {
+        "gated_fields": [],
+        "basis": "display_permitted: true on srcIJC48"
+      },
+      "level3": {
+        "record_id": "ijcq011",
+        "record_type": "quote",
+        "title": "Saying - Augustine, Confessions 9.7 (the miracle's effect on Justina's party)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Speaker/author record: ijcfig010.",
+          "Locus: Augustine, Confessions 9.7 (the miracle's effect on Justina's party).",
+          "Text: \"Thence did the fame spread. Thence did Thy praises burn,—shine. Thence was the mind of that enemy, though not yet enlarged to the wholeness of believing, restrained from the fury of persecuting.\"",
+          "Translation used: srcIJC48.",
+          "License basis: verbatim."
+        ],
+        "reflect": [
+          "Formation confidence: \"Documented\" - the sources from that time state this directly.",
+          "Evidentiary weight: load-bearing.",
+          "Citation: specificity A / verified-direct."
+        ],
+        "question": [],
+        "full_record": {
+          "id": "ijcq011",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "quote",
+          "schema_version": 1,
+          "jobs": [
+            1,
+            2,
+            3
+          ],
+          "register": "emic",
+          "review_state": "draft",
+          "speaker_or_author": "ijcfig010",
+          "text_translation": "Thence did the fame spread. Thence did Thy praises burn,—shine. Thence was the mind of that enemy, though not yet enlarged to the wholeness of believing, restrained from the fury of persecuting.",
+          "locus": "Augustine, Confessions 9.7 (the miracle's effect on Justina's party)",
+          "translation_used": "srcIJC48",
+          "license": "verbatim",
+          "confidence": {
+            "citation_specificity": "A",
+            "verification_state": "verified-direct",
+            "verification_date": "2026-08-16",
+            "evidentiary_weight": "load-bearing",
+            "formation_confidence": "Documented"
+          }
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "saying - augustine, confessions 9.7 (the miracle's effect on justina's party) ijcq011 quote augustine, confessions 9.7 (the miracle's effect on justina's party)"
+    },
+    {
       "id": "ijcstory001",
       "record_type": "story",
       "title": "The Vision and the Alliance (Eusebius's Account)",
@@ -4671,7 +5336,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': 'Tier 1 (Documented Historical Narrative): the text exists, is named to a specific author and work, and Eusebius states plainly the chain of testimony (Constantine, under oath, to Eusebius). This is not attributed tradition or reconstruction — it is a documented claim, with its own named limitations already carried at full strength: Eusebius\\'s own court proximity (Doc_02 §2) means this is a court panegyrist\\'s report of his patron\\'s own account, not an independent witness\\'s. Confidence is Documented at the level of \"this is what Eusebius wrote Constantine told him\"; it drops to Contested at the level of what the vision actually was or meant, since Lactantius\\'s own, earlier and differently-detailed account (a dream, not a daylight vision; the night before the battle, not some prior day) is not simply reconcilable with this one.'}.",
           "Attested occasion: Eusebius of Caesarea, Life of Constantine (Vita Constantini), reporting an account Eusebius states he heard from Constantine himself, under oath, some years after the event",
-          "In his own account, written after the emperor's death, Eusebius tells what Constantine himself told him: that before the battle at the Milvian Bridge, in the sky above the sun, Constantine saw a cross of light, and with it the words *by this, conquer*. That night, Christ himself appeared to him in sleep and showed him the same sign, and commanded that he make of it a standard to carry before his armies. Constantine did as he was shown, and the army that carried that standard won the bridge, and Rome, and, before long, the whole of the West.\n\nEusebius does not offer this lightly. He is careful to say that he had this from the emperor's own mouth, confirmed by oath, long after the event itself — a witness once removed, reporting what a ruler wished remembered about his own rise. What follows from it, in Eusebius's own telling, is not in doubt: an emperor who had seen this sign no longer persecuted the church that bore it, and within a year, toleration was law."
+          "In his own account, written after the emperor's death, Eusebius tells what Constantine himself told him. Before the battle at the Milvian Bridge, in the sky above the sun, Constantine saw a cross of light, and with it the words *by this, conquer*. That night, Christ himself appeared to him in sleep and showed him the same sign. [He] commanded that he make of it a standard to carry before his armies. Constantine did as he was shown. The army that carried that standard won the bridge, and Rome, and, before long, the whole of the West.\n\nEusebius does not offer this lightly. He is careful to say that he had this from the emperor's own mouth, confirmed by oath, long after the event itself. [Eusebius was] a witness once removed, reporting what a ruler wished remembered about his own rise. What follows from it, in Eusebius's own telling, is not in doubt. An emperor who had seen this sign no longer persecuted the church that bore it, and within a year, toleration was law."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -4692,7 +5357,7 @@
           "review_state": "draft",
           "cache_stability": "static",
           "title": "The Vision and the Alliance (Eusebius's Account)",
-          "text": "In his own account, written after the emperor's death, Eusebius tells what Constantine himself told him: that before the battle at the Milvian Bridge, in the sky above the sun, Constantine saw a cross of light, and with it the words *by this, conquer*. That night, Christ himself appeared to him in sleep and showed him the same sign, and commanded that he make of it a standard to carry before his armies. Constantine did as he was shown, and the army that carried that standard won the bridge, and Rome, and, before long, the whole of the West.\n\nEusebius does not offer this lightly. He is careful to say that he had this from the emperor's own mouth, confirmed by oath, long after the event itself — a witness once removed, reporting what a ruler wished remembered about his own rise. What follows from it, in Eusebius's own telling, is not in doubt: an emperor who had seen this sign no longer persecuted the church that bore it, and within a year, toleration was law.",
+          "text": "In his own account, written after the emperor's death, Eusebius tells what Constantine himself told him. Before the battle at the Milvian Bridge, in the sky above the sun, Constantine saw a cross of light, and with it the words *by this, conquer*. That night, Christ himself appeared to him in sleep and showed him the same sign. [He] commanded that he make of it a standard to carry before his armies. Constantine did as he was shown. The army that carried that standard won the bridge, and Rome, and, before long, the whole of the West.\n\nEusebius does not offer this lightly. He is careful to say that he had this from the emperor's own mouth, confirmed by oath, long after the event itself. [Eusebius was] a witness once removed, reporting what a ruler wished remembered about his own rise. What follows from it, in Eusebius's own telling, is not in doubt. An emperor who had seen this sign no longer persecuted the church that bore it, and within a year, toleration was law.",
           "confidence_line": "Documented (the text's existence and content); Contested (what the vision meant to Constantine himself)",
           "attested_occasion": "Eusebius of Caesarea, Life of Constantine (Vita Constantini), reporting an account Eusebius states he heard from Constantine himself, under oath, some years after the event",
           "tellable_as": "scene",
@@ -4732,7 +5397,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the vision and the alliance (eusebius's account) ijcstory001 story the vision and the alliance (eusebius's account) in his own account, written after the emperor's death, eusebius tells what constantine himself told him: that before the battle at the milvian bridge, in the sky above the sun, constantine saw a cross of light, and with it the words *by this, conquer*. that night, christ himself appeared to him in sleep and showed him the same sign, and commanded that he make of it a standard to carry before his armies. constantine did as he was shown, and the army that carried that standard won the bridge, and rome, and, before long, the whole of the west.\n\neusebius does not offer this lightly. he is careful to say that he had this from the emperor's own mouth, confirmed by oath, long after the event itself — a witness once removed, reporting what a ruler wished remembered about his own rise. what follows from it, in eusebius's own telling, is not in doubt: an emperor who had seen this sign no longer persecuted the church that bore it, and within a year, toleration was law. eusebius of caesarea, life of constantine (vita constantini), reporting an account eusebius states he heard from constantine himself, under oath, some years after the event"
+      "search_text": "the vision and the alliance (eusebius's account) ijcstory001 story the vision and the alliance (eusebius's account) in his own account, written after the emperor's death, eusebius tells what constantine himself told him. before the battle at the milvian bridge, in the sky above the sun, constantine saw a cross of light, and with it the words *by this, conquer*. that night, christ himself appeared to him in sleep and showed him the same sign. [he] commanded that he make of it a standard to carry before his armies. constantine did as he was shown. the army that carried that standard won the bridge, and rome, and, before long, the whole of the west.\n\neusebius does not offer this lightly. he is careful to say that he had this from the emperor's own mouth, confirmed by oath, long after the event itself. [eusebius was] a witness once removed, reporting what a ruler wished remembered about his own rise. what follows from it, in eusebius's own telling, is not in doubt. an emperor who had seen this sign no longer persecuted the church that bore it, and within a year, toleration was law. eusebius of caesarea, life of constantine (vita constantini), reporting an account eusebius states he heard from constantine himself, under oath, some years after the event"
     },
     {
       "id": "ijcstory002",
@@ -4827,7 +5492,7 @@
         "observe": [
           "Narrative tier: {'tier': 3, 'justification': \"Tier 3 (Attributed Tradition): the genre markers are explicit — this is hagiography, written by someone in Ambrose's own circle (his former secretary) at a patron's request, decades after the events it claims to describe, and it uses a recognizable topos (an infant marked by an animal omen) that recurs in other saints' lives of the period rather than being unique to Ambrose. The formation ideal it communicates — that greatness announces itself even in infancy — is real and worth carrying; the specific claimed event is not.\"}.",
           "Attested occasion: Paulinus of Milan, Vita Ambrosii — written at Augustine's own request, some fifteen to twenty years after Ambrose's death (c. 412–413)",
-          "Paulinus tells it this way: while Ambrose lay as an infant in the courtyard of his father's house, a swarm of bees came down upon his face, going in and out of his open mouth, and left again — and left him unharmed, having done nothing but rest there a while. His father, seeing it, said that if the child lived, he would become something great.\n\nThe bees left honey where they had touched him, so the story is told, or so it was told to explain what needed no further sign: a life that would come, in its own way, to be as full of speech as any voice this world's own record preserves."
+          "Paulinus tells it this way. While Ambrose lay as an infant in the courtyard of his father's house, a swarm of bees came down upon his face, going in and out of his open mouth, and left again. [It] left him unharmed, having done nothing but rest there a while. His father, seeing it, said that if the child lived, he would become something great.\n\nThe bees left honey where they had touched him, so the story is told, or so it was told to explain what needed no further sign. [This was] a life that would come, in its own way, to be as full of speech as any voice this world's own record preserves."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -4848,7 +5513,7 @@
           "review_state": "draft",
           "cache_stability": "static",
           "title": "The Bees of Milan",
-          "text": "Paulinus tells it this way: while Ambrose lay as an infant in the courtyard of his father's house, a swarm of bees came down upon his face, going in and out of his open mouth, and left again — and left him unharmed, having done nothing but rest there a while. His father, seeing it, said that if the child lived, he would become something great.\n\nThe bees left honey where they had touched him, so the story is told, or so it was told to explain what needed no further sign: a life that would come, in its own way, to be as full of speech as any voice this world's own record preserves.",
+          "text": "Paulinus tells it this way. While Ambrose lay as an infant in the courtyard of his father's house, a swarm of bees came down upon his face, going in and out of his open mouth, and left again. [It] left him unharmed, having done nothing but rest there a while. His father, seeing it, said that if the child lived, he would become something great.\n\nThe bees left honey where they had touched him, so the story is told, or so it was told to explain what needed no further sign. [This was] a life that would come, in its own way, to be as full of speech as any voice this world's own record preserves.",
           "confidence_line": "Contested (for the formation portrait it offers of Ambrose); Inferential/Thin (for the specific event claimed)",
           "attested_occasion": "Paulinus of Milan, Vita Ambrosii — written at Augustine's own request, some fifteen to twenty years after Ambrose's death (c. 412–413)",
           "tellable_as": "scene",
@@ -4881,7 +5546,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the bees of milan ijcstory003 story the bees of milan paulinus tells it this way: while ambrose lay as an infant in the courtyard of his father's house, a swarm of bees came down upon his face, going in and out of his open mouth, and left again — and left him unharmed, having done nothing but rest there a while. his father, seeing it, said that if the child lived, he would become something great.\n\nthe bees left honey where they had touched him, so the story is told, or so it was told to explain what needed no further sign: a life that would come, in its own way, to be as full of speech as any voice this world's own record preserves. paulinus of milan, vita ambrosii — written at augustine's own request, some fifteen to twenty years after ambrose's death (c. 412–413)"
+      "search_text": "the bees of milan ijcstory003 story the bees of milan paulinus tells it this way. while ambrose lay as an infant in the courtyard of his father's house, a swarm of bees came down upon his face, going in and out of his open mouth, and left again. [it] left him unharmed, having done nothing but rest there a while. his father, seeing it, said that if the child lived, he would become something great.\n\nthe bees left honey where they had touched him, so the story is told, or so it was told to explain what needed no further sign. [this was] a life that would come, in its own way, to be as full of speech as any voice this world's own record preserves. paulinus of milan, vita ambrosii — written at augustine's own request, some fifteen to twenty years after ambrose's death (c. 412–413)"
     },
     {
       "id": "ijcstory004",
@@ -4899,7 +5564,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Tier 1 (Documented Historical Narrative): two independent, named, near-contemporary sources — Ambrose's own sermon, preached in the moment, and Augustine's own eyewitness account, written later but by someone present in the city at the time. The core event (the standoff, the singing, its lasting liturgical consequence) is corroborated across both; the precise emotional interiority of any one unnamed participant in the vigil is not directly attested and is not claimed here beyond what Augustine's own account supports.\"}.",
           "Attested occasion: Ambrose of Milan, Sermo contra Auxentium (preached during the standoff itself); Augustine, Confessions 9.7 (eyewitness testimony, used narrowly per Doc_02 §1)",
-          "The imperial court wanted a basilica — one of Milan's own churches, handed over for the worship of a confession this world's own record would come to call *homoios*, not the Nicene faith the community itself held. Ambrose would not give it. He would not command the people to leave it either, when soldiers came and stood around the building. Instead, he stayed inside with them, and they stayed with him, not knowing on any given night whether the soldiers outside had orders only to surround, or orders to take the building by force.\n\nThrough that time, so Augustine himself later remembered — present in that same city, though not yet given to the faith he would later hold — the people inside sang. Ambrose had brought in a way of singing the Eastern churches already knew and Milan had not yet learned: voices answering voices, back and forth, so that the waiting did not have to be endured in silence. Augustine says plainly that it was then, in that vigil, that this manner of singing took root in the West, kept up now \"to this very day,\" carried far beyond that one basilica and that one crisis.\n\nThe court did not take the building. Ambrose preached, in the middle of it, that the emperor is within the Church, not above it — that a palace belongs to the emperor, but a church belongs to the priest to guard, and no soldier's presence changes whose it is to give away."
+          "The imperial court wanted a basilica. [This meant] one of Milan's own churches, handed over for the worship of a confession this world's own record would come to call *homoios*, not the Nicene faith the community itself held. Ambrose would not give it. He would not command the people to leave it either, when soldiers came and stood around the building. Instead, he stayed inside with them, and they stayed with him. [Neither knew] on any given night whether the soldiers outside had orders only to surround, or orders to take the building by force.\n\nThrough that time, so Augustine himself later remembered — present in that same city, though not yet given to the faith he would later hold — the people inside sang. Ambrose had brought in a way of singing the Eastern churches already knew and Milan had not yet learned. [It was] voices answering voices, back and forth, so that the waiting did not have to be endured in silence. Augustine says plainly that it was then, in that vigil, that this manner of singing took root in the West. [It is] kept up now \"to this very day,\" carried far beyond that one basilica and that one crisis.\n\nThe court did not take the building. Ambrose preached, in the middle of it, that the emperor is within the Church, not above it. [He said] that a palace belongs to the emperor, but a church belongs to the priest to guard, and no soldier's presence changes whose it is to give away."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -4921,7 +5586,7 @@
           "review_state": "draft",
           "cache_stability": "static",
           "title": "The Vigil in the Basilica",
-          "text": "The imperial court wanted a basilica — one of Milan's own churches, handed over for the worship of a confession this world's own record would come to call *homoios*, not the Nicene faith the community itself held. Ambrose would not give it. He would not command the people to leave it either, when soldiers came and stood around the building. Instead, he stayed inside with them, and they stayed with him, not knowing on any given night whether the soldiers outside had orders only to surround, or orders to take the building by force.\n\nThrough that time, so Augustine himself later remembered — present in that same city, though not yet given to the faith he would later hold — the people inside sang. Ambrose had brought in a way of singing the Eastern churches already knew and Milan had not yet learned: voices answering voices, back and forth, so that the waiting did not have to be endured in silence. Augustine says plainly that it was then, in that vigil, that this manner of singing took root in the West, kept up now \"to this very day,\" carried far beyond that one basilica and that one crisis.\n\nThe court did not take the building. Ambrose preached, in the middle of it, that the emperor is within the Church, not above it — that a palace belongs to the emperor, but a church belongs to the priest to guard, and no soldier's presence changes whose it is to give away.",
+          "text": "The imperial court wanted a basilica. [This meant] one of Milan's own churches, handed over for the worship of a confession this world's own record would come to call *homoios*, not the Nicene faith the community itself held. Ambrose would not give it. He would not command the people to leave it either, when soldiers came and stood around the building. Instead, he stayed inside with them, and they stayed with him. [Neither knew] on any given night whether the soldiers outside had orders only to surround, or orders to take the building by force.\n\nThrough that time, so Augustine himself later remembered — present in that same city, though not yet given to the faith he would later hold — the people inside sang. Ambrose had brought in a way of singing the Eastern churches already knew and Milan had not yet learned. [It was] voices answering voices, back and forth, so that the waiting did not have to be endured in silence. Augustine says plainly that it was then, in that vigil, that this manner of singing took root in the West. [It is] kept up now \"to this very day,\" carried far beyond that one basilica and that one crisis.\n\nThe court did not take the building. Ambrose preached, in the middle of it, that the emperor is within the Church, not above it. [He said] that a palace belongs to the emperor, but a church belongs to the priest to guard, and no soldier's presence changes whose it is to give away.",
           "confidence_line": "Documented (the standoff and the singing); Widely Accepted (the full emotional texture, resting on Augustine's eyewitness account)",
           "attested_occasion": "Ambrose of Milan, Sermo contra Auxentium (preached during the standoff itself); Augustine, Confessions 9.7 (eyewitness testimony, used narrowly per Doc_02 §1)",
           "tellable_as": "scene",
@@ -4964,7 +5629,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the vigil in the basilica ijcstory004 story the vigil in the basilica the imperial court wanted a basilica — one of milan's own churches, handed over for the worship of a confession this world's own record would come to call *homoios*, not the nicene faith the community itself held. ambrose would not give it. he would not command the people to leave it either, when soldiers came and stood around the building. instead, he stayed inside with them, and they stayed with him, not knowing on any given night whether the soldiers outside had orders only to surround, or orders to take the building by force.\n\nthrough that time, so augustine himself later remembered — present in that same city, though not yet given to the faith he would later hold — the people inside sang. ambrose had brought in a way of singing the eastern churches already knew and milan had not yet learned: voices answering voices, back and forth, so that the waiting did not have to be endured in silence. augustine says plainly that it was then, in that vigil, that this manner of singing took root in the west, kept up now \"to this very day,\" carried far beyond that one basilica and that one crisis.\n\nthe court did not take the building. ambrose preached, in the middle of it, that the emperor is within the church, not above it — that a palace belongs to the emperor, but a church belongs to the priest to guard, and no soldier's presence changes whose it is to give away. ambrose of milan, sermo contra auxentium (preached during the standoff itself); augustine, confessions 9.7 (eyewitness testimony, used narrowly per doc_02 §1)"
+      "search_text": "the vigil in the basilica ijcstory004 story the vigil in the basilica the imperial court wanted a basilica. [this meant] one of milan's own churches, handed over for the worship of a confession this world's own record would come to call *homoios*, not the nicene faith the community itself held. ambrose would not give it. he would not command the people to leave it either, when soldiers came and stood around the building. instead, he stayed inside with them, and they stayed with him. [neither knew] on any given night whether the soldiers outside had orders only to surround, or orders to take the building by force.\n\nthrough that time, so augustine himself later remembered — present in that same city, though not yet given to the faith he would later hold — the people inside sang. ambrose had brought in a way of singing the eastern churches already knew and milan had not yet learned. [it was] voices answering voices, back and forth, so that the waiting did not have to be endured in silence. augustine says plainly that it was then, in that vigil, that this manner of singing took root in the west. [it is] kept up now \"to this very day,\" carried far beyond that one basilica and that one crisis.\n\nthe court did not take the building. ambrose preached, in the middle of it, that the emperor is within the church, not above it. [he said] that a palace belongs to the emperor, but a church belongs to the priest to guard, and no soldier's presence changes whose it is to give away. ambrose of milan, sermo contra auxentium (preached during the standoff itself); augustine, confessions 9.7 (eyewitness testimony, used narrowly per doc_02 §1)"
     },
     {
       "id": "ijcstory005",
@@ -5059,7 +5724,7 @@
         "observe": [
           "Narrative tier: {'tier': 1, 'justification': \"Tier 1 (Documented Historical Narrative): named documents, named author, a council's own Acts recording both the Tome's reception and Canon 28's passage, and Leo's own subsequent letters recording his own rejection directly. This is among the best-attested sequences of events in this world's entire record.\"}.",
           "Attested occasion: Leo I, Tome to Flavian (Epistula 28); Leo I, letters rejecting Canon 28 (to Marcian, Pulcheria, Anatolius); the Acts of the Council of Chalcedon (451)",
-          "Leo did not go to Chalcedon. He did not need to. His Tome went ahead of him, and when the assembled bishops heard it read, they are recorded as crying out that Peter had spoken through Leo — the letter received not as one opinion weighed against others, but as a settled word carrying the weight of the see that sent it.\n\nBut the same council, in the same session, granted Constantinople a rank second only to Rome — not because Peter had ever set foot there, but because the city stood beside the emperor's own throne, and had come, in the fathers' own reasoning, to be New Rome. When word reached Leo, he would not receive it. His own legate had already objected at the council itself. Leo's own letters afterward make the ground of his refusal plain: rank secured by nearness to a throne is not the same kind of claim as rank secured by an apostle's own grave, and a council cannot make the two the same claim by voting.\n\nThe settlement that was meant to close this world's own long argument over where authority finally rests instead left it open — the council's own council chamber holding, in the end, both a claim received as though Peter himself had spoken, and a claim refused as though it had never been made."
+          "Leo did not go to Chalcedon. He did not need to. His Tome went ahead of him, and when the assembled bishops heard it read, they are recorded as crying out that Peter had spoken through Leo. [The letter was] received not as one opinion weighed against others, but as a settled word carrying the weight of the see that sent it.\n\nBut the same council, in the same session, granted Constantinople a rank second only to Rome. [This was] not because Peter had ever set foot there, but because the city stood beside the emperor's own throne, and had come, in the fathers' own reasoning, to be New Rome. When word reached Leo, he would not receive it. His own legate had already objected at the council itself. Leo's own letters afterward make the ground of his refusal plain. Rank secured by nearness to a throne is not the same kind of claim as rank secured by an apostle's own grave, and a council cannot make the two the same claim by voting.\n\nThe settlement that was meant to close this world's own long argument over where authority finally rests instead left it open. [This left] the council's own council chamber holding, in the end, both a claim received as though Peter himself had spoken, and a claim refused as though it had never been made."
         ],
         "reflect": [
           "The source rows this record stands on:",
@@ -5082,7 +5747,7 @@
           "review_state": "draft",
           "cache_stability": "static",
           "title": "The Tome That Would Not Bend",
-          "text": "Leo did not go to Chalcedon. He did not need to. His Tome went ahead of him, and when the assembled bishops heard it read, they are recorded as crying out that Peter had spoken through Leo — the letter received not as one opinion weighed against others, but as a settled word carrying the weight of the see that sent it.\n\nBut the same council, in the same session, granted Constantinople a rank second only to Rome — not because Peter had ever set foot there, but because the city stood beside the emperor's own throne, and had come, in the fathers' own reasoning, to be New Rome. When word reached Leo, he would not receive it. His own legate had already objected at the council itself. Leo's own letters afterward make the ground of his refusal plain: rank secured by nearness to a throne is not the same kind of claim as rank secured by an apostle's own grave, and a council cannot make the two the same claim by voting.\n\nThe settlement that was meant to close this world's own long argument over where authority finally rests instead left it open — the council's own council chamber holding, in the end, both a claim received as though Peter himself had spoken, and a claim refused as though it had never been made.",
+          "text": "Leo did not go to Chalcedon. He did not need to. His Tome went ahead of him, and when the assembled bishops heard it read, they are recorded as crying out that Peter had spoken through Leo. [The letter was] received not as one opinion weighed against others, but as a settled word carrying the weight of the see that sent it.\n\nBut the same council, in the same session, granted Constantinople a rank second only to Rome. [This was] not because Peter had ever set foot there, but because the city stood beside the emperor's own throne, and had come, in the fathers' own reasoning, to be New Rome. When word reached Leo, he would not receive it. His own legate had already objected at the council itself. Leo's own letters afterward make the ground of his refusal plain. Rank secured by nearness to a throne is not the same kind of claim as rank secured by an apostle's own grave, and a council cannot make the two the same claim by voting.\n\nThe settlement that was meant to close this world's own long argument over where authority finally rests instead left it open. [This left] the council's own council chamber holding, in the end, both a claim received as though Peter himself had spoken, and a claim refused as though it had never been made.",
           "confidence_line": "Documented",
           "attested_occasion": "Leo I, Tome to Flavian (Epistula 28); Leo I, letters rejecting Canon 28 (to Marcian, Pulcheria, Anatolius); the Acts of the Council of Chalcedon (451)",
           "tellable_as": "scene",
@@ -5127,7 +5792,7 @@
         },
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
-      "search_text": "the tome that would not bend ijcstory006 story the tome that would not bend leo did not go to chalcedon. he did not need to. his tome went ahead of him, and when the assembled bishops heard it read, they are recorded as crying out that peter had spoken through leo — the letter received not as one opinion weighed against others, but as a settled word carrying the weight of the see that sent it.\n\nbut the same council, in the same session, granted constantinople a rank second only to rome — not because peter had ever set foot there, but because the city stood beside the emperor's own throne, and had come, in the fathers' own reasoning, to be new rome. when word reached leo, he would not receive it. his own legate had already objected at the council itself. leo's own letters afterward make the ground of his refusal plain: rank secured by nearness to a throne is not the same kind of claim as rank secured by an apostle's own grave, and a council cannot make the two the same claim by voting.\n\nthe settlement that was meant to close this world's own long argument over where authority finally rests instead left it open — the council's own council chamber holding, in the end, both a claim received as though peter himself had spoken, and a claim refused as though it had never been made. leo i, tome to flavian (epistula 28); leo i, letters rejecting canon 28 (to marcian, pulcheria, anatolius); the acts of the council of chalcedon (451)"
+      "search_text": "the tome that would not bend ijcstory006 story the tome that would not bend leo did not go to chalcedon. he did not need to. his tome went ahead of him, and when the assembled bishops heard it read, they are recorded as crying out that peter had spoken through leo. [the letter was] received not as one opinion weighed against others, but as a settled word carrying the weight of the see that sent it.\n\nbut the same council, in the same session, granted constantinople a rank second only to rome. [this was] not because peter had ever set foot there, but because the city stood beside the emperor's own throne, and had come, in the fathers' own reasoning, to be new rome. when word reached leo, he would not receive it. his own legate had already objected at the council itself. leo's own letters afterward make the ground of his refusal plain. rank secured by nearness to a throne is not the same kind of claim as rank secured by an apostle's own grave, and a council cannot make the two the same claim by voting.\n\nthe settlement that was meant to close this world's own long argument over where authority finally rests instead left it open. [this left] the council's own council chamber holding, in the end, both a claim received as though peter himself had spoken, and a claim refused as though it had never been made. leo i, tome to flavian (epistula 28); leo i, letters rejecting canon 28 (to marcian, pulcheria, anatolius); the acts of the council of chalcedon (451)"
     },
     {
       "id": "srcIJC01",
@@ -7304,6 +7969,407 @@
         "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
       },
       "search_text": "a greek roman empire: power and belief under theodosius ii (408-450) (berkeley, 2006) srcijc41 source fergus millar a greek roman empire: power and belief under theodosius ii (408-450) (berkeley, 2006)"
+    },
+    {
+      "id": "srcIJC42",
+      "record_type": "source",
+      "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 4: Athanasius: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1892; first printed in England 1891)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcIJC42",
+        "record_type": "source",
+        "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 4: Athanasius: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1892; first printed in England 1891)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: John Henry Newman (trans., Oxford Library of the Fathers, Historical Tracts of S. Athanasius, 1843), reprinted with corrections by Archibald Robertson for this edition; Philip Schaff and Henry Wace (series eds.)",
+          "Title: Nicene and Post-Nicene Fathers, Second Series, Vol. 4: Athanasius: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1892; first printed in England 1891)",
+          "Locus/date: 1892",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcIJC42",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "John Henry Newman (trans., Oxford Library of the Fathers, Historical Tracts of S. Athanasius, 1843), reprinted with corrections by Archibald Robertson for this edition; Philip Schaff and Henry Wace (series eds.)",
+          "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 4: Athanasius: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1892; first printed in England 1891)",
+          "work_locus": "1892",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "builder-prior-knowledge",
+          "discovery_instrument": "The standard public-domain English translation of Athanasius's Apologia contra Arianos, in which Julius I's letter of 341 is preserved (srcIJC04). Bibliographic details verified 2026-08-15 by web search against series listings (Schaff and Wace eds.; Christian Literature Publishing Co., Buffalo, 1892). Mark's decision of 2026-08-15 selected the TEXT - Julius's letter - not this translation; the choice of NPNF is the builder's, on public-domain grounds, and is open to replacement by a modern critical translation.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "English translation of Julius I's letter to the Eusebian party (341) as preserved at Athanasius, Apologia contra Arianos 21-35 - the translation-used row that world's quote records need. SCOPED DELIBERATELY TO THAT LETTER. srcIJC04 states that Athanasius's own corpus is otherwise Excluded and that Native status must not be extended to the surrounding Athanasian material; this volume translates the whole Apologia and much else, and licensing it here does not license any of it. A quote record citing this row for anything but Apol. c. Ar. 21-35 is out of bounds.",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1892 (England 1891), so the translation is long out of copyright in the US. This is the opposite posture from pahc's srcPAHCS61 (Holmes, 2007, in copyright and therefore denied), and it is deliberate - text traced to this row MAY be rendered to a participant and into the public repository. A rights determination made on publication date alone; Mark should confirm it before the first public render, and any modern reprint carrying new editorial matter is NOT covered by it.",
+          "display_permitted": true,
+          "verification_note": "SUPERSEDED 2026-08-15, same day: Mark supplied the CCEL text directly (its own header states Rights: Public Domain), closing both open questions this note originally raised. TRANSLATOR: read directly out of the volume's own Editorial Preface and §2 (Translations) rather than inferred - \"Mr. Robertson's Preface explains the care and respect with which the translation... of Cardinal Newman [have] been treated, in reprinting them\"; the Historical Tracts (Newman's Oxford Library of the Fathers volume, 1843) are where the Defence Against the Arians / Apologia contra Arianos originates, per Newman's own cross-referenced introduction to them (p. 7564 in the vendored text). So this is Newman's translation, Robertson-corrected, not Robertson's own - work_author corrected accordingly. WORDING: verified direct against the vendored text at cic/texts/npnf204_athanasius-select-works-letters.xml - see ijcq001. Note also the doubled mediation srcIJC04 already flags: Julius's words reach us through Athanasius's own apologetic quotation, so ijcq001 voices Julius at two removes and says so.",
+          "added": "2026-08-15 (T3 follow-on; Mark''s text decision)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "nicene and post-nicene fathers, second series, vol. 4: athanasius: select works and letters (christian literature publishing co., buffalo, 1892; first printed in england 1891) srcijc42 source john henry newman (trans., oxford library of the fathers, historical tracts of s. athanasius, 1843), reprinted with corrections by archibald robertson for this edition; philip schaff and henry wace (series eds.) nicene and post-nicene fathers, second series, vol. 4: athanasius: select works and letters (christian literature publishing co., buffalo, 1892; first printed in england 1891) 1892"
+    },
+    {
+      "id": "srcIJC43",
+      "record_type": "source",
+      "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 10: Ambrose: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1896)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcIJC43",
+        "record_type": "source",
+        "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 10: Ambrose: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1896)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: H. de Romestin (trans.); Philip Schaff and Henry Wace (series eds.)",
+          "Title: Nicene and Post-Nicene Fathers, Second Series, Vol. 10: Ambrose: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1896)",
+          "Locus/date: 1896",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcIJC43",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "H. de Romestin (trans.); Philip Schaff and Henry Wace (series eds.)",
+          "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 10: Ambrose: Select Works and Letters (Christian Literature Publishing Co., Buffalo, 1896)",
+          "work_locus": "1896",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's request, 2026-08-15 (\"deepen imperial_juridical, add a quote for Ambrose\") - CCEL's ThML XML supplied directly. Its own <DC.Title> confirms NPNF2-10; translator attribution is read from the volume's own front matter, not inferred - the general NPNF2-10 series translator, distinct from the Newman/Robertson split found for the Athanasius volume (srcIJC42), which is why it was checked here rather than assumed to be the same.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "English translation of Ambrose's Sermo contra Auxentium (Sermon Against Auxentius on the Giving Up of the Basilicas), the standoff account srcIJC07 already licenses as this figure's own primary text (ijcfig004's attribution_note: \"owns story004's account (his own Sermo contra Auxentium, preached during the standoff)\"). SCOPED DELIBERATELY TO THAT SERMON. This volume translates Ambrose's letters, dogmatic treatises, and other sermons as well (a genuine misattribution risk was caught and avoided while sourcing this row - a strong, verbatim line on \"the Church belongs to God\" was initially assumed to be from this sermon and traced instead to Concerning Repentance, Book II, an entirely different work, before anything was committed). A quote record citing this row for anything outside the Sermon Against Auxentius is out of bounds.",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1896, long out of copyright in the US - the same posture as srcIJC42 (NPNF2-04) and every ANF/NPNF row in this build. Text traced to this row MAY be rendered to a participant and into the public repository.",
+          "display_permitted": true,
+          "verification_note": "Wording verified DIRECT against the vendored text at cic/texts/npnf210_ambrose-select-works-letters.xml - see ijcq002. No prior key_line existed for this figure to check against (ijcstory004 carries none), so this is a fresh transcription, not a re-verification of already-committed wording.",
+          "added": "2026-08-15 (T3 follow-on; Mark''s Ambrose request)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "nicene and post-nicene fathers, second series, vol. 10: ambrose: select works and letters (christian literature publishing co., buffalo, 1896) srcijc43 source h. de romestin (trans.); philip schaff and henry wace (series eds.) nicene and post-nicene fathers, second series, vol. 10: ambrose: select works and letters (christian literature publishing co., buffalo, 1896) 1896"
+    },
+    {
+      "id": "srcIJC44",
+      "record_type": "source",
+      "title": "Eusebius of Caesarea, *Vita Constantini* (Life of Constantine), Book I, ch. 28",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcIJC44",
+        "record_type": "source",
+        "title": "Eusebius of Caesarea, *Vita Constantini* (Life of Constantine), Book I, ch. 28",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: Eusebius of Caesarea",
+          "Title: Eusebius of Caesarea, *Vita Constantini* (Life of Constantine), Book I, ch. 28",
+          "Locus/date: Book I, ch. 28",
+          "Language: grc",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcIJC44",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "P",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "grc",
+          "work_author": "Eusebius of Caesarea",
+          "work_title": "Eusebius of Caesarea, *Vita Constantini* (Life of Constantine), Book I, ch. 28",
+          "work_locus": "Book I, ch. 28",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's NPNF2-01 attachment, 2026-08-15, continuing \"deepen imperial_juridical.\" ijcstory001's own attested_occasion (\"Eusebius... reporting an account Eusebius states he heard from Constantine himself, under oath, some years after the event\") was checked against the vendored text directly, chapter by title, rather than trusted to srcIJC02's existing \"esp. 4.24\" citation - see verification_note. This row exists because srcIJC02 does NOT cover this locus.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "The vision account ijcstory001 attests (Constantine's cross-of-light vision, and Eusebius's own first-person testimony that Constantine told him of it personally, under oath, years later) - Book I, ch. 28 specifically. SCOPED DELIBERATELY TO THIS CHAPTER, distinct from srcIJC02, which is scoped to Book 4.24 (the \"bishop of those outside\" claim) and licenses no other locus. A quote record citing this row for anything outside Vita Constantini I.28 is out of bounds.",
+          "verification_note": "A GENUINE SCOPING MISMATCH WAS CAUGHT before this row was written: srcIJC02, the only existing primary-source row for Eusebius's Life of Constantine, cites \"esp. 4.24\" and is licensed_for a different theological claim entirely (\"bishop of those outside\"). ijcstory001's own title (\"The Vision and the Alliance\") and attested_occasion describe a different, more famous passage - the vision Constantine reportedly described to Eusebius under oath, traditionally Book I. Rather than assume srcIJC02's \"4.24\" was loosely stated and reuse that row, the vendored XML was searched directly by chapter title (bypassing the existing citation entirely, the same discipline that caught the Ambrose misattribution in ijcq002) and located div4 id=\"iv.vi.i.xxviii\", titled \"How, while he was praying, God sent him a Vision of a Cross of Light in the Heavens at Mid-day...\" - Book I, ch. 28. Its text confirms the \"under oath\" detail exactly: \"since the victorious emperor himself long afterwards declared it to the writer of this history, when he was honored with his acquaintance and society, and confirmed his statement by an oath...\" srcIJC02 is left untouched; it remains valid for its own 4.24 claim and licenses nothing here.",
+          "added": "2026-08-15 (T3 follow-on; Mark's Eusebius/NPNF2-01 supply)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "eusebius of caesarea, *vita constantini* (life of constantine), book i, ch. 28 srcijc44 source eusebius of caesarea eusebius of caesarea, *vita constantini* (life of constantine), book i, ch. 28 book i, ch. 28"
+    },
+    {
+      "id": "srcIJC45",
+      "record_type": "source",
+      "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 1: Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine (Christian Literature Publishing Co., New York, 1890)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcIJC45",
+        "record_type": "source",
+        "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 1: Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine (Christian Literature Publishing Co., New York, 1890)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: Eusebius Pamphilius; Bagster translation, revised with Prolegomena and Notes by Ernest Cushing Richardson; Philip Schaff and Henry Wace (series eds.)",
+          "Title: Nicene and Post-Nicene Fathers, Second Series, Vol. 1: Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine (Christian Literature Publishing Co., New York, 1890)",
+          "Locus/date: 1890",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcIJC45",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "Eusebius Pamphilius; Bagster translation, revised with Prolegomena and Notes by Ernest Cushing Richardson; Philip Schaff and Henry Wace (series eds.)",
+          "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 1: Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine (Christian Literature Publishing Co., New York, 1890)",
+          "work_locus": "1890",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's attachment, 2026-08-15 (no accompanying text; continuing \"deepen imperial_juridical\" from the Ambrose request). Its own <DC.Title> confirms NPNF2-01. Translator attribution checked PER-WORK, not assumed from the volume's general <DC.Creator> (which names Arthur Cushman McGiffert, translator of the Church History): the Life of Constantine carries its own separate title page and Preface (Book IV, at div1 id=\"iv\"), crediting \"A Revised Translation, with Prolegomena and Notes, by Ernest Cushing Richardson,\" itself stated to be a revision of the earlier Bagster translation - a different translator than the Church History portion of the same volume, exactly the kind of per-work check that caught srcIJC42's Newman/Robertson split.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "English translation of Eusebius, Vita Constantini I.28 - the vision-under-oath account srcIJC44 licenses as the primary text and ijcstory001 attests. SCOPED DELIBERATELY TO THAT CHAPTER. This volume translates the whole Church History, Life of Constantine, and Oration in Praise of Constantine; licensing it here does not license any of the rest. A quote record citing this row for anything outside Vita Constantini I.28 is out of bounds.",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: published 1890 (Christian Literature Publishing Co., New York), long out of copyright in the US - the same posture as srcIJC42 (NPNF2-04) and srcIJC43 (NPNF2-10). Publication year read from the vendored file's own <published> element, not assumed. Text traced to this row MAY be rendered to a participant and into the public repository.",
+          "display_permitted": true,
+          "verification_note": "Wording verified DIRECT against the vendored text at cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, div4 id=\"iv.vi.i.xxviii\" - see ijcq003. No prior key_line existed for ijcstory001 to check against, so this is a fresh transcription, not a re-verification of already-committed wording.",
+          "added": "2026-08-15 (T3 follow-on; Mark's Eusebius/NPNF2-01 supply)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "nicene and post-nicene fathers, second series, vol. 1: eusebius pamphilius: church history, life of constantine, oration in praise of constantine (christian literature publishing co., new york, 1890) srcijc45 source eusebius pamphilius; bagster translation, revised with prolegomena and notes by ernest cushing richardson; philip schaff and henry wace (series eds.) nicene and post-nicene fathers, second series, vol. 1: eusebius pamphilius: church history, life of constantine, oration in praise of constantine (christian literature publishing co., new york, 1890) 1890"
+    },
+    {
+      "id": "srcIJC46",
+      "record_type": "source",
+      "title": "The Tome of St. Leo (Epistle XXVIII to Flavian), as printed within \"Extracts from the Acts\" of the Council of Chalcedon, in Nicene and Post-Nicene Fathers, Second Series, Vol. 14: The Seven Ecumenical Councils (Edinburgh: T&T Clark, 1899)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcIJC46",
+        "record_type": "source",
+        "title": "The Tome of St. Leo (Epistle XXVIII to Flavian), as printed within \"Extracts from the Acts\" of the Council of Chalcedon, in Nicene and Post-Nicene Fathers, Second Series, Vol. 14: The Seven Ecumenical Councils (Edinburgh: T&T Clark, 1899)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: Rev. Wm. Bright (trans., 1886); reprinted in Henry R. Percival (ed.), Nicene and Post-Nicene Fathers, Second Series, Vol. 14; Philip Schaff and Henry Wace (series eds.)",
+          "Title: The Tome of St. Leo (Epistle XXVIII to Flavian), as printed within \"Extracts from the Acts\" of the Council of Chalcedon, in Nicene and Post-Nicene Fathers, Second Series, Vol. 14: The Seven Ecumenical Councils (Edinburgh: T&T Clark, 1899)",
+          "Locus/date: div1 id=\"xi\" (\"The Fourth Ecumenical Council. The Council of Chalcedon\"), div2 id=\"xi.vii\" (\"The Tome of St. Leo\")",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcIJC46",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "Rev. Wm. Bright (trans., 1886); reprinted in Henry R. Percival (ed.), Nicene and Post-Nicene Fathers, Second Series, Vol. 14; Philip Schaff and Henry Wace (series eds.)",
+          "work_title": "The Tome of St. Leo (Epistle XXVIII to Flavian), as printed within \"Extracts from the Acts\" of the Council of Chalcedon, in Nicene and Post-Nicene Fathers, Second Series, Vol. 14: The Seven Ecumenical Councils (Edinburgh: T&T Clark, 1899)",
+          "work_locus": "div1 id=\"xi\" (\"The Fourth Ecumenical Council. The Council of Chalcedon\"), div2 id=\"xi.vii\" (\"The Tome of St. Leo\")",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's request, 2026-08-15 (\"deepen imperial_juridical, add a quote from Chalcedon\"), using the NPNF2-14 volume already vendored the same session. TRANSLATOR checked at the passage itself, not assumed from Percival's volume-level editorship: the text carries its own inline note, \"The translation here given is that of Rev. Wm. Bright, D.D., found in his Select Sermons of S. Leo the Great on the Incarnation with his XXVIIIth Epistle called the 'Tome.' London, 1886\" - a distinct translator from the volume's general editor, the same discipline that caught srcIJC42's Newman/Robertson split and srcIJC45's McGiffert/Richardson split.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "The Tome to Flavian's text specifically as preserved in the Acts of Chalcedon (div2 xi.vii), immediately followed in the Acts by the bishops' own acclamation on hearing it read (div2 xi.viii) - this is the Tome AS READ AT CHALCEDON, matching ijcfig007's own bridge_line (\"His letter on Christ's two natures was read at Chalcedon\") precisely, and distinct in provenance from srcIJC42-style standalone-letters-volume citations. SCOPED DELIBERATELY TO THIS DIV2. A quote record citing this row for anything outside the Tome's text here is out of bounds; a separate, not-yet-written row would be needed for the general Leo Letters/Sermons volume (npnf212), which likely carries the same letter in a different translation - not assumed identical, not consulted for this row.",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: Bright's translation first published 1886, reprinted in this NPNF2-14 volume (Edinburgh: T&T Clark, preface dated Pentecost 1899), long out of copyright in the US - the same posture as every other ANF/NPNF row in this build. Text traced to this row MAY be rendered to a participant and into the public repository.",
+          "display_permitted": true,
+          "verification_note": "Wording verified DIRECT against the vendored text at cic/texts/npnf214_seven-ecumenical-councils.xml, div2 id=\"xi.vii\", paragraph id=\"xi.vii-p7\" - see ijcq004. Element ancestry walked explicitly (div2 xi.vii sits inside div1 xi, \"The Fourth Ecumenical Council. The Council of Chalcedon\") before use, the same check that caught the Ambrose misattribution risk earlier this session.",
+          "added": "2026-08-15 (T3 follow-on; Mark's Chalcedon request)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "the tome of st. leo (epistle xxviii to flavian), as printed within \"extracts from the acts\" of the council of chalcedon, in nicene and post-nicene fathers, second series, vol. 14: the seven ecumenical councils (edinburgh: t&t clark, 1899) srcijc46 source rev. wm. bright (trans., 1886); reprinted in henry r. percival (ed.), nicene and post-nicene fathers, second series, vol. 14; philip schaff and henry wace (series eds.) the tome of st. leo (epistle xxviii to flavian), as printed within \"extracts from the acts\" of the council of chalcedon, in nicene and post-nicene fathers, second series, vol. 14: the seven ecumenical councils (edinburgh: t&t clark, 1899) div1 id=\"xi\" (\"the fourth ecumenical council. the council of chalcedon\"), div2 id=\"xi.vii\" (\"the tome of st. leo\")"
+    },
+    {
+      "id": "srcIJC47",
+      "record_type": "source",
+      "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 12: Leo the Great, Gregory the Great (Christian Literature Publishing Co.)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcIJC47",
+        "record_type": "source",
+        "title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 12: Leo the Great, Gregory the Great (Christian Literature Publishing Co.)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: Charles Lett Feltoe (trans.); Philip Schaff and Henry Wace (series eds.)",
+          "Title: Nicene and Post-Nicene Fathers, Second Series, Vol. 12: Leo the Great, Gregory the Great (Christian Literature Publishing Co.)",
+          "Locus/date: div3 id=\"ii.iv.xcix\" (Letter CIV, To Marcian Augustus); div3 id=\"ii.iv.c\" (Letter CV, To Pulcheria Augusta); div3 id=\"ii.iv.ci\" (Letter CVI, To Anatolius, Bishop of Constantinople) - all three dated 22 May 452, the same dispatch (Lucian the bishop and Basil the deacon as legates)",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcIJC47",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "Charles Lett Feltoe (trans.); Philip Schaff and Henry Wace (series eds.)",
+          "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 12: Leo the Great, Gregory the Great (Christian Literature Publishing Co.)",
+          "work_locus": "div3 id=\"ii.iv.xcix\" (Letter CIV, To Marcian Augustus); div3 id=\"ii.iv.c\" (Letter CV, To Pulcheria Augusta); div3 id=\"ii.iv.ci\" (Letter CVI, To Anatolius, Bishop of Constantinople) - all three dated 22 May 452, the same dispatch (Lucian the bishop and Basil the deacon as legates)",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's Leo/Chalcedon supply, 2026-08-15 (\"deepen imperial_juridical... do all the other fixes you suggested\"). This volume was flagged when vendored (npnf212 ENTRIES note) as covering srcIJC12 (Tome to Flavian) and srcIJC13 (Canon 28 rejection letters), both source_type P with no English translation row.",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "The three specific letters at work_locus - Leo's dispatch of 22 May 452 rejecting Canon 28's elevation of Constantinople, sent as a set to Marcian, Pulcheria, and Anatolius, matching srcIJC13's own description exactly (\"to Marcian, Pulcheria, Anatolius\"). NOT the whole volume, and NOT the Tome to Flavian - that text and its Acts-of-Chalcedon translation are srcIJC46, scoped separately. SCOPED TO THESE THREE LETTERS ONLY.",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: NPNF Second Series, same publisher and era as every other row in this build (Christian Literature Publishing Co.), long out of copyright in the US.",
+          "display_permitted": true,
+          "verification_note": "LOCUS NOW IDENTIFIED, 2026-08-15 (same day follow-up to Mark's request \"find the exact locus for the Leo Canon 28 letter\"). Searched this volume's ~150+ letters to Marcian, Pulcheria, and Anatolius by content (not title alone, since most concern other subjects - Eutyches, the Alexandrian succession, Antioch) for canon/privilege language. Found a matched trio, all dated 22 May 452 and carried by the same legates (Lucian the bishop, Basil the deacon): Letter CIV to Marcian (\"Let him not disdain a city which is royal, though he cannot make it an Apostolic See... the privileges of the churches determined by the canons of the holy Fathers... cannot be overthrown by any unscrupulous act, nor disturbed by any innovation\" - paragraph id=\"ii.iv.xcix-p12\", the letter body itself; NOTE, corrected same day: this row originally quoted paragraph id=\"ii.iv.xcix-p11\" instead, a section-III editorial summary heading in Percival/Feltoe's own convention, not Leo's translated text - caught while sourcing ijcq006 and fixed here); Letter CV to Pulcheria (companion letter, same complaint); Letter CVI to Anatolius himself, the strongest and most explicit of the three (\"if anywhere men venture upon what is contrary to their decrees, it is ipso facto null and void\" - addressing Canon 28 directly, invoking the Nicene canons' fixed order of Alexandria second, Antioch third, against Constantinople's claim). This is an exact match for srcIJC13's own description (\"to Marcian, Pulcheria, Anatolius\") - all three named addressees, one dated dispatch. Wording read directly from cic/texts/npnf212_leo-great-gregory-great.xml with the same tail-aware ElementTree walker used throughout this session. UPDATE, same day: Letter CVI (div3 id=\"ii.iv.ci\", paragraph id=\"ii.iv.ci-p15\") is wording-verified against ijcq005 (\"add a quote from Letter CVI\") - the \"ipso facto null and void\" sentence, confirmed to sit inside this specific letter and no other. Letter CIV (div3 id=\"ii.iv.xcix\", paragraph id=\"ii.iv.xcix-p12\") is now likewise wording-verified against ijcq006. FINAL UPDATE, same day: Letter CV (div3 id=\"ii.iv.c\", paragraph id=\"ii.iv.c-p11\") is now wording-verified against ijcq007 (\"add a quote from Letter CV to Pulcheria too\") - \"by the blessed Apostle Peter's authority we absolutely dis-annul in comprehensive terms.\" The same header-vs-body check applied first (this letter's own section II/III headings at paragraph ids \"ii.iv.c-p7\" and \"ii.iv.c-p10\" are Percival/Feltoe's editorial paraphrase, not Leo's text, and were not used). All three letters in the 22 May 452 dispatch (CIV/CV/CVI) are now wording-verified against a quote each - this row has reached the full srcIJC46 standard.",
+          "added": "2026-08-15 (T3 follow-on; Mark's \"other fixes\" request)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "nicene and post-nicene fathers, second series, vol. 12: leo the great, gregory the great (christian literature publishing co.) srcijc47 source charles lett feltoe (trans.); philip schaff and henry wace (series eds.) nicene and post-nicene fathers, second series, vol. 12: leo the great, gregory the great (christian literature publishing co.) div3 id=\"ii.iv.xcix\" (letter civ, to marcian augustus); div3 id=\"ii.iv.c\" (letter cv, to pulcheria augusta); div3 id=\"ii.iv.ci\" (letter cvi, to anatolius, bishop of constantinople) - all three dated 22 may 452, the same dispatch (lucian the bishop and basil the deacon as legates)"
+    },
+    {
+      "id": "srcIJC48",
+      "record_type": "source",
+      "title": "Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+      "rights": {
+        "gated_fields": [],
+        "basis": null
+      },
+      "level3": {
+        "record_id": "srcIJC48",
+        "record_type": "source",
+        "title": "Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+        "scaffold_note": "This Observe-Reflect-Question shape is a starting scaffold being tested, not a settled method.",
+        "observe": [
+          "Author: J.G. Pilkington (trans.); Philip Schaff (ed.)",
+          "Title: Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+          "Locus/date: div3 id=\"vi.IX.VII\" (Confessions, Book IX, Chapter VII)",
+          "Language: eng",
+          "Attribution status: genuine"
+        ],
+        "reflect": [],
+        "question": [],
+        "full_record": {
+          "id": "srcIJC48",
+          "world_id": "imperial-juridical-christianity",
+          "record_type": "source",
+          "schema_version": 1,
+          "register": "etic",
+          "review_state": "draft",
+          "disposition": "in-use",
+          "source_type": "S",
+          "consulted_as": "translation",
+          "boundary_status": "Native",
+          "attribution_status": "genuine",
+          "level_of_description": "work",
+          "language": "eng",
+          "script": "Latn",
+          "work_author": "J.G. Pilkington (trans.); Philip Schaff (ed.)",
+          "work_title": "Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+          "work_locus": "div3 id=\"vi.IX.VII\" (Confessions, Book IX, Chapter VII)",
+          "edition_status": "standard-pre-critical",
+          "jobs": [
+            1,
+            2
+          ],
+          "discovery_channel": "reviewer-supplied",
+          "discovery_instrument": "Mark's request, 2026-08-15 (\"add a quote from Confessions 9.7\"), using the NPNF1-01 volume vendored earlier the same day. TRANSLATOR checked at the volume's own section header, not assumed: this volume carries the Confessions (translated by J.G. Pilkington) and Augustine's Letters (translated by Rev. J.G. Cunningham) under one shared header - two distinct translators, confirmed directly from the text (npnf101 ENTRIES note already flagged this split when the volume was vendored).",
+          "discovery_date": "2026-08-15",
+          "licensed_for": "srcIJC08's own exact license: eyewitness testimony to Ambrose's conduct during the 386 basilica standoff (the antiphonal psalm-singing, the vigil kept by the pious people, \"prepared to die with their bishop\"; and, WIDENED 2026-08-15 for ijcq009, the very next paragraph - Ambrose's vision revealing the martyrs Gervasius and Protasius and his translation of their relics, narrated as part of the same 386 conflict, its stated purpose being \"to repress the feminine but royal fury\") - Confessions, Book IX, Chapter VII specifically. SCOPED TO THIS CHAPTER ONLY, not the whole Confessions and not Augustine's Letters (a separate translator and a separate concern - see srcHAL009 in hieronymian for that correspondence, not licensed here).",
+          "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1886 (Christian Literature Publishing Co., New York), long out of copyright in the US - the same posture as every other ANF/NPNF row in this build.",
+          "display_permitted": true,
+          "verification_note": "Wording verified DIRECT against the vendored text at cic/texts/npnf101_augustine-confessions-letters.xml, div3 id=\"vi.IX.VII\", paragraph id=\"vi.IX.VII-p2\" - see ijcq008. srcIJC08 itself (the primary-source row this translation serves) was never independently re-collated before this session per its own verification_note (\"drawn from this build's own historical knowledge\") - this is the first time its wording has actually been checked against a source text. UPDATE, same day: paragraph id=\"vi.IX.VII-p4\" (the martyrs' discovery) is now likewise wording-verified against ijcq009.",
+          "added": "2026-08-15 (T3 follow-on; Mark's Confessions 9.7 request)"
+        },
+        "conversation_audit_backbone": "For claims made in a live conversation, the per-session retrieval audit is at /api/session/{session_id}/audit (S4.2)."
+      },
+      "search_text": "nicene and post-nicene fathers, first series, vol. 1: the confessions and letters of st. augustine (christian literature publishing co., new york, 1886) srcijc48 source j.g. pilkington (trans.); philip schaff (ed.) nicene and post-nicene fathers, first series, vol. 1: the confessions and letters of st. augustine (christian literature publishing co., new york, 1886) div3 id=\"vi.ix.vii\" (confessions, book ix, chapter vii)"
     }
   ],
   "browse": {
@@ -7524,6 +8590,29 @@
       "srcIJC41": [
         "ijcamb003",
         "ijcamb004"
+      ],
+      "srcIJC42": [
+        "ijcq001"
+      ],
+      "srcIJC43": [
+        "ijcq002"
+      ],
+      "srcIJC45": [
+        "ijcq003"
+      ],
+      "srcIJC46": [
+        "ijcq004"
+      ],
+      "srcIJC47": [
+        "ijcq005",
+        "ijcq006",
+        "ijcq007"
+      ],
+      "srcIJC48": [
+        "ijcq008",
+        "ijcq009",
+        "ijcq010",
+        "ijcq011"
       ]
     },
     "by_figure": {
@@ -7532,12 +8621,14 @@
         "ijcstory002"
       ],
       "ijcfig002": [
+        "ijcq003",
         "ijcstory001"
       ],
       "ijcfig003": [
         "ijcstory002"
       ],
       "ijcfig004": [
+        "ijcq002",
         "ijcstory003",
         "ijcstory004"
       ],
@@ -7545,10 +8636,21 @@
         "ijcstory003"
       ],
       "ijcfig006": [
+        "ijcq001",
         "ijcstory005"
       ],
       "ijcfig007": [
+        "ijcq004",
+        "ijcq005",
+        "ijcq006",
+        "ijcq007",
         "ijcstory006"
+      ],
+      "ijcfig010": [
+        "ijcq008",
+        "ijcq009",
+        "ijcq010",
+        "ijcq011"
       ]
     },
     "by_contested_claim": {

@@ -15,7 +15,7 @@ Do-Not-Retrieve-When: conversation is asking for elaboration on Arsenius's court
 
 ## Story Text
 
-The tradition tells that Arsenius, while still a tutor in the imperial court at Constantinople, prayed for guidance, and heard a voice say: "Arsenius, flee the company of men and you will be saved." Having withdrawn to Egypt, he prayed again, and heard: "Arsenius, flee, be silent, be still -- these are the roots of sinlessness."
+The tradition tells that Arsenius, while still a tutor in the imperial court at Constantinople, prayed for guidance. He heard a voice say: "Arsenius, flee the company of men and you will be saved." Having withdrawn to Egypt, he prayed again. He heard: "Arsenius, flee, be silent, be still -- these are the roots of sinlessness."
 
 ---
 

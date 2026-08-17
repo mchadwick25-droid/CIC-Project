@@ -20,11 +20,11 @@ Do-Not-Retrieve-When: the World Capsule Core has already told this story this tu
 
 ## Story Text
 
-The imperial court wanted a basilica — one of Milan's own churches, handed over for the worship of a confession this world's own record would come to call *homoios*, not the Nicene faith the community itself held. Ambrose would not give it. He would not command the people to leave it either, when soldiers came and stood around the building. Instead, he stayed inside with them, and they stayed with him, not knowing on any given night whether the soldiers outside had orders only to surround, or orders to take the building by force.
+The imperial court wanted a basilica. [This meant] one of Milan's own churches, handed over for the worship of a confession this world's own record would come to call *homoios*, not the Nicene faith the community itself held. Ambrose would not give it. He would not command the people to leave it either, when soldiers came and stood around the building. Instead, he stayed inside with them, and they stayed with him. [Neither knew] on any given night whether the soldiers outside had orders only to surround, or orders to take the building by force.
 
-Through that time, so Augustine himself later remembered — present in that same city, though not yet given to the faith he would later hold — the people inside sang. Ambrose had brought in a way of singing the Eastern churches already knew and Milan had not yet learned: voices answering voices, back and forth, so that the waiting did not have to be endured in silence. Augustine says plainly that it was then, in that vigil, that this manner of singing took root in the West, kept up now "to this very day," carried far beyond that one basilica and that one crisis.
+Through that time, so Augustine himself later remembered — present in that same city, though not yet given to the faith he would later hold — the people inside sang. Ambrose had brought in a way of singing the Eastern churches already knew and Milan had not yet learned. [It was] voices answering voices, back and forth, so that the waiting did not have to be endured in silence. Augustine says plainly that it was then, in that vigil, that this manner of singing took root in the West. [It is] kept up now "to this very day," carried far beyond that one basilica and that one crisis.
 
-The court did not take the building. Ambrose preached, in the middle of it, that the emperor is within the Church, not above it — that a palace belongs to the emperor, but a church belongs to the priest to guard, and no soldier's presence changes whose it is to give away.
+The court did not take the building. Ambrose preached, in the middle of it, that the emperor is within the Church, not above it. [He said] that a palace belongs to the emperor, but a church belongs to the priest to guard, and no soldier's presence changes whose it is to give away.
 
 ---
 
@@ -51,3 +51,13 @@ Additional guidance specific to this story: this is a strong candidate for alway
 ## Final Assembly Instruction
 
 Completed per `L4-Templates/Story_Repository_Chunk_Template.md` V1.0. No brackets or builder notes remain. Tier/Confidence alignment confirmed.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field at
+FK grade 11.4 / FRE 61.8 - several long sentences joining multiple clauses at a dash or colon (the
+basilica demand, the vigil's uncertainty, the antiphonal singing, and Ambrose's own sermon). Per Mark's
+decision to extend the readability pass to story records, each sentence is split at its own existing
+dash or colon boundary, with four bracketed supplied subjects ("[This meant]", "[Neither knew]", "[It
+was]"/"[It is]", "[He said]") added where a resulting clause had no subject of its own. No fact, hedge,
+quotation, or attribution is dropped - the *homoios* confession, the standoff, Augustine's own eyewitness
+attribution and his "to this very day" quotation, and Ambrose's sermon are all unchanged. Re-scored: FK
+7.7 / FRE 72.2, clearing both thresholds.

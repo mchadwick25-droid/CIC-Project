@@ -10,7 +10,7 @@ Do-Not-Retrieve-When:Participant wants the abstract Origenism lexicon entry alon
 
 ## Story Text
 
-A friend once close enough to labor over the same Greek texts side by side became, in the end, the fiercest of opponents. The dispute concerned teachings associated with an earlier Alexandrian scholar, Origen — on whether souls existed before this life, on what the resurrected body actually is — teachings this household had absorbed, without quite noticing, from its own early formation. When the wider church turned decisively against those teachings, this household had to renounce them urgently and in public, and the friend who would not make the same renunciation as fully or as fast became, from then on, the target of some of this household's own harshest writing.
+A friend once close enough to work over the same Greek texts side by side became, in the end, the fiercest of opponents. The dispute concerned teachings linked to an earlier Alexandrian scholar, Origen. It turned on whether souls existed before this life, and on what the resurrected body actually is. These were teachings this household had absorbed, without quite noticing, from its own early formation. When the wider church turned firmly against those teachings, this household had to renounce them fast and in public. The friend who would not make the same renunciation as fully or as fast became, from then on, the target of some of this household's own harshest writing.
 
 ## Formation Ecology Connection
 

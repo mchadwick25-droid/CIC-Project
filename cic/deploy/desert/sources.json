@@ -3,7 +3,7 @@
   "world_id": "desert-monasticism",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "id_scheme": "record ids are stable within this repository (srcDES0nn; referenced by every record's sources[] rows)",
-  "source_count": 26,
+  "source_count": 28,
   "sources": [
     {
       "id": "srcDES001",
@@ -783,6 +783,66 @@
         "license": null,
         "display_permitted": null,
         "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcDES027",
+      "world_id": "desert-monasticism",
+      "work_author": "Rev. Edgar C. S. Gibson (trans., with prolegomena, prefaces, and notes); Philip Schaff and Henry Wace (series eds.)",
+      "work_title": "Nicene and Post-Nicene Fathers, Second Series, Vol. 11: The Works of John Cassian (Edinburgh: T&T Clark)",
+      "work_locus": null,
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "27",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's request, 2026-08-15 (\"deepen imperial_juridical... do all the other fixes you suggested\"), following up on the npnf211 ENTRIES note flagging that desert's srcDES026 (John Cassian, Latin primary source, never independently re-collated) had no English translation row. TRANSLATOR checked at the volume's own Cassian-specific title page, not assumed from the shared volume-level <DC.Creator> block (which also credits Sulpitius Severus and Vincent of Lerins as authors under one header): \"The Works of John Cassian. Translated, with prolegomena, prefaces, and notes, by Rev. Edgar C. S. Gibson\" - a distinct per-work credit, the same check that caught srcIJC42's and srcIJC45's translator splits.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: NPNF Second Series, same publisher/era as every other row in this build, long out of copyright in the US.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
+      }
+    },
+    {
+      "id": "srcDES028",
+      "world_id": "desert-monasticism",
+      "work_author": "W.K. Lowther Clarke (trans.)",
+      "work_title": "Palladius: The Lausiac History (Translations of Christian Literature, Series I: Greek Texts, Society for Promoting Christian Knowledge, 1918)",
+      "work_locus": null,
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "28",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's request, 2026-08-15, following the \"which CCEL resources would be essential\" question earlier the same day - Palladius's Lausiac History was identified as the strongest candidate to close srcDES007 (Greek original, no translation cited, cited load-bearingly across desert's search_record/story/ambient/force records). Supplied as an RTF file attachment (cic/texts/palladius_lausiac-history_clarke1918.txt, converted mechanically via the striprtf library, structural integrity confirmed by chapter-marker count).",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: Clarke's translation first published 1918 (SPCK), long out of copyright in the US. The source file itself carries no rights statement (an RTF compilation, not a CCEL page export), but it is drawn from Roger Pearse's \"morefathers\" collection, whose pages carry an explicit public-domain declaration (\"transcribed by Roger Pearse... all material on this page is in the public domain - copy freely\"), confirmed on the companion Doctrine of Addai page from the same collection supplied in the same conversation.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
       }
     }
   ]

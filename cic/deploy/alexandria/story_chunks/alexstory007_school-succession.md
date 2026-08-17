@@ -14,7 +14,9 @@ Do-Not-Retrieve-When: participant wants this offered as a settled, orderly insti
 
 ## Story Text
 
-The tradition kept of this world's teaching life names a line: Pantaenus, said to have come first, a former Stoic philosopher turned catechist; then Clement, who studied under him and took up the teaching after; then Origen, still a young man when he began, whose reputation as a teacher would come to eclipse every name before or after his; then Heraclas, once Origen's own student, who succeeded him; then Dionysius, who followed Heraclas and would go on to become bishop of the city. Told this way, it reads as an orderly handing-on, one teacher to the next, an institution with a memory of its own headship reaching back to the earliest Christian teaching in this city. This is how the tradition remembers itself, and it is worth telling for what it says about how much this world valued its own teaching lineage — that it kept the names at all, in order, across generations, says something true about what this community thought mattered.
+The tradition kept of this world's teaching life names a line of teachers. Pantaenus, a former Stoic philosopher turned catechist, is said to have come first. Clement studied under him and took up the teaching after. Origen was still a young man when he began, and his reputation as a teacher would come to eclipse every name before or after his. Heraclas, once Origen's own student, succeeded him. Dionysius followed Heraclas and would go on to become bishop of the city.
+
+Told this way, it reads as an orderly handing-on, one teacher to the next - an institution with a memory of its own headship reaching back to the earliest Christian teaching in this city. This is how the tradition remembers itself. It is worth telling for what it says about how much this world valued its own teaching lineage. That it kept the names at all, in order, across generations, says something true about what this community thought mattered.
 
 ---
 

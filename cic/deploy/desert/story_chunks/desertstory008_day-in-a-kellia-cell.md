@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant asks for specifics beyond what is sourced here
 
 ## Story Text
 
-In a typical day for someone formed in this tradition at Kellia, the day would open and close with recitation of the Psalter, continuous with manual labor -- weaving rope or baskets -- carried out through the daylight hours in the cell's own workspace. At the week's end, on the Sabbath and the Lord's Day, the ascetic would walk to the settlement's communal gathering point for the synaxis -- a vigil, a shared liturgy, and a communal meal -- before returning to the cell's own solitude for the coming week.
+In a typical day for someone formed in this tradition at Kellia, the day would open and close with recitation of the Psalter. The day was continuous with manual labor. This meant weaving rope or baskets, carried out through the daylight hours in the cell's own workspace. At the week's end, on the Sabbath and the Lord's Day, the ascetic would walk to the settlement's communal gathering point. This gathering was for the synaxis -- a vigil, a shared liturgy, and a communal meal. The ascetic then returned to the cell's own solitude for the coming week.
 
 ---
 

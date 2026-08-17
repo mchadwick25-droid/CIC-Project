@@ -10,7 +10,7 @@ Do-Not-Retrieve-When:Participant is asking about the general status category of 
 
 ## Story Text
 
-This is how the household remembers one widow among us: after the traveling scholar left Rome for good, clergy who could no longer bring their hardest scriptural questions to him began, instead, bringing them to her, in her own house, on her own authority. Even before he left, the household remembers her disputing his own answers — not to win an argument, the household says, but to learn. She never needed anyone's patronage to hold this standing; her own settled wealth was enough.
+This is how the household remembers one widow among us. After the traveling scholar left Rome for good, clergy who could no longer bring their hardest scriptural questions to him began, instead, bringing them to her, in her own house, on her own authority. Even before he left, the household remembers her disputing his own answers — not to win an argument, the household says, but to learn. She never needed anyone's patronage to hold this standing. Her own settled wealth was enough.
 
 ## Formation Ecology Connection
 

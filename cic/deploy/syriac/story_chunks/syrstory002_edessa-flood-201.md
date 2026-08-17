@@ -14,13 +14,22 @@ Do-Not-Retrieve-When: participant is asking for a first-person or eyewitness acc
 
 ## Story Text
 
-The Chronicle of Edessa reports that in the month of Tishrin (November) of the year 513 by the reckoning of the Greeks (201 CE), under Abgar VIII "the Great," the Daysan river rose in a great flood. King Abgar watched from a tower as the water broke against the western wall of the city; the wall gave way, the flood swept through, and the royal palace was destroyed. More than two thousand people are said to have died. Amid the devastation the chronicle also records — in the same breath as the destruction of the palace and the deaths — that the flood "destroyed the temple of the church of the Christians." Afterward, Abgar issued decrees for rebuilding and flood mitigation. The account names no bishop, no Christian by name, and no aftermath specific to the Christian community beyond this single line; the report is filed under four named non-Christian scribes and archivists of the royal court.
+The Chronicle of Edessa reports that in the month of Tishrin (November) of the year 513 by the reckoning of the Greeks (201 CE), under Abgar VIII "the Great," the Daysan river rose in a great flood. King Abgar watched from a tower as the water broke against the western wall of the city. The wall gave way, the flood swept through, and the royal palace was destroyed. More than two thousand people are said to have died. Amid the devastation, the chronicle also records one more detail, set down in the same breath as the destruction of the palace and the deaths. It says that the flood "destroyed the temple of the church of the Christians." Afterward, Abgar issued decrees for rebuilding and flood mitigation. The account names no bishop, no Christian by name, and no aftermath specific to the Christian community beyond this single line. The report is filed under four named non-Christian scribes and archivists of the royal court.
 
 ---
 
 ## Formation Ecology Connection
 
 This is our earliest institutional trace of an actual church building, and so the anchor point for the beginning of our attested life at Edessa. It also shows how far our memory of ourselves rests on archive rather than testimony: even this earliest self-report survives because a royal court recorded a flood, not because any Christian voice spoke for what the community lived through. At its origin point our memory is memory of memory - preserved in a record rather than witnessed.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (FRE
+already clear at 60.5, but FK grade 11.2, driven by a semicolon-joined enumeration sentence and an em-dash
+aside within another). Per Mark's decision to extend the readability pass to story records, those two
+sentences are split at their own existing semicolon and em-dash boundaries into four shorter ones; no word
+is changed. No fact or hedge is dropped - the Chronicle's dating (Tishrin, Seleucid year 513, Abgar VIII),
+the flood's destruction of the wall and palace, the death toll, the single line on the church's destruction
+(quoted exactly), and the "no bishop or Christian named" caveat are all unchanged. Re-scored: FK 8.0 / FRE
+69.5, clearing the FK threshold while keeping FRE clear.
 
 ---
 

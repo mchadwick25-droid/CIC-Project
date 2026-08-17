@@ -14,7 +14,9 @@ Do-Not-Retrieve-When: participant is asking what this world's own 200-410 record
 
 ## Story Text
 
-In his memorial homily on Ephrem, composed roughly a century and a quarter after Ephrem's death, Jacob of Serugh remembers that Ephrem, seeing the people drawn toward the songs of Bardaisan and Mani, gathered the daughters of the covenant and taught them to sing psalms and hymns of true doctrine in the same manner — turning the very form his rivals had used to spread error into the vehicle for teaching the orthodox faith instead. In Jacob's memory, it is by this means, sung by these women in the churches, that Ephrem's own teaching reached the ears and hearts of the whole city, women and men alike.
+Jacob of Serugh wrote a memorial homily on Ephrem, composed roughly a century and a quarter after Ephrem's death. In it, Jacob remembers that Ephrem saw the people being drawn toward the songs of Bardaisan and Mani. So Ephrem gathered the daughters of the covenant and taught them to sing psalms and hymns of true doctrine in the same manner. He turned the very form his rivals had used to spread error into a way of teaching the true faith instead.
+
+In Jacob's memory, it was by this means - sung by these women in the churches - that Ephrem's own teaching reached the ears and hearts of the whole city, women and men alike.
 
 ---
 

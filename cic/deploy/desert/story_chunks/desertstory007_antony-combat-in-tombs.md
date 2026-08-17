@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking for documented history rather than t
 
 ## Story Text
 
-This is how the tradition remembers Antony's own struggle -- what it believed total combat against the interior enemy could involve. Athanasius portrays Antony shutting himself in an abandoned tomb for solitary combat, where he is assailed by demons taking the form of beasts, beating him nearly to death, and later by a vision of demons in the shape of wild animals filling the tomb entirely. Antony is portrayed emerging from these confrontations progressively strengthened rather than destroyed, until at last a vision of light comes to him, understood as divine aid arriving only once his own struggle had been sufficiently proven.
+This is how the tradition remembers Antony's own struggle. It shows what the tradition believed total combat against the interior enemy could involve. Athanasius portrays Antony shutting himself in an abandoned tomb for solitary combat. There, demons in the form of beasts assail him. They beat him nearly to death. Later, he has a vision of demons in the shape of wild animals filling the tomb entirely. Antony is portrayed emerging from these clashes stronger each time, not destroyed. At last a vision of light comes to him. This is understood as divine aid, arriving only once his own struggle had been proven enough.
 
 ---
 

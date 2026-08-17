@@ -14,13 +14,21 @@ Do-Not-Retrieve-When: participant asks whether Ephrem himself performed this mir
 
 ## Story Text
 
-During one of the Persian sieges of Nisibis, with Shapur II's army encamped against the walls, Ephrem urged the aged bishop Jacob to climb the ramparts and look out upon the besieging army — to let his prayer, not the city's own strength, be its defense. Jacob consented, mounted a tower, and looking upon the Persian camp asked God to send not death upon them, but the smallest of afflictions: mosquitoes and gnats. The insects came upon the Persian camp in such numbers that the men and even the elephants and horses could not bear it, and the army broke camp and withdrew, Shapur himself reportedly deceived into believing a kingly figure on the battlements to be the Roman emperor. Ephrem, who did not himself perform the deliverance, went on to commemorate it afterward in verse, in the hymns of his Carmina Nisibena.
+During one of the Persian sieges of Nisibis, Shapur II's army was encamped against the walls. Ephrem urged the aged bishop Jacob to climb the ramparts and look out upon the besieging army. His prayer, not the city's own strength, was to be its defense. Jacob consented and mounted a tower. Looking upon the Persian camp, he asked God to send not death upon them, but the smallest of afflictions: mosquitoes and gnats. The insects came upon the Persian camp in such numbers that the men and even the elephants and horses could not bear it. The army broke camp and withdrew. Shapur himself was reportedly deceived into believing a kingly figure on the battlements to be the Roman emperor. Ephrem did not himself perform the deliverance. He went on to commemorate it afterward in verse, in the hymns of his Carmina Nisibena.
 
 ---
 
 ## Formation Ecology Connection
 
 This gives narrative shape to how we remember surviving on a contested frontier. Nisibis held an unstable third position: fought over through the third century, fixed as Roman only from 298, and given up to Persia in 363. The sieges themselves are not something our record holds as a single named pressure; this story is the nearest thing to it. It also shows the teaching role this world actually knows - one who urges, and later sings of deliverance, rather than a bishop who acts with singular authority. Ephrem's place in the story is exactly that.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (four
+long sentences stacking multiple clauses joined by commas and "and") at FK grade 16.0 / FRE 43.9. Per Mark's
+decision to extend the readability pass to story records, the four sentences are split into nine shorter
+ones along their own existing clause boundaries; no word is changed. No fact or role is dropped - Ephrem's
+urging (not performing) the miracle, Jacob's prayer from the tower, the request for mosquitoes and gnats
+rather than death, the army's withdrawal, Shapur's reported deception, and Ephrem's later hymn commemoration
+in the Carmina Nisibena are all unchanged. Re-scored: FK 7.6 / FRE 65.7, clearing both thresholds.
 
 ---
 

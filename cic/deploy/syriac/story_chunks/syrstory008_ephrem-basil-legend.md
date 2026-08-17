@@ -14,13 +14,23 @@ Do-Not-Retrieve-When: general questions about Ephrem's life, diaconate, or forma
 
 ## Story Text
 
-The later Syriac Vita Ephraemi tells that Ephrem, prompted by a vision, journeyed to Caesarea in Cappadocia to meet the great bishop Basil, that Basil received him with honor, recognized his sanctity though Ephrem spoke no Greek and Basil no Syriac, and that it was Basil himself who ordained Ephrem to the diaconate during this visit.
+The later Syriac Vita Ephraemi tells that Ephrem, prompted by a vision, traveled to Caesarea in Cappadocia to meet the great bishop Basil. Basil received him with honor. He recognized Ephrem as holy, even though Ephrem spoke no Greek and Basil spoke no Syriac. It was Basil himself, the Vita says, who ordained Ephrem as a deacon during this visit.
 
 ---
 
 ## Formation Ecology Connection
 
 This story does not belong to this world's own attested formation ecology as a plausible historical event, and is included here specifically as a documented case of legendary conflation rather than as evidence of anything this world's own formation logic produced. It is retained in this repository — rather than simply omitted — because it is a well-known and often-repeated piece of later tradition about this world's central figure, and because this project's own discipline requires naming what should not be told as fact just as carefully as it documents what may be.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (one
+60-word sentence stacking three "that" clauses under a single verb, "tells") at FK grade 25.0 / FRE 15.5.
+Per Mark's decision to extend the readability pass to story records, the sentence is split into four
+shorter ones along its own existing three-clause structure (the journey, the reception, the ordination),
+plus two plain-synonym swaps ("journeyed"->"traveled", "ordained... to the diaconate"->"ordained... as a
+deacon"). The legendary status, the vision prompt, the language barrier, and the ordination claim are all
+still present and unchanged - this record's whole point (a legend later positively traced to mistaken
+identity, per the Tier Justification above) is untouched. Re-scored: FK 8.4 / FRE 61.9, clearing both
+thresholds.
 
 ---
 

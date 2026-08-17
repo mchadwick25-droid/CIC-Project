@@ -3,7 +3,7 @@
   "world_id": "hieronymian-ascetic-literary",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "id_scheme": "record ids are stable within this repository (srcHAL0nn; referenced by every record's sources[] rows)",
-  "source_count": 26,
+  "source_count": 27,
   "sources": [
     {
       "id": "srcHAL001",
@@ -783,6 +783,36 @@
         "license": null,
         "display_permitted": null,
         "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcHAL027",
+      "world_id": "hieronymian-ascetic-literary",
+      "work_author": "Rev. J.G. Cunningham (trans.); Philip Schaff (ed.)",
+      "work_title": "Nicene and Post-Nicene Fathers, First Series, Vol. 1: The Confessions and Letters of St. Augustine (Christian Literature Publishing Co., New York, 1886)",
+      "work_locus": "div3 id=\"vii.1.LXXV\" (Letter LXXV, \"From Jerome\" - Jerome's own letter, catalogued within Augustine's collected correspondence under his numbering; Jerome's own numbering for the same letter is Ep. 112, per srcHAL009's own cross-reference)",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "27",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's request, 2026-08-15 (\"add a quote from Letter LXXV to close srcHAL009\"), using NPNF1-01 (vendored the same day for imperial_juridical's srcIJC08). TRANSLATOR checked at this volume's own section header, not assumed: Rev. J.G. Cunningham translated Augustine's Letters section (distinct from J.G. Pilkington, who translated the Confessions in the same volume - the same per-work check that closed srcIJC48).",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1886 (Christian Literature Publishing Co., New York), long out of copyright in the US - the same posture as every ANF/NPNF row in this build.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
       }
     }
   ]

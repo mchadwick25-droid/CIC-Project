@@ -10,9 +10,9 @@ Do-Not-Retrieve-When: Participant needs the fuller, higher-stakes correspondence
 
 ## Story Text
 
-In his letter to the Philippians, Polycarp — who names himself only as "one of the presbyters," not as bishop, though later tradition remembers him as Smyrna's bishop — tells the Philippian church that he is sending them, at their own request, the collected letters of Ignatius that Polycarp's community had gathered. "The letters of Ignatius which he sent to us, and any others we had by us, we have sent to you, as you requested," he writes, "from which you will be able to derive great advantage."
+In his letter to the Philippians, Polycarp tells the Philippian church that he is sending them the collected letters of Ignatius. Polycarp's community had gathered these letters, and now sent them at the Philippians' own request. Polycarp names himself only as "one of the presbyters," not as bishop, though later tradition remembers him as Smyrna's bishop. "The letters of Ignatius which he sent to us, and any others we had by us, we have sent to you, as you requested," he writes, "from which you will be able to derive great advantage."
 
-It is a small, practical act, described in a single line, but it tells us something no larger claim could: that letters moved between named individuals, at specific requests, and that at least one community made a point of collecting and preserving them for others.
+It is a small, practical act, described in a single line. But it tells us something no larger claim could: that letters moved between named individuals, at specific requests. At least one community made a point of collecting and keeping them for others.
 
 ## Formation Ecology Connection
 

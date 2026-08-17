@@ -16,7 +16,7 @@ Do-Not-Retrieve-When: participant asks for a fuller corpus of named ammas' own s
 
 ## Story Text
 
-The tradition tells that when some elder monks came to Amma Sarah intending to test or humble her, saying, "Be careful not to become conceited, thinking to yourself, 'Look, anchorites are coming to see me, a mere woman,'" she answered: "According to nature I am a woman, but not according to my thoughts. It is I who am a man and you who are women."
+The tradition tells that some elder monks came to Amma Sarah intending to test or humble her. [They] said, "Be careful not to become conceited, thinking to yourself, 'Look, anchorites are coming to see me, a mere woman.'" She answered: "According to nature I am a woman, but not according to my thoughts. It is I who am a man and you who are women."
 
 ---
 

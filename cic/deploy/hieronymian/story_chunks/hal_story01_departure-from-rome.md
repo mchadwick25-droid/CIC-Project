@@ -10,7 +10,7 @@ Do-Not-Retrieve-When:Participant is asking specifically about the 384-385 Rome c
 
 ## Story Text
 
-In his letter to Eustochium, written to mark her mother's death, the scholar among us records the journey plainly: how he himself left Rome first, in the month named for the harvest, and how Paula and her daughter followed within a month, sailing from the port below the city. He tells of the stop at Cyprus, where the bishop there received them; of the slower road through Antioch and down into Palestine and Egypt; of Nitria, where a bishop and countless monks came out to meet them, and where Paula wished, and was refused, to stay among them rather than press on toward the Holy Land. He tells us she turned back toward Jerusalem instead, and that from there the household settled at last near Bethlehem, by the cave where the Lord was born.
+In his letter to Eustochium, written to mark her mother's death, the scholar among us records the journey plainly. He left Rome first, in the month named for the harvest. Paula and her daughter followed within a month, sailing from the port below the city. He tells of the stop at Cyprus, where the bishop there received them. He tells of the slower road through Antioch and down into Palestine and Egypt. He tells of Nitria, where a bishop and countless monks came out to meet them, and where Paula wished, and was refused, to stay among them rather than press on toward the Holy Land. He tells us she turned back toward Jerusalem instead, and that from there the household settled at last near Bethlehem, by the cave where the Lord was born.
 
 ## Formation Ecology Connection
 

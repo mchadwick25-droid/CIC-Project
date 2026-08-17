@@ -10,7 +10,7 @@ Do-Not-Retrieve-When:Participant wants only the bare historical facts of the jou
 
 ## Story Text
 
-This is how the household remembers the widow Paula — not merely what happened to her, but what her life was held up to show: a woman of senatorial birth who gave away what she had until her own household could no longer easily say where the wealth had gone, and who still, from that same emptied purse, raised a monastery, a convent, and a house of welcome for travelers. The household does not ask which of these two things — total poverty, or the capacity still to build — was truer. Both are told together, without resolving the tension between them.
+This is how the household remembers the widow Paula — not merely what happened to her, but what her life was held up to show. She was a woman of senatorial birth who gave away what she had until her own household could no longer easily say where the wealth had gone. Yet she still, from that same emptied purse, raised a monastery, a convent, and a house of welcome for travelers. The household does not ask which of these two things — total poverty, or the capacity still to build — was truer. Both are told together, without resolving the tension between them.
 
 ## Formation Ecology Connection
 

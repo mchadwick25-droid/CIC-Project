@@ -3,7 +3,7 @@
   "world_id": "post-apostolic-house-church",
   "generated_by": "cic/engine/build_repository.py - regenerate, never hand-edit",
   "id_scheme": "record ids are stable within this repository (srcPAHCnnn; referenced by every record's sources[] rows)",
-  "source_count": 76,
+  "source_count": 79,
   "sources": [
     {
       "id": "srcPAHCP01",
@@ -193,7 +193,7 @@
       "work_locus": "c.111-113 CE",
       "edition": null,
       "translation": null,
-      "language": "grc",
+      "language": "lat",
       "script": "Grek",
       "source_type": "M",
       "attribution_status": "genuine",
@@ -223,7 +223,7 @@
       "work_locus": "written c.116 CE, describing 64 CE",
       "edition": null,
       "translation": null,
-      "language": "grc",
+      "language": "lat",
       "script": "Grek",
       "source_type": "M",
       "attribution_status": "genuine",
@@ -433,7 +433,7 @@
       "work_locus": "c.197 CE, Carthage",
       "edition": null,
       "translation": null,
-      "language": "grc",
+      "language": "lat",
       "script": "Grek",
       "source_type": "M",
       "attribution_status": "genuine",
@@ -2283,6 +2283,96 @@
         "license": null,
         "display_permitted": null,
         "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcPAHCS61",
+      "world_id": "post-apostolic-house-church",
+      "work_author": "Michael W. Holmes (ed. and trans.)",
+      "work_title": "The Apostolic Fathers: Greek Texts and English Translations (3rd ed., Baker Academic, 2007)",
+      "work_locus": "2007",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "61",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "reviewer-supplied",
+        "instrument": "Mark's edition decision, 2026-08-15 (\"use Holmes for the Apostolic Fathers\"), taken as the standing choice of English rendering for this world's Apostolic-Fathers texts. Bibliographic details verified the same day by web search against publisher and bookseller listings (Baker Academic; ISBN 9780801034688; 3rd edition, 2007; Greek/Latin and English on facing pages) - the VOLUME ITSELF has not been consulted, and no wording has been checked against it. See verification_note.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "In copyright: Baker Academic, 2007. display_permitted is deliberately left UNSET, which the repository builder treats as DENIED (fail-closed, FLAG-013) - the same posture as desert's srcDES021 (Ward, 1975). Quote text traced to this edition may be compared internally by the grounding checks but must not be rendered to a participant or into the public repository unless permission is obtained and recorded here.",
+        "license": null,
+        "display_permitted": null,
+        "note": "unstated - treated as not permitted for public full-text display (FLAG-013 fail-closed)"
+      }
+    },
+    {
+      "id": "srcPAHCS62",
+      "world_id": "post-apostolic-house-church",
+      "work_author": "Alexander Roberts and James Donaldson (eds. and trans.); A. Cleveland Coxe (American edition)",
+      "work_title": "Ante-Nicene Fathers, Vol. 1: The Apostolic Fathers with Justin Martyr and Irenaeus (Christian Literature Publishing Co., Buffalo, 1885)",
+      "work_locus": "1885",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "62",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": "The standard public-domain English translation of this world's Apostolic-Fathers texts. Selected 2026-08-15 after Mark's constraint that the project runs on free tools with no budget, which put srcPAHCS61 (Holmes, 2007, in copyright) out of reach. Bibliographic details verified the same day by web search against series listings (Roberts and Donaldson eds.; Christian Literature Publishing Co., Buffalo, 1885; contents: Clement, Mathetes, Polycarp, Ignatius, Barnabas, Papias, Justin Martyr, Irenaeus). The volume itself has not been consulted - see verification_note.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN, and display_permitted is set true on that basis: first published 1885, long out of copyright in the US. This is why the switch away from Holmes is not purely a budget concession - text traced to THIS row MAY be rendered to a participant and into the public repository, where Holmes (in copyright) stays denied. A rights determination made on publication date alone; Mark should confirm it before the first public render, and modern reprints carrying new editorial matter are not covered by it.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
+      }
+    },
+    {
+      "id": "srcPAHCS63",
+      "world_id": "post-apostolic-house-church",
+      "work_author": "Isaac H. Hall and John T. Napier (trans.), as republished with minor editorial changes by M. B. Riddle; in: Ante-Nicene Fathers, Vol. 7 (Roberts and Donaldson eds.; A. Cleveland Coxe, American ed.; Christian Literature Publishing Co., Buffalo, 1886)",
+      "work_title": "The Teaching of the Twelve Apostles (The Didache) - translation first published in the Sunday-School Times (Philadelphia), April 12, 1884, republished by permission in ANF vol. 7",
+      "work_locus": "1884/1886",
+      "edition": null,
+      "translation": null,
+      "language": "eng",
+      "script": "Latn",
+      "source_type": "S",
+      "attribution_status": "genuine",
+      "external_ids": [],
+      "transmission_path": null,
+      "field_state": null,
+      "registry_row": "63",
+      "confidence": null,
+      "boundary_status": "Native",
+      "discovery": {
+        "channel": "builder-prior-knowledge",
+        "instrument": "This world's only Didache source (srcPAHCP01) named a translation gap at T3-D/E: srcPAHCS62 (ANF vol. 1) explicitly does not cover the Didache, which was published too late for that volume and appears instead in ANF vol. 7. Mark supplied vol. 7's CCEL text 2026-08-15. The specific translator credit - Hall and Napier, not the volume's general editors - was read directly out of the volume's own introductory notice to the Teaching, the same care taken with the Ignatius recension question on srcPAHCS62's quotes: a volume covering many authors does not have one uniform translator.",
+        "date": "2026-08-15"
+      },
+      "rights": {
+        "rights_status": "PUBLIC DOMAIN: the underlying 1884 translation and its 1886 republication are both long out of copyright in the US. display_permitted is set true on that basis, the same posture as srcPAHCS62 (ANF vol. 1) and for the same reason.",
+        "license": null,
+        "display_permitted": true,
+        "note": null
       }
     }
   ]

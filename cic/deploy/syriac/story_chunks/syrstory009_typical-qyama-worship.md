@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant asks about a specific, named historical worshi
 
 ## Story Text
 
-Before dawn, those bound by the qyama — men and women who have taken the vow, unmarried, living among their own kin rather than apart from them — gather for the vigil. Among them stands a choir of bnat qyama, the daughters of the covenant, set apart within the gathering as the ones who will sing the madrashe. When the hymn is raised, it is not an ornament set beside the teaching but the teaching itself, carried on the tune — a way of hearing Scripture and the created world as bound to the truth they signify, not standing apart from it as mere illustration. The Gospel read and expounded this morning is not four books held side by side, but the one continuous story of the Diatessaron, so that what the gathered community receives is a single unfolding narrative rather than four witnesses to be reconciled. The feast kept this season is the Nativity and the appearing of the Lord together, in one observance, not yet divided as they will be in later years. The qyama members keep their fast, hold their watch, and return to their ordinary households after — their askesis a discipline lived in the midst of the town, not apart from it.
+Before dawn, those bound by the qyama gather for the vigil. They are men and women who have taken the vow. They are unmarried, and they live among their own kin rather than apart from them. Among them stands a choir of bnat qyama, the daughters of the covenant. They are set apart within the gathering as the ones who will sing the madrashe. When the hymn is raised, it is not an ornament set beside the teaching. It is the teaching itself, carried on the tune. It is a way of hearing Scripture and the created world as bound to the truth they signify, not standing apart from it as mere illustration. The Gospel read and expounded this morning is not four books held side by side. It is the one continuous story of the Diatessaron. So the gathered community receives a single unfolding narrative rather than four witnesses to be reconciled. The feast kept this season is the Nativity and the appearing of the Lord together, in one observance. They are not yet divided, as they will be in later years. The qyama members keep their fast, hold their watch, and return to their ordinary households after. Their askesis is a discipline lived in the midst of the town, not apart from it.
 
 ---
 
@@ -54,3 +54,12 @@ The Representative may narrate this as typical practice, with the reconstruction
 
 **Element:** The combined Nativity-Epiphany observance kept at Nisibis in Ephrem's own lifetime, prior to the later separation of the two feasts.
 **Source:** Edmund Beck's finding (used to identify later inauthentic material in the Ephrem corpus), per Doc_02, Section 3, and Doc_05, Section 3.1. This detail is specific to pre-363 Nisibis and is not generalized to Edessa or to the Persian-side community in this reconstruction.
+
+UPDATE 2026-08-16 (T3 readability follow-on): gate_voice_readability flagged the original text field (six
+long sentences, several stacking appositives and em-dash asides) at FK grade 14.6 / FRE 50.4. Per Mark's
+decision to extend the readability pass to story records, the sentences are split into fourteen shorter
+ones along their own existing clause and appositive boundaries; no word is changed. No composite element
+is dropped - the qyama vow, the bnat qyama choir, the raza/shrara hermeneutic carried in the hymn, the
+Diatessaron as the single continuous Gospel, the combined Nativity-Epiphany feast, and the qyama members'
+return to ordinary households afterward are all unchanged, as is the "typical, not a specific occasion"
+framing. Re-scored: FK 6.7 / FRE 72.7, clearing both thresholds.

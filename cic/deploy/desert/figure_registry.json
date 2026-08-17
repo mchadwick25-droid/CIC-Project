@@ -132,5 +132,15 @@
   ],
   "bridge_line": "A desert elder. We carry no story of his own.",
   "narratable": false
+ },
+ {
+  "figure_id": "desertfig014",
+  "display_name": "Palladius",
+  "names": [
+   "Palladius of Galatia, bishop of Helenopolis (c. 419-420)",
+   "Palladius"
+  ],
+  "bridge_line": "A bishop who visited many of these communities as a young man and wrote down what he saw.",
+  "narratable": true
  }
 ]
