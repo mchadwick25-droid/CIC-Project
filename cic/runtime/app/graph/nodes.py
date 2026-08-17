@@ -2125,6 +2125,30 @@ def representative_engages(state: ConversationState, is_reactive: bool = False,
     }
 
 
+def _log_length_observation(world_id, text, *, request_id=None,
+                            session_id=None):
+    """Write down how long a turn ran, against the world's own measure.
+
+    Observation only - see the note at the call site for why the ceiling
+    that used to enforce this is gone. The measure is looked up through
+    the same two maps the ceiling used, so the number in the log is the
+    world's authored figure and not a second, drifting copy of it.
+    """
+    from app.length_ceiling_logging import log_length_observation
+
+    measure = None
+    try:
+        from app.graph.repair_classifier import (
+            ceiling_words_map, interview_ceiling_words_map,
+        )
+        measure = ((interview_ceiling_words_map() or {}).get(world_id)
+                   or (ceiling_words_map() or {}).get(world_id))
+    except Exception:  # noqa: BLE001 - a missing measure must never cost a turn
+        measure = None
+    log_length_observation(world_id, len(text.split()), measure,
+                           request_id=request_id, session_id=session_id)
+
+
 def stream_representative_turn(state: ConversationState, is_reactive: bool = False,
                                 request_id: str | None = None):
     """
@@ -2188,300 +2212,24 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
         log_llm_usage("main_response", usage_chunk, settings.llm_model,
                        request_id=request_id, session_id=state.session_id)
         return text, pieces
+    # The per-world word ceilings, their retry-trigger multiples and the
+    # bounded regeneration loop stood here until 2026-08-17. They are gone,
+    # not disabled: Mark's ruling was to remove the ceilings and let the
+    # shape rule, reporting rather than gating. The numbers themselves
+    # survive where they belong - each world's own voice_profile
+    # native_measure - and are read back only to annotate the length
+    # observation below. See that call site for the full account.
 
-    # Worlds whose own Permanent Prompt states a hard, all-conditions
-    # numeric turn-length ceiling that soft guidance has already been
-    # tested against twice (the static prompt text itself, then a
-    # check_length_ceiling-queued correction for the next turn) and still
-    # missed badly under real multi-world topical pressure - see the
-    # 2026-07 Fable/Opus review. For these worlds only, buffer the first
-    # attempt instead of streaming it live, token by token, and silently
-    # regenerate once if it exceeds the trigger multiple of the stated
-    # ceiling, before the participant ever sees a token. This costs
-    # latency on that one world's turns but resolves a structural conflict
-    # (the ceiling vs. the other things a reactive turn is required to do)
-    # that prompt wording alone could not.
-    #
-    # Both worlds are included, not just Papnoute - an independent Opus
-    # review of the first version of this mechanism (Papnoute-only, 2x
-    # trigger) correctly flagged that Albina's exclusion rested on a
-    # thinner data point than the one that had already proven advisory-only
-    # insufficient for Papnoute, and that a 2x trigger (120 words for a
-    # 60-word ceiling) leaves a dead zone - a 110-word Papnoute turn in
-    # that same retest sailed through with zero enforcement.
-    #
-    # The trigger multiple is per-world, not a single global constant,
-    # because the two worlds' actual distributions differ once real
-    # observability data existed to look at (see the dead-zone log line
-    # below): Papnoute's uncorrected drafts landed around 175-180 words
-    # against a 60-word ceiling (a wide margin, so 1.5x/90 catches him
-    # reliably), but Albina's landed consistently at 220-245 against a
-    # 180-word ceiling - a narrow enough margin that 1.5x/270 never once
-    # fired in that same test batch, leaving her permanently in the dead
-    # zone rather than only occasionally. Her multiple is tightened to 1.2x
-    # to actually reach the range she is shown to land in.
-    # alexandria-catechetical added at the S6.2 freeze fix session (Mark's
-    # mandate, 2026-07-28): the S6.2 TRR measured Theon at 77-82% of all
-    # representative speech (dominance HIGH every turn), truncating the
-    # sitting at 5/8 turns. Ceiling 160 = the cleared solo register's own
-    # measured max (alexvoice001.native_measure: responses 123-166, mean
-    # ~141) so solo answers never trigger; multiple 1.2 (the Albina
-    # narrow-margin precedent) so the 300+-word table turns do.
-    # S6.2/HAL freeze (2026-07-31, Decision HAL-4): 160 = just above the
-    # voice profile's measured solo max (halvoice001 native_measure,
-    # range 41-157, mean 94) so the solo register never triggers;
-    # grounded in the triple-TRR dominance finding (71-75% at the desert
-    # table, a 195w table turn under the old 180@1.2 = 216 trigger that
-    # never fired). The prior 180 predates the measured profile.
-    # Voice Rebuild Phase 0.1 (2026-08-08): this dict literal is now a
-    # fallback only. The real source is each world's voice_profile record
-    # (native_measure.ceiling_words, see each record's ceiling_source field
-    # for the per-world freeze-session rationale preserved below in full) -
-    # read via repair_classifier.ceiling_words_map(), same lazy-import,
-    # fail-open discipline as the post_history_guard site above. The values
-    # below are IDENTICAL to what the records now carry; this dict exists so
-    # a record-read failure degrades to today's exact behavior, never to no
-    # ceiling at all.
-    #
-    # S6.2/SYR freeze (2026-07-28): 165 = the voice
-    # profile's measured max (syrvoice001 native_measure,
-    # range 41-165) so the solo register never triggers;
-    # grounded in the TRR dominance finding (63-79%,
-    # table turns to 1053w vs the 98w native measure)
-    #
-    # S6.2/PAHC freeze (2026-07-31, Decision PAHC-5):
-    # an ENFORCING ceiling, unlike the HAL/SYR
-    # backstops - the battery measured the runtime
-    # voice at 246-272w mean against pahcvoice001's
-    # DESIGNED 70w typical and the prompt's own
-    # two-short-paragraphs stop (~150w). 150 @ 1.5
-    # (retry >225w) pulls the voice toward its own
-    # designed measure; expected elevated retry rate
-    # initially, re-measure at first production review.
-    #
-    # S6.2/IJC freeze (2026-07-31, Decision IJC-5):
-    # a MODERATE enforcing ceiling - no designed
-    # answer cap exists (the prompt caps sentence
-    # length; Section 4 stages the judgment), and
-    # the battery measured 251-256w mean / 389 max.
-    # 180 sits above the fleet band (the chancery's
-    # numbered-points genre warrants more than the
-    # household's handful) and below the measured
-    # mean (pulls the long tail toward the staged
-    # design). Re-measure at first production review.
-    _CEILING_FALLBACK = {"desert-monasticism": 60, "hieronymian-ascetic-literary": 160,
-                         "alexandria-catechetical": 160,
-                         "syriac-edessa-nisibis": 165,
-                         "post-apostolic-house-church": 150,
-                         "imperial-juridical-christianity": 180}
-    try:
-        from app.graph.repair_classifier import ceiling_words_map
-        HARD_CEILING_WORLDS = ceiling_words_map() or _CEILING_FALLBACK
-    except Exception:
-        HARD_CEILING_WORLDS = _CEILING_FALLBACK
-    # hieronymian 1.2 -> 1.0 (Mark's ruling, 2026-08-08, Albina checkpoint 3):
-    # her sustained-pushback drafts land at 164-186 words - over her 160
-    # ceiling, under the old 192 trigger - the dead zone her own
-    # native_measure.dead_zone_note recorded. Four of checkpoint 3's five
-    # overruns sat exactly there while the same run's probe drafts (194-270)
-    # were all caught and corrected. At 1.0, any draft over the ceiling
-    # regenerates once. Per-world by design; the other five are unchanged.
-    # imperial-juridical 1.5 -> 1.0 (Phase 2, Marius's pass, 2026-08-08): the
-    # same dead-zone fix, on the fleet's worst case. At 1.5 against the old
-    # 180 ceiling the trigger sat at 270 and his streaming baseline's max was
-    # 269 - all 8 turns over the ceiling, all 8 under the trigger, none ever
-    # regenerated. The ceiling had never fired for this world at all. His
-    # re-derived ceiling is 150 (native_measure), so at 1.0 the trigger sits
-    # on the ceiling itself. Per-world by design; the other four are unchanged.
-    # alexandria-catechetical 1.2 -> 1.0 (Phase 2, Theon's pass, 2026-08-08).
-    # His 160 ceiling was set at the S6.2 freeze to EQUAL his own measured
-    # max, explicitly "so the solo register never triggers" - a ceiling built
-    # not to bind. At 1.2 the retry sat at 192 and his baseline's two
-    # over-ceiling turns (167, 177) both landed in the 161-192 dead zone, so
-    # it never fired. The number is sound and evidence-derived; only its
-    # enforcement changes. Length is NOT this world's defect.
-    # desert-monasticism 1.5 -> 1.0 (Phase 2, Papnoute's pass, 2026-08-08).
-    # Against the old 60 ceiling the retry did not fire until 90, and his two
-    # over-ceiling turns (61, 69) sat inside that dead zone - nothing this
-    # world has ever produced has regenerated. With the re-derived 70 ceiling
-    # at 1.0 the enforced threshold DROPS from 90 to 70, even though the
-    # ceiling number itself rose. All five passed worlds now sit at 1.0.
-    # How many corrective regenerations a single turn may spend before the
-    # shortest draft seen is accepted. 2, not 1 (the old implicit value) and
-    # not unbounded: each attempt is a full generation, and the measured
-    # first-retry compliance rate is 29-76% depending on world, so a second
-    # attempt recovers most of the remainder while capping worst-case turn
-    # cost at 3 generations.
-    _MAX_LENGTH_RETRIES = 2
-
-    RETRY_TRIGGER_MULTIPLES = {"desert-monasticism": 1.0, "hieronymian-ascetic-literary": 1.0,
-                               "alexandria-catechetical": 1.0,
-                               # syriac 1.2 -> 1.0 (Phase 2, Yausep's pass,
-                               # 2026-08-08): retry sat at 198 while his baseline
-                               # max was 192, so all three over-ceiling turns sat in
-                               # the 166-198 dead zone. A BACKSTOP only - his real
-                               # defect is stage count inside the ceiling.
-                               "syriac-edessa-nisibis": 1.0,
-                               # pahc 1.5 -> 1.0 (Phase 2, Chloe's pass,
-                               # 2026-08-08): her 150 was set as an ENFORCING
-                               # ceiling and never fired once - retry sat at 225
-                               # against a 223 max, so all six overruns were
-                               # dead-zone. Widest designed-to-observed gap in the
-                               # fleet (179 mean against a 70 designed typical).
-                               "post-apostolic-house-church": 1.0,
-                               "imperial-juridical-christianity": 1.0}
-    ceiling = HARD_CEILING_WORLDS.get(ctx["current_world_id"])
-    # MODE-AWARE CEILING (2026-08-10, Mark's ruling: interview gets more
-    # room than table WHEN WARRANTED). Every ceiling above was derived
-    # under table conditions, where brevity is what lets three voices fit,
-    # and was then applied byte-identically to a solo interview where
-    # nothing is competing for the floor - a gap the Blueprint's own Phase 3
-    # asked to verify per mode and nobody had. A world only gets the
-    # interview number if its own voice_profile declares one, so this
-    # changes nothing until a world's build authors it in-world with a
-    # derivation, exactly as ceiling_words already is. No declaration ->
-    # single ceiling in both modes -> today's behavior.
-    if len(getattr(state, "world_ids", None) or []) <= 1:
-        try:
-            from app.graph.repair_classifier import interview_ceiling_words_map
-            _interview = interview_ceiling_words_map().get(
-                ctx["current_world_id"])
-        except Exception:
-            _interview = None
-        if isinstance(_interview, int) and _interview > 0:
-            ceiling = _interview
-    retry_trigger_multiple = RETRY_TRIGGER_MULTIPLES.get(ctx["current_world_id"], 1.5)
-
-    if ceiling:
-        # Purely-additive structured observability for this whole branch
-        # (app/length_ceiling_logging.py). The prints below are left exactly
-        # as they were - this only ADDS a machine-parseable line per outcome,
-        # so the mechanism's fire rate, its dead-zone frequency, and the
-        # first-draft word distribution that drives both become countable
-        # per world from a log rather than reconstructable only by token
-        # forensics. No ceiling, trigger multiple, prompt, model, or emitted
-        # text changes here.
-        from app.length_ceiling_logging import (
-            OUTCOME_DEAD_ZONE, OUTCOME_RETRIED, OUTCOME_UNDER,
-            log_length_ceiling_outcome,
-        )
-
-        full_text, pieces = _generate_once(messages)
-        word_count = len(full_text.split()) if full_text else 0
-        if full_text and word_count > ceiling * retry_trigger_multiple:
-            print(
-                f"[length_ceiling] {ctx['current_world_id']} turn ran {word_count} words "
-                f"(ceiling {ceiling}, trigger {ceiling * retry_trigger_multiple:.0f}) - "
-                "regenerating once."
-            )
-            # BOUNDED RETRY, up to _MAX_LENGTH_RETRIES (2026-08-10). This
-            # used to regenerate exactly once and then accept whatever came
-            # back WITHOUT CHECKING WHETHER IT COMPLIED. Measured from the
-            # Haiku fleet certification, share of CORRECTED drafts still over
-            # ceiling: Theon 20/28, Papnoute 20/30, Marius 17/28, Albina
-            # 14/31, Yausep 5/21 - and Chloe 11/32 on the SONNET-certified
-            # build, which is how we know this is a pre-existing enforcement
-            # gap that Haiku exposed rather than caused.
-            #
-            # This is the lever Chloe's own voice_profile named when she ran
-            # long against her measure: "The numbers are NOT moved to meet the
-            # behaviour... What was missing was never a better number. It was
-            # enforcement." Three of six worlds state their measure in their
-            # own prompt (Papnoute's "four sentences is already long for you",
-            # Albina's epistula warrant, Chloe's "two short paragraphs"), so
-            # raising their numbers to match a model would delete the rule
-            # the world itself states.
-            #
-            # Still bounded, and still honest about giving up: each attempt
-            # costs a full generation, so this caps at _MAX_LENGTH_RETRIES and
-            # then KEEPS THE SHORTEST draft seen rather than the last one -
-            # the last is arbitrary, the shortest is the best available
-            # against the bar we are enforcing. Every attempt is logged.
-            best_text, best_pieces = full_text, pieces
-            retry_text = None
-            attempts_run = 0
-            for attempt in range(1, _MAX_LENGTH_RETRIES + 1):
-                attempts_run = attempt
-                corrective = HumanMessage(content=(
-                    f"Your answer just now ran to {len(best_text.split())} words; your own "
-                    f"measure holds at most {ceiling}. Say the same thing again, holding to "
-                    "it - fewer sentences, not less said."
-                ))
-                retry_text, retry_pieces = _generate_once(
-                    messages + [AIMessage(content=best_text), corrective]
-                )
-                if not retry_text:
-                    break
-                retry_words = len(retry_text.split())
-                print(
-                    f"[length_ceiling] {ctx['current_world_id']} retry {attempt} produced "
-                    f"{retry_words} words (ceiling {ceiling})."
-                )
-                if retry_words < len(best_text.split()):
-                    best_text, best_pieces = retry_text, retry_pieces
-                if retry_words <= ceiling:
-                    break
-            if best_text is not full_text or retry_text:
-                full_text, pieces = best_text, best_pieces
-            # Logged whether or not the retry came back with text: an empty
-            # retry still fired (and still cost a call), and the first
-            # draft is kept in that case - retry_words=0 records exactly
-            # that rather than hiding the call.
-            #
-            # attempts_run is the COST field: each attempt is a full
-            # main_response call billed under the same label as the first,
-            # so without it the marginal cost of this bounded retry is not
-            # recoverable from any artifact. emitted_words is what actually
-            # shipped, which is NOT retry_words whenever a second attempt
-            # came back longer than the first - the loop keeps the shortest
-            # draft, and compliance has to be read against what shipped.
-            log_length_ceiling_outcome(
-                ctx["current_world_id"], ceiling, retry_trigger_multiple,
-                word_count, OUTCOME_RETRIED,
-                retry_words=len(retry_text.split()) if retry_text else 0,
-                attempts=attempts_run,
-                emitted_words=len(full_text.split()) if full_text else 0,
-                request_id=request_id, session_id=state.session_id,
-            )
-        elif full_text and word_count > ceiling:
-            # Over ceiling but under the retry trigger - the dead zone Opus's
-            # review named. Not corrected here (that would defeat the point
-            # of bounding the trigger), but logged so this zone's actual
-            # frequency is visible rather than invisible, per that review's
-            # specific request for observability before trusting the fix.
-            print(
-                f"[length_ceiling] {ctx['current_world_id']} turn ran {word_count} words "
-                f"(ceiling {ceiling}) - over ceiling but under the {retry_trigger_multiple}x "
-                "retry trigger, left uncorrected."
-            )
-            log_length_ceiling_outcome(
-                ctx["current_world_id"], ceiling, retry_trigger_multiple,
-                word_count, OUTCOME_DEAD_ZONE,
-                request_id=request_id, session_id=state.session_id,
-            )
-        elif full_text:
-            # The ordinary case: the draft came in at or under the ceiling
-            # with no correction needed. Never previously logged at all,
-            # which is why the mechanism's fire rate has no denominator in
-            # any committed artifact.
-            log_length_ceiling_outcome(
-                ctx["current_world_id"], ceiling, retry_trigger_multiple,
-                word_count, OUTCOME_UNDER,
-                request_id=request_id, session_id=state.session_id,
-            )
-        for piece in pieces:
+    full_text, pieces = "", []
+    usage_chunk = None
+    for chunk in llm.stream(messages):
+        usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk
+        piece = _extract_piece(chunk.content)
+        if piece:
+            full_text += piece
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
-    else:
-        full_text, pieces = "", []
-        usage_chunk = None
-        for chunk in llm.stream(messages):
-            usage_chunk = chunk if usage_chunk is None else usage_chunk + chunk
-            piece = _extract_piece(chunk.content)
-            if piece:
-                full_text += piece
-                yield {"type": "token", "speaker": ctx["rep_message_name"], "text": piece}
-        log_llm_usage("main_response", usage_chunk, settings.llm_model,
-                       request_id=request_id, session_id=state.session_id)
+    log_llm_usage("main_response", usage_chunk, settings.llm_model,
+                   request_id=request_id, session_id=state.session_id)
 
     # A stream that completes with zero text is rare but real (observed in
     # live testing) - shipping a blank message doesn't just look broken to
@@ -2497,6 +2245,39 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
         full_text = _extract_piece(retry_response.content)
         if full_text:
             yield {"type": "token", "speaker": ctx["rep_message_name"], "text": full_text}
+
+    # LENGTH IS OBSERVED, NOT ENFORCED (2026-08-17, Mark's ruling: remove
+    # the ceilings and let the shape rule; report, don't gate).
+    #
+    # The word count is still written down every turn, against the world's
+    # own authored measure, because that measure is real evidence about
+    # how a world speaks and the pilot needs the denominator. What is gone
+    # is the regeneration: no draft is rewritten for being long.
+    #
+    # Why the enforcement went. The ceiling was doing four jobs and three
+    # were already covered - runaway length by PRIMARY_TURN_MAX_TOKENS,
+    # readability by the sentence guards, and cost by arithmetic that
+    # turned out to point the other way (89% of a turn's cost is fixed, so
+    # two short turns cost more than one long one and deliver less). Its
+    # only unique job was voice discipline, and a word count is a poor
+    # instrument for it: a turn can stack four particulars into 200 words
+    # or rest on one across 400. That failure is now BURIED_ANSWER and
+    # ACCUMULATION in the monitoring prompt, correcting the next turn
+    # instead of rewriting this one.
+    #
+    # It also contradicted the prompt it enforced. "Let the Question Set
+    # the Shape, Not a Habit" names uniform turns as the defect; a gate
+    # that regenerates everything over N manufactures exactly that.
+    #
+    # Removing it restores streaming for every world. Ceilinged worlds
+    # buffered their whole draft so it could be measured before shipping,
+    # which is why a participant in those worlds watched nothing happen
+    # and then received a wall of text.
+    if full_text:
+        _log_length_observation(
+            ctx["current_world_id"], full_text,
+            request_id=request_id, session_id=state.session_id,
+        )
 
     _log_llm_call(request_id, state.session_id, ctx["current_world_id"], ctx["rep_message_name"], full_text)
 

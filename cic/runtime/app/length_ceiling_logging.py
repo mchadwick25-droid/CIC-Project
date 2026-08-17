@@ -144,3 +144,44 @@ def log_length_ceiling_outcome(
         )
     except Exception:
         pass
+
+
+# ---------------------------------------------------------------------------
+# Length observation, after the ceilings were removed (2026-08-17).
+#
+# The mechanism above enforced; this only watches. Mark's ruling was to
+# remove the ceilings and let the shape rule - report, don't gate - so the
+# word count is still recorded against the world's authored measure every
+# turn, and nothing acts on it. That record is what the pilot's own
+# detectors need: reading-time ratio against answer length for the
+# too-long edge, repair rate against answer length for the too-short one.
+# Both edges are the same failure, the participant not receiving the
+# answer, and neither is knowable without this denominator.
+OUTCOME_OBSERVED = "observed"
+
+
+def log_length_observation(
+    world_id: str | None,
+    words: int,
+    measure: int | None = None,
+    *,
+    request_id: str | None = None,
+    session_id: str | None = None,
+) -> None:
+    """One line per turn: how long it ran, and the world's own measure.
+
+    measure is context, never a threshold - a turn over it is not a
+    finding and nothing downstream treats it as one. It is here so the
+    ratio is readable directly rather than requiring a join against the
+    voice profiles.
+    """
+    try:
+        logger.info(
+            "[length_observed] world_id=%s outcome=%s words=%d measure=%s "
+            "request_id=%s session_id=%s",
+            world_id, OUTCOME_OBSERVED, words,
+            measure if measure is not None else "none",
+            request_id, session_id,
+        )
+    except Exception:
+        pass
