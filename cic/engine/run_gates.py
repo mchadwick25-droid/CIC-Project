@@ -200,6 +200,47 @@ def selftest() -> int:
                             f"{'a finding' if expect_problems else 'no finding'}, "
                             f"got {findings!r}")
 
+    # The two-move split, bespoke (2026-08-17). The readability gate's
+    # seeded sets already prove it can SEE a thinned move one and a runaway
+    # move two, but they cannot prove where the boundary falls - and the
+    # boundary is the whole design. Two rules that lived only in a docstring
+    # until this block, both load-bearing and both easy to break by
+    # "tidying" split_moves:
+    #   - whole sentences only. FK divides words by sentences, so truncating
+    #     at exactly 30 words would score a fragment as a sentence and
+    #     corrupt the number the gate is reading.
+    #   - the sentence that CROSSES the window stays in move one. A skimmer
+    #     has already started it. Push it to move two and a runaway opening
+    #     silently stops being a skim-survival finding.
+    _short = "Three things, plainly. We cannot say what came after."
+    # 3 words, then a 30-word sentence that crosses the window on its own,
+    # then a short tail - so the boundary has somewhere to be got wrong.
+    _crosser = ("Two words first. Then one sentence that keeps going and "
+                "going and going and going and going and going and going "
+                "and going past the window on its own steam. Tail.")
+    split_cases = [
+        ("a turn under the window is all move one",
+         lambda: core.split_moves(_short) == (_short, "")),
+        ("move one never ends mid-sentence",
+         lambda: core.split_moves(_crosser)[0].endswith(".")),
+        ("the sentence crossing the window stays in move one",
+         lambda: "going and going" in core.split_moves(_crosser)[0]),
+        ("what follows it is move two",
+         lambda: core.split_moves(_crosser)[1] == "Tail."),
+        ("participant lines are not scored as the world's voice",
+         lambda: core.representative_turns(
+             "{{random_user}}: A scripted question.\nTheon: The answer.")
+         == ["The answer."]),
+        ("a dialogue with no speaker labels is one turn",
+         lambda: core.representative_turns("Just prose.") == ["Just prose."]),
+        ("a segment too short to score is reported, not given a number",
+         lambda: core.two_move_readability("Too short.")["move_one"] is None),
+    ]
+    for label, predicate in split_cases:
+        checked += 1
+        if not predicate():
+            failures.append(f"readability/two-move: {label} - does not hold")
+
     print(f"selftest: {checked} case(s) across {len(GATES)} gate(s)")
     if failures:
         print(f"\nFAIL: {len(failures)} problem(s)")

@@ -85,6 +85,13 @@ jobs:
       # missing rather than silently reporting a false pass - the same
       # discipline repository-views-current already follows above.
       - run: pip install pyyaml jsonschema textstat
+      # textstat counts syllables through nltk's cmudict corpus, which pip
+      # does not install with the package. Added 2026-08-17 after the
+      # two-move readability split's first calibration run died on the
+      # missing corpus locally; gates.readability_check now raises an
+      # actionable LookupError instead of nltk's forty-line one, and this
+      # step is what keeps the runner from ever needing to read it.
+      - run: python -c "import nltk; nltk.download('cmudict')"
       - run: python cic/engine/validate.py
       - run: python cic/checks/isolation.py
       # Proves each gate still passes a clean fixture and fails its seeded

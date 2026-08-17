@@ -111,6 +111,54 @@ UNREADABLE_JARGON = (
     "organization."
 )
 
+# The gate's positive pole. Until now the readability fixtures had only two
+# bad poles (UNREADABLE_LONG, UNREADABLE_JARGON) and one neutral clean text -
+# nothing modelling the register the worlds are actually aiming AT, so a
+# passing selftest proved the gate could reject bad prose and never that it
+# would accept good prose of the target shape. This is a Representative turn
+# with both moves present: a plain front-loaded answer, then the world's own
+# angle behind it, denser than the answer and deliberately so.
+TARGET_REGISTER_TURN = (
+    "Theon: Three things, plainly. We cannot tell you what came after our "
+    "own time closed. We cannot tell you the inner life of the many who "
+    "never came to the reading. And we cannot hand you one person's "
+    "remembered day.\n\n"
+    "What we can open is the reading itself, and the practice of it: the "
+    "surface of a text taken as real before it is taken as a figure, then "
+    "held long enough that its second sense declares itself without being "
+    "forced. That discipline is attested in the catechetical school, though "
+    "what survives of it reaches us through later hands."
+)
+
+# Seeded defect, move one: the answer thinned rather than clarified. Every
+# word is short, so FK reads low and the old whole-turn check called it
+# excellent - the failure direction the reported-not-failed band floor could
+# never catch, and the one Mark named in Phase 1 as "too simplistic".
+THINNED_MOVE_ONE = (
+    "Theon: We do not know. We did not see it. It is not ours. We can not "
+    "say more. We can not add to it. We wish we could tell you more of it.\n\n"
+    "The reading was the work of the school, and the school held that a "
+    "text has a body and a soul, the plain sense and the sense it opens "
+    "onto, and that the second is reached only through the first."
+)
+
+# Seeded defect, move two: past dense into impenetrable. Move one is fine -
+# this is the case an averaged score hides, because a clean opening pulls the
+# turn's single number back inside the band.
+# The opening runs past the 30-word window on its own before the runaway
+# sentence starts, which is what makes this a MOVE TWO defect. Written that
+# way on purpose: split_moves keeps the sentence that crosses the window, so
+# a shorter opening would pull the runaway forward into move one and seed the
+# wrong failure. A reader who skims 30 words never reaches this sentence;
+# a reader who commits to the answer hits a wall.
+RUNAWAY_MOVE_TWO = (
+    "Theon: We read a passage with you until you notice something in it "
+    "yourself. That is the whole of the practice, and it is never a modest "
+    "one. Bring a sentence you have gone flat on. We will slow it down "
+    "together, and the seeing will be yours to keep.\n\n"
+    + UNREADABLE_LONG
+)
+
 CHUNK_BODY = (
     "The covenant is a lifelong vow. Its members remain in the town among "
     "their kin. The vow is entered by men and women alike. The fast and the "
@@ -291,10 +339,26 @@ def seeded_sets():
     w1["fixreadQ"] = dict(w1["fixreadQ"], text_translation=UNREADABLE_LONG)
     w2 = readability_clean()
     w2["fixreadV"] = dict(w2["fixreadV"], speaking_model=UNREADABLE_JARGON)
+    # The two-move seeds (2026-08-17). Both are demonstrations, the only
+    # record type carrying Representative turns, and each fails exactly one
+    # move - which is the point of splitting. THINNED_MOVE_ONE would have
+    # passed the old whole-turn check outright (short words, low FK, the
+    # band floor reported and never failed); RUNAWAY_MOVE_TWO opens clean
+    # enough that an averaged score pulls the turn back inside the band.
+    # Neither defect was detectable before this split, so neither had a
+    # fixture to be seeded from.
+    w3 = readability_clean()
+    w3["fixreadD"] = dict(w3["fixreadD"], dialogue=THINNED_MOVE_ONE)
+    w4 = readability_clean()
+    w4["fixreadD"] = dict(w4["fixreadD"], dialogue=RUNAWAY_MOVE_TWO)
     s["readability"] = [
         ("emic quote text_translation past the FK/FRE reading floor "
          "(the Marius-reconstruction shape)", w1),
         ("emic voice_profile speaking_model in dense jargon prose", w2),
+        ("emic demonstration whose move one is thinned rather than "
+         "clarified - the too-simple direction the band floor never failed", w3),
+        ("emic demonstration whose move two runs past dense into "
+         "impenetrable behind a clean opening", w4),
     ]
     return s
 
@@ -340,8 +404,13 @@ def readability_clean():
     ambient = {"id": "fixreadA", "world_id": "fixture-world", "record_type": "ambient",
                "schema_version": 1, "register": "emic", "title": "fixture ambient",
                "text": READABLE_TEXT}
+    # TARGET_REGISTER_TURN, not READABLE_TEXT: a demonstration is scored by
+    # the move now, and the clean set has to prove the gate PASSES a turn of
+    # the shape the worlds are aiming at - both moves present, move two
+    # denser than move one on purpose - rather than only that it passes
+    # unobjectionable neutral prose.
     demo = {"id": "fixreadD", "world_id": "fixture-world", "record_type": "demonstration",
-            "schema_version": 1, "register": "emic", "dialogue": READABLE_TEXT,
+            "schema_version": 1, "register": "emic", "dialogue": TARGET_REGISTER_TURN,
             "situation_tag": "fixture"}
     voice = {"id": "fixreadV", "world_id": "fixture-world", "record_type": "voice_profile",
               "schema_version": 1, "register": "emic",

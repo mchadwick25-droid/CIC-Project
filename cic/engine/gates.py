@@ -255,7 +255,21 @@ def readability_check(text: str, fk_max: float = 10.0, fre_min: float = 60.0) ->
             "installed in this environment. Install it with `pip install "
             "textstat` or `pip install -e '.[dev]'` (see pyproject.toml)."
         ) from exc
-    fk = textstat.flesch_kincaid_grade(text)
+    # textstat >= 0.7.7 counts syllables through nltk's cmudict, which
+    # `pip install textstat` does NOT bring with it - the corpus is a
+    # separate download. Untranslated, that surfaces as a forty-line nltk
+    # LookupError from three frames inside textstat, which is how this
+    # module's first two-move calibration run died. Same discipline as the
+    # missing-textstat guard above: an unrunnable readability gate must say
+    # so in one actionable line.
+    try:
+        fk = textstat.flesch_kincaid_grade(text)
+    except LookupError as exc:
+        raise LookupError(
+            "readability_check needs nltk's 'cmudict' corpus, which textstat "
+            "uses to count syllables and which pip does not install. Run "
+            "`python -c \"import nltk; nltk.download('cmudict')\"`."
+        ) from exc
     fre = textstat.flesch_reading_ease(text)
     violations = []
     if fk > fk_max:
@@ -274,6 +288,182 @@ def gate_readability(texts: dict, fk_max: float = 10.0, fre_min: float = 60.0) -
     return out
 
 
+# ------------------------------------------------- readability, by the move
+#
+# A Representative's turn is not one register and must not be scored as one
+# (Mark, 2026-08-17: "split the readability check into the two moves").
+# readability_check above averages a whole turn into a single grade, so the
+# plain answer and the sourced claim behind it cancel each other out: hitting
+# one band across both flattens the depth, and the average hides a first
+# sentence nobody can skim behind a simple second half. The two moves are
+# scored separately, against different rules, because they are doing
+# different jobs:
+#
+#   move one - the plain answer, front-loaded. This is the part that must
+#     survive skimming, so the reading ceiling is non-negotiable here.
+#   move two - the world's own angle: the sourcing, the hedge, the thing
+#     that stands on one leg. Allowed to be denser. Judged on grounding
+#     elsewhere; here it only has to stay this side of impenetrable.
+#
+# Where the boundary falls. The corpus has no paragraph breaks to split on
+# and no author-marked boundary, so the split is the reader's, not the
+# writer's: move one is the leading WHOLE sentences up to a 30-word skim
+# window. Whole sentences because FK divides words by sentences - a fragment
+# scored as a sentence corrupts the number being read. 30 words because it is
+# roughly what a reader takes in before deciding whether to keep going, and
+# because measured against the 127 Representative turns in the corpus it
+# leaves 107 of them with a move two long enough to score (a 50-word window
+# leaves only 83).
+SKIM_WINDOW_WORDS = 30
+
+# Below this, FK is noise, not a measurement: the first calibration run
+# returned FK -0.7 on a 12-word residual. Short segments are reported as
+# unscored rather than given a number that looks like a finding.
+_MIN_SCOREABLE_WORDS = 15
+
+# Move one, both directions - the fix to the one-directional floor this
+# module carried until now ("band floor 8 is reported, not failed").
+#
+# The ceiling stays FK/FRE. The FLOOR is NOT FK, and that is the substantive
+# change. FK = 0.39*(words/sentence) + 11.8*(syllables/word) - 15.59, and
+# measured across the corpus, 67% of the gap between the sub-floor move-ones
+# and the in-band ones is the sentence-length term, only 33% the word term.
+# An FK floor would therefore mostly push six worlds toward longer sentences -
+# straight against the desert short-sentence rule this project added on
+# purpose in 2026-08-09 after a measured B2 breach. Syllables-per-word is the
+# term that actually tracks simplification, so that is what the floor guards.
+# 1.15 sits just under the corpus 10th percentile (1.17): it flags 9 of 127
+# move-ones, and the thinnest thing it finds is desertdemo008 at 1.09 - the
+# known overshoot, which scores "strong" on all four of its own traits. A
+# floor that catches the record the trait scores got wrong is the floor
+# earning its place.
+MOVE_ONE_BAND = {"fk_max": 10.0, "fre_min": 60.0, "syllables_per_word_min": 1.15}
+
+# Move two is allowed to be hard; it is not allowed to be unreadable. These
+# flag 5 of 83 - the syriac and hieronymian turns whose second move runs to
+# FK 20+, which is not density, it is a sentence that got away.
+MOVE_TWO_BAND = {"fk_max": 14.0, "fre_min": 40.0}
+
+_SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
+# Demonstration dialogue is a script: "{{random_user}}: ..." alternating with
+# "Theon: ...". Only the Representative's turns are answers to a participant,
+# so only they have two moves - scoring the participant's scripted questions
+# for readability, as the whole-field check did, measures our own test prose.
+_SPEAKER_LINE = re.compile(r"^\s*(\{\{random_user\}\}|[A-Z][\w'’\- ]{0,40}):\s*(.*)$")
+_PARTICIPANT_LABEL = "{{random_user}}"
+
+
+def split_moves(text: str, window: int = SKIM_WINDOW_WORDS) -> tuple:
+    """Split one Representative turn into (move one, move two).
+
+    Move one is the leading whole sentences up to `window` words; move two is
+    everything after. A turn shorter than the window is all move one and
+    returns "" for move two - which is a real answer, not a defect: a short
+    plain reply has no second move to score.
+
+    The sentence that CROSSES the window is kept in move one, not pushed into
+    move two. A reader skimming 30 words has already started it, so it is part
+    of what has to survive skimming; the consequence is that one runaway
+    sentence early in a turn lands as a move-one finding rather than a
+    move-two one, which is the correct report and not a misfile.
+    """
+    sentences = [s for s in _SENTENCE_SPLIT.split((text or "").strip()) if s.strip()]
+    first, words = [], 0
+    for sentence in sentences:
+        first.append(sentence)
+        words += len(sentence.split())
+        if words >= window:
+            break
+    return " ".join(first), " ".join(sentences[len(first):])
+
+
+def representative_turns(dialogue: str,
+                         participant: str = _PARTICIPANT_LABEL) -> list:
+    """The Representative's turns out of a demonstration dialogue, in order.
+
+    A dialogue carrying no speaker labels at all is one turn - the fixture
+    prose is written that way, and so is any record that predates the
+    convention.
+    """
+    turns, current, speaker = [], [], None
+    for line in (dialogue or "").splitlines():
+        match = _SPEAKER_LINE.match(line)
+        if match:
+            if speaker is not None and speaker != participant and current:
+                turns.append(" ".join(current).strip())
+            speaker, current = match.group(1), [match.group(2)]
+        elif line.strip():
+            current.append(line.strip())
+    if speaker is not None and speaker != participant and current:
+        turns.append(" ".join(current).strip())
+    if speaker is None:
+        turns = [" ".join((dialogue or "").split())]
+    return [t for t in turns if t.strip()]
+
+
+def _measure(segment: str) -> dict:
+    """FK, FRE and syllables-per-word for one segment, or None if it is too
+    short for those numbers to mean anything."""
+    if len(segment.split()) < _MIN_SCOREABLE_WORDS:
+        return None
+    import textstat  # guarded by readability_check's own import error above
+    return {
+        "words": len(segment.split()),
+        "fk_grade": round(textstat.flesch_kincaid_grade(segment), 2),
+        "fre": round(textstat.flesch_reading_ease(segment), 2),
+        "syllables_per_word": round(textstat.avg_syllables_per_word(segment), 3),
+    }
+
+
+def two_move_readability(turn: str) -> dict:
+    """Score one Representative turn as its two moves rather than as an
+    average. Returns {"move_one": ..., "move_two": ..., "violations": [...]},
+    where each move is a _measure() dict, None if too short to score.
+
+    Both directions are guarded on move one; move two carries a ceiling only.
+    """
+    # readability_check's textstat import error is the actionable one; call it
+    # on a trivial string first so a missing dependency fails here the same
+    # way rather than surfacing as an opaque ImportError inside _measure.
+    readability_check("A sentence.")
+    one, two = split_moves(turn)
+    m1, m2 = _measure(one), _measure(two)
+    violations = []
+
+    if m1 is None:
+        violations.append(
+            f"move one is {len(one.split())} words - too short to score "
+            f"(under {_MIN_SCOREABLE_WORDS}); a turn this short cannot be "
+            "read as an answer plus its grounding")
+    else:
+        if m1["fk_grade"] > MOVE_ONE_BAND["fk_max"]:
+            violations.append(
+                f"move one FK grade {m1['fk_grade']:.1f} > "
+                f"{MOVE_ONE_BAND['fk_max']} - the opening does not survive "
+                "skimming")
+        if m1["fre"] < MOVE_ONE_BAND["fre_min"]:
+            violations.append(
+                f"move one FRE {m1['fre']:.1f} < {MOVE_ONE_BAND['fre_min']} - "
+                "the opening does not survive skimming")
+        if m1["syllables_per_word"] < MOVE_ONE_BAND["syllables_per_word_min"]:
+            violations.append(
+                f"move one syllables/word {m1['syllables_per_word']:.2f} < "
+                f"{MOVE_ONE_BAND['syllables_per_word_min']} - the plain "
+                "answer has been thinned, not clarified")
+
+    if m2 is not None:
+        if m2["fk_grade"] > MOVE_TWO_BAND["fk_max"]:
+            violations.append(
+                f"move two FK grade {m2['fk_grade']:.1f} > "
+                f"{MOVE_TWO_BAND['fk_max']} - past dense into impenetrable")
+        if m2["fre"] < MOVE_TWO_BAND["fre_min"]:
+            violations.append(
+                f"move two FRE {m2['fre']:.1f} < {MOVE_TWO_BAND['fre_min']} - "
+                "past dense into impenetrable")
+
+    return {"move_one": m1, "move_two": m2, "violations": violations}
+
+
 # gate_readability (above) has existed since the clean-room rebuild but was
 # never called by anything - no entry in run_gates.py's GATES dict, no CI
 # coverage. voice_profile even carries a schema field for this
@@ -282,11 +472,18 @@ def gate_readability(texts: dict, fk_max: float = 10.0, fre_min: float = 60.0) -
 # verified; it is builder-written prose today, not a computed result. This
 # gate closes that gap for the record types whose fields are actual spoken
 # material a Representative would say to a participant.
+#
+# demonstration is deliberately NOT in this map any more (2026-08-17). Its
+# dialogue field is the only one here that holds Representative turns - the
+# thing the two-move split is about - so it routes through
+# two_move_readability instead. The rest stay on the whole-text check because
+# they are not turns: a quote translation, a story, an ambient passage and a
+# voice_profile rubric have no plain-answer-then-grounding shape to split, and
+# a skim window over a quote would be measuring a boundary that isn't there.
 _READABILITY_FIELDS = {
     "quote": ("text_translation",),
     "story": ("text",),
     "ambient": ("text",),
-    "demonstration": ("dialogue",),
     "voice_profile": ("speaking_model", "trait_rubric"),
 }
 # contested_claim dropped from v1 (2026-08-16, Mark's call): its fields mix
@@ -305,9 +502,15 @@ def gate_voice_readability(records: dict) -> list:
 
     Scoped to register: emic records only - the world's own spoken voice,
     not etic/builder scaffolding, mirroring how every quote/story record
-    authored this session has carried register: emic already. Checks the
-    fields in _READABILITY_FIELDS for whichever of those five record
-    types a world's records actually contain.
+    authored this session has carried register: emic already.
+
+    Two paths, because two kinds of prose (2026-08-17):
+      - demonstration.dialogue holds Representative TURNS, so each turn is
+        split at the skim window and its two moves scored against their own
+        rules (two_move_readability). The participant's scripted lines are
+        dropped - they are our test prose, not the world's voice, and the
+        whole-field check was scoring them.
+      - everything else in _READABILITY_FIELDS is checked whole, as before.
 
     ADVISORY (2026-08-16 decision, mirroring mechanism_coverage's
     2026-08-15 one): a first run against six worlds' pre-existing emic
@@ -323,6 +526,16 @@ def gate_voice_readability(records: dict) -> list:
     for rid, r in sorted(records.items()):
         if r.get("register") != "emic":
             continue
+
+        if r.get("record_type") == "demonstration":
+            dialogue = r.get("dialogue")
+            if not isinstance(dialogue, str) or not dialogue.strip():
+                continue
+            for i, turn in enumerate(representative_turns(dialogue), start=1):
+                for finding in two_move_readability(turn)["violations"]:
+                    out.append(f"{_NOTE_PREFIX} {rid}.dialogue turn {i}: {finding}")
+            continue
+
         fields = _READABILITY_FIELDS.get(r.get("record_type"))
         if not fields:
             continue
