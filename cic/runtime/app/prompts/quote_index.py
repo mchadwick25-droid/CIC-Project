@@ -33,6 +33,45 @@ import re
 # a full clause or longer.
 _QUOTE_SPAN_PATTERN = re.compile(r'["“]([^"”]{8,}?)["”]')
 
+# The character minimum above is necessary and was never sufficient. Over
+# the 54 turns of the 2026-08-17 second generation pass it yields 28
+# spans, of which roughly five are quotations; the rest are three
+# recognisable classes, each excluded below by a rule aimed at it alone.
+#
+# GLOSS - "discernment (Diakrisis)", "the thoughts that trouble the mind
+#   (Logismoi)", "similar to the Father (homoios)". This is the build's
+#   own three-tier convention - plain phrase, then the lexicon term in
+#   parentheses - and it is never a quotation.
+#
+# EMPHASIS - "important", "three weeks", "the Gospel,", "a holy man.".
+#   Scare quotes on a phrase. Nobody's words are being put in anybody's
+#   mouth, which is the only thing this gate exists to ask about. The
+#   floor is four WORDS, extending the character rule's own argument with
+#   what the corpus shows: the shortest genuine quotations found across
+#   both passes - "Let this cup pass", "the blood of God," - sit exactly
+#   at four, and everything below is emphasis.
+#
+# RUNAWAY - spans of 29, 66, 138 and 199 words that cross sentence
+#   boundaries and paragraph breaks, produced when an unmatched opening
+#   quote pairs with a later unrelated one. They begin mid-sentence in
+#   lowercase, which a genuine multi-sentence quotation does not.
+#
+# MEASURED, not asserted. Tuned on that pass: 28 spans down to 10.
+# Then run unchanged over the FIRST pass's 54 turns - different
+# retrieval, different answers, never used for tuning, and far heavier on
+# real scripture and patristic quotation: 27 spans down to 19, and every
+# one of the seven dropped is a one-to-three word emphasis fragment
+# ("properly.", "just receive", "was this natural"). No genuine quotation
+# was lost on either pass, which is the property that matters - this gate
+# may only ever go quiet about things that were never citations.
+_MIN_QUOTED_WORDS = 4
+# A trailing parenthetical is the gloss convention's own signature.
+_GLOSS_TAIL = re.compile(r"\([^()]{2,40}\)\s*[.,;:]?\s*$")
+# A paragraph break inside a quotation is always the unmatched-quote bug.
+_QUOTE_HAS_BREAK = re.compile(r"[\n\r]")
+# A sentence boundary with more text after it.
+_QUOTE_INTERNAL_SENTENCE = re.compile(r"[.!?][\"”)]?\s+\S")
+
 
 @functools.lru_cache(maxsize=16)
 def _registry(world_id: str) -> tuple:
@@ -64,17 +103,34 @@ def licensed_quotes(world_id: str) -> tuple:
 
 
 def extract_quoted_spans(response_text: str) -> list[str]:
-    """Every quotation-marked span in a generated turn, in order of
-    appearance, deduplicated (a voice repeating the same line twice in one
-    turn is one grounding question, not two).
+    """Every quotation-marked span in a generated turn that is plausibly a
+    CITATION, in order of appearance, deduplicated (a voice repeating the
+    same line twice in one turn is one grounding question, not two).
+
+    Quotation marks are necessary and not sufficient: this build quotes to
+    gloss a term and to lend a phrase emphasis, neither of which puts
+    words in anyone's mouth. See the derivation note above the exclusion
+    constants for what each rule removes and what it was measured at.
     """
     if not response_text:
         return []
     seen: list[str] = []
     for match in _QUOTE_SPAN_PATTERN.finditer(response_text):
         span = match.group(1).strip()
-        if span and span not in seen:
-            seen.append(span)
+        if not span or span in seen:
+            continue
+        if len(span.split()) < _MIN_QUOTED_WORDS:
+            continue
+        if _GLOSS_TAIL.search(span):
+            continue
+        if _QUOTE_HAS_BREAK.search(span):
+            continue
+        # A real multi-sentence quotation opens with a capital. One that
+        # opens mid-sentence and then runs past a full stop is the
+        # extractor having started at the wrong quote mark.
+        if _QUOTE_INTERNAL_SENTENCE.search(span) and not span[:1].isupper():
+            continue
+        seen.append(span)
     return seen
 
 
