@@ -164,6 +164,24 @@ RUNAWAY_MOVE_TWO = (
     + UNREADABLE_LONG
 )
 
+# The lexicon-order pair (2026-08-17). The clean turn follows the CURRENT
+# design - modern easy-read word first, the world's word introduced against
+# it, Mark's own "two ways to see the world (the two ways)" shape. The seeded
+# turn is the superseded design: the world's word assumed, the explanation
+# trailing after it. Both turns say the same thing and score almost
+# identically on FK and FRE, which is the point - no sentence-architecture
+# measure can tell them apart.
+LEXICON_LED = (
+    "Papnoute: Withdrawal was the first move, and it was a move toward "
+    "something rather than away. We called it anachoresis. A brother went "
+    "out to the edge of the settled land, and stayed."
+)
+LEXICON_BARE = (
+    "Papnoute: Anachoresis was the first move, and it was a move toward "
+    "something rather than away. That is the word we used. A brother went "
+    "out to the edge of the settled land, and stayed."
+)
+
 CHUNK_BODY = (
     "The covenant is a lifelong vow. Its members remain in the town among "
     "their kin. The vow is entered by men and women alike. The fast and the "
@@ -355,6 +373,9 @@ def seeded_sets():
     w3["fixreadD"] = dict(w3["fixreadD"], dialogue=OBSCURE_OPENING)
     w4 = readability_clean()
     w4["fixreadD"] = dict(w4["fixreadD"], dialogue=RUNAWAY_MOVE_TWO)
+    # The superseded order: the world's word assumed, explanation trailing.
+    w5 = readability_clean()
+    w5["fixreadL"] = dict(w5["fixreadL"], dialogue=LEXICON_BARE)
     s["readability"] = [
         ("emic quote text_translation past the FK/FRE reading floor "
          "(the Marius-reconstruction shape)", w1),
@@ -363,6 +384,8 @@ def seeded_sets():
          "answer, behind a plain second half that hid it from the average", w3),
         ("emic demonstration whose move two runs past dense into "
          "impenetrable behind a clean opening", w4),
+        ("emic demonstration reaching for the world's own word before any "
+         "plain form has carried it - the superseded order", w5),
     ]
     return s
 
@@ -419,6 +442,19 @@ def readability_clean():
     voice = {"id": "fixreadV", "world_id": "fixture-world", "record_type": "voice_profile",
               "schema_version": 1, "register": "emic",
               "speaking_model": READABLE_TEXT, "trait_rubric": READABLE_TEXT}
+    # A term record, so lexicon_index() has a lexicon to build. Written in
+    # the records' own current format - world word leading, plain gloss in
+    # the parenthetical - because that is what every real term record looks
+    # like and the gate has to read them as they are, not as they will be.
+    term = {"id": "fixreadT", "world_id": "fixture-world", "record_type": "term",
+            "schema_version": 1, "register": "emic",
+            "term": "Anachoresis (Withdrawal)",
+            "aliases": ["withdrawal", "anachoresis"],
+            "quick_meaning": "Going out to the edge of the settled land, and staying."}
+    demo_lex = {"id": "fixreadL", "world_id": "fixture-world",
+                "record_type": "demonstration", "schema_version": 1,
+                "register": "emic", "dialogue": LEXICON_LED,
+                "situation_tag": "fixture"}
     etic_scaffolding = {"id": "fixreadE", "world_id": "fixture-world",
                         "record_type": "story", "schema_version": 1,
                         "register": "etic", "title": "fixture etic note",
@@ -427,7 +463,8 @@ def readability_clean():
                         "attested_occasion": "the attested occasion",
                         "tellable_as": "scene"}
     return {r["id"]: r for r in
-            [quote, story, ambient, demo, voice, etic_scaffolding]}
+            [quote, story, ambient, demo, voice, term, demo_lex,
+             etic_scaffolding]}
 
 
 # -------------------------------------------------- alias safety (VG-1b)

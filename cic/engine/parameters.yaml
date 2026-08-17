@@ -112,6 +112,32 @@ parameters:
       lives in RCF V3.2 Part Five / Final Assembly 5c, and this file is now
       the canonical number both documents will point at (Phase 6). Sentence
       structure only, never vocabulary. Instrument: S1.3's readability gate.
+    vocabulary_exclusion_superseded: >-
+      2026-08-17 (Mark). The "independent of vocabulary" clause above, and
+      the "never vocabulary" in the note, describe the SUPERSEDED design, in
+      which the world's own word led and the explanation followed it. The
+      order has switched: participant-facing prose is held to modern
+      easy-read words FIRST, and the lexicon word is introduced against the
+      plain one - "two ways to see the world (the two ways)" before
+      "baptism (the water)". Word choice is therefore IN scope. It is
+      measured with Dale-Chall, the industry-standard word-choice instrument
+      (share of words outside a 2,941-word familiar list), not with a
+      syllable count - a syllable count measures how hard a word is to say,
+      not whether the reader knows it, and a floor built on one was shipped
+      and withdrawn the same day. The FK/FRE band above still governs
+      sentence architecture and is unchanged. Dale-Chall is REPORTED, not
+      thresholded: see reading_floor_calibration below.
+    reading_floor_calibration: >-
+      OPEN. The [8, 10] band is quoted from RCF V3.2, which asserts it as the
+      general "writing for the general public" recommendation. It has never
+      been checked against the exemplars this system is actually aiming at -
+      National Geographic, BBC, Bible Project, which take complex sourced
+      material and make it readable. Secondary reporting puts BBC News near
+      FK 6, well below this band; if that holds, the band is set too high and
+      corpus prose has been edited toward it. Settling this needs those
+      outlets' own text measured with this same instrument, per move. Until
+      then no Dale-Chall threshold is set, because inventing one is the error
+      this entry exists to record.
 
   drift_signal_count_emitted:
     value: 20

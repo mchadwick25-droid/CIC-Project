@@ -414,14 +414,21 @@ def representative_turns(dialogue: str,
 
 
 def _measure(segment: str) -> dict:
-    """FK and FRE for one segment, or None if it is too short for those
-    numbers to mean anything.
+    """Sentence structure and word choice for one segment, or None if it is
+    too short for those numbers to mean anything.
 
-    No vocabulary statistic is reported here, deliberately. parameters.yaml
-    scopes the reading floor to sentence structure and says twice that it is
-    independent of vocabulary; a syllable count sitting in this dict as a
-    harmless observation is how it gets picked up and used as a threshold
-    again, which is exactly what happened once already.
+    THREE numbers, not two. FK and FRE are sentence-architecture measures -
+    FK's vocabulary term is a syllable count, which is not a measure of
+    whether a reader knows the word. Dale-Chall is the industry-standard
+    word-CHOICE instrument: the share of words falling outside a 2,941-word
+    familiar list. That is the difference between "hard to say" and "unknown",
+    and under the current design (plain modern word first, lexicon word
+    introduced after) word choice is squarely in scope.
+
+    parameters.yaml still says the reading floor is "independent of
+    vocabulary". That parameter describes the SUPERSEDED design, where the
+    world's own word led and the explanation followed; see its own dated note.
+    Do not read it as excluding this.
     """
     if len(segment.split()) < _MIN_SCOREABLE_WORDS:
         return None
@@ -430,7 +437,106 @@ def _measure(segment: str) -> dict:
         "words": len(segment.split()),
         "fk_grade": round(textstat.flesch_kincaid_grade(segment), 2),
         "fre": round(textstat.flesch_reading_ease(segment), 2),
+        "dale_chall": round(textstat.dale_chall_readability_score(segment), 2),
     }
+
+
+# ------------------------------------------------------ the lexicon's order
+#
+# Mark, 2026-08-17, correcting the design this module had been reading out of
+# a stale parameter: "the independence of vocabulary was under an old design
+# where we were using the world words and then explaining them, but we have
+# switched the order and are now limiting words to modern easy read and then
+# introducing the lexicon word. we taught about two ways to see the world (the
+# two ways) before we came to baptism (the water)."
+#
+# So the rule is positional and it needs no threshold: the plain modern form
+# leads, the world's word is introduced against it. Both halves are already in
+# the term records, and those records are still written in the OLD order -
+#
+#     term: 'Anachoresis (Withdrawal)'      world word first, plain in parens
+#     term: 'Knowledge / Gnosis'
+#
+# - which is itself worth seeing.
+#
+# What counts as "the lexicon word" is decided by the same familiar-word list
+# Dale-Chall uses, not by a guess. Alexandria's lexicon carries Teacher, Soul,
+# Love and Prayer as terms; those are already modern easy-read words and
+# flagging them would make this gate noise. A term form is a lexicon word only
+# if some part of it falls outside the familiar list.
+def _familiar_words():
+    from textstat.backend.utils._get_lang_easy_words import get_lang_easy_words
+    return get_lang_easy_words("en")
+
+
+def _fold(text: str) -> str:
+    """Strip diacritics so raza / razā / rāzā are one form."""
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", text or "")
+                   if not unicodedata.combining(c)).lower()
+
+
+_TERM_TOKEN = re.compile(r"[a-z' -]{4,}")
+
+
+def lexicon_index(records: dict) -> tuple:
+    """(lexicon forms, plain forms) for a world, from its own term records.
+
+    A form whose every word is on the familiar list is a PLAIN form - it is
+    what should lead. Anything else is a lexicon word needing introduction.
+    """
+    easy = _familiar_words()
+    lexicon, plain = {}, set()
+
+    def parts(raw):
+        for chunk in re.split(r"[/,]", re.sub(r"\([^)]*\)", " ", raw or "")):
+            chunk = _fold(chunk.strip().strip('"'))
+            if _TERM_TOKEN.fullmatch(chunk):
+                yield chunk
+
+    for rid, r in sorted(records.items()):
+        if r.get("record_type") != "term":
+            continue
+        sources = [r.get("term", "")]
+        sources += [a for a in (r.get("aliases") or []) if isinstance(a, str)]
+        # the parenthetical inside a term head is the world's own gloss -
+        # "Anachoresis (Withdrawal)" hands us the plain form directly
+        for gloss in re.findall(r"\(([^)]*)\)", r.get("term", "") or ""):
+            for form in parts(gloss):
+                plain.add(form)
+        for src in sources:
+            for form in parts(src):
+                if all(w.strip("'-") in easy for w in form.split()):
+                    plain.add(form)
+                else:
+                    lexicon.setdefault(form, rid)
+    # A form reachable both ways is plain. Flagging an ordinary English word
+    # as the lexicon word is the failure that makes a check like this useless.
+    for form in plain:
+        lexicon.pop(form, None)
+    return lexicon, plain
+
+
+def lexicon_order_findings(turn: str, lexicon: dict, plain: set) -> list:
+    """Did a lexicon word arrive before any plain form that could carry it?"""
+    if not lexicon:
+        return []
+    folded = _fold(turn)
+    pattern = re.compile(r"\b(" + "|".join(sorted(map(re.escape, lexicon),
+                                                  key=len, reverse=True)) + r")\b")
+    hit = pattern.search(folded)
+    if not hit:
+        return []
+    word, at = hit.group(1), hit.start()
+    if plain:
+        lead = re.compile(r"\b(" + "|".join(sorted(map(re.escape, plain),
+                                                   key=len, reverse=True)) + r")\b")
+        if lead.search(folded[:at]):
+            return []
+    where = "move one" if _fold(split_moves(turn)[0]).find(word) != -1 else "move two"
+    return [f"lexicon word '{word}' ({lexicon[word]}) arrives in {where} with no "
+            f"plain form ahead of it - the modern word leads, the world's word "
+            f"is introduced against it"]
 
 
 def two_move_readability(turn: str) -> dict:
@@ -536,6 +642,7 @@ def gate_voice_readability(records: dict) -> list:
     just in name).
     """
     out = []
+    lexicon, plain = None, set()
     for rid, r in sorted(records.items()):
         if r.get("register") != "emic":
             continue
@@ -544,8 +651,12 @@ def gate_voice_readability(records: dict) -> list:
             dialogue = r.get("dialogue")
             if not isinstance(dialogue, str) or not dialogue.strip():
                 continue
+            if lexicon is None:  # built once per world, not once per record
+                lexicon, plain = lexicon_index(records)
             for i, turn in enumerate(representative_turns(dialogue), start=1):
-                for finding in two_move_readability(turn)["violations"]:
+                findings = (two_move_readability(turn)["violations"]
+                            + lexicon_order_findings(turn, lexicon, plain))
+                for finding in findings:
                     out.append(f"{_NOTE_PREFIX} {rid}.dialogue turn {i}: {finding}")
             continue
 
