@@ -1574,7 +1574,36 @@ Use the same numbering as above. Do not add commentary outside these lines."""
 
 
 _QUOTATION_GROUNDING_LINE_PATTERN = re.compile(
-    r"^\s*([A-Za-z])\.\s*(MATCH|NONE)\s*:?\s*(\d+)?", re.IGNORECASE)
+    r"^\s*([A-Za-z])\.\s*(MATCH|NONE|NOT_A_CITATION)\s*:?\s*(\d+)?",
+    re.IGNORECASE)
+
+
+def _span_context(response_text: str, span: str, before: int = 140,
+                  after: int = 60) -> str:
+    """The sentence a span sits in, so the judge can see who is credited.
+
+    A quoted span carries none of its own attribution - "You are the
+    Christ, the Son of the living God." says nothing about Peter, who is
+    named in the words before the quotation mark. Judged on the span
+    alone the model called plain scripture NOT_A_CITATION; given the
+    surrounding sentence it stopped. Worth two lines of slicing.
+
+    An attributed span is a RENDERING ("...wrote back ... that it was
+    ordinary food."), not a substring of the turn, so the clause tail is
+    used as the anchor when the whole span will not be found.
+    """
+    anchor = span
+    if anchor not in response_text:
+        for separator in (" that ", ": "):
+            if separator in span:
+                anchor = span.split(separator)[-1]
+                break
+    index = response_text.find(anchor)
+    if index < 0:
+        return ""
+    start = max(0, index - before)
+    end = min(len(response_text), index + len(anchor) + after)
+    return " ".join(response_text[start:end].split())
 
 
 def check_quotation_grounding(
@@ -1660,26 +1689,44 @@ def check_quotation_grounding(
                 request_id=request_id, session_id=session_id)
             return
 
-        spans_block = "\n".join(
-            f"{chr(65 + i)}. {span}" for i, span in enumerate(spans))
+        spans_block = "\n\n".join(
+            f"{chr(65 + i)}. {span}\n   sentence it appears in: "
+            f"...{_span_context(response_text, span)}..."
+            for i, span in enumerate(spans))
         candidates_block = "\n".join(
             f"{i}. {c.get('text_translation', '')}"
             for i, c in enumerate(candidates, start=1))
-        prompt = f"""A representative's response put the following saying(s) into someone's mouth - either quoted verbatim inside quotation marks, or attributed in reported speech ("X taught: ...", "X wrote ... that ..."). For EACH one, decide independently: does it match, or closely paraphrase, one of the numbered candidate quotations below - the SAME saying, even if worded slightly differently - or does it correspond to none of them?
+        prompt = f"""Passages were pulled out of a representative's response because they sat inside quotation marks or followed a speech verb. The extraction is deliberately broad. Your first job is to sort out which ones actually CREDIT SOMETHING TO A SOURCE.
 
-Passage(s) from the response:
+For EACH lettered passage below, answer with exactly one verdict.
+
+FIRST: is a source being credited? That means the passage presents its content as something a person, text or tradition said, wrote or taught - whether or not any words are quoted exactly.
+
+Reported speech counts. "Antony taught: better a man who prays badly..." credits a saying to Antony. "He wrote back that it was ordinary food" credits an observation to whoever wrote. Both are citations, in full, even though neither quotes a single word verbatim. Paraphrase does not make something stop being a citation - it is still a claim about what a source said, and that claim can be false.
+
+Answer NOT_A_CITATION only when NOTHING is being credited to anyone - the words are plainly the representative's own:
+  - its own inference or position, in quotation marks for emphasis ("Rome cannot err, therefore no counterexample exists")
+  - a hypothetical or illustration, sometimes with placeholders ("if a man held a grudge, he did X, and the deacon did Y")
+  - a fragment that does not stand as anything ("now instead of the", "who holds the building.")
+  - a term being glossed rather than quoted
+
+If a source IS being credited, decide whether the content matches, or closely paraphrases, one of the numbered candidates below - the SAME saying, even if worded a little differently. Answer MATCH: <number> if so, or NONE if it corresponds to no candidate listed.
+
+NONE is the serious answer: it says this representative credited words to a source that this world has not licensed. Two ways to get it wrong, both bad. Do not reach for NOT_A_CITATION because a passage is paraphrased, is short, or has a source you cannot place - a genuine citation of an unlisted source is NONE. And do not reach for MATCH on a resemblance of subject; the candidate must be the same saying.
+
+Passage(s) from the response, each with the sentence it sits in so you can see who, if anyone, is being credited:
 {spans_block}
 
 Candidate quotations already licensed for this world:
 
 {candidates_block}
 
-For EACH lettered passage, answer MATCH: <candidate number> if it is genuinely the same saying as that candidate, or NONE if it does not correspond to any candidate listed.
-
 Respond with exactly {len(spans)} lines, one per passage:
 A. MATCH: N
 or
 A. NONE
+or
+A. NOT_A_CITATION
 
 Use the same lettering as above. Do not add commentary outside these lines."""
 
@@ -1695,28 +1742,42 @@ Use the same lettering as above. Do not add commentary outside these lines."""
             return
 
         matched_letters: set[str] = set()
+        not_citation_letters: set[str] = set()
         for line in response.content.strip().split("\n"):
             match = _QUOTATION_GROUNDING_LINE_PATTERN.match(line)
             if not match:
                 continue
-            if match.group(2).upper() == "MATCH" and match.group(3):
+            verdict = match.group(2).upper()
+            if verdict == "MATCH" and match.group(3):
                 matched_letters.add(match.group(1).upper())
+            elif verdict == "NOT_A_CITATION":
+                not_citation_letters.add(match.group(1).upper())
 
         unlicensed_count = 0
+        not_citation_count = 0
         for i, span in enumerate(spans):
             letter = chr(65 + i)
-            if letter not in matched_letters:
-                unlicensed_count += 1
-                log_unlicensed_quotation(
-                    world_id, span, REASON_JUDGE_NO_MATCH,
-                    request_id=request_id, session_id=session_id,
-                    span_kind=span_kinds[span])
+            if letter in matched_letters:
+                continue
+            if letter in not_citation_letters:
+                # The judge says nothing was credited to anyone here - the
+                # turn quoting its own inference, a hypothetical, a scrap.
+                # Not a finding, and deliberately not logged as one: it is
+                # the extractor's breadth showing, not the world's.
+                not_citation_count += 1
+                continue
+            unlicensed_count += 1
+            log_unlicensed_quotation(
+                world_id, span, REASON_JUDGE_NO_MATCH,
+                request_id=request_id, session_id=session_id,
+                span_kind=span_kinds[span])
 
         outcome = OUTCOME_UNLICENSED if unlicensed_count else OUTCOME_ALL_MATCHED
         log_quotation_grounding_outcome(
             world_id, outcome, spans_checked=len(spans),
-            spans_matched=len(spans) - unlicensed_count,
+            spans_matched=len(matched_letters),
             spans_unlicensed=unlicensed_count,
+            spans_not_citation=not_citation_count,
             request_id=request_id, session_id=session_id)
     except Exception:
         try:
