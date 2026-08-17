@@ -1,0 +1,31 @@
+# Build context is cic/. Everything the serving app actually reads is
+# runtime/, deploy/, engine/ and records/ (the four roots named by
+# runtime/app/engine_bridge.py and runtime/app/config.py). The rest is
+# build-time or archival material and has no business in a 512MB box.
+
+# 154MB of primary-source texts. Nothing under runtime/app/ reads this
+# path - verified by grep before excluding it, not assumed.
+texts/
+
+# CI-only gates (isolation, record validation). They run in GitHub
+# Actions against the repo, never inside the served container.
+checks/
+
+# Generated at build time by runtime/scripts/build_indices.py. Copying a
+# host-built copy in would defeat the point: the image must contain
+# indices built against the records in THIS image.
+runtime/vector_store/
+
+# Ephemeral session logs. Never seed a container with someone else's.
+runtime/transcripts/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.env
+.env.*
+!.env.example
+.DS_Store
