@@ -6,5 +6,85 @@
   "locus": "Julius, Letter to the Eusebian Bishops, in Athanasius, Apologia contra Arianos 21 (part of the letter spanning ch. 20-35; the edition's own table of contents dates the letter 340 CE, one year off srcIJC04's 341 - not silently harmonized here)",
   "license": "verbatim",
   "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq002",
+  "speaker_figure_id": "ijcfig004",
+  "text_translation": "I will never willingly desert you, though if force is used, I cannot meet it. I shall be able to grieve, to weep, to groan; against weapons, soldiers, Goths, my tears are my weapons, for these are a priest's defence. I ought not, I cannot resist in any other way; but to fly and forsake the Church is not my way.",
+  "locus": "Ambrose, Sermon Against Auxentius on the Giving Up of the Basilicas, §2",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq003",
+  "speaker_figure_id": "ijcfig002",
+  "text_translation": "But since the victorious emperor himself long afterwards declared it to the writer of this history, when he was honored with his acquaintance and society, and confirmed his statement by an oath, who could hesitate to accredit the relation, especially since the testimony of after-time has established its truth?",
+  "locus": "Eusebius, Life of Constantine, Book I, ch. 28",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq004",
+  "speaker_figure_id": "ijcfig007",
+  "text_translation": "For each of the natures retains its proper character without defect. And as the form of God does not take away the form of a servant, so the form of a servant does not impair the form of God.",
+  "locus": "Leo I, Tome to Flavian (Epistle XXVIII), as read into the Acts of the Council of Chalcedon (451)",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq005",
+  "speaker_figure_id": "ijcfig007",
+  "text_translation": "And, if anywhere men venture upon what is contrary to their decrees, it is ipso facto null and void.",
+  "locus": "Leo I, Letter CVI, to Anatolius, Bishop of Constantinople (22 May 452)",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq006",
+  "speaker_figure_id": "ijcfig007",
+  "text_translation": "Let him not disdain a city which is royal, though he cannot make it an Apostolic See. And let him on no account hope that he can rise by doing injury to others.",
+  "locus": "Leo I, Letter CIV, to Marcian Augustus (22 May 452)",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq007",
+  "speaker_figure_id": "ijcfig007",
+  "text_translation": "But the bishops' assents, which are opposed to the regulations of the holy canons composed at Nicæa in conjunction with your faithful Grace, we do not recognize, and by the blessed Apostle Peter's authority we absolutely dis-annul in comprehensive terms.",
+  "locus": "Leo I, Letter CV, to Pulcheria Augusta (22 May 452)",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq008",
+  "speaker_figure_id": "ijcfig010",
+  "text_translation": "The pious people kept guard in the church, prepared to die with their bishop, Thy servant.",
+  "locus": "Augustine, Confessions 9.7",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq009",
+  "speaker_figure_id": "ijcfig010",
+  "text_translation": "Then didst Thou by a vision make known to Thy renowned bishop the spot where lay the bodies of Gervasius and Protasius, the martyrs. Thou hadst in Thy secret storehouse preserved [them] uncorrupted for so many years. Whence Thou mightest at the fitting time produce them to repress the feminine but royal fury.",
+  "locus": "Augustine, Confessions 9.7 (the discovery of Gervasius and Protasius)",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq010",
+  "speaker_figure_id": "ijcfig010",
+  "text_translation": "He begged to be permitted to touch with his handkerchief the bier of Thy saints, whose death is precious in Thy sight. When he had done this, and put it to his eyes, they were forthwith opened.",
+  "locus": "Augustine, Confessions 9.7 (the blind man healed at the martyrs' bier)",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
+ },
+ {
+  "quote_id": "ijcq011",
+  "speaker_figure_id": "ijcfig010",
+  "text_translation": "Thence did the fame spread. Thence did Thy praises burn,—shine. Thence was the mind of that enemy, though not yet enlarged to the wholeness of believing, restrained from the fury of persecuting.",
+  "locus": "Augustine, Confessions 9.7 (the miracle's effect on Justina's party)",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
  }
 ]

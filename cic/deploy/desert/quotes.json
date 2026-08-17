@@ -46,5 +46,13 @@
   "locus": "Apophthegmata Patrum, Macarius 19 (Alphabetical Collection)",
   "license": "paraphrase-only",
   "verification_state": "verified-via-authority"
+ },
+ {
+  "quote_id": "desertq007",
+  "speaker_figure_id": "desertfig014",
+  "text_translation": "So now I begin my tales. I shall leave unnoticed neither those in the cities nor those in the villages or deserts. For the object of our inquiry is not the place where they have settled but the fashion of their plan of life.",
+  "locus": "Palladius, Lausiac History, Prologue (close)",
+  "license": "verbatim",
+  "verification_state": "verified-direct"
  }
 ]
