@@ -1,0 +1,40 @@
+# Build context for cic/Dockerfile is the REPO ROOT, because the image has
+# to reach two trees: cic/ (the serving app and its records) and
+# cic-poc/frontend/ (the only participant-facing UI, and the one CI builds).
+#
+# The repo is 572MB and almost none of it belongs in a build context, so
+# this is an allowlist rather than a list of exclusions: deny everything,
+# then re-admit the four paths the Dockerfile actually copies. A new
+# directory added at the root is excluded by default, which is the right
+# way round - a context grows silently otherwise.
+*
+
+!cic/
+!cic-poc/frontend/
+
+# ...and then the heavy or irrelevant parts of what was just admitted.
+# 154MB of primary-source texts; nothing under runtime/app/ reads them.
+cic/texts/
+# CI-only gates. They run in GitHub Actions against the repo, never in
+# the served container.
+cic/checks/
+# Generated at build time by runtime/scripts/build_indices.py. A
+# host-built copy must never be admitted - the image has to contain
+# indices built against the records in THIS image.
+cic/runtime/vector_store/
+# Ephemeral session logs. Never seed a container with someone else's.
+cic/runtime/transcripts/
+
+# Installed and built inside the frontend stage, never copied in.
+cic-poc/frontend/node_modules/
+cic-poc/frontend/dist/
+
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.DS_Store
+**/.env
+**/.env.*
+!**/.env.example

@@ -1,6 +1,32 @@
-# Render Blueprint for cic-poc (the conversation table, 6 worlds).
-# One Docker service: backend serves the built frontend from the same
-# origin (see cic-poc/Dockerfile) — no separate static site needed here.
+# Render Blueprint for Church in Conversation (the conversation table, 6
+# worlds). One Docker service: the backend serves the built frontend from
+# the same origin — no separate static site, and no CORS in the request
+# path for the participant UI.
+#
+# ---------------------------------------------------------------------
+# 2026-08-17: SWITCHED TO THE CLEAN TREE, for Phase 2.
+#
+# This blueprint built ./cic-poc/Dockerfile against the ./cic-poc context
+# — the retired backend. Everything the project has built since lives in
+# cic/, which until today had no deployment artifact of any kind: no
+# Dockerfile, no index build step, no path at all from that tree to a
+# running service.
+#
+# dockerContext is now the repo root because the image needs two trees:
+# cic/ for the serving app, engine, records and deploy views, and
+# cic-poc/frontend for the participant UI — which is live, CI-built, and
+# already speaks exactly the endpoints cic/runtime serves, verified
+# endpoint by endpoint. (The retired half of the old tree is its BACKEND.
+# The frontend was never retired with it.) /.dockerignore allowlists
+# those two paths out of a 572MB repo.
+#
+# WHAT THE NEW BUILD GUARANTEES: cic/Dockerfile bakes both transformer
+# models and all twelve FAISS indices into the image, then asserts, with
+# the network refused, that every world retrieves without rebuilding.
+# Before this, the first participant to open a world paid for downloading
+# two models and embedding that world's corpus inside their own request —
+# the sequence with the OOM history recorded below.
+# ---------------------------------------------------------------------
 #
 # To deploy: Render dashboard -> New -> Blueprint -> connect this repo.
 # Render finds this file automatically at the repo root.
@@ -28,8 +54,8 @@ services:
   - type: web
     name: cic-poc
     runtime: docker
-    dockerfilePath: ./cic-poc/Dockerfile
-    dockerContext: ./cic-poc
+    dockerfilePath: ./cic/Dockerfile
+    dockerContext: .
     plan: standard
     envVars:
       - key: ANTHROPIC_API_KEY

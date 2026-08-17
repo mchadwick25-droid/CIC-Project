@@ -1,8 +1,10 @@
 # Church in Conversation - the serving image for the clean tree.
 #
-# Build context is cic/ (see .dockerignore). Build from the repo root:
+# Build context is the REPO ROOT, not cic/ - the image needs cic/ and the
+# participant-facing frontend, which lives outside it. See /.dockerignore,
+# which allowlists exactly those two trees out of a 572MB repo.
 #
-#     docker build -f cic/Dockerfile -t cic ./cic
+#     docker build -f cic/Dockerfile -t cic .
 #
 # THE POINT OF THIS FILE is that nothing expensive happens on a live
 # instance. Two things used to happen inside the first participant's
@@ -21,6 +23,31 @@
 # fails if either did not actually land. A green build is therefore
 # evidence, not intent.
 
+# --- stage 1: the participant-facing UI --------------------------------
+# cic/ has no frontend of its own. The one that exists is cic-poc/frontend
+# - live, CI-built (the "Frontend build (tsc + vite build)" job), and
+# already compatible: every endpoint it calls (/api/worlds, /api/session/
+# start, /api/session/{id}/message/stream, /api/lexicon, /api/resources,
+# /api/repository/record/{id}) is served by cic/runtime/app/main.py, and
+# it addresses them relative to its own origin. Served from this same
+# container that means no CORS configuration is involved at all.
+#
+# NOTE ON THE OLD TREE: cic-poc/BACKEND is retired and is never read,
+# copied or referenced. The frontend is a different thing and was never
+# retired with it.
+#
+# Node 20 to match the CI job, so a build that passes there builds here.
+FROM node:20-slim AS frontend
+WORKDIR /build
+COPY cic-poc/frontend/package.json cic-poc/frontend/package-lock.json ./
+RUN npm ci
+COPY cic-poc/frontend/ ./
+# `npm run build` is tsc && vite build - a type error fails the image,
+# which is the same bar CI holds it to.
+RUN npm run build
+
+
+# --- stage 2: the serving image ----------------------------------------
 FROM python:3.11-slim
 
 # curl is for HEALTHCHECK only; build-essential is dropped again after
@@ -63,7 +90,7 @@ RUN pip install --no-cache-dir \
         --index-url https://download.pytorch.org/whl/cpu \
         torch==2.13.0
 
-COPY runtime/requirements.txt ./runtime/requirements.txt
+COPY cic/runtime/requirements.txt ./runtime/requirements.txt
 RUN pip install --no-cache-dir -r runtime/requirements.txt
 # NOTE: requirements.txt's last block (textstat, nltk) is labelled "engine
 # gate suite only", and that is exactly true of the serving path - nothing
@@ -79,10 +106,15 @@ RUN pip install --no-cache-dir -r runtime/requirements.txt
 # records/ are here because runtime/app/engine_bridge.py resolves guards,
 # parameters and glosses out of them at import time, and nodes.py /
 # repair_classifier.py / modern_term_bridge.py read records directly.
-COPY engine/  ./engine/
-COPY records/ ./records/
-COPY deploy/  ./deploy/
-COPY runtime/ ./runtime/
+COPY cic/engine/  ./engine/
+COPY cic/records/ ./records/
+COPY cic/deploy/  ./deploy/
+COPY cic/runtime/ ./runtime/
+
+# main.py serves this directory if it exists and runs API-only if it does
+# not (app/main.py:2263, _FRONTEND_DIST = <cic>/frontend/dist), so the
+# path is fixed by the app rather than chosen here.
+COPY --from=frontend /build/dist ./frontend/dist
 
 # --- bake the indices and the models --------------------------------
 # This is the step whose absence caused the OOM. One shared embedding
