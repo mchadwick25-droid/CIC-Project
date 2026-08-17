@@ -93,17 +93,27 @@ def log_unlicensed_quotation(
     *,
     request_id: str | None = None,
     session_id: str | None = None,
+    span_kind: str = "quoted",
 ) -> None:
     """Log one specific UNLICENSED span - the finding a human spot-review
     actually reads. span_text is truncated, not hashed: the whole point is
     a reviewer can judge the finding from the log line alone.
+
+    span_kind separates the two extractors feeding this check. "quoted" is
+    a quotation-mark span, whose detection is exact. "attributed" is
+    reported speech carrying no quotation marks (quote_index.
+    extract_attributed_spans), whose detection is a measured heuristic -
+    and the class that carried both fabrications the 2026-08-17 generation
+    audit found. Logged apart because their precision differs, so a rate
+    computed across both would mean nothing. Defaults to "quoted", so the
+    old call shape and every line already written keep their meaning.
     """
     try:
         preview = span_text[:200].replace("\n", " ")
         logger.info(
-            "[groundedness_quote_span] world_id=%s reason=%s request_id=%s "
-            "session_id=%s span=%r",
-            world_id, reason, request_id, session_id, preview,
+            "[groundedness_quote_span] world_id=%s reason=%s span_kind=%s "
+            "request_id=%s session_id=%s span=%r",
+            world_id, reason, span_kind, request_id, session_id, preview,
         )
     except Exception:
         pass

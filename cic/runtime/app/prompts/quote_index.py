@@ -76,3 +76,118 @@ def extract_quoted_spans(response_text: str) -> list[str]:
         if span and span not in seen:
             seen.append(span)
     return seen
+
+
+# --------------------------------------------------------------------------
+# Attributed indirect speech - the half quotation marks do not catch.
+#
+# WHY THIS EXISTS. The 2026-08-17 generation audit found two fabrications
+# this module's quotation-mark extractor is structurally blind to, because
+# neither is quotation-marked:
+#
+#   Antony taught: better a man who prays badly but knows himself weak,
+#   than one who works wonders and thinks he stands alone.
+#       - a saying minted whole and hung on a named person. Absent from
+#         records/desert/ and deploy/desert/ alike. Papnoute's permanent
+#         prompt forbids exactly this in four separate places, ending "we
+#         do not mint sayings. A word in the saying-shape that no one of
+#         us actually said would travel as though someone had."
+#
+#   ...wrote back, almost disappointed, that it was ordinary food.
+#       - Pliny's testimony, real and carried in pahcstory004, with the
+#         name that makes it evidence stripped off.
+#
+# On those two turns extract_quoted_spans returns one span and zero spans
+# respectively - and the one span is a lexicon gloss, not a quotation. A
+# representative that attributes a saying WITHOUT quotation marks is
+# invisible to the grounding gate. That is the gap these patterns close.
+#
+# HOW THEY WERE DERIVED, and what that is worth. Tuned on the 54 turns of
+# the second generation pass, where they find 9 spans (0.2 per turn), all
+# 9 genuine attributed speech. Tuned on - so that figure is a fit, not a
+# measurement. Then run unchanged over the 54 turns of the FIRST pass,
+# different retrieval and different answers, never used for tuning: 4
+# spans, all 4 genuine. That held-out run is the number worth anything.
+#
+# Recall is established by neither. These catch the colon form and the
+# close that-clause; an attribution phrased another way still passes
+# unseen. This narrows the blind spot, it does not close it.
+
+# Verbs that report SPEECH. "shows", "suggests", "indicates" are
+# deliberately absent - a record showing something is the turn reasoning
+# from its material, not the turn putting words in a named mouth.
+_SPEECH_VERB = (r"(?:taught|teaches|wrote|writes|said|says|told|tells|"
+                r"put it|puts it|answered|answers|replied|replies|"
+                r"reports|records|describes|calls it)")
+
+# Form A: <Name> <speech verb>: <clause>
+_ATTRIBUTED_COLON = re.compile(
+    rf"\b([A-Z][\w'’\-]*(?:\s+(?:of|the|[a-z]{{1,4}}|[A-Z][\w'’\-]*)){{0,3}})\s+"
+    rf"{_SPEECH_VERB}\s*:\s*([^.!?\n]{{12,}}[.!?])")
+
+# Form B: <speech verb> ... that <clause>. The 30-character bridge is the
+# working limit found by sweep: below it Pliny's ", almost disappointed,"
+# is lost; well above it the relative-pronoun uses start coming in.
+_ATTRIBUTED_THAT = re.compile(
+    rf"\b(?<!\bthat )({_SPEECH_VERB})\b([^.!?\n]{{0,30}}?)\bthat\s+"
+    rf"([^.!?\n]{{12,}}[.!?])")
+
+# The turn declaring an ABSENCE - "does not tell us", "never says",
+# "nowhere records" - is the opposite of the failure being hunted.
+_ATTRIBUTED_NEGATED = re.compile(
+    r"(?:not|never|n't|no|cannot|can't|nowhere)\s+(?:\w+\s+){0,2}$")
+
+# "that" as a RELATIVE PRONOUN attaches to the noun in front of it - "a
+# synod that had deposed", "a community that already has", "every question
+# that could be put". A determiner plus a noun immediately before "that"
+# is the signature, and no true attribution carries it.
+_ATTRIBUTED_RELATIVE = re.compile(
+    r"\b(?:a|an|the|every|each|any|one|another|some|no)\s+[\w'’\-]+\s*,?\s*$",
+    re.IGNORECASE)
+_ATTRIBUTED_SUBORDINATOR = re.compile(
+    r"\b(?:as though|as if|so|now|such|given|in)\s*$", re.IGNORECASE)
+
+# A complementizer "that" opens a CLAUSE, so a pronoun, determiner or
+# subordinator follows it. A demonstrative determiner is followed by its
+# own noun - "that day in church", "that night", "that silence is heard" -
+# which is what every remaining false fire turned out to be.
+_ATTRIBUTED_CLAUSE_OPENER = re.compile(
+    r"^(?:it|he|she|they|we|you|i|this|these|those|the|a|an|if|when|while|"
+    r"what|there|his|her|their|our|its|my|no|nothing|someone|somewhere|"
+    r"anyone|anything|everything|both|each|one|since|because|by|for)\b",
+    re.IGNORECASE)
+
+
+def extract_attributed_spans(response_text: str) -> list[str]:
+    """Every span where the turn attributes speech to someone WITHOUT
+    quotation marks, in order of appearance, deduplicated.
+
+    Deterministic and LLM-free, exactly like extract_quoted_spans, and
+    judged downstream by the same batched call. See the block comment
+    above for what these rules were measured at, and what they miss.
+    """
+    if not response_text:
+        return []
+    seen: list[str] = []
+
+    for match in _ATTRIBUTED_COLON.finditer(response_text):
+        span = f"{match.group(1)} ...: {match.group(2).strip()}"
+        if span not in seen:
+            seen.append(span)
+
+    for match in _ATTRIBUTED_THAT.finditer(response_text):
+        preceding = response_text[max(0, match.start() - 40):match.start()]
+        if _ATTRIBUTED_NEGATED.search(preceding):
+            continue
+        bridge = match.group(2)
+        if (_ATTRIBUTED_RELATIVE.search(bridge)
+                or _ATTRIBUTED_SUBORDINATOR.search(bridge)):
+            continue
+        clause = match.group(3).strip()
+        if not _ATTRIBUTED_CLAUSE_OPENER.match(clause):
+            continue
+        span = f"...{match.group(1)}{bridge} that {clause}"
+        if span not in seen:
+            seen.append(span)
+
+    return seen

@@ -1621,10 +1621,26 @@ def check_quotation_grounding(
         OUTCOME_UNLICENSED, REASON_JUDGE_NO_MATCH, REASON_NO_CANDIDATES,
         log_quotation_grounding_outcome, log_unlicensed_quotation,
     )
-    from app.prompts.quote_index import extract_quoted_spans, licensed_quotes
+    from app.prompts.quote_index import (
+        extract_attributed_spans, extract_quoted_spans, licensed_quotes,
+    )
 
     try:
-        spans = extract_quoted_spans(response_text)
+        quoted = extract_quoted_spans(response_text)
+        # Attributed indirect speech - "Antony taught: ...", "wrote back
+        # ... that it was ordinary food" - carries the same grounding
+        # question as a quotation and none of the quotation marks. Added
+        # 2026-08-17 after an audit found two fabrications that were
+        # invisible here for exactly that reason; see the derivation note
+        # in quote_index.py, including what it does NOT catch.
+        attributed = [s for s in extract_attributed_spans(response_text)
+                      if s not in quoted]
+        spans = quoted + attributed
+        # Kept per-span so the Phase-0 log never conflates the two: their
+        # extractors have different precision, and a rate mixed across
+        # both would be uninterpretable.
+        span_kinds = {s: "quoted" for s in quoted}
+        span_kinds.update({s: "attributed" for s in attributed})
         if not spans:
             log_quotation_grounding_outcome(
                 world_id, OUTCOME_NO_QUOTES,
@@ -1636,7 +1652,8 @@ def check_quotation_grounding(
             for span in spans:
                 log_unlicensed_quotation(
                     world_id, span, REASON_NO_CANDIDATES,
-                    request_id=request_id, session_id=session_id)
+                    request_id=request_id, session_id=session_id,
+                    span_kind=span_kinds[span])
             log_quotation_grounding_outcome(
                 world_id, OUTCOME_UNLICENSED, spans_checked=len(spans),
                 spans_matched=0, spans_unlicensed=len(spans),
@@ -1648,9 +1665,9 @@ def check_quotation_grounding(
         candidates_block = "\n".join(
             f"{i}. {c.get('text_translation', '')}"
             for i, c in enumerate(candidates, start=1))
-        prompt = f"""A representative's response quoted the following passage(s) verbatim (marked by quotation marks in the response). For EACH quoted passage, decide independently: does it match, or closely paraphrase, one of the numbered candidate quotations below - the SAME saying, even if worded slightly differently - or does it correspond to none of them?
+        prompt = f"""A representative's response put the following saying(s) into someone's mouth - either quoted verbatim inside quotation marks, or attributed in reported speech ("X taught: ...", "X wrote ... that ..."). For EACH one, decide independently: does it match, or closely paraphrase, one of the numbered candidate quotations below - the SAME saying, even if worded slightly differently - or does it correspond to none of them?
 
-Quoted passage(s) from the response:
+Passage(s) from the response:
 {spans_block}
 
 Candidate quotations already licensed for this world:
@@ -1692,7 +1709,8 @@ Use the same lettering as above. Do not add commentary outside these lines."""
                 unlicensed_count += 1
                 log_unlicensed_quotation(
                     world_id, span, REASON_JUDGE_NO_MATCH,
-                    request_id=request_id, session_id=session_id)
+                    request_id=request_id, session_id=session_id,
+                    span_kind=span_kinds[span])
 
         outcome = OUTCOME_UNLICENSED if unlicensed_count else OUTCOME_ALL_MATCHED
         log_quotation_grounding_outcome(
