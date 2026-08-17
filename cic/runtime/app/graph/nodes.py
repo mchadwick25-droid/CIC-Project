@@ -2261,9 +2261,28 @@ def stream_representative_turn(state: ConversationState, is_reactive: bool = Fal
     # two short turns cost more than one long one and deliver less). Its
     # only unique job was voice discipline, and a word count is a poor
     # instrument for it: a turn can stack four particulars into 200 words
-    # or rest on one across 400. That failure is now BURIED_ANSWER and
-    # ACCUMULATION in the monitoring prompt, correcting the next turn
-    # instead of rewriting this one.
+    # or rest on one across 400.
+    #
+    # THAT FAILURE IS CURRENTLY UNREPORTED, and this comment claimed
+    # otherwise for several hours - worth recording rather than quietly
+    # correcting, since a stale comment asserting a gap is covered is how
+    # the gap survives the next reader. Two signals were written the same
+    # day to catch it: BURIED_ANSWER for a turn that develops before it
+    # answers, ACCUMULATION for one that deploys three particulars where
+    # one would carry it. Both were reverted within the hour because
+    # seeded probes showed neither fired - a turn spending six sentences
+    # before reaching its answer drew no signal at all, and a turn
+    # stacking six particulars drew over_settling on unrelated grounds.
+    # That is the same silence OVER_PRODUCING already sits in, having been
+    # written for this class and fired zero times across 45 turns.
+    #
+    # The honest state: the shape rule is stated in the representative
+    # prompt (A Turn Has a Measure, Let the Question Set the Shape) and
+    # nothing measures compliance. The intended instrument is the pilot's
+    # own pair - reading time against answer length for the too-long edge,
+    # repair rate for the too-short one - neither of which asks a model to
+    # judge shape, and both of which need real participants rather than
+    # seeded probes.
     #
     # It also contradicted the prompt it enforced. "Let the Question Set
     # the Shape, Not a Habit" names uniform turns as the defect; a gate

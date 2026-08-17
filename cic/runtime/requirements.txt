@@ -36,6 +36,24 @@ rank-bm25==0.2.2
 anthropic==0.122.0
 pyyaml==6.0.1
 
+# app/auth.py - identity, and through it every durable store. Missing from
+# this file until 2026-08-17, for the same reason rank-bm25 nearly was but
+# one level worse: the import sits inside _get_client(), reached only when
+# supabase_configured() is true, which happens only when SUPABASE_URL and
+# SUPABASE_SERVICE_KEY are set. The empirical method this manifest was
+# recovered by - run app.main until the next ModuleNotFoundError - can
+# never reach a branch gated on env vars that were unset.
+#
+# What its absence would have bought on the deploy that finally set those
+# variables: the app boots, /health passes, and supabase_configured()
+# returns true because it only tests that two strings are non-empty.
+# get_current_user then raises ModuleNotFoundError on every signed-in
+# request, while events._persist_supabase and transcript_logging swallow
+# the identical error by design. No sign-in, no durability, and no error -
+# a pilot whose whole purpose is collecting transcripts, silently
+# collecting none.
+supabase==2.31.0
+
 # engine gate suite (cic/engine/run_gates.py --check) only:
 textstat==0.7.13
 nltk==3.10.3
