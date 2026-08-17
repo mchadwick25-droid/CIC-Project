@@ -241,6 +241,45 @@ def selftest() -> int:
         if not predicate():
             failures.append(f"readability/two-move: {label} - does not hold")
 
+    # The lexicon's three-way classification (2026-08-17, Mark: the lead
+    # "should always be the understandable/accessable word/phrase ... but
+    # knowledge isnt a good explanation as it feeds misunderstanding").
+    # Two-way would be easy and wrong. A familiar word is not automatically an
+    # accessible one: for a sharp-gap term, the English half of the head is a
+    # FALSE FRIEND that may not carry the term in, while the Greek half is the
+    # term itself. Getting either of them into the wrong bucket is silent -
+    # one direction floods the report with "church" and "teacher", the other
+    # lets "knowledge" satisfy the check for gnosis, which is the specific
+    # failure this block exists to catch.
+    _sharp = {"id": "stgnosis", "record_type": "term", "register": "emic",
+              "term": "Knowledge / Gnosis", "grounding_criterion": "high",
+              "aliases": ["gnosis", "knowledge of God", "direct recognition"],
+              "modern_sense": "'knowledge' as propositional content, separable "
+                              "from the knower."}
+    _lex, _lead = core.lexicon_index({"stgnosis": _sharp})
+    lexicon_cases = [
+        ("the world's own word is what needs introducing",
+         lambda: "gnosis" in _lex),
+        ("the familiar half of the head may not lead",
+         lambda: "knowledge" not in _lead),
+        ("...and is not promoted to a finding either",
+         lambda: "knowledge" not in _lex),
+        ("a descriptive phrase is a valid lead",
+         lambda: "direct recognition" in _lead),
+        ("a description is never itself a trigger",
+         lambda: "knowledge of god" not in _lex),
+        ("a term with no sharp gap keeps its head as a plain lead",
+         lambda: "withdrawal" in core.lexicon_index(
+             {"stw": {"id": "stw", "record_type": "term", "register": "emic",
+                      "term": "Anachoresis (Withdrawal)",
+                      "grounding_criterion": "standard",
+                      "aliases": ["withdrawal", "anachoresis"]}})[1]),
+    ]
+    for label, predicate in lexicon_cases:
+        checked += 1
+        if not predicate():
+            failures.append(f"readability/lexicon-order: {label} - does not hold")
+
     print(f"selftest: {checked} case(s) across {len(GATES)} gate(s)")
     if failures:
         print(f"\nFAIL: {len(failures)} problem(s)")

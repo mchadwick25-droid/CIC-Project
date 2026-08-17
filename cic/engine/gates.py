@@ -479,14 +479,47 @@ def _fold(text: str) -> str:
 _TERM_TOKEN = re.compile(r"[a-z' -]{4,}")
 
 
+# A FAMILIAR word is not automatically an accessible one. Mark, 2026-08-17:
+# the lead "should always be the understandable/accessable word/phrase,
+# direct, experiential recognition the what we called (gnosis) but knowledge
+# isnt a good explanation as it feeds misunderstanding."
+#
+# So there are three categories here, not two. Beside the world's own word and
+# the plain phrase that should carry it, there is a FALSE FRIEND: an ordinary
+# English word that names the concept and, precisely because the reader
+# already knows it, installs the wrong one. "Knowledge" for gnosis.
+# "Participation" for methexis. Leading with those is worse than leading with
+# the Greek, because the Greek at least announces that something needs
+# explaining.
+#
+# The records already carry this and nothing was reading it. 86 of 118 terms
+# are grounding_criterion: high - a sharp gap between period and modern sense -
+# and each one's modern_sense field states the wrong hearing in its own words:
+#
+#   alexlex005  Knowledge / Gnosis
+#     modern_sense: "Two problems at once: 'knowledge' as propositional
+#                    content separable from the knower..."
+#   alexlex007  Participation
+#     modern_sense: "Involvement - taking part in activities, being included,
+#                    contributing. Not false, but far too shallow."
+#
+# For those terms the head itself is disqualified as a lead, along with
+# anything the record quotes as the misunderstanding. What remains - the
+# descriptive aliases, the experiential phrasing - is what may carry the
+# world's word in.
+_FALSE_FRIEND_QUOTE = re.compile(r"['‘’\"“”]([^'‘’\"“”]{3,40})"
+                                 r"['‘’\"“”]")
+
+
 def lexicon_index(records: dict) -> tuple:
     """(lexicon forms, plain forms) for a world, from its own term records.
 
-    A form whose every word is on the familiar list is a PLAIN form - it is
-    what should lead. Anything else is a lexicon word needing introduction.
+    A plain form is one a reader both knows AND is not misled by. A familiar
+    form that the record itself documents as the wrong hearing is neither
+    lexicon nor lead - it is disqualified from carrying the term.
     """
     easy = _familiar_words()
-    lexicon, plain = {}, set()
+    lexicon, plain, false_friends = {}, set(), set()
 
     def parts(raw):
         for chunk in re.split(r"[/,]", re.sub(r"\([^)]*\)", " ", raw or "")):
@@ -497,22 +530,60 @@ def lexicon_index(records: dict) -> tuple:
     for rid, r in sorted(records.items()):
         if r.get("record_type") != "term":
             continue
-        sources = [r.get("term", "")]
-        sources += [a for a in (r.get("aliases") or []) if isinstance(a, str)]
-        # the parenthetical inside a term head is the world's own gloss -
-        # "Anachoresis (Withdrawal)" hands us the plain form directly
-        for gloss in re.findall(r"\(([^)]*)\)", r.get("term", "") or ""):
-            for form in parts(gloss):
-                plain.add(form)
-        for src in sources:
-            for form in parts(src):
+        head = r.get("term", "") or ""
+        aliases = [a for a in (r.get("aliases") or []) if isinstance(a, str)]
+
+        # A sharp-gap term's own NAME cannot introduce it, whether the name
+        # reads as Greek or as ordinary English. This disqualifies it as a
+        # lead; it does NOT make it a lexicon word. Making false friends
+        # trigger findings flags every use of "church", "real" and "teacher",
+        # which is noise, and noise is how a check like this dies.
+        if str(r.get("grounding_criterion", "")).lower().startswith("high"):
+            # Only the half the reader thinks they already know. "Knowledge /
+            # Gnosis" splits into a false friend and a lexicon word: gnosis
+            # announces that it needs explaining, knowledge does the opposite.
+            # So a head form is disqualified as a lead when it is a familiar
+            # word, and stays a trigger when it is not.
+            for form in parts(head):
                 if all(w.strip("'-") in easy for w in form.split()):
+                    false_friends.add(form)
+            for field in ("modern_sense", "modern_hearing", "distortion_risk"):
+                v = r.get(field)
+                if isinstance(v, str):
+                    for quoted in _FALSE_FRIEND_QUOTE.findall(v):
+                        false_friends.update(parts(quoted))
+
+        # The parenthetical inside a term head is the world's own gloss and is
+        # always a lead: "Anachoresis (Withdrawal)" hands us the plain form
+        # directly, even though "withdrawal" is outside a fourth-grade list.
+        for gloss in re.findall(r"\(([^)]*)\)", head):
+            plain.update(parts(gloss))
+
+        for src in [head] + aliases:
+            for form in parts(src):
+                words = form.split()
+                if len(words) > 1:
+                    # A multi-word alias is a DESCRIPTION, not a name -
+                    # "sharing in divine life", "real sharing". Descriptions
+                    # are what should lead, so they are never triggers, even
+                    # when a word inside them is unfamiliar.
+                    plain.add(form)
+                elif words[0].strip("'-") in easy:
                     plain.add(form)
                 else:
+                    # a single unfamiliar token: the world's own word
                     lexicon.setdefault(form, rid)
-    # A form reachable both ways is plain. Flagging an ordinary English word
-    # as the lexicon word is the failure that makes a check like this useless.
+
     for form in plain:
+        lexicon.pop(form, None)
+    # False friends are NEITHER, and both halves of that matter. They may not
+    # carry the term in - that is Mark's point about "knowledge" for gnosis.
+    # But they are not triggers either: "knowledge" and "participation" are
+    # ordinary English carrying ordinary meanings most of the time, and a
+    # check that fires on every use of them is the noise that makes a gate
+    # unreadable. Disqualified from leading, not promoted to flagging.
+    for form in false_friends:
+        plain.discard(form)
         lexicon.pop(form, None)
     return lexicon, plain
 
