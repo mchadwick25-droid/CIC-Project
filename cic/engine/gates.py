@@ -321,23 +321,35 @@ SKIM_WINDOW_WORDS = 30
 # unscored rather than given a number that looks like a finding.
 _MIN_SCOREABLE_WORDS = 15
 
-# Move one, both directions - the fix to the one-directional floor this
-# module carried until now ("band floor 8 is reported, not failed").
+# Move one carries a CEILING ONLY, and the absence of a floor here is a
+# decision, not an oversight.
 #
-# The ceiling stays FK/FRE. The FLOOR is NOT FK, and that is the substantive
-# change. FK = 0.39*(words/sentence) + 11.8*(syllables/word) - 15.59, and
-# measured across the corpus, 67% of the gap between the sub-floor move-ones
-# and the in-band ones is the sentence-length term, only 33% the word term.
-# An FK floor would therefore mostly push six worlds toward longer sentences -
-# straight against the desert short-sentence rule this project added on
-# purpose in 2026-08-09 after a measured B2 breach. Syllables-per-word is the
-# term that actually tracks simplification, so that is what the floor guards.
-# 1.15 sits just under the corpus 10th percentile (1.17): it flags 9 of 127
-# move-ones, and the thinnest thing it finds is desertdemo008 at 1.09 - the
-# known overshoot, which scores "strong" on all four of its own traits. A
-# floor that catches the record the trait scores got wrong is the floor
-# earning its place.
-MOVE_ONE_BAND = {"fk_max": 10.0, "fre_min": 60.0, "syllables_per_word_min": 1.15}
+# A syllables-per-word floor stood here briefly (2026-08-17) as an attempt at
+# the both-directions guard, and was withdrawn the same day. It contradicted
+# this project's own governing parameter, which had already settled the
+# question and which I had not read before writing it -
+# parameters.yaml reading_floor says the band is "independent of vocabulary"
+# and "Sentence structure only, never vocabulary". Syllables-per-word is a
+# vocabulary measure. It also failed on its merits: it flagged nine move-ones
+# for using short words, which is not a defect, and Mark's objection was the
+# correct one - syllable count is not an indicator of quality.
+#
+# Nor can the floor be FK. FK = 0.39*(words/sentence) + 11.8*(syllables/word)
+# - 15.59, and measured across the corpus 67% of the gap between the
+# sub-floor move-ones and the in-band ones is the sentence-length term. An FK
+# floor would mostly push six worlds toward LONGER SENTENCES - against both
+# the desert short-sentence rule added after a measured breach, and the
+# exemplars this system is aiming at, which are plainer than the band, not
+# denser (BBC's measured grade sits near 6).
+#
+# The real conclusion is that the too-simple direction is not a readability
+# failure at all. "Oversimplified" means the answer left out the major
+# truths - a claim about CONTENT, which no readability formula can see. A
+# turn that omits everything that matters, said in short clean sentences,
+# scores beautifully here and always will. That direction is guarded by the
+# answer-completeness check, not by this one, and pretending a formula covers
+# it is how the floor stayed decorative for so long.
+MOVE_ONE_BAND = {"fk_max": 10.0, "fre_min": 60.0}
 
 # Move two is allowed to be hard; it is not allowed to be unreadable. These
 # flag 5 of 83 - the syriac and hieronymian turns whose second move runs to
@@ -402,8 +414,15 @@ def representative_turns(dialogue: str,
 
 
 def _measure(segment: str) -> dict:
-    """FK, FRE and syllables-per-word for one segment, or None if it is too
-    short for those numbers to mean anything."""
+    """FK and FRE for one segment, or None if it is too short for those
+    numbers to mean anything.
+
+    No vocabulary statistic is reported here, deliberately. parameters.yaml
+    scopes the reading floor to sentence structure and says twice that it is
+    independent of vocabulary; a syllable count sitting in this dict as a
+    harmless observation is how it gets picked up and used as a threshold
+    again, which is exactly what happened once already.
+    """
     if len(segment.split()) < _MIN_SCOREABLE_WORDS:
         return None
     import textstat  # guarded by readability_check's own import error above
@@ -411,7 +430,6 @@ def _measure(segment: str) -> dict:
         "words": len(segment.split()),
         "fk_grade": round(textstat.flesch_kincaid_grade(segment), 2),
         "fre": round(textstat.flesch_reading_ease(segment), 2),
-        "syllables_per_word": round(textstat.avg_syllables_per_word(segment), 3),
     }
 
 
@@ -445,11 +463,6 @@ def two_move_readability(turn: str) -> dict:
             violations.append(
                 f"move one FRE {m1['fre']:.1f} < {MOVE_ONE_BAND['fre_min']} - "
                 "the opening does not survive skimming")
-        if m1["syllables_per_word"] < MOVE_ONE_BAND["syllables_per_word_min"]:
-            violations.append(
-                f"move one syllables/word {m1['syllables_per_word']:.2f} < "
-                f"{MOVE_ONE_BAND['syllables_per_word_min']} - the plain "
-                "answer has been thinned, not clarified")
 
     if m2 is not None:
         if m2["fk_grade"] > MOVE_TWO_BAND["fk_max"]:

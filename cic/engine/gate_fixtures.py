@@ -130,16 +130,21 @@ TARGET_REGISTER_TURN = (
     "what survives of it reaches us through later hands."
 )
 
-# Seeded defect, move one: the answer thinned rather than clarified. Every
-# word is short, so FK reads low and the old whole-turn check called it
-# excellent - the failure direction the reported-not-failed band floor could
-# never catch, and the one Mark named in Phase 1 as "too simplistic".
-THINNED_MOVE_ONE = (
-    "Theon: We do not know. We did not see it. It is not ours. We can not "
-    "say more. We can not add to it. We wish we could tell you more of it.\n\n"
-    "The reading was the work of the school, and the school held that a "
-    "text has a body and a soul, the plain sense and the sense it opens "
-    "onto, and that the second is reached only through the first."
+# Seeded defect, move one: the world's flavour piled at the front door.
+# Mark's own description of the failure (2026-08-17) - "using old abstract
+# poetic thinking to start every sentence" - and the reason the split is
+# positional rather than proportional. The flavour is not the problem; its
+# POSITION is. This turn does eventually answer plainly, so the old
+# whole-turn average was pulled back toward the band by its own second half
+# and the opening that blocks entry went unreported.
+OBSCURE_OPENING = (
+    "Theon: The soul that approaches the text approaches, in the manner of "
+    "the ancients, a veiled thing whose veiling is itself instruction, and "
+    "the interpreter who would unveil it prematurely mistakes the "
+    "condescension of the divine pedagogy for an obstacle to be overcome "
+    "rather than the very form of its accommodation to our weakness.\n\n"
+    "So we read slowly. We take the plain sense first. Then we ask what it "
+    "opens onto, and we wait."
 )
 
 # Seeded defect, move two: past dense into impenetrable. Move one is fine -
@@ -341,22 +346,21 @@ def seeded_sets():
     w2["fixreadV"] = dict(w2["fixreadV"], speaking_model=UNREADABLE_JARGON)
     # The two-move seeds (2026-08-17). Both are demonstrations, the only
     # record type carrying Representative turns, and each fails exactly one
-    # move - which is the point of splitting. THINNED_MOVE_ONE would have
-    # passed the old whole-turn check outright (short words, low FK, the
-    # band floor reported and never failed); RUNAWAY_MOVE_TWO opens clean
-    # enough that an averaged score pulls the turn back inside the band.
-    # Neither defect was detectable before this split, so neither had a
-    # fixture to be seeded from.
+    # move - which is the point of splitting. Both are invisible to a
+    # whole-turn average, in mirror-image ways: OBSCURE_OPENING is dragged
+    # back into the band by a plain second half, RUNAWAY_MOVE_TWO by a clean
+    # first one. Neither defect was detectable before this split, so neither
+    # had a fixture to be seeded from.
     w3 = readability_clean()
-    w3["fixreadD"] = dict(w3["fixreadD"], dialogue=THINNED_MOVE_ONE)
+    w3["fixreadD"] = dict(w3["fixreadD"], dialogue=OBSCURE_OPENING)
     w4 = readability_clean()
     w4["fixreadD"] = dict(w4["fixreadD"], dialogue=RUNAWAY_MOVE_TWO)
     s["readability"] = [
         ("emic quote text_translation past the FK/FRE reading floor "
          "(the Marius-reconstruction shape)", w1),
         ("emic voice_profile speaking_model in dense jargon prose", w2),
-        ("emic demonstration whose move one is thinned rather than "
-         "clarified - the too-simple direction the band floor never failed", w3),
+        ("emic demonstration opening on the world's flavour rather than the "
+         "answer, behind a plain second half that hid it from the average", w3),
         ("emic demonstration whose move two runs past dense into "
          "impenetrable behind a clean opening", w4),
     ]
