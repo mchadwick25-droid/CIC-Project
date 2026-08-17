@@ -92,3 +92,69 @@ def prepared(monkeypatch):
         return nodes._prepare_representative_turn(state)
 
     return _run
+
+
+class _ScriptedLLM:
+    """An LLM that emits exactly the text it was handed, and nothing else.
+
+    Stands in for the real one in the relational-safety tests, whose whole
+    subject is what reaches the participant when the model's own output
+    cannot be relied on - including when there is none.
+    """
+
+    def __init__(self, text):
+        self._text = text
+
+    def stream(self, _messages):
+        from langchain_core.messages import AIMessageChunk
+
+        if self._text:
+            yield AIMessageChunk(content=self._text)
+
+
+def build_safety_events(model_text, category="ACUTE_DISTRESS",
+                        severity="A1", fresh_fire=True):
+    """Drain stream_relational_safety_response with a scripted model.
+
+    Returns every yielded event, so a test can assert on what a
+    participant actually receives rather than on what was requested of
+    the model.
+    """
+    import app.graph.nodes as nodes
+    from app.graph.state import ConversationState
+    from langchain_core.messages import HumanMessage
+
+    original_get_llm = nodes.get_llm
+    original_log = nodes.log_llm_usage
+    nodes.get_llm = lambda *_a, **_k: _ScriptedLLM(model_text)
+    nodes.log_llm_usage = lambda *_a, **_k: None
+    try:
+        state = ConversationState(
+            session_id="crisis-test",
+            messages=[HumanMessage(content="something heavy")],
+            world_ids=["desert-monasticism"],
+            current_world_id="desert-monasticism",
+        )
+        updates = ({"track_a_active": True, "track_a_severity": severity}
+                   if category == "ACUTE_DISTRESS"
+                   else {"track_b_active": True,
+                         "relational_safety_tags": ["CONFIDANT_LANGUAGE"]})
+        return list(nodes.stream_relational_safety_response(
+            state,
+            {"category": category, "severity": severity},
+            updates,
+            # A fresh fire is one where the track was NOT already active.
+            pre_track_a_active=not fresh_fire,
+            pre_track_a_severity=(severity if not fresh_fire else None),
+            pre_track_b_active=False,
+        ))
+    finally:
+        nodes.get_llm = original_get_llm
+        nodes.log_llm_usage = original_log
+
+
+@pytest.fixture
+def safety_events():
+    """Expose build_safety_events to tests (conftest is auto-loaded by
+    pytest but is not an importable module, so a fixture is the seam)."""
+    return build_safety_events

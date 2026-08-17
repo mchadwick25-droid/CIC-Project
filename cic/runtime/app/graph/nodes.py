@@ -14,6 +14,7 @@ from app.config import settings
 from app.graph.state import ConversationState, DriftSignal, RetrievedContext
 from app.usage_logging import log_llm_usage
 from app.prompts import (
+    CRISIS_RESOURCE_LINE,
     FACILITATOR_ACUTE_DISTRESS_A1_PROMPT,
     FACILITATOR_ACUTE_DISTRESS_A2_PROMPT,
     FACILITATOR_ACUTE_DISTRESS_CONTINUATION_PROMPT,
@@ -850,6 +851,34 @@ def stream_relational_safety_response(
         if piece:
             full_text += piece
             yield {"type": "token", "speaker": "facilitator", "text": piece}
+
+    # SB 243 referral, appended rather than generated.
+    #
+    # An operator whose system detects suicidal ideation or self-harm has
+    # to point the person at crisis services. Until 2026-08-17 these
+    # templates forbade naming any resource - the shipped Option A of the
+    # 2026-08-05 resource-redirect decision, whose Option C (a concrete
+    # named resource) was reserved to the project lead and is now taken.
+    #
+    # It is appended here, not asked of the model, because a prompt
+    # requesting a phone number is a prompt asking a model to recall one.
+    # The same day this landed, a generation audit caught a representative
+    # inventing a saying and attributing it to a named person against four
+    # explicit prohibitions in its own prompt. A crisis turn is the last
+    # place to accept that variance, and a wrong number is worse than
+    # none. Appending makes the referral unconditional: it survives a
+    # model that ignored its instructions, a truncated stream, or a
+    # rewritten template.
+    #
+    # ACUTE_DISTRESS only, and only on a fresh fire. Track B (harmful
+    # dynamic) is an over-attachment pattern, not a crisis disclosure, and
+    # the continuation turns are deliberately light-touch - repeating a
+    # hotline on every subsequent message would read as a system reciting
+    # a script at someone rather than staying with them.
+    if category == "ACUTE_DISTRESS" and is_fresh_fire:
+        full_text += CRISIS_RESOURCE_LINE
+        yield {"type": "token", "speaker": "facilitator",
+               "text": CRISIS_RESOURCE_LINE}
 
     log_llm_usage("relational_safety_response", usage_chunk, settings.llm_model,
                   session_id=state.session_id)

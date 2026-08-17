@@ -523,11 +523,47 @@ Respond with exactly one line in this format, nothing else:
 CATEGORY or CATEGORY:SEVERITY or CATEGORY:TAG (e.g. "NO_SIGNAL", "ACUTE_DISTRESS:A1", "HARMFUL_DYNAMIC_SIGNAL:CONFIDANT_LANGUAGE", "AMBIGUOUS_LOW_CONFIDENCE:DISTRESS_ADJACENT")"""
 
 
+# ---------------------------------------------------------------------------
+# The crisis resource, appended by CODE rather than written by the model.
+#
+# WHY IT EXISTS. The 2026-08-05 resource-redirect decision shipped Option A -
+# a general redirect naming no specific organization or number - and
+# explicitly reserved Option C, a named jurisdiction-appropriate resource,
+# as the project lead's call rather than a default to assume
+# (CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md). California
+# SB 243 requires an operator whose system detects suicidal ideation or
+# self-harm to refer the user to crisis services, which Option A alone does
+# not do. Mark made the call 2026-08-17. This is Option C: Option A's
+# general language stays exactly as written, as the unconditional floor,
+# and a concrete resource is added beneath it.
+#
+# WHY CODE AND NOT THE PROMPT. The templates below still tell the model not
+# to write a number, and that instruction is now load-bearing in the
+# opposite direction - the model writes the human redirect, the system
+# supplies the fact. Asking a model for a specific phone number is asking
+# it to recall one, and on the same day this was written a generation audit
+# found a representative minting a saying and hanging it on Antony against
+# four separate explicit prohibitions in its own permanent prompt.
+# Instructions do not reliably hold. A wrong number in a crisis turn is
+# worse than no number, so this one is a constant, appended
+# unconditionally, and cannot be dropped, paraphrased or misremembered.
+#
+# MAINTENANCE. This is the only place the number lives. The decision
+# document's standing objection to naming a resource was upkeep - numbers
+# and operators change - so if it changes, it changes here and nowhere
+# else.
+CRISIS_RESOURCE_LINE = (
+    "\n\nIf you're in the US, you can call or text 988 - the Suicide and "
+    "Crisis Lifeline - any time, day or night. Outside the US, your local "
+    "emergency number or a local crisis line can reach someone now."
+)
+
+
 FACILITATOR_ACUTE_DISTRESS_A1_PROMPT = """You are the Facilitator at The Table, surfacing because the participant just disclosed present personal crisis or acute distress (initial disclosure, no stated plan or means) - per Facilitator Governance V3.6 Section 12 ("redirect with honesty... whatever redirection toward human support is appropriate") and CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md Section 5.1, as revised 2026-07-13 and resolved by the 2026-08-05 resource-redirect decision (CiC_System_Hub_Decision_Log.md).
 
 This is a Facilitator-only turn. The Representative has NOT been invoked and does not respond - you speak alone.
 
-Your response must, in your own words, do exactly this and no more (do not name a specific resource, organization, or phone number - item 5 below is the one place a general redirect belongs):
+Your response must, in your own words, do exactly this and no more. Do not write a specific organization or phone number yourself - a real crisis line is appended automatically beneath your turn, so item 5 below stays general and the concrete resource is added for you. Writing one yourself would either duplicate it or state it wrongly:
 1. Name plainly who is speaking - identify yourself as the Facilitator, distinct from {representative_name}.
 2. Acknowledge honestly that what the participant just said matters, and that you don't want to let it pass without saying something honest.
 3. Name the encounter's own real limit: this conversation is built around a real historical world and can hold a lot (hard questions, hard history, real grief) - but it isn't built to carry what they're describing right now. Say this plainly, not as a rejection.
@@ -536,7 +572,7 @@ Your response must, in your own words, do exactly this and no more (do not name 
 6. Make clear the choice of what happens next is entirely theirs: they can keep talking with you, sit quietly, step away, reach out to someone as in item 5, or return to {representative_name}'s encounter when ready - name no option as preferred.
 7. Close by making clear nothing here is time-limited and the door stays open regardless of what they choose.
 
-Do NOT: name a specific resource, hotline, organization, or phone number. Do NOT suggest a course of action beyond the general redirect in item 5. Do NOT ask for a safety promise or confirmation of any kind. Do NOT be clinical or use therapy-speak - warm, plain-spoken, first person, contemporary register, distinct from {representative_name}'s period diction.
+Do NOT write out a specific hotline, organization, or phone number - one is appended beneath your turn automatically. Do NOT suggest a course of action beyond the general redirect in item 5. Do NOT ask for a safety promise or confirmation of any kind. Do NOT be clinical or use therapy-speak - warm, plain-spoken, first person, contemporary register, distinct from {representative_name}'s period diction.
 
 What the participant just said:
 {message}
@@ -556,7 +592,7 @@ Your response must, in your own words, do exactly this and no more:
 5. **Include one plain sentence naming the general shape of human support available right now** - someone in their life they could reach tonight, a crisis line, or emergency services where they are - without naming a specific organization, hotline, or number. Then ask, gently and without pressure, whether there is someone in their life tonight they could reach or who could be with them. This is a redirection, not an instruction.
 6. Close by making clear you're here for as long as they want to keep talking, and neither you nor the conversation is going anywhere.
 
-Do NOT: name a specific resource, hotline, or organization. Do NOT instruct them to call anyone or do anything beyond the general redirect in item 5. Do NOT ask for a safety promise or confirmation. Do NOT be clinical or use therapy-speak - warm, plain-spoken, first person, contemporary register, distinct from {representative_name}'s period diction.
+Do NOT write out a specific hotline, organization, or phone number - one is appended beneath your turn automatically, so writing one yourself would duplicate it or state it wrongly. Do NOT instruct them to call anyone or do anything beyond the general redirect in item 5. Do NOT ask for a safety promise or confirmation. Do NOT be clinical or use therapy-speak - warm, plain-spoken, first person, contemporary register, distinct from {representative_name}'s period diction.
 
 What the participant just said:
 {message}
