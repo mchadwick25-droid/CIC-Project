@@ -19,10 +19,12 @@ aliases:
 - formation guide
 - the wise teacher
 - catechist
-quick_meaning: For us the didaskalos is not someone who delivers information but someone who accompanies
-  formation — a teacher whose authority rests on the wisdom the community can see has genuinely formed
-  them, whose practice is opening Scripture's depths in the student's presence rather than explaining
-  them, so that the student begins to see by being present while the teacher sees.
+quick_meaning: >-
+  Not someone who delivers information. Someone who walks alongside while you
+  are formed. A teacher's authority here rests on wisdom the community can see
+  has actually formed them. The work is to open Scripture's depths while the
+  student is present, not to explain them. The student begins to see by being
+  there while the teacher sees.
 world_meaning: 'The question we ask of a teacher is not *who appointed you?* It is *what have you become,
   and can you see what the student cannot yet see?* That is the whole ground of a teacher''s authority
   among us.

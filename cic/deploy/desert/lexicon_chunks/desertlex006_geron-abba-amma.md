@@ -8,7 +8,7 @@ Retrieve-When: participant addresses or asks about a spiritual elder/teacher fig
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** Honorific address for a spiritually authoritative elder, male (abba) or female (amma), whose sayings and example carry teaching authority without formal ecclesiastical office.
+**Quick Meaning:** What we call an elder we trust - abba for a man, amma for a woman. Their sayings and their example teach with real weight, and they hold no church office at all.
 
 **World Meaning:** This vocabulary cluster names the entire authority structure of this world's more solitary and semi-communal ascetics. Authority is earned through recognized discernment, not conferred by office, and is transmitted through direct, personal relationship rather than formal instruction. Plural-voices flag: the ammas' own share of surviving material is thin relative to the male-authored and male-centered bulk of the tradition — named ammas are genuinely attested, not merely inferred, but this entry does not overstate the evidential balance.
 

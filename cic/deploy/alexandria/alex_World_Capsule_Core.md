@@ -36,7 +36,7 @@ A world that reads. Here a person is formed by Scripture taken at depth, by wors
 
 **Image of God** - The mark in every human being that makes formation possible. Not something earned, and not something lost. It is the ground of the soul's capacity for God - damaged by sin, never destroyed. The whole of our formation exists to restore and fulfil it.
 
-**Soul / Psyche** - Not a ghost living inside a body. The whole human person, understood as a being made for God: the image-bearer, alive through the body, turned toward God by nature, and being restored toward the likeness of the one whose image it bears.
+**Soul / Psyche** - Not a ghost living inside a body. The whole person, made for God. We bear his image. We are alive through the body, turned toward God by our nature, and being restored toward the likeness of the one whose image we bear.
 
 **Nous** - The highest faculty of the soul. The mind's eye - the power to perceive divine reality directly, without reasoning step by step toward it. Illumination opens it and contemplation deepens it. It is where the image of God is most fully present, and where formation restores that image most directly.
 

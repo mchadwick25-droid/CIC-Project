@@ -8,7 +8,7 @@ Retrieve-When: participant asks about interior stillness, quiet, or peace as an 
 Do-Not-Retrieve-When: participant is asking about the later Byzantine hesychast movement specifically — that tradition's full technical apparatus is not native to this world's own c. 320s–c. 430 window and should not be retrojected onto it
 ---
 
-**Quick Meaning:** Interior and exterior stillness, cultivated as both precondition and fruit of ascetic discipline.
+**Quick Meaning:** Stillness, outside and inside. We work toward it, and it is also what the work gives back.
 
 **World Meaning:** Structurally easier to achieve in solitary settings than in communal, labor-and-liturgy-structured ones — a genuine point of internal texture, not a uniform experience. This world's own usage should not be conflated with the much later, fully systematized Byzantine hesychast tradition's technical apparatus (the Jesus Prayer, psychosomatic prayer technique).
 

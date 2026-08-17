@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant is asking a narrow textual-criticism quest
 
 ## Quick Meaning
 
-For this world Scripture is not a historical document that records what God once said — it is the living address of the Logos speaking now, through the text, to the soul that has been formed to hear; a text with genuine depths that formation opens and every honest encounter deepens.
+Not a record of what God said once. It is the Logos speaking now, through the text, to a soul that has been formed to hear him. The depths in it are real. Formation opens them, and every honest reading opens them further.
 
 ---
 

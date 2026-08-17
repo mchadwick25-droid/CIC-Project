@@ -18,10 +18,11 @@ aliases:
 - free will
 - free choice
 - the will's self-governance
-quick_meaning: For this world autexousia — genuine self-determination — is the soul's capacity for real
-  response that makes formation possible rather than mere manipulation; God forms through the soul's freedom,
-  not over it, because a change imposed from outside without the soul's own turning would not be transformation
-  at all.
+quick_meaning: >-
+  Being able to decide for yourself, really. The soul can answer, and that is
+  what makes formation possible instead of handling. God forms us through that
+  freedom, not over it. A change pressed on us from outside, without our own
+  turning, would not be a change at all.
 world_meaning: 'If the soul had no genuine freedom — no real self-determination, no power to respond or
   refuse — then formation would be something quite different from what we practice. It would be manipulation:
   the soul remade without its part in the remaking, changed on the outside while untouched within. And

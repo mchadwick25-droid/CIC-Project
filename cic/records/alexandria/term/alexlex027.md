@@ -18,10 +18,11 @@ aliases:
 - bodily discipline
 - keeping the fast
 - fasting practice
-quick_meaning: For this world fasting is not going without food for health or for spiritual credit — it
-  is the training of desire in the body, the practice in which the soul learns to govern what it reaches
-  for by governing the body's reaching, and so rehearses, in the body's own hunger, the turning of desire
-  toward God that all our formation is working to produce.
+quick_meaning: >-
+  Not going without food for health, and not for credit. It is training desire
+  in the body. The soul learns to govern what it reaches for by governing what
+  the body reaches for. In the body's own hunger it rehearses the turn of
+  desire toward God that all our formation works to produce.
 world_meaning: 'Fasting is not about the food.
 
 

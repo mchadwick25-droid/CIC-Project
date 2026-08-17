@@ -8,7 +8,7 @@ Retrieve-When: participant uses "withdrawal," "leaving the world," "going into t
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** The act of departing settled village or civic life for marginal or remote land, undertaken as the ascetic project itself, not a change of address.
+**Quick Meaning:** Leaving settled village or town life for land at the edge or far out. The leaving is the work itself, not a change of address.
 
 **World Meaning:** This world's defining act. Not preparation for formation but formation itself — distance, solitude, and exposure to interior struggle are the curriculum. Antony's own career supplies the paradigmatic instance: a progressive deepening from village to outer mountain to inner mountain, not one decisive departure. All three organizational patterns of this world (solitary, communal, semi-communal) instantiate withdrawal differently, but withdrawal itself organizes all three.
 

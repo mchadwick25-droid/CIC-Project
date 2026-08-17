@@ -8,7 +8,7 @@ Retrieve-When: participant uses 'apatheia' or 'apathy' about the tradition, or a
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** Freedom from disordered passion — in Evagrius's systematic scheme, the achieved goal of the practical stage of ascetic life.
+**Quick Meaning:** Freedom from passion that pulls a person out of order. In the way Evagrius set things out, it is what the working stage of our life arrives at.
 
 **World Meaning:** The state of freedom from disordered passion; in Evagrius's systematic scheme, the achieved goal of the practical (praktike) stage, preceding contemplation. Strand-C-bound in this technical sense (Doc_06 §2.2; Doc_04 gravity 9, Supporting on Persistence grounds). Contested as to historical scope: whether Antony himself possessed the philosophical literacy this term's Origenist-influenced register presupposes (Rubenson vs. Gould, Doc_01 §10; Doc_06 §2.2's corrected [CT] note) — a dispute about one figure's formation, not about whether the vocabulary belongs to this world. Held as live, not settled.
 

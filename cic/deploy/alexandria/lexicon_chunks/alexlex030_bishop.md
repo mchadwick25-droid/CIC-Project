@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking primarily about the teacher's format
 
 ## Quick Meaning
 
-For us the episkopos is not a church administrator — the bishop is the community's formation governor and Eucharistic president, whose office carries the apostolic succession that ties our formation inheritance back to its origin, who presides at the community's most concentrated formation act, guards the received deposit against which all interpretation is tested, and governs the whole community's formation life rather than managing an institution.
+The episkopos leads the community's formation and presides at the table. His office is handed down from the first generation, and that is what ties our teaching back to where it began. He guards what was handed on, and every reading is tested against it. He governs a people, not an institution.
 
 ---
 

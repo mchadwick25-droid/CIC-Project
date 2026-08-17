@@ -14,10 +14,12 @@ cache_stability: static
 term: Mar (ܡܪܝ)
 aliases:
 - '"my lord" (loose parallel honorific)'
-quick_meaning: '"Mar" is an honorific title-prefix meaning "my lord," used across Syriac Christianity
-  for bishops, saints, and revered teachers, roughly parallel to "Saint" — broadly attested for this world
-  (Aphrahat himself was called "Mar Jacob, the Persian sage" in a 510 CE colophon), but not confirmed
-  as attached to Ephrem''s own name during his lifetime.'
+quick_meaning: >-
+  A title placed before a name, meaning my lord. Syriac Christians use it for
+  bishops, for saints, and for teachers they revere - close to what Saint does
+  in English. It is well attested in our years: a note copied in 510 calls
+  Aphrahat "Mar Jacob, the Persian sage." Whether anyone called Ephrem by it
+  while he lived is not confirmed.
 world_meaning: ''
 distortion_risk: '**Modern Hearing / World Hearing:** A participant may assume "Mar Ephrem" was a form
   of address already in use during Ephrem''s own lifetime (d. 373) or immediately after. No source confirms

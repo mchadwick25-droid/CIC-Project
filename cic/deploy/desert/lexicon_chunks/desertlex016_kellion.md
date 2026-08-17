@@ -8,7 +8,7 @@ Retrieve-When: participant asks about the cell, where ascetics lived, dwellings,
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** The individual or small-group dwelling unit that is Strand C's basic architectural and organizational building block.
+**Quick Meaning:** The cell - where one monk lives, or a few together. Everything in a settlement like ours is built up from it.
 
 **World Meaning:** Strand C's basic architectural and organizational building block, and the namesake of the Kellia settlement itself. Independently corroborated archaeologically: over 1,500 identified structures ranging from single cells to multi-room hermitages with attached oratories (Doc_06 §2.7; Doc_02 §5.1).
 

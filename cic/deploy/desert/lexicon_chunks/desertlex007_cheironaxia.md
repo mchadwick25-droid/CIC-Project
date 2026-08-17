@@ -8,7 +8,7 @@ Retrieve-When: participant asks about daily life, work, or how ascetics supporte
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** Manual labor — chiefly rope- and basket-weaving — undertaken as both economic necessity and deliberate ascetic discipline.
+**Quick Meaning:** Work with the hands, mostly weaving rope and baskets. We need what it earns, and we do it as discipline too.
 
 **World Meaning:** This world's most materially corroborated practice: attested textually, in surviving monastic business correspondence, and archaeologically, in excavated settlement infrastructure — three independent evidence streams converging, a rare density in this world's source base. Labor sustained ascetics materially, funded almsgiving beyond the settlement, and was understood as ascetic discipline against idleness in its own right, not merely as a means to those ends.
 

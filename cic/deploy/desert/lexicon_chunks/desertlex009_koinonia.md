@@ -8,7 +8,7 @@ Retrieve-When: participant asks about communal/rule-based monastic life specific
 Do-Not-Retrieve-When: this world's more solitary ascetics are the topic — koinōnia does not apply to them
 ---
 
-**Quick Meaning:** The founder Pachomius's own name for his federated network of monasteries under a single Rule and spiritual authority.
+**Quick Meaning:** Pachomius's own name for his houses. Many of them, bound together under one Rule and one authority.
 
 **World Meaning:** A New Testament term for fellowship, adopted as a technical proper name for a specific institutional innovation: multiple houses under common property, formal offices (housemaster, steward), and a written Rule. Plural-voices flag: this is the clearest strand-bound term in this world's whole vocabulary — this world's more solitary and semi-communal ascetics have no equivalent institutional referent.
 

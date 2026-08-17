@@ -15,9 +15,10 @@ term: memra (ܡܐܡܪܐ) / memre (plural)
 aliases:
 - '"verse homily" (later'
 - fuller genre name — see Distortion Risk)
-quick_meaning: Within this world's own 200–410 window, "memra" names a small, narrowly authenticated set
-  of verse compositions by Ephrem in couplets and single syllabic meter — not yet the fully developed,
-  named "verse homily" genre that later Syriac tradition associates with the term.
+quick_meaning: >-
+  In our own years, memra names a small set of verse pieces by Ephrem, written
+  in couplets and one syllable count. Only a few are firmly his. It is not yet
+  the settled verse-homily form that later Syriac writers mean by the word.
 world_meaning: ''
 distortion_risk: '**Modern Hearing / World Hearing:** A participant familiar with later Syriac literature
   may hear "memra" as an already-settled, named literary category standing alongside madrasha within this

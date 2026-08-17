@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant means the Evagrian/desert technical logiko
 
 ## Quick Meaning
 
-For this world logikos names what answers to the Logos in every rational being: creatures made for the Word, capable of knowing God. In Origen's speculative framework it extends to a whole cosmology of rational natures - held as contested inheritance, not confessed teaching.
+What answers to the Logos in every rational being. Creatures made for the Word, able to know God. In Origen's speculative work the word opens out into a whole account of rational natures. That part we hold as disputed inheritance, not as confessed teaching.
 
 ---
 

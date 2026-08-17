@@ -8,7 +8,7 @@ Retrieve-When: participant asks about temptation, demonic thoughts, or the "eigh
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** The intrusive thoughts or temptations understood as the primary interior battlefield of ascetic struggle.
+**Quick Meaning:** The thoughts that push in on you, and the pull of them. This is where the real fight happens for us - inside, not outside.
 
 **World Meaning:** In its general, cross-strand sense, *logismoi* names the lived experience of unwanted, intrusive thought as the site of spiritual combat, attested broadly across this world's sources. Plural-voices flag: the specific eight-fold systematized taxonomy (gluttony, lust, avarice, sadness, anger, listlessness/despondency, vainglory, pride) is one particular teacher's own achievement, concentrated among the more intellectually systematic ascetics and not attested with comparable precision elsewhere in this world. This entry documents both registers explicitly rather than treating the systematized form as this world's general vocabulary.
 

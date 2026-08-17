@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant means freedom in a political or civic sense; p
 
 ## Quick Meaning
 
-For this world autexousia — genuine self-determination — is the soul's capacity for real response that makes formation possible rather than mere manipulation; God forms through the soul's freedom, not over it, because a change imposed from outside without the soul's own turning would not be transformation at all.
+Being able to decide for yourself, really. The soul can answer, and that is what makes formation possible instead of handling. God forms us through that freedom, not over it. A change pressed on us from outside, without our own turning, would not be a change at all.
 
 ---
 

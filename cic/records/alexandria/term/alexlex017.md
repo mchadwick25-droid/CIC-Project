@@ -18,10 +18,11 @@ aliases:
 - the fallen condition
 - the soul's misdirection
 - turning away from God
-quick_meaning: For this world sin is not first a list of wrong acts needing forgiveness — it is *hamartia*,
-  the soul's mis-orientation, the whole self turned away from God who is its created telos and pointed
-  instead toward lesser goods that cannot fill the capacity it was made with; particular wrong acts express
-  this condition rather than define it.
+quick_meaning: >-
+  Not first a list of wrong acts to be forgiven. Hamartia is the soul turned
+  the wrong way - the whole self facing away from God, who is what it was made
+  for, and facing instead toward smaller goods that cannot fill it. Wrong acts
+  show that condition. They do not define it.
 world_meaning: 'The Greek word is *hamartia*, and it means missing the mark. Not breaking a law, not running
   up a debt, not violating a contract — missing the mark: failing to arrive at what we were aimed at.
   The picture is from archery, and we take it exactly. An arrow that misses is not guilty of anything.

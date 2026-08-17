@@ -18,11 +18,13 @@ aliases:
 - God's Word
 - the speech of God
 - the Logos as Word
-quick_meaning: 'For this world the Word of God is not first a name for the Bible — it is the name for
-  the eternal divine speech through whom God creates, reveals, teaches, and restores; Scripture is where
-  that Word most directly addresses the soul, not what the Word is, and confusing the two severs what
-  gives Scripture its power: it forms us because the one who speaks through it is the one through whom
-  all things were made and in whose image the soul was made.'
+quick_meaning: >-
+  Not first a name for the Bible. It is the name for God's own eternal speech
+  - the one through whom God makes, reveals, teaches and restores. Scripture
+  is where that Word addresses the soul most directly. It is not what the Word
+  is. Confusing the two cuts away the thing that gives Scripture its power: it
+  forms us because the one who speaks through it is the one through whom
+  everything was made, and in whose image the soul was made.
 world_meaning: 'In the beginning was the Word.
 
 

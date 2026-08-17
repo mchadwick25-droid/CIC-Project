@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking primarily about the bishop's formati
 
 ## Quick Meaning
 
-For us the didaskalos is not someone who delivers information but someone who accompanies formation — a teacher whose authority rests on the wisdom the community can see has genuinely formed them, whose practice is opening Scripture's depths in the student's presence rather than explaining them, so that the student begins to see by being present while the teacher sees.
+Not someone who delivers information. Someone who walks alongside while you are formed. A teacher's authority here rests on wisdom the community can see has actually formed them. The work is to open Scripture's depths while the student is present, not to explain them. The student begins to see by being there while the teacher sees.
 
 ---
 

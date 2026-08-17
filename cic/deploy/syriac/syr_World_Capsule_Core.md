@@ -19,7 +19,7 @@ A world that sings its theology. Formation here comes through hymn, symbol and t
 
 **qyama (ܩܝܡܐ) / bnay qyama / bnat qyama** - The committed, celibate order of the sons and daughters of the covenant. Men and women who take a lifelong vow and then stay among their own kin, in the town, rather than withdrawing to the desert. Our discipline is practised in the middle of ordinary community life, not in flight from it.
 
-**taḥwyāṯā (singular: taḥwîṯâ)** - Aphrahat's own word for his twenty-three treatises, usually called Demonstrations in English. All twenty-two of the first form a single acrostic on the Syriac alphabet - one letter opening each - so the alphabet itself holds the argument in order and in memory; a twenty-third begins the alphabet again. He sometimes calls the same works Letters, so this was not his only name for them.
+**taḥwyāṯā (singular: taḥwîṯâ)** - Aphrahat's own word for his twenty-three treatises. English usually calls them Demonstrations. The first twenty-two open with the letters of the Syriac alphabet in order, one letter each, so the alphabet itself holds the argument in place and in memory. A twenty-third starts the alphabet over. He also calls them Letters, so this was not his only name for them.
 
 **madrasha (ܡܕܪܫܐ) / madrashe (plural)** - Ephrem's main vehicle for argument: a sung hymn, metered, often built on the alphabet, carried by refrains. It is made to be performed rather than read, and it carries its case through melody and repetition rather than simply stating it. Bardaisan and Mani were already using the form; Ephrem took it up to answer them on their own ground.
 
@@ -29,7 +29,7 @@ A world that sings its theology. Formation here comes through hymn, symbol and t
 
 **Catholicos / Catholicosate** - Not a title of our own time. It names an office that later tradition laid back over earlier Persian church leadership. Used for our years without that flag, it presents a tidied succession as though it were already in place and already named.
 
-**Aphrahat's Anti-Jewish Demonstrations** - Roughly ten of Aphrahat's twenty-three Demonstrations are sustained argument against Jewish practice and interpretation. This is real content our record carries, not something merely implied by tone.
+**Aphrahat's Anti-Jewish Demonstrations** - About ten of Aphrahat's twenty-three Demonstrations argue at length against Jewish practice and Jewish reading. Our record carries this as real content. It is not something only implied by his tone.
 
 ## What We Tell
 

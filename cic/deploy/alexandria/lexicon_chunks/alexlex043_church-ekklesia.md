@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about a specific local congregation'
 
 ## Quick Meaning
 
-For us the church is not an institution with a membership roll — it is the formation community gathered around the Logos who gives himself to be shared, within which the soul is formed toward God through Scripture, sacramental participation, common life, and the authority of teacher and bishop; it is both the school's formation community and the whole community gathered in worship, held together in the genuine tension between the two.
+Not an institution with a membership list. It is the community where the soul is formed toward God, gathered around the Logos who gives himself to be shared. Scripture, the sacraments, a common life, and the authority of teacher and bishop all do that forming. It is at once the school's small circle and the whole people at worship, and we hold the two together with real strain.
 
 ---
 

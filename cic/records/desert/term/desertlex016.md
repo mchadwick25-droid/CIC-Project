@@ -16,8 +16,9 @@ id: desertlex016
 term: Kellion (The Cell)
 aliases:
 - kellion
-quick_meaning: The individual or small-group dwelling unit that is Strand C's basic architectural and
-  organizational building block.
+quick_meaning: >-
+  The cell - where one monk lives, or a few together. Everything in a
+  settlement like ours is built up from it.
 plain_explanation: 'The cell: the dwelling of one person or a few. It stood near enough to walk to the
   weekly gathering. It stood far enough away that the week itself was solitary. That spacing was the point.
   The distance between cells was part of the formation. Today the word sounds like mere lodging. The world

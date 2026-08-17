@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about death as a biographical matter
 
 ## Quick Meaning
 
-For this world death is first the soul's progressive separation from God — the consequence of sin's turning, in which a soul cut off from the source of its life loses what that source was sustaining; physical death is real and grievous but secondary to the spiritual death sin produces and the Logos's Incarnation reverses from within.
+First, the soul drawing further and further from God. That is what the turning of sin brings: a soul cut off from the source of its life loses what that source was holding up. Dying in the body is real, and it grieves us. But it comes second to the death sin works in the soul, which the Logos reversed from inside by taking flesh.
 
 ---
 

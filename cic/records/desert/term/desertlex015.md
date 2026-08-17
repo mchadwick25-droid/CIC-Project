@@ -17,8 +17,9 @@ term: Synaxis (The Gathering)
 aliases:
 - the gathering
 - synaxis
-quick_meaning: The weekly communal gathering for vigil, liturgy, and a shared meal, central to Strand
-  C's semi-anchoritic settlements.
+quick_meaning: >-
+  The weekly gathering - the night watch, the prayers, a meal together. For
+  those who live scattered but not alone, it is the center of the week.
 plain_explanation: The weekly gathering of the cell-dwellers. One vigil, one liturgy, one shared meal.
   For the rest of the week, each lived alone. This single seam held the scattered settlement together
   and set its clock. A modern service is one meeting inside a social week. The synaxis was the only meeting

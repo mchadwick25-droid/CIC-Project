@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about a church building or denominat
 
 ## Quick Meaning
 
-The assembly. The called-out gathering. Not a building and not an institution, but the people who come together under whatever roof will hold them - joined to every other such gathering by letters and by a shared table.
+The assembly. The called-out gathering. Not a building and not an institution, but the people who meet under whatever roof will hold them. Letters and a shared table join them to every other such gathering.
 
 ---
 

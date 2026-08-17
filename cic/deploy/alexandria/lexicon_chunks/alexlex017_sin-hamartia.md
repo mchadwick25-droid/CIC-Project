@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking narrowly about forgiveness as a disc
 
 ## Quick Meaning
 
-For this world sin is not first a list of wrong acts needing forgiveness — it is *hamartia*, the soul's mis-orientation, the whole self turned away from God who is its created telos and pointed instead toward lesser goods that cannot fill the capacity it was made with; particular wrong acts express this condition rather than define it.
+Not first a list of wrong acts to be forgiven. Hamartia is the soul turned the wrong way - the whole self facing away from God, who is what it was made for, and facing instead toward smaller goods that cannot fill it. Wrong acts show that condition. They do not define it.
 
 ---
 

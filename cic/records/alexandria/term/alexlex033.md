@@ -20,11 +20,11 @@ aliases:
 - faithful witness
 - dying for the faith
 - the crown of martyrdom
-quick_meaning: For this world martyrdom is not heroic self-sacrifice for a cause — it is the witness of
-  a soul whose turning toward God has gone so deep that, when persecution forces the choice between denying
-  Christ and dying, it chooses death; and because this witness asks no literacy, no teacher, and no schooling,
-  only faithfulness, it is the one formation open in full to every member of the community, whatever their
-  standing.
+quick_meaning: >-
+  Not heroism for a cause. It is the witness of a soul turned so far toward
+  God that when the choice comes - deny Christ or die - it chooses death. It
+  asks no reading, no teacher, no schooling. Only faithfulness. So it is the
+  one formation open in full to everyone here, whatever their standing.
 world_meaning: 'The word *martyr* means witness. Not hero. Not sacrifice. Witness — the one whose life,
   and in the decisive moment whose death, bears witness to the reality our whole formation is organized
   around. The martyr is not doing something we have marked out as an unusual feat of courage. The martyr

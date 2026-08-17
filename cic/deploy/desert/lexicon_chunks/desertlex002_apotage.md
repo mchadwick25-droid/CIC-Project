@@ -8,7 +8,7 @@ Retrieve-When: participant asks about entry into ascetic life, vows, or giving u
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** Formal renunciation of property, family ties, and worldly status marking entry into ascetic life.
+**Quick Meaning:** Giving up property, family ties, and standing in the world. It is the formal step by which a person enters our life.
 
 **World Meaning:** Shared Christian vocabulary carrying distinctive weight here as a discrete, sometimes formalized entry act. The communal-rule strand codifies it most explicitly — its Rule specifies renunciation of personal property as a condition of membership — while more solitary and semi-communal ascetics practice it without comparable codification, as an assumed but less formally marked threshold.
 

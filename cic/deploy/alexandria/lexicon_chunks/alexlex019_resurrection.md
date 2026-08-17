@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about resurrection primarily as a hi
 
 ## Quick Meaning
 
-For this world resurrection is neither a corpse reanimated nor a soul surviving death — it is the genuine reversal of what death names: the soul's reunion with God through the Logos who entered death from within, and the body's transformation as a real participant in that salvation, because the Logos who sanctified bodily nature by entering it will not abandon it.
+Not a corpse brought back, and not a soul that simply outlasts death. It is the true undoing of what death means. The soul is joined to God again through the Logos, who went into death from the inside. The body is changed too, and really shares in that saving. He made bodily nature holy by entering it, and he will not leave it behind.
 
 ---
 

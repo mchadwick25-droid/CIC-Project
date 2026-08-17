@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant asks about the 553 condemnation as settled
 
 ## Quick Meaning
 
-For this world apokatastasis names Origen's furthest hope: that in the end every rational being - none lost - is restored to the contemplation it was made for. The world carries it as speculation offered, not settled teaching: exploration under the Rule of Faith, held with unease as well as love.
+Origen's furthest hope: that in the end every rational being - not one lost - is restored to the contemplation it was made for. We carry it as something offered, not as settled teaching. It was exploration under the Rule of Faith, and it is held with unease as much as with love.
 
 ---
 

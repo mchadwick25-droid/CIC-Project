@@ -17,10 +17,12 @@ aliases:
 - Christian hope
 - eschatological hope
 - the soul's forward orientation
-quick_meaning: For this world hope is not optimism — it is the soul's sustaining orientation toward the
-  divine life that formation has been progressively opening but not yet fully received, holding the genuine
-  incompleteness of the present as expected rather than disconfirming, so that formation can continue
-  without either premature arrival or despair.
+quick_meaning: >-
+  Not optimism. It holds the soul steady, facing the divine life that
+  formation has been opening but has not yet fully given. The present is still
+  incomplete. Hope lets us take that as expected rather than as evidence
+  against. So formation can go on without either claiming to have arrived or
+  giving up.
 world_meaning: 'Theosis names the horizon — a fullness of participation in divine life that no present
   stage of formation has reached and that this life does not complete. Transformation names the ongoing
   process — the soul genuinely changing, the direction real, the work under way. But neither names the

@@ -19,10 +19,11 @@ aliases:
 - love of neighbor
 - formed love
 - Christian love
-quick_meaning: 'For us love is not primarily a feeling — it is the fruit of genuine formation: what wisdom
-  looks like in the soul''s relation to God and to others once transformation has done its work, inseparable
-  from genuine knowledge of God, and the visible evidence that formation has actually occurred rather
-  than merely been performed.'
+quick_meaning: >-
+  Not first a feeling. It is what comes of real formation - what wisdom looks
+  like once it has reached how a person stands toward God and toward everyone
+  else. It cannot be separated from truly knowing God. And it is the visible
+  sign that formation has happened rather than been performed.
 world_meaning: 'Among us, love cannot be commanded into existence, and this is not a pastoral failure
   but a truth about what love is. The soul told to love God and neighbor, who then resolves to do so —
   to produce the acts of love by deliberate effort — has not yet understood what we mean by agape. Agape

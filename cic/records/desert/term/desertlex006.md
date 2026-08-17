@@ -18,8 +18,10 @@ aliases:
 - abba
 - amma
 - geron
-quick_meaning: Honorific address for a spiritually authoritative elder, male (abba) or female (amma),
-  whose sayings and example carry teaching authority without formal ecclesiastical office.
+quick_meaning: >-
+  What we call an elder we trust - abba for a man, amma for a woman. Their
+  sayings and their example teach with real weight, and they hold no church
+  office at all.
 plain_explanation: 'Abba means father; amma means mother; a geron is an elder. These names honored people
   whose counsel proved true. Such standing was earned, not granted by church office. It proved out in
   tested discernment. It passed through personal bonds: one elder, one disciple. Outside the Rule-houses,

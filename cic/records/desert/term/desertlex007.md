@@ -19,8 +19,9 @@ aliases:
 - handiwork
 - cheironaxia
 - ergocheiron
-quick_meaning: Manual labor — chiefly rope- and basket-weaving — undertaken as both economic necessity
-  and deliberate ascetic discipline.
+quick_meaning: >-
+  Work with the hands, mostly weaving rope and baskets. We need what it earns,
+  and we do it as discipline too.
 plain_explanation: 'Work with the hands, mostly weaving rope and baskets. It fed the worker and it formed
   the worker. The hands stayed busy so the mind stayed free for prayer and battle. The work paid for bread
   and gave alms to the poor. No entry rests on firmer ground: texts, surviving letters, and excavated

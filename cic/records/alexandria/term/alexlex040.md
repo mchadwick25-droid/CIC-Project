@@ -19,10 +19,12 @@ aliases:
 - divine mystery
 - mystery of Scripture
 - sacramental mystery
-quick_meaning: For this world mystery (*mysterion*) is not what is unknown but what is known only from
-  within — the depth of divine reality that exceeds the surface of any approach to it, that Scripture
-  holds and formation progressively opens, that the sacramental practices enact, and whose fullness awaits
-  the end; mystery is not a problem to be solved but a depth to be entered.
+quick_meaning: >-
+  Not what is unknown. What is known only from inside. Every approach to God's
+  own reality has a depth beyond its surface: Scripture holds that depth,
+  formation opens it bit by bit, the sacraments enact it, and its fullness
+  waits for the end. It is not a problem to be solved. It is a depth to be
+  entered.
 world_meaning: 'The Greek *mysterion* does not mean puzzle, or secret, or unsolved problem. It means,
   roughly, a sacred reality that is accessible from within but cannot be adequately said from without.
   Someone standing outside a mystery can describe its surface, and describe it intelligently. Someone

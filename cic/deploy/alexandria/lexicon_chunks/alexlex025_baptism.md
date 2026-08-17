@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking primarily about catechesis as the pr
 
 ## Quick Meaning
 
-For this world baptism is not a ceremony announcing a decision already made — it is a real threshold crossed in the body, in which the catechumen genuinely shares in Christ's death and resurrection, the nous is opened to what catechesis has prepared it to receive, and the soul enters the community's fuller life; we call it *photismos*, illumination, because the crossing begins a change in sight that a whole lifetime will deepen.
+Baptism is a real crossing, made in the body. The one baptized shares in Christ's death and rising. The mind is opened to what the teaching prepared it for, and the soul enters the community's fuller life. We call it photismos, illumination, because the crossing starts a change in sight that a whole life keeps deepening.
 
 ---
 

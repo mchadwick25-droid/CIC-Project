@@ -8,7 +8,7 @@ Retrieve-When: participant asks about how teaching was passed down, or quotes/re
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** The terse, memorable saying that is this world's primary vehicle of teaching.
+**Quick Meaning:** A short saying, easy to hold in memory. It is how teaching passes here - not by treatise, but by a line you can carry.
 
 **World Meaning:** This world produced almost no sustained theological treatise outside one notably systematic teacher; teaching that could not be reduced to a portable saying largely does not survive in this world's own idiom. The form's brevity is itself a formation technique — something turned over in the mind during solitary labor — not merely a container for content.
 

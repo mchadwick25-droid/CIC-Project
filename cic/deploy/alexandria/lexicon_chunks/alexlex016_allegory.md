@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about the orientation toward Christ 
 
 ## Quick Meaning
 
-For this world allegory is not reading meanings into a text that are not there — it is reading out of a text depths that are genuinely present, placed by the Logos who speaks through Scripture, and reachable by the reader whose formed perception has opened enough to receive them.
+Not putting meanings into the text that were never there. Reading out of it depths that are truly present, set there by the Logos who speaks through Scripture. A reader reaches them when their formed sight has opened far enough to take them in.
 
 ---
 

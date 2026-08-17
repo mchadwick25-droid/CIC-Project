@@ -18,7 +18,9 @@ aliases:
 - mourning
 - compunction
 - penthos
-quick_meaning: Sorrowful, tearful awareness of one's own sin, cultivated as a positive ascetic discipline.
+quick_meaning: >-
+  Grieving your own sin, tears and all. We do not treat it as a low mood to
+  get past. We cultivate it.
 plain_explanation: 'Sorrow over one''s own sin, wept and welcomed. This world sought such mourning as
   a good. It was a practice, not a mood that struck. Its work was honesty: grief kept self-judgment true.
   Today sorrow is mostly treated as a problem to fix. This world trained it and valued it.'

@@ -18,8 +18,9 @@ aliases:
 - discernment
 - diakrisis
 - discretion
-quick_meaning: The capacity to judge rightly between competing courses of action, spirits, or thoughts
-  — this world's own master virtue.
+quick_meaning: >-
+  Judging rightly between courses of action, between spirits, between
+  thoughts. Of all our virtues this is the one we put first.
 plain_explanation: 'Discernment was this world''s master skill. It judged between paths, spirits, and
   thoughts. How far to withdraw, how hard to fast, whom to obey: discernment decided. It grew under an
   elder, not alone. Its special target was self-deception. A person''s own judgment is what excess bends

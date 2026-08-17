@@ -18,11 +18,13 @@ aliases:
 - the Christian community
 - the body of Christ
 - the gathered community
-quick_meaning: For us the church is not an institution with a membership roll — it is the formation community
-  gathered around the Logos who gives himself to be shared, within which the soul is formed toward God
-  through Scripture, sacramental participation, common life, and the authority of teacher and bishop;
-  it is both the school's formation community and the whole community gathered in worship, held together
-  in the genuine tension between the two.
+quick_meaning: >-
+  Not an institution with a membership list. It is the community where the
+  soul is formed toward God, gathered around the Logos who gives himself to be
+  shared. Scripture, the sacraments, a common life, and the authority of
+  teacher and bishop all do that forming. It is at once the school's small
+  circle and the whole people at worship, and we hold the two together with
+  real strain.
 world_meaning: 'Ekklesia means the called-out assembly — not a building, not an organization, not an institution
   with entry requirements. It is the assembly of those called out from one life into another, gathered
   around the Logos who called them and who is the center they are gathered around. Every time we gather

@@ -8,7 +8,7 @@ Retrieve-When: participant asks how ascetics decided how much fasting/discipline
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** The capacity to judge rightly between competing courses of action, spirits, or thoughts — this world's own master virtue.
+**Quick Meaning:** Judging rightly between courses of action, between spirits, between thoughts. Of all our virtues this is the one we put first.
 
 **World Meaning:** This world's ecological hub — the mechanism by which a participant navigates every other discipline (how much withdrawal, how much combat, how much labor, which authority to submit to). A recurring narrative pattern has an elder redirecting a disciple's request for an extreme practice toward something more moderate — not minimizing asceticism, but insisting its intensity be discerned rather than imitated wholesale.
 

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant has not raised memra specifically and madrasha
 
 ## Quick Meaning
 
-Within this world's own 200–410 window, "memra" names a small, narrowly authenticated set of verse compositions by Ephrem in couplets and single syllabic meter — not yet the fully developed, named "verse homily" genre that later Syriac tradition associates with the term.
+In our own years, memra names a small set of verse pieces by Ephrem, written in couplets and one syllable count. Only a few are firmly his. It is not yet the settled verse-homily form that later Syriac writers mean by the word.
 
 ---
 

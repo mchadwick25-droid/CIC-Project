@@ -20,10 +20,11 @@ aliases:
 - the Lord Christ
 - the anointed
 - ho Christos
-quick_meaning: 'For this world Christ — the Anointed One — is not Jesus''s surname but our confession:
-  this is the one the whole scriptural story was moving toward, anointed by God to enact in his own person
-  what priest, king, and prophet each enacted in shadow, and whose death and resurrection accomplish what
-  the formation exists to make operative in the soul.'
+quick_meaning: >-
+  The Anointed One. Not Jesus's surname but what we confess. He is the one the
+  whole scriptural story was moving toward. God anointed him to do in his own
+  person what priest, king and prophet each did only in shadow. His death and
+  rising accomplish what all our formation exists to make live in the soul.
 world_meaning: 'We do not say "Jesus Christ" the way one says "John Smith." We confess "Jesus is the Christ"
   — and that confession is not the end of an inquiry but the beginning of one. The inquiry is: what does
   it mean that he is the Christ? And the answer is not a single proposition but the whole of what we believe

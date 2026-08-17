@@ -17,8 +17,9 @@ term: Anachōrēsis (Withdrawal)
 aliases:
 - withdrawal
 - anachoresis
-quick_meaning: The act of departing settled village or civic life for marginal or remote land, undertaken
-  as the ascetic project itself, not a change of address.
+quick_meaning: >-
+  Leaving settled village or town life for land at the edge or far out. The
+  leaving is the work itself, not a change of address.
 plain_explanation: Withdrawal was the heart of this world. A person left the village and moved to empty
   land. The leaving itself was the training, not a step before it. Distance, being alone, and facing one's
   own inner struggle formed the person. Most went further in stages, not all at once. Today the word sounds

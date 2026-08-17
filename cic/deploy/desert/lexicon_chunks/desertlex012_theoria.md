@@ -8,7 +8,7 @@ Retrieve-When: participant asks about contemplation, mystical vision, or what th
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** The contemplative stage of Evagrius's systematic scheme, reached only after apatheia.
+**Quick Meaning:** Resting in the sight of God. In the way Evagrius set things out, it comes only after apatheia, at the far end of the working life.
 
 **World Meaning:** In Evagrius's systematic scheme, the stage following praktike and apatheia — subdivided into natural contemplation and, at the highest stage, contemplation of God. Strand-C-bound, single-author-concentrated (Doc_06 §2.3; Doc_03 §1.7; Doc_04 §3).
 

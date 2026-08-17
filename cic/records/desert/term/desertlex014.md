@@ -18,7 +18,8 @@ aliases:
 - watchfulness
 - nepsis
 - vigilance
-quick_meaning: Vigilant attentiveness to one's own interior movements — the ongoing act of watching that
+quick_meaning: >-
+  Watching what moves inside you, and keeping at it. This is the watching that
   discernment draws on.
 plain_explanation: 'Watchfulness: keeping an eye on one''s own inner movements. It was the standing guard
   duty of the heart. Its harvest fed discernment, which judged what the watcher caught. Modern mindfulness

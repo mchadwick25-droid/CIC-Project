@@ -17,10 +17,11 @@ aliases:
 - the virtues
 - moral excellence
 - the virtuous life
-quick_meaning: 'For this world virtue is not the excellent performance of a human function or the prize
-  of disciplined effort — it is the visible fruit of genuine transformation: what the soul looks like
-  once its desire has been truly reordered toward God, so that virtuous acts are expressions of what the
-  soul has become rather than performances of what it has decided to do.'
+quick_meaning: >-
+  Not doing the human job well, and not a prize for effort. It is what real
+  change looks like once you can see it - what the soul is like after its
+  desire has truly been turned toward God. Good acts express what the soul has
+  become. They are not performances of what it decided to do.
 world_meaning: 'The word *arete* comes to us from the Greeks, where it meant excellence — a thing functioning
   well according to its nature. The most systematic account of it we inherit is Aristotle''s: virtue as
   the mean between extremes, courage standing between cowardice and recklessness, developed by repeated

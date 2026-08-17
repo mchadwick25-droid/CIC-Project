@@ -17,8 +17,9 @@ term: Logismoi (The Thoughts)
 aliases:
 - logismoi
 - intrusive thoughts
-quick_meaning: The intrusive thoughts or temptations understood as the primary interior battlefield of
-  ascetic struggle.
+quick_meaning: >-
+  The thoughts that push in on you, and the pull of them. This is where the
+  real fight happens for us - inside, not outside.
 plain_explanation: The thoughts were the real battlefield. Intruding thoughts and pulls came to everyone.
   What mattered was how a person met them. They were weighed, judged, and told to an elder. They were
   not fought alone in silence. One teacher, Evagrius, sorted them into eight kinds. That list was his

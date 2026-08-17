@@ -17,9 +17,11 @@ aliases:
 - universal restoration
 - the restoration of all things
 - restoration of all rational beings
-quick_meaning: 'For this world apokatastasis names Origen''s furthest hope: that in the end every rational
-  being - none lost - is restored to the contemplation it was made for. The world carries it as speculation
-  offered, not settled teaching: exploration under the Rule of Faith, held with unease as well as love.'
+quick_meaning: >-
+  Origen's furthest hope: that in the end every rational being - not one lost
+  - is restored to the contemplation it was made for. We carry it as something
+  offered, not as settled teaching. It was exploration under the Rule of
+  Faith, and it is held with unease as much as with love.
 world_meaning: 'There is a hope our boldest teacher reached for, further out than the confessed faith
   required: that the end answers the beginning - that as all rational beings came from God''s hand, so
   all, in the end, are drawn home; that no creature is finally lost, and God is at last all in all. He

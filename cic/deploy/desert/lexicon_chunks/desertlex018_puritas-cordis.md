@@ -8,7 +8,7 @@ Retrieve-When: participant uses 'purity of heart' as a technical term or asks ho
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** John Cassian's Latin rendering of apatheia for a Western audience, anchored in Matthew 5:8 — a deliberate substitution, not a literal translation, made because apatheia's Stoic-sounding claim had become theologically controversial.
+**Quick Meaning:** What John Cassian put in place of apatheia when he wrote for the West, anchored in Matthew 5:8. He chose the words rather than translating them, because apatheia sounded Stoic and had become a point of dispute.
 
 **World Meaning:** 
 

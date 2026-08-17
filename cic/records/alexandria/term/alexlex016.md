@@ -19,9 +19,11 @@ aliases:
 - spiritual reading
 - depth reading
 - the deeper meaning
-quick_meaning: For this world allegory is not reading meanings into a text that are not there — it is
-  reading out of a text depths that are genuinely present, placed by the Logos who speaks through Scripture,
-  and reachable by the reader whose formed perception has opened enough to receive them.
+quick_meaning: >-
+  Not putting meanings into the text that were never there. Reading out of it
+  depths that are truly present, set there by the Logos who speaks through
+  Scripture. A reader reaches them when their formed sight has opened far
+  enough to take them in.
 world_meaning: 'The word carries a prejudice that has to be named before it can do any work. Today "allegory"
   in reading the Bible usually means: putting a meaning into a text that is not really there, often because
   the plain sense is awkward or unwelcome. On that hearing the early Christian readers were doing something

@@ -18,10 +18,11 @@ aliases:
 - exegesis
 - interpretive practice
 - hermeneutics
-quick_meaning: For this world interpretation is not analytical method applied to a text — it is the formation
-  discipline through which the soul encounters the Logos who speaks through Scripture, at the depth its
-  formation has prepared it to receive; what changes through genuine interpretation is not first the reader's
-  information but the reader's perception.
+quick_meaning: >-
+  Not a method applied to a text. It is the work through which the soul meets
+  the Logos who speaks through Scripture, at whatever depth it has been formed
+  to receive. What changes is not first what the reader knows. It is what the
+  reader can see.
 world_meaning: 'The word "interpretation" threatens to bring the wrong weight into this world. In common
   use, interpretation is what you do to a text that does not give up its meaning at once: you apply method,
   use tools, bring expertise, and produce a determination — "the text means this" — which you then pass

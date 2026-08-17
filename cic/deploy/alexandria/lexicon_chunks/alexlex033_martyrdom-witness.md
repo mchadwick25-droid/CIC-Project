@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking primarily about martyr commemoration
 
 ## Quick Meaning
 
-For this world martyrdom is not heroic self-sacrifice for a cause — it is the witness of a soul whose turning toward God has gone so deep that, when persecution forces the choice between denying Christ and dying, it chooses death; and because this witness asks no literacy, no teacher, and no schooling, only faithfulness, it is the one formation open in full to every member of the community, whatever their standing.
+Not heroism for a cause. It is the witness of a soul turned so far toward God that when the choice comes - deny Christ or die - it chooses death. It asks no reading, no teacher, no schooling. Only faithfulness. So it is the one formation open in full to everyone here, whatever their standing.
 
 ---
 

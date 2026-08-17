@@ -18,10 +18,12 @@ aliases:
 - enfleshment
 - the Logos entering human nature
 - the divine becoming embodied
-quick_meaning: For this world the Incarnation is the Logos — of one substance with the Father — genuinely
-  entering human nature, not to give a moral example or deliver information but to restore what was dying
-  from within, so that the human nature the Logos now shares can genuinely participate in the divine life
-  the Logos is, turning transformation from aspiration into reality.
+quick_meaning: >-
+  The Logos, of one being with the Father, truly entering human nature. Not to
+  set a good example and not to pass on information, but to restore from
+  inside what was dying. The human nature he now shares can really share in
+  the divine life he is. That is what turns our formation from a hope into
+  something real.
 world_meaning: 'The formula is audacious, and it must be said before anything else: God became human so
   that humanity might become god. We do not receive this as a careful proposition to be qualified into
   safety; we receive it as the plain expression of what the Incarnation is *for*. And everything in our

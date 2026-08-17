@@ -20,10 +20,11 @@ aliases:
 - the arrangement
 - God's governance
 - the plan of salvation
-quick_meaning: 'For this world *oikonomia* — literally "household management" — names God''s overall governance
-  of the plan of salvation: the arrangement by which the Logos who creates all things also enters creation
-  to restore it, the graduated pedagogy by which humanity is formed step by step toward a share in divine
-  life, and the encompassing frame within which every part of our formation takes its place.'
+quick_meaning: >-
+  The word means running a household. We use it for the way God governs the
+  whole plan of rescue: the Logos who made everything also enters what he
+  made, to restore it, and humanity is taught step by step toward a share in
+  God's life. It is the frame every part of our formation sits inside.
 world_meaning: '*Oikonomia* — literally the governance of a household (*oikos* and *nomos*, household
   law or management) — is our word for the encompassing plan that God''s saving work follows. Not a plan
   devised after something went wrong, as though God improvised a rescue. The divine *oikonomia* is the

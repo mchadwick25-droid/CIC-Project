@@ -18,10 +18,11 @@ aliases:
 - turning back
 - reorientation
 - the turn toward God
-quick_meaning: 'For this world repentance is not feeling sorry — it is *metanoia*, a change of *nous*:
-  the soul''s highest faculty actually turned from what it was pointed at back toward God; this turning
-  is the foundational response that makes formation possible, and the whole formation sequence is the
-  progressive deepening of what the turning begins.'
+quick_meaning: >-
+  Not feeling sorry. It is the mind turned around - the highest part of the
+  soul actually facing back toward God. That turn is the first response, and
+  it is what makes everything else possible. All the rest of our formation is
+  that same turn going deeper.
 world_meaning: 'The word does the work if we hear it exactly. *Meta-noia*: a change of *nous*. Not a change
   of feeling, not a change of behavior — a change of *nous*, the soul''s deepest faculty of perception,
   the capacity by which we are oriented toward or away from God. *Metanoia* is that highest faculty being

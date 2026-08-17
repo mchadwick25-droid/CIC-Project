@@ -18,10 +18,11 @@ aliases:
 - only-begotten Son
 - the divine Son
 - ho Huios
-quick_meaning: 'For this world Son of God is not an honorific for someone especially holy or close to
-  God — it is the claim Nicaea defended: the Son is not a creature, however exalted, but is genuinely
-  God, of one substance with the Father, and this is what makes theosis real rather than merely aspirational,
-  because only genuine sharing in the divine Son''s life is a sharing in divine life.'
+quick_meaning: >-
+  Not a title of honour for someone unusually holy or close to God. It is what
+  Nicaea defended: the Son is not a creature, however high, but truly God, of
+  one being with the Father. That is what makes theosis real instead of a
+  hope. Only a real share in the Son's own life is a share in God's life.
 world_meaning: 'The modern hearing of "Son of God" is not a careless misunderstanding. It is a position
   that was once formally held, carefully argued, and explicitly weighed — and then rejected. Those we
   call Arians heard "Son of God" as the highest possible honor for a created being: the Son is God''s

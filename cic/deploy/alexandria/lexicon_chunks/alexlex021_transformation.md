@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant means "transformation" in an unrelated tec
 
 ## Quick Meaning
 
-For this world transformation is what the whole formation ecology is doing — the genuine reorientation of the soul toward God at the level of desire and perception, received rather than achieved, spiralling ever deeper rather than climbing through stages left behind, and aimed at the horizon that theosis names.
+What the whole of our common life is working at. The soul turned toward God again, down at the level of what it wants and how it sees. It is received, not achieved. It circles deeper rather than climbing steps and leaving them behind, and it is aimed at what we call theosis.
 
 ---
 

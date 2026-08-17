@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant asks about sin, death, or fallenness as li
 
 ## Quick Meaning
 
-For this world the Fall names both the confessed truth that what God made well fell into sin and death, and - in Origen's speculative stratum - a pre-cosmic account: rational beings cooling from contemplation into embodied souls. The first the world confesses; the second it carries as contested inheritance.
+Two things at once. First, what we confess: what God made good fell into sin and death. Second, in Origen's speculative work, an account of what came before the world - rational beings cooling out of contemplation into embodied souls. The first we confess. The second we carry as a disputed inheritance.
 
 ---
 

@@ -17,10 +17,11 @@ aliases:
 - the breaking of bread
 - the holy meal
 - the thanksgiving
-quick_meaning: 'For this world the Eucharist is not a memorial of something Christ did once — it is the
-  community''s recurring, bodily, shared enactment of what he is still doing: giving himself to be received,
-  so that every gathering at the table is a real participation in the divine life the resurrection opened
-  and the whole of formation is reaching toward.'
+quick_meaning: >-
+  Not a memorial of something Christ did once. It is what we do together, with
+  our bodies, again and again, of what he is still doing: giving himself to be
+  received. So every gathering at that table is a real share in the life the
+  resurrection opened, the life all our formation reaches toward.
 world_meaning: 'The Eucharist tempts us to reach for the right words — "real presence," "the body and
   blood of Christ," "the sacrament of the altar" — and to believe the words have carried the meaning.
   They have not. The words are not wrong. But held on their own they say what the Eucharist is called

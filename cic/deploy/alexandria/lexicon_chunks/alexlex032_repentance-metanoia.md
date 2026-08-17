@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about sin as the condition repentanc
 
 ## Quick Meaning
 
-For this world repentance is not feeling sorry — it is *metanoia*, a change of *nous*: the soul's highest faculty actually turned from what it was pointed at back toward God; this turning is the foundational response that makes formation possible, and the whole formation sequence is the progressive deepening of what the turning begins.
+Not feeling sorry. It is the mind turned around - the highest part of the soul actually facing back toward God. That turn is the first response, and it is what makes everything else possible. All the rest of our formation is that same turn going deeper.
 
 ---
 

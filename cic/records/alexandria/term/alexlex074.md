@@ -16,10 +16,12 @@ aliases:
 - the descent of souls
 - pre-cosmic fall
 - the cooling of the noes
-quick_meaning: 'For this world the Fall names both the confessed truth that what God made well fell into
-  sin and death, and - in Origen''s speculative stratum - a pre-cosmic account: rational beings cooling
-  from contemplation into embodied souls. The first the world confesses; the second it carries as contested
-  inheritance.'
+quick_meaning: >-
+  Two things at once. First, what we confess: what God made good fell into sin
+  and death. Second, in Origen's speculative work, an account of what came
+  before the world - rational beings cooling out of contemplation into
+  embodied souls. The first we confess. The second we carry as a disputed
+  inheritance.
 world_meaning: 'That the world we stand in is fallen - that death and sin are not what we were made for
   - this the whole tradition confesses; it is the ground the Incarnation''s remedy answers (Sin, Death,
   Salvation carry it). But our boldest teacher reached further back: before this world, rational beings

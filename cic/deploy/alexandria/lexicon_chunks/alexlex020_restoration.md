@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking primarily about forgiveness as a dis
 
 ## Quick Meaning
 
-For this world restoration is the conviction that God's work in creation is genuinely restorative — what sin damaged the Incarnation addresses, what death severed resurrection reunites, and the formation ecology is the ongoing work of the image being restored toward the likeness; this broadly shared conviction is separable from Origen's contested universalist *apokatastasis*, which the tradition does not require.
+We hold that God's work in creation really does restore. What sin damaged, the Incarnation takes up. What death severed, the resurrection joins again. Our whole common life is the image being restored toward the likeness. That much is widely held among us. It can be held apart from Origen's disputed claim that all will be restored, which our tradition does not require.
 
 ---
 

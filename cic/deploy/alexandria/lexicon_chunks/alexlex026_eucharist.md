@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking primarily about later Eucharistic co
 
 ## Quick Meaning
 
-For this world the Eucharist is not a memorial of something Christ did once — it is the community's recurring, bodily, shared enactment of what he is still doing: giving himself to be received, so that every gathering at the table is a real participation in the divine life the resurrection opened and the whole of formation is reaching toward.
+Not a memorial of something Christ did once. It is what we do together, with our bodies, again and again, of what he is still doing: giving himself to be received. So every gathering at that table is a real share in the life the resurrection opened, the life all our formation reaches toward.
 
 ---
 

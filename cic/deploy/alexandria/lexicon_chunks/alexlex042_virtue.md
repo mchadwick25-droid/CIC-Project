@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about wisdom specifically (retrieve 
 
 ## Quick Meaning
 
-For this world virtue is not the excellent performance of a human function or the prize of disciplined effort — it is the visible fruit of genuine transformation: what the soul looks like once its desire has been truly reordered toward God, so that virtuous acts are expressions of what the soul has become rather than performances of what it has decided to do.
+Not doing the human job well, and not a prize for effort. It is what real change looks like once you can see it - what the soul is like after its desire has truly been turned toward God. Good acts express what the soul has become. They are not performances of what it decided to do.
 
 ---
 

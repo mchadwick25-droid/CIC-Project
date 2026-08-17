@@ -19,9 +19,9 @@ A world of households and letters. People are formed in someone's house - by ins
 
 **presbyteros (πρεσβύτερος)** - The elders who share the governing of a community. In some households they are a council holding the whole trust themselves. In others they gather around one overseer, supporting his leadership without replacing it.
 
-**ekklesia (ἐκκλησία)** - The assembly. The called-out gathering. Not a building and not an institution, but the people who come together under whatever roof will hold them - joined to every other such gathering by letters and by a shared table.
+**ekklesia (ἐκκλησία)** - The assembly. The called-out gathering. Not a building and not an institution, but the people who meet under whatever roof will hold them. Letters and a shared table join them to every other such gathering.
 
-**eucharistia (εὐχαριστία)** - The thanksgiving. The meal of bread and cup over which we give thanks, and the table we return to again and again to be formed once more into the body we belong to.
+**eucharistia (εὐχαριστία)** - The thanksgiving. The meal of bread and cup over which we give thanks. We come back to that table again and again, and it forms us again into the body we belong to.
 
 **diakonos (διάκονος)** - Those set apart to serve. They carry help to the widow, the prisoner, and the stranger who cannot repay.
 

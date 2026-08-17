@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking specifically about the Son's ontolog
 
 ## Quick Meaning
 
-For this world Christ — the Anointed One — is not Jesus's surname but our confession: this is the one the whole scriptural story was moving toward, anointed by God to enact in his own person what priest, king, and prophet each enacted in shadow, and whose death and resurrection accomplish what the formation exists to make operative in the soul.
+The Anointed One. Not Jesus's surname but what we confess. He is the one the whole scriptural story was moving toward. God anointed him to do in his own person what priest, king and prophet each did only in shadow. His death and rising accomplish what all our formation exists to make live in the soul.
 
 ---
 

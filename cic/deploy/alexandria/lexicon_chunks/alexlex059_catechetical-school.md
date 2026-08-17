@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: the participant asks what studying under a teacher was LIK
 
 ## Quick Meaning
 
-For this world the didaskaleion names its own teaching life - teachers the community knew to be truly formed, seekers who came to read beside them, and a reading handed from one to the next. Whether that was a formal institution with a succession of heads is a genuinely open question the record cannot settle.
+Our own name for the teaching life here: teachers the community knew to be truly formed, seekers who came to read beside them, and a reading handed on from one to the next. Whether it was a formal school with a line of heads is a real open question. The record cannot settle it.
 
 ---
 

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about modern eucharistic theology or
 
 ## Quick Meaning
 
-The thanksgiving. The meal of bread and cup over which we give thanks, and the table we return to again and again to be formed once more into the body we belong to.
+The thanksgiving. The meal of bread and cup over which we give thanks. We come back to that table again and again, and it forms us again into the body we belong to.
 
 ---
 

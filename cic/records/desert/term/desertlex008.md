@@ -16,7 +16,9 @@ cache_stability: static
 term: Apophthegma (Saying)
 aliases:
 - apophthegma
-quick_meaning: The terse, memorable saying that is this world's primary vehicle of teaching.
+quick_meaning: >-
+  A short saying, easy to hold in memory. It is how teaching passes here - not
+  by treatise, but by a line you can carry.
 plain_explanation: 'A short, sharp saying was this world''s main way of teaching. An elder gave it to one
   person, for one moment, face to face. Its shortness was on purpose. A few words could be carried and
   turned over during long hours of work. The famous collections came later, made by editors after this

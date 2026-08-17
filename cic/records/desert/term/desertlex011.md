@@ -17,8 +17,9 @@ term: Apatheia (Passionlessness)
 aliases:
 - passionlessness
 - apatheia
-quick_meaning: Freedom from disordered passion — in Evagrius's systematic scheme, the achieved goal of
-  the practical stage of ascetic life.
+quick_meaning: >-
+  Freedom from passion that pulls a person out of order. In the way Evagrius
+  set things out, it is what the working stage of our life arrives at.
 plain_explanation: In one branch's teaching, this named the goal of the working stage of the life. It
   meant freedom from disordered passion. Reaching it opened the way to contemplation. The English look-alike,
   apathy, turns the meaning upside down. Apathy is not caring. Apatheia is full engagement, with the passions

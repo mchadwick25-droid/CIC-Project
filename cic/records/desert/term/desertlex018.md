@@ -17,9 +17,10 @@ term: Puritas Cordis (Purity of Heart)
 aliases:
 - purity of heart
 - puritas cordis
-quick_meaning: John Cassian's Latin rendering of apatheia for a Western audience, anchored in Matthew
-  5:8 — a deliberate substitution, not a literal translation, made because apatheia's Stoic-sounding claim
-  had become theologically controversial.
+quick_meaning: >-
+  What John Cassian put in place of apatheia when he wrote for the West,
+  anchored in Matthew 5:8. He chose the words rather than translating them,
+  because apatheia sounded Stoic and had become a point of dispute.
 plain_explanation: 'Purity of heart: John Cassian''s Latin name for the goal the Greeks called apatheia.
   He chose it on purpose for readers in the West. The Greek word had begun to sound too Stoic, and it
   drew fire. So Cassian anchored the goal in scripture instead: blessed are the pure in heart. A deliberate

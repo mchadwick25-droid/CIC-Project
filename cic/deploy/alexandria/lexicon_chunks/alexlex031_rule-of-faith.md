@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about the Nicene Creed specifically 
 
 ## Quick Meaning
 
-For us the Rule of Faith is not the Nicene Creed and not a doctrinal checklist — it is the received apostolic deposit we carry across the generations: the inherited understanding of who Christ is, what the Scriptures mean, and what Christian life requires, which sets the bounds of what interpretation may claim and what formation may produce, and to which teacher and bishop are equally accountable.
+Not the Nicene Creed, and not a checklist of doctrines. It is what was handed to us from the apostles and carried across the generations: who Christ is, what the Scriptures mean, what a Christian life asks. It marks the bounds of what any reading may claim and what formation may produce. Teacher and bishop answer to it alike.
 
 ---
 

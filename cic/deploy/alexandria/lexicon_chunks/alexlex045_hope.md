@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about theosis as the horizon specifi
 
 ## Quick Meaning
 
-For this world hope is not optimism — it is the soul's sustaining orientation toward the divine life that formation has been progressively opening but not yet fully received, holding the genuine incompleteness of the present as expected rather than disconfirming, so that formation can continue without either premature arrival or despair.
+Not optimism. It holds the soul steady, facing the divine life that formation has been opening but has not yet fully given. The present is still incomplete. Hope lets us take that as expected rather than as evidence against. So formation can go on without either claiming to have arrived or giving up.
 
 ---
 

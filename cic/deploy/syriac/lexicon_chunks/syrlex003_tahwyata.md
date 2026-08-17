@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about Ephrem's writings (this term i
 
 ## Quick Meaning
 
-Aphrahat's own word for his twenty-three treatises, usually called Demonstrations in English. All twenty-two of the first form a single acrostic on the Syriac alphabet - one letter opening each - so the alphabet itself holds the argument in order and in memory; a twenty-third begins the alphabet again. He sometimes calls the same works Letters, so this was not his only name for them.
+Aphrahat's own word for his twenty-three treatises. English usually calls them Demonstrations. The first twenty-two open with the letters of the Syriac alphabet in order, one letter each, so the alphabet itself holds the argument in place and in memory. A twenty-third starts the alphabet over. He also calls them Letters, so this was not his only name for them.
 
 ---
 

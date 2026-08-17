@@ -18,11 +18,13 @@ aliases:
 - the Christian home
 - domestic formation
 - household formation
-quick_meaning: For us the household is not the private nuclear family — the oikos is the extended social
-  and economic unit (householder, spouse, children, enslaved and freed persons, dependent relatives) that
-  was the primary formation environment for most of the community, the space in which formation reached
-  those who could not enter the catechetical school, and the daily setting in which our convictions were
-  either practiced or exposed as merely nominal.
+quick_meaning: >-
+  Not the private family of a modern house. The oikos is the whole extended
+  working household: the head of it, his wife, the children, enslaved and
+  freed people, relatives who depend on it. For most of us this, not the
+  school, was where formation happened. It reached people who could never come
+  to a class. And it is where our convictions were either lived or shown to be
+  words only.
 world_meaning: 'For most of us, the catechetical school is not where formation mainly happens. For most,
   the assembled Eucharist is one day in seven and the bishop''s Festal Letters are seasonal. The place
   where most formation occurs, for most believers, most of the time, is the household — the oikos, the

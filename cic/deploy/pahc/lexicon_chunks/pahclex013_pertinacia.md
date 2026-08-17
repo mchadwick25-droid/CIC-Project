@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about stubbornness in a general sens
 
 ## Quick Meaning
 
-Stubbornness. Obstinacy. It is what a magistrate found punishable in us - not what we believed, but our refusal to take it back when given the chance.
+Stubbornness. Obstinacy. It is what a magistrate punished us for. Not what we believed - that we would not take it back when he gave us the chance.
 
 ---
 

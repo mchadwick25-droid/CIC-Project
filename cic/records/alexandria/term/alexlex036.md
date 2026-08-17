@@ -18,10 +18,11 @@ aliases:
 - deliverance
 - wholeness
 - the saved condition
-quick_meaning: 'For this world salvation is not primarily acquittal from legal guilt — it is the healing,
-  restoration, and reorientation of the soul toward God: the Logos entering what was dying to restore
-  it from within, so that real participation in the divine life becomes possible rather than merely longed
-  for.'
+quick_meaning: >-
+  Not first being cleared of guilt in a court. It is the soul healed,
+  restored, turned back toward God. The Logos entered what was dying and
+  restored it from inside. So a real share in God's life becomes possible
+  instead of only longed for.
 world_meaning: 'The word "salvation" carries a legal freight this world does not share. In that frame
   sin is a crime, God is the judge, the problem is guilt, and the goal is acquittal. This world runs the
   account at a different level. Sin here is a *directional* condition, and the primary problem is not

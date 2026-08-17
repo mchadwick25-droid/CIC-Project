@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant means the nous specifically as the faculty of 
 
 ## Quick Meaning
 
-Not a ghost living inside a body. The whole human person, understood as a being made for God: the image-bearer, alive through the body, turned toward God by nature, and being restored toward the likeness of the one whose image it bears.
+Not a ghost living inside a body. The whole person, made for God. We bear his image. We are alive through the body, turned toward God by our nature, and being restored toward the likeness of the one whose image we bear.
 
 ---
 

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant means "mystery" in the popular sense of a dete
 
 ## Quick Meaning
 
-For this world mystery (*mysterion*) is not what is unknown but what is known only from within — the depth of divine reality that exceeds the surface of any approach to it, that Scripture holds and formation progressively opens, that the sacramental practices enact, and whose fullness awaits the end; mystery is not a problem to be solved but a depth to be entered.
+Not what is unknown. What is known only from inside. Every approach to God's own reality has a depth beyond its surface: Scripture holds that depth, formation opens it bit by bit, the sacraments enact it, and its fullness waits for the end. It is not a problem to be solved. It is a depth to be entered.
 
 ---
 

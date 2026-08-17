@@ -17,7 +17,9 @@ term: Theōria (Contemplation)
 aliases:
 - contemplation
 - theoria
-quick_meaning: The contemplative stage of Evagrius's systematic scheme, reached only after apatheia.
+quick_meaning: >-
+  Resting in the sight of God. In the way Evagrius set things out, it comes
+  only after apatheia, at the far end of the working life.
 plain_explanation: 'The last stage of one branch''s mapped path of formation. It came only after the working
   stage and passionlessness. It named disciplined seeing: perception earned by years of practice. The
   modern cousin, theory, points the other way, toward thinking at a distance from things. This world''s

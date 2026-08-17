@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about fasting for health or medical 
 
 ## Quick Meaning
 
-For this world fasting is not going without food for health or for spiritual credit — it is the training of desire in the body, the practice in which the soul learns to govern what it reaches for by governing the body's reaching, and so rehearses, in the body's own hunger, the turning of desire toward God that all our formation is working to produce.
+Not going without food for health, and not for credit. It is training desire in the body. The soul learns to govern what it reaches for by governing what the body reaches for. In the body's own hunger it rehearses the turn of desire toward God that all our formation works to produce.
 
 ---
 

@@ -16,8 +16,10 @@ aliases:
 - eucharist
 - thanksgiving
 - the Lord's Supper
-quick_meaning: 'The thanksgiving. The meal of bread and cup over which we give thanks, and the table we return to again
-  and again to be formed once more into the body we belong to.'
+quick_meaning: >-
+  The thanksgiving. The meal of bread and cup over which we give thanks. We
+  come back to that table again and again, and it forms us again into the body
+  we belong to.
 world_meaning: 'Whatever else has been decided or left open among us, we gather to give thanks over bread
   and cup. The meal itself does more of our community''s ongoing forming than anything else we do. We
   return to it again and again, and each return is not merely a repetition but a re-making of who we are

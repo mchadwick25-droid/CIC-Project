@@ -14,9 +14,10 @@ cache_stability: static
 term: ekklesia (ἐκκλησία)
 aliases:
 - the church of God
-quick_meaning: 'The assembly. The called-out gathering. Not a building and not an institution, but the people who come
-  together under whatever roof will hold them - joined to every other such gathering by letters and by a
-  shared table.'
+quick_meaning: >-
+  The assembly. The called-out gathering. Not a building and not an
+  institution, but the people who meet under whatever roof will hold them.
+  Letters and a shared table join them to every other such gathering.
 world_meaning: 'When someone asks who we are, we have only one name to answer with: the ekklesia, the
   assembly, the church of God sojourning in whatever city our members happen to live. It is not a title
   that distinguishes us from our neighbors down the street — it is the plain fact of being called out

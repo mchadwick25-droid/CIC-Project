@@ -17,8 +17,9 @@ term: Antirrhēsis (Talking Back)
 aliases:
 - talking back
 - antirrhesis
-quick_meaning: The specific technique of verbally countering a demonic logismos with a scriptural rebuttal
-  at the moment of temptation, systematized by Evagrius in his Antirrhetikos.
+quick_meaning: >-
+  Answering a tempting thought out loud with a line of Scripture, right at the
+  moment it comes. Evagrius set the method down in his Antirrhetikos.
 plain_explanation: 'Talking back met temptation with scripture. At the moment a tempting thought struck
   - the kind this world traced to demons - the person answered it aloud with a fitting verse. One teacher,
   Evagrius, wrote a handbook of such replies, sorted by the kind of thought. The reply was specific: each

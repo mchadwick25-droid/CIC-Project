@@ -18,11 +18,12 @@ aliases:
 - the washing
 - new birth
 - crossing the threshold
-quick_meaning: For this world baptism is not a ceremony announcing a decision already made — it is a real
-  threshold crossed in the body, in which the catechumen genuinely shares in Christ's death and resurrection,
-  the nous is opened to what catechesis has prepared it to receive, and the soul enters the community's
-  fuller life; we call it *photismos*, illumination, because the crossing begins a change in sight that
-  a whole lifetime will deepen.
+quick_meaning: >-
+  Baptism is a real crossing, made in the body. The one baptized shares in
+  Christ's death and rising. The mind is opened to what the teaching prepared
+  it for, and the soul enters the community's fuller life. We call it
+  photismos, illumination, because the crossing starts a change in sight that
+  a whole life keeps deepening.
 world_meaning: 'Baptism is not the public announcement of a private decision. The person who decides inwardly
   and then stages a ceremony to declare it has not been baptized in the way we mean the word. What we
   mean is a threshold — a real crossing, worked in the body, in which the soul''s condition genuinely

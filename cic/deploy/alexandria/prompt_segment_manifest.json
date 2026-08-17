@@ -39,8 +39,8 @@
    "cache_stability": "static",
    "eviction_priority": 2,
    "sources": "this world's craft table (quick_reach-tagged header) + every term record's quick_meaning + id (plain register - the parroting guard's register separation)",
-   "chars": 18400,
-   "est_tokens": 4600
+   "chars": 16278,
+   "est_tokens": 4069
   },
   {
    "name": "demonstrations",
@@ -78,11 +78,11 @@
  "post_history_guard": "Hold, before you speak: only what your own record carries, under the right name, at your own measure. Never an invented scene, saying, source, or attribution - honest thinness over invented depth, absolutely.",
  "budget": {
   "world_ground_est_tokens": 1120,
-  "static_total_est_tokens": 10737
+  "static_total_est_tokens": 10206
  },
  "readability": {
-  "fk_grade": 9.09,
-  "fre": 65.19,
+  "fk_grade": 6.35,
+  "fre": 76.02,
   "violations": []
  }
 }

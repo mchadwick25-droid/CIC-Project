@@ -18,7 +18,9 @@ aliases:
 - stillness
 - hesychia
 - quietude
-quick_meaning: Interior and exterior stillness, cultivated as both precondition and fruit of ascetic discipline.
+quick_meaning: >-
+  Stillness, outside and inside. We work toward it, and it is also what the
+  work gives back.
 plain_explanation: Stillness of place and stillness of heart. A person sought quiet outside to seek quiet
   within. Stillness was both the door to the work and its fruit. It came easier alone than in the busy
   Rule-houses. This world never made a method of it. Today stillness sounds like calm or stress relief.

@@ -8,7 +8,7 @@ Retrieve-When: participant asks specifically about answering or rebutting though
 Do-Not-Retrieve-When: —
 ---
 
-**Quick Meaning:** The specific technique of verbally countering a demonic logismos with a scriptural rebuttal at the moment of temptation, systematized by Evagrius in his Antirrhetikos.
+**Quick Meaning:** Answering a tempting thought out loud with a line of Scripture, right at the moment it comes. Evagrius set the method down in his Antirrhetikos.
 
 **World Meaning:** 
 

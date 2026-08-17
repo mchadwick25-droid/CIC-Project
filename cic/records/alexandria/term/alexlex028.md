@@ -21,10 +21,12 @@ aliases:
 - the divine address
 - the soul's address to God
 - the hours of prayer
-quick_meaning: For this world prayer is not first of all speaking to God — it is the soul's turning to
-  attend to the address God is always already making; the practice of listening for what the Logos is
-  continually saying, the nous's deepest activity once formation has prepared it to hear, and at once
-  the most private and the most shared of everything we do.
+quick_meaning: >-
+  Not first of all speaking to God. It is the soul turning to attend to what
+  God is already saying. It is the practice of listening for the Logos, who
+  does not stop speaking. Once formation has prepared the mind to hear, this
+  is its deepest work. And it is at once the most private thing we do and the
+  most shared.
 world_meaning: 'God is always teaching. The Logos speaks through Scripture''s difficulty, through catechesis,
   through the community''s life, through the suffering that opens what ease leaves closed — and he does
   not speak only when someone happens to be listening. The address is continuous. The question is whether

@@ -18,8 +18,9 @@ aliases:
 - exile
 - estrangement
 - xeniteia
-quick_meaning: Self-imposed estrangement from homeland, kin, and familiar social bonds, pursued as a distinct
-  ascetic discipline.
+quick_meaning: >-
+  Making yourself a stranger - to your homeland, your family, everyone you
+  knew. We take it up as its own discipline.
 plain_explanation: A person cut themselves off from homeland and kin on purpose. This was its own discipline,
   beyond leaving the village. Withdrawal put distance on the map; this put distance in the bonds. Today
   the word sounds like travel or living abroad. The world meant severed ties, not movement. The discipline

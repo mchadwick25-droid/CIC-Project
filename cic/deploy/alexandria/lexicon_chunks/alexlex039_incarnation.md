@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking primarily about the Son's ontologica
 
 ## Quick Meaning
 
-For this world the Incarnation is the Logos — of one substance with the Father — genuinely entering human nature, not to give a moral example or deliver information but to restore what was dying from within, so that the human nature the Logos now shares can genuinely participate in the divine life the Logos is, turning transformation from aspiration into reality.
+The Logos, of one being with the Father, truly entering human nature. Not to set a good example and not to pass on information, but to restore from inside what was dying. The human nature he now shares can really share in the divine life he is. That is what turns our formation from a hope into something real.
 
 ---
 

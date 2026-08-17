@@ -18,10 +18,12 @@ aliases:
 - initial faith
 - the beginning of formation
 - the soul's first turn toward God
-quick_meaning: For us faith is not intellectual assent to propositions — it is the soul's first genuine
-  turning toward God in response to the Logos's address, the beginning of the formation journey rather
-  than its completion, the orientation that catechesis deepens, illumination opens, and gnosis fulfills;
-  never the opposite of knowledge but the soul's first move toward the knowledge genuine formation produces.
+quick_meaning: >-
+  Not agreeing to a set of statements. It is the soul's first real turn toward
+  God, answering the Logos who has addressed it. It begins the journey rather
+  than completing it. Teaching deepens it, baptism opens it, and knowing God
+  fulfils it. It is never the opposite of knowledge. It is the first move
+  toward the knowledge that real formation produces.
 world_meaning: 'Pistis — faith — is the soul''s first real response to the Logos''s address. The catechumen
   who hears Scripture and turns toward what they hear, who does not yet understand deeply, who cannot
   yet perceive what the text holds at depth, who has barely begun — but who genuinely orients toward the

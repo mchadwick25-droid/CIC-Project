@@ -17,10 +17,11 @@ aliases:
 - the catechetical school
 - the school of Alexandria
 - the teaching succession
-quick_meaning: For this world the didaskaleion names its own teaching life - teachers the community knew
-  to be truly formed, seekers who came to read beside them, and a reading handed from one to the next.
-  Whether that was a formal institution with a succession of heads is a genuinely open question the record
-  cannot settle.
+quick_meaning: >-
+  Our own name for the teaching life here: teachers the community knew to be
+  truly formed, seekers who came to read beside them, and a reading handed on
+  from one to the next. Whether it was a formal school with a line of heads is
+  a real open question. The record cannot settle it.
 world_meaning: 'What lived among us was accompanied reading: one who had been given sight read beside
   another until that other began to see for himself, and those who were formed became teachers to others
   in turn. The community remembers a line - Pantaenus, Clement, Origen, on to Didymus - and remembers

@@ -14,7 +14,7 @@ Do-Not-Retrieve-When: participant is asking about the allegorical method as a te
 
 ## Quick Meaning
 
-For this world Christological Reading is not a method but an orientation — the conviction that Scripture, at every level and in every passage, is the address of the Logos who is Christ, so that to read Scripture rightly is to read it always in relation to the one who speaks through it and is present in it from beginning to end.
+Not a method but a way of facing the text. We hold that Scripture, at every level and in every passage, is the Logos speaking, and the Logos is Christ. So to read it rightly is to read it always toward him. He speaks through it, and he is in it from the first page to the last.
 
 ---
 

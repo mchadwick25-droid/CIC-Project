@@ -17,8 +17,9 @@ term: Apotagē (Renunciation)
 aliases:
 - renunciation
 - apotage
-quick_meaning: Formal renunciation of property, family ties, and worldly status marking entry into ascetic
-  life.
+quick_meaning: >-
+  Giving up property, family ties, and standing in the world. It is the formal
+  step by which a person enters our life.
 plain_explanation: 'To enter this life, a person gave things up in a formal way. Property, family ties,
   and standing were all laid down. In the Rule-based houses this was strict: no one kept private property.
   Hermits and cell-dwellers did it less formally. The word still lives in church talk today. But this

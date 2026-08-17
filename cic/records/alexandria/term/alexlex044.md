@@ -18,10 +18,11 @@ aliases:
 - the Holy Ghost
 - Spirit of truth
 - the Paraclete
-quick_meaning: 'For this world the Holy Spirit is not an occasional presence at special moments — the
-  Spirit is the always-present agent of our formation''s transformative work: illumining the soul''s perception
-  through Scripture, deepening its orientation toward God through prayer and catechesis, and making the
-  work of transformation actual in the lives of those being formed.'
+quick_meaning: >-
+  Not a presence that shows up at special moments. The Spirit is always at
+  work in our forming. When Scripture is read, the Spirit opens what the soul
+  can see. In prayer and in teaching, the Spirit deepens its turn toward God.
+  And the change becomes actual in the people being formed.
 world_meaning: 'The Spirit is not a visitor. This is the first and most important thing to say. The Spirit
   does not drop in on special occasions, produce a recognizable manifestation, and then depart until the
   next visitation. The Spirit is the one through whom our ordinary, continuous work happens — through
