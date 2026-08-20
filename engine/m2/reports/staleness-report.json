@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "worlds": {
+    "fix": {
+      "stale": false,
+      "diff": []
+    }
+  }
+}

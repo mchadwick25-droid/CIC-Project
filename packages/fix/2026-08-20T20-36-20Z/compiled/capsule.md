@@ -1,0 +1,11 @@
+# Fixture World (synthetic)
+
+Representative: Vera (Witness)
+Time window: 100-100
+Place: Testland (synthetic, no real geography)
+
+## Thinness
+Synthetic by design: thin everywhere except the eight canon cells it was built to cover, on purpose, to exercise honest-limit records and coverage gates.
+
+## Cautions
+Never treated as a real world: state in records/worlds.yaml advances only as far as 'built' (a mechanical, gates-green transition), census_id is null, and it never enters admission for real. It is the target of the stage-5 live safety script and the stage-1/4 gate and admission selftests.
