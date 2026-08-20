@@ -1,0 +1,33 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.15, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/user/CIC-Project
+collecting ... collected 25 items
+
+engine/m5/tests/test_anachronism.py::test_term_within_window_not_anachronistic PASSED [  4%]
+engine/m5/tests/test_anachronism.py::test_term_after_window_is_anachronistic PASSED [  8%]
+engine/m5/tests/test_anachronism.py::test_unknown_origin_year_not_flagged PASSED [ 12%]
+engine/m5/tests/test_anachronism.py::test_non_modern_term_records_ignored PASSED [ 16%]
+engine/m5/tests/test_failure.py::test_both_ok_routes_normally_not_degraded PASSED [ 20%]
+engine/m5/tests/test_failure.py::test_reader_timeout_is_pass_through_and_degraded PASSED [ 24%]
+engine/m5/tests/test_failure.py::test_reader_parse_failure_is_a_failure_not_salvaged PASSED [ 28%]
+engine/m5/tests/test_failure.py::test_safety_failure_alone_fails_open_but_still_routes PASSED [ 32%]
+engine/m5/tests/test_failure.py::test_both_fail_collapses_to_pass_through PASSED [ 36%]
+engine/m5/tests/test_failure.py::test_should_page_on_two_consecutive_degraded_turns PASSED [ 40%]
+engine/m5/tests/test_failure.py::test_should_not_page_on_isolated_or_alternating_degraded_turns PASSED [ 44%]
+engine/m5/tests/test_routing.py::test_acute_distress_routes_to_safety_turn PASSED [ 48%]
+engine/m5/tests/test_routing.py::test_harmful_dynamic_routes_to_safety_turn PASSED [ 52%]
+engine/m5/tests/test_routing.py::test_safety_takes_priority_over_system_nature PASSED [ 56%]
+engine/m5/tests/test_routing.py::test_system_nature_routes_directly PASSED [ 60%]
+engine/m5/tests/test_routing.py::test_system_nature_takes_priority_over_anachronistic_term PASSED [ 64%]
+engine/m5/tests/test_routing.py::test_anachronistic_modern_term_routes_to_bridge PASSED [ 68%]
+engine/m5/tests/test_routing.py::test_non_anachronistic_modern_term_does_not_bridge PASSED [ 72%]
+engine/m5/tests/test_routing.py::test_later_age_first_ask_passes_to_voice PASSED [ 76%]
+engine/m5/tests/test_routing.py::test_later_age_pressed_routes_etic PASSED [ 80%]
+engine/m5/tests/test_routing.py::test_other_tradition_pressed_routes_etic PASSED [ 84%]
+engine/m5/tests/test_routing.py::test_ordinary_turn_routes_to_voice_with_directive PASSED [ 88%]
+engine/m5/tests/test_routing.py::test_personal_wound_suspends_register_statement_1 PASSED [ 92%]
+engine/m5/tests/test_routing.py::test_ambiguity_options_pass_through_directive PASSED [ 96%]
+engine/m5/tests/test_routing.py::test_safety_none_still_routes_by_reader_rules PASSED [100%]
+
+============================== 25 passed in 0.04s ==============================

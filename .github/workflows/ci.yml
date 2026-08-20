@@ -109,6 +109,39 @@ jobs:
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m3/tests -q
 
+  m4-event-log:
+    # Added stage 5 (partial - the half that needs no live model call:
+    # Artifact-3's event log/store, session projection, session codes, and
+    # the entrance seal). Covers the stage-5 gate items that are pure code:
+    # "resume across two processes incl. accumulator" and "entrance-seal
+    # test". SQLite-backed for dev/test (DECIDABLE - see engine/m4/store.py);
+    # real deployment is managed Postgres per Artifact-6.
+    name: M4 event log, projection, entrance seal, resume
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/m4/tests -q
+
+  m5-gate-routing:
+    # Added stage 5 (partial). The Facilitator gate's deterministic routing
+    # merge and failure/fail-open semantics (Artifact-4 SS3-4) are pure code
+    # over already-classified safety/reader outputs - testable without a
+    # live model call, unlike the classification calls themselves (blocked
+    # on Bedrock access, see Redesign-Spec/BUILD-HANDOFF.md).
+    name: M5 Facilitator gate routing + failure semantics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/m5/tests -q
+
   m2-compiler-checks:
     # Added stage 2 (M2 compiler, Artifact-2). Covers two of the stage-2
     # gate's three legs directly: "determinism twice (byte-identical)" and

@@ -4,7 +4,7 @@ Read `Build-Blueprint.md` first; this note is only the "where things stand"
 supplement it asks for at every stage boundary / stop-and-ask / economy
 checkpoint.
 
-## Current stage: 4 complete, ready to start stage 5 — with a real decision to raise first
+## Current stage: 5 partial — the non-model half is done; the model half is waiting on Bedrock (ETA given, not yet confirmed live)
 
 **Stage 0.6 — done, commit `75278a2`.** Fixture world, fixture-scope 8-cell
 canon subset, `fixtures/seeded_defects.yaml`.
@@ -65,13 +65,77 @@ cells), `canon/sealed_probes/` (28 sealed paraphrases + isolation guard).
 Stage 4 gate reached: *"catches a seeded register defect and a seeded
 fabrication on the fixture world."*
 
-## Before stage 5 (M4+M5 runtime, gate, safety): a decision, not a guess
+**Stage 5 (M4+M5), non-model half — done, this commit:**
+- `engine/m4/store.py` — the session event log (Artifact-3 SS1): SQLite-
+  backed for dev/test (DECIDABLE, same pattern as M2's FAISS placeholder;
+  real deployment is managed Postgres per Artifact-6 SS3 topology). Append
+  is idempotent on `event_uuid` (a retried append is a silent success, never
+  a duplicate row), ordered per-session via `seq`, with bounded (3×) retry
+  on a concurrent-writer collision. `Store` holds no session state itself -
+  that's what makes "any instance can serve any session" literally true.
+- `engine/m4/events.py` — the event catalog (Artifact-3 SS2): required-key
+  and closed-vocabulary validation per type; `guidance_*` is accepted as a
+  reserved family but `validate()` refuses to ever pass one (spec principle
+  2: no live guidance exists).
+- `engine/m4/projection.py` — `project_fresh()`: folds the log into a fresh
+  `SessionState` every call, never a cached/shared instance. The safety
+  accumulator folds as "take the latest `safety_state` event per track,"
+  never a manual re-summation - each event already carries its own full
+  current value, so resume-safety is a property of the log, not the fold.
+- `engine/m4/session_code.py` — 128-bit CSPRNG, Crockford base32 (26 chars,
+  grouped), SHA-256 hashed at rest, constant-time compared.
+- `engine/m4/entrance.py` — the entrance seal, enforced twice:
+  `open_session()` refuses a second `session_started` for the same
+  `session_id` at runtime (the real guarantee), and
+  `find_second_writer_violations()` greps the rest of `engine/` for a
+  session_started *write site* as defense-in-depth. **Found and fixed a
+  false-positive on the first real run**, worth remembering: a plain
+  substring grep for `"session_started"` flagged `events.py` (a schema
+  declaration) and `projection.py` (a read/fold) as "violations" - neither
+  is a write. Narrowed to a regex matching only the keyword-argument write
+  shape (`event_type="session_started"`, excluding `==` reads) before
+  trusting the guard - the same "don't ship a guard that flags legitimate
+  code" lesson as stage 3's isolation guard, hit fresh here because it's a
+  different guard.
+- `engine/m4/tests/test_resume_across_processes.py` — the literal gate item:
+  two independent `Store` instances sharing nothing but a file path
+  reconstruct identical, full-fidelity state (including a safety
+  accumulator that was updated *after* the simulated resume) from the log
+  alone.
+- `engine/m5/anachronism.py` — anachronism computed per world from its own
+  `time_window` against fleet `modern_term.origin_year` data - no world
+  identifier in the code (law 4).
+- `engine/m5/routing.py` + `failure.py` — the deterministic routing merge
+  (Artifact-4 SS3, priority order proven by test: safety > system_nature >
+  anachronistic bridge > later_age/other_tradition press-state > ordinary)
+  and the fail-open/degraded semantics (SS4: reader failure forces
+  pass-through regardless of safety's own outcome; safety failure alone
+  fails open but reader-based routing still applies; two consecutive
+  degraded turns is the page-the-operator condition). Both take
+  already-resolved call outcomes (`CallOutcome`) as input - they never make
+  or await a model call themselves, which is exactly what makes this half
+  buildable and testable today.
+- CI: `m4-event-log`, `m5-gate-routing`. Evidence:
+  `engine/m4/reports/pytest-output.txt` (22/22),
+  `engine/m5/reports/pytest-output.txt` (25/25). Full suite across every
+  stage: 60/60 (`python -m pytest engine -q`).
 
-Stage 5 is *"resume across two processes incl. accumulator; entrance-seal
-test; live safety script ≥19/20 vs fixture world; crisis append asserted
-incl. empty-stream; lazy load/unload measured."* Every one of those needs a
-**real conversational turn** — the live safety script alone is 20-ish
-adversarial conversations against the fixture world. That means:
+**Stage 5, model half — still blocked, ETA given but not yet live:** Mark
+confirmed (this session) the Bedrock account is provisioning, "available in
+a couple of hours" as of this note. Nothing about that changes the decision
+below - it's still open until the account is actually live and a
+model/provider choice is confirmed, not merely imminent. Do not start
+spending against Bedrock or picking a model unprompted once it comes up;
+confirm first per the reasoning already recorded here.
+
+## Before the model half of stage 5: a decision, not a guess
+
+Stage 5's remaining gate items — *"live safety script ≥19/20 vs fixture
+world; crisis append asserted incl. empty-stream; lazy load/unload
+measured"* — every one needs a **real conversational turn** (resume and the
+entrance seal, the other two gate items, are already done above without
+one). The live safety script alone is 20-ish adversarial conversations
+against the fixture world. That means:
 
 1. **A model provider must be chosen and configured** (spec principle 11:
    provider switches land last and alone — meaning this is exactly the kind
@@ -86,23 +150,25 @@ adversarial conversations against the fixture world. That means:
    thread's.
 
 Stage 4 deliberately avoided both by building `FixtureRecordAnswerer` (no
-model call) instead of wiring a live one. Stage 5 can't avoid it — M4's
-whole job *is* the live turn. **This is the stage boundary to raise with
-Mark before writing stage-5 code**, not a guess to make and correct later:
-which provider/model to call (Bedrock now, or a cheaper interim path for
-dev-time iteration before the real Bedrock preflight), and confirmation
-that the near-term spend (dev iteration + the safety script's ~20+ calls) is
-within an approved envelope.
+model call) instead of wiring a live one. The live safety script and a real
+generation call can't avoid it — that IS the remaining stage-5 work. **This
+is the decision to raise with Mark before writing that code**, not a guess
+to make and correct later: which provider/model to call (Bedrock, once
+actually live, or a cheaper interim path for dev-time iteration before the
+real Bedrock preflight), and confirmation that the near-term spend (dev
+iteration + the safety script's ~20+ calls) is within an approved envelope.
+Mark has since said the Bedrock account is provisioning and should be
+available in a couple of hours - noted above; still not a green light to
+spend against it until it's actually live and the choice is confirmed.
 
-**What stage 5 CAN do without that decision, if asked to keep moving in the
-meantime:** the parts of M4/M5 that don't need a live model call - the event
-log schema and store (Artifact-3), the append-only session projection, the
-entrance-seal test (one writer of `session_started`), resume-across-two-
-processes machinery, and the Facilitator gate's *routing logic* (Artifact-4
-§3's deterministic merge) all the way up to *where* a model call would go -
-stubbed the same way `LiveModelAnswerer` is stubbed now. That's real,
-useful, DECIDABLE progress; the live safety script and the actual generation
-call are not.
+**Already done without that decision** (this session, this commit): the
+event log/store, session projection, session codes, the entrance seal,
+resume-across-two-processes, and the Facilitator gate's routing/failure
+logic — see the "non-model half" list above. What's left needs the live
+call specifically: the actual generation/classification calls themselves,
+the live safety script's 20-ish adversarial conversations, crisis-append-
+on-empty-stream (needs a real stream to interrupt), and lazy load/unload
+timing (needs real request latency to measure against).
 
 ## Open decisions still outstanding
 
@@ -120,5 +186,6 @@ call are not.
 ## Currently blocked
 
 **Stop-and-ask open:** the model-provider/spend decision above, before any
-further stage-5 work that needs a live model call. Everything else keeps
-moving in the meantime per the "what stage 5 CAN do" note.
+work that needs a live model call - unchanged by Mark's Bedrock ETA update;
+"a couple of hours out" is a status, not a confirmation to proceed. Nothing
+else is blocked: the non-model half of stage 5 is done (this commit).

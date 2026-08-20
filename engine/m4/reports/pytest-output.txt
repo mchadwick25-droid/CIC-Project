@@ -1,0 +1,30 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.15, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/user/CIC-Project
+collecting ... collected 22 items
+
+engine/m4/tests/test_entrance_seal.py::test_open_session_writes_session_started PASSED [  4%]
+engine/m4/tests/test_entrance_seal.py::test_second_session_started_is_refused PASSED [  9%]
+engine/m4/tests/test_entrance_seal.py::test_no_production_code_outside_entrance_constructs_session_started PASSED [ 13%]
+engine/m4/tests/test_events.py::test_valid_session_started_passes PASSED [ 18%]
+engine/m4/tests/test_events.py::test_missing_key_rejected PASSED         [ 22%]
+engine/m4/tests/test_events.py::test_unknown_type_rejected PASSED        [ 27%]
+engine/m4/tests/test_events.py::test_bad_enum_rejected PASSED            [ 31%]
+engine/m4/tests/test_events.py::test_guidance_events_always_rejected PASSED [ 36%]
+engine/m4/tests/test_projection.py::test_project_fresh_folds_full_state PASSED [ 40%]
+engine/m4/tests/test_projection.py::test_project_fresh_on_unknown_session_is_empty PASSED [ 45%]
+engine/m4/tests/test_projection.py::test_pressed_state_folds_from_escalation_pressed PASSED [ 50%]
+engine/m4/tests/test_resume_across_processes.py::test_resume_across_two_store_instances_full_fidelity PASSED [ 54%]
+engine/m4/tests/test_resume_across_processes.py::test_a_third_instance_sees_identical_state PASSED [ 59%]
+engine/m4/tests/test_session_code.py::test_generate_code_shape PASSED    [ 63%]
+engine/m4/tests/test_session_code.py::test_generate_code_is_random PASSED [ 68%]
+engine/m4/tests/test_session_code.py::test_hash_and_match_roundtrip PASSED [ 72%]
+engine/m4/tests/test_session_code.py::test_wrong_code_does_not_match PASSED [ 77%]
+engine/m4/tests/test_session_code.py::test_hash_is_case_and_dash_insensitive PASSED [ 81%]
+engine/m4/tests/test_store.py::test_append_assigns_sequential_seq PASSED [ 86%]
+engine/m4/tests/test_store.py::test_append_is_idempotent_on_event_uuid PASSED [ 90%]
+engine/m4/tests/test_store.py::test_read_events_ordered PASSED           [ 95%]
+engine/m4/tests/test_store.py::test_sessions_are_independent PASSED      [100%]
+
+============================== 22 passed in 0.15s ==============================
