@@ -161,17 +161,18 @@ Consequences for the design:
 - The world-selection surface must degrade gracefully past a menu of six (curation, search, pathways — participant-surface design, Q5).
 - Per-world validation must be machine-runnable at fleet scale: "at six worlds a human can hold that in their head; at six hundred the failure mode is a world that passes every gate with half its safety net inert, and nobody notices" — so gates must fail on inertness, not just on violations.
 
+**Q8 — Answer bank. RULED 2026-08-20: keep the goal, drop the mechanism for Phase 1.** The "bank" is the audited transcript corpus: the audit (M7) surfaces recurring question clusters; vetted standard answers flow back into world builds (demonstrations, reviewed starter questions) — under the question-led canon, exactly where they belong. A runtime serving path re-enters the spec only if measured recurrence justifies it; nothing gets built on guessed demand again.
+
 ### 4.2 Active question
 
-**Q8 — The answer bank: does the redesign carry it, and in what form?**
+**Q9 — Transcripts: may every transcript be kept indefinitely for learning, provided it is anonymous — and can a participant ask for theirs to be deleted?**
 
-Mark's brief names "a bank of standard answers" as a goal of keeping transcripts. The as-built bank never served a single answer (no data, no build script in the shipping tree, no UI that could trigger it), and its own honest ceiling was ~5.2% of traffic, because it could only serve an exact tap on a curriculum question nobody built.
+Transcripts are now load-bearing three ways: the audit, the learning corpus/bank goal, and the Question Canon's growth. Anonymity is a founding promise (sign-in optional, never required), and participants sometimes disclose personal things in free text.
 
-**Recommendation: keep the goal, drop the mechanism — for Phase 1 the "bank" is the audited transcript corpus, not a runtime serving path.** Let real participants show which questions recur; the audit (M7) surfaces the clusters; vetted standard answers then become world-build material (demonstrations, reviewed starter-question answers). A runtime serving path re-enters the spec only if measured recurrence justifies it.
+**Recommendation: yes to both.** Transcripts are keyed to an anonymous session, kept indefinitely; before anything enters the shared learning corpus, the audit pass strips personal identifiers from free text. The participant is told plainly at the start what is kept and why, and is shown a session code at the end that lets them request deletion later — control without requiring an account. Optional sign-in adds only their own continuity across visits, nothing else.
 
 ### 4.3 Question queue (order will adapt to answers)
 - Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
-- Q9 — Retention/anonymity mechanics: what exactly is kept, keyed how, told to the participant in what words.
 - Q10 — Safety scope: carry the existing two-track design as-is, or re-derive; what "comparable programs" set the bar.
 - Q11 — Bedrock: what the migration changes for this spec (all figures re-measured; caching behavior is the whole bet).
 
