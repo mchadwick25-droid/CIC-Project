@@ -259,7 +259,34 @@ The old arc was organized by analytical category (identify → sources → gravi
 
 **The canon is centered, not flat (RULED 2026-08-20).** Mark: "Our heart is to reveal Jesus, so that would be a centric question." No audience's questions outrank another's — the structure isn't a ranking of families but a center with families around it: at the center sit the questions of Jesus himself — who he was, the cross, the resurrection, what it meant to those who followed him — and every family is partly defined by how its questions lead toward or radiate from that center (daily life as it was lived *because of him*; belonging as the way people *came to him*; pain as the place he is *most needed and hardest to see*). Center coverage is the first thing admission tests — the recorded go-live failure (the cross oblique three times, the resurrection never) is the exact defect this geometry exists to prevent. Guardrail carried from the Constitution: revealing is witness, never recruitment (R7) — each world testifies of Christ *from its own sources only* (no shared center record), and the participant's interpretation remains their own.
 
-*Category families: UNDER RESEARCH (2026-08-20) — two tracks running (internal evidence mining; external frameworks: catechetical structures, seeker courses, church-history pedagogy, deconstruction literature, social history of daily life). Candidate schemes to be presented for Mark's ruling; the four-family sketch (life-world / formation / foundations / pressure) is superseded as a candidate, not a decision.*
+#### The canon's categories — research complete (2026-08-20), three candidates for Mark's ruling
+
+**What the research found (both tracks agree):**
+- Every seeker framework converges on three anchors — **Jesus, suffering, reliability** ("how do you know?"). A canon missing any of these as first-class fails the general seeker.
+- The deconstruction literature's core finding: some questions are **wounds seeking witness, not information requests** — the same topic asked from pain needs a different answer than asked from curiosity. The register of the asking must be a first-class distinction, not a tone note.
+- The ancient church's own catechumenate staged its questions by **readiness, not topic** (inquirer → hearer → candidate → mystagogue) — and Augustine opened by asking why the inquirer had come. The four participant types are an ancient pattern.
+- **CiC's own artifacts already discovered both axes independently**: the question-sheet tiers (First Visit / Going Deeper / For the Wrestling / Honest Limits) are a register axis — the design study's own words: "they discovered the axis and called it depth"; and the curriculum ruled "one pool, four orderings" — role orders the same pool, never gates it.
+- The existing 10-category probe battery is a **conduct** taxonomy (parroting, pushback, frame-breaking, safety overlap) — it tests how the system behaves under attack, on any content. It is not a coverage taxonomy and the canon does not replace it; the two are orthogonal instruments.
+
+**Candidate schemes:**
+
+**A — Expanded Catechism (content-first).** Eight families extending the historic four pillars: Story · Belief · Practice · Life (ethics) · World (daily life) · Evidence · Wounds · Bridges (anachronism). *Catches:* the strongest completeness audit; authentically in-world (the catechumenate is the era's own form). *Misses:* emotional register confined to one family — a grieving question risks being treated as a content lookup.
+
+**B — Doors (intent-first).** Six doors by why the participant came: Seeking · Wrestling · Learning · Verifying · Visiting · Practicing. *Catches:* routes the same topic pastorally, historically, or devotionally by intent. *Misses:* no content-completeness audit — you cannot ask "have we covered the eucharist?"
+
+**C — Centered two-axis canon (RECOMMENDED).** The center and six families around it, crossed with four registers of asking:
+- **Center: Jesus** — who he was, the cross, the resurrection, what it meant to those who followed him (per the centric-question ruling; admission tests this first).
+- Families: **God & doctrine** (Trinity, creeds, this world's controversies) · **Scripture & sources** (what they read, how; and how we know — historiography, myth-busting) · **Church & world** (spread, offices, worship, persecution, empire, money and power) · **Living the faith** (prayer, sacraments, discipline, ethics, mission) · **Daily life** (household, food, work, women, slaves, children, sickness, death) · **The hard places** (suffering, hell, hypocrisy, church failure, exclusion, doubt itself).
+- Registers, each family × 4: **informational** (what/when/who) · **evidential** (did it happen, how do you know) · **personal** (asked from pain or longing — the wound seeking witness) · **translational** (modern terms and anachronisms — "was your church Catholic?", "what about evolution?").
+- *Catches:* one topic generates four distinct admission probes (eucharist: what did you do? / how do we know? / I was barred from communion and it broke me / is this transubstantiation?). The personal register forces pastoral-tone validation; the translational register is the trap-set the modern-term bridge already serves. Completeness = a center + 6×4 grid per world, weighted per world (Desert heavy in Living/Hard places; Alexandria in Doctrine/Scripture). *Misses:* nothing structural; costs the most to maintain.
+
+**Canon authoring rules proved by CiC's own running evidence (bind under any scheme):**
+1. **Put the thing you want answered last** — in a compound question the last clause consumes the answer (all six worlds, measured); the runtime half of this is Q16's question-reader.
+2. **No starter phrased as first-person present-tense distress** — a Desert opener triggered the safety classifier on click; the participant was triaged for accepting the house's own invitation. Same content, reframed ("Did anyone out there deal with thoughts they couldn't turn off?"), is fine.
+3. **A story must carry its name** — an attested story told anonymized reads as fabrication to the instruments and the participant alike.
+4. **Limit questions get their own labeled set, never mixed** — a participant *chooses* to look at the record's silences (formation moment), never stumbles into one (failure).
+5. **Phrasing is validated by running, never by desk-check** — both desk-derived fit tests were wrong; both real calibration failures were on questions marked safest.
+6. **Held-out paraphrase probes are authored and sealed before any world answers the canon** (already a build-order gate).
 
 **Per world:**
 1. **Identify & bound** — scope, time window, what the world is *not*; distinctness against built worlds.
