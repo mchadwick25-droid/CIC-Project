@@ -216,24 +216,12 @@ def gate_readability(records, fleet, registry) -> list[str]:
 
 def gate_canon_coverage(records, fleet, registry) -> list[str]:
     findings = []
-    cells = canon.valid_cells(fleet)
-    substantive = canon.substantive_types()
-    for cell in sorted(cells):
-        substantive_hits = [
-            rid for rid, r in records.items() if r.get("record_type") in substantive and cell in (r.get("canon_cells") or [])
-        ]
-        honest_limit_hits = [
-            rid
-            for rid, r in records.items()
-            if r.get("record_type") == "honest_limit" and cell in (r.get("canon_cells") or [])
-        ]
-        if substantive_hits:
-            continue
-        if len(honest_limit_hits) == 1:
-            continue
-        if len(honest_limit_hits) > 1:
-            findings.append(f"cell {cell}: {len(honest_limit_hits)} honest_limit records claim it - exactly one is allowed")
-        else:
+    for cell in sorted(canon.valid_cells(fleet)):
+        classification = canon.classify_cell(cell, records)
+        if classification["status"] == "multiple_honest_limit":
+            n = len(classification["honest_limit"])
+            findings.append(f"cell {cell}: {n} honest_limit records claim it - exactly one is allowed")
+        elif classification["status"] == "empty":
             findings.append(f"cell {cell}: neither a substantive record nor an honest_limit - blank cell")
     return findings
 

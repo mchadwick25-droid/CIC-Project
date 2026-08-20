@@ -10,7 +10,7 @@ checkpoint.
 - `records/worlds.yaml` — registry with the `fix` fixture-world entry
   (`state: building`, never advances, `census_id: null`).
 - `records/fix/**` — clean fixture world, all 15 per-world record types
-  (Artifact-1 §4), covering 8 seeded canon cells (4 substantive, 4
+  (Artifact-1 §4), covering 8 seeded canon cells (5 substantive, 3
   honest_limit).
 - `records/_fleet/canon_question/*.md` (8 files) + `records/_fleet/
   modern_term/_fleet.modern.trinity.md` — a fixture-scope subset of the real

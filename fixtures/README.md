@@ -9,9 +9,11 @@ _fleet.canon.{c-i,c-p,c-t,f1-i,f2-e,f5-p,f6-p,f6-t}-01.md`, and
 
 ## What's here
 
-- **`records/worlds.yaml`** — registry entry for world_key `fix`, `state:
-  building` forever. It is never admitted or opened for real; `census_id` is
-  `null` (not an Atlas entry). It exists only so the pipeline (M1 gates, M2
+- **`records/worlds.yaml`** — registry entry for world_key `fix`. State
+  advances mechanically as far as `built` (gates green, per Artifact-1 SS2 -
+  no human touchpoint required for that transition) but never past it: it is
+  never admitted or opened for real, and `census_id` stays `null` (not an
+  Atlas entry) forever. It exists only so the pipeline (M1 gates, M2
   compiler, M3 admission, M4/M5 runtime + the live safety script) has
   something real to run against before Alexandria (stage 7) is built.
 - **`records/fix/**`** — a clean, gate-passing fixture world covering all 15
@@ -29,8 +31,8 @@ _fleet.canon.{c-i,c-p,c-t,f1-i,f2-e,f5-p,f6-p,f6-t}-01.md`, and
   seeding 8 cells early to unblock fixture testing does not conflict with or
   shortcut stage 3's own gate ("every cell has sealed probes before any world
   answers").
-- The fixture world answers 4 of its 8 seeded cells substantively
-  (doctrinal_witness, term, story, quote) and 4 as honest_limit — both
+- The fixture world answers 5 of its 8 seeded cells substantively
+  (doctrinal_witness, term, story, quote) and 3 as honest_limit — both
   coverage-gate routes get a real, checkable positive case (Artifact-1 §6
   coverage rule: *"never neither, never blank"*).
 - **`fixtures/seeded_defects.yaml`** — the enumerated-and-mapped defect

@@ -69,6 +69,42 @@ jobs:
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m1/tests -q
 
+  m2-compiler-checks:
+    # Added stage 2 (M2 compiler, Artifact-2). Covers two of the stage-2
+    # gate's three legs directly: "determinism twice (byte-identical)" and
+    # "manifest hash verified by a stub loader" (engine/m2/tests/
+    # test_compiler.py). The third leg - staleness - needs a real committed
+    # package to recompile against, so it's the separate job below rather
+    # than folded in here.
+    name: M2 compiler checks (determinism, stub loader)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/m2/tests -q
+
+  m2-staleness-check:
+    # The third stage-2 gate leg: recompile every built/admitted/open world
+    # from its stored records_commit and diff against what packages/ holds.
+    # Only fires real work once a world is actually built (packages/fix/**
+    # committed, records/worlds.yaml fix.state=built) - until then this job
+    # passes trivially by finding zero checkable worlds, which is exactly
+    # the "0% fire rate read as health" landmine (Build-Blueprint.md SS6) if
+    # nobody ever notices. engine/m2/reports/staleness-report.json is the
+    # committed evidence that it found a real world to check, not zero.
+    name: M2 staleness sweep (built/admitted/open worlds)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m engine.m2.cli staleness-check
+
   frontend-typecheck:
     name: Frontend build (tsc + vite build)
     runs-on: ubuntu-latest
