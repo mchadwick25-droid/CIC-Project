@@ -1,6 +1,6 @@
 # CiC Build Blueprint — the handoff charter
 
-**Status: DRAFT for Mark's redline, 2026-08-20.** This is the document a fresh build thread launches from. It tells that thread what to build, in what order, under what laws, with what freedom, and when to stop and ask. The design record it executes is `CiC-Program-Spec.md` + Artifacts 1–6, all in this folder, all on branch `claude/cic-redesign-spec-fcjzz6`.
+**Status: APPROVED by Mark, 2026-08-20.** This is the document a fresh build thread launches from. It tells that thread what to build, in what order, under what laws, with what freedom, and when to stop and ask. The design record it executes is `CiC-Program-Spec.md` + Artifacts 1–6, all in this folder, all on branch `claude/cic-redesign-spec-fcjzz6`.
 
 ---
 
