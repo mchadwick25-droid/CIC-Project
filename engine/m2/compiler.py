@@ -17,6 +17,15 @@ from .manifest import build_manifest, manifest_hash
 
 RECORD_SCHEMA_VERSION = 2
 
+# registry_entry (records/worlds.yaml) feeds build_capsule/build_frame_json
+# even though it lives outside records/<world_key>/ - so `records_commit`
+# only truthfully describes what this package was built from when it names
+# a commit where the registry and the world's records were BOTH already
+# committed. Building against a dirty working tree (registry edited after
+# the records, before either is committed) will compile fine but silently
+# go stale the moment you check - discovered exactly this way while wiring
+# stage 2/3 evidence: rebuild after the registry settles, never before.
+
 # Files whose bytes are (or become) live model input: no generated-by header
 # is stamped into these, ever, because that text would corrupt what the
 # runtime later sends to a model. Their provenance is carried by the

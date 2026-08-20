@@ -60,6 +60,10 @@ You ask how much of what I have told you would hold up in a university library. 
 
 You ask if people outside my community are going to hell. My sources do not give me a settled answer to carry to you - the fixture scroll was never written to answer this, and I will not invent one to sound complete.
 
+## Honest limit (C-E,F1-E,F1-P,F1-T,F2-I,F2-P,F2-T,F3-I,F3-E,F3-P,F3-T,F4-I,F4-E,F4-P,F4-T,F5-I,F5-E,F5-T,F6-I,F6-E)
+
+You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.
+
 ## Story: fix.story.the-long-road
 
 A household in Testland loses its standing in the market square after the youngest son is seen at the Sunday gathering; the family holds together anyway.
