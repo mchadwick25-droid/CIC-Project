@@ -17,7 +17,8 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.2). The World Package is the unit 
     figures.json                     # name-bridge registry (post-generation decoration only)
     repository.json                  # tier-3 browsable records + sources
     coverage.json                    # canon cell -> {terms[], stories[], quotes[], figures[], status}
-    frame.json                       # facilitator doorway data: thinness statement, cautions, starters per frame
+    frame.json                       # doorway/card data: thinness statement, cautions, starters per frame, card copy
+    media/portrait.*                 # the Representative's portrait (card + landing gallery asset; hash-listed like everything else)
   validation/
     gates-report.json                # every gate, result, and inertness report
     admission/results.json           # battery results (blind protocol, sealed-key refs)
