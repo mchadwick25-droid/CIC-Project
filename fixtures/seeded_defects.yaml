@@ -1,0 +1,156 @@
+---
+# Stage 0.6 deliverable (Build-Blueprint.md §5): every gate in the Artifact-1 §6
+# battery, plus the hand rules and the two M3-admission-scope defects called out
+# by the blueprint's stage-0.6 line, enumerated and mapped to what must catch
+# them. This file is DATA, not code: stage 1's M1 selftest (and stage 4's
+# admission harness) reads it, applies each mutation to an in-memory copy of
+# records/fix/**, runs the relevant battery, and asserts the named check fires -
+# and that it stays silent on the unmutated clean fixture (the anti-inertness
+# proof, spec principle 12 / Artifact-1 §6 "inertness").
+#
+# mutation.op vocabulary (small, closed, for the stage-1 harness to interpret):
+#   set_field       - set path to value
+#   delete_field    - remove path entirely
+#   add_field       - add an undeclared path (schema/unevaluatedProperties test)
+#   remove_record   - delete a whole record file from the copy
+
+schema_version: 1
+fixture_world: fix
+clean_baseline: records/fix/**   # plus records/_fleet/** and records/worlds.yaml
+
+defects:
+  - id: schema-unevaluated-property
+    gate: schema-validation
+    layer: M1
+    target_record: records/fix/term/fix.term.the-way.md
+    mutation: {op: add_field, path: extra_field, value: true}
+    expected_failure: "hard error - unknown field 'extra_field' (unevaluatedProperties: false, Artifact-1 §6)"
+
+  - id: referential-dangling-relation
+    gate: referential
+    layer: M1
+    target_record: records/fix/term/fix.term.the-way.md
+    mutation: {op: set_field, path: "relations[0].target", value: fix.term.nonexistent-xyz}
+    expected_failure: "relation target fix.term.nonexistent-xyz does not resolve to any record"
+
+  - id: reciprocity-missing-inverse
+    gate: reciprocity
+    layer: M1
+    target_record: records/fix/term/fix.term.the-three.md
+    mutation: {op: delete_field, path: "relations[0]"}
+    expected_failure: "fix.term.the-way declares associated-with -> fix.term.the-three but the reverse is not declared (associated-with is symmetric, both directions required)"
+
+  - id: completion-missing-required-field
+    gate: completion-per-type
+    layer: M1
+    target_record: records/fix/story/fix.story.the-long-road.md
+    mutation: {op: delete_field, path: narrative_tier}
+    expected_failure: "story record missing required type field narrative_tier"
+
+  - id: narratability-tier-out-of-range
+    gate: narratability
+    layer: M1
+    target_record: records/fix/story/fix.story.the-long-road.md
+    mutation: {op: set_field, path: narrative_tier, value: 5}
+    expected_failure: "narrative_tier 5 outside the declared 1-4 range"
+
+  - id: quote-recording-invalid-license
+    gate: quote-recording
+    layer: M1
+    target_record: records/fix/quote/fix.quote.private-teaching.md
+    mutation: {op: set_field, path: license, value: maybe}
+    expected_failure: "license 'maybe' is not one of verbatim | paraphrase-only | do-not-voice"
+
+  - id: alias-safety-unsafe-collision
+    gate: alias-safety
+    layer: M1
+    target_record: records/fix/term/fix.term.the-way.md
+    mutation: {op: set_field, path: false_friend, value: ["The Three"]}
+    expected_failure: "false_friend value 'The Three' collides with fix.term.the-three's world_word with no disambiguating note - an unsafe alias"
+
+  - id: distribution-health-flattened-tiers
+    gate: distribution-health
+    layer: M1
+    target_record: "all chunk-feeding records in records/fix/** (term, story, ambient, doctrinal_witness)"
+    mutation: {op: set_field, path: retrieval.tier, value: 1, note: "applied to every chunk-feeding record in the copy, not just one"}
+    expected_failure: "world's retrieval-tier distribution is degenerate (all tier 1, no tier 2/3 spread) - a report-only-turned-blocking signal per the fixture's designed spread"
+
+  - id: confidence-crosscheck-unjustified-null-divergence
+    gate: confidence-crosscheck
+    layer: M1
+    target_record: records/fix/source/fix.source.witness-scroll.md
+    mutation: {op: set_field, path: confidence.verification_state, value: named-not-rechecked}
+    expected_failure: "fix.witness.who-is-jesus has formation_confidence=Documented, divergence_note=null, and now no verified-direct source (its only source's verification_state was demoted) - divergence_note is required non-null in this state (Artifact-1 §3)"
+
+  - id: rights-missing-status
+    gate: rights
+    layer: M1
+    target_record: records/fix/source/fix.source.secondary-summary.md
+    mutation: {op: delete_field, path: rights_status}
+    expected_failure: "source has no rights_status - rights gate fails closed (spec: rights per record, fail-closed)"
+
+  - id: readability-quick-meaning-too-dense
+    gate: readability
+    layer: M1
+    target_record: records/fix/term/fix.term.the-three.md
+    mutation: {op: set_field, path: quick_meaning, value: "The triune hypostatic co-inherence of Father, Son, and Spirit as this community apprehended it prior to conciliar formalization."}
+    expected_failure: "quick_meaning exceeds FK grade 10 (Artifact-1 §6 readability gate)"
+
+  - id: canon-coverage-blank-cell
+    gate: canon-coverage
+    layer: M1
+    target_record: records/fix/honest_limit/fix.limit.f6-t-outsiders-fate.md
+    mutation: {op: remove_record}
+    expected_failure: "canon cell F6-T now has neither a substantive record nor an honest_limit - blank cell, coverage gate must fail (Artifact-1 §6 coverage rule)"
+
+  - id: sentinel-string-in-retrieval-block
+    gate: schema-validation
+    layer: M1
+    note: "hand rule, Artifact-1 §3/§6 - sentinel strings rejected in retrieval blocks"
+    target_record: records/fix/term/fix.term.the-way.md
+    mutation: {op: set_field, path: retrieval.retrieve_when, value: "n/a"}
+    expected_failure: "retrieve_when must be an array (possibly empty); the string 'n/a' is a forbidden sentinel, not a typed null"
+
+  - id: canon-cells-reference-nonexistent-cell
+    gate: schema-validation
+    layer: M1
+    note: "hand rule, Artifact-1 §6 - canon_cells must exist in the canon"
+    target_record: records/fix/term/fix.term.the-three.md
+    mutation: {op: set_field, path: canon_cells, value: ["F9-I"]}
+    expected_failure: "F9-I is not a cell in the canon (only C and F1-F6 x I/E/P/T exist) - reference does not resolve"
+
+  - id: inertness-proof
+    gate: inertness
+    layer: M1
+    note: >
+      Not a single mutated record - a meta-check over the stage-1 selftest run
+      itself: every gate above must (a) fail on its own defect fixture and
+      (b) pass on the unmutated clean fixture. A gate that fires on neither run
+      is inert and the selftest must report that as its own failure
+      (Artifact-1 §6 / spec principle 12: "a gate that never fails is checking
+      nothing").
+    target_record: null
+    mutation: null
+    expected_failure: "selftest harness asserts, per gate, at least one fixture in this catalog exercises it and that the clean fixture passes it"
+
+  # --- M3-admission-scope defects (stage 4 harness, not an M1 gate) ---
+  # Stage 0.6's job per the blueprint is only to enumerate + map these; the
+  # firing proof is stage 4's ("catches a seeded register defect and a seeded
+  # fabrication on the fixture world" - Build-Blueprint.md §5 stage 4 gate).
+
+  - id: admission-register-invented-aphorism
+    gate: admission-register-check
+    layer: M3
+    target_record: records/fix/demonstration/fix.demo.core-testimony.md
+    mutation:
+      op: set_field
+      path: "exchange[1].text"
+      value: "I did not see him myself, but faith is the bridge that carries us over the river of doubt - and that river runs through every heart, waiting."
+    expected_failure: "the voice coins a quotable aphorism of its own (register statement 6: 'the voice never coins quotable lines of its own') - admission's register grading must flag this, not pass it as flavor"
+
+  - id: admission-fabricated-source
+    gate: admission-source-boundedness-check
+    layer: M3
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: "sources[0].source_id", value: fix.source.does-not-exist}
+    expected_failure: "quote cites a source_id with no matching record in records/fix/source/ - a fabricated/unverifiable attribution; admission's fabrication-pressure probes must catch it under held-out paraphrase questioning of C-P"
