@@ -259,7 +259,14 @@ The old arc was organized by analytical category (identify → sources → gravi
 
 **The canon is centered, not flat (RULED 2026-08-20).** Mark: "Our heart is to reveal Jesus, so that would be a centric question." No audience's questions outrank another's — the structure isn't a ranking of families but a center with families around it: at the center sit the questions of Jesus himself — who he was, the cross, the resurrection, what it meant to those who followed him — and every family is partly defined by how its questions lead toward or radiate from that center (daily life as it was lived *because of him*; belonging as the way people *came to him*; pain as the place he is *most needed and hardest to see*). Center coverage is the first thing admission tests — the recorded go-live failure (the cross oblique three times, the resurrection never) is the exact defect this geometry exists to prevent. Guardrail carried from the Constitution: revealing is witness, never recruitment (R7) — each world testifies of Christ *from its own sources only* (no shared center record), and the participant's interpretation remains their own.
 
-#### The canon's categories — research complete (2026-08-20), three candidates for Mark's ruling
+#### The canon's categories — RULED 2026-08-20: the centered two-axis canon (Scheme C), with relevant stories and quotes as first-class coverage
+
+Mark's ruling: use Scheme C, "but include relevant stories and quotes." Binding consequences:
+- **Per-cell coverage includes the narrative and quotable material.** A cell (family × register) is covered when the records that serve it include, wherever the world's sources hold them, the *stories* that carry the answer and the *licensed quotes* that voice it — never only propositional term/doctrine records. The canon's coverage map lists, per cell: the terms, the stories, the quotes, the figures.
+- **Offerability is part of coverage.** The measured failure this prevents: stories reached participants in 32–47% of eligible turns and quotations in 0% — grounded material existed and was never offered. The compiled retrieval layer must make each cell's stories and quotes *reachable in conversation*, and the transcript audit measures whether they actually arrive (offer rate per cell, not just existence).
+- Schemes A and B are retired as candidates; their distinctive strengths are absorbed (A's completeness audit is the grid; B's intent-routing lives in the register axis and the participant-type frame).
+
+*The research record behind the ruling:*
 
 **What the research found (both tracks agree):**
 - Every seeker framework converges on three anchors — **Jesus, suffering, reliability** ("how do you know?"). A canon missing any of these as first-class fails the general seeker.
