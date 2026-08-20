@@ -23,18 +23,27 @@ _fleet.canon.{c-i,c-p,c-t,f1-i,f2-e,f5-p,f6-p,f6-t}-01.md`, and
   demonstration (×2, including the identity-collision case), voice_craft,
   search_record (×2, including a search that returned nothing).
 - **A fixture-scope canon subset**, 8 of the real 28 Appendix A cells (C-I,
-  C-P, C-T, F1-I, F2-E, F5-P, F6-P/identity-collision, F6-T), seeded now under
-  `records/_fleet/canon_question/` using the *real* Appendix A question text
-  and ids for those cells. **This is not full Canon v1** — stage 3 ("Canon v1
-  as records") adds the remaining 20 cells from the rest of Appendix A. Fleet
-  canon is versioned, growable data (Artifact-1 §4 canon maintenance rules);
-  seeding 8 cells early to unblock fixture testing does not conflict with or
-  shortcut stage 3's own gate ("every cell has sealed probes before any world
-  answers").
-- The fixture world answers 5 of its 8 seeded cells substantively
-  (doctrinal_witness, term, story, quote) and 3 as honest_limit — both
-  coverage-gate routes get a real, checkable positive case (Artifact-1 §6
-  coverage rule: *"never neither, never blank"*).
+  C-P, C-T, F1-I, F2-E, F5-P, F6-P/identity-collision, F6-T), seeded here (at
+  stage 0.6) under `records/_fleet/canon_question/` using the *real* Appendix
+  A question text and ids for those cells — enough to unblock fixture testing
+  before the full canon existed. **Stage 3 has since seeded the other 20**
+  (`engine/canon/seed_appendix_a.py`, all 86 questions across all 28 cells,
+  verbatim from Appendix A); the fleet canon is complete as of stage 3. These
+  8 ids were preserved exactly when stage 3 ran, since two of them
+  (`_fleet.canon.c-p-01`, `_fleet.canon.f6-p-01`) are referenced by
+  `records/fix/demonstration/*.md`.
+- The fixture world itself stays deliberately synthetic and thin: it answers
+  5 of the (now 28) canon cells substantively (doctrinal_witness, term,
+  story, quote) and honest-limits the other 23 — 3 individually
+  (`records/fix/honest_limit/fix.limit.{c-t-trinity-language,
+  f2-e-scholarly-scrutiny, f6-t-outsiders-fate}.md`) plus one record
+  covering the 20 cells stage 3 added
+  (`fix.limit.unbuilt-appendix-a-cells.md`, one honest_limit naming all 20 —
+  the reason is genuinely the same for all of them, so one record states it
+  once rather than 20 near-duplicates). Both coverage-gate routes still get a
+  real, checkable positive case (Artifact-1 §6 coverage rule: *"never
+  neither, never blank"*) — now against the real, complete canon rather than
+  a fixture-scope subset.
 - **`fixtures/seeded_defects.yaml`** — the enumerated-and-mapped defect
   catalog: one entry per gate in the Artifact-1 §6 battery (schema
   validation/unevaluatedProperties, referential, reciprocity,

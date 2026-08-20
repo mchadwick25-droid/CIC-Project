@@ -69,6 +69,22 @@ jobs:
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m1/tests -q
 
+  m3-canon-v1:
+    # Added stage 3 (Canon v1 as records + sealed held-out admission
+    # paraphrases). The stage-3 gate: every cell has sealed probes before
+    # any world answers it (28/28) - and the sealed plaintext stays isolated
+    # from every world-build code path, enforced here rather than trusted.
+    name: Canon v1 + sealed probe isolation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/canon/tests -q
+      - run: python -m engine.canon.check_seal_isolation
+
   m2-compiler-checks:
     # Added stage 2 (M2 compiler, Artifact-2). Covers two of the stage-2
     # gate's three legs directly: "determinism twice (byte-identical)" and
