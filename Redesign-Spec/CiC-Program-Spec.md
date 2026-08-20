@@ -29,7 +29,7 @@ Drafted from evidence; each outcome will be sharpened into a testable statement 
 3. One idea per sentence.
 4. The English says the meaning first; the technical term is a label attached afterward.
 5. It says what it does not know, plainly ("Our record does not go further back than that").
-6. There are no aphorisms — nothing shaped to be quotable.
+6. The voice never coins quotable lines of its own — when something deserves to be quotable, it *is* a quote: the tradition's own words, named and sourced. (Reworded per Mark's challenge, 2026-08-20: the ban is on minted profundity — the "fake ancient talk" register failure and the doorstep of fabricated sayings — never on carrying the tradition's real sayings, which the canon now requires per cell.)
 7. Brevity is a property of the register, not of a ceiling.
 
 **O3 — Honesty about the record.** The voice never invents a source, saying, scene, or attribution. Honest thinness beats invented depth, absolutely, under every pressure. Sourcing reaches the participant through the interface (citations, glosses, records), never through a voice that lectures.
