@@ -42,7 +42,7 @@ Drafted from evidence; each outcome will be sharpened into a testable statement 
 
 **O7 — Cost.** Target and unit to be settled in this interview (see §6 — the "$0.30/participant-hour" figure does not exist in the repo in that form; the recorded band is $0.25–1.00/hr with unresolved pacing denominators).
 
-**O8 — Participant types.** Four audiences (General/Seeker, Reassessing, Pastor/Teacher, Graduate-level). Whether and where the system adapts to them is an open interview question (Q-queue). Standing prior ruling in tension with it: "voices never know the persona; persona lives in the Facilitator — a witness testifies the same regardless of audience; only an advocate tailors."
+**O8 — Participant types.** Four audiences (General/Seeker, Reassessing, Pastor/Teacher, Graduate-level). RULED (Q3): one voice register — General/Seeker — for all users through pilot and Phase 1; the type adapts only the frame around the voice (Facilitator posture, starter questions, apparatus depth). Voice-position selection is a possible later addition the architecture keeps cheap.
 
 **O9 — Extension paths priced in, not built.** The multi-voice table (2–5 voices) is a separate product designed in another thread; this architecture must make it cheap to add. Same for "many worlds, not the current six."
 
@@ -143,16 +143,20 @@ Consequences for the design:
 - LLM-judgment fabrication detection (invented scenes, unattributed borrowings) lives in the offline transcript review. A found fabrication is handled as: a world-build fix (records/prompt/demonstrations), plus the transcript record of exactly which participants saw it.
 - The build carries the primary anti-fabrication burden and must be specified to bear it: records-bound prompting, the quote index shipped complete (including do-not-voice entries so a forbidden quote is recognizable), post-history guards, and validation batteries that include fabrication pressure with held-out probes.
 
+**Q3 — Participant types. RULED 2026-08-20: the voice never changes; the frame does — and there is exactly ONE voice register in this design: General/Seeker, for all users, through pilot and Phase 1.** A selection to change the voice position may be added later; it is out of scope here but must stay cheap to add. Consequences:
+- The register bar (§1 O2) is calibrated to General/Seeker and is *the* voice, not one lane of several. No per-type prompt variants; one static prompt per world (which is also the cache-correct shape).
+- Participant type is still collected (optional) and does two jobs: feedback correlation, and **frame selection** — the Facilitator's introduction and translation posture, the offered starter questions, and how much scholarly apparatus the interface surfaces up front (a Graduate sees the source registry and confidence axes immediately; a Seeker sees plain glosses and can drill down; everyone can reach everything).
+- Future voice-position selection is priced in architecturally: register is a build-time parameter of prompt assembly (a different derived prompt from the same records), never a runtime branch inside one prompt.
+
 ### 4.2 Active question
 
-**Q3 — Do the four participant types change the conversation — and if so, does the *voice* change, or the *frame around the voice*?**
+**Q4 — Does the voice remember the conversation?**
 
-The four audiences (General/Seeker, Reassessing, Pastor/Teacher, Graduate) were collected and never used. Standing ruling R10 says a voice never knows the persona — "a witness testifies the same regardless of audience; only an advocate tailors."
+Earlier questions, what the participant shared, its own prior answers — so later turns deepen instead of restarting. The record cuts both ways: memoryless turns are what made caching and cost so favorable ("a 12-turn interview is 12 independent answers"), but every continuity instruction was unexecutable without history — and, worse, the voice shown no history *invented callbacks to exchanges that never happened*.
 
-**Recommendation: the voice never changes; the frame does.** The Representative testifies identically to everyone (preserving R10 and the witness integrity the Constitution is built on), while the participant type shapes what surrounds the testimony: the Facilitator's introductions and translation, the suggested starter questions, and how much scholarly apparatus the interface surfaces (a professor sees the source registry and confidence axes up front; a seeker sees plain glosses and can drill down). This finally implements the types where R10 always implied they should live.
+**Recommendation: yes — the voice remembers the whole session, placed cache-consciously.** Being remembered is what makes it a real conversation rather than an oracle taking queries; and memory is also an honesty measure (the invented-callback failure is a fabrication class that only exists when memory is absent). Cost is bounded: history is small next to the static prompt, sessions are capped, and an append-only history segment caches well.
 
 ### 4.3 Question queue (order will adapt to answers)
-- Q4 — Conversational memory: does the voice remember the conversation (deepening, callbacks) at the measured cache/cost price, or stay memoryless?
 - Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
 - Q7 — Worlds at launch: all six at redesign quality, or fewer worlds deeper first?
 - Q8 — Answer bank: keep as designed (exact curriculum taps only), redesign, or drop?
