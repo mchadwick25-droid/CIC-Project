@@ -186,6 +186,19 @@ The design, in full:
 - **First ask goes to the voice; the Facilitator steps in only when the participant presses (Mark's amendment, 2026-08-20).** An out-of-scope question's *first* occurrence is answered by the Representative from inside its world — in-character, honestly bounded ("I know nothing of such things" is a real fourth-century answer). Only when the participant presses the point does the Facilitator intervene with the plain etic explanation. This matches the record: total embeddedness means the first ask often doesn't even parse as a system question from inside the world, and prompt text was proven unable to hold the line only under *sustained* pressure — which is exactly where the Facilitator now takes over. **Exception: safety always intervenes immediately, on the first signal — no press-to-escalate ladder applies there.** The modern-term bridge also stays first-occurrence (it is framing that helps the answer land, not an interception).
 - **Disciplines:** the Facilitator meets the same readability bar as every Representative and is measured by the same batteries (it was once the least readable voice on screen because none measured it); its threshold appearances are visible turns, never silent edits of the conversation.
 
+### 4.2 Active question
+
+**Q16 — Understanding the question before answering it: the question-reader.**
+
+The recorded failure this addresses (raised by Mark while exploring the register statements): when the question is unclear or two questions are asked, "the first sentence answers the question" breaks — on compound questions the last clause consumed the answer in all six worlds, and prompt instructions alone never fixed it (six edits, four runs, no movement).
+
+**Recommendation — a silent question-reading step in the Facilitator's gate, with three rules:**
+1. **The gate reads every message and names its asks** — one ask, two asks, a compound, or genuinely unclear — and hands the voice a **private directive** ("two questions: how one joined, and what it demanded; answer in that order"). One small, cheap call; it qualifies under Q1's own test because it changes *this* turn before the participant reads it, never a later one.
+2. **The participant's words are never rewritten.** The voice still sees exactly what the participant typed — authorship preserved, and the answer must still visibly respond to *their* phrasing. The directive names the asks; it does not replace the message.
+3. **Genuine ambiguity gets a clarifying question — from the voice, in-world.** "Do you mean how we worshiped, or whether we were made to?" is what a real conversation partner does, and a fourth-century person can ask it in character. The Facilitator clarifies visibly only when the ambiguity is system-level or modern-framed (its existing threshold role).
+
+Register statement 1 amends to: *the first sentence answers the first ask — and every ask gets answered.* The audit measures ask-coverage per turn (did each named ask receive an answer) — a mechanical check, not a judgment call.
+
 ### 4.3 Question queue (order will adapt to answers)
 - Q5 (remainder) — participant surface details are drafted as provisional recommendations in §5B; Mark redlines rather than being interviewed item by item.
 - Q11 — Bedrock is drafted into §6.1 from the evidence; the only open item is executing the preflight once the AWS account is live.
