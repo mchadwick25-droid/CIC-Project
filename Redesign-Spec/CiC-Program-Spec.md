@@ -171,13 +171,15 @@ Consequences for the design:
 
 **Q5a — Session continuity. RULED 2026-08-20: conversations are resumable by session code.** One code per session, shown plainly, doing double duty: resume on any device, and request deletion (Q9). Sign-in stays the optional convenience tier. Article 34 compliance note: continuity honors the participant's wish to finish; nothing may *prompt* them to return.
 
+**Q12 — Mark's role per world. RULED 2026-08-20: the four touchpoints — world/Representative identity, the living-tradition determination, the freeze, the admission read — plus one operational role: source acquisition.** Build environments cannot reach the text archives (CCEL, Archive.org, etc. are egress-blocked); Mark downloads what a build needs. Formalized so it scales: step 2 of every world build emits a **source request manifest** — exact texts, editions, URLs, expected rights status — Mark fetches and drops the files in; the texts registry then verifies rights from each file's own provenance header (never trusting the request), exactly as the existing corpus discipline does. Public-domain-only vendoring (R12) unchanged.
+
 ### 4.2 Active question
 
-**Q12 — At 100+ worlds, how much of each world build passes through Mark's hands?**
+**Q13 — Which world goes first through the new pipeline?**
 
-(Asked once, deferred during the build-process redesign; now the last structural unknown in the process.) The draft keeps the three historic checkpoints — world/Representative identity, the living-tradition determination, the freeze — plus Mark's read of the admission transcripts, with everything else executed by AI threads and scripts against this spec's standards.
+Stage 7 of the build order sends one world end-to-end to prove the whole process — canon coverage, honest limits, admission, cost per world — before any second world starts. The candidates aren't equal: the first world should *stress* the pipeline, especially the foundations family (serious theological questions), which is where the old process failed.
 
-**Recommendation: exactly those four touchpoints, nothing else mandatory.** Mark's reading is the instrument nothing replicates (R2); the design should spend it only where formulas cannot see — identity, register, honesty — never on mechanics the gates already catch. At 100+ worlds, anything more is the bottleneck; anything less loses the instrument the whole quality bar is calibrated to.
+**Recommendation: Alexandria.** It has the richest lexicon (50 terms) and the most substantive theological material — a catechetical tradition whose whole identity is teaching the faith — so it exercises every canon family with real answers rather than mostly honest limits. Desert, by contrast, is the project's own recorded worst case for foundations ("cannot be authored honestly today" on christology) — it makes a great *second* world precisely to prove the honest-limit machinery, but a poor first one: a pipeline proven only on thin material proves less. Tell me if a different world matters more to you for the pilot's sake.
 
 ### 4.3 Question queue (order will adapt to answers)
 - Q5 (remainder) — participant surface details are drafted as provisional recommendations in §5B; Mark redlines rather than being interviewed item by item.
@@ -234,7 +236,7 @@ The old arc was organized by analytical category (identify → sources → gravi
 
 **Per world:**
 1. **Identify & bound** — scope, time window, what the world is *not*; distinctness against built worlds.
-2. **Source ecology** — the approved source base with editions, rights, verification; the search record including searches that returned nothing.
+2. **Source ecology** — the approved source base with editions, rights, verification; the search record including searches that returned nothing. Emits the **source request manifest** for Mark (Q12): exact texts, editions, URLs, expected rights; rights are verified from each supplied file's own provenance header, never from the request.
 3. **Ecology reconstruction** — gravities, forces, contested claims, figures: the world's interior coherence, *the living-ecology depth*. Proportionate to the source base — the canon coverage is the fixed bar; ecology depth is the means, not a quota.
 4. **Answer the canon from the sources.** For every canon domain the world produces either substantive records (terms plain-first, tiered stories, licensed quotes, figures, doctrinal-witness records keyed to the foundations family) or an **honest-limit record**: "our sources do not answer this," as data, in-world. No silent holes — "as the source material can answer" becomes a recorded, per-world fact the participant can see.
 5. **Voice** — craft record and demonstrations authored *against canon questions* (foundational ones included by construction, not discovered missing at go-live), to the General/Seeker bar.
@@ -242,7 +244,7 @@ The old arc was organized by analytical category (identify → sources → gravi
 7. **Admission** — blind battery drawn from held-out canon paraphrases; Mark's read where his reading is the instrument.
 8. **Open** — registry flips live; changes re-enter at step 6.
 
-**Human checkpoints (Mark's, carried from the record):** world identity/Representative identity; the living-tradition determination; the freeze; plus the admission read. Everything else is executable by AI threads or scripts against this spec.
+**Human checkpoints (Mark's, RULED Q12):** world identity/Representative identity; the living-tradition determination; the freeze; the admission read — plus the operational source-acquisition role (fetching archive texts the build environment cannot reach, against each build's source request manifest). Everything else is executable by AI threads or scripts against this spec.
 
 *Note (prior ruling preserved): Mark rejected a shared theological "center record" — a Representative may never speak outside its own sources. The foundations family is answered per-world, from that world's records only; the canon shares the questions, never the answers.*
 
