@@ -216,21 +216,27 @@ The unit of delivery is the **World Package**: everything the conversation syste
 3. **Compiled artifacts** (produced by M2 from the records, deterministic): permanent prompt, capsule, retrieval chunks + indexes, quote index, figure registry, repository views, facilitator frame data — with the manifest hash.
 4. **The validation record**: gate results, admission battery results (blind, held-out, fresh-context), and the human checkpoint sign-offs.
 
-### 5A.3 The step-by-step build (draft; refines the proven Doc_01–Doc_09 arc into record-native form)
+### 5A.3 The build process — PROVISIONAL REDESIGN (question-led, not analysis-led)
 
-Each step produces records, not prose documents — "the migration IS the authoring." Each step has an exit check; a step's output is reviewable on its own.
+**Mark, 2026-08-20: not locked into the nine-step arc — the bar is "depth of a living ecology and transparent sourcing, able to handle general what-was-life-like and serious theological and doctrinal questions as the source material can answer."**
 
-1. **Identify & bound** — the world's scope, time window, what it is *not*; candidate distinctness against already-built worlds.
-2. **Source ecology** — the approved source base: what survives, in what editions, under what rights; the search record including searches that returned nothing (the Missing Voices duty).
-3. **Ecology reconstruction** — gravities (with the six-test discipline), forces, contested claims, figures; honest thinness recorded as data.
-4. **Lexicon** — terms authored plain-first (R4), with false-friend analysis and retrieval conditions.
-5. **Stories & quotes** — tiered narratives, licensed quotes, absent-stories.
-6. **Voice** — the craft record and demonstrations, written to the General/Seeker register bar (Q3/O2), including foundational-question demonstrations.
-7. **Compile & gate** — M2 build + M1 gates + coverage floors; fix until clean.
-8. **Admission** — the blind battery (M3); Mark's reading where the instrument is his read (R2).
-9. **Open** — registry entry flips live; the package is frozen; changes re-enter at step 7.
+The old arc was organized by analytical category (identify → sources → gravities → forces → lexicon → stories → voice), and its recorded failure is demand-blindness: worlds with deep ecology analysis answered "who was Jesus?" with displaced calling stories; across 52 demonstrations the cross appeared three times obliquely and the resurrection not once; only 34% of authored figures were ever named in live traffic; quotes were policed but never offered. Supply was built without a map of demand. The redesign bookends the ecology work with demand on both sides:
 
-**Human checkpoints (Mark's, carried from the record):** world identity/Representative identity; the living-tradition determination; the freeze. Everything else is executable by AI threads or scripts against this spec.
+**Step 0 (once, fleet-wide) — the Question Canon.** The versioned corpus of what participants actually ask, in four families: *life-world* (what was life like — food, work, household, sickness, death), *formation* (how one joined, worshiped, belonged, was disciplined, was forgiven), *foundations* (serious theological and doctrinal questions: who Jesus was, the cross, the resurrection, salvation, scripture, authority, prayer, the end), and *pressure* (the hard modern questions each family draws). Seeded by Mark, vetted by scholarly review, grown permanently from real transcripts (M7 feeds it). The canon is the definition of "complete" for every world — and the source of admission probes (held-out paraphrases).
+
+**Per world:**
+1. **Identify & bound** — scope, time window, what the world is *not*; distinctness against built worlds.
+2. **Source ecology** — the approved source base with editions, rights, verification; the search record including searches that returned nothing.
+3. **Ecology reconstruction** — gravities, forces, contested claims, figures: the world's interior coherence, *the living-ecology depth*. Proportionate to the source base — the canon coverage is the fixed bar; ecology depth is the means, not a quota.
+4. **Answer the canon from the sources.** For every canon domain the world produces either substantive records (terms plain-first, tiered stories, licensed quotes, figures, doctrinal-witness records keyed to the foundations family) or an **honest-limit record**: "our sources do not answer this," as data, in-world. No silent holes — "as the source material can answer" becomes a recorded, per-world fact the participant can see.
+5. **Voice** — craft record and demonstrations authored *against canon questions* (foundational ones included by construction, not discovered missing at go-live), to the General/Seeker bar.
+6. **Compile & gate** — deterministic build; gates include **canon coverage** (every domain: substantive or honest-limit, never blank) alongside referential/rights/readability.
+7. **Admission** — blind battery drawn from held-out canon paraphrases; Mark's read where his reading is the instrument.
+8. **Open** — registry flips live; changes re-enter at step 6.
+
+**Human checkpoints (Mark's, carried from the record):** world identity/Representative identity; the living-tradition determination; the freeze; plus the admission read. Everything else is executable by AI threads or scripts against this spec.
+
+*Note (prior ruling preserved): Mark rejected a shared theological "center record" — a Representative may never speak outside its own sources. The foundations family is answered per-world, from that world's records only; the canon shares the questions, never the answers.*
 
 ### 5A.4 Efficiency requirement — OPEN (see active question)
 
