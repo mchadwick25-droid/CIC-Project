@@ -238,6 +238,11 @@ The old arc was organized by analytical category (identify → sources → gravi
 
 *Note (prior ruling preserved): Mark rejected a shared theological "center record" — a Representative may never speak outside its own sources. The foundations family is answered per-world, from that world's records only; the canon shares the questions, never the answers.*
 
+**RULED 2026-08-20: the question-led spine is confirmed — with this guardrail: the canon organizes coverage, it does not replace the content.** Mark's words: "we still want the 3 tier transparency, with lexicon (world specific words), stories, quotes and general reference tracking, not just answers." Binding consequences:
+- Answering the canon is done **through the record types** — lexicon terms (world-specific words, plain-first), tiered stories, licensed quotes, figures, doctrinal-witness records — never as prose answer blobs keyed to questions. A canon domain is "covered" when the records that serve it exist, are sourced, and reach the voice.
+- **Three-tier transparency is per-turn and universal** (Art. 30): every answer, whatever canon family it serves, carries tier 1 (inline citation marks / glossed terms) → tier 2 (plain-language gloss and source summary) → tier 3 (the full record with its sources, editions, confidence axes). A theological answer is as clickable as a daily-life answer.
+- **General reference tracking** is fleet infrastructure: every claim traceable to a source record; the source registry, quote index, and figure registry are the per-turn tracking surfaces; the vendored public-domain text corpus is what verification stands on.
+
 ### 5A.4 Efficiency requirement — OPEN (see active question)
 
 At 100+ worlds the current bespoke pace (months per world, hand-tailored batteries, per-world code) is disqualifying. The process must state its own cost per world and drive it down the same way the runtime does: shared instruments, record-native authoring, batch validation.
