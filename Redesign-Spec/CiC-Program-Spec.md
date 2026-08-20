@@ -126,19 +126,22 @@ Condensed. Full agent reports live in the session record; this section is what t
 
 ### 4.1 Resolved — RULED
 
-*(none yet — recorded here as they land, each with Mark's reasoning, not just the verdict)*
+**Q1 — Where does conversation quality live? RULED 2026-08-20: quality is proved before a world opens its doors, then checked afterward by reading real transcripts.**
+
+Consequences for the design:
+- There is no per-turn quality-police layer at runtime. The live turn keeps only what must act in the moment: safety routing, the code-appended crisis number, and cheap deterministic checks (citation/quote/figure grounding against the deployed indexes).
+- Quality is owned by two modules instead: the **world build system** (records, prompts, demonstrations, blind held-out validation batteries — a world that hasn't passed them doesn't open) and an **offline transcript audit** (every transcript reviewed after the fact, at batch rates, against the full instrument suite, feeding fixes back into the world build — never into a live patch).
+- The recurring cost floor becomes generation + safety, ≈ $0.017/turn on measured figures (vs $0.031 with the live police).
 
 ### 4.2 Active question
 
-**Q1 — Where does conversation quality live: in the turn loop, or in the build?**
+**Q2 — What is the budget's unit and number: dollars per hour, or dollars per conversation?**
 
-Today every turn is graded live by ~a dozen hidden checkers costing more than the voice itself; the record shows they are noisy (30% verdict flips on identical input), mostly silent when they should fire, and structurally unable to change the turn the participant is already reading. The clean-sheet alternative: quality is built and verified *before* a world goes live (records, prompts, demonstrations, blind batteries), then audited by reviewing real transcripts offline (at batch rates, against the full instrument suite) — with only the things that must change *this* turn staying live: safety routing, the crisis append, and cheap deterministic grounding checks.
+Three internal documents flag that the project's $/hour figures use pacing denominators that differ 4–5× (6 vs 12 vs 30 turns/hour) and were never reconciled; pacing — how long a person thinks and types — is the single largest unmeasured input. The repo's own observation: "a twelve-turn conversation costs the same at any pace, and this whole uncertainty disappears."
 
-**Recommendation: build-time quality + offline transcript audit; live layer only for safety and deterministic checks.** Because the participant never benefits from the live police on the turn they're reading — they benefit from a well-built world; and the measured price of the police is most of the cost gap.
+**Recommendation: budget per conversation, not per hour.** The architecture controls the cost of an answer; the participant controls the pace, and a contemplative participant shouldn't read as an expensive one. On the post-Q1 floor, a 20-turn conversation ≈ $0.35 all-in at today's prices.
 
 ### 4.3 Question queue (order will adapt to answers)
-
-- Q2 — Cost: what is the real budget unit (per conversation? per hour at what pacing?) and the number, so the arithmetic has a denominator that means something.
 - Q3 — Participant types: do the four audiences change the *conversation*, and if so where (Facilitator translation layer per R10? depth of follow-up? never)?
 - Q4 — Conversational memory: does the voice remember the conversation (deepening, callbacks) at the measured cache/cost price, or stay memoryless?
 - Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
@@ -153,9 +156,9 @@ Today every turn is graded live by ~a dozen hidden checkers costing more than th
 
 ## 5. Module decomposition — TBD
 
-*Deliberately not drafted until Q1–Q4 resolve; the quality-ownership answer determines whether a "governance" module exists at runtime at all.*
+*Q1 settled the biggest fork: no runtime governance module. Full drafting waits on Q2–Q4.*
 
-Expected shape (subject to interview): world content system (records → derived views) · conversation runtime · safety layer · quality/audit system · participant surface · transcript/learning store · cost/observability. Interfaces, ownership, and build order to follow.
+Expected shape (subject to interview): world build system (records → derived views → validation batteries; owns quality per Q1) · conversation runtime (generation + safety + deterministic checks only) · offline transcript audit (owns post-launch quality per Q1) · participant surface · transcript/learning store · cost/observability. Interfaces, ownership, and build order to follow.
 
 ## 6. Cost model — baseline arithmetic, unit pending Q2
 
