@@ -220,7 +220,7 @@ Eight modules. Each owns one thing; interfaces are named so a violation is visib
 
 **M3 — Admission.** *Owns: the door (Q1, Q7).* The per-world validation battery: fresh-context, held-out, blind-graded probes covering register (O2), source-boundedness/fabrication pressure (Q6), distinctness (O4), safety interplay, and refusal honesty — machine-runnable at fleet scale, human-ruled where the instrument is Mark's reading (R2). A world opens when it passes; it re-enters admission when its records materially change.
 
-**M4 — Conversation Runtime.** *Owns: the live turn, and nothing else.* Session state as an append-only event log over a durable shared store (survives restarts and horizontal scaling — the process-local boundary is designed out). Turn loop: safety routing (M5) → retrieval (session-exclusion enforced, Q4) → one generation call with full-session memory, cache-conscious layout → deterministic grounding checks → stream. Worlds load lazily per conversation (Q7). No LLM quality police (Q1). Mode (interview / future table) is an explicit field, a contract at the entrance with a test that fails on a second writer.
+**M4 — Conversation Runtime.** *Owns: the live turn, and nothing else.* Session state as an append-only event log over a durable shared store (survives restarts and horizontal scaling — the process-local boundary is designed out). Turn loop: the Facilitator gate (M5: sealed safety call + unified reader naming the asks, out-of-scope press-state, modern terms — Q14/Q16) → retrieval (session-exclusion enforced, Q4) → one generation call with the participant's own words, the private directive, and full-session memory in cache-conscious layout → deterministic grounding checks → stream. Worlds load lazily per conversation (Q7). No LLM quality police (Q1). Mode (interview / future table) is an explicit field, a contract at the entrance with a test that fails on a second writer.
 
 **M5 — Facilitator & Safety.** *Owns: everything no world should own (Q14).* The one voice belonging to no world, visible at door, thresholds, and close; the pre-turn gate (pass through / handle alone / frame-then-hand-inward); safety implemented once fleet-wide (acute distress / harmful dynamic, withholding-not-instructing, crisis resources appended by code, R6); the world-agnostic modern-term dictionary; out-of-scope handling for system/later-age/other-tradition questions (never for in-world thinness — honest limits are the voice's own). Per-check fail-open directions stated in the spec; every classifier fails open toward the voice answering. Specified separately from M4 so its diligence bar (live adversarial trials, the 19/20-floor regression discipline, the owed clinician conversation) is auditable on its own.
 
@@ -349,25 +349,38 @@ At 100+ worlds the current bespoke pace (months per world, hand-tailored batteri
 
 ---
 
-## 6.1 Bedrock (Q11) — settled posture
-
-The pilot bills through AWS Bedrock (credits through pilot 2). The spec's stance, from the evidence: keep the Messages-API client shape (the `ChatAnthropicBedrock`-style path — same cache_control, same usage fields — chosen precisely because the alternative zeroes cache accounting silently); refuse to guess model IDs (blank fails loudly; IDs carry region/provider prefixes); nothing is trusted until the preflight runs against the live account — (a) caching actually engages, (b) both usage shapes report cache fields, (c) $/token reconciled against the real AWS invoice, not the first-party price table. **Every cost figure in this spec is re-measured on Bedrock before it is quoted onward (M8 owns parity).** Budget controls: an AWS Budget *Action* (deny policy), not alerts alone; the per-tester session cap remains the primary control.
-
 ## 6. Cost model — baseline arithmetic
 
 Per Q2: engineered in $/turn, reported in $/participant-hour at the declared 12 turns/hour convention, with per-participant cost attribution built in. The objective is access: lower is better wherever quality and rigor are not the price.
 
-Established baseline (first-party API, to be re-measured on Bedrock):
+Measured baseline of the OLD architecture (first-party API, 48 live turns, 2026-08-16):
 
 ```
-main_response (Sonnet 5):     $0.01360/turn   43.8%   ← the floor
-everything else (13–15 Haiku calls): $0.01743/turn   56.2%
-                              --------
-measured                      $0.03103/turn
-× 12 turns/hr (assumed)     = $0.372/hr    (8/hr → $0.25; 20/hr → $0.62)
+main_response (Sonnet 5):            $0.01360/turn   43.8%   ← the floor
+monitoring/governance (13–15 calls): $0.01743/turn   56.2%   ← removed by Q1
+                                     --------
+old measured                         $0.03103/turn  = $0.372/hr @ 12 turns/hr
 ```
 
-Cache: static prefix ~17.8k tok/world at 0.1× read; 1h TTL write 2×; pooling measured 16×; worst case (no pooling) +10%. Output ≈ 330 tok ≈ 7–10% of generation cost. If Q1 resolves toward build-time quality, the recurring floor approaches `main_response + safety (~$0.0030) + deterministic checks (~$0)` ≈ **$0.017/turn ≈ $0.20/hr at 12 turns/hr**, with offline audit priced separately at batch rates. Arithmetic to be completed once Q1/Q2/Q4 land.
+The redesigned recurring turn (post Q1/Q14/Q16):
+
+```
+main_response (Sonnet-class, R11):      ~$0.0136   (memory adds modest uncached input, Q4)
+Facilitator gate (2 calls: safety
+  sealed + unified reader, Q16):        ~$0.0030
+deterministic checks (quotes,
+  citations, figures, glosses):         ~$0
+                                        --------
+recurring                               ~$0.017/turn ≈ $0.20/hr @ 12 turns/hr
+offline transcript audit (batch rates,
+  ~50% discount, full instrument suite): priced separately, per transcript
+```
+
+Cache facts that make this hold: static prefix ~17.8k tok/world at 0.1× read; 1h TTL write 2×; pooling measured 16×; worst case (no pooling) +10%. Output ≈ 330 tok ≈ 7–10% of generation cost — length was never the lever; input is. All figures re-measured on Bedrock before being quoted onward (§6.1).
+
+### 6.1 Bedrock (Q11) — settled posture
+
+The pilot bills through AWS Bedrock (credits through pilot 2). The spec's stance, from the evidence: keep the Messages-API client shape (the `ChatAnthropicBedrock`-style path — same cache_control, same usage fields — chosen precisely because the alternative zeroes cache accounting silently); refuse to guess model IDs (blank fails loudly; IDs carry region/provider prefixes); nothing is trusted until the preflight runs against the live account — (a) caching actually engages, (b) both usage shapes report cache fields, (c) $/token reconciled against the real AWS invoice, not the first-party price table. **Every cost figure in this spec is re-measured on Bedrock before it is quoted onward (M8 owns parity).** Budget controls: an AWS Budget *Action* (deny policy), not alerts alone; the per-tester session cap remains the primary control.
 
 ## 7. Safety and retention — SETTLED (Q9, Q10)
 
