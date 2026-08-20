@@ -8,11 +8,11 @@
 
 You are building the redesigned Church in Conversation: the single-voice interview product — one participant, one Representative voice of an early-Christian world, a Facilitator at door/thresholds/close — on the clean architecture specified here. Purpose above all (O0): *the system exists to reveal Jesus through the witness of his church across history* — as witness, never recruitment.
 
-You are **not** building: the multi-voice Table (separate product, separate thread — you only keep it cheap: mode field, projection-shaped transcripts, per-mode config); voice-position variants (build-time compile targets later); any answer-serving bank (Q8: goal kept, mechanism dropped); anything from `cic-poc/` or `cic/` by copying — **the old trees are evidence, never dependencies**. The existing world records are raw material that must pass through the new schema, gates, and canon (nothing grandfathered).
+You are **not** building: the multi-voice Table (separate product, separate thread — you only keep it cheap: mode field, projection-shaped transcripts, per-mode config); voice-position variants (build-time compile targets later); any answer-serving bank (goal kept, mechanism dropped); anything from `cic-poc/` or `cic/` by copying — **the old trees are evidence, never dependencies**. The existing world records are raw material that must pass through the new schema, gates, and canon (nothing grandfathered).
 
 ## 2. Reading order (before any code)
 
-1. `CiC-Program-Spec.md` — front to back. §2 (standing rulings) and §4 (the interview log) are binding; §10 records the external audit and Mark's rulings on it.
+1. `CiC-Program-Spec.md` — front to back. §1 (outcomes) and §2 (design principles) bind everything; the full decision history lives in the branch's git log.
 2. Artifacts 1–6 — the contracts you implement.
 3. Appendix A — Canon v1 (approved seed; scholarly vetting pending).
 
@@ -36,10 +36,10 @@ You are **not** building: the multi-voice Table (separate product, separate thre
 ## 4. Decision rights
 
 - **The build thread decides freely:** anything marked `DECIDABLE` in Artifacts 1–6 (hosting service, IaC tool, exact re-admission trigger list, jurisdiction counsel timing), library and implementation choices, test structure — each with a recorded reason in the commit.
-- **Mark decides (stop and ask):** anything touching a RULED item in §4/§10; the four world touchpoints (identity, living-tradition, freeze, admission read); canon changes beyond mechanical fixes; anything participant-facing that changes what is promised or disclosed; spending beyond the budget envelope; safety behavior of any kind.
+- **Mark decides (stop and ask):** anything touching §1–§2 or any decided design in the spec; the four world touchpoints (identity, living-tradition, freeze, admission read); canon changes beyond mechanical fixes; anything participant-facing that changes what is promised or disclosed; spending beyond the budget envelope; safety behavior of any kind.
 - **Spec amendments:** if reality contradicts the spec, the spec is amended by recorded ruling — never silently worked around. The spec stays the living source of truth through the build.
 
-## 5. The work plan (executes spec §8; acceptance gates verbatim from there)
+## 5. The work plan (executes spec §9; acceptance gates verbatim from there)
 
 | stage | deliverable | gate before next |
 |---|---|---|
@@ -50,9 +50,9 @@ You are **not** building: the multi-voice Table (separate product, separate thre
 | 4 | M3: admission harness (blind protocol, masked grading, sealed keys) | catches a seeded register defect and a seeded fabrication on the fixture world |
 | 5 | M4+M5: runtime core, gate, safety (Artifacts 3–5) | resume across two processes incl. accumulator; entrance-seal test; live safety script ≥19/20 vs fixture world; crisis append asserted incl. empty-stream; lazy load/unload measured |
 | 6 | M8: cost instrumentation, on Bedrock first | parity vs raw usage shapes; lapsed-cache-window visible; zero unattributed calls; re-measured cache economics recorded with the band |
-| 7 | **Alexandria** through the full world-build process (spec §5A) | Mark's four touchpoints; admission passed; build cost + defect list recorded. Then Desert (the honest-limit proof) |
+| 7 | **Alexandria** through the full world-build process (spec §4) | Mark's four touchpoints; admission passed; build cost + defect list recorded. Then Desert (the honest-limit proof) |
 | 7.5 | **Experience design (the pass we almost skipped).** Flows and mockups for the participant journey — doorway (disclosure, thinness, starters), conversation view (stream, status line, code), the three-tier transparency interactions on desktop *and* touch, the safety turn as it looks and feels, the close, the methods page; plus the visual identity decision (align with cic-website or its own). Designed as screens, mobile-first, before any M6 code. Runs in parallel with stages 5–7. | Mark approves the screens — the experience gets the same redline discipline as the spec; nothing in M6 is invented while coding |
-| 8 | M6: participant surface built to the approved designs (spec §5C content + stage 7.5 screens) | every §5C bullet demonstrable; screens match the approved designs; Artifact 5 contract tests green |
+| 8 | M6: participant surface built to the approved designs (spec §6 content + stage 7.5 screens) | every §6 item demonstrable; screens match the approved designs; Artifact 5 contract tests green |
 | 9 | M7: transcript audit pipeline (priced; daily cadence; lineage index for deletion) | full suite runs over pilot transcripts at batch rates; a finding routes to a record fix; a real question enters the canon |
 | 10 | Doors open: pilot per Article 36 (informed testers) | public availability waits on the two safety gates (live adversarial trials; clinician read) |
 
@@ -60,7 +60,7 @@ Progress discipline: one stage at a time; a stage's gate is evidence in the repo
 
 ## 6. Landmines (the archaeology's top recurrences — treat these as tests to write)
 
-Silent relabeling (an unknown enum value mapped to a default) · hand-synced lists drifting (see law 4) · a permanently-red guard everyone scrolls past (a red check must block or be deleted) · a guard pointed at the wrong tree · a builder with a `--check` nobody runs (regenerate-and-diff instead) · a 0% fire rate read as health without a deployed-since check · instruments measuring the path that doesn't ship (test the streaming path) · discarding half a graded judgment (keep NOT_USED with its reason) · a stale comment claiming coverage that doesn't exist · duplicated logic fixed in one copy · cost split by model name instead of call label · streaming usage fields silently absent (Bedrock client rules, spec §6.1).
+Silent relabeling (an unknown enum value mapped to a default) · hand-synced lists drifting (see law 4) · a permanently-red guard everyone scrolls past (a red check must block or be deleted) · a guard pointed at the wrong tree · a builder with a `--check` nobody runs (regenerate-and-diff instead) · a 0% fire rate read as health without a deployed-since check · instruments measuring the path that doesn't ship (test the streaming path) · discarding half a graded judgment (keep NOT_USED with its reason) · a stale comment claiming coverage that doesn't exist · duplicated logic fixed in one copy · cost split by model name instead of call label · streaming usage fields silently absent (Bedrock client rules, spec §7).
 
 ## 7. Handoff mechanics
 

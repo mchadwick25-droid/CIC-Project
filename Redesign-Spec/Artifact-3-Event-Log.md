@@ -32,11 +32,11 @@ CREATE TABLE session_events (
 | `gate_decision` | asks[], register, out_of_scope{class,pressed}, modern_terms[], safety{signal,confidence}, route, directive, degraded(bool) | one per message; `degraded:true` when a gate call failed/timed out (audit flag) |
 | `facilitator_turn` | kind(`door`\|`threshold`\|`safety`\|`bridge`\|`close`), text | visible turns only; the seam never silent-edits |
 | `voice_turn` | speaker, text, citations[], glosses[], quote_offers[], attempts_meta | the answer as streamed |
-| `retrieval_surfaced` | chunk_ids[] | feeds session exclusion (Q4 non-repetition) |
+| `retrieval_surfaced` | chunk_ids[] | feeds session exclusion (non-repetition) |
 | `safety_state` | track, level, accumulator{...} | **accumulator lives here — resume-safe by construction** |
-| `guidance_… ` | — | (reserved; no live guidance exists post-Q1) |
+| `guidance_… ` | — | (reserved; no live guidance exists under principle 2) |
 | `turn_committed` | turn_no | closes a round |
-| `session_resumed` | device_hint | resume by code (Q5a) |
+| `session_resumed` | device_hint | resume by code |
 | `deletion_requested` | — | starts the deletion workflow (Artifact 6 §4) |
 | `session_closed` | reason(`participant`\|`idle`\|`cap`) | close is a bonus, never a container |
 
@@ -52,4 +52,4 @@ Projection (`get_state`) folds the log into a fresh state object per request —
 
 - The event log IS the transcript of record (the promise of durability kept — no write-only mirror, no second source of truth).
 - Backups: PITR + daily snapshots; **RPO ≤ 5 min, RTO ≤ 4 h** (Artifact 6 NFRs); restore is tested quarterly (a restore never tested is a backup that doesn't exist).
-- The audit (M7) and learning corpus read from the log via the anonymization pass; derived corpora record their source `(session_id, seq)` ranges so deletion scope (Q9) is computable.
+- The audit (M7) and learning corpus read from the log via the anonymization pass; derived corpora record their source `(session_id, seq)` ranges so deletion scope (spec §8) is computable.

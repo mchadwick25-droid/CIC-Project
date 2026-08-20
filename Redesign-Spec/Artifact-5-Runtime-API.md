@@ -16,7 +16,7 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.5). One product per endpoint; the 
 - `POST /api/session/{id}/resume` `{}` + code header → `200 {transcript: [...], state: {...}}` (accumulator restored from the log — never zeroed)
 - `POST /api/session/{id}/message` `{text, client_msg_id}` + code header → **SSE stream** (below)
 - `GET  /api/session/{id}/transcript` + code header → transcript with speakers + cited sources; `?variant=teaching` (P4) expands citations to edition+section and adds the provenance note
-- `POST /api/session/{id}/delete` + code header → `202` starts the deletion workflow (raw purged; derivatives statement returned honestly, Q9)
+- `POST /api/session/{id}/delete` + code header → `202` starts the deletion workflow (raw purged; derivatives statement returned honestly, spec §8)
 
 ## 2. The message stream (SSE)
 
@@ -25,14 +25,14 @@ Event sequence per turn (order guaranteed):
 ```
 event: gate        data: {route}                      # only when a Facilitator turn replaces/precedes the voice
 event: speaker     data: {speaker: "facilitator"|"<rep name>"}
-event: delta       data: {text: "…"}                  # token deltas; streaming from first token (no buffering — R1)
+event: delta       data: {text: "…"}                  # token deltas; streaming from first token (no buffering — spec principle 1)
 event: citations   data: {drawn_on: [...], consulted: [...]}   # after text completes; the badge number is a promise
 event: glosses     data: {terms: [...], figures: [...]}
 event: offer       data: {quote_offers: [...]}        # licensed sayings offerable this turn (canon offerability)
 event: done        data: {turn_no}
 ```
 
-- Post-`done` there is nothing the participant waits for (no post-turn governance exists, Q1). Wind-down/closing content, when it applies, arrives before `done`.
+- Post-`done` there is nothing the participant waits for (no post-turn governance exists, spec principle 2). Wind-down/closing content, when it applies, arrives before `done`.
 - Client disconnect mid-stream: the turn still commits from the server side (the answer already generated is real — degraded-round lesson); resume shows it.
 - Deterministic grounding checks run before `citations` is emitted (they gate decoration, not text).
 

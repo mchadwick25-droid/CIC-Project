@@ -11,7 +11,7 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.1). Status: NORMATIVE DRAFT — de
 
 ## 2. The world registry — the ONE registry
 
-`records/worlds.yaml`. Everything about a world derives from here; **no world identifier may appear anywhere else in code or config** (Q7).
+`records/worlds.yaml`. Everything about a world derives from here; **no world identifier may appear anywhere else in code or config** (spec principle 4).
 
 ```yaml
 worlds:
@@ -20,7 +20,7 @@ worlds:
     display_name: Alexandrian Christianity
     time_window: {start: 150, end: 400}
     place: "Alexandria and Egypt"
-    representative: {name: Theon, role_label: Catechist}   # the two sanctioned fabrications (R8)
+    representative: {name: Theon, role_label: Catechist}   # the two sanctioned fabrications (spec principle 14)
     state: building        # building | built | admitted | open | withdrawn
     package: {manifest_hash: "sha256:…", location: "s3://…/alx/2026-09-01T…/"}
     thinness_statement: "Richest in teaching and argument; thinner on…"

@@ -1,6 +1,6 @@
 # Artifact 4 — The Facilitator Gate: Contracts, Timeouts, Failure Semantics
 
-Companion to `CiC-Program-Spec.md` (Stage 0.5.4). One pass, two calls (Q16 ruling): the sealed safety call and the unified reader, run concurrently. Both are small monitoring-tier model calls (Haiku-class), `max_tokens` sized to the schema, structured output enforced.
+Companion to `CiC-Program-Spec.md` (Stage 0.5.4). One pass, two calls: the sealed safety call and the unified reader, run concurrently. Both are small monitoring-tier model calls (Haiku-class), `max_tokens` sized to the schema, structured output enforced.
 
 ## 1. Call A — safety (SEALED)
 
@@ -16,7 +16,7 @@ Never shares a prompt, code path, or deploy with anything that gets iterated on.
 }
 ```
 
-Standing rules carried: engagement length/depth/turn count NEVER increment the accumulator; historical-otherness disorientation is the encounter working; crisis resources are appended by code (R6), never asked of any model.
+Standing rules carried: engagement length/depth/turn count NEVER increment the accumulator; historical-otherness disorientation is the encounter working; crisis resources are appended by code, never asked of any model.
 
 ## 2. Call B — unified reader
 
@@ -36,8 +36,8 @@ Standing rules carried: engagement length/depth/turn count NEVER increment the a
 
 ## 3. Routing (deterministic merge, in priority order)
 
-1. `safety.signal ∈ {ACUTE_DISTRESS, HARMFUL_DYNAMIC_SIGNAL}` → Facilitator safety turn (immediate, no ladder); Track A/B behavior per §7; message withheld from the voice while safety has the floor (with Mark's empathy-routing nuance as specified).
-2. `out_of_scope.class == system_nature` → Facilitator answers plainly, immediately (H6): "we use AI to …".
+1. `safety.signal ∈ {ACUTE_DISTRESS, HARMFUL_DYNAMIC_SIGNAL}` → Facilitator safety turn (immediate, no ladder); Track A/B behavior per spec §8; message withheld from the voice while safety has the floor (with Mark's empathy-routing nuance as specified).
+2. `out_of_scope.class == system_nature` → Facilitator answers plainly, immediately: "we use AI to …".
 3. `modern_terms` non-empty and anachronistic for this world (computed from the registry time window) → bridge: Facilitator frames; voice receives the term-free `underlying_subject`.
 4. `out_of_scope.class ∈ {later_age, other_tradition}` and `pressed == false` → pass to voice (in-world first answer); `pressed == true` → Facilitator etic explanation.
 5. Otherwise → pass to voice with the **private directive**: asks in order, register note (personal_wound ⇒ witness-before-answer license; register statement 1 suspended for the turn), ambiguity options if any.

@@ -30,14 +30,14 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.6). Defaults sized for pilot; ever
 | Spend attack / runaway cost | per-session turn cap; per-IP session-creation limits; AWS **Budget Action with a deny policy** (alerts alone don't stop spending) as backstop; per-participant cost attribution (M8) makes anomalies visible |
 | Availability attack | provider WAF/rate limits at the edge; no unauthenticated expensive endpoints (session creation is the costliest and is limited) |
 
-**PII posture:** the primary event log holds what participants typed (unavoidably possibly-personal). Access is operator-only, least-privilege, audited. The anonymization pass strips identifiers before ANY derived corpus; derived corpora carry lineage for deletion computation (Q9). Jurisdiction stance: retention/deletion designed to GDPR-shaped norms (delete-on-request, honest scope) without claiming formal compliance — `DECIDABLE` with counsel before public availability; noted on the methods page.
+**PII posture:** the primary event log holds what participants typed (unavoidably possibly-personal). Access is operator-only, least-privilege, audited. The anonymization pass strips identifiers before ANY derived corpus; derived corpora carry lineage for deletion computation (spec §8). Jurisdiction stance: retention/deletion designed to GDPR-shaped norms (delete-on-request, honest scope) without claiming formal compliance — `DECIDABLE` with counsel before public availability; noted on the methods page.
 
 ## 3. Deployment
 
-- **Topology:** AWS, single region. Runtime container (ECS Fargate or App Runner — `DECIDABLE` at stage 5, App Runner default for a solo operator); RDS Postgres; S3 for packages; CloudFront in front; Bedrock for all model calls (Artifact 4 / §6.1 client rules).
+- **Topology:** AWS, single region. Runtime container (ECS Fargate or App Runner — `DECIDABLE` at stage 5, App Runner default for a solo operator); RDS Postgres; S3 for packages; CloudFront in front; Bedrock for all model calls (Artifact 4 / spec §7 client rules).
 - **Environments:** `staging` (fixture world + Alexandria candidate packages) and `prod`. IaC from day one (CDK or Terraform, `DECIDABLE`); no console-clicked resources.
 - **CI:** on every commit — schema validate, gates selftest (pass clean fixture, fail every seeded-defect fixture), compiler determinism (twice, byte-identical), package staleness sweep, unit + contract tests (Artifact 5 §4), frontend typecheck. Nightly — reader battery, cost parity check against raw usage shapes. Pre-deploy — the applicable battery for what changed (safety script for gate/safety changes; admission re-runs per Artifact 2 §4).
-- **Release:** immutable images; deploy = pointer move; rollback = previous image + registry pin (one step, rehearsed). Gate changes canary-first (Artifact 4 §5). Model/provider switches land **last and alone** (R5).
+- **Release:** immutable images; deploy = pointer move; rollback = previous image + registry pin (one step, rehearsed). Gate changes canary-first (Artifact 4 §5). Model/provider switches land **last and alone** (spec principle 11).
 - **Ops for one human:** paging only on: two consecutive degraded gate turns, safety-call failure rate > 1%, store unavailability, budget action trip. Everything else is a daily digest. The solo-founder SPOF (Mark's reading as the quality instrument; Mark as operator) is an accepted, stated risk.
 
 ## 4. Degraded-mode matrix
@@ -51,6 +51,6 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.6). Defaults sized for pilot; ever
 | One world's package corrupt | that world "temporarily unavailable"; others unaffected | hash-mismatch refusal; page operator |
 | S3 down (cold loads only) | warm worlds unaffected; cold worlds unavailable with honest doorway message | retry with backoff |
 
-## 5. Deletion workflow (Q9, operational form)
+## 5. Deletion workflow (spec §8, operational form)
 
 `deletion_requested` event → within 72 h: raw events for the session purged (hard delete + backup exclusion note: purged rows fall out of backups at retention horizon, stated honestly on the methods page); lineage index consulted → derived corpus entries from this session either already-anonymized (survive, per ruling) or, if not yet anonymized, purged with the raw. Completion is verifiable by re-presenting the code: `401` as if the session never existed.
