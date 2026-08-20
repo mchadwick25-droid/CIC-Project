@@ -16,9 +16,9 @@ It is **not** a refactor plan for the existing program. The existing program is 
 
 ---
 
-## 1. What the system exists to produce — PROVISIONAL
+## 1. What the system exists to produce — CONFIRMED (Mark, 2026-08-20)
 
-Drafted from evidence; each outcome will be sharpened into a testable statement as the interview resolves it.
+**O0 — The purpose above the others.** The system exists to reveal Jesus through the witness of his church across history. Every other outcome serves this one; the Question Canon is centered on it; admission tests it first. Guardrail: revealing is witness, never recruitment (R7) — each world testifies from its own sources, and interpretation remains the participant's own.
 
 **O1 — The encounter.** A participant has a real conversation with a representative voice of an early-Christian formation world. The voice is clear, modern, accessible English **and** scholarly rigorous, bound to its source documents. Both at once; the tension is the product. (Phase 1 failed exactly here — "horrible, too simplistic and hard to read.")
 
@@ -40,7 +40,7 @@ Drafted from evidence; each outcome will be sharpened into a testable statement 
 
 **O6 — Anonymity and retention.** Sign-in optional, never required. Transcripts kept for learning and for a bank of standard answers; participants are told this plainly and the promise of durability is actually kept (it silently wasn't, once).
 
-**O7 — Cost.** Target and unit to be settled in this interview (see §6 — the "$0.30/participant-hour" figure does not exist in the repo in that form; the recorded band is $0.25–1.00/hr with unresolved pacing denominators).
+**O7 — Cost in service of access (RULED, Q2).** The lower the cost, the more people have access, and access is a primary objective — without compromising quality or rigor. Engineered in $/turn, reported in $/participant-hour at the declared 12 turns/hour convention, monitored per participant.
 
 **O8 — Participant types.** Four audiences (General/Seeker, Reassessing, Pastor/Teacher, Graduate-level). RULED (Q3): one voice register — General/Seeker — for all users through pilot and Phase 1; the type adapts only the frame around the voice (Facilitator posture, starter questions, apparatus depth). Voice-position selection is a possible later addition the architecture keeps cheap.
 
