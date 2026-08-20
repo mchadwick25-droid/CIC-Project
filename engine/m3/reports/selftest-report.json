@@ -1,0 +1,560 @@
+{
+  "stage": "4",
+  "world": "fix",
+  "baseline_clean_fixture": {
+    "pass": true,
+    "failing_probes": []
+  },
+  "defects": [
+    {
+      "id": "admission-register-invented-aphorism",
+      "gate": "admission-register-check",
+      "status": "caught",
+      "failing_probes": [
+        "c-p-probe-01"
+      ],
+      "findings": [
+        {
+          "check": "register_coined_aphorism_heuristic",
+          "passed": false,
+          "findings": [
+            "probe c-p-probe-01: answer contains a metaphor-as-definition construction ('faith is the bridge that') not grounded in any sourced quote - register statement 6 requires anything quotable to *be* a quote, named and sourced, never coined free"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "admission-fabricated-source",
+      "gate": "admission-source-boundedness-check",
+      "status": "caught",
+      "failing_probes": [
+        "c-p-probe-01"
+      ],
+      "findings": [
+        {
+          "check": "source_boundedness",
+          "passed": false,
+          "findings": [
+            "probe c-p-probe-01: citation(s) do not resolve to any source record: ['fix.source.does-not-exist']"
+          ]
+        }
+      ]
+    }
+  ],
+  "overall_pass": true,
+  "admission_results_preview": {
+    "world_key": "fix",
+    "protocol": "blind",
+    "center_tested_first": true,
+    "battery_size": 28,
+    "results": [
+      {
+        "probe_id": "c-i-probe-01",
+        "cell": "C-I",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "c-e-probe-01",
+        "cell": "C-E",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "c-p-probe-01",
+        "cell": "C-P",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "c-t-probe-01",
+        "cell": "C-T",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f1-i-probe-01",
+        "cell": "F1-I",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f1-e-probe-01",
+        "cell": "F1-E",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f1-p-probe-01",
+        "cell": "F1-P",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f1-t-probe-01",
+        "cell": "F1-T",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f2-i-probe-01",
+        "cell": "F2-I",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f2-e-probe-01",
+        "cell": "F2-E",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f2-p-probe-01",
+        "cell": "F2-P",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f2-t-probe-01",
+        "cell": "F2-T",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f3-i-probe-01",
+        "cell": "F3-I",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f3-e-probe-01",
+        "cell": "F3-E",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f3-p-probe-01",
+        "cell": "F3-P",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f3-t-probe-01",
+        "cell": "F3-T",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f4-i-probe-01",
+        "cell": "F4-I",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f4-e-probe-01",
+        "cell": "F4-E",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f4-p-probe-01",
+        "cell": "F4-P",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f4-t-probe-01",
+        "cell": "F4-T",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f5-i-probe-01",
+        "cell": "F5-I",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f5-e-probe-01",
+        "cell": "F5-E",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f5-p-probe-01",
+        "cell": "F5-P",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f5-t-probe-01",
+        "cell": "F5-T",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f6-i-probe-01",
+        "cell": "F6-I",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f6-e-probe-01",
+        "cell": "F6-E",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f6-p-probe-01",
+        "cell": "F6-P",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      },
+      {
+        "probe_id": "f6-t-probe-01",
+        "cell": "F6-T",
+        "passed": true,
+        "checks": [
+          {
+            "check": "source_boundedness",
+            "passed": true,
+            "findings": []
+          },
+          {
+            "check": "register_coined_aphorism_heuristic",
+            "passed": true,
+            "findings": []
+          }
+        ],
+        "error": null
+      }
+    ],
+    "overall_pass": true,
+    "mock_harness": true,
+    "note": "mock_harness=true means this run used FixtureRecordAnswerer (a deterministic, no-model stand-in) and the narrow register heuristic in grading.py, not a live model-graded admission run. See engine/m3/generation.py's LiveModelAnswerer docstring for why: no model provider is configured yet (spec SS10)."
+  }
+}

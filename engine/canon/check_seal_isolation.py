@@ -15,7 +15,9 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 # canon-seeding directory (whose seed_admission_paraphrases.py legitimately
 # WRITES plaintext/ as the sealing tool - excluded by name below, not by
 # directory, so a future file in engine/canon/ that tries to READ it still
-# trips the guard).
+# trips the guard). engine/m3 (the admission harness, stage 4) is
+# deliberately NOT in this list - it is the one authorized reader
+# (canon/sealed_probes/README.md), via engine/m3/sealed_probes.py.
 WORLD_BUILD_DIRS = [REPO_ROOT / "engine" / "m1", REPO_ROOT / "engine" / "m2", REPO_ROOT / "engine" / "canon"]
 EXCLUDED_FILES = {"seed_admission_paraphrases.py", "check_seal_isolation.py"}
 FORBIDDEN_SUBSTRING = "sealed_probes/plaintext"

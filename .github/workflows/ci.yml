@@ -69,11 +69,16 @@ jobs:
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m1/tests -q
 
-  m3-canon-v1:
+  stage3-canon-v1:
     # Added stage 3 (Canon v1 as records + sealed held-out admission
-    # paraphrases). The stage-3 gate: every cell has sealed probes before
-    # any world answers it (28/28) - and the sealed plaintext stays isolated
-    # from every world-build code path, enforced here rather than trusted.
+    # paraphrases). Named stage3- (not m3-) deliberately: "M3" is the
+    # admission-harness MODULE (built at stage 4, its own job below) -
+    # different thing, and this repo already has one stage/module name
+    # collision (M2=compiler, M3=admission) worth not compounding with a CI
+    # job name that reads as the wrong one. The stage-3 gate: every cell has
+    # sealed probes before any world answers it (28/28) - and the sealed
+    # plaintext stays isolated from every world-build code path, enforced
+    # here rather than trusted.
     name: Canon v1 + sealed probe isolation
     runs-on: ubuntu-latest
     steps:
@@ -84,6 +89,25 @@ jobs:
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/canon/tests -q
       - run: python -m engine.canon.check_seal_isolation
+
+  m3-admission-harness:
+    # Added stage 4 (M3 admission harness, Artifact-2 §1's validation/
+    # admission/). The stage-4 gate: catches a seeded register defect and a
+    # seeded fabrication on the fixture world - the two M3-layer entries in
+    # fixtures/seeded_defects.yaml that engine/m1/selftest.py deliberately
+    # left "deferred-to-stage-4". This harness runs on FixtureRecordAnswerer
+    # (a deterministic, no-model stand-in) - no live model call, no
+    # provider, no cost; see engine/m3/generation.py's LiveModelAnswerer
+    # docstring for why a real one isn't wired up yet.
+    name: M3 admission harness (mock, fixture world)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/m3/tests -q
 
   m2-compiler-checks:
     # Added stage 2 (M2 compiler, Artifact-2). Covers two of the stage-2

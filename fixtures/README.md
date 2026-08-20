@@ -63,9 +63,12 @@ _fleet.canon.{c-i,c-p,c-t,f1-i,f2-e,f5-p,f6-p,f6-t}-01.md`, and
   gate passes on the unmutated clean copy. That dual assertion, run across
   every entry, is the `inertness-proof` entry's own check: a gate that never
   fires anywhere is itself a reported failure (spec principle 12).
-- **Stage 4 (M3 admission harness):** the `layer: M3` entries feed the
+- **Stage 4 (M3 admission harness) — done.** The `layer: M3` entries feed the
   blueprint's stage-4 gate directly — *"catches a seeded register defect and
-  a seeded fabrication on the fixture world."*
+  a seeded fabrication on the fixture world"* — and both are caught
+  (`engine/m3/reports/selftest-report.json`). The harness runs against
+  `engine.m3.generation.FixtureRecordAnswerer`, a deterministic no-model
+  stand-in, not a live model call — see that module's docstring for why.
 - **Stage 5 (M4/M5 runtime + live safety script):** the fixture world (not
   this catalog) is the target world the live safety script runs conversations
   against. No fixture-specific safety content was added here on purpose — the

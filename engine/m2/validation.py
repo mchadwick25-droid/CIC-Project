@@ -1,11 +1,15 @@
 """validation/ folder assembly (Artifact-2 SS1): gates-report.json is real
 (runs the actual M1 battery via engine.m1.gates - the same code stage 1's
-selftest already proved catches every seeded defect). admission/results.json
-and signoffs.json are honest placeholders: M3 (stage 4) and Mark's real
-touchpoints don't exist yet for this synthetic, never-admitted fixture
-world, and a fabricated pass here would be exactly the invented-depth this
-project rules against (spec principle 8, applied to tooling output as much
-as to voice content).
+selftest already proved catches every seeded defect). admission/
+results.json stays a placeholder here on purpose, even after stage 4:
+engine/m2 (the compiler) is one of the code paths canon/sealed_probes/
+README.md and engine/canon/check_seal_isolation.py bar from the sealed
+probe plaintext, and engine.m3.harness reads that plaintext - so M2 must
+never import M3, even transitively through "just building the package."
+Real admission evidence lives at engine/m3/reports/selftest-report.json
+instead, produced by M3 directly, never routed through the compiler.
+signoffs.json stays a placeholder too: Mark's real touchpoints don't apply
+to a synthetic, never-admitted fixture world.
 """
 from engine.m1 import gates
 
@@ -26,9 +30,11 @@ def build_admission_results(world_key: str) -> bytes:
         {
             "status": "not_yet_run",
             "reason": (
-                "M3 (the admission harness) is stage 4's deliverable and does not exist yet. "
-                f"{world_key} is a synthetic fixture world that is never admitted or opened for "
-                "real (records/worlds.yaml pins its state at building/built only)."
+                f"{world_key} has no admission run bundled into its package by design: M2 (this "
+                "module) is barred from importing M3, even to embed a real result, because M3 is "
+                "the sealed probes' one authorized reader and M2 is explicitly not (canon/"
+                "sealed_probes/README.md). See engine/m3/reports/selftest-report.json for the real "
+                "(mock-harness) stage-4 evidence, kept separate from any package on purpose."
             ),
         }
     )
