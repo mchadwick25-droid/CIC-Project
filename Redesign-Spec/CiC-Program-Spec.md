@@ -401,7 +401,15 @@ The pilot bills through AWS Bedrock (credits through pilot 2). The spec's stance
 
 Ordering principles: each stage is verified before its dependents start; risky substitutions land last and alone (R5); the first world proves the whole pipeline before any second world begins; nothing ships a guard it doesn't run.
 
-0.5. **The six specification artifacts (engineering review, accepted).** Before stage 1 begins: the normative record schema with worked examples; the World Package layout + manifest/hash protocol; the event-log catalog + store choice + ordering guarantees; the gate output schemas + timeout/failure semantics; the runtime API spec; the NFR table + threat model + deployment/rollback page. Verify: an engineer who wasn't in the room can restate each module's contract from the artifacts alone.
+0.5. **The six specification artifacts (engineering review, accepted) — WRITTEN 2026-08-20, as companion documents in this folder:**
+   - `Artifact-1-Record-Schema.md` — normative record schema (16 types incl. the new `doctrinal_witness`, `honest_limit`, `canon_question`), the one world registry, worked examples, validation rules
+   - `Artifact-2-World-Package.md` — package layout, manifest + hash chain (registry → manifest → files), load-time verification with refusal-on-mismatch, determinism and staleness CI, versioning/migration
+   - `Artifact-3-Event-Log.md` — Postgres store, the v1 event catalog, ordering/idempotency guarantees, the session code (entropy, hashing, limits), durability targets, resume-safe safety accumulator
+   - `Artifact-4-Gate-Contracts.md` — both gate calls' output schemas, deterministic routing merge, timeout budgets, failure semantics (fail-open stated per call, never silent), canary deploy discipline
+   - `Artifact-5-Runtime-API.md` — the full endpoint surface, the SSE stream grammar, error model, entrance-seal and resume contract tests
+   - `Artifact-6-Operations.md` — NFR table, one-page threat model, deployment topology + CI + release/rollback, degraded-mode matrix, the operational deletion workflow
+
+   Verify: an engineer who wasn't in the room can restate each module's contract from the artifacts alone. Defaults marked `DECIDABLE` may be overturned by the build thread with a recorded reason.
 0.6. **The fixture world.** A synthetic world rich enough to exercise every gate, every builder, and the admission harness — and the target of stage 5's safety rerun. A named deliverable, not an assumption.
 1. **Record schema + world registry + gates (M1).** Verify: schema validates a seeded reference set; every gate passes the clean fixture and fails every seeded-defect fixture (selftest discipline); inertness reporting fires on a world with missing record types.
 2. **Compiler (M2).** Verify: determinism (same records → byte-identical artifacts, twice); regenerate-and-diff CI green on the reference set; manifest hash produced and checked by a stub loader.
