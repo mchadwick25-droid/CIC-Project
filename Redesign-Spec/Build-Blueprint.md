@@ -30,7 +30,7 @@ You are **not** building: the multi-voice Table (separate product, separate thre
 10. **Thresholds come from baselines, never invented** (Goodhart rule); report-only instruments stay report-only until data earns them a bar; Mark's reading is the register instrument.
 11. **Risky substitutions land last and alone** (model/provider switches especially); gate changes go canary-first.
 12. **Gate-integrity rule:** a session that needs a gate changed to pass files a flag and stops. Changes to gates are their own reviewed steps.
-13. **Cost discipline:** engineered in $/turn; every LLM call attributed to its session; no figure quoted onward until measured on Bedrock.
+13. **Cost discipline:** engineered in $/turn; every LLM call attributed to its session; no figure quoted onward until measured on the billing provider (Bedrock today; portability per spec principle 16).
 14. **Every commit message carries its reasoning** — this project's commit log is its decision record; keep it that way.
 
 *(Numbering note: laws 1–13 mirror spec principles 1–13; spec principles 14–16 — witness/transparency, scholarly-review aspiration, portability — bind through §1 and the spec directly; law 14 is blueprint-only. Cite "spec principle N" vs "law N" explicitly.)*
