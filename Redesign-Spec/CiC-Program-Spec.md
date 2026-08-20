@@ -138,16 +138,20 @@ Consequences for the design:
 - **The reporting unit is $/participant-hour at one declared pacing convention — 12 turns/hour — stated wherever the figure appears.** This is the fundraising number ("if this is the hour cost, then X participants cost Y") and ends the 6-vs-12-vs-30 denominator confusion; when the conversions happen doesn't matter to Mark.
 - **Per-participant cost monitoring is a first-class requirement**, not an afterthought: every LLM call attributable to a session, every session to a (anonymous) participant. (Today background calls log `request_id=None, session_id=None` — that class of gap is designed out.)
 
+**Q6 — Fabrication posture. RULED 2026-08-20: the offline catch is acceptable — "the build protection is what matters."** Confirms Q1 under the project's own cardinal sin. Consequences:
+- Mechanical grounding checks stay live and deterministic: quoted text against the world's licensed quote index, citations against the turn's actual text, named figures against attested dates.
+- LLM-judgment fabrication detection (invented scenes, unattributed borrowings) lives in the offline transcript review. A found fabrication is handled as: a world-build fix (records/prompt/demonstrations), plus the transcript record of exactly which participants saw it.
+- The build carries the primary anti-fabrication burden and must be specified to bear it: records-bound prompting, the quote index shipped complete (including do-not-voice entries so a forbidden quote is recognizable), post-history guards, and validation batteries that include fabrication pressure with held-out probes.
+
 ### 4.2 Active question
 
-**Q6 — Fabrication: is it acceptable that the judgment-call detection catches an invented saying or scene hours later, in the transcript review, rather than live?**
+**Q3 — Do the four participant types change the conversation — and if so, does the *voice* change, or the *frame around the voice*?**
 
-This stress-tests Q1 before we build on it. The project calls a fabricated citation its cardinal sin. Under Q1, the *mechanical* checks stay live (a quoted saying is checked against the world's licensed quote index; citations against the actual text; figures against attested dates) — but the LLM-judgment detection (an invented scene, an unattributed borrowed idea) moves to the offline review.
+The four audiences (General/Seeker, Reassessing, Pastor/Teacher, Graduate) were collected and never used. Standing ruling R10 says a voice never knows the persona — "a witness testifies the same regardless of audience; only an advocate tailors."
 
-**Recommendation: accept the offline catch.** The live LLM detector measurably missed confirmed fabrications (an invented Antony saying passed it; the extractor was structurally blind to attribution phrased without a colon), and even when it fired, its correction could only reach the *next* turn — the participant had already read the fabrication. Prevention that works lives in the build (records-bound prompts, demonstrations, the quote index); detection that works lives in review, where every transcript gets the full instrument suite and a found fabrication becomes a world-build fix plus a known list of who saw it.
+**Recommendation: the voice never changes; the frame does.** The Representative testifies identically to everyone (preserving R10 and the witness integrity the Constitution is built on), while the participant type shapes what surrounds the testimony: the Facilitator's introductions and translation, the suggested starter questions, and how much scholarly apparatus the interface surfaces (a professor sees the source registry and confidence axes up front; a seeker sees plain glosses and can drill down). This finally implements the types where R10 always implied they should live.
 
 ### 4.3 Question queue (order will adapt to answers)
-- Q3 — Participant types: do the four audiences change the *conversation*, and if so where (Facilitator translation layer per R10? depth of follow-up? never)?
 - Q4 — Conversational memory: does the voice remember the conversation (deepening, callbacks) at the measured cache/cost price, or stay memoryless?
 - Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
 - Q7 — Worlds at launch: all six at redesign quality, or fewer worlds deeper first?
