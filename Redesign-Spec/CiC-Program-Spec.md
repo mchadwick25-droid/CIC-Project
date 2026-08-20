@@ -335,6 +335,8 @@ At 100+ worlds the current bespoke pace (months per world, hand-tailored batteri
 
 **Threshold discipline (R2):** numeric bars are set once, from real baselines — never invented to fill a row; report-only instruments stay report-only until data earns them a bar; Mark's read is the instrument for register and identity, sampled, on schedule, not on demand.
 
+**The comprehension instruments give direction, never verdicts (Mark's framing, RULED 2026-08-20).** FK/FRE (sentence architecture), the word-familiarity list, the wall-words check (out-of-list AND world-specific AND unglossed), and Dale–Chall are kept and used *directionally*: in the world build and the transcript audit they point at the exact sentence to shorten, the exact word to lead with English, the exact term owed a gloss — work orders, not scores. Their *disagreement* is a first-class signal (sentence-shape improving while word-choice worsens = the fake-old signature). Verdict discipline from the record: no instrument alone passes or fails a voice (FK scored a register failure as success twice — it rewards archaic phrasing); sub-floor segments report as unscored, never clean; content emptiness is a formula-invisible failure guarded by ask-coverage and Mark's read, never by readability scores. The FK band itself is re-baselined from real exemplars (BBC ≈ grade 6) during Alexandria's build.
+
 ---
 
 ## 5C. Participant surface — PROVISIONAL (Q5 remainder; Mark redlines)
