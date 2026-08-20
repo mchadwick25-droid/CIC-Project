@@ -133,19 +133,23 @@ Consequences for the design:
 - Quality is owned by two modules instead: the **world build system** (records, prompts, demonstrations, blind held-out validation batteries — a world that hasn't passed them doesn't open) and an **offline transcript audit** (every transcript reviewed after the fact, at batch rates, against the full instrument suite, feeding fixes back into the world build — never into a live patch).
 - The recurring cost floor becomes generation + safety, ≈ $0.017/turn on measured figures (vs $0.031 with the live police).
 
+**Q2 — Budget unit and number. RULED 2026-08-20: cost exists in service of access.** Mark's words: "the lower the actual cost the more people can have access, and access is a primary objective... access without compromising quality and rigor." No hard target number; the design obligation is to drive cost down wherever quality and rigor are not the price. Derived requirements:
+- **The engineering unit is $/turn** (what the architecture controls); no design decision is justified by a $/hour figure.
+- **The reporting unit is $/participant-hour at one declared pacing convention — 12 turns/hour — stated wherever the figure appears.** This is the fundraising number ("if this is the hour cost, then X participants cost Y") and ends the 6-vs-12-vs-30 denominator confusion; when the conversions happen doesn't matter to Mark.
+- **Per-participant cost monitoring is a first-class requirement**, not an afterthought: every LLM call attributable to a session, every session to a (anonymous) participant. (Today background calls log `request_id=None, session_id=None` — that class of gap is designed out.)
+
 ### 4.2 Active question
 
-**Q2 — What is the budget's unit and number: dollars per hour, or dollars per conversation?**
+**Q6 — Fabrication: is it acceptable that the judgment-call detection catches an invented saying or scene hours later, in the transcript review, rather than live?**
 
-Three internal documents flag that the project's $/hour figures use pacing denominators that differ 4–5× (6 vs 12 vs 30 turns/hour) and were never reconciled; pacing — how long a person thinks and types — is the single largest unmeasured input. The repo's own observation: "a twelve-turn conversation costs the same at any pace, and this whole uncertainty disappears."
+This stress-tests Q1 before we build on it. The project calls a fabricated citation its cardinal sin. Under Q1, the *mechanical* checks stay live (a quoted saying is checked against the world's licensed quote index; citations against the actual text; figures against attested dates) — but the LLM-judgment detection (an invented scene, an unattributed borrowed idea) moves to the offline review.
 
-**Recommendation: budget per conversation, not per hour.** The architecture controls the cost of an answer; the participant controls the pace, and a contemplative participant shouldn't read as an expensive one. On the post-Q1 floor, a 20-turn conversation ≈ $0.35 all-in at today's prices.
+**Recommendation: accept the offline catch.** The live LLM detector measurably missed confirmed fabrications (an invented Antony saying passed it; the extractor was structurally blind to attribution phrased without a colon), and even when it fired, its correction could only reach the *next* turn — the participant had already read the fabrication. Prevention that works lives in the build (records-bound prompts, demonstrations, the quote index); detection that works lives in review, where every transcript gets the full instrument suite and a found fabrication becomes a world-build fix plus a known list of who saw it.
 
 ### 4.3 Question queue (order will adapt to answers)
 - Q3 — Participant types: do the four audiences change the *conversation*, and if so where (Facilitator translation layer per R10? depth of follow-up? never)?
 - Q4 — Conversational memory: does the voice remember the conversation (deepening, callbacks) at the measured cache/cost price, or stay memoryless?
 - Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
-- Q6 — Fabrication posture at runtime: is offline detection within hours acceptable, or must a fabricated citation be caught before/immediately after the participant sees it?
 - Q7 — Worlds at launch: all six at redesign quality, or fewer worlds deeper first?
 - Q8 — Answer bank: keep as designed (exact curriculum taps only), redesign, or drop?
 - Q9 — Retention/anonymity mechanics: what exactly is kept, keyed how, told to the participant in what words.
@@ -160,7 +164,9 @@ Three internal documents flag that the project's $/hour figures use pacing denom
 
 Expected shape (subject to interview): world build system (records → derived views → validation batteries; owns quality per Q1) · conversation runtime (generation + safety + deterministic checks only) · offline transcript audit (owns post-launch quality per Q1) · participant surface · transcript/learning store · cost/observability. Interfaces, ownership, and build order to follow.
 
-## 6. Cost model — baseline arithmetic, unit pending Q2
+## 6. Cost model — baseline arithmetic
+
+Per Q2: engineered in $/turn, reported in $/participant-hour at the declared 12 turns/hour convention, with per-participant cost attribution built in. The objective is access: lower is better wherever quality and rigor are not the price.
 
 Established baseline (first-party API, to be re-measured on Bedrock):
 
