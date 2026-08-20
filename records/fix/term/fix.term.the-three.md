@@ -20,7 +20,7 @@ retrieval:
   do_not_retrieve_when: []
 relations:
   - {type: associated-with, target: fix.term.the-way}
-plain_meaning: "how this world's people spoke of Father, Son, and Spirit together, before any later formal word for it existed"
+plain_meaning: "How this world named Father, Son, and Spirit together. This was said before any later word for it existed."
 world_word: "The Three"
 false_friend: ["a hiking trail (unrelated meaning of an unrelated word - see fix.term.the-way for the real false-friend case)"]
 senses:

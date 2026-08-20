@@ -1,0 +1,137 @@
+{
+  "stage": "1",
+  "world": "fix",
+  "baseline_clean_fixture": {
+    "pass": true,
+    "findings_by_gate": {}
+  },
+  "defects": [
+    {
+      "id": "schema-unevaluated-property",
+      "gate": "schema-validation",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-way: Additional properties are not allowed ('extra_field' was unexpected) (at <root>)"
+      ]
+    },
+    {
+      "id": "referential-dangling-relation",
+      "gate": "referential",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-way: relation target 'fix.term.nonexistent-xyz' does not resolve to any record"
+      ]
+    },
+    {
+      "id": "reciprocity-missing-inverse",
+      "gate": "reciprocity",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-way: declares associated-with -> fix.term.the-three but fix.term.the-three does not declare associated-with -> fix.term.the-way back"
+      ]
+    },
+    {
+      "id": "completion-missing-required-field",
+      "gate": "completion-per-type",
+      "status": "caught",
+      "findings": [
+        "fix.story.the-long-road: missing required field 'narrative_tier' for record_type 'story'"
+      ]
+    },
+    {
+      "id": "narratability-tier-out-of-range",
+      "gate": "narratability",
+      "status": "caught",
+      "findings": [
+        "fix.story.the-long-road: narrative_tier 5 is not an integer in 1..4"
+      ]
+    },
+    {
+      "id": "quote-recording-invalid-license",
+      "gate": "quote-recording",
+      "status": "caught",
+      "findings": [
+        "fix.quote.private-teaching: license 'maybe' is not one of ['do-not-voice', 'paraphrase-only', 'verbatim']"
+      ]
+    },
+    {
+      "id": "alias-safety-unsafe-collision",
+      "gate": "alias-safety",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-way: false_friend 'The Three' exactly matches fix.term.the-three's world_word with no disambiguating context - unsafe alias collision"
+      ]
+    },
+    {
+      "id": "distribution-health-flattened-tiers",
+      "gate": "distribution-health",
+      "status": "caught",
+      "findings": [
+        "all 5 chunk-feeding records share retrieval.tier=1 - degenerate tier distribution"
+      ]
+    },
+    {
+      "id": "confidence-crosscheck-unjustified-null-divergence",
+      "gate": "confidence-crosscheck",
+      "status": "caught",
+      "findings": [
+        "fix.witness.who-is-jesus: formation_confidence=Documented with divergence_note=null requires verification_state=verified-direct; got 'named-not-rechecked'"
+      ]
+    },
+    {
+      "id": "rights-missing-status",
+      "gate": "rights",
+      "status": "caught",
+      "findings": [
+        "fix.source.secondary-summary: source has no rights_status - rights gate fails closed"
+      ]
+    },
+    {
+      "id": "readability-quick-meaning-too-dense",
+      "gate": "readability",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-three: quick_meaning scores FK grade 15.4, above the ceiling of 10"
+      ]
+    },
+    {
+      "id": "canon-coverage-blank-cell",
+      "gate": "canon-coverage",
+      "status": "caught",
+      "findings": [
+        "cell F6-T: neither a substantive record nor an honest_limit - blank cell"
+      ]
+    },
+    {
+      "id": "sentinel-string-in-retrieval-block",
+      "gate": "schema-validation",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-way: 'n/a' is not of type 'array' (at retrieval/retrieve_when)"
+      ]
+    },
+    {
+      "id": "canon-cells-reference-nonexistent-cell",
+      "gate": "referential",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-three: canon_cells entry 'F9-I' is not a cell in the canon"
+      ]
+    },
+    {
+      "id": "admission-register-invented-aphorism",
+      "gate": "admission-register-check",
+      "status": "deferred-to-stage-4"
+    },
+    {
+      "id": "admission-fabricated-source",
+      "gate": "admission-source-boundedness-check",
+      "status": "deferred-to-stage-4"
+    }
+  ],
+  "inertness": {
+    "pass": true,
+    "gates_never_fired_or_not_silent_on_clean": []
+  },
+  "overall_pass": true
+}

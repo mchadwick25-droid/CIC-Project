@@ -22,6 +22,5 @@ discovery_channel: "authored for the stage-0.6 fixture, not a real archival sour
 external_ids: {}
 ---
 Primary fixture source: clean, public-domain, verified-direct. The rights-gate
-DEFECT (fixtures/seeded_defects.yaml) mutates a copy of this record's
-rights_status; the confidence-crosscheck DEFECT mutates a copy of this record's
-verification_state while the citing record's formation_confidence stays Documented.
+DEFECT (fixtures/seeded_defects.yaml) mutates a copy of records/fix/source/
+fix.source.secondary-summary.md's rights_status.

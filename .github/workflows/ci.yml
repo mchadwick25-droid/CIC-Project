@@ -51,6 +51,24 @@ jobs:
       - run: pip install pyyaml textstat
       - run: python wrs/views/repository.py --check
 
+  m1-gates-selftest:
+    # Added stage 1 of the redesign build (Build-Blueprint.md, branch
+    # build/phase-1). The stage-1 gate is exactly this: the gate battery
+    # passes the clean fixture world and fails every seeded-defect fixture
+    # in fixtures/seeded_defects.yaml, with an inertness check that a gate
+    # which never fires anywhere is itself a reported failure. Hermetic on
+    # purpose (no textstat/nltk network fetch - see engine/m1/fk.py) so this
+    # job needs no secrets and can't flake on an external resource.
+    name: M1 gate battery selftest (fixture world)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/m1/tests -q
+
   frontend-typecheck:
     name: Frontend build (tsc + vite build)
     runs-on: ubuntu-latest

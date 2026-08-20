@@ -78,9 +78,9 @@ defects:
   - id: confidence-crosscheck-unjustified-null-divergence
     gate: confidence-crosscheck
     layer: M1
-    target_record: records/fix/source/fix.source.witness-scroll.md
+    target_record: records/fix/doctrinal_witness/fix.witness.who-is-jesus.md
     mutation: {op: set_field, path: confidence.verification_state, value: named-not-rechecked}
-    expected_failure: "fix.witness.who-is-jesus has formation_confidence=Documented, divergence_note=null, and now no verified-direct source (its only source's verification_state was demoted) - divergence_note is required non-null in this state (Artifact-1 §3)"
+    expected_failure: "fix.witness.who-is-jesus now has formation_confidence=Documented, divergence_note=null, and verification_state=named-not-rechecked - divergence_note is required non-null in this state (Artifact-1 §3)"
 
   - id: rights-missing-status
     gate: rights
@@ -112,9 +112,9 @@ defects:
     expected_failure: "retrieve_when must be an array (possibly empty); the string 'n/a' is a forbidden sentinel, not a typed null"
 
   - id: canon-cells-reference-nonexistent-cell
-    gate: schema-validation
+    gate: referential
     layer: M1
-    note: "hand rule, Artifact-1 §6 - canon_cells must exist in the canon"
+    note: "hand rule, Artifact-1 §6 - canon_cells must exist in the canon (implemented as part of the referential gate: a canon_cells entry is a reference like any other, and must resolve)"
     target_record: records/fix/term/fix.term.the-three.md
     mutation: {op: set_field, path: canon_cells, value: ["F9-I"]}
     expected_failure: "F9-I is not a cell in the canon (only C and F1-F6 x I/E/P/T exist) - reference does not resolve"

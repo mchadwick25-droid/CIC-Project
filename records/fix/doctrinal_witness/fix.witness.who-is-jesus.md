@@ -28,8 +28,8 @@ text: >
 Substantive coverage for the CENTER cell C-I; the highest-priority cell per
 Appendix A canon maintenance rule 5 (tested first at every admission). Also the
 confidence-crosscheck DEFECT target: the clean copy legitimately has
-formation_confidence=Documented with divergence_note=null because its source is
-verified-direct; the DEFECT mutates a copy of fix.source.witness-scroll's
-verification_state to named-not-rechecked while leaving this record's
-formation_confidence and divergence_note untouched, which the crosscheck must
-catch as a now-unjustified null divergence_note.
+formation_confidence=Documented, divergence_note=null, and its own
+verification_state=verified-direct; the DEFECT mutates a copy's
+verification_state to named-not-rechecked while leaving formation_confidence
+and divergence_note untouched, which the crosscheck must catch as a
+now-unjustified null divergence_note (Artifact-1 §3).
