@@ -167,13 +167,15 @@ Consequences for the design:
 
 *Reuse economics, settled in the same exchange:* drawing on already-generated answers is exact-tap only (never fuzzy-matched against free text — a stored answer to a slightly different question answers a question the participant didn't ask); full-session memory (Q4) limits reuse to conversation-opening/standalone answers; and post-Q1 the cost win is small (generation ≈ $0.014 of a ≈ $0.017 turn). The real value of the future bank is **consistency and reviewability** — the most-asked questions get vetted answers, identical every time — and retention is what makes it possible.
 
+**Q10 — Safety. RULED 2026-08-20: carry the existing design as-is, with the two debts as explicit gates before public availability.** Two tracks (acute distress acts on the single message; harmful-dynamic/dependency accumulates across the session), withholding-not-instructing, the encounter-working-as-designed distinction (historical-otherness disorientation is never counted as harm; engagement length/depth never increments the accumulator), crisis resources appended by code (R6). Gates: live adversarial trials to the project's own ten-of-ten precedent, and the clinician read — informed pilot testers may precede them per Article 36; the public may not.
+
 ### 4.2 Active question
 
-**Q10 — Safety: carry the existing design into the spec unchanged, with the two owed items as gates before public availability?**
+**Q5a — Should a conversation survive closing the tab?**
 
-The safety layer is the most heavily validated part of the current system, and its rulings are fresh: two tracks (acute distress single-message; dependency/harmful-dynamic accumulation across the session), withholding-not-instructing (the message never reaches the voice while safety is live), the encounter-working-as-designed distinction (disorientation from genuine historical otherness is not harm and never increments the accumulator), the crisis number appended by code (R6, SB 243-driven). The project also recorded two debts: the mechanism has **not** cleared the live adversarial-trials bar the project set for itself (the ten-of-ten precedent), and a clinician conversation is owed on the judgment questions.
+Today a refresh loses the conversation and the interface admits it in a status line. The redesigned runtime keeps every session in a durable store anyway (Q9), so resumability is nearly free: the session code the participant already gets for deletion could equally re-open their conversation on any device, no account needed.
 
-**Recommendation: carry the design as-is; make the two debts explicit launch gates** — informed pilot testers may precede them (per the project's own Article 36 discipline), but public availability waits on the live adversarial trials and the clinician read. Nothing in the redesign made those cheaper to skip.
+**Recommendation: yes — resumable by session code/link, with sign-in as the convenience tier.** This is participant-serving continuity, not engagement optimization (Article 34 forbids designing *for* return compulsion, not honoring a person's wish to finish a conversation they started). A contemplative product whose conversations die with a browser tab is quietly hostile to its most contemplative participants.
 
 ### 4.3 Question queue (order will adapt to answers)
 - Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
@@ -267,9 +269,11 @@ measured                      $0.03103/turn
 
 Cache: static prefix ~17.8k tok/world at 0.1× read; 1h TTL write 2×; pooling measured 16×; worst case (no pooling) +10%. Output ≈ 330 tok ≈ 7–10% of generation cost. If Q1 resolves toward build-time quality, the recurring floor approaches `main_response + safety (~$0.0030) + deterministic checks (~$0)` ≈ **$0.017/turn ≈ $0.20/hr at 12 turns/hr**, with offline audit priced separately at batch rates. Arithmetic to be completed once Q1/Q2/Q4 land.
 
-## 7. Safety and retention — TBD (Q9, Q10)
+## 7. Safety and retention — SETTLED (Q9, Q10)
 
-Carries forward as evidence: the two-track design (acute distress / harmful dynamic), the fail-open direction rules, the SB 243-driven resource naming, the "encounter working as designed is not a system failure" distinction, the 19/20-floor live-script regression discipline, and the standing note that a clinician conversation is owed.
+**Safety (Q10):** the existing two-track design carries as-is — acute distress acts on the single message, harmful-dynamic/dependency accumulates across the session; the triggering message is withheld from the voice while safety has the floor (Mark's standing routing ruling: the Representative may still offer its world's empathy, but safety is governed by the Facilitator); crisis resources are appended by code (R6); historical-otherness disorientation is never harm; engagement length/depth/turn count never increment the accumulator. Regression discipline carries: any change touching prompts or routing triggers the full live safety script rerun, 19/20 floor, any new failure halts. **Gates before public availability:** live adversarial trials to the ten-of-ten precedent, and the clinician read. Informed pilot testers may precede both (Article 36: deferrals documented, never hidden; no deferral reduces the standard).
+
+**Retention (Q9):** every transcript kept indefinitely, keyed to an anonymous session; personal identifiers stripped from free text before anything enters the shared learning corpus; the participant is told at the start what is kept and why, and receives a session code granting later deletion (and, per Q5a, resumption) without an account. Sign-in is optional forever and buys only the participant's own cross-visit continuity. The transcript corpus feeds the audit (M7), the Question Canon, and the future vetted-answer bank (Q8).
 
 ## 8. Build order — TBD
 
