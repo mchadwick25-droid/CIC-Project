@@ -148,17 +148,22 @@ Consequences for the design:
 - Participant type is still collected (optional) and does two jobs: feedback correlation, and **frame selection** — the Facilitator's introduction and translation posture, the offered starter questions, and how much scholarly apparatus the interface surfaces up front (a Graduate sees the source registry and confidence axes immediately; a Seeker sees plain glosses and can drill down; everyone can reach everything).
 - Future voice-position selection is priced in architecturally: register is a build-time parameter of prompt assembly (a different derived prompt from the same records), never a runtime branch inside one prompt.
 
+**Q4 — Conversational memory. RULED 2026-08-20: the voice remembers the whole session — and memory must stop the repeating of stories, quotes, and lexicon.** Consequences:
+- Full-session history reaches the voice every turn, laid out cache-consciously (append-only segment; the static world prompt stays byte-identical).
+- **Non-repetition is a requirement, served twice**: deterministically at retrieval (a story/lexicon/quote chunk surfaced once in a session is excluded from re-retrieval — the mechanism that already worked) and behaviorally in the voice (the same-story-twice rule is finally executable because the voice can see it already told it).
+- Non-repetition is a *transcript-audit check*, not a live gate (per Q1): the offline review measures repeated stories/quotes/terms per session, with the participant explicitly asking to hear it again as the sanctioned exception.
+- The invented-callback fabrication class ("when I said X" for a thing never said) is closed structurally by real history, and the audit watches for it.
+
 ### 4.2 Active question
 
-**Q4 — Does the voice remember the conversation?**
+**Q7 — Do all six worlds have to be at the door on day one, or do worlds open one by one as each passes the bar?**
 
-Earlier questions, what the participant shared, its own prior answers — so later turns deepen instead of restarting. The record cuts both ways: memoryless turns are what made caching and cost so favorable ("a 12-turn interview is 12 independent answers"), but every continuity instruction was unexecutable without history — and, worse, the voice shown no history *invented callbacks to exchanges that never happened*.
+The archaeology shows the six are at very different depths: one world has 50 lexicon terms, another 10; quote records range 11 to 1; the demonstration layer is effectively empty for four of six; several grounding checks sit inert where a world has no records to check against. Under Q1, a world opens only after passing blind, held-out validation — that bar is the product's integrity.
 
-**Recommendation: yes — the voice remembers the whole session, placed cache-consciously.** Being remembered is what makes it a real conversation rather than an oracle taking queries; and memory is also an honesty measure (the invented-callback failure is a fabrication class that only exists when memory is absent). Cost is bounded: history is small next to the static prompt, sessions are capped, and an append-only history segment caches well.
+**Recommendation: worlds open as they pass, not all at once.** Define the admission bar once, in the spec; open with the two or three worlds that clear it first; the rest follow as their builds complete. A fixed six-world launch date forces exactly the choice this redesign exists to avoid: delay everything, or quietly lower the bar for the shallow worlds.
 
 ### 4.3 Question queue (order will adapt to answers)
 - Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
-- Q7 — Worlds at launch: all six at redesign quality, or fewer worlds deeper first?
 - Q8 — Answer bank: keep as designed (exact curriculum taps only), redesign, or drop?
 - Q9 — Retention/anonymity mechanics: what exactly is kept, keyed how, told to the participant in what words.
 - Q10 — Safety scope: carry the existing two-track design as-is, or re-derive; what "comparable programs" set the bar.
