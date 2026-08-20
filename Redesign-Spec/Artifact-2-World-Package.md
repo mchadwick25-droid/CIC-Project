@@ -1,6 +1,6 @@
 # Artifact 2 — World Package Layout, Manifest & Hash Protocol
 
-Companion to `CiC-Program-Spec.md` (Stage 0.5.2). The World Package is the unit of delivery (§5A.1): the conversation system needs nothing about a world beyond its package.
+Companion to `CiC-Program-Spec.md` (Stage 0.5.2). The World Package is the unit of delivery (spec §4.1): the conversation system needs nothing about a world beyond its package.
 
 ## 1. Layout
 
