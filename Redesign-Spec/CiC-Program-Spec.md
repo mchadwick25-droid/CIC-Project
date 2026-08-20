@@ -163,17 +163,20 @@ Consequences for the design:
 
 **Q8 — Answer bank. RULED 2026-08-20: keep the goal, drop the mechanism for Phase 1.** The "bank" is the audited transcript corpus: the audit (M7) surfaces recurring question clusters; vetted standard answers flow back into world builds (demonstrations, reviewed starter questions) — under the question-led canon, exactly where they belong. A runtime serving path re-enters the spec only if measured recurrence justifies it; nothing gets built on guessed demand again.
 
+**Q9 — Transcripts. RULED 2026-08-20: keep them all, anonymous, with the deletion code.** Every transcript kept indefinitely, keyed to an anonymous session; the audit pass strips personal identifiers from free text before anything enters the shared learning corpus; the participant is told plainly at the start what is kept and why, and shown a session code at the end that lets them request deletion — control without an account. Optional sign-in buys only the participant's own continuity across visits.
+
+*Reuse economics, settled in the same exchange:* drawing on already-generated answers is exact-tap only (never fuzzy-matched against free text — a stored answer to a slightly different question answers a question the participant didn't ask); full-session memory (Q4) limits reuse to conversation-opening/standalone answers; and post-Q1 the cost win is small (generation ≈ $0.014 of a ≈ $0.017 turn). The real value of the future bank is **consistency and reviewability** — the most-asked questions get vetted answers, identical every time — and retention is what makes it possible.
+
 ### 4.2 Active question
 
-**Q9 — Transcripts: may every transcript be kept indefinitely for learning, provided it is anonymous — and can a participant ask for theirs to be deleted?**
+**Q10 — Safety: carry the existing design into the spec unchanged, with the two owed items as gates before public availability?**
 
-Transcripts are now load-bearing three ways: the audit, the learning corpus/bank goal, and the Question Canon's growth. Anonymity is a founding promise (sign-in optional, never required), and participants sometimes disclose personal things in free text.
+The safety layer is the most heavily validated part of the current system, and its rulings are fresh: two tracks (acute distress single-message; dependency/harmful-dynamic accumulation across the session), withholding-not-instructing (the message never reaches the voice while safety is live), the encounter-working-as-designed distinction (disorientation from genuine historical otherness is not harm and never increments the accumulator), the crisis number appended by code (R6, SB 243-driven). The project also recorded two debts: the mechanism has **not** cleared the live adversarial-trials bar the project set for itself (the ten-of-ten precedent), and a clinician conversation is owed on the judgment questions.
 
-**Recommendation: yes to both.** Transcripts are keyed to an anonymous session, kept indefinitely; before anything enters the shared learning corpus, the audit pass strips personal identifiers from free text. The participant is told plainly at the start what is kept and why, and is shown a session code at the end that lets them request deletion later — control without requiring an account. Optional sign-in adds only their own continuity across visits, nothing else.
+**Recommendation: carry the design as-is; make the two debts explicit launch gates** — informed pilot testers may precede them (per the project's own Article 36 discipline), but public availability waits on the live adversarial trials and the clinician read. Nothing in the redesign made those cheaper to skip.
 
 ### 4.3 Question queue (order will adapt to answers)
 - Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
-- Q10 — Safety scope: carry the existing two-track design as-is, or re-derive; what "comparable programs" set the bar.
 - Q11 — Bedrock: what the migration changes for this spec (all figures re-measured; caching behavior is the whole bet).
 
 ---
