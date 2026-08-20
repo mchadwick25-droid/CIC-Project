@@ -402,3 +402,67 @@ Still open:
 - **Bedrock preflight** — blocked on the live AWS account; every cost figure herein is provisional until re-measured there (§6.1).
 - **The clinician conversation and live adversarial safety trials** — owed, now formal public-availability gates (Q10); not scheduled.
 - **The never-root-caused cross-contamination incident** (unrelated content in a live API response, 2026-07-20) — carried as an ops watch item; the per-request trace-id discipline that was built in response carries into M8.
+
+---
+
+## Appendix A — Question Canon v1 (seed, for Mark's redline)
+
+**Status: SEED DRAFT 2026-08-20.** Every question is in a modern participant's voice, fleet-wide (worlds answer from their own sources or record honest limits). Source tags: `[corpus]` = drawn from CiC's own tested question artifacts (newcomer set, guided starters, shared-core baseline, curriculum, probe batteries, modern-term records); `[ext]` = from the external research (seeker courses, catechetical structure, pedagogy, deconstruction literature, social history); `[new]` = authored for a cell both corpora left empty. Registers: **I** informational · **E** evidential · **P** personal · **T** translational. Phrasing rules 1–5 (§5A.3) applied throughout. Personal-register questions that shade toward disclosure are included deliberately — participants bring them — but phrased per rule 2; genuine crisis disclosures are the safety gate's territory, not canon coverage.
+
+### CENTER — Jesus
+
+**I** — Who was Jesus, to you and your people? `[corpus: the go-live question]` · What is the good news, as your people told it? `[ext: CE]` · What did Jesus teach that mattered most among you? `[new]` · What did his death mean to you? `[ext]` · What did you believe happened at the resurrection — and what difference did it make? `[ext]`
+**E** — What did your people actually have about Jesus — writings, memories, people? How did it reach you? `[new]` · Had anyone among you known someone who saw him? `[ext: pedagogy]` · How do you know the resurrection really happened? `[ext: Explore God]`
+**P** — I want to believe in Jesus, but I can't. What would you say to me? `[ext: deconstruction]` · Who is Jesus to you — not to your church, to you? `[new]` · Would Jesus have wanted anything to do with someone like me? `[new]`
+**T** — Was Jesus God? Did you believe in the Trinity? `[corpus: facmt005]` · Did Jesus die to take our punishment — in our place, for our sins? `[corpus: facmt001]` · Would you say Jesus is your personal Lord and Savior? `[corpus: facmt002]`
+
+### F1 — God & doctrine
+
+**I** — What did you believe about God? `[ext: creed]` · What did you argue about among yourselves? `[corpus: newcomer 5]` · What did the councils in your time decide, and why did it matter so much? `[corpus: IJC material]` · Who or what is the Holy Spirit, to your people? `[ext: Alpha]`
+**E** — When belief was disputed, who had the right to decide — and how do we know how that worked? `[corpus: S3 v2]` · I've heard a council basically voted Jesus into being God. Is that what happened? `[ext: Nicaea myth]`
+**P** — I grew up being told doubt was sin. Was there room among your people for doubt? `[corpus: reevaluation set]` · What did you do when you couldn't believe what your own church taught? `[new]`
+**T** — What did your community believe about original sin — are people born already guilty? `[corpus: facmt006/s45]` · What was the bread and cup to you — is that what we call transubstantiation? `[corpus: facmt007]` · Did you believe people are saved by faith alone, not works? `[corpus: facmt003]`
+
+### F2 — Scripture & sources
+
+**I** — How did you read your scriptures? What did you look for in them? `[corpus: newcomer 9]` · Which writings did your people treat as scripture — was your Bible the same as ours? `[ext: canon formation]` · How did someone who couldn't read receive the scriptures? `[corpus: honest limits]`
+**E** — How much of what you've told me would hold up in a university library? `[corpus: freeze battery]` · Isn't most of what's said about you legend, collected centuries later? `[corpus: desert probe]` · Where is your own record thinnest? `[corpus: academic set]` · What about the gospels that didn't make it in — were they suppressed? `[ext: lost-gospels FAQ]`
+**P** — When I read the Bible I mostly come away confused or bored. What am I missing? `[corpus: ALX-1]` · The violence in some of these texts frightens me. Did it trouble your people? `[ext: deconstruction]`
+**T** — Did you believe the Bible was the only authority? `[corpus: facmt004]` · Did you read Genesis the way modern people argue about it — as science? `[ext]`
+
+### F3 — Church & world
+
+**I** — Who held authority among you, and how did anyone come to have it? `[corpus: newcomer 6]` · What actually happened when you gathered? `[corpus: first-visit]` · Was it actually dangerous to be a Christian, day to day, or is that exaggerated? `[corpus: first-visit]` · How did your movement spread so far, so fast? `[ext: pedagogy]`
+**E** — Were Christians really hiding in the catacombs? `[ext: site FAQ]` · Did Constantine corrupt the church — did the empire change what you were? `[ext: FAQ + IJC]` · What would an outsider have found strangest about you? `[corpus: newcomer 10]`
+**P** — The church that raised me protected people who caused harm. Your churches had failures too — what did you do with them? `[corpus: 'when it went wrong among you' + ext]` · Your church used power against Christians who disagreed. Defend that. `[corpus: IJC-2]`
+**T** — Was your church "Catholic"? Is there a church today I could visit that's yours? `[corpus: honest-limits recurring]` · Did you have denominations — how did you handle other communities who called on Christ differently? `[corpus: S5]`
+
+### F4 — Living the faith
+
+**I** — How did a person actually become one of you? Walk me through it. `[corpus: S2 v2]` · Why and how did you pray? `[ext: Alpha/catechism]` · What happened at the meal you shared? `[corpus: first-visit]` · How did your people fast, and what was it for? `[new]` · When someone wronged the community, how was it handled — and could they come back? `[corpus: formation]`
+**E** — How do you know your practices went back to the apostles and weren't later inventions? `[new]`
+**P** — I can't quiet my own head. Does your way of life have anything for someone like me? `[corpus: desert scenario]` · How do I forgive someone who isn't sorry? `[new]` · I pray and nothing happens. Did your people know that silence? `[ext: deconstruction]`
+**T** — Were you born again — is that how you'd put what happened to you? `[corpus: facmt008]` · Did you tithe? How did you decide what to give? `[new]`
+**T/limit** — What did you believe about the end of the world — anything like what we call the rapture? `[corpus: facmt009]`
+
+### F5 — Daily life
+
+**I** — Walk me through an ordinary day among your people, from waking to sleeping. `[corpus: curriculum]` · What did you eat, and who ate with you? `[corpus: curriculum]` · What was life like for the women among you — in their own words, where your record has them? `[corpus: honest limits]` · What about children — how were they raised, taught, treated? `[ext: social history]` · What was it to be enslaved in your community? `[corpus: honest limits + ext]` · What did you do when someone was sick? When someone was dying? `[corpus: newcomer 7]` · What did people do for work — and did belonging to you change it? `[corpus: curriculum]`
+**E** — If archaeologists dug up the place you met, what would they find? `[corpus: PAHC probe]` · How do historians even know about daily life like yours? `[ext]`
+**P** — Did belonging cost you anything — family, friends, standing? `[corpus: reevaluation]` · I'm far from everyone I love. What held your people together across distances? `[corpus: PAHC material]`
+**T** — What did marriage mean to your people — did you have weddings? `[ext: social history]` · How did you look at money and poverty — would you call anyone among you rich? `[ext]`
+
+### F6 — The hard places
+
+**I** — Was there anything about your own community that troubled you? `[corpus: newcomer 8]` · What did your people never settle? `[corpus: reevaluation]` · What's the hardest true thing about your people? `[corpus: reevaluation]`
+**E** — The clearest outside account of your worship came from torturing two enslaved women. Doesn't that taint everything? `[corpus: For the Wrestling]` · Wanting to die as a martyr and calling it faithfulness — isn't that a death wish in religious language? `[corpus: For the Wrestling]`
+**P** — Why does God allow suffering like this? Where was he when it happened to your people — and to mine? `[ext: Explore God + corpus]` · Did any of you ever want to leave? `[corpus: reevaluation 1]` · If someone left your community for good, what would you have wanted them to know? `[corpus: reevaluation]` · The people who taught me the faith turned out to be hypocrites. Did that happen among you? `[ext: Barna]`
+**T** — Do you believe people like me — people outside your community — are going to hell? `[ext: deconstruction/exclusivism]` · Isn't Christianity too narrow — one way, out of all the world's ways? `[ext: Explore God]`
+
+### Canon maintenance rules (v1)
+
+1. The canon is versioned data; every question carries id, cell, source, and status (seed / vetted / retired).
+2. Growth comes from real transcripts (M7): a recurring participant question that fits no cell is a canon finding, not a routing error.
+3. Admission probes are *held-out paraphrases* of these questions — never these exact strings — authored and sealed before a world answers the canon (rule 6).
+4. Per-world weighting happens at build time (Desert heavy in F4/F6, Alexandria in F1/F2); no cell may be empty — substantive coverage or an honest-limit record, per world, per cell.
+5. Scholarly review vets after Mark's redline; the center's questions are tested first at every admission.
