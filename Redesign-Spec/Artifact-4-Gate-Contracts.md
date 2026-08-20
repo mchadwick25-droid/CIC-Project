@@ -16,7 +16,7 @@ Never shares a prompt, code path, or deploy with anything that gets iterated on.
 }
 ```
 
-Standing rules carried: engagement length/depth/turn count NEVER increment the accumulator; historical-otherness disorientation is the encounter working; crisis resources are appended by code, never asked of any model.
+`acute_level`: a1 = distress/passive ideation; a2 = plan or intent. Both route identically (Facilitator safety turn, resources appended by code); the level is recorded for audit priority. Standing rules carried: engagement length/depth/turn count NEVER increment the accumulator; historical-otherness disorientation is the encounter working; crisis resources are appended by code, never asked of any model.
 
 ## 2. Call B — unified reader
 
@@ -27,12 +27,12 @@ Standing rules carried: engagement length/depth/turn count NEVER increment the a
   "register": "informational | evidential | personal_wound | translational",
   "clarity": "clear | ambiguous",
   "ambiguity_options": [],            // non-empty iff ambiguous — feeds the voice's in-world clarifying question
-  "out_of_scope": { "class": "none | system_nature | later_age | other_tradition", "pressed": false },
+  "out_of_scope": { "class": "none | system_nature | later_age | other_tradition" },
   "modern_terms": [ { "term_id": "_fleet.modern.sola-fide", "display": "faith alone" } ]
 }
 ```
 
-`pressed` is computed against the session's event log (has this class fired before on this thread of conversation), supplied as input — the model never guesses history.
+`pressed` is NOT a model output: code computes it from the event log (`escalation_pressed` events and prior `gate_decision`s) and merges it into the routing decision — the model never guesses history.
 
 ## 3. Routing (deterministic merge, in priority order)
 

@@ -13,7 +13,7 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.6). Defaults sized for pilot; ever
 | Worlds resident per instance | 8 | 24 | per-world budget ≤ 300 MB (indexes + chunks + prompt); LRU eviction; "idle" = no session activity for 30 min |
 | World cold load | p95 ≤ 5 s | ≤ 2 s | pull from S3 + index mmap; a participant seating a cold world sees the doorway meanwhile |
 | Transcript store | RPO ≤ 5 min, RTO ≤ 4 h | — | PITR + daily snapshots; quarterly restore test |
-| Cache economics | re-measure | — | 16× pooling was measured on warm-everything-six; lazy-load changes it; measured at stage 6 on Bedrock, quoted with the band |
+| Cache economics | re-measure | — | 16× pooling was measured on the old warm-everything deployment (all six worlds resident); lazy-load changes it; measured at stage 6 on Bedrock, quoted with the band |
 
 ## 2. Threat model (one page)
 
@@ -27,7 +27,7 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.6). Defaults sized for pilot; ever
 | Prompt injection via participant text | participant text is data everywhere: the gate's schemas are closed-form; directives are code-assembled, never model-composed; retrieval serves corpus-only content; no tool-use in the conversation path |
 | Poisoned content via records | the admin plane is **git + CI only** — no runtime write API exists; reviewed commits; package hash chain (Artifact 2) makes tampering post-build detectable at load |
 | Model-output injection (voice instructing the client) | client renders text only; citations/glosses come from server-side checks, not model markup |
-| Spend attack / runaway cost | per-session turn cap; per-IP session-creation limits; AWS **Budget Action with a deny policy** (alerts alone don't stop spending) as backstop; per-participant cost attribution (M8) makes anomalies visible |
+| Spend attack / runaway cost | per-session turn cap (default 40 turns, `DECIDABLE`); per-IP session-creation limits; AWS **Budget Action with a deny policy** (alerts alone don't stop spending) as backstop; per-participant cost attribution (M8) makes anomalies visible |
 | Availability attack | provider WAF/rate limits at the edge; no unauthenticated expensive endpoints (session creation is the costliest and is limited) |
 
 **PII posture:** the primary event log holds what participants typed (unavoidably possibly-personal). Access is operator-only, least-privilege, audited. The anonymization pass strips identifiers before ANY derived corpus; derived corpora carry lineage for deletion computation (spec §8). Jurisdiction stance: retention/deletion designed to GDPR-shaped norms (delete-on-request, honest scope) without claiming formal compliance — `DECIDABLE` with counsel before public availability; noted on the methods page.

@@ -31,20 +31,21 @@ CREATE TABLE session_events (
 | `participant_message` | text, client_msg_id | words never rewritten |
 | `gate_decision` | asks[], register, out_of_scope{class,pressed}, modern_terms[], safety{signal,confidence}, route, directive, degraded(bool) | one per message; `degraded:true` when a gate call failed/timed out (audit flag) |
 | `facilitator_turn` | kind(`door`\|`threshold`\|`safety`\|`bridge`\|`close`), text | visible turns only; the seam never silent-edits |
-| `voice_turn` | speaker, text, citations[], glosses[], quote_offers[], attempts_meta | the answer as streamed |
+| `voice_turn` | speaker, text, citations[], glosses[], quote_offers[], attempts_meta (empty-stream retry count) | the answer as streamed |
 | `retrieval_surfaced` | chunk_ids[] | feeds session exclusion (non-repetition) |
 | `safety_state` | track, level, accumulator{...} | **accumulator lives here — resume-safe by construction** |
 | `guidance_… ` | — | (reserved; no live guidance exists under principle 2) |
 | `turn_committed` | turn_no | closes a round |
 | `session_resumed` | device_hint | resume by code |
-| `deletion_requested` | — | starts the deletion workflow (Artifact 6 §4) |
+| `escalation_pressed` | class(`later_age`\|`other_tradition`) | the one-tap press (spec §6); feeds the gate's press-state |
+| `deletion_requested` | — | starts the deletion workflow (Artifact 6 §5) |
 | `session_closed` | reason(`participant`\|`idle`\|`cap`) | close is a bonus, never a container |
 
 Projection (`get_state`) folds the log into a fresh state object per request — never a shared mutable instance. `project_fresh` from the store alone must reconstruct any session (tested in stage 5: resume across two processes).
 
 ## 3. Session code
 
-- 128-bit CSPRNG, Crockford base32 (26 chars, grouped for humans: `XXXX-XXXX-XXXX-XXXX-XXXX-XX`). Shown from turn one (P3).
+- 128-bit CSPRNG, Crockford base32 (26 chars, grouped for humans: `XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XX`). Shown from turn one (spec §6, honesty chrome).
 - Stored **hashed** (SHA-256; codes are high-entropy so no slow hash needed). Possession = resume + transcript + deletion; the UI carries the keep-it-private warning.
 - Rate limits on code attempts: 5/min/IP, 20/day/IP; constant-time compare; failures indistinguishable from unknown-session.
 

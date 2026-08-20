@@ -23,7 +23,7 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.2). The World Package is the unit 
     gates-report.json                # every gate, result, and inertness report
     admission/results.json           # battery results (blind protocol, sealed-key refs)
     admission/transcripts/           # the graded transcripts
-    signoffs.json                    # Mark's four touchpoints, dated; Article-31 status (aspirational note)
+    signoffs.json                    # Mark's four touchpoints, dated; scholarly-review aspiration status (spec principle 15)
 ```
 
 ## 2. manifest.json
@@ -38,13 +38,13 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.2). The World Package is the unit 
   "records_commit": "<git sha of the records repo at build>",
   "files": { "compiled/prompt.txt": "sha256:…", "...": "every file in the package, no exceptions" },
   "coverage_summary": { "cells_substantive": 24, "cells_honest_limit": 4, "cells_empty": 0 },
-  "floors": { "term": 10, "story": 6, "quote": 3, "demonstration_cells_required": ["C-*", "identity-collision"] },
+  "floors": { "term": 10, "story": 6, "quote": 3, "demonstration_cells_required": ["C-*", "tag:identity-collision"] },
   "compat": { "min_runtime": "1.0", "max_runtime": null }
 }
 ```
 
 - `manifest_hash` = sha256 over the canonical-JSON manifest. The **registry** (Artifact 1 §2) stores the expected `manifest_hash` per world. Chain of trust: registry (git, reviewed) → manifest (hash pinned) → files (hashes listed).
-- **Load-time verification (closes the 70-file-drift class):** the runtime, when (lazily) loading a world, recomputes the manifest hash and spot-verifies every file hash it reads. **Mismatch ⇒ refuse to serve that world** (the world shows "temporarily unavailable"; other worlds unaffected). This is the named availability decision: a wrong world is worse than an absent one.
+- **Load-time verification (closes the drift class where compiled artifacts silently diverge from their records — a past incident left 70 stale files serving live):** the runtime, when (lazily) loading a world, recomputes the manifest hash and spot-verifies every file hash it reads. **Mismatch ⇒ refuse to serve that world** (the world shows "temporarily unavailable"; other worlds unaffected). This is the named availability decision: a wrong world is worse than an absent one.
 
 ## 3. Determinism & staleness
 

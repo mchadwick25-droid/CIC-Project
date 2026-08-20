@@ -33,6 +33,8 @@ You are **not** building: the multi-voice Table (separate product, separate thre
 13. **Cost discipline:** engineered in $/turn; every LLM call attributed to its session; no figure quoted onward until measured on Bedrock.
 14. **Every commit message carries its reasoning** — this project's commit log is its decision record; keep it that way.
 
+*(Numbering note: laws 1–13 mirror spec principles 1–13; spec principles 14–16 — witness/transparency, scholarly-review aspiration, portability — bind through §1 and the spec directly; law 14 is blueprint-only. Cite "spec principle N" vs "law N" explicitly.)*
+
 ## 4. Decision rights
 
 - **The build thread decides freely:** anything marked `DECIDABLE` in Artifacts 1–6 (hosting service, IaC tool, exact re-admission trigger list, jurisdiction counsel timing), library and implementation choices, test structure — each with a recorded reason in the commit.
@@ -43,7 +45,7 @@ You are **not** building: the multi-voice Table (separate product, separate thre
 
 | stage | deliverable | gate before next |
 |---|---|---|
-| 0.6 | Fixture world (synthetic, exercises every gate + admission + safety script) | all gates fire on seeded defects; admission harness runs end-to-end on it |
+| 0.6 | Fixture world (synthetic, exercises every gate + admission + safety script) | seeded defects enumerated and mapped to the gates that must catch them; the firing and harness proofs land in stages 1 and 4 |
 | 1 | M1: schema, registry, gates (Artifact 1) | selftest: pass clean fixture, fail every seeded-defect fixture; inertness reporting fires |
 | 2 | M2: compiler (Artifact 2) | determinism twice; staleness CI green; manifest hash verified by stub loader |
 | 3 | Canon v1 as records (`_fleet.canon.*` from Appendix A) + sealed held-out admission paraphrases | every cell has sealed probes before any world answers it |
@@ -51,10 +53,10 @@ You are **not** building: the multi-voice Table (separate product, separate thre
 | 5 | M4+M5: runtime core, gate, safety (Artifacts 3–5) | resume across two processes incl. accumulator; entrance-seal test; live safety script ≥19/20 vs fixture world; crisis append asserted incl. empty-stream; lazy load/unload measured |
 | 6 | M8: cost instrumentation, on Bedrock first | parity vs raw usage shapes; lapsed-cache-window visible; zero unattributed calls; re-measured cache economics recorded with the band |
 | 7 | **Alexandria** through the full world-build process (spec §4) | Mark's four touchpoints; admission passed; build cost + defect list recorded. Then Desert (the honest-limit proof) |
-| 7.5 | **Experience design (the pass we almost skipped).** Flows and mockups for the participant journey — the three access points (landing page with the scrolling Representative gallery; the "Start an interview" program page of detailed world cards; Atlas deep-link arrival), the detailed world card/doorway (portrait, disclosure, thinness, starters, launch), conversation view (stream, status line, code), the three-tier transparency interactions on desktop *and* touch, the safety turn as it looks and feels, the close, the methods page; plus the visual identity decision (align with cic-website or its own). Designed as screens, mobile-first, before any M6 code. Runs in parallel with stages 5–7. | Mark approves the screens — the experience gets the same redline discipline as the spec; nothing in M6 is invented while coding |
+| 7.5 | **Experience design (the pass we almost skipped).** Flows and mockups for the participant journey — the three access points (landing page with the scrolling Representative gallery; the "Start an interview" program page of detailed world cards; Atlas deep-link arrival), the detailed world card/doorway (portrait, disclosure, thinness, starters, launch), conversation view (stream, status line, code), the three-tier transparency interactions on desktop *and* touch, the safety turn as it looks and feels, the close, the methods page; plus the visual identity decision (align with the existing public site or its own). Designed as screens, mobile-first, before any M6 code. Runs in parallel with stages 5–7. | Mark approves the screens — the experience gets the same redline discipline as the spec; nothing in M6 is invented while coding |
 | 8 | M6: participant surface built to the approved designs (spec §6 content + stage 7.5 screens), including the **Atlas connection**: census_id in the registry, the open-worlds view/API for the public site, "speak with this world" deep links from Atlas entries to world doorways, honest "not yet built" state for unbuilt entries | every §6 item demonstrable; screens match the approved designs; an Atlas entry deep-links into a doorway end-to-end; Artifact 5 contract tests green |
 | 9 | M7: transcript audit pipeline (priced; daily cadence; lineage index for deletion) | full suite runs over pilot transcripts at batch rates; a finding routes to a record fix; a real question enters the canon |
-| 10 | Doors open: pilot per Article 36 (informed testers) | public availability waits on the two safety gates (live adversarial trials; clinician read) |
+| 10 | Doors open: pilot with informed testers (spec §8 pilot rules: informed, adult, prototype status disclosed) | public availability waits on the two safety gates (live adversarial trials; clinician read) |
 
 Progress discipline: one stage at a time; a stage's gate is evidence in the repo (reports, transcripts, measurements), not an assertion. Status to Mark at every stage boundary and every stop-and-ask.
 
@@ -66,6 +68,6 @@ Silent relabeling (an unknown enum value mapped to a default) · hand-synced lis
 
 - Work on a fresh branch cut from `claude/cic-redesign-spec-fcjzz6` (e.g. `build/phase-1`); the spec folder travels with it; spec amendments happen in the same PRs as the reality that forced them.
 - Mark's operational roles: source-request manifests (fetching archive texts), the four touchpoints per world, stop-and-ask rulings, budget approvals.
-- The Ministry/L-docs and old trees remain read-only context; the containment discipline applies (don't import old incident identifiers into fresh reasoning).
+- The project's governance documents (the L0–L4 folders and Ministry/ in the repo) and the old code trees remain read-only context; the containment discipline applies: state a past incident's general lesson when useful, never its internal identifiers (world, defect, revision), so fresh review threads stay unprimed.
 
 **Definition of done for this charter:** stage 10 reached — Alexandria and Desert open to informed pilot testers, every gate green, cost measured and attributed on Bedrock, the audit loop demonstrably feeding fixes back into a world build.
