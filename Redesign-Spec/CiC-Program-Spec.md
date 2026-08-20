@@ -169,17 +169,19 @@ Consequences for the design:
 
 **Q10 — Safety. RULED 2026-08-20: carry the existing design as-is, with the two debts as explicit gates before public availability.** Two tracks (acute distress acts on the single message; harmful-dynamic/dependency accumulates across the session), withholding-not-instructing, the encounter-working-as-designed distinction (historical-otherness disorientation is never counted as harm; engagement length/depth never increments the accumulator), crisis resources appended by code (R6). Gates: live adversarial trials to the project's own ten-of-ten precedent, and the clinician read — informed pilot testers may precede them per Article 36; the public may not.
 
+**Q5a — Session continuity. RULED 2026-08-20: conversations are resumable by session code.** One code per session, shown plainly, doing double duty: resume on any device, and request deletion (Q9). Sign-in stays the optional convenience tier. Article 34 compliance note: continuity honors the participant's wish to finish; nothing may *prompt* them to return.
+
 ### 4.2 Active question
 
-**Q5a — Should a conversation survive closing the tab?**
+**Q12 — At 100+ worlds, how much of each world build passes through Mark's hands?**
 
-Today a refresh loses the conversation and the interface admits it in a status line. The redesigned runtime keeps every session in a durable store anyway (Q9), so resumability is nearly free: the session code the participant already gets for deletion could equally re-open their conversation on any device, no account needed.
+(Asked once, deferred during the build-process redesign; now the last structural unknown in the process.) The draft keeps the three historic checkpoints — world/Representative identity, the living-tradition determination, the freeze — plus Mark's read of the admission transcripts, with everything else executed by AI threads and scripts against this spec's standards.
 
-**Recommendation: yes — resumable by session code/link, with sign-in as the convenience tier.** This is participant-serving continuity, not engagement optimization (Article 34 forbids designing *for* return compulsion, not honoring a person's wish to finish a conversation they started). A contemplative product whose conversations die with a browser tab is quietly hostile to its most contemplative participants.
+**Recommendation: exactly those four touchpoints, nothing else mandatory.** Mark's reading is the instrument nothing replicates (R2); the design should spend it only where formulas cannot see — identity, register, honesty — never on mechanics the gates already catch. At 100+ worlds, anything more is the bottleneck; anything less loses the instrument the whole quality bar is calibrated to.
 
 ### 4.3 Question queue (order will adapt to answers)
-- Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
-- Q11 — Bedrock: what the migration changes for this spec (all figures re-measured; caching behavior is the whole bet).
+- Q5 (remainder) — participant surface details are drafted as provisional recommendations in §5B; Mark redlines rather than being interviewed item by item.
+- Q11 — Bedrock is drafted into §6.1 from the evidence; the only open item is executing the preflight once the AWS account is live.
 
 ---
 
@@ -253,6 +255,41 @@ The old arc was organized by analytical category (identify → sources → gravi
 
 At 100+ worlds the current bespoke pace (months per world, hand-tailored batteries, per-world code) is disqualifying. The process must state its own cost per world and drive it down the same way the runtime does: shared instruments, record-native authoring, batch validation.
 
+---
+
+## 5B. Conversation quality — who owns it, and how it is defined measurably
+
+**Ownership (Q1):** the Admission module (M3) owns quality before a world opens; the Transcript Audit (M7) owns it after. The runtime owns none of it. A quality problem is always fixed in the world build, never patched live.
+
+**The definition.** A world's conversation is good when, measured over its admission battery and then over its real transcripts:
+
+1. **Register (O2, the Mark exemplar, operationalized):** first sentence answers the question (position-of-answer check); plain-before-term order (R4 lexicon-order instrument); the two-move readability split (plain answer ≤ FK 10 / FRE ≥ 60; sourced grounding ≤ FK 14 / FRE ≥ 40) **plus** the vocabulary instruments (word-list reach, unglossed wall-words) — the *disagreement* between sentence-architecture and word-choice instruments is itself a tracked signal (the "fake-old" signature). Segments under the scoreable floor are reported as unscored, never as clean.
+2. **Groundedness (O3, Q6):** zero unmatched quoted-attributed spans against the quote index; citations shown only when the turn's text carries them; figures within attested dates; honest-limit answers delivered as honest limits, in voice.
+3. **Coverage (canon):** every canon domain answerable — substantively or as a recorded honest limit — before the door opens; measured again on real traffic (which questions actually arrived, what served them, what fell through).
+4. **Distinctness (O4):** cross-world probes — same question to every open world — must converge on accessibility and diverge on content (near-zero phrase overlap between worlds; the measured instrument that already worked).
+5. **Continuity (Q4):** no repeated story/quote/term within a session absent an explicit request; no invented callbacks; deepening across the session graded in the audit (human-read sample, not a formula).
+6. **Integrity under pressure:** held positions stay held under bare pushback; thin ground concedes plainly; the two rates are never merged (which failure occurred matters).
+
+**Threshold discipline (R2):** numeric bars are set once, from real baselines — never invented to fill a row; report-only instruments stay report-only until data earns them a bar; Mark's read is the instrument for register and identity, sampled, on schedule, not on demand.
+
+---
+
+## 5C. Participant surface — PROVISIONAL (Q5 remainder; Mark redlines)
+
+- **Choosing a world at 100+ (Q7):** curated doorways instead of a menu — a small set of featured worlds, browse by era/place/question ("who can speak to suffering?"), and search. Every world's own thinness statement ("richest in… thinner on…") stays on its doorway; evidentiary honesty starts before the first message.
+- **The frame by participant type (Q3):** the optional "what brings you here?" question selects Facilitator posture, starter questions, and default apparatus depth. Everyone can reach everything; the type changes the default, never the ceiling.
+- **Starter questions** drawn from the Question Canon per world and frame — which also makes them the future exact-tap surface for vetted answers (Q8).
+- **Three-tier transparency everywhere (Art. 30):** inline marks → hover gloss → full record with sources and confidence; one interaction grammar for citations, terms, and figures; drawn-on vs consulted never conflated (the badge number is a promise about the turn's text).
+- **Honesty chrome:** what is kept and why (Q9), the session code (resume + deletion, Q5a), prototype status; one quiet status line, priority-ordered, never stacked.
+- **Transcript copy** with speaker names and cited sources.
+- **Feedback by interview, not form** (Mark's standing preference), correlated via the optional participant type.
+
+---
+
+## 6.1 Bedrock (Q11) — settled posture
+
+The pilot bills through AWS Bedrock (credits through pilot 2). The spec's stance, from the evidence: keep the Messages-API client shape (the `ChatAnthropicBedrock`-style path — same cache_control, same usage fields — chosen precisely because the alternative zeroes cache accounting silently); refuse to guess model IDs (blank fails loudly; IDs carry region/provider prefixes); nothing is trusted until the preflight runs against the live account — (a) caching actually engages, (b) both usage shapes report cache fields, (c) $/token reconciled against the real AWS invoice, not the first-party price table. **Every cost figure in this spec is re-measured on Bedrock before it is quoted onward (M8 owns parity).** Budget controls: an AWS Budget *Action* (deny policy), not alerts alone; the per-tester session cap remains the primary control.
+
 ## 6. Cost model — baseline arithmetic
 
 Per Q2: engineered in $/turn, reported in $/participant-hour at the declared 12 turns/hour convention, with per-participant cost attribution built in. The objective is access: lower is better wherever quality and rigor are not the price.
@@ -275,9 +312,22 @@ Cache: static prefix ~17.8k tok/world at 0.1× read; 1h TTL write 2×; pooling m
 
 **Retention (Q9):** every transcript kept indefinitely, keyed to an anonymous session; personal identifiers stripped from free text before anything enters the shared learning corpus; the participant is told at the start what is kept and why, and receives a session code granting later deletion (and, per Q5a, resumption) without an account. Sign-in is optional forever and buys only the participant's own cross-visit continuity. The transcript corpus feeds the audit (M7), the Question Canon, and the future vetted-answer bank (Q8).
 
-## 8. Build order — TBD
+## 8. Build order — PROVISIONAL
 
-Will be stated as: what gets built, what evidence gate it must pass, and what may not start until it does. The archaeology's strongest ordering lesson is R5 generalized: risky substitutions land last and alone.
+Ordering principles: each stage is verified before its dependents start; risky substitutions land last and alone (R5); the first world proves the whole pipeline before any second world begins; nothing ships a guard it doesn't run.
+
+1. **Record schema + world registry + gates (M1).** Verify: schema validates a seeded reference set; every gate passes the clean fixture and fails every seeded-defect fixture (selftest discipline); inertness reporting fires on a world with missing record types.
+2. **Compiler (M2).** Verify: determinism (same records → byte-identical artifacts, twice); regenerate-and-diff CI green on the reference set; manifest hash produced and checked by a stub loader.
+3. **Question Canon v1 (step 0).** Mark seeds the four families; scholarly-review vet. Verify: every canon domain has held-out paraphrase probes authored and sealed before any world answers it.
+4. **Admission harness (M3).** Verify: blind protocol runs end-to-end on the reference world — fresh-context generation, masked grading files, sealed keys; a seeded register/groundedness defect is caught.
+5. **Runtime core + safety (M4 + M5).** Verify: event log durable across restart and second instance (session resume by code works, twice, on different processes); mode contract test fails on a second writer; live safety script at the 19/20 floor; crisis append asserted including the empty-stream case; lazy world load/unload measured.
+6. **Cost instrumentation (M8) — on Bedrock, first.** Verify: parity against raw API usage shapes; a deliberately lapsed cache window shows up in the numbers; per-session attribution complete (zero unattributed calls).
+7. **First World Package end-to-end.** One world through the full 5A process to open. This stage *is* the verification of the process itself; its admission read is Mark's. No second world starts until the first one's build cost and defect list are recorded.
+8. **Participant surface (M6).** Verify: three-tier transparency reachable from every citation/term/figure; type-frame defaults; honesty chrome; transcript copy; resume + deletion by code.
+9. **Transcript audit (M7).** Verify: full instrument suite runs at batch rates over the pilot transcripts; findings route to record fixes; canon growth loop demonstrated (a new real question enters the canon).
+10. **Open the doors** (pilot per Article 36; public waits on the two safety gates). Worlds continue opening as they pass (Q7).
+
+The table product, voice-position variants, and any answer-serving bank are *not* stages — they are compile targets and modules this architecture must keep cheap (O9, Q3, Q8), added by their own future specs.
 
 ## 9. Unresolved — running list
 
