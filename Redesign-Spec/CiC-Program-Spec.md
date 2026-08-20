@@ -173,13 +173,15 @@ Consequences for the design:
 
 **Q12 — Mark's role per world. RULED 2026-08-20: the four touchpoints — world/Representative identity, the living-tradition determination, the freeze, the admission read — plus one operational role: source acquisition.** Build environments cannot reach the text archives (CCEL, Archive.org, etc. are egress-blocked); Mark downloads what a build needs. Formalized so it scales: step 2 of every world build emits a **source request manifest** — exact texts, editions, URLs, expected rights status — Mark fetches and drops the files in; the texts registry then verifies rights from each file's own provenance header (never trusting the request), exactly as the existing corpus discipline does. Public-domain-only vendoring (R12) unchanged.
 
+**Q13 — First world. RULED 2026-08-20: Alexandria.** Richest lexicon and the most substantive theological material — it exercises every canon family with real answers, stressing the pipeline exactly where the old process failed (foundations). Desert is the recommended second world, chosen to prove the opposite case: the honest-limit machinery on the project's own recorded worst-case foundations material.
+
 ### 4.2 Active question
 
-**Q13 — Which world goes first through the new pipeline?**
+**Q14 — Does the solo interview keep a visible Facilitator?**
 
-Stage 7 of the build order sends one world end-to-end to prove the whole process — canon coverage, honest limits, admission, cost per world — before any second world starts. The candidates aren't equal: the first world should *stress* the pipeline, especially the foundations family (serious theological questions), which is where the old process failed.
+Today a participant meets a Facilitator voice at the door (welcome, introduction of the world, handoff), at the threshold moments (safety, the "are you an AI?" frame questions, modern-term bridging — "you're asking about a term from a later age"), and at the close. It is the one voice that belongs to no world, speaks plain modern English about the system honestly, and is what lets the Representative stay totally embedded in its world without ever having to break character.
 
-**Recommendation: Alexandria.** It has the richest lexicon (50 terms) and the most substantive theological material — a catechetical tradition whose whole identity is teaching the faith — so it exercises every canon family with real answers rather than mostly honest limits. Desert, by contrast, is the project's own recorded worst case for foundations ("cannot be authored honestly today" on christology) — it makes a great *second* world precisely to prove the honest-limit machinery, but a poor first one: a pipeline proven only on thin material proves less. Tell me if a different world matters more to you for the pilot's sake.
+**Recommendation: keep it, in exactly those three places — door, thresholds, close — and nowhere else.** The archaeology shows it's load-bearing: every safety and frame mechanism that actually held works by routing to the Facilitator instead of asking the voice to break character; removing it would push system-honesty duties back into the Representative, which is the recorded failure. The discipline to add: the Facilitator is measured to the same readability bar as everyone else (it was once the least readable voice on screen because no battery measured it).
 
 ### 4.3 Question queue (order will adapt to answers)
 - Q5 (remainder) — participant surface details are drafted as provisional recommendations in §5B; Mark redlines rather than being interviewed item by item.
@@ -324,7 +326,7 @@ Ordering principles: each stage is verified before its dependents start; risky s
 4. **Admission harness (M3).** Verify: blind protocol runs end-to-end on the reference world — fresh-context generation, masked grading files, sealed keys; a seeded register/groundedness defect is caught.
 5. **Runtime core + safety (M4 + M5).** Verify: event log durable across restart and second instance (session resume by code works, twice, on different processes); mode contract test fails on a second writer; live safety script at the 19/20 floor; crisis append asserted including the empty-stream case; lazy world load/unload measured.
 6. **Cost instrumentation (M8) — on Bedrock, first.** Verify: parity against raw API usage shapes; a deliberately lapsed cache window shows up in the numbers; per-session attribution complete (zero unattributed calls).
-7. **First World Package end-to-end.** One world through the full 5A process to open. This stage *is* the verification of the process itself; its admission read is Mark's. No second world starts until the first one's build cost and defect list are recorded.
+7. **First World Package end-to-end: Alexandria (Q13).** Through the full 5A process to open — chosen to stress the foundations family with substantive answers. This stage *is* the verification of the process itself; its admission read is Mark's. No second world starts until Alexandria's build cost and defect list are recorded. Recommended second: Desert, to prove the honest-limit machinery on thin material.
 8. **Participant surface (M6).** Verify: three-tier transparency reachable from every citation/term/figure; type-frame defaults; honesty chrome; transcript copy; resume + deletion by code.
 9. **Transcript audit (M7).** Verify: full instrument suite runs at batch rates over the pilot transcripts; findings route to record fixes; canon growth loop demonstrated (a new real question enters the canon).
 10. **Open the doors** (pilot per Article 36; public waits on the two safety gates). Worlds continue opening as they pass (Q7).
@@ -333,8 +335,11 @@ The table product, voice-position variants, and any answer-serving bank are *not
 
 ## 9. Unresolved — running list
 
-- The pacing denominator (three internal documents flag it; never settled).
-- The "$0.30/participant-hour" target's provenance (nearest repo figures: $0.25–1.00/hr band; $0.30–0.75 *per table conversation*).
-- Whether the review-state ladder (832/832 records at `draft`) gets teeth: what advances a record, and who may.
-- The reading-floor calibration question (BBC ≈ FK 6; the [8,10] band may be set too high — "corpus prose has been edited toward it").
-- The one confirmed-real, never-root-caused cross-contamination incident (unrelated content in a live API response, 2026-07-20).
+*Settled since the list began:* the pacing denominator (Q2: declared 12 turns/hour reporting convention); the target's unit (Q2: access objective, $/turn engineering unit); the review-state ladder (subsumed: records advance through the build steps' exit checks, freeze at Mark's checkpoint — Q12).
+
+Still open:
+- **Reading-floor calibration** — the FK [8,10] band has never been checked against the exemplars the register actually aims at (BBC ≈ FK 6); to be settled by measurement during Alexandria's build, not by ruling.
+- **The Question Canon v1 seeding** — Mark's seeding session for the four families hasn't happened; it is stage 3 of the build order and blocks admission-probe authoring.
+- **Bedrock preflight** — blocked on the live AWS account; every cost figure herein is provisional until re-measured there (§6.1).
+- **The clinician conversation and live adversarial safety trials** — owed, now formal public-availability gates (Q10); not scheduled.
+- **The never-root-caused cross-contamination incident** (unrelated content in a live API response, 2026-07-20) — carried as an ops watch item; the per-request trace-id discipline that was built in response carries into M8.
