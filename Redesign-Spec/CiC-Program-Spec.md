@@ -154,28 +154,50 @@ Consequences for the design:
 - Non-repetition is a *transcript-audit check*, not a live gate (per Q1): the offline review measures repeated stories/quotes/terms per session, with the participant explicitly asking to hear it again as the sanctioned exception.
 - The invented-callback fabrication class ("when I said X" for a thing never said) is closed structurally by real history, and the audit watches for it.
 
+**Q7 — Worlds at launch. RULED 2026-08-20: worlds open as they pass the bar — and the system is built for over 100 eventual worlds, loading only the ones in use in a conversation; the rest wait in a database.** Consequences:
+- The admission bar is defined once (§5 M3); each world opens when it clears it. No fixed N-world launch date.
+- **World capacity is a data problem, never a code problem**: adding a world = adding records. No world identifier may appear in code, config constants, or hand-synced registries; everything about a world derives from one registry that is itself data.
+- **Runtime loads worlds lazily, per conversation**: a session seats a world → its compiled artifacts (prompt, capsule, indexes) load on demand and are released when idle. Nothing warms all worlds at startup (the current system's warm-everything design OOM'd at six worlds on a 512MB box; at 100+ it is disqualifying).
+- The world-selection surface must degrade gracefully past a menu of six (curation, search, pathways — participant-surface design, Q5).
+- Per-world validation must be machine-runnable at fleet scale: "at six worlds a human can hold that in their head; at six hundred the failure mode is a world that passes every gate with half its safety net inert, and nobody notices" — so gates must fail on inertness, not just on violations.
+
 ### 4.2 Active question
 
-**Q7 — Do all six worlds have to be at the door on day one, or do worlds open one by one as each passes the bar?**
+**Q8 — The answer bank: does the redesign carry it, and in what form?**
 
-The archaeology shows the six are at very different depths: one world has 50 lexicon terms, another 10; quote records range 11 to 1; the demonstration layer is effectively empty for four of six; several grounding checks sit inert where a world has no records to check against. Under Q1, a world opens only after passing blind, held-out validation — that bar is the product's integrity.
+Mark's brief names "a bank of standard answers" as a goal of keeping transcripts. The as-built bank never served a single answer (no data, no build script in the shipping tree, no UI that could trigger it), and its own honest ceiling was ~5.2% of traffic, because it could only serve an exact tap on a curriculum question nobody built.
 
-**Recommendation: worlds open as they pass, not all at once.** Define the admission bar once, in the spec; open with the two or three worlds that clear it first; the rest follow as their builds complete. A fixed six-world launch date forces exactly the choice this redesign exists to avoid: delay everything, or quietly lower the bar for the shallow worlds.
+**Recommendation: keep the goal, drop the mechanism — for Phase 1 the "bank" is the audited transcript corpus, not a runtime serving path.** Let real participants show which questions recur; the audit (M7) surfaces the clusters; vetted standard answers then become world-build material (demonstrations, reviewed starter-question answers). A runtime serving path re-enters the spec only if measured recurrence justifies it.
 
 ### 4.3 Question queue (order will adapt to answers)
 - Q5 — What must a participant be able to *do* besides talk (see sources, save transcript, resume a session, guided starters)?
-- Q8 — Answer bank: keep as designed (exact curriculum taps only), redesign, or drop?
 - Q9 — Retention/anonymity mechanics: what exactly is kept, keyed how, told to the participant in what words.
 - Q10 — Safety scope: carry the existing two-track design as-is, or re-derive; what "comparable programs" set the bar.
 - Q11 — Bedrock: what the migration changes for this spec (all figures re-measured; caching behavior is the whole bet).
 
 ---
 
-## 5. Module decomposition — TBD
+## 5. Module decomposition — PROVISIONAL (first full draft after Q1–Q4, Q6, Q7)
 
-*Q1 settled the biggest fork: no runtime governance module. Full drafting waits on Q2–Q4.*
+Eight modules. Each owns one thing; interfaces are named so a violation is visible. Detailed interface contracts and the build order follow as the remaining questions resolve.
 
-Expected shape (subject to interview): world build system (records → derived views → validation batteries; owns quality per Q1) · conversation runtime (generation + safety + deterministic checks only) · offline transcript audit (owns post-launch quality per Q1) · participant surface · transcript/learning store · cost/observability. Interfaces, ownership, and build order to follow.
+**M1 — World Store.** *Owns: what's true.* The database of worlds (built for 100+): records as the single source of truth — sources, terms, stories, quotes, gravities, forces, figures, contested claims, demonstrations, voice craft, world core — with the three-axis confidence block, typed relations, and rights/licensing per record. Validation is schema + gates, with the gate-integrity rule (changing a gate is its own reviewed step) and the inertness rule (a gate with nothing to check against reports that loudly). Interface out: validated record-sets per world, plus one world registry that everything else derives from.
+
+**M2 — World Compiler.** *Owns: derivation.* Deterministic builders: records → deployed artifacts (permanent prompt, capsule, retrieval chunks + indexes, quote index, figure registry, browsable repository, facilitator frame data). Same records → byte-identical outputs; regenerate-and-diff is the staleness gate; the builder list is explicit; every artifact set carries a manifest hash **that the runtime verifies at load** (closing the one gap the 70-file drift left open). Register variants (future voice positions, Q3) and table-mode artifacts (O9) are additional compile targets from the same records — never runtime branches.
+
+**M3 — Admission.** *Owns: the door (Q1, Q7).* The per-world validation battery: fresh-context, held-out, blind-graded probes covering register (O2), source-boundedness/fabrication pressure (Q6), distinctness (O4), safety interplay, and refusal honesty — machine-runnable at fleet scale, human-ruled where the instrument is Mark's reading (R2). A world opens when it passes; it re-enters admission when its records materially change.
+
+**M4 — Conversation Runtime.** *Owns: the live turn, and nothing else.* Session state as an append-only event log over a durable shared store (survives restarts and horizontal scaling — the process-local boundary is designed out). Turn loop: safety routing (M5) → retrieval (session-exclusion enforced, Q4) → one generation call with full-session memory, cache-conscious layout → deterministic grounding checks → stream. Worlds load lazily per conversation (Q7). No LLM quality police (Q1). Mode (interview / future table) is an explicit field, a contract at the entrance with a test that fails on a second writer.
+
+**M5 — Safety.** *Owns: the participant's moment of need.* Pre-turn classification (acute distress / harmful dynamic / frame-break / anachronism bridge), withholding-not-instructing, per-check fail-open directions stated in the spec, crisis resources appended by code (R6). Specified separately from M4 so its diligence bar (live adversarial trials, the 19/20-floor regression discipline, the owed clinician conversation) is auditable on its own.
+
+**M6 — Participant Surface.** *Owns: the encounter's frame.* World selection that scales past a menu (Q7); the participant-type frame (Q3): Facilitator posture, starter questions, apparatus depth; three-level transparency (citations → glosses → full records with sources); the honesty chrome (disclaimers, session persistence truth); transcript copy. Anonymity: sign-in optional, never required (O6).
+
+**M7 — Transcript Store & Audit.** *Owns: quality after the door (Q1, Q6).* Durable transcripts under the retention/anonymity rules (Q9, open); the offline audit pipeline running the full instrument suite at batch rates over every transcript — register instruments (the two-instrument disagreement is a feature), fabrication detection, repetition (Q4), safety review, world-distinctness drift; findings route to world-build fixes (M1) and admission re-runs (M3), never to live patches. Also the learning corpus and any future standard-answer bank (Q8, open).
+
+**M8 — Cost & Observability.** *Owns: the truthful number (Q2).* Usage logging with correct cache accounting (the double-count class is designed out with tests against raw API shapes), every call attributed to session and participant, $/turn as the engineering unit, the declared 12-turns/hour reporting convention, and Bedrock/first-party parity checks (Q11, open).
+
+**Boundary rules that are themselves spec:** one world registry, everything derived (no hand-synced lists); one product per endpoint contract; shared logic extracted, never duplicated ("the fix is not a fourth copy"); every guard fails open toward the pre-guard state with a stated direction; every generated artifact verifiable against its source by regenerate-and-diff plus load-time manifest hash.
 
 ## 6. Cost model — baseline arithmetic
 
