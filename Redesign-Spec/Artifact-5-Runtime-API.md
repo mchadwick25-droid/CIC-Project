@@ -5,7 +5,7 @@ Companion to `CiC-Program-Spec.md` (Stage 0.5.5). One product per endpoint; the 
 ## 1. Endpoints
 
 ### Worlds & records (public, read-only)
-- `GET /api/worlds` → open worlds from the registry: `[{world_key, display_name, period, place, representative, thinness_statement, living_tradition_flag}]`
+- `GET /api/worlds` → open worlds from the registry: `[{world_key, display_name, period, place, representative, thinness_statement, living_tradition_flag, census_id}]` — CORS-enabled for the public site origin; this (or a generated `open-worlds.json` published alongside the Atlas) is how the Atlas knows which census entries carry a "speak with this world" link. Deep-link target: the doorway URL `/world/{world_key}` (the doorway is never skipped on Atlas arrivals).
 - `GET /api/worlds/{key}/doorway` → frame data: starters (per participant type), disclosure texts (P1), methods-page link
 - `GET /api/records/{record_id}` → tier-3 record view (repository.json-backed; plain explanation + sources + confidence axes). 404 for non-open worlds.
 - `GET /api/methods` → the methods/limitations page content (P9, H1 statement)

@@ -22,6 +22,7 @@ worlds:
     place: "Alexandria and Egypt"
     representative: {name: Theon, role_label: Catechist}   # the two sanctioned fabrications (spec principle 14)
     state: building        # building | built | admitted | open | withdrawn
+    census_id: "IX.12"     # this world's entry in the Atlas census (world-census.json) — the Atlas↔interview mapping is data, never a hand-synced list
     package: {manifest_hash: "sha256:…", location: "s3://…/alx/2026-09-01T…/"}
     thinness_statement: "Richest in teaching and argument; thinner on…"
     living_tradition_flag: false   # true => doorway carries the living-tradition distinction (H7)
