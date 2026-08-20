@@ -16,8 +16,8 @@ sources: []
 query: "Eusebius, Ecclesiastical History, McGiffert translation (NPNF series 2 vol. 1, 1890), public-domain locations"
 channel: "web search (WebSearch), 2026-08-20; verified on ccel.org, archive.org, newadvent.org"
 result: found
-found_sources: []
-note: "NPNF2-01 (McGiffert, 1890), expected public domain: https://www.ccel.org/ccel/schaff/npnf201.html; scans on archive.org. The newer Loeb (Lake 1926 / Oulton 1932) is only half past the US public-domain line (vol. 2, 1932, is not PD until 2028), so McGiffert is the requested edition. McGiffert's extensive scholarly footnotes are part of the volume's value."
+found_sources: [alx.source.eusebius-historia-ecclesiastica]
+note: "2026-08-20 update: the searched-for edition (McGiffert, NPNF2-01) was supplied via the vendored corpus (cic/texts/npnf201_...xml, Mark, 2026-08-15); source record created with rights verified from the file's own DC.Rights header. The HIGH institutional-claims risk split is stated in the source record's own work field, as this record required."
 ---
 Search run 2026-08-20. Eusebius is requested as a SECONDARY NARRATIVE source,
 not a voice within the world: he is the near-sole scaffolding for the

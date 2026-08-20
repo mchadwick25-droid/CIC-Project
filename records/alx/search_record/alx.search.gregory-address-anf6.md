@@ -16,8 +16,8 @@ sources: []
 query: "Gregory Thaumaturgus, Oration and Panegyric Addressed to Origen (Address of Thanksgiving), Salmond translation, ANF vol. 6"
 channel: "web search (WebSearch), 2026-08-20; verified on en.wikisource.org, newadvent.org, archive.org"
 result: found
-found_sources: []
-note: "ANF vol. 6 (Salmond translation, pp. 50-91), expected public domain. Scan via the ANF vol. 6 volumes on archive.org; transcriptions at Wikisource (Ante-Nicene_Fathers/Volume_VI/Gregory_Thaumaturgus) and https://www.newadvent.org/fathers/0604.htm (New Advent's edited e-text carries its own claimed compilation copyright - prefer the scan or Wikisource for provenance)."
+found_sources: [alx.source.gregory-address-to-origen]
+note: "2026-08-20 update: the searched-for edition (Salmond, ANF vol. 6) was supplied via the vendored corpus (cic/texts/anf06_...xml, Mark, 2026-08-15); source record created with rights verified from the file's own DC.Rights header, the Address's division confirmed at file line 2288. The Nautin caveat is carried in the source record's work field."
 ---
 Search run 2026-08-20. The one first-person student's-eye account of
 Alexandrian-school formation (delivered c. 238, at Caesarea): the best single

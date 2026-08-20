@@ -16,8 +16,8 @@ sources: []
 query: "Palladius, Lausiac History, W.K. Lowther Clarke translation (SPCK 1918), public-domain locations"
 channel: "web search (WebSearch), 2026-08-20; verified on archive.org and tertullian.org"
 result: found
-found_sources: []
-note: "Clarke 1918, expected public domain (archive.org notes no visible copyright notice): https://archive.org/details/lausiachistoryof013039mbp; transcription https://www.tertullian.org/fathers/palladius_lausiac_02_text.htm. Requested at LOW priority and under the cross-build flag: the desert-formation content's world-attribution (Alexandria vs. a distinct Desert world) was explicitly held open in the prior build record and is not resolved here - and Desert is itself the planned second world (spec stage 7)."
+found_sources: [alx.source.palladius-lausiac-history]
+note: "2026-08-20 update: the exact searched-for edition (Clarke, SPCK 1918) was already vendored as cic/texts/palladius_lausiac-history_clarke1918.txt (Mark, 2026-08-15, via Roger Pearse's morefathers transcription); source record created with rights verified from the file's own prepended header, the Didymus eyewitness passage confirmed at line 211. The cross-build flag and the bounded Alexandria-adjacent purpose are stated in the source record's work field."
 ---
 Search run 2026-08-20. Included in the manifest for one bounded purpose: the
 personally-witnessed Alexandria-adjacent material (notably Palladius's own

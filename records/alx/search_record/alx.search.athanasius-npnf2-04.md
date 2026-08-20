@@ -16,8 +16,8 @@ sources: []
 query: "Athanasius in public-domain English: NPNF series 2 vol. 4 (Robertson, 1892) - On the Incarnation, Life of Antony, Four Discourses Against the Arians, De Decretis, Festal Letters"
 channel: "web search (WebSearch), 2026-08-20; verified on ccel.org, archive.org, tertullian.org"
 result: found
-found_sources: []
-note: "NPNF2-04 (Robertson ed., 1892), expected public domain: https://www.ccel.org/ccel/schaff/npnf204.html; scan https://archive.org/details/selectlibraryofn0000unse; page-imaged TOC https://www.tertullian.org/fathers2/NPNF2-04/TOC.htm. One volume carries the whole requested Athanasius base including the Festal Letters (the surviving Syriac-preserved set) and the Life of Antony."
+found_sources: [alx.source.athanasius-de-incarnatione, alx.source.athanasius-vita-antonii, alx.source.athanasius-festal-letters, alx.source.athanasius-contra-arianos, alx.source.athanasius-de-decretis]
+note: "2026-08-20 update: the searched-for volume (CCEL NPNF2-04) was supplied via the vendored corpus (cic/texts/npnf204_...xml, Mark, 2026-08-15); five per-work source records created with rights verified from the file's own DC.Rights header. This volume has documented per-work translator splits (Newman/Robertson, Ellershaw, the 1854 Festal Letters rendering) - each source record carries the re-check-at-first-quote instruction."
 ---
 Search run 2026-08-20. The single richest volume in the manifest: it serves
 the late horizon (post-325) across canon families C (On the Incarnation),

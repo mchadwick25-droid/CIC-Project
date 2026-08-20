@@ -3,8 +3,8 @@
 **World:** `alx` / `alexandria-catechetical` (working identity — see §0)
 **Produced at:** per-world build step 2, Source ecology (spec §4.3.2), 2026-08-20
 **For:** Mark, in his operational source-acquisition role (Build-Blueprint §7)
-**Status:** REQUEST. Nothing in this document is a verified rights determination. Per spec §4.3.2, *rights are verified from each supplied file's own provenance header, never from the request.* Every rights statement below is an **expectation with stated reasoning**, and `alx.source.*` records will be created only from the files Mark actually supplies.
-**Search basis:** every entry is grounded in a real search run 2026-08-20, recorded in `records/alx/search_record/` (index at §9) — including the searches that came back empty.
+**Status v2 (2026-08-20, same day):** the first version of this manifest went out as a pure REQUEST. The vendored public-domain corpus (`cic/texts/`, 38/38 ANF/NPNF volumes plus extras, supplied by Mark 2026-08-15–18) arrived on this branch hours later and **already covers seven of the eleven requests**. Those seven are now marked SUPPLIED, each with rights **verified from the vendored file's own provenance header** (per spec §4.3.2 — never from this request) and a created `alx.source.*` record. What remains below as OPEN is the true outstanding wantlist. The five decisions in §5 are still Mark's.
+**Search basis:** every entry is grounded in a real search run 2026-08-20, recorded in `records/alx/search_record/` (index at §9) — including the searches that came back empty. One first-pass error was found and corrected on arrival of the real files: *Quis dives salvetur* is in ANF 2 after all (the Loeb was never the only PD English; see `alx.search.clement-loeb-butterworth`'s correction note).
 
 ---
 
@@ -16,153 +16,145 @@ World/Representative identity is one of Mark's four per-world touchpoints (Build
 - **Place:** Alexandria and Egypt.
 - **What it is:** the Alexandrian Christian formation ecology anchored on its catechetical-formation tradition — learned teaching, allegorical-spiritual reading of Scripture, staged catechumenate, confident engagement with Greek thought (Clement, Origen, the teaching tradition through Didymus, the episcopal line through Athanasius).
 - **What it is *not*** (source-selection boundary only):
-  - **Not the desert.** Desert monasticism is the planned second world (spec §9 stage 7). Desert-formation texts (*Apophthegmata*, Pachomian material, Evagrius) are **excluded** from this request; the two boundary texts that touch both (Life of Antony, Lausiac History) are requested with an explicit cross-build flag (§3.2, §2.6). The prior build record held the attribution question open; nothing here closes it.
-  - **Not Philo / not Judaism.** Philo is pre-horizon and Jewish; requested only as a *diagnostic* source (§6), never as evidence of Christian practice.
-  - **Not the Gnostic schools as insiders.** Nag Hammadi material would be context for what this world defined itself against, not this world's own voice. Not requested at this step (§8).
-  - **Not post-Chalcedon.** Nothing after the window; the living-heir relationship (Coptic Orthodox Church) is a doorway-disclosure matter for Mark's living-tradition touchpoint, not a source question.
-- **Open scope question for Mark (flag, not a guess):** whether the window's *practical* center of gravity should be stated as 150–400 evenly or as "richest 180–260, thinner late" — the vendorable evidence found below is heavily early-to-mid horizon (see G3). This affects emphasis, not the boundary, so source requesting proceeds on 150–400.
+  - **Not the desert.** Desert monasticism is the planned second world (spec §9 stage 7). Desert-formation texts (*Apophthegmata*, Pachomian material, Evagrius) are **excluded**; the two boundary texts touching both (Life of Antony, Lausiac History) carry an explicit cross-build flag in their source records. The prior build record held the attribution question open; nothing here closes it.
+  - **Not Philo / not Judaism.** Philo is pre-horizon and Jewish; listed only as a *diagnostic* acquisition (§6), never evidence of Christian practice.
+  - **Not the Gnostic schools as insiders.** Nag Hammadi material would be context for what this world defined itself against; not requested at this step (§8).
+  - **Not post-Chalcedon** — and specifically **not the Origenist controversy of c. 399–553**: the vendored corpus contains extensive material from that later controversy (npnf202/203/206/211/214), which is out-of-horizon for this world's voice. The corpus scrub's "Out-of-horizon traps found" section (`Ministry/Technology/table_phase0/Texts_Scrub_alexandria.md`) is the standing map of what not to cite; every later build step should read it before touching anything Origen-related in those volumes.
+- **Open scope question for Mark (flag, not a guess):** whether the window's *practical* center of gravity should be stated as 150–400 evenly or as "richest 180–260, thinner late" — the vendored evidence is heavily early-to-mid horizon (see G3). Affects emphasis, not the boundary.
 
 ---
 
 ## 1. How to read this manifest
 
-- **Vendoring rule.** Only public-domain texts are vendored (spec principle 14). §2–§4 list texts *requested for the archive* (expected PD). §5–§6 name copyrighted works that would be **consultation-only** if acquired — they can inform research and secondary-confidence judgments but their text cannot enter records as licensed quote material.
-- **Preferred acquisition form:** the **archive.org scan of the printed volume** wherever one exists — a scan carries its own title page, date, and publisher, which is exactly the provenance a rights header needs. CCEL e-texts are acceptable seconds (CCEL states PD status per volume). New Advent e-texts are *not* preferred: the site claims a compilation copyright over its edited versions.
-- **Why 19th/early-20th-century translations?** ANF/NPNF and their era are stylistically dated and their scholarship is superseded in places — but they are the only complete public-domain corpus, their translation quality for these authors is serviceable, and the register bar is met by the *voice build*, not by the source translation (records carry what's true; the voice speaks modern English over it). Where a modern edition is *materially* better — not just fresher prose — it is named in the entry and weighed in §5.
-- **Priority:** P1 = the build cannot proceed sensibly without it; P2 = strongly wanted, cells get thinner without it; P3 = bounded/optional.
+- **Vendoring rule.** Only public-domain texts are vendored (spec principle 14). SUPPLIED entries live in `cic/texts/` with rights read from each file's own header (the generated `cic/texts/README.md` re-reads them on every run). §5–§6 name copyrighted works that would be **consultation-only** if acquired — research inputs whose text can never enter records as licensed quote material.
+- **For OPEN entries**, the preferred acquisition form remains the archive.org scan of the printed volume (a scan carries its own title page, date, and publisher — exactly what a rights header needs), or a CCEL export matching the vendored corpus's format. New Advent e-texts are not preferred (site claims a compilation copyright on its edits).
+- **Why 19th/early-20th-century translations?** The only complete public-domain corpus; serviceable for these authors; the register bar is met by the voice build, not the source translation. Where a modern edition is *materially* better, it is named in the entry and weighed in §5.
+- **Priority:** P1 = build cannot proceed sensibly without it; P2 = strongly wanted; P3 = bounded/optional.
 
 ---
 
-## 2. Primary sources requested (expected public domain, for vendoring)
+## 2. Primary sources
 
-### 2.1 Clement of Alexandria — ANF vol. 2 — **P1**
-- **Edition requested:** *Ante-Nicene Fathers*, vol. 2 (Roberts–Donaldson; Clement trans. William Wilson, 1885).
-- **Location:** https://archive.org/details/ante-nicene-fathers-vol-2 (scan; preferred) · https://www.ccel.org/ccel/schaff/anf02.html
-- **Contains:** *Protrepticus* (Exhortation), *Paedagogus* (Instructor), *Stromateis* I–II & IV–VIII, fragments. **Book III of the Stromateis is in Latin only** — see G1.
-- **Expected rights:** public domain (1885, US and effectively everywhere); reasoning: pre-1930 publication, standard PD series.
-- **Canon families served:** C (the "New Song" opening of the Protrepticus is Center material); F1 (Logos theology); F2 (how Scripture was read); F4 (formation as pedagogy); **F5 richly** — *Paedagogus* II–III is the corpus's best daily-life material (food, drink, dress, sleep, household manners); F6 (wealth, the body).
+### 2.1 Clement of Alexandria — ANF vol. 2 — **P1 · SUPPLIED, verified**
+- **Vendored file:** `cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` — `DC.Rights: Public Domain`, read from the file 2026-08-20.
+- **Source records:** `alx.source.clement-protrepticus` · `alx.source.clement-paidagogos` · `alx.source.clement-stromateis` · `alx.source.clement-quis-dives` (the last a first-pass correction: Wilson's *Quis dives* is in this volume).
+- **Book III of the Stromateis is Latin-only in this edition** — stated by the file's own header ("Extended Latin sections") and in the source record. See G1.
+- **Canon families:** C, F1, F2, F4, **F5 richly** (Paedagogus II–III; Quis dives for F5-T money), F6.
 
-### 2.2 Clement — Loeb LCL 92 (Butterworth, 1919) — **P2**
-- **Edition requested:** *The Exhortation to the Greeks; The Rich Man's Salvation; To the Newly Baptized* (Loeb 92, Harvard UP, 1919).
-- **Location:** https://archive.org/details/exhortationtogre0000clem
-- **Expected rights:** public domain in the US (published 1919, pre-1930); reasoning as stated. Non-US status less certain (Butterworth d. 1960s) — flagging honestly; the US expectation is what matters for vendoring from a US archive, but Mark may want the jurisdiction question in view.
-- **Why alongside 2.1:** Butterworth's Protrepticus is markedly more readable than Wilson's, and this volume is the only expected-PD English of ***Quis dives salvetur*** — the rich-man sermon that directly serves F5-T (money and poverty) and F4 — plus the *To the Newly Baptized* fragment.
+### 2.2 Clement — Loeb LCL 92 (Butterworth, 1919) — **P3 · OPEN (downgraded from P2)**
+- **Why downgraded:** its unique-content claim was my error — *Quis dives* is in ANF 2. Remaining value: Butterworth's markedly more readable Protrepticus, and the *To the Newly Baptized* fragment.
+- **Edition/location:** *The Exhortation to the Greeks; The Rich Man's Salvation; To the Newly Baptized* (Loeb 92, Harvard UP, 1919) — https://archive.org/details/exhortationtogre0000clem
+- **Expected rights:** US public domain (1919, pre-1930). Non-US status less certain — flagged, not resolved.
 
-### 2.3 Origen — ANF vol. 4 (De Principiis; Contra Celsum) — **P1**
-- **Edition requested:** *Ante-Nicene Fathers*, vol. 4 (trans. Frederick Crombie; *Contra Celsum* VII–VIII with W.H. Cairns, 1869–72/1885).
-- **Location:** https://archive.org/details/ante-nicene-fathers-vol-4 (scan; preferred) · https://ccel.org/ccel/schaff/anf04.html
-- **Expected rights:** public domain; reasoning: pre-1930 series.
-- **Transmission caveat (belongs in the future source record):** *De Principiis* here is English-of-Rufinus's-Latin, and Rufinus softened doctrinally suspect passages. Where the *Philocalia* (2.5) preserves the Greek, the Greek wins.
-- **Canon families served:** C-E and F2-E above all — *Contra Celsum* is the corpus's evidential engine (answering a hostile outsider: how do you know, why believe the resurrection, why trust these texts); F1 (systematic theology); F2 (De Principiis IV on the senses of Scripture); F3 (what outsiders found strange).
-- **Modern-better note:** Chadwick's *Contra Celsum* (CUP 1953) is the superior translation — see §5 table.
+### 2.3 Origen — ANF vol. 4 — **P1 · SUPPLIED, verified**
+- **Vendored file:** `cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` — `DC.Rights: Public Domain`, read from the file 2026-08-20.
+- **Source records:** `alx.source.origen-de-principiis` (Rufinus-softening caveat in its work field) · `alx.source.origen-contra-celsum`.
+- **Canon families:** C-E and F2-E above all (Contra Celsum, the evidential engine); F1; F2 (De Principiis IV). Modern-better: Chadwick's *Contra Celsum* (CUP 1953) — §5.
+- Also in this volume for later steps: the Origen–Africanus letters (the Susanna exchange — text-critical practice material).
 
-### 2.4 Origen — ANF vol. 9 (Commentary on John I–X; Commentary on Matthew I–II, X–XIV) — **P2**
-- **Edition requested:** *Ante-Nicene Fathers*, vol. 9 (American supplement, ed. Allan Menzies, 1896).
-- **Location:** https://archive.org/details/ante-nicene-fathers-vol-9 · https://oll.libertyfund.org/titles/menzies-ante-nicene-fathers-volume-9
-- **Expected rights:** public domain (1896).
-- **Canon families served:** C (John commentary — the Logos, the "eternal gospel"); F1; F2 (exegesis practiced at full depth); F4.
-- **Honesty note:** partial coverage reflects both manuscript survival and translation coverage; the request is for what exists, and records citing it must not imply a complete commentary.
+### 2.4 Origen — ANF vol. 9 (the surviving commentaries) — **P2 · SUPPLIED, verified**
+- **Vendored file:** `cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` — `DC.Rights: Public Domain`, read from the file 2026-08-20.
+- **Source records:** `alx.source.origen-comm-john` (books I–X) · `alx.source.origen-comm-matthew` (books I–II, X–XIV). Partiality stated in the work fields.
 
-### 2.5 Origen — *Philocalia* (Lewis, 1911) — **P2**
-- **Edition requested:** *The Philocalia of Origen*, trans. George Lewis (T&T Clark, 1911).
-- **Location:** https://archive.org/details/philocaliaoforig00orig (scan) · https://www.tertullian.org/fathers/origen_philocalia_02_text.htm
+### 2.5 Origen — *Philocalia* (Lewis, 1911) — **P2 · OPEN — now the top acquisition**
+- **Edition/location:** *The Philocalia of Origen*, trans. George Lewis (T&T Clark, 1911) — https://archive.org/details/philocaliaoforig00orig · https://www.tertullian.org/fathers/origen_philocalia_02_text.htm
 - **Expected rights:** public domain (1911).
-- **Why:** Basil and Gregory Nazianzen's Greek anthology of Origen — the check against Rufinus's softening (see 2.3), and strong F2 material (scriptural difficulty, inspiration, freedom) in Greek-derived English.
+- **Why top:** the Greek anthology of Origen (Basil and Gregory Nazianzen's) — the *control text* against Rufinus's softened Latin, which is now the vendored De Principiis' only form. The fleet-level wantlist (`Texts_Acquisition_Wantlist.md`, Tier 3 #9) independently names it. With everything else supplied, this is the single most valuable remaining file for this world.
 
-### 2.6 Athanasius — NPNF series 2, vol. 4 (Robertson, 1892) — **P1**
-- **Edition requested:** *NPNF2-04: Athanasius: Select Works and Letters*.
-- **Location:** https://archive.org/details/selectlibraryofn0000unse (scan) · https://www.ccel.org/ccel/schaff/npnf204.html · page images: https://www.tertullian.org/fathers2/NPNF2-04/TOC.htm
-- **Expected rights:** public domain (1892).
-- **Contains & serves:** *On the Incarnation* (C — the strongest single Center treatise in the whole request); *Four Discourses Against the Arians*, *De Decretis* (F1, including the F1-E "did a council vote Jesus into being God?" cell answered from the insider who was at Nicaea); *Festal Letters* (F3/F4 — annual whole-community formation; the surviving set, Syriac-preserved); *Life of Antony* (F4/F6 story material — **cross-build flag**: its desert content is boundary material with the Desert world; requested here for its Athanasian, Alexandria-facing side, attribution question left open).
-- **Not included in this volume:** *Letter to Marcellinus* — see G4.
+### 2.6 Athanasius — NPNF2-04 — **P1 · SUPPLIED, verified**
+- **Vendored file:** `cic/texts/npnf204_athanasius-select-works-letters.xml` — `DC.Rights: Public Domain`, read from the file 2026-08-20.
+- **Source records:** `alx.source.athanasius-de-incarnatione` (the De inc. 54 line verified verbatim at file line 18744) · `alx.source.athanasius-vita-antonii` (cross-build flag) · `alx.source.athanasius-festal-letters` (incl. Letter 39's canon list) · `alx.source.athanasius-contra-arianos` · `alx.source.athanasius-de-decretis` (the F1-E council cell).
+- Volume has documented per-work translator splits (Newman/Robertson, Ellershaw, the 1854 Festal rendering) — each source record carries a re-check-at-first-quote instruction.
 
-### 2.7 Gregory Thaumaturgus — *Address of Thanksgiving to Origen* — **P1**
-- **Edition requested:** ANF vol. 6 (trans. S.D.F. Salmond, pp. 50–91).
-- **Location:** ANF vol. 6 scans on archive.org · https://en.wikisource.org/wiki/Ante-Nicene_Fathers/Volume_VI (transcription). Avoid the New Advent e-text for vendoring (site compilation-copyright claim).
-- **Expected rights:** public domain (1886).
-- **Why P1:** the only first-person student account of the school's formation — what it *felt like* to be taught (curriculum sequence, the teacher-student bond, the farewell). Serves F4-I ("walk me through how a person became/was formed"), F3-I (teacher authority), C-P.
-- **Named caveat (travels with the text):** Nautin disputed authenticity/dating; consensus (Markschies, Mitchell) reaffirms c. 238. State it wherever the Address is dated or leaned on.
+### 2.7 Gregory Thaumaturgus — *Address of Thanksgiving to Origen* — **P1 · SUPPLIED, verified**
+- **Vendored file:** `cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml` — `DC.Rights: Public Domain`, read from the file 2026-08-20; the Address's division at file line 2288.
+- **Source record:** `alx.source.gregory-address-to-origen` (Nautin dating caveat in its work field).
+- Also in this volume for later steps: Gregory's *Declaration of Faith* and Canonical Epistle.
 
-### 2.8 Dionysius of Alexandria — Feltoe (1918) — **P2**
-- **Edition requested:** *St. Dionysius of Alexandria: Letters and Treatises*, trans. C.L. Feltoe (SPCK, 1918).
-- **Location:** https://archive.org/details/stdionysiusofale00dion (scan) · https://www.gutenberg.org/files/36539/36539-h/36539-h.htm
-- **Expected rights:** public domain (1918). Fallback: Salmond's Dionysius in ANF vol. 6.
-- **Why:** the mid-horizon witness the corpus otherwise lacks — Decian persecution lived, not remembered (F3-I "was it actually dangerous?"); the lapsed and their return (F4-I discipline-and-restoration); **the plague letters** (Christians nursing the dying — prime F5 sickness/death cell and prime story material); F6.
-- **Transmission caveat:** survives mostly via Eusebius's quotation — doubly mediated; the source record must say so.
+### 2.8 Dionysius of Alexandria — **P2 · SUPPLIED via ANF 6, verified; Feltoe stays OPEN at P3**
+- **Vendored:** the "Extant Fragments of Dionysius" in the same anf06 file (title at line 7864) → `alx.source.dionysius-extant-fragments`. A correction to this manifest's own framing: the fragments are directly present as collected English — "survives via Eusebius" is the *ancient* transmission story (the caveat stands in the record), not a modern-access problem.
+- **Still OPEN (P3):** Feltoe, *St. Dionysius of Alexandria: Letters and Treatises* (SPCK 1918) — https://archive.org/details/stdionysiusofale00dion · Gutenberg #36539 — fuller and better organized; wanted, not blocking.
 
 ---
 
-## 3. Secondary narrative sources requested (expected PD; accounts *of* the world, not voices within it)
+## 3. Secondary narrative sources (accounts *of* the world, not voices within it)
 
-### 3.1 Eusebius — *Ecclesiastical History* (McGiffert, NPNF2-01, 1890) — **P1**
-- **Location:** https://www.ccel.org/ccel/schaff/npnf201.html · archive.org scans of NPNF2-01.
-- **Expected rights:** public domain (1890). (The Loeb alternative is half in copyright until 2028 — not requested.)
-- **Role and standing caution:** the near-sole scaffold for school personnel and institutional history. Prior assessment (used as evidence, not dependency): **HIGH author-gravity risk on institutional/succession claims** — his tidy head-succession is more orderly than independent evidence supports; his *verbatim document quotations* (Dionysius's letters) rate much better. Serves F3, F2-E, and every "how do we know" cell — always as the *etic* frame, never as an in-world voice.
+### 3.1 Eusebius — *Ecclesiastical History* (McGiffert, NPNF2-01) — **P1 · SUPPLIED, verified**
+- **Vendored file:** `cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml` — `DC.Rights: Public Domain`, read from the file 2026-08-20.
+- **Source record:** `alx.source.eusebius-historia-ecclesiastica` — the HIGH institutional-claims risk split is in its work field; only the Church History (McGiffert's translation) is the record's work, not the volume's Life of Constantine.
+- Carries primary date attestations for Origen, Pantaenus, Demetrius, and others — figure-record material for step 3, with the risk screen active.
 
-### 3.2 Palladius — *Lausiac History* (Lowther Clarke, SPCK 1918) — **P3, cross-build flag**
-- **Location:** https://archive.org/details/lausiachistoryof013039mbp · https://www.tertullian.org/fathers/palladius_lausiac_02_text.htm
-- **Expected rights:** public domain (1918; archive notes no copyright notice).
-- **Bounded purpose here:** the personally-witnessed Alexandria-adjacent material only — above all his meeting with **Didymus**, the only vivid account of Didymus in expected-PD English (see G3). The received desert accounts belong to the Desert world's question. **Clean option for Mark:** defer this text entirely to the Desert build; the manifest loses only the Didymus vignette.
+### 3.2 Palladius — *Lausiac History* (Lowther Clarke, 1918) — **P3 · SUPPLIED, verified; cross-build flag**
+- **Vendored file:** `cic/texts/palladius_lausiac-history_clarke1918.txt` — "Rights: Public Domain" in the file's own prepended header, read 2026-08-20; the Didymus eyewitness passage at line 211.
+- **Source record:** `alx.source.palladius-lausiac-history` — bounded to personally-witnessed Alexandria-adjacent material; received desert accounts belong to the Desert world's question.
 
 ---
 
-## 4. Documentary channel (expected PD; ordinary-believer evidence)
+## 4. Documentary channel
 
-### 4.1 Oxyrhynchus Papyri — Grenfell & Hunt early volumes — **P3, bounded**
-- **Edition requested:** *The Oxyrhynchus Papyri* vols. I–IV (Egypt Exploration Fund, 1898–1904), with translations/notes for major pieces.
-- **Location:** archive.org scans, e.g. https://archive.org/details/oxyrhynchuspapyr01grenuoft
-- **Expected rights:** public domain (1898–1904).
-- **Why:** the only channel where non-elite Egyptian Christians appear unmediated by a literary author — F5 daily-life cells, and the F5-E "how do historians even know about daily life?" cell is answered by what a papyrus *is*.
-- **Honest bound:** these are huge scholarly volumes, not a curated corpus. This request vendors the volumes; *identifying which papyri actually serve records* is step 3/4 work, named as such. No claim is made now about how much usable Christian daily-life material these four volumes contain for our window — that is what the curation will establish.
+### 4.1 Oxyrhynchus Papyri — Grenfell & Hunt early volumes — **P3 · OPEN, bounded**
+- **Edition:** *The Oxyrhynchus Papyri* vols. I–IV (Egypt Exploration Fund, 1898–1904) — archive.org scans, e.g. https://archive.org/details/oxyrhynchuspapyr01grenuoft
+- **Expected rights:** public domain (1898–1904). Not in the vendored corpus.
+- **Why:** the only channel where non-elite Egyptian Christians appear unmediated by a literary author (F5; the F5-E "how do historians even know" cell). **Honest bound unchanged:** huge scholarly volumes, not a curated corpus — identifying usable Christian pieces is step 3/4 editorial work, named as such, and no claim is made now about how much our window will yield.
 
 ---
 
 ## 5. Gaps, and decisions only Mark can make
 
-Where a modern copyrighted edition is clearly better (or is the only option), the tradeoff is his to weigh: copyrighted works can be **consulted** during the build (informing paraphrased, cited records at the appropriate confidence) but **cannot be vendored** or quoted as licensed text (spec principle 14).
+All four textual gaps below were **independently confirmed by the corpus scrub** (`Texts_Scrub_alexandria.md`, "Absences"): the complete vendored 38-volume set lacks them too. Copyrighted works can be **consulted** during the build (informing sourced paraphrase at honest confidence) but **cannot be vendored** or quoted as licensed text (spec principle 14).
 
 | # | Gap (search record) | What's missing | Options |
 |---|---|---|---|
-| **G1** | `alx.search.stromateis-iii-english` (not_found) | *Stromateis* III — marriage, sexuality, the body; feeds F5-T marriage and F6 identity-collision (divorce/remarriage) cells | (a) acquire Ferguson (FOTC 85, 1991) or Oulton/Chadwick (LCC II, 1954) consult-only; (b) accept thinness → honest_limit records. Recommend (a): those cells are canon-required and demonstration-required. |
-| **G2** | `alx.search.origen-homilies-pd` (not_found) | Origen's homiletic corpus — his *congregational* voice; without it the vendorable Origen skews elite/systematic (a known author-gravity risk) | (a) Heine FOTC 71 (Gen/Ex), Lienhard FOTC 94 (Luke), Lawson ACW 26 (Song) consult-only; (b) accept skew → state in world_core cautions. Recommend (a) for at least one homily volume. |
-| **G3** | `alx.search.didymus-tura-english` (not_found) | Didymus — the late-horizon teaching tradition in its own words (Tura papyri found 1941; every translation modern) | (a) Hill FOTC 111 (Zechariah) consult-only; (b) accept: late horizon speaks through Athanasius + the Palladius vignette → honest_limit where cells depend on it. Either is defensible; the skew must be stated regardless. |
-| **G4** | `alx.search.athanasius-marcellinus-pd` (not_found) | *Letter to Marcellinus* (praying the Psalms) | Low severity — F4 prayer cells are served by On Prayer + Festal Letters. (a) Gregg (CWS 1980) consult-only; (b) drop. Recommend (b) unless already convenient. |
-| **G5** | `alx.search.origen-on-prayer-curtis` (found, rights caution) | *On Prayer* — CCEL hosts Curtis's translation as PD, but it reached CCEL undated via private papers (possibly never conventionally published) | (a) accept CCEL's PD assertion and vendor with the caution in the provenance header; (b) treat as consult-only like a copyrighted text. Mark's call — the file's own provenance header decides at admission of the record either way. |
+| **G1** | `alx.search.stromateis-iii-english` (not_found; confirmed by the anf02 file's own Latin-sections header) | *Stromateis* III — marriage, sexuality, the body; feeds F5-T marriage and F6 identity-collision (divorce/remarriage) cells | (a) acquire Ferguson (FOTC 85, 1991) or Oulton/Chadwick (LCC II, 1954) consult-only; (b) accept thinness → honest_limit records. Recommend (a): those cells are canon-required and demonstration-required. |
+| **G2** | `alx.search.origen-homilies-pd` (not_found; scrub concurs: "no homily exists in any vendored volume") | Origen's homiletic corpus — his *congregational* voice; without it the vendorable Origen skews elite/systematic | (a) Heine FOTC 71 (Gen/Ex), Lienhard FOTC 94 (Luke), Lawson ACW 26 (Song) consult-only; (b) accept skew → state in world_core cautions. Recommend (a) for at least one homily volume. |
+| **G3** | `alx.search.didymus-tura-english` (not_found; the fleet wantlist independently rules it: "discovered 1941... there cannot be" a PD edition) | Didymus — the late-horizon teaching tradition in its own words | (a) Hill FOTC 111 consult-only; (b) accept: the late horizon speaks through Athanasius plus vendored testimonia (Palladius line 211; Jerome De viris 109 in npnf203; Socrates IV.25 in npnf202) → honest_limit where cells depend on it. Either defensible; the skew must be stated regardless. |
+| **G4** | `alx.search.athanasius-marcellinus-pd` (not_found) | *Letter to Marcellinus* (praying the Psalms) | Low severity — F4 prayer served elsewhere. (a) Gregg (CWS 1980) consult-only; (b) drop. Recommend (b). |
+| **G5** | `alx.search.origen-on-prayer-curtis` (found, rights caution; not vendored) | *On Prayer* — CCEL hosts Curtis's translation as PD, but it reached CCEL undated via private papers | (a) accept CCEL's PD assertion and vendor with the caution in the provenance header; (b) treat as consult-only. Mark's call — the file's own header decides at record admission either way. |
 
-**Standing recommendation on consult-only acquisitions:** they are research inputs for steps 3–5, not archive texts; anything they contribute enters records as sourced paraphrase at honest confidence, never as licensed quote text.
+**Standing recommendation on consult-only acquisitions:** research inputs for steps 3–5, never archive texts; contributions enter records as sourced paraphrase at honest confidence, never as licensed quotes.
 
 ---
 
 ## 6. Diagnostic and background sources (not world evidence)
 
-- **Philo of Alexandria** — diagnostic only (what the Christians inherited vs. transformed; he is pre-horizon and Jewish, never evidence of Christian practice). Expected-PD English exists (Yonge, 1854–55, archive.org; early Loeb volumes pre-1930). **P3**; request only if step 3 finds the inheritance question needs his actual text rather than the secondary literature.
-- **Secondary scholarship** (all copyrighted, consult-only; the prior build's independently-verified list, reusable as a shopping list): Young, *Biblical Exegesis and the Formation of Christian Culture* (1997); van den Hoek (1988) on Clement and Philo; Chadwick, *Early Christian Thought* (1966) and *Contra Celsum* (1953); Louth (1981/2007); Williams, *Arius* (1987/2001); Rubenson, *The Letters of St. Antony* (1990/95); Brakke (1995, 2006); Pearson (2004); **Wipszycka (2009, 2015)** and **Bagnall (1993)** — the two most important for correcting the corpus's elite bias with documentary evidence; Brown (1971, 1988); Runia (1993).
+- **Philo of Alexandria — P3 · OPEN, diagnostic only.** Yonge's translation (1854–55, 4 vols., archive.org) is comfortably PD. The fleet wantlist (Tier 2 #3) independently requests exactly this. Never evidence of Christian practice; the inheritance-vs-transformation diagnostic.
+- **Secondary scholarship** (all copyrighted, consult-only; the prior build's independently-verified list, reusable as a shopping list): Young (1997); van den Hoek (1988); Chadwick (1966; 1953); Louth (1981/2007); Williams, *Arius* (1987/2001); Rubenson (1990/95); Brakke (1995, 2006); Pearson (2004); **Wipszycka (2009, 2015)** and **Bagnall (1993)** — the two most important correctives to the corpus's elite bias; Brown (1971, 1988); Runia (1993).
 
 ---
 
 ## 7. Canon coverage sketch (expectation, not verification — coverage is proven at steps 4/6)
 
-- **C (Center):** strong. On the Incarnation, Contra Celsum (evidential), Protrepticus, John commentary. All four registers plausibly servable.
+- **C (Center):** strong. De Incarnatione, Contra Celsum (evidential), Protrepticus, John commentary.
 - **F1 (God & doctrine):** strong. De Principiis, anti-Arian corpus, De Decretis (council cells), Logos material throughout.
-- **F2 (Scripture & sources):** strong. Stromateis, De Principiis IV, Philocalia, commentaries; Eusebius (etic) for canon-formation questions.
-- **F3 (Church & world):** good. Eusebius (with the HIGH-risk screen), Dionysius (persecution lived), Festal Letters, Contra Celsum (outsider view). Teacher-vs-bishop tension well attested.
-- **F4 (Living the faith):** good. Paedagogus, On Prayer (G5 caution), Gregory's Address, Festal Letters, Dionysius on restoration of the lapsed. Fasting cells thinner but Festal Letters help.
-- **F5 (Daily life):** **the honest-thinness family.** Paedagogus II–III and Quis dives are real strengths (food, dress, household, wealth); Dionysius's plague letters (sickness/death); papyri (bounded, G-curation pending). But: **women in their own words — no female-authored Alexandrian Christian text survives in the window** (the Artifact-1 worked example `alx.limit.f5-women-own-words` is exactly right and will be borne out); enslaved persons, children, rural/Coptic-speaking believers — expect honest_limit records in several F5 cells. This is the world's structural evidence problem, carried openly.
-- **F6 (Hard places):** adequate-to-good, unevenly. Persecution/suffering strong (Dionysius, martyr memory, Eusebius); church-failure and exclusion cells servable (lapsed controversy); identity-collision cells depend partly on G1 (Stromateis III). The "Origen problem" — the tradition's own ambivalence about its greatest teacher — is genuinely strong F6 material and fully in-window through the first Origenist controversy (c. 399–400).
-- **Register note:** personal-register (P) cells are served by the same sources as I/E cells; what makes them answerable is the voice build (step 5), not additional texts. No source is being requested "for the P register" — that would be a category error worth naming now.
+- **F2 (Scripture & sources):** strong. Stromateis, De Principiis IV (Philocalia control pending, §2.5), commentaries, Festal Letter 39 (the canon list); Eusebius (etic) for how-we-know questions.
+- **F3 (Church & world):** good. Eusebius (risk screen active), Dionysius (persecution lived), Festal Letters, Contra Celsum (outsider view).
+- **F4 (Living the faith):** good. Paedagogus, Gregory's Address, Festal Letters, Dionysius on restoration of the lapsed. Prayer cells thinner while G5 is open.
+- **F5 (Daily life):** **the honest-thinness family.** Paedagogus II–III and Quis dives are real strengths; Dionysius's plague letters (sickness/death); papyri pending (§4.1). But **women in their own words — no female-authored Alexandrian Christian text survives in the window** (the Artifact-1 worked example `alx.limit.f5-women-own-words` will be borne out); enslaved persons, children, rural/Coptic-speaking believers — expect honest_limit records in several F5 cells. The world's structural evidence problem, carried openly.
+- **F6 (Hard places):** adequate-to-good, unevenly. Persecution/suffering strong; church-failure cells servable (the lapsed); identity-collision cells depend partly on G1. The in-horizon "Origen problem" (the tradition's ambivalence about its greatest teacher, through the c. 399–400 eruption) is strong F6 material — with the out-of-horizon trap map (§0) governing what may not be cited.
+- **Register note:** personal-register (P) cells are served by the same sources; what makes them answerable is the voice build (step 5). No source is requested "for the P register" — a category error worth naming.
 
 ## 8. Not yet searched (honest bounds of this pass)
 
-- **Coptic material in translation** (martyr acts, early Coptic scripture witness): not searched this pass; expected mostly modern-copyrighted, but unverified. Worth one pass at step 3 given the Greek/Coptic asymmetry.
-- **Origen, *Exhortation to Martyrdom* and *Dialogue with Heraclides*** (the latter discovered 1941 at Tura — almost certainly no PD English, like Didymus; unverified).
+- **Coptic material in translation** (martyr acts, early Coptic scripture witness): not searched; expected mostly modern-copyrighted, unverified. Worth one pass at step 3 given the Greek/Coptic asymmetry.
+- **Origen, *Exhortation to Martyrdom* / *Dialogue with Heraclides*** (the latter a 1941 Tura find — almost certainly no PD English; unverified).
+- **Eusebius, *Praeparatio Evangelica*** (Gifford 1903, PD — fleet wantlist Tier 3 #10 names it for Alexandria; carries fragments of lost Alexandrian authors): flagged, not yet assessed for this world's needs.
 - **Nag Hammadi in English** (context-only if ever requested): not searched.
-- **Archaeology/epigraphy beyond Oxyrhynchus**: not searched; likely secondary-literature territory (Wipszycka, Bagnall) rather than vendorable texts.
+- **Archaeology/epigraphy beyond Oxyrhynchus**: likely secondary-literature territory (Wipszycka, Bagnall) rather than vendorable texts.
 
 ## 9. Search record index (`records/alx/search_record/`)
 
-Found: `clement-anf2` · `clement-loeb-butterworth` · `origen-anf` · `origen-philocalia-lewis` · `origen-on-prayer-curtis` (rights caution) · `athanasius-npnf2-04` · `gregory-address-anf6` · `eusebius-npnf2-01` · `dionysius-feltoe` · `palladius-lausiac-clarke` (cross-build) · `oxyrhynchus-grenfell-hunt` (bounded)
-Not found: `stromateis-iii-english` · `origen-homilies-pd` · `didymus-tura-english` · `athanasius-marcellinus-pd`
+Found, now SUPPLIED with source records: `clement-anf2` · `origen-anf` · `athanasius-npnf2-04` · `gregory-address-anf6` · `eusebius-npnf2-01` · `dionysius-feltoe` (via the ANF 6 fallback) · `palladius-lausiac-clarke`
+Found, still OPEN: `clement-loeb-butterworth` (P3, corrected) · `origen-philocalia-lewis` (P2, top remaining) · `origen-on-prayer-curtis` (G5 decision) · `oxyrhynchus-grenfell-hunt` (P3, bounded)
+Not found (all four independently confirmed against the vendored corpus): `stromateis-iii-english` · `origen-homilies-pd` · `didymus-tura-english` · `athanasius-marcellinus-pd`
+
+## 10. The source base as it stands (`records/alx/source/`, 17 records, all rights verified from file headers)
+
+Clement: `clement-protrepticus` · `clement-paidagogos` · `clement-stromateis` · `clement-quis-dives`
+Origen: `origen-de-principiis` · `origen-contra-celsum` · `origen-comm-john` · `origen-comm-matthew`
+Gregory: `gregory-address-to-origen` · Dionysius: `dionysius-extant-fragments`
+Athanasius: `athanasius-de-incarnatione` · `athanasius-vita-antonii` · `athanasius-festal-letters` · `athanasius-contra-arianos` · `athanasius-de-decretis`
+Narrative (etic): `eusebius-historia-ecclesiastica` · `palladius-lausiac-history`
 
 ---
 
-*Next steps once Mark supplies files against this request: create `alx.source.*` records from each file's own provenance header (rights verified there, never here); registry entry for `alx` in `records/worlds.yaml` is likewise held for the build thread + Mark's identity touchpoint — deliberately not added by this step.*
+*Step-2 state: the P1 core is supplied and verified; open items are the Philocalia (top), the G1–G5 decisions (Mark's), and the P3 tail. The prior build's scrub (`Texts_Scrub_alexandria.md`) is lead material for steps 3–4 — verify every lead against the vendored text itself, never trust its paraphrase, and honor its out-of-horizon trap map. Registry entry for `alx` in `records/worlds.yaml` is deliberately not added — identity is Mark's touchpoint and the registry is the build thread's file.*

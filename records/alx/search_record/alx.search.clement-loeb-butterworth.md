@@ -17,7 +17,7 @@ query: "Clement of Alexandria, Loeb Classical Library 92 (Butterworth, 1919): Ex
 channel: "web search (WebSearch), 2026-08-20; verified on archive.org and loebclassics.com"
 result: found
 found_sources: []
-note: "LCL 92 (Harvard UP, 1919) - expected US public domain by publication date (pre-1930). Scan: https://archive.org/details/exhortationtogre0000clem. Gives a more readable Protrepticus than Wilson's ANF version, plus the only expected-PD English of Quis dives salvetur (the rich-man sermon - directly serves canon F5-T money/poverty) and the To the Newly Baptized fragment."
+note: "LCL 92 (Harvard UP, 1919) - expected US public domain by publication date (pre-1930). Scan: https://archive.org/details/exhortationtogre0000clem. CORRECTION 2026-08-20: this record originally called the Loeb 'the only expected-PD English of Quis dives salvetur' - wrong; Wilson's translation is in ANF vol. 2 (verified in the vendored file, div2 at line 56126, now alx.source.clement-quis-dives). The Loeb's remaining value is readability (Butterworth over Wilson) and the To the Newly Baptized fragment; downgraded to P3 in the manifest."
 ---
 Search run 2026-08-20. Butterworth's 1919 Loeb is the preferred requested
 edition for the Protrepticus and Quis dives salvetur: markedly more readable
