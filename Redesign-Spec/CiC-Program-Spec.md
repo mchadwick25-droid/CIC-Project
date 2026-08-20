@@ -199,6 +199,43 @@ Eight modules. Each owns one thing; interfaces are named so a violation is visib
 
 **Boundary rules that are themselves spec:** one world registry, everything derived (no hand-synced lists); one product per endpoint contract; shared logic extracted, never duplicated ("the fix is not a fourth copy"); every guard fails open toward the pre-guard state with a stated direction; every generated artifact verifiable against its source by regenerate-and-diff plus load-time manifest hash.
 
+---
+
+## 5A. The World Build Process — standalone, plug-and-play — PROVISIONAL
+
+**Requirement (Mark, 2026-08-20):** a standalone Christian tradition/world build process that gets the information in an organized, efficient way and plugs into the conversation system without impacting it — "a step by step process that builds, organizes and delivers every required aspect needed to deliver the ultimate program deliverables."
+
+### 5A.1 The contract
+
+The unit of delivery is the **World Package**: everything the conversation system will ever need from a world, in one validated bundle. The system promises to need *nothing* about a world beyond its package (no code, no config edits, no prompt surgery); the package promises to arrive complete, validated, and admission-tested. Installing a world = placing its package in the World Store (M1); it becomes selectable the moment it passes Admission (M3). Building a world can never break a live world or the system.
+
+### 5A.2 What a World Package contains
+
+1. **The record set** — the world's whole truth, typed: world core (time window, horizon, formation logic) · sources (with rights, verification, provenance) · lexicon terms (plain meaning first, world word second, per R4; false-friend flags) · stories (tiered, with absent-stories: what this world cannot honestly tell) · licensed quotes (including do-not-voice) · figures (with narratability) · gravities, forces, contested claims (what the world holds under challenge, and what it concedes) · voice craft (how this world speaks — the per-world half of the prompt, as data per R3) · demonstrations (worked example exchanges, including foundational questions — the gap that held go-live once).
+2. **Coverage floors, per record type** — so no gate can sit inert (the six-worlds lesson: a world with zero quote records passes the quote gate vacuously). A package below floor is incomplete, not "thin but passing."
+3. **Compiled artifacts** (produced by M2 from the records, deterministic): permanent prompt, capsule, retrieval chunks + indexes, quote index, figure registry, repository views, facilitator frame data — with the manifest hash.
+4. **The validation record**: gate results, admission battery results (blind, held-out, fresh-context), and the human checkpoint sign-offs.
+
+### 5A.3 The step-by-step build (draft; refines the proven Doc_01–Doc_09 arc into record-native form)
+
+Each step produces records, not prose documents — "the migration IS the authoring." Each step has an exit check; a step's output is reviewable on its own.
+
+1. **Identify & bound** — the world's scope, time window, what it is *not*; candidate distinctness against already-built worlds.
+2. **Source ecology** — the approved source base: what survives, in what editions, under what rights; the search record including searches that returned nothing (the Missing Voices duty).
+3. **Ecology reconstruction** — gravities (with the six-test discipline), forces, contested claims, figures; honest thinness recorded as data.
+4. **Lexicon** — terms authored plain-first (R4), with false-friend analysis and retrieval conditions.
+5. **Stories & quotes** — tiered narratives, licensed quotes, absent-stories.
+6. **Voice** — the craft record and demonstrations, written to the General/Seeker register bar (Q3/O2), including foundational-question demonstrations.
+7. **Compile & gate** — M2 build + M1 gates + coverage floors; fix until clean.
+8. **Admission** — the blind battery (M3); Mark's reading where the instrument is his read (R2).
+9. **Open** — registry entry flips live; the package is frozen; changes re-enter at step 7.
+
+**Human checkpoints (Mark's, carried from the record):** world identity/Representative identity; the living-tradition determination; the freeze. Everything else is executable by AI threads or scripts against this spec.
+
+### 5A.4 Efficiency requirement — OPEN (see active question)
+
+At 100+ worlds the current bespoke pace (months per world, hand-tailored batteries, per-world code) is disqualifying. The process must state its own cost per world and drive it down the same way the runtime does: shared instruments, record-native authoring, batch validation.
+
 ## 6. Cost model — baseline arithmetic
 
 Per Q2: engineered in $/turn, reported in $/participant-hour at the declared 12 turns/hour convention, with per-participant cost attribution built in. The objective is access: lower is better wherever quality and rigor are not the price.
