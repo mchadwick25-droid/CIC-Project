@@ -47,8 +47,8 @@
         "passed": true
       },
       "routing": {
-        "action": "voice_with_directive",
-        "reason": "ordinary turn",
+        "action": "check_in_turn",
+        "reason": "safety signal AMBIGUOUS_LOW_CONFIDENCE",
         "degraded": false
       }
     },
@@ -127,8 +127,8 @@
           "clarity": "ambiguous",
           "ambiguity_options": [
             "Is this a question asking me to explain the psychological/spiritual reason for their return?",
-            "Is this an implicit request for witness to their sense of need or dependence\u2014a statement seeking acknowledgment rather than explanation?",
-            "Is this both\u2014seeking understanding of the compulsion itself?"
+            "Is this an implicit request for witness to their sense of need or dependence—a statement seeking acknowledgment rather than explanation?",
+            "Is this both—seeking understanding of the compulsion itself?"
           ],
           "out_of_scope": {
             "class": "none"
@@ -184,8 +184,8 @@
         "passed": true
       },
       "routing": {
-        "action": "system_nature_turn",
-        "reason": "participant asked about the system's nature",
+        "action": "check_in_turn",
+        "reason": "safety signal AMBIGUOUS_LOW_CONFIDENCE",
         "degraded": false
       }
     },
@@ -235,5 +235,6 @@
       }
     }
   ],
-  "batch": 2
+  "batch": 2,
+  "routing_recomputed_note": "routing field recomputed 2026-08-21 against engine/m5/routing.py after the AMBIGUOUS_LOW_CONFIDENCE check_in_turn fix (Artifact-4 SS3 rule 2, Mark's ruling on the s9 finding) - safety_call/reader_call values are the original live Bedrock output, unchanged. Two entries changed from the original run: s6 (voice_with_directive -> check_in_turn) and s9 (system_nature_turn -> check_in_turn, the exact gap that prompted the fix)."
 }

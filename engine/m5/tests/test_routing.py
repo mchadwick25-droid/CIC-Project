@@ -40,6 +40,30 @@ def test_safety_takes_priority_over_system_nature():
     assert decision.action == "safety_turn"
 
 
+def test_ambiguous_low_confidence_routes_to_check_in_turn():
+    decision = route(safety=_safety("AMBIGUOUS_LOW_CONFIDENCE"), reader=_reader(), pressed={}, anachronistic_term_ids=set())
+    assert decision.action == "check_in_turn"
+
+
+def test_ambiguous_low_confidence_takes_priority_over_system_nature():
+    """The real gap live batch 2 (scenario s9) surfaced: a hypothetical-
+    framed disclosure read as AMBIGUOUS_LOW_CONFIDENCE by safety and as a
+    system_nature question by the reader must still get the check-in, not
+    fall through to the system_nature answer."""
+    decision = route(
+        safety=_safety("AMBIGUOUS_LOW_CONFIDENCE"),
+        reader=_reader(out_of_scope={"class": "system_nature"}),
+        pressed={},
+        anachronistic_term_ids=set(),
+    )
+    assert decision.action == "check_in_turn"
+
+
+def test_acute_signal_still_outranks_ambiguous_low_confidence():
+    decision = route(safety=_safety("ACUTE_DISTRESS"), reader=_reader(), pressed={}, anachronistic_term_ids=set())
+    assert decision.action == "safety_turn"
+
+
 def test_system_nature_routes_directly():
     decision = route(safety=_safety(), reader=_reader(out_of_scope={"class": "system_nature"}), pressed={}, anachronistic_term_ids=set())
     assert decision.action == "system_nature_turn"

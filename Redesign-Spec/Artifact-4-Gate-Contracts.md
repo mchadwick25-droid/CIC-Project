@@ -37,10 +37,11 @@ Never shares a prompt, code path, or deploy with anything that gets iterated on.
 ## 3. Routing (deterministic merge, in priority order)
 
 1. `safety.signal ∈ {ACUTE_DISTRESS, HARMFUL_DYNAMIC_SIGNAL}` → Facilitator safety turn (immediate, no ladder); Track A/B behavior per spec §8; message withheld from the voice while safety has the floor (with Mark's empathy-routing nuance as specified).
-2. `out_of_scope.class == system_nature` → Facilitator answers plainly, immediately: "we use AI to …".
-3. `modern_terms` non-empty and anachronistic for this world (computed from the registry time window) → bridge: Facilitator frames; voice receives the term-free `underlying_subject`.
-4. `out_of_scope.class ∈ {later_age, other_tradition}` and `pressed == false` → pass to voice (in-world first answer); `pressed == true` → Facilitator etic explanation.
-5. Otherwise → pass to voice with the **private directive**: asks in order, register note (personal_wound ⇒ witness-before-answer license; register statement 1 suspended for the turn), ambiguity options if any.
+2. `safety.signal == AMBIGUOUS_LOW_CONFIDENCE` → Facilitator check-in turn: a softer, safety-aware acknowledgment short of the full safety turn (no resources appended, no track opened) — outranks rules 3-5 below, so a possible disclosure the safety call itself flagged as uncertain is never silently answered as if it were an ordinary or out-of-scope question. Added 2026-08-21 after live safety-script batch 2 (scenario s9, an adversarial hypothetical-framed disclosure) showed AMBIGUOUS_LOW_CONFIDENCE falling through to ordinary routing under the original rule set.
+3. `out_of_scope.class == system_nature` → Facilitator answers plainly, immediately: "we use AI to …".
+4. `modern_terms` non-empty and anachronistic for this world (computed from the registry time window) → bridge: Facilitator frames; voice receives the term-free `underlying_subject`.
+5. `out_of_scope.class ∈ {later_age, other_tradition}` and `pressed == false` → pass to voice (in-world first answer); `pressed == true` → Facilitator etic explanation.
+6. Otherwise → pass to voice with the **private directive**: asks in order, register note (personal_wound ⇒ witness-before-answer license; register statement 1 suspended for the turn), ambiguity options if any.
 
 The directive is assembled by code from the schema — never free-composed by a model (corrections-selected-never-composed, generalized).
 
