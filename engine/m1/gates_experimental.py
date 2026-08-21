@@ -1,36 +1,68 @@
-"""Two candidate mechanisms for a class of bug the accepted M1 battery
-cannot see: a record whose citations are real, well-formed, and rights-clean,
-but whose prose says more than those citations actually support. Found live
-in alx.demo.f6-p-someone-like-me (2026-08-21) - it cited two real records,
+"""Mechanisms for a class of bug the accepted M1 battery cannot see: a
+record whose citations are real, well-formed, and rights-clean, but whose
+prose says more than those citations actually support. Found live in
+alx.demo.f6-p-someone-like-me (2026-08-21) - it cited two real records,
 neither of which documents the specific claim it made, while the world's own
 world_core named the exact gap in its `cautions` field the whole time.
 
-NOT yet in gates.GATES / the accepted battery. These are under test (Mark,
-2026-08-21: "yes lets test 2 and 3") - findings here are candidates for human
-review, not a pass/fail verdict, until proven against real content and
-formally admitted the way every other gate was (its own defect-catalog entry
-+ selftest proof).
+NOT yet in gates.GATES / the accepted battery. These are under test - Mark,
+2026-08-21: "yes lets test 2 and 3", then, after both v1 attempts came back
+weak: "lets analyse why they didn't work and redesign". Findings here are
+candidates for human review, not a pass/fail verdict, until proven against
+real content and formally admitted the way every other gate was (its own
+defect-catalog entry + selftest proof).
 
-Mechanism 2 - caution-crosscheck: a world_core can name its own known-thin
-topics (thin_topics, schemas.py) alongside its existing prose thinness/
-cautions fields. A HIGH-confidence, emic-register record whose text hits one
-of those topics' keywords, with no divergence_note justifying the confidence
-anyway, is flagged. Cheap, mechanical, and catches exactly the case where a
-world already knew about its own gap and a later record ignored it. It does
-NOT catch a gap nobody has named yet.
+== v1 (kept below, superseded, not in EXPERIMENTAL_GATES) ==
 
-Mechanism 3 - unsupported-claim (lexical overlap): a blunt heuristic, in the
-same spirit as fk.py's syllable-counting readability check - "good enough to
-flag obviously ungrounded prose, not lexicographic precision." For each
-content sentence in a demonstration/doctrinal_witness/story's spoken text,
-checks whether it shares ANY stopword-filtered content word with the text of
-its own cited internal records (sources[].source_id that resolve to another
-world record, not a raw `source` metadata stub, which carries no body text
-to check against). Zero overlap is flagged as a candidate unsupported claim.
-Expected to have real false positives - a sentence can be a legitimate
-synthesizing gloss in the voice's own words rather than an invented factual
-claim, and this heuristic cannot tell the two apart. Reported as a flag for
-human review, not a hard fail.
+gate_caution_crosscheck_v1 and gate_unsupported_claim_v1 were built and run
+against alx's real 137 records. Root-cause read on why each fell short:
+
+v1 caution-crosscheck matched bare keywords against a record's WHOLE text,
+which measures TOPIC, not TRUTH-VALUE - a record can mention "women" while
+being the correct honest handling of that gap (an honest_limit) or while
+fabricating past it (the actual bug), and keyword presence alone can't tell
+those apart. Worse: "Coptic" fires identically whether a sentence is
+describing the non-literate Egyptian population the world's sources are
+silent on, or the 451 Chalcedonian schism - two unrelated referents that
+happen to share a word. The "require >=2 keyword hits" tuning that got v1
+down to a clean result was fitted to the one known bug, not the general
+class - a future single-clause, single-topic fabrication would sail through
+a >=2 threshold.
+
+v1 unsupported-claim required only that a sentence share >=1 stopword-
+filtered content word with its cited sources - a bar weak enough that the
+real bug passed it (the fabricated sentence shares "word", "church", "men",
+"same", "learned" with its citations - enough generic overlap to clear a
+nonzero bar) while it fired on legitimate connective/values framing instead
+("Then you have already done a hard and honest thing by saying it out
+loud." shares zero words with any citation and never needed to - it isn't a
+factual claim). It tried to fix this by exempting sentences that match a
+hand-maintained honesty-phrase list - exemption lists don't scale and
+immediately proved leaky.
+
+== v2 (gate_grounded_claim, redesigned) ==
+
+The shared root cause: both v1 gates ran at the wrong grain and answered the
+wrong question. Topic-presence isn't truth-value; any-word-overlap isn't
+grounding. v2 composes both signals as one pipeline, at the sentence level:
+
+  1. POSITIVE specificity detection first - does this sentence even make a
+     checkable claim (a proper noun, a number, or an enumerated/parallel-
+     list construction - "the same water, the same bread... Greeks and
+     Egyptians... men and women" is exactly that shape)? If not, it's
+     interpretive/values framing and is skipped outright - no exemption
+     list needed, because nothing fires on it in the first place.
+  2. Only a specific claim gets grounding-checked, and grounding is now a
+     RATIO (how much of the sentence's own content is attested in its cited
+     internal sources), not a bare nonzero check.
+  3. Only THEN, on a sentence already flagged as specific-and-ungrounded, is
+     it cross-checked against world_core.thin_topics - as a severity
+     escalator on a real finding, not a standalone trigger. This also
+     narrows scope to record types that carry spoken/narrative claims
+     (demonstration, doctrinal_witness, story); a `force` or `gravity`
+     analytical record citing only a raw `source` stub is never in scope,
+     which resolves the alx.force.chalcedonian-fracture false positive by
+     construction, not by a special-cased exemption.
 """
 import re
 
@@ -111,7 +143,7 @@ _HEDGE_MARKERS = (
 )
 
 
-def gate_caution_crosscheck(records, fleet, registry) -> list[str]:
+def gate_caution_crosscheck_v1(records, fleet, registry) -> list[str]:
     findings = []
     world_cores = {r["world_id"]: r for r in records.values() if r.get("record_type") == "world_core"}
     high_confidence = {"Documented", "Widely Accepted"}
@@ -158,7 +190,7 @@ def gate_caution_crosscheck(records, fleet, registry) -> list[str]:
     return findings
 
 
-def gate_unsupported_claim(records, fleet, registry) -> list[str]:
+def gate_unsupported_claim_v1(records, fleet, registry) -> list[str]:
     findings = []
     checked_types = {"demonstration", "doctrinal_witness", "story"}
     for rid, rec in records.items():
@@ -197,9 +229,164 @@ def gate_unsupported_claim(records, fleet, registry) -> list[str]:
     return findings
 
 
+# v1 gates end here (kept for the record of what was tried and why it fell
+# short - not registered below). v2 starts here.
+
+# "one" deliberately excluded - overwhelmingly used as a pronoun/article
+# ("the one asking", "one thing") rather than a quantity, which made it the
+# single largest false-positive source in testing.
+_SPELLED_NUMBERS = {
+    "two", "three", "four", "five", "six", "seven", "eight", "nine",
+    "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen",
+    "seventeen", "eighteen", "nineteen", "twenty", "thirty", "forty",
+    "fifty", "sixty", "seventy", "eighty", "ninety", "hundred", "thousand",
+}
+_DIGIT = re.compile(r"\b\d+\b")
+
+# grounding ratio below which a specific claim counts as ungrounded. Chosen
+# empirically (see the test run this was calibrated against): high enough
+# that a real quoted/cited sentence (which shares most of its own words with
+# the source it's quoting) clears it easily, low enough that a sentence
+# built mostly from words with no citation behind them does not.
+_GROUNDING_FLOOR = 0.4
+
+
+# Capitalized by religious convention, not because they name a specific,
+# checkable entity - "God" appears in nearly every sentence a Christian-
+# formation voice speaks, and treating that as evidence of a documentary
+# claim would flag almost everything. Proper-noun detection is meant to
+# catch a real person/place/text (Clement, Basilides, Nicaea), not the
+# doctrinal vocabulary that IS the subject matter.
+_DOCTRINAL_VOCAB = {
+    "god", "god's", "word", "logos", "christ", "spirit", "father", "son",
+    "trinity", "scripture", "gospel", "church", "lord",
+}
+
+
+def _proper_nouns(sentence: str) -> set[str]:
+    """Capitalized words not at sentence-start - a cheap, no-dictionary
+    proxy for named people/places/texts. Sentence-initial capitalization is
+    just grammar, so index 0 is never counted."""
+    words = _WORD.findall(sentence)
+    return {
+        w.lower() for i, w in enumerate(words)
+        if i > 0
+        and w[0].isupper()
+        and w.lower() not in _STOPWORDS
+        and w.lower() not in _DOCTRINAL_VOCAB
+        and w != "I"
+    }
+
+
+def _has_number(sentence: str) -> bool:
+    if _DIGIT.search(sentence):
+        return True
+    words = {w.lower() for w in _WORD.findall(sentence)}
+    return bool(words & _SPELLED_NUMBERS)
+
+
+def _has_enumeration(sentence: str) -> bool:
+    """The "same water, the same bread... Greeks and Egyptians... men and
+    women" shape specifically: a repeated short phrase, or several SHORT
+    (<=4-word) comma/and-separated items in a row - a known pattern for
+    dressing invented texture up as vivid, documentary-sounding detail.
+    An ordinary multi-clause sentence has commas too, but its segments are
+    full clauses, not short parallel items - so raw comma-count alone
+    (v2's first draft) is not the signal; segment shortness is."""
+    lowered = sentence.lower()
+    if lowered.count("the same ") >= 2:
+        return True
+    if ";" in sentence:
+        return False  # a semicolon joins independent clauses, not list items
+    segments = re.split(r",| and ", sentence)
+    short_segments = [s for s in segments if 0 < len(_WORD.findall(s)) <= 4]
+    return len(short_segments) >= 3
+
+
+def _claim_markers(sentence: str) -> list[str]:
+    """Positive detection: does this sentence even make a checkable claim?
+    Empty result means it's interpretive/values framing - skip it outright,
+    rather than firing on everything and trying to exempt framing after the
+    fact (v1's mistake)."""
+    markers = []
+    proper_nouns = _proper_nouns(sentence)
+    if proper_nouns:
+        markers.append(f"proper-noun:{sorted(proper_nouns)}")
+    if _has_number(sentence):
+        markers.append("number")
+    if _has_enumeration(sentence):
+        markers.append("enumeration")
+    return markers
+
+
+def _grounding_ratio(sentence: str, cited_words: set[str]) -> float:
+    words = _content_words(sentence)
+    if not words:
+        return 1.0
+    return len(words & cited_words) / len(words)
+
+
+def gate_grounded_claim(records, fleet, registry) -> list[str]:
+    findings = []
+    world_cores = {r["world_id"]: r for r in records.values() if r.get("record_type") == "world_core"}
+    checked_types = {"demonstration", "doctrinal_witness", "story"}
+
+    for rid, rec in records.items():
+        if rec.get("record_type") not in checked_types or rec.get("register") != "emic":
+            continue
+        if rec.get("record_type") == "honest_limit" or "honest-limit" in (rec.get("tags") or []):
+            continue
+
+        cited_words: set[str] = set()
+        has_checkable_source = False
+        for src in rec.get("sources") or []:
+            cited = records.get(src.get("source_id")) or fleet.get(src.get("source_id"))
+            if not cited or cited.get("record_type") == "source":
+                continue  # raw source metadata carries no body text to check against
+            has_checkable_source = True
+            cited_words |= _content_words(_all_text(cited))
+        if not has_checkable_source:
+            continue  # nothing to check against - not this gate's job
+
+        if rec.get("record_type") == "demonstration":
+            own_text = " ".join(
+                t.get("text", "") for t in rec.get("exchange") or [] if t.get("speaker") == "representative"
+            )
+        else:
+            own_text = rec.get("text") or rec.get("statement") or ""
+
+        core = world_cores.get(rec.get("world_id"))
+
+        for sentence in _sentences(own_text):
+            if any(marker in sentence.lower() for marker in _SCAFFOLD_MARKERS):
+                continue
+            markers = _claim_markers(sentence)
+            if not markers:
+                continue  # no checkable claim in this sentence - interpretive framing, not this gate's job
+
+            ratio = _grounding_ratio(sentence, cited_words)
+            if ratio >= _GROUNDING_FLOOR:
+                continue  # grounded enough in its own cited sources
+
+            thin_hits = []
+            if core:
+                text_lower = sentence.lower()
+                for topic in core.get("thin_topics") or []:
+                    hits = [kw for kw in (topic.get("keywords") or []) if kw.lower() in text_lower]
+                    if hits:
+                        thin_hits.append(f"{hits} ({topic.get('note')})")
+
+            severity = "HIGH" if thin_hits else "MEDIUM"
+            escalator = f"; falls inside a named thin topic: {'; '.join(thin_hits)}" if thin_hits else ""
+            findings.append(
+                f"[{severity}] {rid}: specific claim ({', '.join(markers)}), only {ratio:.0%} of its own "
+                f"content grounded in cited sources{escalator} - {sentence!r}"
+            )
+    return findings
+
+
 EXPERIMENTAL_GATES = {
-    "caution-crosscheck": gate_caution_crosscheck,
-    "unsupported-claim": gate_unsupported_claim,
+    "grounded-claim": gate_grounded_claim,
 }
 
 
