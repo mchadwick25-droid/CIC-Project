@@ -87,13 +87,25 @@ _STOPWORDS = {
     "because", "about", "against", "between", "from", "each", "other",
 }
 
+# Updated 2026-08-21 for the fleet-wide pronoun rule (strict we-voice,
+# always - see the exemplar transcript and alx.voice.craft's superseding
+# ruling): vocational-honesty scaffolding now reads "we", not "I". The one
+# sanctioned "I" left in the corpus - "I am a representative of [world]" -
+# gets its own exemption below, not folded in here, since it isn't honesty-
+# scaffolding, it's a one-time self-naming that never needs grounding.
 _SCAFFOLD_MARKERS = (
-    "i must be honest", "i will not invent", "i will not pretend",
-    "i will not put words", "i cannot", "i will not", "i am not your judge",
-    "it is not my place", "it is not my role", "i do not have",
-    "i must be careful", "i will not draw one", "i will not sell you",
-    "i find none of these", "i owe you honesty", "i must leave",
+    "we must be honest", "we will not invent", "we will not pretend",
+    "we will not put words", "we cannot", "we will not", "we are not your judge",
+    "it is not our place", "it is not our role", "we do not have",
+    "we must be careful", "we will not draw one", "we will not sell you",
+    "we find none of these", "we owe you honesty", "we must leave",
 )
+
+# The one sanctioned "I" left in the register: a one-time, honest self-
+# naming of what the voice literally is (a representative), never an
+# empirical claim about the world's history - it doesn't need a citation
+# any more than a form's "I am a bot" disclosure would.
+_SELF_NAMING_MARKER = "i am a representative of"
 
 _WORD = re.compile(r"[a-zA-Z']+")
 _SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
@@ -372,8 +384,11 @@ def gate_grounded_claim(records, fleet, registry) -> list[str]:
         core = world_cores.get(rec.get("world_id"))
 
         for sentence in _sentences(own_text):
-            if any(marker in sentence.lower() for marker in _SCAFFOLD_MARKERS):
+            sentence_lower = sentence.lower()
+            if any(marker in sentence_lower for marker in _SCAFFOLD_MARKERS):
                 continue
+            if _SELF_NAMING_MARKER in sentence_lower:
+                continue  # self-naming, not a claim about the world - nothing to ground
             markers = _claim_markers(sentence)
             if not markers:
                 continue  # no checkable claim in this sentence - interpretive framing, not this gate's job
