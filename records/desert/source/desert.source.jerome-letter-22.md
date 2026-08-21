@@ -35,4 +35,7 @@ outside, not about how Egyptian ascetics classified themselves. Cite for
 "the distinction was visible by 384" and for the cenobitic-order sketch;
 never for interior desert self-understanding. Cross-check partner:
 Cassian's own three-kinds conference (Conf. XVIII, Piamun) inside the
-vendored Cassian volume.
+vendored Cassian volume. Ordering quirk in the edition itself: SS34
+enumerates Remoboth as "Thirdly" while SS36 later calls anchorites "the
+third class" in its discussion order - both lines are verbatim-accurate
+to the file; don't read one as contradicting the other.
