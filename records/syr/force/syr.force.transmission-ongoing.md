@@ -28,6 +28,8 @@ relations:
   target: syr.force.transmission-ending
 - type: associated-with
   target: syr.figure.ephrem
+- type: associated-with
+  target: syr.dw.f2-e-record
 name: 'Transmission: Who Carried the Material, Under What Conditions, With What Selection [2B-2 - ongoing/internal,
   the required transmission force]'
 kind: ongoing
