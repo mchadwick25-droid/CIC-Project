@@ -7,8 +7,8 @@ status: draft
 register: etic
 canon_cells: []
 confidence:
-  citation_specificity: B
-  verification_state: verified-via-authority
+  citation_specificity: A
+  verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: null
