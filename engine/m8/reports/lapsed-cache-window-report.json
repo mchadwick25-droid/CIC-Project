@@ -1,0 +1,17 @@
+{
+  "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "write_at": "2026-08-21T03:00:21.138475+00:00",
+  "checked_at": "2026-08-21T04:12:06.670597+00:00",
+  "elapsed_minutes": 71.7,
+  "write_usage": {
+    "cache_creation_input_tokens": 6002,
+    "cache_read_input_tokens": 0
+  },
+  "check_usage": {
+    "cache_creation_input_tokens": 6002,
+    "cache_read_input_tokens": 0
+  },
+  "window_lapsed": true,
+  "still_within_window": false
+}
