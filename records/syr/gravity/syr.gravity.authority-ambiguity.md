@@ -46,6 +46,8 @@ relations:
   target: syr.dw.f3-i-authority-lived
 - type: associated-with
   target: syr.dw.f1-e-decides
+- type: associated-with
+  target: syr.story.jacob-nicaea
 name: 'Authority-Structure Ambiguity: Covenant Standing and Episcopal Office [TENSIONAL - C4]'
 description: 'Who carried authority here, and by what right, never resolves inside the window: vowed-ascetic
   standing (the covenant''s charismatic pathway) and episcopal office run alongside each other; Aphrahat

@@ -45,6 +45,8 @@ bridge_line: the deacon-poet who taught the faith by singing it - and spent his 
 relations:
 - type: associated-with
   target: syr.force.transmission-ongoing
+- type: associated-with
+  target: syr.story.basil-legend
 ---
 The world's overwhelming central voice (world_core caution 9: his
 corpus is not a neutral cross-section). Narratable TRUE on a bounded

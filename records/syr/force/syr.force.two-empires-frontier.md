@@ -27,6 +27,8 @@ relations:
   target: syr.gravity.persecution-endurance
 - type: associated-with
   target: syr.force.yazdegerd-toleration
+- type: associated-with
+  target: syr.story.jacob-deliverance
 name: 'One World Under Two Empires: the Roman-Persian Frontier [1A-2 - initiating/external]'
 kind: initiating
 description: 'From its origin this world spans two polities: Roman Edessa, Sasanian Persia (Aphrahat''s

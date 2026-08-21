@@ -30,6 +30,8 @@ relations:
   target: syr.figure.ephrem
 - type: associated-with
   target: syr.dw.f2-e-record
+- type: associated-with
+  target: syr.story.edessa-flood-201
 name: 'Transmission: Who Carried the Material, Under What Conditions, With What Selection [2B-2 - ongoing/internal,
   the required transmission force]'
 kind: ongoing

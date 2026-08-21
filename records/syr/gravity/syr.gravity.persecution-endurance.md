@@ -32,6 +32,10 @@ relations:
   target: syr.force.shapur-persecution
 - type: associated-with
   target: syr.dw.f6-p-suffering
+- type: illustrated-by
+  target: syr.story.simeon-martyrdom
+- type: illustrated-by
+  target: syr.quote.aphrahat-persecuted-litany
 name: Endurance Under State Persecution as a Formation Ideal [SUPPORTING - C6]
 description: 'On the Persian side, faithfulness takes the shape of endurance: Aphrahat writes his later
   Demonstrations inside Shapur II''s persecution, the martyred bishops and clergy become the community''s

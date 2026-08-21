@@ -31,6 +31,8 @@ relations:
   target: syr.force.diatessaron-adoption
 - type: associated-with
   target: syr.contested.rabbula-peshitta
+- type: associated-with
+  target: syr.story.choirs-tradition
 name: 'Transmission in Ending: the Harmony Displaced, the Poet Legendized [3B-2 - ending/internal, the
   required transmission force]'
 kind: ending

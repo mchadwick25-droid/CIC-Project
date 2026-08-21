@@ -34,6 +34,10 @@ relations:
   target: syr.force.qyama-commitment
 - type: associated-with
   target: syr.contested.qyama-structure
+- type: illustrated-by
+  target: syr.story.qyama-morning
+- type: illustrated-by
+  target: syr.story.ephrem-famine-death
 name: Covenanted Ascetic Life (qyama / ihidaya) [PRIMARY - C2]
 description: 'The community''s ascetic core is the covenant: men and women vowed to lifelong celibacy
   and service who remain inside the town congregation - the bnay and bnat qyama, also called ihidaye,

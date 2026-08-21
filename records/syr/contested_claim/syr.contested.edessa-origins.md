@@ -31,6 +31,10 @@ relations:
   target: syr.force.frontier-plural-milieu
 - type: associated-with
   target: syr.source.doctrine-of-addai
+- type: associated-with
+  target: syr.story.edessa-flood-201
+- type: associated-with
+  target: syr.story.abgar-addai-legend
 claim: Edessa's church was founded in the first century by the apostle Addai, after king Abgar V corresponded
   with Jesus - as the community's own foundation story holds.
 held_against:
