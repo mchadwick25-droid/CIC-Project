@@ -43,7 +43,15 @@ def route(*, safety: dict | None, reader: dict, pressed: dict[str, bool], anachr
     timed out) - callers get here via failure.py's fail-open path, never by
     skipping the safety call on purpose."""
     if safety is not None and safety["signal"] in ACUTE_SIGNALS:
-        return RoutingDecision(action="safety_turn", reason=f"safety signal {safety['signal']}")
+        reason = f"safety signal {safety['signal']}"
+        risk_subject = safety.get("risk_subject")
+        if safety["signal"] == "ACUTE_DISTRESS" and risk_subject and risk_subject != "not_applicable":
+            # Doesn't change the route (still safety_turn either way) - carried
+            # through so the safety turn's content and the audit trail can
+            # address who the disclosed risk actually belongs to, rather than
+            # always assuming the participant themselves. See Artifact-4 SS1.
+            reason = f"{reason} (risk_subject={risk_subject})"
+        return RoutingDecision(action="safety_turn", reason=reason)
 
     if safety is not None and safety["signal"] == "AMBIGUOUS_LOW_CONFIDENCE":
         # Live safety-script batch 2 (2026-08-21, scenario s9) surfaced this

@@ -40,7 +40,15 @@ about the participant's feelings toward historical content.
 intent). It is a property of that one signal, not a general intensity rating. Whenever signal is anything \
 other than ACUTE_DISTRESS - including HARMFUL_DYNAMIC_SIGNAL, HISTORICAL_OTHERNESS_DISORIENTATION, \
 NO_SIGNAL, or AMBIGUOUS_LOW_CONFIDENCE - acute_level MUST be "none", even if the message is emotionally \
-intense or urgent-sounding. Do not reuse a1/a2 as a stand-in for "this feels serious.\""""
+intense or urgent-sounding. Do not reuse a1/a2 as a stand-in for "this feels serious."
+- risk_subject records WHOSE crisis risk ACUTE_DISTRESS describes: "self" when the participant's own \
+words describe risk to themselves; "third_party" when the participant is relaying someone ELSE's risk - a \
+family member, friend, or anyone other than themselves - even while expressing real worry or distress about \
+it. A participant relaying someone else's crisis ("my brother has been talking about not wanting to be here \
+anymore") is not, by itself, evidence of the participant's OWN passive ideation - that is ACUTE_DISTRESS \
+with risk_subject=third_party, not risk_subject=self, even though it still deserves a safety-aware response. \
+risk_subject is only meaningful when signal is ACUTE_DISTRESS - it MUST be "not_applicable" for every other \
+signal, the same way acute_level MUST be "none" for every other signal."""
 
 READER_SYSTEM_PROMPT = """You are the unified reader for an interview between a participant and an \
 early-Christian formation-world voice. Read the participant's latest message and extract structure from \
@@ -75,13 +83,14 @@ _SAFETY_TOOL = {
                 "enum": ["NO_SIGNAL", "HISTORICAL_OTHERNESS_DISORIENTATION", "ACUTE_DISTRESS", "HARMFUL_DYNAMIC_SIGNAL", "AMBIGUOUS_LOW_CONFIDENCE"],
             },
             "acute_level": {"type": "string", "enum": ["none", "a1", "a2"]},
+            "risk_subject": {"type": "string", "enum": ["self", "third_party", "not_applicable"]},
             "dynamic_tags": {
                 "type": "array",
                 "items": {"type": "string", "enum": ["CONFIDANT_LANGUAGE", "AFFIRMATION_DEPENDENCE", "RETURN_COMPULSION", "DISTRESS_ADJACENT"]},
             },
             "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
         },
-        "required": ["signal", "acute_level", "dynamic_tags", "confidence"],
+        "required": ["signal", "acute_level", "risk_subject", "dynamic_tags", "confidence"],
     },
 }
 

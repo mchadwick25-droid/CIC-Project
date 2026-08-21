@@ -11,12 +11,13 @@ Never shares a prompt, code path, or deploy with anything that gets iterated on.
 {
   "signal": "NO_SIGNAL | HISTORICAL_OTHERNESS_DISORIENTATION | ACUTE_DISTRESS | HARMFUL_DYNAMIC_SIGNAL | AMBIGUOUS_LOW_CONFIDENCE",
   "acute_level": "none | a1 | a2",
+  "risk_subject": "self | third_party | not_applicable",
   "dynamic_tags": ["CONFIDANT_LANGUAGE","AFFIRMATION_DEPENDENCE","RETURN_COMPULSION","DISTRESS_ADJACENT"],
   "confidence": "high | medium | low"
 }
 ```
 
-`acute_level`: a1 = distress/passive ideation; a2 = plan or intent. Both route identically (Facilitator safety turn, resources appended by code); the level is recorded for audit priority. Standing rules carried: engagement length/depth/turn count NEVER increment the accumulator; historical-otherness disorientation is the encounter working; crisis resources are appended by code, never asked of any model.
+`acute_level`: a1 = distress/passive ideation; a2 = plan or intent. Both route identically (Facilitator safety turn, resources appended by code); the level is recorded for audit priority. `risk_subject` (added 2026-08-21, live safety-script batch 3 scenario s12): whose risk ACUTE_DISTRESS describes — `self` when the participant's own words describe risk to themselves, `third_party` when the participant is relaying someone else's disclosed risk (a family member, a friend). Only meaningful when `signal == ACUTE_DISTRESS`; `not_applicable` for every other signal, same discipline as `acute_level`. A third-party disclosure still routes to the Facilitator safety turn (rule 1) — `risk_subject` doesn't change routing, it's carried through so the safety turn's content (and audit trail) can address the actual situation rather than assuming the participant is personally at risk. Standing rules carried: engagement length/depth/turn count NEVER increment the accumulator; historical-otherness disorientation is the encounter working; crisis resources are appended by code, never asked of any model.
 
 ## 2. Call B — unified reader
 

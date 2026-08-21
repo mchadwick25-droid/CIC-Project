@@ -16,8 +16,8 @@ def _reader(**overrides):
     return base
 
 
-def _safety(signal="NO_SIGNAL"):
-    return {"signal": signal, "acute_level": "none", "dynamic_tags": [], "confidence": "high"}
+def _safety(signal="NO_SIGNAL", risk_subject="not_applicable"):
+    return {"signal": signal, "acute_level": "none", "risk_subject": risk_subject, "dynamic_tags": [], "confidence": "high"}
 
 
 def test_acute_distress_routes_to_safety_turn():
@@ -28,6 +28,23 @@ def test_acute_distress_routes_to_safety_turn():
 def test_harmful_dynamic_routes_to_safety_turn():
     decision = route(safety=_safety("HARMFUL_DYNAMIC_SIGNAL"), reader=_reader(), pressed={}, anachronistic_term_ids=set())
     assert decision.action == "safety_turn"
+
+
+def test_acute_distress_third_party_still_routes_to_safety_turn_but_reason_records_it():
+    """The s12 finding: a participant relaying someone ELSE's crisis must
+    still route to the safety turn (routing itself doesn't change), but the
+    reason should carry risk_subject through for the safety turn's content
+    and the audit trail to use - not silently collapse to 'about the
+    participant' the way it did before risk_subject existed."""
+    decision = route(safety=_safety("ACUTE_DISTRESS", risk_subject="third_party"), reader=_reader(), pressed={}, anachronistic_term_ids=set())
+    assert decision.action == "safety_turn"
+    assert "third_party" in decision.reason
+
+
+def test_acute_distress_self_reason_records_it_too():
+    decision = route(safety=_safety("ACUTE_DISTRESS", risk_subject="self"), reader=_reader(), pressed={}, anachronistic_term_ids=set())
+    assert decision.action == "safety_turn"
+    assert "risk_subject=self" in decision.reason
 
 
 def test_safety_takes_priority_over_system_nature():
