@@ -29,7 +29,7 @@ names:
   tag: scholarly
 dates:
   born: '347'
-  died: '395; the empire's administration divided between his sons after him'
+  died: '395; the empire''s administration divided between his sons after him'
   floruit: emperor 379-395; baptized at Thessalonica during illness 380; the "Cunctos populos" law 380;
     the massacre at Thessalonica and his public penance 390
 narratable: true
