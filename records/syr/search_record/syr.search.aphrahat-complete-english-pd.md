@@ -19,8 +19,10 @@ channel: approved legacy Doc_02 Source Ecology (two review rounds, approved 2026
 result: not_found
 note: 'Complete translations exist only in copyright (Lehto, Gorgias 2010; Valavanolickal, Gorgias 2005).
   Public-domain English covers 10 of 23: NPNF''s eight (1, 5, 6, 8, 10, 17, 21, 22) plus Hallock''s two
-  (2, 7). The anti-Jewish Demonstrations are among those NOT in PD English - their handling rests on the
-  vendored corpus''s adjacent material plus consultation-only scholarship, stated as such.'
+  (2, 7). Most of the anti-Jewish set (roughly four Demonstrations per Doc_02 SS2) is NOT among the ten in
+  PD English - though Dem XVII and XXI, which are in PD English, each carry anti-Jewish disputational
+  material of their own (the XVII.1 frame, the XXI.1 taunt). The fuller anti-Jewish set''s handling rests
+  on the vendored corpus''s adjacent material plus consultation-only scholarship, stated as such.'
 ---
 A real coverage limit for the answer canon: thirteen Demonstrations
 (including most of the anti-Jewish set) cannot be quoted verbatim.

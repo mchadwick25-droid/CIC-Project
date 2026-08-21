@@ -36,9 +36,9 @@ narrative_tier: 3
 narrative_tier_justification: 'Tier 3 (attributed tradition / foundation legend): the developed Doctrina
   Addai is dated late 4th-early 5th century - its fuller form likely just past the 410 boundary, within
   the immediate successor community, the allowance Tier 3 makes for hagiographic material; the shorter
-  correspondence-kernel is attested in-window by Eusebius. Non-historical as origin fact per the settled
-  Doc_01 determination; the formation ideal (the community''s conviction of legitimate apostolic origin)
-  is the evidence it carries.'
+  correspondence-kernel is attested in-window by Eusebius. Non-historical as origin fact, on the settled
+  evidence this world''s own boundary rests on; the formation ideal (the community''s conviction of
+  legitimate apostolic origin) is the evidence it carries.'
 tellable_as: the community's own cherished story of its founding - told as its story, never as history
 text: 'This is how this world told its own beginning. King Abgar the Black, sick in Edessa, heard of Jesus
   and his healings from his envoys returning through Jerusalem, and wrote him a letter: come to me and

@@ -34,7 +34,7 @@ description: 'From its earliest attested voices, this world does theology in sym
 manifestations:
 - Ephrem's hymns as the native vehicle of doctrine
 - Aphrahat's plainer typology working the same underlying conviction
-- creation's own furniture - light, water, oil, the vine - read as razaputting truth within reach of the
+- creation's own furniture - light, water, oil, the vine - read as raza, putting truth within reach of the
   unlettered
 ---
 Re-derived from Doc_08 1B-1: Documented for Ephrem's practice, DMR

@@ -30,7 +30,7 @@
 
 ## Review round
 
-An independent adversarial review (fresh-context agent, no authorship involvement) was dispatched over the full corpus against the vendored texts and the approved legacy documents; its artifact is `REVIEW-ROUND-1.md` in this directory, and its findings and dispositions are logged there and in the closing commits.
+An independent adversarial review (fresh-context agent, no authorship involvement) was dispatched over the full corpus against the vendored texts and the approved legacy documents. **Verdict: COSMETIC ONLY** — zero substantial findings across all 150 records; every verbatim quote independently re-verified exact; every settled legacy correction confirmed faithfully carried corpus-wide. Eight cosmetic findings (a garbled clause, an overstated search note, a sourcing-completeness gap in one contested claim, a mis-quoted paraphrase, an inherited arithmetic error, process-language residue in six non-compiled-but-adjacent fields, two trailing-body id typos, one mid-clause quote truncation) were applied directly per the build-cycle discipline for cosmetic fixes — no fresh review round required. Full detail and per-finding disposition in `REVIEW-ROUND-1.md`. Post-fix: full gate battery re-run, 0 findings; strictly-compiled fields re-scanned for build-attribution language, 0 violations.
 
 ## Escalation check (CO-022 categories)
 

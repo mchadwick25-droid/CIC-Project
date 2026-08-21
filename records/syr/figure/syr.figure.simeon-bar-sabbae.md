@@ -30,7 +30,7 @@ names:
 dates:
   floruit: bishop of Seleucia-Ctesiphon in the opening of the Great Persecution
   died: traditionally 341; Kosinski and Burgess argue c. 344 - the anchor date for the whole chronicle-derived
-    succession, held open (world_core caution 10)
+    succession, held open and never resolved either way
 narratable: true
 bridge_line: the bishop who told the King of Kings he would not worship the sun - and led his clergy to
   death first

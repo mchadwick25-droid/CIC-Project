@@ -32,10 +32,12 @@ relations:
 - type: associated-with
   target: syr.force.two-empires-frontier
 narrative_tier: 3
-narrative_tier_justification: 'Tier 3 (attributed/hagiographic tradition): Theodoret, writing ~130-160
-  years after the sieges (338, 346, or 350 - the candidate years themselves uncertain), is the earliest
-  source for the specific miracle; unambiguous hagiography by genre. Ephrem''s genuine hymns commemorate
-  the city''s deliverance, which anchors the memory without attesting the miracle''s particulars.'
+narrative_tier_justification: 'Tier 3 (attributed/hagiographic tradition): Theodoret, composing his
+  Historia Ecclesiastica c. 444-450, is writing roughly 95-120 years after the sieges (338, 346, or 350 -
+  the candidate years themselves uncertain) - correcting the approved legacy chunk''s own "~130-160 years"
+  figure, which this record does not propagate further. He is the earliest source for the specific miracle;
+  unambiguous hagiography by genre. Ephrem''s genuine hymns commemorate the city''s deliverance, which
+  anchors the memory without attesting the miracle''s particulars.'
 tellable_as: the city's remembered deliverance - Jacob's prayer on the wall, as the church told it
 text: 'When Shapur''s army lay against the walls of Nisibis and the river had been turned against the
   city, the tradition tells that Ephrem urged the aged bishop Jacob to climb the rampart and let prayer,

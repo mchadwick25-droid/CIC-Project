@@ -32,11 +32,11 @@ relations:
   target: syr.gravity.covenant-life
 narrative_tier: 2
 narrative_tier_justification: 'Tier 2 (collected tradition): the earliest witnesses (Palladius, c. 420;
-  Sozomen, 5th century; the legacy build''s Gennadius notice) write a generation and more after 373 -
-  not eyewitness, but early, independent, convergent, and non-hagiographic in register (no miracle, no
-  idealized-death convention). The legacy repository''s Round 1 review reclassified this from Tier 1 for
-  exactly that proximity reason; the correction is carried, and this repository likewise has no Tier 1
-  story.'
+  Sozomen, 5th century; a Gennadius notice consulted alongside them) write a generation and more after
+  373 - not eyewitness, but early, independent, convergent, and non-hagiographic in register (no miracle,
+  no idealized-death convention). A closer, comparable-genre reading against sources at similar or shorter
+  remove elsewhere in this repository (none of which reach Tier 1 either) keeps this at Tier 2 rather than
+  Tier 1; this repository accordingly has no Tier 1 story.'
 tellable_as: the remembered account of how Ephrem spent his last year, as the early tradition tells it
 text: 'In the last year of Ephrem''s life, famine struck Edessa. The old teacher came out from his quiet
   cell and went to the rich of the city, and rebuked them: why do you let your neighbors die while your

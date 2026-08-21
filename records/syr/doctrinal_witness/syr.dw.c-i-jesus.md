@@ -49,5 +49,5 @@ tensions:
 The Center cell's answer-ground. The Sheol-to-Kingdom and
 brother-of-many language is verified verbatim against the vendored
 Homily on Our Lord; the day-that-gladdened line against Nativity
-Hymn I. Companion quotes at the quote step: ephrem-only-begotten,
-nativity-this-is-the-day, aphrahat-sure-thing.
+Hymn I. Companion quotes: syr.quote.ephrem-only-begotten-dwelling,
+syr.quote.nativity-this-is-the-day, syr.quote.aphrahat-sure-thing.

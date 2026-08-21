@@ -33,7 +33,7 @@ narrative_tier: 2
 narrative_tier_justification: 'Tier 2 (collected/archival tradition): the Chronicle was compiled c. 540s
   from civic archives, ~340 years after the event - archival-derived collection, not eyewitness. The church-destruction
   detail carries a real named scholarly dispute (Bauer''s interpolation argument vs Barnard''s rebuttal),
-  held open per the legacy repository.'
+  held open and never resolved either way.'
 tellable_as: the city chronicle's account of the great flood and the church it destroyed - this world's
   earliest hard trace
 text: 'The Chronicle of Edessa records that in the year 513 of the Greeks - the year 201 - in the month

@@ -21,8 +21,10 @@ relations:
 - type: illustrates
   target: syr.gravity.raza-shrara-method
 text: On a certain day a pearl did I take up, my brethren; I saw in it mysteries pertaining to the Kingdom;
-  semblances
+  semblances and types of the Majesty; it became a fountain, and I drank out of it mysteries of the Son.
 speaker_or_author: syr.figure.ephrem
 license: verbatim
 ---
-Verified verbatim (The Pearl I.1) - the raza method's own emblem: a whole world of mysteries read in one pearl held to the light.
+Verified verbatim (The Pearl I.1), extended to the sentence's natural
+end - the raza method's own emblem: a whole world of mysteries read in
+one pearl held to the light.

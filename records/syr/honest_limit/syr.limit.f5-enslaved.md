@@ -25,7 +25,7 @@ statement: You ask what it was to be enslaved among us. Our record holds no answ
   the empire around us held slaves. Of their days inside our own churches we can tell you nothing true.
 why_sources_cannot_answer: No dedicated treatment, surviving voice, or even incidental description of
   enslaved persons in this world's Christian communities was located - an unfilled gap in the record,
-  named rather than glossed (the legacy source ecology's own finding).
+  named rather than glossed.
 nearest_material:
 - syr.limit.f5-women-own-words
 - syr.force.transmission-ongoing

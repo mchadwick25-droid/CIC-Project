@@ -32,7 +32,7 @@ claim: The covenant order had a settled formal organization - a rule, enclosure,
   - within this world's own window.
 held_against:
 - the institution's formal organizational structure is thinly and contestedly documented; only existence,
-  vowed celibacy, and the communal-liturgical character are solidly evidenced (Doc_01 SS4's explicit flag)
+  vowed celibacy, and the communal-liturgical character are solidly evidenced
 - the most recent scholarly treatment (Malki Malki 2024) reads fourth- through eighth-century material
   as one stratum - including Rabbula's fifth-century canons and the Liber Graduum - so its structural
   detail cannot be assigned to this window without stratification

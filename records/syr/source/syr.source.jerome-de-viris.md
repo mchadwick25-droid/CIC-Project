@@ -28,6 +28,7 @@ external_ids:
   thml_div: v.iii
 ---
 Independent late-4th-century attestation of Ephrem's diaconate and
-reputation ('achieved such distinction that his writings are publicly
-read in some churches after the Scriptures') and of Bardaisan's
-brilliance and contested standing as Jerome received both.
+reputation (per the vendored text: he "became so distinguished that his
+writings are repeated publicly in some churches, after the reading of
+the Scriptures") and of Bardaisan's brilliance and contested standing
+as Jerome received both.

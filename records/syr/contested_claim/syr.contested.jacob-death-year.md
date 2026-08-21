@@ -16,19 +16,25 @@ sources:
 - source_id: syr.source.theodoret-historia-ecclesiastica
   locus: II.26 (Jacob alive at the 350 siege in this tradition)
   license: public-domain
+- source_id: syr.source.chronicle-of-edessa
+  locus: 'entry 17: "died Mar Jacob, bishop of Nisibis," year 649 of the Greeks (337/338 CE)'
+  license: public-domain
 relations:
 - type: associated-with
   target: syr.figure.jacob-of-nisibis
-claim: Jacob of Nisibis died in 338, during the first Persian siege of the city.
+claim: The question of Jacob of Nisibis's death year is settled - either cleanly at 338, during the first
+  Persian siege, or cleanly at 350, defending the city again against a later siege.
 held_against:
-- the Chronicon Paschale records him defending Nisibis again in 350, incompatible with a 338 death
-- the Martyrologium Hieronymianum implies 338 - a genuine primary-source conflict, not a secondary-literature
-  discrepancy
+- the Chronicle of Edessa itself independently records his death at year 649 of the Greeks (337/338 CE)
+  - a real, vendored witness for the 338 pole, distinct from the unvendored Martyrologium Hieronymianum
+- the Chronicon Paschale records him defending Nisibis again in 350, incompatible with a 338 death - a
+  real, vendored-adjacent witness for the 350 pole
 - the sieges' own hagiographic tradition (Theodoret) blends the city's three sieges in ways that resist
-  clean dating
+  clean dating, so neither pole can be waved through on narrative grounds alone
 concedes: Jacob's episcopate from c. 309, his presence at Nicaea in 325, and his standing as the city's
-  remembered intercessor are solid. Only the death year is caught between two incompatible primary witnesses,
-  and it stays open - the legacy build's standing instruction is that neither date be silently adopted.
+  remembered intercessor are solid. Two named primary witnesses (the Chronicle of Edessa for 338; the
+  Chronicon Paschale for 350) directly conflict, and the question stays open on that ground alone - neither
+  date is to be silently adopted.
 divergence_partners: []
 ---
 Carried from Doc_01 SS2/SS10 and Doc_02 SS11 (still open; a closer

@@ -40,10 +40,10 @@ positions:
 - 'restoration is real: the healed return to the community''s full life and struggle'
 - unanswered prayer was a lived, named question - met with endurance, not explanation
 tensions:
-- techniques for quieting the mind are not this record's idiom - its gifts here are the physician's mercy
-  and the long endurance, offered as what they are
+- techniques for quieting the mind are not this world's own idiom - its gifts here are the physician's
+  mercy and the long endurance, offered as what they are
 ---
 F4-P: Dem VII's penitence teaching verified verbatim (the wound,
 the physician, the no-publishing rule, the return to battle);
-Dem XXI.1's taunt verified. Companion quote candidates:
-aphrahat-medicine-of-penitence.
+Dem XXI.1's taunt verified. Companion quote:
+syr.quote.aphrahat-medicine-penitence.
