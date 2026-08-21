@@ -225,6 +225,20 @@ def build_repository_json(records: dict) -> bytes:
 
 # ---- compiled/coverage.json ----------------------------------------------
 
+# Analytical record types eligible for the per-cell "analytical" list below.
+# Deliberately NOT passed through canon.classify_cell / substantive_types():
+# that function is the single spec-mandated implementation of Artifact-1
+# SS6's coverage rule ("every open world has >=1 doctrinal_witness/term/
+# story/quote OR exactly one honest_limit per cell") - an admission-gate
+# question. Whether a gravity/force/contested_claim record can retrieval-
+# ground a turn is a different question (M4's evidence assembly, not M1
+# admission), and folding these three types into substantive_types() would
+# silently let a cell pass SS6 coverage on analytical material alone,
+# changing what the gate means. So they get their own field, computed the
+# same way (canon_cells membership) but never touching "status" or
+# "substantive".
+_ANALYTICAL_TYPES = {"gravity", "force", "contested_claim"}
+
 
 def build_coverage_json(records: dict, fleet: dict) -> bytes:
     out = {}
@@ -238,6 +252,11 @@ def build_coverage_json(records: dict, fleet: dict) -> bytes:
                 if records[rid].get("record_type") == "quote" and records[rid].get("speaker_or_author")
             }
         )
+        analytical_ids = sorted(
+            rid
+            for rid, r in records.items()
+            if r.get("record_type") in _ANALYTICAL_TYPES and cell in (r.get("canon_cells") or [])
+        )
         out[cell] = {
             "status": classification["status"],
             "terms": [rid for rid in substantive_ids if records[rid]["record_type"] == "term"],
@@ -246,6 +265,9 @@ def build_coverage_json(records: dict, fleet: dict) -> bytes:
             "doctrinal_witness": [rid for rid in substantive_ids if records[rid]["record_type"] == "doctrinal_witness"],
             "figures": figures,
             "honest_limit": classification["honest_limit"],
+            "gravities": [rid for rid in analytical_ids if records[rid]["record_type"] == "gravity"],
+            "forces": [rid for rid in analytical_ids if records[rid]["record_type"] == "force"],
+            "contested_claims": [rid for rid in analytical_ids if records[rid]["record_type"] == "contested_claim"],
         }
     return canonical_json(out)
 
