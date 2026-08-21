@@ -414,8 +414,59 @@ def gate_grounded_claim(records, fleet, registry) -> list[str]:
     return findings
 
 
+_TENSIONAL_MARKER = re.compile(r"\[\s*tensional\b", re.IGNORECASE)
+
+
+def gate_tension_coverage(records, fleet, registry) -> list[str]:
+    """Informational, not a hard fail - see the module docstring's newest
+    entry below for why. Flags a `gravity` record whose `name` field
+    declares it [TENSIONAL] but whose `relations` carry no `tension-with`
+    entry to any other record.
+
+    Checked directly against Doc_04_Gravity_Discovery.md (alx, 2026-08-21):
+    of Alexandria's four Tensional gravities, three (learning-community,
+    speculative-doctrinal, martyrdom-contemplative) have a `tension-with`
+    relation that traces to a genuine competing/reshaping ("C"/"X") entry
+    in Doc_04's own §6 Interaction Matrix. The fourth,
+    teacher-bishop-tension, has no such entry - its only matrix listing is
+    "T1 <-> C5 (R)", reinforcing, already correctly recorded as
+    `associated-with`, not `tension-with`. Its two named poles
+    (teacher-authority, bishop-office) were never mapped onto an opposing
+    gravity/force record by Doc_04's own reviewed methodology - not a
+    recording error, a real asymmetry in how that document treated its
+    four Tensionals.
+
+    So a hard-fail version of this check would have forced a fabricated
+    `tension-with` target onto teacher-bishop-tension the first time it
+    ran - exactly the kind of invented relation this project's no-
+    fabrication discipline forbids. This gate reports the same shape of
+    gap instead of blocking on it, so a human (the Doc_04 reviewer, not
+    the gate) decides whether a given zero-tension-with Tensional is a
+    genuine asymmetry like T1 or an actual omission worth fixing.
+    """
+    findings = []
+    for rid, rec in records.items():
+        if rec.get("record_type") != "gravity":
+            continue
+        name = rec.get("name") or ""
+        if not _TENSIONAL_MARKER.search(name):
+            continue
+        relations = rec.get("relations") or []
+        if any(r.get("type") == "tension-with" for r in relations):
+            continue
+        findings.append(
+            f"[INFO] {rid}: named {name!r} but carries no tension-with relation - "
+            f"confirm against this world's Doc_04 Interaction Matrix whether this "
+            f"Tensional's poles were ever mapped onto an opposing record (a real "
+            f"asymmetry, as with alx's own teacher-bishop-tension) or whether one "
+            f"was missed"
+        )
+    return findings
+
+
 EXPERIMENTAL_GATES = {
     "grounded-claim": gate_grounded_claim,
+    "tension-coverage": gate_tension_coverage,
 }
 
 
