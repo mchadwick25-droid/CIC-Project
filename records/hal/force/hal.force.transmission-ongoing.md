@@ -29,19 +29,20 @@ relations:
   target: hal.force.transmission-ending
 - type: associated-with
   target: hal.term.praefatio
+- type: illustrated-by
+  target: hal.story.translating-a-book
 name: Transmission - the praefatio/epistula apparatus [2B - ongoing/internal; named force]
 kind: ongoing
-description: 'How the ecology passed itself on within its own span: every finished piece
-  of translation labor accompanied by its own defense, sent onward to the very households
-  whose funding and whose questions had occasioned it - and outward to a wider Latin
-  readership. The community''s internal transmission mechanism, named as its own force per
-  the transmission-specificity discipline, never folded into the general letter-writing
-  gravity.'
+description: 'How the ecology passed itself on within its own span: every finished piece of translation
+  labor accompanied by its own defense, sent onward to the very households whose funding and whose
+  questions had occasioned it - and outward to a wider Latin readership. The community''s internal
+  transmission mechanism, named as its own force per the transmission-specificity discipline, never
+  folded into the general letter-writing gravity.'
 manifestations:
 - the preface attached to nearly every translated book - argument as transmission
 - the dedications binding each work to Paula, Eustochium, Marcella, and their circle
-- the letters carrying direction, correction, and the community's own self-account from
-  Bethlehem to Rome and beyond
+- the letters carrying direction, correction, and the community's own self-account from Bethlehem
+  to Rome and beyond
 ---
 Re-derived from cleared Doc_08 cell 2B-2 (the required 2B transmission
 entry). Its structural weakness is the next record's subject: this

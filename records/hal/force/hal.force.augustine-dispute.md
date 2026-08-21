@@ -27,14 +27,15 @@ relations:
   target: hal.force.jerome-arrival
 - type: associated-with
   target: hal.force.transmission-ending
+- type: illustrated-by
+  target: hal.story.oea-gourd
 name: The Jerome-Augustine correspondence and the Latin scriptural-authority contest [2A - ongoing/external]
 kind: ongoing
-description: 'A running argument, carried by letter across a real distance, with a
-  respected fellow scholar who would not simply concede the point: Augustine''s objection
-  that abandoning the Septuagint''s received authority risked the church''s continuity and
-  unity, tested concretely when a congregation at Oea revolted over one changed word in
-  Jonah. The external pressure under which the Hebraica veritas commitment was
-  articulated, refined, and defended in real time.'
+description: 'A running argument, carried by letter across a real distance, with a respected fellow
+  scholar who would not simply concede the point: Augustine''s objection that abandoning the Septuagint''s
+  received authority risked the church''s continuity and unity, tested concretely when a congregation
+  at Oea revolted over one changed word in Jonah. The external pressure under which the Hebraica
+  veritas commitment was articulated, refined, and defended in real time.'
 manifestations:
 - Augustine's Ep. 71 - the Oea incident and the plea for the Septuagint
 - Jerome's Ep. 112 - the point-by-point defense

@@ -26,19 +26,21 @@ relations:
   target: hal.gravity.controversy-pressure
 - type: associated-with
   target: hal.force.clerical-precarity
+- type: illustrated-by
+  target: hal.story.rufinus-rupture
 name: The Origenist controversy [2B - ongoing/internal]
 kind: ongoing
-description: 'A doctrinal inheritance this world had absorbed without quite noticing,
-  suddenly requiring urgent public renunciation: the dispute over Origen''s teachings
-  (c. 393-403) ruptured Jerome''s oldest friendship (Rufinus) and set the community
-  against its own bishop (John of Jerusalem). Internal in origin: the fracture ran
-  through the community''s own inheritance and relationships, not an outside attack.'
+description: 'A doctrinal inheritance this world had absorbed without quite noticing, suddenly requiring
+  urgent public renunciation: the dispute over Origen''s teachings (c. 393-403) ruptured Jerome''s
+  oldest friendship (Rufinus) and set the community against its own bishop (John of Jerusalem). Internal
+  in origin: the fracture ran through the community''s own inheritance and relationships, not an
+  outside attack.'
 manifestations:
 - Rufinus's Peri Archon preface naming Jerome as Origen's admirer - the spark
 - the exchange of Apologies, 401-402, both surviving
 - the maneuvering around Bishop John of Jerusalem, under whose parish Bethlehem lay
-- Pammachius and Marcella as named addressees of Jerome's polemic - the dispute conducted
-  through the patronage network itself
+- Pammachius and Marcella as named addressees of Jerome's polemic - the dispute conducted through
+  the patronage network itself
 ---
 Re-derived from cleared Doc_08 cell 2B-1. Confidence split: occurrence
 Documented; the relative doctrinal-vs-personal weight Contested

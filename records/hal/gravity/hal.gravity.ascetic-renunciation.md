@@ -38,18 +38,23 @@ relations:
   target: hal.force.pagan-backlash
 - type: associated-with
   target: hal.term.renuntiatio
+- type: illustrated-by
+  target: hal.story.paula-epitaph
+- type: illustrated-by
+  target: hal.story.journey-to-bethlehem
+- type: illustrated-by
+  target: hal.story.desert-romances
 name: Voluntary ascetic self-impoverishment [PRIMARY]
-description: 'Wealth, marriage prospects, and social rank deliberately unmade as Christian
-  formation - the central content of the women''s own asceticism and the material source of
-  everything the world built. The strongest Formation-test result of any candidate for the
-  women''s half of the ecology: renunciation was not preparation for formation, it WAS the
-  formation.'
+description: 'Wealth, marriage prospects, and social rank deliberately unmade as Christian formation
+  - the central content of the women''s own asceticism and the material source of everything the
+  world built. The strongest Formation-test result of any candidate for the women''s half of the
+  ecology: renunciation was not preparation for formation, it WAS the formation.'
 manifestations:
 - Paula's divestment and her funding of the Bethlehem monasteries and hospice
 - Fabiola's fortune spent on the sick (the Roman hospital) and on the harbor hospice
 - Marcella's plain-dress, plain-food Aventine household, decades before Jerome arrived
-- the family resistance and public judgment the choice provoked - and, in Blaesilla's
-  death, its most terrible cost
+- the family resistance and public judgment the choice provoked - and, in Blaesilla's death, its
+  most terrible cost
 ---
 Re-derived from the cleared Doc_04 (G2: passes all six tests; bipolar
 geography holds). The corrected evidentiary basis is carried: the three

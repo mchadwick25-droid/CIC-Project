@@ -13,10 +13,10 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: contested
   formation_confidence: Contested
-  divergence_note: 'Organizing strength and evidential confidence diverge here by the
-    Cross-Check''s own design: the counter-current is ecologically real and required for
-    an honest account, but its sole attestation is one post-mortem, partly self-vindicating
-    source - which is exactly why it classifies Tensional, not Primary.'
+  divergence_note: 'Organizing strength and evidential confidence diverge here by the Cross-Check''s
+    own design: the counter-current is ecologically real and required for an honest account, but
+    its sole attestation is one post-mortem, partly self-vindicating source - which is exactly why
+    it classifies Tensional, not Primary.'
 sources:
 - source_id: hal.source.jerome-ep127
   locus: secs. 2-8 (the consultations; disputing his answers 'to learn')
@@ -41,21 +41,22 @@ relations:
   target: hal.force.clerical-precarity
 - type: associated-with
   target: hal.force.sack-of-rome
+- type: illustrated-by
+  target: hal.story.marcella-standing
 name: Independent female exegetical authority - Marcella [TENSIONAL]
-description: 'A woman recognized, in her own right and her own house, as the one to whom
-  Roman clergy brought disputed scriptural questions after 385 - the same
-  recognition-currency Jerome held (personal scriptural credibility, voluntarily
-  recognized, outside office), held from a materially independent position. A genuine
-  counter-current the ecology cannot be honestly described without: it prevents the world
-  from being reducible to the patronage-and-reputation system around its central scholar.
+description: 'A woman recognized, in her own right and her own house, as the one to whom Roman clergy
+  brought disputed scriptural questions after 385 - the same recognition-currency Jerome held (personal
+  scriptural credibility, voluntarily recognized, outside office), held from a materially independent
+  position. A genuine counter-current the ecology cannot be honestly described without: it prevents
+  the world from being reducible to the patronage-and-reputation system around its central scholar.
   Rome-based, single-sourced, and ended by the 410 sack.'
 manifestations:
-- clergy, sometimes priests, bringing disputed scriptural questions to her house for
-  resolution (Ep. 127's claim - the sole attestation)
-- her disputing Jerome's own exegetical answers while he was still in Rome - by his own
-  account, not for argument's sake but to learn
-- the dozen-plus surviving letters answering her scriptural questions - the volume
-  evidence of her seriousness
+- clergy, sometimes priests, bringing disputed scriptural questions to her house for resolution (Ep.
+  127's claim - the sole attestation)
+- her disputing Jerome's own exegetical answers while he was still in Rome - by his own account,
+  not for argument's sake but to learn
+- the dozen-plus surviving letters answering her scriptural questions - the volume evidence of her
+  seriousness
 - her materially independent position - her own settled wealth, needing no patron
 ---
 Re-derived from the cleared Doc_04 (G5-Marcella, Tensional). TENSION-WITH

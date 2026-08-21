@@ -22,20 +22,21 @@ relations:
   target: hal.gravity.controversy-pressure
 - type: associated-with
   target: hal.force.monastic-template
+- type: illustrated-by
+  target: hal.story.attack-416
 name: The 416 attack on the Bethlehem monasteries [3A - ending/external]
 kind: ending
-description: 'A theological argument that had, until then, stayed on paper, arriving
-  instead as fire at the community''s own door: the monasteries attacked and partly
-  burned, deaths reported, the aging community scattered from its buildings. External by
-  actor-origin (the classification the cleared documents settled); this world''s own
-  prior position-taking is part of why this force found this target - a genuine secondary
-  observation that does not change the classification.'
+description: 'A theological argument that had, until then, stayed on paper, arriving instead as fire
+  at the community''s own door: the monasteries attacked and partly burned, deaths reported, the
+  aging community scattered from its buildings. External by actor-origin (the classification the
+  cleared documents settled); this world''s own prior position-taking is part of why this force found
+  this target - a genuine secondary observation that does not change the classification.'
 manifestations:
-- the ravages, murders, and fires of Innocent's summary (Ep. 137) - reported to him by
-  Eustochium and the younger Paula, whose own letter is lost
+- the ravages, murders, and fires of Innocent's summary (Ep. 137) - reported to him by Eustochium
+  and the younger Paula, whose own letter is lost
 - Jerome's brief, vague notices (Epp. 138-139 - 'my own monastery has been destroyed')
-- no precision manufactured beyond what the sources hold (attackers' numbers and specific
-  casualties are not attested)
+- no precision manufactured beyond what the sources hold (attackers' numbers and specific casualties
+  are not attested)
 ---
 Re-derived from cleared Doc_08 cell 3A-2, in its Round-2-corrected
 placement (ending/EXTERNAL by actor-origin, reconciled with Doc_04 and

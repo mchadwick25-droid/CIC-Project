@@ -1,0 +1,37 @@
+---
+id: hal.quote.helmeted-preface
+world_id: hieronymian-ascetic-literary
+record_type: quote
+schema_version: 2
+status: draft
+register: emic
+canon_cells:
+- F2-T
+- F2-I
+confidence:
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+  divergence_note: null
+sources:
+- source_id: hal.source.vulgate-prefaces
+  locus: Preface to Samuel and Kings (the 'Helmeted Preface')
+  license: public-domain
+text: 'This preface to the Scriptures may serve as a "helmeted" introduction to all the
+  books which we turn from Hebrew into Latin, so that we may be assured that what is not
+  found in our list must be placed amongst the Apocryphal writings.'
+speaker_or_author: hal.figure.jerome
+license: verbatim
+---
+Verified verbatim 2026-08-21 against the vendored npnf206 (Prefaces to the
+Vulgate OT, div vii.iii). The continuation naming names is verified in the
+same passage: 'Wisdom, therefore, which generally bears the name of
+Solomon, and the book of Jesus, the Son of Sirach, and Judith, and Tobias,
+and the Shepherd are not in the canon.' CONTEXT DISCIPLINE for any use:
+this is Jerome's list and argument, contested in his own day (Augustine
+and the wider Latin church received the disputed books), and the later
+Latin church did not follow him on this point - his own translation came
+to carry the very books his preface set apart. Serves F2-T (was your
+Bible the same as ours / only authority) and F2-I (which writings were
+scripture).

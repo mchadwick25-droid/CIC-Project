@@ -44,17 +44,20 @@ relations:
   target: hal.force.transmission-ending
 - type: associated-with
   target: hal.term.hebraica-veritas
+- type: illustrated-by
+  target: hal.story.translating-a-book
+- type: illustrated-by
+  target: hal.story.ciceronian-dream
 name: Hebraica veritas - Hebrew-based textual authority [PRIMARY]
-description: 'The conviction that the Hebrew text of scripture carries the truth closest to
-  its inspired origin, held and practiced as a formation commitment: the whole translation
-  project, the years of Hebrew study, and the running public defense of both. CLASSIFICATION
-  BASIS: Primary on the attestation-level evidence (the translation artifact exists; the
-  dispute is independently attested in Augustine''s own hand); the separate Contested
-  question of Jerome''s actual Hebrew fluency does not lower the gravity''s organizing
-  strength and is carried as its own contest, not dissolved.'
+description: 'The conviction that the Hebrew text of scripture carries the truth closest to its inspired
+  origin, held and practiced as a formation commitment: the whole translation project, the years
+  of Hebrew study, and the running public defense of both. CLASSIFICATION BASIS: Primary on the attestation-level
+  evidence (the translation artifact exists; the dispute is independently attested in Augustine''s
+  own hand); the separate Contested question of Jerome''s actual Hebrew fluency does not lower the
+  gravity''s organizing strength and is carried as its own contest, not dissolved.'
 manifestations:
-- the translation project itself, from the Damasus-commissioned Gospels revision to the
-  Hebrew Old Testament rendered book by book at Bethlehem
+- the translation project itself, from the Damasus-commissioned Gospels revision to the Hebrew Old
+  Testament rendered book by book at Bethlehem
 - the praefatio practice - each book defended on arrival against live objection
 - the Augustine correspondence and the Oea congregation's revolt over one changed word
 - Hebrew study under Jewish teachers, paid for by Paula's patronage

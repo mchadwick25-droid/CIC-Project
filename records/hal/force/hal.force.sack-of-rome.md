@@ -22,18 +22,19 @@ relations:
   target: hal.gravity.marcella-authority
 - type: associated-with
   target: hal.force.marcella-household
+- type: illustrated-by
+  target: hal.story.marcella-death
 name: The 410 Gothic sack of Rome [3A - ending/external]
 kind: ending
-description: 'Alaric''s forces take Rome; Marcella''s Aventine household is broken into,
-  she is roughly handled by soldiers demanding treasure a household had already given away
-  years before, and she dies soon after. The single clearest ending-force within the
-  world''s own span: it removes the Rome pole''s independent center, and the world''s
-  final decade is Bethlehem-concentrated in a way its earlier decades were not.'
+description: 'Alaric''s forces take Rome; Marcella''s Aventine household is broken into, she is roughly
+  handled by soldiers demanding treasure a household had already given away years before, and she
+  dies soon after. The single clearest ending-force within the world''s own span: it removes the
+  Rome pole''s independent center, and the world''s final decade is Bethlehem-concentrated in a way
+  its earlier decades were not.'
 manifestations:
 - the soldiers in the house, and her reported calm (epitaph-genre detail, handled as such)
 - her death shortly after, with Principia beside her
-- the wider shock reaching Bethlehem - the world's own scholar mourning the city across
-  the sea
+- the wider shock reaching Bethlehem - the world's own scholar mourning the city across the sea
 ---
 Re-derived from cleared Doc_08 cell 3A-1. Single-source (Ep. 127, no
 independent corroboration of her death's circumstances; the sack itself is

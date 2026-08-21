@@ -31,22 +31,22 @@ relations:
   target: hal.force.jerome-arrival
 - type: associated-with
   target: hal.force.origenist-controversy
+- type: illustrated-by
+  target: hal.story.rome-crisis
 name: Clerical-reputational precarity of Rome standing - the 384-385 crisis [2A - ongoing/external]
 kind: ongoing
-description: 'An ongoing structural exposure: Jerome''s Rome-period standing depended on
-  the continued personal favor of one man - Pope Damasus''s clerical protection, a
-  different kind of patronage than Paula''s material funding. The exposure became acute in
-  384: Blaesilla''s death from ascetic excess brought public accusation against Jerome
-  specifically; Damasus''s death that December removed the shield; the resulting clerical
-  hostility drove the August 385 departure. Favor held at one man''s pleasure, and gone
-  the moment that man was gone.'
+description: 'An ongoing structural exposure: Jerome''s Rome-period standing depended on the continued
+  personal favor of one man - Pope Damasus''s clerical protection, a different kind of patronage
+  than Paula''s material funding. The exposure became acute in 384: Blaesilla''s death from ascetic
+  excess brought public accusation against Jerome specifically; Damasus''s death that December removed
+  the shield; the resulting clerical hostility drove the August 385 departure. Favor held at one
+  man''s pleasure, and gone the moment that man was gone.'
 manifestations:
 - the accusation and slander after Blaesilla's death, in Jerome's own reports
 - the December 384 loss of Damasus - protection, not funding, was what failed
-- the August 385 departure (Documented); a formal synod reviewing his conduct is NOT
-  asserted (Inferential-Thin)
-- Paula's material funding chain holding throughout - what carried the project into
-  relocation rather than destitution
+- the August 385 departure (Documented); a formal synod reviewing his conduct is NOT asserted (Inferential-Thin)
+- Paula's material funding chain holding throughout - what carried the project into relocation rather
+  than destitution
 ---
 Re-derived from cleared Doc_08 cell 2A-4 (the entry Round 1 found missing
 entirely - the world's central transforming event), with its two carried
