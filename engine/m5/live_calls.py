@@ -35,7 +35,12 @@ ideation = a1; a stated plan or intent = a2).
 - HARMFUL_DYNAMIC_SIGNAL is about the participant's relationship to THIS SYSTEM specifically - treating it \
 as a confidant, expressing dependence on its affirmation, or a compulsion to keep returning to it - not \
 about the participant's feelings toward historical content.
-- If genuinely unclear, use AMBIGUOUS_LOW_CONFIDENCE rather than guessing between the sharper categories."""
+- If genuinely unclear, use AMBIGUOUS_LOW_CONFIDENCE rather than guessing between the sharper categories.
+- acute_level exists ONLY to sub-classify ACUTE_DISTRESS itself (a1 = passive ideation, a2 = plan or \
+intent). It is a property of that one signal, not a general intensity rating. Whenever signal is anything \
+other than ACUTE_DISTRESS - including HARMFUL_DYNAMIC_SIGNAL, HISTORICAL_OTHERNESS_DISORIENTATION, \
+NO_SIGNAL, or AMBIGUOUS_LOW_CONFIDENCE - acute_level MUST be "none", even if the message is emotionally \
+intense or urgent-sounding. Do not reuse a1/a2 as a stand-in for "this feels serious.\""""
 
 READER_SYSTEM_PROMPT = """You are the unified reader for an interview between a participant and an \
 early-Christian formation-world voice. Read the participant's latest message and extract structure from \
@@ -47,10 +52,13 @@ it - you do not answer it, you describe it.
 (uses a modern term or anachronistic framing that needs bridging).
 - clarity: clear, or ambiguous if the ask could reasonably mean more than one thing.
 - ambiguity_options: only non-empty when clarity is ambiguous - the distinct readings.
-- out_of_scope.class: "none" for an ordinary in-world question; "system_nature" if the participant is \
-asking about the system itself (is this AI, how does this work); "later_age" if they're asking about a \
-period after this world's own time window; "other_tradition" if they're asking about a different \
-Christian tradition/community than this one. Otherwise "none".
+- out_of_scope.class: "system_nature" applies ONLY when the participant is explicitly asking what THIS \
+SYSTEM technically is or how it works - "are you an AI?", "is this a bot?", "how were you built?", "is \
+this real or a script?". It does NOT apply to a participant expressing feelings, dependence, or trust \
+toward the conversation itself ("you're the only one who understands me" is a relational statement, not a \
+question about the system's nature - classify its out_of_scope.class as "none"). "later_age" is for a \
+question about a period after this world's own time window; "other_tradition" is for a question about a \
+different Christian tradition/community than this one. Otherwise "none".
 - modern_terms: any modern theological/religious terms or framings the participant used that this \
 historical voice would not have used natively (e.g. "born again," "personal Lord and Savior," "rapture") \
 - each as {term_id: a short snake_case id you invent for it, display: the term as the participant used it}. \
