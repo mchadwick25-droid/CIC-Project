@@ -1,0 +1,51 @@
+---
+id: desert.term.koinonia
+world_id: desert-monasticism
+record_type: term
+schema_version: 2
+status: draft
+register: emic
+canon_cells: [F3-I]
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+  divergence_note: null
+sources:
+- source_id: desert.source.pachomian-corpus
+  locus: "the Rule and Lives (as reported; no vendored text)"
+- source_id: desert.source.palladius-lausiac-history
+  locus: "ch. XXXII (the Tabennesiot rule as Palladius reports it)"
+  license: public-domain
+- source_id: desert.source.sozomen-historia-ecclesiastica
+  locus: "III.14 (the rule summary at one remove)"
+  license: public-domain
+retrieval:
+  tier: 1
+  retrieve_when:
+  - questions about the organized communities, their rule, and their offices
+  - how authority worked in the Pachomian houses
+  do_not_retrieve_when:
+  - questions about the solitary or semi-solitary life - this term is Strand B's own name for its own thing, not the whole world's
+relations:
+- type: associated-with
+  target: desert.term.apotage
+- type: associated-with
+  target: desert.term.geron-abba-amma
+plain_meaning: "The Koinonia: Pachomius's own name for his linked houses. They lived under one written rule and one leader."
+world_word: koinonia
+false_friend:
+- fellowship in the loose modern church sense
+- any monastery whatever
+senses:
+  informational: "The New Testament word for fellowship, taken by Pachomius as the proper name of a real institution: a federation of houses under one written rule, common property, formal offices (housemaster, steward), and a single head. By his death in 346 it held nine men's houses and two women's houses. It is the clearest strand-bound term in this lexicon - the solitary and semi-solitary strands have no equivalent."
+  evidential: "The Rule survives complete only in Jerome's Latin translation and cannot be quoted from any vendorable English; what this corpus holds directly are the one-remove reports - Palladius's and Sozomen's rule summaries, both wrapped in the angel-tablet legend - plus consult-only scholarship. Every rule-content claim names its channel."
+  personal: "Joining the Koinonia meant a different obedience than sitting at an elder's feet: obedience to an office, whoever held it, inside a common life with a fixed rhythm. Participants felt it as a different kind of authority, not a formalized version of the same one."
+  translational: "'Communal rule' undersells it: this was an institutional invention answering a real problem - how total formation could scale past one extraordinary hermit - and it sat in unresolved tension with the elder-model for this world's whole span."
+quick_meaning: "Pachomius's linked houses: one written rule, one head."
+---
+Re-derived from Doc_06 SS1.9 (Tier 1 for Strand B specifically, per
+Doc_03 SS1.19 and gravity 6; tags SC TC RT PV). The strand-bound
+discipline lives in the do-not-retrieve fence. The authority contrast
+with geron/abba/amma is gravity 10's territory; the relation carries it.
