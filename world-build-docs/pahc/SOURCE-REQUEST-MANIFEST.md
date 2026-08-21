@@ -27,15 +27,15 @@ The shared corpus (`cic/texts/`, supplied by Mark 2026-08-15–18 on the alexand
 | Irenaeus, Adversus Haereses — boundary witness | `anf01` div ix | `pahc.source.irenaeus-adversus-haereses` |
 | Tertullian, Apology + Adv. Marcionem — boundary/rival witness | `anf03` | `pahc.source.tertullian-apologeticus`, `pahc.source.tertullian-adversus-marcionem` |
 | Barnabas 18–20 (Two Ways parallel ONLY) | `anf01` div vi | `pahc.source.barnabas` |
+| Pliny, Letters 10.96–97 + Trajan's rescript, complete English | `npnf201`, McGiffert's note to HE III.33 | `pahc.source.pliny-letters` — **corrected**: first listed OPEN; the complete text was embedded in the vendored Eusebius volume's editorial note all along (see the search record's correction note). A standalone Melmoth/Bosanquet edition is now optional (P3), for second-translation cross-checking only |
 
 ## 2. OPEN — wanted, public-domain candidates named, not fetchable from this sandbox
 
 Priority P2 (strongly wanted — each unlocks verbatim quoting for material currently paraphrase-only):
 
-1. **Pliny, Letters 10.96–97** — Melmoth trans. rev. Bosanquet (Bohn, 1878). PD by date. Until vendored, this world's single most-asked-about outside document (the fleet canon's own F6-E question is about it) cannot be quoted verbatim. Search: `pahc.search.pliny-english-pd` (not_found).
-2. **Tacitus, Annals 15.44** — Church & Brodribb (1876). PD by date.
-3. **Suetonius, Claudius 25.4 + Nero 16.2** — Thomson/Forester (Bohn). PD by date.
-4. **Lucian, The Passing of Peregrinus** — H.W. & F.G. Fowler (Oxford, 1905). PD by date. (Harmon's Loeb v.5, 1936, would need a renewal check — the Fowler is the safe candidate.)
+1. **Tacitus, Annals 15.44** — Church & Brodribb (1876). PD by date.
+2. **Suetonius, Claudius 25.4 + Nero 16.2** — Thomson/Forester (Bohn). PD by date.
+3. **Lucian, The Passing of Peregrinus** — H.W. & F.G. Fowler (Oxford, 1905). PD by date. (Harmon's Loeb v.5, 1936, would need a renewal check — the Fowler is the safe candidate.)
 
 Preferred form, per the standing rule: archive.org scan or CCEL-format export carrying its own title page/rights header — rights are verified from the supplied file's own provenance header, never from this request.
 

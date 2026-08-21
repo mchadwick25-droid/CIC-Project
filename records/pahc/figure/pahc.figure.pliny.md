@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "The figure and letters are documented; the source row is unvendored and paraphrase-only (see pahc.source.pliny-letters)."
+  divergence_note: null
 sources:
 - source_id: pahc.source.pliny-letters
   locus: "10.96-97"

@@ -11,10 +11,10 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "Their existence and title are documented in Pliny's own letter; everything else about them is unrecoverable, and the source row is unvendored/paraphrase-only."
+  divergence_note: "Their existence and title are documented in Pliny's own letter (wording checkable in the vendored npnf201 note); everything else about them is unrecoverable."
 sources:
 - source_id: pahc.source.pliny-letters
-  locus: "10.96 (the two ancillae 'quae ministrae dicebantur')"
+  locus: "10.96 ('two female slaves who were called deaconesses (ministrae)', the vendored npnf201 note's rendering of the Latin ancillae quae ministrae dicebantur)"
   license: public-domain
 names:
 - name: the two servants who were called ministrae
