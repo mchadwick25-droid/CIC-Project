@@ -110,20 +110,28 @@ jobs:
       - run: python -m pytest engine/m3/tests -q
 
   m4-event-log:
-    # Added stage 5 (partial - the half that needs no live model call:
-    # Artifact-3's event log/store, session projection, session codes, and
-    # the entrance seal). Covers the stage-5 gate items that are pure code:
-    # "resume across two processes incl. accumulator" and "entrance-seal
-    # test". SQLite-backed for dev/test (DECIDABLE - see engine/m4/store.py);
-    # real deployment is managed Postgres per Artifact-6.
-    name: M4 event log, projection, entrance seal, resume
+    # Started stage 5 non-model half (Artifact-3's event log/store, session
+    # projection, session codes, entrance seal - "resume across two
+    # processes incl. accumulator" and "entrance-seal test"). SQLite-backed
+    # for dev/test (DECIDABLE - see engine/m4/store.py); real deployment is
+    # managed Postgres per Artifact-6. Grew to cover the turn loop
+    # (world_loader, generation, grounding, crisis_resources, turn) once the
+    # live-model half of stage 5 started - test_turn.py/test_crisis_
+    # resources.py are hermetic (a fake client, or no client at all) even
+    # though the modules they test make real Bedrock calls when actually
+    # run; the real calls themselves are by-hand evidence runs
+    # (engine/m4/live_turn_run.py, engine/m4/lazy_load_measure.py), never CI.
+    name: M4 event log, projection, entrance seal, resume, turn loop
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -r engine/m1/requirements.txt
+      # engine/m4/requirements.txt (not m1's) since test_turn.py imports
+      # engine.m4.turn -> engine.m5.live_calls -> anthropic transitively -
+      # m1's requirements.txt has no reason to know that and shouldn't.
+      - run: pip install -r engine/m4/requirements.txt
       - run: python -m pytest engine/m4/tests -q
 
   m5-gate-routing:
