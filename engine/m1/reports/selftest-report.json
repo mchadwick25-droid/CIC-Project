@@ -103,6 +103,15 @@
       ]
     },
     {
+      "id": "no-build-attribution-leaked-ruling",
+      "gate": "no-build-attribution",
+      "status": "caught",
+      "findings": [
+        "fix.craft.vera-voice.identity: ISO-format date in compiled content - \"Vera, Witness - a synthetic composite voice speaking for the fixture world's two short sources (RULED by Mark, 2026-08-21: name and role are the only \"",
+        "fix.craft.vera-voice.identity: 'ruled by' attribution in compiled content - \"Vera, Witness - a synthetic composite voice speaking for the fixture world's two short sources (RULED by Mark, 2026-08-21: name and role are the only \""
+      ]
+    },
+    {
       "id": "sentinel-string-in-retrieval-block",
       "gate": "schema-validation",
       "status": "caught",

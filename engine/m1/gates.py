@@ -5,6 +5,8 @@ as `gate:` ids in fixtures/seeded_defects.yaml, so the selftest can map one
 to the other directly with no separate lookup table (law 4, applied to test
 wiring too).
 """
+import re
+
 from jsonschema import Draft202012Validator
 
 from . import canon
@@ -226,6 +228,111 @@ def gate_canon_coverage(records, fleet, registry) -> list[str]:
     return findings
 
 
+# Admitted 2026-08-21 from engine/m1/gates_experimental.py (own defect-
+# catalog entry: fixtures/seeded_defects.yaml id
+# no-build-attribution-leaked-ruling; selftest-proven per the file's own
+# admission bar). Scoped to exactly the fields engine/m2/builders.py's
+# build_prompt() reads - the real field contract for what reaches a live
+# model, not a separate guess at it. Deliberately narrower than "every
+# string field on these record types": doctrinal_witness.positions/
+# tensions, honest_limit.why_sources_cannot_answer, and every field on
+# gravity/force/contested_claim/search_record/source are NOT compiled and
+# are legitimate places for build-process language to live - scanning
+# them would drown real findings in noise. Proven necessary, not assumed:
+# checked against alx's real corpus (2026-08-21) and found three more
+# "Mark" occurrences beyond the four real leaks this gate exists to catch
+# - alx.dw.f3-t-one-church's `tensions` field, alx.limit.f5-t-marriage's
+# `why_sources_cannot_answer`, and a figure's trailing body - all
+# correctly outside this field map, all legitimate.
+_ATTRIBUTION_FIELDS = {
+    "voice_craft": ["identity", "guard"],
+    "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
+    "term": ["plain_meaning", "quick_meaning", "world_word"],
+    "doctrinal_witness": ["text"],
+    "honest_limit": ["statement"],
+    "story": ["tellable_as", "text"],
+}
+
+# Each pattern below is justified by one of the 4 real leaks found in the
+# 2026-08-21 hand audit (world/alexandria c0a105a), not a generic guess:
+#   - _ISO_DATE: alx.core.alexandria.thinness ("Mark's 2026-08-21 ruling
+#     accepts this"), alx.voice.craft.identity and .flavor_notes both
+#     carried "2026-08-21" next to the attribution. In-world historical
+#     prose in this register dates things "c. 150-400 CE" / "325 CE" -
+#     never ISO format - so this is a near-zero-false-positive signal on
+#     its own, and alone would have caught 3 of the 4 leaks.
+#   - _RULED_BY: alx.voice.craft.identity's "(RULED by Mark, 2026-08-21:
+#     ...)". Deliberately the exact phrase "ruled by" (passive,
+#     agent-attributed), not bare "ruled"/"ruling" - those fired as false
+#     positives in the hand audit on real historical content ("the
+#     council... ruling on the disputed confession", "his book ruled
+#     whole congregations") that has no "by <name>" attribution shape.
+#     Not zero-risk itself (a real sentence could read "the villages were
+#     ruled by their bishop") - a finding here is still worth a human's
+#     eyes before treating it as confirmed, same as any other gate finding
+#     in this battery.
+#   - _STALE_STATUS: alx.core.alexandria.horizon's "WORKING SCOPE, NOT A
+#     RULING: world identity is Mark's touchpoint; this record is draft
+#     until that ruling and revises with it" - the one leak with no ISO
+#     date in it at all, so it needed its own pattern.
+_ISO_DATE = re.compile(r"\b20\d{2}-\d{2}-\d{2}\b")
+_RULED_BY = re.compile(r"\bruled by\b", re.IGNORECASE)
+_STALE_STATUS = re.compile(r"\bWORKING SCOPE\b|\bNOT A RULING\b", re.IGNORECASE)
+
+
+def _attribution_hits(text: str) -> list[str]:
+    hits = []
+    if _ISO_DATE.search(text):
+        hits.append("ISO-format date")
+    if _RULED_BY.search(text):
+        hits.append("'ruled by' attribution")
+    if _STALE_STATUS.search(text):
+        hits.append("stale working-scope/status marker")
+    return hits
+
+
+def gate_no_build_attribution(records, fleet, registry) -> list[str]:
+    """Built from a real defect, not a hypothetical: a 2026-08-21 hand
+    audit of every field build_prompt() actually compiles found 4 places
+    where build-process attribution (a date, "RULED by Mark", a direct
+    quote of the project lead) had leaked into voice_craft.identity and
+    world_core.horizon - the compiled Identity and Horizon sections a
+    live model reads as its own self-description and historical scope.
+    Fixed by hand (world/alexandria c0a105a); this gate is the mechanical
+    check that should have caught it at record-commit time instead of
+    three commits and a manual full-corpus read later.
+
+    Scoped tightly to _ATTRIBUTION_FIELDS - the exact field contract
+    build_prompt() reads (see its own comment for why adjacent fields
+    like doctrinal_witness.tensions or a trailing body are deliberately
+    excluded, proven necessary against real alx content, not assumed).
+    """
+    findings = []
+    for rid, rec in records.items():
+        rt = rec.get("record_type")
+        fields = _ATTRIBUTION_FIELDS.get(rt, [])
+        for f in fields:
+            val = rec.get(f)
+            if isinstance(val, str):
+                for reason in _attribution_hits(val):
+                    findings.append(f"{rid}.{f}: {reason} in compiled content - {val[:150]!r}")
+        if rt == "voice_craft":
+            for c in rec.get("characteristic_concerns") or []:
+                if isinstance(c, str):
+                    for reason in _attribution_hits(c):
+                        findings.append(f"{rid}.characteristic_concerns[]: {reason} - {c[:150]!r}")
+            for n in rec.get("flavor_notes") or []:
+                note = n.get("note", "")
+                for reason in _attribution_hits(note):
+                    findings.append(f"{rid}.flavor_notes[{n.get('segment')}]: {reason} - {note[:150]!r}")
+        if rt == "demonstration":
+            for t in rec.get("exchange") or []:
+                txt = t.get("text", "")
+                for reason in _attribution_hits(txt):
+                    findings.append(f"{rid}.exchange[{t.get('speaker')}]: {reason} - {txt[:150]!r}")
+    return findings
+
+
 GATES = {
     "schema-validation": gate_schema_validation,
     "referential": gate_referential,
@@ -239,6 +346,7 @@ GATES = {
     "rights": gate_rights,
     "readability": gate_readability,
     "canon-coverage": gate_canon_coverage,
+    "no-build-attribution": gate_no_build_attribution,
 }
 
 

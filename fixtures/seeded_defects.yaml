@@ -103,6 +103,14 @@ defects:
     mutation: {op: remove_record}
     expected_failure: "canon cell F6-T now has neither a substantive record nor an honest_limit - blank cell, coverage gate must fail (Artifact-1 §6 coverage rule)"
 
+  - id: no-build-attribution-leaked-ruling
+    gate: no-build-attribution
+    layer: M1
+    note: "mirrors the real defect this gate exists to catch (world/alexandria voice_craft.identity, fixed in c0a105a) - a build-process ruling attribution landing inside the compiled Identity field, ISO date and 'ruled by' both present"
+    target_record: records/fix/voice_craft/fix.craft.vera-voice.md
+    mutation: {op: set_field, path: identity, value: "Vera, Witness - a synthetic composite voice speaking for the fixture world's two short sources (RULED by Mark, 2026-08-21: name and role are the only sanctioned fabrications)."}
+    expected_failure: "voice_craft.identity carries an ISO-format date and a 'ruled by' attribution - build-process language leaked into a field build_prompt() compiles into the live model's own Identity section"
+
   - id: sentinel-string-in-retrieval-block
     gate: schema-validation
     layer: M1
