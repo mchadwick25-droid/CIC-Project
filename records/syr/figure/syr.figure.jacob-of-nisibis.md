@@ -33,6 +33,9 @@ dates:
     10)
 narratable: true
 bridge_line: the bishop the besieged city remembered praying on its walls
+relations:
+- type: associated-with
+  target: syr.contested.jacob-death-year
 ---
 Narratable TRUE on the siege tradition ONLY as remembered story:
 Theodoret's account (the prayer, the gnats, Sapor's withdrawal) is

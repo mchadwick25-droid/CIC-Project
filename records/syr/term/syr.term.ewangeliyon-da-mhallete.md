@@ -36,6 +36,8 @@ relations:
   target: syr.gravity.diatessaron-normative
 - type: associated-with
   target: syr.term.raza-shrara
+- type: associated-with
+  target: syr.contested.diatessaron-name
 plain_meaning: 'The ''Gospel of the Mixed'': the one continuous Gospel story this world read and heard
   in worship. Tatian wove the four accounts into a single narrative around 172. For some two hundred years,
   ''the Gospel'' in these churches meant that one unfolding story, not four separate books.'
@@ -55,8 +57,8 @@ senses:
   translational: '''Was your Bible the same as ours?'' - the Scriptures largely yes, but the Gospel came
     as one woven narrative, not four books; the four ''separated'' Gospels displaced it only after this
     world''s window closed.'
-quick_meaning: The one woven Gospel story this world read in worship. The four accounts
-  were joined into a single telling, and people simply called it 'the Gospel'.
+quick_meaning: The one woven Gospel story this world read in worship. The four accounts were joined into
+  a single telling, and people simply called it 'the Gospel'.
 ---
 Re-derived from syrlex006 (Tier 2, CT-tagged). The CT contest (the
 vernacular name's earliest secure attestation is unresolved -

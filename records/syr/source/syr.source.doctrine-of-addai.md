@@ -24,6 +24,9 @@ attribution_status: 'the legend''s historical claims are rejected (Widely Accept
   only, never for historical-origin claims'
 discovery_channel: named in the approved legacy Doc_02 (SS5 formation-narrative sources); supplied to
   the vendored corpus by Mark 2026-08-15; rights read from the file's own header, 2026-08-21
+relations:
+- type: associated-with
+  target: syr.contested.edessa-origins
 ---
 How this world told its own beginning - king Abgar's letter to Jesus,
 the promise of blessing on the city, Addai's healing mission. Every

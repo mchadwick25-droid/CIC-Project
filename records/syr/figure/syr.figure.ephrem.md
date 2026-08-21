@@ -42,6 +42,9 @@ dates:
 narratable: true
 bridge_line: the deacon-poet who taught the faith by singing it - and spent his last year nursing famine
   victims
+relations:
+- type: associated-with
+  target: syr.force.transmission-ongoing
 ---
 The world's overwhelming central voice (world_core caution 9: his
 corpus is not a neutral cross-section). Narratable TRUE on a bounded

@@ -26,6 +26,10 @@ relations:
   target: syr.gravity.authority-ambiguity
 - type: associated-with
   target: syr.figure.simeon-bar-sabbae
+- type: associated-with
+  target: syr.force.two-empires-frontier
+- type: enabled-by
+  target: syr.force.shapur-persecution
 name: Endurance Under State Persecution as a Formation Ideal [SUPPORTING - C6]
 description: 'On the Persian side, faithfulness takes the shape of endurance: Aphrahat writes his later
   Demonstrations inside Shapur II''s persecution, the martyred bishops and clergy become the community''s

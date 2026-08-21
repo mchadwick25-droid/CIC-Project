@@ -29,6 +29,11 @@ dates:
 narratable: false
 bridge_line: the bishop just past this world's horizon, under whom its one woven Gospel gave way to the
   four
+relations:
+- type: associated-with
+  target: syr.force.transmission-ending
+- type: associated-with
+  target: syr.contested.rabbula-peshitta
 ---
 OUT-OF-WINDOW boundary figure, included so the closing transition can
 be named without being smeared into the window: his episcopate

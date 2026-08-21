@@ -19,6 +19,8 @@ sources:
 relations:
 - type: associated-with
   target: syr.gravity.persecution-endurance
+- type: associated-with
+  target: syr.force.shapur-persecution
 names:
 - name: Simeon
   tag: in-world

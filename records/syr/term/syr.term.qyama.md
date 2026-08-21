@@ -44,6 +44,8 @@ relations:
   target: syr.term.ihidaya
 - type: associated-with
   target: syr.term.tahwyata
+- type: associated-with
+  target: syr.contested.qyama-structure
 plain_meaning: 'The covenant: this world''s own vowed order. Its members - the sons and daughters of the
   covenant - promised a celibate life for good. But they did not leave for the desert. They stayed in
   town, among their own kin, and served the congregation: the fast, the watch, the vigil, the singing.'

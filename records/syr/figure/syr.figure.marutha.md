@@ -29,6 +29,9 @@ dates:
 narratable: true
 bridge_line: the frontier bishop whose embassies opened the door the Persian church walked through in
   410
+relations:
+- type: associated-with
+  target: syr.force.synod-410
 ---
 The Doc_01-flagged figure the 373-410 extension brought in scope,
 developed per Doc_02 SS11. Narratable TRUE on Socrates VII.8's

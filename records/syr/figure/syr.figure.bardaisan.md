@@ -34,6 +34,10 @@ sources:
 relations:
 - type: associated-with
   target: syr.gravity.heresiological-self-definition
+- type: associated-with
+  target: syr.force.rival-movements
+- type: associated-with
+  target: syr.contested.bardaisan-nicene-floor
 names:
 - name: Bardaisan
   tag: in-world

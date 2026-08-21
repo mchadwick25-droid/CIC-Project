@@ -29,6 +29,12 @@ relations:
   target: syr.gravity.raza-shrara-method
 - type: associated-with
   target: syr.figure.bardaisan
+- type: associated-with
+  target: syr.force.two-empires-frontier
+- type: enabled-by
+  target: syr.force.rival-movements
+- type: associated-with
+  target: syr.force.frontier-plural-milieu
 name: Heresiological Self-Definition Against Named Rivals (Bardaisan, Marcion, Mani) [SUPPORTING - C3]
 description: 'This world knows what it believes by answering, by name, the rivals who preached in its
   own tongue and cities: Bardaisan''s cosmology and his popular hymnody, Marcion''s rejection of the Maker,

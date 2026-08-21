@@ -30,6 +30,18 @@ relations:
   target: syr.figure.papa-bar-aggai
 - type: associated-with
   target: syr.figure.aphrahat
+- type: associated-with
+  target: syr.force.authority-ambiguity-condition
+- type: associated-with
+  target: syr.force.synod-410
+- type: associated-with
+  target: syr.force.shapur-persecution
+- type: associated-with
+  target: syr.force.institutional-consolidation
+- type: associated-with
+  target: syr.contested.aphrahat-episcopacy
+- type: associated-with
+  target: syr.contested.papa-primacy
 name: 'Authority-Structure Ambiguity: Covenant Standing and Episcopal Office [TENSIONAL - C4]'
 description: 'Who carried authority here, and by what right, never resolves inside the window: vowed-ascetic
   standing (the covenant''s charismatic pathway) and episcopal office run alongside each other; Aphrahat

@@ -20,6 +20,8 @@ sources:
 relations:
 - type: associated-with
   target: syr.gravity.authority-ambiguity
+- type: associated-with
+  target: syr.contested.papa-primacy
 names:
 - name: Papa
   tag: in-world

@@ -33,6 +33,12 @@ relations:
   target: syr.gravity.diatessaron-normative
 - type: associated-with
   target: syr.term.raza-shrara
+- type: associated-with
+  target: syr.force.rival-movements
+- type: enabled-by
+  target: syr.force.raza-inheritance
+- type: associated-with
+  target: syr.force.frontier-plural-milieu
 name: Symbolic-Typological Theological Method (raza/shrara) [PRIMARY - C1]
 description: 'Doctrine is done in symbol and type, not syllogism: the raza (symbol, mystery) in Scripture
   and creation is bound to the shrara (truth) it discloses and carries its hidden power, so theology''s

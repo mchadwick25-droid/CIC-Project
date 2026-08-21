@@ -28,6 +28,10 @@ relations:
   target: syr.gravity.raza-shrara-method
 - type: associated-with
   target: syr.term.ewangeliyon-da-mhallete
+- type: enabled-by
+  target: syr.force.diatessaron-adoption
+- type: associated-with
+  target: syr.force.transmission-ending
 name: The Diatessaron as Normative Harmonized Gospel [SUPPORTING - C5]
 description: 'For this whole window, ''the Gospel'' is one continuous woven story: Tatian''s harmony is
   the lectionary text both anchor voices know - Aphrahat quotes it, Ephrem comments on it - so the normative
