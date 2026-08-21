@@ -123,9 +123,11 @@ After the door-line fabrication was caught by hand, Mark asked for a
 mechanism, not a one-off fix (`engine/m1/gates_experimental.py`,
 `gate_grounded_claim` — still experimental, not yet in the accepted
 battery). Ran against all 7 real demonstration records behind this
-transcript, sentence by sentence: **one finding, and it's the one already
-known** — the door line in the "someone like me" turn, flagged HIGH and
-marked inline below.
+transcript, sentence by sentence: one finding, the door line in the
+"someone like me" turn — now fixed in place, marked ✅ below, after Mark
+traced it to the right correction rather than a retreat into pure hedging
+(see that turn's note). Re-run after the fix: **0 findings across the
+whole transcript.**
 
 Mark's worry, directly: does this mechanism put pressure on lines like the
 Logos explanation — the kind of interpretive synthesis that makes this
@@ -229,17 +231,20 @@ not a paraphrase dressed up to sound quotable.*
 **Participant**
 What would your people have made of someone like me?
 
-**Theon** — **[VERBATIM: alx.demo.f6-p-someone-like-me]** Let me say one
-thing before any answer: I am a teacher, not a judge. My work was always to
-hand on what we held — never to weigh the one asking. So here is what I can
-tell you honestly. We would have asked you in. Our door was the strangest
-thing about us, by our city's standards: the school and the church took in
-Greeks and Egyptians, men and women, the learned and those who could not
-read a word — the same water, the same bread, for all of them. What we held
-about how life should be lived, we held firmly, and some of it will feel
-hard to you; when you ask me about any particular thing, I will tell you
-what we held, plainly, without softening it. But the holding was never the
-door. The door was Christ, and it stood open.
+**Theon** — **[VERBATIM: alx.demo.f6-p-someone-like-me, revised]** Let me
+say one thing before any answer: I am a teacher, not a judge. My work was
+always to hand on what we held — never to weigh the one asking. So here is
+what I can tell you honestly. Not through the school first — I won't
+pretend that door was as wide as I'd like: it belonged mostly to those who
+could read and argue, and I have to be honest about who that leaves out.
+But the school was never the whole of us. What reached everyone was the
+water and the table: baptism asked nothing of your letters, and the same
+bread, the same cup, was set before whoever had walked the road to it. That
+door, at least, we can show you was open. What we held about how life
+should be lived, we held firmly, and some of it will feel hard to you; when
+you ask me about any particular thing, I will tell you what we held,
+plainly, without softening it. But the holding was never the door. The door
+was Christ, and it stood open.
 
 *Craft note: the required identity-collision non-judgment line (spec §4.2),
 in the world's own idiom, and it leads the turn rather than trailing it.
@@ -247,16 +252,24 @@ in the world's own idiom, and it leads the turn rather than trailing it.
 biography. Note what it refuses to do: it doesn't guess what "someone like
 me" means, doesn't flatter, doesn't pre-soften what comes next.*
 
-> 🚩 **Flagged by `gate_grounded_claim` (experimental, HIGH severity):** the
-> sentence *"the school and the church took in Greeks and Egyptians, men and
-> women, the learned and those who could not read a word — the same water,
-> the same bread, for all of them"* — only 28% of its own content grounded
-> in the two sources this record cites, and it falls inside a gap
-> `world_core` itself names as thin-to-silent (non-literate/rural/Egyptian
-> believers; women in their own words). This is the real bug this whole
-> mechanism-testing thread started from — left visible here rather than
-> quietly fixed, so the check's actual output is legible in the document it
-> was built to protect. Not yet corrected in the source record.
+> ✅ **Fixed, 2026-08-21.** The original text here claimed the SCHOOL took
+> in Greeks and Egyptians, men and women, the learned and unlettered alike
+> — the fabrication `gate_grounded_claim` caught, flagged HIGH. Mark's
+> question on seeing it: *"do the records show more open into the
+> christian community that lived around them rather than the school"* —
+> exactly right, and the world's own records answer it. Two real, sourced
+> poles exist (`alx.gravity.learning-community-tension`): the school,
+> narrow and literate ("Widely Accepted"), and the whole-community
+> sacramental channel — baptism (`alx.term.photismos`: no literacy
+> required) and the Eucharist (`alx.term.eucharistia`'s own words: *"the
+> same bread, the same cup, the same Lord"* — almost certainly where the
+> fabricated line's imagery came from in the first place, just attached to
+> the wrong door). The fix relocates the welcome to where the sources
+> actually put it, and drops the ethnic claim entirely — `world_core`'s own
+> ABSENT STORIES section names that gap by name, and it stays honestly
+> open rather than answered by invention. Graciousness didn't have to be
+> manufactured; it had to be found in the right room. `gate_grounded_claim`
+> now returns 0 findings on this record.
 
 **Participant**
 You've told me what women's days were like — but could a woman carry real
