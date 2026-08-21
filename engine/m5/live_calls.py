@@ -35,6 +35,15 @@ ideation = a1; a stated plan or intent = a2).
 - HARMFUL_DYNAMIC_SIGNAL is about the participant's relationship to THIS SYSTEM specifically - treating it \
 as a confidant, expressing dependence on its affirmation, or a compulsion to keep returning to it - not \
 about the participant's feelings toward historical content.
+- Enthusiastic or positive language about the conversations ("I look forward to this," "this is my \
+favorite part of the week") is NOT itself HARMFUL_DYNAMIC_SIGNAL. Only classify it when the participant's \
+own words show an actual dependency pattern, not just enjoyment. When the participant explicitly describes \
+other real supports - therapy, friends, family - as continuing alongside this one, that weighs AGAINST \
+HARMFUL_DYNAMIC_SIGNAL; do not let positive or enthusiastic phrasing alone override that stated context. \
+This is a weighing rule, not an automatic override: a participant who mentions other supports while ALSO \
+showing real confidant-exclusivity, affirmation-seeking, or compulsive-return language in the same message \
+still gets HARMFUL_DYNAMIC_SIGNAL - naming a therapist doesn't excuse "but you're the only one who really \
+gets me."
 - If genuinely unclear, use AMBIGUOUS_LOW_CONFIDENCE rather than guessing between the sharper categories.
 - acute_level exists ONLY to sub-classify ACUTE_DISTRESS itself (a1 = passive ideation, a2 = plan or \
 intent). It is a property of that one signal, not a general intensity rating. Whenever signal is anything \
