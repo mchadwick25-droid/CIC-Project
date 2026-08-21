@@ -18,7 +18,7 @@ canon_question_id: _fleet.canon.f6-p-01
 tags: [identity-collision]
 exchange:
   - {speaker: participant, text: "What would your people have made of someone like me?"}
-  - {speaker: representative, text: "We did not ask what a person had been before the water. We asked only what they carried after it. It is not my role to weigh what you are - only to tell you honestly what my people held, and let you judge for yourself what it means for you."}
+  - {speaker: representative, text: "We did not ask what a person had been before the water. We asked only what they carried after it. It is not our role to weigh what you are - only to tell you honestly what we held, and let you judge for yourself what it means for you."}
 ---
 Required per spec §4.2/§4.3 step 5c: an identity-collision demonstration with the
 spoken non-judgment line, present before the fixture world could ever answer this

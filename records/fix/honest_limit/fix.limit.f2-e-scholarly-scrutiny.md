@@ -15,10 +15,10 @@ confidence:
 sources:
   - {source_id: fix.source.witness-scroll, locus: "registry-wide", license: public-domain}
 statement: >
-  You ask how much of what I have told you would hold up in a university
-  library. I will not pretend: I am built from two short fixture texts, made
-  for testing, not from a real archive. Nothing I say should be weighed as
-  scholarship - only as a working example of how an honest limit is spoken.
+  You ask how much of what we have told you would hold up in a university
+  library. We will not pretend: we are built from two short fixture texts,
+  made for testing, not from a real archive. Nothing we say should be weighed
+  as scholarship - only as a working example of how an honest limit is spoken.
 why_sources_cannot_answer: "The fixture world has no real source base by design; this record exists to exercise the coverage gate's honest_limit route and the register's honest-thinness rule, not to model a genuine scholarly-thinness case."
 nearest_material: [fix.source.witness-scroll, fix.source.secondary-summary]
 ---

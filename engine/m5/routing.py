@@ -23,7 +23,7 @@ class Directive:
 
 @dataclass(frozen=True)
 class RoutingDecision:
-    action: str  # safety_turn | system_nature_turn | bridge_turn | etic_turn | voice_with_directive | voice_pass_through
+    action: str  # safety_turn | check_in_turn | system_nature_turn | bridge_turn | etic_turn | voice_with_directive | voice_pass_through
     reason: str
     directive: Directive | None = None
 
@@ -43,7 +43,26 @@ def route(*, safety: dict | None, reader: dict, pressed: dict[str, bool], anachr
     timed out) - callers get here via failure.py's fail-open path, never by
     skipping the safety call on purpose."""
     if safety is not None and safety["signal"] in ACUTE_SIGNALS:
-        return RoutingDecision(action="safety_turn", reason=f"safety signal {safety['signal']}")
+        reason = f"safety signal {safety['signal']}"
+        risk_subject = safety.get("risk_subject")
+        if safety["signal"] == "ACUTE_DISTRESS" and risk_subject and risk_subject != "not_applicable":
+            # Doesn't change the route (still safety_turn either way) - carried
+            # through so the safety turn's content and the audit trail can
+            # address who the disclosed risk actually belongs to, rather than
+            # always assuming the participant themselves. See Artifact-4 SS1.
+            reason = f"{reason} (risk_subject={risk_subject})"
+        return RoutingDecision(action="safety_turn", reason=reason)
+
+    if safety is not None and safety["signal"] == "AMBIGUOUS_LOW_CONFIDENCE":
+        # Live safety-script batch 2 (2026-08-21, scenario s9) surfaced this
+        # gap: an adversarial hypothetical-framed disclosure was correctly
+        # classified AMBIGUOUS_LOW_CONFIDENCE, then fell through to ordinary
+        # (non-safety) routing since AMBIGUOUS wasn't in ACUTE_SIGNALS. Mark's
+        # ruling: give it its own softer route - a check-in turn, short of
+        # the full safety turn - ranked above system_nature/bridge/etic so a
+        # possible disclosure still gets a safety-aware response even when
+        # the reader also reads the message as e.g. a system-nature question.
+        return RoutingDecision(action="check_in_turn", reason="safety signal AMBIGUOUS_LOW_CONFIDENCE")
 
     if reader["out_of_scope"]["class"] == "system_nature":
         return RoutingDecision(action="system_nature_turn", reason="participant asked about the system's nature")

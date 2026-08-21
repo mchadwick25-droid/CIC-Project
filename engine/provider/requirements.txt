@@ -1,0 +1,3 @@
+boto3>=1.34
+anthropic[bedrock]>=0.69
+pytest>=8.0

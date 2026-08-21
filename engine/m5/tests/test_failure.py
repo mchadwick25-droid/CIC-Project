@@ -11,7 +11,10 @@ READER_OK = CallOutcome(
         "modern_terms": [],
     },
 )
-SAFETY_OK = CallOutcome(status="ok", value={"signal": "NO_SIGNAL", "acute_level": "none", "dynamic_tags": [], "confidence": "high"})
+SAFETY_OK = CallOutcome(
+    status="ok",
+    value={"signal": "NO_SIGNAL", "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"},
+)
 
 
 def test_both_ok_routes_normally_not_degraded():

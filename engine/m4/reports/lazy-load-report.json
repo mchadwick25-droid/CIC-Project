@@ -1,0 +1,18 @@
+{
+  "world_key": "fix",
+  "package_dir": "packages/fix/2026-08-20T20-47-35Z",
+  "manifest_hash": "sha256:a3d760008cab4effbd4a41174e015e15acb489d5328ac9fd42556bf9369ee428",
+  "measurements": {
+    "cold_load_seconds": 0.0018142570000918568,
+    "warm_load_seconds (cache hit)": 8.019999313546577e-07,
+    "unload_seconds": 9.380000847158954e-07,
+    "cold_reload_seconds (proves unload actually evicted)": 0.0016386280000233455
+  },
+  "cache_hit_flags": {
+    "cold_load": false,
+    "warm_load": true,
+    "cold_reload": false
+  },
+  "note": "This fixture package is small (312K total across manifest+compiled+records+validation) - the timings here prove the MECHANISM (lazy on first use, cache hit avoids a second read, unload actually evicts) rather than production latency at real-world scale, which will carry larger compiled artifacts (FAISS indexes, a longer prompt/capsule) once a real world is built.",
+  "mechanism_proven": true
+}

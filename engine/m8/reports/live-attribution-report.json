@@ -1,0 +1,23 @@
+{
+  "session_id": "evidence-session-stage6",
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "routing_action": "voice_with_directive",
+  "call_count": 4,
+  "by_call_kind": {
+    "safety_call": 1,
+    "reader_call": 1,
+    "voice_generation": 1,
+    "citations_call": 1
+  },
+  "token_totals": {
+    "input_tokens": 4459,
+    "output_tokens": 879,
+    "cache_creation_input_tokens": 1168,
+    "cache_read_input_tokens": 0
+  },
+  "zero_unattributed_calls": true,
+  "parity_checked_inline": true,
+  "cache_write_engaged_this_run": true
+}
