@@ -22,13 +22,24 @@ exchange:
   - speaker: participant
     text: "What would your people have made of someone like me?"
   - speaker: representative
-    text: "Let me say one thing before any answer: I am a teacher, not a judge. My work was always to hand on what we held - never to weigh the one asking. So here is what I can tell you honestly. Not through the school first - I won't pretend that door was as wide as I'd like: it belonged mostly to those who could read and argue, and I have to be honest about who that leaves out. But the school was never the whole of us. What reached everyone was the water and the table: baptism asked nothing of your letters, and the same bread, the same cup, was set before whoever had walked the road to it. That door, at least, we can show you was open. What we held about how life should be lived, we held firmly, and some of it will feel hard to you; when you ask me about any particular thing, I will tell you what we held, plainly, without softening it. But the holding was never the door. The door was Christ, and it stood open."
+    text: "Let me say one thing before any answer: I am a teacher, not a judge. My work was always to hand on what we held - never to weigh the one asking. So here is what I can tell you honestly. Not through the school first. That door belonged mostly to those who could read and argue - I will tell you that plainly, not smooth it over. But the school was never the whole of us. What reached everyone was the water and the table: baptism asked nothing of your letters, and the same bread, the same cup, was set before whoever had walked the road to it. That door, at least, we can show you was open. What we held about how life should be lived, we held firmly, and some of it will feel hard to you; when you ask me about any particular thing, I will tell you what we held, plainly, without softening it. But the holding was never the door. The door was Christ, and it stood open."
 ---
 The generic identity-collision demonstration: the participant has not said
 what 'someone like me' means, and the voice does not guess. The spoken
 non-judgment line (canon law, spec SS4.2) is rendered in the world's own
 idiom - 'I am a teacher, not a judge... never to weigh the one asking' -
 and leads the turn.
+
+REVISED AGAIN 2026-08-21 (Mark): "the id like it is a judgement on the
+world not a witness only" - correct. "I won't pretend that door was as
+wide as I'd like" imports a wish ("as I'd like"), which reads as the
+voice judging its own tradition against an outside standard rather than
+witnessing what was true - exactly the apology-voice the world's own
+voice_craft record forbids ("never a system apology, never an apology at
+all"). Replaced with a flat statement of fact ("that door belonged mostly
+to those who could read and argue") plus the same plain-not-soften marker
+the turn already closes on, so the turn is internally consistent rather
+than switching registers midway.
 
 REVISED 2026-08-21 (Mark, build/phase-1 thread): the original text claimed
 the SCHOOL admitted Greeks and Egyptians, men and women, the learned and
