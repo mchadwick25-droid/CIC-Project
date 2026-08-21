@@ -39,12 +39,12 @@ senses:
     replacing him nor merely obeying. Where there is a bishop, there is a presbyterion around him.'
   evidential: 'The word and its harp image are Ignatius''s alone within this world''s base - no
     other voice uses it, and Rome''s own correspondence shows presbyters governing together with no
-    such council-around-a-bishop shape at all. A single-witness term, carried as such.'
+    such council-around-a-bishop shape at all: real and formative where practiced, not attested
+    everywhere. A single-witness term, carried as such.'
   personal: 'For a member of a community shaped by these letters, the tuned-strings image was how
     unity felt from inside: many voices, one sound, one center.'
-  translational: 'Modern ''presbytery'' names a governing body or a building. Here it is one
-    strand''s way of arranging leadership - real and formative where practiced, and not found
-    everywhere.'
+  translational: 'Modern ''presbytery'' names a governing body or a building. Here it names one
+    region''s way of arranging leadership around a bishop, not a shape every community shared.'
 quick_meaning: The council of elders around a bishop. It is one region's shape for leadership, not everyone's.
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 6, Tier 2,

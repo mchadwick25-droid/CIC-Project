@@ -8,6 +8,7 @@ register: emic
 canon_cells:
 - F3-I
 - F4-I
+- F5-I
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -51,10 +52,10 @@ senses:
     communities Ignatius addressed they are named with bishop and presbyters as a single three-part
     unit; in Rome, Justin shows them carrying the thanksgiving bread and cup to those who could not
     be present - the office in both regions, the explicit three-tier framing in one.'
-  evidential: 'The service is attested in every strand; the developed three-part hierarchy language
-    is Ignatius''s alone. Pliny''s ministrae may be this office seen from outside - his Latin word
-    for two women he tortured - but whether it translates diakonos is not settled by any source this
-    world holds.'
+  evidential: 'The service is attested in Antioch/Asia Minor and Rome alike; the developed
+    three-part hierarchy language is Ignatius''s alone. Pliny''s ministrae may be this office seen
+    from outside - his Latin word for two women he tortured - but whether it translates diakonos is
+    not settled by any source this world holds.'
   personal: 'For the ones served - the sick member visited, the prisoner fed - the deacon was the
     community''s care arriving in person.'
   translational: 'Modern hearing makes ''deacon'' an assistant rank. Here the service is its own

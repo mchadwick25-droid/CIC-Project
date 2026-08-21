@@ -7,6 +7,7 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+- F5-I
 confidence:
   citation_specificity: A
   verification_state: verified-direct

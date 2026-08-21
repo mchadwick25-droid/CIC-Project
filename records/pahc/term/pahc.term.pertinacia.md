@@ -34,10 +34,10 @@ world_word: pertinacia (the magistrate's word, not the community's own)
 false_friend:
 - proof that belief-content was the crime (Pliny's own letter leaves that exact question open)
 senses:
-  informational: 'Pliny asked the accused three times, warning them each time; those who persisted
-    he sent to punishment - ''for I did not doubt that, whatever it was they confessed, pertinacious
-    and inflexible obstinacy ought to be punished.'' The refusal, not the doctrine, is what he was
-    sure about.'
+  informational: 'Pliny asked the accused a second and third time, threatening punishment; those who
+    persisted he had led away to punishment - "for I did not doubt that whatever that might be which
+    they confessed, at any rate pertinacious and inflexible obstinacy ought to be punished." The
+    refusal, not the doctrine, is what he was sure about.'
   evidential: 'Whether ''the name itself'' or the conduct attached to it was the actual chargeable
     offense is a question Pliny''s own letter raises and never resolves - the charge''s core
     question is open in the one source that reports the charge.'

@@ -11,8 +11,8 @@ confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Contested
-  divergence_note: null
+  formation_confidence: Documented
+  divergence_note: "Documented that this schema exists and is used this way in the Didache; single-source within this world's Native base (Didache-only for the sequence itself), the same maximal author-gravity calibration the approved lexicon gives this term - not a live scholarly contest, so no CT tag."
 sources:
 - source_id: pahc.source.didache
   locus: "1-6 (the schema itself; 'There are two ways, one of life and one of death')"

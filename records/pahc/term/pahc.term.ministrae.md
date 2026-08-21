@@ -4,16 +4,17 @@ world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
 status: draft
-register: emic
+register: emic-unavailable
 canon_cells:
 - F5-I
 - F6-E
+- F6-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Contested
-  divergence_note: null
+  formation_confidence: Documented
+  divergence_note: "Documented that the term and Pliny's report exist as a real, dateable primary source; Inferential-Thin for what it tells us about these women's actual role - whether ministrae corresponds to this world's own diakonos office, whether it names a recognized office at all, and whether their service matched what any other community would call by that name are not settled by this world's own evidence. register is emic-unavailable, not emic: the word is Pliny's Latin, not the community's own self-designation - no in-world vocabulary for this survives to report."
 sources:
 - source_id: pahc.source.pliny-letters
   locus: "10.96 ('two female slaves who were called deaconesses (ministrae)' - the vendored npnf201 note's rendering)"
@@ -40,7 +41,7 @@ false_friend:
 - evidence that the community was egalitarian in a modern sense - or that women held nothing (both overclaim)
 senses:
   informational: 'The word comes from outside: Pliny, governor of Bithynia, tortured two enslaved
-    women ''who were called ministrae'' to find out what Christians actually did. The word is his.
+    women "who were called deaconesses (ministrae)" to find out what Christians actually did. The word is his.
     What he names is real: women held service in that church important enough that its interrogator
     chose them as the ones who would know.'
   evidential: 'One sentence in one outside letter. Whether ministrae translates diakonos, whether it
@@ -50,9 +51,10 @@ senses:
   personal: 'Here the record''s honesty is the content: two women served, were seized, were
     tortured, and vanished from history unnamed. A world that will not invent their voices can still
     refuse to let their existence be forgotten.'
-  translational: 'The modern question - ''could a woman carry real authority among you?'' - meets
-    this world''s hardest evidence exactly here: a real glimpse of women''s recognized service, held
-    inside a report produced by torture, with everything modern curiosity wants to know unrecorded.'
+  translational: 'The modern question - could a woman carry real authority among you, and what did
+    it cost her? - meets this world''s hardest evidence exactly here: a real glimpse of women''s
+    recognized service, held inside a report produced by torture, with everything modern curiosity
+    wants to know unrecorded.'
 quick_meaning: A Roman magistrate's word for two enslaved Christian women he tortured. They served their church in some recognized way. Their own account of it was never kept.
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 9, Tier 2,

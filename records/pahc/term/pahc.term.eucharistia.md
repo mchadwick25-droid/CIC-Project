@@ -12,8 +12,8 @@ confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Widely Accepted
-  divergence_note: null
+  formation_confidence: Documented
+  divergence_note: "Documented for the baseline practice - thanksgiving over bread and cup, independently attested across every strand. Contested specifically for whether Justin's fuller account represents a network-wide template or one community's own elaboration (the term's own CT contest, Historical scope). The two-level split is the approved lexicon's own calibration; this record's top-level field states the baseline level, and the Contested layer is carried in the evidential sense and the CT note below rather than flattened into one word."
 sources:
 - source_id: pahc.source.didache
   locus: "9-10, 14 (cup before bread, no institution narrative)"

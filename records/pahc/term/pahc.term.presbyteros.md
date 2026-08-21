@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.first-clement
-  locus: "42, 44, 47, 54 (the deposed presbyters; the plural college)"
+  locus: "42, 44, 47, 54, 57 (the deposed presbyters; the plural college; 'submit yourselves to the presbyters')"
   license: public-domain
 - source_id: pahc.source.polycarp-philippians
   locus: "salutation ('Polycarp, and the presbyters with him')"

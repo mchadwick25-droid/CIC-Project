@@ -45,7 +45,7 @@ senses:
     shall the false prophet and the prophet be known.'
   evidential: 'All of this is one community''s manual - the same text that, in nearly the same
     breath, tells communities to appoint bishops and deacons ''for they also render to you the
-    service of the prophets and teachers.'' The transition from wandering charism to settled office
+    service of prophets and teachers.'' The transition from wandering charism to settled office
     is caught mid-motion in a single document; how it ran elsewhere, no source of this world says.'
   personal: 'Behind the testing rules is a lived vulnerability: a stranger at the door claiming the
     Spirit, and a community that has been burned before - the manual even has a word for the
