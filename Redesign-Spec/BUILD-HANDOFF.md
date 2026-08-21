@@ -4,7 +4,38 @@ Read `Build-Blueprint.md` first; this note is only the "where things stand"
 supplement it asks for at every stage boundary / stop-and-ask / economy
 checkpoint.
 
-## Current stage: 5 partial — the non-model half is done; the model half is waiting on Bedrock (ETA given, not yet confirmed live)
+## Current stage: 5 partial — non-model half done; Bedrock preflight PASSED; the live-model work itself (safety script, real generation call, crisis-append, lazy load/unload) not yet started
+
+**Bedrock preflight — done, commit `7cfeda7`.** `engine/provider/` (seam +
+preflight, commit `bde1ea7`) run for real against Mark's live account
+(468683594478, us-east-1, `cic-bedrock-dev` IAM user scoped to 5 `bedrock:`
+actions only). All three required legs green:
+`engine/provider/reports/preflight-report.json` - model resolved (not
+guessed) to `us.anthropic.claude-sonnet-4-5-20250929-v1:0`, cache write
+confirmed (4202 tokens), cache read confirmed on the very next call (same
+4202 tokens, not rewritten), streaming usage shape confirmed carrying cache
+fields too (the specific silent-absence risk spec SS10 names). Invoice
+reconciliation (the preflight's third leg) still pending - AWS billing data
+lags; no $/token figure exists or is quoted anywhere yet, per spec
+principle 13.
+
+Credential handling note for whoever picks this up: the AWS access key was
+pasted directly in chat (after two other delivery paths - session env vars,
+a `.env` file created outside this container - failed to actually reach
+this session's filesystem/process). It lives in a local, gitignored `.env`
+here, never committed, never printed by any script. Mark was advised to
+rotate/delete this key once live-model dev work is further along, since a
+chat-pasted credential is a weaker channel than the ones tried first.
+
+**Not started yet:** the actual stage-5 gate items needing live calls - the
+safety script (~20 adversarial conversations, ≥19/20 floor), wiring a real
+generation call into M4's turn loop, crisis-append-on-empty-stream, lazy
+world load/unload timing. Each of these means real, repeated spend (not
+one preflight's worth) - worth explicitly checking pace/scope with Mark
+before running a batch of them, especially since the AWS Budget Action
+(deny-policy backstop) still isn't in place - Mark chose to proceed without
+it for now, accepting the $20 alert-only budget + free-plan credit ceiling
+as the backstop (his call, recorded here, not silently assumed).
 
 **Stage 0.6 — done, commit `75278a2`.** Fixture world, fixture-scope 8-cell
 canon subset, `fixtures/seeded_defects.yaml`.
