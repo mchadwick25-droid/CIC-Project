@@ -42,9 +42,10 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative) for the 
   the documents.'
 tellable_as: the massacre at Thessalonica and the emperor's public penance - told from Ambrose's own
   letter, with the later famous scene named as later
-text: 'In the year 390 the emperor''s soldiers massacred thousands in the circus at Thessalonica -
-  reprisal for a riot, ordered, then countermanded too late. Ambrose did not denounce Theodosius in
-  public. He wrote him a letter in his own hand, for the emperor''s eyes alone: I have no cause for a
+text: 'In the year 390, after a city riot killed one of his generals, the emperor in his rage ordered
+  a reprisal, and his soldiers massacred the crowd in the circus at Thessalonica - innocent and guilty
+  cut down together, with no trial; it is said, the historian writes, that seven thousand perished.
+  Ambrose did not denounce Theodosius in public. He wrote him a letter in his own hand, for the emperor''s eyes alone: I have no cause for a
   charge of contumacy against you, but have cause for fear; I dare not offer the sacrifice if you intend
   to be present. What is not allowed after shedding the blood of one innocent person - is it allowed
   after the blood of many? The demand was repentance, shown, before the emperor could stand at the
@@ -55,8 +56,10 @@ text: 'In the year 390 the emperor''s soldiers massacred thousands in the circus
   to the man who commanded all of them, and the man submitting.'
 absent_detail: What passed between the two men beyond the letter is not recorded by either; the penance's
   own liturgical form and duration come from later tellings, not contemporary ones; and Theodosius's
-  own inward state is exactly what no source can give. Theodoret's dramatized scene is quarantined by
-  name inside the telling - the tiers never mix.
+  own inward state is exactly what no source can give. The casualty figure is Theodoret's, carried with
+  his own hedge ("it is said that seven thousand perished"); the often-told detail that Theodosius
+  countermanded the order too late is NOT in this build's vendored accounts and is not told. Theodoret's
+  dramatized scene is quarantined by name inside the telling - the tiers never mix.
 ---
 A registry-grounded EXTENSION of the legacy Doc_09 inventory (which
 carried six stories and named no story for this episode): Ep. 51 was
