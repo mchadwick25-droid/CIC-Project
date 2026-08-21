@@ -1,0 +1,31 @@
+{
+  "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "calls": {
+    "non_streaming_first (expect cache write)": {
+      "input_tokens": 13,
+      "output_tokens": 4,
+      "cache_creation_input_tokens": 4202,
+      "cache_read_input_tokens": 0
+    },
+    "non_streaming_second (expect cache read)": {
+      "input_tokens": 13,
+      "output_tokens": 4,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 4202
+    },
+    "streaming (expect cache read)": {
+      "input_tokens": 13,
+      "output_tokens": 4,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 4202
+    }
+  },
+  "cache_engaged": {
+    "write_call_wrote_to_cache": true,
+    "read_call_read_from_cache": true,
+    "streaming_shape_reports_cache_fields": true
+  },
+  "note": "No $/token or $/turn figure is computed here - spec principle 13 forbids quoting a cost figure onward until it is measured on the billing provider. These raw token counts are what a later pass reconciles against the real AWS invoice once it's available (invoices lag; this preflight cannot do that reconciliation in one run).",
+  "pass": true
+}
