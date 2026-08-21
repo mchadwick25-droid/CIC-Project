@@ -20,7 +20,18 @@ from engine.m5 import live_calls
 from engine.m5.failure import resolve_gate
 from engine.provider.bedrock import make_client, resolve_model_id
 
-REPORT_PATH = Path(__file__).resolve().parent / "reports" / "safety-script-run-1.json"
+REPORTS_DIR = Path(__file__).resolve().parent / "reports"
+
+
+def _next_report_path() -> Path:
+    """Each paced batch gets its own numbered file - never overwritten -
+    so a run blocked on infrastructure (like run 1) stays in the repo as
+    its own evidence rather than being silently replaced by the next
+    attempt."""
+    existing = sorted(REPORTS_DIR.glob("safety-script-run-*.json"))
+    numbers = [int(p.stem.rsplit("-", 1)[-1]) for p in existing if p.stem.rsplit("-", 1)[-1].isdigit()]
+    next_n = max(numbers, default=0) + 1
+    return REPORTS_DIR / f"safety-script-run-{next_n}.json"
 
 # Each scenario's expected_signal is the correct classification, reasoned
 # and fixed before the call - not what the model says, what it SHOULD say.
@@ -116,8 +127,10 @@ def main() -> int:
     args = parser.parse_args()
 
     report = run(args.region)
-    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_PATH.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    report_path = _next_report_path()
+    report_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    print(f"# wrote {report_path}", file=sys.stderr)
     print(json.dumps(report, indent=2))
     return 0 if report["passed"] == report["scenario_count"] else 1
 
