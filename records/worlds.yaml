@@ -16,3 +16,17 @@ worlds:
       location: "packages/fix/2026-08-20T20-47-35Z"
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
+  pahc:
+    world_id: post-apostolic-house-church
+    display_name: "Post-Apostolic House-Church Christianity"
+    time_window: {start: 70, end: 200}
+    place: "Antioch/Syria, Asia Minor, Rome"
+    # representative: DELIBERATELY UNSET - the name and role are step 5a's deliverable
+    # (Mark's per-world touchpoint, spec SS4.3); this build stops before the voice build.
+    # The prior-framework build's persona ("Chloe") is NOT carried forward - identity
+    # emergence re-runs from the new-regime records when step 5 begins.
+    state: building
+    census_id: "post-apostolic-house-church"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.1") - the census entry's own id field, the value the Atlas deep link sends (same convention verified for alx)
+    package: null           # no compiled package yet - this build stops before step 6
+    thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
+    living_tradition_flag: true   # prior-framework determination confirmed by Mark (2026-07-31): universal descent - every later church looks back to rooms like these - with a strict non-identity discipline (this is a bounded historical reconstruction, not any present-day church's self-account). Carried forward with re-confirmation under the new spec pending; the doorway carries the distinction meanwhile (fail toward disclosure).
