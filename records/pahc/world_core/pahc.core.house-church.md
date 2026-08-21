@@ -28,6 +28,9 @@ sources:
 - source_id: pahc.source.shepherd-hermas
   locus: whole work
   license: public-domain
+- source_id: pahc.source.polycarp-philippians
+  locus: "13 (the forwarding the horizon narrates)"
+  license: public-domain
 time_window:
   start: 70
   end: 200
@@ -35,12 +38,12 @@ horizon: 'Antioch and Syria, the cities of western Asia Minor, and Rome, c. 70-2
   Christian communities gathering in households, joined into one world by letters and travelers - a
   bishop''s guarded journey from Antioch toward Rome, Smyrna forwarding his letters onward at another
   church''s asking, Rome writing at length to correct Corinth. The generations after the apostles''
-  deaths, before settled bishops everywhere, before a closed canon, before legal peace. The 70 CE
-  opening is a formal floor: the lived transition out of the apostles'' own generation firmed up
-  gradually across the years c. 64-100 rather than at any single date. The c. 200 close is
-  directional, not universal: by then a single bishop''s office has become the dominant emerging
-  pattern even in Rome, and a new systematic, succession-arguing mode of teaching has appeared in
-  neighboring regions - the mark that this world''s own way of holding its questions is ending.'
+  deaths, before settled bishops everywhere, before a closed canon, before legal peace. The year 70
+  marks the opening only loosely: the lived transition out of the apostles'' own generation firmed
+  up gradually across c. 64-100 rather than at any single date. The c. 200 close is directional, not
+  universal: by then a single bishop''s office has become the dominant emerging pattern even in Rome,
+  and a new systematic, succession-arguing mode of teaching has appeared in neighboring regions - the
+  mark that this world''s own way of holding its questions is ending.'
 formation_logic: 'Household- and correspondence-based pastoral formation. Catechesis by an adaptable
   handbook of the two ways and by community letters read aloud; baptism and the thanksgiving meal
   ordering common life; unity across real distance exercised by courier and copyist rather than by
@@ -79,8 +82,9 @@ cautions: '1) THE IGNATIUS CONCENTRATION governs every Strand A use: the monarch
   network-wide practice. 6) RIVALS UNDEFEATED: Marcion, Valentinian teaching, and the New Prophecy
   are live, contemporary, geographically overlapping neighbors - the boundary against them is being
   drawn in real time, and later orthodoxy''s settled lines must never be read back. 7) EGYPT
-  EXCLUDED: Alexandria and Egypt are outside this world (a boundary resting substantially on one
-  papyrological argument, flagged as a load-bearing single-source dependency). 8) NO MATERIAL
+  EXCLUDED: Alexandria and Egypt are outside this world - a boundary resting substantially on one
+  papyrological argument from silence, a load-bearing single-source dependency that would weaken if
+  that argument is wrong. 8) NO MATERIAL
   IMPORTS: Dura-Europos, the catacombs, and the Abercius stone all fall at or after this world''s
   close and do not exist for its voice. 9) THE EUSEBIUS SCREEN: institutional or succession claims
   resting on Eusebius''s own narration stay at reduced confidence; his quoted documents rate
@@ -131,12 +135,27 @@ they speak only through Pliny. (3) No ordinary, non-elite member's
 story at all, either strand. (4) No woman's own told story - named
 women (the ministrae; the household greetings to Tavia/Gavia and the
 wife of Epitropus) survive as names and greetings, never narratives.
-(5) No genuine Tier 2 (collected-tradition) story: this world produced
-no sayings-collection genre. (6) No household/"house church" story
+(5) No genuine Tier 2 (collected-tradition) story: no sayings-collection
+genre SURVIVES from this world (whether one existed and was lost, the
+record cannot say). (6) No household/"house church" story
 grounded in a Native voice's own vocabulary (G06's negative finding).
 (7) No material-culture story is possible (cautions 8). (8) No
 institutional-record story is possible (no routine self-documentation
 survives). (9) Marcion, Valentinus, and the New Prophecy appear as
-antagonist backdrop only - never narrated from inside. These absences
-are structural, are data, and are never to be filled by invention (no
-Tier 5, ever).
+antagonist backdrop only - never narrated from inside. (10) G04
+(martyrdom-meaning) and G05 (boundary-drawing) are severely thin even
+WITHIN Strand A - two data points and one voice respectively; no story
+may be added to thicken either beyond what Doc_04 found the evidence
+supports. (11) The narratively vivid material clusters overwhelmingly
+in Strand A (Ignatius's journey, the Martyrdom, the one-eucharist
+program) while Strand B's material is institutional and visionary in
+kind - an imbalance to be named in the telling, never smoothed by
+manufacturing Strand B vividness. These absences are structural, are
+data, and are never to be filled by invention (no Tier 5, ever).
+
+Dropped from the prior inventory's twelve, with reason: its item 8 (two
+Ignatius passages then lacking Registry rows) was a citation-discipline
+housekeeping note, resolved for this build by the new-regime source
+records' letter-level scope (pahc.source.ignatius-letters covers all
+seven letters, so Ephesians 4 and the Smyrnaeans 13/Polycarp 8
+salutations cite it directly); it was never an absent STORY.

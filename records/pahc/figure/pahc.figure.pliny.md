@@ -22,7 +22,7 @@ names:
 - name: Pliny the Younger (Gaius Plinius Caecilius Secundus, c. 61-c. 113; Letters 10.96-97, c. 111-113)
   tag: scholarly
 dates:
-  display: "c. 61-c. 113; governor of Bithynia-Pontus c. 111-113, when the letters were written"
+  display: "c. 61-c. 113 (standard reference dates, not from this world's own record); governor of Bithynia-Pontus c. 111-113, when the letters were written"
 narratable: true
 bridge_line: "A Roman governor, not a Christian. He questioned Christians under threat of death, tortured two enslaved women for details, and wrote to the emperor asking what the rules were."
 ---
@@ -31,6 +31,7 @@ world's worship, filtered through elite Roman superstitio prejudice,
 its most granular detail extracted by torture. Any story told from this
 figure's material is HIS report, never the Christians' own account, and
 never the two ministrae's - the use discipline stated on the source row
-and on pahc.limit/contested records binds every narration. Trajan's
+(and, once the canon step builds them, on the honest-limit and
+contested-claim records) binds every narration. Trajan's
 rescript (10.97) travels with the letter: no seeking out, no anonymous
 accusations, punishment on refusal to recant.

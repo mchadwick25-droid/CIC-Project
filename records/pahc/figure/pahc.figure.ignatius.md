@@ -32,8 +32,9 @@ author-gravity concentration: the monarchical episkopos, the
 presbyterion, the one-eucharist instruction, the martyrdom-longing, and
 the anti-docetic boundary all rest on his corpus alone (Doc_02 SS1.8's
 aggregate accounting). Every telling carries the three-way authenticity
-dispute at the strength the story records set - never presented as
-settled if pressed. If the pseudepigraphy position is right, "Ignatius"
+dispute at full strength - the same calibration the approved story
+inventory set and the new-regime story records will carry - never
+presented as settled if pressed. If the pseudepigraphy position is right, "Ignatius"
 as this world knows him is a later composition's vehicle; the figure
 record keeps the in-world name because the letters themselves present
 him so, while the scholarly name carries the dispute.

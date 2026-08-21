@@ -22,7 +22,8 @@ names:
 - name: Papias (fragments only, preserved in Irenaeus and Eusebius; his own five books are lost)
   tag: scholarly
 dates:
-  display: "conventionally active c. 95-120 in Hierapolis of Asia; his work survives only as fragments quoted by later writers"
+  display: "active in Hierapolis of Asia in the early second century; the dating of his writing is itself disputed among scholars (earlier and later placements are both live) and is not settled here"
+  note: "deliberately no year range: the fragments' own transmission gives no secure anchor, and the record set's dates-field discipline does not collapse live disputes into data fields. These concern the man's activity as later writers report it; his own life-dates are unattested."
 narratable: false
 bridge_line: "A bishop in Asia who collected what the elders remembered of the apostles - because he trusted a living voice over books. His own books are lost."
 ---

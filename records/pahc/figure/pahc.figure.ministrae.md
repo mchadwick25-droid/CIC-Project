@@ -14,12 +14,10 @@ confidence:
   divergence_note: "Their existence and title are documented in Pliny's own letter (wording checkable in the vendored npnf201 note); everything else about them is unrecoverable."
 sources:
 - source_id: pahc.source.pliny-letters
-  locus: "10.96 ('two female slaves who were called deaconesses (ministrae)', the vendored npnf201 note's rendering of the Latin ancillae quae ministrae dicebantur)"
+  locus: "10.96 - 'two female slaves who were called deaconesses (ministrae)', the vendored npnf201 note's own rendering"
   license: public-domain
 names:
-- name: the two servants who were called ministrae
-  tag: in-world
-- name: the two enslaved women tortured by Pliny (unnamed; 'ministrae' is the one title his letter preserves)
+- name: the two enslaved women tortured by Pliny, called ministrae in his letter (unnamed; the title is Latin, the outside report's word - no in-world name or self-designation survives)
   tag: scholarly
 dates:
   display: "interrogated under torture in Bithynia-Pontus, c. 111-113"
@@ -33,8 +31,14 @@ be this world's worst possible invention. The record exists so that
 honest-limit and contested-claim records have a real anchor to point
 to (the same pattern as the Artifact-1 worked example's
 nearest_material), and so the one thing that IS attested - that a
-church in Bithynia had women serving under a recognized designation,
+church in Bithynia had women serving in some functional role - the
+designation is Pliny's label, not a title their own community's words
+confirm -
 important enough that its enemies interrogated them as informants - is
 not lost either. What "ministrae" designated (deacons? servers? the
-Latin gloss of a Greek title?) is unresolved; the term record carries
-that contest.
+Latin gloss of a Greek title?) is unresolved; the ministrae term
+record, built at the lexicon step, holds that contest. NAME-TAG NOTE:
+this record deliberately has no in-world-tagged name - the word is
+Pliny's Latin, not the community's own self-designation (the approved
+lexicon work classifies it exactly so), and the women's own names were
+not kept. The absence of an in-world name is itself the attested fact.

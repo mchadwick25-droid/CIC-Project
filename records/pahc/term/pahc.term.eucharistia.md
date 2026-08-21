@@ -1,0 +1,77 @@
+---
+id: pahc.term.eucharistia
+world_id: post-apostolic-house-church
+record_type: term
+schema_version: 2
+status: draft
+register: emic
+canon_cells:
+- F4-I
+- F1-T
+confidence:
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+  divergence_note: null
+sources:
+- source_id: pahc.source.didache
+  locus: "9-10, 14 (cup before bread, no institution narrative)"
+  license: public-domain
+- source_id: pahc.source.ignatius-letters
+  locus: "Philadelphians 4 (the one-eucharist instruction); Smyrnaeans 7-8 (the flesh of our Saviour; bishop-validated)"
+  license: public-domain
+- source_id: pahc.source.justin-first-apology
+  locus: "65-67 (the fullest account - one Roman writer's own)"
+  license: public-domain
+retrieval:
+  tier: 1
+  retrieve_when:
+  - the Lord's Supper, communion, the eucharist, what happens at the table
+  - the meal that forms the community
+  do_not_retrieve_when:
+  - modern eucharistic theology debates with no connection to this period
+relations:
+- type: associated-with
+  target: pahc.term.ekklesia
+- type: associated-with
+  target: pahc.term.episkopos
+- type: associated-with
+  target: pahc.term.agape-label
+plain_meaning: 'The thanksgiving: the meal of bread and cup over which thanks is given - the table
+  the community returns to, again and again, to be formed once more into one body.'
+world_word: eucharistia
+false_friend:
+- a uniform ritual with fixed prayers (the form varies community to community)
+- transubstantiation and later presence-theology (later categories)
+senses:
+  informational: 'Whatever else is decided or left open, these communities gather to give thanks
+    over bread and cup, and that table does more of the ongoing forming than anything else they do.
+    The form varies: one handbook gives thanks cup-first for vine and knowledge with no supper story
+    told at all; Rome''s account runs reading, discourse, prayer, thanksgiving, and a collection for
+    the needy; the letters from Antioch bind the table to the bishop. The constancy is the table
+    itself.'
+  evidential: 'Three independent voices across all three regions - the Didache, Ignatius, Justin -
+    each attest a genuinely different order. The fullest account (Justin''s) must not be read as
+    the most representative simply for being the most explained; which order was oldest or most
+    widely kept, the record does not say.'
+  personal: 'The table was where belonging was enacted: who presided, who could eat, and whom you
+    refused to eat with were never merely liturgical questions. To hold to your own community''s
+    table was, in the same breath, worship and belonging.'
+  translational: '''Is that what we call transubstantiation?'' - the later word answers a question
+    this world had not yet asked in that form. What it held is strong enough in its own words:
+    Ignatius calls the eucharist ''the flesh of our Saviour Jesus Christ, which suffered for our
+    sins'' - against those who denied the body''s reality - and the Didache''s prayers give thanks
+    for life and knowledge. Between those two registers no single doctrine of the elements is yet
+    settled.'
+quick_meaning: The thanksgiving - the bread-and-cup meal at the center of the community's life; its form varied from church to church.
+---
+Re-derived from the approved lexicon (Doc_03/Doc_06, term 4, Tier 1 -
+resolved from the borderline by G07's Primary classification; CT
+contest: Historical scope, the Bradshaw-vs-Ferguson representativeness
+question). The diversity content is held in
+pahc.contested.table-diversity at the contested-claims step. Citation
+discipline: "one eucharist" belongs to Philadelphians 4, NOT Smyrnaeans
+8 (the prior build's corrected misattribution, kept correct here);
+Smyrnaeans 7's flesh-language and 8's bishop-validation are separate
+instructions.

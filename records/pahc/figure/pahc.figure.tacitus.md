@@ -22,7 +22,7 @@ names:
 - name: Tacitus (Annals 15.44, written c. 116 about the events of 64)
   tag: scholarly
 dates:
-  display: "c. 56-c. 120; the Annals passage written c. 116, describing 64"
+  display: "c. 56-c. 120 (standard reference dates, not from this world's own record); the Annals passage written c. 116, describing 64"
 narratable: true
 bridge_line: "A Roman historian, not a Christian. He recorded Nero blaming Christians for the great fire - with open contempt for them and for Nero alike."
 ---
