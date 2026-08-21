@@ -17,6 +17,7 @@ FAILURE_STATUSES = {"timeout", "error", "parse_failure"}
 class CallOutcome:
     status: str  # ok | timeout | error | parse_failure
     value: dict | None = None
+    raw_usage: object | None = None  # the SDK's own Usage object, when status="ok" - engine.m8's attribution reads this; never re-derived, only carried
 
     @property
     def failed(self) -> bool:

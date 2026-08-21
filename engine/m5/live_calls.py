@@ -158,7 +158,7 @@ def _forced_tool_call(client, model_id: str, *, system: str, tool: dict, user_co
     tool_uses = [b for b in response.content if b.type == "tool_use" and b.name == tool["name"]]
     if not tool_uses:
         return CallOutcome(status="parse_failure", value={"raw": [b.model_dump() for b in response.content]})
-    return CallOutcome(status="ok", value=tool_uses[0].input)
+    return CallOutcome(status="ok", value=tool_uses[0].input, raw_usage=getattr(response, "usage", None))
 
 
 def call_safety(client, model_id: str, *, message: str, recent_window: list[str], accumulator: dict) -> CallOutcome:

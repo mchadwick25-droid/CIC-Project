@@ -167,6 +167,26 @@ jobs:
       - run: pip install -r engine/provider/requirements.txt
       - run: python -m pytest engine/provider/tests -q
 
+  m8-cost-observability:
+    # Added stage 6 (M8: usage attribution, parity, cost unit - CiC-
+    # Program-Spec.md M8, stage-6 gate: "parity against raw usage shapes;
+    # zero unattributed calls; cache economics re-measured and recorded
+    # with the band"). CI runs only the hermetic unit tests (attribution,
+    # the SQLite log store, the parity check against synthetic raw usage
+    # shapes, the cost-unit structure) - never a live Bedrock call. The
+    # lapsed-cache-window and real cache-economics re-measurement are
+    # by-hand evidence runs (engine/m8/cache_economics_measure.py), same
+    # discipline as the safety script and the preflight.
+    name: M8 cost & observability unit tests (mocked, no live AWS call)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/m8/requirements.txt
+      - run: python -m pytest engine/m8/tests -q
+
   m2-compiler-checks:
     # Added stage 2 (M2 compiler, Artifact-2). Covers two of the stage-2
     # gate's three legs directly: "determinism twice (byte-identical)" and

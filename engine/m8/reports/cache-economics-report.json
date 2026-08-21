@@ -1,0 +1,29 @@
+{
+  "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "region": "us-east-1",
+  "write_call": {
+    "cache_creation_input_tokens": 4202,
+    "input_tokens": 13
+  },
+  "read_samples": [
+    {
+      "cache_read_input_tokens": 4202,
+      "input_tokens": 13
+    },
+    {
+      "cache_read_input_tokens": 4202,
+      "input_tokens": 13
+    },
+    {
+      "cache_read_input_tokens": 4202,
+      "input_tokens": 13
+    }
+  ],
+  "band": {
+    "cache_write_engaged": true,
+    "cache_read_tokens_min": 4202,
+    "cache_read_tokens_max": 4202
+  },
+  "note": "Token counts only - no $/token figure computed here (principle 13). What this run confirms is that the underlying MECHANISM (write once, read repeatedly off the same static prefix) still engages correctly on Bedrock under the lazy-loading architecture; invoice-based dollar reconciliation is a separate, later step (engine/provider/preflight.py's still-pending third leg).",
+  "mechanism_confirmed": true
+}

@@ -46,21 +46,34 @@ def stream_voice_turn(client, model_id: str, *, system_prompt: str, message: str
     stream that completes but yields zero text is still status='ok' (it's a
     real, valid model response, just empty) - StreamResult.empty=True is
     exactly the case the caller (engine.m4.turn) must handle without ever
-    conditioning crisis-resource append on it."""
+    conditioning crisis-resource append on it.
+
+    system is the structured cache-eligible shape (Program-Spec SS7: "keep
+    the Messages-API client shape... the static prefix is cached"), not a
+    plain string - a plain string was stage 5's own gap (caught by stage 6's
+    own usage instrumentation work: nothing was ever asking for a cache
+    write in the first place, so every cache field was trivially zero for
+    the wrong reason). A world's compiled prompt still has to clear
+    Anthropic's cache-eligibility floor (~1024 tokens for Sonnet-class) to
+    actually engage - a short prompt (like the fixture's) legitimately
+    shows cache_engaged=False, and that is a different, honest fact from
+    "caching is broken.\""""
     try:
         chunks = []
+        system = [{"type": "text", "text": system_prompt, "cache_control": {"type": "ephemeral"}}]
         with client.messages.stream(
-            model=model_id, max_tokens=max_tokens, system=system_prompt, messages=[{"role": "user", "content": message}]
+            model=model_id, max_tokens=max_tokens, system=system, messages=[{"role": "user", "content": message}]
         ) as stream:
             for text in stream.text_stream:
                 chunks.append(text)
+            final_usage = stream.get_final_message().usage
     except APITimeoutError:
         return CallOutcome(status="timeout")
     except APIError as e:
         return CallOutcome(status="error", value={"error": str(e)})
 
     full_text = "".join(chunks)
-    return CallOutcome(status="ok", value=StreamResult(text=full_text, empty=(full_text.strip() == "")))
+    return CallOutcome(status="ok", value=StreamResult(text=full_text, empty=(full_text.strip() == "")), raw_usage=final_usage)
 
 
 def call_citations(client, model_id: str, *, answer_text: str, available_record_ids: list[str], timeout: float = 4.0) -> CallOutcome:
@@ -92,4 +105,4 @@ def call_citations(client, model_id: str, *, answer_text: str, available_record_
     tool_uses = [b for b in response.content if b.type == "tool_use" and b.name == _CITATIONS_TOOL["name"]]
     if not tool_uses:
         return CallOutcome(status="parse_failure", value={"raw": [b.model_dump() for b in response.content]})
-    return CallOutcome(status="ok", value=tool_uses[0].input)
+    return CallOutcome(status="ok", value=tool_uses[0].input, raw_usage=getattr(response, "usage", None))
