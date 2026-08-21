@@ -30,9 +30,12 @@ flourished about this time in Egypt... Pachomius..."), rule summary from
 line 31705.
 
 Registered because the Pachomian Rule itself has no vendorable English
-(see desert.search.pachomian-rule-english-pd): Sozomen III.14 plus
-Palladius ch. XXXII are the two vendored witnesses to the Rule's content,
-both at one remove, both carrying the angel-tablet hagiographic frame.
+(see desert.search.pachomian-rule-english-pd): Sozomen III.14 and
+Palladius ch. XXXII are the two content-bearing vendored witnesses to
+the Rule, both at one remove, both carrying the angel-tablet hagiographic
+frame; Gennadius's notice (npnf203 line 42250) is a third, thinner
+vendored witness - existence and the angelic-dictation frame only, not
+content (count harmonized per Step2 Review Round 1, Finding 13).
 Any record resting Rule-content claims on them says "as reported by",
 never "as the Rule reads". Dependence screen: where Sozomen tracks
 Socrates, he is not a second witness - corroborating weight only.

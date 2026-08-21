@@ -10,7 +10,7 @@ confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Documented
+  formation_confidence: Widely Accepted
   divergence_note: null
 sources: []
 relations:
@@ -29,6 +29,14 @@ Public Domain"). Cellia nine-years statement verified at file line 295
 ("I sojourned in this Cellia nine years"); Pachomius chapter (XXXII, the
 angel's brass-tablet rule account) at lines 397-399ff; Arsisius-knew-
 Pachomius testimony at line 227.
+
+Confidence correction (Step2 Review Round 1, Finding 2): a first draft
+rated formation_confidence Documented; the cleared Doc_02 SS2.1/SS9
+rates the work Widely Accepted as to authorship, approximate date, and
+general content, and holding the vendored Clarke file documents the
+EDITION, not the fourth-century facts. Reverted to Widely Accepted to
+match Doc_02, unmarked upgrades being exactly what the cross-document
+consistency rule exists to prevent.
 
 Division of labor with the Alexandria build: alx bounded its use of this
 file to personally-witnessed Alexandria-adjacent material and reserved

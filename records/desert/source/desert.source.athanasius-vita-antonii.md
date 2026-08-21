@@ -32,6 +32,12 @@ Domain). Work division located at line 30411; the daily-martyrdom passage
 per-work (Ellershaw), per the corpus's per-work translator discipline;
 re-confirm from the division's own title page at first quote.
 
+Register note: emic is deliberate despite the outsider author - the Vita
+is registered as the founding narrative THIS WORLD received and told
+about itself (the tradition's own self-presentation), not as an outside
+account about it; the outsider-authorship risk is carried in the author
+gravity screen below, not in the register field.
+
 AUTHOR GRAVITY (load-bearing, from Doc_01 SS4 / Doc_02 SS1.1): this world's
 founding narrative comes from a Greek-literate outsider - Alexandria's
 bishop - writing with a documented theological-political agenda (Brakke:

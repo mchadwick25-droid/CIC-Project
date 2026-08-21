@@ -15,6 +15,8 @@ confidence:
 sources: []
 relations:
 - type: associated-with
+  target: desert.source.gould-desert-fathers
+- type: associated-with
   target: desert.source.rubenson-letters
 - type: associated-with
   target: desert.source.jerome-de-viris

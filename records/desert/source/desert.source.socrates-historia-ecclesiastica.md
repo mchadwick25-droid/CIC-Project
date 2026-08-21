@@ -19,16 +19,16 @@ relations:
 - type: associated-with
   target: desert.source.sozomen-historia-ecclesiastica
 author: "Socrates Scholasticus (c. 380-after 439 CE) - lay church historian, Constantinople; never a desert participant"
-work: "Historia Ecclesiastica (c. 439-443), used here ONLY for its Egyptian-monasticism material: IV.23-24 (the monastic digression - lives of the Nitrian and Scetiote ascetics, the anthropomorphite affair, and English excerpts from Evagrius Ponticus's own writings, the only substantial Evagrius text in the vendored corpus) and VI.7-17 area (Theophilus, the Tall Brothers, and the Origenist expulsion reaching Constantinople); an outside, later, Constantinopolitan witness - institutional claims screened accordingly"
-edition: "trans. A. C. Zenos (in NPNF series 2 vol. 2, 1890), vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml (Nitria/Scetis monastic material from file line 13426; Evagrius excerpts from line 13521)"
+work: "Historia Ecclesiastica (c. 439-443), used here ONLY for its Egyptian-monasticism material: IV.23-24 (the monastic digression - lives of the Nitrian and Scetiote ascetics, and English excerpts from Evagrius Ponticus's own writings, the only substantial Evagrius text in the vendored corpus) and the Book VI Theophilus sequence (the anthropomorphite affair, the Tall Brothers, and the Origenist expulsion reaching Constantinople - anthropomorphite material sits in Book VI, NOT in the IV.23-24 digression; corrected per Step2 Review Round 1, Finding 3); an outside, later, Constantinopolitan witness - institutional claims screened accordingly"
+edition: "trans. A. C. Zenos (in NPNF series 2 vol. 2, 1890), vendored as cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml (the monastic-digression chapter division at file line 13377; the Evagrius excerpts from 'These are his words:' at line 13550 through ~13719; anthropomorphite material in Book VI, first at ~line 17687)"
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "surfaced during this build's step-2 corpus survey (2026-08-21) as the vendorable witness for Evagrius excerpts and the Origenist-controversy sequence; volume supplied with the CCEL corpus (Mark, 2026-08-15-18); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf202"}
 ---
 Rights verified 2026-08-21 from the file's own DC.Rights header (Public
-Domain). Monastic digression and Evagrius quotations located (lines
-13426-13552 area); exact chapter boundaries re-checked at first quote.
+Domain). Loci corrected to division boundaries per Step2 Review Round 1,
+Finding 9 (chapter division 13377; Evagrius excerpts 13550-13719).
 
 Why this outside source is registered: (1) it carries the only vendored
 English of Evagrius's own sentences (quoted excerpts inside IV.23),

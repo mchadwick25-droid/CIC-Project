@@ -15,6 +15,8 @@ confidence:
 sources: []
 relations:
 - type: associated-with
+  target: desert.source.veilleux-koinonia
+- type: associated-with
   target: desert.source.rousseau-pachomius
 author: "The Pachomian federation (Pachomius c. 292-346 and successors; the Lives produced and revised within the koinonia)"
 work: "The Pachomian corpus: the Rules (Praecepta and companion collections - surviving complete only in Jerome's Latin translation of 404, made from a Greek intermediary itself translated from Coptic, with partial Coptic originals) and the Lives of Pachomius (Sahidic and Bohairic Coptic, and Greek including the Vita Prima - multiple only-partially-overlapping recensions whose priority and incident-level reliability remain genuinely debated: Rousseau and Veilleux hold differing positions, not adjudicated by this build). Strand B's own internal documentation - the most direct textual link this world has to its cenobitic governance"

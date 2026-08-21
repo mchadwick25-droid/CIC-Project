@@ -22,7 +22,7 @@
 | source record | file | what it carries for this world |
 |---|---|---|
 | `desert.source.athanasius-vita-antonii` | `npnf204…xml` (`DC.Rights: Public Domain`) | the founding narrative, outsider-authored; §§46–47 daily-martyrdom anchor verified verbatim |
-| `desert.source.cassian-institutes` / `desert.source.cassian-conferences` | `npnf211…xml` (PD) | Egyptian teaching in codified export; all 24 Conferences present (checked) |
+| `desert.source.cassian-institutes` / `desert.source.cassian-conferences` | `npnf211…xml` (PD) | Egyptian teaching in codified export. Edition gaps (checked at division-body level, Review Round 1): Conf. XII and XXII and Institutes Book VI are untranslated in this edition — the sexuality material is excised entirely |
 | `desert.source.palladius-lausiac-history` | `palladius_lausiac-history_clarke1918.txt` (PD) | the resident observer; Pachomius ch. XXXII; Cellia nine years |
 | `desert.source.socrates-historia-ecclesiastica` | `npnf202…xml` (PD) | the only vendored English Evagrius excerpts (IV.23); the 399–400 Origenist sequence |
 | `desert.source.sozomen-historia-ecclesiastica` | `npnf202…xml` (PD) | Pachomian rule content at one remove (III.14) |
@@ -30,7 +30,7 @@
 | `desert.source.jerome-de-viris` | `npnf203…xml` (PD) | Jerome's attestation of Antony's seven letters; Gennadius on Pachomius/Theodorus/Orsiesius |
 | `desert.source.jerome-letter-22` | `npnf206…xml` (PD) | the 384 outside typology of Egyptian monk-kinds (§§34–36) |
 
-Registered without files (no vendorable edition exists or acquisition is blocked): `apophthegmata-patrum`, `pachomian-corpus`, `antony-letters`, `evagrius-praktikos`, `historia-monachorum`, `kellia-excavations`, `nepheros-archive`, plus the six consult-only scholarship records (Brakke ×2, Rubenson, Burton-Christie, Goehring, Rousseau).
+Registered without files (no vendorable edition exists or acquisition is blocked): `apophthegmata-patrum`, `pachomian-corpus`, `antony-letters`, `evagrius-praktikos`, `historia-monachorum`, `kellia-excavations`, `nepheros-archive`, plus the eight consult-only scholarship records (Brakke ×2, Rubenson, Gould, Burton-Christie, Goehring, Rousseau, Veilleux — Gould and Veilleux added at Review Round 1, Finding 4, so no load-bearing name floats unregistered).
 
 ---
 
@@ -39,12 +39,12 @@ Registered without files (no vendorable edition exists or acquisition is blocked
 ### G1 — Budge, *The Paradise or Garden of the Holy Fathers* (1907), vols. 1–2 — **P1**
 - **What:** E. A. Wallis Budge's translation of ʿEnanishoʿ's 7th-c. Syriac *Book of Paradise*: vol. 1 = Palladius + the History of the Monks (Syriac recension); **vol. 2 = the Sayings of the Fathers — the only public-domain English Apophthegmata corpus in existence.**
 - **Where:** archive.org — vol. 2 identifier `ParadiseOfTheHolyFathersV2`; vol. 1 e.g. `paradiseorgarde01budggoog` / `theparadiseorgar01unkwuoft`; also `en.wikisource.org/wiki/The_Paradise/Volume_2`. Plain-text (djvu.txt) or any export carrying the title page.
-- **Expected rights:** public domain (1907; Budge d. 1934 — PD in the US and, by life+70, everywhere since 2005).
+- **Expected rights:** public domain in the US (1907 publication) and in life+70 jurisdictions (Budge d. 1934); a few longer-term jurisdictions differ — the file's own front matter decides at vendoring, as always.
 - **Why P1:** the Apophthegmata is this world's central teaching corpus. Until this file lands, **every saying in the record set is license `paraphrase-only` and no verbatim saying can be voiced.** On arrival: verify rights from the scan's own front matter, vendor, re-verify each paraphrase-only quote against Budge's text and upgrade to `verbatim` (with the Syriac-recension caveat in each locus) where exact.
 - **This session could not fetch it:** network policy blocks archive.org file downloads (verified; recorded in `desert.search.apophthegmata-pd-english`).
 
 ### G2 — consult-only acquisitions (decision, not download) — **P2**
-Confirm whether these are available to the build as consult-only research inputs (never vendored, never quoted): Veilleux, *Pachomian Koinonia* vols. 1–2 (Rule + Lives); Rubenson, *The Letters of St. Antony*; Ward, *The Sayings of the Desert Fathers* (accuracy control for paraphrased sayings until Budge lands); Brakke ×2, Burton-Christie, Goehring, Rousseau (already carried by the prior build's cleared Doc_02, assumed still in hand).
+Confirm whether these are available to the build as consult-only research inputs (never vendored, never quoted): Veilleux, *Pachomian Koinonia* vols. 1–2 (Rule + Lives); Rubenson, *The Letters of St. Antony*; Gould, *The Desert Fathers on Monastic Community*; Ward, *The Sayings of the Desert Fathers* (accuracy control for paraphrased sayings until Budge lands); Brakke ×2, Burton-Christie, Goehring, Rousseau (already carried by the prior build's registry, assumed still in hand). All except Ward now have consult-only source records.
 
 ---
 

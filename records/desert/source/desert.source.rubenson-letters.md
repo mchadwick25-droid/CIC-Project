@@ -15,6 +15,8 @@ confidence:
 sources: []
 relations:
 - type: associated-with
+  target: desert.source.gould-desert-fathers
+- type: associated-with
   target: desert.source.antony-letters
 author: "Samuel Rubenson"
 work: "The Letters of St. Antony: Monasticism and the Making of a Saint (Fortress Press, 1995; originally Lund University Press, 1990, same main title with the subtitle Origenist Theology, Monastic Tradition and the Making of a Saint). Argues from the seven letters that Antony was theologically literate, familiar with Platonic vocabulary, and substantively Origenist - directly against Athanasius's agrammatos portrait. The authenticity case is substantive; the Origenist-influence reading is more sharply contested (Graham Gould's published counter-position). One of the two works Step 0 explicitly added to this world's source base"

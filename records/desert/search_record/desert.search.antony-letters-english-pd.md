@@ -17,5 +17,5 @@ query: "Public-domain English translation of the seven Letters of Antony"
 result: not_found
 channel: "web search (WebSearch) + prior build's Doc_02 verification trail, 2026-08-21"
 found_sources: []
-note: "No public-domain English translation exists. The Letters survive chiefly through Georgian, Latin, and Syriac versions with Greek and Coptic fragments; the standard English is Rubenson (1990/1995), copyrighted, consult-only. The one vendored anchor for the Letters' ancient attestation is Jerome, De viris illustribus (Antony chapter, npnf203 line 41173) - registered and wired to the source record. Consequence: the Rubenson/Athanasius literacy contest is carried entirely at the contested-claim level; no Letters text can be quoted."
+note: "No public-domain English translation was located, and this search knows of none. The Letters survive chiefly through Georgian, Latin, and Syriac versions with Greek and Coptic fragments; the standard English is Rubenson (1990/1995), copyrighted, consult-only. The one vendored anchor for the Letters' ancient attestation is Jerome, De viris illustribus (Antony chapter, npnf203 line 41173) - registered and wired to the source record. Consequence: the Rubenson/Athanasius literacy contest is carried entirely at the contested-claim level; no Letters text can be quoted."
 ---

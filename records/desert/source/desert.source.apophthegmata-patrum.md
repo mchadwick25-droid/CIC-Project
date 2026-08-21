@@ -29,6 +29,17 @@ cleared Doc_02: the corpus's general origin in this world's own oral
 teaching is Widely Accepted; fidelity of any individual saying to its
 original context is Contested (carried per-record, not here).
 
+RECORDED DECISION - the ammas fold (Step2 Review Round 1, observation):
+the prior build carried a separate source row for the ammas' sayings
+(srcDES006); this record set folds them here because their source IS
+this corpus (no independent transmission stream exists, Doc_02 SS1.6).
+The fold must not lose Doc_02 SS1.6's own confidence bounds: Widely
+Accepted that named ammas (Syncletica, Theodora, Sarah) and their
+sayings are a genuine, if thin, part of the tradition; Inferential-Thin
+for ANY claim beyond what the surviving sayings themselves state. The
+amma figure records at step 3 carry those bounds forward explicitly -
+the gender axis of Doc_02 SS6's Affirmative Duty rides on it.
+
 VERBATIM DISCIPLINE (hard rule for step 4): until a public-domain file
 is vendored and machine-checkable, no quote record citing this source
 may carry license: verbatim. Sayings enter as paraphrase-only quotes or
