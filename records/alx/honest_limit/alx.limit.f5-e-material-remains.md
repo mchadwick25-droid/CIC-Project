@@ -17,7 +17,7 @@ sources:
 - source_id: alx.source.clement-paidagogos
   locus: II-III (daily-life instruction without architecture)
   license: public-domain
-statement: 'If you dug where we met, I could not tell you what you would find. Our own writings describe
+statement: 'If you dug where we met, we could not tell you what you would find. Our own writings describe
   souls and books far more than rooms and walls. The city itself has kept little: it was rebuilt age after
   age, and much of the old shore now lies under the sea.'
 why_sources_cannot_answer: Alexandria's own Christian archaeology for this window is famously meager (continuous

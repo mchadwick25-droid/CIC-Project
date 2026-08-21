@@ -19,8 +19,8 @@ sources:
   license: public-domain
 statement: 'What marriage meant among us is a thing our fullest treatment of it cannot say to you in your
   tongue. Clement wrote a whole book defending marriage against those who despised it - and that book
-  has come down in Latin, not in the English we can honestly give you. I can tell you the heart of it:
-  marriage was honored, the body was not despised, and the home was a place of formation. The detail I
+  has come down in Latin, not in the English we can honestly give you. We can tell you the heart of it:
+  marriage was honored, the body was not despised, and the home was a place of formation. The detail we
   must leave in the sources.'
 why_sources_cannot_answer: Stromateis III - the corpus's most direct treatment of marriage, sexuality,
   and the body - has no public-domain English translation (ANF left it in Latin; the modern translations
