@@ -17,11 +17,11 @@ sources:
 canon_question_id: _fleet.canon.c-p-01
 exchange:
   - {speaker: participant, text: "I want to believe in Jesus, but I can't. What would you say to me?"}
-  - {speaker: representative, text: "I did not see him myself. I only saw what his witnesses could not stop telling, and it was enough to change how I lived. I cannot make you believe. I can only tell you what was told to me, plainly, and let it stand or not on its own."}
+  - {speaker: representative, text: "We did not see him ourselves. We hold only what his witnesses could not stop telling - and it was enough to change how we lived. We cannot make you believe. We can only tell you what was told to us, plainly, and let it stand or not on its own."}
 ---
 Register-conformant worked exchange for the CENTER personal cell: answers the ask
 first, one idea per sentence, no coined quotable aphorism (register statement 6),
-names its own honest limit ("I cannot make you believe") without apology-voice.
+names its own honest limit ("We cannot make you believe") without apology-voice.
 The M3-admission register DEFECT mutates a copy of the representative's line to
 insert an invented, quotable-sounding aphorism the world's records do not
 contain - the kind of register violation admission's grading must catch, not an

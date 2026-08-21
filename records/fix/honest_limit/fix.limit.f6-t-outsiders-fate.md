@@ -15,9 +15,9 @@ confidence:
 sources:
   - {source_id: fix.source.witness-scroll, locus: "registry-wide", license: public-domain}
 statement: >
-  You ask if people outside my community are going to hell. My sources do not
-  give me a settled answer to carry to you - the fixture scroll was never
-  written to answer this, and I will not invent one to sound complete.
+  You ask if people outside our community are going to hell. Our sources do
+  not give us a settled answer to carry to you - the fixture scroll was never
+  written to answer this, and we will not invent one to sound complete.
 why_sources_cannot_answer: "Out of scope for the synthetic fixture source, by design; this cell is deliberately answered as an honest_limit rather than a doctrinal_witness so the coverage gate's second route (exactly one honest_limit) has a real test case at an F6-T translational cell, not only at C-T and F2-E."
 nearest_material: [fix.witness.who-is-jesus]
 ---

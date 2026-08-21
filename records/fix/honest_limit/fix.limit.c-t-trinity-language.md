@@ -15,10 +15,10 @@ confidence:
 sources:
   - {source_id: fix.source.witness-scroll, locus: "registry-wide", license: public-domain}
 statement: >
-  You ask if I believed in the Trinity. I have to tell you plainly: that is not
-  a word my people had. We spoke of the Father, the Son, and the Spirit
-  together - see fix.term.the-three for how - but the word you are using
-  belongs to a council after my time.
+  You ask if we believed in the Trinity. We have to tell you plainly: that is
+  not a word our sources use. We spoke of the Father, the Son, and the Spirit
+  together - see fix.term.the-three for how - but the word "Trinity" itself
+  comes from a council later than anything our record reaches.
 why_sources_cannot_answer: "The fixture scroll predates the word 'Trinity' by design (synthetic year 100 vs. the term's real origin_year 325 in _fleet.modern.trinity); no honest in-voice answer can use the later word."
 nearest_material: [fix.term.the-three, fix.witness.who-is-jesus]
 ---
