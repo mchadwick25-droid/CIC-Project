@@ -13,6 +13,8 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources: []
+relations:
+  - {type: associated-with, target: alx.source.origen-philocalia}
 author: "Origen (c. 185-254 CE)"
 work: "De Principiis (On First Principles) - English of Rufinus's Latin translation, with its known doctrinal softening"
 edition: "trans. Frederick Crombie, Ante-Nicene Fathers vol. 4 (1885), vendored as cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
@@ -31,7 +33,7 @@ English of Rufinus's Latin, and Rufinus softened doctrinally suspect
 passages. Fine-grained claims about Origen's precise positions
 (pre-existence of souls, apokatastasis, subordinationist formulations) must
 carry reduced confidence when resting on this text alone. The Greek control
-for Book IV (the senses of Scripture) is the Philocalia - NOT yet vendored;
-it remains a wanted acquisition (alx.search.origen-philocalia-lewis, Lewis
-1911, expected PD). Any future record citing De Principiis IV should carry a
-relation to the Philocalia source record once that file arrives.
+for Book IV (the senses of Scripture) is the Philocalia - vendored
+2026-08-21 as cic/texts/origen_philocalia_lewis1911.txt; the associated-with
+relation above points at alx.source.origen-philocalia, and records citing
+De Principiis IV should prefer or cross-check the Greek-derived text.

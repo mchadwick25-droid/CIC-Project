@@ -56,10 +56,10 @@ World/Representative identity is one of Mark's four per-world touchpoints (Build
 - **Vendored file:** `cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` — `DC.Rights: Public Domain`, read from the file 2026-08-20.
 - **Source records:** `alx.source.origen-comm-john` (books I–X) · `alx.source.origen-comm-matthew` (books I–II, X–XIV). Partiality stated in the work fields.
 
-### 2.5 Origen — *Philocalia* (Lewis, 1911) — **P2 · OPEN — now the top acquisition**
-- **Edition/location:** *The Philocalia of Origen*, trans. George Lewis (T&T Clark, 1911) — https://archive.org/details/philocaliaoforig00orig · https://www.tertullian.org/fathers/origen_philocalia_02_text.htm
-- **Expected rights:** public domain (1911).
-- **Why top:** the Greek anthology of Origen (Basil and Gregory Nazianzen's) — the *control text* against Rufinus's softened Latin, which is now the vendored De Principiis' only form. The fleet-level wantlist (`Texts_Acquisition_Wantlist.md`, Tier 3 #9) independently names it. With everything else supplied, this is the single most valuable remaining file for this world.
+### 2.5 Origen — *Philocalia* (Lewis, 1911) — **P2 · SUPPLIED 2026-08-21, verified**
+- **Vendored file:** `cic/texts/origen_philocalia_lewis1911.txt` (commit 311b132) — "Rights: Public Domain" in the file's own header plus the transcriber's footer declaration ("transcribed by Roger Pearse, 2003... public domain - copy freely"), both read directly 2026-08-21. Translator identification (Lewis, T&T Clark 1911) is external-only — not inline in the transcription — flagged in the file's header and the source record's edition field.
+- **Source record:** `alx.source.origen-philocalia`, with the reciprocal `associated-with` relation to `alx.source.origen-de-principiis` that the search record required: records citing De Principiis IV prefer or cross-check the Philocalia's Greek-derived text against Crombie-of-Rufinus.
+- Content spot-verified: the senses-of-Scripture material (the Literal/Moral/Mystical table; "As man consists of body, soul, and spirit, so too does Scripture") present at file lines 51 and 76.
 
 ### 2.6 Athanasius — NPNF2-04 — **P1 · SUPPLIED, verified**
 - **Vendored file:** `cic/texts/npnf204_athanasius-select-works-letters.xml` — `DC.Rights: Public Domain`, read from the file 2026-08-20.
@@ -105,11 +105,11 @@ All four textual gaps below were **independently confirmed by the corpus scrub**
 
 | # | Gap (search record) | What's missing | Options |
 |---|---|---|---|
-| **G1** | `alx.search.stromateis-iii-english` (not_found; confirmed by the anf02 file's own Latin-sections header) | *Stromateis* III — marriage, sexuality, the body; feeds F5-T marriage and F6 identity-collision (divorce/remarriage) cells | (a) acquire Ferguson (FOTC 85, 1991) or Oulton/Chadwick (LCC II, 1954) consult-only; (b) accept thinness → honest_limit records. Recommend (a): those cells are canon-required and demonstration-required. |
+| **G1** | `alx.search.stromateis-iii-english` (not_found; confirmed by the anf02 file's own Latin-sections header) | *Stromateis* III — marriage, sexuality, the body; feeds F5-T marriage and F6 identity-collision (divorce/remarriage) cells | (a) acquire Ferguson (FOTC 85, 1991) or Oulton/Chadwick (LCC II, 1954) consult-only; (b) accept thinness → honest_limit records. Recommend (a): those cells are canon-required and demonstration-required. *Status note (relayed 2026-08-21, not verified on this branch): Mark located an Oulton/Chadwick 1954 text and it was correctly NOT vendored (in-copyright) — option (a) may already be in hand as consult-only; the decision is still his.* |
 | **G2** | `alx.search.origen-homilies-pd` (not_found; scrub concurs: "no homily exists in any vendored volume") | Origen's homiletic corpus — his *congregational* voice; without it the vendorable Origen skews elite/systematic | (a) Heine FOTC 71 (Gen/Ex), Lienhard FOTC 94 (Luke), Lawson ACW 26 (Song) consult-only; (b) accept skew → state in world_core cautions. Recommend (a) for at least one homily volume. |
 | **G3** | `alx.search.didymus-tura-english` (not_found; the fleet wantlist independently rules it: "discovered 1941... there cannot be" a PD edition) | Didymus — the late-horizon teaching tradition in its own words | (a) Hill FOTC 111 consult-only; (b) accept: the late horizon speaks through Athanasius plus vendored testimonia (Palladius line 211; Jerome De viris 109 in npnf203; Socrates IV.25 in npnf202) → honest_limit where cells depend on it. Either defensible; the skew must be stated regardless. |
 | **G4** | `alx.search.athanasius-marcellinus-pd` (not_found) | *Letter to Marcellinus* (praying the Psalms) | Low severity — F4 prayer served elsewhere. (a) Gregg (CWS 1980) consult-only; (b) drop. Recommend (b). |
-| **G5** | `alx.search.origen-on-prayer-curtis` (found, rights caution; not vendored) | *On Prayer* — CCEL hosts Curtis's translation as PD, but it reached CCEL undated via private papers | (a) accept CCEL's PD assertion and vendor with the caution in the provenance header; (b) treat as consult-only. Mark's call — the file's own header decides at record admission either way. |
+| **G5** | `alx.search.origen-on-prayer-curtis` (found, rights caution; not vendored) | *On Prayer* — CCEL hosts Curtis's translation as PD, but it reached CCEL undated via private papers | (a) accept CCEL's PD assertion and vendor with the caution in the provenance header; (b) treat as consult-only. Mark's call — the file's own header decides at record admission either way. *Status note (relayed 2026-08-21): a CCEL ThML export of the same page was supplied but adds no provenance clarity on the chain-of-custody question; not vendored, still open.* |
 
 **Standing recommendation on consult-only acquisitions:** research inputs for steps 3–5, never archive texts; contributions enter records as sourced paraphrase at honest confidence, never as licensed quotes.
 
@@ -143,18 +143,18 @@ All four textual gaps below were **independently confirmed by the corpus scrub**
 
 ## 9. Search record index (`records/alx/search_record/`)
 
-Found, now SUPPLIED with source records: `clement-anf2` · `origen-anf` · `athanasius-npnf2-04` · `gregory-address-anf6` · `eusebius-npnf2-01` · `dionysius-feltoe` (via the ANF 6 fallback) · `palladius-lausiac-clarke`
-Found, still OPEN: `clement-loeb-butterworth` (P3, corrected) · `origen-philocalia-lewis` (P2, top remaining) · `origen-on-prayer-curtis` (G5 decision) · `oxyrhynchus-grenfell-hunt` (P3, bounded)
+Found, now SUPPLIED with source records: `clement-anf2` · `origen-anf` · `origen-philocalia-lewis` (supplied 2026-08-21) · `athanasius-npnf2-04` · `gregory-address-anf6` · `eusebius-npnf2-01` · `dionysius-feltoe` (via the ANF 6 fallback) · `palladius-lausiac-clarke`
+Found, still OPEN: `clement-loeb-butterworth` (P3, corrected) · `origen-on-prayer-curtis` (G5 decision) · `oxyrhynchus-grenfell-hunt` (P3, bounded)
 Not found (all four independently confirmed against the vendored corpus): `stromateis-iii-english` · `origen-homilies-pd` · `didymus-tura-english` · `athanasius-marcellinus-pd`
 
-## 10. The source base as it stands (`records/alx/source/`, 17 records, all rights verified from file headers)
+## 10. The source base as it stands (`records/alx/source/`, 18 records, all rights verified from file headers)
 
 Clement: `clement-protrepticus` · `clement-paidagogos` · `clement-stromateis` · `clement-quis-dives`
-Origen: `origen-de-principiis` · `origen-contra-celsum` · `origen-comm-john` · `origen-comm-matthew`
+Origen: `origen-de-principiis` · `origen-contra-celsum` · `origen-comm-john` · `origen-comm-matthew` · `origen-philocalia` (⇄ de-principiis, associated-with)
 Gregory: `gregory-address-to-origen` · Dionysius: `dionysius-extant-fragments`
 Athanasius: `athanasius-de-incarnatione` · `athanasius-vita-antonii` · `athanasius-festal-letters` · `athanasius-contra-arianos` · `athanasius-de-decretis`
 Narrative (etic): `eusebius-historia-ecclesiastica` · `palladius-lausiac-history`
 
 ---
 
-*Step-2 state: the P1 core is supplied and verified; open items are the Philocalia (top), the G1–G5 decisions (Mark's), and the P3 tail. The prior build's scrub (`Texts_Scrub_alexandria.md`) is lead material for steps 3–4 — verify every lead against the vendored text itself, never trust its paraphrase, and honor its out-of-horizon trap map. Registry entry for `alx` in `records/worlds.yaml` is deliberately not added — identity is Mark's touchpoint and the registry is the build thread's file.*
+*Step-2 state: the P1 core AND the Philocalia are supplied and verified; open items are the G1–G5 decisions (Mark's) and the P3 tail (Loeb, Feltoe, Oxyrhynchus, Philo/Yonge) — nothing above P3 remains unacquired. The prior build's scrub (`Texts_Scrub_alexandria.md`) is lead material for steps 3–4 — verify every lead against the vendored text itself, never trust its paraphrase, and honor its out-of-horizon trap map. Registry entry for `alx` in `records/worlds.yaml` is deliberately not added — identity is Mark's touchpoint and the registry is the build thread's file.*
