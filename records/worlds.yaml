@@ -16,3 +16,14 @@ worlds:
       location: "packages/fix/2026-08-20T20-47-35Z"
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
+  syr:
+    world_id: syriac-edessa-nisibis
+    display_name: "Syriac Christianity (Edessa/Nisibis)"
+    time_window: {start: 200, end: 410}
+    place: "The Syriac-speaking ecology across the Roman-Persian Mesopotamian frontier (Edessa, Nisibis, Persian Adiabene)"
+    representative: {name: Yausep, role_label: Mar}   # sanctioned fabrications (spec principle 14) - prior-framework decision by Mark (Representative_Identity_Preliminary_Decision.md + Phase Two Formation Calibration, 2026-07-07/08: name Yausep; role revised Malpana->Deacon->Mar by Mark's own rulings). Carried as WORKING values only: step 5a identity emergence and Mark's checkpoint under the new spec are still pending; nothing in this build's record set depends on them
+    state: building         # steps 2-4 in progress on this branch (source ecology, lexicon, ecology reconstruction, answer canon); no voice build, no compile, no admission
+    census_id: "syriac-edessa-nisibis"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.7") - same deep-link field the alx entry verified (data-aid = census id); matches this world's own world_id independently
+    package: null           # no compiled package - step 6 not reached
+    thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
+    living_tradition_flag: true   # prior-framework confirmation by Mark (2026-07-11, Living Tradition Status CONFIRMED: the Syriac churches - Church of the East, Syriac Orthodox, Eastern Catholic heirs - are living heirs); carried forward with re-confirmation under the new spec flagged as pending - the doorway carries the living-tradition distinction meanwhile (fail toward disclosure)
