@@ -63,7 +63,7 @@ question.
 | `johannine-logos` [1B init/internal] | C-T; secondary F1-I | MEDIUM | Foundational Logos-Christ identification — same subject as `logos-unity`, C-T. |
 | `knowing-impulse` [1B init/internal] | F1-I; secondary F1-P | MEDIUM | "Genuinely knowing God, not merely holding right beliefs" reads directly against F1-I's "what did you believe about God." Named as the speculative-freedom pole's own ground (→ F1-P). |
 | `philonic-inheritance` [1A init/external] | F2-I | HIGH | The allegorical reading method's own origin — F2-I is "how did you read your scriptures? what did you look for in them." |
-| `platonic-environment` [1A init/external] | F1-I | LOW | "Philosophy as preparation, not destination" doesn't map cleanly to any cell's actual question text — closest is F1-I's general belief-formation subject, but this is a genuine judgment call. Alternative: no cell (a background-environment force, not participant-facing). |
+| `platonic-environment` [1A init/external] | F1-I | MEDIUM (upgraded from LOW on review) | Under-weighted on first pass: `illustrated-by → alx.quote.clement-schoolmaster`, already compiled and tagged `F1-I`, carries this force's own manifestation almost verbatim ("philosophy... a schoolmaster... preparation, paving the way for him who is perfected in Christ"). That's a real signal-2 anchor, not just topical guesswork. Still not HIGH: F1-I's actual question set is God-belief content ("What did you believe about God?"), not "surrounding philosophical culture" — the 28 cells have no clean slot for an ambient-environment force, so the fit is real but not tight. F3-E ("what would an outsider have found strangest about you") remains a plausible alternative a reviewer may prefer. |
 | `septuagint-inheritance` [1A init/external] | F2-I | HIGH | F2-I's own question ("was your Bible the same as ours") is precisely the LXX-vs-Hebrew-canon question this force names. |
 | `gnostic-challenge` [2A ongoing/external] | F2-E; secondary F1-I | HIGH | F2-E's question ("What about the gospels that didn't make it in — were they suppressed?") is the rival-scripture/Gnostic-text subject directly. `term.gnosis` already tagged F1-I. |
 | `neoplatonic-challenge` [2A ongoing/external] | F1-I | LOW | Porphyry's attack on Origen's allegory is closest to the F2 cluster's method-critique, but the force's own framing (a rival ascent-without-Incarnation system) reads more like general belief-content. Genuinely uncertain — flagging rather than guessing between F1-I, F2-P, and F3-E. |
@@ -92,16 +92,19 @@ question.
 
 ## Summary for the reviewer
 
-- **27 of 32** get a proposed primary cell at MEDIUM or HIGH confidence.
+- **28 of 32** get a proposed primary cell at MEDIUM or HIGH confidence
+  (`platonic-environment` upgraded from LOW to MEDIUM on review — see its
+  row; its `illustrated-by` anchor to an already-`F1-I`-tagged quote was
+  under-weighted on first pass).
 - **4 flagged for "possibly no cell at all"**: `transmission-ending`,
   `arab-conquest`, `chalcedonian-fracture` (all distal/epilogue forces —
   same underlying question: should ending-forces past the world's own
   horizon be cell-eligible by design, or are they structurally
   analytical-only?), and `desert-attribution` (a build-scope contested
   claim, not lived content).
-- **2 at LOW confidence with a real cell guess anyway** (`platonic-environment`,
-  `neoplatonic-challenge`) — genuine judgment calls between adjacent
-  cells, not confident placements.
+- **1 at LOW confidence with a real cell guess anyway** (`neoplatonic-challenge`)
+  — a genuine judgment call between adjacent cells, not a confident
+  placement.
 - The single confirmed real-usage anchor (`learning-community-tension` →
   `F6-P`) is the only one of the 32 not actually a proposal.
 
