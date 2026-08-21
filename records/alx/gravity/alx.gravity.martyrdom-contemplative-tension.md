@@ -24,6 +24,12 @@ relations:
   target: alx.force.persecution
 - type: tension-with
   target: alx.gravity.soul-transformation
+- type: associated-with
+  target: alx.term.martys
+- type: illustrated-by
+  target: alx.story.leonides-martyrdom
+- type: illustrated-by
+  target: alx.story.potamiaena
 name: Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation [TENSIONAL]
 description: 'Two competing pictures of the fully formed life: the martyr''s witness unto death, and the
   soul''s long contemplative ascent. Practice- and population-separated. Martyrdom is the one confirmed

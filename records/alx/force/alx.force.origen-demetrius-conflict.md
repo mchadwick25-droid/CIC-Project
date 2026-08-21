@@ -21,6 +21,8 @@ relations:
   target: alx.gravity.teacher-bishop-tension
 - type: associated-with
   target: alx.gravity.learning-formation
+- type: associated-with
+  target: alx.story.origen-demetrius
 name: The Origen-Demetrius Conflict and Its Aftermath, c. 230s [3B - ending/internal]
 kind: ending
 description: 'The teacher-bishop tension reaching acute institutional expression: Origen''s departure

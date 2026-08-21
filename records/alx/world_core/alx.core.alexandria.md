@@ -60,3 +60,20 @@ working scope and flags rather than decides. The registry entry in
 records/worlds.yaml is likewise held for the build thread + Mark.
 The open emphasis question (150-400 evenly vs 'richest 180-260, thinner
 late') is flagged in SOURCE-REQUEST-MANIFEST.md SS0.
+
+ABSENT STORIES (the required question, answered specifically - step 4,
+2026-08-21). The stories this world conspicuously does NOT have, and why:
+(1) No ordinary believer's own conversion or life story - every narrative
+in the repository centers a teacher, bishop, martyr, or their circle,
+because narrative survival required literary production. (2) No woman's
+own told story - Potamiaena is remembered BY others (Tier 3), Origen's
+mother acts decisively and namelessly; no female-authored account exists
+(see alx.limit.f5-women-own-words). (3) No child's story beyond children
+appearing in others' arcs. (4) No enslaved person's story from inside a
+Christian household. (5) No rural or Coptic-speaking community's story in
+its own voice - the Arsinoite villagers appear only in their bishop's
+account of persuading them. (6) No deathbed/ordinary-death story of an
+ordinary member - death is narrated only at scale (plague) or as
+martyrdom. These absences are structural (who could write), are data for
+the thinness statement and honest_limit records, and are never to be
+filled by invention (no Tier 5, ever).

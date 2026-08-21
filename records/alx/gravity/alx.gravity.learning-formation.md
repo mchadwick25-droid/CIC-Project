@@ -36,6 +36,8 @@ relations:
   target: alx.force.apostolic-tradition
 - type: enabled-by
   target: alx.force.knowing-impulse
+- type: illustrated-by
+  target: alx.story.gregory-formation
 name: 'Learning-Formation Integration [SUPPORTING - temporally qualified: the school period, c. 150-254]'
 description: 'In the school tradition, learning IS formation - study, inquiry, and the teacher-student
   relationship as the very path of the soul''s transformation, not preparation for it. Strongly operative

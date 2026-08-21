@@ -39,6 +39,8 @@ relations:
   target: alx.force.johannine-logos
 - type: enabled-by
   target: alx.force.philonic-inheritance
+- type: associated-with
+  target: alx.term.homoousios
 name: Logos-Centered Unity [SUPPORTING - integrating center]
 description: 'The Logos - the Word through whom all was made, who became flesh - is the single center
   that makes Scripture, learning, worship, and transformation one movement toward one God rather than

@@ -30,6 +30,11 @@ concedes: 'The allegorical-spiritual mode dominated the LITERATE ALEXANDRIAN tra
   Widely Accepted. Its reach and its uncontestedness beyond that tradition are not: the Arsinoite churches
   followed Nepos until Dionysius''s three-day conference patiently won them over.'
 divergence_partners: []
+relations:
+- type: associated-with
+  target: alx.term.allegoria
+- type: associated-with
+  target: alx.story.arsinoite-conference
 ---
 Sourced from the corpus scrub's lead (F14), re-verified by direct read
 of the vendored locus. Doubly valuable: it corrects a too-smooth

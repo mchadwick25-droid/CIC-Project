@@ -39,6 +39,10 @@ relations:
   target: alx.force.apostolic-tradition
 - type: enabled-by
   target: alx.force.knowing-impulse
+- type: associated-with
+  target: alx.term.theosis
+- type: associated-with
+  target: alx.term.katechesis
 name: Transformation of the Soul Toward God [PRIMARY - literate-attested ecology]
 description: 'Formation as genuine reorientation of the whole person toward participation in the divine
   life - the active process (catechesis, purification, illumination, knowledge, wisdom), distinct from

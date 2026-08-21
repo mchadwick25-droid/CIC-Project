@@ -34,6 +34,9 @@ concedes: Origen speculated boldly in these directions - the texts show that muc
 divergence_partners:
 - alx.source.origen-de-principiis
 - alx.source.origen-philocalia
+relations:
+- type: associated-with
+  target: alx.term.apokatastasis
 ---
 The Philocalia relation matters operationally: where a passage exists
 in both transmissions, the Greek wins. HORIZON DISCIPLINE: within this

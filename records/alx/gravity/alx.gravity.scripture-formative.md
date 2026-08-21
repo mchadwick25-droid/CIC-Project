@@ -41,6 +41,8 @@ relations:
   target: alx.force.septuagint-inheritance
 - type: enabled-by
   target: alx.force.johannine-logos
+- type: associated-with
+  target: alx.term.allegoria
 name: Scripture as Deep Formative Reality [PRIMARY - literate-attested ecology]
 description: 'The Logos speaking now through a text of inexhaustible depth: Scripture read at depth is
   the primary instrument by which this world forms people - the reader is transformed by the reading,

@@ -32,6 +32,8 @@ relations:
   target: alx.force.knowing-impulse
 - type: tension-with
   target: alx.gravity.soul-transformation
+- type: associated-with
+  target: alx.term.kanon-pisteos
 name: Speculative Freedom vs Doctrinal Boundary [TENSIONAL]
 description: 'The tradition''s speculative daring (inquiry as devotion - Origen''s freedom to explore
   what Scripture leaves open) against its boundary-drawing (the Rule of Faith, then the drawn homoousian

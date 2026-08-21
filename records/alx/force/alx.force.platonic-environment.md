@@ -21,6 +21,8 @@ relations:
   target: alx.gravity.logos-unity
 - type: precondition-for
   target: alx.force.neoplatonic-challenge
+- type: illustrated-by
+  target: alx.quote.clement-schoolmaster
 name: The Middle Platonist Philosophical Environment [1A - initiating/external]
 kind: initiating
 description: 'At the world''s initiating moment the serious philosophical environment was Middle Platonism

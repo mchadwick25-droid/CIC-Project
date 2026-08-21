@@ -28,6 +28,8 @@ relations:
   target: alx.force.origen-demetrius-conflict
 - type: associated-with
   target: alx.force.post-nicene-authority-shift
+- type: illustrated-by
+  target: alx.story.origen-demetrius
 name: Teacher-Bishop Authority Tension [TENSIONAL]
 description: 'Two real authorities, never made one: the teacher''s (grounded in demonstrated wisdom, recognized
   by those who saw that he saw) and the bishop''s (grounded in the office handed down). Institutionally
