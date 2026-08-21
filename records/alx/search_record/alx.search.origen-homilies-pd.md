@@ -17,7 +17,7 @@ query: "Public-domain English translations of Origen's homiletic corpus (homilie
 result: not_found
 channel: "web search (WebSearch), 2026-08-20"
 found_sources: []
-note: "No public-domain English exists for the homiletic corpus. All English translations are modern and copyrighted: Heine, Homilies on Genesis and Exodus (FOTC 71, 1982); Lienhard, Homilies on Luke (FOTC 94, 1996); Lawson, Song of Songs Commentary and Homilies (ACW 26, 1957); and successors. The homilies survive mostly in Rufinus's/Jerome's Latin, which delayed English translation past the public-domain era."
+note: "No public-domain English exists for the homiletic corpus. All English translations are modern and copyrighted: Heine, Homilies on Genesis and Exodus (FOTC 71, 1982); Lienhard, Homilies on Luke (FOTC 94, 1996); Lawson, Song of Songs Commentary and Homilies (ACW 26, 1957); and successors. The homilies survive mostly in Rufinus's/Jerome's Latin, which delayed English translation past the public-domain era. RULING (Mark, 2026-08-21, relayed): accepted as an honest absence; move on. The congregational-voice skew this leaves in the Origen witness goes into world_core cautions at step 3, as this record already required."
 ---
 Search run 2026-08-20. This is a structural gap, not an oversight: the
 homilies are the best window on Origen as a *congregational* teacher -

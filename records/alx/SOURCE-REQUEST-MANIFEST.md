@@ -99,9 +99,11 @@ World/Representative identity is one of Mark's four per-world touchpoints (Build
 
 ---
 
-## 5. Gaps, and decisions only Mark can make
+## 5. Gaps — CLOSED by Mark's ruling, 2026-08-21
 
-All four textual gaps below were **independently confirmed by the corpus scrub** (`Texts_Scrub_alexandria.md`, "Absences"): the complete vendored 38-volume set lacks them too. Copyrighted works can be **consulted** during the build (informing sourced paraphrase at honest confidence) but **cannot be vendored** or quoted as licensed text (spec principle 14).
+**RULING (Mark, 2026-08-21, relayed via the build-thread check-in):** *"the rest is not retreavable at this point (maybe later we can translate the greek text for some of these), but for now we need to move on."* All five gaps below are **closed as accepted honest absences** — recorded on each search record with the ruling and date. The translate-from-Greek possibility is real for G1 (Clement's Greek survives) and G3 (the Tura originals are Greek) but is future work carrying the unresolved build-made-translation review question. Consequences flow forward as designed: the skews go into world_core cautions at step 3, and canon cells these gaps leave unservable end in honest_limit records at step 4 — never papered over.
+
+All four textual gaps were **independently confirmed by the corpus scrub** (`Texts_Scrub_alexandria.md`, "Absences"): the complete vendored 38-volume set lacks them too. Copyrighted works can be **consulted** during the build (informing sourced paraphrase at honest confidence) but **cannot be vendored** or quoted as licensed text (spec principle 14). The options columns below are retained as the decision record; the (a)/(b) choices are now moot except where Mark later reopens one.
 
 | # | Gap (search record) | What's missing | Options |
 |---|---|---|---|
@@ -157,4 +159,4 @@ Narrative (etic): `eusebius-historia-ecclesiastica` · `palladius-lausiac-histor
 
 ---
 
-*Step-2 state: the P1 core AND the Philocalia are supplied and verified; open items are the G1–G5 decisions (Mark's) and the P3 tail (Loeb, Feltoe, Oxyrhynchus, Philo/Yonge) — nothing above P3 remains unacquired. The prior build's scrub (`Texts_Scrub_alexandria.md`) is lead material for steps 3–4 — verify every lead against the vendored text itself, never trust its paraphrase, and honor its out-of-horizon trap map. Registry entry for `alx` in `records/worlds.yaml` is deliberately not added — identity is Mark's touchpoint and the registry is the build thread's file.*
+*Step-2 state: **CLOSED 2026-08-21.** The P1 core and the Philocalia are supplied and verified (18 source records); the five gaps are closed by Mark's ruling as accepted honest absences; only the P3 tail (Loeb, Feltoe, Oxyrhynchus, Philo/Yonge) remains as optional future acquisitions, none blocking. Step 3 (ecology reconstruction) proceeds on this base. The prior build's scrub (`Texts_Scrub_alexandria.md`) is lead material for steps 3–4 — verify every lead against the vendored text itself, never trust its paraphrase, and honor its out-of-horizon trap map. Registry entry for `alx` in `records/worlds.yaml` is deliberately not added — identity is Mark's touchpoint and the registry is the build thread's file.*

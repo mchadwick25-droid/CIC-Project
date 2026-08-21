@@ -17,7 +17,7 @@ query: "Public-domain English translation of Clement of Alexandria, Stromateis B
 result: not_found
 channel: "web search (WebSearch), 2026-08-20"
 found_sources: []
-note: "ANF vol. 2 deliberately left Stromateis III in Latin (Victorian editorial squeamishness about its subject matter: marriage, sexuality, the anti-Gnostic defense of both). The only English translations are modern and copyrighted: Oulton/Chadwick, Alexandrian Christianity (LCC II, Westminster 1954) and Ferguson, Stromateis Books 1-3 (FOTC 85, CUA Press 1991). No public-domain English exists."
+note: "ANF vol. 2 deliberately left Stromateis III in Latin (Victorian editorial squeamishness about its subject matter: marriage, sexuality, the anti-Gnostic defense of both). The only English translations are modern and copyrighted: Oulton/Chadwick, Alexandrian Christianity (LCC II, Westminster 1954) and Ferguson, Stromateis Books 1-3 (FOTC 85, CUA Press 1991). No public-domain English exists. RULING (Mark, 2026-08-21, relayed): accepted as an honest absence - 'the rest is not retreavable at this point (maybe later we can translate the greek text for some of these), but for now we need to move on.' The translate-from-Greek route is real for this text specifically (Clement's Greek survives; Stahlin's GCS edition) but is future work carrying the unresolved build-made-translation review question, not a task now. A supplied Oulton/Chadwick 1954 candidate was correctly refused vendoring (in-copyright)."
 ---
 Search run 2026-08-20. This gap matters more than it looks: Stromateis III is
 one of the corpus's most direct witnesses for marriage, household, and the
