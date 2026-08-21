@@ -48,6 +48,9 @@ senses:
     copied and shared.
 quick_meaning: The letter as this world's lifeline - teaching, guidance, and belonging carried across
   the sea.
+relations:
+- type: associated-with
+  target: hal.gravity.epistolary-formation
 ---
 Re-derived from cleared Doc_06 entry 7 (hal_lex07). The
 evidentiary-circularity caution from Doc_04 (G4) is carried in the

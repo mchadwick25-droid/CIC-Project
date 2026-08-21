@@ -47,6 +47,9 @@ senses:
     and politically driven the quarrel was. This world's record does not settle it, and neither does
     this account.
 quick_meaning: The 390s fight over Origen's teachings that broke the friendship with Rufinus.
+relations:
+- type: associated-with
+  target: hal.gravity.controversy-pressure
 ---
 Re-derived from cleared Doc_06 entry 8 (hal_lex08), the corpus's one
 CT-tagged term - Contest Type: Meaning (doctrinal-vs-political weight),

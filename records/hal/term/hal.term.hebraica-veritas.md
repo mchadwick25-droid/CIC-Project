@@ -49,6 +49,9 @@ senses:
     TEXT of the Bible carried authority: the Hebrew original or the Greek translation tradition.'
 quick_meaning: The Hebrew text of scripture is the truest text - the conviction behind the whole
   translation project.
+relations:
+- type: associated-with
+  target: hal.gravity.hebraica-veritas
 ---
 Re-derived from the cleared Doc_06 entry 1 (hal_lex01), wording adapted to
 the new schema; the Author Gravity note carried: the principle's content is

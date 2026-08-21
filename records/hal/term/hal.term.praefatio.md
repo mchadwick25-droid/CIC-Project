@@ -42,6 +42,9 @@ senses:
     - argument as front matter.
 quick_meaning: The combative prefaces where the translation project argues its own case, book by
   book.
+relations:
+- type: associated-with
+  target: hal.force.transmission-ongoing
 ---
 Re-derived from cleared Doc_06 entry 13 (hal_lex13). This term's practice
 is also the transmission force hal.force.transmission-ongoing (2B-2) - the
