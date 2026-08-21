@@ -4,7 +4,7 @@ Read `Build-Blueprint.md` first; this note is only the "where things stand"
 supplement it asks for at every stage boundary / stop-and-ask / economy
 checkpoint.
 
-## Current stage: 5 partial — non-model half done; Bedrock preflight PASSED; live safety script substantially done (s1-s23 across 6 real batches, current code clears the ≥19/20 floor); real generation call, crisis-append, lazy load/unload still not started
+## Current stage: 5 DONE — all five gate items proven with real evidence (resume across two processes; entrance-seal test; live safety script ≥19/20; crisis append incl. empty-stream; lazy load/unload measured)
 
 **Bedrock preflight — done, commit `7cfeda7`.** `engine/provider/` (seam +
 preflight, commit `bde1ea7`) run for real against Mark's live account
@@ -69,13 +69,65 @@ root-caused, fixed, and reverified (batch 4's s16/s18, batch 6's s21/s22/s23)
 - **current code clears the spec's ≥19/20 floor.** No outstanding safety-
 script findings as of this note.
 
-**Still not started:** wiring a real generation call into M4's turn loop,
-crisis-append-on-empty-stream, lazy world load/unload timing. Each of these
-means real, repeated spend - worth explicitly checking pace/scope with Mark
-before running a batch, especially since the AWS Budget Action (deny-policy
-backstop) still isn't in place - Mark chose to proceed without it for now,
-accepting the $20 alert-only budget + free-plan credit ceiling as the
-backstop (his call, recorded here, not silently assumed).
+**Real generation call, crisis-append, lazy load/unload — done, commit
+`230a331`.** The last two stage-5 gate items, proven with real evidence:
+
+- `engine/m4/world_loader.py` (`LazyWorldLoader`): lazy on first `load()`,
+  a resident world is a cache hit not a second disk read, `unload()`
+  actually evicts. `engine/m4/lazy_load_measure.py` run against the real
+  committed fixture package: cold load 1.8ms, warm (cache hit) 0.0008ms,
+  unload ~1μs, cold reload 1.6ms (proves unload wasn't a no-op). No model
+  call - `engine/m4/reports/lazy-load-report.json`, `mechanism_proven:
+  true`. Fixture-scope only (312K total) - proves the mechanism, not
+  production latency at real-world scale.
+- `engine/m4/generation.py` (real Sonnet-class streaming voice call +
+  forced-tool-use citations follow-up) + `engine/m4/grounding.py`
+  (deterministic, explicitly-narrow grounding checks - same discipline as
+  `engine.m3.grading`'s `register_check` - plus an independent hard check
+  that a do-not-voice-licensed quote never appears verbatim) +
+  `engine/m4/crisis_resources.py` (`append_crisis_resources_turn` - a PURE
+  function, no client, whose output never depends on stream content, only
+  on signal; the literal hermetic proof point for "crisis append asserted
+  including the empty-stream case") + `engine/m4/turn.py` (wires M5's
+  already-proven gate/routing/failure onto real generation; only
+  `voice_with_directive`/`voice_pass_through` and `safety_turn` for
+  `ACUTE_DISTRESS` get full content - every other routing outcome raises
+  `UnhandledRoutingAction`, a named, deliberate seam, same pattern as
+  `engine.m3.generation.LiveModelAnswerer`).
+- `engine/m4/live_turn_run.py` run against real Bedrock + the real fixture
+  package: an ordinary turn (real citations - one correctly demoted to
+  `consulted` when the model's paraphrase didn't literally contain a
+  record's own words, the grounding check working as designed), a crisis
+  turn with a real non-forced stream, and the forced-empty-stream case for
+  direct comparison. `engine/m4/reports/live-turn-report.json`:
+  `crisis_append_proven: true` on both. Non-blocking observation for
+  Mark: the voice model independently recalled similar crisis resources
+  unprompted in the real-stream case - not a violation (the code-owned
+  append is the actual guarantee, present either way), just worth knowing.
+- CRAFT NOTE carried in `crisis_resources.py` itself: the resource text
+  (988, Crisis Text Line) is a real, standard, publicly-published baseline,
+  explicitly flagged as a placeholder pending Mark's craft/legal review
+  before any world that actually opens ships this literal text.
+- Hermetic tests (fake client / no client at all, no live call):
+  `test_world_loader.py`, `test_crisis_resources.py`, `test_grounding.py`,
+  `test_turn.py` (includes a genuinely-empty-stream case via a fake client
+  yielding zero chunks, not only the `force_empty_stream` test hook).
+  `engine/m4/requirements.txt` (new) + CI: `m4-event-log` job now installs
+  it instead of `m1`'s, since `test_turn.py` pulls in `anthropic`
+  transitively via `engine.m5.live_calls`.
+
+**Deliberately out of scope, not stage-5 gate items:** Track B's own
+`safety_turn` content (`HARMFUL_DYNAMIC_SIGNAL`), `check_in_turn`/
+`system_nature_turn`/`bridge_turn`/`etic_turn` generation content, and the
+full HTTP/SSE API layer (Artifact-5 - M6's job, a separate module). Each is
+a real, tested routing outcome with no Facilitator-authored turn content
+built yet - `UnhandledRoutingAction` names the gap loudly rather than
+hiding it.
+
+Spend note: this required real, repeated Bedrock spend - checked pace/scope
+with Mark before running it, same as the safety script. The AWS Budget
+Action (deny-policy backstop) still isn't in place; Mark's earlier call to
+proceed on the $20 alert-only budget + free-plan credit ceiling stands.
 
 **Credential rotation still outstanding:** the AWS access key
 (`cic-bedrock-dev`, account `468683594478`) is still the one pasted directly
@@ -193,10 +245,11 @@ fabrication on the fixture world."*
   already-resolved call outcomes (`CallOutcome`) as input - they never make
   or await a model call themselves, which is exactly what makes this half
   buildable and testable today.
-- CI: `m4-event-log`, `m5-gate-routing`. Evidence:
+- CI: `m4-event-log`, `m5-gate-routing`. Evidence at the time:
   `engine/m4/reports/pytest-output.txt` (22/22),
-  `engine/m5/reports/pytest-output.txt` (25/25). Full suite across every
-  stage: 60/60 (`python -m pytest engine -q`).
+  `engine/m5/reports/pytest-output.txt` (25/25), full suite 60/60. (Grew
+  substantially since - see the turn-loop entry below; full suite is 97/97
+  as of commit `230a331`.)
 
 **Stage 5, model half — decision resolved, live, and in active use.** The
 Bedrock account came up, credentials were provided (see the credential
@@ -239,14 +292,14 @@ Mark has since said the Bedrock account is provisioning and should be
 available in a couple of hours - noted above; still not a green light to
 spend against it until it's actually live and the choice is confirmed.
 
-**Already done without that decision** (this session, this commit): the
-event log/store, session projection, session codes, the entrance seal,
+**Already done without that decision** (at the time of writing): the event
+log/store, session projection, session codes, the entrance seal,
 resume-across-two-processes, and the Facilitator gate's routing/failure
-logic — see the "non-model half" list above. What's left needs the live
-call specifically: the actual generation/classification calls themselves,
-the live safety script's 20-ish adversarial conversations, crisis-append-
-on-empty-stream (needs a real stream to interrupt), and lazy load/unload
-timing (needs real request latency to measure against).
+logic — see the "non-model half" list above. Everything else this section
+once listed as needing the live call — the classification calls, the live
+safety script, crisis-append-on-empty-stream, lazy load/unload timing — is
+now done too; see the entries above. Stage 5 is closed out as of commit
+`230a331`.
 
 ## Open decisions still outstanding
 
@@ -263,10 +316,11 @@ timing (needs real request latency to measure against).
 
 ## Currently blocked
 
-**Nothing.** The model-provider/spend decision that used to gate this
-section is resolved (see above) - Bedrock is live, and Mark has been pacing
-and directing the safety-script spend batch by batch. The three remaining
-stage-5 gate items (real generation call in M4's turn loop, crisis-append-
-on-empty-stream, lazy load/unload timing) aren't blocked on any open
-decision; same practice as the safety script applies - check pace/scope
-with Mark before a batch of real spend, don't just run it.
+**Nothing.** Stage 5 is done (commit `230a331`). Next real work is stage 6
+territory: Track B's own `safety_turn` content, the other routing actions'
+generation content (`check_in_turn`/`system_nature_turn`/`bridge_turn`/
+`etic_turn`), and the HTTP/SSE API layer (Artifact-5, M6) - none of it
+blocked on an open decision, but each is real, Facilitator-authored craft
+work or a new module, not a mechanical continuation of what's built. Same
+practice as the safety script applies to any of it that needs real spend -
+check pace/scope with Mark before a batch, don't just run it.
