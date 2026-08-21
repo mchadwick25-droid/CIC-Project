@@ -17,6 +17,8 @@ sources:
 - source_id: ijc.source.eusebius-vita-constantini
   locus: IV.24 (npnf201 line 66733)
   license: public-domain
+relations:
+- {type: illustrated-by, target: ijc.quote.constantine-bishop-outside}
 claim: When Constantine told the bishops "you are bishops whose jurisdiction is within the Church; I
   also am a bishop, ordained by God to overlook whatever is external to the church," he was stating a
   considered theory of imperial religious authority - the emperor as a kind of bishop for the world.

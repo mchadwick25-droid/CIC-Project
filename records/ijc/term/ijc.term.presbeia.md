@@ -39,21 +39,21 @@ relations:
 - {type: associated-with, target: ijc.term.communio}
 - {type: associated-with, target: ijc.term.homoousios}
 - {type: associated-with, target: ijc.term.concilium}
-plain_meaning: 'The "prerogatives of honor": Constantinople''s claim to rank second among the churches. Not because
+plain_meaning: 'The "prerogative of honor": Constantinople''s claim to rank second among the churches. Not because
   an apostle founded it - because the emperor now reigns there. Rank follows the throne.'
 world_word: presbeia (tes times)
 false_friend:
 - a merely ceremonial honor with no operative claim behind it
 - the presbyterate or office of elders (unrelated despite the similar sound)
 senses:
-  informational: 'The council of 381 gave the bishop of Constantinople the prerogatives of honor after
+  informational: 'The council of 381 gave the bishop of Constantinople the prerogative of honor after
     the bishop of Rome, "because Constantinople is New Rome"; Chalcedon''s Canon 28 extended the same
     reasoning to real patriarchal jurisdiction. A see''s rank, on this claim, rightly follows where the
     empire itself now governs.'
   evidential: 'Both canons survive in the conciliar record''s own words. So does the rejection: Rome''s
     legates objected at the council, and Leo refused to ratify Canon 28 in writing - direct evidence the
     claim was contested at the moment it was made, not only by later historians. Translations of the Greek
-    phrase vary ("prerogatives of honour," "primacy of honor"); the variance is disclosed, not smoothed.'
+    phrase vary ("prerogative of honour," "primacy of honor"); the variance is disclosed, not smoothed.'
   personal: For those who held it, this was not cynicism - the empire's defense of the faith was itself
     a religious fact, and standing beside the throne meant standing where that defense was actually conducted.
   translational: '"Wasn''t that just politics?" - the claim is openly political-geographic in its premise,

@@ -24,6 +24,8 @@ sources:
   locus: Ep. XXVIII
   license: public-domain
 relations:
+- {type: illustrated-by, target: ijc.quote.nicene-creed}
+- {type: illustrated-by, target: ijc.quote.chalcedon-definition}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
 - {type: associated-with, target: ijc.gravity.orthodoxy-enforcement}
 - {type: associated-with, target: ijc.force.authority-contest}

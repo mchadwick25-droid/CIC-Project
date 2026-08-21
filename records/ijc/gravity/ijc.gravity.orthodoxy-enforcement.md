@@ -28,6 +28,7 @@ sources:
   locus: the quoted formulae of the enforced confessions
   license: public-domain
 relations:
+- {type: illustrated-by, target: ijc.quote.sozomen-thessalonica-law}
 - {type: enabled-by, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
 - {type: associated-with, target: ijc.gravity.episcopal-independence}

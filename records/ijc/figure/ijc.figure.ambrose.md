@@ -25,6 +25,8 @@ sources:
 - source_id: ijc.source.paulinus-vita-ambrosii
   locus: the hagiographic Vita (Tier 3 material only)
   license: referenced-only
+relations:
+- {type: associated-with, target: ijc.story.bees-of-milan}
 names:
 - name: Ambrose
   tag: in-world

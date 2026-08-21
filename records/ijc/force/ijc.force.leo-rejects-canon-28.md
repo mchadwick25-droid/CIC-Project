@@ -21,6 +21,8 @@ sources:
   locus: Ep. CIV-CVI
   license: public-domain
 relations:
+- {type: illustrated-by, target: ijc.quote.leo-things-secular}
+- {type: illustrated-by, target: ijc.quote.canon28-equal-privileges}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 - {type: associated-with, target: ijc.force.chalcedon-failed-consensus}

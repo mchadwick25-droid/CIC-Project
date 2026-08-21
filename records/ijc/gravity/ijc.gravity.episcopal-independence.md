@@ -24,6 +24,9 @@ sources:
   locus: IX.7 (independent corroboration of the 386 standoff)
   license: public-domain
 relations:
+- {type: illustrated-by, target: ijc.story.vigil-in-basilica}
+- {type: illustrated-by, target: ijc.story.emperor-penance}
+- {type: illustrated-by, target: ijc.quote.ambrose-emperor-in-church}
 - {type: associated-with, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
 - {type: associated-with, target: ijc.gravity.orthodoxy-enforcement}

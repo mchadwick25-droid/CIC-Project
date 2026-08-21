@@ -28,6 +28,10 @@ sources:
   locus: Canon 3 (the rival pole's own instrument)
   license: public-domain
 relations:
+- {type: illustrated-by, target: ijc.story.tome-that-would-not-bend}
+- {type: illustrated-by, target: ijc.story.letter-that-outranked-a-council}
+- {type: illustrated-by, target: ijc.quote.julius-custom}
+- {type: illustrated-by, target: ijc.quote.canon3-new-rome}
 - {type: enabled-by, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.orthodoxy-enforcement}
 - {type: associated-with, target: ijc.gravity.episcopal-independence}

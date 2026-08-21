@@ -24,6 +24,9 @@ sources:
   locus: Sermon LXXXII (Rome's standing preached through its martyr-apostles)
   license: public-domain
 relations:
+- {type: illustrated-by, target: ijc.story.vigil-in-basilica}
+- {type: illustrated-by, target: ijc.quote.leo-rome-apostles}
+- {type: illustrated-by, target: ijc.quote.ambrose-dare-not-offer}
 - {type: tension-with, target: ijc.gravity.primacy-claiming}
 - {type: associated-with, target: ijc.gravity.episcopal-independence}
 - {type: associated-with, target: ijc.force.inherited-episcopal-church}

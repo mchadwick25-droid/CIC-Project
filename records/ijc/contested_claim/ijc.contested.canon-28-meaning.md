@@ -41,6 +41,6 @@ divergence_partners: []
 Rebuilt from the reviewed Doc_06 SS3's presbeia CT entry (Contest Type:
 Meaning) and Doc_02 SS8 (Contested tier). All three instruments
 verified in the vendored corpus. The translation variance on ta
-presbeia tes times (Percival "prerogatives of honour") is carried on
+presbeia tes times (Percival "prerogative of honour") is carried on
 ijc.term.presbeia. canon_cells: F6-I (what did your people never
 settle - the direct participant-facing home of this contest).

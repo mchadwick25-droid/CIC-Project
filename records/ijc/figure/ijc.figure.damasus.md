@@ -22,6 +22,9 @@ sources:
 - source_id: ijc.source.theodoret-he
   locus: the embedded synodical letters (II and V)
   license: public-domain
+relations:
+- {type: illustrated-by, target: ijc.quote.socrates-damasus-election}
+- {type: illustrated-by, target: ijc.quote.jerome-damasus-verses}
 names:
 - name: Damasus
   tag: in-world

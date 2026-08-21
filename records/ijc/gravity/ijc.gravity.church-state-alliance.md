@@ -25,6 +25,9 @@ sources:
   locus: VII.4 (the Thessalonica law)
   license: public-domain
 relations:
+- {type: illustrated-by, target: ijc.story.vision-and-alliance}
+- {type: illustrated-by, target: ijc.story.altar-of-victory}
+- {type: illustrated-by, target: ijc.quote.milan-edict}
 - {type: precondition-for, target: ijc.gravity.primacy-claiming}
 - {type: precondition-for, target: ijc.gravity.orthodoxy-enforcement}
 - {type: associated-with, target: ijc.gravity.episcopal-independence}

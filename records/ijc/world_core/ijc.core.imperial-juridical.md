@@ -125,11 +125,13 @@ world transmitted itself.
 (6) No deathbed or ordinary-death story: death appears as massacre
 (Thessalonica), execution feared (the 386 siege), or succession event,
 never as an ordinary member's ending.
-Note on the legacy inventory's Strand C claim: the reviewed legacy
-Doc_09 stated no Strand C story exists "beyond the single 386 crisis";
-this build's step 4 adds the emperor's-penance story (390, Ambrose Ep.
-51 with Theodoret's later dramatization flagged), which the Native
-registry itself supports - recorded as a registry-grounded extension of
-the legacy inventory, not a contradiction of its absent-stories finding,
-which concerned invented narrative, not attested episodes it had not yet
-built.
+Note on this build's two story additions beyond the legacy six: the
+reviewed legacy Doc_09 stated no Strand C story exists "beyond the
+single 386 crisis"; this build's step 4 adds (a) the emperor's-penance
+story (390, Ambrose Ep. 51 with Theodoret's later dramatization
+flagged) and (b) the Altar of Victory story (384, Symmachus's Memorial
+and Ambrose's replies, closing the legacy build's own flagged Registry
+gap, Open_Gaps item 6). Both are registry-grounded extensions the
+Native sources themselves support - not contradictions of the legacy
+absent-stories finding, which concerned invented narrative, never
+attested episodes not yet built.
