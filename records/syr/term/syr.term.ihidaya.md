@@ -36,6 +36,8 @@ retrieval:
   - the qyama record alone already answers the question and the double meaning adds nothing
 relations:
 - type: associated-with
+  target: syr.gravity.covenant-life
+- type: associated-with
   target: syr.term.qyama
 - type: associated-with
   target: syr.term.tahwyata

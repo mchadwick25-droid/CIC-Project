@@ -33,6 +33,8 @@ retrieval:
   - participant asks about the Peshitta - a later standard text, not this world's own vocabulary
 relations:
 - type: associated-with
+  target: syr.gravity.diatessaron-normative
+- type: associated-with
   target: syr.term.raza-shrara
 plain_meaning: 'The ''Gospel of the Mixed'': the one continuous Gospel story this world read and heard
   in worship. Tatian wove the four accounts into a single narrative around 172. For some two hundred years,

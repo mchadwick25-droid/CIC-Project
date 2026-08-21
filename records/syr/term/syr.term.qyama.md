@@ -39,6 +39,8 @@ retrieval:
     hagiography and this record must not be used to confirm it
 relations:
 - type: associated-with
+  target: syr.gravity.covenant-life
+- type: associated-with
   target: syr.term.ihidaya
 - type: associated-with
   target: syr.term.tahwyata

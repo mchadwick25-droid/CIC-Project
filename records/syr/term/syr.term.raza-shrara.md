@@ -36,6 +36,8 @@ retrieval:
   - participant means a modern semiotic or mathematical sense of 'symbol' with no connection to Scripture
 relations:
 - type: associated-with
+  target: syr.gravity.raza-shrara-method
+- type: associated-with
   target: syr.term.madrasha
 - type: associated-with
   target: syr.term.ewangeliyon-da-mhallete
