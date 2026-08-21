@@ -264,16 +264,30 @@ _DOCTRINAL_VOCAB = {
 
 
 def _proper_nouns(sentence: str) -> set[str]:
-    """Capitalized words not at sentence-start - a cheap, no-dictionary
-    proxy for named people/places/texts. Sentence-initial capitalization is
-    just grammar, so index 0 is never counted."""
+    """Capitalized words not at the start of a clause - a cheap, no-
+    dictionary proxy for named people/places/texts. A colon or semicolon
+    starts a new independent clause grammatically, same as a sentence
+    boundary, so the word right after one is skipped too - otherwise "...
+    argue: I have to be honest" flags "I" as a proper noun for no reason
+    beyond where a colon happened to land."""
     words = _WORD.findall(sentence)
+    clause_starts = {0}
+    for m in re.finditer(r"[:;]\s*", sentence):
+        tail = sentence[m.end():]
+        tail_words = _WORD.findall(sentence[: m.end()])
+        if tail_words:
+            clause_starts.add(len(tail_words))
+    # "I'd", "I'll", "I've", "I'm" are the word "I" plus a contraction, not
+    # a name - excluding bare "I" alone (the earlier version of this check)
+    # missed every contracted form, since the regex keeps the apostrophe as
+    # part of the token.
     return {
         w.lower() for i, w in enumerate(words)
-        if i > 0
+        if i not in clause_starts
         and w[0].isupper()
         and w.lower() not in _STOPWORDS
         and w.lower() not in _DOCTRINAL_VOCAB
+        and not re.match(r"i'", w, re.IGNORECASE)
         and w != "I"
     }
 
