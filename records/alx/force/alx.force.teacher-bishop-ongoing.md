@@ -5,7 +5,10 @@ record_type: force
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F3-I
+- F6-P
+- F6-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

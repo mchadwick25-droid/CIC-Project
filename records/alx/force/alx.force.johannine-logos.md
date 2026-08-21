@@ -5,7 +5,9 @@ record_type: force
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- C-T
+- F1-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

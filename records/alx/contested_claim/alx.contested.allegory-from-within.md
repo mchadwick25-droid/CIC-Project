@@ -5,7 +5,9 @@ record_type: contested_claim
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F6-I
+- F2-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority

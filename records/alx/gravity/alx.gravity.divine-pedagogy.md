@@ -5,7 +5,9 @@ record_type: gravity
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F6-P
+- F2-P
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
