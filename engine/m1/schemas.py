@@ -126,6 +126,23 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "formation_logic": {"type": "string"},
         "thinness": {"type": "string"},
         "cautions": {"type": "string"},
+        # Optional, additive (2026-08-21, mechanism test): structured index
+        # over the same ground `thinness`/`cautions` already state in prose,
+        # so a gate can cross-check a claim against a world's own named gaps
+        # without parsing free text. Not yet in COMPLETION_REQUIRED - existing
+        # world_core records validate unchanged without it.
+        "thin_topics": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "keywords": {"type": "array", "items": {"type": "string"}},
+                    "note": {"type": "string"},
+                },
+                "required": ["keywords", "note"],
+                "additionalProperties": False,
+            },
+        },
     },
     "source": {
         "author": {"type": "string"},
