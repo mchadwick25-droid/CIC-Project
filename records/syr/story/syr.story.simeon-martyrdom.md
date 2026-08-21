@@ -38,16 +38,18 @@ narrative_tier_justification: 'Tier 3 (attributed/hagiographic tradition): the m
 tellable_as: how the Persian church remembered its bishop's death, as the tradition tells it
 text: When war with Rome made Persia's Christians suspect, a crushing double tax was laid on them, and
   Simeon, bishop of Seleucia-Ctesiphon, refused to be its collector. He was denounced as a friend of the
-  Roman emperor, arrested, and brought before Shapur the king. The tradition tells that on the way to
-  his trial an old royal servant, Usthazanes, who had once denied the faith under pressure, saw Simeon
-  pass and was cut to the heart; he repented openly, and was executed for it before the bishop's own death
-  - the one who had fallen going ahead, restored, into the martyrs' company. Simeon himself was commanded
-  to worship the sun and refused each time, answering that he would not exchange the Maker for the made.
-  He was beheaded with his priests, and the church counted him the first of the great persecution's bishops
-  to die for the name.
+  Roman emperor, arrested, and brought before Shapur the king. The tradition tells that as Simeon was
+  led away, an old royal servant, Usthazanes, who had once denied the faith under pressure, rose to honor
+  him - and the bishop turned his face away, refusing the greeting of a man who had denied his Lord. The
+  rebuke cut the old man to the heart; he repented openly, confessed himself a Christian before the king,
+  and was executed before the bishop's own death - the one who had fallen going ahead, restored, into
+  the martyrs' company. Simeon himself, offered gifts and threatened with the destruction of all the Christians,
+  refused each time to worship the sun or betray his faith, saying he stood now in defense of godliness.
+  He was put to death with his clergy, and the church counted him the first of the great persecution's
+  bishops to die for the name.
 absent_detail: The exact words of the royal audiences, the precise sequence, and the companions' speeches
   are the hagiographic tradition's own shaping, not verified reporting - and even the year is disputed
-  (341 against a argued c. 344). The framing of the persecution as provoked by Rome's conversion is itself
+  (341 against an argued c. 344). The framing of the persecution as provoked by Rome's conversion is itself
   partly the later tradition's construction. The telling keeps 'the tradition tells' audible throughout.
 ---
 Re-derived from syrstory005 (Tier 3), re-anchored to the vendored
