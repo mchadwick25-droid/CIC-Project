@@ -28,8 +28,7 @@ time_window:
 horizon: 'Alexandria and Egypt, c. 150-400 CE: the Alexandrian Christian formation ecology anchored on
   its catechetical-formation tradition - learned teaching, allegorical-spiritual reading of Scripture,
   the staged catechumenate, confident engagement with Greek thought (Clement, Origen, the teaching tradition
-  through Didymus, the episcopal line through Athanasius). WORKING SCOPE, NOT A RULING: world identity
-  is Mark''s touchpoint; this record is draft until that ruling and revises with it.'
+  through Didymus, the episcopal line through Athanasius).'
 formation_logic: 'Formation as transformation of the whole person toward God, with Scripture read at depth
   as its primary instrument and the Logos as the center that makes reading, learning, worship, and transformation
   one movement rather than four activities. Two channels: the school channel (teacher-student depth formation,
@@ -40,7 +39,7 @@ thinness: 'Richest in teaching, argument, and the theology of formation (Clement
   Thin-to-silent, structurally: women in their own words (no female-authored Alexandrian Christian text
   survives in the window), ordinary non-literate believers, rural and Coptic-speaking Egypt, enslaved
   persons in Christian households, and the late-horizon teaching tradition in its own texts (Didymus''s
-  works are post-1941 recoveries with no public-domain English - Mark''s 2026-08-21 ruling accepts this).'
+  works are post-1941 recoveries with no public-domain English translation available).'
 cautions: '1) STRATUM BIAS is the central limit: the entire surviving corpus is literate, Greek, educated;
   every Primary/Supporting gravity is confirmed for the literate-attested ecology only, ecology-wide primacy
   held open (see alx.contested.ecology-wide-primacy). Never convert evidential visibility into ecological
