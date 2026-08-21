@@ -4,7 +4,75 @@ Read `Build-Blueprint.md` first; this note is only the "where things stand"
 supplement it asks for at every stage boundary / stop-and-ask / economy
 checkpoint.
 
-## Current stage: 5 DONE — all five gate items proven with real evidence (resume across two processes; entrance-seal test; live safety script ≥19/20; crisis append incl. empty-stream; lazy load/unload measured)
+## Current stage: 6 DONE — M8 cost & observability, all four gate items proven with real evidence (parity vs. raw usage shapes; zero unattributed calls; cache economics re-measured and recorded with the band; a lapsed cache window visible in the numbers)
+
+**Stage 6 (M8: cost & observability) — done, commits `dad8448` +
+`075f09e`.** `engine/m8/`. The stage-6 gate (CiC-Program-Spec.md §9): *"parity
+against raw usage shapes; a lapsed cache window visible in the numbers;
+zero unattributed calls; cache economics re-measured and recorded with the
+band."* All four, real evidence:
+
+1. **Parity against raw usage shapes** — `engine/m8/parity.py`
+   (`check_parity`/`assert_parity`), wired *inline* into
+   `engine.m4.turn`'s attribution path rather than run as a separate
+   occasional check: every real call this session's turn loop makes is
+   parity-tested at the moment its usage is logged, so a provider
+   response-shape drift would raise immediately on any real turn, not
+   surface later as a quietly-wrong number.
+2. **Zero unattributed calls** — `engine/m8/usage.py` (`UsageRecord`
+   requires a real `session_id` at construction; `SYSTEM_SESSION_ID` is
+   the explicit tag for non-session/evidence calls, never a blank
+   fallback) + `engine/m8/log_store.py` (SQLite, same idempotent-append/
+   any-instance-serves-any-session pattern as `engine.m4.store.Store`).
+   Live evidence: `engine/m8/reports/live-attribution-report.json` — a
+   real ordinary turn through the actual M4 turn loop, 4 calls (safety,
+   reader, voice generation, citations), `zero_unattributed_calls: true`.
+3. **Cache economics re-measured and recorded with the band** —
+   `engine/m8/cache_economics_measure.py`, real Bedrock run:
+   `engine/m8/reports/cache-economics-report.json` — a cache write of 4202
+   tokens, then 3/3 repeated reads identically 4202 tokens (deterministic,
+   `mechanism_confirmed: true`). Re-confirms the write/read caching
+   mechanism itself still engages correctly under the new lazy-loading
+   architecture (the old 16× pooling figure was explicitly flagged as
+   stale — Artifact-6 §1 — this is that re-measurement, at the token
+   level; no dollar figure computed, principle 13).
+4. **A lapsed cache window visible in the numbers** —
+   `engine/m8/lapsed_cache_window_measure.py`, two real phases 71.7
+   minutes apart (genuinely past Bedrock's 1h ephemeral TTL, not asserted
+   from the documented value): `engine/m8/reports/lapsed-cache-window-
+   report.json` — the check call, reusing the identical saved system
+   prompt, shows a *fresh* cache write (6002 tokens again, same as the
+   original write) with `cache_read_input_tokens: 0` — a miss, not a hit.
+   `window_lapsed: true`.
+
+**Real finding, fixed as part of building this instrumentation:**
+`engine/m4/generation.py`'s `stream_voice_turn` never actually requested
+prompt caching at all — `system` was passed as a plain string, not the
+structured `cache_control` shape `engine/provider/preflight.py` had
+already proven works. Stage 5's turn loop was silently paying full
+input-token price on every call; "zero cache fields" would have read as
+"nothing to instrument" rather than "caching was never requested." Fixed
+(structured system block + `cache_control: ephemeral`) and confirmed live
+— the fixture world's own compiled prompt now shows a real 1168-token
+cache write on an ordinary turn (`live-attribution-report.json`).
+
+**Also landed:** `engine/m5/failure.py`'s `CallOutcome` gained an optional
+`raw_usage` field (backward compatible) so every real call's SDK usage
+object is carried through, not re-derived; `engine/m8/cost.py` defines the
+$/turn unit's *structure* (`PriceTable` + `estimate_cost`) but ships no
+default price table and no dollar figure — principle 13 stays intact,
+`estimate_cost` returns `priced: False` until a Mark-approved, sourced
+table is supplied (the AWS invoice reconciliation preflight's third leg
+still names as pending). `TURNS_PER_HOUR_CONVENTION = 12` defined once.
+CI: new `m8-cost-observability` job, mocked-only (24 hermetic tests:
+usage, log store, parity, cost, summary), same no-live-call discipline as
+`provider-seam-unit-tests`. `engine/m4/requirements.txt` gained `boto3`
+(`turn.py` now pulls in `engine.m8.parity` → `engine.provider.bedrock`
+transitively).
+
+Full engine suite: 123/123 passing.
+
+## Previously: stage 5 DONE — all five gate items proven with real evidence (resume across two processes; entrance-seal test; live safety script ≥19/20; crisis append incl. empty-stream; lazy load/unload measured)
 
 **Bedrock preflight — done, commit `7cfeda7`.** `engine/provider/` (seam +
 preflight, commit `bde1ea7`) run for real against Mark's live account
@@ -316,11 +384,28 @@ now done too; see the entries above. Stage 5 is closed out as of commit
 
 ## Currently blocked
 
-**Nothing.** Stage 5 is done (commit `230a331`). Next real work is stage 6
-territory: Track B's own `safety_turn` content, the other routing actions'
-generation content (`check_in_turn`/`system_nature_turn`/`bridge_turn`/
-`etic_turn`), and the HTTP/SSE API layer (Artifact-5, M6) - none of it
-blocked on an open decision, but each is real, Facilitator-authored craft
-work or a new module, not a mechanical continuation of what's built. Same
-practice as the safety script applies to any of it that needs real spend -
-check pace/scope with Mark before a batch, don't just run it.
+**Nothing in this engineering thread, but there isn't a free-standing next
+engineering stage to auto-start either.** Stages 5 and 6 are both done
+(commits `230a331`, `dad8448`/`075f09e`). Per the build order (CiC-Program-
+Spec.md §9): stage 7 is **Alexandria** through the full world-build process
+- already running, but in its own session/branch (`world/alexandria`,
+Fable), not this one; as of this note it's idle at "review ready" with 17
+`alx.source.*` records built and six real open items (four genuine
+not-found gaps: Stromateis III, Origen's Homilies, Didymus's Tura
+commentaries, the Letter to Marcellinus; two flagged for Mark's judgment:
+the Philocalia acquisition, and the *On Prayer* / Curtis-CCEL provenance
+question) - all Mark's calls, not this thread's. Stage 7.5 (experience
+design) is Mark's own design pass, parallel to 5-7, not code. Stage 8 (M6,
+the participant surface) is gated on 7.5's approved screens - "no surface
+code before approval" is explicit in the build order, so M6 is not a task
+this thread should pick up unprompted even though it's the next *numbered*
+stage.
+
+The two things this thread built that touch M6/M5 territory but were
+flagged as deliberately out of scope for stages 5-6 (not silently skipped):
+Track B's own `safety_turn` content (`HARMFUL_DYNAMIC_SIGNAL`), and the
+other routing actions' generation content (`check_in_turn`/
+`system_nature_turn`/`bridge_turn`/`etic_turn`) - real, tested routing
+outcomes (`engine.m5.routing`) with `UnhandledRoutingAction` raised loudly
+wherever their content isn't built yet. These become real work once M6
+(stage 8) actually starts, not before.
