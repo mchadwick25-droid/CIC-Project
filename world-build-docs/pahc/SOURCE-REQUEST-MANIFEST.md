@@ -41,7 +41,7 @@ Preferred form, per the standing rule: archive.org scan or CCEL-format export ca
 
 ## 3. Consult-only (never vendor — in copyright)
 
-Holmes (2007), Ehrman's Loeb (2003), Niederwimmer (1998), Osiek (1999), and the named scholarship of Doc_02 §2 (Lampe, Brown, Bagnall, Brent, Trevett, Moll, Lieu, Thomassen, Tabbernee, Bradshaw, McGowan...). Cited inline in record bodies for dating/text-critical judgments; never quote-licensed. Search: `pahc.search.modern-editions-consult-only`.
+Holmes (2007), Ehrman's Loeb (2003), Niederwimmer (1998), Osiek (1999), and the scholarship named across the approved documents — Doc_02 §2 (Lampe, Brown, Brent, Trevett, Bradshaw), Doc_02 §4 (McGowan), Doc_01 §3 / Doc_02 §10 (Bagnall), Doc_01 §8.3 (Moll, Lieu, Thomassen, Tabbernee). Cited inline in record bodies for dating/text-critical judgments; never quote-licensed. Search: `pahc.search.modern-editions-consult-only`.
 
 ## 4. Considered and not registered (decisions, not oversights)
 

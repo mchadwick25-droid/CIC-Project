@@ -19,7 +19,11 @@ result: found
 found_sources: [pahc.source.first-clement, pahc.source.ignatius-letters, pahc.source.polycarp-philippians, pahc.source.martyrdom-polycarp, pahc.source.justin-first-apology, pahc.source.justin-dialogue, pahc.source.irenaeus-adversus-haereses, pahc.source.barnabas]
 note: "anf01 (ANF vol. 1, 1885, DC.Rights: Public Domain) carries all of the above in one volume; division layout verified directly (1 Clement at div1 ii with chapters I-LIX of its own numbering; Ignatius at div1 v in parallel shorter/longer recensions plus Syriac and spurious letters; Polycarp at iv.ii with all 14 chapters; the Martyrdom at iv.iv with all 22; Justin at viii; Irenaeus at ix; Barnabas at vi). 1 Clement's recovered ending required a second volume - see pahc.search.clement-complete-anf09."
 ---
-The prior build's Source Registry (Doc_02, 73 rows) named all these
-works; this search re-locates each in the vendored corpus so quote
-records can be verified against actual files rather than remembered
-editions.
+Provenance, stated precisely (corrected per round-1 review, which
+checked the actual Registry workbook): the prior build's Source Registry
+named the Apostolic-Fathers core and Justin's First Apology (rows
+P02-P06, P16); Irenaeus's Adversus Haereses, Barnabas, and Justin's
+Dialogue with Trypho appear nowhere in that workbook and are registered
+NEW at this build's step 2 (each of those rows says so itself). This
+search re-locates all eight in the vendored corpus so quote records can
+be verified against actual files rather than remembered editions.

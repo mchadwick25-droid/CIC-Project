@@ -18,7 +18,7 @@ work: "Historia Ecclesiastica; a LATER WITNESS, not a voice of this world: quote
 edition: "Nicene and Post-Nicene Fathers series 2, vol. 1 (1890), trans. Arthur Cushman McGiffert, vendored as cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml (the Church History portion; the volume's two works have different translators, checked per-work)"
 rights_status: public-domain
 attribution_status: attributed
-discovery_channel: "registered at this build's step 2 for a role the prior build exercised piecemeal (Eusebius citations appear across Doc_01/02/09 without their own row's screen being stated once); work presence verified in the vendored volume"
+discovery_channel: "prior-build Source Registry row P14 (added at Doc_02's round-1 fix pass), re-registered against the vendored corpus; what is new at this build's step 2 is only the consolidated screen below, which the prior build applied piecemeal rather than stating once on the row itself. Work presence verified in the vendored volume"
 external_ids: {ccel_volume: "npnf201"}
 ---
 Rights verified from the file's own DC.Rights header (Public Domain).

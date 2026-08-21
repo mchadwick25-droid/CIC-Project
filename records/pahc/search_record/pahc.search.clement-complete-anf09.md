@@ -13,11 +13,11 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources: []
-query: "The complete text of 1 Clement including the ending recovered from Codex Hierosolymitanus (chapters 57:7-65 in modern numbering, incl. the long closing prayer) - absent from ANF vol. 1, which predates full use of the 1873 discovery"
+query: "The complete text of 1 Clement including the portion recovered from Codex Hierosolymitanus (chapters 57:7-63 in modern numbering, incl. the long closing prayer, chs. 59-61) - absent from ANF vol. 1, which predates full use of the 1873 discovery"
 channel: "vendored-corpus survey (cic/texts), 2026-08-21"
 result: found
 found_sources: [pahc.source.first-clement]
-note: "anf09 (ANF vol. 9, 1896, DC.Rights: Public Domain), div1 xii 'The Epistles of Clement' - the title page read directly states it is 'reprinted from the translation given in the 1st vol... completed and revised from a manuscript discovered after the publication of that volume,' by Rev. John Keith. Quotes from the recovered portion cite this file; earlier chapters may cite either edition, stating which."
+note: "anf09 (ANF vol. 9, 1896, DC.Rights: Public Domain), div1 xii 'The Epistles of Clement' - the title page read directly states it is 'reprinted from the translation given in the 1st vol... completed and revised from a manuscript discovered after the publication of that volume,' by Rev. John Keith. Range corrected per round-1 review: what anf01 lacks is exactly the Alexandrinus lacuna 57:7-63 (the prayer material); anf01's own closing chapters DO carry the send-back-of-messengers ending and benediction (modern chs. 64-65), so those are not Hierosolymitanus-recovered. Quotes from 57:7-63 must cite this file; other chapters may cite either edition, stating which."
 ---
 Also present in anf09 div1 xii and deliberately NOT registered: 2
 Clement (an early homily, traditionally paired with 1 Clement). It is

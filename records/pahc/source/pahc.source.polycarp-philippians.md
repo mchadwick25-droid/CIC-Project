@@ -15,7 +15,7 @@ confidence:
 sources: []
 author: "Polycarp of Smyrna (self-identified in the letter's own salutation, 'Polycarp, and the presbyters with him')"
 work: "Epistle to the Philippians; dating tied to Ignatius's own (the letter reports forwarding his letters); unity contested - Harrison's 1936 two-letter-splice theory vs. Hartog/Holmes unity arguments, Berding's middle position"
-edition: "Ante-Nicene Fathers vol. 1 (1885), trans. Roberts-Donaldson, vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 iv, div2 iv.ii, chapters I-XIV)"
+edition: "Ante-Nicene Fathers vol. 1 (1885), Roberts-Donaldson series (the volume-level editor-translator credit; no per-work translator credit is printed at this work's own head), vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 iv, div2 iv.ii, chapters I-XIV)"
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior-build Source Registry row P04 (Doc_02, approved 2026-07-07), re-registered against the vendored corpus; work presence verified at div2 iv.ii with all 14 chapters present"

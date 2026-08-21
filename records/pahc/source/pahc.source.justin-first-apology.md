@@ -15,7 +15,7 @@ confidence:
 sources: []
 author: "Justin Martyr (writing in his own name to a named emperor)"
 work: "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set"
-edition: "Ante-Nicene Fathers vol. 1 (1885), trans. Dods/Reith, vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 viii, div2 viii.ii)"
+edition: "Ante-Nicene Fathers vol. 1 (1885), trans. Marcus Dods per the standard ANF bibliography - the vendored file itself carries no translator credit at the head of this work (its in-file 'Translated by' credits cover only the minor Justin works); vendored as cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (div1 viii, div2 viii.ii)"
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior-build Source Registry row P06 (Doc_02, approved 2026-07-07), re-registered against the vendored corpus; work presence verified at div2 viii.ii"

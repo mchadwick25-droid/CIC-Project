@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: null
+  divergence_note: "No public-domain English edition is vendored in cic/texts, so wording is not locally re-checkable - this row is PARAPHRASE-ONLY for quote purposes until one is (see pahc.search.roman-historians-english-pd, result: not_found). rights_status describes the ancient text and the named translation candidate, not a vendored, quote-licensed file."
 sources: []
 author: "Lucian of Samosata (satirist; hostile outside witness)"
 work: "The Passing of Peregrinus, c. 165 CE - a satire whose mockery incidentally preserves genuine communal practice: widows and orphans waiting at the prison, officials bribed, visitors traveling from the cities of Asia at communal expense, sacred books read aloud"

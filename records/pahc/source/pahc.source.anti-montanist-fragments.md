@@ -26,7 +26,13 @@ Rights verified from the file's own DC.Rights header (Public Domain).
 USE DISCIPLINE: doubly-mediated hostile testimony - an anonymous
 opponent, preserved only in Eusebius's later quotations, printed by ANF
 under a conjectural name ("Asterius Urbanus") that this build does not
-treat as a real attribution. Usable for the disclosure obligation: the
+treat as a real attribution. The same ANF introductory notice also dates
+the work "circa A.D. 232" on Tillemont's conjecture - rejected here
+along with the name: the fragments' own internal chronology (writing to
+Avircius Marcellus; "upwards of thirteen years since the woman died")
+supports the modern c. 192-193 dating this row carries, so a reader
+meeting the vendored file's own date header should expect the
+discrepancy rather than an unexplained contradiction. Usable for the disclosure obligation: the
 New Prophecy was live, Phrygian, spreading, and contested by synods of
 Asia Minor bishops right at this world's closing edge - contested, not
 yet defeated. The Montanists' own words survive only as fragments quoted

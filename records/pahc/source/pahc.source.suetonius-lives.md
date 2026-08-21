@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Contested
-  divergence_note: null
+  divergence_note: "No public-domain English edition is vendored in cic/texts, so wording is not locally re-checkable - this row is PARAPHRASE-ONLY for quote purposes until one is (see pahc.search.roman-historians-english-pd, result: not_found). rights_status describes the ancient text and the named translation candidate, not a vendored, quote-licensed file."
 sources: []
 author: "Suetonius (Roman biographer)"
 work: "Life of Claudius 25.4 (the 'Chrestus' expulsion notice, events c. 49 CE) and Life of Nero 16.2 (Christians punished, listed among public-order measures, no explicit fire connection stated)"
