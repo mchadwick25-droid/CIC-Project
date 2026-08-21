@@ -1,0 +1,46 @@
+# pahc Interpretive Lexicon — Master Index
+
+**GENERATED from records/pahc/term/ — do not hand-edit.** Regenerate with the script in this file's trailing comment after any term change. This index exists so tier, cell, risk, and relation questions are answerable without opening every record (the cic-lexicon-index discipline). The per-term structure lives in the records themselves; this is the queryable view.
+
+## Master table
+
+| id | world_word | tier | canon_cells | formation_confidence | evidentiary_weight | single-source risk | relations |
+|---|---|---|---|---|---|---|---|
+| pahc.term.ekklesia | ekklesia | 1 | F3-T, F5-P | Documented | load-bearing | no (4 sources) | associated-with→episkopos; associated-with→eucharistia |
+| pahc.term.episkopos | episkopos | 1 | F3-I | Contested | load-bearing | no (4 sources) | associated-with→presbyteros; associated-with→diakonos; associated-with→ekklesia; associated-with→eucharistia; associated-with→baptisma; tension-with→prophetes; presupposed-by→presbyterion |
+| pahc.term.eucharistia | eucharistia | 1 | F4-I, F1-T | Widely Accepted | load-bearing | no (3 sources) | associated-with→ekklesia; associated-with→episkopos; associated-with→agape-label |
+| pahc.term.presbyteros | presbyteros | 1 | F3-I | Contested | load-bearing | no (4 sources) | associated-with→episkopos; associated-with→presbyterion; associated-with→diakonos |
+| pahc.term.agape-label | agape (the love-feast) | 2 | F4-I | Contested | corroborating | no (2 sources) | associated-with→eucharistia; associated-with→hetaeria |
+| pahc.term.baptisma | baptisma | 2 | F4-I, F4-T | Widely Accepted | load-bearing | no (3 sources) | associated-with→two-ways; associated-with→episkopos |
+| pahc.term.diakonos | diakonos | 2 | F3-I, F4-I | Widely Accepted | corroborating | no (3 sources) | associated-with→episkopos; associated-with→presbyteros; associated-with→prophetes; associated-with→ministrae |
+| pahc.term.ministrae | ministrae (Pliny's word, not the community's own) | 2 | F5-I, F6-E | Contested | load-bearing | YES (pliny-letters) | associated-with→diakonos; associated-with→hetaeria; associated-with→pertinacia |
+| pahc.term.presbyterion | presbyterion | 2 | F3-I | Documented | corroborating | YES (ignatius-letters) | presupposes→episkopos; associated-with→presbyteros |
+| pahc.term.prophetes | prophetes | 2 | F3-I, F1-E | Documented | corroborating | YES (didache) | tension-with→episkopos; associated-with→diakonos |
+| pahc.term.two-ways | the Two Ways | 2 | F4-I | Contested | load-bearing | no (2 sources) | associated-with→baptisma |
+| pahc.term.hetaeria | hetaeria (a Roman legal-administrative word, not the community's own) | 3 | F3-I | Inferential-Thin | illustrative | YES (pliny-letters) | associated-with→pertinacia; associated-with→ministrae; associated-with→agape-label |
+| pahc.term.pertinacia | pertinacia (the magistrate's word, not the community's own) | 3 | F3-I | Inferential-Thin | illustrative | YES (pliny-letters) | associated-with→hetaeria; associated-with→ministrae |
+
+## By tier
+
+- **Tier 1:** ekklesia, episkopos, eucharistia, presbyteros
+- **Tier 2:** agape (the love-feast), baptisma, diakonos, ministrae (Pliny's word, not the community's own), presbyterion, prophetes, the Two Ways
+- **Tier 3:** hetaeria (a Roman legal-administrative word, not the community's own), pertinacia (the magistrate's word, not the community's own)
+
+## Contested / single-source watch list
+
+- pahc.term.agape-label: Contested
+- pahc.term.episkopos: Contested
+- pahc.term.hetaeria: Inferential-Thin, single-source
+- pahc.term.ministrae: Contested, single-source
+- pahc.term.pertinacia: Inferential-Thin, single-source
+- pahc.term.presbyterion: single-source
+- pahc.term.presbyteros: Contested
+- pahc.term.prophetes: single-source
+- pahc.term.two-ways: Contested
+
+## Relation reciprocity check (mechanical)
+
+All term-to-term relations reciprocate. (Verified by the generator against RELATION_INVERSE; the M1 reciprocity gate re-verifies on every run.)
+
+---
+<!-- generator: load records/pahc/term via engine.m1.loader, emit this table; see git history of this file for the exact script -->

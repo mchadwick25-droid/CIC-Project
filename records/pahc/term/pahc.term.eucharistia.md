@@ -38,8 +38,8 @@ relations:
   target: pahc.term.episkopos
 - type: associated-with
   target: pahc.term.agape-label
-plain_meaning: 'The thanksgiving: the meal of bread and cup over which thanks is given - the table
-  the community returns to, again and again, to be formed once more into one body.'
+plain_meaning: 'The thanksgiving: the meal of bread and cup over which thanks is given. The
+  community returns to this table again and again, to be formed once more into one body.'
 world_word: eucharistia
 false_friend:
 - a uniform ritual with fixed prayers (the form varies community to community)

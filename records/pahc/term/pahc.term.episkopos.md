@@ -72,7 +72,7 @@ senses:
   translational: 'Modern ''bishop'' names a settled office in a settled hierarchy. Here the word
     names a live question - some churches had such a figure, some did not, and whether every church
     should have one was exactly what the letters were arguing about.'
-quick_meaning: The overseer of a community's table and unity - where there is one; some churches were led by a council of elders instead.
+quick_meaning: The overseer. He watches over a community's table and its unity, where there is one. Some churches were led by a council of elders instead.
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 1, Tier 1,
 CT contest: Meaning and Historical scope - secured office vs. argued

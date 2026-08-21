@@ -62,7 +62,7 @@ senses:
   translational: 'Modern ''presbyter'' or ''elder'' arrives carrying a denomination''s settled
     polity. Here the word''s meaning is still being shaped: council-rule in one region,
     bishop-support in another, and no umpire between them.'
-quick_meaning: The elders who govern a community - as a council on their own in some churches, around a single overseer in others.
+quick_meaning: The elders who govern a community. In some churches they rule as a council on their own. In others they gather around a single overseer.
 ---
 Re-derived from the approved lexicon (Doc_03/Doc_06, term 2, Tier 1,
 CT contest: Meaning - the Polycarp self-designation question). Built as
