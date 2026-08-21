@@ -23,7 +23,7 @@ worlds:
     place: "Alexandria and Egypt"
     representative: {name: Theon, role_label: "Catechetical Teacher"}   # sanctioned fabrications (spec principle 14) - RULED by Mark, 2026-08-21, in session ("for the name and role: Theon / Catechetical Teacher")
     state: building         # steps 1-4 done (source ecology closed, ecology reconstructed, canon covered 28/28); step 5 voice build in progress; advances to built only when gates run green
-    census_id: null         # Atlas census mapping pending - to be set from world-census.json, never guessed
+    census_id: "alexandria-catechetical"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.2") - verified against the running Atlas frontend, not guessed from the spec's own illustrative "IX.12"-style example: atlas-v3.html's "Interview <rep>" button sends data-aid="${m.id}" (the census entry's id field), not atlasId, so this is the value the real deep link actually needs. Matches this world's own world_id independently.
     package: null           # no compiled package yet (M2 compile is step 6)
     thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
     living_tradition_flag: true   # prior-framework confirmation by Mark (2026-07-17): Coptic Orthodox Church primary heir; carried forward with re-confirmation under the new spec flagged as pending - the doorway carries the living-tradition distinction meanwhile (fail toward disclosure)
