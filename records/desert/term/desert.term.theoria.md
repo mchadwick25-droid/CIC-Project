@@ -32,11 +32,15 @@ false_friend:
 - theory (abstract speculation)
 senses:
   informational: "The final stage of Evagrius's scheme - after the practical life, after passionlessness - contemplation, itself graded from the contemplation of created things up to the contemplation of God. Strand C's vocabulary, concentrated in one author; the wider movement prayed the Psalter without this ladder."
-  evidential: "Rests on Evagrius's corpus, consult-only, with the vendored Socrates excerpts as the one directly checkable witness to his works. Its strand-bound status is a tested finding, not an impression."
+  evidential: "Rests on Evagrius's own corpus; the historian Socrates names his works and quotes some of his sentences, which is the one place this stage's teaching can be checked in English directly. Its strand-bound status is a tested finding, not an impression."
   personal: "Not thinking about God - seeing, in the way a long-trained eye sees. The tradition insisted no one starts here; wanting the summit without the slope was itself one of the thoughts to be fought."
   translational: "'Theory' is the false friend: this is perception, not speculation - the trained sight of a life that has first been stilled."
 quick_meaning: "Contemplation - the trained seeing of God that a stilled life may reach."
 ---
+Step3a Review Round 1, Finding 1: reworded the evidential sense to
+drop corpus-management vocabulary (vendored/consult-only/directly
+checkable) in favor of in-world evidence talk.
+
 Re-derived from Doc_06 SS2.3 (Tier 2; tags AS TC DR PV;
 strand-C-bound, single-author-concentrated per Doc_03 SS1.7/Doc_04
 SS3). Serves F4-I (why and how did you pray) for the Strand C register

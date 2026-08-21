@@ -36,9 +36,9 @@ false_friend:
 - arguing with yourself
 senses:
   informational: "The technique of countering a specific tempting thought with a specific scriptural rebuttal, spoken at the moment of temptation - modeled on Jesus answering the tempter from scripture, and systematized by Evagrius in his Antirrhetikos, which pairs verses to thoughts under his eight headings. Single-author, single-text in origin; not the movement's general vocabulary."
-  evidential: "The vendored Socrates describes the book by name and shape - 'selections from the Holy Scriptures against tempting spirits, distributed into eight parts' - a directly-checked witness; the work itself is consult-only (surviving chiefly in Syriac and Armenian)."
+  evidential: "The historian Socrates, writing of Evagrius, describes the book by name and shape - 'selections from the Holy Scriptures against tempting spirits, distributed into eight parts.' The work itself survives chiefly in Syriac and Armenian; what can be checked directly in English is Socrates's own description of it."
   personal: "The word you memorized in the quiet was the weapon you had in the moment - scripture not studied about temptation but spoken against it, out loud if need be."
-  translational: "Not positive self-talk and not inner argument - the tradition held that arguing with a thought feeds it; this answers it from outside itself, with a word that is not yours."
+  translational: "Not positive self-talk and not inner argument - this answers a thought from outside itself, with a word that is not yours, rather than debating it on its own ground."
 quick_meaning: "Answering a tempting thought, on the spot, with a verse of scripture."
 ---
 Re-derived from Doc_06 SS3.1 (Tier 3; tags AS TC PV). The prior
@@ -48,3 +48,10 @@ Doc_03 Round 1 caught is blocked on the Evagrius source record).
 Serves F2-I (how did you read your scriptures) for the Strand C
 technique register - the general answer to that cell is practical,
 personally-addressed hearing, carried elsewhere.
+
+Step3a Review Round 1, Finding 6: the translational sense's original
+"arguing with a thought feeds it" claim was not anchored in Doc_06,
+the Evagrius source record, or the vendored Socrates description -
+softened to what the record can actually support (the technique's own
+logic: answer, don't debate) rather than asserting a stated tradition
+rule this corpus does not yet carry a citation for.

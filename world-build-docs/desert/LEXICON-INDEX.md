@@ -26,7 +26,7 @@
 | 14 | nepsis | 2 | y | – | y | y | – | y | – | F4-P | mindfulness | diakrisis, logismoi, hesychia | apophthegmata; evagrius | systematized register single-author — flagged |
 | 15 | synaxis | 1 | – | y | – | – | y | y | – | F3-I, F4-I | generic church service | kellion | palladius; apophthegmata | no |
 | 16 | kellion | 2 | y | – | – | – | y | – | – | F5-I, F5-E | prison cell; just a room | synaxis, anachoresis | kellia; palladius | no |
-| 17 | antirrhesis | 3 | y | – | – | y | – | y | – | F2-I | affirmation technique | logismoi, apatheia | evagrius; socrates | single-author, single-text — flagged |
+| 17 | antirrhesis | 3 | y | – | – | y | – | y | – | F2-I | affirmation technique; arguing with yourself | logismoi, apatheia | evagrius; socrates | single-author, single-text — flagged |
 | 18 | puritas-cordis | 3 | – | y | – | y | – | y | – | F4-I | vague devotional phrase | apatheia | cassian-conferences; cassian-institutes | single-author (Cassian, export edge) — flagged |
 
 ## View: by tier
@@ -49,6 +49,23 @@ The Related-Terms graph is 24 symmetric edges (matching Doc_06's independently r
 ## Deliberate empty cells
 
 *penthos* carries no canon_cells: no canon question maps to it tightly, and a loose thematic stretch would be forcing (its record body says so). It remains retrievable by its own retrieve_when.
+
+## Review Round 1 note (applied)
+
+Step3a Review Round 1 (`world-build-docs/desert/reviews/Step3a_Review_Round1.md`)
+found the reciprocity graph, canon-cell mappings, and Doc_06 fidelity
+(including the twice-corrected apatheia [CT] form) all genuinely clean
+on independent re-derivation. Two substantial patterns were fixed: build-
+infrastructure vocabulary ("vendored," "consult-only," "this corpus")
+inside seven records' evidential senses, reworded to in-world evidence
+talk; and two paraphrased sayings (kellion, apophthegma) that had been
+rendered inside quotation marks despite their own bodies saying they were
+not quotations — un-quoted. Cosmetic fixes: puritas-cordis's Conference I
+locus corrected (~26147 -> ~26109); this index's antirrhesis row restored
+its second false_friend; cheironaxia's world_word restored the Doc_06
+"Ergocheiron" alternate form; antirrhesis's translational sense softened
+an uncited claim; apatheia gained the Gould source registration matching
+its own evidential-sense citation.
 
 ## Author-gravity column basis
 

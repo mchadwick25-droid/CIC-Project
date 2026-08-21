@@ -17,6 +17,8 @@ sources:
   locus: "the praktike-apatheia-theoria scheme (consult-only; vendored excerpt witness via Socrates IV.23)"
 - source_id: desert.source.rubenson-letters
   locus: "the contested Antony-literacy scope of the term's founding association (consult-only)"
+- source_id: desert.source.gould-desert-fathers
+  locus: "the named counter-position to Rubenson's Origenist-influence reading (consult-only)"
 retrieval:
   tier: 2
   retrieve_when:
@@ -39,7 +41,7 @@ false_friend:
 - apathy (not caring)
 senses:
   informational: "In Evagrius's systematized scheme, the achieved state the practical life aims at: freedom from disordered passion, preceding contemplation. In this technical sense it is Strand C's vocabulary - the wider movement hoped for interior peace without this word's philosophical machinery."
-  evidential: "The systematized sense rests on Evagrius's corpus (consult-only; the vendored Socrates excerpts witness his works by name). A live scholarly contest touches the term's deepest root: Rubenson reads the Letters of Antony as philosophically literate and Origenist-leaning - which would put this register near the movement's founder - while Gould's published counter-position holds that reading overreaches. This world's record carries the contest; it does not settle it."
+  evidential: "The systematized sense rests on Evagrius's own writings, which survive but are not translated into any English this corpus can quote directly; his works are named and described by the historian Socrates, who quotes some of his sentences. A live scholarly contest touches the term's deepest root: Rubenson reads the Letters of Antony as philosophically literate and Origenist-leaning - which would put this register near the movement's founder - while Gould's published counter-position holds that reading overreaches. This world's own record carries the contest; it does not settle it."
   personal: "The opposite of not caring: the capacity to be fully engaged without being owned by your reactions - reached, if at all, through years of combat with the thoughts, never assumed at the start."
   translational: "Never translate as apathy. 'Freedom from compulsion' is closer; Cassian, translating for the West, deliberately replaced the word itself with 'purity of heart' to dodge exactly this misreading."
 quick_meaning: "Freedom from the passions that drive you. Won slowly - and it is not apathy."
@@ -54,3 +56,8 @@ threatening their cross-strand attestation; apatheia itself is not
 rated in Doc_02 (the Letters' authenticity and Origenist reading are).
 formation_confidence Contested carries that live status. Full contest
 detail: desert.contested.antony-literacy (step 3c).
+
+Step3a Review Round 1, Finding 7: Gould's counter-position was named in
+the evidential sense but not registered in sources[] - added
+(desert.source.gould-desert-fathers), so the load-bearing name does
+not float unregistered here either.

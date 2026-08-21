@@ -33,7 +33,7 @@ relations:
 - type: associated-with
   target: desert.term.anachoresis
 plain_meaning: "Manual labor - rope, baskets, linen - done both to live and as a discipline in its own right."
-world_word: cheironaxia
+world_word: cheironaxia / ergocheiron
 false_friend:
 - a menial day-job kept separate from the spiritual life
 senses:
@@ -48,3 +48,7 @@ RT). verified-direct because the two load-bearing textual anchors are
 vendored and were read at their loci this session (Vita SS3; Palladius
 ch. VII). The economic-embeddedness tension (gravity 8) is stated in
 the translational sense, per Doc_06's own feeding of that cluster.
+
+Step3a Review Round 1, Finding 5: Doc_06 1.7 titles this entry
+"Cheirōnaxia / Ergocheiron" - the alternate form had been dropped;
+restored to world_word.

@@ -44,11 +44,14 @@ false_friend:
 - mere distractions
 senses:
   informational: "The unwanted thoughts a person did not choose to have - treated across all three strands as the true site of spiritual combat. The famous eight-fold catalogue (gluttony, lust, avarice, sadness, anger, listlessness, vainglory, pride) is Evagrius's own systematization within one strand, not the whole movement's shared checklist."
-  evidential: "The general theme runs through Athanasius's Life of Antony and the sayings tradition alike; the systematized taxonomy is concentrated in Evagrius's writings at Kellia - a one-author elaboration this record keeps distinct from the broadly-attested experience it organizes."
+  evidential: "The general theme runs through Athanasius's Life of Antony and the sayings tradition alike; the systematized taxonomy is concentrated in Evagrius's writings at Kellia - a one-author elaboration kept distinct here from the broadly-attested experience it organizes."
   personal: "A thought was never just private noise. It mattered morally, wanted something, and was to be watched, discerned, and told to an elder - fighting alone, in this world's own counsel, was how the thoughts won."
   translational: "Not a clinical symptom and not superstition about the weather of the mind: whatever a modern reader holds about where such thoughts come from, this world's practice was to take each one seriously as an event, name it, and answer it."
 quick_meaning: "The unwanted thoughts a person battles - this world's real battlefield."
 ---
+Step3a Review Round 1, Finding 1: reworded the evidential sense to
+drop the record-self-reference "this record keeps distinct."
+
 Re-derived from Doc_06 SS1.4 (Tier 1; tags AS TC RT PV DR - the [DR]
 added at that document's own Round 1, carried). The [PV] discipline is
 load-bearing: the eight-fold taxonomy is Evagrian/Strand C
