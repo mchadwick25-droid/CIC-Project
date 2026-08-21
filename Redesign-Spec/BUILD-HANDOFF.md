@@ -4,6 +4,31 @@ Read `Build-Blueprint.md` first; this note is only the "where things stand"
 supplement it asks for at every stage boundary / stop-and-ask / economy
 checkpoint.
 
+## Also: this thread now owns Alexandria from step 5(e) forward
+
+2026-08-21, authorized by Mark: the Alexandria world-build thread
+(branch `world/alexandria`, a sibling session) handed off Alexandria's
+build to this thread once its own steps 1-5(a-d) closed (source ecology,
+ecology reconstruction, canon answered 28/28, voice-craft foundation).
+Full detail lives on that branch, not here - see `world-build-docs/alx/
+HANDOFF-TO-BUILD-THREAD.md` (the authoritative handoff doc, still
+accurate for steps 1-5(a-d) and Mark's four recorded rulings) and this
+thread's own follow-on commits on `world/alexandria`: `6d9ce55`
+(texts_registry.py ported, README regenerated for real), `5c2fcea`
+(census_id set - verified against the real Atlas frontend's actual
+deep-link code, not the spec's own illustrative example format), `6f857cb`
+(step 6 official compile: determinism-twice, real package built and
+stub-loader-verified, `state: building -> built`).
+
+Still open on that branch, in order: the fleet exemplar transcript (a
+fleet-wide voice-craft artifact, not Alexandria-specific - flagged for
+Mark's steer before drafting, not started); step 5(e) voice validation +
+step 7 admission (needs the M3 harness on a live model - real spend,
+paced with Mark same as the safety script, not started). This thread's
+own stage work (M1-M8 above) and Alexandria are two separate tracks on
+two different branches - this section exists so a reader of this file
+alone knows the second track exists at all.
+
 ## Current stage: 6 DONE — M8 cost & observability, all four gate items proven with real evidence (parity vs. raw usage shapes; zero unattributed calls; cache economics re-measured and recorded with the band; a lapsed cache window visible in the numbers)
 
 **Stage 6 (M8: cost & observability) — done, commits `dad8448` +
