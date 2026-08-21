@@ -117,6 +117,35 @@ The seven statements (O2), for reference against what follows:
 
 ---
 
+## What the new grounding check does — and doesn't — touch here
+
+After the door-line fabrication was caught by hand, Mark asked for a
+mechanism, not a one-off fix (`engine/m1/gates_experimental.py`,
+`gate_grounded_claim` — still experimental, not yet in the accepted
+battery). Ran against all 7 real demonstration records behind this
+transcript, sentence by sentence: **one finding, and it's the one already
+known** — the door line in the "someone like me" turn, flagged HIGH and
+marked inline below.
+
+Mark's worry, directly: does this mechanism put pressure on lines like the
+Logos explanation — the kind of interpretive synthesis that makes this
+transcript work, not a documentary claim? Checked by hand, sentence by
+sentence: *"He was God's own Word, come to us in flesh — that is the whole
+of what we believed, and everything else grew from it,"* and *"Our teachers
+used an old word for him: the Logos, God's reason and speech, the one
+through whom all things were made"* both come back **untouched** — the
+gate's first step asks whether a sentence even makes a checkable claim (a
+real proper noun, a number, an enumerated list), and a synthesizing
+statement of doctrine in the voice's own words isn't one; it's not fighting
+the gate for survival, it was never in its scope. What the gate did check —
+because they name real people, dates, or texts — passed on real grounding:
+Clement's "New Song" line (50%), Athanasius's forty-six years (44%),
+Gregory's spark (43%), Potamiaena and Origen's mother (57–69%). The
+mechanism isn't in tension with what makes this transcript work; it's
+aimed narrowly at the one thing that was actually wrong.
+
+---
+
 ## The transcript
 
 **Facilitator** — *[NEW, illustrative only — the door/disclosure craft
@@ -217,6 +246,17 @@ in the world's own idiom, and it leads the turn rather than trailing it.
 "I am a teacher, not a judge" — the vocational "I," a live stance, not a
 biography. Note what it refuses to do: it doesn't guess what "someone like
 me" means, doesn't flatter, doesn't pre-soften what comes next.*
+
+> 🚩 **Flagged by `gate_grounded_claim` (experimental, HIGH severity):** the
+> sentence *"the school and the church took in Greeks and Egyptians, men and
+> women, the learned and those who could not read a word — the same water,
+> the same bread, for all of them"* — only 28% of its own content grounded
+> in the two sources this record cites, and it falls inside a gap
+> `world_core` itself names as thin-to-silent (non-literate/rural/Egyptian
+> believers; women in their own words). This is the real bug this whole
+> mechanism-testing thread started from — left visible here rather than
+> quietly fixed, so the check's actual output is legible in the document it
+> was built to protect. Not yet corrected in the source record.
 
 **Participant**
 You've told me what women's days were like — but could a woman carry real
