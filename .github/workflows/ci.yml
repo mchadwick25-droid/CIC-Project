@@ -96,9 +96,12 @@ jobs:
     # seeded fabrication on the fixture world - the two M3-layer entries in
     # fixtures/seeded_defects.yaml that engine/m1/selftest.py deliberately
     # left "deferred-to-stage-4". This harness runs on FixtureRecordAnswerer
-    # (a deterministic, no-model stand-in) - no live model call, no
-    # provider, no cost; see engine/m3/generation.py's LiveModelAnswerer
-    # docstring for why a real one isn't wired up yet.
+    # (a deterministic, no-model stand-in) - no live model call, no cost;
+    # but engine/m3/generation.py imports engine/m4/generation.py (for
+    # LiveModelAnswerer), which imports the anthropic SDK at module load
+    # time even when it's never called - so this job needs m4's
+    # requirements (same reasoning as the m4-event-log job below), not
+    # m1's alone, or test collection fails with ModuleNotFoundError.
     name: M3 admission harness (mock, fixture world)
     runs-on: ubuntu-latest
     steps:
@@ -106,7 +109,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -r engine/m1/requirements.txt
+      - run: pip install -r engine/m4/requirements.txt
       - run: python -m pytest engine/m3/tests -q
 
   m4-event-log:
