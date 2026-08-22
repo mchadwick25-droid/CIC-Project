@@ -12,7 +12,7 @@ worlds:
     state: built            # gates green (stage 1) + a compiled package (stage 2); never advances past built - not a real world, never admitted or open
     census_id: null        # not an Atlas entry - synthetic only
     package:
-      manifest_hash: "sha256:a3d760008cab4effbd4a41174e015e15acb489d5328ac9fd42556bf9369ee428"
-      location: "packages/fix/2026-08-20T20-47-35Z"
+      manifest_hash: "sha256:568bbfb7a4b072382ebe7c5810971b4e9860375bb29b471b3a858f7ce156f0fc"
+      location: "packages/fix/2026-08-22T03-27-40Z"   # recompiled: the prior package (2026-08-20T20-47-35Z) had drifted stale against e8f45887 ("Fix Representative voice: I -> we, remove individual-lifetime framing"), which edited fix.demo.core-testimony/identity-collision and three fix honest_limit records without a recompile - caught by the M2 staleness sweep. Records unchanged by this commit; recompile only.
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
