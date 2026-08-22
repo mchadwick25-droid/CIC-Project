@@ -54,7 +54,7 @@ false_friend:
 - a vacation or a temporary getaway
 senses:
   informational: "The defining act of this world: departing village or town life for marginal or remote land, where distance, solitude, and struggle are themselves the curriculum. Antony's own career shows its shape - a staged deepening from village edge to outer mountain to inner mountain, not one dramatic exit."
-  evidential: "Attested across every stream this world has: Athanasius's Life of Antony, the sayings tradition, Palladius, and the excavated settlements at Kellia. The documentary record also qualifies the rhetoric: the settlements sat on marginal land with real village trade ties, so 'flight to the desert' was never a total break."
+  evidential: "Attested across every stream this world has: Athanasius's Life of Antony, the sayings tradition, Palladius, and the excavated settlements at Kellia. The documentary record also qualifies the rhetoric: the settlements sat on marginal land with real village trade ties, so 'flight to the desert' was never a total break. Two further witnesses corroborate that qualification, each with its own honest limit: business letters survive from a Melitian community whose representativeness for this world's mainstream strands is an unverified working assumption, and whose own organization its editors read as intermediary, no clean fit to this world's three strands; and modern scholarship on the same embeddedness thesis, whose specific claims stand unverified in themselves, corroborated here only by the other evidence already cited."
   personal: "To those who did it, withdrawal was the most demanding form of engagement, not the least - a decision to face, without cushioning, the interior life that settled routine lets a person avoid. It replaced martyrdom as the whole self given at once."
   translational: "'Withdrawal' or 'retreat' in the modern sense - a break to recharge, an escape from responsibility - reverses the meaning. This was permanent, bodily, and itself the point; the desert was the arena, not the exit."
 quick_meaning: "Leaving settled life for the desert, as the work of formation itself."
@@ -105,3 +105,22 @@ withdrawal into Nitria and says the opposite of ordinary for its own
 moment ("there were no monasteries there yet") - the chapter still
 attests withdrawal, so the citation itself was sound, but the
 parenthetical over-reached. Split to describe ch. VIII on its own terms.
+
+Step3a Review Round 8, Finding B2: an exhaustive standing-rule matrix
+found both the Nepheros cautions and the Goehring verification bound
+sitting only in this record's locus (not compiled) while the claims
+they qualify sit in the evidential sense (compiled) - satisfying
+Round 7's own prescription but not Round 4/5's earlier standard, which
+this lexicon settles on here: a standing-rule caveat travels with the
+sense field carrying the claim it qualifies, not only the locus. Added
+to the evidential sense above, matching cheironaxia's model.
+
+Self-caught before commit, twice in the same editing pass: this fix's
+first draft wrote "not yet independently checked" into the same sense
+it was fixing - the verification-process verb Rounds 3-4 excised from
+theoria and puritas-cordis - and the reword that replaced it wrote in
+"vendored" - jargon family #1, excised since Round 1. Both caught on
+re-reads before committing; the sense now reads "stand unverified in
+themselves, corroborated here only by the other evidence already
+cited," reusing this lexicon's own already-established "unverified
+working assumption" register and no apparatus vocabulary.

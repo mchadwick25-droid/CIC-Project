@@ -210,6 +210,27 @@ updated for their newly-registered sources; the Round-5 paragraph's
 round's own new registrations had already made the count stale by the
 time it was written.
 
+Step3a Review Round 8 (`world-build-docs/desert/reviews/Step3a_Review_Round8.md`)
+changed method: rather than another spot-check, it read all 24 source
+records end to end, extracted every standing rule they state (30 in
+total), and checked each against every term record citing that source
+at claim level - a durable matrix (the review's section C) rather than
+another round of incremental discovery. Result: the standing-rule
+application problem is closed, with no unswept sibling left. It found
+two residual items instead. The Round 7 fix correcting apotage's
+translation-chain count had itself written "this build" into the
+evidential sense - the corpus/build self-reference family excised in
+Rounds 1-3, reintroduced after two consecutive rounds had confirmed it
+clear; a sixth illusory-fix recurrence, fixed by deleting the two
+words. And a genuine inconsistency in where standing-rule caveats had
+been landing - Round 4/5 required sense-level carriage (what a hearer
+or compiled output actually gets), Round 7 had instead written new
+caveats into `locus` fields (never compiled) - resolved by ruling for
+sense-level carriage as this lexicon's standard (recorded in
+DECISION-LOG.md) and bringing anachoresis, cheironaxia, and diakrisis
+up to it. One cosmetic nit: koinonia's Rousseau locus named a narrower
+claim-type than the claim it was actually covering.
+
 ## Author-gravity column basis
 
 "Flagged" entries reproduce each record's own stated risk (single-author concentration for the Evagrian cluster and Cassian; the compiler layer for the sayings; the amma thinness bound) — the column is read off the records' sources/bodies, not asserted independently.

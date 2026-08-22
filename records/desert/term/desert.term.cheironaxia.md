@@ -40,7 +40,7 @@ false_friend:
 - a menial day-job kept separate from the spiritual life
 senses:
   informational: "Hand-work - rope-twisting, basket-weaving, at Nitria linen-manufacture - sustained the ascetics, funded alms beyond the settlements, and was itself a discipline against idleness. It is one of this world's better-corroborated practices: text and archaeology agree directly, and a body of ordinary business letters from a Melitian community its own editors read as organizationally intermediary shows a similar pattern of self-supporting labor, though how far that likeness extends to this world's own strands is not settled."
-  evidential: "The Life of Antony has him working with his hands from the start; Palladius reports Nitria's linen-work and self-support in so many words; Kellia's excavated commercial buildings show the trade actually running. A further, kindred witness: letters of ordinary monastic business survive from a Melitian community far off in Middle Egypt, that kept to a different bishop than most of this world did - its own economic life looks the same, though whether that likeness held everywhere is not something this world's record can fully answer. That community's own organization has also been read as something between a settled house and a scatter of hermits, which does not sort cleanly into this world's own three strands either."
+  evidential: "The Life of Antony has him working with his hands from the start; Palladius reports Nitria's linen-work and self-support in so many words; Kellia's excavated commercial buildings show the trade actually running. A further, kindred witness: letters of ordinary monastic business survive from a Melitian community far off in Middle Egypt, that kept to a different bishop than most of this world did - its own economic life looks the same, though whether that likeness held everywhere is not something this world's record can fully answer. That community's own organization has also been read as something between a settled house and a scatter of hermits, which does not sort cleanly into this world's own three strands either. The same pattern is corroborated by modern scholarship on the wider embeddedness thesis, whose specific claims stand unverified in themselves, corroborated here only by the textual and archaeological evidence already cited."
   personal: "The hands worked so the mind could stand watch. Labor structured the day, kept the body honest, and left the inner attention free for prayer and the thoughts - it was never a distraction from the real work; it was the real work's floor."
   translational: "Not a job, and not proof the monks 'really' stayed worldly: the same weaving that fed a monk also tied the settlements into village markets - both things are true, and the tradition held them together without embarrassment."
 quick_meaning: "Hand-work - rope, baskets, linen - that fed the monks and trained them."
@@ -114,3 +114,18 @@ Step3a Review Round 7, Finding S4: Goehring's own source record states
 his specific claims carry an open verification bound that "travels
 with every citation"; this record's locus carried the joint-citation
 half of the standing rule but not the bound. Added.
+
+Step3a Review Round 8, Finding B2: the Goehring bound added in Round 7
+sat only in the locus (not compiled), while the embeddedness claims it
+qualifies sit in the translational and informational senses (compiled).
+Added to the evidential sense above, per this lexicon's settled
+standard that a standing-rule caveat travels with the sense field
+carrying the claim it qualifies.
+
+Self-caught before commit, twice in the same editing pass, the
+identical slip made on anachoresis's sibling fix: this fix's first
+draft wrote "not yet independently checked," then "vendored" into the
+reword that replaced it - both from jargon families this lexicon had
+already excised. The sense now reads "stand unverified in themselves,
+corroborated here only by the textual and archaeological evidence
+already cited," with no apparatus vocabulary.

@@ -22,7 +22,7 @@ sources:
   locus: "III.14 (the rule summary at one remove)"
   license: public-domain
 - source_id: desert.source.rousseau-pachomius
-  locus: "the named modern authority for Rule-content claims resting on consult-only scholarship, per this world's standing rule"
+  locus: "the named modern authority for Rule-content or Lives-incident claims resting on consult-only scholarship, per this world's standing rule (here, the federation's house count, a Lives-incident claim)"
 retrieval:
   tier: 1
   retrieve_when:
@@ -77,3 +77,12 @@ scholarship source, the same gap Round 7 found and fixed on apotage.
 desert.source.rousseau-pachomius, registered there as the named
 authority for exactly this, registered here too - no rewording needed,
 since the sentence already meant this source.
+
+Step3a Review Round 8, Finding D3: this record's Rousseau locus read
+"Rule-content claims," narrower than what it was actually covering -
+the informational sense's house count (nine men's houses, two
+women's), which is federation history, not Rule content, and which
+neither Palladius XXXII nor Sozomen III.14 carries (verified: both
+give population figures, no house count). Rousseau's own record covers
+"Rule-content or Lives-incident claims," which does reach this one;
+locus reworded to name the actual claim-type and say so.
