@@ -44,7 +44,7 @@ senses:
   translational: 'Roughly: elite secondary education in language and literature - the prerequisite
     of every scholarly practice this world fused with its asceticism.'
 quick_meaning: The Latin grammar schooling, under Donatus, that lay behind all the later work.
-distortion_risk: low
+distortion_risk: medium
 ---
 Re-derived from cleared Doc_06 entry 12 (hal_lex12), carrying Doc_01's
 Round 1 correction (grammar training under Donatus is what the sources

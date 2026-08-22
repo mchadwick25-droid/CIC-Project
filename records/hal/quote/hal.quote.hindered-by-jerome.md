@@ -24,7 +24,7 @@ text: 'Among them was the Roman lady Paula, mother of Toxotius, a woman of great
   jealousy, having induced her to serve his own plan.'
 speaker_or_author: 'Palladius of Galatia, Lausiac History 41 (trans. Clarke)'
 license: verbatim
-modern_lens_note: '"Jealousy" here names professional and reputational rivalry over her spiritual standing, not a personal or romantic sense.'
+modern_lens_note: '"Jealousy" carries the older sense of envy over standing or advantage, not a personal or romantic sense.'
 ---
 Verified verbatim 2026-08-21 against the vendored Clarke translation (a
 footnote-number artifact in the raw file, 'Paula,276', is elided from the

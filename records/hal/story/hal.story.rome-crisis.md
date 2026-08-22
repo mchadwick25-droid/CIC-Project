@@ -57,7 +57,7 @@ absent_detail: 'Every voice in this story is Jerome''s: the crowd''s words are h
   any formal church process reviewed his conduct is not attested. Blaesilla herself -
   her own choice, her own words - is entirely silent in the record; even her death''s
   cause is the crowd''s accusation and the circle''s grief, not a physician''s account.'
-modern_contrast: 'A modern reader often hears this as a straightforward disgrace-and-exile narrative - a man driven out for scandal. This world''s own record frames it differently: it is the community''s own account of what its ascetic practice actually cost in hostility and loss, telling the crowd''s hardest words against itself rather than smoothing them away, with the departure becoming the founding of Bethlehem rather than only a disgrace.'
+modern_contrast: 'A modern reader often hears this as a straightforward disgrace-and-exile narrative - a man driven out for scandal. This world''s own record frames it differently: it preserves the crowd''s hostile murmur rather than omitting it, though only because Jerome himself recorded it in his own rebuttal - every voice in this telling is his, the Roman clergy''s own side was never written down or does not survive, and the departure becomes, in the community''s own later telling, the founding of Bethlehem rather than only a disgrace.'
 ---
 Re-derived from cleared Doc_09a S2, told with the record's own hardest
 edge kept (the fasting-death accusation preserved by its target). Serves

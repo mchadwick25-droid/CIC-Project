@@ -22,7 +22,7 @@ text: 'My voice sticks in my throat; and, as I dictate, sobs choke my utterance.
   the sword and but few citizens were left to be made captives.'
 speaker_or_author: hal.figure.jerome
 license: verbatim
-modern_lens_note: 'No significant modern-lens risk identified for this quote.'
+modern_lens_note: '"Famine was beforehand with the sword" is archaic word order for "famine arrived before the sword did" - easily misparsed by a modern reader.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec.
 12, div v.CXXVII; one editorial footnote insertion in the file - 'By
