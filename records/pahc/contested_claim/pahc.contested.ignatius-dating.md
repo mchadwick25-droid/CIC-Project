@@ -25,6 +25,9 @@ held_against:
 concedes: "If either the redating or the pseudepigraphic position is correct, Strand A's evidentiary base - the monarchical-bishop program, the martyrdom-longing self-presentation, and the anti-docetic boundary-drawing that together supply most (per pahc.source.ignatius-letters's own body) of this world's most vivid quotable material - is not a contemporaneous snapshot of Antioch/Asia Minor practice within this world's own 70-200 CE window. Three of this world's gravities (authority-consolidation's Strand A content, martyrdom-meaning, boundary-drawing) and every force record built from the same corpus would need reconsidering, not merely re-labeling with a later date. This build proceeds on the traditional dating as the working default, per the approved Doc_01/Doc_02 scoping, while carrying this three-way split forward at full strength in every downstream record that cites this source."
 divergence_partners:
 - pahc.source.ignatius-letters
+relations:
+- type: associated-with
+  target: pahc.witness.scholarly-standing
 ---
 Records, in participant-facing form, the single most load-bearing
 dating dispute in this world's entire evidentiary base - already

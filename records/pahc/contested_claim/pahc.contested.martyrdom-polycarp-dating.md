@@ -29,6 +29,9 @@ concedes: "Both this text's own dating and its own internal composition history 
 divergence_partners:
 - pahc.source.martyrdom-polycarp
 - pahc.source.eusebius-historia-ecclesiastica
+relations:
+- type: associated-with
+  target: pahc.witness.scholarly-standing
 ---
 Carries forward pahc.core.house-church's own caution 3 (DATING
 HUMILITY) into participant-facing form for this specific text, and

@@ -33,6 +33,11 @@ divergence_partners:
 - pahc.source.first-clement
 - pahc.source.ignatius-letters
 - pahc.source.shepherd-hermas
+relations:
+- type: associated-with
+  target: pahc.witness.god-and-argument
+- type: associated-with
+  target: pahc.witness.what-we-never-settled
 ---
 Carries forward pahc.core.house-church's own caution 2 (STRAND
 DISCIPLINE: "the two-strand packaging itself is a provisional

@@ -23,6 +23,10 @@ sources:
 relations:
 - type: associated-with
   target: pahc.gravity.authority-consolidation
+- type: associated-with
+  target: pahc.witness.apostolic-practice
+- type: associated-with
+  target: pahc.witness.scripture-and-testimony
 name: "The Apostolic Testimony Inheritance [1B - initiating/internal]"
 kind: initiating
 description: "HISTORICAL EVENT: this world inherited, rather than invented, the conviction that

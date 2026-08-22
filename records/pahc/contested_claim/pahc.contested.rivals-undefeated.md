@@ -33,6 +33,9 @@ divergence_partners:
 - pahc.source.tertullian-adversus-marcionem
 - pahc.source.irenaeus-adversus-haereses
 - pahc.source.anti-montanist-fragments
+relations:
+- type: associated-with
+  target: pahc.witness.hard-texts
 ---
 Carries forward pahc.core.house-church's own caution 6 (RIVALS
 UNDEFEATED) and Doc_01 SS8.3's own disclosure obligation into

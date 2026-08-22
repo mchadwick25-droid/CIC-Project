@@ -45,6 +45,8 @@ relations:
   target: pahc.force.state-pressure
 - type: associated-with
   target: pahc.force.monepiscopacy-consolidation
+- type: associated-with
+  target: pahc.witness.what-we-never-settled
 name: "Authority Consolidation - the episkopos/presbyteros/diakonos question [SUPPORTING]"
 description: "Who leads, and how leadership is secured once those who walked with the Lord are gone.
   One overseer with elders beside him in some households (Antioch, the cities of Asia Minor); a council

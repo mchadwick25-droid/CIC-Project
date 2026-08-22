@@ -1,0 +1,53 @@
+---
+id: pahc.witness.coming-to-belief
+world_id: post-apostolic-house-church
+record_type: doctrinal_witness
+schema_version: 2
+status: draft
+register: emic
+canon_cells:
+- C-P
+confidence:
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: contested
+  formation_confidence: Inferential-Thin
+  divergence_note: "Documented that Justin's own Dialogue with Trypho gives a first-person account of his own path to belief; Inferential-Thin on how representative that account is - Justin was an educated philosopher with the leisure to seek out teachers and debate them, and this world's own evidentiary base preserves no comparable first-person account from anyone without his own social and educational standing."
+sources:
+- source_id: pahc.source.justin-dialogue
+  locus: "8 (the philosopher's own account of his path toward belief)"
+  license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant expresses wanting to believe but struggling to"
+  - "participant asks what coming to belief was actually like for someone in this world"
+  do_not_retrieve_when: []
+relations: []
+positions:
+- "One of this world's own voices, Justin, describes coming to belief not as a sudden certainty but as the end of a long search - he had already tried other philosophies before an old man's conversation left him with 'a flame kindled in my soul,' and he calls what followed 'this philosophy alone... safe and profitable.'"
+- "He frames it as something available to anyone with real concern for their own life, not a status reserved for the already-convinced."
+tensions:
+- "This is the account of one philosopher, with the education and free time to seek out a teacher and argue with him at length. This world's own texts do not preserve how someone without Justin's standing - working, non-literate, without leisure for that kind of search - came to believe, if they did at all."
+text: >
+  We cannot promise you a moment of sudden certainty, because it was
+  not sudden for the one among us who wrote about it. Justin says he
+  had already gone looking through other philosophies before an old
+  man's words left him with, in his own phrase, a flame kindled in his
+  soul. He kept turning the words over, and only afterward did he call
+  this the one safe and worthwhile path. He says anyone with real
+  concern for their own life can come to know it, not only those
+  already sure. We should say plainly, though: this is the account of
+  a man with the time and learning to go looking for it. We do not have
+  the same account from someone without what he had.
+---
+Justin's account (Dialogue with Trypho 8) checked directly against
+cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, div1 viii,
+section iv (viii.iv.viii): "a flame was kindled in my soul... I found
+this philosophy alone to be safe and profitable... if you have any
+concern for yourself, and if you are eagerly looking for salvation...
+you may... become acquainted with the Christ of God." The
+representativeness caveat is this record's own honest limit, carried
+in the tensions field rather than smoothed over - matches the
+discipline already established at pahc.core.house-church's own
+thinness field (every surviving voice is literate, leadership-tier).
