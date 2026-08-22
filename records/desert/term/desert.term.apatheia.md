@@ -37,6 +37,8 @@ relations:
   target: desert.term.puritas-cordis
 - type: associated-with
   target: desert.gravity.evagrian-systematization
+- type: associated-with
+  target: desert.contested.antony-literacy
 plain_meaning: "Freedom from the passions that drive a person. In Evagrius's plan, the goal of the working stage of this life. Not apathy."
 world_word: apatheia
 false_friend:
@@ -79,3 +81,7 @@ Step3a Review Round 4, Finding S1: the informational sense's "Strand
 C's vocabulary" used this build's own lettered taxonomy with no legend
 in the field itself - reworded to name Kellia and the learned circle
 there in plain terms.
+
+Step3c: the [CT] contest named above is now the full contested_claim
+record desert.contested.antony-literacy - reciprocal associated-with
+added.

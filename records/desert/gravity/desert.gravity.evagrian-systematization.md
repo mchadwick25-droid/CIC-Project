@@ -27,6 +27,10 @@ relations:
   target: desert.term.apatheia
 - type: associated-with
   target: desert.term.theoria
+- type: associated-with
+  target: desert.contested.alexandria-continuity
+- type: associated-with
+  target: desert.figure.evagrius
 name: "Evagrian systematized interior psychology [SUPPORTING]"
 description: "The systematic form the general spiritual-combat theme (gravity 2) takes in Evagrius's own writing: the eight-logismoi taxonomy, the praktike-apatheia-theoria scheme, and antirrhesis as its applied technique - concentrated in one author's own corpus and its Kellia-based learned circle, not the wider movement's vocabulary. Strong within its own systematic scope on Repetition and Dependency; directly formative for a narrower population (Strand C's more educated participants); strong Explanatory power for Strand C specifically, but does not explain Strand A or B's own formation logic; moderated, within its own scope, by diakrisis against excess. Fails the Persistence test outright - no comparable systematization exists in Strand A or B. Widely Accepted confidence; Persistence, not confidence, is what holds this at Supporting rather than Primary. This build's own honest assessment, not a Doc_04 finding: no demonstrated relationship to any of Doc_01 SS7's four named forces; its later transmission history is reserved for Doc_08, not treated as deciding this classification."
 manifestations:
@@ -66,3 +70,9 @@ Finding M11: the Author Gravity flag's provenance line attributed the
 requirement to "Doc_03's own... criterion"; Doc_04 SS1's own sentence
 attributes it to "Framework requirement" - corrected to match, and to
 match koinonia's own corrected attribution.
+
+Step3c: the Origenist-adjacent conceptual affinity this record's own
+transmission-history note flags is now the one genuine, narrow point of
+contact conceded at desert.contested.alexandria-continuity - reciprocal
+associated-with added. desert.figure.evagrius is likewise added: this
+gravity's own generating evidence is that record's own biography.

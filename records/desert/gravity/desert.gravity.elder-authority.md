@@ -31,6 +31,8 @@ relations:
   target: desert.gravity.authority-tension
 - type: associated-with
   target: desert.term.geron-abba-amma
+- type: associated-with
+  target: desert.contested.antony-literacy
 name: "Elder-mediated oral authority [PRIMARY]"
 description: "Authority earned through recognized discernment and passed through direct personal relationship - the geron/abba/amma address - as this world's primary authority mode in the anchoritic and semi-anchoritic strands, and present but structurally secondary to the Rule in the cenobitic strand. Strong on all six tests: the sayings collection's own organizing structure is this gravity's clearest evidential trace, though that structure is also the later compilers' own arrangement, not a transcript of how authority actually worked while it was being lived; teaching transmission and formation logic depend on it directly; it explains the absence of a general systematic treatise tradition outside Evagrius; it is cross-strand, though strand-differentiated in relative weight; and it reinforces diakrisis. Widely Accepted confidence. Stands as one pole of the authority tension (gravity 10) against the Pachomian Rule's office-based model (gravity 6). Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
@@ -88,3 +90,7 @@ which desert.gravity.authority-tension registers explicitly for this
 exact purpose. Broadened this record's own Palladius locus to cover
 ch. XXXII too, so the channel claim points at what the registered
 witness actually carries.
+
+Step3c: the Rubenson/Antony-literacy Cross-Check paragraph above (Round
+2, Finding S6) is now a full contested_claim record,
+desert.contested.antony-literacy - reciprocal associated-with added.
