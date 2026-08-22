@@ -1,12 +1,12 @@
 {
   "world_key": "fix",
-  "package_dir": "packages/fix/2026-08-20T20-47-35Z",
-  "manifest_hash": "sha256:a3d760008cab4effbd4a41174e015e15acb489d5328ac9fd42556bf9369ee428",
+  "package_dir": "packages/fix/2026-08-22T03-27-40Z",
+  "manifest_hash": "sha256:568bbfb7a4b072382ebe7c5810971b4e9860375bb29b471b3a858f7ce156f0fc",
   "measurements": {
-    "cold_load_seconds": 0.0018142570000918568,
-    "warm_load_seconds (cache hit)": 8.019999313546577e-07,
-    "unload_seconds": 9.380000847158954e-07,
-    "cold_reload_seconds (proves unload actually evicted)": 0.0016386280000233455
+    "cold_load_seconds": 0.0014585060000626981,
+    "warm_load_seconds (cache hit)": 9.070000714928028e-07,
+    "unload_seconds": 6.789999815737247e-07,
+    "cold_reload_seconds (proves unload actually evicted)": 0.0011148550000825708
   },
   "cache_hit_flags": {
     "cold_load": false,
