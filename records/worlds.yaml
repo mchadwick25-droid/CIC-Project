@@ -16,3 +16,14 @@ worlds:
       location: "packages/fix/2026-08-22T03-27-40Z"   # recompiled: the prior package (2026-08-20T20-47-35Z) had drifted stale against e8f45887 ("Fix Representative voice: I -> we, remove individual-lifetime framing"), which edited fix.demo.core-testimony/identity-collision and three fix honest_limit records without a recompile - caught by the M2 staleness sweep. Records unchanged by this commit; recompile only.
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
+  hal:
+    world_id: hieronymian-ascetic-literary
+    display_name: "Hieronymian Ascetic-Literary Christianity"
+    time_window: {start: 382, end: 420}
+    place: "Bethlehem and Rome"
+    representative: null    # identity/name/role is Mark's step-5a touchpoint (Build-Blueprint SS4) and a standing escalation category; the prior-framework preliminary decision (hal_Representative_Identity_Preliminary_Decision.md) is NOT carried into the new spec without Mark's ruling. Voice build deliberately not started on this branch.
+    state: building         # step 2-4 content build in progress on world/hal; voice_craft/demonstration/compile intentionally not attempted (pending the live-generation citation-and-grounding design)
+    census_id: "hieronymian-ascetic-literary"   # cic-website/data/world-census.json entry id (atlasId "I.9") - the census entry's own id field is what the Atlas deep link sends (per the alx verification of atlas-v3.html's data-aid wiring); matches this world's world_id independently
+    package: null           # no compiled package yet - step 6 not attempted
+    thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
+    living_tradition_flag: true   # PROVISIONAL, set toward disclosure (spec principle 6): the living-tradition determination is Mark's per-world touchpoint and has not been made for this world under the new spec. Substance: this is a bounded historical reconstruction of one specific 382-420 network, not today's church of any name - but Jerome, the Vulgate, and Latin monasticism are all claimed inheritances of living traditions (Roman Catholic above all), so until Mark rules, the doorway should carry the distinction rather than omit it. Flipping to false is Mark's call, not the build thread's.
