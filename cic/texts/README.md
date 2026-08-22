@@ -23,16 +23,16 @@ committing them would be redistribution.
 | file | title (from the file's own header) | rights | supplied | added | cited by |
 |---|---|---|---|---|---|
 | `addai_doctrine-of-addai.txt` | The Doctrine of Addai, the Apostle | Public Domain | Mark | 2026-08-15 | - |
-| `anf01_apostolic-fathers-justin-irenaeus.xml` | ANF01. The Apostolic Fathers with Justin Martyr and Irenaeus | Public Domain | Mark | 2026-08-15 | - |
-| `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` | ANF02. Fathers of the Second Century: Hermas, Tatian, Athenagoras, Theophilus, and Clement of Alexandria (Entire) | Public Domain | Mark | 2026-08-15 | - |
-| `anf03_tertullian.xml` | ANF03. Latin Christianity: Its Founder, Tertullian | Public Domain | Mark | 2026-08-15 | - |
+| `anf01_apostolic-fathers-justin-irenaeus.xml` | ANF01. The Apostolic Fathers with Justin Martyr and Irenaeus | Public Domain | Mark | 2026-08-15 | `pahc.source.barnabas`, `pahc.source.first-clement`, `pahc.source.ignatius-letters`, `pahc.source.irenaeus-adversus-haereses`, `pahc.source.justin-dialogue`, `pahc.source.justin-first-apology`, `pahc.source.martyrdom-polycarp`, `pahc.source.polycarp-philippians` |
+| `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` | ANF02. Fathers of the Second Century: Hermas, Tatian, Athenagoras, Theophilus, and Clement of Alexandria (Entire) | Public Domain | Mark | 2026-08-15 | `pahc.source.shepherd-hermas` |
+| `anf03_tertullian.xml` | ANF03. Latin Christianity: Its Founder, Tertullian | Public Domain | Mark | 2026-08-15 | `pahc.source.tertullian-adversus-marcionem`, `pahc.source.tertullian-apologeticus` |
 | `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` | ANF04. Fathers of the Third Century: Tertullian, Part Fourth; Minucius Felix; Commodian; Origen, Parts First and Second | Public Domain | Mark | 2026-08-15 | - |
 | `anf05_hippolytus-cyprian-caius-novatian.xml` | ANF05. Fathers of the Third Century: Hippolytus,
     Cyprian, Caius, Novatian, Appendix | Public Domain | Mark | 2026-08-15 | - |
 | `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml` | ANF06. Fathers of the Third Century: Gregory
     Thaumaturgus, Dionysius the Great, Julius Africanus, Anatolius,
     and Minor Writers, Methodius, Arnobius | Public Domain | Mark | 2026-08-15 | - |
-| `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml` | ANF07. Fathers of the Third and Fourth Centuries: Lactantius, Venantius, Asterius, Victorinus, Dionysius, Apostolic Teaching and Constitutions, Homily, and Liturgies | Public Domain | Mark | 2026-08-15 | - |
+| `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml` | ANF07. Fathers of the Third and Fourth Centuries: Lactantius, Venantius, Asterius, Victorinus, Dionysius, Apostolic Teaching and Constitutions, Homily, and Liturgies | Public Domain | Mark | 2026-08-15 | `pahc.source.anti-montanist-fragments`, `pahc.source.didache` |
 | `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` | ANF08. The Twelve Patriarchs, Excerpts and Epistles, The Clementia, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Age | Public Domain | Mark | 2026-08-15 | - |
 | `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` | ANF09. The Gospel of Peter, The Diatessaron of Tatian, The
  Apocalypse of Peter, the Vision of Paul, The Apocalypse of the Virgin
@@ -40,7 +40,7 @@ committing them would be redistribution.
  Polyxena, The Narrative of Zosimus, The Apology of Aristides, The
  Epistles of Clement (complete text), Origen’s Commentary on John,
  Books 1–10, and Commentary on Matthew, Books 1, 2, and
- 10–14. | Public Domain | Mark | 2026-08-15 | - |
+ 10–14. | Public Domain | Mark | 2026-08-15 | `pahc.source.first-clement` |
 | `anf10_bibliographic-synopsis-general-index.xml` | ANF10. Bibliographic Synopsis; General Index | Public Domain | Mark | 2026-08-15 | - |
 | `aphrahat_demonstrations-2-7_hallock1932.txt` | Aphrahat, Demonstrations VII (On Penitents) and II (On Love) | Public Domain | Mark | 2026-08-18 | - |
 | `chronicle-of-edessa_cowper.txt` | The Chronicle of Edessa | Public Domain | Mark | 2026-08-18 | - |
@@ -65,7 +65,7 @@ Psalms | Public Domain | Mark | 2026-08-15 | - |
 | `npnf112_chrysostom-homilies-corinthians.xml` | NPNF1-12. Saint Chrysostom: Homilies on the Epistles of Paul to the Corinthians | Public Domain | Mark | 2026-08-15 | - |
 | `npnf113_chrysostom-homilies-galatians-philemon.xml` | NPNF1-13. Saint Chrysostom: Homilies on Galatians, Ephesians, Philippians, Colossians, Thessalonians, Timothy, Titus, and Philemon | Public Domain | Mark | 2026-08-15 | - |
 | `npnf114_chrysostom-homilies-john-hebrews.xml` | NPNF1-14. Saint Chrysostom: Homilies on the Gospel of St. John and the Epistle to the Hebrews | Public Domain | Mark | 2026-08-15 | - |
-| `npnf201_eusebius-church-history-life-of-constantine.xml` | NPNF2-01. Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine | Public Domain | Mark | 2026-08-15 | - |
+| `npnf201_eusebius-church-history-life-of-constantine.xml` | NPNF2-01. Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine | Public Domain | Mark | 2026-08-15 | `pahc.source.anti-montanist-fragments`, `pahc.source.eusebius-historia-ecclesiastica` |
 | `npnf202_socrates-sozomen-ecclesiastical-histories.xml` | NPNF2-02. Socrates and Sozomenus Ecclesiastical Histories | Public Domain | Mark | 2026-08-15 | - |
 | `npnf203_theodoret-jerome-gennadius-rufinus.xml` | NPNF2-03. Theodoret, Jerome, Gennadius, &amp; Rufinus: Historical Writings | Public Domain | Mark | 2026-08-15 | `hal.search.npnf203-apologies`, `hal.source.jerome-apology-rufinus`, `hal.source.jerome-de-viris`, `hal.source.rufinus-apology` |
 | `npnf204_athanasius-select-works-letters.xml` | NPNF2-04. Athanasius: Select Works and Letters | Public Domain | Mark | 2026-08-15 | - |
