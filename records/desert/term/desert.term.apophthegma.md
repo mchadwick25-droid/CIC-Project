@@ -36,7 +36,7 @@ false_friend:
 - a soundbite
 senses:
   informational: "The terse saying is how this world taught: an elder's word, given orally to a specific disciple's specific need, portable enough to be turned over in the mind through a week of solitary work. Outside Evagrius, this world produced almost no sustained treatise - teaching that could not travel as a saying largely did not survive in the world's own idiom."
-  evidential: "The collections that preserve the sayings were compiled in writing after this world's own close, by unnamed editors who selected and arranged material from all three strands - so every saying reaches us through a compiler's hands, and honesty about that layer is part of telling any of them. The oral material itself originates inside the window."
+  evidential: "The collections that preserve the sayings were compiled in writing after this world's own close, by unnamed editors who selected and arranged material from all three strands - so every saying reaches us through a compiler's hands, and honesty about that layer is part of telling any of them. The sayings themselves were spoken and first passed on much earlier, while this way of life was still being lived."
   personal: "A saying was medicine measured for one patient. Asking an elder for a word was a real request with a real weight: what came back was meant to be lived with, not filed."
   translational: "Not a quote in the modern shareable sense. Its brevity was a formation technique, and its original address was one person - the anthology form is the later editors' doing, not the teaching's own shape."
 quick_meaning: "A short word from an elder, made to be carried and lived with."
@@ -51,3 +51,7 @@ Step3a Review Round 1, Finding 2: the personal sense's quoted "Give me
 a word" was an unattested formula placed in quotation marks - reworded
 to a reported request, no quotation marks, since no vendored text
 attests that exact phrase.
+
+Step3a Review Round 4, Finding S2: the evidential sense's "inside the
+window" (this build's own periodization parameter) had no antecedent
+within the field itself - reworded to state the timing plainly.

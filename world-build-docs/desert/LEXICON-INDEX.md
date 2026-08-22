@@ -96,6 +96,24 @@ pass: do not sweep for named strings again - reread every sense field
 fresh, and check every locus claim against what its passage actually
 says, not only against where the quoted words sit.
 
+Step3a Review Round 4 (`world-build-docs/desert/reviews/Step3a_Review_Round4.md`)
+did exactly that - read all 72 sense fields fresh, detached from their
+records, before running any sweep at all - and found two whole jargon
+families no prior round had examined: lettered strand labels
+("Strand B"/"Strand C", this build's own analytic taxonomy, unintelligible
+with no legend in a standalone chunk) in six fields across five records,
+and "the window" (this build's periodization parameter, no antecedent in
+its own field) in two more. It also found two real sourcing/factual
+defects unrelated to jargon: apotage mischaracterized Vita SS2-3 (the
+land was given, not sold; the record reported a reserve "kept" for
+Antony's sister as the passage's upshot when SS3, inside the cited span,
+has him give that reserve away too), and cheironaxia built its strongest
+corroboration claim on the Nepheros archive without either of the two
+standing cautions that source's own record requires on every use
+(the community is Melitian; its representativeness is an unverified
+working assumption). All fixed, checked against the vendored files and
+the step-2 source records directly, not against prior commit messages.
+
 ## Author-gravity column basis
 
 "Flagged" entries reproduce each record's own stated risk (single-author concentration for the Evagrian cluster and Cassian; the compiler layer for the sayings; the amma thinness bound) — the column is read off the records' sources/bodies, not asserted independently.

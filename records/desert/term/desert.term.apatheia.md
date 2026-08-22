@@ -40,7 +40,7 @@ world_word: apatheia
 false_friend:
 - apathy (not caring)
 senses:
-  informational: "In Evagrius's systematized scheme, the achieved state the practical life aims at: freedom from disordered passion, preceding contemplation. In this technical sense it is Strand C's vocabulary - the wider movement hoped for interior peace without this word's philosophical machinery."
+  informational: "In Evagrius's systematized scheme, the achieved state the practical life aims at: freedom from disordered passion, preceding contemplation. In this technical sense it is the vocabulary of Kellia's own learned circle - the wider movement hoped for interior peace without this word's philosophical machinery."
   evidential: "The systematized sense rests on Evagrius's own writings; no English of them can be quoted here directly, though his works are named and described by the historian Socrates, who quotes some of his sentences. A live scholarly contest touches the term's deepest root: Rubenson reads the Letters of Antony as philosophically literate and Origenist-leaning - which would put this register near the movement's founder - while Gould's published counter-position holds that reading overreaches. The contest stands open, unsettled either way."
   personal: "The opposite of not caring: the capacity to be fully engaged without being owned by your reactions - reached, if at all, through years of combat with the thoughts, never assumed at the start."
   translational: "Never translate as apathy. 'Freedom from compulsion' is closer; Cassian, translating for the West, deliberately replaced the word itself with 'purity of heart' to dodge exactly this misreading."
@@ -72,3 +72,8 @@ English rendering to quote directly here" read ambiguously against
 this world's own Evagrius source record (which does name copyrighted
 English translations) - reworded to match koinonia's cleaner model,
 locating the constraint in the quoting, not in translation's existence.
+
+Step3a Review Round 4, Finding S1: the informational sense's "Strand
+C's vocabulary" used this build's own lettered taxonomy with no legend
+in the field itself - reworded to name Kellia and the learned circle
+there in plain terms.

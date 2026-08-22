@@ -31,8 +31,8 @@ world_word: theoria
 false_friend:
 - theory (abstract speculation)
 senses:
-  informational: "The final stage of Evagrius's scheme - after the practical life, after passionlessness - contemplation, itself graded from the contemplation of created things up to the contemplation of God. Strand C's vocabulary, concentrated in one author; the wider movement prayed the Psalter without this ladder."
-  evidential: "Rests on Evagrius's own corpus. The historian Socrates, in Zenos's English rendering, names his works and quotes some of his practical sayings, but not this contemplative stage's own teaching, which exists in English only in modern, copyrighted translation. Its strand-bound status is real: the wider, non-Evagrian movement's own record has nothing like this ladder."
+  informational: "The final stage of Evagrius's scheme - after the practical life, after passionlessness - contemplation, itself graded from the contemplation of created things up to the contemplation of God. The vocabulary of Kellia's learned circle, concentrated in one author; the wider movement prayed the Psalter without this ladder."
+  evidential: "Rests on Evagrius's own writings. The historian Socrates, in Zenos's English rendering, names his works and quotes some of his practical sayings, but not this contemplative stage's own teaching; no English of that teaching can be quoted here directly. The wider, non-Evagrian movement's own record has nothing like this ladder at all."
   personal: "Not thinking about God - seeing, in the way a long-trained eye sees. The tradition insisted no one starts here; wanting the summit without the slope was itself one of the thoughts to be fought."
   translational: "'Theory' is the false friend: this is perception, not speculation - the trained sight of a life that has first been stilled."
 quick_meaning: "Contemplation - the trained seeing of God that a stilled life may reach."
@@ -68,3 +68,16 @@ this stage's own teaching; the strand-bound claim rests on the wider
 movement's own record having no comparable ladder, not on a review
 verb. The English attribution is now credited to Zenos's translation,
 not to Socrates himself.
+
+Step3a Review Round 4, Findings S1/S4: (1) the informational sense's
+"Strand C's vocabulary" used this build's own lettered taxonomy with
+no legend in the field - reworded to name Kellia's learned circle.
+(2) the Round 3 fix's own "exists in English only in modern,
+copyrighted translation" introduced licensing vocabulary into the same
+clause, inconsistent with apatheia's sibling clause (fixed the same
+round to avoid exactly this) - reworded to state the fact (no English
+of the teaching can be quoted here) without naming the reason. On a
+second, self-checked pass this same fix's own "genuinely checked" was
+caught and removed before this commit - the identical review-process
+register the rest of this note is about, introduced and caught within
+one editing pass rather than surviving to a Round 5.

@@ -34,7 +34,7 @@ false_friend:
 - a vague devotional phrase
 senses:
   informational: "Cassian's rendering of the ascetic goal for his Latin readers, anchored in 'Blessed are the pure in heart': a deliberate substitution for apatheia, whose Stoic sound had become controversial - carrying the same technical content under a scriptural name. It belongs to this world's export edge (Gaul, the 420s), not to the desert's own Greek-Coptic speech."
-  evidential: "Cassian's own Conference I makes purity of heart the immediate goal on which the kingdom-end depends, and his Institutes' ladder climbs from the fear of the Lord through purity of heart to its own further summit, the perfection of apostolic love - both checked word for word. As with everything from Cassian, this is Egyptian teaching remembered and written down decades later, in Latin, for Gaul."
+  evidential: "Cassian's own Conference I makes purity of heart the immediate goal on which the kingdom-end depends, and his Institutes' ladder climbs from the fear of the Lord through purity of heart to its own further summit, the perfection of apostolic love, in his own words. As with everything from Cassian, this is Egyptian teaching remembered and written down decades later, in Latin, for Gaul."
   personal: "As Cassian's elders taught it: everything - fasting, vigils, solitude, labor - is instrument; the one target the eye keeps returning to is a heart clean enough to see God."
   translational: "For a modern hearer this phrase is the desert's own best translation of itself - what apatheia meant without the philosophy: a heart free enough to aim at one thing."
 quick_meaning: "Purity of heart - Cassian's name for the one goal all the discipline serves."
@@ -58,3 +58,9 @@ PENULTIMATE step, exactly the immediate-goal-vs-final-end distinction
 Conference I already draws elsewhere in this same record. Corrected in
 both places so a citation_specificity A / verified-verbatim record
 does not misstate what its own verified text says.
+
+Step3a Review Round 4, Finding S3: the evidential sense's "both
+checked word for word" was verification-process vocabulary - the
+verification status already lives in the confidence block and both
+loci ("verified verbatim"); dropped from the sense and replaced with
+"in his own words," which does the same descriptive work in register.

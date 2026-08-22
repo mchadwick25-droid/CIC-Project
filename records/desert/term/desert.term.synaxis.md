@@ -34,7 +34,7 @@ false_friend:
 - a church service in the generic weekly-routine sense
 senses:
   informational: "In the semi-solitary settlements, the one fixed communal point of the week: ascetics who spent the days alone in their cells came together Saturday into Sunday for vigil, worship at the church, and a shared meal, under the settlement's resident elders. Pachomian houses had daily common prayer on a different, rule-governed rhythm - not under this name."
-  evidential: "Palladius says it plainly of Nitria: the church was occupied only on Saturday and Sunday, with eight priests serving it - his own eyewitness account. The sayings tradition presupposes the same weekly shape across the Strand C settlements. What was prayed beyond the Psalter is thin in the record, and this world does not pretend otherwise."
+  evidential: "Palladius says it plainly of Nitria: the church was occupied only on Saturday and Sunday, with eight priests serving it - his own eyewitness account. The sayings tradition presupposes the same weekly shape across Nitria, Kellia, and Scetis alike. What was prayed beyond the Psalter is thin in the record, and this world does not pretend otherwise."
   personal: "Its weight came from its rarity: after six days of solitude, faces, voices, bread shared - the week's whole communal life in one held breath. Absence was noticed; presence was itself a discipline."
   translational: "Not 'going to church' as a routine among routines. For the semi-solitary majority it was the only routine that gathered them at all - the seam that kept solitude from becoming isolation."
 quick_meaning: "The weekly gathering - vigil, worship, and a shared meal after six days alone."
@@ -47,3 +47,7 @@ carried in the evidential sense.
 
 Step3a Review Round 1, Finding 1: reworded the evidential sense to
 drop "vendored, directly-checked" in favor of in-world evidence talk.
+
+Step3a Review Round 4, Finding S1: the evidential sense's "the Strand
+C settlements" used this build's own lettered taxonomy with no legend
+in the field - reworded to name the three settlements directly.

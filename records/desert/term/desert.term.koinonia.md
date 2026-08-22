@@ -27,7 +27,7 @@ retrieval:
   - questions about the organized communities, their rule, and their offices
   - how authority worked in the Pachomian houses
   do_not_retrieve_when:
-  - questions about the solitary or semi-solitary life - this term is Strand B's own name for its own thing, not the whole world's
+  - questions about the solitary or semi-solitary life - this term is the Pachomian federation's own name for its own institution, not the whole world's
 relations:
 - type: associated-with
   target: desert.term.apotage
@@ -39,7 +39,7 @@ false_friend:
 - fellowship in the loose modern church sense
 - any monastery whatever
 senses:
-  informational: "The New Testament word for fellowship, taken by Pachomius as the proper name of a real institution: a federation of houses under one written rule, common property, formal offices (housemaster, steward), and a single head. By his death in 346 it held nine men's houses and two women's houses. It names Strand B alone - the solitary and semi-solitary life has no equivalent institution or word for it."
+  informational: "The New Testament word for fellowship, taken by Pachomius as the proper name of a real institution: a federation of houses under one written rule, common property, formal offices (housemaster, steward), and a single head. By his death in 346 it held nine men's houses and two women's houses. It names the Pachomian federation alone - the solitary and semi-solitary life has no equivalent institution or word for it."
   evidential: "The Rule survives complete only in Jerome's Latin translation; no English of it can be quoted here directly. What can be told directly are the reports of it - Palladius's and Sozomen's rule summaries, both wrapped in the angel-tablet legend - alongside modern scholarship on the Latin."
   personal: "Joining the Koinonia meant a different obedience than sitting at an elder's feet: obedience to an office, whoever held it, inside a common life with a fixed rhythm. Those who joined it felt a different kind of authority, not a formalized version of the same one."
   translational: "'Communal rule' undersells it: this was an institutional invention answering a real problem - how total formation could scale past one extraordinary hermit - and it sat in unresolved tension with the elder-model for this world's whole span."
@@ -62,3 +62,9 @@ Step3a Review Round 3, Finding J5: the evidential sense's closing
 near-verbatim restatement of a build rule from the Pachomian source
 record's own body - dropped; the sense already names its two channels
 without needing to state the rule about naming them.
+
+Step3a Review Round 4, Finding S1: the informational sense's "Strand
+B" and the do_not_retrieve fence's "Strand B's own name" both used
+this build's own lettered taxonomy with no legend in the field -
+reworded to name the Pachomian federation directly, which is what the
+sentences already meant.

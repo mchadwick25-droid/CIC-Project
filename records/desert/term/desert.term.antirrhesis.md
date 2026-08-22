@@ -36,7 +36,7 @@ false_friend:
 - arguing with yourself
 senses:
   informational: "The technique of countering a specific tempting thought with a specific scriptural rebuttal, spoken at the moment of temptation - modeled on Jesus answering the tempter from scripture, and systematized by Evagrius in his Antirrhetikos, which pairs verses to thoughts under his eight headings. Single-author, single-text in origin; not the movement's general vocabulary."
-  evidential: "The historian Socrates, writing of Evagrius, describes the book by name and shape - 'selections from the Holy Scriptures against tempting spirits, distributed into eight parts', in his own words. The work itself survives chiefly in Syriac and Armenian; what can be checked directly in English is Socrates's own description of it."
+  evidential: "The historian Socrates, writing of Evagrius, describes the book by name and shape - 'selections from the Holy Scriptures against tempting spirits, distributed into eight parts', in Zenos's English rendering of his words. The work itself survives chiefly in Syriac and Armenian; what can be checked directly in English is Socrates's own description of it."
   personal: "The word you memorized in the quiet was the weapon you had in the moment - scripture not studied about temptation but spoken against it, out loud if need be."
   translational: "Not positive self-talk and not inner argument - this answers a thought from outside itself, with a word that is not yours, rather than debating it on its own ground."
 quick_meaning: "Answering a tempting thought, on the spot, with a verse of scripture."
@@ -65,3 +65,9 @@ quoted material off the sentence's own final period.
 Step3a Review Round 3, Finding C4: this note's own ordering had run
 Round 2 before Round 1, reversed from the chronological convention
 used everywhere else in this lexicon - reordered.
+
+Step3a Review Round 4, Finding C2: the evidential sense's "in his own
+words" credited the English wording to Socrates himself; corrected to
+credit Zenos's translation, matching the double caveat this world's
+Evagrius source record requires and the standard theoria's sibling
+clause already sets.

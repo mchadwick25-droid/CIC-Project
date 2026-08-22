@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS2-3 (Antony gives away land and goods, keeping only provision for his sister)"
+  locus: "SS2-3 (Antony gives his inherited land to the villagers, sells the movable rest and gives the proceeds to the poor, then - hearing 'be not anxious for the morrow' - gives away even the small reserve he had kept for his sister and places her in the care of known virgins)"
   license: public-domain
 - source_id: desert.source.pachomian-corpus
   locus: "the Rule's property renunciation as entry condition (as reported; no vendored Rule text)"
@@ -35,7 +35,7 @@ false_friend:
 - a one-time vow after which normal attachments quietly resume
 senses:
   informational: "The entry act: giving up property, family ties, and worldly standing at the threshold of ascetic life. The Pachomian communities made it a formal condition of membership; the solitary and semi-solitary strands practiced it as an assumed threshold without comparable paperwork."
-  evidential: "Antony's own story opens with it - the Life records him selling his inherited land and giving the proceeds to the poor, keeping only provision for his sister. For the Pachomian rule-form, the evidence is one remove away: reports of what the Rule required, not the Rule's own words."
+  evidential: "Antony's own story opens with it - the Life records him giving away his inherited land, selling what could be moved and giving the money to the poor. He first kept back a small reserve for his sister's sake; hearing the Gospel read again days later, he gave that away too and placed her with virgins who would care for her. Renunciation, on the Life's own telling, was not one gesture but a resolve that kept finding more to give up. For the Pachomian rule-form, the evidence is one remove away: reports of what the Rule required, not the Rule's own words."
   personal: "Renunciation was not a transaction completed at the door. It was re-enacted daily - in labor, in obedience, in owning nothing worth defending - so that a person's grip on things loosened for good, not for a season."
   translational: "Closer to a divestment that keeps costing than to a pledge or a resolution. The modern picture of a single dramatic gesture misses that the tradition treated the ongoing practice, not the moment, as the real renunciation."
 quick_meaning: "Giving up property and standing to enter this life - and keeping it given up."
@@ -49,3 +49,15 @@ carried.
 
 Step3a Review Round 1, Finding 1: reworded the evidential sense to
 drop "the Rule's own vendorable text" in favor of in-world evidence talk.
+
+Step3a Review Round 4, Finding S5: the locus and evidential sense had
+mischaracterized Vita SS2-3, twice. (1) The land was GIVEN to the
+villagers, not sold - only the movable goods were sold, with the
+proceeds given to the poor. (2) The record reported "keeping only
+provision for his sister" as the passage's own upshot, but SS3 - inside
+the very span cited - has Antony give that reserve away too, on hearing
+"be not anxious for the morrow," and place his sister with virgins.
+Verified against npnf204 lines 31248-31267. Corrected in both fields;
+the fuller sequence is better evidence for this record's own thesis
+(renunciation re-enacted, not completed at the door) than the version
+that stopped at SS2.

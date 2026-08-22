@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - questions about attention, vigilance, or catching thoughts early
   do_not_retrieve_when:
-  - do not equate with modern mindfulness practice - the fence is in the term record itself
+  - do not equate with modern mindfulness practice - the systematized neptic tradition belongs to a much later world and must not be retrojected
 relations:
 - type: associated-with
   target: desert.term.diakrisis
@@ -35,7 +35,7 @@ world_word: nepsis
 false_friend:
 - generic mindfulness
 senses:
-  informational: "The ongoing act of watching the mind - distinct from discernment, which judges what the watching finds. Rooted in shared Christian vocabulary (Peter's call to be sober and watch), most systematically developed in Strand C; as with stillness, the later Byzantine neptic tradition's full apparatus is not this world's."
+  informational: "The ongoing act of watching the mind - distinct from discernment, which judges what the watching finds. Rooted in shared Christian vocabulary (Peter's call to be sober and watch), most systematically developed at Kellia; as with stillness, the later Byzantine neptic tradition's full apparatus is not this world's."
   evidential: "Attested in the sayings and in Evagrius's corpus; the systematized register is, like the rest of his scheme, concentrated in that one author."
   personal: "The point was to meet a thought at the door rather than after it had moved in - vigilance as a kindness to yourself, because everything is easier early."
   translational: "Not mindfulness as a calm-inducing practice: the watching here is a sentry's, oriented to a real adversary, and what it feeds is discernment, not relaxation."
@@ -58,3 +58,9 @@ flag" (this build's own risk-marker word, also used in Doc_06 and this
 world's lexicon index) was missed by two prior sweeps that searched for
 specific strings rather than the pattern by family - reworded to state
 the concentration as a plain fact.
+
+Step3a Review Round 4, Findings S1/C1: the informational sense's
+"Strand C" (no legend in the field) reworded to name Kellia directly;
+the do_not_retrieve_when fence's "the fence is in the term record
+itself" was inoperative schema self-reference - reworded to state the
+substantive reason, matching hesychia's parallel fence.
