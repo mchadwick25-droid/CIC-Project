@@ -24,7 +24,7 @@ statement: 'You ask for an ordinary day among us - the food, the work, the child
   lives, the sick and the dying. We must be honest: our record was kept by courts and bishops, and it
   looked at ordinary people mostly when they filled a basilica or a riot. We know our cities'' crowds
   were there - singing through one besieged night, they enter the record once, and we hear them. The
-  women our record names are two empresses, and even they speak only through other men''s
+  women our record lets us see acting are two empresses, and even they speak only through other men''s
   accounts. The daily bread, the household, the deathbed of an ordinary believer - those were lived,
   and not written, and we will not invent them.'
 why_sources_cannot_answer: Every Native voice is a bishop, an emperor, a court, or their circle; no
@@ -50,4 +50,9 @@ rule. Corrected at step 5 (voice_craft/demonstration build,
 2026-08-22): "an empress and a regent" was stale against this build's
 own correction that no formal regency for Justina is attested -
 restated as "two empresses," which is what the record actually
-supports for both women named.
+supports for both women named. Corrected at the step-5 review (Opus
+adversarial pass, 2026-08-22): "names" undercounted by one - Marcellina,
+Ambrose's sister, is also named in this build's own citation apparatus,
+as the addressee of Epp. XX and XLI, though nothing of her own words
+survives either - restated as "lets us see acting," which is exact for
+both empresses without implying the record names no other woman at all.

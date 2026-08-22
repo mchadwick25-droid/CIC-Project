@@ -32,6 +32,11 @@ held_against:
   a denial of the premise, not merely of the conclusion
 - Whether 381's canon conferred honor only, while 451's conferred jurisdiction - and whether that step
   was continuous or novel - remains argued in the scholarship
+- 'Percival''s own excursus reads the legates'' objection as narrower than a flat rejection - at Session
+  I, Paschasinus is on record recognizing Anatolius as ranking "first" after Rome''s own legates, and
+  Percival treats Lucentius''s later protest as made in the heat of the moment. A limiting counter-reading
+  sitting in this build''s own apparatus, disclosed here rather than left unrecorded; it narrows how
+  contested the legates'' own position was without resolving the contest itself.'
 concedes: 'The underlying political-geographic fact is not contested by anyone: Constantinople WAS the
   reigning capital, the councils DID meet in or near it, and the empire''s ecclesiastical weight had
   really moved east. The contest is over what that fact can rightly ground - and the world closed without
@@ -48,3 +53,14 @@ verified in the vendored corpus. The translation variance on ta
 presbeia tes times (Percival "prerogative of honour") is carried on
 ijc.term.presbeia. canon_cells: F6-I (what did your people never
 settle - the direct participant-facing home of this contest).
+
+Added at the step-5 review (Opus adversarial pass on
+records/ijc/demonstration, 2026-08-22): a demonstration built from this
+record (ijc.demo.f6-i-never-settled) asserts the legates' objection
+without qualification; Percival's own excursus (npnf214:22345-22365)
+reads it as narrower - Paschasinus's own words at Session I already
+conceded Constantinople's rank "next after" Rome, before Lucentius's
+later protest. Added as a held_against item rather than left in the
+build's own apparatus unrecorded; it strengthens the unresolved holding
+(the objection itself is real and contemporary) rather than weakening
+it.

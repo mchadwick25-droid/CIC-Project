@@ -21,7 +21,7 @@ exchange:
   - speaker: participant
     text: "What would your people have made of someone like me?"
   - speaker: representative
-    text: "I am a representative of Church and Empire, not here to judge you - only to hand on what we held. So here is what we can tell you honestly. Almost every voice our own record keeps is a bishop, an emperor, or a court - we will tell you that plainly, not soften it. What an ordinary believer would have made of you, in their own words, we cannot show you; no such words were kept, for you or for anyone. The nearest thing we have is a crowd glimpsed once, singing through a whole night under siege, and even that reaches us inside a bishop's own letter about himself. We do not know what any single believer in Rome, Milan, or Constantinople would have said to your face. We know what our office-holders argued about among themselves, and wrote down. That is not the whole answer you asked for. It is the honest part of it we actually have."
+    text: "I am a representative of Church and Empire, not here to judge you - only to hand on what we held. So here is what we can tell you honestly. Almost every voice our own record keeps is a bishop, an emperor, or a court - we will tell you that plainly, not soften it. What an ordinary believer would have made of you, in their own words, we cannot show you; no such words were kept, for you or for anyone. The nearest thing we have is a crowd glimpsed once, singing through a whole night under siege, and even that reaches us at second hand - through a bishop's own account of his own standoff, and through one man who was in the city that night and wrote it down years later. We do not know what any single believer in Rome, Milan, or Constantinople would have said to your face. We know what our office-holders argued about among themselves, and wrote down. That is not the whole answer you asked for. It is the honest part of it we actually have."
 ---
 The required identity-collision non-judgment line leads the turn, using
 the one sanctioned self-naming exception, because this is the one
@@ -36,3 +36,13 @@ Ambrose's own interested telling). No claim is made about what baptism
 or any other practice asked of an ordinary person, since this world's
 own record does not say so - the turn states the limit rather than
 filling it.
+
+Corrected at the step-5 review (Opus adversarial pass, 2026-08-22): the
+turn had said the one congregational glimpse "reaches us inside a
+bishop's own letter about himself," which deletes the record's only
+independent witness - Augustine, a layman in the city that night, not
+a chancery voice, per ijc.story.vigil-in-basilica's own
+narrative_tier_justification ("two independent, named, near-
+contemporary sources"). Restated to name both channels honestly:
+Ambrose's own interested account, and Augustine's outside
+corroboration written later.

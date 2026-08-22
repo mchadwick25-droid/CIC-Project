@@ -8,9 +8,9 @@
 
 ## 1. Final state
 
-151 records in `records/ijc/`: 1 world_core · 19 source · 16 search_record · 12 term · 6 gravity · 10 force · 7 contested_claim · 12 figure · 20 quote · 8 story · 7 doctrinal_witness · 7 honest_limit · 1 voice_craft · 8 demonstration (142 answer-canon records plus the step-5 voice/demonstration set of 9). Registry entry in `records/worlds.yaml` updated to `state: building` with the representative identity confirmed (§9).
+154 records in `records/ijc/`: 1 world_core · 23 source · 23 search_record · 12 term · 6 gravity · 10 force · 7 contested_claim · 12 figure · 22 quote · 9 story · 12 doctrinal_witness · 7 honest_limit · 1 voice_craft · 9 demonstration (this tally corrected here to match the loader's own count directly - it had drifted stale across the confirmation-review rounds' own additions before this pass). 142 answer-canon records plus the step-5 voice/demonstration set of 12, after the step-5 adversarial review's own fixes - see §§9-10. Registry entry in `records/worlds.yaml` updated to `state: building` with the representative identity confirmed (§9).
 
-**M1 gate battery: 13/13 clean** (schema, referential, reciprocity, completion, narratability, quote-recording, alias-safety, distribution-health, confidence-crosscheck, rights, readability, canon-coverage, no-build-attribution) — re-verified against the full 151-record set including the new voice_craft and demonstration records. **Canon coverage: all 28 cells — 21 substantive, 7 honest-limited** (C-P, F1-T, F2-P, F4-P, F5-I, F5-T, F6-E), each honest limit with in-voice statement, cause, and nearest material.
+**M1 gate battery: 13/13 clean** (schema, referential, reciprocity, completion, narratability, quote-recording, alias-safety, distribution-health, confidence-crosscheck, rights, readability, canon-coverage, no-build-attribution) — re-verified against the full 154-record set including the new voice_craft, quote, and demonstration records. **Canon coverage: all 28 cells — 21 substantive, 7 honest-limited** (C-P, F1-T, F2-P, F4-P, F5-I, F5-T, F6-E), each honest limit with in-voice statement, cause, and nearest material.
 
 ## 2. Stage discipline
 
@@ -247,13 +247,100 @@ formal regency for Justina is attested anywhere else in this build). `ijc.demo.f
 world's own sharpest hard-places instance (Callinicum) rather than a safer one, matching the
 episcopal-independence gravity's own review-corrected, deliberately double-edged description.
 
-The eight demonstration records: `ijc.demo.c-i-who-was-jesus` (center), `ijc.demo.f6-p-someone-like-me`
-and `ijc.demo.f6-p-woman-authority` (identity-collision), `ijc.demo.f1-t-bread-and-cup` (translational),
-`ijc.demo.f6-i-never-settled` (contested/two-strands), `ijc.demo.f5-i-ordinary-day` (honest-limit-in-
-voice), `ijc.demo.f1-i-argued-about` (Homoian-recentering), `ijc.demo.f6-p-hypocrisy` (hard-places). All
-content is drawn from and cites already-verified ijc records; none is fresh invention.
+The set does not include an F6-T identity-collision demonstration.
+Spec §6 names three identity-collision questions across F6-P and F6-T
+as required before any world opens; this build's own hell/damnation and
+divorce content under F6-T was left a disclosed gap at §6 above (the
+cell is already substantively covered for its other questions, so the
+coverage gate is satisfied, but not with content that would ground a
+non-judgment demonstration on those two specific questions) - building
+one now would mean fresh invention under this pass's own no-invention
+discipline, not a citation of already-verified ijc content. Deferred
+rather than fabricated; a natural companion task to closing the F6-T
+gap itself.
 
-**Gates:** 13/13 clean, re-verified against the full 151-record set. **Record count:** 142 → 151 (9 new:
-1 voice_craft, 8 demonstration).
+The eight demonstration records first drafted: `ijc.demo.c-i-who-was-jesus` (center),
+`ijc.demo.f6-p-someone-like-me` and `ijc.demo.f6-p-woman-authority` (identity-collision),
+`ijc.demo.f1-t-bread-and-cup` (translational), `ijc.demo.f6-i-never-settled` (contested/two-strands),
+`ijc.demo.f5-i-ordinary-day` (honest-limit-in-voice), `ijc.demo.f1-i-argued-about` (Homoian-recentering),
+`ijc.demo.f6-p-hypocrisy` (hard-places). All content is drawn from and cites already-verified ijc
+records; none is fresh invention. (A ninth, the required lament turn, was added at the review in §10
+below, after this draft pass surfaced its absence.)
+
+**Gates:** 13/13 clean at this draft stage, against the 151-record set. This draft pass was followed
+immediately by an isolated Opus adversarial review (§10 below), per this build's own standing discipline
+of never treating a first Sonnet draft as final without one.
 
 No fix in this section reopened Step 0, Doc_01, or the answer-canon's own settled ground.
+
+## 10. Step-5 adversarial review (2026-08-22) and its fixes
+
+An isolated Opus dispatch reviewed the nine step-5 records cold, the same discipline as §§6-8: every
+file read in full, every `sources[]` target opened and re-derived against the vendored corpus, pronoun
+discipline machine-scanned, and readability computed against the `alx` model. Persisted in full at
+`Review-Artifacts/Review_Step5_Voice_Demonstration.md`. Verdict: **REVISION REQUIRED, 3 HIGH, 12 MEDIUM,
+14 LOW** - the pronoun discipline itself was exact and the Homoian recentering was met well, but eight
+demonstrations lost real qualifications in compression, and three stated something no record in this
+build actually supports.
+
+**The three HIGH findings, all fixed:** `ijc.demo.f6-p-hypocrisy` claimed Ambrose held a basilica against
+imperial command "twice" - no record in this build says twice, and the one basilica standoff's own dating
+is disclosed as an open divergence, not a second event; struck to "held a basilica." `ijc.demo.f6-i-never-
+settled` enclosed the Chalcedon acclamation in quotation marks with three sentences silently elided,
+including the anathema; replaced with the fuller acclamation and a marked ellipsis, drawn from the
+already-verified `ijc.quote.peter-has-spoken`. `ijc.demo.f6-p-someone-like-me` said the world's one
+congregational glimpse "reaches us inside a bishop's own letter about himself," erasing the record's only
+independent witness (Augustine, a layman in the city that night); restated to name both channels honestly.
+
+**MEDIUM fixes, the four that matter most:** the Justina/Pulcheria demonstration
+(`ijc.demo.f6-p-woman-authority`) had dropped both of its source record's own hedges - "no formal regency
+is attested" and the Ambrose/chronology attribution divergence, the latter carrying a mandatory
+`divergence_note` two prior confirmation rounds paid to establish - both restored, with the note now set
+on the demonstration itself; the same over-claim on Ep. XCV ("thanks her directly... for overruling") was
+fixed in both the demonstration and its source record, `ijc.dw.f6-p-women-authority-cost`. The Callinicum
+turn's flat "public penance" was restated to the harder, contemporary-attested fact
+(`ijc.story.emperor-penance`'s own tier discipline quarantines the public scene at a lower confidence),
+and its dropped "worse than heathen" clause restored. The Canon 28 turn's "in the canon's own words" was
+restated as "its own reasoning" (the sentence is a paraphrase, not a quotation), Leo's build-coined
+"apostle's grave" line was marked as this build's own gloss rather than left undifferentiated from his
+verbatim sentence, and Constantinople's own positive case (from `ijc.contested.canon-28-meaning`'s own
+`claim` and `concedes` fields) was added so the turn does not demonstrate only Rome's side of a contest it
+says is unresolved. The center-cell turn (`ijc.demo.c-i-who-was-jesus`) had traced its most interpretive
+content to `ijc.dw.c-i-jesus` without citing it, and had dropped that record's own tension that the
+confessed center was contested inside the establishment itself for two imperial reigns - both fixed, so
+the cell tested first at every admission does not sound like the winning side narrating a settled outcome
+backward. The bread-and-cup turn had carried ~60 words of Ambrose's own translated sentences as
+unattributed narration, breaking this world's own register discipline that a source is named; a new quote
+record, `ijc.quote.ambrose-blessing-changes-nature`, was created so the turn could quote Ambrose properly
+by name. Four over-ceiling turns (FK 11.9-14.0, against an FK 10 ceiling and a 4.9-8.0 `alx` baseline)
+were brought back under the ceiling by splitting long sentences, content unchanged. `voice_craft.guard` had
+substituted this world's own line for the fleet floor line rather than adding to it; restored to carry
+both. The set had no lament exchange, though spec §4.3.5 requires one; a ninth demonstration,
+`ijc.demo.c-p-want-to-believe`, was added, built from `ijc.limit.c-p-jesus-to-you` and a new quote record,
+`ijc.quote.leo-sinner-be-glad`, in the witness-before-answer register the lament cell requires. The
+missing F6-T identity-collision turn is disclosed above as a deliberate deferral (fresh content this pass
+was not licensed to invent), not silently left off the record.
+
+**LOW fixes:** two build-architecture phrases removed from `voice_craft.identity` (inherited verbatim
+from `alx.voice.craft`, and self-contradicting the self-reference flavor note's own illustrative use of
+"deacon"); the term-introduction flavor note's example gloss corrected to match `ijc.term.presbeia`'s own
+plain meaning; a stale-by-one word ("names" undercounting the record by omitting Marcellina as an
+addressee) fixed in both `ijc.limit.f5-ordinary-day` and its demonstration; the creed rendered as a marked
+summary rather than an unmarked near-quotation, restoring "for us men"; Ambrose's reverential capitals and
+two canon-question em dashes restored; "It was withdrawn" softened to the source's own "promised... to
+withdraw it"; "most of a century" corrected to "half a century," matching `ijc.term.homoousios`'s own
+arithmetic; "Constantius" given its numeral; "at once" dropped from the Chalcedon framing sentence,
+matching the story record's own three-weeks-apart correction; and Percival's own limiting reading of the
+legates' objection added to `ijc.contested.canon-28-meaning.held_against`, strengthening rather than
+weakening the unresolved holding.
+
+**Not changed:** the identity confirmation itself - the review found nothing that reopens it. The gate
+battery's own coverage gap (readability and citation-traceability checks do not yet reach `demonstration`
+or `voice_craft` fields) was flagged by the review as worth a future architecture pass; this pass fixed
+the content it exposed rather than extending the gate battery, since a mechanical check was not the thing
+in short supply here - a close human reading was.
+
+**Gates:** 13/13 clean, re-verified against the full 154-record set (151 + 2 new quote records +
+1 new demonstration). **Record count:** 142 → 154 (12 new: 1 voice_craft, 9 demonstration, 2 quote).
+
+No fix in this section reopened Step 0, Doc_01, or the answer canon's settled ground.

@@ -17,6 +17,8 @@ sources:
 - source_id: ijc.source.leo-letters
   locus: the corpus's own genre - doctrine and governance, not confession of the heart
   license: public-domain
+relations:
+- {type: illustrated-by, target: ijc.quote.leo-sinner-be-glad}
 statement: 'You ask who Jesus was to us - not to our councils, to us. We must be honest: our record
   keeps the church''s public words about him, not its private ones. We can tell you what men were
   exiled rather than unsay. We cannot show you one ordinary heart''s own answer, because no one kept

@@ -44,10 +44,10 @@ text: 'Could a woman carry real authority among us, and what did it cost her? Ye
   the persecution''s author. Either way, real coercive power moved through her court. Its cost: total
   public failure - the basilica was never surrendered, and every word of the record that carries her
   part in it reaches us through the account of the bishop who defeated her. Pulcheria carried authority long
-  enough to help convene the council that closed this world''s window - Leo himself thanks her for her own
-  command that it be held, and for overruling his request that it sit in Italy instead; he also writes to
-  her congratulating her on a synod already held, not as a courtesy in either case. Her cost was
-  different: real
+  enough to help convene the council that closed this world''s window - Leo himself records her command
+  that it be held, and her refusal of his own request that it sit in Italy instead, and answers by sending
+  his legates without protest; he also writes to her congratulating her on a synod already held, not as a
+  courtesy in either case. Her cost was different: real
   standing bought her a place in the correspondence of powerful men, and nothing beyond it in her own
   words. Both women held command. Neither holds her own voice.'
 positions:
@@ -95,4 +95,11 @@ divergence_note added, since the confidence block requires one where a
 Documented claim rests on sources that do not themselves agree on the
 actor; and Leo Ep. XCV added as the actual primary warrant for
 Pulcheria's convening role, which the record previously asserted
-without any citation at all.
+without any citation at all. Corrected again at the step-5 review
+(Opus adversarial pass on records/ijc/demonstration, 2026-08-22): "Leo
+himself thanks her for her own command... and for overruling his
+request" overstated Ep. XCV, whose own text has Leo receiving her
+command and refusal "in a spirit so far removed from scorn as to"
+comply, thanking God rather than her - restated as "records her
+command... and answers by sending his legates without protest," which
+is what the letter actually supports.

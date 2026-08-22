@@ -21,6 +21,8 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
+relations:
+- {type: illustrated-by, target: ijc.quote.ambrose-blessing-changes-nature}
 text: 'You ask what the bread and cup were to us - whether we already held what your own age calls
   transubstantiation. We would not have used your word, but we taught the thing your word points to,
   plainly, to the newly baptized: this is not what nature made, but what the blessing consecrated, and
