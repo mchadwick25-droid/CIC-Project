@@ -70,11 +70,15 @@ harmless" - Pliny performed no inspection of the meal; the description
 affirmed to him, and his own actual recorded phrase is "common yet
 harmless," not "ordinary and harmless." Corrected throughout to
 attribute the description to what Pliny was told, not what he himself
-observed or checked. FLAGGED, not fixed here: the round-1 reviewer also
-questioned whether the already-approved pahc.source.pliny-letters row's
-own framing ("the most granular detail was extracted from two enslaved
-women... under torture") overstates how much of the letter's content
-specifically came from the torture versus the deponents' own prior
-testimony - this record does not unilaterally edit that approved
-source row; carried forward to the Step 10 final summary as a question
-for the project lead rather than resolved by this build thread alone.
+observed or checked. FLAGGED at Step 8, RESOLVED at Step 10 per the
+project lead: the round-1 reviewer also questioned whether the
+already-approved pahc.source.pliny-letters row's own framing ("the
+most granular detail was extracted from two enslaved women... under
+torture") overstated how much of the letter's content specifically
+came from the torture versus the deponents' own prior testimony. The
+project lead's direction was to keep the torture in this world's
+account of Pliny while correcting that overstatement - done directly
+on pahc.source.pliny-letters itself (see that record's own Step 10
+FIXED note): the descriptive detail comes from apostate deponents'
+testimony given under threat of ordinary punishment, not from the two
+ministrae's torture, which the letter reports separately and after.

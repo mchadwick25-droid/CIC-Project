@@ -34,12 +34,32 @@ CONTENT AND LIMITS (Doc_02 SS4, SS6, carried whole): pre-dawn meeting, a
 hymn "unto Christ as God" sung responsively, a moral oath, a later
 reassembly for "a meal, common yet harmless" - whether that meal is the
 eucharist, an agape, or a strategic split to evade Trajan's ban on
-fraternities is a live, unresolved three-way question. The most granular
-detail was extracted from two enslaved women, called ministrae, under
-torture - a method ancient jurists themselves distrusted. This is the
-only outside, non-Christian description of this world's worship,
-filtered through elite Roman superstitio prejudice; the torture-derived
-nature of the testimony is a standing limitation on every use, not a
-footnote. Canon note: the fleet canon question F6-E about "torturing two
-enslaved women" is asked about exactly this letter - for this world it
-is a question about its own record.
+fraternities is a live, unresolved three-way question. Two enslaved
+women, called ministrae, were tortured "to ascertain the truth" - a
+method ancient jurists themselves distrusted. This is the only outside,
+non-Christian description of this world's worship, filtered through
+elite Roman superstitio prejudice; the torture-derived nature of part of
+the testimony is a standing limitation on every use, not a footnote.
+Canon note: the fleet canon question F6-E about "torturing two enslaved
+women" is asked about exactly this letter - for this world it is a
+question about its own record.
+
+FIXED at Step 10 (flagged at Step 8, resolved here per the project
+lead): "the most granular detail was extracted from two enslaved
+women... under torture" overstated the letter's own sequence. Checked
+directly against the vendored text (cic/texts/npnf201_eusebius-church-
+history-life-of-constantine.xml): the pre-dawn meeting, hymn, oath, and
+meal description is attributed to apostates - former Christians who
+confessed and cursed Christ under threat of ordinary legal punishment,
+not torture - and is reported before the letter turns to the two
+ministrae at all. The torture of the ministrae comes after, as a
+further check ("I therefore considered it the more necessary to
+examine, even with the use of torture... in order to ascertain the
+truth"), and Pliny reports no additional specific content from it
+beyond "nothing except a superstition depraved and immoderate." The
+torture-derived testimony is real and remains a standing limitation on
+this source as a whole - Pliny presents his entire account, including
+the apostates' testimony obtained under threat, as one investigation
+whose credibility he backs with the torture step - but it did not
+supply the descriptive detail this record's own prior wording credited
+it with.
