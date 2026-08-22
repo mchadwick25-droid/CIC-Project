@@ -46,6 +46,7 @@ senses:
   translational: 'Not "housewife" and not "noblewoman" as mere title: a legal and social position
     carrying household rule, property, and public weight.'
 quick_meaning: A Roman woman of high rank, with wealth and real power over a great house.
+distortion_risk: medium
 ---
 Re-derived from cleared Doc_06 entry 10 (hal_lex10). The
 no-flattening caution is carried in false_friend.

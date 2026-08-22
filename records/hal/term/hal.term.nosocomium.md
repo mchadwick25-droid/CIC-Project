@@ -49,6 +49,7 @@ senses:
     and shelter for the sick poor, funded from one renounced fortune.'
 quick_meaning: Fabiola's hospital in Rome - the sick gathered in from the streets and cared
   for.
+distortion_risk: medium
 ---
 Re-derived from cleared Doc_06 entry 14 (hal_lex14). The Latin-text
 verification (Ep. 77.6: 'Et primo omnium nosokomeion instituit, in quo

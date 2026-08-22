@@ -55,6 +55,7 @@ manifestations:
 - Marcella's plain-dress, plain-food Aventine household, decades before Jerome arrived
 - the family resistance and public judgment the choice provoked - and, in Blaesilla's death, its
   most terrible cost
+classification: primary
 ---
 Re-derived from the cleared Doc_04 (G2: passes all six tests; bipolar
 geography holds). The corrected evidentiary basis is carried: the three

@@ -47,6 +47,7 @@ senses:
     and politically driven the quarrel was. This world's record does not settle it, and neither does
     this account.
 quick_meaning: The 390s fight over Origen's teachings that broke the friendship with Rufinus.
+distortion_risk: medium
 relations:
 - type: associated-with
   target: hal.gravity.controversy-pressure

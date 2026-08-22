@@ -35,6 +35,7 @@ manifestations:
 - the soldiers in the house, and her reported calm (epitaph-genre detail, handled as such)
 - her death shortly after, with Principia beside her
 - the wider shock reaching Bethlehem - the world's own scholar mourning the city across the sea
+matrix_cell: 3A
 ---
 Re-derived from cleared Doc_08 cell 3A-1. Single-source (Ep. 127, no
 independent corroboration of her death's circumstances; the sack itself is

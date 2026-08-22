@@ -47,6 +47,7 @@ senses:
     as better, in an explicit ranking this world argued for publicly and was criticized for, then
     and since.'
 quick_meaning: Lifelong consecrated virginity. This world held it as a woman's highest calling.
+distortion_risk: high
 ---
 Re-derived from cleared Doc_06 entry 4 (hal_lex04), with the
 Against-Jovinianus evidence (and the circulation-withdrawal episode, Epp.

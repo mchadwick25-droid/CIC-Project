@@ -23,6 +23,7 @@ text: 'Thereupon arose such a tumult in the congregation, especially among the G
   of Oea).'
 speaker_or_author: hal.figure.augustine
 license: verbatim
+modern_lens_note: '"The Greeks" names the Greek-speaking portion of a North African congregation, not people from Greece.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf101 (div
 vii.1.LXXI). The Oea gourd incident in Augustine's own hand - the

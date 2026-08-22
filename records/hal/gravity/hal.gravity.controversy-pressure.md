@@ -51,6 +51,7 @@ manifestations:
   his methods
 - the 416 attack - argument arrived as fire
 - Jerome's combative self-presentation, formed by and forming the disputes
+classification: supporting
 ---
 Re-derived from the cleared Doc_04 (G6, Supporting - classification
 settled there and not reopened by the forces notation, per its own Round 1

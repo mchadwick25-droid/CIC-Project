@@ -58,6 +58,7 @@ manifestations:
 - the dozen-plus surviving letters answering her scriptural questions - the volume evidence of her
   seriousness
 - her materially independent position - her own settled wealth, needing no patron
+classification: tensional
 ---
 Re-derived from the cleared Doc_04 (G5-Marcella, Tensional). TENSION-WITH
 COVERAGE, considered explicitly and NOT forced: the reviewed Interaction

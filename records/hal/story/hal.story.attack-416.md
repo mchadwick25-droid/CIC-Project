@@ -50,6 +50,7 @@ absent_detail: 'Nearly everything: the attackers'' identity and number (the comm
   The women''s own letter - the fullest account that ever existed - is lost; we have only
   Innocent''s report of it, in his own letter to the bishop of Jerusalem. This telling
   adds nothing to what the surviving letters hold.'
+modern_contrast: 'A modern reader often hears "burned by heretics" as persecution by an outside religion. This world''s own record frames it differently: the attackers were fellow Christians on the losing side of the Pelagian controversy, not a rival faith, and the community''s own restraint - declining to name them - is itself part of what the record preserves.'
 ---
 Re-derived from cleared Doc_09a S4, re-sourced on this branch to the full
 five-letter cluster. The women's lost letter and the community's own

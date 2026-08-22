@@ -41,5 +41,6 @@ senses:
     its distinctive move was not visiting the holy places but STAYING.
 quick_meaning: Pilgrimage - devotional travel to the holy places, and for this world, the choice
   to stay.
+distortion_risk: medium
 ---
 Re-derived from cleared Doc_06 Part B entry 4.

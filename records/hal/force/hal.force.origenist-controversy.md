@@ -42,6 +42,7 @@ manifestations:
 - the maneuvering around Bishop John of Jerusalem, under whose parish Bethlehem lay
 - Pammachius and Marcella as named addressees of Jerome's polemic - the dispute conducted through
   the patronage network itself
+matrix_cell: 2B
 ---
 Re-derived from cleared Doc_08 cell 2B-1. Confidence split: occurrence
 Documented; the relative doctrinal-vs-personal weight Contested

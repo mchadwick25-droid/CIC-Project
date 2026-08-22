@@ -22,6 +22,7 @@ text: 'She was the first person to found a hospital, into which she might gather
   sickness and want.'
 speaker_or_author: hal.figure.jerome
 license: verbatim
+modern_lens_note: '"Hospital" here is charitable shelter-and-nursing at a household scale, funded from one woman''s fortune - not a clinical institution with modern medical staffing or scope (see hal.term.nosocomium).'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 77 sec. 6,
 div v.LXXVII). The 'first person' priority claim is Jerome's own and is

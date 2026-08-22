@@ -51,6 +51,7 @@ absent_detail: 'Nearly everything, by design: these are consciously literary pro
   giving Latin Christianity its own desert-hagiographic genre, with acknowledged
   legendary elements; the historical reliability of the specific events is thin, and this
   telling frames them as the world''s own storytelling, never as biography.'
+modern_contrast: 'A modern reader often hears these as reported biography - real adventures that happened to real, named men. This world''s own record frames it differently: these are consciously literary hagiographic romances, this world''s own answer to the popular romance genre aimed instead at heaven, valuable as evidence of what formation could be imagined to look like, never as history.'
 ---
 Re-derived from cleared Doc_09a S9 (Tier 3 on the named-individual
 criterion, per its Round 1 correction). Serves F4-I as formation-ideal

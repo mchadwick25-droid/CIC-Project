@@ -37,6 +37,7 @@ manifestations:
 - the household's growth into a gathering of like-minded women (its dating deliberately
   imprecise - no source gives a year)
 - the scriptural seriousness that later filled a dozen of Jerome's answering letters
+matrix_cell: 1B
 ---
 Re-derived from cleared Doc_08 cell 1B-1. Formation confidence Dominant
 Modern Reconstruction for the household's functioning multi-woman status

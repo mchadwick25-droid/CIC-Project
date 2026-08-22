@@ -43,6 +43,7 @@ manifestations:
 - the dedications binding each work to Paula, Eustochium, Marcella, and their circle
 - the letters carrying direction, correction, and the community's own self-account from Bethlehem
   to Rome and beyond
+matrix_cell: 2B
 ---
 Re-derived from cleared Doc_08 cell 2B-2 (the required 2B transmission
 entry). Its structural weakness is the next record's subject: this

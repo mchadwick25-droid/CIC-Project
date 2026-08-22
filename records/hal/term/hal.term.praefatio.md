@@ -42,6 +42,7 @@ senses:
     - argument as front matter.
 quick_meaning: The combative prefaces where the translation project argues its own case, book by
   book.
+distortion_risk: medium
 relations:
 - type: associated-with
   target: hal.force.transmission-ongoing

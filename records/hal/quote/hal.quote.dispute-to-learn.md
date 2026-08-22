@@ -24,6 +24,7 @@ text: 'she never came to see me that she did not ask me some question concerning
   which might, as she saw, be made to my statements.'
 speaker_or_author: hal.figure.jerome
 license: verbatim
+modern_lens_note: 'No significant modern-lens risk identified for this quote.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec.
 7; 'them' = the scriptures, from the preceding sentence). Marcella's

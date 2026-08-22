@@ -56,6 +56,7 @@ manifestations:
   through reputation and dedication
 - the women as principals, not supporters - the funders, founders, and governors of the
   institutions
+classification: primary
 ---
 Re-derived from the cleared Doc_04 (G3: strongest overall, strongest
 bipolar-holding candidate; the interpretive frame independently supported

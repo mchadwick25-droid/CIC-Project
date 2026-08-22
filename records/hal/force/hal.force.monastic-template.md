@@ -35,6 +35,7 @@ manifestations:
 - the two-household Bethlehem arrangement on a broadly Egyptian communal pattern
 - Jerome's later translation of the Pachomian Rule (c. 404) - a separate, later evidentiary thread,
   not part of the founding journey
+matrix_cell: 2A
 ---
 Re-derived from cleared Doc_08 cell 2A-3, carrying Doc_01's twice-corrected
 Nitria finding in full (the Arsenius chronology makes a literal reading of

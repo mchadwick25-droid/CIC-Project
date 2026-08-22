@@ -37,6 +37,7 @@ manifestations:
 - the crowd's anger at Blaesilla's funeral, turned on the monks
 - the standing pagan senatorial culture (the Symmachus circle's Rome) as the class environment renunciation
   defied
+matrix_cell: 2A
 ---
 Re-derived from cleared Doc_08 cell 2A-1, kept to its own genuinely
 pagan-social content per the Round 1 correction (the clerical hostility of

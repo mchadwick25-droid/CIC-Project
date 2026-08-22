@@ -36,6 +36,7 @@ senses:
   translational: 'Maps well onto the modern word "monk" - one of the few terms here that
     does.'
 quick_meaning: A monk - the ordinary word for a male ascetic.
+distortion_risk: low
 ---
 Re-derived from cleared Doc_06 entry 15 (hal_lex15). Retrieval tier 3
 (ambient vocabulary): low distortion risk, names the structurally present

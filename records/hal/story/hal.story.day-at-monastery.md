@@ -58,6 +58,7 @@ absent_detail: 'The schedule itself: which hours, which psalms, how the men''s a
   both houses - their number aside from one uncorroborated headcount, their names, their
   own days - are absent from every source, and this reconstruction does not invent
   them.'
+modern_contrast: 'A modern reader often hears this as a documented daily schedule, like a monastery''s recovered timetable. This world''s own record frames it differently: it is explicitly a composite built from scattered notices, offered only as a putting-together - no hours, psalms, or liturgical schedule are attested, and this telling invents none.'
 ---
 Re-derived from cleared Doc_09a S10 (composite of attested elements; the
 horarium discipline carried - the closing sentence of the text keeps the

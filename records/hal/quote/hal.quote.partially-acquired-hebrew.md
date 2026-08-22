@@ -22,6 +22,7 @@ text: 'While I myself beginning as a young man have with much toil and effort pa
   leave me'
 speaker_or_author: hal.figure.jerome
 license: verbatim
+modern_lens_note: 'No significant modern-lens risk identified for this quote.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108, the
 passage on Paula's Hebrew; the file's line-wrap artifact in 'unceasingly'

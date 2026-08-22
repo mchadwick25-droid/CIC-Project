@@ -47,6 +47,7 @@ senses:
     learning, voluntarily recognized, and by the wealth that chose to sustain it. Never by office
     or territory.'
 quick_meaning: The patron's funding bond. In this world it stood where church office stands in others.
+distortion_risk: high
 relations:
 - type: associated-with
   target: hal.gravity.patronage-authority

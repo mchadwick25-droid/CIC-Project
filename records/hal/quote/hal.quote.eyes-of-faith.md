@@ -24,6 +24,7 @@ text: 'she protested in my hearing that she could behold with the eyes of faith 
   foster-father, the shepherds coming by night'
 speaker_or_author: hal.figure.jerome
 license: verbatim
+modern_lens_note: '"The eyes of faith" names imaginative, devotional perception - not a claim to literal eyesight of the Nativity scene, which the surrounding text (a cave centuries later) rules out on its own.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108 sec. 10,
 div v.CVIII). ATTRIBUTION SHAPE: Jerome reporting Paula's protestation at

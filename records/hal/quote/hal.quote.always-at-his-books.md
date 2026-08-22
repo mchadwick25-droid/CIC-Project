@@ -22,6 +22,7 @@ text: 'He is always occupied in reading, always at his books with his whole hear
   takes no rest day or night; he is perpetually either reading or writing something.'
 speaker_or_author: 'Sulpitius Severus, Dialogues I.9 (the traveler Postumianus speaking; trans. Roberts)'
 license: verbatim
+modern_lens_note: 'No significant modern-lens risk identified for this quote.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf211. An outside
 visitor's eyewitness sketch of the Bethlehem scholar at work, c. 400 - the

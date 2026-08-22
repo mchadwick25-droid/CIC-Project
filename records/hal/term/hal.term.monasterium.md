@@ -48,6 +48,7 @@ senses:
     pattern the founders had seen in Egypt, adapted into something Latin and literary.'
 quick_meaning: 'The Bethlehem monastery: two linked houses, one for men and one for women, under
   one project.'
+distortion_risk: medium
 ---
 Replaces the prior build's 'monasterium duplex' entry (Doc_06 Part B entry
 1): the reviewed anachronism caveat there ('double monastery' is later

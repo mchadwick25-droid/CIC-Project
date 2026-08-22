@@ -22,6 +22,7 @@ text: 'Paula, on making up her mind that she too would learn it, succeeded so we
   the pronunciation peculiar to Latin.'
 speaker_or_author: hal.figure.jerome
 license: verbatim
+modern_lens_note: 'No significant modern-lens risk identified for this quote.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108; the
 same passage carries the claim for Eustochium: 'The same accomplishment

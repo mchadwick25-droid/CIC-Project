@@ -39,6 +39,7 @@ manifestations:
 - the Damasus commission to revise the Latin Gospels
 - the scriptural question-and-answer relationship with the Aventine circle, begun almost
   at once
+matrix_cell: 1A
 ---
 Re-derived from cleared Doc_08 cell 1A-2. The 382 beginning is the
 convergence point of two already-moving streams (Doc_01's deliberate

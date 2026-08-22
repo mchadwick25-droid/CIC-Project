@@ -44,6 +44,7 @@ senses:
     be an artifact of which genre survived, rather than of what this world felt most.
   translational: Between an obituary, a eulogy, and a saint's life - and ancestor to all three.
 quick_meaning: The commemorative letter for the dead - mourning and lesson fused in one form.
+distortion_risk: high
 ---
 Re-derived from cleared Doc_06 Part B entry 5, carrying its verification
 caveat as reviewed: the formal title Epitaphium is confirmed for Ep. 108;

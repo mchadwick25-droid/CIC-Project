@@ -49,6 +49,7 @@ senses:
   translational: 'Not a nun in the later sense: no vows to an order, no rule, no habit - a household
     discipline, chosen and socially costly.'
 quick_meaning: A widow who refuses to remarry and lives a plain, studious, praying life.
+distortion_risk: medium
 ---
 Re-derived from cleared Doc_06 entry 5 (hal_lex05), including the merge of
 continentia into this entry (Doc_03/Doc_06's reviewed decision: the

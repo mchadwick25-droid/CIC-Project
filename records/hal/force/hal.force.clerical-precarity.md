@@ -47,6 +47,7 @@ manifestations:
 - the August 385 departure (Documented); a formal synod reviewing his conduct is NOT asserted (Inferential-Thin)
 - Paula's material funding chain holding throughout - what carried the project into relocation rather
   than destitution
+matrix_cell: 2A
 ---
 Re-derived from cleared Doc_08 cell 2A-4 (the entry Round 1 found missing
 entirely - the world's central transforming event), with its two carried

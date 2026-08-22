@@ -48,6 +48,7 @@ manifestations:
   Rome years
 - the Bethlehem commentaries dedicated and dispatched to Rome, book by book
 - the Augustine dispute, conducted entirely by letter across the sea
+classification: supporting
 ---
 Re-derived from the cleared Doc_04 (G4: passes all six tests; Supporting on
 the corrected rationale - the evidentiary-circularity flag plus its

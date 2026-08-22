@@ -59,6 +59,7 @@ absent_detail: 'No source narrates one actual instance of this process end to en
   self-presentation; the depth of his unaided Hebrew is contested; and the labor was one
   man''s - this reconstruction is of HIS typical practice, not a community''s, and the
   copyists and correctors who must have existed are nowhere individuated.'
+modern_contrast: 'A modern reader often hears this as a documented account of one specific translation project, start to finish. This world''s own record frames it differently: it is a reconstruction of typical method, composite because no single source narrates any one instance beginning to end, and the very detail that most humanizes it - a teacher consulted in secret - is Jerome''s own self-presentation of a Hebrew fluency this world''s own sources separately contest.'
 ---
 Re-derived from cleared Doc_09a S11, with its boundary-case tier reasoning
 carried whole. Serves F2-I (how they read and rendered) and F5-I (work).

@@ -23,6 +23,7 @@ text: 'The holy virgins Eustochium and Paula have deplored to me the ravages, mu
   have left untold the name and motive of his human agent.'
 speaker_or_author: 'Pope Innocent I, Letter 137 (to John of Jerusalem)'
 license: verbatim
+modern_lens_note: 'No significant modern-lens risk identified for this quote.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 137, div
 v.CXXXVII; 'Paula' here is the younger Paula, Eustochium's niece, per the

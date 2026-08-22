@@ -55,6 +55,7 @@ absent_detail: 'What the quarrel was REALLY about - doctrine, or wounded honor w
   doctrine - is exactly what the two surviving accounts fight over, and this telling does
   not decide it. Rufinus''s side of the earlier friendship (his letters to Jerome) does
   not survive; the friendship itself is attested mostly in the record of its destruction.'
+modern_contrast: 'A modern reader often hears this as either a petty personal feud dressed up in theology or a purely abstract doctrinal dispute between scholars. This world''s own record frames it differently: doctrine, personal wound, and political stakes arrived inseparably at once, and the two surviving accounts fight over which weighed more - a contest this telling deliberately does not resolve.'
 ---
 Re-derived from cleared Doc_09a S3a (the story Round 1 found missing).
 The CT contest (hal.contested.origenist-substance) is stated inside

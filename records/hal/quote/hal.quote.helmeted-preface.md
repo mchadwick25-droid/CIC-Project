@@ -23,6 +23,7 @@ text: 'This preface to the Scriptures may serve as a "helmeted" introduction to 
   found in our list must be placed amongst the Apocryphal writings.'
 speaker_or_author: hal.figure.jerome
 license: verbatim
+modern_lens_note: '"Helmeted" is a martial metaphor - a preface functioning as armor/defense for the translated books that follow - unusual and easily missed by a modern ear expecting a neutral scholarly introduction.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Prefaces to the
 Vulgate OT, div vii.iii). The continuation naming names is verified in the

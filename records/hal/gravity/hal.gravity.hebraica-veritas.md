@@ -61,6 +61,7 @@ manifestations:
 - the praefatio practice - each book defended on arrival against live objection
 - the Augustine correspondence and the Oea congregation's revolt over one changed word
 - Hebrew study under Jewish teachers, paid for by Paula's patronage
+classification: primary
 ---
 Re-derived from the cleared Doc_04 (G1: passes all six tests; bipolar
 geography holds - Rome origin and dispute-network, Bethlehem the sustained

@@ -42,6 +42,7 @@ senses:
     and the younger Paula. Their letter itself was not kept; only the pope's answer to it survives.
 quick_meaning: The fight over grace and sinlessness that brought a mob to this world's own monastery
   in 416.
+distortion_risk: medium
 ---
 Re-derived from cleared Doc_06 entry 9 (hal_lex09), with the source base
 sharpened on this branch (the five-letter cluster, and Innocent's Ep. 137

@@ -29,6 +29,7 @@ description: 'A senatorial-class ascetic movement among Roman Christian women, a
 manifestations:
 - Marcella's example followed first by Sophronia, then by others, in Jerome's own account
 - the wider senatorial renunciation pattern independently attested for this period
+matrix_cell: 1A
 ---
 Re-derived from cleared Doc_08 cell 1A-1. Confidence split carried:
 existence Widely Accepted; the specific dating of the household's

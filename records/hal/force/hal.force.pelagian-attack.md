@@ -38,6 +38,7 @@ manifestations:
   far as fleshly wealth is concerned')
 - no precision manufactured beyond what the sources hold (attackers' numbers and specific casualties
   are not attested)
+matrix_cell: 3A
 ---
 Re-derived from cleared Doc_08 cell 3A-2, in its Round-2-corrected
 placement (ending/EXTERNAL by actor-origin, reconciled with Doc_04 and

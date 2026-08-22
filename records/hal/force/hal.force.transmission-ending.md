@@ -37,6 +37,7 @@ manifestations:
   not an inference)
 - the contrast with the sacramental and communal practices, which needed no single
   practitioner to persist
+matrix_cell: 3B
 ---
 Re-derived from cleared Doc_08 cell 3B-2 (the required 3B transmission
 entry, in its Round-1-sharpened form: a concrete mechanism-cessation, not

@@ -49,6 +49,7 @@ senses:
     TEXT of the Bible carried authority: the Hebrew original or the Greek translation tradition.'
 quick_meaning: The Hebrew text of scripture is the truest text - the conviction behind the whole
   translation project.
+distortion_risk: high
 relations:
 - type: associated-with
   target: hal.gravity.hebraica-veritas

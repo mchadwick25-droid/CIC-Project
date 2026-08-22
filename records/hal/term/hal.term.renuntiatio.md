@@ -50,6 +50,7 @@ senses:
     women who gave until they were called poor still commanded enough to raise monasteries and a
     hospital. This world held both facts without resolving them.'
 quick_meaning: The deliberate, public giving-up of wealth, marriage, and rank for Christ.
+distortion_risk: high
 relations:
 - type: associated-with
   target: hal.gravity.ascetic-renunciation

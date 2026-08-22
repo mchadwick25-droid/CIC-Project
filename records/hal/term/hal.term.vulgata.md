@@ -42,6 +42,7 @@ senses:
   translational: '"Is your Bible the same as ours?" - this world was making the Latin Bible later
     generations received, and fighting over every disputed word while it did.'
 quick_meaning: The lifelong Latin Bible project. It was not yet the settled 'Vulgate' it later became.
+distortion_risk: high
 ---
 Re-derived from cleared Doc_06 entry 2 (hal_lex02). The anachronism
 discipline (Doc_01 section 7's corrected reception finding) is carried in

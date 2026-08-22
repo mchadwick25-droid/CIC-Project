@@ -22,6 +22,7 @@ text: 'As for our house, so far as fleshly wealth is concerned, it has been comp
   filled with spiritual riches. To live on bread is better than to lose the faith.'
 speaker_or_author: hal.figure.jerome
 license: verbatim
+modern_lens_note: '"The heretics" names fellow Christians on the losing side of the Pelagian controversy - Jerome''s own polemical label for the attackers, not an outside religion.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 139, div
 v.CXXXIX; the file's editorial gloss identifying 'our house' as the

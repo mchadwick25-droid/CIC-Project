@@ -48,6 +48,7 @@ senses:
     copied and shared.
 quick_meaning: The letter as this world's lifeline - teaching, guidance, and belonging carried across
   the sea.
+distortion_risk: medium
 relations:
 - type: associated-with
   target: hal.gravity.epistolary-formation

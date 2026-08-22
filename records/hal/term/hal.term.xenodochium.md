@@ -48,6 +48,7 @@ senses:
   translational: Closer to a pilgrim guesthouse than to anything medical.
 quick_meaning: A hostel for travelers. Paula ran one near Bethlehem; Fabiola helped found one at
   Rome's port.
+distortion_risk: medium
 ---
 Re-derived from cleared Doc_06 Part B entry 2, carrying the addendum's
 cross-reference discipline (the Bethlehem and Portus foundations kept

@@ -23,6 +23,7 @@ text: 'Before I became acquainted with the family of the saintly Paula, all Rome
   humble, eloquent.'
 speaker_or_author: hal.figure.jerome
 license: verbatim
+modern_lens_note: '"The episcopate" names the office of bishop.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 45 sec. 3,
 div v.XLV; the file's editorial footnote on the Latin elided). Written on

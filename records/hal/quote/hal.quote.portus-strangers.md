@@ -21,6 +21,7 @@ text: 'The whole world knows that a home for strangers has been established at P
   and Britain has learned in the summer what Egypt and Parthia knew in the spring.'
 speaker_or_author: hal.figure.jerome
 license: verbatim
+modern_lens_note: '"Strangers" here means travelers and pilgrims in need of hospitality, not people generally unknown to the household.'
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 77, the
 Fabiola-and-Pammachius hospice at Rome's harbor). Note: the NPNF editor's
