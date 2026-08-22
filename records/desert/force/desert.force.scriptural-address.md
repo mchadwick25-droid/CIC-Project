@@ -27,6 +27,8 @@ manifestations:
 relations:
 - type: associated-with
   target: desert.gravity.scriptural-engagement
+- type: associated-with
+  target: desert.story.antony-call
 ---
 Re-derived from the prior build's cleared Doc_08 Cell 1B-ii. Directly
 generates desert.gravity.scriptural-engagement (Primary, this build's

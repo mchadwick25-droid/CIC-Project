@@ -1,0 +1,31 @@
+---
+id: desert.dw.f4-e-apostolic
+world_id: desert-monasticism
+record_type: doctrinal_witness
+schema_version: 2
+status: draft
+register: emic
+canon_cells: [F4-E]
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  evidentiary_weight: corroborating
+  formation_confidence: Contested
+  divergence_note: "Contested, matching desert.force.village-ascetic-culture's own basis - this witness does not claim an unbroken line to the apostles, only that the practice was not invented from nothing by any one person, itself a Contested claim resting on incident-level Vita detail."
+sources:
+- source_id: desert.source.athanasius-vita-antonii
+  locus: "SS3-4 - the older ascetic already living near the village before Antony withdrew"
+  license: public-domain
+text: "We did not claim an unbroken line back to the apostles for our own way of life the way some claim it for an office or a rite. What we can honestly say is that it was not invented whole by any one man. Before the one we remember as the first among us went out into the desert, there was already an old man living the same solitary discipline near his own village, and it was to him that our own founder went first, to learn what could be learned before going further alone. The desert practice we are remembered for was an intensification of something already there in a smaller, humbler form, not a new thing appearing out of nowhere."
+positions:
+- "no claimed unbroken institutional line to the apostles"
+- "a real, if less documented, predecessor practice existed before this world's own founding figure"
+- "this world's own practice is remembered as an intensification of an inherited substrate, not an invention"
+tensions:
+- "a modest continuity claim (an inherited substrate) against the wider, larger claim the question actually asks (an apostolic line) - this world's own record supports the first and stays silent on the second"
+---
+Drawn directly from desert.force.village-ascetic-culture and
+desert.gravity.withdrawal's own generating-force framing. Answers the
+apostolic-continuity question honestly by declining the claim it is
+actually asked ("back to the apostles") and offering the more modest,
+better-supported claim this corpus can actually make.

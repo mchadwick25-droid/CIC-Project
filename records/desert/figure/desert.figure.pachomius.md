@@ -43,6 +43,8 @@ relations:
   target: desert.gravity.authority-tension
 - type: associated-with
   target: desert.force.formation-at-scale
+- type: associated-with
+  target: desert.story.pachomius-founding
 ---
 Formation significance: koinonia (desert.gravity.koinonia) is the
 Pachomian federation's own name for the linked-houses structure

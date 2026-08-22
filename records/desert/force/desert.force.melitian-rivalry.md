@@ -33,6 +33,8 @@ relations:
   target: desert.gravity.economic-embeddedness
 - type: associated-with
   target: desert.contested.strand-porousness
+- type: associated-with
+  target: desert.quote.antony-arians-serpents
 ---
 Re-derived from the prior build's cleared Doc_08 Cell 2A-ii. This
 record cannot yet trace a formation impact with confidence beyond what

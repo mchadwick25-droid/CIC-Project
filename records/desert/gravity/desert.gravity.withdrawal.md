@@ -46,6 +46,18 @@ relations:
   target: desert.force.martyrdom-unavailable
 - type: associated-with
   target: desert.force.village-ascetic-culture
+- type: illustrated-by
+  target: desert.story.antony-call
+- type: illustrated-by
+  target: desert.story.antony-withdrawal
+- type: illustrated-by
+  target: desert.story.arsenius-flee
+- type: associated-with
+  target: desert.story.kellia-day
+- type: associated-with
+  target: desert.quote.antony-dying-daily
+- type: associated-with
+  target: desert.quote.arsenius-flee-tace-quiesce
 name: "Withdrawal [PRIMARY]"
 description: "This world's defining and generating act: leaving settled village life for the desert's edge, as the whole work of formation rather than a change of address. Attested across this world's independent evidence streams - narrative (the Vita), the sayings tradition, Palladius, the settlement archaeology at Kellia, the Pachomian corpus, and (Melitian, its representativeness for the mainstream strands an unverified working assumption, and organizationally intermediary, no clean fit to the three strands) the Nepheros archive - and across all three strands. Strong on all six gravity tests: repeated in every stream, load-bearing for everything downstream of it (siting, strand differentiation, the thin liturgical record), directly formative, explanatory of the whole ecology's shape, persistent across Lower and Upper Egypt, and reinforcing of both elder authority and manual labor. Documented/Widely Accepted confidence with no discrepancy against its organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:

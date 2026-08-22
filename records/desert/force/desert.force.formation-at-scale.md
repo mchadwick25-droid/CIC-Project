@@ -31,6 +31,8 @@ relations:
   target: desert.gravity.koinonia
 - type: associated-with
   target: desert.figure.pachomius
+- type: associated-with
+  target: desert.story.pachomius-founding
 ---
 Re-derived from the prior build's cleared Doc_08 Cell 1B-iii, added at
 that document's own Round 1 review after an earlier draft retro-traced

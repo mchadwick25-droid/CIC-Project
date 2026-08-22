@@ -40,6 +40,8 @@ relations:
   target: desert.term.apophthegma
 - type: associated-with
   target: desert.gravity.diakrisis
+- type: associated-with
+  target: desert.story.moses-leaking-jug
 plain_meaning: "Discernment: the skill of judging rightly between thoughts, practices, and counsels - this world's own master virtue."
 world_word: diakrisis
 false_friend:

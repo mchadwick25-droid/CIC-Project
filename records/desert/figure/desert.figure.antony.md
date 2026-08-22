@@ -40,6 +40,16 @@ relations:
   target: desert.gravity.spiritual-combat
 - type: associated-with
   target: desert.contested.antony-literacy
+- type: associated-with
+  target: desert.story.antony-call
+- type: associated-with
+  target: desert.story.antony-withdrawal
+- type: associated-with
+  target: desert.story.antony-tomb-combat
+- type: associated-with
+  target: desert.quote.antony-dying-daily
+- type: associated-with
+  target: desert.quote.antony-arians-serpents
 ---
 SYSTEMIC AUTHOR-GRAVITY FLAG (this world's own version of the risk
 Doc_03's Author Gravity discipline names generally): Antony's own

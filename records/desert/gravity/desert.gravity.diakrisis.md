@@ -31,6 +31,14 @@ relations:
   target: desert.term.diakrisis
 - type: associated-with
   target: desert.force.martyrdom-unavailable
+- type: illustrated-by
+  target: desert.story.moses-leaking-jug
+- type: associated-with
+  target: desert.story.sarah-answer
+- type: associated-with
+  target: desert.story.kellia-day
+- type: associated-with
+  target: desert.quote.moses-sins-run-out
 name: "Diakrisis - discernment as master virtue [PRIMARY]"
 description: "The capacity to judge rightly between thoughts, practices, and counsels, governing how every other discipline in this world was calibrated and practiced - this world had no fixed syllabus, so discernment did the work a curriculum does elsewhere. Recurs across named elders and across settlements in the sayings tradition - though how far that cross-settlement pattern reflects the settlements themselves and how far it reflects the sayings' later compilers' own arrangement is not settled; Cassian, writing decades later in Latin for a Gallic audience, devotes a whole Conference to it as teaching he received in Egypt. Strong on all six tests: repeated across the tradition independent of settlement; other practices depend on it for calibration; directly formative; explains the situational, non-systematic character of most surviving teaching; cross-strand; and moderates the intensity of both spiritual combat and its Evagrian systematization against excess. Widely Accepted, no discrepancy. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:

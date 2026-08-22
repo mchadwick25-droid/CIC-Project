@@ -36,6 +36,8 @@ relations:
   target: desert.gravity.manual-labor
 - type: associated-with
   target: desert.gravity.diakrisis
+- type: associated-with
+  target: desert.story.antony-tomb-combat
 ---
 Re-derived from the prior build's cleared Doc_08 Cell 1A-i (three review
 rounds), itself drawing on Doc_01 SS7's own framing of this world's

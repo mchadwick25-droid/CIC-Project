@@ -33,6 +33,10 @@ relations:
   target: desert.figure.antony
 - type: associated-with
   target: desert.force.martyrdom-unavailable
+- type: illustrated-by
+  target: desert.story.antony-tomb-combat
+- type: associated-with
+  target: desert.quote.antony-not-worsted
 name: "Spiritual combat against tempting thoughts, general form [PRIMARY]"
 description: "The struggle against logismoi - tempting or distracting thoughts - as this world's ordinary, cross-strand subject matter, tested here in its general form and separately from its later Evagrian systematization (gravity 9), which carries materially different single-author-concentrated evidential risk. Independently attested in Athanasius's narrative, the sayings tradition, and Evagrius's own general framing. Strong on all six tests: repeated across every stream, shapes both teaching content and the terse-saying genre itself, directly formative, explanatory of why so much surviving material takes the form it does, persistent across all three strands (most elaborated in Strand C, but present in A and B), and reinforcing of diakrisis and elder authority. Widely Accepted confidence, no discrepancy against organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:

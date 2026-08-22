@@ -29,6 +29,8 @@ relations:
   target: desert.gravity.elder-authority
 - type: associated-with
   target: desert.force.oral-to-written-shift
+- type: associated-with
+  target: desert.story.sarah-answer
 ---
 Formation significance: desert.term.geron-abba-amma's own evidential
 sense already states the asymmetry this record makes concrete - "named
