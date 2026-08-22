@@ -21,10 +21,7 @@ worlds:
     display_name: "Post-Apostolic House-Church Christianity"
     time_window: {start: 70, end: 200}
     place: "Antioch/Syria, Asia Minor, Rome"
-    # representative: DELIBERATELY UNSET - the name and role are step 5a's deliverable
-    # (Mark's per-world touchpoint, spec SS4.3); this build stops before the voice build.
-    # The prior-framework build's persona ("Chloe") is NOT carried forward - identity
-    # emergence re-runs from the new-regime records when step 5 begins.
+    representative: {name: Chloe, role_label: "Household Leader"}   # step 5a deliverable (Mark's per-world touchpoint, spec SS4.3); re-confirmed directly with the project lead against the new-regime records (records/pahc/voice_craft/pahc.craft.chloe-voice.md) at Step 11, not carried forward unexamined from the prior-framework build
     state: building
     census_id: "post-apostolic-house-church"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.1") - the census entry's own id field, the value the Atlas deep link sends (same convention verified for alx)
     package: null           # no compiled package yet - this build stops before step 6

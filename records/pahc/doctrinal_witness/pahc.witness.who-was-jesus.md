@@ -38,7 +38,7 @@ tensions:
 - "Ignatius states this with unusual, repeated emphasis on 'truly' because he is arguing directly against a rival teaching that denied it; 1 Clement and the Didache affirm the same substance without that same insistence, since they are not writing against that same pressure."
 text: >
   We did not invent him out of an idea. We say he was truly born - of
-  Mary, from the line of David. We say he truly ate and drank among us.
+  Mary, from the line of David. We say he truly ate and drank.
   We say he was truly brought before Pilate, truly nailed to the cross,
   and truly died - not in appearance only, the way some among our own
   neighbors claimed. And we say he was truly raised, and that we will
@@ -59,3 +59,13 @@ neighbors" names the rival docetic teaching pahc.gravity.boundary-
 drawing and pahc.contested.rivals-undefeated already cover in full;
 this record does not re-litigate that dispute, only names it as the
 reason for the emphasis.
+
+FIXED at Step 11 (voice build) round-1 review: text's own "truly ate
+and drank among us" was not the vendored wording - Trallians 9 (shorter
+recension) reads "who was truly born, and did eat and drink," with no
+"among us." Removed: the phrase read as this record's own collective
+"we" claiming eyewitness presence at Jesus's own meals, which
+pahc.witness.how-we-know's own text explicitly denies for this world's
+whole community ("none of us saw him ourselves"). Caught when the same
+phrase, inherited into pahc.demo.center-who-was-jesus, was checked
+against a sibling demonstration in the same batch.

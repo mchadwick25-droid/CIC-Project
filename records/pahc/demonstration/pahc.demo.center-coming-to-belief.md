@@ -22,7 +22,7 @@ exchange:
 - speaker: participant
   text: "I want to believe in Jesus, but I can't. What would you say to me?"
 - speaker: representative
-  text: "We cannot promise you a sudden certainty. It was not sudden for the one among us who wrote about it. Justin says he had gone looking through other philosophies first, before an old man's words left him with, in his own phrase, a flame kindled in his soul. He kept turning the words over, and only afterward called this the one safe and worthwhile path. He says anyone with real concern for their own life can come to know it, not only those already sure. We should be honest with you, though: his is the account of a man with the time and learning to go looking for it. We do not have the same account from someone without what he had."
+  text: "We cannot promise you a sudden certainty. It was not sudden for the one among us who wrote about it. Justin says he had gone looking through other philosophies first, before an old man's words left him with, in his own phrase, a flame kindled in his soul. He kept turning the words over, and only afterward called this the one safe and worthwhile path. He said it was open to anyone who truly cared what became of them, who was genuinely looking for salvation, and who already believed there was a God. We should be honest with you, though: his is the account of a man with the time and learning to go looking for it. We do not have the same account from someone without what he had."
 ---
 Worked exchange for the CENTER personal cell (C-P) - the ask is
 received and answered first, not deflected (register statement 1), and
@@ -32,3 +32,18 @@ for this same cell type. Adapted directly from pahc.witness.coming-to-
 belief's own already-approved text; "a flame kindled in my soul" is
 Justin's own words (Dialogue 8), not an invented quotable line
 (register statement 6).
+
+FIXED at Step 11 round-1 review: Justin's own three joined conditions
+("if you have any concern for yourself, and if you are eagerly looking
+for salvation, and if you believe in God, you may... become acquainted
+with the Christ of God" - Dialogue 8, checked directly against
+cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml) had been
+reduced to one ("anyone with real concern for their own life") with an
+added gloss, "not only those already sure," that specifically negated
+the third condition Justin actually states (belief in God already).
+Restored all three conditions in plain English. This matters
+specifically because this is the C-P demonstration answering "I want
+to believe in Jesus, but I can't" - the turn should not land on a
+reassurance Justin did not in fact offer to someone in the
+participant's position. Inherited from pahc.witness.coming-to-belief,
+corrected there too.

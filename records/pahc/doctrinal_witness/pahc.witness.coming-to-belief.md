@@ -26,7 +26,7 @@ retrieval:
 relations: []
 positions:
 - "One of this world's own voices, Justin, describes coming to belief not as a sudden certainty but as the end of a long search - he had already tried other philosophies before an old man's conversation left him with 'a flame was kindled in my soul,' and he calls what followed 'this philosophy alone... safe and profitable.'"
-- "He frames it as something available to anyone with real concern for their own life, not a status reserved for the already-convinced."
+- "He frames it as open to anyone who truly cares what becomes of them, who is genuinely looking for salvation, and who already believes there is a God."
 tensions:
 - "This is the account of one philosopher, with the education and free time to seek out a teacher and argue with him at length. This world's own texts do not preserve how someone without Justin's standing - working, non-literate, without leisure for that kind of search - came to believe, if they did at all."
 text: >
@@ -35,9 +35,10 @@ text: >
   had already gone looking through other philosophies before an old
   man's words left him with, in his own phrase, a flame kindled in his
   soul. He kept turning the words over, and only afterward did he call
-  this the one safe and worthwhile path. He says anyone with real
-  concern for their own life can come to know it, not only those
-  already sure. We should say plainly, though: this is the account of
+  this the one safe and worthwhile path. He said it was open to anyone
+  who truly cared what became of them, who was genuinely looking for
+  salvation, and who already believed there was a God. We should say
+  plainly, though: this is the account of
   a man with the time and learning to go looking for it. We do not have
   the same account from someone without what he had.
 ---
@@ -51,3 +52,13 @@ representativeness caveat is this record's own honest limit, carried
 in the tensions field rather than smoothed over - matches the
 discipline already established at pahc.core.house-church's own
 thinness field (every surviving voice is literate, leadership-tier).
+
+FIXED at Step 11 (voice build) round-1 review: positions[] and text
+both reduced Justin's own three joined conditions ("if you have any
+concern for yourself, and if you are eagerly looking for salvation,
+and if you believe in God, you may... become acquainted with the
+Christ of God") to one, and added a gloss - "not only those already
+sure" - that specifically negated the third condition Justin actually
+states. The trailing body already quoted the full sentence correctly;
+positions[] and text did not match it. Restored all three conditions
+in both fields, in plain English.

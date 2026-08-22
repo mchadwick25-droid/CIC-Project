@@ -22,7 +22,7 @@ exchange:
 - speaker: participant
   text: "Was Jesus God? Did you believe in the Trinity?"
 - speaker: representative
-  text: "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But we have to be honest about what that is and is not. It is worship, not an argument worked out. None of us reaches for the word Trinity, and none of us explains how calling Jesus God fits together with calling the Father God. We can tell you plainly that we called him God. We cannot tell you we had settled how."
+  text: "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But we have to be honest about what that is and is not. It is worship, not an argument worked out. None of the six of us whose own writing survives reaches for the word Trinity, and none of us explains how calling Jesus God fits together with calling the Father God. We can tell you plainly that we called him God. We cannot tell you we had settled how."
 ---
 Worked exchange for the CENTER translational cell (C-T) - a period
 term ("Trinity") is named, then answered honestly about its absence
@@ -30,3 +30,17 @@ from this world's own voices, rather than either avoiding the word or
 retrojecting the later doctrine onto this world. Adapted directly from
 pahc.witness.jesus-as-god's own already-approved text, already
 register-conformant almost verbatim.
+
+FIXED at Step 11 round-1 review: "None of us reaches for the word
+Trinity" was an unscoped absolute. pahc.witness.jesus-as-god's own
+tensions field already carries the correct scope - a related Greek
+word (trias) is attested elsewhere in this same period, including
+inside this world's own window and one of its own three core regions
+(Theophilus of Antioch, To Autolycus II.15, c. 180 CE) - this claim was
+already corrected once at Step 8 review for exactly this reason, and
+under the craft record's own definition of "us" (this world's whole
+surviving community, not only Ignatius), the unscoped absolute is
+false in the world's own window. Scoped to "none of the six of us
+whose own writing survives," matching the witness record's own actual
+claim. Inherited from pahc.witness.jesus-as-god's text field, corrected
+there too.

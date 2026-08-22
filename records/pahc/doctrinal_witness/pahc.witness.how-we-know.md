@@ -15,7 +15,7 @@ confidence:
   divergence_note: "Documented that this world's own texts describe apostolic testimony and, in Rome specifically, memoirs of the apostles read aloud at weekly gathering; Contested/Inferential-Thin on whether any of this world's own primary voices had personal contact with an actual eyewitness - none claims to, and the value this world places on 'the living and abiding voice' (Papias) shows that direct chain was already felt to be thinning within this world's own window, not securely present throughout it."
 sources:
 - source_id: pahc.source.first-clement
-  locus: "42 (the apostolic chain of appointment)"
+  locus: "42, 44 (the apostolic chain of appointment, and the succession provision after the apostles' own deaths)"
   license: public-domain
 - source_id: pahc.source.justin-first-apology
   locus: "67 ('the memoirs of the apostles or the writings of the prophets are read')"
@@ -51,3 +51,8 @@ apostolic-fathers-justin-irenaeus.xml, div1 viii (viii.ii.lxvii).
 (narratable: false) without giving him an invented interior voice -
 this record cites what the approved figure record already establishes
 about him (the value placed on direct testimony), not a new claim.
+
+FIXED at Step 11 (voice build) round-1 review: "appointed others to
+carry it forward when they themselves were gone" is 1 Clement 44's own
+succession provision, not chapter 42 (the appointment of the first
+bishops and deacons); locus extended to "42, 44".

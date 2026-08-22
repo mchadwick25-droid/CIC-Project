@@ -18,6 +18,8 @@ sources:
   locus: "10.96-97 (this world's only outside, non-Christian description of its worship - reported under interrogation, silent on the physical place)"
   license: public-domain
 canon_question_id: _fleet.canon.f5-e-01
+tags:
+- honest-limit
 exchange:
 - speaker: participant
   text: "If archaeologists dug up the place you met, what would they find?"

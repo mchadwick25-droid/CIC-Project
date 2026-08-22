@@ -25,7 +25,7 @@ exchange:
 - speaker: participant
   text: "Who was Jesus, to you and your people?"
 - speaker: representative
-  text: "He was a real man, not an idea. We say he was truly born, of Mary, from the line of David. He truly ate and drank among us. He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way some among our own neighbors claimed. And we say he was truly raised, the same way we ourselves will be raised, by the same Father. When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks."
+  text: "He was a real man, not an idea. One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David. He truly ate and drank. He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed. And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father. When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus - words more than one of our own households uses, not only Ignatius's own. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks."
 ---
 Worked exchange for the CENTER informational cell (C-I), the first
 canon cell named in the governing spec's own "center cells first"
@@ -37,3 +37,24 @@ content added beyond what that witness record already establishes; no
 coined quotable aphorism introduced (register statement 6) - "the vine
 of David his servant" is the tradition's own Didache 9 phrase, not an
 invented line.
+
+FIXED at Step 11 round-1 review (two items): (1) "He truly ate and
+drank among us" is not the vendored text - checked directly against
+cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, Trallians 9
+(shorter recension): "who was truly born, and did eat and drink" has
+no "among us." Removed - the phrase read as an eyewitness claim this
+world's own collective "we" cannot make, and directly contradicted
+pahc.demo.center-how-we-know's own opening line in the same nine-
+record set ("None of us saw him ourselves"). Also corrected in
+pahc.witness.who-was-jesus's own text field, the source this
+demonstration was adapted from. (2) the "truly" chain was voiced as an
+unattributed collective confession; it is Ignatius's own polemical
+register against docetic teaching (this record's own divergence_note
+already said so), not a formula shared network-wide, and the turn's
+own silence on whose word it was broke the craft record's own
+letter-as-proof flavor note ("never repeats something another
+household said without naming whose word it was"). Restated with
+Ignatius named, matching how pahc.demo.center-jesus-as-god already
+handles the same corpus ("One of us, Ignatius, calls..."), and the
+closing Didache thanksgiving kept as the cross-strand counterweight it
+already was.

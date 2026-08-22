@@ -35,7 +35,8 @@ text: >
   how he opens his letters, and in how he closes them. It is not one
   passing phrase; he reaches for it often. But we have to be honest
   about what that is and is not. It is worship, not an argument worked
-  out. None of us reaches for the word Trinity, and none of us explains
+  out. None of the six of us whose own writing survives reaches for the
+  word Trinity, and none of us explains
   how calling Jesus God fits together with calling the Father God. We
   can tell you plainly that we called him God. We cannot tell you we
   had settled how.
@@ -63,3 +64,13 @@ and inside Antioch/Syria, one of its three core regions). The record's
 substantive claim survives intact (none of this world's own six primary
 voices uses the word or works out a developed doctrine); only the
 false etymology has been removed.
+
+FIXED at Step 11 (voice build) round-1 review: text's own "None of us
+reaches for the word Trinity" was unscoped, unlike positions[] two
+fields above it ("none of this world's own six primary voices"). Under
+this world's own voice_craft definition of "us" (the whole surviving
+community, not only the six primary voices), the unscoped absolute is
+false inside this world's own window - Theophilus of Antioch (To
+Autolycus II.15, c. 180 CE) is inside both the window and Antioch/
+Syria, per this same record's own trailing body two paragraphs above.
+Scoped to match positions[].
