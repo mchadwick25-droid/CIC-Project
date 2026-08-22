@@ -26,6 +26,9 @@ text: He made known by this law his intention of leading all his subjects to the
   as heretics, regarded with contempt, and delivered over to punishment.
 speaker_or_author: "Sozomen, Ecclesiastical History VII.4 (reporting Theodosius's law of 380)"
 license: verbatim
+modern_lens_note: >-
+  'Catholic Church' here means 'universal' (katholikos), this world's own general self-designation -
+  not the later, denominationally specific sense a modern reader is likely to bring to the phrase.
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 ---

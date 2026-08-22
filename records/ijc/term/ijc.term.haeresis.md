@@ -35,6 +35,7 @@ relations:
 plain_meaning: 'Heresy as this world wielded it: a teaching placed outside what the church would recognize - and,
   more and more, outside the law itself. One act, a judgment of faith with legal force.'
 world_word: haeresis
+distortion_risk: high
 false_friend:
 - a purely doctrinal category with no legal consequence
 - a boundary that always pointed the same direction (under Homoian emperors it pointed at the Nicenes)

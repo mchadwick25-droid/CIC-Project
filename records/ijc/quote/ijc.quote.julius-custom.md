@@ -22,6 +22,7 @@ text: And why was nothing said to us concerning the Church of the Alexandrians i
   be passed from this place
 speaker_or_author: ijc.figure.julius
 license: verbatim
+modern_lens_note: "No significant modern-lens risk identified for this quote."
 relations:
 - {type: illustrates, target: ijc.story.letter-that-outranked-a-council}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}

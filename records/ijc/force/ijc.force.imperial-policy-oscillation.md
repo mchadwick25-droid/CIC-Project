@@ -34,6 +34,7 @@ relations:
 - {type: associated-with, target: ijc.force.leo-rejects-canon-28}
 name: Imperial Religious Policy Oscillation [2A - ongoing/external]
 kind: ongoing
+matrix_cell: 2A
 description: 'The alliance''s standing instability: under Constantius II (sole ruler 353-361) and Valens
   (East, 364-378) the Homoian confession was the empire''s own, pressed at the twin councils of 359 and
   Constantinople 360, with refusing bishops deposed and exiled; under Theodosius (from 380) the Nicene

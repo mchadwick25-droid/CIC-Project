@@ -20,6 +20,7 @@ sources:
 text: 'I said: I cannot surrender the basilica, but I may not fight.'
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
+modern_lens_note: "No significant modern-lens risk identified for this quote."
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---

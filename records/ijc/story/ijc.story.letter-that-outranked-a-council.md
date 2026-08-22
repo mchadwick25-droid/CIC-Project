@@ -50,6 +50,13 @@ absent_detail: The Eusebian party's own letter to Julius (the anti-Nicene factio
   independently; their side of the argument reaches the record only through their opponents. And whether
   the "custom" Julius appeals to was as ancient or as settled as he implies is exactly what his
   correspondents disputed; the record preserves the claim, not its acceptance.
+modern_contrast: >-
+  A modern reader may take this letter as evidence Rome already held a settled, universally
+  recognized supreme authority - reading a fully developed later papacy back into 341. What the
+  record actually shows is the claim's own earliest surviving assertion, made unilaterally and
+  disputed by the very people Julius wrote against; the letter needing to be written, and needing to
+  invoke a 'custom,' is itself evidence the claim was not yet settled, not proof that it already
+  was.
 ---
 Rebuilt from the reviewed legacy Doc_09 story 5
 (Story-Chunks/ijcstory005); the custom sentence verified verbatim

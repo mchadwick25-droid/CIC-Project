@@ -25,6 +25,10 @@ text: This one and the same Jesus Christ, the only-begotten Son [of God] must be
   but one and the same Son and only-begotten, God the Word, our Lord Jesus Christ.
 speaker_or_author: "The Council of Chalcedon (451), the Definition of Faith"
 license: verbatim
+modern_lens_note: >-
+  'Natures' and 'Person'/'subsistence' are technical patristic ontological categories, not the
+  modern psychological sense of 'personality' or a loose sense of 'nature' as temperament - precise,
+  load-bearing philosophical vocabulary, not casual description.
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---

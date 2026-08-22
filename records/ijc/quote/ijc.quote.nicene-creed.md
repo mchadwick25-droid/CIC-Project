@@ -27,6 +27,10 @@ text: We believe in one God, the Father Almighty, maker of all things visible an
   [we believe] in the Holy Ghost.
 speaker_or_author: "The Council of Nicaea (325)"
 license: verbatim
+modern_lens_note: >-
+  'Begotten, not made' turns on a technical distinction (begetting as bringing forth one's own
+  nature, versus making as creating something of a different kind) that a modern reader will not
+  register without it being named - the distinction is the creed's own central point at this phrase.
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---

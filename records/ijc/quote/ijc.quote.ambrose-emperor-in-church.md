@@ -24,6 +24,7 @@ text: For what is more full of respect than that the Emperor should be called th
   it.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
+modern_lens_note: "No significant modern-lens risk identified for this quote."
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.story.vigil-in-basilica}

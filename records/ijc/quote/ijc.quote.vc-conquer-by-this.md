@@ -23,6 +23,9 @@ text: He said that about noon, when the day was already beginning to decline, he
   on this expedition, and witnessed the miracle.
 speaker_or_author: ijc.figure.eusebius-caesarea
 license: verbatim
+modern_lens_note: >-
+  'Trophy' is used in its ancient sense (a battle-standard or token of victory), not the modern
+  sense of an award object.
 relations:
 - {type: illustrates, target: ijc.story.vision-and-alliance}
 ---

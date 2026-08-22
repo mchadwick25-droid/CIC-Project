@@ -21,6 +21,9 @@ text: 'Let the saint exult in that he draws near to victory. Let the sinner be g
   to pardon. Let the gentile take courage in that he is called to life.'
 speaker_or_author: ijc.figure.leo
 license: verbatim
+modern_lens_note: >-
+  'Gentile' here means simply 'non-Jew' in the ancient sense (as scripture uses it), not a term
+  bound to a specific modern cultural context.
 relations:
 - {type: illustrates, target: ijc.limit.c-p-jesus-to-you}
 ---

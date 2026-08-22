@@ -39,6 +39,7 @@ relations:
 plain_meaning: '"Like the Father." The confession that the Son is like the Father, as the scriptures say - and no
   further word about shared being. For years the imperial church itself held this, at the emperor''s command.'
 world_word: homoios
+distortion_risk: high
 false_friend:
 - '"Arian" as a slur for a fringe, always-defeated heresy - for about two decades this was the establishment,
   not the fringe'

@@ -35,6 +35,7 @@ relations:
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 - {type: associated-with, target: ijc.force.inherited-episcopal-church}
 name: Episcopal Independence from Imperial Command [SUPPORTING - strand-bound]
+classification: supporting
 description: 'A bishop''s authority to refuse an emperor, grounded not in his see''s rank or pedigree but
   in sacramental and moral leverage: the basilica held in 386 against a Homoian court; the exclusion
   after Thessalonica in 390 with public penance demanded and performed. Bounded, on the evidence, to one

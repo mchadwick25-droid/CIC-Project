@@ -25,6 +25,9 @@ text: 'For He who is true God is also true man: and in this union there is no li
   carrying out what appertains to the flesh.'
 speaker_or_author: ijc.figure.leo
 license: verbatim
+modern_lens_note: >-
+  'Form' translates the technical Latin forma (the divine or human mode of being), not the ordinary
+  modern sense of shape or formality.
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 ---

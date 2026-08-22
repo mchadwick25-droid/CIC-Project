@@ -24,6 +24,7 @@ relations:
 - {type: associated-with, target: ijc.force.transmission-archival}
 name: Transmission - the Schism's Selection Effect [3B - ending/internal, transmission]
 kind: ending
+matrix_cell: 3B
 description: 'From 451 forward, the fracture beginning at Chalcedon determines whose records and
   self-understanding are transmitted as normative and whose as a rejected minority - the same archival
   mechanism that shaped the whole record, now operating at the moment of permanent rather than provisional

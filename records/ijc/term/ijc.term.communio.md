@@ -40,6 +40,7 @@ relations:
 plain_meaning: 'Communion as standing. To be in communion with a church is to stand where it stands - at its altar,
   and inside its recognition. To be cut off is a public fact with real force.'
 world_word: communio
+distortion_risk: medium
 false_friend:
 - communion as only the private reception of the bread and cup
 - a merely social or emotional sense of fellowship

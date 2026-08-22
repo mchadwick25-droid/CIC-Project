@@ -24,6 +24,9 @@ text: When we, Constantine and Licinius, emperors, had an interview at Milan, an
   that mode of religion which to each of them appeared best.
 speaker_or_author: ijc.figure.constantine
 license: verbatim
+modern_lens_note: >-
+  'Commonweal' is archaic English for the common good or the state; 'the Divinity' is this
+  translation's own formal register for God, not a philosophical abstraction.
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 ---

@@ -40,6 +40,7 @@ plain_meaning: 'A council: bishops gathered, most often at the emperor''s summon
   meant to bind the whole church. This world''s chief tool for settling disputes. It did not always keep
   them settled.'
 world_word: concilium (synodos)
+distortion_risk: high
 false_friend:
 - a modern legislature whose majority vote all parties then accept
 - a merely advisory conference with no binding force claimed

@@ -24,6 +24,9 @@ text: For the Fathers rightly granted privileges to the throne of old Rome, beca
   ecclesiastical matters also be magnified as she is, and rank next after her
 speaker_or_author: "The Council of Chalcedon (451), Canon 28"
 license: verbatim
+modern_lens_note: >-
+  'The Fathers' here means the bishops of an earlier council, a loose conciliar usage - not the
+  later, fixed canon of named 'Church Fathers' a modern reader may know from patristics.
 relations:
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}
 ---

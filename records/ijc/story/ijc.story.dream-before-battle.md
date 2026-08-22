@@ -43,6 +43,12 @@ absent_detail: Everything the later, fuller telling supplies - the vision seen b
   words in the sky - is absent from this earlier account, and the absence is the point; the two versions
   agree on the event's consequence far more than on its form, and the record does not adjudicate between
   them.
+modern_contrast: >-
+  A modern reader may assume the plainer, less miraculous version of a divine-sign story is simply
+  the more 'reliable' one, and expect the record to adjudicate between it and the fuller account.
+  This world's own discipline does the opposite: both tellings are kept side by side as this world's
+  own divergent memories of one founding moment, neither harmonized nor ranked by how modest its
+  supernatural claim is.
 ---
 Rebuilt from the reviewed legacy Doc_09 story 2
 (Story-Chunks/ijcstory002); text re-verified against the vendored

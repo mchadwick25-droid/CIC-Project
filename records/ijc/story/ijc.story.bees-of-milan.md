@@ -44,6 +44,12 @@ absent_detail: Everything - the event itself is unverifiable legend in a devotio
   infancy but how this world's memory worked within a generation of his death - greatness read backward
   into a beginning that had to have announced it. No verbatim quotation is licensed (the translation is
   not vendored); the telling stays at arm's length by design.
+modern_contrast: >-
+  A modern reader might take this either as a claim of literal fact needing debunking, or dismiss it
+  outright as pious fiction with nothing to learn from it. Neither fits how this world's own record
+  uses it: it is a named, dated infancy-omen convention, told a generation after Ambrose's death to
+  explain backward a life already known to be extraordinary - what it documents is this world's own
+  memory-making practice, not an event.
 ---
 Rebuilt from the reviewed legacy Doc_09 story 3
 (Story-Chunks/ijcstory003), the inventory's one Tier 3 entry.

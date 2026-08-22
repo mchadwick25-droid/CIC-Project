@@ -24,6 +24,9 @@ text: 'Let the city of Constantinople have, as we desire, its high rank, and und
   a foundation.'
 speaker_or_author: ijc.figure.leo
 license: verbatim
+modern_lens_note: >-
+  'Your clemency's rule' is formal address to the emperor ('your Clemency' as a title), not a
+  comment on the emperor's mercy toward wrongdoers.
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}

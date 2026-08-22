@@ -76,6 +76,14 @@ absent_detail: 'No unnamed congregant''s own account survives - the vigil''s int
   the enabling law to Easter, 385 (its own headnote at Ep. XX, and its chronology at file line 704) - a
   divergence between this build''s stated date and its own cited edition''s date, carried here rather
   than silently resolved.'
+modern_contrast: >-
+  A modern reader may map this onto a familiar shape - a persecuted minority congregation resisting
+  an oppressive government - and assume the 'Homoian court' was an outside power imposed on the
+  church. It was not: for this stretch of the reign, the Homoian confession WAS the empire's own
+  established church, and this is an intra-Christian contest over which confession the state itself
+  backed, not church against a secular or pagan state. It is also this record's richest direct
+  evidence of ordinary lay participation, corroborated from outside by Augustine - not only a story
+  about clergy and emperors.
 ---
 Rebuilt from the reviewed legacy Doc_09 story 4
 (Story-Chunks/ijcstory004) - the world's richest single narrative and

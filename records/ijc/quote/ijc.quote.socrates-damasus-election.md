@@ -24,6 +24,9 @@ text: This ordination was made, not in a church, but in a retired place called t
   that account by Maximin, the prefect of the city.
 speaker_or_author: "Socrates Scholasticus, Ecclesiastical History IV.29"
 license: verbatim
+modern_lens_note: >-
+  'Prefect of the city' names a specific Roman civil office (Rome's chief magistrate), not a generic
+  modern administrative title.
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 ---

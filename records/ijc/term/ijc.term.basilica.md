@@ -33,6 +33,7 @@ relations:
 plain_meaning: 'A basilica: the great hall-style church this world built once emperors began funding churches. At
   Milan in 386, one such building became the prize in the fight over who commands the church''s space.'
 world_word: basilica
+distortion_risk: low
 false_friend:
 - a purely architectural term with no institutional weight
 senses:

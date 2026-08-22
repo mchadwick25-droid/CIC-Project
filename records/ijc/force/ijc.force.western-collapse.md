@@ -22,6 +22,7 @@ relations:
 - {type: associated-with, target: ijc.force.western-fragmentation}
 name: Western Imperial Authority's Continuing Collapse [3A - ending/external]
 kind: ending
+matrix_cell: 3A
 description: 'The process already visible at the sack of 410 continues through the world''s closing decades
   and reaches its conventional terminus - the last Western emperor deposed - a generation AFTER the window
   closes. Named as a force because it is why the 312-451 boundary is defensible as ending inside, rather

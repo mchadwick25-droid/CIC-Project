@@ -48,6 +48,7 @@ relations:
 plain_meaning: 'Rome''s claim to first standing among the churches. What was given to Peter, Rome holds, was given
   to each bishop who sits in his seat after him. Not an honor others grant - an inheritance Rome guards.'
 world_word: primatus
+distortion_risk: high
 false_friend:
 - the developed medieval or modern papacy read back into this window
 - mere seniority or honorary precedence with no binding force

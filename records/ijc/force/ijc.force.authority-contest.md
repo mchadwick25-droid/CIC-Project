@@ -28,6 +28,7 @@ relations:
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 name: The Recurring Contest over Final Doctrinal and Disciplinary Authority [2B - ongoing/internal]
 kind: ongoing
+matrix_cell: 2B
 description: 'The question that never permanently closes: where does final authority to settle doctrine
   and discipline actually reside - with the emperor, an assembled council, or the bishop of Rome? Replayed
   at Nicaea, Constantinople, Ephesus, and Chalcedon. In the world''s own experience, every settlement is

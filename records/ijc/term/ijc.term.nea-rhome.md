@@ -32,6 +32,7 @@ relations:
 plain_meaning: '"New Rome": Constantinople''s name for itself as the empire''s new seat. Not a decoration - the
   stated ground of its claim to rank among the churches.'
 world_word: Nea Rhome
+distortion_risk: medium
 false_friend:
 - honorific flattery with no operative claim behind it
 - a claim to replace old Rome's church outright (the canons rank it after Rome, not over it)

@@ -24,6 +24,10 @@ text: The pious people kept guard in the church, prepared to die with their bish
   till now, is imitated by many, yea, by almost all of Thy congregations throughout the rest of the world.
 speaker_or_author: "Augustine of Hippo, Confessions 9.7 (licensed for this world as eyewitness to Milan, 386, only)"
 license: verbatim
+modern_lens_note: >-
+  'Thy'/'Thy handmaid'/'Thy servant' are the translation's own devotional register for direct
+  address to God (this passage is prayer, addressed to God, not narration addressed to a reader) -
+  an artifact of the English rendering, not this world's own chancery idiom.
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---

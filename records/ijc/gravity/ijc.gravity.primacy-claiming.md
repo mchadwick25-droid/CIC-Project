@@ -42,6 +42,7 @@ relations:
 - {type: associated-with, target: ijc.force.western-fragmentation}
 - {type: associated-with, target: ijc.force.leo-rejects-canon-28}
 name: Juridical Primacy-Claiming [PRIMARY]
+classification: primary
 description: 'The drive to fix a see''s standing as a matter of enforceable right, not mere honor - recurring
   in an unbroken evidentiary chain across the whole window: Julius asserting Rome''s authority to review
   the Eusebian party''s (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of

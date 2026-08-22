@@ -22,6 +22,10 @@ text: I, I say, have no cause for a charge of contumacy against you, but have ca
   of one innocent person, allowed after shedding the blood of many? I do not think so.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
+modern_lens_note: >-
+  'Sacrifice' names the eucharistic offering (the Mass), not a violent or pagan rite. 'Contumacy' is
+  archaic legal vocabulary for open, willful defiance of authority - not a word in common modern
+  use.
 relations:
 - {type: illustrates, target: ijc.story.emperor-penance}
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}

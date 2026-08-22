@@ -26,6 +26,7 @@ relations:
 - {type: associated-with, target: ijc.force.western-fragmentation}
 name: Constantine's Victory and the Edict of Milan [1A - initiating/external]
 kind: initiating
+matrix_cell: 1A
 description: 'The world''s beginning as an external event: Constantine''s victory at the Milvian Bridge
   (312) and the legal toleration formalized at Milan (313) - the persecution''s legal end had already begun
   with Galerius''s own edict of 311, with Milan confirming and extending it - converting

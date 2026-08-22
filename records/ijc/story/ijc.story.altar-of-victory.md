@@ -50,6 +50,14 @@ absent_detail: Ordinary pagans' religion - as against a senatorial orator's - is
   preserves; and the emperor's own deliberation survives only as its outcome. The wider legal
   suppression of the old cults is carried at the level the sources allow (the laws' existence is
   documented; their enforcement's texture is not this record's to give).
+modern_contrast: >-
+  A modern reader may hear this as a free-speech or minority-religious-rights dispute - a lone
+  dissenting voice silenced by an intolerant establishment. That is not quite this world's own
+  frame: Symmachus was petitioning for restored STATE FUNDING of a public cult from the treasury of
+  an empire already inside the church-state alliance, not asking for private toleration the state
+  was withholding. Ambrose's answer treats the question as belonging entirely inside that alliance's
+  own logic (what an already-Christian state may fund), not as a debate between a neutral state and
+  two private religions.
 ---
 A registry-append story closing the legacy build's own flagged gap
 (Open_Gaps item 6: no Registry row for the Altar of Victory

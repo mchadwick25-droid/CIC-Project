@@ -24,6 +24,10 @@ text: 'Let us prove that this is not what nature made, but what the blessing con
   it has another name, after it is called Blood.'
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
+modern_lens_note: >-
+  'Nature' here is the ancient sense (a thing's own inherent substance or kind), not the modern
+  sense of the natural world or instinct - Ambrose is arguing about what a thing fundamentally IS,
+  not about biology.
 relations:
 - {type: illustrates, target: ijc.dw.f1-t-bread-made-body}
 ---

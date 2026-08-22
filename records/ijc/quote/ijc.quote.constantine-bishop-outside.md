@@ -21,6 +21,10 @@ text: 'You are bishops whose jurisdiction is within the Church: I also am a bish
   overlook whatever is external to the Church.'
 speaker_or_author: ijc.figure.constantine
 license: verbatim
+modern_lens_note: >-
+  'Bishop' here is Constantine's own self-applied metaphor for his administrative oversight role,
+  not a claim to priestly or sacramental office - the word's plain modern reading (an ordained
+  church officer) would mislead.
 relations:
 - {type: illustrates, target: ijc.contested.bishop-of-those-outside}
 ---

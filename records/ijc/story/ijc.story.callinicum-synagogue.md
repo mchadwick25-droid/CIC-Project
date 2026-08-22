@@ -48,6 +48,13 @@ absent_detail: The Jewish community at Callinicum has no voice anywhere in this 
   not their appeal, not their reaction to the reversed order. What survives is entirely Ambrose's own
   account, addressed to the emperor and then to his sister; no independent witness corroborates his
   version of events, unlike the 386 standoff, which Augustine's testimony corroborates from outside.
+modern_contrast: >-
+  A modern reader, primed by this world's other standoff stories, may expect a bishop's resistance
+  to imperial power to read as principled courage - a civil-rights-style parable. Here the same
+  sacramental leverage this world elsewhere shows restraining a throne's violence is used instead to
+  shield arsonists from restitution and deny an already-wronged community any recourse; the moral
+  valence inverts, and this record names that inversion rather than letting the leverage read as
+  uniformly admirable.
 ---
 Added at review (Opus historical-accuracy pass, 2026-08-21): the affair
 was previously named only in figure floruit lines and a gravity

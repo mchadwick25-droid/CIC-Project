@@ -28,6 +28,7 @@ relations:
 - {type: associated-with, target: ijc.force.chalcedon-failed-consensus}
 name: Leo's Rejection of Canon 28 - the Strand A/B Fracture [3B - ending/internal]
 kind: ending
+matrix_cell: 3B
 description: 'The world''s two never-reconciled grounds of authority collide directly, on the documentary
   record, at the world''s own close: Chalcedon grants Constantinople rank on the political-geographic
   ground, over the Roman legates'' objection; Leo refuses to ratify, in letters to emperor, empress, and

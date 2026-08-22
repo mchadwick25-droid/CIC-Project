@@ -26,6 +26,7 @@ relations:
 - {type: associated-with, target: ijc.force.leo-rejects-canon-28}
 name: Chalcedon's Verdict Fails to Produce Lasting Consensus [3A - ending/external]
 kind: ending
+matrix_cell: 3A
 description: 'The mechanism this world trusted across the whole window - gather, argue, settle, and expect
   the settlement to bind - visibly fails at the moment when the stakes are highest: Chalcedon''s settlement
   is rejected immediately by communities that will not accept it, beginning in Egypt at the council itself,

@@ -30,6 +30,7 @@ relations:
 - {type: associated-with, target: ijc.gravity.orthodoxy-enforcement}
 - {type: associated-with, target: ijc.force.authority-contest}
 name: Doctrinal and Christological Precision-Seeking [SUPPORTING]
+classification: supporting
 description: 'The recurring drive to state the faith in words exact enough to bind: homoousios at Nicaea,
   the Spirit''s full divinity at Constantinople, one person in two natures at Chalcedon - each council
   driven to close what looser words left open. Real and recurring across every council of the window,

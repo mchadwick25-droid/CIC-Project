@@ -22,6 +22,10 @@ text: These are they who promoted thee to such glory, that being made a holy nat
   attain a wider sway by the worship of God than by earthly government.
 speaker_or_author: ijc.figure.leo
 license: verbatim
+modern_lens_note: >-
+  'A holy nation, a chosen people, a priestly and royal state' is a direct scriptural allusion (1
+  Peter 2:9) applied to Rome, not Leo's own political-nationalist coinage - a modern reader
+  unfamiliar with the source text may miss that this is applied scripture, not original rhetoric.
 relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}

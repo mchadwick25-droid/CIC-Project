@@ -60,6 +60,13 @@ absent_detail: The Tome's reception was not unanimous joy - it was questioned in
   does not carry. Canon 28's passage and the Tome's reception happened in different sessions, three
   weeks apart (Session II, 10 October 451; Canon 28, 31 October 451) - the drama is real, the compression
   is the teller's.
+modern_contrast: >-
+  A modern reader may expect a 'great church council' to close in tidy agreement once it has spoken
+  - one verdict, universally received. This world's own record holds two separate contests apart:
+  Chalcedon settled who Christ is, decisively, in the same session that granted Constantinople
+  contested rank on different grounds Rome's own legates rejected. The doctrinal question closes;
+  the authority question does not - and this record's own ending states both facts rather than
+  smoothing the second into the first's success.
 ---
 Rebuilt from the reviewed legacy Doc_09 story 6
 (Story-Chunks/ijcstory006), with one factual correction to the legacy

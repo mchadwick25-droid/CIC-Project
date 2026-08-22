@@ -29,6 +29,7 @@ relations:
 plain_meaning: 'A martyr''s shrine: where the dead who kept faith under persecution are honored. In Rome''s hands in
   this window, that honor also spoke for the see''s own standing.'
 world_word: martyrium
+distortion_risk: low
 false_friend:
 - martyr-cult as it works in worlds where it is itself the devotional center (here it serves the primacy project)
 senses:

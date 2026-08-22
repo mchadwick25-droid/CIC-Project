@@ -25,6 +25,7 @@ relations:
 - {type: associated-with, target: ijc.force.western-collapse}
 name: Western Political and Military Fragmentation [2A - ongoing/external]
 kind: ongoing
+matrix_cell: 2A
 description: 'The Western empire''s administrative and military coherence weakening progressively across
   the later 4th and 5th centuries - visible inside the window at Alaric''s sack of Rome (410). In the
   world''s own experience: the city whose bishop claims to guard an unbroken apostolic memory is, within

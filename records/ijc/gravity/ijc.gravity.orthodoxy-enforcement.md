@@ -35,6 +35,7 @@ relations:
 - {type: associated-with, target: ijc.gravity.precision-seeking}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 name: Orthodoxy-Enforcement Through Imperial Power [PRIMARY]
+classification: primary
 description: 'The recurring use of state power to police the church''s confessional boundary - a mechanism
   that outlives every particular content it enforces. Under Constantius II and Valens it enforced the
   Homoian confession against Nicenes, with deposition and exile; under Theodosius it enforced the Nicene

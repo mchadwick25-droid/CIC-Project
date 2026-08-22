@@ -20,6 +20,9 @@ text: Damasus, bishop of Rome, had a fine talent for making verses and published
   heroic metre. He died in the reign of the Emperor Theodosius at the age of almost eighty.
 speaker_or_author: "Jerome, De Viris Illustribus 103 (licensed for this world's figure notices only)"
 license: verbatim
+modern_lens_note: >-
+  'Heroic metre' names a specific ancient verse form (dactylic hexameter), not a genre label in any
+  modern sense of 'heroic.'
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 ---

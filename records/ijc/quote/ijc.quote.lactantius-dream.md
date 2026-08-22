@@ -23,6 +23,10 @@ text: Constantine was directed in a dream to cause the heavenly sign to be delin
   being the cipher of Christ.
 speaker_or_author: "Lactantius, De Mortibus Persecutorum"
 license: verbatim
+modern_lens_note: >-
+  The described sign ('the letter [Chi], with a perpendicular line drawn through it and turned round
+  thus at the top') is the Chi-Rho monogram - a modern reader unfamiliar with that symbol may not
+  picture what is actually being described.
 relations:
 - {type: illustrates, target: ijc.story.dream-before-battle}
 ---

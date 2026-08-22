@@ -27,6 +27,7 @@ relations:
 - {type: associated-with, target: ijc.force.constantine-alliance}
 name: Pre-existing Proto-Orthodox Commitments and Episcopal Office [1B - initiating/internal]
 kind: initiating
+matrix_cell: 1B
 description: 'What the alliance was offered TO: by 312 a church already existed with settled convictions
   and a functioning structure of bishops - an office built to shepherd a persecuted flock, asked almost
   overnight to also settle imperial-scale disputes. The church did not wait for an emperor to know what

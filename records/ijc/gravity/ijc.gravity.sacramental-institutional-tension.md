@@ -33,6 +33,7 @@ relations:
 - {type: associated-with, target: ijc.force.inherited-episcopal-church}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 name: Sacramental/Moral Authority vs. Institutional/Positional Authority [TENSIONAL]
+classification: tensional
 description: 'Two grounds of authority that never merge in this world''s record: authority from sanctity
   and sacrament (a bishop''s moral leverage, a martyr''s standing) and authority from office and position
   (a see''s rank, a canon''s force). Ambrose asserts the first directly against the second''s imperial

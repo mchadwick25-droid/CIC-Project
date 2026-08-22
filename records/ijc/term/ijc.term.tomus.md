@@ -36,6 +36,7 @@ relations:
 plain_meaning: 'A Tome: a letter that settles doctrine, carrying the full standing of the church that sends it.
   Leo''s went ahead of him to Chalcedon. Those who received it rightly heard the see of Peter speaking.'
 world_word: Tomus
+distortion_risk: low
 false_friend:
 - any long or weighty letter (what makes a Tome is the issuing see's standing, not its size)
 - a work in multiple volumes (the modern bookish sense)

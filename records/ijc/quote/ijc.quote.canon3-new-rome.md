@@ -22,6 +22,9 @@ text: The Bishop of Constantinople, however, shall have the prerogative of honou
   Rome; because Constantinople is New Rome.
 speaker_or_author: "The Council of Constantinople (381)"
 license: verbatim
+modern_lens_note: >-
+  'Prerogative of honour' can read as merely ceremonial, ornamental status with no real power behind
+  it; this world's own record treats it as an operative rank claim (see ijc.term.presbeia).
 relations:
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---

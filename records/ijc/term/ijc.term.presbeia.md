@@ -42,6 +42,7 @@ relations:
 plain_meaning: 'The "prerogative of honor": Constantinople''s claim to rank second among the churches. Not because
   an apostle founded it - because the emperor now reigns there. Rank follows the throne.'
 world_word: presbeia (tes times)
+distortion_risk: medium
 false_friend:
 - a merely ceremonial honor with no operative claim behind it
 - 'the presbyterate or office of elders (presbyteros) - genuinely cognate, both from the same root

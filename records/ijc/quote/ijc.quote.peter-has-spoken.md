@@ -22,6 +22,9 @@ text: 'After the reading of the foregoing epistle, the most reverend bishops cri
   Anathema to him who does not thus believe. Peter has spoken thus through Leo.'
 speaker_or_author: "The bishops at Chalcedon, Session II (451), as the session record reports their acclamation"
 license: verbatim
+modern_lens_note: >-
+  'Anathema' is a formal ritual/canonical curse-and-exclusion formula, not the vaguer modern sense
+  of 'something reviled.'
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 ---

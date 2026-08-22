@@ -39,6 +39,7 @@ relations:
 plain_meaning: '"Of one substance with the Father." The Nicene word that binds the Son to the Father as one and the
   same being. Not merely like God - sharing the very being that makes the Father God.'
 world_word: homoousios
+distortion_risk: high
 false_friend:
 - a formula that was settled and uncontested from the moment Nicaea spoke it
 - a word taken directly from scripture (its absence from scripture was the objection)

@@ -35,6 +35,7 @@ relations:
 - {type: associated-with, target: ijc.force.inherited-episcopal-church}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 name: Church-State Alliance and Its Limits [PRIMARY]
+classification: primary
 description: 'The standing fact every other force in this world moves within: from Constantine''s victory
   and the Milan agreement onward, church office is a form of state-adjacent power - patronized, consulted,
   legislated for, and never again simply private. All three strands presuppose it: Rome and Constantinople

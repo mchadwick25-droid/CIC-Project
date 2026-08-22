@@ -53,6 +53,13 @@ absent_detail: What Constantine actually experienced, and when his own convictio
   earlier account (Lactantius) has a dream, the night before, and shields, not a standard; the two are
   told side by side in this world's record, never merged. Even the edition's own notes doubt the daylight
   vision's details. The consequence is documented; the experience is testimony.
+modern_contrast: >-
+  A modern reader may take Eusebius's account as a straightforward eyewitness report, the way a
+  modern reader treats a first-person historical record, and assume it is the single correct version
+  of what happened. It is a court historian's rendering, decades later, of what the emperor himself
+  wished remembered about his own rise - and this world's own record holds a second, incompatible
+  telling (Lactantius's dream) beside it, deliberately unmerged, rather than settling on one as the
+  true account.
 ---
 Rebuilt from the reviewed legacy Doc_09 story 1
 (Story-Chunks/ijcstory001) with its tier discipline intact; text

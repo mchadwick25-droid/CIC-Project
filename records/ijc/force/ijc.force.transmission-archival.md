@@ -24,6 +24,7 @@ relations:
 - {type: associated-with, target: ijc.force.transmission-schism-selection}
 name: Transmission - Archival and Documentary Preservation [2B - ongoing/internal, transmission]
 kind: ongoing
+matrix_cell: 2B
 description: 'How this world transmitted itself, as its own force: conciliar acts, decretals, and episcopal
   correspondence were preserved disproportionately by the institutions with the strongest archival
   culture - Rome''s developing chancery, conciliar record-keeping, the canon-law compilers, and Damasus''s

@@ -36,6 +36,7 @@ plain_meaning: '"The emperor is within the Church, not over the Church." Ambrose
   A ruler is a son of the Church, under her discipline like any believer. His soldiers are real - but
   he cannot command what belongs to the altar.'
 world_word: Imperator intra Ecclesiam, non supra Ecclesiam
+distortion_risk: high
 false_friend:
 - the modern separation of church and state (this claim keeps the emperor inside the Church, not in a separate sphere)
 - a claim about which see outranks which (it is about office and altar, not rank)

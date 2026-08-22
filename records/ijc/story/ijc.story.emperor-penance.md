@@ -71,6 +71,13 @@ absent_detail: What passed between the two men beyond the letter is not recorded
   his own hedge ("it is said that seven thousand perished"); the often-told detail that Theodosius
   countermanded the order too late is NOT in this build's vendored accounts and is not told. Theodoret's
   dramatized scene is quarantined by name inside the telling - the tiers never mix.
+modern_contrast: >-
+  A modern reader likely knows the vivid public scene - the emperor stripped of purple, weeping
+  before the congregation - from later art and retelling, and may assume that is simply what
+  happened, first-hand. This world's own contemporary record is quieter: a private letter demanding
+  repentance, and the fact of the emperor's submission. The dramatic public scene is a later
+  historians' telling, written a generation on to edify, and this record keeps that layer named as
+  such rather than folding it into the earliest evidence.
 ---
 A registry-grounded EXTENSION of the legacy Doc_09 inventory (which
 carried six stories and named no story for this episode): Ep. 51 was
