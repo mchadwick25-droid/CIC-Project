@@ -1,0 +1,6 @@
+id: hal.story.ciceronian-dream
+canon_cells: F2-P,F1-P
+
+Jerome's dream of the Judge - the war between the books he loved and the book he served, as he himself told it
+
+He told the story against himself, in a letter meant to teach. On the way to his desert years he could give up everything, he said, except his library. He fasted - and then read Cicero. He wept over his sins - and then picked up his beloved authors again; and when he made himself return to the prophets, their style seemed rough and unpolished after all that marble prose. Then, in a fever so deep his funeral was being prepared, he was dragged in spirit before the judgment seat. Asked who he was, he answered: a Christian. And the Judge said: you lie - you are a follower of Cicero, and not of Christ; for where your treasure is, there will your heart be also. He was flogged, he said - but worse was his conscience burning; and he swore an oath that if he ever again possessed worldly books he would have denied his Lord. He woke with his eyes drenched, and gave himself to the divine books - he tells us - with more zeal than he had ever given to the books of men. He kept telling this story his whole life. His enemies later noted, not unfairly, that his pages never did stop quoting the classics.

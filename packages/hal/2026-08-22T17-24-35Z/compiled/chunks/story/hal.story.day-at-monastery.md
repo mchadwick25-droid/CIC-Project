@@ -1,0 +1,6 @@
+id: hal.story.day-at-monastery
+canon_cells: F5-I,F4-I
+
+a typical day among the Bethlehem communities, offered openly as reconstruction from the letters' scattered notices, never as a documented schedule
+
+Put together, from scattered notices, a typical day might be told like this - and told only like this, as a putting-together. The women rose before light for psalms; they met for the psalter at set times through the day and returned to their quarters between, to prayer, to the scriptures each was required to learn, and to wool-work - senators' daughters at the distaff, dressed alike in coarse cloth. They ate sparely; the sick among them were made to eat more, and were nursed. No man came among them; an offending sister was corrected and, stubborn, prayed back into the fold. Across the way, the men's house kept its own round of prayer and labor - and at its center, by every account, one old man was always at his books, day and night, reading or writing something, dictating letters that would cross the sea, working through the prophets with visitors from three provinces waiting. Pilgrims came and went at the hospice below. What the bells and hours precisely were, no one wrote down - or nothing that was written survived.
