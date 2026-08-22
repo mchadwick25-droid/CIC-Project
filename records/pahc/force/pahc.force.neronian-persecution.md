@@ -24,6 +24,8 @@ relations:
   target: pahc.gravity.translocal-network
 - type: associated-with
   target: pahc.gravity.authority-consolidation
+- type: associated-with
+  target: pahc.story.nero-scapegoating
 name: "The Neronian Persecution and the Deaths of Peter and Paul, c. 64-68 CE [1A - initiating/external]"
 kind: initiating
 description: "HISTORICAL EVENT: Tacitus's Annals 15.44 describes Nero scapegoating Christians for the

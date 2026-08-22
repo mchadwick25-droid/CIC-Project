@@ -32,6 +32,16 @@ relations:
   target: pahc.force.authority-consolidation
 - type: associated-with
   target: pahc.force.boundary-drawing
+- type: associated-with
+  target: pahc.story.day-under-bishop-and-presbyters
+- type: associated-with
+  target: pahc.story.didache-eucharist
+- type: associated-with
+  target: pahc.story.ignatius-guarded-journey
+- type: associated-with
+  target: pahc.story.justin-sunday-gathering
+- type: associated-with
+  target: pahc.story.one-eucharist-under-bishop
 name: "Liturgical Practice (Eucharist) as Site of Variation and Convergence [PRIMARY]"
 description: "Giving thanks over bread and cup - it forms this world more than anything else its
   communities do, and its order genuinely varies from house to house. The table is what is constant,

@@ -33,6 +33,10 @@ relations:
   target: pahc.force.roman-mediterranean-world
 - type: associated-with
   target: pahc.force.state-pressure
+- type: associated-with
+  target: pahc.story.ignatius-guarded-journey
+- type: associated-with
+  target: pahc.story.martyrdom-of-polycarp
 name: "Martyrdom as Formation-Shaping Meaning-Response [SUPPORTING, Strand A only]"
 description: "In some of this world's communities a death for the name is read as the thing that
   completes a person's formation, and remembered yearly - not everywhere among them. SIX-TEST SUMMARY:

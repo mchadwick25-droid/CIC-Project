@@ -37,6 +37,14 @@ relations:
   target: pahc.force.neronian-persecution
 - type: associated-with
   target: pahc.force.transmission-network
+- type: associated-with
+  target: pahc.story.day-under-bishop-and-presbyters
+- type: associated-with
+  target: pahc.story.first-clement-corinthian-dispute
+- type: associated-with
+  target: pahc.story.ignatius-guarded-journey
+- type: associated-with
+  target: pahc.story.polycarp-forwards-letters
 name: "Translocal Correspondence Network [PRIMARY]"
 description: "Letters carried between churches - what holds this world together across cities, in
   place of any central structure, and what intensifies rather than fractures under pressure. SIX-TEST

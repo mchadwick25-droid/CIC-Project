@@ -38,6 +38,8 @@ relations:
   target: pahc.gravity.martyrdom-meaning
 - type: associated-with
   target: pahc.witness.outsider-view
+- type: associated-with
+  target: pahc.story.pliny-interrogation
 name: "State Pressure / Legal Precarity [SUPPORTING]"
 description: "Real, local, lethal exposure under law nobody was fully sure of - not a systematic hunt
   across the empire, but a danger that could arrive in one town and not the next. SIX-TEST SUMMARY:

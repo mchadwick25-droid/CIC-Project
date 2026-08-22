@@ -20,7 +20,9 @@ sources:
 - source_id: pahc.source.barnabas
   locus: "18-20 (independent witness that the schema circulated more widely than the Didache's own redaction)"
   license: public-domain
-relations: []
+relations:
+- type: associated-with
+  target: pahc.story.two-ways-catechumen
 name: "The Two Ways Catechetical Inheritance [1B - initiating/internal]"
 kind: initiating
 description: "HISTORICAL EVENT: the Didache's opening instructional material (chs. 1-6) structures

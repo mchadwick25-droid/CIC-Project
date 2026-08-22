@@ -42,6 +42,16 @@ relations:
 - type: associated-with
   target: pahc.force.apostolic-testimony-inheritance
 - type: associated-with
+  target: pahc.story.day-under-bishop-and-presbyters
+- type: associated-with
+  target: pahc.story.first-clement-corinthian-dispute
+- type: associated-with
+  target: pahc.story.hermas-visions
+- type: associated-with
+  target: pahc.story.ignatius-guarded-journey
+- type: associated-with
+  target: pahc.story.one-eucharist-under-bishop
+- type: associated-with
   target: pahc.force.state-pressure
 - type: associated-with
   target: pahc.force.monepiscopacy-consolidation
