@@ -27,8 +27,8 @@ why_sources_cannot_answer: 'The surviving corpus is doctrinal, juridical, and ad
   an ordinary believer survives in this world''s own base; the nearest things are public instruments
   and public worship glimpsed once, under siege. Added at review (Opus canon-structure pass,
   2026-08-21): Leo''s own Nativity preaching comes closer than anything else in the record to a direct
-  address on "would Jesus have wanted anything to do with someone like me" - "let the sinner be glad
-  in that he is invited to pardon; let the gentile take courage in that he is called to life" (Sermon
+  address on "would Jesus have wanted anything to do with someone like me" - "Let the sinner be glad
+  in that he is invited to pardon. Let the gentile take courage in that he is called to life" (Sermon
   XXI.I) is preached, second/third-person invitation, not private testimony, but it is this world''s
   own closest approach to that question and is added as nearest_material below rather than left
   unfound.'

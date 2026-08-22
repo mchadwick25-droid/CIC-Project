@@ -92,3 +92,55 @@ their other questions, satisfying the coverage gate.
 
 No fix in this round reopened Step 0 or Doc_01's settled ground. The build otherwise remains exactly
 where §1 left it: stopped before step 5 (voice_craft/demonstration), pending Mark's disposition.
+
+## 7. Confirmation review (2026-08-22) and its fixes
+
+A fresh, isolated Opus review was dispatched specifically to verify §6's fix round from scratch -
+re-deriving every claimed fix against the vendored corpus directly rather than trusting this log's own
+account. Persisted at `Review-Artifacts/Review_Confirmation_Pass.md`. Verdict: **MOSTLY CONFIRMED** - all
+12 original HIGH findings and 22 of 24 MEDIUM findings genuinely check out. It also found 1 new HIGH,
+8 MEDIUM, and most of Review 1's LOW block (7 items) still unworked from the original fix round.
+
+**The new HIGH** was introduced *by* the fix round: Leo's "Collections" sermons (giving-discipline
+material added to correct Review 3's H2) had been tied to a fabricated "autumn fast." The vendored
+file's own explanatory note identifies the occasion as the octave of SS. Peter and Paul (early July, a
+collection day repurposed from a pagan festival), not a fast at all - Leo's genuine autumn-fast sermons
+are a separate, unrelated set with no Collections content. Fixed in all four affected records.
+
+**The 8 MEDIUM findings** were each a smaller instance of the same failure mode the whole review series
+exists to catch, introduced during the fix round itself: a chapter title (Theodoret V.18 vs V.17) missed
+in a fourth record after three others were caught; a bridge_line sourced to "the council's own synodal
+letter" when the passage is actually Anatolius of Constantinople's own letter, printed in the acts'
+editorial notes; an authorship note inventing specifics ("16th-century," "the Benedictine editors," "now
+universally admitted") an edition's introduction does not state; a doctrinal_witness citing a letter at
+`verified-direct` for a claim (Justina acting "in her own name") that letter's own text does not make -
+the attribution rests on the volume's own chronology, now cited correctly, alongside a fixed internal
+contradiction ("Justina's regency" surviving after the same record's own text correctly denied one); an
+NPNF editor's chapter-argument summary ("Auxentius' cruel law") quoted as Ambrose's own sermon wording -
+the identical defect caught and fixed elsewhere in the same round, reintroduced here, now replaced with
+Ambrose's actual sentences; an undisclosed 385/386 dating divergence between this build's stated
+chronology and its own cited edition's date, now disclosed per this world's own contested-dating
+discipline; and Coustant's limiting reading of Julius's "custom" claim (scoping it to the Alexandria case
+specifically), sitting in the build's own vendored apparatus but carried nowhere until now. A structural
+finding (R3-H5's negative-search fix had only covered 2 of 7 honest-limited cells) was closed with five
+new cell-scoped search_records (C-P, F2-P, F4-P, F5-I, F6-E).
+
+**LOW fixes:** all 7 of Review 1's too-narrow quote loci (not one had been touched in the original fix
+round - `nicene-creed`, `canon28-equal-privileges`, `constantine-bishop-outside`, `julius-custom`,
+`leo-tome-each-form`, `lactantius-dream`, `vc-conquer-by-this`); two undisclosed terminal-punctuation
+substitutions, now disclosed; one Greek gloss restored from Latin transliteration; a dropped-words/
+wrong-gloss defect inside the Auxentius identification's own warrant quotation; an arithmetic error
+(fifteen years, not sixteen, between Theodosius's baptism and death); a third-person "a modern asker"
+addressed in compiled answer-ground, reworded to second person; three residuals in the hymn-singing fix
+(Augustine's own "throughout the rest of the world" restored in place of a narrower "the West's," the
+Hilary counter-datum properly sourced instead of left anonymous, and a self-contradictory tensions line
+untangled); a paraphrase and a quotation both drifted from "we cannot attain to so great a secret by one
+road" to "so great a mystery... by one road only," both corrected; a lumped-together "Homoian emperors"
+generalization in `ijc.term.homoousios` narrowed to the actual 357-onward window; and lowercase/
+repunctuation drift inside a quoted Leo sentence. One LOW finding (the registry `role_label` dropping
+"Apocrisiarius") was left as-is, per the review's own assessment that it is a defensible deferral to
+Mark's step-5a touchpoint, not an error.
+
+**Record count:** 137 → 142 (5 new cell-scoped search_records). **Gates:** 13/13 clean, re-verified.
+
+No fix in this round reopened Step 0 or Doc_01's settled ground.

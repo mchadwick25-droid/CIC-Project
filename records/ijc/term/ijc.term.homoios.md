@@ -53,9 +53,10 @@ senses:
     on Ulfila) survives, nearly erased, in a single manuscript. Almost everything else comes through the
     winning side''s later historians - so what Homoians precisely held is reconstructed, and the reconstruction''s
     limits are stated, not hidden.'
-  personal: A bishop ordained in those decades could hold this confession because his own ordination required
-    it - the hard, honest memory is that the line between faithfulness and error ran through the church's
-    own establishment, not between the church and outsiders.
+  personal: A bishop ordained in those decades could hold this confession because it was the imperial
+    church's own establishment at the time, not a formal subscription his ordination required - the hard,
+    honest memory is that the line between faithfulness and error ran through the church's own
+    establishment, not between the church and outsiders.
   translational: '"Did a council vote Jesus into being God?" - the real history is harder: the disputed
     word was argued, enforced, reversed, and re-enforced across half a century, in both directions, with
     the state''s weight behind whichever confession the reigning emperor held.'

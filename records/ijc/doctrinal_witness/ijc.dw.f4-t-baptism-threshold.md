@@ -30,13 +30,13 @@ text: 'Were the people of this world "born again"? They would have pointed to ba
   built basilicas, was baptized only on his deathbed. Eusebius, his own court panegyrist and our only
   source for his motive, says this was awe of a washing that could not be repeated, not indifference -
   we carry that as his claim, not as established fact, since it rests on one interested voice alone.
-  Theodosius was baptized early in his reign (380, within two years of taking power, sixteen years
+  Theodosius was baptized early in his reign (380, within two years of taking power, fifteen years
   before his death), in illness, and rose from it an emperor now formally inside the Church''s
   discipline - which is exactly where a bishop could later reach him. Ambrose went from baptism to
-  bishop''s chair in about a week, the exception that shows the rule''s weight. If a modern asker means
-  by "born again" a datable, decisive crossing from outside to inside - this world had one, took it
-  with fearful seriousness, and delayed it precisely because it meant so much. What it did not have is
-  the modern idiom''s inward-experience emphasis: its record marks the threshold, not the feeling.'
+  bishop''s chair in about a week, the exception that shows the rule''s weight. If by "born again" you
+  mean a datable, decisive crossing from outside to inside - this world had one, took it with fearful
+  seriousness, and delayed it precisely because it meant so much. What it did not have is your own
+  idiom''s inward-experience emphasis: its record marks the threshold, not the feeling.'
 positions:
 - baptism is this world's documented decisive threshold - unrepeatable, consequential, and therefore
   often deferred

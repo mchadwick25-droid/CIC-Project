@@ -23,6 +23,10 @@ sources:
 - source_id: ijc.source.augustine-confessions
   locus: IX.7 (a practice's beginning honestly dated)
   license: public-domain
+- source_id: ijc.source.hilary-de-synodis
+  locus: the volume's own introduction to Hilary (npnf209:3709-3731), on his fame as the earliest Latin
+    hymn writer and the surviving hymn fragments in the same manuscript as De Synodis
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
@@ -34,10 +38,12 @@ text: 'How did this world know its practices went back to the apostles? It asked
   memory visible. But the record also lets us watch a custom being born and admits it: the eyewitness
   in the 386 basilica siege dates a new practice at Milan precisely - hymn-singing "after the manner
   of the Eastern Church," not Milan''s own before that night, kept "from then till now" and imitated,
-  he says, by many, almost all, of the West''s congregations afterward. He claims Milan''s own beginning
-  and a wide later imitation - not, on his own words, that this was the whole West''s first hymn-singing;
-  a Latin hymn tradition already existed before 386 in the West''s own record, which our sources do not
-  let us collapse into this one night. So the
+  he says, by many, almost all, of Thy congregations throughout the rest of the world afterward. He
+  claims Milan''s own beginning and a wide later imitation - not, on his own words, that this was the
+  first hymn-singing anywhere in the West; Hilary of Poitiers, a generation earlier, already has the
+  fame of being the earliest Latin hymn writer, and the same volume that carries his theology preserves
+  fragments of his own hymn collection - a counter-datum our sources do not let us collapse into this
+  one night. So the
   honest answer this world''s own record gives: some of its practices genuinely descend from before
   anyone could remember otherwise; some were new and known to be new; and the claim of apostolic age
   was itself an instrument, wielded hardest exactly where it was most contested.'
@@ -49,8 +55,8 @@ positions:
 tensions:
 - '"ancient" in this record sometimes means "older than the dispute at hand" rather than provably
   apostolic - the world''s own opponents said so at the time'
-- the eyewitness's own word "antiphonal" is not in this record's evidence; our sources describe hymns
-  and psalms sung together, not the specific back-and-forth form later tradition names
+- '"antiphonal" is not the eyewitness''s own word and is not in this record''s evidence; our sources
+  describe hymns and psalms sung together, not the specific back-and-forth form later tradition names'
 ---
 F4-E answered with the world's own custom-apparatus AND its one
 honestly-dated innovation - the pairing that keeps the answer from

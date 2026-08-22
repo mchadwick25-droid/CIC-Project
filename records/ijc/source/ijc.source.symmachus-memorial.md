@@ -38,5 +38,5 @@ document in the author's own words, not a Christian source - carried
 distinctly from ijc.source.ambrose-epistles per this build's per-author
 source discipline, even though both are printed in the same vendored
 volume. Licenses the direct paraphrase of Symmachus's own argument
-("so great a mystery could not be reached by one road only") in
+("we cannot attain to so great a secret by one road") in
 ijc.story.altar-of-victory.

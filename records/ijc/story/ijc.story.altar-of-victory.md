@@ -40,8 +40,8 @@ tellable_as: the Altar of Victory debate of 384 - the old religion's most eloque
 text: 'The altar of Victory had stood in the Senate house for centuries; the emperors had it removed.
   In the year 384 Symmachus, prefect of Rome and the old religion''s most eloquent voice, petitioned
   the young emperor to restore it. His plea survives - grave and moving: that Rome''s ancient worship
-  had guarded Rome''s ancient greatness, and that so great a mystery could not be reached by one road
-  only. Ambrose answered him twice, in writing, and the answers survive beside the plea. The emperor,
+  had guarded Rome''s ancient greatness, and that so great a secret could not be attained by one road
+  alone. Ambrose answered him twice, in writing, and the answers survive beside the plea. The emperor,
   he argued, is a Christian; the state may not fund what the faith knows to be false, and what Symmachus
   called reverence for antiquity was antiquity''s own long error. The altar stayed removed. The exchange
   is this world''s establishment speaking at its most confident - and the rare place in its record where
@@ -66,7 +66,7 @@ to F3-E (did Constantine corrupt the church - did the empire change
 what you were), which this episode answers directly: a pagan senator's
 petition loses because the church now commands the emperor's ear.
 canon_cells: F3-E, F6-T ("isn't Christianity too
-narrow - one way, out of all the world's ways": Symmachus's own "not
-by one road only" is that very question asked FROM the other side, in
-the world's own record, and the world's answer is on the record beside
-it).
+narrow - one way, out of all the world's ways": Symmachus's own "we
+cannot attain to so great a secret by one road" is that very question
+asked FROM the other side, in the world's own record, and the world's
+answer is on the record beside it).
