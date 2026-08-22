@@ -141,3 +141,48 @@ The threads' job when this task is sent is content only: populate the
 three fields above, consistently, across their own world's already-built
 term/story/quote records. Compiling and rendering them is separate work
 that happens once, centrally, not six times.
+
+## SS5. Also found in the broader consistency pass (2026-08-22): gravity/force classification
+
+Checked while Mark asked for a wider look at what else needs to be
+consistent in template/form (vs. genuinely unique in content) across the
+six worlds. `git grep` across all five in-progress/built worlds'
+`gravity`/`force` records found the same risk class as SS1-3, already
+live, not hypothetical:
+
+Every world embeds its Primary/Supporting/Tensional classification (and,
+for forces, the six-cell matrix code) as free text inside `name`, and the
+bracket format has already drifted between threads:
+
+- `alx`: `Divine Pedagogy [SUPPORTING - explanatory framework]` — bracket
+  suffix is a rationale.
+- `syr`: `Covenanted Ascetic Life (qyama / ihidaya) [PRIMARY - C2]` —
+  bracket suffix is a cell-code cross-reference, a different meaning
+  than alx's.
+- `ijc`: mixes bare `[PRIMARY]` with `[SUPPORTING - strand-bound]`.
+- `pahc`: `[TENSIONAL, Strand A only]` — comma, not the dash every other
+  world uses.
+
+Nothing is currently broken — `gate_tension_coverage`'s regex is a loose
+prefix match (`\[\s*tensional\b`) that still catches every variant above
+— but there's no structured field a gate or future tool could read to
+answer "how many Primary gravities does this world have" without parsing
+five different free-text conventions. Added, same non-breaking pattern
+as SS1-3: `gravity.classification` (`primary`/`supporting`/`tensional`)
+and `force.matrix_cell` (`1A`/`1B`/`2A`/`2B`/`3A`/`3B`) in
+`engine/m1/schemas.py`. `name` keeps its bracket for display/readability
+— these new fields are what should actually be read going forward, and
+they retrofit alongside SS1-3 when that task is sent.
+
+**One thing checked and found already consistent, worth naming so it
+doesn't silently drift:** `world_core.cautions` converged, unprompted,
+into the same numbered "1) LABEL IS THE CENTRAL LIMIT: ..." structure
+across every world checked (alx/hal/ijc) — not because the schema
+requires it (it's just `{type: string}`), but because every thread
+modeled off `alx.core.alexandria`'s own exemplar. That's a working
+convention, not a gap, but it's worth stating outright as the template
+rather than trusting the exemplar chain to keep holding on worlds seven
+and beyond. Likewise `contested_claim.held_against[]` (array of
+dated/sourced counter-evidence strings) and `figure.bridge_line` (one
+plain, evocative sentence fragment) both held consistent shape across
+every world checked — no fix needed there, just confirmed.

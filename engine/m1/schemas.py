@@ -218,12 +218,30 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "name": {"type": "string"},
         "description": {"type": "string"},
         "manifestations": {"type": "array", "items": {"type": "string"}},
+        # Structured mirror of what every world so far has embedded as
+        # free text in `name` (e.g. "[TENSIONAL]", "[PRIMARY - C2]") -
+        # format already drifted across worlds (bracket contents mean
+        # rationale in one, a cell code in another, a scope qualifier in
+        # a third; one world uses a comma where the others use a dash).
+        # `gate_tension_coverage`'s own regex still catches every variant
+        # via a loose prefix match, so nothing is currently broken - this
+        # is a durability fix, not a bug fix. Not yet in
+        # COMPLETION_REQUIRED; existing gravity records validate
+        # unchanged without it. `name` keeps its bracket for display;
+        # this field is what a gate or future tool should actually read.
+        "classification": {"enum": ["primary", "supporting", "tensional"]},
     },
     "force": {
         "name": {"type": "string"},
         "kind": {"enum": ["initiating", "ongoing", "ending"]},
         "description": {"type": "string"},
         "manifestations": {"type": "array", "items": {"type": "string"}},
+        # Structured mirror of the six-cell forces matrix code every
+        # world has also been embedding as free text in `name` (e.g.
+        # "[1B - initiating/internal]", "[3A - ending/external; distal
+        # terminal]") - same drift risk as gravity.classification above.
+        # Not yet in COMPLETION_REQUIRED.
+        "matrix_cell": {"enum": ["1A", "1B", "2A", "2B", "3A", "3B"]},
     },
     "contested_claim": {
         "claim": {"type": "string"},
