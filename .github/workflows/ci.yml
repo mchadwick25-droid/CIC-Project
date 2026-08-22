@@ -226,6 +226,24 @@ jobs:
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m engine.m2.cli staleness-check
 
+  api-tests:
+    # Added: engine/api/ (minimal test backend over the M4/M5 turn loop -
+    # HTTP shape only, no new pipeline logic; see
+    # /root/.claude/plans/linear-popping-dawn.md). Same discipline as every
+    # other job here: a fake Bedrock client + the real committed fixture-
+    # world package, never a live AWS call. engine/api/requirements.txt (not
+    # m4's) since this job also needs fastapi/uvicorn/httpx on top of
+    # everything engine.m4.turn already pulls in transitively.
+    name: engine/api tests (mocked Bedrock, fixture world)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/api/requirements.txt
+      - run: python -m pytest engine/api/tests -q
+
   frontend-typecheck:
     name: Frontend build (tsc + vite build)
     runs-on: ubuntu-latest

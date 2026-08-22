@@ -22,3 +22,7 @@ haiku_checkpoint.log
 haiku_five.log
 haiku_enforced.log
 .env
+
+# engine/api local test-backend state (SQLite, default paths - see engine/api/README.md)
+cic_api_events.db*
+cic_api_usage.db*
