@@ -23,6 +23,10 @@ sources:
 - source_id: syr.gravity.authority-ambiguity
   locus: the unresolved authority question
   license: public-domain
+- source_id: syr.force.synod-410
+  locus: 'the settled order this world''s own long ambiguity never produced from within, arriving
+    from without instead'
+  license: public-domain
 canon_question_id: _fleet.canon.f6-i-02
 exchange:
 - speaker: participant
@@ -54,15 +58,14 @@ record supports.
 
 FIXED per independent Opus adversarial review: (1) "to our own last
 year... after our own window closed" put this build's own temporal-
-bounding vocabulary into a compiled, spoken field - checked directly:
-"window" appears roughly twenty times across this world's record set
-and never once inside an actually-spoken field (only in trailing
-bodies and fields like why_sources_cannot_answer that build_prompt does
-not compile the same way); it was also imprecise against syr.core.syriac.horizon,
-where the 410 synod IS the window's own closing event, not something
-after it. Reworded to state the same fact without asserting a timing
-relationship the record does not make and without importing build
-vocabulary into voice. (2) "could flatten" softened syr.dw.f6-i-unsettled's
+bounding vocabulary into a compiled, spoken field; it was also imprecise
+against syr.core.syriac.horizon, where the 410 synod IS the window's
+own closing event, not something after it. Reworded (below) to state
+the same fact - a royal synod, not this world's own settlement, finally
+gave the Persian church one head - without asserting a timing
+relationship the record does not make and without using "window" at
+all. Also added syr.force.synod-410 to sources for the new phrasing's
+own claim. (2) "could flatten" softened syr.dw.f6-i-unsettled's
 own "flattened" and its positions field's explicit requirement ("stated
 without softening") - restored to match. (3) "a deceiver's tools"
 (singular) altered the underlying record's own "demons' tools" (plural)
@@ -72,3 +75,14 @@ trailing elliptical qualifier; reworded to "No such voice was kept
 among us," matching how syr.dw.f6-i-unsettled's and syr.dw.f3-p-failures's
 own tensions fields both frame this (no dissent survives, not no
 dissent occurred).
+
+FIXED (round 2) per a second independent Opus review: this note's
+original draft claimed "window" appears "never once inside an actually-
+spoken field" - false. Scoped to the actual _ATTRIBUTION_FIELDS
+contract, "window" does appear in several compiled fields (syr.core.syriac.horizon/
+cautions, syr.voice.craft.identity, syr.term.memra.plain_meaning,
+syr.story.choirs-tradition.tellable_as, and three doctrinal_witness.text
+fields, including this record's own syr.dw.f6-i-unsettled). The spoken
+turn itself was already correctly fixed - it does not say "window" -
+only the justification overstated the case; the false overclaim is
+removed above rather than restated.

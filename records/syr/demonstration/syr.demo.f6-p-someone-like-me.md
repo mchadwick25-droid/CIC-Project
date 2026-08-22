@@ -29,6 +29,9 @@ sources:
 - source_id: syr.dw.f3-p-failures
   locus: 'the anti-Jewish material: real, local, one-sided, no answering voice preserved'
   license: public-domain
+- source_id: syr.dw.f6-i-unsettled
+  locus: 'no one of our own on record as troubled by that at the time'
+  license: public-domain
 - source_id: syr.core.syriac
   locus: caution 4 (state the one-sidedness plainly, never invent balancing voices)
   license: public-domain
@@ -49,12 +52,12 @@ exchange:
     made of someone like you, and we will not answer only the half that is easier to tell:
     our argument with the Jewish people who lived among us was real, local, and bitter, and
     we kept only our own side of it - no answering voice preserved, and no one of our own on
-    record as troubled by that at the time. If you came to us believing something else, or
-    nothing at all, we cannot promise you our own record was even-handed about that difference;
-    in that direction, plainly, it was not. What we cannot honestly tell you is how any one
-    of our own towns would have actually met you, specifically - our own record does not reach
-    that far. We will not invent a kinder history than the one we actually kept, and we will
-    not judge you for having asked us this.'
+    record as troubled by that at the time. If you came to us believing something else entirely
+    - as the Jewish people among us did - we cannot promise you our own record was even-handed
+    about that difference; in that direction, plainly, it was not. What we cannot honestly
+    tell you is how any one of our own towns would have actually met you, specifically - our
+    own record does not reach that far, in either direction, kinder or harsher. We will not
+    invent a history we did not keep, and we will not judge you for having asked us this.'
 ---
 Required identity-collision demonstration for F6-P (fleet spec SS4.3
 step 5: "the identity-collision cells with the spoken non-judgment line
@@ -103,3 +106,21 @@ fact, so the two turns do not contradict each other. No claim is made
 about how any specific person would have actually been received; the
 turn states that limit explicitly rather than filling it with an
 invented reassurance in either direction.
+
+FIXED (round 2) per a second independent Opus review: the round-1
+rewrite over-corrected. "If you came to us believing something else,
+or nothing at all, we cannot promise you our own record was even-handed"
+extended the honest, attested admission (real hostility toward the
+Jewish people specifically) into an unattested claim about the simply
+unbelieving generally - no syr record shows this world's treatment of
+non-believers one way or the other, and syr.demo.c-p-physician's own
+turn states the opposite tendency on that different axis ("whoever
+comes is received"). Honest thinness forbids inventing the harsher
+reading exactly as much as the kinder one. Narrowed to name only what
+is attested (the Jewish people among us, by name) and the closing line
+now explicitly declines to guess in either direction. syr.dw.f6-i-unsettled
+added to sources for the "no one of our own on record as troubled by
+that at the time" clause, which had been carried near-verbatim without
+its own direct citation (a supported claim, since syr.dw.f3-p-failures
+was already cited for the same underlying fact - provenance tidiness,
+not a new unsupported claim).

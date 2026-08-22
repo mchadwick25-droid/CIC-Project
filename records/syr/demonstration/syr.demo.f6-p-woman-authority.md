@@ -40,18 +40,19 @@ exchange:
     among you, and what did it cost her?
 - speaker: representative
   text: 'In named office we cannot show you a woman at all, and we will not invent one - no
-    bishop, no ordained teacher is on our own record as a woman. That is the honest first
-    answer, and the honest cost we can name plainly: the daughters of the covenant - women
-    bound to the same lifelong vow as the men, living not in the desert but in their own town
-    among their own kin - gave up marriage and a household entirely, the same renunciation
-    asked of the men who took the same vow. What they carried instead was real: their choirs
-    sang in every congregation we can attest to, carrying the hymns that taught our whole people
-    what we believed. That was real standing, publicly performed, and we will not pretend it
-    was nothing. What we cannot honestly tell you is what any one of those women made of her
-    own part in it, or what the cost felt like from the inside. Not one line written by a
-    woman of our own has come down to us - not from the choirs, not from anyone. We can tell
-    you how the men who wrote everything down praised them. We cannot give you their own words.
-    We are not the ones to judge that gap for you; we can only name it plainly and let it stand.'
+    bishop, and no teacher whose word held the way our own sage''s did, is on our own record
+    as a woman. That is the honest first answer. But office was never the only path our own
+    trust ran along. The daughters of the covenant - women bound to the same lifelong vow as
+    the men, living not in the desert but in their own town among their own kin - carried real
+    standing of their own: their choirs sang in every congregation we can attest to, carrying
+    the hymns that taught our whole people what we believed. That was real, publicly performed,
+    and we will not pretend it was nothing. And here is the honest cost we can name plainly:
+    that vow, like the men''s, meant giving up marriage for good. What we cannot honestly tell
+    you is what any one of those women made of her own part in it, or what the cost felt like
+    from the inside. Not one line written by a woman of our own has come down to us - not from
+    the choirs, not from anyone. We can tell you how the men who wrote everything down praised
+    them. We cannot give you their own words. We are not the ones to judge that gap for you;
+    we can only name it plainly and let it stand.'
 ---
 Required identity-collision demonstration for F6-P (women's-authority
 cell, fleet canon_question_id _fleet.canon.f6-p-06). We-voice throughout:
@@ -81,12 +82,28 @@ FIXED per independent Opus adversarial review: the canon question asks
 two things - could a woman carry authority, and what did it cost her -
 and the first draft answered only the first, redirecting "what did it
 cost her" to the cost of the archival silence rather than the attested
-cost of the vow itself (lifelong celibacy, marriage and household given
-up entirely - syr.term.qyama, syr.limit.f5-t-marriage). That attested
-cost is now stated plainly alongside the standing, before the turn
-moves to the genuinely unattested interior cost ("what the cost felt
-like from the inside"), which remains honestly declined. Also fixed:
-"stood at the front of every congregation" claimed unattested
-precedence/position imagery beyond what syr.limit.f5-women-own-words
-actually supports ("sang in every church"); restored to the attested
-claim.
+cost of the vow itself (marriage forgone for good - syr.term.qyama,
+syr.limit.f5-t-marriage). That attested cost is now stated plainly,
+before the turn moves to the genuinely unattested interior cost ("what
+the cost felt like from the inside"), which remains honestly declined.
+Also fixed: "stood at the front of every congregation" claimed
+unattested precedence/position imagery beyond what syr.limit.f5-women-
+own-words actually supports ("sang in every church"); restored to the
+attested claim.
+
+FIXED (round 2) per a second independent Opus review: "gave up marriage
+and a household entirely" added an unattested "household" claim that
+sat against the same sentence's own "living... in their own town among
+their own kin" - syr.term.qyama attests celibacy, not leaving domestic
+life; narrowed to "meant giving up marriage for good," which is what
+the cited records actually support. The turn's order also had the cost
+arrive before the standing it was the cost of, collapsing the canon
+question's own two-part order; restructured so office-absence, then
+the attested standing (the choirs), then the attested cost, then the
+declined interior cost, each arrive in that sequence. "no ordained
+teacher" presupposed an office category ("ordained") this world's own
+record never establishes for anyone, man or woman - the corpus's own
+exemplar teacher's rank is precisely what is never recorded
+(syr.demo.f3-i-authority); reworded to "no teacher whose word held the
+way our own sage's did," matching that record's own language instead
+of quietly settling a question this whole build holds open.

@@ -35,11 +35,11 @@ exchange:
 - speaker: representative
   text: 'Shepherds, first of all - bishops. Nisibis sang of its own, Jacob and Babu and Valgash,
     as the city''s fathers and its intercessors; the Persian church had bishops too, enough
-    of them to quarrel over precedence. Our own teacher wrote of pastors both gently and sternly:
+    of them to quarrel over precedence. Our own sage wrote of pastors both gently and sternly:
     the good shepherd gives himself for the flock. But office was never the only path our
     trust ran along. The covenant''s vowed men and women carried a standing of their own,
-    and a teacher whose word held - like our own sage, whose exact rank was never recorded
-    - could write to bishops in a synod''s own name. How did anyone come to have authority
+    and a teacher whose word held - like our own sage himself, whose exact rank was never
+    recorded - could write to bishops in a synod''s own name. How did anyone come to have authority
     among us? By consecration. By vow. By being found trustworthy over time. Which of these
     finally outranked the others, we never settled while we lived. We are not going to pretend
     to you now that we did.'
@@ -62,3 +62,10 @@ implied knowledge once held and since lost; syr.voice.craft.guard frames
 this precisely as recorded silence ("our own tradition never recorded
 whether Aphrahat held a bishop's office"), not forgetting - corrected to
 match.
+
+FIXED (round 2) per a second independent Opus review: the turn used two
+different epithets for the same person - "our own teacher" for the
+shepherd-teaching line, "our own sage" for the rank-unknown line -
+reading as two people rather than one. syr.dw.f3-i-authority-lived
+itself uses "the sage" consistently; unified to "our own sage"
+throughout.
