@@ -1,0 +1,4 @@
+id: syr.dw.f5-p-cost-distance
+canon_cells: F5-P
+
+Did belonging cost anything? On the Persian side of this world it could cost everything: when the persecution came, to be known as a Christian - above all as clergy or a covenanter - was to be suspect, taxed, and finally hunted; bishops died first, and the community learned what its promises were worth. On the Roman side the cost was quieter: a name that marked you in a plural city, rivals at the door, kin who did not share the vow. And for those far from everyone they loved - this world knew distance across two empires, and what held its people together was a shared name and shared practice: the same first-day assembly, the same fasts, the same songs and letters traveling the roads, so that a believer arriving anywhere in it found the one name already there.

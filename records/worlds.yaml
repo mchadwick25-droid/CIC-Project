@@ -77,8 +77,8 @@ worlds:
     state: built             # step 6 compile done 2026-08-22: determinism-check byte-identical, package built, stub-loader verified - mechanical gates-green transition only (Artifact-1 SS2), same semantics as alx/fix's own built state; NOT admitted or open - step 7 (admission, live-model) and Mark's touchpoints still pending
     census_id: "syriac-edessa-nisibis"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.7") - same deep-link field the alx entry verified (data-aid = census id); matches this world's own world_id independently
     package:
-      manifest_hash: "sha256:cb42964f081078c1a9e94cb5f2e634f5684a1110d9bc4f6763863319aa1198ff"
-      location: "packages/syr/2026-08-22T20-32-43Z"   # recompiled: glossary/story/quote retrofit gate now live - re-embeds an honest, current validation/gates-report.json. Model-facing content unchanged; the retrofit's own content work on this world is still open.
+      manifest_hash: "sha256:42b61e7aed511aa442cbaa0b72b03455758b2a4e3cfe2fc243731d9763eefd33"
+      location: "packages/syr/2026-08-22T21-07-13Z"   # recompiled: glossary/story/quote/gravity/force template retrofit content work complete on this world - distortion_risk (9 term), modern_contrast (9 story), modern_lens_note (18 quote), classification (6 gravity), matrix_cell (13 force) all populated; gate_glossary_retrofit_complete and the full 14-gate battery both clean. Model-facing content changed on this recompile (unlike the prior placeholder recompile, which only re-embedded an honest gates-report.json).
     thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
     living_tradition_flag: true   # prior-framework confirmation by Mark (2026-07-11, Living Tradition Status CONFIRMED: the Syriac churches - Church of the East, Syriac Orthodox, Eastern Catholic heirs - are living heirs); carried forward with re-confirmation under the new spec flagged as pending - the doorway carries the living-tradition distinction meanwhile (fail toward disclosure)
   ijc:
