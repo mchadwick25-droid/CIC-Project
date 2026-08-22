@@ -16,11 +16,11 @@
 | 4 | logismoi | 1 | y | – | y | y | y | y | – | F4-P | clinical symptom; distractions | diakrisis, apatheia, antirrhesis, theoria, nepsis | vita-antonii; evagrius; apophthegmata | taxonomy: single-author (Evagrius) — flagged |
 | 5 | diakrisis | 1 | – | y | – | y | y | – | – | F4-I | trusting your gut; intuition | geron-abba-amma, logismoi, hesychia, nepsis, penthos, apophthegma | apophthegmata; cassian-conferences | no (cross-elder) |
 | 6 | geron-abba-amma | 1 | – | y | – | – | y | y | – | F3-I, F6-P | life coach; formal office | diakrisis, koinonia, apophthegma, anachoresis | apophthegmata; palladius | amma material thin — flagged |
-| 7 | cheironaxia | 1 | y | – | – | y | y | – | – | F5-I, F5-T | menial day-job | anachoresis | vita-antonii; palladius; nepheros; kellia | no (3 evidence types) |
+| 7 | cheironaxia | 1 | y | – | – | y | y | – | – | F5-I, F5-T | menial day-job | anachoresis | vita-antonii; palladius; nepheros; kellia | no (3 evidence types; Nepheros stream caveated - Melitian, intermediary organization, distant) |
 | 8 | apophthegma | 1 | y | – | – | y | y | – | – | F2-E | quotable aphorism; soundbite | geron-abba-amma, diakrisis | apophthegmata; burton-christie | compiler layer — flagged |
 | 9 | koinonia | 1 | – | y | – | y | y | y | – | F3-I | loose fellowship; any monastery | apotage, geron-abba-amma | pachomian-corpus; palladius; sozomen | single corpus (Pachomian) — flagged |
 | 10 | xeniteia | 2 | y | – | y | – | – | y | – | F5-P | travel; tourism | anachoresis | apophthegmata | no |
-| 11 | apatheia | 2 | y | – | y | y | – | y | **y** | F4-P | apathy | logismoi, theoria, antirrhesis, puritas-cordis | evagrius; rubenson | single-author (Evagrius) — flagged |
+| 11 | apatheia | 2 | y | – | y | y | – | y | **y** | F4-P | apathy | logismoi, theoria, antirrhesis, puritas-cordis | evagrius; rubenson; gould | single-author (Evagrius) — flagged |
 | 12 | theoria | 2 | y | – | y | y | – | y | – | F4-I | theory | apatheia, logismoi | evagrius | single-author — flagged |
 | 13 | penthos | 2 | – | y | y | – | – | – | – | (none — deliberate) | depression; bereavement | diakrisis | apophthegmata | no |
 | 14 | nepsis | 2 | y | – | y | y | – | y | – | F4-P | mindfulness | diakrisis, logismoi, hesychia | apophthegmata; evagrius | systematized register single-author — flagged |
@@ -113,6 +113,38 @@ standing cautions that source's own record requires on every use
 (the community is Melitian; its representativeness is an unverified
 working assumption). All fixed, checked against the vendored files and
 the step-2 source records directly, not against prior commit messages.
+
+Step3a Review Round 5 (`world-build-docs/desert/reviews/Step3a_Review_Round5.md`)
+found two more jargon survivors outside any prior sweep's named
+strings (puritas-cordis's "export edge," sibling of "compiler screen";
+antirrhesis's "checked," the verb Rounds 3-4 excised from its two
+sibling clauses but left standing here) and confirmed all 15 vendored
+loci accurate in full context - locus-verification is now complete.
+Four substantial findings, two of them Round 4's own illusory-fix
+recurrences: cheironaxia's Round-4 fix had invented "a nearby
+community" for Nepheros, when the archive's community actually sat
+~200-250km away in Middle Egypt, re-strengthening on a distance axis
+the corroboration overclaim the fix meant to soften (corrected to
+state no proximity); and the same record's Round-4 fix restored only
+one of Nepheros's two standing cautions, leaving the "intermediary"
+organizational-type complication off the record entirely, including
+its informational sense (both cautions now carried in both senses and
+the source row). A wholly new class - citation-completeness, distinct
+from locus-accuracy - surfaced in anachoresis: its embeddedness claim
+paraphrased Goehring without registering him against the standing
+"cite Kellia + Nepheros + Goehring jointly" rule, and its martyrdom-
+successor claim carried no locus at all, though a search record exists
+specifically to anchor one (Vita SS46-47); both fixed by registering
+the missing sources rather than rewording claims they already
+supported. And puritas-cordis's Round-4 fix had installed "in his own
+words" - the exact phrase Round 4's own fix had just removed from
+antirrhesis in the same commit - a fifth consecutive illusory-fix
+recurrence, corrected per the Conferences source record's own standing
+attribution rule. Two invented/substituted details also fixed: apotage's
+"days later" (the Life gives no interval) and synaxis's "resident
+elders" (Palladius's own text names eight priests, an office - the
+lexicon's office-vs-elder distinction is now consistent across
+geron-abba-amma, koinonia, and synaxis alike).
 
 ## Author-gravity column basis
 

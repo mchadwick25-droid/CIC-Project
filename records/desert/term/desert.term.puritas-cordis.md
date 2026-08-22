@@ -33,8 +33,8 @@ world_word: puritas cordis
 false_friend:
 - a vague devotional phrase
 senses:
-  informational: "Cassian's rendering of the ascetic goal for his Latin readers, anchored in 'Blessed are the pure in heart': a deliberate substitution for apatheia, whose Stoic sound had become controversial - carrying the same technical content under a scriptural name. It belongs to this world's export edge (Gaul, the 420s), not to the desert's own Greek-Coptic speech."
-  evidential: "Cassian's own Conference I makes purity of heart the immediate goal on which the kingdom-end depends, and his Institutes' ladder climbs from the fear of the Lord through purity of heart to its own further summit, the perfection of apostolic love, in his own words. As with everything from Cassian, this is Egyptian teaching remembered and written down decades later, in Latin, for Gaul."
+  informational: "Cassian's rendering of the ascetic goal for his Latin readers, anchored in 'Blessed are the pure in heart': a deliberate substitution for apatheia, whose Stoic sound had become controversial - carrying the same technical content under a scriptural name. It belongs to the tradition's later transmission into Gaul, in the 420s, not to the desert's own Greek-Coptic speech."
+  evidential: "Cassian's own Conference I makes purity of heart the immediate goal on which the kingdom-end depends - voiced there as his record of Abba Moses's teaching, not the elder's own verbatim words - and his Institutes' ladder, in Gibson's English rendering, climbs from the fear of the Lord through purity of heart to its own further summit, the perfection of apostolic love. As with everything from Cassian, this is Egyptian teaching remembered and written down decades later, in Latin, for Gaul."
   personal: "As Cassian's elders taught it: everything - fasting, vigils, solitude, labor - is instrument; the one target the eye keeps returning to is a heart clean enough to see God."
   translational: "For a modern hearer this phrase is the desert's own best translation of itself - what apatheia meant without the philosophy: a heart free enough to aim at one thing."
 quick_meaning: "Purity of heart - Cassian's name for the one goal all the discipline serves."
@@ -64,3 +64,19 @@ checked word for word" was verification-process vocabulary - the
 verification status already lives in the confidence block and both
 loci ("verified verbatim"); dropped from the sense and replaced with
 "in his own words," which does the same descriptive work in register.
+
+Step3a Review Round 5, Finding C1: the informational sense's "this
+world's export edge" was build-analytic vocabulary, sibling of the
+"compiler screen" family excised elsewhere - reworded to state the
+Gaul/420s transmission fact without the label.
+
+Step3a Review Round 5, Finding S4: the Round 4 fix's own "in his own
+words" wrongly credited the ladder's English to Cassian/Moses
+directly - the fifth consecutive illusory-fix recurrence this lexicon
+has caught, and the exact construction Round 4's own Finding C2 had
+just removed from antirrhesis in the same commit. Corrected per this
+world's Conferences source record's standing rule (a Conferences
+quote is voiced as Cassian's record of the elder, never the elder's
+own verbatim words) and the Institutes' own English credited to
+Gibson's translation, matching antirrhesis's and theoria's sibling
+clauses.

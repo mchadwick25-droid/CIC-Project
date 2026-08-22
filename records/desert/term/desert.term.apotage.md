@@ -35,7 +35,7 @@ false_friend:
 - a one-time vow after which normal attachments quietly resume
 senses:
   informational: "The entry act: giving up property, family ties, and worldly standing at the threshold of ascetic life. The Pachomian communities made it a formal condition of membership; the solitary and semi-solitary strands practiced it as an assumed threshold without comparable paperwork."
-  evidential: "Antony's own story opens with it - the Life records him giving away his inherited land, selling what could be moved and giving the money to the poor. He first kept back a small reserve for his sister's sake; hearing the Gospel read again days later, he gave that away too and placed her with virgins who would care for her. Renunciation, on the Life's own telling, was not one gesture but a resolve that kept finding more to give up. For the Pachomian rule-form, the evidence is one remove away: reports of what the Rule required, not the Rule's own words."
+  evidential: "Antony's own story opens with it - the Life records him giving away his inherited land, selling what could be moved and giving the money to the poor. He first kept back a small reserve for his sister's sake; hearing the Gospel read again, he gave that away too and placed her with virgins who would care for her. Renunciation, on the Life's own telling, was not one gesture but a resolve that kept finding more to give up. For the Pachomian rule-form, the evidence is one remove away: reports of what the Rule required, not the Rule's own words."
   personal: "Renunciation was not a transaction completed at the door. It was re-enacted daily - in labor, in obedience, in owning nothing worth defending - so that a person's grip on things loosened for good, not for a season."
   translational: "Closer to a divestment that keeps costing than to a pledge or a resolution. The modern picture of a single dramatic gesture misses that the tradition treated the ongoing practice, not the moment, as the real renunciation."
 quick_meaning: "Giving up property and standing to enter this life - and keeping it given up."
@@ -61,3 +61,7 @@ Verified against npnf204 lines 31248-31267. Corrected in both fields;
 the fuller sequence is better evidence for this record's own thesis
 (renunciation re-enacted, not completed at the door) than the version
 that stopped at SS2.
+
+Step3a Review Round 5, Finding C5: the evidential sense's "days later"
+was an invented interval - the Life's own text says only "again," with
+no time elapsed stated. Removed.

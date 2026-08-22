@@ -14,12 +14,16 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS2-14 (the staged withdrawal), SS49-50 (the inner mountain)"
+  locus: "SS2-14 (the staged withdrawal), SS46-47 (withdrawal as the daily-martyrdom successor once persecution ended, anchored by desert.search.white-martyrdom-citation), SS49-50 (the inner mountain)"
   license: public-domain
 - source_id: desert.source.apophthegmata-patrum
   locus: "passim (the tradition's organizing act)"
 - source_id: desert.source.kellia-excavations
   locus: "settlement pattern corroboration"
+- source_id: desert.source.nepheros-archive
+  locus: "documentary corroboration of settlement embeddedness (Melitian community; representativeness a working assumption, not settled)"
+- source_id: desert.source.goehring-ascetics
+  locus: "the embeddedness thesis - settlements on marginal-but-not-remote land with real village trade ties; cited jointly with Kellia and Nepheros per this world's standing rule, not alone"
 retrieval:
   tier: 1
   retrieve_when:
@@ -57,3 +61,14 @@ Re-derived from Doc_06 SS1.1 (Tier 1; tags AS TC RT DR; anchors gravity
 evidential sense deliberately - the tension with the world's own
 rhetoric is gravity 8's territory and is stated, not smoothed. Related
 Terms carried from Doc_06's cleared 24-edge reciprocity graph.
+
+Step3a Review Round 5, Finding S3: the evidential sense's embeddedness
+claim paraphrased Goehring's thesis near-verbatim without registering
+him, against this world's standing rule that embeddedness claims cite
+Kellia + Nepheros + Goehring jointly, never Goehring alone or
+unregistered; and the personal sense's martyrdom-successor claim
+carried no locus for it. Both fixed by registering the missing sources
+above - Nepheros and Goehring alongside the already-present Kellia,
+and the Vita SS46-47 locus already anchored by
+desert.search.white-martyrdom-citation - rather than by rewording
+claims the sources already supported.
