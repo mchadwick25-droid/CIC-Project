@@ -1,0 +1,4 @@
+id: syr.dw.f1-i-god
+canon_cells: F1-I
+
+This world believed in one God, maker of all things, good and just in the same person - and it believed this out loud, against neighbors who taught otherwise. Against Marcion it held that the Maker of this world is the Father of Jesus, not a lesser or harsher god. Against Bardaisan it held that God made all things from nothing - not from eternal elements that happened into order. Against Mani it refused a world split between two powers. And with Bardaisan, notably, it agreed on one great point: the stars do not rule us; free will is God's gift and cannot be compelled. What did they argue about among themselves? Exactly these things - creation, freedom, the body's worth, the resurrection - argued in the same streets, often in the same verse-forms, against teachers everyone knew by name.

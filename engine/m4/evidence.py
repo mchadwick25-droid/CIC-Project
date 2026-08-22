@@ -36,6 +36,7 @@ beyond-the-seed expansion this module performs, and it is exactly the
 gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
+from engine.m1.canon import cell_keywords
 from engine.m1.gates_experimental import _all_text, _content_words
 from engine.m4.grounding_net import scope_completion
 
@@ -140,11 +141,7 @@ def match_asks_to_cells(*, message: str, asks: list[dict] | None, canon_question
     if not query_words:
         return []
 
-    cell_words: dict[str, set[str]] = {}
-    for record in canon_questions.values():
-        if record.get("record_type") != "canon_question" or not record.get("cell"):
-            continue
-        cell_words.setdefault(record["cell"], set()).update(_content_words(record.get("text") or ""))
+    cell_words = cell_keywords(canon_questions)
 
     scored = []
     for cell, words in cell_words.items():
