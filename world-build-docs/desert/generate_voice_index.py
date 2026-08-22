@@ -34,12 +34,23 @@ def check_required_set(demos):
         missing.append(f"center cell(s) not demonstrated: {', '.join(center_missing)}")
 
     ic_demos = {k: r for k, r in demos.items() if "identity-collision" in (r.get("tags") or [])}
-    ic_cells = Counter(c for r in ic_demos.values() for c in (r.get("canon_cells") or [])
-                        if c in ("F6-P", "F6-T"))
+    # Count DISTINCT records per required cell, not raw canon_cells occurrences -
+    # a record listing the same cell twice in canon_cells must not inflate the count.
+    ic_cells = Counter()
+    for cell in ("F6-P", "F6-T"):
+        ic_cells[cell] = sum(1 for r in ic_demos.values() if cell in (r.get("canon_cells") or []))
     for cell, needed in REQUIRED_IDENTITY_COLLISION.items():
         have = ic_cells.get(cell, 0)
         if have < needed:
             missing.append(f"identity-collision {cell}: need {needed}, have {have}")
+
+    NON_JUDGMENT_MARKER = "not here to judge you"
+    ic_with_marker = [k for k, r in ic_demos.items()
+                       if any(NON_JUDGMENT_MARKER in (turn.get("text") or "")
+                              for turn in (r.get("exchange") or []))]
+    if not ic_with_marker:
+        missing.append(f"no identity-collision demonstration's exchange actually contains the "
+                        f"sanctioned self-naming line (looked for '{NON_JUDGMENT_MARKER}')")
 
     honest_limit_demos = {k: r for k, r in demos.items() if "honest-limit" in (r.get("tags") or [])}
     if not honest_limit_demos:
@@ -50,10 +61,12 @@ def check_required_set(demos):
         missing.append("no lament exchange (tags: [lament])")
 
     lines = []
-    lines.append(f"- **Center cells covered:** {', '.join(sorted(center_present)) or 'NONE'} "
-                 f"of {', '.join(REQUIRED_CENTER_CELLS)} (spec requires center cells first)")
+    lines.append(f"- **Center cells covered:** {len(center_present)}/{len(REQUIRED_CENTER_CELLS)} "
+                 f"({', '.join(sorted(center_present)) or 'NONE'}) - spec requires all of "
+                 f"{', '.join(REQUIRED_CENTER_CELLS)}, center cells first")
     lines.append(f"- **Identity-collision demonstrations:** {len(ic_demos)} "
-                 f"({', '.join(sorted(ic_demos))}) - spec requires F6-P x2, F6-T x1 before any world opens")
+                 f"({', '.join(sorted(ic_demos))}) - spec requires F6-P x2, F6-T x1 before any world "
+                 f"opens; {len(ic_with_marker)} of these actually carry the sanctioned self-naming line")
     lines.append(f"- **Honest-limit-in-voice demonstration(s):** {', '.join(sorted(honest_limit_demos)) or 'NONE'}")
     lines.append(f"- **Lament exchange(s):** {', '.join(sorted(lament_demos)) or 'NONE'}")
     if missing:
@@ -63,8 +76,8 @@ def check_required_set(demos):
             lines.append(f"- {m}")
     else:
         lines.append("")
-        lines.append("- Required set complete - see \"Checked and found sound\" pattern: this line only "
-                     "renders when the check above actually passed, not by default.")
+        lines.append("- Required set complete: every check above passed against what is actually "
+                      "on disk (canon_cells, tags, and exchange text), computed fresh each run.")
 
     return lines, missing, ic_demos, honest_limit_demos, lament_demos
 

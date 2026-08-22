@@ -18,6 +18,8 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS2-3 - scripture heard and acted on directly, the pattern this witness generalizes from"
   license: public-domain
+- source_id: desert.source.evagrius-praktikos
+  locus: "the Antirrhetikos - scripture collected and deployed against tempting thoughts, consult-only"
 canon_question_id: _fleet.canon.c-e-01
 exchange:
 - speaker: participant
@@ -31,3 +33,10 @@ answers the negative claim honestly first (nothing beyond the common
 Scriptures) before the more interesting positive answer (how they were
 used), matching that record's own structure and register statement 1
 (the first sentence answers the first ask).
+
+Step5, Round 1 review Finding S8: the turn's own "collecting verses into
+a weapon to speak back to a tempting thought" clause carries
+desert.dw.c-e-writings's own Antirrhetikos content, but this record's
+sources[] had listed only the two sources that clause's own parent
+record cites for its other claims, dropping desert.source.evagrius-
+praktikos, the one source that actually grounds it - added above.

@@ -21,7 +21,7 @@ relations:
   target: desert.story.antony-call
 - type: associated-with
   target: desert.story.antony-withdrawal
-text: "An outsider, I think, would have found the giving away strangest of all - not the praying, not even the fasting, but that a young man with land and inheritance enough to live comfortably gave it all away, in two separate visits to the church, and never went back for it. And then the disappearing: years spent inside an old fort with its entrance built up, seen by almost no one, while people gathered outside anyway, just to be near a wall with someone praying behind it. To most people that would look like throwing a life away. We understood it as the opposite - the only way left, once dying for the faith was no longer asked of anyone, to give the whole of a life rather than a part of it."
+text: "An outsider, we think, would have found the giving away strangest of all - not the praying, not even the fasting, but that a young man with land and inheritance enough to live comfortably gave it all away, in two separate visits to the church, and never went back for it. And then the disappearing: years spent inside an old fort with its entrance built up, seen by almost no one, while people gathered outside anyway, just to be near a wall with someone praying behind it. To most people that would look like throwing a life away. We understood it as the opposite - the only way left, once dying for the faith was no longer asked of anyone, to give the whole of a life rather than a part of it."
 positions:
 - "total renunciation of property, given away in two distinct steps rather than a single act"
 - "years of near-total physical seclusion, sought rather than avoided"
@@ -49,3 +49,10 @@ interval given, nothing ruling out a longer gap. Removed from `text`,
 `positions[0]`, `sources[0].locus`, and this note; the record now
 states only what the Vita itself supports - two separate visits, no
 stated interval between them.
+
+Step5, Round 1 review Finding S6: this compiled text still opened "An
+outsider, I think, would have found..." - a bare narratorial first
+person with no quoted figure nearby, against the fleet's own strict
+we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
+desert.voice.craft's own flavor_notes). Corrected to "An outsider, we
+think, would have found..."

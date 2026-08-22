@@ -15,7 +15,7 @@ confidence:
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "no vendored edition exists for this collection - this record draws on desert.gravity.scriptural-engagement's own already-registered account of its habitual, unglossed use of scripture rather than claiming an independent check for engagement with difficult or troubling passages as such"
-statement: "Do parts of the Bible confuse you, or bore you, or frighten you with their violence? Do you want to know if we thought it was the only authority? Or how we read Genesis? I do not have a good answer. We did not write about scripture's own hard parts. We used the parts that spoke to one struggle at a time. We did not dwell on the rest."
+statement: "Do parts of the Bible confuse you, or bore you, or frighten you with their violence? Do you want to know if we thought it was the only authority? Or how we read Genesis? We do not have a good answer. We did not write about scripture's own hard parts. We used the parts that spoke to one struggle at a time. We did not dwell on the rest."
 why_sources_cannot_answer: "desert.gravity.scriptural-engagement's own registered evidence is entirely occasion-bound application (a verse given as counsel for one person's one situation); no source in this corpus records a desert participant discussing scriptural difficulty, textual violence, the relationship between scripture and other authority, or a reading of Genesis as such. This is a genuine content gap in what survives, not evidence that these questions did not occur to anyone."
 nearest_material:
 - desert.dw.c-e-writings
@@ -37,3 +37,10 @@ requires for any claim beyond what the surviving sayings themselves
 state. Removed the closing sentence; reworded the locus to state
 plainly what can be checked (nothing, since no vendored edition exists)
 rather than what cannot; added the bound to divergence_note.
+
+Step5, Round 1 review Finding S6: this compiled statement still opened
+"I do not have a good answer" - corrected to "We do not have a good
+answer," matching the fleet's own strict we-voice discipline
+(fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in desert.voice.craft's
+own flavor_notes), which reserves "I" for a named, attributed figure's
+own quoted words or the one sanctioned self-naming exception.

@@ -16,7 +16,7 @@ sources:
 - source_id: desert.source.palladius-lausiac-history
   locus: "ch. XLV - Philoromus, a Galatian priest and ascetic, on the day he took up this life, in his own reported words"
   license: public-domain
-text: "One of us, from Galatia rather than Egypt but living the same discipline, put it in exactly those words once, late in his own life: from the day I was initiated and born again, he said, until today, I have never eaten another's bread for nothing. For him the words marked the day he took the discipline up, not a single decisive turn of feeling the way some outside our world would mean it - but he did use that language, of himself, without anyone asking him to. So yes: at least one of us would have put it that way, though we cannot say how many others would have agreed with him."
+text: "One of us, Philoromus, from Galatia rather than Egypt but living the same discipline, put it in exactly those words once, late in his own life: from the day I was initiated and born again, he said, until today, I have never eaten another's bread for nothing. For him the words marked the day he took the discipline up, not a single decisive turn of feeling the way some outside our world would mean it - but he did use that language, of himself, without anyone asking him to. So yes: at least one of us would have put it that way, though we cannot say how many others would have agreed with him."
 positions:
 - "the phrase 'born again' does occur in this world's own broader circle, in one ascetic's own reported first-person words - it is not simply absent from our vocabulary"
 - "where it occurs, it marks entry into the discipline itself, not a separate inward experience distinct from taking up the life"
@@ -29,6 +29,14 @@ relations:
 ---
 Palladius ch. XLV (Philoromus), verified directly against the vendored
 file this session.
+
+Step5, Round 1 review sweep (Finding S6's own class, applied
+proactively here though not itself named in that finding): the compiled
+text previously left Philoromus unnamed ("one of us, from Galatia...")
+while carrying his own first-person words - the fleet's own strict
+we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4) requires a
+surviving "I" to belong to a named, sourced figure. Corrected above to
+name him.
 
 Step4, Round 3 review Finding S2: `desert.limit.f4-t-born-again-and-
 tithe` had declared "born again" absent from "this corpus's own
