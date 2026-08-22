@@ -24,6 +24,10 @@ relations:
   target: pahc.gravity.martyrdom-meaning
 - type: associated-with
   target: pahc.gravity.liturgical-practice
+- type: associated-with
+  target: pahc.force.state-pressure
+- type: associated-with
+  target: pahc.force.contemporary-rival-movements
 name: "Boundary-Drawing Against Contemporary Rival Movements - anti-docetic polemic [TENSIONAL, Strand A only]"
 description: "Refusing those who say the Lord's flesh was only appearance. The refusal is urgent, and
   it is not the same in every household - it belongs most sharply to the communities with one overseer.

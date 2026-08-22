@@ -31,6 +31,12 @@ relations:
   target: pahc.gravity.state-pressure
 - type: associated-with
   target: pahc.gravity.martyrdom-meaning
+- type: associated-with
+  target: pahc.force.roman-mediterranean-world
+- type: associated-with
+  target: pahc.force.neronian-persecution
+- type: associated-with
+  target: pahc.force.transmission-network
 name: "Translocal Correspondence Network [PRIMARY]"
 description: "Letters carried between churches - what holds this world together across cities, in
   place of any central structure, and what intensifies rather than fractures under pressure. SIX-TEST

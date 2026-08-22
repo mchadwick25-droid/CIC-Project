@@ -28,6 +28,10 @@ relations:
   target: pahc.gravity.authority-consolidation
 - type: associated-with
   target: pahc.gravity.boundary-drawing
+- type: associated-with
+  target: pahc.force.authority-consolidation
+- type: associated-with
+  target: pahc.force.boundary-drawing
 name: "Liturgical Practice (Eucharist) as Site of Variation and Convergence [PRIMARY]"
 description: "Giving thanks over bread and cup - it forms this world more than anything else its
   communities do, and its order genuinely varies from house to house. The table is what is constant,

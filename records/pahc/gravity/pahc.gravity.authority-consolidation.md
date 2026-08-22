@@ -37,6 +37,14 @@ relations:
   target: pahc.gravity.liturgical-practice
 - type: associated-with
   target: pahc.gravity.martyrdom-meaning
+- type: associated-with
+  target: pahc.force.neronian-persecution
+- type: associated-with
+  target: pahc.force.apostolic-testimony-inheritance
+- type: associated-with
+  target: pahc.force.state-pressure
+- type: associated-with
+  target: pahc.force.monepiscopacy-consolidation
 name: "Authority Consolidation - the episkopos/presbyteros/diakonos question [SUPPORTING]"
 description: "Who leads, and how leadership is secured once those who walked with the Lord are gone.
   One overseer with elders beside him in some households (Antioch, the cities of Asia Minor); a council
