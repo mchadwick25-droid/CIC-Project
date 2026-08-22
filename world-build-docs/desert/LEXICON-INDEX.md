@@ -11,14 +11,14 @@
 | # | Term (record slug) | Tier | AS | SC | DR | TC | RT | PV | CT | canon_cells | False friends (aliases) | Related terms | Key sources (registry ids) | Author-gravity risk |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | anachoresis | 1 | y | – | y | y | y | – | – | F4-I, F5-P | retreat-as-escape; vacation | apotage, xeniteia, kellion, hesychia, cheironaxia, geron-abba-amma | vita-antonii; apophthegmata; palladius; kellia; nepheros; goehring | no (multi-stream; Nepheros stream caveated, Goehring consult-only with open verification bound) |
-| 2 | apotage | 2 | – | y | – | y | y | – | – | F4-I, F5-T | one-time vow | anachoresis, koinonia | vita-antonii; pachomian-corpus | no |
+| 2 | apotage | 2 | – | y | – | y | y | – | – | F4-I, F5-T | one-time vow | anachoresis, koinonia | vita-antonii; pachomian-corpus; rousseau-pachomius | single corpus (Pachomian, consult-only scholarship channel) — flagged |
 | 3 | hesychia | 1 | – | y | y | – | y | – | – | F4-P | mindfulness; hesychast method | anachoresis, nepsis, diakrisis | vita-antonii; apophthegmata | no |
 | 4 | logismoi | 1 | y | – | y | y | y | y | – | F4-P | clinical symptom; distractions | diakrisis, apatheia, antirrhesis, theoria, nepsis | vita-antonii; evagrius; apophthegmata | taxonomy: single-author (Evagrius) — flagged |
 | 5 | diakrisis | 1 | – | y | – | y | y | – | – | F4-I | trusting your gut; intuition | geron-abba-amma, logismoi, hesychia, nepsis, penthos, apophthegma | apophthegmata; cassian-conferences | no (cross-elder) |
 | 6 | geron-abba-amma | 1 | – | y | – | – | y | y | – | F3-I, F6-P | life coach; formal office | diakrisis, koinonia, apophthegma, anachoresis | apophthegmata; palladius | amma material thin — flagged |
-| 7 | cheironaxia | 1 | y | – | – | y | y | – | – | F5-I, F5-T | menial day-job | anachoresis | vita-antonii; palladius; nepheros; kellia | no (3 evidence types; Nepheros stream caveated - Melitian, intermediary organization, distant) |
+| 7 | cheironaxia | 1 | y | – | – | y | y | – | – | F5-I, F5-T | menial day-job | anachoresis | vita-antonii; palladius; nepheros; kellia; goehring | no (3 evidence types; Nepheros stream caveated - Melitian, intermediary organization, distant; Goehring consult-only with open verification bound) |
 | 8 | apophthegma | 1 | y | – | – | y | y | – | – | F2-E | quotable aphorism; soundbite | geron-abba-amma, diakrisis | apophthegmata; burton-christie | compiler layer — flagged |
-| 9 | koinonia | 1 | – | y | – | y | y | y | – | F3-I | loose fellowship; any monastery | apotage, geron-abba-amma | pachomian-corpus; palladius; sozomen | single corpus (Pachomian) — flagged |
+| 9 | koinonia | 1 | – | y | – | y | y | y | – | F3-I | loose fellowship; any monastery | apotage, geron-abba-amma | pachomian-corpus; palladius; sozomen; rousseau-pachomius | single corpus (Pachomian) — flagged |
 | 10 | xeniteia | 2 | y | – | y | – | – | y | – | F5-P | travel; tourism | anachoresis | apophthegmata | no |
 | 11 | apatheia | 2 | y | – | y | y | – | y | **y** | F4-P | apathy | logismoi, theoria, antirrhesis, puritas-cordis | evagrius; rubenson; gould | single-author (Evagrius) — flagged |
 | 12 | theoria | 2 | y | – | y | y | – | y | – | F4-I | theory | apatheia, logismoi | evagrius | single-author — flagged |
@@ -118,8 +118,11 @@ Step3a Review Round 5 (`world-build-docs/desert/reviews/Step3a_Review_Round5.md`
 found two more jargon survivors outside any prior sweep's named
 strings (puritas-cordis's "export edge," sibling of "compiler screen";
 antirrhesis's "checked," the verb Rounds 3-4 excised from its two
-sibling clauses but left standing here) and confirmed all 15 vendored
-loci accurate in full context - locus-verification is now complete.
+sibling clauses but left standing here) and confirmed the 15 vendored
+loci then on record accurate in full context, as of that round's own
+count (new sources registered in later rounds add further vendored
+loci, checked at the round that adds them - this count is not
+re-asserted as a running total going forward).
 Four substantial findings, two of them Round 4's own illusory-fix
 recurrences: cheironaxia's Round-4 fix had invented "a nearby
 community" for Nepheros, when the archive's community actually sat
@@ -174,6 +177,38 @@ index cells (anachoresis's key-sources and author-gravity) updated to
 match its now six-source record; puritas-cordis's index cells matched
 to "export screen," the label the apparatus itself actually uses,
 since the record's own "export edge" was excised in Round 5.
+
+Step3a Review Round 7 (`world-build-docs/desert/reviews/Step3a_Review_Round7.md`)
+independently re-confirmed the jargon pattern clear on a second cold
+read of all 72 sense fields plus 108 other compiled-facing fields, and
+re-verified Round 6's four fixes against the underlying sources rather
+than the diff (Palladius XXXII/Sozomen III.14 read in full again;
+Doc_02 SS5.2 re-opened for the wording-inversion fix). What it found
+was the same "fix where written, not swept to the sibling" signature
+one layer deeper, plus two standing-rule sweeps no prior round had
+run to completion: anachoresis's own new Nepheros row (added in the
+commit that fixed cheironaxia's missing second caution) carried only
+the first of that source's two mandatory cautions - added; the
+Round-6 apotage fix moved its claim onto "modern scholarship" without
+registering any scholarship source, though desert.source.rousseau-
+pachomius names itself as exactly that authority - registered on
+apotage and, for the identical pre-existing gap, on koinonia; Goehring's
+own source record says his verification bound "travels with every
+citation," and neither citing record (anachoresis, cheironaxia) carried
+it - added to both, alongside the almsgiving claim cheironaxia's own
+Goehring locus had over-attributed to him (corrected to his source
+record's actual wording). Two directions swept for the first time:
+the Apophthegmata's own "compiler screen" standing rule, honored by
+only 3 of the 10 records citing that source - added to the two records
+where the gap sat on a live claim (diakrisis's cross-settlement
+recurrence, geron-abba-amma's structure-as-evidence); and a "three
+removes from the Coptic" count that had attached to the wrong link in
+the Pachomian transmission chain, corrected against Doc_02 SS1.2's own
+stated chain. Cosmetic: anachoresis's and apotage's index cells
+updated for their newly-registered sources; the Round-5 paragraph's
+"locus-verification is now complete" line reworded, since a later
+round's own new registrations had already made the count stale by the
+time it was written.
 
 ## Author-gravity column basis
 

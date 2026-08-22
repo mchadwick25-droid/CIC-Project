@@ -24,7 +24,7 @@ sources:
 - source_id: desert.source.kellia-excavations
   locus: "commercial infrastructure at the settlements"
 - source_id: desert.source.goehring-ascetics
-  locus: "the embeddedness thesis - labor tied the settlements to village markets and funded alms beyond them; cited jointly with Kellia and Nepheros per this world's standing rule, not alone"
+  locus: "the embeddedness thesis - settlements on marginal-but-not-remote land with real village trade ties; cited jointly with Kellia and Nepheros per this world's standing rule, not alone; his specific claims carry an open verification bound (Doc_01 SS11 item 6) that travels with every citation"
 retrieval:
   tier: 1
   retrieve_when:
@@ -101,3 +101,16 @@ distinct in most day-to-day respects - only in ecclesial allegiance.
 Reworded to the caution the record's evidential sense already states
 correctly: the community's own editors read its organization as
 intermediary, not a clean fit to this world's three strands.
+
+Step3a Review Round 7, Finding C4: the Goehring locus attributed to him
+a claim his own source record does not make - "funded alms beyond
+them." Goehring's thesis is village trade ties from labor; the
+labor-almsgiving cycle is this build's own synthesis (Doc_05 SS7),
+stated there as merely consistent with Goehring's critique, not his own
+claim. Corrected to match his source record's actual wording, the same
+phrasing already used on anachoresis's sibling locus.
+
+Step3a Review Round 7, Finding S4: Goehring's own source record states
+his specific claims carry an open verification bound that "travels
+with every citation"; this record's locus carried the joint-citation
+half of the standing rule but not the bound. Added.

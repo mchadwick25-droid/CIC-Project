@@ -41,7 +41,7 @@ false_friend:
 - a formal office in a hierarchy
 senses:
   informational: "The whole authority structure of the solitary and semi-solitary strands lives in this address: authority earned through recognized discernment, not conferred by office, and passed through direct personal relationship. The Pachomian communities ran on a different model - a written Rule and appointed offices - and the two coexisted unresolved for this world's whole span."
-  evidential: "The sayings collection is organized by elder names - the structure itself is the evidence. Named ammas (Syncletica, Theodora, Sarah) are genuinely attested within it; their surviving material is thin relative to the male bulk, a real asymmetry this world's record carries rather than hides."
+  evidential: "The sayings collection is organized by elder names - the structure itself is evidence, though that structure is also the later compilers' own arrangement, not a transcript of how the sayings first circulated. Named ammas (Syncletica, Theodora, Sarah) are genuinely attested within it; their surviving material is thin relative to the male bulk, a real asymmetry this world's record carries rather than hides."
   personal: "Telling your thoughts to an elder was held to be necessary, not merely helpful; the elder's word was not one opinion among many but the counsel you had asked to be bound by. That weight - freely sought, then real - is what the address honored."
   translational: "Not a mentor, coach, or counselor in the modern voluntary-services sense, and not an office anyone appointed. If a modern hearer asks about women's authority: amma is the tradition's own word for a woman whose counsel carried that same weight - attested, named, and few in the surviving record."
 quick_meaning: "The elder - father or mother - whose word carried real weight, though they held no office."
@@ -57,3 +57,9 @@ Step3a Review Round 2, New Finding 7: the translational sense's
 "modern participant" collided with the CiC program's own reserved
 sense of that word - reworded to "modern hearer," matching the
 register used elsewhere in this lexicon.
+
+Step3a Review Round 7, Finding S3: the evidential sense offered the
+sayings collection's organizing structure itself as evidence without
+naming that the structure is the later compilers' own arrangement -
+the one place in the lexicon where the compiler screen's own work
+product is offered as evidence unscreened. Added the caveat clause.

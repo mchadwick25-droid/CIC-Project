@@ -21,6 +21,8 @@ sources:
 - source_id: desert.source.sozomen-historia-ecclesiastica
   locus: "III.14 (the rule summary at one remove)"
   license: public-domain
+- source_id: desert.source.rousseau-pachomius
+  locus: "the named modern authority for Rule-content claims resting on consult-only scholarship, per this world's standing rule"
 retrieval:
   tier: 1
   retrieve_when:
@@ -68,3 +70,10 @@ B" and the do_not_retrieve fence's "Strand B's own name" both used
 this build's own lettered taxonomy with no legend in the field -
 reworded to name the Pachomian federation directly, which is what the
 sentences already meant.
+
+Step3a Review Round 7, Finding S2 (unswept sibling): the evidential
+sense's "alongside modern scholarship on the Latin" named no
+scholarship source, the same gap Round 7 found and fixed on apotage.
+desert.source.rousseau-pachomius, registered there as the named
+authority for exactly this, registered here too - no rewording needed,
+since the sentence already meant this source.

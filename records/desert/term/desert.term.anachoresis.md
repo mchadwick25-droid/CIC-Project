@@ -19,14 +19,14 @@ sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "passim (the tradition's organizing act)"
 - source_id: desert.source.palladius-lausiac-history
-  locus: "ch. VII, VIII, XVIII (withdrawal as the ordinary shape of settlement life at Nitria, Kellia, and the wider desert)"
+  locus: "ch. VII, XVIII (withdrawal as the ordinary shape of settlement life at Nitria and Kellia), ch. VIII (Amoun's own founding withdrawal into Nitria, before any monastery stood there)"
   license: public-domain
 - source_id: desert.source.kellia-excavations
   locus: "settlement pattern corroboration"
 - source_id: desert.source.nepheros-archive
-  locus: "documentary corroboration of settlement embeddedness (Melitian community; representativeness a working assumption, not settled)"
+  locus: "documentary corroboration of settlement embeddedness (Melitian community; representativeness a working assumption, not settled; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, a fit that this world's own three strands do not settle either)"
 - source_id: desert.source.goehring-ascetics
-  locus: "the embeddedness thesis - settlements on marginal-but-not-remote land with real village trade ties; cited jointly with Kellia and Nepheros per this world's standing rule, not alone"
+  locus: "the embeddedness thesis - settlements on marginal-but-not-remote land with real village trade ties; cited jointly with Kellia and Nepheros per this world's standing rule, not alone; his specific claims carry an open verification bound (Doc_01 SS11 item 6) that travels with every citation"
 retrieval:
   tier: 1
   retrieve_when:
@@ -84,3 +84,24 @@ commit's own Round 5 fix addressed for Goehring, unswept to the one
 other unregistered name sitting in the same sentence. Registered above
 (ch. VII, VIII, XVIII, all attesting withdrawal as settlement life's
 ordinary shape).
+
+Step3a Review Round 7, Finding S1: the Nepheros row carried only the
+first of that source's two mandatory standing cautions - the identical
+gap Round 5 found and fixed on cheironaxia, unswept here in the same
+commit that gave this record its Nepheros row. The second caution
+(organizationally intermediary, not a clean fit to this world's three
+strands) now added to match cheironaxia's model.
+
+Step3a Review Round 7, Finding S4: Goehring's own source record states
+his specific claims carry an open verification bound that "travels
+with every citation"; neither this record's nor cheironaxia's Goehring
+row carried it, though this record's own index row asserted it
+independently. Added to the locus above.
+
+Step3a Review Round 7, Finding C5: the Palladius locus's parenthetical
+claimed all three cited chapters show withdrawal as settlement life's
+"ordinary shape." Ch. VIII, read in full, is Amoun's own founding
+withdrawal into Nitria and says the opposite of ordinary for its own
+moment ("there were no monasteries there yet") - the chapter still
+attests withdrawal, so the citation itself was sound, but the
+parenthetical over-reached. Split to describe ch. VIII on its own terms.
