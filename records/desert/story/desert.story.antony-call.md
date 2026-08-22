@@ -42,8 +42,8 @@ desert.force.village-ascetic-culture already cite and this build has
 independently verified twice). The second Gospel hearing ("do not be
 anxious about tomorrow") and the placement of Antony's sister are added
 here from the same passage (SS3), not present in Doc_09a's own telling,
-to keep the story's own closing action (entering formation "under the
-guidance of an old man already living that way nearby") connected to
+to keep the story's own closing action (entering formation near an old
+man already living that way nearby) connected to
 desert.force.village-ascetic-culture's own trace without introducing a
 second, separately-cited story.
 

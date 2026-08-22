@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.moses-leaking-jug's own rating - Inferential/Thin for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound. No vendored edition exists for this source; license is paraphrase-only, per that source's own hard rule."
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Moses, Alphabetical Collection - a widely attested saying of Abba Moses's; no vendored edition exists, so this is a plain-English restatement rather than a verbatim rendering"
+  locus: "Moses, Alphabetical Collection - a widely attested saying of Abba Moses's, given here in plain English rather than a specific published translation's own wording"
 text: "My own sins run out behind me the same way, and I do not see them - and today I am coming to judge another man's fault."
 speaker_or_author: "Abba Moses"
 license: paraphrase-only
@@ -45,3 +45,9 @@ locus above previously named a sibling record id and described itself
 in build-process terms ("in this record's own words rather than a
 verbatim rendering"); reworded to a plain description carrying the same
 information without either.
+
+Step4, Round 3 review Finding M6: the M8 fix still left "vendored" and
+a licence-mechanics gloss ("rather than a verbatim rendering") in this
+compiled field - "vendored" is the head of the jargon family Step 3a
+spent five rounds excising from compiled-facing fields. Reworded above
+to plain description with neither.

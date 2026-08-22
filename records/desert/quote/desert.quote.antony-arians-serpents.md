@@ -17,7 +17,7 @@ sources:
   locus: "SS68 - Antony's own rejection of Melitian communion and, when Arians came to him, his response driving them away"
   license: public-domain
 text: "He drove them from the mountain, saying that their words were worse than the poison of serpents."
-speaker_or_author: desert.figure.antony
+speaker_or_author: "Athanasius, narrating Antony's own action - not Antony's own reported speech"
 license: verbatim
 relations:
 - type: associated-with
@@ -48,3 +48,16 @@ canon_cells had also claimed F1-T, a cell (original sin; the bread and
 cup; faith alone) this quote answers none of - removed, leaving F3-T,
 a genuine fit. Finding C2: the locus "SS68-69" covered two acts both
 narrated at SS68 alone - corrected.
+
+Step4, Round 3 review Finding S3: speaker_or_author previously named
+desert.figure.antony directly, though the compiled text is Athanasius's
+own third-person narration of Antony's action ("he drove them..."), not
+Antony's reported speech - the narrator/actor confusion this build has
+now charged three times elsewhere (desert.force.melitian-rivalry,
+desert.dw.f3-p-melitian-power, desert.dw.c-p-someone-like-me), landing
+this time in a compiled identity field for the corpus's sole coverage
+of F3-T. Corrected to name the narrator, matching the convention
+desert.quote.pachomius-angel-tablet and desert.quote.arsenius-flee-
+tace-quiesce already use for a non-standard speaker; the words
+themselves remain verbatim and the associated-with relation to
+desert.figure.antony is kept, since the action narrated is still his.
