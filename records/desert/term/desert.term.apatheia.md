@@ -41,7 +41,7 @@ false_friend:
 - apathy (not caring)
 senses:
   informational: "In Evagrius's systematized scheme, the achieved state the practical life aims at: freedom from disordered passion, preceding contemplation. In this technical sense it is Strand C's vocabulary - the wider movement hoped for interior peace without this word's philosophical machinery."
-  evidential: "The systematized sense rests on Evagrius's own writings, which survive but are not translated into any English this corpus can quote directly; his works are named and described by the historian Socrates, who quotes some of his sentences. A live scholarly contest touches the term's deepest root: Rubenson reads the Letters of Antony as philosophically literate and Origenist-leaning - which would put this register near the movement's founder - while Gould's published counter-position holds that reading overreaches. This world's own record carries the contest; it does not settle it."
+  evidential: "The systematized sense rests on Evagrius's own writings, which survive but have no English rendering to quote directly here; his works are named and described by the historian Socrates, who quotes some of his sentences. A live scholarly contest touches the term's deepest root: Rubenson reads the Letters of Antony as philosophically literate and Origenist-leaning - which would put this register near the movement's founder - while Gould's published counter-position holds that reading overreaches. The contest stands open, unsettled either way."
   personal: "The opposite of not caring: the capacity to be fully engaged without being owned by your reactions - reached, if at all, through years of combat with the thoughts, never assumed at the start."
   translational: "Never translate as apathy. 'Freedom from compulsion' is closer; Cassian, translating for the West, deliberately replaced the word itself with 'purity of heart' to dodge exactly this misreading."
 quick_meaning: "Freedom from the passions that drive you. Won slowly - and it is not apathy."
@@ -61,3 +61,8 @@ Step3a Review Round 1, Finding 7: Gould's counter-position was named in
 the evidential sense but not registered in sources[] - added
 (desert.source.gould-desert-fathers), so the load-bearing name does
 not float unregistered here either.
+
+Step3a Review Round 2, Finding 1 / New Finding 2: the Round 1 fix had
+removed "vendored"/"consult-only" but written in "this corpus can
+quote directly," the same banned family - reworded again to plain
+in-world evidence talk with no corpus self-reference.

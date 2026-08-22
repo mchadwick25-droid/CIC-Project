@@ -39,17 +39,20 @@ false_friend:
 - fellowship in the loose modern church sense
 - any monastery whatever
 senses:
-  informational: "The New Testament word for fellowship, taken by Pachomius as the proper name of a real institution: a federation of houses under one written rule, common property, formal offices (housemaster, steward), and a single head. By his death in 346 it held nine men's houses and two women's houses. It is the clearest strand-bound term in this lexicon - the solitary and semi-solitary strands have no equivalent."
+  informational: "The New Testament word for fellowship, taken by Pachomius as the proper name of a real institution: a federation of houses under one written rule, common property, formal offices (housemaster, steward), and a single head. By his death in 346 it held nine men's houses and two women's houses. It names Strand B alone - the solitary and semi-solitary life has no equivalent institution or word for it."
   evidential: "The Rule survives complete only in Jerome's Latin translation; no English of it can be quoted here directly. What can be told directly are the reports of it - Palladius's and Sozomen's rule summaries, both wrapped in the angel-tablet legend - alongside modern scholarship on the Latin. Every rule-content claim names which of these it rests on."
-  personal: "Joining the Koinonia meant a different obedience than sitting at an elder's feet: obedience to an office, whoever held it, inside a common life with a fixed rhythm. Participants felt it as a different kind of authority, not a formalized version of the same one."
+  personal: "Joining the Koinonia meant a different obedience than sitting at an elder's feet: obedience to an office, whoever held it, inside a common life with a fixed rhythm. Those who joined it felt a different kind of authority, not a formalized version of the same one."
   translational: "'Communal rule' undersells it: this was an institutional invention answering a real problem - how total formation could scale past one extraordinary hermit - and it sat in unresolved tension with the elder-model for this world's whole span."
 quick_meaning: "Pachomius's linked houses: one written rule, one head."
 ---
-Step3a Review Round 1, Finding 1: reworded the evidential sense to
-drop corpus-management vocabulary (vendorable/this corpus/consult-only)
-in favor of in-world evidence talk.
-
 Re-derived from Doc_06 SS1.9 (Tier 1 for Strand B specifically, per
 Doc_03 SS1.19 and gravity 6; tags SC TC RT PV). The strand-bound
 discipline lives in the do-not-retrieve fence. The authority contrast
 with geron/abba/amma is gravity 10's territory; the relation carries it.
+
+Step3a Review Round 1, Finding 1: reworded the evidential sense to
+drop corpus-management vocabulary (vendorable/this corpus/consult-only)
+in favor of in-world evidence talk. Step3a Review Round 2, New Finding
+2: the informational sense's "in this lexicon" and the personal
+sense's "Participants" (colliding with the CiC program's own reserved
+sense of that word) were both missed by the Round 1 sweep - reworded.

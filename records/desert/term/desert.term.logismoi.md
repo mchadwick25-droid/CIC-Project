@@ -49,12 +49,12 @@ senses:
   translational: "Not a clinical symptom and not superstition about the weather of the mind: whatever a modern reader holds about where such thoughts come from, this world's practice was to take each one seriously as an event, name it, and answer it."
 quick_meaning: "The unwanted thoughts a person battles - this world's real battlefield."
 ---
-Step3a Review Round 1, Finding 1: reworded the evidential sense to
-drop the record-self-reference "this record keeps distinct."
-
 Re-derived from Doc_06 SS1.4 (Tier 1; tags AS TC RT PV DR - the [DR]
 added at that document's own Round 1, carried). The [PV] discipline is
 load-bearing: the eight-fold taxonomy is Evagrian/Strand C
 (gravity 9), the lived experience is cross-strand (gravity 2) - the
 two registers are stated separately in every sense above, per the
 prior build's carefully-corrected distinction.
+
+Step3a Review Round 1, Finding 1: reworded the evidential sense to
+drop the record-self-reference "this record keeps distinct."

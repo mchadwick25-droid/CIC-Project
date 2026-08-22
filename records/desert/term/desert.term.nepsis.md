@@ -35,7 +35,7 @@ world_word: nepsis
 false_friend:
 - generic mindfulness
 senses:
-  informational: "The ongoing act of watching the mind - distinct from discernment, which judges what the watching finds. Rooted in shared Christian vocabulary ('be sober, be watchful'), most systematically developed in Strand C; as with stillness, the later Byzantine neptic tradition's full apparatus is not this world's."
+  informational: "The ongoing act of watching the mind - distinct from discernment, which judges what the watching finds. Rooted in shared Christian vocabulary (Peter's call to be sober and watch), most systematically developed in Strand C; as with stillness, the later Byzantine neptic tradition's full apparatus is not this world's."
   evidential: "Attested in the sayings and in Evagrius's corpus; the systematized register carries the same one-author concentration flag as the rest of his scheme."
   personal: "The point was to meet a thought at the door rather than after it had moved in - vigilance as a kindness to yourself, because everything is easier early."
   translational: "Not mindfulness as a calm-inducing practice: the watching here is a sentry's, oriented to a real adversary, and what it feeds is discernment, not relaxation."
@@ -44,3 +44,11 @@ quick_meaning: "Watching your own thoughts like a sentry - so you catch them ear
 Re-derived from Doc_06 SS2.5 (Tier 2; tags AS TC DR PV). Feeds
 diakrisis directly (Doc_06's own ecological-function line); shares
 hesychia's anti-retrojection fence.
+
+Step3a Review Round 2, New Finding 3: the informational sense had
+quoted 1 Peter 5:8 as 'be sober, be watchful,' a wording that matches
+no vendored English (the vendored WEB reads "Be sober and
+self-controlled. Be watchful."). Reworded as an unquoted reference
+rather than register a new scripture source mid-fix; a future pass may
+quote WEB verbatim and register it if the exact wording becomes
+load-bearing.

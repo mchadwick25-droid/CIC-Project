@@ -50,7 +50,7 @@ The Related-Terms graph is 24 symmetric edges (matching Doc_06's independently r
 
 *penthos* carries no canon_cells: no canon question maps to it tightly, and a loose thematic stretch would be forcing (its record body says so). It remains retrievable by its own retrieve_when.
 
-## Review Round 1 note (applied)
+## Review rounds note (applied)
 
 Step3a Review Round 1 (`world-build-docs/desert/reviews/Step3a_Review_Round1.md`)
 found the reciprocity graph, canon-cell mappings, and Doc_06 fidelity
@@ -66,6 +66,20 @@ its second false_friend; cheironaxia's world_word restored the Doc_06
 "Ergocheiron" alternate form; antirrhesis's translational sense softened
 an uncited claim; apatheia gained the Gould source registration matching
 its own evidential-sense citation.
+
+Step3a Review Round 2 (`world-build-docs/desert/reviews/Step3a_Review_Round2.md`)
+independently re-verified all seven Round 1 fixes and found the
+build-jargon sweep was NOT actually exhaustive: apatheia's own Round 1
+fix had traded "vendored/consult-only" for "this corpus," the same
+banned family, and two further pre-existing instances (koinonia's "in
+this lexicon," kellion's "no record here") had never been caught.
+Round 2 also found the Round-1 theoria rewrite had swapped a jargon
+problem for a factual overclaim (English-checkable coverage of the
+CONTEMPLATIVE stage specifically, which the vendored Socrates excerpt
+does not carry), a scripture quote in nepsis that matched no vendored
+wording, and several smaller punctuation/word-collision items. All
+fixed directly in the affected records; this note is now accurate to
+what the files actually contain, checked against them, not asserted.
 
 ## Author-gravity column basis
 

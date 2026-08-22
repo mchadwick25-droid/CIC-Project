@@ -39,11 +39,11 @@ senses:
   translational: "Not 'going to church' as a routine among routines. For the semi-solitary majority it was the only routine that gathered them at all - the seam that kept solitude from becoming isolation."
 quick_meaning: "The weekly gathering - vigil, worship, and a shared meal after six days alone."
 ---
-Step3a Review Round 1, Finding 1: reworded the evidential sense to
-drop "vendored, directly-checked" in favor of in-world evidence talk.
-
 Re-derived from Doc_06 SS2.6 (Tier 2; tags SC PV RT; retrieval tier 1
 here because the F3-I gathering question retrieves it directly).
 Strand attribution fenced both ways (Strand C's name; Strand B's
 different rhythm). Liturgical-content thinness (Doc_02 SS4/SS9)
 carried in the evidential sense.
+
+Step3a Review Round 1, Finding 1: reworded the evidential sense to
+drop "vendored, directly-checked" in favor of in-world evidence talk.

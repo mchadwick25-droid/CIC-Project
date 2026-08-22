@@ -36,7 +36,7 @@ false_friend:
 - just a room
 senses:
   informational: "The individual or small-group dwelling that gives the settlement of Kellia its very name: deliberately spare, spaced for solitude, the physical unit the whole semi-solitary pattern is built from - clusters of cells around shared church and service buildings."
-  evidential: "This world's best-excavated fact: over 1,500 identified structures at Kellia, from single cells to multi-room hermitages with attached oratories, plus communal-service clusters - direct physical corroboration of the pattern the texts describe. No specific structure can be tied to a specific named figure, and no record here tries."
+  evidential: "This world's best-excavated fact: over 1,500 identified structures at Kellia, from single cells to multi-room hermitages with attached oratories, plus communal-service clusters - direct physical corroboration of the pattern the texts describe. No specific structure can be tied to a specific named figure, and none is claimed here."
   personal: "The cell was teacher as much as shelter - the tradition's own remembered counsel holds that a cell, sat in, will teach a person everything. Its walls held a person still long enough to meet themselves."
   translational: "Not a cell in the carceral sense: no one was locked in, and leaving was always possible - which is exactly why staying meant something."
 quick_meaning: "The monk's small dwelling - spare, separate, and itself a teacher."
@@ -51,3 +51,7 @@ Step3a Review Round 1, Finding 2: the personal sense had put this
 paraphrase inside quotation marks, contradicting this note's own claim
 that it was not marked as a quotation - reworded as reported counsel,
 with no quotation marks, matching the paraphrase-only discipline.
+
+Step3a Review Round 2, New Finding 2: the evidential sense's "no
+record here tries" (a record self-reference) was missed by the Round 1
+sweep - reworded.

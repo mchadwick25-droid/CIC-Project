@@ -40,12 +40,12 @@ senses:
   translational: "Closer to a divestment that keeps costing than to a pledge or a resolution. The modern picture of a single dramatic gesture misses that the tradition treated the ongoing practice, not the moment, as the real renunciation."
 quick_meaning: "Giving up property and standing to enter this life - and keeping it given up."
 ---
-Step3a Review Round 1, Finding 1: reworded the evidential sense to
-drop "the Rule's own vendorable text" in favor of in-world evidence talk.
-
 Re-derived from Doc_06 SS1.2 (Tier 1 there on the central-conceptual-
 clusters criterion, not a gravity anchor - Doc_06's Tier-composition
 note; retrieval tier 2 here reflects supporting rather than core
 retrieval weight, recorded as a deliberate divergence from the old
 lexicon tier). Strand-B codification vs A/C assumed-threshold contrast
 carried.
+
+Step3a Review Round 1, Finding 1: reworded the evidential sense to
+drop "the Rule's own vendorable text" in favor of in-world evidence talk.

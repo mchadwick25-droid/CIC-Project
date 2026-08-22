@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS3 ('he worked with his hands... part he spent on bread and part he gave to the needy', file lines ~31290-31300)"
+  locus: "SS3 ('He worked, however, with his hands... part he spent on bread and part he gave to the needy', file lines ~31290-31300)"
   license: public-domain
 - source_id: desert.source.palladius-lausiac-history
   locus: "ch. VII (Nitria: 'All these men work with their hands at linen-manufacture, so that all are self-supporting', file line 225)"
@@ -52,3 +52,7 @@ the translational sense, per Doc_06's own feeding of that cluster.
 Step3a Review Round 1, Finding 5: Doc_06 1.7 titles this entry
 "Cheirōnaxia / Ergocheiron" - the alternate form had been dropped;
 restored to world_word.
+
+Step3a Review Round 2, New Finding 6: the SS3 locus quote silently
+dropped "however," from the source's own wording without marking the
+elision - corrected to the exact opening clause.
