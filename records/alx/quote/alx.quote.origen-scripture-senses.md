@@ -25,6 +25,11 @@ text: As man consists of body, soul, and spirit, so too does Scripture which has
   the salvation of men.
 speaker_or_author: alx.figure.origen
 license: verbatim
+modern_lens_note: >
+  Real risk: 'body, soul, and spirit' names this world's own technical three-
+  part reading scheme (echoing 1 Thessalonians 5:23), not the modern
+  therapeutic 'mind-body-spirit' framing a contemporary reader may project
+  onto it.
 ---
 The multi-sense reading doctrine in the GREEK-derived transmission (the
 Philocalia), preferred over the Rufinus-mediated ANF text per the

@@ -23,6 +23,11 @@ text: Behold the might of the new song! It has made men out of stones, men out o
   the elements to harmonious arrangement, so that the whole world might become harmony.
 speaker_or_author: alx.figure.clement
 license: verbatim
+modern_lens_note: >
+  Real risk: 'made men out of stones, men out of beasts' echoes and inverts
+  the Orpheus myth (whose music could only charm stones and beasts, never
+  change their nature). A modern reader will likely still catch the sense of
+  transformation but miss the specific literary allusion being answered.
 ---
 The id matches the Artifact-1 SS5 worked example (alx.quote.clement-new-
 song), deliberately. Christ as the New Song who re-makes people and

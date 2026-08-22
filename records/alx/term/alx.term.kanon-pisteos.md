@@ -43,6 +43,7 @@ senses:
   translational: '''Did you believe the Bible was the only authority?'' - Scripture was supreme and read
     within the rule the apostles handed down; the two were never rivals here.'
 quick_meaning: The handed-down summary of the faith that guided all reading.
+distortion_risk: medium
 ---
 Modern hearing: 'creed vs Bible' framings. World hearing: one
 inheritance with two forms. The speculative-doctrinal tension's early

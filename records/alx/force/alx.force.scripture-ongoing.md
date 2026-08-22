@@ -33,6 +33,7 @@ description: 'The first Primary gravity operating continuously as a force: the w
 manifestations:
 - the scale of the exegetical corpus itself (commentary, homily, anthology)
 - the liturgy's continuous scriptural saturation
+matrix_cell: "2B"
 ---
 Cell 2B. This force IS alx.gravity.scripture-formative in its ongoing
 operation (associated-with); kept as its own record per the six-cell

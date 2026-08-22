@@ -37,6 +37,7 @@ manifestations:
 - Porphyry's attack on Christian allegory, naming Origen (HE VI.19, npnf201 ~lines 34975-34991 - the pagan
   critic within the horizon)
 - the sharpened christological specificity of the Logos against the impersonal One
+matrix_cell: "2A"
 ---
 Cell 2A. Enabled-by (matured from) the initiating Platonic environment;
 intensifies logos-unity's christological specificity (associated-with).

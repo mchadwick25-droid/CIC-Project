@@ -50,6 +50,7 @@ manifestations:
 - the curriculum Gregory describes (logic, physics, geometry, astronomy, ethics, theology - Address VII-IX)
 - Clement's faith-knowledge-wisdom progression (Stromateis)
 - the teacher-student succession itself (Pantaenus to Clement to Origen) as formation's chief channel
+classification: supporting
 ---
 Re-derived from Doc_04 SS3.5 - the sharpest strength/confidence
 divergence in the gravity set, stated rather than resolved: Widely

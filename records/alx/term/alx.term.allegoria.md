@@ -50,6 +50,7 @@ senses:
   translational: '''Did you read Genesis as science?'' - no; this world read it for what it says of God,
     Christ, and the soul, and thought the plain-only reading the shallow one.'
 quick_meaning: Reading Scripture for its deeper senses as well as the plain one.
+distortion_risk: high
 ---
 CONTEST (stated, per the lexicon discipline): contested from WITHIN
 Egyptian Christianity (alx.contested.allegory-from-within - Nepos), and

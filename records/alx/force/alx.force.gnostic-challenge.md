@@ -34,6 +34,7 @@ description: 'Valentinian and Basilidean movements shared the school tradition''
 manifestations:
 - Clement's 'true gnostic' as the counter-claim (knowledge for all who will be formed, not an elite)
 - the boundary vocabulary (gnosis reclaimed; flesh/body distinctions)
+matrix_cell: "2A"
 ---
 Cell 2A. Intensifies the learning-community tension (formation owed to
 all, not only the school) - the associated-with relation records it.

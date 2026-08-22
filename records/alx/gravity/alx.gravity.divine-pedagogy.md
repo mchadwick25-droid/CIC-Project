@@ -40,6 +40,7 @@ manifestations:
 - 'scriptural difficulty read as intentional teaching (Philocalia I-X: solecisms, stumbling-blocks, the
   sealed book)'
 - persecution understood as God teaching through suffering (the martyr literature's frame)
+classification: supporting
 ---
 Re-derived from Doc_04 SS3.3, including its correction note: Supporting
 on its relationship to the Primaries; any downstream always-present

@@ -35,6 +35,7 @@ description: 'The continuously operative double tension - authority-from-wisdom 
 manifestations:
 - the standing coexistence of school head and bishop across four generations
 - the two formation channels running in parallel (school; sacramental whole-community)
+matrix_cell: "2B"
 ---
 Cell 2B. The ongoing form of BOTH tensional gravities T1 and T2
 (associated-with each). Structural tension Widely Accepted; the

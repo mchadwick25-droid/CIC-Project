@@ -41,6 +41,7 @@ manifestations:
 - the named teacher-succession (with the Eusebius screen on its tidiness)
 - the catechumenate and calendar as self-transmitting practice
 - the Rule of Faith recited and handed on
+matrix_cell: "2B"
 ---
 Cell 2B, transmission named as its own force per the transmission-
 specificity discipline (never folded into another entry). Its

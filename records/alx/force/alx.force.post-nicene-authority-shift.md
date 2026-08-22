@@ -43,6 +43,7 @@ manifestations:
 - the Festal Letters as annual instruments of whole-Egypt governance and formation
 - the completion of the teacher-bishop and learning-community asymmetries
 - learning-formation terminated as an active organizing force
+matrix_cell: "3B"
 ---
 Cell 3B. Completes what the Origen-Demetrius rupture began: T1 and T2
 asymmetric toward office/breadth; C5 attenuated to termination; T3's

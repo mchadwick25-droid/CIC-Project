@@ -43,6 +43,14 @@ absent_detail: What Didymus's lessons were actually like - his classroom, his me
   does not record; and Didymus's own books, which survived him, are lost to us except in fragments recovered
   centuries later (the sharpest source absence in this world - see the search record). The Jerome epithet
   is from Jerome's own notice, not Palladius.
+modern_contrast: >
+  A modern reader may hear this as an 'overcoming disability' narrative - a
+  blind man impressively compensating for a deficit. This world's own record
+  frames it differently: its transmission never required literacy in the first
+  place (the sacramental, whole-community channel reached everyone regardless
+  - see alx.term.photismos, alx.term.katechesis), so Didymus is not an
+  exception proving a rule against blindness but ordinary evidence of how
+  formation already worked for anyone, sighted or not.
 ---
 Serves F4-P ('does your way of life have anything for someone like
 me?' - the tradition's chair held for fifty years by a man the world

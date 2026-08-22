@@ -31,6 +31,7 @@ manifestations:
 - 'Clement''s demonstrated dependence on and reshaping of Philo (the specialist finding: van den Hoek
   1988, consult-only)'
 - the allegorical habit as received practice, transformed
+matrix_cell: "1A"
 ---
 Philo himself is NOT a source within this world (pre-horizon, Jewish;
 diagnostic only - his text remains an open P3 acquisition, Yonge

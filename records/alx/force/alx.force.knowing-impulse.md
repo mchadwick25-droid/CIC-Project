@@ -42,6 +42,7 @@ manifestations:
 - Clement's faith-to-knowledge-to-wisdom progression
 - Gregory's account of the love of the Word kindled by teaching
 - the speculative-freedom pole of the speculative-doctrinal tension (its initiating ground)
+matrix_cell: "1B"
 ---
 Cell 1B. School-tradition attestation Widely Accepted; broader-community
 presence DMR (the stratum discipline). Precondition-for

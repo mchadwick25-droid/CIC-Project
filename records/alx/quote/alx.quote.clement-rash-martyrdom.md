@@ -24,6 +24,9 @@ text: Now we, too, say that those who have rushed on death (for there are some, 
   have not known the only true God, but give themselves up to a vain death.
 speaker_or_author: alx.figure.clement
 license: verbatim
+modern_lens_note: >
+  Real risk: 'banish themselves' is figurative (excluded from the category of
+  true martyrdom), not a claim of literal geographic exile.
 ---
 The world's own answer to the 'martyrdom is a death wish' charge (F6-E):
 its greatest teacher CENSURED rushing on death - witness is not

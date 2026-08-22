@@ -40,6 +40,7 @@ manifestations:
 - the Incarnation-grounded configuration of transformation forced into dominance (De incarnatione's charter
   line)
 - exile, letter-networks, and synods as the new instruments of authority
+matrix_cell: "2A"
 ---
 Cell 2A. Reshapes soul-transformation (promoting an already-available
 Incarnation-grounded account, not creating one) and crystallizes the

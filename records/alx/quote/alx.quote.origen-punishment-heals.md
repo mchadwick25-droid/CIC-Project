@@ -25,6 +25,9 @@ text: And so we think that every threat and pain and punishment, things that com
   inflicted to injure the sufferers, but always to do them good.
 speaker_or_author: alx.figure.origen
 license: verbatim
+modern_lens_note: >
+  No significant modern-lens risk identified for this quote - the vocabulary
+  is plain modern English throughout.
 ---
 The remedial-punishment strand in the Greek-derived transmission: God's
 severity as healing, not destruction. Serves F6-T (the hell cell - this

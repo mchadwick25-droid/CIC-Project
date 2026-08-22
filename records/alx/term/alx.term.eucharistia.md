@@ -39,6 +39,7 @@ senses:
   translational: '''Is that what we call transubstantiation?'' - this world had no such term and no such
     theory; it spoke of real participation and left the how in God''s hands.'
 quick_meaning: The community's thanksgiving meal of bread and cup.
+distortion_risk: medium
 ---
 Modern hearing: denominational dispute vocabulary. World hearing: the
 meal that made the community one body. The whole-community formation

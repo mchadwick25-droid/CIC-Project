@@ -57,6 +57,7 @@ manifestations:
   and spirit, so too does Scripture'' - verified in the vendored Philocalia, line 76)'
 - commentary and homily as the teaching tradition's central acts (Comm. John, Comm. Matthew)
 - Festal Letter 39's canon list - which books the church receives (npnf204 ~line 68714)
+classification: primary
 ---
 Re-derived from the prior build's cleared six-test analysis (Doc_04
 SS3.1: 6/6 PASS strong); classification and caveats carried, anchors

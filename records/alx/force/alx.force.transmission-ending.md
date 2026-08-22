@@ -44,6 +44,7 @@ manifestations:
 - the robust sacramental/creedal inheritance surviving
 - the fragile interpretive capacity as the great loss
 - the Origen inheritance as the great transformation (in-horizon through c. 399-400 only)
+matrix_cell: "3B"
 ---
 Cell 3B, transmission named as its own force (never folded). The
 ongoing mechanisms' survivorship pattern becomes this after-life story

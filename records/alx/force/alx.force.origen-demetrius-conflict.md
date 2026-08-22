@@ -36,6 +36,7 @@ description: 'The teacher-bishop tension reaching acute institutional expression
 manifestations:
 - Origen's Caesarean period as the rupture's visible result (Contra Celsum written there)
 - the beginning of learning-formation's attenuation
+matrix_cell: "3B"
 ---
 Cell 3B. Reconfigures the teacher-bishop tension toward the office pole
 and BEGINS learning-formation's attenuation (both associated-with). The

@@ -38,6 +38,7 @@ senses:
   translational: '''Were you born again?'' - this world said enlightened: baptism as new birth spoken
     of as new sight.'
 quick_meaning: 'The light of baptism: new birth spoken of as new sight.'
+distortion_risk: medium
 ---
 Modern hearing: enlightenment as private insight. World hearing: a
 communal, sacramental gift with a changed life attached.

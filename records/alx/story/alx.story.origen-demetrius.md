@@ -45,6 +45,12 @@ text: 'For years the teacher and the bishop had held together: Demetrius governe
 absent_detail: Nearly every particular reaches us through Eusebius's selection, and he is an interested
   narrator (an admirer of Origen, hostile to Demetrius's memory). The inner motives of both men are unrecoverable;
   this telling deliberately refuses them. The synodal documents are lost.
+modern_contrast: >
+  A modern reader may reach for a 'persecuted genius vs. jealous institution'
+  frame, or its mirror image, 'rogue teacher rightly reined in by legitimate
+  authority.' This world's own record (see alx.gravity.teacher-bishop-tension)
+  holds both authorities as real and the wound as real on both sides - not a
+  hero/villain story, a held and unresolved tension the world never settled.
 ---
 Serves F6-I (the hardest true thing about your people / what they never
 settled) and F3-I (who held authority - the tension made visible). The

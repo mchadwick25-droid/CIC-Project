@@ -28,6 +28,11 @@ text: For he who holds possessions, and gold, and silver, and houses, as the gif
   of heaven, not one who could not live rich.
 speaker_or_author: alx.figure.clement
 license: verbatim
+modern_lens_note: >
+  Real risk: 'poor in spirit' is the Beatitude's own phrase (Matthew 5:3)
+  naming a spiritual disposition, not literal material poverty - the whole
+  point of this passage is a wealthy person being called 'poor in spirit,'
+  which can read as self-contradictory without that scriptural sense in view.
 ---
 The rich-man sermon's center: wealth held as gift and ministry, not as
 master. Serves F5-T (how did you look at money and poverty) and F4-T

@@ -35,6 +35,7 @@ description: 'John''s Gospel identified the cosmic Logos with the one who became
 manifestations:
 - the Commentary on John as the tradition's central exegetical act
 - the Logos-architecture of the Protrepticus's New Song
+matrix_cell: "1B"
 ---
 Cell 1B. Converges with the Philonic inheritance to produce
 logos-unity (neither alone sufficient), and with the Septuagint to

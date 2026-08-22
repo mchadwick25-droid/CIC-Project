@@ -25,6 +25,7 @@ description: 'The conquest ended the institutional infrastructure that had susta
   terminus.'
 manifestations:
 - the terminus of the after-life the ending-transmission force traces
+matrix_cell: "3A"
 ---
 Cell 3A, distal terminal. sources: [] is deliberate and honest - this
 force is post-horizon context, attested by general history rather than

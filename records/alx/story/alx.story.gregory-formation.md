@@ -46,6 +46,13 @@ text: 'Gregory came from Cappadocia to study law, and met Origen at Caesarea. He
 absent_detail: Gregory describes the curriculum and the relationship, not daily logistics (fees, rooms,
   other students' names are absent). This is one gifted pupil's experience at Caesarea after the Alexandrian
   rupture - not the ordinary Alexandrian catechumen's, and a telling must not relocate it to Alexandria.
+modern_contrast: >
+  The 'love... kindled' language may read to a modern ear as romantic or
+  erotic infatuation with a charismatic teacher. The story's own text is
+  explicit about its object: the love is 'to the Holy Word... and to this man,
+  His friend and advocate' - love of the Word first, with the teacher loved as
+  its friend and messenger, the formation-love vocabulary of paideia rather
+  than a romantic attachment.
 ---
 Every element is in the Address (the soil-testing, the curriculum
 sequence in Arguments VII-IX, the spark passage, the paradise lament).

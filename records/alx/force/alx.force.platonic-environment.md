@@ -35,6 +35,7 @@ manifestations:
 - philosophy as preparation, never destination (Stromateis I.5's schoolmaster line, anf02 lines 27890-27894,
   verified)
 - Origen and Ammonius Saccas in the same city's schools (Porphyry's notice, via HE VI.19)
+matrix_cell: "1A"
 ---
 Cell 1A. The chronological correction from the prior build's review is
 preserved: Middle Platonism is the INITIATING substrate; Plotinian

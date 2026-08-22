@@ -26,6 +26,11 @@ text: I approve and love Nepos, for his faith and industry and diligence in the 
   reverence because he has gone to rest before us. But the truth should be loved and honored most of all.
 speaker_or_author: alx.figure.dionysius
 license: verbatim
+modern_lens_note: >
+  Mild risk: 'brethren' is this translation's period-standard rendering for
+  the whole community (not literally 'brothers' to the exclusion of women) - a
+  modern reader may misread it as gendered. 'Psalmody' (the singing/composing
+  of psalms) is a slightly unusual word but self-explanatory in context.
 ---
 How this world disagreed inside the household: love the man, honor the
 truth more. Spoken about Nepos, the Egyptian bishop whose Refutation of

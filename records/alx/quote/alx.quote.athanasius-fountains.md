@@ -22,6 +22,10 @@ text: These are fountains of salvation, that they who thirst may be satisfied wi
   him take ought from these.
 speaker_or_author: alx.figure.athanasius
 license: verbatim
+modern_lens_note: >
+  No significant modern-lens risk identified for this quote - the
+  fountain/living-water imagery remains broadly legible to a modern ear via
+  its continued biblical currency.
 ---
 The canon list's own summation - the bishop telling all Egypt which
 books the church receives. Serves F2-I ('which writings did your people

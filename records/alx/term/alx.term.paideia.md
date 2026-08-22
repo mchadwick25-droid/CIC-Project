@@ -45,6 +45,7 @@ senses:
   translational: '''Why does God allow suffering?'' - this world''s first answer is a teacher''s answer:
     to heal and to train, never to destroy.'
 quick_meaning: God's patient training of the soul, in all of life.
+distortion_risk: medium
 ---
 Modern hearing: 'pedagogy' as classroom technique. World hearing: the
 shape of providence. Ties the divine-pedagogy gravity to the F6

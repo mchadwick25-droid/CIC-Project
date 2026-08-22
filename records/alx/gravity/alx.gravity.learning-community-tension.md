@@ -40,6 +40,7 @@ manifestations:
 - 'the two formation channels: school (teacher-student depth) and whole-community (baptism, Eucharist,
   the calendar - no literacy required)'
 - the Festal Letters as the bishop's whole-community formation instrument
+classification: tensional
 ---
 Re-derived from Doc_04 SS3.6 T2. The community pole's interior is
 Inferential-Thin BY STRUCTURE (the stratum bias), so this record's

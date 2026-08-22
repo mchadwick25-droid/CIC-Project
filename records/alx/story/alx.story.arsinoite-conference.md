@@ -50,6 +50,14 @@ text: 'In the villages of the Arsinoite district, the churches had followed the 
 absent_detail: The arguments exchanged across the three days are summarized by Dionysius, not transcribed;
   the villagers' own voices survive only in his report of their patience and honesty. Nepos's book itself
   is lost - it is known only through the man who refuted it, and a telling should say so.
+modern_contrast: >
+  A modern reader may hear three days of a bishop examining a beloved local
+  teacher's book as either an inquisition (a trial aimed at punishing dissent)
+  or, at the other extreme, as a modern pluralist 'agree to disagree' session
+  that leaves the disagreement open. This world's own record frames it as
+  neither: authority here worked by open, patient argument aimed at restored
+  shared truth (see alx.dw.f1-e-councils) - not suppression, and not an
+  agreement to remain divided.
 ---
 Serves three cells honestly: F1-E (how disputed belief was actually
 decided - by patient open argument, here), F4-T (the end-times cell:

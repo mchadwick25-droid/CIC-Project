@@ -43,6 +43,7 @@ manifestations:
 - the Origen-Demetrius rupture as the tension's acute expression (illustration, NOT foundation - Eusebius
   screen)
 - Athanasius and Didymus holding the two kinds of authority simultaneously in the late horizon
+classification: tensional
 ---
 Re-derived from Doc_04 SS3.6 T1 with its Eusebius re-grounding intact:
 confirmation rests on the STRUCTURAL coexistence of teacher and bishop

@@ -39,6 +39,7 @@ senses:
   translational: Not 'gnostic' in the textbook sense - this world used the word against the movement that
     now owns it in modern ears.
 quick_meaning: Knowing God in a way that changes the knower.
+distortion_risk: high
 ---
 CONTEST NOTE (the reason the false-friend list leads with Gnosticism):
 the word's modern hearing is captured by the rival movement; every use

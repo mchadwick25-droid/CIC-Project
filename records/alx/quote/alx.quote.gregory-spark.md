@@ -26,6 +26,10 @@ text: And thus, like some spark lighting upon our inmost soul, love was kindled 
   Himself by His unutterable beauty, and to this man, His friend and advocate.
 speaker_or_author: alx.figure.gregory-thaumaturgus
 license: verbatim
+modern_lens_note: >
+  No significant modern-lens risk identified for this quote - the
+  spark/kindled-flame image for a sudden love of learning is a live metaphor
+  in modern English as well.
 ---
 The one first-person account of what this formation FELT like from
 inside: love of the Word kindled through the love of a teacher. Serves

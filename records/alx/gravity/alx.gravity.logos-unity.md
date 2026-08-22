@@ -53,6 +53,7 @@ manifestations:
   line 15213, verified)
 - the Johannine architecture of the Commentary on John ('the Gospel as first fruits')
 - the homoousian defense as the late-horizon form of the same center (De Decretis; Contra Arianos)
+classification: supporting
 ---
 Re-derived from Doc_04 SS3.4. Integrating-center function Widely
 Accepted across all three major figures; Origen's specific Logos

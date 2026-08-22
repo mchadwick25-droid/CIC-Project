@@ -44,6 +44,7 @@ senses:
   translational: '''Saved'' in this world means more than pardoned - it means made alive with God''s own
     life.'
 quick_meaning: Sharing in God's own life - the goal of the whole path.
+distortion_risk: high
 ---
 Horizon-concept, not an organizing gravity (the prior build's cleared
 distinction, kept). Modern hearing: blasphemous or New-Age. World

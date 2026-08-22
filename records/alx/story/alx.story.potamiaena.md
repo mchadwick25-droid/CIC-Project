@@ -46,6 +46,13 @@ absent_detail: Everything specific - the pitch, the promise, the vision, the cro
   already devotionally shaped when Eusebius received it; the vision especially is the tradition's own
   testimony, not a verifiable event, and the telling must keep 'the tradition says' audible. Potamiaena's
   own words are not preserved; even here, at her most remembered, she speaks only through others.
+modern_contrast: >
+  A modern reader may read the torture-execution account either as violence
+  presented for its own sake or dismiss it outright as invented hagiography.
+  This world's own record (Tier 3, devotionally shaped tradition - see the
+  story's own tier justification) centers neither: its point is that witness
+  under extremity converted the very soldier who led her out, not the
+  suffering as spectacle nor a claim to be taken as unmediated biography.
 ---
 One of the very few named women in the world's record - remembered, but
 not self-attested, which alx.limit.f5-women-own-words states as the

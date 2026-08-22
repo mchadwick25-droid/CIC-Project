@@ -46,6 +46,7 @@ senses:
   translational: '''A death wish in religious language?'' - the tradition itself drew the line: those
     who rushed on death ''banish themselves without being martyrs.'''
 quick_meaning: A witness who held fast under trial, even to death.
+distortion_risk: high
 ---
 Modern hearing: 'martyr complex', victimhood. World hearing: testimony.
 The one formation mode attested across every stratum (the T4 gravity's

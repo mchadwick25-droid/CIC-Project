@@ -57,6 +57,7 @@ manifestations:
   base - G5 accepted absence)
 - the purification-illumination-union progression in the school tradition (Stromateis)
 - Gregory's first-person account of being re-formed by teaching (Address, Arguments VI-IX)
+classification: primary
 ---
 Re-derived from Doc_04 SS3.2 (6/6 PASS strong). Core conviction Widely
 Accepted; the contemplative-ascent MECHANISM is Origen-concentrated

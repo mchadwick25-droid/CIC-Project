@@ -26,6 +26,7 @@ description: Chalcedon's two-natures definition split Egyptian Christianity into
 manifestations:
 - the drawn-line pattern already visible in the Arian settlement (a line drawn to defend the faith can
   also divide those who confess it)
+matrix_cell: "3A"
 ---
 Cell 3A, distal. Event Widely Accepted/Documented; the pre-400
 anticipatory pressure is DMR. Deliberately brief (proportionality):

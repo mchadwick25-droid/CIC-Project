@@ -46,6 +46,13 @@ text: 'When the great sickness came to Alexandria, about the year 260, every hou
 absent_detail: Dionysius names no individuals among the dead; how many died, and the disease's identity,
   are not recoverable. His letter contrasts the community's conduct with 'the heathen' - a bishop's rhetorical
   frame written for his own churches, which a telling should not sharpen further.
+modern_contrast: >
+  A modern reader may hear this as an early instance of secular public-health
+  volunteering or humanitarian aid. This world's own record frames the nursing
+  as witness, not philanthropy: the letter's own language ('died with them
+  most joyfully') roots the act in resurrection hope and the imitation of
+  Christ's self-giving death, not a charitable program pursued for its own
+  sake (see alx.dw.f6-p-suffering).
 ---
 Every element in the text is in the letter (the fearless visiting, the
 joyful dying, the pagan contrast, the festival occasion); nothing is

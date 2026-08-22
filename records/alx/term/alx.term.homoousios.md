@@ -45,6 +45,7 @@ senses:
   translational: '''Did a council vote Jesus into being God?'' - the council''s own participants said
     the opposite: they found no new thing, but fenced what the churches had always worshiped.'
 quick_meaning: 'The Nicene word: the Son is fully God, not made.'
+distortion_risk: high
 ---
 CONTEST (stated): contested in its own century precisely for being
 non-scriptural - the objection is part of the record, and the term is

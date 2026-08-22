@@ -44,6 +44,15 @@ absent_detail: Nothing survives from Leonides himself but the fact of his death 
   Eusebius reports it; the mother is unnamed in the record - present, decisive, and anonymous, which is
   itself this world's evidence problem in one figure. The prison letter's text beyond the one quoted line
   is lost.
+modern_contrast: >
+  A modern reader may hear the teenage Origen's desire to die alongside his
+  father as an alarming death-wish, closer to what a modern reader would flag
+  as a crisis. This world's own record presents it as PREVENTED, not admired:
+  his mother's intervention is the point, and the tradition elsewhere
+  explicitly censures rushing on death as a failure of true martyrdom, not its
+  highest form (see alx.quote.clement-rash-martyrdom, alx.term.martys) - the
+  story shows both the wound of persecution and the community's own check
+  against zeal outrunning itself.
 ---
 Serves F5-P (did belonging cost you - family, standing: it cost this
 family a father and its property) and F3-I (was it actually dangerous:

@@ -30,6 +30,10 @@ text: The most of our brethren were unsparing in their exceeding love and brothe
   from their neighbors to themselves and willingly receiving their pains.
 speaker_or_author: alx.figure.dionysius
 license: verbatim
+modern_lens_note: >
+  Mild risk: 'brethren' is this translation's period-standard rendering for
+  the whole community, not a claim that only men are in view - the same
+  translation-convention note as dionysius-nepos.
 ---
 Dionysius's own words on the plague of c. 260 - what the community DID
 when death filled the city. This is Eusebius's strong mode (verbatim

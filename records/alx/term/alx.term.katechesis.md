@@ -41,6 +41,7 @@ senses:
   translational: '''How did a person become one of you?'' - through this: taught, tested, changed, then
     baptized.'
 quick_meaning: The long, staged teaching that led a person to baptism.
+distortion_risk: low
 ---
 Modern hearing: a class you take. World hearing: the way a life was
 re-made. The world's own name-anchor (the catechetical tradition).

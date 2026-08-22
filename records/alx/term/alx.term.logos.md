@@ -43,6 +43,7 @@ senses:
   translational: '''Was Jesus God?'' - this world answers through the Logos: God''s own Word made flesh;
     after 325, ''of one substance with the Father.'''
 quick_meaning: God's own Word and reason, made flesh in Jesus.
+distortion_risk: high
 ---
 The id matches the Artifact-1 SS1 example (alx.term.logos). Modern
 hearing: 'logos' as rhetoric/logic jargon. World hearing: the living

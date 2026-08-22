@@ -37,6 +37,7 @@ manifestations:
 - Leonides's martyrdom (HE VI.1-2)
 - Dionysius's Decian-era letters - flight, confession, the lapsed and their return
 - the Era of the Martyrs anchoring Coptic identity (from Diocletian's accession, 284)
+matrix_cell: "2A"
 ---
 Cell 2A. Intensifies the martyrdom pole of the
 martyrdom-contemplative tension and reinforces divine-pedagogy (God

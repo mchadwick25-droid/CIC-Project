@@ -24,6 +24,12 @@ relations:
 text: For He was made man that we might be made God.
 speaker_or_author: alx.figure.athanasius
 license: verbatim
+modern_lens_note: >
+  Real risk: 'made God' can read on its surface as a claim to literal self-
+  divinization or as several-gods polytheism to a modern ear. The word being
+  translated (theopoiethomen, per the edition's own note) is technical
+  shorthand for participation in God's life, not becoming a separate deity -
+  see alx.term.theosis for the fuller sense this phrase compresses.
 ---
 De incarnatione 54 - the charter line of the world's whole account of
 salvation as theosis (the Greek theopoiethomen stands in the edition's

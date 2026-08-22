@@ -21,6 +21,12 @@ text: He, the true, the Sicilian bee, gathering the spoil of the flowers of the 
   meadow, engendered in the souls of his hearers a deathless element of knowledge.
 speaker_or_author: alx.figure.clement
 license: verbatim
+modern_lens_note: >
+  Real risk: 'Sicilian bee' is a classical praise-epithet (bees gathering
+  nectar from many flowers as a stock ancient image for wide, digested
+  reading), not a literal comparison or a diminutive nickname. A modern reader
+  unfamiliar with the convention may find the image merely odd rather than
+  recognizing it as high praise.
 ---
 Clement's tribute to his final teacher. PRECISION CAUTION (from the
 figure record): Clement does not name him; the identification with

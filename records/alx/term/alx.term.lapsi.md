@@ -44,6 +44,7 @@ senses:
   translational: '''When someone wronged the community, could they come back?'' - the lapsed are this
     world''s hardest, most documented yes.'
 quick_meaning: Those who fell under persecution - and could return through repentance.
+distortion_risk: medium
 ---
 Modern hearing: 'lapsed member' as administrative status. World
 hearing: a wound in the body, healed with cost. Pairs with the

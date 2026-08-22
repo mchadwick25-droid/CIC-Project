@@ -32,6 +32,7 @@ description: 'The inherited apostolic practices - baptism, Eucharist, catechesis
 manifestations:
 - the catechumenate as received structure (Paedagogus)
 - the whole-community channel that reaches the non-literate majority
+matrix_cell: "1B"
 ---
 Cell 1B. Precondition-for soul-transformation and learning-formation
 (with the knowing-impulse). Widely Accepted.

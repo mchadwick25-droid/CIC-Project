@@ -28,6 +28,7 @@ description: 'The Greek Old Testament, produced in Alexandria centuries before, 
 manifestations:
 - Scripture quoted as given authority across the whole corpus
 - the deep text existing before the way of reading it (the precondition of scripture-formative)
+matrix_cell: "1A"
 ---
 Cell 1A. The initiating textual condition of the first Primary gravity
 (precondition-for relation). Confidence: Widely Accepted.

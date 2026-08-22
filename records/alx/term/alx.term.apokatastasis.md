@@ -49,6 +49,7 @@ senses:
   translational: '''Universalism?'' - the modern word implies a settled doctrine; this world had a teacher''s
     contested speculation, later condemned in a century beyond its horizon.'
 quick_meaning: Origen's hope that God's healing may reach all in the end.
+distortion_risk: high
 ---
 CONTEST (stated, fully): whether Origen taught it as doctrine is a
 named live scholarly debate (alx.contested.origen-positions); the 553

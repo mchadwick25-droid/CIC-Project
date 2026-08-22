@@ -26,6 +26,16 @@ text: Perchance, too, philosophy was given to the Greeks directly and primarily,
   “to Christ.” Philosophy, therefore, was a preparation, paving the way for him who is perfected in Christ.
 speaker_or_author: alx.figure.clement
 license: verbatim
+modern_lens_note: >
+  Real risk, the clearest in this set: 'schoolmaster' translates the Greek
+  paidagogos (Galatians 3:24) - in the wider Greco-Roman household this role
+  was typically filled by an enslaved or freed household member who escorted
+  and disciplined children on the way to school, a guardian-custodian role.
+  (This is general classical background on the word's own connotation, not a
+  claim about this world's own community - no enslaved person's own story
+  survives from inside a Christian household here; see alx.core.alexandria's
+  Absent Stories.) A modern reader hears 'schoolmaster' as a teacher or
+  headmaster, which misses the escort/custody sense the image turns on.
 ---
 The charter line of the world's philosophy-and-faith posture: what the
 Greeks were given was real and was preparation. Serves F1-I (what they

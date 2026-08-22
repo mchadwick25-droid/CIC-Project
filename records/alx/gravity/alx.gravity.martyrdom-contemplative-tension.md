@@ -44,6 +44,7 @@ manifestations:
 - Origen's imprisonment and torture under Decius (HE VI.39)
 - Dionysius's persecution letters - flight, confession, the lapsed
 - 'the contemplative pole: the school''s ascent language (Stromateis; the Address)'
+classification: tensional
 ---
 Re-derived from Doc_04 SS3.6 T4. The martyr pole's cross-stratum reach
 is this world's one gravity-level bridge past the literate sources; its

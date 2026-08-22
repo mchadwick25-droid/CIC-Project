@@ -48,6 +48,14 @@ absent_detail: The city is unnamed in the tradition ('a city not far off'); the 
   are unnamed. Whether the events happened as told cannot be established - Clement's own framing ('a true
   account... handed down') is the tier's basis, and the telling keeps his attribution rather than asserting
   more.
+modern_contrast: >
+  A modern reader may hear this as a simple crime-and-redemption arc (a
+  reformed bandit chief, a feel-good ending) that skips past the harm the
+  young man caused as a robber. This world's own record centers something
+  else: the bishop's own 'relaxed watch' is named as the cause of the fall,
+  and John's pursuit and shared fasting are the cost of restoration - the
+  story is about the weight of an unbroken formation relationship and what
+  repairing it actually costs, not a redemption-arc morality tale.
 ---
 The world's best story for restoration-after-falling: serves F4-I (when
 someone wronged the community, could they come back?) and F6-P ('if

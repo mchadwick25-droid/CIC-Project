@@ -46,6 +46,7 @@ manifestations:
 - Origen's speculative method in De Principiis (offered as inquiry, not dogma - his own prefatory discipline)
 - the Rule of Faith as the early boundary practice (Stromateis)
 - the homoousian line and its enforcement as the late boundary pole (De Decretis; the post-Nicene reconfiguration)
+classification: tensional
 ---
 Re-derived from Doc_04 SS3.6 T3 with its evidence-shift intact:
 confirmed on LATE-HORIZON, Eusebius-independent evidence (the
