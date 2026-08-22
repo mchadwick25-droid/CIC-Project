@@ -37,6 +37,9 @@ def main():
         lines.append(f"- **canon_cells:** {cc}")
         lines.append(f"- **formation_confidence:** {r['confidence']['formation_confidence']}")
         lines.append(f"- **claim:** {r['claim']}")
+        lines.append("- **held_against:**")
+        for item in r.get("held_against") or []:
+            lines.append(f"  - {item}")
         lines.append(f"- **concedes:** {r['concedes']}")
         lines.append("")
 
@@ -46,6 +49,7 @@ def main():
         cc = ", ".join(r["canon_cells"]) or "-"
         lines.append(f"### {lid}")
         lines.append(f"- **canon_cells:** {cc}")
+        lines.append(f"- **statement:** {r['statement'].strip()}")
         lines.append(f"- **why_sources_cannot_answer:** {r['why_sources_cannot_answer']}")
         lines.append("")
 
@@ -57,11 +61,14 @@ def main():
         status = canon.classify_cell(cell, recs)["status"]
         if status == "empty":
             blank.append(cell)
+    closed_by_limit = sorted({cell for r in limits.values() for cell in r["canon_cells"]})
     lines.append(f"- **{len(all_ids)} total cells; {len(blank)} still blank** (doctrinal_witness/term/story/quote or honest_limit are the only cell-closing record types - this index's own contested_claim canon_cells do NOT close a cell, per canon.substantive_types()).")
     lines.append(f"- **Still blank:** {', '.join(blank)}")
     lines.append(
-        "- These 17 remaining blanks are deferred to Steps 8-9 (doctrinal_witness/quote, story) as this "
-        "world's own evidentiary base can answer most of them; F5-E is the only cell this step closed, "
+        f"- These {len(blank)} remaining blanks are deferred to Steps 8-9 (doctrinal_witness/quote, story) as this "
+        "world's own evidentiary base can answer most of them; "
+        f"{', '.join(closed_by_limit) or '(none)'} "
+        f"{'is' if len(closed_by_limit) == 1 else 'are'} the only cell(s) this step closed, "
         "via honest_limit, because it is a genuine structural evidentiary gap (no material-culture source "
         "exists in this world's registry), not merely an unbuilt topic."
     )

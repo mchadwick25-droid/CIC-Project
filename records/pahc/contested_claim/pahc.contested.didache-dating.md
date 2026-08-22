@@ -21,7 +21,7 @@ held_against:
 - "Niederwimmer's own outer range extends to c. 150 CE, itself already a wide window rather than a fixed date."
 - "Milavec argues, as a minority position, for a much earlier unified composition, c. 50-70 CE - meaning on his reading the Didache could predate rather than postdate this world's own 70 CE floor, and could be a single-stage composition rather than a layered one."
 - "The text survives almost entirely via a single 1056 CE manuscript (the Bryennios manuscript, undiscovered until 1873), with only partial independent corroboration (a Coptic fragment, two small P.Oxy. scraps, a disputed Georgian collation) - a thin base for confidently dating compositional layers within the work."
-concedes: "Whichever dating is right, this world's own use of the Didache is already scoped by a separate, independent caution: it reads as one community's own manual, plausibly Syrian, with no evidence Rome or Asia Minor knew or used it, and must never be generalized to network-wide catechetical practice regardless of exactly when it was composed. The dating question and the representativeness question are two separate limits, both carried here."
+concedes: "Whichever dating is right, this world's own use of the Didache is already scoped by a separate, independent caution: it reads as one community's own manual, with no evidence Rome or Asia Minor knew or used it, and must never be generalized to network-wide catechetical practice regardless of exactly when it was composed. Its own provenance is itself unresolved, not merely 'plausibly Syrian': pahc.source.didache's own author field reads 'Syria likely, Egypt argued.' If an Egyptian provenance is right, this world's central catechetical text would trace to the one region this world's own scope (per pahc.contested.egypt-exclusion) excludes entirely - a live tension this build discloses rather than resolves, since resolving it would require settling the provenance question this record itself leaves open. The dating question and the representativeness question are two separate limits, both carried here."
 divergence_partners:
 - pahc.source.didache
 ---
@@ -32,3 +32,9 @@ asks participant-facing "when exactly was your own manual written," and
 this dispute is closely bound to the single-community representativeness
 limit already carried by pahc.term.two-ways and pahc.force.two-ways-
 catechetical-inheritance rather than to any cell of its own.
+
+FIXED at Step 7 round-1 review: concedes previously stated the Didache's
+provenance as settled ("plausibly Syrian") rather than reproducing
+pahc.source.didache's own more careful "Syria likely, Egypt argued";
+restored the caveat and named the resulting, previously unnoticed
+tension with pahc.contested.egypt-exclusion, drafted in the same batch.

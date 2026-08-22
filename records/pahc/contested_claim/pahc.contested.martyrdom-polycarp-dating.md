@@ -8,8 +8,8 @@ register: etic
 canon_cells:
 - F2-E
 confidence:
-  citation_specificity: A
-  verification_state: verified-direct
+  citation_specificity: B
+  verification_state: named-not-rechecked
   evidentiary_weight: contested
   formation_confidence: Contested
   divergence_note: "The dating inconsistency (c. 155-156 vs. Eusebius's own Chronicon date of 167 CE) and the redactional-layer question (chs. 20-22) are both Documented facts about this text's own transmission; which date is correct, and how much the closing chapters should be trusted as part of the earliest form of the account, remain open."
@@ -35,10 +35,24 @@ HUMILITY) into participant-facing form for this specific text, and
 makes explicit the Eusebius-inconsistency point pahc.source.eusebius-
 historia-ecclesiastica's own body already names but which no other
 record states as a first-class contested claim. canon_cells: F2-E
-('Isn't most of what's said about you legend, collected centuries
-later?') is a close match specifically for THIS text among the four
-dating-disputed sources, given its own genre markers (hagiographic
+(specifically f2-e-02, 'Isn't most of what's said about you legend,
+collected centuries later?') is a close match for THIS text among the
+four dating-disputed sources, given its own genre markers (hagiographic
 convention, later redactional layers) - a closer fit than for the
-Ignatius, Didache, or 1 Clement dating disputes, which are authorship/
-composition-date disputes about non-legendary genres and are left
-uncovered by this cell rather than stretched to match it.
+Didache or 1 Clement dating disputes, which are authorship/composition-
+date disputes about non-legendary genres and remain uncovered by this
+specific question. FIXED at Step 7 round-1 review: this note previously
+reasoned as if F2-E's other three questions (f2-e-01, f2-e-03, f2-e-04)
+were also ruled out by the same "not legendary" logic, when in fact
+f2-e-01 is a genuine, separate match for pahc.contested.ignatius-dating
+(now claimed there) - this record's own exclusion reasoning is scoped
+to f2-e-02 only, not to the whole cell.
+
+confidence block downgraded to B/named-not-rechecked at the same
+review, for consistency with this batch's other three dating-dispute
+records: two of this record's own held_against items rest on
+unrechecked modern scholarship (an unnamed "widely regarded" consensus;
+Eusebius's Chronicon date, attested in the source record's own body but
+outside the vendored NPNF2 text itself) even though the text-internal
+facts (chapters 20-22 present; the bone-collection wording) are
+independently verified-direct.
