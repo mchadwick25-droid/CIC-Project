@@ -4,6 +4,165 @@ Read `Build-Blueprint.md` first; this note is only the "where things stand"
 supplement it asks for at every stage boundary / stop-and-ask / economy
 checkpoint.
 
+## Current stage: all seven worlds built; the M4 live-generation pipeline is implemented end-to-end
+
+2026-08-22, this thread. Two large bodies of work, both real, both
+verified against real compiled data (never a live model call unless
+named below), neither a numbered stage in the original build order
+(CiC-Program-Spec.md §9) because neither was foreseen at that table's
+own writing - the first is six more worlds' worth of the table's own
+stage-7 work, done in parallel across sibling sessions rather than
+sequentially in one; the second is new engineering Mark's own review of
+the fleet exemplar transcript ("is this being generated out of our
+system only... we need the system doing 100 percent of the work")
+called into being mid-build.
+
+### All seven worlds now `built` on `build/phase-1`
+
+Alexandria (`alx`), Post-Apostolic House-Church (`pahc`), Hieronymian
+Ascetic-Literary (`hal`), Syriac (`syr`), Imperial-Juridical (`ijc`), and
+Desert Monasticism (`desert`) all merged into this branch and ran the
+real step-6 compile pipeline (`determinism-check` → `build` →
+stub-loader verify → registry update → `staleness-check`) - `state:
+built` for all six, same mechanical, gates-green semantics `fix`'s own
+entry has always carried. The "Alexandria is a separate track on a
+separate branch" framing immediately below this section is now
+obsolete, kept only as historical record of how that thread's work
+reached this one - see the closing note appended to it.
+
+Two real defects found and fixed during these merges, worth keeping
+named:
+- **A genuinely stale Alexandria package.** `world/alexandria` predated
+  this session's own M4 compiler changes (the fleet preamble, demo
+  tagging - both below); merging it in without recompiling would have
+  shipped a compiled prompt missing both. Caught by the M2 staleness
+  sweep before it was committed, not after.
+- **`records/worlds.yaml`/`cic/texts/README.md` merge conflicts** on
+  every one of these merges except Desert's own (its thread had already
+  merged `build/phase-1` in ahead of its PR) - resolved by keeping every
+  world's own registry block side by side and regenerating the README
+  via its own generator (`cic/engine/texts_registry.py
+  --write-readme`), never hand-merged.
+
+Desert's own build additionally closed a real, honestly-named gap before
+merging: Doc_09c §4 had flagged a living-tradition-differentiation review
+(does the compiled content ever conflate this world's 320-430 CE
+reconstruction with present-day Coptic Orthodox/other living monastic
+practice?) as required and unperformed. This thread ran that check
+directly against every compiled-facing field - clean, zero genuine
+instances - and Desert's own build thread independently re-ran the
+identical check against their own branch and got the same result before
+merging. Doc_09c's own text was corrected via a dated addendum, not
+rewritten, per this build's own standing convention. External Scholarly
+Review (Doc_09c §4's other named freeze-eligibility gate) remains open -
+needs an actual patristics/late-antique-monasticism specialist, not
+something any thread can substitute for.
+
+### The M4 Live-Generation Design - designed, signed off, fully implemented
+
+Design doc: `engine/m4/LIVE-GENERATION-DESIGN.md` (written on
+`claude/cic-design-assignment-ecoxh2` against the real alx package,
+merged into this branch's own history via the implementation below). Its
+own four forks (sentence-gated streaming; in-voice honest-limit
+degradation; lexical-first retrieval; report-only ratio-floor
+promotion) are **signed off, final** (§9.5) - checked against real,
+populated data across all five worlds built at the time, not just alx's
+own original test case. §9.6 (model tiering: Haiku for
+safety/reader, Sonnet for voice generation carrying in-band citation
+tags, the old separate citations call eliminated) is explicitly
+**provisional/TEST**, Mark's own empirical call pending real cost/quality
+measurement - not locked the way §9.5 is.
+
+Every row of the design's own §7 build map is now built:
+
+- **`engine/m4/grounding_net.py`** - the deterministic per-sentence
+  citation-tag verifier (promoted from the design's own prototype) plus
+  `scope_completion` (the tension-record anti-conflation walk - the
+  door-line fabrication's systemic fix, not just a patch).
+- **`engine/m4/evidence.py`** - Stages A-E of evidence assembly (asks →
+  canon cells → ranked candidates → tension completion → thin-topic
+  riders → session exclusion), verified against real IJC/PAHC data: a
+  real authority-contest question correctly matches its cells, pulls in
+  the right gravity/quote/story records, and a genuinely off-canon
+  message correctly resolves to an empty block rather than a forced
+  nearest-cell match.
+- **`records/_fleet/fleet_voice/`** - the new fleet-owned record
+  (register statements, pronoun rule, citation contract, limit
+  discipline) that lets `engine/m2/builders.py` compile one fleet
+  preamble segment into every world's prompt, replacing what was
+  duplicated six times across each world's own `voice_craft`.
+- **`engine/m4/generation.py` + `engine/m4/turn.py`** - the old two-call
+  shape (stream, then guess citations after the fact) is gone. One call
+  now carries its own inline `[[record.id]]` tags; the real net checks
+  them before any of the turn's text is treated as the answer;
+  withheld sentences degrade to the matched cell's own honest_limit
+  statement (or a fleet floor line, same "appended by code" precedent as
+  `crisis_resources.py`) rather than ever regenerating or being
+  human-edited.
+- **`engine/m3/generation.py`** - `LiveModelAnswerer` is real now, not
+  the `NotImplementedError` seam it was: the identical evidence-
+  assembly + one-call + net pipeline, pointed at a sealed probe instead
+  of a live participant message, safety/routing skipped outright (a
+  sealed probe already IS the ask). `engine/m3/harness.py`'s
+  `run_battery` gained an `answerer=` param so a real one can run
+  through the same battery/masking/grading pipeline once someone with
+  spend authorization builds and passes one - **nothing in this build
+  has yet made a real call through this path**, matching the same
+  spend-authorization discipline the safety script and generation
+  calls above were run under.
+- **Demonstration citation tagging** (`engine/m2/builders.py`) - the
+  design's own §5.3 assumed tags could be derived from a demo's
+  `sources` field; a real-record check found that field points to
+  bibliographic editions, never the records a demo actually draws on.
+  Built the direct alternative the design itself recommends elsewhere
+  for this shape of gap: score each demo sentence against its own
+  cell's candidate records, tag only what clears the floor. **A real
+  false positive found and fixed before this shipped**: an early version
+  scored against a record's full text (including its own uncompiled
+  provenance/analysis prose) and mistagged a martyrdom sentence to an
+  unrelated term purely from incidental word overlap in that trailing
+  text - fixed by scoring against compiled-facing head text only, plus a
+  minimum-shared-word floor; locked in with a committed regression test.
+
+A real layering bug surfaced and fixed mid-build, worth naming the way
+this file already names the entrance-seal false-positive and the
+never-requested-caching bug above: moving the quote-aware sentence
+splitter and a new lexical-overlap scorer down into
+`engine/m1/gates_experimental.py` (so both M2's compile-time demo
+tagging and M4's live evidence ranking could use them without M2
+importing M4, which would reverse the pipeline's real dependency
+direction) picked a name, `_grounding_ratio`, that collided with a
+pre-existing, differently-shaped function already living in that file -
+silently shadowing it and breaking every caller of the real one. Caught
+by the test suite immediately, renamed before anything using the real
+function could regress.
+
+Full engine test suite: 172/172 passing (up from 123 at the top of the
+stage-6 entry below). No live model call anywhere in this body of work -
+every verification ran against fake/synthetic clients or real *compiled*
+data, never a real API call.
+
+### The glossary/story/quote retrofit - designed, now ENFORCED
+
+`Redesign-Spec/Glossary-Story-Quote-Template.md`: the standard every
+world thread retrofits its `term`/`story`/`quote`/`gravity`/`force`
+records against, once every world clears its own content canon - that
+condition is now met for all seven. Mark authorized flipping the switch
+(2026-08-22): `engine/m1/gates.py` gained `distortion_risk`/
+`modern_contrast`/`modern_lens_note`/`classification`/`matrix_cell` in
+`COMPLETION_REQUIRED`, plus a dedicated `gate_glossary_retrofit_complete`
+for the two fields a flat completion list can't express correctly
+(`false_friend`'s own typed-empty-list "none identified" state; the
+nested `senses.translational` path). `fix` (the CI fixture) is already
+retrofitted directly - engineering-owned, not one of the six content
+threads' own work. Every other world now honestly shows its real,
+current retrofit scope in its own compiled `validation/gates-report.json`
+(alx 62, hal 67, pahc 52, ijc 59, syr 55, desert 56 findings) - not a
+regression, the real remaining task. **The task itself is drafted and
+ready to send to all six threads but has not yet been dispatched** - the
+one concrete next action this file should flag for whoever picks this up
+next.
+
 ## Also: this thread now owns Alexandria from step 5(e) forward
 
 2026-08-21, authorized by Mark: the Alexandria world-build thread
@@ -29,7 +188,20 @@ own stage work (M1-M8 above) and Alexandria are two separate tracks on
 two different branches - this section exists so a reader of this file
 alone knows the second track exists at all.
 
-## Current stage: 6 DONE — M8 cost & observability, all four gate items proven with real evidence (parity vs. raw usage shapes; zero unattributed calls; cache economics re-measured and recorded with the band; a lapsed cache window visible in the numbers)
+**SUPERSEDED, 2026-08-22 - kept as historical record, not current
+state.** The fleet exemplar transcript this section names as "not
+started" was drafted (`fleet-voice/EXEMPLAR-TRANSCRIPT.md`) and became
+the direct occasion for the M4 Live-Generation Design (see the top
+section of this file) - Mark's own read of it ("is this being generated
+out of our system only... we need the system doing 100 percent of the
+work") is §0 of that design doc, verbatim. `world/alexandria` itself
+merged into `build/phase-1` and ran the real step-6 compile - see the
+top section; it is no longer a separate track on a separate branch.
+Step 7 admission for Alexandria (and every other world) is still real,
+unstarted, live-model-spend work reserved for Mark's own go-ahead -
+that part of this section is still accurate.
+
+## Previously: stage 6 DONE — M8 cost & observability, all four gate items proven with real evidence (parity vs. raw usage shapes; zero unattributed calls; cache economics re-measured and recorded with the band; a lapsed cache window visible in the numbers)
 
 **Stage 6 (M8: cost & observability) — done, commits `dad8448` +
 `075f09e`.** `engine/m8/`. The stage-6 gate (CiC-Program-Spec.md §9): *"parity
@@ -396,40 +568,83 @@ now done too; see the entries above. Stage 5 is closed out as of commit
 
 ## Open decisions still outstanding
 
-- `gravity`/`force` record field shape — ratified as-is at stage 1, unchanged.
+- `gravity`/`force` record field shape — ratified as-is at stage 1,
+  unchanged, now with two structured additions (`classification`,
+  `matrix_cell` - the glossary retrofit, top section) on top of it.
 - FAISS placeholder vectors (`engine/m2/builders.py`) — still a
-  deterministic hash-derived stand-in; folds into the stage-5 model/provider
-  decision above (an embeddings choice is part of the same "which provider"
-  question).
+  deterministic hash-derived stand-in. **Resolved in direction, not yet
+  in code:** the M4 design's Fork 3 (signed off, §9.5) rules
+  lexical-first retrieval as the live path — real embeddings are
+  admittable later, per the design's own §3.4 threshold (measured recall
+  on real transcripts), not foreclosed, but nothing pays for a provider
+  anywhere until that evidence exists. The placeholder vectors themselves
+  are simply unused by the actual retrieval path now (`engine/m4/
+  evidence.py` scores lexically, direct off compiled record JSON) —
+  removing them outright is a minor cleanup, not a blocked decision.
 - Sealing mechanism (`canon/sealed_probes/README.md`) — commit-reveal +
   access-discipline guard; real secrets infra is a later, non-urgent call.
 - `engine/m3`'s register heuristic — explicitly narrow; real register
-  grading needs either Mark's read or a configured model, both blocked on
-  the same stage-5 decision above.
+  grading needs either Mark's read or a configured model. Partially
+  addressed by the model-tiering call below (Sonnet carries voice
+  generation, the one call actually responsible for register), but the
+  heuristic itself is unchanged and still narrow.
+- **Model tiering for live turns (`engine/m4/LIVE-GENERATION-DESIGN.md`
+  §9.6) — TEST, not locked.** Haiku for safety/reader, Sonnet for voice
+  generation (now the only generation call - citations are in-band).
+  Mark's own empirical call from prior usage elsewhere in this project;
+  explicitly flagged as provisional pending real cost/quality
+  measurement, unlike §9.5's four signed-off forks.
+- **The glossary/story/quote retrofit task is drafted, the gate is live,
+  but the task itself has not been sent to the six content threads** -
+  the single most concrete unstarted action as of this note (top
+  section).
+- **Desert's External Scholarly Review** (Doc_09c §4's other named
+  freeze-eligibility gate, distinct from the living-tradition-
+  differentiation review this thread already closed) — needs an actual
+  patristics/late-antique-monasticism specialist. Not blocking anything
+  currently in flight; blocking Frozen status whenever that's raised.
+- **Credential rotation still outstanding** (carried forward from the
+  stage-6 entry below, still true): the AWS access key
+  (`cic-bedrock-dev`, account `468683594478`) is still the one pasted
+  directly in chat, now in even wider live use across this session's own
+  real Bedrock calls (M4 turn-loop evidence, M8 instrumentation).
+  Rotating/deleting it is still the right move once this phase of dev
+  work actually slows down.
 
 ## Currently blocked
 
-**Nothing in this engineering thread, but there isn't a free-standing next
-engineering stage to auto-start either.** Stages 5 and 6 are both done
-(commits `230a331`, `dad8448`/`075f09e`). Per the build order (CiC-Program-
-Spec.md §9): stage 7 is **Alexandria** through the full world-build process
-- already running, but in its own session/branch (`world/alexandria`,
-Fable), not this one; as of this note it's idle at "review ready" with 17
-`alx.source.*` records built and six real open items (four genuine
-not-found gaps: Stromateis III, Origen's Homilies, Didymus's Tura
-commentaries, the Letter to Marcellinus; two flagged for Mark's judgment:
-the Philocalia acquisition, and the *On Prayer* / Curtis-CCEL provenance
-question) - all Mark's calls, not this thread's. Stage 7.5 (experience
-design) is Mark's own design pass, parallel to 5-7, not code. Stage 8 (M6,
-the participant surface) is gated on 7.5's approved screens - "no surface
-code before approval" is explicit in the build order, so M6 is not a task
-this thread should pick up unprompted even though it's the next *numbered*
-stage.
+**Nothing in this engineering thread is blocked on a missing decision -
+everything genuinely open now needs either Mark's own action or someone
+this thread cannot substitute for, not more engineering judgment:**
+
+1. **Send the retrofit task.** Drafted, ready, not yet dispatched to the
+   six content threads (top section) - the one item on this whole list
+   that's pure "someone needs to press send," not a design or spend call.
+2. **Step 7 (admission) and M7 (transcript audit)**, for every world -
+   both need real live-model spend/data and both stay explicitly reserved
+   for Mark's own go-ahead, the same discipline this file has held since
+   the stage-5 safety script and every Bedrock call since. Nothing in
+   this thread's own work has made or triggered one.
+3. **Desert's External Scholarly Review** and **Alexandria's own older,
+   still-possibly-open source gaps** (Stromateis III, Origen's Homilies,
+   Didymus's Tura commentaries, the Letter to Marcellinus - four
+   genuine not-found texts; the Philocalia acquisition and the *On
+   Prayer*/Curtis-CCEL provenance question flagged for Mark's own
+   judgment) - carried forward from this section's own prior text below,
+   **not independently re-verified as of this update** - worth checking
+   fresh rather than assuming either way before treating either as
+   closed or as blocking.
+4. **Stage 7.5 (experience design)** is still Mark's own design pass, not
+   code; **M6 (the participant surface, stage 8)** is still explicitly
+   gated on 7.5's approved screens - "no surface code before approval"
+   remains true, so M6 is still not a task any thread should pick up
+   unprompted even though the M4 turn loop it would sit behind is now
+   considerably more complete than when this section was first written.
 
 The two things this thread built that touch M6/M5 territory but were
-flagged as deliberately out of scope for stages 5-6 (not silently skipped):
-Track B's own `safety_turn` content (`HARMFUL_DYNAMIC_SIGNAL`), and the
-other routing actions' generation content (`check_in_turn`/
+flagged as deliberately out of scope for stages 5-6 (not silently
+skipped): Track B's own `safety_turn` content (`HARMFUL_DYNAMIC_SIGNAL`),
+and the other routing actions' generation content (`check_in_turn`/
 `system_nature_turn`/`bridge_turn`/`etic_turn`) - real, tested routing
 outcomes (`engine.m5.routing`) with `UnhandledRoutingAction` raised loudly
 wherever their content isn't built yet. These become real work once M6
