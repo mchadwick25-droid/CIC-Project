@@ -1,6 +1,6 @@
 # Imperial and Juridical Christianity (`ijc`) — Record-Set Build Log
 
-**Branch:** `world/ijc` (base `build/phase-1`) · **Built:** 2026-08-21 · **Scope:** spec §4.3 steps 2–4 (source ecology → interpretive lexicon → ecology reconstruction → answer canon). **Voice build (step 5), compile (6), admission (7), open (8): intentionally NOT started**, per the standing instruction to stop before voice/demonstration while the live-generation citation design is unproven.
+**Branch:** `world/ijc` (base `build/phase-1`) · **Built:** 2026-08-21–22 · **Scope:** spec §4.3 steps 2–5 (source ecology → interpretive lexicon → ecology reconstruction → answer canon → representative identity confirmation, voice_craft, demonstration). **Compile (6), admission (7), open (8): intentionally NOT started** — that stage still waits on the M4 live-generation design, per the standing instruction.
 
 **Settled ground built from (not reopened):** the per-world Step 0 confirmation (2026-07-19, Approved to proceed, Round 3) and Doc_01 (Approved to proceed, Round 2 cosmetic only) — identity ("office-holders, not congregants"), window 312–451, three strands, Homoian recentering, skew disclosure, Living Tradition PENDING.
 
@@ -8,9 +8,9 @@
 
 ## 1. Final state
 
-125 records in `records/ijc/`: 1 world_core · 19 source · 16 search_record · 12 term · 6 gravity · 10 force · 7 contested_claim · 12 figure · 20 quote · 8 story · 7 doctrinal_witness · 7 honest_limit. Registry entry added to `records/worlds.yaml` (state: `building`).
+151 records in `records/ijc/`: 1 world_core · 19 source · 16 search_record · 12 term · 6 gravity · 10 force · 7 contested_claim · 12 figure · 20 quote · 8 story · 7 doctrinal_witness · 7 honest_limit · 1 voice_craft · 8 demonstration (142 answer-canon records plus the step-5 voice/demonstration set of 9). Registry entry in `records/worlds.yaml` updated to `state: building` with the representative identity confirmed (§9).
 
-**M1 gate battery: 13/13 clean** (schema, referential, reciprocity, completion, narratability, quote-recording, alias-safety, distribution-health, confidence-crosscheck, rights, readability, canon-coverage, no-build-attribution). **Canon coverage: all 28 cells — 21 substantive, 7 honest-limited** (C-P, F1-T, F2-P, F4-P, F5-I, F5-T, F6-E), each honest limit with in-voice statement, cause, and nearest material.
+**M1 gate battery: 13/13 clean** (schema, referential, reciprocity, completion, narratability, quote-recording, alias-safety, distribution-health, confidence-crosscheck, rights, readability, canon-coverage, no-build-attribution) — re-verified against the full 151-record set including the new voice_craft and demonstration records. **Canon coverage: all 28 cells — 21 substantive, 7 honest-limited** (C-P, F1-T, F2-P, F4-P, F5-I, F5-T, F6-E), each honest limit with in-voice statement, cause, and nearest material.
 
 ## 2. Stage discipline
 
@@ -208,3 +208,52 @@ states it. Every quote locus in this record set has now been independently re-de
 directly against the vendored file rather than inherited from a prior pass.
 
 No fix in this round reopened Step 0 or Doc_01's settled ground.
+
+## 9. Representative identity confirmation and step 5 (voice_craft + demonstration), 2026-08-22
+
+**Identity confirmation.** Marius, Apocrisiarius — Deacon of the Letters, checked against this build's
+full content canon (142 answer-canon records, three independent Opus adversarial reviews plus two further
+confirmation passes, 13/13 M1 gates green throughout) at spec §4.3's step-5a touchpoint. Confirmed to hold
+without qualification: the apocrisiarius/legate-deacon persona fits this world's own correspondence-and-
+petition-carrying content precisely (Julius's letter to the Eusebian party, Damasus's synodical
+correspondence embedded in Theodoret, Leo's Tome and his Canon-28 rejection letters, the Chalcedon
+legates' own recorded objection), and the identity's own charge to carry Rome's, Constantinople's, and
+Milan's claims alike matches this build's three-strand finding exactly (Doc_01 §§ Strand A/B/C, carried
+through every gravity, force, and contested_claim record built). Nothing found during this build argues
+for reopening it. Not a fresh decision — carried forward as the standing pre-rebuild identity (name and
+role label set by Mark 2026-07-20 and 2026-07-22, per `records/worlds.yaml`'s own prior note), the same
+way `world/syr`'s own Mar Yausep confirmation is expected to carry that identity forward. Logged in full
+at `records/ijc/voice_craft/ijc.voice.craft.md`'s trailing body and in `records/worlds.yaml`'s registry
+comment.
+
+**Step 5 build.** One `voice_craft` record (`ijc.voice.craft`) and eight `demonstration` records, drafted
+on Sonnet against `alx.voice.craft`/`alx`'s six demonstration records and `fleet-voice/EXEMPLAR-TRANSCRIPT.md`
+(`world/alexandria`) as the worked model — `records/pahc/` and a `world/syr` branch, named in the
+handoff as the intended models, do not exist anywhere in this repository under the current record
+schema (only a legacy `cic-poc/` proof-of-concept structure predates this rebuild's schema); this was
+disclosed at the time and the real, equivalent `alx` material substituted.
+
+Strict we-voice throughout, with the one sanctioned self-naming exception ("I am a representative of
+Church and Empire") used exactly once, in the one demonstration turn that is directly about the voice's
+own nature (`ijc.demo.f6-p-someone-like-me`) — and deliberately not used in the other identity-collision-
+tagged turn (`ijc.demo.f6-p-woman-authority`), matching the fleet precedent that the tag alone does not
+license the exception. The three strands (Rome/Constantinople/Milan) are held as one unresolved "we" in
+`ijc.demo.f6-i-never-settled`, never adjudicated. The Homoian establishment is spoken of from outside, as
+this world's own excluded "different we," in `ijc.demo.f1-i-argued-about`. The office-holder record skew
+is stated plainly, in the voice's own honesty, in `ijc.demo.f5-i-ordinary-day` (drawn from
+`ijc.limit.f5-ordinary-day`, whose compiled `statement` field carried a stale "an empress and a regent"
+reference — corrected in place to "two empresses" before the demonstration was drafted from it, since no
+formal regency for Justina is attested anywhere else in this build). `ijc.demo.f6-p-hypocrisy` uses this
+world's own sharpest hard-places instance (Callinicum) rather than a safer one, matching the
+episcopal-independence gravity's own review-corrected, deliberately double-edged description.
+
+The eight demonstration records: `ijc.demo.c-i-who-was-jesus` (center), `ijc.demo.f6-p-someone-like-me`
+and `ijc.demo.f6-p-woman-authority` (identity-collision), `ijc.demo.f1-t-bread-and-cup` (translational),
+`ijc.demo.f6-i-never-settled` (contested/two-strands), `ijc.demo.f5-i-ordinary-day` (honest-limit-in-
+voice), `ijc.demo.f1-i-argued-about` (Homoian-recentering), `ijc.demo.f6-p-hypocrisy` (hard-places). All
+content is drawn from and cites already-verified ijc records; none is fresh invention.
+
+**Gates:** 13/13 clean, re-verified against the full 151-record set. **Record count:** 142 → 151 (9 new:
+1 voice_craft, 8 demonstration).
+
+No fix in this section reopened Step 0, Doc_01, or the answer-canon's own settled ground.

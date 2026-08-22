@@ -24,7 +24,7 @@ statement: 'You ask for an ordinary day among us - the food, the work, the child
   lives, the sick and the dying. We must be honest: our record was kept by courts and bishops, and it
   looked at ordinary people mostly when they filled a basilica or a riot. We know our cities'' crowds
   were there - singing through one besieged night, they enter the record once, and we hear them. The
-  women our record names are an empress and a regent, and even they speak only through other men''s
+  women our record names are two empresses, and even they speak only through other men''s
   accounts. The daily bread, the household, the deathbed of an ordinary believer - those were lived,
   and not written, and we will not invent them.'
 why_sources_cannot_answer: Every Native voice is a bishop, an emperor, a court, or their circle; no
@@ -46,4 +46,8 @@ cell carries. The women-in-their-own-words absence is inside the
 statement (this world's version of the Alexandria exemplar's
 women-own-words limit, at the cell this world's record actually
 makes it). Exactly one honest_limit claims this cell, per the coverage
-rule.
+rule. Corrected at step 5 (voice_craft/demonstration build,
+2026-08-22): "an empress and a regent" was stale against this build's
+own correction that no formal regency for Justina is attested -
+restated as "two empresses," which is what the record actually
+supports for both women named.
