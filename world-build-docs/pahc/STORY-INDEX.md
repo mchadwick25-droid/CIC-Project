@@ -15,12 +15,12 @@ CONFIRMED: no story carries a narrative_tier outside 1-4.
 | pahc.story.day-under-bishop-and-presbyters | 4 (Historically Grounded Reconstruction) | F3-I | Inferential-Thin | G:authority-consolidation, G:liturgical-practice, G:translocal-network |
 | pahc.story.didache-eucharist | 4 (Historically Grounded Reconstruction) | F4-I | Inferential-Thin | G:liturgical-practice |
 | pahc.story.first-clement-corinthian-dispute | 1 (Documented Historical Narrative) | F3-P | Widely Accepted | G:authority-consolidation, G:translocal-network |
-| pahc.story.hermas-visions | 1 (Documented Historical Narrative) | F1-P | Contested | G:authority-consolidation |
+| pahc.story.hermas-visions | 1 (Documented Historical Narrative) | F4-I | Widely Accepted | G:authority-consolidation |
 | pahc.story.ignatius-guarded-journey | 1 (Documented Historical Narrative) | F6-E | Widely Accepted | G:translocal-network, G:martyrdom-meaning, G:boundary-drawing, G:authority-consolidation, G:liturgical-practice |
 | pahc.story.justin-sunday-gathering | 1 (Documented Historical Narrative) | F4-I | Widely Accepted | G:liturgical-practice |
 | pahc.story.martyrdom-of-polycarp | 3 (Attributed Tradition) | F6-E | Contested | G:martyrdom-meaning |
 | pahc.story.mutual-aid-prisoner | 4 (Historically Grounded Reconstruction) | F5-T | Inferential-Thin | - |
-| pahc.story.nero-scapegoating | 1 (Documented Historical Narrative) | F3-I | Widely Accepted | F:neronian-persecution |
+| pahc.story.nero-scapegoating | 1 (Documented Historical Narrative) | F3-I | Widely Accepted | F:neronian-persecution, G:authority-consolidation |
 | pahc.story.one-eucharist-under-bishop | 4 (Historically Grounded Reconstruction) | F3-T | Inferential-Thin | G:liturgical-practice, G:authority-consolidation, G:boundary-drawing |
 | pahc.story.pliny-interrogation | 1 (Documented Historical Narrative) | F6-E | Documented | G:state-pressure |
 | pahc.story.polycarp-forwards-letters | 1 (Documented Historical Narrative) | F5-P | Documented | G:translocal-network |
@@ -28,7 +28,7 @@ CONFIRMED: no story carries a narrative_tier outside 1-4.
 
 ## Story-to-gravity connection summary (mechanically derived from relations[])
 
-- **pahc.gravity.authority-consolidation**: pahc.story.day-under-bishop-and-presbyters, pahc.story.first-clement-corinthian-dispute, pahc.story.hermas-visions, pahc.story.ignatius-guarded-journey, pahc.story.one-eucharist-under-bishop
+- **pahc.gravity.authority-consolidation**: pahc.story.day-under-bishop-and-presbyters, pahc.story.first-clement-corinthian-dispute, pahc.story.hermas-visions, pahc.story.ignatius-guarded-journey, pahc.story.nero-scapegoating, pahc.story.one-eucharist-under-bishop
 - **pahc.gravity.boundary-drawing**: pahc.story.ignatius-guarded-journey, pahc.story.one-eucharist-under-bishop
 - **pahc.gravity.liturgical-practice**: pahc.story.day-under-bishop-and-presbyters, pahc.story.didache-eucharist, pahc.story.ignatius-guarded-journey, pahc.story.justin-sunday-gathering, pahc.story.one-eucharist-under-bishop
 - **pahc.gravity.martyrdom-meaning**: pahc.story.ignatius-guarded-journey, pahc.story.martyrdom-of-polycarp

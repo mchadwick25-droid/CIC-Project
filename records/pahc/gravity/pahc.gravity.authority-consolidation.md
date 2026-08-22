@@ -52,6 +52,8 @@ relations:
 - type: associated-with
   target: pahc.story.one-eucharist-under-bishop
 - type: associated-with
+  target: pahc.story.nero-scapegoating
+- type: associated-with
   target: pahc.force.state-pressure
 - type: associated-with
   target: pahc.force.monepiscopacy-consolidation

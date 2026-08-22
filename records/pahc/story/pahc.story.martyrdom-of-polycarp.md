@@ -53,8 +53,8 @@ text: >
   much blood came forth that it quenched the fire itself. The
   community tells us they gathered his bones afterward, "more
   precious than the most exquisite jewels, and more purified than
-  gold," to keep in a fitting place, where they might gather each
-  year, "the Lord permitting," to celebrate the anniversary of his
+  gold," to keep in a fitting place, where they might gather together,
+  "as opportunity is allowed us," to celebrate the anniversary of his
   martyrdom - in memory of those who had already finished the course,
   and to prepare those still to walk it.
 
@@ -80,3 +80,9 @@ read "finest gold," conflating jewels and gold; the actual vendored
 wording is used here). canon_cells: F6-E (f6-e-02) reinforces pahc.
 force.martyrdom-meaning and pahc.gravity.martyrdom-meaning, the same
 cell both already claim.
+
+FIXED at Step 9 round-1 review: "the Lord permitting" (ch. 18) was not
+this vendored edition's own wording - grepped the full stripped ANF
+vol. 1 and found zero occurrences of that phrase anywhere in the
+volume. Corrected to the edition's actual phrase at that point in the
+same sentence, "as opportunity is allowed us."

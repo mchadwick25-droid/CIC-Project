@@ -15,7 +15,7 @@ confidence:
   divergence_note: "Inferential-Thin always, per Tier 4 - the underlying textual facts are Documented, but the specific procedural detail (water-type fallback sequence, threefold pouring) is not claimed beyond the Didache's own single, likely Syrian, community. The general shape this story depicts (catechesis before baptism, triadic water-naming, pre-baptismal fasting) is independently corroborated elsewhere (Justin, First Apology 61/65-66; Ignatius, Smyrnaeans 8:2, more thinly) - this story's own specific sequence remains Didache-only."
 sources:
 - source_id: pahc.source.didache
-  locus: "1:1-2; 7 (the baptismal instruction)"
+  locus: "1:1-2; 2:1-4:14 (the Way of Life's own moral inventory and almsgiving instruction); 5:1 (the Way of Death, by contrast); 7 (the baptismal instruction)"
   license: public-domain
 retrieval:
   tier: 2
@@ -40,8 +40,15 @@ text: >
   death; but a great difference between the two ways" - the Way of
   Life beginning with love of God and neighbor, and the Golden Rule
   turned into a rule of restraint: "whatsoever thou wouldst should not
-  occur to thee, thou also to another do not do." The Way of Death is
-  laid out by contrast, a catalog of what the Way of Life rejects.
+  occur to thee, thou also to another do not do." That teaching went on
+  to name what the Way of Life actually forbade and required: not to
+  commit murder, adultery, pederasty, or fornication; not to steal,
+  practice magic or witchcraft, or murder a child by abortion; not to
+  swear falsely or bear false witness; and, turning from prohibition to
+  obligation, not to turn away from one who was in want, but to share
+  all things with one's brother rather than call anything one's own.
+  The Way of Death was laid out by contrast, a catalog of what the Way
+  of Life rejects.
 
   Once this teaching had been given, the one preparing would be
   baptized - in running water if it could be found, but standing water
@@ -67,3 +74,16 @@ narrative form. This story deliberately carries the SAME two-level
 representativeness caveat pahc.term.two-ways already established
 (specific sequence Didache-only; general shape now cross-strand
 corroborated), rather than restating it more loosely.
+
+FIXED at Step 9 round-1 review: this record's own text previously
+dropped the Way of Life's actual moral inventory - the specific
+prohibitions and the almsgiving instruction the Formation Ecology
+Connection this record draws on actually depends on - naming only the
+Golden-Rule-as-restraint opening. Restored a clause naming the
+prohibitions (murder, adultery, pederasty, fornication, theft, magic,
+witchcraft, abortion, false swearing, false witness) and the
+almsgiving instruction ("thou shalt not turn away from him that is in
+want, but thou shalt share all things with thy brother"), both checked
+directly against this same vendored edition, ch. 2 (viii.iii.ii) and
+ch. 4 (viii.iii.iv). Locus extended from "1:1-2; 7" to cover the
+chapters this content actually comes from.

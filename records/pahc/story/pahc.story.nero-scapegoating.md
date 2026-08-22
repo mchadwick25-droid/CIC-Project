@@ -30,6 +30,8 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.force.neronian-persecution
+- type: associated-with
+  target: pahc.gravity.authority-consolidation
 narrative_tier: 1
 narrative_tier_justification: "A specific, dated historical event, from a named, datable historian, describing named individuals in the surrounding narrative (Nero), though no Christian individual by name. Widely Accepted as basically authentic to Tacitus's own text; the live Shaw/Jones dispute over whether a discrete, named-group persecution actually occurred is carried at full strength, not resolved."
 tellable_as: "After the Great Fire of Rome, Nero shifts blame onto a group the historian Tacitus calls Chrestiani, and has them executed with deliberate, theatrical cruelty."
@@ -65,3 +67,19 @@ cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, div1 ii.
 relations: associated-with pahc.force.neronian-persecution, the force
 record built directly from this same event - this story is that
 force's own narrative form, not a duplicate claim.
+
+FIXED at Step 9 round-1 review: Doc_09 Section 3's own connection data
+for this story names three gravity links - G01 (authority-
+consolidation) as a generative trigger, plus G03 (state-pressure) and
+G04 (martyrdom-meaning) as background. Only the force-level relation
+was carried into this record's own front matter; disclosed here rather
+than silently dropped. The G01 link is now restated directly as a
+schema edge (associated-with pahc.gravity.authority-consolidation,
+reciprocated on that record). The G03 and G04 background links are
+deliberately routed through the existing pahc.force.neronian-
+persecution relation instead of asserted as direct story-gravity edges
+- this event's own state-pressure and martyrdom-meaning content is
+already carried at the force level, and duplicating it here as two
+more direct gravity edges would overstate what this specific,
+entirely-outside-voice story establishes on its own. Same disclosed-
+discipline pattern already used in pahc.story.mutual-aid-prisoner.

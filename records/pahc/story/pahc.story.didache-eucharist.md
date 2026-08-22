@@ -50,7 +50,7 @@ text: >
   made perfect - closing with the community's own cry: "If any one is
   holy, let him come; if any one is not so, let him repent. Maran
   atha. Amen." On the Lord's own day, the community would gather,
-  break bread, and give thanks, "having first confessed your
+  break bread, and give thanks, "after having confessed your
   transgressions, that your sacrifice may be pure" - anyone at
   variance with another was to be reconciled first, "that your
   sacrifice may not be profaned."
@@ -68,7 +68,10 @@ didache-liturgies.xml, div1 viii, chs. 9-10 (viii.iii.ix-x) and ch. 14
 "Maranatha" (one word) to match this specific vendored edition's actual
 spelling ("Maran atha," two words) - a minor but real verbatim
 correction, caught during this record's own direct re-verification.
-canon_cells: F4-I reinforces the same cell already claimed by
+FIXED at Step 9 round-1 review: a second drift on the same page was
+missed in that same pass - "having first confessed" inserted a word
+("first") this edition's ch. 14 does not carry; the actual wording is
+"after having confessed." Corrected. canon_cells: F4-I reinforces the same cell already claimed by
 pahc.term.eucharistia and several other records; this story's own value
 is specifically in the diversity-first discipline it carries, per
 Doc_02's own established rule never to merge this order with Story 006

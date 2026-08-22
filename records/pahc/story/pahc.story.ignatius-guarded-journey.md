@@ -17,6 +17,9 @@ sources:
 - source_id: pahc.source.ignatius-letters
   locus: "Romans 4-5 ('food for wild beasts'; 'ten leopards'); passim (the journey, the delegations, the seven letters)"
   license: public-domain
+- source_id: pahc.source.polycarp-philippians
+  locus: "9 ('with whom also they suffered'); 13 (request for 'more certain information' about Ignatius)"
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -68,7 +71,7 @@ text: >
   This is a condemned man's own account, written in transit, of what he
   believed his death would mean and what he believed the churches
   receiving his letters needed to hear before it happened.
-absent_detail: "No source records what happened after Ignatius reached Rome, or confirms his death actually occurred as he anticipated it - the letters themselves end before that point, and no independent account of his arrival or execution survives."
+absent_detail: "No source narrates Ignatius's arrival in Rome or his execution - the letters end before that point, and no account of it survives. Polycarp's own letter to the Philippians speaks of Ignatius, alongside Zosimus and Rufus, as already 'in their due place in the presence of the Lord, with whom also they suffered' (ch. 9) - implying his death had already happened - while that same letter's ch. 13 asks for 'more certain information... respecting both Ignatius himself, and those that were with him,' as if his fate were not yet known. This tension is bound up with the question of that letter's own compositional unity, and is not smoothed over here."
 ---
 Re-derived from the approved Doc_09 Story 001 (World-Builds/01-Post-
 Apostolic-House-Church/CiC_W1_Doc09_Story_Inventory.md and its own
@@ -85,3 +88,23 @@ direct match to this story's own content, added here rather than
 retrofitted. All five gravity relations restated from Doc_09's own
 Section 2/3 connection data (G01, G02, G04, G05, G07) - this is this
 world's single most gravity-concentrated story.
+
+FIXED at Step 9 round-1 review: this record's own absent_detail
+previously claimed no source confirms Ignatius's death occurred as
+anticipated, full stop - contradicted by Polycarp's own letter to the
+Philippians (already registered as pahc.source.polycarp-philippians),
+which speaks of Ignatius in ch. 9 as already "in their due place in
+the presence of the Lord, with whom also they suffered," alongside
+Zosimus and Rufus. Both quotations checked directly against
+cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml. Restated to
+disclose the actual tension: ch. 9 implies Ignatius's death had
+already occurred, while ch. 13 of the same letter still asks for
+"more certain information... respecting both Ignatius himself, and
+those that were with him" - a tension the source's own compositional-
+unity question (chs. 1-12 usually dated earlier than chs. 13-14)
+already carries, not resolved here. pahc.source.polycarp-philippians
+added to this record's own sources list accordingly. Per that source
+record's own transmission caveat, the ch. 13 quotation rests on the
+Latin transmission (the Greek breaks off mid-sentence at 9.2, fused to
+Barnabas 5.7) - disclosed here rather than presented as equally
+Greek-attested alongside the ch. 9 quotation.

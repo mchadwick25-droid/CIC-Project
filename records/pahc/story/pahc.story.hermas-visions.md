@@ -6,21 +6,22 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells:
-- F1-P
+- F4-I
 confidence:
   citation_specificity: A
   verification_state: verified-direct
   evidentiary_weight: load-bearing
-  formation_confidence: Contested
+  formation_confidence: Widely Accepted
   divergence_note: "Widely Accepted that the text and its visions are genuinely Hermas's own reported content; Contested on composition dating and staging (composite across c. 90-150 CE - see pahc.contested.hermas-dating). A genre distinction is load-bearing here: this classification concerns the text's own direct, named attestation of reporting these visions, not a claim that the supernatural content itself is historically factual."
 sources:
 - source_id: pahc.source.shepherd-hermas
-  locus: "Vision 2.2 (the old woman who is the Church); Vision 2.4.3 (Clement and Grapte)"
+  locus: "Vision 2.4.1 (the old woman who is the Church); Vision 2.4.3 (Clement and Grapte); Vision 3 (the woman growing younger)"
   license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
   - "participant asks about repentance, forgiveness, or a second chance after moral failure"
+  - "participant asks whether someone who wronged the community could come back"
   - "participant asks about G01 from the Roman plural-presbyter angle"
   do_not_retrieve_when:
   - "participant needs a straightforward historical-narrative register without the genre disclosure this story requires"
@@ -58,8 +59,22 @@ created first of all... for her sake was the world made" and the
 Clement/Grapte instruction ("along with the presbyters who preside
 over the Church") both checked directly against cic/texts/anf02_
 hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, div1 ii.
-canon_cells: F1-P ("I grew up being told doubt was sin. Was there room
-among your people for doubt?") is a reasonable match to this story's
-own mercy-and-repentance content, given this world's own thin general
-material on doubt specifically - reinforces pahc.witness.doubt-and-
-asking, which draws on the same figure's own Mandate 9 content.
+FIXED at Step 9 round-1 review: three corrections, all in this record's
+own front matter. (1) locus corrected - the old-woman-is-the-Church
+exchange quoted in this record's own text is Vision 2.4.1, not Vision
+2.2 (which is separate limits-of-repentance material this record does
+not actually draw on); the "grows younger" detail is Vision 3, which
+the locus previously omitted entirely. (2) canon_cells corrected from
+F1-P to F4-I: neither f1-p-01 nor f1-p-02 is about repentance after
+wrongdoing, and this record's own prior justification cited Mandate 9
+content this record does not contain. F4-I (f4-i-05, "When someone
+wronged the community, how was it handled - and could they come
+back?") is the genuine match to this story's own mercy-and-repentance
+content, given this world's own thin general material on that
+question specifically. (3) formation_confidence corrected from
+Contested to Widely Accepted, matching this record's own
+divergence_note (which already stated Widely Accepted on authorship/
+attestation, Contested only on composition dating) and Doc_09 Story
+007's own stated confidence - every sibling record with this same
+split sets the leading value; only this one had set the trailing
+value instead.
