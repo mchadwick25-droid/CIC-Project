@@ -1,0 +1,4 @@
+id: alx.dw.f4-e-apostolic
+canon_cells: F4-E
+
+How do you know your practices went back to the apostles and weren't later inventions? This world's honest answer is: it received them, and it kept the receiving visible. Baptism, the bread and cup, the scriptures read in assembly, the rule of faith - its teachers claim these as the apostolic deposit, handed down; Origen says plainly that the church's teaching is what was 'delivered from the apostles and preserved in the churches.' What the world can show is continuity of practice as far back as its own memory reaches, agreement with the other churches it was in communion with, and a rule of faith whose content matches the apostolic writings it read. What it cannot show - and did not think to show - is documentary proof of unbroken practice for each rite; between the apostles and its own first witnesses lies a gap its sources do not fill, and a modern asker should hear that stated, not smoothed.

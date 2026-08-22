@@ -1,0 +1,102 @@
+# Scrub: Alexandria (alexandria-catechetical) vs. the 40 vendored volumes
+
+Assessment only — nothing proposed for building; owner decides. Read-only sweep, 2026-08-18.
+
+## Baseline (what the records already have)
+
+- **37 source records** (`cic/records/alexandria/source/srcALX001–037`): P-rows for Clement (001, corpus; 028 Quis Dives), Origen (002, corpus-level), Athanasius (003, 004 Life of Antony, 027 De incarnatione), Didymus Tura (005), Dionysius of Alexandria "via Eusebius" (006), Gregory Thaumaturgus Address (007), Philo (008), Eusebius HE (009), Palladius (010), Apophthegmata (011), Jerome De viris/Letters (012), Nicene Creed (029), plus pre/extra-horizon anchors (030–032), one M-row for the build's own De inc. 54 rendering (033), and S-rows 013–026, 034–037.
+- **Quote records: exactly 1** — `alexq001` (De inc. 54, `license: paraphrase-only`, `translation_used: srcALX033` = the build's own rendering, because "no vetted translation row exists").
+- **Figures: 12**, dates blocks on **4** (`alexfig001` Origen floruit in-build, `002` Clement floruit in-build, `005` Didymus UNVERIFIED Britannica 2026-08-15, `008` Pantaenus UNVERIFIED Catholic Encyclopedia 2026-08-15). A fifth date rides only in `alexfig007`'s scholarly name string ("Demetrius of Alexandria (bishop 189-232)") with no dates block — if the "5 of 12" count includes it, that fifth is unsourced free text.
+- **Zero Alexandria records cite any vendored text file.** `texts_registry.py` confirms anf02, anf04, anf06, anf09, npnf201–204 etc. carry no Alexandria citations. Everything below is therefore a new tie, not a duplicate — the *works* are often already covered corpus-level by an srcALX row (noted per finding), but no record points at a vendored locus.
+
+## Findings (ranked)
+
+### Tier 1 — directly repairs a named gap, passage located
+
+**F1. npnf204 carries the exact verbatim line behind the world's only quote record.**
+`cic/texts/npnf204_athanasius-select-works-letters.xml` line 18744 (De incarnatione 54): "was made man that we might be made God" (with the Greek θεοποιηθῶμεν in the editor's note). `alexq001` is currently `license: paraphrase-only` with `translation_used: srcALX033` (the build's own rendering) *because "no vetted translation row exists."* A vetted PD translation of that very locus sits vendored and uncited. Serves: upgrading the one existing quote from paraphrase to verifiable verbatim — the cheapest, highest-leverage single fix in this world.
+
+**F2. Didymus the Blind — two primary, in-horizon date attestations, both vendored.**
+- `cic/texts/palladius_lausiac-history_clarke1918.txt` line 211 (Lausiac History ch. IV): "I met him four times in all... He was 85 years old when he died. He was blind, having lost his sight at the age of four, so he told me." Eyewitness, and the file is already the source behind alexstory002 (srcALX010) — but never cited by any Alexandria record.
+- `cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml` lines 41448–41467 (Jerome, De viris illustribus 109, written 392/3): "He is still living, and has already passed his eighty-third year," plus his works list (Psalms, Job, Zechariah — matching srcALX005's Tura list). Jerome's De viris is already covered corpus-level by srcALX012, but no located passage exists.
+Together these attest birth c. 309–313 and age at death 85 from primary witnesses, replacing alexfig005's UNVERIFIED Britannica lookup (2026-08-15). Serves: figure-date verification, exactly the flagged gap.
+
+**F3. Pantaenus — the two passages the UNVERIFIED Catholic Encyclopedia lookup itself cites are vendored.**
+- `cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml` lines 28482–28650 (Eusebius HE V.10, the locus the CE article cites): "About that time, Pantænus..."; "Pantænus finally became the head of the school at Alexandria, and expounded the treasures of divine doctrine both orally and in writing." Context chapter (HE V.9–10) pegs this to Commodus's tenth year (189, Demetrius's accession — editor note at line 31049).
+- `cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml` lines 40202–40222 (Jerome, De viris ill. 36): "He taught in the reigns of the emperor Severus and Antoninus surnamed Caracalla" — a primary floruit bound (193–217), with the India/Bartholomew/Hebrew Matthew story.
+- Bonus beyond dates: `cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` lines 27491–27495 (Clement, Stromateis I.1, Clement's own voice): "He, the true, the Sicilian bee, gathering the spoil of the flowers of the prophetic and apostolic meadow, engendered in the souls of his hearers a deathless element of knowledge." alexfig008's bridge_line says "Only the name is kept" — in fact a first-person tribute by his pupil is vendored. Serves: replaces the UNVERIFIED reference-work note AND enriches the thinnest figure in the build from inside the world's own corpus.
+
+**F4. Origen — birth/death dates attested in vendored Eusebius; alexfig001 says "no birth or death date is attested in this build."**
+`npnf201_eusebius-church-history-life-of-constantine.xml` line 39163 (HE VII.1): "At this time Origen died, being sixty-nine years of age" (under Gallus, i.e. 253/4 → birth c. 185). Also line 32732 (HE VI.3): "He was in his eighteenth year when he took charge of the catechetical school." Eusebius HE is srcALX009 corpus-level; no located passage exists. Serves: converting alexfig001 from in-build floruit-only to primary-attested life dates.
+
+### Tier 2 — quote-record famine: located quotable primaries (world has 1 quote record)
+
+**F5. Clement, Stromateis I.5 — the philosophy-as-schoolmaster charter line.** `anf02...xml` lines 27890–27894: "philosophy was given to the Greeks... For this was a schoolmaster to bring 'the Hellenic mind,' as the law, the Hebrews, 'to Christ.' Philosophy, therefore, was a preparation." The single most load-bearing quotable for the world's Greek-philosophy-and-faith theme. srcALX001 covers the work; no quote record touches it.
+
+**F6. Clement, Protrepticus I — the New Song.** `anf02...xml` line 15213: "Behold the might of the new song! It has made men out of stones, men out of beasts." Serves: Protreptikos voice material, Logos-as-cosmic-harmony ("It also composed the universe into melodious order").
+
+**F7. Origen, De Principiis IV.1.11 — the multi-sense reading doctrine.** `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` lines 32390–32400: "the very body of Scripture... the very soul of Scripture... For as man is said to consist of body, and soul, and spirit, so also does sacred Scripture." The world's core reading-practice doctrine, verbatim, vendored, uncited. De Principiis begins at line 22375; Against Celsus at 35867; the Origen–Africanus letters at 35052/35126 (the Susanna exchange — text-critical practice material).
+
+**F8. Origen, Commentary on John I.6 — the Gospel as firstfruits.** `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` line 20576: "We may therefore make bold to say that the Gospels are the first fruits of all the Scriptures, but that of the Gospels that of John is the first fruits." Commentary on John starts line 20318; Commentary on Matthew line 29556. srcALX002 is corpus-level only; no commentary passage is located anywhere in the records.
+
+### Tier 2 (cont.) — figure and story material
+
+**F9. Gregory Thaumaturgus's Panegyric to Origen — the full text behind srcALX007 is vendored in anf06.**
+`cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml`, "The Oration and Panegyric Addressed to Origen" begins line 2288; the famous formation line at line 3018 (Argument VI): "like some spark lighting upon our inmost soul, love was kindled and burst into flame within us,—a love at once to the Holy Word." Arguments VII–IX (lines 3085–3368) are the curriculum description (logic, physics, geometry, astronomy, ethics). srcALX007 exists but cites nothing vendored; alexstory001 ("Gregory's Address to Origen") likewise has no vendored locus. Serves: paideia/formation-by-teaching quotes and story verification in one stroke. Also in anf06: Gregory's "A Declaration of Faith" (line 909) and Canonical Epistle (line 1981).
+
+**F10. Athanasius death date and 46-year episcopate — attested in vendored Socrates.**
+`cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml` lines 13310–13322 (Socrates HE IV.20): Athanasius "departed this life in the second consulate of Gratian and Probus, having governed that church amidst the greatest perils forty-six years" (→ 373, episcopate from 328). `alexfig003` currently has no dates block at all. Caveat: Socrates writes c. 439 — a later witness, but the same class as Palladius (419–420), which the world already accepts. Serves: a sixth dated figure.
+
+**F11. Demetrius — the "bishop 189–232" now only free-text in alexfig007's name string is attestable from vendored Eusebius.**
+`npnf201...xml` line 36336 (HE VI.26): Demetrius "held the office for forty-three full years" and was succeeded by Heraclas; accession under Commodus's tenth year at HE V.22 (chapter beginning line 31002, editor's note lines 31049–51 doing the arithmetic: 189 + 43 = 232). Serves: converting an unsourced name-string date into an attested dates block; also the Origen–Demetrius conflict record (alexstory008) gains a locatable primary.
+
+**F12. Pantaenus teaching fragments — alexfig008's "only the name is kept" is too strong.**
+`cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`, section "Pantænus, the Alexandrian Philosopher" (line 72868): fragment I (line 72917, from the Eclogae/Extracts transmitted within Clement's corpus): "But our Pantænus said: 'The language employed by prophecy is for the most part indefinite, the present tense being used for the future, and again the present for the past.'" Fragment II (line 72926, via the Scholia of Maximus, 7th-c. transmission — flag the late carrier) on how God knows the universe, "asked by some who prided themselves on the outside learning" (τὴν ἔξω παίδευσιν). A hermeneutical dictum from the school's first named teacher, exactly this world's reading-practice territory. Serves: enriching the thinnest figure; the transmission caveat belongs in any use.
+
+**F13. Clement's one tellable story — John and the young robber (Quis Dives 42) — vendored.**
+`anf02...xml`: Quis Dives begins line 56126; the story at lines ~57240–57330 ("when, on the tyrant's death, he returned to Ephesus from the isle..."; introduced as a true account "about the Apostle John"). srcALX028 covers the work; no story record tells it (alexstory001–010 checked — absent). alexfig002's accepted-refusal ("his words are kept, his days are not") remains true of Clement's *life*; but this is a narratable story inside his kept words. Assessment note only — whether it merits a story record is the owner's call against the Doc_09 absent-stories discipline.
+
+**F14. Two in-horizon controversies over allegorical reading, both located in vendored Eusebius, neither anywhere in the records.**
+- Porphyry's contemporary attack, naming Origen: `npnf201...xml` lines 34975–34991 (HE VI.19): "they boast that the plain words of Moses are enigmas, and regard them as oracles full of hidden mysteries... I refer to Origen... this man, having been a hearer of Ammonius." A pagan critic of allegory, 3rd century — in-horizon, NOT the later Origenist dispute.
+- Nepos vs. Dionysius: `npnf201...xml` lines 41290–41305 (HE VII.24): Nepos "wrote a book... entitled Refutation of Allegorists"; "Dionysius opposes this in his books on the Promises." The Egyptian chiliasm dispute — the school's reading practice contested from within Egypt, settled by patient teaching (Dionysius's account of the three-day Arsinoite conference follows). Serves: contested_claim / force material on allegory's opponents that does not touch 553.
+
+**F15. Athanasius Festal Letter 39 (canon list, 367) — located.**
+`npnf204...xml` line 68714: "(For 367.) Of the particular books and their number, which are accepted by the Church. From the thirty-ninth Letter..." srcALX003 names the Festal Letters corpus-level; this is the single most load-bearing letter for a catechetical world (what a catechumen may read). Life of Antony also vendored in the same volume (line 30986 ff.), tying srcALX004/alexstory005 to a locatable text.
+
+**F16. Dionysius of Alexandria — his own extant fragments are vendored, not just "via Eusebius."**
+srcALX006's transmission note says his letters survive via Eusebius; `anf06...xml` carries the collected "Extant Fragments" directly (Dionysius section from line 7636, Extant Fragments line 7870, Epistle to Dionysius Bishop of Rome line 9200, Epistle to Basilides line 9492). Plus the third Didymus witness: Socrates HE IV.25 "Of Didymus the Blind Man," `npnf202...xml` line 13797. Serves: fragments locatable for quote/verification work without going through HE alone.
+
+### Tier 3 — ties already covered corpus-level; located for completeness (low new-content value)
+
+- srcALX030 Ignatius → `anf01...xml` (Epistles of Ignatius present; title blocks located). srcALX031 Irenaeus → `anf01...xml` line 29777 ("Against Heresies: Book I"). srcALX032 → `anf03_tertullian.xml` line 20025 ("The Prescription Against Heretics."). srcALX029 Nicene Creed → `npnf214...xml` lines 2394, 25800 ("The Nicene Creed"); also in npnf204's Nicaea material. These duplicate existing source rows in substance; the only news is that the vendored locus exists and is uncited.
+- Clement's Excerpts of Theodotus, beyond srcALX001's trio: `anf08...xml` lines 3788/3846 ("Excerpts of Theodotus.") — minor corpus extension, attribution complications (Clement quoting the Valentinian Theodotus).
+- Eusebius HE V.11/VI.6 on Clement succeeding Pantaenus, and Jerome De viris 38 (`npnf203...xml` lines 40249–40252: "Clemens... a pupil of the Pantaenus mentioned above, led the theological school at Alexandria after the death of his master") — supplements alexfig002's in-build floruit with primary succession testimony.
+
+## Out-of-horizon traps found (flag, do not count)
+
+- **npnf214 — the 553 condemnation itself.** Line 22863 "The Anathemas against Origen paralleled" and line 23982 "Excursus on the XV. Anathemas Against Origen." The world's own rule says this does not exist for its voice. Do not cite from this volume for anything Origen-related.
+- **npnf203 — the Jerome–Rufinus quarrel (c. 393–402).** Jerome's Apology Against Rufinus and Rufinus's Apology to Anastasius (Didymus references at lines 49416, 49429–49436, 49846 are all inside this quarrel). Framed entirely by the first Origenist controversy — out. Jerome's *De viris illustribus* chapters used in F2/F3 predate the quarrel's heat (392/3) and are figure-testimonia, not controversy material — usable, but note the author later turned anti-Origenist.
+- **npnf206 — Jerome letters of the controversy.** "To Pammachius and Oceanus" (line 18919), "From Rufinus to Macarius" (18286), "To Avitus" (24608, the hostile De Principiis excerpt-list). Out.
+- **npnf202 — Theophilus vs. the Tall Brothers, c. 400–403.** Socrates VI: "Dissension between Theophilus... Condemnation of Origen's Books" (line 17563), "Epiphanius... convenes a Synod to condemn the Books of Origen" (17853), "The Author's Defence of Origen" (18122); Sozomen VIII (43316). All framed by the controversy — out, even the sympathetic defense.
+- **npnf211 — Gallic echoes of the same controversy.** Sulpitius Severus, Dialogues I (lines 2802–2865, "books of Origen... follower of Origen"), and Vincent of Lerins, Commonitorium ch. XVII (line 13362: "The Error of Origen a great Trial to the Church," 434 CE). Out. One incidental keeper in the same volume: Sulpitius's Sacred History II (line 10800), "At this time Leonida, the father of Origen, poured forth his sacred blood in martyrdom" under Severus — a later-witness corroboration of alexstory003's Leonidas material, not controversy-framed (persecution chronicle); primary locus remains Eusebius HE VI.1–2 in vendored npnf201.
+- **Transmission caveat on F7:** the vendored De Principiis in anf04 is Rufinus's Latin translation, whose preface and editing are themselves artifacts of the controversy. The work is in-horizon; any use should carry the Rufinus-transmission note (parallel to srcALX001's transmission_path discipline), and De Princ IV survives in Greek via the Philocalia — which is *not* vendored (see absences).
+
+## Absences (load-bearing sources not vendored; would need acquisition)
+
+1. **Philo** (srcALX008, licensed diagnostic use) — nothing vendored. Yonge's 1854–55 translation is PD and acquirable.
+2. **Origen's homilies** — srcALX002's own title says "commentaries, homilies..." but no homily exists in any vendored volume: ANF has only De Principiis, Contra Celsum, the Africanus letters, Comm. John 1–10, Comm. Matthew 1–2/10–14. The preaching side of formation-by-teaching is textually absent. PD English for most homilies is thin (many first translated in copyrighted 20th-c. series); would need checking per work.
+3. **Origen, On Prayer / Exhortation to Martyrdom / Dialogue with Heraclides / Philocalia** — none vendored. Philocalia matters doubly: it is the Greek control text for De Principiis IV (F7's caveat), and its compilers (Basil, Gregory Nazianzen) show the in-horizon reception. Only editorial mentions found (npnf208 line 1468, npnf201, anf09 notes).
+4. **Didymus's own works** (srcALX005 Tura corpus) — modern recoveries (1941), editions in copyright; cannot be vendored. His *On the Holy Spirit* survives in Jerome's Latin translation — Jerome's preface is in npnf206 (line ~48814 region) but the treatise itself is not in the NPNF set. Verification for Didymus will rest on the vendored testimonia (Palladius, Jerome, Socrates, Theodoret — F2).
+5. **Apophthegmata Patrum** (srcALX011) — Ward 1975 is in-copyright and explicitly excluded by the texts README; no PD English vendored.
+6. **Letters of Antony** (srcALX018 context) — Rubenson's translation in copyright; not vendored.
+7. **Eusebius's Chronicon** — alexfig008's UNVERIFIED note cites "Chron. Abr. 2210" for Pantaenus; only the HE is vendored. Not needed if F3's HE V.10 + Jerome De viris 36 suffice, but the specific cited locus is unverifiable from the vendored set.
+8. All S-row secondaries (013–026, 034–037) are in-copyright and correctly absent.
+
+## Volumes swept with nothing in-horizon
+
+anf03 (Tertullian — only the srcALX032 tie), anf05 (65 "Origen" hits all verified editorial — the 19th-c. misattribution of the Refutation to Origen, lines 641–785; nothing in-horizon), anf07, anf10 (**a 66KB stub**: the vendored file carries CCEL metadata but zero occurrences of "Origen" or "Clement" — the general index content is not actually there; worth knowing before anyone relies on it), addai, optatus, npnf101–108 (Augustine), npnf109–114 (Chrysostom; the two "Pantaenus" hits in npnf114 are editor's footnotes), npnf205 (Nyssa, one editorial Philocalia mention), npnf207 (Cyril of Jerusalem — catechetical *practice* but the Jerusalem school, extra-horizon; kept out), npnf208 (Basil — editorial Philocalia mention only), npnf210, npnf212, npnf213 (Alexandria hits are see-references and Leo/Gregory-era church politics, post-horizon); npnf211 is covered under traps above (plus its one Leonidas corroboration). Searched: figure names (Pantaenus with æ/ae/a variants, Didymus, Demetrius, Heraclas, Origen, Clement), school terms (catechetical, allegoriz-), and work titles per volume.
+
+## Bottom line
+
+The two flagged gaps are both fully repairable from what is already vendored: the quote famine has at least seven located, load-bearing quotables across anf02/anf04/anf06/anf09/npnf204 (F1, F5–F9), and both UNVERIFIED reference-work dates (Didymus, Pantaenus) have vendored primary attestations — in two cases the very loci the reference works themselves cite (F2, F3). Three further figures (Origen, Athanasius, Demetrius) are datable from vendored primaries (F4, F10, F11). The real acquisition needs are Philo and Origen's homiletic/spiritual works; everything else flagged absent is either in-copyright by nature or lost. The trap material is concentrated in npnf203/206/202/214 and is cleanly separable from the same volumes' usable testimonia.
+

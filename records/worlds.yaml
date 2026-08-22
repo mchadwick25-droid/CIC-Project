@@ -16,6 +16,19 @@ worlds:
       location: "packages/fix/2026-08-22T18-58-46Z"   # recompiled: M4 step 4 (fleet preamble in build_prompt + compiled/indexes/canon-map.json) changed the compiler's own output for every world - caught by the M2 staleness sweep. Records unchanged by this commit; recompile only.
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
+  alx:
+    world_id: alexandria-catechetical
+    display_name: "Alexandrian Christianity"
+    time_window: {start: 150, end: 400}
+    place: "Alexandria and Egypt"
+    representative: {name: Theon, role_label: "Catechetical Teacher"}   # sanctioned fabrications (spec principle 14) - RULED by Mark, 2026-08-21, in session ("for the name and role: Theon / Catechetical Teacher")
+    state: built            # step 6 (official compile) done 2026-08-21: gates 12/12 green + determinism-twice byte-identical + package verified via the stub loader - mechanical, gates-green transition only (Artifact-1 SS2), same semantics as fix's own built state; NOT admitted or open - step 7 (admission, live-model) and Mark's touchpoints (admission read, freeze, open) still pending
+    census_id: "alexandria-catechetical"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.2") - verified against the running Atlas frontend, not guessed from the spec's own illustrative "IX.12"-style example: atlas-v3.html's "Interview <rep>" button sends data-aid="${m.id}" (the census entry's id field), not atlasId, so this is the value the real deep link actually needs. Matches this world's own world_id independently.
+    package:
+      manifest_hash: "sha256:6308055483aa7e0bc2033f5fbcba8a964b70605a8926ec25b74c49ab160e982f"
+      location: "packages/alx/2026-08-22T20-11-49Z"   # recompiled: M4 step 4 (fleet preamble in build_prompt + compiled/indexes/canon-map.json) changed the compiler's own output for every world - caught by the M2 staleness sweep on merge into build/phase-1 (alx's own branch predated that change). Records unchanged; recompile only.
+    thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
+    living_tradition_flag: true   # prior-framework confirmation by Mark (2026-07-17): Coptic Orthodox Church primary heir; carried forward with re-confirmation under the new spec flagged as pending - the doorway carries the living-tradition distinction meanwhile (fail toward disclosure)
   desert:
     world_id: desert-monasticism
     display_name: "Desert Monasticism"
