@@ -21,7 +21,7 @@ sources:
   locus: "ch. XXXII - as Palladius reports the Rule, including its offices"
   license: public-domain
 - source_id: desert.source.sozomen-historia-ecclesiastica
-  locus: "III.14 - the rule summary at one remove; corroborating weight only, since Sozomen here tracks Socrates and the wider monastic literary tradition, not independent testimony"
+  locus: "III.14 - the rule summary at one remove; Sozomen's own chapter draws on a range of sources including Palladius's Lausiac History itself (per the chapter's own editorial source-note), so it corroborates rather than independently confirms Palladius's account"
   license: public-domain
 - source_id: desert.source.rousseau-pachomius
   locus: "the named modern authority for the Latin Rule tradition's office-content (housemaster, steward), which neither vendored witness supplies by name"
@@ -77,3 +77,9 @@ witness") - added to the Sozomen locus. Finding S5: the Apophthegmata's
 structure was offered as evidence unscreened, the same move fixed on
 elder-authority and spiritual-combat in the previous round but missed
 here though this record was edited in that same commit - added.
+
+Step3b Review Round 3, Findings S1/S2: the Round 2 fix's Sozomen locus
+asserted Sozomen III.14 "tracks Socrates" - checked directly against
+the vendored file's own editorial source-note for that chapter, which
+does not list Socrates among its sources but does list Palladius's
+Lausiac History. Corrected to name the real dependence.

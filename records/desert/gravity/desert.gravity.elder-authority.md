@@ -19,7 +19,7 @@ sources:
   locus: "elder authority in practice (e.g. Pambo, ch. X)"
   license: public-domain
 - source_id: desert.source.pachomian-corpus
-  locus: "the Rule's contrasting office-based model, as Palladius and Sozomen report it"
+  locus: "the Rule's contrasting office-based model, as Palladius reports it; also the second attesting stream (alongside the Apophthegmata) answering the Rubenson/Antony-literacy Cross-Check question, matching desert.gravity.withdrawal's own use of this source for the identical question"
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal
@@ -72,3 +72,11 @@ Finding M4: the Pachomian-corpus locus made a Rule-content contrast
 claim with no channel named, against that source's own standing rule -
 "as Palladius and Sozomen report it" added, matching koinonia's own
 channel-naming for the general Rule contrast.
+
+Step3b Review Round 3, Finding M1: the Round 2 fix named Sozomen in
+this locus, but this record does not register Sozomen as a source -
+corrected to name only Palladius, the witness actually registered.
+Finding M2: the Rubenson paragraph above leans on the Pachomian corpus
+as an attesting stream, but the locus described only its contrasting
+role - broadened to name both roles explicitly, matching
+desert.gravity.withdrawal's own locus for the identical Cross-Check use.

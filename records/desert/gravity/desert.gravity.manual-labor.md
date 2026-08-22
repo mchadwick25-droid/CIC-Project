@@ -31,12 +31,12 @@ relations:
 - type: associated-with
   target: desert.term.cheironaxia
 name: "Manual labor as ascetic discipline [PRIMARY]"
-description: "Cheironaxia - hand-work done both to live and as a discipline in its own right, against idleness - understood by this world as the discipline itself, not merely economic necessity. Rests on textual, papyrological, and archaeological evidence independently: Athanasius, Palladius, the Nepheros archive (Melitian-caveated), and Kellia's excavated commercial infrastructure. Strong on all six tests: attested across every evidence type available to this world; material sustainability, almsgiving, and the discipline against idleness all depend on it directly; it is understood as formation in itself; it directly explains the economic-embeddedness gravity's own point-evidence; and it is cross-strand. Documented/Widely Accepted, no discrepancy. Reinforces withdrawal and the economic-embeddedness gravity its own evidence partly feeds - the tension that gravity carries is with withdrawal's rhetoric specifically, not with this discipline itself. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+description: "Cheironaxia - hand-work done both to live and as a discipline in its own right, against idleness - understood by this world as the discipline itself, not merely economic necessity. Rests on textual, papyrological, and archaeological evidence independently: Athanasius, Palladius, the Nepheros archive (Melitian-caveated), and Kellia's excavated commercial infrastructure. Strong on all six tests: attested across every evidence type available to this world; material sustainability, almsgiving, and the discipline against idleness all depend on it directly; it is understood as formation in itself; it directly explains the economic-embeddedness gravity's own point-evidence; and it is cross-strand. Documented/Widely Accepted, no discrepancy. Reinforces withdrawal and the economic-embeddedness gravity its own evidence partly feeds - the tension that gravity carries is with withdrawal's rhetoric specifically, not with this discipline itself; Doc_04 also notes some tension with a purely contemplative reading of the Evagrian systematization gravity, carried as a soft-tension in the index's Interaction Matrix rather than as a declared relation here. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
 - "Antony working with his hands from the start of his withdrawal (Vita SS3)"
 - "Nitria's linen-manufacture, 'so that all are self-supporting' (Palladius ch. VII)"
 - "Kellia's excavated commercial center, showing the trade actually running"
-- "the Nepheros archive's ordinary monastic business letters, Melitian and caveated but kindred in pattern"
+- "the Nepheros archive's ordinary monastic business letters, Melitian and caveated - its own editors also read the community as organizationally intermediary, no clean fit to this world's three strands - but kindred in pattern"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 4, SS2
 row 4, SS3, SS4, SS5 row 4, SS6 (gravity 4). Doc_04's own Interaction-
@@ -70,3 +70,10 @@ the second clause. Finding M6: the Nepheros locus carried only the
 first of that source's two mandatory standing cautions - the second
 (organizationally intermediary, no clean fit to this world's three
 strands) added.
+
+Step3b Review Round 3, Finding M3: the Nepheros second caution landed
+in the locus only, not in the substantive field where Nepheros's first
+caution already appears - added to the manifestation too. Finding C3:
+the description rendered Doc_04's Interaction-test cell's second
+clause only by reference to the index; restated in the description
+itself for a reader who does not cross-check the index.

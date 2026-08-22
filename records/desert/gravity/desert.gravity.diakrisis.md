@@ -34,7 +34,7 @@ description: "The capacity to judge rightly between thoughts, practices, and cou
 manifestations:
 - "the recurring narrative pattern: an eager newcomer asks an elder for an extreme practice and is redirected toward something more moderate"
 - "Cassian's Conference II, devoted entirely to discretion as the teaching he received from the Egyptian elders"
-- "named elders like Poemen weighing each disciple's own case rather than applying a fixed rule - the situational judgment the sayings preserve again and again"
+- "diakrisis had no handbook of its own - unlike apatheia's ladder or the eight-logismoi taxonomy, this discipline survived only in the exercise itself, elder to elder, not in a named systematic text"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 5, SS2
 row 5, SS3, SS4, SS5 row 5, SS6 (gravity 5). The fabricated "mother of
@@ -68,5 +68,22 @@ substance in this record's own words, matching that sibling. Finding
 M5: the replacement third manifestation Round 1 installed restated,
 almost verbatim, a clause already in this record's own description -
 a duplicate, not a second genuine manifestation. Replaced with a
-concrete instance (named elders judging case by case) that duplicates
-neither the description nor the Interaction-test relationship.
+manifestation naming "elders like Poemen" that duplicated neither the
+description nor the Interaction-test relationship - but see Round 3
+below.
+
+Step3b Review Round 3, Finding S3: the Round 2 replacement manifestation
+named "Poemen," an elder with no basis anywhere in this build's
+registered corpus - not in Doc_04, not in any term/source/search
+record, not in any of the 47 vendored files (the one hit is
+"Poemenion," an unrelated place). This is exactly the failure Doc_04's
+own generation rule forbids (candidates from "general familiarity...
+rather than from the Source Ecology itself"), and it is specifically
+the name this world's own live-testing history flags twice as its
+documented fabrication-risk case (World-Builds/Desert-Monasticism/
+LiveTest_Scoring_Review.md; the standing Permanent Prompt guard names
+Poemen categorically). Removed. Replaced with a manifestation naming
+no figure and no episode - the absence of a named systematic text for
+diakrisis, contrasted with the Evagrian cluster's own registered texts
+- which needs no evidence beyond what this record and gravity 9 already
+carry.

@@ -27,7 +27,7 @@ description: "Scripture read for its immediate, applied bearing on a specific st
 manifestations:
 - "a scriptural word given directly by an elder as counsel for one disciple's specific struggle, in the sayings tradition's own terse idiom, rather than expounded systematically"
 - "the absence, by documented contrast, of a systematic exegetical corpus comparable to World #2's Alexandrian tradition"
-- "the sayings tradition's own habitual, unglossed use of scripture as immediate counsel"
+- "the sayings tradition's own habitual, unglossed use of scripture as immediate counsel - itself the later compilers' own selection and arrangement, not a transcript of how often or where this happened while it was being lived"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 7
 (corrected section citation per its own Round 1 review, Finding 6:
@@ -55,3 +55,10 @@ forces-connection notation at all - its body note only cited "SS4" as
 a section reference without stating the finding - though the index
 filled the Forces column on its behalf with Doc_04 SS4's actual
 sentence. Added Doc_04's own finding to the description directly.
+
+Step3b Review Round 3, Finding M4: the compiler-mediation caveat on
+this record was a pointer in the body note ("is a standing
+qualification... not a settled matter") rather than the caveat's own
+substance in a substantive field, the last Apophthegmata-citing record
+to still carry only a pointer. Added the substance to the third
+manifestation, matching the form now used on all five sibling records.

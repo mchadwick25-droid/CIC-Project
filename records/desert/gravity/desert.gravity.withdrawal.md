@@ -37,7 +37,7 @@ relations:
 - type: associated-with
   target: desert.term.anachoresis
 name: "Withdrawal [PRIMARY]"
-description: "This world's defining and generating act: leaving settled village life for the desert's edge, as the whole work of formation rather than a change of address. Attested across every independent evidence stream this world has - narrative (the Vita), the sayings tradition, Palladius, and the settlement archaeology at Kellia - and across all three strands. Strong on all six gravity tests: repeated in every stream, load-bearing for everything downstream of it (siting, strand differentiation, the thin liturgical record), directly formative, explanatory of the whole ecology's shape, persistent across Lower and Upper Egypt, and reinforcing of both elder authority and manual labor. Documented/Widely Accepted confidence with no discrepancy against its organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+description: "This world's defining and generating act: leaving settled village life for the desert's edge, as the whole work of formation rather than a change of address. Attested across this world's independent evidence streams - narrative (the Vita), the sayings tradition, Palladius, the settlement archaeology at Kellia, the Nepheros archive, and the Pachomian corpus - and across all three strands. Strong on all six gravity tests: repeated in every stream, load-bearing for everything downstream of it (siting, strand differentiation, the thin liturgical record), directly formative, explanatory of the whole ecology's shape, persistent across Lower and Upper Egypt, and reinforcing of both elder authority and manual labor. Documented/Widely Accepted confidence with no discrepancy against its organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
 - "Antony's staged withdrawal: village edge to outer mountain to inner mountain (Vita SS2-14, SS49-50)"
 - "the Apophthegmata's entire structure as a record of elders who had withdrawn - itself the later compilers' own arrangement, not a transcript of withdrawal's own lived timeline"
@@ -77,3 +77,8 @@ move - added here too. Finding M6: the Nepheros locus carried only the
 first of that source's two mandatory standing cautions (Melitian
 identity); the second (organizationally intermediary, no clean fit to
 this world's three strands) was carried nowhere on this record - added.
+
+Step3b Review Round 3, Finding C4: the description claimed attestation
+"across every independent evidence stream this world has" while
+listing only four of the record's six registered sources - reworded to
+list all six rather than claim exhaustiveness and fall short of it.

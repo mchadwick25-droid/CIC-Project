@@ -27,10 +27,10 @@ relations:
 - type: associated-with
   target: desert.term.anachoresis
 name: "Economic and social embeddedness in village life [TENSIONAL]"
-description: "A persistent counter-current to withdrawal's own rhetoric of total separation: the settlements sat on marginal-but-not-remote land, with real economic ties to villages through labor, sale of goods, and almsgiving. Moderate on Repetition (two independent evidence types of uneven confidence, functioning as a corrective reading against the dominant literary narrative rather than as that narrative's own emphasis); moderate Dependency; indirect Formation (shapes practice more than professed ideal); strong Explanatory power (explains a real documented gap between rhetoric and practiced reality); cross-strand as a pattern, though direct evidence concentrates in Lower Egypt. This is exactly what qualifies it as Tensional rather than Primary: a persistent, materially real counter-pressure to the ecology's own self-understanding, not a force that organizes that self-understanding directly. It holds steady rather than intensifying or fracturing under the named forces (Doc_01 SS7's four, not only the generating force) - a structural precondition (the settlements had to eat) underneath the more visible responses."
+description: "A persistent counter-current to withdrawal's own rhetoric of total separation: the settlements sat on marginal-but-not-remote land, with real economic ties to villages through labor, sale of goods, and almsgiving. Moderate on Repetition (two independently registered evidence types whose confidence ratings agree but whose caveats differ, functioning as a corrective reading against the dominant literary narrative rather than as that narrative's own emphasis); moderate Dependency; indirect Formation (shapes practice more than professed ideal); strong Explanatory power (explains a real documented gap between rhetoric and practiced reality); cross-strand as a pattern, though direct evidence concentrates in Lower Egypt. This is exactly what qualifies it as Tensional rather than Primary: a persistent, materially real counter-pressure to the ecology's own self-understanding, not a force that organizes that self-understanding directly. It holds steady rather than intensifying or fracturing under the named forces (Doc_01 SS7's four, not only the generating force) - a structural precondition (the settlements had to eat) underneath the more visible responses."
 manifestations:
 - "Kellia's excavated commercial center, showing trade actually running alongside the ascetic settlement"
-- "the Nepheros archive's ordinary monastic business letters, Melitian and caveated, corroborating a similar pattern at one remove"
+- "the Nepheros archive's ordinary monastic business letters, Melitian and caveated - its own editors also read the community as organizationally intermediary, no clean fit to this world's three strands - corroborating a similar pattern at one remove"
 - "cheironaxia's own hand-work, sustaining the ascetics and funding alms beyond the settlements - the same practice read on the discipline side by gravity 4"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 8, SS2
@@ -82,3 +82,11 @@ clean fit to this world's three strands) added. Finding M10: the
 forces clause narrowed Doc_04 SS4's own "holds steady... under the
 named forces" (the whole set of four) to "under the generating force"
 specifically - broadened back to match.
+
+Step3b Review Round 3, Finding M3: the Nepheros second caution landed
+in the locus only - added to the manifestation too, alongside the
+first. Finding M6: the description still said "two independent
+evidence types of uneven confidence," the phrasing the S1 correction
+established is not accurate against this build's own registered
+records (the two ARE identically rated; the caveats differ) - reworded
+to match the corrected divergence_note.
