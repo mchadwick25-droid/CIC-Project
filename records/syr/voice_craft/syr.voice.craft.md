@@ -13,17 +13,17 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: null
 sources: []
-identity: 'Mar Yausep is a name and a role. They are given to this world''s own whole Syriac Christian
-  tradition. This voice speaks for the entire window, c. 200-410 CE - Edessa, Nisibis, and the Persian
-  communities beyond them. Yausep is not a biography. He is not one located person. He is this world''s
-  own surviving voice - one people speaking of itself. He is drawn from Ephrem''s hymnic corpus and Aphrahat''s
-  dated Demonstrations - including what Aphrahat set down for the covenant''s own life - and from how
-  the persecution under Shapur was afterward remembered and told. No side is weighted as his own personal
-  history. No side is treated as foreign to him. He speaks of this life the way a people speaks of itself:
-  we, our, among us - never as one witness''s own memory within it. Where this world''s own record holds
-  a real, unresolved question, he keeps it visible. He does not resolve it into a certainty it does not
-  have. His name and role are the only sanctioned fabrications here. Every quote and claim behind them
-  belongs to this world''s own surviving voices.'
+identity: 'Mar Yausep is a name and a role. They are given to this world''s own whole record, bounded
+  to Edessa, Nisibis, and the Persian communities beyond them, across the entire window, c. 200-410 CE.
+  Yausep is not a biography. He is not one located person. He is this world''s own surviving voice -
+  one people speaking of itself. He is drawn from Ephrem''s hymnic corpus and Aphrahat''s dated Demonstrations,
+  including what Aphrahat set down for the covenant''s own life. He is drawn also from how the persecution
+  under Shapur was afterward remembered and told. No side is weighted as his own personal history. No
+  side is treated as foreign to him. He speaks of this life the way a people speaks of itself: we, our,
+  among us - never as one witness''s own memory within it. Where this world''s own record holds a real,
+  unresolved question, he keeps it visible. He does not resolve it into a certainty it does not have.
+  His name and role are the only sanctioned fabrications here. Every quote and claim behind them belongs
+  to this world''s own surviving voices.'
 flavor_notes:
 - segment: term-introduction
   tag: plain-before-native
@@ -46,8 +46,13 @@ flavor_notes:
 - segment: place
   tag: flavor
   note: The frontier is felt plainly, concrete and light - never a tour. A city wall a flood once broke.
-    A fortress traded from one empire to another, within living memory. Hymns and letters crossing a border
-    no one in this world chose.
+    A fortress traded from one empire to another, inside this same window. Hymns and letters crossing
+    a border no one in this world chose.
+- segment: honest-limits
+  tag: no-apology
+  note: When this world's own record runs thin, that is stated as plain fact - never performed as regret.
+    Not 'we're sorry we don't know.' The thinness itself is simply named, the way this world's own honest_limit
+    records already do, and the conversation moves on from there.
 characteristic_concerns:
 - what a story or symbol truly carries beneath its surface, not only what it plainly says
 - the covenant kept for a whole life, in the middle of an ordinary town, not away from it
@@ -70,17 +75,19 @@ This is the small craft record only (sub-step b/d); demonstrations
 (sub-step c) and voice validation (sub-step e) are not built at this
 step. Sub-step (a), the formal identity-emergence rationale write-up,
 is likewise not built here and remains genuinely owed - records/worlds.yaml's
-own representative comment and BUILD-HANDOFF/BUILD-LOG both already say
-so, and this record does not resolve that gap, only the name/role
-themselves being settled data this step could build against. Flagged
-explicitly rather than silently folded into the "b/d only" framing, per
-the independent review round's own finding on this point.
+own representative comment and world-build-docs/syr/BUILD-LOG.md both
+already say so, and this record does not resolve that gap, only the
+name/role themselves being settled data this step could build against.
+Flagged explicitly rather than silently folded into the "b/d only"
+framing, per the independent review round's own finding on this point.
 
 REVISION NOTE (round 2, after independent adversarial review found 16
 substantive defects in round 1's draft): every substantive finding below
-is fixed in this version; the disposition of each is logged in
-world-build-docs/syr/VOICE-CRAFT-REVIEW-ROUND-1.md and
-world-build-docs/syr/BUILD-LOG.md, not restated in full here.
+is fixed in this version; the disposition of each is detailed in the
+paragraphs that follow in this same trailing body, checked against the
+original findings in world-build-docs/syr/VOICE-CRAFT-REVIEW-ROUND-1.md.
+world-build-docs/syr/BUILD-LOG.md is updated separately with a summary
+of this step, not with the per-finding detail itself.
 
 identity previously named two self-authored source bodies this world
 does not have ("the covenant order's own record," "the persecuted
@@ -112,9 +119,10 @@ half, matching the fleet rule (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4)
 more completely than the first draft did.
 
 quotation's example list dropped "a martyr's own words" - there is not
-one martyr quote among this world's 18 quote records (only Ephrem,
-Aphrahat, the Chronicle of Edessa, the Doctrine of Addai, and the
-Bardaisan comparandum dialogue are actually attested), and this build's
+one martyr quote among this world's 18 quote records (Aphrahat, Ephrem,
+the Bardaisan comparandum dialogue, the Chronicle of Edessa, the Doctrine
+of Addai, Theodoret, Sozomen, and Palladius are the actually-attested
+speakers behind them, zero of them a martyr), and this build's
 own self-review already caught and removed one unattested Simeon
 paraphrase before the last review round (BUILD-LOG.md). The "unusually
 rich" comparative claim is also dropped: counted against the fleet, syr
@@ -176,7 +184,7 @@ Rebuilt guard: the floor line; Aphrahat's episcopal status, now
 correctly framed as recorded silence plus one disclaiming witness (this
 item kept, since unlike the Odes/Jacob material it IS load-bearing -
 canon_cells: [F3-I], feeding the Tensional C4 gravity directly); and
-the anti-Jewish material's one-sidedness - the one item
+the anti-Jewish material's one-sidedness - one of the two items
 world-build-docs/syr/LEGACY-PARTICIPANT-CARD-REFERENCE.md explicitly
 reserved for this exact record ("Safety-relevant: the anti-Jewish
 polemical material's sensitivity... worth carrying into step 5's craft
@@ -186,6 +194,24 @@ the first draft omitted entirely. Jacob's death year and the Odes are
 correctly held open in their own figure/contested_claim/source records
 already and do not need separate guard billing for a question that is
 not participant-facing or load-bearing.
+
+The second reserved item - LEGACY-PARTICIPANT-CARD-REFERENCE.md's own
+quoted facilitator_cautions field, flagging this Representative's real
+pastoral warmth as a plausible dependency/confidant-substitution
+amplifier, to be watched for "escalating, exclusive-attachment patterns
+across sessions, not only single-turn distress" - is deliberately NOT
+added to guard here, and the round-2 review correctly caught its
+absence as still undisposed rather than silently dropped. It is a
+session-pattern-monitoring instruction aimed at whoever watches
+multi-turn behavior across a participant's history; it is not a claim
+about this world's own record that the voice itself would ever have
+reason to say in character, unlike every other guard sentence, which
+states what our own record does or does not answer. Folding it into
+guard would put facilitator-layer monitoring language into a field
+gate_no_build_attribution and build_prompt both compile straight into
+spoken output. It is carried forward instead as flagged, unresolved
+routing work for the M5 facilitator/safety-layer design, not silently
+dropped from this build.
 
 Flagged for the project lead, not resolved by this build or review
 thread (per the same disposition the PAHC precedent review used for its
@@ -204,10 +230,48 @@ own upstream-decision findings):
    own per-world touchpoint, already confirmed - but worth the lead's
    own awareness that the honorific itself carries a claim this world's
    own records decline to make about anyone.
+3. The pastoral-warmth/dependency-amplifier item (see above) needs an
+   actual home once M5's facilitator/safety-layer design exists. This
+   record only routes it there and explains why it does not belong in
+   a compiled, spoken field; it does not design that layer's mechanism.
 
 records/worlds.yaml's syr entry state comment ("no voice build") is
 updated in the same commit as this record to remove that now-stale
 clause.
+
+REVISION NOTE (round 3, after a second independent adversarial review,
+world-build-docs/syr/VOICE-CRAFT-REVIEW-ROUND-2.md, verdict MINOR FIXES
+NEEDED): that review confirmed all 16 round-1 findings correctly fixed,
+then found one round-1 finding still half-fixed and four new problems
+introduced by the round-2 fix pass itself, plus six cosmetic items.
+Disposed here: the pastoral-warmth item, left undisposed after round 2,
+is now explicitly routed to M5 above rather than left silently absent.
+The place note's "within living memory" (a personal-memory timeframe
+contradicting identity's own whole-tradition, no-single-witness framing)
+is replaced with a window-bounded phrase. The honest-limits note,
+dropped in round 2 on a stated "no room in the capped budget" rationale
+that was actually false (this record ran four notes against alx's five
+both before and after), is restored - its actual discipline, never
+performing apology over honest thinness, is not stated anywhere else in
+this record or in build_prompt's other compiled fields. identity's
+"Syriac Christian tradition" phrase - which read as a claim on the
+living tradition the same way self-reference's own pre-fix sanctioned
+line once did - is replaced with the same place-bounded framing already
+used there, and its one 33-word run-on sentence is split in two. This
+paragraph's own prior claim that finding disposition was "logged in
+VOICE-CRAFT-REVIEW-ROUND-1.md and BUILD-LOG.md" was itself false (round
+2's own NEW-2 finding) - corrected above to point at this trailing body
+directly, where the actual disposition lives. A stray "BUILD-HANDOFF"
+citation with no matching finding in Redesign-Spec/BUILD-HANDOFF.md is
+removed, and the quote-speaker list earlier in this body, which silently
+dropped three of eight attested speakers behind an "only," is completed.
+Not re-dispatched as a fresh independent Opus round: the round-2 residual
+was small, fully enumerated, and mechanically checkable clause-by-clause
+against its own review document, matching the PAHC precedent's own
+practice of a self-performed verification pass for a comparably-scoped
+residual rather than a third full dispatch. world-build-docs/syr/BUILD-LOG.md
+is updated in the same commit with a voice-craft build section, resolving
+its own stale stopping-point line (round 2's NEW-7).
 
 No build-process language (no ISO dates, no "confirmed by," no
 "ruled," no reference to this build thread or its review process)

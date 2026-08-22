@@ -1,8 +1,8 @@
-# syr — Record-native build log (steps 1–4)
+# syr — Record-native build log (steps 1–5b/d)
 
 **World:** #7, Syriac Christianity (Edessa/Nisibis), `syr` / `syriac-edessa-nisibis`
 **Base:** the approved legacy build (Doc_01–Doc_09 + Decision Log, all Approved to proceed by Mark, 2026-07-07/08, with post-approval corrections through 2026-07-11) re-expressed in the Artifact-1 record schema, per the settled Step 0/Step 1 scope. Nothing in Doc_01's determinations was reopened.
-**Stopping point (by instruction):** full content canon complete; **no** voice_craft, demonstration, compile, or admission work.
+**Stopping point (by instruction):** full content canon complete (steps 1–4); step 5's voice_craft record (sub-steps b/d) drafted and independently reviewed to a clean disposition. **No** demonstration (5c), voice validation (5e), compile, or admission work — those still wait on the M4 live-generation design.
 
 ## Stage log
 
@@ -31,6 +31,40 @@
 ## Review round
 
 An independent adversarial review (fresh-context agent, no authorship involvement) was dispatched over the full corpus against the vendored texts and the approved legacy documents. **Verdict: COSMETIC ONLY** — zero substantial findings across all 150 records; every verbatim quote independently re-verified exact; every settled legacy correction confirmed faithfully carried corpus-wide. Eight cosmetic findings (a garbled clause, an overstated search note, a sourcing-completeness gap in one contested claim, a mis-quoted paraphrase, an inherited arithmetic error, process-language residue in six non-compiled-but-adjacent fields, two trailing-body id typos, one mid-clause quote truncation) were applied directly per the build-cycle discipline for cosmetic fixes — no fresh review round required. Full detail and per-finding disposition in `REVIEW-ROUND-1.md`. Post-fix: full gate battery re-run, 0 findings; strictly-compiled fields re-scanned for build-attribution language, 0 violations.
+
+## Step 5 (voice build) — sub-steps b/d only
+
+Representative identity (name Yausep, role Mar) confirmed by Mark as
+carrying forward from the prior framework; registry updated. `syr.voice.craft`
+(the capped per-world voice layer: identity, flavor_notes, characteristic_concerns,
+guard) drafted against the completed record corpus, then run through two
+rounds of independent adversarial review (fresh-context agent, no
+authorship involvement), following the same process the PAHC precedent
+build used for its own voice_craft record.
+
+- **Round 1** (`VOICE-CRAFT-REVIEW-ROUND-1.md`): verdict SUBSTANTIAL REVISION
+  REQUIRED — 16 substantive findings (two fabricated source bodies in
+  `identity`; an unattested martyr-quote category; a misstated contested_claim
+  finding; a caution-4/caution-8/caution-5 violation apiece; a FORMATION
+  TEST FAIL misread as lived experience; a living-tradition conflation in
+  the sanctioned self-naming line; both LEGACY-PARTICIPANT-CARD-REFERENCE.md
+  safety items omitted; a guard length/scope overrun; a structural gap
+  with zero flavor-tagged notes) plus cosmetic findings. All fixed in a
+  full revision; fixes independently re-verified in round 2.
+- **Round 2** (`VOICE-CRAFT-REVIEW-ROUND-2.md`): verdict MINOR FIXES NEEDED
+  — confirmed all 16 round-1 findings correctly fixed, then found one
+  round-1 finding (the pastoral-warmth/dependency-amplifier safety item)
+  still half-fixed, four new problems introduced by the fix pass itself,
+  and six cosmetic items. Disposition of each is logged in `syr.voice.craft.md`'s
+  own trailing body (round-3 revision note) rather than restated here;
+  fixed directly (self-performed verification, not a third independent
+  dispatch, matching the PAHC precedent's own practice for a comparably
+  small, fully-enumerated residual) and re-checked against the gate
+  battery.
+
+Full gate battery (schema, completion, `gate_no_build_attribution`) and
+an independent pronoun/fabrication scan re-run clean after each round's
+fixes.
 
 ## Escalation check (CO-022 categories)
 
