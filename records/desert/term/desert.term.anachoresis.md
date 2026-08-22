@@ -18,6 +18,9 @@ sources:
   license: public-domain
 - source_id: desert.source.apophthegmata-patrum
   locus: "passim (the tradition's organizing act)"
+- source_id: desert.source.palladius-lausiac-history
+  locus: "ch. VII, VIII, XVIII (withdrawal as the ordinary shape of settlement life at Nitria, Kellia, and the wider desert)"
+  license: public-domain
 - source_id: desert.source.kellia-excavations
   locus: "settlement pattern corroboration"
 - source_id: desert.source.nepheros-archive
@@ -72,3 +75,12 @@ above - Nepheros and Goehring alongside the already-present Kellia,
 and the Vita SS46-47 locus already anchored by
 desert.search.white-martyrdom-citation - rather than by rewording
 claims the sources already supported.
+
+Step3a Review Round 6, Finding S3: the evidential sense names Palladius
+among the attesting streams ("Athanasius's Life of Antony, the sayings
+tradition, Palladius, and the excavated settlements at Kellia"), but
+Palladius was not registered in sources[] - the same defect class this
+commit's own Round 5 fix addressed for Goehring, unswept to the one
+other unregistered name sitting in the same sentence. Registered above
+(ch. VII, VIII, XVIII, all attesting withdrawal as settlement life's
+ordinary shape).

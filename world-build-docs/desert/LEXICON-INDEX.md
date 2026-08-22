@@ -9,8 +9,8 @@
 ## Master table
 
 | # | Term (record slug) | Tier | AS | SC | DR | TC | RT | PV | CT | canon_cells | False friends (aliases) | Related terms | Key sources (registry ids) | Author-gravity risk |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | anachoresis | 1 | y | – | y | y | y | – | – | F4-I, F5-P | retreat-as-escape; vacation | apotage, xeniteia, kellion, hesychia, cheironaxia, geron-abba-amma | vita-antonii; apophthegmata; kellia | no (multi-stream) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | anachoresis | 1 | y | – | y | y | y | – | – | F4-I, F5-P | retreat-as-escape; vacation | apotage, xeniteia, kellion, hesychia, cheironaxia, geron-abba-amma | vita-antonii; apophthegmata; palladius; kellia; nepheros; goehring | no (multi-stream; Nepheros stream caveated, Goehring consult-only with open verification bound) |
 | 2 | apotage | 2 | – | y | – | y | y | – | – | F4-I, F5-T | one-time vow | anachoresis, koinonia | vita-antonii; pachomian-corpus | no |
 | 3 | hesychia | 1 | – | y | y | – | y | – | – | F4-P | mindfulness; hesychast method | anachoresis, nepsis, diakrisis | vita-antonii; apophthegmata | no |
 | 4 | logismoi | 1 | y | – | y | y | y | y | – | F4-P | clinical symptom; distractions | diakrisis, apatheia, antirrhesis, theoria, nepsis | vita-antonii; evagrius; apophthegmata | taxonomy: single-author (Evagrius) — flagged |
@@ -27,7 +27,7 @@
 | 15 | synaxis | 1 | – | y | – | – | y | y | – | F3-I, F4-I | generic church service | kellion | palladius; apophthegmata | no |
 | 16 | kellion | 2 | y | – | – | – | y | – | – | F5-I, F5-E | prison cell; just a room | synaxis, anachoresis | kellia; palladius | no |
 | 17 | antirrhesis | 3 | y | – | – | y | – | y | – | F2-I | affirmation technique; arguing with yourself | logismoi, apatheia | evagrius; socrates | single-author, single-text — flagged |
-| 18 | puritas-cordis | 3 | – | y | – | y | – | y | – | F4-I | vague devotional phrase | apatheia | cassian-conferences; cassian-institutes | single-author (Cassian, export edge) — flagged |
+| 18 | puritas-cordis | 3 | – | y | – | y | – | y | – | F4-I | vague devotional phrase | apatheia | cassian-conferences; cassian-institutes | single-author (Cassian, export screen) — flagged |
 
 ## View: by tier
 
@@ -39,7 +39,7 @@
 
 - **DR (high distortion risk):** anachoresis, hesychia, logismoi, xeniteia, apatheia, theoria, penthos, nepsis — every one carries a false_friend list and a translational sense doing the bridge work.
 - **CT (contested tradition):** **apatheia only.** CT-check: its contest type IS specified, not templated — contested as to *historical scope* (whether Antony himself possessed the philosophical literacy this register presupposes: Rubenson vs. Gould), NOT as to whether the vocabulary belongs to this world; `formation_confidence: Contested` carries it, and the full contest becomes `desert.contested.antony-literacy` at step 3c. (This is Doc_06 §2.2's twice-corrected formulation, preserved.)
-- **PV (plural voices):** logismoi (general vs. Evagrian-systematized), geron-abba-amma (abba vs. amma attestation asymmetry), koinonia (Strand B only), xeniteia, apatheia, theoria, nepsis (Strand C systematization), synaxis (Strand C name), antirrhesis, puritas-cordis (export edge).
+- **PV (plural voices):** logismoi (general vs. Evagrian-systematized), geron-abba-amma (abba vs. amma attestation asymmetry), koinonia (Strand B only), xeniteia, apatheia, theoria, nepsis (Strand C systematization), synaxis (Strand C name), antirrhesis, puritas-cordis (export screen).
 - **RT (likely runtime):** anachoresis, apotage, hesychia, logismoi, diakrisis, geron-abba-amma, cheironaxia, apophthegma, koinonia, synaxis, kellion.
 
 ## Reciprocity check
@@ -145,6 +145,35 @@ attribution rule. Two invented/substituted details also fixed: apotage's
 elders" (Palladius's own text names eight priests, an office - the
 lexicon's office-vs-elder distinction is now consistent across
 geron-abba-amma, koinonia, and synaxis alike).
+
+Step3a Review Round 6 (`world-build-docs/desert/reviews/Step3a_Review_Round6.md`)
+read all 72 sense fields cold, a third time, and found the jargon
+pattern genuinely clear for the first time in six rounds - all five
+prior families absent, and Round 5's own two jargon fixes held with no
+new instance written in. What remained was a different, narrower
+recurring signature: a citation-completeness fix applied to the record
+where a finding was written and not swept to the sibling carrying the
+identical claim. cheironaxia's translational and informational senses
+state the same embeddedness claim Round 5 fixed on anachoresis, but
+cheironaxia's own Nepheros row - edited in that same Round 5 commit -
+still lacked Goehring; anachoresis's own evidential sense separately
+named Palladius as an attesting stream without Palladius ever being
+registered. Round 5's own cheironaxia fix also compressed the Nepheros
+record's second caution into "organizationally distinct," inverting
+Doc_02's actual working assumption (which holds the opposite);
+reworded to match the correct caution already stated in the same
+record's evidential sense. And apotage's evidence for the Pachomian
+property-renunciation claim named the wrong channel: Palladius ch.
+XXXII and Sozomen III.14, read in full, give the tablet-rule and a
+three-year probation, not property renunciation - the claim's actual
+channel is the Latin Rule tradition, per the Pachomian source record's
+own standing rule to name it. Cosmetic: the master table's delimiter
+row had 14 cells to the header's 15 and did not render as a table at
+all, present since the draft and missed by five rounds - fixed; two
+index cells (anachoresis's key-sources and author-gravity) updated to
+match its now six-source record; puritas-cordis's index cells matched
+to "export screen," the label the apparatus itself actually uses,
+since the record's own "export edge" was excised in Round 5.
 
 ## Author-gravity column basis
 
