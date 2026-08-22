@@ -63,10 +63,18 @@ absent_detail: 'No unnamed congregant''s own account survives - the vigil''s int
   crisis exists only in its opponents'' words; and how close the soldiers actually came to storming the
   building cannot be known from inside the sources we have. Also missing if told as a bare power grab:
   the court''s demand followed a real imperial law (January 386, granting Homoian worship assembly) that
-  Ambrose''s own sermon on the crisis names and censures as "Auxentius'' cruel law" - a legal claim being
-  defied, not force without pretext (the law''s own text is not vendorable this build - see
-  ijc.search.theodosian-code-english - so it is referenced here at Documented via Ambrose''s own mention,
-  not quoted).'
+  Ambrose''s own sermon on the crisis names and censures directly - "let him take away his laws with him,"
+  "giving bloody laws with his mouth," "this law, which sanctions such perfidious decrees" (Sermo c. Aux.
+  23-24) - a legal claim being defied, not force without pretext (the law''s own text is not vendorable
+  this build - see ijc.search.theodosian-code-english - so it is referenced here at Documented via
+  Ambrose''s own words, not the law''s own text). Corrected at a follow-up confirmation review
+  (2026-08-22): the phrase "Auxentius'' cruel law" previously quoted here is the NPNF editor''s own
+  chapter-argument summary, not Ambrose''s wording - replaced with Ambrose''s actual sentences. Also
+  disclosed here, per this world''s own contested-dating discipline: this record dates the standoff to
+  386, following the now-dominant scholarly chronology, but the vendored edition itself dates Ep. XX and
+  the enabling law to Easter, 385 (its own headnote at Ep. XX, and its chronology at file line 704) - a
+  divergence between this build''s stated date and its own cited edition''s date, carried here rather
+  than silently resolved.'
 ---
 Rebuilt from the reviewed legacy Doc_09 story 4
 (Story-Chunks/ijcstory004) - the world's richest single narrative and

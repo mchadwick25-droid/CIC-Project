@@ -39,4 +39,11 @@ paragraph, outside this record's quoted span, and was wrongly named
 here in the first-pass note as if it were inside it. The window's last
 and fullest precision-work: four adverbs holding two natures in one
 Person - the settlement that received the Tome and did not, in the
-event, hold the whole church.
+event, hold the whole church. Disclosed at a follow-up confirmation
+review (2026-08-22): this quote is truncated at "our Lord Jesus Christ"
+with a period substituted for the file's own comma, which continues
+"as the Prophets of old time have spoken concerning him, and as the
+Lord Jesus Christ hath taught us, and as the Creed of the Fathers hath
+delivered to us" - the truncation is defensible (the sentence's
+doctrinal core is complete); the undisclosed punctuation substitution
+was not.

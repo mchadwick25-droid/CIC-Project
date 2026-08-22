@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.leo-letters
-  locus: Ep. XXVIII (the Tome), ch. IV (npnf212 lines 5366-5372)
+  locus: Ep. XXVIII (the Tome), ch. IV (npnf212 lines 5326-5380)
   license: public-domain
 text: 'For He who is true God is also true man: and in this union there is no lie, since the humility
   of manhood and the loftiness of the Godhead both meet there. For as God is not changed by the showing

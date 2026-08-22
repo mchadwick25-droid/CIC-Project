@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.canons-nicaea
-  locus: the Creed (npnf214 lines 2404-2416)
+  locus: the Creed (npnf214 lines 2408-2418)
   license: public-domain
 text: We believe in one God, the Father Almighty, maker of all things visible and invisible; and in one
   Lord Jesus Christ, the Son of God, the only-begotten of his Father, of the substance of the Father,

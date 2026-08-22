@@ -18,7 +18,8 @@ sources:
     throughout the Chalcedon dossier
   license: public-domain
 - source_id: ijc.source.chalcedon-acts
-  locus: the council's own synodal letter to Leo (npnf214 from line 20330), naming her alongside Marcian
+  locus: Anatolius of Constantinople's own letter to Leo, printed in Percival's editorial Notes (npnf214
+    from line 20330), naming her alongside Marcian
   license: public-domain
 names:
 - name: Pulcheria
@@ -30,9 +31,9 @@ dates:
   died: '453'
   floruit: Augusta 414; with Marcian from 450 the convening power behind Chalcedon 451
 narratable: true
-bridge_line: the empress the council's own synodal letter names alongside Marcian as "most pious and in
-  all respects faithful" when the Definition was laid on Euphemia's altar - one of the two women this
-  world's record shows wielding real power over the church's own settlement
+bridge_line: the empress the letter Anatolius of Constantinople sent to Leo names alongside Marcian as
+  "most pious and in all respects faithful" when the Definition was laid on Euphemia's altar - one of the
+  two women this world's record shows wielding real power over the church's own settlement
 ---
 The record's second documented female political principal. Leo writes
 to her as a real convening power, not a courtesy addressee - the

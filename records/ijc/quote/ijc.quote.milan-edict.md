@@ -33,4 +33,10 @@ promulgated text (jointly issued with Licinius; the speaker attribution
 carries Constantine as the world's own figure, with Licinius named in
 the text itself). The world's legal beginning in its own words:
 liberty of religion first, restitution of church property following in
-the same document.
+the same document. Disclosed at a follow-up confirmation review
+(2026-08-22): this quote is truncated at "appeared best" with a period
+substituted for the file's own semicolon, which continues "so that
+that God, who is seated in heaven, might be benign and propitious to
+us..." - the truncation itself is a defensible editorial choice (the
+sentence's core clause is complete); the undisclosed punctuation
+substitution was not.

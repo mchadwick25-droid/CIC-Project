@@ -42,8 +42,8 @@ tensions:
 - 'this world''s own record does not use later scholastic vocabulary ("transubstantiation," "substance
   and accidents" in the Aristotelian sense) - the doctrine of a real change is plainly taught; its later
   precise philosophical formulation is not this record''s own language'
-- the treatise's authorship was questioned by some writers from the sixteenth century onward, though
-  the edition's own introduction reports this now resolved in Ambrose's favor
+- the treatise's authorship was questioned by some modern writers on doctrinal grounds, though the
+  edition's own introduction judges there is no sufficient foundation for their arguments
 ---
 Added at review (Opus canon-structure pass, 2026-08-21): the prior
 honest_limit for F1-T (ijc.limit.f1-t-later-questions) claimed this

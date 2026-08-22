@@ -20,7 +20,7 @@ sources:
   locus: Ep. XL-XLI, LI, LXI-LXII
   license: public-domain
 - source_id: ijc.source.theodoret-he
-  locus: V.17-18 (the penance, in its later dramatized telling)
+  locus: V.17 (the penance, in its later dramatized telling)
   license: public-domain
 names:
 - name: Theodosius
@@ -39,7 +39,7 @@ bridge_line: the emperor who made the Nicene faith the empire's own law - and wh
 The establishment's Nicene consolidator and Strand C's imperial
 counterpart. The penance episode is carried at two source layers,
 never mixed: Ambrose's own contemporary letter (Ep. 51 - the demand,
-with the affair's own words) versus Theodoret V.18 (the famous dramatic
+with the affair's own words) versus Theodoret V.17 (the famous dramatic
 scene, a generation later, told to edify) - the story record
 (ijc.story.emperor-penance) holds the layers apart. The Thessalonica
 law's text reaches this build through Sozomen's report, not the Code

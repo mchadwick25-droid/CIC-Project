@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.chalcedon-acts
-  locus: Canon XXVIII (npnf214 lines 22218-22231)
+  locus: Canon XXVIII (npnf214 lines 22224-22232)
   license: public-domain
 text: For the Fathers rightly granted privileges to the throne of old Rome, because it was the royal city.
   And the One Hundred and Fifty most religious Bishops, actuated by the same consideration, gave equal
@@ -28,7 +28,7 @@ relations:
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}
 ---
 Text verified verbatim against the vendored file 2026-08-21 (the
-edition's inline Greek gloss "(isa presbeia)" after "equal privileges"
+edition's inline Greek gloss "(ἴσα πρεσβεῖα)" after "equal privileges"
 omitted from the quotable text; quoted through "rank next after her" -
 the canon continues into jurisdictional specifics). The claim's most
 consequential sentence: even OLD Rome's privileges are here said to

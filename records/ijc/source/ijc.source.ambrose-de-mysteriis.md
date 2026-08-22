@@ -13,9 +13,9 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources: []
-author: "Ambrose of Milan (attributed; authenticity questioned by some 16th-century and later writers,
-  but accepted by the Benedictine editors and, per this edition's own introduction, now universally
-  admitted)"
+author: "Ambrose of Milan (attributed; authenticity questioned, per this edition's own introduction, by
+  some modern writers on doctrinal grounds, but the introduction judges there is no sufficient foundation
+  for their arguments, since the teaching may be paralleled in many other passages of Ambrose's own work)"
 work: "De Mysteriis (On the Mysteries) - a catechetical treatise on baptism, confirmation, and the
   Eucharist, addressed to the newly baptized, probably delivered c. 387"
 edition: "trans. H. de Romestin, Nicene and Post-Nicene Fathers series 2 vol. 10 (1896), vendored as
@@ -34,6 +34,14 @@ records. Work presence verified: "On the Mysteries" division at file
 line 32459; Chapter IX (the Eucharist proper, "bread is made the true
 body of Christ") at 33189, with the "This is My Body" / "before the
 consecration it has another name" passage at 33264-33271.
+
+Corrected at a follow-up confirmation review (2026-08-22): the
+authorship note previously invented specifics the introduction does
+not state (a "16th-century" dating, an attribution to "the Benedictine
+editors," and the phrase "now universally admitted") - the introduction
+(file line ~1172) says only that the authenticity was "impugned by
+some modern writers" and that there is "no sufficient foundation for
+their arguments." Reworded to what the file actually says.
 
 NARROWLY LICENSED to De Mysteriis alone, consistent with this build's
 per-work licensing convention for the npnf210 volume (see

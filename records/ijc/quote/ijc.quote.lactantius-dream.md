@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.lactantius-de-mortibus
-  locus: '44 (anf07, ch. XLIV division at line 10612)'
+  locus: '44 (anf07, ch. XLIV division at line 10612, quote through line 10620)'
   license: public-domain
 text: Constantine was directed in a dream to cause the heavenly sign to be delineated on the shields
   of his soldiers, and so to proceed to battle. He did as he had been commanded, and he marked on their

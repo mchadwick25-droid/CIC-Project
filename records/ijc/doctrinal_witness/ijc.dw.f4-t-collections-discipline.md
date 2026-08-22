@@ -22,8 +22,10 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'Did we tithe, and how did we decide what to give? This world had a real giving discipline, preached
-  at least twice in the sermons that survive, tied to an autumn fast kept for exactly this purpose: what
-  we possess is not our own but committed to our stewardship, to be given an account of. The measure was
+  at least twice in the sermons that survive, tied to an annual collection day - the octave of SS. Peter
+  and Paul, in early July, a day the record says was purged from a pagan festival and consecrated instead
+  to deeds of mercy: what we possess is not our own but committed to our stewardship, to be given an
+  account of. The measure was
   not a fixed tenth stated as law but a proportion each conscience owed: He only who knows what He has
   given to each discerns aright how much a man can and how much he cannot do. A rich man''s wealth that
   ransoms no captive, feeds no poor, and shelters no stranger was called poverty dressed as plenty - not
@@ -35,12 +37,12 @@ positions:
   who withholds it is condemned in the same breath as one who denies the faith outright
 - the standard was proportional to individual means and judged by God alone, not a fixed public tenth
   the record states as law
-- this discipline was tied to a specific liturgical occasion (an autumn collection-fast), giving it
-  institutional shape rather than leaving it as private virtue alone
+- this discipline was tied to a specific annual collection day (the octave of SS. Peter and Paul, early
+  July), giving it institutional shape rather than leaving it as private virtue alone
 tensions:
 - the record does not use the word "tithe" as a fixed obligatory fraction the way later church law
-  states it - what survives is proportional almsgiving preached at a particular fast, not a tenth
-  codified as due
+  states it - what survives is proportional almsgiving preached on a particular collection day, not a
+  tenth codified as due
 - only two sermons on this theme survive in this build's licensed corpus; how widely or how literally
   the preached standard was kept is not something the sermons themselves can tell us
 ---
@@ -50,4 +52,10 @@ that "church funding in this record is imperial patronage and
 endowment, not tithe-discipline." Verified directly against the
 vendored corpus, file lines 13503 and 13707 - Leo's own preached corpus
 states a real, if proportional rather than fixed, giving discipline.
+Corrected at a follow-up confirmation review (2026-08-22): this record
+originally misidentified the collection day as "an autumn fast" - the
+file's own note (line ~13612) names it the octave of SS. Peter and
+Paul (early July, a day repurposed from a pagan festival), not a fast
+at all; Leo's genuine autumn fast (Sermons on "the Fast of the Seventh
+Month") is a separate, unrelated occasion with no Collections content.
 canon_cells: F4-T (did you tithe, how did you decide what to give).

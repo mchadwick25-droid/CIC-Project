@@ -35,6 +35,10 @@ held_against:
 - Whether this window's claim is already "the papacy" or a stage in a developing discourse is a live
   contest between present-day traditions and among historians - the world's record is the ground both
   sides argue FROM, which is exactly why it settles neither
+- 'The build''s own single most load-bearing primacy quote (Julius, "the custom has been for word to be
+  written first to us") carries a limiting reading inside its own vendored edition''s apparatus: "the
+  prerogative of the Roman see is limited, as Coustant observes, to the instance of Alexandria" - a
+  narrower claim (review of Alexandria''s case specifically) than "Rome reviews any see''s judgment"'
 concedes: 'The CLAIM itself is Documented beyond doubt - continuous, datable, in Rome''s own words from
   341 to 451, and taken seriously enough to be worth formally contesting. Real deference to Rome is also
   on the record: the Tome received with honor, appeals genuinely directed to Rome. What the record does
