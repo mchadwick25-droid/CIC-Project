@@ -20,16 +20,18 @@
 | `syr.source.chronicle-of-edessa` | `chronicle-of-edessa_cowper.txt` | |
 | `syr.source.eusebius-…` · `theodoret-…` · `sozomen-…` · `socrates-…` · `jerome-de-viris` | `npnf201/202/203_…xml` | Syriac-relevant loci verified by direct grep 2026-08-21 |
 
-## 2. OPEN requests
+## 2. Deferred — future work (not blocking; Mark could not locate either as of 2026-08-22)
 
-### 2.1 Odes of Solomon — **P2 · OPEN**
+### 2.1 Odes of Solomon — **P2 · DEFERRED**
 - **Wanted:** J. Rendel Harris, *The Odes and Psalms of Solomon* — the 1909 editio princeps or the 1911 second edition (an archive.org scan of the printed volume preferred, so the file carries its own title page and date).
 - **Expected rights:** public domain (1909/1911). Verified only when the supplied file's own header is read.
 - **Why P2, not P1:** Step 0 names the Odes in this world's ecology, but the approved Doc_02 carries them as Native/**Contested** (Edessene provenance is one proposal among several; dating and language disputed) at Confidence D — nothing load-bearing rests on them. Until supplied: `syr.source.odes-of-solomon` stands at rights `pending-verification`, and **no verbatim quoting** from the Odes is licensed (search: `syr.search.odes-of-solomon-pd`).
+- **Status (2026-08-22):** Mark could not locate a copy on hand. Logged as future work — pick up whenever a copy surfaces; not required for this world to proceed through step 6/7/8 later, since nothing here is load-bearing on the Odes.
 
-### 2.2 Synodicon Orientale (the 410 Synod acts) — **P3 · OPEN, bounded**
+### 2.2 Synodicon Orientale (the 410 Synod acts) — **P3 · DEFERRED, bounded**
 - **Wanted:** J.-B. Chabot, *Synodicon Orientale* (Paris, 1902) — public-domain in principle, but **French**; no PD English exists (search: `syr.search.synod-410-acts-english`).
 - **Why bounded:** the 410 Synod is this world's closing boundary, and its substance is already carried at reviewed confidence via Doc_01/Doc_02 and the vendored historians. A vendored Chabot would allow direct verification of specific canons if a later step needs them; it would not add licensed-quote material for the English-speaking voice.
+- **Status (2026-08-22):** Mark could not locate a copy on hand. Logged as future work — lowest priority of the two; the world's own closing-boundary claims already rest on other reviewed sources and do not depend on this text.
 
 ## 3. Named gaps with no acquirable PD remedy (for the record, not requests)
 
@@ -44,6 +46,4 @@ Registered as `source` records with rights `in-copyright (consultation-only)`, c
 
 ## 5. Decisions for Mark
 
-1. **Odes of Solomon vendoring (§2.1)** — supply, or accept the standing no-verbatim-quotes limit.
-2. **Synodicon Orientale (§2.2)** — supply the French Chabot for verification use, or accept the bounded treatment.
-3. Nothing else in this world's record set is blocked on acquisition.
+Both §2.1 and §2.2 are logged as **future work**, not open decisions — Mark confirmed (2026-08-22) neither is on hand right now, and neither blocks this world's progress. Revisit opportunistically; nothing else in this world's record set is blocked on acquisition.
