@@ -77,13 +77,21 @@ reception history (the 399-400 controversy; the 553 pseudonymous-
 survival pattern) and explicitly declines to let either later episode
 decide anything about this record's own classification. No conceptual-
 affinity finding exists in this paragraph to flag, and it makes no
-claim about where Evagrius's own scheme came from. (The Cappadocian
-attribution - Greek philosophical training, not an Alexandrian channel
-- is real, but it lives at Doc_07 SS2 and in desert.source.evagrius-praktikos's
-own author field, not in this record; Step3c Round 2 review Finding S1
-caught this record's own first correction attempt misattributing it
-here too, and this note is now written to point at its actual location
-rather than restate it as if this paragraph carried it.) The false
+claim about where Evagrius's own scheme came from. (The attribution -
+Greek philosophical training, not an Alexandrian channel - is real but
+is split across two places, neither of them this record: Doc_07 SS2
+supplies the causal claim ("a Greek-philosophically-trained
+participant... organized it using intellectual tools this world did
+not otherwise generate internally") without naming the Cappadocians;
+desert.source.evagrius-praktikos's own author field names the
+Cappadocians ("formed under the Cappadocians") without making a causal
+claim about the scheme. Doc_01 SS4/SS2.3 also name the Cappadocian
+connection. Step3c Round 2 review Finding S1 caught this record's own
+first correction attempt misattributing the joined claim here too;
+Round 3 review Finding M4 caught the correction's own pointer sending a
+reader to Doc_07 SS2 alone for a name that document does not carry -
+both parts of the claim are now named, at their own separate
+locations, rather than joined and pointed at one.) The false
 back-reference is removed; desert.contested.alexandria-continuity's own
 concession was rebuilt on this corpus's actual Origenist-adjacent
 thread (Rubenson's contested reading of the Letters of Antony,

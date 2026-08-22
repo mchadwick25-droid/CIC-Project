@@ -5,7 +5,7 @@ record_type: contested_claim
 schema_version: 2
 status: draft
 register: etic
-canon_cells: [F3-T]
+canon_cells: []
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -94,3 +94,14 @@ hedged sentence names no source at all for the claim - the Apophthegmata
 is this record's own best inference for where a "reportedly" claim of
 this shape would live, not a pinned citation. Noted explicitly in the
 locus above so the attribution is not later mistaken for a verified one.
+
+Step3c, Round 3 review Finding M1: canon_cells (F3-T) was justified
+twice, at Round 1 and again at Round 2, on the record's Nepheros-as-
+unplaceable-community material specifically - but F3-T's own two fleet
+canon questions ("Was your church 'Catholic'?"; "Did you have
+denominations...") are both about ecclesial/denominational identity,
+the axis this record's own body explicitly declines to cover, and
+neither rewrite actually separated the cell's real content from that
+axis. Moved to no cells, matching desert.contested.alexandria-continuity's
+own convention, rather than attempt a third justification for a fit
+that has not held.

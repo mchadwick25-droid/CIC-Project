@@ -15,7 +15,7 @@
 
 **Roster discipline, TWO separate criteria (revised, Step3c Round 1 Finding S3, corrected again at Round 2 Findings S3/S4/M11):** this roster is not built on one bar; it is built on two, kept explicitly distinct after Round 2 found the single-bar account this index gave at Round 1 was self-contradicting.
 
-- **Criterion A, for Antony/Pachomius/Evagrius: absolute personal birth and/or death *years* stated in a registered source record** (not merely an age or an interval, and not a settlement's own founding date). Antony: Jerome, *De viris illustribus* 88, vendored — "Born 251, died 356." Pachomius: `desert.source.pachomian-corpus.md` states "c. 292-346" directly. Evagrius: `desert.source.evagrius-praktikos.md` states "c. 345-399 CE" directly (consult-only channel) — the vendored Palladius ch. XXXVIII independently confirms the *intervals* around that anchor (age fifty-four at death, two years at Nitria then fourteen at Kellia) but carries no calendar year of its own; the year itself is not vendored, and `desert.figure.evagrius`'s own `divergence_note` now says so explicitly. Amoun, Macarius, and Pambo do not clear Criterion A: Doc_01 §2.2 gives Nitria, Scetis, and Kellia absolute *founding* years and names Amoun and Macarius as founders, but that is the settlement's date, not the person's own birth or death year; `desert.source.palladius-lausiac-history` gives all three a real, individually traceable career (ch. VIII: Amoun's marriage, eighteen years, then two cells at Nitria, then twenty-two more years, then death; ch. XVII: Macarius of Egypt retired to the desert at thirty, received grace at forty, ninety years total; ch. X: Pambo quoted at least four times, age seventy at death) but never a calendar year for any of the three men themselves.
+- **Criterion A, for Antony/Pachomius/Evagrius: an absolute personal birth and/or death *year*, stated in a registered source record or fixed by a named external chronology combined with an age given in a vendored primary source, with any derivation marked openly** (not merely an age or interval left undated, and not a settlement's own founding date). Pachomius: `desert.source.pachomian-corpus.md` states "c. 292-346" directly. Evagrius: `desert.source.evagrius-praktikos.md` states "c. 345-399 CE" directly (consult-only channel) — the vendored Palladius ch. XXXVIII independently confirms the *intervals* around that anchor (age fifty-four at death, two years at Nitria then fourteen at Kellia) but carries no calendar year of its own; `desert.figure.evagrius`'s own `divergence_note` says so explicitly. Antony: **not** the NPNF editors' endnote at *De viris illustribus* ch. 88 ("Born 251, died 356") - that note is the edition's own apparatus, not Jerome's text, exactly the kind of note `desert.source.jerome-de-viris` already flags elsewhere in the same volume as "the edition's note, not ancient testimony" - but the *Vita*'s own §89 (vendored), which has Antony say he is "near a hundred and five years old" shortly before his death, combined with the death year 356 fixed by external chronology (Doc_01 §2.1) and marked as derived in `desert.figure.antony.dates.born` itself. Amoun, Macarius, and Pambo do not clear Criterion A: Doc_01 §2.2 gives Nitria, Scetis, and Kellia absolute *founding* years and names Amoun and Macarius as founders, but that is the settlement's date, not the person's own birth or death year; `desert.source.palladius-lausiac-history` gives all three a real, individually traceable career (ch. VIII: Amoun's marriage, eighteen years, then two cells at Nitria, then twenty-two more years, then death; ch. XVII: Macarius of Egypt retired to the desert at thirty, received grace at forty, ninety years total; ch. X: Pambo quoted at least seven times, age seventy at death) but never an age-plus-external-chronology anchor or a directly registered year, for any of the three men themselves.
 - **Criterion B, for Sarah: a specific, individually verified saying or encounter, independent of absolute dates.** `desert.figure.sarah` has no `dates` field at all (schema-optional, correctly omitted) and does not clear Criterion A. It answers a different, explicitly named obligation instead (below). Honestly stated: **Pambo clears a saying-based criterion more strongly than Sarah does** — Palladius ch. X quotes him at least four times in a vendored, `verified-direct`, `load-bearing` source, where Sarah's one saying is paraphrase-only with no vendored edition at `verified-via-authority`. Sarah is built anyway, because Criterion B exists to answer a specific instruction Criterion A cannot (see below), not because her saying is this corpus's strongest.
 
 Nepheros remains barred outright by `desert.source.nepheros-archive`'s own standing caution (Step2 Review Round 1, Finding 5 — the archive-to-edition mapping must be re-checked against the editions themselves "before any figure or quote record leans on either monk by name").
@@ -27,7 +27,7 @@ Nepheros remains barred outright by `desert.source.nepheros-archive`'s own stand
 | id | claim (one line) | poles | canon_cells | classification confidence |
 |---|---|---|---|---|
 | `desert.contested.antony-literacy` | Was Antony really the unlettered rustic Athanasius portrays? | Athanasius's Vita vs. Rubenson's Letters-based reading (Gould's counter-position against Rubenson specifically) | F2-E | Contested |
-| `desert.contested.strand-porousness` | Were the three organizational patterns lived boundaries, or a later compiler's arrangement? | the Kellia founding link and the sayings tradition's own cross-pattern compilation vs. each pattern's own distinct authority/formation logic; the Nepheros community as evidence the typology may be incomplete | F3-T | Contested |
+| `desert.contested.strand-porousness` | Were the three organizational patterns lived boundaries, or a later compiler's arrangement? | the Kellia founding link and the sayings tradition's own cross-pattern compilation vs. each pattern's own distinct authority/formation logic; the Nepheros community as evidence the typology may be incomplete | (none) | Contested |
 | `desert.contested.alexandria-continuity` | Does desert monastic formation belong to Alexandria's ecology as its intensified continuation? | the Alexandria build's own claim (`alx.contested.desert-attribution`) vs. this world's own distinct-world evidence | (none) | Contested |
 
 None of the three resolves its own question — each states the claim, the strongest case against it this corpus's own registered evidence supports, and what can honestly be conceded, per this step's own governing instruction (Framework Step 6 / Constitution Article 22's contested-claim discipline, matching Alexandria's `alx.contested.*` convention).
@@ -38,14 +38,14 @@ None of the three resolves its own question — each states the claim, the stron
 |---|---|---|
 | `desert.figure.antony` | F4-I, F4-P | F4-I: "How did a person actually become one of you?" — his own staged withdrawal is this world's paradigm formation account. F4-P: "Does your way of life have anything for someone like me?" — his own spiritual-combat career speaks directly to it. |
 | `desert.figure.pachomius` | F3-I, F4-I | F3-I: "Who held authority among you, and how did anyone come to have it?" — he founded the one pattern with an office. F4-I: as Antony, for the cenobitic pattern's own becoming-a-member process. |
-| `desert.figure.evagrius` | F4-P, F6-I | F4-P: his own systematized combat-scheme. F6-I: "Was there anything about your own community that troubled you?" — his later, out-of-horizon reception. |
+| `desert.figure.evagrius` | F4-P, F6-I | F4-P: his own systematized combat-scheme. F6-I: "Was there anything about your own community that troubled you?" — his own record states, in terms, that within this world's own horizon his standing was "inheritance-and-unease, not condemnation" (the internal, in-horizon thinness and contest over his systematized register, per Doc_05 §8.5 item 3/Doc_07 §11) - **not** the later, out-of-horizon controversy and condemnation, which the same record explicitly declines to let decide anything. |
 | `desert.figure.sarah` | F6-P | "You've told me what women's days were like — but could a woman carry real authority among you, and what did it cost her?" — a direct fit for the one case this corpus can show, not only assert. |
 | `desert.contested.antony-literacy` | F2-E | "Isn't most of what's said about you legend, collected centuries later?" / "Where is your own record thinnest?" — a direct fit, already shared with `desert.term.apophthegma`; moved here from an earlier, unsupported F3-E assignment (F3-E is the catacombs/Constantine cell). |
-| `desert.contested.strand-porousness` | F3-T | "Did you have denominations — how did you handle other communities who called on Christ differently?" — a fit for the record's Nepheros-as-unplaceable-community material specifically, **not** for the Melitian ecclesial-identity axis, which this record's own body explicitly declines to cover (see World core below); the cell rests on the organizational-pattern question only. |
+| `desert.contested.strand-porousness` | (none) | Round 1 assigned F3-T; Round 2 found its justification circular (F3-T's two canon questions are both about ecclesial/denominational identity - "Was your church 'Catholic'?", "Did you have denominations..." - and this record's own body explicitly declines to cover that axis); Round 3 found the Round 2 rewrite still resting on the same axis under a different name. No fleet canon question actually asks about organizational-pattern porousness independent of ecclesial identity - moved to no cells, matching `alexandria-continuity`'s own convention, rather than force a third rewrite of a fit that has not held across three rounds. |
 | `desert.contested.alexandria-continuity` | (none) | Nothing in the fleet's canon questions asks about cross-world scholarly attribution; moved here from an earlier, unsupported F3-T assignment, matching `alx.contested.desert-attribution`'s own `canon_cells: []` — a build-internal boundary question, not one a participant would put to a Representative. |
 | `desert.core.desert` | (none) | Matching `alx.core.alexandria`'s own convention. |
 
-**Gravity-risk statement, corrected (Round 1 Finding M6; corrected again at Round 2 Finding M2, which found the first correction's own trailing clause was a second false universal over the same three records):** an earlier draft claimed "each contested_claim record states explicitly which gravities are and are not put at risk by leaving its question open" as a universal. Checked against all three: `antony-literacy.concedes` does this precisely. `strand-porousness.concedes` states the three-pattern finding is held as settled structure, not a gravity-classification statement. `alexandria-continuity.concedes` speaks to the systematized register's own scope, not to any gravity's classification. What is true is narrower, and stated without a second universal this time: no candidate gravity anywhere in this corpus has its Primary/Supporting/Tensional classification made to depend on resolving any of the three open questions. `antony-literacy`'s own body states this explicitly, in Doc_04's own words; `strand-porousness` and `alexandria-continuity` do not make an equivalent statement about gravity classification specifically, and this sentence does not claim they do.
+**Gravity-risk statement, corrected (Round 1 Finding M6; corrected again at Round 2 Finding M2, and again at Round 3 Finding M3, each round finding the prior correction's own trailing clause overreached):** an earlier draft claimed "each contested_claim record states explicitly which gravities are and are not put at risk by leaving its question open" as a universal. Checked against all three: `antony-literacy.concedes` does this precisely, for the two gravities (withdrawal, elder-authority) Doc_04 SS3 routes its own contest to. `strand-porousness.concedes` states the three-pattern finding is held as settled structure, not a gravity-classification statement, and makes no statement about the other eight gravities. `alexandria-continuity.concedes` speaks to the systematized register's own scope, not to any gravity's classification, and likewise makes no broader statement. What is true, stated without a universal of any kind this round: no candidate gravity anywhere in this corpus has its own classification made to depend on resolving any of the three open questions - a claim checked directly against every gravity record's own text, not inferred from what any one contested_claim record's body happens to say about itself.
 
 ## World core
 
@@ -67,7 +67,7 @@ None of the three resolves its own question — each states the claim, the stron
 
 `desert.contested.alexandria-continuity` is the Desert-side counterpart to the Alexandria build's own `alx.contested.desert-attribution` (`records/alx/contested_claim/`, `origin/world/alexandria`), which explicitly holds its question open "resolvable only there [in the Desert build] — by discovery, not by this world's assertion." This step supplies that discovery pass, built entirely from this corpus's own registered sources — Alexandria's own internal evidence is neither cited nor independently verified here. GRAVITY-INDEX.md's own cross-build sheet (Step 3b) had flagged Alexandria's material as comparative reference only, with no action item, because no open question had yet been raised from Alexandria's own side requiring a Desert-side answer; this record is that answer, generated once `alx.contested.desert-attribution`'s own text was read. No relation crosses the world boundary (a cross-world `relations[]` or `sources[].source_id` target would fail this corpus's own `gate_referential` when run against Desert's records alone) — the connection is carried in prose and by matching record ids only.
 
-**Corrected, Round 1 Finding S1 (front matter) and Round 2 Finding S2 (body, since Round 1's own fix left the body untouched and self-contradicting):** an earlier draft's only concession claimed Evagrius's own systematized writing carried "genuinely Origenist-adjacent conceptual vocabulary" as evidence of Alexandrian conceptual affinity — checked against `desert.gravity.evagrian-systematization`'s own transmission-history note (which names only a *reception* history, the later controversy and condemnation, and explicitly declines to let it decide anything) and against `desert.source.evagrius-praktikos` (which attributes his systematized scheme to Greek philosophical training under the Cappadocian Fathers, not to Alexandria). No record in this corpus supports the claim. The concession is rebuilt on this corpus's actual Origenist-adjacent thread: Rubenson's contested reading of the *Letters* attributed to Antony as "substantively Origenist," already the full subject of `desert.contested.antony-literacy` — the two records are now cross-related. Round 1's own fix rewrote the front matter correctly but left the record's body still crediting its position to "gravity 9's own strand-bound Origenist-adjacent concession," which Round 2 caught and which is now also corrected. **Also corrected, Finding S5:** `held_against[3]` claimed the person-vs-office authority tension (gravity 10) "already accounts for" the Theophilus/Origenist-controversy contact with Alexandria's episcopal authority; that gravity's own description states its Interaction is "by construction... with those two [other] gravities specifically" and excludes external contact by definition. Reworded to state plainly that this contact remains an unresolved feature of the world's own boundary, per Doc_01 §5(b). **Also corrected, Finding M13 (genuinely this time — Round 1's own claim to have removed this sentence was itself false, per Round 2 Finding M1):** the body's claim that Doc_01 makes no comparison to Alexandria "on this record's own initiative" was false — Doc_01 §4, Doc_05 §8.2, and Doc_09b §3 all make the comparison directly; the sentence claiming a blank page is now actually removed, from the body directly rather than only from this index's own account of the record.
+**Corrected, Round 1 Finding S1 (front matter) and Round 2 Finding S2 (body, since Round 1's own fix left the body untouched and self-contradicting):** an earlier draft's only concession claimed Evagrius's own systematized writing carried "genuinely Origenist-adjacent conceptual vocabulary" as evidence of Alexandrian conceptual affinity — checked against `desert.gravity.evagrian-systematization`'s own transmission-history note (which names only a *reception* history, the later controversy and condemnation, and explicitly declines to let it decide anything) and against `desert.source.evagrius-praktikos` (whose `author` field states Evagrius was "formed under the Cappadocians" as a biographical fact and whose `work` field describes his scheme, but which nowhere attributes the scheme *to* that training - the causal attribution belongs to Doc_07 §2, and the Cappadocian naming to Doc_01 §4/§2.3; no single record makes the compound claim an earlier draft of this sentence attributed to one). No record in this corpus supports the original claim. The concession is rebuilt on this corpus's actual Origenist-adjacent thread: Rubenson's contested reading of the *Letters* attributed to Antony as "substantively Origenist," already the full subject of `desert.contested.antony-literacy` — the two records are now cross-related. Round 1's own fix rewrote the front matter correctly but left the record's body still crediting its position to "gravity 9's own strand-bound Origenist-adjacent concession," which Round 2 caught and which is now also corrected. **Also corrected, Finding S5:** `held_against[3]` claimed the person-vs-office authority tension (gravity 10) "already accounts for" the Theophilus/Origenist-controversy contact with Alexandria's episcopal authority; that gravity's own description states its Interaction is "by construction... with those two [other] gravities specifically" and excludes external contact by definition. Reworded to state plainly that this contact remains an unresolved feature of the world's own boundary, per Doc_01 §5(b). **Also corrected, Finding M13 (genuinely this time — Round 1's own claim to have removed this sentence was itself false, per Round 2 Finding M1):** the body's claim that Doc_01 makes no comparison to Alexandria "on this record's own initiative" was false — Doc_01 §4, Doc_05 §8.2, and Doc_09b §3 all make the comparison directly; the sentence claiming a blank page is now actually removed, from the body directly rather than only from this index's own account of the record.
 
 ## Canon cells
 
@@ -78,7 +78,7 @@ None of the three resolves its own question — each states the claim, the stron
 | `desert.figure.evagrius` | F4-P, F6-I |
 | `desert.figure.sarah` | F6-P |
 | `desert.contested.antony-literacy` | F2-E |
-| `desert.contested.strand-porousness` | F3-T |
+| `desert.contested.strand-porousness` | (none — see Canon-cells basis above) |
 | `desert.contested.alexandria-continuity` | (none — matching `alx.contested.desert-attribution`'s own convention) |
 | `desert.core.desert` | (none — matching Alexandria's own `alx.core.alexandria` convention) |
 
@@ -148,6 +148,53 @@ original assignments reached for cells the fleet's own canon questions did
 not support. All records and this index were revised in response; see each
 record's own body note for its specific fix.
 
+Step3c Review Round 3 (`world-build-docs/desert/reviews/Step3c_Review_Round3.md`)
+found the fabrication check clean a third time, independently re-derived
+from scratch across all eight records including every clause the Round 2
+fix pass had newly written, and found reciprocity (38 ends, 19 pairs),
+the census, all five tables, and the gate battery all clean and
+independently re-confirmed. All four of Round 2's substantial findings
+were found genuinely and completely closed. But it found the build's own
+recurring pattern - a fix that closes its target while introducing a new
+defect of the same shape - recurring a third time, this round entirely in
+the deliverable's own apparatus (its indexes and correction notes) rather
+than in what the records assert about the world: a wrong relation count
+(six gravity records and one term, copied from Round 2's own finding text
+without re-derivation, where the correct figures are nine and two) written
+into the otherwise-frozen GRAVITY-INDEX.md's own new addendum; a false
+claim about desert.source.evagrius-praktikos (that it attributes
+Evagrius's scheme to Cappadocian training) corrected on
+evagrian-systematization but left standing in this index's own account of
+that same fix, three screens away; Criterion A's own Antony anchor citing
+an NPNF editorial endnote as if it were Jerome's own text, when this
+corpus's own desert.source.jerome-de-viris record already flags the
+identical kind of note in the identical volume as "the edition's note,
+not ancient testimony"; and desert.figure.evagrius's Round 1 body note,
+never revisited by either subsequent round's own front-matter fixes,
+still stating a superseded quotation count and a claim (that Palladius
+ch. XXXVIII "independently supplies every element of this record's own
+dates block") the Round 2 fix exists specifically to deny. All four
+fixed: GRAVITY-INDEX.md's addendum corrected to the true count, with the
+records it lists named explicitly; this index's own Cross-build section
+corrected to state the same accurate, split attribution
+evagrian-systematization now carries; Criterion A rewritten to anchor
+Antony on the Vita's own age-at-death plus external chronology, matching
+his own figure record's marked derivation, rather than an editorial
+endnote; and desert.figure.evagrius's stale body note rewritten with an
+exact, re-verified quotation count (seven) and the "every element" claim
+removed. Nine minor and seven cosmetic findings addressed throughout,
+including a third-round overreach in the gravity-risk statement's
+trailing clause; a canon-cell justification (F3-T for strand-porousness)
+that had been rewritten twice and still rested on the ecclesial-identity
+axis its own record disclaims, closed by moving the cell to empty rather
+than attempting a third rewrite; a freshly written F6-I justification for
+Evagrius that cited the very out-of-horizon material the record excludes;
+a fresh positional self-reference in a compiled field cleaned of one in
+the same commit; and a misdescription, in this index's own Round 2
+narration, of what the pre-fix index had actually said. All records and
+this index were revised again in response; see each record's own body
+note for its Round 3 fix.
+
 Step3c Review Round 2 (`world-build-docs/desert/reviews/Step3c_Review_Round2.md`)
 found the fabrication check clean a second time, independently re-derived
 from scratch across all eight records including the brand-new
@@ -170,10 +217,13 @@ found false - and kept the false-novelty sentence this index had already
 certified as removed. Fixed by rewriting the body to match what the
 front matter actually now says. And the revised roster justification
 (Round 1's own fix for S3) was itself internally contradictory: it stated
-a single "absolute birth/death years" bar and then, in the same commit,
-built desert.figure.sarah, who has no dates at all, while this index
-called her one of "the three built figures" the bar was written to
-describe. Fixed by stating two explicit, separately-justified criteria
+a single "absolute birth/death years" bar in one paragraph (correctly
+scoped to "the three built figures," excluding Sarah) while a second
+paragraph, open item 2, generalized that same bar to "the bar the four
+built figure records each clear" - silently sweeping Sarah, who carries
+no dates at all, into a criterion the first paragraph had correctly
+excluded her from. Fixed by stating two explicit, separately-justified
+criteria
 (Criterion A: absolute personal birth/death years, for Antony/Pachomius/
 Evagrius; Criterion B: a specific, individually verified saying,
 answering the gender-axis obligation, for Sarah) rather than one

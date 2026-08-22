@@ -64,14 +64,17 @@ Step3c, Round 1 review Finding S8: an earlier draft cited only
 evagrius-praktikos and Socrates IV.23, both consult-only or excerpted
 at one remove, though desert.source.palladius-lausiac-history ch.
 XXXVIII - vendored, load-bearing, verified-direct - is a dedicated,
-eyewitness biography of Evagrius that independently supplies every
-element of this record's own dates block (the Cappadocian ordinations,
-the fourteen years at Kellia, the age-fifty-four death, the Epiphany
-date) and quotes his own reported speech twice. Added as a source; the
-record's own verification_state upgraded to verified-direct for the
-biographical claims specifically. The earlier draft's Socrates locus
-also overclaimed "the one vendored, machine-verifiable witness to his
-own words" - false once Palladius ch. XXXVIII's own two quotations are
+eyewitness biography of Evagrius that independently supplies the
+Cappadocian ordinations, the fourteen years at Kellia, the age-fifty-
+four death, and the Epiphany date, and quotes his own reported speech
+multiple times (seven, by direct count: four in the trance-dialogue at
+SS5-7, three in the post-withdrawal self-reports at SS12-13). Added as
+a source; the record's own verification_state upgraded to
+verified-direct for the biographical intervals and the day of death
+specifically - not for the calendar year itself, which the chapter does
+not carry (see Round 2 Finding M5 below). The earlier draft's Socrates
+locus also overclaimed "the one vendored, machine-verifiable witness to
+his own words" - false once Palladius ch. XXXVIII's own quotations are
 counted; corrected to name it as a second, independent witness rather
 than the only one, and evagrius-praktikos's own locus corrected to
 match that source record's own accurate phrase ("text," not "words").
@@ -96,3 +99,14 @@ M7: "two direct quotations" undercounted ch. XXXVIII, which carries at
 least three post-withdrawal self-reports plus a further exchange in
 the earlier trance-dialogue - corrected to "multiple" rather than
 assert a specific count this record has not verified exhaustively.
+
+Step3c, Round 3 review Finding S4: the Round 1 body note above (Finding
+S8) was never revisited when Round 2's M5 and M7 fixes changed the
+front matter - it still said "quotes his own reported speech twice"
+and "Palladius ch. XXXVIII's own two quotations," both superseded by
+M7's own count, and it still claimed the chapter "independently
+supplies every element of this record's own dates block," which M5
+exists specifically to deny (the calendar year is not in the chapter).
+Both corrected directly in the Finding S8 paragraph above, with an
+exact count (seven) given this time so the number does not need
+re-deriving a fourth time.
