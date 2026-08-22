@@ -22,7 +22,7 @@ worlds:
     time_window: {start: 200, end: 410}
     place: "The Syriac-speaking ecology across the Roman-Persian Mesopotamian frontier (Edessa, Nisibis, Persian Adiabene)"
     representative: {name: Yausep, role_label: Mar}   # sanctioned fabrications (spec principle 14) - name and role CONFIRMED by Mark under the new spec, in chat, 2026-08-22, carrying forward the prior-framework decision (Representative_Identity_Preliminary_Decision.md + Phase Two Formation Calibration, 2026-07-07/08: name Yausep; role revised Malpana->Deacon->Mar by Mark's own rulings). Step 5a's full identity-emergence write-up (rationale derived from the completed records) is still owed when the voice build begins; this confirmation settles the name/role themselves, not that remaining paperwork
-    state: building         # steps 2-4 in progress on this branch (source ecology, lexicon, ecology reconstruction, answer canon); no voice build, no compile, no admission
+    state: building         # steps 2-4 complete on this branch (source ecology, lexicon, ecology reconstruction, answer canon); step 5 voice build begun (voice_craft record drafted and under independent review) - demonstrations (5c), voice validation (5e), and compile/admission not yet begun
     census_id: "syriac-edessa-nisibis"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.7") - same deep-link field the alx entry verified (data-aid = census id); matches this world's own world_id independently
     package: null           # no compiled package - step 6 not reached
     thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
