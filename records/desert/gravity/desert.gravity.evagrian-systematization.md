@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for authorship and general content of Evagrius's ascetic-practical corpus - a confidence level that meets, not fails, the Primary floor. What disqualifies this candidate from Primary is the Persistence test (no comparable systematization in Strand A or B), not evidential confidence; this record does not conflate the two axes. Concentrated in one author (flagged at generation, per the Framework's own Author Gravity requirement) - a representativeness concern distinct from, and in addition to, the Persistence-test failure."
 sources:
 - source_id: desert.source.evagrius-praktikos
-  locus: "the praktike-apatheia-theoria scheme; the eight-logismoi taxonomy"
+  locus: "the praktike-apatheia-theoria scheme; the eight-logismoi taxonomy (consult-only; vendored excerpt witness via Socrates IV.23)"
 - source_id: desert.source.socrates-historia-ecclesiastica
   locus: "IV.23 - Evagrius's works named and described, in Zenos's English"
   license: public-domain

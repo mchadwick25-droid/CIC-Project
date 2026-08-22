@@ -19,7 +19,7 @@ sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "passim - the logismoi as the tradition's ordinary subject"
 - source_id: desert.source.evagrius-praktikos
-  locus: "the general combat theme, prior to its systematized form"
+  locus: "the general combat theme, prior to its systematized form (consult-only; vendored excerpt witness via Socrates IV.23)"
 relations:
 - type: associated-with
   target: desert.gravity.elder-authority

@@ -16,7 +16,7 @@ sources:
 - source_id: desert.source.goehring-ascetics
   locus: "the documentary challenge to the 'flight to the desert' narrative"
 - source_id: desert.source.kellia-excavations
-  locus: "commercial infrastructure at the settlements - Documented, verified-via-authority, no representativeness qualification"
+  locus: "at least one commercial center at the settlement - Documented, verified-via-authority, no representativeness qualification"
 - source_id: desert.source.nepheros-archive
   locus: "documentary corroboration; Documented as to existence, Melitian association, and general character, verified-via-authority; representativeness for the mainstream strands an unverified working assumption; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, no clean fit to this world's three strands"
 relations:
@@ -27,7 +27,7 @@ relations:
 - type: associated-with
   target: desert.term.anachoresis
 name: "Economic and social embeddedness in village life [TENSIONAL]"
-description: "A persistent counter-current to withdrawal's own rhetoric of total separation: the settlements sat on marginal-but-not-remote land, with real economic ties to villages through labor, sale of goods, and almsgiving. Moderate on Repetition (two independently registered evidence types whose confidence ratings agree but whose caveats differ, functioning as a corrective reading against the dominant literary narrative rather than as that narrative's own emphasis); moderate Dependency; indirect Formation (shapes practice more than professed ideal); strong Explanatory power (explains a real documented gap between rhetoric and practiced reality); cross-strand as a pattern, though direct evidence concentrates in Lower Egypt. This is exactly what qualifies it as Tensional rather than Primary: a persistent, materially real counter-pressure to the ecology's own self-understanding, not a force that organizes that self-understanding directly. It holds steady rather than intensifying or fracturing under the named forces (Doc_01 SS7's four, not only the generating force) - a structural precondition (the settlements had to eat) underneath the more visible responses."
+description: "A persistent counter-current to withdrawal's own rhetoric of total separation: the settlements sat on marginal-but-not-remote land, with real economic ties to villages through labor, sale of goods, and almsgiving. Moderate on Repetition (two independently registered evidence types whose confidence ratings agree but whose caveats differ, functioning as a corrective reading against the dominant literary narrative rather than as that narrative's own emphasis); moderate Dependency; indirect Formation (shapes practice more than professed ideal); strong Explanatory power (explains a real documented gap between rhetoric and practiced reality); cross-strand as a pattern, evidence-concentrated in Strand B and, provisionally and Nepheros-derived specifically, Strand C - distinct from Kellia's more securely Strand-C-located archaeological evidence, per Doc_04's own SS5 note. This is exactly what qualifies it as Tensional rather than Primary: a persistent, materially real counter-pressure to the ecology's own self-understanding, not a force that organizes that self-understanding directly. It holds steady rather than intensifying or fracturing under the named forces (Doc_01 SS7's four, not only the generating force) - a structural precondition (the settlements had to eat) underneath the more visible responses."
 manifestations:
 - "Kellia's excavated commercial center, showing trade actually running alongside the ascetic settlement"
 - "the Nepheros archive's ordinary monastic business letters, Melitian and caveated - its own editors also read the community as organizationally intermediary, no clean fit to this world's three strands - corroborating a similar pattern at one remove"
@@ -90,3 +90,12 @@ evidence types of uneven confidence," the phrasing the S1 correction
 established is not accurate against this build's own registered
 records (the two ARE identically rated; the caveats differ) - reworded
 to match the corrected divergence_note.
+
+Step3b Review Round 5, Finding S3: Doc_04 SS5's own finding that this
+gravity's Strand C attestation is "provisional and Nepheros-derived
+specifically," distinct from Kellia's more securely located
+archaeological evidence, was carried nowhere in this record or the
+index's cross-strand column - a finding Doc_04's own Round 1 review had
+to force into existence after catching an earlier draft silently
+absorbing Nepheros into Strand C. Added to the description; the index's
+master table corrected to match.

@@ -32,7 +32,7 @@ name: "Koinonia - communal rule and common property [SUPPORTING]"
 description: "The Pachomian federation's own name for its linked houses under one written rule and one head - the organizing principle of Strand B's entire social structure. Strong within the Pachomian corpus on every test - repetition, dependency, formation, explanatory power - but fails the Persistence test outright: no equivalent exists in Strand A or C. Confidence is not the limiting factor (Widely Accepted); cross-strand persistence is. Classified Supporting: it organizes a real and major portion of this world's ecology, within the context Primary gravities establish, but does not organize the ecology as a whole. Stands as one pole of the authority-tension gravity (10) against the elder-mediated model (gravity 3). Emerges specifically from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names, not from the generating force (martyrdom's unavailability) directly."
 manifestations:
 - "nine men's houses and two women's houses under Pachomius by his death in 346 (federation history, via Rousseau - not carried by either vendored witness, which give population figures, not house counts)"
-- "the angel-tablet rule as Palladius and Sozomen both report it - food, labor, cells, dress, the twenty-four lettered sections, a three-year probation; Sozomen's own chapter draws on a range of sources including Palladius's Lausiac History itself (per the chapter's own editorial source-note), so the two are not fully independent witnesses - Palladius remains one of this world's two load-bearing narrative-history sources (alongside the Historia Monachorum), Sozomen's account corroborating rather than independently confirming it"
+- "the angel-tablet rule as Palladius and Sozomen both report it - food, labor, cells, dress, the twenty-four lettered sections, a three-year probation; Sozomen's own chapter draws on a range of sources including Palladius's Lausiac History itself (per the chapter's own editorial source-note), so the two are not fully independent witnesses - Palladius remains one of this world's two principal narrative-history sources (alongside the Historia Monachorum, the shallower of the two per both records' own account), Sozomen's account corroborating rather than independently confirming it"
 - "the Rule as a formal, written condition of membership - absent as such from the solitary and semi-solitary strands"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 6, SS2
@@ -91,3 +91,12 @@ Palladius's own record, which names it "the principal narrative-history
 source for this world alongside the Historia Monachorum" - a
 registered, distinct source - from one of two to the only one.
 Corrected to name both.
+
+Step3b Review Round 5, Finding S1: that fix's own "two load-bearing
+narrative-history sources" applied a controlled evidentiary_weight enum
+value to a source it did not open - desert.source.historia-monachorum
+rates evidentiary_weight corroborating, not load-bearing, the identical
+weight the same sentence uses to mark Sozomen down two clauses later.
+Corrected to the two source records' own shared language ("principal,"
+"the shallower of the two"), which was available verbatim and needed
+no schema term at all.

@@ -22,7 +22,7 @@ sources:
 - source_id: desert.source.nepheros-archive
   locus: "documentary corroboration, Melitian-caveated; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, no clean fit to this world's three strands"
 - source_id: desert.source.kellia-excavations
-  locus: "commercial infrastructure at the settlements"
+  locus: "at least one commercial center at the settlement"
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal
@@ -31,7 +31,7 @@ relations:
 - type: associated-with
   target: desert.term.cheironaxia
 name: "Manual labor as ascetic discipline [PRIMARY]"
-description: "Cheironaxia - hand-work done both to live and as a discipline in its own right, against idleness - understood by this world as the discipline itself, not merely economic necessity. Rests on textual, papyrological, and archaeological evidence independently: Athanasius, Palladius, the Nepheros archive (Melitian-caveated), and Kellia's excavated commercial infrastructure. Strong on all six tests: attested across every evidence type available to this world; material sustainability, almsgiving, and the discipline against idleness all depend on it directly; it is understood as formation in itself; it directly explains the economic-embeddedness gravity's own point-evidence; and it is cross-strand. Documented/Widely Accepted, no discrepancy. Reinforces withdrawal and the economic-embeddedness gravity its own evidence partly feeds - the tension that gravity carries is with withdrawal's rhetoric specifically, not with this discipline itself; Doc_04 also notes some tension with a purely contemplative reading of the Evagrian systematization gravity, carried as a soft-tension in the index's Interaction Matrix rather than as a declared relation here. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+description: "Cheironaxia - hand-work done both to live and as a discipline in its own right, against idleness - understood by this world as the discipline itself, not merely economic necessity. Rests on textual, papyrological, and archaeological evidence independently: Athanasius, Palladius, the Nepheros archive (Melitian and caveated, its own editors also reading it as organizationally intermediary, no clean fit to this world's three strands), and Kellia's excavated commercial infrastructure. Strong on all six tests: attested across every evidence type available to this world; material sustainability, almsgiving, and the discipline against idleness all depend on it directly; it is understood as formation in itself; it directly explains the economic-embeddedness gravity's own point-evidence; and it is cross-strand. Documented/Widely Accepted, no discrepancy. Reinforces withdrawal and the economic-embeddedness gravity its own evidence partly feeds - the tension that gravity carries is with withdrawal's rhetoric specifically, not with this discipline itself; Doc_04 also notes some tension with a purely contemplative reading of the Evagrian systematization gravity, carried as a soft-tension in the index's Interaction Matrix rather than as a declared relation here. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
 - "Antony working with his hands from the start of his withdrawal (Vita SS3)"
 - "Nitria's linen-manufacture, 'so that all are self-supporting' (Palladius ch. VII)"
@@ -77,3 +77,9 @@ caution already appears - added to the manifestation too. Finding C3:
 the description rendered Doc_04's Interaction-test cell's second
 clause only by reference to the index; restated in the description
 itself for a reader who does not cross-check the index.
+
+Step3b Review Round 5, Finding M2: the description named Nepheros with
+caution (1) only, the same Repetition-test/evidence-independence claim
+Round 4's S1 charged substantial on withdrawal's sibling sentence -
+added caution (2) here too, matching this record's own manifestations[]
+and locus, which already carry both.

@@ -48,11 +48,14 @@ fix itself introduced a fresh false claim about a registered source
 record (economic-embeddedness's rewrite called Kellia "verified-direct"
 - it is verified-via-authority, identically to Nepheros; the real
 asymmetry is the caveat riding on each rating, not the verification
-method), two fixes that landed only in the index and not in the record
+method), one fix that landed only in the index and not in the record
 the finding was actually written against (manual-labor's body note
 still quoted a Doc_04 Interaction cell with its operative clause
-dropped; matrix cell 5x2 still read `reinforces` while the note beneath
-it asserted "both cells read moderates"), a sweep that reached most but
+dropped) plus a second index-only defect of its own (matrix cell 5x2
+still read `reinforces` while the note beneath it asserted "both cells
+read moderates" - not a landed-elsewhere fix but a note describing a
+change that was never made at all, as Round 2's own text put it), a
+sweep that reached most but
 not all of its targets (the Apophthegmata compiler screen missed
 withdrawal and authority-tension; the forces-connection sweep missed
 scriptural-engagement) with the index's own prose overstating completion
@@ -77,7 +80,8 @@ addition also demoted Palladius, a load-bearing/verified-direct source,
 to "corroborating weight," which its own record does not say. Most
 serious of all: diakrisis's replacement manifestation named "Poemen,"
 an elder with no basis anywhere in this build's registered corpus - not
-in Doc_04, not in any record, not in any of the 47 vendored files - and
+in Doc_04, not in any record, not in any of the 46 vendored text files
+(`cic/texts/` holds 47 entries, one of which is `README.md`) - and
 specifically the name this world's own live-testing history flags,
 twice, as its documented fabrication-risk case (a plausible-sounding
 claim supplied from general familiarity rather than this build's own
@@ -119,6 +123,79 @@ Rule-content channel claim depends on - broadened; koinonia's
 Palladius correction overstated "the" load-bearing source where the
 source record itself names two - corrected to name both.
 
+Step3b Review Round 5 (`world-build-docs/desert/reviews/Step3b_Review_Round5.md`)
+found the fabrication-risk sweep clean on independent re-derivation (a
+second, fresh mechanical trace of every capitalised token and numeral
+across all ten records, run without reading Round 4's own inventory,
+turned up nothing unsourced) and all four Round 4 fixes genuinely
+landed, including the four matrix relabels and the Sozomen/Socrates
+correction. It found three substantial issues, all of the same
+recurring shape: a fix pass correctly closing the finding it targeted
+while introducing a fresh, unrelated error of the identical class one
+clause over. Koinonia's Round 4 fix (naming Palladius and the Historia
+Monachorum as two sources rather than one) applied the controlled
+evidentiary_weight enum term "load-bearing" to the Historia Monachorum,
+which desert.source.historia-monachorum.md actually rates
+corroborating - the fourth recurrence of this exact error class in this
+step's own history, and the second and third time it has turned
+specifically on a controlled schema enum rather than free prose;
+corrected to the two source records' own shared language ("principal,"
+"the shallower of the two") rather than a schema term. The Round 4
+matrix-legend fix (relabeling four cells to reverse-form) was
+accompanied by a new legend sentence claiming every cell renders that
+row's own independent finding - false at cell 9x2, where Doc_04's own
+row 9 makes an explicit, independent "extends candidate 2" claim of its
+own that the reverse-form label was suppressing, and at 9x4/4x9, which
+has no reverse-form equivalent since it renders a hedged tension with a
+reading of gravity 9, not the gravity itself; the legend narrowed to
+name these two documented exceptions and cell 9x2 relabeled to `extends
+2 (enabled-by)`. And a re-derivation gap present since this step's
+initial draft and missed by all four prior rounds: Doc_04 SS5's own
+finding that gravity 8's Strand C attestation is provisional and
+Nepheros-derived specifically, distinct from Kellia's more securely
+located archaeological evidence, was carried nowhere in
+economic-embeddedness's own description or the index's cross-strand
+column - added to both. Five minor findings, all wording-fidelity or
+carry-forward gaps rather than false claims: withdrawal's and
+manual-labor's Nepheros mentions still compressed caution (1) to a
+label in one sentence each where the caution's substance was the
+operative qualification - expanded on withdrawal; manual-labor's own
+description gained the caution manual-labor's own manifestations[] and
+locus already carried. Diakrisis's body note misdescribed its own third
+manifestation (claiming a hedge, "almost," that the manifestation
+itself had dropped, and naming the wrong cleared sibling as its
+exception clause) - reworded to match desert.term.apophthegma's actual
+wording directly rather than a paraphrase of it, with the manifestation's
+underlying decision (kept as an absence-observation, not a narrated
+episode, per Doc_04 SS2 row 3's own Explanatory cell) recorded explicitly
+this time so a sixth round does not have to rediscover it. And a third
+round unaddressed: the Apophthegmata compiler-screen caveat's wording
+varies across six formulations on five records (geron-abba-amma,
+elder-authority, withdrawal, authority-tension, scriptural-engagement) -
+the review itself found none of the six inaccurate and the spread did
+not widen this round, so the standing decision, recorded here rather
+than deferred a fourth time, is to leave the variation as house style
+rather than force one canonical sentence across five records each
+carrying it in the phrasing natural to that record's own context; this
+closes the item rather than carrying it forward again. Two cosmetic
+findings fixed: the index's own fabrication-check sentence still said
+"47 vendored files" where the record it was checking against had
+already dropped the count - corrected to the accurate "46 vendored text
+files" (cic/texts/ holds 47 entries, one of which is README.md); and
+the historical Round 2 paragraph above still described the 5x2 matrix
+defect as one of "two fixes that landed only in the index," when
+nothing had landed anywhere for that cell - reworded to distinguish the
+one genuine landed-elsewhere fix (manual-labor's truncated quote) from
+the 5x2 cell's own separate defect (a note asserting a change that was
+never made at all). Two cosmetic findings carried forward again,
+consistent with all five rounds' own treatment of low-priority,
+non-blocking items: the DECISION-LOG.md Step 3b entry (deferred to step
+closure) and koinonia's own body note still listing nine of Sozomen
+III.14's ten declared sources (both load-bearing claims - Palladius
+present, Socrates absent - remain exactly right regardless). All
+records and this index were revised again in response; see each
+record's own body note for its Round 5 fix.
+
 ## Master table
 
 | # | Gravity (record slug) | Classification | Generating evidence streams | Author Gravity risk | Six tests (Repetition / Dependency / Formation / Explanatory / Persistence / Interaction) | Confidence | Cross-Check outcome | Cross-strand status (Art. 21) | Forces-connection (preliminary, Doc_01 §7) |
@@ -130,7 +207,7 @@ source record itself names two - corrected to name both.
 | 5 | `diakrisis` | **Primary** | Apophthegmata (cross-elder, cross-settlement), Cassian Conference II | No | Strong / High / Direct / Strong / Strong / reinforces 3; moderates 2,9 | Widely Accepted | Clean | Cross-strand | Intensifies under the generating force |
 | 6 | `koinonia` | Supporting | Pachomian corpus (organizing principle), Palladius, Sozomen, Rousseau | Yes — flagged at generation, single-corpus (Pachomian) | Strong-within-B / High-within-B / Direct-for-B / Explains B's distinctiveness / **Fails cross-strand** / tension (via 10) w/ 3 | Widely Accepted | Clean — Persistence-test failure, not a confidence problem (Doc_04's own corrected finding) | **Strand-bound (B)** | Emerges from the "replicating Antony's path at scale" sub-problem |
 | 7 | `scriptural-engagement` | **Primary** (softest) | Apophthegmata's applied use of scripture, Burton-Christie (oral/practical thesis); Attention-Absence contrast with World #2 (Alexandria) | No, but flagged as resting partly on an Attention-Absence argument, not positive attestation alone | Moderate-strong / Moderate / Direct / Strong / Cross-strand (thinner in B) / reinforces 5 | Widely Accepted | Clean, but flagged as the softest Primary — a future step revisiting this classification would not be a surprise | Cross-strand, evidence-asymmetric | Neither clearly intensifies nor fractures under any of the four named forces (added per Doc_04's own Round 3 fix) |
-| 8 | `economic-embeddedness` | **Tensional** | Goehring's thesis (jointly with Kellia + Nepheros, never alone) | No, but evidentially uneven — Kellia and Nepheros both Documented/via-authority; Nepheros alone carries the representativeness caveat | Moderate / Moderate / Indirect / Strong / Cross-strand as pattern, Lower-Egypt-concentrated / tension w/ 1 | **Contested** (uneven caveat structure, not uneven verification; general pattern Contested/Inferential) | Uneven evidence reinforces, not undermines, Tensional classification | Cross-strand as a pattern, evidence-concentrated | Holds steady under the named forces (Doc_01 §7's four) — a structural precondition, not a response to the generating force specifically |
+| 8 | `economic-embeddedness` | **Tensional** | Goehring's thesis (jointly with Kellia + Nepheros, never alone) | No, but evidentially uneven — Kellia and Nepheros both Documented/via-authority; Nepheros alone carries the representativeness caveat | Moderate / Moderate / Indirect / Strong / Cross-strand as pattern, Lower-Egypt-concentrated / tension w/ 1 | **Contested** (uneven caveat structure, not uneven verification; general pattern Contested/Inferential) | Uneven evidence reinforces, not undermines, Tensional classification | Cross-strand as a pattern, evidence-concentrated in B and, provisionally (Nepheros-derived specifically), C | Holds steady under the named forces (Doc_01 §7's four) — a structural precondition, not a response to the generating force specifically |
 | 9 | `evagrian-systematization` | Supporting | Evagrius's own corpus, Socrates IV.23 | **Yes — concentrated in one author**, flagged at generation | Strong-within-scope / High-within-scope / Direct-for-C / Strong-for-C / **Fails cross-strand** / extends 2 (enabled-by); moderated by 5 | Widely Accepted | Clean — Persistence-test failure, not confidence (Doc_04's own corrected finding, matching gravity 6) | **Strand-bound (C)** | No demonstrated relationship to any of the four named forces (this build's own assessment, not a Doc_04 finding); transmission history (399–400; 553) reserved for Doc_08 |
 | 10 | `authority-tension` | **Tensional** | Apophthegmata vs. Pachomian corpus (direct textual contrast), Palladius, Sozomen, Rousseau (office names) | No | Recurs at A/C–B boundary / High where it applies / Direct / Strong / Persists unresolved / **is** the tension between 3 and 6 | Widely Accepted (both constituent bodies) | Clean — Tensional by nature (an opposition between two other gravities), not by evidential weakness | Spans the A/C–B boundary as unresolved opposition | Emerges from the "replicating Antony's path at scale" sub-problem, alongside 6 |
 
@@ -152,7 +229,7 @@ All ten candidates (1–10) clear the Cross-Check on their own terms; `economic-
 
 ## Interaction Matrix
 
-Every candidate against every other; cell contents are `reinforces` (and its reverse, `reinforced-by N`) / `moderates` (and its reverse, `moderated-by N`) / `tension` / `tension (via 10)` (a real Doc_04 tension routed through gravity 10 rather than declared directly, see notes below) / `soft-tension*` (a hedged Doc_04 tension, see notes below) / `enables → N` (and its reverse, `← enabled-by N`; this world's precondition-for/enabled-by pair) / `—` (no demonstrated relationship). No row is entirely `—` — Doc_04's own flagged warning sign for an impression-generated candidate does not apply to any of the ten. The `*` on `soft-tension*` marks the label explained in the second note below, not a footnote elsewhere in this document. Every cell renders that row's OWN Doc_04 §2 Interaction-test finding about the column - a reverse-form label (`reinforced-by`/`moderated-by`/`← enabled-by`) where the row makes no independent claim of its own but the opposite row does.
+Every candidate against every other; cell contents are `reinforces` (and its reverse, `reinforced-by N`) / `moderates` (and its reverse, `moderated-by N`) / `tension` / `tension (via 10)` (a real Doc_04 tension routed through gravity 10 rather than declared directly, see notes below) / `soft-tension*` (a hedged Doc_04 tension, see notes below) / `enables → N` (and its reverse, `← enabled-by N`; this world's precondition-for/enabled-by pair) / `—` (no demonstrated relationship). No row is entirely `—` — Doc_04's own flagged warning sign for an impression-generated candidate does not apply to any of the ten. The `*` on `soft-tension*` marks the label explained in the second note below, not a footnote elsewhere in this document. Each cell renders that row's OWN Doc_04 §2 Interaction-test finding about the column, with two documented exceptions noted below (9×2 and the 4×9/9×4 pair) - elsewhere, a reverse-form label (`reinforced-by`/`moderated-by`/`← enabled-by`) marks a cell where the row makes no independent claim of its own but the opposite row does.
 
 | | 1 withdrawal | 2 combat | 3 elder-auth | 4 labor | 5 diakrisis | 6 koinonia | 7 scriptural | 8 econ-embed | 9 evagrian | 10 auth-tension |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -164,11 +241,12 @@ Every candidate against every other; cell contents are `reinforces` (and its rev
 | **6 koinonia** | — | — | tension (via 10) | — | — | — | — | — | — | **tension** |
 | **7 scriptural** | — | — | — | — | reinforces | — | — | — | — | — |
 | **8 econ-embed** | **tension** | — | — | reinforced-by 4 | — | — | — | — | — | — |
-| **9 evagrian** | — | ← enabled-by 2 | — | soft-tension* | moderated-by 5 | — | — | — | — | — |
+| **9 evagrian** | — | extends 2 (enabled-by) | — | soft-tension* | moderated-by 5 | — | — | — | — | — |
 | **10 auth-tension** | — | — | **tension** | — | — | **tension** | — | — | — | — |
 
 Notes on cells not reduced to the plain labels above:
 
+- **9×2 (`extends 2 (enabled-by)`)** - unlike the other reverse-form cells, row 9 DOES make its own independent Doc_04 SS2 claim about column 2: "Extends candidate 2 (a genuine candidate-to-candidate relationship...)," Doc_04's own words. This is not the row-9-has-nothing-of-its-own case the other reverse-form cells cover - it is rendered in the enabled-by vocabulary because that is the same relationship 2×9's "generates candidate 9" describes from the other side, matching the master table's own "extends 2 (enabled-by)" phrasing for this row.
 - **3×6 / 6×3 (`tension (via 10)`)** - Doc_04 SS2's own Interaction cells for both candidates name this opposition, but the record graph routes it through gravity 10 rather than declaring it directly (`desert.gravity.elder-authority` and `desert.gravity.koinonia` both carry `tension-with` to `authority-tension`, not to each other) - a deliberate, explained choice on both records, not an omission, and this label makes that routing visible rather than reading as "no demonstrated relationship."
 - **4×9 / 9×4 (`soft-tension*`)** - Doc_04 SS2 row 4's Interaction cell, in full: "Reinforces withdrawal (1) and candidate 8; some tension with a purely contemplative reading of candidate 9." That tension is with a *reading* of gravity 9, not with the gravity itself - a full `tension-with` relation would overstate it, matching this build's own never-fabricate-a-tension discipline. Marked `soft-tension*` rather than `—`, so the relationship is visible without being overstated into a relation neither record declares.
 - **5×2 / 5×9 (`moderates`)** - Doc_04 SS2 row 5 treats gravity 5's relationship to gravities 2 and 9 identically ("moderates candidate 2/9's ascetic intensity against excess"), and `desert.gravity.diakrisis`'s own description now says so in one breath about both. Both cells read `moderates` for consistency, rather than splitting the same sentence into `reinforces` for one target and `moderates` for the other. The two mirror cells are NOT symmetric with each other, and are not meant to be: this matrix's convention is row-as-subject, each cell rendering that row's OWN Doc_04 Interaction-test finding about the column. Row 2's own finding about gravity 5 is a separate, independent one - "Reinforces diakrisis (5)" (Doc_04 SS2 row 2) - so 2×5 reads `reinforces`, not `moderated-by 5`; gravities 2 and 5 stand in two distinct, simultaneously-true relations (2 reinforces 5; 5 moderates 2), each carried in its own cell. Row 9 has no comparable finding of its own about gravity 5 (Doc_04 SS2 row 9's Interaction cell names no relation back to 5), so 9×5 carries only the one thing there is to say - `moderated-by 5` - and that asymmetry with 2×5 is real, not an inconsistency.

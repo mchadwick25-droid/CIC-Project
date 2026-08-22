@@ -34,7 +34,7 @@ description: "The capacity to judge rightly between thoughts, practices, and cou
 manifestations:
 - "the recurring narrative pattern: an eager newcomer asks an elder for an extreme practice and is redirected toward something more moderate"
 - "Cassian's Conference II, devoted entirely to discretion as the teaching he received from the Egyptian elders"
-- "diakrisis itself the subject of no sustained treatise outside Cassian's own retrospective Conference - unlike the praktike-apatheia-theoria ladder or the eight-logismoi taxonomy, no Evagrian-style systematic handbook of it survives from within the desert's own span"
+- "diakrisis, like most of this world's teaching outside Evagrius, was the subject of almost no sustained treatise - Cassian's Conference II is the one exception, a retrospective account written decades after the fact, not a systematic handbook in the register of the praktike-apatheia-theoria ladder or the eight-logismoi taxonomy"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 5, SS2
 row 5, SS3, SS4, SS5 row 5, SS6 (gravity 5). The fabricated "mother of
@@ -101,3 +101,18 @@ theoria ladder, in which apatheia is a middle rung, not the ladder's
 own name). Finding C4: the previous paragraph's own fabrication-check
 undercounted the vendored Poemen-family hits (one, "Poemenion") -
 corrected to two ("Poemenion" and "Poemenia," neither Abba Poemen).
+
+Step3b Review Round 5, Finding M3: the Round 4 rewrite still contradicted
+the manifestation above it in substance (an unhedged "no sustained
+treatise... survives" against Conference II, named one line up, as an
+exception carved out only by "Evagrian-style") and dropped the hedge
+("almost") the note claimed to be using from desert.term.apophthegma.
+Reworded to state Conference II as the one named exception directly,
+matching the cleared sibling's actual wording rather than a paraphrase
+of it. Finding M4 (carried from Round 4, decision recorded rather than
+rediscovered): this manifestation remains an absence-observation about
+the record rather than a narrated episode - kept in that form
+deliberately, since Doc_04 SS2 row 3's own Explanatory cell treats the
+same absence ("explains absence of a general systematic treatise
+tradition outside Evagrius") as itself an attested pattern, not merely
+a gap in this record's own evidence.
