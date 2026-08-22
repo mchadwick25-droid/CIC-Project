@@ -51,10 +51,16 @@ manifestations:
 - "one bishop, flanked by presbyters and deacons, obeyed as the shape of unity - 'your justly renowned presbytery, worthy of God, is fitted as exactly to the bishop as the strings are to the harp' (Ignatius, Ephesians 4)"
 - "a plural college of presbyters, interchangeable with episkopos in the same letter (1 Clement 42, 44)"
 - "Polycarp addressed as bishop by Ignatius, while his own letter opens 'Polycarp, and the presbyters with him, to the Church of God sojourning at Philippi'"
+- "the Didache's own transition instruction: appoint bishops and deacons for yourselves (15:1)"
 ---
 Re-derived from the approved Doc_08 Force 2B-1. THIS FORCE IS
 pahc.gravity.authority-consolidation (G01) ITSELF - sources and core
-confidence mirror that gravity record exactly. canon_cells reuse F3-I
+confidence mirror that gravity record, with the gravity's own closing
+Cross-Check sentence condensed rather than reproduced verbatim. FIXED
+at Step 6 round-1 review: an earlier draft cited the Didache 15:1
+source row in sources[] without a matching manifestation, leaving that
+row cited but unused in this record's own prose - added the fourth
+manifestation above so it is not orphaned. canon_cells reuse F3-I
 from the gravity record for the identical reason. The one relation
 added here, to liturgical-practice, is NOT a duplicate of the gravity
 record's own five-way relation set: it is the specific connection

@@ -42,10 +42,16 @@ description: "Refusing those who say the Lord's flesh was only appearance. The r
   attested outside Ignatius within the Native set. Interaction: demonstrated relationships with
   authority-consolidation, martyrdom-meaning, and liturgical-practice - all three INFERENTIAL per Doc_04's
   own labeling (single shared Ignatian passages doing double duty, not independent corroboration). No
-  demonstrated relationship with translocal-network or state-pressure - Doc_04's own Interaction Matrix
-  traces neither directly (the state-pressure cell was carried as Reshaping through four review rounds
-  before Doc_04's own round 5 found it had no textual grounding anywhere and corrected it to No
-  demonstrated relationship - this record follows that corrected state, not the earlier error). AUTHOR
+  demonstrated relationship with translocal-network - Doc_04's own Interaction Matrix traces none
+  directly. On state-pressure: Doc_04's own Interaction Matrix carried this cell as Reshaping through
+  four review rounds before its own round 5 found no textual grounding anywhere and corrected it to No
+  demonstrated relationship AT THE GRAVITY LEVEL - that Doc_04 correction still stands and is not
+  reopened here. Doc_08's own later forces analysis (Section 4, Connection 5) proposes a SEPARATE,
+  new synthesis at the force level: that state legal precarity and this gravity's own boundary-drawing
+  converge on a shared formative lesson for a Strand A member, disclosed there and in this record's own
+  relations[] (the associated-with edge to pahc.force.state-pressure) as this build's own interpretive
+  extension, not an inherited Doc_04 finding - the two statements describe different grains (gravity
+  vs. force) and do not contradict each other. AUTHOR
   GRAVITY RISK (Doc_04's own generation-stage rating): High, flagged at generation - within the Native
   evidence streams, this candidate is substantively developed by exactly one voice. THE
   THIRD-ASIA-MINOR-PROFILE ITEM (Doc_04 SS3, carried here alongside authority-consolidation and
@@ -66,7 +72,14 @@ manifestations:
 Re-derived from the approved Doc_04 (G05) - the least evidentially
 secured of this world's confirmed gravities, and for exactly that
 reason the clearest demonstration that even this world's boundary was
-actively defended, not inherited already-drawn. THE UNDEFEATED-RIVALS
+actively defended, not inherited already-drawn. THE NEW associated-with
+EDGE TO pahc.force.state-pressure (added at Step 6, Doc_08 build):
+realizes Doc_08 Section 4's Connection 5, a force-level synthesis Doc_08
+itself discloses as its own new reading rather than an inherited Doc_04
+finding - see the description's own Interaction paragraph, revised at
+Step 6 round-1 review to state this explicitly rather than reading as a
+contradiction of Doc_04's unchanged gravity-level "no demonstrated
+relationship with state-pressure" finding. THE UNDEFEATED-RIVALS
 DISCLOSURE OBLIGATION (Doc_01 SS8.3, carried here at full strength):
 Marcion, Valentinian Christianity, and the New Prophecy are live,
 contemporary, geographically overlapping neighbors in this same window,

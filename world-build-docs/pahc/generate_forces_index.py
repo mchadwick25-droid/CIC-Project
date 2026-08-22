@@ -44,9 +44,14 @@ CELL_QUESTIONS = {
     "3B": "What internal forces fractured this community, generated successor movements, or led to the dissolution of its characteristic form?",
 }
 
-# The four "this gravity IS this force" identity pairs (Doc_08 Section 5's
-# own framing) - carried here explicitly so the index states the identity
-# rather than presenting these as four more ordinary force<->gravity edges.
+# The four "this gravity IS this force" identity pairs - carried here
+# explicitly so the index states the identity rather than presenting these
+# as four more ordinary force<->gravity edges. Attribution is not uniform:
+# Doc_08 Section 5 states the identity explicitly in prose only for G03
+# ("This gravity IS Force 2A-1 itself, per Doc_04's own framing"); for G01,
+# G04, G05 the identity is instead carried by the "(G01)"/"(G04)"/"(G05)"
+# tags on Doc_08 Section 3's own Cell-2B force headings, not by a Section 5
+# sentence.
 IDENTITY_PAIRS = {
     "pahc.force.state-pressure": "pahc.gravity.state-pressure",
     "pahc.force.authority-consolidation": "pahc.gravity.authority-consolidation",
@@ -55,10 +60,13 @@ IDENTITY_PAIRS = {
 }
 
 # Doc_08 Section 4's Named Cross-Cell Connections (six total) - authored
-# prose linking two forces to each other directly, restated here since the
-# schema's relations[] already carries these as associated-with edges but
-# the NARRATIVE label ("Connection 2", etc.) is Doc_08's own naming, not a
-# structured field.
+# prose linking two forces to each other directly. Only Connection 6 is
+# realized below as a genuine bidirectional force-to-force relations[]
+# edge; the other five are realized instead as force->gravity edges (see
+# the gravity-connection cross-reference section), so the NARRATIVE label
+# ("Connection 2", etc.) is restated here for traceability to Doc_08, not
+# because the schema already carries all six as force<->force edges - the
+# generated output below reports which of the six actually are.
 NAMED_CONNECTIONS = [
     ("Connection 1", "pahc.force.neronian-persecution", "pahc.force.authority-consolidation",
      "eyewitness-generation loss is the direct generative condition for authority's own ongoing internal contest"),
@@ -82,9 +90,14 @@ NAMED_CONNECTIONS = [
 TRANSMISSION_FORCES = ["pahc.force.transmission-network", "pahc.force.selective-canonization"]
 
 
-def kind_of(name: str) -> str:
-    m = re.search(r"\[(\d[AB]) - (\w+)", name)
-    return m.group(2) if m else "?"
+def cell_of(name: str) -> str:
+    """Parse the six-cell tag directly from a force's own `[nX - kind/side]`
+    name suffix, so CELL_MAP (which duplicates this by hand for readability
+    in the six-cell matrix section) can be checked against the record's own
+    text rather than trusted blind - catches drift if a record is edited or
+    added without updating CELL_MAP."""
+    m = re.search(r"\[(\d[AB]) -", name)
+    return m.group(1) if m else "?"
 
 
 def main():
@@ -94,6 +107,10 @@ def main():
     ids = sorted(forces)
 
     missing_cell = [fid for fid in ids if fid not in CELL_MAP]
+    cell_drift = [
+        fid for fid in ids
+        if fid in CELL_MAP and cell_of(forces[fid]["name"]) != CELL_MAP[fid]
+    ]
 
     lines = [
         "# pahc Forces Index",
@@ -103,10 +120,14 @@ def main():
         "Companion to Doc_08 (Forces), re-derived from the approved "
         "`CiC_W1_Doc08_Forces_Document.md` under the new records regime.",
         "",
-        f"**Total force records:** {len(ids)} (Doc_08 names 14; this index carries all 14).",
+        f"**Total force records:** {len(ids)} (matches Doc_08's own count of 14 as of this "
+        "generation - if this number ever reads otherwise, Doc_08 and this world's own force "
+        "records have diverged and that divergence needs resolving, not silently updating this line).",
     ]
     if missing_cell:
         lines.append(f"**UNPLACED (no six-cell assignment in this index's own map):** {', '.join(missing_cell)}")
+    if cell_drift:
+        lines.append(f"**CELL_MAP DRIFT (hardcoded map disagrees with the record's own name suffix):** {', '.join(cell_drift)}")
 
     lines += ["", "## Six-cell matrix", ""]
     for cell in ("1A", "1B", "2A", "2B", "3A", "3B"):
@@ -163,7 +184,17 @@ def main():
             + ("passes the Transmission Specificity Principle." if named else "FLAGGED: no named mechanism found.")
         )
 
-    lines += ["", "## Confidence summary (Doc_08 Section 7 tiers, restated per-force)", ""]
+    lines += ["", "## Confidence summary (each force's own Doc_08 Section 3 Layer-1 confidence tag)", ""]
+    lines.append(
+        "Note: Doc_08 Section 7 groups forces into two broad tiers (Documented/Widely-Accepted vs. "
+        "Dominant-Modern-Reconstruction); it does not itself state a per-force value at the "
+        "five-level granularity below. Where a force's own Section 3 Layer-1 tag names a split "
+        "(e.g. \"Documented that X; Contested that Y\"), this build's own rule - applied but not "
+        "written down in Doc_08 itself - is to set formation_confidence to whichever half of the "
+        "split does the record's actual interaction/dependency work, the same Confidence/Gravity "
+        "Cross-Check discipline used throughout the gravity records."
+    )
+    lines.append("")
     lines.append("| id | formation_confidence | verification_state | cross-check flag |")
     lines.append("|---|---|---|---|")
     for fid in ids:
@@ -174,26 +205,38 @@ def main():
         )
 
     lines += ["", "## Identity pairs (\"this gravity IS this force\")", ""]
+    lines.append(f"- **pahc.force.state-pressure** IS **pahc.gravity.state-pressure** — per Doc_08 Section 5's own explicit framing (\"This gravity IS Force 2A-1 itself\").")
     for fid, gid in IDENTITY_PAIRS.items():
-        lines.append(f"- **{fid}** IS **{gid}** — per Doc_08 Section 5's own explicit framing, not a separate finding.")
+        if fid == "pahc.force.state-pressure":
+            continue
+        lines.append(f"- **{fid}** IS **{gid}** — per Doc_08 Section 3's own force heading naming this gravity directly, not a Section 5 sentence (Section 5 lists this force's connected gravities but does not restate the identity in prose).")
     lines.append(
         "- Not identity-paired but ending-stage RESOLUTION of a Cell-2B identity force: "
         "**pahc.force.monepiscopacy-consolidation** resolves (does not continue) "
         "**pahc.gravity.authority-consolidation** / **pahc.force.authority-consolidation**'s own defining tension."
     )
 
-    lines += ["", "## Relation reciprocity check (mechanical, force records only)", ""]
+    lines += ["", "## Relation reciprocity check (mechanical, every edge touching a force record)", ""]
     bad = []
-    for fid, r in forces.items():
+    # Scans BOTH directions - every relation on every pahc record (not force
+    # records alone) whose source or target is a force - so a gravity->force
+    # edge with no force-side reciprocal is caught here too, not just the
+    # force->gravity direction. gate_reciprocity (engine/m1/gates.py) already
+    # covers the full record set every gate run; this is a force-scoped
+    # restatement of that same check, not a separate weaker one.
+    for rid, r in recs.items():
         for rel in r.get("relations") or []:
             tgt = rel["target"]
+            if rid not in forces and tgt not in forces:
+                continue
             inv = RELATION_INVERSE[rel["type"]]
             if tgt in recs:
-                back = any(x["type"] == inv and x["target"] == fid for x in recs[tgt].get("relations") or [])
+                back = any(x["type"] == inv and x["target"] == rid for x in recs[tgt].get("relations") or [])
                 if not back:
-                    bad.append((fid, rel["type"], tgt))
+                    bad.append((rid, rel["type"], tgt))
     lines.append(
-        "All force relations reciprocate (checked against the full pahc record set, not force records alone)."
+        "All relations touching a force record reciprocate (both directions checked: force->gravity "
+        "and gravity->force)."
         if not bad
         else "NON-RECIPROCAL: " + str(bad)
     )

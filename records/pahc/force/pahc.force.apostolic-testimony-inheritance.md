@@ -18,7 +18,7 @@ sources:
   locus: "42, 44 (the apostles preached from Christ, and in turn appointed their own firstfruits as successors)"
   license: public-domain
 - source_id: pahc.source.ignatius-letters
-  locus: "Trallians 3; Magnesians 13 (subjection to the presbytery/bishop urged as continuity with the apostles)"
+  locus: "Trallians 2 (shorter recension); Magnesians 13 (subjection to the presbytery/bishop urged as continuity with the apostles)"
   license: public-domain
 relations:
 - type: associated-with
@@ -31,8 +31,8 @@ description: "HISTORICAL EVENT: this world inherited, rather than invented, the 
   apostolic generation directly and predating this world's own 70 CE floor. 1 Clement grounds
   correction of Corinth's deposed presbyters in an explicit chain: Christ from God, the apostles
   from Christ, the apostles' own appointed successors after them (42, 44); Ignatius urges submission
-  to the presbytery or bishop in the same breath as submission owed the apostles themselves
-  (Trallians 3; Magnesians 13). WORLD'S OWN EXPERIENCE: what had been handed down by the apostles
+  to the presbytery in the same breath as submission owed to the apostle Jesus Christ himself
+  (Trallians 2; Magnesians 13). WORLD'S OWN EXPERIENCE: what had been handed down by the apostles
   themselves was the measure against which everything else was tested - a visiting teacher's own
   words had to be weighed against what a community already held, and a letter's authority rested on
   how faithfully it carried forward what had been received. This was not one tradition among several
@@ -46,7 +46,7 @@ description: "HISTORICAL EVENT: this world inherited, rather than invented, the 
   urgency."
 manifestations:
 - "1 Clement's explicit chain of appointment: Christ from God, the apostles from Christ, and the apostles' own appointed successors after them (42, 44)"
-- "Ignatius urging submission to the presbytery 'as to the apostles of Jesus Christ' (Trallians 3)"
+- "Ignatius urging the community to 'be subject to the presbytery, as to the apostle of Jesus Christ' (Trallians 2, shorter recension)"
 - "a visiting teacher's own words weighed against what a community already held from the apostles"
 ---
 Re-derived from the approved Doc_08 Force 1B-1. canon_cells: F4-E
@@ -55,3 +55,10 @@ later inventions?') is a close, direct match to this force's own
 content and is added here at generation, not retrofitted. Relation to
 pahc.gravity.authority-consolidation only - Doc_08's own text does not
 trace this force to any other gravity, and none is manufactured here.
+FIXED at Step 6 round-1 review: the Ignatius quote and locus were wrong
+on two counts - the manifestation quoted the LONGER recension's plural
+"as to the apostles of Jesus Christ," which pahc.source.ignatius-letters
+puts explicitly outside its own scope (its own "load-bearing" recension
+discipline: only the shorter/middle-recension text may be quoted from
+this row), and misplaced it at Trallians 3 rather than 2. Corrected to
+the shorter recension's actual wording and locus.

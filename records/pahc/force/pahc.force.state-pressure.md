@@ -63,8 +63,11 @@ pahc.gravity.state-pressure (G03) ITSELF, per Doc_08's own explicit
 framing ('this candidate IS one of the primary forces named at this
 world's generative origin... its own "test" is better read as a
 question of character than of response to some other force') - sources
-and core confidence deliberately mirror that gravity record exactly,
-the same evidentiary ground viewed through the forces lens rather than
+and core confidence deliberately mirror that gravity record (the
+gravity's own six-test/Cross-Check language is condensed rather than
+reproduced verbatim; the Decius c. 249-250 CE dating note, faithful to
+Doc_08 Force 2A-1 Layer 1, is this force's own addition), the same
+evidentiary ground viewed through the forces lens rather than
 the gravity lens. canon_cells reuse F3-I from the gravity record for
 the identical reason. The three relations added here (to
 authority-consolidation, martyrdom-meaning, boundary-drawing) are NOT

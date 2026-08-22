@@ -12,7 +12,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: contested
   formation_confidence: Inferential-Thin
-  divergence_note: "Documented that Ignatius makes this argument; Inferential-Thin on its representativeness beyond his own direct addressees - the underlying phenomenon (a real, live, unsettled boundary) is well-evidenced, but the evidence for it is substantively one voice."
+  divergence_note: "Documented that Ignatius makes this argument; Inferential-Thin on its representativeness beyond his own direct addressees. No level of grain - coarse or fine - clears the Documented bar martyrdom-meaning clears at its own narrowest scope: this force's own Formation test reads only 'Plausible... unestablished,' never 'Clearly.'"
 sources:
 - source_id: pahc.source.ignatius-letters
   locus: "the anti-docetic argument, present across several letters (e.g. Trallians 9, Smyrnaeans 1-7)"
@@ -42,8 +42,9 @@ manifestations:
 ---
 Re-derived from the approved Doc_08 Force 2B-4. THIS FORCE IS
 pahc.gravity.boundary-drawing (G05) ITSELF - sources and confidence
-mirror that gravity record exactly. canon_cells reuse F3-T for the
-identical reason. The one relation added here, to liturgical-practice,
+mirror that gravity record, with the gravity's own six-test language
+condensed rather than reproduced verbatim. canon_cells reuse F3-T for
+the identical reason. The one relation added here, to liturgical-practice,
 is the specific connection Doc_08's own Section 5 traces under G07's
 connected-forces list ('2B-4: the same instruction functions as a
 boundary-claim - refusing a rival's eucharist and holding the
@@ -51,3 +52,10 @@ community's own were the same act'). The other gravity-level
 connections this force shares with G05 (rival movements/2A-2, state
 pressure/2A-1 as Doc_08's own new synthesis, authority-consolidation)
 are already declared from those other records and not re-declared here.
+
+FIXED at Step 6 round-1 review: divergence_note previously read "the
+underlying phenomenon... is well-evidenced, but the evidence for it is
+substantively one voice" - self-contradicting on its face, and Doc_08's
+own text attaches "well-evidenced" specifically to the EXTERNAL rival-
+movements condition (Force 2A-2), not to this force. Restored to the
+gravity twin's own framing.

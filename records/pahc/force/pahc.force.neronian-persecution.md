@@ -47,6 +47,11 @@ manifestations:
 Re-derived from the approved Doc_08 Force 1A-2. canon_cells left empty:
 this is the generative origin condition behind the world's own window,
 not itself a participant-facing question this world's canon asks about
-directly (the Nero/persecution QUESTIONS the canon does ask - F3-E,
-F6-E - are answered by the state-pressure gravity and martyrdom
-records, not this originating-event force).
+directly (the Nero/persecution QUESTIONS the canon does ask - F3-I-03
+"Was it actually dangerous to be a Christian, day to day, or is that
+exaggerated?" and F6-E - are answered by the state-pressure and
+martyrdom-meaning records, not this originating-event force). FIXED at
+Step 6 round-1 review: this note previously cited F3-E, which contains
+no Nero or persecution question (its own three cells are catacombs,
+Constantine, and outsider strangeness) and is not claimed by
+pahc.gravity.state-pressure (F3-I). Corrected to the actual cell.

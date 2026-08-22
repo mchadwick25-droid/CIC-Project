@@ -5,7 +5,8 @@ record_type: force
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F2-E
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -59,15 +60,21 @@ manifestations:
 - "the two-century Ussher/Vossius/Pearson vs. Daille critical dispute needed to authenticate Ignatius's middle recension"
 - "the Shepherd of Hermas's own eclectic, no-single-manuscript reconstruction, complicated by the Simonides forgery episode"
 ---
-Re-derived from the approved Doc_08 Force 2B-2. canon_cells left empty
-deliberately: F5-E (material remains / how historians know about daily
-life) was flagged in the gravity index as reserved for a future
-honest_limit or contested_claim citing the G06 household-rejection
-finding directly, and this force's own content - how TEXTS, not daily
-life, were transmitted and selected - is a related but distinct
-question this build does not want to blur into that reserved cell by
-an approximate match. No other cell in the fleet canon asks this
-force's specific question (a participant would not ask "why did your
-letters survive" the way they would ask about daily life, doctrine, or
-suffering), so this is left uncovered rather than forced onto a
-near-but-not-quite cell.
+Re-derived from the approved Doc_08 Force 2B-2. canon_cells: F2-E
+('Where is your own record thinnest?') is a close, direct match to
+this force's own FORMATION IMPACT content (the network "determined
+which portions of this world's own self-understanding are recoverable
+today at all") and is the same cell claimed by this force's Cell-3B
+counterpart, pahc.force.selective-canonization - the same underlying
+mechanism at its ongoing and ending stages respectively, both correctly
+grounding the same cell. FIXED at Step 6 round-1 review: an earlier
+draft of this trailing body claimed "no other cell in the fleet canon
+asks this force's specific question" and left canon_cells empty - false
+on its face given the sibling record's own F2-E claim, checked here
+directly against _fleet.canon.f2-e-03. F5-E (material remains / how
+historians know about daily life) remains deliberately NOT claimed: it
+is reserved for a future honest_limit or contested_claim citing the G06
+household-rejection finding directly, and no force record in this
+batch claims it - this force's own content is about how TEXTS, not
+daily life, were transmitted and selected, a related but distinct
+question from F5-E's own.

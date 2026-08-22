@@ -41,10 +41,12 @@ description: "HISTORICAL EVENT: as monepiscopacy and apostolic succession became
   EXPERIENCE: not recoverable - no source in this world's own evidentiary base registers an
   awareness of its own eventual selective transmission. This is a judgment available only in
   retrospect, from outside this world's own lived experience, and is not attributed to this world's
-  own self-understanding. FORMATION IMPACT: this is the direct mechanism behind why this world's own
-  Strand B (Rome) content - Hermas above all - is thinner and less securely canonical in the modern
-  evidentiary base than Strand A's Ignatian material, independent of how prevalent either strand's
-  practice actually was in its own time. This world's evidence base privileges literate,
+  own self-understanding. FORMATION IMPACT: read this way - the later settlement itself driving these
+  particular selection outcomes is this build's own synthesis from the survival pattern, not a claim
+  independently stated by Doc_02 - this is the mechanism behind why this world's own Strand B (Rome)
+  content - Hermas above all - is thinner and less securely canonical in the modern evidentiary base
+  than Strand A's Ignatian material, independent of how prevalent either strand's practice actually
+  was in its own time. This world's evidence base privileges literate,
   leadership-tier, eventually-canonically-useful voices, and this ending-transmission pattern is one
   further, later-stage instance of the same structural filter operating throughout this world's own
   life."
@@ -54,7 +56,12 @@ manifestations:
 - "Hermas cited as scripture by three major later fathers, then excluded by Athanasius - a fluid, not originally settled, canonical status"
 - "the Didache's own roughly eighteen-century disappearance from active circulation"
 ---
-Re-derived from the approved Doc_08 Force 3B-2. canon_cells: F2-E
+Re-derived from the approved Doc_08 Force 3B-2. FIXED at Step 6 round-1
+review: the causal-synthesis hedge previously lived only in
+divergence_note; the description asserted the causal claim flatly. Now
+disclosed inline in the description's own FORMATION IMPACT layer too,
+matching the house pattern already used at pahc.force.contemporary-
+rival-movements. canon_cells: F2-E
 ('Where is your own record thinnest?') is a close, direct match to this
 force's own content and is added here at generation. relations left
 empty deliberately: Doc_08's own Section 4/5 does not trace this force

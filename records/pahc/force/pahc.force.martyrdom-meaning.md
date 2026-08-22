@@ -25,7 +25,7 @@ name: "Martyrdom as Formation-Shaping Meaning-Response [2B - ongoing/internal]"
 kind: ongoing
 description: "HISTORICAL EVENT: Ignatius's own letters (Romans 4, 'food for wild beasts') and the
   Martyrdom of Polycarp (ch. 18, describing the community collecting Polycarp's bones as 'more
-  precious than the finest jewels' and marking his dies natalis) are, within this world's own Native
+  precious than the most exquisite jewels' and marking his dies natalis) are, within this world's own Native
   evidentiary base, exactly two data points, both Strand A. WORLD'S OWN EXPERIENCE: for the one
   awaiting his own arrest, the exposure named by state pressure could turn toward eager anticipation
   rather than dread - a longing to be consumed rather than spared, framed as the truest possible
@@ -43,13 +43,25 @@ manifestations:
 ---
 Re-derived from the approved Doc_08 Force 2B-3. THIS FORCE IS
 pahc.gravity.martyrdom-meaning (G04) ITSELF - sources and confidence
-mirror that gravity record exactly. canon_cells reuse F6-E for the
-identical reason. relations left empty: every connection Doc_08 traces
-for this force (to state-pressure/2A-1, authority-consolidation/2B-1,
-the Roman Mediterranean world/1A-1) is already declared from the OTHER
-side - pahc.force.roman-mediterranean-world and pahc.force.state-
-pressure both already carry associated-with edges to
-pahc.gravity.martyrdom-meaning, and pahc.gravity.authority-consolidation
-already reciprocates with pahc.gravity.martyrdom-meaning at the gravity
-level. Declaring them again here would be a redundant duplicate, not a
-new finding.
+mirror that gravity record, with the gravity's own six-test/Formation-
+test language ("Clearly formation-shaping... far less certain for the
+ordinary, non-elite, non-imminently-threatened member") condensed
+rather than reproduced verbatim in this record's own divergence_note.
+canon_cells reuse F6-E for the identical reason. relations left empty:
+every connection Doc_08 traces for this force (to state-pressure/2A-1,
+authority-consolidation/2B-1, the Roman Mediterranean world/1A-1) is
+already declared from the OTHER side - pahc.force.roman-mediterranean-
+world and pahc.force.state-pressure both already carry associated-with
+edges to pahc.gravity.martyrdom-meaning, and pahc.gravity.authority-
+consolidation already reciprocates with pahc.gravity.martyrdom-meaning
+at the gravity level. Declaring them again here would be a redundant
+duplicate, not a new finding.
+
+FIXED at Step 6 round-1 review: the description quoted the Martyrdom of
+Polycarp bone-collection passage as "more precious than the finest
+jewels" (this record's own manifestations[1], 20 lines below, always
+had the correct wording, "most exquisite jewels" - checked directly
+against the vendored ANF text, ch. XVIII). The description now matches.
+Doc_08 Force 2B-3's own Layer 1 carries the identical "finest jewels"
+paraphrase - worth a future Doc_08 touch, not a reason to hold this
+record, since this record does not need Doc_08 reopened to be correct.
