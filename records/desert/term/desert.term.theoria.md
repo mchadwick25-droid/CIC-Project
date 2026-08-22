@@ -26,6 +26,8 @@ relations:
   target: desert.term.apatheia
 - type: associated-with
   target: desert.term.logismoi
+- type: associated-with
+  target: desert.gravity.evagrian-systematization
 plain_meaning: "Contemplation: in Evagrius's scheme, the seeing of God and of things in God that only a stilled soul reaches."
 world_word: theoria
 false_friend:

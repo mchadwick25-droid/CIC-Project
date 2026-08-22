@@ -47,6 +47,10 @@ relations:
   target: desert.term.cheironaxia
 - type: associated-with
   target: desert.term.geron-abba-amma
+- type: associated-with
+  target: desert.gravity.withdrawal
+- type: associated-with
+  target: desert.gravity.economic-embeddedness
 plain_meaning: "Withdrawal: leaving settled village life for the desert's edge, as the whole work of formation, not a change of address."
 world_word: anachoresis
 false_friend:

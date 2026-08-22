@@ -35,6 +35,8 @@ relations:
   target: desert.term.apotage
 - type: associated-with
   target: desert.term.geron-abba-amma
+- type: associated-with
+  target: desert.gravity.koinonia
 plain_meaning: "The Koinonia: Pachomius's own name for his linked houses. They lived under one written rule and one leader."
 world_word: koinonia
 false_friend:

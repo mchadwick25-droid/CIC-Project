@@ -1,0 +1,43 @@
+---
+id: desert.gravity.diakrisis
+world_id: desert-monasticism
+record_type: gravity
+schema_version: 2
+status: draft
+register: etic
+canon_cells: [F4-I]
+confidence:
+  citation_specificity: B
+  verification_state: verified-via-authority
+  evidentiary_weight: load-bearing
+  formation_confidence: Widely Accepted
+  divergence_note: null
+sources:
+- source_id: desert.source.apophthegmata-patrum
+  locus: "recurring across named elders, regardless of settlement"
+- source_id: desert.source.cassian-conferences
+  locus: "Conference II (On Discretion) - Cassian's record of the teaching"
+  license: public-domain
+relations:
+- type: associated-with
+  target: desert.gravity.elder-authority
+- type: associated-with
+  target: desert.gravity.spiritual-combat
+- type: associated-with
+  target: desert.gravity.scriptural-engagement
+- type: associated-with
+  target: desert.term.diakrisis
+name: "Diakrisis - discernment as master virtue [PRIMARY]"
+description: "The capacity to judge rightly between thoughts, practices, and counsels, governing how every other discipline in this world was calibrated and practiced - this world had no fixed syllabus, so discernment did the work a curriculum does elsewhere. Recurs across named elders in the sayings tradition (with the compiler-mediation caveat that pattern's own source record carries); Cassian devotes a whole Conference to it as teaching he received in Egypt. Strong on all six tests: repeated across the tradition independent of settlement; other practices depend on it for calibration; directly formative; explains the situational, non-systematic character of most surviving teaching; cross-strand; and moderates the intensity of both spiritual combat and its Evagrian systematization against excess. Widely Accepted, no discrepancy."
+manifestations:
+- "the recurring narrative pattern: an eager newcomer asks an elder for an extreme practice and is redirected toward something more moderate"
+- "Cassian's Conference II, devoted entirely to discretion as the teaching he received from the Egyptian elders"
+- "diakrisis as the lexicon's own most cross-referenced term - the graph's ecological hub"
+---
+Re-derived from the prior build's cleared Doc_04 SS1 candidate 5, SS2
+row 5, SS3, SS4, SS5 row 5, SS6 (gravity 5). The fabricated "mother of
+all virtues"/Cassian attribution the prior build's own Doc_04 Round 1
+review caught and removed is deliberately not reintroduced here -
+Conference II is cited as Cassian's record of the teaching he received,
+no epithet claimed, matching desert.term.diakrisis's own standing
+discipline on this exact point.

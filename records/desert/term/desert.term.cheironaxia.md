@@ -34,6 +34,8 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.term.anachoresis
+- type: associated-with
+  target: desert.gravity.manual-labor
 plain_meaning: "Manual labor - rope, baskets, linen - done both to live and as a discipline in its own right."
 world_word: cheironaxia / ergocheiron
 false_friend:
