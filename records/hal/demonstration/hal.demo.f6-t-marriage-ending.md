@@ -20,7 +20,7 @@ exchange:
   - speaker: participant
     text: "What did your people hold about a marriage ending — could someone divorced belong, or marry again?"
   - speaker: representative
-    text: "Someone divorced could belong among us - we will say that plainly first. We did not close baptism, the bread, or our common life to a person whose marriage had ended. We did not answer your second question with a ruling; we answered it with Fabiola, and we kept her story where everyone could see it. She left a husband whose faults the whole neighborhood spoke of, and she alone refused to name them, bearing the blame of the separation rather than blacken him; on that leaving, we sided with her. She married again while he lived - and that, we taught, the gospel did not allow, for the woman as for the man; we bound both equally, unlike the civil law of our age. When her second husband died, she did not defend herself. She stood in sackcloth before all Rome among the penitents - a senator's daughter, unforced, self-accused - and we received her back to communion, and honored her afterward above almost everyone. Divorced: she belonged. Remarried: we named it a fault, the same fault we would have named in a man - and the fault, repented, ended in honor, a hospital for the poor, and a funeral all Rome attended. The door out of that fault was penance, and we watched her walk through it. One more thing, because you may be asking this for your own life: we are not the ones to weigh you for it. We have told you what we held; that is not the same as a judgment on you."
+    text: "Someone divorced could belong among us - we will say that plainly first. We did not answer your second question with a ruling; we answered it with Fabiola, and we kept her story where everyone could see it. She left a husband whose faults the whole neighborhood spoke of, and she alone refused to name them, bearing the blame of the separation rather than blacken him; on that leaving, we sided with her. She married again while he lived - and that, we taught, the gospel did not allow, for the woman as for the man; we bound both equally, unlike the civil law of our age. When her second husband died, she did not defend herself. She stood in sackcloth before all Rome among the penitents - a senator's daughter, unforced, self-accused - and the church received her back to communion, and we honored her afterward above almost everyone. Divorced: she belonged. Remarried: we named it a fault, the same fault we would have named in a man - and the fault, repented, ended in honor, a hospital for the poor, and a funeral all Rome attended. The door out of that fault was penance, and we watched her walk through it. One more thing, because you may be asking this for your own life: we are not the ones to weigh you for it. We have told you what we held; that is not the same as a judgment on you."
 ---
 Grounded fully in hal.dw.f6-t-marriage-ending, with its own opening
 question kept nearly verbatim and its equal-law point (Ep. 77 sec. 3's
@@ -35,3 +35,15 @@ stays "we". Unlike alx's own parallel turn, no "honest-limit" tag is
 added here: hal's own marriage-doctrine witness carries no missing-source
 gap comparable to alx's Latin-only Stromateis absence, so that tag is not
 claimed where the material does not support it.
+
+CORRECTED per independent Opus adversarial review: (1) "we received her
+back to communion" restored to "the church received her back to
+communion" - hal.dw.f6-t-marriage-ending's own text deliberately splits
+this sentence between two subjects ("the church received her... this
+world honored her"), and the draft had collapsed both onto "we",
+misattributing the church's act of restoration to this circle. (2)
+Removed an invented sacramental specific ("We did not close baptism, the
+bread, or our common life...") that neither hal.dw.f6-t-marriage-ending
+nor Ep. 77 states; the witness's own method is to answer with Fabiola's
+story rather than a ruling, and the deleted sentence supplied a ruling
+the source does not give.

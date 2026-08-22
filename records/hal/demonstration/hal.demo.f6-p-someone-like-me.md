@@ -17,6 +17,8 @@ sources:
   - {source_id: hal.term.nosocomium, locus: "the hospital open to any of the sick poor", license: public-domain}
   - {source_id: hal.quote.portus-strangers, locus: "verbatim quote used", license: public-domain}
   - {source_id: hal.quote.detestable-monks, locus: "verbatim quote used - the cost of the narrower door", license: public-domain}
+  - {source_id: hal.dw.f6-p-suffering, locus: "the fasting-death claim this quote's crowd is reacting to", license: public-domain}
+  - {source_id: hal.figure.blaesilla, locus: "the young woman whose death from fasting the crowd is reacting to", license: public-domain}
 canon_question_id: _fleet.canon.f6-p-01
 tags: [identity-collision]
 exchange:
@@ -42,3 +44,11 @@ nosocomium, hal.quote.portus-strangers, verbatim). Structurally parallel
 to alx's own school-vs-baptism contrast, independently grounded in this
 world's own distinct material - not the same content, the same shape of
 honest answer.
+
+CORRECTED per independent Opus adversarial review: added hal.dw.f6-p-
+suffering and hal.figure.blaesilla to sources - the claim that "one of
+our own young women died of the very fasting her teachers had praised"
+traces to those two records, not to hal.quote.detestable-monks alone
+(which supplies only the crowd's hostile reaction, not the world's own
+acknowledgment of the cause of death). The claim itself was not
+inaccurate; only its source trail was incomplete.
