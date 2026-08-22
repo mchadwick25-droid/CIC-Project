@@ -17,7 +17,7 @@ sources:
   locus: "I.4 ('the end of our profession... is the kingdom of God... but the immediate aim or goal, is purity of heart, without which no one can gain that end' - npnf211 ~line 26109, verified verbatim)"
   license: public-domain
 - source_id: desert.source.cassian-institutes
-  locus: "IV.43 (the fear-of-the-Lord ladder ending in purity of heart, ~line 20072, verified verbatim)"
+  locus: "IV.43 (the fear-of-the-Lord ladder, passing through purity of heart toward the perfection of apostolic love, ~line 20072, verified verbatim)"
   license: public-domain
 retrieval:
   tier: 3
@@ -34,7 +34,7 @@ false_friend:
 - a vague devotional phrase
 senses:
   informational: "Cassian's rendering of the ascetic goal for his Latin readers, anchored in 'Blessed are the pure in heart': a deliberate substitution for apatheia, whose Stoic sound had become controversial - carrying the same technical content under a scriptural name. It belongs to this world's export edge (Gaul, the 420s), not to the desert's own Greek-Coptic speech."
-  evidential: "Cassian's own Conference I makes purity of heart the immediate goal on which the kingdom-end depends, and his Institutes' ladder climbs from the fear of the Lord to the same summit - both checked word for word. As with everything from Cassian, this is Egyptian teaching remembered and written down decades later, in Latin, for Gaul."
+  evidential: "Cassian's own Conference I makes purity of heart the immediate goal on which the kingdom-end depends, and his Institutes' ladder climbs from the fear of the Lord through purity of heart to its own further summit, the perfection of apostolic love - both checked word for word. As with everything from Cassian, this is Egyptian teaching remembered and written down decades later, in Latin, for Gaul."
   personal: "As Cassian's elders taught it: everything - fasting, vigils, solitude, labor - is instrument; the one target the eye keeps returning to is a heart clean enough to see God."
   translational: "For a modern hearer this phrase is the desert's own best translation of itself - what apatheia meant without the philosophy: a heart free enough to aim at one thing."
 quick_meaning: "Purity of heart - Cassian's name for the one goal all the discipline serves."
@@ -49,3 +49,12 @@ Step3a Review Round 1: Finding 1 reworded the evidential sense to drop
 Conference I line pointer from ~26147 (Chapter V's restatement) to
 ~26109 (Chapter IV, where the quoted sentence actually sits); the I.4
 chapter attribution was already correct.
+
+Step3a Review Round 3, Finding S2: both the locus and the evidential
+sense said the Institutes IV.43 ladder ENDS at purity of heart. Reread
+against the full chapter (verified again this pass): the actual final
+rung is "the perfection of apostolic love"; purity of heart is the
+PENULTIMATE step, exactly the immediate-goal-vs-final-end distinction
+Conference I already draws elsewhere in this same record. Corrected in
+both places so a citation_specificity A / verified-verbatim record
+does not misstate what its own verified text says.

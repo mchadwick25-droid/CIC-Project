@@ -31,7 +31,7 @@ false_friend:
 - grief over a death
 senses:
   informational: "A cultivated disposition, not a mood to escape: sorrow over one's own condition, often with tears, held by the tradition as spiritually productive. Attested across strands, most visibly in the sayings."
-  evidential: "Carried in the sayings tradition (compiler screen applies); no single charter text."
+  evidential: "Carried in the sayings tradition, filtered like every apophthegm through later, anonymous compilers; no single charter text."
   personal: "The tradition sought this sorrow rather than merely enduring it, because it kept self-assessment honest - a person who still weeps over their own condition has not yet begun congratulating themselves."
   translational: "Not depression and not bereavement. The nearest modern frame is deliberately-kept contrition; this world would resist any translation that makes it a symptom."
 quick_meaning: "Sorrow over your own sin, kept on purpose - even with tears."
@@ -42,3 +42,8 @@ quiet-my-head and forgiveness cells are served by other records); a
 loose thematic stretch would be forcing. The do-not-retrieve fence
 exists because the modern-hearing risk here is not misunderstanding
 but misapplication to a participant's own disclosed distress.
+
+Step3a Review Round 3, Finding J3: the evidential sense's "(compiler
+screen applies)" used this build's own source-criticism label,
+imported from the step-2 source records rather than Doc_06 - reworded
+to state the compiler-mediation fact in plain terms.

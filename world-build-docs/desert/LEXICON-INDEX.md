@@ -57,7 +57,7 @@ found the reciprocity graph, canon-cell mappings, and Doc_06 fidelity
 (including the twice-corrected apatheia [CT] form) all genuinely clean
 on independent re-derivation. Two substantial patterns were fixed: build-
 infrastructure vocabulary ("vendored," "consult-only," "this corpus")
-inside seven records' evidential senses, reworded to in-world evidence
+inside eight records' evidential senses, reworded to in-world evidence
 talk; and two paraphrased sayings (kellion, apophthegma) that had been
 rendered inside quotation marks despite their own bodies saying they were
 not quotations — un-quoted. Cosmetic fixes: puritas-cordis's Conference I
@@ -68,18 +68,33 @@ an uncited claim; apatheia gained the Gould source registration matching
 its own evidential-sense citation.
 
 Step3a Review Round 2 (`world-build-docs/desert/reviews/Step3a_Review_Round2.md`)
-independently re-verified all seven Round 1 fixes and found the
-build-jargon sweep was NOT actually exhaustive: apatheia's own Round 1
-fix had traded "vendored/consult-only" for "this corpus," the same
-banned family, and two further pre-existing instances (koinonia's "in
-this lexicon," kellion's "no record here") had never been caught.
-Round 2 also found the Round-1 theoria rewrite had swapped a jargon
-problem for a factual overclaim (English-checkable coverage of the
-CONTEMPLATIVE stage specifically, which the vendored Socrates excerpt
-does not carry), a scripture quote in nepsis that matched no vendored
-wording, and several smaller punctuation/word-collision items. All
-fixed directly in the affected records; this note is now accurate to
-what the files actually contain, checked against them, not asserted.
+independently re-verified those fixes and found the build-jargon sweep
+had swept for the previously-named strings rather than the pattern:
+apatheia's own Round 1 fix had traded "vendored/consult-only" for
+"this corpus," the same family, and two more pre-existing instances
+(koinonia's "in this lexicon," kellion's "no record here") had never
+been caught. It also found the Round-1 theoria rewrite had swapped a
+jargon problem for a factual overclaim, a scripture quote in nepsis
+matching no vendored wording, and smaller punctuation/word-collision
+items.
+
+Step3a Review Round 3 (`world-build-docs/desert/reviews/Step3a_Review_Round3.md`)
+was convened specifically because the same pattern had now survived
+two "exhaustive" sweeps, and it repeated once more: xeniteia's and
+penthos's evidential senses used this build's own "compiler screen"
+label (not carried from Doc_06), nepsis's evidential sense used
+"flag" (this build's own risk-marker word), and theoria's Round-2 fix
+had itself introduced a fresh review-process phrase plus a *new*
+factual overclaim about what English exists for Evagrius's
+contemplative teaching. Round 3 also found the Institutes IV.43 ladder
+had been mischaracterized in puritas-cordis (its true final rung is
+"the perfection of apostolic love," not purity of heart) under the
+lexicon's only citation_specificity A / verified-verbatim label - a
+locus checked for its words at three prior passes, none of which
+checked the words against the claim. What this means for a future
+pass: do not sweep for named strings again - reread every sense field
+fresh, and check every locus claim against what its passage actually
+says, not only against where the quoted words sit.
 
 ## Author-gravity column basis
 

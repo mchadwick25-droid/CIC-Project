@@ -49,15 +49,19 @@ Serves F2-I (how did you read your scriptures) for the Strand C
 technique register - the general answer to that cell is practical,
 personally-addressed hearing, carried elsewhere.
 
-Step3a Review Round 2, New Finding 5: the evidential sense's closing
-quotation had the terminal period inside the closing quote mark,
-implying the sentence ends there; Socrates's sentence continues
-("...according to the number of the arguments"). Fixed by moving the
-quoted material off the sentence's own final period.
-
 Step3a Review Round 1, Finding 6: the translational sense's original
 "arguing with a thought feeds it" claim was not anchored in Doc_06,
 the Evagrius source record, or the vendored Socrates description -
 softened to what the record can actually support (the technique's own
 logic: answer, don't debate) rather than asserting a stated tradition
 rule this corpus does not yet carry a citation for.
+
+Step3a Review Round 2, New Finding 5: the evidential sense's closing
+quotation had the terminal period inside the closing quote mark,
+implying the sentence ends there; Socrates's sentence continues
+("...according to the number of the arguments"). Fixed by moving the
+quoted material off the sentence's own final period.
+
+Step3a Review Round 3, Finding C4: this note's own ordering had run
+Round 2 before Round 1, reversed from the chronological convention
+used everywhere else in this lexicon - reordered.

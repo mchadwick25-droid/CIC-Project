@@ -32,7 +32,7 @@ false_friend:
 - theory (abstract speculation)
 senses:
   informational: "The final stage of Evagrius's scheme - after the practical life, after passionlessness - contemplation, itself graded from the contemplation of created things up to the contemplation of God. Strand C's vocabulary, concentrated in one author; the wider movement prayed the Psalter without this ladder."
-  evidential: "Rests on Evagrius's own corpus. The historian Socrates names his works and quotes some of his practical sayings in English, but not this contemplative stage's own teaching, which stays untranslated. Its strand-bound status rests on more than impression - it is checked directly against what the wider movement's own sources do and do not say."
+  evidential: "Rests on Evagrius's own corpus. The historian Socrates, in Zenos's English rendering, names his works and quotes some of his practical sayings, but not this contemplative stage's own teaching, which exists in English only in modern, copyrighted translation. Its strand-bound status is real: the wider, non-Evagrian movement's own record has nothing like this ladder."
   personal: "Not thinking about God - seeing, in the way a long-trained eye sees. The tradition insisted no one starts here; wanting the summit without the slope was itself one of the thoughts to be fought."
   translational: "'Theory' is the false friend: this is perception, not speculation - the trained sight of a life that has first been stilled."
 quick_meaning: "Contemplation - the trained seeing of God that a stilled life may reach."
@@ -53,3 +53,18 @@ overclaimed that Socrates's excerpts make "this stage's teaching"
 Socrates IV.23 extract in full, which contains Evagrius's practical
 sayings and no contemplation doctrine at all. Corrected to state
 accurately what the excerpt does and does not cover.
+
+Step3a Review Round 3, Findings S1/J4/C1: the Round 2 fix itself said
+the contemplative teaching "stays untranslated," which is false and
+contradicted by this world's own Evagrius source record (Bamberger's
+1970 English of the Praktikos and Chapters on Prayer exists,
+copyrighted, consult-only - not untranslated); it also swapped one
+review-process phrase Round 2 had itself flagged as borderline
+("a tested finding") for a stronger one ("checked directly against...
+sources"). Reworded a third time, checked against the Evagrius source
+record's actual edition list, without process language: what Socrates
+gives in English is the works named and a few practical sayings, not
+this stage's own teaching; the strand-bound claim rests on the wider
+movement's own record having no comparable ladder, not on a review
+verb. The English attribution is now credited to Zenos's translation,
+not to Socrates himself.
