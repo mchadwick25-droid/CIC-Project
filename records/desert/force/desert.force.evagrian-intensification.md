@@ -50,21 +50,24 @@ kind: ongoing maps Doc_08's own Cell 2B (ongoing/internal); the cell
 code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
 
-Doc08, Round 2 review Finding C1: the M4 fix left "this world's own
-norm" twice in one sentence - the second instance shortened to "the
-norm," matching Doc_08's own wording exactly.
-
 Doc08, Round 1 review Finding M4: the description's "the most learned of
 this world's settlements" is a settlement-ranking superlative no
 registered material supports - corrected to Doc_08's own wording, "a
-more educated, philosophically literate sub-population than this
-world's own norm," which is a claim about a sub-population, not a
-comparison among settlements. Finding M5: the evagrius-praktikos locus
-had claimed Socrates IV.23 as vendored witness for the scheme and for
-Kellia residence; IV.23 carries neither (only the works' names and
+more educated, philosophically literate sub-population than the norm,"
+which is a claim about a sub-population, not a comparison among
+settlements. Finding M5: the evagrius-praktikos locus had claimed
+Socrates IV.23 as vendored witness for the scheme and for Kellia
+residence; IV.23 carries neither (only the works' names and
 descriptions) - the scheme is now marked consult-only with no vendored
 witness, and Kellia residence is routed to evagrius-praktikos's own
 author field. The Socrates locus now carries the mandatory double
 caveat (Socrates's excerpting, Zenos's translation) desert.source.evagrius-praktikos
 requires and desert.gravity.evagrian-systematization's parallel locus
 already carries.
+
+Doc08, Round 2 review Finding C1: the M4 fix left "this world's own
+norm" twice in one sentence - the second instance shortened to "the
+norm," matching Doc_08's own wording exactly (Doc_08 Cell 2B-ii Layer 3
+ends "than the norm"; the Round 1 note above is corrected to match,
+having itself misquoted Doc_08's own wording as "than this world's own
+norm").

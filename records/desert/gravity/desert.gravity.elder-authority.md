@@ -109,7 +109,11 @@ carries Doc_04 SS4's forces finding verbatim ("Intensifies under the
 generating force [martyrdom's unavailability]: a direct, load-bearing
 response to that specific historical pressure, not merely coexistence
 with it"), but no relation to desert.force.martyrdom-unavailable had
-been declared, though desert.gravity.withdrawal and
-desert.gravity.spiritual-combat - the two other gravities Doc_04 SS4
-covers by the same sentence - both received one at Doc_08's initial
-draft. Added above, completing the set Doc_04 SS4 actually found.
+been declared. Doc_04 SS4's own sentence covers five gravities in all
+(withdrawal, spiritual-combat, elder-authority, manual-labor,
+diakrisis); only desert.gravity.withdrawal and
+desert.gravity.spiritual-combat had already received the relation at
+Doc_08's initial draft. Added here, completing the full five-gravity
+set Doc_04 SS4 actually found (Round 3 review Finding M2: this note's
+own scope corrected - it is one of five gravities the sentence covers,
+not one of three).

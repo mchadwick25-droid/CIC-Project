@@ -22,7 +22,7 @@ sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "the sayings tradition's own comparable emphasis on total withdrawal, silent on economic entanglement (compiler-mediated, per this source's own compiler screen)"
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "the Vita's own emphasis on total withdrawal, silent on economic entanglement"
+  locus: "the Vita's own emphasis on total withdrawal - not, in its own preserved words, dwelling on the economic entanglement documented elsewhere, though the Vita itself does register Antony's own hand-work (SS3, SS50, SS53), the same passages desert.gravity.manual-labor cites this source for"
   license: public-domain
 name: "Ongoing economic and administrative embeddedness in the surrounding Nile valley economy [2A - ongoing/external]"
 kind: ongoing
@@ -77,3 +77,15 @@ description's "literary self-presentation (Athanasius, the sayings
 tradition)" clause but left "Athanasius" registered nowhere -
 desert.source.athanasius-vita-antonii added above, already registered
 by four sibling force records in this same step.
+
+Doc08, Round 3 review Finding M6: the new Athanasius locus stated
+"silent on economic entanglement" as an absolute, when this force's own
+sibling desert.gravity.manual-labor registers the same source for
+Antony's own hand-work (Vita SS3) as one of four independent evidence
+streams for manual labor - the Vita is not silent about *work*, only
+about the wider economic ties (trade, provincial administration) this
+force documents. Corrected above to name the hand-work passages
+explicitly rather than assert a blanket silence this corpus's own
+sibling record contradicts; this record's own `description` already
+carried the accurate, hedged form ("does not, in its own preserved
+words, dwell on the economic entanglement") and is unaffected.

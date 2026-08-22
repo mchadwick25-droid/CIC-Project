@@ -100,7 +100,10 @@ reciprocal relation, per Doc_08's own gravity-force synthesis table.
 
 Doc08, Round 2 review Finding S4: this record's own description already
 carries Doc_04 SS4's forces finding verbatim, but no relation to
-desert.force.martyrdom-unavailable had been declared, though
-desert.gravity.withdrawal and desert.gravity.spiritual-combat - the two
-other gravities Doc_04 SS4 covers by the same sentence - both received
-one. Added above, completing the set Doc_04 SS4 actually found.
+desert.force.martyrdom-unavailable had been declared. Doc_04 SS4's own
+sentence covers five gravities in all (withdrawal, spiritual-combat,
+elder-authority, manual-labor, diakrisis); only desert.gravity.withdrawal
+and desert.gravity.spiritual-combat had already received the relation
+at Doc_08's initial draft. Added here, completing the full five-gravity
+set Doc_04 SS4 actually found (Round 3 review Finding M2: this note's
+own scope corrected).
