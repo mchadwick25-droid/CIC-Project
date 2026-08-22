@@ -32,9 +32,20 @@ impact"). No dedicated source record exists in this corpus for the
 general historical trend itself (as distinct from the Origenist
 controversy, which desert.force.origenist-controversy covers with its
 own registered source); this is general historical background, carried
-via Doc_01 SS2.3 rather than a desert-corpus source record, matching
-the same discipline already applied at desert.force.martyrdom-unavailable.
+via Doc_01 SS2.3 rather than a desert-corpus source record, matching the
+Doc_01-routing discipline already applied at desert.force.martyrdom-unavailable's
+own Layer-1 background citation - that record registers
+desert.source.athanasius-vita-antonii for its own world's-own-experience
+half and routes only general historical background to Doc_01 SS7; the
+precedent being matched here is the routing, not an empty sources[],
+which that record does not have.
 
 kind: ending maps Doc_08's own Cell 3A (ending/external); the cell code
 is carried in this record's own name, per the convention established
 at desert.force.martyrdom-unavailable's own body note.
+
+Doc08, Round 1 review Finding M11: the paragraph above claimed a full
+parallel with desert.force.martyrdom-unavailable's own empty sources[],
+when that record's sources[] is not empty - corrected to name what is
+actually being matched (the Doc_01-routing of general background, not
+an absent source registration).

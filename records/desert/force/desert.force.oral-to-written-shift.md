@@ -19,14 +19,14 @@ sources:
   locus: "c. 419-420, already treating the material as a substantially completed body of teaching to be gathered rather than a still-forming tradition"
   license: public-domain
 - source_id: desert.source.evagrius-praktikos
-  locus: "the 553 condemnation's own transmission consequence - survival chiefly through pseudonymous attribution and Syriac/Armenian translation streams, well outside this world's own boundary"
+  locus: "the 553 condemnation's own transmission consequence, well outside this world's own boundary - narrowly: the Praktikos transmits under Evagrius's own name, Chapters on Prayer transmits mostly under Nilus of Ancyra's, and the speculative works survive chiefly in Syriac and Armenian, per this source record's own narrowed pseudonymity scope"
 name: "The shift from live, oral, elder-mediated teaching to written, retrospectively compiled anthology [3B - ending/internal]"
 kind: ending
 description: "The sayings tradition's own written compilation occurs across the 5th-6th centuries, substantially after this world's own c. 430 closing boundary, by anonymous editors whose selection and arrangement choices are not directly attested. This world's own participants, by definition, could not have experienced their own material's later compilation - this is a force that acts on this world's legacy, not its lived experience. What can be said from within: the terse saying's own occasion-bound character meant this world's own teaching practice did not, by its own internal logic, generate an archive - the later compilers' intervention was necessary precisely because this world's own formation logic did not anticipate or provide for its own preservation."
 manifestations:
-- "the Apophthegmata's own written compilation, decades after this world's own closing boundary, from oral material originating inside it"
+- "the Apophthegmata's own written compilation, up to a century or more after this world's own closing boundary, from oral material originating inside it"
 - "the ammas' own material surviving thin relative to the male-authored bulk - a selection effect this world's own formation logic did not itself produce"
-- "Evagrius's own corpus surviving substantially through pseudonymous attribution (chiefly to Nilus of Ancyra) and Syriac/Armenian translation streams, following the separate 553 condemnation well outside this world's own boundary"
+- "the Praktikos surviving under Evagrius's own name while Chapters on Prayer transmits mostly under the name of Nilus of Ancyra, and the speculative works surviving chiefly through Syriac and Armenian translation streams - the separate 553 condemnation's own transmission consequence, well outside this world's own boundary"
 relations:
 - type: associated-with
   target: desert.figure.sarah
@@ -58,3 +58,18 @@ right.
 kind: ending maps Doc_08's own Cell 3B (ending/internal); the cell code
 is carried in this record's own name, per the convention established
 at desert.force.martyrdom-unavailable's own body note.
+
+Doc08, Round 1 review Finding S1: this record had re-imported the exact
+pseudonymity overclaim desert.source.evagrius-praktikos was written to
+keep out ("Evagrius's own corpus surviving substantially through
+pseudonymous attribution"), carried forward from the prior build's
+Doc_08 unread against this build's own step-2 record. That source
+record's own body states plainly why the claim was narrowed and why it
+must not re-enter: the Praktikos anchors under Evagrius's own name;
+only Chapters on Prayer rides under Nilus. sources[2].locus and
+manifestations[2] above corrected to the narrowed form, stated
+verbatim from that source record's own `work` field. Finding C7: "decades
+after" (manifestations[0]) understated this record's own description
+and desert.source.apophthegmata-patrum's own "5th-6th c." compiler
+dating, a range exceeding a century at its far end - corrected to "up
+to a century or more."

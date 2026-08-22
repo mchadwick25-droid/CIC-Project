@@ -8,18 +8,18 @@
 
 | Cell | Force | kind | Confidence |
 |---|---|---|---|
-| 1A (initiating/external) | `desert.force.martyrdom-unavailable` — the end of persecution, closing off martyrdom | initiating | Documented (event) / Reported-Experience (world's-own-experience) |
+| 1A (initiating/external) | `desert.force.martyrdom-unavailable` — the end of persecution, closing off martyrdom | initiating | Documented (Reported-Experience Status, a separate Framework category, also applies to the world's-own-experience half — see divergence_note) |
 | 1B (initiating/internal) | `desert.force.village-ascetic-culture` — a pre-existing village-level ascetic culture | initiating | Contested |
 | 1B (initiating/internal) | `desert.force.scriptural-address` — inherited scriptural formation logic | initiating | Contested |
 | 1B (initiating/internal) | `desert.force.formation-at-scale` — the formation-at-scale problem, Pachomius's innovation | initiating | Widely Accepted |
 | 2A (ongoing/external) | `desert.force.economic-embeddedness-ongoing` — ongoing economic/administrative embeddedness | ongoing | Contested (Layer 1 mixed: Documented for Kellia, Documented-but-caveated for Nepheros) |
-| 2A (ongoing/external) | `desert.force.melitian-rivalry` — the Melitian schism as a persistent rival movement | ongoing | Contested |
+| 2A (ongoing/external) | `desert.force.melitian-rivalry` — the Melitian schism as a persistent rival movement | ongoing | Documented (community existence) / Inferential/Thin (organizational distinguishability) |
 | 2B (ongoing/internal) | `desert.force.authority-tension-ongoing` — the unresolved person-vs-office authority tension | ongoing | Widely Accepted |
 | 2B (ongoing/internal) | `desert.force.evagrian-intensification` — intellectual intensification within Strand C | ongoing | Widely Accepted |
 | 3A (ending/external) | `desert.force.origenist-controversy` — episcopal/conciliar intervention, 399-400 | ending | Documented (synod/expulsion) / Contested (Theophilus's motives) |
-| 3A (ending/external) | `desert.force.centralization-trend` — the longer imperial-ecclesiastical centralization trend | ending | Widely Accepted (general trend) / Inferential-Thin (Shenoute causal chain) |
+| 3A (ending/external) | `desert.force.centralization-trend` — the longer imperial-ecclesiastical centralization trend | ending | Widely Accepted (general trend) / Inferential/Thin (Shenoute causal chain) |
 | 3B (ending/internal) | `desert.force.authority-tension-vulnerability` — the authority tension as a standing vulnerability | ending | Widely Accepted |
-| 3B (ending/internal) | `desert.force.oral-to-written-shift` — the shift from oral to written, compiled anthology | ending | Documented (chronology) / Inferential-Thin (selection criteria) |
+| 3B (ending/internal) | `desert.force.oral-to-written-shift` — the shift from oral to written, compiled anthology | ending | Documented (chronology) / Inferential/Thin (selection criteria) |
 
 Twelve forces across six cells, matching Doc_08's own count and distribution exactly (1A: 1; 1B: 3; 2A: 2; 2B: 2; 3A: 2; 3B: 2).
 
@@ -31,12 +31,12 @@ Per Forces Framework Section 4 (Step 8): every confirmed gravity from Doc_04/GRA
 |---|---|---|
 | `desert.gravity.withdrawal` | Primary | `martyrdom-unavailable` (the generating force); `village-ascetic-culture` (the substrate it intensified) |
 | `desert.gravity.spiritual-combat` | Primary | `martyrdom-unavailable` (martyrdom's own vocabulary relocated to interior struggle) |
-| `desert.gravity.elder-authority` | Primary | `village-ascetic-culture` (the inherited old-man tradition Antony drew on, per Doc_08's own trace); `authority-tension-ongoing` (its ongoing tension with office-based authority) |
+| `desert.gravity.elder-authority` | Primary | *(no force record declares a relation to this gravity)* — Doc_08's own synthesis table traces `village-ascetic-culture` and `authority-tension-ongoing` to it, but neither force record's own text discusses elder authority anywhere (checked directly), and this step added no reciprocal relation from either side. Carried here as Doc_08's own inherited trace, disclosed rather than presented as a demonstrated relationship, matching the `diakrisis` row's own disclosure below — Doc08 Round 1 review Finding S6. |
 | `desert.gravity.manual-labor` | Primary | `economic-embeddedness-ongoing` |
-| `desert.gravity.diakrisis` | Primary | `authority-tension-ongoing`, `evagrian-intensification` (the ongoing internal discipline required to calibrate the combat/systematization gravities against each other) — Doc_08's own flagged weakest linkage in its synthesis table: *diakrisis* functions more as a cross-cutting regulative skill than as a force-generated gravity in the same direct sense as the others; this trace shows traceability-in-principle, not a tight causal derivation, and no force record declares a relation to `desert.gravity.diakrisis` for that reason - the trace is recorded here, in this index, rather than manufactured as a record-level relation neither force entry's own evidence actually supports |
+| `desert.gravity.diakrisis` | Primary | `authority-tension-ongoing`, `evagrian-intensification` (the ongoing internal discipline required to calibrate gravities 1-2/9 against each other) — Doc_08's own flagged weakest linkage in its synthesis table: *diakrisis* functions more as a cross-cutting regulative skill than as a force-generated gravity in the same direct sense as the others; this trace shows traceability-in-principle, not a tight causal derivation, and no force record declares a relation to `desert.gravity.diakrisis` for that reason - the trace is recorded here, in this index, rather than manufactured as a record-level relation neither force entry's own evidence actually supports |
 | `desert.gravity.koinonia` | Supporting | `formation-at-scale` — itself the origin of `authority-tension-ongoing`'s own dynamic |
 | `desert.gravity.scriptural-engagement` | Primary | `scriptural-address` |
-| `desert.gravity.economic-embeddedness` | Tensional | `economic-embeddedness-ongoing` (the same force generating manual labor, read for its own under-documented Layer 2 gap); `melitian-rivalry` |
+| `desert.gravity.economic-embeddedness` | Tensional | `economic-embeddedness-ongoing` (the same force generating manual labor, read for its own under-documented Layer 2 gap) — `melitian-rivalry` is `associated-with` this gravity at the record level (Layer 1 archive overlap) but that force's own body states it "cannot yet trace a formation impact with confidence beyond what gravity 8 already carries as an evidential complication"; not counted here as a traced force for that reason, matching this table's own disclosure convention — Doc08 Round 1 review Finding M9 |
 | `desert.gravity.evagrian-systematization` | Supporting | `evagrian-intensification` (its own internal intensification and structural narrowness); `origenist-controversy` (the external force that later exploited that narrowness) — the clearest cross-cell case in this corpus |
 | `desert.gravity.authority-tension` | Tensional | `authority-tension-ongoing` (its ongoing form); `authority-tension-vulnerability` (its role in this corpus's own conjunctural closing synthesis, below) |
 
@@ -48,22 +48,24 @@ Doc_07 §10 (Step 3c-era build, already cleared) reserved this exact question fo
 
 ## Canon cells
 
-| record | canon_cells |
-|---|---|
-| `desert.force.martyrdom-unavailable` | F1-I, F4-P |
-| `desert.force.village-ascetic-culture` | F4-E |
-| `desert.force.scriptural-address` | F2-I |
-| `desert.force.formation-at-scale` | F4-I, F3-I |
-| `desert.force.economic-embeddedness-ongoing` | F5-E, F5-I |
-| `desert.force.melitian-rivalry` | F3-T |
-| `desert.force.authority-tension-ongoing` | F3-I |
-| `desert.force.evagrian-intensification` | F4-P |
-| `desert.force.origenist-controversy` | F6-I, F3-I |
-| `desert.force.centralization-trend` | (none) |
-| `desert.force.authority-tension-vulnerability` | F3-I |
-| `desert.force.oral-to-written-shift` | F2-E |
+| record | canon_cells | Basis |
+|---|---|---|
+| `desert.force.martyrdom-unavailable` | F4-P | F4-P-01 ("I can't quiet my own head. Does your way of life have anything for someone like me?") - this force is the historical origin of relocating total struggle from an external persecutor to the interior life, the direct answer to why this world had anything to say to that question |
+| `desert.force.village-ascetic-culture` | F4-E | F4-E-01 ("How do you know your practices went back to the apostles and weren't later inventions?") - this force names a pre-existing, inherited ascetic substrate Antony drew on rather than inventing withdrawal from nothing |
+| `desert.force.scriptural-address` | F2-I | F2-I ("How did you read your scriptures? What did you look for in them?") - this force is directly the account of how scripture was read (a verse heard as immediate, literal, personal command) |
+| `desert.force.formation-at-scale` | F4-I, F3-I | F4-I-01 ("How did a person actually become one of you? Walk me through it.") - the cenobium is the institutional answer at scale; F3-I-01 ("Who held authority among you, and how did anyone come to have it?") - the Rule's own offices are a direct answer |
+| `desert.force.economic-embeddedness-ongoing` | F5-E, F5-I | F5-E ("If archaeologists dug up the place you met, what would they find?") - the Kellia/Nepheros evidence base is exactly what this asks for; F5-I ("What did people do for work — and did belonging to you change it?") |
+| `desert.force.melitian-rivalry` | F3-T | F3-T ("Did you have denominations — how did you handle other communities who called on Christ differently?") - the Melitian schism is an ecclesially distinct rival community, the right home for this cell |
+| `desert.force.authority-tension-ongoing` | F3-I | F3-I-01 ("Who held authority among you, and how did anyone come to have it?") - this force is the ongoing, unresolved coexistence of two answers to exactly that question |
+| `desert.force.evagrian-intensification` | F4-P | F4-P-01 ("I can't quiet my own head...") - the systematized interior psychology (eight logismoi, apatheia) is a direct answer |
+| `desert.force.origenist-controversy` | F6-I, F3-I | F6-I-03 ("What's the hardest true thing about your people?") - the scattering of Strand C's intellectual leadership by episcopal condemnation; F3-I-01 ("Who held authority...") - conciliar/episcopal authority overriding the ascetic community's own elder-mediated structure |
+| `desert.force.centralization-trend` | (none) | not claimed - context for the closing synthesis, not itself an answer to a fleet question |
+| `desert.force.authority-tension-vulnerability` | F3-I | F3-I-01 ("Who held authority among you...") - this force is the same authority question read for its bearing on this world's own closing |
+| `desert.force.oral-to-written-shift` | F2-E | F2-E ("Isn't most of what's said about you legend, collected centuries later?") - this force is directly the account of compilation decades-to-a-century after the fact |
 
 `force` is not in `engine/m1/canon.py`'s `substantive_types()` (`{"doctrinal_witness", "term", "story", "quote"}`), so none of the cells above are gate-visible for canon-coverage purposes — matching the precedent already established for `gravity`/`figure`/`contested_claim` at Steps 3b/3c. Populated as authored, per this build's own CANON_CELLS discipline, not retrofitted.
+
+**Doc08, Round 1 review Finding S7:** `desert.force.martyrdom-unavailable` had claimed F1-I, a doctrinal cell (belief about God; internal dispute; conciliar decisions; the Holy Spirit) this force answers none of - removed from the record and from this table. This table now carries a Basis column, the control Step3c Round 3's Finding M4(a) installed specifically to prevent exactly this class of miss, and which this table had reverted to omitting for one step.
 
 ## Reciprocity and referential integrity
 
@@ -79,4 +81,6 @@ Every relation this step added is reciprocated, re-derived mechanically from the
 
 ## Review rounds note (applied)
 
-*(populated after this step's own adversarial review rounds, per this build's standing discipline)*
+**Round 1** (independent, adversarial; opus): 7 substantial, 14 minor, 7 cosmetic findings; verdict SUBSTANTIAL REVISION REQUIRED. The fabrication sweep, reciprocity, the three tables' well-formedness, the `kind` enum and cell-code convention, the confidence vocabulary, and the tension-with discipline all came back clean and independently re-derived by the reviewer. What failed was the evidence apparatus: seven checkable claims about registered material the material did not carry - S1 (`oral-to-written-shift` re-imported a pseudonymity overclaim `desert.source.evagrius-praktikos` was written to keep out), S2 (`melitian-rivalry` attributed a Doc_02 §6 claim to `desert.source.brakke-athanasius`, which does not carry it), S3 (two Rule-content records stated "housemaster, steward" with no channel, against `desert.source.pachomian-corpus`'s own standing rule), S4 (`desert.gravity.evagrian-systematization`'s rewritten description dropped two attribution guards and left its own body stale for a fourth consecutive round), S5 (`STEP3C-INDEX.md`'s cleared reciprocity section was falsified with no addendum written), S6 (the `elder-authority` synthesis row traced two forces with no declared relation, undisclosed), and S7 (`martyrdom-unavailable` claimed canon cell F1-I, which it does not answer, in a table with no Basis column to catch it). All seven fixed: the narrowed pseudonymity scope restored; the false attribution corrected and routed to Doc_02 §6 as background; both Rule-content records routed through `desert.source.rousseau-pachomius`, matching `desert.gravity.authority-tension`'s own channel language; the gravity record's description and body both corrected, restoring both attribution guards and marking the historical paragraph as historical; dated addenda added to `STEP3C-INDEX.md` and `GRAVITY-INDEX.md` (with `GRAVITY-INDEX.md`'s own broken pointer chain repaired to point onward to this document); the `elder-authority` row rewritten to disclose the absent relation, matching the `diakrisis` row's own model; F1-I removed and a Basis column added to the canon-cells table above. Of the 14 minor findings, 13 fixed (M1-M12, M14; M13 was the deliverable's own derivation claim, which the S1/S2 fixes above restore to accuracy without a separate edit). Of the 7 cosmetic findings, all 7 fixed (C1-C7).
+
+Round 2 not yet run as of this note.

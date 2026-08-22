@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Contested
-  divergence_note: "Contested, matching Doc_01 SS10's own rating of the Vita's incident-level reliability generally (Brakke's reading treats the Vita as a shaped literary construction, not neutral biography) - this record carries that contest forward rather than resolving it, and does not treat the predecessor-ascetic detail as more secure than the Vita's other incident-level claims."
+  divergence_note: "Contested, matching Doc_02 SS1.1's own rating of the Vita's incident-level reliability generally (\"Documented as to the text's existence, authorship, and approximate date; Contested as to its reliability for specific biographical incident\") - this record carries that contest forward rather than resolving it, and does not treat the predecessor-ascetic detail as more secure than the Vita's other incident-level claims."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS3-4 - Antony seeking out and modeling himself on an older ascetic already practicing solitary withdrawal near his village, before his own withdrawal begins"
@@ -35,3 +35,9 @@ trace only through the Vita's own passing mention.
 kind: initiating maps Doc_08's own Cell 1B (initiating/internal); the
 cell code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
+
+Doc08, Round 1 review Finding M2: divergence_note attributed the Vita's
+incident-level Contested rating to "Doc_01 SS10," which presents
+Brakke's reading as a critical position but assigns no confidence level
+to the Vita's incident-level reliability itself; the actual rating is
+Doc_02 SS1.1's, verbatim - corrected above.

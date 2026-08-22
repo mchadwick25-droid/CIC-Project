@@ -74,4 +74,7 @@ reciprocal associated-with added.
 
 Doc_08: desert.force.scriptural-address added as a reciprocal relation
 - the inherited interpretive posture (a verse heard as direct personal
-address) this gravity's own generating force.
+address) is this gravity's own generating force.
+
+Doc08, Round 1 review Finding C3: the note above was a sentence
+fragment, missing a verb - corrected.

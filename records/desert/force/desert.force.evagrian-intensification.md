@@ -14,13 +14,13 @@ confidence:
   divergence_note: "Widely Accepted as to authorship and general content, matching desert.gravity.evagrian-systematization's own rating - not extended to any claim about how representative this intensification was of this world's own wider, non-systematic formation logic."
 sources:
 - source_id: desert.source.evagrius-praktikos
-  locus: "the praktike-apatheia-theoria scheme and the eight-logismoi taxonomy, produced while resident at Kellia (consult-only; vendored excerpt witness via Socrates IV.23)"
+  locus: "the praktike-apatheia-theoria scheme and the eight-logismoi taxonomy (consult-only; no vendored witness for the scheme itself); Kellia residence per this source's own author field ('at Kellia from c. 385 to his death')"
 - source_id: desert.source.socrates-historia-ecclesiastica
-  locus: "IV.23 - Evagrius's works named and described"
+  locus: "IV.23 - Evagrius's works named and described, in Zenos's English (quotable with the double caveat: Socrates's excerpting, Zenos's translation)"
   license: public-domain
 name: "The intellectual intensification of ascetic psychology within Strand C, culminating in Evagrius's own systematized scheme [2B - ongoing/internal]"
 kind: ongoing
-description: "A Greek-philosophically-trained participant, uniquely educated relative to this world's own norm, produced a systematic scheme and taxonomy while resident at the most learned of this world's settlements. Within that setting specifically, the systematization appears to have functioned as a genuine intensification of an already-present diagnostic practice, organizing rather than replacing vocabulary and practice already present in less systematized form across the broader tradition - not an alien import into an otherwise unprepared ecology."
+description: "A Greek-philosophically-trained participant, uniquely educated relative to this world's own norm, produced a systematic scheme and taxonomy while resident at Kellia, among what this world's evidence suggests was a more educated, philosophically literate sub-population than this world's own norm. Within that setting specifically, the systematization appears to have functioned as a genuine intensification of an already-present diagnostic practice, organizing rather than replacing vocabulary and practice already present in less systematized form across the broader tradition - not an alien import into an otherwise unprepared ecology."
 manifestations:
 - "the eight-logismoi taxonomy and the praktike-apatheia-theoria scheme, this world's only systematic account of contemplative ascent"
 - "the general spiritual-combat theme's own general attestation across all three strands, which the systematized scheme organizes rather than originates"
@@ -49,3 +49,18 @@ uniform or representative of this world's own median participant.
 kind: ongoing maps Doc_08's own Cell 2B (ongoing/internal); the cell
 code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
+
+Doc08, Round 1 review Finding M4: the description's "the most learned of
+this world's settlements" is a settlement-ranking superlative no
+registered material supports - corrected to Doc_08's own wording, "a
+more educated, philosophically literate sub-population than this
+world's own norm," which is a claim about a sub-population, not a
+comparison among settlements. Finding M5: the evagrius-praktikos locus
+had claimed Socrates IV.23 as vendored witness for the scheme and for
+Kellia residence; IV.23 carries neither (only the works' names and
+descriptions) - the scheme is now marked consult-only with no vendored
+witness, and Kellia residence is routed to evagrius-praktikos's own
+author field. The Socrates locus now carries the mandatory double
+caveat (Socrates's excerpting, Zenos's translation) desert.source.evagrius-praktikos
+requires and desert.gravity.evagrian-systematization's parallel locus
+already carries.

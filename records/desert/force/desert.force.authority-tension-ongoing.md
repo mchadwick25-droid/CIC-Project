@@ -14,15 +14,17 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "the elder-mediated model's own recurring emphasis on personal obedience to a specific elder's specific counsel"
+  locus: "the elder-mediated model's own recurring emphasis on personal obedience to a specific elder's specific counsel (compiler-mediated, per this source's own compiler screen)"
 - source_id: desert.source.pachomian-corpus
-  locus: "the Rule's own emphasis on obedience to an office regardless of who currently holds it"
+  locus: "the Rule's own emphasis on obedience to an office regardless of who currently holds it; the office names themselves (housemaster, steward) are named as the Latin Rule tradition transmits them, via Rousseau's consult-only scholarship, not as this source directly supplies their names"
+- source_id: desert.source.rousseau-pachomius
+  locus: "the named modern authority for the Latin Rule tradition's office-content (housemaster, steward), which neither vendored witness (Palladius, Sozomen) supplies by name - matching desert.gravity.authority-tension's own citation of this source for the identical claim"
 name: "The unresolved, ongoing tension between person-based and office-based authority [2B - ongoing/internal]"
 kind: ongoing
-description: "The Pachomian Rule and its offices coexist historically, in the same decades and broader region, with the sayings tradition's own elder-disciple authority structure - not as an abstract organizational-theory question but as two genuinely different registers of what it means to submit to legitimate spiritual authority. Even Pachomius himself, the founder of the office-based model, is remembered in terms borrowed from elder-authority vocabulary - a father whose personal example, not merely his Rule, forms his community - suggesting this world's own participants did not experience the two models as cleanly opposed doctrines but as two genuinely coexisting, only partially reconciled registers of the same underlying question."
+description: "The Pachomian Rule and its offices - housemaster, steward, as the Latin Rule tradition transmits them via Rousseau's consult-only scholarship - coexist historically, in the same decades and broader region, with the sayings tradition's own elder-disciple authority structure - not as an abstract organizational-theory question but as two genuinely different registers of what it means to submit to legitimate spiritual authority. Even Pachomius himself, the founder of the office-based model, is remembered in terms borrowed from elder-authority vocabulary - a father whose personal example, not merely his Rule, forms his community - suggesting this world's own participants did not experience the two models as cleanly opposed doctrines but as two genuinely coexisting, only partially reconciled registers of the same underlying question."
 manifestations:
-- "the sayings tradition's own recurring emphasis on obedience to a specific elder's specific counsel"
-- "the Rule's own offices (housemaster, steward), commanding obedience independent of who currently holds them"
+- "the sayings tradition's own recurring emphasis on obedience to a specific elder's specific counsel - the compilers' own later arrangement, not a transcript of authority's shape in real time, per that source's own compiler screen"
+- "the Rule's own offices, as the Latin Rule tradition transmits them (housemaster, steward; neither Palladius nor Sozomen supplies the office names directly), commanding obedience independent of who currently holds them"
 - "Pachomius himself remembered in father-elder terms even within the Rule's own formal structure"
 relations:
 - type: associated-with
@@ -46,3 +48,16 @@ tension without itself being a second, parallel tension.
 kind: ongoing maps Doc_08's own Cell 2B (ongoing/internal); the cell
 code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
+
+Doc08, Round 1 review Finding S3: this record stated "housemaster,
+steward" as the Rule's own offices with no channel named, against
+desert.source.pachomian-corpus's own standing rule - and against
+desert.gravity.authority-tension, the very record this force declares
+a relation to, which states in two separate fields that neither
+vendored witness supplies those names and that Rousseau is the named
+authority. desert.source.rousseau-pachomius added to sources[] above,
+and every office-name claim now routed through it, matching that
+gravity record's own channel language exactly. Finding M8: the
+Apophthegmata locus and first manifestation now carry that source's own
+compiler screen, which every sibling gravity record citing it already
+carries and this record previously omitted.
