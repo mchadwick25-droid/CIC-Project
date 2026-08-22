@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.sulpitius-dialogues
-  locus: Dialogue I.8-9 ('a man truly Catholic'; the parish under Jerusalem)
+  locus: Dialogue I.7 ('a man truly Catholic'); I.8 (the parish under Jerusalem)
   license: public-domain
 - source_id: hal.source.jerome-apology-rufinus
   locus: the professions of catholic faith throughout
@@ -53,3 +53,8 @@ the bounded-reconstruction discipline in-world (visitable only through
 its writings) without naming or ranking present-day claimants - the
 living-tradition determination and its doorway chrome are Mark's
 touchpoint, outside this record.
+
+Locus corrected per independent review Round 1 (2026-08-21): 'a man truly
+Catholic' falls in Dialogue I ch. VII, not ch. VIII as a prior version of
+this record stated; only the parish-under-Jerusalem sentence is ch. VIII.
+

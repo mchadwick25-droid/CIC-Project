@@ -36,8 +36,9 @@ description: 'A doctrinal inheritance this world had absorbed without quite noti
   in origin: the fracture ran through the community''s own inheritance and relationships, not an
   outside attack.'
 manifestations:
-- Rufinus's Peri Archon preface naming Jerome as Origen's admirer - the spark
-- the exchange of Apologies, 401-402, both surviving
+- Rufinus's Peri Archon preface (397), describing without naming Jerome as Origen's
+  earlier translator - the spark
+- the exchange of Apologies, 401-403, both surviving
 - the maneuvering around Bishop John of Jerusalem, under whose parish Bethlehem lay
 - Pammachius and Marcella as named addressees of Jerome's polemic - the dispute conducted through
   the patronage network itself
@@ -54,3 +55,8 @@ this record set resolves it in the by-gravity view's favor as the more
 conservative reading. Parallel to 2A-4: relational rupture as the
 authority structure's characteristic failure mode. Canon_cells: F1-I
 (what you argued about), F6-I (what was never settled).
+
+CORRECTED per independent review Round 1 (2026-08-21): the preface dates
+to 397 (its own heading) and does not name Jerome - re-verified directly
+against cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, matching
+hal.figure.rufinus's parallel correction.

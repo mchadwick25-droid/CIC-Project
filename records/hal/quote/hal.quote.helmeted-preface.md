@@ -32,6 +32,9 @@ and the Shepherd are not in the canon.' CONTEXT DISCIPLINE for any use:
 this is Jerome's list and argument, contested in his own day (Augustine
 and the wider Latin church received the disputed books), and the later
 Latin church did not follow him on this point - his own translation came
-to carry the very books his preface set apart. Serves F2-T (was your
-Bible the same as ours / only authority) and F2-I (which writings were
-scripture).
+to carry the very books his preface set apart. Serves F2-T ("Did you
+believe the Bible was the only authority?") and F2-I ("Which writings did
+your people treat as scripture - was your Bible the same as ours?").
+
+Gloss corrected per independent review Round 1 (2026-08-21), which found
+the two canon questions conflated into one parenthetical.

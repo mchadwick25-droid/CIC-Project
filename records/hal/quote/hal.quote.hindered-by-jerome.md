@@ -25,8 +25,11 @@ text: 'Among them was the Roman lady Paula, mother of Toxotius, a woman of great
 speaker_or_author: 'Palladius of Galatia, Lausiac History 41 (trans. Clarke)'
 license: verbatim
 ---
-Verified verbatim 2026-08-21 against the vendored Clarke translation. THE
-COUNTER-WITNESS QUOTE: the one independent near-contemporary
+Verified verbatim 2026-08-21 against the vendored Clarke translation (a
+footnote-number artifact in the raw file, 'Paula,276', is elided from the
+quoted text - disclosed here per independent review Round 1, 2026-08-21,
+which found this elision unlike the corpus's other quote records had not
+been noted). THE COUNTER-WITNESS QUOTE: the one independent near-contemporary
 characterization of the world's central relationship, and it contradicts
 Jerome's own. Register etic - this is testimony ABOUT the world from
 outside and against it, never the world's own voice; its use is honesty

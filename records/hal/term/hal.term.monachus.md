@@ -39,4 +39,11 @@ quick_meaning: A monk - the ordinary word for a male ascetic.
 ---
 Re-derived from cleared Doc_06 entry 15 (hal_lex15). Retrieval tier 3
 (ambient vocabulary): low distortion risk, names the structurally present
-but never-individuated men - see hal.limit.f5-unnamed-residents.
+but never-individuated men - see hal.core.hieronymian's Absent Stories
+answer (item 1) and hal.force.monastic-template's Nitria notice.
+
+Cross-reference corrected per independent review Round 1 (2026-08-21):
+the prior pointer named a non-existent honest_limit record; there is no
+dedicated honest_limit for this specific absence (F5-I is already covered
+by substantive records), so the pointer now names the real records that
+carry this content.

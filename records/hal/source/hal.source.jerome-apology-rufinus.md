@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources: []
 author: "Jerome (c. 331/347-420 CE)"
-work: "Apologia adversus libros Rufini (401-402, with the letter-form book III c. 402): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella"
+work: "Apologia adversus libros Rufini (401-403): Jerome's answer in the Origenist controversy - his account of the broken friendship, his own early use of Origen, and his defense against the charge of inconsistency; addressed to Pammachius and Marcella"
 edition: "trans. W.H. Fremantle, NPNF2-03 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, div id vi.xii"
 rights_status: public-domain
 attribution_status: attributed
@@ -29,3 +29,7 @@ register; requires the same discounting on characterizations of Rufinus and
 Bishop John of Jerusalem that Rufinus's own Apology requires in the other
 direction. Neither side's account of the dispute's substance is privileged
 - see hal.contested.origenist-substance.
+
+Dating aligned to the cleared Doc_02's own figure (401-403) per
+independent review Round 1 (2026-08-21), which found a drift toward
+401-402 elsewhere in this record set.

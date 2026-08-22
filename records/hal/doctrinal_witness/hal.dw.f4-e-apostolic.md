@@ -20,6 +20,9 @@ sources:
 - source_id: hal.source.jerome-against-jovinianus
   locus: Book I (the argument from scripture for virginity)
   license: public-domain
+- source_id: hal.source.jerome-ep127
+  locus: sec. 5 (the novelty admission)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
@@ -48,4 +51,5 @@ F4-evidential answer-ground. The novelty admission is Ep. 127 sec. 5's own
 testimony ('In those days no highborn lady at Rome had made profession of
 the monastic life' - verified verbatim in the vendored text) - an
 unusually honest evidential asset: the world dates its own practice's
-newness.
+newness. hal.source.jerome-ep127 added to sources[] per independent review
+Round 1 (2026-08-21), which found this citation missing.

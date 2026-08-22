@@ -38,17 +38,24 @@ text: 'Near the end, the argument came to the doors. Men attacked the monasterie
   buildings burned; the old scholar wrote afterward, briefly, that his own monastery had
   been destroyed and that he had chosen to leave his pleasant home rather than surrender
   the faith. It was Eustochium and her young niece Paula who wrote to the bishop of Rome
-  and told him what had been done - and he marveled, in his answer, that they declined
-  to name the man behind it. Rome''s bishop wrote his sympathy to Jerome, and a rebuke to
-  the bishop of Jerusalem for letting it happen. Who struck the blow, how many died,
+  and told him what had been done. Writing on to the bishop of Jerusalem about it, Rome''s
+  bishop marveled that the women, in their own report, had declined to name the man
+  behind it. He also wrote his sympathy to Jerome directly, and a rebuke to the bishop
+  of Jerusalem for letting it happen. Who struck the blow, how many died,
   what was lost - the community itself chose not to say, and its restraint is most of
   what survives.'
 absent_detail: 'Nearly everything: the attackers'' identity and number (the community
   declined to name them - the pope''s letter praises the restraint), the casualties
   beyond ''murders'' in his summary, the buildings'' extent, the date beyond the year.
-  The women''s own letter - the fullest account that ever existed - is lost; we have the
-  answer it received. This telling adds nothing to what the surviving letters hold.'
+  The women''s own letter - the fullest account that ever existed - is lost; we have only
+  Innocent''s report of it, in his own letter to the bishop of Jerusalem. This telling
+  adds nothing to what the surviving letters hold.'
 ---
 Re-derived from cleared Doc_09a S4, re-sourced on this branch to the full
 five-letter cluster. The women's lost letter and the community's own
 restraint are the story's honest center. Serves F6-P.
+
+CORRECTED per independent review Round 1 (2026-08-21): Ep. 137 is
+addressed to John of Jerusalem, not to Eustochium and the younger Paula -
+a prior version of this text read as though Innocent answered the women
+directly. Reworded so the addressee chain is accurate.

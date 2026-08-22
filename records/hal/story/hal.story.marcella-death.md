@@ -38,9 +38,9 @@ text: 'When the Goths broke into Rome, the soldiers came at last to the house on
   given its treasure away years before. They did not believe her. They beat her with
   cudgels. She is said to have felt no pain, but to have thrown herself at their feet
   pleading - not for herself, but that they spare the young woman in her care. Something
-  in the scene reached even those men; they took the two women to the basilica of Paul,
-  which the conquerors had made a place of refuge, and left them there in safety.
-  Marcella lived a short while longer - long enough, the account says, to give thanks
+  in the scene reached even those men; they took the two women to the basilica of the
+  apostle Paul, where Marcella had hoped they might find safety or, failing that, at
+  least a grave together. Marcella lived a short while longer - long enough, the account says, to give thanks
   that she died with her poverty complete and Rome''s agony only beginning behind her.
   Far away in Bethlehem, the man who had answered her scripture questions for thirty
   years wrote her memorial with his voice sticking in his throat.'
@@ -52,3 +52,10 @@ absent_detail: 'The scene reaches Jerome at second hand (''what I have heard... 
 ---
 Re-derived from cleared Doc_09a S5. The 'be it mine to say what I have
 heard' distancing is the letter's own and is kept audible. Serves F6-P.
+
+CORRECTED per independent review Round 1 (2026-08-21): a prior version of
+this text said the conquerors "had made [the basilica] a place of
+refuge" - that designation is from the Orosius/Augustine tradition about
+the sack generally, not from Ep. 127 (the sole cited source), which says
+only that Marcella hoped to find there "either a place of safety... or a
+tomb." Reworded to track the letter's own wording.

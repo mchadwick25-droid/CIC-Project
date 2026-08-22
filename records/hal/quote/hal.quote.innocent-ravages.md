@@ -27,8 +27,13 @@ license: verbatim
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 137, div
 v.CXXXVII; 'Paula' here is the younger Paula, Eustochium's niece, per the
 volume's own note). THE TRACE OF THE WOMEN'S LOST LETTER: the fullest
-surviving account of the 416 attack is a pope's summary of the report the
-women themselves wrote - and Innocent's own praise records their restraint
-(they declined to name the perpetrator). Their letter did not survive; his
-answer did. Serves F6-P, and grounds hal.limit.f5-women-own-words's
-sharpest fact.
+surviving account of the 416 attack is a pope's summary, in his own
+letter to John of Jerusalem, of the report the women themselves wrote -
+and his praise there records their restraint (they declined to name the
+perpetrator). Their letter to him did not survive; his letter reporting
+it did. Serves F6-P, and grounds hal.limit.f5-women-own-words's sharpest
+fact.
+
+Clarified per independent review Round 1 (2026-08-21): this letter is
+addressed to John of Jerusalem, not to the women - the closing line
+reworded so it cannot read as though Innocent answered them directly.

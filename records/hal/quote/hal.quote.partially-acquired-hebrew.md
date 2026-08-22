@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: sec. 26
+  locus: sec. 27
   license: public-domain
 text: 'While I myself beginning as a young man have with much toil and effort partially
   acquired the Hebrew tongue and study it now unceasingly lest if I leave it, it also may
@@ -32,3 +32,7 @@ evidence the Williams analysis appeals to, present in the world's own
 vendored text. Serves F2-E: when a participant asks how much of the
 Hebrew-mastery story holds up, this world's own words supply the honest
 range. See hal.contested.hebrew-fluency.
+
+Locus corrected per independent review Round 1 (2026-08-21): sec. 26 was
+off by one against the print-edition numbering (the "27." marker appears
+in the vendored file immediately before this passage) - now sec. 27.

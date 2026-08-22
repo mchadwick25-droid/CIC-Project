@@ -32,9 +32,10 @@ description: 'A theological argument that had, until then, stayed on paper, arri
   cleared documents settled); this world''s own prior position-taking is part of why this force found
   this target - a genuine secondary observation that does not change the classification.'
 manifestations:
-- the ravages, murders, and fires of Innocent's summary (Ep. 137) - reported to him by Eustochium
-  and the younger Paula, whose own letter is lost
-- Jerome's brief, vague notices (Epp. 138-139 - 'my own monastery has been destroyed')
+- the ravages, murders, and fires of Innocent's summary (Ep. 137, to John of Jerusalem) -
+  reported to him by Eustochium and the younger Paula, whose own letter is lost
+- Jerome's brief, vague notices (Epp. 138-139 - his own house 'completely destroyed... so
+  far as fleshly wealth is concerned')
 - no precision manufactured beyond what the sources hold (attackers' numbers and specific casualties
   are not attested)
 ---
@@ -49,3 +50,9 @@ danger of being a Christian in a hostile world, and this attack was
 Christian-on-Christian violence - tagging it there would misattribute the
 institution of persecution (the exact subtle-fabrication class the
 verification discipline names).
+
+CORRECTED per independent review Round 1 (2026-08-21): the manifestations
+entry's former quoted string ("my own monastery has been destroyed") was
+not in Ep. 138 or 139; replaced with the letter's own verbatim closing
+words. Ep. 137's addressee (John of Jerusalem, not the women) made
+explicit.

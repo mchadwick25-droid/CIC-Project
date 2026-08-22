@@ -29,11 +29,11 @@ dates:
   died: '411, Sicily, in flight from the Gothic invasion'
   floruit: 'Jerome''s close friend from their student days; monastic founder on the Mount
     of Olives with Melania the Elder; translator of Origen into Latin - whose Peri Archon
-    preface (400), naming Jerome as Origen''s admirer, ignited the public rupture; the
-    exchange of Apologies 401-402'
+    preface (397), describing without naming Jerome as Origen''s earlier translator,
+    ignited the public rupture; the exchange of Apologies 401-403'
 narratable: true
 bridge_line: the oldest friend who became the fiercest opponent - fellow translator of
-  Origen, whose preface praising Jerome's earlier admiration of the master set off the
+  Origen, whose preface recalling Jerome's earlier admiration of the master set off the
   rupture neither man ever repaired
 ---
 The other voice of the world's central internal fracture - and, unusually
@@ -45,3 +45,12 @@ the Mount of Olives (with Melania the Elder) mirrors Bethlehem's shape -
 patronage, translation, ascetic community - a structural parallel the
 record notes without developing (Melania's circle belongs to no built
 world yet).
+
+CORRECTED per independent review Round 1 (2026-08-21): the preface's own
+heading dates it 397, not 400 as an earlier draft of this record stated;
+and the preface itself does not name Jerome - the NPNF editor's own
+headnote states Jerome is "not named" though "clearly described," matching
+this record set's own hal.story.rufinus-rupture ("named no one, and
+everyone knew he meant Jerome"), which the earlier wording of this record
+contradicted. Re-verified directly against cic/texts/npnf203_theodoret-
+jerome-gennadius-rufinus.xml before this correction.

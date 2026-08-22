@@ -20,6 +20,9 @@ sources:
 - source_id: hal.source.jerome-ep127
   locus: secs. 12-13 (the fall of Rome heard as judgment)
   license: public-domain
+- source_id: hal.source.vulgate-prefaces
+  locus: Preface to the Commentary on Ezekiel (the empire-decapitated image)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []
@@ -47,4 +50,9 @@ tensions:
   letters do both without reconciling them
 ---
 F4-translational answer-ground. The no-tithe and no-rapture answers are
-honest negatives with this world's actual practices in their place.
+honest negatives with this world's actual practices in their place. The
+"decapitated empire"/"light put out" image is from the preface to the
+Ezekiel commentary ('the bright light of all the world was put out, or,
+rather, when the Roman Empire was decapitated'), verified verbatim
+against the vendored text; its source was added per independent review
+Round 1 (2026-08-21), which found it uncited.

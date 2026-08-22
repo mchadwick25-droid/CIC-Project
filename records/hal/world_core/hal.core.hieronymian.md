@@ -66,7 +66,7 @@ cautions: '1) AUTHOR GRAVITY is the central limit: nearly the entire record is J
   scholarship; his own retrospective account of it is not to be repeated as settled fact.
   5) "The Vulgate" as a name and as a standard church-wide text belongs to later centuries;
   within this window the translation project was ongoing, partial, and contested. 6)
-  PRE-HORIZON TRAP: the vendored Jerome volume contains his pre-382 corpus (Letters 1-21,
+  PRE-HORIZON TRAP: Jerome''s wider corpus includes his pre-382 writing (Letters 1-21,
   the desert and Antioch years, the Life of Paulus) - formative background, not this
   world''s own span. 7) Bethlehem daily-life specifics (schedule, scriptorium, school as
   institutions) are modern reconstruction from one source plus analogy - never Documented.
@@ -118,3 +118,7 @@ Eustochium and the younger Paula reporting the 416 attack to Rome is
 attested (Innocent's reply, Ep. 137, describes their report) but does not
 itself survive - the one attested act of the women's own authorship, lost.
 Recorded in hal.search.womens-own-texts and the honest_limit records.
+
+CORRECTED per independent review Round 1 (2026-08-21): caution 6's phrase
+"the vendored Jerome volume" (build-infrastructure wording inside a
+compiled field) reworded to "Jerome's wider corpus" - substance unchanged.
