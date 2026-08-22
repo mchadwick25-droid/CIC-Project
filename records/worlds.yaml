@@ -51,8 +51,8 @@ worlds:
     state: built             # step 6 compile done 2026-08-22: determinism-check byte-identical, package built, stub-loader verified - mechanical gates-green transition only (Artifact-1 SS2), same semantics as alx/fix's own built state; NOT admitted or open - step 7 (admission, live-model) and Mark's touchpoints still pending
     census_id: "post-apostolic-house-church"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.1") - the census entry's own id field, the value the Atlas deep link sends (same convention verified for alx)
     package:
-      manifest_hash: "sha256:79cc261c0f81e913de081fcdecef566ac9392fc97745b81b8065f3c3ef762439"
-      location: "packages/pahc/2026-08-22T20-32-42Z"   # recompiled: glossary/story/quote retrofit gate now live - re-embeds an honest, current validation/gates-report.json. Model-facing content unchanged; the retrofit's own content work on this world is still open.
+      manifest_hash: "sha256:93c3158e9142e97af9145c6bc95bd714f53e22dbab7f78cb4bcb76592f0829fe"
+      location: "packages/pahc/2026-08-22T21-02-49Z"   # recompiled: glossary/story/quote/gravity/force retrofit content work now done - term.distortion_risk, story.modern_contrast, quote.modern_lens_note, gravity.classification, force.matrix_cell populated across all already-built records (52/52 completion-per-type findings cleared). determinism-check byte-identical; validation/gates-report.json overall_pass true, all 14 gates including glossary-retrofit-complete clean.
     thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
     living_tradition_flag: true   # prior-framework determination confirmed by Mark (2026-07-31): universal descent - every later church looks back to rooms like these - with a strict non-identity discipline (this is a bounded historical reconstruction, not any present-day church's self-account). Carried forward with re-confirmation under the new spec pending; the doorway carries the distinction meanwhile (fail toward disclosure).
   hal:
