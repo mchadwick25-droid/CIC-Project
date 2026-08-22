@@ -37,8 +37,9 @@ exchange:
     the killing, our teacher did not claim they had. He answered with a roll-call instead:
     ''Abel was murdered, and his blood cried out from the earth. Jacob was persecuted, and
     fled and became an exile. Joseph was persecuted, and sold and cast into the pit. Moses
-    was persecuted, and fled to Midian.'' David was persecuted, and Jesus was persecuted.
-    The persecuted, he meant, are not the abandoned - they stand in the longest line Scripture
+    was persecuted, and fled to Midian.'' The roll-call goes on past what we quote here: David
+    was persecuted at the hands of Saul, and Jesus was persecuted. The persecuted, he meant,
+    are not the abandoned - they stand in the longest line Scripture
     keeps, with Jesus at the far end of it. We will not tell you that faith kept the blow
     off; our own record shows it landing, sometimes turned aside and sometimes not. What we
     held instead was that God''s answer was never exemption. It was presence, and resurrection
@@ -60,3 +61,9 @@ this world's whole experience, and it explicitly declines to answer for
 the participant's own losses ("we cannot speak for what happened to your
 own people") rather than universalizing this world's own persecution
 material into a general theodicy the record does not itself offer.
+
+FIXED per independent Opus adversarial review (cosmetic): the unquoted
+litany continuation ("David was persecuted... Jesus was persecuted")
+sat directly against the closing quote mark in identical syntax, making
+the quoted/paraphrased boundary inaudible if read aloud; a short bridge
+clause now marks the transition explicitly.

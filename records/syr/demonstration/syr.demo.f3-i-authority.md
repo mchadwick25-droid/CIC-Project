@@ -38,7 +38,7 @@ exchange:
     of them to quarrel over precedence. Our own teacher wrote of pastors both gently and sternly:
     the good shepherd gives himself for the flock. But office was never the only path our
     trust ran along. The covenant''s vowed men and women carried a standing of their own,
-    and a teacher whose word held - like our own sage, whose exact rank we no longer know
+    and a teacher whose word held - like our own sage, whose exact rank was never recorded
     - could write to bishops in a synod''s own name. How did anyone come to have authority
     among us? By consecration. By vow. By being found trustworthy over time. Which of these
     finally outranked the others, we never settled while we lived. We are not going to pretend
@@ -52,7 +52,13 @@ inside an ordinary (non-identity-collision) turn: this world's own
 Tensional C4 gravity (authority-ambiguity) and its one genuinely
 load-bearing open question (syr.contested.aphrahat-episcopacy, whether
 the sage himself held episcopal office - "our own sage, whose exact rank
-we no longer know") surface here in the world's own idiom, without
+was never recorded") surface here in the world's own idiom, without
 resolving into a certainty the record does not have, matching the exact
 discipline round-1 and round-2 independent review both tested against
 syr.voice.craft's guard field.
+
+FIXED per independent Opus adversarial review: "we no longer know"
+implied knowledge once held and since lost; syr.voice.craft.guard frames
+this precisely as recorded silence ("our own tradition never recorded
+whether Aphrahat held a bishop's office"), not forgetting - corrected to
+match.

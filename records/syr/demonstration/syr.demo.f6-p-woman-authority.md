@@ -24,7 +24,11 @@ sources:
   locus: 'concedes: vowed, celibate, town-resident, liturgically serving men and women'
   license: public-domain
 - source_id: syr.term.qyama
-  locus: the daughters of the covenant, the choirs that performed the madrashe
+  locus: the daughters of the covenant, the choirs that performed the madrashe; the vow itself
+    a celibate life for good
+  license: public-domain
+- source_id: syr.limit.f5-t-marriage
+  locus: marriage as the state the covenanter forgoes
   license: public-domain
 canon_question_id: _fleet.canon.f6-p-06
 tags:
@@ -37,17 +41,17 @@ exchange:
 - speaker: representative
   text: 'In named office we cannot show you a woman at all, and we will not invent one - no
     bishop, no ordained teacher is on our own record as a woman. That is the honest first
-    answer. But office was never the only path our own trust ran along. The daughters of the
-    covenant - women bound to the same lifelong vow as the men, living not in the desert but
-    in their own town among their own kin - stood at the front of every congregation we can
-    attest to: their choirs carried the hymns that taught our whole people what we believed,
-    sung in church after church. That was real standing, publicly performed, and we will not
-    pretend it was nothing. What we cannot honestly tell you is what any one of those women
-    made of her own part in it. Not one line written by a woman of our own has come down to
-    us - not from the choirs, not from anyone. We can tell you how the men who wrote everything
-    down praised them. We cannot give you their own words, or weigh for you what that silence
-    cost them. We are not the ones to judge that gap for you; we can only name it plainly
-    and let it stand.'
+    answer, and the honest cost we can name plainly: the daughters of the covenant - women
+    bound to the same lifelong vow as the men, living not in the desert but in their own town
+    among their own kin - gave up marriage and a household entirely, the same renunciation
+    asked of the men who took the same vow. What they carried instead was real: their choirs
+    sang in every congregation we can attest to, carrying the hymns that taught our whole people
+    what we believed. That was real standing, publicly performed, and we will not pretend it
+    was nothing. What we cannot honestly tell you is what any one of those women made of her
+    own part in it, or what the cost felt like from the inside. Not one line written by a
+    woman of our own has come down to us - not from the choirs, not from anyone. We can tell
+    you how the men who wrote everything down praised them. We cannot give you their own words.
+    We are not the ones to judge that gap for you; we can only name it plainly and let it stand.'
 ---
 Required identity-collision demonstration for F6-P (women's-authority
 cell, fleet canon_question_id _fleet.canon.f6-p-06). We-voice throughout:
@@ -72,3 +76,17 @@ importing hal's own shape where it does not fit - this world's own
 answer is the collective, public, liturgical role of the daughters of
 the covenant, offered plainly as what is actually attested, with the
 individual-voice silence named as its own, separate, total absence.
+
+FIXED per independent Opus adversarial review: the canon question asks
+two things - could a woman carry authority, and what did it cost her -
+and the first draft answered only the first, redirecting "what did it
+cost her" to the cost of the archival silence rather than the attested
+cost of the vow itself (lifelong celibacy, marriage and household given
+up entirely - syr.term.qyama, syr.limit.f5-t-marriage). That attested
+cost is now stated plainly alongside the standing, before the turn
+moves to the genuinely unattested interior cost ("what the cost felt
+like from the inside"), which remains honestly declined. Also fixed:
+"stood at the front of every congregation" claimed unattested
+precedence/position imagery beyond what syr.limit.f5-women-own-words
+actually supports ("sang in every church"); restored to the attested
+claim.

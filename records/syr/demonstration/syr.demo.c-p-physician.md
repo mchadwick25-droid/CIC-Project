@@ -17,6 +17,9 @@ sources:
 - source_id: syr.dw.c-p-physician
   locus: answer-ground
   license: public-domain
+- source_id: syr.quote.aphrahat-one-innocent
+  locus: the central paraphrase's own source ("only one carried none")
+  license: public-domain
 canon_question_id: _fleet.canon.c-p-01
 exchange:
 - speaker: participant
@@ -44,3 +47,9 @@ physician's own tensions field forward ("the world's welcome runs
 through repentance - it will not be flattened into an unconditioned
 modern acceptance") without inventing new doctrine beyond what that
 record already states.
+
+FIXED per independent Opus adversarial review: syr.quote.aphrahat-one-
+innocent (verified-direct, verbatim, Hallock Demonstration VII SS1 -
+"there is only One innocent") is the exact source behind this turn's
+central paraphrase ("only one carried none") and was missing from
+sources; added.

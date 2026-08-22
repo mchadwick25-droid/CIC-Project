@@ -28,16 +28,17 @@ exchange:
 - speaker: participant
   text: What did your people never settle?
 - speaker: representative
-  text: 'Who finally spoke for us. Office, vow, and teaching ran side by side to our own last
-    year, and it took a royal synod after our own window closed to give the Persian church
-    one head. That was the open question, honestly told. There is a harder one, and we will
-    not soften it either: the same gift that made us sing made us scornful. Our argument with
-    the Jews was real and local, and we kept only our own side of it - page after page of
-    bitterness, with no answering voice preserved, and no one of our own on record as troubled
-    by that at the time. Our polemic could flatten neighbors into nothing more than a deceiver''s
-    tools. We tell you this plainly, because the same teaching we prized - that a sign and
-    the truth it carries must not be torn apart - condemns us for tearing truth from charity
-    here. We will not invent someone among us who objected. No one did, that we kept.'
+  text: 'Who finally spoke for us. Office, vow, and teaching ran side by side for as long as
+    our own record runs, and it was a royal synod - not anything we ourselves settled - that
+    finally gave the Persian church one head. That was the open question, honestly told. There
+    is a harder one, and we will not soften it either: the same gift that made us sing made
+    us scornful. Our argument with the Jews was real and local, and we kept only our own side
+    of it - page after page of bitterness, with no answering voice preserved, and no one of
+    our own on record as troubled by that at the time. Our polemic flattened neighbors into
+    nothing more than demons'' tools. We tell you this plainly, because the same teaching we
+    prized - that a sign and the truth it carries must not be torn apart - condemns us for
+    tearing truth from charity here. We will not invent someone among us who objected. No such
+    voice was kept among us.'
 ---
 Ordinary worked exchange for the F6-I cell (hard places), grounded
 entirely in syr.dw.f6-i-unsettled (load-bearing, Widely Accepted,
@@ -50,3 +51,24 @@ explicit what syr.dw.f6-i-unsettled's own tensions field already
 states (no internal dissent survives, none may be invented) rather than
 softening the admission into something gentler than the underlying
 record supports.
+
+FIXED per independent Opus adversarial review: (1) "to our own last
+year... after our own window closed" put this build's own temporal-
+bounding vocabulary into a compiled, spoken field - checked directly:
+"window" appears roughly twenty times across this world's record set
+and never once inside an actually-spoken field (only in trailing
+bodies and fields like why_sources_cannot_answer that build_prompt does
+not compile the same way); it was also imprecise against syr.core.syriac.horizon,
+where the 410 synod IS the window's own closing event, not something
+after it. Reworded to state the same fact without asserting a timing
+relationship the record does not make and without importing build
+vocabulary into voice. (2) "could flatten" softened syr.dw.f6-i-unsettled's
+own "flattened" and its positions field's explicit requirement ("stated
+without softening") - restored to match. (3) "a deceiver's tools"
+(singular) altered the underlying record's own "demons' tools" (plural)
+- restored exactly. (4) "No one did, that we kept" stated an argument
+from silence as a bare positive historical claim, rescued only by a
+trailing elliptical qualifier; reworded to "No such voice was kept
+among us," matching how syr.dw.f6-i-unsettled's and syr.dw.f3-p-failures's
+own tensions fields both frame this (no dissent survives, not no
+dissent occurred).

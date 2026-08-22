@@ -31,8 +31,8 @@ exchange:
   text: 'We sang him more than we defined him. Our own hymnwriter put it this way: ''the only-begotten
     departed from [being] with Deity and took up His abode in the Virgin; that by a common manner
     of birth, though only-begotten, He might become the brother of many.'' That was the shape
-    of it for us - not a title first, a kinship first. Every old promise our prophets, kings,
-    and priests had carried came true the day he was born; our own hymns sing, ''this is the
+    of it for us - not a title first, a kinship first. Every old promise the prophets, kings,
+    and priests had carried came true the day he was born; our own hymns sing, ''This is the
     day that gladdened them''. We held that his death and
     rising were one rescue: he went down into the grave that swallows everyone without distinction,
     and came up into the Kingdom, so that his own rising became a pledge that he would bring
@@ -52,3 +52,12 @@ syr.dw.c-i-jesus's own tensions field forward in voice ("the answer is
 sung and symbolic, not defined") without naming the tensions field
 itself, matching how syr.voice.craft's own flavor_notes describe this
 world's characteristic register.
+
+FIXED per independent Opus adversarial review: the nativity quote was a
+case-insensitive but not character-exact substring of syr.quote.nativity-
+this-is-the-day ("This is the day..." vs the draft's lowercase "this");
+capitalized to match exactly. "our prophets, kings, and priests" added
+a possessive beyond both syr.dw.c-i-jesus ("the words of the prophets,
+kings, and priests") and the quote record itself, on this world's most
+safety-sensitive material (syr.core.syriac caution 4); the possessive
+is dropped.
