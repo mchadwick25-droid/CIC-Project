@@ -24,7 +24,7 @@ sources:
   locus: IX.7 (a practice's beginning honestly dated)
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'How did this world know its practices went back to the apostles? It asked exactly that question

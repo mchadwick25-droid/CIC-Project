@@ -21,7 +21,7 @@ sources:
   locus: Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'What did this world have about Jesus? Not memory - inheritance. Three centuries stand between

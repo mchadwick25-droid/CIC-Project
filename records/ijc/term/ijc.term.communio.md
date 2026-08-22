@@ -8,6 +8,7 @@ register: emic
 canon_cells:
 - F3-I
 - F4-I
+- F5-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -49,9 +50,12 @@ senses:
   evidential: 'Leo''s letters use communion-standing as their working category throughout; Ambrose''s letter
     to Theodosius shows a bishop suspending an emperor''s access to the offering as real leverage. The
     record shows the mechanism from both directions: wielded, and refused.'
-  personal: To be placed outside was to lose the altar and the recognition of the churches at once - the
+  personal: 'To be placed outside was to lose the altar and the recognition of the churches at once - the
     record shows people fighting, negotiating, and writing at length to avoid or reverse it, which is
-    its own evidence of how much it weighed.
+    its own evidence of how much it weighed. What held distant believers together at all was this same
+    mechanism working the other way: a letter of communion carried a see''s recognition across hundreds
+    of miles, the actual thread connecting congregations who would never meet - the record''s own answer
+    to what bound people together across distance.'
   translational: '"Excommunication" here is not a private spiritual note on a membership roll - it is closer
     to losing citizenship in a public body whose recognition made claims real, without ceasing to be a
     sacramental fact.'
@@ -66,4 +70,7 @@ this build as the mechanism's clearest single exercised instance
 communio to the Ambrosian material). canon_cells: F3-I (who held
 authority and how it was enforced), F4-I (when someone wronged the
 community, how was it handled - and could they come back: exclusion and
-restoration is this world's documented answer-shape).
+restoration is this world's documented answer-shape). Added at review
+(Opus canon-structure pass, 2026-08-21): F5-P (what held distant
+believers together) - the same communion-standing mechanism that
+excludes also connects; this term was answering the question untagged.

@@ -54,8 +54,8 @@ thinness: 'Richest in institutional and juridical self-testimony: conciliar acts
   emperors, and courts); women''s own words (Justina and Pulcheria act as real political principals but
   survive only through others'' framing); the Homoian ("Arian") side''s own self-testimony, though for
   roughly two decades of this very window the Homoian church WAS the imperial establishment; and communal
-  or devotional narrative of the kind other formation worlds preserve - this world''s record keeps arguments
-  and instruments, not memoirs.'
+  or devotional narrative of the kind other Christian traditions preserve - this world''s record keeps
+  arguments and instruments, not memoirs.'
 cautions: '1) OFFICE-HOLDER SCOPE is the central limit: nearly every surviving voice is a bishop, an emperor,
   or a court; never convert this world''s juridical self-presentation into a claim about what ordinary
   Christians experienced or believed (see ijc.contested.office-holder-scope). 2) HOMOIAN RECENTERING is
@@ -70,10 +70,11 @@ cautions: '1) OFFICE-HOLDER SCOPE is the central limit: nearly every surviving v
   are evidence for - claims resting on one such voice alone stay qualified. 5) CONTESTED DATING AND ATTRIBUTION
   carried as first-class content, never silently resolved: the two divergent conversion accounts (Eusebius
   vs. Lactantius), the authenticity of much Damasine decretal material, and what Constantine meant by
-  calling himself a bishop of those outside. 6) CROSS-WORLD BOUNDARIES: Athanasius''s corpus belongs to
-  the Alexandrian and Desert worlds (only Julius I''s letter, quoted within it, is licensed here); Augustine''s
-  corpus belongs to the Latin pastoral world (only Confessions 9.7, as eyewitness testimony to Ambrose''s
-  Milan, is licensed here); the Cappadocians belong to their own world. 7) The window CLOSES AT 451: Leo''s
+  calling himself a bishop of those outside. 6) CITATION SCOPE IS NARROW: Athanasius wrote a large body
+  of theological work of his own; only Julius I''s letter, quoted within his Apologia, is cited here.
+  Augustine likewise wrote extensively; only Confessions 9.7, as eyewitness testimony to Ambrose''s
+  Milan, is cited here. The Cappadocian fathers are not cited at all. None of this reflects this
+  window''s own boundaries of what happened - only of what this record draws on. 7) The window CLOSES AT 451: Leo''s
   death (461), the fall of the Western empire (476), and everything after Chalcedon''s immediate aftermath
   are beyond this world''s own horizon.'
 thin_topics:

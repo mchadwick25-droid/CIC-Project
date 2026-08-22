@@ -30,7 +30,7 @@ relations:
 - {type: illustrated-by, target: ijc.quote.milan-edict}
 - {type: precondition-for, target: ijc.gravity.primacy-claiming}
 - {type: precondition-for, target: ijc.gravity.orthodoxy-enforcement}
-- {type: associated-with, target: ijc.gravity.episcopal-independence}
+- {type: tension-with, target: ijc.gravity.episcopal-independence}
 - {type: associated-with, target: ijc.force.constantine-alliance}
 - {type: associated-with, target: ijc.force.inherited-episcopal-church}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
@@ -53,8 +53,13 @@ tests; Documented; the ONLY gravity confirmed cross-strand to all three
 strands - Doc_04 SS5, carried precisely: not overstated for any other
 gravity). Encoded as precondition-for the two other Primary gravities
 (the interaction matrix's own "2 is 1's precondition" and "3 is a
-recurring specific use of 2"), associated-with the Ambrosian gravity
-(reshaped by it: the limits demonstrated). Forces connections per
+recurring specific use of 2"). Corrected at review (Opus
+canon-structure pass, 2026-08-21): the relation to the Ambrosian
+gravity was flattened to associated-with, re-introducing the ambiguity
+Doc_04's own matrix correction removed - the matrix states this as
+"reshaped by" (4 demonstrates 2's real limits), which tension-with fits
+better than the symmetric, undifferentiated associated-with; now
+encoded as tension-with. Forces connections per
 Doc_08: produced jointly by 1A-1 and 1B-1; fractured and re-formed
 repeatedly under 2A-1. canon_cells: F3-E (did Constantine corrupt the
 church - did the empire change what you were: this gravity IS that

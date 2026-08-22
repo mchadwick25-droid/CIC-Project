@@ -31,7 +31,7 @@ relations:
 - {type: illustrated-by, target: ijc.quote.sozomen-thessalonica-law}
 - {type: enabled-by, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
-- {type: associated-with, target: ijc.gravity.episcopal-independence}
+- {type: tension-with, target: ijc.gravity.episcopal-independence}
 - {type: associated-with, target: ijc.gravity.precision-seeking}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 name: Orthodoxy-Enforcement Through Imperial Power [PRIMARY]
@@ -54,7 +54,10 @@ divergence, carried in the confidence block's divergence_note above
 exactly as Doc_04/Doc_08 flagged it forward - never resolved by
 upgrading). Cross-strand: A and B only (Doc_04 SS5's corrected
 finding); the Strand C relationship is the reshaping edge to
-ijc.gravity.episcopal-independence. Forces: directly IS Cell 2A-1's
+ijc.gravity.episcopal-independence - encoded as tension-with, corrected
+at review (Opus canon-structure pass, 2026-08-21) from a flattened
+associated-with that had re-introduced the ambiguity this same
+document's own matrix correction removed. Forces: directly IS Cell 2A-1's
 recurring content; intensifies under Constantius II/Valens and again,
 reversed, under Theodosius. canon_cells: F3-P ("Your church used power
 against Christians who disagreed. Defend that.") - this gravity is that

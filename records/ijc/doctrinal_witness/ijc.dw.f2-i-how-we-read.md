@@ -24,11 +24,11 @@ sources:
   locus: Canon 6 (precedent read as law)
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'This world read its scriptures the way it read everything: toward what binds. The same Bible
-  other Christian worlds read for contemplation, this one read for warrant. "Thou art Peter, and upon
+text: 'This world read its scriptures the way it read everything: toward what binds. The same Bible read
+  for contemplation elsewhere in Christian history, this world read for warrant. "Thou art Peter, and upon
   this rock I will build my church" - Rome read that as a standing grant of office, not only a blessing.
   The century''s deepest fight was over scriptural words: whether "like the Father," which scripture''s
   language could carry, or "of one being," which scripture nowhere says, kept scripture''s meaning

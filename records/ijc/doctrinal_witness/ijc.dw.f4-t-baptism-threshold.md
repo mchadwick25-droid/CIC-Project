@@ -21,7 +21,7 @@ sources:
   locus: IV.61-64 (Constantine's deathbed baptism, npnf201 from line 67742)
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'Were the people of this world "born again"? They would have pointed to baptism - and they took

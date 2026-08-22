@@ -40,7 +40,10 @@ concedes: 'The CLAIM itself is Documented beyond doubt - continuous, datable, in
   on the record: the Tome received with honor, appeals genuinely directed to Rome. What the record does
   not show is uncontested, universal reception - and this build states the claim''s strength and its
   contestation together, or not at all.'
-divergence_partners: []
+divergence_partners:
+- the modern Roman Catholic papacy's own claimed unbroken lineage from this window's Petrine claim
+- modern historical scholarship reading the same window as a developing discourse, not yet settled papal
+  authority (Demacopoulos 2013)
 ---
 Rebuilt from the reviewed Doc_06 SS3's primatus CT entry (Contest Type:
 Relationship to present-day traditions) plus Doc_02 SS2's Leo Author

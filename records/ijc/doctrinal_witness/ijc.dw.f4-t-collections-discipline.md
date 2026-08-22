@@ -18,7 +18,7 @@ sources:
   locus: Sermon IX ("Upon the Collections, IV"); Sermon X ("On the Collections, V")
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'Did we tithe, and how did we decide what to give? This world had a real giving discipline, preached

@@ -5,8 +5,7 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells:
-- F5-E
+canon_cells: []
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -29,3 +28,8 @@ contemporary's entire notice - two sentences, from a man who had worked
 in Damasus's own chancery. The build's best quotable witness to the
 verse-inscription program, since no public-domain English of the
 epigrams themselves exists (ijc.search.damasus-epigrams-english).
+Corrected at review (Opus canon-structure pass, 2026-08-21): canon_cells
+emptied - this quote names no inscription, archaeology, or evidential
+method, so an F5-E tag was a loose association; its real and sole job
+is corroborating ijc.figure.damasus (F5-E stays covered by
+ijc.term.basilica and ijc.term.martyrium).

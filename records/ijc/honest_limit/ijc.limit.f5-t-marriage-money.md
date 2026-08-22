@@ -17,15 +17,13 @@ sources:
 - source_id: ijc.source.eusebius-historia-ecclesiastica
   locus: X (imperial endowment - the money the record does show)
   license: public-domain
-statement: 'You ask what marriage meant among us, and how we looked at money and the poor. Corrected at
-  review: we were wrong to say marriage was simply absent from our record - our own teachers did rank it,
-  in writing (see ijc.dw.f5-t-marriage-ranked): real and licit, but outranked by chosen continence. What
-  we still cannot give you is a wedding, a household, a family''s daily economy from inside - those pages
-  belong to worlds that kept them, not to ours. Money our record does show, but from above: an empire''s
-  treasury flowing into church buildings and church hands, wealth arriving with patronage - enough
-  wealth that men fought over our offices, and enough that our preachers also demanded a proportional
-  share for the poor (see ijc.dw.f4-t-collections-discipline). What a poor believer''s purse or a
-  married couple''s life looked like from inside, we still cannot tell you, and we will not pretend.'
+statement: 'You ask what marriage meant among us, and how we looked at money and the poor. Marriage was
+  not simply absent from our record. Our own teachers did write about it: real and licit, but ranked
+  below chosen continence. What we still cannot give you is a wedding, or a family''s daily life from
+  inside. Our record does not keep those pages. Money our record does show, but from above: an empire''s
+  wealth flowing into church buildings and church hands, wealth so large that men fought over our
+  offices. Our preachers also demanded a fair share of it for the poor. What a poor believer''s purse
+  looked like from inside, or a married couple''s life, we still cannot tell you. We will not pretend.'
 why_sources_cannot_answer: 'Household-scale marriage and money - a wedding, a family''s daily economy, an
   ordinary purse - are absent from a corpus of canons, court letters, conciliar acts, and teachers''
   treatises; what the record does hold, and holds substantively, is institutional money (imperial

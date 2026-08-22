@@ -28,9 +28,9 @@ relations:
 - {type: illustrated-by, target: ijc.story.emperor-penance}
 - {type: illustrated-by, target: ijc.story.callinicum-synagogue}
 - {type: illustrated-by, target: ijc.quote.ambrose-emperor-in-church}
-- {type: associated-with, target: ijc.gravity.church-state-alliance}
+- {type: tension-with, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
-- {type: associated-with, target: ijc.gravity.orthodoxy-enforcement}
+- {type: tension-with, target: ijc.gravity.orthodoxy-enforcement}
 - {type: associated-with, target: ijc.gravity.sacramental-institutional-tension}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 - {type: associated-with, target: ijc.force.inherited-episcopal-church}
@@ -60,8 +60,14 @@ does not persist as an independent claim-making stream to 451 - while
 Formation passes strongest of any candidate within its bounded window;
 no Cross-Check divergence). Strand-bound to Strand C. The asymmetric
 matrix relationships (4 reinforces 1 without a comparable back-edge; 4
-reshapes 2 and 3) are encoded as symmetric associated-with edges with
-the asymmetry documented here: Strand A later absorbs Ambrose's
+reshapes 2 and 3) are encoded with the asymmetry documented here rather
+than in the relation type itself, since the closed vocabulary has no
+directional "reshapes" edge: the reinforcing 4→1 relationship stays
+associated-with (corrected at review, Opus canon-structure pass,
+2026-08-21: the reshaping 4↔2 and 4↔3 relationships are now tension-with,
+not the flattened associated-with this record previously used, which
+had re-introduced the ambiguity Doc_04's own matrix correction removed).
+Strand A later absorbs Ambrose's
 demonstrated leverage into its own confidence without adopting the
 sacramental ground (Doc_01 SS4). Forces per Doc_08: the ecological
 product of 2A-1 (the still-functioning Homoian court) meeting 1B-1's

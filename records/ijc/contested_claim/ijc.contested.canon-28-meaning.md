@@ -36,7 +36,11 @@ concedes: 'The underlying political-geographic fact is not contested by anyone: 
   reigning capital, the councils DID meet in or near it, and the empire''s ecclesiastical weight had
   really moved east. The contest is over what that fact can rightly ground - and the world closed without
   settling it.'
-divergence_partners: []
+divergence_partners:
+- modern Eastern Orthodoxy's own self-understanding of Constantinople's historic rank as ecumenical
+  patriarchate, descending from this canon
+- the Roman Catholic position that ecclesiastical rank never followed civil rank, carried unbroken from
+  Leo's own rejection
 ---
 Rebuilt from the reviewed Doc_06 SS3's presbeia CT entry (Contest Type:
 Meaning) and Doc_02 SS8 (Contested tier). All three instruments

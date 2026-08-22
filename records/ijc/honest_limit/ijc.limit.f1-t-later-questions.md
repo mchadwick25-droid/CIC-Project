@@ -19,9 +19,8 @@ sources:
   license: public-domain
 statement: 'You ask whether we thought people were saved by faith alone, apart from works. That
   particular framing - faith set against works as the terms of a live dispute - is a later age''s battle
-  line, and our record does not fight on it in those terms. Corrected at review: we were wrong to say
-  the same of original sin or of what the bread and cup are - our own record engages both directly (see
-  ijc.dw.f1-t-original-sin-transmitted, ijc.dw.f1-t-bread-made-body). Faith-versus-works, specifically,
+  line, and our record does not fight on it in those terms. Ask us instead about original sin, or about
+  what the bread and cup are - our own record engages both directly. Faith-versus-works, specifically,
   was never put to us in your terms, and we will not invent an answer our own sources did not give.'
 why_sources_cannot_answer: 'The faith-alone/works question is a Reformation-era formulation (Pauline
   grace-versus-law material exists in the record''s own quotations of Paul, but never framed as a

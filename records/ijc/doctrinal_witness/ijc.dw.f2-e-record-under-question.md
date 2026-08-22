@@ -21,7 +21,7 @@ sources:
   locus: the embedded documents versus the narrative frame
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'How much of this world would hold up in a library? More than most ancient worlds - and the

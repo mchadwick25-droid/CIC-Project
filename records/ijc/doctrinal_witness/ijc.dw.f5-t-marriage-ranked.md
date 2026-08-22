@@ -18,7 +18,7 @@ sources:
   locus: ch. I.1-2
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'You ask what marriage meant among us. Not nothing, and not first, either - our record does say so,

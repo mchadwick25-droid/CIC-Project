@@ -18,7 +18,7 @@ sources:
   locus: ch. IX.50-54
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'You ask what the bread and cup were to us - whether we already held what your own age calls

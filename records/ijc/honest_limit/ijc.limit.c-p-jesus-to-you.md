@@ -21,15 +21,22 @@ statement: 'You ask who Jesus was to us - not to our councils, to us. We must be
   keeps the church''s public words about him, not its private ones. We can tell you what men were
   exiled rather than unsay. We cannot show you one ordinary heart''s own answer, because no one kept
   those pages.'
-why_sources_cannot_answer: The surviving corpus is doctrinal, juridical, and administrative - creeds,
+why_sources_cannot_answer: 'The surviving corpus is doctrinal, juridical, and administrative - creeds,
   canons, letters between office-holders. Personal devotion to Jesus certainly existed (men do not
   accept exile over words that mean nothing to them), but no first-person devotional testimony from
-  an ordinary believer survives in this world's own base; the nearest things are public instruments
-  and public worship glimpsed once, under siege.
+  an ordinary believer survives in this world''s own base; the nearest things are public instruments
+  and public worship glimpsed once, under siege. Added at review (Opus canon-structure pass,
+  2026-08-21): Leo''s own Nativity preaching comes closer than anything else in the record to a direct
+  address on "would Jesus have wanted anything to do with someone like me" - "let the sinner be glad
+  in that he is invited to pardon; let the gentile take courage in that he is called to life" (Sermon
+  XXI.I) is preached, second/third-person invitation, not private testimony, but it is this world''s
+  own closest approach to that question and is added as nearest_material below rather than left
+  unfound.'
 nearest_material:
 - ijc.dw.c-i-jesus
 - ijc.story.vigil-in-basilica
 - ijc.story.emperor-penance
+- ijc.source.leo-sermons
 ---
 C-P held as an honest limit rather than manufactured interiority: the
 personal-register center question is exactly where the office-holder

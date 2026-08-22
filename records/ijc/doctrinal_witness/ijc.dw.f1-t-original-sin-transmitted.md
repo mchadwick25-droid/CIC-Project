@@ -18,7 +18,7 @@ sources:
   locus: Ep. LIX.4 (to the clergy and people of Constantinople)
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'You ask whether we thought people were born already guilty. Yes - and this world''s own record

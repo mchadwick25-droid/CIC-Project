@@ -21,7 +21,7 @@ sources:
   locus: Ep. CV (to Pulcheria Augusta, addressed as the convening power for a new council)
   license: public-domain
 retrieval:
-  tier: 2
+  tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'Could a woman carry real authority among us, and what did it cost her? Yes, twice, on the record''s
