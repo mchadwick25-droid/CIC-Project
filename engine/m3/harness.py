@@ -18,8 +18,17 @@ class ProbeResult:
     error: str | None = None
 
 
-def run_battery(world_key: str, records: dict[str, dict]) -> list[ProbeResult]:
-    answerer = FixtureRecordAnswerer(records)
+def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> list[ProbeResult]:
+    """answerer defaults to FixtureRecordAnswerer(records) - the
+    deterministic, no-model battery every existing caller (this module's
+    own selftest included) still gets unchanged. Pass a real
+    engine.m3.generation.LiveModelAnswerer instance to run the identical
+    battery/masking/grading pipeline against a real generation call
+    instead - the caller who builds and passes that answerer is the one
+    who holds the spend authorization, not this function; run_battery
+    itself makes no model-provider decision either way."""
+    if answerer is None:
+        answerer = FixtureRecordAnswerer(records)
     known_source_ids = {r["id"] for r in records.values() if r.get("record_type") == "source"}
     known_quote_texts = {r["text"] for r in records.values() if r.get("record_type") == "quote" and r.get("text")}
 
@@ -28,7 +37,7 @@ def run_battery(world_key: str, records: dict[str, dict]) -> list[ProbeResult]:
         probe_id, cell = seal["probe_id"], seal["cell"]
         probe = sealed_probes.read_probe(probe_id)
         try:
-            answer = answerer.answer(cell)
+            answer = answerer.answer(cell, probe["text"])
         except NoCoverageError as e:
             results.append(ProbeResult(probe_id=probe_id, cell=cell, passed=False, checks=[], error=str(e)))
             continue

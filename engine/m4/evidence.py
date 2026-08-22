@@ -41,6 +41,8 @@ from engine.m1.gates_experimental import _all_text, _content_words
 from engine.m4.grounding_net import scope_completion
 
 __all__ = [
+    "repository_records_by_id",
+    "thin_topics_for",
     "match_asks_to_cells",
     "select_cell_candidates",
     "scope_completion",
@@ -48,7 +50,47 @@ __all__ = [
     "apply_session_exclusion",
     "assemble_evidence",
     "render_evidence_block",
+    "FLEET_FLOOR_LINE",
+    "degradation_statement",
 ]
+
+# Fork 2 (LIVE-GENERATION-DESIGN.md §9.5: RULED, in-voice honest-limit
+# statement, code-appended) - same "appended by CODE, never recalled by a
+# model" precedent as engine.m4.crisis_resources.ACUTE_DISTRESS_RESOURCES,
+# for the one case that precedent doesn't cover: no cell matched this turn
+# at all, or the matched cell carries no honest_limit record to speak
+# instead. Same craft-pass caveat crisis_resources.py states about its own
+# text: real, honest, correct, NOT yet a Mark-approved participant-facing
+# line - flag again before any world that opens ships this literal text.
+# Owned here (not engine.m4.turn, where it originated) because both a live
+# participant turn and engine.m3's LiveModelAnswerer degrade the same way,
+# off the same turn_evidence shape - one fallback, owned once.
+FLEET_FLOOR_LINE = (
+    "We don't have grounded material of our own for that. Ask us something else "
+    "about what our own record actually holds, and we'll answer from it."
+)
+
+
+def repository_records_by_id(world_repository: dict) -> dict[str, dict]:
+    """A LoadedWorld's compiled/repository.json, keyed by id - the shape
+    every stage here and grounding_net.check_turn actually want."""
+    return {r["id"]: r for r in world_repository["records"]}
+
+
+def thin_topics_for(repository_records: dict[str, dict]) -> list[dict] | None:
+    core = next((r for r in repository_records.values() if r.get("record_type") == "world_core"), None)
+    return (core or {}).get("thin_topics")
+
+
+def degradation_statement(turn_evidence: dict) -> str:
+    """The matched cell's own honest_limit record - real, reviewed,
+    already-compiled content, Stage B's own unconditional include (see
+    _TYPE_FLOORS below) - when this turn matched one, else the fleet
+    floor line above."""
+    for candidate in turn_evidence.get("candidates", []):
+        if candidate["record_type"] == "honest_limit":
+            return candidate["head"]
+    return FLEET_FLOOR_LINE
 
 # A cell match needs at least this many shared content words with the
 # query before it's named at all - one shared word ("church", "world") is

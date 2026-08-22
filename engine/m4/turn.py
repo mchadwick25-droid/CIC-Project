@@ -62,19 +62,6 @@ from engine.m5.failure import CallOutcome, resolve_gate
 from engine.m5.routing import Directive
 from engine.m8.usage import UsageRecord, record_usage
 
-# Fork 2 (LIVE-GENERATION-DESIGN.md §9.5: RULED, in-voice honest-limit
-# statement, code-appended) - same "appended by CODE, never recalled by a
-# model" precedent as engine.m4.crisis_resources.ACUTE_DISTRESS_RESOURCES,
-# for the one case that precedent doesn't cover: no cell matched this turn
-# at all, or the matched cell carries no honest_limit record to speak
-# instead. Same craft-pass caveat crisis_resources.py states about its own
-# text: real, honest, correct, NOT yet a Mark-approved participant-facing
-# line - flag again before any world that opens ships this literal text.
-_FLEET_FLOOR_LINE = (
-    "We don't have grounded material of our own for that. Ask us something else "
-    "about what our own record actually holds, and we'll answer from it."
-)
-
 
 class UnhandledRoutingAction(NotImplementedError):
     """A real, tested routing outcome with no turn content wired up yet -
@@ -121,15 +108,6 @@ def _build_voice_system_prompt(world: LoadedWorld, directive: Directive | None) 
     return "\n".join(parts)
 
 
-def _repository_records(world: LoadedWorld) -> dict[str, dict]:
-    return {r["id"]: r for r in world.repository["records"]}
-
-
-def _thin_topics(repository_records: dict[str, dict]) -> list[dict] | None:
-    core = next((r for r in repository_records.values() if r.get("record_type") == "world_core"), None)
-    return (core or {}).get("thin_topics")
-
-
 def _apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
     """The deterministic net (engine.m4.grounding_net.check_turn) over one
     turn's raw tagged output: withheld sentences never reach the returned
@@ -151,18 +129,6 @@ def _apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topic
     return text, citations, net_result
 
 
-def _degradation_statement(turn_evidence: dict) -> str:
-    """Fork 2 (RULED, in-voice honest-limit statement, code-appended): the
-    matched cell's own honest_limit record - real, reviewed, already-
-    compiled content, Stage B's own unconditional include (see
-    engine.m4.evidence._TYPE_FLOORS) - when this turn matched one, else
-    the fleet floor line above."""
-    for candidate in turn_evidence.get("candidates", []):
-        if candidate["record_type"] == "honest_limit":
-            return candidate["head"]
-    return _FLEET_FLOOR_LINE
-
-
 def _run_ordinary_voice_turn(
     *,
     voice_client,
@@ -174,8 +140,8 @@ def _run_ordinary_voice_turn(
     already_told_ids: set[str] | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     usage_records = []
-    repository_records = _repository_records(world)
-    thin_topics = _thin_topics(repository_records)
+    repository_records = evidence.repository_records_by_id(world.repository)
+    thin_topics = evidence.thin_topics_for(repository_records)
 
     # EVIDENCE ASSEMBLY (design §3, engine.m4.evidence) - deterministic,
     # no model call, rides in the per-turn user message (never the cached
@@ -216,7 +182,7 @@ def _run_ordinary_voice_turn(
         # text); this is step 2's own escalation - nothing substantive
         # survived at all, so the turn degrades to the honest-limit floor,
         # appended by code, never regenerated, never a human edit.
-        fallback = _degradation_statement(turn_evidence)
+        fallback = evidence.degradation_statement(turn_evidence)
         answer_text = f"{answer_text} {fallback}".strip() if answer_text else fallback
 
     do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
@@ -308,9 +274,9 @@ def run_turn(
                 # append-decision below (stream_failed stays False - the
                 # call itself succeeded - but empty_stream is judged on
                 # stream_text, same as always).
-                repository_records = _repository_records(world)
+                repository_records = evidence.repository_records_by_id(world.repository)
                 stream_text, _citations, _net_result = _apply_net(
-                    stream_outcome.value.text, repository_records=repository_records, thin_topics=_thin_topics(repository_records)
+                    stream_outcome.value.text, repository_records=repository_records, thin_topics=evidence.thin_topics_for(repository_records)
                 )
                 stream_failed = False
                 if stream_text.strip():
