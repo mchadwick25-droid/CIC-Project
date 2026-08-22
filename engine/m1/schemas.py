@@ -168,6 +168,17 @@ TYPE_PROPERTIES: dict[str, dict] = {
             "additionalProperties": False,
         },
         "quick_meaning": {"type": "string"},
+        # Severity marker for senses.translational's own gap - lets a
+        # reviewer or future tooling spot the highest-risk terms without
+        # parsing prose (Glossary/Story/Quote Template SS1). Not yet in
+        # COMPLETION_REQUIRED; existing term records validate unchanged
+        # without it.
+        "distortion_risk": {"enum": ["low", "medium", "high"]},
+        # The word's OWN older/ordinary sense before this world's
+        # community repurposed it - distinct from false_friend (modern
+        # concepts projected backward). Optional: many world_words are
+        # coinages with no meaningful prior secular sense to record.
+        "prior_sense": {"type": "string"},
     },
     "story": {
         "narrative_tier": {"type": "integer"},
@@ -175,11 +186,19 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "tellable_as": {"type": "string"},
         "text": {"type": "string"},
         "absent_detail": {"type": "string"},
+        # Story's own version of term's senses.translational (Glossary/
+        # Story/Quote Template SS2) - not yet in COMPLETION_REQUIRED;
+        # existing story records validate unchanged without it.
+        "modern_contrast": {"type": "string"},
     },
     "quote": {
         "text": {"type": "string"},
         "speaker_or_author": {"type": "string"},
         "license": {"enum": ["verbatim", "paraphrase-only", "do-not-voice"]},
+        # Quote's own version of term's senses.translational (Glossary/
+        # Story/Quote Template SS3) - not yet in COMPLETION_REQUIRED;
+        # existing quote records validate unchanged without it.
+        "modern_lens_note": {"type": "string"},
     },
     "figure": {
         "names": {
@@ -199,12 +218,30 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "name": {"type": "string"},
         "description": {"type": "string"},
         "manifestations": {"type": "array", "items": {"type": "string"}},
+        # Structured mirror of what every world so far has embedded as
+        # free text in `name` (e.g. "[TENSIONAL]", "[PRIMARY - C2]") -
+        # format already drifted across worlds (bracket contents mean
+        # rationale in one, a cell code in another, a scope qualifier in
+        # a third; one world uses a comma where the others use a dash).
+        # `gate_tension_coverage`'s own regex still catches every variant
+        # via a loose prefix match, so nothing is currently broken - this
+        # is a durability fix, not a bug fix. Not yet in
+        # COMPLETION_REQUIRED; existing gravity records validate
+        # unchanged without it. `name` keeps its bracket for display;
+        # this field is what a gate or future tool should actually read.
+        "classification": {"enum": ["primary", "supporting", "tensional"]},
     },
     "force": {
         "name": {"type": "string"},
         "kind": {"enum": ["initiating", "ongoing", "ending"]},
         "description": {"type": "string"},
         "manifestations": {"type": "array", "items": {"type": "string"}},
+        # Structured mirror of the six-cell forces matrix code every
+        # world has also been embedding as free text in `name` (e.g.
+        # "[1B - initiating/internal]", "[3A - ending/external; distal
+        # terminal]") - same drift risk as gravity.classification above.
+        # Not yet in COMPLETION_REQUIRED.
+        "matrix_cell": {"enum": ["1A", "1B", "2A", "2B", "3A", "3B"]},
     },
     "contested_claim": {
         "claim": {"type": "string"},

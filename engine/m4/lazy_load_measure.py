@@ -1,6 +1,6 @@
 """Stage-5 gate item: "lazy world load/unload measured." Runs the real
-LazyWorldLoader against the REAL committed fixture package (records/
-worlds.yaml's registered manifest hash, packages/fix/2026-08-20T20-47-35Z/)
+LazyWorldLoader against the REAL committed fixture package (whichever
+package_dir/manifest_hash records/worlds.yaml currently registers for "fix")
 and records real wall-clock timings for: a cold load (disk read + hash
 verification), a warm load (cache hit, no disk read), an unload, and a
 second cold load (proving unload actually evicted rather than being a

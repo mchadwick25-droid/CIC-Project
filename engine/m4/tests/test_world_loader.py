@@ -1,6 +1,6 @@
 """Hermetic (no live model call) tests for the lazy world loader, run
-against the REAL committed fixture package (packages/fix/2026-08-20T20-47-35Z/,
-records/worlds.yaml's registered manifest hash) - not a synthetic fixture of
+against the REAL committed fixture package (whichever package_dir/manifest_hash
+records/worlds.yaml currently registers for "fix") - not a synthetic fixture of
 its own, since the whole point is proving the loader against a real,
 previously-compiled package."""
 from pathlib import Path

@@ -12,8 +12,8 @@ worlds:
     state: built            # gates green (stage 1) + a compiled package (stage 2); never advances past built - not a real world, never admitted or open
     census_id: null        # not an Atlas entry - synthetic only
     package:
-      manifest_hash: "sha256:a3d760008cab4effbd4a41174e015e15acb489d5328ac9fd42556bf9369ee428"
-      location: "packages/fix/2026-08-20T20-47-35Z"
+      manifest_hash: "sha256:568bbfb7a4b072382ebe7c5810971b4e9860375bb29b471b3a858f7ce156f0fc"
+      location: "packages/fix/2026-08-22T03-27-40Z"   # recompiled: the prior package (2026-08-20T20-47-35Z) had drifted stale against e8f45887 ("Fix Representative voice: I -> we, remove individual-lifetime framing"), which edited fix.demo.core-testimony/identity-collision and three fix honest_limit records without a recompile - caught by the M2 staleness sweep. Records unchanged by this commit; recompile only.
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
   pahc:
@@ -27,3 +27,14 @@ worlds:
     package: null           # no compiled package yet - this build stops before step 6
     thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
     living_tradition_flag: true   # prior-framework determination confirmed by Mark (2026-07-31): universal descent - every later church looks back to rooms like these - with a strict non-identity discipline (this is a bounded historical reconstruction, not any present-day church's self-account). Carried forward with re-confirmation under the new spec pending; the doorway carries the distinction meanwhile (fail toward disclosure).
+  hal:
+    world_id: hieronymian-ascetic-literary
+    display_name: "Hieronymian Ascetic-Literary Christianity"
+    time_window: {start: 382, end: 420}
+    place: "Bethlehem and Rome"
+    representative: {name: Albina, role_label: "Widow of the Household"}   # Mark's ruling (2026-08-22), step-5a touchpoint (Build-Blueprint SS4): a voice of the Bethlehem circle speaking as a widow of the household - formed by renunciation and by the scholarly labor of testing Scripture's Latin words against the Hebrew they were first given in, carrying this circle's whole life, from Rome to Bethlehem. Deliberately not one of this corpus's documented named figures (Marcella, Paula, Eustochium, Fabiola, et al.) - a sanctioned Representative voice per spec principle 14, kept distinct from their own verified quotes/stories. Supersedes the prior framework's preliminary decision (hal_Representative_Identity_Preliminary_Decision.md), which was NOT carried into the new spec. Voice build (voice_craft + demonstration) drafted and adversarially reviewed on this branch; compile (step 6) not yet attempted.
+    state: building         # step 2-5 in progress (content canon + Representative voice_craft/demonstration drafted and reviewed); compile (step 6) intentionally not attempted (pending the live-generation citation-and-grounding design)
+    census_id: "hieronymian-ascetic-literary"   # cic-website/data/world-census.json entry id (atlasId "I.9") - the census entry's own id field is what the Atlas deep link sends (per the alx verification of atlas-v3.html's data-aid wiring); matches this world's world_id independently
+    package: null           # no compiled package yet - step 6 not attempted
+    thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
+    living_tradition_flag: true   # PROVISIONAL, set toward disclosure (spec principle 6): the living-tradition determination is Mark's per-world touchpoint and has not been made for this world under the new spec. Substance: this is a bounded historical reconstruction of one specific 382-420 network, not today's church of any name - but Jerome, the Vulgate, and Latin monasticism are all claimed inheritances of living traditions (Roman Catholic above all), so until Mark rules, the doorway should carry the distinction rather than omit it. Flipping to false is Mark's call, not the build thread's.
