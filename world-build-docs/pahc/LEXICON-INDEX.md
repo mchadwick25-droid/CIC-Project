@@ -16,7 +16,7 @@
 | pahc.term.ministrae | ministrae (Pliny's word, not the community's own) | 2 | F5-I, F6-E, F6-P | Documented | load-bearing | YES (pliny-letters) | associated-with→diakonos; associated-with→hetaeria; associated-with→pertinacia |
 | pahc.term.presbyterion | presbyterion | 2 | F3-I | Documented | corroborating | YES (ignatius-letters) | presupposes→episkopos; associated-with→presbyteros |
 | pahc.term.prophetes | prophetes | 2 | F3-I, F1-E | Documented | corroborating | YES (didache) | tension-with→episkopos; associated-with→diakonos |
-| pahc.term.two-ways | the Two Ways | 2 | F4-I | Documented | load-bearing | no (2 sources) | associated-with→baptisma |
+| pahc.term.two-ways | the Two Ways | 2 | F4-I | Documented | load-bearing | no (2 sources) | associated-with→baptisma; associated-with→pahc.story.two-ways-catechumen |
 | pahc.term.hetaeria | hetaeria (a Roman legal-administrative word, not the community's own) | 3 | F3-I | Inferential-Thin | illustrative | YES (pliny-letters) | associated-with→pertinacia; associated-with→ministrae; associated-with→agape-label |
 | pahc.term.pertinacia | pertinacia (the magistrate's word, not the community's own) | 3 | F3-I | Inferential-Thin | illustrative | YES (pliny-letters) | associated-with→hetaeria; associated-with→ministrae |
 
