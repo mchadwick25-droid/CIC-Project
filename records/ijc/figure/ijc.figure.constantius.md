@@ -14,7 +14,8 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.socrates-he
-  locus: II (the Homoian councils and depositions of his reign)
+  locus: II (his reign's church history - the broader anti-Nicene "Eusebian" depositions of the 340s-350s,
+    then the specifically Homoian councils and settlement from 357 onward)
   license: public-domain
 - source_id: ijc.source.hilary-de-synodis
   locus: the creed formulae of his reign's councils

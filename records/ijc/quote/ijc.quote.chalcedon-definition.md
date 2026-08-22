@@ -18,8 +18,8 @@ sources:
 - source_id: ijc.source.chalcedon-acts
   locus: the Definition (npnf214 lines 20280-20298)
   license: public-domain
-text: This one and the same Jesus Christ, the only-begotten Son of God must be confessed to be in two
-  natures, unconfusedly, immutably, indivisibly, inseparably united, and that without the distinction
+text: This one and the same Jesus Christ, the only-begotten Son [of God] must be confessed to be in two
+  natures, unconfusedly, immutably, indivisibly, inseparably [united], and that without the distinction
   of natures being taken away by such union, but rather the peculiar property of each nature being
   preserved and being united in one Person and subsistence, not separated or divided into two persons,
   but one and the same Son and only-begotten, God the Word, our Lord Jesus Christ.
@@ -28,9 +28,15 @@ license: verbatim
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (the
-edition's editorial brackets "[Person]", "[of God]", "[united]" omitted
-per its own bracket conventions). The window's last and fullest
-precision-work: four adverbs holding two natures in one Person - the
-settlement that received the Tome and did not, in the event, hold the
-whole church.
+Text verified verbatim against the vendored file 2026-08-21. Corrected
+at review (Opus quote-fidelity pass, 2026-08-21): the edition's own
+square brackets within this quoted span, "[of God]" and "[united]",
+mark words supplied by the translator that are part of the printed
+Definition itself - kept here, brackets included, rather than silently
+unbracketed as the first-pass draft did. "[Person]" is a third
+editorial bracket in this same Definition, but it falls earlier in the
+paragraph, outside this record's quoted span, and was wrongly named
+here in the first-pass note as if it were inside it. The window's last
+and fullest precision-work: four adverbs holding two natures in one
+Person - the settlement that received the Tome and did not, in the
+event, hold the whole church.

@@ -30,7 +30,8 @@ time_window:
   end: 451
 horizon: 'Rome, Constantinople, and Milan, c. 312-451 CE: the formation of Christianity as claimant,
   instrument, and contested partner of Roman imperial and juridical power - from Constantine''s alliance
-  with the church after the Milvian Bridge (312) and the Edict of Milan (313), through Ambrose of Milan''s
+  with the church after the Milvian Bridge (312) and the toleration agreement conventionally called the
+  Edict of Milan (313), through Ambrose of Milan''s
   confrontations with emperors, to the Roman see''s consolidation of jurisdictional primacy under Damasus
   through Leo I, closing at the Council of Chalcedon (451) - the last council of the window at which a
   still-nominally-unified imperial church legislates as though universal consensus were achievable.'

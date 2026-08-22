@@ -19,16 +19,21 @@ sources:
   license: public-domain
 text: Constantine was directed in a dream to cause the heavenly sign to be delineated on the shields
   of his soldiers, and so to proceed to battle. He did as he had been commanded, and he marked on their
-  shields the letter X, with a perpendicular line drawn through it and turned round thus at the top,
+  shields the letter Χ, with a perpendicular line drawn through it and turned round thus at the top,
   being the cipher of Christ.
 speaker_or_author: "Lactantius, De Mortibus Persecutorum"
 license: verbatim
 relations:
 - {type: illustrates, target: ijc.story.dream-before-battle}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (the Greek
-letter chi rendered "X" as the transcription itself carries it, with
-its description kept). The earlier of the two conversion accounts - a
+Text verified verbatim against the vendored file 2026-08-21. Corrected
+at review (Opus quote-fidelity pass, 2026-08-21): the file prints the
+actual Greek letter chi (Χ, U+03A7), not a Latin "X" - this record had
+silently substituted the Latin letter without disclosing the
+substitution. The Greek character is now reproduced as printed; the
+file also shows the fuller Chi-Rho ("ΧР") that follows in the same
+sentence, not quoted here since this record's span ends at "Christ."
+The earlier of the two conversion accounts - a
 dream, the night before, on the shields - written within a few years of
 the event by a Christian at court. Not reconcilable in detail with
 Eusebius's mid-day vision; see ijc.contested.constantine-conversion.

@@ -44,10 +44,11 @@ tellable_as: Leo's Tome at Chalcedon, and the canon he would not receive - the w
 text: 'Leo did not go to Chalcedon; his letter went in his place. When the Tome was read to the assembled
   bishops, the session record has them crying out: This is the faith of the fathers - Peter has spoken
   thus through Leo. A letter received, by those who received it rightly, as the see of Peter speaking.
-  But the same council, before it dispersed, also granted Constantinople rank next after Rome - not
-  because an apostle had ever taught there, but, in the canon''s own words, because the fathers rightly
-  granted privileges to old Rome as the royal city, and the new royal city should be magnified as she
-  is. Leo''s legates objected in the council itself. Leo, when word reached him, refused to receive it,
+  But the same council, before it dispersed, also granted Constantinople equal privileges with old Rome,
+  rank next after her, and the right to ordain the metropolitans of three dioceses - not because an
+  apostle had ever taught there, but, in the canon''s own words, because the fathers rightly granted
+  privileges to old Rome as the royal city, and the new royal city should be magnified as she is. Leo''s
+  legates objected in the council itself. Leo, when word reached him, refused to receive it,
   and wrote to emperor, empress, and bishop alike why: things secular stand on a different basis from
   things divine - rank near a throne is not the kind of claim an apostle''s grave makes, and no vote
   can make the two the same claim. So the council that settled, at last, who Christ is, left standing

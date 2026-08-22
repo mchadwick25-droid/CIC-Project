@@ -24,10 +24,12 @@ names:
 dates:
   born: unknown
   died: '352'
-  floruit: bishop of Rome 337-352; the letter to the Eusebian party 341
+  floruit: bishop of Rome 337-352; the letter to the Eusebian party (the anti-Nicene faction named for
+    Eusebius of Nicomedia, not Eusebius of Caesarea the historian) 341
 narratable: true
 bridge_line: the bishop of Rome who wrote, a generation before Damasus, as though Rome's review of another
-  church's judgment were ancient custom - the primacy claim's earliest surviving voice
+  church's judgment were ancient custom - this world's own window's earliest surviving voice of the claim
+  (earlier Roman assertions exist outside it - Victor c.190, Stephen 256 - not this world's own material)
 ---
 Strand A's earliest attested claimant. His one load-bearing document
 survives only inside Athanasius's Apologia (doubly mediated - Julius's

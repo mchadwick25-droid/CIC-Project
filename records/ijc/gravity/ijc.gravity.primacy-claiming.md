@@ -43,8 +43,9 @@ relations:
 name: Juridical Primacy-Claiming [PRIMARY]
 description: 'The drive to fix a see''s standing as a matter of enforceable right, not mere honor - recurring
   in an unbroken evidentiary chain across the whole window: Julius asserting Rome''s authority to review
-  the Eusebian party''s judgment against Alexandria''s own bishop (341), Damasus building the claim into
-  stone at the martyr shrines, Leo stating
+  the Eusebian party''s (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of
+  Caesarea the historian) judgment against Alexandria''s own bishop (341), Damasus building the claim
+  into stone at the martyr shrines, Leo stating
   it fully in Tome and letter, and the same underlying drive organizing the rival Constantinopolitan claim
   (Canon 3 of 381, Canon 28 of 451) on a different ground. Cross-strand: it holds in Strand A directly
   and, in a structurally parallel but substantively rival form, in Strand B - the divergence in grounding

@@ -17,6 +17,6 @@ query: "Ambrose of Milan's confrontation corpus in public-domain English (de Rom
 channel: "vendored-corpus survey (grep against cic/texts, 2026-08-21)"
 result: found
 found_sources: [ijc.source.ambrose-epistles, ijc.source.ambrose-sermo-contra-auxentium]
-note: "All the letters and the Sermon confirmed inside cic/texts/npnf210 (file lines in the source records). De obitu Theodosii is NOT in this volume - the emperor's-penance material therefore rests on Ep. 51 (contemporary) with Theodoret V.18 flagged as later dramatization. The Symmachus Memorial's presence closes the legacy build's own flagged Registry gap on the Altar of Victory controversy (Open_Gaps item 6)."
+note: "All the letters and the Sermon confirmed inside cic/texts/npnf210 (file lines in the source records). De obitu Theodosii is NOT in this volume - the emperor's-penance material therefore rests on Ep. 51 (contemporary) with Theodoret V.17 flagged as later dramatization. The Symmachus Memorial's presence closes the legacy build's own flagged Registry gap on the Altar of Victory controversy (Open_Gaps item 6)."
 ---
 Run as part of step 2 (source ecology).

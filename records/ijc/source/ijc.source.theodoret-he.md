@@ -37,7 +37,7 @@ his narrative - genuine synodical texts, distinct from the contested
 decretal corpus circulating under Damasus's name; (2) his NARRATIVE is
 the most openly polemical of the three historians toward Homoian
 material, writing after the Nicene settlement won, and his famous
-penance scene (V.18) is a generation-later dramatization - used only
+penance scene (V.17) is a generation-later dramatization - used only
 with Ambrose's own contemporary letters (Ep. 51) carrying the
 documentary weight. His own later condemnation (553) concerns his
 anti-Cyrilline works, not this History's transmission.

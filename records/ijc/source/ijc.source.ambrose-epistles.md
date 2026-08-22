@@ -40,4 +40,4 @@ Registry gap on the Altar of Victory controversy (Open_Gaps item 6).
 
 Note: this volume does not contain De obitu Theodosii; the emperor's-
 penance material rests on Ep. 51 (contemporary, Ambrose's own demand)
-with Theodoret V.18 (later dramatization) flagged as such.
+with Theodoret V.17 (later dramatization) flagged as such.

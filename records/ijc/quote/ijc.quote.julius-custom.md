@@ -29,6 +29,8 @@ relations:
 Text verified verbatim against the vendored file 2026-08-21 (the quoted
 sentence ends without terminal punctuation at the clause the edition's
 own footnote interrupts; quoted through "from this place"). The
-primacy claim's earliest surviving voice - already appealing to
+primacy claim's earliest surviving voice within this world's own
+window (earlier Roman assertions exist outside it - Victor c.190,
+Stephen 256 - not this world's own material) - already appealing to
 "custom," already contested by its recipients. Doubly mediated: Julius
 through Athanasius's quotation, stated wherever used.

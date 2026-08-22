@@ -42,9 +42,11 @@ text: 'Long before Damasus built in stone, before Leo wrote his Tome, the claim 
   the custom has been for word to be written first to us, and then for a just decision to be passed from
   this place? He had not attended their council. He wrote as though his absence were their defect. And
   the letter survives only because Athanasius himself, defending his own restored standing years later,
-  quoted it at length - Rome''s earliest claim, preserved not by Rome''s own hand but by the man it had
-  helped.'
-absent_detail: The Eusebian party's own letter to Julius - the one he was answering - does not survive
+  quoted it at length - this world''s own earliest surviving instance of the claim (Rome had asserted
+  standing before this, outside this world''s own window - Victor c.190, Stephen 256), preserved not by
+  Rome''s own hand but by the man it had helped.'
+absent_detail: The Eusebian party's own letter to Julius (the anti-Nicene faction named for Eusebius of
+  Nicomedia, not Eusebius of Caesarea the historian) - the one he was answering - does not survive
   independently; their side of the argument reaches the record only through their opponents. And whether
   the "custom" Julius appeals to was as ancient or as settled as he implies is exactly what his
   correspondents disputed; the record preserves the claim, not its acceptance.

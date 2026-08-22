@@ -58,10 +58,15 @@ text: 'The imperial court wanted a basilica - one of Milan''s churches, handed o
   from then till now, imitated, he says, by many, almost all, of the West''s congregations afterward. In
   the middle of it Ambrose preached the sentence this world kept: the emperor is within the Church, not
   above it. The court did not take the building.'
-absent_detail: No unnamed congregant's own account survives - the vigil's interior reaches the record
-  only through Augustine's memory and Ambrose's own interested telling; Justina's court's side of the
-  crisis exists only in its opponents' words; and how close the soldiers actually came to storming the
-  building cannot be known from inside the sources we have.
+absent_detail: 'No unnamed congregant''s own account survives - the vigil''s interior reaches the record
+  only through Augustine''s memory and Ambrose''s own interested telling; Justina''s court''s side of the
+  crisis exists only in its opponents'' words; and how close the soldiers actually came to storming the
+  building cannot be known from inside the sources we have. Also missing if told as a bare power grab:
+  the court''s demand followed a real imperial law (January 386, granting Homoian worship assembly) that
+  Ambrose''s own sermon on the crisis names and censures as "Auxentius'' cruel law" - a legal claim being
+  defied, not force without pretext (the law''s own text is not vendorable this build - see
+  ijc.search.theodosian-code-english - so it is referenced here at Documented via Ambrose''s own mention,
+  not quoted).'
 ---
 Rebuilt from the reviewed legacy Doc_09 story 4
 (Story-Chunks/ijcstory004) - the world's richest single narrative and

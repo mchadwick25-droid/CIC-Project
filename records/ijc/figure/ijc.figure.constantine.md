@@ -41,9 +41,12 @@ Lactantius, the vision in Eusebius) are carried at
 ijc.contested.constantine-conversion, never harmonized; his own claimed
 place in the church's order (the "bishop of those outside" remark) at
 ijc.contested.bishop-of-those-outside. Author-gravity caution on every
-Eusebian detail: the Vita is a posthumous panegyric with documented
-silences (Crispus and Fausta, 326, simply omitted - Barnes 1981 is the
-referenced treatment). His deathbed baptism was by Eusebius of
-Nicomedia, a Homoian-leaning bishop - a fact worth having exactly right
-if raised, and an early instance of the establishment's own doctrinal
-instability.
+every detail drawn from Eusebius of Caesarea's Vita (not to be
+confused with Eusebius of Nicomedia, named two sentences below - two
+different men sharing one name, the exact hazard
+ijc.figure.eusebius-caesarea exists to guard against): the Vita is a
+posthumous panegyric with documented silences (Crispus and Fausta, 326,
+simply omitted - Barnes 1981 is the referenced treatment). His deathbed
+baptism was by Eusebius of Nicomedia, a Homoian-leaning bishop - a fact
+worth having exactly right if raised, and an early instance of the
+establishment's own doctrinal instability.

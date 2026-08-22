@@ -28,11 +28,13 @@ text: 'What did this world have about Jesus? Not memory - inheritance. Three cen
   Jesus and this world''s window; no one here knew anyone who saw him. What it had was the scriptures,
   read in every church; the faith handed down and confessed at baptism; and the creed, which this world''s
   own councils built to guard exactly that inheritance against loss. When Chalcedon''s judges asked the
-  bishops to declare the faith, the answer was a chain of custody recited out loud: the rule of faith
-  set forth at Nicaea, confirmed at Constantinople, expounded by the fathers. How did they know the
-  resurrection happened? By the same route: witness received, tested, and held - the apostles'' testimony
-  carried in scripture and confession, not fresh evidence of their own. This world is honest about its
-  own kind of knowing: it guarded testimony; it could not add to it.'
+  council to declare the faith, it was Rome''s own legate, Paschasinus, who spoke first and recited the
+  chain of custody out loud: the rule of faith set forth at Nicaea, confirmed at Constantinople,
+  expounded at Ephesus by Cyril, shown by Leo''s own writings - and the assembled bishops then cried
+  out their assent together: so we all believe, so we were baptized, so we baptize. How did they know
+  the resurrection happened? By the same route: witness received, tested, and held - the apostles''
+  testimony carried in scripture and confession, not fresh evidence of their own. This world is honest
+  about its own kind of knowing: it guarded testimony; it could not add to it.'
 positions:
 - this world's access to Jesus is received witness - scripture and handed-down confession - not living
   memory
@@ -48,4 +50,9 @@ distinctive testimony about "what did you actually have" is inheritance
 consciously received and juridically guarded - the honest, datable
 answer of a fourth-century establishment, offered without pretending
 to first-century proximity it did not have. Session IV's recital
-verified in the vendored extract (npnf214 from line 20105).
+verified in the vendored extract (npnf214 from line 20105). Corrected
+at review (Opus historical-accuracy pass, 2026-08-21): the chain-of-
+custody recital itself was Rome's own legate Paschasinus speaking
+first, not the assembled bishops collectively - they respond afterward
+with a shorter collective acclamation of assent. The text field now
+attributes each part to its actual speaker.
