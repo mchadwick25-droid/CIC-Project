@@ -36,6 +36,8 @@ relations:
   target: desert.term.anachoresis
 - type: associated-with
   target: desert.gravity.elder-authority
+- type: associated-with
+  target: desert.figure.sarah
 plain_meaning: "Elder, father, mother. The honored address for a proven elder: abba for a man, amma for a woman. Their word carried teaching weight, though they held no office."
 world_word: geron / abba / amma
 false_friend:
@@ -65,3 +67,8 @@ sayings collection's organizing structure itself as evidence without
 naming that the structure is the later compilers' own arrangement -
 the one place in the lexicon where the compiler screen's own work
 product is offered as evidence unscreened. Added the caveat clause.
+
+Step3c: desert.figure.sarah added - the amma thinness this record's
+own evidential sense already names is made concrete there, for the one
+amma this corpus can currently trace to a specific, individually
+verified saying.

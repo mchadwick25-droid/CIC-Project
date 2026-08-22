@@ -10,8 +10,8 @@ confidence:
   citation_specificity: B
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
-  formation_confidence: Documented
-  divergence_note: "Documented for the founding date range, the federation's approximate scale at his death, and the Rule's existence and general content, as Palladius and Sozomen report it and as the Lives' cross-version-consistent outline gives it - not for incident-level detail specific to any one recension of the Lives, which remain genuinely debated among specialists (Rousseau, Veilleux) and are not adjudicated by this build."
+  formation_confidence: Widely Accepted
+  divergence_note: "Widely Accepted for the founding date range, the federation's approximate scale at his death, and the Rule's existence and general content, as Palladius and Sozomen report it and as the Lives' cross-version-consistent outline gives it - matching the prior build's cleared Doc_09a rating for the identical list, not upgraded to Documented against it. Not Widely Accepted for incident-level detail specific to any one recension of the Lives, which remain genuinely debated among specialists (Rousseau, Veilleux) and are not adjudicated by this build."
 sources:
 - source_id: desert.source.pachomian-corpus
   locus: "the founding narrative and the federation's own internal governance - vision, brother John, the Rule, the offices it names; incident-level Lives material used only where consistent across recensions, per this source's own standing discipline"
@@ -23,6 +23,8 @@ sources:
   license: public-domain
 - source_id: desert.source.rousseau-pachomius
   locus: "the standard critical study of the sources and community formation, consult-only"
+- source_id: desert.source.veilleux-koinonia
+  locus: "the second named modern authority for the recension-priority debate, alongside Rousseau"
 names:
 - name: Pachomius
   tag: in-world
@@ -33,7 +35,7 @@ dates:
   died: "346 - by which point the federation he founded numbered nine houses for men and two for women, membership in the low thousands (an order-of-magnitude figure transmitted by the Lives, not a precise census)"
   floruit: "founded the first cenobitic community at Tabennesi in the Thebaid c. 318-323, most often placed c. 320 - traditionally after a vision, joined immediately by his brother John and then by further companions (the founding narrative comes down through the hagiographic Lives; its incident-level reliability is not independently adjudicated by this build)"
 narratable: true
-bridge_line: "the man whose vision at Tabennesi turned solitary discipline into something that could be joined, ruled, and replicated - by the time he died, nine houses of men and two of women under one written Rule, the first of this world's three patterns to have an office rather than only an elder at its center"
+bridge_line: "the man remembered for a vision at Tabennesi that, as the story is told, turned solitary discipline into something that could be joined, ruled, and replicated - by the time he died, tradition put his federation at nine houses of men and two of women, the one of this world's three patterns built around a written rule and appointed offices rather than an elder alone"
 relations:
 - type: associated-with
   target: desert.gravity.koinonia
@@ -70,3 +72,25 @@ standing discipline: no vendored edition of the Rule or the Lives
 exists in English, and every claim about their content in this corpus
 rests on one-remove witnesses or consult-only scholarship at the
 confidence those channels support, never on direct quotation.
+
+Step3c, Round 1 review Finding S9: the bridge_line - the one field this
+step designates compiled-facing - carried the angel-vision and the
+house-count with no hedge and no channel, though this record's own
+dates block hedges both correctly ("traditionally after a vision... its
+incident-level reliability is not independently adjudicated"; "an
+order-of-magnitude figure transmitted by the Lives, not a precise
+census") and this record's own body claims every Rule-content claim
+names its channel. The split is exactly what the Step3a Round 8 B2
+ruling exists to prevent - the caveat must travel with the
+compiled-facing field carrying the claim, not only with the apparatus
+field. Reworded to hedge both facts in the bridge_line itself. Finding
+M10: desert.source.veilleux-koinonia was registered specifically so
+that figure records could cite both named poles of the recension-
+priority debate rather than naming Veilleux as a floating name - this
+record named him in divergence_note without registering the source;
+added to sources[]. Finding M11: formation_confidence rated Documented
+against sources that mostly rate Widely Accepted and against the prior
+build's own cleared Doc_09a rating for the identical claim list -
+reverted to Widely Accepted, matching Doc_09a and
+desert.source.palladius-lausiac-history's own standing warning against
+exactly this kind of unmarked upgrade.
