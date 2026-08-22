@@ -168,6 +168,17 @@ TYPE_PROPERTIES: dict[str, dict] = {
             "additionalProperties": False,
         },
         "quick_meaning": {"type": "string"},
+        # Severity marker for senses.translational's own gap - lets a
+        # reviewer or future tooling spot the highest-risk terms without
+        # parsing prose (Glossary/Story/Quote Template SS1). Not yet in
+        # COMPLETION_REQUIRED; existing term records validate unchanged
+        # without it.
+        "distortion_risk": {"enum": ["low", "medium", "high"]},
+        # The word's OWN older/ordinary sense before this world's
+        # community repurposed it - distinct from false_friend (modern
+        # concepts projected backward). Optional: many world_words are
+        # coinages with no meaningful prior secular sense to record.
+        "prior_sense": {"type": "string"},
     },
     "story": {
         "narrative_tier": {"type": "integer"},

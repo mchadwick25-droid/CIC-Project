@@ -48,6 +48,27 @@ quick_meaning: The community's thanksgiving meal of bread and cup.
 required (not just the parent `senses` object) — every term record needs
 both, not a `senses` object with only `informational` filled in.
 
+Two more term fields, added 2026-08-22 after reviewing the prior
+framework's own term design (`cic-poc/backend/wrs/` — pre-redesign
+material, evidence not dependency per `Build-Blueprint.md`, but its
+`desertlex001.md` worked example surfaced two genuinely useful ideas not
+already covered):
+
+- `distortion_risk: low | medium | high` — a quick-scan severity marker
+  for `senses.translational`'s own gap. The old system buried this in
+  free text ("Sharp then-vs-now gap: high grounding criterion"); making
+  it a real enum lets a reviewer or future tooling triage the
+  highest-risk terms without reading every paragraph.
+- `prior_sense` (optional string) — the word's *own* older, ordinary
+  sense before this world's community repurposed it. Different from
+  `false_friend`: false_friend is a *modern* concept wrongly projected
+  backward; `prior_sense` is the term's real pre-existing usage this
+  world's own community redefined. Real example: *anachōrēsis* had an
+  ordinary Greek sense (withdrawal, or a villager's flight from fiscal
+  obligations) distinct from what the desert movement made of it. Leave
+  blank for coinages with no meaningful prior secular sense — most
+  `world_word`s will not need this field.
+
 ## SS2. Story — new field: `modern_contrast`
 
 Stories don't currently have an equivalent field at all. Add one:
