@@ -12,7 +12,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Contested
-  divergence_note: "Documented that this world's own texts describe apostolic testimony and, in Rome specifically, memoirs of the apostles read aloud at weekly gathering; Contested/Inferential-Thin on whether any of this world's own primary voices had personal contact with an actual eyewitness - none claims to, and the value this world places on a 'living voice' testimony (Papias) shows that direct chain was already felt to be thinning within this world's own window, not securely present throughout it."
+  divergence_note: "Documented that this world's own texts describe apostolic testimony and, in Rome specifically, memoirs of the apostles read aloud at weekly gathering; Contested/Inferential-Thin on whether any of this world's own primary voices had personal contact with an actual eyewitness - none claims to, and the value this world places on 'the living and abiding voice' (Papias) shows that direct chain was already felt to be thinning within this world's own window, not securely present throughout it."
 sources:
 - source_id: pahc.source.first-clement
   locus: "42 (the apostolic chain of appointment)"

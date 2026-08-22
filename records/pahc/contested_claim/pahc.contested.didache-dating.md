@@ -24,6 +24,11 @@ held_against:
 concedes: "Whichever dating is right, this world's own use of the Didache is already scoped by a separate, independent caution: it reads as one community's own manual, with no evidence Rome or Asia Minor knew or used it, and must never be generalized to network-wide catechetical practice regardless of exactly when it was composed. Its own provenance is itself unresolved, not merely 'plausibly Syrian': pahc.source.didache's own author field reads 'Syria likely, Egypt argued.' If an Egyptian provenance is right, this world's central catechetical text would trace to the one region this world's own scope (per pahc.contested.egypt-exclusion) excludes entirely - a live tension this build discloses rather than resolves, since resolving it would require settling the provenance question this record itself leaves open. The dating question and the representativeness question are two separate limits, both carried here."
 divergence_partners:
 - pahc.source.didache
+relations:
+- type: associated-with
+  target: pahc.witness.scholarly-standing
+- type: associated-with
+  target: pahc.witness.apostolic-practice
 ---
 Carries forward pahc.core.house-church's own caution 3 (DATING
 HUMILITY) and caution 5 (DIDACHE SCOPE) into participant-facing form,

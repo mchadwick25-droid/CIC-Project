@@ -28,6 +28,8 @@ retrieval:
 relations:
 - type: associated-with
   target: pahc.force.apostolic-testimony-inheritance
+- type: associated-with
+  target: pahc.contested.didache-dating
 positions:
 - "This world claimed apostolic origin openly and by name - 1 Clement traces a direct chain from Christ to the apostles to their own appointed successors; the Didache carries the apostles' own name in its very title."
 - "We have to be honest about what that claim is worth on its own: it is an assertion this world made about itself, not independent proof. Modern study of these same texts finds their own dating and authorship genuinely disputed - the Didache's own title claims the apostles even though its actual composition is contested to have come decades after them."
@@ -51,4 +53,7 @@ constitutions-didache-liturgies.xml div1 viii, "The Teaching of the
 Twelve Apostles"). Closes the cell pahc.force.apostolic-testimony-
 inheritance already grounds at the force level but cannot itself close
 (canon.substantive_types() does not count force canon_cells) - this
-record is that force's participant-facing completion.
+record is that force's participant-facing completion. FIXED at Step 8
+round-1 review: added a relations edge to pahc.contested.didache-dating,
+already named in this record's own divergence_note prose but not
+previously linked as a schema relation.

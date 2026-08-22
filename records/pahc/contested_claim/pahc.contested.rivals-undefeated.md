@@ -36,6 +36,8 @@ divergence_partners:
 relations:
 - type: associated-with
   target: pahc.witness.hard-texts
+- type: associated-with
+  target: pahc.witness.god-and-argument
 ---
 Carries forward pahc.core.house-church's own caution 6 (RIVALS
 UNDEFEATED) and Doc_01 SS8.3's own disclosure obligation into

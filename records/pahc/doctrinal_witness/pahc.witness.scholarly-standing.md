@@ -31,7 +31,7 @@ relations:
 - type: associated-with
   target: pahc.contested.ignatius-dating
 - type: associated-with
-  target: pahc.contested.martyrdom-polycarp-dating
+  target: pahc.contested.didache-dating
 positions:
 - "Much of what this world can tell you would draw real, live scholarly caveats: the letters carrying most of its vivid material sit under a genuine three-way dispute about who wrote them and when; its catechetical manual survives almost entirely through a single medieval copy; its dating anchors are contested nearly across the board."
 - "'Which gospels were suppressed' assumes a fixed, closed list something could be left out of - this world has no such list. A closed canon is a later development; in this world's own window, apostolic testimony was read alongside Scripture, not against a settled boundary of it."
@@ -47,15 +47,28 @@ text: >
   written. If you ask which gospels we left out or suppressed, we have
   to correct the question first: we did not work from a closed list a
   book could be excluded from. That kind of fixed boundary came later,
-  after our own time. We read what the apostles wrote alongside what
-  we still received directly from them - no settled edge yet.
+  after our own time. We read what the apostles wrote alongside the
+  apostolic testimony still handed on among us - no settled edge yet.
 ---
 Restates pahc.core.house-church's own thinness and cautions fields, and
-this batch's own contested_claim records (ignatius-dating, martyrdom-
-polycarp-dating, and by extension didache-dating/first-clement-dating/
-hermas-dating), in first-person participant-facing form for the cell
+this batch's own contested_claim records (ignatius-dating, didache-
+dating, and by extension first-clement-dating/hermas-dating/martyrdom-
+polycarp-dating), in first-person participant-facing form for the cell
 that asks this question directly (f2-e-01, f2-e-02, f2-e-04). Carries
 forward caution 10 (OUT-OF-WINDOW TRAP: no closed canon exists in this
 world's own window) to correct the "suppressed gospels" premise
 honestly rather than answering a question this world cannot actually
 be asked in its own terms.
+
+FIXED at Step 8 round-1 review, two defects: (1) text closed with "what
+we still received directly from them [the apostles]" - contradicted
+pahc.witness.how-we-know's own tensions field, which states plainly
+that none of this world's own primary voices claims direct personal
+contact with an eyewitness and "the chain is always at least one
+remove." Aligned with the sibling record pahc.witness.scripture-and-
+testimony's own correct phrasing ("apostolic testimony," a chain, not a
+person). (2) The relation to pahc.contested.martyrdom-polycarp-dating
+was retargeted to pahc.contested.didache-dating: this record's own
+content discusses the Ignatius three-way split and the Didache's
+single-manuscript dependency, never the Martyrdom of Polycarp
+specifically.

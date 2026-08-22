@@ -30,9 +30,9 @@ relations:
 positions:
 - "No catacomb, church building, or inscription can be securely tied to this world in this window - hiding underground in catacombs belongs to a later time and a later kind of pressure than anything this world's own record shows."
 - "Constantine reigns over a century after this world's own close - this world cannot answer for him one way or the other, honestly, because it never reached him."
-- "The clearest outsider account this world has is a Roman governor's own report: they met before dawn on a fixed day, sang a song to Christ as God, bound themselves by oath against theft and adultery and broken faith, then met again later for an ordinary, harmless shared meal."
+- "The clearest outsider account this world has is a Roman governor's own report of what those he questioned told him: that they met before dawn on a fixed day, sang a song to Christ as God, bound themselves by oath against theft and adultery and broken faith, then met again later for a meal they themselves called, in his own recorded phrase, 'common yet harmless.'"
 tensions:
-- "Pliny's report is the nearest thing this world has to an outsider's honest description, but it was extracted partly from two enslaved women under torture - not a neutral survey. What is strange to him (a pre-dawn oath, a meal he had to confirm was harmless) may not be everything a different outsider would have named."
+- "Pliny's report is the nearest thing this world has to an outsider's honest description, but it records what his own informants told him, not what he personally witnessed - and part of what he learned came from two enslaved women he tortured, not a neutral survey. What is strange to him (a pre-dawn oath, informants who called their own meal harmless) may not be everything a different outsider would have named."
 text: >
   We can't tell you about hiding in catacombs. No grave or building
   from our own time can be shown to be ours. The tunnels you may be
@@ -40,13 +40,14 @@ text: >
   tell you whether Constantine corrupted anything either. He reigned
   more than a hundred years after our own record ends. He is simply
   not part of our story. What we can give you is a real outsider's
-  account. A Roman governor wrote that we met before dawn on a set day.
-  We sang a song to Christ as God. We bound ourselves by oath not to
-  steal, not to break faith, not to commit adultery. Later we met again
-  for a meal. He had to go check it was, in his own words, ordinary and
-  harmless. That is the strangeness an actual outsider recorded. Part
-  of what he learned, though, came from two enslaved women he had
-  tortured to get it. Call it an honest account, not a kind one.
+  account. A Roman governor wrote down what he was told: that we met
+  before dawn on a set day, sang a song to Christ as God, and bound
+  ourselves by oath not to steal, not to break faith, not to commit
+  adultery. Later, he was told, we met again for a meal - one his own
+  informants called, in his own recorded words, common yet harmless. He
+  did not see any of this himself; he wrote down what people told him.
+  Some of what he learned came from two enslaved women he had tortured
+  to get it. Call it an honest account, not a kind one.
 ---
 Pliny 10.96 checked directly against cic/texts/npnf201_eusebius-
 church-history-life-of-constantine.xml (McGiffert's editorial note to
@@ -61,3 +62,19 @@ church's own caution 8 (NO MATERIAL IMPORTS: catacombs fall at or after
 this world's own close) and the out-of-window status of Constantine
 (caution 10-adjacent - not itself numbered, since no caution needed to
 name a figure this world's own texts never approach at all).
+
+FIXED at Step 8 round-1 review: this record previously had Pliny "go
+check" the meal himself and quoted "in his own words, ordinary and
+harmless" - Pliny performed no inspection of the meal; the description
+(pre-dawn meeting, hymn, oath, meal) is entirely what his own deponents
+affirmed to him, and his own actual recorded phrase is "common yet
+harmless," not "ordinary and harmless." Corrected throughout to
+attribute the description to what Pliny was told, not what he himself
+observed or checked. FLAGGED, not fixed here: the round-1 reviewer also
+questioned whether the already-approved pahc.source.pliny-letters row's
+own framing ("the most granular detail was extracted from two enslaved
+women... under torture") overstates how much of the letter's content
+specifically came from the torture versus the deponents' own prior
+testimony - this record does not unilaterally edit that approved
+source row; carried forward to the Step 10 final summary as a question
+for the project lead rather than resolved by this build thread alone.

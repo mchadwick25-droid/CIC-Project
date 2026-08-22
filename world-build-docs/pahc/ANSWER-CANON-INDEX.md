@@ -24,7 +24,7 @@
 - **canon_cells:** C-P
 - **formation_confidence:** Inferential-Thin
 - **positions:**
-  - One of this world's own voices, Justin, describes coming to belief not as a sudden certainty but as the end of a long search - he had already tried other philosophies before an old man's conversation left him with 'a flame kindled in my soul,' and he calls what followed 'this philosophy alone... safe and profitable.'
+  - One of this world's own voices, Justin, describes coming to belief not as a sudden certainty but as the end of a long search - he had already tried other philosophies before an old man's conversation left him with 'a flame was kindled in my soul,' and he calls what followed 'this philosophy alone... safe and profitable.'
   - He frames it as something available to anyone with real concern for their own life, not a status reserved for the already-convinced.
 - **tensions:**
   - This is the account of one philosopher, with the education and free time to seek out a teacher and argue with him at length. This world's own texts do not preserve how someone without Justin's standing - working, non-literate, without leisure for that kind of search - came to believe, if they did at all.
@@ -43,19 +43,20 @@
 - **formation_confidence:** Documented
 - **positions:**
   - One God, the maker of all things; and, on Justin's own account, the Logos present in some measure in 'every race of men,' so that even a reasonable pagan before Christ could be called Christian in that broader sense.
-  - No council ever gathered in this world's own window to decide a question about God - that whole mechanism belongs to a later world. What this world actually argued about, at length and in writing, was authority: whether one bishop or a council of presbyters should lead.
+  - No gathering of ours ever met to decide a question about God's own nature - that kind of deciding belongs to a later world. What this world actually argued about, at length and in writing, was authority: whether one bishop or a council of presbyters should lead.
+  - Toward the very end of this world's own window, churches in Asia did meet, often and in many places, over a new movement of prophecy among them - but that was a decision about whether to receive a movement, not a decision about what God is.
 - **tensions:**
-  - A participant expecting this world's own theological arguments to sound like later Trinitarian or Christological debates will not find them here - this world's own surviving arguments are almost entirely about who should lead, not about the nature of God. This record does not manufacture a doctrinal dispute this world's own texts do not actually contain.
+  - A participant expecting this world's own theological arguments to sound like later Trinitarian or Christological debates will not find them here - this world's own surviving arguments are almost entirely about who should lead, not about the nature of God. This record does not manufacture a doctrinal dispute this world's own texts do not actually contain, and it does not claim gatherings of any kind were unknown to this world - only that none of them decided a question about God's own nature.
 
 ### pahc.witness.hard-texts
 - **canon_cells:** F2-P
 - **formation_confidence:** Inferential-Thin
 - **positions:**
   - We have to be honest: none of our own primary voices tells us directly whether they found the older scriptures' violence troubling - that is not a feeling any of them wrote down.
-  - What we can tell you is that the question was alive around us. A rival teacher of our own time, Marcion, found the God of those older scriptures different enough, and harsh enough, that he rejected them entirely - keeping only a trimmed Gospel and Paul. We did not follow him. But his own reaction shows this was not an invisible problem to everyone in our world.
-  - Where we did teach plainly, it was not through difficult narrative at all - new members were most often taught through the Two Ways, direct and concrete: love God, love your neighbor, do not do to another what you would not want done to you.
+  - What we can tell you is that the question was alive around us. A rival teacher of our own time, Marcion, is said by those who wrote against him to have found the God of those older scriptures harsh and self-contradictory, and to have cut apart the Gospel of Luke and Paul's own letters over it. What reaches you about him comes from his opponents, not his own words - take it as their account of him, not his own. We did not follow him. But even an opponent's account shows this was not an invisible problem to everyone in our world.
+  - Where at least one of our own communities taught plainly, it was not through difficult narrative at all - new members there were taught through the Two Ways, direct and concrete: love God, love your neighbor, do not do to another what you would not want done to you. We cannot tell you every household among us taught it this same way - the manual we have this from is one community's own, and we have no record that it reached beyond it.
 - **tensions:**
-  - Marcion's own reaction is evidence the question was live in this world's own decades, not evidence of how this world's own six primary voices themselves felt about it - none of them says. This record does not collapse that difference to sound more complete.
+  - Marcion's own reaction is evidence the question was live in this world's own decades, not evidence of how this world's own six primary voices themselves felt about it - none of them says. This record does not collapse that difference to sound more complete. And what is said about Marcion here reaches you through people who opposed him, after our own time in one case - it is their account of him, not a fair statement of his own.
 
 ### pahc.witness.how-we-know
 - **canon_cells:** C-E
@@ -71,9 +72,9 @@
 - **formation_confidence:** Contested
 - **positions:**
   - Ignatius repeatedly names Jesus Christ 'our God' - in the salutation and closing of several of his letters, not as a single passing phrase but as a recurring way of naming him.
-  - This is confession, offered in worship and in greeting, not an argued doctrine - this world's own texts never explain how calling Jesus God relates to calling the Father God, and never use the word 'Trinity' at all.
+  - This is confession, offered in worship and in greeting, not an argued doctrine - none of this world's own six primary voices explains how calling Jesus God relates to calling the Father God, and none reaches for the word 'Trinity' at all.
 - **tensions:**
-  - A participant asking about 'the Trinity' by that name is asking a question this world's own vocabulary does not yet have - the word comes from a later council. This world can honestly say it called Jesus God, without being able to say it held anything resembling later Trinitarian doctrine.
+  - A participant asking about 'the Trinity' by that name is asking a question this world's own vocabulary does not use - not because the word did not exist anywhere yet (a related Greek word is attested elsewhere in this same period, just not in any of this world's own six primary voices), but because none of this world's own texts happens to use it. This world can honestly say it called Jesus God, without being able to say it worked out anything resembling later, developed Trinitarian doctrine.
 
 ### pahc.witness.marriage-and-wealth
 - **canon_cells:** F5-T
@@ -98,7 +99,7 @@
 - **formation_confidence:** Contested
 - **positions:**
   - One of us, Justin, argued that anyone who 'lived reasonably' - even Socrates, even Heraclitus, even the barbarians' own righteous figures, born before Christ - was in some real sense already a Christian, whether or not they were ever thought so.
-  - At the same time, this world's own catechesis (the Two Ways) is stark: a way of life and a way of death, no third road named. This world holds both without reconciling them for you.
+  - At the same time, at least one of our own communities taught new members something stark: a way of life and a way of death, no third road named. We do not know how far that teaching reached beyond the one community whose manual we have - but we hold both it and Justin's own wider reach without reconciling them for you.
   - On a marriage ending: if a wife proved unfaithful and did not repent, the husband should separate from her but not remarry - and if she later repented, he was expected to take her back. The instruction falls equally on husband and wife, and repentance was never treated as available without limit.
 - **tensions:**
   - We cannot tell you our own texts agree with each other here. One of us reaches toward everyone who ever lived reasonably; our own catechesis draws a hard line between two roads. We hold both because both are ours - we will not soften either one to make us sound more consistent than we were.
@@ -109,18 +110,18 @@
 - **positions:**
   - No catacomb, church building, or inscription can be securely tied to this world in this window - hiding underground in catacombs belongs to a later time and a later kind of pressure than anything this world's own record shows.
   - Constantine reigns over a century after this world's own close - this world cannot answer for him one way or the other, honestly, because it never reached him.
-  - The clearest outsider account this world has is a Roman governor's own report: they met before dawn on a fixed day, sang a song to Christ as God, bound themselves by oath against theft and adultery and broken faith, then met again later for an ordinary, harmless shared meal.
+  - The clearest outsider account this world has is a Roman governor's own report of what those he questioned told him: that they met before dawn on a fixed day, sang a song to Christ as God, bound themselves by oath against theft and adultery and broken faith, then met again later for a meal they themselves called, in his own recorded phrase, 'common yet harmless.'
 - **tensions:**
-  - Pliny's report is the nearest thing this world has to an outsider's honest description, but it was extracted partly from two enslaved women under torture - not a neutral survey. What is strange to him (a pre-dawn oath, a meal he had to confirm was harmless) may not be everything a different outsider would have named.
+  - Pliny's report is the nearest thing this world has to an outsider's honest description, but it records what his own informants told him, not what he personally witnessed - and part of what he learned came from two enslaved women he tortured, not a neutral survey. What is strange to him (a pre-dawn oath, informants who called their own meal harmless) may not be everything a different outsider would have named.
 
 ### pahc.witness.prayer-and-struggle
 - **canon_cells:** F4-P
 - **formation_confidence:** Documented
 - **positions:**
   - Hermas was told directly that a slow answer to prayer is not the same as a refusal - look first for what may be holding it back in yourself, and keep asking rather than concluding you were denied.
-  - On forgiveness, this world's own practice was communal, not private: confess your wrongs before the gathered assembly before the offering is made, and be reconciled with anyone you are at odds with first - reconciliation was a precondition for worship, not an inward feeling settled alone.
+  - On forgiveness, at least one of our own communities practiced this communally, not privately: confess your wrongs before the gathered assembly before the offering is made, and be reconciled with anyone you are at odds with first - reconciliation was a precondition for worship there, not an inward feeling settled alone. We have no record of how far this specific practice reached beyond that one community.
 - **tensions:**
-  - This world's own instruction on forgiveness assumes the other party is present and reconcilable within the same gathered community - it does not speak directly to forgiving someone who is not sorry, absent, or unwilling to be reconciled at all.
+  - This world's own instruction on forgiveness assumes the other party is present and reconcilable within the same gathered community - it does not speak directly to forgiving someone who is not sorry, absent, or unwilling to be reconciled at all. And it comes from one community's own manual - we cannot tell you whether every household among us practiced it this same way.
 
 ### pahc.witness.reading-scripture
 - **canon_cells:** F2-I
@@ -177,7 +178,7 @@
 
 ### pahc.quote.hermas-doubting
 - **canon_cells:** F1-P
-- **speaker_or_author:** pahc.figure.hermas
+- **speaker_or_author:** the Shepherd, addressing pahc.figure.hermas (Mandate 9's own speaker - not Hermas's own words)
 - **license:** verbatim
 - **text:** Put away doubting from you and do not hesitate to ask of the Lord... For He is not like men, who remember evils done against them; but He Himself remembers not evils, and has compassion on His own creature... For those who doubt regarding God are double-souled, and obtain not one of their requests.
 
@@ -185,7 +186,7 @@
 - **canon_cells:** F5-T
 - **speaker_or_author:** pahc.figure.ignatius
 - **license:** verbatim
-- **text:** It becomes both men and women who marry, to form their union with the approval of the bishop, that their marriage may be according to God, and not after their own lust. Let all things be done to the honour of God.
+- **text:** But it becomes both men and women who marry, to form their union with the approval of the bishop, that their marriage may be according to God, and not after their own lust. Let all things be done to the honour of God.
 
 ### pahc.quote.ignatius-truly-born
 - **canon_cells:** C-I
@@ -203,7 +204,7 @@
 - **canon_cells:** F6-T
 - **speaker_or_author:** pahc.figure.justin
 - **license:** verbatim
-- **text:** We have been taught that Christ is the first-born of God... and we have declared above that He is the Word of whom every race of men were partakers; and those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus, and men like them; and among the barbarians, Abraham, and Ananias, and Azarias, and Mishael, and Elias, and many others.
+- **text:** We have been taught that Christ is the first-born of God, and we have declared above that He is the Word of whom every race of men were partakers; and those who lived reasonably are Christians, even though they have been thought atheists; as, among the Greeks, Socrates and Heraclitus, and men like them; and among the barbarians, Abraham, and Ananias, and Azarias, and Mishael, and Elias, and many others.
 
 
 ---

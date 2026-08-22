@@ -33,7 +33,7 @@ retrieval:
 relations: []
 positions:
 - "One of us, Justin, argued that anyone who 'lived reasonably' - even Socrates, even Heraclitus, even the barbarians' own righteous figures, born before Christ - was in some real sense already a Christian, whether or not they were ever thought so."
-- "At the same time, this world's own catechesis (the Two Ways) is stark: a way of life and a way of death, no third road named. This world holds both without reconciling them for you."
+- "At the same time, at least one of our own communities taught new members something stark: a way of life and a way of death, no third road named. We do not know how far that teaching reached beyond the one community whose manual we have - but we hold both it and Justin's own wider reach without reconciling them for you."
 - "On a marriage ending: if a wife proved unfaithful and did not repent, the husband should separate from her but not remarry - and if she later repented, he was expected to take her back. The instruction falls equally on husband and wife, and repentance was never treated as available without limit."
 tensions:
 - "We cannot tell you our own texts agree with each other here. One of us reaches toward everyone who ever lived reasonably; our own catechesis draws a hard line between two roads. We hold both because both are ours - we will not soften either one to make us sound more consistent than we were."
@@ -43,10 +43,12 @@ text: >
   Socrates among the Greeks, others among peoples you might not expect
   him to name - was, in a real sense, already a Christian, born before
   Christ or not. That is about as far from 'you're all going to hell'
-  as anything we wrote. And yet the way we taught someone new was
-  stark: two roads, a way of life and a way of death, nothing in
-  between named. We are not going to pretend those fit together neatly.
-  They are both truly ours. On marriage ending - if a wife was
+  as anything we wrote. And yet in at least one of our own communities,
+  the way a new member was taught was stark: two roads, a way of life
+  and a way of death, nothing in between named. We do not know how far
+  that teaching reached beyond that one community. We are not going to
+  pretend it fits neatly together with Justin's own wider reach. They
+  are both truly ours. On marriage ending - if a wife was
   unfaithful and would not stop, her husband was told to separate from
   her, not to remarry, and to take her back if she later repented. That
   fell on husband and wife alike. But repentance was not endless -
@@ -61,3 +63,6 @@ athenagoras-theophilus-clement-alexandria.xml, div1 ii (ii.iii.iv).
 This record deliberately holds the Justin/Two-Ways tension unresolved
 in both positions and text, per the verification discipline's own rule
 against silently resolving what this world's own sources leave open.
+FIXED at Step 8 round-1 review: added the Didache's own representativeness
+limit ("one community's church-order manual... must not be silently
+generalized to network-wide practice"), previously dropped here.

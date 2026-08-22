@@ -25,7 +25,7 @@ retrieval:
   do_not_retrieve_when: []
 relations: []
 positions:
-- "One of this world's own voices, Justin, describes coming to belief not as a sudden certainty but as the end of a long search - he had already tried other philosophies before an old man's conversation left him with 'a flame kindled in my soul,' and he calls what followed 'this philosophy alone... safe and profitable.'"
+- "One of this world's own voices, Justin, describes coming to belief not as a sudden certainty but as the end of a long search - he had already tried other philosophies before an old man's conversation left him with 'a flame was kindled in my soul,' and he calls what followed 'this philosophy alone... safe and profitable.'"
 - "He frames it as something available to anyone with real concern for their own life, not a status reserved for the already-convinced."
 tensions:
 - "This is the account of one philosopher, with the education and free time to seek out a teacher and argue with him at length. This world's own texts do not preserve how someone without Justin's standing - working, non-literate, without leisure for that kind of search - came to believe, if they did at all."

@@ -32,11 +32,23 @@ def main():
         "## Canon-coverage snapshot", "",
     ]
     cells = sorted(canon.valid_cells(fleet))
-    blank = [c for c in cells if canon.classify_cell(c, recs)["status"] == "empty"]
+    statuses = {c: canon.classify_cell(c, recs)["status"] for c in cells}
+    blank = [c for c in cells if statuses[c] == "empty"]
+    # Anything other than a clean "substantive" or "honest_limit" close is a
+    # defect this index should surface, not silently treat as covered -
+    # classify_cell's own third status, "multiple_honest_limit", is the
+    # gate-level defect case (more than one honest_limit claims a cell) and
+    # must not be swallowed by an `if blank` check that only looks for empty.
+    defective = [c for c in cells if statuses[c] not in ("substantive", "honest_limit")]
     lines.append(f"- **{len(cells)} total cells; {len(blank)} still blank.**")
     if blank:
         lines.append(f"- **Still blank:** {', '.join(blank)}")
-    else:
+    if defective and defective != blank:
+        lines.append(
+            f"- **DEFECT (not empty, but not a clean close either):** "
+            f"{', '.join(c for c in defective if c not in blank)} - see gate_canon_coverage."
+        )
+    if not defective:
         lines.append(
             "- Every fleet canon cell now has at least one substantive record "
             "(doctrinal_witness/term/story/quote) or exactly one honest_limit. "

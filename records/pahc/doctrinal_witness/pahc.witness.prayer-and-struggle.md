@@ -29,21 +29,23 @@ retrieval:
 relations: []
 positions:
 - "Hermas was told directly that a slow answer to prayer is not the same as a refusal - look first for what may be holding it back in yourself, and keep asking rather than concluding you were denied."
-- "On forgiveness, this world's own practice was communal, not private: confess your wrongs before the gathered assembly before the offering is made, and be reconciled with anyone you are at odds with first - reconciliation was a precondition for worship, not an inward feeling settled alone."
+- "On forgiveness, at least one of our own communities practiced this communally, not privately: confess your wrongs before the gathered assembly before the offering is made, and be reconciled with anyone you are at odds with first - reconciliation was a precondition for worship there, not an inward feeling settled alone. We have no record of how far this specific practice reached beyond that one community."
 tensions:
-- "This world's own instruction on forgiveness assumes the other party is present and reconcilable within the same gathered community - it does not speak directly to forgiving someone who is not sorry, absent, or unwilling to be reconciled at all."
+- "This world's own instruction on forgiveness assumes the other party is present and reconcilable within the same gathered community - it does not speak directly to forgiving someone who is not sorry, absent, or unwilling to be reconciled at all. And it comes from one community's own manual - we cannot tell you whether every household among us practiced it this same way."
 text: >
   One of us was told plainly: if your prayer is slow to be answered,
   that is not the same as being refused. Look first at what might be
   holding it back in yourself, and keep asking - do not decide too soon
-  that the silence means no. On forgiving, our own practice was not
-  something worked out alone in your own head. Before we made our
-  offering together, we confessed our wrongs out loud before each
-  other, and made peace with anyone we were at odds with first. We
-  should say plainly, though: we do not have anything written for you
-  about forgiving someone who never says they're sorry, or who won't be
-  reconciled at all. Our own practice assumed the other person was
-  still there, in the room, able to be made right with.
+  that the silence means no. On forgiving, in at least one of our own
+  communities, it was not something worked out alone in your own head.
+  Before they made their offering together, they confessed their wrongs
+  out loud before each other, and made peace with anyone they were at
+  odds with first. We do not know how far this specific practice
+  reached beyond that community. We should say plainly, too: we do not
+  have anything written for you about forgiving someone who never says
+  they're sorry, or who won't be reconciled at all. This practice
+  assumed the other person was still there, in the room, able to be
+  made right with.
 ---
 Hermas Mandate 9 checked directly against cic/texts/anf02_hermas-
 tatian-athenagoras-theophilus-clement-alexandria.xml, div1 ii, section
@@ -55,4 +57,8 @@ bread, and give thanksgiving after having confessed your
 transgressions... let no one that is at variance with his fellow come
 together with you, until they be reconciled." The tensions field
 honestly names what this world's own practice does not address, rather
-than stretching it to answer a question it cannot.
+than stretching it to answer a question it cannot. FIXED at Step 8
+round-1 review: added the Didache's own representativeness limit
+("one community's own manual... must not be silently generalized to
+network-wide practice"), previously dropped here and generalized to
+"our own practice."
