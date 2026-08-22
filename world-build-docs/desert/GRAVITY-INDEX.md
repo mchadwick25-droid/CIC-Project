@@ -90,14 +90,43 @@ with the matrix notes now explaining why these two cells are not
 meant to mirror each other. All ten records and this index were
 revised again in response.
 
+Step3b Review Round 4 (`world-build-docs/desert/reviews/Step3b_Review_Round4.md`)
+ran the fabrication check the Poemen finding demanded: every named
+person, place, text-title and number across all ten records'
+substantive fields, extracted mechanically and traced individually to
+a registered source, to Doc_04's own text, or to cleared step-3a
+material. All resolve; no second instance of an invented detail exists
+anywhere in this deliverable. The Sozomen/Socrates correction was
+independently re-verified against the vendored chapter's own
+source-note and found accurate, with Palladius's registered weight
+undisturbed. But the pass again wrote two new defects, unforced. The
+sharper one: a cosmetic fix that broadened withdrawal's description to
+list all six of its registered sources moved the Nepheros archive into
+that Primary gravity's headline "independent evidence streams" claim
+without either of the two standing cautions its source record requires
+on every use - corrected inline. The other: a new matrix note asserted
+a general "row-as-subject" convention that four of the matrix's own
+cells (3x1, 3x2, 5x7, 8x4) did not actually follow, contradicting the
+index's own master table two screens up - all four relabeled to
+reverse-form (`reinforced-by N`), consistent with the mechanism the
+matrix already used for 9x5 and 9x2. Minor fixes: diakrisis's own
+replacement manifestation, written to remove Poemen, contradicted the
+manifestation directly above it (naming Cassian's Conference II as a
+systematic text on the same line that claimed no such text exists) -
+reworded to the already-cleared "almost no sustained treatise" form;
+elder-authority's Palladius locus didn't cover the chapter its own
+Rule-content channel claim depends on - broadened; koinonia's
+Palladius correction overstated "the" load-bearing source where the
+source record itself names two - corrected to name both.
+
 ## Master table
 
 | # | Gravity (record slug) | Classification | Generating evidence streams | Author Gravity risk | Six tests (Repetition / Dependency / Formation / Explanatory / Persistence / Interaction) | Confidence | Cross-Check outcome | Cross-strand status (Art. 21) | Forces-connection (preliminary, Doc_01 §7) |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | `withdrawal` | **Primary** | Vita, Apophthegmata, Palladius, Kellia, Nepheros, Pachomian corpus | No (multi-stream) | Strong / High / Direct / Strong / Strong / reinforces 3,4; tension w/ 8 | Documented/Widely Accepted | Clean — no discrepancy | Cross-strand | Intensifies under the generating force (martyrdom's unavailability) |
 | 2 | `spiritual-combat` | **Primary** | Vita, Apophthegmata, Evagrius (general theme only) | No (multi-stream; tested apart from 9 specifically to isolate single-author risk) | Strong / High / Direct / Strong / Strong / reinforces 3,5; generates 9 | Widely Accepted | Clean | Cross-strand (most elaborated in C) | Intensifies under the generating force |
-| 3 | `elder-authority` | **Primary** | Apophthegmata (entire structure), Palladius, Pachomian corpus (contrast) | No | Strong / High / Direct / Strong / Strong (secondary weight in B) / reinforces 5; tension w/ 10 | Widely Accepted | Clean — Rubenson/Antony-literacy contest routed here, does not threaten classification (attestation is corpus-wide, not Antony-dependent) | Cross-strand, strand-differentiated weight | Intensifies under the generating force |
-| 4 | `manual-labor` | **Primary** | Vita (textual), Palladius, Nepheros (papyrological), Kellia (archaeological) | No (3+ independent evidence types) | Strong / High / Direct / Strong / Strong / reinforces 1, 8 | Documented/Widely Accepted | Clean | Cross-strand | Intensifies under the generating force |
+| 3 | `elder-authority` | **Primary** | Apophthegmata (entire structure), Palladius, Pachomian corpus (contrast; also the second Rubenson/Antony-literacy attesting stream) | No | Strong / High / Direct / Strong / Strong (secondary weight in B) / reinforces 5; tension w/ 10 | Widely Accepted | Clean — Rubenson/Antony-literacy contest routed here, does not threaten classification (attestation is corpus-wide, not Antony-dependent) | Cross-strand, strand-differentiated weight | Intensifies under the generating force |
+| 4 | `manual-labor` | **Primary** | Vita (textual), Palladius, Nepheros (papyrological), Kellia (archaeological) | No (3+ independent evidence types) | Strong / High / Direct / Strong / Strong / reinforces 1, 8; soft tension w/ 9 (reading) | Documented/Widely Accepted | Clean | Cross-strand | Intensifies under the generating force |
 | 5 | `diakrisis` | **Primary** | Apophthegmata (cross-elder, cross-settlement), Cassian Conference II | No | Strong / High / Direct / Strong / Strong / reinforces 3; moderates 2,9 | Widely Accepted | Clean | Cross-strand | Intensifies under the generating force |
 | 6 | `koinonia` | Supporting | Pachomian corpus (organizing principle), Palladius, Sozomen, Rousseau | Yes — flagged at generation, single-corpus (Pachomian) | Strong-within-B / High-within-B / Direct-for-B / Explains B's distinctiveness / **Fails cross-strand** / tension (via 10) w/ 3 | Widely Accepted | Clean — Persistence-test failure, not a confidence problem (Doc_04's own corrected finding) | **Strand-bound (B)** | Emerges from the "replicating Antony's path at scale" sub-problem |
 | 7 | `scriptural-engagement` | **Primary** (softest) | Apophthegmata's applied use of scripture, Burton-Christie (oral/practical thesis); Attention-Absence contrast with World #2 (Alexandria) | No, but flagged as resting partly on an Attention-Absence argument, not positive attestation alone | Moderate-strong / Moderate / Direct / Strong / Cross-strand (thinner in B) / reinforces 5 | Widely Accepted | Clean, but flagged as the softest Primary — a future step revisiting this classification would not be a surprise | Cross-strand, evidence-asymmetric | Neither clearly intensifies nor fractures under any of the four named forces (added per Doc_04's own Round 3 fix) |
@@ -123,18 +152,18 @@ All ten candidates (1–10) clear the Cross-Check on their own terms; `economic-
 
 ## Interaction Matrix
 
-Every candidate against every other; cell contents are `reinforces` / `moderates` (and its reverse, `moderated-by N`) / `tension` / `tension (via 10)` (a real Doc_04 tension routed through gravity 10 rather than declared directly, see notes below) / `soft-tension*` (a hedged Doc_04 tension, see notes below) / `enables → N` (and its reverse, `← enabled-by N`; this world's precondition-for/enabled-by pair) / `—` (no demonstrated relationship). No row is entirely `—` — Doc_04's own flagged warning sign for an impression-generated candidate does not apply to any of the ten. The `*` on `soft-tension*` marks the label explained in the second note below, not a footnote elsewhere in this document.
+Every candidate against every other; cell contents are `reinforces` (and its reverse, `reinforced-by N`) / `moderates` (and its reverse, `moderated-by N`) / `tension` / `tension (via 10)` (a real Doc_04 tension routed through gravity 10 rather than declared directly, see notes below) / `soft-tension*` (a hedged Doc_04 tension, see notes below) / `enables → N` (and its reverse, `← enabled-by N`; this world's precondition-for/enabled-by pair) / `—` (no demonstrated relationship). No row is entirely `—` — Doc_04's own flagged warning sign for an impression-generated candidate does not apply to any of the ten. The `*` on `soft-tension*` marks the label explained in the second note below, not a footnote elsewhere in this document. Every cell renders that row's OWN Doc_04 §2 Interaction-test finding about the column - a reverse-form label (`reinforced-by`/`moderated-by`/`← enabled-by`) where the row makes no independent claim of its own but the opposite row does.
 
 | | 1 withdrawal | 2 combat | 3 elder-auth | 4 labor | 5 diakrisis | 6 koinonia | 7 scriptural | 8 econ-embed | 9 evagrian | 10 auth-tension |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **1 withdrawal** | — | — | reinforces | reinforces | — | — | — | **tension** | — | — |
 | **2 combat** | — | — | reinforces | — | reinforces | — | — | — | enables → 9 | — |
-| **3 elder-auth** | reinforces | reinforces | — | — | reinforces | tension (via 10) | — | — | — | **tension** |
+| **3 elder-auth** | reinforced-by 1 | reinforced-by 2 | — | — | reinforces | tension (via 10) | — | — | — | **tension** |
 | **4 labor** | reinforces | — | — | — | — | — | — | reinforces | soft-tension* | — |
-| **5 diakrisis** | — | moderates | reinforces | — | — | — | reinforces | — | moderates | — |
+| **5 diakrisis** | — | moderates | reinforces | — | — | — | reinforced-by 7 | — | moderates | — |
 | **6 koinonia** | — | — | tension (via 10) | — | — | — | — | — | — | **tension** |
 | **7 scriptural** | — | — | — | — | reinforces | — | — | — | — | — |
-| **8 econ-embed** | **tension** | — | — | reinforces | — | — | — | — | — | — |
+| **8 econ-embed** | **tension** | — | — | reinforced-by 4 | — | — | — | — | — | — |
 | **9 evagrian** | — | ← enabled-by 2 | — | soft-tension* | moderated-by 5 | — | — | — | — | — |
 | **10 auth-tension** | — | — | **tension** | — | — | **tension** | — | — | — | — |
 

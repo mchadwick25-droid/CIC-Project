@@ -16,7 +16,7 @@ sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "the collection's entire organizing structure - by elder name"
 - source_id: desert.source.palladius-lausiac-history
-  locus: "elder authority in practice (e.g. Pambo, ch. X)"
+  locus: "elder authority in practice (e.g. Pambo, ch. X); also ch. XXXII, the Tabennesiot rule report grounding this record's Rule-content contrast"
   license: public-domain
 - source_id: desert.source.pachomian-corpus
   locus: "the Rule's contrasting office-based model, as Palladius reports it; also the second attesting stream (alongside the Apophthegmata) answering the Rubenson/Antony-literacy Cross-Check question, matching desert.gravity.withdrawal's own use of this source for the identical question"
@@ -80,3 +80,11 @@ Finding M2: the Rubenson paragraph above leans on the Pachomian corpus
 as an attesting stream, but the locus described only its contrasting
 role - broadened to name both roles explicitly, matching
 desert.gravity.withdrawal's own locus for the identical Cross-Check use.
+
+Step3b Review Round 4, Finding M2: the pachomian-corpus locus's "as
+Palladius reports it" pointed at a witness whose own registered locus
+(ch. X, Pambo) does not cover the Rule report - the Rule is ch. XXXII,
+which desert.gravity.authority-tension registers explicitly for this
+exact purpose. Broadened this record's own Palladius locus to cover
+ch. XXXII too, so the channel claim points at what the registered
+witness actually carries.

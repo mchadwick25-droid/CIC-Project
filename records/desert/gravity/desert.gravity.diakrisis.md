@@ -34,7 +34,7 @@ description: "The capacity to judge rightly between thoughts, practices, and cou
 manifestations:
 - "the recurring narrative pattern: an eager newcomer asks an elder for an extreme practice and is redirected toward something more moderate"
 - "Cassian's Conference II, devoted entirely to discretion as the teaching he received from the Egyptian elders"
-- "diakrisis had no handbook of its own - unlike apatheia's ladder or the eight-logismoi taxonomy, this discipline survived only in the exercise itself, elder to elder, not in a named systematic text"
+- "diakrisis itself the subject of no sustained treatise outside Cassian's own retrospective Conference - unlike the praktike-apatheia-theoria ladder or the eight-logismoi taxonomy, no Evagrian-style systematic handbook of it survives from within the desert's own span"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 5, SS2
 row 5, SS3, SS4, SS5 row 5, SS6 (gravity 5). The fabricated "mother of
@@ -75,8 +75,9 @@ below.
 Step3b Review Round 3, Finding S3: the Round 2 replacement manifestation
 named "Poemen," an elder with no basis anywhere in this build's
 registered corpus - not in Doc_04, not in any term/source/search
-record, not in any of the 47 vendored files (the one hit is
-"Poemenion," an unrelated place). This is exactly the failure Doc_04's
+record, not in any of the vendored files (the only near-hits are
+"Poemenion," a place near Bethlehem, and "Poemenia," a woman pilgrim -
+neither is Abba Poemen). This is exactly the failure Doc_04's
 own generation rule forbids (candidates from "general familiarity...
 rather than from the Source Ecology itself"), and it is specifically
 the name this world's own live-testing history flags twice as its
@@ -87,3 +88,16 @@ no figure and no episode - the absence of a named systematic text for
 diakrisis, contrasted with the Evagrian cluster's own registered texts
 - which needs no evidence beyond what this record and gravity 9 already
 carry.
+
+Step3b Review Round 4, Finding M1: the Round 3 replacement contradicted
+the manifestation directly above it ("Cassian's Conference II, devoted
+entirely to discretion") by claiming diakrisis survived "only in the
+exercise itself... not in a named systematic text" - Conference II IS
+such a text, one line up on the same record. Reworded to the
+defensible, already-cleared form (desert.term.apophthegma's own "almost
+no sustained treatise" outside Evagrius) and corrected "apatheia's
+ladder" to name the actual registered scheme (the praktike-apatheia-
+theoria ladder, in which apatheia is a middle rung, not the ladder's
+own name). Finding C4: the previous paragraph's own fabrication-check
+undercounted the vendored Poemen-family hits (one, "Poemenion") -
+corrected to two ("Poemenion" and "Poemenia," neither Abba Poemen).
