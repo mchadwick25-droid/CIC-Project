@@ -34,7 +34,7 @@ An independent adversarial review (fresh-context agent, no authorship involvemen
 
 ## Escalation check (CO-022 categories)
 
-- Representative identity/name/title: **not touched.** The registry carries the prior-framework values (Yausep/Mar, ruled by Mark under the old framework) as working data, explicitly pending step-5a re-confirmation.
+- Representative identity/name/title: **confirmed by Mark, in chat, 2026-08-22** — Yausep/Mar carries forward from the prior framework as the settled name and role. The registry entry is updated accordingly. Step 5a's full identity-emergence write-up (the rationale derived from this build's own completed records) is still owed when the voice build begins; that is drafting work, not an open decision.
 - Portfolio/cross-world: corpus vendoring reuses the fleet's shared cic/texts unchanged — additive, no cross-world decision made.
 - Governance/methodology: none changed.
 - Unresolved tensions: none created; the standing open questions (authority structure, dates) are carried as records, exactly as the approved documents instruct.
