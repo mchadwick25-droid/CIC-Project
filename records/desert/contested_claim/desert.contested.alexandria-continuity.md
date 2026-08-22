@@ -27,8 +27,8 @@ held_against:
 - "This world's most visible contact with Alexandria's own institutional authority is external and comes late and remains an unresolved feature of this world's own boundary, not an internal tension already accounted for elsewhere: the bishop of Alexandria's own role in the controversy that convulsed part of this world's own intellectual circle at the turn of the fifth century reaches in as episcopal and conciliar authority overriding the ascetic community's own elder-mediated structure, a genuine shift in where final authority over ascetic teaching actually sat"
 concedes: "One reading of the letters attributed to this world's own founding figure holds that he was himself philosophically literate and substantively shaped by the same intellectual current associated with Alexandria's tradition - if correct, that would put a real conceptual affinity with Alexandria closer to this world's own root than its margins. That reading is itself genuinely disputed, not the settled majority view, and no side is taken on it here. What can respectably be conceded is narrower: this world's own registered evidence raises the question of a conceptual affinity with Alexandria's tradition at exactly one place, and that place is disputed rather than established. Alexandria's own further, more specific claims about what it transmitted toward this world have not been independently verified here and no position is taken on them; what can respectably be conceded, from this world's own evidence, is narrower than a general continuation claim would require."
 divergence_partners:
-- desert.gravity.scriptural-engagement
-- desert.contested.antony-literacy
+- desert.source.rubenson-letters
+- desert.source.apophthegmata-patrum
 relations:
 - type: associated-with
   target: desert.gravity.scriptural-engagement
@@ -56,14 +56,33 @@ This record does not purport to resolve the joint question by itself -
 that would require access to, and independent verification of,
 Alexandria's own registered source base, which is out of scope for
 this build. What it does is state Desert's own position, built from
-Desert's own already-cleared evidence (Doc_01's world-separation logic,
-applied here by the same reasoning Doc_01 SS8.1 already applies against
-World #9, extended to Alexandria on this record's own initiative since
-Doc_01 itself made no such comparison; gravity 7's documented
-interpretive contrast; gravity 9's own strand-bound Origenist-adjacent
-concession) - which is a distinct-world reading with one genuine,
-narrow point of intellectual contact conceded, not a flat denial of any
-relationship at all.
+Desert's own already-cleared evidence: Doc_01's world-separation logic
+(Doc_01 SS4, Doc_05 SS8.2, and Doc_09b SS3 already compare this world to
+Alexandria directly - this record's contribution is putting that
+comparison into contested_claim form, not raising it for the first
+time); and gravity 7's documented interpretive contrast. This is a
+distinct-world reading, not a flat denial of any relationship at all -
+what keeps it from being a flat denial is not a conceded point of
+contact (see below) but the concedes field's own honest acknowledgment
+that one disputed reading of this world's founding figure's own Letters
+raises, without settling, a question of conceptual affinity.
 
 Register etic, matching this corpus's other two contested_claim
 records and Alexandria's own contested_claim register convention.
+
+Step3c, Round 2 review Finding S2: this body was not edited when the
+front matter was rebuilt to fix Round 1's Finding S1, and it still
+credited this record's position to "gravity 9's own strand-bound
+Origenist-adjacent concession" - the exact Evagrius claim Round 1 found
+false, which desert.gravity.evagrian-systematization's own Step3c body
+note states plainly does not exist, and which this record's own
+concedes field no longer makes. It also still carried the sentence
+Round 1's Finding M13 charged and STEP3C-INDEX.md wrongly certified as
+removed ("extended to Alexandria on this record's own initiative since
+Doc_01 itself made no such comparison") and oversold the corrected
+concession as "one genuine, narrow point of intellectual contact
+conceded," when concedes itself only raises a disputed question rather
+than conceding a contact. All three corrected above, to match what the
+front matter actually now says: no Evagrius claim; Doc_01/Doc_05/Doc_09b
+already made the comparison; and the concession is a disputed question
+raised, not a point of contact conceded.

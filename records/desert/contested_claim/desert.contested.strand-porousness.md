@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "the Amoun/Antony founding link, paraphrase-only under the compiler screen (no vendored edition); the collection's own cross-strand compilation - elders associated with all three patterns gathered into one teaching corpus"
+  locus: "the Amoun/Antony founding link's most likely home, paraphrase-only under the compiler screen (no vendored edition; Doc_01's own hedged sentence for this claim does not itself name a specific source, so this attribution is this record's own best inference, not a pinned citation); the collection's own cross-strand compilation - elders associated with all three patterns gathered into one teaching corpus"
 - source_id: desert.source.nepheros-archive
   locus: "the archive's own editors reading its Melitian community as organizationally intermediary, between full cenobium and hermit-scatter - no clean fit to any of the three strands"
 claim: "The three organizational patterns of desert monastic life (solitary/anchoritic; cenobitic under a written rule; semi-anchoritic settlements gathering weekly) mark real, lived organizational and authority differences that participants themselves experienced as boundaries - not merely a later editorial artifact of how the sayings tradition's compilers arranged inherited material into one corpus."
@@ -87,3 +87,10 @@ is lived-versus-artifact, not typology completeness) and held_against[2]
 reworded to argue the point it actually makes: an unplaceable community
 as evidence that boundaries were less crisp than assumed, not a
 concession relabeled as an objection.
+
+Step3c, Round 2 review Finding C6: the S2 fix moved the founding-link
+citation to the Apophthegmata without noting that Doc_01 SS2.2's own
+hedged sentence names no source at all for the claim - the Apophthegmata
+is this record's own best inference for where a "reportedly" claim of
+this shape would live, not a pinned citation. Noted explicitly in the
+locus above so the attribution is not later mistaken for a verified one.

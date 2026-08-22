@@ -32,7 +32,7 @@ dates:
   died: "356, at the inner mountain - narrated at Vita SS92-93, written by Athanasius shortly after"
   floruit: "withdrawal begun in his late teens or early twenties, within six months of his parents' deaths, after hearing Matthew 19:21 read aloud in church and taking it as address to himself directly (Vita SS2); the tombs, then the fort at Pispir for some twenty years (SS8-13), then the inner mountain from c. 313 until his death (SS49-50)"
 narratable: true
-bridge_line: "the man who, by his own hagiographer's account, gave away everything at about eighteen or twenty on the strength of one verse heard in church, never learned to read, and still told visiting philosophers that a sound mind has no need of letters"
+bridge_line: "the man who, by his own hagiographer's account, gave away nearly everything at about eighteen or twenty on the strength of one verse heard in church, never learned to read, and still told visiting philosophers that a sound mind has no need of letters"
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal
@@ -67,15 +67,16 @@ likewise the paradigm case for desert.gravity.spiritual-combat, tested
 in this build separately from Evagrius's later systematized form of the
 same struggle. This record does not extend Antony's own individual
 career into a claim about how representative his experience was of
-ordinary participants generally: the two gravities this record is
-related to (desert.gravity.withdrawal, desert.gravity.spiritual-combat)
-are independently attested across the wider Apophthegmata tradition and
-the Pachomian corpus, not solely through his own characterization; and
-the two gravities Doc_04 SS3 specifically routes the literacy contest
-to for its own Cross-Check treatment (withdrawal and elder-authority)
-are the same two his associated gravity records themselves state do not
-depend on resolving that contest - two overlapping but distinct pairs,
-not one.
+ordinary participants generally. Two distinct, overlapping pairs are at
+work here, kept separate: this record's own relations[] name the two
+gravities Antony's own career is associated with (withdrawal and
+spiritual-combat); Doc_04 SS3 separately routes the literacy contest's
+own Cross-Check treatment to withdrawal and elder-authority
+specifically, and it is withdrawal's and elder-authority's own gravity
+records - not spiritual-combat's - that each state the contest does not
+threaten their classification, since each is independently attested
+across the wider Apophthegmata tradition and the Pachomian corpus, not
+solely through Antony's own characterization.
 
 Step3c, Round 1 review Finding M8: the paragraph above previously
 merged those two distinct pairs into one ("both gravity records he is
@@ -98,3 +99,13 @@ Finding M15: the Vita locus named SS89-90 for "his death"; SS89-90 is
 his final visit and age near death, and the death itself is at SS92-93,
 which this record's own dates.died already cited correctly - the locus
 corrected to match.
+
+Step3c, Round 2 review Finding C3: "gave away everything" overstated
+SS2, reopened for the M5 fix above, which has him reserve "a little...
+for his sister's sake" - full renunciation comes later, at SS3.
+Corrected to "gave away nearly everything." Finding M3: the Round 1 fix
+for M8 re-merged the two pairs it was written to keep apart, attributing
+to "his associated gravity records" (withdrawal, spiritual-combat) a
+does-not-threaten-classification statement that elder-authority - not
+spiritual-combat - actually carries. Reworded to state each fact
+separately without merging which records say what.

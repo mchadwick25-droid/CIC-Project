@@ -11,14 +11,14 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the saying's place in the tradition, matching the prior build's cleared Doc_09a rating for the identical material - Inferential/Thin for the specific narrated encounter's historicity, a distinction this record does not collapse. This is this world's own single clearest direct textual evidence for a named amma's own teaching voice, not evidence of a fuller corpus that happens not to have been included here - the thinness itself is genuine, not an artifact of this build's own selection, and desert.source.apophthegmata-patrum's own standing caution (no vendored edition; paraphrase-only) applies here without exception."
+  divergence_note: "Widely Accepted for the saying's place in the tradition, matching the prior build's cleared Doc_09a rating for the identical material - Inferential/Thin for the specific narrated encounter's historicity, and, more broadly, Inferential/Thin for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound for named ammas generally. This record does not narrow that bound to historicity alone; it is one instance of it. This is this world's own single clearest direct textual evidence for a named amma's own teaching voice, not evidence of a fuller corpus that happens not to have been included here - the thinness itself is genuine, not an artifact of this build's own selection, and desert.source.apophthegmata-patrum's own standing caution (no vendored edition; paraphrase-only) applies here without exception."
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "Sarah, Alphabetical Collection - one saying, re-derived from the prior build's cleared Doc_09a Story 2.3, itself independently web-verified as genuine and accurately worded; paraphrase-only here, no vendored edition, no verbatim-quote claim"
 names:
 - name: Sarah
   tag: in-world
-- name: "Amma Sarah (4th-5th c., attested only through the sayings tradition)"
+- name: "Amma Sarah (4th-early 5th c., derived from the sayings tradition's own dating - no date is given for Sarah individually)"
   tag: scholarly
 narratable: true
 bridge_line: "one of a small number of women remembered by name in this world's own teaching tradition - remembered for telling visiting monks who had come to test her that she was a woman by nature but not by her thoughts, and that she was the man among them, and they the women"
@@ -61,3 +61,16 @@ saying's substance in this record's own words rather than reproducing
 Doc_09a's quoted English, consistent with desert.source.apophthegmata-patrum's
 own hard rule that no vendored, machine-checkable file exists for this
 source and no citation of it may claim verbatim status.
+
+Step3c, Round 2 review Finding C4: the scholarly name's "4th-5th c."
+was an unmarked derivation from desert.source.apophthegmata-patrum's
+own "4th-early 5th c." dating of the tradition generally, with nothing
+in this corpus dating Sarah individually - corrected to match the
+source's own range and marked as derived, consistent with this
+record set's own house style (desert.figure.antony.dates.born,
+desert.figure.evagrius.dates.born). Finding C5: divergence_note
+narrowed desert.source.apophthegmata-patrum's own unconditional
+Inferential/Thin bound ("for ANY claim beyond what the surviving
+sayings themselves state") to the narrated encounter's historicity
+alone - broadened to state both, so this record does not carry a
+narrower bound than its own source requires.

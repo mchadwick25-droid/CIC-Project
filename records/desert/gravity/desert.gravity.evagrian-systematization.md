@@ -74,12 +74,17 @@ cited this record's own transmission-history note (paragraph above) as
 flagging an "Origenist-adjacent conceptual affinity" for Evagrius's own
 writing - checked directly against that paragraph, which names only a
 reception history (the 399-400 controversy; the 553 pseudonymous-
-survival pattern), attributes Evagrius's systematized scheme to Greek
-philosophical training under the Cappadocian Fathers (Doc_07 SS2, not
-an Alexandrian channel), and explicitly declines to let either later
-episode decide anything about this record's own classification. No
-conceptual-affinity finding exists here to flag. The false back-
-reference is removed; desert.contested.alexandria-continuity's own
+survival pattern) and explicitly declines to let either later episode
+decide anything about this record's own classification. No conceptual-
+affinity finding exists in this paragraph to flag, and it makes no
+claim about where Evagrius's own scheme came from. (The Cappadocian
+attribution - Greek philosophical training, not an Alexandrian channel
+- is real, but it lives at Doc_07 SS2 and in desert.source.evagrius-praktikos's
+own author field, not in this record; Step3c Round 2 review Finding S1
+caught this record's own first correction attempt misattributing it
+here too, and this note is now written to point at its actual location
+rather than restate it as if this paragraph carried it.) The false
+back-reference is removed; desert.contested.alexandria-continuity's own
 concession was rebuilt on this corpus's actual Origenist-adjacent
 thread (Rubenson's contested reading of the Letters of Antony,
 desert.contested.antony-literacy), and this record carries no relation
