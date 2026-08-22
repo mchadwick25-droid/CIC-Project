@@ -594,22 +594,32 @@ now done too; see the entries above. Stage 5 is closed out as of commit
   Mark's own empirical call from prior usage elsewhere in this project;
   explicitly flagged as provisional pending real cost/quality
   measurement, unlike §9.5's four signed-off forks.
-- **The glossary/story/quote retrofit task is drafted, the gate is live,
-  but the task itself has not been sent to the six content threads** -
-  the single most concrete unstarted action as of this note (top
-  section).
+- **The glossary/story/quote retrofit is DONE.** Sent to all six content
+  threads, populated, PR'd (#18-#23), independently re-verified against
+  the real gate battery (not just each PR's own claim - two real gaps
+  found and fixed in the process: a missing CI dependency common to all
+  six, and three worlds that recompiled late), and merged into
+  `build/phase-1`. Every real world plus `fix` now returns zero findings
+  from the full M1 gate battery. See
+  `Redesign-Spec/Glossary-Story-Quote-Template.md`'s own status line for
+  the full account.
 - **Desert's External Scholarly Review** (Doc_09c §4's other named
   freeze-eligibility gate, distinct from the living-tradition-
   differentiation review this thread already closed) — needs an actual
   patristics/late-antique-monasticism specialist. Not blocking anything
   currently in flight; blocking Frozen status whenever that's raised.
-- **Credential rotation still outstanding** (carried forward from the
-  stage-6 entry below, still true): the AWS access key
-  (`cic-bedrock-dev`, account `468683594478`) is still the one pasted
-  directly in chat, now in even wider live use across this session's own
-  real Bedrock calls (M4 turn-loop evidence, M8 instrumentation).
-  Rotating/deleting it is still the right move once this phase of dev
-  work actually slows down.
+- **Credential rotation still outstanding, and the key may already be
+  dead.** The AWS access key (`cic-bedrock-dev`, account
+  `468683594478`) pasted directly in chat was tried this session
+  (`engine/provider/preflight.py` against `us-west-2`) as a first real
+  live-model test before rotating it - `sts:GetCallerIdentity` itself
+  returned `InvalidClientTokenId`, meaning the key isn't recognized by
+  AWS at all, not a permissions/region issue. Either it was already
+  rotated/deactivated since being pasted, or something about how it
+  reached this container's env is wrong. Needs Mark to check the IAM
+  console directly - if it still shows Active, something in the
+  handoff broke it; if it doesn't, a fresh key pair is what's actually
+  needed here, not a rotation of a key that's already gone.
 
 ## Currently blocked
 
@@ -617,9 +627,10 @@ now done too; see the entries above. Stage 5 is closed out as of commit
 everything genuinely open now needs either Mark's own action or someone
 this thread cannot substitute for, not more engineering judgment:**
 
-1. **Send the retrofit task.** Drafted, ready, not yet dispatched to the
-   six content threads (top section) - the one item on this whole list
-   that's pure "someone needs to press send," not a design or spend call.
+1. **The AWS credential.** `cic-bedrock-dev` failed `GetCallerIdentity`
+   from this container - `InvalidClientTokenId`. Mark needs to check the
+   IAM console (open decisions section above) before any further live
+   Bedrock testing can happen from this session.
 2. **Step 7 (admission) and M7 (transcript audit)**, for every world -
    both need real live-model spend/data and both stay explicitly reserved
    for Mark's own go-ahead, the same discipline this file has held since

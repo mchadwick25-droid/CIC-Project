@@ -7,28 +7,38 @@ produce the same shape of answer to the same question — "how might a
 modern reader mishear this, and what did this world actually mean by it"
 — instead of six different interpretations of "upgrade your glossary."
 
-**Status as of 2026-08-22: ENFORCED.** Mark authorized sending the
-retrofit task to all six content-world threads once all seven worlds
-(alx, hal, pahc, ijc, syr, desert, plus the fix fixture) had cleared
-their own content canon. The switch is flipped: `distortion_risk`
-(term)/`modern_contrast` (story)/`modern_lens_note` (quote)/
-`classification` (gravity)/`matrix_cell` (force) are now in
-`engine/m1/gates.py`'s `COMPLETION_REQUIRED`; `false_friend` and
-`senses.translational` (term) are enforced by a dedicated gate,
-`gate_glossary_retrofit_complete`, since their own completion semantics
-(a typed empty list is a valid, complete answer; a nested path) don't fit
-`COMPLETION_REQUIRED`'s flat not-blank check. `fix` (the CI fixture, owned
-by engineering, not a content thread) is already retrofitted and gate-
-clean. Every other registered world now fails `completion-per-type` on
-exactly the fields below - that's the real, current scope of each
-thread's own retrofit task, not a regression:
+**Status as of 2026-08-22: COMPLETE.** All six content-world threads
+(alx, hal, pahc, ijc, syr, desert) populated the fields below across
+their own already-built record sets and opened retrofit PRs (#18-#23);
+each was independently re-verified against the real gate battery on its
+own records (not just trusted from the PR's own claim), recompiled where
+needed, brought current against a same-day CI fix (see below), and
+merged into `build/phase-1`. Every registered real world - plus `fix`,
+the CI fixture, retrofitted directly since it's engineering-owned - now
+returns **zero** findings from the full M1 gate battery, including
+`glossary-retrofit-complete`. `distortion_risk` (term)/`modern_contrast`
+(story)/`modern_lens_note` (quote)/`classification` (gravity)/
+`matrix_cell` (force) are enforced via `COMPLETION_REQUIRED`;
+`false_friend` and `senses.translational` (term) via the dedicated
+`gate_glossary_retrofit_complete` gate, since their own completion
+semantics (a typed empty list is a valid, complete answer; a nested path)
+don't fit `COMPLETION_REQUIRED`'s flat not-blank check.
 
-- `alx`: 62 findings
-- `hal`: 67 findings
-- `pahc`: 52 findings
-- `ijc`: 59 findings
-- `syr`: 55 findings
-- `desert`: 56 findings
+Two real defects surfaced and were fixed during the merge, neither in
+the threads' own content: (1) the CI job running `engine/m3/tests`
+never installed the `anthropic` package that `engine/m3/generation.py`
+now transitively imports via `engine/m4/generation.py` - a pre-existing
+gap on `build/phase-1` itself, hit identically by all six PRs; fixed in
+`.github/workflows/ci.yml`. (2) alx, desert, and ijc pushed retrofit
+content without recompiling, leaving `validation/gates-report.json`
+stale against the new content; each was recompiled (determinism-check
+byte-identical) before merge. hal, syr, and pahc had already recompiled
+correctly on their own.
+
+What's still real follow-up, not blocking this task's completion: the
+compiled-artifact wiring (a lightweight glossary-style index for a
+hover UI) and frontend consumption, both named out of scope in SS4
+below from the start.
 
 ## SS1. Term (glossary) — already proven, formalize as-is
 
