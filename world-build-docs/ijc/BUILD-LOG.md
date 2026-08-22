@@ -1,6 +1,6 @@
 # Imperial and Juridical Christianity (`ijc`) — Record-Set Build Log
 
-**Branch:** `world/ijc` (base `build/phase-1`) · **Built:** 2026-08-21–22 · **Scope:** spec §4.3 steps 2–5 (source ecology → interpretive lexicon → ecology reconstruction → answer canon → representative identity confirmation, voice_craft, demonstration). **Compile (6), admission (7), open (8): intentionally NOT started** — that stage still waits on the M4 live-generation design, per the standing instruction.
+**Branch:** `world/ijc` → merged to `build/phase-1` (PR #14, 2026-08-22) → continued on `claude/ijc-world-build-b9p7hr`, restarted from post-merge `build/phase-1` · **Built:** 2026-08-21–22 · **Scope:** spec §4.3 steps 2–5 (source ecology → interpretive lexicon → ecology reconstruction → answer canon → representative identity confirmation, voice_craft, demonstration), plus the cross-thread glossary/story/quote retrofit (§11). **Compile (6), admission (7), open (8): intentionally NOT started** — that stage still waits on the M4 live-generation design, per the standing instruction.
 
 **Settled ground built from (not reopened):** the per-world Step 0 confirmation (2026-07-19, Approved to proceed, Round 3) and Doc_01 (Approved to proceed, Round 2 cosmetic only) — identity ("office-holders, not congregants"), window 312–451, three strands, Homoian recentering, skew disclosure, Living Tradition PENDING.
 
@@ -10,7 +10,7 @@
 
 154 records in `records/ijc/`: 1 world_core · 23 source · 23 search_record · 12 term · 6 gravity · 10 force · 7 contested_claim · 12 figure · 22 quote · 9 story · 12 doctrinal_witness · 7 honest_limit · 1 voice_craft · 9 demonstration (this tally corrected here to match the loader's own count directly - it had drifted stale across the confirmation-review rounds' own additions before this pass). 142 answer-canon records plus the step-5 voice/demonstration set of 12, after the step-5 adversarial review's own fixes - see §§9-10. Registry entry in `records/worlds.yaml` updated to `state: building` with the representative identity confirmed (§9).
 
-**M1 gate battery: 13/13 clean** (schema, referential, reciprocity, completion, narratability, quote-recording, alias-safety, distribution-health, confidence-crosscheck, rights, readability, canon-coverage, no-build-attribution) — re-verified against the full 154-record set including the new voice_craft, quote, and demonstration records. **Canon coverage: all 28 cells — 21 substantive, 7 honest-limited** (C-P, F1-T, F2-P, F4-P, F5-I, F5-T, F6-E), each honest limit with in-voice statement, cause, and nearest material.
+**M1 gate battery: 14/14 clean** (schema, referential, reciprocity, completion, narratability, glossary-retrofit-complete, quote-recording, alias-safety, distribution-health, confidence-crosscheck, rights, readability, canon-coverage, no-build-attribution) — re-verified against the full 154-record set, including the retrofit fields added in §11. **Canon coverage: all 28 cells — 21 substantive, 7 honest-limited** (C-P, F1-T, F2-P, F4-P, F5-I, F5-T, F6-E), each honest limit with in-voice statement, cause, and nearest material.
 
 ## 2. Stage discipline
 
@@ -344,3 +344,57 @@ in short supply here - a close human reading was.
 1 new demonstration). **Record count:** 142 → 154 (12 new: 1 voice_craft, 9 demonstration, 2 quote).
 
 No fix in this section reopened Step 0, Doc_01, or the answer canon's settled ground.
+
+## 11. Glossary/story/quote modern-vs-world contrast retrofit (2026-08-22)
+
+Populated the five fields the cross-thread retrofit (`Redesign-Spec/Glossary-Story-Quote-Template.md`,
+switch flipped on `build/phase-1` after all seven worlds cleared their content canon) added to
+`COMPLETION_REQUIRED`/`gate_glossary_retrofit_complete`: `term.distortion_risk` (12 records),
+`story.modern_contrast` (9 records), `quote.modern_lens_note` (22 records), `gravity.classification`
+(6 records), `force.matrix_cell` (10 records) — 59 records, matching the 59 `completion-per-type`
+findings the retrofit's own switch flip produced against this world's set. `term.false_friend` and
+`senses.translational` were already populated by convention on every term and needed no fixes.
+
+This is compression of reasoning already on record, not new research:
+
+- **`gravity.classification`** and **`force.matrix_cell`** are fully mechanical - both were already
+  encoded as free text in every gravity/force record's own `name` bracket (e.g. `[PRIMARY]`,
+  `[2B - ongoing/internal]`), a direct carry-forward of the reviewed Doc_04/Doc_08 classifications.
+  Extracted and set as the new structured fields with no new judgment calls.
+- **`term.distortion_risk`** (low/medium/high) was assigned per term by reading each term's own
+  already-written `senses.translational` bridge sentence and `false_friend[]` list and judging how
+  sharp the misreading risk actually is, calibrated relative to this world's own most consequential
+  terms: `high` where a misreading would distort a central, live, or ethically fraught claim this
+  world's own record makes (`ijc.term.concilium`, `ijc.term.haeresis`, `ijc.term.homoios`,
+  `ijc.term.homoousios`, `ijc.term.imperator-intra-ecclesiam`, `ijc.term.primatus` - the authority
+  contest, the Homoian-recentering obligation, and the primacy/church-state claims all sit here);
+  `medium` for a real but more contained conceptual gap (`ijc.term.communio`, `ijc.term.nea-rhome`,
+  `ijc.term.presbeia`); `low` where the modern reader's basic intuition is roughly right and only the
+  vocabulary needs correcting (`ijc.term.basilica`, `ijc.term.martyrium`, `ijc.term.tomus`).
+- **`story.modern_contrast`** was drafted per story from its own `narrative_tier_justification`,
+  `absent_detail`, and gravity/force connections - e.g. `ijc.story.callinicum-synagogue`'s contrast
+  names directly what its own trailing body already states (the same sacramental leverage that
+  restrains a throne elsewhere here shields arsonists), and `ijc.story.vigil-in-basilica`'s corrects
+  the likeliest modern mis-mapping (church-vs-secular-state) against what the record actually shows
+  (an intra-Christian contest, the Homoian confession then being the empire's own). No story needed
+  the explicit-none form - every one of this world's nine stories carries a real modern-misreading risk
+  worth naming.
+- **`quote.modern_lens_note`** stayed strictly to vocabulary/imagery legibility, per the retrofit's own
+  discipline (never softening or editorializing a quote's content): archaic address forms ("your
+  Clemency's rule," "Thy handmaid"), technical patristic vocabulary read in its modern sense ("nature,"
+  "form," "Person"), an unnamed visual referent (the Chi-Rho monogram in `ijc.quote.lactantius-dream`),
+  an unmarked scriptural allusion (`ijc.quote.leo-rome-apostles`), and words whose modern sense would
+  actively mislead (`ijc.quote.sozomen-thessalonica-law`'s "Catholic Church" meaning "universal," not
+  the later denominational sense). Two quotes (`ijc.quote.ambrose-cannot-surrender`,
+  `ijc.quote.julius-custom`) carry no real vocabulary/imagery risk and use the explicit-none form.
+
+**Not done, per the retrofit's own scope note:** compiler wiring (no lightweight glossary-style index
+exists yet for a hover UI to query) and frontend implementation - both named follow-up engineering on
+`build/phase-1`, not part of this thread's task.
+
+**Gates:** 14/14 clean (13 plus the new `glossary-retrofit-complete`), re-verified against the full
+154-record set. **Record count:** unchanged at 154 (five fields added across 59 existing records, no
+new records).
+
+No fix in this section reopened Step 0, Doc_01, the answer canon, or the step-5 voice build's settled
+ground.
