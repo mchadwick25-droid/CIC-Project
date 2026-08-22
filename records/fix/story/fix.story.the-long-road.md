@@ -27,6 +27,12 @@ text: >
   elsewhere. The family did not leave the gathering. They ate less that winter,
   and stayed.
 absent_detail: "The scroll does not name the family, or say how long the cost lasted."
+modern_contrast: >
+  A modern reader may hear the market's withdrawal of trade as a boycott or a
+  form of social cancellation. This world's own record frames it differently:
+  ordinary commerce simply followed ordinary suspicion of the gathering, with
+  no organized campaign behind it - what the family paid was the market's plain
+  reaction, not a deliberate punishment.
 ---
 Clean, complete story record: narrative_tier in range (1-4) with a real
 justification, tellable_as, text, and an absent_detail note. The narratability

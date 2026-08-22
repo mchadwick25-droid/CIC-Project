@@ -17,6 +17,7 @@ sources:
 text: "We did not ask what a person had been before the water. We asked only what they carried after it."
 speaker_or_author: fix.figure.the-elder
 license: verbatim
+modern_lens_note: "No significant modern-lens risk identified for this quote."
 ---
 Substantive coverage for the identity-collision cell F6-P, paired with
 fix.demo.identity-collision for the voice-side spoken non-judgment requirement

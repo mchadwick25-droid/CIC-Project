@@ -18,12 +18,24 @@ FK_CEILING = 10
 COMPLETION_REQUIRED = {
     "world_core": ["time_window", "horizon", "formation_logic", "thinness", "cautions"],
     "source": ["author", "work", "edition", "rights_status", "attribution_status", "discovery_channel"],
-    "term": ["plain_meaning", "world_word", "senses", "quick_meaning"],
-    "story": ["narrative_tier", "narrative_tier_justification", "tellable_as", "text"],
-    "quote": ["text", "speaker_or_author", "license"],
+    # distortion_risk added 2026-08-22: the glossary/story/quote modern-
+    # vs-world contrast retrofit (Redesign-Spec/Glossary-Story-Quote-
+    # Template.md) - the retrofit's own trigger, per that doc's own words
+    # ("Mark flips that switch when the retrofit task is actually sent to
+    # all six threads"). false_friend and senses.translational are ALSO
+    # required by the retrofit but aren't listed here: false_friend's own
+    # typed-empty-list "none identified" state (_is_blank([]) is True, so
+    # this dict's simple not-blank check would wrongly flag a real,
+    # complete "none" as missing) and senses.translational's nested path
+    # both need real logic this flat per-type list can't express - see
+    # gate_glossary_retrofit_complete below, the dedicated gate for
+    # exactly those two fields.
+    "term": ["plain_meaning", "world_word", "senses", "quick_meaning", "distortion_risk"],
+    "story": ["narrative_tier", "narrative_tier_justification", "tellable_as", "text", "modern_contrast"],
+    "quote": ["text", "speaker_or_author", "license", "modern_lens_note"],
     "figure": ["names", "narratable", "bridge_line"],
-    "gravity": ["name", "description"],
-    "force": ["name", "description"],
+    "gravity": ["name", "description", "classification"],
+    "force": ["name", "description", "matrix_cell"],
     "contested_claim": ["claim", "held_against", "concedes"],
     "doctrinal_witness": ["text", "positions", "tensions"],
     "honest_limit": ["statement", "why_sources_cannot_answer", "nearest_material"],
@@ -124,6 +136,31 @@ def gate_narratability(records, fleet, registry) -> list[str]:
             findings.append(f"{rid}: tellable_as is required and must be non-empty")
         if _is_blank(rec.get("text")):
             findings.append(f"{rid}: text is required and must be non-empty")
+    return findings
+
+
+def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
+    """The two glossary/story/quote retrofit fields COMPLETION_REQUIRED's
+    flat per-type list can't express correctly (Redesign-Spec/Glossary-
+    Story-Quote-Template.md SS1) - same discipline as gate_narratability's
+    own dedicated nested checks for story, applied here to term:
+
+    - term.false_friend: a typed array, and its own empty-list state
+      ("none identified") is COMPLETE, not missing - the same sentinel
+      rule Artifact-1 already applies to retrieve_when. Required here is
+      "the key is present and not None," never "the list is non-empty."
+    - term.senses.translational: the actual today-vs-world bridge
+      sentence - required to be a real, non-blank string; senses itself
+      being present (COMPLETION_REQUIRED's own check) says nothing about
+      whether this specific nested field was ever filled in."""
+    findings = []
+    for rid, rec in records.items():
+        if rec.get("record_type") != "term":
+            continue
+        if "false_friend" not in rec or rec["false_friend"] is None:
+            findings.append(f"{rid}: missing required field 'false_friend' (an empty list is a valid 'none identified' - omitting the field is not)")
+        if _is_blank((rec.get("senses") or {}).get("translational")):
+            findings.append(f"{rid}: missing required field 'senses.translational'")
     return findings
 
 
@@ -346,6 +383,7 @@ GATES = {
     "reciprocity": gate_reciprocity,
     "completion-per-type": gate_completion_per_type,
     "narratability": gate_narratability,
+    "glossary-retrofit-complete": gate_glossary_retrofit_complete,
     "quote-recording": gate_quote_recording,
     "alias-safety": gate_alias_safety,
     "distribution-health": gate_distribution_health,

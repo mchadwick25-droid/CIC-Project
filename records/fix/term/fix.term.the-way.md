@@ -29,6 +29,7 @@ senses:
   personal: "What it felt like to be named as one who walked The Way."
   translational: "Not a physical road or trail. A name for a whole way of living."
 quick_meaning: "Our own name for our shared way of life together."
+distortion_risk: low
 ---
 Positive-case: retrieve_when/do_not_retrieve_when are proper empty arrays (the
 sentinel rule - Artifact-1 §3 - forbids "n/a" or an em-dash here; the DEFECT

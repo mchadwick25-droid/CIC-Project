@@ -17,6 +17,7 @@ sources:
 name: "Witness under social cost"
 description: "This world's center of gravity: belonging is proven by what it costs, not by what it grants; the community's identity organizes around staying, not around gaining."
 manifestations: [fix.story.the-long-road]
+classification: primary
 ---
 Note (honest about scope, not a spec ruling): Artifact-1 does not fully specify
 gravity/force's internal field shape beyond what contested_claim gets (claim,

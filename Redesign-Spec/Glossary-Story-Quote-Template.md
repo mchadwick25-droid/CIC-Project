@@ -7,14 +7,28 @@ produce the same shape of answer to the same question — "how might a
 modern reader mishear this, and what did this world actually mean by it"
 — instead of six different interpretations of "upgrade your glossary."
 
-**Status as of 2026-08-22: schema-ready, not yet enforced.** The fields
-below are live in `engine/m1/schemas.py` (validate correctly wherever
-populated) but deliberately NOT yet in `engine/m1/gates.py`'s
-`COMPLETION_REQUIRED` — adding them there is the actual retrofit trigger,
-and flipping it now would break every already-built world's currently
-clean gate battery. Mark flips that switch when the retrofit task is
-actually sent to all six threads; until then this is a template to build
-toward, not a live requirement.
+**Status as of 2026-08-22: ENFORCED.** Mark authorized sending the
+retrofit task to all six content-world threads once all seven worlds
+(alx, hal, pahc, ijc, syr, desert, plus the fix fixture) had cleared
+their own content canon. The switch is flipped: `distortion_risk`
+(term)/`modern_contrast` (story)/`modern_lens_note` (quote)/
+`classification` (gravity)/`matrix_cell` (force) are now in
+`engine/m1/gates.py`'s `COMPLETION_REQUIRED`; `false_friend` and
+`senses.translational` (term) are enforced by a dedicated gate,
+`gate_glossary_retrofit_complete`, since their own completion semantics
+(a typed empty list is a valid, complete answer; a nested path) don't fit
+`COMPLETION_REQUIRED`'s flat not-blank check. `fix` (the CI fixture, owned
+by engineering, not a content thread) is already retrofitted and gate-
+clean. Every other registered world now fails `completion-per-type` on
+exactly the fields below - that's the real, current scope of each
+thread's own retrofit task, not a regression:
+
+- `alx`: 62 findings
+- `hal`: 67 findings
+- `pahc`: 52 findings
+- `ijc`: 59 findings
+- `syr`: 55 findings
+- `desert`: 56 findings
 
 ## SS1. Term (glossary) — already proven, formalize as-is
 

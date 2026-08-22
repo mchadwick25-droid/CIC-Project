@@ -17,6 +17,7 @@ sources:
 text: "What is written for the initiate alone is not for the crowd, and not for the voice to speak."
 speaker_or_author: fix.figure.the-elder
 license: do-not-voice
+modern_lens_note: "No significant modern-lens risk identified for this quote."
 ---
 The do-not-voice positive case (Artifact-1 §4): ships in quotes.json (M2) so a
 violation is recognizable, but the voice must never speak it. The quote-recording

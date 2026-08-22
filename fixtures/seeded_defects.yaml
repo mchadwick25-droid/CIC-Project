@@ -54,6 +54,14 @@ defects:
     mutation: {op: set_field, path: narrative_tier, value: 5}
     expected_failure: "narrative_tier 5 outside the declared 1-4 range"
 
+  - id: glossary-retrofit-missing-false-friend
+    gate: glossary-retrofit-complete
+    layer: M1
+    target_record: records/fix/term/fix.term.the-way.md
+    mutation: {op: delete_field, path: false_friend}
+    expected_failure: "term missing required field false_friend - omitting the key is not the same as the typed empty-list 'none identified' state"
+    note: "Redesign-Spec/Glossary-Story-Quote-Template.md's own retrofit gate - proves gate_glossary_retrofit_complete distinguishes 'field absent' (a real defect) from 'false_friend: []' (a valid, complete answer), which a plain completion-per-type blank check would get wrong."
+
   - id: quote-recording-invalid-license
     gate: quote-recording
     layer: M1

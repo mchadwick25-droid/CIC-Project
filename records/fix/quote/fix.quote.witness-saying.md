@@ -17,6 +17,7 @@ sources:
 text: "I did not see him. I only saw what his witnesses could not stop telling."
 speaker_or_author: fix.figure.the-elder
 license: verbatim
+modern_lens_note: "No significant modern-lens risk identified for this quote."
 ---
 Clean, sourced, licensed quote covering C-P (the "I want to believe but I can't"
 personal cell). The M3-admission fabrication DEFECT (fixtures/seeded_defects.yaml)

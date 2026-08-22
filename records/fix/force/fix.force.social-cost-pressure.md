@@ -18,5 +18,6 @@ name: "Ongoing social cost"
 kind: ongoing
 description: "Trade and standing withdrawn from households that stayed visibly gathered; an ongoing force (not initiating or ending) that shaped how the community held together."
 manifestations: [fix.story.the-long-road]
+matrix_cell: "2A"
 ---
 Same placeholder-shape note as fix.gravity.witness-under-pressure.

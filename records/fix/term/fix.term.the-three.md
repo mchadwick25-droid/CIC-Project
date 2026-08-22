@@ -29,6 +29,7 @@ senses:
   personal: "What it meant to pray to Father, Son, and Spirit as one people, one hope."
   translational: "Not the word 'Trinity' - that word is later. The subject underneath it is ours; the label is not."
 quick_meaning: "Father, Son, and Spirit, named together, before the later word for it."
+distortion_risk: medium
 ---
 Fleet bridge target for _fleet.modern.trinity (native_subject_map.fix). Also the
 positive-case reciprocal-relation partner for fix.term.the-way (associated-with is
