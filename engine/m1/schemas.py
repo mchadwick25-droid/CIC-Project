@@ -175,11 +175,19 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "tellable_as": {"type": "string"},
         "text": {"type": "string"},
         "absent_detail": {"type": "string"},
+        # Story's own version of term's senses.translational (Glossary/
+        # Story/Quote Template SS2) - not yet in COMPLETION_REQUIRED;
+        # existing story records validate unchanged without it.
+        "modern_contrast": {"type": "string"},
     },
     "quote": {
         "text": {"type": "string"},
         "speaker_or_author": {"type": "string"},
         "license": {"enum": ["verbatim", "paraphrase-only", "do-not-voice"]},
+        # Quote's own version of term's senses.translational (Glossary/
+        # Story/Quote Template SS3) - not yet in COMPLETION_REQUIRED;
+        # existing quote records validate unchanged without it.
+        "modern_lens_note": {"type": "string"},
     },
     "figure": {
         "names": {
