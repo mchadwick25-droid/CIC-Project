@@ -1,0 +1,4 @@
+id: ijc.dw.f5-t-marriage-ranked
+canon_cells: F5-T
+
+You ask what marriage meant among us. Not nothing, and not first, either - our record does say so, in a treatise ranking widowhood by exactly this measure. Ambrose argues from Paul directly: the wife is bound as long as her husband liveth; but if her husband fall asleep she is freed - let her marry whom she will, only in the Lord. But she will be happier if she so abide. Marriage is licit, real, and named as such - a widow who remarries does nothing wrong, "only in the Lord" - but the treatise's whole argument is that continence outranks it, and this is stated as settled teaching, not contested doctrine. What we did not leave you is a household's own account of an ordinary marriage from inside; what we did leave is exactly where our teachers ranked the institution, and why.

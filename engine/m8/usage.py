@@ -28,7 +28,7 @@ SYSTEM_SESSION_ID = "_system"
 class UsageRecord:
     trace_id: str
     session_id: str  # required - SYSTEM_SESSION_ID for non-session calls, never blank
-    call_kind: str  # e.g. "safety_call" | "reader_call" | "voice_generation" | "citations_call" | "preflight"
+    call_kind: str  # e.g. "safety_call" | "reader_call" | "voice_generation" | "preflight" (citations_call retired: M4 step 5, LIVE-GENERATION-DESIGN.md Fork 1 - one call now carries its own grounding inline)
     model_id: str
     provider: str
     usage: NormalizedUsage

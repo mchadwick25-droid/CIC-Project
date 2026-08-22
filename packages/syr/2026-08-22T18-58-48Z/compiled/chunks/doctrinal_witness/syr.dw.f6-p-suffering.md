@@ -1,0 +1,4 @@
+id: syr.dw.f6-p-suffering
+canon_cells: F6-P
+
+Why does God allow suffering like this - where was he when it happened? This world asked that question with blood in its mouth, and it left its answer. The sage, taunted that his people's prayers had not stopped the killing, did not claim they had. He answered with a roll-call: Abel was murdered, and his blood cried out. Jacob was persecuted, and fled. Joseph was persecuted, and sold into the pit. Moses was persecuted, and fled to Midian. David was persecuted at the hands of Saul - and Jesus was persecuted. The persecuted, he meant, are not the abandoned; they stand in the longest line in Scripture, and God's answer to that line has never been exemption but presence and resurrection. The besieged city prayed on its walls and was sometimes spared and sometimes not; the church buried its bishops and did not stop praying. That is where their God was: with the persecuted, as he was with his Son.

@@ -29,9 +29,56 @@ def _one(records: dict, record_type: str) -> dict | None:
 
 # ---- compiled/prompt.txt ----------------------------------------------
 
+# LIVE-GENERATION-DESIGN.md §5.2: the fleet's one register/pronoun/
+# citation-contract/limit-discipline segment, compiled from the fleet's
+# own fleet_voice record (records/_fleet/fleet_voice/) rather than
+# hand-edited per world (principle 3: prompt content is records, never
+# code) - first in the file, so it reads as the voice's own standing
+# instruction, ahead of any one world's own identity.
+def _fleet_voice_record(fleet: dict) -> dict | None:
+    return _one(fleet, "fleet_voice")
 
-def build_prompt(records: dict) -> bytes:
+
+def build_fleet_preamble(fleet: dict, registry_entry: dict) -> list[str]:
+    """Returns the preamble's own emitted segments (already `## Header`-
+    formatted, same shape build_prompt's other segments use) - a list, not
+    bytes, so build_prompt can splice it in front of everything else with
+    no format translation. Empty list (not an error) when the fleet record
+    doesn't exist yet, or hasn't cleared its completion gate - a package
+    can still compile without it, same as any other not-yet-required field.
+
+    The pronoun rule's `{world}` placeholder is filled from this world's
+    own registry `display_name` - real, already-existing registry data,
+    never a fresh, hand-composed-per-world phrase (the fleet record's own
+    trailing body names this exact substitution as the compiler's call to
+    make; using the registry's own name field, rather than inventing a new
+    poetic epithet per world, keeps the fill mechanical and DECIDABLE)."""
+    record = _fleet_voice_record(fleet)
+    if record is None:
+        return []
+
     segments: list[str] = []
+
+    def emit(header: str, body: str | None) -> None:
+        if body and body.strip():
+            segments.append(f"## {header}\n\n{body.strip()}\n")
+
+    statements = sorted(record.get("register_statements") or [], key=lambda s: s["number"])
+    if statements:
+        emit("Register", "\n".join(f"{s['number']}. {s['statement']}" for s in statements))
+
+    world_name = registry_entry.get("display_name") or "this world"
+    pronoun_rule = record.get("pronoun_rule")
+    if pronoun_rule:
+        emit("Pronoun rule", pronoun_rule.replace("{world}", world_name))
+
+    emit("Citation contract", record.get("citation_contract"))
+    emit("Limit discipline", record.get("limit_discipline"))
+    return segments
+
+
+def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
+    segments: list[str] = build_fleet_preamble(fleet, registry_entry)
 
     def emit(header: str, body: str | None) -> None:
         if body and body.strip():
@@ -269,6 +316,36 @@ def build_coverage_json(records: dict, fleet: dict) -> bytes:
             "forces": [rid for rid in analytical_ids if records[rid]["record_type"] == "force"],
             "contested_claims": [rid for rid in analytical_ids if records[rid]["record_type"] == "contested_claim"],
         }
+    return canonical_json(out)
+
+
+# ---- compiled/indexes/canon-map.json --------------------------------------
+# LIVE-GENERATION-DESIGN.md §3.2, Stage A's own compile-time cache: a
+# per-cell keyword corpus plus that cell's own canon_question texts,
+# derived once via engine.m1.canon.cell_keywords - the identical
+# derivation engine.m4.evidence.match_asks_to_cells scores a live turn's
+# asks against. Not yet READ by the live turn loop (M4 still derives this
+# live, correctly, straight from the fleet records) - this lands the
+# artifact, hash-verified like everything else in the package, ahead of
+# that read switching over; landing the cache before the read exists is
+# the safer order (a bug in an unread file breaks nothing).
+
+
+def build_canon_map_json(fleet: dict) -> bytes:
+    cell_words = canon.cell_keywords(fleet)
+    cell_questions: dict[str, list[str]] = {}
+    for record in fleet.values():
+        if record.get("record_type") != "canon_question" or not record.get("cell"):
+            continue
+        cell_questions.setdefault(record["cell"], []).append(record.get("text") or "")
+
+    out = {
+        cell: {
+            "keywords": sorted(cell_words.get(cell, set())),
+            "questions": sorted(cell_questions.get(cell, [])),
+        }
+        for cell in sorted(canon.valid_cells(fleet))
+    }
     return canonical_json(out)
 
 

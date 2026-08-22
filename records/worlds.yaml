@@ -12,8 +12,8 @@ worlds:
     state: built            # gates green (stage 1) + a compiled package (stage 2); never advances past built - not a real world, never admitted or open
     census_id: null        # not an Atlas entry - synthetic only
     package:
-      manifest_hash: "sha256:a3d760008cab4effbd4a41174e015e15acb489d5328ac9fd42556bf9369ee428"
-      location: "packages/fix/2026-08-20T20-47-35Z"
+      manifest_hash: "sha256:a5951897de5690bc33afcbc77ea52c2520a6007ea5c9ff79d488efaf37740ec0"
+      location: "packages/fix/2026-08-22T18-58-46Z"   # recompiled: M4 step 4 (fleet preamble in build_prompt + compiled/indexes/canon-map.json) changed the compiler's own output for every world - caught by the M2 staleness sweep. Records unchanged by this commit; recompile only.
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
   desert:
@@ -27,3 +27,55 @@ worlds:
     package: null           # no compiled package - step 6 not reached
     thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
     living_tradition_flag: true   # set as a plain factual matter, per Doc_09c SS4's own words: "Desert Monasticism's direct historical descendants (Coptic Orthodox monasticism, and more broadly the Eastern and Western monastic traditions descending in part from this world via Cassian's transmission)... constitute a living tradition" - NOT a prior-framework confirmed determination: Doc_09c SS4 explicitly states "this document has not conducted a living-tradition-differentiation review" and names that review as a required, unperformed freeze-eligibility gate, distinct from the underlying factual claim the flag itself records - the doorway carries the living-tradition distinction meanwhile (fail toward disclosure), and the differentiation review itself remains open, carried forward in DECISION-LOG.md
+  pahc:
+    world_id: post-apostolic-house-church
+    display_name: "Post-Apostolic House-Church Christianity"
+    time_window: {start: 70, end: 200}
+    place: "Antioch/Syria, Asia Minor, Rome"
+    representative: {name: Chloe, role_label: "Household Leader"}   # step 5a deliverable (Mark's per-world touchpoint, spec SS4.3); re-confirmed directly with the project lead against the new-regime records (records/pahc/voice_craft/pahc.craft.chloe-voice.md) at Step 11, not carried forward unexamined from the prior-framework build
+    state: built             # step 6 compile done 2026-08-22: determinism-check byte-identical, package built, stub-loader verified - mechanical gates-green transition only (Artifact-1 SS2), same semantics as alx/fix's own built state; NOT admitted or open - step 7 (admission, live-model) and Mark's touchpoints still pending
+    census_id: "post-apostolic-house-church"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.1") - the census entry's own id field, the value the Atlas deep link sends (same convention verified for alx)
+    package:
+      manifest_hash: "sha256:cc44f137d5a5bbfd6fbfb650e787d1b11c1c91f86820059d9d9818e505c2a7d8"
+      location: "packages/pahc/2026-08-22T18-58-48Z"   # recompiled: M4 step 4 (fleet preamble in build_prompt + compiled/indexes/canon-map.json) changed the compiler's own output for every world - caught by the M2 staleness sweep. Records unchanged; recompile only.
+    thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
+    living_tradition_flag: true   # prior-framework determination confirmed by Mark (2026-07-31): universal descent - every later church looks back to rooms like these - with a strict non-identity discipline (this is a bounded historical reconstruction, not any present-day church's self-account). Carried forward with re-confirmation under the new spec pending; the doorway carries the distinction meanwhile (fail toward disclosure).
+  hal:
+    world_id: hieronymian-ascetic-literary
+    display_name: "Hieronymian Ascetic-Literary Christianity"
+    time_window: {start: 382, end: 420}
+    place: "Bethlehem and Rome"
+    representative: {name: Albina, role_label: "Widow of the Household"}   # Mark's ruling (2026-08-22), step-5a touchpoint (Build-Blueprint SS4): a voice of the Bethlehem circle speaking as a widow of the household - formed by renunciation and by the scholarly labor of testing Scripture's Latin words against the Hebrew they were first given in, carrying this circle's whole life, from Rome to Bethlehem. Deliberately not one of this corpus's documented named figures (Marcella, Paula, Eustochium, Fabiola, et al.) - a sanctioned Representative voice per spec principle 14, kept distinct from their own verified quotes/stories. Supersedes the prior framework's preliminary decision (hal_Representative_Identity_Preliminary_Decision.md), which was NOT carried into the new spec. Voice build (voice_craft + demonstration) drafted and adversarially reviewed on this branch; compile (step 6) not yet attempted.
+    state: built             # step 6 compile done 2026-08-22: determinism-check byte-identical, package built, stub-loader verified - mechanical gates-green transition only (Artifact-1 SS2), same semantics as alx/fix's own built state; NOT admitted or open - step 7 (admission, live-model) and Mark's touchpoints still pending
+    census_id: "hieronymian-ascetic-literary"   # cic-website/data/world-census.json entry id (atlasId "I.9") - the census entry's own id field is what the Atlas deep link sends (per the alx verification of atlas-v3.html's data-aid wiring); matches this world's world_id independently
+    package:
+      manifest_hash: "sha256:2135a604bb2e403bb79c174455f461ccacd5e22f16774f11c9c9346fc5f74e41"
+      location: "packages/hal/2026-08-22T18-58-46Z"   # recompiled: M4 step 4 (fleet preamble in build_prompt + compiled/indexes/canon-map.json) changed the compiler's own output for every world - caught by the M2 staleness sweep. Records unchanged; recompile only.
+    thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
+    living_tradition_flag: true   # PROVISIONAL, set toward disclosure (spec principle 6): the living-tradition determination is Mark's per-world touchpoint and has not been made for this world under the new spec. Substance: this is a bounded historical reconstruction of one specific 382-420 network, not today's church of any name - but Jerome, the Vulgate, and Latin monasticism are all claimed inheritances of living traditions (Roman Catholic above all), so until Mark rules, the doorway should carry the distinction rather than omit it. Flipping to false is Mark's call, not the build thread's.
+  syr:
+    world_id: syriac-edessa-nisibis
+    display_name: "Syriac Christianity (Edessa/Nisibis)"
+    time_window: {start: 200, end: 410}
+    place: "The Syriac-speaking ecology across the Roman-Persian Mesopotamian frontier (Edessa, Nisibis, Persian Adiabene)"
+    representative: {name: Yausep, role_label: Mar}   # sanctioned fabrications (spec principle 14) - name and role CONFIRMED by Mark under the new spec, in chat, 2026-08-22, carrying forward the prior-framework decision (Representative_Identity_Preliminary_Decision.md + Phase Two Formation Calibration, 2026-07-07/08: name Yausep; role revised Malpana->Deacon->Mar by Mark's own rulings). Step 5a's full identity-emergence write-up (rationale derived from the completed records) is still owed when the voice build begins; this confirmation settles the name/role themselves, not that remaining paperwork
+    state: built             # step 6 compile done 2026-08-22: determinism-check byte-identical, package built, stub-loader verified - mechanical gates-green transition only (Artifact-1 SS2), same semantics as alx/fix's own built state; NOT admitted or open - step 7 (admission, live-model) and Mark's touchpoints still pending
+    census_id: "syriac-edessa-nisibis"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.7") - same deep-link field the alx entry verified (data-aid = census id); matches this world's own world_id independently
+    package:
+      manifest_hash: "sha256:d7c92bc5e229513e5aec0559dc2c54e7b10d96694bf445bc564ef515e690ffd3"
+      location: "packages/syr/2026-08-22T18-58-48Z"   # recompiled: M4 step 4 (fleet preamble in build_prompt + compiled/indexes/canon-map.json) changed the compiler's own output for every world - caught by the M2 staleness sweep. Records unchanged; recompile only.
+    thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
+    living_tradition_flag: true   # prior-framework confirmation by Mark (2026-07-11, Living Tradition Status CONFIRMED: the Syriac churches - Church of the East, Syriac Orthodox, Eastern Catholic heirs - are living heirs); carried forward with re-confirmation under the new spec flagged as pending - the doorway carries the living-tradition distinction meanwhile (fail toward disclosure)
+  ijc:
+    world_id: imperial-juridical
+    display_name: "Imperial and Juridical Christianity"
+    time_window: {start: 312, end: 451}
+    place: "Rome, Constantinople, Milan"
+    representative: {name: Marius, role_label: "Deacon of the Letters"}   # sanctioned fabrications (spec principle 14) - carried from Mark's own prior-framework decisions, both on the verifiable record: name Marius chosen by Mark directly 2026-07-20 (World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md item 13, overriding the build's "Marcus" recommendation for his own stated reason); participant-facing title "Apocrisiarius - Deacon of the Letters" chosen by Mark 2026-07-22 (same log, item 15). CONFIRMED by Mark, 2026-08-22, in session, at step 5 (spec 4.3): checked against this build's full content canon (142 answer-canon records, three independent Opus adversarial reviews plus two further confirmation passes, 13/13 M1 gates green throughout) and found to hold without qualification - not reopened as a fresh decision, carried forward as the standing pre-rebuild identity, the same way world/syr's own Mar Yausep confirmation is expected to carry forward. See records/ijc/voice_craft/ijc.voice.craft.md and BUILD-LOG.md for the full disposition.
+    state: built             # step 6 compile done 2026-08-22: determinism-check byte-identical, package built, stub-loader verified - mechanical gates-green transition only (Artifact-1 SS2), same semantics as alx/fix's own built state; NOT admitted or open - step 7 (admission, live-model) and Mark's touchpoints still pending
+    census_id: "imperial-juridical-christianity"   # cic-website/data/world-census.json entry id (era 2, atlasId "I.6", shortName "Church & Empire" - the participant-facing card name Mark chose 2026-07-20, Open_Gaps item 12); verified against the census file directly, same id-field convention the alx entry documents
+    package:
+      manifest_hash: "sha256:5d9551836058daac85f23eeeb4fdba1a6ec2c332cb1a4699664a404a0bf877ea"
+      location: "packages/ijc/2026-08-22T18-58-47Z"   # recompiled: M4 step 4 (fleet preamble in build_prompt + compiled/indexes/canon-map.json) changed the compiler's own output for every world - caught by the M2 staleness sweep. Records unchanged; recompile only.
+    thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
+    living_tradition_flag: true   # NOT yet a determination - Living Tradition Status is PENDING Mark's own confirmation (Doc_01 SS1; Constitution Art. 29). Set true meanwhile so the doorway carries the living-tradition distinction (fail toward disclosure, same direction the alx entry documents): this world's Strand A content runs directly into the present-day papacy's own claimed lineage, Strand B's into Eastern Orthodoxy's self-understanding.

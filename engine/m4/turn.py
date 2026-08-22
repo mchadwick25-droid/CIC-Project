@@ -25,12 +25,37 @@ append them to an engine.m8.log_store.UsageLogStore alongside whatever it
 does with the M4 event log. A call whose CallOutcome carries no raw_usage
 (a failed call, or the empty-answer citations shortcut that never calls
 out at all) produces no record - there is nothing to attribute, not a gap.
+
+M4 implementation, step 5 (LIVE-GENERATION-DESIGN.md, forks signed off
+§9.5, 2026-08-22): the two-call shape (a free-text stream, then a forced-
+tool-use follow-up guessing which records it drew on) is retired. One
+call now carries both the answer and its own grounding, via inline
+[[record.id]] tags the compiled prompt's fleet preamble (§5.2) teaches
+every world's voice to emit - engine.m4.generation.call_citations is
+deleted, not merely unused. engine.m4.grounding (the excerpt-match badge
+check against a claimed `drawn_on` list) is untouched and no longer this
+module's net - that list doesn't exist anymore now that citations are
+never guessed after the fact. engine.m4.grounding_net.check_turn is the
+new net: per-sentence, string-only, no model call, run over the raw
+tagged text before any of it is treated as this turn's answer.
+
+Fork 1 (sentence-gated streaming) is honored in its strictest reading
+here, not a looser one: no live token-by-token SSE transport exists yet
+in this codebase (engine.m2.manifest's own compat note says so plainly -
+"no runtime exists yet"), so stream_voice_turn already returns full text
+only once the SDK call completes, never incrementally. Given that, "check
+before it reaches a participant" reduces exactly to what _apply_net does
+below: every sentence is verified before ANY of this turn's text is
+placed on TurnResult.voice_event. When a real per-token transport is
+built, sentence-gating moves into that layer; the check itself does not
+change.
 """
 from dataclasses import dataclass, field
 
-from engine.m4 import crisis_resources
-from engine.m4.generation import call_citations, stream_voice_turn
-from engine.m4.grounding import find_do_not_voice_violation, ground_citations
+from engine.m1.loader import load_fleet_records
+from engine.m4 import crisis_resources, evidence, grounding_net
+from engine.m4.generation import stream_voice_turn
+from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.failure import CallOutcome, resolve_gate
@@ -83,35 +108,95 @@ def _build_voice_system_prompt(world: LoadedWorld, directive: Directive | None) 
     return "\n".join(parts)
 
 
+def _apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
+    """The deterministic net (engine.m4.grounding_net.check_turn) over one
+    turn's raw tagged output: withheld sentences never reach the returned
+    text at all (Fork 1 - see module docstring on what "sentence-gated"
+    means against this codebase's current non-streaming transport); the
+    survivors are re-joined with their tags stripped, and their own tags
+    become this turn's per-sentence citations (Artifact-5's citations
+    event, gaining per-sentence anchors instead of one turn-level list -
+    the SSE-shaped part of step 5; no separate SSE transport exists to
+    wire this into yet, so it rides on TurnResult.voice_event['citations']
+    until one does). Returns (text, citations, net_result) - net_result is
+    kept whole (not just substantive_survives) so a caller can audit every
+    sentence's own verdict, tags, and why, same as the M7 audit input the
+    design names in §6.3."""
+    net_result = grounding_net.check_turn(raw_text, repository_records, thin_topics=thin_topics)
+    surviving = [s for s in net_result["sentences"] if s["verdict"] == "ok"]
+    text = " ".join(s["sentence"] for s in surviving)
+    citations = [{"sentence": s["sentence"], "record_ids": s["tags"]} for s in surviving if s["tags"]]
+    return text, citations, net_result
+
+
 def _run_ordinary_voice_turn(
-    *, voice_client, voice_model_id: str, world: LoadedWorld, participant_message: str, directive: Directive | None, session_id: str
+    *,
+    voice_client,
+    voice_model_id: str,
+    world: LoadedWorld,
+    participant_message: str,
+    directive: Directive | None,
+    session_id: str,
+    already_told_ids: set[str] | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     usage_records = []
+    repository_records = evidence.repository_records_by_id(world.repository)
+    thin_topics = evidence.thin_topics_for(repository_records)
+
+    # EVIDENCE ASSEMBLY (design §3, engine.m4.evidence) - deterministic,
+    # no model call, rides in the per-turn user message (never the cached
+    # system prefix - §3.1/§5's own cache-conscious framing). canon_question
+    # records are fleet-shared, not part of any one world's hash-verified
+    # package, so loaded directly the same way engine.m1.gates already
+    # loads them - not yet cached the way LazyWorldLoader caches a world's
+    # own package (compiled/indexes/canon-map.json exists for exactly this
+    # optimization, engine.m2.builders.build_canon_map_json, but nothing
+    # reads it yet - a follow-up, not a correctness gap: this derives the
+    # identical corpus live, just without the compiled cache).
+    canon_questions = load_fleet_records()
+    turn_evidence = evidence.assemble_evidence(
+        message=participant_message,
+        asks=directive.asks if directive else None,
+        canon_questions=canon_questions,
+        coverage=world.coverage,
+        repository_records=repository_records,
+        thin_topics=thin_topics,
+        already_told_ids=already_told_ids,
+    )
+    evidence_block = evidence.render_evidence_block(turn_evidence)
+    user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
+
     system_prompt = _build_voice_system_prompt(world, directive)
-    stream_outcome = stream_voice_turn(voice_client, voice_model_id, system_prompt=system_prompt, message=participant_message)
+    stream_outcome = stream_voice_turn(voice_client, voice_model_id, system_prompt=system_prompt, message=user_message)
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
     if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id):
         usage_records.append(rec)
-    answer_text = stream_outcome.value.text
 
-    repository_records = {r["id"]: r for r in world.repository["records"]}
-    citations_outcome = call_citations(voice_client, voice_model_id, answer_text=answer_text, available_record_ids=list(repository_records))
-    if rec := _maybe_record_usage(citations_outcome, session_id=session_id, call_kind="citations_call", model_id=voice_model_id):
-        usage_records.append(rec)
-    claimed = citations_outcome.value.get("drawn_on", []) if citations_outcome.status == "ok" else []
-    grounded = ground_citations(answer_text=answer_text, claimed_drawn_on=claimed, repository_records=repository_records)
+    answer_text, citations, net_result = _apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
+
+    degraded_by_net = not net_result["substantive_survives"]
+    if degraded_by_net:
+        # §6.3's fallback ladder, step 2: drop-and-continue already
+        # happened inside _apply_net (withheld sentences never joined the
+        # text); this is step 2's own escalation - nothing substantive
+        # survived at all, so the turn degrades to the honest-limit floor,
+        # appended by code, never regenerated, never a human edit.
+        fallback = evidence.degradation_statement(turn_evidence)
+        answer_text = f"{answer_text} {fallback}".strip() if answer_text else fallback
+
     do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
 
     voice_event = {
         "speaker": world.world_key,
         "text": answer_text,
-        "citations": grounded["drawn_on"],
+        "citations": citations,
         "glosses": [],
         "quote_offers": [],
         "attempts_meta": {"empty_stream_retries": 0},
-        "grounding": grounded,
+        "grounding": net_result,
         "do_not_voice_violation": do_not_voice_hit,
+        "degraded_by_net": degraded_by_net,
     }
     return voice_event, usage_records
 
@@ -128,6 +213,7 @@ def run_turn(
     pressed: dict,
     anachronistic_term_ids: set,
     force_empty_stream: bool = False,
+    already_told_ids: set[str] | None = None,
 ) -> TurnResult:
     """force_empty_stream is a TEST/EVIDENCE HOOK ONLY - it lets the empty-
     stream crisis-append case be exercised deterministically (a real model
@@ -139,7 +225,14 @@ def run_turn(
 
     session_id attributes every real call this turn makes (M8: "zero
     unattributed calls") - use engine.m8.usage.SYSTEM_SESSION_ID for a
-    non-session evidence run, never a blank string."""
+    non-session evidence run, never a blank string.
+
+    already_told_ids feeds evidence assembly's Stage E (session exclusion,
+    design §3.2) - story/quote ids the M4 event log already shows this
+    session as told. Optional and caller-supplied rather than derived here:
+    this module makes no store reads of its own (mirrors "makes no store
+    writes of its own" above) - a caller with the real event log queries it
+    and passes the set in; omitting it just means Stage E is a no-op."""
     usage_records: list[UsageRecord] = []
 
     safety_outcome = live_calls.call_safety(safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
@@ -171,7 +264,21 @@ def run_turn(
             if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation_crisis", model_id=voice_model_id):
                 usage_records.append(rec)
             if stream_outcome.status == "ok":
-                stream_text, stream_failed = stream_outcome.value.text, False
+                # The fleet preamble's citation contract is now always in
+                # the system prompt (every world, every call), so even this
+                # empathy-only call may emit [[id]] tags - the net still
+                # runs here, stripping tags a participant must never see
+                # and withholding anything that fails to ground, exactly
+                # as the ordinary path does. A turn the net empties out
+                # entirely is, correctly, functionally empty for the
+                # append-decision below (stream_failed stays False - the
+                # call itself succeeded - but empty_stream is judged on
+                # stream_text, same as always).
+                repository_records = evidence.repository_records_by_id(world.repository)
+                stream_text, _citations, _net_result = _apply_net(
+                    stream_outcome.value.text, repository_records=repository_records, thin_topics=evidence.thin_topics_for(repository_records)
+                )
+                stream_failed = False
                 if stream_text.strip():
                     voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}}
 
@@ -193,6 +300,7 @@ def run_turn(
             participant_message=participant_message,
             directive=gate_result.routing.directive,
             session_id=session_id,
+            already_told_ids=already_told_ids,
         )
         return TurnResult(
             routing_action=action,
