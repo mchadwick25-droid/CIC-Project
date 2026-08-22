@@ -26,13 +26,15 @@ relations:
 - type: associated-with
   target: desert.gravity.scriptural-engagement
 - type: associated-with
+  target: desert.gravity.evagrian-systematization
+- type: associated-with
   target: desert.term.diakrisis
 name: "Diakrisis - discernment as master virtue [PRIMARY]"
-description: "The capacity to judge rightly between thoughts, practices, and counsels, governing how every other discipline in this world was calibrated and practiced - this world had no fixed syllabus, so discernment did the work a curriculum does elsewhere. Recurs across named elders in the sayings tradition (with the compiler-mediation caveat that pattern's own source record carries); Cassian devotes a whole Conference to it as teaching he received in Egypt. Strong on all six tests: repeated across the tradition independent of settlement; other practices depend on it for calibration; directly formative; explains the situational, non-systematic character of most surviving teaching; cross-strand; and moderates the intensity of both spiritual combat and its Evagrian systematization against excess. Widely Accepted, no discrepancy."
+description: "The capacity to judge rightly between thoughts, practices, and counsels, governing how every other discipline in this world was calibrated and practiced - this world had no fixed syllabus, so discernment did the work a curriculum does elsewhere. Recurs across named elders in the sayings tradition (with the compiler-mediation caveat that pattern's own source record carries); Cassian, writing decades later in Latin for a Gallic audience, devotes a whole Conference to it as teaching he received in Egypt. Strong on all six tests: repeated across the tradition independent of settlement; other practices depend on it for calibration; directly formative; explains the situational, non-systematic character of most surviving teaching; cross-strand; and moderates the intensity of both spiritual combat and its Evagrian systematization against excess. Widely Accepted, no discrepancy. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
 - "the recurring narrative pattern: an eager newcomer asks an elder for an extreme practice and is redirected toward something more moderate"
 - "Cassian's Conference II, devoted entirely to discretion as the teaching he received from the Egyptian elders"
-- "diakrisis as the lexicon's own most cross-referenced term - the graph's ecological hub"
+- "diakrisis moderating the ascetic intensity of both the general spiritual-combat theme and its later Evagrian systematization against excess"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 5, SS2
 row 5, SS3, SS4, SS5 row 5, SS6 (gravity 5). The fabricated "mother of
@@ -41,3 +43,18 @@ review caught and removed is deliberately not reintroduced here -
 Conference II is cited as Cassian's record of the teaching he received,
 no epithet claimed, matching desert.term.diakrisis's own standing
 discipline on this exact point.
+
+Step3b Review Round 1, Finding S4: the third manifestation asserted
+"diakrisis as the lexicon's own most cross-referenced term" - a
+superlative about this build's own record graph, not a manifestation
+of a fourth-century gravity, and false besides: desert.term.anachoresis
+ties or leads it by relation-end count once this step's own gravity
+relations are counted. Removed and replaced with a genuine
+manifestation naming the moderating relationship the description
+already states. Finding M10: the Cassian "export screen" (retrospective
+Latin curation for a Gallic audience) was named in the term record
+(desert.term.diakrisis, Step3a Round 8) but not carried here - added.
+Finding M4: the description's own "moderates... both spiritual combat
+and its Evagrian systematization" named a relationship to gravity 9
+that no relation declared - added associated-with above, so the
+index's matrix cell has record backing on both ends.

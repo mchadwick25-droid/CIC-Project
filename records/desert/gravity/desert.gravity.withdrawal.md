@@ -25,6 +25,8 @@ sources:
   locus: "settlement pattern corroboration"
 - source_id: desert.source.nepheros-archive
   locus: "documentary corroboration, Melitian-caveated"
+- source_id: desert.source.pachomian-corpus
+  locus: "the second attesting stream (alongside the Apophthegmata) answering the Rubenson/Antony-literacy Cross-Check question"
 relations:
 - type: associated-with
   target: desert.gravity.elder-authority
@@ -35,11 +37,11 @@ relations:
 - type: associated-with
   target: desert.term.anachoresis
 name: "Withdrawal [PRIMARY]"
-description: "This world's defining and generating act: leaving settled village life for the desert's edge, as the whole work of formation rather than a change of address. Attested across every independent evidence stream this world has - narrative (the Vita), the sayings tradition, Palladius, and the settlement archaeology at Kellia - and across all three strands. Strong on all six gravity tests: repeated in every stream, load-bearing for everything downstream of it (siting, strand differentiation, the thin liturgical record), directly formative, explanatory of the whole ecology's shape, persistent across Lower and Upper Egypt, and reinforcing of both elder authority and manual labor. Documented/Widely Accepted confidence with no discrepancy against its organizing strength."
+description: "This world's defining and generating act: leaving settled village life for the desert's edge, as the whole work of formation rather than a change of address. Attested across every independent evidence stream this world has - narrative (the Vita), the sayings tradition, Palladius, and the settlement archaeology at Kellia - and across all three strands. Strong on all six gravity tests: repeated in every stream, load-bearing for everything downstream of it (siting, strand differentiation, the thin liturgical record), directly formative, explanatory of the whole ecology's shape, persistent across Lower and Upper Egypt, and reinforcing of both elder authority and manual labor. Documented/Widely Accepted confidence with no discrepancy against its organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
 - "Antony's staged withdrawal: village edge to outer mountain to inner mountain (Vita SS2-14, SS49-50)"
 - "the Apophthegmata's entire structure as a record of elders who had withdrawn"
-- "Palladius's settlement descriptions at Nitria, Kellia, and Scetis (ch. VII, XVIII)"
+- "Palladius's settlement description of Nitria (ch. VII), and Kellia and Scetis in lived use (ch. XVIII)"
 - "Kellia's excavated settlement pattern - marginal-but-not-remote land, corroborating and complicating the withdrawal rhetoric at once"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 1, SS2
@@ -56,3 +58,14 @@ so its confidence basis does not depend on resolving that contest
 with candidate 8 (economic embeddedness) is Doc_04's own finding, not
 smoothed here: the settlements' real village trade ties qualify, but
 do not eliminate, withdrawal's own rhetoric of total separation.
+
+Step3b Review Round 1, Finding M1: the body's own Cross-Check answer
+named the Pachomian corpus as one of the two attesting streams
+independent of Antony's own characterization, but the corpus was not
+registered in sources[] - added. Finding M6: the third manifestation
+claimed Palladius provides "settlement descriptions" at Nitria, Kellia,
+AND Scetis; read in full, ch. XVIII names Cellia and Scete only as
+locations, not settlement descriptions - Nitria (ch. VII) is the one
+genuine description. Corrected to distinguish the two. Finding S8: no
+forces-connection notation was stated in this record's own text, though
+the index asserted one on its behalf - added.

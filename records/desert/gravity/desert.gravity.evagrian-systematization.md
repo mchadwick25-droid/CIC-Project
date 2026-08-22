@@ -22,11 +22,13 @@ relations:
 - type: enabled-by
   target: desert.gravity.spiritual-combat
 - type: associated-with
+  target: desert.gravity.diakrisis
+- type: associated-with
   target: desert.term.apatheia
 - type: associated-with
   target: desert.term.theoria
 name: "Evagrian systematized interior psychology [SUPPORTING]"
-description: "The systematic form the general spiritual-combat theme (gravity 2) takes in Evagrius's own writing: the eight-logismoi taxonomy, the praktike-apatheia-theoria scheme, and antirrhesis as its applied technique - concentrated in one author's own corpus and its Kellia-based learned circle, not the wider movement's vocabulary. Strong within its own systematic scope on Repetition and Dependency; directly formative for a narrower population (Strand C's more educated participants); strong Explanatory power for Strand C specifically, but does not explain Strand A or B's own formation logic. Fails the Persistence test outright - no comparable systematization exists in Strand A or B. Widely Accepted confidence; Persistence, not confidence, is what holds this at Supporting rather than Primary."
+description: "The systematic form the general spiritual-combat theme (gravity 2) takes in Evagrius's own writing: the eight-logismoi taxonomy, the praktike-apatheia-theoria scheme, and antirrhesis as its applied technique - concentrated in one author's own corpus and its Kellia-based learned circle, not the wider movement's vocabulary. Strong within its own systematic scope on Repetition and Dependency; directly formative for a narrower population (Strand C's more educated participants); strong Explanatory power for Strand C specifically, but does not explain Strand A or B's own formation logic; moderated, within its own scope, by diakrisis against excess. Fails the Persistence test outright - no comparable systematization exists in Strand A or B. Widely Accepted confidence; Persistence, not confidence, is what holds this at Supporting rather than Primary. Shows no demonstrated relationship to any of Doc_01 SS7's four named forces; its later transmission history is reserved for Doc_08, not treated as deciding this classification."
 manifestations:
 - "the eight-logismoi taxonomy as a named, systematic scheme, distinct from the general combat theme's looser attestation"
 - "the praktike-apatheia-theoria ladder, this world's only systematic account of contemplative ascent"
@@ -41,3 +43,14 @@ with a confidence failure; corrected there to match how gravity 6
 399-400 Origenist controversy; the 553 pseudonymous-survival pattern)
 is Doc_04's own flagged lead for Doc_08 (this build's forces step), not
 grounds for this record's own classification.
+
+Step3b Review Round 1, Findings S8/M11: this record's own text stated
+no forces-connection notation, though the index asserted one on its
+behalf ("later transmission history flagged for Doc_08, not decisive
+here" - a routing note, not a held/shifted/intensified/fractured
+finding). The honest notation: this gravity shows no demonstrated
+relationship to any of Doc_01 SS7's four named forces; its later
+transmission history is reserved for Doc_08 rather than treated as
+deciding this record's own classification, per the paragraph above.
+Finding M4: the description's moderated-by relationship to gravity 5
+(diakrisis) had no reciprocal relation declared - added above.

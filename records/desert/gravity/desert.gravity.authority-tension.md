@@ -17,15 +17,23 @@ sources:
   locus: "the elder-mediated model, by contrast"
 - source_id: desert.source.pachomian-corpus
   locus: "the Rule's office-based model, by contrast"
+- source_id: desert.source.palladius-lausiac-history
+  locus: "ch. XXXII - as Palladius reports the Rule, including its offices"
+  license: public-domain
+- source_id: desert.source.sozomen-historia-ecclesiastica
+  locus: "III.14 - the rule summary at one remove"
+  license: public-domain
+- source_id: desert.source.rousseau-pachomius
+  locus: "the named modern authority for the specific office names (housemaster, steward), which neither vendored witness supplies by name"
 relations:
 - type: tension-with
   target: desert.gravity.elder-authority
 - type: tension-with
   target: desert.gravity.koinonia
 name: "Person-based (elder) vs. office-based (Rule) authority [TENSIONAL]"
-description: "Two different, coexisting operative models of how legitimate spiritual authority is constituted and transmitted in the same world in the same decades: authority earned through recognized discernment and personal relationship (gravity 3), against authority conferred by a written Rule and appointed office (gravity 6). Not a separately generated force but the named friction between those two - by construction, its Interaction is with those two gravities specifically. Recurs at the Strand A/C-B boundary; governs succession, discipline, and community stability differently depending which model locally prevails; shapes markedly different participant experience (personal apprenticeship vs. regulated communal life); explains why Strand B required a written Rule at all, given the elder-model Strand A/C already had; and persists, unresolved, across this world's whole c. 320s-c. 430 span."
+description: "Two different, coexisting operative models of how legitimate spiritual authority is constituted and transmitted in the same world in the same decades: authority earned through recognized discernment and personal relationship (gravity 3), against authority conferred by a written Rule and appointed office (gravity 6). Not a separately generated force but the named friction between those two - by construction, its Interaction is with those two gravities specifically. Recurs at the Strand A/C-B boundary; governs succession, discipline, and community stability differently depending which model locally prevails; shapes markedly different participant experience (personal apprenticeship vs. regulated communal life); explains why Strand B required a written Rule at all, given the elder-model Strand A/C already had; and persists, unresolved, across this world's whole c. 320s-c. 430 span. Emerges, alongside gravity 6, from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names."
 manifestations:
-- "the Apophthegmata's entire organizing structure (by elder name) standing against the Pachomian Rule's formal offices (housemaster, steward)"
+- "the Apophthegmata's entire organizing structure (by elder name) standing against the Pachomian Rule's formal offices - housemaster and steward as Rousseau's scholarship names them, since neither vendored witness supplies the office names directly"
 - "geron/abba/amma as an address carrying earned, personal authority, held nowhere as a conferred office"
 - "the coexistence, never resolved within this world's own span, of both models operating in the same decades without either displacing the other"
 ---
@@ -40,3 +48,15 @@ represent "two different operative models of how legitimate spiritual
 authority is constituted and transmitted, coexisting within the same
 world in the same decades" (citation corrected to SS4, not SS6, per
 Doc_04's own Round 2 review, Finding NEW-2).
+
+Step3b Review Round 1, Finding M8: the office-based model was
+illustrated by name ("housemaster, steward") without naming its
+channel or registering a source that carries it - neither vendored
+witness supplies the office names (Palladius XXXII has "the Superior"
+and "the second"; Sozomen III.14 has none), so the names reached this
+record through unregistered consult-only scholarship, against
+desert.source.pachomian-corpus's own standing rule to name a
+Rule-content claim's actual channel. Palladius, Sozomen, and Rousseau
+registered above, matching desert.term.koinonia's own sourcing for the
+identical claim. Finding S8: no forces-connection notation was stated
+in this record's own text - added.

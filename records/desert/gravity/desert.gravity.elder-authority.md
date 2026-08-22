@@ -32,9 +32,9 @@ relations:
 - type: associated-with
   target: desert.term.geron-abba-amma
 name: "Elder-mediated oral authority [PRIMARY]"
-description: "Authority earned through recognized discernment and passed through direct personal relationship - the geron/abba/amma address - as this world's primary authority mode in the anchoritic and semi-anchoritic strands, and present but structurally secondary to the Rule in the cenobitic strand. Strong on all six tests: the sayings collection's entire organizing structure is this gravity in evidential form; teaching transmission and formation logic depend on it directly; it explains the absence of a general systematic treatise tradition outside Evagrius; it is cross-strand, though strand-differentiated in relative weight; and it reinforces diakrisis. Widely Accepted confidence. Stands as one pole of the authority tension (gravity 10) against the Pachomian Rule's office-based model (gravity 6)."
+description: "Authority earned through recognized discernment and passed through direct personal relationship - the geron/abba/amma address - as this world's primary authority mode in the anchoritic and semi-anchoritic strands, and present but structurally secondary to the Rule in the cenobitic strand. Strong on all six tests: the sayings collection's own organizing structure is this gravity's clearest evidential trace, though that structure is also the later compilers' own arrangement, not a transcript of how authority actually worked while it was being lived; teaching transmission and formation logic depend on it directly; it explains the absence of a general systematic treatise tradition outside Evagrius; it is cross-strand, though strand-differentiated in relative weight; and it reinforces diakrisis. Widely Accepted confidence. Stands as one pole of the authority tension (gravity 10) against the Pachomian Rule's office-based model (gravity 6). Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
-- "the Apophthegmata's alphabetical and systematic organization by named elder"
+- "the Apophthegmata's alphabetical and systematic organization by named elder - the compilers' own later arrangement, not a neutral record of authority's shape in real time"
 - "Palladius's account of Pambo, whose answers were received 'as come from God, so carefully were they framed' (ch. X)"
 - "the amma tradition (Syncletica, Theodora, Sarah) as the same authority mode attested for women, thin but genuine in the surviving record"
 ---
@@ -45,3 +45,12 @@ is not a third, independent force but the named friction between this
 gravity's person-based model and gravity 6's office-based one, so this
 record and desert.gravity.koinonia both carry that relation reciprocally
 against gravity 10 rather than against each other directly.
+
+Step3b Review Round 1, Finding S5: the description and first
+manifestation offered the Apophthegmata's organizing structure itself
+as this gravity's evidence without naming that the structure is also
+the later compilers' own arrangement - the identical move Step3a Round
+7 caught and Round 8 fixed on desert.term.geron-abba-amma, the term
+record this gravity itself links to. Added the same caveat here.
+Finding S8: no forces-connection notation was stated in this record's
+own text - added.

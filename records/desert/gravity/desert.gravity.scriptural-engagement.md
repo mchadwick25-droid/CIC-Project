@@ -25,7 +25,7 @@ relations:
 name: "Practical, non-systematized scriptural engagement [PRIMARY, softest]"
 description: "Scripture read for its immediate, applied bearing on a specific struggle or thought, in the terse idiom of the sayings tradition, rather than through a systematic exegetical program comparable to Alexandria's own catechetical tradition. Moderate-strong on Repetition (recurs in the Apophthegmata's own idiom, and by documented contrast with a systematic tradition elsewhere); moderate on Dependency (feeds diakrisis and elder teaching content); directly formative; strong on Explanatory power (explains this world's non-systematic, applied hermeneutic); cross-strand though thinner for Strand B specifically. Widely Accepted confidence, flagged as the weakest of the six Primary gravities on the strength of its own case rather than on any confidence problem."
 manifestations:
-- "a scriptural word memorized in the quiet, spoken against a specific tempting thought (antirrhesis) rather than studied systematically"
+- "a scriptural word given directly by an elder as counsel for one disciple's specific struggle, in the sayings tradition's own terse idiom, rather than expounded systematically"
 - "the absence, by documented contrast, of a systematic exegetical corpus comparable to World #2's Alexandrian tradition"
 - "the sayings tradition's own habitual, unglossed use of scripture as immediate counsel"
 ---
@@ -39,3 +39,13 @@ Finding NEW-3 as the softest Primary). The compiler-mediation caveat on
 the Apophthegmata (every citation of that source carries it, per its
 own source record) is a standing qualification on this gravity's
 evidence, not a settled matter.
+
+Step3b Review Round 1, Finding S7: the first manifestation illustrated
+this general, cross-strand gravity with antirrhesis - the applied
+technique Doc_04 SS1 assigns specifically to candidate 9 (Evagrian
+systematization) and desert.term.antirrhesis itself fences three times
+as "not the movement's general vocabulary." Replaced with a
+manifestation matching this gravity's own general, non-systematized
+scope, since gravity 7 is already Doc_04's flagged softest Primary and
+illustrating it with the single-author technique weakened exactly the
+claim that most needs support.

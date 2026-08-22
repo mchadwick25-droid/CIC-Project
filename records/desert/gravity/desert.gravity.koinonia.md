@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the Pachomian corpus generally; the SUPPORTING (not Primary) classification below follows from a Persistence-test failure (no equivalent outside Strand B), not from any confidence weakness - Doc_04's own Confidence/Gravity Cross-Check treats these as distinct axes and this record does not conflate them."
+  divergence_note: "Widely Accepted for the Pachomian corpus generally; the SUPPORTING (not Primary) classification below follows from a Persistence-test failure (no equivalent outside Strand B), not from any confidence weakness - Doc_04's own Confidence/Gravity Cross-Check treats these as distinct axes and this record does not conflate them. Also flagged at generation, per Doc_04's own Author Gravity criterion, as resting substantially on one corpus - the Pachomian corpus itself - a distinct risk axis from the Persistence-test basis above, matching how gravity 9 (Evagrian systematization) is flagged for single-author concentration."
 sources:
 - source_id: desert.source.pachomian-corpus
   locus: "the organizing principle of the entire corpus"
@@ -22,16 +22,16 @@ sources:
   locus: "III.14 (the rule summary at one remove)"
   license: public-domain
 - source_id: desert.source.rousseau-pachomius
-  locus: "the named modern authority for Rule-content or Lives-incident claims"
+  locus: "the named modern authority for the federation's house count, a Lives-incident claim - not carried by either vendored witness, which give population, not house, counts"
 relations:
 - type: tension-with
   target: desert.gravity.authority-tension
 - type: associated-with
   target: desert.term.koinonia
 name: "Koinonia - communal rule and common property [SUPPORTING]"
-description: "The Pachomian federation's own name for its linked houses under one written rule and one head - the organizing principle of Strand B's entire social structure. Strong within the Pachomian corpus on every test - repetition, dependency, formation, explanatory power - but fails the Persistence test outright: no equivalent exists in Strand A or C. Confidence is not the limiting factor (Widely Accepted); cross-strand persistence is. Classified Supporting: it organizes a real and major portion of this world's ecology, within the context Primary gravities establish, but does not organize the ecology as a whole. Stands as one pole of the authority-tension gravity (10) against the elder-mediated model (gravity 3)."
+description: "The Pachomian federation's own name for its linked houses under one written rule and one head - the organizing principle of Strand B's entire social structure. Strong within the Pachomian corpus on every test - repetition, dependency, formation, explanatory power - but fails the Persistence test outright: no equivalent exists in Strand A or C. Confidence is not the limiting factor (Widely Accepted); cross-strand persistence is. Classified Supporting: it organizes a real and major portion of this world's ecology, within the context Primary gravities establish, but does not organize the ecology as a whole. Stands as one pole of the authority-tension gravity (10) against the elder-mediated model (gravity 3). Emerges specifically from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names, not from the generating force (martyrdom's unavailability) directly."
 manifestations:
-- "nine men's houses and two women's houses under Pachomius by his death in 346 (federation history, via Rousseau on the vendored population figures)"
+- "nine men's houses and two women's houses under Pachomius by his death in 346 (federation history, via Rousseau - not carried by either vendored witness, which give population figures, not house counts)"
 - "the angel-tablet rule as Palladius and Sozomen both report it - food, labor, cells, dress, the twenty-four lettered sections, a three-year probation"
 - "the Rule as a formal, written condition of membership - absent as such from the solitary and semi-solitary strands"
 ---
@@ -45,3 +45,17 @@ authority-tension gravity's own finding that it is the named friction
 between this gravity's office-based model and gravity 3's person-based
 one - declared here rather than directly against gravity 3, matching
 that record's own relations.
+
+Step3b Review Round 1, Finding S6: the index asserted an Author Gravity
+flag for this record while promising the column is read off the
+records themselves; this record carried none - added above, matching
+Doc_04 SS1's own generation-stage flag ("candidate 6 (koinonia,
+Pachomian-corpus-specific)... resting substantially on one
+author-cluster"). Finding M7: the house-count manifestation credited
+"the vendored population figures," which desert.term.koinonia's own
+Step3a Round 8 fix (Finding D3) established do not carry a house count
+at all - Palladius XXXII and Sozomen III.14 both give population
+figures only. Corrected here to match that record's own language, and
+the Rousseau locus reworded to name the specific claim it covers
+rather than the generic claim-type. Finding S8: no forces-connection
+notation was stated in this record's own text - added.
