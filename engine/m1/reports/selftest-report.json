@@ -47,6 +47,14 @@
       ]
     },
     {
+      "id": "glossary-retrofit-missing-false-friend",
+      "gate": "glossary-retrofit-complete",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-way: missing required field 'false_friend' (an empty list is a valid 'none identified' - omitting the field is not)"
+      ]
+    },
+    {
       "id": "quote-recording-invalid-license",
       "gate": "quote-recording",
       "status": "caught",
