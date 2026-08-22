@@ -22,10 +22,10 @@ committing them would be redistribution.
 
 | file | title (from the file's own header) | rights | supplied | added | cited by |
 |---|---|---|---|---|---|
-| `addai_doctrine-of-addai.txt` | The Doctrine of Addai, the Apostle | Public Domain | Mark | 2026-08-15 | - |
-| `anf01_apostolic-fathers-justin-irenaeus.xml` | ANF01. The Apostolic Fathers with Justin Martyr and Irenaeus | Public Domain | Mark | 2026-08-15 | `pahc.source.barnabas`, `pahc.source.first-clement`, `pahc.source.ignatius-letters`, `pahc.source.irenaeus-adversus-haereses`, `pahc.source.justin-dialogue`, `pahc.source.justin-first-apology`, `pahc.source.martyrdom-polycarp`, `pahc.source.polycarp-philippians` |
+| `addai_doctrine-of-addai.txt` | The Doctrine of Addai, the Apostle | Public Domain | Mark | 2026-08-15 | `syr.source.doctrine-of-addai` |
+| `anf01_apostolic-fathers-justin-irenaeus.xml` | ANF01. The Apostolic Fathers with Justin Martyr and Irenaeus | Public Domain | Mark | 2026-08-15 | `pahc.demo.center-coming-to-belief`, `pahc.demo.center-who-was-jesus`, `pahc.demo.lament-suffering`, `pahc.witness.coming-to-belief`, `pahc.witness.god-and-argument`, `pahc.witness.hard-texts`, `pahc.witness.jesus-as-god`, `pahc.source.barnabas`, `pahc.source.first-clement`, `pahc.source.ignatius-letters`, `pahc.source.irenaeus-adversus-haereses`, `pahc.source.justin-dialogue`, `pahc.source.justin-first-apology`, `pahc.source.martyrdom-polycarp`, `pahc.source.polycarp-philippians`, `pahc.story.ignatius-guarded-journey`, `pahc.story.justin-sunday-gathering`, `pahc.story.martyrdom-of-polycarp`, `pahc.story.nero-scapegoating`, `pahc.story.one-eucharist-under-bishop`, `pahc.story.polycarp-forwards-letters` |
 | `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` | ANF02. Fathers of the Second Century: Hermas, Tatian, Athenagoras, Theophilus, and Clement of Alexandria (Entire) | Public Domain | Mark | 2026-08-15 | `pahc.source.shepherd-hermas` |
-| `anf03_tertullian.xml` | ANF03. Latin Christianity: Its Founder, Tertullian | Public Domain | Mark | 2026-08-15 | `pahc.source.tertullian-adversus-marcionem`, `pahc.source.tertullian-apologeticus` |
+| `anf03_tertullian.xml` | ANF03. Latin Christianity: Its Founder, Tertullian | Public Domain | Mark | 2026-08-15 | `pahc.source.tertullian-adversus-marcionem`, `pahc.source.tertullian-apologeticus`, `pahc.story.mutual-aid-prisoner` |
 | `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` | ANF04. Fathers of the Third Century: Tertullian, Part Fourth; Minucius Felix; Commodian; Origen, Parts First and Second | Public Domain | Mark | 2026-08-15 | - |
 | `anf05_hippolytus-cyprian-caius-novatian.xml` | ANF05. Fathers of the Third Century: Hippolytus,
     Cyprian, Caius, Novatian, Appendix | Public Domain | Mark | 2026-08-15 | - |
@@ -33,18 +33,18 @@ committing them would be redistribution.
     Thaumaturgus, Dionysius the Great, Julius Africanus, Anatolius,
     and Minor Writers, Methodius, Arnobius | Public Domain | Mark | 2026-08-15 | - |
 | `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml` | ANF07. Fathers of the Third and Fourth Centuries: Lactantius, Venantius, Asterius, Victorinus, Dionysius, Apostolic Teaching and Constitutions, Homily, and Liturgies | Public Domain | Mark | 2026-08-15 | `pahc.source.anti-montanist-fragments`, `pahc.source.didache` |
-| `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` | ANF08. The Twelve Patriarchs, Excerpts and Epistles, The Clementia, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Age | Public Domain | Mark | 2026-08-15 | - |
+| `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` | ANF08. The Twelve Patriarchs, Excerpts and Epistles, The Clementia, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Age | Public Domain | Mark | 2026-08-15 | `syr.source.ancient-syriac-documents`, `syr.source.bardaisan-book-of-laws` |
 | `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` | ANF09. The Gospel of Peter, The Diatessaron of Tatian, The
  Apocalypse of Peter, the Vision of Paul, The Apocalypse of the Virgin
  and Sedrach, The Testament of Abraham, The Acts of Xanthippe and
  Polyxena, The Narrative of Zosimus, The Apology of Aristides, The
  Epistles of Clement (complete text), Origen’s Commentary on John,
  Books 1–10, and Commentary on Matthew, Books 1, 2, and
- 10–14. | Public Domain | Mark | 2026-08-15 | `pahc.source.first-clement` |
+ 10–14. | Public Domain | Mark | 2026-08-15 | `pahc.source.first-clement`, `syr.source.diatessaron-arabic-harmony` |
 | `anf10_bibliographic-synopsis-general-index.xml` | ANF10. Bibliographic Synopsis; General Index | Public Domain | Mark | 2026-08-15 | - |
-| `aphrahat_demonstrations-2-7_hallock1932.txt` | Aphrahat, Demonstrations VII (On Penitents) and II (On Love) | Public Domain | Mark | 2026-08-18 | - |
-| `chronicle-of-edessa_cowper.txt` | The Chronicle of Edessa | Public Domain | Mark | 2026-08-18 | - |
-| `ephraim_prose-refutations_mitchell1912-1921.txt` | S. Ephraim's Prose Refutations of Mani, Marcion, and Bardaisan | Public Domain | Mark | 2026-08-18 | - |
+| `aphrahat_demonstrations-2-7_hallock1932.txt` | Aphrahat, Demonstrations VII (On Penitents) and II (On Love) | Public Domain | Mark | 2026-08-18 | `syr.demo.f6-p-someone-like-me`, `syr.source.aphrahat-demonstrations-hallock` |
+| `chronicle-of-edessa_cowper.txt` | The Chronicle of Edessa | Public Domain | Mark | 2026-08-18 | `syr.source.chronicle-of-edessa` |
+| `ephraim_prose-refutations_mitchell1912-1921.txt` | S. Ephraim's Prose Refutations of Mani, Marcion, and Bardaisan | Public Domain | Mark | 2026-08-18 | `syr.source.ephrem-prose-refutations` |
 | `npnf101_augustine-confessions-letters.xml` | NPNF1-01. The Confessions and Letters of St. Augustine, 
 with a Sketch of his Life and Work | Public Domain | Mark | 2026-08-15 | `hal.search.npnf101-augustine`, `hal.source.augustine-letters` |
 | `npnf102_augustine-city-of-god-christian-doctrine.xml` | NPNF1-02. St. Augustine's City of God and Christian 
@@ -65,9 +65,9 @@ Psalms | Public Domain | Mark | 2026-08-15 | - |
 | `npnf112_chrysostom-homilies-corinthians.xml` | NPNF1-12. Saint Chrysostom: Homilies on the Epistles of Paul to the Corinthians | Public Domain | Mark | 2026-08-15 | - |
 | `npnf113_chrysostom-homilies-galatians-philemon.xml` | NPNF1-13. Saint Chrysostom: Homilies on Galatians, Ephesians, Philippians, Colossians, Thessalonians, Timothy, Titus, and Philemon | Public Domain | Mark | 2026-08-15 | - |
 | `npnf114_chrysostom-homilies-john-hebrews.xml` | NPNF1-14. Saint Chrysostom: Homilies on the Gospel of St. John and the Epistle to the Hebrews | Public Domain | Mark | 2026-08-15 | - |
-| `npnf201_eusebius-church-history-life-of-constantine.xml` | NPNF2-01. Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine | Public Domain | Mark | 2026-08-15 | `pahc.source.anti-montanist-fragments`, `pahc.source.eusebius-historia-ecclesiastica` |
-| `npnf202_socrates-sozomen-ecclesiastical-histories.xml` | NPNF2-02. Socrates and Sozomenus Ecclesiastical Histories | Public Domain | Mark | 2026-08-15 | - |
-| `npnf203_theodoret-jerome-gennadius-rufinus.xml` | NPNF2-03. Theodoret, Jerome, Gennadius, &amp; Rufinus: Historical Writings | Public Domain | Mark | 2026-08-15 | `hal.search.npnf203-apologies`, `hal.source.jerome-apology-rufinus`, `hal.source.jerome-de-viris`, `hal.source.rufinus-apology` |
+| `npnf201_eusebius-church-history-life-of-constantine.xml` | NPNF2-01. Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine | Public Domain | Mark | 2026-08-15 | `pahc.source.anti-montanist-fragments`, `pahc.source.eusebius-historia-ecclesiastica`, `pahc.source.pliny-letters`, `syr.source.eusebius-historia-ecclesiastica` |
+| `npnf202_socrates-sozomen-ecclesiastical-histories.xml` | NPNF2-02. Socrates and Sozomenus Ecclesiastical Histories | Public Domain | Mark | 2026-08-15 | `syr.source.socrates-historia-ecclesiastica`, `syr.source.sozomen-historia-ecclesiastica` |
+| `npnf203_theodoret-jerome-gennadius-rufinus.xml` | NPNF2-03. Theodoret, Jerome, Gennadius, &amp; Rufinus: Historical Writings | Public Domain | Mark | 2026-08-15 | `hal.force.origenist-controversy`, `hal.search.npnf203-apologies`, `hal.source.jerome-apology-rufinus`, `hal.source.jerome-de-viris`, `hal.source.rufinus-apology`, `syr.source.jerome-de-viris`, `syr.source.theodoret-historia-ecclesiastica` |
 | `npnf204_athanasius-select-works-letters.xml` | NPNF2-04. Athanasius: Select Works and Letters | Public Domain | Mark | 2026-08-15 | - |
 | `npnf205_gregory-nyssa-dogmatic-treatises.txt` | NPNF2-05. Gregory of Nyssa: Dogmatic Treatises, Etc. | Public Domain | Mark | 2026-08-15 | - |
 | `npnf206_jerome-principal-works.xml` | NPNF2-06. Jerome: The Principal Works of St. Jerome | Public Domain | Mark | 2026-08-15 | `hal.search.npnf206-jerome`, `hal.source.attack-letters-416`, `hal.source.jerome-against-jovinianus`, `hal.source.jerome-against-pelagians`, `hal.source.jerome-augustine-letters`, `hal.source.jerome-ep107`, `hal.source.jerome-ep108`, `hal.source.jerome-ep127`, `hal.source.jerome-ep22`, `hal.source.jerome-ep39`, `hal.source.jerome-ep45`, `hal.source.jerome-ep46`, `hal.source.jerome-ep57`, `hal.source.jerome-ep77`, `hal.source.jerome-marcella-letters`, `hal.source.jerome-vita-hilarionis`, `hal.source.jerome-vita-malchi`, `hal.source.vulgate-prefaces` |
@@ -77,11 +77,11 @@ Psalms | Public Domain | Mark | 2026-08-15 | - |
 | `npnf210_ambrose-select-works-letters.xml` | NPNF2-10. Ambrose: Selected Works and Letters | Public Domain | Mark | 2026-08-15 | - |
 | `npnf211_sulpitius-severus-vincent-lerins-cassian.xml` | NPNF-211. Sulpitius Severus, Vincent of Lerins, John Cassian | Public Domain | Mark | 2026-08-15 | `hal.search.npnf211-sulpitius`, `hal.source.sulpitius-dialogues` |
 | `npnf212_leo-great-gregory-great.xml` | NPNF-212. Leo the Great, Gregory the Great | Public Domain | Mark | 2026-08-15 | - |
-| `npnf213_gregory-great-ephraim-syrus-aphrahat.xml` | NPNF-213. Gregory the Great (II), Ephraim Syrus, Aphrahat | Public Domain | Mark | 2026-08-15 | - |
+| `npnf213_gregory-great-ephraim-syrus-aphrahat.xml` | NPNF-213. Gregory the Great (II), Ephraim Syrus, Aphrahat | Public Domain | Mark | 2026-08-15 | `syr.source.aphrahat-select-demonstrations`, `syr.source.ephrem-epiphany-hymns`, `syr.source.ephrem-hymns-on-faith-pearl`, `syr.source.ephrem-nativity-hymns`, `syr.source.ephrem-nisibene-hymns`, `syr.source.ephrem-three-homilies` |
 | `npnf214_seven-ecumenical-councils.xml` | NPNF2-14. The Seven Ecumenical Councils | Public Domain | Mark | 2026-08-15 | - |
 | `optatus_against-the-donatists.txt` | The Work of St. Optatus the African, Bishop of Milevis, | Public Domain | Mark | 2026-08-15 | - |
 | `origen_philocalia_lewis1911.txt` | The Philocalia of Origen | Public Domain | Mark | 2026-08-21 | - |
-| `palladius_lausiac-history_clarke1918.txt` | Palladius: The Lausiac History | Public Domain | Mark | 2026-08-15 | `hal.search.palladius-clarke`, `hal.source.palladius-lausiac` |
+| `palladius_lausiac-history_clarke1918.txt` | Palladius: The Lausiac History | Public Domain | Mark | 2026-08-15 | `hal.search.palladius-clarke`, `hal.source.palladius-lausiac`, `syr.source.palladius-lausiac-history` |
 | `webbe_world-english-bible-british-edition.xml` | World English Bible British Edition (WEBBE) | Public Domain | Claude (at Mark's direction) | 2026-08-19 | - |
 
 Notes carried over per file:
