@@ -1,0 +1,44 @@
+---
+id: pahc.contested.martyrdom-polycarp-dating
+world_id: post-apostolic-house-church
+record_type: contested_claim
+schema_version: 2
+status: draft
+register: etic
+canon_cells:
+- F2-E
+confidence:
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: contested
+  formation_confidence: Contested
+  divergence_note: "The dating inconsistency (c. 155-156 vs. Eusebius's own Chronicon date of 167 CE) and the redactional-layer question (chs. 20-22) are both Documented facts about this text's own transmission; which date is correct, and how much the closing chapters should be trusted as part of the earliest form of the account, remain open."
+sources:
+- source_id: pahc.source.martyrdom-polycarp
+  locus: "the work's own dating note; chapters 20-22"
+  license: public-domain
+- source_id: pahc.source.eusebius-historia-ecclesiastica
+  locus: "the Chronicon's own 167 CE date, at variance with the usual derivation"
+  license: public-domain
+claim: "The Martyrdom of Polycarp, framed as a letter from the church at Smyrna to the church at Philomelium, records the death of Polycarp of Smyrna c. 155-156 CE, the usual scholarly derivation from the text's own internal chronological details."
+held_against:
+- "Eusebius's own Chronicon gives a different date, 167 CE, for Polycarp's death - an inconsistency that survives even in ancient testimony, not only in modern scholarly reconstruction, and this record does not silently pick one over the other."
+- "The work's concluding chapters (20-22) are widely regarded by modern scholarship as later redactional additions, meaning the text as it survives is not a single, unified, contemporaneous composition even setting the overall dating question aside."
+- "The narrative is shaped by recognizable hagiographic and martyrological convention throughout (the staged trial, the miraculous elements, the bone-collection scene) - a genre marker this build's own story-tier discipline already treats as Tier 3 (attributed tradition): the formation ideal the text conveys is the evidence, not the staged narrative details as historical reporting."
+concedes: "Both this text's own dating and its own internal composition history are genuinely uncertain, and downstream records (martyrdom-meaning, the bone-collection manifestation cited across several force and gravity records) rest on this single text as one of exactly two Native data points for martyrdom-as-formation-shaping, both Strand A. This record does not extend confidence in the text's central formation claim (that martyrdom was read this way by this community) to confidence in every narrative detail it reports."
+divergence_partners:
+- pahc.source.martyrdom-polycarp
+- pahc.source.eusebius-historia-ecclesiastica
+---
+Carries forward pahc.core.house-church's own caution 3 (DATING
+HUMILITY) into participant-facing form for this specific text, and
+makes explicit the Eusebius-inconsistency point pahc.source.eusebius-
+historia-ecclesiastica's own body already names but which no other
+record states as a first-class contested claim. canon_cells: F2-E
+('Isn't most of what's said about you legend, collected centuries
+later?') is a close match specifically for THIS text among the four
+dating-disputed sources, given its own genre markers (hagiographic
+convention, later redactional layers) - a closer fit than for the
+Ignatius, Didache, or 1 Clement dating disputes, which are authorship/
+composition-date disputes about non-legendary genres and are left
+uncovered by this cell rather than stretched to match it.
