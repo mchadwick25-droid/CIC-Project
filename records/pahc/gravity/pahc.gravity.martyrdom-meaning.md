@@ -30,7 +30,7 @@ relations:
 - type: associated-with
   target: pahc.gravity.boundary-drawing
 name: "Martyrdom as Formation-Shaping Meaning-Response [SUPPORTING, Strand A only]"
-description: "In some of this world's communities a death under the sword is read as the thing that
+description: "In some of this world's communities a death for the name is read as the thing that
   completes a person's formation, and remembered yearly - not everywhere among them. SIX-TEST SUMMARY:
   Repetition is weak relative to the Primary/Supporting candidates above it - exactly two data points
   within this world's Native evidentiary base (Ignatius's own voice; the Martyrdom of Polycarp), both
@@ -43,8 +43,14 @@ description: "In some of this world's communities a death under the sword is rea
   shape well; does not explain Strand B material at all - 1 Clement and Hermas show no comparable
   martyr-piety content. Persistence fails to clear a broad bar - visible in two individuals' own
   experience, not across regions, communities, or evidence streams. Interaction: demonstrated
-  relationships with authority, network, state-pressure, and boundary-drawing gravities.
-  CONFIDENCE/GRAVITY CROSS-CHECK: the clearest case of the Cross-Check doing its job - dramatic,
+  relationships with authority-consolidation, translocal-network, state-pressure, and boundary-drawing -
+  all four INFERENTIAL per Doc_04's own labeling (each traced to a single shared Ignatian passage doing
+  double duty across several cells at once, not independent corroboration); no demonstrated relationship
+  with liturgical-practice (G07 - the dies natalis commemoration belongs to what this world hands off to
+  successors, not to its own liturgical practice already organizing around it, per this gravity's own
+  Dependency test above). AUTHOR GRAVITY RISK (Doc_04's own generation-stage rating): High, flagged
+  explicitly at generation - within this world's Native evidentiary base, this rests on exactly two data
+  points, both Strand A. CONFIDENCE/GRAVITY CROSS-CHECK: the clearest case of the Cross-Check doing its job - dramatic,
   quotable, easy to over-read as organizing this whole world's piety, but Repetition and Persistence
   are both thin and representativeness is Contested/Inferential-Thin; classifying this Primary on the
   strength of how vivid it reads would be exactly the failure mode the Cross-Check exists to prevent.

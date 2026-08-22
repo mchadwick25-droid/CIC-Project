@@ -30,6 +30,8 @@ relations:
 - type: associated-with
   target: pahc.gravity.translocal-network
 - type: associated-with
+  target: pahc.gravity.state-pressure
+- type: associated-with
   target: pahc.gravity.boundary-drawing
 - type: associated-with
   target: pahc.gravity.liturgical-practice
@@ -45,19 +47,28 @@ description: "Who leads, and how leadership is secured once those who walked wit
   Explanatory passes strongly (explains why the corpus is largely letters about authority disputes).
   Persistence passes with a caveat: visible in both regions across the whole window, but its SPECIFIC
   SHAPE changes across that span - part of what keeps this a live, unresolved question rather than a
-  settled one. Interaction: demonstrated relationships with the network and state-pressure gravities
-  (see relations above). CONFIDENCE/GRAVITY CROSS-CHECK: classified Supporting, not Primary - the coarse
+  settled one. Interaction: per Doc_04's own final Interaction Matrix (round 7), this is the one
+  candidate with a demonstrated relationship to EVERY other classified gravity - network (G02, plain
+  Reinforcing, the one cell resting on genuinely independent multi-voice grounding rather than one
+  shared passage); state-pressure, boundary-drawing, martyrdom-meaning, and liturgical-practice (G03,
+  G05, G04, G07, all Reinforcing but explicitly INFERENTIAL - each traced to a single shared Ignatian
+  passage doing double duty, not independent corroboration; this schema's closed relation vocabulary
+  cannot itself carry the plain/inferential distinction, so it is stated here in prose per Doc_04's own
+  finding). CONFIDENCE/GRAVITY CROSS-CHECK: classified Supporting, not Primary - the coarse
   claim clears Widely Accepted, but the specific content that actually does this gravity's interaction
   and dependency work (the Strand A/B differentiation itself) is exactly the Contested part; disclosure
   is not a substitute for reclassification. CROSS-STRAND STATUS: the force (authority requires active
   organizing) is cross-strand confirmed; the resolution is strand-bound - Strand A toward a single
   office, Strand B toward a plural, interchangeable college."
 manifestations:
-- "one bishop, flanked by presbyters and deacons, obeyed as the shape of unity ('fitted together... as
-  a harp's strings are tuned', Ignatius, Ephesians 4)"
+- "one bishop, flanked by presbyters and deacons, obeyed as the shape of unity - 'your justly renowned
+  presbytery, worthy of God, is fitted as exactly to the bishop as the strings are to the harp'
+  (Ignatius, Ephesians 4)"
 - "a plural college of presbyters, interchangeable with episkopos in the same letter (1 Clement 42, 44)"
 - "the Didache's own transition instruction: appoint bishops and deacons for yourselves (15:1)"
-- "Polycarp addressed as bishop by Ignatius while naming himself only 'one of the presbyters' in his own letter"
+- "Polycarp addressed as bishop by Ignatius, while his own letter opens 'Polycarp, and the presbyters
+  with him, to the Church of God sojourning at Philippi' - naming himself alongside the presbyters,
+  not with a bishop's title"
 ---
 Re-derived from the approved Doc_04 (G01), reclassified Supporting at
 that document's own round-1 review after an initial Primary draft

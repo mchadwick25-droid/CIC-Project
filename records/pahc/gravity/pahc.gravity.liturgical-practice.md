@@ -39,8 +39,13 @@ description: "Giving thanks over bread and cup - it forms this world more than a
   (cup-before-bread vs. institution-narrative forms) and why this world's own sources needed an explicit
   diversity-first calibration in the first place. Persistence passes across all three regions.
   Interaction: two of five candidates in demonstrated relationship (authority, boundary-drawing, both
-  inferential) - thinner than the network gravity's row, but classification rests on the six-test/Cross-
-  Check results, not matrix connectivity. CONFIDENCE/GRAVITY CROSS-CHECK: the Documented content (a
+  inferential - each traced to Ignatius's single 'one eucharist' passage doing double duty as both an
+  authority claim and a boundary claim) - thinner than the network gravity's row, but classification
+  rests on the six-test/Cross-Check results, not matrix connectivity. AUTHOR GRAVITY RISK (Doc_04's own
+  generation-stage rating): Moderate - three independent voices reduce single-source risk, though
+  Justin's fuller description carries its own well-flagged over-generalization risk (the Bradshaw-versus-
+  Ferguson representativeness question this whole build carries: a fuller, more explained account must
+  not be read as more representative simply for being more explained). CONFIDENCE/GRAVITY CROSS-CHECK: the Documented content (a
   shared eucharist ritual independently attested, in related but non-identical forms, by three
   geographically-separated voices across the whole window) is what earns Dependency/Explanatory/
   Formation - not the Contested which-form-is-representative layer, unlike authority and state-pressure.

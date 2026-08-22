@@ -41,7 +41,15 @@ description: "Letters carried between churches - what holds this world together 
   voice set is largely explainable by what entered and survived it. Formation passes: produces a felt
   sense of belonging to something larger than the local assembly. Explanatory passes strongly - arguably
   explains the shape of the surviving evidence itself. Persistence passes across all three named regions.
-  Interaction: demonstrated relationships with authority, state-pressure, and martyrdom. CONFIDENCE/
+  Interaction: demonstrated relationships with authority-consolidation (G01, plain Reinforcing - the one
+  cell in this world's whole matrix resting on genuinely independent multi-voice grounding on both
+  sides, not one shared passage doing double duty), state-pressure (G03, RESHAPING per Doc_04's own
+  label, inferential - Ignatius relies on this network precisely because he is under guard, a
+  single-episode anchor), and martyrdom-meaning (G04, inferential - martyr-narrative transmission
+  travels this same channel). No demonstrated relationship with boundary-drawing (G05) or
+  liturgical-practice (G07). AUTHOR GRAVITY RISK (Doc_04's own generation-stage rating): No significant
+  single-voice dependency - the one candidate independently attested by voices from both strands
+  behaving the same way. CONFIDENCE/
   GRAVITY CROSS-CHECK: clean - no material divergence between organizing strength and evidential
   confidence; both are high. CROSS-STRAND STATUS: confirmed - independently attested by voices from
   BOTH strands behaving the same way (Rome via 1 Clement; Antioch/Asia Minor via Ignatius and

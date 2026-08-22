@@ -31,6 +31,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: pahc.gravity.authority-consolidation
+- type: associated-with
   target: pahc.gravity.translocal-network
 - type: associated-with
   target: pahc.gravity.martyrdom-meaning
@@ -44,7 +46,16 @@ description: "Real, local, lethal exposure under law nobody was fully sure of - 
   with an honest caveat this record does not smooth over: the specific episodes evidenced are
   geographically and temporally scattered, not one continuous, systematic policy - the underlying
   vulnerability persistent, the specific incidents intermittent. Interaction: demonstrated relationships
-  with the network (reshaping) and martyrdom-meaning gravities. CONFIDENCE/GRAVITY CROSS-CHECK: the same
+  with authority-consolidation (G01, inferential - Ignatius deploying his own martyrdom as an argument
+  for his authority program), the network (G02, RESHAPING per Doc_04's own label, inferential - Ignatius
+  relies on the network precisely because he is under guard, a single-episode anchor; this schema's
+  closed relation vocabulary cannot itself carry Reshaping as a distinct type, so it is stated here in
+  prose), and martyrdom-meaning (G04, inferential). No demonstrated relationship with boundary-drawing
+  (G05) or liturgical-practice (G07) - Doc_04's own Interaction Matrix never traces either directly, and
+  this record does not manufacture one. AUTHOR GRAVITY RISK (Doc_04's own generation-stage rating):
+  Moderate - Pliny is the clearest single direct description, but Tacitus, Suetonius, and Ignatius's own
+  internal evidence independently corroborate the broader pattern, reducing (not eliminating)
+  single-source dependency. CONFIDENCE/GRAVITY CROSS-CHECK: the same
   failure mode as authority consolidation - the six-test work crediting Dependency/Explanatory/Persistence
   is done by the generalized, cross-episode synthesis, which is exactly the Contested layer this record
   discloses; the narrow Documented core alone (one governor, one province, c. 111-113) does not by

@@ -4,34 +4,43 @@
 
 ## Candidate table
 
-| id | classification | canon_cells | formation_confidence | cross-check flag | single-source risk |
-|---|---|---|---|---|---|
-| pahc.gravity.authority-consolidation | SUPPORTING | F3-I | Contested | Yes | no (4 sources) |
-| pahc.gravity.boundary-drawing | TENSIONAL | F3-T | Inferential-Thin | Yes | YES (ignatius-letters) |
-| pahc.gravity.liturgical-practice | PRIMARY | F4-I | Widely Accepted | Yes | no (3 sources) |
-| pahc.gravity.martyrdom-meaning | SUPPORTING | F6-E | Contested | Yes | no (2 sources) |
-| pahc.gravity.state-pressure | SUPPORTING | F3-I | Contested | Yes | no (5 sources) |
-| pahc.gravity.translocal-network | PRIMARY | F3-I, F5-P | Widely Accepted | clean | no (3 sources) |
+| id | classification | canon_cells | formation_confidence | cross-check flag | Author Gravity risk (Doc_04) | source count |
+|---|---|---|---|---|---|---|
+| pahc.gravity.authority-consolidation | SUPPORTING | F3-I | Contested | Yes | Yes (flagged at generation) - the Strand A/monarchical resolution rests overwhelmingly on Ignatius alone | 4 |
+| pahc.gravity.boundary-drawing | TENSIONAL | F3-T | Inferential-Thin | Yes | High (flagged at generation) - substantively developed by exactly one voice | 1 |
+| pahc.gravity.liturgical-practice | PRIMARY | F4-I | Widely Accepted | Yes | Moderate - three independent voices, though Justin's fuller account carries its own over-generalization risk | 3 |
+| pahc.gravity.martyrdom-meaning | SUPPORTING | F6-E | Contested | Yes | High (flagged at generation) - exactly two data points, both Strand A | 2 |
+| pahc.gravity.state-pressure | SUPPORTING | F3-I | Contested | Yes | Moderate - Pliny is the clearest single direct description, but Tacitus/Suetonius/Ignatius corroborate independently | 5 |
+| pahc.gravity.translocal-network | PRIMARY | F3-I, F5-P | Widely Accepted | clean | No significant single-voice dependency | 3 |
 
 ## By classification
 
 - **PRIMARY:** pahc.gravity.liturgical-practice, pahc.gravity.translocal-network
 - **SUPPORTING:** pahc.gravity.authority-consolidation, pahc.gravity.martyrdom-meaning, pahc.gravity.state-pressure
 - **TENSIONAL:** pahc.gravity.boundary-drawing
-- **Did not reach gravity status:** Household (oikos) as Basic Social/Meeting Unit (see Section 'Not advanced' below — no record exists for this candidate, per schema)
+- **Did not reach gravity status:** Household (oikos) as Basic Social/Meeting Unit (see Section 'Not advanced' below)
 
 ## Interaction matrix (gravity × gravity)
 
 | |authority-consolidation|boundary-drawing|liturgical-practice|martyrdom-meaning|state-pressure|translocal-network|
 |---|---|---|---|---|---|---|
-| **authority-consolidation** | — | associated-with | associated-with | associated-with | no demonstrated relationship | associated-with |
+| **authority-consolidation** | — | associated-with | associated-with | associated-with | associated-with | associated-with |
 | **boundary-drawing** | associated-with | — | associated-with | associated-with | no demonstrated relationship | no demonstrated relationship |
 | **liturgical-practice** | associated-with | associated-with | — | no demonstrated relationship | no demonstrated relationship | no demonstrated relationship |
 | **martyrdom-meaning** | associated-with | associated-with | no demonstrated relationship | — | associated-with | associated-with |
-| **state-pressure** | no demonstrated relationship | no demonstrated relationship | no demonstrated relationship | associated-with | — | associated-with |
+| **state-pressure** | associated-with | no demonstrated relationship | no demonstrated relationship | associated-with | — | associated-with |
 | **translocal-network** | associated-with | no demonstrated relationship | no demonstrated relationship | associated-with | associated-with | — |
 
 **Isolated-candidate check:** none — every classified gravity has at least one demonstrated relationship to another, avoiding the signal the Framework names as a candidate list built from impression rather than evidence.
+
+## Cross-strand status (Article 21)
+
+- **pahc.gravity.authority-consolidation**: Force cross-strand confirmed; specific resolution strand-bound (Strand A: single office; Strand B: plural college)
+- **pahc.gravity.boundary-drawing**: Strand-bound (Strand A only)
+- **pahc.gravity.liturgical-practice**: Cross-strand confirmed - Strand A (Ignatius) and Strand B (Justin), plus the Didache's separate single-community witness
+- **pahc.gravity.martyrdom-meaning**: Strand-bound (Strand A only) - both data points are Strand A; no Strand B equivalent developed anywhere in this world's evidentiary base
+- **pahc.gravity.state-pressure**: Cross-strand confirmed via Strand B (Rome, Tacitus/Nero) and Strand A (Antioch/Asia Minor, Ignatius's own arrest); Pliny's Bithynia-Pontus material corroborates but is a third data point, not a third strand
+- **pahc.gravity.translocal-network**: Cross-strand confirmed (Rome via 1 Clement; Antioch/Asia Minor via Ignatius and Polycarp)
 
 ## Confidence/Gravity Cross-Check flags
 
@@ -43,14 +52,15 @@
 
 ## tension-with coverage
 
-- pahc.gravity.boundary-drawing: no tension-with relation recorded. This world's own Doc_04 Interaction Matrix never named an opposing-pole gravity for this candidate (its tension is with the state of the evidence, not a rival organizing force this world's own gravity set contains) — flagged for human review per the experimental tension-coverage gate's own discipline, not resolved by inventing a relation.
+- pahc.gravity.boundary-drawing: no tension-with relation recorded. This world's own Doc_04 Interaction Matrix never named an opposing-pole gravity for this candidate — the closest candidate, state-pressure (G03), was carried as a related cell across four review rounds before Doc_04's own round 5 found no textual grounding for it anywhere and corrected it to "No demonstrated relationship," a correction this record follows. Doc_08 (not yet built for this world) proposes state-pressure and boundary-drawing converge on a shared formative lesson at the level of lived experience, but discloses that reading explicitly as Doc_08's own interpretive extension, not a Doc_04 finding — flagged for human review per the experimental tension-coverage gate's own discipline, not resolved by inventing a relation here.
 
 ## Not advanced (tested, did not reach gravity status)
 
 ### Household (oikos) as Basic Social/Meeting Unit
 - **Generated from:** Secondary scholarship (Meeks, Gehring, Balch, MacDonald); Doc_01's household-as-replicated-cell framing
 - **Author Gravity risk:** Severe, confirmed rather than resolved by testing
-- **Why not advanced:** Rests almost entirely on secondary scholarly reconstruction, not primary-voice attestation. The classic household-code texts (Colossians, Ephesians, 1 Peter) are none of them among this world's six primary voices and have no source row in this world's registry at all. Fails Repetition within the Native primary-voice set specifically. Not a claim that households were unimportant to how these communities met - a claim that this world's own evidentiary base, as built, cannot independently establish it as a gravity rather than an imported modern historiographical frame.
+- **Why not advanced:** Rests almost entirely on secondary scholarly reconstruction, not primary-voice attestation. The classic household-code texts (Colossians, Ephesians, 1 Peter) are none of them among this world's six primary voices and have no source row in this world's registry at all. Fails Repetition within the Native primary-voice set specifically. Doc_04's own correction, carried here: this finding does not 'reinforce' Doc_03's independent 'house church' lexicon open item as a second, convergent line of evidence - both draw on the identical underlying fact (no Registry row for the household-code texts), verified twice by different methods (a Repetition test here; a vocabulary lookup there), not two separately-derived confirmations. Not a claim that households were unimportant to how these communities met - a claim that this world's own evidentiary base, as built, cannot independently establish it as a gravity rather than an imported modern historiographical frame.
+- **Note:** No gravity record exists for this candidate (this schema has no 'did not reach gravity status' record type) - logged here instead. This is NOT the schema's real route for a permanent record of the finding: an honest_limit record is, and this world's F5-E canon cell (material remains / how historians know about daily life) is currently uncovered - a future honest_limit or contested_claim record for that cell should cite this finding directly rather than leaving it only in this generated index.
 
 ## Relation reciprocity check (mechanical)
 

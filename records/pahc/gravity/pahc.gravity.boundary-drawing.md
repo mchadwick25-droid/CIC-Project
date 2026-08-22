@@ -36,7 +36,19 @@ description: "Refusing those who say the Lord's flesh was only appearance. The r
   direct addressees; unestablished more broadly. Explanatory power explains Ignatius's own rhetoric;
   does not explain Strand B material, which shows no comparable content. Persistence fails broadly - not
   attested outside Ignatius within the Native set. Interaction: demonstrated relationships with
-  authority-consolidation and martyrdom-meaning. CONFIDENCE/GRAVITY CROSS-CHECK: thin, single-voice
+  authority-consolidation, martyrdom-meaning, and liturgical-practice - all three INFERENTIAL per Doc_04's
+  own labeling (single shared Ignatian passages doing double duty, not independent corroboration). No
+  demonstrated relationship with translocal-network or state-pressure - Doc_04's own Interaction Matrix
+  traces neither directly (the state-pressure cell was carried as Reshaping through four review rounds
+  before Doc_04's own round 5 found it had no textual grounding anywhere and corrected it to No
+  demonstrated relationship - this record follows that corrected state, not the earlier error). AUTHOR
+  GRAVITY RISK (Doc_04's own generation-stage rating): High, flagged at generation - within the Native
+  evidence streams, this candidate is substantively developed by exactly one voice. THE
+  THIRD-ASIA-MINOR-PROFILE ITEM (Doc_04 SS3, carried here alongside authority-consolidation and
+  martyrdom-meaning, all three resting on Ignatius as Asia Minor's only evidentiary voice, not merely
+  'Strand A' in the abstract): a confirmed independent third Asia Minor profile is exactly the kind of
+  new evidence that could strengthen this gravity's currently-failing Repetition and Persistence scores;
+  carried unresolved, never manufactured. CONFIDENCE/GRAVITY CROSS-CHECK: thin, single-voice
   evidence prevents Primary or confident Supporting classification at any grain; the underlying
   phenomenon - a real, live, unsettled boundary against contemporary rivals - is exactly what a
   Tensional gravity is for: a persistent, unresolved pressure that keeps this world's ecology from
