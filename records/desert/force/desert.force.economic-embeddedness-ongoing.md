@@ -21,6 +21,9 @@ sources:
   locus: "the documentary challenge to the 'flight to the desert' narrative"
 - source_id: desert.source.apophthegmata-patrum
   locus: "the sayings tradition's own comparable emphasis on total withdrawal, silent on economic entanglement (compiler-mediated, per this source's own compiler screen)"
+- source_id: desert.source.athanasius-vita-antonii
+  locus: "the Vita's own emphasis on total withdrawal, silent on economic entanglement"
+  license: public-domain
 name: "Ongoing economic and administrative embeddedness in the surrounding Nile valley economy [2A - ongoing/external]"
 kind: ongoing
 description: "A continuous external pressure requiring this world's participants to sustain real economic ties to the surrounding villages and provincial economy throughout their active life, not only at withdrawal's own founding moment. This is the force this corpus can document least confidently at Layer 2 specifically, among forces with a Layer 2 account to give at all: the literary self-presentation (Athanasius, the sayings tradition) emphasizes total withdrawal and does not, in its own preserved words, dwell on the economic entanglement the documentary and archaeological record independently shows. Whether that silence reflects rhetorical choice, genuine felt experience, or simply what survived is not resolved here."
@@ -67,3 +70,10 @@ desert.source.apophthegmata-patrum added above, with that source's own
 compiler screen carried in its locus. Finding M14: divergence_note and
 manifestations[1] now carry both of desert.source.nepheros-archive's
 own standing cautions, not caution (1) alone.
+
+Doc08, Round 2 review Finding M4: the M8 fix registered
+apophthegmata-patrum for "the sayings tradition" half of the
+description's "literary self-presentation (Athanasius, the sayings
+tradition)" clause but left "Athanasius" registered nowhere -
+desert.source.athanasius-vita-antonii added above, already registered
+by four sibling force records in this same step.

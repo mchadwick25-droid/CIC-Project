@@ -35,6 +35,8 @@ relations:
   target: desert.contested.antony-literacy
 - type: associated-with
   target: desert.figure.sarah
+- type: associated-with
+  target: desert.force.martyrdom-unavailable
 name: "Elder-mediated oral authority [PRIMARY]"
 description: "Authority earned through recognized discernment and passed through direct personal relationship - the geron/abba/amma address - as this world's primary authority mode in the anchoritic and semi-anchoritic strands, and present but structurally secondary to the Rule in the cenobitic strand. Strong on all six tests: the sayings collection's own organizing structure is this gravity's clearest evidential trace, though that structure is also the later compilers' own arrangement, not a transcript of how authority actually worked while it was being lived; teaching transmission and formation logic depend on it directly; it explains the absence of a general systematic treatise tradition outside Evagrius; it is cross-strand, though strand-differentiated in relative weight; and it reinforces diakrisis. Widely Accepted confidence. Stands as one pole of the authority tension (gravity 10) against the Pachomian Rule's office-based model (gravity 6). Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
@@ -101,3 +103,13 @@ record's own third manifestation names the amma tradition as the same
 authority mode attested for women, and that figure record supplies the
 one case where the surviving material makes that mode concrete rather
 than only asserted.
+
+Doc08, Round 2 review Finding S4: this record's own description already
+carries Doc_04 SS4's forces finding verbatim ("Intensifies under the
+generating force [martyrdom's unavailability]: a direct, load-bearing
+response to that specific historical pressure, not merely coexistence
+with it"), but no relation to desert.force.martyrdom-unavailable had
+been declared, though desert.gravity.withdrawal and
+desert.gravity.spiritual-combat - the two other gravities Doc_04 SS4
+covers by the same sentence - both received one at Doc_08's initial
+draft. Added above, completing the set Doc_04 SS4 actually found.

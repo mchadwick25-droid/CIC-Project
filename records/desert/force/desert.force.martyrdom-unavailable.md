@@ -30,6 +30,12 @@ relations:
   target: desert.gravity.withdrawal
 - type: associated-with
   target: desert.gravity.spiritual-combat
+- type: associated-with
+  target: desert.gravity.elder-authority
+- type: associated-with
+  target: desert.gravity.manual-labor
+- type: associated-with
+  target: desert.gravity.diakrisis
 ---
 Re-derived from the prior build's cleared Doc_08 Cell 1A-i (three review
 rounds), itself drawing on Doc_01 SS7's own framing of this world's
@@ -64,3 +70,14 @@ Finding M8: manifestations[2]'s "sayings tradition" claim registered no
 source for it - desert.source.apophthegmata-patrum added above, with
 that source's own compiler screen carried in both its locus and the
 manifestation itself.
+
+Doc08, Round 2 review Finding S4: Doc_04 SS4's own affirmative forces
+finding ("Candidates 1-5 [withdrawal, combat, elder authority, labor,
+diakrisis] all intensify under the generating force [martyrdom's
+unavailability]... a direct, load-bearing response") is carried
+verbatim in the description of five gravity records, but this force had
+declared a relation to only two of them (withdrawal, spiritual-combat).
+desert.gravity.elder-authority, desert.gravity.manual-labor and
+desert.gravity.diakrisis added above, completing the set Doc_04 SS4
+actually found, with reciprocal relations added on each of those three
+gravity records.

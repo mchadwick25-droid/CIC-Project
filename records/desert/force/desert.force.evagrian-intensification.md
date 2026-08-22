@@ -20,7 +20,7 @@ sources:
   license: public-domain
 name: "The intellectual intensification of ascetic psychology within Strand C, culminating in Evagrius's own systematized scheme [2B - ongoing/internal]"
 kind: ongoing
-description: "A Greek-philosophically-trained participant, uniquely educated relative to this world's own norm, produced a systematic scheme and taxonomy while resident at Kellia, among what this world's evidence suggests was a more educated, philosophically literate sub-population than this world's own norm. Within that setting specifically, the systematization appears to have functioned as a genuine intensification of an already-present diagnostic practice, organizing rather than replacing vocabulary and practice already present in less systematized form across the broader tradition - not an alien import into an otherwise unprepared ecology."
+description: "A Greek-philosophically-trained participant, uniquely educated relative to this world's own norm, produced a systematic scheme and taxonomy while resident at Kellia, among what this world's evidence suggests was a more educated, philosophically literate sub-population than the norm. Within that setting specifically, the systematization appears to have functioned as a genuine intensification of an already-present diagnostic practice, organizing rather than replacing vocabulary and practice already present in less systematized form across the broader tradition - not an alien import into an otherwise unprepared ecology."
 manifestations:
 - "the eight-logismoi taxonomy and the praktike-apatheia-theoria scheme, this world's only systematic account of contemplative ascent"
 - "the general spiritual-combat theme's own general attestation across all three strands, which the systematized scheme organizes rather than originates"
@@ -49,6 +49,10 @@ uniform or representative of this world's own median participant.
 kind: ongoing maps Doc_08's own Cell 2B (ongoing/internal); the cell
 code is carried in this record's own name, per the convention
 established at desert.force.martyrdom-unavailable's own body note.
+
+Doc08, Round 2 review Finding C1: the M4 fix left "this world's own
+norm" twice in one sentence - the second instance shortened to "the
+norm," matching Doc_08's own wording exactly.
 
 Doc08, Round 1 review Finding M4: the description's "the most learned of
 this world's settlements" is a settlement-ranking superlative no

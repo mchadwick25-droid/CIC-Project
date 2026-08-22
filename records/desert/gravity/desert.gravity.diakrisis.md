@@ -29,6 +29,8 @@ relations:
   target: desert.gravity.evagrian-systematization
 - type: associated-with
   target: desert.term.diakrisis
+- type: associated-with
+  target: desert.force.martyrdom-unavailable
 name: "Diakrisis - discernment as master virtue [PRIMARY]"
 description: "The capacity to judge rightly between thoughts, practices, and counsels, governing how every other discipline in this world was calibrated and practiced - this world had no fixed syllabus, so discernment did the work a curriculum does elsewhere. Recurs across named elders and across settlements in the sayings tradition - though how far that cross-settlement pattern reflects the settlements themselves and how far it reflects the sayings' later compilers' own arrangement is not settled; Cassian, writing decades later in Latin for a Gallic audience, devotes a whole Conference to it as teaching he received in Egypt. Strong on all six tests: repeated across the tradition independent of settlement; other practices depend on it for calibration; directly formative; explains the situational, non-systematic character of most surviving teaching; cross-strand; and moderates the intensity of both spiritual combat and its Evagrian systematization against excess. Widely Accepted, no discrepancy. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
@@ -116,3 +118,14 @@ deliberately, since Doc_04 SS2 row 3's own Explanatory cell treats the
 same absence ("explains absence of a general systematic treatise
 tradition outside Evagrius") as itself an attested pattern, not merely
 a gap in this record's own evidence.
+
+Doc08, Round 2 review Finding S4: this record's own description already
+carries Doc_04 SS4's forces finding verbatim, but no relation to
+desert.force.martyrdom-unavailable had been declared, though
+desert.gravity.withdrawal and desert.gravity.spiritual-combat - the two
+other gravities Doc_04 SS4 covers by the same sentence - both received
+one. Added above, completing the set Doc_04 SS4 actually found. This is
+separate from, and does not affect, this record's own absent relation
+to desert.force.evagrian-intensification/evagrian-systematization,
+which DOC08-INDEX.md's own diakrisis row continues to disclose rather
+than manufacture.

@@ -73,8 +73,15 @@ contested_claim record desert.contested.alexandria-continuity -
 reciprocal associated-with added.
 
 Doc_08: desert.force.scriptural-address added as a reciprocal relation
-- the inherited interpretive posture (a verse heard as direct personal
-address) is this gravity's own generating force.
+- that force, whose own content is the inherited interpretive posture
+of a verse heard as direct personal address, is this gravity's own
+generating force.
+
+Doc08, Round 2 review Finding C4: the C3 fix named "the inherited
+interpretive posture" itself, rather than the force record it
+describes, as this gravity's generating force - corrected to name
+desert.force.scriptural-address as the generating force and the posture
+as that force's own content.
 
 Doc08, Round 1 review Finding C3: the note above was a sentence
 fragment, missing a verb - corrected.

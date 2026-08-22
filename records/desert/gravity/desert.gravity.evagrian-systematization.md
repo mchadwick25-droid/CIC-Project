@@ -14,9 +14,9 @@ confidence:
   divergence_note: "Widely Accepted for authorship and general content of Evagrius's ascetic-practical corpus - a confidence level that meets, not fails, the Primary floor. What disqualifies this candidate from Primary is the Persistence test (no comparable systematization in Strand A or B), not evidential confidence; this record does not conflate the two axes. Concentrated in one author (flagged at generation, per the Framework's own Author Gravity requirement) - a representativeness concern distinct from, and in addition to, the Persistence-test failure."
 sources:
 - source_id: desert.source.evagrius-praktikos
-  locus: "the praktike-apatheia-theoria scheme; the eight-logismoi taxonomy (consult-only; vendored excerpt witness via Socrates IV.23)"
+  locus: "the praktike-apatheia-theoria scheme (consult-only; no vendored witness for the scheme itself); the eight-logismoi taxonomy (consult-only, obliquely corroborated by Socrates IV.23's own 'eight parts' description of the Antirrhetikos)"
 - source_id: desert.source.socrates-historia-ecclesiastica
-  locus: "IV.23 - Evagrius's works named and described, in Zenos's English"
+  locus: "IV.23 - Evagrius's works named and described, in Zenos's English (quotable with the double caveat: Socrates's excerpting, Zenos's translation)"
   license: public-domain
 relations:
 - type: enabled-by
@@ -114,6 +114,17 @@ desert.force.origenist-controversy (the later episcopal intervention
 exploiting this gravity's own structural narrowness) both added as
 reciprocal relations. The description above states that connection,
 marked as this build's own reading rather than a Doc_04 finding.
+
+Doc08, Round 2 review Finding M2: the evagrius-praktikos locus had
+claimed Socrates IV.23 as a "vendored excerpt witness" for the scheme
+itself; IV.23 carries no praktike-apatheia-theoria scheme and no
+mention of Kellia (verified directly), matching the identical M5 fix
+already made on the sibling force record desert.force.evagrian-intensification
+in the same commit that fixed it but did not sweep this locus twelve
+lines away. Corrected to mark the scheme consult-only with no vendored
+witness, and to note only the oblique "eight parts" corroboration for
+the taxonomy that IV.23 actually carries. The Socrates locus now also
+carries the mandatory double caveat that source requires.
 
 Doc08, Round 1 review Finding S4: the description rewrite that
 introduced the paragraph above (commit 6a10e1dc) had dropped two

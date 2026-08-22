@@ -14,15 +14,18 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: "the founding narrative and the federation's own internal governance - vision, the Rule; the offices themselves are named as the Latin Rule tradition transmits them (via Rousseau's consult-only scholarship, below), not as this source directly supplies their names"
+  locus: "the founding narrative and the federation's own internal governance - the Rule and its offices, as the Latin Rule tradition transmits them (Doc_02 SS1.2, SS3), via Rousseau's consult-only scholarship below; this source's own edition field carries NO VENDORED EDITION, so this record does not claim any of these clauses is supplied directly by pachomian-corpus itself"
+- source_id: desert.source.palladius-lausiac-history
+  locus: "ch. XXXII - the founding vision and angel-tablet legend as Palladius reports it (verified verbatim: 'an angel appeared and said... go out and collect all the young monks and dwell with them... and he gave him a brass tablet on which this was inscribed'), vendored, hagiographic frame, per desert.source.pachomian-corpus's own standing channel-naming rule"
+  license: public-domain
 - source_id: desert.source.rousseau-pachomius
-  locus: "the named modern authority for the Latin Rule tradition's office-content (housemaster, steward), which neither vendored witness (Palladius, Sozomen) supplies by name - matching desert.gravity.authority-tension's own citation of this source for the identical claim"
+  locus: "the named modern authority underlying Doc_02's own Latin Rule tradition citation for the Rule's own offices (housemaster, steward) - matching desert.gravity.authority-tension's own citation of this source for the identical claim"
 name: "The formation-at-scale problem: Pachomius's cenobitic innovation [1B - initiating/internal]"
 kind: initiating
 description: "The internally-felt problem of how total ascetic formation could extend beyond one extraordinary individual's own solitary achievement to the many who sought to imitate it, without diluting that achievement or requiring each aspirant to independently rediscover Antony's own singular path. Pachomius founded the first cenobitic community at Tabennesi, establishing a written Rule, common property, and formal offices - a genuine institutional innovation distinct from, yet continuous with, the same total-commitment logic already carried by withdrawal and spiritual combat, applied now to a communal register."
 manifestations:
-- "Pachomius's founding of the first cenobitic community at Tabennesi, traditionally after a vision, joined by his brother John and further companions"
-- "the written Rule and its formal offices (housemaster, steward), as the Latin Rule tradition transmits them via Rousseau's consult-only scholarship - a genuinely new organizational form within this world's own span"
+- "Pachomius's founding of the first cenobitic community at Tabennesi, traditionally after a vision in which an angel commanded him to 'collect all the young monks and dwell with them' and gave him the Rule on a brass tablet - as Palladius reports it (ch. XXXII), a vendored, hagiographic account"
+- "the written Rule and its formal offices (housemaster, steward), as the Latin Rule tradition transmits them (Doc_02 SS3), via Rousseau's consult-only scholarship - a genuinely new organizational form within this world's own span"
 relations:
 - type: associated-with
   target: desert.gravity.koinonia
@@ -52,3 +55,22 @@ Latin Rule tradition transmits" via Rousseau's own scholarship, and
 rousseau-pachomius's locus now states that role explicitly, matching
 desert.gravity.authority-tension's own citation of the same source for
 the identical claim.
+
+Doc08, Round 2 review Finding S3: the Round 1 fix left "the founding
+narrative" and "the Rule" themselves unchanneled in the pachomian-corpus
+locus, and its "not as this source directly supplies their names"
+implied a directness that source's own NO-VENDORED-EDITION status
+denies for any of its content. The Rule/offices are now routed to
+Doc_02 SS1.2/SS3, matching Doc_08's own Cell 2B-i Layer 2 citation for
+the identical claim; the founding narrative is separately routed to
+desert.source.palladius-lausiac-history ch. XXXII, the vendored,
+hagiographic channel that source's own standing rule names for exactly
+this kind of claim - verified directly against the vendored file (cic/texts/palladius_lausiac-history_clarke1918.txt,
+line 397), which carries the angel/vision/brass-tablet account
+addressed to Pachomius alone. The prior draft of this manifestation
+also named "his brother John and further companions" as part of the
+same Palladius citation; ch. XXXII does not mention John or any
+companion by name (only "collect all the young monks"), so that detail
+is removed here rather than left mis-attributed - it is Lives-tradition
+material (desert.source.pachomian-corpus), not independently verified
+in this pass, and not reinstated without that verification.
