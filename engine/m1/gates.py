@@ -33,6 +33,7 @@ COMPLETION_REQUIRED = {
     "search_record": ["query", "channel", "result"],
     "canon_question": ["cell", "text", "source", "canon_status", "phrasing_rules_checked"],
     "modern_term": ["display_terms", "origin_year", "modern_sense", "underlying_subject"],
+    "fleet_voice": ["register_statements", "pronoun_rule", "citation_contract", "limit_discipline"],
 }
 
 
@@ -251,6 +252,7 @@ _ATTRIBUTION_FIELDS = {
     "doctrinal_witness": ["text"],
     "honest_limit": ["statement"],
     "story": ["tellable_as", "text"],
+    "fleet_voice": ["pronoun_rule", "citation_contract", "limit_discipline"],
 }
 
 # Each pattern below is justified by one of the 4 real leaks found in the
@@ -330,6 +332,11 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
                 txt = t.get("text", "")
                 for reason in _attribution_hits(txt):
                     findings.append(f"{rid}.exchange[{t.get('speaker')}]: {reason} - {txt[:150]!r}")
+        if rt == "fleet_voice":
+            for s in rec.get("register_statements") or []:
+                stmt = s.get("statement", "")
+                for reason in _attribution_hits(stmt):
+                    findings.append(f"{rid}.register_statements[{s.get('number')}]: {reason} - {stmt[:150]!r}")
     return findings
 
 

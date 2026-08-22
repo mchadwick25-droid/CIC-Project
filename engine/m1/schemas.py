@@ -320,6 +320,31 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "distinguishing_claim": {"type": "string"},
         "native_subject_map": {"type": "object"},
     },
+    # A single fleet-owned record (records/_fleet/fleet_voice/), versioned
+    # like the canon - the compiler's source for the M4 Live-Generation
+    # Design's one fleet preamble segment (§5.2): the seven register
+    # statements, the pronoun rule, and the citation contract stated ONCE
+    # and compiled into every world's prompt, rather than re-derived or
+    # re-stated per world (the per-world voice_craft.flavor_notes
+    # "self-reference" entry duplicates the pronoun rule across all six
+    # worlds today - this is that rule's one owned home going forward).
+    "fleet_voice": {
+        "register_statements": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "number": {"type": "integer"},
+                    "statement": {"type": "string"},
+                },
+                "required": ["number", "statement"],
+                "additionalProperties": False,
+            },
+        },
+        "pronoun_rule": {"type": "string"},
+        "citation_contract": {"type": "string"},
+        "limit_discipline": {"type": "string"},
+    },
 }
 
 
