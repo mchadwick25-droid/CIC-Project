@@ -6,7 +6,7 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells:
-- F3-I
+- F3-E
 - F6-T
 confidence:
   citation_specificity: A
@@ -16,7 +16,10 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.ambrose-epistles
-  locus: Ep. XVII-XVIII with Symmachus's Memorial (npnf210 from line 40354)
+  locus: Ep. XVII-XVIII (Ambrose's two replies)
+  license: public-domain
+- source_id: ijc.source.symmachus-memorial
+  locus: the Memorial itself (npnf210 from line 40354)
   license: public-domain
 retrieval:
   tier: 2
@@ -52,8 +55,17 @@ A registry-append story closing the legacy build's own flagged gap
 (Open_Gaps item 6: no Registry row for the Altar of Victory
 controversy despite Doc_05 SS5 naming it real and central): the
 vendored npnf210 prints Symmachus's Memorial with Ambrose's replies,
-so the episode enters this build fully sourced. canon_cells: F3-I (how
-the world dealt with those outside), F6-T ("isn't Christianity too
+so the episode enters this build fully sourced. Symmachus's Memorial
+gained its own source record at review (Opus canon-structure pass,
+2026-08-21), separate from ijc.source.ambrose-epistles - Symmachus is a
+distinct, non-Christian author, not Ambrose, even though both texts
+share one vendored file. Corrected at review
+(Opus canon-structure pass, 2026-08-21): retagged from F3-I (a loose
+association - none of that cell's own questions concern this episode)
+to F3-E (did Constantine corrupt the church - did the empire change
+what you were), which this episode answers directly: a pagan senator's
+petition loses because the church now commands the emperor's ear.
+canon_cells: F3-E, F6-T ("isn't Christianity too
 narrow - one way, out of all the world's ways": Symmachus's own "not
 by one road only" is that very question asked FROM the other side, in
 the world's own record, and the world's answer is on the record beside

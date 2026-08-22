@@ -37,8 +37,9 @@ false_friend:
 - a claim to replace old Rome's church outright (the canons rank it after Rome, not over it)
 senses:
   informational: Constantine dedicated the city as his capital in 330; within two generations its bishops'
-    claimed rank was being argued from the name itself - "because it is New Rome" is the canons' own stated
-    reason, in 381 and again in 451.
+    claimed rank was being argued from the name itself - "because Constantinople is New Rome" is Canon 3's
+    own stated reason in 381; Canon 28 of 451 extends the same reasoning on the different ground that old
+    Rome's own privileges rested on its having been "the royal city."
   evidential: The name and the reasoning survive in the conciliar record's own words - the rare case where
     a claim's premise is written into the instrument making the claim.
   personal: To its own church the name was not vanity but honesty - the empire's weight had really moved,

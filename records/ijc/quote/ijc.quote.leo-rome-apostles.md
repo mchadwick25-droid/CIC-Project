@@ -24,6 +24,7 @@ speaker_or_author: ijc.figure.leo
 license: verbatim
 relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
+- {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---
 Text verified verbatim against the vendored file 2026-08-21 (editorial
 notes stripped; addressed to Rome herself on the feast of Peter and

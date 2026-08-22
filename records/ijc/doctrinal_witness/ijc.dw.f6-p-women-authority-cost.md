@@ -25,7 +25,8 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: 'Could a woman carry real authority among us, and what did it cost her? Yes, twice, on the record''s
-  own terms - and both times the cost was steep. Justina, regent for her young son, commanded the machinery
+  own terms - and both times the cost was steep. Justina, mother and dominant influence over her young
+  son - no formal regency is attested - commanded the machinery
   of the state directly: when Ambrose would not surrender a basilica, the heaviest sentences were decreed
   first upon the whole body of merchants - two hundred pounds'' weight of gold required within three days,
   chains placed on the necks of innocent persons during Lent, the prisons full of trades-people, palace

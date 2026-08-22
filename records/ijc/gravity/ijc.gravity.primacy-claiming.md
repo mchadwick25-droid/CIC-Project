@@ -32,6 +32,7 @@ relations:
 - {type: illustrated-by, target: ijc.story.letter-that-outranked-a-council}
 - {type: illustrated-by, target: ijc.quote.julius-custom}
 - {type: illustrated-by, target: ijc.quote.canon3-new-rome}
+- {type: illustrated-by, target: ijc.quote.leo-rome-apostles}
 - {type: enabled-by, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.orthodoxy-enforcement}
 - {type: associated-with, target: ijc.gravity.episcopal-independence}

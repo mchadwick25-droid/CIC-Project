@@ -43,9 +43,9 @@ false_friend:
 - a formula that was settled and uncontested from the moment Nicaea spoke it
 - a word taken directly from scripture (its absence from scripture was the objection)
 senses:
-  informational: The word the council of Nicaea confessed when "like" was found to leave too much unclosed,
-    and the doctrinal center every later council in this window defends, refines, or - for two imperial
-    reigns - sets aside.
+  informational: The word the council of Nicaea confessed in 325 against subordinationist formulas, later
+    contested by a rival party-word, "like" (homoios), that crystallized decades afterward - the doctrinal
+    center every later council in this window defends, refines, or - for two imperial reigns - sets aside.
   evidential: 'The creed''s text survives in the conciliar record; so does the hesitation: Eusebius of
     Caesarea, present at Nicaea, wrote home explaining the caution with which he signed - contemporary
     evidence that the word''s meaning was contested at the moment of its adoption, not only later.'

@@ -27,7 +27,8 @@ relations:
 name: Constantine's Victory and the Edict of Milan [1A - initiating/external]
 kind: initiating
 description: 'The world''s beginning as an external event: Constantine''s victory at the Milvian Bridge
-  (312) and the legal toleration formalized at Milan (313), ending the great persecution and converting
+  (312) and the legal toleration formalized at Milan (313) - the persecution''s legal end had already begun
+  with Galerius''s own edict of 311, with Milan confirming and extending it - converting
   episcopal office from a hunted status into a state-recognized one. In the world''s own experience: an
   emperor, once an enemy, now stands with the church - asking its bishops to gather, judge, and settle
   its disputes, rather than hunting it. Nothing before this event made this world possible; everything

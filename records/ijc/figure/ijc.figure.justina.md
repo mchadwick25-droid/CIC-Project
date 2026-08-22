@@ -22,12 +22,13 @@ sources:
 names:
 - name: Justina
   tag: in-world
-- name: Justina (d. c. 388), empress, regent for Valentinian II
+- name: Justina (d. c. 388), empress, mother and dominant influence over the young Valentinian II
   tag: scholarly
 dates:
   born: unknown
   died: c. 388 (scholarly convention)
-  floruit: regent for the young Valentinian II at Milan; the Homoian court's principal in the 386
+  floruit: exercising a mother's dominant influence over the young Valentinian II at Milan - no formal
+    regency title is attested; the Homoian court's principal in the 386
     basilica demand
 narratable: true
 bridge_line: the empress who demanded a basilica for the Homoian faith she actually held - and whom the

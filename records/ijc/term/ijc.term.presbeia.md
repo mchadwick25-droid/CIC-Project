@@ -44,7 +44,8 @@ plain_meaning: 'The "prerogative of honor": Constantinople''s claim to rank seco
 world_word: presbeia (tes times)
 false_friend:
 - a merely ceremonial honor with no operative claim behind it
-- the presbyterate or office of elders (unrelated despite the similar sound)
+- 'the presbyterate or office of elders (presbyteros) - genuinely cognate, both from the same root
+  meaning "elder," but diverged in sense: this word means rank or precedence, not the pastoral office'
 senses:
   informational: 'The council of 381 gave the bishop of Constantinople the prerogative of honor after
     the bishop of Rome, "because Constantinople is New Rome"; Chalcedon''s Canon 28 extended the same

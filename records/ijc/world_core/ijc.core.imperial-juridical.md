@@ -43,7 +43,9 @@ formation_logic: 'This is a world of office-holders, not congregants - emperors,
   decretal, conciliar act, and imperial edict. Three strands contest the ground of authority across the
   whole window: a Roman strand grounding authority in apostolic succession from Peter (Damasus through
   Leo); a Constantinopolitan strand grounding a see''s rank in its nearness to imperial power (Canon 3
-  of 381, Canon 28 of 451 - "because it is New Rome"); and an Ambrosian strand grounding a bishop''s
+  of 381 - "because Constantinople is New Rome" - extended by Canon 28 of 451, on the ground that old
+  Rome''s own privileges rested on its having been "the royal city"); and an Ambrosian strand grounding a
+  bishop''s
   authority in sacramental and moral leverage over any ruler - the emperor is within the Church, not
   over it. All three share one root: the Constantinian alliance that first made church office a form
   of state-adjacent power at all.'

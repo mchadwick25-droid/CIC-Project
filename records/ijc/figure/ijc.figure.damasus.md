@@ -40,11 +40,18 @@ bridge_line: the bishop who argued Rome's primacy in verse and stone - commissio
   graves so that pilgrims could read the see's claim for themselves
 ---
 Strand A's consolidating figure. THE HARD FACT CARRIED WITH HIM: his
-election was violently contested - Socrates IV.29 records "sedition and
-loss of life" between his and Ursinus's parties (the fuller pagan
-account, Ammianus 27.3 with its casualty figure for one basilica, is
-not vendorable this session - ijc.search.ammianus-english - and is
-referenced via the scholarship only). This world tells that fact rather
+election was violently contested - Socrates IV.29's own narrative
+records that "many lives were sacrificed in this contention" between
+his and Ursinus's parties, not merely the disputed election's chapter
+heading ("Sedition and Loss of Life"), corrected at review (Opus
+historical-accuracy pass, 2026-08-21) from a prior draft that quoted
+the heading as if it were Socrates's own sentence. Ammianus's own fuller
+pagan account (27.3) is not vendorable this session
+(ijc.search.ammianus-english) and is not quoted; but the vendored
+npnf202 file's own editorial endnote to this chapter quotes Ammianus's
+casualty figure directly - 137 citizens killed in a single day - a fact
+this build carries from the vendored file itself, not from outside
+scholarship. This world tells that fact rather
 than hiding it; it is F6 material. Source discipline: his genuine
 synodical letters (embedded in Theodoret) and the epigraphic program
 (witnessed by Jerome, his own sometime secretary) carry his record; the

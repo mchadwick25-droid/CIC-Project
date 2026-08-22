@@ -37,3 +37,58 @@ Built one stage at a time with gates run and a self-review pass between stages, 
 2. **Living Tradition Status: PENDING** (Doc_01 §1); registry `living_tradition_flag: true` meanwhile, failing toward doorway disclosure.
 3. **Open source requests (P3, non-blocking):** Paulinus's Vita in the 1928 Kaniecka translation (would upgrade the bees story's verifiability); Ammianus (Yonge 1862) for the Damasus-election account. See SOURCE-REQUEST-MANIFEST §2.
 4. **"Church and Empire"** is the census/card short name (Mark, 2026-07-20); the registry `census_id` maps to the Atlas entry `imperial-juridical-christianity`.
+
+## 6. Adversarial review round (2026-08-21/22) and the fixes it produced
+
+Per §5's own flagged next action, three isolated Opus adversarial reviews were dispatched against the
+full 125-record set: quote/source verbatim fidelity, historical accuracy, and canon/structure
+discipline. All three are persisted in full in `Review-Artifacts/` (this project's own discipline:
+reviews exist as files, not summarized claims). All three returned **SUBSTANTIAL REVISION REQUIRED**.
+
+**Findings and disposition:** 12 HIGH, 24 MEDIUM, and 26 LOW findings across the three reviews. All 12
+HIGH and all 24 MEDIUM findings were fixed; the majority of LOW findings were also fixed opportunistically.
+Two per-question content gaps flagged at MEDIUM (Genesis-as-science under F2-T; hell/damnation and
+divorce under F6-T) were left as honest, disclosed gaps within already cell-covered material, rather than
+adding invented content under time pressure - both cells already carry a substantive record answering
+their other questions, satisfying the coverage gate.
+
+**The most consequential fixes, by category:**
+- **Factual corrections** (the project's own named failure mode - a real, sourced fact carried at the
+  wrong scope): a quote conflating two different ancient translations of the Milvian Bridge agreement
+  under the wrong attribution; a false three-Auxentii disambiguation collapsed to the correct two, with
+  Ambrose's own naming argument as warrant; the Callinicum affair's actual content (a burned synagogue
+  shielded from restitution, not a euphemism) restored to the record; three false "days apart"/"same
+  week" claims about the Chalcedon Session II/Canon 28 interval corrected to the actual three weeks; an
+  inverted clause about who reviewed whose judgment in the Julius/Alexandria dispute; a chapter-title
+  misquoted as a historian's own sentence; a silently Latinized Greek letter (chi) restored to what the
+  file actually prints; a misdated "mid-reign" baptism; an anachronistic retrojection of the "Homoian"
+  label to pre-357 depositions; several more (full list in the review artifacts and the two MEDIUM-fix
+  commits).
+- **Three honest_limit records were substantively wrong**, not just imprecise: each claimed a topic
+  (original sin, the eucharist, marriage, tithing) was simply absent from this world's own record, when
+  the already-vendored corpus (Leo's letters and sermons; Ambrose's De Mysteriis and Concerning Widows)
+  answers each directly. Root cause, per the reviews' own diagnosis: no cell-scoped negative search had
+  ever been run before those honest_limit statements were drafted - only work/volume-level searches
+  existed. Fixed by adding five new doctrinal_witness records, two new source records, two new
+  cell-scoped negative search_records, and narrowing each honest_limit to what genuinely remains
+  unanswered.
+- **F6-P (a woman's authority and its cost)** was nominally covered by a story tagged onto the cell that
+  answered none of its six questions - replaced with a genuine answer built from Justina's documented
+  coercive regency (Ambrose Ep. XX) and Pulcheria's role as Leo's own direct addressee.
+- **Fleet-architecture leakage** (naming "other Christian worlds," "worlds that kept them," internal
+  record ids, and this build's own "Corrected at review" language) was found inside compiled/participant-
+  facing fields beyond the one precedented location (`world_core.cautions`) - removed from
+  `doctrinal_witness.text` and `honest_limit.statement` throughout.
+- **Doc_04's own Interaction Matrix** had two relationships explicitly marked "reshaping" (after that
+  document's own Round-1-forced correction) flattened to undifferentiated `associated-with` in the
+  compiled relations, re-introducing the ambiguity the correction had removed - re-encoded as
+  `tension-with`.
+- All 11 doctrinal_witness records bumped from retrieval tier 2 to tier 1, matching their definitional
+  role as this world's own core answer-ground for a cell (previously unexplained inconsistency with the
+  `alx` exemplar's own all-tier-1 convention).
+
+**Record count:** 125 → 137 (12 new records: 1 story, 5 doctrinal_witness, 4 source, 2 search_record).
+**Gates:** 13/13 clean throughout, re-verified after every fix pass.
+
+No fix in this round reopened Step 0 or Doc_01's settled ground. The build otherwise remains exactly
+where §1 left it: stopped before step 5 (voice_craft/demonstration), pending Mark's disposition.
