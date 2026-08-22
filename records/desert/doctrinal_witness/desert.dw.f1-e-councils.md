@@ -11,22 +11,35 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for Antony's own attested resistance to Arian teaching and refusal of Melitian communion (desert.quote.antony-arians-serpents); Contested for how far that resistance should be read as this world's own settled position on where decision-making authority lay, since no source in this corpus has Antony or any other desert participant claim a voice in a council's own decision."
+  divergence_note: "Widely Accepted for Antony's own attested refusal of Melitian and Arian teaching at his own mountain, and his summoned public teaching at Alexandria (desert.quote.antony-arians-serpents; desert.quote.antony-nicene-formula); Contested for how far that should be read as this world's own settled position on where decision-making authority lay, since no source in this corpus has Antony or any other desert participant cast a vote or sit in a council's own proceedings."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS68-69 - Antony's own rejection of both Melitian and Arian teaching, without reference to any council's own authority to decide the question"
+  locus: "SS68 - Antony's own rejection of both Melitian and Arian teaching, at his own mountain; SS69 - Antony summoned by the bishops to Alexandria, publicly teaching against the Arians and stating the Nicene position"
   license: public-domain
-text: "We were not the ones who sat in council and decided what the church would hold. That happened elsewhere, among the bishops, and we received the outcome rather than shaped it. What we could do, and did, was refuse - refuse communion with those who taught what the settled faith did not hold, whether that meant a rival schismatic group or a teaching we judged false. Our own authority was not the authority to decide a doctrine; it was the authority, earned through a life spent in discipline, to know a false teacher when we met one, and to say so plainly by withholding our own fellowship."
+text: "We were not the ones who sat in council and decided what the church would hold. That happened elsewhere, among the bishops. But we were not silent either. When the Arians once claimed one of us as agreeing with them, the bishops sent for him, and he came down from his own mountain to the city and stood up in public and denounced them, and taught what the settled faith actually held. His own authority to do that came from a life spent in discipline, not from any office he held in the church - but the bishops still sent for him, because that authority mattered enough to be worth summoning."
 positions:
-- "conciliar and episcopal authority decided doctrine; desert participants received rather than made those decisions"
-- "the authority this world's own participants exercised was the authority to recognize and refuse false teaching, not to legislate true teaching"
-- "refusal of communion, not argument, was this world's own characteristic form of doctrinal resistance"
+- "conciliar and episcopal authority decided doctrine; desert participants did not sit in council or cast a vote"
+- "the authority this world's own participants exercised was earned, not conferred by office - but it was still, on at least one occasion, formally summoned by the bishops to defend the settled faith in public"
+- "refusal of communion at home and public argument in the city were both this world's own recorded forms of doctrinal resistance, not one instead of the other"
 tensions:
-- "person-earned discernment against office-conferred decision-making authority - the same tension desert.gravity.authority-tension names for this world's own internal governance, extended here to the wider church"
+- "person-earned discernment against office-conferred decision-making authority - the same tension that shaped how we governed ourselves, extended here to the wider church's own use of that earned authority when it needed it"
 ---
-Reasoned from desert.quote.antony-arians-serpents together with
+Reasoned from desert.quote.antony-arians-serpents and
+desert.quote.antony-nicene-formula together with
 desert.gravity.authority-tension's own person-vs-office framing,
 extended (explicitly, in the tensions field) from this world's internal
 governance question to its relationship with the wider church's own
 conciliar authority - a genuine extension this record names rather than
 disguises as a claim the underlying sources make directly.
+
+Step4, Round 1 review Finding S2: this record's third position
+previously read "refusal of communion, not argument, was this world's
+own characteristic form of doctrinal resistance," and its locus gloss
+claimed SS68-69 showed rejection "without reference to any council's
+own authority to decide the question." Both were checked directly
+against SS69, inside the record's own cited range: Antony is summoned
+by the bishops to Alexandria and publicly argues against the Arians,
+teaching the Nicene position in positive terms - argument, at
+episcopal summons, is exactly what SS69 shows. Corrected above to state
+both forms (refusal at home; summoned public argument in the city)
+rather than the one SS69 itself denies.

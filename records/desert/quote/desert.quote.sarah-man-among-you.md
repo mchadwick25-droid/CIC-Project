@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.sarah-answer's own rating. No vendored edition exists for this source; license is paraphrase-only for that reason, per desert.source.apophthegmata-patrum's own hard rule that no citation of it may claim verbatim status."
+  divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.sarah-answer's own rating - Inferential/Thin for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound. No vendored edition exists for this source; license is paraphrase-only for that reason, per that source's own hard rule that no citation of it may claim verbatim status."
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "Sarah, Alphabetical Collection - the same saying desert.story.sarah-answer and desert.figure.sarah both carry, in this record's own words rather than a verbatim rendering"
@@ -30,3 +30,8 @@ verbatim-quote claim against it. The wording restates the saying's
 substance rather than reproducing a specific published translation's
 own English, consistent with desert.figure.sarah's own identical
 discipline for the same saying.
+
+Step4, Round 1 review Finding S10: divergence_note carried only the
+"Widely Accepted" half of desert.source.apophthegmata-patrum's own
+confidence pairing - the unconditional Inferential/Thin bound added
+above, matching desert.figure.sarah's own full statement of it.

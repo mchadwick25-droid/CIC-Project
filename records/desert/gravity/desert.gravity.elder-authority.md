@@ -37,8 +37,6 @@ relations:
   target: desert.figure.sarah
 - type: associated-with
   target: desert.force.martyrdom-unavailable
-- type: associated-with
-  target: desert.story.arsenius-flee
 - type: illustrated-by
   target: desert.story.sarah-answer
 - type: associated-with
@@ -123,3 +121,10 @@ Doc_08's initial draft. Added here, completing the full five-gravity
 set Doc_04 SS4 actually found (Round 3 review Finding M2: this note's
 own scope corrected - it is one of five gravities the sentence covers,
 not one of three).
+
+Step4, Round 1 review Finding M10: the relation to desert.story.arsenius-
+flee, added at Step 4's own draft, was justified there as "a voice heard
+directly, not mediated through an institution" - this record's own
+description defines elder authority as passed through direct personal
+relationship specifically, and the Arsenius saying's voice is God's,
+with no elder in it. Removed.

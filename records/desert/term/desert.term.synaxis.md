@@ -28,6 +28,8 @@ retrieval:
 relations:
 - type: associated-with
   target: desert.term.kellion
+- type: associated-with
+  target: desert.story.kellia-day
 plain_meaning: "The gathering: the weekly meeting of monks who lived alone all week. They came in for vigil, worship, and a shared meal."
 world_word: synaxis
 false_friend:

@@ -50,6 +50,10 @@ relations:
   target: desert.quote.antony-dying-daily
 - type: associated-with
   target: desert.quote.antony-arians-serpents
+- type: associated-with
+  target: desert.quote.antony-not-worsted
+- type: associated-with
+  target: desert.quote.antony-nicene-formula
 ---
 SYSTEMIC AUTHOR-GRAVITY FLAG (this world's own version of the risk
 Doc_03's Author Gravity discipline names generally): Antony's own

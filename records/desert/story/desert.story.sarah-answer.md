@@ -27,15 +27,22 @@ relations:
 narrative_tier: 2
 narrative_tier_justification: "Tier 2 (Collected and Traditional Material), same basis as desert.story.moses-leaking-jug and desert.story.arsenius-flee: attributed to a named amma, transmitted through the compiled tradition rather than a contemporary datable text."
 tellable_as: "some monks came to test her, a woman - she answered them as one man answers another"
-text: "The tradition tells that some elder monks once came to visit Amma Sarah meaning to humble her, since she was known and respected and they wanted to see whether she would grow proud of visitors coming to see a mere woman. They said as much to her directly. She answered them: by nature I am a woman, yes - but not by my own thoughts. It is I who am the man here, and you who are the women."
+text: "The tradition tells that some elder monks once came to visit Amma Sarah meaning to humble her, and said as much to her directly - that she was, after all, only a woman. She answered them: by nature I am a woman, yes - but not by my own thoughts. It is I who am the man here, and you who are the women."
 absent_detail: "This is one of a small number of sayings this world's own surviving record attributes to a named amma by name - genuinely thin material, not evidence of a fuller corpus that happens not to have been included here. Whether the specific visit happened as narrated, or the saying survived detached from any single occasion, is not something this document can settle."
 ---
 Re-derived from the prior build's cleared Doc_09a Story 2.3, itself
 independently web-verified during that build's own drafting - the same
 saying desert.figure.sarah's own bridge_line already paraphrases in
-brief; this record supplies the fuller narrated encounter (the elders'
-own stated motive for the visit) that record's shorter compiled field
-does not carry.
+brief; this record supplies the fuller narrated encounter that
+record's shorter compiled field does not carry.
+
+Step4, Round 1 review Finding C4: the added motive gloss ("since she
+was known and respected and they wanted to see whether she would grow
+proud of visitors coming to see a mere woman") was not present in
+Doc_09a's own telling, where the elders' words are quoted as a
+caution against conceit rather than narrated with an attributed
+motive - removed; the elders' challenge is now given in their own
+terms only, matching Doc_09a's own account.
 
 Formation significance: this world's own single clearest direct textual
 evidence for a named amma's own teaching voice, exercising

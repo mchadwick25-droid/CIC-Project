@@ -34,12 +34,17 @@ absent_detail: "The demons-as-beasts imagery is this world's own chosen register
 Re-derived from the prior build's cleared Doc_09a Story 3.1. SS8-9 and
 SS12-13 were independently verified directly against the vendored file
 during this build's own Doc_08 Round 1 review (the same passages
-desert.force.martyrdom-unavailable cites); S10 (the beast-form combat's
-own dialogue and the light vision) was freshly opened and verified
-directly this session - Antony's own taunts to the demons and the
-vision's own exchange are both quoted here close to the vendored
-file's own wording, not paraphrased from Doc_09a's own less specific
-telling.
+desert.force.martyrdom-unavailable cites); S9 (the beast-form combat and
+Antony's own taunts to the demons) and S10 (the light vision's own
+exchange) were freshly opened and verified directly this session, both
+quoted here close to the vendored file's own wording rather than
+paraphrased from Doc_09a's own less specific telling.
+
+Step4, Round 1 review Finding M5: this note previously attributed both
+the beast-form dialogue and the light vision to "S10" alone; the
+beast-form combat and Antony's own taunts are S9, and S10 is the light
+vision only - corrected above. The front-matter locus (SS8-10) was
+already correct.
 
 Formation significance: this world's own paradigmatic portrait of
 desert.gravity.spiritual-combat, and the concrete narrative form

@@ -16,7 +16,7 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS19 - from Antony's extended discourse to the gathered brothers"
   license: public-domain
-text: "Let us hold fast our discipline, and let us not be careless. But to avoid being heedless, it is good to consider the word of the Apostle, 'I die daily.' For if we too live as though dying daily, we shall not sin. For our life is naturally uncertain, and Providence allots it to us daily."
+text: "Let us hold fast our discipline, and let us not be careless... But to avoid being heedless, it is good to consider the word of the Apostle, 'I die daily.' For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily."
 speaker_or_author: desert.figure.antony
 license: verbatim
 relations:
@@ -32,3 +32,15 @@ quotation is Paul (1 Corinthians 15:31, per the vendored file's own
 endnote); this record does not resolve that citation further, matching
 this build's own practice of not over-annotating a quoted passage
 beyond what the Representative would need.
+
+Step4, Round 1 review Finding S5: this text silently elided two
+sentences from SS19 without marking either omission - between "let us
+not be careless" and "to avoid being heedless" the vendored text has "For
+in it the Lord is our fellow-worker, as it is written, 'to all that
+choose the good, God worketh with them for good'"; between "we shall
+not sin" and "our life is naturally uncertain" it has "And the meaning
+of that saying is, that as we rise day by day we should think that we
+shall not abide till evening; and again, when about to lie down to
+sleep, we should think that we shall not rise up." Both omissions are
+now marked with an ellipsis, matching this step's own existing
+convention (desert.quote.arsenius-flee-tace-quiesce).
