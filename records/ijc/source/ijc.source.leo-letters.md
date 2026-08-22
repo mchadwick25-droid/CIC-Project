@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources: []
 author: "Leo I, bishop of Rome (440-461)"
-work: "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence"
+work: "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content"
 edition: "trans. Charles Lett Feltoe, Nicene and Post-Nicene Fathers series 2 vol. 12 (1895), vendored as cic/texts/npnf212_leo-great-gregory-great.xml"
 rights_status: public-domain
 attribution_status: attributed
@@ -27,6 +27,14 @@ CHARLES LETT FELTOE, M.A."). Work presence verified at file lines: "To
 Flavian commonly called 'the Tome'" at 5099; Letter CIV to Marcian
 ("about the presumption of Anatolius") from ~9000; Letter CV (to
 Pulcheria) at 9162; Letter CVI (to Anatolius) at 9285.
+
+Added at review (Opus canon-structure pass, 2026-08-21): Letter LIX
+("To the Clergy and People of the City of Constantinople," verified at
+file line 7250) verified present and read in full - chapter IV (from
+line 7398) states the transmission of original sin to Adam's
+descendants in plain anti-Pelagian/anti-Eutychian terms, licensing
+ijc.dw.f1-t-original-sin-transmitted and correcting this build's prior
+honest_limit overclaim that no such material exists in the corpus.
 
 Strand A's own closing self-statement: the Tome as
 theological-juridical instrument, and the Canon 28 rejection letters as

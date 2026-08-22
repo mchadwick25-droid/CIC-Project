@@ -43,14 +43,16 @@ relations:
 name: Juridical Primacy-Claiming [PRIMARY]
 description: 'The drive to fix a see''s standing as a matter of enforceable right, not mere honor - recurring
   in an unbroken evidentiary chain across the whole window: Julius asserting Rome''s authority to review
-  Alexandria''s judgment (341), Damasus building the claim into stone at the martyr shrines, Leo stating
+  the Eusebian party''s judgment against Alexandria''s own bishop (341), Damasus building the claim into
+  stone at the martyr shrines, Leo stating
   it fully in Tome and letter, and the same underlying drive organizing the rival Constantinopolitan claim
   (Canon 3 of 381, Canon 28 of 451) on a different ground. Cross-strand: it holds in Strand A directly
   and, in a structurally parallel but substantively rival form, in Strand B - the divergence in grounding
   (apostolic succession versus imperial proximity) is itself part of the finding, never flattened. The
   world''s own closing event, Leo''s rejection of Canon 28, is this gravity''s final documented collision.'
 manifestations:
-- Julius's letter (341) already assuming Rome's standing to review another see's judgment
+- Julius's letter (341) already assuming Rome's standing to review a judgment made against Alexandria's
+  own bishop, not by him
 - Damasus's epigraphic program - primacy argued to pilgrims in stone
 - Leo's Tome received at Chalcedon as the see of Peter speaking
 - Canon 3 and Canon 28 - the same drive on the imperial-proximity ground, contested by Rome in writing

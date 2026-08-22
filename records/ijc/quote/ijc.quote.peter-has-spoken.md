@@ -28,6 +28,6 @@ relations:
 Text verified verbatim against the vendored file 2026-08-21. The
 Tome's reception in the session record's own words - the acclamation
 the primacy claim's defenders would cite ever after. Read honestly with
-its frame: an acclamation recorded in acts, at a council that within
-days would also pass the canon Leo refused - reception and contest in
-the same record.
+its frame: an acclamation recorded in acts, at a council that three
+weeks later, before it dispersed, would also pass the canon Leo refused -
+reception and contest in the same record.

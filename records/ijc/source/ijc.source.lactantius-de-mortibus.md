@@ -31,9 +31,17 @@ The earlier, materially different account of Constantine's conversion
 (a dream the night before battle, not Eusebius's later mid-day vision) -
 the two accounts do not agree in specifics and are carried as a live
 divergence (ijc.contested.constantine-conversion), never harmonized.
-Ch. 48 preserves the actual text of the 313 Milan agreement ("when I,
-Constantine Augustus, and I, Licinius Augustus..."), making this the
-world's most direct witness to its own legal beginning. Lactantius
+Ch. 48 preserves the actual text of the 313 Milan agreement ("when we,
+Constantine and Licinius, emperors, had an interview at Milan..." -
+verified against this file directly; NOT the "When I, Constantine
+Augustus, and I, Licinius Augustus..." wording, which is a different
+translation of a different work, Eusebius HE X.5 in npnf201, this
+build's own error caught at review and corrected here), making this the
+world's most direct witness to its own legal beginning. Two surviving
+transmissions of the same document exist in this build's own registry:
+Lactantius's (this record) and Eusebius's (ijc.source.eusebius-historia-ecclesiastica,
+HE X.5) - worded differently in each translator's hand, never
+conflated. Lactantius
 writes as a Christian at Constantine's court within a few years of the
 events - close, partisan, and early; his closeness is his value and
 his limit at once.

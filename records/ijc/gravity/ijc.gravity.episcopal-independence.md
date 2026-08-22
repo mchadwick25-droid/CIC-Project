@@ -26,6 +26,7 @@ sources:
 relations:
 - {type: illustrated-by, target: ijc.story.vigil-in-basilica}
 - {type: illustrated-by, target: ijc.story.emperor-penance}
+- {type: illustrated-by, target: ijc.story.callinicum-synagogue}
 - {type: illustrated-by, target: ijc.quote.ambrose-emperor-in-church}
 - {type: associated-with, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
@@ -35,17 +36,22 @@ relations:
 - {type: associated-with, target: ijc.force.inherited-episcopal-church}
 name: Episcopal Independence from Imperial Command [SUPPORTING - strand-bound]
 description: 'A bishop''s authority to refuse an emperor, grounded not in his see''s rank or pedigree but
-  in sacramental and moral leverage: the basilica held in 386 against a Homoian court; Callinicum in 388;
-  the exclusion after Thessalonica in 390 with public penance demanded and performed. Bounded, on the
-  evidence, to one bishop''s career - no later actor in the window asserts authority on this specific
-  ground - which is why it is Supporting rather than Primary: it organizes Strand C powerfully within
-  its own years and functions within the context the alliance and primacy gravities establish, rather
-  than organizing the whole ecology. Its classification ceiling is set by the evidence''s temporal bounds,
-  not by any weakness in the evidence itself, which is among the strongest in the world''s record.'
+  in sacramental and moral leverage: the basilica held in 386 against a Homoian court; the exclusion
+  after Thessalonica in 390 with public penance demanded and performed. Bounded, on the evidence, to one
+  bishop''s career - no later actor in the window asserts authority on this specific ground - which is
+  why it is Supporting rather than Primary: it organizes Strand C powerfully within its own years and
+  functions within the context the alliance and primacy gravities establish, rather than organizing the
+  whole ecology. Its classification ceiling is set by the evidence''s temporal bounds, not by any weakness
+  in the evidence itself, which is among the strongest in the world''s record. Corrected at review: this
+  gravity is not uniformly a force for restraint - Callinicum (388) shows the identical leverage protecting
+  arsonists from restitution, not checking imperial violence, and an honest account of this gravity holds
+  both.'
 manifestations:
 - the 386 basilica standoff - refusal sustained by a singing congregation under siege
-- Callinicum (388) - the emperor pressed to withdraw a command, on sacramental leverage
-- Thessalonica (390) - an emperor excluded from the offering until public penance
+- Callinicum (388) - the same leverage used to shield the burning of a synagogue and a Valentinian meeting-house
+  from imperial restitution, not to restrain state violence; the sharpest instance in this world's record
+  of this gravity's own capacity for harm, not only for good
+- Thessalonica (390) - an emperor excluded from the offering until public penance, after a massacre
 - the demonstrated limit that Strand A's later confidence absorbs without adopting its ground
 ---
 Rebuilt from the reviewed Doc_04 Candidate 4 (Supporting; Repetition

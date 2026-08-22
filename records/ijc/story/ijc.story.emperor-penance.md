@@ -8,7 +8,6 @@ register: emic
 canon_cells:
 - F4-I
 - F3-P
-- F6-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -64,10 +63,16 @@ absent_detail: What passed between the two men beyond the letter is not recorded
 A registry-grounded EXTENSION of the legacy Doc_09 inventory (which
 carried six stories and named no story for this episode): Ep. 51 was
 already a Native, licensed source (legacy Registry row 5, "Licensed
-For: Strand C"), and the episode is load-bearing for three canon cells
+For: Strand C"), and the episode is load-bearing for two canon cells
 no other story serves as directly - F4-I (discipline: how wrong was
 handled and the way back), F3-P (the church confronting its own side's
-power), F6-P (a wrong grieved and answered). The extension is recorded
-in ijc.core.imperial-juridical's Absent Stories note. The two source
-layers (contemporary letter vs. later dramatization) are held apart
-per this build's tier discipline.
+power). The extension is recorded in ijc.core.imperial-juridical's
+Absent Stories note. The two source layers (contemporary letter vs.
+later dramatization) are held apart per this build's tier discipline.
+Corrected at review (Opus canon-structure pass, 2026-08-21): the
+original build also tagged this record F6-P ("a wrong grieved and
+answered"), which does not actually answer any of that cell's six
+questions - removed; F6-P is covered instead by
+ijc.story.callinicum-synagogue (hypocrisy in the record's own hero)
+and ijc.dw.f6-p-women-authority-cost (a woman's authority and its
+cost).

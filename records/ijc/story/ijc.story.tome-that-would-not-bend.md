@@ -56,14 +56,16 @@ text: 'Leo did not go to Chalcedon; his letter went in his place. When the Tome 
 absent_detail: The Tome's reception was not unanimous joy - it was questioned in session and examined
   against Cyril before the acclamation carried, and Percival prints extracts, not the complete acts;
   the fuller debates (and the Egyptian bishops' resistance) are in the complete acts this build's base
-  does not carry. Canon 28's passage and the Tome's reception happened in different sessions, days
-  apart - the drama is real, the compression is the teller's.
+  does not carry. Canon 28's passage and the Tome's reception happened in different sessions, three
+  weeks apart (Session II, 10 October 451; Canon 28, 31 October 451) - the drama is real, the compression
+  is the teller's.
 ---
 Rebuilt from the reviewed legacy Doc_09 story 6
 (Story-Chunks/ijcstory006), with one factual correction to the legacy
 chunk carried openly: the chunk's "the same council, in the same
-session" is wrong - the Tome was received in Session II and Canon 28
-passed near the council's end, days later; this record says "before it
-dispersed" and states the separation in absent_detail. The acclamation,
+session" is wrong - the Tome was received in Session II (10 October 451)
+and Canon 28 passed near the council's end (31 October 451), three weeks
+later; this record says "before it dispersed" and states the separation
+in absent_detail. The acclamation,
 Canon 28's reasoning, and the rejection sentence are all
 verbatim-verified in the linked quote records.

@@ -47,8 +47,12 @@ tensions:
 ---
 F4-T's "born again" question answered through the record's three great
 documented baptisms - the world's real material for the translational
-ask, with the inward-experience gap stated rather than filled. The
-tithe and end-times questions in the same cell are genuinely thinner:
-church funding in this record is imperial patronage and endowment, not
-tithe-discipline, and speculation about the end is not this record's
-genre - said here so the cell's coverage is honest about its own edges.
+ask, with the inward-experience gap stated rather than filled.
+Corrected at review (Opus canon-structure pass, 2026-08-21): this note
+previously claimed the tithe question was genuinely thin ("church
+funding in this record is imperial patronage and endowment, not
+tithe-discipline") - false; Leo's own Sermons IX-X preach a real
+proportional-giving discipline (see ijc.dw.f4-t-collections-discipline).
+Only the end-times question remains genuinely thin: speculation about
+the end is not this record's genre, and no comparable material was
+found for it.

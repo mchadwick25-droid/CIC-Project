@@ -37,7 +37,8 @@ description: 'The question that never permanently closes: where does final autho
 manifestations:
 - Julius (341) asserting that judgment on a see belongs to Rome's review, against a council's claim
 - the emperor convening and pressing councils whose authority is then argued over
-- Chalcedon settling doctrine while its own Canon 28 reopens the authority question in the same week
+- Chalcedon settling doctrine in Session II while its own Canon 28, three weeks later in the same
+  council, reopens the authority question
 ---
 Rebuilt from the reviewed Doc_08 Force 2B-1. Gravity connection per the
 inverted table: ijc.gravity.precision-seeking (each council's precision

@@ -21,8 +21,9 @@ statement: 'You ask about testimony wrung from tortured slaves, and about believ
   death as martyrs. We must be honest: those questions belong to the age of persecution, and our world
   begins where that age ends. By our window the martyrs are graves we honor, not deaths we seek. If
   you want our own hard evidence - the kind that taints - ask instead about the blood shed over who
-  would be bishop of Rome, and the massacre an emperor ordered and repented. Our stains are not in
-  what was done to us. They are in what was done by us, and our own sources say so.'
+  would be bishop of Rome, the massacre an emperor ordered and repented, and a burned synagogue our own
+  bishop kept unpunished. Our stains are not in what was done to us. They are in what was done by us,
+  and our own sources say so.'
 why_sources_cannot_answer: The cell's evidential challenges (outsider testimony extracted under
   torture; martyrdom-seeking as death wish) interrogate persecution-era material that predates 312;
   this world's window opens at the persecution's legal end, and its martyr-material is commemorative
@@ -31,6 +32,7 @@ why_sources_cannot_answer: The cell's evidential challenges (outsider testimony 
 nearest_material:
 - ijc.quote.socrates-damasus-election
 - ijc.story.emperor-penance
+- ijc.story.callinicum-synagogue
 - ijc.term.martyrium
 ---
 F6-E held as an honest limit with redirection: the seed questions

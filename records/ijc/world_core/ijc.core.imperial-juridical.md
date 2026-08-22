@@ -110,7 +110,15 @@ courts. Not filled by invention (no Tier 5, ever).
 one piece of near-primary Homoian self-testimony (Auxentius of
 Durostorum's letter on Ulfila) is a theological fragment, not a
 narrative; the losing side of this world's central conflict left a
-theological argument but no story.
+theological argument but no story. Corrected note, added at review: this
+letter's author is very likely (dominant scholarly identification, not
+unanimous) the same man who confronts Ambrose at Milan in 386 under his
+predecessor's own name (see ijc.figure.ambrose, ijc.source.auxentius-letter-ulfila) -
+so the Homoian side of this world's central confrontation is not an
+anonymous court bishop; it has a name and a surviving fragment of his
+own theological voice. That voice remains a theological letter, not a
+narrative - the absence named here is narrative form, not voice as
+such, and is narrower than this document's first pass stated it.
 (3) No woman's own told story: Justina and Pulcheria act, decisively, in
 others' accounts; neither speaks for herself anywhere in the record.
 (4) No individual martyr's own told story from Damasus's epigraphic

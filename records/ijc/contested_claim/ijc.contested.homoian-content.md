@@ -28,8 +28,11 @@ claim: What Homoian Christians actually believed and taught - the position's own
 held_against:
 - Nearly the entire record of Homoian theology survives through opponents - later Nicene historians
   writing after their side had won, plus Hilary's contemporary but adversarial quotations
-- The one substantial piece of Homoian self-testimony (Auxentius on Ulfila) survives as partly-erased
-  marginal material in a single manuscript, with no public-domain English translation
+- 'The one substantial piece of Homoian self-testimony (Auxentius on Ulfila) survives as partly-erased
+  marginal material in a single manuscript, with no public-domain English translation - and even its
+  author''s own identity carries a confidence gap: he is very likely (dominant, not unanimous
+  identification) the same Auxentius who confronts Ambrose at Milan in 386, but the case rests on
+  Ambrose''s own naming argument, not on the fragment identifying itself'
 - The standard modern account (Hanson 1988) is a reconstruction - the best available, and honest about
   being one
 concedes: 'What IS secure: the Homoian establishment''s institutional history (its councils, creeds by

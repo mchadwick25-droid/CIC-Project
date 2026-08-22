@@ -55,8 +55,22 @@ rhetorical. The bee-swarm infancy legend is Paulinus's (Tier 3, told
 only as attributed tradition - ijc.story.bees-of-milan). His
 predecessor at Milan, Auxentius, held the see as a Homoian appointee
 for roughly two decades - the Homoian establishment was local history,
-not rumor, for his congregation. (Distinguish that elder Auxentius of
-Milan from the Auxentius of Durostorum whose letter on Ulfila is the
-Homoian self-testimony fragment, and from the Auxentius of the 386
-sermon's title - a Homoian bishop present at court in 386; the name
-recurs on the Homoian side and conflation is a real hazard.)
+not rumor, for his congregation.
+
+TWO Auxentii, not three - corrected at review after this record's first
+draft over-split them. (1) Auxentius, the elder Homoian bishop of Milan
+(d. 374), Ambrose's own predecessor in the see. (2) Mercurinus Auxentius
+of Durostorum, Ulfila's own pupil and the author of the Ulfila letter
+(ijc.source.auxentius-letter-ulfila) - on the dominant scholarly
+identification (Meslin; Gryson; Hanson 1988; McLynn 1994; Williams
+1995), this same man is the Homoian bishop Ambrose confronts in the 386
+Sermo, who had taken the elder Auxentius's own name on arriving at
+Milan. Ambrose's sermon says so directly (Sermo c. Auxentium 22,
+verified in the vendored text): the man is "called by one name in the
+parts of Scythia [Durostorum's own province], called by another here" -
+Ambrose's own words are this record's warrant for treating the 386
+opponent and the Ulfila letter's author as one man, at dominant-not-
+unanimous confidence. This changes the Absent Stories accounting
+(ijc.core.imperial-juridical): the Homoian side of the 386 confrontation
+is not a nameless court bishop but a named theologian whose own letter
+partly survives, elsewhere in this world's registry.

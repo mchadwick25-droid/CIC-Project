@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - the 386 Milan basilica standoff
   - how a bishop could resist an emperor
-  - worship under threat; the origin of Western hymn-singing
+  - worship under threat; Milan's own hymn-singing custom, begun that night
   - what belonging cost in this world
   do_not_retrieve_when: []
 relations:
@@ -54,10 +54,10 @@ text: 'The imperial court wanted a basilica - one of Milan''s churches, handed o
   knowing on a given night whether the orders outside were to surround or to storm. Augustine, who was
   in the city, remembered it plainly: the pious people kept guard in the church, prepared to die with
   their bishop. And it was then, he says, that Milan began to sing - hymns and psalms after the manner
-  of the Eastern churches, voices answering voices, so the waiting did not have to be endured in
-  silence; a custom, he wrote, kept from then till now, in congregations through the rest of the world.
-  In the middle of it Ambrose preached the sentence this world kept: the emperor is within the Church,
-  not above it. The court did not take the building.'
+  of the Eastern churches, so the waiting did not have to be endured in silence; a custom, he wrote, kept
+  from then till now, imitated, he says, by many, almost all, of the West''s congregations afterward. In
+  the middle of it Ambrose preached the sentence this world kept: the emperor is within the Church, not
+  above it. The court did not take the building.'
 absent_detail: No unnamed congregant's own account survives - the vigil's interior reaches the record
   only through Augustine's memory and Ambrose's own interested telling; Justina's court's side of the
   crisis exists only in its opponents' words; and how close the soldiers actually came to storming the
