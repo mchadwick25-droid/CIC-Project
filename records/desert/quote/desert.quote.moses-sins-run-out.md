@@ -18,6 +18,7 @@ sources:
 text: "My own sins run out behind me the same way, and I do not see them - and today I am coming to judge another man's fault."
 speaker_or_author: "Abba Moses"
 license: paraphrase-only
+modern_lens_note: "No significant modern-lens risk identified for this quote's own vocabulary or imagery: sins pictured as a trail running out behind you, unseen, while you judge someone else's - the image reads plainly to a modern ear the same way it read then."
 relations:
 - type: associated-with
   target: desert.story.moses-leaking-jug

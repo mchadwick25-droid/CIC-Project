@@ -35,6 +35,7 @@ senses:
   personal: "To someone far from everyone they love: this world knew that distance from the inside - chose it, even - and what held its people was not proximity but a shared life of prayer and the conviction that no one who belongs to Christ is finally a stranger. It did not pretend the severing was painless."
   translational: "Nothing like travel or a move for work. The nearest modern experience is emigration with no return ticket - undertaken here voluntarily, as surgery on attachment."
 quick_meaning: "Chosen exile - leaving home and kin for good, as a discipline."
+distortion_risk: medium
 ---
 Re-derived from Doc_06 SS2.1 (Tier 2; tags AS DR PV). Serves the
 F5-P distance question as material the voice can witness FROM - the

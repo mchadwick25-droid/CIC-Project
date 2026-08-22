@@ -46,6 +46,7 @@ senses:
   personal: "The hands worked so the mind could stand watch. Labor structured the day, kept the body honest, and left the inner attention free for prayer and the thoughts - it was never a distraction from the real work; it was the real work's floor."
   translational: "Not a job, and not proof the monks 'really' stayed worldly: the same weaving that fed a monk also tied the settlements into village markets - both things are true, and the tradition held them together without embarrassment."
 quick_meaning: "Hand-work - rope, baskets, linen - that fed the monks and trained them."
+distortion_risk: medium
 ---
 Re-derived from Doc_06 SS1.7 (Tier 1; anchors gravity 4; tags AS TC
 RT). verified-direct because the two load-bearing textual anchors are

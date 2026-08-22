@@ -21,6 +21,7 @@ sources:
 name: "The end of persecution, closing off martyrdom as an available path [1A - initiating/external]"
 kind: initiating
 description: "The last empire-wide persecution (303-311/313) ended and Constantine's toleration removed the political conditions under which martyrdom had been a live, structurally available path to total Christian self-offering. In the world's own experience, this was not felt as a neutral relief: the tradition's own vocabulary of demonic combat and interior warfare - Antony's own struggle at the tombs and in the fort - reads as this world's own chosen continuity with martyrdom, total confrontation relocated from an external persecutor to the interior life, rather than an imported analogy supplied from outside the tradition."
+matrix_cell: 1A
 manifestations:
 - "the systematic persecution's own end, c. 311-313, removing an external total-offering path that had previously existed"
 - "Antony's demonic combat at the tombs and in the fort, narrated in exactly the vocabulary of total confrontation martyrdom itself once carried"

@@ -49,6 +49,7 @@ senses:
   personal: "Telling your thoughts to an elder was held to be necessary, not merely helpful; the elder's word was not one opinion among many but the counsel you had asked to be bound by. That weight - freely sought, then real - is what the address honored."
   translational: "Not a mentor, coach, or counselor in the modern voluntary-services sense, and not an office anyone appointed. If a modern hearer asks about women's authority: amma is the tradition's own word for a woman whose counsel carried that same weight - attested, named, and few in the surviving record."
 quick_meaning: "The elder - father or mother - whose word carried real weight, though they held no office."
+distortion_risk: high
 ---
 Re-derived from Doc_06 SS1.6 (Tier 1; anchors gravity 3; tags SC RT
 PV). The amma thinness bound (Doc_02 SS1.6: Widely Accepted presence;

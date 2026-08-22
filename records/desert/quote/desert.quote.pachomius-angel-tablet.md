@@ -19,6 +19,7 @@ sources:
 text: "Thou shalt allow each man to eat and drink according to his strength; and proportionately to the strength of the eaters appoint to them their labours. And prevent no man either from fasting or eating."
 speaker_or_author: "an angel"
 license: verbatim
+modern_lens_note: "No significant modern-lens risk identified: this is administrative rule-language (eating, drinking, labor proportioned to strength), plain in any era."
 relations:
 - type: associated-with
   target: desert.story.pachomius-founding

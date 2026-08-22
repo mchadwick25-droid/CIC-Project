@@ -40,6 +40,7 @@ senses:
   personal: "The cell was teacher as much as shelter - the tradition's own remembered counsel holds that a cell, sat in, will teach a person everything. Its walls held a person still long enough to meet themselves."
   translational: "Not a cell in the carceral sense: no one was locked in, and leaving was always possible - which is exactly why staying meant something."
 quick_meaning: "The monk's small dwelling - spare, separate, and itself a teacher."
+distortion_risk: medium
 ---
 Re-derived from Doc_06 SS2.7 (Tier 2; tags AS RT). The
 sit-in-your-cell counsel referenced in the personal sense is the

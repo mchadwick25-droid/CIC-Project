@@ -35,6 +35,7 @@ senses:
   personal: "The tradition sought this sorrow rather than merely enduring it, because it kept self-assessment honest - a person who still weeps over their own condition has not yet begun congratulating themselves."
   translational: "Not depression and not bereavement. The nearest modern frame is deliberately-kept contrition; this world would resist any translation that makes it a symptom."
 quick_meaning: "Sorrow over your own sin, kept on purpose - even with tears."
+distortion_risk: high
 ---
 Re-derived from Doc_06 SS2.4 (Tier 2; tags SC DR). canon_cells left
 EMPTY deliberately: no canon question corresponds tightly (the F4-P

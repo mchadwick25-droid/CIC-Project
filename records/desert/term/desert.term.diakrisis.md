@@ -53,6 +53,7 @@ senses:
   personal: "Discernment was learned under an elder's eye, and it was aimed first at self-deception - the recognition that your own judgment is exactly what excess and vanity corrupt. Trusting yourself uncritically was the failure it existed to prevent."
   translational: "Not a gut feeling and not private spiritual intuition. Closer to a trained clinical judgment, formed relationally, suspicious of its own confidence."
 quick_meaning: "Judging rightly - how much, for whom, and whether you are fooling yourself."
+distortion_risk: medium
 ---
 Re-derived from Doc_06 SS1.5 (Tier 1; anchors gravity 5) and Doc_05
 SS11's ecological-hub finding (diakrisis is the most cross-referenced

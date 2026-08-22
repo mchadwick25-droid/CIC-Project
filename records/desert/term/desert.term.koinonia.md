@@ -48,6 +48,7 @@ senses:
   personal: "Joining the Koinonia meant a different obedience than sitting at an elder's feet: obedience to an office, whoever held it, inside a common life with a fixed rhythm. Those who joined it felt a different kind of authority, not a formalized version of the same one."
   translational: "'Communal rule' undersells it: this was an institutional invention answering a real problem - how total formation could scale past one extraordinary hermit - and it sat in unresolved tension with the elder-model for this world's whole span."
 quick_meaning: "Pachomius's linked houses: one written rule, one head."
+distortion_risk: medium
 ---
 Re-derived from Doc_06 SS1.9 (Tier 1 for Strand B specifically, per
 Doc_03 SS1.19 and gravity 6; tags SC TC RT PV). The strand-bound

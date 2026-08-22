@@ -38,6 +38,7 @@ senses:
   personal: "Not thinking about God - seeing, in the way a long-trained eye sees. The tradition insisted no one starts here; wanting the summit without the slope was itself one of the thoughts to be fought."
   translational: "'Theory' is the false friend: this is perception, not speculation - the trained sight of a life that has first been stilled."
 quick_meaning: "Contemplation - the trained seeing of God that a stilled life may reach."
+distortion_risk: high
 ---
 Re-derived from Doc_06 SS2.3 (Tier 2; tags AS TC DR PV;
 strand-C-bound, single-author-concentrated per Doc_03 SS1.7/Doc_04

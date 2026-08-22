@@ -16,6 +16,7 @@ sources: []
 name: "The longer imperial-ecclesiastical trend toward doctrinal and institutional centralization [3A - ending/external]"
 kind: ending
 description: "The broader trajectory of increasing conciliar and episcopal authority over monastic doctrine and practice continues well past this world's own c. 430 closing boundary, toward the Council of Chalcedon (451) and beyond, of which the Origenist controversy is one early instance. Not directly attested within this world's own closing boundary - this force names a trend this world's own participants could not themselves have recognized as a completed pattern, since it continues past their own world's own span, rather than constructing an experience they could not have had."
+matrix_cell: 3A
 manifestations:
 - "the Origenist controversy itself, as one early instance of a longer trend rather than an isolated event"
 - "the later, more centrally governed, civically assertive federation model associated with Shenoute's White Monastery, explicitly excluded from this world's own core scope"

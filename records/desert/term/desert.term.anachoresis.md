@@ -62,6 +62,7 @@ senses:
   personal: "To those who did it, withdrawal was the most demanding form of engagement, not the least - a decision to face, without cushioning, the interior life that settled routine lets a person avoid. It replaced martyrdom as the whole self given at once."
   translational: "'Withdrawal' or 'retreat' in the modern sense - a break to recharge, an escape from responsibility - reverses the meaning. This was permanent, bodily, and itself the point; the desert was the arena, not the exit."
 quick_meaning: "Leaving settled life for the desert, as the work of formation itself."
+distortion_risk: high
 ---
 Re-derived from Doc_06 SS1.1 (Tier 1; tags AS TC RT DR; anchors gravity
 1 per Doc_04). The Goehring embeddedness qualification is in the

@@ -19,6 +19,7 @@ sources:
 text: "...let us hold fast our discipline, and let us not be careless... But to avoid being heedless, it is good to consider the word of the Apostle, 'I die daily.' For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily."
 speaker_or_author: desert.figure.antony
 license: verbatim
+modern_lens_note: "\"I die daily\" risks a modern misreading as describing depression, chronic suffering, or a wish for death - the phrase's most available modern register. The quote's own words guard against exactly that reading in the same breath (\"if we too live as though dying daily, we shall not sin\"): this names a daily readiness for mortality as fuel for discipline, not a description of despair."
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal

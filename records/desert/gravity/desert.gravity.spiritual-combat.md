@@ -39,6 +39,7 @@ relations:
   target: desert.quote.antony-not-worsted
 name: "Spiritual combat against tempting thoughts, general form [PRIMARY]"
 description: "The struggle against logismoi - tempting or distracting thoughts - as this world's ordinary, cross-strand subject matter, tested here in its general form and separately from its later Evagrian systematization (gravity 9), which carries materially different single-author-concentrated evidential risk. Independently attested in Athanasius's narrative, the sayings tradition, and Evagrius's own general framing. Strong on all six tests: repeated across every stream, shapes both teaching content and the terse-saying genre itself, directly formative, explanatory of why so much surviving material takes the form it does, persistent across all three strands (most elaborated in Strand C, but present in A and B), and reinforcing of diakrisis and elder authority. Widely Accepted confidence, no discrepancy against organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+classification: primary
 manifestations:
 - "Antony's demonic assaults at the tombs (Vita SS8-9) and in the fort (SS12-13)"
 - "the logismoi as the most common subject of the sayings tradition, recurring across named elders and settlements alike - though how far that cross-settlement pattern reflects the settlements themselves and how far it reflects the sayings' later compilers' own arrangement is not settled"

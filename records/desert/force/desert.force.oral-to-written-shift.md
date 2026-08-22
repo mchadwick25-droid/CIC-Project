@@ -23,6 +23,7 @@ sources:
 name: "The shift from live, oral, elder-mediated teaching to written, retrospectively compiled anthology [3B - ending/internal]"
 kind: ending
 description: "The sayings tradition's own written compilation occurs across the 5th-6th centuries, substantially after this world's own c. 430 closing boundary, by anonymous editors whose selection and arrangement choices are not directly attested. This world's own participants, by definition, could not have experienced their own material's later compilation - this is a force that acts on this world's legacy, not its lived experience. What can be said from within: the terse saying's own occasion-bound character meant this world's own teaching practice did not, by its own internal logic, generate an archive - the later compilers' intervention was necessary precisely because this world's own formation logic did not anticipate or provide for its own preservation."
+matrix_cell: 3B
 manifestations:
 - "the Apophthegmata's own written compilation, up to a century or more after this world's own closing boundary, from oral material originating inside it"
 - "the ammas' own material surviving thin relative to the male-authored bulk - a selection effect this world's own formation logic did not itself produce"

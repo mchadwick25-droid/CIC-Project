@@ -21,6 +21,7 @@ sources:
 name: "The intellectual intensification of ascetic psychology within Strand C, culminating in Evagrius's own systematized scheme [2B - ongoing/internal]"
 kind: ongoing
 description: "A Greek-philosophically-trained participant, uniquely educated relative to this world's own norm, produced a systematic scheme and taxonomy while resident at Kellia, among what this world's evidence suggests was a more educated, philosophically literate sub-population than the norm. Within that setting specifically, the systematization appears to have functioned as a genuine intensification of an already-present diagnostic practice, organizing rather than replacing vocabulary and practice already present in less systematized form across the broader tradition - not an alien import into an otherwise unprepared ecology."
+matrix_cell: 2B
 manifestations:
 - "the eight-logismoi taxonomy and the praktike-apatheia-theoria scheme, this world's only systematic account of contemplative ascent"
 - "the general spiritual-combat theme's own general attestation across all three strands, which the systematized scheme organizes rather than originates"

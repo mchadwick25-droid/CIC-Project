@@ -43,6 +43,7 @@ senses:
   personal: "Stillness here was pursued to expose disturbance, not soothe it. A person entered the quiet expecting to meet what the noise had covered - and stayed."
   translational: "Not mindfulness, not stress relief, not a wellness practice. The nearest honest translation is 'stillness' - with the warning that its purpose ran opposite to comfort."
 quick_meaning: "Stillness sought on purpose - quiet that shows you what the noise was hiding."
+distortion_risk: high
 ---
 Re-derived from Doc_06 SS1.3 (Tier 1 on the central-conceptual-clusters
 criterion; tags SC DR RT). The do-not-retrieve fence carries Doc_06's

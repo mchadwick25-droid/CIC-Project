@@ -40,6 +40,7 @@ senses:
   personal: "The point was to meet a thought at the door rather than after it had moved in - vigilance as a kindness to yourself, because everything is easier early."
   translational: "Not mindfulness as a calm-inducing practice: the watching here is a sentry's, oriented to a real adversary, and what it feeds is discernment, not relaxation."
 quick_meaning: "Watching your own thoughts like a sentry - so you catch them early."
+distortion_risk: high
 ---
 Re-derived from Doc_06 SS2.5 (Tier 2; tags AS TC DR PV). Feeds
 diakrisis directly (Doc_06's own ecological-function line); shares

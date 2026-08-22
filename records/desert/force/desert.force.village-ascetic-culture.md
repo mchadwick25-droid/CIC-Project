@@ -19,6 +19,7 @@ sources:
 name: "A pre-existing village-level ascetic culture that Antony's own withdrawal drew on and intensified [1B - initiating/internal]"
 kind: initiating
 description: "Antony did not invent withdrawal from nothing: at the outset of his own ascetic career he sought out and modeled himself on an older ascetic already practicing solitary withdrawal near his own village. The tradition's own memory preserves this anonymous predecessor rather than erasing him, suggesting this world understood its own practice as an intensification of an existing, humbler ascetic culture, not a wholly novel departure."
+matrix_cell: 1B
 manifestations:
 - "the unnamed older ascetic Antony sought out and imitated before withdrawing further himself (Vita SS3-4)"
 - "this corpus's own thinness on named forerunners - the substrate was real but not itself the subject of preservation-worthy narrative until Antony's own withdrawal made it retrospectively significant"

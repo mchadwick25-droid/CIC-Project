@@ -18,6 +18,7 @@ sources:
 text: "By nature I am a woman, but not by my own thoughts. It is I who am the man here, and you who are the women."
 speaker_or_author: desert.figure.sarah
 license: paraphrase-only
+modern_lens_note: "\"Man\" and \"women\" operate here as this world's own gendered virtue-categories (courage and steadfastness coded \"man,\" weakness coded \"woman\"), not a claim about gender identity in the modern sense. Stated plainly as a vocabulary point; this field does not soften or reframe what Sarah's own words claim."
 relations:
 - type: associated-with
   target: desert.story.sarah-answer

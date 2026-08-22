@@ -49,6 +49,7 @@ senses:
   personal: "The opposite of not caring: the capacity to be fully engaged without being owned by your reactions - reached, if at all, through years of combat with the thoughts, never assumed at the start."
   translational: "Never translate as apathy. 'Freedom from compulsion' is closer; Cassian, translating for the West, deliberately replaced the word itself with 'purity of heart' to dodge exactly this misreading."
 quick_meaning: "Freedom from the passions that drive you. Won slowly - and it is not apathy."
+distortion_risk: high
 ---
 Re-derived from Doc_06 SS2.2 (Tier 2; tags AS TC DR PV CT). The [CT]
 contest is carried exactly as that document's twice-corrected form has

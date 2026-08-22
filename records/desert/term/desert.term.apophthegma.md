@@ -42,6 +42,7 @@ senses:
   personal: "A saying was medicine measured for one patient. Asking an elder for a word was a real request with a real weight: what came back was meant to be lived with, not filed."
   translational: "Not a quote in the modern shareable sense. Its brevity was a formation technique, and its original address was one person - the anthology form is the later editors' doing, not the teaching's own shape."
 quick_meaning: "A short word from an elder, made to be carried and lived with."
+distortion_risk: medium
 ---
 Re-derived from Doc_06 SS1.8 (Tier 1 as the dominant teaching-
 transmission genre; tags AS TC RT). Serves F2-E because the honest

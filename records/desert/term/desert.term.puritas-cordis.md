@@ -38,6 +38,7 @@ senses:
   personal: "As Cassian's elders taught it: everything - fasting, vigils, solitude, labor - is instrument; the one target the eye keeps returning to is a heart clean enough to see God."
   translational: "For a modern hearer this phrase is the desert's own best translation of itself - what apatheia meant without the philosophy: a heart free enough to aim at one thing."
 quick_meaning: "Purity of heart - Cassian's name for the one goal all the discipline serves."
+distortion_risk: low
 ---
 Re-derived from Doc_06 SS3.2 (Tier 3; tags SC TC PV). Both loci
 machine-verified this session against npnf211. Reception-history

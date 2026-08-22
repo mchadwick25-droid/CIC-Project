@@ -21,6 +21,7 @@ sources:
 name: "Inherited scriptural formation logic: direct, literal, personally-addressed engagement with scripture [1B - initiating/internal]"
 kind: initiating
 description: "Antony's own conversion narrative centers on hearing Matthew 19:21 read aloud in church and taking it as address to himself directly, not general instruction. This mode of scriptural encounter - a single verse heard as immediate, literal command - recurs as a structural feature of how this world engages scripture generally, suggesting an inherited interpretive posture this world's participants brought to their own encounter with scripture, not an idiosyncratic feature of one man's own story."
+matrix_cell: 1B
 manifestations:
 - "Antony hearing Matthew 19:21 read in church and going out immediately to give away his possessions (Vita SS2)"
 - "the sayings tradition's own recurring pattern of a verse invoked to answer one disciple's one specific situation, rather than expounded systematically - the compilers' own arrangement, per that source's own compiler screen"

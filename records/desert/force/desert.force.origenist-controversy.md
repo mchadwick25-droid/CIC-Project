@@ -19,6 +19,7 @@ sources:
 name: "Episcopal and conciliar intervention in the First Origenist Controversy (399-400), scattering Strand C's intellectual leadership [3A - ending/external]"
 kind: ending
 description: "Theophilus of Alexandria's Festal Letter of 399 initially attacked anthropomorphite literalism, then reversed course into an anti-Origenist campaign; a council at Alexandria in 400 condemned Origen and his monastic followers, and the Tall Brothers and other Origenist ascetics were expelled from Egypt that year. No first-person account survives of how Strand C's own participants experienced this rupture - Evagrius himself died in January 399, before the controversy fully broke, meaning the systematizer of this force's own target vocabulary never directly witnessed the controversy that would later scatter his intellectual circle."
+matrix_cell: 3A
 manifestations:
 - "Theophilus's own 399-to-400 reversal, from an anti-anthropomorphite to an anti-Origenist campaign"
 - "the 400 council at Alexandria condemning Origen and his monastic followers"

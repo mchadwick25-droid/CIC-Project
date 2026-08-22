@@ -40,6 +40,7 @@ senses:
   personal: "The word you memorized in the quiet was the weapon you had in the moment - scripture not studied about temptation but spoken against it, out loud if need be."
   translational: "Not positive self-talk and not inner argument - this answers a thought from outside itself, with a word that is not yours, rather than debating it on its own ground."
 quick_meaning: "Answering a tempting thought, on the spot, with a verse of scripture."
+distortion_risk: medium
 ---
 Re-derived from Doc_06 SS3.1 (Tier 3; tags AS TC PV). The prior
 build's corrected transmission fact stands: the Antirrhetikos survives

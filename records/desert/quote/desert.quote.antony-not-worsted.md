@@ -19,6 +19,7 @@ sources:
 text: "If there had been any power in you, it would have sufficed had one of you come, but since the Lord hath made you weak, you attempt to terrify me by numbers: and a proof of your weakness is that you take the shapes of brute beasts... If you are able, and have received power against me, delay not to attack; but if you are unable, why trouble me in vain? For faith in our Lord is a seal and a wall of safety to us."
 speaker_or_author: desert.figure.antony
 license: verbatim
+modern_lens_note: "The demons' \"shapes of brute beasts\" risks two opposite modern misreadings: taken as a literal supernatural claim, or dismissed outright as primitive superstition with nothing to say. This world's own record holds it as neither - see desert.story.antony-tomb-combat's own explicit instruction that this material is not neutral incident report."
 relations:
 - type: associated-with
   target: desert.story.antony-tomb-combat

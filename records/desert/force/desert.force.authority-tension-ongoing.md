@@ -22,6 +22,7 @@ sources:
 name: "The unresolved, ongoing tension between person-based and office-based authority [2B - ongoing/internal]"
 kind: ongoing
 description: "The Pachomian Rule and its offices - housemaster, steward, as the Latin Rule tradition transmits them (Doc_02 SS1.2, SS3), via Rousseau's consult-only scholarship - coexist historically, in the same decades and broader region, with the sayings tradition's own elder-disciple authority structure - not as an abstract organizational-theory question but as two genuinely different registers of what it means to submit to legitimate spiritual authority. Even Pachomius himself, the founder of the office-based model, is remembered in terms borrowed from elder-authority vocabulary - a father whose personal example, not merely his Rule, forms his community - suggesting this world's own participants did not experience the two models as cleanly opposed doctrines but as two genuinely coexisting, only partially reconciled registers of the same underlying question."
+matrix_cell: 2B
 manifestations:
 - "the sayings tradition's own vocabulary of submission to a named elder's own specific counsel - the compilers' own later arrangement, not a transcript of authority's shape in real time, per that source's own compiler screen"
 - "Pachomius himself remembered in father-elder terms even within the Rule's own formal structure (Doc_05 SS1; Doc_07 SS3, matching Doc_08's own Cell 2B-i Layer 2 citation for this exact claim)"

@@ -19,6 +19,7 @@ sources:
 text: "...the Son of God was not a created being, neither had He come into being from non-existence, but that He was the Eternal Word and Wisdom of the Essence of the Father. And therefore it was impious to say, 'there was a time when He was not,' for the Word was always co-existent with the Father."
 speaker_or_author: desert.figure.antony
 license: verbatim
+modern_lens_note: "No significant modern-lens risk identified: the vocabulary here (Word, Essence, co-existent) is dense fourth-century Trinitarian argument, not language that has drifted meaning for a modern reader - it reads as unfamiliar and technical, not as something that misleadingly sounds familiar."
 relations:
 - type: associated-with
   target: desert.quote.antony-arians-serpents

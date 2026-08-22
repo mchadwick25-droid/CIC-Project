@@ -27,6 +27,7 @@ sources:
 name: "Ongoing economic and administrative embeddedness in the surrounding Nile valley economy [2A - ongoing/external]"
 kind: ongoing
 description: "A continuous external pressure requiring this world's participants to sustain real economic ties to the surrounding villages and provincial economy throughout their active life, not only at withdrawal's own founding moment. This is the force this corpus can document least confidently at Layer 2 specifically, among forces with a Layer 2 account to give at all: the literary self-presentation (Athanasius, the sayings tradition) emphasizes total withdrawal and does not, in its own preserved words, dwell on the economic entanglement the documentary and archaeological record independently shows. Whether that silence reflects rhetorical choice, genuine felt experience, or simply what survived is not resolved here."
+matrix_cell: 2A
 manifestations:
 - "Kellia's excavated commercial center, showing trade actually running alongside the ascetic settlement"
 - "the Nepheros archive's ordinary monastic business letters, corroborating a similar pattern at one remove - Melitian and caveated for mainstream representativeness, and read by its own editors as organizationally 'intermediary,' not mapping cleanly onto this world's three strands"

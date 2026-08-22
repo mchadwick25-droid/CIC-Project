@@ -18,6 +18,7 @@ sources:
 text: "Flee the company of men, and you will be saved... Flee, be silent, be still - these are the roots of a life without sin."
 speaker_or_author: "a voice Arsenius reports having heard"
 license: paraphrase-only
+modern_lens_note: "\"Flee\" risks a modern misreading as anxious avoidance - running from a problem rather than facing it, the opposite of what contemporary therapeutic language usually recommends. In this world's own idiom it names a disciplined strategy, not evasion, matching the same risk desert.term.anachoresis's own translational note names for \"withdrawal.\""
 relations:
 - type: associated-with
   target: desert.story.arsenius-flee

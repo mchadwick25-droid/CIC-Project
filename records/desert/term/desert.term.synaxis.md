@@ -40,6 +40,7 @@ senses:
   personal: "Its weight came from its rarity: after six days of solitude, faces, voices, bread shared - the week's whole communal life in one held breath. Absence was noticed; presence was itself a discipline."
   translational: "Not 'going to church' as a routine among routines. For the semi-solitary majority it was the only routine that gathered them at all - the seam that kept solitude from becoming isolation."
 quick_meaning: "The weekly gathering - vigil, worship, and a shared meal after six days alone."
+distortion_risk: medium
 ---
 Re-derived from Doc_06 SS2.6 (Tier 2; tags SC PV RT; retrieval tier 1
 here because the F3-I gathering question retrieves it directly).

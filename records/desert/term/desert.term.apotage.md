@@ -41,6 +41,7 @@ senses:
   personal: "Renunciation was not a transaction completed at the door. It was re-enacted daily - in labor, in obedience, in owning nothing worth defending - so that a person's grip on things loosened for good, not for a season."
   translational: "Closer to a divestment that keeps costing than to a pledge or a resolution. The modern picture of a single dramatic gesture misses that the tradition treated the ongoing practice, not the moment, as the real renunciation."
 quick_meaning: "Giving up property and standing to enter this life - and keeping it given up."
+distortion_risk: medium
 ---
 Re-derived from Doc_06 SS1.2 (Tier 1 there on the central-conceptual-
 clusters criterion, not a gravity anchor - Doc_06's Tier-composition
