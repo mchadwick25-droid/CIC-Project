@@ -37,7 +37,7 @@ gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
 from engine.m1.canon import cell_keywords
-from engine.m1.gates_experimental import _all_text, _content_words
+from engine.m1.gates_experimental import _all_text, _content_words, _overlap_coefficient
 from engine.m4.grounding_net import scope_completion
 
 __all__ = [
@@ -150,19 +150,6 @@ def _head_text(record: dict) -> str:
     return _all_text(record)
 
 
-def _score(query_words: set[str], record: dict) -> float:
-    """Overlap-coefficient lexical score: shared content words over the
-    SMALLER of the two word sets, not the union - a short participant
-    message scored against a long record shouldn't be penalized just for
-    being short, and a long message against a short term shouldn't be
-    penalized either. Same content-word discipline as grounding_net's own
-    ratio check (engine.m1.gates_experimental._content_words) - one
-    stopword list, owned once."""
-    words = _content_words(_all_text(record))
-    if not words or not query_words:
-        return 0.0
-    shared = query_words & words
-    return len(shared) / min(len(query_words), len(words))
 
 
 def _query_words(message: str, asks: list[dict] | None) -> set[str]:
@@ -236,7 +223,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             record = repository_records.get(rid)
             if record is None:
                 continue
-            scored.append((rid, _score(query_words, record)))
+            scored.append((rid, _overlap_coefficient(query_words, record)))
         scored.sort(key=lambda t: (-t[1], t[0]))
         for rid, score in scored[:floor]:
             if used_chars >= budget_chars:

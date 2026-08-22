@@ -143,6 +143,59 @@ def _sentences(text: str) -> list[str]:
     return [s.strip() for s in _SENTENCE_SPLIT.split(text or "") if s.strip()]
 
 
+# An opening quote is a straight single quote at start-of-text or after
+# space/colon/comma/dash; a closing one is followed by space, punctuation,
+# or end. Apostrophes inside words ("God's") match neither. A lone false
+# closer (teachers') can't force a merge because merging only triggers
+# while openers outnumber closers. Shared here (not left as an engine.m4-
+# only concern) because M2's compile-time demonstration tagging needs the
+# identical quote-aware split M4's live net uses - one splitter, owned
+# once, so a demo tagged at compile time and a live turn checked at
+# generation time can never silently disagree about where a sentence ends.
+_QUOTE_OPEN = re.compile(r"(?:^|[\s:,\-(])'(?=\S)")
+_QUOTE_CLOSE = re.compile(r"(?<=\S)'(?=[\s.,;:!?)]|$)")
+
+
+def _quote_balance(text: str) -> int:
+    return len(_QUOTE_OPEN.findall(text)) - len(_QUOTE_CLOSE.findall(text))
+
+
+def _quote_aware_sentences(text: str) -> list[str]:
+    """The naive splitter above, then re-merge any split that landed inside
+    an open quotation - 'Behold the might of the new song! It has made
+    men...' is one quoted span, not two sentences, and splitting it
+    orphans a tag (or a scoring pass) from half the claim it grounds."""
+    merged: list[str] = []
+    for piece in _sentences(text):
+        if merged and _quote_balance(merged[-1]) > 0:
+            merged[-1] = merged[-1] + " " + piece
+        else:
+            merged.append(piece)
+    return merged
+
+
+def _overlap_coefficient(query_words: set[str], record: dict) -> float:
+    """Overlap-coefficient lexical score: shared content words over the
+    SMALLER of the query and the record's own word set - a short query
+    scored against a long record isn't penalized for being short, and a
+    long query against a short record isn't penalized either. Named
+    distinctly from _grounding_ratio below (same file, different metric
+    and purpose - that one scores a sentence against the union of its OWN
+    cited records' words, denominator = the sentence's own length; this
+    one ranks a candidate record's relevance to a query, denominator =
+    the smaller set) so the two can never be confused or accidentally
+    shadow one another. The one implementation both engine.m2.builders
+    (compile-time demonstration tagging) and engine.m4.evidence (Stage B
+    candidate ranking) score against, so the same query scored against
+    the same record can never silently diverge between compile time and
+    runtime."""
+    words = _content_words(_all_text(record))
+    if not words or not query_words:
+        return 0.0
+    shared = query_words & words
+    return len(shared) / min(len(query_words), len(words))
+
+
 # Language that shows a record is already NAMING a gap honestly in its own
 # prose, rather than narrating past it - a hit here means the record IS the
 # correct handling of a thin_topic, not a violation of it. Distinct from

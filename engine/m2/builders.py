@@ -7,6 +7,7 @@ compiler.py, so it doesn't have to be threaded through every function here.
 import hashlib
 
 from engine.m1 import canon
+from engine.m1.gates_experimental import _GROUNDING_FLOOR, _content_words, _quote_aware_sentences
 
 from .canonical import canonical_json
 
@@ -77,6 +78,97 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict) -> list[str]:
     return segments
 
 
+# Demonstration citation tagging (LIVE-GENERATION-DESIGN.md §5.3): demos
+# are rendered "with citation tags derived from the demonstration record's
+# own sources field" per the design's own words - but a real-record check
+# (M4 step 4) found `sources` points to bibliographic editions, never to
+# the repository records (term/witness/gravity/quote) a demo actually
+# draws on, so that field can't drive tagging as written. This is the
+# direct alternative the design itself recommends elsewhere for exactly
+# this shape of gap (§3.2: "score them directly off their compiled record
+# JSON rather than adding a chunk directory") - applied here to demo
+# sentences instead of live evidence candidates. Deterministic, no model
+# call, same floor/splitter/overlap metric the live net polices turns
+# with (engine.m1.gates_experimental), so a demo that would pass its own
+# net if it were live output is exactly the demo that gets tagged here -
+# and a sentence that can't clear the floor against anything in its own
+# cell gets NO tag, same as a connective/interpretive sentence always
+# would, never a forced or guessed one.
+_DEMO_CANDIDATE_TYPES = {"doctrinal_witness", "term", "story", "quote", "honest_limit", "gravity", "force", "contested_claim"}
+
+
+def _demonstration_candidates(records: dict, demo: dict) -> list[dict]:
+    cells = set(demo.get("canon_cells") or [])
+    if not cells:
+        return []
+    seen: dict[str, dict] = {}
+    for record in records.values():
+        if record.get("record_type") in _DEMO_CANDIDATE_TYPES and cells & set(record.get("canon_cells") or []):
+            seen[record["id"]] = record
+    return list(seen.values())
+
+
+def _candidate_head_text(record: dict) -> str:
+    """The same compiled-facing text this record contributes elsewhere in
+    build_prompt/build_chunks - never the trailing analytical/provenance
+    body. Scoring against the FULL record (engine.m1.gates_experimental's
+    own _all_text, what _overlap_coefficient and the live net's own ratio
+    check both use) is fine for ranking already-cell-scoped candidates
+    (engine.m4.evidence's job - a slightly imprecise ranking there never
+    asserts a false citation) but proved too permissive here on real data:
+    a short demo sentence can share 2 merely-common words with a large
+    record's own review/history prose and clear the floor by coincidence.
+    Demo tags ARE asserted ground truth in the compiled prompt's own
+    highest-leverage teaching surface, so scoring is scoped tighter here,
+    on purpose, to exactly what a participant (or a live model reading its
+    own prompt) would ever actually see this record say."""
+    record_type = record.get("record_type")
+    if record_type == "term":
+        return " ".join(filter(None, [record.get("plain_meaning"), record.get("quick_meaning")]))
+    if record_type == "story":
+        return " ".join(filter(None, [record.get("tellable_as"), record.get("text")]))
+    if record_type in ("quote", "doctrinal_witness"):
+        return record.get("text") or ""
+    if record_type == "honest_limit":
+        return record.get("statement") or ""
+    if record_type in ("gravity", "force"):
+        return record.get("description") or ""
+    if record_type == "contested_claim":
+        return record.get("claim") or ""
+    return ""
+
+
+# A ratio floor alone can be cleared by a short sentence sharing just one
+# or two very common words with a large candidate's own head text (found
+# against real data: a 5-word martyrdom sentence scored 40% against an
+# unrelated term purely on "name"/"cost" overlap in the term's own head
+# text). Requiring at least this many REAL shared words too is a second,
+# independent gate a coincidence can't clear by ratio alone - the same
+# belt-and-suspenders discipline grounding_net's own quote-verbatim check
+# uses (a ratio pass never overrides a structural check).
+_MIN_SHARED_WORDS = 2
+
+
+def _tag_representative_text(text: str, candidates: list[dict]) -> str:
+    candidate_words = [(record["id"], _content_words(_candidate_head_text(record))) for record in candidates]
+    tagged: list[str] = []
+    for sentence in _quote_aware_sentences(text):
+        words = _content_words(sentence)
+        best_id, best_ratio, best_shared = None, 0.0, 0
+        for record_id, record_words in candidate_words:
+            if not words or not record_words:
+                continue
+            shared = words & record_words
+            ratio = len(shared) / min(len(words), len(record_words))
+            if ratio > best_ratio:
+                best_ratio, best_id, best_shared = ratio, record_id, len(shared)
+        if best_id and best_ratio >= _GROUNDING_FLOOR and best_shared >= _MIN_SHARED_WORDS:
+            tagged.append(f"{sentence} [[{best_id}]]")
+        else:
+            tagged.append(sentence)
+    return " ".join(tagged)
+
+
 def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     segments: list[str] = build_fleet_preamble(fleet, registry_entry)
 
@@ -125,8 +217,14 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
 
     for demo in _by_type(records, "demonstration"):
         exchange = demo.get("exchange") or []
-        body = "\n".join(f"{turn['speaker']}: {turn['text']}" for turn in exchange)
-        emit(f"Demonstration: {demo['id']}", body)
+        candidates = _demonstration_candidates(records, demo)
+        lines = []
+        for turn in exchange:
+            text = turn["text"]
+            if turn.get("speaker") == "representative" and candidates:
+                text = _tag_representative_text(text, candidates)
+            lines.append(f"{turn['speaker']}: {text}")
+        emit(f"Demonstration: {demo['id']}", "\n".join(lines))
 
     return ("\n".join(segments) + "\n").encode("utf-8")
 

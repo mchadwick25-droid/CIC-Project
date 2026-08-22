@@ -51,12 +51,14 @@ import re
 
 from engine.m1.gates_experimental import (
     _GROUNDING_FLOOR,
+    _QUOTE_CLOSE,
+    _QUOTE_OPEN,
     _SCAFFOLD_MARKERS,
     _SELF_NAMING_MARKER,
     _all_text,
     _claim_markers,
     _content_words,
-    _sentences,
+    _quote_aware_sentences,
 )
 
 # [[world.type.slug]] - record ids are dotted lowercase tokens; the tag
@@ -64,36 +66,10 @@ from engine.m1.gates_experimental import (
 # inside a tag.
 _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 
-# An opening quote is a straight single quote at start-of-text or after
-# space/colon/comma/dash; a closing one is followed by space, punctuation,
-# or end. Apostrophes inside words ("God's") match neither. A lone false
-# closer (teachers') can't force a merge because merging only triggers
-# while openers outnumber closers.
-_QUOTE_OPEN = re.compile(r"(?:^|[\s:,\-(])'(?=\S)")
-_QUOTE_CLOSE = re.compile(r"(?<=\S)'(?=[\s.,;:!?)]|$)")
-
 
 def strip_tags(text: str) -> str:
     """The display transform: what the participant-facing stream emits."""
     return re.sub(r"\s*\[\[[a-z0-9_.-]+\]\]", "", text)
-
-
-def _quote_balance(text: str) -> int:
-    return len(_QUOTE_OPEN.findall(text)) - len(_QUOTE_CLOSE.findall(text))
-
-
-def _quote_aware_sentences(text: str) -> list[str]:
-    """The m1 splitter, then re-merge any split that landed inside an open
-    quotation - 'Behold the might of the new song! It has made men...' is
-    one quoted span, not two sentences, and splitting it orphans the tag
-    from half the claim it grounds."""
-    merged: list[str] = []
-    for piece in _sentences(text):
-        if merged and _quote_balance(merged[-1]) > 0:
-            merged[-1] = merged[-1] + " " + piece
-        else:
-            merged.append(piece)
-    return merged
 
 
 def _quoted_spans(text: str) -> list[str]:

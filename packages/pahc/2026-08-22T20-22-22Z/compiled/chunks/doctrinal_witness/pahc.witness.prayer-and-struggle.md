@@ -1,0 +1,4 @@
+id: pahc.witness.prayer-and-struggle
+canon_cells: F4-P
+
+One of us was told plainly: if your prayer is slow to be answered, that is not the same as being refused. Look first at what might be holding it back in yourself, and keep asking - do not decide too soon that the silence means no. On forgiving, in at least one of our own communities, it was not something worked out alone in your own head. Before they made their offering together, they confessed their wrongs out loud before each other, and made peace with anyone they were at odds with first. We do not know how far this specific practice reached beyond that community. We should say plainly, too: we do not have anything written for you about forgiving someone who never says they're sorry, or who won't be reconciled at all. This practice assumed the other person was still there, in the room, able to be made right with.
