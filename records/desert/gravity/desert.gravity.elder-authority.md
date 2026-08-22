@@ -19,7 +19,7 @@ sources:
   locus: "elder authority in practice (e.g. Pambo, ch. X)"
   license: public-domain
 - source_id: desert.source.pachomian-corpus
-  locus: "the Rule's contrasting office-based model"
+  locus: "the Rule's contrasting office-based model, as Palladius and Sozomen report it"
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal
@@ -54,3 +54,21 @@ the later compilers' own arrangement - the identical move Step3a Round
 record this gravity itself links to. Added the same caveat here.
 Finding S8: no forces-connection notation was stated in this record's
 own text - added.
+
+Step3b Review Round 2, Finding S6: Doc_04 SS3 routes the Rubenson/
+Antony-literacy Cross-Check tension to candidates 1 AND 3 by name -
+"both gravities are independently attested across the whole
+Apophthegmata tradition and the Pachomian corpus, not solely through
+Antony's own characterization" - but this record carried no treatment
+of it at all, though GRAVITY-INDEX.md's Cross-Check column and Open
+Items paragraph both asserted one on its behalf. Added: the contest
+does not threaten this gravity's classification either, for the same
+reason Doc_04 gives - elder authority is independently attested across
+the whole Apophthegmata tradition and the Pachomian corpus (both
+registered above), not solely through Antony's own characterization by
+Athanasius, so its confidence basis does not depend on resolving that
+contest (carried at desert.contested.antony-literacy, step 3c).
+Finding M4: the Pachomian-corpus locus made a Rule-content contrast
+claim with no channel named, against that source's own standing rule -
+"as Palladius and Sozomen report it" added, matching koinonia's own
+channel-naming for the general Rule contrast.

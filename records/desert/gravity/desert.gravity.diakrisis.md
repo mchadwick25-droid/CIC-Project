@@ -30,11 +30,11 @@ relations:
 - type: associated-with
   target: desert.term.diakrisis
 name: "Diakrisis - discernment as master virtue [PRIMARY]"
-description: "The capacity to judge rightly between thoughts, practices, and counsels, governing how every other discipline in this world was calibrated and practiced - this world had no fixed syllabus, so discernment did the work a curriculum does elsewhere. Recurs across named elders in the sayings tradition (with the compiler-mediation caveat that pattern's own source record carries); Cassian, writing decades later in Latin for a Gallic audience, devotes a whole Conference to it as teaching he received in Egypt. Strong on all six tests: repeated across the tradition independent of settlement; other practices depend on it for calibration; directly formative; explains the situational, non-systematic character of most surviving teaching; cross-strand; and moderates the intensity of both spiritual combat and its Evagrian systematization against excess. Widely Accepted, no discrepancy. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+description: "The capacity to judge rightly between thoughts, practices, and counsels, governing how every other discipline in this world was calibrated and practiced - this world had no fixed syllabus, so discernment did the work a curriculum does elsewhere. Recurs across named elders and across settlements in the sayings tradition - though how far that cross-settlement pattern reflects the settlements themselves and how far it reflects the sayings' later compilers' own arrangement is not settled; Cassian, writing decades later in Latin for a Gallic audience, devotes a whole Conference to it as teaching he received in Egypt. Strong on all six tests: repeated across the tradition independent of settlement; other practices depend on it for calibration; directly formative; explains the situational, non-systematic character of most surviving teaching; cross-strand; and moderates the intensity of both spiritual combat and its Evagrian systematization against excess. Widely Accepted, no discrepancy. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
 - "the recurring narrative pattern: an eager newcomer asks an elder for an extreme practice and is redirected toward something more moderate"
 - "Cassian's Conference II, devoted entirely to discretion as the teaching he received from the Egyptian elders"
-- "diakrisis moderating the ascetic intensity of both the general spiritual-combat theme and its later Evagrian systematization against excess"
+- "named elders like Poemen weighing each disciple's own case rather than applying a fixed rule - the situational judgment the sayings preserve again and again"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 5, SS2
 row 5, SS3, SS4, SS5 row 5, SS6 (gravity 5). The fabricated "mother of
@@ -58,3 +58,15 @@ Finding M4: the description's own "moderates... both spiritual combat
 and its Evagrian systematization" named a relationship to gravity 9
 that no relation declared - added associated-with above, so the
 index's matrix cell has record backing on both ends.
+
+Step3b Review Round 2, Finding M1: the compiler-mediation caveat added
+in Round 1 was a pointer to the caveat ("with the compiler-mediation
+caveat that pattern's own source record carries") rather than the
+caveat's own substance, unlike the matching fix Round 1 made the same
+day on desert.gravity.spiritual-combat. Reworded to state the
+substance in this record's own words, matching that sibling. Finding
+M5: the replacement third manifestation Round 1 installed restated,
+almost verbatim, a clause already in this record's own description -
+a duplicate, not a second genuine manifestation. Replaced with a
+concrete instance (named elders judging case by case) that duplicates
+neither the description nor the Interaction-test relationship.

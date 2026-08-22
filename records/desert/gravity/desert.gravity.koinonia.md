@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the Pachomian corpus generally; the SUPPORTING (not Primary) classification below follows from a Persistence-test failure (no equivalent outside Strand B), not from any confidence weakness - Doc_04's own Confidence/Gravity Cross-Check treats these as distinct axes and this record does not conflate them. Also flagged at generation, per Doc_04's own Author Gravity criterion, as resting substantially on one corpus - the Pachomian corpus itself - a distinct risk axis from the Persistence-test basis above, matching how gravity 9 (Evagrian systematization) is flagged for single-author concentration."
+  divergence_note: "Widely Accepted for the Pachomian corpus generally; the SUPPORTING (not Primary) classification below follows from a Persistence-test failure (no equivalent outside Strand B), not from any confidence weakness - Doc_04's own Confidence/Gravity Cross-Check treats these as distinct axes and this record does not conflate them. Also flagged at generation, per the Framework's own Author Gravity requirement, as resting substantially on one corpus - the Pachomian corpus itself - a distinct risk axis from the Persistence-test basis above, matching how gravity 9 (Evagrian systematization) is flagged for single-author concentration."
 sources:
 - source_id: desert.source.pachomian-corpus
   locus: "the organizing principle of the entire corpus"
@@ -32,7 +32,7 @@ name: "Koinonia - communal rule and common property [SUPPORTING]"
 description: "The Pachomian federation's own name for its linked houses under one written rule and one head - the organizing principle of Strand B's entire social structure. Strong within the Pachomian corpus on every test - repetition, dependency, formation, explanatory power - but fails the Persistence test outright: no equivalent exists in Strand A or C. Confidence is not the limiting factor (Widely Accepted); cross-strand persistence is. Classified Supporting: it organizes a real and major portion of this world's ecology, within the context Primary gravities establish, but does not organize the ecology as a whole. Stands as one pole of the authority-tension gravity (10) against the elder-mediated model (gravity 3). Emerges specifically from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names, not from the generating force (martyrdom's unavailability) directly."
 manifestations:
 - "nine men's houses and two women's houses under Pachomius by his death in 346 (federation history, via Rousseau - not carried by either vendored witness, which give population figures, not house counts)"
-- "the angel-tablet rule as Palladius and Sozomen both report it - food, labor, cells, dress, the twenty-four lettered sections, a three-year probation"
+- "the angel-tablet rule as Palladius and Sozomen both report it - food, labor, cells, dress, the twenty-four lettered sections, a three-year probation; Sozomen's own account draws on Socrates and the wider monastic literary tradition here, so the two witnesses are corroborating weight, not independent testimony"
 - "the Rule as a formal, written condition of membership - absent as such from the solitary and semi-solitary strands"
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 6, SS2
@@ -59,3 +59,13 @@ figures only. Corrected here to match that record's own language, and
 the Rousseau locus reworded to name the specific claim it covers
 rather than the generic claim-type. Finding S8: no forces-connection
 notation was stated in this record's own text - added.
+
+Step3b Review Round 2, Finding M2: the angel-tablet manifestation
+presented Palladius and Sozomen as a matched pair without their
+source record's own dependence screen ("where Sozomen tracks Socrates,
+he is not a second witness - corroborating weight only") - added.
+Finding M11: the Author Gravity flag's provenance line attributed the
+requirement to "Doc_04's own... criterion"; Doc_04 SS1's own sentence
+attributes it to "Framework requirement," not to Doc_04 itself -
+corrected to match, and to match evagrian-systematization's own
+corrected attribution.

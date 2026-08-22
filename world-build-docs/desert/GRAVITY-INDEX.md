@@ -38,6 +38,30 @@ Step3a's own Round 8 had already detached it from (koinonia). All ten
 records and the index were revised in response; see each record's own
 body note for its specific fix.
 
+Step3b Review Round 2 (`world-build-docs/desert/reviews/Step3b_Review_Round2.md`)
+found four of Round 1's fixes genuinely complete (the Cross-Check view
+rewrite; the 5<->9 relation pair; the antirrhesis manifestation
+replacement; the Vita SS8-9/SS12-13 loci), and the classification,
+cross-strand table, and all of Doc_04's own prior corrections still
+intact after a second pass of editing. But it also found the flagship
+fix itself introduced a fresh false claim about a registered source
+record (economic-embeddedness's rewrite called Kellia "verified-direct"
+- it is verified-via-authority, identically to Nepheros; the real
+asymmetry is the caveat riding on each rating, not the verification
+method), two fixes that landed only in the index and not in the record
+the finding was actually written against (manual-labor's body note
+still quoted a Doc_04 Interaction cell with its operative clause
+dropped; matrix cell 5x2 still read `reinforces` while the note beneath
+it asserted "both cells read moderates"), a sweep that reached most but
+not all of its targets (the Apophthegmata compiler screen missed
+withdrawal and authority-tension; the forces-connection sweep missed
+scriptural-engagement) with the index's own prose overstating completion
+in both cases, and one wholly new finding: elder-authority carried no
+Rubenson/Antony-literacy Cross-Check treatment at all, though Doc_04 SS3
+routes that contest to candidates 1 AND 3 by name and the index asserted
+a full answer for both. All ten records and this index were revised
+again in response; see each record's own body note for its Round 2 fix.
+
 ## Master table
 
 | # | Gravity (record slug) | Classification | Generating evidence streams | Author Gravity risk | Six tests (Repetition / Dependency / Formation / Explanatory / Persistence / Interaction) | Confidence | Cross-Check outcome | Cross-strand status (Art. 21) | Forces-connection (preliminary, Doc_01 §7) |
@@ -46,10 +70,10 @@ body note for its specific fix.
 | 2 | `spiritual-combat` | **Primary** | Vita, Apophthegmata, Evagrius (general theme only) | No (multi-stream; tested apart from 9 specifically to isolate single-author risk) | Strong / High / Direct / Strong / Strong / reinforces 3,5; generates 9 | Widely Accepted | Clean | Cross-strand (most elaborated in C) | Intensifies under the generating force |
 | 3 | `elder-authority` | **Primary** | Apophthegmata (entire structure), Palladius, Pachomian corpus (contrast) | No | Strong / High / Direct / Strong / Strong (secondary weight in B) / reinforces 5; tension w/ 10 | Widely Accepted | Clean — Rubenson/Antony-literacy contest routed here, does not threaten classification (attestation is corpus-wide, not Antony-dependent) | Cross-strand, strand-differentiated weight | Intensifies under the generating force |
 | 4 | `manual-labor` | **Primary** | Vita (textual), Palladius, Nepheros (papyrological), Kellia (archaeological) | No (3+ independent evidence types) | Strong / High / Direct / Strong / Strong / reinforces 1, 8 | Documented/Widely Accepted | Clean | Cross-strand | Intensifies under the generating force |
-| 5 | `diakrisis` | **Primary** | Apophthegmata (cross-elder), Cassian Conference II | No | Strong / High / Direct / Strong / Strong / reinforces 3; moderates 2,9 | Widely Accepted | Clean | Cross-strand | Intensifies under the generating force |
+| 5 | `diakrisis` | **Primary** | Apophthegmata (cross-elder, cross-settlement), Cassian Conference II | No | Strong / High / Direct / Strong / Strong / reinforces 3; moderates 2,9 | Widely Accepted | Clean | Cross-strand | Intensifies under the generating force |
 | 6 | `koinonia` | Supporting | Pachomian corpus (organizing principle), Palladius, Sozomen, Rousseau | Yes — flagged at generation, single-corpus (Pachomian) | Strong-within-B / High-within-B / Direct-for-B / Explains B's distinctiveness / **Fails cross-strand** / tension (via 10) w/ 3 | Widely Accepted | Clean — Persistence-test failure, not a confidence problem (Doc_04's own corrected finding) | **Strand-bound (B)** | Emerges from the "replicating Antony's path at scale" sub-problem |
 | 7 | `scriptural-engagement` | **Primary** (softest) | Apophthegmata's applied use of scripture, Burton-Christie (oral/practical thesis); Attention-Absence contrast with World #2 (Alexandria) | No, but flagged as resting partly on an Attention-Absence argument, not positive attestation alone | Moderate-strong / Moderate / Direct / Strong / Cross-strand (thinner in B) / reinforces 5 | Widely Accepted | Clean, but flagged as the softest Primary — a future step revisiting this classification would not be a surprise | Cross-strand, evidence-asymmetric | Neither clearly intensifies nor fractures under any of the four named forces (added per Doc_04's own Round 3 fix) |
-| 8 | `economic-embeddedness` | **Tensional** | Goehring's thesis (jointly with Kellia + Nepheros, never alone) | No, but evidentially uneven — Kellia Documented direct; Nepheros Documented via-authority, representativeness unverified | Moderate / Moderate / Indirect / Strong / Cross-strand as pattern, Lower-Egypt-concentrated / tension w/ 1 | **Contested** (uneven point-evidence; general pattern Contested/Inferential) | Uneven evidence reinforces, not undermines, Tensional classification | Cross-strand as a pattern, evidence-concentrated | Holds steady — a structural precondition, not a response to the generating force |
+| 8 | `economic-embeddedness` | **Tensional** | Goehring's thesis (jointly with Kellia + Nepheros, never alone) | No, but evidentially uneven — Kellia and Nepheros both Documented/via-authority; Nepheros alone carries the representativeness caveat | Moderate / Moderate / Indirect / Strong / Cross-strand as pattern, Lower-Egypt-concentrated / tension w/ 1 | **Contested** (uneven caveat structure, not uneven verification; general pattern Contested/Inferential) | Uneven evidence reinforces, not undermines, Tensional classification | Cross-strand as a pattern, evidence-concentrated | Holds steady under the named forces (all four) — a structural precondition, not a response to any one of them |
 | 9 | `evagrian-systematization` | Supporting | Evagrius's own corpus, Socrates IV.23 | **Yes — concentrated in one author**, flagged at generation | Strong-within-scope / High-within-scope / Direct-for-C / Strong-for-C / **Fails cross-strand** / extends 2 (enabled-by); moderated by 5 | Widely Accepted | Clean — Persistence-test failure, not confidence (Doc_04's own corrected finding, matching gravity 6) | **Strand-bound (C)** | No demonstrated relationship to any of the four named forces; transmission history (399–400; 553) reserved for Doc_08 |
 | 10 | `authority-tension` | **Tensional** | Apophthegmata vs. Pachomian corpus (direct textual contrast), Palladius, Sozomen, Rousseau (office names) | No | Recurs at A/C–B boundary / High where it applies / Direct / Strong / Persists unresolved / **is** the tension between 3 and 6 | Widely Accepted (both constituent bodies) | Clean — Tensional by nature (an opposition between two other gravities), not by evidential weakness | Spans the A/C–B boundary as unresolved opposition | Emerges from the "replicating Antony's path at scale" sub-problem, alongside 6 |
 
@@ -64,22 +88,22 @@ body note for its specific fix.
 This view exists to catch the one thing the Cross-Check is *for*: a candidate that tests strongly but rests on weak evidence, held back from Primary rather than upgraded past what the evidence supports. Checked against all ten records: **no candidate in this world shows that divergence.** This is stated plainly rather than populated for its own sake, because the two most tempting entries are exactly the ones Doc_04's own flagship Round 1 finding warns against including here:
 
 - **`koinonia` and `evagrian-systematization` are NOT confidence/strength divergences**, and this view does not list them as such. Both carry Widely Accepted confidence - a level that clears the Primary floor - and both are held at Supporting for a *different* reason entirely: a Persistence-test failure (no cross-strand equivalent). Doc_04's own document log names this exact conflation as its Round 1 flagship error ("the showcase Confidence/Gravity Cross-Check for candidate 9 was mislabeled, dressing a Persistence-test failure as a confidence failure"), and this index does not reproduce it. `evagrian-systematization` carries an additional, genuinely distinct Author Gravity concern (single-author concentration) that likewise does not touch its confidence rating.
-- **`economic-embeddedness` is the one candidate whose confidence is genuinely uneven** - Kellia Documented and verified-direct; the Nepheros archive itself Documented but only verified-via-authority, with its representativeness for the mainstream strands an unverified working assumption; the larger general-pattern claim Contested/Inferential. This is not the Cross-Check's usual direction (strong test performance held back by weak evidence): this candidate's own test performance is itself only moderate, consistent with its evidence, and the unevenness reinforces its Tensional classification rather than creating a discrepancy with it.
+- **`economic-embeddedness` is the one candidate whose confidence is genuinely uneven** - not in verification method (Kellia and the Nepheros archive are both Documented and both verified-via-authority, neither with a vendored file) but in the caveat riding on each: Kellia's Documented rating carries no representativeness qualification, while Nepheros's does - its representativeness for the mainstream strands remains an unverified working assumption; the larger general-pattern claim sits at Contested/Inferential. This is not the Cross-Check's usual direction (strong test performance held back by weak evidence): this candidate's own test performance is itself only moderate, consistent with its evidence, and the unevenness reinforces its Tensional classification rather than creating a discrepancy with it.
 - **`scriptural-engagement`** carries no confidence/classification divergence either, but is worth naming here for a different reason: its Primary classification rests in part on an Attention-Absence argument (silence read as evidential) rather than on direct positive attestation alone across every test - visible for a reader checking this view, not because the Cross-Check itself found a discrepancy.
 
 All ten candidates (1–10) clear the Cross-Check on their own terms; `economic-embeddedness` is the only one with genuinely uneven point-evidence, and that unevenness supports rather than complicates its own classification.
 
 ## Interaction Matrix
 
-Every candidate against every other; cell contents are `reinforces` / `moderates` / `tension` / `soft-tension*` / `enables` (this world's precondition-for/enabled-by pair) / `—` (no demonstrated relationship). No row is entirely `—` — Doc_04's own flagged warning sign for an impression-generated candidate does not apply to any of the ten.
+Every candidate against every other; cell contents are `reinforces` / `moderates` (and its reverse, `moderated-by N`) / `tension` / `tension (via 10)` (a real Doc_04 tension routed through gravity 10 rather than declared directly, see notes below) / `soft-tension*` (a hedged Doc_04 tension, see notes below) / `enables → N` (and its reverse, `← enabled-by N`; this world's precondition-for/enabled-by pair) / `—` (no demonstrated relationship). No row is entirely `—` — Doc_04's own flagged warning sign for an impression-generated candidate does not apply to any of the ten. The `*` on `soft-tension*` marks the label explained in the second note below, not a footnote elsewhere in this document.
 
 | | 1 withdrawal | 2 combat | 3 elder-auth | 4 labor | 5 diakrisis | 6 koinonia | 7 scriptural | 8 econ-embed | 9 evagrian | 10 auth-tension |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **1 withdrawal** | — | — | reinforces | reinforces | — | — | — | **tension** | — | — |
-| **2 combat** | — | — | reinforces | — | reinforces | — | — | — | enables → 9 | — |
+| **2 combat** | — | — | reinforces | — | moderated-by 5 | — | — | — | enables → 9 | — |
 | **3 elder-auth** | reinforces | reinforces | — | — | reinforces | tension (via 10) | — | — | — | **tension** |
 | **4 labor** | reinforces | — | — | — | — | — | — | reinforces | soft-tension* | — |
-| **5 diakrisis** | — | reinforces | reinforces | — | — | — | reinforces | — | moderates | — |
+| **5 diakrisis** | — | moderates | reinforces | — | — | — | reinforces | — | moderates | — |
 | **6 koinonia** | — | — | tension (via 10) | — | — | — | — | — | — | **tension** |
 | **7 scriptural** | — | — | — | — | reinforces | — | — | — | — | — |
 | **8 econ-embed** | **tension** | — | — | reinforces | — | — | — | — | — | — |

@@ -21,10 +21,10 @@ sources:
   locus: "ch. XXXII - as Palladius reports the Rule, including its offices"
   license: public-domain
 - source_id: desert.source.sozomen-historia-ecclesiastica
-  locus: "III.14 - the rule summary at one remove"
+  locus: "III.14 - the rule summary at one remove; corroborating weight only, since Sozomen here tracks Socrates and the wider monastic literary tradition, not independent testimony"
   license: public-domain
 - source_id: desert.source.rousseau-pachomius
-  locus: "the named modern authority for the specific office names (housemaster, steward), which neither vendored witness supplies by name"
+  locus: "the named modern authority for the Latin Rule tradition's office-content (housemaster, steward), which neither vendored witness supplies by name"
 relations:
 - type: tension-with
   target: desert.gravity.elder-authority
@@ -33,7 +33,7 @@ relations:
 name: "Person-based (elder) vs. office-based (Rule) authority [TENSIONAL]"
 description: "Two different, coexisting operative models of how legitimate spiritual authority is constituted and transmitted in the same world in the same decades: authority earned through recognized discernment and personal relationship (gravity 3), against authority conferred by a written Rule and appointed office (gravity 6). Not a separately generated force but the named friction between those two - by construction, its Interaction is with those two gravities specifically. Recurs at the Strand A/C-B boundary; governs succession, discipline, and community stability differently depending which model locally prevails; shapes markedly different participant experience (personal apprenticeship vs. regulated communal life); explains why Strand B required a written Rule at all, given the elder-model Strand A/C already had; and persists, unresolved, across this world's whole c. 320s-c. 430 span. Emerges, alongside gravity 6, from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names."
 manifestations:
-- "the Apophthegmata's entire organizing structure (by elder name) standing against the Pachomian Rule's formal offices - housemaster and steward as Rousseau's scholarship names them, since neither vendored witness supplies the office names directly"
+- "the Apophthegmata's entire organizing structure (by elder name) - itself the later compilers' own arrangement, not a transcript of authority's shape in real time - standing against the Pachomian Rule's formal offices, as the Latin Rule tradition transmits them (housemaster, steward; neither Palladius nor Sozomen supplies the office names directly)"
 - "geron/abba/amma as an address carrying earned, personal authority, held nowhere as a conferred office"
 - "the coexistence, never resolved within this world's own span, of both models operating in the same decades without either displacing the other"
 ---
@@ -57,6 +57,23 @@ and "the second"; Sozomen III.14 has none), so the names reached this
 record through unregistered consult-only scholarship, against
 desert.source.pachomian-corpus's own standing rule to name a
 Rule-content claim's actual channel. Palladius, Sozomen, and Rousseau
-registered above, matching desert.term.koinonia's own sourcing for the
-identical claim. Finding S8: no forces-connection notation was stated
+registered above. Finding S8: no forces-connection notation was stated
 in this record's own text - added.
+
+Step3b Review Round 2, Finding M3: the Round 1 fix's own phrasing
+("as Rousseau's scholarship names them") named the modern reader as
+the channel rather than desert.source.pachomian-corpus's own second
+form ("as the Latin Rule transmits", via consult-only scholarship) -
+corrected to the rule's own channel language, with Rousseau as the
+specific scholarship within it. The Round 1 note's claim to be
+"matching desert.term.koinonia's own sourcing for the identical claim"
+was itself inaccurate - that record's informational sense states the
+offices with no in-text attribution at all, a difference in convention
+between an institutional description and this record's own analytic
+citation, not a genuine match - removed. Finding M2: the office-based
+model's evidence rested partly on Sozomen without that source's own
+dependence screen ("where Sozomen tracks Socrates, he is not a second
+witness") - added to the Sozomen locus. Finding S5: the Apophthegmata's
+structure was offered as evidence unscreened, the same move fixed on
+elder-authority and spiritual-combat in the previous round but missed
+here though this record was edited in that same commit - added.

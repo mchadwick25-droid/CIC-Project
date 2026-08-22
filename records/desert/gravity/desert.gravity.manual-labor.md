@@ -20,7 +20,7 @@ sources:
   locus: "ch. VII - Nitria's linen-manufacture, self-support"
   license: public-domain
 - source_id: desert.source.nepheros-archive
-  locus: "documentary corroboration, Melitian-caveated"
+  locus: "documentary corroboration, Melitian-caveated; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, no clean fit to this world's three strands"
 - source_id: desert.source.kellia-excavations
   locus: "commercial infrastructure at the settlements"
 relations:
@@ -40,15 +40,33 @@ manifestations:
 ---
 Re-derived from the prior build's cleared Doc_04 SS1 candidate 4, SS2
 row 4, SS3, SS4, SS5 row 4, SS6 (gravity 4). Doc_04's own Interaction-
-test finding for this candidate is "reinforces withdrawal (1) and
-candidate 8" - an associated-with relation, not a tension - and this
-record's relations follow that exactly; the tension Doc_04 names runs
-between gravity 1 (withdrawal) and gravity 8 (economic embeddedness)
-specifically, not between this gravity and gravity 8, and this record
-does not manufacture one where Doc_04 found none.
+test finding for this candidate, in full: "Reinforces withdrawal (1)
+and candidate 8; some tension with a purely contemplative reading of
+candidate 9." The first clause matches this record's associated-with
+relations to gravity 1 and gravity 8 directly. The second - tension
+with a *reading* of gravity 9, not with the gravity itself - is
+deliberately not declared as a full tension-with relation here, since
+that would overstate a hedged claim; it is carried instead at
+GRAVITY-INDEX.md's Interaction Matrix, cells 4x9/9x4, as
+"soft-tension*", with the reasoning stated in the matrix's own notes.
+The tension Doc_04 names between gravity 1 and gravity 8 directly is a
+separate, stronger finding, and this record does not manufacture a
+parallel one between gravity 4 and gravity 8.
 
 Step3b Review Round 1, Finding C3: "Kellia's excavated commercial
 buildings" (plural) overstated desert.source.kellia-excavations's own
 wording ("at least one commercial center") - corrected to match.
 Finding S8: no forces-connection notation was stated in this record's
 own text - added.
+
+Step3b Review Round 2, Finding S2: the paragraph above previously
+quoted Doc_04's Interaction-test cell with its second clause dropped,
+stating the truncated remainder "is" the cell and that this record's
+relations "follow that exactly" - the exact defect Round 1's own S3
+named, left standing when Round 1's fix touched only the index's
+matrix cells. Corrected to quote the cell in full and state plainly
+how the matrix's soft-tension* label, not a declared relation, carries
+the second clause. Finding M6: the Nepheros locus carried only the
+first of that source's two mandatory standing cautions - the second
+(organizationally intermediary, no clean fit to this world's three
+strands) added.

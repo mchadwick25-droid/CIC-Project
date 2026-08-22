@@ -23,7 +23,7 @@ relations:
 - type: associated-with
   target: desert.term.apophthegma
 name: "Practical, non-systematized scriptural engagement [PRIMARY, softest]"
-description: "Scripture read for its immediate, applied bearing on a specific struggle or thought, in the terse idiom of the sayings tradition, rather than through a systematic exegetical program comparable to Alexandria's own catechetical tradition. Moderate-strong on Repetition (recurs in the Apophthegmata's own idiom, and by documented contrast with a systematic tradition elsewhere); moderate on Dependency (feeds diakrisis and elder teaching content); directly formative; strong on Explanatory power (explains this world's non-systematic, applied hermeneutic); cross-strand though thinner for Strand B specifically. Widely Accepted confidence, flagged as the weakest of the six Primary gravities on the strength of its own case rather than on any confidence problem."
+description: "Scripture read for its immediate, applied bearing on a specific struggle or thought, in the terse idiom of the sayings tradition, rather than through a systematic exegetical program comparable to Alexandria's own catechetical tradition. Moderate-strong on Repetition (recurs in the Apophthegmata's own idiom, and by documented contrast with a systematic tradition elsewhere); moderate on Dependency (feeds diakrisis and elder teaching content); directly formative; strong on Explanatory power (explains this world's non-systematic, applied hermeneutic); cross-strand though thinner for Strand B specifically. Widely Accepted confidence, flagged as the weakest of the six Primary gravities on the strength of its own case rather than on any confidence problem. Neither clearly intensifies nor fractures under any of Doc_01 SS7's four named forces - its Primary classification rests on the six-test and Cross-Check results, not on a strong forces-test relationship, consistent with being the softest of the six Primary gravities."
 manifestations:
 - "a scriptural word given directly by an elder as counsel for one disciple's specific struggle, in the sayings tradition's own terse idiom, rather than expounded systematically"
 - "the absence, by documented contrast, of a systematic exegetical corpus comparable to World #2's Alexandrian tradition"
@@ -49,3 +49,9 @@ manifestation matching this gravity's own general, non-systematized
 scope, since gravity 7 is already Doc_04's flagged softest Primary and
 illustrating it with the single-author technique weakened exactly the
 claim that most needs support.
+
+Step3b Review Round 2, Finding S4: this record's own text carried no
+forces-connection notation at all - its body note only cited "SS4" as
+a section reference without stating the finding - though the index
+filled the Forces column on its behalf with Doc_04 SS4's actual
+sentence. Added Doc_04's own finding to the description directly.

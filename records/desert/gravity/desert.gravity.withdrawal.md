@@ -24,7 +24,7 @@ sources:
 - source_id: desert.source.kellia-excavations
   locus: "settlement pattern corroboration"
 - source_id: desert.source.nepheros-archive
-  locus: "documentary corroboration, Melitian-caveated"
+  locus: "documentary corroboration, Melitian-caveated; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, no clean fit to this world's three strands"
 - source_id: desert.source.pachomian-corpus
   locus: "the second attesting stream (alongside the Apophthegmata) answering the Rubenson/Antony-literacy Cross-Check question"
 relations:
@@ -40,7 +40,7 @@ name: "Withdrawal [PRIMARY]"
 description: "This world's defining and generating act: leaving settled village life for the desert's edge, as the whole work of formation rather than a change of address. Attested across every independent evidence stream this world has - narrative (the Vita), the sayings tradition, Palladius, and the settlement archaeology at Kellia - and across all three strands. Strong on all six gravity tests: repeated in every stream, load-bearing for everything downstream of it (siting, strand differentiation, the thin liturgical record), directly formative, explanatory of the whole ecology's shape, persistent across Lower and Upper Egypt, and reinforcing of both elder authority and manual labor. Documented/Widely Accepted confidence with no discrepancy against its organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
 - "Antony's staged withdrawal: village edge to outer mountain to inner mountain (Vita SS2-14, SS49-50)"
-- "the Apophthegmata's entire structure as a record of elders who had withdrawn"
+- "the Apophthegmata's entire structure as a record of elders who had withdrawn - itself the later compilers' own arrangement, not a transcript of withdrawal's own lived timeline"
 - "Palladius's settlement description of Nitria (ch. VII), and Kellia and Scetis in lived use (ch. XVIII)"
 - "Kellia's excavated settlement pattern - marginal-but-not-remote land, corroborating and complicating the withdrawal rhetoric at once"
 ---
@@ -69,3 +69,11 @@ locations, not settlement descriptions - Nitria (ch. VII) is the one
 genuine description. Corrected to distinguish the two. Finding S8: no
 forces-connection notation was stated in this record's own text, though
 the index asserted one on its behalf - added.
+
+Step3b Review Round 2, Finding S5: the second manifestation offered the
+Apophthegmata's own structure as evidence without the compiler caveat
+Round 1 added to elder-authority and spiritual-combat on the identical
+move - added here too. Finding M6: the Nepheros locus carried only the
+first of that source's two mandatory standing cautions (Melitian
+identity); the second (organizationally intermediary, no clean fit to
+this world's three strands) was carried nowhere on this record - added.
