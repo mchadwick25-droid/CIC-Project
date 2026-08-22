@@ -19,7 +19,7 @@ sources:
   license: public-domain
 - source_id: ijc.source.chalcedon-acts
   locus: Anatolius of Constantinople's own letter to Leo, printed in Percival's editorial Notes (npnf214
-    from line 20330), naming her alongside Marcian
+    from line 20321), naming her alongside Marcian
   license: public-domain
 names:
 - name: Pulcheria

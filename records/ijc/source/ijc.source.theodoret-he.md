@@ -14,7 +14,7 @@ confidence:
   divergence_note: null
 sources: []
 author: "Theodoret of Cyrrhus (c. 393-c. 460), bishop of the Antiochene tradition"
-work: "Historia Ecclesiastica (covering 325-429) - including its embedded Damasus documents (the synodical act on Ariminum; the synodical letter against Apollinarius; the confession sent to Paulinus) and the fullest narrative of Ambrose's exclusion and Theodosius's penance (V.17-18)"
+work: "Historia Ecclesiastica (covering 325-429) - including its embedded Damasus documents (the synodical act on Ariminum; the synodical letter against Apollinarius; the confession sent to Paulinus) and the fullest narrative of Ambrose's exclusion and Theodosius's penance (V.17)"
 edition: "trans. Blomfield Jackson, Nicene and Post-Nicene Fathers series 2 vol. 3 (1892), vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
 rights_status: public-domain
 attribution_status: attributed

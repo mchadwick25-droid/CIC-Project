@@ -55,7 +55,8 @@ text: 'The imperial court wanted a basilica - one of Milan''s churches, handed o
   in the city, remembered it plainly: the pious people kept guard in the church, prepared to die with
   their bishop. And it was then, he says, that Milan began to sing - hymns and psalms after the manner
   of the Eastern churches, so the waiting did not have to be endured in silence; a custom, he wrote, kept
-  from then till now, imitated, he says, by many, almost all, of the West''s congregations afterward. In
+  from then till now, imitated, as he says to God, by many, almost all, of Thy congregations throughout
+  the rest of the world afterward. In
   the middle of it Ambrose preached the sentence this world kept: the emperor is within the Church, not
   above it. The court did not take the building.'
 absent_detail: 'No unnamed congregant''s own account survives - the vigil''s interior reaches the record
@@ -63,10 +64,10 @@ absent_detail: 'No unnamed congregant''s own account survives - the vigil''s int
   crisis exists only in its opponents'' words; and how close the soldiers actually came to storming the
   building cannot be known from inside the sources we have. Also missing if told as a bare power grab:
   the court''s demand followed a real imperial law (January 386, granting Homoian worship assembly) that
-  Ambrose''s own sermon on the crisis names and censures directly - "let him take away his laws with him,"
-  "giving bloody laws with his mouth," "this law, which sanctions such perfidious decrees" (Sermo c. Aux.
-  23-24) - a legal claim being defied, not force without pretext (the law''s own text is not vendorable
-  this build - see ijc.search.theodosian-code-english - so it is referenced here at Documented via
+  Ambrose''s own sermon on the crisis names and censures directly - the people''s own words, which he
+  repeats and endorses, "Let him take away his laws with him," and his own, "giving bloody laws with his
+  mouth," "this law, which sanctions such perfidious decrees" (Sermo c. Aux. 23-24) - a legal claim being
+  defied, not force without pretext (the law''s own text is not vendorable this build - see ijc.search.theodosian-code-english - so it is referenced here at Documented via
   Ambrose''s own words, not the law''s own text). Corrected at a follow-up confirmation review
   (2026-08-22): the phrase "Auxentius'' cruel law" previously quoted here is the NPNF editor''s own
   chapter-argument summary, not Ambrose''s wording - replaced with Ambrose''s actual sentences. Also

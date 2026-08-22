@@ -17,24 +17,29 @@ sources: []
 query: "Cell F6-E (testimony extracted from enslaved persons under torture; martyrdom-seeking as a death
   wish) - a check of this world's own licensed corpus and its own window boundary, run at review
   (confirmation pass) because no cell-scoped search had been documented for this honest-limited cell"
-channel: "grep against this world's own already-licensed files in cic/texts, plus a check of the window
-  boundary itself (312-451) against the cell's own subject matter, 2026-08-22"
-result: not_found
-found_sources: []
-note: "This cell's two seed questions both name persecution-era material (the tortured-witness testimony
-  behind Pliny/Eusebius-type accounts; martyrs actively seeking death) that predates 312 by definition -
-  this world's own window opens where the persecution's legal end begins. Within the window itself, no
-  torture-extracted testimony and no martyrdom-seeking survives in the licensed base; Eusebius's own
-  Historia Ecclesiastica is licensed here only for Books VIII-X (the persecution's end and the alliance),
-  not the earlier persecution narratives that would carry this material, and no other licensed source
-  reaches back before 312. CONSEQUENCE: ijc.limit.f6-e-earlier-windows's claim - that the seed questions
-  reach before this world's own horizon - is a genuine structural fact about the window, not merely an
-  unsearched gap, and is confirmed here rather than merely asserted."
+channel: "grep -in 'tortur|slave|martyr|rack|scourge' against every file already licensed in this
+  world's own source records in cic/texts, plus a check of the window boundary itself (312-451) against
+  the cell's own subject matter, 2026-08-22"
+result: found
+found_sources: [ijc.source.lactantius-de-mortibus]
+note: "Corrected at a second follow-up confirmation review (2026-08-22): this record originally claimed
+  'no other licensed source reaches back before 312' - false. ijc.source.lactantius-de-mortibus is
+  licensed whole, not narrowly (contrast ijc.source.augustine-confessions, explicitly 'Book 9 ch. 7 ONLY');
+  De Mortibus ch. XXIII, within that license, is a continuous pre-312 narrative and does contain
+  torture-extracted testimony from enslaved persons ('the most trusty slaves compelled by pain to bear
+  witness against their masters... men were tortured to speak against themselves'), plus martyrdom
+  material at ch. XVI. This world's window (312-451) simply does not draw on that material - a deliberate
+  scope choice, not an absence of access. CONSEQUENCE: ijc.limit.f6-e-earlier-windows's honest limit
+  stands on its real ground - a window judgment ('those questions belong to the age of persecution, and
+  our world begins where that age ends') - not on the stronger and false claim that the material is
+  unreachable in the licensed corpus."
 ---
 Added at a follow-up confirmation review (2026-08-22) per that
 review's M7 finding - see ijc.search.c-p-negative-sweep for the shared
 root-cause statement. This cell's honest_limit differs from the other
 four in kind: its absence is a window-boundary fact (this world begins
 in 312, the cell's questions concern before), not a corpus-coverage gap
-- the search here confirms no licensed source reaches back far enough
-to change that, rather than searching a live topic within the window.
+- material on this cell's exact subject matter does sit inside the
+licensed corpus (De Mortibus, pre-312), but this world's own window
+does not reach for it, which is the honest_limit's real and sufficient
+ground.

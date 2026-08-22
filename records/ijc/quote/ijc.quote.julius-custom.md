@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.athanasius-apologia-contra-arianos
-  locus: Apol. c. Ar. 35 (npnf204 lines 23510-23551)
+  locus: Apol. c. Ar. 35 (npnf204 lines 23549-23552)
   license: public-domain
 text: And why was nothing said to us concerning the Church of the Alexandrians in particular? Are you
   ignorant that the custom has been for word to be written first to us, and then for a just decision to

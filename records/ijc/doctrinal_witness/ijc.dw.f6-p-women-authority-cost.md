@@ -12,7 +12,10 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: "the coercive measures against Ambrose are Ambrose's own text (Ep. XX), which names
+    the emperor as the actor exercising his own power; the attribution of those measures to Justina
+    herself rests on a different source - the same volume's own chronology, not Ambrose's letter -
+    a divergence this record states rather than resolves"
 sources:
 - source_id: ijc.source.ambrose-epistles
   locus: Ep. XX.6-7 (the coercive measures themselves, npnf210 from line 41434); the volume's own
@@ -22,7 +25,9 @@ sources:
   license: public-domain
 - source_id: ijc.source.leo-letters
   locus: Ep. CV (to Pulcheria Augusta, congratulating her on the synod already held and protesting
-    Anatolius's Canon 28 - addressed to her as a real political principal, not a courtesy addressee)
+    Anatolius's Canon 28 - addressed to her as a real political principal, not a courtesy addressee);
+    Ep. XCV (thanking her directly for her own command that the Synod be held, and for overruling his
+    own request that it sit in Italy - the actual warrant for her convening role)
   license: public-domain
 retrieval:
   tier: 1
@@ -39,15 +44,16 @@ text: 'Could a woman carry real authority among us, and what did it cost her? Ye
   the persecution''s author. Either way, real coercive power moved through her court. Its cost: total
   public failure - the basilica was never surrendered, and every word of the record that carries her
   part in it reaches us through the account of the bishop who defeated her. Pulcheria carried authority long
-  enough to help convene the council that closed this world''s window - Leo himself writes to her directly
-  as a real political principal, once congratulating her on a synod already held, not as a courtesy. Her
-  cost was different: real
+  enough to help convene the council that closed this world''s window - Leo himself thanks her for her own
+  command that it be held, and for overruling his request that it sit in Italy instead; he also writes to
+  her congratulating her on a synod already held, not as a courtesy in either case. Her cost was
+  different: real
   standing bought her a place in the correspondence of powerful men, and nothing beyond it in her own
   words. Both women held command. Neither holds her own voice.'
 positions:
-- women did exercise directly coercive state authority in this world's own record - Justina's dominant
-  influence over her young son (no formal regency is attested) commanded fines, imprisonment, and the
-  machinery of the palace, not merely influence behind a throne
+- real coercive state power moved through Justina's court in this world's own record - fines,
+  imprisonment, and the machinery of the palace turned against Ambrose; Ambrose's own letter names the
+  emperor as the one exercising it, and the edition's own chronology names her as its actual author
 - that authority's exercise and its failure are both attested plainly - the record does not soften either
 - 'the cost common to both documented cases is the same: authority attested, voice not - neither
   woman''s own words on holding or losing power survive anywhere in this world''s base'
@@ -71,10 +77,22 @@ follow-up confirmation review (2026-08-22): the original draft cited
 Ep. XX.6-7 at verified-direct for the claim that Justina herself
 exercised the coercive measures "in her own name" - Ambrose's own text
 in that letter names the emperor, not Justina, as actor; the
-attribution to Justina rests on the volume's own chronology (line 704)
-and Sozomen, now cited as the actual warrant. Also struck an internal
+attribution to Justina rests on the volume's own chronology (line 704),
+now cited as the actual warrant. Also struck an internal
 contradiction ("Justina's regency" in positions, against this record's
 own correct "no formal regency is attested" in text), and corrected
 Ep. CV's description from "the power that could make a new synod
 happen" to what it actually is - congratulation on a synod already
-held, protesting Canon 28.
+held, protesting Canon 28. Corrected again at a second follow-up
+confirmation review (2026-08-22): this record's own body had claimed
+Sozomen as a co-warrant for the Justina attribution alongside the
+chronology, but Sozomen was never actually added to sources[] - that
+claim is now removed rather than left uncited; positions[0] still
+carried the pre-fix flat "commanded... directly" claim and a
+self-contradiction ("dominant influence" vs. "not merely influence
+behind a throne") after text was hedged - rewritten to match; a
+divergence_note added, since the confidence block requires one where a
+Documented claim rests on sources that do not themselves agree on the
+actor; and Leo Ep. XCV added as the actual primary warrant for
+Pulcheria's convening role, which the record previously asserted
+without any citation at all.

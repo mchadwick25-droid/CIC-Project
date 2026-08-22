@@ -19,7 +19,7 @@ sources:
   locus: Ep. LI (npnf210 from line 43997)
   license: public-domain
 - source_id: ijc.source.theodoret-he
-  locus: V.17-18 (npnf203 from line 16499 - the later, dramatized telling, flagged as such)
+  locus: V.17 (npnf203 from line 16499 - the later, dramatized telling, flagged as such)
   license: public-domain
 - source_id: ijc.source.sozomen-he
   locus: VII.25 (npnf202 from line 42146 - an independent corroborating account of the confrontation,
@@ -39,7 +39,7 @@ narrative_tier: 1
 narrative_tier_justification: 'Tier 1 (documented historical narrative) for the core: Ambrose''s own
   contemporary letter survives, private, in his own hand, demanding repentance before he will offer the
   sacrifice in the emperor''s presence; and the fact of Theodosius''s public penance is independently
-  corroborated by two later church historians, Sozomen (VII.25) and Theodoret (V.17-18), both writing
+  corroborated by two later church historians, Sozomen (VII.25) and Theodoret (V.17), both writing
   within a single generation of the events and neither drawing solely on the other. Corrected at review
   (Opus historical-accuracy pass, 2026-08-21): this record previously credited the dramatized public
   scene to "Theodoret... a generation later" alone, as though his were the only or earliest such telling

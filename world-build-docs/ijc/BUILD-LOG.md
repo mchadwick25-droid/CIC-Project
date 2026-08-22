@@ -144,3 +144,67 @@ Mark's step-5a touchpoint, not an error.
 **Record count:** 137 → 142 (5 new cell-scoped search_records). **Gates:** 13/13 clean, re-verified.
 
 No fix in this round reopened Step 0 or Doc_01's settled ground.
+
+## 8. Second confirmation review (2026-08-22) and its fixes
+
+A second isolated Opus review verified §7's fix round the same way the first verified §6 - re-deriving
+every claim against the vendored corpus directly. Persisted at
+`Review-Artifacts/Review_Confirmation_Pass_2.md`. Verdict: **MOSTLY CONFIRMED, the pattern repeated a
+third time** - the round's hardest fixes (the autumn-fast removal, the Anatolius/De Mysteriis/Ambrose-
+wording/Justina/Ep. CV/385-386/Coustant corrections) all re-derived clean, but the round again introduced
+a small number of new, smaller errors of the same kind - this time concentrated in two mechanisms: (a)
+adopting a prior review's own asserted line numbers without re-opening the file, and (b) an edition's
+editorial apparatus stated as the primary author's own words in a compiled field.
+
+**The new HIGH:** the Hilary of Poitiers "counter-datum" added to close a prior LOW finding was wrong
+about the vendored volume (it named "the same manuscript as De Synodis" - the hymn fragments actually
+share a manuscript with Hilary's own *De Mysteriis*, a different work) and, worse, was refuted by the
+next several sentences of the very passage it cited - the volume's own introduction credits Hilary with
+*writing* Latin hymns but explicitly denies he ever succeeded in bringing them into public worship,
+crediting that to Ambrose. Reworked in `ijc.dw.f4-e-ancient-custom` to what the source actually
+supports - a datum that sharpens Augustine's claim about Milan 386 rather than contradicting it.
+
+**Mechanical finding:** three of the seven quote-locus "fixes" from the first confirmation round had
+adopted that review's own asserted line ranges without checking them, and two of those ranges were
+themselves wrong - producing loci that pointed at text outside the quote (`constantine-bishop-outside`,
+`julius-custom`, `leo-tome-each-form`), a regression on the pre-fix state. All three re-derived directly
+from the file and corrected, along with two more one-line-off ranges (`canon28-equal-privileges`,
+`vc-conquer-by-this`) and one cosmetic range/single-line mismatch (`lactantius-dream`).
+
+**Other MEDIUM fixes:** `ijc.story.vigil-in-basilica.text` still carried "the West's congregations" after
+the phrase was fixed only in the doctrinal_witness record that shared it - both now match Augustine's own
+"throughout the rest of the world"; the Collections-day octave dating was hedged to what Leo's own words
+actually say ("the day of Apostolic institution") versus the edition's own dated reconstruction; two of
+the five new negative-search records (F6-E, F5-I) were found to assert false or incomplete claims about
+the corpus and were corrected with real content restored (Lactantius's *De Mortibus* does reach pre-312
+and does contain torture-of-slaves testimony, licensed but deliberately not drawn on; Leo's Ep. IV.II and
+Sermon XLII.VI on the treatment of enslaved persons, previously left to an editorial footnote, are now
+recorded as primary sources); all five new sweeps gained their actual literal search strings; the
+women's-authority witness (`ijc.dw.f6-p-women-authority-cost`) had its `positions` field left out of sync
+with a `text` field the same round had corrected, plus a citation to Sozomen that was never actually
+added to `sources[]` - both fixed, a `divergence_note` added, and Leo Ep. XCV added as the real warrant
+for Pulcheria's convening role (asserted previously with no citation at all); and three more places still
+carried the Theodoret V.17-18 citation error after three others had already been fixed in an earlier
+round.
+
+**LOW fixes:** two sentence-case/quotation drifts restored (a congregation's own words inside Ambrose's
+sermon wrongly presented as entirely his; the Ambrose figure's key identification quotation); an
+oversized editorial gloss moved outside its quotation marks; a vestigial "Thy" left without its vocative
+context after a partial restoration; a stale instance-count in a record body; a paraphrase's remaining
+intensifier drift ("by one road alone" vs. the source's plain "by one road"); a term's personal-sense
+field that had swapped one unsourced claim for another equally unsourced one, now saying only what the
+record supports; a search record's overstated claim about the corpus's registers (Symmachus, Lactantius,
+Jerome, and Ammianus are none of them a bishop, emperor, or court historian); a second documented
+forgiveness case (Callinicum) missing from a sweep that claimed only one existed; and a locus pointing
+seven lines past its own cited document's actual heading.
+
+**Record count:** unchanged at 142 (no new records this round, only corrections). **Gates:** 13/13 clean,
+re-verified.
+
+**A standing note carried forward from the review itself:** three fix rounds in a row have each closed
+findings and introduced a smaller set of the same kind, most consequentially by trusting an asserted
+line number instead of reopening the file, or a stated fact instead of reading past the sentence that
+states it. Every quote locus in this record set has now been independently re-derived at least once
+directly against the vendored file rather than inherited from a prior pass.
+
+No fix in this round reopened Step 0 or Doc_01's settled ground.

@@ -66,11 +66,12 @@ identification (Meslin; Gryson; Hanson 1988; McLynn 1994; Williams
 1995), this same man is the Homoian bishop Ambrose confronts in the 386
 Sermo, who had taken the elder Auxentius's own name on arriving at
 Milan. Ambrose's sermon says so directly (Sermo c. Auxentium 22,
-verified in the vendored text): "he is called by one name in the parts
-of Scythia [a loose lower-Danube reference in Ambrose's own words, not
-literally Durostorum's own province - Durostorum itself sat in Moesia
-Secunda], he is called by another here" - Ambrose's own words are this
-record's warrant for treating the 386 opponent and the Ulfila letter's
+verified in the vendored text): "He is called by one name in the parts
+of Scythia, he is called by another here" ("the parts of Scythia" is a
+loose lower-Danube reference in Ambrose's own words, not literally
+Durostorum's own province - Durostorum itself sat in Moesia Secunda) -
+Ambrose's own words are this record's warrant for treating the 386
+opponent and the Ulfila letter's
 author as one man, at dominant-not-
 unanimous confidence. This changes the Absent Stories accounting
 (ijc.core.imperial-juridical): the Homoian side of the 386 confrontation

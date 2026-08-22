@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.eusebius-vita-constantini
-  locus: IV.24 (npnf201 lines 66693-66733)
+  locus: IV.24 (npnf201 lines 66732-66734)
   license: public-domain
 text: 'You are bishops whose jurisdiction is within the Church: I also am a bishop, ordained by God to
   overlook whatever is external to the Church.'

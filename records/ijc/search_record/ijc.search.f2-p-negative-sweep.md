@@ -18,8 +18,8 @@ query: "Cell F2-P (Scripture leaves me confused or bored; the Bible's violence f
   people feel that) - a grep sweep of this world's own licensed corpus for an ordinary reader's own
   account of encountering scripture, run at review (confirmation pass) because no cell-scoped search had
   been documented for this honest-limited cell"
-channel: "grep against this world's own already-licensed files in cic/texts for reader-experience
-  phrasing (confusion, fright, boredom, difficulty) attached to scripture-reading, 2026-08-22"
+channel: "grep -in 'confused|frightened|bored|troubled by scripture|hard to understand' against every
+  file already licensed in this world's own source records in cic/texts, 2026-08-22"
 result: not_found
 found_sources: []
 note: "No ordinary reader's own reflection on the experience of reading scripture - confusion, fright,

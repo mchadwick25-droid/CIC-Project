@@ -24,8 +24,9 @@ sources:
   locus: IX.7 (a practice's beginning honestly dated)
   license: public-domain
 - source_id: ijc.source.hilary-de-synodis
-  locus: the volume's own introduction to Hilary (npnf209:3709-3731), on his fame as the earliest Latin
-    hymn writer and the surviving hymn fragments in the same manuscript as De Synodis
+  locus: the volume's own introduction to Hilary (npnf209:3707-3741), on his fame as the earliest Latin
+    hymn writer and the introduction's own judgment that he never succeeded in bringing hymns into public
+    worship, an honor it credits to Ambrose
   license: public-domain
 retrieval:
   tier: 1
@@ -38,12 +39,12 @@ text: 'How did this world know its practices went back to the apostles? It asked
   memory visible. But the record also lets us watch a custom being born and admits it: the eyewitness
   in the 386 basilica siege dates a new practice at Milan precisely - hymn-singing "after the manner
   of the Eastern Church," not Milan''s own before that night, kept "from then till now" and imitated,
-  he says, by many, almost all, of Thy congregations throughout the rest of the world afterward. He
-  claims Milan''s own beginning and a wide later imitation - not, on his own words, that this was the
-  first hymn-singing anywhere in the West; Hilary of Poitiers, a generation earlier, already has the
-  fame of being the earliest Latin hymn writer, and the same volume that carries his theology preserves
-  fragments of his own hymn collection - a counter-datum our sources do not let us collapse into this
-  one night. So the
+  as he says to God, by many, almost all, of Thy congregations throughout the rest of the world
+  afterward. He claims Milan''s own beginning and a wide later imitation, not the first Latin hymn ever
+  written - Hilary of Poitiers had already tried, a generation earlier, and our own sources say he never
+  succeeded in bringing hymns into public worship; that success, the same sources say, belongs to
+  Ambrose. Which sharpens the claim rather than denying it: a real, named beginning, not the absence of
+  any earlier attempt. So the
   honest answer this world''s own record gives: some of its practices genuinely descend from before
   anyone could remember otherwise; some were new and known to be new; and the claim of apostolic age
   was itself an instrument, wielded hardest exactly where it was most contested.'
@@ -60,6 +61,16 @@ tensions:
 ---
 F4-E answered with the world's own custom-apparatus AND its one
 honestly-dated innovation - the pairing that keeps the answer from
-being either triumphalist or debunking. All three instances verified
+being either triumphalist or debunking. All four instances verified
 in the vendored corpus (Canon 6 wording checked at the source record;
-Julius and Augustine at their quote records).
+Julius and Augustine at their quote records; Hilary at the volume's
+own introduction, npnf209:3707-3741). Corrected at a second follow-up
+confirmation review (2026-08-22): the Hilary material was previously
+misdescribed as living in "the same manuscript as De Synodis" (it does
+not - De Synodis is a separate work in the volume; the hymn fragments
+share a manuscript with Hilary's own De Mysteriis) and deployed as a
+"counter-datum" to Augustine when the cited passage actually says the
+opposite - Hilary wrote hymns but never succeeded in bringing them into
+public worship, an honor the same source credits to Ambrose. Reworded
+to what the source actually supports, which corroborates rather than
+complicates Augustine's claim.

@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.eusebius-vita-constantini
-  locus: I.28 (npnf201 lines 61196-61208)
+  locus: I.28 (npnf201 lines 61203-61208)
   license: public-domain
 text: He said that about noon, when the day was already beginning to decline, he saw with his own eyes
   the trophy of a cross of light in the heavens, above the sun, and bearing the inscription, Conquer by
