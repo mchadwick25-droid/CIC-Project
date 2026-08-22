@@ -32,6 +32,8 @@ relations:
   target: desert.term.cheironaxia
 - type: associated-with
   target: desert.contested.strand-porousness
+- type: associated-with
+  target: desert.force.economic-embeddedness-ongoing
 name: "Manual labor as ascetic discipline [PRIMARY]"
 description: "Cheironaxia - hand-work done both to live and as a discipline in its own right, against idleness - understood by this world as the discipline itself, not merely economic necessity. Rests on textual, papyrological, and archaeological evidence independently: Athanasius, Palladius, the Nepheros archive (Melitian and caveated, its own editors also reading it as organizationally intermediary, no clean fit to this world's three strands), and Kellia's excavated commercial infrastructure. Strong on all six tests: attested across every evidence type available to this world; material sustainability, almsgiving, and the discipline against idleness all depend on it directly; it is understood as formation in itself; it directly explains the economic-embeddedness gravity's own point-evidence; and it is cross-strand. Documented/Widely Accepted, no discrepancy. Reinforces withdrawal and the economic-embeddedness gravity its own evidence partly feeds - the tension that gravity carries is with withdrawal's rhetoric specifically, not with this discipline itself; Doc_04 also notes some tension with a purely contemplative reading of the Evagrian systematization gravity, carried as a soft-tension in the index's Interaction Matrix rather than as a declared relation here. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
@@ -90,3 +92,6 @@ Step3c: the Nepheros organizationally-intermediary complication this
 record's own locus and manifestations carry is now the full
 contested_claim record desert.contested.strand-porousness - reciprocal
 associated-with added.
+
+Doc_08: desert.force.economic-embeddedness-ongoing added as a
+reciprocal relation, per Doc_08's own gravity-force synthesis table.

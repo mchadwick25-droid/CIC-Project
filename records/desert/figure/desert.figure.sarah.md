@@ -27,6 +27,8 @@ relations:
   target: desert.term.geron-abba-amma
 - type: associated-with
   target: desert.gravity.elder-authority
+- type: associated-with
+  target: desert.force.oral-to-written-shift
 ---
 Formation significance: desert.term.geron-abba-amma's own evidential
 sense already states the asymmetry this record makes concrete - "named
@@ -82,3 +84,8 @@ compiled fragment would print directly). The provenance clause is moved
 to divergence_note above; names[] now carries only the name and range,
 matching "Antony of Egypt (c. 251-356)," "Pachomius of Tabennesi
 (c. 292-346)," and "Evagrius Ponticus (c. 345-399)."
+
+Doc_08: desert.force.oral-to-written-shift added as a reciprocal
+relation - this record is that force's own concrete instance of the
+compilers' selection effect on the ammas' own material, per that
+force's own Transmission Specificity treatment.

@@ -42,6 +42,10 @@ relations:
   target: desert.contested.strand-porousness
 - type: associated-with
   target: desert.figure.antony
+- type: associated-with
+  target: desert.force.martyrdom-unavailable
+- type: associated-with
+  target: desert.force.village-ascetic-culture
 name: "Withdrawal [PRIMARY]"
 description: "This world's defining and generating act: leaving settled village life for the desert's edge, as the whole work of formation rather than a change of address. Attested across this world's independent evidence streams - narrative (the Vita), the sayings tradition, Palladius, the settlement archaeology at Kellia, the Pachomian corpus, and (Melitian, its representativeness for the mainstream strands an unverified working assumption, and organizationally intermediary, no clean fit to the three strands) the Nepheros archive - and across all three strands. Strong on all six gravity tests: repeated in every stream, load-bearing for everything downstream of it (siting, strand differentiation, the thin liturgical record), directly formative, explanatory of the whole ecology's shape, persistent across Lower and Upper Egypt, and reinforcing of both elder authority and manual labor. Documented/Widely Accepted confidence with no discrepancy against its organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
@@ -113,3 +117,9 @@ desert.contested.antony-literacy and desert.contested.strand-porousness
 respectively, both now full records - reciprocal associated-with
 relations added. desert.figure.antony is likewise added: this gravity
 is patterned on, not merely illustrated by, his own staged career.
+
+Doc_08: desert.force.martyrdom-unavailable (the generating force this
+description already names in its own closing sentence) and
+desert.force.village-ascetic-culture (the inherited substrate this
+gravity intensifies) added as reciprocal relations, now that both are
+full force records.

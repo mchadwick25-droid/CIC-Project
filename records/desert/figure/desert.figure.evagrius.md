@@ -35,6 +35,8 @@ bridge_line: "the most formally educated man this world produced, who took its r
 relations:
 - type: associated-with
   target: desert.gravity.evagrian-systematization
+- type: associated-with
+  target: desert.force.evagrian-intensification
 ---
 Formation significance: this record's dates and biographical detail are
 desert.gravity.evagrian-systematization's own generating evidence - the
@@ -110,3 +112,8 @@ exists specifically to deny (the calendar year is not in the chapter).
 Both corrected directly in the Finding S8 paragraph above, with an
 exact count (seven) given this time so the number does not need
 re-deriving a fourth time.
+
+Doc_08: desert.force.evagrian-intensification added as a reciprocal
+relation - this record's own biography is that force's own generating
+evidence, per Doc_08's Transmission Specificity treatment of this
+force.

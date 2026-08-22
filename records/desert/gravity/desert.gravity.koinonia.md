@@ -30,6 +30,8 @@ relations:
   target: desert.term.koinonia
 - type: associated-with
   target: desert.figure.pachomius
+- type: associated-with
+  target: desert.force.formation-at-scale
 name: "Koinonia - communal rule and common property [SUPPORTING]"
 description: "The Pachomian federation's own name for its linked houses under one written rule and one head - the organizing principle of Strand B's entire social structure. Strong within the Pachomian corpus on every test - repetition, dependency, formation, explanatory power - but fails the Persistence test outright: no equivalent exists in Strand A or C. Confidence is not the limiting factor (Widely Accepted); cross-strand persistence is. Classified Supporting: it organizes a real and major portion of this world's ecology, within the context Primary gravities establish, but does not organize the ecology as a whole. Stands as one pole of the authority-tension gravity (10) against the elder-mediated model (gravity 3). Emerges specifically from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names, not from the generating force (martyrdom's unavailability) directly."
 manifestations:
@@ -105,3 +107,7 @@ no schema term at all.
 
 Step3c: desert.figure.pachomius added - this gravity's own dates and
 scale figures are that record's own generating evidence.
+
+Doc_08: desert.force.formation-at-scale added as a reciprocal relation
+- the formation-at-scale problem this gravity is this world's own
+answer to.

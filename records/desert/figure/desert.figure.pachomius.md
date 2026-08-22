@@ -41,6 +41,8 @@ relations:
   target: desert.gravity.koinonia
 - type: associated-with
   target: desert.gravity.authority-tension
+- type: associated-with
+  target: desert.force.formation-at-scale
 ---
 Formation significance: koinonia (desert.gravity.koinonia) is the
 Pachomian federation's own name for the linked-houses structure
@@ -111,3 +113,7 @@ and appointed offices" unhedged and unchanneled, while the body's own
 unqualified universal the bridge_line itself now violated. Narrowed the
 body's universal to specific Rule content and explained above why the
 bridge_line's bare existence claim falls outside it.
+
+Doc_08: desert.force.formation-at-scale added as a reciprocal relation
+- this record's own founding narrative is that force's own generating
+evidence.

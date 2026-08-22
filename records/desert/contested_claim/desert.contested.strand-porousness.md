@@ -35,6 +35,8 @@ relations:
   target: desert.gravity.withdrawal
 - type: associated-with
   target: desert.core.desert
+- type: associated-with
+  target: desert.force.melitian-rivalry
 ---
 Re-derived from Doc_01 SS6 (open item 5) and SS11 item 5, and Doc_04
 SS7 (cross-strand testing's own six-of-ten finding), and carried
@@ -105,3 +107,7 @@ neither rewrite actually separated the cell's real content from that
 axis. Moved to no cells, matching desert.contested.alexandria-continuity's
 own convention, rather than attempt a third justification for a fit
 that has not held.
+
+Doc_08: desert.force.melitian-rivalry added as a reciprocal relation -
+that force's own generating pressure is this record's own organizational-
+pattern question.

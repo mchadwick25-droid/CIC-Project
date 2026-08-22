@@ -36,6 +36,8 @@ relations:
   target: desert.core.desert
 - type: associated-with
   target: desert.contested.antony-literacy
+- type: associated-with
+  target: desert.force.origenist-controversy
 ---
 CROSS-BUILD record, the Desert-side counterpart to the Alexandria
 build's own alx.contested.desert-attribution (`records/alx/contested_claim/`,
@@ -108,3 +110,7 @@ own contribution (naming the systematized register's real, non-
 Alexandrian channel) added. Finding C3: "(see below)" pointed at the
 concedes field, which sits above the body, not below it - corrected to
 "(concedes, above)".
+
+Doc_08: desert.force.origenist-controversy added as a reciprocal
+relation - the concrete episode held_against[3] describes as an
+unresolved external contact with Alexandria's own episcopal authority.

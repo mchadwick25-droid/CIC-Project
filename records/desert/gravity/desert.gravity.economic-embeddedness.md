@@ -28,6 +28,10 @@ relations:
   target: desert.term.anachoresis
 - type: associated-with
   target: desert.contested.strand-porousness
+- type: associated-with
+  target: desert.force.economic-embeddedness-ongoing
+- type: associated-with
+  target: desert.force.melitian-rivalry
 name: "Economic and social embeddedness in village life [TENSIONAL]"
 description: "A persistent counter-current to withdrawal's own rhetoric of total separation: the settlements sat on marginal-but-not-remote land, with real economic ties to villages through labor, sale of goods, and almsgiving. Moderate on Repetition (two independently registered evidence types whose confidence ratings agree but whose caveats differ, functioning as a corrective reading against the dominant literary narrative rather than as that narrative's own emphasis); moderate Dependency; indirect Formation (shapes practice more than professed ideal); strong Explanatory power (explains a real documented gap between rhetoric and practiced reality); cross-strand as a pattern, evidence-concentrated in Strand B and, provisionally and Nepheros-derived specifically, Strand C - distinct from Kellia's more securely Strand-C-located archaeological evidence, per Doc_04's own SS5 note. This is exactly what qualifies it as Tensional rather than Primary: a persistent, materially real counter-pressure to the ecology's own self-understanding, not a force that organizes that self-understanding directly. It holds steady rather than intensifying or fracturing under the named forces (Doc_01 SS7's four, not only the generating force) - a structural precondition (the settlements had to eat) underneath the more visible responses."
 manifestations:
@@ -106,3 +110,8 @@ Step3c: the Nepheros organizationally-intermediary complication this
 record and its own source record both carry is now the full
 contested_claim record desert.contested.strand-porousness - reciprocal
 associated-with added.
+
+Doc_08: desert.force.economic-embeddedness-ongoing and
+desert.force.melitian-rivalry both added as reciprocal relations, per
+Doc_08's own gravity-force synthesis table and Cell 2A-ii's own
+treatment of this gravity's evidential complications.

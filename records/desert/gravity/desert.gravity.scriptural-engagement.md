@@ -24,6 +24,8 @@ relations:
   target: desert.term.apophthegma
 - type: associated-with
   target: desert.contested.alexandria-continuity
+- type: associated-with
+  target: desert.force.scriptural-address
 name: "Practical, non-systematized scriptural engagement [PRIMARY, softest]"
 description: "Scripture read for its immediate, applied bearing on a specific struggle or thought, in the terse idiom of the sayings tradition, rather than through a systematic exegetical program comparable to Alexandria's own catechetical tradition. Moderate-strong on Repetition (recurs in the Apophthegmata's own idiom, and by documented contrast with a systematic tradition elsewhere); moderate on Dependency (feeds diakrisis and elder teaching content); directly formative; strong on Explanatory power (explains this world's non-systematic, applied hermeneutic); cross-strand though thinner for Strand B specifically. Widely Accepted confidence, flagged as the weakest of the six Primary gravities on the strength of its own case rather than on any confidence problem. Neither clearly intensifies nor fractures under any of Doc_01 SS7's four named forces - its Primary classification rests on the six-test and Cross-Check results, not on a strong forces-test relationship, consistent with being the softest of the six Primary gravities."
 manifestations:
@@ -69,3 +71,7 @@ Step3c: this record's own documented contrast with Alexandria's
 catechetical tradition is now the generating evidence for the full
 contested_claim record desert.contested.alexandria-continuity -
 reciprocal associated-with added.
+
+Doc_08: desert.force.scriptural-address added as a reciprocal relation
+- the inherited interpretive posture (a verse heard as direct personal
+address) this gravity's own generating force.

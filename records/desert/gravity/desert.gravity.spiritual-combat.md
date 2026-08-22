@@ -31,6 +31,8 @@ relations:
   target: desert.term.logismoi
 - type: associated-with
   target: desert.figure.antony
+- type: associated-with
+  target: desert.force.martyrdom-unavailable
 name: "Spiritual combat against tempting thoughts, general form [PRIMARY]"
 description: "The struggle against logismoi - tempting or distracting thoughts - as this world's ordinary, cross-strand subject matter, tested here in its general form and separately from its later Evagrian systematization (gravity 9), which carries materially different single-author-concentrated evidential risk. Independently attested in Athanasius's narrative, the sayings tradition, and Evagrius's own general framing. Strong on all six tests: repeated across every stream, shapes both teaching content and the terse-saying genre itself, directly formative, explanatory of why so much surviving material takes the form it does, persistent across all three strands (most elaborated in Strand C, but present in A and B), and reinforcing of diakrisis and elder authority. Widely Accepted confidence, no discrepancy against organizing strength. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
 manifestations:
@@ -70,3 +72,7 @@ its caveat together, so the caveat has something to qualify.
 Step3c: desert.figure.antony added - his own combat at the tombs and
 in the fort (Vita SS8-9, SS12-13) is this gravity's own paradigm case,
 tested here separately from its own later systematized Evagrian form.
+
+Doc_08: desert.force.martyrdom-unavailable added as a reciprocal
+relation, the generating force this description's own closing sentence
+already names.
