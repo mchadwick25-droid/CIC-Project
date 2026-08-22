@@ -16,7 +16,7 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS19 - from Antony's extended discourse to the gathered brothers"
   license: public-domain
-text: "Let us hold fast our discipline, and let us not be careless... But to avoid being heedless, it is good to consider the word of the Apostle, 'I die daily.' For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily."
+text: "...let us hold fast our discipline, and let us not be careless... But to avoid being heedless, it is good to consider the word of the Apostle, 'I die daily.' For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily."
 speaker_or_author: desert.figure.antony
 license: verbatim
 relations:
@@ -24,6 +24,8 @@ relations:
   target: desert.gravity.withdrawal
 - type: associated-with
   target: desert.figure.antony
+- type: associated-with
+  target: desert.dw.f4-t-judgment-and-resurrection
 ---
 Verified verbatim 2026-08-22 against the vendored file, from the
 extended discourse (traditional SSSS16-43) Athanasius attributes to
@@ -44,3 +46,12 @@ shall not abide till evening; and again, when about to lie down to
 sleep, we should think that we shall not rise up." Both omissions are
 now marked with an ellipsis, matching this step's own existing
 convention (desert.quote.arsenius-flee-tace-quiesce).
+
+Step4, Round 2 review recommendation (a character-by-character
+re-check of every verbatim quote, applied proactively to this record
+though not itself named in a Round 2 finding): the excerpt's own
+opening also dropped the vendored text's vocative "Wherefore,
+children," unmarked - the vendored sentence is "Wherefore, children,
+let us hold fast our discipline..." - corrected above with a leading
+ellipsis, matching the convention this record already uses for its two
+internal elisions.

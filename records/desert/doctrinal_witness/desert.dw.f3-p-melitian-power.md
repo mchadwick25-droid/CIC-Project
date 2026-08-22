@@ -18,11 +18,11 @@ sources:
   license: public-domain
 - source_id: desert.source.nepheros-archive
   locus: "the Melitian community's own documentary archive - caveated per that source's own two standing cautions: representativeness for the mainstream strands is an unverified working assumption, and the editors' own 'intermediary' organizational reading does not map cleanly onto this world's three strands"
-text: "There was another community near us, holding to a different bishop after an old dispute, and we did not treat them as fellow ascetics. The one we remember as our own founder never held communion with them, from the beginning to his own dying instruction. What that meant in practice was closer to silence than to open conflict in the writing we left behind - they are named only to be refused, never engaged as ongoing co-participants, which is itself a kind of judgment. Their own letters, when they survive, show ordinary monks doing ordinary monastic business - though whether that business really looked like ours day to day, or only looks that way from the little we can compare, is not something we can honestly settle from what survives. We did not, so far as this record can show, offer them the same recognition we gave each other."
+text: "There was another community near us, holding to a different bishop after an old dispute, and we did not treat them as fellow ascetics. The one we remember as our own founder never held communion with them, from the beginning to his own dying instruction. What that meant in practice was closer to silence than to open conflict in the writing we left behind - they are named only to be refused, never engaged as ongoing co-participants, which is itself a kind of judgment. Their own letters, when they survive, show ordinary monks doing ordinary monastic business - though whether that business really looked like ours day to day, or only looks that way from the little we can compare, is not something we can honestly settle from what survives. We did not, so far as we can tell, offer them the same recognition we gave each other."
 positions:
 - "we refused Melitian ascetics recognition as fellow participants in the same formation logic"
 - "the refusal shows chiefly as near-silence and named non-recognition in what we wrote down, not as documented active persecution"
-- "the surviving Melitian letters show ordinary monastic business, but whether that practice was truly comparable to our own day to day remains an open, unverified question, not a settled finding"
+- "the surviving Melitian letters show ordinary monastic business, but whether that practice was truly comparable to our own day to day remains an open, unverified question, not something we can honestly claim to have settled"
 tensions:
 - "a claimed unity of the faith against a documented, unacknowledged parallel community practicing what looks like the same discipline - 'looks like' carrying real uncertainty, not confirmed resemblance"
 ---
@@ -49,3 +49,11 @@ Arian confrontation - see desert.dw.f1-e-councils) to SS68 and SS89,
 the Vita's actual two Melitian passages, both of which
 desert.force.melitian-rivalry already registers and this witness now
 uses.
+
+Step4, Round 2 review Finding M5: the compiled text's closing sentence
+still read "so far as this record can show" after the fix above -
+build meta-language surviving in the one field of this record type that
+actually compiles (`build_prompt()`/`build_chunks()` emit
+`doctrinal_witness.text` directly). Corrected to first-person phrasing.
+Finding C4: positions[2]'s closing "not a settled finding" used review
+vocabulary rather than this world's own register - reworded.

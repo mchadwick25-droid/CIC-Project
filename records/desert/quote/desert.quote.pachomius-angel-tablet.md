@@ -17,7 +17,7 @@ sources:
   locus: "ch. XXXII - the angel's own opening instruction, in Clarke's translation"
   license: public-domain
 text: "Thou shalt allow each man to eat and drink according to his strength; and proportionately to the strength of the eaters appoint to them their labours. And prevent no man either from fasting or eating."
-speaker_or_author: "an angel, as Palladius reports Pachomius's own account of the vision"
+speaker_or_author: "an angel"
 license: verbatim
 relations:
 - type: associated-with
@@ -31,6 +31,18 @@ desert.story.pachomius-founding's own body citing this record before it
 existed - the gap the review pointed at was real, and this is the fix
 rather than a removal of the reference: the tablet's own opening clause
 genuinely is verbatim-quotable and no quote record carried it.
-speaker_or_author names the angel as the vision's own speaker per
-Palladius's narration, not Pachomius or Palladius themselves, since
-neither of them speaks these words in the text.
+
+Step4, Round 2 review Finding S7: speaker_or_author previously read "an
+angel, as Palladius reports Pachomius's own account of the vision" -
+checked directly against ch. XXXII, which narrates entirely in
+Palladius's own third person ("to him as he sat in his cave an angel
+appeared and said...") and names no informant, unlike ch. XXII, where
+Palladius explicitly names Cronius and Hierax as his sources. There is
+no textual basis for attributing this account to Pachomius's own
+telling specifically - corrected to name only what the text itself
+supports, the angel as the speaker within Palladius's narration. The
+same finding noted that this field, like `text`, compiles directly into
+`quotes.json` (`build_quotes_json()` emits `sources` as well, so
+`sources[].locus` also compiles - a correction to how this step's own
+STEP4-INDEX.md described the M8 fix elsewhere in this record set, not a
+claim specific to this record).

@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.arsenius-flee's own rating - Inferential/Thin for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound. No vendored edition exists for this source; license is paraphrase-only, per that source's own hard rule."
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Arsenius, Alphabetical Collection - the same saying desert.story.arsenius-flee carries, in this record's own words rather than a verbatim rendering"
+  locus: "Arsenius, Alphabetical Collection - a widely attested saying attributed to Arsenius; no vendored edition exists, so this is a plain-English restatement rather than a verbatim rendering"
 text: "Flee the company of men, and you will be saved... Flee, be silent, be still - these are the roots of a life without sin."
 speaker_or_author: "a voice Arsenius reports having heard"
 license: paraphrase-only
@@ -37,3 +37,10 @@ confidence pairing - the unconditional Inferential/Thin bound added
 above. Finding M8: speaker_or_author carried a parenthetical provenance
 tag that would compile directly - removed; the source is already
 carried in sources[] and divergence_note.
+
+Step4, Round 2 review Finding M8: `sources[].locus` also compiles into
+`quotes.json` (`build_quotes_json()` emits `sources` verbatim) - the
+locus above previously named a sibling record id and described itself
+in build-process terms ("in this record's own words rather than a
+verbatim rendering"); reworded to a plain description carrying the same
+information without either.

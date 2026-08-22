@@ -21,7 +21,7 @@ sources:
 text: "Most of us did not argue about God for a living; we were formed to see him. But when it mattered, one of us was called on to say plainly what we held: the Son of God is not some lesser, created thing, not brought into being out of nothing, but the Eternal Word of the Father's own being - there was never a time when he was not. Short of that kind of public moment, our ordinary way of holding it was refusal - we would have nothing to do with those who taught otherwise. Beyond that boundary, the deepest of us - and only a few of us went this deep - held that God is known less by argument than by a long stilling of the passions that otherwise crowd the mind: strip away what drives you, and in the quiet that is left, something of God becomes visible that was not visible before. That is contemplation, as the most systematic among us named it - not a doctrine to recite, but a seeing that has to be earned."
 positions:
 - "the Son is not a lesser or created being but the Eternal Word of the Father's own being - stated plainly, in public, when called on"
-- "the ordinary form this boundary took was refusal of communion, not argument - argument was the exception, called for once"
+- "day to day, the ordinary form this boundary took was refusal of communion, not argument - but this world's own record also shows public argument more than once, against the Arians at episcopal summons and against pagan philosophers at Antony's own mountain"
 - "God known through stilling the passions (apatheia), not chiefly through argument"
 - "contemplation (theoria) as an earned seeing, available in full only to a few"
 tensions:
@@ -29,6 +29,8 @@ tensions:
 relations:
 - type: associated-with
   target: desert.quote.antony-nicene-formula
+- type: associated-with
+  target: desert.limit.f1-t-original-sin-eucharist-faith
 ---
 Joins desert.quote.antony-arians-serpents and desert.quote.antony-
 nicene-formula (the boundary-drawing and, now, the positive-formula
@@ -45,3 +47,12 @@ such argument, publicly, at episcopal summons - revised above to state
 both the ordinary refusal and that one recorded public argument, and to
 name desert.quote.antony-nicene-formula as this record's own source for
 the positive formula it now quotes.
+
+Step4, Round 2 review Finding M2: positions[1], written by the fix
+above, still called argument "the exception, called for once" - false
+against SS72-79 ("How he reasoned with divers Greeks and philosophers
+at the outer mountain") and SS80 ("How he confuted the philosophers"),
+both inside the same Vita this record's own sources[] already cites.
+Corrected to acknowledge the philosophical disputations alongside the
+Arian confrontation, matching the correction already made on
+desert.dw.f1-e-councils for the identical class of overclaim.

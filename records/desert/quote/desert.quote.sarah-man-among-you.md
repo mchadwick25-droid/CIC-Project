@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.sarah-answer's own rating - Inferential/Thin for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound. No vendored edition exists for this source; license is paraphrase-only for that reason, per that source's own hard rule that no citation of it may claim verbatim status."
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Sarah, Alphabetical Collection - the same saying desert.story.sarah-answer and desert.figure.sarah both carry, in this record's own words rather than a verbatim rendering"
+  locus: "Sarah, Alphabetical Collection - a widely attested saying of Amma Sarah's; no vendored edition exists, so this is a plain-English restatement rather than a verbatim rendering"
 text: "By nature I am a woman, but not by my own thoughts. It is I who am the man here, and you who are the women."
 speaker_or_author: desert.figure.sarah
 license: paraphrase-only
@@ -35,3 +35,11 @@ Step4, Round 1 review Finding S10: divergence_note carried only the
 "Widely Accepted" half of desert.source.apophthegmata-patrum's own
 confidence pairing - the unconditional Inferential/Thin bound added
 above, matching desert.figure.sarah's own full statement of it.
+
+Step4, Round 2 review Finding M8: `sources[].locus` compiles into
+`quotes.json` (`build_quotes_json()` emits `sources` verbatim), which
+this build's own field map for the record type had not previously
+flagged - the locus above previously named two sibling record ids and
+described itself in build-process terms ("in this record's own words
+rather than a verbatim rendering"); reworded to a plain description
+carrying the same information without either.

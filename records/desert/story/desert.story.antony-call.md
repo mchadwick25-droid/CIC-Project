@@ -32,7 +32,7 @@ relations:
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative): named author (Athanasius), specific text and chapter reference, composed within a generation of the events it narrates. Held at Tier 1 for the narrative's existence and general content, not for a claim of verified interior experience."
 tellable_as: "Antony's own call - hearing the Gospel read aloud and taking it as spoken to him directly"
-text: "Not long after he had lost his parents, still a young man, Antony went into church one day and heard the Gospel being read: the Lord telling the rich young man, 'If you would be perfect, go and sell what you have, and give to the poor, and you will have treasure in heaven; and come, follow me.' He took it as though it had been said to him alone. He walked out of the church, and before the day was over he had given away the land he had inherited and sold what else his family had owned, keeping back only a little for his sister's sake. Not long after that, hearing the same Gospel read again - 'do not be anxious about tomorrow' - he gave away the rest as well, and placed his sister with women he trusted who were already given to a life of virginity, and began the discipline himself, close to his own home at first, seeking out and modeling himself on an old man already living that way nearby."
+text: "Not long after he had lost his parents, still a young man, Antony went into church one day and heard the Gospel being read: the Lord telling the rich young man, 'If you would be perfect, go and sell what you have, and give to the poor, and come, follow me, and you will have treasure in heaven.' He took it as though it had been said to him alone. He walked out of the church, and before the day was over he had given away the land he had inherited and sold what else his family had owned, keeping back only a little for his sister's sake. Not long after that, hearing the same Gospel read again - 'do not be anxious about tomorrow' - he gave away the rest as well, and placed his sister with women he trusted who were already given to a life of virginity, and began the discipline himself, close to his own home at first, seeking out and modeling himself on an old man already living that way nearby."
 absent_detail: "Antony's own interior experience of that moment - what he felt hearing the words, what settled the decision in him beyond the words themselves - is not recorded; Athanasius reports the act and its occasion, not Antony's own account of his own mind. This world's evidence does not let a Representative go further than that without inventing an interiority the source does not give."
 ---
 Re-derived from the prior build's cleared Doc_09a Story 1.1, re-verified
@@ -60,3 +60,10 @@ Step4, Round 1 review Finding M3: "under the guidance of an old man"
 overclaimed against both the Vita ("imitated him in piety," SS3) and
 desert.force.village-ascetic-culture's own registered wording - corrected
 to that force record's own "sought out and modeled himself on."
+
+Step4, Round 2 review Finding C1 (flagged again, not fixed in Round 1's
+own pass): the Matthew 19:21 clause order previously read "...and you
+will have treasure in heaven; and come, follow me," reordered against
+the vendored Ellershaw text's own "...and come follow Me and thou shalt
+have treasure in heaven." Corrected above to the source's own clause
+order.

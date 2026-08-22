@@ -14,7 +14,7 @@ confidence:
   divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.moses-leaking-jug's own rating - Inferential/Thin for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound. No vendored edition exists for this source; license is paraphrase-only, per that source's own hard rule."
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Moses, Alphabetical Collection - the same saying desert.story.moses-leaking-jug carries, in this record's own words rather than a verbatim rendering"
+  locus: "Moses, Alphabetical Collection - a widely attested saying of Abba Moses's; no vendored edition exists, so this is a plain-English restatement rather than a verbatim rendering"
 text: "My own sins run out behind me the same way, and I do not see them - and today I am coming to judge another man's fault."
 speaker_or_author: "Abba Moses"
 license: paraphrase-only
@@ -38,3 +38,10 @@ exact source. Finding M8: speaker_or_author carried a parenthetical
 provenance tag ("(Apophthegmata Patrum)") that would compile directly
 into build_quotes_json() - removed; the source is already carried in
 sources[] and divergence_note.
+
+Step4, Round 2 review Finding M8: `sources[].locus` also compiles into
+`quotes.json` (`build_quotes_json()` emits `sources` verbatim) - the
+locus above previously named a sibling record id and described itself
+in build-process terms ("in this record's own words rather than a
+verbatim rendering"); reworded to a plain description carrying the same
+information without either.

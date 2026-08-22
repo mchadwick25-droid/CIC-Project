@@ -28,7 +28,7 @@ relations:
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative), same basis as desert.story.antony-call: named author, contemporary-generation text. The staged pattern (village edge, then a place of greater withdrawal, then greater withdrawal again once the first place stopped being solitary) is the narrative's own repeated structure, not a single incident."
 tellable_as: "not a single departure but a lifelong deepening - each time solitude drew a crowd, going further"
-text: "Withdrawal was not one act for us but a repeated one. Antony began close to home, seeking out and modeling himself on an old man already living a solitary life near his own village. From there he moved further, until he found an abandoned fort across the river, long deserted and overrun, and crossed over and shut himself inside it, seeing almost no one for years but for someone who brought him bread twice a year. People still came and stood outside, some just to listen at the wall. Eventually he came out, and disciples gathered near him. Years later, wanting more solitude than that gathering left him, he withdrew again, further still, into the desert between the river and the sea, and remained there for most of what was left of his life. Each departure cost him the community the remove before it had built around him, and each answered the same problem the one before it had eventually stopped solving: solitude, once found, draws people to it, and total withdrawal has to be sought again."
+text: "Withdrawal was not one act for us but a repeated one. Antony began close to home, seeking out and modeling himself on an old man already living a solitary life near his own village. From there he moved further, until he found an abandoned fort across the river, long deserted and overrun, and crossed over and shut himself inside it, seeing almost no one for years but for someone who brought him bread twice a year. People still came and stood outside, some just to listen at the wall. Eventually he came out, and disciples gathered near him. Years later, wanting more solitude than that gathering left him, he withdrew again, further still, into the desert - by later report, a place between the river and the sea, though what he himself found there was a lofty mountain, a spring, and palms, reached after three days' journey - and remained there for most of what was left of his life. Each departure cost him the community the remove before it had built around him, and each answered the same problem the one before it had eventually stopped solving: solitude, once found, draws people to it, and total withdrawal has to be sought again."
 absent_detail: "The Vita does not supply Antony's own account of what changed for him at each remove, or what specifically made the fort, and later the crowds around it, no longer enough - only that he moved on. This world's evidence gives the pattern, not the felt reasoning behind each specific move."
 ---
 Re-derived from the prior build's cleared Doc_09a Story 1.2. SS3-4 and
@@ -54,6 +54,17 @@ him in piety," Vita SS3) and desert.force.village-ascetic-culture's own
 own wording. Finding M18: the F5-P-01 cost reading previously lived
 only in this body note, which no builder or gate reads - folded into
 the compiled text field itself above.
+
+Step4, Round 2 review Finding M10: the M1 fix above corrected the
+confidence block and this body note but left the compiled `text` field
+stating "between the river and the sea" as flat narrative fact, with no
+hedge - the Step3a Round 8 (B2) ruling (a source's or attribution's own
+caveat travels with the compiled field carrying the claim, not only
+with an uncompiled note) applies here as much as to a source record's
+own standing rule. Reworded above to mark the placement as report
+rather than firsthand narration, and to give what the Vita itself
+actually supplies (the three-day journey, the mountain, the spring, the
+palms) alongside it.
 
 Formation significance: the paradigm instance of
 desert.gravity.withdrawal as an intensifying practice rather than a

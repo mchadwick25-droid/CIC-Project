@@ -14,16 +14,16 @@ confidence:
   divergence_note: "Widely Accepted, matching desert.gravity.withdrawal's own basis - this witness is a first-person framing of already-established material, not a new claim."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS2-3 - giving away a substantial inheritance over two church visits within days of each other, not one; SS12-13 - years inside an abandoned fort with its entrance built up, seen by almost no one"
+  locus: "SS2-3 - giving away a substantial inheritance over two separate church visits, not one; SS12-13 - years inside an abandoned fort with its entrance built up, seen by almost no one"
   license: public-domain
 relations:
 - type: associated-with
   target: desert.story.antony-call
 - type: associated-with
   target: desert.story.antony-withdrawal
-text: "An outsider, I think, would have found the giving away strangest of all - not the praying, not even the fasting, but that a young man with land and inheritance enough to live comfortably gave it all away, in two visits to the church within days of each other, and never went back for it. And then the disappearing: years spent inside an old fort with its entrance built up, seen by almost no one, while people gathered outside anyway, just to be near a wall with someone praying behind it. To most people that would look like throwing a life away. We understood it as the opposite - the only way left, once dying for the faith was no longer asked of anyone, to give the whole of a life rather than a part of it."
+text: "An outsider, I think, would have found the giving away strangest of all - not the praying, not even the fasting, but that a young man with land and inheritance enough to live comfortably gave it all away, in two separate visits to the church, and never went back for it. And then the disappearing: years spent inside an old fort with its entrance built up, seen by almost no one, while people gathered outside anyway, just to be near a wall with someone praying behind it. To most people that would look like throwing a life away. We understood it as the opposite - the only way left, once dying for the faith was no longer asked of anyone, to give the whole of a life rather than a part of it."
 positions:
-- "total renunciation of property, given away close together in stages rather than gradually over years"
+- "total renunciation of property, given away in two distinct steps rather than a single act"
 - "years of near-total physical seclusion, sought rather than avoided"
 - "renunciation and seclusion understood, from inside, as total offering rather than as loss"
 tensions:
@@ -35,8 +35,17 @@ what those two records already carry.
 
 Step4, Round 1 review Finding C5: "behind a locked door" and "in a
 single afternoon" overclaimed against SS2-3 (two separate church
-visits, days apart, not one) and S12 ("he built up the entrance
-completely" - a sealed entrance, not a locked door). Corrected above to
-match the vendored text directly. Finding M9 (tensions field): "this
-world's own account" replaced with first-person phrasing, matching the
-fix already applied to the other affected doctrinal_witness records.
+visits, not one) and S12 ("he built up the entrance completely" - a
+sealed entrance, not a locked door). Corrected above to match the
+vendored text directly. Finding M9 (tensions field): "this world's own
+account" replaced with first-person phrasing, matching the fix already
+applied to the other affected doctrinal_witness records.
+
+Step4, Round 2 review Finding S4: the C5 fix above had itself invented
+an interval ("within days of each other") the Vita does not state -
+S2 dates the first giving ("not six months after the death of his
+parents"); S3 opens "And again as he went into the church," with no
+interval given, nothing ruling out a longer gap. Removed from `text`,
+`positions[0]`, `sources[0].locus`, and this note; the record now
+states only what the Vita itself supports - two separate visits, no
+stated interval between them.

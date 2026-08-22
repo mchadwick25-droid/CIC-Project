@@ -28,6 +28,9 @@ positions:
 - "a small number of verses (Matthew 19:21 chief among them) carried disproportionate formative weight"
 tensions:
 - "a documented contrast with a systematic, school-based reading tradition elsewhere in the same century - a positive choice, not simply an absence of learning"
+relations:
+- type: associated-with
+  target: desert.limit.f1-t-original-sin-eucharist-faith
 ---
 Drawn from desert.gravity.scriptural-engagement's own description and
 desert.story.antony-call. Answers "what did your people actually have"
@@ -42,3 +45,7 @@ desert.gravity.evagrian-systematization, this world's own systematic-
 author gravity - corrected to acknowledge that exception while keeping
 it applied rather than exegetical. The Apophthegmata locus is also now
 marked Inferential/Thin, per that source's own unconditional bound.
+
+Step4, Round 2 review Finding C7: desert.limit.f1-t-original-sin-
+eucharist-faith names this record in its own nearest_material and
+why_sources_cannot_answer without a reciprocal relation - added.
