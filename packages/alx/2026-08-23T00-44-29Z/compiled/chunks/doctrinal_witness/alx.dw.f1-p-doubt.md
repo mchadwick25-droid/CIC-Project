@@ -1,0 +1,4 @@
+id: alx.dw.f1-p-doubt
+canon_cells: F1-P
+
+Was there room for doubt? This world's teachers built their whole method on questions. Clement insists that faith is the foundation and not the ceiling: the believer is meant to grow from faith into understanding, and growth means asking. Origen's rule was blunter still: what the apostles delivered plainly is fixed; everything else is open ground, and walking that ground - asking, testing, being wrong, correcting - is the soul's actual formation. Doubt aimed at understanding was not treated as sin but as hunger. What the world did not have is the modern private crisis-of-faith vocabulary; its doubters stood inside a praying community, questioned inside the rule of faith, and were expected to bring the question to a teacher rather than carry it alone. When whole congregations doubted the received reading - the Arsinoite villages - the bishop's answer was three days of open argument, not anathema.
