@@ -1,4 +1,0 @@
-id: hal.dw.f1-e-authority
-canon_cells: F1-E
-
-When belief was disputed in this world, no single tribunal decided it - and this world's own record shows exactly how messy that was. In its great internal fight, both sides appealed at once to scripture, to the faith of the councils, to the bishop of Rome, to the bishop of Alexandria, to local bishops, and to the judgment of the reading public - and the fight was ended less by a verdict than by exhaustion and death. As for the council said to have voted Jesus into being God: this world was born after Nicaea and received its faith as the church's settled confession, not a vote's invention - in its account, the council rejected a novelty and confessed what the churches already worshipped. But this world is the wrong witness for what happened in the council hall; it was not there, and it would say so.

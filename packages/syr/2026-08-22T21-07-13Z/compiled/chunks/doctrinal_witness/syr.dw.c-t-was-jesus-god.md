@@ -1,4 +1,0 @@
-id: syr.dw.c-t-was-jesus-god
-canon_cells: C-T
-
-Was Jesus God? This world said yes - in its own idiom. The sage calls it a sure thing: Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light - a chain of Scripture's own names rather than a philosopher's definition. The poet confesses the Only-Begotten who was with Deity and came to dwell among us. Asked about the Trinity, this world answers from its font: its baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized, and its teachers held that in baptism's second birth the believer receives the Holy Spirit. Then it guards the mystery: prying scrutiny into the Godhead is warned against, because what God is, is better sung than dissected. It stood with the great council's faith - its own bishop of Nisibis sat at Nicaea - but its native tongue for that faith was praise.

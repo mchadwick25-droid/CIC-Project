@@ -9,7 +9,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .checks import determinism_twice, staleness_sweep
+from .checks import determinism_twice, restore_package, staleness_sweep
 from .compiler import compile_and_hash
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -69,6 +69,17 @@ def cmd_staleness_check(args: argparse.Namespace) -> int:
     return 0 if overall_pass else 1
 
 
+def cmd_restore(args: argparse.Namespace) -> int:
+    from engine.m1.registry import load_registry, world_keys
+
+    registry = load_registry()
+    keys = [args.world_key] if args.world_key else world_keys(registry)
+    results = [restore_package(k, registry=registry) for k in keys]
+    ok = all(r["restored"] for r in results)
+    print(json.dumps({"pass": ok, "worlds": results}, indent=2))
+    return 0 if ok else 1
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="python -m engine.m2.cli")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -86,7 +97,11 @@ def main(argv: list[str] | None = None) -> int:
     det.add_argument("--compiler-version")
     det.set_defaults(func=cmd_determinism_check)
 
-    stale = sub.add_parser("staleness-check", help="recompile every built/admitted/open world, diff against stored")
+    restore = sub.add_parser("restore", help="rebuild the pinned package(s) from records onto disk - the compiled bytes are not in git")
+    restore.add_argument("world_key", nargs="?", help="omit to restore every world in the registry")
+    restore.set_defaults(func=cmd_restore)
+
+    stale = sub.add_parser("staleness-check", help="recompile every built/admitted/open world, check against its manifest")
     stale.set_defaults(func=cmd_staleness_check)
 
     args = parser.parse_args(argv)

@@ -1,6 +1,0 @@
-id: alx.story.john-young-robber
-canon_cells: F4-I,F6-P
-
-a story Clement told as true tradition about the Apostle John and a young man who fell
-
-Clement told this as a story handed down about John. In a city near Ephesus, the aged apostle entrusted a promising young man to the bishop's care, to be raised in the faith. The bishop taught and baptized him - and then relaxed his watch. The young man fell in with idle companions, then with worse, until at last he ran to the hills and became chief of a band of robbers. Years later John returned and asked the bishop for the deposit he had left. The bishop wept: 'He is dead - dead to God. He is a robber on the mountain.' The old apostle tore his clothes, called for a horse, and rode out to the mountain himself. When the young man saw him he fled; John, forgetting his age, rode after him, crying out: 'Why do you flee from me, child - from your own father, unarmed and old? Pity me. There is still hope of life for you. I will answer for you to Christ. If need be, I will gladly endure your death, as the Lord died for us. Stop. Believe. Christ has sent me.' The young man stopped, threw down his weapons, and wept. John led him back, prayed with him, wrestled beside him in fasting, and did not leave until he had restored him to the church.

@@ -1,6 +1,0 @@
-id: hal.story.paula-epitaph
-canon_cells: F5-I
-
-the life of Paula as her community chose to remember it - the ideal the epitaph teaches, told as ideal
-
-This is how her world remembered Paula. A woman of the oldest blood in Rome, who counted the Gracchi in her line, wife and mother in the greatest style the city knew - widowed at thirty-two, and changed. She wept so hard at her husband's death, the memorial says, that she nearly died of grief; and then she turned that whole ruined love toward God. She dressed plainly, slept on the ground, gave until her stewards protested, and left Rome itself - children on the shore - for a cave-town in Palestine. There she built with her fortune what her discipline had already built in her: houses for monks, for virgins, for strangers on the road. She led her women in psalms and in scripture; she learned Hebrew well enough to chant the psalter in it; she nursed the sick with her own hands; and when she died, bishops carried her, and the poor of the whole countryside came, and she was laid beneath the church of the Lord's birthplace, owing - her memorial boasts - not one coin, and leaving her daughter rich only in faith. That is the ideal. Somewhere inside it was a woman whose own voice was not kept.

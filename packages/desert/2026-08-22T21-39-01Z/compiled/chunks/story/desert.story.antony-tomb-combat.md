@@ -1,6 +1,0 @@
-id: desert.story.antony-tomb-combat
-canon_cells: F4-P
-
-shut in a tomb, beaten by demons in the shape of beasts, and rising each time still standing
-
-The tradition portrays Antony shutting himself inside an abandoned tomb to face what total combat against the interior enemy could mean, carried to its furthest extremity. Demons came to him there in the night, in a crowd, and beat him until he lay on the ground unable to speak. When his friend found him and carried him back to the village to grieve for him as dead, he revived in the night and had himself carried back to the same tomb rather than stay where people could tend him. There the demons came again, now in the shape of wild beasts filling the space around him, and he answered them: if there were any real power in you, one of you would have been enough - the Lord has made you weak, so you come at me in numbers instead; attack if you are able, and if you are not, why trouble me for nothing? At the worst of it, a light broke into the tomb and the pain and the fear left him at once. He asked where the light had been at the start of his struggle, and was told: I was here, but I waited to see your fight through - now that you have endured and were not overcome, I will always be your help.

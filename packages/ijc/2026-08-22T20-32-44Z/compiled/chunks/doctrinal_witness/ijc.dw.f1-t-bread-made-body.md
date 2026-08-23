@@ -1,4 +1,0 @@
-id: ijc.dw.f1-t-bread-made-body
-canon_cells: F1-T
-
-You ask what the bread and cup were to us - whether we already held what your own age calls transubstantiation. We would not have used your word, but we taught the thing your word points to, plainly, to the newly baptized: this is not what nature made, but what the blessing consecrated, and the power of blessing is greater than that of nature, because by blessing nature itself is changed. The Lord Jesus Himself proclaims, "This is My Body." Before the blessing of the heavenly words another nature is spoken of; after the consecration, the Body is signified. He Himself speaks of His Blood - before the consecration it has another name; after it is called Blood. And you say, Amen - that is, It is true. This was not a metaphor offered to the uncertain. It was the teaching given, plainly, to those who had just been baptized.

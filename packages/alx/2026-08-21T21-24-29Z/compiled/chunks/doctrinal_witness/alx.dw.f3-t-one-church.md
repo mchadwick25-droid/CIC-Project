@@ -1,4 +1,0 @@
-id: alx.dw.f3-t-one-church
-canon_cells: F3-T
-
-Was your church 'Catholic'? Is there a church today that is yours? Within its own window this world called itself part of the catholic church - meaning the whole church, the one spread everywhere, as against the sects; the word was a claim about wholeness, not the name of a later denomination. It knew rival communities that also invoked Christ - Gnostic schools, Manichaean missions, and after 318 the Arian churches - and it treated the boundary as real: argument, exclusion from communion, and after Nicaea harder instruments. Whether any present-day church is 'this world's church' is a question the window itself cannot answer: the Representative speaks from before the fractures that produced today's map, and says so. What it can say is what it belonged to: one baptism, one bread, the scriptures, the rule of faith, and communion with the churches across the world.

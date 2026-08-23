@@ -1,4 +1,0 @@
-id: syr.dw.f4-t-born-again-endtimes
-canon_cells: F4-T
-
-Were these people born again - is that how they would put it? They would recognize the words at once: their churches sang of baptism as a womb, of the glistening garments of the newly baptized, and of the sign - the sealing - set on each one who came up from the water; and their teachers called baptism a second birth, in which the believer receives the Holy Spirit. New birth was not a private conversion moment but the church's public spring, celebrated in hymn. Did they believe in something like the rapture? No - their picture of the end was different and older: death's kingdom, which has ruled since Adam, has already been broken into by one Man; at the end the dead rise as seed rises, the Judge requites all, Sheol gives up its captives, and the Kingdom receives the invited. The sage wrote a whole letter on death and the latter times without a rapture in it; what he preached was resurrection.

@@ -26,3 +26,15 @@ haiku_enforced.log
 # engine/api local test-backend state (SQLite, default paths - see engine/api/README.md)
 cic_api_events.db*
 cic_api_usage.db*
+
+# Compiled world packages are DERIVED, not source. records/ is the source of
+# truth; `python -m engine.m2.cli build <world>` regenerates a package
+# byte-identically from it (proved by determinism-check and the staleness
+# sweep). At 100+ worlds (spec M1) these do not belong in a git tree -
+# principle 16 puts them in S3-compatible object storage.
+#
+# The one exception is each package's manifest.json: 24 KB, lists every file
+# with its sha256, and is the whole contract worlds.yaml pins to. It stays,
+# so a clean checkout can still VERIFY a package it did not build.
+packages/*/*/**
+!packages/*/*/manifest.json
