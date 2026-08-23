@@ -592,12 +592,23 @@ appeared. Fixing one thing exposed the next. 7h paid it back.
 - **The fleet floor line and the crisis-resources text** are honest and
   correct but **not yet project-lead-approved participant-facing copy**.
   Flag before any world that opens ships either literal string.
-- **Two dangling cross-references in `engine/m4/evidence.py`**, found while
-  checking this document's own numbering: it cites "spec §4.2:
-  stories/quotes must stay reachable in conversation" and "spec §5.5"
-  (the continuity rule). `Redesign-Spec/CiC-Program-Spec.md` §4.2 is *Step 0
-  — the Question Canon*, and the spec has no §5.x headings at all. The
-  reasoning in those comments is sound and matches the code; only the
-  section numbers are wrong. Left as found — repointing a citation means
-  knowing which section was meant, and guessing is how §0 happened. Same
-  defect class as this document's own absence: a citation is not a source.
+- ~~Two dangling cross-references in `engine/m4/evidence.py`.~~
+  **Checked and closed, 2026-08-23.** One of the two was not dangling and
+  the finding as first written was wrong:
+  - `spec §4.2` (offerability) is **correct**. Its heading reads *Step 0 —
+    the Question Canon*, which is why it looked wrong at a glance, but the
+    section's body carries the sentence the comment paraphrases:
+    "*Offerability is part of coverage: retrieval must make each cell's
+    stories and quotes reachable in conversation, and the audit measures
+    whether they actually arrive.*" Judged by its title instead of read —
+    the same error, in miniature, as trusting a citation without opening it.
+  - `spec §5.5` was a **notation** problem, not a wrong target. §5 is a flat
+    list of seven quality bars with no subsections; bar 5 is Continuity, and
+    says exactly what the comment says it says. Recited as "§5, quality bar
+    5" with the text quoted inline, so the next reader does not have to
+    resolve it at all.
+
+  Worth keeping in the record for the general rule it produced: **check a
+  citation by reading the section, not by matching its number against a
+  table of contents.** A heading is not a section, and an unusual notation
+  is not a broken reference.
