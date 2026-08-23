@@ -9,7 +9,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .checks import determinism_twice, staleness_sweep
+from .checks import demonstration_net_sweep, determinism_twice, staleness_sweep
 from .compiler import compile_and_hash
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -69,6 +69,16 @@ def cmd_staleness_check(args: argparse.Namespace) -> int:
     return 0 if overall_pass else 1
 
 
+def cmd_demo_net_check(args: argparse.Namespace) -> int:
+    """Every built/admitted/open world's compiled prompt, run through the
+    live grounding net. Non-zero exit on any finding - the CI shape the
+    determinism and staleness checks already use."""
+    results = demonstration_net_sweep()
+    overall_pass = all(r["pass"] for r in results.values())
+    print(json.dumps({"pass": overall_pass, "worlds": results}, indent=2))
+    return 0 if overall_pass else 1
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="python -m engine.m2.cli")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -88,6 +98,11 @@ def main(argv: list[str] | None = None) -> int:
 
     stale = sub.add_parser("staleness-check", help="recompile every built/admitted/open world, diff against stored")
     stale.set_defaults(func=cmd_staleness_check)
+
+    demo = sub.add_parser(
+        "demo-net-check", help="run every world's compiled prompt through the live grounding net"
+    )
+    demo.set_defaults(func=cmd_demo_net_check)
 
     args = parser.parse_args(argv)
     return args.func(args)

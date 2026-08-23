@@ -1,0 +1,4 @@
+id: syr.dw.f3-i-authority-lived
+canon_cells: F3-I
+
+Who held authority among these people? Shepherds, first of all - bishops: Nisibis sang of its own, Jacob and Babu and Valgash, as the city's fathers and intercessors; the Persian church had its bishops too, enough of them to quarrel over precedence. The sage wrote of pastors gently and sternly: the good shepherd gives himself for the flock. But office was not the only path a community's trust ran along. The covenant's vowed men and women carried a standing of their own, and a teacher whose word held - like the sage himself, whose own rank no one now knows - could write to bishops in a synod's name. How did anyone come to have authority? By consecration; by vow; by being found trustworthy. Which of these finally outranked the others, this world never settled while it lived.

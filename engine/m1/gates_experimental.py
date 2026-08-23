@@ -143,21 +143,99 @@ def _sentences(text: str) -> list[str]:
     return [s.strip() for s in _SENTENCE_SPLIT.split(text or "") if s.strip()]
 
 
-# An opening quote is a straight single quote at start-of-text or after
-# space/colon/comma/dash; a closing one is followed by space, punctuation,
-# or end. Apostrophes inside words ("God's") match neither. A lone false
-# closer (teachers') can't force a merge because merging only triggers
-# while openers outnumber closers. Shared here (not left as an engine.m4-
-# only concern) because M2's compile-time demonstration tagging needs the
-# identical quote-aware split M4's live net uses - one splitter, owned
-# once, so a demo tagged at compile time and a live turn checked at
-# generation time can never silently disagree about where a sentence ends.
-_QUOTE_OPEN = re.compile(r"(?:^|[\s:,\-(])'(?=\S)")
-_QUOTE_CLOSE = re.compile(r"(?<=\S)'(?=[\s.,;:!?)]|$)")
+# An opening quote is at start-of-text or after space/colon/comma/dash and
+# is followed by a non-space; a closing one follows a non-space and is
+# followed by space, punctuation, or end. Apostrophes inside words ("God's")
+# match neither. A lone false closer (teachers') can't force a merge because
+# merging only triggers while openers outnumber closers. Shared here (not
+# left as an engine.m4-only concern) because M2's compile-time demonstration
+# tagging needs the identical quote-aware split M4's live net uses - one
+# splitter, owned once, so a demo tagged at compile time and a live turn
+# checked at generation time can never silently disagree about where a
+# sentence ends.
+#
+# DOUBLE QUOTES (2026-08-23): for a long time only the straight SINGLE quote
+# was recognised, because that is the convention the records corpus was
+# written in. Two things were wrong with that. The corpus itself already
+# holds 249 paired double-quoted spans (pahc and ijc most of all - real
+# quoted source material), and a live model quotes with " far more readily
+# than with ', whatever the prompt around it does. A double-quoted span was
+# invisible to BOTH things this splitter feeds:
+#
+#   * the merge below never fired, so a sentence split inside the quotation
+#     and orphaned half of it - seen live as `It has made men out of stones,
+#     men out of beasts".` reaching a participant with its own opening
+#     clause ("Clement... called him the New Song:") silently withheld;
+#   * grounding_net's quoted-span check found no spans, so the verbatim
+#     branch - the LENIENT path, the one that exists so framing words around
+#     a real quote can never sink a real quote - was skipped entirely and
+#     the sentence fell through to the ratio floor instead.
+#
+# Handled as families rather than one merged character class so a stray
+# closer of one kind can never cancel a genuine opener of another. Curly
+# DOUBLE quotes are included (they are unambiguous by character alone, so
+# they need no context guard); curly SINGLE quotes are deliberately NOT -
+# U+2019 is overwhelmingly an apostrophe in this corpus, and this module's
+# own v1 postmortem records what apostrophe ambiguity costs.
+_SYMMETRIC_QUOTES = ("'", '"')
+_ASYMMETRIC_QUOTES = (("\u201c", "\u201d"),)
+
+
+def _guarded_quote_pair(char: str) -> tuple[re.Pattern, re.Pattern]:
+    """Open and close patterns for a delimiter that is the SAME character on
+    both sides - position is the only thing that can tell them apart."""
+    q = re.escape(char)
+    return (
+        re.compile(rf"(?:^|[\s:,\-(]){q}(?=\S)"),
+        re.compile(rf"(?<=\S){q}(?=[\s.,;:!?)]|$)"),
+    )
+
+
+_QUOTE_FAMILIES: tuple[tuple[re.Pattern, re.Pattern], ...] = tuple(
+    _guarded_quote_pair(c) for c in _SYMMETRIC_QUOTES
+) + tuple((re.compile(re.escape(o)), re.compile(re.escape(c))) for o, c in _ASYMMETRIC_QUOTES)
+
+# Kept as names because engine.m4.grounding_net has always imported them;
+# they are the straight-single family, which is what every existing caller
+# meant by them.
+_QUOTE_OPEN, _QUOTE_CLOSE = _QUOTE_FAMILIES[0]
 
 
 def _quote_balance(text: str) -> int:
-    return len(_QUOTE_OPEN.findall(text)) - len(_QUOTE_CLOSE.findall(text))
+    """Unclosed openers across all families. Per-family and floored at zero
+    per family, so a stray closer of one kind contributes 0 rather than
+    cancelling a real unclosed opener of another - which preserves, exactly,
+    the "a lone false closer can't force a merge" property the single-family
+    version had."""
+    return sum(
+        max(0, len(open_re.findall(text)) - len(close_re.findall(text)))
+        for open_re, close_re in _QUOTE_FAMILIES
+    )
+
+
+def _quoted_spans(text: str) -> list[str]:
+    """Every quoted span in `text`, walked per family so a single-quoted and
+    a double-quoted span can never be mispaired with each other. A span
+    nested inside another is returned as well as its container; every caller
+    requires ALL spans to be verbatim in a cited record, and a nested span is
+    a substring of its container, so reporting both is stricter, never
+    looser. Owned here rather than in engine.m4.grounding_net (where it used
+    to live) for the same reason the splitter is: M1's gates, M2's demo
+    tagging and M4's live net must agree on where a quotation is, by
+    construction."""
+    spans: list[str] = []
+    for open_re, close_re in _QUOTE_FAMILIES:
+        pos = 0
+        while True:
+            open_m = open_re.search(text, pos)
+            if not open_m:
+                break
+            close_m = close_re.search(text, open_m.end())
+            if not close_m:
+                break
+            spans.append(text[open_m.end() : close_m.start()])
+            pos = close_m.end()
+    return spans
 
 
 def _quote_aware_sentences(text: str) -> list[str]:

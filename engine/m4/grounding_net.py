@@ -51,14 +51,18 @@ import re
 
 from engine.m1.gates_experimental import (
     _GROUNDING_FLOOR,
-    _QUOTE_CLOSE,
-    _QUOTE_OPEN,
     _SCAFFOLD_MARKERS,
     _SELF_NAMING_MARKER,
     _all_text,
     _claim_markers,
     _content_words,
     _quote_aware_sentences,
+    # Quotation-finding moved to the m1 module alongside the splitter that
+    # depends on it (2026-08-23, when double-quoted spans turned out to be
+    # invisible to both). Imported, never re-implemented: this module's
+    # verbatim check and that splitter's merge have to agree on where a
+    # quotation is or a sentence gets cut in half and the orphan withheld.
+    _quoted_spans,
 )
 
 # [[world.type.slug]] - record ids are dotted lowercase tokens; the tag
@@ -70,20 +74,6 @@ _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 def strip_tags(text: str) -> str:
     """The display transform: what the participant-facing stream emits."""
     return re.sub(r"\s*\[\[[a-z0-9_.-]+\]\]", "", text)
-
-
-def _quoted_spans(text: str) -> list[str]:
-    spans = []
-    pos = 0
-    while True:
-        open_m = _QUOTE_OPEN.search(text, pos)
-        if not open_m:
-            return spans
-        close_m = _QUOTE_CLOSE.search(text, open_m.end())
-        if not close_m:
-            return spans
-        spans.append(text[open_m.end() : close_m.start()])
-        pos = close_m.end()
 
 
 def _normalize(text: str) -> str:
