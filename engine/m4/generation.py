@@ -34,7 +34,7 @@ class StreamResult:
     empty: bool  # true when the stream produced zero text - the literal case the crisis-append gate item names
 
 
-def stream_voice_turn(client, model_id: str, *, system_prompt: str, message: str, max_tokens: int = 1024) -> CallOutcome:
+def stream_voice_turn(client, model_id: str, *, system_prompt: str, message: str, turn_directive: str | None = None, max_tokens: int = 1024) -> CallOutcome:
     """Returns a CallOutcome whose .value is a StreamResult on success. A
     stream that completes but yields zero text is still status='ok' (it's a
     real, valid model response, just empty) - StreamResult.empty=True is
@@ -50,10 +50,23 @@ def stream_voice_turn(client, model_id: str, *, system_prompt: str, message: str
     Anthropic's cache-eligibility floor (~1024 tokens for Sonnet-class) to
     actually engage - a short prompt (like the fixture's) legitimately
     shows cache_engaged=False, and that is a different, honest fact from
-    "caching is broken.\""""
+    "caching is broken."
+
+    system_prompt is the stable part (the world's compiled prompt, byte-
+    identical across every turn of a session) and carries the sole
+    cache_control breakpoint. turn_directive is the per-turn part, which
+    changes every turn by definition, and so goes in a SECOND block AFTER
+    that breakpoint, uncached. Concatenating the two into one cached block
+    is what the usage log caught: four consecutive turns of one world
+    wrote ~13,900 cache tokens each and read zero, because the directive's
+    first differing byte invalidated the whole prefix behind it. Splitting
+    them changes nothing the model sees - same bytes, same order - only
+    where the cache boundary falls."""
     try:
         chunks = []
         system = [{"type": "text", "text": system_prompt, "cache_control": {"type": "ephemeral"}}]
+        if turn_directive:
+            system.append({"type": "text", "text": turn_directive})
         with client.messages.stream(
             model=model_id, max_tokens=max_tokens, system=system, messages=[{"role": "user", "content": message}]
         ) as stream:

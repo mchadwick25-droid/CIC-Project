@@ -94,17 +94,29 @@ def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str
     return record_usage(usage=normalized, session_id=session_id, call_kind=call_kind, model_id=model_id)
 
 
-def _build_voice_system_prompt(world: LoadedWorld, directive: Directive | None) -> str:
-    parts = [world.prompt_text]
-    if directive is not None:
-        asks_text = "; ".join(a["text"] for a in directive.asks) if directive.asks else "(none extracted)"
-        parts.append(f"\n## This turn's private directive (never shown to the participant)\nAsks, in order: {asks_text}")
-        if directive.register_note:
-            parts.append(f"Register note: {directive.register_note}")
-        if directive.suspend_register_statement_1:
-            parts.append("Register statement 1 is suspended this turn (witness-before-answer licensed).")
-        if directive.ambiguity_options:
-            parts.append(f"Ambiguity options to offer: {', '.join(directive.ambiguity_options)}")
+def _build_turn_directive(directive: Directive | None) -> str | None:
+    """The per-turn half of the voice's system prompt, on its own - the
+    world's compiled prompt is passed separately and unmodified, so that it
+    stays byte-identical across a session and the cache prefix actually
+    holds (see stream_voice_turn's docstring). This text changes every
+    turn, so it must never be concatenated onto the cached half.
+
+    Returns None when there is no directive (the crisis path), which leaves
+    the call with the world prompt alone - exactly what it sent before."""
+    if directive is None:
+        return None
+    asks_text = "; ".join(a["text"] for a in directive.asks) if directive.asks else "(none extracted)"
+    # The leading newline is kept from when this text was concatenated onto
+    # the world prompt: system blocks are joined with no separator of their
+    # own, so dropping it would run the heading onto the prompt's last line.
+    # The model must see exactly the bytes it saw before this split.
+    parts = [f"\n## This turn's private directive (never shown to the participant)\nAsks, in order: {asks_text}"]
+    if directive.register_note:
+        parts.append(f"Register note: {directive.register_note}")
+    if directive.suspend_register_statement_1:
+        parts.append("Register statement 1 is suspended this turn (witness-before-answer licensed).")
+    if directive.ambiguity_options:
+        parts.append(f"Ambiguity options to offer: {', '.join(directive.ambiguity_options)}")
     return "\n".join(parts)
 
 
@@ -166,8 +178,9 @@ def _run_ordinary_voice_turn(
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
 
-    system_prompt = _build_voice_system_prompt(world, directive)
-    stream_outcome = stream_voice_turn(voice_client, voice_model_id, system_prompt=system_prompt, message=user_message)
+    stream_outcome = stream_voice_turn(
+        voice_client, voice_model_id, system_prompt=world.prompt_text, turn_directive=_build_turn_directive(directive), message=user_message
+    )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
     if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id):
@@ -259,8 +272,7 @@ def run_turn(
             # The voice may still offer its world's empathy (Program-Spec SS8)
             # while safety governs the turn - but the crisis-resources append
             # below never depends on whether this call even produced text.
-            system_prompt = _build_voice_system_prompt(world, None)
-            stream_outcome = stream_voice_turn(voice_client, voice_model_id, system_prompt=system_prompt, message=participant_message)
+            stream_outcome = stream_voice_turn(voice_client, voice_model_id, system_prompt=world.prompt_text, message=participant_message)
             if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation_crisis", model_id=voice_model_id):
                 usage_records.append(rec)
             if stream_outcome.status == "ok":
