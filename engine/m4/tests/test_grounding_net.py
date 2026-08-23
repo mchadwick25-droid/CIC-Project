@@ -142,3 +142,71 @@ def test_scope_completion_never_returns_the_seed_itself():
     gravity_a = {"id": "fix.gravity.a", "record_type": "gravity", "relations": [{"type": "tension-with", "target": "fix.gravity.a"}]}
     records = {gravity_a["id"]: gravity_a}
     assert scope_completion(["fix.gravity.a"], records) == []
+
+
+# ---------------------------------------------------------------------------
+# Double-quoted spans.
+#
+# For a long time only the straight SINGLE quote was recognised, because that
+# is the convention the records corpus was written in. A live model quotes
+# with " far more readily, whatever the prompt around it does - and the
+# corpus itself already held 249 paired double-quoted spans. Every test above
+# this line uses ' and so passed throughout.
+# ---------------------------------------------------------------------------
+from engine.m1.gates_experimental import _quoted_spans
+
+
+def test_double_quoted_span_is_found_at_all():
+    """The precondition for everything below: a double-quoted span used to
+    return no spans whatsoever, so the verbatim branch never ran."""
+    assert _quoted_spans('He said: "Behold the might of the new song."') == [
+        "Behold the might of the new song."
+    ]
+
+
+def test_double_quoted_verbatim_quote_correctly_tagged_passes():
+    """The verbatim branch is the LENIENT path - it exists so framing words
+    around a real quote can never sink a real quote. With no span found, a
+    double-quoted sentence skipped it and fell through to the ratio floor
+    instead, which is a bar a short quote with long framing routinely
+    misses."""
+    text = 'As it was sung, "Behold the might of the new song! It has made men out of stones, men out of beasts." [[fix.quote.new-song]]'
+    result = check_turn(text, REPOSITORY)
+    assert result["sentences"][0]["verdict"] == "ok"
+    assert "verbatim" in result["sentences"][0]["why"]
+
+
+def test_coined_double_quoted_words_under_a_real_tag_are_still_withheld():
+    """Recognising " must not become a way to smuggle invented words past
+    the check - the same rule applies, it just applies at all now."""
+    text = 'As it was sung, "Behold the wonder of the ancient hymn, made new for us." [[fix.quote.new-song]]'
+    assert check_turn(text, REPOSITORY)["sentences"][0]["verdict"] == "withhold"
+
+
+def test_double_quote_split_across_a_sentence_boundary_is_remerged():
+    """The defect as a participant met it. The naive splitter broke after
+    "new song!", orphaning `It has made men out of stones, men out of
+    beasts".` - which then reached a participant on its own while its
+    opening clause ("Clement... called him the New Song:") was silently
+    withheld for having no tag. Seen live, 2026-08-23, alx, "Who was Jesus
+    to your people?\""""
+    text = 'Clement called him the New Song: "Behold the might of the new song! It has made men out of stones, men out of beasts." [[fix.quote.new-song]]'
+    parsed = parse_tagged(text)
+    assert len(parsed) == 1
+    assert parsed[0]["tags"] == ["fix.quote.new-song"]
+    assert check_turn(text, REPOSITORY)["sentences"][0]["verdict"] == "ok"
+
+
+def test_an_apostrophe_is_still_never_a_quote():
+    """The regression the single-quote guards exist for, re-asserted now
+    that there are more families to get wrong."""
+    assert _quoted_spans("God's own Word, and the teachers' own work") == []
+
+
+def test_a_double_quoted_span_nested_in_a_single_quoted_one_pairs_within_its_own_family():
+    """Walked per family, so a ' opener can never be closed by a " - and the
+    nested span is reported alongside its container, which is stricter (both
+    must be verbatim), never looser."""
+    spans = _quoted_spans("""He wrote: 'the one they called "the Physician" healed us.'""")
+    assert 'the one they called "the Physician" healed us.' in spans
+    assert "the Physician" in spans

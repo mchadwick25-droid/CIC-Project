@@ -251,3 +251,26 @@ def test_a_placeholder_with_no_real_substitute_is_dropped_not_shipped():
     # one real id fills the first placeholder; the second has nothing left
     # to point at that isn't a duplicate, so it is dropped
     assert contract.count("[[fix.witness.who-is-jesus]]") == 1
+
+
+def test_a_double_quoted_sentence_is_tagged_to_its_quote_record_too():
+    """The compiler's quote-holder preference reads spans through the same
+    splitter the net does. While that splitter saw only ' , a demo quoting
+    with " got no quote-holder treatment at all and fell back to lexical
+    ranking - which is exactly what hands a quote to a paraphrase."""
+    sentence = 'He answered them: "we did not claim to have seen him ourselves".'
+    candidates = _demonstration_candidates(QUOTE_REPOSITORY, DEMO)
+    tagged = _tag_representative_text(sentence, candidates, QUOTE_REPOSITORY)
+    assert "[[fix.quote.seen-him]]" in tagged
+    assert "[[fix.witness.paraphrase]]" not in tagged
+    assert [v["verdict"] for v in check_turn(tagged, QUOTE_REPOSITORY)["sentences"]] == ["ok"]
+
+
+def test_a_double_quote_spanning_a_sentence_boundary_gets_one_tag_not_two():
+    """The compiler tags per quote-aware sentence. If the splitter breaks
+    inside a double-quoted span, the compiler tags two half-sentences and
+    the net then judges each half on its own - the compile-time twin of the
+    orphaning seen live."""
+    sentence = 'He told them: "we did not claim to have seen him ourselves. We claimed only what we were told".'
+    tagged = _tag_representative_text(sentence, [], QUOTE_REPOSITORY)
+    assert tagged.count("[[") == 1

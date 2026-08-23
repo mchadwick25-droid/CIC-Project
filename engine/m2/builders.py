@@ -7,14 +7,19 @@ compiler.py, so it doesn't have to be threaded through every function here.
 import hashlib
 
 from engine.m1 import canon
-from engine.m1.gates_experimental import _GROUNDING_FLOOR, _content_words, _quote_aware_sentences
+from engine.m1.gates_experimental import (
+    _GROUNDING_FLOOR,
+    _content_words,
+    _quote_aware_sentences,
+    _quoted_spans,
+)
 # The compiler tags demonstrations against the LIVE net's own quote rule,
 # imported rather than reimplemented. engine.m4.grounding_net depends only on
 # `re` and engine.m1.gates_experimental (no m2, no m4 siblings), so this is a
 # leaf import, not a compiler->runtime cycle. Copying the check here instead
 # would defeat the point: the two must agree BY CONSTRUCTION, because a demo
 # tagged one way and checked another is exactly the defect it exists to stop.
-from engine.m4.grounding_net import _quoted_spans, _span_in_records
+from engine.m4.grounding_net import _span_in_records
 
 from .canonical import canonical_json
 
