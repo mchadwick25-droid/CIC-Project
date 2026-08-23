@@ -30,11 +30,34 @@ it actually gates. See their comment below.
 import re
 
 
+# Keys whose string values are structure, not prose. all_text() is
+# deliberately generic - it walks every string in a record so it works across
+# every record type without a per-type field map - and the cost of that is
+# this list: anything NOT named here is treated as something the world said.
+#
+# The four identifier keys at the end were missing, and they were not inert.
+# A dotted id tokenizes into ordinary words: alx.source.origen-philocalia
+# becomes {alx, source, origen, philocalia}. So
+# alx.gravity.scripture-formative "contained" the words origen, clement and
+# athanasius purely because it CITES sources with those names - and a
+# sentence naming Origen scored as grounded in a record that says nothing
+# about him. Measured across the six worlds: 4,203 of 83,511 content words
+# (5.0%) came from identifiers alone, and 518 of those 548 distinct tokens
+# also occur in real prose, so they collide rather than sitting harmlessly
+# unmatched.
+#
+# This reaches every lexical score in the system - grounding_ratio's cited
+# side, overlap_coefficient, the M1 cell keyword corpus, M2's demonstration
+# tagging and M4's Stage B ranking all read all_text().
+#
+# retrieval hints (retrieve_when / do_not_retrieve_when) are deliberately NOT
+# here: those were authored to be matched on.
 _NON_PROSE_KEYS = {
     "id", "world_id", "record_type", "schema_version", "status", "register",
     "_path", "_body", "world_word", "license", "narrative_tier",
     "formation_claim_barred", "citation_specificity", "verification_state",
     "evidentiary_weight", "formation_confidence",
+    "canon_cells", "source_id", "target", "canon_question_id",
 }
 
 
