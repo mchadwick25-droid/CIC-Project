@@ -1,4 +1,0 @@
-id: pahc.witness.outsider-view
-canon_cells: F3-E
-
-We can't tell you about hiding in catacombs. No grave or building from our own time can be shown to be ours. The tunnels you may be picturing belong to people who came generations after us. We can't tell you whether Constantine corrupted anything either. He reigned more than a hundred years after our own record ends. He is simply not part of our story. What we can give you is a real outsider's account. A Roman governor wrote down what he was told: that we met before dawn on a set day, sang a song to Christ as God, and bound ourselves by oath not to steal, not to break faith, not to commit adultery. Later, he was told, we met again for a meal - one his own informants called, in his own recorded words, common yet harmless. He did not see any of this himself; he wrote down what people told him. Some of what he learned came from two enslaved women he had tortured to get it. Call it an honest account, not a kind one.
