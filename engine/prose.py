@@ -22,10 +22,10 @@ They are load-bearing, so they are public, named plainly, and live in a
 file whose name does not tell a reader they are experimental. The split is
 a move: not one character of behaviour changed with it.
 
-GROUNDING_FLOOR is used in two unrelated places and this is worth knowing
-before changing it: engine.m2.builders decides at compile time whether a
-demonstration sentence earns a citation tag, and engine.m4.grounding_net
-decides at run time whether a sentence is grounded. One number, two jobs.
+One constant, GROUNDING_FLOOR, was doing two unrelated jobs on two
+different metrics. It is now DEMONSTRATION_TAG_FLOOR and WITHHOLD_FLOOR -
+same value, separately settable, each documented against the measurement
+it actually gates. See their comment below.
 """
 import re
 
@@ -184,12 +184,29 @@ SPELLED_NUMBERS = {
 
 _DIGIT = re.compile(r"\b\d+\b")
 
-# grounding ratio below which a specific claim counts as ungrounded. Chosen
-# empirically (see the test run this was calibrated against): high enough
-# that a real quoted/cited sentence (which shares most of its own words with
-# the source it's quoting) clears it easily, low enough that a sentence
-# built mostly from words with no citation behind them does not.
-GROUNDING_FLOOR = 0.4
+# Two floors, one number, and they were a single constant until now. They
+# are separated because they are not even the same measurement:
+#
+#   DEMONSTRATION_TAG_FLOOR  engine.m2.builders, compile time. Scores an
+#                            overlap coefficient - shared words over the
+#                            SMALLER of the sentence and the candidate
+#                            record. Decides whether a demonstration
+#                            sentence earns a citation tag baked into the
+#                            package.
+#   WITHHOLD_FLOOR           engine.m4.grounding_net, run time. Scores a
+#                            grounding ratio - shared words over the
+#                            SENTENCE'S OWN length. Decides whether a
+#                            sentence a Representative just produced
+#                            reaches the participant at all.
+#
+# Different denominators mean 0.4 does not mean the same thing on both
+# sides, so one number governing both was a coincidence of authorship, not
+# a shared decision. Both are 0.4 today, which is where they were before
+# the split - nothing moved, and moving either one needs its own
+# measurement (Program-Spec principle 10: measured, not asserted). Neither
+# has a baseline behind it yet; the value was chosen by eye.
+DEMONSTRATION_TAG_FLOOR = 0.4
+WITHHOLD_FLOOR = 0.4
 
 
 # Capitalized by religious convention, not because they name a specific,

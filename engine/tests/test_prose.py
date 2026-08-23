@@ -261,3 +261,44 @@ def test_the_ratio_is_over_the_sentence_own_length():
     # four content words - "went" is not a stopword - and two are cited
     assert prose.content_words(sentence) == {"antony", "went", "desert", "pray"}
     assert prose.grounding_ratio(sentence, {"antony", "desert"}) == pytest.approx(0.5)
+
+
+# ------------------------------------------------------------- the floors
+
+def test_the_two_floors_are_separately_settable():
+    """They were one constant, GROUNDING_FLOOR, until the split. Same value
+    today; the point is that moving one no longer moves the other."""
+    assert prose.DEMONSTRATION_TAG_FLOOR == 0.4
+    assert prose.WITHHOLD_FLOOR == 0.4
+
+
+def test_the_two_floors_gate_different_measurements():
+    """Why one number could not honestly serve both. The compile-time side
+    divides by the SMALLER of sentence and record; the run-time side
+    divides by the SENTENCE'S OWN length. Here is a case that clears one
+    floor and fails the other on identical inputs: a long sentence whose
+    every shared word comes from a short record scores 1.00 at compile time
+    and 0.33 at run time. Same 0.4, opposite verdicts."""
+    sentence = "Antony withdrew alone into the inner desert to pray and fast for many years."
+    record = {"text": "Antony withdrew alone"}
+
+    compile_side = prose.overlap_coefficient(prose.content_words(sentence), record)
+    run_side = prose.grounding_ratio(sentence, prose.content_words(prose.all_text(record)))
+
+    assert compile_side == 1.0
+    assert run_side == pytest.approx(1 / 3)
+    assert compile_side >= prose.DEMONSTRATION_TAG_FLOOR
+    assert run_side < prose.WITHHOLD_FLOOR
+
+
+def test_the_runtime_net_uses_the_shared_ratio_not_its_own_copy():
+    """grounding_net.py carried a second, identical implementation of
+    grounding_ratio inline. One formula, owned once - otherwise the tests
+    above pin a function the live path does not call."""
+    import inspect
+
+    from engine.m4 import grounding_net
+
+    source = inspect.getsource(grounding_net.check_turn)
+    assert "grounding_ratio(text, cited_words)" in source
+    assert "/ len(words)" not in source

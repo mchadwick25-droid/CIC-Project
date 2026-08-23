@@ -7,7 +7,7 @@ compiler.py, so it doesn't have to be threaded through every function here.
 import hashlib
 
 from engine.m1 import canon
-from engine.prose import GROUNDING_FLOOR, content_words, quote_aware_sentences
+from engine.prose import DEMONSTRATION_TAG_FLOOR, content_words, quote_aware_sentences
 
 from .canonical import canonical_json
 
@@ -188,7 +188,7 @@ def _tag_representative_text(text: str, candidates: list[dict]) -> str:
             ratio = len(shared) / min(len(words), len(record_words))
             if ratio > best_ratio:
                 best_ratio, best_id, best_shared = ratio, record_id, len(shared)
-        if best_id and best_ratio >= GROUNDING_FLOOR and best_shared >= _MIN_SHARED_WORDS:
+        if best_id and best_ratio >= DEMONSTRATION_TAG_FLOOR and best_shared >= _MIN_SHARED_WORDS:
             # BEFORE the terminal punctuation, per the citation contract's own
             # words: "so a sentence-boundary split can never break inside one."
             # engine.m4.grounding_net splits on (?<=[.!?])\s+, so a tag after
