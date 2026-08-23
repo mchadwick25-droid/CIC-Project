@@ -34,7 +34,10 @@ class StreamResult:
     empty: bool  # true when the stream produced zero text - the literal case the crisis-append gate item names
 
 
-def stream_voice_turn(client, model_id: str, *, system_prompt: str, message: str, turn_directive: str | None = None, max_tokens: int = 1024) -> CallOutcome:
+def stream_voice_turn(
+    client, model_id: str, *, system_prompt: str, message: str, turn_directive: str | None = None,
+    history: list[dict] | None = None, max_tokens: int = 1024,
+) -> CallOutcome:
     """Returns a CallOutcome whose .value is a StreamResult on success. A
     stream that completes but yields zero text is still status='ok' (it's a
     real, valid model response, just empty) - StreamResult.empty=True is
@@ -61,14 +64,21 @@ def stream_voice_turn(client, model_id: str, *, system_prompt: str, message: str
     wrote ~13,900 cache tokens each and read zero, because the directive's
     first differing byte invalidated the whole prefix behind it. Splitting
     them changes nothing the model sees - same bytes, same order - only
-    where the cache boundary falls."""
+    where the cache boundary falls.
+
+    history is the session so far, oldest first, as Messages-API turns -
+    Program-Spec M4's "full-session memory", which until now was simply
+    absent: every turn was sent as a single user message and the voice had
+    never heard the last thing it said. It rides in `messages`, after the
+    cached system prefix, so a growing conversation never disturbs the
+    world prompt's cache entry."""
     try:
         chunks = []
         system = [{"type": "text", "text": system_prompt, "cache_control": {"type": "ephemeral"}}]
         if turn_directive:
             system.append({"type": "text", "text": turn_directive})
         with client.messages.stream(
-            model=model_id, max_tokens=max_tokens, system=system, messages=[{"role": "user", "content": message}]
+            model=model_id, max_tokens=max_tokens, system=system, messages=[*(history or []), {"role": "user", "content": message}]
         ) as stream:
             for text in stream.text_stream:
                 chunks.append(text)

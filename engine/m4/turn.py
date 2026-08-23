@@ -162,6 +162,7 @@ def _run_ordinary_voice_turn(
     directive: Directive | None,
     session_id: str,
     already_told_ids: set[str] | None = None,
+    history: list[dict] | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
@@ -191,7 +192,8 @@ def _run_ordinary_voice_turn(
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
 
     stream_outcome = stream_voice_turn(
-        voice_client, voice_model_id, system_prompt=world.prompt_text, turn_directive=_build_turn_directive(directive), message=user_message
+        voice_client, voice_model_id, system_prompt=world.prompt_text,
+        turn_directive=_build_turn_directive(directive), message=user_message, history=history,
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
@@ -243,6 +245,7 @@ def run_turn(
     anachronistic_term_ids: set,
     force_empty_stream: bool = False,
     already_told_ids: set[str] | None = None,
+    history: list[dict] | None = None,
 ) -> TurnResult:
     """force_empty_stream is a TEST/EVIDENCE HOOK ONLY - it lets the empty-
     stream crisis-append case be exercised deterministically (a real model
@@ -329,6 +332,7 @@ def run_turn(
             directive=gate_result.routing.directive,
             session_id=session_id,
             already_told_ids=already_told_ids,
+            history=history,
         )
         return TurnResult(
             routing_action=action,
