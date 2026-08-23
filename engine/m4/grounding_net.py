@@ -219,8 +219,42 @@ def check_turn(
         markers = claim_markers(text)
         if not markers and figure_names & content_words(text):
             markers = [f"figure-name:{sorted(figure_names & content_words(text))}"]
+        cited_words: set[str] = set()
+        for rec in tagged_records:
+            cited_words |= content_words(all_text(rec))
+
         if not markers:
-            entry["why"] = "no checkable claim - interpretive/connective framing"
+            if not tags:
+                entry["why"] = "no checkable claim - interpretive/connective framing"
+                continue
+            # THE TAG IS THE CLAIM. claim_markers only sees a proper noun, a
+            # number, or a repeated phrase, and over 36 live turns that left
+            # 242 of 388 sentences unexamined - the citation contract reads
+            # as a guarantee over the turn and was a guarantee over the third
+            # of it that happened to name someone or count something.
+            #
+            # 192 of those unexamined sentences carried a tag. A tag is the
+            # voice asserting THIS SENTENCE CAME FROM THAT RECORD, which is
+            # checkable by definition, and the net was throwing that
+            # assertion away. Honouring it takes the examined share from 32%
+            # to 78% without inventing a marker.
+            #
+            # Gated on overlap, NOT on grounding_floor. That floor was
+            # calibrated on name-and-number sentences, which sit lexically
+            # close to their source; applied to this population it strips
+            # roughly 29 legitimate citations to catch 10 over-tags -
+            # "Origen's interpretations mattered because he could show his
+            # work" scores 29% and is a real claim, penalised for being long.
+            # Zero shared words is the one line here that is not a chosen
+            # number: a citation to a record with which the sentence shares
+            # not one content word asserts nothing. Seven of the 192 were
+            # that, every one framing - "That is what mattered most." tagged
+            # to hal.gravity.hebraica-veritas.
+            if content_words(text) & cited_words:
+                entry["why"] = "tagged claim, shares ground with its own records"
+                continue
+            entry["verdict"] = "withhold"
+            entry["why"] = "tagged claim sharing no content word with its own tagged records"
             continue
 
         if not tags:
@@ -228,9 +262,6 @@ def check_turn(
             entry["why"] = f"specific claim ({', '.join(markers)}) with no citation tag"
             continue
 
-        cited_words: set[str] = set()
-        for rec in tagged_records:
-            cited_words |= content_words(all_text(rec))
         # the shared implementation, not a second copy of the same formula
         ratio = grounding_ratio(text, cited_words)
         entry["ratio"] = round(ratio, 2)
