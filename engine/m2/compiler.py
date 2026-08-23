@@ -10,7 +10,7 @@ from pathlib import Path
 
 from engine.m1.loader import REPO_ROOT as RECORDS_REPO_ROOT
 from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records
-from engine.m1.registry import get_world, load_registry
+from engine.m1.registry import get_world, is_fixture, load_registry
 
 from . import builders, validation
 from .canonical import canonical_json
@@ -102,7 +102,7 @@ def compile_world(
     validation_files = {
         "validation/gates-report.json": validation.build_gates_report(records, fleet, registry),
         "validation/admission/results.json": validation.build_admission_results(world_key),
-        "validation/signoffs.json": validation.build_signoffs(world_key),
+        "validation/signoffs.json": validation.build_signoffs(world_key, is_fixture=is_fixture(registry_entry)),
     }
 
     frozen_records = _frozen_records_copy(world_key, records, records_root=records_root)
