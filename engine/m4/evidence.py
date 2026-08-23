@@ -264,16 +264,9 @@ def thin_topic_riders(*, message: str, asks: list[dict] | None, selected: list[d
 
 def apply_session_exclusion(*, selected: list[dict], already_told_ids: set[str] | list[str] | None) -> list[dict]:
     """Stage E (design §3.2): story/quote ids already told this session are
-    annotated, never dropped - the continuity rule (spec §5, quality bar 5:
-    "no repeated story/quote/term within a session absent an explicit
-    request; no invented callbacks") is about repetition, and a follow-up
-    about an already-told story needs the model to still see it, just
-    marked as already offered.
-
-    Cited as "bar 5" rather than "§5.5": §5 is a flat list of seven quality
-    bars with no subsections, so "§5.5" read as a section number that does
-    not exist. The reference was always right about WHERE - only the
-    notation implied a heading."""
+    annotated, never dropped - the continuity rule (spec §5.5) is about
+    repetition, and a follow-up about an already-told story needs the
+    model to still see it, just marked as already offered."""
     if not already_told_ids:
         return selected
     told = set(already_told_ids)

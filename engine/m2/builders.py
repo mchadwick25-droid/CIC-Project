@@ -5,26 +5,9 @@ out, no wall clock, no randomness, no network. Content-only; the
 compiler.py, so it doesn't have to be threaded through every function here.
 """
 import hashlib
-from typing import NamedTuple
 
 from engine.m1 import canon
-from engine.m1.gates_experimental import (
-    _GROUNDING_FLOOR,
-    _SCAFFOLD_MARKERS,
-    _SELF_NAMING_MARKER,
-    _all_text,
-    _claim_markers,
-    _content_words,
-    _quote_aware_sentences,
-    _quoted_spans,
-)
-# The compiler tags demonstrations against the LIVE net's own quote rule,
-# imported rather than reimplemented. engine.m4.grounding_net depends only on
-# `re` and engine.m1.gates_experimental (no m2, no m4 siblings), so this is a
-# leaf import, not a compiler->runtime cycle. Copying the check here instead
-# would defeat the point: the two must agree BY CONSTRUCTION, because a demo
-# tagged one way and checked another is exactly the defect it exists to stop.
-from engine.m4.grounding_net import _span_in_records, build_figure_lexicon
+from engine.m1.gates_experimental import _GROUNDING_FLOOR, _content_words, _quote_aware_sentences
 
 from .canonical import canonical_json
 
@@ -57,56 +40,29 @@ def _fleet_voice_record(fleet: dict) -> dict | None:
     return _one(fleet, "fleet_voice")
 
 
-# The citation contract's worked example ships two PLACEHOLDER ids -
-# `world.term.example` / `world.gravity.example` - and the fleet record's own
-# trailing body says so plainly: they exist "only so `citation_contract` is a
-# complete, self-explanatory paragraph on its own - never the line a model is
-# actually shown", with the per-world substitution named there as still-open
-# M2 compiler work. It was never implemented, so all seven packages shipped
-# the literal token `world` into live model input. A model reads that as the
-# namespace and emits `world.story.pliny-interrogation`,
-# `world.term.hesychia` - correct shape, no such record - and every sentence
-# so tagged is withheld as an unresolvable id. Measured live 2026-08-23: 46%
-# of all emitted tags were this one substitution, and one desert turn on
-# prayer was annihilated whole, the participant told the world had no
-# grounded material on prayer.
-#
-# Filled from the world's own records, exactly as `{world}` in pronoun_rule
-# is already filled from the world's own registry entry - mechanical,
-# deterministic (lowest sorted id of the matching type), never a hand-written
-# per-world phrase. Principle 3 holds: this substitutes real ids into record-
-# authored prose, it does not let the compiler author prompt content.
-_EXAMPLE_PLACEHOLDERS = ("world.term.example", "world.gravity.example")
-
-
-def _example_record_id(records: dict, preferred_type: str) -> str | None:
-    """Lowest sorted id of `preferred_type`; failing that, of any citable
-    record. A demonstration is never citable ground, so it is excluded."""
-    for wanted in (preferred_type, None):
-        ids = sorted(
-            record["id"]
-            for record in records.values()
-            if record.get("record_type") != "demonstration"
-            and (wanted is None or record.get("record_type") == wanted)
-        )
-        if ids:
-            return ids[0]
-    return None
-
-
+# The citation contract's worked example ships PLACEHOLDER ids, and the fleet
+# record says so itself: they exist "only so citation_contract is a complete,
+# self-explanatory paragraph on its own - never the line a model is actually
+# shown", with the per-world substitution named there as open M2 work. It was
+# never implemented, so all seven packages shipped the literal token `world`
+# into live model input - and a model reads that as the namespace, emitting
+# world.story.pliny-interrogation, world.term.hesychia: right shape, no such
+# record, sentence withheld. Filled from the world's own records, exactly as
+# `{world}` in pronoun_rule already is.
 def _fill_citation_example(contract: str, records: dict) -> str:
-    """Substitutes each placeholder id for a real one from this world's own
-    corpus. A placeholder with no substitute available is dropped from the
-    example rather than shipped: an absent second tag still reads as a
-    correct worked line, an unresolvable one teaches a fabrication."""
-    for placeholder in _EXAMPLE_PLACEHOLDERS:
+    for placeholder in ("world.term.example", "world.gravity.example"):
         if f"[[{placeholder}]]" not in contract:
             continue
-        real = _example_record_id(records, placeholder.split(".")[1])
-        if real and f"[[{real}]]" not in contract:
-            contract = contract.replace(f"[[{placeholder}]]", f"[[{real}]]")
-        else:
-            contract = contract.replace(f" [[{placeholder}]]", "").replace(f"[[{placeholder}]]", "")
+        wanted = placeholder.split(".")[1]
+        ids = sorted(r["id"] for r in records.values() if r.get("record_type") == wanted) or sorted(
+            r["id"] for r in records.values() if r.get("record_type") != "demonstration"
+        )
+        real = next((i for i in ids if f"[[{i}]]" not in contract), None)
+        # A placeholder with no substitute is dropped, never shipped: an absent
+        # second tag still reads as a correct worked line; an unresolvable one
+        # teaches a fabrication.
+        contract = (contract.replace(f"[[{placeholder}]]", f"[[{real}]]") if real
+                    else contract.replace(f" [[{placeholder}]]", "").replace(f"[[{placeholder}]]", ""))
     return contract
 
 
@@ -178,243 +134,73 @@ def _demonstration_candidates(records: dict, demo: dict) -> list[dict]:
     return list(seen.values())
 
 
-# _candidate_head_text() and _MIN_SHARED_WORDS lived here until 2026-08-23.
-# Both belonged to the narrower compile-time bar the §9.7 ruling replaced:
-# head-text-only scoring, plus a two-shared-word guard, to keep a short demo
-# sentence from clearing the floor on incidental overlap with a large
-# record's uncompiled provenance prose. That reasoning was sound and is kept
-# in LIVE-GENERATION-DESIGN.md §9.7 ruling 7d along with what it cost - the
-# net scores over the whole record and does not scope by cell, so the two
-# bars composed into deleting 20 true, sourced sentences. Deleted rather
-# than left unreferenced: dead code that still has a passing test reads as a
-# live guard, and this file has now caused one failure of exactly that kind.
+def _candidate_head_text(record: dict) -> str:
+    """The same compiled-facing text this record contributes elsewhere in
+    build_prompt/build_chunks - never the trailing analytical/provenance
+    body. Scoring against the FULL record (engine.m1.gates_experimental's
+    own _all_text, what _overlap_coefficient and the live net's own ratio
+    check both use) is fine for ranking already-cell-scoped candidates
+    (engine.m4.evidence's job - a slightly imprecise ranking there never
+    asserts a false citation) but proved too permissive here on real data:
+    a short demo sentence can share 2 merely-common words with a large
+    record's own review/history prose and clear the floor by coincidence.
+    Demo tags ARE asserted ground truth in the compiled prompt's own
+    highest-leverage teaching surface, so scoring is scoped tighter here,
+    on purpose, to exactly what a participant (or a live model reading its
+    own prompt) would ever actually see this record say."""
+    record_type = record.get("record_type")
+    if record_type == "term":
+        return " ".join(filter(None, [record.get("plain_meaning"), record.get("quick_meaning")]))
+    if record_type == "story":
+        return " ".join(filter(None, [record.get("tellable_as"), record.get("text")]))
+    if record_type in ("quote", "doctrinal_witness"):
+        return record.get("text") or ""
+    if record_type == "honest_limit":
+        return record.get("statement") or ""
+    if record_type in ("gravity", "force"):
+        return record.get("description") or ""
+    if record_type == "contested_claim":
+        return record.get("claim") or ""
+    return ""
 
 
-# The citation contract's own words: tags go "before the terminal
-# punctuation... so a sentence-boundary split can never break inside one."
-# That is not a stylistic preference - engine.m4.grounding_net.parse_tagged
-# splits on _SENTENCE_SPLIT (?<=[.!?])\s+, so a tag emitted AFTER the final
-# stop is carried into the NEXT sentence and grounds the wrong claim, while
-# the sentence it was meant for is left untagged and withheld outright. The
-# first substantive claim of every turn is the one that loses its tag that
-# way, and the two memorable lines of an answer are usually quotes, so the
-# quotes are what a participant stops seeing. Found live, 2026-08-23, at 36%
-# of generated sentences withheld; and the compiled demonstrations are also
-# what teaches a live model where to put its own tags, so this one character
-# of placement propagates straight into generation.
-_TERMINAL_PUNCTUATION = ".!?"
+# A ratio floor alone can be cleared by a short sentence sharing just one
+# or two very common words with a large candidate's own head text (found
+# against real data: a 5-word martyrdom sentence scored 40% against an
+# unrelated term purely on "name"/"cost" overlap in the term's own head
+# text). Requiring at least this many REAL shared words too is a second,
+# independent gate a coincidence can't clear by ratio alone - the same
+# belt-and-suspenders discipline grounding_net's own quote-verbatim check
+# uses (a ratio pass never overrides a structural check).
+_MIN_SHARED_WORDS = 2
 
 
-def _insert_tag(sentence: str, tag: str) -> str:
-    """Place `tag` immediately before the sentence's final terminal
-    punctuation mark - the placement the contract specifies and the live
-    splitter requires. A sentence with no terminal punctuation at all (a
-    trailing fragment) gets the tag appended; there is no split for it to
-    fall across."""
-    cut = max((sentence.rfind(mark) for mark in _TERMINAL_PUNCTUATION), default=-1)
-    if cut < 0:
-        return f"{sentence} {tag}"
-    return f"{sentence[:cut]} {tag}{sentence[cut:]}"
-
-
-def _quote_holders(sentence: str, index: "_TaggingIndex") -> list[str] | None:
-    """The record id(s) that hold this sentence's quoted words verbatim, or
-    None if any span is held by nothing in the package.
-
-    A sentence carrying a quoted span is judged by the live net on ONE
-    structural rule, not on ratio: every quoted span must appear verbatim in
-    the union of the records the sentence cites (grounding_net.check_turn's
-    quoted-span branch). Lexical overlap is the wrong instrument for that - a
-    record that PARAPHRASES a quote routinely out-scores the record that
-    actually holds it, so a ranked-best tag names a record the net then
-    rejects and the quote is withheld. Found in the compiled demos: hal's
-    Ciceronian-dream quote tagged to a paraphrasing doctrinal_witness while
-    hal.quote.dream-follower-of-cicero, holding it verbatim, sat unused in
-    the same package.
-
-    Resolved PER SPAN and returned as a list, because the net's own rule is
-    over the union of the cited records, not over any single one - the
-    citation contract says "record id(s)" and its own worked example carries
-    two. A sentence quoting two different records (hal's monastery-burning
-    turn quotes hal.quote.house-destroyed and hal.quote.innocent-ravages in
-    one breath) is grounded by naming both, and demanding that one record
-    hold everything was this function being stricter than the net it exists
-    to satisfy - the same shape of mistake, one level down.
-
-    Searched over the whole package rather than the demo's own canon cells:
-    a quote record is where it is, and the net does not scope its verbatim
-    check by cell either. Deterministic - lowest record id wins a tie, and
-    the result is sorted. Demonstration records are excluded: a demo can
-    never be another demo's ground (its own text would match itself)."""
-    records, search_order = index.records, index.quote_search_order
-    if not records:
-        return None
-    spans = _quoted_spans(sentence)
-    if not spans:
-        return None
-    holders: set[str] = set()
-    for span in spans:
-        holder = next(
-            (rid for rid in search_order if _span_in_records(span, [records[rid]])),
-            None,
-        )
-        if holder is None:
-            # Nothing in the package carries these words, so the net
-            # withholds this sentence whatever it is tagged with.
-            return None
-        holders.add(holder)
-    return sorted(holders)
-
-
-# THE NET'S OWN BAR, run at compile time (2026-08-23 ruling).
-#
-# This scoring used to be deliberately narrower than the live net's: an
-# overlap coefficient over _candidate_head_text, scoped to the demo's own
-# canon cells, with a second _MIN_SHARED_WORDS guard. The reasoning is
-# preserved above and was sound on its own terms - demo tags are asserted
-# ground truth on the prompt's highest-leverage surface, so be conservative.
-#
-# What nobody checked is how the two conservatisms COMPOSE. The compiler
-# declined to tag a sentence its narrower bar couldn't clear; the net then
-# refused to speak any claim sentence carrying no tag. Two careful rules,
-# and between them they deleted 20 true, sourced sentences from the fleet's
-# own hand-authored demonstrations - and taught a live model, by example,
-# that such sentences go untagged, so it produced more of them. It was never
-# a content gap: 24 of the 27 residual sentences had a record sitting in the
-# same package that satisfies the net outright (alx.story.potamiaena for the
-# Potamiaena sentence; alx.quote.clement-schoolmaster for the Clement one).
-# The cell scoping is what hid them - the net does not scope by cell either.
-#
-# So the bar is the net's, exactly: ratio of the sentence's own content
-# words found in ONE record's full text (gates_experimental._all_text), over
-# _GROUNDING_FLOOR, searched across the whole package. The honest cost is
-# that the old head-text/shared-word guards against coincidental overlap are
-# gone from this path. That cost is accepted rather than hidden, on one
-# argument: whatever is too permissive to ASSERT here is already too
-# permissive to ACCEPT at runtime, and runtime is where a bad claim reaches
-# a participant. One bar, one place it can be wrong, one place to fix it -
-# and engine/m2/demo_net.py now reports the two diverging, refusing the
-# compile outright when a tag names a record the package does not contain.
-# What CHANGES here is the bar and the search scope, not which records may
-# be cited at all. _DEMO_CANDIDATE_TYPES above is the already-reviewed set of
-# content-bearing types, and it stays the universe: a repository also holds
-# `source` (bibliographic), `search_record` (build apparatus), `figure` (name
-# lists feeding claim detection, not evidence), `world_core` and
-# `voice_craft` (the world's own framing) - none of which a sentence should
-# ever name as its ground. Widening to every record type produced exactly
-# that on first run: a syr claim about persecution under a hostile crown
-# tagged to syr.voice.craft, which is build apparatus. The live net WOULD
-# accept such a tag - it resolves - so the compiler is deliberately stricter
-# than the net on this one axis. That is safe in a way the old strictness was
-# not: it can only ever change WHICH record grounds a sentence, never whether
-# one does, so it cannot reintroduce the compose-into-deletion failure.
-class _TaggingIndex(NamedTuple):
-    """Everything demonstration tagging needs that is a property of the
-    PACKAGE rather than of one sentence, derived once per compile.
-
-    Built once in build_prompt and threaded through, because all three of
-    these are package-wide scans and every one of them used to be recomputed
-    inside _tag_representative_text - i.e. once per representative turn, so
-    O(demonstrations x records) instead of O(records). On ijc (154 records,
-    9 demonstrations) that was the difference between one pass and nine over
-    every record's full text, and staleness-check pays it seven times over.
-    A per-sentence function rebuilding a whole-package index is also the
-    kind of shape that invites worse later."""
-
-    records: dict
-    citable: list[tuple[str, set[str]]]
-    figure_names: set[str]
-    quote_search_order: list[str]
-
-
-def _tagging_index(records: dict) -> "_TaggingIndex":
-    return _TaggingIndex(
-        records=records,
-        citable=_citable_words(records),
-        figure_names=build_figure_lexicon(records),
-        # A `quote` record is what the contract means by "the record that
-        # holds them" - the same words often also sit inside a force/story/
-        # source record that merely reproduces them, and plain id order
-        # picked those by accident (hal.force.pelagian-attack winning over
-        # hal.quote.house-destroyed on nothing but f < q).
-        quote_search_order=sorted(
-            (rid for rid in records if records[rid].get("record_type") in _DEMO_CANDIDATE_TYPES),
-            key=lambda rid: (records[rid].get("record_type") != "quote", rid),
-        ),
-    )
-
-
-def _citable_words(records: dict) -> list[tuple[str, set[str]]]:
-    """(record_id, content words of its full text) for every citable record,
-    in id order so ties resolve deterministically."""
-    return [
-        (rid, _content_words(_all_text(records[rid])))
-        for rid in sorted(records)
-        if records[rid].get("record_type") in _DEMO_CANDIDATE_TYPES
-    ]
-
-
-def _needs_a_tag(sentence: str, figure_names: set[str]) -> bool:
-    """Exactly grounding_net.check_turn's own question, asked before the
-    answer is computed: would the live net withhold this sentence for
-    carrying no citation? Same exemptions (honesty scaffolding, the one
-    sanctioned self-naming), same claim markers, same figure-name fallback.
-    A sentence the net does not ask about gets no tag here either - the
-    citation contract's own rule, that "a connective or interpretive
-    sentence carries no tag"."""
-    lower = sentence.lower()
-    if any(marker in lower for marker in _SCAFFOLD_MARKERS) or _SELF_NAMING_MARKER in lower:
-        return False
-    if _claim_markers(sentence):
-        return True
-    return bool(figure_names & _content_words(sentence))
-
-
-def _net_bar_record(sentence: str, citable: list[tuple[str, set[str]]], in_cell: set[str]) -> str | None:
-    """The record the live net would accept as this sentence's ground, or
-    None if no single record clears the floor. Highest ratio wins; a record
-    from the demonstration's own canon cell breaks an exact tie, and the
-    lowest id breaks what remains, so the result is deterministic."""
-    words = _content_words(sentence)
-    if not words:
-        return None
-    best_key, best_id = None, None
-    for record_id, record_words in citable:
-        ratio = len(words & record_words) / len(words)
-        if ratio < _GROUNDING_FLOOR:
-            continue
-        key = (ratio, record_id in in_cell)
-        if best_key is None or key > best_key:
-            best_key, best_id = key, record_id
-    return best_id
-
-
-def _tag_representative_text(text: str, candidates: list[dict], index: _TaggingIndex) -> str:
-    """`index` carries the whole package, and is REQUIRED: the search scope
-    is package-wide now, so a caller passing candidates alone would silently
-    tag nothing at all rather than fail - the exact shape of quiet failure
-    this whole repair exists to stop. Build it with _tagging_index(records)."""
-    citable, figure_names = index.citable, index.figure_names
-    in_cell = {record["id"] for record in candidates}
+def _tag_representative_text(text: str, candidates: list[dict]) -> str:
+    candidate_words = [(record["id"], _content_words(_candidate_head_text(record))) for record in candidates]
     tagged: list[str] = []
     for sentence in _quote_aware_sentences(text):
-        # The quote rule first: it is the net's own hard STRUCTURAL check and
-        # no ratio can satisfy it.
-        if _quoted_spans(sentence):
-            holders = _quote_holders(sentence, index)
-            # No holders means some span is in no record at all, so the net
-            # withholds this sentence whatever it is tagged with. Left
-            # untagged rather than given a tag that cannot save it and would
-            # assert a source the quote did not come from; demo_net reports it.
+        words = _content_words(sentence)
+        best_id, best_ratio, best_shared = None, 0.0, 0
+        for record_id, record_words in candidate_words:
+            if not words or not record_words:
+                continue
+            shared = words & record_words
+            ratio = len(shared) / min(len(words), len(record_words))
+            if ratio > best_ratio:
+                best_ratio, best_id, best_shared = ratio, record_id, len(shared)
+        if best_id and best_ratio >= _GROUNDING_FLOOR and best_shared >= _MIN_SHARED_WORDS:
+            # BEFORE the terminal punctuation, per the citation contract's own
+            # words: "so a sentence-boundary split can never break inside one."
+            # engine.m4.grounding_net splits on (?<=[.!?])\s+, so a tag after
+            # the stop is carried onto the NEXT sentence - grounding a claim it
+            # never came from and leaving its own claim untagged and withheld.
+            cut = max(sentence.rfind(m) for m in ".!?")
             tagged.append(
-                _insert_tag(sentence, " ".join(f"[[{h}]]" for h in holders)) if holders else sentence
+                f"{sentence} [[{best_id}]]" if cut < 0
+                else f"{sentence[:cut]} [[{best_id}]]{sentence[cut:]}"
             )
-            continue
-        if not _needs_a_tag(sentence, figure_names):
+        else:
             tagged.append(sentence)
-            continue
-        best_id = _net_bar_record(sentence, citable, in_cell)
-        tagged.append(_insert_tag(sentence, f"[[{best_id}]]") if best_id else sentence)
     return " ".join(tagged)
 
 
@@ -448,66 +234,30 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
                 "\n".join(f"- [{n.get('segment')}] {n.get('note')}" for n in notes),
             )
 
-    # EVERY record section carries its own id, in the exact [[id]] form the
-    # citation contract asks the voice to emit (2026-08-23).
-    #
-    # Only stories used to. So a world's prompt handed the model 13
-    # doctrinal_witness and 13 term records (alx's counts) as content with no
-    # id shown anywhere, while the contract in the same prompt demanded every
-    # claim be tagged. A claim drawn from that content COULD only carry an
-    # invented id. Measured live: 14 of 16 unresolvable tags had a real
-    # record in the package that satisfies the net outright -
-    # pahc.witness.f5-t-marriage-money was the model's guess at
-    # pahc.witness.marriage-and-wealth (94-100% word match), alx.term.kanon
-    # at alx.term.kanon-pisteos. The voice was reading the right record and
-    # spelling its name wrong, and every such sentence was withheld.
-    #
-    # Written as [[id]] rather than a bare id because the failure is a
-    # SPELLING failure: the model needs the literal string it must emit,
-    # beside the content it is emitting it for, not a form it has to
-    # transpose. Demonstration headers are deliberately left as bare ids -
-    # a demonstration is never valid ground for a claim, and presenting one
-    # in citation form would invite exactly that.
-    #
-    # This does not (and must not) become the whole citable vocabulary:
-    # quote records stay out of the prompt on purpose, carrying license
-    # fields that gate do-not-voice material, and reach a turn through the
-    # evidence block instead - which has always named its candidates as
-    # [[id]] (engine/m4/evidence.render_evidence_block). Same vocabulary,
-    # two surfaces, now consistent.
     for term in _by_type(records, "term"):
         body = "\n\n".join(filter(None, [term.get("plain_meaning"), term.get("quick_meaning")]))
-        # A term with no world_word used to fall back to printing its id as
-        # the label; with the id now also shown in citation form that read as
-        # "## Term: fix.term.x [[fix.term.x]]". The label is dropped instead,
-        # matching how a story section names itself.
-        world_word = term.get("world_word")
-        emit(f"Term: {world_word} [[{term['id']}]]" if world_word else f"Term: [[{term['id']}]]", body)
+        emit(f"Term: {term.get('world_word', term['id'])}", body)
 
     for witness in _by_type(records, "doctrinal_witness"):
         cells = ",".join(witness.get("canon_cells") or [])
-        emit(f"Witness ({cells}) [[{witness['id']}]]", witness.get("text"))
+        emit(f"Witness ({cells})", witness.get("text"))
 
     for limit in _by_type(records, "honest_limit"):
         cells = ",".join(limit.get("canon_cells") or [])
-        emit(f"Honest limit ({cells}) [[{limit['id']}]]", limit.get("statement"))
+        emit(f"Honest limit ({cells})", limit.get("statement"))
 
     for story in _by_type(records, "story"):
         body = "\n\n".join(filter(None, [story.get("tellable_as"), story.get("text")]))
-        emit(f"Story: [[{story['id']}]]", body)
+        emit(f"Story: {story['id']}", body)
 
-    tagging_index = _tagging_index(records)
     for demo in _by_type(records, "demonstration"):
         exchange = demo.get("exchange") or []
         candidates = _demonstration_candidates(records, demo)
         lines = []
         for turn in exchange:
             text = turn["text"]
-            if turn.get("speaker") == "representative":
-                # No `and candidates` guard any more: cell membership is a
-                # tie-break now, not the search space, so a demo whose cell
-                # happens to hold no candidate records still gets tagged.
-                text = _tag_representative_text(text, candidates, tagging_index)
+            if turn.get("speaker") == "representative" and candidates:
+                text = _tag_representative_text(text, candidates)
             lines.append(f"{turn['speaker']}: {text}")
         emit(f"Demonstration: {demo['id']}", "\n".join(lines))
 

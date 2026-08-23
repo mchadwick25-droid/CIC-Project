@@ -129,26 +129,6 @@ def _apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topic
     return text, citations, net_result
 
 
-def _withheld(net_result: dict) -> list[dict]:
-    """Every sentence the net refused to speak, with the reason it gave.
-
-    Kept as a named, first-class part of the turn rather than left for a
-    caller to re-derive out of net_result["sentences"], because the whole
-    failure mode this exists for is one nobody re-derives: dropping one
-    sentence of six reported byte-identically to dropping none, since
-    degraded_by_net trips only when NOTHING grounded survives. A live run
-    on 2026-08-23 withheld 47 of 129 generated sentences across nine turns
-    - consistently the vivid, quoted, concrete lines - and every one of
-    those turns was, by the only signal then published, indistinguishable
-    from a clean one. The answers read thin and formal to the project lead
-    and no field anywhere said why."""
-    return [
-        {"sentence": s["sentence"], "tags": s["tags"], "why": s["why"]}
-        for s in net_result["sentences"]
-        if s["verdict"] != "ok"
-    ]
-
-
 def _run_ordinary_voice_turn(
     *,
     voice_client,
@@ -207,7 +187,6 @@ def _run_ordinary_voice_turn(
 
     do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
 
-    withheld = _withheld(net_result)
     voice_event = {
         "speaker": world.world_key,
         "text": answer_text,
@@ -217,14 +196,6 @@ def _run_ordinary_voice_turn(
         "attempts_meta": {"empty_stream_retries": 0},
         "grounding": net_result,
         "do_not_voice_violation": do_not_voice_hit,
-        # degraded_by_net is the TOTAL-loss signal and stays exactly that
-        # (§6.3's ladder escalation). These two are the partial-loss signals
-        # it was silently standing in for: a turn that lost its best
-        # sentence and a turn that lost nothing were the same event on the
-        # wire until now.
-        "sentences_withheld": len(withheld),
-        "sentences_total": len(net_result["sentences"]),
-        "withheld": withheld,
         "degraded_by_net": degraded_by_net,
     }
     return voice_event, usage_records
@@ -309,21 +280,7 @@ def run_turn(
                 )
                 stream_failed = False
                 if stream_text.strip():
-                    # Same withheld accounting as the ordinary path - a
-                    # crisis turn is the last place a silent drop should be
-                    # invisible.
-                    crisis_withheld = _withheld(_net_result)
-                    voice_event = {
-                        "speaker": world.world_key,
-                        "text": stream_text,
-                        "citations": [],
-                        "glosses": [],
-                        "quote_offers": [],
-                        "attempts_meta": {"empty_stream_retries": 0},
-                        "sentences_withheld": len(crisis_withheld),
-                        "sentences_total": len(_net_result["sentences"]),
-                        "withheld": crisis_withheld,
-                    }
+                    voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}}
 
         facilitator_event = crisis_resources.append_crisis_resources_turn(signal=signal, stream_text=stream_text, stream_failed=stream_failed)
         return TurnResult(
