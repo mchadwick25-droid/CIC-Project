@@ -257,10 +257,20 @@ GROUNDING_FLOOR = 0.4
 # claim would flag almost everything. Proper-noun detection is meant to
 # catch a real person/place/text (Clement, Basilides, Nicaea), not the
 # doctrinal vocabulary that IS the subject matter.
+# Looked up with a trailing "s" stripped, because the plural was the actual
+# defect: "scripture" was already exempt and "Scriptures" was not, so the
+# net struck a sentence for saying the word Scriptures, and struck
+# "Christian" every time a Christian representative used it of itself.
 _DOCTRINAL_VOCAB = {
     "god", "god's", "word", "logos", "christ", "spirit", "father", "son",
-    "trinity", "scripture", "gospel", "church", "lord",
+    "trinity", "scripture", "gospel", "church", "lord", "christian",
+    "christianity", "apostle", "psalm", "testament",
 }
+
+
+def _is_common_vocab(word: str) -> bool:
+    w = word.lower()
+    return w in _DOCTRINAL_VOCAB or (w.endswith("s") and w[:-1] in _DOCTRINAL_VOCAB)
 
 
 def _proper_nouns(sentence: str) -> set[str]:
@@ -286,35 +296,51 @@ def _proper_nouns(sentence: str) -> set[str]:
         if i not in clause_starts
         and w[0].isupper()
         and w.lower() not in _STOPWORDS
-        and w.lower() not in _DOCTRINAL_VOCAB
+        and not _is_common_vocab(w)
         and not re.match(r"i'", w, re.IGNORECASE)
         and w != "I"
     }
 
 
+# "two ways to take your question" - the voice counting its own readings
+# aloud, not a figure about the world. Over 17 measured live turns this
+# shape accounted for every spelled-number false positive, and striking it
+# decapitated the answer: the opening sentence went and the participant was
+# handed a list starting at item two. Gated on the sentence actually being
+# about the ask - "he would read a passage three ways" counts a doctrine,
+# and an earlier draft of this rule wrongly freed it.
+_DISCOURSE_COUNT = re.compile(
+    r"\b(?:one|two|three|four|five)\s+(?:possible\s+|different\s+|separate\s+)?"
+    r"(?:ways?|readings?|questions?|meanings?)\b",
+    re.IGNORECASE,
+)
+_ABOUT_THE_ASK = re.compile(
+    r"\b(?:your question|you(?:'re| are)? ask\w*|what you(?:'ve| have)? asked|"
+    r"which you mean|you meant|the one you meant|take your question)\b",
+    re.IGNORECASE,
+)
+
+
 def _has_number(sentence: str) -> bool:
     if _DIGIT.search(sentence):
-        return True
+        return True  # a digit is always a figure or a date
     words = {w.lower() for w in _WORD.findall(sentence)}
-    return bool(words & SPELLED_NUMBERS)
+    if not words & SPELLED_NUMBERS:
+        return False
+    if not _ABOUT_THE_ASK.search(sentence):
+        return True
+    stripped = _DISCOURSE_COUNT.sub(" ", sentence)
+    return bool({w.lower() for w in _WORD.findall(stripped)} & SPELLED_NUMBERS)
 
 
 def _has_enumeration(sentence: str) -> bool:
-    """The "same water, the same bread... Greeks and Egyptians... men and
-    women" shape specifically: a repeated short phrase, or several SHORT
-    (<=4-word) comma/and-separated items in a row - a known pattern for
-    dressing invented texture up as vivid, documentary-sounding detail.
-    An ordinary multi-clause sentence has commas too, but its segments are
-    full clauses, not short parallel items - so raw comma-count alone
-    (v2's first draft) is not the signal; segment shortness is."""
-    lowered = sentence.lower()
-    if lowered.count("the same ") >= 2:
-        return True
-    if ";" in sentence:
-        return False  # a semicolon joins independent clauses, not list items
-    segments = re.split(r",| and ", sentence)
-    short_segments = [s for s in segments if 0 < len(_WORD.findall(s)) <= 4]
-    return len(short_segments) >= 3
+    """NARROWED to the repeated-phrase signal it was built for. The
+    short-segment count went with it: measured over 17 live turns it fired
+    9 times and every one was ordinary parallel prose ("We lived among
+    them, learned from them, argued with them."). Short parallel clauses
+    are what register statements 2 and 3 ask the voice to write, so the
+    rule was deleting the register it exists beside."""
+    return sentence.lower().count("the same ") >= 2
 
 
 def claim_markers(sentence: str) -> list[str]:

@@ -236,15 +236,41 @@ def test_ordinary_turn_wires_a_real_evidence_block_into_the_user_message():
     assert ask_text in user_message  # the participant's own message still rides alongside the evidence block
 
 
-def test_turn_with_no_cell_match_and_no_grounded_claim_degrades_to_the_fleet_floor_line():
-    # An off-canon message and an untagged, unclaimable answer: Stage A
-    # resolves to no cell (engine.m4.evidence's own "no cell" case), so
-    # _degradation_statement has no honest_limit candidate to reach for and
-    # falls back to the fleet floor line.
+def test_a_turn_the_net_cannot_ground_still_reaches_the_participant_whole():
+    """Program-Spec M4 / Artifact-5 SS2: the checks gate decoration, never
+    the text. An off-canon message and an untagged answer: the net records
+    that nothing substantive was grounded, and the participant still reads
+    exactly what the voice wrote. No code-appended floor line - Program-Spec
+    M5: "the honest limit is the voice's own testimony, not a system
+    apology."
+    """
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(asks=[{"order": 1, "text": "what's the weather like"}]), stream_chunks=["We enjoy talking about many things."])
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what's the weather like today", pressed={}, anachronistic_term_ids=set())
+    assert result.voice_event["text"] == "We enjoy talking about many things."
+    assert "We don't have grounded material of our own for that." not in result.voice_event["text"]
+    # the verdict is still carried, for the SS5 audit
     assert result.voice_event["degraded_by_net"] is True
-    assert "We don't have grounded material of our own for that." in result.voice_event["text"]
+
+
+def test_a_sentence_that_fails_verification_loses_its_citation_not_its_existence():
+    """The measured cost of deleting instead: 25% of every sentence the
+    voice wrote, and an answer to "who was he" that named nobody because
+    the naming sentence was struck."""
+    world = _world()
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(asks=[{"order": 1, "text": "who is jesus"}]),
+        stream_chunks=["We received the community's own memory of Jesus [[fix.witness.who-is-jesus]]. "
+                       "Athanasius said it plainly [[fix.nonexistent.record]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message="who is jesus", pressed={}, anachronistic_term_ids=set())
+    text = result.voice_event["text"]
+    assert "Athanasius said it plainly" in text          # still reaches the reader
+    assert "[[" not in text                              # tags never do
+    cited = {rid for c in result.voice_event["citations"] for rid in c["record_ids"]}
+    assert "fix.nonexistent.record" not in cited         # but it is not decorated as sourced
+    verdicts = {s["sentence"][:20]: s["verdict"] for s in result.voice_event["grounding"]["sentences"]}
+    assert any(v != "ok" for v in verdicts.values())     # and the audit sees the failure
 
 
 def test_already_told_ids_reaches_evidence_assembly_without_error():
@@ -287,3 +313,42 @@ def test_the_per_turn_directive_sits_after_the_cache_breakpoint_not_inside_it():
     assert "This turn's private directive" not in system[0]["text"]
     # And the model still sees the same bytes in the same order as before.
     assert "".join(b["text"] for b in system) == world.prompt_text + system[1]["text"]
+
+
+def test_session_memory_rides_in_messages_and_leaves_the_cached_prefix_alone():
+    # Program-Spec M4: "one generation call with the participant's own
+    # words, the private directive, and full-session memory in cache-
+    # conscious layout." Until now the call sent one user message and the
+    # voice had never heard the last thing it said.
+    world = _world()
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(asks=[{"order": 1, "text": "and what then"}]),
+        stream_chunks=["We enjoy talking about many things."],
+    )
+    history = [
+        {"role": "user", "content": "who is jesus"},
+        {"role": "assistant", "content": "He was God's own Word, come to us in flesh."},
+    ]
+    run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+             world=world, participant_message="and what then", pressed={}, anachronistic_term_ids=set(), history=history)
+
+    system, messages = client.messages.captured_stream_calls[0]
+    assert [m["role"] for m in messages] == ["user", "assistant", "user"]
+    assert messages[0]["content"] == "who is jesus"
+    assert messages[1]["content"] == "He was God's own Word, come to us in flesh."
+    assert "and what then" in messages[2]["content"]  # this turn's own message, evidence block and all
+    # the world prompt is still the sole cached block, untouched by a
+    # growing conversation
+    assert system[0]["text"] == world.prompt_text
+    assert system[0]["cache_control"] == {"type": "ephemeral"}
+
+
+def test_a_turn_with_no_history_is_unchanged():
+    world = _world()
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(asks=[{"order": 1, "text": "hello"}]),
+                               stream_chunks=["We enjoy talking about many things."])
+    run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+             world=world, participant_message="hello", pressed={}, anachronistic_term_ids=set())
+    _, messages = client.messages.captured_stream_calls[0]
+    assert [m["role"] for m in messages] == ["user"]
