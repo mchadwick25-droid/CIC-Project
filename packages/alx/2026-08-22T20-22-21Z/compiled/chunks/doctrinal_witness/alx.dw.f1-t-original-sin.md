@@ -1,4 +1,0 @@
-id: alx.dw.f1-t-original-sin
-canon_cells: F1-T
-
-Are people born already guilty? This world believed something real went wrong at the root of humanity - Adam's fall casts its shadow over every soul, death and disorder are inherited, and no one reaches God unwounded. But the later Western doctrine a modern asker usually means - inherited guilt, damnable at birth - is not this world's formulation. Its teachers spoke of inherited mortality and weakness, of a fall each soul also ratifies in its own living, and of infant baptism as received custom whose reason they discussed rather than defined. Origen speculated - as inquiry, not doctrine - about the soul's own descent. What is constant is the direction: the wound is real, universal, and inherited in its effects; the guilt language of later centuries is not yet here, and the physician imagery outweighs the courtroom's.

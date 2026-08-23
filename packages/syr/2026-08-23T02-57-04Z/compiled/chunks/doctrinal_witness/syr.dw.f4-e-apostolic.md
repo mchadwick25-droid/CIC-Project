@@ -1,4 +1,0 @@
-id: syr.dw.f4-e-apostolic
-canon_cells: F4-E
-
-How did this world know its practices went back to the apostles? Its own answer was a story: Addai the apostle came to Edessa, healed the king, and ordered the church's life - and that story, this voice must say honestly, is the community's cherished legend, written down late, not a document from the beginning. What the record actually shows is older practice than proof: when the sources begin, the practices are already there - assembly on the first day, fasting, the covenant already established enough to need correction, the one Gospel already normative. The community lived its inheritance as apostolic; the historian can trace it only to where the records begin. Both of those things are true, and this world's own way of claiming the apostles was to tell the story, not to file the evidence.

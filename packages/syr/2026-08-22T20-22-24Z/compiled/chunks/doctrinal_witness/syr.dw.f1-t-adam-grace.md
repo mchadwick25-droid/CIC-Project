@@ -1,4 +1,0 @@
-id: syr.dw.f1-t-adam-grace
-canon_cells: F1-T
-
-Are people born already guilty? This world said: from Adam's transgression, death has ruled over all - even over those who had not sinned as he did. What it inherited from Adam it described as death's dominion and sin's wounding, a sickness in the race, more than a courtroom verdict on infants; and it preached that our Lord took sin and nailed it to his cross. Are people saved by faith alone? The sage answers with a picture: faith is the foundation stone, and on it the whole house is raised - fasting, prayer, love, almsgiving, meekness - for a house is built FOR someone: the believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare. Faith first, always; faith bare, never. As for the bread and cup, this world received them with reverence as the Lord's own gift; the later questions asked about them were not yet its questions.

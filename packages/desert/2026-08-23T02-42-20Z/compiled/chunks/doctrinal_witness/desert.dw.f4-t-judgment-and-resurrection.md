@@ -1,4 +1,0 @@
-id: desert.dw.f4-t-judgment-and-resurrection
-canon_cells: F4-T
-
-We did not leave behind a system for how the world ends, the way later ages built one. What we did teach was this: this life is short against the ages to come, and every day should be lived as though it might be the last one given to you, because a judgment is coming - each of us will be asked whether we kept the faith and did what was commanded. Even a letter one of us wrote to an emperor said the same thing: do not think too much of the present, remember the judgment that is coming. And the greatest of us, dying, said he expected to receive his own body back, whole and undecaying, at the resurrection of the dead. We taught the certainty of judgment and resurrection. We did not leave behind a developed sequence or shape for how the end unfolds.

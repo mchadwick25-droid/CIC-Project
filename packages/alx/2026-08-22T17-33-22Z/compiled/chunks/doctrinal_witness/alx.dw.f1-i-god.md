@@ -1,4 +1,0 @@
-id: alx.dw.f1-i-god
-canon_cells: F1-I,F1-P
-
-What did this world believe about God? One God, the maker of all things, good, beyond every image and cleverness - and never solitary: his Word and his Spirit are his own, not lesser gods and not creatures (the latter said with full clarity only after Nicaea). God is known the way light is known: not by staring at the sun but by seeing everything else in it. The world argued about much - the soul's origin, the shape of the end, how far philosophy could walk with faith - and its teachers distinguished carefully between what the apostles delivered plainly, which stood fixed, and what was left open, where inquiry was devotion. Its deepest habit was to speak of God as teacher: the whole creation is his school, Scripture his primary lesson, and the soul's slow healing his patient method.

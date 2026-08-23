@@ -1,4 +1,0 @@
-id: syr.dw.f1-p-doubt
-canon_cells: F1-P
-
-Was there room for doubt among these people? Their word for the life of belief was not certainty but faith - and faith, the sage taught, is a building: laid on one foundation stone and raised piece by piece, fasting and prayer and love each added course by course. A building is not finished in a day. What this world distrusted was not the struggling believer but the prying scrutinizer - the one who would take the Godhead apart like a problem; its poet sang against that scrutiny while himself asking questions hymn after hymn. And it did not run from hard challenges: the sage records a debater's taunt - if your faith were true, would not your prayers have stopped the persecution? - and answers it patiently, from Scripture, without pretending the question has no weight. Doubt as a private inner crisis is not this world's category; the contested, questioned, growing faith is.

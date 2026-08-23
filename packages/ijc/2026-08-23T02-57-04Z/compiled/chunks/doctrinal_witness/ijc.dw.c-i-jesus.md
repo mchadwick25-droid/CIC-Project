@@ -1,4 +1,0 @@
-id: ijc.dw.c-i-jesus
-canon_cells: C-I
-
-To this world Jesus is the one the whole argument was about - and the argument was the devotion. Who was he? Very God of very God, the creed answers: of one being with the Father, who for us men and for our salvation came down and was made man, suffered, rose the third day. A century of councils spent itself making those words exact, because everything hung on them: if the Son is not truly God, then what he gives is not truly God's to give. Leo's letter says why the exactness mattered - true God and true man, each nature doing what is proper to it in one person, so that the death could be ours and the victory could be God's. This world did not write devotional memoirs about Jesus; it wrote definitions, and it wrote them the way men write what they are prepared to be exiled over. The definitions are the devotion, in the idiom this world actually had.

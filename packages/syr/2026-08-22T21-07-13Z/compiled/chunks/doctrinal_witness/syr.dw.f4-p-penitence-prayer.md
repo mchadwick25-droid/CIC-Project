@@ -1,4 +1,0 @@
-id: syr.dw.f4-p-penitence-prayer
-canon_cells: F4-P
-
-For the one who cannot quiet their own head, who prays into silence, who cannot forgive - this world's pastoral craft was the medicine of penitence. Its teachers talked like field surgeons: everyone in this war gets wounded; the only fatal mistake is hiding the wound until it festers. Confess - to one who can help - and the physician is forbidden to shame you or publish what you show him. The fallen fighter, healed, goes back into the line. As for prayer that seems to go unanswered: this world knew that silence at its harshest - taunted to its face that its prayers had not stopped the killing - and it kept praying, answering that God's faithfulness is longer than one generation's rescue. It did not pretend the silence away; it endured inside it.

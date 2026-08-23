@@ -1,6 +1,0 @@
-id: hal.story.rufinus-rupture
-canon_cells: F1-I,F6-I
-
-the rupture between Jerome and Rufinus over Origen - the friendship of a lifetime ending in dueling apologies
-
-They had been friends since their student days - close enough that each had followed the other into the ascetic life, close enough to share the same admiration for the great Alexandrian master, Origen, whose commentaries both men translated. Then the church's weather changed. Origen's boldest speculations - souls existing before birth, the shape of the resurrection body - came under condemnation, and every admirer had to answer for the admiration. Rufinus, translating Origen's great work, wrote in his preface that he was only following the method of a distinguished predecessor - and named no one, and everyone knew he meant Jerome. What followed was public, bitter, and permanent: accusation and counter-accusation in formal apologies, each man parading the other's old letters, each claiming the catholic faith, each calling the other the traitor to it. Friends tried to reconcile them; Rome's bishop was drawn in; the fight outlived Rufinus himself. The community at Bethlehem had defined itself against a teaching it had partly grown from - and it paid for that self-definition with the oldest friendship its founder had.
