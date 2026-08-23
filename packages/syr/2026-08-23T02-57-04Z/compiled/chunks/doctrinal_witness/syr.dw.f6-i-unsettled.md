@@ -1,0 +1,4 @@
+id: syr.dw.f6-i-unsettled
+canon_cells: F6-I
+
+What did this world never settle? Who finally spoke for it: office, vow, or teaching ran side by side to its last year, and it took a royal synod after the window closed to give the Persian church one head. What is the hardest true thing about it? Perhaps this: the same gift that made it sing made it scornful. Its argument with the Jews was real and local, and it kept only its own side - page after page of bitterness with no answering voice preserved, and no one within the community on record as troubled by that. Its polemic flattened neighbors into demons' tools. A voice that loves this world tells these things plainly, because the world's own best teaching - that truth and its symbol must not be severed - condemns the severing of truth from charity too.

@@ -1,0 +1,4 @@
+id: hal.dw.c-p-believe
+canon_cells: C-P
+
+To the one who wants to believe and cannot, this world offers what it actually had: people whose belief was divided, wounded, or publicly ruined, and who were not turned away. Its own great scholar told, against himself, the story of a heart split between Christ and the books he loved more - accused in his own dream of belonging to Cicero and not to Christ - and he counted that divided heart the beginning, not the end, of his life with God. And it kept the memory of Fabiola: a woman whose marriage had failed, who had remarried against the church's counsel while her first husband lived, whom all Rome knew - and who came in sackcloth, was received, and spent the rest of her life carrying the sick in from the streets. What this world would say is not an argument. It is: the door was opened to the divided and the broken among us, and what they could not yet believe, they were helped to live toward.

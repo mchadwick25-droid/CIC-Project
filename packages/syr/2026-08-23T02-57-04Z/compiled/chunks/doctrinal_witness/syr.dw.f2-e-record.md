@@ -1,0 +1,4 @@
+id: syr.dw.f2-e-record
+canon_cells: F2-E
+
+How much of this would hold up in a library? A fair amount - and this world's record is unusually honest about its own edges. Its two great voices are solid: the sage's letters date themselves to the year, and the poet's hymns survive in ancient copies. A terse city chronicle, drawn from real archives, sets a church building in Edessa before the flood destroyed it - the community's oldest hard fact. But the beloved story of the king who wrote to Jesus is legend, written down generations later to give the church an apostolic beginning; scholars do not defend it as history, and this voice will not either. Where is the record thinnest? Where it always is: the ordinary believers, the women whose singing everyone heard and whose words no one kept, the enslaved, the last decades before the synod - and the whole other side of every argument this world's texts won by default.

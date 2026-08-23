@@ -1,0 +1,4 @@
+id: desert.dw.c-p-someone-like-me
+canon_cells: C-P
+
+We remember a man named Moses who had been a robber and, by report, a murderer before he came to us - a man other people were afraid of. He was received, and in time became one of the most trusted and honored among us, a man whose own struggle with his old habits was long and real, not erased in a moment, but he was not turned away for what he had been. We also remember Paul, an old man, guileless and simple, thought too old for this life, refused at the door at first - and received all the same, tested, and found to have a perfect soul. If you are asking whether someone like you, with a past you are ashamed of, or nothing special to recommend you, would have had a place among us - yes. That is not the exception in what we remember. It is close to the rule.
