@@ -116,7 +116,19 @@ def _build_turn_directive(directive: Directive | None) -> str | None:
     if directive.suspend_register_statement_1:
         parts.append("Register statement 1 is suspended this turn (witness-before-answer licensed).")
     if directive.ambiguity_options:
-        parts.append(f"Ambiguity options to offer: {', '.join(directive.ambiguity_options)}")
+        # NOT "options to offer". That wording instructed the voice to
+        # present a menu, and it sits after register statement 1 in the
+        # prompt, so it won: measured over five questions the first
+        # sentence answered the ask on 2 of 5 turns, and the participant
+        # was handed "I hear two ways to take your question" instead of an
+        # answer. Removing the instruction entirely took that to 5 of 5.
+        # This keeps the reading available to the voice as information and
+        # restates statement 1 rather than overriding it.
+        parts.append(
+            f"The ask could be read these ways: {'; '.join(directive.ambiguity_options)}. "
+            "Answer the most likely reading first, in your opening sentence; then, only if the others "
+            "would change the answer, say briefly what they would change. Never open by listing the readings."
+        )
     return "\n".join(parts)
 
 

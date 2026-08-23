@@ -181,3 +181,43 @@ def test_ordinary_prose_is_clean():
 
 def test_an_asterisk_used_as_arithmetic_is_not_emphasis():
     assert check_display_text("We paid 5 * 3 denarii and moved on.") == []
+
+
+# ---- the three narrowings (2026-08-23) -------------------------------------
+# Each of these fired on real live output and deleted prose that invented
+# nothing. Counts are from 17 measured turns / 68 withheld sentences.
+
+def test_parallel_prose_is_not_an_enumeration():
+    # 9 of 68 withholds. Short parallel clauses are what register statements
+    # 2 and 3 ask the voice to write; the old short-segment count deleted them.
+    from engine.m1.gates_experimental import _claim_markers
+    assert _claim_markers("We lived among them, learned from them, argued with them.") == []
+    assert _claim_markers("That, too, I can show you.") == []
+    # the repeated-phrase signal the rule was actually built for survives
+    assert "enumeration" in _claim_markers("The same water, the same bread.")
+
+
+def test_common_words_are_not_treated_as_names():
+    # 10 of 68. "scripture" was already exempt and "Scriptures" was not.
+    from engine.m1.gates_experimental import _claim_markers
+    assert _claim_markers("We held that the Scriptures are alive, not a closed book.") == []
+    assert _claim_markers("To become a Christian among us was to be changed.") == []
+    # a real name still marks the sentence as checkable
+    assert any("proper-noun" in m for m in _claim_markers("Later, Athanasius put it in one sentence."))
+
+
+def test_counting_the_readings_of_a_question_is_not_a_figure():
+    # 7 of 68, and always the OPENING sentence - so the participant was
+    # handed a list starting at item two.
+    from engine.m1.gates_experimental import _claim_markers
+    assert _claim_markers("I hear two ways to take your question, and I want to answer the one you meant.") == []
+    assert _claim_markers("Your question can be heard three ways, and I must ask which you mean.") == []
+
+
+def test_a_counted_doctrine_is_still_a_figure():
+    # The first draft of the rule above freed this. It is a claim about the
+    # world, not about the ask, and must stay checkable.
+    from engine.m1.gates_experimental import _claim_markers
+    assert "number" in _claim_markers("He would read a passage three ways, for body, soul, and spirit.")
+    assert "number" in _claim_markers("For the first three centuries of our window, persecution came in waves.")
+    assert "number" in _claim_markers("The boy was seventeen when his father was killed.")
