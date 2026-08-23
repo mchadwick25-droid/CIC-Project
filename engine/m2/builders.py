@@ -40,7 +40,33 @@ def _fleet_voice_record(fleet: dict) -> dict | None:
     return _one(fleet, "fleet_voice")
 
 
-def build_fleet_preamble(fleet: dict, registry_entry: dict) -> list[str]:
+# The citation contract's worked example ships PLACEHOLDER ids, and the fleet
+# record says so itself: they exist "only so citation_contract is a complete,
+# self-explanatory paragraph on its own - never the line a model is actually
+# shown", with the per-world substitution named there as open M2 work. It was
+# never implemented, so all seven packages shipped the literal token `world`
+# into live model input - and a model reads that as the namespace, emitting
+# world.story.pliny-interrogation, world.term.hesychia: right shape, no such
+# record, sentence withheld. Filled from the world's own records, exactly as
+# `{world}` in pronoun_rule already is.
+def _fill_citation_example(contract: str, records: dict) -> str:
+    for placeholder in ("world.term.example", "world.gravity.example"):
+        if f"[[{placeholder}]]" not in contract:
+            continue
+        wanted = placeholder.split(".")[1]
+        ids = sorted(r["id"] for r in records.values() if r.get("record_type") == wanted) or sorted(
+            r["id"] for r in records.values() if r.get("record_type") != "demonstration"
+        )
+        real = next((i for i in ids if f"[[{i}]]" not in contract), None)
+        # A placeholder with no substitute is dropped, never shipped: an absent
+        # second tag still reads as a correct worked line; an unresolvable one
+        # teaches a fabrication.
+        contract = (contract.replace(f"[[{placeholder}]]", f"[[{real}]]") if real
+                    else contract.replace(f" [[{placeholder}]]", "").replace(f"[[{placeholder}]]", ""))
+    return contract
+
+
+def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None = None) -> list[str]:
     """Returns the preamble's own emitted segments (already `## Header`-
     formatted, same shape build_prompt's other segments use) - a list, not
     bytes, so build_prompt can splice it in front of everything else with
@@ -73,7 +99,7 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict) -> list[str]:
     if pronoun_rule:
         emit("Pronoun rule", pronoun_rule.replace("{world}", world_name))
 
-    emit("Citation contract", record.get("citation_contract"))
+    emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
     emit("Limit discipline", record.get("limit_discipline"))
     return segments
 
@@ -163,14 +189,23 @@ def _tag_representative_text(text: str, candidates: list[dict]) -> str:
             if ratio > best_ratio:
                 best_ratio, best_id, best_shared = ratio, record_id, len(shared)
         if best_id and best_ratio >= _GROUNDING_FLOOR and best_shared >= _MIN_SHARED_WORDS:
-            tagged.append(f"{sentence} [[{best_id}]]")
+            # BEFORE the terminal punctuation, per the citation contract's own
+            # words: "so a sentence-boundary split can never break inside one."
+            # engine.m4.grounding_net splits on (?<=[.!?])\s+, so a tag after
+            # the stop is carried onto the NEXT sentence - grounding a claim it
+            # never came from and leaving its own claim untagged and withheld.
+            cut = max(sentence.rfind(m) for m in ".!?")
+            tagged.append(
+                f"{sentence} [[{best_id}]]" if cut < 0
+                else f"{sentence[:cut]} [[{best_id}]]{sentence[cut:]}"
+            )
         else:
             tagged.append(sentence)
     return " ".join(tagged)
 
 
 def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
-    segments: list[str] = build_fleet_preamble(fleet, registry_entry)
+    segments: list[str] = build_fleet_preamble(fleet, registry_entry, records)
 
     def emit(header: str, body: str | None) -> None:
         if body and body.strip():

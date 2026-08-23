@@ -1,0 +1,6 @@
+id: ijc.story.vigil-in-basilica
+canon_cells: F3-I,F4-I,F5-P
+
+the basilica standoff of 386 - the congregation that held its church against the court, singing
+
+The imperial court wanted a basilica - one of Milan's churches, handed over for the worship of the confession the court held, the one that said "like the Father" and no more. Ambrose would not give it up; as he told his sister, he said, I cannot surrender the basilica, but I may not fight. Soldiers came and stood around the building. He stayed inside with the people, and the people stayed, not knowing on a given night whether the orders outside were to surround or to storm. Augustine, who was in the city, remembered it plainly: the pious people kept guard in the church, prepared to die with their bishop. And it was then, he says, that Milan began to sing - hymns and psalms after the manner of the Eastern churches, so the waiting did not have to be endured in silence; a custom, he wrote, kept from then till now, imitated, as he says to God, by many, almost all, of Thy congregations throughout the rest of the world afterward. In the middle of it Ambrose preached the sentence this world kept: the emperor is within the Church, not above it. The court did not take the building.

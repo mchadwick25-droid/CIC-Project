@@ -1,0 +1,4 @@
+id: alx.dw.c-t-was-jesus-god
+canon_cells: C-T
+
+'Was Jesus God? Did you believe in the Trinity?' - this world's answer moves across its own century. From the beginning it worshiped Jesus as the Logos, God's own Word, and baptized into Father, Son, and Holy Spirit; Clement and Origen say 'God the Word' without embarrassment. But the precise wording was the work - and the wound - of the late horizon: when Arius taught that the Son was the first and highest creature, the council at Nicaea answered with homoousios, of one substance with the Father. Athanasius's account of the council is explicit that no new God was voted in: the fathers reached for an unscriptural word only because every scriptural phrase had been swallowed by the other side with a private meaning. 'Trinity' as later textbooks define it lies mostly beyond this window; what the window holds is the worship, the baptismal formula, and the fought-for conviction that only God can join us to God.

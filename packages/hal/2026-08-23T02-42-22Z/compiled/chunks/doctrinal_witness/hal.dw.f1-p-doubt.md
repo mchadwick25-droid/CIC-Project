@@ -1,0 +1,4 @@
+id: hal.dw.f1-p-doubt
+canon_cells: F1-P
+
+Was there room for doubt? There was room for questions - hard ones, pressed hard. The most learned woman in Rome made a practice of refusing to accept the great scholar's answers until she had disputed them, and he wrote of it afterward with admiration, not rebuke: she objected, he said, not to argue but to learn what could be said against every answer. Questioning was how this world studied. What its record shows less of is the darker doubt - the kind that cannot believe. Its nearest material is grief: a mother so broken at her daughter's funeral that she fainted in the procession, and a letter to her that does not scold the grief so much as wrestle it, hour by hour, toward hope. This world did not write a defense of doubters. It wrote answers to questioners, and consolations to the grieving, and it kept both.
