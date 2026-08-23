@@ -112,6 +112,9 @@ jobs:
       - run: pip install -r engine/m4/requirements.txt
       # Compiled packages are derived and not in git (see .gitignore); rebuild
       # the pinned ones from records before any job that reads package bytes.
+      # restore runs the M2 compiler, so it needs the compiler's own deps
+      # (jsonschema for the M1 gates) on top of whatever this job installs.
+      - run: pip install -r engine/m1/requirements.txt
       - run: python -m engine.m2.cli restore
       - run: python -m pytest engine/m3/tests -q
 
@@ -140,6 +143,9 @@ jobs:
       - run: pip install -r engine/m4/requirements.txt
       # Compiled packages are derived and not in git (see .gitignore); rebuild
       # the pinned ones from records before any job that reads package bytes.
+      # restore runs the M2 compiler, so it needs the compiler's own deps
+      # (jsonschema for the M1 gates) on top of whatever this job installs.
+      - run: pip install -r engine/m1/requirements.txt
       - run: python -m engine.m2.cli restore
       - run: python -m pytest engine/m4/tests -q
 
@@ -213,6 +219,7 @@ jobs:
       - run: pip install -r engine/m1/requirements.txt
       # Compiled packages are derived and not in git (see .gitignore); rebuild
       # the pinned ones from records before any job that reads package bytes.
+      # restore runs the M2 compiler, whose deps this job already installs.
       - run: python -m engine.m2.cli restore
       - run: python -m pytest engine/m2/tests -q
 
@@ -255,6 +262,9 @@ jobs:
       - run: pip install -r engine/api/requirements.txt
       # Compiled packages are derived and not in git (see .gitignore); rebuild
       # the pinned ones from records before any job that reads package bytes.
+      # restore runs the M2 compiler, so it needs the compiler's own deps
+      # (jsonschema for the M1 gates) on top of whatever this job installs.
+      - run: pip install -r engine/m1/requirements.txt
       - run: python -m engine.m2.cli restore
       - run: python -m pytest engine/api/tests -q
 
