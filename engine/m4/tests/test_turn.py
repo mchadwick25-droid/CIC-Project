@@ -260,3 +260,52 @@ def test_already_told_ids_reaches_evidence_assembly_without_error():
         already_told_ids={"fix.story.the-long-road"},
     )
     assert result.voice_event["degraded_by_net"] is False
+
+
+def test_partial_withhold_is_reported_even_though_degraded_by_net_stays_false():
+    """The regression this file could not have caught before: a turn that
+    lost a sentence and a turn that lost nothing published byte-identical
+    signals, because degraded_by_net trips only on TOTAL loss. Measured
+    live 2026-08-23: 47 of 129 generated sentences withheld across nine
+    turns, every one of those turns reporting clean.
+
+    Here one sentence grounds and one names an unresolvable record. The
+    turn is NOT degraded (something substantive survived) - and that is
+    exactly the case that must still be visible."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=[
+            "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. "
+            "Clement of Alexandria taught otherwise [[fix.witness.no-such-record]]."
+        ],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client,
+        safety_model_id="m", world=_world(), participant_message="who was Jesus", pressed={},
+        anachronistic_term_ids=set(),
+    )
+    voice = result.voice_event
+    assert voice["degraded_by_net"] is False  # something grounded survived - the old signal is silent here
+    assert voice["sentences_total"] == 2
+    assert voice["sentences_withheld"] == 1
+    assert [w["sentence"] for w in voice["withheld"]] == ["Clement of Alexandria taught otherwise."]
+    assert "unresolvable record id" in voice["withheld"][0]["why"]
+    assert "Clement" not in voice["text"]  # still dropped - this changes visibility, not behaviour
+
+
+def test_a_clean_turn_reports_zero_withheld_rather_than_omitting_the_field():
+    """A signal that is absent on success and present on failure is a
+    signal nobody reads. Zero is published, always."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client,
+        safety_model_id="m", world=_world(), participant_message="who was Jesus", pressed={},
+        anachronistic_term_ids=set(),
+    )
+    assert result.voice_event["sentences_withheld"] == 0
+    assert result.voice_event["withheld"] == []

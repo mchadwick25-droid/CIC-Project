@@ -12,7 +12,7 @@ from engine.m1.loader import REPO_ROOT as RECORDS_REPO_ROOT
 from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records
 from engine.m1.registry import get_world, load_registry
 
-from . import builders, validation
+from . import builders, demo_net, validation
 from .canonical import canonical_json
 from .manifest import build_manifest, manifest_hash
 
@@ -99,7 +99,14 @@ def compile_world(
     compiled.update(builders.build_indexes(records))
     compiled.update(builders.build_media(registry_entry))
 
+    # Checks the COMPILED BYTES that are about to ship, not a recomputation
+    # of them - so the package carries, as evidence, whether its own
+    # teaching surface survives the live net it teaches (engine/m2/
+    # demo_net.py for why this exists and what it caught).
     validation_files = {
+        "validation/demonstration-net.json": canonical_json(
+            demo_net.build_demonstration_net_report(compiled["compiled/prompt.txt"], compiled["compiled/repository.json"])
+        ),
         "validation/gates-report.json": validation.build_gates_report(records, fleet, registry),
         "validation/admission/results.json": validation.build_admission_results(world_key),
         "validation/signoffs.json": validation.build_signoffs(world_key),

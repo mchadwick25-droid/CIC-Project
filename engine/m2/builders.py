@@ -8,6 +8,13 @@ import hashlib
 
 from engine.m1 import canon
 from engine.m1.gates_experimental import _GROUNDING_FLOOR, _content_words, _quote_aware_sentences
+# The compiler tags demonstrations against the LIVE net's own quote rule,
+# imported rather than reimplemented. engine.m4.grounding_net depends only on
+# `re` and engine.m1.gates_experimental (no m2, no m4 siblings), so this is a
+# leaf import, not a compiler->runtime cycle. Copying the check here instead
+# would defeat the point: the two must agree BY CONSTRUCTION, because a demo
+# tagged one way and checked another is exactly the defect it exists to stop.
+from engine.m4.grounding_net import _quoted_spans, _span_in_records
 
 from .canonical import canonical_json
 
@@ -40,7 +47,60 @@ def _fleet_voice_record(fleet: dict) -> dict | None:
     return _one(fleet, "fleet_voice")
 
 
-def build_fleet_preamble(fleet: dict, registry_entry: dict) -> list[str]:
+# The citation contract's worked example ships two PLACEHOLDER ids -
+# `world.term.example` / `world.gravity.example` - and the fleet record's own
+# trailing body says so plainly: they exist "only so `citation_contract` is a
+# complete, self-explanatory paragraph on its own - never the line a model is
+# actually shown", with the per-world substitution named there as still-open
+# M2 compiler work. It was never implemented, so all seven packages shipped
+# the literal token `world` into live model input. A model reads that as the
+# namespace and emits `world.story.pliny-interrogation`,
+# `world.term.hesychia` - correct shape, no such record - and every sentence
+# so tagged is withheld as an unresolvable id. Measured live 2026-08-23: 46%
+# of all emitted tags were this one substitution, and one desert turn on
+# prayer was annihilated whole, the participant told the world had no
+# grounded material on prayer.
+#
+# Filled from the world's own records, exactly as `{world}` in pronoun_rule
+# is already filled from the world's own registry entry - mechanical,
+# deterministic (lowest sorted id of the matching type), never a hand-written
+# per-world phrase. Principle 3 holds: this substitutes real ids into record-
+# authored prose, it does not let the compiler author prompt content.
+_EXAMPLE_PLACEHOLDERS = ("world.term.example", "world.gravity.example")
+
+
+def _example_record_id(records: dict, preferred_type: str) -> str | None:
+    """Lowest sorted id of `preferred_type`; failing that, of any citable
+    record. A demonstration is never citable ground, so it is excluded."""
+    for wanted in (preferred_type, None):
+        ids = sorted(
+            record["id"]
+            for record in records.values()
+            if record.get("record_type") != "demonstration"
+            and (wanted is None or record.get("record_type") == wanted)
+        )
+        if ids:
+            return ids[0]
+    return None
+
+
+def _fill_citation_example(contract: str, records: dict) -> str:
+    """Substitutes each placeholder id for a real one from this world's own
+    corpus. A placeholder with no substitute available is dropped from the
+    example rather than shipped: an absent second tag still reads as a
+    correct worked line, an unresolvable one teaches a fabrication."""
+    for placeholder in _EXAMPLE_PLACEHOLDERS:
+        if f"[[{placeholder}]]" not in contract:
+            continue
+        real = _example_record_id(records, placeholder.split(".")[1])
+        if real and f"[[{real}]]" not in contract:
+            contract = contract.replace(f"[[{placeholder}]]", f"[[{real}]]")
+        else:
+            contract = contract.replace(f" [[{placeholder}]]", "").replace(f"[[{placeholder}]]", "")
+    return contract
+
+
+def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None = None) -> list[str]:
     """Returns the preamble's own emitted segments (already `## Header`-
     formatted, same shape build_prompt's other segments use) - a list, not
     bytes, so build_prompt can splice it in front of everything else with
@@ -73,7 +133,7 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict) -> list[str]:
     if pronoun_rule:
         emit("Pronoun rule", pronoun_rule.replace("{world}", world_name))
 
-    emit("Citation contract", record.get("citation_contract"))
+    emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
     emit("Limit discipline", record.get("limit_discipline"))
     return segments
 
@@ -149,10 +209,74 @@ def _candidate_head_text(record: dict) -> str:
 _MIN_SHARED_WORDS = 2
 
 
-def _tag_representative_text(text: str, candidates: list[dict]) -> str:
+# The citation contract's own words: tags go "before the terminal
+# punctuation... so a sentence-boundary split can never break inside one."
+# That is not a stylistic preference - engine.m4.grounding_net.parse_tagged
+# splits on _SENTENCE_SPLIT (?<=[.!?])\s+, so a tag emitted AFTER the final
+# stop is carried into the NEXT sentence and grounds the wrong claim, while
+# the sentence it was meant for is left untagged and withheld outright. The
+# first substantive claim of every turn is the one that loses its tag that
+# way, and the two memorable lines of an answer are usually quotes, so the
+# quotes are what a participant stops seeing. Found live, 2026-08-23, at 36%
+# of generated sentences withheld; and the compiled demonstrations are also
+# what teaches a live model where to put its own tags, so this one character
+# of placement propagates straight into generation.
+_TERMINAL_PUNCTUATION = ".!?"
+
+
+def _insert_tag(sentence: str, tag: str) -> str:
+    """Place `tag` immediately before the sentence's final terminal
+    punctuation mark - the placement the contract specifies and the live
+    splitter requires. A sentence with no terminal punctuation at all (a
+    trailing fragment) gets the tag appended; there is no split for it to
+    fall across."""
+    cut = max((sentence.rfind(mark) for mark in _TERMINAL_PUNCTUATION), default=-1)
+    if cut < 0:
+        return f"{sentence} {tag}"
+    return f"{sentence[:cut]} {tag}{sentence[cut:]}"
+
+
+def _quote_holder(sentence: str, records: dict | None) -> str | None:
+    """A sentence carrying a quoted span is judged by the live net on ONE
+    structural rule, not on ratio: the quoted words must appear verbatim in
+    a tagged record (grounding_net.check_turn's quoted-span branch). Lexical
+    overlap is the wrong instrument for that - a record that PARAPHRASES a
+    quote routinely out-scores the record that actually holds it, so the
+    ranked-best tag names a record the net will then reject, and the quote
+    is withheld. Found in the compiled demos: hal's Ciceronian-dream quote
+    tagged to a paraphrasing doctrinal_witness while
+    hal.quote.dream-follower-of-cicero, holding it verbatim, sat unused in
+    the same package.
+
+    Searched over the whole package rather than the demo's own canon cells:
+    a quote record is where it is, and the net does not scope its verbatim
+    check by cell either. Deterministic - lowest record id wins a tie.
+    Demonstration records are excluded: a demo can never be another demo's
+    ground (its own text would match itself trivially)."""
+    if not records:
+        return None
+    spans = _quoted_spans(sentence)
+    if not spans:
+        return None
+    for record_id in sorted(records):
+        record = records[record_id]
+        if record.get("record_type") == "demonstration":
+            continue
+        if all(_span_in_records(span, [record]) for span in spans):
+            return record_id
+    return None
+
+
+def _tag_representative_text(text: str, candidates: list[dict], records: dict | None = None) -> str:
     candidate_words = [(record["id"], _content_words(_candidate_head_text(record))) for record in candidates]
     tagged: list[str] = []
     for sentence in _quote_aware_sentences(text):
+        # The quote rule first: it is the net's own hard structural check,
+        # and a ratio win can never satisfy it.
+        holder = _quote_holder(sentence, records)
+        if holder:
+            tagged.append(_insert_tag(sentence, f"[[{holder}]]"))
+            continue
         words = _content_words(sentence)
         best_id, best_ratio, best_shared = None, 0.0, 0
         for record_id, record_words in candidate_words:
@@ -163,14 +287,14 @@ def _tag_representative_text(text: str, candidates: list[dict]) -> str:
             if ratio > best_ratio:
                 best_ratio, best_id, best_shared = ratio, record_id, len(shared)
         if best_id and best_ratio >= _GROUNDING_FLOOR and best_shared >= _MIN_SHARED_WORDS:
-            tagged.append(f"{sentence} [[{best_id}]]")
+            tagged.append(_insert_tag(sentence, f"[[{best_id}]]"))
         else:
             tagged.append(sentence)
     return " ".join(tagged)
 
 
 def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
-    segments: list[str] = build_fleet_preamble(fleet, registry_entry)
+    segments: list[str] = build_fleet_preamble(fleet, registry_entry, records)
 
     def emit(header: str, body: str | None) -> None:
         if body and body.strip():
@@ -222,7 +346,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         for turn in exchange:
             text = turn["text"]
             if turn.get("speaker") == "representative" and candidates:
-                text = _tag_representative_text(text, candidates)
+                text = _tag_representative_text(text, candidates, records)
             lines.append(f"{turn['speaker']}: {text}")
         emit(f"Demonstration: {demo['id']}", "\n".join(lines))
 
