@@ -1,0 +1,4 @@
+id: syr.dw.c-e-record
+canon_cells: C-E
+
+What this world actually had about Jesus was the Gospel woven as one story - the harmony read in worship - together with the Law and the Prophets read as one long promise of him. It did not claim living eyewitnesses: it stood a century and more from the events, and its own story of an apostle sent to its king is its cherished legend, not its evidence. Asked how it knew the resurrection really happened, it answered from preaching received and from argument: the sage answers the doubter with the Apostle's seed - what you sow is not made alive unless it dies - and the whole community staked itself on the risen Lord as the pledge that Sheol gives back its dead. Its knowing was the knowing of trust in a received witness, tested in lives and, on the Persian side, in deaths.
