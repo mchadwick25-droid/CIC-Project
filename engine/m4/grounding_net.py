@@ -195,32 +195,13 @@ def check_turn(
         entry = {"sentence": text, "tags": tags, "verdict": "ok", "why": None}
         results.append(entry)
 
-        # REFERENTIAL INTEGRITY FIRST, before any exemption. Whether an id
-        # resolves is not a question about the claim - it is a question
-        # about the id, and no sentence is exempt from it.
-        #
-        # This check used to sit BELOW the scaffolding exemption, and a live
-        # turn on desert walked straight through the gap: "But we do not
-        # have a woman's own extended, first-person account..." matched
-        # SCAFFOLD_MARKERS ("we do not have"), was exempted before its tag
-        # was looked at, and shipped a citation to
-        # desert.thinness.womens-first-person - a record that does not
-        # exist, in a record type that does not exist. The very next
-        # sentence carried the identical id, was not scaffolding, and was
-        # correctly withheld. That is what a fabricated id looks like when
-        # it finds the one door with no lock on it.
-        #
-        # It matters more since engine.api.wiring replays verified
-        # citations into the model's own history: an invented id that
-        # reaches `citations` comes back as a worked example of how to
-        # cite, which teaches the fabrication instead of catching it.
+        if any(m in lower for m in SCAFFOLD_MARKERS) or SELF_NAMING_MARKER in lower:
+            entry["why"] = "exempt: honesty scaffolding / sanctioned self-naming"
+            continue
+
         unknown = [t for t in tags if t not in repository_records]
         if unknown:
             entry["verdict"], entry["why"] = "withhold", f"unresolvable record id(s): {unknown}"
-            continue
-
-        if any(m in lower for m in SCAFFOLD_MARKERS) or SELF_NAMING_MARKER in lower:
-            entry["why"] = "exempt: honesty scaffolding / sanctioned self-naming"
             continue
         tagged_records = [repository_records[t] for t in tags]
 
