@@ -31,7 +31,7 @@ relations:
 - type: enabled-by
   target: syr.force.shapur-persecution
 - type: associated-with
-  target: syr.dw.f6-p-suffering
+  target: syr.dw.suffering
 - type: illustrated-by
   target: syr.story.simeon-martyrdom
 - type: illustrated-by

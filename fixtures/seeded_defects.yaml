@@ -107,9 +107,17 @@ defects:
   - id: canon-coverage-blank-cell
     gate: canon-coverage
     layer: M1
-    target_record: records/fix/honest_limit/fix.limit.f6-t-outsiders-fate.md
+    target_record: records/fix/honest_limit/fix.limit.outsiders-fate.md
     mutation: {op: remove_record}
     expected_failure: "canon cell F6-T now has neither a substantive record nor an honest_limit - blank cell, coverage gate must fail (Artifact-1 §6 coverage rule)"
+
+  - id: id-convention-cell-code-in-slug
+    gate: id-convention
+    layer: M1
+    note: "mirrors the real defect this gate exists to catch - measured live on syr, where [[syr.dw.f2-e-decides]] and [[syr.dw.c-t-reading]] were each the cell code of one real witness spliced onto the slug of another. All 22 syr witness ids were in its prompt; the failure was too many near-identical addresses, not a missing one."
+    target_record: records/fix/honest_limit/fix.limit.outsiders-fate.md
+    mutation: {op: set_field, path: id, value: "fix.limit.f6-t-outsiders-fate"}
+    expected_failure: "an honest_limit id carries a canon-cell code in its slug - the cell belongs in canon_cells, and a cell prefix in front of a slug is what the voice splices"
 
   - id: no-build-attribution-leaked-ruling
     gate: no-build-attribution

@@ -43,9 +43,9 @@ relations:
 - type: associated-with
   target: syr.contested.papa-primacy
 - type: associated-with
-  target: syr.dw.f3-i-authority-lived
+  target: syr.dw.authority-lived
 - type: associated-with
-  target: syr.dw.f1-e-decides
+  target: syr.dw.decides
 - type: associated-with
   target: syr.story.jacob-nicaea
 name: 'Authority-Structure Ambiguity: Covenant Standing and Episcopal Office [TENSIONAL - C4]'

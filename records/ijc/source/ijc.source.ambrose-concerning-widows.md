@@ -35,7 +35,7 @@ the treatise proper (chapter I, addressing marriage's status against
 NARROWLY LICENSED to Concerning Widows alone, consistent with this
 build's per-work licensing convention for the npnf210 volume - not
 Concerning Virgins or De Officiis Ministrorum in the same volume unless
-separately licensed. Licenses ijc.dw.f5-t-marriage-ranked: this
+separately licensed. Licenses ijc.dw.marriage-ranked: this
 world's own teaching on marriage's real but subordinate standing,
 previously missed by a honest_limit that claimed the whole topic was
 absent from the record.

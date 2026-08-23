@@ -28,7 +28,7 @@ relations:
 - type: associated-with
   target: desert.force.village-ascetic-culture
 - type: associated-with
-  target: desert.dw.f3-e-strangest
+  target: desert.dw.strangest
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative): named author (Athanasius), specific text and chapter reference, composed within a generation of the events it narrates. Held at Tier 1 for the narrative's existence and general content, not for a claim of verified interior experience."
 tellable_as: "Antony's own call - hearing the Gospel read aloud and taking it as spoken to him directly"

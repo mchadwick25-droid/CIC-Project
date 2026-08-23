@@ -33,7 +33,7 @@ Added at review (Opus canon-structure pass, 2026-08-21): Letter LIX
 file line 7250) verified present and read in full - chapter IV (from
 line 7398) states the transmission of original sin to Adam's
 descendants in plain anti-Pelagian/anti-Eutychian terms, licensing
-ijc.dw.f1-t-original-sin-transmitted and correcting this build's prior
+ijc.dw.original-sin-transmitted and correcting this build's prior
 honest_limit overclaim that no such material exists in the corpus.
 
 Strand A's own closing self-statement: the Tome as

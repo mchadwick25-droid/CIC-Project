@@ -111,6 +111,14 @@
       ]
     },
     {
+      "id": "id-convention-cell-code-in-slug",
+      "gate": "id-convention",
+      "status": "caught",
+      "findings": [
+        "fix.limit.f6-t-outsiders-fate: slug opens with a canon-cell code. The cell belongs in canon_cells=['F6-T'], not in the id - a cell prefix in front of a slug is what the voice splices."
+      ]
+    },
+    {
       "id": "no-build-attribution-leaked-ruling",
       "gate": "no-build-attribution",
       "status": "caught",

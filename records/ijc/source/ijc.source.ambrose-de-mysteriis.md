@@ -48,7 +48,7 @@ per-work licensing convention for the npnf210 volume (see
 ijc.source.ambrose-epistles, ijc.source.ambrose-sermo-contra-auxentium)
 - not the surrounding treatises in the same volume (De Officiis,
 Concerning Virgins, Concerning Widows, etc.) unless separately
-licensed. Licenses ijc.dw.f1-t-bread-made-body: this world's own
+licensed. Licenses ijc.dw.bread-made-body: this world's own
 sacramental-theology answer to what the bread and cup were understood
 to be, previously missed by a honest_limit that claimed the question
 was never engaged.

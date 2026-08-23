@@ -30,4 +30,4 @@ modern_lens_note: 'Most of these titles remain familiar Christian vocabulary tod
 Verified verbatim (Dem XVII.2). USE NOTE: the sentence stands inside
 a demonstration framed as a reply to Jewish objections - the
 polemical frame is stated wherever the quote is grounded
-(syr.dw.c-t-was-jesus-god carries it).
+(syr.dw.was-jesus-god carries it).

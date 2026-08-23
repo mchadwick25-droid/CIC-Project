@@ -55,7 +55,7 @@ desert.figure.antony directly, though the compiled text is Athanasius's
 own third-person narration of Antony's action ("he drove them..."), not
 Antony's reported speech - the narrator/actor confusion this build has
 now charged three times elsewhere (desert.force.melitian-rivalry,
-desert.dw.f3-p-melitian-power, desert.dw.c-p-someone-like-me), landing
+desert.dw.melitian-power, desert.dw.someone-like-me), landing
 this time in a compiled identity field for the corpus's sole coverage
 of F3-T. Corrected to name the narrator, matching the convention
 desert.quote.pachomius-angel-tablet and desert.quote.arsenius-flee-

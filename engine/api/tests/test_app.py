@@ -156,13 +156,13 @@ def test_history_replays_the_citations_that_verified():
         {
             "speaker": "alx",
             "text": "He was God's own Word. We argued about it for a century.",
-            "citations": [{"sentence": "He was God's own Word.", "record_ids": ["alx.dw.c-i-jesus"]}],
+            "citations": [{"sentence": "He was God's own Word.", "record_ids": ["alx.dw.jesus"]}],
         },
     ]
     said = _history_from(transcript)[1]["content"]
     # the tag goes back on, BEFORE the stop, so a sentence split cannot
     # carry it onto the next sentence
-    assert said == "He was God's own Word [[alx.dw.c-i-jesus]]. We argued about it for a century."
+    assert said == "He was God's own Word [[alx.dw.jesus]]. We argued about it for a century."
 
 
 def test_a_sentence_the_net_withheld_keeps_its_text_and_loses_its_tag():

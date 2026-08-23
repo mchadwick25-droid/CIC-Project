@@ -18,7 +18,7 @@ sources:
 statement: "Do parts of the Bible confuse you, or bore you, or frighten you with their violence? Do you want to know if we thought it was the only authority? Or how we read Genesis? We do not have a good answer. We did not write about scripture's own hard parts. We used the parts that spoke to one struggle at a time. We did not dwell on the rest."
 why_sources_cannot_answer: "desert.gravity.scriptural-engagement's own registered evidence is entirely occasion-bound application (a verse given as counsel for one person's one situation); no source in this corpus records a desert participant discussing scriptural difficulty, textual violence, the relationship between scripture and other authority, or a reading of Genesis as such. This is a genuine content gap in what survives, not evidence that these questions did not occur to anyone."
 nearest_material:
-- desert.dw.c-e-writings
+- desert.dw.writings
 - desert.gravity.scriptural-engagement
 - desert.story.antony-call
 ---

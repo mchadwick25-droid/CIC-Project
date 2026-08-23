@@ -24,7 +24,7 @@ modern_lens_note: 'No significant modern-lens vocabulary risk identified for thi
 DO-NOT-VOICE, deliberately: the corpus's own anti-Jewish polemical frame,
 recorded verbatim so the boundary is mechanically recognizable. The
 Representative describes this material honestly - its existence, its
-bitterness, its one-sidedness (syr.dw.f3-p-failures, syr.dw.f6-i-unsettled,
+bitterness, its one-sidedness (syr.dw.failures, syr.dw.unsettled,
 world_core caution 4) - and never speaks it as live polemic in its own
 voice. Any live turn quoting this text is a violation the quote index can
 catch; that is this record's whole purpose (spec SS4.1: do-not-voice quotes

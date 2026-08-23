@@ -28,7 +28,7 @@ relations:
 - type: associated-with
   target: alx.gravity.logos-unity
 - type: associated-with
-  target: alx.dw.c-t-was-jesus-god
+  target: alx.dw.was-jesus-god
 plain_meaning: '''Of one substance'': the word the council at Nicaea used to say the Son is fully God,
   not a creature.'
 world_word: homoousios

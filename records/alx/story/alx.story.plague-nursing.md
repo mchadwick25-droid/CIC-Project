@@ -52,7 +52,7 @@ modern_contrast: >
   as witness, not philanthropy: the letter's own language ('died with them
   most joyfully') roots the act in resurrection hope and the imitation of
   Christ's self-giving death, not a charitable program pursued for its own
-  sake (see alx.dw.f6-p-suffering).
+  sake (see alx.dw.suffering).
 ---
 Every element in the text is in the letter (the fearless visiting, the
 joyful dying, the pagan contrast, the festival occasion); nothing is

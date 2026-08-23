@@ -29,7 +29,7 @@ relations:
 - type: associated-with
   target: syr.figure.ephrem
 - type: associated-with
-  target: syr.dw.f2-e-record
+  target: syr.dw.corpus-and-its-edges
 - type: associated-with
   target: syr.story.edessa-flood-201
 name: 'Transmission: Who Carried the Material, Under What Conditions, With What Selection [2B-2 - ongoing/internal,

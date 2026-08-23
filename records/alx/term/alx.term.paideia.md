@@ -29,7 +29,7 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
-  target: alx.dw.f6-p-suffering
+  target: alx.dw.suffering
 plain_meaning: 'God''s way of raising souls: he teaches through Scripture, through teachers, and even
   through hardship.'
 world_word: paideia

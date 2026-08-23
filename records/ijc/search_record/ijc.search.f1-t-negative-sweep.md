@@ -24,12 +24,12 @@ result: found
 found_sources: [ijc.source.leo-letters, ijc.source.ambrose-de-mysteriis]
 note: "Original sin: Leo's Ep. LIX.4 (npnf212 line 7398) states the transmission of original sin to
   Adam's descendants explicitly, in an anti-Eutychian argument - found, licensed
-  ijc.dw.f1-t-original-sin-transmitted. The bread and cup: Ambrose's De Mysteriis IX.50-54 (npnf210 line
+  ijc.dw.original-sin-transmitted. The bread and cup: Ambrose's De Mysteriis IX.50-54 (npnf210 line
   33189) teaches a real change of the elements' nature by consecration, at length - found, licensed
-  ijc.dw.f1-t-bread-made-body. Faith alone versus works: no comparable passage exists anywhere in the
+  ijc.dw.bread-made-body. Faith alone versus works: no comparable passage exists anywhere in the
   licensed corpus framing salvation as a contest between faith and works in later Reformation terms;
   Pauline grace-language exists (quoted incidentally inside the Leo material found above) but never
-  argued as this specific question. CONSEQUENCE: ijc.limit.f1-t-later-questions, which previously
+  argued as this specific question. CONSEQUENCE: ijc.limit.later-questions, which previously
   claimed all three F1-T questions were unaddressed, is corrected and narrowed to the one question this
   sweep confirms genuinely has no answer."
 ---

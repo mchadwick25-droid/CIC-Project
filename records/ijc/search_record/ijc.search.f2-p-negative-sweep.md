@@ -25,7 +25,7 @@ found_sources: []
 note: "No ordinary reader's own reflection on the experience of reading scripture - confusion, fright,
   or otherwise - survives in this world's own licensed base; scripture appears in the licensed corpus as
   argument (creedal proof-texting) and liturgy (the psalms sung under siege, Augustine's Confessions
-  IX.7, already licensed and used in ijc.limit.f2-p-reading-alone), never as a reader's own reported
+  IX.7, already licensed and used in ijc.limit.reading-alone), never as a reader's own reported
   encounter. CONSEQUENCE: the honest_limit's claim that this world's writers read scripture as argument,
   not as testimony to what the reading cost them, is confirmed rather than merely asserted."
 ---

@@ -29,7 +29,7 @@ note: "Corrected at a second follow-up confirmation review (2026-08-22): the ori
   or court historian either. The point survives regardless: no first-person devotional testimony about
   Jesus, and no account of doubt or struggle to believe, survives anywhere in this world's own licensed
   base, in any of these registers. Leo's Nativity preaching (Sermon XXI.I, already licensed and used in
-  ijc.limit.c-p-jesus-to-you's nearest_material) comes closest, as preached second/third-person
+  ijc.limit.jesus-to-you's nearest_material) comes closest, as preached second/third-person
   invitation, not private testimony. CONSEQUENCE: the honest_limit's claim that this world's record keeps
   public words about Jesus, not private ones, is confirmed rather than merely asserted."
 ---

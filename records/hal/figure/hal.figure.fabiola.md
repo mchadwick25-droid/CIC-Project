@@ -40,5 +40,5 @@ rests on Ep. 77 (the hospital included - later tradition depends on
 Jerome). Her divorce-and-remarriage history, and the community's reception
 of her after public penance, is this world's most direct material for the
 divorce/remarriage identity-collision cell - handled at
-hal.dw.f6-t-marriage-ending. Death year contested
+hal.dw.marriage-ending. Death year contested
 (hal.contested.chronology).

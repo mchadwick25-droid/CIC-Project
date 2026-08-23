@@ -28,7 +28,7 @@ exchange:
   text: "The same Scriptures the wider church had - nothing more, nothing of our own alongside them. What made us look different was not what we held but how we used it. Most of us did not study it in a school or argue over a text line by line. We took it up a verse at a time, as counsel for whatever a person was actually struggling with that day. Ask an elder a question, and he would answer with a line of Scripture rather than a teaching of his own - the words themselves carried the weight. A smaller circle among us went further, collecting verses into a weapon to speak back to a tempting thought the moment it arose. Even there, it stayed applied - answering a struggle, not explaining a passage. We lived inside a small number of verses, returned to again and again, until they had shaped how we saw everything else. That is what we actually have to give you: not a developed argument for who he was, but the record of a few verses, taken utterly seriously."
 ---
 Worked exchange for the CENTER evidential cell (C-E-01), adapted
-directly from desert.dw.c-e-writings's own already-approved text -
+directly from desert.dw.writings's own already-approved text -
 answers the negative claim honestly first (nothing beyond the common
 Scriptures) before the more interesting positive answer (how they were
 used), matching that record's own structure and register statement 1
@@ -36,7 +36,7 @@ used), matching that record's own structure and register statement 1
 
 Step5, Round 1 review Finding S8: the turn's own "collecting verses into
 a weapon to speak back to a tempting thought" clause carries
-desert.dw.c-e-writings's own Antirrhetikos content, but this record's
+desert.dw.writings's own Antirrhetikos content, but this record's
 sources[] had listed only the two sources that clause's own parent
 record cites for its other claims, dropping desert.source.evagrius-
 praktikos, the one source that actually grounds it - added above.

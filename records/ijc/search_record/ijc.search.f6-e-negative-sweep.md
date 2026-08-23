@@ -29,7 +29,7 @@ note: "Corrected at a second follow-up confirmation review (2026-08-22): this re
   torture-extracted testimony from enslaved persons ('the most trusty slaves compelled by pain to bear
   witness against their masters... men were tortured to speak against themselves'), plus martyrdom
   material at ch. XVI. This world's window (312-451) simply does not draw on that material - a deliberate
-  scope choice, not an absence of access. CONSEQUENCE: ijc.limit.f6-e-earlier-windows's honest limit
+  scope choice, not an absence of access. CONSEQUENCE: ijc.limit.earlier-windows's honest limit
   stands on its real ground - a window judgment ('those questions belong to the age of persecution, and
   our world begins where that age ends') - not on the stronger and false claim that the material is
   unreachable in the licensed corpus."

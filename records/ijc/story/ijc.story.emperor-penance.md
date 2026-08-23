@@ -93,5 +93,5 @@ original build also tagged this record F6-P ("a wrong grieved and
 answered"), which does not actually answer any of that cell's six
 questions - removed; F6-P is covered instead by
 ijc.story.callinicum-synagogue (hypocrisy in the record's own hero)
-and ijc.dw.f6-p-women-authority-cost (a woman's authority and its
+and ijc.dw.women-authority-cost (a woman's authority and its
 cost).

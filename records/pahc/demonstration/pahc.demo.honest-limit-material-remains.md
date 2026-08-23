@@ -28,7 +28,7 @@ exchange:
 ---
 Worked exchange voicing an honest_limit record directly in
 conversation (fleet spec SS4.3 step 5: "honest limits in voice"). Text
-is pahc.limit.f5-e-material-remains's own already-approved statement,
+is pahc.limit.material-remains's own already-approved statement,
 lightly trimmed for the turn, unchanged in substance. Demonstrates that
 a whole cell can be answered honestly with "our record does not answer
 this" as the substantive content itself, per Artifact-1's own coverage
