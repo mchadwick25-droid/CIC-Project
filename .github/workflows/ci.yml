@@ -69,6 +69,24 @@ jobs:
       - run: pip install -r engine/m1/requirements.txt
       - run: python -m pytest engine/m1/tests -q
 
+  prose-primitives:
+    # engine/prose.py sits under five production modules - the cell keyword
+    # corpus, compile-time demonstration tagging, Stage A/B retrieval
+    # scoring, and every per-sentence grounding verdict - and until now had
+    # no test of its own; it was exercised only sideways through M4's net
+    # tests, which check policy rather than the measurement underneath it.
+    # Needs m1's requirements because one test loads all six worlds to hold
+    # the no-abbreviation-in-prose-fields invariant.
+    name: Prose primitives (shared measurement)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/tests -q
+
   stage3-canon-v1:
     # Added stage 3 (Canon v1 as records + sealed held-out admission
     # paraphrases). Named stage3- (not m3-) deliberately: "M3" is the
