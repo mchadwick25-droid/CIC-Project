@@ -51,7 +51,7 @@ from engine.m4.grounding_net import check_turn
 # without special-casing the sentence it appears in.
 _TAG = re.compile(r"\[\[([a-z0-9_-]+(?:\.[a-z0-9_-]+)+)\]\]")
 _DEMO_BLOCK = re.compile(r"^## Demonstration: (\S+)\s*$", re.M)
-_REPRESENTATIVE = re.compile(r"^representative: (.*?)(?=\n## |\Z)", re.M | re.S)
+_SPEAKER = re.compile(r"^(participant|representative): ", re.M)
 
 
 def _repository_by_id(repository_json: bytes) -> dict[str, dict]:
@@ -63,18 +63,37 @@ def _repository_by_id(repository_json: bytes) -> dict[str, dict]:
 
 
 def _demonstration_turns(prompt_text: str) -> list[tuple[str, str]]:
-    """(demo_id, representative_text) for every demonstration in the compiled
-    prompt, in file order - which is build_prompt's own sorted-by-id order,
-    so this is deterministic."""
+    """(demo_id, representative_text) for EVERY representative turn in every
+    demonstration, in file order - which is build_prompt's own sorted-by-id
+    order, so this is deterministic.
+
+    Sliced between speaker markers rather than matched with one regex from
+    the first `representative:` to the end of the block. That earlier shape
+    assumed a demonstration has exactly one representative turn, and
+    engine/m1/schemas.py's `demonstration.exchange` bounds neither the
+    number of turns nor the number of representative turns. Given a legal
+    participant/representative/participant/representative exchange it
+    swallowed the whole tail, so the literal text "participant: And what
+    about Clement?" was handed to check_turn as though the voice had said
+    it - producing a withheld_sentence finding against a line no voice ever
+    spoke, on a demonstration that is entirely compliant. None of the 52
+    demonstrations shipped today has a second representative turn, so it
+    was latent rather than live; the schema is what permits it, and the
+    schema is what this now follows."""
     out = []
     for match in _DEMO_BLOCK.finditer(prompt_text):
         block = prompt_text[match.end() :]
         next_header = block.find("\n## ")
         if next_header != -1:
             block = block[:next_header]
-        rep = _REPRESENTATIVE.search(block)
-        if rep:
-            out.append((match.group(1), rep.group(1).strip()))
+        marks = list(_SPEAKER.finditer(block))
+        for i, mark in enumerate(marks):
+            if mark.group(1) != "representative":
+                continue
+            end = marks[i + 1].start() if i + 1 < len(marks) else len(block)
+            turn = block[mark.end() : end].strip()
+            if turn:
+                out.append((match.group(1), turn))
     return out
 
 
@@ -116,6 +135,44 @@ def demonstration_net_findings(prompt_txt: bytes, repository_json: bytes) -> lis
                 }
             )
     return findings
+
+
+class DemonstrationNetFailure(Exception):
+    """A compile that would ship a citation the package cannot resolve.
+
+    Raised by compile_world, so the bad package never becomes bytes on
+    disk. Scoped to `unresolvable_tag` deliberately, and only that:
+
+      * `unresolvable_tag` has no correct reading. A tag naming a record
+        the package does not contain is withheld at runtime AND is what a
+        live model imitates - it is how [[world.term.example]] taught seven
+        worlds' voices to invent a namespace. Nothing legitimate produces
+        one, so nothing legitimate is blocked by refusing it.
+
+      * `withheld_sentence` is reported, and does NOT stop a compile. The
+        residual class after the §9.7 fixes is a real content question -
+        syr's heresiological sentence has no single record clearing the
+        floor, and the honest answer is either a new record or a revised
+        sentence, both human decisions. A compiler that refuses to build
+        the world until a person makes that call would make the check
+        something to switch off rather than something to read.
+
+    The asymmetry is the same one this module's own docstring draws
+    between the two finding kinds, now with teeth on the half that has no
+    legitimate reading. Whether `withheld_sentence` should also block is
+    an open question on PR #24, not an oversight.
+    """
+
+
+def raise_on_unresolvable(report: dict, world_key: str) -> None:
+    unresolvable = [f for f in report["findings"] if f["kind"] == "unresolvable_tag"]
+    if not unresolvable:
+        return
+    detail = "; ".join(f["detail"] for f in unresolvable)
+    raise DemonstrationNetFailure(
+        f"{world_key}: compiled prompt cites {len(unresolvable)} record id(s) this package does not "
+        f"contain, so the compile is refused rather than shipped - {detail}"
+    )
 
 
 def build_demonstration_net_report(prompt_txt: bytes, repository_json: bytes) -> dict:

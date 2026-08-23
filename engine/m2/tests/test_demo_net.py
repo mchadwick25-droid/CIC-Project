@@ -89,3 +89,45 @@ def test_a_demonstration_with_no_tags_at_all_is_skipped_not_flagged():
         "## Demonstration: fix.demo.c-i\n\nparticipant: Who?\nrepresentative: Clement of Alexandria taught here."
     )
     assert [f for f in demonstration_net_findings(prompt, REPOSITORY_JSON) if f["kind"] == "withheld_sentence"] == []
+
+
+# ---------------------------------------------------------------------------
+# Multi-turn demonstrations (PR #24 review).
+#
+# The earlier parser matched one regex from the first `representative:` to
+# the end of the block, assuming exactly one representative turn.
+# engine/m1/schemas.py's demonstration.exchange bounds neither the number of
+# turns nor the number of representative turns.
+# ---------------------------------------------------------------------------
+from engine.m2.demo_net import _demonstration_turns
+
+TWO_TURN = _prompt(
+    "## Demonstration: fix.demo.c-i\n\n"
+    "participant: Who was Jesus?\n"
+    "representative: We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]].\n"
+    "participant: And what about Clement?\n"
+    "representative: We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
+)
+
+
+def test_each_representative_turn_is_read_separately():
+    turns = _demonstration_turns(TWO_TURN.decode("utf-8"))
+    assert len(turns) == 2
+    assert all(demo_id == "fix.demo.c-i" for demo_id, _ in turns)
+    assert not any("participant:" in text for _, text in turns)
+
+
+def test_a_participant_line_is_never_analysed_as_though_the_voice_said_it():
+    """The concrete regression: swallowing the tail handed check_turn the
+    literal text "participant: And what about Clement?", which it read as a
+    proper-noun claim with no citation tag - a withheld_sentence finding
+    against a line no voice ever spoke, on a fully compliant demonstration,
+    flipping demo-net-check to a non-zero exit."""
+    findings = demonstration_net_findings(TWO_TURN, REPOSITORY_JSON)
+    assert findings == [], findings
+
+
+def test_a_single_turn_demonstration_is_unchanged_by_the_multi_turn_split():
+    assert [t for _, t in _demonstration_turns(CLEAN.decode("utf-8"))] == [
+        "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
+    ]

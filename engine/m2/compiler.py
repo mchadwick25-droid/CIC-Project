@@ -103,10 +103,21 @@ def compile_world(
     # of them - so the package carries, as evidence, whether its own
     # teaching surface survives the live net it teaches (engine/m2/
     # demo_net.py for why this exists and what it caught).
+    #
+    # An unresolvable tag RAISES here rather than being embedded and
+    # shipped: refusing the compile is the only thing that would actually
+    # have stopped [[world.term.example]] reaching seven worlds' live model
+    # input, and a report nobody is required to read is what let it. A
+    # withheld_sentence is embedded and does not raise - see
+    # DemonstrationNetFailure for why the two differ. Deterministic either
+    # way, so determinism_twice still holds.
+    demonstration_net = demo_net.build_demonstration_net_report(
+        compiled["compiled/prompt.txt"], compiled["compiled/repository.json"]
+    )
+    demo_net.raise_on_unresolvable(demonstration_net, world_key)
+
     validation_files = {
-        "validation/demonstration-net.json": canonical_json(
-            demo_net.build_demonstration_net_report(compiled["compiled/prompt.txt"], compiled["compiled/repository.json"])
-        ),
+        "validation/demonstration-net.json": canonical_json(demonstration_net),
         "validation/gates-report.json": validation.build_gates_report(records, fleet, registry),
         "validation/admission/results.json": validation.build_admission_results(world_key),
         "validation/signoffs.json": validation.build_signoffs(world_key),

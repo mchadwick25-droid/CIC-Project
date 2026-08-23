@@ -6,9 +6,9 @@ records don't support. Synthetic fixture records, same discipline as
 engine/m4/tests/test_evidence.py's own fixtures.
 """
 from engine.m2.builders import (
-    _candidate_head_text,
     _demonstration_candidates,
     _tag_representative_text,
+    _tagging_index,
     build_prompt,
 )
 
@@ -87,17 +87,16 @@ def test_demonstration_candidates_empty_when_demo_has_no_canon_cells():
     assert _demonstration_candidates(REPOSITORY, {"canon_cells": []}) == []
 
 
-def test_candidate_head_text_uses_compiler_facing_fields_only():
-    head = _candidate_head_text(TERM_WITH_MISLEADING_BODY)
-    assert "cost" not in head.lower()
-    assert "interrogation" not in head.lower()
-    assert "recognized service role" in head or "recognized role" in head
+# test_candidate_head_text_uses_compiler_facing_fields_only was deleted with
+# _candidate_head_text itself (2026-08-23, §9.7 ruling 7d). It was still
+# passing against a function nothing called any more - a green test over dead
+# code, which reads as a live guard and is not one.
 
 
 def test_tag_representative_text_tags_a_grounded_sentence():
     candidates = _demonstration_candidates(REPOSITORY, DEMO)
     tagged = _tag_representative_text(
-        "Vera met the travellers at the well outside Testland.", candidates, REPOSITORY
+"Vera met the travellers at the well outside Testland.", candidates, _tagging_index(REPOSITORY)
     )
     assert "[[fix.story.vera-at-the-well]]" in tagged
 
@@ -109,7 +108,7 @@ def test_tag_representative_text_never_tags_from_a_records_trailing_body():
     candidate - only the record's own compiled-facing head text counts."""
     candidates = _demonstration_candidates(REPOSITORY, DEMO)
     tagged = _tag_representative_text(
-        "What we can tell you is what a death for the name cost some of us.", candidates, REPOSITORY
+"What we can tell you is what a death for the name cost some of us.", candidates, _tagging_index(REPOSITORY)
     )
     assert "[[fix.term.ministrae]]" not in tagged
     assert "[[" not in tagged  # nothing else clears the floor either - correctly left untagged
@@ -117,13 +116,15 @@ def test_tag_representative_text_never_tags_from_a_records_trailing_body():
 
 def test_tag_representative_text_leaves_ungrounded_sentences_untagged():
     candidates = _demonstration_candidates(REPOSITORY, DEMO)
-    tagged = _tag_representative_text("We are glad you asked us that question today.", candidates, REPOSITORY)
+    tagged = _tag_representative_text(
+"We are glad you asked us that question today.", candidates, _tagging_index(REPOSITORY)
+    )
     assert "[[" not in tagged
 
 
 def test_tag_representative_text_empty_candidates_is_a_no_op():
     text = "Vera met the travellers at the well outside Testland."
-    assert _tag_representative_text(text, [], {}) == text
+    assert _tag_representative_text(text, [], _tagging_index({})) == text
 
 
 def test_build_prompt_tags_only_representative_turns_not_participant_turns():
@@ -155,7 +156,7 @@ def test_tag_lands_before_the_terminal_punctuation_not_after_it():
     never break inside one\"."""
     candidates = _demonstration_candidates(REPOSITORY, DEMO)
     tagged = _tag_representative_text(
-        "Vera met the travellers at the well outside Testland.", candidates, REPOSITORY
+        "Vera met the travellers at the well outside Testland.", candidates, _tagging_index(REPOSITORY)
     )
     assert tagged == "Vera met the travellers at the well outside Testland [[fix.story.vera-at-the-well]]."
 
@@ -172,9 +173,9 @@ def test_the_tag_grounds_its_own_sentence_after_the_live_splitter_runs():
     turn, and the first substantive claim always falls off the front."""
     candidates = _demonstration_candidates(REPOSITORY, DEMO)
     tagged = _tag_representative_text(
-        "Vera met the travellers at the well outside Testland. We are glad you asked us that today.",
+"Vera met the travellers at the well outside Testland. We are glad you asked us that today.",
         candidates,
-        REPOSITORY,
+        _tagging_index(REPOSITORY),
     )
     parsed = parse_tagged(tagged)
     assert parsed[0]["text"] == "Vera met the travellers at the well outside Testland."
@@ -188,7 +189,7 @@ def test_a_tagged_demo_sentence_survives_the_live_net_it_teaches():
     that gets tagged here" - asserted for the first time."""
     candidates = _demonstration_candidates(REPOSITORY, DEMO)
     tagged = _tag_representative_text(
-        "Vera met the travellers at the well outside Testland.", candidates, REPOSITORY
+        "Vera met the travellers at the well outside Testland.", candidates, _tagging_index(REPOSITORY)
     )
     verdicts = check_turn(tagged, REPOSITORY)["sentences"]
     assert [v["verdict"] for v in verdicts] == ["ok"]
@@ -197,7 +198,7 @@ def test_a_tagged_demo_sentence_survives_the_live_net_it_teaches():
 def test_a_sentence_with_no_terminal_punctuation_still_gets_its_tag():
     candidates = _demonstration_candidates(REPOSITORY, DEMO)
     tagged = _tag_representative_text(
-        "Vera met the travellers at the well outside Testland", candidates, REPOSITORY
+"Vera met the travellers at the well outside Testland", candidates, _tagging_index(REPOSITORY)
     )
     assert tagged == "Vera met the travellers at the well outside Testland [[fix.story.vera-at-the-well]]"
 
@@ -232,7 +233,8 @@ def test_a_quoted_sentence_is_tagged_to_the_record_that_holds_the_quote():
     hal.quote.dream-follower-of-cicero sat unused in the same package."""
     sentence = "He answered them: 'we did not claim to have seen him ourselves'."
     candidates = _demonstration_candidates(QUOTE_REPOSITORY, DEMO)
-    tagged = _tag_representative_text(sentence, candidates, QUOTE_REPOSITORY)
+    tagged = _tag_representative_text(
+sentence, candidates, _tagging_index(QUOTE_REPOSITORY))
     assert "[[fix.quote.seen-him]]" in tagged
     assert "[[fix.witness.paraphrase]]" not in tagged
     assert [v["verdict"] for v in check_turn(tagged, QUOTE_REPOSITORY)["sentences"]] == ["ok"]
@@ -243,7 +245,7 @@ def test_a_demonstration_is_never_another_demonstrations_quote_ground():
     any demo quoting the same line) trivially. Citing one as ground would
     be circular."""
     sentence = "He answered them: 'we did not claim to have seen him ourselves'."
-    tagged = _tag_representative_text(sentence, [], QUOTE_REPOSITORY)
+    tagged = _tag_representative_text(sentence, [], _tagging_index(QUOTE_REPOSITORY))
     assert "fix.demo" not in tagged
 
 
@@ -302,7 +304,7 @@ def test_a_double_quoted_sentence_is_tagged_to_its_quote_record_too():
     ranking - which is exactly what hands a quote to a paraphrase."""
     sentence = 'He answered them: "we did not claim to have seen him ourselves".'
     candidates = _demonstration_candidates(QUOTE_REPOSITORY, DEMO)
-    tagged = _tag_representative_text(sentence, candidates, QUOTE_REPOSITORY)
+    tagged = _tag_representative_text(sentence, candidates, _tagging_index(QUOTE_REPOSITORY))
     assert "[[fix.quote.seen-him]]" in tagged
     assert "[[fix.witness.paraphrase]]" not in tagged
     assert [v["verdict"] for v in check_turn(tagged, QUOTE_REPOSITORY)["sentences"]] == ["ok"]
@@ -314,7 +316,7 @@ def test_a_double_quote_spanning_a_sentence_boundary_gets_one_tag_not_two():
     the net then judges each half on its own - the compile-time twin of the
     orphaning seen live."""
     sentence = 'He told them: "we did not claim to have seen him ourselves. We claimed only what we were told".'
-    tagged = _tag_representative_text(sentence, [], QUOTE_REPOSITORY)
+    tagged = _tag_representative_text(sentence, [], _tagging_index(QUOTE_REPOSITORY))
     assert tagged.count("[[") == 1
 
 
@@ -335,7 +337,7 @@ def test_a_claim_is_grounded_by_a_record_outside_the_demonstrations_own_cell():
     candidates = _demonstration_candidates(REPOSITORY, DEMO)
     assert "fix.story.marcella-on-the-road" not in {c["id"] for c in candidates}
     tagged = _tag_representative_text(
-        "Marcella walked the coast road to Testland every spring.", candidates, REPOSITORY
+        "Marcella walked the coast road to Testland every spring.", candidates, _tagging_index(REPOSITORY)
     )
     assert "[[fix.story.marcella-on-the-road]]" in tagged
     assert [v["verdict"] for v in check_turn(tagged, REPOSITORY)["sentences"]] == ["ok"]
@@ -351,7 +353,9 @@ def test_an_interpretive_sentence_carries_no_tag_even_when_a_record_scores_well(
     candidates = _demonstration_candidates(REPOSITORY, DEMO)
     # shares most of its content words with the Vera story, and still must
     # not be tagged: it makes no checkable claim.
-    tagged = _tag_representative_text("What she heard, she told plainly.", candidates, REPOSITORY)
+    tagged = _tag_representative_text(
+"What she heard, she told plainly.", candidates, _tagging_index(REPOSITORY)
+    )
     assert "[[" not in tagged
 
 
@@ -360,7 +364,7 @@ def test_honesty_scaffolding_is_exempt_here_exactly_as_the_net_exempts_it():
     tagged = _tag_representative_text(
         "We will not invent a story about Vera at Testland that our record does not hold.",
         candidates,
-        REPOSITORY,
+        _tagging_index(REPOSITORY),
     )
     assert "[[" not in tagged
 
@@ -377,7 +381,7 @@ def test_a_sentence_quoting_two_records_names_both():
                              "text": "she carried the water back before dawn"},
     }
     sentence = "She wrote: 'the road was long and the well was dry', and later: 'she carried the water back before dawn'."
-    tagged = _tag_representative_text(sentence, [], two)
+    tagged = _tag_representative_text(sentence, [], _tagging_index(two))
     assert "[[fix.quote.first]]" in tagged and "[[fix.quote.second]]" in tagged
     assert [v["verdict"] for v in check_turn(tagged, two)["sentences"]] == ["ok"]
 
@@ -398,7 +402,7 @@ def test_build_apparatus_is_never_named_as_a_sentences_ground():
     tagged = _tag_representative_text(
         "Vera met the travellers at the well outside Testland.",
         _demonstration_candidates(with_apparatus, DEMO),
-        with_apparatus,
+        _tagging_index(with_apparatus),
     )
     assert "[[fix.voice.craft]]" not in tagged
     assert "[[fix.story.vera-at-the-well]]" in tagged

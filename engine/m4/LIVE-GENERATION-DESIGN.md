@@ -288,9 +288,10 @@ Three things follow, and all three are §9.7 rulings:
 2. The bar the compiler tags at **must be the net's own bar** (§6.1). Two
    independently conservative bars compose into deletion.
 3. The invariant "a demo that would pass its own net if it were live output
-   is exactly the demo that gets tagged here" must be **enforced**, not
-   documented. `engine/m2/demo_net.py` enforces it, over the compiled bytes,
-   inside `compile_world`.
+   is exactly the demo that gets tagged here" must be **checked**, not
+   documented. `engine/m2/demo_net.py` checks it over the compiled bytes
+   inside `compile_world`, and the two finding kinds are enforced
+   differently on purpose — see §8.
 
 ---
 
@@ -416,8 +417,24 @@ readers ever open.
 At compile time, `validation/demonstration-net.json` ships inside every
 package: the compiled prompt run through the live net, with every
 unresolvable tag and every withheld demonstration sentence named.
-`python -m engine.m2.cli demo-net-check` is its CI shape and exits non-zero
-on any finding.
+
+**The two finding kinds are enforced differently, on purpose:**
+
+| finding | at compile time | why |
+|---|---|---|
+| `unresolvable_tag` | **raises `DemonstrationNetFailure`** — no package is produced | There is no correct reading of a tag naming a record the package does not contain. It is withheld at runtime AND is what a live model imitates: this is exactly how `[[world.term.example]]` taught seven worlds' voices to invent a namespace. Nothing legitimate produces one, so refusing blocks nothing legitimate. |
+| `withheld_sentence` | **reported, does not raise** | Can be a genuine content question rather than a compiler bug. `syr`'s heresiological sentence has no single record clearing the floor; the honest fix is a new record or a revised sentence, both human decisions. A compiler that refuses to build the world until someone rules would make the check something to switch off rather than something to read. |
+
+Because `engine/m2/checks.staleness_sweep` recompiles every
+built/admitted/open world, CI's existing staleness job now enforces the
+hard half automatically: an unresolvable tag anywhere fails that job.
+
+`python -m engine.m2.cli demo-net-check` sweeps the *stored* packages and
+exits non-zero on **any** finding, including withheld sentences. It is the
+fuller signal and is run by hand; it is deliberately not a CI job yet,
+because it would sit red on `syr`'s open content question and a
+permanently-red check is a check nobody reads. Whether `withheld_sentence`
+should also be build-blocking is open — see §10.
 
 ---
 
@@ -550,7 +567,7 @@ spelling its name wrong.
 | **7g** | The quote-aware splitter recognises **double-quoted spans**, handled as families so a stray closer of one kind cannot cancel a genuine opener of another. Curly doubles included; curly singles deliberately excluded — U+2019 is overwhelmingly an apostrophe, and §6.2's own postmortem records what apostrophe ambiguity costs. |
 | **7h** | Every citable record section in the compiled prompt **names its own id**, in `[[id]]` form — the literal string the voice must emit, beside the content it is emitting it for. Demonstration headers stay bare ids: a demonstration is never valid ground. Quote records stay **out** of the prompt entirely — they carry license fields gating do-not-voice material and reach a turn through the evidence block, which has always named candidates as `[[id]]`. |
 | **7i** | Partial withholding is **published** (§8). |
-| **7j** | The demo/net agreement invariant is **enforced at compile time** (`engine/m2/demo_net.py`), over the compiled bytes, and ships inside every package. A documented invariant that nothing asserts is not an invariant. |
+| **7j** | The demo/net agreement invariant is **checked at compile time** (`engine/m2/demo_net.py`), over the compiled bytes, and the report ships inside every package. A documented invariant that nothing asserts is not an invariant. Enforcement is split by severity: an **unresolvable tag refuses the compile** (`DemonstrationNetFailure`); a **withheld sentence is reported and does not**. Amended 2026-08-23 after PR #24 review — as first written, this row and §5.3 both claimed the check "fails the build", and it did not: `compile_world` embedded the report and returned a full package whatever it said, so the only real gate was the separate `demo-net-check` CLI sweeping already-stored packages after the fact. That is the silent-failure shape this whole repair exists to close, reopened by the mechanism meant to close it. |
 
 **Measured effect**, nine live turns, three worlds, identical questions:
 
@@ -582,6 +599,13 @@ appeared. Fixing one thing exposed the next. 7h paid it back.
 - **Residual invented ids, 3 of 44 live.** Two are quote ids (quotes are
   license-gated out of the prompt by 7h); one names a record *type* that
   does not exist. Neither wants a header.
+- **Should `withheld_sentence` block a compile too?** Today it does not, and
+  `demo-net-check` is not a CI job for the same reason: `syr`'s one finding
+  would hold both red until a person rules on it. The alternatives are (a)
+  resolve `syr` and make both blocking, (b) a recorded per-demonstration
+  waiver in the registry, reviewed like any other registry change, or (c)
+  leave it as a read-not-gate signal. Raised on PR #24 and not decided
+  there.
 - **§9.6 temperature.** Voice generation runs at API default 1.0. Never
   ruled.
 - **`canon-map.json` unread**; **whole-world Stage B expansion** not built

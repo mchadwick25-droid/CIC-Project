@@ -5,6 +5,7 @@ out, no wall clock, no randomness, no network. Content-only; the
 compiler.py, so it doesn't have to be threaded through every function here.
 """
 import hashlib
+from typing import NamedTuple
 
 from engine.m1 import canon
 from engine.m1.gates_experimental import (
@@ -177,45 +178,16 @@ def _demonstration_candidates(records: dict, demo: dict) -> list[dict]:
     return list(seen.values())
 
 
-def _candidate_head_text(record: dict) -> str:
-    """The same compiled-facing text this record contributes elsewhere in
-    build_prompt/build_chunks - never the trailing analytical/provenance
-    body. Scoring against the FULL record (engine.m1.gates_experimental's
-    own _all_text, what _overlap_coefficient and the live net's own ratio
-    check both use) is fine for ranking already-cell-scoped candidates
-    (engine.m4.evidence's job - a slightly imprecise ranking there never
-    asserts a false citation) but proved too permissive here on real data:
-    a short demo sentence can share 2 merely-common words with a large
-    record's own review/history prose and clear the floor by coincidence.
-    Demo tags ARE asserted ground truth in the compiled prompt's own
-    highest-leverage teaching surface, so scoring is scoped tighter here,
-    on purpose, to exactly what a participant (or a live model reading its
-    own prompt) would ever actually see this record say."""
-    record_type = record.get("record_type")
-    if record_type == "term":
-        return " ".join(filter(None, [record.get("plain_meaning"), record.get("quick_meaning")]))
-    if record_type == "story":
-        return " ".join(filter(None, [record.get("tellable_as"), record.get("text")]))
-    if record_type in ("quote", "doctrinal_witness"):
-        return record.get("text") or ""
-    if record_type == "honest_limit":
-        return record.get("statement") or ""
-    if record_type in ("gravity", "force"):
-        return record.get("description") or ""
-    if record_type == "contested_claim":
-        return record.get("claim") or ""
-    return ""
-
-
-# A ratio floor alone can be cleared by a short sentence sharing just one
-# or two very common words with a large candidate's own head text (found
-# against real data: a 5-word martyrdom sentence scored 40% against an
-# unrelated term purely on "name"/"cost" overlap in the term's own head
-# text). Requiring at least this many REAL shared words too is a second,
-# independent gate a coincidence can't clear by ratio alone - the same
-# belt-and-suspenders discipline grounding_net's own quote-verbatim check
-# uses (a ratio pass never overrides a structural check).
-_MIN_SHARED_WORDS = 2
+# _candidate_head_text() and _MIN_SHARED_WORDS lived here until 2026-08-23.
+# Both belonged to the narrower compile-time bar the §9.7 ruling replaced:
+# head-text-only scoring, plus a two-shared-word guard, to keep a short demo
+# sentence from clearing the floor on incidental overlap with a large
+# record's uncompiled provenance prose. That reasoning was sound and is kept
+# in LIVE-GENERATION-DESIGN.md §9.7 ruling 7d along with what it cost - the
+# net scores over the whole record and does not scope by cell, so the two
+# bars composed into deleting 20 true, sourced sentences. Deleted rather
+# than left unreferenced: dead code that still has a passing test reads as a
+# live guard, and this file has now caused one failure of exactly that kind.
 
 
 # The citation contract's own words: tags go "before the terminal
@@ -245,7 +217,7 @@ def _insert_tag(sentence: str, tag: str) -> str:
     return f"{sentence[:cut]} {tag}{sentence[cut:]}"
 
 
-def _quote_holders(sentence: str, records: dict | None) -> list[str] | None:
+def _quote_holders(sentence: str, index: "_TaggingIndex") -> list[str] | None:
     """The record id(s) that hold this sentence's quoted words verbatim, or
     None if any span is held by nothing in the package.
 
@@ -274,20 +246,12 @@ def _quote_holders(sentence: str, records: dict | None) -> list[str] | None:
     check by cell either. Deterministic - lowest record id wins a tie, and
     the result is sorted. Demonstration records are excluded: a demo can
     never be another demo's ground (its own text would match itself)."""
+    records, search_order = index.records, index.quote_search_order
     if not records:
         return None
     spans = _quoted_spans(sentence)
     if not spans:
         return None
-    # A `quote` record is what the contract means by "the record that holds
-    # them" - the same words often also sit inside a force/story/source
-    # record that merely reproduces them, and plain id order picked those by
-    # accident (hal.force.pelagian-attack winning over
-    # hal.quote.house-destroyed on nothing but f < q).
-    search_order = sorted(
-        (rid for rid in records if records[rid].get("record_type") in _DEMO_CANDIDATE_TYPES),
-        key=lambda rid: (records[rid].get("record_type") != "quote", rid),
-    )
     holders: set[str] = set()
     for span in spans:
         holder = next(
@@ -329,8 +293,8 @@ def _quote_holders(sentence: str, records: dict | None) -> list[str] | None:
 # argument: whatever is too permissive to ASSERT here is already too
 # permissive to ACCEPT at runtime, and runtime is where a bad claim reaches
 # a participant. One bar, one place it can be wrong, one place to fix it -
-# and engine/m2/demo_net.py now fails the build if the two ever diverge
-# again.
+# and engine/m2/demo_net.py now reports the two diverging, refusing the
+# compile outright when a tag names a record the package does not contain.
 # What CHANGES here is the bar and the search scope, not which records may
 # be cited at all. _DEMO_CANDIDATE_TYPES above is the already-reviewed set of
 # content-bearing types, and it stays the universe: a repository also holds
@@ -344,6 +308,42 @@ def _quote_holders(sentence: str, records: dict | None) -> list[str] | None:
 # than the net on this one axis. That is safe in a way the old strictness was
 # not: it can only ever change WHICH record grounds a sentence, never whether
 # one does, so it cannot reintroduce the compose-into-deletion failure.
+class _TaggingIndex(NamedTuple):
+    """Everything demonstration tagging needs that is a property of the
+    PACKAGE rather than of one sentence, derived once per compile.
+
+    Built once in build_prompt and threaded through, because all three of
+    these are package-wide scans and every one of them used to be recomputed
+    inside _tag_representative_text - i.e. once per representative turn, so
+    O(demonstrations x records) instead of O(records). On ijc (154 records,
+    9 demonstrations) that was the difference between one pass and nine over
+    every record's full text, and staleness-check pays it seven times over.
+    A per-sentence function rebuilding a whole-package index is also the
+    kind of shape that invites worse later."""
+
+    records: dict
+    citable: list[tuple[str, set[str]]]
+    figure_names: set[str]
+    quote_search_order: list[str]
+
+
+def _tagging_index(records: dict) -> "_TaggingIndex":
+    return _TaggingIndex(
+        records=records,
+        citable=_citable_words(records),
+        figure_names=build_figure_lexicon(records),
+        # A `quote` record is what the contract means by "the record that
+        # holds them" - the same words often also sit inside a force/story/
+        # source record that merely reproduces them, and plain id order
+        # picked those by accident (hal.force.pelagian-attack winning over
+        # hal.quote.house-destroyed on nothing but f < q).
+        quote_search_order=sorted(
+            (rid for rid in records if records[rid].get("record_type") in _DEMO_CANDIDATE_TYPES),
+            key=lambda rid: (records[rid].get("record_type") != "quote", rid),
+        ),
+    )
+
+
 def _citable_words(records: dict) -> list[tuple[str, set[str]]]:
     """(record_id, content words of its full text) for every citable record,
     in id order so ties resolve deterministically."""
@@ -389,20 +389,19 @@ def _net_bar_record(sentence: str, citable: list[tuple[str, set[str]]], in_cell:
     return best_id
 
 
-def _tag_representative_text(text: str, candidates: list[dict], records: dict) -> str:
-    """`records` is the whole package, and is REQUIRED: the search scope is
-    package-wide now, so a caller passing candidates alone would silently tag
-    nothing at all rather than fail - the exact shape of quiet failure this
-    whole repair exists to stop."""
-    citable = _citable_words(records)
-    figure_names = build_figure_lexicon(records)
+def _tag_representative_text(text: str, candidates: list[dict], index: _TaggingIndex) -> str:
+    """`index` carries the whole package, and is REQUIRED: the search scope
+    is package-wide now, so a caller passing candidates alone would silently
+    tag nothing at all rather than fail - the exact shape of quiet failure
+    this whole repair exists to stop. Build it with _tagging_index(records)."""
+    citable, figure_names = index.citable, index.figure_names
     in_cell = {record["id"] for record in candidates}
     tagged: list[str] = []
     for sentence in _quote_aware_sentences(text):
         # The quote rule first: it is the net's own hard STRUCTURAL check and
         # no ratio can satisfy it.
         if _quoted_spans(sentence):
-            holders = _quote_holders(sentence, records)
+            holders = _quote_holders(sentence, index)
             # No holders means some span is in no record at all, so the net
             # withholds this sentence whatever it is tagged with. Left
             # untagged rather than given a tag that cannot save it and would
@@ -497,6 +496,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         body = "\n\n".join(filter(None, [story.get("tellable_as"), story.get("text")]))
         emit(f"Story: [[{story['id']}]]", body)
 
+    tagging_index = _tagging_index(records)
     for demo in _by_type(records, "demonstration"):
         exchange = demo.get("exchange") or []
         candidates = _demonstration_candidates(records, demo)
@@ -507,7 +507,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
                 # No `and candidates` guard any more: cell membership is a
                 # tie-break now, not the search space, so a demo whose cell
                 # happens to hold no candidate records still gets tagged.
-                text = _tag_representative_text(text, candidates, records)
+                text = _tag_representative_text(text, candidates, tagging_index)
             lines.append(f"{turn['speaker']}: {text}")
         emit(f"Demonstration: {demo['id']}", "\n".join(lines))
 
