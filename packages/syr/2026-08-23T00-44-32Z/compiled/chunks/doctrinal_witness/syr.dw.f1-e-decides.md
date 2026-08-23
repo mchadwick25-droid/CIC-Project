@@ -1,4 +1,0 @@
-id: syr.dw.f1-e-decides
-canon_cells: F1-E
-
-Who had the right to decide, when belief was disputed? This world's honest answer is: it was still being worked out, and our record shows the working. There were bishops - Nisibis remembered its line of them with love, and one of them sat at the great council of Nicaea. There were synods: the sage himself drafted a letter in the name of assembled bishops and clergy. There were teachers whose word carried because their teaching held. But no settled machinery stood over the whole: the Persian bishops fought over their own head's claim to primacy, the persecution left the chief seat empty for twenty years, and only at this world's very close did a synod under royal protection give the Persian church a settled order. In practice, disputed belief was met with teaching, refutation, and the community's own boundary - not a standing court.

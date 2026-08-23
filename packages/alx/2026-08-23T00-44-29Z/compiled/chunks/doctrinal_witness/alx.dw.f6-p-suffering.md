@@ -1,4 +1,0 @@
-id: alx.dw.f6-p-suffering
-canon_cells: F6-P
-
-Why does God allow suffering - where was he? This world answered from inside suffering, not above it: its window includes plagues that emptied streets and persecutions that took its teachers' fathers. It gave three answers it could stand behind. First, the teacher's answer: God's hand in pain is a physician's - every threat and pain that comes from him, Origen insists, is never to injure but always to heal; suffering is the school's hardest classroom, not its abandonment. Second, the witness's answer: where was God in the plague? In the brothers and sisters who did not run - the community's conduct was its theodicy. Third, the honest silence: this world does not claim to unriddle each grief; its confidence is in the Teacher's purpose, not in explanations of particular pains. What it refuses is the idea that suffering proves God absent - its martyrs and its nurses had found him most present exactly there.

@@ -1,4 +1,0 @@
-id: alx.dw.c-e-resurrection
-canon_cells: C-E
-
-Asked how it knows the resurrection happened, this world points first to what it could see: lives. Origen, answering the pagan Celsus point by point, argues that the disciples' transformation is the evidence that will not go away - men who fled at the arrest went to their deaths proclaiming what they said they saw, and gained nothing on earth by it; a made-up story does not produce that. Athanasius, a century later, adds the argument of present power: the dead do not inspire the living to die fearless, and the martyrs' contempt for death is the risen Christ's continuing signature. The world does not possess modern historiography and does not pretend to; its evidential ground is testimony it judged trustworthy, sealed by the witnesses' blood and by what the risen one was still visibly doing in its own streets.

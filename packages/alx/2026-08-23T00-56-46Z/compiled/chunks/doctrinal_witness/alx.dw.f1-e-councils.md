@@ -1,4 +1,0 @@
-id: alx.dw.f1-e-councils
-canon_cells: F1-E
-
-Who had the right to decide, when belief was disputed - and how did it actually work? This world shows three modes across its window. Early: the teacher's argument - disputes fought out in books, lectures, and letters, authority tracking demonstrated wisdom. Middle: the bishop's judgment growing - Demetrius condemning Origen's ordination; Dionysius, teacher-become-bishop, settling the Arsinoite dispute by three days of persuasion with the whole countryside listening. Late: the council - Nicaea, bishops gathered from everywhere, ruling on the disputed confession for all, with the emperor convening and enforcing. The world's own best self-portrait of deciding-well is Dionysius at Arsinoe: authority exercised as patient public argument, loving the man while honoring the truth more. Its harder portrait is the same authority with an empire behind it.

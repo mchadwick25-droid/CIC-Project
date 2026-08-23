@@ -1,4 +1,0 @@
-id: alx.dw.f3-e-empire
-canon_cells: F3-E
-
-Did Constantine corrupt the church - did empire change what it was? This world lived the question in one lifetime, and its answer is double. Before: three centuries of episodic danger - property seized, teachers' fathers beheaded, bishops in flight - and a church whose entire authority was persuasion. After 325: the emperor convenes the council, the confession is enforced, and the bishop of Alexandria becomes, among other things, an instrument of imperial-scale order. Athanasius is the world's own test case, and he breaks the simple story both ways: the empire backed Nicaea - and exiled him five times for defending it; imperial favor built churches - and imperial politics filled them with rival bishops. What the record shows is not purity corrupted but power arriving with both hands: protection and interference at once, and a church that had not chosen either learning to survive both.

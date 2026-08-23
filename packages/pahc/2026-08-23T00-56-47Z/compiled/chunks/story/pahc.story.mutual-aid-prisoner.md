@@ -1,9 +1,0 @@
-id: pahc.story.mutual-aid-prisoner
-canon_cells: F5-T
-
-A hostile satirist mocking a man he considers a fraud incidentally preserves a picture of real communal solidarity: widows and orphans waiting at the prison gates, officials bribed for access, visitors traveling from distant cities at communal expense.
-
-This is how it would have been, in the life of a member of this community imprisoned under threat of execution, though no one narrates this member by name. An outside observer - hostile, mocking, writing to satirize a man he considered a fraud who had once associated with this community - nonetheless preserves, almost despite himself, a picture of what happened around such an imprisonment: widows and orphans waiting at the prison gates from early morning, officials bribed so visitors could get inside, people traveling from the cities of Asia, sent by their own communities, to comfort and support the one held, sacred books read aloud to him inside the prison, and gifts of money brought.
-A separate, later witness, defending this world's own communities to a hostile Roman audience, describes the standing practice behind such moments: a voluntary monthly contribution, given only by those willing and able, not taken thence and spent "on feasts, and drinking-bouts, and eating-houses, but to support and bury poor people, to supply the wants of boys and girls destitute of means and parents, and of old persons confined now to the house" - and, the same writer adds, extending to "any in the mines, or banished to the islands, or shut up in the prisons, for nothing but their fidelity to the cause of God's Church."
-Together, these two outside accounts - one mocking, one defending - describe the same underlying pattern from opposite intentions: a community that organized real material and personal support around a member facing exactly this kind of threat.
-
