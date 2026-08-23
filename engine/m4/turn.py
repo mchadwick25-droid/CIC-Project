@@ -210,6 +210,10 @@ def _run_ordinary_voice_turn(
         "grounding": net_result,
         "do_not_voice_violation": do_not_voice_hit,
         "degraded_by_net": degraded_by_net,
+        # The finished string, checked last, after the net has cut and the
+        # fallback has appended - because that is the only text a person
+        # actually reads, and until now nothing looked at it.
+        "display_findings": grounding_net.check_display_text(answer_text),
     }
     return voice_event, usage_records
 
