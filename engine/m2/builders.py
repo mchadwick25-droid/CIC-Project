@@ -172,6 +172,35 @@ def _candidate_head_text(record: dict) -> str:
 # independent gate a coincidence can't clear by ratio alone - the same
 # belt-and-suspenders discipline grounding_net's own quote-verbatim check
 # uses (a ratio pass never overrides a structural check).
+#
+# MEASURED, and 2 is too low - left at 2 here because raising it changes
+# compiled package bytes and that is a decision to take deliberately, not
+# a side effect of writing this comment. Over all 444 representative
+# sentences in the 50 demonstration records, at the shipping floor:
+#
+#     shared words   tags   on-provenance
+#          2          24         67%
+#          3          17         94%
+#         4-5         41         90%
+#         6-9         58         91%
+#         10+         67         90%
+#
+# The two-word bucket is the only one that underperforms, and reading all
+# 24 of its tags shows the 67% is generous: the ones the provenance proxy
+# counts as correct are no better than the ones it counts as wrong, since
+# any two-word sentence will coincidentally hit one of the handful of
+# records a demonstration names. What is actually in that bucket is
+# scaffolding, questions and list fragments being handed citations -
+# "We do not resolve that for you now; our own record never did." tagged
+# to a force record on {never, record}; "We are not going to pretend to
+# you now that we did." tagged to a martyrdom story on {going, now}.
+#
+# These go into the PROMPT as worked examples of a correctly cited turn,
+# so a wrong tag teaches the live model to attach citations to framing.
+# Raising this to 3 drops 24 tags of 207 and lifts on-provenance from 88%
+# to 91%; the floor beside it cannot reach these at all, because a
+# two-content-word sentence scores ratio 1.00 whenever both its words
+# appear anywhere in a candidate.
 _MIN_SHARED_WORDS = 2
 
 
