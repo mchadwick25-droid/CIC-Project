@@ -310,6 +310,34 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         cells = ",".join(limit.get("canon_cells") or [])
         emit(f"Honest limit ({cells})", limit.get("statement"), limit["id"])
 
+    # Gravities carry their own id for the same measured reason every other
+    # section now does. After the header change above, desert's fabrication
+    # rate halved (30% -> 14%) and every remaining invented id was a gravity:
+    # the model had the concept and the right type and was guessing the slug -
+    # [[desert.gravity.evagrian-psychology]] for the record actually named
+    # evagrian-systematization ("Evagrian systematized interior psychology"),
+    # [[desert.gravity.disciple-elder-bond]] for elder-authority
+    # ("Elder-mediated oral authority").
+    #
+    # A gravity reaches the voice two ways and neither named all of them: as
+    # narrative prose folded into Horizon/Formation logic/Identity, which
+    # carried no id at all, and as an evidence candidate, of which M4 offers
+    # at most two per turn (engine.m4.evidence._PER_TYPE_CAP) out of desert's
+    # ten. So the voice met eight unnamed gravities in the prefix and built
+    # addresses for them out of their names.
+    #
+    # The name is emitted with the description because it carries the
+    # classification the voice needs anyway - "[PRIMARY]", "[TENSIONAL]".
+    # This does not change what a gravity IS for the admission gate: they stay
+    # analytical, out of substantive_types(), exactly as _ANALYTICAL_TYPES
+    # below sets out. Naming a record is not promoting it.
+    gravities = _by_type(records, "gravity")
+    if gravities:
+        emit(
+            "Gravities",
+            "\n".join(f"- [[{g['id']}]] {g.get('name')}" for g in gravities),
+        )
+
     for story in _by_type(records, "story"):
         body = "\n\n".join(filter(None, [story.get("tellable_as"), story.get("text")]))
         emit("Story", body, story["id"])
