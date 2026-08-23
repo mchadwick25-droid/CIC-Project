@@ -16,6 +16,15 @@ scores a live turn's asks against it at turn time, and engine.m2.builders'
 compiled/indexes/canon-map.json caches its output at compile time - one
 derivation, owned once, so a live Stage A match and the compiled cache can
 never silently diverge.
+
+retrieval_hint_keywords() is the second half of that same corpus, and the
+reason it is a SEPARATE function rather than more words inside
+cell_keywords: the canon vocabulary is fleet-owned and world-independent
+(which is exactly what canon-map.json can cache once for every world),
+while retrieval hints belong to one world's own records. Unioning them
+inside cell_keywords would make the compiled fleet cache wrong for every
+world; keeping them apart lets Stage A union the two at turn time and
+leaves the cache meaning precisely what it says.
 """
 from engine.m1.gates_experimental import _content_words
 
@@ -37,6 +46,34 @@ def cell_keywords(fleet_records: dict[str, dict]) -> dict[str, set[str]]:
         if record.get("record_type") != "canon_question" or not record.get("cell"):
             continue
         words.setdefault(record["cell"], set()).update(_content_words(record.get("text") or ""))
+    return words
+
+
+def retrieval_hint_keywords(records: dict[str, dict]) -> dict[str, set[str]]:
+    """Per-cell content-word corpus contributed by one world's own records:
+    each record's `retrieval.retrieve_when` text, credited to every cell in
+    that record's `canon_cells`. A record that says it should be retrieved
+    on "sickness, death, plague, care for the dying" is, in saying so,
+    naming the words that ought to reach its cell - the field was already
+    written by the world builder, gated by M1 and compiled into the
+    package, and until now nothing read it at retrieval time (only
+    retrieval.tier was ever read), so a question could miss ground whose
+    own record named the missing word.
+
+    Hints are sparse by design - most records carry none - so this widens
+    Stage A where a builder took the trouble and changes nothing where
+    they did not.
+    """
+    words: dict[str, set[str]] = {}
+    for record in records.values():
+        hints = (record.get("retrieval") or {}).get("retrieve_when") or []
+        if not hints:
+            continue
+        hint_words = _content_words(" ".join(hints))
+        if not hint_words:
+            continue
+        for cell in record.get("canon_cells") or []:
+            words.setdefault(cell, set()).update(hint_words)
     return words
 
 

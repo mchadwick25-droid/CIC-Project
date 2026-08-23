@@ -36,7 +36,7 @@ beyond-the-seed expansion this module performs, and it is exactly the
 gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
-from engine.m1.canon import cell_keywords
+from engine.m1.canon import cell_keywords, retrieval_hint_keywords
 from engine.m1.gates_experimental import _all_text, _content_words, _overlap_coefficient
 from engine.m4.grounding_net import scope_completion
 
@@ -157,7 +157,9 @@ def _query_words(message: str, asks: list[dict] | None) -> set[str]:
     return _content_words(text)
 
 
-def match_asks_to_cells(*, message: str, asks: list[dict] | None, canon_questions: dict[str, dict], top_n: int = 2) -> list[dict]:
+def match_asks_to_cells(
+    *, message: str, asks: list[dict] | None, canon_questions: dict[str, dict], repository_records: dict[str, dict] | None = None, top_n: int = 2
+) -> list[dict]:
     """Stage A (design §3.2): asks -> canon cells. canon_questions is the
     fleet's own canon_question records (records/_fleet/canon_question/),
     id -> record - the per-cell keyword corpus is derived live from their
@@ -165,22 +167,66 @@ def match_asks_to_cells(*, message: str, asks: list[dict] | None, canon_question
     stands in for). Returns up to top_n {"cell", "score", "shared_words"}
     entries, score = overlap coefficient, sorted desc; empty list means
     "no cell" (design §3.2: general conversation, evidence block still
-    built from Stage B alone against whatever the caller passes)."""
+    built from Stage B alone against whatever the caller passes).
+
+    repository_records is this world's own records, and contributes the
+    second half of the corpus: engine.m1.canon.retrieval_hint_keywords
+    credits each record's `retrieval.retrieve_when` text to the cells that
+    record serves. Without it, a cell is only reachable through the 28
+    fleet canon questions' vocabulary, so a question could miss ground
+    whose own record named the very word the question used - measured on a
+    live run, "What was it like when the plague came?" reached no cell at
+    all while alx.story.plague-nursing sat in F6-P declaring
+    retrieve_when: "sickness, death, plague, care for the dying". Passing
+    None keeps the fleet-only behaviour, which is what a caller with no
+    world in hand (the compile-time cache, the fleet's own tests) wants.
+
+    Hints only ever FILL REMAINING SLOTS: the canon-vocabulary ranking is
+    computed first and taken whole, and hint-found cells are appended
+    after it, never interleaved. Scoring the two corpora together was the
+    obvious shape and it is the wrong one - a widened cell outscores a
+    cell the fleet vocabulary matched honestly, and on the 28 canon
+    questions used as their own probe that displaced a top-2 cell on 11 of
+    86 asks in one world. This way a turn that already had a canon match
+    is bit-for-bit unchanged, and the only turns that move are the ones
+    that were reaching nothing."""
     query_words = _query_words(message, asks)
     if not query_words:
         return []
 
-    cell_words = cell_keywords(canon_questions)
+    def _rank(cell_words: dict[str, set[str]]) -> list[dict]:
+        scored = []
+        for cell, words in cell_words.items():
+            shared = query_words & words
+            if len(shared) < _MIN_ASK_MATCH_WORDS:
+                continue
+            score = len(shared) / min(len(query_words), len(words))
+            scored.append({"cell": cell, "score": round(score, 3), "shared_words": sorted(shared)})
+        scored.sort(key=lambda e: (-e["score"], e["cell"]))
+        return scored
 
-    scored = []
-    for cell, words in cell_words.items():
-        shared = query_words & words
-        if len(shared) < _MIN_ASK_MATCH_WORDS:
-            continue
-        score = len(shared) / min(len(query_words), len(words))
-        scored.append({"cell": cell, "score": round(score, 3), "shared_words": sorted(shared)})
-    scored.sort(key=lambda e: (-e["score"], e["cell"]))
-    return scored[:top_n]
+    canon_words = cell_keywords(canon_questions)
+    matches = _rank(canon_words)
+    if len(matches) >= top_n:
+        return matches[:top_n]
+
+    # Hints widen cells the fleet already defines; they never invent a
+    # cell, so a stale canon_cells value on a record can't create one.
+    hinted = {
+        cell: canon_words.get(cell, set()) | words
+        for cell, words in retrieval_hint_keywords(repository_records or {}).items()
+        if cell in canon_words
+    }
+    if not hinted:
+        return matches[:top_n]
+
+    already = {m["cell"] for m in matches}
+    for match in _rank(hinted):
+        if len(matches) >= top_n:
+            break
+        if match["cell"] not in already:
+            matches.append({**match, "from_retrieval_hint": True})
+    return matches[:top_n]
 
 
 def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000) -> list[dict]:
@@ -295,7 +341,9 @@ def assemble_evidence(
     turns this into the §3.3 prose block. Kept separate so callers that
     need the structure (tests, future SSE per-sentence citation anchors)
     never have to re-parse rendered text."""
-    cell_matches = match_asks_to_cells(message=message, asks=asks, canon_questions=canon_questions, top_n=top_n_cells)
+    cell_matches = match_asks_to_cells(
+        message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n_cells
+    )
 
     selected: list[dict] = []
     seen_ids: set[str] = set()

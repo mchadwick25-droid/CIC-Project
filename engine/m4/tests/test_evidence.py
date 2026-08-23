@@ -96,6 +96,57 @@ def test_match_asks_to_cells_respects_top_n():
     assert len(matches) <= 1
 
 
+# A record whose own retrieval hints name words no canon_question uses -
+# the shape that made "What was it like when the plague came?" reach no
+# cell at all on a live run while the plague story sat in its coverage.
+HINTED = {
+    "id": "fix.story.sickness",
+    "record_type": "story",
+    "canon_cells": ["F1-E"],
+    "tellable_as": "The community nursed the dying through the great sickness and many died with them.",
+    "retrieval": {"tier": 1, "retrieve_when": ["sickness, death, plague, care for the dying"], "do_not_retrieve_when": []},
+}
+
+
+def test_retrieval_hints_reach_a_cell_the_canon_vocabulary_cannot():
+    # Two shared words, because _MIN_ASK_MATCH_WORDS is an absolute floor:
+    # a hint contributing one word to a cell the canon vocabulary does not
+    # otherwise touch still cannot carry that cell on its own. In the live
+    # case the union did the work - the hint supplied "plague" and the
+    # cell's own canon text already had "like".
+    q = "What was the sickness and the plague like?"
+    assert match_asks_to_cells(message=q, asks=None, canon_questions=CANON_QUESTIONS) == []
+
+    matches = match_asks_to_cells(message=q, asks=None, canon_questions=CANON_QUESTIONS, repository_records={"fix.story.sickness": HINTED})
+    assert [m["cell"] for m in matches] == ["F1-E"]
+    assert matches[0]["from_retrieval_hint"] is True
+    assert matches[0]["shared_words"] == ["plague", "sickness"]  # both words came from the record's own hint
+
+
+def test_retrieval_hints_never_displace_a_cell_the_canon_vocabulary_matched():
+    # Scoring both corpora together was the shape that displaced honest
+    # canon matches; hints may only fill slots the canon ranking left open.
+    q = "What did your community remember of Jesus?"
+    before = match_asks_to_cells(message=q, asks=None, canon_questions=CANON_QUESTIONS, top_n=1)
+    after = match_asks_to_cells(message=q, asks=None, canon_questions=CANON_QUESTIONS, repository_records={"fix.story.sickness": HINTED}, top_n=1)
+    assert before == after
+    assert after[0]["cell"] == "C-E"
+
+
+def test_retrieval_hints_cannot_invent_a_cell_the_fleet_does_not_define():
+    stale = {**HINTED, "canon_cells": ["Z9-Q"]}
+    matches = match_asks_to_cells(message="What was the sickness and the plague like?", asks=None, canon_questions=CANON_QUESTIONS, repository_records={"x": stale})
+    assert matches == []
+
+
+def test_records_without_retrieval_hints_change_nothing():
+    q = "What does your community remember of Jesus?"
+    plain = {"fix.witness.jesus": WITNESS, "fix.limit.jesus": LIMIT}
+    assert match_asks_to_cells(message=q, asks=None, canon_questions=CANON_QUESTIONS) == match_asks_to_cells(
+        message=q, asks=None, canon_questions=CANON_QUESTIONS, repository_records=plain
+    )
+
+
 # ---- Stage B ---------------------------------------------------------------
 
 
