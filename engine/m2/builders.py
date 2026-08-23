@@ -238,48 +238,81 @@ def _tag_representative_text(text: str, candidates: list[dict]) -> str:
 def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     segments: list[str] = build_fleet_preamble(fleet, registry_entry, records)
 
-    def emit(header: str, body: str | None) -> None:
+    # EVERY SECTION CARRIES THE ID OF THE RECORD IT CAME FROM, in the exact
+    # [[id]] form the citation contract asks the voice to write. Measured on
+    # a six-turn live conversation with desert: 14 of 47 tag uses pointed at
+    # records that do not exist, and the split was almost perfectly along
+    # this line -
+    #
+    #   type      real  invented   id was in its header?
+    #   story       13         0   yes
+    #   term        11         0   yes (world_word, id as fallback)
+    #   demo         1         0   yes
+    #   dw           1         6   no  - "Witness (F1-I)"
+    #   gravity      5         3   no
+    #   identity     0         2   no  - "Identity"
+    #   thinness     0         2   no  - "Thinness"
+    #   caution      0         1   no  - "Cautions"
+    #
+    # The invented ids were built out of the headers themselves: a section
+    # headed "Thinness" produced [[desert.thinness.womens-first-person]], one
+    # headed "Cautions" produced [[desert.caution.single-voice-concentration]],
+    # and desert has neither record type. Six of the seven invented ids
+    # pointed at prose that IS in this prompt - the voice was grounded and
+    # could not name its ground, so it constructed an address from the only
+    # label it had been given.
+    #
+    # engine.m4.evidence.render_evidence_block already does this for the
+    # per-turn candidates ("- [[id]] type, ... - head") and its own docstring
+    # says why: "this block and the model's own tags share one id vocabulary
+    # by construction." The cached prefix did not, and the turn that got no
+    # evidence block at all (44 input tokens, turn 1) fabricated the most.
+    def emit(header: str, body: str | None, record_id: str | None = None) -> None:
         if body and body.strip():
-            segments.append(f"## {header}\n\n{body.strip()}\n")
+            head = f"{header} [[{record_id}]]" if record_id else header
+            segments.append(f"## {head}\n\n{body.strip()}\n")
 
     craft = _one(records, "voice_craft")
     if craft:
-        emit("Identity", craft.get("identity"))
+        emit("Identity", craft.get("identity"), craft["id"])
 
     core = _one(records, "world_core")
     if core:
-        emit("Horizon", core.get("horizon"))
-        emit("Formation logic", core.get("formation_logic"))
-        emit("Thinness", core.get("thinness"))
-        emit("Cautions", core.get("cautions"))
+        # four sections, one record - they are all fields of world_core, and
+        # saying so is what stops "Formation logic" becoming a namespace.
+        emit("Horizon", core.get("horizon"), core["id"])
+        emit("Formation logic", core.get("formation_logic"), core["id"])
+        emit("Thinness", core.get("thinness"), core["id"])
+        emit("Cautions", core.get("cautions"), core["id"])
 
     if craft:
-        emit("Guard", craft.get("guard"))
+        emit("Guard", craft.get("guard"), craft["id"])
         concerns = craft.get("characteristic_concerns") or []
         if concerns:
-            emit("Characteristic concerns", "\n".join(f"- {c}" for c in concerns))
+            emit("Characteristic concerns", "\n".join(f"- {c}" for c in concerns), craft["id"])
         notes = craft.get("flavor_notes") or []
         if notes:
             emit(
                 "Flavor notes",
                 "\n".join(f"- [{n.get('segment')}] {n.get('note')}" for n in notes),
+                craft["id"],
             )
 
     for term in _by_type(records, "term"):
         body = "\n\n".join(filter(None, [term.get("plain_meaning"), term.get("quick_meaning")]))
-        emit(f"Term: {term.get('world_word', term['id'])}", body)
+        emit(f"Term: {term.get('world_word', term['id'])}", body, term["id"])
 
     for witness in _by_type(records, "doctrinal_witness"):
         cells = ",".join(witness.get("canon_cells") or [])
-        emit(f"Witness ({cells})", witness.get("text"))
+        emit(f"Witness ({cells})", witness.get("text"), witness["id"])
 
     for limit in _by_type(records, "honest_limit"):
         cells = ",".join(limit.get("canon_cells") or [])
-        emit(f"Honest limit ({cells})", limit.get("statement"))
+        emit(f"Honest limit ({cells})", limit.get("statement"), limit["id"])
 
     for story in _by_type(records, "story"):
         body = "\n\n".join(filter(None, [story.get("tellable_as"), story.get("text")]))
-        emit(f"Story: {story['id']}", body)
+        emit("Story", body, story["id"])
 
     for demo in _by_type(records, "demonstration"):
         exchange = demo.get("exchange") or []
@@ -290,7 +323,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
             if turn.get("speaker") == "representative" and candidates:
                 text = _tag_representative_text(text, candidates)
             lines.append(f"{turn['speaker']}: {text}")
-        emit(f"Demonstration: {demo['id']}", "\n".join(lines))
+        emit("Demonstration", "\n".join(lines), demo["id"])
 
     return ("\n".join(segments) + "\n").encode("utf-8")
 
