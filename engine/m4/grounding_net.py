@@ -50,14 +50,15 @@ even make a checkable claim," owned once.
 import re
 
 from engine.prose import (
-    GROUNDING_FLOOR,
     QUOTE_CLOSE,
     QUOTE_OPEN,
     SCAFFOLD_MARKERS,
     SELF_NAMING_MARKER,
+    WITHHOLD_FLOOR,
     all_text,
     claim_markers,
     content_words,
+    grounding_ratio,
     quote_aware_sentences,
 )
 
@@ -171,7 +172,7 @@ def check_turn(
     repository_records: dict[str, dict],
     *,
     thin_topics: list[dict] | None = None,
-    grounding_floor: float = GROUNDING_FLOOR,
+    grounding_floor: float = WITHHOLD_FLOOR,
 ) -> dict:
     """Per-sentence verdicts over one tagged turn.
 
@@ -230,8 +231,8 @@ def check_turn(
         cited_words: set[str] = set()
         for rec in tagged_records:
             cited_words |= content_words(all_text(rec))
-        words = content_words(text)
-        ratio = (len(words & cited_words) / len(words)) if words else 1.0
+        # the shared implementation, not a second copy of the same formula
+        ratio = grounding_ratio(text, cited_words)
         entry["ratio"] = round(ratio, 2)
 
         if ratio >= grounding_floor:

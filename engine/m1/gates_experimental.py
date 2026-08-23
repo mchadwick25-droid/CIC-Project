@@ -26,10 +26,10 @@ is only what the file's name has always claimed.
 import re
 
 from engine.prose import (
-    GROUNDING_FLOOR,
     SCAFFOLD_MARKERS,
     SELF_NAMING_MARKER,
     SPELLED_NUMBERS,
+    WITHHOLD_FLOOR,
     all_text,
     claim_markers,
     content_words,
@@ -188,7 +188,7 @@ def gate_grounded_claim(records, fleet, registry) -> list[str]:
                 continue  # no checkable claim in this sentence - interpretive framing, not this gate's job
 
             ratio = grounding_ratio(sentence, cited_words)
-            if ratio >= GROUNDING_FLOOR:
+            if ratio >= WITHHOLD_FLOOR:
                 continue  # grounded enough in its own cited sources
 
             thin_hits = []

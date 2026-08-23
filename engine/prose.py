@@ -22,10 +22,10 @@ They are load-bearing, so they are public, named plainly, and live in a
 file whose name does not tell a reader they are experimental. The split is
 a move: not one character of behaviour changed with it.
 
-GROUNDING_FLOOR is used in two unrelated places and this is worth knowing
-before changing it: engine.m2.builders decides at compile time whether a
-demonstration sentence earns a citation tag, and engine.m4.grounding_net
-decides at run time whether a sentence is grounded. One number, two jobs.
+One constant, GROUNDING_FLOOR, was doing two unrelated jobs on two
+different metrics. It is now DEMONSTRATION_TAG_FLOOR and WITHHOLD_FLOOR -
+same value, separately settable, each documented against the measurement
+it actually gates. See their comment below.
 """
 import re
 
@@ -58,14 +58,6 @@ _STOPWORDS = {
 # sanctioned "I" left in the corpus - "I am a representative of [world]" -
 # gets its own exemption below, not folded in here, since it isn't honesty-
 # scaffolding, it's a one-time self-naming that never needs grounding.
-
-
-# Updated 2026-08-21 for the fleet-wide pronoun rule (strict we-voice,
-# always - see the exemplar transcript and alx.voice.craft's superseding
-# ruling): vocational-honesty scaffolding now reads "we", not "I". The one
-# sanctioned "I" left in the corpus - "I am a representative of [world]" -
-# gets its own exemption below, not folded in here, since it isn't honesty-
-# scaffolding, it's a one-time self-naming that never needs grounding.
 SCAFFOLD_MARKERS = (
     "we must be honest", "we will not invent", "we will not pretend",
     "we will not put words", "we cannot", "we will not", "we are not your judge",
@@ -73,12 +65,6 @@ SCAFFOLD_MARKERS = (
     "we must be careful", "we will not draw one", "we will not sell you",
     "we find none of these", "we owe you honesty", "we must leave",
 )
-
-# The one sanctioned "I" left in the register: a one-time, honest self-
-# naming of what the voice literally is (a representative), never an
-# empirical claim about the world's history - it doesn't need a citation
-# any more than a form's "I am a bot" disclosure would.
-
 
 # The one sanctioned "I" left in the register: a one-time, honest self-
 # naming of what the voice literally is (a representative), never an
@@ -121,25 +107,6 @@ def content_words(text: str) -> set[str]:
 
 def sentences(text: str) -> list[str]:
     return [s.strip() for s in _SENTENCE_SPLIT.split(text or "") if s.strip()]
-
-
-# An opening quote is a straight single quote at start-of-text or after
-# space/colon/comma/dash; a closing one is followed by space, punctuation,
-# or end. Apostrophes inside words ("God's") match neither. A lone false
-# closer (teachers') can't force a merge because merging only triggers
-# while openers outnumber closers. Shared here (not left as an engine.m4-
-# only concern) because M2's compile-time demonstration tagging needs the
-# identical quote-aware split M4's live net uses - one splitter, owned
-# once, so a demo tagged at compile time and a live turn checked at
-# generation time can never silently disagree about where a sentence ends.
-# Straight single AND double quotes. Double quotes were missing, and the
-# corpus already holds 249 paired double-quoted spans - so a sentence
-# quoting with " split inside the quotation and the orphan reached a
-# participant on its own. Seen live on alx: `It has made men out of stones,
-# men out of beasts".` was shown while its own opening clause, "Clement,
-# one of our first teachers, called him the New Song:", was withheld for
-# having no tag. A live model quotes with " far more readily than with ',
-# whatever the prompt around it does.
 
 
 # An opening quote is a straight single quote at start-of-text or after
@@ -204,17 +171,6 @@ def overlap_coefficient(query_words: set[str], record: dict) -> float:
     shared = query_words & words
     return len(shared) / min(len(query_words), len(words))
 
-
-# Language that shows a record is already NAMING a gap honestly in its own
-# prose, rather than narrating past it - a hit here means the record IS the
-# correct handling of a thin_topic, not a violation of it. Distinct from
-# gate 3's SCAFFOLD_MARKERS (that list catches vocational-honesty framing;
-# this one catches the actual admission-of-absence phrasing).
-
-
-# v1 gates end here (kept for the record of what was tried and why it fell
-# short - not registered below). v2 starts here.
-
 # "one" deliberately excluded - overwhelmingly used as a pronoun/article
 # ("the one asking", "one thing") rather than a quantity, which made it the
 # single largest false-positive source in testing.
@@ -228,27 +184,29 @@ SPELLED_NUMBERS = {
 
 _DIGIT = re.compile(r"\b\d+\b")
 
-# grounding ratio below which a specific claim counts as ungrounded. Chosen
-# empirically (see the test run this was calibrated against): high enough
-# that a real quoted/cited sentence (which shares most of its own words with
-# the source it's quoting) clears it easily, low enough that a sentence
-# built mostly from words with no citation behind them does not.
-
-
-# grounding ratio below which a specific claim counts as ungrounded. Chosen
-# empirically (see the test run this was calibrated against): high enough
-# that a real quoted/cited sentence (which shares most of its own words with
-# the source it's quoting) clears it easily, low enough that a sentence
-# built mostly from words with no citation behind them does not.
-GROUNDING_FLOOR = 0.4
-
-
-# Capitalized by religious convention, not because they name a specific,
-# checkable entity - "God" appears in nearly every sentence a Christian-
-# formation voice speaks, and treating that as evidence of a documentary
-# claim would flag almost everything. Proper-noun detection is meant to
-# catch a real person/place/text (Clement, Basilides, Nicaea), not the
-# doctrinal vocabulary that IS the subject matter.
+# Two floors, one number, and they were a single constant until now. They
+# are separated because they are not even the same measurement:
+#
+#   DEMONSTRATION_TAG_FLOOR  engine.m2.builders, compile time. Scores an
+#                            overlap coefficient - shared words over the
+#                            SMALLER of the sentence and the candidate
+#                            record. Decides whether a demonstration
+#                            sentence earns a citation tag baked into the
+#                            package.
+#   WITHHOLD_FLOOR           engine.m4.grounding_net, run time. Scores a
+#                            grounding ratio - shared words over the
+#                            SENTENCE'S OWN length. Decides whether a
+#                            sentence a Representative just produced
+#                            reaches the participant at all.
+#
+# Different denominators mean 0.4 does not mean the same thing on both
+# sides, so one number governing both was a coincidence of authorship, not
+# a shared decision. Both are 0.4 today, which is where they were before
+# the split - nothing moved, and moving either one needs its own
+# measurement (Program-Spec principle 10: measured, not asserted). Neither
+# has a baseline behind it yet; the value was chosen by eye.
+DEMONSTRATION_TAG_FLOOR = 0.4
+WITHHOLD_FLOOR = 0.4
 
 
 # Capitalized by religious convention, not because they name a specific,
