@@ -173,10 +173,9 @@ def _candidate_head_text(record: dict) -> str:
 # belt-and-suspenders discipline grounding_net's own quote-verbatim check
 # uses (a ratio pass never overrides a structural check).
 #
-# MEASURED, and 2 is too low - left at 2 here because raising it changes
-# compiled package bytes and that is a decision to take deliberately, not
-# a side effect of writing this comment. Over all 444 representative
-# sentences in the 50 demonstration records, at the shipping floor:
+# MEASURED, and raised from 2 to 3 on that measurement. Over all 444
+# representative sentences in the 50 demonstration records, at the
+# shipping floor:
 #
 #     shared words   tags   on-provenance
 #          2          24         67%
@@ -197,11 +196,14 @@ def _candidate_head_text(record: dict) -> str:
 #
 # These go into the PROMPT as worked examples of a correctly cited turn,
 # so a wrong tag teaches the live model to attach citations to framing.
-# Raising this to 3 drops 24 tags of 207 and lifts on-provenance from 88%
-# to 91%; the floor beside it cannot reach these at all, because a
-# two-content-word sentence scores ratio 1.00 whenever both its words
-# appear anywhere in a candidate.
-_MIN_SHARED_WORDS = 2
+# The floor beside it cannot reach these at all, because a two-content-word
+# sentence scores ratio 1.00 whenever both its words appear anywhere in a
+# candidate - only a shared-word count can.
+#
+# At 3 the demonstration corpus keeps 190 tags of the 214 it carried at 2,
+# and on-provenance rises from 88% to 91%. Every one of the 24 dropped
+# tags rested on exactly two shared words.
+_MIN_SHARED_WORDS = 3
 
 
 def _tag_representative_text(text: str, candidates: list[dict]) -> str:
