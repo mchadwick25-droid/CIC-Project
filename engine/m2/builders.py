@@ -449,21 +449,53 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
                 "\n".join(f"- [{n.get('segment')}] {n.get('note')}" for n in notes),
             )
 
+    # EVERY record section carries its own id, in the exact [[id]] form the
+    # citation contract asks the voice to emit (2026-08-23).
+    #
+    # Only stories used to. So a world's prompt handed the model 13
+    # doctrinal_witness and 13 term records (alx's counts) as content with no
+    # id shown anywhere, while the contract in the same prompt demanded every
+    # claim be tagged. A claim drawn from that content COULD only carry an
+    # invented id. Measured live: 14 of 16 unresolvable tags had a real
+    # record in the package that satisfies the net outright -
+    # pahc.witness.f5-t-marriage-money was the model's guess at
+    # pahc.witness.marriage-and-wealth (94-100% word match), alx.term.kanon
+    # at alx.term.kanon-pisteos. The voice was reading the right record and
+    # spelling its name wrong, and every such sentence was withheld.
+    #
+    # Written as [[id]] rather than a bare id because the failure is a
+    # SPELLING failure: the model needs the literal string it must emit,
+    # beside the content it is emitting it for, not a form it has to
+    # transpose. Demonstration headers are deliberately left as bare ids -
+    # a demonstration is never valid ground for a claim, and presenting one
+    # in citation form would invite exactly that.
+    #
+    # This does not (and must not) become the whole citable vocabulary:
+    # quote records stay out of the prompt on purpose, carrying license
+    # fields that gate do-not-voice material, and reach a turn through the
+    # evidence block instead - which has always named its candidates as
+    # [[id]] (engine/m4/evidence.render_evidence_block). Same vocabulary,
+    # two surfaces, now consistent.
     for term in _by_type(records, "term"):
         body = "\n\n".join(filter(None, [term.get("plain_meaning"), term.get("quick_meaning")]))
-        emit(f"Term: {term.get('world_word', term['id'])}", body)
+        # A term with no world_word used to fall back to printing its id as
+        # the label; with the id now also shown in citation form that read as
+        # "## Term: fix.term.x [[fix.term.x]]". The label is dropped instead,
+        # matching how a story section names itself.
+        world_word = term.get("world_word")
+        emit(f"Term: {world_word} [[{term['id']}]]" if world_word else f"Term: [[{term['id']}]]", body)
 
     for witness in _by_type(records, "doctrinal_witness"):
         cells = ",".join(witness.get("canon_cells") or [])
-        emit(f"Witness ({cells})", witness.get("text"))
+        emit(f"Witness ({cells}) [[{witness['id']}]]", witness.get("text"))
 
     for limit in _by_type(records, "honest_limit"):
         cells = ",".join(limit.get("canon_cells") or [])
-        emit(f"Honest limit ({cells})", limit.get("statement"))
+        emit(f"Honest limit ({cells}) [[{limit['id']}]]", limit.get("statement"))
 
     for story in _by_type(records, "story"):
         body = "\n\n".join(filter(None, [story.get("tellable_as"), story.get("text")]))
-        emit(f"Story: {story['id']}", body)
+        emit(f"Story: [[{story['id']}]]", body)
 
     for demo in _by_type(records, "demonstration"):
         exchange = demo.get("exchange") or []

@@ -1,0 +1,4 @@
+id: syr.dw.f3-e-outsiders-empire
+canon_cells: F3-E
+
+Were these Christians hiding in catacombs? No - that is another city's story. In Edessa a church building stood early enough to be destroyed in the great flood, and the city's own chronicle records it as plainly as it records palaces; on the frontier, believers assembled openly on the first day of the week. Did the empire change what the church was? Here the question turns strange and sharp: when Rome's emperor became a Christian, the church on the PERSIAN side paid for it. The King of Kings' court accused Persia's bishops of loving Rome - the charge laid against Simeon was that his sympathies served the emperor - and being Christian began to sound like being the enemy's friend. Constantine's peace, seen from this frontier, arrived as another empire's blessing and this empire's suspicion.

@@ -411,3 +411,58 @@ def test_records_is_required_so_a_caller_can_never_silently_tag_nothing():
 
     with pytest.raises(TypeError):
         _tag_representative_text("Vera met the travellers at the well.", [])
+
+
+# ---------------------------------------------------------------------------
+# Record ids in prompt headers (2026-08-23).
+#
+# Only stories used to carry theirs. Everything else was content the model
+# was told to cite and never shown the name of.
+# ---------------------------------------------------------------------------
+def test_every_citable_record_section_names_its_own_id_in_citation_form():
+    """A claim drawn from a record whose id appears nowhere can only carry
+    an invented one. Measured live: 14 of 16 unresolvable tags had a real
+    record in the package that satisfies the net -
+    pahc.witness.f5-t-marriage-money was the model's guess at
+    pahc.witness.marriage-and-wealth. The voice was reading the right record
+    and spelling its name wrong."""
+    prompt = build_prompt(REPOSITORY, {}, {"display_name": "Fixture World"}).decode("utf-8")
+    headers = [line for line in prompt.splitlines() if line.startswith("## ")]
+    for record in (WITNESS, TERM_WITH_MISLEADING_BODY, STORY, OUT_OF_CELL_STORY):
+        assert any(f"[[{record['id']}]]" in h for h in headers), record["id"]
+
+
+def test_a_demonstration_header_is_never_written_in_citation_form():
+    """A demonstration is never valid ground for a claim; presenting one as
+    [[id]] beside records that are would invite exactly that."""
+    prompt = build_prompt(REPOSITORY, {}, {"display_name": "Fixture World"}).decode("utf-8")
+    demo_header = next(line for line in prompt.splitlines() if line.startswith("## Demonstration:"))
+    assert demo_header == f"## Demonstration: {DEMO['id']}"
+    assert "[[" not in demo_header
+
+
+def test_a_terms_human_label_survives_beside_its_id():
+    """The id is added for the model's benefit; the world's own word for the
+    term is what the section is still about."""
+    labelled = dict(REPOSITORY)
+    labelled["fix.term.ministrae"] = {**TERM_WITH_MISLEADING_BODY, "world_word": "ministrae"}
+    prompt = build_prompt(labelled, {}, {"display_name": "Fixture World"}).decode("utf-8")
+    assert "## Term: ministrae [[fix.term.ministrae]]" in prompt
+    # and with no world_word the label is dropped rather than printing the
+    # id twice
+    bare = build_prompt(REPOSITORY, {}, {"display_name": "Fixture World"}).decode("utf-8")
+    assert "## Term: [[fix.term.ministrae]]" in bare
+
+
+def test_every_id_the_prompt_shows_actually_resolves_in_the_package():
+    """The headers now put ~40 more [[id]] strings into every prompt, and
+    demo_net checks every one of them - a typo or a stale id in a header
+    would be a fabrication taught at the top of the file."""
+    from engine.m2.builders import build_repository_json
+    from engine.m2.demo_net import demonstration_net_findings
+
+    findings = demonstration_net_findings(
+        build_prompt(REPOSITORY, {}, {"display_name": "Fixture World"}),
+        build_repository_json(REPOSITORY),
+    )
+    assert [f for f in findings if f["kind"] == "unresolvable_tag"] == []

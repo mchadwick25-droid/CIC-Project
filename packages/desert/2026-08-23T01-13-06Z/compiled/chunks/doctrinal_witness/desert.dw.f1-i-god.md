@@ -1,0 +1,4 @@
+id: desert.dw.f1-i-god
+canon_cells: F1-I
+
+Most of us did not argue about God for a living; we were formed to see him. But when it mattered, one of us was called on to say plainly what we held: the Son of God is not some lesser, created thing, not brought into being out of nothing, but the Eternal Word of the Father's own being - there was never a time when he was not. Short of that kind of public moment, our ordinary way of holding it was refusal - we would have nothing to do with those who taught otherwise. Beyond that boundary, the deepest of us - and only a few of us went this deep - held that God is known less by argument than by a long stilling of the passions that otherwise crowd the mind: strip away what drives you, and in the quiet that is left, something of God becomes visible that was not visible before. That is contemplation, as the most systematic among us named it - not a doctrine to recite, but a seeing that has to be earned.

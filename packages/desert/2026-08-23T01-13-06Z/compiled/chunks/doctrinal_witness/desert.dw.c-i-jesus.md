@@ -1,0 +1,4 @@
+id: desert.dw.c-i-jesus
+canon_cells: C-I
+
+What we had of Jesus was mostly one command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me. That was the whole of it, for us - not a saying to be studied but an order to be obeyed. His death and rising were not, in our own telling, a doctrine to be defended so much as a pattern to be lived: to die daily, as the apostle put it, and so not sin - to treat every day as though it might be your last, and let go of everything you would otherwise be unwilling to lose. When persecution ended and dying for the faith was no longer something the world offered us, we did not think we had been let off. We understood the same struggle to have moved inward - the fight against the enemy now fought at the level of one's own thoughts, not at the level of the sword. Following him, for us, meant following him into that struggle.
