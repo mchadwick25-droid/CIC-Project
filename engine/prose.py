@@ -202,9 +202,34 @@ _DIGIT = re.compile(r"\b\d+\b")
 # Different denominators mean 0.4 does not mean the same thing on both
 # sides, so one number governing both was a coincidence of authorship, not
 # a shared decision. Both are 0.4 today, which is where they were before
-# the split - nothing moved, and moving either one needs its own
-# measurement (Program-Spec principle 10: measured, not asserted). Neither
-# has a baseline behind it yet; the value was chosen by eye.
+# the split - nothing moved.
+#
+# DEMONSTRATION_TAG_FLOOR now has a baseline. Swept offline over all 444
+# representative sentences in the 50 demonstration records, scored against
+# the records each demonstration's own provenance body names:
+#
+#     floor   tagged   on-provenance
+#      0.20    57%          79%
+#      0.40    48%          85%      <- shipping
+#      0.60    39%          89%
+#      1.00    25%          94%
+#
+# It sits in a broad flat region: 0.40 -> 0.60 buys four points of
+# precision and costs 39 of 214 tags, and below 0.15 the floor does
+# nothing at all (_MIN_SHARED_WORDS binds first). There is no better value
+# visible in the data, so it stays at 0.40 - now by measurement rather
+# than by eye.
+#
+# The lever that IS mispriced sits next to it in the same condition, in
+# engine.m2.builders: _MIN_SHARED_WORDS = 2. Tags resting on exactly two
+# shared words score 67% on-provenance where every other bucket scores
+# 90-94%, and reading all 24 of them shows the proxy is generous -
+# scaffolding ("We are not going to pretend to you now that we did." ->
+# a martyrdom story, on {going, now}), a question, and list fragments all
+# get citations off two generic words. See that constant's own comment.
+#
+# WITHHOLD_FLOOR has NO baseline. It gates live generation, so measuring
+# it costs real model calls, and it was chosen by eye.
 DEMONSTRATION_TAG_FLOOR = 0.4
 WITHHOLD_FLOOR = 0.4
 
