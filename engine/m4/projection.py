@@ -38,7 +38,6 @@ class SessionState:
     safety: SafetyState = field(default_factory=SafetyState)
     pressed: dict[str, bool] = field(default_factory=lambda: {"later_age": False, "other_tradition": False})
     degraded_turn_count: int = 0
-    sentences_withheld_total: int = 0
     resumed_count: int = 0
     closed: bool = False
     close_reason: str | None = None
@@ -64,24 +63,14 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
         elif event.event_type == "facilitator_turn":
             state.transcript.append({"speaker": "facilitator", "kind": payload["kind"], "text": payload["text"]})
         elif event.event_type == "voice_turn":
-            # sentences_withheld rides the transcript because the transcript
-            # is the only view most readers ever open, and a turn that lost
-            # its quoted anchor is otherwise indistinguishable here from one
-            # that lost nothing. .get() rather than [] - voice_turn events
-            # logged before this field existed are still valid events, and
-            # a projection that raises on old history is a worse bug than
-            # the one being fixed. The full per-sentence verdicts stay in
-            # the raw event payload; only the count is lifted here.
             state.transcript.append(
                 {
                     "speaker": payload["speaker"],
                     "text": payload["text"],
                     "citations": payload["citations"],
                     "glosses": payload["glosses"],
-                    "sentences_withheld": payload.get("sentences_withheld"),
                 }
             )
-            state.sentences_withheld_total += payload.get("sentences_withheld") or 0
         elif event.event_type == "gate_decision":
             if payload.get("degraded"):
                 state.degraded_turn_count += 1

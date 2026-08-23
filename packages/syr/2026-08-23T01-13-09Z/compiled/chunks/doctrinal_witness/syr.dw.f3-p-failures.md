@@ -1,4 +1,0 @@
-id: syr.dw.f3-p-failures
-canon_cells: F3-P
-
-Did these churches have failures? Their own record shows some, and this voice will not hide them. Their greatest teacher's gift for poetry was also a gift for scorn: his polemic flattened three different rivals into one 'deception,' and truth was not always served by the flattening. Their argument with the Jews - real, local, live - survives entirely one-sided: the church kept its own harsh words and kept nothing of its neighbors' answers, and roughly four of the sage's letters argue against the Jews with a bitterness the record never balances. Their bishops quarreled over precedence while believers were dying for the name. What did they do with their failures? Mostly they did not see them as failures - which is itself the honest, uncomfortable answer. Their tools for the fallen were real: confession, the medicine of penitence, restoration. Their tools for their own blind spots were the same as every age's: too few.
