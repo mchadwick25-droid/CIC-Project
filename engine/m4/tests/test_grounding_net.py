@@ -182,3 +182,37 @@ def test_a_counted_doctrine_is_still_a_figure():
     assert "number" in _claim_markers("He would read a passage three ways, for body, soul, and spirit.")
     assert "number" in _claim_markers("For the first three centuries of our window, persecution came in waves.")
     assert "number" in _claim_markers("The boy was seventeen when his father was killed.")
+
+
+def test_a_fabricated_id_on_a_scaffolding_sentence_is_still_caught():
+    """The referential-integrity check runs before the exemption. Seen live
+    on desert: "But we do not have a woman's own extended, first-person
+    account..." matched SCAFFOLD_MARKERS on "we do not have", was exempted
+    before its tag was examined, and shipped a citation to
+    desert.thinness.womens-first-person - no such record, no such record
+    type. The next sentence carried the same id, was not scaffolding, and
+    was correctly withheld."""
+    records = {"desert.limit.womens-words": {"id": "desert.limit.womens-words", "statement": "We do not have their own words."}}
+    result = check_turn(
+        "But we do not have a woman's own account [[desert.thinness.womens-first-person]].",
+        records,
+    )
+    sentence = result["sentences"][0]
+    assert sentence["verdict"] == "withhold"
+    assert "unresolvable record id" in sentence["why"]
+
+
+def test_a_scaffolding_sentence_with_a_real_id_is_still_exempt():
+    records = {"desert.limit.womens-words": {"id": "desert.limit.womens-words", "statement": "We do not have their own words."}}
+    result = check_turn(
+        "But we do not have a woman's own account [[desert.limit.womens-words]].",
+        records,
+    )
+    sentence = result["sentences"][0]
+    assert sentence["verdict"] == "ok"
+    assert "exempt" in sentence["why"]
+
+
+def test_an_untagged_scaffolding_sentence_is_still_exempt():
+    result = check_turn("We will not invent what we do not have.", {})
+    assert result["sentences"][0]["verdict"] == "ok"
