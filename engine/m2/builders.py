@@ -9,6 +9,10 @@ import hashlib
 from engine.m1 import canon
 from engine.m1.gates_experimental import (
     _GROUNDING_FLOOR,
+    _SCAFFOLD_MARKERS,
+    _SELF_NAMING_MARKER,
+    _all_text,
+    _claim_markers,
     _content_words,
     _quote_aware_sentences,
     _quoted_spans,
@@ -19,7 +23,7 @@ from engine.m1.gates_experimental import (
 # leaf import, not a compiler->runtime cycle. Copying the check here instead
 # would defeat the point: the two must agree BY CONSTRUCTION, because a demo
 # tagged one way and checked another is exactly the defect it exists to stop.
-from engine.m4.grounding_net import _span_in_records
+from engine.m4.grounding_net import _span_in_records, build_figure_lexicon
 
 from .canonical import canonical_json
 
@@ -241,60 +245,177 @@ def _insert_tag(sentence: str, tag: str) -> str:
     return f"{sentence[:cut]} {tag}{sentence[cut:]}"
 
 
-def _quote_holder(sentence: str, records: dict | None) -> str | None:
-    """A sentence carrying a quoted span is judged by the live net on ONE
-    structural rule, not on ratio: the quoted words must appear verbatim in
-    a tagged record (grounding_net.check_turn's quoted-span branch). Lexical
-    overlap is the wrong instrument for that - a record that PARAPHRASES a
-    quote routinely out-scores the record that actually holds it, so the
-    ranked-best tag names a record the net will then reject, and the quote
-    is withheld. Found in the compiled demos: hal's Ciceronian-dream quote
-    tagged to a paraphrasing doctrinal_witness while
+def _quote_holders(sentence: str, records: dict | None) -> list[str] | None:
+    """The record id(s) that hold this sentence's quoted words verbatim, or
+    None if any span is held by nothing in the package.
+
+    A sentence carrying a quoted span is judged by the live net on ONE
+    structural rule, not on ratio: every quoted span must appear verbatim in
+    the union of the records the sentence cites (grounding_net.check_turn's
+    quoted-span branch). Lexical overlap is the wrong instrument for that - a
+    record that PARAPHRASES a quote routinely out-scores the record that
+    actually holds it, so a ranked-best tag names a record the net then
+    rejects and the quote is withheld. Found in the compiled demos: hal's
+    Ciceronian-dream quote tagged to a paraphrasing doctrinal_witness while
     hal.quote.dream-follower-of-cicero, holding it verbatim, sat unused in
     the same package.
 
+    Resolved PER SPAN and returned as a list, because the net's own rule is
+    over the union of the cited records, not over any single one - the
+    citation contract says "record id(s)" and its own worked example carries
+    two. A sentence quoting two different records (hal's monastery-burning
+    turn quotes hal.quote.house-destroyed and hal.quote.innocent-ravages in
+    one breath) is grounded by naming both, and demanding that one record
+    hold everything was this function being stricter than the net it exists
+    to satisfy - the same shape of mistake, one level down.
+
     Searched over the whole package rather than the demo's own canon cells:
     a quote record is where it is, and the net does not scope its verbatim
-    check by cell either. Deterministic - lowest record id wins a tie.
-    Demonstration records are excluded: a demo can never be another demo's
-    ground (its own text would match itself trivially)."""
+    check by cell either. Deterministic - lowest record id wins a tie, and
+    the result is sorted. Demonstration records are excluded: a demo can
+    never be another demo's ground (its own text would match itself)."""
     if not records:
         return None
     spans = _quoted_spans(sentence)
     if not spans:
         return None
-    for record_id in sorted(records):
-        record = records[record_id]
-        if record.get("record_type") == "demonstration":
+    # A `quote` record is what the contract means by "the record that holds
+    # them" - the same words often also sit inside a force/story/source
+    # record that merely reproduces them, and plain id order picked those by
+    # accident (hal.force.pelagian-attack winning over
+    # hal.quote.house-destroyed on nothing but f < q).
+    search_order = sorted(
+        (rid for rid in records if records[rid].get("record_type") in _DEMO_CANDIDATE_TYPES),
+        key=lambda rid: (records[rid].get("record_type") != "quote", rid),
+    )
+    holders: set[str] = set()
+    for span in spans:
+        holder = next(
+            (rid for rid in search_order if _span_in_records(span, [records[rid]])),
+            None,
+        )
+        if holder is None:
+            # Nothing in the package carries these words, so the net
+            # withholds this sentence whatever it is tagged with.
+            return None
+        holders.add(holder)
+    return sorted(holders)
+
+
+# THE NET'S OWN BAR, run at compile time (2026-08-23 ruling).
+#
+# This scoring used to be deliberately narrower than the live net's: an
+# overlap coefficient over _candidate_head_text, scoped to the demo's own
+# canon cells, with a second _MIN_SHARED_WORDS guard. The reasoning is
+# preserved above and was sound on its own terms - demo tags are asserted
+# ground truth on the prompt's highest-leverage surface, so be conservative.
+#
+# What nobody checked is how the two conservatisms COMPOSE. The compiler
+# declined to tag a sentence its narrower bar couldn't clear; the net then
+# refused to speak any claim sentence carrying no tag. Two careful rules,
+# and between them they deleted 20 true, sourced sentences from the fleet's
+# own hand-authored demonstrations - and taught a live model, by example,
+# that such sentences go untagged, so it produced more of them. It was never
+# a content gap: 24 of the 27 residual sentences had a record sitting in the
+# same package that satisfies the net outright (alx.story.potamiaena for the
+# Potamiaena sentence; alx.quote.clement-schoolmaster for the Clement one).
+# The cell scoping is what hid them - the net does not scope by cell either.
+#
+# So the bar is the net's, exactly: ratio of the sentence's own content
+# words found in ONE record's full text (gates_experimental._all_text), over
+# _GROUNDING_FLOOR, searched across the whole package. The honest cost is
+# that the old head-text/shared-word guards against coincidental overlap are
+# gone from this path. That cost is accepted rather than hidden, on one
+# argument: whatever is too permissive to ASSERT here is already too
+# permissive to ACCEPT at runtime, and runtime is where a bad claim reaches
+# a participant. One bar, one place it can be wrong, one place to fix it -
+# and engine/m2/demo_net.py now fails the build if the two ever diverge
+# again.
+# What CHANGES here is the bar and the search scope, not which records may
+# be cited at all. _DEMO_CANDIDATE_TYPES above is the already-reviewed set of
+# content-bearing types, and it stays the universe: a repository also holds
+# `source` (bibliographic), `search_record` (build apparatus), `figure` (name
+# lists feeding claim detection, not evidence), `world_core` and
+# `voice_craft` (the world's own framing) - none of which a sentence should
+# ever name as its ground. Widening to every record type produced exactly
+# that on first run: a syr claim about persecution under a hostile crown
+# tagged to syr.voice.craft, which is build apparatus. The live net WOULD
+# accept such a tag - it resolves - so the compiler is deliberately stricter
+# than the net on this one axis. That is safe in a way the old strictness was
+# not: it can only ever change WHICH record grounds a sentence, never whether
+# one does, so it cannot reintroduce the compose-into-deletion failure.
+def _citable_words(records: dict) -> list[tuple[str, set[str]]]:
+    """(record_id, content words of its full text) for every citable record,
+    in id order so ties resolve deterministically."""
+    return [
+        (rid, _content_words(_all_text(records[rid])))
+        for rid in sorted(records)
+        if records[rid].get("record_type") in _DEMO_CANDIDATE_TYPES
+    ]
+
+
+def _needs_a_tag(sentence: str, figure_names: set[str]) -> bool:
+    """Exactly grounding_net.check_turn's own question, asked before the
+    answer is computed: would the live net withhold this sentence for
+    carrying no citation? Same exemptions (honesty scaffolding, the one
+    sanctioned self-naming), same claim markers, same figure-name fallback.
+    A sentence the net does not ask about gets no tag here either - the
+    citation contract's own rule, that "a connective or interpretive
+    sentence carries no tag"."""
+    lower = sentence.lower()
+    if any(marker in lower for marker in _SCAFFOLD_MARKERS) or _SELF_NAMING_MARKER in lower:
+        return False
+    if _claim_markers(sentence):
+        return True
+    return bool(figure_names & _content_words(sentence))
+
+
+def _net_bar_record(sentence: str, citable: list[tuple[str, set[str]]], in_cell: set[str]) -> str | None:
+    """The record the live net would accept as this sentence's ground, or
+    None if no single record clears the floor. Highest ratio wins; a record
+    from the demonstration's own canon cell breaks an exact tie, and the
+    lowest id breaks what remains, so the result is deterministic."""
+    words = _content_words(sentence)
+    if not words:
+        return None
+    best_key, best_id = None, None
+    for record_id, record_words in citable:
+        ratio = len(words & record_words) / len(words)
+        if ratio < _GROUNDING_FLOOR:
             continue
-        if all(_span_in_records(span, [record]) for span in spans):
-            return record_id
-    return None
+        key = (ratio, record_id in in_cell)
+        if best_key is None or key > best_key:
+            best_key, best_id = key, record_id
+    return best_id
 
 
-def _tag_representative_text(text: str, candidates: list[dict], records: dict | None = None) -> str:
-    candidate_words = [(record["id"], _content_words(_candidate_head_text(record))) for record in candidates]
+def _tag_representative_text(text: str, candidates: list[dict], records: dict) -> str:
+    """`records` is the whole package, and is REQUIRED: the search scope is
+    package-wide now, so a caller passing candidates alone would silently tag
+    nothing at all rather than fail - the exact shape of quiet failure this
+    whole repair exists to stop."""
+    citable = _citable_words(records)
+    figure_names = build_figure_lexicon(records)
+    in_cell = {record["id"] for record in candidates}
     tagged: list[str] = []
     for sentence in _quote_aware_sentences(text):
-        # The quote rule first: it is the net's own hard structural check,
-        # and a ratio win can never satisfy it.
-        holder = _quote_holder(sentence, records)
-        if holder:
-            tagged.append(_insert_tag(sentence, f"[[{holder}]]"))
+        # The quote rule first: it is the net's own hard STRUCTURAL check and
+        # no ratio can satisfy it.
+        if _quoted_spans(sentence):
+            holders = _quote_holders(sentence, records)
+            # No holders means some span is in no record at all, so the net
+            # withholds this sentence whatever it is tagged with. Left
+            # untagged rather than given a tag that cannot save it and would
+            # assert a source the quote did not come from; demo_net reports it.
+            tagged.append(
+                _insert_tag(sentence, " ".join(f"[[{h}]]" for h in holders)) if holders else sentence
+            )
             continue
-        words = _content_words(sentence)
-        best_id, best_ratio, best_shared = None, 0.0, 0
-        for record_id, record_words in candidate_words:
-            if not words or not record_words:
-                continue
-            shared = words & record_words
-            ratio = len(shared) / min(len(words), len(record_words))
-            if ratio > best_ratio:
-                best_ratio, best_id, best_shared = ratio, record_id, len(shared)
-        if best_id and best_ratio >= _GROUNDING_FLOOR and best_shared >= _MIN_SHARED_WORDS:
-            tagged.append(_insert_tag(sentence, f"[[{best_id}]]"))
-        else:
+        if not _needs_a_tag(sentence, figure_names):
             tagged.append(sentence)
+            continue
+        best_id = _net_bar_record(sentence, citable, in_cell)
+        tagged.append(_insert_tag(sentence, f"[[{best_id}]]") if best_id else sentence)
     return " ".join(tagged)
 
 
@@ -350,7 +471,10 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         lines = []
         for turn in exchange:
             text = turn["text"]
-            if turn.get("speaker") == "representative" and candidates:
+            if turn.get("speaker") == "representative":
+                # No `and candidates` guard any more: cell membership is a
+                # tie-break now, not the search space, so a demo whose cell
+                # happens to hold no candidate records still gets tagged.
                 text = _tag_representative_text(text, candidates, records)
             lines.append(f"{turn['speaker']}: {text}")
         emit(f"Demonstration: {demo['id']}", "\n".join(lines))

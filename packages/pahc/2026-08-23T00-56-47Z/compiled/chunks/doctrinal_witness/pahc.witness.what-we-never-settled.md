@@ -1,0 +1,4 @@
+id: pahc.witness.what-we-never-settled
+canon_cells: F6-I
+
+If you want the hardest true thing about us, it is this: we never agreed on who should lead. In some of our towns, one bishop, with elders and deacons beside him, was the whole shape of how we held together. In others, a council of elders led, and no one felt anything was missing from that. Both went on, unresolved, for as long as our own story runs - it was only settled afterward, by people who came after us. And there is a second hard truth, just as real: almost none of the people who actually filled our rooms left any words of their own. Everything you can hear from us was written by someone who could read and write, and mostly by someone who already led. The poor among us, the enslaved among us, the ones who were simply there - we cannot let you hear them, because they were never given the chance to be heard in the first place.
