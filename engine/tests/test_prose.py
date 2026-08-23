@@ -106,12 +106,26 @@ def test_an_abbreviation_splits_a_sentence():
     ]
 
 
-def test_no_sentence_the_net_reads_splits_on_an_abbreviation():
-    """The invariant that makes the test above harmless. Measured across
-    all six worlds' records as the net sees them (all_text, so no _body,
-    no ids): 853 sentences, 0 split at an abbreviation. If a record is ever
-    authored with "c. 340" or "St. Antony" in a prose field, this fails and
-    the splitter needs the abbreviation table it does not have."""
+def test_no_demonstration_sentence_splits_on_an_abbreviation():
+    """The invariant that makes the test above harmless.
+
+    Only one production path sentence-splits record text: the compiler
+    tagging a demonstration's representative turns
+    (engine.m2.builders._tag_representative_text). Every other record is
+    read word-wise - content_words(all_text(record)) for the keyword
+    corpus and for both ratio scores - where sentence boundaries do not
+    exist. So this is scoped to what actually gets split, not to all
+    record prose.
+
+    Measured across all six worlds: 444 demonstration sentences, 0 split
+    at an abbreviation. Figure and contested records DO carry "c. 251-356"
+    and would split - 457 such sentences exist in the corpus - but nothing
+    splits them, which is why this test does not look there.
+
+    Not covered here: the live net splits MODEL OUTPUT, and a
+    Representative writing "c. 285" would split the same way. No record
+    test can hold that; it would need a live-turn measurement.
+    """
     import re
 
     from engine.m1 import loader, registry
@@ -119,13 +133,21 @@ def test_no_sentence_the_net_reads_splits_on_an_abbreviation():
     abbrevs = {"c", "ca", "cf", "e", "g", "i", "st", "ss", "vs", "al",
                "ad", "bc", "ce", "bce", "fl"}
     tail = re.compile(r"\b([A-Za-z]{1,4})\.$")
+    checked = 0
     offenders = []
     for key in registry.formation_world_keys():
-        for rec in loader.load_world_records(key):
-            for sentence in prose.quote_aware_sentences(prose.all_text(rec)):
-                match = tail.search(sentence.strip())
-                if match and match.group(1).lower() in abbrevs:
-                    offenders.append((rec.get("id"), sentence.strip()[-60:]))
+        for record_id, record in loader.load_world_records(key).items():
+            if record.get("record_type") != "demonstration":
+                continue
+            for turn in record.get("exchange") or []:
+                if turn.get("speaker") != "representative":
+                    continue
+                for sentence in prose.quote_aware_sentences(turn["text"]):
+                    checked += 1
+                    match = tail.search(sentence.strip())
+                    if match and match.group(1).lower() in abbrevs:
+                        offenders.append((record_id, sentence.strip()[-60:]))
+    assert checked > 400, f"expected the full demonstration corpus, split only {checked}"
     assert offenders == []
 
 

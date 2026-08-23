@@ -146,6 +146,83 @@ def test_history_replays_shown_text_skips_the_facilitator_and_stays_alternating(
     assert [m["content"] for m in h if m["role"] == "user"] == ["who is jesus", "what did that cost"]
 
 
+def test_history_replays_the_citations_that_verified():
+    """The measured failure this exists to stop: over six live turns on
+    desert the voice cited 9 sentences, then 6, then 0, 0, 0, 0 - it read
+    its own untagged history and copied it. Session memory was teaching it
+    to stop citing."""
+    transcript = [
+        {"speaker": "participant", "text": "who is jesus"},
+        {
+            "speaker": "alx",
+            "text": "He was God's own Word. We argued about it for a century.",
+            "citations": [{"sentence": "He was God's own Word.", "record_ids": ["alx.dw.jesus"]}],
+        },
+    ]
+    said = _history_from(transcript)[1]["content"]
+    # the tag goes back on, BEFORE the stop, so a sentence split cannot
+    # carry it onto the next sentence
+    assert said == "He was God's own Word [[alx.dw.jesus]]. We argued about it for a century."
+
+
+def test_a_sentence_the_net_withheld_keeps_its_text_and_loses_its_tag():
+    """The net gates decoration, not text - a withheld sentence WAS shown
+    to the participant, so the model has to hear itself say it. It just
+    does not come back carrying a citation the net rejected."""
+    transcript = [
+        {"speaker": "participant", "text": "who taught you"},
+        {
+            "speaker": "alx",
+            "text": "Clement taught here. Some four hundred of us studied under him.",
+            # only the first sentence verified; the figure was withheld
+            "citations": [{"sentence": "Clement taught here.", "record_ids": ["alx.figure.clement"]}],
+        },
+    ]
+    said = _history_from(transcript)[1]["content"]
+    assert "Some four hundred of us studied under him." in said
+    assert said.count("[[") == 1
+
+
+def test_a_fabricated_record_id_is_never_replayed():
+    """Turn 1 of the same live run tagged three sentences to
+    desert.dw.f6-e-struggle-interior and
+    desert.dw.f1-i-discernment-contemplation. Neither record exists. The
+    net caught both, so neither reaches `citations` - and a fabricated id
+    must never come back as an example of how to cite."""
+    transcript = [
+        {"speaker": "participant", "text": "why the desert"},
+        {
+            "speaker": "desert",
+            "text": "A path to give everything had closed. We went looking for another one.",
+            "citations": [],  # both tags were unresolvable, so nothing verified
+        },
+    ]
+    said = _history_from(transcript)[1]["content"]
+    assert "[[" not in said
+    assert said.startswith("A path to give everything had closed.")
+
+
+def test_a_sentence_with_two_tags_replays_both():
+    transcript = [
+        {"speaker": "participant", "text": "tell me"},
+        {
+            "speaker": "alx",
+            "text": "We taught and we argued.",
+            "citations": [{"sentence": "We taught and we argued.", "record_ids": ["alx.a.one", "alx.b.two"]}],
+        },
+    ]
+    said = _history_from(transcript)[1]["content"]
+    assert said == "We taught and we argued [[alx.a.one]] [[alx.b.two]]."
+
+
+def test_a_turn_with_no_citations_replays_unchanged():
+    transcript = [
+        {"speaker": "participant", "text": "who is jesus"},
+        {"speaker": "alx", "text": "We will not invent what we do not have."},
+    ]
+    assert _history_from(transcript)[1]["content"] == "We will not invent what we do not have."
+
+
 def test_a_voice_turn_the_net_emptied_leaves_no_dangling_role():
     transcript = [
         {"speaker": "participant", "text": "who is jesus"},

@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: illustrative
   formation_confidence: Inferential-Thin
-  divergence_note: "Inferential/Thin: this world's own surviving voice does not give a doubt-confessed narrative of the kind this question asks for - no honest_limit record covers this exact C-P question directly (desert.limit.c-t-doubt-and-doctrine's own canon_cells were narrowed to [C-T, F1-P], excluding C-P), but the absence itself is real, checked directly against desert.dw.c-p-someone-like-me and the wider canon rather than inferred from a limit record that no longer covers this cell. What this demonstration offers instead - persistent, costly struggle as the shape belief actually took, drawn from desert.dw.c-p-someone-like-me's own attested material (Moses the Robber's years-long struggle; Palladius ch. XIX) and desert.quote.arsenius-flee-tace-quiesce - is a genuine answer to a different but related question, offered honestly as that, not stretched into the doubt-narrative this world's own record does not carry."
+  divergence_note: "Inferential/Thin: this world's own surviving voice does not give a doubt-confessed narrative of the kind this question asks for - no honest_limit record covers this exact C-P question directly (desert.limit.doubt-and-doctrine's own canon_cells were narrowed to [C-T, F1-P], excluding C-P), but the absence itself is real, checked directly against desert.dw.someone-like-me and the wider canon rather than inferred from a limit record that no longer covers this cell. What this demonstration offers instead - persistent, costly struggle as the shape belief actually took, drawn from desert.dw.someone-like-me's own attested material (Moses the Robber's years-long struggle; Palladius ch. XIX) and desert.quote.arsenius-flee-tace-quiesce - is a genuine answer to a different but related question, offered honestly as that, not stretched into the doubt-narrative this world's own record does not carry."
 sources:
 - source_id: desert.source.palladius-lausiac-history
   locus: "ch. XIX - Moses, whose own struggle with his old habits was long and real, not erased in a moment"
@@ -31,7 +31,7 @@ its own honest limit directly rather than smoothing it over: this
 world's own record has no doubt-confessed conversion narrative. Rather
 than decline the question, the turn offers the nearest real material
 this world's record actually holds - persistent struggle as the lived
-shape belief took (desert.dw.c-p-someone-like-me's own Moses material,
+shape belief took (desert.dw.someone-like-me's own Moses material,
 desert.quote.arsenius-flee-tace-quiesce) - stated honestly as an answer
 to a related question, not disguised as the one asked.
 
@@ -44,7 +44,7 @@ imperial court that received a different answer ("flee the company of
 men, and you will be saved"). Corrected above to the actual two-prayer
 shape, with no repetition invented; sources[].locus's own "repeated
 counsel" wording corrected to match. Finding M8: divergence_note had
-cited desert.limit.c-t-doubt-and-doctrine's "own honest scope" for this
+cited desert.limit.doubt-and-doctrine's "own honest scope" for this
 turn's C-P absence, but that record's canon_cells were narrowed in
 Step4 to [C-T, F1-P], excluding C-P - the citation is removed; the
 absence is instead checked directly against desert.dw.c-p-someone-like-

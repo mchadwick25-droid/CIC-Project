@@ -279,7 +279,7 @@ def gate_canon_coverage(records, fleet, registry) -> list[str]:
 # them would drown real findings in noise. Proven necessary, not assumed:
 # checked against alx's real corpus (2026-08-21) and found three more
 # "Mark" occurrences beyond the four real leaks this gate exists to catch
-# - alx.dw.f3-t-one-church's `tensions` field, alx.limit.f5-t-marriage's
+# - alx.dw.one-church's `tensions` field, alx.limit.marriage's
 # `why_sources_cannot_answer`, and a figure's trailing body - all
 # correctly outside this field map, all legitimate.
 _ATTRIBUTION_FIELDS = {
@@ -377,6 +377,64 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
     return findings
 
 
+# Record types whose id legitimately carries a canon-cell code. Only
+# search_record does: a negative sweep IS defined by the cell it swept, and
+# ijc holds seven that would collapse to one id without it. These records are
+# build provenance - never named in a compiled prompt, never citable - so the
+# splice hazard below cannot reach them.
+_CELL_CODED_TYPES = {"search_record"}
+
+_CELL_IN_ID = re.compile(r"^(?:c|f[1-6])-(?:e|i|p|t)-")
+
+
+def gate_id_convention(records, fleet, registry) -> list[str]:
+    """One id shape across the fleet: <world>.<type>.<distinctive-slug>, with
+    no canon-cell code in the slug.
+
+    The cell already lives in the record's own canon_cells field. Across the
+    six worlds it was measured redundant at 131 of 131 - every cell-coded id
+    agreed with its own canon_cells, none disagreed, none lacked cells. So the
+    prefix carried nothing, and it cost something: a small closed vocabulary
+    (28 cells) in front of a slug is trivially recombinable, and the voice
+    recombined it. Measured live on syr, which had the most records and the
+    most repeated slugs:
+
+        [[syr.dw.f2-e-decides]]  = cell of f2-e-record + slug of f1-e-decides
+        [[syr.dw.c-t-reading]]   = cell of c-t-was-jesus-god + slug of f2-t-reading
+
+    Both were real records spliced together. All 22 of syr's witness ids were
+    in its prompt, so this was never a missing address - it was too many
+    near-identical ones. Naming more records makes that worse, not better,
+    which is why the convention comes before finishing the addressability
+    list.
+
+    Also holds the fleet to ONE shape. Before this gate, five worlds cell-coded
+    their witnesses and pahc did not; demonstrations were cell-coded in four
+    worlds and plain in two; honest limits were split inside every world. At
+    six worlds that is untidy. At the hundred the spec plans for, it is a
+    corpus nobody can write a tool against.
+    """
+    findings = []
+    for key, rec in records.items():
+        if rec.get("record_type") in _CELL_CODED_TYPES:
+            continue
+        # the record's OWN declared id, not the dict key the loader filed it
+        # under - they agree in a well-formed corpus, and this gate is one of
+        # the places that has to notice when they do not.
+        rid = rec.get("id") or key
+        parts = rid.split(".", 2)
+        if len(parts) != 3:
+            findings.append(f"{key}: id {rid!r} is not <world>.<type>.<slug>")
+            continue
+        if _CELL_IN_ID.match(parts[2]):
+            findings.append(
+                f"{rid}: slug opens with a canon-cell code. The cell belongs in "
+                f"canon_cells={rec.get('canon_cells')}, not in the id - a cell "
+                "prefix in front of a slug is what the voice splices."
+            )
+    return findings
+
+
 GATES = {
     "schema-validation": gate_schema_validation,
     "referential": gate_referential,
@@ -392,6 +450,7 @@ GATES = {
     "readability": gate_readability,
     "canon-coverage": gate_canon_coverage,
     "no-build-attribution": gate_no_build_attribution,
+    "id-convention": gate_id_convention,
 }
 
 

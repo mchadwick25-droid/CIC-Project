@@ -91,19 +91,61 @@ def get_transcript(store: Store, session_id: str) -> SessionState:
 
 
 
+def _replay_text(entry: dict) -> str:
+    """One past voice turn as the model should hear itself say it: every
+    sentence it wrote, with the citations that VERIFIED re-attached.
+
+    The tags have to go back on. Measured over a six-turn live conversation
+    on desert: the voice cited 9 sentences on turn 1 and 6 on turn 2, then
+    0, 0, 0, 0. From turn 3 every withheld sentence's reason was "with no
+    citation tag" - not a bad tag, no tag at all. The model was reading its
+    own prior turns in the history, seeing text with the tags stripped off,
+    and copying that. Session memory was teaching the Representative to
+    stop citing.
+
+    Only the tags that survived the net are replayed, which is why this
+    rebuilds from `citations` rather than keeping the raw output around.
+    Turn 1 of that same run tagged three sentences to two record ids that
+    do not exist (desert.dw.f6-e-struggle-interior,
+    desert.dw.f1-i-discernment-contemplation - the net caught both). A
+    fabricated id must not come back as an example of how to cite.
+
+    Withheld sentences keep their text and lose their tags. They were shown
+    to the participant - the net gates decoration, not text (Program-Spec
+    M4) - so the model heard itself say them, and dropping them here would
+    make its own memory disagree with what the person read.
+    """
+    said = (entry.get("text") or "").strip()
+    for citation in entry.get("citations") or []:
+        sentence = (citation.get("sentence") or "").strip()
+        record_ids = citation.get("record_ids") or []
+        if not sentence or not record_ids or sentence not in said:
+            continue
+        tags = " ".join(f"[[{rid}]]" for rid in record_ids)
+        # BEFORE the terminal punctuation, the same rule the compiler uses
+        # for demonstration tags (engine.m2.builders) and the same one the
+        # net's own splitter assumes - a tag after the stop is carried onto
+        # the next sentence.
+        cut = max(sentence.rfind(mark) for mark in ".!?")
+        tagged = f"{sentence} {tags}" if cut < 0 else f"{sentence[:cut]} {tags}{sentence[cut:]}"
+        said = said.replace(sentence, tagged, 1)
+    return said
+
+
 def history_from_transcript(transcript: list[dict]) -> list[dict]:
     """Program-Spec M4's "full-session memory", as Messages-API turns.
     Until now the generation call sent a single user message and the voice
     had never heard the last thing it said.
 
-    Three deliberate choices, each with a test. The voice is replayed its
-    SHOWN text, not its raw tagged output - the withheld sentences were
-    never said to anyone, and feeding the tags back would teach it to copy
-    them. Facilitator turns are left out: they belong to a different voice,
-    and folding them in would put the Facilitator's words in the
-    Representative's mouth. And pairs are emitted strictly alternating, so
-    a participant message that produced no voice reply - a routing gap, a
-    crisis turn, a turn the net emptied - leaves no dangling role behind.
+    Three deliberate choices, each with a test. The voice is replayed the
+    text a participant actually read, with its verified citations back on
+    it - see _replay_text for why the tags have to be there, and what an
+    earlier version of this docstring got wrong. Facilitator turns are left
+    out: they belong to a different voice, and folding them in would put
+    the Facilitator's words in the Representative's mouth. And pairs are
+    emitted strictly alternating, so a participant message that produced no
+    voice reply - a routing gap, a crisis turn, a turn the net emptied -
+    leaves no dangling role behind.
     """
     history: list[dict] = []
     pending: str | None = None
@@ -111,7 +153,7 @@ def history_from_transcript(transcript: list[dict]) -> list[dict]:
         if entry.get("speaker") == "participant":
             pending = entry.get("text") or ""
         elif entry.get("speaker") not in (None, "facilitator") and pending is not None:
-            said = (entry.get("text") or "").strip()
+            said = _replay_text(entry)
             if said:
                 history.append({"role": "user", "content": pending})
                 history.append({"role": "assistant", "content": said})

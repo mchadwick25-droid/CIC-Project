@@ -53,7 +53,7 @@ records: plain-before-native matches every desert.term record's own
 plain_meaning-before-world_word ordering (desert.term.diakrisis,
 desert.term.synaxis, desert.term.theoria, desert.term.apatheia);
 struggle-vocabulary restates desert.force.martyrdom-unavailable's own
-finding, carried identically into desert.dw.f6-e-death-wish ("the same
+finding, carried identically into desert.dw.death-wish ("the same
 total struggle could be waged inside a person instead of against a
 persecutor outside them").
 
@@ -115,7 +115,7 @@ the prior decision named:
 - The person-based/office-based authority tension (gravity 10 in the
   old framework, desert.gravity.authority-tension here) remains
   genuinely unresolved in this build's own completed content -
-  desert.dw.f6-i-never-settled states so directly ("we never settled
+  desert.dw.never-settled states so directly ("we never settled
   who really carried authority"), matching the prior decision's own
   binding instruction that this tension stay visible rather than be
   quietly resolved by the choice of strand.

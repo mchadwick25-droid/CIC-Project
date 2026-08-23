@@ -57,4 +57,4 @@ Re-derived from syrstory003 (Tier 2; kept deliberately distinct
 from the Tier 3 siege legend so a well-attested institutional fact
 and a miracle account are never blended - the legacy chunk's own
 standing rule, enforced in the do_not_retrieve_when). Serves F1-I
-(the councils question) beside syr.dw.f1-e-decides.
+(the councils question) beside syr.dw.decides.

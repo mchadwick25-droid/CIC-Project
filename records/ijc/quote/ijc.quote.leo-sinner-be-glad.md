@@ -25,11 +25,11 @@ modern_lens_note: >-
   'Gentile' here means simply 'non-Jew' in the ancient sense (as scripture uses it), not a term
   bound to a specific modern cultural context.
 relations:
-- {type: illustrates, target: ijc.limit.c-p-jesus-to-you}
+- {type: illustrates, target: ijc.limit.jesus-to-you}
 ---
 Text verified verbatim against the vendored file 2026-08-22. Already
 named, but not previously given its own citable record, in
-ijc.limit.c-p-jesus-to-you's own body as this world's closest approach
+ijc.limit.jesus-to-you's own body as this world's closest approach
 to a direct, personal-register invitation - added at the step-5 review
 so the lament demonstration built from that limit could quote it
 properly rather than paraphrase it.

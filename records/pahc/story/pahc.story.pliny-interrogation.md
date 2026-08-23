@@ -77,7 +77,7 @@ match to this story's own content.
 
 FIXED at Step 9 round-1 review: this note previously misnamed the
 prior F6-E claimants as pahc.gravity.state-pressure (which actually
-claims F3-I) and pahc.limit.f5-e-material-remains (which actually
+claims F3-I) and pahc.limit.material-remains (which actually
 claims F5-E). The actual prior F6-E claimants this record reinforces
 are pahc.force.martyrdom-meaning, pahc.gravity.martyrdom-meaning, and
 pahc.term.ministrae. USAGE NOTE carried from Doc_09: this

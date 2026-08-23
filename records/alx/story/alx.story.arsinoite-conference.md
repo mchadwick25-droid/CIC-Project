@@ -56,7 +56,7 @@ modern_contrast: >
   or, at the other extreme, as a modern pluralist 'agree to disagree' session
   that leaves the disagreement open. This world's own record frames it as
   neither: authority here worked by open, patient argument aimed at restored
-  shared truth (see alx.dw.f1-e-councils) - not suppression, and not an
+  shared truth (see alx.dw.councils) - not suppression, and not an
   agreement to remain divided.
 ---
 Serves three cells honestly: F1-E (how disputed belief was actually

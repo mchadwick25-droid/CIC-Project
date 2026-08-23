@@ -26,7 +26,7 @@ relations:
 - type: associated-with
   target: desert.figure.antony
 - type: associated-with
-  target: desert.dw.f4-t-judgment-and-resurrection
+  target: desert.dw.judgment-and-resurrection
 ---
 Verified verbatim 2026-08-22 against the vendored file, from the
 extended discourse (traditional SSSS16-43) Athanasius attributes to

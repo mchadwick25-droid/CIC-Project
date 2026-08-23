@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: illustrative
   formation_confidence: Contested
-  divergence_note: "Widely Accepted for the anti-Arian boundary-drawing and the positive Nicene formula this witness draws on (desert.quote.antony-arians-serpents; desert.quote.antony-nicene-formula) - Contested for how far that should be read as this world's own settled, developed theological argument, matching desert.dw.f1-i-god's own basis: day to day, the ordinary form this boundary took was refusal of communion, not argument - but this world's own record also shows public argument more than once, against the Arians at episcopal summons and against pagan philosophers at Antony's own mountain."
+  divergence_note: "Widely Accepted for the anti-Arian boundary-drawing and the positive Nicene formula this witness draws on (desert.quote.antony-arians-serpents; desert.quote.antony-nicene-formula) - Contested for how far that should be read as this world's own settled, developed theological argument, matching desert.dw.god's own basis: day to day, the ordinary form this boundary took was refusal of communion, not argument - but this world's own record also shows public argument more than once, against the Arians at episcopal summons and against pagan philosophers at Antony's own mountain."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS68 - refusal of Arian and Melitian communion at our own mountain; SS69 - summoned to Alexandria, publicly teaching the Nicene position; SS72-79 and SS80 - a separate public disputation with visiting Greek philosophers at our own mountain"
@@ -32,7 +32,7 @@ world's own voice. The quoted formula is desert.quote.antony-nicene-
 formula's own verbatim text (Vita SS69), reproduced here exactly,
 including its own leading ellipsis (marking the excerpt's mid-clause
 start) and its own embedded quotation of the Arian slogan it rejects;
-the framing is desert.dw.f1-i-god's own already-approved structure.
+the framing is desert.dw.god's own already-approved structure.
 
 Step5, Round 1 review Findings S2 and S3: this turn had silently
 altered the quoted formula (dropping the leading ellipsis, dropping the
@@ -45,8 +45,8 @@ the quote record itself, reinstated here in the act of copying it.
 Restored to match desert.quote.antony-nicene-formula.text exactly.
 Separately, this turn had asserted "once" and "stated once" for public
 argument, the same overclaim Step 4 Round 2 Finding M2 and Round 3
-Finding M3 corrected on two sibling records (desert.dw.f1-i-god,
-desert.limit.c-t-doubt-and-doctrine) against Vita SS72-79/SS80 (Antony's
+Finding M3 corrected on two sibling records (desert.dw.god,
+desert.limit.doubt-and-doctrine) against Vita SS72-79/SS80 (Antony's
 own repeated disputations with visiting Greek philosophers) - corrected
 above to acknowledge the philosopher disputations alongside the Arian
 summons, matching the corrected sibling records' own wording rather

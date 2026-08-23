@@ -24,11 +24,11 @@ relations:
 - type: associated-with
   target: desert.quote.antony-arians-serpents
 - type: associated-with
-  target: desert.dw.f1-i-god
+  target: desert.dw.god
 - type: associated-with
   target: desert.figure.antony
 - type: associated-with
-  target: desert.dw.f4-t-judgment-and-resurrection
+  target: desert.dw.judgment-and-resurrection
 ---
 Verified verbatim against the vendored file, S69 - immediately
 following the S68 passage desert.quote.antony-arians-serpents cites (a
@@ -41,7 +41,7 @@ by omission. §69's own narrative frame (Antony "being summoned by the
 bishops and all the brethren, he descended from the mountain, and
 having entered Alexandria, he denounced the Arians") shows this was
 public teaching at episcopal summons, not private refusal - see the
-corrected desert.dw.f1-e-councils for that fuller picture.
+corrected desert.dw.councils for that fuller picture.
 
 Step4, Round 2 review Finding S1: the text above previously read "The
 Son of God..." and "Wherefore," both silently altered from the vendored

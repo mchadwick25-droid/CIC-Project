@@ -56,7 +56,7 @@ settle - the direct participant-facing home of this contest).
 
 Added at the step-5 review (Opus adversarial pass on
 records/ijc/demonstration, 2026-08-22): a demonstration built from this
-record (ijc.demo.f6-i-never-settled) asserts the legates' objection
+record (ijc.demo.never-settled) asserts the legates' objection
 without qualification; Percival's own excursus (npnf214:22345-22365)
 reads it as narrower - Paschasinus's own words at Session I already
 conceded Constantinople's rank "next after" Rome, before Lucentius's

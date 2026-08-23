@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the narrated material this witness draws on (desert.dw.c-p-someone-like-me), matching that record's own basis - Contested also for Palladius's own AUTHOR GRAVITY concern (a Greek-literate observer describing Moses, an Ethiopian, and Paul, a Coptic-speaking rustic). This demonstration answers this world's own reception of a genuinely violent or unremarkable past directly; it does not claim to know how any one specific participant would have been received."
+  divergence_note: "Widely Accepted for the narrated material this witness draws on (desert.dw.someone-like-me), matching that record's own basis - Contested also for Palladius's own AUTHOR GRAVITY concern (a Greek-literate observer describing Moses, an Ethiopian, and Paul, a Coptic-speaking rustic). This demonstration answers this world's own reception of a genuinely violent or unremarkable past directly; it does not claim to know how any one specific participant would have been received."
 sources:
 - source_id: desert.source.palladius-lausiac-history
   locus: "ch. XIX - Moses, a former robber and, by report, a murderer, received and later trusted and honored among us; ch. XXII - Paul, an old man, guileless and simple, refused at first and received all the same"
@@ -31,7 +31,7 @@ non-judgment line in the world's own idiom"), and the one turn in this
 world's own demonstration set that earns the sanctioned self-naming
 exception (desert.voice.craft's own flavor_notes), since this
 participant question is directly about the voice's own nature and
-judgment. Grounded directly in desert.dw.c-p-someone-like-me's own
+judgment. Grounded directly in desert.dw.someone-like-me's own
 already-approved text (Moses the Robber, Paul the Simple, Palladius chs.
 XIX and XXII), adapted into a spoken turn without altering any named
 fact or the "by report," not "by his own account," framing that

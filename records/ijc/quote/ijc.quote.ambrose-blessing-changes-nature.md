@@ -29,16 +29,16 @@ modern_lens_note: >-
   sense of the natural world or instinct - Ambrose is arguing about what a thing fundamentally IS,
   not about biology.
 relations:
-- {type: illustrates, target: ijc.dw.f1-t-bread-made-body}
+- {type: illustrates, target: ijc.dw.bread-made-body}
 ---
 Text verified verbatim against the vendored file 2026-08-22 (De
 Mysteriis IX.50 and IX.54, joined by a disclosed ellipsis across
 IX.51-53's scriptural analogies, which the doctrinal_witness record
 this quote illustrates already compresses past). Created at the step-5
 review's own request (Opus adversarial pass on
-records/ijc/demonstration): ijc.dw.f1-t-bread-made-body carries this
+records/ijc/demonstration): ijc.dw.bread-made-body carries this
 same material as unattributed compiled "we," and its own demonstration
-(ijc.demo.f1-t-bread-and-cup) had inherited that anonymity into a
+(ijc.demo.bread-and-cup) had inherited that anonymity into a
 turn that names no teacher for its only extended quotation - the one
 place in the voice's own register discipline (flavor_notes[0], "the
 source follows it, named") that broke its own rule. This record gives

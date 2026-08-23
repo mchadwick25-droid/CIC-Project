@@ -2,7 +2,7 @@
 
 Origin (2026-08-21): a record whose citations were real, well-formed and
 rights-clean, but whose prose said more than those citations supported -
-found live in alx.demo.f6-p-someone-like-me, which cited two real records,
+found live in alx.demo.someone-like-me, which cited two real records,
 neither of which documented the specific claim it made, while the world's
 own world_core named the exact gap in its `cautions` field the whole time.
 
