@@ -93,27 +93,6 @@ def strip_tags(text: str) -> str:
 # thing this whole design refuses to do (the fallback ladder appends, it
 # never revises), and a display defect is a signal that something upstream
 # is wrong, not something to paper over on the way out.
-_DISPLAY_DEFECTS = (
-    ("residual_tag", re.compile(r"\[\[.*?\]\]", re.S),
-     "bracket construct left in displayed text - strip_tags only removes well-formed lowercase tags"),
-    ("markdown_rule", re.compile(r"(?m)^\s*(?:-{3,}|\*{3,}|_{3,})\s*$"),
-     "markdown horizontal rule in displayed text"),
-    ("markdown_emphasis", re.compile(r"\*\*[^*\n]+\*\*|\*[^\s*][^*\n]*\*"),
-     "markdown emphasis markers in displayed text"),
-)
-
-
-def check_display_text(text: str) -> list[dict]:
-    """Findings on the exact string a participant will read. Empty list means
-    nothing structural leaked. Deterministic, string ops only, no model
-    call - same discipline as check_turn."""
-    findings = []
-    for kind, pattern, why in _DISPLAY_DEFECTS:
-        for match in pattern.finditer(text or ""):
-            findings.append({"kind": kind, "why": why, "excerpt": match.group(0)[:80]})
-    return findings
-
-
 def _quoted_spans(text: str) -> list[str]:
     spans = []
     pos = 0

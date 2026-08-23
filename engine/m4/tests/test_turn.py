@@ -236,15 +236,41 @@ def test_ordinary_turn_wires_a_real_evidence_block_into_the_user_message():
     assert ask_text in user_message  # the participant's own message still rides alongside the evidence block
 
 
-def test_turn_with_no_cell_match_and_no_grounded_claim_degrades_to_the_fleet_floor_line():
-    # An off-canon message and an untagged, unclaimable answer: Stage A
-    # resolves to no cell (engine.m4.evidence's own "no cell" case), so
-    # _degradation_statement has no honest_limit candidate to reach for and
-    # falls back to the fleet floor line.
+def test_a_turn_the_net_cannot_ground_still_reaches_the_participant_whole():
+    """Program-Spec M4 / Artifact-5 SS2: the checks gate decoration, never
+    the text. An off-canon message and an untagged answer: the net records
+    that nothing substantive was grounded, and the participant still reads
+    exactly what the voice wrote. No code-appended floor line - Program-Spec
+    M5: "the honest limit is the voice's own testimony, not a system
+    apology."
+    """
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(asks=[{"order": 1, "text": "what's the weather like"}]), stream_chunks=["We enjoy talking about many things."])
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what's the weather like today", pressed={}, anachronistic_term_ids=set())
+    assert result.voice_event["text"] == "We enjoy talking about many things."
+    assert "We don't have grounded material of our own for that." not in result.voice_event["text"]
+    # the verdict is still carried, for the SS5 audit
     assert result.voice_event["degraded_by_net"] is True
-    assert "We don't have grounded material of our own for that." in result.voice_event["text"]
+
+
+def test_a_sentence_that_fails_verification_loses_its_citation_not_its_existence():
+    """The measured cost of deleting instead: 25% of every sentence the
+    voice wrote, and an answer to "who was he" that named nobody because
+    the naming sentence was struck."""
+    world = _world()
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(asks=[{"order": 1, "text": "who is jesus"}]),
+        stream_chunks=["We received the community's own memory of Jesus [[fix.witness.who-is-jesus]]. "
+                       "Athanasius said it plainly [[fix.nonexistent.record]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=world, participant_message="who is jesus", pressed={}, anachronistic_term_ids=set())
+    text = result.voice_event["text"]
+    assert "Athanasius said it plainly" in text          # still reaches the reader
+    assert "[[" not in text                              # tags never do
+    cited = {rid for c in result.voice_event["citations"] for rid in c["record_ids"]}
+    assert "fix.nonexistent.record" not in cited         # but it is not decorated as sourced
+    verdicts = {s["sentence"][:20]: s["verdict"] for s in result.voice_event["grounding"]["sentences"]}
+    assert any(v != "ok" for v in verdicts.values())     # and the audit sees the failure
 
 
 def test_already_told_ids_reaches_evidence_assembly_without_error():
