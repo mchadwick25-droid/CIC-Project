@@ -434,7 +434,8 @@ exits non-zero on **any** finding, including withheld sentences. It is the
 fuller signal and is run by hand; it is deliberately not a CI job yet,
 because it would sit red on `syr`'s open content question and a
 permanently-red check is a check nobody reads. Whether `withheld_sentence`
-should also be build-blocking is open — see §10.
+should also be build-blocking was RULED 2026-08-23 — it stays a
+read-not-gate signal for now. See §9.7 ruling 7k.
 
 ---
 
@@ -568,6 +569,7 @@ spelling its name wrong.
 | **7h** | Every citable record section in the compiled prompt **names its own id**, in `[[id]]` form — the literal string the voice must emit, beside the content it is emitting it for. Demonstration headers stay bare ids: a demonstration is never valid ground. Quote records stay **out** of the prompt entirely — they carry license fields gating do-not-voice material and reach a turn through the evidence block, which has always named candidates as `[[id]]`. |
 | **7i** | Partial withholding is **published** (§8). |
 | **7j** | The demo/net agreement invariant is **checked at compile time** (`engine/m2/demo_net.py`), over the compiled bytes, and the report ships inside every package. A documented invariant that nothing asserts is not an invariant. Enforcement is split by severity: an **unresolvable tag refuses the compile** (`DemonstrationNetFailure`); a **withheld sentence is reported and does not**. Amended 2026-08-23 after PR #24 review — as first written, this row and §5.3 both claimed the check "fails the build", and it did not: `compile_world` embedded the report and returned a full package whatever it said, so the only real gate was the separate `demo-net-check` CLI sweeping already-stored packages after the fact. That is the silent-failure shape this whole repair exists to close, reopened by the mechanism meant to close it. |
+| **7k** | A `withheld_sentence` stays a **read-not-gate signal**, and `demo-net-check` stays out of CI. RULED by the project lead on PR #24, 2026-08-23, choosing this over resolving `syr` first or building a registry waiver mechanism. The reasoning it rests on: a withheld demonstration sentence can be a genuine content question rather than a compiler bug, and gating a build on one makes a person's unresolved judgement call into a broken toolchain — which is how a check becomes something to switch off rather than something to read. The report ships inside every package regardless, so the signal is never lost, only unenforced. **Explicitly "for now."** Three things should reopen it: `syr`'s finding being resolved (at which point the fleet is at zero and blocking costs nothing); the count rising rather than falling across a release; or any finding appearing that is a compiler defect rather than a content question. The hard half — `unresolvable_tag`, ruling 7j — is unaffected and stays blocking. |
 
 **Measured effect**, nine live turns, three worlds, identical questions:
 
@@ -599,13 +601,11 @@ appeared. Fixing one thing exposed the next. 7h paid it back.
 - **Residual invented ids, 3 of 44 live.** Two are quote ids (quotes are
   license-gated out of the prompt by 7h); one names a record *type* that
   does not exist. Neither wants a header.
-- **Should `withheld_sentence` block a compile too?** Today it does not, and
-  `demo-net-check` is not a CI job for the same reason: `syr`'s one finding
-  would hold both red until a person rules on it. The alternatives are (a)
-  resolve `syr` and make both blocking, (b) a recorded per-demonstration
-  waiver in the registry, reviewed like any other registry change, or (c)
-  leave it as a read-not-gate signal. Raised on PR #24 and not decided
-  there.
+- ~~Should `withheld_sentence` block a compile too?~~ **Decided** on PR #24,
+  2026-08-23: it stays a read-not-gate signal, and `demo-net-check` stays
+  out of CI. See §9.7 ruling 7k, including the three conditions that should
+  reopen it. What remains open underneath is the thing the ruling defers,
+  not the ruling: **`syr`'s own finding**, below.
 - **§9.6 temperature.** Voice generation runs at API default 1.0. Never
   ruled.
 - **`canon-map.json` unread**; **whole-world Stage B expansion** not built

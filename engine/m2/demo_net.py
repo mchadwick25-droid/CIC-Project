@@ -159,8 +159,11 @@ class DemonstrationNetFailure(Exception):
 
     The asymmetry is the same one this module's own docstring draws
     between the two finding kinds, now with teeth on the half that has no
-    legitimate reading. Whether `withheld_sentence` should also block is
-    an open question on PR #24, not an oversight.
+    legitimate reading. Whether `withheld_sentence` should ALSO block was
+    put to the project lead on PR #24 and RULED, 2026-08-23: it stays a
+    read-not-gate signal for now (LIVE-GENERATION-DESIGN.md §9.7 ruling
+    7k). Not an oversight, and not a default that drifted into place - a
+    decision, with the conditions for revisiting it written down.
     """
 
 
