@@ -157,6 +157,35 @@ def _query_words(message: str, asks: list[dict] | None) -> set[str]:
     return content_words(text)
 
 
+# Crude suffix stripping, applied to BOTH sides of the comparison so it can
+# only ever add a match, never move one. Deliberately not a real stemmer:
+# no dictionary, no exceptions list, and a hard 4-character floor so it
+# cannot turn "mass" into "mas" or collapse short words into each other.
+# It exists because the measured failures were morphological, not
+# semantic - "persecuted" against a corpus holding "persecution" 28 times,
+# "belong" against a hint reading "belonging".
+_SUFFIXES = ("ations", "ation", "ings", "ing", "ions", "ion", "edly", "ed")
+# "es" is only a plural after a sibilant - watches, boxes, churches. Strip it
+# blindly and "disputes" becomes "disput" while "dispute" stays whole, so the
+# pair never converges and the stemmer defeats its own purpose.
+_SIBILANTS = ("s", "x", "z", "ch", "sh")
+
+
+def _stem(word: str) -> str:
+    for suf in _SUFFIXES:
+        if word.endswith(suf) and len(word) - len(suf) >= 4:
+            return word[: -len(suf)]
+    if word.endswith("es") and len(word) >= 6 and word[:-2].endswith(_SIBILANTS):
+        return word[:-2]
+    if word.endswith("s") and not word.endswith("ss") and len(word) >= 5:
+        return word[:-1]
+    return word
+
+
+def _stems(words: set[str]) -> set[str]:
+    return {_stem(w) for w in words}
+
+
 def match_asks_to_cells(
     *, message: str, asks: list[dict] | None, canon_questions: dict[str, dict], repository_records: dict[str, dict] | None = None, top_n: int = 2
 ) -> list[dict]:
@@ -205,6 +234,17 @@ def match_asks_to_cells(
         scored.sort(key=lambda e: (-e["score"], e["cell"]))
         return scored
 
+    def _fill(matches, vocab, **mark):
+        """Append cells this vocabulary finds, never displacing what is
+        already matched - the same discipline the retrieval hints follow."""
+        already = {m["cell"] for m in matches}
+        for match in _rank(vocab):
+            if len(matches) >= top_n:
+                break
+            if match["cell"] not in already:
+                matches.append({**match, **mark})
+        return matches
+
     canon_words = cell_keywords(canon_questions)
     matches = _rank(canon_words)
     if len(matches) >= top_n:
@@ -217,16 +257,23 @@ def match_asks_to_cells(
         for cell, words in retrieval_hint_keywords(repository_records or {}).items()
         if cell in canon_words
     }
-    if not hinted:
-        return matches[:top_n]
-
-    already = {m["cell"] for m in matches}
-    for match in _rank(hinted):
+    if hinted:
+        matches = _fill(matches, hinted, from_retrieval_hint=True)
         if len(matches) >= top_n:
-            break
-        if match["cell"] not in already:
-            matches.append({**match, "from_retrieval_hint": True})
-    return matches[:top_n]
+            return matches[:top_n]
+
+    # Everything above compares words literally. This tier runs only when
+    # that left slots unfilled, so an honest literal match is never
+    # displaced by a stemmed one.
+    #
+    # A single-distinctive-word tier was built here and measured out. On
+    # leave-one-question-out over the canon it picked the right cell 24% of
+    # the time against the literal matcher's own 31% - it made questions
+    # reach ground, usually the wrong ground, so it is not here.
+    full = {cell: canon_words.get(cell, set()) | hinted.get(cell, set()) for cell in canon_words}
+    stemmed = {cell: _stems(words) for cell, words in full.items()}
+    query_words = _stems(query_words)
+    return _fill(matches, stemmed, matched_by="stem")[:top_n]
 
 
 def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000) -> list[dict]:

@@ -302,3 +302,30 @@ def test_render_evidence_block_includes_thin_ground_line():
     block = render_evidence_block(evidence)
     assert "THIN GROUND" in block
     assert "ethnicity" in block
+
+
+def test_a_morphological_variant_reaches_the_cell_its_root_defines():
+    """Measured failure: "persecuted" against a corpus holding
+    "persecution" 28 times; "belong" against a hint reading "belonging".
+    Stemming is applied to both sides, so it can only add a match."""
+    canon = {**CANON_QUESTIONS, "fleet.canon.q4": {
+        "id": "fleet.canon.q4", "record_type": "canon_question", "cell": "F1-E",
+        "text": "How did the community handle disputes and disagreements about baptism?"}}
+    m = match_asks_to_cells(message="Did they dispute and disagree over baptisms?", asks=None, canon_questions=canon)
+    assert [x["cell"] for x in m] == ["F1-E"]
+    assert m[0]["matched_by"] == "stem"
+
+
+def test_stemming_never_displaces_a_literal_match():
+    before = match_asks_to_cells(message="What does your community remember of Jesus?", asks=None, canon_questions=CANON_QUESTIONS, top_n=1)
+    assert before[0]["cell"] == "C-E"
+    assert "matched_by" not in before[0]  # the literal tier answered, untouched
+
+
+def test_the_stemmer_will_not_collapse_short_words():
+    from engine.m4.evidence import _stem
+    assert _stem("mass") == "mass"      # 4-char floor - never "mas"
+    assert _stem("its") == "its"
+    assert _stem("persecuted") == "persecut"
+    assert _stem("persecution") == "persecut"
+    assert _stem("belonging") == "belong"
