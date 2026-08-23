@@ -5,6 +5,7 @@ from fastapi.testclient import TestClient
 
 from engine.api.app import create_app
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
+from engine.api.wiring import history_from_transcript as _history_from
 
 
 def _client(*, store, usage_store, world_loader, registry, voice_client=None, safety_client=None, default_world_key="fix"):
@@ -126,3 +127,32 @@ def test_transcript_missing_session_401(store, usage_store, world_loader, regist
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
     resp = http.get("/api/session/does-not-exist/transcript", headers={"Authorization": "Session x"})
     assert resp.status_code == 401
+
+
+def test_history_replays_shown_text_skips_the_facilitator_and_stays_alternating():
+    transcript = [
+        {"speaker": "participant", "text": "who is jesus"},
+        {"speaker": "alx", "text": "He was God's own Word."},
+        {"speaker": "participant", "text": "are you an ai"},
+        {"speaker": "facilitator", "kind": "threshold", "text": "We use AI, and here is how."},
+        {"speaker": "participant", "text": "what did that cost"},
+        {"speaker": "alx", "text": "It cost blood, first."},
+    ]
+    h = _history_from(transcript)
+    assert [m["role"] for m in h] == ["user", "assistant", "user", "assistant"]
+    # the facilitator's answer is not put in the Representative's mouth,
+    # and the participant turn it answered does not dangle
+    assert all("We use AI" not in m["content"] for m in h)
+    assert [m["content"] for m in h if m["role"] == "user"] == ["who is jesus", "what did that cost"]
+
+
+def test_a_voice_turn_the_net_emptied_leaves_no_dangling_role():
+    transcript = [
+        {"speaker": "participant", "text": "who is jesus"},
+        {"speaker": "alx", "text": "   "},
+        {"speaker": "participant", "text": "what did that cost"},
+        {"speaker": "alx", "text": "It cost blood, first."},
+    ]
+    h = _history_from(transcript)
+    assert [m["role"] for m in h] == ["user", "assistant"]
+    assert h[0]["content"] == "what did that cost"

@@ -26,7 +26,7 @@ inside cell_keywords would make the compiled fleet cache wrong for every
 world; keeping them apart lets Stage A union the two at turn time and
 leaves the cache meaning precisely what it says.
 """
-from engine.m1.gates_experimental import _content_words
+from engine.prose import content_words
 
 
 def valid_cells(fleet_records: dict[str, dict]) -> set[str]:
@@ -45,7 +45,7 @@ def cell_keywords(fleet_records: dict[str, dict]) -> dict[str, set[str]]:
     for record in fleet_records.values():
         if record.get("record_type") != "canon_question" or not record.get("cell"):
             continue
-        words.setdefault(record["cell"], set()).update(_content_words(record.get("text") or ""))
+        words.setdefault(record["cell"], set()).update(content_words(record.get("text") or ""))
     return words
 
 
@@ -69,7 +69,7 @@ def retrieval_hint_keywords(records: dict[str, dict]) -> dict[str, set[str]]:
         hints = (record.get("retrieval") or {}).get("retrieve_when") or []
         if not hints:
             continue
-        hint_words = _content_words(" ".join(hints))
+        hint_words = content_words(" ".join(hints))
         if not hint_words:
             continue
         for cell in record.get("canon_cells") or []:

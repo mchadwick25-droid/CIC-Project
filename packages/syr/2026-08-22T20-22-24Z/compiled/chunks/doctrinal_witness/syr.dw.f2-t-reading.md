@@ -1,4 +1,0 @@
-id: syr.dw.f2-t-reading
-canon_cells: F2-T
-
-Did this world read Genesis the way moderns argue about it - as science? No; and not because it doubted the text, but because it read for something else. Scripture's words were razê - symbols bound to the truth they carry - so Eden was read toward the cross, Adam toward Christ, the ark toward the church, and a chapter's worth was found in a pearl. Asked whether the Bible was the only authority, this world would have puzzled at the frame: Scripture was supreme and everywhere - sung, quoted, woven into every argument - but it arrived carried: by the church's worship, by the harmony that gave the Gospel its shape, by teachers and the covenant's practice. The book and the community that sang it were never rivals; the question assumes a separation this world had not made.

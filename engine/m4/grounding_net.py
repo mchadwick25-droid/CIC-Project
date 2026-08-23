@@ -49,16 +49,16 @@ even make a checkable claim," owned once.
 """
 import re
 
-from engine.m1.gates_experimental import (
-    _GROUNDING_FLOOR,
-    _QUOTE_CLOSE,
-    _QUOTE_OPEN,
-    _SCAFFOLD_MARKERS,
-    _SELF_NAMING_MARKER,
-    _all_text,
-    _claim_markers,
-    _content_words,
-    _quote_aware_sentences,
+from engine.prose import (
+    GROUNDING_FLOOR,
+    QUOTE_CLOSE,
+    QUOTE_OPEN,
+    SCAFFOLD_MARKERS,
+    SELF_NAMING_MARKER,
+    all_text,
+    claim_markers,
+    content_words,
+    quote_aware_sentences,
 )
 
 # [[world.type.slug]] - record ids are dotted lowercase tokens; the tag
@@ -93,35 +93,14 @@ def strip_tags(text: str) -> str:
 # thing this whole design refuses to do (the fallback ladder appends, it
 # never revises), and a display defect is a signal that something upstream
 # is wrong, not something to paper over on the way out.
-_DISPLAY_DEFECTS = (
-    ("residual_tag", re.compile(r"\[\[.*?\]\]", re.S),
-     "bracket construct left in displayed text - strip_tags only removes well-formed lowercase tags"),
-    ("markdown_rule", re.compile(r"(?m)^\s*(?:-{3,}|\*{3,}|_{3,})\s*$"),
-     "markdown horizontal rule in displayed text"),
-    ("markdown_emphasis", re.compile(r"\*\*[^*\n]+\*\*|\*[^\s*][^*\n]*\*"),
-     "markdown emphasis markers in displayed text"),
-)
-
-
-def check_display_text(text: str) -> list[dict]:
-    """Findings on the exact string a participant will read. Empty list means
-    nothing structural leaked. Deterministic, string ops only, no model
-    call - same discipline as check_turn."""
-    findings = []
-    for kind, pattern, why in _DISPLAY_DEFECTS:
-        for match in pattern.finditer(text or ""):
-            findings.append({"kind": kind, "why": why, "excerpt": match.group(0)[:80]})
-    return findings
-
-
 def _quoted_spans(text: str) -> list[str]:
     spans = []
     pos = 0
     while True:
-        open_m = _QUOTE_OPEN.search(text, pos)
+        open_m = QUOTE_OPEN.search(text, pos)
         if not open_m:
             return spans
-        close_m = _QUOTE_CLOSE.search(text, open_m.end())
+        close_m = QUOTE_CLOSE.search(text, open_m.end())
         if not close_m:
             return spans
         spans.append(text[open_m.end() : close_m.start()])
@@ -139,7 +118,7 @@ def _span_in_records(span: str, records: list[dict], *, window_words: int = 6) -
     words = _normalize(span).split()
     if not words:
         return False
-    haystacks = [_normalize(_all_text(r)) for r in records]
+    haystacks = [_normalize(all_text(r)) for r in records]
     windows = (
         [" ".join(words)]
         if len(words) <= window_words
@@ -172,7 +151,7 @@ def build_figure_lexicon(repository_records: dict[str, dict]) -> set[str]:
 def parse_tagged(text: str) -> list[dict]:
     """Split tagged output into sentences, each with its own claimed ids."""
     out = []
-    for raw in _quote_aware_sentences(text):
+    for raw in quote_aware_sentences(text):
         ids = _TAG.findall(raw)
         out.append({"raw": raw, "text": strip_tags(raw).strip(), "tags": ids})
     return out
@@ -192,7 +171,7 @@ def check_turn(
     repository_records: dict[str, dict],
     *,
     thin_topics: list[dict] | None = None,
-    grounding_floor: float = _GROUNDING_FLOOR,
+    grounding_floor: float = GROUNDING_FLOOR,
 ) -> dict:
     """Per-sentence verdicts over one tagged turn.
 
@@ -215,7 +194,7 @@ def check_turn(
         entry = {"sentence": text, "tags": tags, "verdict": "ok", "why": None}
         results.append(entry)
 
-        if any(m in lower for m in _SCAFFOLD_MARKERS) or _SELF_NAMING_MARKER in lower:
+        if any(m in lower for m in SCAFFOLD_MARKERS) or SELF_NAMING_MARKER in lower:
             entry["why"] = "exempt: honesty scaffolding / sanctioned self-naming"
             continue
 
@@ -236,9 +215,9 @@ def check_turn(
             entry["why"] = "quoted span not found verbatim in any tagged record" if tags else "quoted span with no citation tag"
             continue
 
-        markers = _claim_markers(text)
-        if not markers and figure_names & _content_words(text):
-            markers = [f"figure-name:{sorted(figure_names & _content_words(text))}"]
+        markers = claim_markers(text)
+        if not markers and figure_names & content_words(text):
+            markers = [f"figure-name:{sorted(figure_names & content_words(text))}"]
         if not markers:
             entry["why"] = "no checkable claim - interpretive/connective framing"
             continue
@@ -250,8 +229,8 @@ def check_turn(
 
         cited_words: set[str] = set()
         for rec in tagged_records:
-            cited_words |= _content_words(_all_text(rec))
-        words = _content_words(text)
+            cited_words |= content_words(all_text(rec))
+        words = content_words(text)
         ratio = (len(words & cited_words) / len(words)) if words else 1.0
         entry["ratio"] = round(ratio, 2)
 

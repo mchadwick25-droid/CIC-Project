@@ -1,4 +1,0 @@
-id: syr.dw.f3-t-one-church
-canon_cells: F3-T
-
-Did this world have denominations? Not as the word is now meant - but its streets held rival communities who all invoked Christ: Marcion's people with their smaller Bible and their stranger God, Bardaisan's circle with their songs, later Mani's missionaries. How did the church handle them? Not with councils or force, in this window, but with distinction: it would not share their communion, it answered their teaching by name in prose and in song, and it held to the wholeness it had received - one God, the whole of Scripture, the body's resurrection. What it would have wanted said of itself is the line its own era preserved: that wherever they are, Christians are all called after the one name of Christ. It knew itself as part of that one people, across two empires and beyond.

@@ -90,6 +90,35 @@ def get_transcript(store: Store, session_id: str) -> SessionState:
     return state
 
 
+
+def history_from_transcript(transcript: list[dict]) -> list[dict]:
+    """Program-Spec M4's "full-session memory", as Messages-API turns.
+    Until now the generation call sent a single user message and the voice
+    had never heard the last thing it said.
+
+    Three deliberate choices, each with a test. The voice is replayed its
+    SHOWN text, not its raw tagged output - the withheld sentences were
+    never said to anyone, and feeding the tags back would teach it to copy
+    them. Facilitator turns are left out: they belong to a different voice,
+    and folding them in would put the Facilitator's words in the
+    Representative's mouth. And pairs are emitted strictly alternating, so
+    a participant message that produced no voice reply - a routing gap, a
+    crisis turn, a turn the net emptied - leaves no dangling role behind.
+    """
+    history: list[dict] = []
+    pending: str | None = None
+    for entry in transcript:
+        if entry.get("speaker") == "participant":
+            pending = entry.get("text") or ""
+        elif entry.get("speaker") not in (None, "facilitator") and pending is not None:
+            said = (entry.get("text") or "").strip()
+            if said:
+                history.append({"role": "user", "content": pending})
+                history.append({"role": "assistant", "content": said})
+            pending = None
+    return history
+
+
 def handle_message(
     *,
     store: Store,
@@ -125,6 +154,8 @@ def handle_message(
         for citation in (turn.get("citations") or [])
         for record_id in citation.get("record_ids", [])
     }
+    history = history_from_transcript(state.transcript)
+
     term_ids = compute_anachronistic_term_ids(load_fleet_records(), world.frame["time_window"])
     turn_no = state.turn_count + 1
 
@@ -140,6 +171,7 @@ def handle_message(
             pressed=state.pressed,
             anachronistic_term_ids=term_ids,
             already_told_ids=already_told_ids,
+            history=history,
         )
     except UnhandledRoutingAction as exc:
         # A real, tested routing outcome with no generation content wired up

@@ -116,7 +116,19 @@ def _build_turn_directive(directive: Directive | None) -> str | None:
     if directive.suspend_register_statement_1:
         parts.append("Register statement 1 is suspended this turn (witness-before-answer licensed).")
     if directive.ambiguity_options:
-        parts.append(f"Ambiguity options to offer: {', '.join(directive.ambiguity_options)}")
+        # NOT "options to offer". That wording instructed the voice to
+        # present a menu, and it sits after register statement 1 in the
+        # prompt, so it won: measured over five questions the first
+        # sentence answered the ask on 2 of 5 turns, and the participant
+        # was handed "I hear two ways to take your question" instead of an
+        # answer. Removing the instruction entirely took that to 5 of 5.
+        # This keeps the reading available to the voice as information and
+        # restates statement 1 rather than overriding it.
+        parts.append(
+            f"The ask could be read these ways: {'; '.join(directive.ambiguity_options)}. "
+            "Answer the most likely reading first, in your opening sentence; then, only if the others "
+            "would change the answer, say briefly what they would change. Never open by listing the readings."
+        )
     return "\n".join(parts)
 
 
@@ -135,9 +147,24 @@ def _apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topic
     sentence's own verdict, tags, and why, same as the M7 audit input the
     design names in §6.3."""
     net_result = grounding_net.check_turn(raw_text, repository_records, thin_topics=thin_topics)
-    surviving = [s for s in net_result["sentences"] if s["verdict"] == "ok"]
-    text = " ".join(s["sentence"] for s in surviving)
-    citations = [{"sentence": s["sentence"], "record_ids": s["tags"]} for s in surviving if s["tags"]]
+    # THE CHECKS GATE DECORATION, NEVER THE TEXT. Program-Spec M4, and
+    # again in Artifact-5 SS2 ("they gate decoration, not text"), and again
+    # in SS5 ("never by editing a live response"). What the voice wrote is
+    # what the participant reads; only the tags come off.
+    #
+    # Deleting the failures was measured over 17 live turns: 25% of every
+    # sentence generated, 39% of them on prose that invented nothing, and
+    # the deletion orphaned whatever came next - a question about who
+    # someone was, answered without naming anyone, because the naming
+    # sentence went. A sentence that fails verification loses its citation
+    # and is carried on the event for the SS5 audit; it is not destroyed on
+    # the way to the screen.
+    text = grounding_net.strip_tags(raw_text)
+    citations = [
+        {"sentence": s["sentence"], "record_ids": s["tags"]}
+        for s in net_result["sentences"]
+        if s["verdict"] == "ok" and s["tags"]
+    ]
     return text, citations, net_result
 
 
@@ -150,6 +177,7 @@ def _run_ordinary_voice_turn(
     directive: Directive | None,
     session_id: str,
     already_told_ids: set[str] | None = None,
+    history: list[dict] | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
@@ -179,7 +207,8 @@ def _run_ordinary_voice_turn(
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
 
     stream_outcome = stream_voice_turn(
-        voice_client, voice_model_id, system_prompt=world.prompt_text, turn_directive=_build_turn_directive(directive), message=user_message
+        voice_client, voice_model_id, system_prompt=world.prompt_text,
+        turn_directive=_build_turn_directive(directive), message=user_message, history=history,
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
@@ -188,15 +217,14 @@ def _run_ordinary_voice_turn(
 
     answer_text, citations, net_result = _apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
 
+    # No code-appended floor line. Program-Spec M5: "In-world thinness is
+    # never intercepted - the honest limit is the voice's own testimony,
+    # not a system apology." It fired on 7 of the turns measured today and
+    # on every one of the seven it landed after real surviving content,
+    # telling the participant there was nothing to say directly underneath
+    # the thing that had just been said. The honest limit is the voice's
+    # job, and the limit records are in its ground to say it from.
     degraded_by_net = not net_result["substantive_survives"]
-    if degraded_by_net:
-        # §6.3's fallback ladder, step 2: drop-and-continue already
-        # happened inside _apply_net (withheld sentences never joined the
-        # text); this is step 2's own escalation - nothing substantive
-        # survived at all, so the turn degrades to the honest-limit floor,
-        # appended by code, never regenerated, never a human edit.
-        fallback = evidence.degradation_statement(turn_evidence)
-        answer_text = f"{answer_text} {fallback}".strip() if answer_text else fallback
 
     do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
 
@@ -213,7 +241,6 @@ def _run_ordinary_voice_turn(
         # The finished string, checked last, after the net has cut and the
         # fallback has appended - because that is the only text a person
         # actually reads, and until now nothing looked at it.
-        "display_findings": grounding_net.check_display_text(answer_text),
     }
     return voice_event, usage_records
 
@@ -231,6 +258,7 @@ def run_turn(
     anachronistic_term_ids: set,
     force_empty_stream: bool = False,
     already_told_ids: set[str] | None = None,
+    history: list[dict] | None = None,
 ) -> TurnResult:
     """force_empty_stream is a TEST/EVIDENCE HOOK ONLY - it lets the empty-
     stream crisis-append case be exercised deterministically (a real model
@@ -317,6 +345,7 @@ def run_turn(
             directive=gate_result.routing.directive,
             session_id=session_id,
             already_told_ids=already_told_ids,
+            history=history,
         )
         return TurnResult(
             routing_action=action,

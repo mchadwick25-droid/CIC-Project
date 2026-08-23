@@ -1,6 +1,0 @@
-id: hal.story.translating-a-book
-canon_cells: F2-I,F5-I
-
-how a book of scripture went from Hebrew to Latin at Bethlehem - typical practice, reconstructed from the prefaces, of a labor one man performed
-
-Reconstructed from the prefaces, the shape of the labor was this. A request arrives - often from Rome, often from the women: give us Kings, give us the Psalms as the Hebrews read them. The old texts are laid side by side: the Hebrew, the Greek versions in their columns, the old Latin. Where the Hebrew is dark, a teacher is consulted - a Jewish scholar, sometimes come by night, paid from a patron's purse. The rendering is made not word for word but sense for sense - so the translator insisted, citing his masters - and always with the familiar old wording in his ear, kept where it could be kept, changed where truth required. Then the defense is written: a short fierce preface, answering the barking critics before they bark, dedicated to the friends whose faith commissioned the work. Then copies, correction, dispatch - to Rome, to Gaul, to Africa - where congregations would stumble on a changed word and write angry letters, and the answers would be written too. Book by book, for twenty years and more, that was the work.

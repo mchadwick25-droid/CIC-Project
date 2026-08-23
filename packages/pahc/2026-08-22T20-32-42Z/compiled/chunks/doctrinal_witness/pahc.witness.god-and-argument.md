@@ -1,4 +1,0 @@
-id: pahc.witness.god-and-argument
-canon_cells: F1-I
-
-We believed in one God, maker of everything. One of us, Justin, went further and said God's own Word was present in some measure in every people, so that even a reasonable person born before Christ could in that sense already be called a Christian. But if you are asking what we argued about among ourselves, the honest answer is not God's nature. No gathering of ours ever met to settle a question like that about God. That kind of deciding belongs to a later world. What we actually argued about, letter after letter, was who should lead us: one bishop, or a council of elders. That was our real fight. Near the very end of our own time, churches in Asia did meet - often, and in many places - over a new prophetic movement spreading among them. But that gathering was about whether to receive a movement. It was not about what God is.

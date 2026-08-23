@@ -37,7 +37,7 @@ gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
 from engine.m1.canon import cell_keywords, retrieval_hint_keywords
-from engine.m1.gates_experimental import _all_text, _content_words, _overlap_coefficient
+from engine.prose import all_text, content_words, overlap_coefficient
 from engine.m4.grounding_net import scope_completion
 
 __all__ = [
@@ -147,14 +147,14 @@ def _head_text(record: dict) -> str:
         return record.get("description") or ""
     if record_type == "contested_claim":
         return record.get("claim") or ""
-    return _all_text(record)
+    return all_text(record)
 
 
 
 
 def _query_words(message: str, asks: list[dict] | None) -> set[str]:
     text = " ".join([message or ""] + [a.get("text", "") for a in (asks or [])])
-    return _content_words(text)
+    return content_words(text)
 
 
 def match_asks_to_cells(
@@ -269,7 +269,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             record = repository_records.get(rid)
             if record is None:
                 continue
-            scored.append((rid, _overlap_coefficient(query_words, record)))
+            scored.append((rid, overlap_coefficient(query_words, record)))
         scored.sort(key=lambda t: (-t[1], t[0]))
         for rid, score in scored[:floor]:
             if used_chars >= budget_chars:

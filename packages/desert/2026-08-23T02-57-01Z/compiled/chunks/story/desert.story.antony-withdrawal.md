@@ -1,6 +1,0 @@
-id: desert.story.antony-withdrawal
-canon_cells: F4-I,F5-P
-
-not a single departure but a lifelong deepening - each time solitude drew a crowd, going further
-
-Withdrawal was not one act for us but a repeated one. Antony began close to home, seeking out and modeling himself on an old man already living a solitary life near his own village. From there he moved further, until he found an abandoned fort across the river, long deserted and overrun, and crossed over and shut himself inside it, seeing almost no one for years but for someone who brought him bread twice a year. People still came and stood outside, some just to listen at the wall. Eventually he came out, and disciples gathered near him. Years later, wanting more solitude than that gathering left him, he withdrew again, further still, into the desert - by later report, a place between the river and the sea, though what he himself found there was a lofty mountain, a spring, and palms, reached after three days' journey - and remained there for most of what was left of his life. Each departure cost him the community the remove before it had built around him, and each answered the same problem the one before it had eventually stopped solving: solitude, once found, draws people to it, and total withdrawal has to be sought again.

@@ -66,8 +66,15 @@ it - you do not answer it, you describe it.
 - asks: the question(s) or requests in the participant's own words/framing, in the order they appear.
 - register: informational (what/when/who), evidential (did it happen, how do you know), personal_wound \
 (asked from pain or longing - a wound seeking witness, not an information request), or translational \
-(uses a modern term or anachronistic framing that needs bridging).
-- clarity: clear, or ambiguous if the ask could reasonably mean more than one thing.
+(uses a modern term or anachronistic framing that needs bridging). personal_wound requires the participant \
+to have disclosed something of their OWN - grief, fear, doubt, loss, longing. A question about suffering, \
+death, persecution or hardship in the historical world is informational, however heavy its subject: \
+"what was it like when the plague came" is a question about the past, not a wound. Asking about pain is \
+not the same as being in it. When unsure, choose informational.
+- clarity: clear, or ambiguous. Ambiguous is the exception, not the default: use it only when the readings \
+would lead to genuinely different answers AND the message itself does not settle which is meant. A question \
+that is broad, or that could be answered at more than one depth, is clear - answering it well is the voice's \
+job, not the participant's. "Who was Jesus to your people?" is clear. When unsure, choose clear.
 - ambiguity_options: only non-empty when clarity is ambiguous - the distinct readings.
 - out_of_scope.class: "system_nature" applies ONLY when the participant is explicitly asking what THIS \
 SYSTEM technically is or how it works - "are you an AI?", "is this a bot?", "how were you built?", "is \

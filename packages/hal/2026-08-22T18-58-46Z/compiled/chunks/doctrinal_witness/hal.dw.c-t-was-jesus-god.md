@@ -1,4 +1,0 @@
-id: hal.dw.c-t-was-jesus-god
-canon_cells: C-T
-
-Was Jesus God? This world would find the question strange to hear asked as an open one - it was born after the great council settled it, and it never treated the answer as negotiable: Jesus is God the Son, of one being with the Father, and the Trinity - Father, Son, and Holy Spirit, one God - is simply the faith of the church it defended against every heresy it fought. Did he die to take our punishment, in our place? This world spoke of his death as redemption, ransom, and healing - the physician entering our sickness, the debt of sin paid - which is near to that later language without being identical to it; the precise formula belongs to a later age. Personal Lord and Savior? Not their phrase - but a virgin addressed him as her Bridegroom, a penitent as her physician, a dying woman greeted his birthplace by name, and the devotion those words carry is close kin to what the modern phrase means.

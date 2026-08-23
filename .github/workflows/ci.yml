@@ -110,6 +110,12 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r engine/m4/requirements.txt
+      # Compiled packages are derived and not in git (see .gitignore); rebuild
+      # the pinned ones from records before any job that reads package bytes.
+      # restore runs the M2 compiler, so it needs the compiler's own deps
+      # (jsonschema for the M1 gates) on top of whatever this job installs.
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m engine.m2.cli restore
       - run: python -m pytest engine/m3/tests -q
 
   m4-event-log:
@@ -135,6 +141,12 @@ jobs:
       # engine.m4.turn -> engine.m5.live_calls -> anthropic transitively -
       # m1's requirements.txt has no reason to know that and shouldn't.
       - run: pip install -r engine/m4/requirements.txt
+      # Compiled packages are derived and not in git (see .gitignore); rebuild
+      # the pinned ones from records before any job that reads package bytes.
+      # restore runs the M2 compiler, so it needs the compiler's own deps
+      # (jsonschema for the M1 gates) on top of whatever this job installs.
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m engine.m2.cli restore
       - run: python -m pytest engine/m4/tests -q
 
   m5-gate-routing:
@@ -205,11 +217,17 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r engine/m1/requirements.txt
+      # Compiled packages are derived and not in git (see .gitignore); rebuild
+      # the pinned ones from records before any job that reads package bytes.
+      # restore runs the M2 compiler, whose deps this job already installs.
+      - run: python -m engine.m2.cli restore
       - run: python -m pytest engine/m2/tests -q
 
   m2-staleness-check:
     # The third stage-2 gate leg: recompile every built/admitted/open world
-    # from its stored records_commit and diff against what packages/ holds.
+    # from its stored records_commit and check it still produces the package
+    # worlds.yaml is pinned to. Needs NO restore step: it compares against
+    # each package's committed manifest.json, not against stored bytes.
     # Only fires real work once a world is actually built (packages/fix/**
     # committed, records/worlds.yaml fix.state=built) - until then this job
     # passes trivially by finding zero checkable worlds, which is exactly
@@ -242,6 +260,12 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r engine/api/requirements.txt
+      # Compiled packages are derived and not in git (see .gitignore); rebuild
+      # the pinned ones from records before any job that reads package bytes.
+      # restore runs the M2 compiler, so it needs the compiler's own deps
+      # (jsonschema for the M1 gates) on top of whatever this job installs.
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m engine.m2.cli restore
       - run: python -m pytest engine/api/tests -q
 
   frontend-typecheck:

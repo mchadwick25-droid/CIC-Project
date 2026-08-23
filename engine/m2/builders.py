@@ -7,7 +7,7 @@ compiler.py, so it doesn't have to be threaded through every function here.
 import hashlib
 
 from engine.m1 import canon
-from engine.m1.gates_experimental import _GROUNDING_FLOOR, _content_words, _quote_aware_sentences
+from engine.prose import GROUNDING_FLOOR, content_words, quote_aware_sentences
 
 from .canonical import canonical_json
 
@@ -138,7 +138,7 @@ def _candidate_head_text(record: dict) -> str:
     """The same compiled-facing text this record contributes elsewhere in
     build_prompt/build_chunks - never the trailing analytical/provenance
     body. Scoring against the FULL record (engine.m1.gates_experimental's
-    own _all_text, what _overlap_coefficient and the live net's own ratio
+    own all_text, what overlap_coefficient and the live net's own ratio
     check both use) is fine for ranking already-cell-scoped candidates
     (engine.m4.evidence's job - a slightly imprecise ranking there never
     asserts a false citation) but proved too permissive here on real data:
@@ -176,10 +176,10 @@ _MIN_SHARED_WORDS = 2
 
 
 def _tag_representative_text(text: str, candidates: list[dict]) -> str:
-    candidate_words = [(record["id"], _content_words(_candidate_head_text(record))) for record in candidates]
+    candidate_words = [(record["id"], content_words(_candidate_head_text(record))) for record in candidates]
     tagged: list[str] = []
-    for sentence in _quote_aware_sentences(text):
-        words = _content_words(sentence)
+    for sentence in quote_aware_sentences(text):
+        words = content_words(sentence)
         best_id, best_ratio, best_shared = None, 0.0, 0
         for record_id, record_words in candidate_words:
             if not words or not record_words:
@@ -188,7 +188,7 @@ def _tag_representative_text(text: str, candidates: list[dict]) -> str:
             ratio = len(shared) / min(len(words), len(record_words))
             if ratio > best_ratio:
                 best_ratio, best_id, best_shared = ratio, record_id, len(shared)
-        if best_id and best_ratio >= _GROUNDING_FLOOR and best_shared >= _MIN_SHARED_WORDS:
+        if best_id and best_ratio >= GROUNDING_FLOOR and best_shared >= _MIN_SHARED_WORDS:
             # BEFORE the terminal punctuation, per the citation contract's own
             # words: "so a sentence-boundary split can never break inside one."
             # engine.m4.grounding_net splits on (?<=[.!?])\s+, so a tag after

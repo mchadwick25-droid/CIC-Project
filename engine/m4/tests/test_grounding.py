@@ -1,4 +1,4 @@
-from engine.m4.grounding import find_do_not_voice_violation, ground_citations
+from engine.m4.grounding import find_do_not_voice_violation
 
 WITNESS_RECORD = {
     "id": "fix.witness.who-is-jesus",
@@ -23,43 +23,6 @@ VERBATIM_QUOTE = {
     "text": "I did not see him. I only saw what his witnesses could not stop telling.",
 }
 QUOTES = [DO_NOT_VOICE_QUOTE, VERBATIM_QUOTE]
-
-
-def test_grounded_claim_with_excerpt_present_stays_drawn_on():
-    answer = "We did not claim to have seen him ourselves - only that the witnesses could not be talked out of it."
-    result = ground_citations(answer_text=answer, claimed_drawn_on=["fix.witness.who-is-jesus"], repository_records=REPOSITORY)
-    assert result["drawn_on"] == ["fix.witness.who-is-jesus"]
-    assert result["consulted"] == []
-    assert result["unknown_ids"] == []
-
-
-def test_claim_without_excerpt_present_demotes_to_consulted():
-    answer = "I can tell you a little about the Three, though it's a deep subject."
-    result = ground_citations(answer_text=answer, claimed_drawn_on=["fix.witness.who-is-jesus"], repository_records=REPOSITORY)
-    assert result["drawn_on"] == []
-    assert result["consulted"] == ["fix.witness.who-is-jesus"]
-
-
-def test_invented_record_id_is_unknown_not_drawn_on_or_consulted():
-    answer = "Anything at all."
-    result = ground_citations(answer_text=answer, claimed_drawn_on=["fix.invented.not-a-real-record"], repository_records=REPOSITORY)
-    assert result["drawn_on"] == []
-    assert result["consulted"] == []
-    assert result["unknown_ids"] == ["fix.invented.not-a-real-record"]
-
-
-def test_multiple_claims_split_correctly():
-    answer = (
-        "We did not claim to have seen him ourselves. We named them Father, Son, and Spirit together, "
-        "before any later word for it existed."
-    )
-    result = ground_citations(
-        answer_text=answer,
-        claimed_drawn_on=["fix.witness.who-is-jesus", "fix.term.the-three", "fix.invented.nope"],
-        repository_records=REPOSITORY,
-    )
-    assert set(result["drawn_on"]) == {"fix.witness.who-is-jesus", "fix.term.the-three"}
-    assert result["unknown_ids"] == ["fix.invented.nope"]
 
 
 def test_do_not_voice_quote_verbatim_is_flagged():

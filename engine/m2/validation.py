@@ -25,7 +25,7 @@ def build_gates_report(records: dict, fleet: dict, registry: dict) -> bytes:
     return canonical_json(payload)
 
 
-def build_admission_results(world_key: str) -> bytes:
+def build_admission_results(world_key: str) -> bytes:  # noqa: D401
     return canonical_json(
         {
             "status": "not_yet_run",
@@ -40,17 +40,29 @@ def build_admission_results(world_key: str) -> bytes:
     )
 
 
-def build_signoffs(world_key: str) -> bytes:
+def build_signoffs(world_key: str, *, is_fixture: bool = False) -> bytes:
+    # The fixture's note used to be written into EVERY world's package, so
+    # alexandria's own signoffs.json said "alx is a synthetic fixture world -
+    # none of Mark's four per-world touchpoints apply to it". They do apply,
+    # and none of them has happened yet: outstanding is not inapplicable.
+    note = (
+        f"{world_key} is the synthetic fixture world (spec stage 0.6) - none of Mark's four "
+        "per-world touchpoints (spec SS4.3) apply to it; it is never admitted or opened for real."
+        if is_fixture
+        else (
+            f"{world_key} is a formation world. All four of Mark's per-world touchpoints (spec "
+            "SS4.3 - identity, the living-tradition determination, the freeze, the admission read) "
+            "are OUTSTANDING, not waived. This world is state=built: gates green with a compiled "
+            "package, which is a mechanical transition and not a judgement about the world."
+        )
+    )
     return canonical_json(
         {
             "identity_touchpoint": None,
             "living_tradition_determination": None,
             "freeze": None,
             "admission_read": None,
-            "note": (
-                f"{world_key} is a synthetic fixture world - none of Mark's four per-world "
-                "touchpoints (spec SS4.3) apply to it; it is never admitted or opened for real."
-            ),
+            "note": note,
             "scholarly_review_status": (
                 "aspirational, not blocking (spec principle 15); the contribution fund is not "
                 "yet established; the methods page states this plainly once M6 exists"
