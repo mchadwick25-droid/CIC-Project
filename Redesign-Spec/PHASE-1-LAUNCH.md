@@ -28,7 +28,12 @@ wrong on this project, and the reasoning is in `BUILD-HANDOFF.md`.
    that pattern found the last unreachable route for six small calls.
 4. **Measured, not asserted** (spec principle 10). A number in this
    project comes from a run, not from a plausible argument. If a stage
-   ends with "it should be fine", the stage is not finished.
+   ends with "it should be fine", the stage is not finished. This applies
+   to git as much as to models: on 2026-08-24 two clones ran the same
+   `git branch --merged` against the same commit and disagreed by 17
+   branches holding thousands of commits. **A command that is usually
+   right is not a check.** Before anything destructive, verify each item
+   individually and say what the verification actually returned.
 5. **No $/token quoted until invoice-reconciled** (principle 13). Bedrock
    is partner-operated with its own pricing. Token COUNTS are measurable
    locally and are fair game; prices are not.
@@ -180,58 +185,93 @@ Housekeeping that makes every later stage legible. None of it touches code.
    between the two, so the deployed prototype did not change. `build/phase-1`
    was deliberately NOT renamed - renaming breaks every clone, and several
    merged PRs reference it.
-2. **Delete the merged branches.** 43 as of 2026-08-24, all fully
-   contained. Recompute rather than trusting any list written down here -
-   it goes stale every time something merges.
+2. ~~**Delete the merged branches.**~~ **DONE 2026-08-24** - 120 remote
+   branches down to 76. Kept here in full because the procedure nearly went
+   wrong, and the reason it nearly went wrong is not obvious.
 
-   **Mark works in PowerShell on Windows**, so that comes first. A bash
-   pipeline handed over on 2026-08-24 failed on him immediately (no `sed`,
-   no `grep`, no `xargs`, and `\` is not a line continuation there).
+   **`--merged` IS NOT A SAFETY CHECK. Verify every branch individually
+   before deleting it.**
 
-   ```powershell
-   git fetch --prune origin
+   What happened: `git branch -r --merged origin/build/phase-1` was run in
+   the assistant's Linux container and in Mark's Windows clone, against the
+   same target commit, with the same branch SHAs. The container listed 44
+   branches. Mark's clone listed 61. **The extra 17 were not merged** -
+   `claude/confirmed-gloss-color` alone was 516 commits ahead,
+   `claude/v8-v9-charter-lblaxp` 672, `claude/rollback-to-fable-base` 520.
+   Deleting them would have destroyed several thousand commits that exist
+   nowhere else in the repository.
 
-   $keep = @('build/phase-1','main','baseline/pilot-2026-08-24')
+   The cause was never established. Both clones agreed on
+   `origin/claude/confirmed-gloss-color = f85ba6de` and disagreed only on
+   whether it was reachable. **That is the point: the cause does not need
+   to be known for the procedure to be safe, as long as the procedure does
+   not trust one command's word for it.** What caught it was the count not
+   matching an earlier count - not the process.
 
-   $branches = git branch -r --merged origin/build/phase-1 |
-       ForEach-Object { $_.Trim() -replace '^origin/','' } |
-       Where-Object { $_ -notmatch '^HEAD' -and $keep -notcontains $_ }
+   ### The procedure
 
-   $branches.Count      # LOOK AT THIS before the next block
-   $branches
-
-   foreach ($b in $branches) { git push origin --delete $b }
-   ```
-
-   One at a time in the loop so a failure names the branch that caused it.
-   Confirm afterwards with `git fetch --prune origin` and check
-   `origin/baseline/pilot-2026-08-24` is still `8b23f46e`.
-
-   The same thing in bash, for a Linux or macOS session:
+   **Step 1 - the assistant builds the list AND verifies each entry**, in
+   its own session, and does not hand over a command that recomputes on a
+   machine whose answers have not been checked:
 
    ```bash
    git fetch --prune origin
-   git branch -r --merged origin/build/phase-1 \
-     | sed 's|origin/||' \
-     | grep -vE '^\s*(build/phase-1|main|baseline/pilot-2026-08-24|HEAD)' \
-     | xargs -n 12 git push origin --delete
+   KEEP='^(build/phase-1|main|baseline/pilot-2026-08-24)$'
+   git branch -r --merged origin/build/phase-1 | grep -v HEAD \
+     | sed 's|^ *origin/||' | grep -vE "$KEEP" | sort > /tmp/candidates.txt
+
+   # THE CHECK THAT MATTERS - every candidate, individually
+   while read b; do
+     n=$(git rev-list --count origin/build/phase-1..origin/$b)
+     [ "$n" != "0" ] && echo "REJECT $b ($n commits not contained)"
+   done < /tmp/candidates.txt
    ```
 
-   **The keep-list is load-bearing in both**:
-   `baseline/pilot-2026-08-24` IS merged and would be swept up by a naive
-   sweep. `--merged` is the safety - a branch cannot appear unless every
-   commit on it is already in `build/phase-1` - and it is also why a
-   mistake here is recoverable: the commits survive, so a wrongly-deleted
-   branch can be recreated at its SHA.
+   A branch that prints REJECT does not go in the list, whatever `--merged`
+   said. If any print, say so plainly rather than quietly dropping them -
+   a disagreement between the two is itself the finding.
+
+   **Step 2 - hand over an EXPLICIT list**, as a literal array, not a
+   command that rebuilds it:
+
+   ```powershell
+   $safe = @('branch-one','branch-two', ...)
+   $safe.Count
+   foreach ($b in $safe) { git push origin --delete $b }
+   ```
+
+   One at a time in the loop, so a failure names the branch that caused it.
+   Mark runs Windows PowerShell (standing rule 7) - do not hand him bash.
+
+   **Step 3 - verify the outcome from the assistant's side**: the branch
+   count fell by exactly the number deleted; `build/phase-1`, `main` and
+   `baseline/pilot-2026-08-24` still resolve; and every branch that was
+   REJECTED or excluded still exists.
+
+   ### Two things that stay true
+
+   **The keep-list is load-bearing.** `baseline/pilot-2026-08-24` IS merged
+   and any naive sweep takes it.
+
+   **A mistake is recoverable.** Every deleted branch was fully contained,
+   so its commits survive in `build/phase-1` and the branch can be
+   recreated at its SHA. That is exactly why the individual check matters:
+   it is what makes "fully contained" true rather than assumed.
 
    **A session credential may be refused (403) on deleting refs** - it was
-   on 2026-08-24, retried and refused again. If so this is Mark's, at his
-   own shell or at
-   `github.com/mchadwick25-droid/CIC-Project/branches` -> Stale, which has
-   a bin icon per row.
+   on 2026-08-24, retried and refused again, which is why the deletion ran
+   from Mark's own shell. The GitHub UI at
+   `github.com/mchadwick25-droid/CIC-Project/branches` -> Stale has a bin
+   icon per row if no shell is available.
 
-> **GATE 1** - `main` and `build/phase-1` at the same SHA; branch count
-> down from 114; `baseline/pilot-2026-08-24` still at `8b23f46e`.
+> **GATE 1 - MET 2026-08-24.** `main` and `build/phase-1` both at
+> `417f3211`; remote branches 120 -> 76; `baseline/pilot-2026-08-24` still
+> at `8b23f46e`; and all 18 unmerged branches confirmed still present.
+>
+> Note for whoever keeps this level: **the `main` fast-forward is now
+> protection, not housekeeping** (Stage 0). If a later merge lands on
+> `build/phase-1` and `main` is not brought level, the redundancy quietly
+> decays back to a single ref holding everything.
 
 ---
 
