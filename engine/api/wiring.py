@@ -213,6 +213,7 @@ def handle_message(
             participant_message=text,
             pressed=state.pressed,
             anachronistic_term_ids=term_ids,
+            track_b_accumulator=state.safety.track_b_accumulator,
             already_told_ids=already_told_ids,
             history=history,
         )
@@ -268,6 +269,17 @@ def handle_message(
     # ask is a press. Appending it after the etic turn would be recording a
     # state the session had already used. Re-appending on a later first-ask
     # is harmless - the projection folds it to True either way.
+    # What the sealed safety call said, kept. Written straight after the
+    # gate decision it derives from, and only when something changed - most
+    # turns append nothing. This RECORDS ONLY: routing is untouched, the
+    # safety call's own input is untouched, and nothing reads the
+    # accumulator back except the next turn's own payload. The threshold
+    # that would act on it is a separate decision (engine.m5.
+    # safety_accumulation).
+    for safety_state in result.safety_state_events:
+        events.validate("safety_state", safety_state)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="safety_state", payload=safety_state)
+
     out_of_scope_class = (gate_payload.get("out_of_scope") or {}).get("class")
     if result.routing_action == "voice_with_directive" and out_of_scope_class in PRESSABLE_CLASSES:
         pressed_payload = {"class": out_of_scope_class}

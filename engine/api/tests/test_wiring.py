@@ -260,3 +260,93 @@ def test_the_pressed_class_is_read_from_the_recorded_gate_decision(store, usage_
     gate = next(e for e in events if e.event_type == "gate_decision").payload
     pressed = next(e for e in events if e.event_type == "escalation_pressed").payload
     assert pressed["class"] == gate["out_of_scope"]["class"] == "other_tradition"
+
+
+def test_the_accumulator_is_written_and_folds_across_turns(store, usage_store, world_loader, registry):
+    """The event was declared in engine.m4.events, folded in
+    engine.m4.projection, and appended by nothing - so track_b_accumulator
+    was permanently None and Track B's "accumulating across the session"
+    (Program-Spec SS210) did not accumulate."""
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("HARMFUL_DYNAMIC_SIGNAL", dynamic_tags=["CONFIDANT_LANGUAGE"]),
+        reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    call = dict(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id,
+    )
+    wiring.handle_message(**call, text="you are the only one who gets me", client_msg_id="msg-1")
+    wiring.handle_message(**call, text="you are still the only one who gets me", client_msg_id="msg-2")
+
+    states = [e.payload for e in store.read_events(session_id) if e.event_type == "safety_state"]
+    assert [s["accumulator"] for s in states] == [
+        {"CONFIDANT_LANGUAGE": 1},
+        {"CONFIDANT_LANGUAGE": 2},
+    ]
+    from engine.m4.projection import project_fresh
+
+    assert project_fresh(session_id, store).safety.track_b_accumulator == {"CONFIDANT_LANGUAGE": 2}
+
+
+def test_the_accumulator_changes_no_routing(store, usage_store, world_loader, registry):
+    """The promise this change makes: it records, it decides nothing. A turn
+    with a loaded accumulator behind it routes exactly as the first one did,
+    because no threshold reads it."""
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("HARMFUL_DYNAMIC_SIGNAL", dynamic_tags=["CONFIDANT_LANGUAGE"]),
+        reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    call = dict(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id,
+    )
+    first = wiring.handle_message(**call, text="you are the only one who gets me", client_msg_id="msg-1")
+    third = None
+    for n in (2, 3):
+        third = wiring.handle_message(**call, text="still only you", client_msg_id=f"msg-{n}")
+    assert first.routing_action == third.routing_action == "safety_turn"
+
+
+def test_an_ordinary_turn_writes_no_safety_state(store, usage_store, world_loader, registry):
+    """Most turns append nothing - an event per turn forever is how a log
+    stops being readable."""
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"),
+        reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="who was Jesus", client_msg_id="msg-1",
+    )
+    assert [e.event_type for e in store.read_events(session_id)] == [
+        "session_started", "participant_message", "gate_decision", "voice_turn", "turn_committed",
+    ]
+
+
+def test_an_acute_turn_records_the_level_for_audit(store, usage_store, world_loader, registry):
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("ACUTE_DISTRESS", acute_level="a2", risk_subject="self"),
+        reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="a disclosure", client_msg_id="msg-1",
+    )
+    from engine.m4.projection import project_fresh
+
+    track_a = project_fresh(session_id, store).safety.track_a_last
+    assert track_a["level"] == "a2"
+    assert track_a["risk_subject"] == "self"
+    assert project_fresh(session_id, store).safety.track_b_accumulator is None
