@@ -199,8 +199,48 @@ generation, participants would be handed an older model than they get
 today. The likely answer is that it does not matter - this system's
 advantage was never the model, it is the records and the net - but that is
 a hypothesis, and this project does not ship hypotheses as findings.
-`us.anthropic.claude-sonnet-5` is available on this account, so it is a
-config choice either way. One comparison run settles it.
+`us.anthropic.claude-sonnet-5` is available on this account. One comparison
+run settles it.
+
+**It is NOT a config flip, and this was checked against the current API
+reference rather than assumed.** Three findings, in order of how badly they
+bite:
+
+1. **`max_tokens=1024` would truncate the voice.**
+   `engine/m4/generation.py:39` sets it, tuned against Sonnet 4.5 prose.
+   Three things compound on Sonnet 5: omitting `thinking` now runs
+   ADAPTIVE thinking by default (4.5 ran thinking-off), thinking tokens
+   count against `max_tokens`, and the new tokenizer needs ~30% more
+   tokens for the same text. A budget that comfortably held a five-
+   paragraph answer on 4.5 would cut one off mid-sentence. **Raise it
+   before switching, not after the first truncated turn.**
+2. **The new tokenizer moves every measured number.** Same tokenizer as
+   Opus 4.7/4.8: approximately 30% more tokens for identical text. Per-
+   token pricing is unchanged, so the cost of an EQUIVALENT REQUEST still
+   differs. Concretely, pahc's cached prefix measured 14,502 tokens on
+   4.5 and would count roughly 19,000 on Sonnet 5 with no change to the
+   prompt at all. Everything in `Ministry/Technology/
+   CiC_LLM_Provider_Cost_Options_2026-08-09.md` - the cache break-even
+   maths, the $200-credit runway - is baselined on 4.5 counts. Re-run
+   `count_tokens()` against the new model before reacting to any measured
+   shift.
+3. **Sonnet 5 interprets instructions more literally than its
+   predecessors.** The compiled world prompts are dense with tuned
+   register and style directives, and those would apply at face value.
+   This is the risk that lands on the exact thing Mark asked to protect -
+   the voice - and it is not something the grounding net catches, because
+   the net checks whether a sentence is grounded, not whether it sounds
+   like the world.
+
+What is NOT a problem, checked directly: the engine sets no `temperature`,
+`top_p`, `top_k` or `thinking`, so none of the parameters that now return
+400 on Sonnet 5 are in play. And the migration path is two steps, not one -
+the guide routes Sonnet 4.5 forward by applying the Sonnet 4.6 changes
+first, then the Sonnet 5 section.
+
+So: a measured migration with its own comparison run, `max_tokens` raised
+first, and the voice re-read by a human afterwards. Not a model string
+swapped in `resolve_model_id`.
 
 ## Previously: all seven worlds built; the M4 live-generation pipeline is implemented end-to-end
 
