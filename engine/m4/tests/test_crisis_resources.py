@@ -11,14 +11,14 @@ def test_acute_distress_appends_with_real_stream_text():
     turn = append_crisis_resources_turn(signal="ACUTE_DISTRESS", stream_text="I hear how much pain you're carrying.", stream_failed=False)
     assert turn["resources_appended"] is True
     assert turn["empty_stream"] is False
-    assert "988" in turn["text"]
+    assert "reach out to someone real" in turn["text"]
 
 
 def test_acute_distress_appends_on_empty_string_stream():
     turn = append_crisis_resources_turn(signal="ACUTE_DISTRESS", stream_text="", stream_failed=False)
     assert turn["resources_appended"] is True
     assert turn["empty_stream"] is True
-    assert "988" in turn["text"]
+    assert "reach out to someone real" in turn["text"]
 
 
 def test_acute_distress_appends_on_whitespace_only_stream():

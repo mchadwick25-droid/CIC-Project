@@ -5,15 +5,25 @@ Same discipline as engine.m4.crisis_resources, and for the same reason: the
 Facilitator speaks for the system, not for a world, so its words are not a
 model's to compose and not a world's to hold. A fixed table, never a prompt.
 
-CRAFT NOTE, and it is the same one crisis_resources carries. The text below
-is honest, minimal and correct in what it claims, and it is NOT a finished,
-Mark-approved participant-facing text. It exists so that a participant who
-asks "are you an AI?" gets an answer instead of a facilitator note pointing
-at a file path in a repository - which is what they got before this module,
-on four of the seven routes the gate can take. Every string here is a
-placeholder for the craft pass CiC-Program-Spec.md SS8 calls for ("designed
-to the same craft bar as everything else - care, not clinic"). Flag this in
-BUILD-HANDOFF before any world that actually opens ships these words.
+STATUS, 2026-08-24: SYSTEM_NATURE, CHECK_IN, DEPENDENCY_CHECK, and both
+_ETIC_TEXT entries are Mark-approved participant-facing text - picked from
+drafted options after an analysis pass against CiC_L3D_Facilitator_
+Governance_V3.6/V3.7 and CiC-Program-Spec.md SS71/76-77/210. This replaces
+the earlier placeholder text a participant asking "are you an AI?" (and
+three of the other six routes) used to receive.
+
+Two things below are NOT yet finished, flagged rather than hidden:
+
+- DEPENDENCY_CHECK's "[Representative]" is a literal, intentional
+  placeholder, not a bug - nothing here threads a world's display name in
+  yet. Wiring that is a separate, small code change (a parameter on
+  dependency_check_turn and its call site in engine.m4.turn), raised but
+  not done in this pass.
+- bridge_turn's frame now deliberately speaks the term's own
+  `underlying_subject` to the participant, not only to the voice - a
+  considered visibility change Mark approved the same day this note was
+  written, not an oversight of the general "the Facilitator does not
+  narrate its own mechanics" rule.
 
 What is NOT placeholder, and must not be rewritten as though it were: the
 bridge turn speaks the modern term's own `modern_sense` and hands the voice
@@ -37,12 +47,13 @@ class FacilitatorTurn:
 SYSTEM_NATURE = FacilitatorTurn(
     kind="threshold",
     text=(
-        "Yes - you are talking to an AI. Here is how it works, plainly. Each world you can speak with "
-        "is built from a fixed set of records drawn from sources that survive from that time and place, "
-        "and the voice answering you may only say what those records carry. Every specific claim it "
-        "makes is checked against the record it came from before you see it; anything it cannot ground, "
-        "it is supposed to tell you it does not have rather than fill in. It is not a person, it is not "
-        "the church, and it does not speak for anyone living."
+        "Yes - we use AI here, and I'd rather tell you plainly than let you wonder. Each world you can "
+        "speak with is built from a fixed set of records - sources that actually survive from that time "
+        "and place - and the voice answering you may only say what those records carry. Before you see "
+        "an answer, every specific claim in it is checked against the record it came from; what it can't "
+        "ground, it's built to tell you it doesn't have, not to invent. It isn't a person, it isn't the "
+        "church, and it doesn't speak for anyone living.\n\n"
+        "That's the honest shape of it - whenever you're ready, let's keep going."
     ),
 )
 
@@ -53,9 +64,10 @@ SYSTEM_NATURE = FacilitatorTurn(
 CHECK_IN = FacilitatorTurn(
     kind="safety",
     text=(
-        "Before we go on - that landed as though it might be carrying something real, and I would rather "
-        "ask than assume. If it was, you can say so plainly here and we will take it at that weight. If "
-        "it was not, say so and we will pick up where we were."
+        "Can I check something before we go on? What you just said could have been about something real "
+        "and hard, or it could have just been a way of speaking - and I didn't want to guess which. If "
+        "it's the first, say so plainly and I'll take it that way. If not, just say so and we'll pick up "
+        "right where we were."
     ),
 )
 
@@ -66,10 +78,19 @@ CHECK_IN = FacilitatorTurn(
 DEPENDENCY_CHECK = FacilitatorTurn(
     kind="safety",
     text=(
-        "One thing worth saying out loud: this is a conversation with a set of records, and it cannot "
-        "know you, miss you, or be owed anything by you. That is not a rebuke - it is the honest shape "
-        "of what you are talking to, and it seemed worth naming rather than letting it blur. We can "
-        "keep going whenever you would like."
+        "I want to say something gently, before we go on - this is the Facilitator, not [Representative]. "
+        "Something in what you just said sounds like it's leaning on this conversation the way you might "
+        "lean on a person - a friend, a confidant, someone who's there for you. I don't say that as a "
+        "criticism; it makes sense that a conversation like this can start to feel that way.\n\n"
+        "But I want to be honest with you about what this actually is: [Representative] is a way of "
+        "meeting a historical world, not a person who can be there for you the way a real friend, "
+        "counselor, or community can. I'd rather say that plainly than let you find it out the harder "
+        "way.\n\n"
+        "The people already in your life - or, if none feel reachable right now, a crisis line or other "
+        "real human support - are the ones who can actually be there for you the way this can't.\n\n"
+        "None of this means the conversation has to end, or that you did anything wrong. You're welcome "
+        "to keep talking with [Representative]. I just wanted to say this honestly, the way I'd want "
+        "someone to say it to me."
     ),
 )
 
@@ -80,16 +101,16 @@ DEPENDENCY_CHECK = FacilitatorTurn(
 # let it speak for itself.
 _ETIC_TEXT = {
     "later_age": (
-        "You are asking about something that happened after this world's own horizon closed, so the "
-        "voice cannot answer it from inside - it would have to invent. Stepping outside the world for "
-        "a moment: what you are asking about belongs to a later period than the one these records come "
-        "from, and this project deliberately does not have a world speak past its own end."
+        "That question reaches past where this world's own witnesses stop. Answering it honestly would "
+        "mean inventing what happened later, not remembering it - and this voice only speaks from inside "
+        "what it actually lived through. That's not a refusal so much as the honest edge of it: there's "
+        "a real period this world simply never reached."
     ),
     "other_tradition": (
-        "You are asking this world about a tradition that is not its own. It can tell you what it held "
-        "and what it argued with, but it cannot speak for anyone else - and a world describing its "
-        "neighbours in its own words is testimony about itself, not about them. If you want that other "
-        "tradition's account, it needs its own voice, not this one's."
+        "You're asking this world about a tradition that isn't its own. It can tell you what it held and "
+        "what it argued with, but it can't speak for anyone else - a world describing its neighbours in "
+        "its own words is testimony about itself, not about them. If you want that other tradition's own "
+        "account, it needs its own voice, not this one's."
     ),
 }
 
@@ -134,8 +155,8 @@ def bridge_turn(terms: list[dict]) -> tuple[dict, str]:
     subjects = " ".join(t["underlying_subject"].strip() for t in terms if t.get("underlying_subject"))
     displays = ", ".join(sorted({d for t in terms for d in (t.get("display_terms") or [])}))
     text = (
-        f"A word in your question - {displays} - came after this world's own time, so the voice will not "
-        f"be handed it. In our sense: {senses} What it can speak to is the thing underneath the word, "
-        "which is what I am passing to it."
+        f"Something in your question - {displays} - belongs to a later way of speaking than this world "
+        f"knew. In our sense: {senses} Let me translate that into terms this world would actually "
+        f"recognize before I put it to the voice: {subjects}"
     )
     return {"kind": "bridge", "text": text}, subjects

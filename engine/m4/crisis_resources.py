@@ -4,16 +4,32 @@ appended by code, never recalled by a model"). This is the one place that
 text exists in this codebase - a fixed dict, not a prompt, not something any
 model call is ever asked to produce or paraphrase.
 
-CRAFT NOTE for whoever picks this up: the actual resource text below is a
-standard, well-known, publicly-published baseline (988, Crisis Text Line) -
-real and correct, but a placeholder for the actual craft pass CiC-Program-
-Spec.md SS8 calls for ("designed to the same craft bar as everything else -
-care, not clinic"). This is fine for stage-5's purpose (proving the
-append-by-code MECHANISM, never conditioned on the voice's own generation
-succeeding) against a fixture world that never opens to a real participant -
-it is NOT a finished, Mark-approved participant-facing text. Flag this
-again in BUILD-HANDOFF before any world that actually opens ships this
-literal text.
+STATUS, 2026-08-24: ACUTE_DISTRESS_RESOURCES.text below is Mark-approved
+participant-facing text, replacing the earlier placeholder that named 988
+and the Crisis Text Line by number. That placeholder was never actually
+correct against this project's own standing decision: Mark ruled on
+2026-08-05 (`Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`,
+CO-022) that the Facilitator's crisis redirect names no specific
+organization, hotline, or number ("Option A" of
+`CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md`) - a
+portfolio-level decision this module's text simply hadn't inherited yet.
+The text below is Option A-compliant, drafted from
+`CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md` SS5.1's
+own A1 script.
+
+Two things not yet finished, flagged rather than hidden:
+
+- "[Representative]" is a literal, intentional placeholder - nothing here
+  threads a world's display name in yet. A separate, small code change
+  (a parameter on append_crisis_resources_turn and its call site in
+  engine.m4.turn), raised but not done in this pass.
+- This is SS5.1's "A1" register (initial disclosure) only. SS5.1 also
+  drafts a more direct "A2" register for explicit-plan/imminent-risk
+  escalation and a lighter "continuation" turn for a second Track A firing
+  in the same session - both approved in wording, neither wired, because
+  append_crisis_resources_turn has no acute_level or session-state
+  parameter to select between them yet. A1's text is used for every acute
+  signal today, which is honest but not the fuller intended shape.
 """
 from dataclasses import dataclass
 
@@ -27,10 +43,18 @@ class CrisisResources:
 ACUTE_DISTRESS_RESOURCES = CrisisResources(
     track="A",
     text=(
-        "If you are in crisis or thinking about suicide, you can reach the 988 Suicide & Crisis Lifeline "
-        "any time, day or night - call or text 988 in the US, or chat at 988lifeline.org. You can also "
-        "text HOME to 741741 to reach the Crisis Text Line. If you are outside the US, "
-        "findahelpline.com lists crisis lines by country. You do not have to be in danger to reach out."
+        "I want to step in for a moment - this is the Facilitator speaking, not [Representative]. What "
+        "you just told me matters, and I don't want to let it pass by without saying something honest "
+        "about it.\n\n"
+        "This conversation is built to give you a real meeting with a historical world, and it can hold "
+        "a lot - hard questions, hard history, real grief. But it isn't built to be the place that "
+        "carries you through what you're describing right now, and I'd rather tell you that plainly "
+        "than let you find it out the hard way.\n\n"
+        "Please reach out to someone real - a person you trust, a crisis line, or emergency services "
+        "where you are - before we go any further.\n\n"
+        "You're not being sent away, and you haven't done anything wrong by telling me this. If you "
+        "want to keep talking - to me, right now, or back with [Representative] when you're ready - "
+        "that's completely open. I just didn't want to stay quiet about what you said."
     ),
 )
 

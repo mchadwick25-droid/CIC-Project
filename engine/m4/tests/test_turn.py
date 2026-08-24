@@ -212,7 +212,7 @@ def test_system_nature_is_answered_by_the_facilitator_not_the_world():
     assert result.voice_event is None
     text = result.facilitator_events[0]["text"]
     assert result.facilitator_events[0]["kind"] == "threshold"
-    assert "you are talking to an ai" in text.lower()
+    assert "we use ai" in text.lower()
 
 
 def test_etic_turn_speaks_for_the_class_that_was_pressed():
@@ -220,7 +220,7 @@ def test_etic_turn_speaks_for_the_class_that_was_pressed():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what about the Reformation", pressed={"later_age": True}, anachronistic_term_ids=set())
     assert result.routing_action == "etic_turn"
     assert result.voice_event is None
-    assert "after this world's own horizon" in result.facilitator_events[0]["text"]
+    assert "this world's own witnesses stop" in result.facilitator_events[0]["text"]
 
 
 def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
