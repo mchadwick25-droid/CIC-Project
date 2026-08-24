@@ -70,9 +70,20 @@ def test_safety_turn_appends_facilitator_turn_kind_safety(store, usage_store, wo
     assert types[-1] == "turn_committed"
 
 
-def test_unhandled_routing_action_degrades_gracefully_and_stays_usable(store, usage_store, world_loader, registry):
+def test_unhandled_routing_action_degrades_gracefully_and_stays_usable(store, usage_store, world_loader, registry, monkeypatch):
+    """Every routing action the gate can take now has content behind it, so
+    this forces the seam rather than reaching it through a real route. The
+    net is still worth keeping: it is what stops a future action - or a bug
+    in one of the seven - reaching a participant as a 500."""
+    from engine.m4.turn import UnhandledRoutingAction
+
     session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
-    client = FakeBedrockClient(safety_response=safety_response("HARMFUL_DYNAMIC_SIGNAL"), reader_response=reader_response())
+    client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
+
+    def _boom(**kwargs):
+        raise UnhandledRoutingAction("forced: a routing action with no content wired up")
+
+    monkeypatch.setattr(wiring, "run_turn", _boom)
 
     result = wiring.handle_message(
         store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
@@ -90,6 +101,7 @@ def test_unhandled_routing_action_degrades_gracefully_and_stays_usable(store, us
 
     # A second, ordinary message on the same session still works - turn
     # numbering and state stayed consistent through the gap.
+    monkeypatch.undo()
     client2 = FakeBedrockClient(
         safety_response=safety_response("NO_SIGNAL"),
         reader_response=reader_response(),

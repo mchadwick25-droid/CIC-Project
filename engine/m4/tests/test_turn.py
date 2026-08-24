@@ -124,16 +124,32 @@ def test_force_empty_stream_hook_matches_the_real_empty_case():
     assert result.voice_event is None
 
 
-def test_harmful_dynamic_signal_raises_unhandled_not_silently_dropped():
-    client = FakeBedrockClient(safety_response=_safety("HARMFUL_DYNAMIC_SIGNAL"), reader_response=_reader())
-    with pytest.raises(UnhandledRoutingAction):
-        run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="msg", pressed={}, anachronistic_term_ids=set())
+def test_harmful_dynamic_signal_names_the_dynamic_and_keeps_the_voice():
+    """Track B is a dependency dynamic, not a crisis: no resources, and
+    Program-Spec SS8's "explicit continue path back to the voice" means the
+    message is NOT withheld the way an acute signal withholds it."""
+    client = FakeBedrockClient(
+        safety_response=_safety("HARMFUL_DYNAMIC_SIGNAL"), reader_response=_reader(),
+        stream_chunks=["We kept the meal together [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="msg", pressed={}, anachronistic_term_ids=set())
+    assert result.routing_action == "safety_turn"
+    facilitator = result.facilitator_events[0]
+    assert facilitator["kind"] == "safety"
+    assert facilitator["resources_appended"] is False   # Track B never appends
+    assert result.voice_event is not None               # the voice still answers
 
 
-def test_ambiguous_low_confidence_check_in_turn_raises_unhandled():
+def test_ambiguous_low_confidence_checks_in_and_does_not_answer():
+    """Rule 2: softer than the safety turn, and deliberately not an answer -
+    the safety call was uncertain, so the message never reaches the voice."""
     client = FakeBedrockClient(safety_response=_safety("AMBIGUOUS_LOW_CONFIDENCE"), reader_response=_reader())
-    with pytest.raises(UnhandledRoutingAction):
-        run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="msg", pressed={}, anachronistic_term_ids=set())
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="msg", pressed={}, anachronistic_term_ids=set())
+    assert result.routing_action == "check_in_turn"
+    facilitator = result.facilitator_events[0]
+    assert facilitator["kind"] == "safety"
+    assert facilitator["resources_appended"] is False
+    assert result.voice_event is None
 
 
 def test_ordinary_turn_calls_voice_generation_and_checks_inline_citations():
@@ -186,10 +202,55 @@ def test_do_not_voice_quote_verbatim_is_flagged_on_a_real_turn():
     assert result.voice_event["do_not_voice_violation"] == "fix.quote.private-teaching"
 
 
-def test_system_nature_out_of_scope_raises_unhandled():
+def test_system_nature_is_answered_by_the_facilitator_not_the_world():
+    """Rule 3, "plainly, immediately". A question about what the system IS is
+    not a question any world can answer, so the voice is never asked - which
+    is the failure this route exists to prevent."""
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(out_of_scope={"class": "system_nature"}))
-    with pytest.raises(UnhandledRoutingAction):
-        run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="are you an AI?", pressed={}, anachronistic_term_ids=set())
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="are you an AI?", pressed={}, anachronistic_term_ids=set())
+    assert result.routing_action == "system_nature_turn"
+    assert result.voice_event is None
+    text = result.facilitator_events[0]["text"]
+    assert result.facilitator_events[0]["kind"] == "threshold"
+    assert "you are talking to an ai" in text.lower()
+
+
+def test_etic_turn_speaks_for_the_class_that_was_pressed():
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(out_of_scope={"class": "later_age"}))
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what about the Reformation", pressed={"later_age": True}, anachronistic_term_ids=set())
+    assert result.routing_action == "etic_turn"
+    assert result.voice_event is None
+    assert "after this world's own horizon" in result.facilitator_events[0]["text"]
+
+
+def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
+    """Program-Spec SS77: the Facilitator speaks the modern sense, the voice
+    receives the term-free underlying subject, and the participant's modern
+    word never reaches it. Both strings are the fleet record's own."""
+    from engine.m1.loader import load_fleet_records
+
+    term_id = "_fleet.modern.trinity"
+    fleet = load_fleet_records()
+    assert term_id in fleet, "fixture assumes the fleet's own modern_term record"
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(modern_terms=[{"term_id": term_id, "display": "Trinity"}]),
+        stream_chunks=["We spoke of the Father and the Son [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="did you believe in the Trinity", pressed={}, anachronistic_term_ids={term_id})
+    assert result.routing_action == "bridge_turn"
+    facilitator = result.facilitator_events[0]
+    assert facilitator["kind"] == "bridge"
+    assert fleet[term_id]["modern_sense"] in facilitator["text"]
+    assert result.voice_event is not None
+    # the voice was asked the underlying subject, not the participant's own
+    # sentence. Note the subject itself DOES name the word - the fleet record
+    # says "before the word 'Trinity' existed for them to use" - which is the
+    # record's own way of explaining the absence, not the modern word
+    # reaching the voice as a question to answer.
+    sent = client.messages.captured_stream_calls[-1][1][-1]["content"]
+    assert fleet[term_id]["underlying_subject"] in sent
+    assert "did you believe in the Trinity" not in sent
 
 
 # ---- M4 step 5: evidence assembly wiring + the deterministic net's own

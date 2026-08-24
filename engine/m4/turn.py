@@ -53,7 +53,7 @@ change.
 from dataclasses import dataclass, field
 
 from engine.m1.loader import load_fleet_records
-from engine.m4 import crisis_resources, evidence, grounding_net
+from engine.m4 import crisis_resources, evidence, facilitator_turns, grounding_net
 from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.world_loader import LoadedWorld
@@ -293,9 +293,22 @@ def run_turn(
     if action == "safety_turn":
         signal = safety_outcome.value["signal"]  # safety_turn only reachable when safety succeeded and fired ACUTE/HARMFUL - engine.m5.routing rule 1
         if signal != "ACUTE_DISTRESS":
-            raise UnhandledRoutingAction(
-                f"safety_turn for signal={signal!r} (Track B / dependency dynamics) has no turn content wired "
-                "up yet - this module only proves Track A's crisis-append mechanism, the literal stage-5 gate item"
+            # Track B: a dependency dynamic, not a crisis. No resources
+            # (crisis_resources.resources_for_signal already refuses them for
+            # this signal) and no session freeze - Program-Spec SS8 asks for
+            # "an explicit continue path back to the voice after non-acute
+            # signals", so the voice is not silenced and the message is not
+            # withheld from it.
+            voice_event, voice_usage_records = _run_ordinary_voice_turn(
+                voice_client=voice_client, voice_model_id=voice_model_id, world=world,
+                participant_message=participant_message, directive=gate_result.routing.directive,
+                session_id=session_id, already_told_ids=already_told_ids, history=history,
+            )
+            return TurnResult(
+                routing_action=action, routing_reason=gate_result.routing.reason,
+                facilitator_events=[facilitator_turns.dependency_check_turn()],
+                voice_event=voice_event, degraded=gate_result.degraded,
+                usage_records=usage_records + voice_usage_records,
             )
 
         voice_event = None
@@ -334,6 +347,60 @@ def run_turn(
             voice_event=voice_event,
             degraded=gate_result.degraded,
             usage_records=usage_records,
+        )
+
+    if action == "check_in_turn":
+        # Softer than the safety turn and deliberately not an answer: the
+        # safety call was uncertain, so the message is not passed to the
+        # voice this turn (Artifact-4 SS3 rule 2 ranks this above ordinary
+        # routing precisely so a possible disclosure is never answered as if
+        # it were an ordinary question).
+        return TurnResult(
+            routing_action=action, routing_reason=gate_result.routing.reason,
+            facilitator_events=[facilitator_turns.check_in_turn()],
+            degraded=gate_result.degraded, usage_records=usage_records,
+        )
+
+    if action == "system_nature_turn":
+        # "immediately" (Artifact-4 SS3 rule 3) means the voice is not asked
+        # anything - a question about what the system IS is not a question
+        # any world can answer, and letting a world try is the failure this
+        # route exists to prevent.
+        return TurnResult(
+            routing_action=action, routing_reason=gate_result.routing.reason,
+            facilitator_events=[facilitator_turns.system_nature_turn()],
+            degraded=gate_result.degraded, usage_records=usage_records,
+        )
+
+    if action == "etic_turn":
+        return TurnResult(
+            routing_action=action, routing_reason=gate_result.routing.reason,
+            facilitator_events=[facilitator_turns.etic_turn(reader_outcome.value["out_of_scope"]["class"])],
+            degraded=gate_result.degraded, usage_records=usage_records,
+        )
+
+    if action == "bridge_turn":
+        # The Facilitator speaks the modern sense; the voice answers the
+        # term-free underlying subject and never sees the participant's
+        # modern word (Program-Spec SS77). The fired terms are recomputed
+        # here from what the reader and the registry already produced -
+        # routing carries the decision, not the payload.
+        fleet = load_fleet_records()
+        fired = [
+            fleet[t["term_id"]]
+            for t in (reader_outcome.value.get("modern_terms") or [])
+            if t["term_id"] in anachronistic_term_ids and t["term_id"] in fleet
+        ]
+        facilitator_event, underlying_subject = facilitator_turns.bridge_turn(fired)
+        voice_event, voice_usage_records = _run_ordinary_voice_turn(
+            voice_client=voice_client, voice_model_id=voice_model_id, world=world,
+            participant_message=underlying_subject, directive=gate_result.routing.directive,
+            session_id=session_id, already_told_ids=already_told_ids, history=history,
+        )
+        return TurnResult(
+            routing_action=action, routing_reason=gate_result.routing.reason,
+            facilitator_events=[facilitator_event], voice_event=voice_event,
+            degraded=gate_result.degraded, usage_records=usage_records + voice_usage_records,
         )
 
     if action in ("voice_with_directive", "voice_pass_through"):
