@@ -12,10 +12,14 @@
 # cic-poc/Dockerfile, which sets dockerContext to cic-poc/ because its own
 # needs (frontend/, backend/) are both under that one directory.
 #
-# No frontend stage: engine/api is HTTP-only (four endpoints, no UI —
-# CiC-Program-Spec.md M6). The participant-facing surface is a separate,
-# not-yet-built piece (PHASE-1-LAUNCH.md Stage 4), explicitly gated on
-# Mark's own design pass (Stage 7.5) before any surface code is written.
+# Frontend stage added PHASE-1-LAUNCH.md Stage 5 (one Render service, not
+# two - Mark's call): builds cic-poc/frontend's static bundle and lands it
+# at cic-poc/frontend/dist, same source-tree-relative path engine/api/
+# app.py's own REPO_ROOT-based lookup expects locally, so nothing about
+# how the mount finds it differs between a dev checkout and this image.
+# engine/api/app.py serves it same-origin (no CORS_ORIGINS needed) -
+# guarded on the dist/ directory existing, so a build of this image with
+# the COPY below removed still runs API-only, same as it always did.
 #
 # Required at runtime (engine/api/config.py):
 #   CIC_API_REGION      - required, no default; refuses to guess a
@@ -31,6 +35,13 @@
 #   CIC_API_VOICE_MODEL_PATTERN, CIC_API_SAFETY_MODEL_PATTERN,
 #   CIC_API_EVENTS_DB, CIC_API_USAGE_DB, CIC_API_WORLDS_YAML,
 #   CIC_API_DEFAULT_WORLD_KEY
+
+FROM node:20-slim AS frontend-build
+WORKDIR /frontend
+COPY cic-poc/frontend/package.json cic-poc/frontend/package-lock.json ./
+RUN npm ci
+COPY cic-poc/frontend/ ./
+RUN npm run build
 
 FROM python:3.11-slim
 WORKDIR /app
@@ -60,6 +71,11 @@ COPY packages/ packages/
 # any job that reads package bytes; fails the build loudly on a mismatch
 # rather than shipping an image with silently-wrong compiled content.
 RUN python -m engine.m2.cli restore
+
+# Lands at /app/cic-poc/frontend/dist — engine/api/app.py resolves this
+# same path via REPO_ROOT (parents[2] from engine/api/config.py, i.e. this
+# WORKDIR) both here and in a local dev checkout.
+COPY --from=frontend-build /frontend/dist cic-poc/frontend/dist
 
 # Most hosts (Render, Railway, Fly.io) inject $PORT; default to 8000 for
 # anything that doesn't — same convention cic-poc/Dockerfile already

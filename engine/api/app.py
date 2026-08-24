@@ -13,10 +13,12 @@ from dataclasses import asdict, dataclass
 
 import yaml
 from fastapi import FastAPI, Header, HTTPException, Request
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from engine.api import wiring
-from engine.api.config import Settings
+from engine.api.config import REPO_ROOT, Settings
 from engine.m4 import session_code
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
@@ -169,6 +171,32 @@ def create_app(
         return TranscriptResponse(
             session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed, transcript=state.transcript
         )
+
+    # Stage 5 (PHASE-1-LAUNCH.md): one Render service, not two - same
+    # pattern cic-poc/backend/app/main.py already used, so no CORS_ORIGINS
+    # config and no second thing to deploy and keep in sync. `/api/*` and
+    # `/health` above are matched first (FastAPI resolves routes in
+    # registration order); everything else falls through to here. Guarded
+    # on the dist/ directory existing so local backend-only dev (no built
+    # frontend) is unaffected - this is why engine/api's own test suite
+    # never sees this route.
+    _frontend_dist = REPO_ROOT / "cic-poc" / "frontend" / "dist"
+    if _frontend_dist.is_dir():
+        app.mount("/assets", StaticFiles(directory=_frontend_dist / "assets"), name="frontend-assets")
+
+        @app.get("/{full_path:path}")
+        async def serve_frontend(full_path: str):
+            """SPA catch-all: serves a same-named static file at the dist
+            root (favicon, manifest icons, ...) or falls back to
+            index.html. full_path is attacker-controlled (the literal rest
+            of the URL via Starlette's `path` converter, which does not
+            strip `..`) - resolving the candidate and requiring it stay
+            under _frontend_dist closes the path-traversal this exact join
+            pattern opened in cic-poc's own backend before that fix."""
+            candidate = (_frontend_dist / full_path).resolve()
+            if full_path and candidate.is_relative_to(_frontend_dist) and candidate.is_file():
+                return FileResponse(candidate)
+            return FileResponse(_frontend_dist / "index.html")
 
     return app
 
