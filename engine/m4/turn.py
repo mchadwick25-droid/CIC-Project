@@ -73,15 +73,20 @@ class UnhandledRoutingAction(NotImplementedError):
 class TurnResult:
     routing_action: str
     routing_reason: str
-    # The reader's out_of_scope class, carried so the caller can record that
-    # a pressable class has now had its in-world first answer. Routing
-    # decides "first ask" vs "pressed" from a `pressed` map the CALLER owns
-    # (engine.m5.routing rule 5) - and nothing in this build ever appended
-    # the escalation_pressed event that map folds from, so `pressed` was
-    # permanently empty and etic_turn was unreachable. This is what makes it
-    # appendable: None whenever the reader failed, since then there is no
-    # class to record. See engine.api.wiring.handle_message.
-    out_of_scope_class: str | None = None
+    # This turn's gate_decision payload, whole (engine.m4.events' own
+    # required key set). The caller writes it to the event log verbatim -
+    # it does not rebuild one, and until this field existed it could not:
+    # every gate_decision this build ever wrote had asks, register,
+    # out_of_scope, modern_terms, safety and directive all blank, because
+    # the only thing that ever reached the caller was the route. The whole
+    # audit surface Artifact-5 SS5 and the M7 audit read from was empty.
+    #
+    # Assembled here rather than in the caller because this is where the
+    # two gate outcomes actually are, and it is deliberately the RESOLVED
+    # modern_terms that go in: reader_term_id and source: message_scan on
+    # each entry are how an auditor sees which path found a term and what
+    # the model called it first.
+    gate: dict = field(default_factory=dict)
     facilitator_events: list[dict] = field(default_factory=list)
     voice_event: dict | None = None
     degraded: bool = False
@@ -102,6 +107,35 @@ def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str
     normalized = normalize_usage(outcome.raw_usage)
     assert_parity(outcome.raw_usage, normalized)
     return record_usage(usage=normalized, session_id=session_id, call_kind=call_kind, model_id=model_id)
+
+
+def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallOutcome, gate_result) -> dict:
+    """One turn's gate_decision event payload, built from the two gate
+    outcomes rather than from the route alone.
+
+    Every key engine.m4.events requires is filled from what the gate
+    actually produced. A failed call contributes None (or an empty list
+    where the key is a list) - which is a real, readable statement that the
+    call did not return, not the same thing as the blank payload this
+    replaces, where a successful gate and a failed one logged identically.
+    """
+    reader = None if reader_outcome.failed else reader_outcome.value
+    directive = gate_result.routing.directive
+    return {
+        "asks": list(reader.get("asks") or []) if reader else [],
+        "register": reader.get("register") if reader else None,
+        "out_of_scope": reader.get("out_of_scope") if reader else None,
+        "modern_terms": list(reader.get("modern_terms") or []) if reader else [],
+        "safety": None if safety_outcome.failed else safety_outcome.value,
+        "route": gate_result.routing.action,
+        "directive": None if directive is None else {
+            "asks": list(directive.asks),
+            "register_note": directive.register_note,
+            "suspend_register_statement_1": directive.suspend_register_statement_1,
+            "ambiguity_options": list(directive.ambiguity_options),
+        },
+        "degraded": gate_result.degraded,
+    }
 
 
 def _build_turn_directive(directive: Directive | None) -> str | None:
@@ -324,7 +358,9 @@ def run_turn(
 
     gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
     action = gate_result.routing.action
-    out_of_scope_class = None if reader_outcome.failed else (reader_outcome.value.get("out_of_scope") or {}).get("class")
+    gate = _gate_decision_payload(
+        safety_outcome=safety_outcome, reader_outcome=reader_outcome, gate_result=gate_result
+    )
 
     if action == "safety_turn":
         signal = safety_outcome.value["signal"]  # safety_turn only reachable when safety succeeded and fired ACUTE/HARMFUL - engine.m5.routing rule 1
@@ -342,7 +378,7 @@ def run_turn(
             )
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
-                out_of_scope_class=out_of_scope_class,
+                gate=gate,
                 facilitator_events=[facilitator_turns.dependency_check_turn()],
                 voice_event=voice_event, degraded=gate_result.degraded,
                 usage_records=usage_records + voice_usage_records,
@@ -379,7 +415,7 @@ def run_turn(
         facilitator_event = crisis_resources.append_crisis_resources_turn(signal=signal, stream_text=stream_text, stream_failed=stream_failed)
         return TurnResult(
             routing_action=action,
-            out_of_scope_class=out_of_scope_class,
+            gate=gate,
             routing_reason=gate_result.routing.reason,
             facilitator_events=[facilitator_event],
             voice_event=voice_event,
@@ -395,7 +431,7 @@ def run_turn(
         # it were an ordinary question).
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
-            out_of_scope_class=out_of_scope_class,
+            gate=gate,
             facilitator_events=[facilitator_turns.check_in_turn()],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
@@ -407,7 +443,7 @@ def run_turn(
         # route exists to prevent.
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
-            out_of_scope_class=out_of_scope_class,
+            gate=gate,
             facilitator_events=[facilitator_turns.system_nature_turn()],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
@@ -415,7 +451,7 @@ def run_turn(
     if action == "etic_turn":
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
-            out_of_scope_class=out_of_scope_class,
+            gate=gate,
             facilitator_events=[facilitator_turns.etic_turn(reader_outcome.value["out_of_scope"]["class"])],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
@@ -440,7 +476,7 @@ def run_turn(
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
-            out_of_scope_class=out_of_scope_class,
+            gate=gate,
             facilitator_events=[facilitator_event], voice_event=voice_event,
             degraded=gate_result.degraded, usage_records=usage_records + voice_usage_records,
         )
@@ -458,7 +494,7 @@ def run_turn(
         )
         return TurnResult(
             routing_action=action,
-            out_of_scope_class=out_of_scope_class,
+            gate=gate,
             routing_reason=gate_result.routing.reason,
             voice_event=voice_event,
             degraded=gate_result.degraded,

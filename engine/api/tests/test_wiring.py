@@ -212,3 +212,51 @@ def test_an_ordinary_turn_presses_nothing(store, usage_store, world_loader, regi
         session_id=session_id, text="who was Jesus", client_msg_id="msg-1",
     )
     assert "escalation_pressed" not in [e.event_type for e in store.read_events(session_id)]
+
+
+def test_the_gate_decision_event_records_what_the_gate_said(store, usage_store, world_loader, registry):
+    """Until 2026-08-24 this payload was hand-built blank in wiring - asks,
+    register, out_of_scope, modern_terms, safety and directive hardcoded
+    empty on every gate_decision this build ever logged. The event existed;
+    the record did not."""
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"),
+        reader_response=reader_response(register="personal_wound", out_of_scope={"class": "later_age"}),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="who was Jesus", client_msg_id="msg-1",
+    )
+    gate = next(e for e in store.read_events(session_id) if e.event_type == "gate_decision").payload
+    assert gate["register"] == "personal_wound"
+    assert gate["out_of_scope"] == {"class": "later_age"}
+    assert gate["asks"] == [{"order": 1, "text": "who was Jesus"}]
+    assert gate["safety"]["signal"] == "NO_SIGNAL"
+    assert gate["route"] == "voice_with_directive"
+    assert gate["degraded"] is False
+    # the directive the voice was actually given, not a reconstruction
+    assert gate["directive"]["suspend_register_statement_1"] is True
+    assert gate["directive"]["register_note"] == "witness-before-answer licensed"
+
+
+def test_the_pressed_class_is_read_from_the_recorded_gate_decision(store, usage_store, world_loader, registry):
+    """One source for the class: whatever the event log says is what the
+    escalation_pressed append used, so the two can never disagree."""
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"),
+        reader_response=reader_response(out_of_scope={"class": "other_tradition"}),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="what did the Marcionites teach", client_msg_id="msg-1",
+    )
+    events = store.read_events(session_id)
+    gate = next(e for e in events if e.event_type == "gate_decision").payload
+    pressed = next(e for e in events if e.event_type == "escalation_pressed").payload
+    assert pressed["class"] == gate["out_of_scope"]["class"] == "other_tradition"
