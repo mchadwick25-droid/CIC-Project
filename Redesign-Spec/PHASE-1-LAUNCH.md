@@ -39,8 +39,49 @@ wrong on this project, and the reasoning is in `BUILD-HANDOFF.md`.
 
 ## Stage 0 - Protect the branch  *(Mark, browser, ~5 min)*
 
-Nothing else starts until this is done. Everything below adds risk to a
-tree that currently has nothing standing between it and a force-push.
+**READ THIS FIRST - 2026-08-24: rulesets are not available on this
+repository.** They are free on public repos and a paid plan on private
+ones, and GitHub asks for Team. Do not buy Team over this yet; read
+"Protection without rulesets" below, which is what was actually done, then
+come back to the ruleset recipe if and when the plan changes.
+
+### Protection without rulesets - what was actually done
+
+Two corrections to how this was framed while the build was closing, both
+checked rather than argued:
+
+**The baseline was never the fragile thing.** `8b23f46e` is an ANCESTOR of
+`build/phase-1`, so `baseline/pilot-2026-08-24` is a convenience label, not
+the only ref holding that commit. Delete the branch, move it, lose it - the
+tree is still reachable from `build/phase-1`'s history, and
+`engine/BASELINES.md` records the SHA. `git checkout 8b23f46e` works
+regardless.
+
+**The single point of failure was `build/phase-1` itself**, which was the
+only ref holding 366 commits. **Fixed 2026-08-24 by fast-forwarding `main`
+to it** - two refs now hold the same history, and a force-push over either
+leaves the other intact. Redundancy, not permission. It is free, it needed
+no plan upgrade, and it buys more than half of what the ruleset would have.
+
+A local `git clone` on Mark's own machine is a third copy and costs
+nothing.
+
+**What is genuinely given up, stated plainly rather than glossed:**
+CI-green-before-merge is a DISCIPLINE here, not a gate. It was held on ten
+pull requests on 2026-08-24 by choice, and a future session could merge
+red. The standing rules at the top of this file are the only thing holding
+it. That is weaker than enforcement and it is an accepted cost, not a
+solved problem.
+
+**When to revisit Team:** the moment there is a second contributor.
+Enforcement earns its price when discipline stops scaling past one
+practitioner - not before.
+
+### The ruleset recipe, for when the plan allows it
+
+Everything below is verified against the actual GitHub form as of
+2026-08-24, including the sub-options, and is worth keeping because getting
+it wrong locks the assistant out of the repository.
 
 **GitHub -> Settings -> Rules -> Rulesets -> New branch ruleset.**
 
@@ -50,8 +91,24 @@ Ruleset one, name it `protect build branches`, Enforcement **Active** (not
 - Target branches -> Add target -> **Include by pattern** -> `build/phase-1`
 - Add target again -> `main`
 - Rules: **Restrict deletions**, **Block force pushes**, **Require a pull
-  request before merging** (approvals **0**), **Require status checks to
-  pass**
+  request before merging**, **Require status checks to pass**
+
+Sub-options under "Require a pull request", all of which appear only after
+ticking it:
+
+| Sub-option | Set to | Why |
+|---|---|---|
+| Required approvals | **0** | Anything >= 1 and every merge waits for Mark |
+| Require approval of the most recent reviewable push | **off** | Demands approval from someone OTHER than the pusher - unmeetable on a solo repo even at 0 approvals |
+| Allowed merge methods | **include Merge** | Every merge in this repo is a merge commit; disabling it breaks the workflow the same way "Require linear history" does |
+| Dismiss stale approvals / specific teams / Copilot approval / conversation resolution | off | Nothing to dismiss at 0 approvals, no teams, no Copilot; conversation resolution turns any bot comment into a merge blocker |
+
+Sub-option under "Require status checks":
+
+| Sub-option | Set to | Why |
+|---|---|---|
+| Require branches to be up to date before merging | **off** | Forces every open PR to be updated to the latest base before merging. Ten PRs merged sequentially on 2026-08-24 would each have forced a rebase of all the others. Churn, no safety gain for a solo repo |
+| Do not require status checks on creation | off | No effect unless "Restrict creations" is ticked, which it is not |
 
 The twelve current check names:
 
@@ -92,10 +149,17 @@ earlier attempt added them as required checks, take them out. A required
 check whose job no longer exists never reports, and every pull request
 waits on it forever with no error to read.
 
-> **GATE 0** - a test PR opens and merges normally, and a direct push to
-> `build/phase-1` is refused. Note for the assistant: the branches API
-> reports `protected: false` even for a fully-ruleset-protected branch -
-> that field reflects CLASSIC protection only. Do not read it as failure.
+> **GATE 0 (rulesets unavailable, the actual 2026-08-24 state)** - `main`
+> and `build/phase-1` at the same SHA, so two refs hold the history; the
+> standing rules at the top of this file read and understood; and everyone
+> touching this repository aware that CI-green-before-merge is a promise
+> rather than a wall.
+>
+> **GATE 0 (if rulesets become available)** - a test PR opens and merges
+> normally, and a direct push to `build/phase-1` is refused. Note for the
+> assistant: the branches API reports `protected: false` even for a
+> fully-ruleset-protected branch - that field reflects CLASSIC protection
+> only. Do not read it as failure, as this session nearly did.
 
 ---
 
@@ -103,13 +167,14 @@ waits on it forever with no error to read.
 
 Housekeeping that makes every later stage legible. None of it touches code.
 
-1. **Fast-forward `main` to `build/phase-1`.** Verified clean on
-   2026-08-24: `main` is a strict ancestor, 0 commits of its own, and
-   `cic-poc`, `render.yaml` and `cic-website` are byte-identical between
-   them - so the deployed prototype does not change.
-   `git push origin origin/build/phase-1:main`. Do NOT rename
-   `build/phase-1`; renaming breaks every clone and five merged PRs
-   reference it.
+1. ~~**Fast-forward `main` to `build/phase-1`.**~~ **DONE 2026-08-24** -
+   both at `50c4db23`. This turned out to be the protective step, not
+   housekeeping (see Stage 0), so it was pulled forward. Verified clean
+   before pushing: `main` was a strict ancestor with 0 commits of its own,
+   and `cic-poc`, `render.yaml` and `cic-website` were byte-identical
+   between the two, so the deployed prototype did not change. `build/phase-1`
+   was deliberately NOT renamed - renaming breaks every clone, and several
+   merged PRs reference it.
 2. **Delete the merged branches.** ~37 of them, all fully contained. The
    command recomputes and re-verifies rather than trusting a stale list:
 
