@@ -549,3 +549,45 @@ def test_a_failed_reader_is_visible_in_the_gate_payload():
     assert result.gate["directive"] is None
     # safety still returned, and the record still says so
     assert result.gate["safety"]["signal"] == "NO_SIGNAL"
+
+
+def test_a_bridged_compound_question_keeps_its_other_ask():
+    """Two asks in one sentence, one carrying the modern word. The word is
+    barred; the other ask is not, and used to be lost with it because the
+    bridge route carries no directive."""
+    import json as _json
+
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(asks=[
+            {"order": 1, "text": "did you argue about the Trinity"},
+            {"order": 2, "text": "did you argue about who should lead"},
+        ]),
+        stream_chunks=["We argued about who should lead [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="did you argue about the Trinity, and about who should lead?", pressed={}, anachronistic_term_ids={"_fleet.modern.trinity"})
+
+    assert result.routing_action == "bridge_turn"
+    system, messages = client.messages.captured_stream_calls[-1]
+    sent = _json.dumps([system, messages])
+    assert "did you argue about who should lead" in sent
+    # The barred ask never reaches the voice. Asserting on the ask's own
+    # wording rather than on the bare word: the fleet record's underlying
+    # subject names "Trinity" itself, to explain the absence, and the fix
+    # world's own honest-limit record carries it too.
+    assert "did you argue about the Trinity" not in sent
+    # and the event log says what the voice was actually handed
+    assert [a["order"] for a in result.gate["directive"]["asks"]] == [2]
+
+
+def test_an_ordinary_bridge_still_hands_the_voice_the_subject_alone():
+    """No regression on the single-ask bridge: no directive, exactly as
+    before."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(asks=[{"order": 1, "text": "did you believe in the Trinity"}]),
+        stream_chunks=["We spoke of the Father and the Son [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="did you believe in the Trinity", pressed={}, anachronistic_term_ids={"_fleet.modern.trinity"})
+    assert result.routing_action == "bridge_turn"
+    assert result.gate["directive"] is None

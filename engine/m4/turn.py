@@ -60,7 +60,7 @@ from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.anachronism import resolve_term_ids, terms_in_message
 from engine.m5.failure import CallOutcome, resolve_gate
-from engine.m5.routing import Directive
+from engine.m5.routing import Directive, directive_without_terms
 from engine.m8.usage import UsageRecord, record_usage
 
 
@@ -109,6 +109,15 @@ def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str
     return record_usage(usage=normalized, session_id=session_id, call_kind=call_kind, model_id=model_id)
 
 
+def _directive_payload(directive: Directive | None) -> dict | None:
+    return None if directive is None else {
+        "asks": list(directive.asks),
+        "register_note": directive.register_note,
+        "suspend_register_statement_1": directive.suspend_register_statement_1,
+        "ambiguity_options": list(directive.ambiguity_options),
+    }
+
+
 def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallOutcome, gate_result) -> dict:
     """One turn's gate_decision event payload, built from the two gate
     outcomes rather than from the route alone.
@@ -128,12 +137,7 @@ def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallO
         "modern_terms": list(reader.get("modern_terms") or []) if reader else [],
         "safety": None if safety_outcome.failed else safety_outcome.value,
         "route": gate_result.routing.action,
-        "directive": None if directive is None else {
-            "asks": list(directive.asks),
-            "register_note": directive.register_note,
-            "suspend_register_statement_1": directive.suspend_register_statement_1,
-            "ambiguity_options": list(directive.ambiguity_options),
-        },
+        "directive": _directive_payload(directive),
         "degraded": gate_result.degraded,
     }
 
@@ -469,9 +473,25 @@ def run_turn(
             if t["term_id"] in anachronistic_term_ids and t["term_id"] in fleet
         ]
         facilitator_event, underlying_subject = facilitator_turns.bridge_turn(fired)
+        # WHAT ELSE THE PARTICIPANT ASKED. The bridge route carries no
+        # directive of its own (engine.m5.routing), so a message that asked
+        # two things - one carrying the modern word, one not - used to reach
+        # the voice as the underlying subject alone, and the second ask was
+        # simply gone. Barring the word is the rule; barring the rest of the
+        # sentence was never part of it. The fired records' own display_terms
+        # are what gets barred, all of them, not just the spelling that
+        # happened to match - so an ask carrying a different inflection of
+        # the same term is still kept away from the voice.
+        barred = [term for record in fired for term in (record.get("display_terms") or [])]
+        bridge_directive = directive_without_terms(reader_outcome.value, barred)
+        # The event log said directive: None for this route because that was
+        # true when the payload was assembled. It is not true any more, and
+        # a record that disagrees with what the voice was handed is the exact
+        # failure the gate_decision fix existed to end.
+        gate["directive"] = _directive_payload(bridge_directive)
         voice_event, voice_usage_records = _run_ordinary_voice_turn(
             voice_client=voice_client, voice_model_id=voice_model_id, world=world,
-            participant_message=underlying_subject, directive=gate_result.routing.directive,
+            participant_message=underlying_subject, directive=bridge_directive,
             session_id=session_id, already_told_ids=already_told_ids, history=history,
         )
         return TurnResult(

@@ -1,4 +1,4 @@
-from engine.m5.routing import route
+from engine.m5.routing import directive_without_terms, route
 
 ANACHRONISTIC = {"_fleet.modern.rapture"}
 
@@ -155,3 +155,53 @@ def test_safety_none_still_routes_by_reader_rules():
     fail-open path in failure.py relies on this."""
     decision = route(safety=None, reader=_reader(out_of_scope={"class": "system_nature"}), pressed={}, anachronistic_term_ids=set())
     assert decision.action == "system_nature_turn"
+
+
+def test_a_bridged_turn_keeps_the_ask_that_does_not_carry_the_word():
+    """A participant who asked two things in one sentence used to lose the
+    second one entirely: the bridge route carries no directive, so the voice
+    got the underlying subject alone."""
+    directive = directive_without_terms(
+        _reader(asks=[
+            {"order": 1, "text": "did you argue about the Trinity"},
+            {"order": 2, "text": "did you argue about who should lead"},
+        ]),
+        ["Trinity", "Trinitarian"],
+    )
+    assert directive is not None
+    assert [a["order"] for a in directive.asks] == [2]
+
+
+def test_every_authored_spelling_is_barred_not_just_the_matched_one():
+    """The reader records the one spelling it saw; the record lists them
+    all. Barring only the matched one would let a second inflection through
+    to the voice, which is the thing SS77 forbids."""
+    directive = directive_without_terms(
+        _reader(asks=[
+            {"order": 1, "text": "what did Trinitarian language mean to you"},
+            {"order": 2, "text": "who led your gatherings"},
+        ]),
+        ["Trinity", "Trinitarian"],
+    )
+    assert [a["order"] for a in directive.asks] == [2]
+
+
+def test_an_ambiguity_reading_carrying_the_word_is_dropped_too():
+    directive = directive_without_terms(
+        _reader(asks=
+            [{"order": 1, "text": "who led your gatherings"}],
+            clarity="ambiguous",
+            ambiguity_options=["whether they meant the Trinity", "whether they meant the elders"],
+        ),
+        ["Trinity"],
+    )
+    assert directive.ambiguity_options == ["whether they meant the elders"]
+
+
+def test_a_single_bridged_ask_leaves_no_directive_at_all():
+    """The ordinary bridge. The voice gets exactly the underlying subject it
+    got before - not a directive announcing it has no asks."""
+    assert directive_without_terms(
+        _reader(asks=[{"order": 1, "text": "did you believe in the Trinity"}]),
+        ["Trinity"],
+    ) is None

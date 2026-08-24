@@ -119,3 +119,11 @@ def terms_in_message(message: str, modern_terms: dict[str, dict], *, already_fou
                 found.append({"term_id": record["id"], "display": display_term, "source": "message_scan"})
                 break
     return found
+
+def mentions_term(text: str, display_terms) -> bool:
+    """Does this text carry one of these authored terms, by the same
+    whole-token rule terms_in_message uses? One rule, one place: a word the
+    scan counts as the term and a word the bridge bars from the voice must
+    never be two different questions."""
+    text_tokens = _tokens(text)
+    return any(_display_matches(text_tokens, _tokens(term)) for term in display_terms or [])
