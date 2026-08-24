@@ -4,6 +4,12 @@ Read `Build-Blueprint.md` first; this note is only the "where things stand"
 supplement it asks for at every stage boundary / stop-and-ask / economy
 checkpoint.
 
+**Launching Phase 1? Read `PHASE-1-LAUNCH.md` alongside this.** This note
+says what was built and why; that one says what to do next, in what order,
+and where to stop. Written 2026-08-24 at the close of the build thread, and
+gated stage by stage so a fresh session does not have to re-derive the
+order or rediscover the traps.
+
 ## Current stage: the runtime says what it does, and every route it can take has been seen live
 
 2026-08-24, this thread. Runtime only, start to finish - **no record, no
