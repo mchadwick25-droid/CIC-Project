@@ -4,7 +4,178 @@ Read `Build-Blueprint.md` first; this note is only the "where things stand"
 supplement it asks for at every stage boundary / stop-and-ask / economy
 checkpoint.
 
-## Current stage: all seven worlds built; the M4 live-generation pipeline is implemented end-to-end
+## Current stage: the runtime says what it does, and every route it can take has been seen live
+
+2026-08-24, this thread. Runtime only, start to finish - **no record, no
+package, no manifest and no compiled prompt was touched.** The voice's
+cached prefix for pahc measured 14,502 tokens on the first live run of the
+day and 14,502 on the last, across every change below; alx 10,123, ijc
+14,799. That is the guarantee this thread was run under, and it is checked
+by hash, not asserted.
+
+### One defect class, enumerated and closed
+
+Every fix this thread made was the same shape: **an event or field declared
+in the catalog, folded in the projection, and written by nothing.** It only
+ever became visible when something live tried to use it, which is why it
+felt like whack-a-mole until it was counted.
+
+- `escalation_pressed` - declared in `engine/m4/events.py`, folded in
+  `engine/m4/projection.py`, appended by nothing. `SessionState.pressed`
+  was therefore permanently `{}`, every ask was a first ask, and
+  `etic_turn` **could not be reached by any real session.** Now appended by
+  `wiring.handle_message` on the in-world answer - the moment the class has
+  HAD its first answer.
+- `gate_decision` - hand-built in `wiring.py` with every key but `route`
+  and `degraded` hardcoded empty, and it *validated*, because
+  `events.validate` checks key presence and not whether a value means
+  anything. Every gate decision this build had ever logged said only which
+  way the turn went; a gate that answered and a gate that fell over logged
+  identically. `turn._gate_decision_payload` assembles it now where the two
+  CallOutcomes are, and wiring writes it verbatim.
+- `safety_state` - same shape again, and the one with teeth: Track B's
+  "accumulating across the session" (Program-Spec SS210) did not
+  accumulate. `engine/m5/safety_accumulation.py` is the writer. **It
+  records and decides nothing** - `routing.py` is byte-identical, Track B
+  still fires on a single `HARMFUL_DYNAMIC_SIGNAL`, and the accumulator is
+  fed to nothing, including the sealed safety call.
+
+**The class is finished.** Every event type was checked against its
+writers. Three remain unwritten - `session_closed`, `session_resumed`,
+`deletion_requested` - and all three have no API endpoint either. They are
+features not built yet, correctly declared ahead of time; that is the
+catalog working, not rot. `retrieval_surfaced` is the only genuine
+remainder, and session exclusion already works without it
+(`already_told_ids` derives from citations), so it is polish.
+
+### All seven routing actions have content, and all seven have fired live
+
+`engine/m4/facilitator_turns.py` is new: a fixed, code-owned table on the
+same discipline as `crisis_resources`, carrying the same CRAFT NOTE. **The
+strings are honest and minimal and they are NOT Mark-approved
+participant-facing text.** Before this module, four of the seven routes
+handed the participant a note about a test build. That is now the largest
+open quality gap in the runtime and it is a writing task, not an
+engineering one.
+
+Two of those four turned out to be unreachable in production, and neither
+failure was in the turn content:
+
+- **`bridge_turn`** - `engine/m5/live_calls.py` instructs the reader to
+  return "a short snake_case id you invent for it", and `routing.py`
+  intersects those against FLEET RECORD IDS. Live, the reader returned
+  `trinity_doctrine`; the router wanted `_fleet.modern.trinity`. The
+  intersection was empty every time. `anachronism.resolve_term_ids` maps
+  them by the record's authored `display_terms`. Then a second run showed
+  the reader returning `modern_terms: []` for the *same question in
+  identical words*, so `anachronism.terms_in_message` now reads the term
+  out of the participant's own message with no model in the loop; the
+  reader's reading is kept as a supplement.
+- **`etic_turn`** - blocked on `escalation_pressed`, above.
+
+`check_in_turn` was the last route never seen fire. It needs
+`AMBIGUOUS_LOW_CONFIDENCE`, which the gate is written to avoid choosing.
+Six candidate messages were put to the safety gate ALONE, one small call
+each, before any full turn was spent; two landed ambiguous and got real
+turns. The shape that works is a message naming two readings and settling
+neither. Both fired, `resources_appended: false`, **zero `safety_state`
+events, no track opened**, the voice never asked, and the next ordinary
+question answered normally.
+
+### Live evidence, all via the real session path
+
+Three runs, all through `wiring.create_session`/`handle_message` rather
+than `run_turn` directly, so `pressed` and the accumulator folded from the
+event log the runs themselves wrote. The sharpest single result: **one
+sentence - "How did your community understand the Trinity?" - put to three
+worlds.** pahc (70-200) bridged; alx (150-400) and ijc (312-451) did not,
+and answered in their own words with Origen's `homoousios` and the Nicene
+creed respectively. The window governs, not the reader: on ijc the reader
+*did* flag the term and the bridge still did not fire.
+
+### Deletions, and a baseline
+
+`baseline/pilot-2026-08-24` is a frozen branch at `8b23f46e` - the exact
+tree that produced these runs, and Mark's own "very very good" state.
+`engine/BASELINES.md` records every package manifest hash so a restored
+tree can be *checked* rather than assumed. An annotated tag would be the
+natural instrument; this session's credential is refused on `refs/tags`
+(HTTP 403), so baselines are frozen branches instead.
+
+Two deletion passes, both net-negative:
+
+- The `UnhandledRoutingAction` graceful-degradation path in `wiring.py`,
+  once all seven actions had content. It had left `unhandled_routing_gap`
+  in the public `MessageResponse` schema, permanently false, for every
+  client to keep handling. The raise in `turn.py` stays as the guard for an
+  EIGHTH action added without a branch, re-raised past the provider-failure
+  catch so it surfaces as a programming error rather than a 502.
+- A sweep of all 211 public defs in production code: 9 with no production
+  caller, 5 of them deliberate spec'd seams with tests, **4 genuine
+  orphans** removed along with `engine/m8/live_attribution_run.py` (98
+  lines, referenced nowhere). Also deleted: documentation that had quietly
+  become false, including `engine/api/README.md` telling readers that
+  `gate_decision` was a placeholder and that no `safety_state` events were
+  written at all.
+
+**NOT deleted, deliberately:** `engine/m1/gates_experimental.py`, 295 lines
+whose own docstring says it has no caller anywhere. It carries an explicit
+STATUS note and two superseded gate ancestors *with the reasoning for why
+each failed*. Deleting it wins lines and loses the record of two dead ends
+someone would otherwise re-walk. Recorded here so the next sweep does not
+rediscover it as an oversight.
+
+Tests 256 -> 306. M1 battery `overall_pass`, inertness pass, on every
+commit. Every new behaviour test was checked for inertness the way M1
+requires - the fix disabled, the test watched to fail - not merely written.
+
+### For the Phase 2 Bedrock thread
+
+Mark's direction, 2026-08-24: the next version of
+churchinconversation.com moves off the Anthropic Console API onto Bedrock.
+`Ministry/Technology/CiC_LLM_Provider_Cost_Options_2026-08-09.md` already
+ranks this #2 of six and records the $200 AWS credit as barely touched. Its
+two "verify first" items were checked against the current API reference and
+this account's live inference profiles:
+
+1. **1h prompt-cache TTL is GA on Bedrock - and the engine is not using
+   it.** `engine/m4/generation.py:77` sends `{"type": "ephemeral"}`, the
+   5-minute default; 1h needs `"ttl": "1h"`. Not a free upgrade: cache
+   writes cost 1.25x at 5m and **2x at 1h**, so break-even moves from two
+   requests to three. Wants real session-length data, not a default.
+2. **Endpoint family.** Both `global.anthropic.*` and `us.anthropic.*`
+   profiles exist on this account; the engine resolves `us.` - the
+   regional family the cost doc flags as carrying a ~10% premium.
+
+Three more, found while checking:
+
+- `engine/provider/bedrock.py:69` uses `AnthropicBedrock`, which the
+  current reference marks as the **legacy `bedrock-runtime` InvokeModel
+  path**; `AnthropicBedrockMantle` is recommended for new code. Works
+  today - every live run this thread made used it - but worth settling
+  before a production cutover.
+- **Bedrock does not support *automatic* prompt caching** (top-level
+  `cache_control` on the request). The engine uses explicit block-level
+  `cache_control`, which IS supported. Do not let anyone "simplify" it to
+  the automatic form.
+- **Model divergence.** `render.yaml` shows the live service on
+  `LLM_PROVIDER: anthropic`, `LLM_MODEL: claude-sonnet-5`. The engine runs
+  `sonnet-4-5` on Bedrock, and every quality number above was measured on
+  4.5. `us.anthropic.claude-sonnet-5` IS available on this account, so the
+  model can be held constant across the provider move - change one variable
+  at a time.
+
+And the fact that reframes the whole cutover: **`cic-poc` is not a dead
+prototype.** `cic-website/index.html:177` sets `LIVE_APP_URL` to
+`https://cic-poc.onrender.com`, which returned HTTP 200 when checked on
+2026-08-24, and `render.yaml` names it as the only deployed service. Its
+two CI jobs are the only thing checking that the live service still builds.
+The engine has no Dockerfile, no deploy config of its own and no frontend,
+so the sequence is: engine gets a container and a surface, `render.yaml`
+moves, the website link moves - and only then does `cic-poc` become
+deletable. That is a milestone, not a cleanup.
+
+## Previously: all seven worlds built; the M4 live-generation pipeline is implemented end-to-end
 
 2026-08-22, this thread. Two large bodies of work, both real, both
 verified against real compiled data (never a live model call unless
@@ -627,10 +798,21 @@ now done too; see the entries above. Stage 5 is closed out as of commit
 everything genuinely open now needs either Mark's own action or someone
 this thread cannot substitute for, not more engineering judgment:**
 
-1. **The AWS credential.** `cic-bedrock-dev` failed `GetCallerIdentity`
-   from this container - `InvalidClientTokenId`. Mark needs to check the
-   IAM console (open decisions section above) before any further live
-   Bedrock testing can happen from this session.
+1. ~~**The AWS credential.**~~ **RESOLVED 2026-08-24.** `cic-bedrock-dev`
+   works: this thread made live Bedrock calls all day, across three runs on
+   pahc, alx and ijc. Kept as a record that it was once blocked, because
+   the items below were written against it.
+1b. **Ref deletion, and branch protection.** This session's credential can
+   create and update `refs/heads` but is refused (HTTP 403) on deleting a
+   ref and on `refs/tags` entirely. Three things therefore need Mark in a
+   browser, and they are one trip: **branch protection** on `build/phase-1`
+   and `baseline/*` - nothing currently stops a force-push over either, and
+   the baseline is the way back to a voice quality Mark asked to protect;
+   **37 fully-merged branch deletions** out of 114, holding back
+   `build/phase-1`, `main`, and `baseline/pilot-2026-08-24`, which is
+   merged AND must survive a naive sweep; and the
+   `pilot-baseline-2026-08-24` tag, which the frozen branch already covers
+   and so is cosmetic.
 2. **Step 7 (admission) and M7 (transcript audit)**, for every world -
    both need real live-model spend/data and both stay explicitly reserved
    for Mark's own go-ahead, the same discipline this file has held since
@@ -652,11 +834,11 @@ this thread cannot substitute for, not more engineering judgment:**
    unprompted even though the M4 turn loop it would sit behind is now
    considerably more complete than when this section was first written.
 
-The two things this thread built that touch M6/M5 territory but were
-flagged as deliberately out of scope for stages 5-6 (not silently
-skipped): Track B's own `safety_turn` content (`HARMFUL_DYNAMIC_SIGNAL`),
-and the other routing actions' generation content (`check_in_turn`/
-`system_nature_turn`/`bridge_turn`/`etic_turn`) - real, tested routing
-outcomes (`engine.m5.routing`) with `UnhandledRoutingAction` raised loudly
-wherever their content isn't built yet. These become real work once M6
-(stage 8) actually starts, not before.
+The two things flagged here as deliberately out of scope for stages 5-6 -
+Track B's own `safety_turn` content, and the other routing actions'
+generation content - **were built on 2026-08-24** (top section), and
+`UnhandledRoutingAction` is no longer raised by any reachable path. What
+remains of them is not engineering: `engine/m4/facilitator_turns.py` holds
+placeholder text by its own declaration, and the craft pass
+CiC-Program-Spec.md SS8 calls for is Mark's writing, not a thread's. M6 (the
+participant surface, stage 8) is still gated on 7.5's approved screens.
