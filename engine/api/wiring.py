@@ -243,16 +243,14 @@ def handle_message(
         # as evidence of what was sent and they may resend.
         raise ProviderCallFailed(str(exc)) from exc
 
-    gate_payload = {
-        "asks": [],
-        "register": None,
-        "out_of_scope": None,
-        "modern_terms": [],
-        "safety": None,
-        "route": result.routing_action,
-        "directive": None,
-        "degraded": result.degraded,
-    }
+    # What the gate actually said, written whole. This was a hand-built
+    # blank until 2026-08-24 - every key but route and degraded hardcoded
+    # empty, on every gate_decision this build ever logged, so a successful
+    # gate and a failed one were indistinguishable in the record and the
+    # M7 audit had nothing to audit. engine.m4.turn assembles it now, where
+    # the two gate outcomes are; this writes it verbatim rather than
+    # rebuilding a second version that could drift from the first.
+    gate_payload = result.gate
     events.validate("gate_decision", gate_payload)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="gate_decision", payload=gate_payload)
 
@@ -270,8 +268,9 @@ def handle_message(
     # ask is a press. Appending it after the etic turn would be recording a
     # state the session had already used. Re-appending on a later first-ask
     # is harmless - the projection folds it to True either way.
-    if result.routing_action == "voice_with_directive" and result.out_of_scope_class in PRESSABLE_CLASSES:
-        pressed_payload = {"class": result.out_of_scope_class}
+    out_of_scope_class = (gate_payload.get("out_of_scope") or {}).get("class")
+    if result.routing_action == "voice_with_directive" and out_of_scope_class in PRESSABLE_CLASSES:
+        pressed_payload = {"class": out_of_scope_class}
         events.validate("escalation_pressed", pressed_payload)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="escalation_pressed", payload=pressed_payload)
 

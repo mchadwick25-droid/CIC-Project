@@ -11,6 +11,7 @@ from types import SimpleNamespace
 
 import pytest
 
+from engine.m4 import turn as turn_module
 from engine.m4.turn import UnhandledRoutingAction, run_turn
 from engine.m4.world_loader import LoadedWorld
 
@@ -445,9 +446,13 @@ def test_a_modern_term_the_fleet_does_not_carry_still_does_not_bridge():
     assert result.routing_action == "voice_with_directive"
 
 
-def test_the_readers_out_of_scope_class_reaches_the_caller():
-    """engine.api.wiring needs it to append escalation_pressed - without it
-    the pressed map stays empty forever and etic_turn is unreachable."""
+def test_the_gate_payload_reaches_the_caller_whole():
+    """Two things at once, and neither used to arrive. engine.api.wiring
+    needs out_of_scope to append escalation_pressed (without it the pressed
+    map stays empty forever and etic_turn is unreachable), and it needs the
+    rest to write a gate_decision that says anything at all - every one this
+    build logged before 2026-08-24 had every key but route and degraded
+    hardcoded blank."""
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"),
         reader_response=_reader(out_of_scope={"class": "later_age"}),
@@ -455,7 +460,13 @@ def test_the_readers_out_of_scope_class_reaches_the_caller():
     )
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what did you make of Nicaea", pressed={}, anachronistic_term_ids=set())
     assert result.routing_action == "voice_with_directive"
-    assert result.out_of_scope_class == "later_age"
+    assert result.gate["out_of_scope"] == {"class": "later_age"}
+    assert result.gate["register"] == "informational"
+    assert result.gate["asks"] == [{"order": 1, "text": "who was Jesus"}]
+    assert result.gate["safety"]["signal"] == "NO_SIGNAL"
+    assert result.gate["route"] == "voice_with_directive"
+    assert result.gate["degraded"] is False
+    assert result.gate["directive"]["asks"] == [{"order": 1, "text": "who was Jesus"}]
 
 
 def test_a_bridge_fires_when_the_reader_flags_nothing_at_all():
@@ -496,3 +507,45 @@ def test_the_word_in_the_message_does_not_bridge_a_world_it_is_not_anachronistic
     )
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="How did your community understand the Trinity?", pressed={}, anachronistic_term_ids=set())
     assert result.routing_action == "voice_with_directive"
+
+
+def test_the_gate_payload_shows_which_path_found_a_modern_term():
+    """The resolved list goes in the event, not the raw one: reader_term_id
+    and source are how an auditor sees which path found a term and what the
+    model called it before code renamed it."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(modern_terms=[{"term_id": "trinity_doctrine", "display": "the Trinity"}]),
+        stream_chunks=["We spoke of the Father and the Son [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="How did your community understand the Trinity?", pressed={}, anachronistic_term_ids=set())
+    terms = result.gate["modern_terms"]
+    assert [t["term_id"] for t in terms] == ["_fleet.modern.trinity"]
+    assert terms[0]["reader_term_id"] == "trinity_doctrine"
+
+
+def test_a_failed_reader_is_visible_in_the_gate_payload():
+    """The case the blank payload hid completely: a gate that returned and
+    a gate that fell over used to log identically."""
+    from engine.m5.failure import CallOutcome
+
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We spoke of the Father and the Son [[fix.witness.who-is-jesus]]."],
+    )
+    real_reader = turn_module.live_calls.call_reader
+    turn_module.live_calls.call_reader = lambda *a, **k: CallOutcome(status="timeout")
+    try:
+        result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="who was Jesus", pressed={}, anachronistic_term_ids=set())
+    finally:
+        turn_module.live_calls.call_reader = real_reader
+
+    assert result.routing_action == "voice_pass_through"
+    assert result.gate["degraded"] is True
+    assert result.gate["register"] is None
+    assert result.gate["out_of_scope"] is None
+    assert result.gate["asks"] == []
+    assert result.gate["directive"] is None
+    # safety still returned, and the record still says so
+    assert result.gate["safety"]["signal"] == "NO_SIGNAL"
