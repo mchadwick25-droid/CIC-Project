@@ -34,6 +34,11 @@ wrong on this project, and the reasoning is in `BUILD-HANDOFF.md`.
    locally and are fair game; prices are not.
 6. **One stage at a time, gated.** Each stage below ends with a GATE. Do
    not start the next one until the gate is met and Mark has seen it.
+7. **Mark runs Windows PowerShell.** Any command handed to him to run
+   himself must be PowerShell, not bash - no `sed`/`grep`/`xargs`, and `\`
+   is not a line continuation there. This cost a round trip on 2026-08-24.
+   Commands the assistant runs in its own session are a different matter;
+   that container is Linux.
 
 ---
 
@@ -175,8 +180,34 @@ Housekeeping that makes every later stage legible. None of it touches code.
    between the two, so the deployed prototype did not change. `build/phase-1`
    was deliberately NOT renamed - renaming breaks every clone, and several
    merged PRs reference it.
-2. **Delete the merged branches.** ~37 of them, all fully contained. The
-   command recomputes and re-verifies rather than trusting a stale list:
+2. **Delete the merged branches.** 43 as of 2026-08-24, all fully
+   contained. Recompute rather than trusting any list written down here -
+   it goes stale every time something merges.
+
+   **Mark works in PowerShell on Windows**, so that comes first. A bash
+   pipeline handed over on 2026-08-24 failed on him immediately (no `sed`,
+   no `grep`, no `xargs`, and `\` is not a line continuation there).
+
+   ```powershell
+   git fetch --prune origin
+
+   $keep = @('build/phase-1','main','baseline/pilot-2026-08-24')
+
+   $branches = git branch -r --merged origin/build/phase-1 |
+       ForEach-Object { $_.Trim() -replace '^origin/','' } |
+       Where-Object { $_ -notmatch '^HEAD' -and $keep -notcontains $_ }
+
+   $branches.Count      # LOOK AT THIS before the next block
+   $branches
+
+   foreach ($b in $branches) { git push origin --delete $b }
+   ```
+
+   One at a time in the loop so a failure names the branch that caused it.
+   Confirm afterwards with `git fetch --prune origin` and check
+   `origin/baseline/pilot-2026-08-24` is still `8b23f46e`.
+
+   The same thing in bash, for a Linux or macOS session:
 
    ```bash
    git fetch --prune origin
@@ -186,10 +217,18 @@ Housekeeping that makes every later stage legible. None of it touches code.
      | xargs -n 12 git push origin --delete
    ```
 
-   The `grep -vE` is load-bearing: `baseline/pilot-2026-08-24` IS merged
-   and MUST survive. **A session credential may be refused (403) on
-   deleting refs** - it was on 2026-08-24. If so this is Mark's, in the
-   browser.
+   **The keep-list is load-bearing in both**:
+   `baseline/pilot-2026-08-24` IS merged and would be swept up by a naive
+   sweep. `--merged` is the safety - a branch cannot appear unless every
+   commit on it is already in `build/phase-1` - and it is also why a
+   mistake here is recoverable: the commits survive, so a wrongly-deleted
+   branch can be recreated at its SHA.
+
+   **A session credential may be refused (403) on deleting refs** - it was
+   on 2026-08-24, retried and refused again. If so this is Mark's, at his
+   own shell or at
+   `github.com/mchadwick25-droid/CIC-Project/branches` -> Stale, which has
+   a bin icon per row.
 
 > **GATE 1** - `main` and `build/phase-1` at the same SHA; branch count
 > down from 114; `baseline/pilot-2026-08-24` still at `8b23f46e`.
