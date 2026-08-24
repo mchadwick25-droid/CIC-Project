@@ -134,6 +134,7 @@ M4 event log, projection, entrance seal, resume, turn loop
 M5 Facilitator gate routing + failure semantics
 M8 cost & observability unit tests (mocked, no live AWS call)
 engine/api tests (mocked Bedrock, fixture world)
+Docker build (engine/Dockerfile)
 Prose primitives (shared measurement)
 Provider seam unit tests (mocked, no live AWS call)
 Canon v1 + sealed probe isolation

@@ -15,6 +15,7 @@ import yaml
 
 from engine.m4.turn import run_turn
 from engine.m4.world_loader import LazyWorldLoader
+from engine.m8.usage import SYSTEM_SESSION_ID
 from engine.provider.bedrock import make_client, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -61,6 +62,7 @@ def run(region: str) -> dict:
     results = []
     for scenario in SCENARIOS:
         result = run_turn(
+            session_id=SYSTEM_SESSION_ID,
             voice_client=client,
             voice_model_id=voice_model_id,
             safety_client=client,
