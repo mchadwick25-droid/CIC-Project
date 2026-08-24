@@ -456,3 +456,43 @@ def test_the_readers_out_of_scope_class_reaches_the_caller():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what did you make of Nicaea", pressed={}, anachronistic_term_ids=set())
     assert result.routing_action == "voice_with_directive"
     assert result.out_of_scope_class == "later_age"
+
+
+def test_a_bridge_fires_when_the_reader_flags_nothing_at_all():
+    """Run 2 turn 2, 2026-08-24: the reader returned modern_terms: [] for
+    "How did your community understand the Trinity?" - the same question it
+    had flagged twice earlier the same day - and the bridge did not fire.
+    Whether the participant used the word is not a judgement call, so the
+    message is read directly."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(modern_terms=[]),
+        stream_chunks=["We spoke of the Father and the Son [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="How did your community understand the Trinity?", pressed={}, anachronistic_term_ids={"_fleet.modern.trinity"})
+    assert result.routing_action == "bridge_turn"
+    assert result.facilitator_events[0]["kind"] == "bridge"
+
+
+def test_a_message_with_no_modern_term_still_takes_the_ordinary_path():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(modern_terms=[]),
+        stream_chunks=["We spoke of the Father and the Son [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="who was Jesus to your people", pressed={}, anachronistic_term_ids={"_fleet.modern.trinity"})
+    assert result.routing_action == "voice_with_directive"
+
+
+def test_the_word_in_the_message_does_not_bridge_a_world_it_is_not_anachronistic_for():
+    """The scan finds the word; the world's own time window still decides
+    whether it is anachronistic (engine.m5.anachronism.anachronistic_term_ids).
+    A world whose horizon closes after the term's origin year gets the
+    ordinary path, and the voice answers in its own words."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(modern_terms=[]),
+        stream_chunks=["We spoke of the Father and the Son [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="How did your community understand the Trinity?", pressed={}, anachronistic_term_ids=set())
+    assert result.routing_action == "voice_with_directive"

@@ -58,7 +58,7 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
-from engine.m5.anachronism import resolve_term_ids
+from engine.m5.anachronism import resolve_term_ids, terms_in_message
 from engine.m5.failure import CallOutcome, resolve_gate
 from engine.m5.routing import Directive
 from engine.m8.usage import UsageRecord, record_usage
@@ -297,18 +297,30 @@ def run_turn(
     if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id):
         usage_records.append(rec)
 
-    # The reader invents its own term_id (engine.m5.live_calls' own prompt
-    # says so in as many words), and routing matches those against FLEET
-    # RECORD IDS. Live on 2026-08-24 the intersection was empty on every
-    # turn that flagged a modern term, so bridge_turn - built, tested, and
-    # correct - was unreachable by any real session. The ids are resolved
-    # here, once, before anything downstream reads them: routing's own
-    # intersection and the bridge's re-derivation below then both see the
-    # same resolved list, rather than each re-deriving a fix of its own.
-    if reader_outcome.value is not None and reader_outcome.value.get("modern_terms"):
-        reader_outcome.value["modern_terms"] = resolve_term_ids(
-            reader_outcome.value["modern_terms"], load_fleet_records()
+    # WHICH MODERN TERMS ARE IN PLAY, settled here once, before anything
+    # downstream reads them - so routing's intersection and the bridge's
+    # re-derivation below see the same list instead of each deriving one.
+    # Two passes, and the second is not a belt-and-braces duplicate of the
+    # first; they fix different failures, both measured live on 2026-08-24:
+    #
+    #   resolve_term_ids  - the reader is INSTRUCTED to invent its term_id
+    #     (engine.m5.live_calls' own prompt), and routing matches those
+    #     against fleet record ids. The intersection was empty every time.
+    #   terms_in_message  - the reader flagged "Trinity" on two attempts at
+    #     the same question and returned modern_terms: [] on a third. An id
+    #     fix cannot help a flag that never came. Whether the participant
+    #     used the word is not a judgement call, so it is not left to one.
+    #
+    # The reader's own reading is kept, not replaced: it can flag terms the
+    # fleet carries no record for (those keep its id and never intersect),
+    # and it reads framings a word list cannot see.
+    if reader_outcome.value is not None:
+        fleet_records = load_fleet_records()
+        resolved = resolve_term_ids(reader_outcome.value.get("modern_terms"), fleet_records)
+        resolved += terms_in_message(
+            participant_message, fleet_records, already_found={t["term_id"] for t in resolved}
         )
+        reader_outcome.value["modern_terms"] = resolved
 
     gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
     action = gate_result.routing.action
