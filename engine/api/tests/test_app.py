@@ -91,8 +91,18 @@ def test_message_wrong_code_and_missing_session_are_identical_401(store, usage_s
     assert wrong_code_resp.json() == missing_session_resp.json() == {"detail": "invalid session"}
 
 
-def test_message_unhandled_routing_returns_200_not_500(store, usage_store, world_loader, registry):
-    client = FakeBedrockClient(safety_response=safety_response("HARMFUL_DYNAMIC_SIGNAL"), reader_response=reader_response())
+def test_message_unhandled_routing_returns_200_not_500(store, usage_store, world_loader, registry, monkeypatch):
+    """All seven routing actions now have content, so the seam is forced
+    rather than reached. What is under test is the HTTP contract - a route
+    with nothing behind it must never reach a participant as a 500."""
+    from engine.api import wiring
+    from engine.m4.turn import UnhandledRoutingAction
+
+    def _boom(**kwargs):
+        raise UnhandledRoutingAction("forced: a routing action with no content wired up")
+
+    monkeypatch.setattr(wiring, "run_turn", _boom)
+    client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
     created = http.post("/api/session", json={}).json()
 
