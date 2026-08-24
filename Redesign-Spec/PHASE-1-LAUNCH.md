@@ -25,7 +25,10 @@ wrong on this project, and the reasoning is in `BUILD-HANDOFF.md`.
    hashes, not with a claim.
 3. **No live model spend without Mark's explicit go-ahead**, per stage,
    every time. Probe the cheap gate alone before spending a full turn -
-   that pattern found the last unreachable route for six small calls.
+   that pattern found the last unreachable route for six small calls. As
+   of 2026-08-24 **there is no paid stage left on the path to a running
+   pilot** (Stage 2 is deferred by decision), so any request to spend is a
+   departure from this plan and needs saying out loud as one.
 4. **Measured, not asserted** (spec principle 10). A number in this
    project comes from a run, not from a plausible argument. If a stage
    ends with "it should be fine", the stage is not finished. This applies
@@ -275,29 +278,49 @@ Housekeeping that makes every later stage legible. None of it touches code.
 
 ---
 
-## Stage 2 - Settle the model  *(live spend - ASK FIRST)*
+## Stage 2 - Settle the model  *(DEFERRED - do not run this)*
 
-The old service runs `claude-sonnet-5`. The engine runs `sonnet-4-5`, and
-every quality number on record was measured on 4.5. Since the new system
-REPLACES the old rather than joining it, participants would otherwise be
-handed an older model on raw generation than they get today.
+**Mark's decision, 2026-08-24: the pilot runs on `sonnet-4-5`. Do not
+spend on a comparison run. Revisit only if the pilot shows a quality
+problem.**
 
-Read `BUILD-HANDOFF.md`'s Sonnet 5 section in full before touching this.
-The short version: it is not a config flip. `max_tokens=1024`
-(`engine/m4/generation.py:39`) would truncate the voice, the new tokenizer
-counts ~30% more tokens for identical text, and Sonnet 5 reads tuned style
-directives more literally - which is a risk to the voice that **the
-grounding net cannot catch**, because the net checks whether a sentence is
-grounded, not whether it sounds like the world.
+The reasoning, because a later thread will be tempted to reopen it: every
+quality number on record - 0.0% fabricated ids, 78% net coverage - was
+measured on 4.5. **Shipping 4.5 ships the thing that was actually
+measured.** Switching first would launch on a configuration nobody has
+evidence for, and pay for the privilege. A pilot is itself the
+measurement: if the voice holds up with real participants the question
+closes for nothing, and if it does not there will be transcripts to point
+at rather than a score.
 
-The comparison run: **one world, the same questions, both models**, scored
-on fabricated-id rate and net coverage - the two measures with a baseline
-to compare against (0.0% and 78% on 4.5). Raise `max_tokens` before the
-Sonnet 5 leg or the truncation will be mistaken for a quality difference.
+This removes the only paid stage from the path to a running pilot.
+Everything from Stage 3 onward is engineering that costs nothing but time.
 
-> **GATE 2** - a written recommendation with both sets of numbers, and
-> Mark's read of the actual transcripts. Not a score alone: the thing being
-> judged is whether it still sounds like the world.
+### If the pilot does show a quality problem
+
+Diagnose before reaching for the model. A participant who says it feels
+worse than the old site is comparing **4.5 with grounding** against
+**Sonnet 5 with no grounding and no records** - two systems differing in
+far more than their model. The model is one candidate cause among several,
+and the cheaper ones (the Facilitator's placeholder text, a thin world,
+retrieval missing the right record) should be ruled out first.
+
+If it really is the model, `BUILD-HANDOFF.md`'s Sonnet 5 section has the
+blockers in full. In short: **raise `max_tokens` first**
+(`engine/m4/generation.py:39` is tuned for 4.5 prose, adaptive thinking is
+on by default on Sonnet 5, and the new tokenizer needs ~30% more tokens
+for the same text - truncation would otherwise be read as a quality
+difference). Then the comparison: one world, the same questions, both
+models, scored on fabricated-id rate and net coverage, which are the two
+measures with a 4.5 baseline to compare against.
+
+Note that Sonnet 5 reads tuned style directives more literally, and **the
+grounding net cannot catch that** - the net checks whether a sentence is
+grounded, not whether it sounds like the world. Only Mark reading the
+transcripts settles that part.
+
+> **GATE 2 - CLOSED BY DECISION, not by a run.** Nothing to produce. The
+> pilot proceeds on 4.5.
 
 ---
 
