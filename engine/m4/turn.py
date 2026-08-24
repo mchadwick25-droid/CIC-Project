@@ -58,6 +58,7 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
+from engine.m5.anachronism import resolve_term_ids
 from engine.m5.failure import CallOutcome, resolve_gate
 from engine.m5.routing import Directive
 from engine.m8.usage import UsageRecord, record_usage
@@ -72,6 +73,15 @@ class UnhandledRoutingAction(NotImplementedError):
 class TurnResult:
     routing_action: str
     routing_reason: str
+    # The reader's out_of_scope class, carried so the caller can record that
+    # a pressable class has now had its in-world first answer. Routing
+    # decides "first ask" vs "pressed" from a `pressed` map the CALLER owns
+    # (engine.m5.routing rule 5) - and nothing in this build ever appended
+    # the escalation_pressed event that map folds from, so `pressed` was
+    # permanently empty and etic_turn was unreachable. This is what makes it
+    # appendable: None whenever the reader failed, since then there is no
+    # class to record. See engine.api.wiring.handle_message.
+    out_of_scope_class: str | None = None
     facilitator_events: list[dict] = field(default_factory=list)
     voice_event: dict | None = None
     degraded: bool = False
@@ -287,8 +297,22 @@ def run_turn(
     if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id):
         usage_records.append(rec)
 
+    # The reader invents its own term_id (engine.m5.live_calls' own prompt
+    # says so in as many words), and routing matches those against FLEET
+    # RECORD IDS. Live on 2026-08-24 the intersection was empty on every
+    # turn that flagged a modern term, so bridge_turn - built, tested, and
+    # correct - was unreachable by any real session. The ids are resolved
+    # here, once, before anything downstream reads them: routing's own
+    # intersection and the bridge's re-derivation below then both see the
+    # same resolved list, rather than each re-deriving a fix of its own.
+    if reader_outcome.value is not None and reader_outcome.value.get("modern_terms"):
+        reader_outcome.value["modern_terms"] = resolve_term_ids(
+            reader_outcome.value["modern_terms"], load_fleet_records()
+        )
+
     gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
     action = gate_result.routing.action
+    out_of_scope_class = None if reader_outcome.failed else (reader_outcome.value.get("out_of_scope") or {}).get("class")
 
     if action == "safety_turn":
         signal = safety_outcome.value["signal"]  # safety_turn only reachable when safety succeeded and fired ACUTE/HARMFUL - engine.m5.routing rule 1
@@ -306,6 +330,7 @@ def run_turn(
             )
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
+                out_of_scope_class=out_of_scope_class,
                 facilitator_events=[facilitator_turns.dependency_check_turn()],
                 voice_event=voice_event, degraded=gate_result.degraded,
                 usage_records=usage_records + voice_usage_records,
@@ -342,6 +367,7 @@ def run_turn(
         facilitator_event = crisis_resources.append_crisis_resources_turn(signal=signal, stream_text=stream_text, stream_failed=stream_failed)
         return TurnResult(
             routing_action=action,
+            out_of_scope_class=out_of_scope_class,
             routing_reason=gate_result.routing.reason,
             facilitator_events=[facilitator_event],
             voice_event=voice_event,
@@ -357,6 +383,7 @@ def run_turn(
         # it were an ordinary question).
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
+            out_of_scope_class=out_of_scope_class,
             facilitator_events=[facilitator_turns.check_in_turn()],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
@@ -368,6 +395,7 @@ def run_turn(
         # route exists to prevent.
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
+            out_of_scope_class=out_of_scope_class,
             facilitator_events=[facilitator_turns.system_nature_turn()],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
@@ -375,6 +403,7 @@ def run_turn(
     if action == "etic_turn":
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
+            out_of_scope_class=out_of_scope_class,
             facilitator_events=[facilitator_turns.etic_turn(reader_outcome.value["out_of_scope"]["class"])],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
@@ -399,6 +428,7 @@ def run_turn(
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
+            out_of_scope_class=out_of_scope_class,
             facilitator_events=[facilitator_event], voice_event=voice_event,
             degraded=gate_result.degraded, usage_records=usage_records + voice_usage_records,
         )
@@ -416,6 +446,7 @@ def run_turn(
         )
         return TurnResult(
             routing_action=action,
+            out_of_scope_class=out_of_scope_class,
             routing_reason=gate_result.routing.reason,
             voice_event=voice_event,
             degraded=gate_result.degraded,

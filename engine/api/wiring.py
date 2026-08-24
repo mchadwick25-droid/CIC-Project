@@ -18,6 +18,7 @@ from engine.m4.store import Store
 from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
+from engine.m5.routing import PRESSABLE_CLASSES
 from engine.m8.log_store import UsageLogStore
 
 UNHANDLED_ROUTING_FACILITATOR_TEXT = (
@@ -254,6 +255,25 @@ def handle_message(
     }
     events.validate("gate_decision", gate_payload)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="gate_decision", payload=gate_payload)
+
+    # THE PRESSED FLAG'S ONLY WRITER. engine.m5.routing rule 5 gives a
+    # pressable out_of_scope class its in-world answer on the first ask and
+    # the etic turn on the second - but "second" is read from
+    # SessionState.pressed, which folds from escalation_pressed, which was
+    # declared in engine.m4.events, folded in engine.m4.projection, and
+    # appended by nothing anywhere. `pressed` was therefore permanently {},
+    # every ask was a first ask, and etic_turn was unreachable by any real
+    # session (proven live, pahc, 2026-08-24). This is the missing append.
+    #
+    # It fires on the in-world answer, not on the etic turn: what the flag
+    # records is that this class has now HAD its first answer, so the next
+    # ask is a press. Appending it after the etic turn would be recording a
+    # state the session had already used. Re-appending on a later first-ask
+    # is harmless - the projection folds it to True either way.
+    if result.routing_action == "voice_with_directive" and result.out_of_scope_class in PRESSABLE_CLASSES:
+        pressed_payload = {"class": result.out_of_scope_class}
+        events.validate("escalation_pressed", pressed_payload)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="escalation_pressed", payload=pressed_payload)
 
     facilitator_payload = None
     for fe in result.facilitator_events:

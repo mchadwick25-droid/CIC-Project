@@ -413,3 +413,46 @@ def test_a_turn_with_no_history_is_unchanged():
              world=world, participant_message="hello", pressed={}, anachronistic_term_ids=set())
     _, messages = client.messages.captured_stream_calls[0]
     assert [m["role"] for m in messages] == ["user"]
+
+
+def test_a_bridge_fires_on_the_invented_term_id_the_reader_actually_returns():
+    """The seam this closes was measured, not imagined: live on 2026-08-24
+    the reader returned term_id "trinity_doctrine" for "How did your
+    community understand the Trinity?", routing intersected that against
+    fleet record ids, matched nothing, and the turn went to the ordinary
+    voice path. The reader is INSTRUCTED to invent that id
+    (engine.m5.live_calls' own prompt), so the fix is code resolving it,
+    not the model guessing better."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(modern_terms=[{"term_id": "trinity_doctrine", "display": "the Trinity"}]),
+        stream_chunks=["We spoke of the Father and the Son [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="How did your community understand the Trinity?", pressed={}, anachronistic_term_ids={"_fleet.modern.trinity"})
+    assert result.routing_action == "bridge_turn"
+    assert result.facilitator_events[0]["kind"] == "bridge"
+
+
+def test_a_modern_term_the_fleet_does_not_carry_still_does_not_bridge():
+    """Resolution is a lookup, not a permission slip - a term with no fleet
+    record keeps the reader's invented id and never intersects."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(modern_terms=[{"term_id": "personal_savior", "display": "personal Lord and Savior"}]),
+        stream_chunks=["We spoke of the Father and the Son [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="was he your personal Lord and Savior", pressed={}, anachronistic_term_ids={"_fleet.modern.trinity"})
+    assert result.routing_action == "voice_with_directive"
+
+
+def test_the_readers_out_of_scope_class_reaches_the_caller():
+    """engine.api.wiring needs it to append escalation_pressed - without it
+    the pressed map stays empty forever and etic_turn is unreachable."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(out_of_scope={"class": "later_age"}),
+        stream_chunks=["We never heard of it [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what did you make of Nicaea", pressed={}, anachronistic_term_ids=set())
+    assert result.routing_action == "voice_with_directive"
+    assert result.out_of_scope_class == "later_age"
