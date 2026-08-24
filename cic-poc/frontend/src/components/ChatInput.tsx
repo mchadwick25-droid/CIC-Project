@@ -1,35 +1,28 @@
 /**
- * ChatInput component - text input for participant messages.
+ * Text input for participant messages. The old version's "Don't know what
+ * to ask?" guided-starters sheet is dropped here, not ported: its content
+ * (src/data/guided_starters.json) is real and grounded but its own status
+ * field says "DRAFT - awaiting Mark's review. Not deployed," and engine/api
+ * has no endpoint to serve it either way.
+ *
+ * "Leave for now" (not "End the conversation"): MessageRequest is only
+ * {text, client_msg_id} - there is no close-intent field, so this can only
+ * navigate away client-side. The session is not actually closed server-side
+ * and stays resumable by its code, so the label says what really happens.
  */
-
-import { useState, useCallback, useRef, useEffect } from 'react';
-import { QuestionSheet } from './QuestionSheet';
-import { getGuidedStartersForTable } from '../data/guidedStarters';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 interface ChatInputProps {
   onSend: (message: string) => void;
   onEnd: () => void;
+  placeholder: string;
   disabled?: boolean;
-  isLoading?: boolean;
-  /** World(s) seated at this table - resolves which Guided Starters content
-   * "Don't know what to ask?" offers. The affordance itself stays hidden
-   * (not just disabled) if none of the seated worlds have drafted content. */
-  worldIds?: string[];
 }
 
-export function ChatInput({
-  onSend,
-  onEnd,
-  disabled = false,
-  isLoading = false,
-  worldIds = [],
-}: ChatInputProps) {
+export function ChatInput({ onSend, onEnd, placeholder, disabled = false }: ChatInputProps) {
   const [message, setMessage] = useState('');
-  const [isQuestionSheetOpen, setIsQuestionSheetOpen] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
-  const guidedStarterWorlds = getGuidedStartersForTable(worldIds);
 
-  // Auto-resize textarea
   useEffect(() => {
     const textarea = textareaRef.current;
     if (textarea) {
@@ -42,17 +35,16 @@ export function ChatInput({
     (e: React.FormEvent) => {
       e.preventDefault();
       const trimmed = message.trim();
-      if (trimmed && !disabled && !isLoading) {
+      if (trimmed && !disabled) {
         onSend(trimmed);
         setMessage('');
       }
     },
-    [message, disabled, isLoading, onSend]
+    [message, disabled, onSend]
   );
 
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
-      // Submit on Enter (without Shift)
       if (e.key === 'Enter' && !e.shiftKey) {
         e.preventDefault();
         handleSubmit(e);
@@ -61,71 +53,27 @@ export function ChatInput({
     [handleSubmit]
   );
 
-  // "Dismisses on typing" (UX Design V1.0 §4.1) - the sheet closes the
-  // moment the participant starts typing their own message.
-  const handleChange = useCallback((e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    setMessage(e.target.value);
-    setIsQuestionSheetOpen(false);
-  }, []);
-
-  const handleAskGuidedQuestion = useCallback(
-    (question: string) => {
-      if (!disabled && !isLoading) {
-        onSend(question);
-      }
-    },
-    [disabled, isLoading, onSend]
-  );
-
   return (
-    <div className="chat-input-container">
-      {guidedStarterWorlds.length > 0 && (
-        <div className="chat-input__dont-know-row">
-          <button
-            type="button"
-            className="chat-input__dont-know"
-            onClick={() => setIsQuestionSheetOpen((v) => !v)}
-            disabled={disabled}
-          >
-            Don't know what to ask?
-          </button>
-        </div>
-      )}
-      <form className="chat-form" onSubmit={handleSubmit}>
+    <div className="conversation__composer">
+      <form className="composer-row" onSubmit={handleSubmit}>
         <textarea
           ref={textareaRef}
-          className="chat-input"
           value={message}
-          onChange={handleChange}
+          onChange={(e) => setMessage(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Share your thoughts or ask a question..."
-          disabled={disabled || isLoading}
+          placeholder={placeholder}
+          disabled={disabled}
           rows={1}
         />
-        <button
-          type="submit"
-          className="chat-button"
-          disabled={disabled || isLoading || !message.trim()}
-        >
-          {isLoading ? 'Sending...' : 'Send'}
-        </button>
-        <button
-          type="button"
-          className="chat-button chat-button--secondary"
-          onClick={onEnd}
-          disabled={disabled || isLoading}
-        >
-          End
+        <button type="submit" disabled={disabled || !message.trim()}>
+          {disabled ? 'Sending…' : 'Send'}
         </button>
       </form>
-
-      {isQuestionSheetOpen && (
-        <QuestionSheet
-          worlds={guidedStarterWorlds}
-          onAsk={handleAskGuidedQuestion}
-          onClose={() => setIsQuestionSheetOpen(false)}
-        />
-      )}
+      <div className="conversation__end">
+        <button type="button" onClick={onEnd} disabled={disabled}>
+          Leave for now
+        </button>
+      </div>
     </div>
   );
 }
