@@ -9,10 +9,9 @@ real empty stream identically, via the fake client's stream_chunks=().
 """
 from types import SimpleNamespace
 
-import pytest
 
 from engine.m4 import turn as turn_module
-from engine.m4.turn import UnhandledRoutingAction, run_turn
+from engine.m4.turn import run_turn
 from engine.m4.world_loader import LoadedWorld
 
 

@@ -13,7 +13,6 @@ this is a by-hand, credentialed run.
 import argparse
 import json
 import sys
-from dataclasses import asdict
 from pathlib import Path
 
 from engine.m5 import live_calls
