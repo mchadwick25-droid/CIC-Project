@@ -7,7 +7,9 @@ schema - never free-composed by a model" (Artifact-4 SS3): assemble_directive
 below is the one place a directive is built, and it only ever copies fields
 out of the reader's own structured output.
 """
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
+
+from .anachronism import mentions_term
 
 ACUTE_SIGNALS = {"ACUTE_DISTRESS", "HARMFUL_DYNAMIC_SIGNAL"}
 PRESSABLE_CLASSES = {"later_age", "other_tradition"}
@@ -36,6 +38,31 @@ def assemble_directive(reader: dict) -> Directive:
         suspend_register_statement_1=personal_wound,
         ambiguity_options=list(reader.get("ambiguity_options") or []),
     )
+
+
+def directive_without_terms(reader: dict, display_terms: list[str]) -> Directive | None:
+    """The directive for a bridged turn: everything assemble_directive
+    builds, minus every ask and every ambiguity reading that carries the
+    barred word.
+
+    The bridge hands the voice the term-free underlying subject and nothing
+    else (Program-Spec SS77), which is right about the word and was wrong
+    about the rest of the message: a participant who asked two things in one
+    sentence lost the second one entirely, because the bridge route carries
+    no directive at all. Measured, not theorised - the bridge became much
+    easier to reach once the modern term was read out of the message
+    directly, so this stopped being a corner case.
+
+    Returns None when nothing survives the filter, which is the ordinary
+    single-ask bridge: that leaves the voice exactly the underlying subject
+    it got before, rather than a directive announcing it has no asks.
+    """
+    directive = assemble_directive(reader)
+    asks = [a for a in directive.asks if not mentions_term(a.get("text") or "", display_terms)]
+    options = [o for o in directive.ambiguity_options if not mentions_term(o, display_terms)]
+    if not asks and not options:
+        return None
+    return replace(directive, asks=asks, ambiguity_options=options)
 
 
 def route(*, safety: dict | None, reader: dict, pressed: dict[str, bool], anachronistic_term_ids: set[str]) -> RoutingDecision:
