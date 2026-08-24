@@ -319,6 +319,7 @@ def run_turn(
     pressed: dict,
     anachronistic_term_ids: set,
     track_b_accumulator: dict | None = None,
+    track_a_last: dict | None = None,
     force_empty_stream: bool = False,
     already_told_ids: set[str] | None = None,
     history: list[dict] | None = None,
@@ -340,7 +341,15 @@ def run_turn(
     session as told. Optional and caller-supplied rather than derived here:
     this module makes no store reads of its own (mirrors "makes no store
     writes of its own" above) - a caller with the real event log queries it
-    and passes the set in; omitting it just means Stage E is a no-op."""
+    and passes the set in; omitting it just means Stage E is a no-op.
+
+    track_a_last mirrors track_b_accumulator's own shape - the caller's
+    SessionState.safety.track_a_last (None until Track A has fired once
+    this session, per engine.m4.projection). Read only to decide which of
+    Track A's three scripts to speak (crisis_resources.resources_for_signal);
+    never fed to the sealed safety call, same discipline track_b_accumulator
+    already holds and for the same SS210 reason (see
+    engine.m5.safety_accumulation's own module docstring)."""
     usage_records: list[UsageRecord] = []
 
     safety_outcome = live_calls.call_safety(safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
@@ -410,7 +419,7 @@ def run_turn(
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
                 gate=gate, safety_state_events=safety_states,
-                facilitator_events=[facilitator_turns.dependency_check_turn()],
+                facilitator_events=[facilitator_turns.dependency_check_turn(world.frame["representative"]["name"])],
                 voice_event=voice_event, degraded=gate_result.degraded,
                 usage_records=usage_records + voice_usage_records,
             )
@@ -443,7 +452,12 @@ def run_turn(
                 if stream_text.strip():
                     voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}}
 
-        facilitator_event = crisis_resources.append_crisis_resources_turn(signal=signal, stream_text=stream_text, stream_failed=stream_failed)
+        facilitator_event = crisis_resources.append_crisis_resources_turn(
+            signal=signal, stream_text=stream_text, stream_failed=stream_failed,
+            representative_name=world.frame["representative"]["name"],
+            acute_level=safety_outcome.value["acute_level"],  # schema-required (Artifact-4 SS1), same direct-index discipline as signal above
+            already_fired=track_a_last is not None,
+        )
         return TurnResult(
             routing_action=action,
             gate=gate, safety_state_events=safety_states,

@@ -65,8 +65,10 @@ def _reader(**overrides):
     return base
 
 
-def _safety(signal="NO_SIGNAL"):
-    return {"signal": signal, "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"}
+def _safety(signal="NO_SIGNAL", **overrides):
+    base = {"signal": signal, "acute_level": "none", "risk_subject": "not_applicable", "dynamic_tags": [], "confidence": "high"}
+    base.update(overrides)
+    return base
 
 
 def _world():
@@ -79,12 +81,12 @@ def _world():
         quotes={"quotes": [{"id": "fix.quote.private-teaching", "license": "do-not-voice", "text": "not for the voice to speak"}]},
         figures={},
         coverage={},
-        frame={},
+        frame={"representative": {"name": "Vera", "role_label": "Witness"}},
     )
 
 
 def test_acute_distress_with_real_stream_text_appends_resources_not_empty():
-    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS"), reader_response=_reader(), stream_chunks=["I hear you. ", "That sounds heavy."])
+    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=["I hear you. ", "That sounds heavy."])
     result = run_turn(
         session_id="test-session",
         voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
@@ -93,6 +95,7 @@ def test_acute_distress_with_real_stream_text_appends_resources_not_empty():
     assert result.routing_action == "safety_turn"
     assert result.facilitator_events[0]["resources_appended"] is True
     assert result.facilitator_events[0]["empty_stream"] is False
+    assert "not Vera" in result.facilitator_events[0]["text"]  # names the Representative from world.frame, not a placeholder
     assert result.voice_event is not None
     assert result.voice_event["text"] == "I hear you. That sounds heavy."
 
@@ -101,7 +104,7 @@ def test_acute_distress_with_genuinely_empty_stream_still_appends_resources():
     """The real code path, not the force_empty_stream hook: the fake
     client's stream yields zero chunks, exactly like a real model call that
     completes but produces no tokens."""
-    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS"), reader_response=_reader(), stream_chunks=[])
+    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=[])
     result = run_turn(
         session_id="test-session",
         voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
@@ -113,7 +116,7 @@ def test_acute_distress_with_genuinely_empty_stream_still_appends_resources():
 
 
 def test_force_empty_stream_hook_matches_the_real_empty_case():
-    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS"), reader_response=_reader(), stream_chunks=["would never be seen"])
+    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=["would never be seen"])
     result = run_turn(
         session_id="test-session",
         voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
@@ -122,6 +125,37 @@ def test_force_empty_stream_hook_matches_the_real_empty_case():
     assert result.facilitator_events[0]["resources_appended"] is True
     assert result.facilitator_events[0]["empty_stream"] is True
     assert result.voice_event is None
+
+
+def test_acute_distress_a2_escalation_gets_the_more_direct_script():
+    """Artifact-4 SS1: acute_level a2 (plan or intent) routes identically to
+    a1 - same safety_turn action - but SS5.1 drafts a more direct register
+    for it. First firing this session (no track_a_last), so this is the
+    escalation script, not the continuation one."""
+    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a2"), reader_response=_reader(), stream_chunks=["I hear you."])
+    result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="msg", pressed={}, anachronistic_term_ids=set())
+    text = result.facilitator_events[0]["text"]
+    assert "I need to stop here and be straightforward with you" in text
+    assert "I want to step in for a moment" not in text  # not the a1 opening
+
+
+def test_acute_distress_second_firing_in_session_gets_the_lighter_continuation():
+    """SS4.4/SS4.6's "sustained attention": once Track A has already fired
+    once this session (track_a_last is not None), a later firing gets the
+    lighter continuation turn - and this outranks acute_level, so even an
+    a2 reading on this later turn still gets the continuation, not a second
+    full A2 script."""
+    prior_track_a = {"track": "A", "level": "a1", "accumulator": {}, "risk_subject": "not_applicable"}
+    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a2"), reader_response=_reader(), stream_chunks=["I hear you."])
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world(), participant_message="msg", pressed={}, anachronistic_term_ids=set(), track_a_last=prior_track_a,
+    )
+    text = result.facilitator_events[0]["text"]
+    assert result.facilitator_events[0]["resources_appended"] is True  # still Track A content, just the lighter script
+    assert "I'm still right here with you" in text
+    assert "I need to stop here" not in text  # not the a2 script
+    assert "I want to step in for a moment" not in text  # not the a1 script
 
 
 def test_harmful_dynamic_signal_names_the_dynamic_and_keeps_the_voice():
@@ -137,6 +171,7 @@ def test_harmful_dynamic_signal_names_the_dynamic_and_keeps_the_voice():
     facilitator = result.facilitator_events[0]
     assert facilitator["kind"] == "safety"
     assert facilitator["resources_appended"] is False   # Track B never appends
+    assert "not Vera" in facilitator["text"]  # names the Representative from world.frame, not a placeholder
     assert result.voice_event is not None               # the voice still answers
 
 
@@ -212,7 +247,7 @@ def test_system_nature_is_answered_by_the_facilitator_not_the_world():
     assert result.voice_event is None
     text = result.facilitator_events[0]["text"]
     assert result.facilitator_events[0]["kind"] == "threshold"
-    assert "you are talking to an ai" in text.lower()
+    assert "we use ai" in text.lower()
 
 
 def test_etic_turn_speaks_for_the_class_that_was_pressed():
@@ -220,7 +255,7 @@ def test_etic_turn_speaks_for_the_class_that_was_pressed():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="what about the Reformation", pressed={"later_age": True}, anachronistic_term_ids=set())
     assert result.routing_action == "etic_turn"
     assert result.voice_event is None
-    assert "after this world's own horizon" in result.facilitator_events[0]["text"]
+    assert "this world's own witnesses stop" in result.facilitator_events[0]["text"]
 
 
 def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():

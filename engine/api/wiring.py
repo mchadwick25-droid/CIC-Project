@@ -205,6 +205,7 @@ def handle_message(
             pressed=state.pressed,
             anachronistic_term_ids=term_ids,
             track_b_accumulator=state.safety.track_b_accumulator,
+            track_a_last=state.safety.track_a_last,
             already_told_ids=already_told_ids,
             history=history,
         )
