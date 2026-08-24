@@ -278,3 +278,27 @@ jobs:
       - run: python -m engine.m2.cli restore
       - run: python -m pytest engine/api/tests -q
 
+  docker-build:
+    # Added: engine/Dockerfile (PHASE-1-LAUNCH.md Stage 3 - "the container
+    # builds"). GitHub Actions runners carry a real Docker daemon; the
+    # sandbox this Dockerfile was originally written and verified in does
+    # not (no permission to start dockerd), so every individual step it
+    # performs was proven working in isolation - pip install, the M2
+    # restore + hash verification, the full test suite - but never
+    # `docker build` itself. This job is that missing check, gated on every
+    # push/PR from here on rather than left a one-time manual step.
+    #
+    # Deliberately build-only, not run-then-curl-/health: the running
+    # container only builds a real app when CIC_API_REGION is set
+    # (engine/api/app.py), which resolves model IDs via a live, credentialed
+    # Bedrock call at startup - exactly the "never a live AWS call in CI"
+    # line every other job here already holds. /health itself is already
+    # covered without Docker or AWS by engine/api/tests/test_app.py::
+    # test_health (TestClient + fake deps) - that is the right layer for
+    # HTTP behavior; this job's job is only "does the image assemble."
+    name: Docker build (engine/Dockerfile)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -f engine/Dockerfile -t cic-engine .
+
