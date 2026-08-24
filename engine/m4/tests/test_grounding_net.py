@@ -182,3 +182,51 @@ def test_a_counted_doctrine_is_still_a_figure():
     assert "number" in _claim_markers("He would read a passage three ways, for body, soul, and spirit.")
     assert "number" in _claim_markers("For the first three centuries of our window, persecution came in waves.")
     assert "number" in _claim_markers("The boy was seventeen when his father was killed.")
+
+
+def test_a_tagged_sentence_is_checked_even_with_no_claim_marker():
+    """The tag IS the claim. claim_markers only sees a proper noun, a number
+    or a repeated phrase; over 36 live turns that left 242 of 388 sentences
+    unexamined, 192 of them carrying a tag the net never verified."""
+    records = {"fix.term.agape": {"id": "fix.term.agape", "record_type": "term",
+                                  "plain_meaning": "the common meal the household ate together"}}
+    result = check_turn("We ate the common meal together [[fix.term.agape]].", records)
+    sentence = result["sentences"][0]
+    assert sentence["verdict"] == "ok"
+    assert sentence["why"] == "tagged claim, shares ground with its own records"
+
+
+def test_a_tag_sharing_no_word_with_its_record_is_withheld():
+    """Zero overlap is the one line here that is not a chosen number: a
+    citation to a record with which the sentence shares not one content word
+    asserts nothing. Seen live seven times, every one framing - "That is what
+    mattered most." tagged to hal.gravity.hebraica-veritas."""
+    records = {"fix.gravity.reading": {"id": "fix.gravity.reading", "record_type": "gravity",
+                                       "description": "how the household read scripture aloud together"}}
+    result = check_turn("That is what mattered most [[fix.gravity.reading]].", records)
+    sentence = result["sentences"][0]
+    assert sentence["verdict"] == "withhold"
+    assert "no content word" in sentence["why"]
+
+
+def test_the_tag_gate_does_not_use_the_withhold_floor():
+    """WITHHOLD_FLOOR was calibrated on name-and-number sentences, which sit
+    lexically close to their source. A long tagged sentence drawing one fact
+    from a record scores far below it and is still a real citation - applying
+    the floor here would strip roughly 29 legitimate ones to catch 10
+    over-tags."""
+    records = {"fix.term.agape": {"id": "fix.term.agape", "record_type": "term",
+                                  "plain_meaning": "the common meal"}}
+    long_one = ("We gathered in the evening after work was done and shared what little "
+                "each household could bring to the common table [[fix.term.agape]].")
+    sentence = check_turn(long_one, records)["sentences"][0]
+    assert sentence["verdict"] == "ok"          # one shared word is enough
+    assert "ratio" not in sentence              # and no ratio was computed
+
+
+def test_an_untagged_sentence_with_no_marker_is_still_never_checked():
+    """Unchanged, and deliberately: with no marker and no tag there is
+    nothing asserted to check against."""
+    sentence = check_turn("But it was never the whole of us.", {})["sentences"][0]
+    assert sentence["verdict"] == "ok"
+    assert sentence["why"] == "no checkable claim - interpretive/connective framing"
