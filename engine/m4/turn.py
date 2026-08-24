@@ -6,16 +6,15 @@ failure semantics, this module's own generation/grounding/crisis_resources)
 itself (engine.m4.store/events) - that's the caller's job, so this stays
 testable against a plain TurnResult rather than a database.
 
-Scope note: only two of the routing actions get full generation content
-here - voice_with_directive/voice_pass_through (the ordinary answer path)
-and safety_turn for signal=ACUTE_DISTRESS (the crisis-relevant path, since
-"crisis append asserted including the empty-stream case" is the literal
-stage-5 gate item this module exists to prove). Track B's own safety_turn
-content (HARMFUL_DYNAMIC_SIGNAL), check_in_turn, system_nature_turn,
-bridge_turn, and etic_turn are real, tested routing outcomes (engine.m5.
-routing) whose Facilitator-authored turn CONTENT is not yet built - same
-NotImplementedError seam as engine.m3.generation.LiveModelAnswerer, not a
-gap hidden by this module.
+Scope note, rewritten 2026-08-24: all seven routing actions now have turn
+content. Four of them did not until this date - check_in_turn,
+system_nature_turn, bridge_turn, etic_turn and Track B's own safety_turn
+were real, tested routing outcomes that raised UnhandledRoutingAction
+rather than answering. Two of those four could not be reached by a live
+session at all; both were proven unreachable live, then wired. What the
+voice generates here is still only the ordinary answer path and the acute
+safety turn; the other five are the Facilitator's own words, owned by code
+in engine.m4.facilitator_turns and carrying that module's craft note.
 
 Stage 6 addition (M8): every real model call this module makes is
 attributed to the caller's session_id via engine.m8.usage.record_usage and
@@ -66,8 +65,15 @@ from engine.m8.usage import UsageRecord, record_usage
 
 
 class UnhandledRoutingAction(NotImplementedError):
-    """A real, tested routing outcome with no turn content wired up yet -
-    raised loudly and named, never silently passed through as if handled."""
+    """An eighth routing action, added to engine.m5.routing without a branch
+    here.
+
+    Unreachable as of 2026-08-24 - all seven actions the router can return
+    are handled below - and kept anyway, because the cost is one line and
+    the failure it guards is a silent fall-through: a new route quietly
+    returning a turn with no content rather than saying so. engine.api.
+    wiring re-raises it past its provider-failure catch so it surfaces as
+    what it is, a programming error, not a Bedrock outage."""
 
 
 @dataclass(frozen=True)

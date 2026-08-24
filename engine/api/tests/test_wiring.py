@@ -40,7 +40,6 @@ def test_ordinary_message_appends_events_in_order(store, usage_store, world_load
     )
 
     assert result.routing_action == "voice_with_directive"
-    assert result.unhandled_routing_gap is False
     assert result.voice["text"] == "We did not claim to have seen him ourselves."
     assert result.turn_no == 1
 
@@ -70,50 +69,37 @@ def test_safety_turn_appends_facilitator_turn_kind_safety(store, usage_store, wo
     assert types[-1] == "turn_committed"
 
 
-def test_unhandled_routing_action_degrades_gracefully_and_stays_usable(store, usage_store, world_loader, registry, monkeypatch):
-    """Every routing action the gate can take now has content behind it, so
-    this forces the seam rather than reaching it through a real route. The
-    net is still worth keeping: it is what stops a future action - or a bug
-    in one of the seven - reaching a participant as a 500."""
+def test_an_unhandled_routing_action_surfaces_as_itself(store, usage_store, world_loader, registry, monkeypatch):
+    """The graceful-degradation path this replaces existed because four
+    routing actions genuinely had no content. All seven do now, so it was
+    deleted along with the permanently-false unhandled_routing_gap field.
+
+    The guard stays, and must not be swallowed by the provider-failure
+    catch: an eighth routing action added without a branch is a programming
+    error, and reporting it to an operator as a Bedrock outage would send
+    them looking in the wrong place. Nothing commits - the turn never
+    happened."""
     from engine.m4.turn import UnhandledRoutingAction
 
     session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
     client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
 
     def _boom(**kwargs):
-        raise UnhandledRoutingAction("forced: a routing action with no content wired up")
+        raise UnhandledRoutingAction("forced: an eighth routing action with no branch")
 
     monkeypatch.setattr(wiring, "run_turn", _boom)
 
-    result = wiring.handle_message(
-        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
-        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
-        session_id=session_id, text="msg",
-    )
+    with pytest.raises(UnhandledRoutingAction):
+        wiring.handle_message(
+            store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+            voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+            session_id=session_id, text="msg",
+        )
 
-    assert result.unhandled_routing_gap is True
-    assert result.degraded is True
-    assert result.facilitator["kind"] == "threshold"
-    assert result.turn_no == 1
-
+    # The participant's message is committed before the turn runs, exactly
+    # as it is on a provider failure; no turn is committed on top of it.
     types = [e.event_type for e in store.read_events(session_id)]
-    assert types == ["session_started", "participant_message", "facilitator_turn", "turn_committed"]
-
-    # A second, ordinary message on the same session still works - turn
-    # numbering and state stayed consistent through the gap.
-    monkeypatch.undo()
-    client2 = FakeBedrockClient(
-        safety_response=safety_response("NO_SIGNAL"),
-        reader_response=reader_response(),
-        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
-    )
-    result2 = wiring.handle_message(
-        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
-        voice_client=client2, voice_model_id="m", safety_client=client2, safety_model_id="m",
-        session_id=session_id, text="who was Jesus",
-    )
-    assert result2.turn_no == 2
-    assert result2.unhandled_routing_gap is False
+    assert types == ["session_started", "participant_message"]
 
 
 def test_handle_message_unknown_session_raises(store, usage_store, world_loader, registry):

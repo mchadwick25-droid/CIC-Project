@@ -55,15 +55,15 @@ curl -s localhost:8000/health
 - **Plain JSON responses, not SSE.** `run_turn()` only ever returns
   fully-assembled text — there's no token-level delta transport in this
   codebase yet, so this doesn't fake one.
-- **`unhandled_routing_gap: true`** on a message response means the
-  Facilitator gate routed correctly but has no scripted content for that
-  branch yet (4 of 6 routing actions — everything except an acute-distress
-  safety turn and an ordinary voice turn). The turn still commits gracefully
-  (`200`, never `500`); your message was recorded.
-- **`gate_decision` events are thin.** `TurnResult` doesn't carry the reader
-  gate's full output, so only `route`/`degraded` are real; the rest are
-  honest placeholders. No `safety_state` events are written at all — nothing
-  in this codebase does today.
+- **The Facilitator's own turns are placeholder text.** All seven routing
+  actions have content, but `engine/m4/facilitator_turns.py` carries a craft
+  note saying so plainly: the strings are honest and minimal, and they are
+  not finished participant-facing text.
+- **Track B does not act on its accumulator.** `safety_state` events are
+  written from 2026-08-24 and the accumulator folds and survives resume, but
+  no threshold reads it — Track B still fires on a single
+  `HARMFUL_DYNAMIC_SIGNAL`, and the sealed safety call is still given an
+  empty window and an empty accumulator.
 - **This tool bypasses the registry's `built` vs `admitted`/`open`
   distinction** for testing purposes. It must never be treated as, or reused
   as, a participant-facing gate.

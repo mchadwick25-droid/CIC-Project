@@ -60,7 +60,6 @@ class MessageResponse(BaseModel):
     routing_action: str | None
     routing_reason: str
     degraded: bool
-    unhandled_routing_gap: bool
     facilitator: dict | None
     voice: dict | None
 
