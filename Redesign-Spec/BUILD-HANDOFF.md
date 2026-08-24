@@ -165,15 +165,42 @@ Three more, found while checking:
   model can be held constant across the provider move - change one variable
   at a time.
 
-And the fact that reframes the whole cutover: **`cic-poc` is not a dead
-prototype.** `cic-website/index.html:177` sets `LIVE_APP_URL` to
+**`cic-poc` is the deployed service, and it is being retired.**
+`cic-website/index.html:177` sets `LIVE_APP_URL` to
 `https://cic-poc.onrender.com`, which returned HTTP 200 when checked on
-2026-08-24, and `render.yaml` names it as the only deployed service. Its
-two CI jobs are the only thing checking that the live service still builds.
-The engine has no Dockerfile, no deploy config of its own and no frontend,
-so the sequence is: engine gets a container and a surface, `render.yaml`
-moves, the website link moves - and only then does `cic-poc` become
-deletable. That is a milestone, not a cleanup.
+2026-08-24, and `render.yaml` names it as the only deployed service.
+
+Mark's ruling the same day, and it removes a constraint this section was
+originally written around: **cic-poc is being retired along with the
+Anthropic Console API it calls, and the site is not in use, so downtime
+during the transfer is acceptable.** There is no cutover window to
+engineer and no need to keep the old service alive alongside the new one.
+
+What that changes and what it does not:
+
+- Its two CI jobs are gone (2026-08-24, see `.github/workflows/ci.yml`'s
+  own note). They guarded the prototype and were right to exist while it
+  was the product; nothing current lost coverage, because the views job
+  read cic-poc's OWN records copy rather than the `records/` tree the
+  engine compiles from.
+- **The directory is deliberately still here.** Its frontend is 48 files
+  and is the only participant-facing surface anywhere in this repository -
+  the engine has none at all. Salvage it on purpose rather than deleting it
+  and rediscovering the need. The backend (1,570 files) is the old engine
+  and is genuinely superseded.
+- Retiring the directory belongs in one move with the `render.yaml`
+  repoint and the surface build, made by whoever builds the replacement -
+  not as a tidy-up beforehand.
+
+One measured gap to close before retirement, since the new system replaces
+the old rather than joining it: **the old service runs `claude-sonnet-5`
+and every quality number above was measured on `sonnet-4-5`.** On raw model
+generation, participants would be handed an older model than they get
+today. The likely answer is that it does not matter - this system's
+advantage was never the model, it is the records and the net - but that is
+a hypothesis, and this project does not ship hypotheses as findings.
+`us.anthropic.claude-sonnet-5` is available on this account, so it is a
+config choice either way. One comparison run settles it.
 
 ## Previously: all seven worlds built; the M4 live-generation pipeline is implemented end-to-end
 
