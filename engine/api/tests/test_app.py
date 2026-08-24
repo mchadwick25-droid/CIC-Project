@@ -1,6 +1,7 @@
 """HTTP-shape tests for engine.api.app - TestClient against create_app()
 with fakes, never the real env-driven `app` instance (which stays None
 unless CIC_API_REGION is set - see app.py's own module docstring)."""
+import pytest
 from fastapi.testclient import TestClient
 
 from engine.api.app import create_app
@@ -68,7 +69,6 @@ def test_message_happy_path(store, usage_store, world_loader, registry):
     assert resp.status_code == 200
     body = resp.json()
     assert body["routing_action"] == "voice_with_directive"
-    assert body["unhandled_routing_gap"] is False
     assert body["voice"]["text"] == "We did not claim to have seen him ourselves."
 
 
@@ -91,28 +91,34 @@ def test_message_wrong_code_and_missing_session_are_identical_401(store, usage_s
     assert wrong_code_resp.json() == missing_session_resp.json() == {"detail": "invalid session"}
 
 
-def test_message_unhandled_routing_returns_200_not_500(store, usage_store, world_loader, registry, monkeypatch):
-    """All seven routing actions now have content, so the seam is forced
-    rather than reached. What is under test is the HTTP contract - a route
-    with nothing behind it must never reach a participant as a 500."""
+def test_an_unhandled_routing_action_is_not_reported_as_a_provider_failure(store, usage_store, world_loader, registry, monkeypatch):
+    """This used to assert a 200 with unhandled_routing_gap: true, because
+    four routing actions genuinely had no content and a participant meeting
+    one deserved a graceful turn rather than an error. All seven have
+    content now; that field is gone from the response schema with the state
+    it described.
+
+    What is left to protect is the operator's diagnosis. An eighth routing
+    action added without a branch must not come back as 502 provider-call-
+    failed, which would send someone hunting a Bedrock outage that is not
+    happening."""
     from engine.api import wiring
     from engine.m4.turn import UnhandledRoutingAction
 
     def _boom(**kwargs):
-        raise UnhandledRoutingAction("forced: a routing action with no content wired up")
+        raise UnhandledRoutingAction("forced: an eighth routing action with no branch")
 
     monkeypatch.setattr(wiring, "run_turn", _boom)
     client = FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
     created = http.post("/api/session", json={}).json()
 
-    resp = http.post(
-        f"/api/session/{created['session_id']}/message",
-        headers={"Authorization": f"Session {created['session_code']}"},
-        json={"text": "msg"},
-    )
-    assert resp.status_code == 200
-    assert resp.json()["unhandled_routing_gap"] is True
+    with pytest.raises(UnhandledRoutingAction):
+        http.post(
+            f"/api/session/{created['session_id']}/message",
+            headers={"Authorization": f"Session {created['session_code']}"},
+            json={"text": "msg"},
+        )
 
 
 def test_transcript_reflects_committed_turns(store, usage_store, world_loader, registry):

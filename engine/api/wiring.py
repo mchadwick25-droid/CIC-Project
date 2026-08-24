@@ -21,14 +21,6 @@ from engine.m5.anachronism import anachronistic_term_ids as compute_anachronisti
 from engine.m5.routing import PRESSABLE_CLASSES
 from engine.m8.log_store import UsageLogStore
 
-UNHANDLED_ROUTING_FACILITATOR_TEXT = (
-    "This kind of turn isn't wired up to generate a response yet in this test build "
-    "(the routing gate itself worked correctly - the Facilitator just has no scripted "
-    "content for this branch). Your message was recorded; try rephrasing, or see "
-    "engine/api/README.md for the known gap."
-)
-
-
 class UnknownWorldError(Exception):
     """world_key isn't in the registry (records/worlds.yaml)."""
 
@@ -49,7 +41,6 @@ class MessageResult:
     routing_action: str | None
     routing_reason: str
     degraded: bool
-    unhandled_routing_gap: bool
     facilitator: dict | None
     voice: dict | None
 
@@ -213,28 +204,24 @@ def handle_message(
             participant_message=text,
             pressed=state.pressed,
             anachronistic_term_ids=term_ids,
+            track_b_accumulator=state.safety.track_b_accumulator,
             already_told_ids=already_told_ids,
             history=history,
         )
-    except UnhandledRoutingAction as exc:
-        # A real, tested routing outcome with no generation content wired up
-        # yet (engine.m4.turn's own module docstring names which ones) -
-        # graceful, never a 500. The participant's message is already
-        # committed above; this still commits a turn so the conversation
-        # stays usable afterward.
-        facilitator_event = {"kind": "threshold", "text": UNHANDLED_ROUTING_FACILITATOR_TEXT, "unhandled_routing_gap": True}
-        events.validate("facilitator_turn", facilitator_event)
-        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=facilitator_event)
-        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
-        return MessageResult(
-            turn_no=turn_no,
-            routing_action=None,
-            routing_reason=str(exc),
-            degraded=True,
-            unhandled_routing_gap=True,
-            facilitator=facilitator_event,
-            voice=None,
-        )
+    except UnhandledRoutingAction:
+        # Deleted 2026-08-24, not weakened: this used to catch the raise and
+        # hand the participant a note about a test build, because four of
+        # the seven routing actions genuinely had no content. All seven have
+        # content now, so the state that text described cannot occur, and a
+        # graceful degradation path for an impossible state is just a
+        # permanently-false field in the public response schema.
+        #
+        # The raise in engine.m4.turn stays as the guard for an EIGHTH
+        # routing action someone adds without a branch. Re-raised here so it
+        # surfaces as itself - a programming error, a 500 - rather than
+        # being swallowed by the provider-failure catch below and reported
+        # to the operator as a Bedrock problem it is not.
+        raise
     except Exception as exc:
         # engine.m5.live_calls only catches anthropic.APIError/APITimeoutError
         # (confirmed by reading it directly) - a raw botocore/credential
@@ -268,6 +255,17 @@ def handle_message(
     # ask is a press. Appending it after the etic turn would be recording a
     # state the session had already used. Re-appending on a later first-ask
     # is harmless - the projection folds it to True either way.
+    # What the sealed safety call said, kept. Written straight after the
+    # gate decision it derives from, and only when something changed - most
+    # turns append nothing. This RECORDS ONLY: routing is untouched, the
+    # safety call's own input is untouched, and nothing reads the
+    # accumulator back except the next turn's own payload. The threshold
+    # that would act on it is a separate decision (engine.m5.
+    # safety_accumulation).
+    for safety_state in result.safety_state_events:
+        events.validate("safety_state", safety_state)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="safety_state", payload=safety_state)
+
     out_of_scope_class = (gate_payload.get("out_of_scope") or {}).get("class")
     if result.routing_action == "voice_with_directive" and out_of_scope_class in PRESSABLE_CLASSES:
         pressed_payload = {"class": out_of_scope_class}
@@ -296,7 +294,6 @@ def handle_message(
         routing_action=result.routing_action,
         routing_reason=result.routing_reason,
         degraded=result.degraded,
-        unhandled_routing_gap=False,
         facilitator=facilitator_payload,
         voice=voice_payload,
     )

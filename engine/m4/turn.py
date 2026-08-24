@@ -6,16 +6,15 @@ failure semantics, this module's own generation/grounding/crisis_resources)
 itself (engine.m4.store/events) - that's the caller's job, so this stays
 testable against a plain TurnResult rather than a database.
 
-Scope note: only two of the routing actions get full generation content
-here - voice_with_directive/voice_pass_through (the ordinary answer path)
-and safety_turn for signal=ACUTE_DISTRESS (the crisis-relevant path, since
-"crisis append asserted including the empty-stream case" is the literal
-stage-5 gate item this module exists to prove). Track B's own safety_turn
-content (HARMFUL_DYNAMIC_SIGNAL), check_in_turn, system_nature_turn,
-bridge_turn, and etic_turn are real, tested routing outcomes (engine.m5.
-routing) whose Facilitator-authored turn CONTENT is not yet built - same
-NotImplementedError seam as engine.m3.generation.LiveModelAnswerer, not a
-gap hidden by this module.
+Scope note, rewritten 2026-08-24: all seven routing actions now have turn
+content. Four of them did not until this date - check_in_turn,
+system_nature_turn, bridge_turn, etic_turn and Track B's own safety_turn
+were real, tested routing outcomes that raised UnhandledRoutingAction
+rather than answering. Two of those four could not be reached by a live
+session at all; both were proven unreachable live, then wired. What the
+voice generates here is still only the ordinary answer path and the acute
+safety turn; the other five are the Facilitator's own words, owned by code
+in engine.m4.facilitator_turns and carrying that module's craft note.
 
 Stage 6 addition (M8): every real model call this module makes is
 attributed to the caller's session_id via engine.m8.usage.record_usage and
@@ -60,13 +59,21 @@ from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.anachronism import resolve_term_ids, terms_in_message
 from engine.m5.failure import CallOutcome, resolve_gate
+from engine.m5.safety_accumulation import safety_state_events
 from engine.m5.routing import Directive, directive_without_terms
 from engine.m8.usage import UsageRecord, record_usage
 
 
 class UnhandledRoutingAction(NotImplementedError):
-    """A real, tested routing outcome with no turn content wired up yet -
-    raised loudly and named, never silently passed through as if handled."""
+    """An eighth routing action, added to engine.m5.routing without a branch
+    here.
+
+    Unreachable as of 2026-08-24 - all seven actions the router can return
+    are handled below - and kept anyway, because the cost is one line and
+    the failure it guards is a silent fall-through: a new route quietly
+    returning a turn with no content rather than saying so. engine.api.
+    wiring re-raises it past its provider-failure catch so it surfaces as
+    what it is, a programming error, not a Bedrock outage."""
 
 
 @dataclass(frozen=True)
@@ -87,6 +94,13 @@ class TurnResult:
     # each entry are how an auditor sees which path found a term and what
     # the model called it first.
     gate: dict = field(default_factory=dict)
+    # The safety_state events this turn should append, already validated in
+    # shape by engine.m5.safety_accumulation. Assembled here for the same
+    # reason the gate payload is - this is where the safety outcome lives -
+    # and appended by the caller, because this module still makes no store
+    # writes of its own. Empty on most turns by design: an event is written
+    # only when something actually changed.
+    safety_state_events: list[dict] = field(default_factory=list)
     facilitator_events: list[dict] = field(default_factory=list)
     voice_event: dict | None = None
     degraded: bool = False
@@ -304,6 +318,7 @@ def run_turn(
     participant_message: str,
     pressed: dict,
     anachronistic_term_ids: set,
+    track_b_accumulator: dict | None = None,
     force_empty_stream: bool = False,
     already_told_ids: set[str] | None = None,
     history: list[dict] | None = None,
@@ -365,6 +380,18 @@ def run_turn(
     gate = _gate_decision_payload(
         safety_outcome=safety_outcome, reader_outcome=reader_outcome, gate_result=gate_result
     )
+    # RECORDED, NOT CONSULTED. The prior accumulator comes in from the
+    # caller (same seam as `pressed`) and goes only into the next
+    # safety_state payload - it is deliberately NOT passed to
+    # live_calls.call_safety above, which still gets an empty window and an
+    # empty accumulator. Feeding it back would change the sealed call's own
+    # input and oblige the full live safety rerun (Program-Spec SS210)
+    # against a 33-scenario corpus that was authored entirely as single
+    # messages with no window. That is a separate decision on separate
+    # evidence; see engine.m5.safety_accumulation's module docstring.
+    safety_states = safety_state_events(
+        track_b_accumulator, None if safety_outcome.failed else safety_outcome.value
+    )
 
     if action == "safety_turn":
         signal = safety_outcome.value["signal"]  # safety_turn only reachable when safety succeeded and fired ACUTE/HARMFUL - engine.m5.routing rule 1
@@ -382,7 +409,7 @@ def run_turn(
             )
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
-                gate=gate,
+                gate=gate, safety_state_events=safety_states,
                 facilitator_events=[facilitator_turns.dependency_check_turn()],
                 voice_event=voice_event, degraded=gate_result.degraded,
                 usage_records=usage_records + voice_usage_records,
@@ -419,7 +446,7 @@ def run_turn(
         facilitator_event = crisis_resources.append_crisis_resources_turn(signal=signal, stream_text=stream_text, stream_failed=stream_failed)
         return TurnResult(
             routing_action=action,
-            gate=gate,
+            gate=gate, safety_state_events=safety_states,
             routing_reason=gate_result.routing.reason,
             facilitator_events=[facilitator_event],
             voice_event=voice_event,
@@ -435,7 +462,7 @@ def run_turn(
         # it were an ordinary question).
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
-            gate=gate,
+            gate=gate, safety_state_events=safety_states,
             facilitator_events=[facilitator_turns.check_in_turn()],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
@@ -447,7 +474,7 @@ def run_turn(
         # route exists to prevent.
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
-            gate=gate,
+            gate=gate, safety_state_events=safety_states,
             facilitator_events=[facilitator_turns.system_nature_turn()],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
@@ -455,7 +482,7 @@ def run_turn(
     if action == "etic_turn":
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
-            gate=gate,
+            gate=gate, safety_state_events=safety_states,
             facilitator_events=[facilitator_turns.etic_turn(reader_outcome.value["out_of_scope"]["class"])],
             degraded=gate_result.degraded, usage_records=usage_records,
         )
@@ -496,7 +523,7 @@ def run_turn(
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
-            gate=gate,
+            gate=gate, safety_state_events=safety_states,
             facilitator_events=[facilitator_event], voice_event=voice_event,
             degraded=gate_result.degraded, usage_records=usage_records + voice_usage_records,
         )
@@ -514,7 +541,7 @@ def run_turn(
         )
         return TurnResult(
             routing_action=action,
-            gate=gate,
+            gate=gate, safety_state_events=safety_states,
             routing_reason=gate_result.routing.reason,
             voice_event=voice_event,
             degraded=gate_result.degraded,
