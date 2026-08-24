@@ -28,7 +28,6 @@ import re
 from engine.prose import (
     SCAFFOLD_MARKERS,
     SELF_NAMING_MARKER,
-    SPELLED_NUMBERS,
     WITHHOLD_FLOOR,
     all_text,
     claim_markers,

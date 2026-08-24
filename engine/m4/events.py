@@ -35,10 +35,6 @@ class EventValidationError(ValueError):
     pass
 
 
-def known_event_types() -> set[str]:
-    return set(REQUIRED_KEYS)
-
-
 def validate(event_type: str, payload: dict) -> None:
     if event_type.startswith("guidance_"):
         # reserved; no live guidance exists under principle 2 (spec SS3 catalog note) -

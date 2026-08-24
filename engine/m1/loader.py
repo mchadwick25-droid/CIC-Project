@@ -3,7 +3,6 @@ record = one file: YAML front matter between `---` fences + a free markdown
 body. The body is provenance/build notes only - never read by any builder or
 gate, so it is kept but excluded from validation.
 """
-import copy
 from pathlib import Path
 
 import yaml
@@ -55,15 +54,3 @@ def load_world_records(world_key: str, records_root: Path = RECORDS_ROOT) -> dic
 def load_fleet_records(records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
     return load_world_records("_fleet", records_root=records_root)
 
-
-def load_all(world_key: str, records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
-    """World records + fleet records, merged into one id-keyed dict (fleet
-    ids are namespaced `_fleet.*` so collisions with a world's own ids are
-    not possible by construction)."""
-    merged = load_world_records(world_key, records_root=records_root)
-    merged.update(load_fleet_records(records_root=records_root))
-    return merged
-
-
-def deep_copy_records(records: dict[str, dict]) -> dict[str, dict]:
-    return copy.deepcopy(records)
