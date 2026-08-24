@@ -410,7 +410,7 @@ def run_turn(
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
                 gate=gate, safety_state_events=safety_states,
-                facilitator_events=[facilitator_turns.dependency_check_turn()],
+                facilitator_events=[facilitator_turns.dependency_check_turn(world.frame["representative"]["name"])],
                 voice_event=voice_event, degraded=gate_result.degraded,
                 usage_records=usage_records + voice_usage_records,
             )
@@ -443,7 +443,10 @@ def run_turn(
                 if stream_text.strip():
                     voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}}
 
-        facilitator_event = crisis_resources.append_crisis_resources_turn(signal=signal, stream_text=stream_text, stream_failed=stream_failed)
+        facilitator_event = crisis_resources.append_crisis_resources_turn(
+            signal=signal, stream_text=stream_text, stream_failed=stream_failed,
+            representative_name=world.frame["representative"]["name"],
+        )
         return TurnResult(
             routing_action=action,
             gate=gate, safety_state_events=safety_states,

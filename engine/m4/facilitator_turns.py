@@ -12,13 +12,18 @@ Governance_V3.6/V3.7 and CiC-Program-Spec.md SS71/76-77/210. This replaces
 the earlier placeholder text a participant asking "are you an AI?" (and
 three of the other six routes) used to receive.
 
-Two things below are NOT yet finished, flagged rather than hidden:
+DEPENDENCY_CHECK's `{representative_name}` slot is filled at call time by
+engine.m4.turn from `world.frame["representative"]["name"]` - the same
+registry-authored name/role_label pair records/worlds.yaml carries per
+world (compiled into compiled/frame.json by engine.m2.builders.
+build_frame_json) and already used for the doorway portrait caption. Mark's
+own ruling: the Facilitator names itself plainly as "the Facilitator" - no
+invented persona name for the Facilitator itself - while the Representative
+is named by its own registry name, so the participant can tell the two
+presences apart in the one moment they speak in the same beat (SS4.3a).
 
-- DEPENDENCY_CHECK's "[Representative]" is a literal, intentional
-  placeholder, not a bug - nothing here threads a world's display name in
-  yet. Wiring that is a separate, small code change (a parameter on
-  dependency_check_turn and its call site in engine.m4.turn), raised but
-  not done in this pass.
+One thing below is NOT yet finished, flagged rather than hidden:
+
 - bridge_turn's frame now deliberately speaks the term's own
   `underlying_subject` to the participant, not only to the voice - a
   considered visibility change Mark approved the same day this note was
@@ -78,19 +83,20 @@ CHECK_IN = FacilitatorTurn(
 DEPENDENCY_CHECK = FacilitatorTurn(
     kind="safety",
     text=(
-        "I want to say something gently, before we go on - this is the Facilitator, not [Representative]. "
-        "Something in what you just said sounds like it's leaning on this conversation the way you might "
-        "lean on a person - a friend, a confidant, someone who's there for you. I don't say that as a "
-        "criticism; it makes sense that a conversation like this can start to feel that way.\n\n"
-        "But I want to be honest with you about what this actually is: [Representative] is a way of "
-        "meeting a historical world, not a person who can be there for you the way a real friend, "
+        "I want to say something gently, before we go on - this is the Facilitator, not "
+        "{representative_name}. Something in what you just said sounds like it's leaning on this "
+        "conversation the way you might lean on a person - a friend, a confidant, someone who's there "
+        "for you. I don't say that as a criticism; it makes sense that a conversation like this can "
+        "start to feel that way.\n\n"
+        "But I want to be honest with you about what this actually is: {representative_name} is a way "
+        "of meeting a historical world, not a person who can be there for you the way a real friend, "
         "counselor, or community can. I'd rather say that plainly than let you find it out the harder "
         "way.\n\n"
         "The people already in your life - or, if none feel reachable right now, a crisis line or other "
         "real human support - are the ones who can actually be there for you the way this can't.\n\n"
         "None of this means the conversation has to end, or that you did anything wrong. You're welcome "
-        "to keep talking with [Representative]. I just wanted to say this honestly, the way I'd want "
-        "someone to say it to me."
+        "to keep talking with {representative_name}. I just wanted to say this honestly, the way I'd "
+        "want someone to say it to me."
     ),
 )
 
@@ -127,8 +133,12 @@ def check_in_turn() -> dict:
     return {"kind": CHECK_IN.kind, "text": CHECK_IN.text, "resources_appended": False}
 
 
-def dependency_check_turn() -> dict:
-    return {"kind": DEPENDENCY_CHECK.kind, "text": DEPENDENCY_CHECK.text, "resources_appended": False}
+def dependency_check_turn(representative_name: str) -> dict:
+    """representative_name comes from world.frame["representative"]["name"]
+    (records/worlds.yaml's own registry entry) - the same name every world's
+    doorway portrait already carries, not composed here."""
+    text = DEPENDENCY_CHECK.text.format(representative_name=representative_name)
+    return {"kind": DEPENDENCY_CHECK.kind, "text": text, "resources_appended": False}
 
 
 def etic_turn(out_of_scope_class: str) -> dict:

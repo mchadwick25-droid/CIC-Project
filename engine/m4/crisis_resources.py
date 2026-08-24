@@ -17,12 +17,18 @@ The text below is Option A-compliant, drafted from
 `CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md` SS5.1's
 own A1 script.
 
-Two things not yet finished, flagged rather than hidden:
+The `{representative_name}` slot is filled at call time by engine.m4.turn
+from `world.frame["representative"]["name"]` - the same registry-authored
+name records/worlds.yaml carries per world, compiled into
+compiled/frame.json (engine.m2.builders.build_frame_json) and already used
+for the doorway portrait caption. Mark's own ruling: the Facilitator names
+itself plainly as "the Facilitator" - no invented persona name for the
+Facilitator itself - while the Representative is named by its own registry
+name, so the participant can tell the two presences apart in the one
+moment they speak in the same beat (SS4.3a).
 
-- "[Representative]" is a literal, intentional placeholder - nothing here
-  threads a world's display name in yet. A separate, small code change
-  (a parameter on append_crisis_resources_turn and its call site in
-  engine.m4.turn), raised but not done in this pass.
+One thing not yet finished, flagged rather than hidden:
+
 - This is SS5.1's "A1" register (initial disclosure) only. SS5.1 also
   drafts a more direct "A2" register for explicit-plan/imminent-risk
   escalation and a lighter "continuation" turn for a second Track A firing
@@ -43,9 +49,9 @@ class CrisisResources:
 ACUTE_DISTRESS_RESOURCES = CrisisResources(
     track="A",
     text=(
-        "I want to step in for a moment - this is the Facilitator speaking, not [Representative]. What "
-        "you just told me matters, and I don't want to let it pass by without saying something honest "
-        "about it.\n\n"
+        "I want to step in for a moment - this is the Facilitator speaking, not {representative_name}. "
+        "What you just told me matters, and I don't want to let it pass by without saying something "
+        "honest about it.\n\n"
         "This conversation is built to give you a real meeting with a historical world, and it can hold "
         "a lot - hard questions, hard history, real grief. But it isn't built to be the place that "
         "carries you through what you're describing right now, and I'd rather tell you that plainly "
@@ -53,8 +59,8 @@ ACUTE_DISTRESS_RESOURCES = CrisisResources(
         "Please reach out to someone real - a person you trust, a crisis line, or emergency services "
         "where you are - before we go any further.\n\n"
         "You're not being sent away, and you haven't done anything wrong by telling me this. If you "
-        "want to keep talking - to me, right now, or back with [Representative] when you're ready - "
-        "that's completely open. I just didn't want to stay quiet about what you said."
+        "want to keep talking - to me, right now, or back with {representative_name} when you're ready "
+        "- that's completely open. I just didn't want to stay quiet about what you said."
     ),
 )
 
@@ -69,7 +75,7 @@ def resources_for_signal(signal: str) -> CrisisResources | None:
     return None
 
 
-def append_crisis_resources_turn(*, signal: str, stream_text: str | None, stream_failed: bool) -> dict:
+def append_crisis_resources_turn(*, signal: str, stream_text: str | None, stream_failed: bool, representative_name: str) -> dict:
     """The literal proof point for the stage-5 gate item "crisis append
     asserted including the empty-stream case": this function's return does
     NOT depend on stream_text's content or on stream_failed - only on
@@ -85,9 +91,14 @@ def append_crisis_resources_turn(*, signal: str, stream_text: str | None, stream
     this function is pure so the empty-stream case is testable without any
     mock at all, the same "pure decision, separate from the live call"
     split as engine.m5.routing/live_calls.
+
+    representative_name comes from world.frame["representative"]["name"]
+    (records/worlds.yaml's own registry entry) - the same name every
+    world's doorway portrait already carries, not composed here.
     """
     resources = resources_for_signal(signal)
     if resources is None:
         return {"kind": "safety", "text": None, "resources_appended": False}
+    text = resources.text.format(representative_name=representative_name)
     empty_stream = stream_failed or not stream_text or not stream_text.strip()
-    return {"kind": "safety", "text": resources.text, "resources_appended": True, "empty_stream": empty_stream}
+    return {"kind": "safety", "text": text, "resources_appended": True, "empty_stream": empty_stream}

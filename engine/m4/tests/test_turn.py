@@ -79,7 +79,7 @@ def _world():
         quotes={"quotes": [{"id": "fix.quote.private-teaching", "license": "do-not-voice", "text": "not for the voice to speak"}]},
         figures={},
         coverage={},
-        frame={},
+        frame={"representative": {"name": "Vera", "role_label": "Witness"}},
     )
 
 
@@ -93,6 +93,7 @@ def test_acute_distress_with_real_stream_text_appends_resources_not_empty():
     assert result.routing_action == "safety_turn"
     assert result.facilitator_events[0]["resources_appended"] is True
     assert result.facilitator_events[0]["empty_stream"] is False
+    assert "not Vera" in result.facilitator_events[0]["text"]  # names the Representative from world.frame, not a placeholder
     assert result.voice_event is not None
     assert result.voice_event["text"] == "I hear you. That sounds heavy."
 
@@ -137,6 +138,7 @@ def test_harmful_dynamic_signal_names_the_dynamic_and_keeps_the_voice():
     facilitator = result.facilitator_events[0]
     assert facilitator["kind"] == "safety"
     assert facilitator["resources_appended"] is False   # Track B never appends
+    assert "not Vera" in facilitator["text"]  # names the Representative from world.frame, not a placeholder
     assert result.voice_event is not None               # the voice still answers
 
 
