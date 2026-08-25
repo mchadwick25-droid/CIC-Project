@@ -24,9 +24,10 @@ interface InlineBridgeProps {
   level2: React.ReactNode;
   level3Title: string;
   level3: React.ReactNode;
+  ariaLabel?: string;
 }
 
-export function InlineBridge({ label, markClassName, level2, level3Title, level3 }: InlineBridgeProps) {
+export function InlineBridge({ label, markClassName, level2, level3Title, level3, ariaLabel }: InlineBridgeProps) {
   const isPhone = useIsPhone();
   const [open, setOpen] = useState<OpenState>('closed');
   const [anchor, setAnchor] = useState<DOMRect | null>(null);
@@ -70,7 +71,7 @@ export function InlineBridge({ label, markClassName, level2, level3Title, level3
 
   return (
     <span className="inline-bridge" ref={wrapperRef}>
-      <button type="button" className={markClassName} onClick={handleClick} ref={markRef} {...deskHandlers}>
+      <button type="button" className={markClassName} onClick={handleClick} ref={markRef} aria-label={ariaLabel} {...deskHandlers}>
         {label}
       </button>
       {open === 'level2' && anchor && (

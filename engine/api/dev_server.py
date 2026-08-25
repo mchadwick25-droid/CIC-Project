@@ -33,8 +33,8 @@ _MOCK_REPLY = (
 )
 
 _MOCK_REPLY_WITH_FIGURE = (
-    "Origen taught us to read Scripture at more than one level, the plain sense and the deeper "
-    "ones [[alx.term.allegoria]]. He was not the only one who read this way, but no one argued it "
+    "Origen taught us to read through allegoria, the plain sense and the deeper ones together "
+    "[[alx.term.allegoria]]. He was not the only one who read this way, but no one argued it "
     "so far."
 )
 

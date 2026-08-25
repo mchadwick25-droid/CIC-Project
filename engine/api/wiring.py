@@ -197,6 +197,15 @@ def handle_message(
         for turn in state.transcript
         for figure in (turn.get("figures_used") or [])
     }
+    # Same shape again, for engine.m4.term_glosses.find_glosses_used: term
+    # ids a prior turn this session already glossed, read from that turn's
+    # own glosses (a required voice_turn key since the event catalog was
+    # written; this is the first thing that ever populates it).
+    already_bridged_gloss_ids = {
+        gloss["id"]
+        for turn in state.transcript
+        for gloss in (turn.get("glosses") or [])
+    }
     history = history_from_transcript(state.transcript)
 
     term_ids = compute_anachronistic_term_ids(load_fleet_records(), world.frame["time_window"])
@@ -217,6 +226,7 @@ def handle_message(
             track_a_last=state.safety.track_a_last,
             already_told_ids=already_told_ids,
             already_bridged_figure_ids=already_bridged_figure_ids,
+            already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
         )
     except UnhandledRoutingAction:

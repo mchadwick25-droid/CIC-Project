@@ -432,8 +432,15 @@ button {
   margin-bottom: 0;
 }
 
+/* Part of the same transparency apparatus as the name/figure bridge and
+   the term gloss (Full UX Design §5.7 groups "inline citations (the ✲
+   marker)" with the lexicon grammar as one apparatus) - Tyrian, same as
+   .name-bridge-mark, via InlineBridge. Rendered as a small trailing glyph
+   rather than underlined running text, since it marks a whole sentence,
+   not a word. */
 .citation-mark {
-  color: var(--color-representative);
+  position: relative;
+  color: var(--color-tyrian);
   opacity: 0.9;
   cursor: pointer;
   font-size: 0.85em;
@@ -441,13 +448,6 @@ button {
   background: none;
   padding: 0 0 0 0.15em;
   font-family: inherit;
-}
-
-.turn__sources {
-  margin-top: 4px;
-  padding-top: 4px;
-  border-top: 1px dashed var(--color-border);
-  font-family: var(--font-family-ui);
 }
 
 .turn__sources-card + .turn__sources-card {
@@ -490,11 +490,11 @@ button {
 
 /* ============================================================
    The transparency apparatus - Tyrian, per CiC_Full_UX_Design_V1_0.md
-   §2.1/§2.4: dotted-underline first-occurrence marks, a short Level-2
+   §2.1/§2.4: plain colored text or a small glyph mark, a short Level-2
    card on hover (desktop) / tap (phone), a full Level-3 panel (desktop
    side panel) / bottom sheet (phone) on click / tap-through. Shared by
-   InlineBridge for every application of this one grammar - today the
-   name/figure bridge, the lexicon gloss when built reuses it unchanged.
+   InlineBridge across all three tracks - the name/figure bridge, the
+   term gloss, and the citation marker - one grammar, not three.
    ============================================================ */
 .inline-bridge {
   position: relative;
@@ -519,7 +519,8 @@ button {
    every interactive inline element") - an invisible absolutely-positioned
    sibling box, sized off the mark's own position:relative, rather than
    real padding (which would force gaps into the running prose). */
-.name-bridge-mark::after {
+.name-bridge-mark::after,
+.citation-mark::after {
   content: '';
   position: absolute;
   inset: -12px;
@@ -671,6 +672,17 @@ button {
 .level3__dates {
   color: var(--color-text-muted);
   font-size: 0.85rem;
+}
+
+.level3__false-friend {
+  margin: 0;
+  padding-left: 1.1em;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.level3__false-friend li {
+  margin-bottom: 4px;
 }
 
 .conversation__composer {

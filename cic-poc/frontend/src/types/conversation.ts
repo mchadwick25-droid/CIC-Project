@@ -49,6 +49,21 @@ export interface FigureUsed {
   sourced_by: SourceReference[];
 }
 
+// engine/m4/term_glosses.py's find_glosses_used - one entry per term
+// record the voice both cited AND actually said (its world_word's head
+// form) in that same sentence. Anchored to citations rather than
+// independent word-matching, so this can't fire on a term the voice
+// didn't itself choose to cite - see that module's own docstring.
+export interface GlossUsed {
+  id: string;
+  matched_name: string;
+  plain_meaning: string | null;
+  quick_meaning: string | null;
+  translational_sense: string | null;
+  false_friend: string[];
+  sourced_by: SourceReference[];
+}
+
 export interface FacilitatorTurn {
   kind: 'door' | 'threshold' | 'safety' | 'bridge' | 'close';
   text: string;
@@ -58,7 +73,7 @@ export interface VoiceTurn {
   speaker: string; // the world_key, e.g. "alx"
   text: string;
   citations: Citation[];
-  glosses: unknown[]; // declared by the event catalog, not populated by any code path yet
+  glosses: GlossUsed[];
   figures_used: FigureUsed[];
   quote_offers: unknown[];
   attempts_meta: Record<string, unknown>;

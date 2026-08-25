@@ -55,6 +55,7 @@ export interface ConversationTurn {
   kind?: FacilitatorTurn['kind'];
   citations?: VoiceTurn['citations'];
   figuresUsed?: VoiceTurn['figures_used'];
+  glosses?: VoiceTurn['glosses'];
 }
 
 // `entry.speaker === 'participant'` alone can't discriminate this union -
@@ -65,7 +66,7 @@ export interface ConversationTurn {
 function toTurn(entry: TranscriptEntry): ConversationTurn {
   if ('kind' in entry) return { speaker: 'facilitator', text: entry.text, kind: entry.kind };
   if ('citations' in entry) {
-    return { speaker: entry.speaker, text: entry.text, citations: entry.citations, figuresUsed: entry.figures_used };
+    return { speaker: entry.speaker, text: entry.text, citations: entry.citations, figuresUsed: entry.figures_used, glosses: entry.glosses };
   }
   return { speaker: 'participant', text: entry.text };
 }
@@ -126,6 +127,7 @@ export function useConversation() {
               text: result.voice.text,
               citations: result.voice.citations,
               figuresUsed: result.voice.figures_used,
+              glosses: result.voice.glosses,
             });
           }
           const closed = result.facilitator?.kind === 'close' || prev.closed;

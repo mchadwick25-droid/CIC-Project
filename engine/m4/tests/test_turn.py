@@ -708,3 +708,64 @@ def test_crisis_path_voice_event_still_carries_the_required_figures_used_key():
 
     events.validate("voice_turn", result.voice_event)
     assert result.voice_event["figures_used"] == []
+
+
+def _world_with_term():
+    """_world() with one real-shaped term record added to the repository -
+    the {plain_meaning, world_word, senses, false_friend, sources} shape
+    Artifact-1's own schema defines, so these tests exercise
+    engine.m4.term_glosses against the real thing, not a synthetic guess."""
+    from dataclasses import replace
+
+    return replace(
+        _world(),
+        repository={
+            "records": [
+                {"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."},
+                {
+                    "id": "fix.term.koinonia",
+                    "record_type": "term",
+                    "world_word": "koinonia (shared life)",
+                    "plain_meaning": "The shared life and goods of the gathered community.",
+                    "quick_meaning": "Life held in common.",
+                    "senses": {"translational": "\"Was it just a potluck?\" - no: koinonia bound property, meals, and care together."},
+                    "false_friend": ["a modern support group"],
+                    "sources": [{"source_id": "fix.source.witness-scroll", "locus": "2.1", "license": "public-domain"}],
+                },
+            ]
+        },
+    )
+
+
+def test_glosses_is_populated_when_a_cited_term_is_actually_said():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We held koinonia, sharing what we had [[fix.term.koinonia]]."],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_term(), participant_message="how did you live", pressed={}, anachronistic_term_ids=set(),
+    )
+    from engine.m4 import events
+
+    events.validate("voice_turn", result.voice_event)
+    glosses = result.voice_event["glosses"]
+    assert [g["id"] for g in glosses] == ["fix.term.koinonia"]
+    assert glosses[0]["matched_name"] == "koinonia"
+    assert glosses[0]["plain_meaning"].startswith("The shared life")
+    assert glosses[0]["sourced_by"][0]["source_id"] == "fix.source.witness-scroll"
+
+
+def test_already_bridged_gloss_ids_suppresses_a_repeat_within_run_turn():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We held koinonia again [[fix.term.koinonia]]."],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_term(), participant_message="how did you live", pressed={}, anachronistic_term_ids=set(),
+        already_bridged_gloss_ids={"fix.term.koinonia"},
+    )
+    assert result.voice_event["glosses"] == []

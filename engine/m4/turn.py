@@ -57,6 +57,7 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used
+from engine.m4.term_glosses import find_glosses_used
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.anachronism import resolve_term_ids, terms_in_message
@@ -242,6 +243,7 @@ def _run_ordinary_voice_turn(
     session_id: str,
     already_told_ids: set[str] | None = None,
     already_bridged_figure_ids: set[str] | None = None,
+    already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     usage_records = []
@@ -296,6 +298,13 @@ def _run_ordinary_voice_turn(
     figures_used = find_figures_used(answer_text, world.figures.get("figures") or [], already_bridged_ids=already_bridged_figure_ids)
     figures_used = attach_cited_sources(figures_used, citations)
 
+    # TERM/CONCEPT GLOSSES (VR_1A's other track; the original live-site
+    # complaint this whole audit started from). Anchored to citations, not
+    # independent word-matching - see engine.m4.term_glosses' own module
+    # docstring for why that can't reproduce the old system's lecturing
+    # failure.
+    glosses = find_glosses_used(citations, repository_records, already_bridged_ids=already_bridged_gloss_ids)
+
     # No code-appended floor line. Program-Spec M5: "In-world thinness is
     # never intercepted - the honest limit is the voice's own testimony,
     # not a system apology." It fired on 7 of the turns measured today and
@@ -311,7 +320,7 @@ def _run_ordinary_voice_turn(
         "speaker": world.world_key,
         "text": answer_text,
         "citations": citations,
-        "glosses": [],
+        "glosses": glosses,
         "figures_used": figures_used,
         "quote_offers": [],
         "attempts_meta": {"empty_stream_retries": 0},
@@ -341,6 +350,7 @@ def run_turn(
     force_empty_stream: bool = False,
     already_told_ids: set[str] | None = None,
     already_bridged_figure_ids: set[str] | None = None,
+    already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
 ) -> TurnResult:
     """force_empty_stream is a TEST/EVIDENCE HOOK ONLY - it lets the empty-
@@ -371,6 +381,12 @@ def run_turn(
     omitting it just means every matching figure fires every time it's
     named, which is safe (a bridge firing twice loses nothing) but noisier
     than intended.
+
+    already_bridged_gloss_ids is the same shape again, for
+    engine.m4.term_glosses.find_glosses_used: term record ids this
+    session's transcript already shows glossed. Same first-occurrence
+    grammar, same caller-supplied/optional contract, same consequence of
+    omitting it.
 
     track_a_last mirrors track_b_accumulator's own shape - the caller's
     SessionState.safety.track_a_last (None until Track A has fired once
@@ -444,7 +460,8 @@ def run_turn(
                 voice_client=voice_client, voice_model_id=voice_model_id, world=world,
                 participant_message=participant_message, directive=gate_result.routing.directive,
                 session_id=session_id, already_told_ids=already_told_ids,
-                already_bridged_figure_ids=already_bridged_figure_ids, history=history,
+                already_bridged_figure_ids=already_bridged_figure_ids,
+                already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
             )
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
@@ -564,7 +581,8 @@ def run_turn(
             voice_client=voice_client, voice_model_id=voice_model_id, world=world,
             participant_message=underlying_subject, directive=bridge_directive,
             session_id=session_id, already_told_ids=already_told_ids,
-            already_bridged_figure_ids=already_bridged_figure_ids, history=history,
+            already_bridged_figure_ids=already_bridged_figure_ids,
+            already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
@@ -583,6 +601,7 @@ def run_turn(
             session_id=session_id,
             already_told_ids=already_told_ids,
             already_bridged_figure_ids=already_bridged_figure_ids,
+            already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
         )
         return TurnResult(
