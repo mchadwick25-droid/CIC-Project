@@ -409,21 +409,33 @@ UI quirk, not a real problem; chased once, confirmed cosmetic, left alone.
 
 ---
 
-## Stage 6 - Move the link, retire the old  *(Mark's call to fire)*
+## Stage 6 - Move the link, retire the old  *(Mark's call to fire)*  -  **DONE 2026-08-25**
 
-`cic-website/index.html:177` and `atlas-v3.html:570` both hardcode
+~~`cic-website/index.html:177` and `atlas-v3.html:570` both hardcode
 `LIVE_APP_URL = 'https://cic-poc.onrender.com'`. Point them at the new
-service.
+service.~~ **DONE** - PR #54. Both now point at `cic-engine`; the site's own
+`?worlds=<census_id>` deep links (`records/worlds.yaml`'s own `census_id`
+field, same one `cic-website/data/world-census.json` uses) now land a
+visitor straight on that world's doorway rather than the world list, so
+"Launch an Interview with Theon" still does exactly that. A known,
+flagged-not-fixed cost: `atlas-v3.html`'s multi-select "table" tray can
+still send several ids at once; the new engine seats one world per session
+(spec O9), so only the first now survives - that tray affordance is
+quietly stale, not redesigned by this stage.
 
 Mark's ruling, 2026-08-24: **the site is not in use, so downtime during the
 transfer is acceptable.** There is no cutover window to engineer.
 
 Only after the link moves and the new service is answering does `cic-poc`
 become deletable - 1,628 files, 18.6 MB. Keep whatever the new surface
-actually inherited from `cic-poc/frontend`.
+actually inherited from `cic-poc/frontend`. **Not done yet, deliberately**:
+`cic-poc`'s Render service is SUSPENDED (2026-08-25, Mark, dashboard), not
+deleted - suspending was the ask this gate actually needed (stop the
+Anthropic API calls), and deletion is its own later decision, still open.
 
-> **GATE 6** - churchinconversation.com reaches the new system, and the
-> Anthropic Console API is no longer called by anything deployed.
+> **GATE 6 - MET 2026-08-25.** churchinconversation.com's links reach
+> `cic-engine` (PR #54), and `cic-poc` is suspended in the Render dashboard
+> - no deployed service can call the Anthropic Console API anymore.
 
 ---
 
