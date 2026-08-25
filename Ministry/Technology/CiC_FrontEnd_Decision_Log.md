@@ -234,42 +234,35 @@ recompiled to carry `horizon`; determinism and staleness both green; 349 backend
 pass; verified live in a browser against the no-spend dev server (world list, doorway,
 deep link, and full conversation flow all screenshotted and working).
 
-### Item 2 (Facilitator greeting) — DRAFTED, awaiting Mark's pick
+### Item 2 (Facilitator greeting) — DONE, built and pushed
 
-The conversation screen still opens with no introduction — confirmed still true, and
-still exactly the gap Mark named ("no introduction, do greeting"). `facilitator_turn`'s
-`"door"` kind has been declared in the event schema since early in this build but is
-still never emitted anywhere in the codebase (confirmed by direct grep, not memory).
+The conversation screen opened with no introduction — confirmed still true, and exactly
+the gap Mark named ("no introduction, do greeting"). `facilitator_turn`'s `"door"` kind
+had been declared in the event schema since early in this build but was never emitted
+anywhere in the codebase (confirmed by direct grep, not memory).
 
-Two drafts, same discipline SYSTEM_NATURE/CHECK_IN/DEPENDENCY_CHECK went through
-(`engine/m4/facilitator_turns.py`) — plain, honest, no invented warmth the system hasn't
-earned, and keeping the SS4.3a convention that the Facilitator names itself plainly while
-the Representative is named by its own registry name:
+Two drafts were prepared, same discipline SYSTEM_NATURE/CHECK_IN/DEPENDENCY_CHECK went
+through (`engine/m4/facilitator_turns.py`) — plain, honest, no invented warmth the system
+hasn't earned, keeping the SS4.3a convention that the Facilitator names itself plainly
+while the Representative is named by its own registry name. **Mark picked Option A**
+("Welcome — I'm the Facilitator. I don't belong to any world; I'm just here to keep this
+space honest. You're about to speak with {representative_name}, {role_label} of
+{display_name}. Ask anything you like — {representative_name} answers only from what's
+actually known of this world, and will tell you plainly when the record runs out.") —
+Option B (the fuller "door metaphor" draft) was not carried into code.
 
-- **Option A (short handoff):** "Welcome — I'm the Facilitator. I don't belong to any
-  world; I'm just here to keep this space honest. You're about to speak with
-  {representative_name}, {role_label} of {display_name}. Ask anything you like —
-  {representative_name} answers only from what's actually known of this world, and will
-  tell you plainly when the record runs out."
-- **Option B (fuller, door metaphor):** "Welcome. I'm the Facilitator here — not
-  {representative_name}, and not any world myself. Think of me as the door: I step aside
-  once you're through it.\n\nIn a moment you'll be speaking with {representative_name},
-  {role_label} of {display_name}, {place}, {eraStart}–{eraEnd}. Ask anything that's
-  actually on your mind. {representative_name} will only answer from what's actually
-  known of this world, and will say so plainly whenever it isn't."
-
-Leaning A: the spec's own "witness, not a home" principle (never optimize for engagement)
-argues for the Facilitator doing minimal scaffolding at the door, not a warm monologue —
-the doorway screen already carried the fuller orientation before the participant ever
-clicked "Begin." Not wired into code yet; new participant-facing text waits on Mark's
-pick, same as always.
+Wired exactly as scoped: `door_turn()` added to `engine/m4/facilitator_turns.py`;
+`engine/api/wiring.py::create_session` appends it right after `open_session()` commits
+`session_started` (the entrance seal only restricts who may write `session_started`
+itself, not what else `create_session` appends after it); the frontend's
+`useConversation.begin()` now fetches the transcript once session creation resolves,
+rather than starting the screen from an empty turns array. All existing event-sequence
+and transcript-index test assertions updated for the new leading `facilitator_turn`
+event; 349 backend tests pass; verified live against the no-spend dev server — the
+greeting renders as the conversation's first turn, correctly slot-filled per world.
 
 ### Next action
 
-Mark picks A, B, or redlines either. Once picked: wire into
-`engine/m4/facilitator_turns.py` (a `door_turn()` function, same shape as
-`dependency_check_turn`), append it in `engine/api/wiring.py::create_session` right after
-`open_session()` (the entrance seal only restricts who may write `session_started`, not
-what else `create_session` appends after it), and seed the frontend's `useConversation.begin()`
-turns from the session-create response instead of `[]` — all three sites already scoped,
-no design work left, just the text.
+None outstanding from the 2026-08-25 pilot feedback — all three reported problems
+(transparency, greeting, cards) are now built and shipped. Open items going forward
+belong to whatever Mark raises next.
