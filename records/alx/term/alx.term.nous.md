@@ -32,6 +32,14 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.term.psyche
+- type: associated-with
+  target: alx.contested.origen-positions
+- type: associated-with
+  target: alx.term.apokatastasis
+- type: associated-with
+  target: alx.term.fall-descent
+- type: associated-with
+  target: alx.term.logikos
 plain_meaning: The highest faculty of the soul - the mind's eye, able to perceive divine reality directly
   rather than reasoning step by step toward it. Where the image of God is most fully present.
 world_word: nous (the mind's eye)
@@ -52,7 +60,12 @@ quick_meaning: The soul's highest power - to see God directly, not to reason tow
 distortion_risk: high
 ---
 Imported from the old system's richer lexicon (alexlex011, "Nous") at Mark's direction, as a draft, not
-a final version. Origen's contested cosmology of the nous (the soul's pre-cosmic condition, later connected
-to condemned propositions) is deliberately left out here - the old record itself carries this as a live,
-unresolved scholarly dispute (contested_claim alexclaim005) rather than settled ground, and that contest
-has not been re-authored in the new system.
+a final version. Origen's contested cosmology of the nous (the soul's pre-cosmic condition, later
+connected to condemned propositions) was originally left out of this record's senses, since the old
+record itself carries it as a live, unresolved scholarly dispute rather than settled ground.
+
+CONTEST (stated, fully, added at Mark's later explicit direction): whether Origen's nous-cosmology is
+his own settled position or a later systematization pressed onto him is a named live scholarly debate
+(alx.contested.origen-positions) - part of the same theologically linked cluster as Apokatastasis,
+Fall/Descent, and Logikos (the old system's own "four Origen-cluster CT terms," one Meaning contest).
+The 553 condemnation is OUT OF HORIZON and does not exist for this world's voice.

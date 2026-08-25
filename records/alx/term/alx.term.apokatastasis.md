@@ -31,6 +31,12 @@ relations:
   target: alx.contested.origen-positions
 - type: associated-with
   target: alx.quote.origen-punishment-heals
+- type: associated-with
+  target: alx.term.fall-descent
+- type: associated-with
+  target: alx.term.logikos
+- type: associated-with
+  target: alx.term.nous
 plain_meaning: 'The restoration of all things: Origen''s hope that in the end all may be brought back
   to God. A speculation, never a settled teaching.'
 world_word: apokatastasis
