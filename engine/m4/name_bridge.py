@@ -28,6 +28,19 @@ previously read by nothing (engine.m4.grounding_net.build_figure_lexicon
 reads figure names too, but only to feed the citation-verification net's
 attribution heuristic - a different job, word-level and blind to which
 specific figure matched). No new compiler builder, no records/ change.
+
+A standing note for whoever writes a figure record's own `bridge_line`
+(the text this module hands the frontend as the mark's short Level-2
+line - FigureBridgeMark.tsx): Mark's own rule (2026-08-25), given while
+fixing how this mark renders. More than a generic category label -
+"the school's greatest and most contested teacher," not "a historical
+figure." But not abstract personification either - a line implying the
+figure is somehow still present ("his voice is still here, but he
+isn't") doesn't make sense to a participant who already knows the
+person is dead; it reads as false, not as warmth. Every bridge_line in
+the fleet already reads the first way as of this note, checked across
+every world's figure/*.md - this is guidance for what's written next,
+not a correction of what's already there.
 """
 import re
 

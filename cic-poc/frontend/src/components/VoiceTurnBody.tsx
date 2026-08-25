@@ -1,13 +1,13 @@
 /**
  * Renders a Representative turn's text with its citations, its name/
- * figure bridges, and its term glosses - the three tracks of the
- * transparency system, all sharing InlineBridge's one grammar (Full UX
- * Design §5.7: "one grammar, five applications, no feature may introduce
- * a sixth verb"). engine/m4/turn.py tags citations per SENTENCE
- * ({sentence, record_ids}), not per turn - a strictly finer grain than
- * the old cic-poc backend ever had, so this is a new component rather
- * than an adapted CitationMarker/CitationModal. There is no drawn-on/
- * consulted tier here either: the new engine's citations are flat, so
+ * figure bridges, its term glosses, and its story/quote sourcing - the
+ * four tracks of the transparency system, all sharing InlineBridge's one
+ * grammar (Full UX Design §5.7: "one grammar, five applications, no
+ * feature may introduce a sixth verb"). engine/m4/turn.py tags citations
+ * per SENTENCE ({sentence, record_ids}), not per turn - a strictly finer
+ * grain than the old cic-poc backend ever had, so this is a new component
+ * rather than an adapted CitationMarker/CitationModal. There is no drawn-
+ * on/consulted tier here either: the new engine's citations are flat, so
  * that distinction isn't rendered.
  *
  * Figures (engine.m4.name_bridge) and glosses (engine.m4.term_glosses)
@@ -22,11 +22,27 @@
  * it. Figures and glosses are looked up independently (a name and a term
  * are never the same record), so their spans are found and dropped for
  * overlap together, in one pass.
+ *
+ * A citation's own sources (engine.m4.citation_cards.resolve_source_card)
+ * carry record_type, which is what routes each cited record to its own
+ * track (Mark's own correction, 2026-08-25 - the asterisks "don't make
+ * sense where they're placed"):
+ *   - story/quote sources get their own inline mark (StoryMark), right
+ *     where the generic citation mark used to sit.
+ *   - a term/figure source already carrying a word-level mark IN THIS
+ *     SEGMENT is not marked again - the word itself is the mark, so a
+ *     trailing ✲ on the same sentence was pure duplication.
+ *   - everything else (a term/figure cited without its own word actually
+ *     said, or a gravity/force/contested_claim/doctrinal_witness record)
+ *     has no word or story to attach to, and moves to the General
+ *     References list at the end of the turn instead of marking the
+ *     running text at all.
  */
-import type { Citation, FigureUsed, GlossUsed } from '../types/conversation';
-import { CitationMark } from './CitationMark';
+import type { Citation, FigureUsed, GlossUsed, SourceCard } from '../types/conversation';
 import { FigureBridgeMark } from './FigureBridgeMark';
+import { GeneralReferences } from './GeneralReferences';
 import { GlossMark } from './GlossMark';
+import { StoryMark } from './StoryMark';
 
 interface VoiceTurnBodyProps {
   text: string;
@@ -41,6 +57,8 @@ interface Segment {
 }
 
 type Mark = { start: number; end: number; matchedName: string; kind: 'figure'; figure: FigureUsed } | { start: number; end: number; matchedName: string; kind: 'gloss'; gloss: GlossUsed };
+
+const STORY_RECORD_TYPES = new Set(['story', 'quote']);
 
 function splitIntoSegments(text: string, citations: Citation[]): Segment[] {
   const segments: Segment[] = [];
@@ -83,17 +101,23 @@ function findMarks(segmentText: string, figures: FigureUsed[], glosses: GlossUse
   return nonOverlapping;
 }
 
+// Renders the segment's own text with its word-level marks, and reports
+// back which record ids actually got marked here - the one piece of
+// information the citation-routing step below needs to tell "already
+// bridged by its own word, right in this sentence" apart from "cited,
+// but nothing in the text itself earned it."
 function renderSegmentText(
   segmentText: string,
   figures: FigureUsed[],
   glosses: GlossUsed[],
   usedIds: Set<string>,
   keyPrefix: string
-) {
+): { nodes: React.ReactNode; markedIds: Set<string> } {
   const figureCandidates = figures.filter((f) => !usedIds.has(f.id));
   const glossCandidates = glosses.filter((g) => !usedIds.has(g.id));
   const marks = findMarks(segmentText, figureCandidates, glossCandidates);
-  if (!marks.length) return segmentText;
+  const markedIds = new Set<string>();
+  if (!marks.length) return { nodes: segmentText, markedIds };
 
   const nodes: React.ReactNode[] = [];
   let cursor = 0;
@@ -102,30 +126,62 @@ function renderSegmentText(
     if (mark.kind === 'figure') {
       nodes.push(<FigureBridgeMark key={`${keyPrefix}-mark-${i}`} label={mark.matchedName} figure={mark.figure} />);
       usedIds.add(mark.figure.id);
+      markedIds.add(mark.figure.id);
     } else {
       nodes.push(<GlossMark key={`${keyPrefix}-mark-${i}`} label={mark.matchedName} gloss={mark.gloss} />);
       usedIds.add(mark.gloss.id);
+      markedIds.add(mark.gloss.id);
     }
     cursor = mark.end;
   });
   if (cursor < segmentText.length) nodes.push(segmentText.slice(cursor));
-  return nodes;
+  return { nodes, markedIds };
+}
+
+function splitCitationSources(sources: SourceCard[]): { storySources: SourceCard[]; otherSources: SourceCard[] } {
+  const storySources: SourceCard[] = [];
+  const otherSources: SourceCard[] = [];
+  for (const card of sources) {
+    (STORY_RECORD_TYPES.has(card.record_type) ? storySources : otherSources).push(card);
+  }
+  return { storySources, otherSources };
 }
 
 export function VoiceTurnBody({ text, citations, figuresUsed = [], glosses = [] }: VoiceTurnBodyProps) {
   const segments = splitIntoSegments(text, citations);
   const usedIds = new Set<string>();
+  const generalReferences: SourceCard[] = [];
+  const seenReferenceIds = new Set<string>();
+
+  const rendered = segments.map((segment, i) => {
+    const { nodes, markedIds } = renderSegmentText(segment.text, figuresUsed, glosses, usedIds, `seg${i}`);
+
+    let trailingMark: React.ReactNode = null;
+    if (segment.citation) {
+      const { storySources, otherSources } = splitCitationSources(segment.citation.sources);
+      if (storySources.length) {
+        trailingMark = <StoryMark sources={storySources} />;
+      }
+      for (const card of otherSources) {
+        if (markedIds.has(card.record_id)) continue; // already the word itself, right here - no second mark
+        if (seenReferenceIds.has(card.record_id)) continue;
+        seenReferenceIds.add(card.record_id);
+        generalReferences.push(card);
+      }
+    }
+
+    return (
+      <span key={i}>
+        {nodes}
+        {trailingMark}
+      </span>
+    );
+  });
 
   return (
     <div className="turn__body">
-      <div>
-        {segments.map((segment, i) => (
-          <span key={i}>
-            {renderSegmentText(segment.text, figuresUsed, glosses, usedIds, `seg${i}`)}
-            {segment.citation && <CitationMark sources={segment.citation.sources} />}
-          </span>
-        ))}
-      </div>
+      <div>{rendered}</div>
+      <GeneralReferences references={generalReferences} />
     </div>
   );
 }
