@@ -1,0 +1,70 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "alx",
+  "price_table_source": "Anthropic published API rate card (platform.claude.com/docs/en/about-claude/pricing, fetched 2026-08-25); Bedrock's own pricing page was not independently fetchable in this environment (egress to aws.amazon.com blocked) - Bedrock has historically mirrored Anthropic's direct per-token rates for the same models, not independently re-verified here",
+  "turns": [
+    {
+      "turn_index": 0,
+      "message": "Who was Jesus to your people?",
+      "history_messages_sent": 0,
+      "voice_call_input_tokens": 326,
+      "voice_call_cache_read_tokens": 0,
+      "voice_call_cache_write_tokens": 12456,
+      "voice_call_output_tokens": 420,
+      "turn_dollars": 0.058623
+    },
+    {
+      "turn_index": 1,
+      "message": "What does your community actually believe happens at the Eucharist?",
+      "history_messages_sent": 2,
+      "voice_call_input_tokens": 1327,
+      "voice_call_cache_read_tokens": 12456,
+      "voice_call_cache_write_tokens": 0,
+      "voice_call_output_tokens": 361,
+      "turn_dollars": 0.017936800000000003
+    },
+    {
+      "turn_index": 2,
+      "message": "You mentioned the Eucharist - how does that connect to what you said about Jesus earlier?",
+      "history_messages_sent": 4,
+      "voice_call_input_tokens": 1252,
+      "voice_call_cache_read_tokens": 12456,
+      "voice_call_cache_write_tokens": 0,
+      "voice_call_output_tokens": 347,
+      "turn_dollars": 0.0174038
+    },
+    {
+      "turn_index": 3,
+      "message": "What would you say to someone who thinks all of this is just myth?",
+      "history_messages_sent": 6,
+      "voice_call_input_tokens": 1240,
+      "voice_call_cache_read_tokens": 12456,
+      "voice_call_cache_write_tokens": 0,
+      "voice_call_output_tokens": 408,
+      "turn_dollars": 0.0182678
+    },
+    {
+      "turn_index": 4,
+      "message": "How does someone actually join your community?",
+      "history_messages_sent": 8,
+      "voice_call_input_tokens": 2312,
+      "voice_call_cache_read_tokens": 12456,
+      "voice_call_cache_write_tokens": 0,
+      "voice_call_output_tokens": 707,
+      "turn_dollars": 0.0259198
+    },
+    {
+      "turn_index": 5,
+      "message": "Looking back on everything we've talked about, what's the one thing you most want me to understand?",
+      "history_messages_sent": 10,
+      "voice_call_input_tokens": 2996,
+      "voice_call_cache_read_tokens": 12456,
+      "voice_call_cache_write_tokens": 0,
+      "voice_call_output_tokens": 682,
+      "turn_dollars": 0.027692799999999997
+    }
+  ],
+  "note": "One continuous 6-turn session, real history accumulated turn over turn exactly as engine.api.wiring.history_from_transcript would build it. voice_call_input_tokens is the uncached messages-array size (history + this turn's message) - if it grows turn over turn, that is conversation memory's own uncached cost growth, distinct from the cached system prompt (which stays flat and is reported separately as cache_write/cache_read tokens)."
+}
