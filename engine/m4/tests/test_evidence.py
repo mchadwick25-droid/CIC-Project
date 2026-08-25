@@ -4,6 +4,8 @@ discipline as test_grounding_net.py's fixtures - no compiled package on
 disk required.
 """
 from engine.m4.evidence import (
+    _fallback_search_text,
+    _fulltext_fallback_candidates,
     apply_session_exclusion,
     assemble_evidence,
     match_asks_to_cells,
@@ -329,3 +331,100 @@ def test_the_stemmer_will_not_collapse_short_words():
     assert _stem("persecuted") == "persecut"
     assert _stem("persecution") == "persecut"
     assert _stem("belonging") == "belong"
+
+
+# ---- Stage A2: full-text fallback (added 2026-08-25) -----------------------
+# Fires only when Stage A finds no cell at all - the gap this closes is real
+# and was found on a live turn (pahc/Chloe, "what was the kingdom of God"):
+# the fleet's own canon vocabulary and every world's own retrieval hints can
+# together define a cell vocabulary that a perfectly answerable question
+# just never touches, even though a record in the world's own repository
+# answers it directly.
+
+_COMMON_WORD_RECORDS = {
+    f"fix.common.r{i}": {"id": f"fix.common.r{i}", "record_type": "term", "canon_cells": [], "plain_meaning": f"Record {i} about the everyday word widespread, repeated across this whole fixture set."}
+    for i in range(8)
+}
+
+FALLBACK_REPOSITORY = {
+    "fix.quote.narrow-word": {
+        "id": "fix.quote.narrow-word",
+        "record_type": "quote",
+        "canon_cells": [],
+        "text": "The elders spoke often of paradise restored, a word this community used nowhere else in what survives.",
+    },
+    "fix.term.editorial-only": {
+        "id": "fix.term.editorial-only",
+        "record_type": "term",
+        "canon_cells": [],
+        "plain_meaning": "A term about an unrelated household custom.",
+        "divergence_note": "Modern scholars call this custom's survival important, though the community itself never said so.",
+    },
+    **_COMMON_WORD_RECORDS,
+}
+
+
+def test_fulltext_fallback_finds_a_record_no_cell_reaches():
+    candidates = _fulltext_fallback_candidates(query_words={"paradise"}, repository_records=FALLBACK_REPOSITORY)
+    assert [c["id"] for c in candidates] == ["fix.quote.narrow-word"]
+    assert candidates[0]["fulltext_fallback"] is True
+
+
+def test_fulltext_fallback_drops_a_word_too_common_to_discriminate():
+    # "widespread" appears in all 8 _COMMON_WORD_RECORDS entries - well past
+    # _FULLTEXT_FALLBACK_MAX_POOL (6). A word that common can't tell one
+    # record from another, so it contributes nothing, same as a genuinely
+    # off-canon question resolves to no cell today.
+    candidates = _fulltext_fallback_candidates(query_words={"widespread"}, repository_records=FALLBACK_REPOSITORY)
+    assert candidates == []
+
+
+def test_fulltext_fallback_mixed_query_drops_only_the_common_word():
+    # The exact shape of the live bug: one rare word (finds the record) and
+    # one word common enough that alone it would swamp the pool.
+    candidates = _fulltext_fallback_candidates(query_words={"paradise", "widespread"}, repository_records=FALLBACK_REPOSITORY)
+    assert [c["id"] for c in candidates] == ["fix.quote.narrow-word"]
+
+
+def test_fulltext_fallback_ignores_editorial_commentary_fields():
+    # "important" only appears inside divergence_note - a build-team
+    # caveat about the record, not the record's own substance. Matching on
+    # it would surface an unrelated household-custom term for a question
+    # about importance in general - the exact false positive measured on
+    # pahc.term.ministrae before this exclusion existed.
+    candidates = _fulltext_fallback_candidates(query_words={"important"}, repository_records=FALLBACK_REPOSITORY)
+    assert candidates == []
+
+
+def test_fallback_search_text_excludes_editorial_keys_all_text_keeps():
+    record = FALLBACK_REPOSITORY["fix.term.editorial-only"]
+    assert "important" not in _fallback_search_text(record)
+    assert "household" in _fallback_search_text(record)  # plain_meaning itself is still searched
+
+
+def test_assemble_evidence_uses_fallback_only_when_no_cell_matches_at_all():
+    evidence = assemble_evidence(
+        message="What did they say of paradise?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=FALLBACK_REPOSITORY,
+    )
+    assert evidence["cells"] == []
+    ids = {c["id"] for c in evidence["candidates"]}
+    assert "fix.quote.narrow-word" in ids
+
+
+def test_assemble_evidence_fallback_never_fires_once_a_cell_matches():
+    # A real cell match (however thin) must never be topped up by the
+    # fallback - Stage A2 is a net under total silence, not an addition to
+    # a working match.
+    evidence = assemble_evidence(
+        message="What does your community remember of Jesus?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+    )
+    assert evidence["cells"] != []
+    assert all(not c.get("fulltext_fallback") for c in evidence["candidates"])
