@@ -189,3 +189,87 @@ framing, and interaction design here are already decided.
 
 Mark takes the launch prompt to a new thread and starts the build there. Once transparency
 is working, resume items 2 and 3 in this thread per his sequencing.
+
+---
+
+## 2026-08-25 — Richer world cards/doorway built; Facilitator greeting drafted, awaiting pick
+
+**Status.** Transparency (the prior entry) shipped and launched in its own thread. Picked
+up items 2 and 3, deferred from the 2026-08-25 pilot feedback per Mark's own sequencing.
+
+### Item 3 (richer cards) — DONE, built and pushed
+
+**Concrete finding, not just a vibe:** the world-list card never rendered the world's own
+display name at all — only the Representative's personal name and role (e.g. "Chloe ·
+Household Leader"). A participant scanning six cards had no direct way to tell *which
+Christian world* a card even was, which is exactly Mark's stated complaint ("clarity of
+wth chrsitian world"). Fixed directly: the tradition's display name now leads every card,
+in its accent color.
+
+**The doorway went further**, closing real gaps against Program-Spec SS165's own
+definition of "the detailed world card" (display name/period/place, thinness statement,
+the living-tradition distinction where flagged, self-disclosure, persona provenance,
+starter questions) — most of which the doorway had never carried:
+
+- **horizon** — world_core's own scene-setting paragraph, already authored and already
+  compiled into the voice's own system prompt, but never surfaced to a participant. Now
+  compiled into `compiled/frame.json` too (`engine/m2/builders.py::build_frame_json`) and
+  shown as the doorway's lead paragraph.
+- **Living-tradition distinction** and **self-disclosure/persona provenance** — both
+  quoted verbatim from the spec itself (O0 for "who built this and what it hopes";
+  SS165/SS166 for the living-tradition sentence and the persona-provenance line). Verbatim
+  quotation of language Mark already approved at the spec level, so this did NOT need a
+  fresh draft-and-approve round the way new Facilitator copy does.
+- **Starter questions** — sampled from the compiled frame's real per-cell canon
+  (identity/personal/critical framings, not an arbitrary first three), so a participant
+  can see the actual range of what's askable before committing.
+
+**New surface:** `GET /api/worlds`, reading each formation world's real compiled
+frame.json through the same load path a session uses — the frontend's `data/worlds.ts`
+had carried its own comment since Stage 4 admitting it hand-copied the registry because
+"no /api/worlds endpoint exists yet." That endpoint exists now; the frontend fetches live
+and keeps only what the registry never carried (portrait image, accent color, display
+order) as local assets. All 7 registry packages (6 formation worlds + the fix fixture)
+recompiled to carry `horizon`; determinism and staleness both green; 349 backend tests
+pass; verified live in a browser against the no-spend dev server (world list, doorway,
+deep link, and full conversation flow all screenshotted and working).
+
+### Item 2 (Facilitator greeting) — DRAFTED, awaiting Mark's pick
+
+The conversation screen still opens with no introduction — confirmed still true, and
+still exactly the gap Mark named ("no introduction, do greeting"). `facilitator_turn`'s
+`"door"` kind has been declared in the event schema since early in this build but is
+still never emitted anywhere in the codebase (confirmed by direct grep, not memory).
+
+Two drafts, same discipline SYSTEM_NATURE/CHECK_IN/DEPENDENCY_CHECK went through
+(`engine/m4/facilitator_turns.py`) — plain, honest, no invented warmth the system hasn't
+earned, and keeping the SS4.3a convention that the Facilitator names itself plainly while
+the Representative is named by its own registry name:
+
+- **Option A (short handoff):** "Welcome — I'm the Facilitator. I don't belong to any
+  world; I'm just here to keep this space honest. You're about to speak with
+  {representative_name}, {role_label} of {display_name}. Ask anything you like —
+  {representative_name} answers only from what's actually known of this world, and will
+  tell you plainly when the record runs out."
+- **Option B (fuller, door metaphor):** "Welcome. I'm the Facilitator here — not
+  {representative_name}, and not any world myself. Think of me as the door: I step aside
+  once you're through it.\n\nIn a moment you'll be speaking with {representative_name},
+  {role_label} of {display_name}, {place}, {eraStart}–{eraEnd}. Ask anything that's
+  actually on your mind. {representative_name} will only answer from what's actually
+  known of this world, and will say so plainly whenever it isn't."
+
+Leaning A: the spec's own "witness, not a home" principle (never optimize for engagement)
+argues for the Facilitator doing minimal scaffolding at the door, not a warm monologue —
+the doorway screen already carried the fuller orientation before the participant ever
+clicked "Begin." Not wired into code yet; new participant-facing text waits on Mark's
+pick, same as always.
+
+### Next action
+
+Mark picks A, B, or redlines either. Once picked: wire into
+`engine/m4/facilitator_turns.py` (a `door_turn()` function, same shape as
+`dependency_check_turn`), append it in `engine/api/wiring.py::create_session` right after
+`open_session()` (the entrance seal only restricts who may write `session_started`, not
+what else `create_session` appends after it), and seed the frontend's `useConversation.begin()`
+turns from the session-create response instead of `[]` — all three sites already scoped,
+no design work left, just the text.
