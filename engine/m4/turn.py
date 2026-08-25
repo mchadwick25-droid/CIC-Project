@@ -55,6 +55,7 @@ from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, evidence, facilitator_turns, grounding_net
 from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
+from engine.m4.name_bridge import find_figures_used
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.anachronism import resolve_term_ids, terms_in_message
@@ -239,6 +240,7 @@ def _run_ordinary_voice_turn(
     directive: Directive | None,
     session_id: str,
     already_told_ids: set[str] | None = None,
+    already_bridged_figure_ids: set[str] | None = None,
     history: list[dict] | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     usage_records = []
@@ -279,6 +281,13 @@ def _run_ordinary_voice_turn(
 
     answer_text, citations, net_result = _apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
 
+    # THE NAME/FIGURE BRIDGE (VR_1A_Transparency_Gap_2026-08-09.md) - a
+    # detection pass over the finished text, same discipline as the net
+    # above: string-only, no model call, runs on what the participant is
+    # about to read. world.figures is compiled/figures.json, already built
+    # and already loaded per turn; this is the first code that reads it.
+    figures_used = find_figures_used(answer_text, world.figures.get("figures") or [], already_bridged_ids=already_bridged_figure_ids)
+
     # No code-appended floor line. Program-Spec M5: "In-world thinness is
     # never intercepted - the honest limit is the voice's own testimony,
     # not a system apology." It fired on 7 of the turns measured today and
@@ -295,6 +304,7 @@ def _run_ordinary_voice_turn(
         "text": answer_text,
         "citations": citations,
         "glosses": [],
+        "figures_used": figures_used,
         "quote_offers": [],
         "attempts_meta": {"empty_stream_retries": 0},
         "grounding": net_result,
@@ -322,6 +332,7 @@ def run_turn(
     track_a_last: dict | None = None,
     force_empty_stream: bool = False,
     already_told_ids: set[str] | None = None,
+    already_bridged_figure_ids: set[str] | None = None,
     history: list[dict] | None = None,
 ) -> TurnResult:
     """force_empty_stream is a TEST/EVIDENCE HOOK ONLY - it lets the empty-
@@ -342,6 +353,16 @@ def run_turn(
     this module makes no store reads of its own (mirrors "makes no store
     writes of its own" above) - a caller with the real event log queries it
     and passes the set in; omitting it just means Stage E is a no-op.
+
+    already_bridged_figure_ids is the same shape and the same reason, for
+    engine.m4.name_bridge.find_figures_used: figure ids this session's
+    transcript already shows in a prior turn's figures_used, so a name
+    bridged once does not fire again (Full UX Design §2.4/§5.7's
+    "first-occurrence term" grammar, applied to names the same as lexicon
+    terms). Caller-supplied for the identical reason as already_told_ids;
+    omitting it just means every matching figure fires every time it's
+    named, which is safe (a bridge firing twice loses nothing) but noisier
+    than intended.
 
     track_a_last mirrors track_b_accumulator's own shape - the caller's
     SessionState.safety.track_a_last (None until Track A has fired once
@@ -414,7 +435,8 @@ def run_turn(
             voice_event, voice_usage_records = _run_ordinary_voice_turn(
                 voice_client=voice_client, voice_model_id=voice_model_id, world=world,
                 participant_message=participant_message, directive=gate_result.routing.directive,
-                session_id=session_id, already_told_ids=already_told_ids, history=history,
+                session_id=session_id, already_told_ids=already_told_ids,
+                already_bridged_figure_ids=already_bridged_figure_ids, history=history,
             )
             return TurnResult(
                 routing_action=action, routing_reason=gate_result.routing.reason,
@@ -450,7 +472,7 @@ def run_turn(
                 )
                 stream_failed = False
                 if stream_text.strip():
-                    voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}}
+                    voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "figures_used": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}}
 
         facilitator_event = crisis_resources.append_crisis_resources_turn(
             signal=signal, stream_text=stream_text, stream_failed=stream_failed,
@@ -533,7 +555,8 @@ def run_turn(
         voice_event, voice_usage_records = _run_ordinary_voice_turn(
             voice_client=voice_client, voice_model_id=voice_model_id, world=world,
             participant_message=underlying_subject, directive=bridge_directive,
-            session_id=session_id, already_told_ids=already_told_ids, history=history,
+            session_id=session_id, already_told_ids=already_told_ids,
+            already_bridged_figure_ids=already_bridged_figure_ids, history=history,
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
@@ -551,6 +574,7 @@ def run_turn(
             directive=gate_result.routing.directive,
             session_id=session_id,
             already_told_ids=already_told_ids,
+            already_bridged_figure_ids=already_bridged_figure_ids,
             history=history,
         )
         return TurnResult(

@@ -625,3 +625,79 @@ def test_an_ordinary_bridge_still_hands_the_voice_the_subject_alone():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="did you believe in the Trinity", pressed={}, anachronistic_term_ids={"_fleet.modern.trinity"})
     assert result.routing_action == "bridge_turn"
     assert result.gate["directive"] is None
+
+
+def _world_with_figure():
+    """_world() with one real-shaped figure record added - compiled/
+    figures.json's own {id, names, bridge_line, dates} shape
+    (engine.m2.builders.build_figures_json), not a synthetic one, so these
+    tests exercise engine.m4.name_bridge against the shape it actually gets
+    handed at runtime."""
+    from dataclasses import replace
+
+    return replace(
+        _world(),
+        figures={
+            "figures": [
+                {
+                    "id": "fix.figure.the-elder",
+                    "names": [
+                        {"name": "the Elder", "tag": "in-world"},
+                        {"name": "the presiding elder (unnamed, the source's own term)", "tag": "scholarly"},
+                    ],
+                    "bridge_line": "the presiding elder whose name the record itself never gives",
+                    "dates": {},
+                    "narratable": False,
+                }
+            ]
+        },
+    )
+
+
+def test_figures_used_is_populated_from_a_name_in_the_finished_answer():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We were led by the Elder, who spoke for us [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_figure(), participant_message="who led you", pressed={}, anachronistic_term_ids=set(),
+    )
+    from engine.m4 import events
+
+    events.validate("voice_turn", result.voice_event)  # the schema floor, not just this test's own expectations
+    figures_used = result.voice_event["figures_used"]
+    assert [f["id"] for f in figures_used] == ["fix.figure.the-elder"]
+    assert figures_used[0]["matched_name"] == "the Elder"
+    assert figures_used[0]["bridge_line"].startswith("the presiding elder")
+
+
+def test_already_bridged_figure_ids_suppresses_a_repeat_within_run_turn():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["The Elder spoke for us again [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_figure(), participant_message="who led you", pressed={}, anachronistic_term_ids=set(),
+        already_bridged_figure_ids={"fix.figure.the-elder"},
+    )
+    assert result.voice_event["figures_used"] == []
+
+
+def test_crisis_path_voice_event_still_carries_the_required_figures_used_key():
+    """The crisis-turn voice_event is hand-built, not run through
+    find_figures_used (no detection on that path, by design) - but the
+    key still has to exist, or events.validate rejects the payload now
+    that voice_turn requires it."""
+    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=["I hear you. ", "That sounds heavy."])
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_figure(), participant_message="I don't want to be here anymore.", pressed={}, anachronistic_term_ids=set(),
+    )
+    from engine.m4 import events
+
+    events.validate("voice_turn", result.voice_event)
+    assert result.voice_event["figures_used"] == []

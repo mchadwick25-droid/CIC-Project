@@ -32,6 +32,12 @@ _MOCK_REPLY = (
     "safety turn."
 )
 
+_MOCK_REPLY_WITH_FIGURE = (
+    "Origen taught us to read Scripture at more than one level, the plain sense and the deeper "
+    "ones [[alx.term.allegoria]]. He was not the only one who read this way, but no one argued it "
+    "so far."
+)
+
 
 class _FakeToolUse:
     def __init__(self, name, input_):
@@ -93,7 +99,9 @@ class _ReactiveFakeMessages:
         return SimpleNamespace(content=[_FakeToolUse(name, response)], usage=_FAKE_USAGE)
 
     def stream(self, *, model, max_tokens, system=None, messages):
-        return _FakeStreamCtx([_MOCK_REPLY])
+        text = _last_user_text(messages).lower()
+        reply = _MOCK_REPLY_WITH_FIGURE if "origen" in text else _MOCK_REPLY
+        return _FakeStreamCtx([reply])
 
 
 class ReactiveFakeBedrockClient:

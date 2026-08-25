@@ -336,3 +336,33 @@ def test_an_acute_turn_records_the_level_for_audit(store, usage_store, world_loa
     assert track_a["level"] == "a2"
     assert track_a["risk_subject"] == "self"
     assert project_fresh(session_id, store).safety.track_b_accumulator is None
+
+
+def test_figures_used_flows_through_and_a_second_mention_this_session_does_not_re_fire(store, usage_store, world_loader, registry):
+    """End to end against the REAL fix world's real figure record
+    (records/fix/figure/fix.figure.the-elder.md, compiled unchanged) - not
+    a synthetic fixture. First turn names "the Elder" and the bridge
+    fires; second turn names him again and it does not, because
+    handle_message derives already_bridged_figure_ids from the first
+    turn's own figures_used, same as it already does for already_told_ids."""
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"),
+        reader_response=reader_response(),
+        stream_chunks=["The Elder spoke for us, and we remembered it [[fix.witness.who-is-jesus]]."],
+    )
+
+    first = wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="who led you", client_msg_id="msg-1",
+    )
+    assert [f["id"] for f in first.voice["figures_used"]] == ["fix.figure.the-elder"]
+    assert first.voice["figures_used"][0]["bridge_line"] == "an elder of this gathering, remembered for what he said about the ones who came after"
+
+    second = wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="tell me more about him", client_msg_id="msg-2",
+    )
+    assert second.voice["figures_used"] == []

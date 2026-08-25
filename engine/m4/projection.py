@@ -69,6 +69,7 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
                     "text": payload["text"],
                     "citations": payload["citations"],
                     "glosses": payload["glosses"],
+                    "figures_used": payload["figures_used"],
                 }
             )
         elif event.event_type == "gate_decision":

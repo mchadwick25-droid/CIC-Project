@@ -188,6 +188,15 @@ def handle_message(
         for citation in (turn.get("citations") or [])
         for record_id in citation.get("record_ids", [])
     }
+    # Same shape, same reason, for engine.m4.name_bridge.find_figures_used:
+    # figure ids a prior turn this session already bridged, read from that
+    # turn's own figures_used - see engine.m4.turn.run_turn's docstring on
+    # already_bridged_figure_ids for why this lives with the caller.
+    already_bridged_figure_ids = {
+        figure["id"]
+        for turn in state.transcript
+        for figure in (turn.get("figures_used") or [])
+    }
     history = history_from_transcript(state.transcript)
 
     term_ids = compute_anachronistic_term_ids(load_fleet_records(), world.frame["time_window"])
@@ -207,6 +216,7 @@ def handle_message(
             track_b_accumulator=state.safety.track_b_accumulator,
             track_a_last=state.safety.track_a_last,
             already_told_ids=already_told_ids,
+            already_bridged_figure_ids=already_bridged_figure_ids,
             history=history,
         )
     except UnhandledRoutingAction:

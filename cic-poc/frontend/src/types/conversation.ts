@@ -12,6 +12,19 @@ export interface Citation {
   record_ids: string[];
 }
 
+// engine/m4/name_bridge.py's find_figures_used - one entry per figure
+// record whose name (in-world or the scholarly form's short head) appears
+// in this turn's text, first occurrence this session only. `names` carries
+// both tags (in-world/scholarly) regardless of which one `matched_name`
+// actually is, so the Level-3 panel can show "also called" either way.
+export interface FigureUsed {
+  id: string;
+  matched_name: string;
+  names: { name: string; tag: 'in-world' | 'scholarly' }[];
+  bridge_line: string | null;
+  dates: Record<string, string | null>;
+}
+
 export interface FacilitatorTurn {
   kind: 'door' | 'threshold' | 'safety' | 'bridge' | 'close';
   text: string;
@@ -22,6 +35,7 @@ export interface VoiceTurn {
   text: string;
   citations: Citation[];
   glosses: unknown[]; // declared by the event catalog, not populated by any code path yet
+  figures_used: FigureUsed[];
   quote_offers: unknown[];
   attempts_meta: Record<string, unknown>;
 }

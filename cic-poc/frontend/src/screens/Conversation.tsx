@@ -56,7 +56,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
               <div className="turn__speaker sans">
                 {world.representativeName} · {world.displayName}
               </div>
-              <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} />
+              <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} />
             </div>
           );
         })}
