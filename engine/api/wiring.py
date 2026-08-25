@@ -11,7 +11,7 @@ from dataclasses import dataclass
 
 from engine.api.config import REPO_ROOT
 from engine.m1.loader import load_fleet_records
-from engine.m4 import events, session_code
+from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
@@ -72,6 +72,20 @@ def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dic
         code_hash=session_code.hash_code(raw_code),
         package_manifest_hash=world.manifest_hash,
     )
+
+    # The conversation's first-ever line, Program-Spec SS71 ("visible at
+    # door, thresholds, and close") - open_session above is the only
+    # allowed writer of session_started itself (engine.m4.entrance's own
+    # seal), not of everything create_session appends after it.
+    representative = world.frame["representative"]
+    door_event = facilitator_turns.door_turn(
+        representative_name=representative["name"],
+        role_label=representative["role_label"],
+        display_name=world.frame["display_name"],
+    )
+    events.validate("facilitator_turn", door_event)
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=door_event)
+
     return session_id, raw_code
 
 

@@ -149,7 +149,8 @@ def test_transcript_reflects_committed_turns(store, usage_store, world_loader, r
     assert resp.status_code == 200
     body = resp.json()
     assert body["turn_count"] == 1
-    assert body["transcript"][0] == {"speaker": "participant", "text": "who was Jesus"}
+    assert body["transcript"][0]["kind"] == "door"
+    assert body["transcript"][1] == {"speaker": "participant", "text": "who was Jesus"}
 
 
 def test_transcript_missing_session_401(store, usage_store, world_loader, registry):
