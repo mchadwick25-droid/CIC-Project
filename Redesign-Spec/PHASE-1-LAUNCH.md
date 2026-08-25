@@ -373,17 +373,39 @@ Two things that are Mark's, not the assistant's:
 
 ## Stage 5 - Deploy  *(Mark holds the dashboard)*
 
-Repoint `render.yaml` at the engine's Dockerfile; swap `ANTHROPIC_API_KEY`
-for the AWS credentials; set the region.
+~~Repoint `render.yaml` at the engine's Dockerfile; swap `ANTHROPIC_API_KEY`
+for the AWS credentials; set the region.~~ **DONE 2026-08-25, as a SECOND
+service, not a repoint** - PR #52 added `cic-engine` to `render.yaml`
+alongside the existing `cic-poc` entry, left untouched, rather than
+replacing it in place. `engine/Dockerfile` gained a Node build stage for
+`cic-poc/frontend`; `engine/api/app.py` serves the built `dist/` same-
+origin (Mark's call, 2026-08-24: one service, not two, so no
+`CORS_ORIGINS`). `CIC_API_REGION=us-east-1` is in the blueprint directly;
+`AWS_ACCESS_KEY_ID`/`AWS_SECRET_ACCESS_KEY` are `sync: false`, set by hand
+in the Render dashboard.
 
-**The deploy branch is not recorded anywhere in this repository.**
-`render.yaml` has no `branch:` key, so it was chosen in the Render dashboard
-when the blueprint was connected. Find out which branch it is before Stage 1
-fast-forwards `main` - it is the one fact about the deployment that is not
-in git.
+~~**The deploy branch is not recorded anywhere in this repository.**~~
+**CONFIRMED 2026-08-25, directly in the Render dashboard: `main`.** The
+existing Blueprint ("Church In Conversation") already tracked it.
 
-> **GATE 5** - the new service answers on its own URL, a full conversation
-> works against it, and the event log shows a populated `gate_decision`.
+One real snag on the way, worth keeping: the Blueprint's first sync
+created `cic-engine` and deployed it before AWS credentials existed,
+so it crashed on startup (`engine/api/app.py` resolves the Bedrock model
+ID at import time, a real control-plane call - no credentials, no boot).
+Fixed by setting the two env vars and using Manual Deploy to retry, not a
+second Blueprint sync. The Blueprint's own sync status stayed "Failed
+sync" afterward even with both services showing green/deployed - a Render
+UI quirk, not a real problem; chased once, confirmed cosmetic, left alone.
+
+> **GATE 5 - MET 2026-08-25.** `cic-engine` answers on its own URL
+> (`/health` -> `{"status":"ok"}`), and a full conversation ran against it
+> for real: asking Theon "who was Jesus" returned a live, grounded answer
+> with five citation marks, correctly labeled ("Theon - Alexandrian
+> Christianity") and served through the real production surface (session
+> code banner, no placeholder text). `gate_decision` is written and
+> validated before anything else in `engine/api/wiring.py`'s
+> `handle_message` on every successful call, so a real answer is proof
+> enough without a direct database read.
 
 ---
 
