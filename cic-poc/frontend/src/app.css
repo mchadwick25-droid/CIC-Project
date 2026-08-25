@@ -26,6 +26,13 @@
   --color-border: #E6DFD3;
   --color-error: #C0392B;
 
+  /* The lexicon/transparency apparatus's own pigment (CiC_Full_UX_Design_
+     V1_0.md §2.1) - the name/figure bridge, and later the lexicon gloss
+     it shares a grammar with, both wear this, never the representative's
+     gold or the participant's lapis. */
+  --color-tyrian: #6B3FA0;
+  --color-tyrian-wash: #F3EFFA;
+
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
@@ -425,8 +432,15 @@ button {
   margin-bottom: 0;
 }
 
+/* Part of the same transparency apparatus as the name/figure bridge and
+   the term gloss (Full UX Design §5.7 groups "inline citations (the ✲
+   marker)" with the lexicon grammar as one apparatus) - Tyrian, same as
+   .name-bridge-mark, via InlineBridge. Rendered as a small trailing glyph
+   rather than underlined running text, since it marks a whole sentence,
+   not a word. */
 .citation-mark {
-  color: var(--color-representative);
+  position: relative;
+  color: var(--color-tyrian);
   opacity: 0.9;
   cursor: pointer;
   font-size: 0.85em;
@@ -436,34 +450,239 @@ button {
   font-family: inherit;
 }
 
-.turn__sources {
-  margin-top: 4px;
-  padding-top: 4px;
-  border-top: 1px dashed var(--color-border);
+.turn__sources-card + .turn__sources-card {
+  margin-top: 8px;
 }
 
-.turn__sources-summary {
-  font-family: var(--font-family-ui);
-  font-size: 0.72rem;
+.turn__sources-label {
+  margin: 0 0 2px;
+  font-size: 0.76rem;
+  font-weight: 700;
   color: var(--color-text-muted);
-  font-style: italic;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
 }
 
-.turn__sources-list {
-  margin: 6px 0 0;
+/* Shared with the name/figure bridge's Level 3 (FigureBridgeMark.tsx via
+   SourceList.tsx) - one real, checkable primary-source reference reads
+   the same wherever it appears. */
+.source-list {
+  margin: 0;
   padding: 0;
   list-style: none;
-  font-family: var(--font-family-ui);
-  font-size: 0.76rem;
+  font-size: 0.8rem;
   color: var(--color-text-muted);
 }
 
-.turn__sources-list li {
+.source-list__item {
   padding: 2px 0;
+}
+
+.source-list__work {
+  color: var(--color-text);
+  font-style: italic;
+}
+
+.source-list__empty {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+/* ============================================================
+   The transparency apparatus - Tyrian, per CiC_Full_UX_Design_V1_0.md
+   §2.1/§2.4: plain colored text or a small glyph mark, a short Level-2
+   card on hover (desktop) / tap (phone), a full Level-3 panel (desktop
+   side panel) / bottom sheet (phone) on click / tap-through. Shared by
+   InlineBridge across all three tracks - the name/figure bridge, the
+   term gloss, and the citation marker - one grammar, not three.
+   ============================================================ */
+.inline-bridge {
+  position: relative;
+  display: inline;
+}
+
+.name-bridge-mark {
+  position: relative;
+  display: inline;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--color-tyrian);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* A padded hit area on an inline text mark without disturbing the text's
+   own layout (CiC_Full_UX_Design_V1_0.md §2.4: "≥44px padded hit area on
+   every interactive inline element") - an invisible absolutely-positioned
+   sibling box, sized off the mark's own position:relative, rather than
+   real padding (which would force gaps into the running prose). */
+.name-bridge-mark::after,
+.citation-mark::after {
+  content: '';
+  position: absolute;
+  inset: -12px;
+}
+
+.level2-card {
+  /* position/top/left/width are computed per-anchor and set inline by
+     Level2Card.tsx (position: fixed, clamped to the viewport) - nothing
+     positional belongs in this rule, or it stacks on top of that
+     computation instead of being overridden by it (transform is not a
+     shorthand-overlapping property, so an inline style here won't clear
+     a stale transform on its own). */
+  z-index: 20;
+  background: var(--color-tyrian-wash);
+  border: 1px solid var(--color-tyrian);
+  border-radius: var(--border-radius);
+  padding: 10px 12px;
+  box-shadow: 0 4px 14px rgba(42, 37, 33, 0.16);
+  font-family: var(--font-family-ui);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--color-text);
+  text-align: left;
+  font-style: normal;
+}
+
+.level2-card__body p {
+  margin: 0;
+}
+
+.level2-card__full-entry {
+  display: block;
+  margin-top: 8px;
+  padding: 6px 0;
+  min-height: 44px;
+  background: none;
+  border: none;
+  color: var(--color-tyrian);
+  font-family: var(--font-family-ui);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.level3-panel,
+.level3-sheet {
+  position: fixed;
+  z-index: 30;
+  background: var(--color-surface);
+  box-shadow: -4px 0 20px rgba(42, 37, 33, 0.18);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Desktop: a side panel alongside the transcript, never over it - the
+   named correction from an earlier draft (§9.1 DECIDED: "Level-3 surfaces
+   are panels, not centered modals"). */
+.level3-panel {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 420px;
+  max-width: 92vw;
+  border-left: 1px solid var(--color-border);
+}
+
+/* Phone: a bottom sheet over the input area, the transcript's latest turn
+   still visible above it (§2.4, §4.2). */
+.level3-sheet {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 55vh;
+  border-top: 1px solid var(--color-border);
+  border-radius: 14px 14px 0 0;
+  box-shadow: 0 -4px 20px rgba(42, 37, 33, 0.18);
+}
+
+.level3__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.level3__title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-tyrian);
+}
+
+.level3__close {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.level3__body {
+  padding: var(--spacing-md) var(--spacing-lg) var(--spacing-lg);
+  overflow-y: auto;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.level3__section-label {
+  margin: var(--spacing-md) 0 4px;
+  font-family: var(--font-family-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-tyrian);
+}
+
+.level3__section-label:first-child {
+  margin-top: 0;
+}
+
+.level3__names {
+  list-style: none;
+  margin: 0 0 var(--spacing-sm);
+  padding: 0;
+}
+
+.level3__names li {
+  margin-bottom: 6px;
+}
+
+.level3__names-tag {
+  display: block;
+  font-family: var(--font-family-ui);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-light);
+}
+
+.level3__dates {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+.level3__false-friend {
+  margin: 0;
+  padding-left: 1.1em;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.level3__false-friend li {
+  margin-bottom: 4px;
 }
 
 .conversation__composer {

@@ -37,6 +37,12 @@ divergence_partners:
 relations:
 - type: associated-with
   target: alx.term.apokatastasis
+- type: associated-with
+  target: alx.term.fall-descent
+- type: associated-with
+  target: alx.term.logikos
+- type: associated-with
+  target: alx.term.nous
 ---
 The Philocalia relation matters operationally: where a passage exists
 in both transmissions, the Greek wins. HORIZON DISCIPLINE: within this

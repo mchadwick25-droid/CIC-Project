@@ -23,7 +23,7 @@ def _seed(store, sid):
         event_type="gate_decision",
         payload={"asks": [{"order": 1, "text": "who was Jesus"}], "register": "informational", "out_of_scope": {"class": "none", "pressed": False}, "modern_terms": [], "safety": {"signal": "NO_SIGNAL", "confidence": "high"}, "route": "voice", "directive": {}, "degraded": False},
     )
-    store.append(session_id=sid, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload={"speaker": "Vera", "text": "I did not see him myself...", "citations": ["fix.source.witness-scroll"], "glosses": [], "quote_offers": [], "attempts_meta": {}})
+    store.append(session_id=sid, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload={"speaker": "Vera", "text": "I did not see him myself...", "citations": ["fix.source.witness-scroll"], "glosses": [], "figures_used": [], "quote_offers": [], "attempts_meta": {}})
     store.append(session_id=sid, event_uuid=str(uuid.uuid4()), event_type="safety_state", payload={"track": "B", "level": "none", "accumulator": {"CONFIDANT_LANGUAGE": 1}})
     store.append(session_id=sid, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": 1})
 

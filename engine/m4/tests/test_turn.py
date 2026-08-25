@@ -199,7 +199,14 @@ def test_ordinary_turn_calls_voice_generation_and_checks_inline_citations():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="who was Jesus", pressed={}, anachronistic_term_ids=set())
     assert result.routing_action == "voice_with_directive"
     assert result.voice_event["text"] == "We did not claim to have seen him ourselves."  # tag stripped
-    assert result.voice_event["citations"] == [{"sentence": "We did not claim to have seen him ourselves.", "record_ids": ["fix.witness.who-is-jesus"]}]
+    citations = result.voice_event["citations"]
+    assert [{"sentence": c["sentence"], "record_ids": c["record_ids"]} for c in citations] == [
+        {"sentence": "We did not claim to have seen him ourselves.", "record_ids": ["fix.witness.who-is-jesus"]}
+    ]
+    # citation_cards.resolve_citation_sources's own addition - see
+    # test_citation_cards.py for the resolution logic itself; this just
+    # proves run_turn actually calls it.
+    assert citations[0]["sources"] == [{"record_id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "label": "fix.witness.who-is-jesus", "sources": []}]
     assert result.voice_event["do_not_voice_violation"] is None
     assert result.voice_event["degraded_by_net"] is False
 
@@ -625,3 +632,140 @@ def test_an_ordinary_bridge_still_hands_the_voice_the_subject_alone():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="did you believe in the Trinity", pressed={}, anachronistic_term_ids={"_fleet.modern.trinity"})
     assert result.routing_action == "bridge_turn"
     assert result.gate["directive"] is None
+
+
+def _world_with_figure():
+    """_world() with one real-shaped figure record added - compiled/
+    figures.json's own {id, names, bridge_line, dates} shape
+    (engine.m2.builders.build_figures_json), not a synthetic one, so these
+    tests exercise engine.m4.name_bridge against the shape it actually gets
+    handed at runtime."""
+    from dataclasses import replace
+
+    return replace(
+        _world(),
+        figures={
+            "figures": [
+                {
+                    "id": "fix.figure.the-elder",
+                    "names": [
+                        {"name": "the Elder", "tag": "in-world"},
+                        {"name": "the presiding elder (unnamed, the source's own term)", "tag": "scholarly"},
+                    ],
+                    "bridge_line": "the presiding elder whose name the record itself never gives",
+                    "dates": {},
+                    "narratable": False,
+                }
+            ]
+        },
+    )
+
+
+def test_figures_used_is_populated_from_a_name_in_the_finished_answer():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We were led by the Elder, who spoke for us [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_figure(), participant_message="who led you", pressed={}, anachronistic_term_ids=set(),
+    )
+    from engine.m4 import events
+
+    events.validate("voice_turn", result.voice_event)  # the schema floor, not just this test's own expectations
+    figures_used = result.voice_event["figures_used"]
+    assert [f["id"] for f in figures_used] == ["fix.figure.the-elder"]
+    assert figures_used[0]["matched_name"] == "the Elder"
+    assert figures_used[0]["bridge_line"].startswith("the presiding elder")
+
+
+def test_already_bridged_figure_ids_suppresses_a_repeat_within_run_turn():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["The Elder spoke for us again [[fix.witness.who-is-jesus]]."],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_figure(), participant_message="who led you", pressed={}, anachronistic_term_ids=set(),
+        already_bridged_figure_ids={"fix.figure.the-elder"},
+    )
+    assert result.voice_event["figures_used"] == []
+
+
+def test_crisis_path_voice_event_still_carries_the_required_figures_used_key():
+    """The crisis-turn voice_event is hand-built, not run through
+    find_figures_used (no detection on that path, by design) - but the
+    key still has to exist, or events.validate rejects the payload now
+    that voice_turn requires it."""
+    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=["I hear you. ", "That sounds heavy."])
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_figure(), participant_message="I don't want to be here anymore.", pressed={}, anachronistic_term_ids=set(),
+    )
+    from engine.m4 import events
+
+    events.validate("voice_turn", result.voice_event)
+    assert result.voice_event["figures_used"] == []
+
+
+def _world_with_term():
+    """_world() with one real-shaped term record added to the repository -
+    the {plain_meaning, world_word, senses, false_friend, sources} shape
+    Artifact-1's own schema defines, so these tests exercise
+    engine.m4.term_glosses against the real thing, not a synthetic guess."""
+    from dataclasses import replace
+
+    return replace(
+        _world(),
+        repository={
+            "records": [
+                {"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."},
+                {
+                    "id": "fix.term.koinonia",
+                    "record_type": "term",
+                    "world_word": "koinonia (shared life)",
+                    "plain_meaning": "The shared life and goods of the gathered community.",
+                    "quick_meaning": "Life held in common.",
+                    "senses": {"translational": "\"Was it just a potluck?\" - no: koinonia bound property, meals, and care together."},
+                    "false_friend": ["a modern support group"],
+                    "sources": [{"source_id": "fix.source.witness-scroll", "locus": "2.1", "license": "public-domain"}],
+                },
+            ]
+        },
+    )
+
+
+def test_glosses_is_populated_when_a_cited_term_is_actually_said():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We held koinonia, sharing what we had [[fix.term.koinonia]]."],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_term(), participant_message="how did you live", pressed={}, anachronistic_term_ids=set(),
+    )
+    from engine.m4 import events
+
+    events.validate("voice_turn", result.voice_event)
+    glosses = result.voice_event["glosses"]
+    assert [g["id"] for g in glosses] == ["fix.term.koinonia"]
+    assert glosses[0]["matched_name"] == "koinonia"
+    assert glosses[0]["plain_meaning"].startswith("The shared life")
+    assert glosses[0]["sourced_by"][0]["source_id"] == "fix.source.witness-scroll"
+
+
+def test_already_bridged_gloss_ids_suppresses_a_repeat_within_run_turn():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(),
+        stream_chunks=["We held koinonia again [[fix.term.koinonia]]."],
+    )
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world_with_term(), participant_message="how did you live", pressed={}, anachronistic_term_ids=set(),
+        already_bridged_gloss_ids={"fix.term.koinonia"},
+    )
+    assert result.voice_event["glosses"] == []

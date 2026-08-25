@@ -54,6 +54,8 @@ export interface ConversationTurn {
   text: string;
   kind?: FacilitatorTurn['kind'];
   citations?: VoiceTurn['citations'];
+  figuresUsed?: VoiceTurn['figures_used'];
+  glosses?: VoiceTurn['glosses'];
 }
 
 // `entry.speaker === 'participant'` alone can't discriminate this union -
@@ -63,7 +65,9 @@ export interface ConversationTurn {
 // branch, so checking for those instead narrows cleanly.
 function toTurn(entry: TranscriptEntry): ConversationTurn {
   if ('kind' in entry) return { speaker: 'facilitator', text: entry.text, kind: entry.kind };
-  if ('citations' in entry) return { speaker: entry.speaker, text: entry.text, citations: entry.citations };
+  if ('citations' in entry) {
+    return { speaker: entry.speaker, text: entry.text, citations: entry.citations, figuresUsed: entry.figures_used, glosses: entry.glosses };
+  }
   return { speaker: 'participant', text: entry.text };
 }
 
@@ -117,7 +121,15 @@ export function useConversation() {
         setState((prev) => {
           const appended: ConversationTurn[] = [];
           if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind });
-          if (result.voice) appended.push({ speaker: result.voice.speaker, text: result.voice.text, citations: result.voice.citations });
+          if (result.voice) {
+            appended.push({
+              speaker: result.voice.speaker,
+              text: result.voice.text,
+              citations: result.voice.citations,
+              figuresUsed: result.voice.figures_used,
+              glosses: result.voice.glosses,
+            });
+          }
           const closed = result.facilitator?.kind === 'close' || prev.closed;
           if (closed) clearStored();
           return { ...prev, isLoading: false, turns: [...prev.turns, ...appended], closed };
