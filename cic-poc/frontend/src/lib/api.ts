@@ -4,7 +4,7 @@
  * message, so `sendMessage` resolves with the full MessageResponse rather
  * than emitting incremental events.
  */
-import type { CreateSessionResponse, MessageResponse, TranscriptResponse } from '../types/conversation';
+import type { CreateSessionResponse, MessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 
 const API_BASE = '/api';
 
@@ -53,6 +53,14 @@ export async function sendMessage(
     headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode) },
     body: JSON.stringify({ text, client_msg_id: clientMsgId }),
   });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+  return response.json();
+}
+
+export async function getWorlds(): Promise<WorldListResponse> {
+  const response = await fetch(`${API_BASE}/worlds`);
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));
   }
