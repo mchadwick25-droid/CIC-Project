@@ -166,3 +166,53 @@ services:
       # Ministry/Technology/Table/GO_LIVE_CHECKLIST_2026-08-10.md.
       - key: LLM_MODEL
         value: claude-sonnet-5
+
+  # PHASE-1-LAUNCH.md Stage 5, added 2026-08-24 - a SECOND, independent
+  # service, standing up alongside cic-poc above rather than replacing it.
+  # GATE 5 only asks that this answer on its OWN URL and hold a full
+  # conversation; moving churchinconversation.com's link onto it and
+  # retiring cic-poc is Stage 6, "Mark's call to fire", not this one.
+  # Removing cic-poc's own entry above before that stage would desync
+  # Render's Blueprint from the service actually serving live traffic.
+  #
+  # One Docker service, not two: engine/api's own build (engine/Dockerfile)
+  # now also builds cic-poc/frontend and serves it same-origin (Mark's
+  # call, 2026-08-24) - see engine/Dockerfile and engine/api/app.py's
+  # static-file mount for how. No CORS_ORIGINS needed, unlike cic-poc
+  # above.
+  #
+  # AWS credentials are marked sync: false on purpose - never committed,
+  # set in the Render dashboard (Settings -> Environment) after the first
+  # deploy. engine.provider.bedrock.make_client() reads them via boto3's
+  # standard credential chain, not a CIC_API_-prefixed var - the exact key
+  # names Render needs are AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY (and
+  # AWS_SESSION_TOKEN if the identity uses temporary credentials).
+  # PHASE-1-LAUNCH.md Stage 3's own caution still holds: cic-bedrock-dev is
+  # a DEV identity - production wants its own, scoped to Bedrock invoke on
+  # the models actually used (CIC_API_VOICE_MODEL_PATTERN/
+  # CIC_API_SAFETY_MODEL_PATTERN below, left at their code defaults).
+  #
+  # STILL OPEN before this can actually deploy (Stage 5's own flag): which
+  # branch Render's blueprint connection uses is a Render dashboard
+  # setting, not something any file in this repo records - confirm it
+  # before connecting this service.
+  #
+  # events.db/usage.db (engine/api/config.py's own defaults) are NOT on a
+  # Render Disk here, so they are ephemeral container storage - wiped on
+  # every restart and every redeploy, the same failure shape cic-poc's own
+  # Supabase-durability comment above already documented once for the
+  # previous system. Fine for a short pilot's worth of restarts; add a
+  # Render Disk before relying on transcripts surviving a redeploy.
+  - type: web
+    name: cic-engine
+    runtime: docker
+    dockerfilePath: ./engine/Dockerfile
+    dockerContext: .
+    plan: standard
+    envVars:
+      - key: CIC_API_REGION
+        value: us-east-1
+      - key: AWS_ACCESS_KEY_ID
+        sync: false
+      - key: AWS_SECRET_ACCESS_KEY
+        sync: false
