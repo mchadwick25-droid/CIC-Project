@@ -12,7 +12,7 @@ REQUIRED_KEYS: dict[str, set[str]] = {
     "participant_message": {"text", "client_msg_id"},
     "gate_decision": {"asks", "register", "out_of_scope", "modern_terms", "safety", "route", "directive", "degraded"},
     "facilitator_turn": {"kind", "text"},
-    "voice_turn": {"speaker", "text", "citations", "glosses", "quote_offers", "attempts_meta"},
+    "voice_turn": {"speaker", "text", "citations", "glosses", "figures_used", "quote_offers", "attempts_meta"},
     "retrieval_surfaced": {"chunk_ids"},
     "safety_state": {"track", "level", "accumulator"},
     "turn_committed": {"turn_no"},
