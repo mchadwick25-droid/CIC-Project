@@ -110,3 +110,30 @@ export interface ApiError {
   status: number;
   detail: string;
 }
+
+// GET /api/worlds - engine.api.wiring.list_worlds's compiled/frame.json
+// projection, per formation world. The doorway's real content source
+// (Program-Spec SS165's "detailed world card": display name, period,
+// place, thinness statement, starter questions), replacing the
+// hand-copied-at-build-time data data/worlds.ts carried until now.
+export interface WorldStarter {
+  cell: string;
+  text: string;
+}
+
+export interface WorldSummary {
+  world_key: string;
+  census_id: string | null;
+  display_name: string | null;
+  representative: { name: string; role_label: string } | null;
+  time_window: { start: number; end: number } | null;
+  place: string | null;
+  thinness_statement: string | null;
+  horizon: string | null;
+  living_tradition_flag: boolean;
+  starters: WorldStarter[];
+}
+
+export interface WorldListResponse {
+  worlds: WorldSummary[];
+}

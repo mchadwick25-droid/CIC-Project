@@ -120,3 +120,149 @@ the provenance layer, and the one transparency line. Not a protocol.
 **Open, and deliberately not resolved here:** platform and phase placement (this does not
 obviously belong to any rung of the existing Alpha → Beta → Phase 1 → Phase 2+ ladder),
 whether it ships inside the existing app or as its own surface, and its cost shape.
+
+---
+
+## 2026-08-25 — Three-level transparency: scoped as its own dedicated build, not a port
+
+**Origin.** Mark used the newly-launched pilot (`cic-engine`) and reported three real
+problems: (1) the three-level transparency system (highlight → hover → click) is not
+working; (2) the Facilitator gives no greeting at session start, just a prompt at the
+bottom; (3) the world-selection cards are too thin to build participant confidence about
+"which Christian world" they're entering. All three are real product gaps, not launch bugs.
+
+**Status: SCOPED, NOT STARTED.** A full launch prompt for a new dedicated thread has been
+written and handed to Mark. Items 2 and 3 are deliberately deferred — Mark's own
+sequencing — to start only once transparency work is underway.
+
+### Decisions
+
+1. **Transparency gets its own thread, not a copy-over.** Mark: *"this is a bigger project
+   than importing or copying over what was there... i want it done very well, designed
+   well, built well and implemented well."* The old `cic-poc` components
+   (`GlossHighlight`, `LexiconModal`, `Level3Panel`, `CitationMarker`, `CitationModal`) are
+   reference for what was tried, not a working baseline to port — they were removed from
+   the tree and the underlying wiring (glosses, figures, citation depth) was never
+   finished even there.
+
+2. **Scope is all three tracks together — highlight, hover, and click** — not a phased
+   subset. Mark's answer to the scope question: *"all three."*
+
+3. **The heart of it is discovery, not comprehension-aid or credibility-verification —
+   Mark's correction, adopted.** I offered a binary framing (don't let someone get stuck
+   on a word / let someone verify a claim); Mark rejected both for something more central:
+   *"its discovery, we may think differently or understand words differently. its deeper
+   discovery."* The target is a participant noticing where their own assumed meaning
+   diverges from the world's own frame — not just glossing an unfamiliar term. This
+   reframing governs what content the system should surface, not just how it displays it.
+
+4. **Items 2 (Facilitator greeting) and 3 (richer world cards) wait.** Mark: work on those
+   "after we get the work on the 3 level transparency working." Both remain real,
+   confirmed problems — greeting text drafts (A/B) are drafted and awaiting his pick;
+   richer cards have real unused source material identified (`world_core`'s `horizon`
+   field, compiled `frame.frames.general_seeker.starters`) — just not started.
+
+### What the launch prompt carries forward
+
+Grounding so the new thread doesn't have to rediscover it: the *current* gap is
+structural (glosses are hardcoded empty, figure records are compiled but never wired to
+any API or frontend path, citations render flat with no Level 2/3 depth) and distinct from
+the *historical* diagnosis in `VR_1A_Transparency_Gap_2026-08-09.md` (the old system's gap
+was mostly unfamiliar names/figures, not generic vocabulary). The interaction design is
+already decided and final in `CiC_Full_UX_Design_V1_0.md` §9.1 — side panel / bottom sheet
+only, never a centered modal. A real, authored, reviewed content layer already exists
+across all six worlds and is currently unused by anything — `modern_contrast` (60 records)
+and `senses.translational` (85 records) — that does exactly the "deeper discovery" work
+Mark described once he named it, and should be the backbone of what the click level shows.
+`transparency_reach.py` is the existing measurement instrument (report-only by design, no
+pass/fail bar, to avoid a "gloss everything" pressure that would make the Representative
+lecture) and should be used to check the finished build, not just diagnosed as a tool.
+
+**Model choice for the new thread:** recommended Sonnet 5 for the build (compiler wiring,
+new API endpoint, frontend components — well-specified engineering, not open-ended
+judgment), with Opus 5 called in specifically for the content-selection quality pass
+across the six worlds and a design-fidelity check against the UX spec — not as a blanket
+reviewer. Fable 5 not recommended: its premium is for resolving ambiguity, and the scope,
+framing, and interaction design here are already decided.
+
+### Next action
+
+Mark takes the launch prompt to a new thread and starts the build there. Once transparency
+is working, resume items 2 and 3 in this thread per his sequencing.
+
+---
+
+## 2026-08-25 — Richer world cards/doorway built; Facilitator greeting drafted, awaiting pick
+
+**Status.** Transparency (the prior entry) shipped and launched in its own thread. Picked
+up items 2 and 3, deferred from the 2026-08-25 pilot feedback per Mark's own sequencing.
+
+### Item 3 (richer cards) — DONE, built and pushed
+
+**Concrete finding, not just a vibe:** the world-list card never rendered the world's own
+display name at all — only the Representative's personal name and role (e.g. "Chloe ·
+Household Leader"). A participant scanning six cards had no direct way to tell *which
+Christian world* a card even was, which is exactly Mark's stated complaint ("clarity of
+wth chrsitian world"). Fixed directly: the tradition's display name now leads every card,
+in its accent color.
+
+**The doorway went further**, closing real gaps against Program-Spec SS165's own
+definition of "the detailed world card" (display name/period/place, thinness statement,
+the living-tradition distinction where flagged, self-disclosure, persona provenance,
+starter questions) — most of which the doorway had never carried:
+
+- **horizon** — world_core's own scene-setting paragraph, already authored and already
+  compiled into the voice's own system prompt, but never surfaced to a participant. Now
+  compiled into `compiled/frame.json` too (`engine/m2/builders.py::build_frame_json`) and
+  shown as the doorway's lead paragraph.
+- **Living-tradition distinction** and **self-disclosure/persona provenance** — both
+  quoted verbatim from the spec itself (O0 for "who built this and what it hopes";
+  SS165/SS166 for the living-tradition sentence and the persona-provenance line). Verbatim
+  quotation of language Mark already approved at the spec level, so this did NOT need a
+  fresh draft-and-approve round the way new Facilitator copy does.
+- **Starter questions** — sampled from the compiled frame's real per-cell canon
+  (identity/personal/critical framings, not an arbitrary first three), so a participant
+  can see the actual range of what's askable before committing.
+
+**New surface:** `GET /api/worlds`, reading each formation world's real compiled
+frame.json through the same load path a session uses — the frontend's `data/worlds.ts`
+had carried its own comment since Stage 4 admitting it hand-copied the registry because
+"no /api/worlds endpoint exists yet." That endpoint exists now; the frontend fetches live
+and keeps only what the registry never carried (portrait image, accent color, display
+order) as local assets. All 7 registry packages (6 formation worlds + the fix fixture)
+recompiled to carry `horizon`; determinism and staleness both green; 349 backend tests
+pass; verified live in a browser against the no-spend dev server (world list, doorway,
+deep link, and full conversation flow all screenshotted and working).
+
+### Item 2 (Facilitator greeting) — DONE, built and pushed
+
+The conversation screen opened with no introduction — confirmed still true, and exactly
+the gap Mark named ("no introduction, do greeting"). `facilitator_turn`'s `"door"` kind
+had been declared in the event schema since early in this build but was never emitted
+anywhere in the codebase (confirmed by direct grep, not memory).
+
+Two drafts were prepared, same discipline SYSTEM_NATURE/CHECK_IN/DEPENDENCY_CHECK went
+through (`engine/m4/facilitator_turns.py`) — plain, honest, no invented warmth the system
+hasn't earned, keeping the SS4.3a convention that the Facilitator names itself plainly
+while the Representative is named by its own registry name. **Mark picked Option A**
+("Welcome — I'm the Facilitator. I don't belong to any world; I'm just here to keep this
+space honest. You're about to speak with {representative_name}, {role_label} of
+{display_name}. Ask anything you like — {representative_name} answers only from what's
+actually known of this world, and will tell you plainly when the record runs out.") —
+Option B (the fuller "door metaphor" draft) was not carried into code.
+
+Wired exactly as scoped: `door_turn()` added to `engine/m4/facilitator_turns.py`;
+`engine/api/wiring.py::create_session` appends it right after `open_session()` commits
+`session_started` (the entrance seal only restricts who may write `session_started`
+itself, not what else `create_session` appends after it); the frontend's
+`useConversation.begin()` now fetches the transcript once session creation resolves,
+rather than starting the screen from an empty turns array. All existing event-sequence
+and transcript-index test assertions updated for the new leading `facilitator_turn`
+event; 349 backend tests pass; verified live against the no-spend dev server — the
+greeting renders as the conversation's first turn, correctly slot-filled per world.
+
+### Next action
+
+None outstanding from the 2026-08-25 pilot feedback — all three reported problems
+(transparency, greeting, cards) are now built and shipped. Open items going forward
+belong to whatever Mark raises next.

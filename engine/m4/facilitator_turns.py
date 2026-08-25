@@ -12,15 +12,26 @@ Governance_V3.6/V3.7 and CiC-Program-Spec.md SS71/76-77/210. This replaces
 the earlier placeholder text a participant asking "are you an AI?" (and
 three of the other six routes) used to receive.
 
-DEPENDENCY_CHECK's `{representative_name}` slot is filled at call time by
-engine.m4.turn from `world.frame["representative"]["name"]` - the same
-registry-authored name/role_label pair records/worlds.yaml carries per
-world (compiled into compiled/frame.json by engine.m2.builders.
-build_frame_json) and already used for the doorway portrait caption. Mark's
-own ruling: the Facilitator names itself plainly as "the Facilitator" - no
-invented persona name for the Facilitator itself - while the Representative
-is named by its own registry name, so the participant can tell the two
-presences apart in the one moment they speak in the same beat (SS4.3a).
+STATUS, 2026-08-25: DOOR is also now Mark-approved - picked as "Option A"
+from a two-draft choice (the fuller "door metaphor" draft was Option B,
+not carried into code) logged in Ministry/Technology/
+CiC_FrontEnd_Decision_Log.md. Closes a different gap than the six routing
+turns above: those replace placeholder text an existing route already
+produced, where DOOR gives the conversation screen its first-ever opening
+line - `"door"` has been a valid facilitator_turn kind in engine.m4.events
+since the event catalog was written, but nothing ever emitted one.
+
+DEPENDENCY_CHECK's `{representative_name}` slot (and DOOR's
+`{representative_name}`/`{role_label}`/`{display_name}`) are filled at
+call time from `world.frame["representative"]["name"]`/`["role_label"]`
+and `world.frame["display_name"]` - the same registry-authored fields
+records/worlds.yaml carries per world (compiled into compiled/frame.json
+by engine.m2.builders.build_frame_json) and already used for the doorway
+screen. Mark's own ruling: the Facilitator names itself plainly as "the
+Facilitator" - no invented persona name for the Facilitator itself - while
+the Representative is named by its own registry name, so the participant
+can tell the two presences apart in the one moment they speak in the same
+beat (SS4.3a).
 
 One thing below is NOT yet finished, flagged rather than hidden:
 
@@ -59,6 +70,23 @@ SYSTEM_NATURE = FacilitatorTurn(
         "ground, it's built to tell you it doesn't have, not to invent. It isn't a person, it isn't the "
         "church, and it doesn't speak for anyone living.\n\n"
         "That's the honest shape of it - whenever you're ready, let's keep going."
+    ),
+)
+
+# Program-Spec SS71: "the one voice belonging to no world, visible at door,
+# thresholds, and close." The doorway SCREEN (Doorway.tsx) already gives the
+# fuller orientation - mission, thinness, living-tradition distinction,
+# starter questions - before a participant ever clicks "Begin"; this turn's
+# job is the handoff into the conversation itself, kept short on purpose
+# (spec principle 14, "witness, not a home": the Facilitator does minimal
+# scaffolding here, not a warm monologue the doorway already covered).
+DOOR = FacilitatorTurn(
+    kind="door",
+    text=(
+        "Welcome - I'm the Facilitator. I don't belong to any world; I'm just here to keep this space "
+        "honest. You're about to speak with {representative_name}, {role_label} of {display_name}. Ask "
+        "anything you like - {representative_name} answers only from what's actually known of this "
+        "world, and will tell you plainly when the record runs out."
     ),
 )
 
@@ -139,6 +167,15 @@ def dependency_check_turn(representative_name: str) -> dict:
     doorway portrait already carries, not composed here."""
     text = DEPENDENCY_CHECK.text.format(representative_name=representative_name)
     return {"kind": DEPENDENCY_CHECK.kind, "text": text, "resources_appended": False}
+
+
+def door_turn(*, representative_name: str, role_label: str, display_name: str) -> dict:
+    """All three slots come from world.frame (registry-authored, compiled by
+    engine.m2.builders.build_frame_json) - the same fields the doorway
+    screen already showed before the participant clicked "Begin", not
+    composed here."""
+    text = DOOR.text.format(representative_name=representative_name, role_label=role_label, display_name=display_name)
+    return {"kind": DOOR.kind, "text": text}
 
 
 def etic_turn(out_of_scope_class: str) -> dict:

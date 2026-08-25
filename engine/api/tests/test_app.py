@@ -32,6 +32,19 @@ def test_health(store, usage_store, world_loader, registry):
     assert resp.json() == {"status": "ok"}
 
 
+def test_list_worlds(store, usage_store, world_loader, registry):
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
+    resp = http.get("/api/worlds")
+    assert resp.status_code == 200
+    worlds = resp.json()["worlds"]
+    assert "fix" not in {w["world_key"] for w in worlds}
+    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation")
+    pahc = next(w for w in worlds if w["world_key"] == "pahc")
+    assert pahc["display_name"] == "Post-Apostolic House-Church Christianity"
+    assert pahc["horizon"]
+    assert pahc["starters"]
+
+
 def test_create_session_default_world(store, usage_store, world_loader, registry):
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
     resp = http.post("/api/session", json={})
@@ -136,7 +149,8 @@ def test_transcript_reflects_committed_turns(store, usage_store, world_loader, r
     assert resp.status_code == 200
     body = resp.json()
     assert body["turn_count"] == 1
-    assert body["transcript"][0] == {"speaker": "participant", "text": "who was Jesus"}
+    assert body["transcript"][0]["kind"] == "door"
+    assert body["transcript"][1] == {"speaker": "participant", "text": "who was Jesus"}
 
 
 def test_transcript_missing_session_401(store, usage_store, world_loader, registry):

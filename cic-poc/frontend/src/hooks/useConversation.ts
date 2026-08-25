@@ -99,7 +99,20 @@ export function useConversation() {
     try {
       const { session_id, session_code } = await createSession(worldKey);
       writeStored({ sessionId: session_id, sessionCode: session_code, worldKey });
-      setState({ sessionId: session_id, sessionCode: session_code, worldKey, turns: [], closed: false, isLoading: false, error: null });
+      // create_session already appends the Facilitator's door turn (its
+      // first-ever line - engine/api/wiring.py) before this ever returns,
+      // so one transcript fetch picks it up rather than starting the
+      // screen with an empty transcript and no introduction.
+      const transcript = await getTranscript(session_id, session_code);
+      setState({
+        sessionId: session_id,
+        sessionCode: session_code,
+        worldKey,
+        turns: transcript.transcript.map(toTurn),
+        closed: transcript.closed,
+        isLoading: false,
+        error: null,
+      });
       return session_id;
     } catch (error) {
       const message = error instanceof ApiRequestError ? error.message : 'Could not start a conversation.';
