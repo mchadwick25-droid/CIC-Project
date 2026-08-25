@@ -9,12 +9,11 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 
 - `index.html` — Home
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
-- `support.html` — **Pulled from nav 2026-07-22, no page currently links here.** Funding
-  strategy and support gifts are held for Phase 1 of the launch, per Mark's direct
-  decision — the first priority after go-live is participant feedback, not a giving ask.
-  File kept on disk as a status record, not deleted; see its own header comment and
-  `Ministry/Features/Funding-Strategy/` (a converged five-phase roadmap already exists
-  there) for what happens when this picks back up.
+- `support.html` — **Back in nav since 2026-08-06** as "Get Involved," rewritten with
+  real cost figures and two named funds (Accessibility, Academic Review); see its own
+  header comment and `Ministry/Features/Funding-Strategy/Decision-Log.md` for the
+  derivation. Checkout is a plain "contact us" mailto for now — real Stripe Payment
+  Link checkout is tracked, separate follow-up work, not a break.
 
 Copy is pulled directly from `Vision, Mission, Convictions, and Foundational
 Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.

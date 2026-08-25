@@ -413,20 +413,12 @@ body.filtering #art .thread{opacity:.1}
 #yearBadge{font:inherit;font-size:.56rem;line-height:1.2;color:var(--muted);
   background:var(--panel);border:1px solid var(--line);padding:.25rem .3rem;
   width:52px;text-align:center;letter-spacing:.01em}
-#tray{position:fixed;left:0;right:0;bottom:0;z-index:45;background:var(--ink);color:var(--bg);
-  padding:.5rem .9rem calc(.5rem + env(safe-area-inset-bottom));display:none;align-items:center;gap:.5rem;flex-wrap:wrap}
-#tray.on{display:flex}
-#tray .tchip{font-size:.78rem;border:1px solid var(--gold);padding:.15rem .3rem .15rem .55rem;display:inline-flex;gap:.25rem;align-items:center}
-#tray .tchip button{background:none;border:none;color:inherit;cursor:pointer;font-size:.9rem}
-#tray .tray-note{font-size:.72rem;font-style:italic;opacity:.75}
-#tray .go{margin-left:auto;font:inherit;font-weight:700;font-size:.85rem;background:var(--gold);color:var(--ink);
-  border:none;padding:.45rem .9rem;cursor:pointer}
 .node:focus-visible{outline:2px solid var(--goldhi);outline-offset:1px}
 /* legend/rail/control buttons relied on the browser's bare default outline --
    works, but inconsistent across browsers and easy to lose against this
    theme's custom button chrome. Explicit, matches the node's own treatment. */
 #legend button:focus-visible,#regionlegend button:focus-visible,#rail button:focus-visible,
-#controls .chip:focus-visible,#tray button:focus-visible,#sheet .act:focus-visible,
+#controls .chip:focus-visible,#sheet .act:focus-visible,
 #sheet .close:focus-visible,#sheet .edge b:focus-visible{
   outline:2px solid var(--goldhi);outline-offset:1px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
@@ -453,7 +445,7 @@ body.list-view #mapViewport,body.list-view #railWrap{display:none}
    needed here, and an earlier attempt at one fought the shared stylesheet's
    cascade instead of matching it. */
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
-@media print{#controls,#railWrap,#tray,.site-header,.site-footer,#tip,#sheet,#scrim{display:none!important}
+@media print{#controls,#railWrap,.site-header,.site-footer,#tip,#sheet,#scrim{display:none!important}
   body{background:#fff}}
 </style>
 <link rel="stylesheet" href="assets/style.css">
@@ -522,7 +514,6 @@ body.list-view #mapViewport,body.list-view #railWrap{display:none}
   <div id="yearBadge" aria-live="polite" aria-label="Years currently in view"></div>
   <nav id="rail" aria-label="Jump to era"></nav>
 </div>
-<div id="tray" aria-live="polite" title="Up to three seats at the Table"><span id="traychips"></span><button class="go" id="go">Sit down at the Table</button></div>
 <div id="tip"></div>
 <div id="scrim"></div>
 <div id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" tabindex="-1" inert><button class="close" id="sheetClose" aria-label="Close">×</button><div class="grab"></div><div id="sheetBody"></div></div>
@@ -1707,7 +1698,16 @@ function openSheet(id){
         pass; this is the honest interim line until then. */
      :live?`<p class="note">This world's full source registry isn't listed here yet, but it exists and grounds every claim the Representative makes — ask about sources directly in the conversation.</p>`
      :`<p class="note">Source base pending — ${esc(eraState)}</p>`}`;
-  if(live)h+=`<button class="act" data-act="interview" data-aid="${m.id}">Interview ${esc(m.entry.representativeName)}</button><button class="act" data-act="add" data-aid="${m.id}">Add to the Table</button>`;
+  /* A second "Add to the Table"/multi-select tray used to sit next to this
+     button, letting a visitor pick up to three worlds and hand off with
+     mode=table -- but the live engine seats exactly one world per session
+     (spec O9) and silently dropped the other two with no explanation
+     (2026-08-25 finding). Removed rather than capped at one: Interview
+     already IS the honest one-world hand-off, so there was nothing left
+     for a one-seat "tray" to do that this button doesn't already do in a
+     single click. Table's own real multi-select UI is Mark's separate,
+     in-progress Table thread's to design -- not this fix's to anticipate. */
+  if(live)h+=`<button class="act" data-act="interview" data-aid="${m.id}">Interview ${esc(m.entry.representativeName)}</button>`;
   /* Plain-language status, moved to the END of the document (Mark,
      2026-08-03): "not sure people want to know our internal decision
      making criteria" up front. Four categories only -- yes built /
@@ -1969,46 +1969,18 @@ if(isMobileDevice){
   addEventListener('scroll',updateRailHighlight,{passive:true});
 }
 updateYearBadge(0);
-/* ---- B5: tray + app hand-off (ids straight from the census — no hand map) ----
-   TRAY_MAX must match WorldSelector.tsx's MAX_WORLDS (currently 3, Mark's
-   2026-08-01 cap decision) - the app silently drops any seat past its own
-   cap, so a mismatch here let a visitor fill five seats and lose the last
-   two with no explanation (2026-08-05 full-system review, Readiness P1-5). */
-let tray=[];const TRAY_MAX=3;
-/* Go-button label reflects seat count, same emergent-mode naming
-   WorldSelector.tsx already uses ("Begin a Deep Interview with X" for one
-   seat, "Begin — Compare Worlds: X, Y" for two or three) - previously a
-   static "Sit down at the Table" regardless of how many were picked
-   (2026-08-05 full-system review, Accessibility P1-1/P1-2 remainder). */
-function goLabel(){
-  if(tray.length===0)return'Sit down at the Table';
-  const names=tray.map(id=>byId[id].entry.representativeName);
-  return tray.length===1
-    ?`Begin a Deep Interview with ${names[0]}`
-    :`Begin — Compare Worlds: ${names.join(', ')}`;
-}
-function renderTray(){
-  const t=document.getElementById('tray');
-  t.classList.toggle('on',tray.length>0);
-  document.getElementById('traychips').innerHTML=tray.map(id=>{
-    const m=byId[id];
-    return `<span class="tchip">${esc(m.entry.representativeName)}<button data-rm="${id}" aria-label="Remove ${esc(m.entry.representativeName)} from the table">×</button></span>`;
-  }).join(" ")+(tray.length>=TRAY_MAX?'<span class="tray-note">Table is full — up to three seats</span>':"");
-  document.getElementById('go').textContent=goLabel();
-}
+/* ---- B5: app hand-off (ids straight from the census — no hand map) ----
+   Single-world only: the live engine seats exactly one world per session
+   (spec O9). A multi-select "tray" letting a visitor pick up to three
+   worlds used to hand off with mode=table, silently dropping the other
+   two on arrival with no explanation (2026-08-25 finding) -- removed
+   rather than patched, since the engine's real cap makes a multi-seat
+   picker a promise this site can't currently keep. Table's own eventual
+   multi-select UI belongs to Mark's separate, in-progress Table thread. */
 function launch(ids,mode){location.href=LIVE_APP_URL+'/?worlds='+ids.join(',')+'&mode='+mode;}
-document.getElementById('tray').addEventListener('click',ev=>{
-  const rm=ev.target.closest('[data-rm]');
-  if(rm){tray=tray.filter(x=>x!==rm.dataset.rm);renderTray();return;}
-  if(ev.target.id==='go'&&tray.length)launch(tray,tray.length>1?'table':'interview');
-});
 sheet.addEventListener('click',ev=>{
   const a=ev.target.closest('[data-act]');if(!a)return;
   if(a.dataset.act==='interview'){launch([a.dataset.aid],'interview');return;}
-  if(a.dataset.act==='add'){
-    if(!tray.includes(a.dataset.aid)&&tray.length<TRAY_MAX)tray.push(a.dataset.aid);
-    renderTray();closeSheet();
-  }
 });
 const tb=document.getElementById('themeBtn');let themes=["auto","light","dark"],ti=0;
 tb.addEventListener('click',()=>{ti=(ti+1)%3;const t=themes[ti];

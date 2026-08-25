@@ -57,7 +57,7 @@ form.feedback textarea{min-height:5rem;resize:vertical}
   <section class="page-section">
     <div class="optin">This is optional, and it's only for us &mdash; to help us see clearly what's working and what isn't as we keep building. Answer whatever feels comfortable to share, and skip anything you'd rather not.</div>
 
-    <form class="feedback" action="mailto:info@churchinconversation.com" method="post" enctype="text/plain">
+    <form class="feedback" id="feedbackForm">
       <label for="perspective">Which of the four perspectives did you engage as?</label>
       <select id="perspective" name="Perspective">
         <option>General</option>
@@ -94,10 +94,53 @@ form.feedback textarea{min-height:5rem;resize:vertical}
 
       <div class="submit-row">
         <button type="submit" class="btn primary">Send this to us</button>
+        <p style="font-family:'Alegreya Sans',sans-serif;font-size:.78rem;color:var(--muted);margin-top:.8rem">This opens your email app with everything filled in &mdash; you still send it yourself. Nothing open? Email us directly at <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
       </div>
     </form>
   </section>
 </main>
+
+<script>
+(function(){
+"use strict";
+/* Was action="mailto:..." + enctype="text/plain" -- an actual FORM POST to a
+   mailto: action, which several major browsers silently no-op instead of
+   opening the mail client (real, unreliable, and gave the visitor no signal
+   that nothing happened -- flagged 2026-08-25). A plain mailto: link click is
+   reliably supported everywhere a form-post-to-mailto isn't, so this builds
+   the same link by hand from the field values and navigates to it exactly
+   the way clicking an <a href="mailto:..."> would. Still no server, still no
+   account created anywhere, still the participant's own email client sending
+   it -- same "no accounts, no gatekeeping" shape as the rest of this site. */
+const form = document.getElementById('feedbackForm');
+form.addEventListener('submit', function(e){
+  e.preventDefault();
+  const val = id => (document.getElementById(id).value || '').trim();
+  const line = (label, id, fallback) => label + ': ' + (val(id) || fallback);
+  const body = [
+    line('Perspective', 'perspective', ''),
+    line('Tradition(s)', 'tradition', '(not answered)'),
+    '',
+    line('Confusing', 'confusing', '(not answered)'),
+    '',
+    line('Invented or overstated', 'invented', '(not answered)'),
+    '',
+    line("What it opened", 'opened', '(not answered)'),
+    '',
+    line('Fundable potential', 'fundable', '(not answered)'),
+    '',
+    line('Anything else', 'else', '(not answered)'),
+    '',
+    line('Name', 'name', '(anonymous)'),
+    line('Email', 'email', '(not given)')
+  ].join('\n');
+  const mailto = 'mailto:info@churchinconversation.com'
+    + '?subject=' + encodeURIComponent('Pilot Feedback')
+    + '&body=' + encodeURIComponent(body);
+  window.location.href = mailto;
+});
+})();
+</script>
 
 <footer class="site-footer">
   <div class="wrap">

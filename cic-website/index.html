@@ -29,6 +29,16 @@
   text-transform:uppercase;color:var(--madder);font-weight:600;text-align:center;margin:0 0 .6rem}
 .table-section .scope{text-align:center;color:var(--muted);font-size:1.02rem;margin:0 auto 2.2rem;max-width:42rem;text-wrap:balance}
 
+/* Access ask, added 2026-08-25 (Public Pilot Access thread) — deliberately
+   quiet: below the primary hero actions, never in the hero, so it never
+   competes with "try a conversation" for a first-time visitor's attention.
+   Copy reviewed for tone/credibility by an Opus 5 pass before shipping,
+   same discipline as any other new participant-facing text on this site. */
+.access-note-wrap{max-width:60rem;margin:0 auto;padding:0 1.5rem 3rem;text-align:center}
+.access-note{font-family:'Alegreya Sans',sans-serif;font-size:.85rem;color:var(--muted);max-width:30rem;margin:0 auto;text-wrap:balance}
+.access-note a{color:var(--muted);text-decoration-color:var(--rule)}
+.access-note a:hover,.access-note a:focus-visible{color:inherit;text-decoration-color:currentColor}
+
 /* Representative carousel — chronological, era-tinted, click for the same
    info the program's own world tile shows, then a direct link into a free
    Deep Interview (never a route into the paid multi-representative Table).
@@ -147,6 +157,10 @@
       <a class="btn primary" id="launch-link" href="atlas-v3.html">Come and join us at the Table</a>
       <a class="btn secondary" href="atlas-v3.html">Explore the Timeline</a>
     </div>
+  </section>
+
+  <section class="access-note-wrap">
+    <p class="access-note">Running these conversations costs real money, which limits how many people can use them. If you'd like to help with that, see <a href="support.html">Get Involved</a>.</p>
   </section>
 </main>
 

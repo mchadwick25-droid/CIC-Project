@@ -16,6 +16,17 @@
   is real, separate follow-up work (the current endpoint only supports one
   undifferentiated amount, not a fund selection) - do not build that silently
   into a future pass without flagging it as its own step.
+
+  Cost figures refreshed 2026-08-25 (Public Pilot Access thread): the prior
+  $2/$5-per-hour pair was measured against the pre-rebuild system's cost
+  model (Anthropic Console API, different provider/model routing) - never
+  re-measured against this pilot's engine (AWS Bedrock), which the project's
+  own spec (principle 13) treats as a hard "no $/turn figure until
+  invoice-reconciled" rule. The $2/hr figure is kept as a carried-forward
+  estimate, now labeled as such rather than implied-fresh; the $5/hr
+  three-person figure is cut because the Table (multi-person) feature it
+  described isn't live in this pilot yet - Mark is building it separately.
+  Wording passed an Opus 5 tone/credibility review before shipping.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -62,7 +73,7 @@
 
   <section class="page-section" id="cost">
     <h2>What It Actually Costs</h2>
-    <p>An interview with one of our historical Christian movement Representative voices costs around <strong>$2 an hour</strong> to live-generate. A full three-person conversation costs more — <strong>up to $5 an hour</strong>, depending on pace and complexity. Each added voice adds real cost.</p>
+    <p>A conversation with one of our Representative voices costs us about <strong>$2 an hour</strong> in computing. That figure comes from metering our earlier setup — we've since rebuilt the engine and haven't reconciled it against a current bill, so treat it as a close estimate rather than an audited one. Multi-person conversations aren't running yet; when they are, each added voice will add real cost on top of that.</p>
   </section>
 
   <section class="page-section" id="response">
@@ -90,6 +101,18 @@
 
     <p style="font-size:0.92rem;color:var(--muted);">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible.</p>
 
+    <!-- Recommended next step for real checkout, not built here (2026-08-25):
+         Stripe Payment Links, one per fund (Accessibility, Academic Review) —
+         no server dependency, matches this project's own "no accounts, no
+         feature-gating" design philosophy, and avoids re-creating the old
+         giving.py/cic-poc backend's exact failure mode (it silently
+         disappeared when that service was suspended). BLOCKED until Mark
+         checks the Stripe dashboard directly: the account was flagged under
+         Stripe's "fundraising by nonprofits/charities" restricted category
+         (Faithways is a for-profit PBC, not a charity) - a response was
+         submitted with a Sept 4 deadline and its resolution was never
+         confirmed. Creating the Payment Links and clearing that flag are both
+         Mark's own Stripe-dashboard actions, not this thread's to take. -->
     <p>Direct giving isn't set up on this page yet — if you'd like to give to either fund, reach out and we'll sort it out with you personally:</p>
     <p style="text-align:center;margin:1.6rem 0;">
       <a class="btn secondary" href="mailto:info@churchinconversation.com?subject=Supporting%20Church%20in%20Conversation">info@churchinconversation.com</a>
