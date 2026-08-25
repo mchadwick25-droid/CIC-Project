@@ -155,12 +155,17 @@ SESSION_CAP = FacilitatorTurn(
     kind="close",
     text=(
         "This is the Facilitator stepping in - we've reached the end of what one sitting with "
-        "{representative_name} is built to hold: ten exchanges, deep enough to be worth having, "
-        "not so long that it starts to feel unbounded.\n\n"
-        "This conversation is closed now, but nothing in it is lost - it stayed exactly what it was "
-        "while it lasted. If there's more you want to explore, the honest way is a fresh conversation: "
-        "with {representative_name} again, starting new, or with one of this project's other worlds and "
-        "voices. Either way, you're welcome back."
+        "{representative_name} is built to hold: ten exchanges.\n\n"
+        "I want to be honest with you about why there's a limit, not just that there is one. Every "
+        "exchange here is a real, billed call to the model speaking with you - it costs actual money to "
+        "run, every time, for every conversation. Ten is where we can hold that line honestly right now.\n\n"
+        "This conversation is closed, but nothing in it is lost - it stayed exactly what it was while it "
+        "lasted. If it was worth having, and you're able, this project runs on people who support it "
+        "directly - churchinconversation.com/support.html has more on that, and what the giving actually "
+        "goes toward. We're also working toward a paid option built specifically to let a conversation "
+        "like this run longer, for anyone who wants to go deeper than ten exchanges gives.\n\n"
+        "Either way, you're welcome to start fresh - with {representative_name} again, or with one of "
+        "this project's other worlds and voices."
     ),
 )
 
@@ -172,6 +177,21 @@ def session_cap_turn(representative_name: str) -> dict:
     Operations.md's "per-session turn cap", DECIDABLE default 40, resolved
     to 10 by Mark 2026-08-25) is complete and tested; the copy itself is
     swappable without touching engine.m4.turn's routing.
+
+    Names its own cost honestly (Mark's direction, 2026-08-25: "we need to
+    be honest about cost, each round adding to the cost, still gracious but
+    may inspire giving") rather than only naming the limit - and points to
+    cic-website/support.html, the project's own already-published Get
+    Involved page (Faithways Studio, Inc.), rather than inventing new
+    giving mechanics here. Deliberately carries no specific dollar figure:
+    support.html's own published rate ($2-5/hour) was measured for the
+    multi-voice Table experience, not the single-Representative path this
+    turn cap governs (engine/m8/live_cost_run.py measured roughly $0.25/hour
+    for that path) - a real discrepancy to reconcile before either number
+    appears in participant-facing text, not something to paper over here by
+    picking one. Also names a future paid option for longer conversations,
+    per the same direction - not yet built, stated as a direction, not a
+    promise of a date or price.
 
     representative_name comes from world.frame["representative"]["name"],
     same source and same reason as dependency_check_turn above."""
