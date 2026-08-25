@@ -36,6 +36,10 @@ MESSAGES = [
     "You mentioned the Eucharist - how does that connect to what you said about Jesus earlier?",
     "What would you say to someone who thinks all of this is just myth?",
     "How does someone actually join your community?",
+    "What does your community believe happens to the soul after death?",
+    "Who has the authority to teach in your community, and why?",
+    "What's the hardest thing about holding to your faith in this time and place?",
+    "How do you read scripture - is there more than one way to understand it?",
     "Looking back on everything we've talked about, what's the one thing you most want me to understand?",
 ]
 
