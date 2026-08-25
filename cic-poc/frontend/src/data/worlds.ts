@@ -16,6 +16,7 @@
  */
 export interface WorldEntry {
   worldKey: string; // records/worlds.yaml key - what POST /api/session expects
+  censusId: string | null; // records/worlds.yaml's own census_id - cic-website/data/world-census.json's matching entry id, and what its "Launch an Interview" links carry as ?worlds=. null where worlds.yaml itself hasn't verified the mapping yet (desert, as of 2026-08-25) - left unset rather than guessed, so that one link just falls through to the world list instead of a deep link.
   displayName: string;
   representativeName: string;
   roleLabel: string;
@@ -30,6 +31,7 @@ export interface WorldEntry {
 export const WORLDS: WorldEntry[] = [
   {
     worldKey: 'alx',
+    censusId: 'alexandria-catechetical',
     displayName: 'Alexandrian Christianity',
     representativeName: 'Theon',
     roleLabel: 'Catechetical Teacher',
@@ -43,6 +45,7 @@ export const WORLDS: WorldEntry[] = [
   },
   {
     worldKey: 'pahc',
+    censusId: 'post-apostolic-house-church',
     displayName: 'Post-Apostolic House-Church Christianity',
     representativeName: 'Chloe',
     roleLabel: 'Household Leader',
@@ -56,6 +59,7 @@ export const WORLDS: WorldEntry[] = [
   },
   {
     worldKey: 'desert',
+    censusId: null, // worlds.yaml: "not yet verified against the running Atlas frontend this session - carried as an open item"
     displayName: 'Desert Monasticism',
     representativeName: 'Papnoute',
     roleLabel: 'Abba (Elder)',
@@ -69,6 +73,7 @@ export const WORLDS: WorldEntry[] = [
   },
   {
     worldKey: 'hal',
+    censusId: 'hieronymian-ascetic-literary',
     displayName: 'Hieronymian Ascetic-Literary Christianity',
     representativeName: 'Albina',
     roleLabel: 'Widow of the Household',
@@ -82,6 +87,7 @@ export const WORLDS: WorldEntry[] = [
   },
   {
     worldKey: 'syr',
+    censusId: 'syriac-edessa-nisibis',
     displayName: 'Syriac Christianity (Edessa/Nisibis)',
     representativeName: 'Yausep',
     roleLabel: 'Mar',
@@ -95,6 +101,7 @@ export const WORLDS: WorldEntry[] = [
   },
   {
     worldKey: 'ijc',
+    censusId: 'imperial-juridical-christianity',
     displayName: 'Imperial and Juridical Christianity',
     representativeName: 'Marius',
     roleLabel: 'Deacon of the Letters',
@@ -110,4 +117,8 @@ export const WORLDS: WorldEntry[] = [
 
 export function findWorld(worldKey: string): WorldEntry | undefined {
   return WORLDS.find((w) => w.worldKey === worldKey);
+}
+
+export function findWorldByCensusId(censusId: string): WorldEntry | undefined {
+  return WORLDS.find((w) => w.censusId === censusId);
 }

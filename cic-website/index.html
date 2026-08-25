@@ -173,8 +173,13 @@
 "use strict";
 // Same LIVE_APP_URL pattern as atlas.html — honest about not
 // being wired up when hosting isn't ready, live locally during dev.
+// PHASE-1-LAUNCH.md Stage 6: points at cic-engine (the new surface,
+// engine/api + the rebuilt frontend), not the old cic-poc - Mark's ruling
+// 2026-08-24, "the site is not in use, so downtime during the transfer is
+// acceptable." Local dev port matches the new frontend's vite default
+// (cic-poc/frontend/vite.config.ts), not the old app's 8199.
 const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-const LIVE_APP_URL = isLocal ? 'http://localhost:8199' : 'https://cic-poc.onrender.com';
+const LIVE_APP_URL = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
 if (LIVE_APP_URL) {
   document.getElementById('launch-link').href = LIVE_APP_URL;
 }

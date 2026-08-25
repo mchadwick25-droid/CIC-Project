@@ -567,7 +567,8 @@ click for the full entry — the same template for every movement, built or not.
 <script>
 "use strict";
 const isLocal=['localhost','127.0.0.1'].includes(location.hostname);
-const LIVE_APP_URL=isLocal?'http://localhost:8199':'https://cic-poc.onrender.com';
+/* PHASE-1-LAUNCH.md Stage 6: points at cic-engine (the new surface), not the old cic-poc. Local port matches the new frontend's vite default, not 8199. */
+const LIVE_APP_URL=isLocal?'http://localhost:5173':'https://cic-engine.onrender.com';
 /* orientText close (Mark, 2026-08-05): the always-visible orientation
    line is useful to find once but not worth permanent screen space on
    every return visit -- closeable, remembered per browser, same
