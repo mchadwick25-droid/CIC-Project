@@ -120,3 +120,72 @@ the provenance layer, and the one transparency line. Not a protocol.
 **Open, and deliberately not resolved here:** platform and phase placement (this does not
 obviously belong to any rung of the existing Alpha → Beta → Phase 1 → Phase 2+ ladder),
 whether it ships inside the existing app or as its own surface, and its cost shape.
+
+---
+
+## 2026-08-25 — Three-level transparency: scoped as its own dedicated build, not a port
+
+**Origin.** Mark used the newly-launched pilot (`cic-engine`) and reported three real
+problems: (1) the three-level transparency system (highlight → hover → click) is not
+working; (2) the Facilitator gives no greeting at session start, just a prompt at the
+bottom; (3) the world-selection cards are too thin to build participant confidence about
+"which Christian world" they're entering. All three are real product gaps, not launch bugs.
+
+**Status: SCOPED, NOT STARTED.** A full launch prompt for a new dedicated thread has been
+written and handed to Mark. Items 2 and 3 are deliberately deferred — Mark's own
+sequencing — to start only once transparency work is underway.
+
+### Decisions
+
+1. **Transparency gets its own thread, not a copy-over.** Mark: *"this is a bigger project
+   than importing or copying over what was there... i want it done very well, designed
+   well, built well and implemented well."* The old `cic-poc` components
+   (`GlossHighlight`, `LexiconModal`, `Level3Panel`, `CitationMarker`, `CitationModal`) are
+   reference for what was tried, not a working baseline to port — they were removed from
+   the tree and the underlying wiring (glosses, figures, citation depth) was never
+   finished even there.
+
+2. **Scope is all three tracks together — highlight, hover, and click** — not a phased
+   subset. Mark's answer to the scope question: *"all three."*
+
+3. **The heart of it is discovery, not comprehension-aid or credibility-verification —
+   Mark's correction, adopted.** I offered a binary framing (don't let someone get stuck
+   on a word / let someone verify a claim); Mark rejected both for something more central:
+   *"its discovery, we may think differently or understand words differently. its deeper
+   discovery."* The target is a participant noticing where their own assumed meaning
+   diverges from the world's own frame — not just glossing an unfamiliar term. This
+   reframing governs what content the system should surface, not just how it displays it.
+
+4. **Items 2 (Facilitator greeting) and 3 (richer world cards) wait.** Mark: work on those
+   "after we get the work on the 3 level transparency working." Both remain real,
+   confirmed problems — greeting text drafts (A/B) are drafted and awaiting his pick;
+   richer cards have real unused source material identified (`world_core`'s `horizon`
+   field, compiled `frame.frames.general_seeker.starters`) — just not started.
+
+### What the launch prompt carries forward
+
+Grounding so the new thread doesn't have to rediscover it: the *current* gap is
+structural (glosses are hardcoded empty, figure records are compiled but never wired to
+any API or frontend path, citations render flat with no Level 2/3 depth) and distinct from
+the *historical* diagnosis in `VR_1A_Transparency_Gap_2026-08-09.md` (the old system's gap
+was mostly unfamiliar names/figures, not generic vocabulary). The interaction design is
+already decided and final in `CiC_Full_UX_Design_V1_0.md` §9.1 — side panel / bottom sheet
+only, never a centered modal. A real, authored, reviewed content layer already exists
+across all six worlds and is currently unused by anything — `modern_contrast` (60 records)
+and `senses.translational` (85 records) — that does exactly the "deeper discovery" work
+Mark described once he named it, and should be the backbone of what the click level shows.
+`transparency_reach.py` is the existing measurement instrument (report-only by design, no
+pass/fail bar, to avoid a "gloss everything" pressure that would make the Representative
+lecture) and should be used to check the finished build, not just diagnosed as a tool.
+
+**Model choice for the new thread:** recommended Sonnet 5 for the build (compiler wiring,
+new API endpoint, frontend components — well-specified engineering, not open-ended
+judgment), with Opus 5 called in specifically for the content-selection quality pass
+across the six worlds and a design-fidelity check against the UX spec — not as a blanket
+reviewer. Fable 5 not recommended: its premium is for resolving ambiguity, and the scope,
+framing, and interaction design here are already decided.
+
+### Next action
+
+Mark takes the launch prompt to a new thread and starts the build there. Once transparency
+is working, resume items 2 and 3 in this thread per his sequencing.
