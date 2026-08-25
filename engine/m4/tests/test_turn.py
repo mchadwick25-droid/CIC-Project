@@ -77,7 +77,7 @@ def _world():
         manifest_hash="sha256:test",
         prompt_text="## Identity\nVera, Witness.",
         capsule_text="capsule",
-        repository={"records": [{"id": "fix.witness.who-is-jesus", "text": "We did not claim to have seen him ourselves."}]},
+        repository={"records": [{"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."}]},
         quotes={"quotes": [{"id": "fix.quote.private-teaching", "license": "do-not-voice", "text": "not for the voice to speak"}]},
         figures={},
         coverage={},

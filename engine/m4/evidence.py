@@ -126,6 +126,22 @@ _COVERAGE_KEY_BY_TYPE = {
     "contested_claim": "contested_claims",
 }
 
+# Stage A2 (added 2026-08-25, Mark's own diagnosis of a live turn): a
+# genuinely last-resort net under Stage A, not a replacement for it. Fires
+# from assemble_evidence ONLY when match_asks_to_cells found no cell at
+# all - never when a cell matched but session-exclusion emptied it
+# afterward, and never displacing a cell match the curated system already
+# found. Measured against pahc's own 128 records, "kingdom" (0), "heaven"
+# (1), and "important" (1) all land comfortably under this pool cap, while
+# common-everywhere words that can't meaningfully discriminate one record
+# from another - "jesus" (20), "god" (28), "church" (47) - blow past it and
+# correctly get nothing here, same as today. A query too generic for its
+# own world's corpus is better left to the model's own judgement over the
+# full cached prompt than handed an arbitrary handful of same-scoring
+# records.
+_FULLTEXT_FALLBACK_MAX_POOL = 6
+_FULLTEXT_FALLBACK_MAX_RESULTS = 3
+
 
 def _head_text(record: dict) -> str:
     """The compiled-facing text a record's evidence entry heads with -
@@ -150,6 +166,96 @@ def _head_text(record: dict) -> str:
     return all_text(record)
 
 
+# Build-team editorial/interpretive commentary, not citable content - a
+# record's own honest self-critique of its evidentiary limits, written for
+# whoever reviews the record, never for a participant. all_text() keeps
+# these on purpose for grounding_net's own job (checking whether the MODEL's
+# generated text is grounded - a much broader "is this substring anywhere
+# in the record" check with a different failure mode if it's too narrow).
+# This fallback's job is the opposite risk: finding the WRONG record because
+# a query word happened to appear in a caveat about the record rather than
+# in the record's own substance. Measured directly: pahc.term.ministrae's
+# own `senses.informational` field reads "...women held service in that
+# church important enough that its interrogator chose them as the ones who
+# would know" - a real sentence, but about Pliny's interrogation, not about
+# why anything was important in the sense a participant asking "why was
+# Jesus important" means. That single word, in that one commentary field,
+# was enough to surface a completely unrelated record before this exclusion
+# existed. `do_not_retrieve_when` is excluded for a sharper reason: matching
+# on it would retrieve a record's own list of reasons NOT to retrieve it.
+_FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when"}
+
+
+def _fallback_search_text(record: dict) -> str:
+    parts = []
+
+    def walk(value, key=None):
+        if key in _FALLBACK_EXCLUDED_KEYS:
+            return
+        if isinstance(value, str):
+            parts.append(value)
+        elif isinstance(value, dict):
+            for k, v in value.items():
+                walk(v, k)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item, key)
+
+    walk(record)
+    return " ".join(parts)
+
+
+def _fulltext_fallback_candidates(*, query_words: set[str], repository_records: dict[str, dict]) -> list[dict]:
+    """Stage A2 - see the module-level comment on _FULLTEXT_FALLBACK_MAX_POOL
+    for why this is safe. Deliberately literal (not stemmed) and
+    deliberately not gated on _MIN_ASK_MATCH_WORDS - a single shared word is
+    enough, since the whole gap this closes is that short natural questions
+    ("what is heaven") reduce to one content word and can never reach that
+    threshold. Searches _fallback_search_text(), not _head_text(): _head_text
+    prefers a story's own `tellable_as` paraphrase, and
+    pahc.story.didache-eucharist's own tellable_as never says "kingdom" even
+    though its actual `text` - the Didache's own closing prayer - does. The
+    narrower, curated _head_text is right for what gets shown to the model;
+    this stage needs the wider net to find the record at all (see
+    _FALLBACK_EXCLUDED_KEYS for the one respect in which that net is
+    deliberately narrower than all_text's own, and why).
+
+    The pool cap is applied PER QUERY WORD, not to the query as a whole -
+    "what was the kingdom of God" is {"kingdom", "god"}, and "god" alone
+    matches a quarter of pahc's own corpus. Capping the whole query would
+    let that one common word veto "kingdom" (2 records) right along with
+    itself. Instead an overly-common word is just dropped from
+    consideration; the words still selective enough for this world's own
+    corpus are what drive the match."""
+    word_hit_counts = {
+        word: sum(1 for record in repository_records.values() if word in content_words(_fallback_search_text(record))) for word in query_words
+    }
+    usable_words = {word for word, count in word_hit_counts.items() if 0 < count <= _FULLTEXT_FALLBACK_MAX_POOL}
+    if not usable_words:
+        return []
+
+    scored = []
+    for rid, record in repository_records.items():
+        shared = usable_words & content_words(_fallback_search_text(record))
+        if shared:
+            scored.append((len(shared), rid, record))
+    if not scored:
+        return []
+
+    scored.sort(key=lambda entry: (-entry[0], entry[1]))
+    return [
+        {
+            "id": rid,
+            "record_type": record.get("record_type"),
+            "score": None,
+            "head": _head_text(record),
+            "confidence": (record.get("confidence") or {}).get("formation_confidence"),
+            "classification": record.get("classification"),
+            "cell": None,
+            "fulltext_fallback": True,
+        }
+        for _count, rid, record in scored[:_FULLTEXT_FALLBACK_MAX_RESULTS]
+    ]
 
 
 def _query_words(message: str, asks: list[dict] | None) -> set[str]:
@@ -403,6 +509,16 @@ def assemble_evidence(
                 continue
             seen_ids.add(candidate["id"])
             selected.append({**candidate, "cell": match["cell"]})
+
+    # Stage A2: only when Stage A found no cell AT ALL - never when a cell
+    # matched but session-exclusion is what emptied `selected` (that is an
+    # intentional "already told this" outcome, not a retrieval failure).
+    if not cell_matches:
+        for candidate in _fulltext_fallback_candidates(query_words=_query_words(message, asks), repository_records=repository_records):
+            if candidate["id"] in seen_ids:
+                continue
+            seen_ids.add(candidate["id"])
+            selected.append(candidate)
 
     # Stage C: never serve one pole of a recorded tension without the
     # record that names the tension (the door-line bug's systemic fix).
