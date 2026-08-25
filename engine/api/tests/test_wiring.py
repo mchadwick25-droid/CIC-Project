@@ -366,3 +366,19 @@ def test_figures_used_flows_through_and_a_second_mention_this_session_does_not_r
         session_id=session_id, text="tell me more about him", client_msg_id="msg-2",
     )
     assert second.voice["figures_used"] == []
+
+
+def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_loader, registry):
+    worlds = wiring.list_worlds(world_loader=world_loader, registry=registry)
+
+    assert "fix" not in {w["world_key"] for w in worlds}
+    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation"}
+
+    pahc = next(w for w in worlds if w["world_key"] == "pahc")
+    assert pahc["display_name"] == "Post-Apostolic House-Church Christianity"
+    assert pahc["representative"] == {"name": "Chloe", "role_label": "Household Leader"}
+    assert pahc["census_id"] == "post-apostolic-house-church"
+    assert pahc["horizon"] and "Antioch" in pahc["horizon"]
+    assert pahc["thinness_statement"]
+    assert pahc["starters"] and all({"cell", "text"} <= s.keys() for s in pahc["starters"])
+    assert "_generated_by" not in pahc

@@ -75,6 +75,44 @@ def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dic
     return session_id, raw_code
 
 
+def list_worlds(*, world_loader: LazyWorldLoader, registry: dict) -> list[dict]:
+    """The doorway's own content, per formation world - never the fix
+    fixture (kind == "fixture": "NOT one of the six formation worlds...
+    never listed beside them, never admitted, never reachable by a
+    participant", per its own registry comment). Reads each world's real
+    compiled frame.json through the same LazyWorldLoader/manifest-hash
+    verification path a session load uses, rather than re-deriving a second
+    copy of this data by hand - the world-list screen was doing that until
+    now (data/worlds.ts, baked at frontend build time, hand-copied from the
+    registry with its own comment admitting "no /api/worlds endpoint exists
+    yet"). Explicit field selection rather than returning `world.frame`
+    whole: frame.json also carries `_generated_by`, a compiler/commit
+    fingerprint with no participant-facing purpose.
+    """
+    worlds = []
+    for world_key, entry in registry.items():
+        if entry.get("kind") != "formation":
+            continue
+        world = _load_world(world_loader, registry, world_key)
+        frame = world.frame
+        starters = frame.get("frames", {}).get("general_seeker", {}).get("starters", [])
+        worlds.append(
+            {
+                "world_key": world_key,
+                "census_id": entry.get("census_id"),
+                "display_name": frame.get("display_name"),
+                "representative": frame.get("representative"),
+                "time_window": frame.get("time_window"),
+                "place": frame.get("place"),
+                "thinness_statement": frame.get("thinness_statement"),
+                "horizon": frame.get("horizon"),
+                "living_tradition_flag": frame.get("living_tradition_flag", False),
+                "starters": starters,
+            }
+        )
+    return worlds
+
+
 def get_transcript(store: Store, session_id: str) -> SessionState:
     state = project_fresh(session_id, store)
     if not state.exists:

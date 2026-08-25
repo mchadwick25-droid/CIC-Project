@@ -32,6 +32,19 @@ def test_health(store, usage_store, world_loader, registry):
     assert resp.json() == {"status": "ok"}
 
 
+def test_list_worlds(store, usage_store, world_loader, registry):
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
+    resp = http.get("/api/worlds")
+    assert resp.status_code == 200
+    worlds = resp.json()["worlds"]
+    assert "fix" not in {w["world_key"] for w in worlds}
+    assert len(worlds) == sum(1 for v in registry.values() if v.get("kind") == "formation")
+    pahc = next(w for w in worlds if w["world_key"] == "pahc")
+    assert pahc["display_name"] == "Post-Apostolic House-Church Christianity"
+    assert pahc["horizon"]
+    assert pahc["starters"]
+
+
 def test_create_session_default_world(store, usage_store, world_loader, registry):
     http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
     resp = http.post("/api/session", json={})

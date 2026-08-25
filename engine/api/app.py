@@ -74,6 +74,23 @@ class TranscriptResponse(BaseModel):
     transcript: list[dict]
 
 
+class WorldSummary(BaseModel):
+    world_key: str
+    census_id: str | None
+    display_name: str | None
+    representative: dict | None
+    time_window: dict | None
+    place: str | None
+    thinness_statement: str | None
+    horizon: str | None
+    living_tradition_flag: bool
+    starters: list[dict]
+
+
+class WorldListResponse(BaseModel):
+    worlds: list[WorldSummary]
+
+
 def _extract_code(authorization: str | None) -> str | None:
     if not authorization or not authorization.startswith(_AUTH_PREFIX):
         return None
@@ -122,6 +139,15 @@ def create_app(
     @app.get("/health")
     def health():
         return {"status": "ok"}
+
+    @app.get("/api/worlds", response_model=WorldListResponse)
+    def list_worlds_endpoint(request: Request):
+        deps: Deps = request.app.state.deps
+        try:
+            worlds = wiring.list_worlds(world_loader=deps.world_loader, registry=deps.registry)
+        except PackageRefused:
+            raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+        return WorldListResponse(worlds=worlds)
 
     @app.post("/api/session", status_code=201, response_model=SessionCreateResponse)
     def create_session_endpoint(req: SessionCreateRequest, request: Request):
