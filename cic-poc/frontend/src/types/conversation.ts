@@ -7,9 +7,29 @@
  * engine does not."
  */
 
+// engine/m4/citation_cards.py's resolve_source_card - one real, checkable
+// primary source (author, work, locus) behind a cited record. `rights_status`
+// is read straight from the vendored text's own rights header (public-domain
+// throughout the current corpus).
+export interface SourceReference {
+  source_id: string;
+  author: string | null;
+  work: string | null;
+  locus: string | null;
+  rights_status: string | null;
+}
+
+export interface SourceCard {
+  record_id: string;
+  record_type: string;
+  label: string;
+  sources: SourceReference[];
+}
+
 export interface Citation {
   sentence: string;
   record_ids: string[];
+  sources: SourceCard[];
 }
 
 // engine/m4/name_bridge.py's find_figures_used - one entry per figure
@@ -17,12 +37,16 @@ export interface Citation {
 // in this turn's text, first occurrence this session only. `names` carries
 // both tags (in-world/scholarly) regardless of which one `matched_name`
 // actually is, so the Level-3 panel can show "also called" either way.
+// `sourced_by` (name_bridge.attach_cited_sources) is the real point: the
+// primary sources behind whatever this sentence actually said about or by
+// this figure, not just their own biographical dates.
 export interface FigureUsed {
   id: string;
   matched_name: string;
   names: { name: string; tag: 'in-world' | 'scholarly' }[];
   bridge_line: string | null;
   dates: Record<string, string | null>;
+  sourced_by: SourceReference[];
 }
 
 export interface FacilitatorTurn {

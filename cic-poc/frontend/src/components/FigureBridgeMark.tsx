@@ -1,14 +1,20 @@
 /**
  * The name/figure bridge's own inline mark (VR_1A_Transparency_Gap_
  * 2026-08-09.md): a figure named in a turn's text, using InlineBridge's
- * shared hover/click (desktop) and tap/tap-through (phone) grammar. Level
- * 2 is the one-line bridge_line every figure record already carries;
- * Level 3 adds both recorded names (in-world and scholarly, whichever the
- * voice actually said) and what's known of the dates - the deeper
- * discovery, not just a definition.
+ * shared hover/click (desktop) and tap/tap-through (phone) grammar.
+ *
+ * Level 3 leads with what's actually being said here and where it comes
+ * from (`sourced_by` - the real primary sources behind this sentence, per
+ * engine.m4.name_bridge.attach_cited_sources), not with the figure's own
+ * biography - Mark's own correction on the first build: "the point is not
+ * just who Origen is, but the reference of what he is saying [so] the
+ * participant can actually look at the source document." Who-this-is
+ * (both recorded names, whichever the voice actually said, and the
+ * dates) stays, but as the second thing, not the point.
  */
 import type { FigureUsed } from '../types/conversation';
 import { InlineBridge } from './InlineBridge';
+import { SourceList } from './SourceList';
 
 function formatDates(dates: FigureUsed['dates']): string | null {
   const parts = Object.entries(dates)
@@ -29,9 +35,13 @@ export function FigureBridgeMark({ label, figure }: FigureBridgeMarkProps) {
       label={label}
       markClassName="name-bridge-mark"
       level2={<p>{figure.bridge_line}</p>}
-      level3Title="Who is this?"
+      level3Title={figure.matched_name}
       level3={
         <>
+          <p className="level3__section-label">What's said here, sourced from</p>
+          <SourceList sources={figure.sourced_by} empty="Nothing in this sentence was drawn from a source." />
+
+          <p className="level3__section-label">Who this is</p>
           <ul className="level3__names">
             {figure.names.map((n) => (
               <li key={n.tag}>

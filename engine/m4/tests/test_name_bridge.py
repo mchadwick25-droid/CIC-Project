@@ -8,7 +8,8 @@ against a shape the test author made up.
 import json
 
 from engine.m2.compiler import compile_and_hash
-from engine.m4.name_bridge import find_figures_used
+from engine.m4.citation_cards import resolve_citation_sources
+from engine.m4.name_bridge import attach_cited_sources, find_figures_used
 
 
 def _real_figures(world_key: str) -> list[dict]:
@@ -98,3 +99,37 @@ def test_every_world_compiles_figures_the_bridge_can_read():
         for figure in figures:
             assert figure["id"]
             assert any(isinstance(n, dict) and n.get("name") for n in figure["names"])
+
+
+def _real_repository(world_key: str) -> dict[str, dict]:
+    package, _digest = compile_and_hash(
+        world_key=world_key, package_id="TEST", records_commit="TEST", compiler_version="TEST"
+    )
+    return {r["id"]: r for r in json.loads(package["compiled/repository.json"])["records"]}
+
+
+def test_attach_cited_sources_finds_the_source_behind_what_the_figure_is_saying():
+    """Mark's own correction: not just who Origen is, but what he's
+    saying here and what backs it. "Origen taught us..." names Origen and
+    is tagged with alx.term.allegoria, whose own sources are Origen's
+    Philocalia and Clement's Stromateis - real citable texts, not the
+    figure record's own (unrelated) sources."""
+    repo = _real_repository("alx")
+    figures = _real_figures("alx")
+    text = "Origen taught us to read Scripture at more than one level."
+    figures_used = find_figures_used(text, figures)
+    citations = resolve_citation_sources(
+        [{"sentence": text, "record_ids": ["alx.term.allegoria"]}], repo
+    )
+    attached = attach_cited_sources(figures_used, citations)
+    assert attached[0]["id"] == "alx.figure.origen"
+    source_ids = {s["source_id"] for s in attached[0]["sourced_by"]}
+    assert source_ids == {"alx.source.origen-philocalia", "alx.source.clement-stromateis"}
+
+
+def test_attach_cited_sources_is_honest_when_nothing_was_cited():
+    figures = _real_figures("alx")
+    text = "Origen taught us to read Scripture at more than one level."
+    figures_used = find_figures_used(text, figures)
+    attached = attach_cited_sources(figures_used, citations_with_sources=[])
+    assert attached[0]["sourced_by"] == []

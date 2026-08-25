@@ -447,30 +447,45 @@ button {
   margin-top: 4px;
   padding-top: 4px;
   border-top: 1px dashed var(--color-border);
-}
-
-.turn__sources-summary {
   font-family: var(--font-family-ui);
-  font-size: 0.72rem;
-  color: var(--color-text-muted);
-  font-style: italic;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
 }
 
-.turn__sources-list {
-  margin: 6px 0 0;
+.turn__sources-card + .turn__sources-card {
+  margin-top: 8px;
+}
+
+.turn__sources-label {
+  margin: 0 0 2px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
+
+/* Shared with the name/figure bridge's Level 3 (FigureBridgeMark.tsx via
+   SourceList.tsx) - one real, checkable primary-source reference reads
+   the same wherever it appears. */
+.source-list {
+  margin: 0;
   padding: 0;
   list-style: none;
-  font-family: var(--font-family-ui);
-  font-size: 0.76rem;
+  font-size: 0.8rem;
   color: var(--color-text-muted);
 }
 
-.turn__sources-list li {
+.source-list__item {
   padding: 2px 0;
+}
+
+.source-list__work {
+  color: var(--color-text);
+  font-style: italic;
+}
+
+.source-list__empty {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  font-style: italic;
 }
 
 /* ============================================================
@@ -494,11 +509,9 @@ button {
   margin: 0;
   padding: 0;
   font: inherit;
-  color: inherit;
+  color: var(--color-tyrian);
   cursor: pointer;
-  text-decoration: underline dotted var(--color-tyrian);
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 3px;
+  text-decoration: none;
 }
 
 /* A padded hit area on an inline text mark without disturbing the text's
@@ -620,6 +633,20 @@ button {
   overflow-y: auto;
   font-size: 0.92rem;
   line-height: 1.6;
+}
+
+.level3__section-label {
+  margin: var(--spacing-md) 0 4px;
+  font-family: var(--font-family-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-tyrian);
+}
+
+.level3__section-label:first-child {
+  margin-top: 0;
 }
 
 .level3__names {

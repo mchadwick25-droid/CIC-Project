@@ -111,3 +111,35 @@ def find_figures_used(text: str, figures: list[dict], *, already_bridged_ids: se
         }
         for _pos, figure, matched_name in hits
     ]
+
+
+def attach_cited_sources(figures_used: list[dict], citations_with_sources: list[dict]) -> list[dict]:
+    """The real point of the bridge, per Mark's own correction on the first
+    build: not just who the figure is, but what is being said about or by
+    them here, and where a participant can check it. Each figure entry
+    gains `sourced_by` - the underlying primary sources (author, work,
+    locus - citation_cards.resolve_source_card's own `sources[]`) of
+    whichever cited sentence its own matched_name actually sits inside.
+
+    Flattened past the cited RECORD (e.g. alx.term.allegoria) straight to
+    that record's own sources: a participant asking "what backs this" is
+    asking about Origen's Philocalia, not about the lexicon entry that
+    happens to cite it - the record is this engine's own bookkeeping, not
+    something to hand back as if it answered the question.
+
+    Matched by substring against the citation's own sentence text, not by
+    character offset: figures_used and citations are computed over the
+    same finished answer_text by two independent passes (this module's
+    own text search; engine.m4.grounding_net's sentence split), and
+    neither carries a shared position system - but a figure's matched
+    name, once found, can only sensibly belong to the one sentence whose
+    own text contains it. A figure mentioned in a sentence the net
+    withheld or that carries no citation gets an empty sourced_by, not a
+    guess at one - an honest "nothing was cited here," never fabricated.
+    """
+    out = []
+    for figure in figures_used:
+        sentence = next((c for c in citations_with_sources if figure["matched_name"] in c["sentence"]), None)
+        sourced_by = [source for card in (sentence["sources"] if sentence else []) for source in card["sources"]]
+        out.append({**figure, "sourced_by": sourced_by})
+    return out

@@ -8,9 +8,10 @@
  * shape). There is no drawn-on/consulted tier here either: the new
  * engine's citations are flat, so that distinction isn't rendered.
  *
- * A citation marker's own record_ids are shown on click - genuinely
- * resolvable to the exact sentence, not just "this turn used N sources
- * somewhere."
+ * A citation marker's own sources (engine.m4.citation_cards.
+ * resolve_citation_sources - real author/work/locus, not the bare
+ * record_ids this used to show) are shown on click, genuinely resolvable
+ * to the exact sentence, not just "this turn used N sources somewhere."
  *
  * Figures (engine.m4.name_bridge.find_figures_used) are word-level marks
  * INSIDE a sentence, not sentence-end markers, so they're found within
@@ -23,8 +24,9 @@
  * backend's first-occurrence result rather than a second guess at it.
  */
 import { useState } from 'react';
-import type { Citation, FigureUsed } from '../types/conversation';
+import type { Citation, FigureUsed, SourceCard } from '../types/conversation';
 import { FigureBridgeMark } from './FigureBridgeMark';
+import { SourceList } from './SourceList';
 
 interface VoiceTurnBodyProps {
   text: string;
@@ -35,6 +37,7 @@ interface VoiceTurnBodyProps {
 interface Segment {
   text: string;
   recordIds: string[] | null;
+  sources: SourceCard[] | null;
 }
 
 interface FigureSpan {
@@ -50,10 +53,10 @@ function splitIntoSegments(text: string, citations: Citation[]): Segment[] {
     const idx = remaining.indexOf(citation.sentence);
     if (idx === -1) continue; // the sentence didn't survive verbatim in this text - skip rather than guess a position
     const before = remaining.slice(0, idx + citation.sentence.length);
-    segments.push({ text: before, recordIds: citation.record_ids });
+    segments.push({ text: before, recordIds: citation.record_ids, sources: citation.sources });
     remaining = remaining.slice(idx + citation.sentence.length);
   }
-  if (remaining) segments.push({ text: remaining, recordIds: null });
+  if (remaining) segments.push({ text: remaining, recordIds: null, sources: null });
   return segments;
 }
 
@@ -120,13 +123,14 @@ export function VoiceTurnBody({ text, citations, figuresUsed = [] }: VoiceTurnBo
           </span>
         ))}
       </div>
-      {openIndex !== null && segments[openIndex]?.recordIds && (
+      {openIndex !== null && segments[openIndex]?.sources && (
         <div className="turn__sources">
-          <ul className="turn__sources-list">
-            {segments[openIndex].recordIds!.map((id) => (
-              <li key={id}>{id}</li>
-            ))}
-          </ul>
+          {segments[openIndex].sources!.map((card) => (
+            <div key={card.record_id} className="turn__sources-card">
+              <p className="turn__sources-label">{card.label}</p>
+              <SourceList sources={card.sources} empty="No source recorded for this." />
+            </div>
+          ))}
         </div>
       )}
     </div>

@@ -199,7 +199,14 @@ def test_ordinary_turn_calls_voice_generation_and_checks_inline_citations():
     result = run_turn(session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m", world=_world(), participant_message="who was Jesus", pressed={}, anachronistic_term_ids=set())
     assert result.routing_action == "voice_with_directive"
     assert result.voice_event["text"] == "We did not claim to have seen him ourselves."  # tag stripped
-    assert result.voice_event["citations"] == [{"sentence": "We did not claim to have seen him ourselves.", "record_ids": ["fix.witness.who-is-jesus"]}]
+    citations = result.voice_event["citations"]
+    assert [{"sentence": c["sentence"], "record_ids": c["record_ids"]} for c in citations] == [
+        {"sentence": "We did not claim to have seen him ourselves.", "record_ids": ["fix.witness.who-is-jesus"]}
+    ]
+    # citation_cards.resolve_citation_sources's own addition - see
+    # test_citation_cards.py for the resolution logic itself; this just
+    # proves run_turn actually calls it.
+    assert citations[0]["sources"] == [{"record_id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "label": "fix.witness.who-is-jesus", "sources": []}]
     assert result.voice_event["do_not_voice_violation"] is None
     assert result.voice_event["degraded_by_net"] is False
 

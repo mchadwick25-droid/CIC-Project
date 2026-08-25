@@ -55,7 +55,8 @@ from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, evidence, facilitator_turns, grounding_net
 from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
-from engine.m4.name_bridge import find_figures_used
+from engine.m4.citation_cards import resolve_citation_sources
+from engine.m4.name_bridge import attach_cited_sources, find_figures_used
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.anachronism import resolve_term_ids, terms_in_message
@@ -281,12 +282,19 @@ def _run_ordinary_voice_turn(
 
     answer_text, citations, net_result = _apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
 
+    # Real, checkable source references (Mark's own correction, see
+    # citation_cards' module docstring) - resolved once here and reused
+    # for both the citations a sentence already carries and whichever
+    # figure mention that same sentence names.
+    citations = resolve_citation_sources(citations, repository_records)
+
     # THE NAME/FIGURE BRIDGE (VR_1A_Transparency_Gap_2026-08-09.md) - a
     # detection pass over the finished text, same discipline as the net
     # above: string-only, no model call, runs on what the participant is
     # about to read. world.figures is compiled/figures.json, already built
     # and already loaded per turn; this is the first code that reads it.
     figures_used = find_figures_used(answer_text, world.figures.get("figures") or [], already_bridged_ids=already_bridged_figure_ids)
+    figures_used = attach_cited_sources(figures_used, citations)
 
     # No code-appended floor line. Program-Spec M5: "In-world thinness is
     # never intercepted - the honest limit is the voice's own testimony,
