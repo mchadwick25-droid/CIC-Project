@@ -16,7 +16,32 @@
   is real, separate follow-up work (the current endpoint only supports one
   undifferentiated amount, not a fund selection) - do not build that silently
   into a future pass without flagging it as its own step.
+
+  Cost section updated 2026-08-25 at Mark's direction ("this new system is
+  higher quality and better cost control, we need to update the online
+  messaging"). The $2/$5-per-hour figures above were the old cic-poc
+  architecture's own published rate (CiC_Cost_Study_Per_Transaction_V0_1.md,
+  2026-07-30, now suspended per gate 6). The replacement figure (29 cents
+  per full ten-exchange conversation) is a real, measured total from a
+  live, billed run on the new engine/ architecture
+  (engine/m8/live_memory_growth_run.py's own committed report,
+  engine/m8/reports/live-memory-growth-report.json), not an estimate -
+  priced against Anthropic's published rate card, not yet a reconciled AWS
+  invoice (same caveat that report itself carries). Framed as "per
+  conversation" rather than "per hour" because the product's real shape
+  changed with it: SESSION_TURN_CAP now bounds every conversation at ten
+  exchanges, so a per-conversation figure is the more honest and more
+  useful number to publish. The multi-voice Table experience does not yet
+  exist on the new architecture, so its own $5/hour figure is dropped
+  rather than carried forward unmeasured - not silently, noted here and in
+  the section text itself.
 -->
+
+<!-- DRAFT, pending Mark's review before this is treated as final -
+     matching the same "text only, sign off before it ships" discipline
+     the section above already documents for this exact file. The specific
+     numbers are real and measured; the framing/wording is not yet
+     confirmed as this project's chosen public voice for it. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,13 +87,13 @@
 
   <section class="page-section" id="cost">
     <h2>What It Actually Costs</h2>
-    <p>An interview with one of our historical Christian movement Representative voices costs around <strong>$2 an hour</strong> to live-generate. A full three-person conversation costs more — <strong>up to $5 an hour</strong>, depending on pace and complexity. Each added voice adds real cost.</p>
+    <p>A full conversation with one of our historical Christian movement Representative voices — up to ten exchanges, deep enough to be worth having — now costs about <strong>29 cents</strong> to live-generate, measured directly against a real, billed run on our current architecture. That's a real conversation genuinely remembered turn to turn, not a shorter or thinner one costing less. A multi-voice conversation, where more than one Representative speaks at once, is being rebuilt on this same foundation; its own cost figure will follow once it exists.</p>
   </section>
 
   <section class="page-section" id="response">
     <h2>What We're Doing About It</h2>
 
-    <p><strong>Bringing the cost down, while continuing to improve the quality.</strong> We're making the technology remember what it's already generated instead of paying to relearn it every few minutes, fixing places where it was doing more work than it needed to, and finding faster ways to answer the questions almost everyone asks first.</p>
+    <p><strong>Bringing the cost down, while genuinely improving the quality.</strong> We rebuilt the technology to remember what it's already generated instead of paying to relearn it every conversation, cutting real per-turn cost by roughly three-quarters — and, at the same time, gave each Representative real memory of the whole conversation, which it didn't reliably have before. Cost and quality moved the same direction together, not in trade against each other.</p>
 
     <p><strong>Creating less expensive features.</strong> The Atlas maps over 175 historical Christian movements across ten eras, from 70 CE to today. We're also building guided tours, where a Representative hosts a participant through a real moment from their world. Neither one carries the runtime cost above.</p>
 
