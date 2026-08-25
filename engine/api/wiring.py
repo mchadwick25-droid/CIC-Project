@@ -29,6 +29,14 @@ class SessionNotFound(Exception):
     """No session_started event exists for this session_id."""
 
 
+class SessionClosed(Exception):
+    """A session_closed event is already on record (engine.m4.projection's
+    SessionState.closed) - the session ended, most often via
+    engine.m4.turn.SESSION_TURN_CAP's own graceful redirect, and no further
+    message is processed. Raised here, before run_turn is ever called, so a
+    closed session costs nothing to refuse."""
+
+
 class ProviderCallFailed(Exception):
     """run_turn() raised something other than UnhandledRoutingAction - most
     likely a real Bedrock/credential failure. The participant_message event
@@ -170,6 +178,8 @@ def handle_message(
     state = project_fresh(session_id, store)
     if not state.exists:
         raise SessionNotFound(session_id)
+    if state.closed:
+        raise SessionClosed(session_id)
 
     # The world pinned at session creation, not the registry's current value -
     # a mid-session recompile can't silently swap what serves an in-flight
@@ -298,6 +308,18 @@ def handle_message(
         events.validate("facilitator_turn", fe)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fe)
         facilitator_payload = fe  # today there's ever 0 or 1; last one wins for the response shape
+
+    # THE CAP'S OWN CLOSE. session_cap_turn's facilitator_turn (just appended
+    # above, kind="close") is the participant-facing side; this is the
+    # state-changing side - the same session_closed/reason="cap" shape
+    # engine.m4.events and engine.m4.projection already carried, unused,
+    # before this turn cap existed to fire it. Appended after the
+    # facilitator_turn so a reader replaying the log sees the closing words
+    # before the event that makes them final.
+    if result.routing_action == "session_cap_turn":
+        closed_payload = {"reason": "cap"}
+        events.validate("session_closed", closed_payload)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="session_closed", payload=closed_payload)
 
     voice_payload = None
     if result.voice_event is not None:

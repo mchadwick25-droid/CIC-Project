@@ -249,3 +249,30 @@ def test_a_voice_turn_the_net_emptied_leaves_no_dangling_role():
     h = _history_from(transcript)
     assert [m["role"] for m in h] == ["user", "assistant"]
     assert h[0]["content"] == "what did that cost"
+
+
+def test_the_eleventh_message_closes_gracefully_and_a_twelfth_is_refused(store, usage_store, world_loader, registry):
+    from engine.m4.turn import SESSION_TURN_CAP
+
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client)
+    created = http.post("/api/session", json={}).json()
+    headers = {"Authorization": f"Session {created['session_code']}"}
+
+    for i in range(SESSION_TURN_CAP):
+        resp = http.post(f"/api/session/{created['session_id']}/message", headers=headers, json={"text": f"question {i}"})
+        assert resp.status_code == 200
+
+    capped = http.post(f"/api/session/{created['session_id']}/message", headers=headers, json={"text": "one more"})
+    assert capped.status_code == 200
+    assert capped.json()["routing_action"] == "session_cap_turn"
+    assert capped.json()["facilitator"]["kind"] == "close"
+
+    transcript = http.get(f"/api/session/{created['session_id']}/transcript", headers=headers).json()
+    assert transcript["closed"] is True
+
+    refused = http.post(f"/api/session/{created['session_id']}/message", headers=headers, json={"text": "are you there"})
+    assert refused.status_code == 409

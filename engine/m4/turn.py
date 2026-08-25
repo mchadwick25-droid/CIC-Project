@@ -67,6 +67,9 @@ from engine.m5.routing import Directive, directive_without_terms
 from engine.m8.usage import UsageRecord, record_usage
 
 
+SESSION_TURN_CAP = 10  # Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 by Mark, 2026-08-25, after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
+
+
 class UnhandledRoutingAction(NotImplementedError):
     """An eighth routing action, added to engine.m5.routing without a branch
     here.
@@ -446,6 +449,25 @@ def run_turn(
     safety_states = safety_state_events(
         track_b_accumulator, None if safety_outcome.failed else safety_outcome.value
     )
+
+    # THE CAP OVERRIDES EVERYTHING EXCEPT A REAL CRISIS. Checked once, here,
+    # after routing but before any branch spends a voice call - so a capped
+    # turn costs only the two Haiku gate calls already made above, never the
+    # Sonnet generation call. ACUTE_DISTRESS is the one action that must
+    # never be capped away: a participant in real crisis at turn 11 still
+    # gets the safety turn, not a redirect. Every other action - the ordinary
+    # voice path, Track B's non-acute safety_turn, bridge/etic/check-in/
+    # system-nature - is something a capped session stops doing uniformly,
+    # not selectively, so the ending reads as one clear boundary rather than
+    # a handful of routes quietly behaving differently.
+    is_acute_crisis = action == "safety_turn" and not safety_outcome.failed and safety_outcome.value.get("signal") == "ACUTE_DISTRESS"
+    if not is_acute_crisis and len(history or []) // 2 >= SESSION_TURN_CAP:
+        return TurnResult(
+            routing_action="session_cap_turn", routing_reason=f"session turn cap reached ({SESSION_TURN_CAP} turns)",
+            gate=gate, safety_state_events=safety_states,
+            facilitator_events=[facilitator_turns.session_cap_turn(world.frame["representative"]["name"])],
+            degraded=gate_result.degraded, usage_records=usage_records,
+        )
 
     if action == "safety_turn":
         signal = safety_outcome.value["signal"]  # safety_turn only reachable when safety succeeded and fired ACUTE/HARMFUL - engine.m5.routing rule 1

@@ -157,6 +157,8 @@ def create_app(
             )
         except wiring.SessionNotFound:
             raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
+        except wiring.SessionClosed:
+            raise HTTPException(status_code=409, detail="session already closed")
         except PackageRefused:
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         except wiring.ProviderCallFailed:

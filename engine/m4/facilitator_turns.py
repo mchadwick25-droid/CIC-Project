@@ -151,6 +151,34 @@ def etic_turn(out_of_scope_class: str) -> dict:
     return {"kind": "threshold", "text": text}
 
 
+SESSION_CAP = FacilitatorTurn(
+    kind="close",
+    text=(
+        "This is the Facilitator stepping in - we've reached the end of what one sitting with "
+        "{representative_name} is built to hold: ten exchanges, deep enough to be worth having, "
+        "not so long that it starts to feel unbounded.\n\n"
+        "This conversation is closed now, but nothing in it is lost - it stayed exactly what it was "
+        "while it lasted. If there's more you want to explore, the honest way is a fresh conversation: "
+        "with {representative_name} again, starting new, or with one of this project's other worlds and "
+        "voices. Either way, you're welcome back."
+    ),
+)
+
+
+def session_cap_turn(representative_name: str) -> dict:
+    """DRAFT TEXT, not yet Mark-approved - see this module's own STATUS note
+    on what that approval process looks like for every other facilitator
+    text here. Wired in now so the mechanism (Redesign-Spec/Artifact-6-
+    Operations.md's "per-session turn cap", DECIDABLE default 40, resolved
+    to 10 by Mark 2026-08-25) is complete and tested; the copy itself is
+    swappable without touching engine.m4.turn's routing.
+
+    representative_name comes from world.frame["representative"]["name"],
+    same source and same reason as dependency_check_turn above."""
+    text = SESSION_CAP.text.format(representative_name=representative_name)
+    return {"kind": SESSION_CAP.kind, "text": text}
+
+
 def bridge_turn(terms: list[dict]) -> tuple[dict, str]:
     """Returns (facilitator_event, underlying_subject).
 

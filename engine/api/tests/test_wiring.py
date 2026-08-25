@@ -366,3 +366,50 @@ def test_figures_used_flows_through_and_a_second_mention_this_session_does_not_r
         session_id=session_id, text="tell me more about him", client_msg_id="msg-2",
     )
     assert second.voice["figures_used"] == []
+
+
+def test_the_tenth_completed_turn_still_answers_and_the_eleventh_closes(store, usage_store, world_loader, registry):
+    """Ten real turns through the actual handle_message path (not a faked
+    history list) - the same real transcript-folding
+    (history_from_transcript) engine.m4.turn.SESSION_TURN_CAP is measured
+    against. The eleventh message gets the graceful redirect instead of an
+    answer, and the session_closed event lands with reason="cap"."""
+    from engine.m4 import turn as turn_module
+
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+
+    for i in range(turn_module.SESSION_TURN_CAP):
+        result = wiring.handle_message(
+            store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+            voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+            session_id=session_id, text=f"question {i}", client_msg_id=f"msg-{i}",
+        )
+        assert result.routing_action != "session_cap_turn", f"capped early, on turn {i}"
+
+    capped = wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="one more question", client_msg_id="msg-cap",
+    )
+    assert capped.routing_action == "session_cap_turn"
+    assert capped.facilitator["kind"] == "close"
+    assert capped.voice is None
+
+    types = [e.event_type for e in store.read_events(session_id)]
+    assert types[-2:] == ["session_closed", "turn_committed"]
+    closed_events = [e for e in store.read_events(session_id) if e.event_type == "session_closed"]
+    assert closed_events[0].payload["reason"] == "cap"
+
+    state = wiring.get_transcript(store, session_id)
+    assert state.closed is True
+
+    with pytest.raises(wiring.SessionClosed):
+        wiring.handle_message(
+            store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+            voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+            session_id=session_id, text="are you still there", client_msg_id="msg-after-close",
+        )
