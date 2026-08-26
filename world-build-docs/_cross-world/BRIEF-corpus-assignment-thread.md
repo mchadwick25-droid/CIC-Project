@@ -145,6 +145,7 @@ locus: "div1 'Life of Antony'"           # where in the volume
 atlas_ids:                               # one or more census movement ids
   - desert-monasticism
   - alexandria-catechetical
+role: tradition                          # tradition | context  (see 11a)
 confidence: assigned                     # assigned | provisional | needs-ruling
 reason: >
   Athanasius' own account of Antony, and the single most influential text
@@ -307,6 +308,9 @@ their future corpus.
 4. **The Pastor of Hermas and the Clementines** — under the attributed name,
    the real one, or their own entity? (7, third bullet.)
 
+*Answered 2026-08-26:* context material carries a `context` marker on the
+world it gives context for, not a bucket of its own (§11a).
+
 ---
 
 ## 11a. A second corpus: the Pearse "More Fathers" collection
@@ -377,15 +381,32 @@ That is exactly the disposition this material needs:
   perception and social fact.
 - Never a `doctrinal_witness`, never `register: emic`. These voices are not
   the tradition speaking; several are the tradition's opponents.
-- Assignment target: not an Atlas movement, since the census is a taxonomy of
-  Christian movements and has none for Roman paganism or Neoplatonism. Mark to
-  say whether these carry a `context` marker instead of an `atlas_id`, or
-  attach to the entry they surround (Libanius and Julian to
-  `imperial-juridical-christianity`, whose world they are the outside of).
+- **Assignment: a `context` marker on the world it gives context for.** Mark's
+  ruling, 2026-08-26: *"it carries a context marker for that world."* So
+  context material takes a normal `atlas_id` — the entry it surrounds — plus
+  `role: context`. Libanius and Julian to `imperial-juridical-christianity`,
+  whose world they are the outside of; Porphyry to
+  `alexandria-catechetical`, whose teachers answered him.
+
+  This is better than a separate bucket on both counts. It keeps one taxonomy
+  (§4), and it says what the material is *for* rather than only what it is
+  not: Libanius is not loose classical literature, he is the view from
+  outside `ijc`, and a world that wants its lived ecology wants exactly that.
 
 The value is real and specific: this is the best evidence of **how Christians
 were seen from outside**, which no Christian source can supply and which every
 world's "lived ecology" is thinner without.
+
+**`role: context` is an enforceable invariant, not just a label.** Once the
+assignment table exists, one check states the whole ruling mechanically:
+
+> No record carrying `register: emic` may cite a source assigned
+> `role: context`, and no `doctrinal_witness` may cite one at all.
+
+A world may say what Libanius saw; it may never say it *as its own voice*, and
+it may never build a doctrinal witness on him. That is "context, not theology"
+in a form a gate can check on every commit rather than a discipline someone
+has to remember. I will write it against whatever shape the table takes.
 
 ### The Atlas has no bucket for it
 
