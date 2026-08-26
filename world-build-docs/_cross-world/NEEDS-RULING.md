@@ -46,6 +46,7 @@ Five are shelves for material the corpus carries *about* a movement, registered 
 | `donatism` | 5 | The Cyprian antecedent question, raised once per work the Donatists actually invoked. [...] |
 | `byzantine-imperial-church-macedonian` | 4 | Ante-Nicene volumes housing much later works: Byzantine-era apocalypses (the Virgin, [...] |
 | `syriac-edessa-nisibis` | 4 | The Clementine literature, and what `syr` is for |
+| `apocryphal-and-pseudepigraphal-literature` | 3 | One question, and no entry can answer it |
 | `imperial-juridical-christianity` | 2 | Not the historians |
 | `jerusalem-liturgical-pilgrimage-christianity` | 2 | Half answered |
 | `post-apostolic-house-church` | 2 | Answered |
@@ -168,6 +169,10 @@ Ante-Nicene volumes housing much later works: Byzantine-era apocalypses (the Vir
 
 
 ## `apocryphal-and-pseudepigraphal-literature` — 3 work(s)
+
+**One question, and no entry can answer it.** All three are corpora the edition itself marks dubious or spurious - two under Methodius, one under Gregory Thaumaturgus - and the doubt is not where they sit but whether a spurious corpus files under its attributed author's name at all. That is an attribution ruling. Worth knowing while you make it: the Sectional Confession inside the Gregory bundle is widely held an Apollinarian production, and `apollinarian-christianity` now exists to receive it if the bundle is ever split.
+
+*In this pile: gregory_thau, methodius.*
 
 **Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith; On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies; On All the Saints; On the Gospel According to Matthew)** · `gregory_thau` · `anf06` · also flagged against `anatolian-church-third-century`
 > CCEL's own heading marks the body dubious or spurious; several pieces are much later (the Sectional Confession is widely held an Apollinarian production). Needs a ruling on whether a spurious corpus files under the attributed name at all. Re-pointed 2026-08-26 to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character. STILL `needs-ruling`: whether a spurious corpus files under the attributed name at all is an attribution ruling no new entry answers. The Sectional Confession is widely held an Apollinarian production, and apollinarian-christianity now exists to receive it if the bundle is ever split.

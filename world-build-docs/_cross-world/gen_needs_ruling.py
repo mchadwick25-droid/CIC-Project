@@ -91,7 +91,7 @@ SWEEPS = {
         "**One question, and no entry can answer it.** All three are corpora the edition itself "
         "marks dubious or spurious - two under Methodius, one under Gregory Thaumaturgus - and "
         "the doubt is not where they sit but whether a spurious corpus files under its attributed "
-        "author's name at all. That is an 
+        "author's name at all. That is an "
         "attribution ruling. Worth knowing while you make it: the Sectional Confession inside the "
         "Gregory bundle is widely held an Apollinarian production, and "
         "`apollinarian-christianity` now exists to receive it if the bundle is ever split.",
