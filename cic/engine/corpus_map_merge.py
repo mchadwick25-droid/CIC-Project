@@ -73,6 +73,9 @@ RULING_KINDS = {
 }
 
 
+ONLY: list[str] = []          # set by --only; empty means every staging file
+
+
 def load_staging() -> tuple[list[dict], dict[str, dict], list[str]]:
     """Every staged assignment, flattened, plus the author rulings, plus
     findings. The file each row came from is attached so a finding can name it.
@@ -89,6 +92,8 @@ def load_staging() -> tuple[list[dict], dict[str, dict], list[str]]:
         return rows, rulings, [f"no staging directory at {STAGING.relative_to(REPO_ROOT)}"]
 
     for path in sorted(STAGING.glob("*.yaml")):
+        if ONLY and not any(token in path.name for token in ONLY):
+            continue
         doc = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
         source_file = doc.get("source_file")
         if not source_file:
@@ -191,7 +196,14 @@ def merge(write: bool = True) -> tuple[dict[str, list[dict]], list[str]]:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="python cic/engine/corpus_map_merge.py")
     parser.add_argument("--check", action="store_true", help="report only; write nothing")
+    parser.add_argument("--only", nargs="*", default=[], metavar="TOKEN",
+                        help="with --check: consider only staging files whose name contains one "
+                             "of these, so a worker can validate its own files while others are "
+                             "mid-write")
     args = parser.parse_args(argv)
+    if args.only and not args.check:
+        parser.error("--only is for --check; a partial merge would prune every other bucket")
+    ONLY[:] = args.only
 
     buckets, findings = merge(write=not args.check)
     _, rulings, _ = load_staging()
