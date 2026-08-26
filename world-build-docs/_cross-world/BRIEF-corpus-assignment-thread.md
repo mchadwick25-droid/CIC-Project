@@ -329,18 +329,23 @@ their future corpus.
 
 ---
 
-## 11. Open questions for Mark — answer before starting, they change the work
+## 11. Open questions — ALL SETTLED, 2026-08-26
+
+Kept with their answers rather than deleted, so the thread can see what was
+decided and why rather than inheriting rules with no reasoning attached.
 
 1. ~~The assignment table's home and shape~~ — **settled 2026-08-26**: a
    standalone `cic/corpus-map/`, one file per Atlas entry, outside `records/`
    entirely. See §5a.
-2. **Granularity.** One assignment per *work* (Augustine's ~40 treatises) or
-   per *coherent group* (Augustine's anti-Pelagian writings as one)? Group is
-   cheaper and probably sufficient; per-work is more precise for a corpus
-   search that will eventually want loci.
-3. **Pre-Survey Candidate entries** (215 of 274). Are these live assignment
-   targets, or should material only go to entries that have been surveyed?
-   Assigning into an unsurveyed era may pre-empt a Step 0 judgment.
+2. ~~Granularity~~ — **settled 2026-08-26: per work.** Augustine's treatises
+   are assigned individually, not as groups. More entries, and the right call
+   for a corpus search that will eventually want loci: a group assignment
+   cannot say *which* of forty treatises a passage came from.
+3. ~~Pre-Survey Candidate entries~~ — **settled 2026-08-26: yes, assign to
+   them.** All 274 movements are live targets. Placing a source in an
+   unsurveyed era is not a claim that its Step 0 survey has run; it is
+   material waiting where it belongs, and 215 of the 274 sit in eras that
+   have not been surveyed.
 4. **The Pastor of Hermas and the Clementines** — under the attributed name,
    the real one, or their own entity? (7, third bullet.)
 

@@ -1,0 +1,35 @@
+# WORKED EXAMPLE, seeded 2026-08-26 by the cross-system consistency audit so the
+# assignment thread has a validated shape to copy rather than a format to guess
+# at. Two real works, both already vendored and already cited by this world -
+# nothing here is invented, and `python cic/engine/corpus_map.py` validates it.
+#
+# The filename IS the census movement id. That is the whole alignment
+# mechanism: no lookup table, nothing to keep in sync, and integration later
+# is a join on a key that already matches.
+atlas_id: desert-monasticism
+
+works:
+  - work: "Vita Antonii (Life of Antony)"
+    author: athanasius
+    source_file: npnf204_athanasius-select-works-letters.xml
+    locus: "div1 'Life of Antony'"
+    role: tradition
+    confidence: assigned
+    note: >
+      The single most influential text about this world, written from outside
+      it by a bishop who was not a desert participant. Assigned here as
+      primary evidence AND to alexandria-catechetical as its author's own
+      work - assignment is not exclusive, and an exclusive partition would
+      strip desert of its evidential base. 43 desert records already cite it.
+
+  - work: "Lausiac History"
+    author: palladius
+    source_file: palladius_lausiac-history_clarke1918.txt
+    locus: "whole work (single-work volume)"
+    role: tradition
+    confidence: assigned
+    note: >
+      Retrospective monastic biography, c. 419-420. Also the only vendored
+      route this world currently has to Evagrius, whose own works have no
+      public-domain English - see WANTS-REGISTER.md, where Evagrius sits at
+      value 14 under "no edition exists".
