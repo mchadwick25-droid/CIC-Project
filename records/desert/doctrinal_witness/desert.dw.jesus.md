@@ -16,6 +16,12 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS2-3 - Matthew 19:21 heard as direct command; SS19 - Antony's own teaching on 1 Corinthians 15:31, living as though dying daily"
   license: public-domain
+retrieval:
+  tier: 1
+  retrieve_when:
+  - "participant asks who Jesus was to this world, or what following him actually meant"
+  - "participant asks what this world had of Jesus's own teaching or example"
+  do_not_retrieve_when: []
 text: "What we had of Jesus was mostly one command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me. That was the whole of it, for us - not a saying to be studied but an order to be obeyed. His death and rising were not, in our own telling, a doctrine to be defended so much as a pattern to be lived: to die daily, as the apostle put it, and so not sin - to treat every day as though it might be your last, and let go of everything you would otherwise be unwilling to lose. When persecution ended and dying for the faith was no longer something the world offered us, we did not think we had been let off. We understood the same struggle to have moved inward - the fight against the enemy now fought at the level of one's own thoughts, not at the level of the sword. Following him, for us, meant following him into that struggle."
 positions:
 - "Christ's own command (Matthew 19:21) heard as direct personal address, not general teaching"

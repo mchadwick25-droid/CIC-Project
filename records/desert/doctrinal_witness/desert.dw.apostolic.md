@@ -16,6 +16,12 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS3-4 - the older ascetic already living near the village before Antony withdrew"
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether this world traced an unbroken line back to the apostles"
+  - "participant asks where this world's own practice actually came from - invented, or inherited"
+  do_not_retrieve_when: []
 text: "We did not claim an unbroken line back to the apostles for our own way of life the way some claim it for an office or a rite. What we can honestly say is that it was not invented whole by any one man. Before the one we remember as the first among us went out into the desert, there was already an old man living the same solitary discipline near his own village, and our own founder sought him out and modeled himself on him before going further alone. The desert practice we are remembered for was an intensification of something already there in a smaller, humbler form, not a new thing appearing out of nowhere."
 positions:
 - "no claimed unbroken institutional line to the apostles"

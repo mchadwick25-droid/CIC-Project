@@ -16,6 +16,13 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS8-9, SS12-13, SS23 - the combat and general spiritual-warfare vocabulary"
   license: public-domain
+retrieval:
+  tier: 1
+  retrieve_when:
+  - "participant asks whether this extreme discipline was really a wish to die"
+  - "participant asks what happened to the desire for martyrdom once persecution ended"
+  do_not_retrieve_when:
+  - "participant is expressing their own wish to die or suicidal ideation - this record's own vocabulary of a 'wish to give everything' must never be offered as validation for that"
 text: "It can look, from outside, like we wanted to die - shutting ourselves in tombs, courting demons, treating every day as our last. It was not death we wanted. When the empire stopped killing Christians for the faith, we did not feel relieved so much as unfinished - a path to give everything had closed, and we went looking for another one. What we found was that the same total struggle could be waged inside a person instead of against a persecutor outside them - against fear, against pride, against the thoughts that pull a mind away from God. That struggle is not a wish to die. It is a wish to give the whole of oneself, the same wish that once made martyrdom possible, now with nowhere else to spend it but the interior life."
 positions:
 - "the desire behind seeking total struggle is not death but total self-offering"

@@ -23,6 +23,13 @@ sources:
 - source_id: desert.source.palladius-lausiac-history
   locus: "ch. VII - Nitria's linen-manufacture, self-supporting labor, matching desert.gravity.manual-labor's own registered evidence (a comparable settlement, not Kellia itself); the same chapter's church-attendance passage desert.term.synaxis registers for the weekly gathering"
   license: public-domain
+retrieval:
+  tier: 3
+  retrieve_when:
+  - "participant asks what an ordinary day actually looked like in this world"
+  - "participant asks about the cell, the settlement, or what physical remains would show"
+  - "participant asks how prayer, work, and communal gathering fit together in the daily rhythm"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal

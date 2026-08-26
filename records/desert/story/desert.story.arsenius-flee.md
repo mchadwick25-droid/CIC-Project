@@ -15,6 +15,13 @@ confidence:
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "Arsenius, Alphabetical Collection - one saying, re-derived from the prior build's cleared Doc_09a Story 2.2, itself independently web-verified; paraphrase-only here, no vendored edition, no verbatim-quote claim"
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how someone actually became part of this life, in the shortest possible telling"
+  - "participant asks what withdrawal actually meant as a strategy, not an escape"
+  - "participant asks for a short, memorable saying about this world's own path"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

@@ -18,6 +18,12 @@ sources:
   license: public-domain
 - source_id: desert.source.nepheros-archive
   locus: "the Melitian community's own documentary archive - caveated per that source's own two standing cautions: representativeness for the mainstream strands is an unverified working assumption, and the editors' own 'intermediary' organizational reading does not map cleanly onto this world's three strands"
+retrieval:
+  tier: 3
+  retrieve_when:
+  - "participant asks about a rival or schismatic community and how this world treated them"
+  - "participant asks whether this world recognized other ascetic groups as fellow participants"
+  do_not_retrieve_when: []
 text: "There was another community near us, holding to a different bishop after an old dispute, and we did not treat them as fellow ascetics. The one we remember as our own founder never held communion with them, from the beginning to his own dying instruction. What that meant in practice was closer to silence than to open conflict in the writing we left behind - they are named only to be refused, never engaged as ongoing co-participants, which is itself a kind of judgment. Their own letters, when they survive, show ordinary monks doing ordinary monastic business - though whether that business really looked like ours day to day, or only looks that way from the little we can compare, is not something we can honestly settle from what survives. We did not, so far as we can tell, offer them the same recognition we gave each other."
 positions:
 - "we refused Melitian ascetics recognition as fellow participants in the same formation logic"

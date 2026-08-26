@@ -16,6 +16,14 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS8-10 - the demonic combat at the tombs, the beast-form attack, and the light vision; SS12-13 - the fort, the crowds clamouring outside"
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant says they can't quiet their own mind, or asks if this way of life has anything for someone struggling internally"
+  - "participant asks what spiritual combat or fighting temptation actually looked like"
+  - "participant asks for the most extreme example of what this world's own discipline demanded"
+  do_not_retrieve_when:
+  - "participant is in acute personal crisis around self-harm, psychiatric crisis, or dissociation - this story's own violent imagery is not meant as guidance for a real mental-health emergency"
 relations:
 - type: illustrates
   target: desert.gravity.spiritual-combat
