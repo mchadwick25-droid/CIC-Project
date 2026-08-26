@@ -1,0 +1,524 @@
+"""Cross-world consistency checks (the fleet-level counterpart to gates.py).
+
+gates.py asks "is THIS world well-formed?" and every one of its fifteen gates
+runs against one world's records in isolation. That is the right shape for
+everything it checks, and it is why the whole battery is green on all six
+formation worlds while the fleet still holds real, participant-visible
+inconsistencies: nothing in it can see two worlds at once, so nothing in it
+can notice that five worlds answer a question one way and the sixth answers
+it another. This module is that missing view.
+
+The line it polices is the one the 2026-08-26 cross-system consistency audit
+drew (world-build-docs/_cross-world/CiC_Cross_System_Consistency_Audit_
+2026-08-26.md): a world may differ from its siblings in SUBSTANCE - how many
+terms it holds, how rich its quote corpus is, which cells it can only answer
+with an honest limit - and may never differ in the SHAPE the pipeline moves
+that substance through. Six different historical records are supposed to look
+different. Six identical pipelines are not.
+
+Two severities, and the difference matters:
+
+  DEFECT      a contract this file states is broken. Never expected. Any
+              defect not named in ACCEPTED_OPEN fails the run.
+  OBSERVATION a per-world measurement with no fixed contract (retrieval-hint
+              coverage, optional-field adoption). Printed for a human, never
+              failed on - the numbers are the point, not a threshold.
+
+ACCEPTED_OPEN is how a KNOWN, DOCUMENTED defect stays visible instead of
+being suppressed: each entry names the audit finding that owns it and the
+thread the repair belongs to. A defect with no entry is new drift, and new
+drift fails. Removing an entry is what "fixed" means here.
+
+    python -m engine.m1.cross_world          # full report, exit 1 on new drift
+    python -m engine.m1.cross_world --all    # also print accepted-open detail
+"""
+import json
+import re
+import sys
+from pathlib import Path
+
+from engine.m1.loader import RECORDS_ROOT, load_world_records
+from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
+
+CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
+APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
+SITE_INDEX_HTML = REPO_ROOT / "cic-website" / "index.html"
+
+DEFECT = "defect"
+OBSERVATION = "observation"
+
+# Every defect below is keyed <check-id>/<world-or-scope>. An entry here says:
+# this one is known, it is written up, and it is somebody's named next step -
+# not that it is acceptable. See the audit doc for each finding's evidence.
+ACCEPTED_OPEN: dict[str, str] = {
+    "census-living-flag/alx": "F-06 - census `living` says false, registry says true; which is correct is Mark's own per-world Living Tradition touchpoint, not a build thread's to settle",
+    "census-living-flag/pahc": "F-06 - as alx",
+    "census-living-flag/hal": "F-06 - as alx",
+    "census-living-flag/ijc": "F-06 - as alx",
+    "census-role-label/pahc": "F-07 - Atlas says 'Host of the Assembly', registry says 'Household Leader'; picking one is a participant-facing copy decision",
+    "census-role-label/syr": "F-07 - Atlas says 'Teacher of the Covenant Order', registry says 'Mar'",
+    "census-role-label/desert": "F-07 - Atlas says 'Elder of the Desert', registry says 'Abba (Elder)'",
+    "census-role-label/ijc": "F-07 - Atlas says 'Apocrisiarius - Deacon of the Letters', registry says 'Deacon of the Letters'",
+    "census-representative-name/syr": "F-08 - Atlas says 'Mar Yausep', registry says name 'Yausep' + role 'Mar'; one participant, two names across two surfaces",
+    "census-display-name/alx": "F-09 - alx alone sets display_name to the Atlas's friendly short name; the other five carry the census's formal name",
+    "id-type-token/doctrinal_witness": "F-03 - pahc uses `pahc.witness.*` where the other five use `<world>.dw.*`; renaming 17 records re-hashes the package, so it belongs to a pahc build thread",
+    "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
+    "figure-dates-keys/pahc": "F-04 - pahc keys figure.dates as display/note where the other five use born/died/floruit, and the frontend prints the key verbatim, so pahc participants read 'display:' and 'note:' in the UI",
+    "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
+    "ui-field-leak/desert": "F-10 - desert.figure.antony/evagrius/pachomius carry build-provenance text (a record id, `SS`-style section refs, 'this build') inside figure.dates, which the doorway's Level-3 panel prints verbatim",
+}
+
+
+# --------------------------------------------------------------------------
+# finding plumbing
+# --------------------------------------------------------------------------
+
+class Finding:
+    __slots__ = ("check", "scope", "severity", "message")
+
+    def __init__(self, check: str, scope: str, severity: str, message: str):
+        self.check, self.scope, self.severity, self.message = check, scope, severity, message
+
+    @property
+    def key(self) -> str:
+        return f"{self.check}/{self.scope}"
+
+    def __repr__(self) -> str:
+        return f"{self.severity.upper():11} {self.key:44} {self.message}"
+
+
+def _defect(check, scope, message) -> Finding:
+    return Finding(check, scope, DEFECT, message)
+
+
+def _observation(check, scope, message) -> Finding:
+    return Finding(check, scope, OBSERVATION, message)
+
+
+# --------------------------------------------------------------------------
+# stage 1: the registry against itself
+# --------------------------------------------------------------------------
+
+def check_registry_shape(*, registry, worlds, **_) -> list[Finding]:
+    """Every formation world's registry entry carries the same key set. A
+    world that is simply MISSING a key the others have is the exact shape of
+    the desert deep-link defect this audit started from - `census_id: null`
+    read as "no Atlas entry" by every consumer, when the Atlas entry existed
+    all along."""
+    findings = []
+    keysets = {w: set(registry[w]) for w in worlds}
+    universe = set().union(*keysets.values())
+    for w in worlds:
+        for missing in sorted(universe - keysets[w]):
+            findings.append(_defect("registry-key-set", w, f"registry entry has no {missing!r} key; the other formation worlds do"))
+        for key in sorted(universe):
+            if key in keysets[w] and registry[w][key] is None:
+                findings.append(_defect("registry-null-field", f"{w}.{key}", f"{key} is null; every other consumer reads that as 'this world has none'"))
+    return findings
+
+
+def check_package_pinned(*, registry, worlds, **_) -> list[Finding]:
+    """Every world is load-verified against the manifest hash pinned here
+    (engine.m4.world_loader refuses on any mismatch). A world missing either
+    half of that pin is one the runtime cannot refuse to serve wrong."""
+    findings = []
+    for w in worlds:
+        pkg = registry[w].get("package") or {}
+        for field in ("location", "manifest_hash"):
+            if not pkg.get(field):
+                findings.append(_defect("package-pin", w, f"package.{field} is missing - the world cannot be load-verified"))
+        location = pkg.get("location")
+        if location and not (REPO_ROOT / location / "manifest.json").is_file():
+            findings.append(_defect("package-pin", w, f"package.location {location!r} has no manifest.json on disk"))
+    return findings
+
+
+# --------------------------------------------------------------------------
+# stage 2: the registry against the Atlas census (the other surface)
+# --------------------------------------------------------------------------
+
+def _census_live_entries() -> dict[str, dict]:
+    if not CENSUS_PATH.is_file():
+        return {}
+    census = json.loads(CENSUS_PATH.read_text(encoding="utf-8"))
+    return {m["id"]: m for m in census.get("movements", []) if m.get("status") == "Built & Live"}
+
+
+def check_census_link(*, registry, worlds, **_) -> list[Finding]:
+    """The Atlas deep link is `?worlds=<census entry id>` (cic-website/
+    index.html, atlas-v3.html's own `data-aid="${m.id}"`), and the app
+    matches it against the registry's census_id (App.tsx's
+    findWorldByCensusId). A census_id that does not resolve to a live census
+    entry is a deep link that can never match - the participant lands on the
+    world list instead of the world they clicked."""
+    findings = []
+    live = _census_live_entries()
+    if not live:
+        return [_defect("census-file", "fleet", f"no Built & Live entries readable at {CENSUS_PATH}")]
+    for w in worlds:
+        cid = registry[w].get("census_id")
+        if not cid:
+            findings.append(_defect("census-id", w, "census_id is unset - the Atlas deep link for this world can never match, and it falls through to the world list"))
+        elif cid not in live:
+            findings.append(_defect("census-id", w, f"census_id {cid!r} is not a 'Built & Live' entry in world-census.json"))
+    claimed = {registry[w].get("census_id") for w in worlds}
+    for cid in sorted(set(live) - claimed):
+        findings.append(_defect("census-orphan", cid, "census entry is marked 'Built & Live' but no registry world claims it"))
+    return findings
+
+
+def check_census_agreement(*, registry, worlds, **_) -> list[Finding]:
+    """The registry is the ONE world registry (spec principle 4) and the
+    census is a second, independently maintained description of the same six
+    worlds that a participant reads FIRST. Where they disagree, the
+    participant meets one world on the Atlas and a different one when they
+    walk through the door."""
+    findings = []
+    live = _census_live_entries()
+    for w in worlds:
+        entry = live.get(registry[w].get("census_id") or "")
+        if entry is None:
+            continue  # already reported by check_census_link
+        e = entry.get("entry") or {}
+        rep = registry[w].get("representative") or {}
+        window = registry[w].get("time_window") or {}
+
+        if entry.get("start") != window.get("start") or entry.get("end") != window.get("end"):
+            findings.append(_defect("census-time-window", w, f"census start/end {entry.get('start')}-{entry.get('end')} != registry time_window {window.get('start')}-{window.get('end')}"))
+        if bool(entry.get("living")) != bool(registry[w].get("living_tradition_flag")):
+            findings.append(_defect("census-living-flag", w, f"census living={entry.get('living')} != registry living_tradition_flag={registry[w].get('living_tradition_flag')}"))
+        if e.get("representativeName") and e["representativeName"] != rep.get("name"):
+            findings.append(_defect("census-representative-name", w, f"census representativeName {e['representativeName']!r} != registry representative.name {rep.get('name')!r}"))
+        if e.get("representativeTitle") and e["representativeTitle"] != rep.get("role_label"):
+            findings.append(_defect("census-role-label", w, f"census representativeTitle {e['representativeTitle']!r} != registry representative.role_label {rep.get('role_label')!r}"))
+        if entry.get("name") and entry["name"] != registry[w].get("display_name"):
+            findings.append(_defect("census-display-name", w, f"census name {entry['name']!r} != registry display_name {registry[w].get('display_name')!r}"))
+    return findings
+
+
+# --------------------------------------------------------------------------
+# stage 3: the records tree, world against world
+# --------------------------------------------------------------------------
+
+def check_record_type_directories(*, worlds, **_) -> list[Finding]:
+    """Observation, not defect: a world legitimately may hold no records of
+    some type, and the compiler emits an empty chunk directory rather than
+    failing. Reported because a MISSING directory and an empty one look the
+    same downstream, and the difference is usually a build that stopped."""
+    findings = []
+    dirs = {w: {p.name for p in (RECORDS_ROOT / w).iterdir() if p.is_dir()} for w in worlds}
+    universe = set().union(*dirs.values())
+    for w in worlds:
+        for missing in sorted(universe - dirs[w]):
+            findings.append(_observation("record-type-dir", w, f"no {missing}/ directory; every other formation world has one"))
+        stray = [p.name for p in (RECORDS_ROOT / w).iterdir() if not p.is_dir()]
+        for name in sorted(stray):
+            findings.append(_observation("records-stray-file", f"{w}/{name}", "non-record file at the world's records root - the compiler ignores it, but it is not part of the frozen records copy"))
+    return findings
+
+
+def check_id_type_tokens(*, records, worlds, **_) -> list[Finding]:
+    """One id shape across the fleet, extended past what gate_id_convention
+    already enforces. That gate holds every id to `<world>.<type>.<slug>` and
+    bans a canon-cell code in the slug, but it never compares the middle
+    segment BETWEEN worlds - so a record_type may be addressed one way in one
+    world and another way in the next and still pass, which is exactly what
+    happened. The gate's own docstring gives the reason this matters at
+    scale: 'At the hundred the spec plans for, it is a corpus nobody can
+    write a tool against.'"""
+    findings = []
+    tokens: dict[str, dict[str, set[str]]] = {}
+    for w in worlds:
+        for rec in records[w].values():
+            parts = rec["id"].split(".")
+            if len(parts) != 3:
+                continue
+            tokens.setdefault(rec["record_type"], {}).setdefault(w, set()).add(parts[1])
+    for record_type, by_world in sorted(tokens.items()):
+        used = {t for toks in by_world.values() for t in toks}
+        if len(used) == 1:
+            continue
+        counts = {t: sorted(w for w, toks in by_world.items() if t in toks) for t in sorted(used)}
+        majority = max(counts, key=lambda t: len(counts[t]))
+        for token, holders in sorted(counts.items()):
+            if token == majority:
+                continue
+            findings.append(_defect("id-type-token", record_type, f"{', '.join(holders)} address {record_type} as `<world>.{token}.*` where the rest of the fleet uses `<world>.{majority}.*`"))
+    return findings
+
+
+def check_record_world_ids(*, records, registry, worlds, **_) -> list[Finding]:
+    """The two independent places a record names its own world - the envelope
+    `world_id` and the id's own first segment - both have to agree with the
+    registry. A record filed under one world declaring another compiles fine
+    and is uncitable at turn time."""
+    findings = []
+    for w in worlds:
+        expected = registry[w].get("world_id")
+        for rid, rec in sorted(records[w].items()):
+            if rec.get("world_id") != expected:
+                findings.append(_defect("record-world-id", w, f"{rid} declares world_id {rec.get('world_id')!r}, registry says {expected!r}"))
+            if rid.split(".")[0] != w:
+                findings.append(_defect("record-id-prefix", w, f"{rid} is not prefixed with its own world_key {w!r}"))
+    return findings
+
+
+def check_figure_dates_keys(*, records, worlds, **_) -> list[Finding]:
+    """`figure.dates` is `{"type": "object"}` in the schema - no key
+    vocabulary at all - and cic-poc/frontend's FigureBridgeMark prints
+    `${key}: ${value}` straight into the Level-3 panel. So the authoring
+    convention a world happened to pick IS what a participant reads."""
+    findings = []
+    by_world = {}
+    for w in worlds:
+        by_world[w] = {k for rec in records[w].values() if rec["record_type"] == "figure" for k in (rec.get("dates") or {})}
+    counts: dict[str, int] = {}
+    for keys in by_world.values():
+        for k in keys:
+            counts[k] = counts.get(k, 0) + 1
+    fleet_vocabulary = {k for k, n in counts.items() if n >= len(worlds) - 1}
+    for w in worlds:
+        for key in sorted(by_world[w] - fleet_vocabulary):
+            findings.append(_defect("figure-dates-keys", w, f"figure.dates uses key {key!r}, which no other world uses; the frontend prints the key verbatim to the participant"))
+    return findings
+
+
+# --------------------------------------------------------------------------
+# stage 4: what a participant actually reads
+# --------------------------------------------------------------------------
+
+_RECORD_ID = re.compile(r"\b(?:[a-z]{2,8})\.(?:[a-z_]{2,20})\.[a-z0-9][a-z0-9-]{2,}\b")
+_BUILD_REF = re.compile(r"\bDoc_\d|\bSS\d+\b|\bArtifact-\d|\bBUILD-LOG\b|\bthis build\b|\b20\d{2}-\d{2}-\d{2}\b", re.IGNORECASE)
+
+# Exactly the fields that reach a participant's screen, via
+# engine.m4.citation_cards' label table, engine.m4.name_bridge's figure card
+# and engine.m2.builders' compiled quote index. Deliberately narrower than
+# "every string on the record", for the same reason gates.gate_no_build_
+# attribution scopes itself to build_prompt()'s own field contract:
+# commentary fields are a LEGITIMATE home for build language, and scanning
+# them would bury the real findings.
+_PARTICIPANT_FIELDS = {
+    "figure": ["bridge_line"],
+    "term": ["world_word"],
+    "story": ["tellable_as"],
+    "gravity": ["name"],
+    "force": ["name"],
+    "contested_claim": ["claim"],
+}
+
+
+def check_participant_field_leaks(*, records, worlds, **_) -> list[Finding]:
+    findings = []
+    for w in worlds:
+        hits = []
+        for rid, rec in sorted(records[w].items()):
+            texts = [(f, rec.get(f)) for f in _PARTICIPANT_FIELDS.get(rec["record_type"], [])]
+            if rec["record_type"] == "figure":
+                texts += [(f"dates.{k}", v) for k, v in (rec.get("dates") or {}).items()]
+            for field, text in texts:
+                if not isinstance(text, str):
+                    continue
+                match = _RECORD_ID.search(text) or _BUILD_REF.search(text)
+                if match:
+                    hits.append(f"{rid}.{field} ({match.group(0)!r})")
+        if hits:
+            findings.append(_defect("ui-field-leak", w, f"{len(hits)} participant-facing field(s) carry a record id or build reference: {', '.join(hits[:4])}{' ...' if len(hits) > 4 else ''}"))
+    return findings
+
+
+def check_quote_speaker_labels(*, records, worlds, **_) -> list[Finding]:
+    """`speaker_or_author` is authored two ways across the corpus - a figure
+    record id, or already-readable prose - and both are legitimate. What is
+    not legitimate is a third way that no resolver unwraps: the label
+    resolvers (engine.m4.citation_cards._quote_speaker_label for the Level-3
+    card, engine.m2.builders._quote_speaker for the compiled prompt's quote
+    index) both only look through a `figure` id, so anything else lands on a
+    participant's screen as a raw database key."""
+    from engine.m2.builders import _quote_speaker
+    from engine.m4.citation_cards import _label
+
+    findings = []
+    for w in worlds:
+        repo = records[w]
+        bad = []
+        for rid, rec in sorted(repo.items()):
+            if rec["record_type"] != "quote":
+                continue
+            for rendered in (_label(rec, repo), _quote_speaker(rec)):
+                if _RECORD_ID.search(rendered or ""):
+                    bad.append(rid)
+                    break
+        if bad:
+            findings.append(_defect("quote-speaker-label", w, f"{len(bad)} quote(s) render a raw record id as the speaker a participant reads: {', '.join(bad[:4])}{' ...' if len(bad) > 4 else ''}"))
+    return findings
+
+
+# --------------------------------------------------------------------------
+# stage 5: the frontends
+# --------------------------------------------------------------------------
+
+def check_app_world_assets(*, worlds, **_) -> list[Finding]:
+    """cic-poc/frontend/src/data/worlds.ts holds the one thing about a world
+    the registry does not carry (portrait file, accent colour) - and
+    useWorlds.toEntry() returns null for a world with no entry there, which
+    DROPS it from the world list silently. A world can be built, compiled,
+    admitted and served by GET /api/worlds and still never appear."""
+    findings = []
+    if not APP_WORLDS_TS.is_file():
+        return [_defect("app-assets-file", "fleet", f"{APP_WORLDS_TS} not found")]
+    text = APP_WORLDS_TS.read_text(encoding="utf-8")
+    order_match = re.search(r"WORLD_ORDER\s*=\s*\[([^\]]*)\]", text)
+    order = set(re.findall(r"'([^']+)'", order_match.group(1))) if order_match else set()
+    assets_match = re.search(r"WORLD_ASSETS[^=]*=\s*\{(.*?)\n\}", text, re.S)
+    assets = set(re.findall(r"^\s*(\w+):\s*\{", assets_match.group(1), re.M)) if assets_match else set()
+    for w in worlds:
+        if w not in assets:
+            findings.append(_defect("app-world-assets", w, "no WORLD_ASSETS entry - useWorlds() drops this world from the world list without an error"))
+        if w not in order:
+            findings.append(_defect("app-world-order", w, "not in WORLD_ORDER - indexOf returns -1, which sorts it ahead of every listed world"))
+    for extra in sorted((assets | order) - set(worlds)):
+        findings.append(_defect("app-world-unknown", extra, "named in the frontend's world tables but not a formation world in the registry"))
+    return findings
+
+
+def check_site_portraits(*, registry, worlds, **_) -> list[Finding]:
+    """cic-website/index.html's carousel keys its portrait files by census id.
+    A world the census lists but this table does not renders a broken image
+    on the front page of the public site."""
+    findings = []
+    if not SITE_INDEX_HTML.is_file():
+        return [_defect("site-portrait-file", "fleet", f"{SITE_INDEX_HTML} not found")]
+    text = SITE_INDEX_HTML.read_text(encoding="utf-8")
+    block = re.search(r"PORTRAIT_FILES\s*=\s*\{(.*?)\}", text, re.S)
+    mapped = set(re.findall(r"'([^']+)'\s*:", block.group(1))) if block else set()
+    for w in worlds:
+        cid = registry[w].get("census_id")
+        if cid and cid not in mapped:
+            findings.append(_defect("site-portrait", w, f"census_id {cid!r} has no PORTRAIT_FILES entry - the Atlas carousel renders a broken image for this world"))
+    return findings
+
+
+# --------------------------------------------------------------------------
+# observations: measured, never thresholded
+# --------------------------------------------------------------------------
+
+def observe_retrieval_hints(*, records, worlds, **_) -> list[Finding]:
+    """`retrieval.retrieve_when` is the one retrieval field the live turn
+    loop actually reads (engine.m1.canon.retrieval_hint_keywords widens
+    Stage A's cell match with it). A world whose builders wrote few hints
+    gets less of that widening - a build-effort difference that reads, at
+    turn time, exactly like a thinner world."""
+    findings = []
+    for w in worlds:
+        with_block = [r for r in records[w].values() if r.get("retrieval")]
+        hinted = [r for r in with_block if (r.get("retrieval") or {}).get("retrieve_when")]
+        pct = round(100 * len(hinted) / len(with_block)) if with_block else 0
+        phrases = len({p for r in with_block for p in ((r.get("retrieval") or {}).get("retrieve_when") or [])})
+        findings.append(_observation("retrieval-hint-coverage", w, f"{len(hinted)}/{len(with_block)} retrieval-bearing records carry retrieve_when ({pct}%), {phrases} distinct hint phrases"))
+    return findings
+
+
+def observe_unread_retrieval_config(*, records, worlds, **_) -> list[Finding]:
+    """`retrieval.tier` and `retrieval.do_not_retrieve_when` are authored by
+    every world and read by no runtime path (tier reaches only
+    gate_distribution_health; do_not_retrieve_when appears at runtime only in
+    evidence._FALLBACK_EXCLUDED_KEYS, which excludes it from being SEARCHED,
+    not from being enforced). The per-world spread is recorded here so the
+    day either one is wired, the drift is already known."""
+    findings = []
+    for w in worlds:
+        tiers = [(r.get("retrieval") or {}).get("tier") for r in records[w].values() if (r.get("retrieval") or {}).get("tier")]
+        excl = sum(1 for r in records[w].values() if (r.get("retrieval") or {}).get("do_not_retrieve_when"))
+        spread = {t: tiers.count(t) for t in (1, 2, 3)}
+        findings.append(_observation("unread-retrieval-config", w, f"tier spread {spread} (read by no runtime path), {excl} records carry do_not_retrieve_when (enforced nowhere)"))
+    return findings
+
+
+def observe_optional_field_adoption(*, records, worlds, **_) -> list[Finding]:
+    """Fields the schema allows and no gate requires. Uneven adoption is not
+    a defect on its own - it is the leading indicator of one, because it is
+    where the next field to be wired will find the fleet already uneven."""
+    watched = [("source", "external_ids"), ("contested_claim", "divergence_partners"), ("demonstration", "tags"), ("term", "prior_sense")]
+    findings = []
+    for w in worlds:
+        parts = []
+        for record_type, field in watched:
+            pool = [r for r in records[w].values() if r["record_type"] == record_type]
+            filled = sum(1 for r in pool if r.get(field) not in (None, "", [], {}))
+            parts.append(f"{record_type}.{field} {filled}/{len(pool)}")
+        findings.append(_observation("optional-field-adoption", w, "; ".join(parts)))
+    return findings
+
+
+def observe_source_licensing(*, records, worlds, **_) -> list[Finding]:
+    findings = []
+    for w in worlds:
+        refs = [s for r in records[w].values() for s in (r.get("sources") or [])]
+        licensed = sum(1 for s in refs if s.get("license"))
+        findings.append(_observation("source-ref-license", w, f"{licensed}/{len(refs)} sources[] entries carry a license field"))
+    return findings
+
+
+CHECKS = [
+    check_registry_shape,
+    check_package_pinned,
+    check_census_link,
+    check_census_agreement,
+    check_record_type_directories,
+    check_id_type_tokens,
+    check_record_world_ids,
+    check_figure_dates_keys,
+    check_participant_field_leaks,
+    check_quote_speaker_labels,
+    check_app_world_assets,
+    check_site_portraits,
+    observe_retrieval_hints,
+    observe_unread_retrieval_config,
+    observe_optional_field_adoption,
+    observe_source_licensing,
+]
+
+
+def run_all() -> list[Finding]:
+    registry = load_registry()
+    worlds = formation_world_keys(registry)
+    records = {w: load_world_records(w) for w in worlds}
+    context = {"registry": registry, "worlds": worlds, "records": records}
+    findings: list[Finding] = []
+    for check in CHECKS:
+        findings.extend(check(**context))
+    return findings
+
+
+def new_defects(findings: list[Finding]) -> list[Finding]:
+    """The whole point of the exit code: a defect nobody has written up."""
+    return [f for f in findings if f.severity == DEFECT and f.key not in ACCEPTED_OPEN]
+
+
+def main(argv: list[str] | None = None) -> int:
+    show_all = "--all" in (argv if argv is not None else sys.argv[1:])
+    findings = run_all()
+    new = new_defects(findings)
+    accepted = [f for f in findings if f.severity == DEFECT and f.key in ACCEPTED_OPEN]
+    observations = [f for f in findings if f.severity == OBSERVATION]
+
+    print(f"cross-world consistency: {len(new)} new defect(s), {len(accepted)} accepted-open, {len(observations)} observation(s)\n")
+    if new:
+        print("NEW DEFECTS - not in ACCEPTED_OPEN. A world drifted from the fleet")
+        print("and nothing has been written up about it yet.\n")
+        for f in new:
+            print(f"  {f.key:46} {f.message}")
+        print()
+    if accepted and show_all:
+        print("ACCEPTED-OPEN - known, documented, owned by a named next step.\n")
+        for f in accepted:
+            print(f"  {f.key:46} {f.message}")
+            print(f"  {'':46} -> {ACCEPTED_OPEN[f.key]}")
+        print()
+    for f in observations:
+        print(f"  observation  {f.key:44} {f.message}")
+    return 1 if new else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
