@@ -1,0 +1,270 @@
+# Corpus assignment worker, 2026-08-26. Anonymous-and-collective group.
+# Apparatus (title pages, preface, per-work Introductions where marked,
+# indexes) is skipped. The "Synoptical Table" under the Gospel of Peter
+# (div2 3.3) is the editor's comparison apparatus, not a source, and gets no
+# assignment.
+source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+
+authors_ruled:
+  gospel-of-peter:
+    kind: pseudonymous
+    evidence: >
+      div1 3 "The Gospel of Peter": first-person narrative in Peter's name;
+      the volume's own Introduction quotes Serapion of Antioch's letter to
+      Rhossus (via Eusebius HE vi.12) condemning its use and noting its
+      docetic tendency. anf09 DC.Creator lists only origen and tatian.
+  apocalypse-of-peter:
+    kind: pseudonymous
+    evidence: >
+      div1 5: vision narrative in Peter's name; early (Muratorian fragment and
+      Clement of Alexandria attest it, per the Introduction).
+  apocalypse-of-paul:
+    kind: pseudonymous
+    evidence: >
+      div1 6 "The Vision of Paul": first-person apocalypse in Paul's name with
+      the Tarsus-discovery frame. Same work as anf08 div2 7.40 "Revelation of
+      Paul"; one slug covers both volumes (the merge deduplicates rulings).
+  apocalypse-of-the-virgin:
+    kind: anonymous
+    evidence: >
+      div1 7: a vision granted to the Mother of God, narrated anonymously; no
+      authorial claim.
+  apocalypse-of-sedrach:
+    kind: anonymous
+    evidence: "div1 8: anonymous apocalypse in which Sedrach is the seer, not the claimed author."
+  testament-of-abraham:
+    kind: anonymous
+    evidence: >
+      div1 9: third-person narrative about Abraham; a Jewish pseudepigraphon
+      in Christian transmission, claiming no author.
+  acts-of-xanthippe-and-polyxena:
+    kind: anonymous
+    evidence: "div1 10 ('Life and Conduct of the Holy Women...'): no authorial claim."
+  narrative-of-zosimus:
+    kind: anonymous
+    evidence: >
+      div1 11: the narrative concerning the Blessed Ones (Rechabites) framed
+      around Zosimus; transmitted without an author.
+  second-clement:
+    kind: pseudonymous
+    evidence: >
+      div2 12.6 "The Second Epistle of Clement" with its own Introductory
+      Notice treating it as an early homily under Clement's name, not his.
+      Duplicate of the ruling staged in anf07 (same slug, deliberately).
+  aristides:
+    kind: metadata-omission
+    evidence: >
+      div1 13 "The Apology of Aristides the Philosopher" names the author
+      (Athens, under Hadrian per the Introduction); anf09 DC.Creator omits him.
+  passion-of-scillitan-martyrs:
+    kind: anonymous
+    evidence: >
+      div1 14: Latin court acta of the martyrs of Scilli (Carthage, 180 CE);
+      no author — the slug names the work-entity.
+
+assignments:
+  - work: "The Gospel of Peter"
+    author: gospel-of-peter
+    locus: "div2 3.2 (Akhmim fragment)"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      2nd-century passion gospel in use at Rhossus in Antioch's orbit —
+      pahc's era and region — but Serapion of Antioch condemned its docetic
+      use (his letter is in anf08 div2 10.13, cross-referenced there). Whether
+      a gospel the entry's own bishops rejected is pahc 'tradition' is
+      exactly a Mark question; it is not Scripture in the sense brief 6.5
+      excludes, so it is assigned rather than dropped.
+
+  - work: "The Diatessaron of Tatian"
+    author: tatian
+    locus: "div2 4.3 (with subscriptions, 4.4)"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      Tatian's gospel harmony (c. 170) — THE gospel text of the Syriac church
+      into the 5th century, when Rabbula suppressed it for the separated
+      gospels; this English rests on the Arabic transmission. Author split
+      across volumes: Tatian's Address to the Greeks is in anf02 (another
+      worker's file). His Encratism has no census entry; noted, not assigned.
+
+  - work: "The Apocalypse of Peter"
+    author: apocalypse-of-peter
+    locus: "div2 5.2-5.3 (with fragments)"
+    atlas_ids:
+      - post-apostolic-house-church
+      - alexandria-catechetical
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      c. 100-150; stood near the canon's edge (Muratorian fragment; cited by
+      Clement of Alexandria, whence the alexandria guess; Egyptian or
+      Palestinian provenance argued). The census has no bucket for early
+      apocryphal apocalypses as a class; both ids are guesses.
+
+  - work: "The Vision of Paul"
+    author: apocalypse-of-paul
+    locus: "div2 6.2"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      = The Apocalypse of Paul, c. 380-400, likely Egyptian, immensely popular
+      among monks and in the medieval West. The same work is staged from anf08
+      (div2 7.40, 'Revelation of Paul') with the same id and the same doubt —
+      one ruling settles both. desert-monasticism is arguably next-best given
+      its monastic circulation.
+
+  - work: "The Apocalypse of the Virgin"
+    author: apocalypse-of-the-virgin
+    locus: "div2 7.2"
+    atlas_ids:
+      - byzantine-imperial-church-macedonian
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Medieval Greek tour-of-hell apocalypse; its possible dates span several
+      Byzantine entries, and an Ante-Nicene volume is not evidence of an
+      ante-Nicene work. Needs a ruling on which segment, if any.
+
+  - work: "The Apocalypse of Sedrach"
+    author: apocalypse-of-sedrach
+    locus: "div2 8.2"
+    atlas_ids:
+      - byzantine-imperial-church-macedonian
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Byzantine-era Greek apocalypse on older Jewish material; same
+      which-segment doubt as the Apocalypse of the Virgin.
+
+  - work: "The Testament of Abraham"
+    author: testament-of-abraham
+    locus: "div2 9.3"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Jewish pseudepigraphon (Egypt, 1st-2nd c. argued) in Christian
+      transmission — the census has no bucket for the class (same problem as
+      anf08's Revelation of Moses and Testaments of the Twelve Patriarchs);
+      alexandria is a provenance guess only.
+
+  - work: "The Acts of Xanthippe and Polyxena"
+    author: acts-of-xanthippe-and-polyxena
+    locus: "div2 10.2"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Greek romance dependent on the Paul-and-Thecla tradition, but composed
+      well after it (3rd c. or later); pahc is carried over from its literary
+      parent, not from evidence about this text.
+
+  - work: "The Narrative of Zosimus"
+    author: narrative-of-zosimus
+    locus: "div2 11.2"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Legend of the Blessed Ones (the Rechabites), Jewish core with Christian
+      reworking, date and provenance uncertain; pahc stands in for 'early
+      Christian transmission milieu' only.
+
+  - work: "The First Epistle of Clement to the Corinthians"
+    author: clement_rome
+    locus: "div2 12.4"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Rome to Corinth, c. 96 — a core pahc source. The slug clement_rome is
+      CCEL's own (it appears in anf08's DC.Creator); anf09's volume metadata
+      merely omits it while the section titles and notices carry it. The same
+      epistle also stands in anf01 (another worker's file); two source files
+      in one bucket is what the merge expects.
+
+  - work: "The Second Epistle of Clement (an ancient homily)"
+    author: second-clement
+    locus: "div2 12.6"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      The same mid-2nd-century homily printed in anf07 (div2 10.3); staged
+      from both volumes deliberately.
+
+  - work: "The Apology of Aristides the Philosopher"
+    author: aristides
+    locus: "div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: provisional
+    note: >
+      The earliest apology surviving whole (c. 125, Athens, to Hadrian per
+      the Introduction). Athens is outside pahc's named regions, but the era
+      and church-world are pahc's — same treatment as Quadratus in anf08. Its
+      Syriac preservation is a transmission fact, not an Edessene assignment.
+
+  - work: "The Passion of the Scillitan Martyrs"
+    author: passion-of-scillitan-martyrs
+    locus: "div2 14.3"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Carthage, 180 CE — the earliest dated Latin Christian document, the
+      direct root of the Carthaginian congregational tradition (and the world
+      Tertullian's Voice would speak from). It predates the entry's c. 240s
+      start; provisional for that reason, but no earlier Latin-African bucket
+      exists.
+
+  - work: "Letter of Origen to Gregory"
+    author: origen
+    locus: "div2 15.2"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Origen commending sacred learning to Gregory (Thaumaturgus, whose works
+      sit in anf06) — the school relationship itself; also of interest to the
+      Cappadocian entry's prehistory through Gregory's memory there, noted
+      rather than asserted.
+
+  - work: "Origen's Commentary on the Gospel of John"
+    author: origen
+    locus: "div2 15.3"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      The founding monument of the tradition's exegesis, begun in Alexandria
+      and continued at Caesarea — Caesarea being a continuation of the same
+      catechetical tradition, not a different bucket. Origen split across
+      volumes: anf04 and origen_philocalia (other workers' files).
+
+  - work: "Origen's Commentary on the Gospel of Matthew"
+    author: origen
+    locus: "div2 16.2"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Caesarean-period exegesis in the same tradition; same author-split note
+      as the John commentary.

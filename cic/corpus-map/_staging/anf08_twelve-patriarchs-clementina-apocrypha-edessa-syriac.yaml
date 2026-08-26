@@ -164,6 +164,13 @@ authors_ruled:
       div2 9.9 (Acts of Sharbil), 9.11 (Martyrdom of Habib the Deacon), 9.12
       (Martyrdom of Shamuna, Guria, and Habib, from Simeon Metaphrastes) —
       Edessene martyr acta transmitted without authors.
+  moses-of-chorene:
+    kind: metadata-omission
+    evidence: >
+      div2 9.13 "Moses of Chorene: History of Armenia" — the section title
+      names the author; anf08 DC.Creator omits him. His date is disputed
+      (traditionally 5th c.), which the assignment notes rather than the
+      ruling deciding.
   bardesan:
     kind: metadata-omission
     evidence: >
