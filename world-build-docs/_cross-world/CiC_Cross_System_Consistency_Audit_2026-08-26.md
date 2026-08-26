@@ -846,6 +846,81 @@ prompt grows, and `engine/BASELINES.md` names the state to compare against.
 
 ---
 
+### F-24 — `desert` reports an acquisition gap to participants as a historical silence · Live
+
+The direct follow-on from F-23, and the more serious half. Mark's objection to
+desert's "who is Jesus" answer was not that the voice misread its ground — it
+was that the world *does* have Christological material and said it did not.
+Checked against desert's own source ecology, he is right, and the cause is
+locatable:
+
+| source Mark named | in desert's registry? | vendored text? | cells it feeds |
+|---|---|---|---|
+| Antony, *Letters* | yes (`antony-letters` + Rubenson) | **no** — none vendorable | F2-E, F4-I, F4-P — never C-I/C-T |
+| Evagrius, *Praktikos* etc. | yes (`evagrius-praktikos`) | **no** — none vendorable | 7 cells — never C-I/C-T |
+| *Apophthegmata Patrum* | yes (`apophthegmata-patrum`) | **no** — never landed | 16 cells — never C-I/C-T |
+| Cassian | yes (Conferences + Institutes) | **yes**, `npnf211` | F4-I only |
+| Pseudo-Macarius | **absent** | — | — |
+
+**Every record in C-I and C-T rests on one source: `athanasius-vita-antonii`.**
+Nothing else reaches either cell.
+
+Three of those four are genuinely rights-blocked, and the build did the work
+to establish it — `desert.search.antony-letters-english-pd` and
+`desert.search.evagrius-praktikos-english-pd` both record `not_found`, with
+the modern translations (Rubenson, Bamberger) marked consult-only. That part
+of the thinness is earned.
+
+Two are not:
+
+- **The Apophthegmata was never vendored, and it is the world's central
+  teaching corpus.** `SOURCE-REQUEST-MANIFEST.md` item G1 identifies Budge's
+  1907 *Paradise of the Holy Fathers* vol. 2 as "the only public-domain
+  English Apophthegmata corpus in existence", rates it **P1**, and records
+  why it is still open: *"This session could not fetch it: network policy
+  blocks archive.org file downloads."* The manifest states the consequence
+  itself — *"until this file lands, every saying in the record set is license
+  `paraphrase-only` and no verbatim saying can be voiced."* That is why
+  desert is the only world in the fleet with paraphrase-only quotes. The
+  Apophthegmata is cited by 42 records across 16 cells from consult knowledge,
+  and routed to Christology in none of them.
+- **Cassian's own Christological treatise is vendored and unused.**
+  `cic/texts/npnf211_...xml` is in the tree and contains *On the Incarnation
+  of the Lord against Nestorius* (19 matches). The build used that file for
+  Conferences/Institutes ascetic vocabulary in a single cell and never
+  touched the one direct Christological treatise inside its own corpus.
+
+**The overclaim.** `desert.limit.doubt-and-doctrine` is careful and well
+argued — but it is scoped to `C-T` and `F1-P`, and its claim is about *how
+his death saves*, a genre argument about sayings-literature. It never covers
+`C-I`, the cell "who is Jesus" actually lands in. What covers C-I is
+`desert.dw.jesus`, whose `tensions` field generalises much further: *"this
+world left little in its own voice arguing who Christ was."* That sentence
+describes the Vita Antonii, applied to the whole world — and by F-23 it never
+reaches the model anyway, so the participant gets the generalisation's
+*effect* without its reasoning or its bounds.
+
+This is F-11's failure mode arriving in full: a build gap rendered
+indistinguishable from a historical silence, in the one place where the
+project's credibility most depends on the difference.
+
+**Disposition:** open, and the highest-leverage single action in this report
+is not a records rewrite. It is **vendoring one public-domain file** — Budge
+vol. 2, `archive.org` identifier `ParadiseOfTheHolyFathersV2`, blocked only
+by one build session's network policy. That unlocks verbatim sayings across
+the whole desert corpus and puts the Christ-in-the-neighbour, kenosis and
+Christ-invoked-in-warfare material within reach of C-I and C-T. Mining
+Cassian's *On the Incarnation* needs no acquisition at all. Neither is this
+audit's to perform: both are content work for a desert build thread, and both
+change the package.
+
+**Scope note.** Content depth is out of this audit's scope by the launch
+brief, and this finding does not ask for depth to be normalised across
+worlds. It reports a *process* fact: a world states a silence its own source
+ecology does not support, and the statement reaches a participant as history.
+
+---
+
 ## 3. What was checked and found clean
 
 An audit that lists only defects misrepresents the system. These were checked
@@ -971,7 +1046,12 @@ For build threads — work, scoped:
 9. **Engine** — extend `gate_no_build_attribution` to the UI render path
    (F-20); give a missing frontend asset a loud failure instead of a silent
    drop (F-15).
-10. **Compile `doctrinal_witness.tensions`** (F-23). 94 of 94 witness records
+10. **Vendor Budge vol. 2** (F-24). One public-domain file, rated P1 by
+   desert's own source manifest, blocked only by a build session's network
+   policy. Unlocks verbatim sayings fleet-wide for desert and puts real
+   Christological material within reach of C-I/C-T. Mining Cassian's *On
+   the Incarnation*, already vendored, needs no acquisition at all.
+11. **Compile `doctrinal_witness.tensions`** (F-23). 94 of 94 witness records
    carry a gate-required sentence naming where that witness runs thin, and
    the voice has never once been shown one. Highest-value repair here;
    needs a full recompile and a voice-quality check against
