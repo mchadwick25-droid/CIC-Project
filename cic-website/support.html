@@ -32,8 +32,11 @@
   a real $5 contribution - no server, no /api/support/checkout, no account
   created anywhere, same "no accounts, no feature-gating" shape as the rest
   of this site. Split by GIFT FREQUENCY, not by fund, per Mark's own naming:
-  "Keeping the Door Open" (buy.stripe.com, one-time) and "Open the Door
-  Wider" (donate.stripe.com, monthly recurring). Both fund the single
+  "Keeping the Door Open" (one-time) and "Open the Door Wider" (monthly
+  recurring) - NOT reliably predictable from the domain (buy.stripe.com
+  vs. donate.stripe.com): see the 2026-08-26 correction below, which
+  found the actual one-time/monthly assignment is the reverse of what
+  the domain names would suggest. Both fund the single
   Accessibility Fund (see the comment above - Academic Review Fund dropped
   the same day), so there's no fund-designation ambiguity to route to email
   anymore; the two links are just the two ways to give toward the one ask.
@@ -65,6 +68,18 @@
   link button, never by reading/retyping it, and if anything looks off
   again, verify the specific character in question explicitly (letter
   vs. digit, spelled out in words) rather than trusting another retype.
+
+  CORRECTED AGAIN 2026-08-26, same day: once the IDs above worked, Mark
+  reported the two were swapped - clicking "Keeping the Door Open" (meant
+  to be one-time) actually opened the monthly-recurring checkout, and
+  vice versa. Fixed by swapping which href goes on which button; the IDs
+  themselves are untouched from the previous correction. Confirms the
+  domain name (buy.stripe.com vs. donate.stripe.com) is NOT a reliable
+  signal of which Payment Link is one-time vs. recurring - that's set by
+  the Price object behind the link on Stripe's side, not the URL prefix.
+  If either link is ever rotated again: don't assume from the domain
+  which button it belongs on - verify by actually opening the link and
+  checking which checkout mode Stripe shows.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -149,8 +164,8 @@
     <p class="fine-print">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible.</p>
 
     <div class="hero-actions" style="margin:1.8rem 0 1rem;">
-      <a class="btn primary" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Keeping the Door Open <span style="font-weight:400;opacity:.85">— give once</span></a>
-      <a class="btn primary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Open the Door Wider <span style="font-weight:400;opacity:.85">— give monthly</span></a>
+      <a class="btn primary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open <span style="font-weight:400;opacity:.85">— give once</span></a>
+      <a class="btn primary" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider <span style="font-weight:400;opacity:.85">— give monthly</span></a>
     </div>
     <p class="fine-print" style="text-align:center;margin:0 0 1.8rem;">Both go through Stripe. Prefer to give another way? Email us and we'll sort it out with you personally: <a href="mailto:info@churchinconversation.com?subject=Supporting%20Church%20in%20Conversation">info@churchinconversation.com</a>.</p>
 
