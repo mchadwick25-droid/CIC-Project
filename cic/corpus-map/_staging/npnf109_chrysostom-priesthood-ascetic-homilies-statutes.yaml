@@ -147,9 +147,9 @@ assignments:
   locus: div1 12 — Homily on the Paralytic; 'Concerning the Equality of the Divine Father
     and the Son'
   atlas_ids:
-  - homoian-arian-christianity
+  - anomoean-eunomian-christianity
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The Antiochene home id is safe; the doubt is the second one. The volume''s own notes
     say this homily proves the equality of Father and Son against the Anomoeans (editorial
     note at xii, and index entry ''Anomoeans, heresy of''). The Anomoeans/Eunomians are not
@@ -159,7 +159,10 @@ assignments:
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`.'
+    floor material only as `register: etic`. Re-pointed 2026-08-26: the gap this flagged is
+    closed - anomoean-eunomian-christianity (era 2, Floor Question) was added to the census
+    on record, so anti-Eunomian material now names the party it actually argues with rather
+    than the Homoian wing it split from in 360.'
 - work: Homily to Those Who Had Not Attended the Assembly (on Rom. xii. 20)
   author: chrysostom
   locus: div1 13 — To Those Who Had Not Attended the Assembly

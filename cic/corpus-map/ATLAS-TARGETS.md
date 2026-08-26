@@ -25,7 +25,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `latin-pastoral-congregational-christianity` | Latin Pastoral-Congregational Christianity | c. 240s-430 | Carthage, Hippo Regius | Selected - Not Yet Built |
 | `novatianism` | Novatianism | c. 251-400s | Rome, spreading | Contested - Evidentiary |
 
-## Era 2 (II) — The Imperial Church Era, 312-451 CE  ·  15 entries
+## Era 2 (II) — The Imperial Church Era, 312-451 CE  ·  17 entries
 
 *Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council*
 
@@ -39,8 +39,10 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `jerusalem-liturgical-pilgrimage-christianity` | Jerusalem Liturgical-Pilgrimage Christianity | c. 325-450 | Jerusalem | Possible Future World (on record) |
 | `aksumite-christianity-conversion-era` | Aksumite Christianity (conversion era) | c. 330-451 | Aksum (Ethiopia/Eritrea) | Deferred by Step 0 |
 | `homoian-arian-christianity` | Homoian ('Arian') Christianity | 4th-6th c. | Empire-wide; then Gothic & Vandal kingdoms | Excluded - Doctrinal Floor (C1) ⛔ |
+| `anomoean-eunomian-christianity` | Anomoean (Eunomian) Christianity | c. 350-c. 430 | Antioch, Cyzicus, Constantinople, Cappadocia | Floor Question (register) ⛔ |
 | `antiochene-exegetical-christianity-chrysostom-ce` | Antiochene Exegetical Christianity (Chrysostom-centered) | c. 350-430 | Antioch | Possible Future World (on record) |
 | `cappadocian-nicene-pastoral-monastic-tradition` | Cappadocian Nicene Pastoral-Monastic Tradition | c. 360-380s | Cappadocia / Anatolia | Selected - Not Yet Built |
+| `gallic-monastic-ascetic-christianity` | Gallic Monastic-Ascetic Christianity | c. 360-450 | Tours, Lérins, Marseilles | Possible Future World (on record) |
 | `priscillianist-asceticism` | Priscillianist Asceticism | c. 370-450 | Spain | Possible Future World (on record) |
 | `ambrosian-milan-standalone` | Ambrosian Milan (standalone) | c. 374-397 | Milan | Possible Future World (on record) |
 | `hieronymian-ascetic-literary` | Hieronymian Ascetic-Literary Christianity | c. 382–420 CE | Rome & Bethlehem | Built & Live |

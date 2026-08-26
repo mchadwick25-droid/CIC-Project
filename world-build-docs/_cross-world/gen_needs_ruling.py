@@ -52,22 +52,16 @@ SWEEPS = {
         "Canonical Epistles of the Fathers would split per-father into this entry and the "
         "Alexandrian one if you want them split at all.",
     "merovingian-gallic-christianity":
-        "**No entry for pre-Merovingian Gaul.** `merovingian-gallic-christianity` starts c. 480, "
-        "and Martin of Tours, Sulpitius Severus, Vincent of Lerins and Cassian's Marseilles all "
-        "sit c. 360-450. Two independent workers hit this hole - it is also where Hilary of "
-        "Poitiers falls. One entry, or one ruling that this material files forward, clears all "
-        "of it.",
+        "**Mostly answered.** The pre-Merovingian hole two workers hit from opposite ends is "
+        "closed: `gallic-monastic-ascetic-christianity` (era 2, c. 360-450) was added on record "
+        "and seven works moved to it. What is left here is genuinely later material placed by "
+        "date-guess, not gap-parking.",
     "donatism":
         "**The Cyprian antecedent question**, raised once per work the Donatists actually "
         "invoked. Cyprian died in 258 and the Donatists claimed him; whether his Epistles, "
         "*De Unitate*, *De Lapsis* and the 256 rebaptism council belong to `donatism` as "
         "antecedents, or only to his own entry, is a judgment about what an entry's corpus is "
         "for. The workers refused to decide it and flagged it four times.",
-    "homoian-arian-christianity":
-        "**No entry for the Anomoeans / Eunomians**, hit by three separate workers. "
-        "`homoian-arian-christianity` is named for a different Arian party, so anti-Eunomian "
-        "works (Nyssa's *Against Eunomius*, Nazianzen's Theological Orations, Chrysostom on the "
-        "Paralytic) are parked against the nearest Arian bucket rather than a right one.",
     "syriac-edessa-nisibis":
         "**The Clementine literature, and what `syr` is for.** Recognitions and Homilies sit "
         "between `ebionite-nazoraean-current` (the Jewish-Christian source theory) and this "
@@ -143,6 +137,22 @@ def main() -> None:
         "work is assigned, just not on the run's own authority.\n",
     ]
 
+    out.append("\n## Answered since the run\n")
+    out.append(
+        "Two rulings, both taken 2026-08-26, and both the same shape — a real movement the census "
+        "had no entry for:\n\n"
+        "- **`gallic-monastic-ascetic-christianity`** (era 2, c. 360–450, *Possible Future World "
+        "on record*). Closed the pre-Merovingian Gaul hole that two workers hit independently. "
+        "**Seven works re-pointed**, six of them to `assigned`; the *Doubtful Letters of "
+        "Sulpitius Severus* stay flagged because the editors' own attribution doubt is untouched "
+        "by a new entry.\n"
+        "- **`anomoean-eunomian-christianity`** (era 2, *Floor Question — register*). Closed the "
+        "gap **three** workers hit: anti-Eunomian works were being parked against "
+        "`homoian-arian-christianity`, a different wing of the same controversy that split from "
+        "it at Constantinople in 360. **Four works re-pointed** — three swapped, and "
+        "Constantinople I gained it alongside the Homoian entry, because canon 1 names both "
+        "parties. All four are `role: context`, which is the map confirming what the census entry "
+        "says: nothing in this corpus is the Anomoeans' own voice.\n")
     out.append("\n## The sweeps — in order of how much each clears\n")
     out.append("| ruling | clears | the question |")
     out.append("|---|---:|---|")

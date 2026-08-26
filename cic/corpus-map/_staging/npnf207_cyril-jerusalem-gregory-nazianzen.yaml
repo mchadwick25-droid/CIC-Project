@@ -57,9 +57,9 @@ assignments:
   author: gregory_naz
   locus: div2 3.13-3.17, with the editor's introduction at 3.12
   atlas_ids:
-  - homoian-arian-christianity
+  - anomoean-eunomian-christianity
   role: context
-  confidence: provisional
+  confidence: assigned
   note: 'Split out from the Select Orations because these five, preached against the Eunomians
     at Constantinople, are what a reader names as a work, and they carry the anti-Arian assignment.
     The doubt is the same as for Nyssa''s Against Eunomius: the opponents are Eunomian Anomoeans,
@@ -68,7 +68,10 @@ assignments:
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`.'
+    floor material only as `register: etic`. Re-pointed 2026-08-26: the gap this flagged is
+    closed - anomoean-eunomian-christianity (era 2, Floor Question) was added to the census
+    on record, so anti-Eunomian material now names the party it actually argues with rather
+    than the Homoian wing it split from in 360.'
 - work: Select Letters of Saint Gregory Nazianzen
   author: gregory_naz
   locus: 'div1 4 (~37,693 words) - one body of letters in three editorial groups: Letters
