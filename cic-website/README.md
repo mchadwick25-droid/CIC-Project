@@ -10,11 +10,13 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 - `index.html` — Home
 - `about.html` — Mission, the Five Convictions, How It Works, Safety & Disclosure, About Us
 - `support.html` — **Back in nav since 2026-08-06** as "Get Involved," rewritten with
-  real cost figures and two named funds (Accessibility, Academic Review); see its own
-  header comment and `Ministry/Features/Funding-Strategy/Decision-Log.md` for the
-  derivation. **Real checkout is live since 2026-08-25** — two Stripe Payment Links
-  (one-time and monthly), no server involved; see the page's own header comment for
-  which link is which and why they're split by gift frequency, not by fund.
+  real cost figures; see its own header comment and
+  `Ministry/Features/Funding-Strategy/Decision-Log.md` for the derivation. Originally
+  named two funds (Accessibility, Academic Review) — **Academic Review Fund dropped
+  2026-08-25** (Mark, direct instruction, not doing that ask yet); just the
+  Accessibility Fund now. **Real checkout is live since 2026-08-25** — two Stripe
+  Payment Links (one-time and monthly), both feeding that one fund, no server
+  involved; see the page's own header comment for which link is which.
 
 Copy is pulled directly from `Vision, Mission, Convictions, and Foundational
 Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.

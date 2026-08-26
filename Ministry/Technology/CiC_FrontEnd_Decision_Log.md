@@ -396,5 +396,50 @@ fallback for fund-specific/alternate giving still present, zero console errors.
 
 ### Next action
 
-None from this thread — checkout is live and verified. Open items going forward
-belong to whatever Mark raises next.
+~~None from this thread — checkout is live and verified.~~ Superseded same day —
+see next entry (Academic Review Fund dropped).
+
+---
+
+## 2026-08-25 — Academic Review Fund dropped; Accessibility is the only giving ask
+
+**Origin.** Mark, direct instruction, immediately after the checkout wiring above:
+*"we are not doing the academic fund now, just two funds for expanding the
+accessability."* Read as: cut the Academic Review Fund as a giving target on this
+page; the "two" are the two Payment Links already built (one-time / monthly), both
+now unambiguously feeding the one remaining fund — Accessibility.
+
+**What changed, `support.html`:**
+- "What We're Doing About It" — removed the "Funding academic review" paragraph
+  entirely (it framed academic review as something a gift funds directly, which
+  is no longer true of anything on this page).
+- "Be Part of It" — intro paragraph rewritten from "give to either of two funds" to
+  "every gift goes to the Accessibility Fund," with the one-time/monthly split
+  reframed as two ways to give to that one thing, not two things to choose between.
+  Dropped the "want your gift designated to a specific fund" line from the
+  post-buttons note — with only one fund left, there is nothing left to designate
+  between; kept "prefer to give another way? email us" for the case that still is
+  real (someone who can't or doesn't want to use Stripe).
+- Both header-comment blocks (the 2026-08-06 two-fund origin note and the
+  2026-08-25 checkout-wiring note) marked SUPERSEDED in place rather than rewritten
+  or deleted, same discipline as the Stripe-blocked note before it — a reader of
+  the file should be able to see the fund structure change and why, not just the
+  end state.
+
+**What did NOT change.** Academic review as a mission ambition is untouched —
+`whats-next.html`'s own "Academic Review" roadmap section (forming an advisory
+board, asking for funding and volunteers by email) still stands; only the Stripe
+giving-fund framing on the Get Involved page specifically is cut. `README.md`
+updated to match (was still describing "two named funds" post-checkout-wiring
+commit).
+
+**Verified:** re-loaded the page after editing — zero mentions of "academic"
+anywhere outside the file's own HTML comments (checked programmatically, comments
+stripped first, not just eyeballed); both Payment Link buttons still render with
+their original hrefs and text, unaffected by the copy changes around them.
+
+### Next action
+
+None from this thread. Open items going forward belong to whatever Mark raises
+next — including, if it comes up again, standing up a real second fund (Academic
+Review or otherwise) with its own Payment Link rather than reusing these two.
