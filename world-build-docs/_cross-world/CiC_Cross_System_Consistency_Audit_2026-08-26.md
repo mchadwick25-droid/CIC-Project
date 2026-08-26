@@ -786,6 +786,66 @@ misdiagnosed as such.
 
 ---
 
+### F-23 — every witness record explains its own limits, and the voice is never shown that explanation · Live · Fleet
+
+Found by tracing a real complaint: asked *"who is Jesus"*, `desert` answered
+with Antony's conversion and the inward struggle — a faithful, near
+sentence-for-sentence rendering of `desert.dw.jesus`, the single record
+covering cell C-I ("Who was Jesus, to you and your people?"). The pipeline
+did its job. The participant's objection was that it told a founding story
+instead of saying what the world held about Christ.
+
+That record anticipated the objection exactly. Its `tensions` field reads:
+
+> a lived, imitative Christology against a stated, defended one — this world
+> left little in its own voice arguing who Christ was, compared to how much
+> it left showing what following him cost
+
+and its body says the oblique answer is deliberate, *"honestly named rather
+than filled with invented doctrine."*
+
+None of that reaches the model. `build_prompt` emits a witness as
+`emit(f"Witness ({cells})", witness.get("text"), witness["id"])` — the `text`
+field and nothing else. `positions` and `tensions` are both in
+`COMPLETION_REQUIRED`, both authored on **94 of 94** doctrinal_witness
+records across the fleet, and compiled into **zero** prompts. Verified
+directly against the compiled bytes: `desert.dw.jesus`'s text is in
+`compiled/prompt.txt`; its tensions sentence is not.
+
+This is the same shape as F-12 (`do_not_retrieve_when`) and F-13
+(`retrieval.tier`) — a field the gates require and nothing reads — but it is
+the costliest instance, because what goes unread here is precisely the
+world's own account of where its witness runs thin. The voice is given the
+oblique answer and withheld the sentence that says it is oblique, which is
+the whole difference between an answer that reads as evasive and one that
+reads as honest. It is the project's central commitment, authored six times
+over, never delivered.
+
+Two aggravating facts, both measured:
+
+- **`desert` is thinnest here by some way.** C-I holdings: `alx` 6
+  substantive records, `ijc` 4, `hal` 3, `syr` 3, `pahc` 2, `desert` 1. Every
+  other world holds at least one *quote* in that cell — someone's actual
+  words about Jesus. `desert` holds none, so there was nothing for the voice
+  to quote even if it had reached for it. That is content density, which this
+  audit does not treat as a defect; it is recorded because it sets how much
+  the uncompiled caveat was carrying.
+- **The question is fragile to phrasing.** `"who is Jesus"` reduces to one
+  content word, and `_MIN_ASK_MATCH_WORDS = 2`, so Stage A matches no cell at
+  all and the Stage A2 fallback returns nothing for `desert`. The doorway's
+  own starter — *"Who was Jesus, to you and your people?"* — matches `C-E`
+  and `C-I` cleanly. A live turn survives this only because the reader's
+  extracted `asks` widen the query; the bare message does not.
+
+**Disposition:** open, fleet-level, and the highest-value repair in this
+report. Compiling `tensions` beside `text` (and deciding whether `positions`
+belongs too) is a `build_prompt` change, so it re-hashes all seven packages
+and belongs to a thread that can run the full recompile and re-check voice
+quality against the pilot baseline. It should be measured, not assumed: the
+prompt grows, and `engine/BASELINES.md` names the state to compare against.
+
+---
+
 ## 3. What was checked and found clean
 
 An audit that lists only defects misrepresents the system. These were checked
@@ -911,3 +971,8 @@ For build threads — work, scoped:
 9. **Engine** — extend `gate_no_build_attribution` to the UI render path
    (F-20); give a missing frontend asset a loud failure instead of a silent
    drop (F-15).
+10. **Compile `doctrinal_witness.tensions`** (F-23). 94 of 94 witness records
+   carry a gate-required sentence naming where that witness runs thin, and
+   the voice has never once been shown one. Highest-value repair here;
+   needs a full recompile and a voice-quality check against
+   `baseline/pilot-2026-08-24`.

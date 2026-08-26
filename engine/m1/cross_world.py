@@ -466,6 +466,30 @@ def observe_source_licensing(*, records, worlds, **_) -> list[Finding]:
     return findings
 
 
+def observe_uncompiled_required_fields(*, records, worlds, **_) -> list[Finding]:
+    """Fields the gate battery REQUIRES on every record and the compiler
+    never emits. `doctrinal_witness.positions`/`tensions` are the costly
+    pair (F-23): `tensions` is where a witness names its own limit - "this
+    world left little in its own voice arguing who Christ was" - and
+    build_prompt emits only `text`, so the voice is handed the world's
+    oblique answer and never the sentence saying it is oblique.
+
+    Reported per world rather than once, because the number is what makes
+    the case: a field authored on every record in every world and read
+    nowhere is not an oversight anyone will notice from inside one world.
+    """
+    watched = [("doctrinal_witness", "positions"), ("doctrinal_witness", "tensions")]
+    findings = []
+    for w in worlds:
+        parts = []
+        for record_type, field in watched:
+            pool = [r for r in records[w].values() if r["record_type"] == record_type]
+            filled = sum(1 for r in pool if r.get(field) not in (None, "", [], {}))
+            parts.append(f"{record_type}.{field} {filled}/{len(pool)} authored")
+        findings.append(_observation("uncompiled-required-field", w, "; ".join(parts) + " - gate-required, compiled into no prompt (F-23)"))
+    return findings
+
+
 CHECKS = [
     check_registry_shape,
     check_package_pinned,
@@ -483,6 +507,7 @@ CHECKS = [
     observe_unread_retrieval_config,
     observe_optional_field_adoption,
     observe_source_licensing,
+    observe_uncompiled_required_fields,
 ]
 
 
