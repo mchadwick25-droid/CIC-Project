@@ -300,6 +300,84 @@ their future corpus.
 
 ---
 
+## 11a. A second corpus: the Pearse "More Fathers" collection
+
+Mark, 2026-08-26, can upload the CCEL/Tertullian-project *More Fathers*
+collection as text or RTF — **not ThML-marked**. It is several hundred files
+and far more diverse than ANF/NPNF. Segment it into the same assignment table.
+
+**Its rights profile is already established here.** Seven of the eight
+non-ANF/NPNF files in `cic/texts/` came from this collection — Ephraim's
+*Prose Refutations*, Aphrahat's *Demonstrations 2 and 7*, the *Chronicle of
+Edessa*, the *Doctrine of Addai*, Optatus, Palladius' *Lausiac History*,
+Origen's *Philocalia*. Same provenance discipline applies: public domain
+only, rights read from each file's own header.
+
+### What it closes, against the measured gap list
+
+Checked against the source records that currently carry bibliography with no
+text:
+
+| gap | what this supplies |
+|---|---|
+| `ijc.source.ammianus-marcellinus` — *Res Gestae* 27.3, no vendored text | Ammianus, Books 14–31 |
+| `ijc` reaches Ambrose only through `npnf210` | Ambrose's *Letters 1–91*. `ijc.figure.ambrose` names the Altar of Victory (384), the basilica standoff (386), Callinicum (388) and Thessalonica (390) — those are these letters |
+| `hal` is built on Jerome's translation work and holds one preface as a quote | Jerome's 22 *Biblical Prefaces*, plus the *Chronicle*, *Commentary on Daniel*, Letter 120 |
+| `syr.figure.rabbula` is sourced only to a modern secondary study | Rabbula's own *Admonitions to the monks* |
+| every world names women's own words as its thinness | Gregory of Nyssa, *Life of St. Macrina* — one of the few lives of a woman narrated at length in this period |
+| `syr` on apostolic origins | the Syriac *Apocryphal Acts* — Judas Thomas, Thecla |
+| the Antiochene entry has no corpus | Theodore of Mopsuestia on the Nicene Creed, the Lord's Prayer, baptism and eucharist |
+| the Latin pastoral entry has no corpus | Possidius, *Life of St. Augustine*; Pacian of Barcelona |
+| `cappadocian` has only NPNF | Basil *To Young Men*, Nazianzen's *Invectives Against Julian*, Nyssa's *Macrina* |
+
+### What it does NOT close — say this plainly
+
+- **The Apophthegmata is not in it.** 42 `desert` records depend on that
+  source and it still has no vendored text. Budge vol. 2 remains the only
+  public-domain English and is still the single highest-value acquisition in
+  the project.
+- **Evagrius and Antony's *Letters* are not in it either.** Both remain
+  rights-blocked; no public-domain English exists.
+- The modern secondary works every world consults — Rubenson, Brock, Harvey,
+  GEDSH, Petersen, Drijvers — are in copyright and never vendorable. They stay
+  bibliography.
+
+### The appendix is a different kind of material, and the Atlas has no bucket for it
+
+Julian's *Against the Galileans*, Porphyry's *Against the Christians*,
+Libanius, Ammianus, Zosimus, Eunapius, Herodian, Martial, Juvenal, Proclus.
+This is **the non-Christian world these worlds lived inside** — the society,
+the opponents, the satirists. It is exactly the "lived ecology" material the
+project says it wants, and it is the best evidence available for how
+Christians were seen from outside.
+
+But the census is a taxonomy of **Christian movements**. It has no entry for
+fourth-century Roman paganism or for Neoplatonism, so this material has
+nowhere to go under the Atlas scheme. It needs a disposition of its own, and
+whatever that is, material from it must never be `register: emic` — it is by
+definition a view from outside.
+
+**This is a question for Mark, not a decision for the thread.**
+
+### Format: no ThML, but the filenames are the metadata
+
+`corpus_authors.py` reads `<DC.Creator>` and `<div1>`; text and RTF have
+neither. The Pearse filenames, however, are a consistent and parseable
+convention — `gregory_macrina_1_life`, `ambrose_letters_03_letters21_30`,
+`optatus_03_book3` — carrying author, work and part in that order.
+
+So: **upload with the filenames unchanged.** They are the attribution. The
+extractor for this corpus reads names rather than markup, and every vendored
+file still needs a provenance header on arrival, per §3's rule.
+
+### Scale
+
+Several hundred files. Upload in priority order rather than all at once — the
+gap table above is that order, and it front-loads the material that closes
+measured holes over material that is merely interesting.
+
+---
+
 ## 12. One thing this does not fix
 
 Assignment solves *scope* — the search will no longer have to decide whether a
