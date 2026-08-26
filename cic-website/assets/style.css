@@ -118,7 +118,7 @@ header.site-header {
 }
 nav.site-nav {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   display: flex;
   gap: 1.6rem;
 }
@@ -141,7 +141,7 @@ nav.site-nav a:hover, nav.site-nav a[aria-current="page"] {
 }
 .hero .eyebrow {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--madder);
@@ -195,7 +195,7 @@ section.page-section:first-child { border-top: none; }
 
 .page-section .eyebrow {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 0.76rem;
+  font-size: 0.85rem;
   letter-spacing: 0.13em;
   text-transform: uppercase;
   color: var(--madder);
@@ -261,7 +261,7 @@ ol.convictions p { color: var(--muted); margin: 0; }
 .callout p:last-child { margin-bottom: 0; }
 .callout .label {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 0.74rem;
+  font-size: 0.82rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--gold-leaf);
@@ -318,7 +318,7 @@ footer.site-footer {
   border-top: 1px solid var(--rule);
   background: var(--vellum);
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.92rem;
   color: var(--muted);
 }
 footer.site-footer .wrap {
@@ -362,7 +362,7 @@ footer.site-footer nav a { display: inline-block; padding: 0.5rem 0.1rem; }
   .brand { flex-shrink: 0; }
   nav.site-nav {
     gap: 1rem;
-    font-size: 0.85rem;
+    font-size: 0.88rem;
     min-width: 0;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
