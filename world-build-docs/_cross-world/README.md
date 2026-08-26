@@ -20,6 +20,7 @@ has its own set of documents.
 
 | file | what it is |
 |---|---|
+| `NEEDS-RULING.md` | **87 works the assignment would not decide on its own**, grouped so one ruling clears five or seven at a time. Generated. Start here if you are ruling rather than reading. |
 | `BRIEF-corpus-assignment-thread.md` | **The live brief.** The whole assignment job, every ruling settled, for the separate thread that does it. Start here. |
 | `CORPUS-USE.md` | What each world actually draws on, and each world's verifiability share (`pahc 99% · alx 96% · hal 93% · ijc 91% · syr 87% · desert 76%`). Generated. |
 | `WANTS-REGISTER.md` | Sources the fleet already depends on and cannot read, ranked by how many records depend on each. Generated. |
@@ -27,13 +28,14 @@ has its own set of documents.
 
 ## Regenerating
 
-Three of these are generated from the live tree and should never be
+Four of these are generated from the live tree and should never be
 hand-edited:
 
 ```
 python world-build-docs/_cross-world/gen_matrix.py          # CONSISTENCY-MATRIX.md
 python world-build-docs/_cross-world/gen_corpus_table.py    # CORPUS-USE.md
 python world-build-docs/_cross-world/gen_wants_register.py  # WANTS-REGISTER.md
+python world-build-docs/_cross-world/gen_needs_ruling.py    # NEEDS-RULING.md
 ```
 
 ## The standing check
