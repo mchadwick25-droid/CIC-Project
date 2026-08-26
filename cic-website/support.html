@@ -9,6 +9,14 @@
   replacing the old single pool. Full derivation and every intermediate
   decision live in Ministry/Features/Funding-Strategy/Decision-Log.md.
 
+  SUPERSEDED 2026-08-25 (Mark, direct instruction): Academic Review Fund is
+  dropped from this page for now - not doing that ask yet. Just one fund,
+  Accessibility, with the two Payment Links below (see the next comment)
+  as its two ways to give. Academic review itself is still real mission
+  work (see whats-next.html's own Academic Review section, which asks for
+  volunteers/funding by email, not through this page) - only the Stripe
+  giving-fund framing on THIS page is cut, not the underlying ambition.
+
   Per Mark's explicit instruction (2026-08-06): this pass is TEXT ONLY. The
   interactive Stripe checkout (amount buttons, /api/support/checkout call) from
   the old version is intentionally NOT carried over yet - replaced with a plain
@@ -16,6 +24,33 @@
   is real, separate follow-up work (the current endpoint only supports one
   undifferentiated amount, not a fund selection) - do not build that silently
   into a future pass without flagging it as its own step.
+
+  SUPERSEDED 2026-08-25: real checkout is live. Mark resolved the Stripe
+  compliance flag that used to block this (an account-level "fundraising by
+  nonprofits/charities" restricted-category flag - Faithways is a for-profit
+  PBC, not a charity) and built two Stripe Payment Links himself, tested with
+  a real $5 contribution - no server, no /api/support/checkout, no account
+  created anywhere, same "no accounts, no feature-gating" shape as the rest
+  of this site. Split by GIFT FREQUENCY, not by fund, per Mark's own naming:
+  "Keeping the Door Open" (buy.stripe.com, one-time) and "Open the Door
+  Wider" (donate.stripe.com, monthly recurring). Both fund the single
+  Accessibility Fund (see the comment above - Academic Review Fund dropped
+  the same day), so there's no fund-designation ambiguity to route to email
+  anymore; the two links are just the two ways to give toward the one ask.
+  These are plain hyperlinks - no comment or copy elsewhere on this page
+  needs updating if Mark rotates or replaces either link, only the two href
+  attributes on the buttons themselves.
+
+  Cost figures refreshed 2026-08-25 (Public Pilot Access thread): the prior
+  $2/$5-per-hour pair was measured against the pre-rebuild system's cost
+  model (Anthropic Console API, different provider/model routing) - never
+  re-measured against this pilot's engine (AWS Bedrock), which the project's
+  own spec (principle 13) treats as a hard "no $/turn figure until
+  invoice-reconciled" rule. The $2/hr figure is kept as a carried-forward
+  estimate, now labeled as such rather than implied-fresh; the $5/hr
+  three-person figure is cut because the Table (multi-person) feature it
+  described isn't live in this pilot yet - Mark is building it separately.
+  Wording passed an Opus 5 tone/credibility review before shipping.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +64,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<style>
+/* .fine-print replaces two inline style="color:var(--muted)" paragraphs
+   (2026-08-25 full review finding): --muted is never redefined for dark
+   mode anywhere on this site, and an inline color always outranks the
+   shared stylesheet's own .page-section p{color:#B8AEA1} dark-mode rule
+   by specificity - so the inline version silently defeated the fix that
+   was already sitting right there. A real class lets the same dark-mode
+   override apply the way it already does for the rest of this page's text. */
+.fine-print{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted)}
+@media (prefers-color-scheme:dark){ .fine-print{color:#B8AEA1} }
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -62,7 +108,7 @@
 
   <section class="page-section" id="cost">
     <h2>What It Actually Costs</h2>
-    <p>An interview with one of our historical Christian movement Representative voices costs around <strong>$2 an hour</strong> to live-generate. A full three-person conversation costs more — <strong>up to $5 an hour</strong>, depending on pace and complexity. Each added voice adds real cost.</p>
+    <p>A conversation with one of our Representative voices costs us about <strong>$2 an hour</strong> in computing. That figure comes from metering our earlier setup — we've since rebuilt the engine and haven't reconciled it against a current bill, so treat it as a close estimate rather than an audited one. Multi-person conversations aren't running yet; when they are, each added voice will add real cost on top of that.</p>
   </section>
 
   <section class="page-section" id="response">
@@ -73,8 +119,6 @@
     <p><strong>Creating less expensive features.</strong> The Atlas maps over 175 historical Christian movements across ten eras, from 70 CE to today. We're also building guided tours, where a Representative hosts a participant through a real moment from their world. Neither one carries the runtime cost above.</p>
 
     <p><strong>Building an Accessibility Fund.</strong> Access matters as much as rigor does. This fund covers the cost for participants who couldn't otherwise afford it, translation into other languages, and building out more worlds and features — all the ways this reaches more people.</p>
-
-    <p><strong>Funding academic review.</strong> We want independent historians and theologians conducting external scholarly review of each Representative against the historical record, on top of the sourcing safeguards already built in. That review isn't funded yet — a gift toward it funds that rigor directly.</p>
   </section>
 
   <section class="page-section" id="why">
@@ -86,15 +130,17 @@
 
   <section class="page-section" id="giving">
     <h2>Be Part of It</h2>
-    <p>Give to the Accessibility Fund to help more people, in more languages, explore more Christian traditions. Give to the Academic Review Fund to help deepen our historical rigor.</p>
+    <p>Every gift goes to the Accessibility Fund — helping more people, in more languages, explore more Christian traditions. Give once to help keep the door open, or give monthly to help open it wider.</p>
 
-    <p style="font-size:0.92rem;color:var(--muted);">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible.</p>
+    <p class="fine-print">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible.</p>
 
-    <p>Direct giving isn't set up on this page yet — if you'd like to give to either fund, reach out and we'll sort it out with you personally:</p>
-    <p style="text-align:center;margin:1.6rem 0;">
-      <a class="btn secondary" href="mailto:info@churchinconversation.com?subject=Supporting%20Church%20in%20Conversation">info@churchinconversation.com</a>
-    </p>
-    <p>Other ways to support the work that cost nothing: introduce us to a seminary, professor, or scholar who might serve as an external reviewer; tell someone who'd want to explore the Table themselves; or simply ask us questions — the sharpest ones make the work better.</p>
+    <div class="hero-actions" style="margin:1.8rem 0 1rem;">
+      <a class="btn primary" href="https://buy.stripe.com/fZu5kwbbRONkbXegEI8bS01">Keeping the Door Open <span style="font-weight:400;opacity:.85">— give once</span></a>
+      <a class="btn primary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEI8bS00">Open the Door Wider <span style="font-weight:400;opacity:.85">— give monthly</span></a>
+    </div>
+    <p class="fine-print" style="text-align:center;margin:0 0 1.8rem;">Both go through Stripe. Prefer to give another way? Email us and we'll sort it out with you personally: <a href="mailto:info@churchinconversation.com?subject=Supporting%20Church%20in%20Conversation">info@churchinconversation.com</a>.</p>
+
+    <p>Other ways to support the work that cost nothing: we're still hoping to fund independent academic review down the line, so introduce us to a seminary, professor, or scholar who might serve as an external reviewer; tell someone who'd want to explore the Table themselves; or simply ask us questions — the sharpest ones make the work better.</p>
   </section>
 </main>
 

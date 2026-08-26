@@ -21,6 +21,12 @@ form.feedback textarea{min-height:5rem;resize:vertical}
 .optin{background:var(--vellum);border:1px solid var(--rule);border-left:3px solid var(--gold-leaf);
   border-radius:0 6px 6px 0;padding:1.1rem 1.3rem;margin:0 0 1.8rem;font-size:.96rem;color:var(--muted)}
 .submit-row{text-align:center;margin-top:1.8rem}
+.mailto-fallback{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;color:var(--muted);margin-top:.8rem}
+/* --muted is never redefined for dark mode anywhere on this site (2026-08-25
+   full review finding) - .optin and .hint share the same latent contrast gap
+   this file's new .mailto-fallback would otherwise have introduced too, so
+   all three get the fix together rather than patching only the new one. */
+@media (prefers-color-scheme:dark){ .optin, form.feedback .hint, .mailto-fallback{color:#B8AEA1} }
 </style>
 </head>
 <body>
@@ -57,7 +63,7 @@ form.feedback textarea{min-height:5rem;resize:vertical}
   <section class="page-section">
     <div class="optin">This is optional, and it's only for us &mdash; to help us see clearly what's working and what isn't as we keep building. Answer whatever feels comfortable to share, and skip anything you'd rather not.</div>
 
-    <form class="feedback" action="mailto:info@churchinconversation.com" method="post" enctype="text/plain">
+    <form class="feedback" id="feedbackForm" action="mailto:info@churchinconversation.com" method="post" enctype="text/plain">
       <label for="perspective">Which of the four perspectives did you engage as?</label>
       <select id="perspective" name="Perspective">
         <option>General</option>
@@ -94,10 +100,84 @@ form.feedback textarea{min-height:5rem;resize:vertical}
 
       <div class="submit-row">
         <button type="submit" class="btn primary">Send this to us</button>
+        <p class="mailto-fallback">This opens your email app with everything filled in &mdash; you still send it yourself. Nothing open? Email us directly at <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
       </div>
     </form>
+
+    <div id="copyFallback" hidden style="margin-top:1.4rem">
+      <p class="mailto-fallback">Your answers are long enough that a mailto link might cut them off in some email apps. Copy everything below and paste it into a new email to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a> instead:</p>
+      <textarea id="copyFallbackText" readonly style="width:100%;min-height:12rem;font-family:'Alegreya',Georgia,serif;font-size:.9rem;padding:.7rem .8rem;border:1px solid var(--rule);border-radius:5px;background:var(--vellum);color:var(--iron-gall)"></textarea>
+    </div>
   </section>
 </main>
+
+<script>
+(function(){
+"use strict";
+/* Was action="mailto:..." + enctype="text/plain" ALONE -- an actual FORM POST
+   to a mailto: action, which several major browsers silently no-op instead of
+   opening the mail client (real, unreliable, and gave the visitor no signal
+   that nothing happened -- flagged 2026-08-25). A plain mailto: link click is
+   reliably supported everywhere a form-post-to-mailto isn't, so this builds
+   the same link by hand from the field values and navigates to it exactly
+   the way clicking an <a href="mailto:..."> would. The form still carries its
+   original action/method/enctype too, as a no-JS fallback -- worse (the
+   original unreliable behavior) but strictly better than a bare form with no
+   action at all, which a JS-disabled visitor would submit as a plain GET to
+   this same page, silently wiping every answer with no explanation. Still no
+   server, still no account created anywhere, still the participant's own
+   email client sending it -- same "no accounts, no gatekeeping" shape as the
+   rest of this site. */
+const form = document.getElementById('feedbackForm');
+/* Some email clients/OSes truncate or refuse mailto: links well before any
+   formal spec limit - ~2000 chars is the commonly-cited safe ceiling (old
+   Internet Explorer/Outlook territory, but still the tightest real target).
+   Six free-text fields can exceed that easily, which would silently cut off
+   or drop exactly the answers this form most wants to hear (2026-08-25 full
+   review finding - the same failure class the mailto rebuild above was
+   written to fix, just triggered by content length instead of browser
+   behavior). Long answers fall back to a copy/paste box instead of a
+   mailto: link that might arrive truncated with no signal that it was. */
+const MAILTO_SAFE_LENGTH = 1800;
+form.addEventListener('submit', function(e){
+  e.preventDefault();
+  const val = id => (document.getElementById(id).value || '').trim();
+  const line = (label, id, fallback) => label + ': ' + (val(id) || fallback);
+  const subject = 'Pilot Feedback';
+  const body = [
+    line('Perspective', 'perspective', ''),
+    line('Tradition(s)', 'tradition', '(not answered)'),
+    '',
+    line('Confusing', 'confusing', '(not answered)'),
+    '',
+    line('Invented or overstated', 'invented', '(not answered)'),
+    '',
+    line("What it opened", 'opened', '(not answered)'),
+    '',
+    line('Fundable potential', 'fundable', '(not answered)'),
+    '',
+    line('Anything else', 'else', '(not answered)'),
+    '',
+    line('Name', 'name', '(anonymous)'),
+    line('Email', 'email', '(not given)')
+  ].join('\n');
+  const mailto = 'mailto:info@churchinconversation.com'
+    + '?subject=' + encodeURIComponent(subject)
+    + '&body=' + encodeURIComponent(body);
+  if (mailto.length > MAILTO_SAFE_LENGTH) {
+    const box = document.getElementById('copyFallback');
+    const text = document.getElementById('copyFallbackText');
+    text.value = 'Subject: ' + subject + '\n\n' + body;
+    box.hidden = false;
+    text.focus();
+    text.select();
+    box.scrollIntoView({behavior: 'smooth', block: 'nearest'});
+    return;
+  }
+  window.location.href = mailto;
+});
+})();
+</script>
 
 <footer class="site-footer">
   <div class="wrap">

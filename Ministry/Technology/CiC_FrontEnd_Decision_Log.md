@@ -266,3 +266,180 @@ greeting renders as the conversation's first turn, correctly slot-filled per wor
 None outstanding from the 2026-08-25 pilot feedback — all three reported problems
 (transparency, greeting, cards) are now built and shipped. Open items going forward
 belong to whatever Mark raises next.
+
+---
+
+## 2026-08-25 — Public pilot access: Atlas overpromise fixed, access ask added, Get
+Involved cost figures refreshed
+
+**Origin.** With the pilot live on `cic-engine`, this thread's job was to make
+`cic-website/` a seamless front door to it — access, landing, and a working Get
+Involved path — without building or designing the multi-voice Table Mark is
+building separately (~1-2 weeks out) or hard-coding assumptions that thread will
+need to undo.
+
+**Atlas fix, branch `claude/pilot-launch-website-access-j640i1`.** `atlas-v3.html`'s
+click-sheet offered two actions per live world: "Interview {name}" (honest, already
+worked — single world, direct hand-off) and "Add to the Table" (fed a multi-select
+tray, up to three worlds, handed off with `mode=table`). The engine seats exactly
+one world per session (spec O9); the other two picks were silently dropped, no
+explanation shown — the single most concrete "not seamless" thing on the live site.
+**Removed the tray entirely rather than capping it at one** — with "Interview" already
+the honest one-world path, a one-seat "tray" had nothing left to do. Table's real
+multi-select UI is the Table thread's own to design when it ships; this fix
+deliberately builds nothing toward it.
+
+**Landing-page ask, `index.html`.** One quiet line + link below the existing primary
+CTAs ("Come and join us at the Table" / "Explore the Timeline"), never in the hero,
+framed around access rather than general support: *"Running these conversations
+costs real money, which limits how many people can use them. If you'd like to help
+with that, see Get Involved."* Drafted, then passed through an Opus 5
+credibility/tone pass (per this thread's own model-routing guidance) before
+shipping — the review's main correction was cutting an earlier draft's "pull up a
+chair" phrasing (collided with the door metaphor, read as reaching) and a
+rhetorical-question option (read as clickbait).
+
+**Get Involved refresh, `support.html`.** The live $2/hr (1:1) and $5/hr (3-person)
+figures were Mark-approved but measured against the pre-rebuild system (Anthropic
+Console API, different model routing) — never re-measured against this pilot's
+engine (AWS Bedrock), which the project's own spec (principle 13) treats as a hard
+rule: no $/turn figure quoted until invoice-reconciled. Also, the 3-person figure
+describes the Table feature, which isn't live in this pilot. **Kept $2/hr, relabeled
+as a carried-forward estimate rather than implied-fresh; cut the $5/hr figure**
+rather than quote a price for a feature that doesn't exist yet. Opus 5's sharpest
+edit: cut a defensive "not a made-up number" aside from an earlier draft — nobody
+had accused it of being one, and pre-empting the accusation invited the suspicion it
+was trying to defend against. Final wording states the number's provenance plainly
+instead of hedging twice.
+
+**Stripe — explicitly not done, and blocked on Mark.** No live Stripe integration
+exists (the old `giving.py`/`cic-poc/backend` checkout service is suspended).
+Documented in `support.html`'s own header comment as the recommended next step —
+Stripe Payment Links, one per fund, no server dependency — but genuinely blocked:
+the Stripe account was flagged under Stripe's "fundraising by nonprofits/charities"
+restricted category (Faithways is a for-profit PBC, not a charity); a response was
+submitted with a Sept 4 deadline and its resolution was never confirmed. **First
+thing for Mark to do on this thread's account: check the Stripe dashboard
+directly.** Creating the Payment Links themselves is also his own dashboard action,
+per the standing precedent from the original Stripe build — not something this
+thread took or could take.
+
+**Smaller staleness, same pass, none blocking:** `pilot-feedback.html`'s form
+previously submitted via `<form action="mailto:...">`, which several browsers
+silently no-op instead of opening the mail client — replaced with JS that builds a
+real `mailto:` link from the filled fields and navigates to it the way clicking an
+`<a href="mailto:...">` would, plus a visible fallback line naming the address
+directly. `whats-next.html`'s Representative Modes section described 2026-07-16
+validation findings as if still current; corrected to note that build predates this
+year's full engine rebuild and needs re-integration and re-validation, not just
+picking back up (confirmed by direct grep: the feature has zero footprint anywhere
+in `engine/`). `cic-website/README.md`'s claim that nothing links to `support.html`
+was stale since 2026-08-06 (nav links to it as "Get Involved") — corrected.
+
+**Verified, not asserted:** loaded all six changed pages in a real headless browser
+against a local static server after the edits — the access-note line renders with
+the reviewed text, the reps carousel still populates all six cards, the Atlas's
+`#tray` element and `[data-act="add"]` button are gone, its `[data-act="interview"]`
+button still works, and the feedback form's new `id="feedbackForm"` is present, with
+zero console/page errors traceable to the changes (the only console errors were
+Google Fonts requests failing in the sandboxed test environment, present on every
+page regardless of this thread's edits).
+
+### Next action
+
+~~**Mark, in order:** (1) check the Stripe dashboard for the compliance-flag
+resolution — this blocks everything Stripe; (2) once clear, create the two Payment
+Links (Accessibility, Academic Review) and hand the URLs back so `support.html`'s
+mailto CTA can be swapped for real checkout;~~ **(1) and (2) DONE, same day** — see
+next entry. (3) still open: read the landing-page ask line and the refreshed Get
+Involved cost paragraph (both above, both already Opus-5-reviewed) and confirm or
+redirect before treating them as final — new participant/donor-facing copy gets his
+own read before shipping, same discipline as the app's own Facilitator text, even
+after a model review pass.
+
+---
+
+## 2026-08-25 — Real Stripe checkout live on Get Involved
+
+**Status.** Same day as the entry above. Mark confirmed the compliance flag is
+resolved and had already built and tested real checkout himself — a live $5
+contribution went through successfully — before this thread finished the rest of
+its work. Wired the result into `support.html`.
+
+**What Mark built, not this thread's call:** two Stripe Payment Links, split by
+**gift frequency**, not by fund — a real, working structural choice this thread
+hadn't anticipated (the prior entry's own header-comment note recommended "one
+[link] per fund," which turned out not to be what got built). Both are plain
+hyperlinks, no SDK, no server, matching the "no accounts, no feature-gating"
+philosophy the recommendation was reaching for anyway:
+
+- **"Keeping the Door Open"** — one-time gift — `buy.stripe.com/fZu5kwbbRONkbXegEI8bS01`
+- **"Open the Door Wider"** — monthly recurring — `donate.stripe.com/28E14g3Jp2Vsd1igEI8bS00`
+
+**Reconciling with the two named funds.** Neither link is fund-specific, so a giver
+who wants to designate Accessibility vs. Academic Review can't do it at checkout
+directly — the "Be Part of It" section now says so plainly and routes that request
+to email instead, rather than silently dropping it or inventing a fund-selection
+mechanism Mark didn't build. The two funds stay named as what gifts support in
+general (settled ground, unchanged); the two buttons are simply the two ways to
+give, not a fund picker.
+
+**Superseded in `support.html`'s own header comment**, not deleted — the prior
+"BLOCKED until Mark checks the Stripe dashboard" note is marked SUPERSEDED in place
+so the resolution is visible in the same spot the blocker was recorded, per this
+log's own standing discipline against letting decisions live only in conversation
+history.
+
+**Verified before shipping:** loaded the page in a real headless browser — both
+buttons render with the exact URLs Mark gave, correct link text, the mailto
+fallback for fund-specific/alternate giving still present, zero console errors.
+
+### Next action
+
+~~None from this thread — checkout is live and verified.~~ Superseded same day —
+see next entry (Academic Review Fund dropped).
+
+---
+
+## 2026-08-25 — Academic Review Fund dropped; Accessibility is the only giving ask
+
+**Origin.** Mark, direct instruction, immediately after the checkout wiring above:
+*"we are not doing the academic fund now, just two funds for expanding the
+accessability."* Read as: cut the Academic Review Fund as a giving target on this
+page; the "two" are the two Payment Links already built (one-time / monthly), both
+now unambiguously feeding the one remaining fund — Accessibility.
+
+**What changed, `support.html`:**
+- "What We're Doing About It" — removed the "Funding academic review" paragraph
+  entirely (it framed academic review as something a gift funds directly, which
+  is no longer true of anything on this page).
+- "Be Part of It" — intro paragraph rewritten from "give to either of two funds" to
+  "every gift goes to the Accessibility Fund," with the one-time/monthly split
+  reframed as two ways to give to that one thing, not two things to choose between.
+  Dropped the "want your gift designated to a specific fund" line from the
+  post-buttons note — with only one fund left, there is nothing left to designate
+  between; kept "prefer to give another way? email us" for the case that still is
+  real (someone who can't or doesn't want to use Stripe).
+- Both header-comment blocks (the 2026-08-06 two-fund origin note and the
+  2026-08-25 checkout-wiring note) marked SUPERSEDED in place rather than rewritten
+  or deleted, same discipline as the Stripe-blocked note before it — a reader of
+  the file should be able to see the fund structure change and why, not just the
+  end state.
+
+**What did NOT change.** Academic review as a mission ambition is untouched —
+`whats-next.html`'s own "Academic Review" roadmap section (forming an advisory
+board, asking for funding and volunteers by email) still stands; only the Stripe
+giving-fund framing on the Get Involved page specifically is cut. `README.md`
+updated to match (was still describing "two named funds" post-checkout-wiring
+commit).
+
+**Verified:** re-loaded the page after editing — zero mentions of "academic"
+anywhere outside the file's own HTML comments (checked programmatically, comments
+stripped first, not just eyeballed); both Payment Link buttons still render with
+their original hrefs and text, unaffected by the copy changes around them.
+
+### Next action
+
+None from this thread. Open items going forward belong to whatever Mark raises
+next — including, if it comes up again, standing up a real second fund (Academic
+Review or otherwise) with its own Payment Link rather than reusing these two.
