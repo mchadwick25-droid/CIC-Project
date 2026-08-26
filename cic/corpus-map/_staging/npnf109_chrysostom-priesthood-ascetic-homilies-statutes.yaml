@@ -1,0 +1,246 @@
+# Worker file: npnf109 (Chrysostom - treatises, occasional homilies, letters, Statues)
+# The one volume in the Chrysostom set holding genuinely distinct works; split accordingly.
+# Skipped as apparatus: title pages (1), preface (2), Prolegomena (3, editorial biography),
+# indexes (20, 21), and every per-work title page / editorial introduction.
+source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
+
+# CCEL's DC.Creator names only chrysostom, but div1 18 embeds two letters BY
+# Innocent I of Rome. Ruled from the file's own section titles, not from
+# outside knowledge.
+authors_ruled:
+  innocent_rome:
+    kind: metadata-omission
+    evidence: >
+      div2 titles "To the Beloved Brother John, Innocent." (id xviii.v) and
+      "Innocent, Bishop, to Presbyters and Deacons, and to All the Clergy and
+      People of the Church of Constantinople... Greeting." (id xviii.vi) are
+      letters written by Innocent, embedded in the correspondence section;
+      npnf109 DC.Creator sub="Author" lists only chrysostom.
+
+assignments:
+  - work: "Treatise Concerning the Christian Priesthood (De Sacerdotio)"
+    author: chrysostom
+    locus: "div1 4 — Treatise Concerning the Christian Priesthood, Books I-VI"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+    note: >
+      Six books on pastoral office, written at Antioch. Home entry is the
+      Chrysostom-centered Antiochene one. No census entry specific to pastoral
+      office or clergy formation exists to carry a second id; if one appears
+      in a later era survey this work has a claim on it.
+
+  - work: "An Exhortation to Theodore After His Fall"
+    author: chrysostom
+    locus: "div1 5 — Letters I-II to Theodore"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: provisional
+    note: >
+      Ascetic treatise urging a lapsed monk back to the monastic life. The
+      ascetic-treatise claim beyond the Antiochene entry is real but has no
+      home: desert-monasticism is regionally Egypt (Nile Valley), and no
+      census entry covers Syrian/urban asceticism of this period. Flagged
+      rather than forced.
+
+  - work: "Letter to a Young Widow"
+    author: chrysostom
+    locus: "div1 6 — Letter to a Young Widow"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: provisional
+    note: >
+      Ascetic consolation on widowhood and against remarriage. Same doubt as
+      the Exhortation to Theodore: an ascetic claim with no fitting second
+      entry in the census.
+
+  - work: "Eulogy on S. Ignatius"
+    author: chrysostom
+    locus: "div1 7, div2 7.3 — Eulogy (on S. Ignatius of Antioch)"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+      - post-apostolic-house-church
+    role: tradition
+    confidence: provisional
+    note: >
+      Fourth-century Antiochene panegyric on Ignatius, a central figure of
+      post-apostolic-house-church. Second id offered as evidence of how that
+      world's figure was remembered and venerated, on the Vita Antonii
+      pattern — but this is 4th-century cult, not 2nd-century evidence, so
+      flagged for Mark rather than asserted.
+
+  - work: "On the Holy Martyr, S. Babylas"
+    author: chrysostom
+    locus: "div1 7, div2 7.4 — On the Holy Martyr, S. Babylas"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+    note: >
+      Short homily on the Antiochene martyr-bishop Babylas. Antiochene
+      martyr-veneration in Chrysostom's own voice.
+
+  - work: "Homily Concerning Lowliness of Mind"
+    author: chrysostom
+    locus: "div1 8 — Concerning Lowliness of Mind"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Instructions to Catechumens"
+    author: chrysostom
+    locus: "div1 9 — First and Second Instruction"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+    note: >
+      Two baptismal instructions delivered at Antioch. Catechetical in genre
+      but not part of the Alexandrian catechetical tradition; stays home.
+
+  - work: "Three Homilies Concerning the Power of Demons"
+    author: chrysostom
+    locus: "div1 10 — Homilies I-III"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)"
+    author: chrysostom
+    locus: "div1 11 — Against Marcionists and Manichaeans"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+      - marcion-marcionism
+      - manichaeism
+    role: tradition
+    confidence: assigned
+    note: >
+      Chrysostom's own work (tradition, Antiochene entry) AND material about
+      the two doctrinal-floor movements it argues against, per the brief's
+      rule that heresiological material is assigned to the entry it opposes.
+
+  - work: "Homily on the Paralytic Let Down Through the Roof"
+    author: chrysostom
+    locus: "div1 12 — Homily on the Paralytic; 'Concerning the Equality of the Divine Father and the Son'"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+      - homoian-arian-christianity
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      The Antiochene home id is safe; the doubt is the second one. The
+      volume's own notes say this homily proves the equality of Father and
+      Son against the Anomoeans (editorial note at xii, and index entry
+      'Anomoeans, heresy of'). The Anomoeans/Eunomians are not strictly
+      Homoians, and the census has no Anomoean entry —
+      homoian-arian-christianity is the nearest 'Arian' doctrinal-floor
+      bucket. Needs Mark's ruling on whether that entry covers anti-Anomoean
+      material or the second id should be dropped.
+
+  - work: "Homily to Those Who Had Not Attended the Assembly (on Rom. xii. 20)"
+    author: chrysostom
+    locus: "div1 13 — To Those Who Had Not Attended the Assembly"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homily Against Publishing the Errors of the Brethren"
+    author: chrysostom
+    locus: "div1 14 — Against Publishing the Errors of the Brethren"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Two Homilies on Eutropius"
+    author: chrysostom
+    locus: "div1 15 — Homilies I-II on Eutropius"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Preached at Constantinople over the fallen consul Eutropius taking
+      asylum at the altar - church asylum against imperial power, directly
+      the Built & Live imperial-juridical entry's material. The census has no
+      separate Constantinopolitan entry for Chrysostom's era;
+      imperial-juridical-christianity (c. 312-451, Constantinople in its
+      region) is where his episcopate's church-state material lands.
+
+  - work: "A Treatise to Prove that No One Can Harm the Man Who Does Not Injure Himself"
+    author: chrysostom
+    locus: "div1 16 — A Treatise to Prove that No One Can Harm..."
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+    note: >
+      Written in exile per the volume's own introduction; kept on the home
+      entry since its matter is moral consolation, not church-state.
+
+  - work: "Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)"
+    author: chrysostom
+    locus: "div1 17 — Letters to Olympias (div2 17.3-17.7) and to Castus, Valerius, Diophantus, Cyriacus, Presbyters of Antioch (17.8)"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Exile correspondence with the deaconess Olympias of Constantinople.
+      Second id because the letters are evidence of the deposition-and-exile
+      conflict with the imperial court, squarely inside
+      imperial-juridical-christianity's frame. Assigned as one body per the
+      granularity rule.
+
+  - work: "Letters of St. Chrysostom to Innocent, Bishop of Rome"
+    author: chrysostom
+    locus: "div1 18, div2 18.3-18.4 — Chrysostom's two letters to Innocent"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Chrysostom's appeal to Rome over his deposition. Church-state and
+      inter-see jurisdiction material; second id as with the Olympias
+      letters.
+
+  - work: "Letters of Innocent of Rome concerning Chrysostom"
+    author: innocent_rome
+    locus: "div1 18, div2 18.5-18.6 — Innocent to John; Innocent to the clergy and people of Constantinople"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: provisional
+    note: >
+      Author ruled above from the div2 titles: these two letters are
+      Innocent's replies, embedded in Chrysostom's correspondence section.
+      The bishop of Rome intervening in a Constantinopolitan deposition is
+      imperial-juridical material first; also kept on the Antiochene entry
+      as part of the Chrysostom dossier. Provisional because the split of
+      one div1 into two authors is this worker's ruling.
+
+  - work: "The Homilies on the Statues to the People of Antioch"
+    author: chrysostom
+    locus: "div1 19 — Homilies I-XXI, one series preached at Antioch after the riot of 387; assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Twenty-one homilies, one coherent body: the city awaiting the
+      emperor's judgment after the overthrow of the imperial statues.
+      Antiochene entry as its author's own preaching; imperial-juridical
+      because the series is a primary witness to city-versus-emperor and
+      episcopal intercession with imperial power. The Benedictine preface
+      (19.2) is apparatus and excluded.

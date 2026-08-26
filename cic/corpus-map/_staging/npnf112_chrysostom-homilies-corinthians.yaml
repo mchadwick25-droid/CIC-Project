@@ -1,0 +1,21 @@
+# Worker file: npnf112 (Chrysostom - Homilies on 1 and 2 Corinthians)
+# Two homily series, two works. Skipped as apparatus: series title, title page,
+# preface, and the indexes (6, 7).
+source_file: npnf112_chrysostom-homilies-corinthians.xml
+
+assignments:
+  - work: "Homilies on First Corinthians"
+    author: chrysostom
+    locus: "div1 4 — the full 1 Corinthians series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on Second Corinthians"
+    author: chrysostom
+    locus: "div1 5 — the full 2 Corinthians series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned

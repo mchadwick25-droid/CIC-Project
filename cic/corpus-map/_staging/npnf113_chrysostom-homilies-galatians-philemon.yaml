@@ -1,0 +1,88 @@
+# Worker file: npnf113 (Chrysostom - Galatians through Philemon)
+# The three div1 groupings are Victorian binding units; the works a reader
+# would name are the per-epistle series at div2 level, so those are the ten
+# assignments. Skipped as apparatus: title page (1), "St. Chrysostom as a
+# Homilist" (2, an editorial essay - editors are not authors), per-group title
+# pages and prefaces, and the indexes (6, 7).
+source_file: npnf113_chrysostom-homilies-galatians-philemon.xml
+
+assignments:
+  - work: "Commentary on Galatians"
+    author: chrysostom
+    locus: "div1 3, div2 3.3 — Commentary on Galatians (continuous commentary, not a homily series)"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on Ephesians"
+    author: chrysostom
+    locus: "div1 3, div2 3.4 — the full Ephesians series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on Philippians"
+    author: chrysostom
+    locus: "div1 4, div2 4.3 — the full Philippians series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on Colossians"
+    author: chrysostom
+    locus: "div1 4, div2 4.4 — the full Colossians series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on First Thessalonians"
+    author: chrysostom
+    locus: "div1 4, div2 4.5 — the full 1 Thessalonians series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on Second Thessalonians"
+    author: chrysostom
+    locus: "div1 4, div2 4.6 — the full 2 Thessalonians series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on First Timothy"
+    author: chrysostom
+    locus: "div1 5, div2 5.3 — the full 1 Timothy series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on Second Timothy"
+    author: chrysostom
+    locus: "div1 5, div2 5.4 — the full 2 Timothy series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on Titus"
+    author: chrysostom
+    locus: "div1 5, div2 5.5 — the full Titus series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on Philemon"
+    author: chrysostom
+    locus: "div1 5, div2 5.6 — the full Philemon series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned

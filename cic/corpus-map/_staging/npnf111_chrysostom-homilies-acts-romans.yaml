@@ -1,0 +1,21 @@
+# Worker file: npnf111 (Chrysostom - Homilies on Acts and Romans)
+# Two homily series, two works. Skipped as apparatus: series title page,
+# prefaces (American, Oxford Parts I-II), and the indexes (8, 9).
+source_file: npnf111_chrysostom-homilies-acts-romans.xml
+
+assignments:
+  - work: "Homilies on the Acts of the Apostles"
+    author: chrysostom
+    locus: "div1 6 — 'A Commentary on the Acts of the Apostles', the full series of fifty-five homilies, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on the Epistle to the Romans"
+    author: chrysostom
+    locus: "div1 7 — the full Romans series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned

@@ -1,0 +1,21 @@
+source_file: npnf108_augustine-exposition-psalms.xml
+
+# CCEL DC.Creator: `augustine`; the volume is one work. No authors_ruled needed.
+# Skipped as editorial apparatus: title page (div1 1), the Oxford editor's
+# preface and advertisement inside div1 2 (paths 2.2-2.3), indexes (div1 3-4).
+
+assignments:
+  - work: "Expositions on the Book of Psalms (Enarrationes in Psalmos)"
+    author: augustine
+    locus: "div1 2 — Expositions on the Book of Psalms; psalm-by-psalm expositions of the whole Psalter (~695,000 words, the largest single body in the vendored corpus) assigned as one work per the granularity rule, not one work per psalm"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Preached and dictated expositions spanning c. 392-420, most delivered
+      to congregations at Hippo and Carthage. Per brief section 6.5 what is
+      assigned is Augustine's exegesis, which is his work; the Psalter itself
+      is not in the corpus. Anti-Donatist polemic surfaces in a number of
+      expositions (a few dozen mentions across 695k words) but is diffuse,
+      so no donatism id is claimed for the body.

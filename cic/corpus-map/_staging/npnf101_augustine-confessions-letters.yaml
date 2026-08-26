@@ -1,0 +1,82 @@
+source_file: npnf101_augustine-confessions-letters.xml
+
+# No authors_ruled: DC.Creator names `augustine` and both works are his.
+# Skipped as apparatus: Title Page, Preface, Contents, Prolegomena (Schaff's
+# life-and-works essays, ~21k words), "Chief Events in the Life of St. Augustin"
+# (editorial chronological table), the two Indexes of Subjects, and the Indexes.
+
+assignments:
+  - work: "The Confessions"
+    author: augustine
+    locus: "div1 6 — The Confessions"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's own narrative and prayer, the founding first-person document
+      of the Latin pastoral entry that the census centers on Carthage and Hippo
+      Regius. His home entry; primary evidence.
+
+  - work: "The Confessions"
+    author: augustine
+    locus: "div1 6 — The Confessions, esp. Books III-V"
+    atlas_ids:
+      - manichaeism
+    role: tradition
+    confidence: provisional
+    note: >
+      Books III-V are a firsthand account of nine years as a Manichaean
+      auditor — testimony about the movement's teachers (Faustus by name),
+      cosmology and appeal that the doctrinal-floor entry has from almost no
+      other Latin source. Provisional because it is testimony embedded in a
+      Catholic conversion narrative, not a treatise about the movement; a
+      reviewer may prefer to let npnf104's dedicated refutations carry this
+      bucket alone.
+
+  - work: "The Confessions"
+    author: augustine
+    locus: "div1 6 — The Confessions, esp. Books V-IX"
+    atlas_ids:
+      - ambrosian-milan-standalone
+    role: tradition
+    confidence: provisional
+    note: >
+      Books V-IX are the fullest surviving participant narrative of Ambrose's
+      Milan: his preaching, his silent reading, the basilica crisis, the
+      finding of Gervasius and Protasius, Augustine's baptism there in 387.
+      Provisional because the evidence is concentrated in these books rather
+      than the work's center of gravity; included so the Milan entry does not
+      lose its best eyewitness while npnf210 carries only Ambrose's own side.
+
+  - work: "Letters of St. Augustin"
+    author: augustine
+    locus: "div1 7 — Letters of St. Augustin (selection of 168 letters, I-CCLXIX, assigned as one body)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      NPNF's selection of 168 letters spanning Augustine's whole episcopate,
+      assigned as one coherent body per the granularity rule. The bulk is
+      pastoral and North African; his home entry takes the body.
+
+  - work: "Letters of St. Augustin"
+    author: augustine
+    locus: "div1 7 — Letters of St. Augustin (the controversy sub-bodies within the selection)"
+    atlas_ids:
+      - donatism
+      - pelagianism
+      - hieronymian-ascetic-literary
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      The doubt is granularity, not placement. Inside the one letter body sit
+      three real sub-corpora: substantial Donatist correspondence (letters to
+      Vincentius, Emeritus, Boniface and about Petilian; 118 Donatist
+      mentions in the volume), anti-Pelagian letters, and the twelve-letter
+      Augustine-Jerome exchange that is core evidence for the Hieronymian
+      world (whose npnf206 carries Jerome's side). Mark should rule whether
+      the body stands in these entries whole, or the letters split
+      per-controversy — the per-work rule cuts both ways for a 366k-word
+      collection.
