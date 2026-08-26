@@ -769,3 +769,83 @@ def test_already_bridged_gloss_ids_suppresses_a_repeat_within_run_turn():
         already_bridged_gloss_ids={"fix.term.koinonia"},
     )
     assert result.voice_event["glosses"] == []
+
+
+def _history_of(n_turns):
+    """n_turns completed user/assistant pairs - the same shape
+    engine.api.wiring.history_from_transcript builds."""
+    history = []
+    for i in range(n_turns):
+        history.append({"role": "user", "content": f"question {i}"})
+        history.append({"role": "assistant", "content": f"answer {i}"})
+    return history
+
+
+def test_the_cap_fires_at_ten_completed_turns_and_spends_no_voice_call():
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["should never be reached"])
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world(), participant_message="one more question", pressed={}, anachronistic_term_ids=set(),
+        history=_history_of(turn_module.SESSION_TURN_CAP),
+    )
+    assert result.routing_action == "session_cap_turn"
+    assert result.voice_event is None
+    assert client.messages.captured_stream_calls == []  # no Sonnet call spent once capped
+    assert result.facilitator_events[0]["kind"] == "close"
+    from engine.m4 import events
+
+    events.validate("facilitator_turn", result.facilitator_events[0])
+
+
+def test_the_cap_does_not_fire_one_turn_early():
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["still answering"])
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world(), participant_message="a question", pressed={}, anachronistic_term_ids=set(),
+        history=_history_of(turn_module.SESSION_TURN_CAP - 1),
+    )
+    assert result.routing_action != "session_cap_turn"
+    assert result.voice_event is not None
+
+
+def test_acute_distress_is_never_capped_away():
+    client = FakeBedrockClient(safety_response=_safety("ACUTE_DISTRESS", acute_level="a1"), reader_response=_reader(), stream_chunks=["I hear you."])
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world(), participant_message="I don't want to be here anymore.", pressed={}, anachronistic_term_ids=set(),
+        history=_history_of(turn_module.SESSION_TURN_CAP + 5),  # well past the cap
+    )
+    assert result.routing_action == "safety_turn"
+    assert result.facilitator_events[0]["resources_appended"] is True
+
+
+def test_a_non_acute_signal_is_capped_like_any_other_ordinary_turn():
+    client = FakeBedrockClient(safety_response=_safety("HARMFUL_DYNAMIC", dynamic_tags=["dependency"]), reader_response=_reader(), stream_chunks=["should never be reached"])
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world(), participant_message="I feel like you're the only one who understands me.", pressed={}, anachronistic_term_ids=set(),
+        history=_history_of(turn_module.SESSION_TURN_CAP),
+    )
+    assert result.routing_action == "session_cap_turn"
+    assert result.voice_event is None
+
+
+def test_the_cap_names_the_representative_from_world_frame():
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=[])
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world(), participant_message="one more", pressed={}, anachronistic_term_ids=set(),
+        history=_history_of(turn_module.SESSION_TURN_CAP),
+    )
+    assert "Vera" in result.facilitator_events[0]["text"]
+
+
+def test_a_capped_turn_still_attributes_its_gate_calls():
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=[])
+    result = run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=_world(), participant_message="one more", pressed={}, anachronistic_term_ids=set(),
+        history=_history_of(turn_module.SESSION_TURN_CAP),
+    )
+    assert {r.call_kind for r in result.usage_records} == {"safety_call", "reader_call"}
+    assert all(r.session_id == "test-session" for r in result.usage_records)

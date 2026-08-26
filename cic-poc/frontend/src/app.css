@@ -572,6 +572,46 @@ button {
   font-style: italic;
 }
 
+/* StoryMark's Level-2/Level-3 content (VoiceTurnBody.tsx) - reference
+   code + English source + story title, per Mark's own spec for the
+   story/quote track (2026-08-25). Shares .level2-card__body's own
+   `p { margin: 0 }`, so spacing between the three lines is set here,
+   not there. */
+.story-mark__entry + .story-mark__entry {
+  margin-top: 8px;
+}
+
+.story-mark__title {
+  font-weight: 700;
+}
+
+.story-mark__ref,
+.story-mark__source {
+  margin-top: 2px !important;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+/* General References (GeneralReferences.tsx) - the fourth track, plain
+   list at the end of the turn, deliberately NOT the InlineBridge grammar:
+   Mark's own correction (2026-08-25) that a reference belongs at the end
+   of the answer, never as an asterisk inside the running text. */
+.turn__general-references {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-sm);
+  border-top: 1px solid var(--color-border);
+}
+
+.turn__general-references-label {
+  margin: 0 0 6px;
+  font-family: var(--font-family-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+}
+
 /* ============================================================
    The transparency apparatus - Tyrian, per CiC_Full_UX_Design_V1_0.md
    §2.1/§2.4: plain colored text or a small glyph mark, a short Level-2
