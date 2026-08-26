@@ -270,40 +270,6 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: A Metaphrase of the Book of Ecclesiastes
-  author: gregory_thau
-  locus: div3 under 3.3 'Acknowledged Writings'
-  role: tradition
-  confidence: needs-ruling
-  note: 'Paraphrase in the Greek rhetorical manner; nothing ties it to the Cappadocian entry
-    beyond its author. Shelved with his other works for want of a 3rd-c. Pontus entry.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Canonical Epistle
-  author: gregory_thau
-  locus: div3 under 3.3 'Acknowledged Writings'
-  role: tradition
-  confidence: needs-ruling
-  note: 'Church discipline for Pontic congregations after the Gothic raids of the 250s - concrete
-    pastoral-canonical practice from the region the Cappadocians inherited. Same missing-entry
-    problem as above.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
-    On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies;
-    On All the Saints; On the Gospel According to Matthew)
-  author: gregory_thau
-  locus: div2 3.4 - assigned as one body
-  role: tradition
-  confidence: needs-ruling
-  note: 'CCEL''s own heading marks the body dubious or spurious; several pieces are much later
-    (the Sectional Confession is widely held an Apollinarian production). Needs a ruling on
-    whether a spurious corpus files under the attributed name at all.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
@@ -313,50 +279,6 @@ works:
     family Christianity descends from his Pontic mission, and Gregory of Nyssa wrote his Life.
     Assigned there as inherited tradition; provisional because he predates the entry''s 360-380s
     range by a century.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
-    fragments)
-  author: methodius
-  locus: div2 11.6, 11.10-11.12 - assigned as one body
-  role: tradition
-  confidence: needs-ruling
-  note: 'Fragment collection including anti-Origenist and homiletic material; same shelf and
-    same missing-home flag as the rest of Methodius.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Oration Concerning Simeon and Anna
-  author: methodius
-  locus: div2 11.8
-  role: tradition
-  confidence: needs-ruling
-  note: 'Festal oration for the Meeting in the Temple, widely regarded as later than Methodius
-    (the feast''s development postdates him). Shelved with his section pending a ruling on
-    the spurious pieces.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Oration on the Palms
-  author: methodius
-  locus: div2 11.9
-  role: tradition
-  confidence: needs-ruling
-  note: 'Palm Sunday oration of doubtful authenticity, as the previous row.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Banquet of the Ten Virgins (Symposium; Concerning Chastity)
-  author: methodius
-  locus: div2 11.3
-  role: tradition
-  confidence: needs-ruling
-  note: 'Methodius of Olympus (Lycia, d. c. 311): the major pre-Nicene treatise on virginity,
-    a Christian rewriting of Plato''s Symposium, foundational for all later ascetic literature.
-    Pre-Constantinian Anatolian asceticism has no census entry; shelved with the Cappadocian
-    pastoral-monastic entry as the nearest Anatolian ascetic tradition, explicitly as a best
-    guess.
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml

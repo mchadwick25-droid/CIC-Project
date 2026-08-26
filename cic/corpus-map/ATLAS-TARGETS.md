@@ -7,7 +7,7 @@ All 274 entries are valid targets. That includes the 215 marked *Pre-Survey Cand
 The six *Built & Live* entries are the six worlds that exist today. There is one taxonomy here, not two.
 
 
-## Era 1 (I) — The Early Church Era, 70-312 CE  ·  16 entries
+## Era 1 (I) — The Early Church Era, 70-312 CE  ·  17 entries
 
 *Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council*
 
@@ -27,6 +27,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `roman-church-third-century` | The Roman Church in the Third Century | c. 200-260 | Rome | Possible Future World (on record) |
 | `syriac-edessa-nisibis` | Syriac Christianity (Edessa/Nisibis) | 200–410 CE | Edessa & Nisibis | Built & Live |
 | `manichaeism` | Manichaeism | 3rd-7th c. | Persia to the Mediterranean | Excluded - Doctrinal Floor (C1) ⛔ |
+| `anatolian-church-third-century` | The Anatolian Church in the Third Century | c. 240-312 | Neocaesarea in Pontus, Olympus in Lycia | Possible Future World (on record) |
 | `latin-pastoral-congregational-christianity` | Latin Pastoral-Congregational Christianity | c. 240s-430 | Carthage, Hippo Regius | Selected - Not Yet Built |
 | `novatianism` | Novatianism | c. 251-400s | Rome, spreading | Contested - Evidentiary |
 

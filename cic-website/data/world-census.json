@@ -4,12 +4,12 @@
   "version": "V0.20+era10-frozen",
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
-  "totalEntries": 285,
+  "totalEntries": 286,
   "liveCount": 6,
   "statusCounts": {
    "Built & Live": 6,
    "Selected - Not Yet Built": 3,
-   "Possible Future World (on record)": 12,
+   "Possible Future World (on record)": 13,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
@@ -604,6 +604,27 @@
    "type": "in tension with",
    "confidence": "Documented",
    "note": "Constantius II exiled Hilary in 356 for refusing to condemn Athanasius; the Council of Paris repudiated the creed the emperor had imposed at Ariminum."
+  },
+  {
+   "from": "anatolian-church-third-century",
+   "to": "cappadocian-nicene-pastoral-monastic-tradition",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "Basil's grandmother Macrina was formed by Gregory Thaumaturgus' disciples, and Basil appeals to his practice as precedent for what is old."
+  },
+  {
+   "from": "alexandria-catechetical",
+   "to": "anatolian-church-third-century",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "Gregory studied five years under Origen at Caesarea and wrote the Panegyric on leaving; Methodius, a generation later, became Origen's first serious critic."
+  },
+  {
+   "from": "anatolian-church-third-century",
+   "to": "apocryphal-and-pseudepigraphal-literature",
+   "type": "contemporary with",
+   "confidence": "Documented",
+   "note": "A substantial part of what circulates under both men's names is marked dubious or spurious by the edition itself."
   }
  ],
  "movements": [
@@ -1207,6 +1228,47 @@
     "The congregations themselves are thin in the record — their story is told almost entirely by outside historians rather than in their own surviving words"
    ],
    "legacy": "No church descends from them; the last Novatianist communities faded in the East by around the seventh century. Two things outlasted the schism. The first is the doctrine sharpened against it — that the church is a hospital rather than a society of the already-perfect, and that no sin lies beyond the reach of the church's ministry of reconciliation — worked out by Cyprian in the moment and by Augustine at length afterwards, along with the graded system of public penance that grew out of exactly this argument. The second is Novatian's own On the Trinity, which was copied, read and valued in the mainstream church as a careful Latin statement of orthodox doctrine long after his party was gone, handed down in manuscripts among the works of Tertullian."
+  },
+  {
+   "id": "anatolian-church-third-century",
+   "atlasId": "I.38",
+   "era": 1,
+   "name": "The Anatolian Church in the Third Century",
+   "shortName": "Third-Century Anatolia",
+   "informalName": "Gregory's Pontus",
+   "dates": "c. 240-312",
+   "start": 240,
+   "end": 312,
+   "region": "Neocaesarea in Pontus, Olympus in Lycia",
+   "regions": [
+    "Asia Minor"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Modest and mixed. Gregory's Panegyric to Origen and his Canonical Epistle are vendored and both are first-hand; Methodius' Banquet survives whole. But a substantial part of what circulates under both names is marked dubious or spurious by the edition itself, and the Life of Gregory that carries most of the stories about him was written a century later by Gregory of Nyssa.",
+   "floorNote": "Not in question",
+   "relationsSummary": "The ground the Cappadocian tradition grows out of and knows it: Basil's grandmother Macrina was formed by Gregory Thaumaturgus' disciples, and Basil appeals to his practice as precedent. Origen's reach runs through it in both directions - Gregory was his devoted pupil, Methodius his first serious critic.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after seven works stayed flagged in the Cappadocian entry, shelved there for want of anywhere better. THE GAP IS REGIONAL, NOT PER-AUTHOR, WHICH IS WHY THIS IS ONE ENTRY AND NOT TWO: post-apostolic-house-church ends at 200, and between that line and Nicaea the only entries touching Asia Minor are Montanism and Modalist Monarchianism - both dissenting currents. The catholic church of Anatolia in the third century, the ground the Cappadocians came from, is simply absent. The honest objection is that this rests on two men a generation and a province apart; the reply is that the Canonical Epistle is community evidence rather than authorial, and that the hole in the map is real either way.",
+   "entry": null,
+   "longDescription": "Gregory of Neocaesarea went south to study law and came back a bishop. He had fallen in with Origen at Caesarea instead, stayed five years, and left with a farewell address that is one of the warmest descriptions of a teacher anyone wrote in antiquity. What he did in Pontus after that is mostly legend - the story that he found seventeen Christians in the city and left seventeen pagans is a century later than he is - but one document survives that is not legend at all. When Gothic raiders came through in the 250s, Gregory wrote a canonical letter working out what to do about Christians who had looted alongside them, or informed, or kept what the raiders left: a bishop dealing with a wrecked province, case by case. A generation later and further south, Methodius, bishop of Olympus in Lycia, wrote the Banquet of the Ten Virgins - a Christian rewriting of Plato's Symposium in which ten women take turns praising chastity - and became the first substantial critic of Origen, whose most devoted pupil had been Gregory. He died in the persecution around 311.",
+   "teaser": "Between the house churches and Nicaea, the church of Asia Minor left almost nothing behind - except a bishop's ruling on what to do with Christians who looted alongside the Goths, and ten women arguing about chastity at a banquet.",
+   "voices": [
+    "Gregory Thaumaturgus - Origen's pupil, bishop of Neocaesarea, and the author of a canonical letter on a province after a raid",
+    "Methodius of Olympus - who rewrote Plato's Symposium as a Christian argument for virginity and became Origen's first serious critic",
+    "Macrina the Elder - Basil's grandmother, formed by Gregory's disciples, and the link the Cappadocians claim to this world",
+    "Origen - not of this region, but reaching into it from both ends: the teacher Gregory revered and the thinker Methodius set out to correct"
+   ],
+   "legacy": "The Cappadocian tradition claims descent from this ground explicitly, and Basil cites Gregory's practice as precedent when he wants to argue that something is old. Gregory's Canonical Epistle entered the received canon-law collections of the East and is still there. And Methodius' Banquet is the foundation of the Christian literature of virginity - everything Ambrose, Jerome and Gregory of Nyssa later wrote on the subject is downstream of it, and its argument that chastity is a form of freedom rather than a deprivation began there."
   },
   {
    "id": "roman-church-third-century",

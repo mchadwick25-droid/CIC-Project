@@ -125,6 +125,22 @@ works:
     added alongside - the class these notes kept saying had no bucket. pahc is kept where
     the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+- work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
+    On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies;
+    On All the Saints; On the Gospel According to Matthew)
+  author: gregory_thau
+  locus: div2 3.4 - assigned as one body
+  role: tradition
+  confidence: needs-ruling
+  note: 'CCEL''s own heading marks the body dubious or spurious; several pieces are much later
+    (the Sectional Confession is widely held an Apollinarian production). Needs a ruling on
+    whether a spurious corpus files under the attributed name at all. Re-pointed 2026-08-26
+    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
+    for the pseudonymous character. STILL `needs-ruling`: whether a spurious corpus files
+    under the attributed name at all is an attribution ruling no new entry answers. The Sectional
+    Confession is widely held an Apollinarian production, and apollinarian-christianity now
+    exists to receive it if the bundle is ever split.'
+  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Infancy Gospel of Thomas (three forms)
   author: infancy-gospel-of-thomas
   locus: div2 7.8-7.10
@@ -135,6 +151,33 @@ works:
     added alongside - the class these notes kept saying had no bucket. pahc is kept where
     the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: Oration Concerning Simeon and Anna
+  author: methodius
+  locus: div2 11.8
+  role: tradition
+  confidence: needs-ruling
+  note: 'Festal oration for the Meeting in the Temple, widely regarded as later than Methodius
+    (the feast''s development postdates him). Shelved with his section pending a ruling on
+    the spurious pieces. Re-pointed 2026-08-26 to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature
+    alongside for the pseudonymous character. STILL `needs-ruling`: the question this note
+    asks - whether a spurious corpus files under the attributed name at all - is an attribution
+    ruling that no new entry answers. Worth noting for whoever rules it: the Sectional Confession
+    is widely held an Apollinarian production, and apollinarian-christianity now exists to
+    receive it if the bundle is ever split.'
+  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- work: Oration on the Palms
+  author: methodius
+  locus: div2 11.9
+  role: tradition
+  confidence: needs-ruling
+  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Re-pointed 2026-08-26
+    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
+    for the pseudonymous character. STILL `needs-ruling`: the question this note asks - whether
+    a spurious corpus files under the attributed name at all - is an attribution ruling that
+    no new entry answers. Worth noting for whoever rules it: the Sectional Confession is widely
+    held an Apollinarian production, and apollinarian-christianity now exists to receive it
+    if the bundle is ever split.'
+  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Narrative of Zosimus
   author: narrative-of-zosimus
   locus: div2 11.2

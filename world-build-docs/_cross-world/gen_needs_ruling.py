@@ -59,11 +59,7 @@ SWEEPS = {
         "`latin-pastoral-congregational-christianity` below, where its other half sits: written "
         "during the Great Persecution by a Latin rhetor who became Constantine's court tutor, so "
         "neither side is a clean fit.)",
-    "cappadocian-nicene-pastoral-monastic-tradition":
-        "**No entries for third-century Pontus, Palestine or Antioch.** Gregory Thaumaturgus is "
-        "shelved with the Cappadocian entry he is forerunner to; the Trullan appendix's "
-        "Canonical Epistles of the Fathers would split per-father into this entry and the "
-        "Alexandrian one if you want them split at all.",
+
     "merovingian-gallic-christianity":
         "**Mostly answered.** The pre-Merovingian hole two workers hit from opposite ends is "
         "closed: `gallic-monastic-ascetic-christianity` (era 2, c. 360-450) was added on record "
@@ -91,6 +87,14 @@ SWEEPS = {
         "and both works of Victorinus of Pettau, the earliest Latin exegete, who was Pannonian. "
         "Worth knowing while you rule: the *Octavius*'s first half, Caecilius' speech, is one of "
         "the fullest surviving statements of the pagan case against Christianity anywhere.",
+    "apocryphal-and-pseudepigraphal-literature":
+        "**One question, and no entry can answer it.** All three are corpora the edition itself "
+        "marks dubious or spurious - two under Methodius, one under Gregory Thaumaturgus - and "
+        "the doubt is not where they sit but whether a spurious corpus files under its attributed "
+        "author's name at all. That is an 
+        "attribution ruling. Worth knowing while you make it: the Sectional Confession inside the "
+        "Gregory bundle is widely held an Apollinarian production, and "
+        "`apollinarian-christianity` now exists to receive it if the bundle is ever split.",
     "byzantine-imperial-church-macedonian":
         "Ante-Nicene volumes housing much later works: Byzantine-era apocalypses (the Virgin, "
         "Sedrach, Esdras, apocryphal John) printed in ANF and placed here by date-guess alone.",
@@ -154,7 +158,7 @@ def main() -> None:
         "decide. Every entry answers the same complaint, raised independently by workers who "
         "could not see each other: *this material is real and the census has nowhere accurate to "
         "put it.*\n\n"
-        "Five are formation-world candidates, on record as *Possible Future World*:\n\n"
+        "Six are formation-world candidates, on record as *Possible Future World*:\n\n"
         "- **`gallic-monastic-ascetic-christianity`** (era 2, c. 360–450, *Possible Future World "
         "on record*). Closed the pre-Merovingian Gaul hole that two workers hit independently. "
         "**Seven works re-pointed**, six of them to `assigned`; the *Doubtful Letters of "
@@ -166,6 +170,12 @@ def main() -> None:
         "- **`palestinian-ascetic-monasticism-early`** (era 2, c. 330–450). The same shape as "
         "Gaul: `chalcedonian-monasticism-judean-desert-and-gaza` does not begin until c. 450. "
         "Took Jerome's *Hilarion* and *Malchus*.\n"
+        "- **`anatolian-church-third-century`** (era 1, c. 240–312). Gregory Thaumaturgus in "
+        "Pontus and Methodius in Lycia. **The gap was regional, not per-author**, which is why it "
+        "is one entry and not two: `post-apostolic-house-church` ends at 200, and between that "
+        "line and Nicaea the only entries touching Asia Minor are Montanism and Modalist "
+        "Monarchianism — both dissenting currents. The catholic church the Cappadocians came from "
+        "was simply absent.\n"
         "- **`gallic-nicene-episcopate`** (era 2, c. 350–400). Hilary of Poitiers, whose three "
         "works stayed flagged through two rounds of entry-adding because the Gallic *monastic* "
         "entry had deliberately excluded him — its own case argued he is a controversialist whose "

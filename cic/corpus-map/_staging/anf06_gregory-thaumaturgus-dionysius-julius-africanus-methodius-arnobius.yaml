@@ -69,39 +69,45 @@ assignments:
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   atlas_ids:
-  - cappadocian-nicene-pastoral-monastic-tradition
+  - anatolian-church-third-century
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Paraphrase in the Greek rhetorical manner; nothing ties it to the Cappadocian entry
-    beyond its author. Shelved with his other works for want of a 3rd-c. Pontus entry.
-
-    '
+    beyond its author. Shelved with his other works for want of a 3rd-c. Pontus entry. Re-pointed
+    2026-08-26: anatolian-church-third-century (era 1, c. 240-312) was added on record, and
+    it is the entry this note was asking for - the gap is regional, not per-author. post-apostolic-house-church
+    ends at 200 and nothing catholic covers Asia Minor between there and Nicaea.'
 - work: Canonical Epistle
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   atlas_ids:
-  - cappadocian-nicene-pastoral-monastic-tradition
+  - anatolian-church-third-century
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Church discipline for Pontic congregations after the Gothic raids of the 250s - concrete
     pastoral-canonical practice from the region the Cappadocians inherited. Same missing-entry
-    problem as above.
-
-    '
+    problem as above. Re-pointed 2026-08-26: anatolian-church-third-century (era 1, c. 240-312)
+    was added on record, and it is the entry this note was asking for - the gap is regional,
+    not per-author. post-apostolic-house-church ends at 200 and nothing catholic covers Asia
+    Minor between there and Nicaea.'
 - work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
     On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies;
     On All the Saints; On the Gospel According to Matthew)
   author: gregory_thau
   locus: div2 3.4 - assigned as one body
   atlas_ids:
-  - cappadocian-nicene-pastoral-monastic-tradition
+  - anatolian-church-third-century
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
   confidence: needs-ruling
   note: 'CCEL''s own heading marks the body dubious or spurious; several pieces are much later
     (the Sectional Confession is widely held an Apollinarian production). Needs a ruling on
-    whether a spurious corpus files under the attributed name at all.
-
-    '
+    whether a spurious corpus files under the attributed name at all. Re-pointed 2026-08-26
+    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
+    for the pseudonymous character. STILL `needs-ruling`: whether a spurious corpus files
+    under the attributed name at all is an attribution ruling no new entry answers. The Sectional
+    Confession is widely held an Apollinarian production, and apollinarian-christianity now
+    exists to receive it if the bundle is ever split.'
 - work: Extant Fragments of Dionysius of Alexandria (works and epistles)
   author: dionysius_gr
   locus: 'div2 4.3 - two div3 groups: sections of works (On Nature, against Sabellius) and
@@ -386,16 +392,17 @@ assignments:
   author: methodius
   locus: div2 11.3
   atlas_ids:
-  - cappadocian-nicene-pastoral-monastic-tradition
+  - anatolian-church-third-century
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Methodius of Olympus (Lycia, d. c. 311): the major pre-Nicene treatise on virginity,
     a Christian rewriting of Plato''s Symposium, foundational for all later ascetic literature.
     Pre-Constantinian Anatolian asceticism has no census entry; shelved with the Cappadocian
     pastoral-monastic entry as the nearest Anatolian ascetic tradition, explicitly as a best
-    guess.
-
-    '
+    guess. Re-pointed 2026-08-26: anatolian-church-third-century (era 1, c. 240-312) was added
+    on record, and it is the entry this note was asking for - the gap is regional, not per-author.
+    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between
+    there and Nicaea.'
 - work: Concerning Free-Will (De Autexousio)
   author: methodius
   locus: div2 11.4
@@ -428,36 +435,45 @@ assignments:
   author: methodius
   locus: div2 11.8
   atlas_ids:
-  - cappadocian-nicene-pastoral-monastic-tradition
+  - anatolian-church-third-century
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
   confidence: needs-ruling
   note: 'Festal oration for the Meeting in the Temple, widely regarded as later than Methodius
     (the feast''s development postdates him). Shelved with his section pending a ruling on
-    the spurious pieces.
-
-    '
+    the spurious pieces. Re-pointed 2026-08-26 to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature
+    alongside for the pseudonymous character. STILL `needs-ruling`: the question this note
+    asks - whether a spurious corpus files under the attributed name at all - is an attribution
+    ruling that no new entry answers. Worth noting for whoever rules it: the Sectional Confession
+    is widely held an Apollinarian production, and apollinarian-christianity now exists to
+    receive it if the bundle is ever split.'
 - work: Oration on the Palms
   author: methodius
   locus: div2 11.9
   atlas_ids:
-  - cappadocian-nicene-pastoral-monastic-tradition
+  - anatolian-church-third-century
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
   confidence: needs-ruling
-  note: 'Palm Sunday oration of doubtful authenticity, as the previous row.
-
-    '
+  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Re-pointed 2026-08-26
+    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
+    for the pseudonymous character. STILL `needs-ruling`: the question this note asks - whether
+    a spurious corpus files under the attributed name at all - is an attribution ruling that
+    no new entry answers. Worth noting for whoever rules it: the Sectional Confession is widely
+    held an Apollinarian production, and apollinarian-christianity now exists to receive it
+    if the bundle is ever split.'
 - work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
     fragments)
   author: methodius
   locus: div2 11.6, 11.10-11.12 - assigned as one body
   atlas_ids:
-  - cappadocian-nicene-pastoral-monastic-tradition
+  - anatolian-church-third-century
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Fragment collection including anti-Origenist and homiletic material; same shelf and
-    same missing-home flag as the rest of Methodius.
-
-    '
+    same missing-home flag as the rest of Methodius. Re-pointed 2026-08-26: anatolian-church-third-century
+    (era 1, c. 240-312) was added on record, and it is the entry this note was asking for
+    - the gap is regional, not per-author.'
 - work: The Seven Books of Arnobius Against the Heathen (Adversus Gentes)
   author: arnobius
   locus: div2 12.3
