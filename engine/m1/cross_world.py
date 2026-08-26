@@ -700,9 +700,15 @@ def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
             if k != "_body" and isinstance(v, str)
         )
         opened = {p for r in records[w].values() for p in re.findall(r"cic/texts/([\w.-]+)", str(r.get("edition") or ""))}
+        # Word-boundary, never a bare substring. Measured, not theoretical:
+        # a plain `"Basil" in blob` matched "Basilidean" (the Gnostic school)
+        # four times in alx against two real Basil mentions, and `"Leo"`
+        # matched "Leonides" - Origen's father - four times out of four,
+        # putting Leo the Great on Alexandria's worklist on the strength of a
+        # martyr who died 150 years before he was born.
         second_hand = []
         for filename, authors in ((f, a) for f, a in _AUTHORS_BY_FILE.items() if f not in opened):
-            if any(author in blob for author in authors):
+            if any(re.search(rf"\b{re.escape(author)}\b", blob) for author in authors):
                 second_hand.append(filename)
         findings.append(_observation(
             "second-hand-source", w,

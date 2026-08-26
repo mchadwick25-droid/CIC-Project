@@ -132,28 +132,27 @@ Geography was added on Mark's ruling and **ranks rather than excludes** — the 
 
 | world | window | sourced | tier 1 | tier 2 | tier 3 | tier 4 |
 |---|---|---|---|---|---|---|
-| `alx` | 150–400 | 10 | **5** | 1 | 28 | 0 |
+| `alx` | 150–400 | 10 | **4** | 1 | 29 | 0 |
 | `pahc` | 70–200 | 6 | **4** | 3 | 2 | 29 |
 | `desert` | 320–430 | 4 | **6** | 4 | 26 | 4 |
 | `hal` | 382–420 | 5 | **12** | 5 | 12 | 10 |
 | `syr` | 200–410 | 11 | **7** | 0 | 26 | 0 |
-| `ijc` | 312–451 | 10 | **11** | 9 | 7 | 7 |
+| `ijc` | 312–451 | 10 | **10** | 9 | 7 | 8 |
 
 ### `alx`
 
-**Tier 1 - named, never opened** — 5
+**Tier 1 - named, never opened** — 4
 
 - `npnf206_jerome-principal-works.xml` (347–420) — Jerome (incl. desert Lives)
 - `npnf207_cyril-jerusalem-gregory-nazianzen.xml` (313–390) — Cyril of Jerusalem, Gregory Nazianzen
 - `npnf208_basil-letters-select-works.xml` (330–379) — Basil: letters and select works (ASCETIC)
-- `npnf212_leo-great-gregory-great.xml` (400–604) — Leo the Great, Gregory the Great
 - `npnf214_seven-ecumenical-councils.xml` (325–787) — The Seven Ecumenical Councils
 
 **Tier 2 - same time and place** — 1
 
 - `npnf211_sulpitius-severus-vincent-lerins-cassian.xml` (360–450) — Sulpitius Severus, Cassian (incl. De Incarnatione)
 
-**Tier 3 - same time, different region** — 28
+**Tier 3 - same time, different region** — 29
 
 - `addai_doctrine-of-addai.txt` (30–400) — Syriac: Doctrine of Addai
 - `anf01_apostolic-fathers-justin-irenaeus.xml` (90–202) — Apostolic Fathers, Justin, Irenaeus
@@ -181,6 +180,7 @@ Geography was added on Mark's ruling and **ranks rather than excludes** — the 
 - `npnf205_gregory-nyssa-dogmatic-treatises.txt` (335–395) — Gregory of Nyssa: dogmatic treatises
 - `npnf209_hilary-poitiers-john-damascus.xml` (310–749) — Hilary, John of Damascus
 - `npnf210_ambrose-select-works-letters.xml` (339–397) — Ambrose
+- `npnf212_leo-great-gregory-great.xml` (400–604) — Leo the Great, Gregory the Great
 - `npnf213_gregory-great-ephraim-syrus-aphrahat.xml` (300–604) — Gregory the Great, Ephrem, Aphrahat
 - `optatus_against-the-donatists.txt` (320–400) — Optatus: Against the Donatists
 
@@ -345,9 +345,8 @@ Tier 4 — 10: `anf01`, `anf02`, `anf03`, `anf05`, `anf06`, `anf07`, `aphrahat`,
 
 ### `ijc`
 
-**Tier 1 - named, never opened** — 11
+**Tier 1 - named, never opened** — 10
 
-- `anf01_apostolic-fathers-justin-irenaeus.xml` (90–202) — Apostolic Fathers, Justin, Irenaeus
 - `npnf102_augustine-city-of-god-christian-doctrine.xml` (354–430) — Augustine: City of God
 - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml` (354–430) — Augustine: Trinity, moral treatises
 - `npnf104_augustine-anti-manichaean-anti-donatist.xml` (354–430) — Augustine: anti-Manichaean/Donatist
@@ -381,5 +380,5 @@ Tier 4 — 10: `anf01`, `anf02`, `anf03`, `anf05`, `anf06`, `anf07`, `aphrahat`,
 - `npnf211_sulpitius-severus-vincent-lerins-cassian.xml` (360–450) — Sulpitius Severus, Cassian (incl. De Incarnatione)
 - `optatus_against-the-donatists.txt` (320–400) — Optatus: Against the Donatists
 
-Tier 4 — 7: `anf02`, `anf03`, `anf04`, `anf05`, `anf06`, `anf09`, `origen`
+Tier 4 — 8: `anf01`, `anf02`, `anf03`, `anf04`, `anf05`, `anf06`, `anf09`, `origen`
 
