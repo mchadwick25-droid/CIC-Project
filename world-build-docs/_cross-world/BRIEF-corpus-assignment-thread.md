@@ -118,19 +118,55 @@ making sure the material is findable.
 
 ## 5. The output
 
-### 5a. One fleet-level assignment table — *recommended, please read*
+### 5a. A standalone corpus map, outside `records/` entirely — SETTLED
 
-The existing `corpus_review` record type is **per world** and keyed by file. It
-was built before Mark's Atlas ruling and it is now the wrong shape: if Basil
-belongs to `cappadocian`, that is *one fact*. Six worlds each writing
-"Basil — belongs-to-another-atlas-entry — cappadocian" states it six times and
-creates six chances to disagree.
+Mark's ruling, 2026-08-26: *"lets keep this separate from the built worlds
+with clear buckets that align, then we can figure out how best to integrate
+this into each world after we do the parsing and organizing."*
 
-Recommended instead: **one fleet-owned assignment table**, at
-`records/_fleet/corpus_assignment/`, with each world's scope *derived* from it
-— my sources are every work assigned to my `census_id`. That matches the
-project's own standing principle (Artifact-1 §2: one registry, everything
-else derived) and it is how `records/_fleet/canon_question/` already works.
+So the assignment table does **not** live inside any world, and it does not
+live in `records/_fleet/` either — `compile_world()` loads the fleet records
+on every build (`build_coverage_json`, `build_canon_map_json`, and the
+manifest itself), so anything put there moves all seven package hashes and is
+not separate in any meaningful sense.
+
+**Home: `cic/corpus-map/`** — beside the texts it describes and the tooling
+that reads them (`cic/texts/`, `cic/engine/`), and touched by nothing in the
+compile path. One file per Atlas entry, named for the census `id`:
+
+    cic/corpus-map/desert-monasticism.yaml
+    cic/corpus-map/cappadocian-nicene-pastoral-monastic-tradition.yaml
+    cic/corpus-map/imperial-juridical-christianity.yaml
+
+That is what "clear buckets that align" means concretely: the filename **is**
+the census id, so alignment is structural rather than something to keep in
+sync, and integration later is a join on a key that already matches.
+
+```yaml
+atlas_id: desert-monasticism        # == the filename, == a census movements[].id
+works:
+  - work: "Vita Antonii (Life of Antony)"
+    author: athanasius              # a slug from cic/texts/AUTHORS.md
+    source_file: npnf204_athanasius-select-works-letters.xml
+    locus: "div1 'Life of Antony'"
+    role: tradition                 # tradition | context  (§11a)
+    confidence: assigned            # assigned | provisional | needs-ruling
+    note: >
+      Athanasius' own account of Antony. Also assigned to
+      alexandria-catechetical as its author's own work - assignment is not
+      exclusive (§6.1).
+```
+
+**Integration is explicitly a later, separate decision.** This thread produces
+the map; how a world's records come to draw on it is designed afterwards, with
+the map in hand. Do not build toward any particular integration.
+
+*Superseded:* a `corpus_review` record type was added to all six worlds
+earlier the same day, per-world and keyed by file. It was the wrong shape
+under this ruling and has been removed — records, schema, gate and the
+retrieval guard that existed only to keep it out of the voice's candidate
+pool. All seven packages recompiled; every world's content is byte-identical
+to its prior state.
 
 Proposed shape, one record per work:
 
@@ -295,9 +331,9 @@ their future corpus.
 
 ## 11. Open questions for Mark — answer before starting, they change the work
 
-1. **The assignment table's home and shape** (5a). Fleet-level record with
-   per-world scope derived, or keep per-world `corpus_review`? Recommendation:
-   fleet-level. The schema follows your answer.
+1. ~~The assignment table's home and shape~~ — **settled 2026-08-26**: a
+   standalone `cic/corpus-map/`, one file per Atlas entry, outside `records/`
+   entirely. See §5a.
 2. **Granularity.** One assignment per *work* (Augustine's ~40 treatises) or
    per *coherent group* (Augustine's anti-Pelagian writings as one)? Group is
    cheaper and probably sufficient; per-work is more precise for a corpus
