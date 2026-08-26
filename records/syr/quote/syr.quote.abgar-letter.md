@@ -19,8 +19,7 @@ sources:
   license: public-domain
 text: I have heard of Thee and of Thy healing, that it is not by medicines and roots Thou healest, but
   by Thy word Thou openest the eyes of the blind
-speaker_or_author: the Doctrine of Addai's own text of King Abgar's letter - the legend speaking, not
-  history
+speaker_or_author: "King Abgar, in the Doctrine of Addai's own text of his letter"
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
 ---

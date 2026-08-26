@@ -87,12 +87,24 @@ def find_figures_used(text: str, figures: list[dict], *, already_bridged_ids: se
     Word-boundary, not fuzzy: a figure only fires on one of its own
     recorded names, verbatim. Two figures whose names genuinely overlap
     (e.g. "Simeon" inside a longer "Simeon Stylites") can both fire on the
-    same span - left as an honest ambiguity a human editor can see and fix
-    by how the figure record's own name is written, not something this
-    module should guess its way around.
+    same span with DIFFERENT matched_name strings - left as an honest
+    ambiguity a human editor can see and fix by how the figure record's
+    own name is written, not something this module should guess its way
+    around.
+
+    A stricter case IS resolved here, not left to the frontend's own
+    overlap-drop to pick arbitrarily: two figures whose recorded name is
+    IDENTICAL, not merely overlapping (hal.figure.paula and hal.figure.
+    paula-younger both register the bare in-world name "Paula" - the text
+    alone cannot say which one is meant). When two or more figures tie on
+    the exact same (position, matched text), exactly one is kept -
+    deterministically, by lowest id, so the same turn always resolves the
+    same way - rather than firing both and consuming both records' one
+    bridging chance this session for a match neither one specifically
+    earned.
     """
     already = already_bridged_ids or set()
-    hits = []
+    by_span: dict[tuple[int, str], list[dict]] = {}
     for figure in figures:
         if figure.get("id") in already:
             continue
@@ -112,7 +124,9 @@ def find_figures_used(text: str, figures: list[dict], *, already_bridged_ids: se
             if match and (best is None or match.start() < best[0]):
                 best = (match.start(), match.group(0))
         if best is not None:
-            hits.append((best[0], figure, best[1]))
+            by_span.setdefault(best, []).append(figure)
+
+    hits = [(start, min(candidates, key=lambda f: f["id"]), matched_name) for (start, matched_name), candidates in by_span.items()]
     hits.sort(key=lambda h: h[0])
     return [
         {

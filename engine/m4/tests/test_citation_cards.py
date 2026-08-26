@@ -55,6 +55,58 @@ def test_label_falls_back_by_record_type():
     assert resolve_source_card("w.dw.x", repo)["label"] == "w.dw.x"  # no dedicated field - id is the honest fallback
 
 
+def test_a_quote_attributed_to_a_bare_figure_id_resolves_to_the_figures_real_name():
+    """alx.quote.clement-new-song's own speaker_or_author is the literal
+    string "alx.figure.clement" - the corpus's own "sometimes an id,
+    sometimes prose" convention for this field. Before this fix every
+    such quote's label was that raw id, verbatim, to the participant."""
+    repo = _real_repository("alx")
+    card = resolve_source_card("alx.quote.clement-new-song", repo)
+    assert card["label"] == "Clement"
+
+
+def test_a_quote_attributed_to_prose_passes_through_unchanged():
+    repo = {"w.quote.x": {"id": "w.quote.x", "record_type": "quote", "speaker_or_author": "The Council of Chalcedon (451), Canon 28"}}
+    assert resolve_source_card("w.quote.x", repo)["label"] == "The Council of Chalcedon (451), Canon 28"
+
+
+def test_a_figure_with_no_in_world_name_falls_back_to_its_scholarly_name_not_a_raw_id():
+    """pahc.figure.ministrae is the one figure in the fleet with no
+    in-world tag at all ("no in-world name or self-designation
+    survives") - a real content gap, not something to fabricate an
+    in-world name for. The label should still be the real scholarly
+    description, not the bare record id."""
+    repo = _real_repository("pahc")
+    card = resolve_source_card("pahc.figure.ministrae", repo)
+    assert card["label"] != "pahc.figure.ministrae"
+    assert "enslaved women" in card["label"]
+
+
+def test_gravity_and_force_labels_strip_the_build_taxonomy_bracket_not_the_name():
+    """alx.gravity.divine-pedagogy's own `name` field is "Divine Pedagogy
+    [SUPPORTING - explanatory framework]" - real, useful to a build
+    reviewer, never meant for a participant."""
+    repo = _real_repository("alx")
+    card = resolve_source_card("alx.gravity.divine-pedagogy", repo)
+    assert card["label"] == "Divine Pedagogy"
+
+
+def test_contested_claim_doctrinal_witness_and_honest_limit_get_real_labels_not_raw_ids():
+    """Before this fix these three record_types had no entry in
+    _LABEL_FIELDS at all, so every General Reference of these types, in
+    every world, was a bare record id."""
+    repo = _real_repository("alx")
+    contested = resolve_source_card("alx.contested.allegory-from-within", repo)
+    assert contested["label"] and contested["label"] != "alx.contested.allegory-from-within"
+
+    desert_repo = _real_repository("desert")
+    dw = resolve_source_card("desert.dw.jesus", desert_repo)
+    assert dw["label"] and dw["label"] != "desert.dw.jesus"
+
+    limit = resolve_source_card("alx.limit.f5-women-own-words", repo)
+    assert limit["label"] and limit["label"] != "alx.limit.f5-women-own-words"
+
+
 def test_resolve_citation_sources_is_additive_and_never_drops_a_citation():
     repo = _real_repository("alx")
     citations = [{"sentence": "Origen taught this.", "record_ids": ["alx.term.allegoria"]}]
@@ -71,7 +123,8 @@ def test_resolve_citation_sources_over_every_world_never_crashes():
     KeyError, across all six worlds' real citable records."""
     for world_key in ("alx", "desert", "hal", "ijc", "pahc", "syr"):
         repo = _real_repository(world_key)
-        citable = [r["id"] for r in repo.values() if r.get("record_type") in ("term", "story", "quote", "figure", "doctrinal_witness")]
+        citable_types = ("term", "story", "quote", "figure", "doctrinal_witness", "gravity", "force", "contested_claim", "honest_limit")
+        citable = [r["id"] for r in repo.values() if r.get("record_type") in citable_types]
         assert citable, f"{world_key} has no citable records to test against"
         citations = [{"sentence": "s", "record_ids": citable}]
         resolved = resolve_citation_sources(citations, repo)

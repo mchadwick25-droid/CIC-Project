@@ -675,6 +675,20 @@ button {
   margin: 0;
 }
 
+/* Cross-world transparency audit, 2026-08-26: some worlds' authored
+   fields (a story's own tellable_as, a source's own rights_status) run
+   many times longer than others', for reasons of content and sourcing
+   complexity, not a bug in any one of them - but the same hover card
+   should not visibly balloon on one world and stay a single line on
+   another. A hard clamp here is the one shared safety net that covers
+   every mark type (gloss, figure, story) without special-casing any of
+   them; Level 3 (click-through) always shows the field in full, so
+   nothing is actually hidden, only deferred past a click. */
+.level2-card__body {
+  max-height: 7.5em;
+  overflow: hidden;
+}
+
 .level2-card__full-entry {
   display: block;
   margin-top: 8px;

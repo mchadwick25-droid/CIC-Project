@@ -17,7 +17,7 @@ sources:
   locus: "SS68 - Antony's own rejection of Melitian communion and, when Arians came to him, his response driving them away"
   license: public-domain
 text: "He drove them from the mountain, saying that their words were worse than the poison of serpents."
-speaker_or_author: "Athanasius, narrating Antony's own action - not Antony's own reported speech"
+speaker_or_author: "Athanasius, narrating Antony's own action"
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote's own vocabulary or imagery: \"the poison of serpents\" reads today the same way it read then, a plain image for something venomous."
 relations:

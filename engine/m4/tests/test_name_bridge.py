@@ -75,6 +75,20 @@ def test_full_record_content_reaches_the_result_for_level_3():
     assert "Ephraem Syrus" in names_by_tag["scholarly"]
 
 
+def test_two_figures_with_the_identical_in_world_name_resolve_to_exactly_one():
+    """hal.figure.paula and hal.figure.paula-younger both register the
+    bare in-world name "Paula" - a real collision in the fleet, not a
+    hypothetical. The text alone can't say which one is meant; this
+    proves exactly one wins (not both, and not neither), deterministically
+    by lowest id, rather than leaving the frontend to arbitrarily pick
+    whichever happened to come first in figures.json's own order - which
+    also silently consumed BOTH ids from already_bridged_ids before this
+    fix, so the one that lost the coin flip could never bridge at all."""
+    figures = _real_figures("hal")
+    hits = find_figures_used("Paula gave everything she had.", figures)
+    assert [h["id"] for h in hits] == ["hal.figure.paula"]
+
+
 def test_word_boundary_does_not_match_inside_a_longer_word():
     """A short synthetic fixture, not real records: proves a name that is
     a substring of an unrelated word never fires, independent of what
