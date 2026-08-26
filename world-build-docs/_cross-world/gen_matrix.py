@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 import yaml
 
-from engine.m1 import canon, gates
+from engine.m1 import canon, cross_world, gates
 from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records
 from engine.m2.builders import _quote_speaker
 from engine.m2.compiler import compile_world
@@ -26,7 +26,10 @@ LIVE = {m["id"]: m for m in census["movements"] if m.get("status") == "Built & L
 CE = {w: LIVE.get(reg[w].get("census_id") or "", {}) for w in W}
 head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
 PKG = {w: compile_world(world_key=w, package_id="matrix", records_commit=head, compiler_version=head) for w in W}
-RID = re.compile(r"\b(?:[a-z]{2,8})\.(?:[a-z_]{2,20})\.[a-z0-9][a-z0-9-]{2,}\b")
+# the leak patterns are owned by engine.m1.cross_world; a second copy here
+# is exactly how this matrix would come to disagree with the check it reports
+RID = cross_world._RECORD_ID
+BUILD_REF = cross_world._BUILD_REF
 CELLS = sorted(canon.valid_cells(fleet))
 
 OK, DRIFT = "OK", "**{}**"
@@ -80,7 +83,7 @@ row(S, "`figure.dates` key vocabulary", "DRIFT",
 row(S, "quote speaker resolves to a readable label", "DRIFT",
     [(lambda n: "yes" if n == 0 else f"**{n} raw ids**")(sum(1 for r in R[w].values() if r["record_type"] == "quote" and (RID.search(_label(r, R[w])) or RID.search(_quote_speaker(r))))) for w in W])
 row(S, "no record id / build ref in participant-facing fields", "DRIFT",
-    [(lambda n: "yes" if n == 0 else f"**{n} leaks**")(sum(1 for r in R[w].values() if r["record_type"] == "figure" for v in list((r.get("dates") or {}).values()) + [r.get("bridge_line")] if isinstance(v, str) and (RID.search(v) or re.search(r"\bSS\d+\b|\bthis build\b", v)))) for w in W])
+    [(lambda n: "yes" if n == 0 else f"**{n} leaks**")(sum(1 for r in R[w].values() if r["record_type"] == "figure" for v in list((r.get("dates") or {}).values()) + [r.get("bridge_line")] if isinstance(v, str) and (RID.search(v) or BUILD_REF.search(v)))) for w in W])
 row(S, "`voice_craft.flavor_notes` segment vocabulary", "VARIES",
     [str(len(([r for r in R[w].values() if r["record_type"] == "voice_craft"][0].get("flavor_notes") or []))) + " segs" for w in W])
 

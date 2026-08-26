@@ -458,15 +458,26 @@ as `census-display-name/alx`.
 
 ### F-10 — `desert`'s figure dates carry build-process language onto a participant's screen · Live
 
-Six fields across three `desert` figures carry text that was written for a
+Three fields across two `desert` figures carry text that was written for a
 reviewer and is rendered verbatim in the Level-3 panel:
 
-- `desert.figure.antony.dates.born/died/floruit` — `SS89`, `SS92`, `SS2`
-  section references
-- `desert.figure.evagrius.dates.born/died` — the literal record id
-  `desert.source.evagrius-praktikos`, twice
+- `desert.figure.evagrius.dates.born` and `.died` — the literal record id
+  `desert.source.evagrius-praktikos`, plus a reference to the build document
+  `Doc_01 SS2.3`, in both fields
 - `desert.figure.pachomius.dates.floruit` — *"its incident-level reliability
   is not independently adjudicated by this build"*
+
+**Corrected 2026-08-26, same day.** This finding was first written up as
+*six* fields, adding `desert.figure.antony.dates.born/died/floruit` on the
+strength of the strings `Vita SS89`, `Vita SS92-93` and `Vita SS2`. Those are
+not leaks. This project writes the section sign as `SS`, so they read *Vita
+§89* — real primary-source loci in the Life of Antony, exactly the checkable
+reference a participant is supposed to be shown. Desert uses that convention
+in 44 of its 192 source loci, more than any other world, which is why the
+false positives landed here and nowhere else. The pattern in
+`check_participant_field_leaks` was matching a bare `SS<n>` and has been
+narrowed to require a named build artifact (`Doc_`, `Artifact-`, `BUILD-LOG`)
+or build prose. Antony's three dates are clean and were always clean.
 
 `gate_no_build_attribution` exists for precisely this defect class and would
 have caught the phrasing — but its `_ATTRIBUTION_FIELDS` map is scoped to the

@@ -65,7 +65,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
     "figure-dates-keys/pahc": "F-04 - pahc keys figure.dates as display/note where the other five use born/died/floruit, and the frontend prints the key verbatim, so pahc participants read 'display:' and 'note:' in the UI",
     "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
-    "ui-field-leak/desert": "F-10 - desert.figure.antony/evagrius/pachomius carry build-provenance text (a record id, `SS`-style section refs, 'this build') inside figure.dates, which the doorway's Level-3 panel prints verbatim",
+    "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
 }
 
 
@@ -288,7 +288,14 @@ def check_figure_dates_keys(*, records, worlds, **_) -> list[Finding]:
 # --------------------------------------------------------------------------
 
 _RECORD_ID = re.compile(r"\b(?:[a-z]{2,8})\.(?:[a-z_]{2,20})\.[a-z0-9][a-z0-9-]{2,}\b")
-_BUILD_REF = re.compile(r"\bDoc_\d|\bSS\d+\b|\bArtifact-\d|\bBUILD-LOG\b|\bthis build\b|\b20\d{2}-\d{2}-\d{2}\b", re.IGNORECASE)
+# Deliberately does NOT match a bare `SS<n>`. This project writes the section
+# sign as "SS", so `Vita SS89` is a real primary-source locus - the checkable
+# reference a participant is SUPPOSED to be shown - and desert alone uses it in
+# 44 of its 192 source loci. An earlier version of this pattern flagged all
+# three of desert.figure.antony's dates on that basis and reported six leaks
+# where there are three. A build reference has to name a BUILD artifact
+# (`Doc_01 SS2.3`, `Artifact-1`, BUILD-LOG) or talk about the build in prose.
+_BUILD_REF = re.compile(r"\bDoc_\d|\bArtifact-\d|\bBUILD-LOG\b|\bthis build\b|\b20\d{2}-\d{2}-\d{2}\b", re.IGNORECASE)
 
 # Exactly the fields that reach a participant's screen, via
 # engine.m4.citation_cards' label table, engine.m4.name_bridge's figure card

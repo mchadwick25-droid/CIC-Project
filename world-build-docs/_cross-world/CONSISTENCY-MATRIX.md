@@ -1,6 +1,6 @@
 # Per-world consistency matrix — six formation worlds
 
-Generated from the live tree at `e80eb94cbea1` by `world-build-docs/_cross-world/gen_matrix.py`. Every cell is measured, not transcribed. Companion to `CiC_Cross_System_Consistency_Audit_2026-08-26.md`, which carries the reasoning and the findings.
+Generated from the live tree at `fafd6dc15d4c` by `world-build-docs/_cross-world/gen_matrix.py`. Every cell is measured, not transcribed. Companion to `CiC_Cross_System_Consistency_Audit_2026-08-26.md`, which carries the reasoning and the findings.
 
 **Verdict column.** `OK` — every world agrees, and agreement is the contract. `DRIFT` — worlds disagree on something the pipeline treats as one shape; a bolded cell is the world that differs. `VARIES` — worlds differ on something with no fixed contract; the numbers are reported so a reader can tell substance apart from build effort, and nothing here is a defect on its own.
 
@@ -32,7 +32,7 @@ Generated from the live tree at `e80eb94cbea1` by `world-build-docs/_cross-world
 | `confidence` block complete on every record | OK | 175/175 | 128/128 | 127/127 | 153/153 | 160/160 | 154/154 |
 | `figure.dates` key vocabulary | DRIFT | born/died/floruit | died/display/note | born/died/floruit | born/died/floruit | born/died/floruit | born/died/floruit |
 | quote speaker resolves to a readable label | DRIFT | yes | yes | yes | yes | **4 raw ids** | yes |
-| no record id / build ref in participant-facing fields | DRIFT | yes | yes | **6 leaks** | yes | yes | yes |
+| no record id / build ref in participant-facing fields | DRIFT | yes | yes | **3 leaks** | yes | yes | yes |
 | `voice_craft.flavor_notes` segment vocabulary | VARIES | 5 segs | 4 segs | 4 segs | 5 segs | 5 segs | 8 segs |
 
 ## 2b. Records — measured, no fixed contract
