@@ -1,0 +1,100 @@
+# Worker: npnf210-214 group, 2026-08-26.
+# Skipped as apparatus: title pages, prefatory notes, the Leo introduction
+# (div2 2.3), the Gregory prolegomena (div2 3.3), and the indexes (div1 4).
+source_file: npnf212_leo-great-gregory-great.xml
+
+authors_ruled:
+  gregory:
+    kind: metadata-omission
+    evidence: >
+      div1 title "The Book of Pastoral Rule, and Selected Epistles, of
+      Gregory the Great."; npnf212 DC.Creator lists `gregory` (and `leo`) -
+      the extractor failed to match this div1 title to the slug, which is why
+      AUTHORS.md records the section as unattributed. The title itself names
+      Gregory the Great; the slug is CCEL's own.
+
+assignments:
+  - work: "The Letters of Leo the Great"
+    author: leo
+    locus: "div2 2.4 — Letters (including Letter XXVIII, the Tome)"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: provisional
+    note: >
+      The selected correspondence, 440-461, with Letter XXVIII - the Tome -
+      at its center: the Eutychian controversy, Ephesus 449, Chalcedon, and
+      constant traffic with Theodosius II, Marcian and Pulcheria. The Tome
+      and the run-up sit squarely in ijc's window (to 451); the corpus then
+      runs a decade past that boundary into the span of the era-3 Justinianic
+      Byzantine entry (from 451), so both are named. Provisional on the
+      split-by-era question, not on the material's importance. Note the Tome
+      is also carried in npnf214 (Chalcedon, div2 11.7).
+
+  - work: "The Letters of Leo the Great"
+    author: leo
+    locus: "div2 2.4 — Letters"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-tradition
+    role: context
+    confidence: provisional
+    note: >
+      The correspondence condemning Eutyches and Dioscorus is the opposing
+      side's record of the movement the Cyrilline/miaphysite entry names,
+      and the Tome is the document whose rejection defines that tradition.
+      Context, not its voice. The census holds a near-duplicate era-3 id
+      (cyrilline-miaphysite-egyptian-christianity, 451-642); the on-record
+      Step-0 deferred entry is used here - a ruling on which of the two
+      carries corpus would help every worker.
+
+  - work: "The Sermons of Leo the Great"
+    author: leo
+    locus: "div2 2.5 — Sermons"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Ninety-six sermons of Roman stational preaching, 440-461 - the
+      Nativity and Epiphany sermons restate the Tome's Christology for a
+      congregation, and the Petrine anniversary sermons are the classic
+      statement of the Roman see's self-understanding. Runs slightly past
+      ijc's 451 boundary; kept whole as one body per the granularity rule.
+
+  - work: "The Book of Pastoral Rule"
+    author: gregory
+    locus: "div2 3.4 — The Book of Pastoral Rule"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Gregory the Great (d. 604) sits at the very end of era 3, and the
+      census has no entry for the late-sixth-century Roman church itself; the
+      Benedictine/Italian entry (c. 500-604, Italy) is the nearest home and
+      its end date is Gregory's death, but the Pastoral Rule is an episcopal
+      manual, not a monastic one. Its enormous later reception (Carolingian
+      legislation, Alfred's translation) is noted, not asserted as
+      assignments. Mark to rule where Gregory himself lives in the census.
+
+  - work: "Register of the Epistles of St. Gregory the Great (Books I-VIII selection)"
+    author: gregory
+    locus: "div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+      - merovingian-gallic-christianity
+      - anglo-saxon-christianity
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: provisional
+    note: >
+      The administration of the Roman church 590-598: monastic discipline in
+      Italy and Sicily (the Benedictine/Italian entry), letters to Brunichild
+      and the Frankish court (Merovingian entry), Book VI's letters launching
+      the mission of Augustine of Canterbury (founding documents of the
+      Anglo-Saxon entry), and the correspondence with Maurice and John the
+      Faster over the title "ecumenical patriarch" (Justinianic Byzantine
+      entry). Provisional for the same reason as the Pastoral Rule: no era-3
+      Roman entry exists, so the Register is placed with the entries its
+      correspondence founds or documents.

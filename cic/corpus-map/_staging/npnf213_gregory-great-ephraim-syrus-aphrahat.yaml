@@ -1,0 +1,103 @@
+# Worker: npnf210-214 group, 2026-08-26.
+# Skipped as apparatus: title pages, the preface (div2 3.2), the editorial
+# notes on Gregory's life and works (div2 2.2-2.4), John Gwynn's 30,606-word
+# "Introductory Dissertation: Ephraim the Syrian and Aphrahat the Persian
+# Sage" (div2 3.3 - an editor's essay, not a source), and the indexes (div1 4).
+source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+
+assignments:
+  - work: "Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)"
+    author: gregory
+    locus: "div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books I-VIII)"
+    atlas_ids:
+      - early-benedictine-italian-monasticism
+      - merovingian-gallic-christianity
+      - anglo-saxon-christianity
+      - byzantine-imperial-church-justinianic
+    role: tradition
+    confidence: provisional
+    note: >
+      The same Register split across two volumes; this file holds Books
+      IX-XIV (598-604), including Book XI's Responsa to Augustine of
+      Canterbury and the letters to AEthelberht and Bertha - foundational
+      documents of the Anglo-Saxon entry - alongside continued Frankish,
+      Italian-monastic and Constantinopolitan correspondence. Same ids and
+      same doubt as the npnf212 half: no era-3 Roman entry exists for
+      Gregory himself. Distinct work title keeps the two volumes' selections
+      from colliding in the merge while the note records that they are one
+      Register.
+
+  - work: "The Nisibene Hymns"
+    author: ephraim
+    locus: "div2 3.4 — Ephraim Syrus: The Nisibene Hymns"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      Hymns on the sieges of Nisibis, its bishops, and the church of Edessa -
+      the built Syriac world's own ground, by its central poet. Ephraim's
+      Prose Refutations are a standalone volume held by another worker; note
+      the author split across files.
+
+  - work: "Nineteen Hymns on the Nativity of Christ in the Flesh"
+    author: ephraim
+    locus: "div2 3.5 — Hymns on the Nativity"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      Ephraim's Nativity cycle - Syriac symbolic theology at full strength;
+      core tradition material for the built world.
+
+  - work: "Fifteen Hymns for the Feast of the Epiphany"
+    author: ephraim
+    locus: "div2 3.6 — Hymns for the Feast of the Epiphany"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      Epiphany/baptismal hymns; the edition's own notes discuss doubted
+      authenticity for parts of the cycle, but CCEL attributes the section
+      to ephraim and that attribution is followed.
+
+  - work: "The Pearl: Seven Hymns on the Faith"
+    author: ephraim
+    locus: "div2 3.7 — The Pearl"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      Seven hymns from the Hymns on the Faith, on the pearl as image of
+      Christ and the faith.
+
+  - work: "Three Homilies (On Our Lord; On Admonition and Repentance; On the Sinful Woman)"
+    author: ephraim
+    locus: "div2 3.8 — Ephraim Syrus: Three Homilies"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      The volume's selection of Ephraim's metrical homilies, kept as the one
+      body the heading presents.
+
+  - work: "Select Demonstrations of Aphrahat"
+    author: aphrahat
+    locus: "div2 3.9 — Aphrahat: Select Demonstrations"
+    atlas_ids:
+      - syriac-edessa-nisibis
+      - persian-church-of-the-east-early
+    role: tradition
+    confidence: assigned
+    note: >
+      The Persian Sage, writing 337-345 inside the Persian empire under
+      Shapur II - earliest major witness of Syriac Christianity, assigned
+      both to the built Syriac world and to the early Persian Church of the
+      East entry whose ground he writes from. A different selection
+      (Demonstrations 2 and 7, Hallock) is a standalone volume held by
+      another worker; the two files' selections overlap in author but not in
+      staging ownership.

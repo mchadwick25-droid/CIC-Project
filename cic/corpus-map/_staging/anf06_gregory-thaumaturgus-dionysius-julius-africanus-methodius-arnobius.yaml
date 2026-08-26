@@ -1,0 +1,472 @@
+# Worker notes, 2026-08-26.
+#
+# The most fragmentary volume in the corpus: seventeen DC.Creator slugs, many
+# represented only by fragments. Word counts from STRUCTURE.md guided which
+# sections are substantive.
+#
+# JULIUS AFRICANUS ATTRIBUTION CHECKED (per group instruction): this is NOT a
+# CCEL metadata omission. anf06's own header carries
+# <DC.Creator scheme="ccel" sub="Author">juliusafricanus</DC.Creator>, and the
+# div1 "Julius Africanus." is his section. AUTHORS.md lists the div1 as
+# unattributed only because corpus_authors.py's title-to-slug matcher could not
+# map "Julius Africanus." to the unseparated slug "juliusafricanus". The slug
+# is in AUTHORS.md, so it is used directly; no authors_ruled entry is needed.
+#
+# RECURRING SHELF PROBLEMS in this volume, all flagged needs-ruling rather
+# than forced:
+#   - 3rd-c. Pontus (Gregory Thaumaturgus): no census entry; the Cappadocian
+#     entry (c. 360-380s) venerates him as its forerunner and is used as the
+#     shelf.
+#   - 3rd-c. Palestine (Julius Africanus): no census entry; shelved with
+#     alexandria-catechetical on the strength of the Origen connection.
+#   - 3rd-c. Antioch (Malchion / Paul of Samosata): no census entry; the
+#     Antiochene entry is Chrysostom-centered, c. 350-430.
+#   - Pre-Nicene Anatolian asceticism (Methodius): no census entry.
+#
+# Skipped as apparatus: title pages, introductory notices/notes, elucidations,
+# the two editor notes in the Dionysius and Peter sections, general notes, and
+# the indexes.
+
+source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+
+assignments:
+  - work: "The Oration and Panegyric Addressed to Origen"
+    author: gregory_thau
+    locus: "div3 under 3.3 'Acknowledged Writings'"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      A student's firsthand account of Origen's school and teaching method -
+      the best inside evidence of the catechetical tradition's pedagogy that
+      exists (delivered at Caesarea, but the school is Origen's). Pairs with
+      Origen's Letter to Gregory in anf04.
+
+  - work: "The Oration and Panegyric Addressed to Origen"
+    author: gregory_thau
+    locus: "div3 under 3.3 'Acknowledged Writings'"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      Gregory Thaumaturgus is the Cappadocian tradition's venerated
+      forerunner - Basil's family Christianity descends from his Pontic
+      mission, and Gregory of Nyssa wrote his Life. Assigned there as
+      inherited tradition; provisional because he predates the entry's
+      360-380s range by a century.
+
+  - work: "A Declaration of Faith"
+    author: gregory_thau
+    locus: "div3 under 3.3 'Acknowledged Writings'"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      The short trinitarian creed of Neocaesarea, transmitted through Gregory
+      of Nyssa's Life of Gregory and treasured in Basil's family - the most
+      direct textual link between the Thaumaturge and the Cappadocians. No
+      census entry for 3rd-c. Pontus itself.
+
+  - work: "A Metaphrase of the Book of Ecclesiastes"
+    author: gregory_thau
+    locus: "div3 under 3.3 'Acknowledged Writings'"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Paraphrase in the Greek rhetorical manner; nothing ties it to the
+      Cappadocian entry beyond its author. Shelved with his other works for
+      want of a 3rd-c. Pontus entry.
+
+  - work: "Canonical Epistle"
+    author: gregory_thau
+    locus: "div3 under 3.3 'Acknowledged Writings'"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Church discipline for Pontic congregations after the Gothic raids of
+      the 250s - concrete pastoral-canonical practice from the region the
+      Cappadocians inherited. Same missing-entry problem as above.
+
+  - work: "Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith; On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies; On All the Saints; On the Gospel According to Matthew)"
+    author: gregory_thau
+    locus: "div2 3.4 - assigned as one body"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      CCEL's own heading marks the body dubious or spurious; several pieces
+      are much later (the Sectional Confession is widely held an Apollinarian
+      production). Needs a ruling on whether a spurious corpus files under
+      the attributed name at all.
+
+  - work: "Extant Fragments of Dionysius of Alexandria (works and epistles)"
+    author: dionysius_gr
+    locus: "div2 4.3 - two div3 groups: sections of works (On Nature, against Sabellius) and epistles/fragments of epistles"
+    atlas_ids:
+      - alexandria-catechetical
+      - novatianism
+    role: tradition
+    confidence: assigned
+    note: >
+      Dionysius the Great, pupil of Origen and head of the catechetical
+      school before becoming bishop - squarely Alexandrian tradition. The
+      epistle fragments are also a principal contemporary witness to the
+      Novatianist crisis (his letter to Novatian himself is here, with
+      correspondence about the schism and the rebaptism controversy - grep:
+      Novatian x7), and to the Nepos chiliast dispute in the Egyptian
+      countryside.
+
+  - work: "Exegetical Fragments of Dionysius of Alexandria"
+    author: dionysius_gr
+    locus: "div2 4.4 - on Ecclesiastes, Luke, John; Of the One Substance; On the Reception of the Lapsed to Penitence"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Exegetical and doctrinal fragments in the school's manner.
+
+  - work: "The Epistle to Aristides"
+    author: juliusafricanus
+    locus: "div2 5.3"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      On the harmony of the gospel genealogies - pioneering critical
+      scholarship. Africanus (3rd-c. Emmaus/Palestine) has no census home;
+      shelved with alexandria-catechetical only on the strength of his
+      documented scholarly exchange with Origen (the Susanna correspondence,
+      anf04 div2 6.6-6.7).
+
+  - work: "The Extant Fragments of the Five Books of the Chronography of Julius Africanus"
+    author: juliusafricanus
+    locus: "div2 5.5"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      The first Christian universal chronicle, foundation of Eusebius'
+      chronography. Same missing-home problem; same provisional shelf.
+
+  - work: "Narrative of Events Happening in Persia on the Birth of Christ"
+    author: juliusafricanus
+    locus: "div2 5.4"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Printed under Africanus but generally regarded as a later pseudonymous
+      legend; kept under the attributed name pending a ruling, on the same
+      shelf as his section.
+
+  - work: "The Passion of St. Symphorosa and Her Seven Sons"
+    author: juliusafricanus
+    locus: "div2 5.6"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      A Roman martyr act (Hadrianic setting) transmitted under Africanus'
+      name on thin grounds. Shelved with the Roman entry its subject belongs
+      to; both the attribution and the shelf need a ruling.
+
+  - work: "The Paschal Canon of Anatolius of Alexandria, with fragments of the Books on Arithmetic"
+    author: anatolius
+    locus: "div2 6.3 - two div3 pieces, assigned as one body"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: provisional
+    note: >
+      Anatolius, Alexandrian scholar of the Aristotelian school there, later
+      bishop of Laodicea - the Paschal computus and arithmetical fragments
+      are products of Alexandrian Christian scholarship; provisional because
+      his episcopate was Syrian.
+
+  - work: "Fragments of Alexander of Cappadocia"
+    author: alexander_capp
+    locus: "div2 6.4"
+    atlas_ids:
+      - alexandria-catechetical
+      - jerusalem-liturgical-pilgrimage-christianity
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Alexander, bishop of Jerusalem (d. 251), fellow student of Origen and
+      founder of the Jerusalem library; the letter fragments mention Clement
+      and Origen (transmitted via Eusebius). The Jerusalem entry's range
+      (325-450) postdates him by a century; Alexandria fits his formation
+      only. Tiny fragments (~1k words); needs a ruling.
+
+  - work: "Fragments of Theognostus of Alexandria (from the Hypotyposes)"
+    author: theognostus
+    locus: "div2 6.5"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Head of the catechetical school after Dionysius; the Hypotyposes
+      fragments are the school's own teaching, Origenian in cast.
+
+  - work: "Fragments of Pierus of Alexandria"
+    author: pierus
+    locus: "div2 6.6"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Head of the catechetical school, called "Origen the younger" in the
+      tradition; fragments of his teaching.
+
+  - work: "The Epistle of Theonas to Lucianus"
+    author: theonas
+    locus: "div2 6.7"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: provisional
+    note: >
+      Counsel from Theonas, bishop of Alexandria (282-300), to a Christian
+      chief chamberlain at court on serving a pagan emperor faithfully.
+      Authenticity has been questioned (known only through a later Latin
+      transmission) - hence provisional.
+
+  - work: "Fragments of Phileas (Epistle to the People of Thmuis; on the martyrs of Alexandria)"
+    author: phileas
+    locus: "div2 6.8"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: provisional
+    note: >
+      Phileas, bishop of Thmuis, martyred under the Diocletianic persecution;
+      eyewitness material on the Alexandrian martyrs. Egyptian episcopal
+      voice rather than the catechetical school proper - provisional. His
+      imprisonment belongs to the immediate background of the Melitian
+      schism, which has no census entry; noted.
+
+  - work: "Fragments of Pamphilus (exposition on the Acts of the Apostles)"
+    author: pamphilus
+    locus: "div2 6.9"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: provisional
+    note: >
+      Pamphilus of Caesarea, Origen's devoted defender, builder of the
+      Caesarean library, teacher of Eusebius - the chief transmitter of the
+      Origenian scholarly tradition outside Egypt. Provisional because his
+      work is Caesarean, assigned to the entry whose tradition he carried.
+
+  - work: "The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata (with fragments of the disputation)"
+    author: malchion
+    locus: "div2 6.10"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      The synodal letter deposing Paul of Samosata (Antioch, 269) - a
+      collective document drafted by Malchion, head of the Antiochene
+      rhetorical school. The census's only Antioch entry is
+      Chrysostom-centered (c. 350-430), eighty years later; neither Paul's
+      adoptionist Monarchianism nor 3rd-c. Antioch has an entry. Needs a
+      ruling.
+
+  - work: "The Acts of the Disputation with the Heresiarch Manes (with the fragment of the same disputation)"
+    author: archelaus
+    locus: "div2 7.3-7.4 - the Acts and the appended fragment, assigned as one work"
+    atlas_ids:
+      - manichaeism
+    role: tradition
+    confidence: assigned
+    note: >
+      The chief early anti-Manichaean source in the corpus after Augustine:
+      a staged debate between bishop Archelaus and Mani at Carchar in Roman
+      Mesopotamia, preserving extensive statements of Manichaean doctrine
+      (and the Epistle of Mani to Marcellus) in the opponents' transmission.
+      Assigned to the doctrinal-floor entry it argues against; usable by
+      built worlds only as register: etic. Composition is generally placed
+      in the 330s (Hegemonius), and its Mesopotamian provenance is disputed
+      - Archelaus' own tradition has no clean census home (the early Persian
+      church entry is a possibility but the work is likely a Greek literary
+      product), noted rather than assigned.
+
+  - work: "Of the Manichaeans (Alexander of Lycopolis)"
+    author: alexander_lyc
+    locus: "div2 8.3"
+    atlas_ids:
+      - manichaeism
+    role: tradition
+    confidence: provisional
+    note: >
+      Philosophical critique of Manichaean cosmology from Lycopolis, Egypt,
+      c. 300. Role follows the file's own account: ANF's introductory notice
+      presents Alexander as an orthodox bishop of Lycopolis. Modern
+      scholarship generally reads the treatise as the work of a pagan
+      Platonist philosopher, which would make it role: context under the
+      S11a ruling (an outside, non-Christian view of the movement) - the
+      discrepancy is exactly why this is provisional and may need a ruling.
+
+  - work: "The Genuine Acts of Peter of Alexandria"
+    author: peter_alexandria
+    locus: "div2 9.3"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: provisional
+    note: >
+      Martyrdom account ABOUT Peter (d. 311), not by him - a later
+      hagiographical composition transmitted in his section; CCEL files it
+      under peter_alexandria. Kept there with the caveat on record.
+
+  - work: "The Canonical Epistle of Peter of Alexandria"
+    author: peter_alexandria
+    locus: "div2 9.4 - with the commentaries of Balsamon and Zonaras interleaved"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Peter's fourteen penitential canons (306) on receiving the lapsed of
+      the Diocletianic persecution - the Alexandrian counterpart to
+      Cyprian's De Lapsis, and the immediate background of the Melitian
+      schism (no census entry; noted). The printed text interleaves the
+      12th-c. Byzantine canonists' commentaries - later material riding
+      inside the section, worth knowing for extraction.
+
+  - work: "Fragments from the Writings of Peter of Alexandria (On the Godhead, On the Advent, On the Soul, and the Paschal fragments)"
+    author: peter_alexandria
+    locus: "div2 9.6"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Doctrinal fragments of the bishop-martyr who also headed the
+      catechetical school.
+
+  - work: "Epistles on the Arian Heresy and the Deposition of Arius"
+    author: alexander_alexandria
+    locus: "div2 10.3"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Alexander of Alexandria's encyclicals (c. 319-324), the earliest
+      documents of the Arian controversy, quoting Arius' teaching at length
+      - founding evidence about the Arian movement from its first opponent.
+      The homoian entry is read here as the census's general bucket for the
+      Arian movement (its dates 4th-6th c. and quoted 'Arian' title support
+      that reading); noted in case Mark wants Arius-proper distinguished
+      from later Homoianism. Overlaps the Depositio Arii material assigned
+      from npnf204.
+
+  - work: "The Banquet of the Ten Virgins (Symposium; Concerning Chastity)"
+    author: methodius
+    locus: "div2 11.3"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Methodius of Olympus (Lycia, d. c. 311): the major pre-Nicene treatise
+      on virginity, a Christian rewriting of Plato's Symposium, foundational
+      for all later ascetic literature. Pre-Constantinian Anatolian
+      asceticism has no census entry; shelved with the Cappadocian
+      pastoral-monastic entry as the nearest Anatolian ascetic tradition,
+      explicitly as a best guess.
+
+  - work: "Concerning Free-Will (De Autexousio)"
+    author: methodius
+    locus: "div2 11.4"
+    atlas_ids:
+      - valentinian-and-other-gnostic-christianities
+    role: tradition
+    confidence: provisional
+    note: >
+      Dialogue against dualist determinism - the text names Valentinus and
+      Valentinians throughout (grep: x21), so it is assigned to the gnostic
+      doctrinal-floor entry it argues against. Methodius' own home is the
+      same gap flagged on the Banquet.
+
+  - work: "From the Discourse on the Resurrection"
+    author: methodius
+    locus: "div2 11.5"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: provisional
+    note: >
+      The whole point of this work is opposition to Origen: it argues
+      directly against Origen's doctrine of the resurrection body (Origen
+      named x13 in the extract). Assigned to alexandria-catechetical as the
+      entry whose central figure it argues against - a later reader should
+      know this is adversarial witness to the Origenian tradition, not a
+      product of it. Methodius' own missing home flagged as above.
+
+  - work: "Oration Concerning Simeon and Anna"
+    author: methodius
+    locus: "div2 11.8"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Festal oration for the Meeting in the Temple, widely regarded as later
+      than Methodius (the feast's development postdates him). Shelved with
+      his section pending a ruling on the spurious pieces.
+
+  - work: "Oration on the Palms"
+    author: methodius
+    locus: "div2 11.9"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Palm Sunday oration of doubtful authenticity, as the previous row.
+
+  - work: "Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain fragments)"
+    author: methodius
+    locus: "div2 11.6, 11.10-11.12 - assigned as one body"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Fragment collection including anti-Origenist and homiletic material;
+      same shelf and same missing-home flag as the rest of Methodius.
+
+  - work: "The Seven Books of Arnobius Against the Heathen (Adversus Gentes)"
+    author: arnobius
+    locus: "div2 12.3"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Arnobius of Sicca, North African rhetor converted c. 300, teacher of
+      Lactantius. The Latin pastoral entry (Carthage/Hippo, 240s-430) is his
+      region and period, but the work is combative apologetics by a recent
+      convert, not congregational pastoralia - provisional. Note for later
+      use: books 3-7 are one of antiquity's richest repositories of Roman
+      pagan cult detail, strong lived-ecology context value even though the
+      author is Christian.
