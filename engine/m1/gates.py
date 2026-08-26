@@ -46,11 +46,6 @@ COMPLETION_REQUIRED = {
     "canon_question": ["cell", "text", "source", "canon_status", "phrasing_rules_checked"],
     "modern_term": ["display_terms", "origin_year", "modern_sense", "underlying_subject"],
     "fleet_voice": ["register_statements", "pronoun_rule", "citation_contract", "limit_discipline"],
-    # `declinations` may legitimately be an EMPTY list - a world that sources
-    # every vendored volume declines none - so it is not listed here; the
-    # empty-vs-missing distinction is gate_corpus_accounted's job, the same
-    # split gate_glossary_retrofit_complete already makes for false_friend.
-    "corpus_review": [],
 }
 
 

@@ -320,61 +320,6 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "distinguishing_claim": {"type": "string"},
         "native_subject_map": {"type": "object"},
     },
-    # One per world. The world's own account of the shared vendored corpus
-    # (cic/texts/), added 2026-08-26 on Mark's standard: every world should
-    # reach every available resource - they may be RANKED, never ignored.
-    #
-    # Before this, nothing recorded whether a world had considered a volume.
-    # A world's source ecology was whatever its build thread happened to
-    # reach for, and the only way to ask "did alx consider Basil?" was to
-    # infer it backwards from whether alx happened to name him - a proxy that
-    # was measured wrong (a bare substring match put Leo the Great on
-    # Alexandria's list on the strength of "Leonides", Origen's father).
-    # A declination is not a gap. It is the ranking, written down where a
-    # reviewer can disagree with it.
-    "corpus_review": {
-        "declinations": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "file": {"type": "string"},
-                    # `deferred` is the honest fourth option and the reason
-                    # this enum is not just the three exclusion grounds:
-                    # "this is relevant and we have not mined it yet" must be
-                    # sayable, and must not read the same as "not relevant".
-                    "rank": {"enum": [
-                        "out-of-region",
-                        "out-of-window",
-                        "beyond-doctrinal-floor",
-                        "no-relevant-content",
-                        # Mark's ruling 2026-08-26: the Atlas is the bucket
-                        # set, not the six built worlds. Most material this
-                        # fleet does not use is not irrelevant - it belongs to
-                        # an Atlas entry nobody has built yet. Basil and the
-                        # Gregories are `cappadocian-nicene-pastoral-monastic-
-                        # tradition`, which the census already marks Selected -
-                        # Not Yet Built; Chrysostom is the Antiochene entry;
-                        # Augustine the Latin pastoral one. A ruling that says
-                        # WHERE something goes is worth more than one saying it
-                        # is not here, and it means world #7 finds its sources
-                        # already assembled.
-                        "belongs-to-another-atlas-entry",
-                        "deferred",
-                    ]},
-                    # The census movement id this material belongs to, when the
-                    # rank is `belongs-to-another-atlas-entry`. The Atlas and
-                    # the built worlds are ONE taxonomy - every built world is
-                    # itself a census entry - so this creates no second bucket
-                    # system to keep in sync.
-                    "atlas_id": {"type": "string"},
-                    "reason": {"type": "string"},
-                },
-                "required": ["file", "rank", "reason"],
-                "additionalProperties": False,
-            },
-        },
-    },
     # A single fleet-owned record (records/_fleet/fleet_voice/), versioned
     # like the canon - the compiler's source for the M4 Live-Generation
     # Design's one fleet preamble segment (§5.2): the seven register
