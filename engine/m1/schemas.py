@@ -348,8 +348,26 @@ TYPE_PROPERTIES: dict[str, dict] = {
                         "out-of-window",
                         "beyond-doctrinal-floor",
                         "no-relevant-content",
+                        # Mark's ruling 2026-08-26: the Atlas is the bucket
+                        # set, not the six built worlds. Most material this
+                        # fleet does not use is not irrelevant - it belongs to
+                        # an Atlas entry nobody has built yet. Basil and the
+                        # Gregories are `cappadocian-nicene-pastoral-monastic-
+                        # tradition`, which the census already marks Selected -
+                        # Not Yet Built; Chrysostom is the Antiochene entry;
+                        # Augustine the Latin pastoral one. A ruling that says
+                        # WHERE something goes is worth more than one saying it
+                        # is not here, and it means world #7 finds its sources
+                        # already assembled.
+                        "belongs-to-another-atlas-entry",
                         "deferred",
                     ]},
+                    # The census movement id this material belongs to, when the
+                    # rank is `belongs-to-another-atlas-entry`. The Atlas and
+                    # the built worlds are ONE taxonomy - every built world is
+                    # itself a census entry - so this creates no second bucket
+                    # system to keep in sync.
+                    "atlas_id": {"type": "string"},
                     "reason": {"type": "string"},
                 },
                 "required": ["file", "rank", "reason"],

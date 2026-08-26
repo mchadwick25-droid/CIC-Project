@@ -23,6 +23,7 @@ engine/prose.py, where four production modules could stop importing them
 by their private names from a file marked experimental. What is left here
 is only what the file's name has always claimed.
 """
+import json
 import re
 from pathlib import Path
 
@@ -310,6 +311,15 @@ _NOT_ACCOUNTABLE = {"anf10_bibliographic-synopsis-general-index.xml",
                     "webbe_world-english-bible-british-edition.xml"}
 
 
+def _census_ids() -> set[str]:
+    """Every movement id in the Atlas census. Read fresh, never hardcoded -
+    the census is the bucket set and it grows."""
+    path = Path(__file__).resolve().parents[2] / "cic-website" / "data" / "world-census.json"
+    if not path.is_file():
+        return set()
+    return {m["id"] for m in json.loads(path.read_text(encoding="utf-8")).get("movements", [])}
+
+
 def gate_corpus_accounted(records, fleet, registry) -> list[str]:
     """Every vendored volume is either SOURCED by this world or DECLINED by
     it, with a reason. Mark's standard, 2026-08-26: a world may rank a
@@ -357,6 +367,12 @@ def gate_corpus_accounted(records, fleet, registry) -> list[str]:
             findings.append(f"{reviews[0]['id']}: declines {name!r}, which is not a vendored file")
         if not (entry.get("reason") or "").strip():
             findings.append(f"{reviews[0]['id']}: {name!r} declined with an empty reason")
+        if entry.get("rank") == "belongs-to-another-atlas-entry":
+            atlas_id = entry.get("atlas_id")
+            if not atlas_id:
+                findings.append(f"{reviews[0]['id']}: {name!r} says it belongs elsewhere without naming where")
+            elif atlas_id not in _census_ids():
+                findings.append(f"{reviews[0]['id']}: {name!r} names atlas_id {atlas_id!r}, not a census movement")
 
     for name in sorted(vendored - sourced - set(declined)):
         findings.append(f"{name}: neither sourced nor declined by this world")

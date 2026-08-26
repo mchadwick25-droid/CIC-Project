@@ -15,6 +15,50 @@ of them load-bearing.
 
 ---
 
+## 0. The Atlas is the bucket set — Mark's ruling, and it is the right one
+
+*"use the atlas as the buckets as many authors don't have a place to go... the
+atlas should align with our built worlds so we shouldn't have crossover."*
+
+This dissolves a problem the rest of this brief was working around. Six worlds
+cannot home 65 authors: Basil, the Gregories, Chrysostom, Augustine, Ambrose,
+Optatus and Tertullian belong to none of them, and "not in any built world"
+was the only thing the tooling could say about them — which reads as
+irrelevance and is nothing of the kind.
+
+The census already holds their homes, and most are entries the project has
+**already selected**:
+
+| material | Atlas entry | census status |
+|---|---|---|
+| Basil, Gregory Nazianzen, Gregory of Nyssa | `cappadocian-nicene-pastoral-monastic-tradition` | Selected — Not Yet Built |
+| Chrysostom (6 volumes) | `antiochene-exegetical-christianity-chrysostom-…` | Possible Future World |
+| Augustine (8 volumes) | `latin-pastoral-congregational-christianity` | Selected — Not Yet Built |
+| Augustine anti-Donatist, Optatus | `donatism` | Selected — Not Yet Built |
+| Augustine anti-Pelagian | `pelagianism` | Possible Future World |
+| Ambrose | `ambrosian-milan-standalone` | Possible Future World |
+| Tertullian | `tertullian-s-voice` | Possible Future World |
+| Cyril of Jerusalem | `jerusalem-liturgical-pilgrimage-christianity` | Possible Future World |
+
+**No second taxonomy is created.** Every built world *is* a census movement —
+`desert-monasticism`, `alexandria-catechetical` and the rest are rows in the
+same 274-entry table. Assigning to the Atlas assigns to the built worlds too,
+which is what "should align... so we shouldn't have crossover" means: one
+bucket system, not two kept in sync.
+
+It also changes what F-25 in the audit *means*. Basil going unread by six
+worlds is not a gap in those worlds — it is material correctly waiting for
+`cappadocian`, and every hour spent placing it now is an hour world #7 does
+not spend hunting for its own sources.
+
+`corpus_review` has been extended accordingly: rank
+`belongs-to-another-atlas-entry` plus an `atlas_id`, and
+`gate_corpus_accounted` verifies the id is a real census movement. A ruling
+that says **where material goes** is worth more than one saying it is not
+here.
+
+---
+
 ## 1. Split by author section, not by volume — it is mechanically clean
 
 The tangle is inside the volumes, not between them. `anf02` alone holds five
@@ -54,9 +98,14 @@ So the unit is **author × work**, not author:
 - Jerome, *Letter 22* → `desert` (its ascetic sections) and `hal`
 - Origen, *Philocalia* → `alx`; Origen as read by later readers → elsewhere
 
-A work may belong to several worlds. Nothing here should be exclusive by
-default, and any partition that produces one-world-per-author should be
-treated as a bug report about the partition, not a finding about the corpus.
+A work may belong to several worlds — Mark: *"some people may influence more
+than one world and that's ok."* Nothing here should be exclusive by default,
+and any partition that produces one-world-per-author should be treated as a
+bug report about the partition, not a finding about the corpus.
+
+Note this is not in tension with "no crossover". The thing that must not
+cross over is the TAXONOMY: one bucket system (the Atlas), not two. A single
+author×work mapping to several Atlas entries is expected and correct.
 
 ---
 
