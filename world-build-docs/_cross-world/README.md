@@ -20,6 +20,7 @@ has its own set of documents.
 
 | file | what it is |
 |---|---|
+| `CASE-gallic-monasticism.md` | The one Atlas gap that survived scrutiny: late-Roman Gallic monasticism, c. 360–450, absent from an era whose survey is complete and frozen. States the case and the arguments against it. Hand-written, not generated. |
 | `NEEDS-RULING.md` | **87 works the assignment would not decide on its own**, grouped so one ruling clears five or seven at a time. Generated. Start here if you are ruling rather than reading. |
 | `BRIEF-corpus-assignment-thread.md` | **The live brief.** The whole assignment job, every ruling settled, for the separate thread that does it. Start here. |
 | `CORPUS-USE.md` | What each world actually draws on, and each world's verifiability share (`pahc 99% · alx 96% · hal 93% · ijc 91% · syr 87% · desert 76%`). Generated. |
