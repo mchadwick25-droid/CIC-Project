@@ -1,0 +1,89 @@
+# The file holds Optatus' seven books AND the documentary appendix
+# (Appendices I-XVI): the ancient anti-Donatist dossier of official acts and
+# imperial letters transmitted with his work. The dossier is not Optatus'
+# composition and is assigned separately below. The translator's omitted
+# "hundred noteworthy sayings" (pp. 311-320, noted in-file as omitted) and
+# Vassall-Phillips' 1917 introductions are apparatus.
+source_file: optatus_against-the-donatists.txt
+
+authors_ruled:
+  anti-donatist-dossier:
+    kind: anonymous
+    evidence: >
+      The volume's DC.Creator names only `optatus`, but Appendices I-XVI are
+      official documents naming their own origins in their headings: "ACTA
+      PURGATIONIS FELICIS EPISCOPI AUTUMNITANI", "GESTA APUD ZENOPHILUM",
+      "CONSTANTINUS AUGUSTUS AELAFIO", "EPISTOLA CONCILII ARELATENSIS AD
+      SILVESTRUM PAPAM, A.D. 314", "ACTA CONCILII CIRTENSIS. A.D. 305",
+      "RELATIO ANULINI PROCONSULIS AD IMPERATOREM. A.D. 313", several
+      further epistolae Constantini. A collective work-entity per brief
+      6.4, not an author.
+
+assignments:
+  - work: "Against the Donatists (De Schismate Donatistarum, Books I-VII)"
+    author: optatus
+    locus: >
+      headings "BOOK THE FIRST" through "BOOK THE SEVENTH", incl. "APPENDIX
+      TO BOOK III" (chapters vi-vii of Book VII, relocated by the editor as
+      belonging to Book III)
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Optatus, Bishop of Milevis, "the African" per the file's title page -
+      the North African Catholic voice answering Parmenian, c. 366-393.
+      Tradition for the Catholic side of the schism; this entry (Carthage /
+      Hippo Regius, c. 240s-430) is the census's home for that tradition.
+      Provisional only because the entry choice is inferred from region and
+      date - Mark may prefer another Latin home for a Numidian polemicist.
+
+  - work: "Against the Donatists (De Schismate Donatistarum, Books I-VII)"
+    author: optatus
+    locus: "as above"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      The primary anti-Donatist source outside Augustine, and the fullest
+      surviving account of the schism's origins. Context for the donatism
+      entry: Optatus describes the Donatists rather than speaking as one -
+      "my brother Parmenian" notwithstanding, this is the view from the
+      other side, usable for Donatism only etically. Assigned twice with
+      different roles, deliberately (worker brief invited exactly this).
+
+  - work: "Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)"
+    author: anti-donatist-dossier
+    locus: >
+      headings "APPENDIX I." through "APPENDIX XVI.": Acta Purgationis
+      Felicis (314), Gesta apud Zenophilum (320), Constantine's letters,
+      the Council of Arles' letter to Pope Silvester (314), Acts of the
+      Council of Cirta (305), Anulinus' relatio (313)
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      The contemporary legal-documentary record of the schism: court acts,
+      council acts, and imperial correspondence, 305-c. 330, transmitted
+      with Optatus and cited by him ("in the Appendix to these books I have
+      subjoined... these documents"). Assigned as one documentary body per
+      the granularity rule. Context, not tradition: officials and emperors
+      describing and adjudicating the parties, not either side's own voice.
+
+  - work: "Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)"
+    author: anti-donatist-dossier
+    locus: "as above"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Constantine's letters on the Donatist case, a proconsular relatio, and
+      imperially ordered church trials are primary documents of imperial
+      and juridical Christianity itself - here the empire acting on the
+      church is the entry's own subject matter, so tradition rather than
+      context. Provisional because whether official acta count as ijc's
+      "own voice" is a judgment Mark may want to make; if not, flip to
+      context.

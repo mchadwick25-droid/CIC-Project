@@ -1,0 +1,254 @@
+source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+
+# NOTE FOR REVIEW: Jerome appears in this volume (Lives of Illustrious Men,
+# div2 4.3; Apology Against Rufinus, div2 5.12) AND fills npnf206, which is
+# another worker's volume. Only what is physically in npnf203 is assigned here.
+authors_ruled:
+  theodoret:
+    kind: metadata-omission
+    evidence: >
+      div1 3 title "The Ecclesiastical History, Dialogues, and Letters of
+      Theodoret."; npnf203 DC.Creator itself lists theodoret. The omission is
+      only the automated div1-to-creator binding (AUTHORS.md lists this div1 as
+      unattributed because the truncated title did not match a slug); the
+      file's own title and metadata both carry the name.
+  anastasius_rome:
+    kind: metadata-omission
+    evidence: >
+      div2 5.10 title "The Letter of Anastasius, Bishop of the Church of Rome
+      to John Bishop of Jerusalem Concerning the Character of Rufinus."; npnf203
+      DC.Creator lists gennadius, jerome, rufinus, theodoret and no Anastasius.
+
+assignments:
+  # ---- Theodoret (div1 3) — three distinct works plus one document pair ----
+  - work: "The Ecclesiastical History of Theodoret"
+    author: theodoret
+    locus: "div2 3.8 — The Ecclesiastical History of Theodoret (323-428)"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: provisional
+    note: >
+      Theodoret of Cyrrhus is the heir and last major voice of the Antiochene
+      school; the census entry is 'Chrysostom-centered' and dated c. 350-430,
+      and Theodoret (d. c. 457, History written c. 449) sits at its edge.
+      Provisional for exactly that fit question - no better own-entry exists
+      for him in the census.
+
+  - work: "The Ecclesiastical History of Theodoret"
+    author: theodoret
+    locus: "div2 3.8 — esp. Books I-II (Arian controversy), V (Ambrose and Theodosius)"
+    atlas_ids:
+      - homoian-arian-christianity
+      - imperial-juridical-christianity
+    role: context
+    confidence: assigned
+    note: >
+      Same work, context row. The History's arc is the Arian controversy from
+      Nicaea to its defeat, preserving documents of the Arian/homoian side
+      described from outside. Book V carries the Ambrose-Theodosius penance
+      narrative and numerous imperial letters and edicts - evidence for ijc
+      from an eastern observer. His Syriac notices (Jacob of Nisibis, Ephraim)
+      were considered and not assigned: they are brief, and his real
+      Syrian-monk source (Historia Religiosa) is not in this volume.
+
+  - work: "Dialogues (Eranistes)"
+    author: theodoret
+    locus: "div2 3.9 — The 'Eranistes' or 'Polymorphus'"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+    note: >
+      The mature statement of Antiochene two-nature Christology in dialogue
+      form (c. 447), with its florilegia of patristic proof-texts.
+
+  - work: "Dialogues (Eranistes)"
+    author: theodoret
+    locus: "div2 3.9"
+    atlas_ids:
+      - cyrilline-miaphysite-egyptian-tradition
+    role: context
+    confidence: provisional
+    note: >
+      Same work, context row: the Eranistes argues against the one-nature
+      theology whose tradition that census entry names, so it is material
+      about that entry from outside, per the doctrinal-floor pattern.
+      Provisional because its immediate target is Eutychianism before 451,
+      not Cyril's own teaching, and because two Cyrilline entries exist
+      (era-2 'tradition', era-3 'christianity'); the era-2 entry was chosen
+      as the one covering the controversy's own years.
+
+  - work: "The Anathemas of Cyril with the Counter-statements of Theodoret"
+    author: theodoret
+    locus: "div2 3.6-3.7 — The Anathemas of Cyril in Opposition to Nestorius; Counter-statements of Theodoret"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+      - cyrilline-miaphysite-egyptian-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      A paired document from the Nestorian controversy (430-431): Cyril's
+      Twelve Anathemas quoted in full with Theodoret's replies. Tradition for
+      both sides at once - the counter-statements are Antiochene, the embedded
+      anathemas are the Cyrilline tradition's own words. Provisional because
+      Cyril is not a slug anywhere in the corpus and the pairing is the
+      editor's arrangement; filed under theodoret, whose counter-statements
+      frame the text as printed.
+
+  - work: "Letters of the Blessed Theodoret"
+    author: theodoret
+    locus: "div2 3.10 — Letters of the Blessed Theodoret, Bishop of Cyprus [sic; Cyrus]"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+    note: >
+      The correspondence (181 letters here) of the last Antiochene: pastoral
+      administration, the Eutychian controversy, appeals to Leo and to court
+      officials. Also dense incidental evidence for imperial-church politics
+      of the 440s; ijc may claim it at review, not asserted here.
+
+  # ---- Jerome and Gennadius (div1 4) ----
+  - work: "Lives of Illustrious Men (De Viris Illustribus)"
+    author: jerome
+    locus: "div2 4.3 — Jerome. Lives of Illustrious Men."
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: tradition
+    confidence: assigned
+    note: >
+      Jerome's catalogue of 135 Christian authors (392, Bethlehem) - the
+      charter of his literary self-positioning, ending with himself. Belongs
+      to the built hal world. The rest of Jerome is in npnf206 (another
+      worker's volume); only this and the Apology Against Rufinus below are
+      in npnf203.
+
+  - work: "Gennadius, Lives of Illustrious Men (continuation)"
+    author: gennadius
+    locus: "div2 4.4 — Gennadius. Lives of Illustrious Men."
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: context
+    confidence: needs-ruling
+    note: >
+      Gennadius of Marseilles (late 5th c.) continuing Jerome's catalogue.
+      The doubt: he has no census home - merovingian-gallic-christianity
+      (c. 480-620) starts as he ends, and no fifth-century Gallic entry
+      exists. Parked as context for hal solely as the direct continuation of
+      Jerome's literary project; Mark should rule whether it belongs there,
+      in the Gallic entry, or nowhere.
+
+  # ---- The Rufinus corpus (div1 5) ----
+  - work: "Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione Librorum Origenis)"
+    author: rufinus
+    locus: "div2 5.5-5.6"
+    atlas_ids:
+      - alexandria-catechetical
+      - hieronymian-ascetic-literary
+    role: context
+    confidence: provisional
+    note: >
+      Pamphilus' defence of Origen's orthodoxy in Rufinus' Latin (397), with
+      Rufinus' own treatise on the corruption of Origen's works. Context for
+      alexandria (a defence of its greatest teacher from outside the school)
+      and for hal (this translation ignited the Jerome-Rufinus war that
+      dominates the hal world's later years). Provisional on authorship: the
+      underlying work is Pamphilus' (a slug exists via anf06), but npnf203's
+      own metadata credits rufinus, whose corpus this section is.
+
+  - work: "Rufinus' Apology in Defence of Himself (Apologia ad Anastasium)"
+    author: rufinus
+    locus: "div2 5.9"
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: tradition
+    confidence: provisional
+    note: >
+      Rufinus' short self-defence to Anastasius of Rome (400). Provisional on
+      role: Rufinus was a member of the same Roman ascetic-literary circle
+      the hal world is built on (Melania's circle, Jerome's former friend),
+      so tradition is arguable; if Mark reads hal strictly as Jerome's own
+      voice, this becomes context.
+
+  - work: "Letter of Anastasius to John of Jerusalem concerning Rufinus"
+    author: anastasius_rome
+    locus: "div2 5.10"
+    atlas_ids:
+      - hieronymian-ascetic-literary
+      - alexandria-catechetical
+    role: context
+    confidence: provisional
+    note: >
+      Rome's judgment in the Origenist controversy (401): a papal letter
+      surrounding the Jerome-Rufinus quarrel and condemning Origen's
+      translated teaching. Context for both entries the controversy touches.
+      Author ruled above from the section's own title.
+
+  - work: "The Apology of Rufinus (Against Jerome, to Apronianus)"
+    author: rufinus
+    locus: "div2 5.11 — two books"
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: tradition
+    confidence: provisional
+    note: >
+      Rufinus' full-length answer to Jerome (401) - first-rank primary
+      evidence for the hal world's central quarrel, from its other
+      participant. Same role doubt as his Apology to Anastasius: tradition if
+      hal includes its own antagonist-insiders, context if it is strictly
+      Hieronymian. Also plainly evidence about the Latin fight over Origen's
+      legacy; see the context row on Jerome's Apology below, which covers the
+      same ground for alexandria.
+
+  - work: "Jerome's Apology for Himself Against the Books of Rufinus"
+    author: jerome
+    locus: "div2 5.12 — three books"
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: tradition
+    confidence: assigned
+    note: >
+      Jerome's counter-apology (401-402), among the most personally revealing
+      of his works. Core hal material; the rest of Jerome is in npnf206.
+
+  - work: "Jerome's Apology for Himself Against the Books of Rufinus"
+    author: jerome
+    locus: "div2 5.12"
+    atlas_ids:
+      - alexandria-catechetical
+    role: context
+    confidence: assigned
+    note: >
+      Same work, context row: with Rufinus' Apology it is the fullest
+      documentation of how Origen's legacy was fought over in the Latin West
+      - evidence about the Alexandrian tradition's reception, from outside it.
+
+  - work: "A Commentary on the Apostles' Creed (Rufinus)"
+    author: rufinus
+    locus: "div2 5.13"
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Rufinus' catechetical exposition of the baptismal creed of Aquileia
+      (c. 404) - a doctrinal classic with no obvious census home: there is no
+      entry for North Italian / Aquileian Christianity. Parked with hal only
+      because Rufinus belongs to that circle; the content has nothing to do
+      with the Jerome quarrel, so Mark should rule where a work like this
+      lives.
+
+  - work: "Rufinus' Translation Prefaces and Perorations (Recognitions of Clement; Origen on Psalms 36-38; Origen on Romans)"
+    author: rufinus
+    locus: "div2 5.14, 5.17-5.19 (the prefaces STRUCTURE.md marks as apparatus are skipped)"
+    atlas_ids:
+      - alexandria-catechetical
+    role: context
+    confidence: provisional
+    note: >
+      Grouped as one small body: Rufinus' own prefaces to his translations,
+      documenting how and why Origen and the Clementine literature were
+      carried into Latin. Context for alexandria as transmission evidence.
+      Provisional because these are paratexts; a reviewer may prefer to drop
+      them as sub-work-level.

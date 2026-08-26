@@ -1,0 +1,382 @@
+source_file: anf03_tertullian.xml
+
+# anf03's three div1 headings - Apologetic., Anti-Marcion., Ethical. - are the
+# editors' thematic parts, not works. The works are the div2 level below them,
+# and that is what is assigned here. DC.Creator names tertullian; the two
+# rulings below cover the appendix pieces the volume itself does not give him.
+authors_ruled:
+  pseudo_tertullian:
+    kind: pseudonymous
+    evidence: >
+      div2 5.11 "Appendix: Against All Heresies." The volume's own editorial
+      note at its head calls it "this spurious treatise" and regrets not
+      "relegating it to the collection of spurious Tertulliana" - the file
+      itself withholds it from Tertullian.
+  passion_of_perpetua:
+    kind: anonymous
+    evidence: >
+      div2 6.6 "The Passion of the Holy Martyrs Perpetua and Felicitas",
+      printed as an Appendix. The volume's introductory notice: "I think
+      Tertullian was the editor of the story, not its author." The core is
+      Perpetua's own first-person prison account inside an unnamed editor's
+      frame; treated as a work-entity per brief §6.4.
+
+assignments:
+  # ---- Apologetic. (div1 4) ----
+  - work: "Apology (Apologeticus)"
+    author: tertullian
+    locus: "div2 4.3 under div1 'Apologetic.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Carthage, 197 - the opening date of the tertullian-s-voice entry.
+
+  - work: "Apology (Apologeticus)"
+    author: tertullian
+    locus: "div2 4.3 under div1 'Apologetic.'"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: provisional
+    note: >
+      pahc already cites this work (pahc.source.tertullian-apologeticus) as an
+      out-of-window, out-of-region witness with a stated use discipline.
+      Provisional: the assignment records that existing use; Mark may prefer
+      pahc to reach it through tertullian-s-voice instead.
+
+  - work: "On Idolatry"
+    author: tertullian
+    locus: "div2 4.4 under div1 'Apologetic.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Practical treatise on Christians amid pagan civic life, Carthage.
+
+  - work: "The Shows (De Spectaculis)"
+    author: tertullian
+    locus: "div2 4.5 under div1 'Apologetic.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Companion piece to On Idolatry on the games and theatre.
+
+  - work: "The Chaplet (De Corona)"
+    author: tertullian
+    locus: "div2 4.6 under div1 'Apologetic.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      On the soldier's crown and military service; within the entry's window.
+
+  - work: "To Scapula"
+    author: tertullian
+    locus: "div2 4.7 under div1 'Apologetic.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Open letter to the proconsul of Africa, 212.
+
+  - work: "Ad Nationes"
+    author: tertullian
+    locus: "div2 4.8 under div1 'Apologetic.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Earlier draft-sibling of the Apology, addressed to the pagan nations.
+
+  - work: "An Answer to the Jews"
+    author: tertullian
+    locus: "div2 4.9 under div1 'Apologetic.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Adversus Judaeos literature aimed at Jews, not Jewish Christians - so no
+      ebionite-nazoraean-current assignment is made.
+
+  - work: "The Soul's Testimony"
+    author: tertullian
+    locus: "div2 4.10 under div1 'Apologetic.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Short apologetic argument from the soul's spontaneous speech.
+
+  - work: "A Treatise on the Soul (De Anima)"
+    author: tertullian
+    locus: "div2 4.11 under div1 'Apologetic.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      His longest philosophical work, against the philosophers and gnostic
+      psychologies.
+
+  # ---- Anti-Marcion. (div1 5) ----
+  - work: "The Prescription Against Heretics"
+    author: tertullian
+    locus: "div2 5.3 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      The rule-of-faith argument against heresy as such. Its heresiological
+      face is carried by a separate context entry (§6.1).
+
+  - work: "The Prescription Against Heretics"
+    author: tertullian
+    locus: "div2 5.3 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - valentinian-and-other-gnostic-christianities
+      - marcion-marcionism
+    role: context
+    confidence: provisional
+    note: >
+      Names Marcion, Apelles, Valentinus and Hermogenes as its targets (ch.
+      30 and passim). Context: description and refutation from outside, only
+      ever drawable as register: etic. Provisional because it describes the
+      heresies far more thinly than Against Marcion or Against the
+      Valentinians do - a reviewer may judge it adds little to those buckets.
+
+  - work: "The Five Books Against Marcion"
+    author: tertullian
+    locus: "div2 5.4 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      His largest surviving work, 187k words here. The anti-Marcionite face is
+      a separate context entry; assignment is not exclusive (§6.1).
+
+  - work: "The Five Books Against Marcion"
+    author: tertullian
+    locus: "div2 5.4 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - marcion-marcionism
+    role: context
+    confidence: assigned
+    note: >
+      The corpus's principal heresiological witness to Marcion, alongside
+      Irenaeus AH - most of what is recoverable of Marcion's Antitheses and
+      his edited canon is recoverable from these five books. role: context
+      per brief §4: a built world draws this only as register: etic.
+
+  - work: "The Five Books Against Marcion"
+    author: tertullian
+    locus: "div2 5.4 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: provisional
+    note: >
+      pahc already cites this work (pahc.source.tertullian-adversus-marcionem)
+      as an out-of-window witness to Marcion, who taught in Rome inside pahc's
+      window. Provisional for the same reason as the Apology's pahc entry.
+
+  - work: "Against Hermogenes"
+    author: tertullian
+    locus: "div2 5.5 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Against Hermogenes' doctrine of eternal matter. Hermogenes was a
+      Carthaginian painter-philosopher, not a Valentinian or Marcionite, so no
+      doctrinal-floor entry fits; the census has no bucket for him.
+
+  - work: "Against the Valentinians"
+    author: tertullian
+    locus: "div2 5.6 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Satirical exposure of the Valentinian system, largely following
+      Irenaeus. Context face below.
+
+  - work: "Against the Valentinians"
+    author: tertullian
+    locus: "div2 5.6 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - valentinian-and-other-gnostic-christianities
+    role: context
+    confidence: assigned
+    note: >
+      A whole treatise describing the Valentinian system from outside -
+      exactly the heresiological material brief §4 sends to this entry, etic
+      only.
+
+  - work: "On the Flesh of Christ"
+    author: tertullian
+    locus: "div2 5.7 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Defense of Christ's real flesh against docetic readings.
+
+  - work: "On the Flesh of Christ"
+    author: tertullian
+    locus: "div2 5.7 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - marcion-marcionism
+      - valentinian-and-other-gnostic-christianities
+    role: context
+    confidence: provisional
+    note: >
+      Argues explicitly against Marcion, Apelles and Valentinus on the flesh
+      of Christ; preserves their positions in refuting them. Provisional
+      because the description is subordinate to Tertullian's own constructive
+      argument, unlike Against Marcion.
+
+  - work: "On the Resurrection of the Flesh"
+    author: tertullian
+    locus: "div2 5.8 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Companion to On the Flesh of Christ against gnostic denial of bodily
+      resurrection; kept to the author's entry since its heresiological
+      description is diffuse.
+
+  - work: "Against Praxeas"
+    author: tertullian
+    locus: "div2 5.9 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      The trinitarian treatise against Praxeas' monarchianism. The census has
+      no entry for monarchianism/patripassianism, so that face has no bucket.
+
+  - work: "Against Praxeas"
+    author: tertullian
+    locus: "div2 5.9 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - montanism-the-new-prophecy
+    role: tradition
+    confidence: provisional
+    note: >
+      Written in Tertullian's New Prophecy period and framed by Praxeas'
+      double service - "he drove away prophecy... he crucified the Father"
+      (16 prophecy/Paraclete hits in this div2). Here he speaks as an
+      adherent, so role is tradition rather than context; provisional because
+      how much of Tertullian montanism-the-new-prophecy should own is a
+      ruling for Mark, not a parsing fact.
+
+  - work: "Scorpiace"
+    author: tertullian
+    locus: "div2 5.10 under div1 'Anti-Marcion.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      "Antidote for the scorpion's sting" - against gnostic evasion of
+      martyrdom.
+
+  - work: "Against All Heresies (spurious appendix)"
+    author: pseudo_tertullian
+    locus: "div2 5.11 under div1 'Anti-Marcion.' (marked apparatus in STRUCTURE.md)"
+    atlas_ids:
+      - valentinian-and-other-gnostic-christianities
+      - marcion-marcionism
+    role: context
+    confidence: needs-ruling
+    note: >
+      An ancient heresy catalogue, not 19th-century editorial matter, though
+      STRUCTURE.md's apparatus marker caught it via its "Appendix" title -
+      flagged rather than silently skipped. The volume's own editor calls it
+      spurious (see ruling above). Needs a ruling on both counts: whether a
+      pseudo-Tertullianic catalogue is wanted at all, and where; its notices
+      cover many more movements than these two entries.
+
+  # ---- Ethical. (div1 6) ----
+  - work: "On Repentance"
+    author: tertullian
+    locus: "div2 6.2 under div1 'Ethical.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Pre-Montanist treatise on penitence and the second repentance.
+
+  - work: "On Baptism"
+    author: tertullian
+    locus: "div2 6.3 under div1 'Ethical.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      The earliest surviving treatise devoted to baptism.
+
+  - work: "On Prayer"
+    author: tertullian
+    locus: "div2 6.4 under div1 'Ethical.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Exposition of the Lord's Prayer and prayer practice.
+
+  - work: "Ad Martyras"
+    author: tertullian
+    locus: "div2 6.5 under div1 'Ethical.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Exhortation to imprisoned confessors, Carthage, c. 197.
+
+  - work: "The Passion of the Holy Martyrs Perpetua and Felicitas"
+    author: passion_of_perpetua
+    locus: "div2 6.6 under div1 'Ethical.' (printed as an Appendix)"
+    atlas_ids:
+      - tertullian-s-voice
+      - montanism-the-new-prophecy
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Carthage, 203 - inside tertullian-s-voice's window and city, transmitted
+      with his corpus, and the volume's editor thinks him its editor but not
+      author. Its New Prophecy affinities are long argued. Best guesses only:
+      a first-person martyr diary by a woman is precious enough that where it
+      lives should be Mark's call, not a worker's.
+
+  - work: "On Patience"
+    author: tertullian
+    locus: "div2 6.7 under div1 'Ethical.'"
+    atlas_ids:
+      - tertullian-s-voice
+    role: tradition
+    confidence: assigned
+    note: >
+      Moral treatise; closes the Ethical part.
