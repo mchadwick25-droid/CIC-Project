@@ -45,7 +45,7 @@ import texts_registry  # noqa: E402
 # The corpus-scope tables live with the standing check that also reads them
 # (engine/m1/cross_world.py). A second copy here is exactly how this report
 # would come to disagree with the check it exists to illustrate.
-from engine.m1.cross_world import BY_DESIGN, COVERAGE, corpus_key as key_for  # noqa: E402
+from engine.m1.cross_world import BY_DESIGN, COVERAGE, corpus_key as key_for, corpus_tier  # noqa: E402
 from engine.m1.cross_world import observe_second_hand_sources  # noqa: E402
 
 TEXTS_DIR = ROOT / "cic" / "texts"
@@ -254,50 +254,66 @@ def main() -> None:
         "Coverage ranges below are a **first pass asserted for correction**, not derived — "
         "a volume's dates cannot be read off the file mechanically. Argue with them.\n"
     )
-    out.append("| world | window | in-scope volumes | already sourced | **to review** |")
-    out.append("|---|---|---|---|---|")
+    import yaml
+    reg = yaml.safe_load((ROOT / "records" / "worlds.yaml").read_text())["worlds"]
+    # tier 1 comes from the standing check itself, so this report and
+    # `python -m engine.m1.cross_world` can never disagree about it.
     second_hand_by_world = {
         f.scope: re.findall(r"[\w.-]+\.(?:xml|txt)", f.message)
         for f in observe_second_hand_sources(records=records, worlds=W)
     }
-    worklist = {}
+    out.append(
+        "Geography was added on Mark's ruling and **ranks rather than excludes** — the "
+        "standard is that a resource may be ranked low and never dropped. Tier 1 is the one "
+        "derived signal here; tiers 2-4 rest on the asserted COVERAGE and REGIONS tables in "
+        "`engine/m1/cross_world.py`, which are a first pass for correction.\n"
+    )
+    out.append("| tier | what it means |")
+    out.append("|---|---|")
+    out.append("| **1 — named, never opened** | this world's records already name the author and have never opened their works. Derived, not asserted. |")
+    out.append("| **2 — same time and place** | coverage overlaps the window *and* the region (or the volume is ecumenical). |")
+    out.append("| **3 — same time, different region** | in the window, outside the world's own geography. Rank low; do not drop. |")
+    out.append("| **4 — outside this window** | no time overlap. Lowest rank. |")
+    out.append("")
+
+    tiers = ("1 - named, never opened", "2 - same time and place",
+             "3 - same time, different region", "4 - outside this window", "4 - unclassified")
+    per_world = {}
     for w in W:
         win = reg[w]["time_window"]
-        in_scope, sourced = [], []
+        named = set(second_hand_by_world.get(w, []))
+        buckets = defaultdict(list)
         for filename in files:
-            k = key_for(filename)
-            if k in BY_DESIGN or k not in COVERAGE:
+            if key_for(filename) in BY_DESIGN or counts.get(filename, {}).get(w):
                 continue
-            lo, hi = COVERAGE[k]
-            if hi < win["start"] or lo > win["end"]:
-                continue
-            in_scope.append(filename)
-            (sourced if counts.get(filename, {}).get(w) else worklist.setdefault(w, [])).append(filename)
-        worklist.setdefault(w, [])
-        out.append(f"| `{w}` | {win['start']}–{win['end']} | {len(in_scope)} | {len(in_scope) - len(worklist[w])} | **{len(worklist[w])}** |")
+            buckets[corpus_tier(filename, w, win, named=filename in named)].append(filename)
+        per_world[w] = buckets
+
+    out.append("| world | window | sourced | tier 1 | tier 2 | tier 3 | tier 4 |")
+    out.append("|---|---|---|---|---|---|---|")
     for w in W:
-        if not worklist[w]:
-            continue
-        out.append(f"\n### `{w}` — {len(worklist[w])} in-scope volume(s) with no source record\n")
-        # The named/never-opened list comes from the standing check itself, so
-        # this report and `python -m engine.m1.cross_world` can never disagree
-        # about it. Deliberately NOT date-filtered: a world that names Origen
-        # has admitted he is relevant to it, whatever its own window says.
-        named = sorted(second_hand_by_world.get(w, []))
-        unnamed = [f for f in worklist[w] if f not in named]
-        if named:
-            out.append("**Already named in this world's records, never opened** — reached second-hand:\n")
-            for filename in named:
+        b = per_world[w]
+        sourced = sum(1 for f in files if counts.get(f, {}).get(w))
+        t4 = len(b.get("4 - outside this window", [])) + len(b.get("4 - unclassified", []))
+        out.append(f"| `{w}` | {reg[w]['time_window']['start']}–{reg[w]['time_window']['end']} | {sourced} | "
+                   f"**{len(b.get(tiers[0], []))}** | {len(b.get(tiers[1], []))} | {len(b.get(tiers[2], []))} | {t4} |")
+
+    for w in W:
+        b = per_world[w]
+        out.append(f"\n### `{w}`\n")
+        for tier in tiers[:3]:
+            rows = b.get(tier)
+            if not rows:
+                continue
+            out.append(f"**Tier {tier}** — {len(rows)}\n")
+            for filename in sorted(rows):
                 lo, hi = COVERAGE.get(key_for(filename), (None, None))
-                win = reg[w]["time_window"]
-                flag = "" if lo is None or not (hi < win["start"] or lo > win["end"]) else " · *outside this window*"
-                out.append(f"- `{filename}` ({lo}–{hi}) — {subject_for(filename)}{flag}")
+                span = f"({lo}–{hi}) " if lo else ""
+                out.append(f"- `{filename}` {span}— {subject_for(filename)}")
             out.append("")
-        if unnamed:
-            out.append(f"Date-overlap candidates with no figure already named — {len(unnamed)}, a human ruling each:\n")
-            out.append("  " + ", ".join(f"`{f}`" for f in unnamed))
-            out.append("")
-    out.append("")
+        rest = sorted(b.get(tiers[3], []) + b.get(tiers[4], []))
+        if rest:
+            out.append(f"Tier 4 — {len(rest)}: " + ", ".join(f"`{key_for(f)}`" for f in rest) + "\n")
 
     target = Path(__file__).resolve().parent / "CORPUS-USE.md"
     target.write_text("\n".join(out) + "\n")

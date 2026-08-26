@@ -93,6 +93,83 @@ COVERAGE = {
 }
 BY_DESIGN = {"webbe", "anf10"}
 
+# Geography, added on Mark's ruling 2026-08-26 ("if geography is a defining
+# element of the christian tradition, then yes add it"). It is - and it does
+# work dates cannot: `pahc` is Greek-speaking Antioch and Asia Minor while
+# `syr` is Syriac-speaking Mesopotamia, two different worlds that overlap
+# almost entirely in time. Tags are FIRST-PASS, asserted for correction like
+# COVERAGE, and they RANK rather than exclude: Mark's standard is that a
+# resource may be ranked low and never ignored, so a region mismatch demotes
+# a volume in the worklist and never removes it.
+REGIONS = {
+    "addai": {"syriac-mesopotamia"},
+    "anf01": {"rome", "syria", "asia-minor", "gaul"},
+    "anf02": {"rome", "syria", "greece", "egypt"},
+    "anf03": {"north-africa"},
+    "anf04": {"north-africa", "rome", "egypt"},
+    "anf05": {"rome", "north-africa"},
+    "anf06": {"asia-minor", "egypt", "palestine", "north-africa"},
+    "anf07": {"north-africa", "syria", "asia-minor"},
+    "anf08": {"syriac-mesopotamia", "rome"},
+    "anf09": {"syriac-mesopotamia", "egypt", "palestine"},
+    "aphrahat": {"syriac-mesopotamia"},
+    "chronicle-of-edessa": {"syriac-mesopotamia"},
+    "ephraim": {"syriac-mesopotamia"},
+    "npnf101": {"north-africa"}, "npnf102": {"north-africa"}, "npnf103": {"north-africa"},
+    "npnf104": {"north-africa"}, "npnf105": {"north-africa"}, "npnf106": {"north-africa"},
+    "npnf107": {"north-africa"}, "npnf108": {"north-africa"},
+    "npnf109": {"syria", "constantinople"}, "npnf110": {"syria", "constantinople"},
+    "npnf111": {"syria", "constantinople"}, "npnf112": {"syria", "constantinople"},
+    "npnf113": {"syria", "constantinople"}, "npnf114": {"syria", "constantinople"},
+    "npnf201": {"palestine"},
+    "npnf202": {"ecumenical"},
+    "npnf203": {"syria", "palestine", "rome", "egypt"},
+    "npnf204": {"egypt"},
+    "npnf205": {"asia-minor"},
+    "npnf206": {"palestine", "rome"},
+    "npnf207": {"palestine", "asia-minor", "constantinople"},
+    "npnf208": {"asia-minor"},
+    "npnf209": {"gaul", "syria"},
+    "npnf210": {"italy"},
+    "npnf211": {"gaul", "egypt"},
+    "npnf212": {"rome"},
+    "npnf213": {"rome", "syriac-mesopotamia"},
+    "npnf214": {"ecumenical"},
+    "optatus": {"north-africa"},
+    "origen": {"egypt", "palestine"},
+    "palladius": {"egypt", "palestine", "constantinople"},
+}
+
+# Read off each world's own registry `place` field, not invented beside it.
+WORLD_REGIONS = {
+    "alx": {"egypt"},
+    "pahc": {"syria", "asia-minor", "rome"},
+    "desert": {"egypt", "palestine"},
+    "hal": {"palestine", "rome"},
+    "syr": {"syriac-mesopotamia"},
+    "ijc": {"rome", "constantinople", "italy"},
+}
+
+
+def corpus_tier(filename: str, world_key: str, world_window: dict, *, named: bool) -> str:
+    """Mark's ranking, in one place. Nothing here returns "excluded"."""
+    key = corpus_key(filename)
+    if key in BY_DESIGN:
+        return "by design"
+    if named:
+        return "1 - named, never opened"
+    lo, hi = COVERAGE.get(key, (None, None))
+    if lo is None:
+        return "4 - unclassified"
+    in_time = not (hi < world_window["start"] or lo > world_window["end"])
+    regions = REGIONS.get(key, set())
+    in_place = bool(regions & (WORLD_REGIONS.get(world_key, set()) | {"ecumenical"})) or "ecumenical" in regions
+    if in_time and in_place:
+        return "2 - same time and place"
+    if in_time:
+        return "3 - same time, different region"
+    return "4 - outside this window"
+
 # The principal authors each volume carries, from its own title. Used for the
 # one signal in this report that is DERIVED rather than asserted: a world that
 # already names a figure in its records, and has never opened that figure's
