@@ -1,0 +1,193 @@
+# Worker staging file - npnf205 (Gregory of Nyssa, NPNF second series vol. 5).
+# NOTE: this volume is plain text, not ThML - it has no div markup and no
+# DC.Creator slug, so STRUCTURE.md reports it as one 541,969-word section and
+# AUTHORS.md carries the placeholder slug `npnf205`. Works below were located
+# by grepping the file's own internal headings; loci cite heading text and
+# line numbers in the .txt.
+source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
+
+authors_ruled:
+  gregory_nyssa:
+    kind: metadata-omission
+    evidence: >
+      The file's own CCEL header reads "Creator(s): Gregory of Nyssa" with
+      Schaff marked "(Editor)"; the volume title line is "GREGORY OF NYSSA:
+      DOGMATIC TREATISES, ETC." and internal headings include "Gregory of
+      Nyssa Against Eunomius" (line 2765) and "The Life and Writings of
+      Gregory of Nyssa". No ThML DC.Creator slug exists because the file is
+      plain text, so corpus_authors.py fell back to the filename stem
+      `npnf205`; the attribution itself is in the file, not supplied from
+      outside it.
+
+assignments:
+  - work: "Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)"
+    author: gregory_nyssa
+    locus: >
+      txt heading "Gregory of Nyssa Against Eunomius" (line 2765), Books I-XII
+      from line 2885, "Answer to Eunomius' Second Book" at line 22219; the
+      volume's own date table dates them 382-4.
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+      - homoian-arian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Cappadocian home is firm. The second id is the doubt: this is
+      anti-EUNOMIAN (Anomoean) polemic, and the census's only Arian bucket is
+      named for the Homoian party - a different wing of the controversy.
+      Assigned there as the nearest entry for material about fourth-century
+      Arianism; a reviewer may strike it or Mark may want a distinct bucket.
+
+  - work: "On the Holy Spirit (Against the Followers of Macedonius)"
+    author: gregory_nyssa
+    locus: "txt heading at line 27918"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      Anti-Pneumatomachian treatise. The census has no Macedonian/
+      Pneumatomachian entry at all, so the party it argues against has
+      nowhere to receive it; noted rather than forced.
+
+  - work: "On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)"
+    author: gregory_nyssa
+    locus: "txt heading at line 28938"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      Trinitarian letter-treatise; printed with an extract of Basil's Letter
+      189 immediately before it (line 29245), which some editors give to
+      Nyssa - the volume flags the overlap itself.
+
+  - work: "On \"Not Three Gods\" (To Ablabius)"
+    author: gregory_nyssa
+    locus: "txt heading at line 29315"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      The classic Cappadocian statement on three hypostases and one nature.
+
+  - work: "On the Faith (To Simplicius)"
+    author: gregory_nyssa
+    locus: "txt heading at line 29843"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      Short Nicene confessional treatise, dated 375 by the volume's own table.
+
+  - work: "On Virginity"
+    author: gregory_nyssa
+    locus: "txt part heading 'II.--Ascetic and Moral' (line 30060); work at line 30135"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      The Cappadocian entry's own name covers the pastoral-monastic side, so
+      the ascetic works stay here rather than in desert-monasticism, whose
+      census row is Egypt-specific.
+
+  - work: "On Infants' Early Deaths"
+    author: gregory_nyssa
+    locus: "txt heading at line 32849 (part II, Ascetic and Moral)"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      Late treatise (the volume dates it 395) on the fate of infants who die
+      unbaptized.
+
+  - work: "On Pilgrimages"
+    author: gregory_nyssa
+    locus: "txt heading at line 33740 (part II, Ascetic and Moral)"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+      - jerusalem-liturgical-pilgrimage-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Gregory's letter arguing against the spiritual necessity of pilgrimage
+      to Jerusalem, written after his own visit. Assigned to the Jerusalem
+      entry as a contemporary Christian witness ABOUT its pilgrimage practice
+      - a critical voice, but an inside-the-tradition one, so `tradition`
+      rather than `context` under Mark's definition.
+
+  - work: "On the Making of Man"
+    author: gregory_nyssa
+    locus: "txt part heading 'III.--Philosophical Works' (line 33907); work at line 33984"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      Written to complete Basil's Hexaemeron (npnf208 div1 8) - the two
+      volumes carry the two halves of one Cappadocian project.
+
+  - work: "On the Soul and the Resurrection"
+    author: gregory_nyssa
+    locus: "txt heading at line 38083 (part III, Philosophical Works)"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      Dialogue in which Macrina, the elder sister, is the teacher - one of
+      the corpus's very few places where a woman's words are given at length,
+      the gap every world names (brief 11a). Worth remembering when the
+      Cappadocian world is built.
+
+  - work: "The Great Catechism"
+    author: gregory_nyssa
+    locus: "txt part heading 'IV.--Apologetic Works' (line 42012); work at line 42016"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      Gregory's systematic handbook for catechists. It belongs to the
+      Cappadocian entry; the Alexandrian catechetical entry is a distinct
+      school, not a bucket for catechesis in general.
+
+  - work: "Funeral Oration on Meletius"
+    author: gregory_nyssa
+    locus: "txt part heading 'V.--Oratorical Works' (line 45708); work at line 45711"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      Delivered at Constantinople in 381 for Meletius of Antioch, president
+      of the Second Ecumenical Council; touches Antiochene and conciliar
+      history but is a Cappadocian's oration.
+
+  - work: "On the Baptism of Christ"
+    author: gregory_nyssa
+    locus: "txt heading at line 46225 (part V, Oratorical Works)"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      Sermon for the Feast of Lights on baptism, dated 376 by the volume's
+      table.
+
+  - work: "Letters"
+    author: gregory_nyssa
+    locus: >
+      txt part heading "VI.--Letters" (line 46857); one body of 18 letters
+      plus the letter to Flavian - assigned as one work, not per letter.
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: assigned
+    note: >
+      The select letters translated in this volume, including Letter II
+      (companion to On Pilgrimages) and the letter to Flavian.
