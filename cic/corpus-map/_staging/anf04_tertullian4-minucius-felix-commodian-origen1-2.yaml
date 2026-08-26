@@ -18,247 +18,250 @@
 #
 # Rufinus' Prologue (6.4) is kept: it is the ancient translator's own preface,
 # a primary document of the Origenist controversy, not 19th-c. editorial matter.
-
 source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-
 assignments:
-  - work: "On the Pallium (De Pallio)"
-    author: tertullian
-    locus: "div2 3.2 - On the Pallium"
-    atlas_ids:
-      - tertullian-s-voice
-    role: tradition
-    confidence: assigned
-    note: >
-      Short personal apologia for adopting the philosopher's cloak; Carthage.
-      No Montanist markers in the text.
+- work: On the Pallium (De Pallio)
+  author: tertullian
+  locus: div2 3.2 - On the Pallium
+  atlas_ids:
+  - tertullian-s-voice
+  role: tradition
+  confidence: assigned
+  note: 'Short personal apologia for adopting the philosopher''s cloak; Carthage. No Montanist
+    markers in the text.
 
-  - work: "On the Apparel of Women (De Cultu Feminarum)"
-    author: tertullian
-    locus: "div2 3.3 - On the Apparel of Women"
-    atlas_ids:
-      - tertullian-s-voice
-    role: tradition
-    confidence: assigned
-    note: >
-      Disciplinary treatise on dress and adornment; no New Prophecy markers
-      in the text.
+    '
+- work: On the Apparel of Women (De Cultu Feminarum)
+  author: tertullian
+  locus: div2 3.3 - On the Apparel of Women
+  atlas_ids:
+  - tertullian-s-voice
+  role: tradition
+  confidence: assigned
+  note: 'Disciplinary treatise on dress and adornment; no New Prophecy markers in the text.
 
-  - work: "On the Veiling of Virgins (De Virginibus Velandis)"
-    author: tertullian
-    locus: "div2 3.4 - On the Veiling of Virgins"
-    atlas_ids:
-      - tertullian-s-voice
-      - montanism-the-new-prophecy
-    role: tradition
-    confidence: provisional
-    note: >
-      Appeals to the Paraclete four times as authority for stricter discipline;
-      commonly dated to Tertullian's New Prophecy period. The montanism
-      assignment rests on those internal appeals - provisional because the
-      work never names the movement.
+    '
+- work: On the Veiling of Virgins (De Virginibus Velandis)
+  author: tertullian
+  locus: div2 3.4 - On the Veiling of Virgins
+  atlas_ids:
+  - tertullian-s-voice
+  - montanism-the-new-prophecy
+  role: tradition
+  confidence: provisional
+  note: 'Appeals to the Paraclete four times as authority for stricter discipline; commonly
+    dated to Tertullian''s New Prophecy period. The montanism assignment rests on those internal
+    appeals - provisional because the work never names the movement.
 
-  - work: "To His Wife (Ad Uxorem)"
-    author: tertullian
-    locus: "div2 3.5 - To His Wife"
-    atlas_ids:
-      - tertullian-s-voice
-    role: tradition
-    confidence: assigned
-    note: >
-      Two books to his wife on remarriage; earlier, pre-Montanist discipline.
-      No New Prophecy markers in the text.
+    '
+- work: To His Wife (Ad Uxorem)
+  author: tertullian
+  locus: div2 3.5 - To His Wife
+  atlas_ids:
+  - tertullian-s-voice
+  role: tradition
+  confidence: assigned
+  note: 'Two books to his wife on remarriage; earlier, pre-Montanist discipline. No New Prophecy
+    markers in the text.
 
-  - work: "On Exhortation to Chastity (De Exhortatione Castitatis)"
-    author: tertullian
-    locus: "div2 3.6 - On Exhortation to Chastity"
-    atlas_ids:
-      - tertullian-s-voice
-      - montanism-the-new-prophecy
-    role: tradition
-    confidence: provisional
-    note: >
-      Cites an oracle of "the holy prophetess Prisca" as authority - a direct
-      New Prophecy citation, and one of the few surviving fragments of the
-      movement's own words. Provisional because the treatise is transitional
-      rather than openly sectarian.
+    '
+- work: On Exhortation to Chastity (De Exhortatione Castitatis)
+  author: tertullian
+  locus: div2 3.6 - On Exhortation to Chastity
+  atlas_ids:
+  - tertullian-s-voice
+  - montanism-the-new-prophecy
+  role: tradition
+  confidence: provisional
+  note: 'Cites an oracle of "the holy prophetess Prisca" as authority - a direct New Prophecy
+    citation, and one of the few surviving fragments of the movement''s own words. Provisional
+    because the treatise is transitional rather than openly sectarian.
 
-  - work: "On Monogamy (De Monogamia)"
-    author: tertullian
-    locus: "div2 3.7 - On Monogamy"
-    atlas_ids:
-      - tertullian-s-voice
-      - montanism-the-new-prophecy
-    role: tradition
-    confidence: assigned
-    note: >
-      Openly New Prophecy: 17 appeals to the Paraclete, opponents named
-      "Psychics" 12 times. Tertullian speaking as a Montanist adherent -
-      tradition for montanism, not description of it.
+    '
+- work: On Monogamy (De Monogamia)
+  author: tertullian
+  locus: div2 3.7 - On Monogamy
+  atlas_ids:
+  - tertullian-s-voice
+  - montanism-the-new-prophecy
+  role: tradition
+  confidence: assigned
+  note: 'Openly New Prophecy: 17 appeals to the Paraclete, opponents named "Psychics" 12 times.
+    Tertullian speaking as a Montanist adherent - tradition for montanism, not description
+    of it.
 
-  - work: "On Modesty (De Pudicitia)"
-    author: tertullian
-    locus: "div2 3.8 - On Modesty"
-    atlas_ids:
-      - tertullian-s-voice
-      - montanism-the-new-prophecy
-    role: tradition
-    confidence: assigned
-    note: >
-      Montanist-period attack on the bishop's edict admitting adulterers to
-      penance ("Psychics" x5, Paraclete x4). Also a key early witness to the
-      developing penitential discipline the Cyprianic and Donatist disputes
-      later fought over - noted here, not assigned there.
+    '
+- work: On Modesty (De Pudicitia)
+  author: tertullian
+  locus: div2 3.8 - On Modesty
+  atlas_ids:
+  - tertullian-s-voice
+  - montanism-the-new-prophecy
+  role: tradition
+  confidence: assigned
+  note: 'Montanist-period attack on the bishop''s edict admitting adulterers to penance ("Psychics"
+    x5, Paraclete x4). Also a key early witness to the developing penitential discipline the
+    Cyprianic and Donatist disputes later fought over - noted here, not assigned there.
 
-  - work: "On Fasting, in Opposition to the Psychics (De Jejunio)"
-    author: tertullian
-    locus: "div2 3.9 - On Fasting"
-    atlas_ids:
-      - tertullian-s-voice
-      - montanism-the-new-prophecy
-    role: tradition
-    confidence: assigned
-    note: >
-      Defense of the New Prophecy's fasting discipline against the "Psychics"
-      (x13); names Montanus. Among the most explicitly Montanist works in the
-      corpus.
+    '
+- work: On Fasting, in Opposition to the Psychics (De Jejunio)
+  author: tertullian
+  locus: div2 3.9 - On Fasting
+  atlas_ids:
+  - tertullian-s-voice
+  - montanism-the-new-prophecy
+  role: tradition
+  confidence: assigned
+  note: 'Defense of the New Prophecy''s fasting discipline against the "Psychics" (x13); names
+    Montanus. Among the most explicitly Montanist works in the corpus.
 
-  - work: "De Fuga in Persecutione (Flight in Persecution)"
-    author: tertullian
-    locus: "div2 3.10 - De Fuga in Persecutione"
-    atlas_ids:
-      - tertullian-s-voice
-      - montanism-the-new-prophecy
-    role: tradition
-    confidence: provisional
-    note: >
-      Forbids flight in persecution on the Spirit's authority ("Comforter"
-      x2); no explicit Paraclete/Psychici vocabulary in this translation, so
-      the montanism assignment rests on the rigorist position and standard
-      dating rather than internal markers - hence provisional.
+    '
+- work: De Fuga in Persecutione (Flight in Persecution)
+  author: tertullian
+  locus: div2 3.10 - De Fuga in Persecutione
+  atlas_ids:
+  - tertullian-s-voice
+  - montanism-the-new-prophecy
+  role: tradition
+  confidence: provisional
+  note: 'Forbids flight in persecution on the Spirit''s authority ("Comforter" x2); no explicit
+    Paraclete/Psychici vocabulary in this translation, so the montanism assignment rests on
+    the rigorist position and standard dating rather than internal markers - hence provisional.
 
-  - work: "Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment; Five Books in Reply to Marcion)"
-    author: tertullian
-    locus: "div2 3.11 - Appendix (five verse pieces, div3s)"
-    atlas_ids:
-      - tertullian-s-voice
-      - marcion-marcionism
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      STRUCTURE.md marks this div2 as apparatus, but the content is ancient
-      pseudo-Tertullianic Latin verse, not 19th-c. editorial matter - kept
-      rather than dropped. The "Five Books in Reply to Marcion" (Carmen
-      adversus Marcionitas) belongs with the anti-Marcionite material.
-      Needs a ruling on whether spurious verse files under tertullian at all,
-      and where non-Marcion pieces belong.
+    '
+- work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
+    Five Books in Reply to Marcion)
+  author: tertullian
+  locus: div2 3.11 - Appendix (five verse pieces, div3s)
+  atlas_ids:
+  - tertullian-s-voice
+  role: tradition
+  confidence: needs-ruling
+  note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
+    Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
+    in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.
+    Needs a ruling on whether spurious verse files under tertullian at all, and where non-Marcion
+    pieces belong.
 
-  - work: "The Octavius of Minucius Felix"
-    author: felix
-    locus: "div2 4.3 - The Octavius of Minucius Felix"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      Earliest surviving Latin apologetic dialogue (Rome/North Africa, late
-      2nd-3rd c.). No census entry fits early Latin apologetics; the Latin
-      pastoral entry (Carthage, 240s-430) is the nearest shelf but its range
-      starts later. Note for later use: the first half, Caecilius' speech, is
-      one of the fullest surviving statements of the pagan case against
-      Christians - strong context value even though the work itself is
-      Christian.
+    '
+- work: Appendix of poems ascribed to Tertullian (Strains of Jonah, Sodom, Genesis, the Judgment;
+    Five Books in Reply to Marcion)
+  author: tertullian
+  locus: div2 3.11 - Appendix (five verse pieces, div3s)
+  atlas_ids:
+  - marcion-marcionism
+  role: context
+  confidence: needs-ruling
+  note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
+    Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
+    in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.
+    Needs a ruling on whether spurious verse files under tertullian at all, and where non-Marcion
+    pieces belong.
 
-  - work: "The Instructions of Commodianus (Instructiones)"
-    author: commodian
-    locus: "div2 5.2 - The Instructions of Commodianus"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      Latin Christian acrostic verse instruction, usually placed in 3rd-c.
-      North Africa but date and region are genuinely disputed (3rd-5th c.
-      proposals). Shelved with the Latin pastoral entry as best guess.
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: The Octavius of Minucius Felix
+  author: felix
+  locus: div2 4.3 - The Octavius of Minucius Felix
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: needs-ruling
+  note: 'Earliest surviving Latin apologetic dialogue (Rome/North Africa, late 2nd-3rd c.).
+    No census entry fits early Latin apologetics; the Latin pastoral entry (Carthage, 240s-430)
+    is the nearest shelf but its range starts later. Note for later use: the first half, Caecilius''
+    speech, is one of the fullest surviving statements of the pagan case against Christians
+    - strong context value even though the work itself is Christian.
 
-  - work: "De Principiis (On First Principles)"
-    author: origen
-    locus: "div2 6.5 - Origen De Principiis"
-    atlas_ids:
-      - alexandria-catechetical
-    role: tradition
-    confidence: assigned
-    note: >
-      Origen's systematic work, the charter text of the Alexandrian
-      Christian-Platonist tradition. Vendored text is chiefly Rufinus' Latin
-      translation with Greek fragments in parallel where they survive.
+    '
+- work: The Instructions of Commodianus (Instructiones)
+  author: commodian
+  locus: div2 5.2 - The Instructions of Commodianus
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: needs-ruling
+  note: 'Latin Christian acrostic verse instruction, usually placed in 3rd-c. North Africa
+    but date and region are genuinely disputed (3rd-5th c. proposals). Shelved with the Latin
+    pastoral entry as best guess.
 
-  - work: "Prologue of Rufinus (to De Principiis)"
-    author: rufinus
-    locus: "div2 6.4 - Prologue of Rufinus"
-    atlas_ids:
-      - alexandria-catechetical
-      - hieronymian-ascetic-literary
-    role: tradition
-    confidence: provisional
-    note: >
-      The ancient translator's own preface, in which Rufinus defends his
-      smoothing of De Principiis and cites Jerome's earlier admiration of
-      Origen - a primary document of the Origenist controversy between them.
-      Assigned to Alexandria as part of the De Principiis transmission and to
-      the Hieronymian entry whose central quarrel it ignited.
+    '
+- work: De Principiis (On First Principles)
+  author: origen
+  locus: div2 6.5 - Origen De Principiis
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'Origen''s systematic work, the charter text of the Alexandrian Christian-Platonist
+    tradition. Vendored text is chiefly Rufinus'' Latin translation with Greek fragments in
+    parallel where they survive.
 
-  - work: "A Letter to Origen from Africanus About the History of Susanna"
-    author: juliusafricanus
-    locus: "div2 6.6"
-    atlas_ids:
-      - alexandria-catechetical
-    role: tradition
-    confidence: provisional
-    note: >
-      Africanus' critical letter questioning the authenticity of Susanna,
-      which opens the exchange answered in div2 6.7. Kept with the Origen
-      correspondence it belongs to; Julius Africanus himself (3rd-c.
-      Palestinian scholar) has no census home - see his anf06 section.
+    '
+- work: Prologue of Rufinus (to De Principiis)
+  author: rufinus
+  locus: div2 6.4 - Prologue of Rufinus
+  atlas_ids:
+  - alexandria-catechetical
+  - hieronymian-ascetic-literary
+  role: tradition
+  confidence: provisional
+  note: 'The ancient translator''s own preface, in which Rufinus defends his smoothing of
+    De Principiis and cites Jerome''s earlier admiration of Origen - a primary document of
+    the Origenist controversy between them. Assigned to Alexandria as part of the De Principiis
+    transmission and to the Hieronymian entry whose central quarrel it ignited.
 
-  - work: "A Letter from Origen to Africanus"
-    author: origen
-    locus: "div2 6.7"
-    atlas_ids:
-      - alexandria-catechetical
-    role: tradition
-    confidence: assigned
-    note: >
-      Origen's reply defending the church's Greek Old Testament - a prime
-      document of Alexandrian textual scholarship.
+    '
+- work: A Letter to Origen from Africanus About the History of Susanna
+  author: juliusafricanus
+  locus: div2 6.6
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: provisional
+  note: 'Africanus'' critical letter questioning the authenticity of Susanna, which opens
+    the exchange answered in div2 6.7. Kept with the Origen correspondence it belongs to;
+    Julius Africanus himself (3rd-c. Palestinian scholar) has no census home - see his anf06
+    section.
 
-  - work: "A Letter from Origen to Gregory"
-    author: origen
-    locus: "div2 6.8"
-    atlas_ids:
-      - alexandria-catechetical
-    role: tradition
-    confidence: assigned
-    note: >
-      To Gregory Thaumaturgus, urging him to turn Greek learning to
-      Scripture ("spoiling the Egyptians"). Pairs with Gregory's Panegyric
-      to Origen in anf06 - the two sides of the same teacher-student
-      relationship.
+    '
+- work: A Letter from Origen to Africanus
+  author: origen
+  locus: div2 6.7
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'Origen''s reply defending the church''s Greek Old Testament - a prime document of
+    Alexandrian textual scholarship.
 
-  - work: "Origen Against Celsus (Contra Celsum)"
-    author: origen
-    locus: "div2 6.9 - Origen Against Celsus (8 books, ~255k words)"
-    atlas_ids:
-      - alexandria-catechetical
-    role: tradition
-    confidence: assigned
-    note: >
-      Origen's own work, tradition for his entry. FLAG for Mark per brief
-      S11a: Celsus' True Word survives only in the extensive quotations
-      Origen answers here, and those quotations are the corpus's fullest
-      pagan critique of 2nd-c. Christianity - exactly the "how Christians
-      were seen from outside" material the context ruling covers. If a
-      role: context assignment is wanted for the embedded Celsus material
-      (and for which entry it surrounds - the Christianity Celsus attacked
-      c. 177 predates Alexandria's floruit), that needs a ruling; it is not
-      claimed here because the vendored work is Origen's.
+    '
+- work: A Letter from Origen to Gregory
+  author: origen
+  locus: div2 6.8
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'To Gregory Thaumaturgus, urging him to turn Greek learning to Scripture ("spoiling
+    the Egyptians"). Pairs with Gregory''s Panegyric to Origen in anf06 - the two sides of
+    the same teacher-student relationship.
+
+    '
+- work: Origen Against Celsus (Contra Celsum)
+  author: origen
+  locus: div2 6.9 - Origen Against Celsus (8 books, ~255k words)
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'Origen''s own work, tradition for his entry. FLAG for Mark per brief S11a: Celsus''
+    True Word survives only in the extensive quotations Origen answers here, and those quotations
+    are the corpus''s fullest pagan critique of 2nd-c. Christianity - exactly the "how Christians
+    were seen from outside" material the context ruling covers. If a role: context assignment
+    is wanted for the embedded Celsus material (and for which entry it surrounds - the Christianity
+    Celsus attacked c. 177 predates Alexandria''s floruit), that needs a ruling; it is not
+    claimed here because the vendored work is Origen''s.
+
+    '

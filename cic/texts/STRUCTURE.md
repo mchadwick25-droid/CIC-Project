@@ -136,7 +136,7 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `anf03_tertullian.xml`
 
-41 section(s) to level 2 · ~585,863 words of text · ~35,393 words of apparatus
+41 section(s) to level 2 · ~592,808 words of text · ~28,448 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -166,7 +166,7 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | `5.8` | 2 | 6 | 46,242 | On the Resurrection of the Flesh. |
 | `5.9` | 2 | 2 | 31,933 | Against Praxeas. |
 | `5.10` | 2 | 1 | 14,532 | Scorpiace. |
-| `5.11` | 2 | 1 | 5,442 | *Appendix: Against All Heresies.* (apparatus) |
+| `5.11` | 2 | 1 | 5,442 | Appendix: Against All Heresies. |
 | `6` | 1 | 1 | 49,621 | Ethical. |
 | `6.1` | 2 | 4 | 4 | *Title Page.* (apparatus) |
 | `6.2` | 2 | 0 | 9,597 | On Repentance. |
@@ -185,6 +185,8 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 ## `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml`
 
 36 section(s) to level 2 · ~539,994 words of text · ~62,572 words of apparatus
+
+> ⚠ `3.11` **Appendix** is marked apparatus but carries 32,011 words in its subtree against 0 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -227,7 +229,7 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `anf05_hippolytus-cyprian-caius-novatian.xml`
 
-36 section(s) to level 2 · ~549,462 words of text · ~69,803 words of apparatus
+36 section(s) to level 2 · ~564,836 words of text · ~54,429 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -238,7 +240,7 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | `3.2` | 2 | 3,745 | 3,745 | *Introductory Notice.* (apparatus) |
 | `3.3` | 2 | 0 | 139,006 | The Refutation of All Heresies. |
 | `3.4` | 2 | 7 | 76,642 | The Extant Works and Fragments of Hippolytus. |
-| `3.5` | 2 | 0 | 15,866 | *Appendix to the Works of Hippolytus. Containing Dubious and Spurious Pieces.* (apparatus) |
+| `3.5` | 2 | 0 | 15,866 | Appendix to the Works of Hippolytus. Containing Dubious and Spurious Pieces. |
 | `4` | 1 | 1 | 312,663 | Cyprian. |
 | `4.1` | 2 | 8 | 8 | *Title Page.* (apparatus) |
 | `4.2` | 2 | 2,531 | 2,531 | *Introductory Notice to Cyprian.* (apparatus) |
@@ -671,6 +673,8 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 ## `npnf101_augustine-confessions-letters.xml`
 
 38 section(s) to level 2 · ~554,326 words of text · ~27,402 words of apparatus
+
+> ⚠ `4` **Prolegomena: St. Augustin’s Life and Work** is marked apparatus but carries 21,049 words in its subtree against 28 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -1942,6 +1946,8 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 103 section(s) to level 2 · ~587,027 words of text · ~35,926 words of apparatus
 
+> ⚠ `9` **Indexes** is marked apparatus but carries 23,678 words in its subtree against 1 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
+
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 1 | 71 | 71 | Series Title Page |
@@ -2145,6 +2151,8 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 29 section(s) to level 2 · ~526,251 words of text · ~36,452 words of apparatus
 
+> ⚠ `6` **Indexes of Subjects** is marked apparatus but carries 30,306 words in its subtree against 3 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
+
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 1 | 69 | 69 | *Title Page* (apparatus) |
@@ -2180,6 +2188,8 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 ## `npnf114_chrysostom-homilies-john-hebrews.xml`
 
 141 section(s) to level 2 · ~484,862 words of text · ~49,289 words of apparatus
+
+> ⚠ `6` **Indexes of Subjects** is marked apparatus but carries 29,339 words in its subtree against 3 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -2329,6 +2339,10 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 39 section(s) to level 2 · ~606,168 words of text · ~71,538 words of apparatus
 
+> ⚠ `3.3` **Prolegomena.** is marked apparatus but carries 41,515 words in its subtree against 11 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
+
+> ⚠ `5` **Index of Subjects** is marked apparatus but carries 20,891 words in its subtree against 0 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
+
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 1 | 80 | 80 | *Title Page.* (apparatus) |
@@ -2418,6 +2432,8 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 44 section(s) to level 2 · ~469,197 words of text · ~42,387 words of apparatus
 
+> ⚠ `3.4` **Prolegomena.** is marked apparatus but carries 20,714 words in its subtree against 0 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
+
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 1 | 75 | 75 | *Title Page.* (apparatus) |
@@ -2467,7 +2483,9 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `npnf204_athanasius-select-works-letters.xml`
 
-79 section(s) to level 2 · ~569,067 words of text · ~105,110 words of apparatus
+79 section(s) to level 2 · ~570,462 words of text · ~103,715 words of apparatus
+
+> ⚠ `5` **Prolegomena.** is marked apparatus but carries 86,682 words in its subtree against 0 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -2481,7 +2499,7 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | `5.3` | 2 | 0 | 5,251 | Writings and Personal Characteristics of S. Athanasius. |
 | `5.4` | 2 | 0 | 12,020 | The Theology of S. Athanasius. |
 | `5.5` | 2 | 0 | 6,462 | Chronology and Tables. |
-| `5.6` | 2 | 1,557 | 1,557 | *Appendix. The Civil and Military Government of Egypt in the Lifetime of Athanasius.* (apparatus) |
+| `5.6` | 2 | 1,557 | 1,557 | Appendix. The Civil and Military Government of Egypt in the Lifetime of Athanasius. |
 | `6` | 1 | 0 | 27,070 | Against the Heathen. (Contra Gentes.) |
 | `6.1` | 2 | 1,833 | 1,833 | Introduction. |
 | `6.2` | 2 | 0 | 25,237 | Contra Gentes. (Against the Heathen.) |
@@ -2538,7 +2556,7 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | `23` | 1 | 0 | 6,481 | Synodal Letter to the People of Antioch. (Tomus ad Antiochenos.) |
 | `23.1` | 2 | 1,555 | 1,555 | Introduction. |
 | `23.2` | 2 | 3,531 | 3,531 | Synodal Letter to the People of Antioch. (Tomus ad Antiochenos.) |
-| `23.3` | 2 | 1,395 | 1,395 | *Appendix. Exile of Athanasius under Julian, 362-363.* (apparatus) |
+| `23.3` | 2 | 1,395 | 1,395 | Appendix. Exile of Athanasius under Julian, 362-363. |
 | `24` | 1 | 0 | 6,048 | Synodal Letter to the Bishops of Africa. (Ad Afros Epistola Synodica.) |
 | `24.1` | 2 | 841 | 841 | Introduction. |
 | `24.2` | 2 | 5,207 | 5,207 | Synodal Letter to the Bishops of Africa. (Ad Afros Epistola Synodica.) |
@@ -2562,6 +2580,8 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 ## `npnf206_jerome-principal-works.xml`
 
 182 section(s) to level 2 · ~484,639 words of text · ~31,433 words of apparatus
+
+> ⚠ `4` **Prolegomena to Jerome.** is marked apparatus but carries 20,844 words in its subtree against 0 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -2824,6 +2844,8 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 ## `npnf208_basil-letters-select-works.xml`
 
 415 section(s) to level 2 · ~315,733 words of text · ~72,320 words of apparatus
+
+> ⚠ `6` **Prolegomena.** is marked apparatus but carries 61,720 words in its subtree against 0 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -3247,6 +3269,8 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 17 section(s) to level 2 · ~94,956 words of text · ~309,685 words of apparatus
 
+> ⚠ `2` **Title Page** is marked apparatus but carries 305,371 words in its subtree against 0 of its own. It may be a container holding real works rather than editorial matter — read it before skipping it.
+
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 1 | 69 | 69 | Series Title |
@@ -3314,7 +3338,7 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `npnf211_sulpitius-severus-vincent-lerins-cassian.xml`
 
-60 section(s) to level 2 · ~499,285 words of text · ~22,823 words of apparatus
+60 section(s) to level 2 · ~500,578 words of text · ~21,530 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -3361,9 +3385,9 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | `3.32` | 2 | 618 | 618 | Chapter XXXI. The Constancy of the Ephesine Fathers in driving away Novelty and maintaining Antiquity. |
 | `3.33` | 2 | 454 | 454 | Chapter XXXII. The zeal of Celestine and Sixtus, bishops of Rome, in opposing Novelty. |
 | `3.34` | 2 | 502 | 502 | Chapter XXXIII. The Children of the Catholic Church ought to adhere to the Faith of their Fathers and die for it. |
-| `3.35` | 2 | 364 | 364 | *Appendix I. Note on Section 41, Page 143.* (apparatus) |
-| `3.36` | 2 | 509 | 509 | *Appendix II. Note on Section 69, Page 149.* (apparatus) |
-| `3.37` | 2 | 420 | 420 | *Appendix III. Note on Section 85, Page 156.* (apparatus) |
+| `3.35` | 2 | 364 | 364 | Appendix I. Note on Section 41, Page 143. |
+| `3.36` | 2 | 509 | 509 | Appendix II. Note on Section 69, Page 149. |
+| `3.37` | 2 | 420 | 420 | Appendix III. Note on Section 85, Page 156. |
 | `4` | 1 | 25 | 379,428 | The Works of John Cassian. |
 | `4.1` | 2 | 1 | 13,237 | *Prolegomena.* (apparatus) |
 | `4.2` | 2 | 1,518 | 1,518 | *Preface.* (apparatus) |
@@ -3440,7 +3464,7 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `npnf214_seven-ecumenical-councils.xml`
 
-180 section(s) to level 2 · ~360,075 words of text · ~30,489 words of apparatus
+180 section(s) to level 2 · ~376,900 words of text · ~13,664 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
@@ -3585,7 +3609,7 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | `16.19` | 2 | 1,487 | 1,487 | Excursus on the Council of Frankfort, A.D. 794. |
 | `16.20` | 2 | 399 | 399 | Excursus on the Convention said to have been held in Paris, A.D. 825. |
 | `16.21` | 2 | 577 | 577 | Historical Note on the So-Called “Eighth General Council” and Subsequent Councils. |
-| `17` | 1 | 0 | 16,935 | *Appendix containing Canons and Rulings not having Conciliar Origin but Approved by Name in Canon II. of the Synod in Trullo.* (apparatus) |
+| `17` | 1 | 0 | 16,935 | Appendix containing Canons and Rulings not having Conciliar Origin but Approved by Name in Canon II. of the Synod in Trullo. |
 | `17.1` | 2 | 110 | 110 | *Title Page.* (apparatus) |
 | `17.2` | 2 | 194 | 194 | Prefatory Note. |
 | `17.3` | 2 | 2,380 | 2,380 | The Apostolical Canons.  Introduction. |

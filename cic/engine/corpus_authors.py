@@ -82,6 +82,39 @@ def scan_file(path: Path) -> dict:
     return {"dc_creator": slugs, "divisions": divisions}
 
 
+def _names_author(slug: str, title: str) -> bool:
+    """Does this div1 title plainly carry this DC.Creator slug's name?
+
+    Two failures shaped this, both found by the 2026-08-26 assignment run:
+
+    SUBSTRING. A bare `in` test matches `leo` inside `leonides` - the same trap
+    this project already fixed once in the cross-world checker, where `"Basil"`
+    matched `"Basilidean"` and `"Leo"` matched Origen's father. So the primary
+    test is a word-boundary match on the slugified title.
+
+    SEPARATORS. A handful of CCEL slugs are written without them -
+    `juliusafricanus`, `sulpiciusseverus`, `athenagoras` - while the titles
+    slugify to `julius-africanus`. The boundary test cannot see through that,
+    so `Julius Africanus` was reported unattributed in a volume whose own
+    header names him. The fallback strips separators from both sides, guarded
+    on length so a short slug cannot match inside a longer word.
+
+    What this still does NOT fix, deliberately: CCEL spells the slug
+    `sulpiciusseverus` and its own div1 title `Sulpitius Severus`. Matching
+    across that would need fuzzy comparison, which buys one attribution at the
+    cost of false ones. It stays reported.
+    """
+    stem = slug.split("_")[0]
+    slugged = slugify(title)
+    # A Latin nominal ending on the title is the same name: CCEL's slug is
+    # `commodian` and its own div1 title is "Commodianus.". Kept narrow - `leo`
+    # plus an ending is still `leo`, `leous`, `leoi`, none of which reach
+    # `leonides`.
+    if re.search(rf"(^|-){re.escape(stem)}(us|um|i|o)?($|-)", slugged):
+        return True
+    return len(stem) >= 10 and stem in slugged.replace("-", "")
+
+
 def build_index() -> tuple[dict, dict]:
     """Returns (author_slug -> {"files": [...], "titles": [...]}, per_file)."""
     per_file: dict[str, dict] = {}
@@ -122,7 +155,7 @@ def build_index() -> tuple[dict, dict]:
         is_npnf = path.name.startswith("npnf")
         sole = info["dc_creator"][0] if is_npnf and len(set(info["dc_creator"])) == 1 else None
         for title in info["divisions"]:
-            slug = next((s for s in info["dc_creator"] if s.split("_")[0] in slugify(title)), None) or sole
+            slug = next((s for s in info["dc_creator"] if _names_author(s, title)), None) or sole
             if slug:
                 authors[slug]["titles"].append(f"{path.name}: {title}")
             else:

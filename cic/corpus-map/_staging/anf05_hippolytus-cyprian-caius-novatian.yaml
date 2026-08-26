@@ -18,436 +18,436 @@
 #
 # The two anonymous treatises in div1 7 are ancient 3rd-c. texts despite the
 # div1 being marked apparatus; each carries an authors_ruled entry below.
-
 source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-
 authors_ruled:
   pontius:
     kind: metadata-omission
-    evidence: >
-      div2 4.3 title "The Life and Passion of Cyprian, Bishop and Martyr. By
-      Pontius the Deacon."; anf05 DC.Creator lists only caius, cyprian,
-      hippolytus, novatian.
+    evidence: 'div2 4.3 title "The Life and Passion of Cyprian, Bishop and Martyr. By Pontius
+      the Deacon."; anf05 DC.Creator lists only caius, cyprian, hippolytus, novatian.
+
+      '
   anonymous-against-novatian:
     kind: anonymous
-    evidence: >
-      div2 7.3 title "Anonymous Treatise Against the Heretic Novatian"; no
-      DC.Creator attribution. A 3rd-c. work transmitted namelessly (sometimes
-      conjecturally given to Sixtus II in the editorial notice) - a work
-      entity, not a person.
+    evidence: 'div2 7.3 title "Anonymous Treatise Against the Heretic Novatian"; no DC.Creator
+      attribution. A 3rd-c. work transmitted namelessly (sometimes conjecturally given to
+      Sixtus II in the editorial notice) - a work entity, not a person.
+
+      '
   anonymous-on-rebaptism:
     kind: anonymous
-    evidence: >
-      div2 7.4 title "Anonymous Treatise on Re-baptism"; no DC.Creator
-      attribution. Transmitted namelessly among Cyprian's works.
+    evidence: 'div2 7.4 title "Anonymous Treatise on Re-baptism"; no DC.Creator attribution.
+      Transmitted namelessly among Cyprian''s works.
 
+      '
 assignments:
-  - work: "The Refutation of All Heresies (Philosophumena)"
-    author: hippolytus
-    locus: "div2 3.3 - Books I, IV-X (II-III lost)"
-    atlas_ids:
-      - valentinian-and-other-gnostic-christianities
-      - marcion-marcionism
-      - montanism-the-new-prophecy
-      - ebionite-nazoraean-current
-    role: tradition
-    confidence: assigned
-    note: >
-      The corpus's most systematic heresiological source. Coverage derived by
-      grep: Valentinus/Valentinians x96, Basilides x54, Marcion x32, Noetus
-      x24, Elchasaites x28, Montanists x15, Ebionites x12. Assigned to the
-      entries it describes and argues against, per the brief's ruling that
-      the doctrinal-floor and contested entries are valid targets; built
-      worlds may draw on it for those entries only as register: etic. Book IX
-      on Callistus (x96) is also a prime inside source for early 3rd-c. Roman
-      church politics - covered by the separate needs-ruling row.
+- work: The Refutation of All Heresies (Philosophumena)
+  author: hippolytus
+  locus: div2 3.3 - Books I, IV-X (II-III lost)
+  atlas_ids:
+  - montanism-the-new-prophecy
+  - ebionite-nazoraean-current
+  role: tradition
+  confidence: assigned
+  note: 'The corpus''s most systematic heresiological source. Coverage derived by grep: Valentinus/Valentinians
+    x96, Basilides x54, Marcion x32, Noetus x24, Elchasaites x28, Montanists x15, Ebionites
+    x12. Assigned to the entries it describes and argues against, per the brief''s ruling
+    that the doctrinal-floor and contested entries are valid targets; built worlds may draw
+    on it for those entries only as register: etic. Book IX on Callistus (x96) is also a prime
+    inside source for early 3rd-c. Roman church politics - covered by the separate needs-ruling
+    row.
 
-  - work: "The Refutation of All Heresies (Philosophumena)"
-    author: hippolytus
-    locus: "div2 3.3"
-    atlas_ids:
-      - post-apostolic-house-church
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      The author's OWN tradition home. Hippolytus of Rome (c. 170-236) has no
-      census entry; post-apostolic-house-church is the nearest Roman
-      antecedent but its range ends 200 CE, before he wrote. Needs a ruling
-      on where the early 3rd-c. Roman church files - the same gap affects
-      Caius and (differently) Novatian.
+    '
+- work: The Refutation of All Heresies (Philosophumena)
+  author: hippolytus
+  locus: div2 3.3 - Books I, IV-X (II-III lost)
+  atlas_ids:
+  - valentinian-and-other-gnostic-christianities
+  - marcion-marcionism
+  role: context
+  confidence: assigned
+  note: 'The corpus''s most systematic heresiological source. Coverage derived by grep: Valentinus/Valentinians
+    x96, Basilides x54, Marcion x32, Noetus x24, Elchasaites x28, Montanists x15, Ebionites
+    x12. Assigned to the entries it describes and argues against, per the brief''s ruling
+    that the doctrinal-floor and contested entries are valid targets; built worlds may draw
+    on it for those entries only as register: etic. Book IX on Callistus (x96) is also a prime
+    inside source for early 3rd-c. Roman church politics - covered by the separate needs-ruling
+    row.
 
-  - work: "Treatise on Christ and Antichrist"
-    author: hippolytus
-    locus: "div2 3.4, 'Dogmatical and Historical' - Treatise on Christ and Antichrist"
-    atlas_ids:
-      - post-apostolic-house-church
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      The one complete treatise in the extant-works section; early Christian
-      eschatology from Rome, c. 200. needs-ruling only for the shelf - no
-      census home for Hippolytus (see Refutation row).
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: The Refutation of All Heresies (Philosophumena)
+  author: hippolytus
+  locus: div2 3.3
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: needs-ruling
+  note: 'The author''s OWN tradition home. Hippolytus of Rome (c. 170-236) has no census entry;
+    post-apostolic-house-church is the nearest Roman antecedent but its range ends 200 CE,
+    before he wrote. Needs a ruling on where the early 3rd-c. Roman church files - the same
+    gap affects Caius and (differently) Novatian.
 
-  - work: "Against the Heresy of One Noetus"
-    author: hippolytus
-    locus: "div2 3.4, 'Dogmatical and Historical' - Against the Heresy of One Noetus"
-    atlas_ids:
-      - post-apostolic-house-church
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      Foundational anti-monarchian treatise. The census has no entry for
-      modalist Monarchianism (Noetians/Sabellians), so the work it argues
-      against has no bucket either - flagged; shelved with its author's
-      needs-ruling home.
+    '
+- work: Treatise on Christ and Antichrist
+  author: hippolytus
+  locus: div2 3.4, 'Dogmatical and Historical' - Treatise on Christ and Antichrist
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: needs-ruling
+  note: 'The one complete treatise in the extant-works section; early Christian eschatology
+    from Rome, c. 200. needs-ruling only for the shelf - no census home for Hippolytus (see
+    Refutation row).
 
-  - work: "Exegetical fragments of Hippolytus"
-    author: hippolytus
-    locus: "div2 3.4, 'Exegetical' - fragments on Hexaemeron through Matthew and Luke (assigned as one body)"
-    atlas_ids:
-      - post-apostolic-house-church
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      Commentary fragments (Genesis, Psalms, Proverbs, Song of Songs, Daniel,
-      etc.), assigned as one body per the granularity rule for fragment
-      collections. Shelf needs-ruling as for all Hippolytus (no census home).
+    '
+- work: Against the Heresy of One Noetus
+  author: hippolytus
+  locus: div2 3.4, 'Dogmatical and Historical' - Against the Heresy of One Noetus
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: needs-ruling
+  note: 'Foundational anti-monarchian treatise. The census has no entry for modalist Monarchianism
+    (Noetians/Sabellians), so the work it argues against has no bucket either - flagged; shelved
+    with its author''s needs-ruling home.
 
-  - work: "Dogmatical and historical fragments of Hippolytus (incl. Against Plato, Against Beron and Helix, On the Holy Theophany, Expository Treatise Against the Jews)"
-    author: hippolytus
-    locus: "div2 3.4, 'Dogmatical and Historical' - remaining pieces, assigned as one body"
-    atlas_ids:
-      - post-apostolic-house-church
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      Smaller pieces and fragments, several of disputed authenticity (Against
-      Beron and Helix is generally held later; the Theophany discourse is
-      questioned). One body per the fragment-collection rule; shelf
-      needs-ruling as for all Hippolytus.
+    '
+- work: Exegetical fragments of Hippolytus
+  author: hippolytus
+  locus: div2 3.4, 'Exegetical' - fragments on Hexaemeron through Matthew and Luke (assigned
+    as one body)
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: needs-ruling
+  note: 'Commentary fragments (Genesis, Psalms, Proverbs, Song of Songs, Daniel, etc.), assigned
+    as one body per the granularity rule for fragment collections. Shelf needs-ruling as for
+    all Hippolytus (no census home).
 
-  - work: "Appendix to the Works of Hippolytus (dubious and spurious pieces)"
-    author: hippolytus
-    locus: "div2 3.5 - incl. discourse on the end of the world, lists of the Twelve and Seventy Apostles, canons ascribed to Hippolytus"
-    atlas_ids:
-      - post-apostolic-house-church
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      STRUCTURE.md marks this div2 apparatus, but the content is ancient
-      pseudo-Hippolytean material (editor's own title says dubious and
-      spurious), kept rather than dropped. Needs a ruling both on the shelf
-      (no Hippolytus home) and on whether a spurious corpus files under the
-      attributed name.
+    '
+- work: Dogmatical and historical fragments of Hippolytus (incl. Against Plato, Against Beron
+    and Helix, On the Holy Theophany, Expository Treatise Against the Jews)
+  author: hippolytus
+  locus: div2 3.4, 'Dogmatical and Historical' - remaining pieces, assigned as one body
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: needs-ruling
+  note: 'Smaller pieces and fragments, several of disputed authenticity (Against Beron and
+    Helix is generally held later; the Theophany discourse is questioned). One body per the
+    fragment-collection rule; shelf needs-ruling as for all Hippolytus.
 
-  - work: "The Life and Passion of Cyprian, Bishop and Martyr"
-    author: pontius
-    locus: "div2 4.3"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      By Pontius the Deacon, Cyprian's own deacon - often counted the
-      earliest Christian biography. Author ruled above (metadata omission).
-      Squarely inside the Latin pastoral entry's Carthage 240s-430 range.
+    '
+- work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
+  author: hippolytus
+  locus: div2 3.5 - incl. discourse on the end of the world, lists of the Twelve and Seventy
+    Apostles, canons ascribed to Hippolytus
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: needs-ruling
+  note: 'STRUCTURE.md marks this div2 apparatus, but the content is ancient pseudo-Hippolytean
+    material (editor''s own title says dubious and spurious), kept rather than dropped. Needs
+    a ruling both on the shelf (no Hippolytus home) and on whether a spurious corpus files
+    under the attributed name.
 
-  - work: "The Epistles of Cyprian"
-    author: cyprian
-    locus: "div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman clergy, Cornelius, the confessors, Firmilian)"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-      - novatianism
-    role: tradition
-    confidence: assigned
-    note: >
-      The central documentary corpus of mid-3rd-c. North African church life:
-      the Decian persecution, the lapsed, schism, plague, rebaptism. Assigned
-      as one body per the letters-corpus granularity rule. Also assigned to
-      novatianism: the correspondence with and about Cornelius, Novatian and
-      the confessors (c. 250-253) is a principal external witness to that
-      schism, including letters from the Roman side. Note: the corpus embeds
-      letters by others (Cornelius, the Roman clergy, Firmilian of Caesarea,
-      the confessors) under Cyprian's name - CCEL attributes the whole body
-      to cyprian.
+    '
+- work: The Life and Passion of Cyprian, Bishop and Martyr
+  author: pontius
+  locus: div2 4.3
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'By Pontius the Deacon, Cyprian''s own deacon - often counted the earliest Christian
+    biography. Author ruled above (metadata omission). Squarely inside the Latin pastoral
+    entry''s Carthage 240s-430 range.
 
-  - work: "The Epistles of Cyprian"
-    author: cyprian
-    locus: "div2 4.4"
-    atlas_ids:
-      - donatism
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      FLAG, not assertion (per group instruction): the Donatists claimed
-      Cyprian - his rebaptism practice and purity-of-clergy ecclesiology -
-      as their charter authority, and Augustine's anti-Donatist works argue
-      with Cyprian's letters at length. Whether the Cyprianic corpus files as
-      antecedent tradition for donatism needs Mark's ruling.
+    '
+- work: The Epistles of Cyprian
+  author: cyprian
+  locus: 'div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman
+    clergy, Cornelius, the confessors, Firmilian)'
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  - novatianism
+  role: tradition
+  confidence: assigned
+  note: 'The central documentary corpus of mid-3rd-c. North African church life: the Decian
+    persecution, the lapsed, schism, plague, rebaptism. Assigned as one body per the letters-corpus
+    granularity rule. Also assigned to novatianism: the correspondence with and about Cornelius,
+    Novatian and the confessors (c. 250-253) is a principal external witness to that schism,
+    including letters from the Roman side. Note: the corpus embeds letters by others (Cornelius,
+    the Roman clergy, Firmilian of Caesarea, the confessors) under Cyprian''s name - CCEL
+    attributes the whole body to cyprian.
 
-  - work: "On the Unity of the Church (De Unitate)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise I"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      The classic treatise on schism and the one episcopate, written amid the
-      Novatianist and Felicissimus crises.
+    '
+- work: The Epistles of Cyprian
+  author: cyprian
+  locus: div2 4.4
+  atlas_ids:
+  - donatism
+  role: tradition
+  confidence: needs-ruling
+  note: 'FLAG, not assertion (per group instruction): the Donatists claimed Cyprian - his
+    rebaptism practice and purity-of-clergy ecclesiology - as their charter authority, and
+    Augustine''s anti-Donatist works argue with Cyprian''s letters at length. Whether the
+    Cyprianic corpus files as antecedent tradition for donatism needs Mark''s ruling.
 
-  - work: "On the Unity of the Church (De Unitate)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise I"
-    atlas_ids:
-      - donatism
-      - novatianism
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      FLAG as with the Epistles: both sides of the Donatist controversy
-      argued from this text, and it was written against the Novatianist
-      schism among others. Needs a ruling on antecedent-tradition status.
+    '
+- work: On the Unity of the Church (De Unitate)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise I
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The classic treatise on schism and the one episcopate, written amid the Novatianist
+    and Felicissimus crises.
 
-  - work: "On the Dress of Virgins (De Habitu Virginum)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise II"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Pastoral discipline for consecrated virgins, following Tertullian's
-      dress treatises.
+    '
+- work: On the Unity of the Church (De Unitate)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise I
+  atlas_ids:
+  - donatism
+  - novatianism
+  role: tradition
+  confidence: needs-ruling
+  note: 'FLAG as with the Epistles: both sides of the Donatist controversy argued from this
+    text, and it was written against the Novatianist schism among others. Needs a ruling on
+    antecedent-tradition status.
 
-  - work: "On the Lapsed (De Lapsis)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise III"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      The post-Decian treatise on those who sacrificed under persecution -
-      the founding document of the penitential controversy that runs through
-      Novatianism and later Donatism.
+    '
+- work: On the Dress of Virgins (De Habitu Virginum)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise II
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Pastoral discipline for consecrated virgins, following Tertullian''s dress treatises.
 
-  - work: "On the Lapsed (De Lapsis)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise III"
-    atlas_ids:
-      - donatism
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      FLAG as with the Epistles: the lapsed/traditor problem is exactly the
-      question Donatism reopened after the Diocletianic persecution.
+    '
+- work: On the Lapsed (De Lapsis)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise III
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The post-Decian treatise on those who sacrificed under persecution - the founding
+    document of the penitential controversy that runs through Novatianism and later Donatism.
 
-  - work: "On the Lord's Prayer (De Dominica Oratione)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise IV"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Catechetical-pastoral exposition, dependent on Tertullian's De
-      Oratione.
+    '
+- work: On the Lapsed (De Lapsis)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise III
+  atlas_ids:
+  - donatism
+  role: tradition
+  confidence: needs-ruling
+  note: 'FLAG as with the Epistles: the lapsed/traditor problem is exactly the question Donatism
+    reopened after the Diocletianic persecution.
 
-  - work: "An Address to Demetrianus (Ad Demetrianum)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise V"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Reply to a pagan critic blaming Christians for the empire's disasters -
-      apologetic from inside the Latin pastoral world.
+    '
+- work: On the Lord's Prayer (De Dominica Oratione)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise IV
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Catechetical-pastoral exposition, dependent on Tertullian''s De Oratione.
 
-  - work: "On the Vanity of Idols (Quod Idola Dii Non Sint)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise VI"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: provisional
-    note: >
-      Authenticity has been questioned (it compiles Tertullian and Minucius
-      Felix), but it is transmitted in the Cyprianic corpus and CCEL prints
-      it among the genuine treatises.
+    '
+- work: An Address to Demetrianus (Ad Demetrianum)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise V
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Reply to a pagan critic blaming Christians for the empire''s disasters - apologetic
+    from inside the Latin pastoral world.
 
-  - work: "On the Mortality (De Mortalitate)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise VII"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Pastoral consolation during the great plague of the 250s - lived
-      congregational experience of epidemic, mortality and hope.
+    '
+- work: On the Vanity of Idols (Quod Idola Dii Non Sint)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise VI
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Authenticity has been questioned (it compiles Tertullian and Minucius Felix), but
+    it is transmitted in the Cyprianic corpus and CCEL prints it among the genuine treatises.
 
-  - work: "On Works and Alms (De Opere et Eleemosynis)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise VIII"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Almsgiving as the congregation's practical piety.
+    '
+- work: On the Mortality (De Mortalitate)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise VII
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Pastoral consolation during the great plague of the 250s - lived congregational experience
+    of epidemic, mortality and hope.
 
-  - work: "On the Advantage of Patience (De Bono Patientiae)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise IX"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Written amid the baptismal controversy with Rome; reworks Tertullian's
-      De Patientia.
+    '
+- work: On Works and Alms (De Opere et Eleemosynis)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise VIII
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Almsgiving as the congregation''s practical piety.
 
-  - work: "On Jealousy and Envy (De Zelo et Livore)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise X"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Pastoral treatise against rivalry in the congregation.
+    '
+- work: On the Advantage of Patience (De Bono Patientiae)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise IX
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Written amid the baptismal controversy with Rome; reworks Tertullian''s De Patientia.
 
-  - work: "Exhortation to Martyrdom, Addressed to Fortunatus (Ad Fortunatum)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise XI"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Scripture testimonies arming the congregation for the Valerianic
-      persecution.
+    '
+- work: On Jealousy and Envy (De Zelo et Livore)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise X
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Pastoral treatise against rivalry in the congregation.
 
-  - work: "Three Books of Testimonies Against the Jews (Ad Quirinum)"
-    author: cyprian
-    locus: "div3 under 4.5 - Treatise XII"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Proof-text collection; a principal witness to the Latin biblical text
-      and to catechetical method in 3rd-c. Africa. Adversus-Judaeos framing
-      noted for later readers.
+    '
+- work: Exhortation to Martyrdom, Addressed to Fortunatus (Ad Fortunatum)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise XI
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Scripture testimonies arming the congregation for the Valerianic persecution.
 
-  - work: "The Seventh Council of Carthage under Cyprian (on the baptism of heretics)"
-    author: cyprian
-    locus: "div2 4.6 - sententiae of the 87 bishops, September 256"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Conciliar acts under Cyprian's presidency - a collective document (the
-      recorded votes of 87 African bishops), filed under cyprian because CCEL
-      attributes the section to him; noted here so the collective character
-      is not lost.
+    '
+- work: Three Books of Testimonies Against the Jews (Ad Quirinum)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise XII
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Proof-text collection; a principal witness to the Latin biblical text and to catechetical
+    method in 3rd-c. Africa. Adversus-Judaeos framing noted for later readers.
 
-  - work: "The Seventh Council of Carthage under Cyprian (on the baptism of heretics)"
-    author: cyprian
-    locus: "div2 4.6"
-    atlas_ids:
-      - donatism
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      FLAG: the 256 rebaptism council was the Donatists' standing proof that
-      African tradition required rebaptism of those baptized outside the
-      church. Same antecedent-tradition question as the Epistles.
+    '
+- work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
+  author: cyprian
+  locus: div2 4.6 - sententiae of the 87 bishops, September 256
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Conciliar acts under Cyprian''s presidency - a collective document (the recorded
+    votes of 87 African bishops), filed under cyprian because CCEL attributes the section
+    to him; noted here so the collective character is not lost.
 
-  - work: "Treatises attributed to Cyprian on questionable authority (On the Public Shows; On the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)"
-    author: cyprian
-    locus: "div2 4.7 - four pieces, assigned as one body"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-      - novatianism
-    role: tradition
-    confidence: needs-ruling
-    note: >
-      Pseudo-Cyprianic body, kept under cyprian because that is how CCEL
-      transmits it. Two pieces (On the Public Shows, and the chastity
-      treatise) are widely attributed to Novatian in modern scholarship,
-      which is why novatianism appears here - needs a ruling on whether the
-      attribution question should move them.
+    '
+- work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
+  author: cyprian
+  locus: div2 4.6
+  atlas_ids:
+  - donatism
+  role: tradition
+  confidence: needs-ruling
+  note: 'FLAG: the 256 rebaptism council was the Donatists'' standing proof that African tradition
+    required rebaptism of those baptized outside the church. Same antecedent-tradition question
+    as the Epistles.
 
-  - work: "Fragments of Caius (Dialogue Against Proclus; Against the Heresy of Artemon; Canon Muratorianus)"
-    author: caius
-    locus: "div2 5.3 - three fragment groups, assigned as one body"
-    atlas_ids:
-      - post-apostolic-house-church
-      - montanism-the-new-prophecy
-    role: tradition
-    confidence: provisional
-    note: >
-      Roman presbyter, fl. c. 200-220. The Dialogue disputes Proclus, leader
-      of a Montanist party - hence the montanism assignment (argued-against
-      entry). ANF also prints the Muratorian Canon here though its authorship
-      is editorial conjecture, and the anti-Artemon fragment targets
-      adoptionist Monarchianism, which has no census entry. Shelf shares the
-      Hippolytus problem (Rome just after pahc's 200 CE line) - provisional.
+    '
+- work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
+    the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)
+  author: cyprian
+  locus: div2 4.7 - four pieces, assigned as one body
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  - novatianism
+  role: tradition
+  confidence: needs-ruling
+  note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.
+    Two pieces (On the Public Shows, and the chastity treatise) are widely attributed to Novatian
+    in modern scholarship, which is why novatianism appears here - needs a ruling on whether
+    the attribution question should move them.
 
-  - work: "A Treatise of Novatian Concerning the Trinity"
-    author: novatian
-    locus: "div2 6.3"
-    atlas_ids:
-      - novatianism
-    role: tradition
-    confidence: assigned
-    note: >
-      Novatian's major work, written while still a Roman presbyter in good
-      standing, before the schism - doctrinally the fullest Latin trinitarian
-      statement before Nicaea. Tradition for the entry that bears his name;
-      note that as pre-schism Roman theology it also documents the church he
-      later left, which has no census entry of its own.
+    '
+- work: Fragments of Caius (Dialogue Against Proclus; Against the Heresy of Artemon; Canon
+    Muratorianus)
+  author: caius
+  locus: div2 5.3 - three fragment groups, assigned as one body
+  atlas_ids:
+  - post-apostolic-house-church
+  - montanism-the-new-prophecy
+  role: tradition
+  confidence: provisional
+  note: 'Roman presbyter, fl. c. 200-220. The Dialogue disputes Proclus, leader of a Montanist
+    party - hence the montanism assignment (argued-against entry). ANF also prints the Muratorian
+    Canon here though its authorship is editorial conjecture, and the anti-Artemon fragment
+    targets adoptionist Monarchianism, which has no census entry. Shelf shares the Hippolytus
+    problem (Rome just after pahc''s 200 CE line) - provisional.
 
-  - work: "On the Jewish Meats (De Cibis Judaicis)"
-    author: novatian
-    locus: "div2 6.4"
-    atlas_ids:
-      - novatianism
-    role: tradition
-    confidence: assigned
-    note: >
-      Pastoral letter on the food laws, written in retirement during
-      persecution.
+    '
+- work: A Treatise of Novatian Concerning the Trinity
+  author: novatian
+  locus: div2 6.3
+  atlas_ids:
+  - novatianism
+  role: tradition
+  confidence: assigned
+  note: 'Novatian''s major work, written while still a Roman presbyter in good standing, before
+    the schism - doctrinally the fullest Latin trinitarian statement before Nicaea. Tradition
+    for the entry that bears his name; note that as pre-schism Roman theology it also documents
+    the church he later left, which has no census entry of its own.
 
-  - work: "Anonymous Treatise Against the Heretic Novatian"
-    author: anonymous-against-novatian
-    locus: "div2 7.3"
-    atlas_ids:
-      - novatianism
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: provisional
-    note: >
-      3rd-c. anti-Novatianist treatise (c. 255, probably African; the
-      editorial notice mentions a conjecture of Sixtus II). Assigned to
-      novatianism as the movement it argues against, and to the Latin
-      pastoral entry as its likely milieu. Sits in a div1 STRUCTURE.md marks
-      apparatus, but is an ancient text, kept.
+    '
+- work: On the Jewish Meats (De Cibis Judaicis)
+  author: novatian
+  locus: div2 6.4
+  atlas_ids:
+  - novatianism
+  role: tradition
+  confidence: assigned
+  note: 'Pastoral letter on the food laws, written in retirement during persecution.
 
-  - work: "Anonymous Treatise on Re-baptism (De Rebaptismate)"
-    author: anonymous-on-rebaptism
-    locus: "div2 7.4"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: provisional
-    note: >
-      The anti-Cyprianic side of the 250s rebaptism controversy, arguing
-      heretical baptism should stand - the position Rome held and the one
-      later canonized against the Donatists. Ancient text inside an
-      apparatus-marked div1, kept. Its bearing on donatism's prehistory is
-      noted but not assigned - same antecedent question as the Cyprian flags.
+    '
+- work: Anonymous Treatise Against the Heretic Novatian
+  author: anonymous-against-novatian
+  locus: div2 7.3
+  atlas_ids:
+  - novatianism
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: provisional
+  note: '3rd-c. anti-Novatianist treatise (c. 255, probably African; the editorial notice
+    mentions a conjecture of Sixtus II). Assigned to novatianism as the movement it argues
+    against, and to the Latin pastoral entry as its likely milieu. Sits in a div1 STRUCTURE.md
+    marks apparatus, but is an ancient text, kept.
+
+    '
+- work: Anonymous Treatise on Re-baptism (De Rebaptismate)
+  author: anonymous-on-rebaptism
+  locus: div2 7.4
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The anti-Cyprianic side of the 250s rebaptism controversy, arguing heretical baptism
+    should stand - the position Rome held and the one later canonized against the Donatists.
+    Ancient text inside an apparatus-marked div1, kept. Its bearing on donatism''s prehistory
+    is noted but not assigned - same antecedent question as the Cyprian flags.
+
+    '

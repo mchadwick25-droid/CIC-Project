@@ -27,9 +27,9 @@ These `div1` sections could not be attributed to any `DC.Creator` slug in their 
 - **`anf02`** (1): THE PASTOR OF HERMAS
 - **`anf03`** (3): Apologetic., Anti-Marcion., Ethical.
 - **`anf04`** (1): Introductory Notice.
-- **`anf06`** (2): Introductory Notice., Julius Africanus.
+- **`anf06`** (1): Introductory Notice.
 - **`anf07`** (6): Introductory Notice, The Teaching of the Twelve Apostles, Constitutions of the Holy Apostles, The Second Epistle of Clement, The Nicene Creed, Early Liturgies
-- **`anf08`** (7): Introductory Notice., The Testaments of the Twelve Patriarch, Two Epistles Concerning Virginity., Apocrypha of the New Testament., The Decretals., Memoirs of Edessa And Other Ancient Sy, Remains of the Second and Third Centur
+- **`anf08`** (8): Introductory Notice., The Testaments of the Twelve Patriarch, Two Epistles Concerning Virginity., Pseudo-Clementine Literature., Apocrypha of the New Testament., The Decretals., Memoirs of Edessa And Other Ancient Sy, Remains of the Second and Third Centur
 - **`anf09`** (11): The Gospel of Peter., The Apocalypse of Peter., The Vision of Paul., The Apocalypse of the Virgin., The Apocalypse of Sedrach., The Testament of Abraham., The Acts of Xanthippe and Polyxena., The Narrative of Zosimus.…
 - **`anf10`** (2): Biographical Synopsis, A Comprehensive General Index to The A
 - **`npnf203`** (1): The Ecclesiastical History, Dialogues,

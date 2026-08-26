@@ -45,15 +45,22 @@ buckets, _ = corpus_map_merge.merge(write=False)
 results.append(check("every bucket on disk is reproducible from staging",
                      set(corpus_map.load()) == set(buckets)))
 
-# Non-exclusivity again, this time through the merge: a work naming two
-# atlas_ids must land in two buckets, not one.
+# Non-exclusivity again, this time through the merge: every atlas_id a row
+# names must actually receive that row.
+#
+# The obvious form of this test - count the buckets a work landed in and
+# compare to one row's id count - was WRONG, and the 2026-08-26 assignment run
+# exposed it. The workers converged on modelling `role` as a property of the
+# (work, entry) pair, so one work is written as SEVERAL rows: Against Heresies
+# has a `tradition` row for Irenaeus' own entry and a `context` row for the
+# entries it describes. It lands in four buckets while no single row names more
+# than two, and that is correct. Test the invariant that actually holds.
 multi = [r for r in rows if len(r["_atlas_ids"]) > 1]
-if multi:
-    work = multi[0]
-    landed = [a for a, ws in buckets.items()
-              if any(w.get("work") == work["work"] for w in ws)]
-    results.append(check(f"a work naming {len(work['_atlas_ids'])} entries lands in all of them",
-                         len(landed) == len(work["_atlas_ids"])))
+missed = [(r["work"], a) for r in multi for a in r["_atlas_ids"]
+          if not any(w.get("work") == r["work"] and w.get("source_file") == r["source_file"]
+                     for w in buckets.get(a, []))]
+results.append(check(f"every atlas_id named by a multi-entry row receives it "
+                     f"({len(multi)} such row(s))", not missed))
 
 # Every ruled author must actually be used, or the ruling is dead weight.
 used = {w.get("author") for ws in buckets.values() for w in ws}

@@ -1,206 +1,208 @@
+
 source_file: npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml
-
-# No authors_ruled: DC.Creator names `augustine`. The two div1 headings
-# ("Doctrinal Treatises", "Moral Treatises") are editorial groupings, each
-# holding several distinct works — split per the granularity rule.
-# Skipped as apparatus: Title Page, Preface, Contents, Subject Indexes, Indexes.
-
 assignments:
-  - work: "On the Holy Trinity (De Trinitate)"
-    author: augustine
-    locus: "div2 4.1 — On the Holy Trinity"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      The mature Latin statement of Nicene trinitarian theology, written over
-      two decades at Hippo. Stays in Augustine's own entry; it argues against
-      Arian readings in places but is not aimed at the Homoian church the
-      doctrinal-floor entry names, so it is not assigned there.
+- work: On the Holy Trinity (De Trinitate)
+  author: augustine
+  locus: div2 4.1 — On the Holy Trinity
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The mature Latin statement of Nicene trinitarian theology, written over two decades
+    at Hippo. Stays in Augustine''s own entry; it argues against Arian readings in places
+    but is not aimed at the Homoian church the doctrinal-floor entry names, so it is not assigned
+    there.
 
-  - work: "The Enchiridion (On Faith, Hope, and Love)"
-    author: augustine
-    locus: "div2 4.2 — The Enchiridion"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Handbook of the faith for the layman Laurentius — catechetical-pastoral
-      by design.
+    '
+- work: The Enchiridion (On Faith, Hope, and Love)
+  author: augustine
+  locus: div2 4.2 — The Enchiridion
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Handbook of the faith for the layman Laurentius — catechetical-pastoral by design.
 
-  - work: "On the Catechising of the Uninstructed"
-    author: augustine
-    locus: "div2 4.3 — On the Catechising of the Uninstructed"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Written for the Carthaginian deacon Deogratias on how to teach
-      beginners — congregational formation practice itself, as near the
-      center of this entry as a work can sit.
+    '
+- work: On the Catechising of the Uninstructed
+  author: augustine
+  locus: div2 4.3 — On the Catechising of the Uninstructed
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Written for the Carthaginian deacon Deogratias on how to teach beginners — congregational
+    formation practice itself, as near the center of this entry as a work can sit.
 
-  - work: "A Treatise on Faith and the Creed"
-    author: augustine
-    locus: "div2 4.4 — A Treatise on Faith and the Creed"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Exposition of the creed delivered to the North African bishops at Hippo
-      in 393.
+    '
+- work: A Treatise on Faith and the Creed
+  author: augustine
+  locus: div2 4.4 — A Treatise on Faith and the Creed
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Exposition of the creed delivered to the North African bishops at Hippo in 393.
 
-  - work: "Concerning Faith of Things Not Seen"
-    author: augustine
-    locus: "div2 4.5 — Concerning Faith of Things Not Seen"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Short apologetic-catechetical piece for his congregation.
+    '
+- work: Concerning Faith of Things Not Seen
+  author: augustine
+  locus: div2 4.5 — Concerning Faith of Things Not Seen
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Short apologetic-catechetical piece for his congregation.
 
-  - work: "On the Profit of Believing (De Utilitate Credendi)"
-    author: augustine
-    locus: "div2 4.6 — On the Profit of Believing"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-      - manichaeism
-    role: tradition
-    confidence: assigned
-    note: >
-      Shelved by NPNF among the doctrinal treatises but written (391) to
-      Honoratus, the friend Augustine had himself led into Manichaeism, against
-      the Manichaean promise of reason without authority — Augustine's own
-      catalogue counts it among the anti-Manichaean works, so it goes to both
-      his entry and the entry it argues against.
+    '
+- work: On the Profit of Believing (De Utilitate Credendi)
+  author: augustine
+  locus: div2 4.6 — On the Profit of Believing
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Shelved by NPNF among the doctrinal treatises but written (391) to Honoratus, the
+    friend Augustine had himself led into Manichaeism, against the Manichaean promise of reason
+    without authority — Augustine''s own catalogue counts it among the anti-Manichaean works,
+    so it goes to both his entry and the entry it argues against.
 
-  - work: "On the Creed: A Sermon to Catechumens"
-    author: augustine
-    locus: "div2 4.7 — On the Creed"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Creedal instruction preached to catechumens.
+    '
+- work: On the Profit of Believing (De Utilitate Credendi)
+  author: augustine
+  locus: div2 4.6 — On the Profit of Believing
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: assigned
+  note: 'Shelved by NPNF among the doctrinal treatises but written (391) to Honoratus, the
+    friend Augustine had himself led into Manichaeism, against the Manichaean promise of reason
+    without authority — Augustine''s own catalogue counts it among the anti-Manichaean works,
+    so it goes to both his entry and the entry it argues against.
 
-  - work: "On Continence"
-    author: augustine
-    locus: "div2 5.1 — On Continence"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Moral treatise; carries anti-Manichaean argument on the flesh in its
-      later chapters but is not primarily about the movement, so it is not
-      double-assigned.
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: 'On the Creed: A Sermon to Catechumens'
+  author: augustine
+  locus: div2 4.7 — On the Creed
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Creedal instruction preached to catechumens.
 
-  - work: "On the Good of Marriage"
-    author: augustine
-    locus: "div2 5.2 — On the Good of Marriage"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Written (401) in the wake of the Jovinian controversy that Jerome's
-      Against Jovinian inflamed; the link to the Hieronymian world is real
-      background but too indirect to be an assignment.
+    '
+- work: On Continence
+  author: augustine
+  locus: div2 5.1 — On Continence
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Moral treatise; carries anti-Manichaean argument on the flesh in its later chapters
+    but is not primarily about the movement, so it is not double-assigned.
 
-  - work: "Of Holy Virginity"
-    author: augustine
-    locus: "div2 5.3 — Of Holy Virginity"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Companion piece to On the Good of Marriage, same year and setting.
+    '
+- work: On the Good of Marriage
+  author: augustine
+  locus: div2 5.2 — On the Good of Marriage
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Written (401) in the wake of the Jovinian controversy that Jerome''s Against Jovinian
+    inflamed; the link to the Hieronymian world is real background but too indirect to be
+    an assignment.
 
-  - work: "On the Good of Widowhood"
-    author: augustine
-    locus: "div2 5.4 — On the Good of Widowhood"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Letter-treatise to the widow Juliana (mother of Demetrias); pastoral
-      counsel.
+    '
+- work: Of Holy Virginity
+  author: augustine
+  locus: div2 5.3 — Of Holy Virginity
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Companion piece to On the Good of Marriage, same year and setting.
 
-  - work: "On Lying (De Mendacio)"
-    author: augustine
-    locus: "div2 5.5 — On Lying"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Early treatise on truthfulness; paired by Augustine himself with the
-      later Against Lying.
+    '
+- work: On the Good of Widowhood
+  author: augustine
+  locus: div2 5.4 — On the Good of Widowhood
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Letter-treatise to the widow Juliana (mother of Demetrias); pastoral counsel.
 
-  - work: "Against Lying (Contra Mendacium)"
-    author: augustine
-    locus: "div2 5.6 — Against Lying"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Written (c. 420) to Consentius against infiltrating the Priscillianists
-      by feigned apostasy. Also assigned to priscillianist-asceticism below.
+    '
+- work: On Lying (De Mendacio)
+  author: augustine
+  locus: div2 5.5 — On Lying
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Early treatise on truthfulness; paired by Augustine himself with the later Against
+    Lying.
 
-  - work: "Against Lying (Contra Mendacium)"
-    author: augustine
-    locus: "div2 5.6 — Against Lying"
-    atlas_ids:
-      - priscillianist-asceticism
-    role: tradition
-    confidence: provisional
-    note: >
-      One of the few vendored texts that describes Priscillianist practice at
-      all (their alleged doctrine that lying to conceal the faith is
-      permissible; 41 Priscillian* mentions in the volume). Hostile outside
-      description by a Catholic opponent — a future Priscillianist world could
-      use it only as etic material, but the entry has almost nothing else, so
-      it should be findable here. Provisional because the treatise's subject
-      is lying, not the movement.
+    '
+- work: Against Lying (Contra Mendacium)
+  author: augustine
+  locus: div2 5.6 — Against Lying
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Written (c. 420) to Consentius against infiltrating the Priscillianists by feigned
+    apostasy. Also assigned to priscillianist-asceticism below.
 
-  - work: "Of the Work of Monks (De Opere Monachorum)"
-    author: augustine
-    locus: "div2 5.7 — Of the Work of Monks"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Written for Aurelius of Carthage against monks there refusing manual
-      labor. Evidence for Augustine's own North African monasticism, which
-      lives inside this entry — not assigned to desert-monasticism, whose
-      world is Egyptian.
+    '
+- work: Against Lying (Contra Mendacium)
+  author: augustine
+  locus: div2 5.6 — Against Lying
+  atlas_ids:
+  - priscillianist-asceticism
+  role: tradition
+  confidence: provisional
+  note: 'One of the few vendored texts that describes Priscillianist practice at all (their
+    alleged doctrine that lying to conceal the faith is permissible; 41 Priscillian* mentions
+    in the volume). Hostile outside description by a Catholic opponent — a future Priscillianist
+    world could use it only as etic material, but the entry has almost nothing else, so it
+    should be findable here. Provisional because the treatise''s subject is lying, not the
+    movement.
 
-  - work: "On Patience"
-    author: augustine
-    locus: "div2 5.8 — On Patience"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Sermon-treatise on patience as gift of grace.
+    '
+- work: Of the Work of Monks (De Opere Monachorum)
+  author: augustine
+  locus: div2 5.7 — Of the Work of Monks
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Written for Aurelius of Carthage against monks there refusing manual labor. Evidence
+    for Augustine''s own North African monasticism, which lives inside this entry — not assigned
+    to desert-monasticism, whose world is Egyptian.
 
-  - work: "On Care to Be Had for the Dead"
-    author: augustine
-    locus: "div2 5.9 — On Care to Be Had for the Dead"
-    atlas_ids:
-      - latin-pastoral-congregational-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Answer to Paulinus of Nola on burial near the martyrs — burial practice,
-      martyr cult and congregational piety in one short text.
+    '
+- work: On Patience
+  author: augustine
+  locus: div2 5.8 — On Patience
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Sermon-treatise on patience as gift of grace.
+
+    '
+- work: On Care to Be Had for the Dead
+  author: augustine
+  locus: div2 5.9 — On Care to Be Had for the Dead
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Answer to Paulinus of Nola on burial near the martyrs — burial practice, martyr cult
+    and congregational piety in one short text.
+
+    '

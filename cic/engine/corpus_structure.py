@@ -56,7 +56,16 @@ _APPARATUS = re.compile(
     r"introductory (note|notice)|translator'?s? (preface|note)|contents|"
     r"table of contents|index|indexes|indices|general index|bibliograph|"
     r"chronological table|genealogical tables?|errata|advertisement|"
-    r"elucidations?|appendix|addenda|memoir|biographical synopsis)\b", re.I)
+    r"elucidations?|addenda|memoir|biographical synopsis)\b", re.I)
+
+# `appendix` needs its own rule. Matching it as a prefix marked
+# Pseudo-Tertullian's *Against All Heresies* and npnf214's Trullan canonical
+# appendix as editorial matter - both ancient texts that CCEL merely shelves
+# under an "Appendix" heading. Two workers on the 2026-08-26 assignment run
+# caught it by eye and assigned them anyway. So an appendix is apparatus only
+# when the title is JUST that word (plus numbering or punctuation); an
+# appendix that names a work is a work.
+_BARE_APPENDIX = re.compile(r"^appendix\b[\s.:;,–—-]*(?:[ivxl]+|\d+)?[\s.:;,]*$", re.I)
 
 
 def _unescape(text: str) -> str:
@@ -111,9 +120,29 @@ def outline(path: Path, max_level: int = 2) -> list[dict]:
         else:
             trail = trail + [1] * (depth - len(trail))
         sec["path"] = ".".join(str(n) for n in trail)
-        sec["apparatus"] = bool(_APPARATUS.match(sec["title"]))
+        sec["apparatus"] = bool(_APPARATUS.match(sec["title"])
+                                or _BARE_APPENDIX.match(sec["title"]))
 
     return [s for s in sections if s["level"] <= max_level]
+
+
+def suspect_apparatus(path: Path, factor: int = 10, floor: int = 20_000) -> list[dict]:
+    """Apparatus sections whose subtree dwarfs their own text - probably
+    containers, possibly mismarked.
+
+    `npnf209` nests every one of Hilary's works under a div1 titled "Title
+    Page", so the subtree rule reports ~300k words of real text as apparatus.
+    `npnf204`'s Prolegomena has the same shape - near-zero own text, a huge
+    subtree - and IS apparatus all the way down.
+
+    Nothing in the markup separates the two: the difference is whether the
+    children are editorial, and only a reader can say. So this reports the
+    shape and refuses to guess, which is how the assignment run's workers
+    actually caught it.
+    """
+    return [s for s in outline(path, max_level=3)
+            if s["apparatus"] and s["subtree_words"] > floor
+            and s["subtree_words"] > factor * max(s["words"], 1)]
 
 
 def body_words(path: Path) -> tuple[int, int]:
@@ -163,6 +192,11 @@ def render(paths: list[Path], max_level: int = 2) -> str:
         out.append(f"\n## `{path.name}`\n")
         out.append(f"{len(secs)} section(s) to level {max_level} · "
                    f"~{body:,} words of text · ~{apparatus:,} words of apparatus\n")
+        for s in suspect_apparatus(path):
+            out.append(f"> ⚠ `{s['path']}` **{s['title'] or '—'}** is marked apparatus but carries "
+                       f"{s['subtree_words']:,} words in its subtree against {s['words']:,} of its "
+                       f"own. It may be a container holding real works rather than editorial "
+                       f"matter — read it before skipping it.\n")
         out.append("| path | lvl | words | subtree | section |")
         out.append("|---|---:|---:|---:|---|")
         for s in secs:
