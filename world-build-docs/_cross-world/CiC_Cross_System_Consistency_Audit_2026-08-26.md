@@ -865,13 +865,30 @@ locatable:
 **Every record in C-I and C-T rests on one source: `athanasius-vita-antonii`.**
 Nothing else reaches either cell.
 
-Three of those four are genuinely rights-blocked, and the build did the work
-to establish it — `desert.search.antony-letters-english-pd` and
-`desert.search.evagrius-praktikos-english-pd` both record `not_found`, with
-the modern translations (Rubenson, Bamberger) marked consult-only. That part
-of the thinness is earned.
+**Corrected 2026-08-26, on Mark's challenge.** A first draft of this finding
+filed all three unvendored sources under "rights-blocked." That conflates two
+different constraints, and the difference decides who can fix them.
 
-Two are not:
+`cic/texts/README.md` — generated, not hand-written — records that **36 of the
+37 vendored files were supplied by Mark**, and why they had to be: *"the
+sandbox this project's agents run in blocks every patristic text host
+(ccel.org, newadvent.org, wikisource, archive.org, gutenberg,
+tertullian.org)."* No build thread has ever fetched a text. The corpus is
+entirely Mark's downloads, overwhelmingly the CCEL ANF/NPNF sets. So
+"unvendored" never means "unavailable" — it means *nobody asked Mark, or
+asked and it was not actioned*. The two constraints:
+
+- **No public-domain English exists.** Antony's *Letters* and Evagrius. The
+  surviving-version originals are public domain; the usable English
+  translations (Rubenson 1995, Bamberger 1970) are in copyright, and both
+  carry a `not_found` search record. No download fixes this. Earned.
+- **Public-domain English exists and was never obtained.** The
+  *Apophthegmata*. Budge 1907 is out of copyright and downloadable — by Mark,
+  from the same kind of source as everything else in `cic/texts/`. The
+  manifest's own stated blocker is the sandbox, not copyright. This is a
+  request that sat open, not a limit of the record.
+
+Two of the four are therefore not earned at all:
 
 - **The Apophthegmata was never vendored, and it is the world's central
   teaching corpus.** `SOURCE-REQUEST-MANIFEST.md` item G1 identifies Budge's
@@ -890,6 +907,16 @@ Two are not:
   Conferences/Institutes ascetic vocabulary in a single cell and never
   touched the one direct Christological treatise inside its own corpus.
 
+And the corpus is under-drawn more broadly than desert alone. Of the 37
+vendored files, **14 are cited by no world at all** — including Basil
+(`npnf208`, 43 matches for "Ascetic", 50 for "monk"), Gregory Nazianzen
+(`npnf207`), Gregory of Nyssa (`npnf205`) and Chrysostom's ascetic homilies
+(`npnf109`), all of them directly adjacent to desert's own subject. Desert
+draws on 6 of the 37. Jerome's desert *Lives* (Paul the Hermit, Hilarion,
+Malchus) sit in `npnf206`, a file desert already uses for other purposes.
+The gap between what was supplied and what was reached for is larger than
+the gap between what was supplied and what exists.
+
 **The overclaim.** `desert.limit.doubt-and-doctrine` is careful and well
 argued — but it is scoped to `C-T` and `F1-P`, and its claim is about *how
 his death saves*, a genre argument about sayings-literature. It never covers
@@ -904,10 +931,10 @@ This is F-11's failure mode arriving in full: a build gap rendered
 indistinguishable from a historical silence, in the one place where the
 project's credibility most depends on the difference.
 
-**Disposition:** open, and the highest-leverage single action in this report
-is not a records rewrite. It is **vendoring one public-domain file** — Budge
-vol. 2, `archive.org` identifier `ParadiseOfTheHolyFathersV2`, blocked only
-by one build session's network policy. That unlocks verbatim sayings across
+**Disposition:** open. The highest-leverage single action is not a records
+rewrite and not an agent task: it is **Mark supplying one public-domain
+file** — Budge vol. 2, `archive.org` identifier `ParadiseOfTheHolyFathersV2`
+— the same way he supplied the other 36. That unlocks verbatim sayings across
 the whole desert corpus and puts the Christ-in-the-neighbour, kenosis and
 Christ-invoked-in-warfare material within reach of C-I and C-T. Mining
 Cassian's *On the Incarnation* needs no acquisition at all. Neither is this
