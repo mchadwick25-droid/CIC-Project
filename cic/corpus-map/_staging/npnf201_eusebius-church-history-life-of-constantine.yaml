@@ -1,107 +1,99 @@
-source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-
 # The Oration of Constantine is a distinct work by a different author bundled
 # inside div1 4. CCEL's DC.Creator for this volume names only `eusebius`.
+source_file: npnf201_eusebius-church-history-life-of-constantine.xml
 authors_ruled:
   constantine:
     kind: metadata-omission
-    evidence: >
-      div2 4.7 heading reads "The Oration of the Emperor Constantine, which he
-      addressed 'to the assembly of the saints'"; npnf201 DC.Creator lists only
-      eusebius. The volume's own Special Prolegomena discusses (and accepts with
-      qualification) the attribution, so the assignment below is provisional.
+    evidence: 'div2 4.7 heading reads "The Oration of the Emperor Constantine, which he addressed
+      ''to the assembly of the saints''"; npnf201 DC.Creator lists only eusebius. The volume''s
+      own Special Prolegomena discusses (and accepts with qualification) the attribution,
+      so the assignment below is provisional.
 
+      '
 assignments:
-  # ---- The Church History (div1 3) ----
-  - work: "The Church History of Eusebius (Historia Ecclesiastica)"
-    author: eusebius
-    locus: "div1 3 — The Church History of Eusebius (Books I-X)"
-    atlas_ids:
-      - imperial-juridical-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      Eusebius is the first historian and theological architect of the
-      Constantinian settlement; Books VIII-X narrate persecution, victory and
-      the Constantinian peace from inside the new imperial church and close
-      with the panegyric at Tyre. The census has no entry for Caesarean or
-      Palestinian Christianity as such, so ijc is his own entry's nearest
-      equivalent; a reviewer may want that stated limitation on record.
+- work: The Church History of Eusebius (Historia Ecclesiastica)
+  author: eusebius
+  locus: div1 3 — The Church History of Eusebius (Books I-X)
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Eusebius is the first historian and theological architect of the Constantinian settlement;
+    Books VIII-X narrate persecution, victory and the Constantinian peace from inside the
+    new imperial church and close with the panegyric at Tyre. The census has no entry for
+    Caesarean or Palestinian Christianity as such, so ijc is his own entry''s nearest equivalent;
+    a reviewer may want that stated limitation on record.
 
-  - work: "The Church History of Eusebius (Historia Ecclesiastica)"
-    author: eusebius
-    locus: "div1 3 — Books II-VII in particular"
-    atlas_ids:
-      - post-apostolic-house-church
-      - alexandria-catechetical
-      - montanism-the-new-prophecy
-      - novatianism
-    role: context
-    confidence: assigned
-    note: >
-      Same work, context row (Mark's ruling, brief §11a): Eusebius describes
-      these movements from outside and later, and for each of them the History
-      is real evidence, not a passing mention. Books II-V are the principal
-      external frame for the post-apostolic church and preserve otherwise-lost
-      fragments (Papias, Hegesippus, the Antonine martyr acts). Book VI is the
-      fullest ancient account of Origen and the catechetical school; V-VII
-      cover Pantaenus, Clement and Dionysius. Book V.14-19 preserves the
-      anti-Montanist dossier (the Anonymous, Apollonius) on which that
-      Contested-Evidentiary entry largely rests. Books VI.43-45 and VII
-      preserve Cornelius' and Dionysius' letters on Novatian - primary evidence
-      for novatianism. Movements he merely mentions are deliberately not
-      assigned.
+    '
+- work: The Church History of Eusebius (Historia Ecclesiastica)
+  author: eusebius
+  locus: div1 3 — Books II-VII in particular
+  atlas_ids:
+  - post-apostolic-house-church
+  - alexandria-catechetical
+  - montanism-the-new-prophecy
+  - novatianism
+  role: context
+  confidence: assigned
+  note: 'Same work, context row (Mark''s ruling, brief §11a): Eusebius describes these movements
+    from outside and later, and for each of them the History is real evidence, not a passing
+    mention. Books II-V are the principal external frame for the post-apostolic church and
+    preserve otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book
+    VI is the fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
+    Clement and Dionysius. Book V.14-19 preserves the anti-Montanist dossier (the Anonymous,
+    Apollonius) on which that Contested-Evidentiary entry largely rests. Books VI.43-45 and
+    VII preserve Cornelius'' and Dionysius'' letters on Novatian - primary evidence for novatianism.
+    Movements he merely mentions are deliberately not assigned.
 
-  - work: "Martyrs of Palestine"
-    author: eusebius
-    locus: "div2 3.14 — Martyrs of Palestine (between Books VIII and IX)"
-    atlas_ids:
-      - imperial-juridical-christianity
-    role: context
-    confidence: needs-ruling
-    note: >
-      Eyewitness record of the Diocletianic persecution in Palestine, 303-311.
-      A reader names it as its own work, so it is listed apart from the
-      History. The doubt: the census has no entry for the pre-Constantinian
-      Palestinian church, and no era-1 entry covers the Great Persecution.
-      Parked as context for ijc, whose settlement this persecution immediately
-      precedes and explains; Mark may prefer another home or none.
+    '
+- work: Martyrs of Palestine
+  author: eusebius
+  locus: div2 3.14 — Martyrs of Palestine (between Books VIII and IX)
+  atlas_ids:
+  - palestinian-church-pre-constantinian
+  role: context
+  confidence: assigned
+  note: 'Eyewitness record of the Diocletianic persecution in Palestine, 303-311. A reader
+    names it as its own work, so it is listed apart from the History. The doubt: the census
+    has no entry for the pre-Constantinian Palestinian church, and no era-1 entry covers the
+    Great Persecution. Parked as context for ijc, whose settlement this persecution immediately
+    precedes and explains; Mark may prefer another home or none. Re-pointed 2026-08-26: palestinian-church-pre-constantinian
+    (era 1, c. 185-312) was added on record. Works flagged in THREE separate piles turned
+    out to be this one hole - Alexandria was standing in for it on the strength of correspondence
+    with Origen, who himself moved to Caesarea around 231.'
+- work: The Life of Constantine (Vita Constantini)
+  author: eusebius
+  locus: div2 4.6 — The Life of Constantine, Books I-IV
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The charter narrative of imperial Christianity: Constantine as God-favored ruler,
+    Nicaea as imperial council, the emperor as ''bishop of those outside.'' Bears directly
+    on the built ijc world; primary evidence for its whole self-understanding.
 
-  # ---- The Life of Constantine complex (div1 4) — three distinct works ----
-  - work: "The Life of Constantine (Vita Constantini)"
-    author: eusebius
-    locus: "div2 4.6 — The Life of Constantine, Books I-IV"
-    atlas_ids:
-      - imperial-juridical-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      The charter narrative of imperial Christianity: Constantine as
-      God-favored ruler, Nicaea as imperial council, the emperor as 'bishop of
-      those outside.' Bears directly on the built ijc world; primary evidence
-      for its whole self-understanding.
+    '
+- work: The Oration of Constantine to the Assembly of the Saints
+  author: constantine
+  locus: div2 4.7 — The Oration of Constantine
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The emperor speaking as a Christian theologian - if genuine, the most direct first-person
+    evidence of imperial Christianity in the corpus. Provisional because the authorship ruling
+    above rests on the volume''s own discussion, which records genuine scholarly dispute about
+    authenticity.
 
-  - work: "The Oration of Constantine to the Assembly of the Saints"
-    author: constantine
-    locus: "div2 4.7 — The Oration of Constantine"
-    atlas_ids:
-      - imperial-juridical-christianity
-    role: tradition
-    confidence: provisional
-    note: >
-      The emperor speaking as a Christian theologian - if genuine, the most
-      direct first-person evidence of imperial Christianity in the corpus.
-      Provisional because the authorship ruling above rests on the volume's own
-      discussion, which records genuine scholarly dispute about authenticity.
+    '
+- work: The Oration of Eusebius (In Praise of Constantine, De Laudibus Constantini)
+  author: eusebius
+  locus: div2 4.8 — The Oration of Eusebius
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The tricennial oration of 336 - the classic articulation of imperial political theology
+    (one God, one Logos, one emperor, one empire). Core ijc material.
 
-  - work: "The Oration of Eusebius (In Praise of Constantine, De Laudibus Constantini)"
-    author: eusebius
-    locus: "div2 4.8 — The Oration of Eusebius"
-    atlas_ids:
-      - imperial-juridical-christianity
-    role: tradition
-    confidence: assigned
-    note: >
-      The tricennial oration of 336 - the classic articulation of imperial
-      political theology (one God, one Logos, one emperor, one empire). Core
-      ijc material.
+    '

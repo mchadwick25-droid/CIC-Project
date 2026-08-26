@@ -139,37 +139,40 @@ assignments:
   author: juliusafricanus
   locus: div2 5.3
   atlas_ids:
-  - alexandria-catechetical
+  - palestinian-church-pre-constantinian
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'On the harmony of the gospel genealogies - pioneering critical scholarship. Africanus
     (3rd-c. Emmaus/Palestine) has no census home; shelved with alexandria-catechetical only
     on the strength of his documented scholarly exchange with Origen (the Susanna correspondence,
-    anf04 div2 6.6-6.7).
-
-    '
+    anf04 div2 6.6-6.7). Re-pointed 2026-08-26: palestinian-church-pre-constantinian (era
+    1, c. 185-312) was added on record. Works flagged in THREE separate piles turned out to
+    be this one hole - Alexandria was standing in for it on the strength of correspondence
+    with Origen, who himself moved to Caesarea around 231.'
 - work: The Extant Fragments of the Five Books of the Chronography of Julius Africanus
   author: juliusafricanus
   locus: div2 5.5
   atlas_ids:
-  - alexandria-catechetical
+  - palestinian-church-pre-constantinian
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The first Christian universal chronicle, foundation of Eusebius'' chronography. Same
-    missing-home problem; same provisional shelf.
-
-    '
+    missing-home problem; same provisional shelf. Re-pointed 2026-08-26: palestinian-church-pre-constantinian
+    (era 1, c. 185-312) was added on record. Works flagged in THREE separate piles turned
+    out to be this one hole - Alexandria was standing in for it on the strength of correspondence
+    with Origen, who himself moved to Caesarea around 231.'
 - work: Narrative of Events Happening in Persia on the Birth of Christ
   author: juliusafricanus
   locus: div2 5.4
   atlas_ids:
-  - alexandria-catechetical
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
   confidence: needs-ruling
   note: 'Printed under Africanus but generally regarded as a later pseudonymous legend; kept
-    under the attributed name pending a ruling, on the same shelf as his section.
-
-    '
+    under the attributed name pending a ruling, on the same shelf as his section. Re-pointed
+    2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold exactly this class,
+    and alexandria was a provenance guess only. STILL `needs-ruling`: the attribution doubt
+    in this note is untouched by a new entry.'
 - work: The Passion of St. Symphorosa and Her Seven Sons
   author: juliusafricanus
   locus: div2 5.6
@@ -198,16 +201,18 @@ assignments:
   author: alexander_capp
   locus: div2 6.4
   atlas_ids:
-  - alexandria-catechetical
+  - palestinian-church-pre-constantinian
   - jerusalem-liturgical-pilgrimage-christianity
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Alexander, bishop of Jerusalem (d. 251), fellow student of Origen and founder of
     the Jerusalem library; the letter fragments mention Clement and Origen (transmitted via
     Eusebius). The Jerusalem entry''s range (325-450) postdates him by a century; Alexandria
-    fits his formation only. Tiny fragments (~1k words); needs a ruling.
-
-    '
+    fits his formation only. Tiny fragments (~1k words); needs a ruling. Re-pointed 2026-08-26:
+    palestinian-church-pre-constantinian (era 1, c. 185-312) was added on record. Works flagged
+    in THREE separate piles turned out to be this one hole - Alexandria was standing in for
+    it on the strength of correspondence with Origen, who himself moved to Caesarea around
+    231.'
 - work: Fragments of Theognostus of Alexandria (from the Hypotyposes)
   author: theognostus
   locus: div2 6.5

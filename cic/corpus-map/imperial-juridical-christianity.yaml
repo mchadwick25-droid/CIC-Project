@@ -329,19 +329,6 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
-- work: Martyrs of Palestine
-  author: eusebius
-  locus: div2 3.14 — Martyrs of Palestine (between Books VIII and IX)
-  role: context
-  confidence: needs-ruling
-  note: 'Eyewitness record of the Diocletianic persecution in Palestine, 303-311. A reader
-    names it as its own work, so it is listed apart from the History. The doubt: the census
-    has no entry for the pre-Constantinian Palestinian church, and no era-1 entry covers the
-    Great Persecution. Parked as context for ijc, whose settlement this persecution immediately
-    precedes and explains; Mark may prefer another home or none.
-
-    '
-  source_file: npnf201_eusebius-church-history-life-of-constantine.xml
 - work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — The Church History of Eusebius (Books I-X)

@@ -7,7 +7,7 @@ All 274 entries are valid targets. That includes the 215 marked *Pre-Survey Cand
 The six *Built & Live* entries are the six worlds that exist today. There is one taxonomy here, not two.
 
 
-## Era 1 (I) — The Early Church Era, 70-312 CE  ·  17 entries
+## Era 1 (I) — The Early Church Era, 70-312 CE  ·  18 entries
 
 *Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council*
 
@@ -22,9 +22,10 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `alexandria-catechetical` | Alexandrian Catechetical / Christian-Platonist Tradition | c. 150–400 CE | Alexandria, Egypt | Built & Live |
 | `montanism-the-new-prophecy` | Montanism (the New Prophecy) | c. 165-400s | Phrygia, spreading | Contested - Evidentiary |
 | `bardaisanite-current` | Bardaisan and the Bardaisanites | c. 180-400 | Edessa and Osrhoene | Floor Question (register) ⛔ |
+| `palestinian-church-pre-constantinian` | The Church of Roman Palestine before Constantine | c. 185-312 | Caesarea Maritima, Jerusalem, Emmaus | Possible Future World (on record) |
 | `modalist-monarchianism` | Modalist Monarchianism | c. 190-270 | Smyrna, Rome, Libya | Floor Question (register) ⛔ |
 | `tertullian-s-voice` | Tertullian's Voice | c. 197-220 | Carthage | Possible Future World (on record) |
-| `roman-church-third-century` | The Roman Church in the Third Century | c. 200-260 | Rome | Possible Future World (on record) |
+| `roman-church-third-century` | The Roman Church in the Third Century | c. 200-268 | Rome | Possible Future World (on record) |
 | `syriac-edessa-nisibis` | Syriac Christianity (Edessa/Nisibis) | 200–410 CE | Edessa & Nisibis | Built & Live |
 | `manichaeism` | Manichaeism | 3rd-7th c. | Persia to the Mediterranean | Excluded - Doctrinal Floor (C1) ⛔ |
 | `anatolian-church-third-century` | The Anatolian Church in the Third Century | c. 240-312 | Neocaesarea in Pontus, Olympus in Lycia | Possible Future World (on record) |

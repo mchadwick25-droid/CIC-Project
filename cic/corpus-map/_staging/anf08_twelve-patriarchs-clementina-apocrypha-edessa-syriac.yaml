@@ -608,15 +608,15 @@ assignments:
   author: apocalypse-of-paul
   locus: div2 7.40
   atlas_ids:
-  - alexandria-catechetical
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The Apocalypse of Paul, c. 380-400, likely Egyptian, hugely popular in monastic circles
     and the medieval West. The SAME WORK appears in anf09 as ''The Vision of Paul'' and is
     staged identically there; alexandria is a provenance-and-era guess (desert-monasticism
     is arguably next-best given its monastic circulation). One ruling should settle both instances.
-
-    '
+    Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold exactly
+    this class, and alexandria was a provenance guess only.'
 - work: Revelation of John (apocryphal)
   author: revelation-of-john
   locus: div2 7.41
@@ -889,15 +889,17 @@ assignments:
   author: maximus-of-jerusalem
   locus: div2 10.9
   atlas_ids:
-  - post-apostolic-house-church
+  - palestinian-church-pre-constantinian
   role: tradition
   confidence: needs-ruling
   note: 'Bishop of Jerusalem, A.D. 185-196 per the notice, On the Origin of Evil. No 2nd-century
     Jerusalem entry exists (the Jerusalem entry begins 325); pahc is a stand-in. The attribution
     of this large fragment is itself disputed (it circulates with Methodius'' material), which
-    the notice acknowledges.
-
-    '
+    the notice acknowledges. Re-pointed 2026-08-26: palestinian-church-pre-constantinian (era
+    1, c. 185-312) was added on record. Works flagged in THREE separate piles turned out to
+    be this one hole - Alexandria was standing in for it on the strength of correspondence
+    with Origen, who himself moved to Caesarea around 231. STILL `needs-ruling`: the attribution
+    doubt in this note is untouched by a new entry.'
 - work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: div2 10.10

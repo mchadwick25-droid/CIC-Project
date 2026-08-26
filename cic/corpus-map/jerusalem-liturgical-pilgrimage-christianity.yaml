@@ -7,13 +7,15 @@ works:
   author: alexander_capp
   locus: div2 6.4
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Alexander, bishop of Jerusalem (d. 251), fellow student of Origen and founder of
     the Jerusalem library; the letter fragments mention Clement and Origen (transmitted via
     Eusebius). The Jerusalem entry''s range (325-450) postdates him by a century; Alexandria
-    fits his formation only. Tiny fragments (~1k words); needs a ruling.
-
-    '
+    fits his formation only. Tiny fragments (~1k words); needs a ruling. Re-pointed 2026-08-26:
+    palestinian-church-pre-constantinian (era 1, c. 185-312) was added on record. Works flagged
+    in THREE separate piles turned out to be this one hole - Alexandria was standing in for
+    it on the strength of correspondence with Origen, who himself moved to Caesarea around
+    231.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses
     I-V)

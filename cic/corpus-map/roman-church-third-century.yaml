@@ -17,6 +17,19 @@ works:
     is a Roman presbyter of exactly these decades, and roman-church-third-century was added
     on record to hold them.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: Against the Sabellians
+  author: dionysius_rome
+  locus: div2 7.2
+  role: tradition
+  confidence: assigned
+  note: 'Dionysius bishop of Rome (c. 259-268), against Sabellian and tritheist readings,
+    written into the controversy with Dionysius of Alexandria and preserved by Athanasius.
+    There is no Era-1 Roman-church entry; assigned provisionally to the Alexandrian controversy
+    it addresses. A Roman bishop''s doctrinal letter filed under Alexandria needs Mark''s
+    sign-off. Re-pointed 2026-08-26: roman-church-third-century was added on record and widened
+    to 268 to hold it. Dionysius was bishop 259-268, and a Roman bishop''s doctrinal letter
+    belongs to the Roman church rather than to the Alexandrian controversy it addresses.'
+  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
 - work: Against the Heresy of One Noetus
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - Against the Heresy of One Noetus

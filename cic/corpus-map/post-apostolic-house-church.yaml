@@ -458,18 +458,6 @@ works:
     showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
     really are its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
-- work: Fragment of Maximus of Jerusalem
-  author: maximus-of-jerusalem
-  locus: div2 10.9
-  role: tradition
-  confidence: needs-ruling
-  note: 'Bishop of Jerusalem, A.D. 185-196 per the notice, On the Origin of Evil. No 2nd-century
-    Jerusalem entry exists (the Jerusalem entry begins 325); pahc is a stand-in. The attribution
-    of this large fragment is itself disputed (it circulates with Methodius'' material), which
-    the notice acknowledges.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Fragments of Melito of Sardis
   author: melito-of-sardis
   locus: div2 10.5

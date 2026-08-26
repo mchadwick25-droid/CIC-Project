@@ -75,6 +75,29 @@ works:
     - the class these notes kept saying had no bucket. pahc is kept where the subject matter
     is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+- work: Revelation of Paul
+  author: apocalypse-of-paul
+  locus: div2 7.40
+  role: tradition
+  confidence: assigned
+  note: 'The Apocalypse of Paul, c. 380-400, likely Egyptian, hugely popular in monastic circles
+    and the medieval West. The SAME WORK appears in anf09 as ''The Vision of Paul'' and is
+    staged identically there; alexandria is a provenance-and-era guess (desert-monasticism
+    is arguably next-best given its monastic circulation). One ruling should settle both instances.
+    Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold exactly
+    this class, and alexandria was a provenance guess only.'
+  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: The Vision of Paul
+  author: apocalypse-of-paul
+  locus: div2 6.2
+  role: tradition
+  confidence: assigned
+  note: '= The Apocalypse of Paul, c. 380-400, likely Egyptian, immensely popular among monks
+    and in the medieval West. The same work is staged from anf08 (div2 7.40, ''Revelation
+    of Paul'') with the same id and the same doubt — one ruling settles both. desert-monasticism
+    is arguably next-best given its monastic circulation. Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    was added to hold exactly this class, and alexandria was a provenance guess only.'
+  source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: The Apocalypse of Peter
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
@@ -151,6 +174,17 @@ works:
     added alongside - the class these notes kept saying had no bucket. pahc is kept where
     the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: Narrative of Events Happening in Persia on the Birth of Christ
+  author: juliusafricanus
+  locus: div2 5.4
+  role: tradition
+  confidence: needs-ruling
+  note: 'Printed under Africanus but generally regarded as a later pseudonymous legend; kept
+    under the attributed name pending a ruling, on the same shelf as his section. Re-pointed
+    2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold exactly this class,
+    and alexandria was a provenance guess only. STILL `needs-ruling`: the attribution doubt
+    in this note is untouched by a new entry.'
+  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: Oration Concerning Simeon and Anna
   author: methodius
   locus: div2 11.8
@@ -238,6 +272,17 @@ works:
     the class these notes kept saying had no bucket. pahc is kept where the subject matter
     is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: The Testament of Abraham
+  author: testament-of-abraham
+  locus: div2 9.3
+  role: tradition
+  confidence: assigned
+  note: 'Jewish pseudepigraphon (Egypt, 1st-2nd c. argued) in Christian transmission — the
+    census has no bucket for the class (same problem as anf08''s Revelation of Moses and Testaments
+    of the Twelve Patriarchs); alexandria is a provenance guess only. Re-pointed 2026-08-26:
+    apocryphal-and-pseudepigraphal-literature was added to hold exactly this class, and alexandria
+    was a provenance guess only.'
+  source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: The Testaments of the Twelve Patriarchs
   author: testaments-twelve-patriarchs
   locus: div1 3 (testaments at div2 3.3-3.14)

@@ -118,15 +118,14 @@ assignments:
   author: apocalypse-of-paul
   locus: div2 6.2
   atlas_ids:
-  - alexandria-catechetical
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: '= The Apocalypse of Paul, c. 380-400, likely Egyptian, immensely popular among monks
     and in the medieval West. The same work is staged from anf08 (div2 7.40, ''Revelation
     of Paul'') with the same id and the same doubt — one ruling settles both. desert-monasticism
-    is arguably next-best given its monastic circulation.
-
-    '
+    is arguably next-best given its monastic circulation. Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    was added to hold exactly this class, and alexandria was a provenance guess only.'
 - work: The Apocalypse of the Virgin
   author: apocalypse-of-the-virgin
   locus: div2 7.2
@@ -154,14 +153,14 @@ assignments:
   author: testament-of-abraham
   locus: div2 9.3
   atlas_ids:
-  - alexandria-catechetical
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Jewish pseudepigraphon (Egypt, 1st-2nd c. argued) in Christian transmission — the
     census has no bucket for the class (same problem as anf08''s Revelation of Moses and Testaments
-    of the Twelve Patriarchs); alexandria is a provenance guess only.
-
-    '
+    of the Twelve Patriarchs); alexandria is a provenance guess only. Re-pointed 2026-08-26:
+    apocryphal-and-pseudepigraphal-literature was added to hold exactly this class, and alexandria
+    was a provenance guess only.'
 - work: The Acts of Xanthippe and Polyxena
   author: acts-of-xanthippe-and-polyxena
   locus: div2 10.2

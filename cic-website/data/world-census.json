@@ -4,12 +4,12 @@
   "version": "V0.20+era10-frozen",
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
-  "totalEntries": 286,
+  "totalEntries": 287,
   "liveCount": 6,
   "statusCounts": {
    "Built & Live": 6,
    "Selected - Not Yet Built": 3,
-   "Possible Future World (on record)": 13,
+   "Possible Future World (on record)": 14,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
@@ -625,6 +625,27 @@
    "type": "contemporary with",
    "confidence": "Documented",
    "note": "A substantial part of what circulates under both men's names is marked dubious or spurious by the edition itself."
+  },
+  {
+   "from": "alexandria-catechetical",
+   "to": "palestinian-church-pre-constantinian",
+   "type": "transmitted to",
+   "confidence": "Documented",
+   "note": "Origen moved to Caesarea around 231 and taught there for twenty years; the library grew from the books he brought."
+  },
+  {
+   "from": "palestinian-church-pre-constantinian",
+   "to": "jerusalem-liturgical-pilgrimage-christianity",
+   "type": "formed",
+   "confidence": "Widely Accepted",
+   "note": "The Jerusalem entry begins in 325, where this one ends - Alexander's library and the province's episcopate are what Constantine's builders found there."
+  },
+  {
+   "from": "palestinian-church-pre-constantinian",
+   "to": "imperial-juridical-christianity",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "Eusebius wrote the Church History and the Life of Constantine out of this library, and lived through the persecution he recorded in Martyrs of Palestine."
   }
  ],
  "movements": [
@@ -1271,15 +1292,58 @@
    "legacy": "The Cappadocian tradition claims descent from this ground explicitly, and Basil cites Gregory's practice as precedent when he wants to argue that something is old. Gregory's Canonical Epistle entered the received canon-law collections of the East and is still there. And Methodius' Banquet is the foundation of the Christian literature of virginity - everything Ambrose, Jerome and Gregory of Nyssa later wrote on the subject is downstream of it, and its argument that chastity is a form of freedom rather than a deprivation began there."
   },
   {
+   "id": "palestinian-church-pre-constantinian",
+   "atlasId": "I.39",
+   "era": 1,
+   "name": "The Church of Roman Palestine before Constantine",
+   "shortName": "Pre-Nicene Palestine",
+   "informalName": "Caesarea and Its Library",
+   "dates": "c. 185-312",
+   "start": 185,
+   "end": 312,
+   "region": "Caesarea Maritima, Jerusalem, Emmaus",
+   "regions": [
+    "Middle East",
+    "Mediterranean"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Good for the end, thin for the beginning. Eusebius' Martyrs of Palestine is a first-hand record of the persecution he lived through, and Julius Africanus' letters and Chronography fragments are vendored. Before that the evidence is fragments transmitted by Eusebius himself, which makes him both the principal witness and the principal filter.",
+   "floorNote": "Not in question",
+   "relationsSummary": "The province Origen taught in for the last twenty years of his life, and the one Eusebius was formed in. It bridges alexandria-catechetical, whose greatest teacher moved here, and jerusalem-liturgical-pilgrimage-christianity, which begins where this ends.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after works flagged in THREE SEPARATE PILES turned out to be the same hole: Alexander of Jerusalem and Julius Africanus shelved under Alexandria on the strength of their correspondence with Origen, Maximus of Jerusalem shelved under post-apostolic-house-church, and Eusebius' Martyrs of Palestine under imperial-juridical - each with a note saying no entry covers the pre-Constantinian Palestinian church. jerusalem-liturgical-pilgrimage-christianity does not begin until 325. The open question a survey would settle is whether this is one world or an institution: much of what makes it interesting is a library and the people who used it.",
+   "entry": null,
+   "longDescription": "When Origen left Alexandria for good around 231 he went to Caesarea on the Palestinian coast, and taught there for the last twenty years of his life. What grew around him outlasted him by a long way. His books stayed, and a presbyter named Pamphilus spent his life and his money enlarging them into the best Christian library in the world - the place where the Hexapla sat, where texts were corrected and copied, and where a young man called Eusebius learned to work, and afterwards called himself Eusebius of Pamphilus out of loyalty to his teacher. Up the road at Jerusalem, Bishop Alexander had built a library of his own and was collecting letters and records; further inland at Emmaus, Julius Africanus - soldier, scholar, and correspondent of Origen - wrote the first Christian universal chronicle and a careful little treatise on why the two gospel genealogies of Jesus do not agree. Then the persecution came. Pamphilus was killed in 310 and Alexander had already died in prison; Eusebius wrote down what he had watched happen to his own province, name by name, and afterwards used the library to write the history of the church.",
+   "teaser": "A coastal town, a library, and the men who built it — where Origen ended up, where Eusebius learned his trade, and where the persecution of 303 was recorded by someone who watched it.",
+   "voices": [
+    "Origen - who left Alexandria around 231 and taught here for the rest of his life",
+    "Alexander of Jerusalem - fellow student of Origen, founder of the Jerusalem library, dead in prison in the Decian persecution",
+    "Julius Africanus - soldier and scholar at Emmaus, author of the first Christian universal chronicle and of a letter to Origen on the book of Susanna",
+    "Pamphilus - the presbyter who spent everything on the Caesarean library, and was martyred in 310",
+    "Eusebius of Caesarea - Pamphilus' student, who called himself by his teacher's name, recorded the persecution he lived through, and wrote the church's first history out of these shelves"
+   ],
+   "legacy": "Almost everything anyone knows about the first three Christian centuries comes through this library. Eusebius' Church History quotes documents that survive nowhere else, and it was written from shelves Pamphilus and Alexander had assembled - so the shape of early Christian memory is partly the shape of what a Palestinian library happened to hold. The Hexapla, Origen's six-column Old Testament, sat here until the Arab conquest and was consulted by Jerome. And Africanus' chronicle is the foundation Eusebius built his own chronology on, which in turn became the frame every medieval universal history used."
+  },
+  {
    "id": "roman-church-third-century",
    "atlasId": "I.33",
    "era": 1,
    "name": "The Roman Church in the Third Century",
    "shortName": "Third-Century Rome",
    "informalName": "Callistus' Rome",
-   "dates": "c. 200-260",
+   "dates": "c. 200-268",
    "start": 200,
-   "end": 260,
+   "end": 268,
    "region": "Rome",
    "regions": [
     "Mediterranean"
@@ -1308,7 +1372,8 @@
     "Hippolytus - the learned presbyter who opposed him, set himself up as rival bishop, and wrote nearly everything we know about it",
     "Zephyrinus - Callistus' predecessor, whom Hippolytus judged out of his depth",
     "Caius - the Roman presbyter whose disputation with a Montanist survives in fragments",
-    "Cornelius - bishop from 251, whose correspondence with Cyprian opens the Novatian crisis"
+    "Cornelius - bishop from 251, whose correspondence with Cyprian opens the Novatian crisis",
+    "Dionysius of Rome - bishop 259-268, whose letter against Sabellian and tritheist readings, written into the controversy with his Alexandrian namesake, is the clearest doctrinal statement the Roman see made in this century"
    ],
    "legacy": "The questions argued here did not go away: whether the church can restore the gravely lapsed is what the Novatian schism of 251 and the Donatist controversy of the next century are both about, and Rome's answer - that it can - is the one the Western church kept. Hippolytus' Refutation, written to discredit Callistus, incidentally preserves more information about second and third-century religious movements than any other surviving book."
   },

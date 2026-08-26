@@ -45,14 +45,11 @@ SWEEPS = {
         "entries took it apart: `roman-church-third-century` (Hippolytus and Caius, who fell off "
         "the end of pahc's 200 CE window), `greek-apologists-second-century`, and "
         "`apocryphal-and-pseudepigraphal-literature`. What is left are three unrelated singles.",
-    "alexandria-catechetical":
-        "Mostly Origen's reception and the third-century Alexandrian controversy - works whose "
-        "Alexandrian connection is real but whose own home entry does not exist (Dionysius of "
-        "Rome, Julius Africanus' correspondence, Methodius arguing against Origen).",
+
     "imperial-juridical-christianity":
-        "**Not the historians.** Eusebius, Socrates, Sozomen and Theodoret are all `assigned` "
-        "here and always were. What is left: *Martyrs of Palestine*, because no entry covers the "
-        "pre-Constantinian Palestinian church or the Great Persecution; and the *Canonical Epistles of the Fathers*, where the question is granularity - a per-father "
+        "**Not the historians, and now down to one.** Eusebius, Socrates, Sozomen and Theodoret "
+        "are all `assigned` here and always were; *Martyrs of Palestine* went to "
+        "`palestinian-church-pre-constantinian`. What is left is the *Canonical Epistles of the Fathers*, where the question is granularity - a per-father "
         "split would send Basil and the Gregories to the Cappadocian entry and Athanasius and "
         "Peter to Alexandria, but would mint ten rows for seventeen thousand words of canons. "
         "(Lactantius' *Divine Institutes* is the third of this entry's questions and files under "
@@ -158,7 +155,7 @@ def main() -> None:
         "decide. Every entry answers the same complaint, raised independently by workers who "
         "could not see each other: *this material is real and the census has nowhere accurate to "
         "put it.*\n\n"
-        "Six are formation-world candidates, on record as *Possible Future World*:\n\n"
+        "Seven are formation-world candidates, on record as *Possible Future World*:\n\n"
         "- **`gallic-monastic-ascetic-christianity`** (era 2, c. 360–450, *Possible Future World "
         "on record*). Closed the pre-Merovingian Gaul hole that two workers hit independently. "
         "**Seven works re-pointed**, six of them to `assigned`; the *Doubtful Letters of "
@@ -170,6 +167,13 @@ def main() -> None:
         "- **`palestinian-ascetic-monasticism-early`** (era 2, c. 330–450). The same shape as "
         "Gaul: `chalcedonian-monasticism-judean-desert-and-gaza` does not begin until c. 450. "
         "Took Jerome's *Hilarion* and *Malchus*.\n"
+        "- **`palestinian-church-pre-constantinian`** (era 1, c. 185–312). Caesarea and its "
+        "library — where Origen went after Alexandria, where Pamphilus spent his life and money, "
+        "and where Eusebius learned to work. **Works flagged in three separate piles turned out "
+        "to be this one hole**: Alexander of Jerusalem and Julius Africanus under Alexandria, "
+        "Maximus of Jerusalem under `pahc`, and Eusebius' *Martyrs of Palestine* under "
+        "`imperial-juridical`, each noting that nothing covers pre-Constantinian Palestine. The "
+        "Jerusalem entry does not begin until 325.\n"
         "- **`anatolian-church-third-century`** (era 1, c. 240–312). Gregory Thaumaturgus in "
         "Pontus and Methodius in Lycia. **The gap was regional, not per-author**, which is why it "
         "is one entry and not two: `post-apostolic-house-church` ends at 200, and between that "

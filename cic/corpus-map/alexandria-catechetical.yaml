@@ -17,18 +17,6 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Fragments of Alexander of Cappadocia
-  author: alexander_capp
-  locus: div2 6.4
-  role: tradition
-  confidence: needs-ruling
-  note: 'Alexander, bishop of Jerusalem (d. 251), fellow student of Origen and founder of
-    the Jerusalem library; the letter fragments mention Clement and Origen (transmitted via
-    Eusebius). The Jerusalem entry''s range (325-450) postdates him by a century; Alexandria
-    fits his formation only. Tiny fragments (~1k words); needs a ruling.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: Letter of Anastasius to John of Jerusalem concerning Rufinus
   author: anastasius_rome
   locus: div2 5.10
@@ -51,30 +39,6 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Revelation of Paul
-  author: apocalypse-of-paul
-  locus: div2 7.40
-  role: tradition
-  confidence: needs-ruling
-  note: 'The Apocalypse of Paul, c. 380-400, likely Egyptian, hugely popular in monastic circles
-    and the medieval West. The SAME WORK appears in anf09 as ''The Vision of Paul'' and is
-    staged identically there; alexandria is a provenance-and-era guess (desert-monasticism
-    is arguably next-best given its monastic circulation). One ruling should settle both instances.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Vision of Paul
-  author: apocalypse-of-paul
-  locus: div2 6.2
-  role: tradition
-  confidence: needs-ruling
-  note: '= The Apocalypse of Paul, c. 380-400, likely Egyptian, immensely popular among monks
-    and in the medieval West. The same work is staged from anf08 (div2 7.40, ''Revelation
-    of Paul'') with the same id and the same doubt — one ruling settles both. desert-monasticism
-    is arguably next-best given its monastic circulation.
-
-    '
-  source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: The Apocalypse of Peter
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
@@ -386,19 +350,6 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: Against the Sabellians
-  author: dionysius_rome
-  locus: div2 7.2
-  role: tradition
-  confidence: needs-ruling
-  note: 'Dionysius bishop of Rome (c. 259-268), against Sabellian and tritheist readings,
-    written into the controversy with Dionysius of Alexandria and preserved by Athanasius.
-    There is no Era-1 Roman-church entry; assigned provisionally to the Alexandrian controversy
-    it addresses. A Roman bishop''s doctrinal letter filed under Alexandria needs Mark''s
-    sign-off.
-
-    '
-  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
 - work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — Books II-VII in particular
@@ -462,38 +413,6 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
-- work: Narrative of Events Happening in Persia on the Birth of Christ
-  author: juliusafricanus
-  locus: div2 5.4
-  role: tradition
-  confidence: needs-ruling
-  note: 'Printed under Africanus but generally regarded as a later pseudonymous legend; kept
-    under the attributed name pending a ruling, on the same shelf as his section.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Epistle to Aristides
-  author: juliusafricanus
-  locus: div2 5.3
-  role: tradition
-  confidence: needs-ruling
-  note: 'On the harmony of the gospel genealogies - pioneering critical scholarship. Africanus
-    (3rd-c. Emmaus/Palestine) has no census home; shelved with alexandria-catechetical only
-    on the strength of his documented scholarly exchange with Origen (the Susanna correspondence,
-    anf04 div2 6.6-6.7).
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
-- work: The Extant Fragments of the Five Books of the Chronography of Julius Africanus
-  author: juliusafricanus
-  locus: div2 5.5
-  role: tradition
-  confidence: needs-ruling
-  note: 'The first Christian universal chronicle, foundation of Eusebius'' chronography. Same
-    missing-home problem; same provisional shelf.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Divine Liturgy of Mark
   author: liturgy-of-st-mark
   locus: div2 12.3
@@ -732,17 +651,6 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
-- work: The Testament of Abraham
-  author: testament-of-abraham
-  locus: div2 9.3
-  role: tradition
-  confidence: needs-ruling
-  note: 'Jewish pseudepigraphon (Egypt, 1st-2nd c. argued) in Christian transmission — the
-    census has no bucket for the class (same problem as anf08''s Revelation of Moses and Testaments
-    of the Twelve Patriarchs); alexandria is a provenance guess only.
-
-    '
-  source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: Excerpts of Theodotus
   author: theodotus
   locus: div2 4.3
