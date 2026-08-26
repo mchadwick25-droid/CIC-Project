@@ -69,6 +69,73 @@ ACCEPTED_OPEN: dict[str, str] = {
 }
 
 
+# FIRST-PASS coverage ranges, asserted here for Mark's correction, not derived.
+# A volume's own dates cannot be read off the file mechanically, and guessing
+# them silently would be worse than stating them where they can be argued
+# with. Range = the span the volume's contents actually testify to, so a
+# history written in the 440s about 305-439 carries the span it covers, not
+# its composition date. Overlap with a world's `time_window` is what puts a
+# volume in that world's scope.
+COVERAGE = {
+    "addai": (30, 400), "anf01": (90, 202), "anf02": (100, 215), "anf03": (155, 240),
+    "anf04": (155, 254), "anf05": (170, 258), "anf06": (200, 311), "anf07": (90, 380),
+    "anf08": (100, 400), "anf09": (150, 254), "aphrahat": (336, 345),
+    "chronicle-of-edessa": (130, 540), "ephraim": (306, 373),
+    "npnf101": (354, 430), "npnf102": (354, 430), "npnf103": (354, 430), "npnf104": (354, 430),
+    "npnf105": (354, 430), "npnf106": (354, 430), "npnf107": (354, 430), "npnf108": (354, 430),
+    "npnf109": (349, 407), "npnf110": (349, 407), "npnf111": (349, 407), "npnf112": (349, 407),
+    "npnf113": (349, 407), "npnf114": (349, 407),
+    "npnf201": (260, 339), "npnf202": (305, 439), "npnf203": (340, 466), "npnf204": (296, 373),
+    "npnf205": (335, 395), "npnf206": (347, 420), "npnf207": (313, 390), "npnf208": (330, 379),
+    "npnf209": (310, 749), "npnf210": (339, 397), "npnf211": (360, 450), "npnf212": (400, 604),
+    "npnf213": (300, 604), "npnf214": (325, 787), "optatus": (320, 400),
+    "origen": (185, 254), "palladius": (320, 420),
+}
+BY_DESIGN = {"webbe", "anf10"}
+
+# The principal authors each volume carries, from its own title. Used for the
+# one signal in this report that is DERIVED rather than asserted: a world that
+# already names a figure in its records, and has never opened that figure's
+# own vendored works, is reaching them second-hand. That is measurable, and it
+# is how Basil surfaced. Date overlap alone is far too blunt - it puts the
+# Chronicle of Edessa on Alexandria's list - so it sets the candidate pool
+# only, and this narrows it to what a human should look at first.
+AUTHORS = {
+    "anf01": ["Clement of Rome", "Ignatius", "Polycarp", "Justin", "Irenaeus"],
+    "anf02": ["Hermas", "Tatian", "Athenagoras", "Theophilus", "Clement of Alexandria"],
+    "anf03": ["Tertullian"], "anf04": ["Tertullian", "Minucius Felix", "Origen"],
+    "anf05": ["Hippolytus", "Cyprian", "Novatian"],
+    "anf06": ["Gregory Thaumaturgus", "Dionysius", "Julius Africanus", "Methodius", "Arnobius"],
+    "anf07": ["Lactantius"], "anf09": ["Origen"],
+    "aphrahat": ["Aphrahat"], "ephraim": ["Ephrem", "Ephraim"],
+    "npnf101": ["Augustine"], "npnf102": ["Augustine"], "npnf103": ["Augustine"],
+    "npnf104": ["Augustine"], "npnf105": ["Augustine"], "npnf106": ["Augustine"],
+    "npnf107": ["Augustine"], "npnf108": ["Augustine"],
+    "npnf109": ["Chrysostom"], "npnf110": ["Chrysostom"], "npnf111": ["Chrysostom"],
+    "npnf112": ["Chrysostom"], "npnf113": ["Chrysostom"], "npnf114": ["Chrysostom"],
+    "npnf201": ["Eusebius"], "npnf202": ["Socrates", "Sozomen"],
+    "npnf203": ["Theodoret", "Jerome", "Rufinus"], "npnf204": ["Athanasius"],
+    "npnf205": ["Gregory of Nyssa"], "npnf206": ["Jerome"],
+    "npnf207": ["Cyril of Jerusalem", "Gregory Nazianzen", "Nazianz"],
+    "npnf208": ["Basil"], "npnf209": ["Hilary"], "npnf210": ["Ambrose"],
+    "npnf211": ["Sulpitius", "Vincent of Lerins", "Cassian"],
+    "npnf212": ["Leo"], "npnf213": ["Ephrem", "Aphrahat"], "npnf214": ["Nicaea", "Chalcedon"],
+    "optatus": ["Optatus"], "origen": ["Origen"], "palladius": ["Palladius"],
+}
+
+
+def corpus_key(filename: str) -> str:
+    return re.split(r"[_.]", filename)[0]
+
+
+_TEXTS_DIR = REPO_ROOT / "cic" / "texts"
+_AUTHORS_BY_FILE = {
+    p.name: AUTHORS[corpus_key(p.name)]
+    for p in (_TEXTS_DIR.iterdir() if _TEXTS_DIR.is_dir() else [])
+    if p.suffix in (".xml", ".txt") and corpus_key(p.name) in AUTHORS
+}
+
+
 # --------------------------------------------------------------------------
 # finding plumbing
 # --------------------------------------------------------------------------
@@ -490,6 +557,42 @@ def observe_uncompiled_required_fields(*, records, worlds, **_) -> list[Finding]
     return findings
 
 
+def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
+    """Mark's standard, 2026-08-26: every world should reach every available
+    resource - they can be ranked, but never ignored.
+
+    The runtime cannot deliver that by ranking. engine/m4 never opens a file
+    under cic/texts/; retrieval runs over the world's own compiled records
+    alone, so a volume with no source record in a world is invisible at turn
+    time however it is ranked. "Not ignored" therefore has to mean a source
+    record exists, even a low-ranked one.
+
+    Reported here is the sharpest DERIVED slice of that, not the blunt one:
+    volumes whose principal author this world already NAMES in its records
+    while never opening that author's own vendored works. Date overlap alone
+    is far too coarse to act on - it puts the Chronicle of Edessa on
+    Alexandria's list - so it sets the candidate pool and this narrows it.
+    A world naming Basil and reaching him only through Palladius is sourcing
+    him second-hand, and that is measurable rather than asserted.
+    """
+    findings = []
+    for w in worlds:
+        blob = " ".join(
+            str(v) for r in records[w].values() for k, v in r.items()
+            if k != "_body" and isinstance(v, str)
+        )
+        opened = {p for r in records[w].values() for p in re.findall(r"cic/texts/([\w.-]+)", str(r.get("edition") or ""))}
+        second_hand = []
+        for filename, authors in ((f, a) for f, a in _AUTHORS_BY_FILE.items() if f not in opened):
+            if any(author in blob for author in authors):
+                second_hand.append(filename)
+        findings.append(_observation(
+            "second-hand-source", w,
+            f"{len(second_hand)} vendored volume(s) whose author this world names but never opens: "
+            + (", ".join(sorted(second_hand)) or "none")))
+    return findings
+
+
 CHECKS = [
     check_registry_shape,
     check_package_pinned,
@@ -508,6 +611,7 @@ CHECKS = [
     observe_optional_field_adoption,
     observe_source_licensing,
     observe_uncompiled_required_fields,
+    observe_second_hand_sources,
 ]
 
 

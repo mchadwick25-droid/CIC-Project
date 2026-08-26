@@ -112,3 +112,126 @@ No basis recorded either way. Most are plainly out of every world's window or ge
 - `npnf114_chrysostom-homilies-john-hebrews.xml` — Chrysostom: John, Hebrews
 - `optatus_against-the-donatists.txt` — Optatus: Against the Donatists
 
+
+## Worklist — in scope for a world, with no source record there
+
+Mark's standard, 2026-08-26: *every world should reach every available resource; they can be ranked, but not ignored.* A volume becomes in-scope for a world when its coverage range overlaps that world's `time_window`.
+
+**The runtime cannot close this gap by ranking.** `engine/m4` never opens a file under `cic/texts/` — retrieval runs entirely over the world's own `compiled/repository.json`. A volume with no source record in a world is invisible at turn time whatever the ranking does, so 'not ignored' has to mean a source record exists (even a low-ranked one), not a retrieval change.
+
+Coverage ranges below are a **first pass asserted for correction**, not derived — a volume's dates cannot be read off the file mechanically. Argue with them.
+
+| world | window | in-scope volumes | already sourced | **to review** |
+|---|---|---|---|---|
+| `alx` | 150–400 | 44 | 10 | **34** |
+| `pahc` | 70–200 | 12 | 5 | **7** |
+| `desert` | 320–430 | 36 | 4 | **32** |
+| `hal` | 382–420 | 30 | 5 | **25** |
+| `syr` | 200–410 | 44 | 11 | **33** |
+| `ijc` | 312–451 | 36 | 10 | **26** |
+
+### `alx` — 34 in-scope volume(s) with no source record
+
+**Already named in this world's records, never opened** — reached second-hand:
+
+- `npnf206_jerome-principal-works.xml` (347–420) — Jerome (incl. desert Lives)
+- `npnf207_cyril-jerusalem-gregory-nazianzen.xml` (313–390) — Cyril of Jerusalem, Gregory Nazianzen
+- `npnf208_basil-letters-select-works.xml` (330–379) — Basil: letters and select works (ASCETIC)
+- `npnf212_leo-great-gregory-great.xml` (400–604) — Leo the Great, Gregory the Great
+- `npnf214_seven-ecumenical-councils.xml` (325–787) — The Seven Ecumenical Councils
+
+Date-overlap candidates with no figure already named — 29, a human ruling each:
+
+  `addai_doctrine-of-addai.txt`, `anf01_apostolic-fathers-justin-irenaeus.xml`, `anf03_tertullian.xml`, `anf05_hippolytus-cyprian-caius-novatian.xml`, `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`, `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`, `aphrahat_demonstrations-2-7_hallock1932.txt`, `chronicle-of-edessa_cowper.txt`, `ephraim_prose-refutations_mitchell1912-1921.txt`, `npnf101_augustine-confessions-letters.xml`, `npnf102_augustine-city-of-god-christian-doctrine.xml`, `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml`, `npnf104_augustine-anti-manichaean-anti-donatist.xml`, `npnf105_augustine-anti-pelagian-writings.xml`, `npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml`, `npnf107_augustine-homilies-john-soliloquies.xml`, `npnf108_augustine-exposition-psalms.xml`, `npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml`, `npnf110_chrysostom-homilies-matthew.xml`, `npnf111_chrysostom-homilies-acts-romans.xml`, `npnf112_chrysostom-homilies-corinthians.xml`, `npnf113_chrysostom-homilies-galatians-philemon.xml`, `npnf114_chrysostom-homilies-john-hebrews.xml`, `npnf205_gregory-nyssa-dogmatic-treatises.txt`, `npnf209_hilary-poitiers-john-damascus.xml`, `npnf210_ambrose-select-works-letters.xml`, `npnf211_sulpitius-severus-vincent-lerins-cassian.xml`, `npnf213_gregory-great-ephraim-syrus-aphrahat.xml`, `optatus_against-the-donatists.txt`
+
+
+### `pahc` — 7 in-scope volume(s) with no source record
+
+**Already named in this world's records, never opened** — reached second-hand:
+
+- `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` (155–254) — Tertullian, Minucius Felix, Origen
+- `npnf202_socrates-sozomen-ecclesiastical-histories.xml` (305–439) — Socrates, Sozomen: histories · *outside this window*
+- `npnf204_athanasius-select-works-letters.xml` (296–373) — Athanasius (incl. Vita Antonii) · *outside this window*
+- `origen_philocalia_lewis1911.txt` (185–254) — Origen: Philocalia
+
+Date-overlap candidates with no figure already named — 5, a human ruling each:
+
+  `addai_doctrine-of-addai.txt`, `anf05_hippolytus-cyprian-caius-novatian.xml`, `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml`, `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`, `chronicle-of-edessa_cowper.txt`
+
+
+### `desert` — 32 in-scope volume(s) with no source record
+
+**Already named in this world's records, never opened** — reached second-hand:
+
+- `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` (100–215) — Hermas, Tatian, Clement of Alexandria · *outside this window*
+- `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` (155–254) — Tertullian, Minucius Felix, Origen · *outside this window*
+- `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` (150–254) — Gospel of Peter, Diatessaron, Origen · *outside this window*
+- `npnf208_basil-letters-select-works.xml` (330–379) — Basil: letters and select works (ASCETIC)
+- `npnf214_seven-ecumenical-councils.xml` (325–787) — The Seven Ecumenical Councils
+- `origen_philocalia_lewis1911.txt` (185–254) — Origen: Philocalia · *outside this window*
+
+Date-overlap candidates with no figure already named — 30, a human ruling each:
+
+  `addai_doctrine-of-addai.txt`, `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`, `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`, `aphrahat_demonstrations-2-7_hallock1932.txt`, `chronicle-of-edessa_cowper.txt`, `ephraim_prose-refutations_mitchell1912-1921.txt`, `npnf101_augustine-confessions-letters.xml`, `npnf102_augustine-city-of-god-christian-doctrine.xml`, `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml`, `npnf104_augustine-anti-manichaean-anti-donatist.xml`, `npnf105_augustine-anti-pelagian-writings.xml`, `npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml`, `npnf107_augustine-homilies-john-soliloquies.xml`, `npnf108_augustine-exposition-psalms.xml`, `npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml`, `npnf110_chrysostom-homilies-matthew.xml`, `npnf111_chrysostom-homilies-acts-romans.xml`, `npnf112_chrysostom-homilies-corinthians.xml`, `npnf113_chrysostom-homilies-galatians-philemon.xml`, `npnf114_chrysostom-homilies-john-hebrews.xml`, `npnf201_eusebius-church-history-life-of-constantine.xml`, `npnf203_theodoret-jerome-gennadius-rufinus.xml`, `npnf205_gregory-nyssa-dogmatic-treatises.txt`, `npnf206_jerome-principal-works.xml`, `npnf207_cyril-jerusalem-gregory-nazianzen.xml`, `npnf209_hilary-poitiers-john-damascus.xml`, `npnf210_ambrose-select-works-letters.xml`, `npnf212_leo-great-gregory-great.xml`, `npnf213_gregory-great-ephraim-syrus-aphrahat.xml`, `optatus_against-the-donatists.txt`
+
+
+### `hal` — 25 in-scope volume(s) with no source record
+
+**Already named in this world's records, never opened** — reached second-hand:
+
+- `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` (155–254) — Tertullian, Minucius Felix, Origen · *outside this window*
+- `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` (150–254) — Gospel of Peter, Diatessaron, Origen · *outside this window*
+- `npnf102_augustine-city-of-god-christian-doctrine.xml` (354–430) — Augustine: City of God
+- `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml` (354–430) — Augustine: Trinity, moral treatises
+- `npnf104_augustine-anti-manichaean-anti-donatist.xml` (354–430) — Augustine: anti-Manichaean/Donatist
+- `npnf105_augustine-anti-pelagian-writings.xml` (354–430) — Augustine: anti-Pelagian
+- `npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml` (354–430) — Augustine: Sermon on the Mount, homilies
+- `npnf107_augustine-homilies-john-soliloquies.xml` (354–430) — Augustine: homilies on John
+- `npnf108_augustine-exposition-psalms.xml` (354–430) — Augustine: Psalms
+- `npnf201_eusebius-church-history-life-of-constantine.xml` (260–339) — Eusebius: Church History · *outside this window*
+- `npnf214_seven-ecumenical-councils.xml` (325–787) — The Seven Ecumenical Councils
+- `origen_philocalia_lewis1911.txt` (185–254) — Origen: Philocalia · *outside this window*
+
+Date-overlap candidates with no figure already named — 17, a human ruling each:
+
+  `addai_doctrine-of-addai.txt`, `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`, `chronicle-of-edessa_cowper.txt`, `npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml`, `npnf110_chrysostom-homilies-matthew.xml`, `npnf111_chrysostom-homilies-acts-romans.xml`, `npnf112_chrysostom-homilies-corinthians.xml`, `npnf113_chrysostom-homilies-galatians-philemon.xml`, `npnf114_chrysostom-homilies-john-hebrews.xml`, `npnf202_socrates-sozomen-ecclesiastical-histories.xml`, `npnf205_gregory-nyssa-dogmatic-treatises.txt`, `npnf207_cyril-jerusalem-gregory-nazianzen.xml`, `npnf209_hilary-poitiers-john-damascus.xml`, `npnf210_ambrose-select-works-letters.xml`, `npnf212_leo-great-gregory-great.xml`, `npnf213_gregory-great-ephraim-syrus-aphrahat.xml`, `optatus_against-the-donatists.txt`
+
+
+### `syr` — 33 in-scope volume(s) with no source record
+
+**Already named in this world's records, never opened** — reached second-hand:
+
+- `anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml` (100–215) — Hermas, Tatian, Clement of Alexandria
+- `anf04_tertullian4-minucius-felix-commodian-origen1-2.xml` (155–254) — Tertullian, Minucius Felix, Origen
+- `anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml` (200–311) — Gregory Thaumaturgus, Dionysius, Methodius
+- `npnf206_jerome-principal-works.xml` (347–420) — Jerome (incl. desert Lives)
+- `npnf208_basil-letters-select-works.xml` (330–379) — Basil: letters and select works (ASCETIC)
+- `npnf214_seven-ecumenical-councils.xml` (325–787) — The Seven Ecumenical Councils
+- `origen_philocalia_lewis1911.txt` (185–254) — Origen: Philocalia
+
+Date-overlap candidates with no figure already named — 26, a human ruling each:
+
+  `anf01_apostolic-fathers-justin-irenaeus.xml`, `anf03_tertullian.xml`, `anf05_hippolytus-cyprian-caius-novatian.xml`, `anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`, `npnf101_augustine-confessions-letters.xml`, `npnf102_augustine-city-of-god-christian-doctrine.xml`, `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml`, `npnf104_augustine-anti-manichaean-anti-donatist.xml`, `npnf105_augustine-anti-pelagian-writings.xml`, `npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml`, `npnf107_augustine-homilies-john-soliloquies.xml`, `npnf108_augustine-exposition-psalms.xml`, `npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml`, `npnf110_chrysostom-homilies-matthew.xml`, `npnf111_chrysostom-homilies-acts-romans.xml`, `npnf112_chrysostom-homilies-corinthians.xml`, `npnf113_chrysostom-homilies-galatians-philemon.xml`, `npnf114_chrysostom-homilies-john-hebrews.xml`, `npnf204_athanasius-select-works-letters.xml`, `npnf205_gregory-nyssa-dogmatic-treatises.txt`, `npnf207_cyril-jerusalem-gregory-nazianzen.xml`, `npnf209_hilary-poitiers-john-damascus.xml`, `npnf210_ambrose-select-works-letters.xml`, `npnf211_sulpitius-severus-vincent-lerins-cassian.xml`, `npnf212_leo-great-gregory-great.xml`, `optatus_against-the-donatists.txt`
+
+
+### `ijc` — 26 in-scope volume(s) with no source record
+
+**Already named in this world's records, never opened** — reached second-hand:
+
+- `anf01_apostolic-fathers-justin-irenaeus.xml` (90–202) — Apostolic Fathers, Justin, Irenaeus · *outside this window*
+- `npnf102_augustine-city-of-god-christian-doctrine.xml` (354–430) — Augustine: City of God
+- `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml` (354–430) — Augustine: Trinity, moral treatises
+- `npnf104_augustine-anti-manichaean-anti-donatist.xml` (354–430) — Augustine: anti-Manichaean/Donatist
+- `npnf105_augustine-anti-pelagian-writings.xml` (354–430) — Augustine: anti-Pelagian
+- `npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml` (354–430) — Augustine: Sermon on the Mount, homilies
+- `npnf107_augustine-homilies-john-soliloquies.xml` (354–430) — Augustine: homilies on John
+- `npnf108_augustine-exposition-psalms.xml` (354–430) — Augustine: Psalms
+- `npnf206_jerome-principal-works.xml` (347–420) — Jerome (incl. desert Lives)
+- `npnf207_cyril-jerusalem-gregory-nazianzen.xml` (313–390) — Cyril of Jerusalem, Gregory Nazianzen
+- `npnf208_basil-letters-select-works.xml` (330–379) — Basil: letters and select works (ASCETIC)
+
+Date-overlap candidates with no figure already named — 16, a human ruling each:
+
+  `addai_doctrine-of-addai.txt`, `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`, `aphrahat_demonstrations-2-7_hallock1932.txt`, `chronicle-of-edessa_cowper.txt`, `ephraim_prose-refutations_mitchell1912-1921.txt`, `npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml`, `npnf110_chrysostom-homilies-matthew.xml`, `npnf111_chrysostom-homilies-acts-romans.xml`, `npnf112_chrysostom-homilies-corinthians.xml`, `npnf113_chrysostom-homilies-galatians-philemon.xml`, `npnf114_chrysostom-homilies-john-hebrews.xml`, `npnf205_gregory-nyssa-dogmatic-treatises.txt`, `npnf211_sulpitius-severus-vincent-lerins-cassian.xml`, `npnf213_gregory-great-ephraim-syrus-aphrahat.xml`, `optatus_against-the-donatists.txt`, `palladius_lausiac-history_clarke1918.txt`
+
+

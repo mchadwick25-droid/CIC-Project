@@ -42,6 +42,12 @@ from engine.m1.loader import RECORDS_ROOT, load_world_records  # noqa: E402
 sys.path.insert(0, str(ROOT / "cic" / "engine"))
 import texts_registry  # noqa: E402
 
+# The corpus-scope tables live with the standing check that also reads them
+# (engine/m1/cross_world.py). A second copy here is exactly how this report
+# would come to disagree with the check it exists to illustrate.
+from engine.m1.cross_world import BY_DESIGN, COVERAGE, corpus_key as key_for  # noqa: E402
+from engine.m1.cross_world import observe_second_hand_sources  # noqa: E402
+
 TEXTS_DIR = ROOT / "cic" / "texts"
 W = ["alx", "pahc", "desert", "hal", "syr", "ijc"]
 
@@ -226,6 +232,71 @@ def main() -> None:
             )
         for filename, why in rows:
             out.append(f"- `{filename}` — {subject_for(filename)}" + (f"  \n  {why}" if why else ""))
+    out.append("")
+
+    # --- the worklist Mark's "ranked, never ignored" standard implies ------
+    import yaml
+    reg = yaml.safe_load((ROOT / "records" / "worlds.yaml").read_text())["worlds"]
+    out.append("\n## Worklist — in scope for a world, with no source record there\n")
+    out.append(
+        "Mark's standard, 2026-08-26: *every world should reach every available resource; "
+        "they can be ranked, but not ignored.* A volume becomes in-scope for a world when "
+        "its coverage range overlaps that world's `time_window`.\n"
+    )
+    out.append(
+        "**The runtime cannot close this gap by ranking.** `engine/m4` never opens a file "
+        "under `cic/texts/` — retrieval runs entirely over the world's own "
+        "`compiled/repository.json`. A volume with no source record in a world is invisible "
+        "at turn time whatever the ranking does, so 'not ignored' has to mean a source "
+        "record exists (even a low-ranked one), not a retrieval change.\n"
+    )
+    out.append(
+        "Coverage ranges below are a **first pass asserted for correction**, not derived — "
+        "a volume's dates cannot be read off the file mechanically. Argue with them.\n"
+    )
+    out.append("| world | window | in-scope volumes | already sourced | **to review** |")
+    out.append("|---|---|---|---|---|")
+    second_hand_by_world = {
+        f.scope: re.findall(r"[\w.-]+\.(?:xml|txt)", f.message)
+        for f in observe_second_hand_sources(records=records, worlds=W)
+    }
+    worklist = {}
+    for w in W:
+        win = reg[w]["time_window"]
+        in_scope, sourced = [], []
+        for filename in files:
+            k = key_for(filename)
+            if k in BY_DESIGN or k not in COVERAGE:
+                continue
+            lo, hi = COVERAGE[k]
+            if hi < win["start"] or lo > win["end"]:
+                continue
+            in_scope.append(filename)
+            (sourced if counts.get(filename, {}).get(w) else worklist.setdefault(w, [])).append(filename)
+        worklist.setdefault(w, [])
+        out.append(f"| `{w}` | {win['start']}–{win['end']} | {len(in_scope)} | {len(in_scope) - len(worklist[w])} | **{len(worklist[w])}** |")
+    for w in W:
+        if not worklist[w]:
+            continue
+        out.append(f"\n### `{w}` — {len(worklist[w])} in-scope volume(s) with no source record\n")
+        # The named/never-opened list comes from the standing check itself, so
+        # this report and `python -m engine.m1.cross_world` can never disagree
+        # about it. Deliberately NOT date-filtered: a world that names Origen
+        # has admitted he is relevant to it, whatever its own window says.
+        named = sorted(second_hand_by_world.get(w, []))
+        unnamed = [f for f in worklist[w] if f not in named]
+        if named:
+            out.append("**Already named in this world's records, never opened** — reached second-hand:\n")
+            for filename in named:
+                lo, hi = COVERAGE.get(key_for(filename), (None, None))
+                win = reg[w]["time_window"]
+                flag = "" if lo is None or not (hi < win["start"] or lo > win["end"]) else " · *outside this window*"
+                out.append(f"- `{filename}` ({lo}–{hi}) — {subject_for(filename)}{flag}")
+            out.append("")
+        if unnamed:
+            out.append(f"Date-overlap candidates with no figure already named — {len(unnamed)}, a human ruling each:\n")
+            out.append("  " + ", ".join(f"`{f}`" for f in unnamed))
+            out.append("")
     out.append("")
 
     target = Path(__file__).resolve().parent / "CORPUS-USE.md"
