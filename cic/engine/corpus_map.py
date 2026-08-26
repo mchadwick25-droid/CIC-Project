@@ -89,6 +89,8 @@ def load() -> dict[str, dict]:
     if not MAP_DIR.is_dir():
         return out
     for path in sorted(MAP_DIR.glob("*.yaml")):
+        if path.name == "UNATTRIBUTED.yaml":      # a ruling list, not a bucket
+            continue
         out[path.stem] = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     return out
 
@@ -104,6 +106,17 @@ def validate() -> list[str]:
     from corpus_authors import build_index
 
     known_authors = set(build_index()[0])
+    # Authors CCEL's markup does not supply, ruled on with evidence by the
+    # assignment thread and collected by corpus_map_merge.py. Without this the
+    # Didache and the Pastor of Hermas have no legal `author` value at all,
+    # and §6.4 of the brief makes them first-class - so the escape has to
+    # exist. It is narrow on purpose: a slug is legal because a RULING exists,
+    # never because a session was confident.
+    unattributed = MAP_DIR / "UNATTRIBUTED.yaml"
+    if unattributed.is_file():
+        import yaml
+        declared = (yaml.safe_load(unattributed.read_text(encoding="utf-8")) or {}).get("authors") or {}
+        known_authors |= set(declared)
 
     for atlas_id, doc in load().items():
         where = f"{atlas_id}.yaml"

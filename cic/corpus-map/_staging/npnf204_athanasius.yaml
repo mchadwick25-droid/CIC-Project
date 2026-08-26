@@ -1,0 +1,21 @@
+# SEEDED WORKED EXAMPLE, 2026-08-26 - two real works, both already vendored and
+# already cited by the worlds they are assigned to. Nothing here is invented.
+# One staging file per source volume; a worker owns its file and no other, which
+# is why parallel assignment cannot race.
+source_file: npnf204_athanasius-select-works-letters.xml
+
+assignments:
+  - work: "Vita Antonii (Life of Antony)"
+    author: athanasius
+    locus: "div1 'Life of Antony'"
+    atlas_ids:
+      - desert-monasticism
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      The single most influential text about the desert world, written from
+      outside it by a bishop who was not a desert participant. Assigned to
+      desert as primary evidence AND to Alexandria as its author's own work -
+      assignment is not exclusive, and an exclusive partition would strip
+      desert of its evidential base. 43 desert records already cite it.
