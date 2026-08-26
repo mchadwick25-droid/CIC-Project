@@ -2,7 +2,21 @@
 # already cited by the worlds they are assigned to. Nothing here is invented.
 # One staging file per source volume; a worker owns its file and no other, which
 # is why parallel assignment cannot race.
+# EXTENDED 2026-08-26 by the assignment run: the rest of the volume's works
+# added below the seeded Vita Antonii entry, which is unchanged. The 86,682-word
+# Prolegomena (div1 5), all per-work Introductions, Excursus and indexes are
+# nineteenth-century apparatus and are skipped.
 source_file: npnf204_athanasius-select-works-letters.xml
+
+authors_ruled:
+  historia_acephala:
+    kind: anonymous
+    evidence: >
+      div3 title "The Historia Acephala" under div1 25 "Letters of Athanasius
+      with Two Ancient Chronicles of His Life"; the section's own introduction
+      describes it as one of "two almost contemporary chronicles" transmitted
+      anonymously with the letter collection. npnf204 DC.Creator lists only
+      athanasius, and the chronicle is about him, not by him.
 
 assignments:
   - work: "Vita Antonii (Life of Antony)"
@@ -19,3 +33,299 @@ assignments:
       desert as primary evidence AND to Alexandria as its author's own work -
       assignment is not exclusive, and an exclusive partition would strip
       desert of its evidential base. 43 desert records already cite it.
+
+  # ---- The early apologetic diptych ----
+  - work: "Against the Heathen (Contra Gentes)"
+    author: athanasius
+    locus: "div1 6 — Contra Gentes"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      First half of the early apologetic diptych: refutation of paganism and
+      ascent of the soul to knowledge of God through the Logos - Alexandrian
+      Christian-Platonism in full voice.
+
+  - work: "On the Incarnation of the Word (De Incarnatione)"
+    author: athanasius
+    locus: "div1 7 — On the Incarnation of the Word"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Second half of the diptych and the classic statement of Alexandrian
+      incarnational theology. Brief §3 marks imperial-juridical-christianity
+      as 'arguably' a second home; not asserted here - the work predates the
+      Constantinian entanglement of the later corpus - but flagged for Mark
+      if ijc wants it.
+
+  # ---- Documents of the outbreak of the controversy ----
+  - work: "Deposition of Arius (Depositio Arii, with Alexander's Encyclical)"
+    author: athanasius
+    locus: "div1 8 — Deposition of Arius"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      One of the earliest documents of the Arian controversy (Alexandria,
+      320/321). Formally Alexander of Alexandria's act; the volume's own
+      introduction argues (with Newman) that Athanasius, then Alexander's
+      secretary, drafted the Encyclical, and CCEL's metadata credits only
+      athanasius - hence the attribution, held provisional. Assigned also to
+      the homoian doctrinal-floor entry as founding documentary evidence about
+      the Arian party from its opponents.
+
+  - work: "Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)"
+    author: eusebius
+    locus: "div1 9 — Letter of Eusebius"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - homoian-arian-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Not Athanasius: the div1 title and the section's own introduction name
+      Eusebius of Caesarea ("addressed by Eusebius of Caesarea to his flock,
+      upon the conclusion of the great Synod") - the slug already exists via
+      npnf201, so no ruling is minted; npnf204's volume metadata simply omits
+      him. The only account of Nicaea written in the council's own year,
+      preserving the Caesarean draft creed and Constantine's intervention on
+      homoousios - context for ijc (Nicaea as imperial council) and for the
+      homoian entry (the accommodating non-Nicene side explaining itself).
+      Provisional on both placements.
+
+  # ---- Short dogmatic pieces ----
+  - work: "Statement of Faith (Expositio Fidei)"
+    author: athanasius
+    locus: "div1 10 — Expositio Fidei"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Short credal statement of Athanasius' trinitarian faith.
+
+  - work: "On Luke x. 22 (In Illud Omnia Mihi Tradita Sunt)"
+    author: athanasius
+    locus: "div1 11 — On Luke x. 22"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Early anti-Arian exegesis of a contested proof-text; too brief to carry
+      a separate homoian assignment.
+
+  # ---- The apologetic-historical corpus of the exiles ----
+  - work: "Encyclical Letter (Epistola Encyclica)"
+    author: athanasius
+    locus: "div1 12 — Epistola Encyclica (339)"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Athanasius' appeal to all bishops against the intrusion of Gregory
+      (339) - hostile but contemporary documentary evidence of the Arian
+      party's methods in Alexandria.
+
+  - work: "Defence Against the Arians (Apologia Contra Arianos)"
+    author: athanasius
+    locus: "div1 13 — Apologia Contra Arianos"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      A dossier of primary documents (Tyre, the Mareotic commission, Julius
+      of Rome's letter, Sardica) framed by Athanasius' narrative - the
+      documentary backbone of the controversy's first phase, and evidence
+      about the Eusebian/Arian party from its target.
+
+  - work: "Defence of the Nicene Definition (De Decretis)"
+    author: athanasius
+    locus: "div1 14 — De Decretis"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Defence of homoousios and account of why Nicaea adopted unscriptural
+      language - Athanasius' own history of the council, against the parties
+      the homoian entry names.
+
+  - work: "Defence of Dionysius (De Sententia Dionysii)"
+    author: athanasius
+    locus: "div1 15 — De Sententia Dionysii"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Defence of Dionysius of Alexandria against Arian appropriation -
+      internal evidence for the Alexandrian tradition's own third-century
+      memory.
+
+  - work: "To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)"
+    author: athanasius
+    locus: "div1 17 — Circular to Bishops of Egypt and Libya (356)"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Warning against subscription to the Arian creed then being circulated;
+      quotes and dissects the opposing formulary.
+
+  - work: "Apology to the Emperor (Apologia ad Constantium)"
+    author: athanasius
+    locus: "div1 18 — Apologia ad Constantium (357)"
+    atlas_ids:
+      - alexandria-catechetical
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      A bishop's formal self-defence addressed to the emperor in person -
+      prime evidence for how church and imperial court dealt with one
+      another, hence the ijc assignment alongside the author's own entry.
+
+  - work: "Defence of His Flight (Apologia de Fuga)"
+    author: athanasius
+    locus: "div1 19 — Apologia de Fuga (357-8)"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Defence of his escape of 356 against Arian taunts; incidental evidence
+      for the persecution of the Nicene party under Constantius.
+
+  - work: "Arian History (Historia Arianorum ad Monachos)"
+    author: athanasius
+    locus: "div1 20 — Historia Arianorum (358)"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The fiercest of the historical apologies: a narrative of the Arian
+      ascendancy naming Constantius as antichrist's forerunner. Assigned
+      three ways - the author's entry; the homoian entry it describes from
+      outside; and ijc, because its central question ('what has the emperor
+      to do with the church?') is the ijc world's own problem stated by its
+      sharpest opponent.
+
+  # ---- The central dogmatic works ----
+  - work: "Four Discourses Against the Arians (Orationes contra Arianos IV)"
+    author: athanasius
+    locus: "div1 21 — Against the Arians, Discourses I-IV"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The corpus's central anti-Arian dogmatic work (158k words): the full
+      case for the Son's eternity and consubstantiality, quoting Arius'
+      Thalia at length - which also makes it primary documentary evidence
+      about Arian teaching for the doctrinal-floor entry. The volume's own
+      introduction notes Discourse IV's disputed place in the series; that
+      is sub-work-level and not separately flagged.
+
+  - work: "On the Councils of Ariminum and Seleucia (De Synodis)"
+    author: athanasius
+    locus: "div1 22 — De Synodis (359-361)"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Athanasius' account of the twin councils of 359, quoting the homoian
+      and other non-Nicene creeds verbatim (Sirmium, the Dated Creed, Nike,
+      Seleucia) - the best documentary evidence of homoian confessions
+      anywhere in the corpus, carried inside a hostile Nicene frame; also his
+      overture to the Homoiousians.
+
+  # ---- The later synodal letters ----
+  - work: "Synodal Letter to the People of Antioch (Tomus ad Antiochenos)"
+    author: athanasius
+    locus: "div1 23 — Tomus ad Antiochenos (362)"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      The eirenic settlement terms of the Alexandrian synod of 362 for the
+      divided church of Antioch. The Antiochene census entry was considered
+      and not assigned: that entry names the later exegetical school, not the
+      Meletian schism this letter addresses.
+
+  - work: "Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)"
+    author: athanasius
+    locus: "div1 24 — Ad Afros"
+    atlas_ids:
+      - alexandria-catechetical
+      - homoian-arian-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Warning the African bishops against the authority of Ariminum and
+      restating Nicaea's sufficiency - late evidence of the homoian creed's
+      continuing claim in the West.
+
+  # ---- The letters and chronicles (div1 25, split) ----
+  - work: "The Historia Acephala"
+    author: historia_acephala
+    locus: "div3 under div1 25 — The Historia Acephala"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: provisional
+    note: >
+      Anonymous near-contemporary Alexandrian chronicle of Athanasius'
+      episcopate (author ruled above) - a document of the Alexandrian church
+      rather than a view from outside it, hence tradition rather than
+      context. Provisional because a chronicle-of-record sits oddly in a
+      catechetical-tradition entry and Mark may want it elsewhere.
+
+  - work: "The Festal Letters (with the Festal Index)"
+    author: athanasius
+    locus: "div3s under div2 25.3 — Index; Festal Letters"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      The surviving Easter letters (including Letter 39's canon list of 367)
+      with the anonymous Syriac chronological Index transmitted with them,
+      kept as one body as the volume presents them. Athanasius' most pastoral
+      voice, addressed to the Egyptian churches year by year.
+
+  - work: "Personal Letters of Athanasius"
+    author: athanasius
+    locus: "div3 under div2 25.3 — Personal Letters (Letters 46-64)"
+    atlas_ids:
+      - alexandria-catechetical
+      - desert-monasticism
+    role: tradition
+    confidence: assigned
+    note: >
+      The surviving personal correspondence, grouped as the volume groups
+      it. Assigned to desert as well as Alexandria because several of its
+      most substantial pieces are addressed into the monastic world (to
+      Dracontius the monk-bishop, to Amun on ascetic questions, to the
+      monks) - the bishop's side of the Alexandria-desert axis the Vita also
+      evidences.

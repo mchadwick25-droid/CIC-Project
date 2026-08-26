@@ -1,0 +1,277 @@
+# Corpus assignment worker, 2026-08-26. Anonymous-and-collective group.
+source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+
+authors_ruled:
+  didache:
+    kind: anonymous
+    evidence: >
+      div1 8 "The Teaching of the Twelve Apostles"; anf07 DC.Creator lists only
+      asterius, dionysius_rome, lactantius, venantius, victorinus. The work names
+      no author; the slug names the work-entity per brief 6.4.
+  apostolic-constitutions:
+    kind: anonymous
+    evidence: >
+      div1 9 "Constitutions of the Holy Apostles"; no DC.Creator for the section.
+      The compilation speaks in the apostles' collective name (a pseudapostolic
+      frame), but no individual is claimed; brief 7 lists it under "genuinely
+      anonymous".
+  second-clement:
+    kind: pseudonymous
+    evidence: >
+      div1 10 "The Second Epistle of Clement"; the section's Introductory Notice
+      by Prof. Riddle (div2 10.2) treats it as an early homily transmitted under
+      Clement's name, not his composition. No DC.Creator for the section.
+  nicene-creed:
+    kind: anonymous
+    evidence: >
+      div1 11 "The Nicene Creed"; no DC.Creator. A conciliar text, not a
+      person's work.
+  liturgy-of-st-james:
+    kind: pseudonymous
+    evidence: >
+      div2 12.2 title "The Divine Liturgy of James the Holy Apostle and Brother
+      of the Lord"; the Early Liturgies Introductory Notice (div2 12.1) treats
+      the apostolic attributions as traditional, the received texts as later.
+  liturgy-of-st-mark:
+    kind: pseudonymous
+    evidence: >
+      div2 12.3 title "The Divine Liturgy of the Holy Apostle and Evangelist
+      Mark"; same Introductory Notice treatment as the Liturgy of James.
+  liturgy-of-addai-and-mari:
+    kind: pseudonymous
+    evidence: >
+      div2 12.4 "The Liturgy of the Blessed Apostles", heading "Composed by St.
+      Adaeus and St. Maris, Teachers of the Easterns"; the Introductory Notice
+      calls it "one of the three Nestorian liturgies" (with those of Nestorius
+      and Theodore).
+
+assignments:
+  - work: "The Divine Institutes"
+    author: lactantius
+    locus: "div2 3.2 — The Divine Institutes"
+    atlas_ids:
+      - imperial-juridical-christianity
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Written c. 303-311 during the Great Persecution by a North-African-trained
+      Latin rhetor teaching at Nicomedia, later tutor at Constantine's court.
+      Straddles Era-1 Latin apologetics and Era-2 Constantinian Christianity;
+      neither entry is a clean fit (he is not Carthaginian-congregational, and
+      most of the work predates 312). Needs Mark's call on where Lactantius lives.
+
+  - work: "A Treatise on the Anger of God"
+    author: lactantius
+    locus: "div2 3.3"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Philosophical-theological treatise against Epicurean/Stoic views of deity.
+      Placed with the rest of Lactantius pending the ruling flagged on The
+      Divine Institutes; same era-straddle doubt.
+
+  - work: "On the Workmanship of God"
+    author: lactantius
+    locus: "div2 3.4"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Treatise on providence and the human frame, c. 303-304. Same placement
+      doubt as the other Lactantius works.
+
+  - work: "Of the Manner in Which the Persecutors Died"
+    author: lactantius
+    locus: "div2 3.5"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      De Mortibus Persecutorum, c. 313-315: the founding narrative of the
+      Constantinian turn, ending in Milan-edict text. The clearest ijc fit in
+      the Lactantius corpus.
+
+  - work: "Fragments of Lactantius"
+    author: lactantius
+    locus: "div2 3.6"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Miscellaneous fragments and attributed verse (incl. the Phoenix). Kept
+      with the author's other works; same placement doubt.
+
+  - work: "On Easter (De Pascha)"
+    author: venantius
+    locus: "div1 4 — Venantius"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The volume's own notes identify the author as Venantius Honorius
+      Clementianus Fortunatus, sixth-century presbyter-poet (poem addressed to
+      bishop Felix; author of a poem on St. Martin) — the Merovingian Gaul
+      court/episcopal poet. A sixth-century work oddly housed in an
+      Ante-Nicene volume; the census entry (c. 480-620, Gaul) fits it exactly.
+
+  - work: "The Extant Writings of Asterius Urbanus"
+    author: asterius
+    locus: "div2 5.2"
+    atlas_ids:
+      - montanism-the-new-prophecy
+    role: context
+    confidence: provisional
+    note: >
+      Fragments of three books against the Montanists (preserved via Eusebius
+      HE v.16-17), recounting Montanus, Maximilla, and the Asian synodal
+      rejection — primary outside evidence about the New Prophecy, and it also
+      preserves reports of Montanist oracles. Role marked context because it
+      describes the movement rather than speaking as one of it; if Mark reserves
+      `context` for non-Christian outsiders, flip to tradition and rely on the
+      per-record etic register. The author has no bucket of his own (3rd-c.
+      Asia Minor proto-orthodoxy has no census entry).
+
+  - work: "On the Creation of the World"
+    author: victorinus
+    locus: "div2 6.1"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Victorinus of Pettau (Poetovio, Pannonia; martyred c. 304), the earliest
+      Latin exegete. No census entry covers Pannonian Latin Christianity; the
+      Latin-pastoral entry is a language-only best guess with the wrong region.
+
+  - work: "Commentary on the Apocalypse of the Blessed John"
+    author: victorinus
+    locus: "div2 6.2"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Same author and same shelving problem as On the Creation of the World.
+      Millenarian exegesis; the transmitted text was later revised by Jerome,
+      which gives hieronymian-ascetic-literary a secondary claim a reviewer may
+      want to weigh.
+
+  - work: "Against the Sabellians"
+    author: dionysius_rome
+    locus: "div2 7.2"
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: needs-ruling
+    note: >
+      Dionysius bishop of Rome (c. 259-268), against Sabellian and tritheist
+      readings, written into the controversy with Dionysius of Alexandria and
+      preserved by Athanasius. There is no Era-1 Roman-church entry; assigned
+      provisionally to the Alexandrian controversy it addresses. A Roman
+      bishop's doctrinal letter filed under Alexandria needs Mark's sign-off.
+
+  - work: "The Teaching of the Twelve Apostles (Didache)"
+    author: didache
+    locus: "div2 8.3"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      The earliest church order, late 1st/early 2nd c., Syrian/Antiochene
+      milieu — squarely the entry's era and region, and a core source for it.
+      Later incorporated and expanded in Apostolic Constitutions VII (same
+      volume), which is assigned separately.
+
+  - work: "Constitutions of the Holy Apostles (Apostolic Constitutions)"
+    author: apostolic-constitutions
+    locus: "div1 9, Books I-VIII"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: provisional
+    note: >
+      Compiled c. 375-380 in Syria (Antioch) — the same city and generation as
+      the Chrysostom-centered entry, which is the nearest census bucket, though
+      that entry is styled "exegetical" and this is a church-order/liturgical
+      compilation (Book VIII carries the Clementine liturgy and the Apostolic
+      Canons). It also embeds the Didache and the Didascalia, which gives
+      post-apostolic-house-church a transmission interest noted here rather
+      than asserted as an assignment.
+
+  - work: "The Second Epistle of Clement (an ancient homily)"
+    author: second-clement
+    locus: "div2 10.3 — The Homily"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: tradition
+    confidence: assigned
+    note: >
+      The earliest surviving Christian homily, mid-2nd c., Rome or Corinth;
+      Clementine by transmission only. The same work is printed again in anf09
+      (div2 12.6) — both staged, which the merge tolerates as two source files.
+
+  - work: "The Nicene Creed"
+    author: nicene-creed
+    locus: "div1 11"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The conciliar creed of 325 (with the 381 form) — the central document of
+      the imperial-juridical entry. Alexandria's stake in it (the Athanasian
+      defense) is noted for reviewers but the creed itself is filed with the
+      councils.
+
+  - work: "The Divine Liturgy of James"
+    author: liturgy-of-st-james
+    locus: "div2 12.2"
+    atlas_ids:
+      - jerusalem-liturgical-pilgrimage-christianity
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The Jerusalem/Antiochene rite: evidence of the practice the Jerusalem
+      liturgical-pilgrimage entry is about, and the ancestral anaphora of the
+      West Syriac (Syriac Orthodox) church. The received text is later than
+      its apostolic attribution — practice evidence, not authorial argument;
+      provisional because the text's date is far from the entries' windows.
+
+  - work: "The Divine Liturgy of Mark"
+    author: liturgy-of-st-mark
+    locus: "div2 12.3"
+    atlas_ids:
+      - alexandria-catechetical
+      - cyrilline-miaphysite-egyptian-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      The Egyptian/Alexandrian rite; ancestor of the Coptic Liturgy of St.
+      Cyril. Assigned to Alexandria as its liturgical practice and to the
+      Egyptian Miaphysite entry whose received form this is; the extant text
+      is later than the Alexandrian entry's window.
+
+  - work: "The Liturgy of the Blessed Apostles (Adaeus and Maris)"
+    author: liturgy-of-addai-and-mari
+    locus: "div2 12.4"
+    atlas_ids:
+      - syriac-edessa-nisibis
+      - persian-church-of-the-east-early
+      - the-church-of-the-east-under-persia
+    role: tradition
+    confidence: provisional
+    note: >
+      The East Syrian anaphora of Addai and Mari — the volume's own notice
+      calls it "one of the three Nestorian liturgies" and records Renaudot's
+      case for its great antiquity. Assigned to syr for the Addai/Edessa
+      tradition it embodies and to both Church-of-the-East entries whose rite
+      it is; the manuscript form is medieval, hence provisional.
