@@ -22,6 +22,9 @@ where it did.
   enters.
 - `CONSISTENCY-MATRIX.md` — the per-world matrix, every cell measured from
   the live tree by `gen_matrix.py`, nothing transcribed by hand.
+- `CORPUS-USE.md` — the 46-file vendored corpus against what each world
+  actually draws on, and how much of each world rests on text the pipeline
+  can verify offline (`gen_corpus_table.py`).
 - `engine/m1/cross_world.py` — the standing check this audit leaves behind.
   `python -m engine.m1.cross_world` exits non-zero on any drift not written
   up here.
@@ -869,8 +872,10 @@ Nothing else reaches either cell.
 filed all three unvendored sources under "rights-blocked." That conflates two
 different constraints, and the difference decides who can fix them.
 
-`cic/texts/README.md` — generated, not hand-written — records that **36 of the
-37 vendored files were supplied by Mark**, and why they had to be: *"the
+`cic/engine/texts_registry.py` — the registry `cic/texts/README.md` is
+generated from — records that **45 of the 46 vendored files were supplied by
+Mark** (the 46th, a public-domain Bible, by Claude at his direction), and why
+they had to be: *"the
 sandbox this project's agents run in blocks every patristic text host
 (ccel.org, newadvent.org, wikisource, archive.org, gutenberg,
 tertullian.org)."* No build thread has ever fetched a text. The corpus is
@@ -907,12 +912,14 @@ Two of the four are therefore not earned at all:
   Conferences/Institutes ascetic vocabulary in a single cell and never
   touched the one direct Christological treatise inside its own corpus.
 
-And the corpus is under-drawn more broadly than desert alone. Of the 37
-vendored files, **14 are cited by no world at all** — including Basil
+And the corpus is under-drawn more broadly than desert alone. Of the 46
+vendored files, **20 are reached by no world at all** — including Basil
 (`npnf208`, 43 matches for "Ascetic", 50 for "monk"), Gregory Nazianzen
 (`npnf207`), Gregory of Nyssa (`npnf205`) and Chrysostom's ascetic homilies
 (`npnf109`), all of them directly adjacent to desert's own subject. Desert
-draws on 6 of the 37. Jerome's desert *Lives* (Paul the Hermit, Hilarion,
+draws on 6 of the 46, and only **76% of its sourced records rest on a
+vendored text** — the lowest in the fleet, against pahc's 99% and alx's 96%
+(see `CORPUS-USE.md`). Jerome's desert *Lives* (Paul the Hermit, Hilarion,
 Malchus) sit in `npnf206`, a file desert already uses for other purposes.
 The gap between what was supplied and what was reached for is larger than
 the gap between what was supplied and what exists.
