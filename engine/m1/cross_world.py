@@ -717,6 +717,35 @@ def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
     return findings
 
 
+def observe_corpus_review(*, records, worlds, **_) -> list[Finding]:
+    """Progress against Mark's standard, read from each world's OWN
+    corpus_review record rather than from this file's asserted COVERAGE and
+    REGIONS tables.
+
+    That is the whole point of the schema change: relevance used to be
+    inferred backwards by a session guessing from volume titles and dates,
+    and now it is declared by the world, where a reviewer can disagree with
+    it. `deferred` counts down as the six worlds do the review; the asserted
+    tables survive only to ORDER that work, never to make the call.
+    """
+    findings = []
+    for w in worlds:
+        review = next((r for r in records[w].values() if r.get("record_type") == "corpus_review"), None)
+        if review is None:
+            findings.append(_observation("corpus-review", w, "no corpus_review record"))
+            continue
+        by_rank: dict[str, int] = {}
+        for entry in review.get("declinations") or []:
+            by_rank[entry.get("rank", "?")] = by_rank.get(entry.get("rank", "?"), 0) + 1
+        deferred = by_rank.pop("deferred", 0)
+        ruled = sum(by_rank.values())
+        findings.append(_observation(
+            "corpus-review", w,
+            f"{deferred} volume(s) still `deferred`, {ruled} ruled"
+            + (f" ({', '.join(f'{k} {v}' for k, v in sorted(by_rank.items()))})" if by_rank else "")))
+    return findings
+
+
 CHECKS = [
     check_registry_shape,
     check_package_pinned,
@@ -736,6 +765,7 @@ CHECKS = [
     observe_source_licensing,
     observe_uncompiled_required_fields,
     observe_second_hand_sources,
+    observe_corpus_review,
 ]
 
 

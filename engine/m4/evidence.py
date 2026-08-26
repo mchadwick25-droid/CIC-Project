@@ -205,6 +205,26 @@ def _fallback_search_text(record: dict) -> str:
     return " ".join(parts)
 
 
+# Record types that are BUILD APPARATUS, never this world's substance, and so
+# must never surface as ground for a turn. compiled/repository.json is a
+# blanket passthrough of every record (engine.m2.builders.build_repository_json)
+# and this fallback scans all of it with no type filter, so a corpus_review -
+# a list of filenames with prose reasons, carrying words like "Augustine",
+# "City of God", "Egypt" - would otherwise be retrievable as though it were
+# something the world believed.
+#
+# search_record is deliberately NOT in this set yet. It is build apparatus by
+# the same argument and it has been in the pool since the fallback shipped, so
+# removing it would change what the voice retrieves on real turns. That is a
+# quality change needing a run against baseline/pilot-2024-08-24, not a
+# ride-along on a schema addition.
+_BUILD_APPARATUS_TYPES = {"corpus_review"}
+
+
+def _substantive(repository_records: dict[str, dict]) -> dict[str, dict]:
+    return {rid: r for rid, r in repository_records.items() if r.get("record_type") not in _BUILD_APPARATUS_TYPES}
+
+
 def _fulltext_fallback_candidates(*, query_words: set[str], repository_records: dict[str, dict]) -> list[dict]:
     """Stage A2 - see the module-level comment on _FULLTEXT_FALLBACK_MAX_POOL
     for why this is safe. Deliberately literal (not stemmed) and
@@ -228,14 +248,14 @@ def _fulltext_fallback_candidates(*, query_words: set[str], repository_records: 
     consideration; the words still selective enough for this world's own
     corpus are what drive the match."""
     word_hit_counts = {
-        word: sum(1 for record in repository_records.values() if word in content_words(_fallback_search_text(record))) for word in query_words
+        word: sum(1 for record in _substantive(repository_records).values() if word in content_words(_fallback_search_text(record))) for word in query_words
     }
     usable_words = {word for word, count in word_hit_counts.items() if 0 < count <= _FULLTEXT_FALLBACK_MAX_POOL}
     if not usable_words:
         return []
 
     scored = []
-    for rid, record in repository_records.items():
+    for rid, record in _substantive(repository_records).items():
         shared = usable_words & content_words(_fallback_search_text(record))
         if shared:
             scored.append((len(shared), rid, record))

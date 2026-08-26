@@ -24,6 +24,7 @@ by their private names from a file marked experimental. What is left here
 is only what the file's name has always claimed.
 """
 import re
+from pathlib import Path
 
 from engine.prose import (
     SCAFFOLD_MARKERS,
@@ -292,3 +293,73 @@ EXPERIMENTAL_GATES = {
 
 def run_experimental(records: dict, fleet: dict, registry: dict) -> dict[str, list[str]]:
     return {name: fn(records, fleet, registry) for name, fn in EXPERIMENTAL_GATES.items()}
+
+
+# --------------------------------------------------------------------------
+# corpus accounting (2026-08-26)
+# --------------------------------------------------------------------------
+
+_TEXTS_DIR = Path(__file__).resolve().parents[2] / "cic" / "texts"
+
+# Two files nothing should ever be asked to account for. anf10 is a
+# bibliographic index with no text to cite; webbe is in the corpus only as the
+# authors themselves used it - Mark's ruling, 2026-08-26: this project does not
+# interpret the Bible directly, so no world should ever hold a source record
+# for it, and none should have to write a declination saying so either.
+_NOT_ACCOUNTABLE = {"anf10_bibliographic-synopsis-general-index.xml",
+                    "webbe_world-english-bible-british-edition.xml"}
+
+
+def gate_corpus_accounted(records, fleet, registry) -> list[str]:
+    """Every vendored volume is either SOURCED by this world or DECLINED by
+    it, with a reason. Mark's standard, 2026-08-26: a world may rank a
+    resource low; it may not ignore one.
+
+    Not in the main battery, and not eligible for it until the six worlds
+    have actually done the review - admitting a gate that fails everything on
+    day one would turn a green battery into noise, which is the one thing the
+    battery's value rests on. It reports today so the deferred count is
+    visible and shrinks on purpose.
+
+    Nothing here judges WHETHER a declination is right. "Out of region" on a
+    volume that is plainly in region is a bad ruling, and a bad ruling is a
+    reviewer's to catch - this gate only insists that a ruling exists and
+    names itself.
+    """
+    findings = []
+    if not _TEXTS_DIR.is_dir():
+        return findings
+    # The fixture is the harness's own synthetic negative control and has no
+    # business accounting for a corpus of real patristic volumes it does not
+    # and must not draw on (engine.m1.registry.is_fixture, and the fix entry's
+    # own registry comment: "never listed beside them, never admitted").
+    world_id = next((r.get("world_id") for r in records.values() if r.get("world_id")), None)
+    entry = next((v for v in registry.values() if v.get("world_id") == world_id), {})
+    if entry.get("kind") == "fixture":
+        return findings
+    vendored = {p.name for p in _TEXTS_DIR.iterdir()
+                if p.suffix in (".xml", ".txt")} - _NOT_ACCOUNTABLE
+
+    reviews = [r for r in records.values() if r.get("record_type") == "corpus_review"]
+    if len(reviews) > 1:
+        findings.append(f"{len(reviews)} corpus_review records - exactly one per world")
+    if not reviews:
+        return [f"no corpus_review record: {len(vendored)} vendored volume(s) unaccounted for"]
+
+    sourced = {name for r in records.values() for name in re.findall(r"cic/texts/([\w.-]+)", str(r.get("edition") or ""))}
+    declined = {}
+    for entry in reviews[0].get("declinations") or []:
+        name = entry.get("file")
+        if name in declined:
+            findings.append(f"{reviews[0]['id']}: {name!r} declined twice")
+        declined[name] = entry
+        if name not in vendored and name not in _NOT_ACCOUNTABLE:
+            findings.append(f"{reviews[0]['id']}: declines {name!r}, which is not a vendored file")
+        if not (entry.get("reason") or "").strip():
+            findings.append(f"{reviews[0]['id']}: {name!r} declined with an empty reason")
+
+    for name in sorted(vendored - sourced - set(declined)):
+        findings.append(f"{name}: neither sourced nor declined by this world")
+    for name in sorted(sourced & set(declined)):
+        findings.append(f"{name}: both sourced and declined - the declination is stale")
+    return findings
