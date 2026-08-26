@@ -73,8 +73,30 @@ Cell = how many of that world's records reach that file through a source record.
 
 ## Reached by no world — 20 of 46
 
+Sorted by whether that is a problem. A flat list of unread volumes invites the wrong reading: most of these are correctly unread, and the few that are not should not have to be found by eye.
+
+
+### IN WINDOW, UNREAD — 3
+
+- `npnf205_gregory-nyssa-dogmatic-treatises.txt` — Gregory of Nyssa: dogmatic treatises  
+  Gregory of Nyssa (d. 395) is inside five of the six worlds' windows and is named in zero records anywhere in the fleet.
+- `npnf207_cyril-jerusalem-gregory-nazianzen.xml` — Cyril of Jerusalem, Gregory Nazianzen  
+  Gregory Nazianzen (d. 390) is named in alx (2 records) and ijc (1) and cited from this volume by neither; Cyril of Jerusalem (d. 386) is named nowhere, though his Catechetical Lectures are the central 4th-century catechesis text and alx is the catechetical world.
+- `npnf208_basil-letters-select-works.xml` — Basil: letters and select works (ASCETIC)  
+  Basil (d. 379) is named in alx (2), syr (2), desert (1) and ijc (1) - every world whose window covers him except hal - and cited from his own works by none of them. desert reaches him only through Palladius.
+
+### by design — 2
+
+- `anf10_bibliographic-synopsis-general-index.xml` — bibliographic index (reference only)  
+  a bibliographic index, not a text - nothing to cite.
+- `webbe_world-english-bible-british-edition.xml` — World English Bible  
+  Mark's ruling, 2026-08-26: scripture is in the corpus only as the authors themselves used it. This project does not interpret the Bible directly, so nothing should ever cite this file as a source of its own.
+
+### not yet reviewed — 15
+
+No basis recorded either way. Most are plainly out of every world's window or geography; this script does not assume so on their behalf.
+
 - `anf05_hippolytus-cyprian-caius-novatian.xml` — Hippolytus, Cyprian, Novatian
-- `anf10_bibliographic-synopsis-general-index.xml` — bibliographic index (reference only)
 - `npnf102_augustine-city-of-god-christian-doctrine.xml` — Augustine: City of God
 - `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml` — Augustine: Trinity, moral treatises
 - `npnf104_augustine-anti-manichaean-anti-donatist.xml` — Augustine: anti-Manichaean/Donatist
@@ -88,9 +110,5 @@ Cell = how many of that world's records reach that file through a source record.
 - `npnf112_chrysostom-homilies-corinthians.xml` — Chrysostom: Corinthians
 - `npnf113_chrysostom-homilies-galatians-philemon.xml` — Chrysostom: Galatians-Philemon
 - `npnf114_chrysostom-homilies-john-hebrews.xml` — Chrysostom: John, Hebrews
-- `npnf205_gregory-nyssa-dogmatic-treatises.txt` — Gregory of Nyssa: dogmatic treatises
-- `npnf207_cyril-jerusalem-gregory-nazianzen.xml` — Cyril of Jerusalem, Gregory Nazianzen
-- `npnf208_basil-letters-select-works.xml` — Basil: letters and select works (ASCETIC)
 - `optatus_against-the-donatists.txt` — Optatus: Against the Donatists
-- `webbe_world-english-bible-british-edition.xml` — World English Bible
 

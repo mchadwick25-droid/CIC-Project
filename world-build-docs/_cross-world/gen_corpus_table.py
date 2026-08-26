@@ -97,6 +97,31 @@ SUBJECT = {
 }
 
 
+# Why a file is unread, where there is a real basis for saying. Everything
+# absent from this map is reported as NOT YET REVIEWED rather than assumed
+# correct - guessing a volume's relevance is a scholarly judgment this script
+# has no standing to make.
+DISPOSITION = {
+    "webbe": ("by design",
+              "Mark's ruling, 2026-08-26: scripture is in the corpus only as the authors "
+              "themselves used it. This project does not interpret the Bible directly, so "
+              "nothing should ever cite this file as a source of its own."),
+    "anf10": ("by design", "a bibliographic index, not a text - nothing to cite."),
+    "npnf205": ("IN WINDOW, UNREAD",
+                "Gregory of Nyssa (d. 395) is inside five of the six worlds' windows and is "
+                "named in zero records anywhere in the fleet."),
+    "npnf207": ("IN WINDOW, UNREAD",
+                "Gregory Nazianzen (d. 390) is named in alx (2 records) and ijc (1) and cited "
+                "from this volume by neither; Cyril of Jerusalem (d. 386) is named nowhere, "
+                "though his Catechetical Lectures are the central 4th-century catechesis text "
+                "and alx is the catechetical world."),
+    "npnf208": ("IN WINDOW, UNREAD",
+                "Basil (d. 379) is named in alx (2), syr (2), desert (1) and ijc (1) - every "
+                "world whose window covers him except hal - and cited from his own works by "
+                "none of them. desert reaches him only through Palladius."),
+}
+
+
 def subject_for(filename: str) -> str:
     key = re.split(r"[_.]", filename)[0]
     return SUBJECT.get(key, "—")
@@ -175,11 +200,32 @@ def main() -> None:
         name = filename if len(filename) <= 46 else filename[:43] + "…"
         out.append(f"| `{name}` | {subject_for(filename)} | {cells} |")
 
-    # --- the unread shelf --------------------------------------------------
+    # --- the unread shelf, sorted by whether that is a problem -------------
     unread = [f for f in files if not counts.get(f)]
-    out.append(f"\n## Reached by no world — {len(unread)} of {len(files)}\n")
+    buckets: dict[str, list[str]] = defaultdict(list)
     for filename in unread:
-        out.append(f"- `{filename}` — {subject_for(filename)}")
+        key = re.split(r"[_.]", filename)[0]
+        verdict, why = DISPOSITION.get(key, ("not yet reviewed", ""))
+        buckets[verdict].append((filename, why))
+
+    out.append(f"\n## Reached by no world — {len(unread)} of {len(files)}\n")
+    out.append(
+        "Sorted by whether that is a problem. A flat list of unread volumes invites the "
+        "wrong reading: most of these are correctly unread, and the few that are not "
+        "should not have to be found by eye.\n"
+    )
+    for verdict in ("IN WINDOW, UNREAD", "by design", "not yet reviewed"):
+        rows = buckets.get(verdict)
+        if not rows:
+            continue
+        out.append(f"\n### {verdict} — {len(rows)}\n")
+        if verdict == "not yet reviewed":
+            out.append(
+                "No basis recorded either way. Most are plainly out of every world's window "
+                "or geography; this script does not assume so on their behalf.\n"
+            )
+        for filename, why in rows:
+            out.append(f"- `{filename}` — {subject_for(filename)}" + (f"  \n  {why}" if why else ""))
     out.append("")
 
     target = Path(__file__).resolve().parent / "CORPUS-USE.md"

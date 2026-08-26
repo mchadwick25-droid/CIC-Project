@@ -955,6 +955,58 @@ ecology does not support, and the statement reaches a participant as history.
 
 ---
 
+### F-25 — three vendored volumes of in-window primary text are read by no world · Live
+
+The fleet-wide form of F-24, and separable from it: F-24 is about a text
+`desert` could not get. This is about text every world already has.
+
+Mark's ruling on scope, 2026-08-26: **Basil and the Gregories are in.** With
+that settled, three of the twenty unread volumes are a real gap, and the
+figures inside them are demonstrably live in the builds already:
+
+| figure | vendored in | named in records | cited from his own works |
+|---|---|---|---|
+| Basil (d. 379) | `npnf208` | `alx` 2, `syr` 2, `desert` 1, `ijc` 1 | **none** |
+| Gregory Nazianzen (d. 390) | `npnf207` | `alx` 2, `ijc` 1 | **none** |
+| Gregory of Nyssa (d. 395) | `npnf205` | **none anywhere** | none |
+| Cyril of Jerusalem (d. 386) | `npnf207` | **none anywhere** | none |
+
+All four sit inside five of the six worlds' time windows; `pahc` (70–200) is
+correctly out of range for every one of them, which is the control that says
+this measure is not just flagging noise.
+
+Two of these are sharper than the rest:
+
+- **`desert` reaches Basil only through Palladius.**
+  `desert.figure.evagrius` records that Evagrius was "ordained reader by
+  Basil of Caesarea, then deacon by Gregory Nazianzen," sourced to *Lausiac
+  History* ch. XXXVIII. Both men's own works are vendored and neither is
+  opened. Given F-24 — desert's Christology resting entirely on one
+  hagiography written from outside the world — the unread ascetic corpus of
+  the man who ordained its most systematic author is not a small omission.
+- **`alx` is the catechetical world and has never opened the century's
+  catechetical text.** Cyril of Jerusalem's *Catechetical Lectures* are in
+  `npnf207`, vendored, in-window, and named in no `alx` record.
+
+**Also settled by the same ruling, in the other direction:** the World
+English Bible (`webbe`) is cited by nothing, and that is **correct by
+design**. Mark: scripture is in this corpus only as the authors themselves
+used it; the project does not interpret the Bible directly. `CORPUS-USE.md`
+now records that verdict against the file, so no future audit re-raises it as
+a gap. The same holds for `anf10`, a bibliographic index with nothing to
+cite.
+
+**Disposition:** open, per-world content work, and explicitly *not* a
+normalisation demand — whether a given world should draw on Basil is that
+world's own source-ecology judgment, not this audit's. What the audit
+establishes is narrower and checkable: the text is in hand, the figures are
+already named in the records, and nothing has read them. The remaining 15
+unread volumes are reported as **not yet reviewed** rather than assumed
+correct; most are plainly out of every window, but this audit has no standing
+to rule on them.
+
+---
+
 ## 3. What was checked and found clean
 
 An audit that lists only defects misrepresents the system. These were checked
@@ -1080,12 +1132,16 @@ For build threads — work, scoped:
 9. **Engine** — extend `gate_no_build_attribution` to the UI render path
    (F-20); give a missing frontend asset a loud failure instead of a silent
    drop (F-15).
-10. **Vendor Budge vol. 2** (F-24). One public-domain file, rated P1 by
+10. **Basil, the Gregories, Cyril** (F-25) — three vendored volumes of
+   in-window primary text, read by no world, with the figures already named
+   in the records. No acquisition needed. Per-world judgment, not a
+   normalisation.
+11. **Vendor Budge vol. 2** (F-24). One public-domain file, rated P1 by
    desert's own source manifest, blocked only by a build session's network
    policy. Unlocks verbatim sayings fleet-wide for desert and puts real
    Christological material within reach of C-I/C-T. Mining Cassian's *On
    the Incarnation*, already vendored, needs no acquisition at all.
-11. **Compile `doctrinal_witness.tensions`** (F-23). 94 of 94 witness records
+12. **Compile `doctrinal_witness.tensions`** (F-23). 94 of 94 witness records
    carry a gate-required sentence naming where that witness runs thin, and
    the voice has never once been shown one. Highest-value repair here;
    needs a full recompile and a voice-quality check against
