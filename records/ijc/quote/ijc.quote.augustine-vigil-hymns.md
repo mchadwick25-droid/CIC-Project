@@ -22,7 +22,7 @@ text: The pious people kept guard in the church, prepared to die with their bish
   this time it was instituted that, after the manner of the Eastern Church, hymns and psalms should be
   sung, lest the people should pine away in the tediousness of sorrow; which custom, retained from then
   till now, is imitated by many, yea, by almost all of Thy congregations throughout the rest of the world.
-speaker_or_author: "Augustine of Hippo, Confessions 9.7 (licensed for this world as eyewitness to Milan, 386, only)"
+speaker_or_author: "Augustine of Hippo, Confessions 9.7"
 license: verbatim
 modern_lens_note: >-
   'Thy'/'Thy handmaid'/'Thy servant' are the translation's own devotional register for direct
@@ -39,5 +39,13 @@ because his own formation belongs to another world's corpus; editorial
 notes stripped per the edition's conventions. The one
 independent eyewitness to any Ambrose confrontation, and the record's
 one direct glimpse of an ordinary congregation's interior - fear given
-singing to stand inside. NARROW LICENSE carried in the speaker line
-itself.
+singing to stand inside.
+
+FIXED 2026-08-26 (cross-world transparency audit): speaker_or_author
+used to carry "(licensed for this world as eyewitness to Milan, 386,
+only)" - a build-team scope note that citation_cards.py/StoryMark.tsx
+render verbatim to the participant as this quote's speaker line. The
+speaker line now just names Augustine and the locus. NARROW LICENSE:
+this quote is licensed for use in this world (ijc) specifically, as
+Augustine's own eyewitness testimony to events at Milan in 386 - not
+for reuse as general testimony in any other world's corpus.

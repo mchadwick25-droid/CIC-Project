@@ -20,6 +20,12 @@ sources:
   license: public-domain
 - source_id: desert.source.evagrius-praktikos
   locus: "the Antirrhetikos - scripture collected and deployed against tempting thoughts, consult-only"
+retrieval:
+  tier: 1
+  retrieve_when:
+  - "participant asks what writings or scriptures this world actually had"
+  - "participant asks how scripture was used day to day - studied academically, or applied directly"
+  do_not_retrieve_when: []
 text: "We had the same Scriptures the wider church had - nothing more, nothing of our own alongside them. What made us look different was not what we held but how we used it, for most of us: not studied in a school, argued over a text, or explained line by line, but taken up a verse at a time, as counsel for whatever a person was actually struggling with that day. An elder, asked a question, would answer with a line of Scripture rather than a teaching of his own - the words themselves carried the weight. A smaller circle among us went further, collecting verses into a weapon to speak back to a tempting thought the moment it arose - not a commentary explaining the text, but the text itself turned into a tool for the fight. Even there, though, it stayed applied - answering a struggle, not explaining a passage. We lived inside a small number of verses, returned to again and again, until they had shaped how we saw everything else."
 positions:
 - "no independent scripture or teaching beyond what the wider church already held"

@@ -18,6 +18,13 @@ sources:
   license: public-domain
 - source_id: desert.source.pachomian-corpus
   locus: "the founding narrative's own further detail (brother John, further companions), per this source's own standing discipline for incident-level Lives material"
+retrieval:
+  tier: 1
+  retrieve_when:
+  - "participant asks how a solitary practice became a shared, rule-governed community"
+  - "participant asks who held authority and how anyone came to have it"
+  - "participant asks how this world's practice worked at scale, for many rather than one"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

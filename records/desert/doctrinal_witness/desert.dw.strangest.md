@@ -16,6 +16,12 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS2-3 - giving away a substantial inheritance over two separate church visits, not one; SS12-13 - years inside an abandoned fort with its entrance built up, seen by almost no one"
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what an outsider would have found strangest about this world's own practice"
+  - "participant asks what total renunciation and physical seclusion actually looked like"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.antony-call

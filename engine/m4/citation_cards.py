@@ -16,21 +16,93 @@ other jobs.
 Report only, same discipline as everything else in this package: a
 record with no sources[] resolves to an empty list, never a fabricated
 one.
+
+Label resolution (cross-world transparency audit, 2026-08-26): every
+citable record_type gets a real, participant-readable label - before
+this, five record_types (gravity, force, contested_claim,
+doctrinal_witness, honest_limit) had no entry at all here and fell
+through to the bare record id, in every world, for every General
+Reference of those types. And `quote`'s own label printed
+speaker_or_author raw, which the corpus stores two ways (a figure
+record id, or already-readable prose) - a participant saw a real name
+on a world whose quotes happened to be authored as prose, and a
+database key on a world whose quotes happened to be authored as figure
+ids, for a difference in authoring convention that has nothing to do
+with either world's actual content richness. engine.m2.builders.py's
+own _quote_speaker carries the identical note for the compiled
+prompt's own compact citation index; this module has full repository
+access (unlike that terser context) so it resolves a figure id through
+the SAME figure-label lookup a figure's own card uses, rather than a
+cruder id-to-slug fallback.
 """
+import re
+
+_NAME_TAXONOMY_SUFFIX = re.compile(r"\s*\[[^\]]*\]\s*$")
+
+
+def _short_name(record: dict) -> str | None:
+    """gravity/force records carry a `name` ending in a bracketed build
+    taxonomy tag (e.g. "Divine Pedagogy [SUPPORTING - explanatory
+    framework]") - real and useful to a reviewer, never meant for a
+    participant. Strip it; the plain name underneath is already a good
+    label."""
+    name = (record.get("name") or "").strip()
+    if not name:
+        return None
+    return _NAME_TAXONOMY_SUFFIX.sub("", name).strip() or None
+
+
+def _first_sentence(text: str, max_len: int = 90) -> str:
+    """doctrinal_witness and honest_limit have no title-length field of
+    their own, only a full paragraph (`text`/`statement`) - the same
+    first-sentence-as-head technique engine.m4.evidence.render_evidence_
+    block already uses to turn a full field into a short ground-line,
+    reused here for the identical reason."""
+    first = (text or "").strip().split(". ")[0].rstrip(".")
+    return first if len(first) <= max_len else first[: max_len - 1].rstrip() + "…"
+
+
+def _figure_label(record: dict) -> str | None:
+    """Prefer the in-world name a participant would actually hear the
+    voice use; fall back to the scholarly name rather than a bare record
+    id - a figure record always names itself somehow, in one tag or the
+    other (pahc.figure.ministrae is the one figure in the fleet with no
+    in-world tag at all - "no in-world name or self-designation
+    survives" - not a data gap to fix, just this fallback's own reason
+    for existing)."""
+    names = record.get("names") or []
+    in_world = next((n.get("name") for n in names if isinstance(n, dict) and n.get("tag") == "in-world"), None)
+    if in_world:
+        return in_world
+    return next((n.get("name") for n in names if isinstance(n, dict) and n.get("tag") == "scholarly"), None)
+
+
+def _quote_speaker_label(record: dict, repository_records: dict) -> str | None:
+    raw = (record.get("speaker_or_author") or "").strip()
+    if not raw:
+        return None
+    figure = repository_records.get(raw)
+    if figure is not None and figure.get("record_type") == "figure":
+        return _figure_label(figure) or raw
+    return raw
+
 
 _LABEL_FIELDS = {
-    "term": lambda r: r.get("world_word") or r.get("term"),
-    "story": lambda r: r.get("tellable_as"),
-    "quote": lambda r: r.get("speaker_or_author"),
-    "figure": lambda r: next(
-        (n.get("name") for n in (r.get("names") or []) if isinstance(n, dict) and n.get("tag") == "in-world"), None
-    ),
+    "term": lambda r, _repo: r.get("world_word") or r.get("term"),
+    "story": lambda r, _repo: r.get("tellable_as"),
+    "quote": _quote_speaker_label,
+    "figure": lambda r, _repo: _figure_label(r),
+    "gravity": lambda r, _repo: _short_name(r) or r.get("description"),
+    "force": lambda r, _repo: _short_name(r) or r.get("description"),
+    "contested_claim": lambda r, _repo: r.get("claim"),
+    "doctrinal_witness": lambda r, _repo: _first_sentence(r.get("text") or ""),
+    "honest_limit": lambda r, _repo: _first_sentence(r.get("statement") or ""),
 }
 
 
-def _label(record: dict) -> str:
+def _label(record: dict, repository_records: dict) -> str:
     getter = _LABEL_FIELDS.get(record.get("record_type"))
-    label = getter(record) if getter else None
+    label = getter(record, repository_records) if getter else None
     return label or record.get("id", "")
 
 
@@ -57,7 +129,7 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     return {
         "record_id": record_id,
         "record_type": record.get("record_type"),
-        "label": _label(record),
+        "label": _label(record, repository_records),
         "sources": sources,
     }
 

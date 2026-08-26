@@ -15,6 +15,13 @@ confidence:
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "Moses, Alphabetical Collection - one saying, re-derived from the prior build's cleared Doc_09a Story 2.1, itself independently web-verified as genuine and accurately worded; paraphrase-only here, no vendored edition, no verbatim-quote claim"
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant is judging themselves or someone else harshly and asks if this way of life has anything to say to that"
+  - "participant asks what discernment (diakrisis) actually looked like in practice"
+  - "participant asks for a short, memorable saying about self-judgment"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.diakrisis

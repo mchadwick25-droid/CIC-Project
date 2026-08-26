@@ -16,6 +16,13 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS3-4 - the older ascetic near his own village; SS12-13 - crossing to the abandoned fort across the river and dwelling there, the crowds gathering outside; SS49-50 - the later withdrawal to the inner mountain, seeking greater solitude from those same crowds"
   license: public-domain
+retrieval:
+  tier: 1
+  retrieve_when:
+  - "participant asks how someone actually became part of this life, step by step"
+  - "participant asks whether belonging here cost something - family, community, standing"
+  - "participant asks why someone who sought solitude kept moving further away from people"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

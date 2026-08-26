@@ -16,6 +16,12 @@ sources:
 - source_id: desert.source.palladius-lausiac-history
   locus: "ch. XLV - Philoromus, a Galatian priest and ascetic, on the day he took up this life, in his own reported words"
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether this world would have described conversion or entry as being 'born again'"
+  - "participant asks if that specific modern phrase was ever actually used"
+  do_not_retrieve_when: []
 text: "One of us, Philoromus, from Galatia rather than Egypt but living the same discipline, put it in exactly those words once, late in his own life: from the day I was initiated and born again, he said, until today, I have never eaten another's bread for nothing. For him the words marked the day he took the discipline up, not a single decisive turn of feeling the way some outside our world would mean it - but he did use that language, of himself, without anyone asking him to. So yes: at least one of us would have put it that way, though we cannot say how many others would have agreed with him."
 positions:
 - "the phrase 'born again' does occur in this world's own broader circle, in one ascetic's own reported first-person words - it is not simply absent from our vocabulary"

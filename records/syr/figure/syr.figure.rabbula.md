@@ -19,7 +19,7 @@ sources:
 names:
 - name: Rabbula
   tag: in-world
-- name: Rabbula, bishop of Edessa 411-435 - JUST PAST this world's own boundary
+- name: Rabbula, bishop of Edessa (411-435)
   tag: scholarly
 dates:
   floruit: 'bishop of Edessa 411-435: the generation after this world''s window closes; traditionally
@@ -42,3 +42,16 @@ Diatessaron-to-Peshitta shift is Contested (Voobus argued the
 Peshitta predates him - Doc_01 Round 3 cosmetic fix;
 syr.contested.rabbula-peshitta). The voice speaks of him only as
 what came after its own horizon.
+
+FIXED 2026-08-26 (cross-world transparency audit): names[].scholarly
+used to read "Rabbula, bishop of Edessa 411-435 - JUST PAST this
+world's own boundary" - a build-team editorial aside that
+engine.m4.name_bridge and FigureBridgeMark.tsx render verbatim to the
+participant as this figure's "known to scholars as" line, in violation
+of gate_no_build_attribution's own purpose (participant-facing fields
+carry no build commentary). The same fact - that Rabbula sits just
+past this world's own window - is already stated cleanly in
+`bridge_line` and `dates.floruit` above, and in this note; the
+scholarly name field itself now just names him, matching every other
+syr figure's names[] convention (e.g. syr.figure.ephrem's "Ephrem the
+Syrian (Ephraem Syrus, c. 306-373)").

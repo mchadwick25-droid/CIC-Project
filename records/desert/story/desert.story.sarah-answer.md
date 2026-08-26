@@ -15,6 +15,13 @@ confidence:
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "Sarah, Alphabetical Collection - one saying, re-derived from the prior build's cleared Doc_09a Story 2.3, itself independently web-verified; paraphrase-only here, no vendored edition, no verbatim-quote claim, matching desert.figure.sarah's own sourcing"
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether a woman could carry real authority in this world"
+  - "participant asks for a specific example of a woman's own teaching voice, or a direct challenge to her standing"
+  - "participant asks about discernment (diakrisis) exercised under social challenge"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.elder-authority

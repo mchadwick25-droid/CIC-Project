@@ -204,9 +204,18 @@ def test_ordinary_turn_calls_voice_generation_and_checks_inline_citations():
         {"sentence": "We did not claim to have seen him ourselves.", "record_ids": ["fix.witness.who-is-jesus"]}
     ]
     # citation_cards.resolve_citation_sources's own addition - see
-    # test_citation_cards.py for the resolution logic itself; this just
-    # proves run_turn actually calls it.
-    assert citations[0]["sources"] == [{"record_id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "label": "fix.witness.who-is-jesus", "sources": []}]
+    # test_citation_cards.py for the resolution logic itself (including
+    # the doctrinal_witness label logic - a real first-sentence label,
+    # not the record id, per the cross-world transparency audit); this
+    # just proves run_turn actually calls it.
+    assert citations[0]["sources"] == [
+        {
+            "record_id": "fix.witness.who-is-jesus",
+            "record_type": "doctrinal_witness",
+            "label": "We did not claim to have seen him ourselves",
+            "sources": [],
+        }
+    ]
     assert result.voice_event["do_not_voice_violation"] is None
     assert result.voice_event["degraded_by_net"] is False
 

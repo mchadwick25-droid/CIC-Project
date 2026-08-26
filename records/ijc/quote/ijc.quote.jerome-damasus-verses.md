@@ -18,7 +18,7 @@ sources:
   license: public-domain
 text: Damasus, bishop of Rome, had a fine talent for making verses and published many brief works in
   heroic metre. He died in the reign of the Emperor Theodosius at the age of almost eighty.
-speaker_or_author: "Jerome, De Viris Illustribus 103 (licensed for this world's figure notices only)"
+speaker_or_author: "Jerome, De Viris Illustribus 103"
 license: verbatim
 modern_lens_note: >-
   'Heroic metre' names a specific ancient verse form (dactylic hexameter), not a genre label in any
@@ -36,3 +36,10 @@ emptied - this quote names no inscription, archaeology, or evidential
 method, so an F5-E tag was a loose association; its real and sole job
 is corroborating ijc.figure.damasus (F5-E stays covered by
 ijc.term.basilica and ijc.term.martyrium).
+
+FIXED 2026-08-26 (cross-world transparency audit): speaker_or_author
+used to carry "(licensed for this world's figure notices only)" - a
+build-team scope note rendered verbatim to the participant as this
+quote's speaker line. The speaker line now just names Jerome and the
+locus. NARROW LICENSE: this quote is licensed for use as figure-notice
+material specifically, not for reuse as general testimony elsewhere.

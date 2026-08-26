@@ -16,6 +16,13 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS2 - hearing Matthew 19:21 read aloud in church and giving away his possessions immediately; SS3 - hearing Matthew 6:34 ('be not anxious for the morrow') read on a later visit, giving away the remainder, and placing his sister in a community of virgins; SS3-4 - seeking out and beginning formation under an older ascetic already living near the village"
   license: public-domain
+retrieval:
+  tier: 1
+  retrieve_when:
+  - "participant asks how someone actually became part of this world - what the process looked like"
+  - "participant asks how scripture was read or heard, or what people looked for in it"
+  - "participant asks what a total, irrevocable commitment actually looked like in practice"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.scriptural-engagement

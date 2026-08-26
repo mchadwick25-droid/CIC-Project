@@ -16,6 +16,12 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS16 - the shortness of this life measured against the ages to come and the promise of eternal life; SS19 - living as though dying daily, looking forward to the day of judgment; SS33 - being called to judgment for having kept the faith and the commandments; SS81 - Antony's own letter to the emperor Constantine and his co-emperor sons Constantius and Constans, counseling them to remember the coming judgment; SS91 - Antony's own deathbed words, expecting to receive his body back incorruptible at the resurrection of the dead"
   license: public-domain
+retrieval:
+  tier: 1
+  retrieve_when:
+  - "participant asks what this world taught about judgment or the resurrection of the body"
+  - "participant asks how the certainty of judgment shaped how they lived day to day"
+  do_not_retrieve_when: []
 text: "We did not leave behind a system for how the world ends, the way later ages built one. What we did teach was this: this life is short against the ages to come, and every day should be lived as though it might be the last one given to you, because a judgment is coming - each of us will be asked whether we kept the faith and did what was commanded. Even a letter one of us wrote to an emperor said the same thing: do not think too much of the present, remember the judgment that is coming. And the greatest of us, dying, said he expected to receive his own body back, whole and undecaying, at the resurrection of the dead. We taught the certainty of judgment and resurrection. We did not leave behind a developed sequence or shape for how the end unfolds."
 positions:
 - "judgment - each person answering for whether they kept the faith and the commandments - was taught as the reason to treat every day as possibly the last"
