@@ -12,8 +12,9 @@ and `CiC_Messaging_Branding_Kit_QuickRef_V0_1.md`.
 - `support.html` — **Back in nav since 2026-08-06** as "Get Involved," rewritten with
   real cost figures and two named funds (Accessibility, Academic Review); see its own
   header comment and `Ministry/Features/Funding-Strategy/Decision-Log.md` for the
-  derivation. Checkout is a plain "contact us" mailto for now — real Stripe Payment
-  Link checkout is tracked, separate follow-up work, not a break.
+  derivation. **Real checkout is live since 2026-08-25** — two Stripe Payment Links
+  (one-time and monthly), no server involved; see the page's own header comment for
+  which link is which and why they're split by gift frequency, not by fund.
 
 Copy is pulled directly from `Vision, Mission, Convictions, and Foundational
 Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.

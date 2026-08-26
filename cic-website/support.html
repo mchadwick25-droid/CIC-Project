@@ -17,6 +17,19 @@
   undifferentiated amount, not a fund selection) - do not build that silently
   into a future pass without flagging it as its own step.
 
+  SUPERSEDED 2026-08-25: real checkout is live. Mark resolved the Stripe
+  compliance flag (see the earlier BLOCKED comment this replaces) and built
+  two Stripe Payment Links himself, tested with a real $5 contribution -
+  no server, no /api/support/checkout, no account created anywhere, same
+  "no accounts, no feature-gating" shape as the rest of this site. Split by
+  GIFT FREQUENCY, not by fund, per Mark's own naming: "Keeping the Door
+  Open" (buy.stripe.com, one-time) and "Open the Door Wider"
+  (donate.stripe.com, monthly recurring) - neither link is fund-specific,
+  so a giver who wants to designate Accessibility vs. Academic Review
+  specifically is routed to email instead, per the giving section below.
+  These are plain hyperlinks; nothing here needs updating if Mark rotates
+  or replaces either link, only the two href values below.
+
   Cost figures refreshed 2026-08-25 (Public Pilot Access thread): the prior
   $2/$5-per-hour pair was measured against the pre-rebuild system's cost
   model (Anthropic Console API, different provider/model routing) - never
@@ -97,26 +110,16 @@
 
   <section class="page-section" id="giving">
     <h2>Be Part of It</h2>
-    <p>Give to the Accessibility Fund to help more people, in more languages, explore more Christian traditions. Give to the Academic Review Fund to help deepen our historical rigor.</p>
+    <p>Every gift helps fund both: the Accessibility Fund, which helps more people, in more languages, explore more Christian traditions, and the Academic Review Fund, which deepens our historical rigor.</p>
 
     <p style="font-size:0.92rem;color:var(--muted);">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible.</p>
 
-    <!-- Recommended next step for real checkout, not built here (2026-08-25):
-         Stripe Payment Links, one per fund (Accessibility, Academic Review) —
-         no server dependency, matches this project's own "no accounts, no
-         feature-gating" design philosophy, and avoids re-creating the old
-         giving.py/cic-poc backend's exact failure mode (it silently
-         disappeared when that service was suspended). BLOCKED until Mark
-         checks the Stripe dashboard directly: the account was flagged under
-         Stripe's "fundraising by nonprofits/charities" restricted category
-         (Faithways is a for-profit PBC, not a charity) - a response was
-         submitted with a Sept 4 deadline and its resolution was never
-         confirmed. Creating the Payment Links and clearing that flag are both
-         Mark's own Stripe-dashboard actions, not this thread's to take. -->
-    <p>Direct giving isn't set up on this page yet — if you'd like to give to either fund, reach out and we'll sort it out with you personally:</p>
-    <p style="text-align:center;margin:1.6rem 0;">
-      <a class="btn secondary" href="mailto:info@churchinconversation.com?subject=Supporting%20Church%20in%20Conversation">info@churchinconversation.com</a>
-    </p>
+    <div class="hero-actions" style="margin:1.8rem 0 1rem;">
+      <a class="btn primary" href="https://buy.stripe.com/fZu5kwbbRONkbXegEI8bS01">Keeping the Door Open <span style="font-weight:400;opacity:.85">— give once</span></a>
+      <a class="btn primary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEI8bS00">Open the Door Wider <span style="font-weight:400;opacity:.85">— give monthly</span></a>
+    </div>
+    <p style="font-size:0.92rem;color:var(--muted);text-align:center;margin:0 0 1.8rem;">Both go through Stripe. Want your gift designated to one fund specifically, or to give another way? Email us and we'll sort it out with you personally: <a href="mailto:info@churchinconversation.com?subject=Supporting%20Church%20in%20Conversation">info@churchinconversation.com</a>.</p>
+
     <p>Other ways to support the work that cost nothing: introduce us to a seminary, professor, or scholar who might serve as an external reviewer; tell someone who'd want to explore the Table themselves; or simply ask us questions — the sharpest ones make the work better.</p>
   </section>
 </main>

@@ -347,11 +347,54 @@ page regardless of this thread's edits).
 
 ### Next action
 
-**Mark, in order:** (1) check the Stripe dashboard for the compliance-flag
+~~**Mark, in order:** (1) check the Stripe dashboard for the compliance-flag
 resolution — this blocks everything Stripe; (2) once clear, create the two Payment
 Links (Accessibility, Academic Review) and hand the URLs back so `support.html`'s
-mailto CTA can be swapped for real checkout; (3) read the landing-page ask line and
-the refreshed Get Involved cost paragraph (both above, both already Opus-5-reviewed)
-and confirm or redirect before treating them as final — new participant/donor-facing
-copy gets his own read before shipping, same discipline as the app's own Facilitator
-text, even after a model review pass.
+mailto CTA can be swapped for real checkout;~~ **(1) and (2) DONE, same day** — see
+next entry. (3) still open: read the landing-page ask line and the refreshed Get
+Involved cost paragraph (both above, both already Opus-5-reviewed) and confirm or
+redirect before treating them as final — new participant/donor-facing copy gets his
+own read before shipping, same discipline as the app's own Facilitator text, even
+after a model review pass.
+
+---
+
+## 2026-08-25 — Real Stripe checkout live on Get Involved
+
+**Status.** Same day as the entry above. Mark confirmed the compliance flag is
+resolved and had already built and tested real checkout himself — a live $5
+contribution went through successfully — before this thread finished the rest of
+its work. Wired the result into `support.html`.
+
+**What Mark built, not this thread's call:** two Stripe Payment Links, split by
+**gift frequency**, not by fund — a real, working structural choice this thread
+hadn't anticipated (the prior entry's own header-comment note recommended "one
+[link] per fund," which turned out not to be what got built). Both are plain
+hyperlinks, no SDK, no server, matching the "no accounts, no feature-gating"
+philosophy the recommendation was reaching for anyway:
+
+- **"Keeping the Door Open"** — one-time gift — `buy.stripe.com/fZu5kwbbRONkbXegEI8bS01`
+- **"Open the Door Wider"** — monthly recurring — `donate.stripe.com/28E14g3Jp2Vsd1igEI8bS00`
+
+**Reconciling with the two named funds.** Neither link is fund-specific, so a giver
+who wants to designate Accessibility vs. Academic Review can't do it at checkout
+directly — the "Be Part of It" section now says so plainly and routes that request
+to email instead, rather than silently dropping it or inventing a fund-selection
+mechanism Mark didn't build. The two funds stay named as what gifts support in
+general (settled ground, unchanged); the two buttons are simply the two ways to
+give, not a fund picker.
+
+**Superseded in `support.html`'s own header comment**, not deleted — the prior
+"BLOCKED until Mark checks the Stripe dashboard" note is marked SUPERSEDED in place
+so the resolution is visible in the same spot the blocker was recorded, per this
+log's own standing discipline against letting decisions live only in conversation
+history.
+
+**Verified before shipping:** loaded the page in a real headless browser — both
+buttons render with the exact URLs Mark gave, correct link text, the mailto
+fallback for fund-specific/alternate giving still present, zero console errors.
+
+### Next action
+
+None from this thread — checkout is live and verified. Open items going forward
+belong to whatever Mark raises next.
