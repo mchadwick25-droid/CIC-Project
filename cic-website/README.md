@@ -24,9 +24,10 @@ Commitments V1.1.docx` and the Messaging & Branding Kit — not written fresh.
 (Colorado Public Benefit Corporation, Entity ID 20261918758, Formation Date
 07/27/2026; not a nonprofit,
 no 501(c)(3), contributions are not tax-deductible). The Support page's giving
-mechanics, when it goes live, are built around the monetization ladder in
-`Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md`, not charitable-deductibility
-framing — see that file before changing the ask copy or amounts.
+mechanics (live since 2026-08-25, see the Pages section above) are built around
+the monetization ladder in `Ministry/Funding/CiC_Go_Live_Cost_Model_V0_1.md`,
+not charitable-deductibility framing — see that file before changing the ask
+copy or amounts.
 
 ## Deploying (Cloudflare Pages — free tier, recommended)
 

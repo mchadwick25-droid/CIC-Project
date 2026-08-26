@@ -38,6 +38,14 @@
 .access-note{font-family:'Alegreya Sans',sans-serif;font-size:.85rem;color:var(--muted);max-width:30rem;margin:0 auto;text-wrap:balance}
 .access-note a{color:var(--muted);text-decoration-color:var(--rule)}
 .access-note a:hover,.access-note a:focus-visible{color:inherit;text-decoration-color:currentColor}
+/* --muted itself is never redefined for dark mode anywhere on this site
+   (assets/style.css only re-tones specific SELECTORS, e.g. .hero p.lede,
+   to #B8AEA1 - a proven-compliant value already used site-wide), so this
+   local color:var(--muted) needs its own explicit dark-mode override or it
+   stays at its light-mode value against a near-black background: measured
+   ~3.2:1, below the 4.5:1 AA minimum for body text (2026-08-25 full-review
+   finding). Same #B8AEA1 the shared stylesheet already trusts elsewhere. */
+@media (prefers-color-scheme:dark){ .access-note{color:#B8AEA1} }
 
 /* Representative carousel — chronological, era-tinted, click for the same
    info the program's own world tile shows, then a direct link into a free
@@ -160,7 +168,7 @@
   </section>
 
   <section class="access-note-wrap">
-    <p class="access-note">Running these conversations costs real money, which limits how many people can use them. If you'd like to help with that, see <a href="support.html">Get Involved</a>.</p>
+    <p class="access-note">Running these conversations costs real money. If you'd like to help with that, see <a href="support.html">Get Involved</a>.</p>
   </section>
 </main>
 
