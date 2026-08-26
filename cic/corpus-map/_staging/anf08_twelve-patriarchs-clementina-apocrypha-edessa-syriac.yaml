@@ -416,28 +416,29 @@ assignments:
   author: gospel-of-nicodemus
   locus: div2 7.12-7.17
   atlas_ids:
-  - imperial-juridical-christianity
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Greek Acts of Pilate commonly dated to the 4th century (possibly answering the pagan
     ''Acts of Pilate'' circulated under Maximin), with the Descensus attached later; provenance
     unknown. ijc is an era guess only — the work is popular piety, not imperial-juridical
-    argument.
-
-    '
+    argument. Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to
+    hold this class, and the note above already said ijc was an era guess for a work that
+    is popular piety rather than imperial-juridical argument.'
 - work: The Pilate Cycle (letters, reports and legends of Pilate)
   author: pilate-cycle
   locus: div2 7.18-7.24
   atlas_ids:
-  - imperial-juridical-christianity
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Grouped as one body: Letter of Pontius Pilate; Report of Pilate (two forms); The
     Giving Up of Pilate; The Death of Pilate; The Narrative of Joseph; The Avenging of the
     Saviour. Christian compositions under Roman official personae, late antique to medieval;
     same era-guess placement and the same doubt as the Gospel of Nicodemus they travel with.
-
-    '
+    Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold this
+    class, and the note above already said ijc was an era guess for a work that is popular
+    piety rather than imperial-juridical argument.'
 - work: Acts of the Holy Apostles Peter and Paul
   author: acts-of-peter-and-paul
   locus: div2 7.25

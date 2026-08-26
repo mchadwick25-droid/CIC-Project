@@ -44,14 +44,14 @@ works:
   author: apostolic-canons
   locus: div2 17.3-17.4 — The Canons of the Holy and Altogether August Apostles
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The 85 canons attributed to the Apostles, received in the East via Trullo canon 2.
     Pseudonymous church-order material of the 4th century with no census entry of its own;
     best guess is the imperial-era church-law corpus, but its sibling text (the Apostolic
     Constitutions, of which these canons form the close) is in anf07 under another worker,
-    and one ruling should place the pair together.
-
-    '
+    and one ruling should place the pair together. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside for the pseudo-apostolic character. ijc is kept - these functioned as
+    church law in the imperial-era East, which is what this entry is.'
   source_file: npnf214_seven-ecumenical-councils.xml
 - work: Apology to the Emperor (Apologia ad Constantium)
   author: athanasius
@@ -376,60 +376,6 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
-- work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
-  author: gospel-of-nicodemus
-  locus: div2 7.12-7.17
-  role: tradition
-  confidence: needs-ruling
-  note: 'Greek Acts of Pilate commonly dated to the 4th century (possibly answering the pagan
-    ''Acts of Pilate'' circulated under Maximin), with the Descensus attached later; provenance
-    unknown. ijc is an era guess only — the work is popular piety, not imperial-juridical
-    argument.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: De Synodis (On the Councils)
-  author: hilary_poit
-  locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
-  role: tradition
-  confidence: needs-ruling
-  note: 'Written to the Gallic bishops to explain the eastern creeds before Ariminum/Seleucia
-    - a direct primary account of the Homoian conciliar creeds, so the homoian assignment
-    is firm, and the conciliar-imperial subject matter makes imperial-juridical a real second
-    home. Same unresolved question as De Trinitate: no census entry exists for Hilary''s own
-    Gallic church.
-
-    '
-  source_file: npnf209_hilary-poitiers-john-damascus.xml
-- work: De Trinitate (On the Trinity)
-  author: hilary_poit
-  locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
-    2
-  role: tradition
-  confidence: needs-ruling
-  note: 'The doubt is Hilary''s home, not the work: the census has NO entry for fourth-century
-    Gallic Nicene Christianity (Merovingian Gaul begins c. 480), so the Latin anti-Arian voice
-    of the West has no author-entry to belong to. The homoian-arian-christianity assignment
-    is the firm half - this is the major Latin work written against the Arian ascendancy and
-    belongs in that excluded entry''s material. imperial-juridical is the best-guess home:
-    Hilary''s career was made by imperial church politics (exiled by Constantius, restored
-    under Julian), but Gaul is outside that entry''s stated region. Mark to rule where Hilary
-    himself lives.
-
-    '
-  source_file: npnf209_hilary-poitiers-john-damascus.xml
-- work: Homilies on Psalms I, LIII, CXXX
-  author: hilary_poit
-  locus: div2 2.6 (~12,517 words), nested under the apparatus-flagged div1 2
-  role: tradition
-  confidence: needs-ruling
-  note: 'Pastoral exegesis with no anti-Arian frame, so the homoian bucket does not fit; listed
-    against the best-guess entry only because the merge requires at least one id. The real
-    answer is the same missing bucket as above - fourth-century Gaul. Whatever Mark rules
-    for Hilary''s home should carry all three of his works.
-
-    '
-  source_file: npnf209_hilary-poitiers-john-damascus.xml
 - work: Letters of Innocent of Rome concerning Chrysostom
   author: innocent_rome
   locus: div1 18, div2 18.5-18.6 — Innocent to John; Innocent to the clergy and people of
@@ -548,18 +494,6 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: The Pilate Cycle (letters, reports and legends of Pilate)
-  author: pilate-cycle
-  locus: div2 7.18-7.24
-  role: tradition
-  confidence: needs-ruling
-  note: 'Grouped as one body: Letter of Pontius Pilate; Report of Pilate (two forms); The
-    Giving Up of Pilate; The Death of Pilate; The Narrative of Joseph; The Avenging of the
-    Saviour. Christian compositions under Roman official personae, late antique to medieval;
-    same era-guess placement and the same doubt as the Gospel of Nicodemus they travel with.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — Books I-VII, 305-439

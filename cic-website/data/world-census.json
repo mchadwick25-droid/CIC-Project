@@ -4,12 +4,12 @@
   "version": "V0.20+era10-frozen",
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
-  "totalEntries": 284,
+  "totalEntries": 285,
   "liveCount": 6,
   "statusCounts": {
    "Built & Live": 6,
    "Selected - Not Yet Built": 3,
-   "Possible Future World (on record)": 11,
+   "Possible Future World (on record)": 12,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
@@ -583,6 +583,27 @@
    "type": "contemporary with",
    "confidence": "Documented",
    "note": "The Protevangelium of James and the Infancy Gospel of Thomas were written inside this entry's window and read by its churches."
+  },
+  {
+   "from": "gallic-nicene-episcopate",
+   "to": "gallic-monastic-ascetic-christianity",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "Hilary ordained Martin of Tours, who founded the West's first monastery at Ligugé; the monastic world grows on ground this one kept Nicene."
+  },
+  {
+   "from": "gallic-nicene-episcopate",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "De Trinitate is the major Latin answer to the Arian case, and De Synodis a primary account of the Homoian conciliar creeds."
+  },
+  {
+   "from": "imperial-juridical-christianity",
+   "to": "gallic-nicene-episcopate",
+   "type": "in tension with",
+   "confidence": "Documented",
+   "note": "Constantius II exiled Hilary in 356 for refusing to condemn Athanasius; the Council of Paris repudiated the creed the emperor had imposed at Ariminum."
   }
  ],
  "movements": [
@@ -1876,6 +1897,48 @@
      "url": "https://www.basilicasantambrogio.it/en/storia"
     }
    ]
+  },
+  {
+   "id": "gallic-nicene-episcopate",
+   "atlasId": "I.37",
+   "era": 2,
+   "name": "The Gallic Nicene Episcopate",
+   "shortName": "Nicene Gaul",
+   "informalName": "Hilary's Gaul",
+   "dates": "c. 350-400",
+   "start": 350,
+   "end": 400,
+   "region": "Poitiers, Béziers, Arles, Paris",
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Strong and concentrated. Hilary's De Trinitate (190,000 words), De Synodis and Homilies on Psalms are all vendored, and Sulpitius Severus' Sacred History gives the Gallic narrative from inside. What is thin is anyone but Hilary: the bishops he wrote to are known mostly through him and through the conciliar record.",
+   "floorNote": "Not in question",
+   "relationsSummary": "The other half of fourth-century Gaul, and deliberately separate from gallic-monastic-ascetic-christianity: an episcopate resisting an imperial creed, not a monastery. The two touch at one point that matters - Martin of Tours was Hilary's disciple, and the monastic world grows out of the ground this one defended.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after three of Hilary of Poitiers' works stayed flagged through two rounds of entry-adding with the same note: the census has no entry for fourth-century Gallic Nicene Christianity, so the Latin anti-Arian voice of the West has no author-entry to belong to. THE GALLIC MONASTIC ENTRY DELIBERATELY EXCLUDED HIM - the case for it argued that Hilary is a Nicene controversialist whose Gallic location is incidental to what he wrote, and that cut stands. The open question a survey would settle is whether these two Gallic entries should be one after all; they are separate here because a bishop arguing creeds and an island monastery are different kinds of thing, and collapsing them would be tidier than it is true.",
+   "entry": null,
+   "longDescription": "In 356 the emperor Constantius II, who wanted a single creed his bishops would all sign, exiled the bishop of Poitiers to Phrygia for refusing to condemn Athanasius. It was a miscalculation. Hilary spent four years in the Greek-speaking East learning the eastern debates from the inside, and wrote back to the Gallic bishops to explain them - De Synodis, a patient account of what the eastern creeds actually said and where they could and could not be met. He also wrote De Trinitate, the major Latin answer to Arianism and still the longest single work in this whole vendored corpus. When he was allowed home around 360, the Gallic church repudiated the Homoian creed that had been imposed at Ariminum, at a council in Paris. Hilary went on to attack Auxentius, the Homoian bishop of Milan, with less success. He died in 367. The province he left behind was securely Nicene, Latin, and in possession of a theological vocabulary it had not had before - and a young ex-soldier named Martin, whom Hilary had ordained, was already living as a monk at Ligugé.",
+   "teaser": "An emperor exiled the bishop of Poitiers to shut him up, and got back the longest anti-Arian book in Latin and a province that would not sign his creed.",
+   "voices": [
+    "Hilary of Poitiers - exiled for refusing to condemn Athanasius, and the West's principal theologian of the Trinity before Augustine",
+    "Constantius II - the emperor who wanted one creed signed by everyone, and whose exile of Hilary produced the opposite of what he intended",
+    "Auxentius of Milan - the Homoian bishop Hilary attacked and failed to dislodge",
+    "Sulpitius Severus - whose Sacred History narrates the Gallic side of the Arian crisis",
+    "Martin of Tours - Hilary's disciple, whom he ordained, and the bridge to the monastic Gaul that follows"
+   ],
+   "legacy": "Hilary's De Trinitate gave Latin theology its first full-scale treatment of the doctrine, and Augustine, who did the second, worked with it in view. The Gallic repudiation of Ariminum at Paris also mattered practically: it kept the western provinces out of the Homoian settlement that the Gothic kingdoms would later inherit, so that the Frankish conversion two centuries on was to a Nicene church rather than an Arian one. And Hilary ordained Martin, which makes this entry the immediate ancestor of the monastic Gaul beside it."
   },
   {
    "id": "gallic-monastic-ascetic-christianity",

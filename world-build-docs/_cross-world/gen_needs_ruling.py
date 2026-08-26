@@ -10,8 +10,19 @@ question clears, and the individual works sit under it as evidence.
 
 The preface text for a recurring question is written here rather than derived,
 because it comes from reading the workers' own reports. Everything else - which
-works, which targets, the counts - is read from the map, so this cannot drift
-from what was actually assigned.
+works, which targets, the counts - is read from the map.
+
+THAT SPLIT IS A HAZARD, and it has bitten twice. A preface claimed the Greek
+apologists were among `pahc`'s flagged works; they were `provisional`. Another
+claimed the church historians were among `imperial-juridical`'s; they are
+`assigned`. Both came from a worker's report, both read plausibly, and both
+were wrong about the pile they described - because prose written once does not
+follow a generated list that keeps changing.
+
+So every preface is now followed by the group's ACTUAL roster, generated: prose
+and pile sit one line apart and disagreement is visible on sight. A sweep key
+whose group has emptied is reported at the end of a run rather than silently
+producing nothing.
 
     python world-build-docs/_cross-world/gen_needs_ruling.py
 """
@@ -39,10 +50,15 @@ SWEEPS = {
         "Alexandrian connection is real but whose own home entry does not exist (Dionysius of "
         "Rome, Julius Africanus' correspondence, Methodius arguing against Origen).",
     "imperial-juridical-christianity":
-        "**No entry exists for the church historians as such**, so Eusebius, Socrates, Sozomen "
-        "and Theodoret were parked here on the reading that they document the imperial "
-        "settlement. Also here: whether official conciliar acta and imperial rescripts count as "
-        "`ijc`'s *own voice* or as `context` - a question about what that world is.",
+        "**Not the historians.** Eusebius, Socrates, Sozomen and Theodoret are all `assigned` "
+        "here and always were. What is left: *Martyrs of Palestine*, because no entry covers the "
+        "pre-Constantinian Palestinian church or the Great Persecution; and the *Canonical Epistles of the Fathers*, where the question is granularity - a per-father "
+        "split would send Basil and the Gregories to the Cappadocian entry and Athanasius and "
+        "Peter to Alexandria, but would mint ten rows for seventeen thousand words of canons. "
+        "(Lactantius' *Divine Institutes* is the third of this entry's questions and files under "
+        "`latin-pastoral-congregational-christianity` below, where its other half sits: written "
+        "during the Great Persecution by a Latin rhetor who became Constantine's court tutor, so "
+        "neither side is a clean fit.)",
     "cappadocian-nicene-pastoral-monastic-tradition":
         "**No entries for third-century Pontus, Palestine or Antioch.** Gregory Thaumaturgus is "
         "shelved with the Cappadocian entry he is forerunner to; the Trullan appendix's "
@@ -133,12 +149,12 @@ def main() -> None:
 
     out.append("\n## Answered since the run\n")
     out.append(
-        "**Ten entries added, 2026-08-26.** Fleet-wide flagged works have fallen from **87 to "
-        "63** — a 28% reduction, and none of it by deciding anything a worker had refused to "
+        "**Eleven entries added, 2026-08-26.** Fleet-wide flagged works have fallen from **87 to "
+        "59** — a 32% reduction, and none of it by deciding anything a worker had refused to "
         "decide. Every entry answers the same complaint, raised independently by workers who "
         "could not see each other: *this material is real and the census has nowhere accurate to "
         "put it.*\n\n"
-        "Four are formation-world candidates, on record as *Possible Future World*:\n\n"
+        "Five are formation-world candidates, on record as *Possible Future World*:\n\n"
         "- **`gallic-monastic-ascetic-christianity`** (era 2, c. 360–450, *Possible Future World "
         "on record*). Closed the pre-Merovingian Gaul hole that two workers hit independently. "
         "**Seven works re-pointed**, six of them to `assigned`; the *Doubtful Letters of "
@@ -150,6 +166,11 @@ def main() -> None:
         "- **`palestinian-ascetic-monasticism-early`** (era 2, c. 330–450). The same shape as "
         "Gaul: `chalcedonian-monasticism-judean-desert-and-gaza` does not begin until c. 450. "
         "Took Jerome's *Hilarion* and *Malchus*.\n"
+        "- **`gallic-nicene-episcopate`** (era 2, c. 350–400). Hilary of Poitiers, whose three "
+        "works stayed flagged through two rounds of entry-adding because the Gallic *monastic* "
+        "entry had deliberately excluded him — its own case argued he is a controversialist whose "
+        "Gallic location is incidental. That cut stands, so he got his own entry. Whether the two "
+        "Gallic entries should be one is named there as the open question.\n"
         "- **`greek-apologists-second-century`** (era 1, c. 124–200). Fifteen works, and the "
         "argument that carried it is the one that carried Gaul: **Athens is not among `pahc`'s "
         "named regions**, and Quadratus, Aristides and Athenagoras all wrote from there. The "
@@ -196,6 +217,9 @@ def main() -> None:
         out.append(f"\n## `{target}` — {len(group)} work(s)\n")
         if target in SWEEPS:
             out.append(SWEEPS[target] + "\n")
+            # The roster, generated. See the note on drift above main().
+            roster = ", ".join(sorted({str(k[0]) for k, _ in group}))
+            out.append(f"*In this pile: {roster}.*\n")
         for (author, work, source), v in group:
             also = [t for t in sorted(set(v["targets"])) if t != target]
             out.append(f"**{work}** · `{author}` · `{str(source).split('_')[0]}`"
@@ -243,6 +267,12 @@ def main() -> None:
         "`cic-website/data/world-census.json` and belongs to whoever owns the Atlas, not to a "
         "corpus thread. This report is the evidence that the entry is wanted: it names the "
         "material already in hand that would fill it.\n")
+
+    orphans = sorted(set(SWEEPS) - set(filed))
+    if orphans:
+        print("NOTE: sweep prose with no remaining group (answered, or the key is stale):")
+        for o in orphans:
+            print(f"  {o}")
 
     target_file = pathlib.Path(__file__).resolve().parent / "NEEDS-RULING.md"
     target_file.write_text("\n".join(out) + "\n", encoding="utf-8")

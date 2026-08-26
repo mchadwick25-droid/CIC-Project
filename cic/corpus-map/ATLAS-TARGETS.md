@@ -30,7 +30,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `latin-pastoral-congregational-christianity` | Latin Pastoral-Congregational Christianity | c. 240s-430 | Carthage, Hippo Regius | Selected - Not Yet Built |
 | `novatianism` | Novatianism | c. 251-400s | Rome, spreading | Contested - Evidentiary |
 
-## Era 2 (II) — The Imperial Church Era, 312-451 CE  ·  20 entries
+## Era 2 (II) — The Imperial Church Era, 312-451 CE  ·  21 entries
 
 *Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council*
 
@@ -47,6 +47,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `homoian-arian-christianity` | Homoian ('Arian') Christianity | 4th-6th c. | Empire-wide; then Gothic & Vandal kingdoms | Excluded - Doctrinal Floor (C1) ⛔ |
 | `anomoean-eunomian-christianity` | Anomoean (Eunomian) Christianity | c. 350-c. 430 | Antioch, Cyzicus, Constantinople, Cappadocia | Floor Question (register) ⛔ |
 | `antiochene-exegetical-christianity-chrysostom-ce` | Antiochene Exegetical Christianity (Chrysostom-centered) | c. 350-430 | Antioch | Possible Future World (on record) |
+| `gallic-nicene-episcopate` | The Gallic Nicene Episcopate | c. 350-400 | Poitiers, Béziers, Arles, Paris | Possible Future World (on record) |
 | `apollinarian-christianity` | Apollinarian Christianity | c. 360-430 | Laodicea, Syria, Asia Minor | Floor Question (register) ⛔ |
 | `cappadocian-nicene-pastoral-monastic-tradition` | Cappadocian Nicene Pastoral-Monastic Tradition | c. 360-380s | Cappadocia / Anatolia | Selected - Not Yet Built |
 | `gallic-monastic-ascetic-christianity` | Gallic Monastic-Ascetic Christianity | c. 360-450 | Tours, Lérins, Marseilles | Possible Future World (on record) |

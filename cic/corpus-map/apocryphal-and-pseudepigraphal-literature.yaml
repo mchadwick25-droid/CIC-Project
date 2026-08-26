@@ -87,6 +87,31 @@ works:
     notes kept saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
     this entry names what the TEXT is.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+- work: The Apostolical Canons
+  author: apostolic-canons
+  locus: div2 17.3-17.4 — The Canons of the Holy and Altogether August Apostles
+  role: tradition
+  confidence: assigned
+  note: 'The 85 canons attributed to the Apostles, received in the East via Trullo canon 2.
+    Pseudonymous church-order material of the 4th century with no census entry of its own;
+    best guess is the imperial-era church-law corpus, but its sibling text (the Apostolic
+    Constitutions, of which these canons form the close) is in anf07 under another worker,
+    and one ruling should place the pair together. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside for the pseudo-apostolic character. ijc is kept - these functioned as
+    church law in the imperial-era East, which is what this entry is.'
+  source_file: npnf214_seven-ecumenical-councils.xml
+- work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
+  author: gospel-of-nicodemus
+  locus: div2 7.12-7.17
+  role: tradition
+  confidence: assigned
+  note: 'Greek Acts of Pilate commonly dated to the 4th century (possibly answering the pagan
+    ''Acts of Pilate'' circulated under Maximin), with the Descensus attached later; provenance
+    unknown. ijc is an era guess only — the work is popular piety, not imperial-juridical
+    argument. Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to
+    hold this class, and the note above already said ijc was an era guess for a work that
+    is popular piety rather than imperial-juridical argument.'
+  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Gospel of Peter
   author: gospel-of-peter
   locus: div2 3.2 (Akhmim fragment)
@@ -121,6 +146,19 @@ works:
     these notes kept saying had no bucket. pahc is kept where the subject matter is genuinely
     apostolic-era; this entry names what the TEXT is.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+- work: The Pilate Cycle (letters, reports and legends of Pilate)
+  author: pilate-cycle
+  locus: div2 7.18-7.24
+  role: tradition
+  confidence: assigned
+  note: 'Grouped as one body: Letter of Pontius Pilate; Report of Pilate (two forms); The
+    Giving Up of Pilate; The Death of Pilate; The Narrative of Joseph; The Avenging of the
+    Saviour. Christian compositions under Roman official personae, late antique to medieval;
+    same era-guess placement and the same doubt as the Gospel of Nicodemus they travel with.
+    Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold this
+    class, and the note above already said ijc was an era guess for a work that is popular
+    piety rather than imperial-juridical argument.'
+  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Protevangelium of James
   author: protevangelium-of-james
   locus: div2 7.4

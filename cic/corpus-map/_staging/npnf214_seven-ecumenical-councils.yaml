@@ -507,15 +507,16 @@ assignments:
   locus: div2 17.3-17.4 — The Canons of the Holy and Altogether August Apostles
   atlas_ids:
   - imperial-juridical-christianity
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The 85 canons attributed to the Apostles, received in the East via Trullo canon 2.
     Pseudonymous church-order material of the 4th century with no census entry of its own;
     best guess is the imperial-era church-law corpus, but its sibling text (the Apostolic
     Constitutions, of which these canons form the close) is in anf07 under another worker,
-    and one ruling should place the pair together.
-
-    '
+    and one ruling should place the pair together. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside for the pseudo-apostolic character. ijc is kept - these functioned as
+    church law in the imperial-era East, which is what this entry is.'
 - work: The Canonical Epistles of the Fathers received by Trullo Canon II
   author: canonical-epistles-fathers
   locus: div2 17.5-17.32 — Dionysius of Alexandria, Peter of Alexandria, Gregory Thaumaturgus,

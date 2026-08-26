@@ -16,9 +16,9 @@ assignments:
   locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
     2
   atlas_ids:
-  - imperial-juridical-christianity
+  - gallic-nicene-episcopate
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The doubt is Hilary''s home, not the work: the census has NO entry for fourth-century
     Gallic Nicene Christianity (Merovingian Gaul begins c. 480), so the Latin anti-Arian voice
     of the West has no author-entry to belong to. The homoian-arian-christianity assignment
@@ -26,9 +26,9 @@ assignments:
     belongs in that excluded entry''s material. imperial-juridical is the best-guess home:
     Hilary''s career was made by imperial church politics (exiled by Constantius, restored
     under Julian), but Gaul is outside that entry''s stated region. Mark to rule where Hilary
-    himself lives.
-
-    '
+    himself lives. Re-pointed 2026-08-26: gallic-nicene-episcopate (era 2, c. 350-400) was
+    added on record precisely because this note kept saying Hilary had no home. The homoian
+    half of the assignment is unchanged.'
 - work: De Trinitate (On the Trinity)
   author: hilary_poit
   locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
@@ -53,16 +53,16 @@ assignments:
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
   atlas_ids:
-  - imperial-juridical-christianity
+  - gallic-nicene-episcopate
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Written to the Gallic bishops to explain the eastern creeds before Ariminum/Seleucia
     - a direct primary account of the Homoian conciliar creeds, so the homoian assignment
     is firm, and the conciliar-imperial subject matter makes imperial-juridical a real second
     home. Same unresolved question as De Trinitate: no census entry exists for Hilary''s own
-    Gallic church.
-
-    '
+    Gallic church. Re-pointed 2026-08-26: gallic-nicene-episcopate (era 2, c. 350-400) was
+    added on record precisely because this note kept saying Hilary had no home. The homoian
+    half of the assignment is unchanged.'
 - work: De Synodis (On the Councils)
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
@@ -83,15 +83,15 @@ assignments:
   author: hilary_poit
   locus: div2 2.6 (~12,517 words), nested under the apparatus-flagged div1 2
   atlas_ids:
-  - imperial-juridical-christianity
+  - gallic-nicene-episcopate
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Pastoral exegesis with no anti-Arian frame, so the homoian bucket does not fit; listed
     against the best-guess entry only because the merge requires at least one id. The real
     answer is the same missing bucket as above - fourth-century Gaul. Whatever Mark rules
-    for Hilary''s home should carry all three of his works.
-
-    '
+    for Hilary''s home should carry all three of his works. Re-pointed 2026-08-26: gallic-nicene-episcopate
+    (era 2, c. 350-400) was added on record precisely because this note kept saying Hilary
+    had no home. The homoian half of the assignment is unchanged.'
 - work: An Exact Exposition of the Orthodox Faith (De Fide Orthodoxa)
   author: damascus
   locus: 'div1 3 (~94,912 words): Prologue at div2 3.3, the Exposition at 3.4'
