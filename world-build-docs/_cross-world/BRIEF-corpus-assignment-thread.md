@@ -8,6 +8,15 @@ by a longer route and assumed six buckets instead of 274.
 
 ## 1. The job, in one paragraph
 
+**This is primarily a parsing exercise** — Mark's own framing, and it should
+set your posture throughout. The work is mechanical extraction and
+assignment: read what the files say about themselves, place each work, record
+the placement. Historical judgment enters only where placement genuinely
+requires it, and where it does, `needs-ruling` is the right answer far more
+often than a confident call. You are not being asked to adjudicate the
+Christian tradition; you are being asked to sort a library and flag what you
+cannot shelve.
+
 Every author and work in the 46 vendored volumes under `cic/texts/` is
 assigned to one or more Atlas census entries, so that a world's sources become
 a derived fact rather than whatever a build thread happened to reach for. The
@@ -342,7 +351,43 @@ text:
   GEDSH, Petersen, Drijvers — are in copyright and never vendorable. They stay
   bibliography.
 
-### The appendix is a different kind of material, and the Atlas has no bucket for it
+### The appendix: context, never theology — Mark's ruling
+
+*"the outside sources do add an ecology level we need, but for context not
+theology."* Settled, and the mechanism for it already exists and is unused.
+
+The `ambient` record type has been in the schema since stage 1:
+
+```
+"ambient": {"detail": {"type": "string"},
+            "formation_claim_barred": {"const": True}}
+```
+
+`formation_claim_barred` is a JSON-Schema `const` — an ambient record
+**cannot** carry a formation claim, enforced at validation, not by anyone
+remembering. `gate_completion_per_type` requires both fields, and
+`build_chunks` compiles the type to its own `compiled/chunks/ambient/`
+directory. **No world holds a single ambient record.** Built, gated,
+compiled, entirely unused.
+
+That is exactly the disposition this material needs:
+
+- Julian, Porphyry, Libanius, Ammianus, Zosimus, Eunapius, Martial, Juvenal,
+  Proclus → **`ambient` detail**, contributing texture, setting, hostile
+  perception and social fact.
+- Never a `doctrinal_witness`, never `register: emic`. These voices are not
+  the tradition speaking; several are the tradition's opponents.
+- Assignment target: not an Atlas movement, since the census is a taxonomy of
+  Christian movements and has none for Roman paganism or Neoplatonism. Mark to
+  say whether these carry a `context` marker instead of an `atlas_id`, or
+  attach to the entry they surround (Libanius and Julian to
+  `imperial-juridical-christianity`, whose world they are the outside of).
+
+The value is real and specific: this is the best evidence of **how Christians
+were seen from outside**, which no Christian source can supply and which every
+world's "lived ecology" is thinner without.
+
+### The Atlas has no bucket for it
 
 Julian's *Against the Galileans*, Porphyry's *Against the Christians*,
 Libanius, Ammianus, Zosimus, Eunapius, Herodian, Martial, Juvenal, Proclus.
@@ -375,6 +420,40 @@ file still needs a provenance header on arrival, per §3's rule.
 Several hundred files. Upload in priority order rather than all at once — the
 gap table above is that order, and it front-loads the material that closes
 measured holes over material that is merely interesting.
+
+---
+
+## 11b. Keep a running wants register
+
+Mark: *"currently we are restricted to only open source, but that doesn't mean
+we won't raise funds to purchase other sources in the future, so a list of
+other sources and their value would be helpful."*
+
+`WANTS-REGISTER.md` already exists and is **generated, not maintained**
+(`gen_wants_register.py`). It reads every `source` record whose `edition`
+names no vendored file, and ranks by how many records depend on it — value as
+a measured fact, not an opinion about a work's importance. Current state: 38
+sources, 173 record dependencies, in four groups.
+
+Two things it already says that matter for fundraising:
+
+- The **Apophthegmata Patrum sits at value 42** — the highest in the fleet by
+  a wide margin — and it is in the *acquirable, public domain* group. It costs
+  nothing but someone's attention.
+- **Evagrius (14) and the Pachomian corpus (12)** are in *no edition exists*.
+  Money does not fix those; they stay honest limits.
+
+**Your part:** when you meet a source this collection does not contain and no
+world has yet recorded — and you will, working a collection this size —
+write it as a `source` record with `edition: "not vendored"` and a
+`discovery_channel` saying where you saw it. It then appears in the register
+at value 0, which is honest: real, findable, nothing depends on it yet. That
+is the whole mechanism; there is no separate list to keep.
+
+Seven entries currently sit in `unclassified` — Tacitus, Suetonius, Lucian,
+Ammianus, Auxentius, Paulinus of Milan. Most are the context material §11a
+covers, and several are in the Pearse appendix, so they should resolve as you
+go rather than needing a ruling.
 
 ---
 
