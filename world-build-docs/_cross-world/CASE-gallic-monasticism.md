@@ -1,7 +1,19 @@
 # The case for a Gallic monastic entry, c. 360–450
 
 **Raised by:** the corpus assignment run, 2026-08-26 · **For:** Mark, as an Atlas
-decision · **Status:** a case, not a recommendation to act
+decision · **Status:** ACTED ON — Mark ruled option 2, 2026-08-26
+
+> **Outcome.** `gallic-monastic-ascetic-christianity` (I.27, era 2, c. 360–450)
+> was added to the census as **Possible Future World (on record)**, with four
+> edges connecting it. Seven works were re-pointed to it from the Merovingian
+> entry they antedate; six moved to `assigned`, and the *Doubtful Letters* stay
+> `needs-ruling` because the editors' own attribution doubt is untouched by the
+> new entry. Fleet-wide `needs-ruling` fell from 87 works to 84.
+>
+> The entry's `why` field records that this was **not a Step 0 verdict** — it
+> says so in as many words, so nobody later mistakes it for one. The open
+> question §4 raises, whether Martin's Tours and Cassian's Marseilles are one
+> world or a lineage of two, is named there for a survey to settle.
 
 Mark's question, on reading the needs-ruling list: *"did we miss some potential
 worlds when we created the atlas?"*

@@ -4,12 +4,12 @@
   "version": "V0.20+era10-frozen",
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
-  "totalEntries": 274,
+  "totalEntries": 275,
   "liveCount": 6,
   "statusCounts": {
    "Built & Live": 6,
    "Selected - Not Yet Built": 3,
-   "Possible Future World (on record)": 6,
+   "Possible Future World (on record)": 7,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
@@ -436,6 +436,34 @@
    "type": "formed",
    "confidence": "Documented",
    "note": "The Disciples wing of the same 1906 division, on the same verified federal-census listing. No continuesAs write, for the same reason as its sibling edge. Edge written at the Era 10 Freeze (Mark, 2026-08-14)."
+  },
+  {
+   "from": "desert-monasticism",
+   "to": "gallic-monastic-ascetic-christianity",
+   "type": "transmitted to",
+   "confidence": "Documented",
+   "note": "John Cassian lived among the Egyptian monks before founding his houses at Marseilles; the Institutes and Conferences are that transmission in written form."
+  },
+  {
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "early-benedictine-italian-monasticism",
+   "type": "transmitted to",
+   "confidence": "Documented",
+   "note": "Benedict's Rule commends Cassian's Conferences by name and prescribes them as daily reading."
+  },
+  {
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "insular-irish-monastic-christianity",
+   "type": "transmitted to",
+   "confidence": "Widely Accepted",
+   "note": "The route the Atlas already names as 'via Gaul (Lérins, Martin of Tours)' - secure in outline, thinner in specifics."
+  },
+  {
+   "from": "gallic-monastic-ascetic-christianity",
+   "to": "merovingian-gallic-christianity",
+   "type": "formed",
+   "confidence": "Widely Accepted",
+   "note": "Lérins-trained bishops staffed the Gallic sees that the Frankish church inherited."
   }
  ],
  "movements": [
@@ -1556,6 +1584,48 @@
      "url": "https://www.basilicasantambrogio.it/en/storia"
     }
    ]
+  },
+  {
+   "id": "gallic-monastic-ascetic-christianity",
+   "atlasId": "I.27",
+   "era": 2,
+   "name": "Gallic Monastic-Ascetic Christianity",
+   "shortName": "Gallic Monasticism",
+   "informalName": "The Monasteries of Gaul",
+   "dates": "c. 360-450",
+   "start": 360,
+   "end": 450,
+   "region": "Tours, Lérins, Marseilles",
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Strong in volume - Cassian's Institutes and Conferences, Vincent's Commonitory, and the Martin dossier are all vendored - but uneven in kind: the Marseilles and Lérins material is the school's own teaching, while almost everything about Martin comes through one admirer's hagiography.",
+   "floorNote": "Not in question",
+   "relationsSummary": "Descended from Egyptian desert monasticism through Cassian, who had lived among the Egyptian monks before founding his houses at Marseilles; the seedbed of the Merovingian Gallic church that follows it, and - through Lérins and Tours - of Irish monasticism.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found roughly 366,000 words of vendored Gallic material sitting in an era-2 window with no entry to hold it, and two independent workers reached the same gap from opposite ends. The Atlas's own edge data already routed transmission 'via Gaul (Lérins, Martin of Tours)' through a node that did not exist. The open question a survey would have to settle is whether Martin's Tours and Cassian's Marseilles are one formation world or a lineage of two, two generations apart.",
+   "entry": null,
+   "longDescription": "Around 361 a soldier named Martin, who had left the imperial army because he would not fight, settled with a few companions at Ligugé in western Gaul - the first monastic community the Latin West had. Ten years later the people of Tours seized him and made him their bishop, and he went on living as a monk outside the city walls at Marmoutier, running a diocese from a hut. His story survives because a wealthy Aquitanian lawyer, Sulpitius Severus, gave up his career, attached himself to Martin, and wrote his Life while he was still alive. Two other houses complete the picture. Around 410 Honoratus founded a monastery on a small island off the coast near Cannes, Lérins, which became the place the Western church went to for bishops: Honoratus and Hilary to Arles, Lupus to Troyes, Faustus to Riez. And around 415 John Cassian, who had spent years among the Egyptian monks, founded two houses at Marseilles and wrote down what he had learned there - the Institutes on how a monastery is run, the Conferences on what the Egyptian elders actually said. It was these Gallic monks who declined to follow Augustine's late teaching on predestination, and Augustine wrote three treatises answering them.",
+   "teaser": "Gaul, c. 360 to 450 - a soldier who walked out of the army and was made a bishop against his will, an island monastery that supplied the Western church with its bishops, and the house at Marseilles that told the Latin world what Egypt had learned.",
+   "voices": [
+    "Martin of Tours - the conscript who refused to fight, founded the West's first monastery, and was acclaimed bishop by a crowd while still living as a monk",
+    "Sulpitius Severus - the Aquitanian lawyer who abandoned his career for the ascetic life and wrote Martin's Life while its subject was still alive",
+    "John Cassian - who lived among the Egyptian monks for years, founded two houses at Marseilles, and put the desert's teaching into Latin",
+    "Honoratus of Arles - founder of the island community at Lérins, which formed a generation of Gallic bishops before he became one himself",
+    "Vincent of Lérins - the monk whose Commonitory asked how the church can tell development from corruption, and answered with what has been believed everywhere, always, and by everyone"
+   ],
+   "legacy": "Cassian's Conferences became the West's standing handbook of the interior life: Benedict's Rule commends them by name and prescribes them as daily reading, which carried them into every Benedictine house in Europe. Vincent's test - what has been believed everywhere, always, by everyone - is still quoted in arguments about doctrinal development sixteen centuries later. Lérins itself is still a monastery, on the island off Cannes it has occupied since about 410. Martin became the patron saint of France and one of the most widely venerated saints in the medieval West, with thousands of churches carrying his name; and the Gallic objection to Augustine on grace, argued from Marseilles, was still being fought over at the Reformation."
   },
   {
    "id": "priscillianist-asceticism",

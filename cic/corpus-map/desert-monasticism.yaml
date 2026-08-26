@@ -49,9 +49,10 @@ works:
     - the largest body of desert teaching anywhere in the vendored corpus, and desert''s best
     route out of single-source answers. Same Gallic and Benedictine reception homes as the
     Institutes, with the same era caveat. Conference XIII is the classic so-called semi-Pelagian
-    text; a pelagianism context link is arguable but not asserted here.
-
-    '
+    text; a pelagianism context link is arguable but not asserted here. Re-pointed 2026-08-26:
+    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
+    360-450) was added to the census on record, and this work now names it rather than the
+    Merovingian entry it antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Twelve Books on the Institutes of the Coenobia
   author: cassian
@@ -64,9 +65,9 @@ works:
     a base. Written c. 420 for Gallic monasteries (dedicated to Castor of Apt) and commended
     by the Rule of Benedict ch. 73: the two later monastic entries are reception homes that
     both postdate Cassian - a reviewer who wants strict era fit should trim those two, not
-    desert.
-
-    '
+    desert. Re-pointed 2026-08-26: the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity
+    (era 2, c. 360-450) was added to the census on record, and this work now names it rather
+    than the Merovingian entry it antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: Letter XXII (To Eustochium, on virginity)
   author: jerome
@@ -162,11 +163,12 @@ works:
   author: sulpiciusseverus
   locus: div2 2.4 — Dialogues of Sulpitius Severus
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'Dialogue I is Postumianus'' first-hand travel account of the Egyptian desert monks
     - direct evidence for the built desert world from a Gallic visitor, which is why desert
     leads. Dialogues II-III continue the Martin material and carry the same Gallic-gap doubt
-    as the Life; provisional for that reason, not for the desert claim.
-
-    '
+    as the Life; provisional for that reason, not for the desert claim. Re-pointed 2026-08-26:
+    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
+    360-450) was added to the census on record, and this work now names it rather than the
+    Merovingian entry it antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
