@@ -717,34 +717,65 @@ def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
     return findings
 
 
-def observe_corpus_review(*, records, worlds, **_) -> list[Finding]:
-    """Progress against Mark's standard, read from each world's OWN
-    corpus_review record rather than from this file's asserted COVERAGE and
-    REGIONS tables.
+def observe_corpus_map(*, registry, worlds, **_) -> list[Finding]:
+    """Progress against Mark's standard - *"each world built and representing
+    the sources of the christian tradition"* - read from the corpus map, not
+    inferred here.
 
-    That is the whole point of the schema change: relevance used to be
-    inferred backwards by a session guessing from volume titles and dates,
-    and now it is declared by the world, where a reviewer can disagree with
-    it. `deferred` counts down as the six worlds do the review; the asserted
-    tables survive only to ORDER that work, never to make the call.
+    This replaced `observe_corpus_review` on 2026-08-26. That observer read a
+    per-world `corpus_review` record, and when Mark ruled the assignment work
+    stays OUT of the built worlds (*"lets keep this separate from the built
+    worlds with clear buckets that align"*) the record type went with it - so
+    the observer reported "no corpus_review record" six times, forever, about
+    a thing deliberately removed. Six lines of standing noise is how a standing
+    check stops being read, so it is repointed at the structure that now
+    exists rather than deleted: the question it asks is still the right one.
+
+    The join is `registry[world].census_id -> cic/corpus-map/<id>.yaml`, and it
+    needs no lookup table because the filename IS the census id. Demonstrating
+    that the alignment holds from inside the fleet check is half the reason
+    this stays: if the buckets ever stop lining up, this is where it shows.
+
+    Entries belonging to no built world are counted separately and NOT as a
+    gap. Basil waiting in `cappadocian-nicene-pastoral-monastic-tradition` is
+    material correctly placed for a world that does not exist yet - the exact
+    thing F-25 was misreading as six worlds failing to read him.
     """
     findings = []
-    for w in worlds:
-        review = next((r for r in records[w].values() if r.get("record_type") == "corpus_review"), None)
-        if review is None:
-            findings.append(_observation("corpus-review", w, "no corpus_review record"))
-            continue
-        by_rank: dict[str, int] = {}
-        for entry in review.get("declinations") or []:
-            by_rank[entry.get("rank", "?")] = by_rank.get(entry.get("rank", "?"), 0) + 1
-        deferred = by_rank.pop("deferred", 0)
-        ruled = sum(by_rank.values())
-        findings.append(_observation(
-            "corpus-review", w,
-            f"{deferred} volume(s) still `deferred`, {ruled} ruled"
-            + (f" ({', '.join(f'{k} {v}' for k, v in sorted(by_rank.items()))})" if by_rank else "")))
-    return findings
+    try:
+        sys.path.insert(0, str(REPO_ROOT / "cic" / "engine"))
+        from corpus_map import load as load_corpus_map
+        docs = load_corpus_map()
+    except Exception as exc:                      # noqa: BLE001 - never fail the fleet run on it
+        return [_observation("corpus-map", "fleet", f"corpus map unreadable ({exc.__class__.__name__}); assignment has not started")]
 
+    if not docs:
+        return [_observation("corpus-map", "fleet", "no corpus map yet - the assignment thread has not started "
+                                                    "(see BRIEF-corpus-assignment-thread.md)")]
+
+    for w in worlds:
+        cid = registry[w].get("census_id")
+        doc = docs.get(cid or "")
+        if doc is None:
+            findings.append(_observation("corpus-map", w, f"no corpus-map file for census id {cid!r}"))
+            continue
+        works = [x for x in (doc.get("works") or []) if isinstance(x, dict)]
+        by_role: dict[str, int] = {}
+        for entry in works:
+            by_role[entry.get("role", "?")] = by_role.get(entry.get("role", "?"), 0) + 1
+        unsettled = sum(1 for x in works if x.get("confidence") != "assigned")
+        findings.append(_observation(
+            "corpus-map", w,
+            f"{len(works)} work(s) assigned"
+            + (f" ({', '.join(f'{k} {v}' for k, v in sorted(by_role.items()))})" if by_role else "")
+            + (f", {unsettled} not yet `assigned`" if unsettled else "")))
+
+    held = sorted(set(docs) - {registry[w].get("census_id") for w in worlds})
+    findings.append(_observation(
+        "corpus-map", "fleet",
+        f"{len(held)} Atlas entry(ies) holding material for worlds not yet built: "
+        + (", ".join(held) or "none")))
+    return findings
 
 CHECKS = [
     check_registry_shape,
@@ -765,7 +796,7 @@ CHECKS = [
     observe_source_licensing,
     observe_uncompiled_required_fields,
     observe_second_hand_sources,
-    observe_corpus_review,
+    observe_corpus_map,
 ]
 
 

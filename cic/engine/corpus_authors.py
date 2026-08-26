@@ -4,11 +4,12 @@
 WHY THIS EXISTS. The vendored files are volumes, and a volume is the wrong
 unit for almost every question worth asking of this corpus. Mark, 2026-08-26:
 "the sources i downloaded often have multiple influensers in each volum, so
-we need to do it by person, not book." He is right, and the first version of
-`corpus_review` was keyed by file and therefore wrong: one `out-of-region`
-ruling on `anf02` would have declined Clement of Alexandria - the single most
+we need to do it by person, not book." He is right, and a first attempt at
+assignment was keyed by file and therefore wrong: one `out-of-region` ruling
+on `anf02` would have declined Clement of Alexandria - the single most
 important author for the alx world - along with Tatian, who belongs to syr's
-ecology instead. The reverse mistake is just as easy: Origen sits in two
+ecology instead. The corpus map (`cic/corpus-map/`) is keyed per work for
+exactly this reason. The reverse mistake is just as easy: Origen sits in two
 files, Jerome in two, Gregory the Great in two, Chrysostom in six, Augustine
 in eight, so a file-keyed review makes a world rule on Augustine eight
 separate times and on Origen twice.

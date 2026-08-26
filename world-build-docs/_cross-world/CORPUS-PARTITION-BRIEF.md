@@ -1,3 +1,17 @@
+> **SUPERSEDED, 2026-08-26 — read `BRIEF-corpus-assignment-thread.md` instead.**
+>
+> This draft predates Mark's ruling that the corpus map lives *outside* the
+> built worlds (*"lets keep this separate from the built worlds with clear
+> buckets that align"*). Its §0 and §4 tell a thread to land the assignment as
+> a per-world `corpus_review` record — a record type that was built, then
+> removed the same day along with its schema entry, its gate and its retrieval
+> guard. Following this document would produce the wrong artifact.
+>
+> Kept because its §2 argument still holds and is load-bearing: a world's
+> sources are not only its own authors, and an exclusive author-to-world
+> partition would silently destroy desert's evidential base. That argument is
+> carried forward as §6.1 of the live brief.
+
 # Brief: untangling the source ecology by world
 
 **Mark, 2026-08-26:** *"we have to untangle the source documents so each world

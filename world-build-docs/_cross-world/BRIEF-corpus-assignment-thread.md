@@ -168,30 +168,37 @@ retrieval guard that existed only to keep it out of the voice's candidate
 pool. All seven packages recompiled; every world's content is byte-identical
 to its prior state.
 
-Proposed shape, one record per work:
+**The format is built and gated — do not hand-build one and hope it
+validates.** `cic/engine/corpus_map.py` loads and checks every file in
+`cic/corpus-map/`, and `cic/corpus-map/desert-monasticism.yaml` is a seeded
+worked example holding two real works, both already vendored and already cited
+by that world. Copy its shape; run the validator as you go:
 
-```yaml
-id: _fleet.corpus.athanasius-vita-antonii
-record_type: corpus_assignment
-schema_version: 2
-work: "Vita Antonii (Life of Antony)"
-author: athanasius                       # a slug from cic/texts/AUTHORS.md
-source_file: npnf204_athanasius-select-works-letters.xml
-locus: "div1 'Life of Antony'"           # where in the volume
-atlas_ids:                               # one or more census movement ids
-  - desert-monasticism
-  - alexandria-catechetical
-role: tradition                          # tradition | context  (see 11a)
-confidence: assigned                     # assigned | provisional | needs-ruling
-reason: >
-  Athanasius' own account of Antony, and the single most influential text
-  about the desert world though written from outside it. Belongs to desert as
-  primary evidence and to Alexandria as its author's own work.
-```
+    python cic/engine/corpus_map.py            # validate + report
+    python cic/engine/corpus_map.py --coverage # also list vendored files with nothing assigned yet
 
-I will write the schema, the loader wiring and the gate for whatever shape you
-settle on — **do not hand-build a format and hope it validates.** Say what you
-need and it will be gated properly.
+What it enforces, so you know what will bounce:
+
+| rule | why |
+|---|---|
+| filename == `atlas_id` == a real `movements[].id` | the alignment mechanism; a typo would create a silent orphan bucket |
+| `work`, `author`, `source_file`, `role`, `confidence` all present | an assignment missing any of these cannot be acted on later |
+| `role` ∈ {`tradition`, `context`} · `confidence` ∈ {`assigned`, `provisional`, `needs-ruling`} | §11a and §6.6 |
+| `source_file` names a file in `cic/texts/` | catches a source that was cited but never vendored |
+| `author` is a slug in `cic/texts/AUTHORS.md` | §6.2 — derived from the markup, not from your own patristics |
+| the same work twice in ONE entry | a duplicate. The same work in SEVERAL entries is expected and correct (§6.1) — the validator will never complain about that |
+
+Pre-Survey Candidate entries **are** valid targets (Mark, 2026-08-26). 215 of
+the census's 274 movements sit in eras whose Step 0 survey has not run, and
+material plainly belonging to one of them belongs there rather than held back.
+Placing a source is not a claim that the era's survey has run.
+
+`python -m engine.m1.cross_world` reports each built world's assignment count
+from this map — the join is `registry census_id → corpus-map filename`, with
+no lookup table — plus a count of entries holding material for worlds not yet
+built. That last number is the point of §4: Basil waiting in
+`cappadocian-nicene-pastoral-monastic-tradition` is material correctly placed,
+not a gap.
 
 ### 5b. Per-author extracts — optional, and second
 
@@ -293,9 +300,10 @@ their future corpus.
   is checked mechanically, not by eye.
 - No assignment is exclusive where the material genuinely serves several
   entries (6.1).
-- `python -m engine.m1.cross_world` reports zero new defects.
-- `gate_corpus_accounted` (`engine/m1/gates_experimental.py`) is green for
-  all six built worlds.
+- `python cic/engine/corpus_map.py` exits 0 — every file valid.
+- `python -m engine.m1.cross_world` reports zero new defects, and its
+  `corpus-map/<world>` observations show a real count for all six built
+  worlds rather than "no corpus-map file".
 
 ---
 
@@ -322,9 +330,9 @@ their future corpus.
 |---|---|
 | `cic/engine/corpus_authors.py` | author index from CCEL markup → `cic/texts/AUTHORS.md`. `--json` for machine use. |
 | `cic/engine/texts_registry.py` | verifies each vendored file's rights basis from its own header; `--write-readme`. |
-| `cic/engine/corpus_probe.py` | asks what the corpus holds for a world + canon cell. **Prototype** — its docstring names three reasons its output is not yet usable. |
+| `cic/engine/corpus_probe.py` | asks what the corpus holds for a world + canon cell, scoped by this map. **Prototype** — its docstring names why its output is not yet usable. Each entry you assign narrows it. |
 | `engine/m1/cross_world.py` | fleet-level consistency checks; `corpus_tier()` ranks a volume against a world by date and region. |
-| `engine/m1/gates_experimental.py` | `gate_corpus_accounted` — every volume sourced or ruled, and every `atlas_id` real. |
+| `cic/engine/corpus_map.py` | **the validator for your output.** Loads `cic/corpus-map/*.yaml`, checks every rule in §5a, `--coverage` lists vendored files with nothing assigned yet. |
 | `world-build-docs/_cross-world/CORPUS-USE.md` | what each world currently draws on, and the 20 unread volumes. |
 
 ---

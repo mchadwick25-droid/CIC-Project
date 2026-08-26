@@ -21,8 +21,9 @@ checkable, which trades away the exact thing that makes this project's answers
 worth having. So this searches the texts to tell a HUMAN what records are
 missing; the records still mediate everything a participant ever meets.
 
-Scope comes from the world, never from this file: a world's in-scope authors
-are those its own corpus_review has not declined, and the cell vocabulary is
+Scope comes from the corpus map, never from this file: a world's in-scope
+files are those its Atlas entry (`cic/corpus-map/<census_id>.yaml`) has
+assigned a work from, and the cell vocabulary is
 the fleet's own canon_question keyword corpus
 (engine.m1.canon.cell_keywords), the identical derivation Stage A scores a
 live turn against.
@@ -33,11 +34,12 @@ and returns real prose. The RESULTS are not yet usable, and three specific
 things are why. Recorded here rather than in a commit message because whoever
 picks this up needs them:
 
-  1. Scope is not yet real. Every world's corpus_review is entirely
-     `deferred`, and an absent ruling is correctly treated as "not declined",
-     so nothing is out of scope for anyone. Probing `desert` currently
-     searches Augustine and Chrysostom too, and they duly come back. This
-     fixes itself as the six reviews are done; nothing here needs changing.
+  1. Scope is real but nearly empty. The corpus map now scopes by addition,
+     so a world searches the files its Atlas entry assigned - but only
+     `desert-monasticism` has a map file, and it holds two works. Every
+     other world still falls back to the whole corpus and says so on
+     stderr. This fixes itself as the assignment thread works; nothing
+     here needs changing.
 
   2. The cell vocabulary is conversational, not theological. It derives from
      the canon_question texts - "Who was Jesus, to you and your people?" -
@@ -45,6 +47,15 @@ picks this up needs them:
      prose about anything. Finding Christology needs a theological index
      vocabulary per cell, which the fleet does not have and which is a real
      piece of work, not a tuning pass.
+
+  2b. Scope is per FILE, the map is per WORK. `desert-monasticism.yaml`
+     assigns Athanasius' Vita Antonii from `npnf204`, not his De Synodis -
+     but the probe can only include or exclude whole files, so De Synodis
+     comes back too (it does, on C-I, second). Honouring the per-work ruling
+     needs the locus work in (3): once a chunk knows which `div1` it came
+     from, the map's `locus` field becomes a filter. Until then file-level
+     scope is an over-approximation, and knowing which way it errs matters
+     more than the error.
 
   3. Passages carry no locus. The chunker splits on blank lines after
      stripping tags, so a promising hit cannot be cited without a human going
@@ -69,6 +80,7 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from engine.m1 import canon  # noqa: E402
 from engine.m1.loader import load_fleet_records, load_world_records  # noqa: E402
+from engine.m1.registry import load_registry  # noqa: E402
 from engine.prose import content_words  # noqa: E402
 
 sys.path.insert(0, str(REPO_ROOT / "cic" / "engine"))
@@ -122,19 +134,44 @@ def passages(path: Path):
 
 
 def in_scope_files(world_key: str) -> dict[str, list[str]]:
-    """file -> the authors in it, for every file this world has NOT declined.
+    """file -> the authors in it, for every file this world's Atlas entry has
+    assigned a work from.
 
-    Reads the world's own corpus_review. A world that has not written one yet
-    is treated as having declined nothing, which is the honest default: an
-    absent ruling is not a "no"."""
-    records = load_world_records(world_key)
-    review = next((r for r in records.values() if r.get("record_type") == "corpus_review"), None)
-    declined = {e["file"] for e in (review or {}).get("declinations", []) if e.get("rank") != "deferred"}
+    Reads `cic/corpus-map/<census_id>.yaml`. Until 2026-08-26 this read a
+    per-world `corpus_review` record and scoped by SUBTRACTION - every file
+    the world had not declined - which was blocker (1) above: nothing had
+    been declined anywhere, so nothing was ever out of scope and probing
+    `desert` searched Augustine. The corpus map scopes by ADDITION instead,
+    which is the fix rather than a rename: an entry with two works assigned
+    searches two files, not forty-six.
+
+    A world whose map file does not exist yet falls back to the whole corpus
+    and says so. That is the honest default - an unwritten map is not a claim
+    that nothing is in scope - but it is also the old, useless behaviour, so
+    the caller is told which of the two it got.
+    """
+    import yaml
+
+    registry = load_registry()
+    census_id = (registry.get(world_key) or {}).get("census_id")
+    map_file = REPO_ROOT / "cic" / "corpus-map" / f"{census_id}.yaml"
     authors, per_file = build_index()
+    corpus = {name for name in per_file if (TEXTS_DIR / name).suffix in (".xml", ".txt")}
+
+    if census_id and map_file.is_file():
+        doc = yaml.safe_load(map_file.read_text(encoding="utf-8")) or {}
+        assigned = {w.get("source_file") for w in (doc.get("works") or []) if isinstance(w, dict)}
+        scoped = corpus & assigned
+        if scoped:
+            print(f"scope: {len(scoped)} file(s) from {census_id}.yaml", file=sys.stderr)
+            corpus = scoped
+    else:
+        print(f"scope: NO corpus map for {world_key!r} - searching all {len(corpus)} vendored "
+              f"file(s), so hits from outside this world are expected", file=sys.stderr)
+
     return {
         name: sorted({a for a, v in authors.items() if name in v["files"]})
-        for name in per_file
-        if name not in declined and (TEXTS_DIR / name).suffix in (".xml", ".txt")
+        for name in corpus
     }
 
 

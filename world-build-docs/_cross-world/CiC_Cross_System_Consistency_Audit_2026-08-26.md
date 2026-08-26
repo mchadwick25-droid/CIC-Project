@@ -25,6 +25,11 @@ where it did.
 - `CORPUS-USE.md` — the 46-file vendored corpus against what each world
   actually draws on, and how much of each world rests on text the pipeline
   can verify offline (`gen_corpus_table.py`).
+- `WANTS-REGISTER.md` — the sources the fleet already depends on and cannot
+  read, ranked by how many records rest on each (`gen_wants_register.py`).
+- `BRIEF-corpus-assignment-thread.md` — F-23 to F-25 turned out to be one
+  problem, and it is bigger than this audit. The brief hands it off whole.
+- `cic/engine/corpus_map.py` — the validator for that thread's output.
 - `engine/m1/cross_world.py` — the standing check this audit leaves behind.
   `python -m engine.m1.cross_world` exits non-zero on any drift not written
   up here.
@@ -1052,6 +1057,79 @@ to rule on them.
 
 ---
 
+### F-26 — a removal left three live references behind, including in the handoff brief · Fixed
+
+Found by this thread, in its own work, hours after doing it — which is the
+only reason it is written up rather than quietly patched. It is the exact
+species the rest of this audit is about, committed by the audit.
+
+Mark ruled that corpus organisation stays outside the built worlds, so the
+`corpus_review` record type added earlier the same day was removed: six
+records, the schema entry, its gate, and the `evidence.py` retrieval guard
+that existed only to keep it out of the voice's candidate pool. All seven
+packages recompiled, every world byte-identical, `staleness pass: True`. The
+removal was verified by the things a removal is normally verified by, and all
+of them passed, because none of them can see a *reference* to something that
+no longer exists.
+
+Three survived:
+
+| where | what it was | effect |
+|---|---|---|
+| `engine/m1/cross_world.py` | `observe_corpus_review`, still registered in `CHECKS` | six observations reading `no corpus_review record`, on every run, forever |
+| `cic/engine/corpus_probe.py` | `in_scope_files()` reading `record_type == "corpus_review"` | a scope filter that could no longer match anything, silently returning the whole corpus |
+| `BRIEF-corpus-assignment-thread.md` | §5's proposed `corpus_assignment` record shape, §8's and §10's `gate_corpus_accounted` | **the handoff document told the next thread to build the wrong artifact and named a gate that does not exist** |
+
+The third is the serious one. §5a of the same brief already described the
+settled `cic/corpus-map/` format correctly; the stale proposal sat forty lines
+below it, contradicting it, in a document whose entire purpose is to be
+followed by someone with no other context.
+
+The standing-check one is the instructive one. Six permanent lines of
+"something is missing" about a thing deliberately removed is not a harmless
+untidiness — it is how a standing check stops being read, and a check nobody
+reads fails open. The count had moved from 42 observations to 48 and nothing
+noticed, because observations never fail a run. That is the correct design
+(they are measurements, not thresholds) and it is also the blind spot: **a
+defect gets an `ACCEPTED_OPEN` entry naming who owns it; an observation gets
+nothing, so a meaningless one has no natural pressure to be removed.**
+
+**Fix.** None of the three was deleted, because in each case the question
+being asked was still the right one — only the structure it read had moved:
+
+- `observe_corpus_review` → `observe_corpus_map`, joining
+  `registry census_id → cic/corpus-map/<id>.yaml`. No lookup table: the
+  filename *is* the census id, so this also proves the alignment holds from
+  inside the fleet check. Entries belonging to no built world are counted
+  separately and explicitly **not** as a gap — Basil waiting in
+  `cappadocian-nicene-pastoral-monastic-tradition` is material correctly
+  placed, which is what F-25 above is about.
+- `corpus_probe.in_scope_files()` repointed at the map, and in doing so its
+  scoping inverted from **subtraction** (everything not declined — which was
+  everything, and was blocker 1 in its own docstring) to **addition** (the
+  files this world's entry assigned a work from). Probing `desert` for C-I now
+  searches 2 files instead of 46. The prototype's first stated blocker is
+  fixed as a mechanism, though the map holds two works so far. Its docstring
+  gains a new honest limit: the map is per-*work* and the probe scopes
+  per-*file*, so Athanasius' *De Synodis* still comes back from a volume
+  assigned only for the *Vita Antonii*. That needs the locus work in blocker 3.
+- The brief's §5 now points at `cic/engine/corpus_map.py` — the validator that
+  actually exists — with a table of what it enforces, and §8's "done"
+  criteria are stated against checks that can be run.
+
+`CORPUS-PARTITION-BRIEF.md` was banner-marked superseded rather than deleted
+(its §2 argument is load-bearing and carried forward), and this directory's
+`README.md`, which listed four of its eleven files and said "22 findings",
+was rewritten.
+
+**Disposition:** fixed. The general lesson is recorded and not acted on: this
+audit has no mechanism that would have caught it, and inventing one — a
+grep-for-dead-identifiers check — on the strength of a single instance would
+be the wrong response. Noted here so a second instance has something to point
+back to.
+
+---
+
 ## 3. What was checked and found clean
 
 An audit that lists only defects misrepresents the system. These were checked
@@ -1092,9 +1170,17 @@ judgment calls:
 | `census_id: null` → `"desert-monasticism"` | `records/worlds.yaml` | F-01 |
 | `"start": 380` → `382` on `hieronymian-ascetic-literary` | `cic-website/data/world-census.json` | F-02 |
 
-Everything else is documented and handed off. Nothing was recompiled; no
-package hash changed; the staleness sweep and the full collectible engine
-test suite pass.
+Everything else in the audit proper is documented and handed off.
+
+The thread's *later* work, after Mark's follow-up questions turned it toward
+the corpus problem, did recompile: a `corpus_review` record type was added to
+all six worlds and then removed again the same day when Mark ruled the
+assignment work stays outside the built worlds. Both moves are recorded in
+`records/worlds.yaml`'s per-world comments. Net effect on world content:
+**none** — every world is byte-identical to its pre-audit state, with only
+the manifest timestamp and hash moved. The incomplete first removal is F-26.
+
+The staleness sweep and the full collectible engine test suite pass.
 
 Deliberately **not** fixed despite being small: F-17 (one character, but
 participant-facing typography is a house-style call) and F-21 (website code,
@@ -1111,7 +1197,7 @@ Mark's ruling.
 It is the fleet-level counterpart to `gates.py`. Every gate in that battery
 runs against one world in isolation, which is why all fifteen are green while
 the fleet holds the findings above. This module is the missing view: twelve
-`check_*` functions asserting fixed cross-world contracts, and four
+`check_*` functions asserting fixed cross-world contracts, and seven
 `observe_*` functions that measure and never threshold.
 
 ```
@@ -1128,7 +1214,7 @@ directions — the fleet carries no undocumented drift, *and* no
 `ACCEPTED_OPEN` entry has gone stale, so a repair that lands without its
 waiver being removed is caught too.
 
-Current state: **0 new defects, 16 accepted-open, 24 observations.**
+Current state: **0 new defects, 16 accepted-open, 43 observations.**
 
 What it enforces, in one line each: the registry entry key set and no null
 fields; package pinning; that every `census_id` resolves to a live census
@@ -1141,7 +1227,14 @@ resolves to a readable label through the real resolvers; that every world has
 frontend assets and an order position; and that every world has a site
 portrait. It measures, without judging: retrieval-hint coverage, tier spread,
 `do_not_retrieve_when` adoption, source-reference licensing, and optional
-field adoption.
+field adoption; which vendored volumes a world names but never opens; and
+each world's corpus-map assignment count, joined `census_id` → filename.
+
+One caution, from F-26: an observation has no `ACCEPTED_OPEN` entry and
+cannot fail a run, so **a meaningless observation has no natural pressure to
+be removed** — six of them accumulated here for hours reporting the absence
+of a deliberately deleted record type. When an observer's subject goes away,
+repoint or delete the observer in the same change.
 
 **A seventh world build should run it before it asks to be admitted.** Every
 finding above is something a build thread could have caught in seconds if
