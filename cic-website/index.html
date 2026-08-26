@@ -47,6 +47,18 @@
    finding). Same #B8AEA1 the shared stylesheet already trusts elsewhere. */
 @media (prefers-color-scheme:dark){ .access-note{color:#B8AEA1} }
 
+/* Give buttons added 2026-08-26, at Mark's direction, once support.html's
+   own Stripe links were confirmed working: .btn.secondary (not .primary),
+   deliberately lighter-weight than the hero's "Come and join us at the
+   Table" button so this still doesn't compete with the primary path — the
+   original 2026-08-25 design brief's constraint, unchanged by adding real
+   checkout here. Same two hrefs as support.html's "Be Part of It" section;
+   that page's own header comment is the source of truth on which link is
+   which and why (domain name isn't a reliable signal - see there) — if
+   either link ever needs rotating, both places need the same edit, since
+   this is a plain multi-page static site with no shared-include mechanism. */
+.access-give-actions{margin:1.1rem 0}
+
 /* Representative carousel — chronological, era-tinted, click for the same
    info the program's own world tile shows, then a direct link into a free
    Deep Interview (never a route into the paid multi-representative Table).
@@ -168,7 +180,12 @@
   </section>
 
   <section class="access-note-wrap">
-    <p class="access-note">Running these conversations costs real money. If you'd like to help with that, see <a href="support.html">Get Involved</a>.</p>
+    <p class="access-note">Running these conversations costs real money. If you'd like to help more people use them:</p>
+    <div class="hero-actions access-give-actions">
+      <a class="btn secondary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open <span style="font-weight:400;opacity:.85">— give once</span></a>
+      <a class="btn secondary" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider <span style="font-weight:400;opacity:.85">— give monthly</span></a>
+    </div>
+    <p class="access-note">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
   </section>
 </main>
 
