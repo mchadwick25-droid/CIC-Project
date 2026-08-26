@@ -276,15 +276,16 @@ assignments:
   atlas_ids:
   - ebionite-nazoraean-current
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Jewish pseudepigraphon with Christian interpolations, or a 2nd-century Christian
     composition on Jewish sources — the introductory notice itself rehearses the dispute.
     The census has no entry for Jewish pseudepigrapha in Christian transmission; both ids
     are guesses (Jewish-Christian milieu; 2nd-century Christian use) and Mark should rule
-    the class.
-
-    '
+    the class. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the
+    class these notes kept saying had no bucket. pahc is kept where the subject matter is
+    genuinely apostolic-era; this entry names what the TEXT is.'
 - work: Excerpts of Theodotus
   author: theodotus
   locus: div2 4.3
@@ -344,14 +345,15 @@ assignments:
   locus: div2 7.4
   atlas_ids:
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'Mid-2nd-century Marian infancy gospel, enormously influential; within pahc''s era
     though its provenance (Syria? Egypt?) is unknown. The census has no bucket for popular
     apocryphal literature as a class — a recurring problem in this volume, flagged once here
-    and applied throughout.
-
-    '
+    and applied throughout. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside
+    - the class these notes kept saying had no bucket. pahc is kept where the subject matter
+    is genuinely apostolic-era; this entry names what the TEXT is.'
 - work: The Gospel of Pseudo-Matthew
   author: gospel-of-pseudo-matthew
   locus: div2 7.5
@@ -392,12 +394,13 @@ assignments:
   locus: div2 7.8-7.10
   atlas_ids:
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: '2nd-century childhood-miracles gospel (the boy Jesus), within pahc''s era; provenance
-    unknown. Not the Nag Hammadi Gospel of Thomas.
-
-    '
+    unknown. Not the Nag Hammadi Gospel of Thomas. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
 - work: The Arabic Gospel of the Infancy of the Saviour
   author: arabic-gospel-of-the-infancy
   locus: div2 7.11
@@ -440,12 +443,14 @@ assignments:
   locus: div2 7.25
   atlas_ids:
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Later Greek passio of the Roman martyrdoms (3rd-5th c. in its received form); pahc
-    holds the apostolic-Rome subject matter but the text postdates the entry''s window.
-
-    '
+    holds the apostolic-Rome subject matter but the text postdates the entry''s window. 2026-08-26:
+    apocryphal-and-pseudepigraphal-literature added alongside - the class these notes kept
+    saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
+    this entry names what the TEXT is.'
 - work: Acts of Paul and Thecla
   author: acts-of-paul-and-thecla
   locus: div2 7.26
@@ -474,43 +479,49 @@ assignments:
   locus: div2 7.28
   atlas_ids:
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: '4th-5th-century Greek in received form, set at Hierapolis; scholarship links its
     milieu to Phrygian ascetic (even Montanist-adjacent) circles. pahc is a region-of-subject
-    guess; flagged for a real ruling.
-
-    '
+    guess; flagged for a real ruling. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
 - work: Acts and Martyrdom of the Holy Apostle Andrew
   author: acts-of-andrew
   locus: div2 7.29
   atlas_ids:
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Derived from the 2nd-3rd-century Acts of Andrew (encratite in temper); the received
-    Greek is later. pahc is an era guess.
-
-    '
+    Greek is later. pahc is an era guess. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
 - work: Acts of Andrew and Matthias
   author: acts-of-andrew-and-matthias
   locus: div2 7.30
   atlas_ids:
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Later romance (city of the man-eaters), 4th-6th c.; no good census bucket — pahc
-    carried over from the Andrew cycle for consistency.
-
-    '
+    carried over from the Andrew cycle for consistency. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
 - work: Acts of Peter and Andrew
   author: acts-of-peter-and-andrew
   locus: div2 7.31
   atlas_ids:
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
-  note: Sequel to Andrew and Matthias; same class, same doubt.
+  confidence: assigned
+  note: 'Sequel to Andrew and Matthias; same class, same doubt. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
 - work: Acts and Martyrdom of St. Matthew the Apostle
   author: acts-of-matthew
   locus: div2 7.32
@@ -560,25 +571,27 @@ assignments:
   locus: div2 7.37
   atlas_ids:
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Later Greek John material (not the 2nd-century Acts of John as such); Ephesus subject
-    matter, received text much later — pahc is a region-of-subject guess.
-
-    '
+    matter, received text much later — pahc is a region-of-subject guess. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
 - work: Revelation of Moses
   author: revelation-of-moses
   locus: div2 7.38
   atlas_ids:
   - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The Greek Life of Adam and Eve — a Jewish pseudepigraphon in Christian transmission.
     The census has no bucket for the class (same problem as the Testaments of the Twelve Patriarchs
     and anf09''s Testament of Abraham); pahc stands in for ''early Christian transmission
-    milieu'' only.
-
-    '
+    milieu'' only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside -
+    the class these notes kept saying had no bucket. pahc is kept where the subject matter
+    is genuinely apostolic-era; this entry names what the TEXT is.'
 - work: Revelation of Esdras
   author: revelation-of-esdras
   locus: div2 7.39
@@ -796,36 +809,39 @@ assignments:
   locus: div2 10.3
   atlas_ids:
   - post-apostolic-house-church
+  - greek-apologists-second-century
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'The earliest apologist (c. 125, to Hadrian); Athens is outside pahc''s named regions
-    but the era and church-world are pahc''s.
-
-    '
+    but the era and church-world are pahc''s. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
 - work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: div2 10.4
   atlas_ids:
   - ebionite-nazoraean-current
   - post-apostolic-house-church
+  - greek-apologists-second-century
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Remains of the Dialogue of Jason and Papiscus — a Hebrew-Christian apologetic dialogue
     from Pella. The Jewish-Christian current and pahc are both defensible; neither is demonstrated
-    by the fragments.
-
-    '
+    by the fragments. 2026-08-26: greek-apologists-second-century added alongside - the entry
+    the corpus assignment showed was missing, for the era''s outward-facing writing. pahc
+    is kept: the era and church-world really are its.'
 - work: Fragments of Melito of Sardis
   author: melito-of-sardis
   locus: div2 10.5
   atlas_ids:
   - post-apostolic-house-church
+  - greek-apologists-second-century
   role: tradition
   confidence: assigned
   note: 'Bishop of Sardis, 2nd-century Asia Minor: apology, Paschal (Quartodeciman) material,
-    the first known Christian OT canon list — core pahc evidence.
-
-    '
+    the first known Christian OT canon list — core pahc evidence. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
 - work: Fragments of Hegesippus
   author: hegesippus
   locus: div2 10.6

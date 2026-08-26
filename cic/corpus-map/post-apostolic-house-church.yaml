@@ -7,31 +7,31 @@ works:
   author: acts-of-andrew
   locus: div2 7.29
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Derived from the 2nd-3rd-century Acts of Andrew (encratite in temper); the received
-    Greek is later. pahc is an era guess.
-
-    '
+    Greek is later. pahc is an era guess. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Acts of Andrew and Matthias
   author: acts-of-andrew-and-matthias
   locus: div2 7.30
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Later romance (city of the man-eaters), 4th-6th c.; no good census bucket — pahc
-    carried over from the Andrew cycle for consistency.
-
-    '
+    carried over from the Andrew cycle for consistency. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Acts of the Holy Apostle and Evangelist John the Theologian
   author: acts-of-john-the-theologian
   locus: div2 7.37
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Later Greek John material (not the 2nd-century Acts of John as such); Ephesus subject
-    matter, received text much later — pahc is a region-of-subject guess.
-
-    '
+    matter, received text much later — pahc is a region-of-subject guess. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Acts of Paul and Thecla
   author: acts-of-paul-and-thecla
@@ -48,51 +48,55 @@ works:
   author: acts-of-peter-and-andrew
   locus: div2 7.31
   role: tradition
-  confidence: needs-ruling
-  note: Sequel to Andrew and Matthias; same class, same doubt.
+  confidence: assigned
+  note: 'Sequel to Andrew and Matthias; same class, same doubt. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Acts of the Holy Apostles Peter and Paul
   author: acts-of-peter-and-paul
   locus: div2 7.25
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Later Greek passio of the Roman martyrdoms (3rd-5th c. in its received form); pahc
-    holds the apostolic-Rome subject matter but the text postdates the entry''s window.
-
-    '
+    holds the apostolic-Rome subject matter but the text postdates the entry''s window. 2026-08-26:
+    apocryphal-and-pseudepigraphal-literature added alongside - the class these notes kept
+    saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
+    this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Acts of Philip
   author: acts-of-philip
   locus: div2 7.28
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: '4th-5th-century Greek in received form, set at Hierapolis; scholarship links its
     milieu to Phrygian ascetic (even Montanist-adjacent) circles. pahc is a region-of-subject
-    guess; flagged for a real ruling.
-
-    '
+    guess; flagged for a real ruling. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Acts of Xanthippe and Polyxena
   author: acts-of-xanthippe-and-polyxena
   locus: div2 10.2
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Greek romance dependent on the Paul-and-Thecla tradition, but composed well after
     it (3rd c. or later); pahc is carried over from its literary parent, not from evidence
-    about this text.
-
-    '
+    about this text. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside
+    - the class these notes kept saying had no bucket. pahc is kept where the subject matter
+    is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: The Apocalypse of Peter
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'c. 100-150; stood near the canon''s edge (Muratorian fragment; cited by Clement of
     Alexandria, whence the alexandria guess; Egyptian or Palestinian provenance argued). The
     census has no bucket for early apocryphal apocalypses as a class; both ids are guesses.
-
-    '
+    2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class these
+    notes kept saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
+    this entry names what the TEXT is.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: Fragments of Apollonius
   author: apollonius
@@ -108,44 +112,44 @@ works:
   author: aristides
   locus: div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'The earliest apology surviving whole (c. 125, Athens, to Hadrian per the Introduction).
     Athens is outside pahc''s named regions, but the era and church-world are pahc''s — same
     treatment as Quadratus in anf08. Its Syriac preservation is a transmission fact, not an
-    Edessene assignment.
-
-    '
+    Edessene assignment. 2026-08-26: greek-apologists-second-century added alongside - the
+    entry the corpus assignment showed was missing, for the era''s outward-facing writing.
+    pahc is kept: the era and church-world really are its.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: div2 10.4
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Remains of the Dialogue of Jason and Papiscus — a Hebrew-Christian apologetic dialogue
     from Pella. The Jewish-Christian current and pahc are both defensible; neither is demonstrated
-    by the fragments.
-
-    '
+    by the fragments. 2026-08-26: greek-apologists-second-century added alongside - the entry
+    the corpus assignment showed was missing, for the era''s outward-facing writing. pahc
+    is kept: the era and church-world really are its.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: A Plea for the Christians
   author: athenagoras
   locus: div2 5.2 under div1 'ATHENAGORAS'
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'Athenian apologist, c. 177 - in the entry''s window but not its named regions, and
     the census has no Greek-apologist entry. Placed with the era-1 mainstream entry; flagged
-    so Mark can move him if a better home appears in a later survey.
-
-    '
+    so Mark can move him if a better home appears in a later survey. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: The Resurrection of the Dead
   author: athenagoras
   locus: div2 5.3 under div1 'ATHENAGORAS'
   role: tradition
-  confidence: provisional
-  note: 'Same placement doubt as the Plea.
-
-    '
+  confidence: assigned
+  note: 'Same placement doubt as the Plea. 2026-08-26: greek-apologists-second-century added
+    alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: The Epistle of Barnabas
   author: barnabas
@@ -241,14 +245,14 @@ works:
   author: gospel-of-peter
   locus: div2 3.2 (Akhmim fragment)
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: '2nd-century passion gospel in use at Rhossus in Antioch''s orbit — pahc''s era and
     region — but Serapion of Antioch condemned its docetic use (his letter is in anf08 div2
     10.13, cross-referenced there). Whether a gospel the entry''s own bishops rejected is
     pahc ''tradition'' is exactly a Mark question; it is not Scripture in the sense brief
-    6.5 excludes, so it is assigned rather than dropped.
-
-    '
+    6.5 excludes, so it is assigned rather than dropped. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: Fragments of Hegesippus
   author: hegesippus
@@ -284,11 +288,11 @@ works:
   author: infancy-gospel-of-thomas
   locus: div2 7.8-7.10
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: '2nd-century childhood-miracles gospel (the boy Jesus), within pahc''s era; provenance
-    unknown. Not the Nag Hammadi Gospel of Thomas.
-
-    '
+    unknown. Not the Nag Hammadi Gospel of Thomas. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Against Heresies (Books I-V)
   author: irenaeus
@@ -329,18 +333,19 @@ works:
   note: 'Already cited by pahc.source.justin-dialogue. Ch. 47''s discussion of Torah-observant
     Christians is also one of the era''s few direct witnesses to the ebionite-nazoraean-current
     material - noted here rather than assigned, since it is a few chapters of a 75,000-word
-    work.
-
-    '
+    work. 2026-08-26: greek-apologists-second-century added alongside - the entry the corpus
+    assignment showed was missing, for the era''s outward-facing writing. pahc is kept: the
+    era and church-world really are its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Hortatory Address to the Greeks
   author: justin_martyr
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: provisional
-  note: 'Same position as the Discourse: transmitted under Justin, widely doubted.
-
-    '
+  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. 2026-08-26:
+    greek-apologists-second-century added alongside - the entry the corpus assignment showed
+    was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
+    really are its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: On the Resurrection (fragments)
   author: justin_martyr
@@ -356,9 +361,10 @@ works:
   locus: div2 8.7 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: provisional
-  note: 'Same position as the Discourse: transmitted under Justin, widely doubted.
-
-    '
+  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. 2026-08-26:
+    greek-apologists-second-century added alongside - the entry the corpus assignment showed
+    was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
+    really are its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Other Fragments from the Lost Writings of Justin
   author: justin_martyr
@@ -376,26 +382,27 @@ works:
   confidence: provisional
   note: 'Printed under the JUSTIN MARTYR div1; authenticity has long been questioned. Filed
     with its transmitted author per §6.2 - derive, don''t assert - with the doubt recorded.
-
-    '
+    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
+    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
+    really are its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: The First Apology
   author: justin_martyr
   locus: div2 8.2 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: assigned
-  note: 'Rome, c. 155. Already cited by pahc.source.justin-first-apology.
-
-    '
+  note: 'Rome, c. 155. Already cited by pahc.source.justin-first-apology. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: The Second Apology
   author: justin_martyr
   locus: div2 8.3 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: assigned
-  note: 'Companion piece to the First Apology, same setting and window.
-
-    '
+  note: 'Companion piece to the First Apology, same setting and window. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: The Letter of the Churches of Lyons and Vienne (Pseud-Irenaeus)
   author: letter-churches-lyons-vienne
@@ -443,12 +450,13 @@ works:
   author: mathetes
   locus: div2 3.2 under div1 'MATHETES'
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
     for the Greek apologists as such; placed with the era-1 mainstream entry the volume''s
     other works belong to. Doubt is the date - some put it after the entry''s 200 CE close.
-
-    '
+    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
+    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
+    really are its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Fragment of Maximus of Jerusalem
   author: maximus-of-jerusalem
@@ -468,20 +476,20 @@ works:
   role: tradition
   confidence: assigned
   note: 'Bishop of Sardis, 2nd-century Asia Minor: apology, Paschal (Quartodeciman) material,
-    the first known Christian OT canon list — core pahc evidence.
-
-    '
+    the first known Christian OT canon list — core pahc evidence. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Narrative of Zosimus
   author: narrative-of-zosimus
   locus: div2 11.2
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Legend of the Blessed Ones (the Rechabites), Jewish core with Christian reworking,
     date and provenance uncertain; pahc stands in for ''early Christian transmission milieu''
-    only.
-
-    '
+    only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class
+    these notes kept saying had no bucket. pahc is kept where the subject matter is genuinely
+    apostolic-era; this entry names what the TEXT is.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: Fragments of Papias
   author: papias
@@ -515,47 +523,47 @@ works:
   author: protevangelium-of-james
   locus: div2 7.4
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'Mid-2nd-century Marian infancy gospel, enormously influential; within pahc''s era
     though its provenance (Syria? Egypt?) is unknown. The census has no bucket for popular
     apocryphal literature as a class — a recurring problem in this volume, flagged once here
-    and applied throughout.
-
-    '
+    and applied throughout. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside
+    - the class these notes kept saying had no bucket. pahc is kept where the subject matter
+    is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Spurious Epistles of Ignatius
   author: pseudo_ignatius
   locus: div2 5.14-5.23 under div1 'IGNATIUS'
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Later pseudepigrapha (the volume''s own intro at 5.13 calls them spurious, generally
     dated 4th c.). Best guess is the entry whose figure they impersonate, but a 4th-century
     forgery sitting as `tradition` in a 70-200 CE entry is exactly the kind of call Mark should
-    make, not me.
-
-    '
+    make, not me. Resolved 2026-08-26: this is the pseudepigrapha case exactly - a 4th-century
+    forgery in a first-century figure''s name - and apocryphal-and-pseudepigraphal-literature
+    was added to hold that class. pahc is kept because the figure they impersonate is its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Fragments of Quadratus
   author: quadratus
   locus: div2 10.3
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'The earliest apologist (c. 125, to Hadrian); Athens is outside pahc''s named regions
-    but the era and church-world are pahc''s.
-
-    '
+    but the era and church-world are pahc''s. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Revelation of Moses
   author: revelation-of-moses
   locus: div2 7.38
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The Greek Life of Adam and Eve — a Jewish pseudepigraphon in Christian transmission.
     The census has no bucket for the class (same problem as the Testaments of the Twelve Patriarchs
     and anf09''s Testament of Abraham); pahc stands in for ''early Christian transmission
-    milieu'' only.
-
-    '
+    milieu'' only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside -
+    the class these notes kept saying had no bucket. pahc is kept where the subject matter
+    is genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Fragments of Rhodon
   author: rhodon
@@ -603,13 +611,14 @@ works:
   author: tatian
   locus: div2 3.2 under div1 'TATIAN'
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
     which the syr world already reaches through his Diatessaron in anf09. Provisional because
     he was also later branded an Encratite - Mark may want a ruling on where his voice sits.
-
-    '
+    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
+    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
+    really are its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: Fragments (Tatian)
   author: tatian
@@ -646,14 +655,14 @@ works:
   author: testaments-twelve-patriarchs
   locus: div1 3 (testaments at div2 3.3-3.14)
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Jewish pseudepigraphon with Christian interpolations, or a 2nd-century Christian
     composition on Jewish sources — the introductory notice itself rehearses the dispute.
     The census has no entry for Jewish pseudepigrapha in Christian transmission; both ids
     are guesses (Jewish-Christian milieu; 2nd-century Christian use) and Mark should rule
-    the class.
-
-    '
+    the class. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the
+    class these notes kept saying had no bucket. pahc is kept where the subject matter is
+    genuinely apostolic-era; this entry names what the TEXT is.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Theophilus to Autolycus
   author: theophilus
@@ -661,9 +670,9 @@ works:
   role: tradition
   confidence: assigned
   note: 'Theophilus, bishop of Antioch, c. 180 - squarely in the entry''s window and named
-    region.
-
-    '
+    region. 2026-08-26: greek-apologists-second-century added alongside - the entry the corpus
+    assignment showed was missing, for the era''s outward-facing writing. pahc is kept: the
+    era and church-world really are its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: Fragment of Theophilus of Caesarea
   author: theophilus-of-caesarea

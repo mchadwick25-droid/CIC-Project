@@ -79,12 +79,13 @@ works:
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'c. 100-150; stood near the canon''s edge (Muratorian fragment; cited by Clement of
     Alexandria, whence the alexandria guess; Egyptian or Palestinian provenance argued). The
     census has no bucket for early apocryphal apocalypses as a class; both ids are guesses.
-
-    '
+    2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class these
+    notes kept saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
+    this entry names what the TEXT is.'
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: Against the Heathen (Contra Gentes)
   author: athanasius

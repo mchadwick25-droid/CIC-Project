@@ -4,12 +4,12 @@
   "version": "V0.20+era10-frozen",
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
-  "totalEntries": 282,
+  "totalEntries": 284,
   "liveCount": 6,
   "statusCounts": {
    "Built & Live": 6,
    "Selected - Not Yet Built": 3,
-   "Possible Future World (on record)": 9,
+   "Possible Future World (on record)": 11,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
@@ -562,6 +562,27 @@
    "type": "formed",
    "confidence": "Widely Accepted",
    "note": "Chariton's laura at Pharan is the form the great Judean desert monasteries of the next century inherit."
+  },
+  {
+   "from": "post-apostolic-house-church",
+   "to": "greek-apologists-second-century",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "The same Christians, turned outward: Justin taught at Rome and Melito was a bishop in Asia Minor, both inside this entry's world."
+  },
+  {
+   "from": "greek-apologists-second-century",
+   "to": "alexandria-catechetical",
+   "type": "transmitted to",
+   "confidence": "Documented",
+   "note": "Justin's argument that the Word had sown seeds of truth among the philosophers is what Clement and Origen take much further."
+  },
+  {
+   "from": "post-apostolic-house-church",
+   "to": "apocryphal-and-pseudepigraphal-literature",
+   "type": "contemporary with",
+   "confidence": "Documented",
+   "note": "The Protevangelium of James and the Infancy Gospel of Thomas were written inside this entry's window and read by its churches."
   }
  ],
  "movements": [
@@ -625,6 +646,95 @@
      "url": "https://artgallery.yale.edu/collections/objects/34496"
     }
    ]
+  },
+  {
+   "id": "greek-apologists-second-century",
+   "atlasId": "I.35",
+   "era": 1,
+   "lane": "Origin (pre-lane)",
+   "laneLabel": "Origin — before the lanes divide",
+   "laneOrder": 0,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "floorNote": "Not in question",
+   "name": "The Second-Century Greek Apologists",
+   "shortName": "The Apologists",
+   "informalName": "The Apologists",
+   "dates": "c. 124-200",
+   "start": 124,
+   "end": 200,
+   "region": "Athens, Rome, Sardis, Antioch",
+   "regions": [
+    "Mediterranean",
+    "Asia Minor"
+   ],
+   "sourcing": "Unusually good. Justin's two Apologies and the Dialogue, Athenagoras' Plea, Theophilus to Autolycus, Tatian's Address and the Epistle to Diognetus all survive whole and are all vendored; Quadratus and Melito survive in fragments, and Aristides was recovered only in 1889. Roughly a dozen works in hand, which is more than several built worlds have.",
+   "relationsSummary": "Overlaps post-apostolic-house-church in era and largely in people - Justin taught at Rome - but is a different thing: that entry is the church's internal life, this is the same Christians turned outward, addressing emperors and an educated public that despised them.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run left roughly a dozen apologetic works flagged in post-apostolic-house-church, most with the same note: the era and church-world are that entry's, but ATHENS IS NOT AMONG ITS NAMED REGIONS and the census has no entry for the apologists as such. The honest objection is that apologetic is a genre rather than a community, and a survey may well decide it: this is a body of people doing one thing in one direction for eighty years, not a settlement with a bishop. It is on record because the material is real and had nowhere accurate to sit, and because the regional argument is the same one that carried the Gallic entry.",
+   "longDescription": "Around 124 a Christian named Quadratus handed the emperor Hadrian a written defence of his religion, and for the next eighty years others kept doing it. Aristides did it at Athens; Justin, a philosopher who kept wearing the philosopher's cloak after his conversion and ran a school at Rome, did it twice and was executed for it about 165. Athenagoras addressed Marcus Aurelius; Melito of Sardis addressed him too; Theophilus wrote three books to a pagan friend named Autolycus; an anonymous writer produced the letter to Diognetus that is still the most quoted thing any of them wrote. The charges were always roughly the same - that Christians were atheists because they had no images, cannibals because of what they said about eating a body, and disloyal because they would not sacrifice - and the answers were too. What made the enterprise interesting was the second move: rather than only denying the charges, most of them argued that the best of Greek philosophy had been reaching toward what the church now held, and that Christians were therefore the true heirs of reason rather than its enemies.",
+   "teaser": "Eighty years of Christians handing written defences to emperors who had them killed anyway - and arguing, while they did it, that Plato had been half right.",
+   "voices": [
+    "Quadratus - the earliest, who gave Hadrian a defence around 124 and survives in a single paragraph",
+    "Aristides of Athens - whose apology was lost for seventeen centuries and recovered in 1889",
+    "Justin Martyr - philosopher, schoolmaster at Rome, author of two Apologies and the Dialogue with Trypho, beheaded about 165",
+    "Athenagoras of Athens - who addressed Marcus Aurelius and Commodus with the most philosophically careful of the defences",
+    "Theophilus of Antioch - who wrote three books to a pagan friend and was the first to use the word Trinity of God",
+    "Melito of Sardis - bishop, apologist to Marcus Aurelius, and author of a Paschal homily recovered in the twentieth century",
+    "The writer to Diognetus - anonymous, undated, and the most quoted of all of them"
+   ],
+   "legacy": "Justin's argument that the Word was sowing seeds of truth in the philosophers before the incarnation gave the church a way of relating to inherited learning that it has never entirely put down, and that Clement and Origen at Alexandria took much further. The apologists also settled some of the vocabulary: Theophilus is the first surviving writer to use the word Trinity of God. And the Epistle to Diognetus' description of Christians as resident aliens - at home everywhere and strangers everywhere - has outlived every other line the movement produced."
+  },
+  {
+   "id": "apocryphal-and-pseudepigraphal-literature",
+   "atlasId": "I.36",
+   "era": 1,
+   "lane": "Origin (pre-lane)",
+   "laneLabel": "Origin — before the lanes divide",
+   "laneOrder": 0,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "floorNote": "Not in question",
+   "name": "Apocryphal and Pseudepigraphal Literature in Christian Transmission",
+   "shortName": "Christian Apocrypha",
+   "informalName": "The Books That Were Never Canon",
+   "dates": "c. 100-500",
+   "start": 100,
+   "end": 500,
+   "region": "Asia Minor, Syria, Egypt, Rome",
+   "regions": [
+    "Mediterranean",
+    "Middle East",
+    "Asia Minor"
+   ],
+   "sourcing": "Large and uneven. Around a dozen works are vendored - the apocryphal Acts of Andrew, John, Philip, Peter and Paul, the Protevangelium of James, the Infancy Gospel of Thomas, the Gospel and Apocalypse of Peter, the Testaments of the Twelve Patriarchs, the Revelation of Moses, the Narrative of Zosimus. Dates and provenance are disputed for nearly all of them, and the received text is often centuries later than the tradition behind it.",
+   "relationsSummary": "Not a community and not a tradition: a body of writing that circulated across all of them. Its natural relation to every other early entry is that they read it.",
+   "why": "THIS ENTRY IS A SHELF, AND SAYS SO. Added on record in 2026 because the corpus assignment run left a dozen works with notes reading, almost verbatim, 'the census has no bucket for the class' - and they were sitting in post-apostolic-house-church, whose window ends in 200, on the strength of what they are ABOUT rather than when they were written. A survey may reasonably decide this is not a candidate tradition at all: the honest objections are that its readers are not one community, and that its story is told inside the traditions that read it, which is what the A5 status exists to say. It is registered rather than resolved so that real material stops being filed by the century it depicts.",
+   "longDescription": "From about the second century onwards Christians wrote, read and copied a great deal that never went into the New Testament and was never quite meant to. Some of it fills gaps the gospels leave: the Protevangelium of James supplies Mary's parents, her childhood in the Temple and the birth in a cave, and almost everything later Christians believed about her early life comes from it rather than from scripture. Some of it carries the apostles into adventures - Andrew among cannibals, Philip at Hierapolis, Thomas in India - in narratives that read like Greek romances and often carry a strongly ascetic charge. And a third body is not Christian in origin at all: the Testaments of the Twelve Patriarchs, the Life of Adam and Eve, the Testament of Abraham are Jewish works that survive because Christian scribes kept copying them, sometimes with Christian passages worked in, after Judaism itself had let them go. What holds these together is not a community or a doctrine. It is a fact about transmission: this is the literature the church read for centuries and never canonised.",
+   "teaser": "The books the church read for centuries and never put in the Bible - including the Jewish ones that survive only because Christian scribes kept copying them.",
+   "voices": [
+    "The Protevangelium of James - anonymous, mid-second century, and the source of nearly everything later Christians believed about Mary's childhood",
+    "The apocryphal Acts of Andrew, John, Philip and Thomas - apostolic adventure written in the register of Greek romance, often with an ascetic edge",
+    "The Testaments of the Twelve Patriarchs - a Jewish work with Christian passages worked in, or a Christian work on Jewish sources; the argument is unresolved",
+    "The Gospel of Peter - condemned for its use at Rhossus by Serapion of Antioch, and recovered from an Egyptian grave in 1886",
+    "The Apocalypse of Peter - which stood near the canon's edge in the Muratorian fragment, and did not make it"
+   ],
+   "legacy": "Marian devotion in both East and West rests substantially on the Protevangelium of James: Anna and Joachim, the presentation in the Temple, the ox and the ass, all of it entered the calendar and the iconography from a book the church never accepted as scripture. The apocryphal Acts supplied medieval art and legend with most of what it knew about the apostles' deaths. And the Jewish pseudepigrapha in this collection are the reason a large body of Second Temple literature exists at all - preserved, ironically, by the tradition that had parted from the one that produced it."
   },
   {
    "id": "alexandria-catechetical",

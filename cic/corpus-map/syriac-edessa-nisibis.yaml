@@ -381,13 +381,14 @@ works:
   author: tatian
   locus: div2 3.2 under div1 'TATIAN'
   role: tradition
-  confidence: provisional
+  confidence: assigned
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
     which the syr world already reaches through his Diatessaron in anf09. Provisional because
     he was also later branded an Encratite - Mark may want a ruling on where his voice sits.
-
-    '
+    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
+    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
+    really are its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: Fragments (Tatian)
   author: tatian

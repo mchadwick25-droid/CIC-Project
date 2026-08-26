@@ -7,7 +7,7 @@ All 274 entries are valid targets. That includes the 215 marked *Pre-Survey Cand
 The six *Built & Live* entries are the six worlds that exist today. There is one taxonomy here, not two.
 
 
-## Era 1 (I) — The Early Church Era, 70-312 CE  ·  14 entries
+## Era 1 (I) — The Early Church Era, 70-312 CE  ·  16 entries
 
 *Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council*
 
@@ -15,7 +15,9 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 |---|---|---|---|---|
 | `ebionite-nazoraean-current` | Ebionite / Nazoraean Current | 1st-4th c. | Palestine, Syria | Contested - Evidentiary |
 | `post-apostolic-house-church` | Post-Apostolic House-Church Christianity | 70–200 CE | Antioch, Asia Minor, Rome | Built & Live |
+| `apocryphal-and-pseudepigraphal-literature` | Apocryphal and Pseudepigraphal Literature in Christian Transmission | c. 100-500 | Asia Minor, Syria, Egypt, Rome | Possible Future World (on record) |
 | `valentinian-and-other-gnostic-christianities` | Valentinian & other Gnostic Christianities | 2nd-3rd c. | Alexandria, Rome, widespread | Excluded - Doctrinal Floor (C1) ⛔ |
+| `greek-apologists-second-century` | The Second-Century Greek Apologists | c. 124-200 | Athens, Rome, Sardis, Antioch | Possible Future World (on record) |
 | `marcion-marcionism` | Marcion / Marcionism | c. 140-300s | Rome, widespread | Excluded - Doctrinal Floor (C1) ⛔ |
 | `alexandria-catechetical` | Alexandrian Catechetical / Christian-Platonist Tradition | c. 150–400 CE | Alexandria, Egypt | Built & Live |
 | `montanism-the-new-prophecy` | Montanism (the New Prophecy) | c. 165-400s | Phrygia, spreading | Contested - Evidentiary |
