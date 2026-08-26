@@ -151,6 +151,47 @@ WORLD_REGIONS = {
 }
 
 
+# WHY THERE IS NO THIRD, THEOLOGICAL AXIS HERE, and why one must not be added.
+#
+# Mark, 2026-08-26: "there has to be a theological center, as the gnostics are
+# the same time and place as alexandria but they are not a part of the
+# christian tradition." Correct, and the project already enforces it - twice,
+# and in the right places, neither of which is corpus scope:
+#
+#   * At WORLD level: cic-website/data/world-census.json carries `beyondFloor`
+#     and the status "Excluded - Doctrinal Floor (C1)". Valentinian/Gnostic
+#     Christianities are named there explicitly, beside Marcion, Manichaeism
+#     and Homoian-Arian Christianity. All six live worlds are beyondFloor:
+#     false. No excluded movement can become a world.
+#   * At RECORD level: the `register` field. `emic` is the world's own voice;
+#     `etic` is a thing described from outside it.
+#
+# Corpus scope answers a different question from the floor: scope decides what
+# a world may READ, the floor decides what it may CLAIM AS ITS OWN VOICE.
+# Collapsing them would be actively wrong - alx has to be able to read
+# Irenaeus and Clement on the Gnostics precisely in order to say what it held
+# against them.
+#
+# A naive check ("emic record mentioning a floor-excluded movement") was
+# measured before being rejected: it fires on 30 records across four worlds
+# and is wrong on essentially all of them. alx.force.gnostic-challenge is
+# emic because it is Alexandria's OWN EXPERIENCE of its rivals; syr.dw.god is
+# emic because it is this world confessing "against Marcion it held that the
+# Maker of this world is the Father of Jesus." Both are the floor working, not
+# failing. Whether a record presents an excluded movement's theology AS the
+# world's own belief is a judgment about what a sentence asserts, and no
+# pattern available here can make it. It belongs to review, not to a gate.
+#
+# One case is worth a human's eye rather than a check: ijc carries nine emic
+# records touching Homoian/Arian material and a `homoian-recentering` entry in
+# its voice_craft flavor notes, while the census lists Homoian-Arian
+# Christianity as floor-excluded. That is a deliberate editorial choice - the
+# defeated side's story, told by the world that defeated it - and its own
+# thinness statement already names "the defeated Homoian side's own voice" as
+# thin. Deliberate, documented, and closest to the line of anything in the
+# fleet.
+
+
 def corpus_tier(filename: str, world_key: str, world_window: dict, *, named: bool) -> str:
     """Mark's ranking, in one place. Nothing here returns "excluded"."""
     key = corpus_key(filename)

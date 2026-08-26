@@ -996,6 +996,51 @@ now records that verdict against the file, so no future audit re-raises it as
 a gap. The same holds for `anf10`, a bibliographic index with nothing to
 cite.
 
+**Scoping axes, and the one that was deliberately left out.** Corpus scope is
+ranked on two axes — coverage dates and region — added on Mark's rulings of
+2026-08-26. Both **rank and never exclude**, because the standing rule is that
+a resource may be ranked low and never ignored. Geography earns its place: it
+separates `pahc` (Greek Antioch and Asia Minor) from `syr` (Syriac
+Mesopotamia), two worlds that overlap almost entirely in time.
+
+A third, theological axis was asked for — *"the gnostics are the same time and
+place as alexandria but they are not a part of the christian tradition"* — and
+deliberately **not** added to corpus scope, because the project already
+enforces it in the two right places. The census carries `beyondFloor` and the
+status *Excluded — Doctrinal Floor (C1)*, which names Valentinian/Gnostic
+Christianities beside Marcion, Manichaeism and Homoian-Arian Christianity; all
+six live worlds are `beyondFloor: false`. And every record carries `register`:
+`emic` is the world's own voice, `etic` is something described from outside it.
+
+Scope and floor answer different questions. Scope decides what a world may
+**read**; the floor decides what it may **claim as its own voice**. Collapsing
+them would be actively wrong — `alx` has to be able to read Irenaeus and
+Clement on the Gnostics precisely in order to say what it held against them.
+No vendored volume is a floor-excluded movement's own literature; the ANF/NPNF
+corpus reaches heresy heresiologically, where it is the object and never the
+source.
+
+A mechanical check for the failure was measured and rejected rather than
+shipped: *"emic record mentioning a floor-excluded movement"* fires on 30
+records across four worlds and is wrong on effectively all of them.
+`alx.force.gnostic-challenge` is emic because it is Alexandria's own
+experience of its rivals; `syr.dw.god` is emic because it is this world
+confessing *"against Marcion it held that the Maker of this world is the
+Father of Jesus."* Both are the floor working. Whether a record presents an
+excluded movement's theology **as** the world's own belief is a judgment about
+what a sentence asserts, and no pattern available here can make it — it
+belongs to review, not to a gate. The reasoning is recorded in
+`cross_world.py` so the naive version is not added later by someone who has
+not measured it.
+
+One case deserves a human's eye: `ijc` holds nine emic records touching
+Homoian/Arian material and a `homoian-recentering` entry in its voice craft,
+while the census lists Homoian-Arian Christianity as floor-excluded. That is a
+deliberate editorial choice — the defeated side's story told by the world that
+defeated it — and `ijc`'s own thinness statement already names *"the defeated
+Homoian side's own voice"* as thin. Documented, and closest to the line of
+anything in the fleet.
+
 **Disposition:** open, per-world content work, and explicitly *not* a
 normalisation demand — whether a given world should draw on Basil is that
 world's own source-ecology judgment, not this audit's. What the audit
