@@ -18,16 +18,46 @@
    at a time with Mark; see the Front-End Strategy thread's decision log.
    =================================================================== */
 .pilot-note{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted);max-width:30rem;margin:1.6rem auto .5rem;text-align:center;text-wrap:balance}
-.pilot-caveat{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.78rem;color:var(--muted);max-width:28rem;margin:0 auto;text-align:center;text-wrap:balance}
+.pilot-caveat{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.86rem;color:var(--muted);max-width:28rem;margin:0 auto;text-align:center;text-wrap:balance}
 
 .hero-actions-wrap{max-width:60rem;margin:0 auto;padding:2.6rem 1.5rem 4rem;text-align:center}
 .hero p.lede{margin:0 auto .75rem}
 
 .table-section{max-width:60rem;margin:0 auto;padding:0 0 4rem}
 .table-section .wrap-head{max-width:60rem;margin:0 auto;padding:0 1.5rem}
-.table-section .eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.13em;
+.table-section .eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.85rem;letter-spacing:.13em;
   text-transform:uppercase;color:var(--madder);font-weight:600;text-align:center;margin:0 0 .6rem}
 .table-section .scope{text-align:center;color:var(--muted);font-size:1.02rem;margin:0 auto 2.2rem;max-width:42rem;text-wrap:balance}
+
+/* Access ask, added 2026-08-25 (Public Pilot Access thread) — deliberately
+   quiet: below the primary hero actions, never in the hero, so it never
+   competes with "try a conversation" for a first-time visitor's attention.
+   Copy reviewed for tone/credibility by an Opus 5 pass before shipping,
+   same discipline as any other new participant-facing text on this site. */
+.access-note-wrap{max-width:60rem;margin:0 auto;padding:0 1.5rem 3rem;text-align:center}
+.access-note{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted);max-width:30rem;margin:0 auto;text-wrap:balance}
+.access-note a{color:var(--muted);text-decoration-color:var(--rule)}
+.access-note a:hover,.access-note a:focus-visible{color:inherit;text-decoration-color:currentColor}
+/* --muted itself is never redefined for dark mode anywhere on this site
+   (assets/style.css only re-tones specific SELECTORS, e.g. .hero p.lede,
+   to #B8AEA1 - a proven-compliant value already used site-wide), so this
+   local color:var(--muted) needs its own explicit dark-mode override or it
+   stays at its light-mode value against a near-black background: measured
+   ~3.2:1, below the 4.5:1 AA minimum for body text (2026-08-25 full-review
+   finding). Same #B8AEA1 the shared stylesheet already trusts elsewhere. */
+@media (prefers-color-scheme:dark){ .access-note{color:#B8AEA1} }
+
+/* Give buttons added 2026-08-26, at Mark's direction, once support.html's
+   own Stripe links were confirmed working: .btn.secondary (not .primary),
+   deliberately lighter-weight than the hero's "Come and join us at the
+   Table" button so this still doesn't compete with the primary path — the
+   original 2026-08-25 design brief's constraint, unchanged by adding real
+   checkout here. Same two hrefs as support.html's "Be Part of It" section;
+   that page's own header comment is the source of truth on which link is
+   which and why (domain name isn't a reliable signal - see there) — if
+   either link ever needs rotating, both places need the same edit, since
+   this is a plain multi-page static site with no shared-include mechanism. */
+.access-give-actions{margin:1.1rem 0}
 
 /* Representative carousel — chronological, era-tinted, click for the same
    info the program's own world tile shows, then a direct link into a free
@@ -40,7 +70,7 @@
 @media (prefers-reduced-motion:no-preference){ .reps-carousel{scroll-behavior:smooth} }
 .reps-era-divider{flex:0 0 auto;width:1px;align-self:stretch;background:var(--rule);position:relative;margin:0 .2rem}
 .reps-era-divider span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(180deg);
-  writing-mode:vertical-rl;font-family:'Alegreya Sans',sans-serif;font-size:.66rem;letter-spacing:.08em;
+  writing-mode:vertical-rl;font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.08em;
   text-transform:uppercase;color:var(--muted);background:var(--parchment);padding:.5rem .3rem;white-space:nowrap}
 .rep-card{flex:0 0 auto;scroll-snap-align:start;width:196px;text-align:center;cursor:pointer;
   border:1px solid var(--rule);border-radius:12px;padding:1.1rem 1rem 1.3rem;background:var(--vellum);
@@ -54,19 +84,19 @@
 @media (prefers-reduced-motion:no-preference){ .rep-card:hover,.rep-card:focus-visible{transform:translateY(-2px)} }
 .rep-card:hover,.rep-card:focus-visible{box-shadow:0 4px 14px rgba(42,37,33,.14);outline:none}
 .rep-card:focus-visible{outline:2px solid var(--rep-color,var(--madder));outline-offset:2px}
-.rep-card .era-label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.62rem;letter-spacing:.08em;
+.rep-card .era-label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.08em;
   text-transform:uppercase;color:var(--muted);margin:0 0 .6rem}
 .rep-card .portrait{width:100%;aspect-ratio:1/1;border-radius:50%;overflow:hidden;
   border:2px solid var(--rep-color,var(--madder));background:var(--vellum);margin:0 0 .7rem}
 .rep-card img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
 .rep-card .name{font-weight:700;font-size:1.02rem;margin:0 0 .1rem;color:inherit}
-.rep-card .tradition{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.8rem;color:var(--rep-color,var(--madder));margin:0 0 .4rem}
-.rep-card .meta{font-family:'Alegreya Sans',sans-serif;font-size:.72rem;color:var(--muted);line-height:1.4}
+.rep-card .tradition{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.86rem;color:var(--rep-color,var(--madder));margin:0 0 .4rem}
+.rep-card .meta{font-family:'Alegreya Sans',sans-serif;font-size:.82rem;color:var(--muted);line-height:1.4}
 @media (prefers-color-scheme:dark){
   .rep-card{color:#F1E9DD}
   .rep-card .era-label,.rep-card .meta{color:#B8AEA1}
 }
-.reps-scroll-hint{font-family:'Alegreya Sans',sans-serif;font-size:.72rem;color:var(--muted);text-align:right;margin:0 1.5rem}
+.reps-scroll-hint{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;color:var(--muted);text-align:right;margin:0 1.5rem}
 
 /* Lightweight info sheet, opened on click */
 .reps-scrim{position:fixed;inset:0;background:rgba(30,24,18,.42);opacity:0;pointer-events:none;
@@ -89,7 +119,7 @@
 .reps-sheet__name{font-size:1.4rem;font-weight:700;margin:0 0 .1rem}
 .reps-sheet__title{font-family:'Alegreya Sans',sans-serif;color:var(--rep-color,var(--madder));font-size:.9rem;margin:0 0 .4rem}
 .reps-sheet__world{font-style:italic;font-size:.98rem;margin:0}
-.reps-sheet__meta{font-family:'Alegreya Sans',sans-serif;font-size:.76rem;color:var(--muted);margin:.2rem 0 0}
+.reps-sheet__meta{font-family:'Alegreya Sans',sans-serif;font-size:.85rem;color:var(--muted);margin:.2rem 0 0}
 .reps-sheet__body{font-size:.98rem;line-height:1.6;margin:0 0 1.4rem}
 .reps-sheet__actions{display:flex;flex-wrap:wrap;gap:.7rem 1.2rem;align-items:center;border-top:1px solid var(--rule);padding-top:1.1rem}
 .reps-sheet__secondary{font-family:'Alegreya Sans',sans-serif;font-size:.88rem}
@@ -147,6 +177,15 @@
       <a class="btn primary" id="launch-link" href="atlas-v3.html">Come and join us at the Table</a>
       <a class="btn secondary" href="atlas-v3.html">Explore the Timeline</a>
     </div>
+  </section>
+
+  <section class="access-note-wrap">
+    <p class="access-note">Running these conversations costs real money. If you'd like to help more people use them:</p>
+    <div class="hero-actions access-give-actions">
+      <a class="btn secondary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open <span style="font-weight:400;opacity:.85">— give once</span></a>
+      <a class="btn secondary" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider <span style="font-weight:400;opacity:.85">— give monthly</span></a>
+    </div>
+    <p class="access-note">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
   </section>
 </main>
 

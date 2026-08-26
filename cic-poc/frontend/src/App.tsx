@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useConversation } from './hooks/useConversation';
+import { useWorlds } from './hooks/useWorlds';
 import { findWorld, findWorldByCensusId } from './data/worlds';
 import { WorldList } from './screens/WorldList';
 import { Doorway } from './screens/Doorway';
@@ -20,13 +21,17 @@ function censusIdFromLocation(): string | null {
 
 function App() {
   const conversation = useConversation();
+  const { worlds, isLoading: worldsLoading, error: worldsError } = useWorlds();
   const [screen, setScreen] = useState<Screen>('list');
   const [selectedWorldKey, setSelectedWorldKey] = useState<string | null>(null);
 
-  // On first mount, resuming a session already open in this tab
-  // (sessionStorage) takes priority; only when there's nothing to resume
-  // does a ?worlds= deep link from the website get a chance to fire.
+  // Waits for the world list before deciding the first screen - a ?worlds=
+  // deep link can't be matched against an empty list. On first mount,
+  // resuming a session already open in this tab (sessionStorage) takes
+  // priority; only when there's nothing to resume does the deep link get a
+  // chance to fire.
   useEffect(() => {
+    if (worldsLoading) return;
     conversation.rehydrate().then((worldKey) => {
       if (worldKey) {
         setSelectedWorldKey(worldKey);
@@ -34,14 +39,14 @@ function App() {
         return;
       }
       const censusId = censusIdFromLocation();
-      const deepLinked = censusId ? findWorldByCensusId(censusId) : undefined;
+      const deepLinked = censusId ? findWorldByCensusId(worlds, censusId) : undefined;
       if (deepLinked) {
         setSelectedWorldKey(deepLinked.worldKey);
         setScreen('doorway');
       }
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [worldsLoading]);
 
   const handleSelectWorld = (worldKey: string) => {
     setSelectedWorldKey(worldKey);
@@ -60,11 +65,11 @@ function App() {
     setScreen('list');
   };
 
-  const world = selectedWorldKey ? findWorld(selectedWorldKey) : undefined;
+  const world = selectedWorldKey ? findWorld(worlds, selectedWorldKey) : undefined;
 
   return (
     <div className="app-shell">
-      {screen === 'list' && <WorldList onSelect={handleSelectWorld} />}
+      {screen === 'list' && <WorldList worlds={worlds} isLoading={worldsLoading} error={worldsError} onSelect={handleSelectWorld} />}
 
       {screen === 'doorway' && world && (
         <Doorway

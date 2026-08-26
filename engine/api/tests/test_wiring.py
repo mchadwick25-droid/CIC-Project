@@ -11,9 +11,9 @@ from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety
 def test_create_session_opens_exactly_one_session_started(store, world_loader, registry):
     session_id, raw_code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
     events = store.read_events(session_id)
-    assert len(events) == 1
-    assert events[0].event_type == "session_started"
+    assert [e.event_type for e in events] == ["session_started", "facilitator_turn"]
     assert events[0].payload["world_key"] == "fix"
+    assert events[1].payload["kind"] == "door"
 
     from engine.m4.session_code import codes_match
 
@@ -44,7 +44,7 @@ def test_ordinary_message_appends_events_in_order(store, usage_store, world_load
     assert result.turn_no == 1
 
     types = [e.event_type for e in store.read_events(session_id)]
-    assert types == ["session_started", "participant_message", "gate_decision", "voice_turn", "turn_committed"]
+    assert types == ["session_started", "facilitator_turn", "participant_message", "gate_decision", "voice_turn", "turn_committed"]
     assert len(usage_store.read_for_session(session_id)) == 3  # safety_call, reader_call, voice_generation
 
 
@@ -99,7 +99,7 @@ def test_an_unhandled_routing_action_surfaces_as_itself(store, usage_store, worl
     # The participant's message is committed before the turn runs, exactly
     # as it is on a provider failure; no turn is committed on top of it.
     types = [e.event_type for e in store.read_events(session_id)]
-    assert types == ["session_started", "participant_message"]
+    assert types == ["session_started", "facilitator_turn", "participant_message"]
 
 
 def test_handle_message_unknown_session_raises(store, usage_store, world_loader, registry):
@@ -129,7 +129,7 @@ def test_provider_failure_commits_the_message_but_not_the_turn(store, usage_stor
         )
 
     types = [e.event_type for e in store.read_events(session_id)]
-    assert types == ["session_started", "participant_message"]  # nothing after the failure point committed
+    assert types == ["session_started", "facilitator_turn", "participant_message"]  # nothing after the failure point committed
 
 
 def test_get_transcript_reflects_committed_turns(store, usage_store, world_loader, registry):
@@ -147,8 +147,9 @@ def test_get_transcript_reflects_committed_turns(store, usage_store, world_loade
 
     state = wiring.get_transcript(store, session_id)
     assert state.turn_count == 1
-    assert state.transcript[0] == {"speaker": "participant", "text": "who was Jesus"}
-    assert state.transcript[1]["speaker"] == "fix"
+    assert state.transcript[0]["kind"] == "door"
+    assert state.transcript[1] == {"speaker": "participant", "text": "who was Jesus"}
+    assert state.transcript[2]["speaker"] == "fix"
 
 
 def test_get_transcript_unknown_session_raises(store):
@@ -314,7 +315,7 @@ def test_an_ordinary_turn_writes_no_safety_state(store, usage_store, world_loade
         session_id=session_id, text="who was Jesus", client_msg_id="msg-1",
     )
     assert [e.event_type for e in store.read_events(session_id)] == [
-        "session_started", "participant_message", "gate_decision", "voice_turn", "turn_committed",
+        "session_started", "facilitator_turn", "participant_message", "gate_decision", "voice_turn", "turn_committed",
     ]
 
 
@@ -413,3 +414,19 @@ def test_the_tenth_completed_turn_still_answers_and_the_eleventh_closes(store, u
             voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
             session_id=session_id, text="are you still there", client_msg_id="msg-after-close",
         )
+
+
+def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_loader, registry):
+    worlds = wiring.list_worlds(world_loader=world_loader, registry=registry)
+
+    assert "fix" not in {w["world_key"] for w in worlds}
+    assert {w["world_key"] for w in worlds} == {k for k, v in registry.items() if v.get("kind") == "formation"}
+
+    pahc = next(w for w in worlds if w["world_key"] == "pahc")
+    assert pahc["display_name"] == "Post-Apostolic House-Church Christianity"
+    assert pahc["representative"] == {"name": "Chloe", "role_label": "Household Leader"}
+    assert pahc["census_id"] == "post-apostolic-house-church"
+    assert pahc["horizon"] and "Antioch" in pahc["horizon"]
+    assert pahc["thinness_statement"]
+    assert pahc["starters"] and all({"cell", "text"} <= s.keys() for s in pahc["starters"])
+    assert "_generated_by" not in pahc

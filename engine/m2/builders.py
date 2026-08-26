@@ -629,6 +629,16 @@ def build_canon_map_json(fleet: dict) -> bytes:
 
 
 def build_frame_json(records: dict, fleet: dict, registry_entry: dict) -> bytes:
+    # `horizon` comes straight from this world's own world_core record - the
+    # same field build_capsule already feeds the voice's own system prompt
+    # under the "Horizon" heading (see _one(records, "world_core") above).
+    # Reused verbatim for the doorway rather than re-authored: it is already
+    # the world's approved, model-facing self-description, and Program-Spec
+    # SS165 calls for exactly this kind of orienting scene-setting on the
+    # doorway card, which the doorway never had a source for until now.
+    core = _one(records, "world_core")
+    horizon = core.get("horizon") if core else None
+
     starters = []
     for cell in sorted(canon.valid_cells(fleet)):
         classification = canon.classify_cell(cell, records)
@@ -647,6 +657,7 @@ def build_frame_json(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         "time_window": registry_entry.get("time_window"),
         "place": registry_entry.get("place"),
         "thinness_statement": registry_entry.get("thinness_statement"),
+        "horizon": horizon,
         "living_tradition_flag": registry_entry.get("living_tradition_flag", False),
         "frames": {"general_seeker": {"starters": starters}},
     }

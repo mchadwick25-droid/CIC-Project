@@ -11,7 +11,7 @@ from dataclasses import dataclass
 
 from engine.api.config import REPO_ROOT
 from engine.m1.loader import load_fleet_records
-from engine.m4 import events, session_code
+from engine.m4 import events, facilitator_turns, session_code
 from engine.m4.entrance import open_session
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
@@ -80,7 +80,59 @@ def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dic
         code_hash=session_code.hash_code(raw_code),
         package_manifest_hash=world.manifest_hash,
     )
+
+    # The conversation's first-ever line, Program-Spec SS71 ("visible at
+    # door, thresholds, and close") - open_session above is the only
+    # allowed writer of session_started itself (engine.m4.entrance's own
+    # seal), not of everything create_session appends after it.
+    representative = world.frame["representative"]
+    door_event = facilitator_turns.door_turn(
+        representative_name=representative["name"],
+        role_label=representative["role_label"],
+        display_name=world.frame["display_name"],
+    )
+    events.validate("facilitator_turn", door_event)
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=door_event)
+
     return session_id, raw_code
+
+
+def list_worlds(*, world_loader: LazyWorldLoader, registry: dict) -> list[dict]:
+    """The doorway's own content, per formation world - never the fix
+    fixture (kind == "fixture": "NOT one of the six formation worlds...
+    never listed beside them, never admitted, never reachable by a
+    participant", per its own registry comment). Reads each world's real
+    compiled frame.json through the same LazyWorldLoader/manifest-hash
+    verification path a session load uses, rather than re-deriving a second
+    copy of this data by hand - the world-list screen was doing that until
+    now (data/worlds.ts, baked at frontend build time, hand-copied from the
+    registry with its own comment admitting "no /api/worlds endpoint exists
+    yet"). Explicit field selection rather than returning `world.frame`
+    whole: frame.json also carries `_generated_by`, a compiler/commit
+    fingerprint with no participant-facing purpose.
+    """
+    worlds = []
+    for world_key, entry in registry.items():
+        if entry.get("kind") != "formation":
+            continue
+        world = _load_world(world_loader, registry, world_key)
+        frame = world.frame
+        starters = frame.get("frames", {}).get("general_seeker", {}).get("starters", [])
+        worlds.append(
+            {
+                "world_key": world_key,
+                "census_id": entry.get("census_id"),
+                "display_name": frame.get("display_name"),
+                "representative": frame.get("representative"),
+                "time_window": frame.get("time_window"),
+                "place": frame.get("place"),
+                "thinness_statement": frame.get("thinness_statement"),
+                "horizon": frame.get("horizon"),
+                "living_tradition_flag": frame.get("living_tradition_flag", False),
+                "starters": starters,
+            }
+        )
+    return worlds
 
 
 def get_transcript(store: Store, session_id: str) -> SessionState:
