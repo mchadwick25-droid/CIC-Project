@@ -59,9 +59,8 @@ works:
   role: tradition
   confidence: assigned
   note: 'The trinitarian treatise against Praxeas'' monarchianism. The census has no entry
-    for monarchianism/patripassianism, so that face has no bucket.
-
-    '
+    for monarchianism/patripassianism, so that face has no bucket. 2026-08-26: modalist-monarchianism
+    added alongside - the party this work argues with now has an entry of its own.'
   source_file: anf03_tertullian.xml
 - work: Against the Valentinians
   author: tertullian

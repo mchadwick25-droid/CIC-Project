@@ -4,17 +4,17 @@
   "version": "V0.20+era10-frozen",
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
-  "totalEntries": 276,
+  "totalEntries": 282,
   "liveCount": 6,
   "statusCounts": {
    "Built & Live": 6,
    "Selected - Not Yet Built": 3,
-   "Possible Future World (on record)": 7,
+   "Possible Future World (on record)": 9,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
    "Pre-Survey Candidate": 215,
-   "Floor Question (register)": 24,
+   "Floor Question (register)": 28,
    "Within Another World (A5)": 5,
    "Outside Article 4 Scope": 1,
    "Label - Assessed Per Body (A3)": 1
@@ -485,6 +485,83 @@
    "type": "in tension with",
    "confidence": "Documented",
    "note": "The two wings split at Constantinople in 360, when the Homoian creed was imposed and Aetius exiled. Filing them together is the confusion this entry exists to prevent."
+  },
+  {
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "pneumatomachian-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Basil's On the Holy Spirit and Gregory of Nyssa's Against the Macedonians are both directed at this party."
+  },
+  {
+   "from": "imperial-juridical-christianity",
+   "to": "pneumatomachian-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Canon 1 of Constantinople I (381) condemns them by name, and the creed's expanded third article is the answer to them."
+  },
+  {
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "apollinarian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Gregory of Nazianzus' letters to Cledonius are the classic reply: what is not assumed is not healed."
+  },
+  {
+   "from": "imperial-juridical-christianity",
+   "to": "apollinarian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Condemned at Rome in 377 and by name in canon 1 of Constantinople I."
+  },
+  {
+   "from": "tertullian-s-voice",
+   "to": "modalist-monarchianism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Against Praxeas is the fullest Latin answer to the position, and coined much of the vocabulary the doctrine of the Trinity later used."
+  },
+  {
+   "from": "roman-church-third-century",
+   "to": "modalist-monarchianism",
+   "type": "in tension with",
+   "confidence": "Contested",
+   "note": "Hippolytus accused Callistus of sheltering the teaching; the charge is inseparable from his rivalry for the see."
+  },
+  {
+   "from": "syriac-edessa-nisibis",
+   "to": "bardaisanite-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Ephraim's Prose Refutations answer Bardaisan at length, and are the reason most of his position survives."
+  },
+  {
+   "from": "post-apostolic-house-church",
+   "to": "roman-church-third-century",
+   "type": "formed",
+   "confidence": "Widely Accepted",
+   "note": "The Roman congregation of the house-church period is the same community, two generations on."
+  },
+  {
+   "from": "roman-church-third-century",
+   "to": "novatianism",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "The dispute over restoring the lapsed, argued under Callistus, is what breaks open in the schism of 251."
+  },
+  {
+   "from": "desert-monasticism",
+   "to": "palestinian-ascetic-monasticism-early",
+   "type": "transmitted to",
+   "confidence": "Documented",
+   "note": "Hilarion was Antony's disciple and brought Egyptian anchoritism to the Gaza coast."
+  },
+  {
+   "from": "palestinian-ascetic-monasticism-early",
+   "to": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "type": "formed",
+   "confidence": "Widely Accepted",
+   "note": "Chariton's laura at Pharan is the form the great Judean desert monasteries of the next century inherit."
   }
  ],
  "movements": [
@@ -1001,6 +1078,48 @@
    "legacy": "No church descends from them; the last Novatianist communities faded in the East by around the seventh century. Two things outlasted the schism. The first is the doctrine sharpened against it — that the church is a hospital rather than a society of the already-perfect, and that no sin lies beyond the reach of the church's ministry of reconciliation — worked out by Cyprian in the moment and by Augustine at length afterwards, along with the graded system of public penance that grew out of exactly this argument. The second is Novatian's own On the Trinity, which was copied, read and valued in the mainstream church as a careful Latin statement of orthodox doctrine long after his party was gone, handed down in manuscripts among the works of Tertullian."
   },
   {
+   "id": "roman-church-third-century",
+   "atlasId": "I.33",
+   "era": 1,
+   "name": "The Roman Church in the Third Century",
+   "shortName": "Third-Century Rome",
+   "informalName": "Callistus' Rome",
+   "dates": "c. 200-260",
+   "start": 200,
+   "end": 260,
+   "region": "Rome",
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "sourcing": "Substantial but one-sided. Hippolytus' Refutation is the fullest account of the Roman church in these decades and is written by a man who claimed the see against its bishop; Cyprian's correspondence with Rome gives an outside view. Callistus has no surviving voice of his own.",
+   "floorNote": "Not in question",
+   "relationsSummary": "Sits in the gap between post-apostolic-house-church, which ends at 200, and novatianism, which begins with the schism of 251 - the same decades those two entries bracket without covering.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found material with no entry to hold it. Two workers parked Hippolytus and Caius against post-apostolic-house-church while noting they fall after its 200 CE line, and novatianism does not begin until 251. The open question a survey would settle is whether these decades are a formation world in their own right or the early history of the Latin papal tradition that later entries carry.",
+   "longDescription": "Between the house-church world that ends around 200 and the Novatian schism of 251, the Roman church did most of its early growing up - and it did so in public argument with itself. Zephyrinus and then Callistus led a large and socially mixed congregation through questions that had no settled answers: whether a Christian who had committed grave sin after baptism could ever be restored, whether a noblewoman could contract a union the state would not recognise rather than lose her status, how to speak about Father and Son without saying two Gods. Hippolytus, a learned presbyter of the same city, thought Callistus wrong on all three and said so at length, eventually functioning as a rival bishop. Nearly everything known about the period comes from him, which is a problem: he is the losing party and a hostile witness. Callistus, a former slave who had been sent to the Sardinian mines, left nothing in his own voice.",
+   "teaser": "Rome between 200 and 260 - a former slave leading the city's church, a learned rival who called himself bishop instead, and the arguments about forgiveness and marriage that neither of them could avoid.",
+   "voices": [
+    "Callistus - a former slave and convict who became bishop of Rome, and left not one word of his own",
+    "Hippolytus - the learned presbyter who opposed him, set himself up as rival bishop, and wrote nearly everything we know about it",
+    "Zephyrinus - Callistus' predecessor, whom Hippolytus judged out of his depth",
+    "Caius - the Roman presbyter whose disputation with a Montanist survives in fragments",
+    "Cornelius - bishop from 251, whose correspondence with Cyprian opens the Novatian crisis"
+   ],
+   "legacy": "The questions argued here did not go away: whether the church can restore the gravely lapsed is what the Novatian schism of 251 and the Donatist controversy of the next century are both about, and Rome's answer - that it can - is the one the Western church kept. Hippolytus' Refutation, written to discredit Callistus, incidentally preserves more information about second and third-century religious movements than any other surviving book."
+  },
+  {
    "id": "desert-monasticism",
    "atlasId": "I.3",
    "era": 2,
@@ -1055,6 +1174,48 @@
      "url": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Anthony"
     }
    ]
+  },
+  {
+   "id": "palestinian-ascetic-monasticism-early",
+   "atlasId": "I.34",
+   "era": 2,
+   "name": "Early Palestinian Ascetic Monasticism",
+   "shortName": "Palestinian Monasticism",
+   "informalName": "The Monks of Gaza and the Judean Desert",
+   "dates": "c. 330-450",
+   "start": 330,
+   "end": 450,
+   "region": "Gaza, the Judean desert, Sinai road",
+   "regions": [
+    "Middle East",
+    "Mediterranean"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "sourcing": "Thin and largely hagiographic. Jerome's Life of Hilarion and Life of Malchus are the main vendored witnesses and both are written to edify; Palladius and the pilgrim literature supply glimpses. Nothing here is the movement's own teaching in its own voice, which is the difference from Egypt and from Gaul.",
+   "floorNote": "Not in question",
+   "relationsSummary": "Egyptian in origin - Hilarion was Antony's disciple - and the direct antecedent of chalcedonian-monasticism-judean-desert-and-gaza, which begins where this leaves off at c. 450.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found material with no entry to hold it. Two workers reached the same hole from different volumes: Jerome's Hilarion and Malchus, and Chrysostom's ascetic treatises, were filed under desert-monasticism, which is regionally Egypt, because the Judean desert entry does not begin until c. 450. The open question is whether the century before that is a world of its own or the prehistory of the one already on the map.",
+   "longDescription": "Hilarion came back to Gaza from Egypt in about 306, having spent time with Antony, and settled in the coastal scrub near the town he had been born in. What grew around him was recognisably Egyptian and recognisably not: monks living alone or in twos in a landscape of villages and roads rather than deep desert, close enough to the Christian and pagan populations of the coast to be constantly interrupted. In the Judean hills, Chariton founded a different arrangement at Pharan around the same decades - a laura, where solitaries lived apart through the week and came together on Sundays, which became the characteristic Palestinian form. Pilgrims passed through all of it constantly on the way to the holy places, and some of them stayed. Jerome, writing from Bethlehem, gave the movement its literature: a Life of Hilarion, and a Life of Malchus about a monk taken by Saracen raiders. Both are shaped to teach rather than to record, which leaves the period better known for its stories than for what it actually taught.",
+   "teaser": "Gaza and the Judean hills, c. 330 to 450 - Egyptian asceticism transplanted to a landscape full of villages, roads and pilgrims, where it invented the laura and then handed it on.",
+   "voices": [
+    "Hilarion of Gaza - Antony's disciple, who brought Egyptian anchoritism to the Palestinian coast",
+    "Chariton - founder of the first laura at Pharan, the arrangement Palestinian monasticism kept",
+    "Jerome - who wrote the Life of Hilarion and the Life of Malchus from Bethlehem",
+    "Malchus - the captured monk whose story Jerome tells, and one of the few non-elite voices the period records"
+   ],
+   "legacy": "The laura - solitaries through the week, community on Sunday - became the Palestinian form and passed into the great Judean desert monasteries of Euthymius and Sabas in the following century, and from there into the Byzantine monastic tradition. Jerome's Life of Hilarion also did something more particular: it established the saint's life as a Latin literary form, on the model of the Life of Antony, and gave the West a second template for it."
   },
   {
    "id": "donatism",
@@ -1825,6 +1986,172 @@
     "Gregory of Nazianzus - who preached the Five Theological Orations against them at Constantinople in 380"
    ],
    "legacy": "The Cappadocian theology that the Nicene tradition still uses was largely forged against these opponents: the distinction between God's unknowable essence and his knowable operations, and the doctrine that theological language names God truly without comprehending him, were both worked out to answer Eunomius' claim that it could. Gregory of Nyssa's Against Eunomius is the reason substantial portions of Eunomius' own argument survive at all. Constantinople I's first canon names the Eunomians among the parties it condemns, and that canon is still read in the conciliar collections. The sect itself left no continuing church."
+  },
+  {
+   "id": "pneumatomachian-current",
+   "atlasId": "I.29",
+   "era": 2,
+   "name": "Pneumatomachian ('Macedonian') Christianity",
+   "shortName": "Pneumatomachians",
+   "informalName": "The Spirit-Fighters",
+   "dates": "c. 360-420",
+   "start": 360,
+   "end": 420,
+   "region": "Constantinople, Asia Minor, Thrace",
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
+   "lane": "8 Beyond the Floor (researched & explained)",
+   "laneLabel": "Non-Nicene Traditions",
+   "laneOrder": 80,
+   "beyondFloor": true,
+   "status": "Floor Question (register)",
+   "chip": "psc",
+   "glyph": "flq",
+   "statusWord": "Creedal question — not yet resolved",
+   "statusDescription": "Carries a named creedal question for a future Step 0 to answer — stated as a question, not a verdict.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "sourcing": "Through opponents almost entirely. Basil's On the Holy Spirit and Gregory of Nyssa's Against the Macedonians are both vendored and both are refutations; no Pneumatomachian text survives in this corpus in its own right.",
+   "floorNote": "They accepted, or came close to accepting, the Son's full divinity while denying it of the Holy Spirit - calling him a creature, or a ministering spirit of a different order from Father and Son. The third article of the creed as Constantinople expanded it in 381, which calls the Spirit Lord and giver of life and worshipped together with the Father and the Son, was written to close exactly that position. \"Pneumatomachian\" - Spirit-fighter - is their opponents' word; so is the attachment of Macedonius' name, which is later than the party and contested.",
+   "relationsSummary": "A distinct question from the Arian one, and later: these were people who had largely accepted Nicaea on the Son and stopped short on the Spirit. Condemned by name in canon 1 of Constantinople I alongside Eunomians, Arians and others.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found material with no entry to hold it. Basil's and Nyssa's works On the Holy Spirit had nowhere to point: the census carried no entry for the party they were written against, and the only near-match by name - byzantine-imperial-church-macedonian - is the ninth-century imperial dynasty, an entirely unrelated thing.",
+   "longDescription": "By about 360 the argument had moved. A body of churchmen in Constantinople and Asia Minor had come to accept, or nearly accept, that the Son is of one being with the Father - and then declined to say the same of the Holy Spirit, who they held was a creature, or at best a ministering spirit of some third order. Their opponents called them Pneumatomachians, Spirit-fighters, and attached to them the name of Macedonius, a deposed bishop of Constantinople, on evidence later writers found thin. Basil of Caesarea wrote On the Holy Spirit in about 375 to answer them, and did it carefully: he argued the Spirit's divinity largely from how the church already prayed and baptised rather than from a bare proof-text. Gregory of Nyssa wrote against them too. The Council of Constantinople in 381 settled it by expanding the creed's third article, which had previously said almost nothing about the Spirit, into the clauses still recited every week.",
+   "teaser": "The party that accepted the Son and stopped at the Spirit - and the reason the creed says anything about the Holy Spirit at all.",
+   "voices": [
+    "Macedonius of Constantinople - the deposed bishop whose name was attached to the party, on evidence later writers found thin",
+    "Basil of Caesarea - whose On the Holy Spirit answered them from how the church already prayed and baptised",
+    "Gregory of Nyssa - who wrote Against the Macedonians on the same question",
+    "Amphilochius of Iconium - the bishop who asked Basil for the treatise"
+   ],
+   "legacy": "The third article of the Nicene Creed as it is recited today - Lord and giver of life, worshipped and glorified together with the Father and the Son - is the answer to this party. Basil's method in arguing it, appealing to the church's practice of prayer and baptism as evidence of what it believes, became a standing move in Christian theology long after the opponents it was aimed at had gone."
+  },
+  {
+   "id": "apollinarian-christianity",
+   "atlasId": "I.30",
+   "era": 2,
+   "name": "Apollinarian Christianity",
+   "shortName": "Apollinarians",
+   "informalName": "The Followers of Apollinaris",
+   "dates": "c. 360-430",
+   "start": 360,
+   "end": 430,
+   "region": "Laodicea, Syria, Asia Minor",
+   "regions": [
+    "Asia Minor",
+    "Middle East"
+   ],
+   "lane": "8 Beyond the Floor (researched & explained)",
+   "laneLabel": "Non-Nicene Traditions",
+   "laneOrder": 80,
+   "beyondFloor": true,
+   "status": "Floor Question (register)",
+   "chip": "psc",
+   "glyph": "flq",
+   "statusWord": "Creedal question — not yet resolved",
+   "statusDescription": "Carries a named creedal question for a future Step 0 to answer — stated as a question, not a verdict.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "sourcing": "Through opponents. Apollinaris was a prolific writer and very little of his own work survives under his name; some circulated under other names to escape condemnation. In this corpus he is present through Gregory of Nazianzus' letters to Cledonius and the conciliar record.",
+   "floorNote": "Apollinaris held that in Christ the divine Word took the place of the human rational soul - so that Christ had a human body and animal soul but not a human mind. Gregory of Nazianzus' answer is the classic one and states the ground exactly: what is not assumed is not healed. A Christ who did not take a human mind did not save the human mind. Condemned at Rome in 377 and by name in canon 1 of Constantinople I in 381.",
+   "relationsSummary": "Not an Arian position at all - Apollinaris was Athanasius' ally against Arianism, and arrived at this by pressing the unity of Christ too hard. The question he raised is the one Ephesus and Chalcedon spent the next century answering.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found material with no entry to hold it. Gregory of Nazianzus' Cledonius letters and the conciliar condemnations had no entry naming the party they address, and it is not the Arian one they would otherwise have been filed under.",
+   "longDescription": "Apollinaris of Laodicea was on the right side of the Arian controversy - a friend of Athanasius, a defender of Nicaea, and by all accounts a formidable scholar. The position that took his name came from pressing the unity of Christ harder than anyone else dared. If Christ is one, Apollinaris reasoned, then there cannot be two minds in him competing; so the divine Word must occupy the place a human rational soul would hold, and Christ has a human body and its animating life but not a human mind. It was condemned at Rome in 377 and again by name at Constantinople in 381. Gregory of Nazianzus wrote the reply that stuck, in a letter to a priest named Cledonius: what is not assumed is not healed. If Christ did not take a human mind, then the human mind - the part that most needs it - is not saved. Apollinaris' followers kept his works in circulation under other men's names, which is why some of them survive at all.",
+   "teaser": "An ally of Athanasius who pressed the unity of Christ so hard that he left no room for a human mind in him - and drew the answer that what is not assumed is not healed.",
+   "voices": [
+    "Apollinaris of Laodicea - defender of Nicaea, and author of the Christology that took his name",
+    "Gregory of Nazianzus - whose letters to Cledonius gave the reply the tradition kept",
+    "Cledonius - the priest to whom those letters were addressed"
+   ],
+   "legacy": "Gregory's principle - what is not assumed is not healed - became one of the load-bearing rules of Christian theology, and is still quoted in arguments that have nothing to do with Apollinaris. The controversy also set the terms for the next century: Ephesus in 431 and Chalcedon in 451 are both, in part, continued work on the question of how much humanity Christ took."
+  },
+  {
+   "id": "modalist-monarchianism",
+   "atlasId": "I.31",
+   "era": 1,
+   "name": "Modalist Monarchianism",
+   "shortName": "Modalists",
+   "informalName": "The Monarchians",
+   "dates": "c. 190-270",
+   "start": 190,
+   "end": 270,
+   "region": "Smyrna, Rome, Libya",
+   "regions": [
+    "Mediterranean",
+    "Asia Minor"
+   ],
+   "lane": "8 Beyond the Floor (researched & explained)",
+   "laneLabel": "Non-Nicene Traditions",
+   "laneOrder": 80,
+   "beyondFloor": true,
+   "status": "Floor Question (register)",
+   "chip": "psc",
+   "glyph": "flq",
+   "statusWord": "Creedal question — not yet resolved",
+   "statusDescription": "Carries a named creedal question for a future Step 0 to answer — stated as a question, not a verdict.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "sourcing": "Entirely through opponents, and unusually well through them: Tertullian's Against Praxeas and Hippolytus' Against Noetus and Refutation are all vendored, all hostile, and all quote the position at length in order to take it apart.",
+   "floorNote": "Modalist Monarchianism defended the oneness of God by holding that Father, Son and Spirit are not distinct from one another but are one and the same, presenting himself under different aspects or in different phases. Its opponents drew the conclusion the position resists: if the Son just is the Father, then it was the Father who suffered on the cross - hence Patripassianism, the name Tertullian uses. It sits outside the Nicene definition from the opposite side to Arianism, collapsing the distinctions where Arianism made the Son a creature.",
+   "relationsSummary": "The mirror-image error to Arianism and earlier than it: both are attempts to protect the one God, one by subordinating the Son and one by dissolving him into the Father. Hippolytus accused Callistus, bishop of Rome, of sheltering it.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found material with no entry to hold it. Tertullian's Against Praxeas and Hippolytus' Against Noetus are two of the corpus's substantial heresiological works and had no entry to point at: the census's floor entries are Gnostic, Marcionite, Manichaean and Arian, and this is none of those.",
+   "longDescription": "Around the turn of the third century a way of protecting the oneness of God became briefly popular and then notorious. Noetus of Smyrna, and after him Praxeas and Sabellius at Rome, taught that Father, Son and Spirit are not three who are distinct but one who appears in three ways - so that the Son is the Father under another aspect. The objection was immediate and blunt: then it was the Father who was born, and the Father who died. Tertullian wrote Against Praxeas to say so, in a book that also gave Latin theology much of the vocabulary it would use for the opposite view. Hippolytus wrote against Noetus, and accused Callistus, the bishop of Rome, of sheltering the teaching - an accusation tangled up with his own rivalry for that see. Sabellius' name stuck to the position longest, and modalism is still sometimes called Sabellianism, though very little is known about him.",
+   "teaser": "The attempt to keep God one by making Father and Son the same person - and the reply that this means the Father died on the cross.",
+   "voices": [
+    "Noetus of Smyrna - the first named teacher of the position, condemned by his own presbyters",
+    "Praxeas - Tertullian's target, of whom almost nothing is known but the book written against him",
+    "Sabellius - whose name stuck to the position longest, on the least evidence",
+    "Tertullian - whose Against Praxeas argued the case and coined much of the Latin vocabulary of the Trinity",
+    "Hippolytus of Rome - who wrote against Noetus and accused his own bishop of sheltering the teaching"
+   ],
+   "legacy": "Tertullian's Against Praxeas is where a great deal of Latin trinitarian vocabulary was first put to work, so the tradition's language for the doctrine was partly forged in the argument against this position. Modalism has also proved unusually persistent: it is the account of the Trinity that ordinary believers most often reinvent without being taught it, and 'Sabellianism' is still the name theologians reach for when they see it."
+  },
+  {
+   "id": "bardaisanite-current",
+   "atlasId": "I.32",
+   "era": 1,
+   "name": "Bardaisan and the Bardaisanites",
+   "shortName": "Bardaisanites",
+   "informalName": "The School of Bardaisan",
+   "dates": "c. 180-400",
+   "start": 180,
+   "end": 400,
+   "region": "Edessa and Osrhoene",
+   "regions": [
+    "Middle East"
+   ],
+   "lane": "8 Beyond the Floor (researched & explained)",
+   "laneLabel": "Non-Nicene Traditions",
+   "laneOrder": 80,
+   "beyondFloor": true,
+   "status": "Floor Question (register)",
+   "chip": "psc",
+   "glyph": "flq",
+   "statusWord": "Creedal question — not yet resolved",
+   "statusDescription": "Carries a named creedal question for a future Step 0 to answer — stated as a question, not a verdict.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "sourcing": "Through opponents and one disputed survival. The Book of the Laws of Countries preserves his voice at second hand, written by his pupil Philip; everything else comes through Ephraim's Prose Refutations, which are vendored and quote him at length in order to answer him.",
+   "floorNote": "THE CREEDAL QUESTION IS GENUINELY OPEN, and this entry states it rather than settling it. Ephraim treats Bardaisan as a heretic and links him to Valentinus; the Chronicle of Edessa's own notes call him a promulgator of Valentinus' doctrine. But he was a baptised member of the Edessene church who wrote against Marcion, and how far his cosmology - of primordial entities, of fate and the stars - actually crosses the creedal line is disputed by every generation that has looked at it. He is placed here so the material has a home, not because the question is answered.",
+   "relationsSummary": "Edessa's most famous Christian intellectual before Ephraim, and Ephraim's principal local opponent a century and a half later; a near neighbour of syriac-edessa-nisibis rather than an outsider to it.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 after the corpus assignment run found material with no entry to hold it. The corpus assignment flagged two of Ephraim's Prose Refutations as needs-ruling for exactly this reason: they are purely anti-Bardaisan, and the nearest bucket - the Valentinian one - is a guess that Ephraim's own polemic invites and the evidence does not settle.",
+   "longDescription": "Bardaisan of Edessa was a courtier, an archer of some reputation, a philosopher, and by his own lights a Christian. He wrote against Marcion, he was baptised in the Edessene church, and he ran a school whose hymns Ephraim would later complain were better than the orthodox ones - which is why Ephraim wrote hymns. What he actually taught is hard to recover. The Book of the Laws of Countries, written by his pupil Philip, presents him arguing that human freedom is real against the fatalism of the astrologers, which is a thoroughly Christian argument. Ephraim, writing a century and a half later in the same city, presents him as a heretic with a cosmology of primordial beings and a defective doctrine of the body's resurrection. Both cannot be the whole truth, and the sources that would settle it are gone.",
+   "teaser": "Edessa's first Christian philosopher, whose hymns were good enough that Ephraim had to write better ones - and whose orthodoxy has been argued over ever since.",
+   "voices": [
+    "Bardaisan of Edessa - courtier, philosopher, hymn-writer, and opponent of Marcion",
+    "Philip - his pupil, who wrote the Book of the Laws of Countries in which Bardaisan speaks",
+    "Ephraim the Syrian - his principal opponent, and the reason most of what he said survives"
+   ],
+   "legacy": "Syriac hymnody as a form owes something to both sides of this argument: Bardaisan and his son Harmonius set the pattern, and Ephraim's decision to answer them in the same form gave the Syriac church the madrasha tradition that shaped its worship for centuries. The Book of the Laws of Countries remains one of the earliest Syriac prose works of any kind."
   },
   {
    "id": "cyrilline-miaphysite-egyptian-christianity",

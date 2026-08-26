@@ -80,79 +80,72 @@ assignments:
   author: hippolytus
   locus: div2 3.3
   atlas_ids:
-  - post-apostolic-house-church
+  - roman-church-third-century
   role: tradition
-  confidence: needs-ruling
-  note: 'The author''s OWN tradition home. Hippolytus of Rome (c. 170-236) has no census entry;
+  confidence: assigned
+  note: The author's OWN tradition home. Hippolytus of Rome (c. 170-236) has no census entry;
     post-apostolic-house-church is the nearest Roman antecedent but its range ends 200 CE,
     before he wrote. Needs a ruling on where the early 3rd-c. Roman church files - the same
-    gap affects Caius and (differently) Novatian.
-
-    '
+    gap affects Caius and (differently) Novatian. Re-pointed 2026-08-26 to the census entry
+    added on record for this movement.
 - work: Treatise on Christ and Antichrist
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - Treatise on Christ and Antichrist
   atlas_ids:
-  - post-apostolic-house-church
+  - roman-church-third-century
   role: tradition
-  confidence: needs-ruling
-  note: 'The one complete treatise in the extant-works section; early Christian eschatology
+  confidence: assigned
+  note: The one complete treatise in the extant-works section; early Christian eschatology
     from Rome, c. 200. needs-ruling only for the shelf - no census home for Hippolytus (see
-    Refutation row).
-
-    '
+    Refutation row). Re-pointed 2026-08-26 to the census entry added on record for this movement.
 - work: Against the Heresy of One Noetus
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - Against the Heresy of One Noetus
   atlas_ids:
-  - post-apostolic-house-church
+  - roman-church-third-century
   role: tradition
-  confidence: needs-ruling
-  note: 'Foundational anti-monarchian treatise. The census has no entry for modalist Monarchianism
+  confidence: assigned
+  note: Foundational anti-monarchian treatise. The census has no entry for modalist Monarchianism
     (Noetians/Sabellians), so the work it argues against has no bucket either - flagged; shelved
-    with its author''s needs-ruling home.
-
-    '
+    with its author's needs-ruling home. Re-pointed 2026-08-26 to the census entry added on
+    record for this movement.
 - work: Exegetical fragments of Hippolytus
   author: hippolytus
   locus: div2 3.4, 'Exegetical' - fragments on Hexaemeron through Matthew and Luke (assigned
     as one body)
   atlas_ids:
-  - post-apostolic-house-church
+  - roman-church-third-century
   role: tradition
-  confidence: needs-ruling
-  note: 'Commentary fragments (Genesis, Psalms, Proverbs, Song of Songs, Daniel, etc.), assigned
+  confidence: assigned
+  note: Commentary fragments (Genesis, Psalms, Proverbs, Song of Songs, Daniel, etc.), assigned
     as one body per the granularity rule for fragment collections. Shelf needs-ruling as for
-    all Hippolytus (no census home).
-
-    '
+    all Hippolytus (no census home). Re-pointed 2026-08-26 to the census entry added on record
+    for this movement.
 - work: Dogmatical and historical fragments of Hippolytus (incl. Against Plato, Against Beron
     and Helix, On the Holy Theophany, Expository Treatise Against the Jews)
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - remaining pieces, assigned as one body
   atlas_ids:
-  - post-apostolic-house-church
+  - roman-church-third-century
   role: tradition
-  confidence: needs-ruling
-  note: 'Smaller pieces and fragments, several of disputed authenticity (Against Beron and
+  confidence: assigned
+  note: Smaller pieces and fragments, several of disputed authenticity (Against Beron and
     Helix is generally held later; the Theophany discourse is questioned). One body per the
-    fragment-collection rule; shelf needs-ruling as for all Hippolytus.
-
-    '
+    fragment-collection rule; shelf needs-ruling as for all Hippolytus. Re-pointed 2026-08-26
+    to the census entry added on record for this movement.
 - work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
   author: hippolytus
   locus: div2 3.5 - incl. discourse on the end of the world, lists of the Twelve and Seventy
     Apostles, canons ascribed to Hippolytus
   atlas_ids:
-  - post-apostolic-house-church
+  - roman-church-third-century
   role: tradition
   confidence: needs-ruling
-  note: 'STRUCTURE.md marks this div2 apparatus, but the content is ancient pseudo-Hippolytean
-    material (editor''s own title says dubious and spurious), kept rather than dropped. Needs
+  note: STRUCTURE.md marks this div2 apparatus, but the content is ancient pseudo-Hippolytean
+    material (editor's own title says dubious and spurious), kept rather than dropped. Needs
     a ruling both on the shelf (no Hippolytus home) and on whether a spurious corpus files
-    under the attributed name.
-
-    '
+    under the attributed name. Re-pointed 2026-08-26 to the census entry added on record for
+    this movement.
 - work: The Life and Passion of Cyprian, Bishop and Martyr
   author: pontius
   locus: div2 4.3
@@ -390,7 +383,7 @@ assignments:
   author: caius
   locus: div2 5.3 - three fragment groups, assigned as one body
   atlas_ids:
-  - post-apostolic-house-church
+  - roman-church-third-century
   - montanism-the-new-prophecy
   role: tradition
   confidence: provisional
@@ -398,9 +391,9 @@ assignments:
     party - hence the montanism assignment (argued-against entry). ANF also prints the Muratorian
     Canon here though its authorship is editorial conjecture, and the anti-Artemon fragment
     targets adoptionist Monarchianism, which has no census entry. Shelf shares the Hippolytus
-    problem (Rome just after pahc''s 200 CE line) - provisional.
-
-    '
+    problem (Rome just after pahc''s 200 CE line) - provisional. Re-pointed 2026-08-26: Caius
+    is a Roman presbyter of exactly these decades, and roman-church-third-century was added
+    on record to hold them.'
 - work: A Treatise of Novatian Concerning the Trinity
   author: novatian
   locus: div2 6.3

@@ -17,29 +17,6 @@ works:
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
-- work: Against Bardaisan (A Discourse Against Bardaisan)
-  author: ephraim
-  locus: Vol. II, as above
-  role: context
-  confidence: needs-ruling
-  note: 'Same doubt as the "Domnus" entry above: no census bucket exists for Bardaisan/Daisanite
-    Christianity; this floor entry is a best guess needing Mark''s ruling.
-
-    '
-  source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-- work: Against Bardaisan's 'Domnus'
-  author: ephraim
-  locus: Vol. II, as above
-  role: context
-  confidence: needs-ruling
-  note: 'Bardaisan and the Daisanites have no census entry of their own, so the anti-Bardaisan
-    material has no exact home. Best guess is the "other Gnostic Christianities" floor entry
-    - the Chronicle of Edessa file''s own notes call Bardesanes one "who promulgated the doctrine
-    of Valentinus" - but Bardaisan''s classification as Gnostic is contested, and Mark may
-    prefer a Bardaisan entry of its own or the Syriac world alone. Flagging rather than deciding.
-
-    '
-  source_file: ephraim_prose-refutations_mitchell1912-1921.txt
 - work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
   locus: div2 3.3 - Books I, IV-X (II-III lost)

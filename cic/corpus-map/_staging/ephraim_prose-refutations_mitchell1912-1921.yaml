@@ -7,146 +7,141 @@
 # npnf213 carries different Ephraim material (hymns/homilies, another
 # worker's file); nothing here overlaps it.
 source_file: ephraim_prose-refutations_mitchell1912-1921.txt
-
 assignments:
-  - work: "Discourses to Hypatius (Five Discourses Against the False Teachings)"
-    author: ephraim
-    locus: >
-      Vol. I, heading "THE DISCOURSES ADDRESSED TO HYPATIUS"; five discourses
-      ending "THE END OF WRITING THE FIVE DISCOURSES TO HYPATIUS AGAINST
-      FALSE DOCTRINES", incl. "A Refutatory Summary"
-    atlas_ids:
-      - syriac-edessa-nisibis
-    role: tradition
-    confidence: assigned
-    note: >
-      Ephraim's own prose polemic, a core voice of the built Syriac world.
-      The second discourse's own heading names the targets: "TO HYPATIUS
-      AGAINST MANI AND MARCION AND BARDAISAN".
+- work: Discourses to Hypatius (Five Discourses Against the False Teachings)
+  author: ephraim
+  locus: 'Vol. I, heading "THE DISCOURSES ADDRESSED TO HYPATIUS"; five discourses ending "THE
+    END OF WRITING THE FIVE DISCOURSES TO HYPATIUS AGAINST FALSE DOCTRINES", incl. "A Refutatory
+    Summary"
 
-  - work: "Discourses to Hypatius (Five Discourses Against the False Teachings)"
-    author: ephraim
-    locus: "Vol. I, as above"
-    atlas_ids:
-      - manichaeism
-      - marcion-marcionism
-    role: context
-    confidence: assigned
-    note: >
-      Heresiological material about Mani and Marcion, per the brief's rule
-      that a work is also assigned to the entries it argues against. Role
-      context: Ephraim describes these movements from outside, never as
-      their own voice - a world drawing on this for them does so etically.
-      The third named target, Bardaisan, has NO census entry; see the
-      needs-ruling entries on the two anti-Bardaisan works below.
+    '
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'Ephraim''s own prose polemic, a core voice of the built Syriac world. The second
+    discourse''s own heading names the targets: "TO HYPATIUS AGAINST MANI AND MARCION AND
+    BARDAISAN".
 
-  - work: "Against Bardaisan's 'Domnus'"
-    author: ephraim
-    locus: >
-      Vol. II, heading "AGAINST BARDAISAN'S \"DOMNUS\"" - "A DISCOURSE MADE BY
-      THE BLESSED SAINT EPHRAIM AGAINST THE DISCOURSE WHICH IS CALLED 'OF
-      DOMNUS,' WHICH WAS COMPOSED BY BARDAISAN AGAINST THE PLATONISTS"
-    atlas_ids:
-      - syriac-edessa-nisibis
-    role: tradition
-    confidence: assigned
-    note: >
-      Ephraim answering Bardaisan of Edessa on his own ground - also the
-      corpus's main transmission of Bardaisan's lost "Domnus". Tradition for
-      the Syriac world as Ephraim's own work.
+    '
+- work: Discourses to Hypatius (Five Discourses Against the False Teachings)
+  author: ephraim
+  locus: Vol. I, as above
+  atlas_ids:
+  - manichaeism
+  - marcion-marcionism
+  role: context
+  confidence: assigned
+  note: 'Heresiological material about Mani and Marcion, per the brief''s rule that a work
+    is also assigned to the entries it argues against. Role context: Ephraim describes these
+    movements from outside, never as their own voice - a world drawing on this for them does
+    so etically. The third named target, Bardaisan, has NO census entry; see the needs-ruling
+    entries on the two anti-Bardaisan works below.
 
-  - work: "Against Bardaisan's 'Domnus'"
-    author: ephraim
-    locus: "Vol. II, as above"
-    atlas_ids:
-      - valentinian-and-other-gnostic-christianities
-    role: context
-    confidence: needs-ruling
-    note: >
-      Bardaisan and the Daisanites have no census entry of their own, so the
-      anti-Bardaisan material has no exact home. Best guess is the "other
-      Gnostic Christianities" floor entry - the Chronicle of Edessa file's
-      own notes call Bardesanes one "who promulgated the doctrine of
-      Valentinus" - but Bardaisan's classification as Gnostic is contested,
-      and Mark may prefer a Bardaisan entry of its own or the Syriac world
-      alone. Flagging rather than deciding.
+    '
+- work: Against Bardaisan's 'Domnus'
+  author: ephraim
+  locus: 'Vol. II, heading "AGAINST BARDAISAN''S \"DOMNUS\"" - "A DISCOURSE MADE BY THE BLESSED
+    SAINT EPHRAIM AGAINST THE DISCOURSE WHICH IS CALLED ''OF DOMNUS,'' WHICH WAS COMPOSED
+    BY BARDAISAN AGAINST THE PLATONISTS"
 
-  - work: "Against Marcion (Discourses I-III)"
-    author: ephraim
-    locus: "Vol. II, headings \"AGAINST MARCION I.\", \"AGAINST MARCION II.\", \"AGAINST MARCION III.\""
-    atlas_ids:
-      - syriac-edessa-nisibis
-    role: tradition
-    confidence: assigned
-    note: >
-      Three connected discourses, assigned as one work a reader would name.
-      Ephraim's own anti-Marcionite polemic, tradition for the Syriac world.
+    '
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'Ephraim answering Bardaisan of Edessa on his own ground - also the corpus''s main
+    transmission of Bardaisan''s lost "Domnus". Tradition for the Syriac world as Ephraim''s
+    own work.
 
-  - work: "Against Marcion (Discourses I-III)"
-    author: ephraim
-    locus: "Vol. II, as above"
-    atlas_ids:
-      - marcion-marcionism
-    role: context
-    confidence: assigned
-    note: >
-      Major heresiological witness to fourth-century Syriac Marcionism,
-      assigned to the doctrinal-floor entry it argues against. Context:
-      description from outside, usable only etically.
+    '
+- work: Against Bardaisan's 'Domnus'
+  author: ephraim
+  locus: Vol. II, as above
+  atlas_ids:
+  - bardaisanite-current
+  role: context
+  confidence: assigned
+  note: Bardaisan and the Daisanites have no census entry of their own, so the anti-Bardaisan
+    material has no exact home. Best guess is the "other Gnostic Christianities" floor entry
+    - the Chronicle of Edessa file's own notes call Bardesanes one "who promulgated the doctrine
+    of Valentinus" - but Bardaisan's classification as Gnostic is contested, and Mark may
+    prefer a Bardaisan entry of its own or the Syriac world alone. Flagging rather than deciding.
+    Re-pointed 2026-08-26 to the census entry added on record for this movement.
+- work: Against Marcion (Discourses I-III)
+  author: ephraim
+  locus: Vol. II, headings "AGAINST MARCION I.", "AGAINST MARCION II.", "AGAINST MARCION III."
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'Three connected discourses, assigned as one work a reader would name. Ephraim''s
+    own anti-Marcionite polemic, tradition for the Syriac world.
 
-  - work: "Against Bardaisan (A Discourse Against Bardaisan)"
-    author: ephraim
-    locus: "Vol. II, heading \"AGAINST BARDAISAN.\" - \"A DISCOURSE AGAINST BARDAISAN\""
-    atlas_ids:
-      - syriac-edessa-nisibis
-    role: tradition
-    confidence: assigned
-    note: >
-      Distinct from the reply to the "Domnus"; Ephraim's own work against
-      Edessa's home-grown teacher.
+    '
+- work: Against Marcion (Discourses I-III)
+  author: ephraim
+  locus: Vol. II, as above
+  atlas_ids:
+  - marcion-marcionism
+  role: context
+  confidence: assigned
+  note: 'Major heresiological witness to fourth-century Syriac Marcionism, assigned to the
+    doctrinal-floor entry it argues against. Context: description from outside, usable only
+    etically.
 
-  - work: "Against Bardaisan (A Discourse Against Bardaisan)"
-    author: ephraim
-    locus: "Vol. II, as above"
-    atlas_ids:
-      - valentinian-and-other-gnostic-christianities
-    role: context
-    confidence: needs-ruling
-    note: >
-      Same doubt as the "Domnus" entry above: no census bucket exists for
-      Bardaisan/Daisanite Christianity; this floor entry is a best guess
-      needing Mark's ruling.
+    '
+- work: Against Bardaisan (A Discourse Against Bardaisan)
+  author: ephraim
+  locus: Vol. II, heading "AGAINST BARDAISAN." - "A DISCOURSE AGAINST BARDAISAN"
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'Distinct from the reply to the "Domnus"; Ephraim''s own work against Edessa''s home-grown
+    teacher.
 
-  - work: "On Virginity (A Discourse of S. Ephraim on Virginity)"
-    author: ephraim
-    locus: "Vol. II, heading \"A DISCOURSE OF S. EPHRAIM ON VIRGINITY.\""
-    atlas_ids:
-      - syriac-edessa-nisibis
-    role: tradition
-    confidence: assigned
-    note: >
-      The one non-polemical piece in the volume: Ephraim's ascetic teaching,
-      direct evidence for the Syriac world's consecrated-virginity strand.
+    '
+- work: Against Bardaisan (A Discourse Against Bardaisan)
+  author: ephraim
+  locus: Vol. II, as above
+  atlas_ids:
+  - bardaisanite-current
+  role: context
+  confidence: assigned
+  note: 'Same doubt as the "Domnus" entry above: no census bucket exists for Bardaisan/Daisanite
+    Christianity; this floor entry is a best guess needing Mark''s ruling. Re-pointed 2026-08-26
+    to the census entry added on record for this movement.'
+- work: On Virginity (A Discourse of S. Ephraim on Virginity)
+  author: ephraim
+  locus: Vol. II, heading "A DISCOURSE OF S. EPHRAIM ON VIRGINITY."
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'The one non-polemical piece in the volume: Ephraim''s ascetic teaching, direct evidence
+    for the Syriac world''s consecrated-virginity strand.
 
-  - work: "Against Mani"
-    author: ephraim
-    locus: "Vol. II, heading \"AGAINST MANI.\""
-    atlas_ids:
-      - syriac-edessa-nisibis
-    role: tradition
-    confidence: assigned
-    note: >
-      Ephraim's own anti-Manichaean discourse, tradition for the Syriac
-      world.
+    '
+- work: Against Mani
+  author: ephraim
+  locus: Vol. II, heading "AGAINST MANI."
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'Ephraim''s own anti-Manichaean discourse, tradition for the Syriac world.
 
-  - work: "Against Mani"
-    author: ephraim
-    locus: "Vol. II, as above"
-    atlas_ids:
-      - manichaeism
-    role: context
-    confidence: assigned
-    note: >
-      Named in Mitchell's preface (in the file) as "a valuable document for
-      the history of early Manichaean teaching". Assigned to the floor entry
-      it argues against, role context, usable only etically.
+    '
+- work: Against Mani
+  author: ephraim
+  locus: Vol. II, as above
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: assigned
+  note: 'Named in Mitchell''s preface (in the file) as "a valuable document for the history
+    of early Manichaean teaching". Assigned to the floor entry it argues against, role context,
+    usable only etically.
+
+    '

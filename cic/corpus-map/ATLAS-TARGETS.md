@@ -7,7 +7,7 @@ All 274 entries are valid targets. That includes the 215 marked *Pre-Survey Cand
 The six *Built & Live* entries are the six worlds that exist today. There is one taxonomy here, not two.
 
 
-## Era 1 (I) — The Early Church Era, 70-312 CE  ·  11 entries
+## Era 1 (I) — The Early Church Era, 70-312 CE  ·  14 entries
 
 *Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council*
 
@@ -19,13 +19,16 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `marcion-marcionism` | Marcion / Marcionism | c. 140-300s | Rome, widespread | Excluded - Doctrinal Floor (C1) ⛔ |
 | `alexandria-catechetical` | Alexandrian Catechetical / Christian-Platonist Tradition | c. 150–400 CE | Alexandria, Egypt | Built & Live |
 | `montanism-the-new-prophecy` | Montanism (the New Prophecy) | c. 165-400s | Phrygia, spreading | Contested - Evidentiary |
+| `bardaisanite-current` | Bardaisan and the Bardaisanites | c. 180-400 | Edessa and Osrhoene | Floor Question (register) ⛔ |
+| `modalist-monarchianism` | Modalist Monarchianism | c. 190-270 | Smyrna, Rome, Libya | Floor Question (register) ⛔ |
 | `tertullian-s-voice` | Tertullian's Voice | c. 197-220 | Carthage | Possible Future World (on record) |
+| `roman-church-third-century` | The Roman Church in the Third Century | c. 200-260 | Rome | Possible Future World (on record) |
 | `syriac-edessa-nisibis` | Syriac Christianity (Edessa/Nisibis) | 200–410 CE | Edessa & Nisibis | Built & Live |
 | `manichaeism` | Manichaeism | 3rd-7th c. | Persia to the Mediterranean | Excluded - Doctrinal Floor (C1) ⛔ |
 | `latin-pastoral-congregational-christianity` | Latin Pastoral-Congregational Christianity | c. 240s-430 | Carthage, Hippo Regius | Selected - Not Yet Built |
 | `novatianism` | Novatianism | c. 251-400s | Rome, spreading | Contested - Evidentiary |
 
-## Era 2 (II) — The Imperial Church Era, 312-451 CE  ·  17 entries
+## Era 2 (II) — The Imperial Church Era, 312-451 CE  ·  20 entries
 
 *Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council*
 
@@ -38,11 +41,14 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `desert-monasticism` | Desert Monasticism | c. 320–430 CE | Nile Valley & Desert, Egypt | Built & Live |
 | `jerusalem-liturgical-pilgrimage-christianity` | Jerusalem Liturgical-Pilgrimage Christianity | c. 325-450 | Jerusalem | Possible Future World (on record) |
 | `aksumite-christianity-conversion-era` | Aksumite Christianity (conversion era) | c. 330-451 | Aksum (Ethiopia/Eritrea) | Deferred by Step 0 |
+| `palestinian-ascetic-monasticism-early` | Early Palestinian Ascetic Monasticism | c. 330-450 | Gaza, the Judean desert, Sinai road | Possible Future World (on record) |
 | `homoian-arian-christianity` | Homoian ('Arian') Christianity | 4th-6th c. | Empire-wide; then Gothic & Vandal kingdoms | Excluded - Doctrinal Floor (C1) ⛔ |
 | `anomoean-eunomian-christianity` | Anomoean (Eunomian) Christianity | c. 350-c. 430 | Antioch, Cyzicus, Constantinople, Cappadocia | Floor Question (register) ⛔ |
 | `antiochene-exegetical-christianity-chrysostom-ce` | Antiochene Exegetical Christianity (Chrysostom-centered) | c. 350-430 | Antioch | Possible Future World (on record) |
+| `apollinarian-christianity` | Apollinarian Christianity | c. 360-430 | Laodicea, Syria, Asia Minor | Floor Question (register) ⛔ |
 | `cappadocian-nicene-pastoral-monastic-tradition` | Cappadocian Nicene Pastoral-Monastic Tradition | c. 360-380s | Cappadocia / Anatolia | Selected - Not Yet Built |
 | `gallic-monastic-ascetic-christianity` | Gallic Monastic-Ascetic Christianity | c. 360-450 | Tours, Lérins, Marseilles | Possible Future World (on record) |
+| `pneumatomachian-current` | Pneumatomachian ('Macedonian') Christianity | c. 360-420 | Constantinople, Asia Minor, Thrace | Floor Question (register) ⛔ |
 | `priscillianist-asceticism` | Priscillianist Asceticism | c. 370-450 | Spain | Possible Future World (on record) |
 | `ambrosian-milan-standalone` | Ambrosian Milan (standalone) | c. 374-397 | Milan | Possible Future World (on record) |
 | `hieronymian-ascetic-literary` | Hieronymian Ascetic-Literary Christianity | c. 382–420 CE | Rome & Bethlehem | Built & Live |

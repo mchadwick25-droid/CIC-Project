@@ -11,9 +11,8 @@ works:
   note: 'Basil''s defense of the Spirit''s equal glory against the Pneumatomachians, and the
     classic appeal to the church''s unwritten liturgical tradition (ch. 27). The party argued
     against has no census entry (there is no Macedonian/Pneumatomachian bucket), so the work
-    stays with its author''s entry; noted rather than forced.
-
-    '
+    stays with its author''s entry; noted rather than forced. 2026-08-26: pneumatomachian-current
+    added alongside - the party this work argues with now has an entry of its own.'
   source_file: npnf208_basil-letters-select-works.xml
 - work: The Hexaemeron
   author: basil
@@ -53,8 +52,9 @@ works:
   note: 'Theodosius'' council and the Nicene-Constantinopolitan creed. The cappadocian id
     is the arguable one: Gregory Nazianzen presided for part of the council and its pneumatology
     ratifies the Cappadocian settlement - trim it if that reads as reception rather than tradition.
-
-    '
+    2026-08-26: canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
+    as separate parties; each now has its own entry and this work is the record of all of
+    them.'
   source_file: npnf214_seven-ecumenical-councils.xml
 - work: The Canons of the Council of Gangra
   author: council-of-gangra
@@ -78,9 +78,8 @@ works:
   confidence: assigned
   note: 'The Apollinarian group (the letters to Cledonius) is foundational Christological
     material, but the census has no Apollinarian entry, so the party argued against has nowhere
-    to receive it; noted rather than forced into an unrelated bucket.
-
-    '
+    to receive it; noted rather than forced into an unrelated bucket. 2026-08-26: apollinarian-christianity
+    added alongside - the party this work argues with now has an entry of its own.'
   source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
 - work: Select Orations of Saint Gregory Nazianzen
   author: gregory_naz
@@ -215,8 +214,8 @@ works:
   confidence: assigned
   note: 'Anti-Pneumatomachian treatise. The census has no Macedonian/ Pneumatomachian entry
     at all, so the party it argues against has nowhere to receive it; noted rather than forced.
-
-    '
+    2026-08-26: pneumatomachian-current added alongside - the party this work argues with
+    now has an entry of its own.'
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
 - work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
   author: gregory_nyssa
@@ -225,9 +224,8 @@ works:
   confidence: assigned
   note: 'Trinitarian letter-treatise; printed with an extract of Basil''s Letter 189 immediately
     before it (line 29245), which some editors give to Nyssa - the volume flags the overlap
-    itself.
-
-    '
+    itself. 2026-08-26: pneumatomachian-current added alongside - the party this work argues
+    with now has an entry of its own.'
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
 - work: On the Making of Man
   author: gregory_nyssa

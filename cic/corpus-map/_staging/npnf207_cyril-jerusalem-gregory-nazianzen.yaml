@@ -85,6 +85,24 @@ assignments:
   confidence: assigned
   note: 'The Apollinarian group (the letters to Cledonius) is foundational Christological
     material, but the census has no Apollinarian entry, so the party argued against has nowhere
-    to receive it; noted rather than forced into an unrelated bucket.
+    to receive it; noted rather than forced into an unrelated bucket. 2026-08-26: apollinarian-christianity
+    added alongside - the party this work argues with now has an entry of its own.'
+- work: Select Letters of Saint Gregory Nazianzen
+  author: gregory_naz
+  locus: 'div1 4 (~37,693 words) - one body of letters in three editorial groups: Letters
+    on the Apollinarian Controversy (4.2), Correspondence with Basil (4.3), Miscellaneous
+    Letters (4.4). Assigned as one work.
 
     '
+  atlas_ids:
+  - apollinarian-christianity
+  role: context
+  confidence: assigned
+  note: 'The Apollinarian group (the letters to Cledonius) is foundational Christological
+    material, but the census has no Apollinarian entry, so the party argued against has nowhere
+    to receive it; noted rather than forced into an unrelated bucket. 2026-08-26: apollinarian-christianity
+    added alongside - the party this work argues with now has an entry of its own.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'

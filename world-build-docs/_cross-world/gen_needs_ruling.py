@@ -30,13 +30,14 @@ MAP = ROOT / "cic" / "corpus-map"
 SWEEPS = {
     "post-apostolic-house-church":
         "**`pahc` is the corpus's overflow shelf, and that is the finding.** Its window is "
-        "70-200 CE, and it collected 22 needs-ruling works because it is the only early entry "
-        "there is. Three distinct questions sit inside this one pile: (a) *the Greek apologists* "
-        "have no entry of their own - Athenagoras, Mathetes, the dubious Justiniana; (b) *early "
-        "third-century Rome* has no entry, so Hippolytus (c. 170-236) and Caius fall off the end "
-        "of pahc's window; (c) *later pseudepigrapha* impersonating first-century figures - the "
-        "Spurious Epistles of Ignatius are 4th-century forgeries sitting in a 70-200 entry. "
-        "Splitting even one of these off pahc would clear most of the pile.",
+        "70-200 CE, and it collects the most flagged works because it is the earliest entry "
+        "there is. One of the three questions in this pile is now answered - "
+        "`roman-church-third-century` took Hippolytus and Caius, who fell off the end of pahc's "
+        "window - and two remain: (a) *the Greek apologists* have no entry of their own "
+        "(Athenagoras, Mathetes, the dubious Justiniana), though whether an apologist is a "
+        "formation world or a literary mode is a fair objection; (b) *later pseudepigrapha* "
+        "impersonating first-century figures - the Spurious Epistles of Ignatius are 4th-century "
+        "forgeries sitting in a 70-200 entry.",
     "alexandria-catechetical":
         "Mostly Origen's reception and the third-century Alexandrian controversy - works whose "
         "Alexandrian connection is real but whose own home entry does not exist (Dionysius of "
@@ -82,14 +83,11 @@ SWEEPS = {
         "Ante-Nicene volumes housing much later works: Byzantine-era apocalypses (the Virgin, "
         "Sedrach, Esdras, apocryphal John) printed in ANF and placed here by date-guess alone.",
     "jerusalem-liturgical-pilgrimage-christianity":
-        "**No entry for Palestinian or Syrian monasticism before c. 450**, so Jerome's "
-        "*Hilarion* and *Malchus* have nowhere that fits; `desert-monasticism` is regionally "
-        "Egypt. A second worker hit the same hole from Chrysostom's ascetic treatises.",
-    "valentinian-and-other-gnostic-christianities":
-        "**Bardaisan has no census entry.** Two of Ephraim's Prose Refutations are purely "
-        "anti-Bardaisan and are parked here as a best guess - the Chronicle of Edessa's own "
-        "notes call him a promulgator of Valentinus' doctrine, but the classification is "
-        "contested. Own entry, file under other-Gnostic, or Syriac-only?",
+        "**Half answered.** `palestinian-ascetic-monasticism-early` (c. 330-450) took Jerome's "
+        "*Hilarion* and *Malchus*. What is left is the other half of that hole: Chrysostom's "
+        "ascetic treatises are ANTIOCHENE and urban, not Gazan or Judean, and still have no "
+        "entry that fits.",
+
 }
 
 
@@ -139,20 +137,41 @@ def main() -> None:
 
     out.append("\n## Answered since the run\n")
     out.append(
-        "Two rulings, both taken 2026-08-26, and both the same shape — a real movement the census "
-        "had no entry for:\n\n"
+        "**Eight entries added, 2026-08-26**, all the same shape — a real movement the census had "
+        "no entry for, found by workers who could not see each other's work. Fleet-wide flagged "
+        "works have fallen from **87 to 77**.\n\n"
+        "Two are formation-world candidates, on record as *Possible Future World*:\n\n"
         "- **`gallic-monastic-ascetic-christianity`** (era 2, c. 360–450, *Possible Future World "
         "on record*). Closed the pre-Merovingian Gaul hole that two workers hit independently. "
         "**Seven works re-pointed**, six of them to `assigned`; the *Doubtful Letters of "
         "Sulpitius Severus* stay flagged because the editors' own attribution doubt is untouched "
         "by a new entry.\n"
-        "- **`anomoean-eunomian-christianity`** (era 2, *Floor Question — register*). Closed the "
-        "gap **three** workers hit: anti-Eunomian works were being parked against "
-        "`homoian-arian-christianity`, a different wing of the same controversy that split from "
-        "it at Constantinople in 360. **Four works re-pointed** — three swapped, and "
-        "Constantinople I gained it alongside the Homoian entry, because canon 1 names both "
-        "parties. All four are `role: context`, which is the map confirming what the census entry "
-        "says: nothing in this corpus is the Anomoeans' own voice.\n")
+        "- **`roman-church-third-century`** (era 1, c. 200–260). The decades `post-apostolic-"
+        "house-church` (ends 200) and `novatianism` (begins 251) bracket without covering. Took "
+        "the six Hippolytus works and Caius.\n"
+        "- **`palestinian-ascetic-monasticism-early`** (era 2, c. 330–450). The same shape as "
+        "Gaul: `chalcedonian-monasticism-judean-desert-and-gaza` does not begin until c. 450. "
+        "Took Jerome's *Hilarion* and *Malchus*.\n\n"
+        "Five are shelves for material the corpus carries *about* a movement, registered as "
+        "**Floor Question** rather than as exclusions — the creedal ground is not in doubt, but "
+        "no Phase One record rules on any of them by name, and these entries do not invent one:\n\n"
+        "- **`anomoean-eunomian-christianity`** — the gap **three** workers hit. Anti-Eunomian "
+        "works were parked against `homoian-arian-christianity`, a different wing that split from "
+        "it at Constantinople in 360.\n"
+        "- **`pneumatomachian-current`** — Basil's and Nyssa's and Ambrose's *On the Holy Spirit* "
+        "had no entry naming the party they answer. The only near-match by name, "
+        "`byzantine-imperial-church-macedonian`, is a ninth-century imperial dynasty.\n"
+        "- **`apollinarian-christianity`** — Gregory of Nazianzus' Cledonius letters, and not an "
+        "Arian position at all.\n"
+        "- **`modalist-monarchianism`** — Tertullian's *Against Praxeas* and Hippolytus' *Against "
+        "Noetus*, two substantial heresiological works with nowhere to point.\n"
+        "- **`bardaisanite-current`** — where the entry states the creedal question rather than "
+        "settling it, because the evidence genuinely does not.\n\n"
+        "**One invariant now holds across all nine floor entries and is worth knowing.** Of the "
+        "70 works assigned to them, exactly **two** are a floor movement's own surviving voice — "
+        "the *Excerpts of Theodotus* and Bardaisan's *Book of the Laws of Divers Countries*. "
+        "Every other one is a refutation. The map says structurally what the corpus is: these "
+        "movements reach us almost entirely through the people who argued with them.\n")
     out.append("\n## The sweeps — in order of how much each clears\n")
     out.append("| ruling | clears | the question |")
     out.append("|---|---:|---|")

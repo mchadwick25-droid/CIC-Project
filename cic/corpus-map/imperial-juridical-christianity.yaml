@@ -228,8 +228,9 @@ works:
   note: 'Theodosius'' council and the Nicene-Constantinopolitan creed. The cappadocian id
     is the arguable one: Gregory Nazianzen presided for part of the council and its pneumatology
     ratifies the Cappadocian settlement - trim it if that reads as reception rather than tradition.
-
-    '
+    2026-08-26: canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
+    as separate parties; each now has its own entry and this work is the record of all of
+    them.'
   source_file: npnf214_seven-ecumenical-councils.xml
 - work: The Canons of the Council of Constantinople under Nectarius (394)
   author: council-of-constantinople-394

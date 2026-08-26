@@ -82,17 +82,6 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: The Life of Malchus, the Captive Monk
-  author: jerome
-  locus: div2 6.3 (~3,513 words)
-  role: tradition
-  confidence: provisional
-  note: 'Same doubt as the Hilarion: Syrian setting, monastic subject, and no census entry
-    for fourth-century Syrian monasticism outside the Edessa/ Nisibis entry (which this is
-    not). Desert-monasticism as nearest monastic bucket, flagged.
-
-    '
-  source_file: npnf206_jerome-principal-works.xml
 - work: The Life of Paulus the First Hermit
   author: jerome
   locus: div2 6.1 (~3,900 words)
@@ -100,18 +89,6 @@ works:
   confidence: assigned
   note: 'Jerome''s Egyptian-desert hagiography, written in deliberate rivalry with the Vita
     Antonii. Desert evidence written from outside the desert, like the Vita itself.
-
-    '
-  source_file: npnf206_jerome-principal-works.xml
-- work: The Life of S. Hilarion
-  author: jerome
-  locus: div2 6.2 (~11,619 words)
-  role: tradition
-  confidence: provisional
-  note: 'Hilarion carries Antony''s pattern to Palestine, so the subject is monasticism outside
-    the desert entry''s stated region (Egypt, Nile Valley). No census entry covers fourth-century
-    Palestinian monasticism (the Judean-desert/Gaza entry begins c. 450), so desert-monasticism
-    is the nearest bucket; flagged rather than silently stretched.
 
     '
   source_file: npnf206_jerome-principal-works.xml
