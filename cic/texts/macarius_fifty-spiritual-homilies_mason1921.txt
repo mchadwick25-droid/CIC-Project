@@ -3,15 +3,26 @@ Translated by A. J. Mason, D.D.
 Translations of Christian Literature, Series I: Greek Texts
 (general editors W. J. Sparrow-Simpson and W. K. Lowther Clarke)
 London: Society for Promoting Christian Knowledge / New York: Macmillan, 1921.
-Scanned by the Institute of Mediaeval Studies, Toronto.
+SCAN PROVENANCE. Internet Archive item fiftyspiritualho00pseuuoft, digitized
+by the Pontifical Institute of Mediaeval Studies at the University of Toronto
+(IA collection pimslibrary), added to the Archive 2007-03-22. OCLC record
+1045392049.
 
 RIGHTS. Published 1921, so public domain in the United States (pre-1929).
-Mason died in 1928, so also clear in the United Kingdom under life-plus-70.
+Mason lived 1851-1928, so also clear in the United Kingdom under
+life-plus-70. The Internet Archive made its own determination on the scan
+and recorded it on the item, verbatim: "Evidence reported by
+andrea@archive.org for item fiftyspiritualho00pseuuoft on March 22, 2007: no
+visible notice of copyright; stated date is 1921." Copyright-region: US.
 Same series and the same general editor as the Clarke Lausiac History this
 corpus already vendors as cic/texts/palladius_lausiac-history_clarke1918.txt.
 
-WHAT THIS IS, AND WHOSE IT IS. The ascription is disputed and the edition
-itself says so. Mason, p. xviii: "The ascription of our Homilies to Macarius
+WHAT THIS IS, AND WHOSE IT IS. The ascription is disputed, the edition
+itself says so, and the cataloguers have since gone the other way. The
+Internet Archive catalogues this very item as "by Pseudo-Macarius;
+Macarius, the Egyptian, Saint, 4th cent; Mason, Arthur James, 1851-1928" -
+leading with Pseudo-Macarius, the attribution Mason spent his Introduction
+arguing against. Mason, p. xviii: "The ascription of our Homilies to Macarius
 the Egyptian rests upon no external evidence. It rests only upon the
 manuscripts containing them." The Bodleian manuscript titles the collection
 "First Epistle of our holy father Macarius the Egyptian to the Abbot Symeon
@@ -104,13 +115,18 @@ left as printed. Greek and Latin passages in the Introduction are left as the
 OCR rendered them and should not be quoted from this file.
 
 DAMAGED LOCI, found by inspection and listed so nothing is quoted from them
-unknowingly: the title page reads "*RANSLATIONS" and "Jj OF"; the Toronto
-library stamps at the head and foot of the file are garbled ("1HC INSTITUTE OF
-MEDIAEVAL S7UM&", "S1UDIE", "-rtONTO"); a running head at paragraph 1489 reads
-"pyayers" for "prayers". The Homily text itself was spot-checked across
+unknowingly: the title page reads "*RANSLATIONS" and "Jj OF"; a running head
+at paragraph 1489 reads "pyayers" for "prayers". The garbled stamps at the
+head and foot of the file ("1HC INSTITUTE OF MEDIAEVAL S7UM&", "S1UDIE",
+"KD ELMSLEY PLACE", "-rtONTO") are now identifiable rather than merely
+damaged: they are the ownership stamps of the Pontifical Institute of
+Mediaeval Studies, Elmsley Place, Toronto, which is the library that
+digitized this copy. They are library furniture, not text, and are dropped
+along with the rest of the title-page range. The Homily text itself was spot-checked across
 Homilies I, XV, XXVI and L and found sound.
 
-Vendored 2026-08-27 from a file supplied by Mark. Word count after
+Vendored 2026-08-27 from a file supplied by Mark; Internet Archive item
+metadata supplied by him 2026-08-27 and folded in above. Word count after
 normalisation: approximately 118,344 words including this header.
 
 [[INTRODUCTION (A. J. Mason)]]

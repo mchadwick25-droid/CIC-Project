@@ -18,13 +18,13 @@ relations:
   target: desert.source.apophthegmata-patrum
 - type: associated-with
   target: desert.source.evagrius-praktikos
-author: "Ascribed to Macarius the Egyptian (c. 300-391 CE), the Scetis elder; the ascription rests on the manuscripts alone, and the Bodleian manuscript titles the collection an epistle 'to the Abbot Symeon of Mesopotamia of Syria'. Modern scholarship generally treats the corpus as pseudonymous - a Syrian or Mesopotamian author of the late fourth or early fifth century, with a disputed relation to the condemned Messalian current."
+author: "Pseudo-Macarius - the attribution the Internet Archive itself uses for this very item ('by Pseudo-Macarius; Macarius, the Egyptian, Saint, 4th cent; Mason, Arthur James, 1851-1928'), leading with the ascription Mason spent his Introduction arguing against. Ascribed traditionally to Macarius the Egyptian (c. 300-391 CE), the Scetis elder; that ascription rests on the manuscripts alone, and the Bodleian manuscript titles the collection an epistle 'to the Abbot Symeon of Mesopotamia of Syria'. Modern scholarship generally treats the corpus as pseudonymous - a Syrian or Mesopotamian author of the late fourth or early fifth century, with a disputed relation to the condemned Messalian current."
 work: "Fifty Spiritual Homilies - a connected body of ascetic teaching on the interior life: the indwelling of the Spirit, grace as something experienced rather than inferred, the coexistence of sin and grace in the baptised, the soul as the bride of Christ, and the long combat that continues after grace is received. The affective and experiential counterpart to the intellectualist psychology this world already holds from Evagrius and Cassian."
 edition: "trans. A. J. Mason, D.D., Translations of Christian Literature Series I: Greek Texts (SPCK / Macmillan, 1921), vendored as cic/texts/macarius_fifty-spiritual-homilies_mason1921.txt. Two divisions, each opened by a [[...]] marker: Mason's Introduction at file line 116 (the authorship discussion at line 529, the ADDITIONAL NOTE at line 1421), and the Homilies themselves at line 1472 (Homily I at 1474, Homily XV at 4789, Homily L at 11186). Same series and the same general editor, W. K. Lowther Clarke, as the Lausiac History this corpus already vendors."
-rights_status: "public-domain - published 1921 (pre-1929, clear in the United States); Mason died 1928, so also clear under life-plus-70"
+rights_status: "public-domain - published 1921 (pre-1929, clear in the United States); Mason lived 1851-1928, so also clear under life-plus-70. The Internet Archive made its own determination on the scan and recorded it on the item: 'no visible notice of copyright; stated date is 1921' (reported by andrea@archive.org, 2007-03-22, copyright-region US)"
 attribution_status: "pseudonymous by modern consensus, attributed in the vendored edition - the edition argues for the traditional ascription against the case that has since carried the field, which is stated wherever this source is cited"
-discovery_channel: "supplied by Mark 2026-08-27 as a scanned .docx, after a source audit of this world named the Macarian corpus as the largest gap in kind rather than in volume; vendored the same day with its OCR normalisation counted in the file's own header"
-external_ids: {}
+discovery_channel: "supplied by Mark 2026-08-27 as a scanned .docx, after a source audit of this world named the Macarian corpus as the largest gap in kind rather than in volume; vendored the same day with its OCR normalisation counted in the file's own header. Internet Archive item metadata (identifier, scanning library, copyright evidence, OCLC) supplied by Mark the same day and folded into the file header and this record"
+external_ids: {internet_archive: "fiftyspiritualho00pseuuoft", oclc: "1045392049"}
 ---
 WHY THIS SOURCE, AND WHAT IT CHANGES. Every interior term this world holds
 is Evagrian and analytic: desert.term.logismoi, desert.term.apatheia,
@@ -54,3 +54,27 @@ happen rather than take anyone's summary of it.
 NOTHING IS OPENED FROM THIS SOURCE YET. This record registers the file, its
 rights, its structure and its bound. No quote, term or witness record draws
 on it; the reading pass that would open it is a separate decision.
+
+PROVENANCE CLOSED 2026-08-27. Mark supplied the Internet Archive item
+metadata, which does three things this record could not do for itself.
+
+It fixes the scan: item fiftyspiritualho00pseuuoft, digitized by the
+Pontifical Institute of Mediaeval Studies at the University of Toronto,
+added 2007-03-22, OCLC 1045392049. That also resolves what the file header
+had listed as damaged loci - the garbled stamps at head and foot ("1HC
+INSTITUTE OF MEDIAEVAL S7UM&", "KD ELMSLEY PLACE", "-rtONTO") are the PIMS
+ownership stamps of the library that made the scan, not corrupted text.
+
+It corroborates the rights reasoning independently. This record inferred
+public domain from the 1921 imprint and Mason's death; the Archive recorded
+its own determination in 2007 - "no visible notice of copyright; stated
+date is 1921" - and the dates it carries for Mason (1851-1928) confirm the
+life-plus-70 arithmetic exactly.
+
+And it corroborates the attribution bound from a direction independent of
+Mason's own text. This record derived "pseudonymous by modern consensus"
+from Mason's own Introduction, where he sets out Villecourt's and Wilmart's
+Messalian case and refuses it. The Archive's cataloguers simply lead with
+Pseudo-Macarius. Two independent routes to the same bound is better than
+one, and the author field now says so in the vocabulary a cataloguer would
+recognise.
