@@ -24,7 +24,9 @@ retrieval:
   - "participant asks which writings this world treated as scripture"
   - "participant asks how someone who could not read received the scriptures"
   do_not_retrieve_when: []
-relations: []
+relations:
+- type: associated-with
+  target: pahc.quote.the-memoirs-of-the-apostles-are-read
 positions:
 - "Reading was a public, gathered, spoken event, not a private one - in Rome, memoirs of the apostles and the writings of the prophets were read aloud at the weekly gathering 'as long as time permits,' then explained by whoever presided."
 - "This world's own 'scripture' was, above all, what later became the Old Testament, read the way Justin reads the prophets at length in his own First Apology - looking for how earlier words already pointed forward to Christ - alongside a widening body of apostolic writing not yet fixed into one settled list."

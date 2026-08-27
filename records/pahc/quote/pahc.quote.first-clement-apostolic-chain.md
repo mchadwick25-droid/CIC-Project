@@ -33,6 +33,9 @@ retrieval:
   - "participant asks how they knew their practice went back to the apostles"
   - "participant asks who appointed leaders and on whose authority"
   do_not_retrieve_when: []
+relations:
+- type: associated-with
+  target: pahc.quote.they-appointed-the-first-fruits
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 ii, ch. 42 (ii.ii.xlii). Direct textual ground for

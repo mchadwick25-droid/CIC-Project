@@ -28,6 +28,8 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: pahc.quote.two-ways-one-of-life-and-one-of-death
+- type: associated-with
   target: pahc.contested.rivals-undefeated
 positions:
 - "None of our own primary voices tells us directly whether they found the older scriptures' violence troubling - that is not a feeling any of them wrote down."
