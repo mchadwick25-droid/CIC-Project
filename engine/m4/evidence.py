@@ -36,6 +36,8 @@ beyond-the-seed expansion this module performs, and it is exactly the
 gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
+import math
+
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import all_text, content_words, overlap_coefficient
 from engine.m4.grounding_net import scope_completion
@@ -354,6 +356,60 @@ def _stems(words: set[str]) -> set[str]:
     return {_stem(w) for w in words}
 
 
+# THE CELL SCORER'S WEIGHTING. Stage A used to score a cell as
+# len(shared) / min(len(query), len(cell_vocabulary)) - an overlap
+# coefficient in which every shared word counts the same. Measured
+# 2026-08-27, that is what let a broad cell beat the right one:
+# "Does God ever feel like anything, or is it only believed?" went to F6-P
+# (the hard places) on `ever`, `god`, `like`, and nothing living in F1-P
+# could be reached afterwards, because only the top-scoring cells survive
+# to Stage B at all. A hint cannot fix that and neither can a canon
+# question: the cell is chosen before any record is scored.
+#
+# THE DEFECT IS A SHORT TAIL, NOT THE VOCABULARY. Of 298 distinct canon
+# words, 227 (76%) occur in exactly ONE cell and 284 (95%) in three or
+# fewer - those are near-perfect evidence and are left alone. Twelve words
+# occur in five cells or more: `people` in 17, `believe` in 9,
+# `someone`/`happened`/`among` in 8, `know`/`like` in 7, `community` in 6,
+# `jesus`/`church`/`anything`/`god` in 5. Counting those equally with a
+# word that names one cell outright is the whole of the bug.
+#
+# So the weighting is deliberately surgical rather than a textbook idf:
+# every word keeps weight 1.0 up to _COMMON_CELL_DF cells, and only past
+# that does it taper, as _COMMON_CELL_DF / df, floored at _COMMON_WORD_FLOOR
+# so a common word is discounted and never silenced. `people` lands at the
+# floor, `believe` at 0.44, `like` at 0.57, `god` at 0.8.
+#
+# CHOSEN BY MEASUREMENT, against a textbook alternative. Six weightings
+# were run over three instruments - leave-one-out across all 93 canon
+# questions, the locked sixty-question benchmark, and the probe that
+# motivated the change. Full idf (log(N/df) on every word) fixed the probe
+# but cost one ground record, one quote and one family-level match. This
+# taper fixes the same probe with NO measured cost on either instrument:
+# 466 ground / 67 cells / 0 empty / 79 quotes and leave-one-out family
+# accuracy 17/93, both identical to the flat scorer it replaces.
+#
+# A query word in NO cell vocabulary keeps weight 1.0. It can never be
+# shared, so it only enlarges the denominator - the behaviour that keeps
+# "Do you like pizza?" at no cell, and that a zero weight would quietly
+# delete.
+_COMMON_CELL_DF = 4       # a word in this many cells or fewer is still evidence
+_COMMON_WORD_FLOOR = 0.25  # a word in every cell still counts for something
+
+
+def _word_weights(query_words: set[str], cell_count: dict[str, int]) -> dict[str, float]:
+    """Per-word evidence weight for cell scoring - see the block above for
+    why the taper starts where it does and why it has a floor."""
+    weights = {}
+    for word in query_words:
+        spread = cell_count.get(word, 0)
+        weights[word] = (
+            1.0 if spread <= _COMMON_CELL_DF
+            else max(_COMMON_WORD_FLOOR, _COMMON_CELL_DF / spread)
+        )
+    return weights
+
+
 def match_asks_to_cells(
     *, message: str, asks: list[dict] | None, canon_questions: dict[str, dict], repository_records: dict[str, dict] | None = None, top_n: int = 2
 ) -> list[dict]:
@@ -393,16 +449,21 @@ def match_asks_to_cells(
 
     def _rank(cell_words: dict[str, set[str]], *, allow_single: bool = False) -> list[dict]:
         single_ok = allow_single and len(query_words) < _SHORT_QUERY_WORDS
+        cell_count = {w: sum(1 for ws in cell_words.values() if w in ws) for w in query_words}
         discriminating = (
-            {w for w in query_words if 0 < sum(1 for ws in cell_words.values() if w in ws) <= _SHORT_QUERY_MAX_CELLS}
+            {w for w in query_words if 0 < cell_count[w] <= _SHORT_QUERY_MAX_CELLS}
             if single_ok else set()
         )
+        weight = _word_weights(query_words, cell_count)
+        query_mass = sum(weight[w] for w in query_words)
         scored = []
         for cell, words in cell_words.items():
             shared = query_words & words
             if len(shared) < _MIN_ASK_MATCH_WORDS and not (single_ok and shared and shared <= discriminating):
                 continue
-            score = len(shared) / min(len(query_words), len(words))
+            shared_mass = sum(weight[w] for w in shared)
+            cell_mass = sum(weight.get(w, 1.0) for w in words)
+            score = shared_mass / min(query_mass, cell_mass) if min(query_mass, cell_mass) else 0.0
             scored.append({"cell": cell, "score": round(score, 3), "shared_words": sorted(shared)})
         scored.sort(key=lambda e: (-e["score"], e["cell"]))
         return scored

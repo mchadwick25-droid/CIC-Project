@@ -5,6 +5,7 @@ disk required.
 """
 from engine.m4.evidence import (
     _fallback_search_text,
+    _word_weights,
     _fulltext_fallback_candidates,
     apply_session_exclusion,
     assemble_evidence,
@@ -616,3 +617,42 @@ def test_one_word_query_may_match_a_hint_word_but_a_two_word_query_may_not():
     two = match_asks_to_cells(message="Discuss baptise please", asks=None,
                               canon_questions=CANON_QUESTIONS, repository_records=repo)
     assert not [m for m in two if m.get("matched_by") == "single-word-hint"]
+
+# --- cell-scorer weighting (the broad-cell defect, 2026-08-27) ---------------
+
+def test_a_word_in_many_cells_is_discounted_but_never_silenced():
+    """The taper's shape, pinned. A word in few cells is full evidence; one
+    spread across many is worth less but still counts, because silencing it
+    would delete the denominator protection that keeps an off-canon message
+    at no cell."""
+    w = _word_weights(
+        {"rare", "borderline", "common", "everywhere", "unknown"},
+        {"rare": 1, "borderline": 4, "common": 8, "everywhere": 28, "unknown": 0},
+    )
+    assert w["rare"] == 1.0
+    assert w["borderline"] == 1.0          # at the threshold, still full evidence
+    assert 0.25 < w["common"] < 1.0        # discounted
+    assert w["everywhere"] == 0.25         # floored, not zero
+    assert w["unknown"] == 1.0             # in no cell: cannot be shared, only widens the denominator
+
+
+def test_a_broad_cell_does_not_shut_out_a_specific_one_on_common_words():
+    """The measured defect this weighting exists for. BROAD shares three
+    words with the query but two of them sit in every cell; NARROW shares
+    two words that occur nowhere else. Under the old flat overlap
+    coefficient BROAD won on count alone and NARROW never reached Stage B,
+    because only the top-scoring cells survive. FILLER exists to give the
+    common words somewhere else to live, which is what makes them common."""
+    canon = {
+        "q.broad": {"record_type": "canon_question", "cell": "F6-P",
+                    "text": "people believe someone happened among community"},
+        "q.narrow": {"record_type": "canon_question", "cell": "F1-P",
+                     "text": "quintessence perambulation"},
+    }
+    for i, cell in enumerate(["C-I", "C-E", "C-P", "C-T", "F2-I", "F2-E", "F3-I", "F3-P"]):
+        canon[f"q.filler{i}"] = {"record_type": "canon_question", "cell": cell,
+                                 "text": "people believe someone happened among community"}
+    message = "people believe someone quintessence perambulation"
+    cells = [m["cell"] for m in match_asks_to_cells(
+        message=message, asks=[{"order": 1, "text": message}], canon_questions=canon)]
+    assert "F1-P" in cells, cells

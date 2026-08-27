@@ -135,10 +135,29 @@ places, but F6-P holds enough of them to win, and once it wins, nothing in
 a record that lives in F1-P can be reached.
 
 So there is a third remedy beyond the two above, and it is neither a hint
-nor a canon question: the cell scorer itself, which currently lets common
-words carry a cell. Recorded here rather than acted on — changing how
-routing scores is an engine change with fleet-wide blast radius, and it
-wants its own measurement, not a patch appended to a hint pass.
+nor a canon question: the cell scorer itself, which let common words carry
+a cell.
+
+FIXED 2026-08-27, in engine/m4/evidence.py, and the shape of the fix
+matters to anyone reading this before writing hints. The scorer no longer
+counts every shared word equally. A word keeps full weight up to four
+cells - which is 95% of the canon's vocabulary, left untouched - and past
+that it tapers as 4/df with a floor of 0.25, so `people` (17 cells) is
+worth a quarter of `heart` (one cell) rather than the same.
+
+Six weightings were measured over three instruments before one was chosen,
+and a textbook idf was among the losers: it fixed the probe but cost a
+ground record, a quote and a family-level match. The shipped taper fixes
+the same probe at NO measured cost on either instrument - 466 ground / 67
+cells / 0 empty / 79 quotes on the locked sixty, and leave-one-out family
+accuracy 17/93, both identical to the flat scorer it replaces.
+
+WHAT THIS MEANS FOR HINT WRITING: rule 7's warning about framing verbs is
+now partly enforced by the scorer rather than only by discipline. A hint
+built from `people`, `believe`, `know` and `like` contributes real
+vocabulary but weak evidence, while a hint whose words are specific to its
+subject is worth several times more per word than it used to be. Write the
+distinctive noun.
 
 ## The cost is real and shows up immediately
 
