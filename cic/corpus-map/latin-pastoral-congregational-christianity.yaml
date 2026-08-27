@@ -27,19 +27,6 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Seven Books of Arnobius Against the Heathen (Adversus Gentes)
-  author: arnobius
-  locus: div2 12.3
-  role: tradition
-  confidence: provisional
-  note: 'Arnobius of Sicca, North African rhetor converted c. 300, teacher of Lactantius.
-    The Latin pastoral entry (Carthage/Hippo, 240s-430) is his region and period, but the
-    work is combative apologetics by a recent convert, not congregational pastoralia - provisional.
-    Note for later use: books 3-7 are one of antiquity''s richest repositories of Roman pagan
-    cult detail, strong lived-ecology context value even though the author is Christian.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: A Treatise on Faith and the Creed
   author: augustine
   locus: div2 4.4 — A Treatise on Faith and the Creed
@@ -604,17 +591,6 @@ works:
 
     '
   source_file: npnf107_augustine-homilies-john-soliloquies.xml
-- work: The Instructions of Commodianus (Instructiones)
-  author: commodian
-  locus: div2 5.2 - The Instructions of Commodianus
-  role: tradition
-  confidence: needs-ruling
-  note: 'Latin Christian acrostic verse instruction, usually placed in 3rd-c. North Africa
-    but date and region are genuinely disputed (3rd-5th c. proposals). Shelved with the Latin
-    pastoral entry as best guess.
-
-    '
-  source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
 - work: The Code of Canons of the African Church (Council of Carthage, 419)
   author: council-of-carthage-419
   locus: div2 15.4 — The Canons of the CCXVII Blessed Fathers who assembled at Carthage
@@ -798,19 +774,6 @@ works:
     without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
     corpora detached from their attributed authors instead.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: The Octavius of Minucius Felix
-  author: felix
-  locus: div2 4.3 - The Octavius of Minucius Felix
-  role: tradition
-  confidence: needs-ruling
-  note: 'Earliest surviving Latin apologetic dialogue (Rome/North Africa, late 2nd-3rd c.).
-    No census entry fits early Latin apologetics; the Latin pastoral entry (Carthage, 240s-430)
-    is the nearest shelf but its range starts later. Note for later use: the first half, Caecilius''
-    speech, is one of the fullest surviving statements of the pagan case against Christians
-    - strong context value even though the work itself is Christian.
-
-    '
-  source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
 - work: The Divine Institutes
   author: lactantius
   locus: div2 3.2 — The Divine Institutes
@@ -818,9 +781,12 @@ works:
   confidence: needs-ruling
   note: 'Written c. 303-311 during the Great Persecution by a North-African-trained Latin
     rhetor teaching at Nicomedia, later tutor at Constantine''s court. Straddles Era-1 Latin
-    apologetics and Era-2 Constantinian Christianity; neither entry is a clean fit (he is
-    not Carthaginian-congregational, and most of the work predates 312). Needs Mark''s call
-    on where Lactantius lives.
+    apologetics and Era-2 Constantinian Christianity. STILL `needs-ruling` 2026-08-27, but
+    the question has changed shape: latin-apologists (I.43) now exists and is a third and
+    better candidate than either of the two rows below - Jerome makes Lactantius Arnobius''
+    pupil, and Arnobius is now in that entry. Mark held this one back when he ruled the five
+    regional gaps, so it is left as he left it rather than absorbed by a side effect.
+
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
@@ -863,25 +829,3 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
-- work: Commentary on the Apocalypse of the Blessed John
-  author: victorinus
-  locus: div2 6.2
-  role: tradition
-  confidence: needs-ruling
-  note: 'Same author and same shelving problem as On the Creation of the World. Millenarian
-    exegesis; the transmitted text was later revised by Jerome, which gives hieronymian-ascetic-literary
-    a secondary claim a reviewer may want to weigh.
-
-    '
-  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: On the Creation of the World
-  author: victorinus
-  locus: div2 6.1
-  role: tradition
-  confidence: needs-ruling
-  note: 'Victorinus of Pettau (Poetovio, Pannonia; martyred c. 304), the earliest Latin exegete.
-    No census entry covers Pannonian Latin Christianity; the Latin-pastoral entry is a language-only
-    best guess with the wrong region.
-
-    '
-  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml

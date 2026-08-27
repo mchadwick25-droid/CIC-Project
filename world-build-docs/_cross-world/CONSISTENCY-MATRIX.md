@@ -1,6 +1,6 @@
 # Per-world consistency matrix — six formation worlds
 
-Generated from the live tree at `fafd6dc15d4c` by `world-build-docs/_cross-world/gen_matrix.py`. Every cell is measured, not transcribed. Companion to `CiC_Cross_System_Consistency_Audit_2026-08-26.md`, which carries the reasoning and the findings.
+Generated from the live tree at `9128cf21be84` by `world-build-docs/_cross-world/gen_matrix.py`. Every cell is measured, not transcribed. Companion to `CiC_Cross_System_Consistency_Audit_2026-08-26.md`, which carries the reasoning and the findings.
 
 **Verdict column.** `OK` — every world agrees, and agreement is the contract. `DRIFT` — worlds disagree on something the pipeline treats as one shape; a bolded cell is the world that differs. `VARIES` — worlds differ on something with no fixed contract; the numbers are reported so a reader can tell substance apart from build effort, and nothing here is a defect on its own.
 

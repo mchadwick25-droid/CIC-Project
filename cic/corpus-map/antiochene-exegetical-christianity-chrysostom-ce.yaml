@@ -366,19 +366,6 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata
-    (with fragments of the disputation)
-  author: malchion
-  locus: div2 6.10
-  role: tradition
-  confidence: needs-ruling
-  note: 'The synodal letter deposing Paul of Samosata (Antioch, 269) - a collective document
-    drafted by Malchion, head of the Antiochene rhetorical school. The census''s only Antioch
-    entry is Chrysostom-centered (c. 350-430), eighty years later; neither Paul''s adoptionist
-    Monarchianism nor 3rd-c. Antioch has an entry. Needs a ruling.
-
-    '
-  source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),

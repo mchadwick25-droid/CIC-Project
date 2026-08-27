@@ -62,39 +62,49 @@ assignments:
       statement of the Roman see's self-understanding. Runs slightly past
       ijc's 451 boundary; kept whole as one body per the granularity rule.
 
-  - work: "The Book of Pastoral Rule"
+  - work: The Book of Pastoral Rule
     author: gregory
-    locus: "div2 3.4 — The Book of Pastoral Rule"
+    locus: div2 3.4 — The Book of Pastoral Rule
     atlas_ids:
-      - early-benedictine-italian-monasticism
+    - roman-church-gregorian
     role: tradition
-    confidence: needs-ruling
-    note: >
-      Gregory the Great (d. 604) sits at the very end of era 3, and the
-      census has no entry for the late-sixth-century Roman church itself; the
-      Benedictine/Italian entry (c. 500-604, Italy) is the nearest home and
-      its end date is Gregory's death, but the Pastoral Rule is an episcopal
-      manual, not a monastic one. Its enormous later reception (Carolingian
-      legislation, Alfred's translation) is noted, not asserted as
-      assignments. Mark to rule where Gregory himself lives in the census.
+    confidence: assigned
+    note: 'RULED 2026-08-27: roman-church-gregorian (II.18, c. 560-604) was minted, and the worker''s objection
+      is answered directly - the Pastoral Rule is an episcopal manual, not a monastic one, and now sits
+      with the episcopate rather than with the monastery. Its enormous later reception (Carolingian legislation,
+      Alfred''s translation) stays noted rather than asserted as assignments.
 
-  - work: "Register of the Epistles of St. Gregory the Great (Books I-VIII selection)"
+      '
+
+  - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
     author: gregory
-    locus: "div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213"
+    locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
     atlas_ids:
-      - early-benedictine-italian-monasticism
-      - merovingian-gallic-christianity
-      - anglo-saxon-christianity
-      - byzantine-imperial-church-justinianic
+    - roman-church-gregorian
     role: tradition
-    confidence: provisional
-    note: >
-      The administration of the Roman church 590-598: monastic discipline in
-      Italy and Sicily (the Benedictine/Italian entry), letters to Brunichild
-      and the Frankish court (Merovingian entry), Book VI's letters launching
-      the mission of Augustine of Canterbury (founding documents of the
-      Anglo-Saxon entry), and the correspondence with Maurice and John the
-      Faster over the title "ecumenical patriarch" (Justinianic Byzantine
-      entry). Provisional for the same reason as the Pastoral Rule: no era-3
-      Roman entry exists, so the Register is placed with the entries its
-      correspondence founds or documents.
+    confidence: assigned
+    note: 'RE-POINTED 2026-08-27. The old note ended ''no era-3 Roman entry exists, so the Register is placed
+      with the entries its correspondence founds or documents'' - roman-church-gregorian (II.18) now exists,
+      so the Register comes home. This row is the TRADITION row: fourteen years of a bishop administering
+      a city, which is this entry''s own voice and nobody else''s. The four entries the letters describe
+      keep their rows, as `context`, which is what they always were.
+
+      '
+  - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
+    author: gregory
+    locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
+    atlas_ids:
+    - early-benedictine-italian-monasticism
+    - merovingian-gallic-christianity
+    - anglo-saxon-christianity
+    - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on four entries
+      that are not Gregory''s. The letters are evidence ABOUT these worlds from outside them: monastic discipline
+      in Italy and Sicily, the letters to Brunichild and the Frankish court, Book VI and Book XI''s Responsa
+      launching and steering the mission to Kent, and the quarrel with Maurice and John the Faster over
+      the title ''ecumenical patriarch''. Leaving them as `tradition` would have made Gregory a voice of
+      four traditions he was writing to.
+
+      '

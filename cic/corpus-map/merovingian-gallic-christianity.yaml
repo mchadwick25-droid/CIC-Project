@@ -22,15 +22,15 @@ works:
 - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
-  role: tradition
-  confidence: provisional
-  note: 'The administration of the Roman church 590-598: monastic discipline in Italy and
-    Sicily (the Benedictine/Italian entry), letters to Brunichild and the Frankish court (Merovingian
-    entry), Book VI''s letters launching the mission of Augustine of Canterbury (founding
-    documents of the Anglo-Saxon entry), and the correspondence with Maurice and John the
-    Faster over the title "ecumenical patriarch" (Justinianic Byzantine entry). Provisional
-    for the same reason as the Pastoral Rule: no era-3 Roman entry exists, so the Register
-    is placed with the entries its correspondence founds or documents.
+  role: context
+  confidence: assigned
+  note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on
+    four entries that are not Gregory''s. The letters are evidence ABOUT these worlds from
+    outside them: monastic discipline in Italy and Sicily, the letters to Brunichild and the
+    Frankish court, Book VI and Book XI''s Responsa launching and steering the mission to
+    Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical patriarch''.
+    Leaving them as `tradition` would have made Gregory a voice of four traditions he was
+    writing to.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
@@ -38,15 +38,15 @@ works:
   author: gregory
   locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books
     I-VIII)
-  role: tradition
-  confidence: provisional
-  note: 'The same Register split across two volumes; this file holds Books IX-XIV (598-604),
-    including Book XI''s Responsa to Augustine of Canterbury and the letters to AEthelberht
-    and Bertha - foundational documents of the Anglo-Saxon entry - alongside continued Frankish,
-    Italian-monastic and Constantinopolitan correspondence. Same ids and same doubt as the
-    npnf212 half: no era-3 Roman entry exists for Gregory himself. Distinct work title keeps
-    the two volumes'' selections from colliding in the merge while the note records that they
-    are one Register.
+  role: context
+  confidence: assigned
+  note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on
+    four entries that are not Gregory''s. The letters are evidence ABOUT these worlds from
+    outside them: monastic discipline in Italy and Sicily, the letters to Brunichild and the
+    Frankish court, Book VI and Book XI''s Responsa launching and steering the mission to
+    Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical patriarch''.
+    Leaving them as `tradition` would have made Gregory a voice of four traditions he was
+    writing to.
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml

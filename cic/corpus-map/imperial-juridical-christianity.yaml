@@ -431,9 +431,12 @@ works:
   confidence: needs-ruling
   note: 'Written c. 303-311 during the Great Persecution by a North-African-trained Latin
     rhetor teaching at Nicomedia, later tutor at Constantine''s court. Straddles Era-1 Latin
-    apologetics and Era-2 Constantinian Christianity; neither entry is a clean fit (he is
-    not Carthaginian-congregational, and most of the work predates 312). Needs Mark''s call
-    on where Lactantius lives.
+    apologetics and Era-2 Constantinian Christianity. STILL `needs-ruling` 2026-08-27, but
+    the question has changed shape: latin-apologists (I.43) now exists and is a third and
+    better candidate than either of the two rows below - Jerome makes Lactantius Arnobius''
+    pupil, and Arnobius is now in that entry. Mark held this one back when he ruled the five
+    regional gaps, so it is left as he left it rather than absorbed by a side effect.
+
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml

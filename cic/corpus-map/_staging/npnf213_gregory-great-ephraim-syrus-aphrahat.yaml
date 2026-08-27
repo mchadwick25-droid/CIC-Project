@@ -6,26 +6,39 @@
 source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
 
 assignments:
-  - work: "Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)"
+  - work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
     author: gregory
-    locus: "div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books I-VIII)"
+    locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books I-VIII)
     atlas_ids:
-      - early-benedictine-italian-monasticism
-      - merovingian-gallic-christianity
-      - anglo-saxon-christianity
-      - byzantine-imperial-church-justinianic
+    - roman-church-gregorian
     role: tradition
-    confidence: provisional
-    note: >
-      The same Register split across two volumes; this file holds Books
-      IX-XIV (598-604), including Book XI's Responsa to Augustine of
-      Canterbury and the letters to AEthelberht and Bertha - foundational
-      documents of the Anglo-Saxon entry - alongside continued Frankish,
-      Italian-monastic and Constantinopolitan correspondence. Same ids and
-      same doubt as the npnf212 half: no era-3 Roman entry exists for
-      Gregory himself. Distinct work title keeps the two volumes' selections
-      from colliding in the merge while the note records that they are one
-      Register.
+    confidence: assigned
+    note: 'RE-POINTED 2026-08-27. The old note ended ''no era-3 Roman entry exists, so the Register is placed
+      with the entries its correspondence founds or documents'' - roman-church-gregorian (II.18) now exists,
+      so the Register comes home. This row is the TRADITION row: fourteen years of a bishop administering
+      a city, which is this entry''s own voice and nobody else''s. The four entries the letters describe
+      keep their rows, as `context`, which is what they always were.
+
+      '
+
+  - work: Register of the Epistles of St. Gregory the Great (Books IX-XIV selection)
+    author: gregory
+    locus: div2 2.5-2.10 — Books IX-XIV; continuation of the Register begun in npnf212 (Books I-VIII)
+    atlas_ids:
+    - early-benedictine-italian-monasticism
+    - merovingian-gallic-christianity
+    - anglo-saxon-christianity
+    - byzantine-imperial-church-justinianic
+    role: context
+    confidence: assigned
+    note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on four entries
+      that are not Gregory''s. The letters are evidence ABOUT these worlds from outside them: monastic discipline
+      in Italy and Sicily, the letters to Brunichild and the Frankish court, Book VI and Book XI''s Responsa
+      launching and steering the mission to Kent, and the quarrel with Maurice and John the Faster over
+      the title ''ecumenical patriarch''. Leaving them as `tradition` would have made Gregory a voice of
+      four traditions he was writing to.
+
+      '
 
   - work: "The Nisibene Hymns"
     author: ephraim

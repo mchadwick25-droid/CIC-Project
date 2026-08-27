@@ -234,14 +234,15 @@ assignments:
   author: rufinus
   locus: div2 5.13
   atlas_ids:
-  - hieronymian-ascetic-literary
+  - aquileian-christianity
   role: tradition
-  confidence: needs-ruling
-  note: 'Rufinus'' catechetical exposition of the baptismal creed of Aquileia (c. 404) - a
-    doctrinal classic with no obvious census home: there is no entry for North Italian / Aquileian
-    Christianity. Parked with hal only because Rufinus belongs to that circle; the content
-    has nothing to do with the Jerome quarrel, so Mark should rule where a work like this
-    lives.
+  confidence: assigned
+  note: 'Rufinus'' catechetical exposition of the baptismal creed of Aquileia (c. 404). RULED 2026-08-27:
+    aquileian-christianity (I.41) was minted for it. The worker''s objection was exact - the content has
+    nothing to do with the Jerome quarrel, and hieronymian-ascetic-literary is a controversy while this
+    is a catechesis. It is also the earliest evidence that the Western churches did not all say the same
+    words at the font: Rufinus expounds his own church''s creed and notes where Rome''s differs.
+
 
     '
 - work: Rufinus' Translation Prefaces and Perorations (Recognitions of Clement; Origen on

@@ -291,18 +291,22 @@ assignments:
     he carried.
 
     '
-- work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata
-    (with fragments of the disputation)
+- work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata (with fragments
+    of the disputation)
   author: malchion
   locus: div2 6.10
   atlas_ids:
-  - antiochene-exegetical-christianity-chrysostom-ce
+  - antiochene-church-third-century
   role: tradition
-  confidence: needs-ruling
-  note: 'The synodal letter deposing Paul of Samosata (Antioch, 269) - a collective document
-    drafted by Malchion, head of the Antiochene rhetorical school. The census''s only Antioch
-    entry is Chrysostom-centered (c. 350-430), eighty years later; neither Paul''s adoptionist
-    Monarchianism nor 3rd-c. Antioch has an entry. Needs a ruling.
+  confidence: assigned
+  note: 'The synodal letter deposing Paul of Samosata (Antioch, 268/9) - a collective document drafted
+    by Malchion, head of the Antiochene rhetorical school, who had cross-examined Paul before stenographers.
+    RULED 2026-08-27: antiochene-church-third-century (I.42, c. 190-312) was minted for this gap. The
+    census''s only Antioch entry is Chrysostom-centred and opens eighty years later. THIS IS THE WHOLE
+    OF ITS ENTRY''S CORPUS - one work, three thousand words, the thinnest bucket the map holds. Paul''s
+    own teaching remains an unregistered floor question; the entry''s floorNote says so rather than deciding
+    it here.
+
 
     '
 - work: The Acts of the Disputation with the Heresiarch Manes (with the fragment of the same
@@ -519,13 +523,16 @@ assignments:
   author: arnobius
   locus: div2 12.3
   atlas_ids:
-  - latin-pastoral-congregational-christianity
+  - latin-apologists
   role: tradition
-  confidence: provisional
-  note: 'Arnobius of Sicca, North African rhetor converted c. 300, teacher of Lactantius.
-    The Latin pastoral entry (Carthage/Hippo, 240s-430) is his region and period, but the
-    work is combative apologetics by a recent convert, not congregational pastoralia - provisional.
-    Note for later use: books 3-7 are one of antiquity''s richest repositories of Roman pagan
-    cult detail, strong lived-ecology context value even though the author is Christian.
+  confidence: assigned
+  note: 'Arnobius of Sicca, North African rhetor converted c. 300, teacher of Lactantius. MOVED 2026-08-27
+    from latin-pastoral-congregational-christianity, where the worker had parked it as provisional with
+    the objection already stated in its own note: combative apologetics by a recent convert, not congregational
+    pastoralia. It was not flagged, only provisional, which is why the gap looked like two works instead
+    of three - a hundred and forty thousand words of it. Note kept: books 3-7 are one of antiquity''s
+    richest repositories of Roman pagan cult detail, strong lived-ecology context value even though the
+    author is Christian.
+
 
     '

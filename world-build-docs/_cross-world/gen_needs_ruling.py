@@ -54,28 +54,31 @@ def _article(n: int) -> str:
     to follow a derived number."""
     return "an " if str(n)[0] in "8" or str(n) == "11" or str(n).startswith("11") else "a "
 
-ENTRIES_ADDED = 13   # census entries added while clearing them
+ENTRIES_ADDED = 18   # census entries added while clearing them
 
 SWEEPS = {
     "post-apostolic-house-church":
         "**Answered.** `pahc` was the corpus's overflow shelf - the earliest entry there is, so "
-        "everything early landed on it - and the pile has gone from 22 flagged works to 3. Three "
+        "everything early landed on it - and the pile has gone from 22 flagged works to 1. Four "
         "entries took it apart: `roman-church-third-century` (Hippolytus and Caius, who fell off "
-        "the end of pahc's 200 CE window), `greek-apologists-second-century`, and "
-        "`apocryphal-and-pseudepigraphal-literature`. What is left are three unrelated singles.",
+        "the end of pahc's 200 CE window), `greek-apologists-second-century`, "
+        "`apocryphal-and-pseudepigraphal-literature`, and `palestinian-church-pre-constantinian`. "
+        "What is left is the one work whose problem was never the shelf: the *Passion of St. "
+        "Symphorosa*, a Roman martyr act travelling under Julius Africanus' name on thin grounds. "
+        "No new entry touches that, because the doubt is about the attribution.",
 
     "latin-pastoral-congregational-christianity":
-        "**No entry for early Latin Christianity outside Carthage — and the last regional gap I "
-        "declined to fill.** Every entry added in this series answered a *pile*: eight works for "
-        "Gaul, seven for Anatolia, four across three entries for Palestine. This is two authors "
-        "and two unrelated problems, which is below that bar, so it is left for a ruling rather "
-        "than settled by a build thread. The entry runs from the 240s and is regionally North "
-        "African, so four works are shelved here on language alone "
-        "with the wrong region or the wrong century: Minucius Felix's *Octavius* (the earliest "
-        "Latin apologetic dialogue), Commodian's verse (date disputed across three centuries), "
-        "and both works of Victorinus of Pettau, the earliest Latin exegete, who was Pannonian. "
-        "Worth knowing while you rule: the *Octavius*'s first half, Caecilius' speech, is one of "
-        "the fullest surviving statements of the pagan case against Christianity anywhere.",
+        "**Where does Lactantius live? — the one gap the five new entries did not close.** Four "
+        "of the five works that made this a pile on 2026-08-26 have gone: Minucius Felix's "
+        "*Octavius* and Commodian's verse to `latin-apologists`, both works of Victorinus of "
+        "Pettau to `danubian-latin-christianity`. What is left is the work that was never a "
+        "regional question. The *Divine Institutes* was written c. 303-311 during the Great "
+        "Persecution by a North-African-trained rhetor teaching at Nicomedia who afterwards "
+        "tutored Constantine's son, and it is flagged on **two** entries because it genuinely "
+        "faces both ways. `latin-apologists` is now a third and probably better candidate — "
+        "Jerome makes Lactantius the pupil of Arnobius, who is in that entry — but Mark held this "
+        "one back when he ruled the five regional gaps, so it is left as he left it rather than "
+        "absorbed as a side effect of them.",
 }
 
 
@@ -115,17 +118,19 @@ def main() -> None:
         "Every one of these was placed with a best guess and flagged, never forced and never "
         "dropped. The brief's instruction was that a flagged uncertainty is worth more than a "
         "confident wrong assignment, and ten workers took it seriously.\n",
-        "**Read the group headings, not the list.** These are not 87 decisions. Ten workers who "
-        "could not see each other kept hitting the same small set of walls, and the dominant one "
-        "is not doubt about texts at all — it is *this work is real, and the census has no entry "
-        "for its region and period.* One answer clears five or seven works at a time.\n",
+        f"**Read the group headings, not the list.** The run ended with {AT_RUN_END} flagged "
+        "works, and they were never that many decisions. Ten workers who could not see each "
+        "other kept hitting the same small set of walls, and the dominant one was not doubt "
+        "about texts at all — it was *this work is real, and the census has no entry for its "
+        "region and period.* One answer cleared five or seven works at a time, which is why "
+        f"{AT_RUN_END} became {len(works)}.\n",
         "Nothing here blocks anything. The map is valid and usable as it stands; a `needs-ruling` "
         "work is assigned, just not on the run's own authority.\n",
     ]
 
     out.append("\n## Answered since the run\n")
     out.append(
-        f"**{ENTRIES_ADDED} entries added, 2026-08-26.** Fleet-wide flagged works have fallen "
+        f"**{ENTRIES_ADDED} entries added, 2026-08-26 and 08-27.** Fleet-wide flagged works have fallen "
         f"from **{AT_RUN_END} to {len(works)}** — "
         f"{_article(_pct(len(works)))}{_pct(len(works))}% reduction, and none of it by "
         "deciding anything a worker had refused to decide. Every entry answers the same complaint, raised independently by workers who "
@@ -230,6 +235,40 @@ def main() -> None:
         "the *Excerpts of Theodotus* and Bardaisan's *Book of the Laws of Divers Countries*. "
         "Every other one is a refutation. The map says structurally what the corpus is: these "
         "movements reach us almost entirely through the people who argued with them.\n")
+    out.append(
+        "\n**Five thin entries, 2026-08-27, and the bar was deliberately lowered to add them.** "
+        "Every entry above answered a *pile* — eight works for Gaul, seven for Anatolia, fifteen "
+        "for the Greek apologists — and five regional gaps were declined on exactly that ground, "
+        "with the declines written down. Mark overrode the bar: *an accurate thin entry beats an "
+        "inaccurate thick one.* Each of the five says on its own face that it is thin and why.\n\n"
+        "- **`latin-apologists`** (I.43, era 1, c. 200–320). The least thin of the five, and it "
+        "looked thin only because most of its material was **provisional rather than flagged**: "
+        "two works were flagged, and Arnobius' hundred and forty thousand words were sitting "
+        "quietly on the Carthaginian congregational entry with the wrong genre and the wrong "
+        "province. Took Minucius Felix's *Octavius*, Commodian, and Arnobius. The precedent is "
+        "`greek-apologists-second-century`, registered on identical reasoning; the same argument "
+        "in Latin had simply never been made.\n"
+        "- **`roman-church-gregorian`** (II.18, era 3, c. 560–604). Thin in entry count and "
+        "nothing else: **a quarter of a million words of one man.** The *Pastoral Rule* was "
+        "flagged, and the *Register* of Gregory's letters had been split across four entries "
+        "the letters DESCRIBE rather than belong to. Those four rows are now `context` and this "
+        "entry holds the `tradition` row — leaving them as they were would have made Gregory a "
+        "voice of four traditions he was writing to.\n"
+        "- **`danubian-latin-christianity`** (I.40, era 1, c. 250–400). Victorinus of Pettau, the "
+        "earliest Latin biblical commentator, who was Pannonian and had been shelved in Africa on "
+        "the strength of his language. Two works. The *Commentary on the Apocalypse* also gained "
+        "a `transmission` row on `hieronymian-ascetic-literary`, because the text anyone can read "
+        "is Jerome's revision with the millenarian ending rewritten — custody, not authorship.\n"
+        "- **`aquileian-christianity`** (I.41, era 2, c. 340–410). One work, and the worker's "
+        "objection to its old shelf was exact: `hieronymian-ascetic-literary` is a controversy and "
+        "Rufinus' creed commentary is a catechesis. It is also the earliest evidence that the "
+        "Western churches did not all say the same words at the font.\n"
+        "- **`antiochene-church-third-century`** (I.42, era 1, c. 190–312). **The thinnest bucket "
+        "the map holds — one work, three thousand words**: the synodal letter deposing Paul of "
+        "Samosata. The census's only Antioch entry is Chrysostom-centred and opens eighty years "
+        "later. The hole is large where the evidence is small: this is the see that produced "
+        "Lucian, whose pupils became the Arian party. Paul's own teaching stays an unregistered "
+        "floor question, and the entry's `floorNote` says so rather than deciding it.\n")
     out.append("\n## The sweeps — in order of how much each clears\n")
     out.append("| ruling | clears | the question |")
     out.append("|---|---:|---|")

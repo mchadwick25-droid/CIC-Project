@@ -7,7 +7,7 @@ All 274 entries are valid targets. That includes the 215 marked *Pre-Survey Cand
 The six *Built & Live* entries are the six worlds that exist today. There is one taxonomy here, not two.
 
 
-## Era 1 (I) — The Early Church Era, 70-312 CE  ·  18 entries
+## Era 1 (I) — The Early Church Era, 70-312 CE  ·  21 entries
 
 *Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council*
 
@@ -23,16 +23,19 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `montanism-the-new-prophecy` | Montanism (the New Prophecy) | c. 165-400s | Phrygia, spreading | Contested - Evidentiary |
 | `bardaisanite-current` | Bardaisan and the Bardaisanites | c. 180-400 | Edessa and Osrhoene | Floor Question (register) ⛔ |
 | `palestinian-church-pre-constantinian` | The Church of Roman Palestine before Constantine | c. 185-312 | Caesarea Maritima, Jerusalem, Emmaus | Possible Future World (on record) |
+| `antiochene-church-third-century` | The Church of Antioch in the Third Century | c. 190-312 | Antioch on the Orontes, and its Syrian hinterland | Possible Future World (on record) |
 | `modalist-monarchianism` | Modalist Monarchianism | c. 190-270 | Smyrna, Rome, Libya | Floor Question (register) ⛔ |
 | `tertullian-s-voice` | Tertullian's Voice | c. 197-220 | Carthage | Possible Future World (on record) |
+| `latin-apologists` | The Latin Apologists | c. 200-320 | Rome and Ostia; Sicca and Cirta in Numidia | Possible Future World (on record) |
 | `roman-church-third-century` | The Roman Church in the Third Century | c. 200-268 | Rome | Possible Future World (on record) |
 | `syriac-edessa-nisibis` | Syriac Christianity (Edessa/Nisibis) | 200–410 CE | Edessa & Nisibis | Built & Live |
 | `manichaeism` | Manichaeism | 3rd-7th c. | Persia to the Mediterranean | Excluded - Doctrinal Floor (C1) ⛔ |
 | `anatolian-church-third-century` | The Anatolian Church in the Third Century | c. 240-312 | Neocaesarea in Pontus, Olympus in Lycia | Possible Future World (on record) |
 | `latin-pastoral-congregational-christianity` | Latin Pastoral-Congregational Christianity | c. 240s-430 | Carthage, Hippo Regius | Selected - Not Yet Built |
+| `danubian-latin-christianity` | Latin Christianity in the Danubian Provinces | c. 250-400 | Poetovio and Sirmium in Pannonia; Noricum, Dalmatia, | Possible Future World (on record) |
 | `novatianism` | Novatianism | c. 251-400s | Rome, spreading | Contested - Evidentiary |
 
-## Era 2 (II) — The Imperial Church Era, 312-451 CE  ·  21 entries
+## Era 2 (II) — The Imperial Church Era, 312-451 CE  ·  22 entries
 
 *Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council*
 
@@ -46,6 +49,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `jerusalem-liturgical-pilgrimage-christianity` | Jerusalem Liturgical-Pilgrimage Christianity | c. 325-450 | Jerusalem | Possible Future World (on record) |
 | `aksumite-christianity-conversion-era` | Aksumite Christianity (conversion era) | c. 330-451 | Aksum (Ethiopia/Eritrea) | Deferred by Step 0 |
 | `palestinian-ascetic-monasticism-early` | Early Palestinian Ascetic Monasticism | c. 330-450 | Gaza, the Judean desert, Sinai road | Possible Future World (on record) |
+| `aquileian-christianity` | The Church of Aquileia | c. 340-410 | Aquileia and Concordia, at the head of the Adriatic | Possible Future World (on record) |
 | `homoian-arian-christianity` | Homoian ('Arian') Christianity | 4th-6th c. | Empire-wide; then Gothic & Vandal kingdoms | Excluded - Doctrinal Floor (C1) ⛔ |
 | `anomoean-eunomian-christianity` | Anomoean (Eunomian) Christianity | c. 350-c. 430 | Antioch, Cyzicus, Constantinople, Cappadocia | Floor Question (register) ⛔ |
 | `antiochene-exegetical-christianity-chrysostom-ce` | Antiochene Exegetical Christianity (Chrysostom-centered) | c. 350-430 | Antioch | Possible Future World (on record) |
@@ -60,7 +64,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `pelagianism` | Pelagianism | c. 390-430 | Rome, Mediterranean | Possible Future World (on record) |
 | `cyrilline-miaphysite-egyptian-tradition` | Cyrilline / Miaphysite Egyptian Tradition | from 451 | Egypt | Deferred by Step 0 |
 
-## Era 3 (III) — The Age of Monks and Empires, 451-622  ·  17 entries
+## Era 3 (III) — The Age of Monks and Empires, 451-622  ·  18 entries
 
 *Step 0 run complete — era FROZEN by Mark 2026-08-02*
 
@@ -83,6 +87,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `latin-africa-under-byzantium` | Latin African Christianity under Byzantium | 533-c. 698 | Carthage and Byzantine North Africa | Pre-Survey Candidate |
 | `nubian-christianity` | Nubian Christianity | 543-652 | Nile Sudan (Makuria, Nobadia) | Pre-Survey Candidate |
 | `nicene-visigothic-iberia` | Nicene Visigothic Iberia | c. 560-711 | Iberia (Toledo, Seville) | Pre-Survey Candidate |
+| `roman-church-gregorian` | The Roman Church in the Age of Gregory the Great | c. 560-604 | Rome, its Sicilian and Italian estates, and the miss | Possible Future World (on record) |
 
 ## Era 4 (IV) — The Early Medieval Era, 622-1054  ·  22 entries
 

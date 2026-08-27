@@ -4,12 +4,12 @@
   "version": "V0.20+era10-frozen",
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
-  "totalEntries": 287,
+  "totalEntries": 292,
   "liveCount": 6,
   "statusCounts": {
    "Built & Live": 6,
    "Selected - Not Yet Built": 3,
-   "Possible Future World (on record)": 14,
+   "Possible Future World (on record)": 19,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
    "Deferred by Step 0": 4,
@@ -646,6 +646,111 @@
    "type": "formed",
    "confidence": "Documented",
    "note": "Eusebius wrote the Church History and the Life of Constantine out of this library, and lived through the persecution he recorded in Martyrs of Palestine."
+  },
+  {
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "danubian-latin-christianity",
+   "type": "contemporary with",
+   "confidence": "Documented",
+   "note": "Latin-speaking and roughly coeval, and nothing more than that - which is why shelving Victorinus in Africa was wrong."
+  },
+  {
+   "from": "danubian-latin-christianity",
+   "to": "hieronymian-ascetic-literary",
+   "type": "transmitted to",
+   "confidence": "Documented",
+   "note": "Jerome reissued Victorinus' Commentary on the Apocalypse with the millenarian ending rewritten; the text survives in his revision."
+  },
+  {
+   "from": "danubian-latin-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "formed",
+   "confidence": "Widely Accepted",
+   "note": "The same provinces, fifty years on: Valens of Mursa and Ursacius of Singidunum made Illyricum the base of the Homoian episcopate."
+  },
+  {
+   "from": "aquileian-christianity",
+   "to": "hieronymian-ascetic-literary",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "Jerome and Rufinus were both formed in the ascetic circle here in the 370s; the quarrel that defines I.9 is between two men who met at Aquileia."
+  },
+  {
+   "from": "alexandria-catechetical",
+   "to": "aquileian-christianity",
+   "type": "transmitted to",
+   "confidence": "Documented",
+   "note": "Rufinus translated Origen into Latin, and for several works his version is the only text that survives."
+  },
+  {
+   "from": "ambrosian-milan-standalone",
+   "to": "aquileian-christianity",
+   "type": "contemporary with",
+   "confidence": "Documented",
+   "note": "Ambrose came up from Milan to preside over the Council of Aquileia in 381."
+  },
+  {
+   "from": "antiochene-church-third-century",
+   "to": "antiochene-exegetical-christianity-chrysostom-ce",
+   "type": "formed",
+   "confidence": "Widely Accepted",
+   "note": "The exegetical tradition Diodore, Theodore and Chrysostom carry is usually traced to Lucian's work on the biblical text in this city."
+  },
+  {
+   "from": "antiochene-church-third-century",
+   "to": "homoian-arian-christianity",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "Arius and his early backers were Lucian's pupils and used the name; the Arian party's leadership came out of this school."
+  },
+  {
+   "from": "antiochene-church-third-century",
+   "to": "modalist-monarchianism",
+   "type": "contemporary with",
+   "confidence": "Documented",
+   "note": "Paul's adoptionism and Sabellius' modalism are opposite refusals of the same developing account of the Son, argued in the same decades."
+  },
+  {
+   "from": "greek-apologists-second-century",
+   "to": "latin-apologists",
+   "type": "formed",
+   "confidence": "Widely Accepted",
+   "note": "The same enterprise carried into Latin: the charges answered are the same charges, and the strategy of claiming the philosophers is inherited."
+  },
+  {
+   "from": "tertullian-s-voice",
+   "to": "latin-apologists",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "Tertullian's Apology of 197 opens the Latin case; the priority question between it and Minucius Felix's Octavius is still unsettled."
+  },
+  {
+   "from": "latin-apologists",
+   "to": "imperial-juridical-christianity",
+   "type": "transmitted to",
+   "confidence": "Contested",
+   "note": "Lactantius carried the Latin apologetic argument into Constantine's household, which is why his own placement is held under a separate ruling."
+  },
+  {
+   "from": "early-benedictine-italian-monasticism",
+   "to": "roman-church-gregorian",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "Gregory was a monk of his own foundation on the Caelian before he was bishop, and wrote the only life of Benedict there is."
+  },
+  {
+   "from": "roman-church-gregorian",
+   "to": "anglo-saxon-christianity",
+   "type": "formed",
+   "confidence": "Documented",
+   "note": "Gregory sent Augustine and forty monks to Kent in 596 and directed the mission by letter for the rest of his life."
+  },
+  {
+   "from": "roman-church-gregorian",
+   "to": "byzantine-imperial-church-justinianic",
+   "type": "in tension with",
+   "confidence": "Documented",
+   "note": "Gregory refused the patriarch of Constantinople's title of universal bishop and answered it by calling himself servant of the servants of God."
   }
  ],
  "movements": [
@@ -754,6 +859,49 @@
     "The writer to Diognetus - anonymous, undated, and the most quoted of all of them"
    ],
    "legacy": "Justin's argument that the Word was sowing seeds of truth in the philosophers before the incarnation gave the church a way of relating to inherited learning that it has never entirely put down, and that Clement and Origen at Alexandria took much further. The apologists also settled some of the vocabulary: Theophilus is the first surviving writer to use the word Trinity of God. And the Epistle to Diognetus' description of Christians as resident aliens - at home everywhere and strangers everywhere - has outlived every other line the movement produced."
+  },
+  {
+   "id": "latin-apologists",
+   "atlasId": "I.43",
+   "era": 1,
+   "name": "The Latin Apologists",
+   "shortName": "Latin Apologists",
+   "informalName": "The Case Made in Latin",
+   "dates": "c. 200-320",
+   "start": 200,
+   "end": 320,
+   "region": "Rome and Ostia; Sicca and Cirta in Numidia",
+   "regions": [
+    "Mediterranean",
+    "Africa"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Substantial, and larger than the flag count suggested. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (fifteen thousand) and Arnobius' seven books Against the Heathen (a hundred and forty thousand) are all vendored whole. Lactantius' Divine Institutes and its companion treatises - another three hundred thousand words - stand at this entry's edge and are held under a separate ruling. Two of these authors are barely datable: Minucius Felix within a century, Commodian within three.",
+   "floorNote": "Not in question",
+   "relationsSummary": "The Latin counterpart to greek-apologists-second-century, a generation later and never as coherent a body. It touches tertullian-s-voice, which begins the enterprise and is kept separate because a voice that distinct is its own entry, and latin-pastoral-congregational-christianity, which is where three of these works had been parked for want of anywhere better.",
+   "why": "Not a Step 0 verdict. Added on record in 2026 at Mark's direction, and the least thin of the five gaps he ruled on - it looked thin only because most of its material had been parked as PROVISIONAL rather than flagged. Two works were flagged with the note that no census entry fits early Latin apologetics; a third, Arnobius' hundred and forty thousand words, was sitting quietly on the Carthaginian congregational entry with the wrong genre and the wrong province, and has been moved here. THE PRECEDENT IS I.35: the Greek apologists were registered in 2026 on exactly this reasoning, and the same argument in Latin had simply never been made. The honest objection is the same one too - that apologetic is a genre and not a community - and it is stronger here than for the Greek entry, because these men are not one another's contemporaries and only one teacher-pupil link between them is even claimed. It is registered because the material is real, large, and had nowhere accurate to sit.",
+   "entry": null,
+   "longDescription": "Around the turn of the third century a Roman advocate named Minucius Felix wrote a dialogue set on the beach at Ostia. A pagan friend states the case against Christianity - it is a religion of the ignorant, its god was a criminal, its rites are obscene, and in any case Rome's greatness is proof enough that Rome's gods work - and a Christian answers him, and the pagan is convinced. What makes the Octavius unusual is that its author gives the other side the better speech: Caecilius' half is the fullest surviving statement of the educated pagan objection to Christianity, and it was written by a Christian who wanted to answer it properly. A century later and in a different register, an African rhetorician at Sicca called Arnobius wrote seven furious books Against the Heathen - to persuade his own bishop that his conversion was genuine, if Jerome is to be believed - and produced along the way the most detailed account of Roman religious practice that any Christian left, because he had to describe what he was attacking. Between them, and impossible to date within three centuries, sits Commodian: eighty short poems in acrostic verse that does not scan by the old rules, the initial letters spelling out their own titles, aimed at ordinary people, half catechism and half warning, ending with the end of the world. What these men share is not a place or a generation. It is that each had to make the argument in Latin, in a vocabulary that had not been built to carry it.",
+   "teaser": "A Roman lawyer wrote the best surviving statement of the pagan case against Christianity - and he wrote it in order to refute it.",
+   "voices": [
+    "Minucius Felix - a Roman advocate whose dialogue gives the pagan side the better speech, and whose own date nobody can fix within a century",
+    "Arnobius of Sicca - a teacher of rhetoric who wrote seven books against the gods, by one account to convince his bishop that he meant it",
+    "Commodianus - who wrote catechism in acrostic verse that does not scan, and whom scholars have placed anywhere between the third century and the fifth",
+    "Lactantius - Arnobius' pupil on Jerome's account, who wrote the fullest of the Latin defences while the persecution was still running, and whose place is held under a separate ruling",
+    "Tertullian - whose Apology of 197 begins the whole enterprise, and who has an entry of his own rather than a place in this one"
+   ],
+   "legacy": "The Latin vocabulary of Christian argument was largely made here, and in Tertullian's hands at the same time: these are the writers who had to decide which Latin words would carry Greek theological and philosophical freight, and a good deal of what they chose stuck. Minucius Felix gave the West its model for the apologetic dialogue and preserved, inadvertently, the most complete record of what educated Romans actually said against the church. Arnobius is now read mostly by historians of Roman religion, who need him precisely because he described in detail the thing he was trying to demolish."
   },
   {
    "id": "apocryphal-and-pseudepigraphal-literature",
@@ -1292,6 +1440,49 @@
    "legacy": "The Cappadocian tradition claims descent from this ground explicitly, and Basil cites Gregory's practice as precedent when he wants to argue that something is old. Gregory's Canonical Epistle entered the received canon-law collections of the East and is still there. And Methodius' Banquet is the foundation of the Christian literature of virginity - everything Ambrose, Jerome and Gregory of Nyssa later wrote on the subject is downstream of it, and its argument that chastity is a form of freedom rather than a deprivation began there."
   },
   {
+   "id": "antiochene-church-third-century",
+   "atlasId": "I.42",
+   "era": 1,
+   "name": "The Church of Antioch in the Third Century",
+   "shortName": "Pre-Nicene Antioch",
+   "informalName": "The Synod That Deposed Its Bishop",
+   "dates": "c. 190-312",
+   "start": 190,
+   "end": 312,
+   "region": "Antioch on the Orontes, and its Syrian hinterland",
+   "regions": [
+    "Middle East",
+    "Mediterranean"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "The thinnest entry in the census, and by a wide margin: one document. Malchion's synodal letter deposing Paul of Samosata - about three thousand words - is vendored, and it is the collective act of a council rather than an author's book. Serapion's fragments fall just before the window and are shelved with post-apostolic-house-church. Everything else about these hundred years arrives through Eusebius, quoting archives at second hand, and through what the fourth century said about Lucian once his pupils had become notorious.",
+   "floorNote": "Not in question for the church of the city. Paul of Samosata's own teaching is a floor question and is NOT settled here; if a survey wants it assessed, it should be registered on its own, as the other monarchian currents are.",
+   "relationsSummary": "The ground I.13 stands on, eighty years before it starts, and the seedbed of the controversy that I.23 and I.28 assess. Its relation to modalist-monarchianism is symmetry rather than descent: Paul's adoptionism and Sabellius' modalism are the two opposite ways of declining the account of the Son that the century was working out.",
+   "why": "Not a Step 0 verdict, and the smallest thing this map holds - one work. Added on record in 2026 at Mark's direction. The corpus assignment run flagged the Antioch synodal letter with a note observing that the census's only Antioch entry is Chrysostom-centred and opens eighty years later, and that neither Paul of Samosata's teaching nor the third-century Antiochene church has anywhere to sit. THE HOLE IS LARGE EVEN WHERE THE EVIDENCE IS SMALL: this is the see that produced Lucian, whose pupils became the Arian party, and the council whose treatment of the word homoousios is a large part of why that word was suspect at Nicaea sixty years later. The honest objection is that one document cannot carry an entry, and that a survey may reasonably fold this into I.13 or into the pre-Nicene ground of the Syriac entries. It is registered because the gap is real and was being filled by an entry from the wrong century.",
+   "entry": null,
+   "longDescription": "In 268 or thereabouts the bishops of Syria and Asia Minor met at Antioch for the third time in a few years to deal with their own metropolitan. Paul of Samosata was bishop of the greatest city in the Roman East and, on the account of the council that removed him, a salaried official of the Palmyrene administration that then governed it. The charges mix doctrine with deportment: that he had a raised throne built for himself in church, that he stopped the old hymns and had new ones sung to himself, that women in his household gave scandal. The teaching at issue was that Christ was a man in whom the Word had come to dwell rather than the Word made flesh - the reading later called adoptionist. The council could not make the deposition stick, because the civil power was Palmyrene and Paul had its favour; he went only when Aurelian retook the city in 272 and settled the question of who owned the church building by asking which claimant was in communion with the bishops of Italy and Rome, which is the first time a Roman emperor adjudicated a Christian dispute. The letter announcing the deposition was drafted by Malchion, who ran a rhetorical school in the city and had cross-examined Paul in front of shorthand writers. A generation later, in the same city, a presbyter named Lucian worked over the text of the Greek Bible and taught a circle of students - Arius among them - who afterwards used his name as a badge.",
+   "teaser": "A council removed the bishop of the greatest city in the East for what he taught and how he behaved, and could not make it stick until an emperor decided who owned the building.",
+   "voices": [
+    "Paul of Samosata - bishop of Antioch and Palmyrene official, deposed for teaching that Christ was a man indwelt by the Word, surviving only in his enemies' minutes",
+    "Malchion - head of the city's rhetorical school, who cross-examined Paul before stenographers and drafted the letter that deposed him",
+    "Lucian of Antioch - biblical text-critic and martyr in 312, whose pupils, Arius among them, called themselves Lucianists",
+    "Serapion - bishop about 191 to 211, who let the Gospel of Peter be read at Rhossus, read it properly, and withdrew the permission",
+    "Aurelian - who took the city back from Palmyra in 272 and settled the dispute by asking which claimant Italy recognised"
+   ],
+   "legacy": "Two things went out of this council into the fourth century. The word homoousios - one substance - seems to have been rejected here as something Paul had misused, which is a large part of why its adoption at Nicaea in 325 was so contentious, and why Eastern bishops who were not Arians could still be uneasy about it. And Lucian's school gave the Arian party its leadership and its self-description: Arius wrote to Eusebius of Nicomedia as one Lucianist to another. The Antiochene exegetical tradition that Diodore, Theodore and Chrysostom carry is usually traced back to Lucian's work on the text as well - which makes this century the origin of two things the next four centuries spent arguing about."
+  },
+  {
    "id": "palestinian-church-pre-constantinian",
    "atlasId": "I.39",
    "era": 1,
@@ -1376,6 +1567,48 @@
     "Dionysius of Rome - bishop 259-268, whose letter against Sabellian and tritheist readings, written into the controversy with his Alexandrian namesake, is the clearest doctrinal statement the Roman see made in this century"
    ],
    "legacy": "The questions argued here did not go away: whether the church can restore the gravely lapsed is what the Novatian schism of 251 and the Donatist controversy of the next century are both about, and Rome's answer - that it can - is the one the Western church kept. Hippolytus' Refutation, written to discredit Callistus, incidentally preserves more information about second and third-century religious movements than any other surviving book."
+  },
+  {
+   "id": "danubian-latin-christianity",
+   "atlasId": "I.40",
+   "era": 1,
+   "name": "Latin Christianity in the Danubian Provinces",
+   "shortName": "The Danube Provinces",
+   "informalName": "Victorinus' Pannonia",
+   "dates": "c. 250-400",
+   "start": 250,
+   "end": 400,
+   "region": "Poetovio and Sirmium in Pannonia; Noricum, Dalmatia, Moesia",
+   "regions": [
+    "Mediterranean",
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Very thin, and one voice. Victorinus of Pettau's two surviving works - On the Creation of the World and the Commentary on the Apocalypse, about nineteen thousand words together - are vendored, and they are the only Danubian Latin Christian writing in the corpus. Both reach us through Jerome, who revised the Apocalypse commentary to remove its millenarianism, so the received text is not quite what Victorinus wrote. Everything else about the region's church is known from outside it: conciliar records, Ambrose, and the paperwork of the Homoian controversy.",
+   "floorNote": "Not in question. The Homoian bishops who later dominate this region are assessed at I.23, not here.",
+   "relationsSummary": "Sits between latin-pastoral-congregational-christianity, which is Latin but Carthaginian, and homoian-arian-christianity, which is Danubian but a century later and beyond the floor. Its text reaches hieronymian-ascetic-literary by a route no other work in the corpus takes: Jerome edited it.",
+   "why": "Not a Step 0 verdict, and NOT A PILE. Added on record in 2026 at Mark's direction after the corpus assignment run left two works flagged with the same note - the earliest surviving Latin biblical commentator, shelved under a Carthaginian congregational entry on the strength of his language and nothing else. The bar this project had been applying was a pile: Gaul got an entry on eight works, Anatolia on seven, the Greek apologists on fifteen, and Victorinus was declined on two. Mark overrode that bar on 2026-08-27 for five regional gaps, on the reasoning that an accurate thin entry beats an inaccurate thick one. So this is registered knowing what it is: one author, two works, one of them revised by another hand. The honest objection is that a province is not a tradition and one commentator is not a province. The reply is that the region is not marginal - it is the frontier that produced the Homoian episcopate, and Jerome himself - and that the map had been placing its only voice in Africa.",
+   "entry": null,
+   "longDescription": "Poetovio sat on the Drava in Pannonia Superior, a road town on the frontier, and around the year 300 its bishop was writing commentaries on scripture in Latin - the first anyone is known to have written. Jerome, who came from the same corner of the world and read him carefully, said Victorinus knew Greek better than Latin, so that his works were excellent in sense and inferior in style; what Jerome did not say, and did, was that he found the theology objectionable too. Victorinus expected a literal thousand-year reign of the saints on earth, which was ordinary enough in his own generation and had become an embarrassment by Jerome's, so when Jerome reissued the Commentary on the Apocalypse he rewrote the ending. He also kept the thing that mattered most in it. Victorinus had seen that the seals, the trumpets and the bowls are not a sequence of events but the same events told three times over, and that reading - recapitulation - is the one the Latin West went on using. He died in the persecution around 304. Within fifty years the same provinces were the base of the bishops who ran the Homoian church of the West: Valens of Mursa and Ursacius of Singidunum, the Sirmium creeds of the 350s, and finally Palladius of Ratiaria, deposed at Aquileia in 381 by a council that came up from Italy to do it.",
+   "teaser": "The first Latin commentator on the Bible was a frontier bishop on the Drava who wrote better Greek than Latin, expected a literal thousand-year reign, and had his book quietly corrected by Jerome.",
+   "voices": [
+    "Victorinus of Pettau - bishop on the Drava, the earliest Latin biblical commentator, martyred about 304",
+    "Jerome - born at Stridon on the Dalmatian-Pannonian border, who praised Victorinus' sense, disparaged his Latin, and rewrote his ending",
+    "Valens of Mursa and Ursacius of Singidunum - the Danubian bishops who drove the Homoian creeds of the 350s, and whose world this region becomes",
+    "Palladius of Ratiaria - deposed at Aquileia in 381, and the last bishop of these provinces whose own argument survives in his own words"
+   ],
+   "legacy": "Victorinus' recapitulation reading of the Apocalypse - that the seals, trumpets and bowls narrate the same events over again rather than a sequence of them - passed through Jerome's revision into Tyconius and Augustine and became the standard Western reading of the book. That is a long career for a commentary its own editor thought needed fixing. The millenarianism did not survive the same journey, which is roughly the point: what the Latin West kept of its first exegete is what its second exegete was willing to pass on."
   },
   {
    "id": "desert-monasticism",
@@ -2024,6 +2257,48 @@
      "url": "https://www.basilicasantambrogio.it/en/storia"
     }
    ]
+  },
+  {
+   "id": "aquileian-christianity",
+   "atlasId": "I.41",
+   "era": 2,
+   "name": "The Church of Aquileia",
+   "shortName": "Aquileia",
+   "informalName": "The Creed That Wasn't Rome's",
+   "dates": "c. 340-410",
+   "start": 340,
+   "end": 410,
+   "region": "Aquileia and Concordia, at the head of the Adriatic",
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "One work, and an unusually valuable one. Rufinus' Commentary on the Apostles' Creed - about twenty thousand words - is vendored, and it expounds the baptismal creed of Aquileia clause by clause while noting where that creed differs from Rome's. Nothing else from the Aquileian church is in this corpus: Chromatius' sermons are not vendored, Fortunatianus' gospel commentary was lost until 2012, and the acts of the Council of Aquileia in 381 arrive through Ambrose's volume rather than this church's own.",
+   "floorNote": "Not in question",
+   "relationsSummary": "Adjacent to ambrosian-milan-standalone in region and generation, and to hieronymian-ascetic-literary in personnel - Jerome and Rufinus were formed here together and quarrelled elsewhere. Its transmission relation to alexandria-catechetical is the consequential one: Rufinus is why Origen survives in Latin at all.",
+   "why": "Not a Step 0 verdict, and not a pile - one work. Added on record in 2026 at Mark's direction, after the corpus assignment run flagged Rufinus' creed commentary with a note saying there is no entry for North Italian or Aquileian Christianity, and that it had been parked with the Jerome quarrel only because Rufinus belongs to that circle - while the content has nothing to do with the quarrel. THE MISPLACEMENT IS THE ARGUMENT: hieronymian-ascetic-literary is a controversy, and this is a catechesis, and a local one. The honest objection is that a single work does not establish a world, and that Aquileia may be better read as one node of a North Italian church whose centre is Milan (I.16). It is registered rather than resolved because the work names its own local church on every page, and the map had nowhere to put that.",
+   "entry": null,
+   "longDescription": "Aquileia stood where the roads from Italy, the Danube and the Balkans met at the head of the Adriatic, and in the fourth century it was among the largest cities of the empire and among the more consequential churches of the West; its basilica floor mosaics from the 310s are still there. In the 370s a group of young ascetics gathered in the city whom Jerome afterwards remembered as a chorus of the blessed. He was one of them. So was Rufinus of Concordia, and the friendship between those two ended thirty years later in the bitterest literary quarrel the Latin church produced. In 381 Ambrose came up from Milan and presided over a council at Aquileia that deposed the last two Homoian bishops of the Danube provinces. And around 404 Rufinus, home in Italy after decades in Egypt and Palestine, sat down and wrote out the creed his own church used at baptism, explaining it line by line for people about to say it. That is why anyone knows that the Aquileian creed called the Father invisible and impassible where Rome's did not, and that it already contained the clause about the descent into hell, which Rufinus points out - a little pointedly - that the Roman creed does not have. It is the earliest evidence that the Western churches did not all say the same words at the font.",
+   "teaser": "A commentary written to explain the local baptismal creed is the only reason anyone knows the Western churches did not all say the same words at the font.",
+   "voices": [
+    "Rufinus of Concordia - monk at Aquileia, translator of Origen into Latin, and the man who wrote his home church's creed down",
+    "Chromatius - bishop from 388, patron of both Rufinus' and Jerome's translation work, whose own sermons are not in this corpus",
+    "Fortunatianus - bishop in the 340s and 350s, author of the earliest Latin gospel commentary, lost until a manuscript was identified in 2012",
+    "Jerome - who spent his twenties here among what he called a chorus of the blessed, and later wrote against the man he had shared it with",
+    "Ambrose of Milan - who came up the road in 381 to preside over the council that finished the Homoian bishops of Illyricum"
+   ],
+   "legacy": "The Apostles' Creed as the Latin West came to recite it is not the Roman text alone. The descent into hell, which every later version carries, is first attested here - Rufinus notes that the Roman creed lacks it - and it entered the received Western text from the provincial creeds rather than from Rome. Rufinus' commentary is also the earliest systematic exposition of a creed in Latin and the model for the genre. And his translations - Origen, Eusebius, the Clementine Recognitions, Basil, the Sentences of Sextus - are the channel through which a great deal of Greek Christianity reached the Latin Middle Ages, often as the only text that survives."
   },
   {
    "id": "gallic-nicene-episcopate",
@@ -2955,6 +3230,48 @@
      "url": "https://en.wikipedia.org/wiki/Monte_Cassino"
     }
    ]
+  },
+  {
+   "id": "roman-church-gregorian",
+   "atlasId": "II.18",
+   "era": 3,
+   "name": "The Roman Church in the Age of Gregory the Great",
+   "shortName": "Gregorian Rome",
+   "informalName": "The Bishop Who Ran the City",
+   "dates": "c. 560-604",
+   "start": 560,
+   "end": 604,
+   "region": "Rome, its Sicilian and Italian estates, and the mission field beyond",
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Possible Future World (on record)",
+   "chip": "def",
+   "glyph": "pfw",
+   "statusWord": "Possible future tradition — on record",
+   "statusDescription": "Named in the Step 0 record as a live future candidate or a dropped voice, with reasoning — not yet chosen, not forgotten.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Very good, and by a long way the largest body among the five entries added at this ruling. Gregory's Book of Pastoral Rule (about seventy thousand words) and the Register of his letters (a hundred and sixty thousand) are both vendored - the Register especially, because it is a working archive rather than a literary work: grain shipments, episcopal discipline, the ransom of captives, instructions to a mission, and the daily correspondence of a man administering a city the empire had largely stopped administering. The Dialogues and the Moralia on Job are not in this corpus.",
+   "floorNote": "Not in question",
+   "relationsSummary": "Overlaps early-benedictine-italian-monasticism, whose window closes at Gregory's death, in person rather than in kind: he was a monk and wrote the only life of Benedict there is, but the Pastoral Rule is an episcopal manual and the Register is a government's paperwork. Its letters reach anglo-saxon-christianity, merovingian-gallic-christianity and byzantine-imperial-church-justinianic as evidence about them.",
+   "why": "Not a Step 0 verdict, and thin in a different way from the other four: one man, but a quarter of a million words of him. Added on record in 2026 at Mark's direction, after the Pastoral Rule was flagged with the note that the census has no entry for the late sixth-century Roman church itself, and the Register of letters had been split as provisional across four entries - Anglo-Saxon, Justinianic, Benedictine and Merovingian - each of which the letters DESCRIBE rather than belong to. Those four rows are now context, and this entry holds the tradition row. The open questions a survey would settle are whether these decades are a world or the opening of the medieval papacy that later entries carry, and whether an entry can properly be built around a single person at all.",
+   "entry": null,
+   "longDescription": "The Rome Gregory was born into around 540 had been besieged, taken, retaken and emptied within living memory. The Gothic wars and Justinian's reconquest had wrecked the city and the countryside that fed it, and from 568 the Lombards held most of the peninsula. The imperial government sat at Ravenna and had little left to spend on Rome. Gregory was city prefect, gave it up, turned the family house on the Caelian into a monastery, and was sent to Constantinople as the pope's representative. He was elected bishop in 590, during a plague, and spent fourteen years doing a job that had quietly become something else. The letters show what it was. He ran the papal estates in Sicily as the city's food supply and audited the men who managed them. He paid soldiers and negotiated with Lombard dukes when the exarch would not. He ransomed prisoners. He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length. He refused the title of universal bishop when Constantinople's patriarch used it, and called himself servant of the servants of God instead. And in 596 he sent a party of his own monks to Kent, and then wrote to them again and again about what to do with pagan temples and how far to insist on Roman custom. The Pastoral Rule, written at the beginning of it, is the book underneath all the rest: an argument that the government of souls is the art of arts, that different people must be told the same truth differently, and that wanting the office is itself a disqualification for it.",
+   "teaser": "Rome in 590 had a plague, no working government and the Lombards outside the walls; the man who ended up running it had been trying to be a monk.",
+   "voices": [
+    "Gregory the Great - prefect, monk, papal envoy, and from 590 the bishop of a city whose civil administration had failed around him",
+    "The Register - fourteen years of letters about grain, discipline, ransom, doctrine and a mission, and the closest thing the sixth-century West has to an administrative archive",
+    "Augustine of Canterbury - the prior sent to Kent in 596, who wrote back with questions and got long answers",
+    "Leander of Seville - Gregory's friend from the Constantinople years, to whom the Moralia is dedicated, and the link to the Visigothic conversion",
+    "The Lombard dukes - negotiated with directly, because the exarch at Ravenna would not"
+   ],
+   "legacy": "The Pastoral Rule became the standard book on the bishop's office in the West: Carolingian councils legislated that bishops should own it and read it, Alfred translated it into English as one of the books he thought most needful for men to know, and it stayed in use for a thousand years. The mission to Kent is why there is an English church in communion with Rome at all, and why anglo-saxon-christianity has a Roman half. And the working model of the bishop of Rome as the practical government of central Italy - feeding the city from church estates, treating with invaders, paying troops - is where the temporal power of the papacy actually begins, whatever later documents claimed for it."
   },
   {
    "id": "merovingian-gallic-christianity",

@@ -57,11 +57,13 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: needs-ruling
-  note: 'Written c. 303-311 during the Great Persecution by a North-African-trained Latin
-    rhetor teaching at Nicomedia, later tutor at Constantine''s court. Straddles Era-1 Latin
-    apologetics and Era-2 Constantinian Christianity; neither entry is a clean fit (he is
-    not Carthaginian-congregational, and most of the work predates 312). Needs Mark''s call
-    on where Lactantius lives.
+  note: 'Written c. 303-311 during the Great Persecution by a North-African-trained Latin rhetor teaching
+    at Nicomedia, later tutor at Constantine''s court. Straddles Era-1 Latin apologetics and Era-2 Constantinian
+    Christianity. STILL `needs-ruling` 2026-08-27, but the question has changed shape: latin-apologists
+    (I.43) now exists and is a third and better candidate than either of the two rows below - Jerome makes
+    Lactantius Arnobius'' pupil, and Arnobius is now in that entry. Mark held this one back when he ruled
+    the five regional gaps, so it is left as he left it rather than absorbed by a side effect.
+
 
     '
 - work: A Treatise on the Anger of God
@@ -142,24 +144,43 @@ assignments:
   author: victorinus
   locus: div2 6.1
   atlas_ids:
-  - latin-pastoral-congregational-christianity
+  - danubian-latin-christianity
   role: tradition
-  confidence: needs-ruling
-  note: 'Victorinus of Pettau (Poetovio, Pannonia; martyred c. 304), the earliest Latin exegete.
-    No census entry covers Pannonian Latin Christianity; the Latin-pastoral entry is a language-only
-    best guess with the wrong region.
+  confidence: assigned
+  note: 'Victorinus of Pettau (Poetovio, Pannonia; martyred c. 304), the earliest Latin exegete. RULED
+    2026-08-27: danubian-latin-christianity (I.40, era 1, c. 250-400) was minted for exactly this gap
+    - the worker''s note said the Latin-pastoral entry was a language-only guess with the wrong region,
+    and it was right. Mark overrode the pile bar (two works) because an accurate thin entry beats an inaccurate
+    thick one.
+
 
     '
 - work: Commentary on the Apocalypse of the Blessed John
   author: victorinus
   locus: div2 6.2
   atlas_ids:
-  - latin-pastoral-congregational-christianity
+  - danubian-latin-christianity
   role: tradition
-  confidence: needs-ruling
-  note: 'Same author and same shelving problem as On the Creation of the World. Millenarian
-    exegesis; the transmitted text was later revised by Jerome, which gives hieronymian-ascetic-literary
-    a secondary claim a reviewer may want to weigh.
+  confidence: assigned
+  note: 'Same author and same ruling as On the Creation of the World: moved to danubian-latin-christianity
+    2026-08-27. Millenarian exegesis, and the transmitted text is Jerome''s revision - he rewrote the
+    chiliast ending. That is custody, not authorship, so it is carried as a SEPARATE `transmission` row
+    on hieronymian-ascetic-literary rather than as a second claim on the voice.
+
+
+    '
+- work: Commentary on the Apocalypse of the Blessed John
+  author: victorinus
+  locus: div2 6.2
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: transmission
+  confidence: assigned
+  note: 'Added 2026-08-27 with the `transmission` role. The commentary is Victorinus'' - his voice is
+    on danubian-latin-christianity - but the text anyone can read is Jerome''s reissue, with the millenarian
+    ending rewritten. The relation is custody: this entry''s people are why we still have it, and why
+    we do not have quite what was written. That is the boundary the role was defined on.
+
 
     '
 - work: Against the Sabellians

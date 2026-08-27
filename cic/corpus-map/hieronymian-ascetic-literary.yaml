@@ -222,19 +222,6 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
-- work: A Commentary on the Apostles' Creed (Rufinus)
-  author: rufinus
-  locus: div2 5.13
-  role: tradition
-  confidence: needs-ruling
-  note: 'Rufinus'' catechetical exposition of the baptismal creed of Aquileia (c. 404) - a
-    doctrinal classic with no obvious census home: there is no entry for North Italian / Aquileian
-    Christianity. Parked with hal only because Rufinus belongs to that circle; the content
-    has nothing to do with the Jerome quarrel, so Mark should rule where a work like this
-    lives.
-
-    '
-  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
     Librorum Origenis)
   author: rufinus
@@ -287,3 +274,17 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- work: Commentary on the Apocalypse of the Blessed John
+  author: victorinus
+  locus: div2 6.2
+  role: transmission
+  confidence: assigned
+  note: 'Added 2026-08-27 with the `transmission` role. The commentary is Victorinus'' - his
+    voice is on danubian-latin-christianity - but the text anyone can read is Jerome''s reissue,
+    with the millenarian ending rewritten. The relation is custody: this entry''s people are
+    why we still have it, and why we do not have quite what was written. That is the boundary
+    the role was defined on.
+
+
+    '
+  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
