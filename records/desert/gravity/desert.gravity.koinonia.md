@@ -34,6 +34,14 @@ relations:
   target: desert.force.formation-at-scale
 - type: illustrated-by
   target: desert.story.pachomius-founding
+- type: illustrated-by
+  target: desert.quote.ethiopic-rule-eat-and-drink
+- type: illustrated-by
+  target: desert.quote.three-years-a-servant
+- type: illustrated-by
+  target: desert.quote.womens-house-across-the-river
+- type: illustrated-by
+  target: desert.story.angel-hands-the-tablet
 name: "Koinonia - communal rule and common property [SUPPORTING]"
 description: "The Pachomian federation's own name for its linked houses under one written rule and one head - the organizing principle of Strand B's entire social structure. Strong within the Pachomian corpus on every test - repetition, dependency, formation, explanatory power - but fails the Persistence test outright: no equivalent exists in Strand A or C. Confidence is not the limiting factor (Widely Accepted); cross-strand persistence is. Classified Supporting: it organizes a real and major portion of this world's ecology, within the context Primary gravities establish, but does not organize the ecology as a whole. Stands as one pole of the authority-tension gravity (10) against the elder-mediated model (gravity 3). Emerges specifically from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names, not from the generating force (martyrdom's unavailability) directly."
 classification: supporting

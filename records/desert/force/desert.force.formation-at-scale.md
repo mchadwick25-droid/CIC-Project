@@ -34,6 +34,10 @@ relations:
   target: desert.figure.pachomius
 - type: associated-with
   target: desert.story.pachomius-founding
+- type: associated-with
+  target: desert.quote.rule-for-the-weak
+- type: associated-with
+  target: desert.quote.no-one-seize-the-hand
 ---
 Re-derived from the prior build's cleared Doc_08 Cell 1B-iii, added at
 that document's own Round 1 review after an earlier draft retro-traced

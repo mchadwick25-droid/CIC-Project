@@ -1,0 +1,250 @@
+     __________________________________________________________________
+
+           Title: The Rules of Pachomius, translated from the Ethiopic
+      Creator(s): Pachomius of Tabennesi (the underlying legislation, Part I;
+                  Parts II and III are later and are not his, see below)
+                  Schodde, George H. (Translator)
+      Full title: The Rules of Pachomius. Translated from the Ethiopic. [By
+                  George H. Schodde.] The Presbyterian Review, vol. 6 (1885),
+                  pp. 679-689.
+     Print Basis: The Presbyterian Review, vol. 6 (1885), pp. 679-689. Page
+                  numbers are preserved below as [p. NNN] markers and are the
+                  citation locus for this file. Schodde translated from
+                  Dillmann's Ethiopic text (Chrestomathia Aethiopica, 1866,
+                  pp. 57-69), itself from a d'Abbadi MS collated with a
+                  British Museum copy.
+          Rights: Public Domain
+    Rights basis: 1885 publication date, long out of US copyright. Read from
+                  the file's own text, which carries the journal title, the
+                  volume, the year and the page numbers in its running heads
+                  and page markers. Supplied by Mark 2026-08-27.
+Source Collection: A Princeton University scan, full view. The scan-viewer
+                  chrome captured at the end of the file ("Full view",
+                  "vol.6 (1885)", "Princeton University") was lifted here at
+                  vendoring and removed from the body.
+
+        RECENSION: THE ETHIOPIC recension. This is NOT Jerome's Latin
+                  Praecepta (the 194-article Regula S. Pachomii in Holste's
+                  Codex regularum), NOT Gazaeus' 128-article rearrangement,
+                  and NOT the Coptic. Schodde says plainly he "has not been
+                  able to consult" the Latin. A quote verified here is
+                  verbatim FOR THIS EDITION AND THIS RECENSION and its locus
+                  must say so.
+
+     THREE PARTS: Schodde's own note on the structure, which any record
+                  citing this file must respect: "The Ethiopic rules consist
+                  of three distinct parts, which are undoubtedly different in
+                  origin and date, as they differ in character. The first
+                  part is, as we have seen, the same as the Greek form, which
+                  reaches up almost to the days of Pachomius himself, and if
+                  not verbatim from his pen, are yet authentic enough for all
+                  practical purposes." Part II he places from a Florentine
+                  MS whose Greek was then unprinted. Part III he calls "really
+                  no collection of rules at all, but only a kind of symbolical
+                  homily", of which no copy in another language was known, and
+                  which he and Dillmann date late, on the evidence that it
+                  dwells on false members. So: Part I may be attributed to the
+                  Pachomian foundation; Part II is Pachomian-tradition
+                  legislation of uncertain date; PART III MAY NOT BE
+                  ATTRIBUTED TO PACHOMIUS and must be cited as the late
+                  Ethiopic homily it is.
+
+  THE ANGEL FRAME: Part I opens "In the name of the holy Trinity. The
+                  ordinance which the angel of the Lord commanded to Abba
+                  Pachomius", and the tablet of iron is handed over inside the
+                  rule document itself. The angel-and-tablet frame is
+                  therefore NOT merely Palladius' and Sozomen's packaging of a
+                  rule they reported from outside; it is in the received text
+                  of the rule. Records that described the frame as belonging
+                  to the reports rather than the text were wrong on this
+                  edition's evidence and have been corrected.
+
+  OCR CONDITION: This scan is dirtier than the other vendored files and was
+                  normalised at vendoring by the DETERMINISTIC rules listed
+                  below. Every rule is mechanical and re-derivable: anyone
+                  with the Princeton scan can reproduce this file exactly.
+                  Nothing was rewritten, reordered, supplied or repaired.
+                    1. Line-break hyphenation joined, where the scan wrote
+                       "X- Y" with the hyphen bound to the first fragment
+                       (53 occurrences, e.g. "indi- vidual" -> "individual").
+                    2. Spaced compound hyphens closed, where the scan wrote
+                       "X - Y" with spaces on both sides (25 occurrences,
+                       e.g. "psalm - singing" -> "psalm-singing"). ONE
+                       EXCEPTION, disclosed: "arose - for" is a dash, not a
+                       compound, and was set as "arose-for" (em dash).
+                    3. Space before , . ; : ! ? removed (766 occurrences).
+                    4. Space inside [ ] and ( ) removed.
+                    5. Quotation-mark spacing regularised ONLY in paragraphs
+                       whose quote glyphs balance. Four paragraphs have an odd
+                       count - the scan lost or invented a glyph at a page
+                       break - and there the scan's own spacing is left
+                       untouched. Single quotes and apostrophes were not
+                       touched at all.
+                    6. The eleven running heads ("THE RULES OF PACHOMIUS .
+                       679" / "680 THE PRESBYTERIAN REVIEW .") removed, and
+                       the eleven page markers ("#737 (p.679)") rewritten as
+                       "[p. 679]".
+                    7. Four stray OCR tokens standing alone as paragraphs
+                       removed, listed in full: "66", "45", "( 6", "x". These
+                       are misread quote glyphs and marginalia. The token
+                       "if", which also stands alone as a paragraph, is REAL
+                       TEXT and was kept.
+                  NOTE on [p. 679]: on that page alone the marker does not
+                  mark the page start - the OCR emitted page 679's header
+                  block after its opening paragraphs and its footnote.
+
+   DAMAGED LOCI: Four places where the scan lost or displaced words. NO
+                  RECORD MAY QUOTE ACROSS THESE without stating the
+                  reconstruction in its own confidence block.
+                    a. [p. 683] "had three hundred men. these is Aphthonius"
+                       - a word or phrase is missing at the break. Palladius'
+                       Greek reads "Among these is Aphthonius".
+                    b. [p. 684-685] "And let no one go outside of the" stands
+                       as its own paragraph, and the clause that completes it
+                       - "cloister without the knowledge of the prior." -
+                       appears three clauses later in the following
+                       paragraph. The words are all present; their order is
+                       not the printed order.
+                    c. [p. 686] "prostrate themselves for him that is dead.
+                       according to the measure of their powers" - the full
+                       stop is almost certainly a comma misread; the sentence
+                       runs on.
+                    d. [p. 685-686] "and" / "if" / "any one does this" is one
+                       sentence broken into three paragraphs by a column
+                       artifact, not a page break. The word order is sound.
+
+   GREEK IS LOST: The scan's Greek is unreliable and must never be quoted:
+                  "lavpat" for lauras, "novoBior" for coinobion, "to Davo
+                  aixor" for the Lausiac History. The Latin of Sozomen (via
+                  Valesius) and of the Acta Sanctorum reads cleanly and is
+                  usable.
+
+        CONTENTS: Schodde's introduction, pp. 679-681 (about 1,830 words) -
+                  Pachomius' place, the several collections of the rules and
+                  how they relate, Sozomen's summary in Valesius' Latin, and
+                  the textual history of the Ethiopic.
+                  The Rule itself, pp. 681-689 (about 4,420 words) - Part I
+                  (the angel's ordinance), Part II (the second word of the
+                  holy Pachomius), Part III (the late symbolical homily on
+                  the five evil and five good associations).
+     __________________________________________________________________
+
+THE RULES OF PACHOMIUS.
+
+TRANSLATED FROM THE ETHIOPIC.
+
+PACHOMIUS is the father of monastic institutions. He was born in 292 in the district of Thebes in Egypt, and died in 348. He lived accordingly in that memorable period, when, through Constantine the Greek, the ecclesia pressa became the recognized religion of the empire. This great change in the external status of the Church naturally had a powerful influence on many of her internal features. Not the least was this the case with reference to the anachoritic life, which just then was beginning to stand so high in the favor of Christians. Already at an earlier date the practice of withdrawing from the world, in order to serve God alone, had found many followers, principally, as is quite natural, in Egypt, the land of Philo, the Gnostics and the Therapeutics, of Clemens and Origen. * The father of this separation of the individual from the world and the Church is the holy Antonius. When the ascetic impulses, so powerful in the early Church, could not find expression any longer in martyrdom, they followed the leadership of an Antonius, and the result was that in the degree that external peace became the possession of the Church, the number of monks increased, and soon numbered tens of thousands.
+
+But among these there was no external connection; each one selected the place best suited to his wants, and worshipped and served God according to his own way and manner. Before the day of Pachomius, however, we already read of lavpat, i. e., streets or collection of monk cells. The fact of such dwelling together on the part of the anachorites is attested both by historians and by the existence of tiers of caves or hewn-out cells, e. g., in the desert of Judæa, in Egypt, and in Arabia Petræa. Ebers, in his grand Palästina in Wort und Bild, thinks that this dwelling together was as much for mutual protection against robbers and wild animals, as for aid and counsel in the worship of the Lord. But even these laura and their conduct were entirely a matter of choice on the part of those who lived together there.
+
+* Some recent investigations on the part of German scholars connect the anachorite life of early Christians with the Serapis worship of the ancient Egyptians, and the attempt has been made to make these very Rules of Pachomius in substance a reproduction of the Order observed by the Serapis priests.
+
+[p. 679]
+
+The first one to organize into a compact body these thousands of individual monks was Pachomius. He himself was a monk, trained under the direction of Palemon, one of the strictest pupils of the holy Antonius. Claiming to be obeying a divine command, Pachomius established the first monastery proper, the first novóẞior, and gave its members rules and regulations. His new departure proved successful, and it was not many years before the large majority of the monks were in connection with one of these many common dwelling places " that sprang up throughout Christendom; and nearly everywhere in this work of organization was the spirit and method of Pachomius a directing influence; and the rules which he set up for the original house on Tabenna, an island in the Nile, became the model for nearly all others. The historical importance of Pachomius thus consists not only in being the originator of what can properly be called monastic institutions, but also in having given them, at least for centuries, their form and character.
+
+This being the case, the monastic rules which have been handed down to us under his name cannot be without worth. Of these rules there are several collections. The longest list embraces 194 articles, and is published by Lucas Holste in his Codex regularum, Part I, pp. 26-36, as Regula S. Pachomii. Gazaeus has reproduced them, but with some changes, and arranged in 128 articles in his edition of Cassianus de Caenobior. institut., pp. 800 seq., and they are claimed to be a Latin translation made by Jerome from the original rules of Pachomius. But this cannot be the case, as Orsiesius and Theodorus, two pupils of Pachomius, are mentioned in them as having aided in the composition. The translator has not been able to consult these rules, but from the statements of Prof. Mangold in Herzog's Real Encyklop., vol. xi., p. 159, it appears that they are evidently enlarged forms of the shorter list of which we will now speak.
+
+This shorter and better known list is found in the Historia Lausiaca of Palladius, c. 38, and in Sozomenus, Hist. Eccles., 3, 14. The author of the first work was a contemporary of Epiphanius and Jerome, and well known as their antagonists in the Origen controversy. He was born in Galatia in 368, and when but twenty years old went to Egypt to become acquainted with the famous monastic leaders of that country. He remained there a number of years, but later, at the advice of his physician, went to Palestine, where he also devoted his time to the study of this system. Later, on the basis of his observations, he wrote his history, entitled to Дavo aixór, as it was dedicated to Lausius, a high political official in Cappadocia. The book was written about 420, and consists of a number of biographical sketches of Egyptian and Palestinian monks, and hence is sometimes called Paradisus de vitis Patrum. Among these is also a life of Pachomius, of whose rules he gives a list, which is reproduced substantially by the historian Sozomenus, and corresponds in all the leading features, though not verbally, to the first part of the Ethiopic collection. Wherever this Greek text throws any light on the translation of the Ethiopic it has been utilized. In order to show how in substance the Greek agrees with part first of the
+
+[p. 680]
+
+Ethiopic, we will here reproduce the summary given by Sozomenus. A literal Latin translation taken from Valesius, will probably show this best. It reads:
+
+"Porro tabulam dedisse ei dicitur, quæ etiamnum custoditur a monachis. In ea præscriptum est, ut unicuique permitteret tantum edere, bibere, operari ac jejunare, vel secus quantum posset. Et iis quidem qui validius comederent, opera magis laboriosa imponeret: facilia vero abstinentibus. Utque multas cellas ædificaret: in singulis vero tres degerent monachi. In uno antem conclavi simul omnes cibum sumerent; et cum silentio ederent, sedentes ad mensam velato capite, ita ut nec se mutuo, nec aliud quid piam viderent præter mensam et apposita cibaria. Nullus vero peregrinus unà cum illis vesceretur, nisi forte illac pertransiens exciperetur hospitivo. Quod siquis cum ipsis vellet degere, is triennii spatio difficiliora exerceret opera, atque ita denum ipsorum contubernis sociaretur. Adhaec ut pellibus vestirentur, et capita mitris laneis tegerent, quas etiam clavis quibusdam purpureis insigniri jussit. Utque lineis tunicis et cingulis uterentur, cinctique in tunicis et pellibus dormirent, sedentes in cathedris structis, ex utroque latere ita clausis ut cujusque stratum contineretur. Ut primo antem ac prostremo hebdomadis die ad altare accedentes at sacrorum mysteriorum communionem, zonas solverent pellesque deponerent. Præterea ut duodecies orarent quotidie, mane scilicet sexies, et tantundem vespere. Noctù quoque totidem vicibus: hora antem nona ter. Ut cibum sumpturi, ante unamquamque orationem Psalmum canerent. Ut universa congregratio in viginti classes dividatur easque e Græcorum literis cognomentum accipianti cognomen vero ipsis aptetur pro vita et moribus singularum. Verbi gratia simpliciones jota appellentur: versuti. rel E., et sic de aliis, prout institutum cujusque classis figurâ alicujus literæ apte exprimere licet."
+
+To this account of the character of the rules, the historian adds the following concerning the life and deeds of Pachomius. He says: "These laws Pachomius set up for his pupils, a most humane man and so much beloved of God, that he could know the future and could very often speak with the angels. But he lived on Tabenna, an island of Thebes, whence to-day the name Tabenneses is derived. But those that lived according to these laws became very renowned, and grew into such numbers that they amounted to seven thousand men. For the congregation which lived on the Island of Tabenna, with whom also Pachomius lived, numbered one thousand and three hundred monks. The remainder, however, were scattered throughout the district of Thebes and Egypt. There is, however, the same method and discipline of life among them all; all things are common to all. And the congregation which is on the Island of Tabenna is considered the mother of the others; those who come out of it are regarded as fathers and leaders."
+
+The Ethiopic versions of the rules of Pachomius, which are here for the first time presented in an English dress, were published by Prof. Dillmann, in his Chrestomathia Aethiopica, 1866, pp. 57–69, from a MS. in the posses-
+
+[p. 681]
+
+sion of the French Oriental scholar, d'Abbadi, compared with a copy in the British Museum. The Ethiopic rules consist of three distinct parts, which are undoubtedly different in origin and date, as they differ in character. The first part is, as we have seen, the same as the Greek form, which reaches up almost to the days of Pachomius himself, and if not verbatim from his pen, are yet authentic enough for all practical purposes. The original Greek of the second part has not yet been printed, but Dillmann states that it is found in a Florentine Manuscript, of which a Latin translation has appeared in the Acta Sanctorum (Venice, 1738), " sub die XIV " Maii, pp. 346 et 347. " The third is probably the most remarkable part, and of it no copy in any other language is known to exist. The editor of the Ethiopic text mentions it as " recentioris utique sed scite compositae, " while Mangold says it has an " altertümlichen Character. " The third part is really no collection of rules at all, but only a kind of symbolical homily on the character and duty of the monastic brethren. The fact that in it so much is spoken of false members shows that at the time of its composition the institution had already commenced to degenerate, and Dillmann's opinion concerning its age is probably correct. Its reception and retention by the Ethiopic Church will surprise no one who is acquainted with the traditional favor of that people for ascetic and allegorical literature.
+
+A German translation from the Ethiopic was made by Dr. König, now a privat-docent in Leipzig, and was published in the Theologische Studien und Kritiken, 1878, pp. 323-337. In issuing the present version the translator had no further intention than to make so noteworthy a document accessible to the Christian reader in general and to the Church historian in particular, for further study and use. These rules are more than a mere curiosity of literature; they belong to the oldest documentary evidences we have concerning the inner life and character of an institution whose history is closely connected with the history of the Church. As such they merit the attention of scholars.
+
+[Translation.] PART I.
+
+In the name of the holy Trinity. The ordinance which the angel of the Lord commanded to Abba Pachomius.
+
+In a place whose name is Tabennesis, in the province of Thebes, there was a man whose name was Pachomius, who was of those that lived a clean life, and there was given to him knowledge and also vision of angels. And this man was a great lover of men and a lover of brethren. And as he was sitting in his cave, the angel of the Lord appeared to him and said to him: "With regard to thyself thou hast become perfect and a superfluous abidance dost thou now live in the cave and now go forth, and collect together the less perfect young men, and dwell and be with them; and as I give to thee an ordinance, thus teach them." And he handed him a tablet of iron, upon which was written as follows:
+
+[p. 682]
+
+Suffer each one to eat and to drink, and according to the measure of their eating give them their work. And prohibit neither fasting nor eating; but only as the food for the strong is powerful, and is weak for the weak, give them also the food of their works. And make a dwelling in one enclosed place, and three shall dwell in one house. And their eating shall be in one. And they shall sleep not by lying down, but like a chair of brickwork let them make inclining places for the back, and upon this they shall spread out their garments and they shall sleep sitting. And they shall clothe themselves with a sleeveless linen undergarment and a leather girdle, [From the Greek: And let each one of them have a wooly blanket made of a white goat skin], and without this they shall not eat. And when they go to the sacrifice on the Sabbath of the Christians, they shall loosen their girdles and shall lay aside their skin garments [and enter alone] with their hoods. And ordain for them hoods without shaggy hair, like those of children, and command thereon the stigma-sign of the cross in purple. And they each shall consist of twenty-four associations, and each of the associations thou shalt call according to the Greek letters, from Alpha and Beta and Gamma and Delta, in their order. And whenever in an association a first asks a second, he will say: ' How is the association of Gamma? and how is the association of Beta? Greet Rho. ' And each shall be known by his order and by his sign. And the gentle ones call Iota, and the perverse call Xi, and thus according to their order and their kind and their arrangement and the life of each association in its character, call them by name. And only those that are spiritual know what the writing says that is on this tablet. - And when a stranger comes from another cloister, where there is not such an order, let him neither eat nor drink with them, and let him not enter their cloister, unless they have met on the public highway. But he that comes to dwell with them, let them not receive him into the association before he has completed three years, but they shall employ him only as a servant; and after his completion of three years, let him enter. And while they eat they shall cover their heads with their hoods, so that one brother does not see the other chewing. And there shall be no conversation while they eat. And not without and not upon another away from the table and the vessel shall they turn their eyes. - And command, that they shall each day pray twelve times, at evening twelve times, and in the night twelve times, and at the ninth hour [i. e., 3 P.M.] three times. And when the associations eat, then a psalm shall be repeated before the prayer; this command. "
+
+And Pachomius answered the angel, saying: "Few are these prayers." And the angel said to him: This I have commanded that also the weak may be able to attain and to do this ordinance without grieving themselves; but the perfect do not desire for themselves an ordinance, for they themselves in their dwellings have resigned their whole lives to the Lord who sees it; but these things I have ordained for those who have no advisers, so that they may be able at least to do as a service what has been com-
+
+[p. 683]
+
+manded them, and may come to the sacred rites openly with shining countenance. "
+
+And many are the cloisters of this ordinance, and they amount to five thousand men. The first great cloister, where Pachomius himself lived and which produced also other cloisters, had three hundred men. these is Aphthonius, who is an old friend to me [i. e., Palladius], and is now the second to Pachomius in the cloister, and his life is without scandal or offence, and they send him to the region of Alexandria, that he sell things for them and buy for them what they desire. And there are other cloisters of this association of two hundred and three hundred. And to the region of Aspenos [i. e., Penapolis near Thebes], which belongs to them, I came and saw cloisters and found three hundred men of the association. And they worked at every art, and with the work of their hands they worked for the cloisters of women and for the prison house. And they whose turn it was arose early in the morning; some of them are in the kitchen at cooking, others at preparing the table, and they prepare and put in order, until their proper time comes, on this table bread, vegetables, prepared olive-fruit, and cheese from the cow and things plucked in the garden. And there are some that enter at the sixth hour [noon] to eat, and some enter at the seventh hour, and others again enter at the eighth hour, and some enter at the ninth hour, and some at the eleventh hour, and some late in the evening, and some at the second watch; each sign of the letters knows its own hour. And thus is their work: one works the land and ploughs it; another the garden; another the vegetable plot; another acts as carpenter; another belongs in the bake-house; another chisels; another makes large baskets; another makes nets; another sews leather; another writes; another weaves fruit-baskets, which are small baskets; and they all repeat the Gospel books from memory.
+
+And to these belongs a cloister [for women], to the number of four hundred, who live according to this ordinance except with regard to the shaggy clothing. And the female monks among them live on the other side of the river [Nile], and the men among them, opposite them on this side. And when a nun dies, her sisters, the nuns, wrap her in linen; and having wrapped her in, they bring her to the bank of the river, and the brethren cross over on a raft with palm branches and olive boughs, and bring her across with psalm-singing to themselves, and bury her in their burial-place. With the exception of priest and deacon alone, nobody crosses over into the women cloister, and this takes place on each Sabbath of the Christians.
+
+PART II.
+
+In the name of the Father and of the Son and of the Holy Ghost. An ordinance and command of the holy Abba Pachomius. This is the first ordinance as a foundation: When thou hearest that they call thee to the psalm-singing, arise quickly; and while thou goest, read until thou comest to the door of the church, or else, pray. And no one shall turn and look
+
+[p. 684]
+
+around while the brethren are praying. And if any one has conversed or has laughed during the psalm-singing, let him be rebuked before the altar. And if any one has omitted a single prayer during the day, let him be rebuked; and if any one has omitted three of those at night, let him be judged. And let no one go out of the church while the brethren are praying, except he ask. And after the psalm-singing has ceased, while ye are returning to your dwelling-places, read what ye have recited from the Gospels, until ye come to your houses. And no one shall veil himself while he reads.
+
+And no one shall look around while the brethren eat, and no one shall put down his hands on the table before him who is older. And no one shall wrangle or converse; but if he laugh, he shall be judged. And if any one does not come to the prayer at table at the time when the brethren eat, he shall be judged; or else let him return fasting and not eat anything. And when thou desirest anything at table, do not speak, but whisper. And after thou hast gone out from where thou eatest, do not make many words. And let no one, while he is eating, turn his head to the table of his brethren, to see how they prepare their food. Let the prior do the will of the brother who is sick, asking what is desired. And at the place of the sick brethren let no one eat a bite or drink any wine except he that is sick. Let no one bring the food of the sick into the kitchen of the brethren, where they cook for themselves, but let them prepare food for the sick separately. And they shall not prepare it abundantly in giving to those that are sick.
+
+And when there is any one who comes out of the world that he may become a monk, let them teach him first the prayer of the Gospel, and after that let them teach him psalm-singing; and let him accordingly remain in the vestibule while he is being taught and tried in regard to the ordinance of the brethren and the statutes, and then let them remove his worldly garments and clothe him with those of the monks. But his worldly garments, which he has removed, and whatever else he had, they shall give to the guardian of the fruit which is under the tree. And the following command is equal to it No one shall live in his house, indeed not at all, and no one shall at all accumulate anything whatever, except what is given to him by his superiors, except his clothes; and this consists of two undergarments and a covering and a shaggy cloak of leather and shoes and two hoods and a girdle and a staff.
+
+And let no one go outside of the
+
+And let no one go anywhere without the knowledge of the prior. And let no one sleep outside of his couch. cloister without the knowledge of the prior. And let no one converse with his neighbor at the place where he sleeps. And let no one spread upon his couch anything except the mat alone. And let no one anoint or wash his whole body, except in his sickness. Let no one converse with his neighbor in the dark. Let no one seize the hand of another, nor at any part of his body. And when they stand and when they walk, there shall be distance
+
+[p. 685]
+
+between them of one ell, and thus they shall do while they sit. And no one shall cut his hair without the knowledge of the prior, and no one shall cut the hair of any one unless he has been commanded. And no one shall take anything whatever from his brother without the knowledge of the prior. No one shall ride on an ass alone, or without garments, with another. And no one shall enter upon an act to undertake a work without the knowledge of the prior. No one shall take a vessel, as though to preserve it, until he receive it as his own. And let no one converse in the bakery while the brethren are making bread; but they shall read until they have finished: no one shall speak [aloud] but shall whisper. Let no one be deserted by the brethren when a brother is dead, that they accompany him unto the hill. Let no one go into the presence of the prior. Let no one knead clay without the knowledge of the prior; and whenever anything is done let it not be done without the knowledge of the prior. Let no one go into the woman's cloister to visit a sister from among them, except a short time with him who is appointed priest and with those that serve him. And if while a garment is hung up the sun rises over it three times, the owner of the garment shall be judged on account of it, and he shall prostrate himself in the church, and shall stand while the brethren eat. And if it be the shaggy covering or the shoes or the girdle or anything else they shall do to him according to this first judgment. He who disregards this [law] and does not observe it, let him be judged without any trial concerning it; so that they inherit the Eternal Kingdom.
+
+[This is] the second word of the holy Pachomius. And his sister in the flesh loved monasticism, and he cut her hair and put a girdle around her, and made a dwelling-place for her alone on the opposite side of the river at the distance of a mile. And at her instigation virgins and widows collected together and became exceedingly good. And none went over except those that had been ordained by Abba Pachomius and chosen ones on the fixed festival days of our Lord. And when any one of these went in to her rest, they sang psalms and adorned her in holiness and wrapped her in linen, and the brethren received her on a raft and buried her in their place. But neither did these [the men] see their [the women's] faces nor did the latter see the faces of the former. And [the women] reached the number of one hundred and eighty, and these [the men] three hundred and forty; and he commanded them that they should be exceedingly careful not to see their [the women's] faces nor hear their voices.
+
+PART III.
+
+And again a third ordinance. First of all it is not befitting that on the holy hill there should be any quarreling and clamor and crying aloud; and
+
+if
+
+any one does this, let his penance be to the eighth day, and let him prostrate himself each day three hundred times. And if any one [leaves] from among the association, while it is on the mountain, and going out of the house of the association eats without being sick or without permission of
+
+[p. 686]
+
+his teacher, let his penance be with bread and water for ten days and let him prostrate himself two hundred times each day. And whoever does not awaken at the time of midnight and does not go into the church with the brethren, except on account of a certain sickness, let him prostrate himself one thousand times, and on that evening he shall not taste any broth and shall not drink anything except water alone. And whoever during the days while they are on the mountain does not come to church at the time of the + ninth hour [3 P.M.], with him they shall do in a like manner. And if any one causes contention and controversy and altercation and quarreling after supper or after breakfast, let his penance be ten days, and they shall deny him the Holy Supper. And if any one among the brethren curses another, naming him by the generation of his birth from which he arose—for this is a great error in the house of the holy ones, for the Lord has showed me concerning this deed, that it will be judged with fire and brimstone — on this account, I say, he shall fast forty days, and shall prostrate himself five hundred times each day, and his fast shall be with bread and water, and he shall not receive the holy supper, and they shall not at all make it easy for him, for he has separated and scattered the sheep of Christ's fold.
+
+And if any among the brethren goes in to his rest they shall absolve him from his sins on that day at the time of the incense, and on the fortieth day all the holy ones shall assemble themselves at the time of sleeping in the church, and the priests and the deacons and all the holy men shall divide out the incense, and they shall prostrate themselves for him that is dead. according to the measure of their powers, and they shall shed their tears upon the incense and shall burn the incense remaining awake all the night; for I have found where it says: "He will be like a child when he stands before his Creator"; and to those that pray it will be a great reward.
+
+And if there is any one who accumulates a possession, even to a needle, without his teacher knowing it, then let his penance be fifty days threefold with fasting with water and bread; but the possession itself they shall hand over to the association, and his prostrating shall be increased to two hundred times.
+
+And concerning this thing, that the Lord in heaven showed to me the doings of the lost ones and others like them; and I saw five associations of evil ones, one association of hyenas, a second association of dogs, a third association of wolves, a fourth association of shakals, a fifth association of goats. And again he showed me five other associations of good ones, one association of sheep, a second association of doves, a third association of turtle-doves, a fourth association of bees, and a fifth association of deer. And I said to him: "Explain to me the first ones." And he said to me: "Hear with the ears of thy heart." Those that are like the hyenas which thou hast seen are those monks who abide with their brethren of the association as far as their names are concerned, but their actions are like those of the hyena. They spend the day fasting with the holy brethren, and in the evening, at the time for sleeping, instead of the watch of the night, they go
+
+[p. 687]
+
+forth in the darkness like a hyena. And they go into the cloister of the nuns for the desire of their bellies and filling themselves they tear to pieces the poor sheep of Christ and knowingly they commit fornication with a woman that is a monk like themselves, and through her they ensnare the ship of their souls eternally, and the wing of their monasticism is broken. Woe to him, if he does not turn in repentance: praised be Christ who has given repentance for the forgiveness of sins.
+
+And again the association of dogs which thou hast seen are those monks who, while they abide in the association, accumulate possessions for themselves, be they great or small, be they strings for musical instruments or shoemakers ' awl or a needle without the permission of their teachers. And they are like dogs, for a dog does not leave anything that he finds, whether offal or a mouse or a grasshopper or any worms: there is nothing that he casts aside. But these monks, on account of their actions, are like the dogs.
+
+And further, those that thou hast seen as an association of wolves are those monks who spend the day in hunting after words, cutting with the knives of their tongues the flesh of their neighbor, like the wolves, by associating words together against their teachers or against their neighbors. As a wolf barks and calls his companions to kill animals, thus these kill the souls of men with their tongues. And on this account they are similar to the picture of wolves; and blessed is the man who is able to withdraw himself from this judgment which we have mentioned.
+
+And the association of the shakals are those monks who are similar as associates, both outwardly and inwardly, to shakals, and they eat alone, and the shakals too have the habit of eating alone everything that they find, and do not associate in eating, for they are insatiable in their eating. And thus are these monks: there are some who eat in going out of the associa tion house, and there are some who eat before they enter the associatior house, for themselves alone and each one with his beloved Satan. And on this account they are similar to the picture of unclean shakals. And I said to him who appeared to me: "My Lord, to what point does all this insatiable appetite of the flesh lead?" And he said to me: "Verily, I say unto thee, exceedingly heavy will be their judgment. Woe to that monk who is caught in this wicked net, if he die without repentance."
+
+And the association of goats are monks and members of an association who see their fellow-monks doing wrong and follow their footsteps, like goats when a panther comes and seizes one of them, they all go to that rapacious panther and he destroys all the goats. And thus too these monks are not on their guard when they see the murder of their neighbor by Satan, their enemy. And when they see a fornicator, they commit fornication. like them; and when a calumniator, they join in with his evil work; and when they are present at the neglect of fasting or anything else. And on this account they are similar to the goats; they are like sinners. And Í hearing this, was astonished on account of it; and I said to him: "Explain to me the second five associations."
+
+[p. 688]
+
+And he said to me, Hear with the ear of wisdom and rejoice on their account. And these first, who are similar to sheep, are those monks of the associations who eat together, without separating from each other, with love [for each other] like one soul. And during prayer and the Holy Supper and baptism and during all the good doings they are associated without separation, like the sheep. And thus too it is the habit of the sheep that they eat together, and also when they go down to drink water or to pasture, they do not separate each for himself, but are together in all their wanderings. And these monks are similar to the sheep also in the association of the walk. But sheep have also another habit: when they see a panther seizing one of them, they scatter each for himself, and the murderer does not meet with them. Thus these holy ones, when they see one monk of their companions either in fornication or in boasting or in haughtiness or in slander, they are on their guard that the murderer of souls does not seize them. And thus thou seest these holy and white sheep of the Gospel. Blessed are they who follow this part.
+
+And again like doves are those monks of the associations, gentle as a dove, with knowledge and wisdom and love for their neighbor: those who revile and slander them, they love like their own souls. For the doves fly very easily, and these holy ones make their wings easy in the beauty of their deeds as monks. For it is related of the doves, that when their young are taken away, they are not desirous of vengeance; and thus these, although they know everything, do not take vengeance on men. And on this account thou seest them in the similarity of easy-flying doves; and while they are in the flesh, they fly with the white wings of the spirit.
+
+And again those whom thou seest in the similarity of turtle-doves, these too are an association of monks: priests and deacons and psalm-singers and holy ones who sing with a sweet voice and pleasant manner, without any haughtiness or glorying: in spiritual humility, with fear and trembling and flowing of tears, they sit singing psalms in the Christian Church to the honor of the Creator, until they perspire. And on this account they are like turtle-doves, for the voice of the turtle-dove is sweet; and on this account the bride says through the mouth of Solomon, the prophet: The voice of a turtle-dove is heard in our land. And on this account these are similar to this picture. Blessed are the priests who follow this part. And those again who are like the bees are monks belonging to the associations, wise as bees. And as a bee gathers honey out of all flowers, thus these sit collecting the deeds of righteousness from the struggles of the saints. And on this account they are similar to the bees.
+
+And further those in the similarity of deer, are those monks of the associations who constantly serve with running like the deer without fatigue, be it for the Church or for the association house or for the house of the Lord, but not for the house of man. For our Lord himself in the Gospel: Where two or three are gathered in my name, there I am in their midst. And not then will the words of Christ be made false, for the Saviour is
+
+[p. 689]
+
+thus not separated from the midst of the association. May it be very well with you, O brethren, with the Creator, all the days of your lives. And he who serves inside of the house and outside does not serve man, but serves God; and he who stands at table time near the holy ones, does not stand for them, but for the Son of the Father, the Head of the association, who is in their midst. To his remembrance belong honor and glory and worship. Blessed are ye, my children. If ye observe this [ordinance] and do it, ye will find my voice on that day at the narrow portal during the terrible judgment. And he, the Lord, will aid you to do this commandment, to whom be glory to all eternity, Amen. GEORGE H. SCHODDE.

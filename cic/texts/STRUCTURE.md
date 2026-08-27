@@ -3673,6 +3673,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 85,172 | 85,172 | origen_philocalia_lewis1911 |
 
+## `pachomius_rules-ethiopic_schodde1885.txt`
+
+1 section(s) to level 2 · ~7,320 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 7,320 | 7,320 | pachomius_rules-ethiopic_schodde1885 |
+
 ## `palladius_lausiac-history_clarke1918.txt`
 
 1 section(s) to level 2 · ~48,643 words of text · ~0 words of apparatus

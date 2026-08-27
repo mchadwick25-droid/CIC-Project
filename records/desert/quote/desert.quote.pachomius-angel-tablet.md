@@ -25,6 +25,8 @@ relations:
   target: desert.story.pachomius-founding
 - type: associated-with
   target: desert.figure.pachomius
+- type: associated-with
+  target: desert.quote.ethiopic-rule-eat-and-drink
 ---
 Verified verbatim 2026-08-22 against the vendored file (ch. XXXII, line
 397). Added per Step 4 Round 1 review Finding S6, which found

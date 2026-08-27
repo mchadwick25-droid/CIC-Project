@@ -36,6 +36,10 @@ relations:
   target: desert.gravity.authority-tension
 - type: associated-with
   target: desert.quote.pachomius-angel-tablet
+- type: associated-with
+  target: desert.quote.rule-for-the-weak
+- type: associated-with
+  target: desert.story.angel-hands-the-tablet
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative) for the founding's broad outline and datable range; the vision and brass-tablet legend inside it carry Palladius's own hagiographic frame, which this record's own tellable_as and text mark rather than present as neutral incident report."
 tellable_as: "how one man's own solitary path became a rule for many - a vision, a tablet, and a community that grew to thousands"

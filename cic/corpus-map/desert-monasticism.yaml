@@ -111,6 +111,22 @@ works:
     (era 2, c. 360-450) was added to the census on record, and this work now names it rather
     than the Merovingian entry it antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+- work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
+  author: ethiopic_homily_on_the_ten_associations
+  locus: pp. 685-689; "And again a third ordinance"; the five evil associations (hyenas, dogs,
+    wolves, shakals, goats) and the five good (sheep, doves, turtle-doves, bees, deer)
+  role: tradition
+  confidence: assigned
+  note: 'MAY NOT BE ATTRIBUTED TO PACHOMIUS, and the anonymous work-entity slug says so. Schodde
+    calls it "really no collection of rules at all, but only a kind of symbolical homily on
+    the character and duty of the monastic brethren", knows no copy in any other language,
+    and dates it late with Dillmann on the evidence that it dwells at length on false members.
+    Its value is exactly that: it is a coenobitic house looking at its own decay from the
+    inside, in the only language that preserved it. Cite it as the late Ethiopic homily, never
+    as Pachomian legislation.
+
+    '
+  source_file: pachomius_rules-ethiopic_schodde1885.txt
 - work: Letter XXII (To Eustochium, on virginity)
   author: jerome
   locus: div2 5.22 - 'To Eustochium', n=XXII, ~18,609 words
@@ -134,6 +150,43 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- work: The Rules of Pachomius, Part I (the angel's ordinance)
+  author: pachomius
+  locus: pp. 681-683; "In the name of the holy Trinity. The ordinance which the angel of the
+    Lord commanded to Abba Pachomius"
+  role: tradition
+  confidence: assigned
+  note: 'THE FIRST QUOTABLE PACHOMIAN LEGISLATION IN THIS CORPUS. Until now this world held
+    the Pachomian foundation only through reports of it - Palladius, Sozomen, Cassian - and
+    twelve records leaned on a source that could be consulted but never quoted. Schodde translates
+    the Ethiopic, which he says "is, as we have seen, the same as the Greek form, which reaches
+    up almost to the days of Pachomius himself, and if not verbatim from his pen, are yet
+    authentic enough for all practical purposes". Quote it as Pachomian-foundation legislation
+    in the Ethiopic recension, never as Pachomius'' own words.
+
+    A CORRECTION THIS FILE FORCES: the angel and the iron tablet are inside the rule document
+    itself, not merely in Palladius'' and Sozomen''s framing of it. Records describing the
+    frame as belonging to the reports rather than to the text were wrong.
+
+    '
+  source_file: pachomius_rules-ethiopic_schodde1885.txt
+- work: The Rules of Pachomius, Part II (the second word of the holy Pachomius)
+  author: pachomius
+  locus: pp. 683-685; "In the name of the Father and of the Son and of the Holy Ghost. An
+    ordinance and command of the holy Abba Pachomius"
+  role: tradition
+  confidence: assigned
+  note: 'Pachomian-tradition legislation of uncertain date, and it must be cited as that rather
+    than as Part I''s peer. Schodde places its Greek in an unprinted Florentine MS and its
+    Latin in the Acta Sanctorum. This is the practical horarium - the ell of distance between
+    walking brethren, the ban on conversing in the bakery, the two undergarments and the shaggy
+    cloak, the novice kept in the vestibule until he has learnt the prayer of the Gospel.
+    It also carries the women''s house: Pachomius'' sister, the dwelling a mile across the
+    river, one hundred and eighty women against three hundred and forty men, and the command
+    that neither see the other''s face nor hear the other''s voice.
+
+    '
+  source_file: pachomius_rules-ethiopic_schodde1885.txt
 - work: Lausiac History
   author: palladius
   locus: whole work (single-work volume)
@@ -163,6 +216,22 @@ works:
 
     '
   source_file: palladius_paradise-v1-syriac_budge1907.txt
+- work: Schodde's introduction to the Rules (1885)
+  author: schodde
+  locus: pp. 679-681, including Sozomen's summary in Valesius' Latin and the Acta Sanctorum
+    notice
+  role: context
+  confidence: assigned
+  note: 'Nineteenth-century editorial apparatus, not an ancient source, and marked `context`
+    for that reason. Its use is that it states the relationship between the recensions - the
+    194-article Latin Regula in Holste, Gazaeus'' 128-article rearrangement, Dillmann''s Ethiopic,
+    the shorter list in Palladius and Sozomen - which is how this world can say what it is
+    quoting instead of calling it "the Rule of Pachomius" flatly. Schodde also disposes of
+    the Jerome attribution on internal evidence: Orsiesius and Theodorus, Pachomius'' own
+    pupils, are named in the Latin as having aided the composition.
+
+    '
+  source_file: pachomius_rules-ethiopic_schodde1885.txt
 - work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),
