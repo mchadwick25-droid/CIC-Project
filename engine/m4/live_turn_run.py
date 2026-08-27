@@ -13,6 +13,7 @@ from pathlib import Path
 
 import yaml
 
+from engine.api.wiring import history_from_transcript
 from engine.m4.turn import run_turn
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.usage import SYSTEM_SESSION_ID
@@ -71,8 +72,39 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
     client = make_client(region)
 
     scenarios = SCENARIOS if messages is None else [{"id": f"message-{i+1}", "message": m} for i, m in enumerate(messages)]
+
+    # One session across the --message scenarios, not N independent first
+    # turns. Repeated --message used to be sent with history=None every
+    # time, so the voice had never heard the last thing it said and a
+    # follow-up ("you mentioned X - say more") could not have worked no
+    # matter how well the system was built. That would have made a memory
+    # probe come back false for the wrong reason.
+    #
+    # The three fixture SCENARIOS keep the old independent-turn behaviour
+    # (carry_session below): two of them are deliberately the SAME crisis
+    # message sent twice, which is three probes of one path, not a
+    # conversation - threading them would make the third turn a repeat the
+    # voice can see, and change evidence this file exists to produce.
+    #
+    # The transcript is folded here in the same shape SessionState.transcript
+    # carries (engine.m4.projection._fold) and passed through the same four
+    # derivations the real API makes in engine.api.wiring.handle_message -
+    # history_from_transcript is imported rather than re-implemented, so an
+    # evidence run and a participant's real session can never disagree about
+    # what the voice remembers. This module still makes no store writes: the
+    # transcript lives for the length of the run and is thrown away.
+    carry_session = messages is not None
+    transcript: list[dict] = []
     results = []
     for scenario in scenarios:
+        told = {
+            rid for turn in transcript
+            for citation in (turn.get("citations") or [])
+            for rid in citation.get("record_ids", [])
+        }
+        bridged_figures = {f["id"] for turn in transcript for f in (turn.get("figures_used") or [])}
+        bridged_glosses = {g["id"] for turn in transcript for g in (turn.get("glosses") or [])}
+        history = history_from_transcript(transcript) if carry_session else []
         result = run_turn(
             session_id=SYSTEM_SESSION_ID,
             voice_client=client,
@@ -84,8 +116,20 @@ def run(region: str, *, world_key: str = "fix", messages: list[str] | None = Non
             pressed={},
             anachronistic_term_ids=set(),
             force_empty_stream=scenario.get("force_empty_stream", False),
+            already_told_ids=told if carry_session else None,
+            already_bridged_figure_ids=bridged_figures if carry_session else None,
+            already_bridged_gloss_ids=bridged_glosses if carry_session else None,
+            history=history,
         )
-        results.append({"id": scenario["id"], "message": scenario["message"], "result": _turn_result_to_dict(result)})
+        transcript.append({"speaker": "participant", "text": scenario["message"]})
+        if result.voice_event:
+            transcript.append({"speaker": "representative", **result.voice_event})
+        results.append({
+            "id": scenario["id"],
+            "message": scenario["message"],
+            "prior_turns_replayed": len(history) // 2,
+            "result": _turn_result_to_dict(result),
+        })
 
     crisis_entries = [r for r in results if r["result"]["routing_action"] == "safety_turn"]
     report = {
