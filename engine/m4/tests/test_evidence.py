@@ -535,3 +535,62 @@ def test_retrieve_when_is_not_searched_by_the_fulltext_fallback():
     searched = _fallback_search_text(record)
     assert "bread" in searched
     assert "believed" not in searched
+
+
+# ---- short-query single-word tier (added 2026-08-27) --------------------
+SHORT_CANON = {
+    **CANON_QUESTIONS,
+    "fleet.canon.q-marriage": {
+        "id": "fleet.canon.q-marriage", "record_type": "canon_question", "cell": "F1-E",
+        "text": "What did marriage mean to your people - did you have weddings?",
+    },
+}
+
+
+def test_short_query_may_match_on_one_discriminating_canon_word():
+    # "What did you think of marriage?" has two content words and shares
+    # exactly one with exactly the right cell. Requiring two is requiring
+    # the impossible.
+    matches = match_asks_to_cells(
+        message="What did you think of marriage?", asks=None,
+        canon_questions=SHORT_CANON, repository_records=None,
+    )
+    assert [m["cell"] for m in matches if m.get("matched_by") == "single-word"] == ["F1-E"]
+
+
+def test_long_query_still_needs_two_shared_words():
+    # The relaxation is for short queries only. A lone shared word among
+    # many is the noise the two-word floor exists to reject.
+    matches = match_asks_to_cells(
+        message="I have been wondering lately about weddings and whether anyone here bothered with marriage at all",
+        asks=None, canon_questions=SHORT_CANON, repository_records=None,
+    )
+    assert not [m for m in matches if m.get("matched_by") == "single-word"]
+
+
+def test_short_query_will_not_match_on_a_word_spread_across_cells():
+    # Measured: "Do you like pizza?" reached two cells on `like`, which is
+    # in seven of the fleet's 28 canon cells and picks a cell by coin-toss.
+    spread = {
+        f"fleet.canon.spread{i}": {
+            "id": f"fleet.canon.spread{i}", "record_type": "canon_question", "cell": cell,
+            "text": "Did you like the way things were done?",
+        }
+        for i, cell in enumerate(["C-E", "F1-E", "C-I", "F2-I"])
+    }
+    matches = match_asks_to_cells(
+        message="Do you like pizza?", asks=None,
+        canon_questions={**CANON_QUESTIONS, **spread}, repository_records=None,
+    )
+    assert not [m for m in matches if m.get("matched_by") == "single-word"]
+
+
+def test_single_word_tier_never_displaces_a_stronger_match():
+    # Ordering is this tier's whole safety. Measured on ijc: run before the
+    # hint tier, a 0.5 single-word canon match took a slot ahead of a 1.0
+    # two-word hint match and pushed out the cell that actually answered
+    # the question. A turn already reaching cells must be unchanged.
+    msg = "What did your community actually have about Jesus - writings, memories, people?"
+    before = match_asks_to_cells(message=msg, asks=None, canon_questions=CANON_QUESTIONS, repository_records=None)
+    after = match_asks_to_cells(message=msg, asks=None, canon_questions=SHORT_CANON, repository_records=None)
+    assert [m["cell"] for m in before] == [m["cell"] for m in after]

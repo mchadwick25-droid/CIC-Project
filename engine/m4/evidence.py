@@ -99,6 +99,46 @@ def degradation_statement(turn_evidence: dict) -> str:
 # than being forced onto the closest available one.
 _MIN_ASK_MATCH_WORDS = 2
 
+# ...but a query cannot be asked to share more words than it has.
+# Measured 2026-08-27 on the 60-question reach benchmark: of nine
+# questions returning an entirely empty ground, four shared exactly one
+# word with exactly the right cell and were discarded before scoring.
+# desert's "What did you do all day?" has ONE content word, `day`, and
+# F5-I is "Walk me through an ordinary day among your people, from waking
+# to sleeping"; hal's "What did you think of marriage?" has two, and F5-T
+# is "What did marriage mean to your people - did you have weddings?".
+# Requiring two shared words there requires the impossible.
+#
+# TWO GUARDS, both put in after the first draft of this relaxation broke
+# exactly what the constant above was defending. With the floor simply
+# lowered for short queries, "Do you like pizza?" reached C-P and F4-P on
+# `like`, "Can you write me some code?" reached two cells on `write`, and
+# "Tell me a joke." reached one on `tell` - the off-canon turns the
+# original comment says must stay free to resolve to no cell.
+#
+#   CANON VOCABULARY ONLY. A lone word may decide a cell only if the
+#   fleet's own canon questions use it. That corpus is 86 hand-written
+#   questions - small, deliberate, fleet-owned. The hint and stem
+#   vocabularies are neither: hints are world-specific and, measured the
+#   same day, carry ordinary verbs (`write`) from the phrasing of the
+#   hints themselves, and stems are approximations (`tell` reached a cell
+#   by stem alone). Both stay at the two-word floor.
+#
+#   AND THE WORD MUST DISCRIMINATE. `like` is in 7 of the 28 canon cells
+#   and picks a cell by coin-toss; `day` is in 2, `marriage` 2, `dying`
+#   1, `true` 1. A word in more than _SHORT_QUERY_MAX_CELLS cells tells
+#   us nothing about which one is meant.
+#
+# This is NOT the single-distinctive-word tier this module measured out
+# (see the note further down: 24% correct against the literal matcher's
+# 31%). That tier let one word decide a cell for a query of ANY length,
+# where a lone shared word among eight is genuinely noise. This moves
+# only for one- and two-word queries, where a shared word is half or all
+# of everything the participant said, and the overlap coefficient already
+# scores it 0.5 or 1.0.
+_SHORT_QUERY_WORDS = 3
+_SHORT_QUERY_MAX_CELLS = 3
+
 # Per-type floors (design §3.2): "at minimum, when the cell has them" - a
 # guaranteed reachability budget, not a relevance cutoff, which is what
 # makes offerability (spec §4.2: stories/quotes must stay reachable in
@@ -341,22 +381,27 @@ def match_asks_to_cells(
     if not query_words:
         return []
 
-    def _rank(cell_words: dict[str, set[str]]) -> list[dict]:
+    def _rank(cell_words: dict[str, set[str]], *, allow_single: bool = False) -> list[dict]:
+        single_ok = allow_single and len(query_words) < _SHORT_QUERY_WORDS
+        discriminating = (
+            {w for w in query_words if 0 < sum(1 for ws in cell_words.values() if w in ws) <= _SHORT_QUERY_MAX_CELLS}
+            if single_ok else set()
+        )
         scored = []
         for cell, words in cell_words.items():
             shared = query_words & words
-            if len(shared) < _MIN_ASK_MATCH_WORDS:
+            if len(shared) < _MIN_ASK_MATCH_WORDS and not (single_ok and shared and shared <= discriminating):
                 continue
             score = len(shared) / min(len(query_words), len(words))
             scored.append({"cell": cell, "score": round(score, 3), "shared_words": sorted(shared)})
         scored.sort(key=lambda e: (-e["score"], e["cell"]))
         return scored
 
-    def _fill(matches, vocab, **mark):
+    def _fill(matches, vocab, *, allow_single=False, **mark):
         """Append cells this vocabulary finds, never displacing what is
         already matched - the same discipline the retrieval hints follow."""
         already = {m["cell"] for m in matches}
-        for match in _rank(vocab):
+        for match in _rank(vocab, allow_single=allow_single):
             if len(matches) >= top_n:
                 break
             if match["cell"] not in already:
@@ -392,9 +437,21 @@ def match_asks_to_cells(
     stemmed = {cell: _stems(words) for cell, words in full.items()}
     stem_query = _stems(query_words)
     saved_query, query_words = query_words, stem_query
-    matches = _fill(matches, stemmed, matched_by="stem")[:top_n]
+    matches = _fill(matches, stemmed, matched_by="stem")
     query_words = saved_query
-    return _add_entity_cell(matches, query_words, repository_records, canon_words)
+
+    # LAST, and only into slots nothing else filled. Ordering is the whole
+    # safety of this tier: run earlier, a 0.5 single-word canon match takes
+    # a slot ahead of a 1.0 two-word hint match, and measured on ijc that
+    # displaced F1-E ("I've heard a council basically voted Jesus into
+    # being God") from "What happened at the councils?" in favour of a
+    # weaker cell. Here a turn that already reached cells is bit-for-bit
+    # unchanged and only turns reaching nothing can move - the same
+    # discipline the retrieval-hint tier above follows.
+    if len(matches) < top_n:
+        matches = _fill(matches, canon_words, allow_single=True, matched_by="single-word")
+
+    return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
 
 
 # Entity routing (added 2026-08-27 on a measured failure - see

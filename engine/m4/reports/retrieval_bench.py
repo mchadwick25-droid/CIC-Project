@@ -17,6 +17,13 @@ Baseline on the day it was written (entity routing in, no quote hints):
 After hinting all 125 quotes and fixing six records that carried no
 canon_cells at all:
     290 ground / 4.8 avg / 30 cells /  9 empty / 48 quotes
+After the short-query single-word tier:
+    394 ground / 6.6 avg / 54 cells /  5 empty / 65 quotes
+
+The five that remain empty are a CORPUS gap, not an engine one: their
+words are in no cell vocabulary and no record's hints anywhere in the
+fleet - "baptised", "babies", "appointed", "bishops", "pagan", "temples",
+"neighbours". Nothing in the router can reach a word nobody wrote down.
 
 Run: python3 engine/m4/reports/retrieval_bench.py
 """
