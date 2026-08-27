@@ -3681,6 +3681,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 48,643 | 48,643 | palladius_lausiac-history_clarke1918 |
 
+## `palladius_paradise-v1-syriac_budge1907.txt`
+
+1 section(s) to level 2 · ~100,835 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 100,835 | 100,835 | palladius_paradise-v1-syriac_budge1907 |
+
 ## `webbe_world-english-bible-british-edition.xml`
 
 1 section(s) to level 2 · ~1,067,881 words of text · ~0 words of apparatus

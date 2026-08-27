@@ -30,3 +30,22 @@ stated the distinction explicitly; kept here). Until a file is vendored,
 no verbatim quotation; narrative content usable at corroborating weight
 via consult-only checking, with the travelogue screen (marvel-collecting
 visitors, numbers inflated in the genre's manner) stated wherever used.
+
+STILL NOT VENDORED, 2026-08-27 - AND THIS CORRECTS AN EXPECTATION SET
+EARLIER THE SAME DAY. Budge's Paradise vol. 1 was placed on the fetch
+list on the stated ground that it "carries Palladius plus the History of
+the Monks", which is how the archive.org record describes the printed
+volume. Mark supplied it and it is vendored as
+cic/texts/palladius_paradise-v1-syriac_budge1907.txt. IT DOES NOT
+CONTAIN THIS WORK.
+
+What the file actually holds: Budge's 1907 Preface and Introduction, the
+Syriac Life of Antony, and Palladius Book I, ending "Here endeth the
+first Book". Budge's Introduction summarises the contents of Books I AND
+II and lists the Askêtikon among the Mosul manuscript's contents - which
+is what the catalogue description was drawn from - but Book II's text is
+not printed in the file supplied.
+
+So this source remains consult-only and unquotable, and the honest limit
+it carries stands. If the rest of the printed volume is ever obtained,
+this is the first thing to look for in it.

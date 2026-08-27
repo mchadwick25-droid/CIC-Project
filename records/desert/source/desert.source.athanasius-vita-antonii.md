@@ -53,3 +53,12 @@ cross-build flag (world/alexandria). In THIS world the text is a primary
 narrative source about the world's own founding figure; the question of
 whether desert formation logic is Alexandria's own is worked at this
 build's gravity discovery, not assumed from this text.
+
+SYRIAC WITNESS VENDORED 2026-08-27:
+cic/texts/palladius_paradise-v1-syriac_budge1907.txt opens with the Life
+of Antony in the Syriac recension - about 14,800 words against roughly
+32,000 in the NPNF Greek this record is built on. IT IS ABRIDGED, and
+that is worth knowing rather than filing away: this world's central
+biography demonstrably circulated in materially different lengths in
+different linguistic traditions. Any claim resting on a passage's
+presence or absence should say which recension it is reading.

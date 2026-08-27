@@ -200,6 +200,18 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
+  budge:
+    kind: metadata-omission
+    evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor
+      has nothing to match. The author is not in doubt: the vendored file''s second line reads
+      "translated by Ernest Alfred Wallis Budge", the Preface is signed "E. A. WALLIS BUDGE.
+      British Museum, June 5, 1907", and Mark supplied the full bibliographic citation naming
+      him. The slug is used ONLY for the 1907 Preface and Introduction - Budge''s own editorial
+      apparatus, assigned as `context`. It is never used for the ancient texts he translated,
+      which are Palladius'' and Athanasius''.
+
+      '
+    from_file: palladius_paradise-v1-syriac_budge1907.txt
   canonical-epistles-fathers:
     kind: anonymous
     evidence: 'div1 17 gathers, per its title, "Canons and Rulings not having Conciliar Origin

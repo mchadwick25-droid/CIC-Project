@@ -48,3 +48,21 @@ the Rule's text. Textual note: the Greek original has a complex reception
 history including an expanded Latin recension; Clarke translates the
 shorter Greek text as critically established (Butler); not independently
 re-adjudicated here.
+
+SECOND WITNESS VENDORED 2026-08-27:
+cic/texts/palladius_paradise-v1-syriac_budge1907.txt - Palladius Book I
+in the SYRIAC recension Budge copied at Mosul in 1888, alongside the
+Greek-based Clarke translation this record already names. Where the two
+differ, the difference is evidence about transmission rather than a
+problem to resolve, and a quote from either must say which it is from.
+
+ITS DISTINCTIVE CONTENT FOR THIS WORLD is Chapter xxxv onward, "The
+Triumphant Deeds and Exploits and Histories of Holy Women" - roughly
+fifteen women with their own chapters (Melania the Great and the
+Younger, Olympias, Talida the old woman of Antinoe, Piamon, Taor, Thais,
+Candida, Gelasia, Juliana, Magna and others), carrying about ten
+instances of reported speech. THIS IS NOT AMMA MATERIAL AND MUST NOT BE
+TREATED AS THOUGH IT WERE. These are lives narrated by a man who visited
+some of them; the speech is incidental to episodes rather than
+transmitted as teaching. The Apophthegmata's ammas are a different
+evidential object, and this world still has exactly one of them.

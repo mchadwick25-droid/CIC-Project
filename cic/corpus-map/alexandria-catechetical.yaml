@@ -252,6 +252,20 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
+- work: The Life of Saint Anthony by Athanasius (Syriac recension)
+  author: athanasius
+  locus: from "The Life of Saint Anthony, by Athanasius, Archbishop of Alexandria"; about
+    14,800 words
+  role: tradition
+  confidence: assigned
+  note: 'The Syriac Vita, ABRIDGED - about 14,800 words against roughly 32,000 in the NPNF
+    Greek at npnf204, which both these entries already hold. Carried as a second witness for
+    comparison rather than as a source to quote in preference: where the Syriac is shorter,
+    that is a fact about transmission worth being able to show, and this world''s central
+    biography being demonstrably variable between traditions is worth a participant knowing.
+
+    '
+  source_file: palladius_paradise-v1-syriac_budge1907.txt
 - work: The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to
     Ruffinian)
   author: athanasius

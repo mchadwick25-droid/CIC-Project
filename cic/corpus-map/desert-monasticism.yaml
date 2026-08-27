@@ -30,6 +30,20 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
+- work: The Life of Saint Anthony by Athanasius (Syriac recension)
+  author: athanasius
+  locus: from "The Life of Saint Anthony, by Athanasius, Archbishop of Alexandria"; about
+    14,800 words
+  role: tradition
+  confidence: assigned
+  note: 'The Syriac Vita, ABRIDGED - about 14,800 words against roughly 32,000 in the NPNF
+    Greek at npnf204, which both these entries already hold. Carried as a second witness for
+    comparison rather than as a source to quote in preference: where the Syriac is shorter,
+    that is a fact about transmission worth being able to show, and this world''s central
+    biography being demonstrably variable between traditions is worth a participant knowing.
+
+    '
+  source_file: palladius_paradise-v1-syriac_budge1907.txt
 - work: Vita Antonii (Life of Antony)
   author: athanasius
   locus: div1 'Life of Antony'
@@ -42,6 +56,19 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
+- work: Budge's Preface and Introduction to the Paradise (1907)
+  author: budge
+  locus: the opening front matter - the Mosul manuscript's discovery and contents, and Palladius'
+    life and travels
+  role: context
+  confidence: assigned
+  note: 'Nineteenth-century editorial apparatus, not an ancient source, and marked `context`
+    for that reason. Its use is provenance: Budge describes the manuscript he copied at Mosul
+    in 1888 and lists what it contained, which is how this world can state where its own newly
+    vendored text comes from rather than asserting it.
+
+    '
+  source_file: palladius_paradise-v1-syriac_budge1907.txt
 - work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
   locus: div2 4.7 — The Seven Books on the Incarnation
@@ -118,6 +145,24 @@ works:
 
     '
   source_file: palladius_lausiac-history_clarke1918.txt
+- work: The Paradise of Palladius, Book I (Syriac recension)
+  author: palladius
+  locus: from "The Paradise of Palladius"; sixty-six chapters, including Chapter xxxv "The
+    Triumphant Deeds and Exploits and Histories of Holy Women"
+  role: tradition
+  confidence: assigned
+  note: 'A SECOND WITNESS, not a replacement: this world already holds Palladius in Clarke''s
+    Greek-based English (palladius_lausiac-history_clarke1918.txt). This is the Syriac recension
+    Budge copied at Mosul in 1888, and where the two differ the difference is itself evidence
+    about transmission. Its distinctive value here is Chapter xxxv onward - roughly fifteen
+    named women with their own chapters (Melania the Great and the Younger, Olympias, Talida
+    of Antinoe, Piamon, Taor, Thais, Candida, Gelasia, Juliana, Magna and others), with about
+    ten instances of reported speech. THAT IS WOMEN''S LIVES NARRATED BY A MAN, NOT AMMA SAYINGS
+    - a different evidential object from the Apophthegmata, and it does not close this world''s
+    women''s-own-words gap.
+
+    '
+  source_file: palladius_paradise-v1-syriac_budge1907.txt
 - work: The Ecclesiastical History of Socrates Scholasticus
   author: socrates
   locus: div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom),
