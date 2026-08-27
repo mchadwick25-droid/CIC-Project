@@ -15,6 +15,9 @@ confidence:
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "scattered sayings (strongest in the Strand A/C material)"
+- source_id: desert.source.cassian-conferences
+  locus: Conf. XXIV, Abraham reporting Antony on the monk who lived near his relations
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:

@@ -17,6 +17,9 @@ sources:
   locus: "scattered sayings"
 - source_id: desert.source.evagrius-praktikos
   locus: "the systematic development within Strand C (consult-only)"
+- source_id: desert.source.cassian-conferences
+  locus: Conf. XXIV ch. VI, Abraham on guarding the thoughts (the arch drawn from its centre)
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
