@@ -83,6 +83,21 @@ works:
     was Greek, because the Syriac mistranslates it in places. Syriac scribes are why it exists
     at all; the argument in it is not theirs.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
+  author: anan-isho
+  locus: the recension itself, as a Syriac act of collection and preservation
+  role: transmission
+  confidence: assigned
+  note: 'CUSTODY, NOT VOICE, which is what this role was defined for. The sayings are Egyptian
+    and their voices belong to desert-monasticism. This corpus exists in the form the world
+    can read because a seventh-century monk of Beth ''Abhe gathered the Syriac versions into
+    one book, and because East Syriac scribes went on copying it. The work originates outside
+    this entry and this entry''s people are why we still have it - the boundary the role carries.
+    Budge translated ''Anan-Isho''s recension, so the English every later reader uses descends
+    from that Syriac act of collection rather than from the Greek tradition.
+
+    '
+  source_file: anan-isho_paradise-v2-sayings_budge1907.txt
 - work: 'Demonstration II: On Love'
   author: aphrahat
   locus: 'second piece in file, heading "Aphrahat, Demonstration II: On Love. Journal of the

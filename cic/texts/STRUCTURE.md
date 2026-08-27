@@ -15,6 +15,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 17,242 | 17,242 | addai_doctrine-of-addai |
 
+## `anan-isho_paradise-v2-sayings_budge1907.txt`
+
+1 section(s) to level 2 · ~166,443 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 166,443 | 166,443 | anan-isho_paradise-v2-sayings_budge1907 |
+
 ## `anf01_apostolic-fathers-justin-irenaeus.xml`
 
 67 section(s) to level 2 · ~486,326 words of text · ~21,877 words of apparatus

@@ -31,7 +31,18 @@ CONSEQUENCE FOR THE ACQUISITION CASE. Budge vol. 2 remains the only
 complete public-domain sayings corpus in English and is still worth
 fetching. But it is the Syriac recension, and whether it carries the
 ammas is UNVERIFIED - the first thing to check when a file lands is
-whether Theodora, Sarah and Syncletica are in it. If they are not, this
-world's gender axis cannot be closed from any public-domain source that
-presently exists, and the honest limit at
-desert.limit.f5-women-own-words becomes permanent rather than pending.
+whether Theodora, Sarah and Syncletica are in it.
+
+ANSWERED THE SAME DAY. Mark supplied Budge and it is vendored. SARAH IS
+IN IT - six sayings under the name "Mother Sarah". SYNCLETICA AND
+THEODORA ARE NOT, under any spelling. So this world's gender axis is
+narrowed and not closed, and on everything presently public domain it
+cannot be closed further: the Greek alphabetical collection is where the
+other two ammas live, and this search is why no English of it can be
+vendored.
+
+(Also corrected 2026-08-27: an earlier draft of this note pointed at
+`desert.limit.f5-women-own-words`, which does not exist in this world -
+that record is syr's and alx's. Desert carries the caution in its
+registry thinness_statement, in desert.figure.sarah, and in
+desert.demo.identity-collision-womens-authority.)

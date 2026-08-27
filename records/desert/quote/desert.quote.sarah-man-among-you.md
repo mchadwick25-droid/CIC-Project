@@ -5,26 +5,57 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F6-P]
+canon_cells:
+- F6-P
 confidence:
-  citation_specificity: C
-  verification_state: verified-via-authority
-  evidentiary_weight: corroborating
-  formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.sarah-answer's own rating - Inferential/Thin for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound. No vendored edition exists for this source; license is paraphrase-only for that reason, per that source's own hard rule that no citation of it may claim verbatim status."
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+  divergence_note: 'The saying is secure in this recension. What is NOT secure is the fuller Greek form:
+    the clause about being a woman by nature but not by thought is absent here, and no public-domain English
+    of the Greek exists to check it against. Anything resting on that clause stays unquotable.'
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Sarah, Alphabetical Collection - a widely attested saying of Amma Sarah's, given here in plain English rather than a specific published translation's own wording"
-text: "By nature I am a woman, but not by my own thoughts. It is I who am the man here, and you who are the women."
+  locus: §525 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 2429) - Budge's Syriac recension
+    of 'Anan-Isho', whose numbering and wording differ from the Greek alphabetical collection
+  license: public-domain
+text: Mother Sarah used to say to her brethren, “It is I who am a man, and ye who are women.”
 speaker_or_author: desert.figure.sarah
-license: paraphrase-only
-modern_lens_note: "\"Man\" and \"women\" operate here as this world's own gendered virtue-categories (courage and steadfastness coded \"man,\" weakness coded \"woman\"), not a claim about gender identity in the modern sense. Stated plainly as a vocabulary point; this field does not soften or reframe what Sarah's own words claim."
+license: verbatim
+modern_lens_note: '"Man" and "women" operate here as this world''s own gendered virtue-categories (courage
+  and steadfastness coded "man," weakness coded "woman"), not a claim about gender identity in the modern
+  sense. Stated plainly as a vocabulary point; this field does not soften or reframe what Sarah''s own
+  words claim.'
 relations:
 - type: associated-with
   target: desert.story.sarah-answer
 - type: associated-with
   target: desert.gravity.elder-authority
 ---
+VERBATIM AS OF 2026-08-27, AND SHORTER THAN THE PARAPHRASE IT REPLACES.
+Verified character for character against the newly vendored Budge at line
+2429, §525.
+
+WHAT CHANGED, AND IT IS NOT A FORMALITY. The paraphrase this record
+carried read: "By nature I am a woman, but not by my own thoughts. It is
+I who am the man here, and you who are the women." THE FIRST SENTENCE IS
+NOT IN THIS RECENSION. It belongs to the Greek alphabetical collection
+(Sarah 4), whose only English translations are in copyright and which
+this world therefore cannot vendor - see
+desert.search.greek-alphabetical-pd-english. The paraphrase had been
+carrying a Greek-tradition clause under a licence that could not be
+checked against anything.
+
+THE LOSS IS REAL AND IS NOT SMOOTHED. The dropped sentence is the half
+that most clearly frames the saying as Sarah's own comment on her sex,
+rather than only a rebuke to the brothers. Without it the line is blunter
+and more ambiguous. That is what the Syriac says. A world that kept the
+fuller wording because it preferred it would be choosing its evidence.
+
+The modern_lens_note stands unchanged: "man" and "women" are this world's
+gendered virtue-categories, not a claim about gender identity.
+
 Paraphrase, not verbatim quotation - desert.source.apophthegmata-patrum
 carries no vendored edition, and this build's own hard rule bars any
 verbatim-quote claim against it. The wording restates the saying's
