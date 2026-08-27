@@ -3,6 +3,22 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: greek-apologists-second-century
 works:
+- work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
+  author: ambrose-hypomnemata
+  locus: div2 9.18
+  role: tradition
+  confidence: provisional
+  note: 'Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
+    per the volume''s endnote). It is Christian apologetic, not Edessene as such; syr marks
+    only where the Syriac transmission preserved it. Needs a ruling — arguably belongs with
+    the Greek apologists, who sit in other volumes. Ruled 2026-08-26: this is Greek apologetic
+    that survives only in Syriac - the volume''s own headnote says the original was Greek,
+    because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
+    to the Greeks. So greek-apologists-second-century is added, which is where the argument
+    belongs, and syriac-edessa-nisibis is kept, which is how it reached us. `provisional`
+    because the APOLOGIST half is a date question - the entry''s window is 124-200 and this
+    piece is undated - not because the Syriac half is in doubt.'
+  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Apology of Aristides the Philosopher
   author: aristides
   locus: div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)

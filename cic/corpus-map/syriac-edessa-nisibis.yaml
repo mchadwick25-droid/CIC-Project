@@ -67,13 +67,17 @@ works:
   author: ambrose-hypomnemata
   locus: div2 9.18
   role: tradition
-  confidence: needs-ruling
+  confidence: provisional
   note: 'Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
     per the volume''s endnote). It is Christian apologetic, not Edessene as such; syr marks
     only where the Syriac transmission preserved it. Needs a ruling — arguably belongs with
-    the Greek apologists, who sit in other volumes.
-
-    '
+    the Greek apologists, who sit in other volumes. Ruled 2026-08-26: this is Greek apologetic
+    that survives only in Syriac - the volume''s own headnote says the original was Greek,
+    because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
+    to the Greeks. So greek-apologists-second-century is added, which is where the argument
+    belongs, and syriac-edessa-nisibis is kept, which is how it reached us. `provisional`
+    because the APOLOGIST half is a date question - the entry''s window is 124-200 and this
+    piece is undated - not because the Syriac half is in doubt.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: 'Demonstration II: On Love'
   author: aphrahat
@@ -341,25 +345,34 @@ works:
   author: pseudo-clement
   locus: div2 6.4
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Same ruling and same doubt as the Recognitions: pseudonymous Clement romance with
     Jewish-Christian theology (the True Prophet, anti-Pauline edge), Syrian provenance c.
-    300-320.
-
-    '
+    300-320. Ruled 2026-08-26. BOTH placements stand, and they are not in competition: ebionite-nazoraean-current
+    because the Kerygmata Petrou source-stratum behind the Clementina is the principal window
+    onto Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
+    which exists for exactly a disputed record; syriac-edessa-nisibis because composition
+    in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
+    hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
+    same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Recognitions of Clement
   author: pseudo-clement
   locus: div2 6.3
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
     Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
     sources (Kerygmata Petrou etc.) to Jewish-Christian circles — hence ebionite-nazoraean-current
     — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr.
-    Both placements need Mark''s ruling; the Latin survives via Rufinus.
-
-    '
+    Both placements need Mark''s ruling; the Latin survives via Rufinus. Ruled 2026-08-26.
+    BOTH placements stand, and they are not in competition: ebionite-nazoraean-current because
+    the Kerygmata Petrou source-stratum behind the Clementina is the principal window onto
+    Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
+    which exists for exactly a disputed record; syriac-edessa-nisibis because composition
+    in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
+    hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
+    same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Ecclesiastical History of Sozomen
   author: sozomen
@@ -432,10 +445,13 @@ works:
   author: two-epistles-on-virginity
   locus: div2 5.3-5.4
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Pseudo-Clementine ascetic letters, generally placed in 3rd-century Syria/Palestine
     and preserved in Syriac. syr is a region-and-era guess, not a demonstrated Edessene provenance;
     the ascetic-celibate milieu also touches traditions with no census entry of their own.
-
-    '
+    Ruled 2026-08-26: kept with syriac-edessa-nisibis for the Syriac preservation and third-century
+    Syrian milieu, and given apocryphal-and-pseudepigraphal-literature alongside, which is
+    what these are - pseudo-Clementine letters written under a name that is not theirs. The
+    ascetic-milieu question in the original note is not resolved by either; it is noted and
+    not forced.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

@@ -63,14 +63,7 @@ SWEEPS = {
         "and seven works moved to it. What is left here is genuinely later material placed by "
         "date-guess, not gap-parking.",
 
-    "syriac-edessa-nisibis":
-        "**The Clementine literature, and what `syr` is for.** Recognitions and Homilies sit "
-        "between `ebionite-nazoraean-current` (the Jewish-Christian source theory) and this "
-        "entry (Syrian provenance) - one ruling covers the whole Pseudo-Clementine corpus, the "
-        "Two Epistles on Virginity with it. The deeper question underneath all four works here "
-        "is whether `syr` means *Edessene* or means *transmitted in Syriac*: the Ambrose "
-        "hypomnemata is Greek apologetic that survives only in Syriac, which is a fact about "
-        "transmission, not about the tradition.",
+
     "latin-pastoral-congregational-christianity":
         "**No entry for early Latin Christianity outside Carthage.** This entry runs from the "
         "240s and is regionally North African, so four works are shelved here on language alone "
@@ -208,6 +201,14 @@ def main() -> None:
         "Noetus*, two substantial heresiological works with nowhere to point.\n"
         "- **`bardaisanite-current`** — where the entry states the creedal question rather than "
         "settling it, because the evidence genuinely does not.\n\n"
+        "**One question left open on purpose.** Three works in the Syriac pile said the same "
+        "thing in different words — `syr` was marking *where a text was preserved*, not whose "
+        "voice it is. That is a fourth relation the schema has no word for, and it generalises: "
+        "the Jewish pseudepigrapha survive only because Christian scribes kept copying them. It "
+        "was **not** added, and `cic/corpus-map/README.md` records why — a scan for it returned "
+        "25 rows that turned out to conflate three different things, and unlike `antecedent` "
+        "every work involved had an honest role available without it. An improvement, not a "
+        "necessity, so it is a ruling rather than a build thread's call.\n\n"
         "**And one ruling that added no entry at all.** The Donatists claimed Cyprian as their "
         "charter authority, and four of his works were flagged against `donatism` because "
         "neither existing role fitted: he is not a Donatist (`tradition` is false) and he died "

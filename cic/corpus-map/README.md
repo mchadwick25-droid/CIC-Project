@@ -47,6 +47,42 @@ One author can hold two relations to two entries, and Cyprian does: antecedent
 to `donatism`, context for `novatianism`. Where a single row needs both, it
 splits into two — the same shape non-exclusivity already uses.
 
+## Open: should there be a fourth role, `transmission`?
+
+**Raised 2026-08-26, deliberately not decided.** Three of the four works in the
+`syriac-edessa-nisibis` pile carried notes saying the same thing in different
+words — *"syr marks only where the Syriac transmission preserved it"*,
+*"preserved in Syriac … not a demonstrated Edessene provenance"*. What they are
+describing is a work a tradition **copied and kept** without it being that
+tradition's own voice, its opponent, or its authority. None of the three
+existing roles says that.
+
+It generalises past this pile. The Jewish pseudepigrapha in
+`apocryphal-and-pseudepigraphal-literature` — the Testaments of the Twelve
+Patriarchs, the Life of Adam and Eve, the Testament of Abraham — survive
+*only* because Christian scribes went on copying them after Judaism had let
+them go. Same relation.
+
+**Why it was not just added.** A pattern-scan of every note describing
+preservation returned 25 rows, and reading them showed the scan was conflating
+three different things:
+
+| | |
+|---|---|
+| **transmission** | this tradition preserved a text that is not its own voice — the Syriac apology, the Jewish pseudepigrapha |
+| **embedded voice** | an opponent's words survive *inside* a work of this tradition — Celsus inside Origen, Petilian inside Augustine, Mani inside Augustine |
+| **attested-by** | a lost work survives as fragments quoted by a later author — Alexander of Jerusalem via Eusebius |
+
+Only the first is a relation between an entry and a work. A fourth role added
+without that boundary drawn would be misapplied to the other two immediately,
+which is the same explosion risk `antecedent` had to be ruled against.
+
+And unlike `antecedent`, this one is **not forced**: every work in the pile had
+an honest role available without it. `antecedent` existed because four Cyprian
+works had *no* truthful role at all. This would be an improvement, not a
+necessity — so it is Mark's to rule rather than a build thread's to impose one
+turn after the last schema change.
+
 ## Why non-exclusivity is load-bearing
 
 `desert`'s most important source is Athanasius' *Vita Antonii*, and Athanasius
