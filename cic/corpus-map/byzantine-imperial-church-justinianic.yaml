@@ -27,6 +27,16 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: The Encyclical Letter of Gennadius of Constantinople and his synod
+  author: gennadius_constantinople
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.32 (~179 words)
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it. Patriarch 458-471, inside that entry's 451-622 window.
 - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213

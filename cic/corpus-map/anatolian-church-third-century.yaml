@@ -51,6 +51,18 @@ works:
     without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
     corpora detached from their attributed authors instead.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- work: The Canonical Epistle of Gregory Thaumaturgus, on those who ate with the barbarians
+  author: gregory_thau
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.7 (~495 words)
+  role: tradition
+  confidence: assigned
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
+    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
+    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
+    17.5-17.32. This row is one father''s share of it. NOTE A DUPLICATE: anf06 carries the
+    same work, already assigned to this entry. Two vendored witnesses to one text, which is
+    worth knowing before anyone counts words.'
 - work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
     fragments)
   author: methodius

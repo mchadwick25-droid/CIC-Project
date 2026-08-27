@@ -252,6 +252,17 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
+- work: The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to
+    Ruffinian)
+  author: athanasius
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.8-17.10 (3 pieces, ~903 words)
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
 - work: To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)
   author: athanasius
   locus: div1 17 — Circular to Bishops of Egypt and Libya (356)
@@ -350,6 +361,16 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- work: The canonical letter of Dionysius of Alexandria to Basilides
+  author: dionysius_gr
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.5 (~490 words)
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
 - work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — Books II-VII in particular
@@ -589,6 +610,18 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- work: The canons of Peter of Alexandria, from his Sermon on Penitence
+  author: peter_alexandria
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.6 (~551 words)
+  role: tradition
+  confidence: assigned
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
+    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
+    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
+    17.5-17.32. This row is one father''s share of it. NOTE A DUPLICATE, as with Gregory Thaumaturgus:
+    anf06 div2 9.4 carries ''The Canonical Epistle of Peter of Alexandria'' with Balsamon''s
+    commentaries, already assigned to this entry. Two vendored witnesses to one text.'
 - work: Fragments of Phileas (Epistle to the People of Thmuis; on the martyrs of Alexandria)
   author: phileas
   locus: div2 6.8
@@ -684,3 +717,26 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- work: The canons of Theophilus of Alexandria (Prosphonesus; Commonitory; to Agatho; to Menas;
+    on the Cathari)
+  author: theophilus_alexandria
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.25-17.29 (5 pieces, ~817 words)
+  role: tradition
+  confidence: provisional
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
+    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
+    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
+    17.5-17.32. This row is one father''s share of it. `provisional` on the date, not the
+    author: Theophilus died in 412 and alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-tradition
+    does not begin until 451. He falls in the gap between them.'
+- work: The Canonical Answers of Timothy of Alexandria
+  author: timothy_alexandria
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.24 (~629 words)
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.

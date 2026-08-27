@@ -84,6 +84,11 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  amphilochius:
+    kind: metadata-omission
+    evidence: div2 title 'From the Iambics of St. Amphilochius the Bishop to Seleucus'; npnf214
+      carries no DC.Creator at all, so every author in it is a metadata omission.
+    from_file: npnf214_seven-ecumenical-councils.xml
   anastasius_rome:
     kind: metadata-omission
     evidence: 'div2 5.10 title "The Letter of Anastasius, Bishop of the Church of Rome to
@@ -394,6 +399,12 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  gennadius_constantinople:
+    kind: metadata-omission
+    evidence: div2 title 'The Encyclical Letter of Gennadius, Patriarch of Constantinople'.
+      DELIBERATELY NOT the existing slug `gennadius`, which is Gennadius of MARSEILLES, who
+      continued Jerome's catalogue - a different man.
+    from_file: npnf214_seven-ecumenical-councils.xml
   gospel-of-nativity-of-mary:
     kind: anonymous
     evidence: 'div2 7.6; a Latin reworking of the Protevangelium material transmitted without
@@ -820,6 +831,17 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  theophilus_alexandria:
+    kind: metadata-omission
+    evidence: div2 titles 'The Prosphonesus of Theophilus, Archbishop of Alexandria' and following.
+      DELIBERATELY NOT the existing slug `theophilus`, which is Theophilus of ANTIOCH, author
+      of Theophilus to Autolycus - a different man two centuries earlier.
+    from_file: npnf214_seven-ecumenical-councils.xml
+  timothy_alexandria:
+    kind: metadata-omission
+    evidence: div2 title 'The Canonical Answers of Timothy the Most Holy Bishop of Alexandria,
+      Who was One of the CL Fathers'; npnf214 carries no DC.Creator.
+    from_file: npnf214_seven-ecumenical-councils.xml
   two-epistles-on-virginity:
     kind: pseudonymous
     evidence: 'div1 5; the section''s Introductory Notice heads it "Attributed to Clement

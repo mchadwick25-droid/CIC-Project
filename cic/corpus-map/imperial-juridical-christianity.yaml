@@ -108,7 +108,7 @@ works:
     Athanasius, Basil (the canonical epistles to Amphilochius), Gregory of Nyssa, Gregory
     Nazianzen, Amphilochius, Timothy, Theophilus and Cyril of Alexandria, Gennadius of Constantinople
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'A canon-law collection whose parts are individually attributed - most to authors
     with existing slugs (basil, athanasius, gregory_thau, dionysius_gr, peter_alexandria,
     gregory_naz). Held as one collection-entity pending a ruling on granularity: a per-father
@@ -118,9 +118,15 @@ works:
     Eastern canon-law corpus. Best guess pending that ruling: ijc, as for the other received
     canons. NB the volume''s theophilus and gennadius are of Alexandria and Constantinople
     - NOT the AUTHORS.md slugs theophilus (Antioch) and gennadius (Marseilles); a per-father
-    split must not reuse those slugs.
-
-    '
+    split must not reuse those slugs. Split 2026-08-26 on Mark''s ruling, derived from the
+    volume''s own div2 sections rather than from the list in Trullo canon 2. The collection
+    is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons, already a separate
+    work, so this split covers 17.5-17.32. THE RECEPTION STAYS ONE ROW. The worker''s objection
+    to a per-father split was that it mints ten rows for seventeen thousand words, and it
+    was right about the cost. So the split does not duplicate the reception fact: this row
+    stays as the received Eastern canon-law corpus on imperial-juridical-christianity, and
+    the per-father rows carry only their authors'' home entries. One row for what the East
+    received, twelve for who wrote it.'
   source_file: npnf214_seven-ecumenical-councils.xml
 - work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian

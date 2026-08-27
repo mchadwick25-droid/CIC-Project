@@ -3,6 +3,16 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: cappadocian-nicene-pastoral-monastic-tradition
 works:
+- work: From the Iambics of Amphilochius to Seleucus, on the canon of Scripture
+  author: amphilochius
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.23 (~242 words)
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
 - work: De Spiritu Sancto (On the Holy Spirit)
   author: basil
   locus: div1 7 (~53,414 words), thirty chapters at div2 7.2-7.31
@@ -44,6 +54,18 @@ works:
 
     '
   source_file: npnf208_basil-letters-select-works.xml
+- work: The canonical epistles of Basil to Amphilochius and others
+  author: basil
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.11-17.20 (10 pieces, ~4,604 words)
+  role: tradition
+  confidence: assigned
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
+    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
+    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
+    17.5-17.32. This row is one father''s share of it. The largest part of the collection
+    by a wide margin, and the reason the split is worth making: Basil''s canonical letters
+    are a quarter of these canons and belong with Basil.'
 - work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9 — creed 9.3, letter to Theodosius 9.6, canons 9.8, synodical letter 9.9
@@ -67,6 +89,16 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: From the metrical poems of Gregory Theologus, on the canon of Scripture
+  author: gregory_naz
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.22 (~196 words)
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
 - work: Select Letters of Saint Gregory Nazianzen
   author: gregory_naz
   locus: 'div1 4 (~37,693 words) - one body of letters in three editorial groups: Letters
@@ -248,6 +280,16 @@ works:
 
     '
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
+- work: The Canonical Epistle of Gregory of Nyssa to Letoius of Melitene
+  author: gregory_nyssa
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.21 (~503 words)
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
 - work: The Great Catechism
   author: gregory_nyssa
   locus: txt part heading 'IV.--Apologetic Works' (line 42012); work at line 42016

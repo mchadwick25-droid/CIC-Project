@@ -64,17 +64,6 @@ SWEEPS = {
         "the end of pahc's 200 CE window), `greek-apologists-second-century`, and "
         "`apocryphal-and-pseudepigraphal-literature`. What is left are three unrelated singles.",
 
-    "imperial-juridical-christianity":
-        "**Not the historians, and now down to one.** Eusebius, Socrates, Sozomen and Theodoret "
-        "are all `assigned` here and always were; *Martyrs of Palestine* went to "
-        "`palestinian-church-pre-constantinian`. What is left is the *Canonical Epistles of the Fathers*, where the question is granularity - a per-father "
-        "split would send Basil and the Gregories to the Cappadocian entry and Athanasius and "
-        "Peter to Alexandria, but would mint ten rows for seventeen thousand words of canons. "
-        "(Lactantius' *Divine Institutes* is the third of this entry's questions and files under "
-        "`latin-pastoral-congregational-christianity` below, where its other half sits: written "
-        "during the Great Persecution by a Latin rhetor who became Constantine's court tutor, so "
-        "neither side is a clean fit.)",
-
     "latin-pastoral-congregational-christianity":
         "**No entry for early Latin Christianity outside Carthage — and the last regional gap I "
         "declined to fill.** Every entry added in this series answered a *pile*: eight works for "
