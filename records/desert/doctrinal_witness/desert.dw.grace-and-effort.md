@@ -35,6 +35,12 @@ tensions:
 - "the position was condemned in the West within a generation, so a participant reading it as 'what the desert believed' is reading a view that lost - and this world's own other material (desert.limit.original-sin-eucharist-faith) is genuinely silent on the faith-versus-works framing this Conference answers in different terms"
 relations:
 - type: associated-with
+  target: desert.dw.the-heart-and-the-spirit
+- type: associated-with
+  target: desert.quote.charity-is-the-offspring-of-apatheia
+- type: associated-with
+  target: desert.quote.sin-and-grace-in-one-soul
+- type: associated-with
   target: desert.quote.grace-and-free-will-in-harmony
 - type: associated-with
   target: desert.quote.the-main-share-is-not-our-works

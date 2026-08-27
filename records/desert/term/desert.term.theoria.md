@@ -14,7 +14,8 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.evagrius-praktikos
-  locus: "the scheme's contemplative stage (consult-only; vendored excerpt witness via Socrates IV.23)"
+  locus: "Praktikos ch. 1 and prologue SS8, VENDORED as of 2026-08-27 - Christianity as ascetical practice, contemplation of nature and theology (ch. 1), and love as the door to knowledge of nature which leads to theology (prologue SS8, desert.quote.the-ladder-from-faith-to-love). The Chapters on Prayer, where the contemplative stage is developed, remains unvendored and consult-only"
+  license: cc-by-4.0
 - source_id: desert.source.cassian-conferences
   locus: Conf. III ch. VI, the third renunciation and the Song of Songs
   license: public-domain
@@ -25,6 +26,8 @@ retrieval:
   do_not_retrieve_when:
   - questions about ordinary daily prayer across the movement - the Psalter, not this term, is that answer
 relations:
+- type: associated-with
+  target: desert.quote.the-ladder-from-faith-to-love
 - type: associated-with
   target: desert.term.apatheia
 - type: associated-with

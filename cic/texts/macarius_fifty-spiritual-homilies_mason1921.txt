@@ -84,6 +84,9 @@ Five rules were applied, each counted exactly:
   3. space removed before . , ; : ? !                     1,048 occurrences
   4. bare page-number lines dropped                       46 lines
   5. trailing whitespace stripped                         11,185 lines
+  6. spurious mid-line hyphen removed                     10 occurrences
+     (a "word- word" left by the scan where the printed page has a plain
+     space - not a line break, so rule 2 never saw them: cast- out, cured- and, fellow- judges, free- for, in- poverty, it- as, meaning- of, the- resources, to- him, with- the)
 
 HOW RULE 2 WAS DECIDED, since joining every line-break hyphen solid corrupts
 text. A first pass did exactly that and produced "namestand" from "Two men of
@@ -3337,7 +3340,7 @@ either in churches, or in villages; perhaps only in the
 LXX.
 2 I Kings xix. 12. 3 I Cor. xiv. 33.
 58 FIFTY SPIRITUAL HOMILIES
-deserts can they do it- as they like. But those who pray
+deserts can they do it as they like. But those who pray
 quietly edify everybody everywhere. A man's whole labour
 should be employed upon his thoughts; he must cut away
 the bush of evil thoughts which besets him, and urge himself to God, and not let his thoughts carry him where they
@@ -3390,7 +3393,7 @@ seat in the body, from these thrones of mind and thought,
 wherein they dwelt, and the Lord cleansed the conscience,
 and made Himself a throne of the mind, the thoughts, and
 the body.
-6. Question. What then is the meaning- of the text, Ye
+6. Question. What then is the meaning of the text, Ye
 shall sit upon twelve thrones, judging the twelve tribes of
 Israel?1
 Answer. We find that this came to pass upon earth,
@@ -4291,7 +4294,7 @@ to quicken lost lives, to give light to those in darkness. In
 truth He came, and called us to the adoption of sons, to a
 holy city which is ever at peace, to the life that never dies,
 to glory incorruptible. Only let us put a good^finish to our
-beginning. Let us abide in- poverty, in the condition of
+beginning. Let us abide in poverty, in the condition of
 strangers, in suffering affliction, in petition to God, knocking importunately at the door. Near as the body is to
 the soul, the Lord is nearer, to come and open the locked
 doors of the heart, and to bestow on us the riches of
@@ -4721,7 +4724,7 @@ heirs. The merchant commits himself to the sea and the
 risk of death for the sake of gain. So also in the Kingdom
 of Heaven a man gives himself up in hope that the eyes
 of his heart may be enlightened,2 withdrawing from the
-affairs of this life, and keeping himself free- for prayers and
+affairs of this life, and keeping himself free for prayers and
 supplications, looking for the Lord, when He shall come
 and manifest Himself to him, and shall cleanse him from
 the sin that dwells in him.
@@ -5534,7 +5537,7 @@ evil, deep in sin, making himself a tool of the devil, by
 whom he is completely mastered, is not bound by any
 necessity. He is at liberty to become a chosen vessel,1 a
 vessel of life. In like manner on the other side those who
-are drunk with- the Godhead, although filled full with the
+are drunk with the Godhead, although filled full with the
 Holy Ghost and under His dominion, are not held by any
 necessity, but have their free choice to turn and do what
 they please in the present world.
@@ -6314,7 +6317,7 @@ hast slain the serpent that lies under the mind beneath the
 surface of the thoughts, and burrows into what we call the
 secret chambers and storehouses of the soul and murders
 thee — for the heart is a deep gulf — only, I say, if thou hast
-killed him, and cast- out all the uncleanness that was in
+killed him, and cast out all the uncleanness that was in
 thee. All the philosophers, and the law, and the prophets,
 and the coming of the Saviour, have to do with purity.
 There is no man, Jew or Greek, that does not love purity,
@@ -6802,7 +6805,7 @@ patriarchs, had force to heal.
 6. Moses came, but he could not bestow a complete cure.
 Priests, gifts, tithes, sabbaths, new-moons, washings, sacrifices, burnt offerings, and every other righteousness, was
 performed under the law, and the soul could not get
-cured- and cleansed from the unclean issue of bad thoughts.
+cured and cleansed from the unclean issue of bad thoughts.
 Every righteousness of the soul was unavailing to heal man,
 until the Saviour came, the true Physician, who cures without cost, who gave Himself a ransom for mankind. He
 alone accomplished the great, saving deliverance and cure
@@ -7182,7 +7185,7 @@ immaterial, have power to get the better of the stumblingblocks of the evil one,
 power that never can be defeated. But those who have
 not been honoured with God's word, nor instructed by
 divine law, are vainly puffed up? and fancy that by their
-own free will they can bring to nought the- resources of
+own free will they can bring to nought the resources of
 sin — sin which is only condemned through the mystery
 contained in the cross. It lies in the power of man's free
 will to resist the devil, but it does not extend to an absolute command over the passions. Except the Lord build
@@ -8454,7 +8457,7 @@ he heralded! Greater than John is none of them that are
 born of women. Bui he that is least in the kingdom of
 heaven is greater than he 2 — the apostles, born of God from
 above, who received the firstfruits of the Comforter Spirit —
-for they were allowed to be His fellow- judges and partners
+for they were allowed to be His fellow judges and partners
 of His throne; they have been made redeemers of men.
 You find them dividing the sea of evil powers, leading
 believing souls through. You find them husbandmen,
@@ -10921,7 +10924,7 @@ and it is converted from its bitterness and made sweet, being
 mingled with the Spirit of Christ; and thus being made
 good for use it passes on to the service of its Master, for it
 becomes spirit clothed in flesh. Glory to Him who converts our bitterness into the sweetness and goodness of the
-Spirit. Woe to- him in whom the tree of life has not been
+Spirit. Woe to him in whom the tree of life has not been
 cast! He cannot obtain any change for the good.
 1 6. The rod of Moses bore two images. To enemies it
 presented itself as a serpent, biting and destroying; to the

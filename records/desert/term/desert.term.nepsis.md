@@ -16,7 +16,8 @@ sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "scattered sayings"
 - source_id: desert.source.evagrius-praktikos
-  locus: "the systematic development within Strand C (consult-only)"
+  locus: "Praktikos ch. 6, VENDORED as of 2026-08-27 - the charter clause for this term: whether the thoughts disturb the soul is not up to us, but whether they linger, and whether they arouse passions, is (desert.quote.the-eight-generic-thoughts). Ch. 64 adds that the signs are read through the thoughts by day and through dreams at night"
+  license: cc-by-4.0
 - source_id: desert.source.cassian-conferences
   locus: Conf. XXIV ch. VI, Abraham on guarding the thoughts (the arch drawn from its centre)
   license: public-domain
@@ -27,6 +28,8 @@ retrieval:
   do_not_retrieve_when:
   - do not equate with modern mindfulness practice - the systematized neptic tradition belongs to a much later world and must not be retrojected
 relations:
+- type: associated-with
+  target: desert.quote.the-nous-beholds-its-own-radiance
 - type: associated-with
   target: desert.term.diakrisis
 - type: associated-with
