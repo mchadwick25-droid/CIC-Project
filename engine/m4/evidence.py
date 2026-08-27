@@ -116,13 +116,23 @@ _MIN_ASK_MATCH_WORDS = 2
 # "Tell me a joke." reached one on `tell` - the off-canon turns the
 # original comment says must stay free to resolve to no cell.
 #
-#   CANON VOCABULARY ONLY. A lone word may decide a cell only if the
-#   fleet's own canon questions use it. That corpus is 86 hand-written
-#   questions - small, deliberate, fleet-owned. The hint and stem
-#   vocabularies are neither: hints are world-specific and, measured the
-#   same day, carry ordinary verbs (`write`) from the phrasing of the
-#   hints themselves, and stems are approximations (`tell` reached a cell
-#   by stem alone). Both stay at the two-word floor.
+#   CANON VOCABULARY FOR A TWO-WORD QUERY. There, a lone word may decide
+#   a cell only if the fleet's own canon questions use it. That corpus is
+#   86 hand-written questions - small, deliberate, fleet-owned. Hint
+#   vocabulary is not: it is world-specific and, measured the same day,
+#   carries ordinary verbs from the phrasing of the hints themselves
+#   ("write", out of "what a bishop wrote to settle a dispute"). The
+#   danger in a two-word query is precisely that the matched word is the
+#   framing verb while the real subject - `code`, `pizza` - is unknown to
+#   every cell. Stems are approximations and stay out too (`tell` reached
+#   a cell by stem alone).
+#
+#   HINTS TOO FOR A ONE-WORD QUERY, because there the risk above cannot
+#   arise: the single content word IS the subject, there is no other word
+#   for it to be the framing of, and no vocabulary at all can give such a
+#   query a second shared word. alx's "Who could be baptised?" is one
+#   content word; no amount of hint writing could ever lift it over a
+#   two-word floor. It still has to clear the same distinctiveness test.
 #
 #   AND THE WORD MUST DISCRIMINATE. `like` is in 7 of the 28 canon cells
 #   and picks a cell by coin-toss; `day` is in 2, `marriage` 2, `dying`
@@ -450,6 +460,11 @@ def match_asks_to_cells(
     # discipline the retrieval-hint tier above follows.
     if len(matches) < top_n:
         matches = _fill(matches, canon_words, allow_single=True, matched_by="single-word")
+    # A one-word query gets the hinted vocabulary too - see the note above
+    # on why the framing-verb risk cannot arise when the word is the whole
+    # question. Still last, still filling only what nothing else filled.
+    if len(matches) < top_n and len(query_words) == 1 and hinted:
+        matches = _fill(matches, hinted, allow_single=True, matched_by="single-word-hint")
 
     return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
 

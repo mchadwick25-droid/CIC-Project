@@ -19,11 +19,20 @@ canon_cells at all:
     290 ground / 4.8 avg / 30 cells /  9 empty / 48 quotes
 After the short-query single-word tier:
     394 ground / 6.6 avg / 54 cells /  5 empty / 65 quotes
+After adding the participant's own words to the records holding that
+material (baptise/baptize/babies/infants, appointed/ordained, pagan
+temples, neighbours):
+    450 ground / 7.5 avg / 63 cells /  1 empty / 74 quotes
 
-The five that remain empty are a CORPUS gap, not an engine one: their
-words are in no cell vocabulary and no record's hints anywhere in the
-fleet - "baptised", "babies", "appointed", "bishops", "pagan", "temples",
-"neighbours". Nothing in the router can reach a word nobody wrote down.
+ONE question in sixty still reaches no cell: pahc's "What did the
+neighbours think of you?". Its content words are `neighbours` and
+`think`. `neighbours` is now in the hint vocabulary; `think` is in no
+vocabulary anywhere, and a two-word query may not be decided by a lone
+HINT word (see engine/m4/evidence.py on why - that is the case where the
+matched word may be the framing verb rather than the subject). Closing it
+would mean putting `think` into a cell's vocabulary, which is a common
+English verb and a real precision cost for every other record in that
+cell. Left open deliberately.
 
 Run: python3 engine/m4/reports/retrieval_bench.py
 """

@@ -29,6 +29,9 @@ retrieval:
   retrieve_when:
   - baptism, initiation, coming to the water
   - preparation for joining the community
+  - "participant asks whether you baptised babies, infants or children, or only adults"
+  - "participant asks who could be baptised and what baptism required of them"
+  - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
   do_not_retrieve_when:
   - infant-baptism debates or modern baptismal theology with no connection to this period
 relations:

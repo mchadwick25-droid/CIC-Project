@@ -594,3 +594,25 @@ def test_single_word_tier_never_displaces_a_stronger_match():
     before = match_asks_to_cells(message=msg, asks=None, canon_questions=CANON_QUESTIONS, repository_records=None)
     after = match_asks_to_cells(message=msg, asks=None, canon_questions=SHORT_CANON, repository_records=None)
     assert [m["cell"] for m in before] == [m["cell"] for m in after]
+
+
+def test_one_word_query_may_match_a_hint_word_but_a_two_word_query_may_not():
+    # A one-word query's single content word IS the subject - there is no
+    # other word for it to be the framing of, and no vocabulary at all can
+    # give it a second shared word. A two-word query is the case where the
+    # matched word may be the framing verb while the real subject is
+    # unknown to every cell ("Can you write me some code?").
+    repo = {
+        "fix.term.hinted": {
+            "id": "fix.term.hinted", "record_type": "term", "canon_cells": ["F1-E"],
+            "plain_meaning": "Washing at initiation.",
+            "retrieval": {"tier": 2, "retrieve_when": ["participant asks whether you baptise babies"]},
+        }
+    }
+    one = match_asks_to_cells(message="Who could be baptise?", asks=None,
+                             canon_questions=CANON_QUESTIONS, repository_records=repo)
+    assert [m["cell"] for m in one if m.get("matched_by") == "single-word-hint"] == ["F1-E"]
+
+    two = match_asks_to_cells(message="Discuss baptise please", asks=None,
+                              canon_questions=CANON_QUESTIONS, repository_records=repo)
+    assert not [m for m in two if m.get("matched_by") == "single-word-hint"]

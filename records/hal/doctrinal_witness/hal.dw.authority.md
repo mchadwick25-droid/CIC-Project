@@ -43,6 +43,11 @@ tensions:
 - how much doctrine and how much personality decided this world's own great dispute is
   contested in its own two surviving accounts, and modern scholarship divides the same
   way - the record cannot settle what the record itself is the battlefield of
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks who appointed or ordained the bishops"
+  do_not_retrieve_when: []
 ---
 F1-evidential answer-ground. The how-do-we-know honesty for the world's
 own dispute lives at hal.contested.origenist-substance (related contest;

@@ -49,6 +49,22 @@ whatever words you put in it are the words that will reach this record.
    the situation that prompts it, one on the adjacent question a
    participant actually asks instead.
 
+6. **Write the participant's SPELLING, not just their concept.** The
+   canon and hint tiers compare words literally - there is no stemmer
+   between `baptise` and `baptism`, or between `think` and `thought`.
+   Measured: pahc.term.baptisma already hinted "baptism, initiation,
+   coming to the water", and "Did you baptise babies?" still reached
+   nothing, because not one of `baptise`, `baptize` or `babies` was on
+   the page. If a participant might type two spellings of the word, both
+   go in.
+
+7. **Framing verbs are a cost, not a bonus.** A hint reading "what a
+   bishop wrote to settle a dispute" puts `wrote` and `write` into that
+   cell's vocabulary, and "Can you write me some code?" then reaches two
+   cells. The retrieval tiers can only partly defend against this - a
+   one-word query may match a hint word, a two-word query may not,
+   precisely because of it. Name the subject; keep the verb plain.
+
 ## What to do about a record you cannot hint honestly
 
 Leave it. A quote whose only honest retrieval condition is "the

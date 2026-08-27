@@ -47,6 +47,12 @@ tensions:
   its teaching is a position in an open fight, not a settled system
 - eucharistic practice is barely described in the record - reverence is attested, detail
   is not
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether you baptised babies, infants or children, or only adults"
+  - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
+  do_not_retrieve_when: []
 ---
 F1-translational answer-ground. The eucharistic thinness is real and
 stated; no invented sacramental detail. The anti-Pelagian position is

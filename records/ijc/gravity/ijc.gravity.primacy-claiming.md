@@ -27,6 +27,11 @@ sources:
 - source_id: ijc.source.canons-constantinople-381
   locus: Canon 3 (the rival pole's own instrument)
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks who appointed or ordained the bishops, and who chose them"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrated-by, target: ijc.story.tome-that-would-not-bend}
 - {type: illustrated-by, target: ijc.story.letter-that-outranked-a-council}
