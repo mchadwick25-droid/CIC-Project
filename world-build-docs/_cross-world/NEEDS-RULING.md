@@ -11,7 +11,7 @@ Nothing here blocks anything. The map is valid and usable as it stands; a `needs
 
 ## Answered since the run
 
-**Eleven entries added, 2026-08-26.** Fleet-wide flagged works have fallen from **87 to 59** — a 32% reduction, and none of it by deciding anything a worker had refused to decide. Every entry answers the same complaint, raised independently by workers who could not see each other: *this material is real and the census has nowhere accurate to put it.*
+**13 entries added, 2026-08-26.** Fleet-wide flagged works have fallen from **87 to 12** — an 86% reduction, and none of it by deciding anything a worker had refused to decide. Every entry answers the same complaint, raised independently by workers who could not see each other: *this material is real and the census has nowhere accurate to put it.*
 
 Seven are formation-world candidates, on record as *Possible Future World*:
 

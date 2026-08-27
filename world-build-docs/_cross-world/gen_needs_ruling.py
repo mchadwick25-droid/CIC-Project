@@ -38,6 +38,24 @@ MAP = ROOT / "cic" / "corpus-map"
 
 # The recurring questions, keyed by the entry the works were parked against.
 # Each is a ruling that clears everything beneath it at once.
+# The figures the "Answered since the run" paragraph cites. Defined once and
+# interpolated, because typed numbers inside a generated report go stale
+# silently: this paragraph drifted three times before it was caught, still
+# claiming eleven entries and 59 remaining works after both had moved.
+AT_RUN_END = 87      # flagged works when the ten workers finished
+
+
+def _pct(remaining: int) -> int:
+    return round(100 * (AT_RUN_END - remaining) / AT_RUN_END)
+
+
+def _article(n: int) -> str:
+    """"an 86% reduction", "a 55% reduction" - the one bit of English that has
+    to follow a derived number."""
+    return "an " if str(n)[0] in "8" or str(n) == "11" or str(n).startswith("11") else "a "
+
+ENTRIES_ADDED = 13   # census entries added while clearing them
+
 SWEEPS = {
     "post-apostolic-house-church":
         "**Answered.** `pahc` was the corpus's overflow shelf - the earliest entry there is, so "
@@ -118,9 +136,10 @@ def main() -> None:
 
     out.append("\n## Answered since the run\n")
     out.append(
-        "**Eleven entries added, 2026-08-26.** Fleet-wide flagged works have fallen from **87 to "
-        "59** — a 32% reduction, and none of it by deciding anything a worker had refused to "
-        "decide. Every entry answers the same complaint, raised independently by workers who "
+        f"**{ENTRIES_ADDED} entries added, 2026-08-26.** Fleet-wide flagged works have fallen "
+        f"from **{AT_RUN_END} to {len(works)}** — "
+        f"{_article(_pct(len(works)))}{_pct(len(works))}% reduction, and none of it by "
+        "deciding anything a worker had refused to decide. Every entry answers the same complaint, raised independently by workers who "
         "could not see each other: *this material is real and the census has nowhere accurate to "
         "put it.*\n\n"
         "Seven are formation-world candidates, on record as *Possible Future World*:\n\n"
