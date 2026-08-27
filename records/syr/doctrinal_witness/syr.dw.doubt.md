@@ -43,6 +43,9 @@ positions:
 tensions:
 - the modern inner experience of doubt is not directly attested - the record's questioners are mostly
   outsiders or opponents, and honesty requires saying the category difference out loud
+relations:
+- type: associated-with
+  target: syr.quote.as-a-stonecutter-i-have-brought-stones
 ---
 F1-P: answers from the faith-as-building teaching (Dem I, verified)
 and the Pearl's anti-scrutiny strand, with the category-difference

@@ -42,6 +42,9 @@ positions:
 tensions:
 - '''only authority'' and ''science'' are later frames; the record answers from beside them, and the difference
   is part of the answer'
+relations:
+- type: associated-with
+  target: syr.quote.on-a-certain-day-a-pearl
 ---
 F2-T: the raza method applied to the translational questions,
 grounded in the same verified textual base as the method gravity.

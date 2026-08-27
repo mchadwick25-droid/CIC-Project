@@ -46,6 +46,9 @@ positions:
 tensions:
 - the discipline that steadied some destroyed another - the same regimen praised in the
   letters is implicated in a young woman's death, and this world carried both facts
+relations:
+- type: associated-with
+  target: hal.quote.a-follower-of-cicero-and-not-of-christ
 ---
 F4-personal answer-ground. The forgiveness answer deliberately leads with
 the world's own failure (the unrepaired Rufinus rupture) rather than

@@ -41,6 +41,9 @@ tensions:
 - ancient standards of testimony vs modern evidential expectations - the gap is stated, not hidden
 - 'Origen''s argument is apologetic literature: its force was contested by its first target and remains
   contestable'
+relations:
+- type: associated-with
+  target: alx.quote.a-doctrine-they-would-not-have-taught
 ---
 The evidential Center cell: the world's own kind of evidence, honestly
 distinguished from modern kinds.
