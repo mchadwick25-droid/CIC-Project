@@ -41,6 +41,13 @@ modern_lens_note: >-
   instrument that would work on a provincial official, and a monastic author recording it with
   approval. What this world can say from it is that renouncing property in the fourth century did
   not renounce birth, and that nobody involved seems to have thought it should.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what wealthy people did with their money and property"
+  - "participant asks whether rank and family still counted after someone gave everything away"
+  - "participant asks how they dealt with officials and the authorities"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

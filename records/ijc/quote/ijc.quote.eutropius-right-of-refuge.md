@@ -28,6 +28,12 @@ modern_lens_note: >-
   'The right of refuge' is the church's legal right of asylum - a fugitive at the altar could not be
   seized. Eutropius had used his office to abolish it, and was now the man at the altar. 'Divers' is
   archaic English for various.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether the church sheltered people the state wanted"
+  - "participant asks what happened to a fallen official who fled to the altar"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.quote.no-power-but-of-god

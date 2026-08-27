@@ -25,6 +25,12 @@ modern_lens_note: >
   doing real, targeted polemical work here - each "truly" is a direct
   denial of a rival teaching that Christ's body only seemed real - not
   simply a rhetorical intensifier.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks who they held Jesus to be, and whether he was really human"
+  - "participant asks what they said against people teaching otherwise"
+  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v (Trallians, shorter/middle recension column, ch.

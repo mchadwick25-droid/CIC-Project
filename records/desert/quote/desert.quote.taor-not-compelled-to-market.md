@@ -39,6 +39,12 @@ modern_lens_note: >-
   consequence of enclosure rather than a mortification chosen for its own sake. Note too that the
   other women of the house DID go down to the church each week and she did not: she is the
   exception within her own community, not its rule.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they wore and whether clothing mattered"
+  - "participant asks whether they went out, into town or to market, and how often"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

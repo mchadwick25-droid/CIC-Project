@@ -27,6 +27,12 @@ license: verbatim
 modern_lens_note: >-
   'Prefect of the city' names a specific Roman civil office (Rome's chief magistrate), not a generic
   modern administrative title.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how a bishop was chosen and what happened when it was contested"
+  - "participant asks whether these elections turned violent"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 ---

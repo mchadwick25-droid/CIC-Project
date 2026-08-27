@@ -20,6 +20,13 @@ text: "He drove them from the mountain, saying that their words were worse than 
 speaker_or_author: "Athanasius, narrating Antony's own action"
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote's own vocabulary or imagery: \"the poison of serpents\" reads today the same way it read then, a plain image for something venomous."
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what happened to someone who taught something the community rejected"
+  - "participant asks whether ordinary members took sides in the doctrinal quarrels of their day"
+  - "participant asks how firmly a boundary was policed and by whom"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.figure.antony

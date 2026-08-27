@@ -26,5 +26,12 @@ modern_lens_note: 'The ''medicine of penitence'' is this world''s own establishe
   metaphor (sin as wound, confession as treatment - the same idiom behind Jesus as
   Physician), not a claim about a literal remedy; a modern reader unfamiliar with that
   patristic convention could otherwise take ''medicine'' at face value.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what happened to someone who fell and wanted to come back"
+  - "participant asks whether sin was treated as a wound to be healed or a crime to be punished"
+  - "participant asks who a person confessed to and what followed"
+  do_not_retrieve_when: []
 ---
 Verified verbatim against the vendored Hallock text (Dem VII.2).

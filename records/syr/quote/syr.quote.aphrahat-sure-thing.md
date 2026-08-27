@@ -26,6 +26,12 @@ modern_lens_note: 'Most of these titles remain familiar Christian vocabulary tod
   (Light of Light survives in the Nicene Creed), but ''the Gatherer'' and ''the Pearl''
   are titles for Christ a modern reader is unlikely to recognize as titles at all,
   rather than ordinary nouns.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they held about Jesus being God"
+  - "participant asks how they said it in their own words rather than a council's"
+  do_not_retrieve_when: []
 ---
 Verified verbatim (Dem XVII.2). USE NOTE: the sentence stands inside
 a demonstration framed as a reply to Jewish objections - the

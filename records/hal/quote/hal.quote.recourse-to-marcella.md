@@ -23,6 +23,12 @@ text: 'Consequently after my departure from Rome, in case of a dispute arising a
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Recourse was had to her to settle it" is an archaic passive construction meaning simply that people went to her - not a technical or institutional adjudication procedure.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks who people went to when they disagreed about a text"
+  - "participant asks whether a woman held any recognised authority"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec. 7).
 THE sole attestation of Marcella's post-385 standing - Documented as

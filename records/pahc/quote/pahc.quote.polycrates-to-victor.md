@@ -34,6 +34,13 @@ modern_lens_note: >-
   threat to cut Asia out of communion, which he then did. The quoted line is Acts 5:29, spoken by
   Peter to the Sanhedrin - Polycrates is answering Rome with the words the apostles used to the
   authorities that tried them.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether churches in different places did things differently"
+  - "participant asks what happened when Rome told another church it was wrong"
+  - "participant asks how they worked out when to keep a feast"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: pahc.gravity.translocal-network}
 - {type: illustrates, target: pahc.gravity.authority-consolidation}

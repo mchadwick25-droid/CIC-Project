@@ -27,6 +27,12 @@ modern_lens_note: '"Man" and "women" operate here as this world''s own gendered 
   and steadfastness coded "man," weakness coded "woman"), not a claim about gender identity in the modern
   sense. Stated plainly as a vocabulary point; this field does not soften or reframe what Sarah''s own
   words claim.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how men in this world spoke to and about a woman"
+  - "participant asks whether a woman was ever tested or challenged, and how she answered"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.sarah-answer

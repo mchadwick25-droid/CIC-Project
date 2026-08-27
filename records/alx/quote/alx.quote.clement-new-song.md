@@ -28,6 +28,12 @@ modern_lens_note: >
   the Orpheus myth (whose music could only charm stones and beasts, never
   change their nature). A modern reader will likely still catch the sense of
   transformation but miss the specific literary allusion being answered.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how they described what the gospel does to people"
+  - "participant asks what they said to someone who had never heard of it"
+  do_not_retrieve_when: []
 ---
 The id matches the Artifact-1 SS5 worked example (alx.quote.clement-new-
 song), deliberately. Christ as the New Song who re-makes people and

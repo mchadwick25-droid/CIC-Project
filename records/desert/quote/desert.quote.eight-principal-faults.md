@@ -31,6 +31,13 @@ modern_lens_note: >-
   These are the logismoi - not sins committed but thoughts that arrive, which the monk's work is to
   recognise and resist. Acedia has no good English word: the noonday listlessness that makes a monk
   hate his cell and his work. This list, through Gregory the Great, becomes the seven deadly sins.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what temptations they worried about most"
+  - "participant asks whether anger, money, food, or sex were the trouble, and how they named such things"
+  - "participant asks whether they had a list or a scheme of the passions"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

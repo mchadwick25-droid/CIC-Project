@@ -47,6 +47,13 @@ modern_lens_note: >-
   the ordinary religious life of the city, not a claim that Christians were personally malicious.
   Note also what Tacitus does NOT say: he does not say they set the fire. He says they were
   convicted of something else instead.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether it was really dangerous to be a Christian"
+  - "participant asks what a Roman writer said about them and why they were disliked"
+  - "participant asks whether they were blamed for things they had not done"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.story.nero-scapegoating

@@ -39,6 +39,12 @@ modern_lens_note: >-
   eighteen centuries; the Shepherd is Hermas, which Irenaeus, Clement and Origen had all cited as
   scripture. Neither is being condemned here. Both are being moved to a shelf that fewer people
   had reason to keep copying.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks which books were read and which were kept out"
+  - "participant asks what happened to the writings this world used that later disappeared"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.force.selective-canonization

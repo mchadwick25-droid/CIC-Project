@@ -22,5 +22,11 @@ text: Thus also the true Stone, our Lord Jesus Christ, is the foundation of all 
 speaker_or_author: syr.figure.aphrahat
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they thought faith was built on"
+  - "participant asks how a teacher explained the whole structure of belief to ordinary people"
+  do_not_retrieve_when: []
 ---
 Verified verbatim against the vendored npnf213 text (Demonstration I.2). The faith-and-works house teaching's cornerstone line.

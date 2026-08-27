@@ -36,6 +36,12 @@ modern_lens_note: >-
   period at a job. What is being tested is not competence but whether a man will still be there in
   three years without the standing that would make it worth his while, and the answer given to him
   in the meantime is that he serves.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how someone joined and how long it took to belong"
+  - "participant asks whether newcomers were tested, and what they did while waiting"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

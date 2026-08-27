@@ -42,6 +42,13 @@ modern_lens_note: >-
   passage shows a modern reader is not devotion in the abstract but a specific organisational
   fact: a prisoner in a Roman gaol was reached, fed, read to and slept beside, and someone was in
   a position to arrange and fund that from daybreak.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they did for prisoners, widows and orphans"
+  - "participant asks how an unfriendly outsider described their behaviour"
+  - "participant asks how organised they actually were"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: pahc.gravity.translocal-network

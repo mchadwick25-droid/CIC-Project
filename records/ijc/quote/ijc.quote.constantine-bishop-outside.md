@@ -25,6 +25,12 @@ modern_lens_note: >-
   'Bishop' here is Constantine's own self-applied metaphor for his administrative oversight role,
   not a claim to priestly or sacramental office - the word's plain modern reading (an ordained
   church officer) would mislead.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what role the emperor claimed in the church"
+  - "participant asks whether a ruler could call himself a kind of bishop"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.contested.bishop-of-those-outside}
 ---

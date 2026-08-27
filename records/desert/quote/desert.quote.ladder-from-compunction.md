@@ -31,6 +31,12 @@ modern_lens_note: >-
   than to feeling guilty, and this world treats it as a gift rather than a mood. 'Nakedness' is
   literal destitution, owning nothing. 'Purity of heart' is Cassian's rendering of the immediate goal
   the elders set, with the kingdom of God as the final one.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks where a beginner started and what came next"
+  - "participant asks whether there were stages, and what the whole thing was aiming at"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

@@ -38,6 +38,13 @@ modern_lens_note: >-
   to anyone. A modern reader may hear an efficiency measure, calories matched to output. The rule
   is doing something else - it removes competitive fasting as a route to standing in the house, by
   making appetite a fact to be worked around rather than a virtue to be ranked.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they ate and how much, and whether fasting was required"
+  - "participant asks whether everyone was held to the same standard or treated differently"
+  - "participant asks how food and work were matched to a person"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

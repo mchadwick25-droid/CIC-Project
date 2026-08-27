@@ -24,6 +24,12 @@ license: verbatim
 modern_lens_note: >-
   'Gentile' here means simply 'non-Jew' in the ancient sense (as scripture uses it), not a term
   bound to a specific modern cultural context.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how they preached to ordinary people at a feast"
+  - "participant asks what was said to someone who felt they did not belong"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.limit.jesus-to-you}
 ---

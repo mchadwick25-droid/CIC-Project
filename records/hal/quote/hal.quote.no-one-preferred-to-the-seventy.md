@@ -40,6 +40,12 @@ modern_lens_note: >-
   It is a different account of what a translation is for - and it is the account that won, in the
   sense that the Latin churches went on using the old version for generations after Jerome's was
   finished.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether other Christians accepted the new translation"
+  - "participant asks who thought the old Greek version had more authority and why"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.force.augustine-dispute

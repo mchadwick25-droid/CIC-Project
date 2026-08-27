@@ -18,6 +18,12 @@ sources:
 - source_id: alx.source.clement-stromateis
   locus: I.5 (anf02 lines 27890-27900)
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they made of Greek philosophy and pagan learning"
+  - "participant asks whether people outside the church had anything true"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: alx.force.platonic-environment

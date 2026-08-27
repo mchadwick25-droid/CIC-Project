@@ -46,6 +46,12 @@ modern_lens_note: >-
   temperament; she was a Roman aristocrat, and the word is doing the work "the noble Paula" does in
   the Greek. Note what is conceded in the same breath: grammar, eloquence, Latin, "very great skill
   and ability". The charge is that the envy hid the excellence, not that there was none.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what outsiders made of the relationship at the centre of this circle"
+  - "participant asks whether the man was as difficult as his enemies said"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.quote.hindered-by-jerome

@@ -30,6 +30,12 @@ modern_lens_note: >-
   that heresy did not matter - he accepts the bishops' verdict and their sentence of expulsion. His
   objection is entirely about jurisdiction: who may impose which penalty, and for what kind of
   offence.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether the state ever executed Christians for heresy"
+  - "participant asks whether anyone objected to handing a church matter to a court"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}

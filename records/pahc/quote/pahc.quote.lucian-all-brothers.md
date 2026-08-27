@@ -41,6 +41,12 @@ modern_lens_note: >-
   his contempt is a list: immortality, contempt of death, universal brotherhood on conversion,
   refusal of the gods of Greece, and property held loosely. An outsider with no stake got that far
   by about 165.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what outsiders thought they believed"
+  - "participant asks whether they really held property in common and were unafraid to die"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: pahc.gravity.martyrdom-meaning

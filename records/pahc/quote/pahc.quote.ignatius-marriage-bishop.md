@@ -27,6 +27,12 @@ modern_lens_note: >
   oversight and consent, not yet a developed sacramental theology of
   marriage - no rite of marriage by a bishop or presbyter is described
   anywhere in this world's own texts.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what marriage meant to them and whether there were weddings"
+  - "participant asks how far a leader's approval reached into private life"
+  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v, To Polycarp ch. 5 (v.viii.v), shorter recension -

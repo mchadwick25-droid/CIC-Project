@@ -28,6 +28,12 @@ modern_lens_note: '"Flee" risks a modern misreading as anxious avoidance - runni
   than facing it, the opposite of what contemporary therapeutic language usually recommends. In this world''s
   own idiom it names a disciplined strategy, not evasion, matching the same risk desert.term.anachoresis''s
   own translational note names for "withdrawal."'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks why anyone would leave people behind to live alone"
+  - "participant asks what silence was for and whether it was lonely"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.arsenius-flee

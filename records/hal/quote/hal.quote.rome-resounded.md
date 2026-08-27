@@ -24,6 +24,12 @@ text: 'Before I became acquainted with the family of the saintly Paula, all Rome
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"The episcopate" names the office of bishop.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks why they left the city and what happened to their reputation"
+  - "participant asks whether they were ever popular, and what changed"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 45 sec. 3,
 div v.XLV; the file's editorial footnote on the Latin elided). Written on

@@ -28,6 +28,12 @@ modern_lens_note: >-
   'Thy'/'Thy handmaid'/'Thy servant' are the translation's own devotional register for direct
   address to God (this passage is prayer, addressed to God, not narration addressed to a reader) -
   an artifact of the English rendering, not this world's own chancery idiom.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what ordinary people did when their church was threatened"
+  - "participant asks what they sang and why singing started"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---

@@ -40,6 +40,13 @@ modern_lens_note: >-
   with no elder to advise them, and the perfect are said not to need it at all. "Advisers" is the
   point of contact with the other strand of this world - a rule is what you have instead of an
   abba, not a thing that ranks above one.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether the discipline was as severe as it sounds"
+  - "participant asks whether beginners and the advanced were held to the same measure"
+  - "participant asks who a rule is for when the best do not need it"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.authority-tension

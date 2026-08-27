@@ -30,6 +30,12 @@ modern_lens_note: >-
   authorising legal compulsion into communion - the verse's whole later career in the West begins
   here. 'The faith of kings' means the emperors' Christianity, and 'in its due season' means since
   Constantine.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether force was used against Christians who disagreed"
+  - "participant asks how they justified compelling anyone"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 - {type: illustrates, target: ijc.gravity.church-state-alliance}

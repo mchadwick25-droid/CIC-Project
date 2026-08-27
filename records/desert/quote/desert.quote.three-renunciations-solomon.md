@@ -32,6 +32,12 @@ modern_lens_note: >-
   affections, then detaching the mind from everything visible. 'Contemplation of heavenly things' is
   theoria. The Song of Songs is read as the soul's union with the Word - which is why this world's
   most erotic-sounding language is about prayer.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks which parts of scripture they read and what they got from each"
+  - "participant asks how they used the Old Testament wisdom books"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.scriptural-engagement}
 ---

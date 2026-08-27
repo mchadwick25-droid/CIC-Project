@@ -516,3 +516,22 @@ def test_fallback_still_fires_when_the_only_match_is_an_entity_match():
     )
     assert all(m.get("from_entity") for m in evidence["cells"])
     assert any(c.get("fulltext_fallback") for c in evidence["candidates"])
+
+
+def test_retrieve_when_is_not_searched_by_the_fulltext_fallback():
+    # Regression guard, from the day 124 quote records were hinted at once.
+    # A hint is retrieval vocabulary in the PARTICIPANT'S words - exactly
+    # what this fallback matches on - so counting it inflates document
+    # frequency until an honestly-discriminating word crosses the pool cap
+    # and stops discriminating. Measured on pahc: "believe" matched 4
+    # records and reached ground; after hinting it matched 7, went over the
+    # cap, and "How did you know what to believe?" returned nothing.
+    record = {
+        "id": "fix.quote.hinted",
+        "record_type": "quote",
+        "text": "A saying about bread.",
+        "retrieval": {"tier": 2, "retrieve_when": ["participant asks what they believed about anything at all"]},
+    }
+    searched = _fallback_search_text(record)
+    assert "bread" in searched
+    assert "believed" not in searched

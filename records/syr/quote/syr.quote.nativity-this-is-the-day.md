@@ -23,5 +23,11 @@ text: This is the day that gladdened them, the Prophets, Kings, and Priests, for
 speaker_or_author: syr.figure.ephrem
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how they kept the feasts and what they sang at them"
+  - "participant asks what the birth of Jesus meant to them"
+  do_not_retrieve_when: []
 ---
 Verified verbatim (Nativity Hymn I, Morris's translation as revised by Gwynn).

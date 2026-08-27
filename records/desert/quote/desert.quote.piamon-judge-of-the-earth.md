@@ -45,6 +45,13 @@ modern_lens_note: >-
   what this shows about where most ascetics actually were: in villages, embedded in local disputes,
   with the standing to be asked and to refuse. Note that she does refuse - she will not go out to
   meet them - and does what she will do instead.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether ordinary villagers came to them, and what for"
+  - "participant asks whether they were mixed up in local quarrels, water, land, or violence"
+  - "participant asks whether prayer was thought to change anything outside"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.economic-embeddedness

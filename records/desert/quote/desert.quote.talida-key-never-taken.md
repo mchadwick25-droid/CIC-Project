@@ -46,6 +46,13 @@ modern_lens_note: >-
   ascetic life, and Palladius' evidence that she had reached it is that she could touch a visiting
   man without either of them being disturbed by it. A modern reader hears an old woman being
   affectionate. His readers would have heard a claim about her spiritual state.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks who was in charge of the women's communities"
+  - "participant asks whether women were shut in, and who held the keys"
+  - "participant asks what an old woman's authority rested on"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.elder-authority

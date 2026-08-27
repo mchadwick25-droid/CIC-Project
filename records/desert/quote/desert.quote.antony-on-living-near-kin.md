@@ -38,6 +38,13 @@ modern_lens_note: >-
   treats as a discipline rather than a misfortune. Antony's point is not that families are bad but
   that a life supported by kin is a life still inside their fortunes, and the monk was trying to be
   somewhere else.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether you had to leave your family to live this way"
+  - "participant asks whether the life could be lived at home, in a town, among relatives"
+  - "participant asks what was owed to parents and kin"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.withdrawal}
 ---

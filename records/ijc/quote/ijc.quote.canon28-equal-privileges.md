@@ -27,6 +27,12 @@ license: verbatim
 modern_lens_note: >-
   'The Fathers' here means the bishops of an earlier council, a loose conciliar usage - not the
   later, fixed canon of named 'Church Fathers' a modern reader may know from patristics.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how the great cities ranked against each other"
+  - "participant asks whether a council could raise one see over another"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}
 ---

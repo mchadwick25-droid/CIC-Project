@@ -28,6 +28,12 @@ license: verbatim
 modern_lens_note: >-
   'Form' translates the technical Latin forma (the divine or human mode of being), not the ordinary
   modern sense of shape or formality.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how they held together Jesus being God and being a man"
+  - "participant asks what a bishop wrote to settle a dispute about it"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 ---

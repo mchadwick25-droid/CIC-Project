@@ -23,6 +23,12 @@ text: 'While I myself beginning as a young man have with much toil and effort pa
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how they learned Hebrew and how well"
+  - "participant asks how confident they really were in the languages they used"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108, the
 passage on Paula's Hebrew; the file's line-wrap artifact in 'unceasingly'

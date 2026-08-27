@@ -25,6 +25,12 @@ license: verbatim
 modern_lens_note: >-
   'Anathema' is a formal ritual/canonical curse-and-exclusion formula, not the vaguer modern sense
   of 'something reviled.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how a council reached a decision and what the room was like"
+  - "participant asks how much weight Rome's letter carried at a council"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 ---

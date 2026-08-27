@@ -31,6 +31,13 @@ modern_lens_note: >-
   tact or reticence. 'The spirits that rise up in him' means the thoughts themselves: this world did
   not draw a clean line between a thought, a temptation and a demon, and the skill being described is
   reading which is which.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how anyone judged what was right when the rules ran out"
+  - "participant asks whether it was possible to go too far in this life"
+  - "participant asks who decided how much was enough"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.diakrisis}
 ---

@@ -18,6 +18,13 @@ sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
   locus: VII.24 (npnf201 lines 41311-41320; Dionysius's own book On the Promises, quoted verbatim)
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how a disagreement inside the community was handled"
+  - "participant asks whether a bishop could disagree with a respected teacher and stay friends"
+  - "participant asks who settled a dispute about how to read a book"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.arsinoite-conference

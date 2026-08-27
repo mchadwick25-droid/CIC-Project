@@ -5,7 +5,8 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F2-I
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -28,6 +29,13 @@ modern_lens_note: >-
   'Unpretending cast of the language' and 'inartificial character of the writers' mean the scriptures'
   plainness - no rhetorical polish. Tatian is a trained rhetorician saying that what convinced him was
   the absence of the art he had been taught.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they looked for in the scriptures and what they found there"
+  - "participant asks what they made of Greek philosophy and learning"
+  - "participant asks how someone came to believe in the first place"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: syr.gravity.diatessaron-normative}
 ---
@@ -47,3 +55,8 @@ has an interest in knowing that its maker came to the text through its
 plainness rather than through argument about it. Carried as
 `corroborating` rather than load-bearing: it illuminates the harmony's
 maker, it does not establish anything about the harmony.
+
+CELL ASSIGNED 2026-08-27, same omission as its companion record. F2-I asks
+"How did you read your scriptures? What did you look for in them?" and this
+is a convert saying what he found in them and why he preferred them to the
+philosophy he was trained in.

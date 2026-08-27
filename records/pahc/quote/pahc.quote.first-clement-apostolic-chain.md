@@ -27,6 +27,12 @@ modern_lens_note: >
   later centuries built from this same vocabulary. "First-fruits" is an
   agricultural/sacrificial image (the earliest portion of a harvest,
   set apart), not a literal description of produce.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how they knew their practice went back to the apostles"
+  - "participant asks who appointed leaders and on whose authority"
+  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 ii, ch. 42 (ii.ii.xlii). Direct textual ground for

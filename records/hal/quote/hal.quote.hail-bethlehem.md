@@ -22,6 +22,11 @@ text: 'Hail Bethlehem, house of bread, wherein was born that Bread that came dow
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"House of bread" is the Hebrew etymology of the place-name Bethlehem itself, not a poetic flourish invented for the occasion.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks why they settled where they did and what the place meant to them"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108 sec. 10;
 the file's editorial footnote on the Hebrew meaning of Bethlehem elided

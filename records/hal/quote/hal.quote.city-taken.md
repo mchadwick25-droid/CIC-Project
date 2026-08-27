@@ -23,6 +23,12 @@ text: 'My voice sticks in my throat; and, as I dictate, sobs choke my utterance.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Famine was beforehand with the sword" is archaic word order for "famine arrived before the sword did" - easily misparsed by a modern reader.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what happened when Rome fell and how they took the news"
+  - "participant asks how they wrote about catastrophe"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec.
 12, div v.CXXVII; one editorial footnote insertion in the file - 'By

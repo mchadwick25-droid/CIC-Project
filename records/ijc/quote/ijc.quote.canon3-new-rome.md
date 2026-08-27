@@ -25,6 +25,12 @@ license: verbatim
 modern_lens_note: >-
   'Prerogative of honour' can read as merely ceremonial, ornamental status with no real power behind
   it; this world's own record treats it as an operative rank claim (see ijc.term.presbeia).
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how the great cities ranked against each other"
+  - "participant asks what difference it made that the capital moved"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---

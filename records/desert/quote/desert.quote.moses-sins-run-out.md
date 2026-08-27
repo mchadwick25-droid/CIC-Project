@@ -24,6 +24,13 @@ license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote''s own vocabulary or imagery:
   sins pictured as a trail running out behind you, unseen, while you judge someone else''s - the image
   reads plainly to a modern ear the same way it read then.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what happened when someone did wrong and the others found out"
+  - "participant asks whether they judged each other, and how forgiveness worked"
+  - "participant asks whether anyone was ever put out of the community"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.moses-leaking-jug

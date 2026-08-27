@@ -27,6 +27,12 @@ license: verbatim
 modern_lens_note: >-
   'Your clemency's rule' is formal address to the emperor ('your Clemency' as a title), not a
   comment on the emperor's mercy toward wrongdoers.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether the ranking of cities was ever accepted by everyone"
+  - "participant asks how Rome answered a council decision it disliked"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}

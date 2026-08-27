@@ -47,6 +47,12 @@ modern_lens_note: >-
   read what the men do when a woman dies: they carry her body across the river and bury her among
   their own. The rule that forbids them her face requires them her funeral. Neither half of that
   can be dropped to make the passage read as one thing.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether there were women's communities and where they were"
+  - "participant asks how men and women in this world were kept apart, and what crossed between them"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

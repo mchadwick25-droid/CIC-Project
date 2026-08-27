@@ -38,6 +38,13 @@ modern_lens_note: >-
   is a bishop conceding a point of exegesis, in public, to someone outside the educational system
   that qualified him to preach - and conceding it on the ground that Syriac reaches Hebrew more
   directly than Greek can. "It cherished" renders a verb of brooding, as a bird over eggs.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether Greek Christians respected their language or looked down on it"
+  - "participant asks whether their tongue reached anything Greek could not"
+  - "participant asks how outsiders described them"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.story.basil-legend

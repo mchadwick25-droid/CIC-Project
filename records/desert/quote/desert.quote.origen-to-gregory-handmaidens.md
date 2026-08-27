@@ -41,6 +41,12 @@ modern_lens_note: >-
   work from. Its ascetics read scripture by memorising it and living against it, and several of
   its best-remembered figures were unlettered. Both are ways of taking the text seriously; they are
   not the same way.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether learning and education mattered, or whether simplicity was better"
+  - "participant asks what they made of pagan philosophy and secular study"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.gravity.scriptural-engagement

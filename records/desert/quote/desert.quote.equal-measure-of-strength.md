@@ -39,6 +39,12 @@ modern_lens_note: >-
   forgotten: the women arrive at chapter thirty-five, after thirty-four chapters of men, in a
   section that has to argue for its own existence. Both halves of that are the evidence. A modern
   reader who takes only the generous half, or only the grudging half, has taken half a sentence.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether women were thought capable of this life"
+  - "participant asks how the men writing these accounts spoke about women"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.spiritual-combat

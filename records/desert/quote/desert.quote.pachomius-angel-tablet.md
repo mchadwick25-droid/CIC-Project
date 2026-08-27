@@ -20,6 +20,12 @@ text: "Thou shalt allow each man to eat and drink according to his strength; and
 speaker_or_author: "an angel"
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified: this is administrative rule-language (eating, drinking, labor proportioned to strength), plain in any era."
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what the rule actually required of a member day to day"
+  - "participant asks how food, work and prayer were apportioned"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.pachomius-founding

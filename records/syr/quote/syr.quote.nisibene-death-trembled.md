@@ -25,5 +25,11 @@ modern_lens_note: 'Sin, Hell, Death, and Satan are personified as agents capable
   terror and rebellion - a deliberate device of this world''s own madrasha genre (see
   syr.term.madrasha), not a claim that a modern reader should take as describing literal
   emotional states in these figures.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they held about death and hell being defeated"
+  - "participant asks how they spoke about Satan and the grave"
+  do_not_retrieve_when: []
 ---
 Verified verbatim (Nisibene Hymn XXXV). The death-cycle's dramatized triumph: the underworld's own panic at Jesus.

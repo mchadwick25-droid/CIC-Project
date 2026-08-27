@@ -20,6 +20,12 @@ text: "...the Son of God was not a created being, neither had He come into being
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified: the vocabulary here (Word, Essence, co-existent) is dense fourth-century Trinitarian argument, not language that has drifted meaning for a modern reader - it reads as unfamiliar and technical, not as something that misleadingly sounds familiar."
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether people outside the councils had settled views about who Jesus was"
+  - "participant asks whether the creed reached ordinary members or stayed with bishops"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.antony-arians-serpents

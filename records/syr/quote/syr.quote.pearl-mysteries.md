@@ -17,6 +17,12 @@ sources:
 - source_id: syr.source.ephrem-hymns-on-faith-pearl
   locus: Hymn I.1
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how they read a thing in the world as pointing to God"
+  - "participant asks why so much of their teaching is in images rather than argument"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: syr.gravity.raza-shrara-method

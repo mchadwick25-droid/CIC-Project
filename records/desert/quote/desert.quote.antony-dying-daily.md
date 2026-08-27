@@ -20,6 +20,13 @@ text: "...let us hold fast our discipline, and let us not be careless... But to 
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "\"I die daily\" risks a modern misreading as describing depression, chronic suffering, or a wish for death - the phrase's most available modern register. The quote's own words guard against exactly that reading in the same breath (\"if we too live as though dying daily, we shall not sin\"): this names a daily readiness for mortality as fuel for discipline, not a description of despair."
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how anyone kept going day after day at something this hard"
+  - "participant asks whether they thought about dying, and whether that thought helped or frightened"
+  - "participant asks what kept the practice from going stale"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal

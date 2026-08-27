@@ -28,6 +28,12 @@ modern_lens_note: >-
   'Nature' here is the ancient sense (a thing's own inherent substance or kind), not the modern
   sense of the natural world or instinct - Ambrose is arguing about what a thing fundamentally IS,
   not about biology.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they held about the bread and the cup"
+  - "participant asks whether something happened to the elements"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.dw.bread-made-body}
 ---

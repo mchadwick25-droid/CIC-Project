@@ -31,6 +31,12 @@ modern_lens_note: >-
   'Begotten, not made' turns on a technical distinction (begetting as bringing forth one's own
   nature, versus making as creating something of a different kind) that a modern reader will not
   register without it being named - the distinction is the creed's own central point at this phrase.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what the creed says and who wrote it"
+  - "participant asks whether a council voted on who Jesus was"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---

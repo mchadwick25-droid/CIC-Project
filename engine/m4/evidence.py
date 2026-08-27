@@ -183,7 +183,19 @@ def _head_text(record: dict) -> str:
 # was enough to surface a completely unrelated record before this exclusion
 # existed. `do_not_retrieve_when` is excluded for a sharper reason: matching
 # on it would retrieve a record's own list of reasons NOT to retrieve it.
-_FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when"}
+#
+# `retrieve_when` is excluded 2026-08-27 for that same sharper reason, on a
+# regression it caused the day 124 quote records were hinted at once. A hint
+# is retrieval vocabulary written in the PARTICIPANT'S words, which is
+# precisely the vocabulary this fallback matches on - so every hinted record
+# starts matching every hint word, and document frequency climbs until an
+# honestly-discriminating word crosses _FULLTEXT_FALLBACK_MAX_POOL and stops
+# discriminating at all. Measured on pahc: "believe" matched 4 records and
+# reached ground for "How did you know what to believe?"; after hinting it
+# matched 7, went over the pool cap, and that question returned nothing.
+# Hints belong in cell vocabulary, scored against a curated per-cell corpus -
+# not here, where raw frequency is the whole safeguard.
+_FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when"}
 
 
 def _fallback_search_text(record: dict) -> str:

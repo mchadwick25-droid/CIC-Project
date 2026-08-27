@@ -21,6 +21,13 @@ sources:
 - source_id: alx.source.dionysius-extant-fragments
   locus: the plague letter (same text in the collected fragments)
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what happened in an epidemic and what Christians did"
+  - "participant asks how they cared for the dying and buried the dead"
+  - "participant asks what outsiders noticed about their behaviour in a crisis"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.plague-nursing

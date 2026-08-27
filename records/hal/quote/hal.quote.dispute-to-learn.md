@@ -25,6 +25,12 @@ text: 'she never came to see me that she did not ask me some question concerning
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether a woman could question a teacher and argue back"
+  - "participant asks what study together actually looked like"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec.
 7; 'them' = the scriptures, from the preceding sentence). Marcella's

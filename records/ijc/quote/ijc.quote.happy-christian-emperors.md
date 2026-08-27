@@ -30,6 +30,12 @@ modern_lens_note: >-
   'Happy' translates beatus and means blessed or truly well-off, not cheerful. 'Worshippers of demons'
   is Augustine's standard term for pagans, and the sting is deliberate - he is saying pagan emperors
   got everything Christians boast of in theirs.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether having Christian emperors was good for the church"
+  - "participant asks how they judged a ruler's success"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.episcopal-independence}

@@ -32,6 +32,12 @@ modern_lens_note: >-
   been consented to. The image is a builder's: a round vault is struck from a fixed centre, and every
   point of the curve is checked against it. Not vigilance as strain, but as constant reference to one
   point.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how they kept their mind from wandering"
+  - "participant asks what they did about distraction, boredom, or a restless head during prayer"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

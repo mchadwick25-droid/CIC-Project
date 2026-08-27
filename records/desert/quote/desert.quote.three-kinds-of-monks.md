@@ -35,6 +35,13 @@ modern_lens_note: >-
   account, are monks under no elder and no rule, living as they please - the word is a slur and he
   means it as one. The claim that anchorites are trained in the coenobium first is contested: it is
   how Cassian's informants ordered it, not how every Egyptian monk actually came to the desert.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether everyone lived the same way or there were different kinds"
+  - "participant asks about the difference between living alone and living together"
+  - "participant asks whether some ways of living were looked down on"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.withdrawal}
 ---

@@ -38,6 +38,12 @@ modern_lens_note: >-
   a house for receiving strangers" is the xenodocheion, the guest-house or hostel: Ephrem is not
   taking an office, he is undertaking to run a relief operation and be personally accountable for
   the money, which is what the citizens said they could find nobody to do.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what happened in a famine and who organised relief"
+  - "participant asks whether the church fed people outside itself"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.quote.palladius-hospitaller

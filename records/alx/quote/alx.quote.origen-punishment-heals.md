@@ -18,6 +18,12 @@ sources:
 - source_id: alx.source.origen-philocalia
   locus: XXVII (file line 436)
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether they believed in hell and everlasting punishment"
+  - "participant asks whether God's severity was thought to be for the person's good"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.apokatastasis

@@ -23,6 +23,12 @@ text: 'As for our house, so far as fleshly wealth is concerned, it has been comp
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"The heretics" is Jerome''s own polemical label for fellow Christians on the other side of the Pelagian controversy, not an outside religion. "Our house" names the Bethlehem monastic establishment, not a dwelling or a family line; "fleshly wealth" is archaic for material wealth.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether they were ever attacked, and by whom"
+  - "participant asks what a doctrinal quarrel cost them in practice"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 139, div
 v.CXXXIX; the file's editorial gloss identifying 'our house' as the
