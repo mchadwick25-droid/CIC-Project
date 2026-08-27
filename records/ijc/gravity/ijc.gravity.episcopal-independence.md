@@ -30,6 +30,7 @@ relations:
 - {type: illustrated-by, target: ijc.quote.ambrose-emperor-in-church}
 - {type: illustrated-by, target: ijc.story.eutropius-at-the-altar}
 - {type: illustrated-by, target: ijc.quote.eutropius-right-of-refuge}
+- {type: illustrated-by, target: ijc.quote.happy-christian-emperors}
 - {type: tension-with, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
 - {type: tension-with, target: ijc.gravity.orthodoxy-enforcement}

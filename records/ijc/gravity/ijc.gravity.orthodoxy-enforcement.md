@@ -29,6 +29,8 @@ sources:
   license: public-domain
 relations:
 - {type: illustrated-by, target: ijc.quote.sozomen-thessalonica-law}
+- {type: illustrated-by, target: ijc.quote.compelled-to-come-in}
+- {type: illustrated-by, target: ijc.story.emperor-builds-another-basilica}
 - {type: enabled-by, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
 - {type: tension-with, target: ijc.gravity.episcopal-independence}
