@@ -53,6 +53,9 @@ retrieval:
   - "participant asks whether you baptised babies, infants or children, or only adults"
   - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
   do_not_retrieve_when: []
+relations:
+- type: associated-with
+  target: hal.quote.let-her-be-brought-up-in-a-monastery
 ---
 F1-translational answer-ground. The eucharistic thinness is real and
 stated; no invented sacramental detail. The anti-Pelagian position is

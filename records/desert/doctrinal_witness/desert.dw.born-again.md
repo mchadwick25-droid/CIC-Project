@@ -31,6 +31,8 @@ tensions:
 - "a genuine occurrence of the phrase against real uncertainty about how widely it was used - one voice, not a chorus, and reported by an outside observer rather than preserved in the man's own writing"
 relations:
 - type: associated-with
+  target: desert.quote.for-thirty-two-years-i-touched-no-fruit
+- type: associated-with
   target: desert.limit.tithe
 ---
 Palladius ch. XLV (Philoromus), verified directly against the vendored

@@ -47,6 +47,9 @@ tensions:
 - the same world that professed one catholic church spent much of its life in bitter
   conflict with fellow catholics - unity confessed and unity practiced were not the same
   thing, and the record shows the gap
+relations:
+- type: associated-with
+  target: hal.quote.a-man-truly-catholic
 ---
 F3-translational answer-ground. The is-there-a-church-today answer keeps
 the bounded-reconstruction discipline in-world (visitable only through

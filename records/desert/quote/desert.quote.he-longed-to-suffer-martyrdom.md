@@ -1,0 +1,45 @@
+---
+id: desert.quote.he-longed-to-suffer-martyrdom
+world_id: desert-monasticism
+record_type: quote
+schema_version: 2
+status: draft
+register: emic
+canon_cells:
+- F6-E
+confidence:
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: load-bearing
+  formation_confidence: Contested
+  divergence_note: >-
+    Contested for incident-level attribution, the standing bound on this Vita: reported narrative inside a bishop-author's own constructed exemplar, written for his own purposes. The wording is verbatim from the vendored file.
+sources:
+- source_id: desert.source.athanasius-vita-antonii
+  locus: >-
+    Vita Antonii SS46, during the persecution under Maximinus, 303-311 (npnf204_athanasius-select-works-letters.xml)
+  license: public-domain
+text: >-
+  And he longed to suffer martyrdom, but not being willing to give himself up, he ministered to the confessors in the mines and in the prisons. ... So all the rest thought it good to hide themselves that day, but Antony gave so little heed to the command that he washed his garment, and stood all next day on a raised place before them, and appeared in his best before the governor. ... For, as I said before, he prayed himself to be a martyr, wherefore he seemed as one grieved that he had not borne his witness.
+speaker_or_author: Athanasius, Life of Antony
+license: verbatim
+modern_lens_note: >-
+  The passage answers the death-wish charge and complicates it in the same breath. He wanted to die and would not hand himself in - the refusal to volunteer is the tradition's own line against seeking death - and yet he made himself conspicuous before the governor in clean clothes, which is as close to volunteering as refusing can get. Reading it as simple heroism or as simple pathology both flatten it. Ellipses span the account of his work among the prisoners and the governor's passing by.
+retrieval:
+  tier: 1
+  retrieve_when:
+  - "participant asks whether wanting to die as a martyr was a death wish"
+  - "participant asks what these people thought about dying for the faith"
+  - "participant asks whether they sought out persecution"
+  do_not_retrieve_when: []
+relations:
+- type: associated-with
+  target: desert.dw.death-wish
+---
+Opened 2026-08-27 for F6-E, served by desert.dw.death-wish alone, which cites the combat
+sections for spiritual-warfare vocabulary and had nothing quotable at the point the cell's own
+question is aimed.
+
+Chosen over the SS8-9 tomb material the witness cites, because that is about demons and this is
+about martyrdom, which is what the canon question asks. The tension inside the passage is the
+reason to keep it rather than a reason to trim it.

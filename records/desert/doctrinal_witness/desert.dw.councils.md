@@ -30,6 +30,9 @@ positions:
 - "refusal of communion at home and public argument in the city were both this world's own recorded forms of doctrinal resistance, not one instead of the other"
 tensions:
 - "person-earned discernment against office-conferred decision-making authority - the same tension that shaped how we governed ourselves, extended here to the wider church's own use of that earned authority when it needed it"
+relations:
+- type: associated-with
+  target: desert.quote.never-held-communion-with-the-schismatics
 ---
 Reasoned from desert.quote.antony-arians-serpents and
 desert.quote.antony-nicene-formula together with

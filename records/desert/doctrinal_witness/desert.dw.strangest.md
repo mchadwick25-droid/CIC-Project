@@ -24,6 +24,8 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: desert.quote.three-hundred-acres-to-the-villagers
+- type: associated-with
   target: desert.story.antony-call
 - type: associated-with
   target: desert.story.antony-withdrawal

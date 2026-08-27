@@ -31,6 +31,9 @@ nearest_material:
 - hal.term.monasterium
 - hal.story.day-at-monastery
 - hal.term.epistula
+relations:
+- type: associated-with
+  target: hal.quote.buried-beneath-the-church
 ---
 Grounds cell F5-E entirely (the archaeologists question and the
 how-do-historians-know question share one honest answer: letters, not

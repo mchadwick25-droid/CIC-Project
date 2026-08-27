@@ -31,6 +31,8 @@ tensions:
 - "this answers only the marriage-ending question - whether we held people entirely outside the Christian faith to be condemned is a question we have no answer to give; whether we saw our own way as one among many is answered elsewhere, not here"
 relations:
 - type: associated-with
+  target: desert.quote.good-good-i-dont-mind
+- type: associated-with
   target: desert.dw.someone-like-me
 - type: associated-with
   target: desert.dw.only-true-religion
