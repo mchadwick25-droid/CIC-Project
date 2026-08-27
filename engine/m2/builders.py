@@ -285,9 +285,27 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     # says why: "this block and the model's own tags share one id vocabulary
     # by construction." The cached prefix did not, and the turn that got no
     # evidence block at all (44 input tokens, turn 1) fabricated the most.
+    #
+    # ADJACENCY WAS NOT ENOUGH, measured again on the same six-turn shape
+    # 2026-08-27 against a package where every canon cell had a voice.
+    # Fabrication fell from 14 uses in 47 to 2 in 27 - but both survivors
+    # were [[desert.cautions]], emitted from the section headed "Cautions",
+    # which by then DID carry [[desert.core.desert]] beside it. The earlier
+    # invention had been a full three-segment address
+    # ([[desert.caution.single-voice-concentration]]); what was left was the
+    # bare namespace. So printing the id next to the heading tells a model
+    # the id exists; it does not tell it that THIS heading is addressed by
+    # THAT id, and a heading which is a plain noun still reads as a
+    # namespace of its own. The four world_core sections make it worst:
+    # four different headings, one repeated id, and nothing on the page
+    # saying they are fields of one record.
+    #
+    # So the heading states the relation instead of implying it. "(cite as
+    # [[id]])" is an instruction where " [[id]]" was an adjacency, and it
+    # costs four words a section.
     def emit(header: str, body: str | None, record_id: str | None = None) -> None:
         if body and body.strip():
-            head = f"{header} [[{record_id}]]" if record_id else header
+            head = f"{header} (cite as [[{record_id}]])" if record_id else header
             segments.append(f"## {head}\n\n{body.strip()}\n")
 
     craft = _one(records, "voice_craft")
