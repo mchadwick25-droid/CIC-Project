@@ -45,6 +45,8 @@ relations:
   target: pahc.story.ignatius-guarded-journey
 - type: associated-with
   target: pahc.story.polycarp-forwards-letters
+- type: illustrated-by
+  target: pahc.quote.lucian-orphans-and-widows
 - {type: illustrated-by, target: pahc.quote.polycrates-to-victor}
 name: "Translocal Correspondence Network [PRIMARY]"
 classification: primary

@@ -678,6 +678,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 119,040 | 119,040 | ephraim_prose-refutations_mitchell1912-1921 |
 
+## `lucian_works-vol4-peregrine_fowler1905.txt`
+
+1 section(s) to level 2 · ~78,209 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 78,209 | 78,209 | lucian_works-vol4-peregrine_fowler1905 |
+
 ## `npnf101_augustine-confessions-letters.xml`
 
 38 section(s) to level 2 · ~554,326 words of text · ~27,402 words of apparatus
@@ -3696,6 +3704,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 100,835 | 100,835 | palladius_paradise-v1-syriac_budge1907 |
+
+## `tacitus_annals-15-44_church-brodribb1876.txt`
+
+1 section(s) to level 2 · ~835 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 835 | 835 | tacitus_annals-15-44_church-brodribb1876 |
 
 ## `webbe_world-english-bible-british-edition.xml`
 

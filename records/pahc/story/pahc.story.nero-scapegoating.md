@@ -12,7 +12,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted as basically authentic to Tacitus's own text; Contested is the live scholarly dispute (Shaw/Jones) over whether a discrete, fire-linked, named-group persecution of Christians actually occurred in 64 CE, or whether this reflects a later, more general memory retrojected onto the fire. No public-domain English edition of Tacitus is vendored in this world's own registry (see pahc.source.tacitus-annals) - this record is told in paraphrase, not verbatim quotation, for that reason."
+  divergence_note: "Widely Accepted as basically authentic to Tacitus's own text; Contested is the live scholarly dispute (Shaw/Jones) over whether a discrete, fire-linked, named-group persecution of Christians actually occurred in 64 CE, or whether this reflects a later, more general memory retrojected onto the fire. Tacitus is NOW VENDORED (2026-08-27, cic/texts/tacitus_annals-15-44_church-brodribb1876.txt) and pahc.quote.tacitus-hatred-against-mankind carries the passage verbatim. This record is still TOLD in paraphrase, which is what a story record does, but the paraphrase is now checkable against the text rather than resting on report - and a participant who asks what Tacitus actually wrote can be given the words."
 sources:
 - source_id: pahc.source.tacitus-annals
   locus: "Annals 15.44"
@@ -32,6 +32,8 @@ relations:
   target: pahc.force.neronian-persecution
 - type: associated-with
   target: pahc.gravity.authority-consolidation
+- type: associated-with
+  target: pahc.quote.tacitus-hatred-against-mankind
 narrative_tier: 1
 narrative_tier_justification: "A specific, dated historical event, from a named, datable historian, describing named individuals in the surrounding narrative (Nero), though no Christian individual by name. Widely Accepted as basically authentic to Tacitus's own text; the live Shaw/Jones dispute over whether a discrete, named-group persecution actually occurred is carried at full strength, not resolved."
 tellable_as: "After the Great Fire of Rome, Nero shifts blame onto a group the historian Tacitus calls Chrestiani, and has them executed with deliberate, theatrical cruelty."

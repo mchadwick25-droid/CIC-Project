@@ -1,0 +1,39 @@
+# Vendored 2026-08-27, supplied by Mark. Fulfils part of the acquisition
+# pahc.search.roman-historians-english-pd left open as not_found.
+# ONE CHAPTER, not the Annals - see the vendored file's own SCOPE block.
+source_file: tacitus_annals-15-44_church-brodribb1876.txt
+authors_ruled:
+  church_brodribb:
+    kind: metadata-omission
+    evidence: 'The file is plain text and its transcription names no translator - it opens "The
+      Annals by Tacitus / Book 15 / 44" and goes straight into the chapter. The attribution to
+      Alfred John Church and William Jackson Brodribb (1876) is made at vendoring on internal
+      evidence: the renderings "a most mischievous superstition", "hatred against mankind",
+      "Christus, from whom the name had its origin" and the opening "Such indeed were the
+      precautions of human wisdom" are that translation''s distinctive wording, and it is the
+      standard public-domain English of the chapter and the candidate named in
+      pahc.source.tacitus-annals since the prior build. The slug is used ONLY to hold that
+      translator attribution; it is never used for Tacitus'' own text.
+
+      '
+assignments:
+- work: The Annals, Book 15, chapter 44 (the Great Fire and Nero's punishment of the Christians)
+  author: tacitus
+  locus: Book 15, ch. 44 entire; about 375 words
+  atlas_ids:
+  - post-apostolic-house-church
+  role: context
+  confidence: assigned
+  note: 'ROLE IS `context`, NOT `tradition`, and deliberately so. Tacitus is a hostile outside
+    witness writing c. 116 about events of 64; he is not a voice of the tradition and must never be
+    compiled as one. What he supplies is the earliest datable non-Christian notice of the group in
+    Rome, and the earliest outside notice that its founder was executed by a Roman governor.
+
+    TWO LIMITS RIDE WITH IT. The Medicean MS reads "chrestianos", corrected by a later hand to
+    "christianos", and this English prints "Christians" with no note - so nothing here can carry a
+    claim about what Romans called this group. And the passage''s authenticity (not seriously
+    disputed) is a different question from whether a discrete, fire-linked persecution of
+    Christians as a named group happened in 64 (live, non-fringe: Shaw against Jones). Vendoring
+    settles the first only.
+
+    '

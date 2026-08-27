@@ -40,6 +40,8 @@ relations:
   target: pahc.witness.outsider-view
 - type: associated-with
   target: pahc.story.pliny-interrogation
+- type: illustrated-by
+  target: pahc.quote.tacitus-hatred-against-mankind
 - {type: illustrated-by, target: pahc.story.grandsons-before-domitian}
 name: "State Pressure / Legal Precarity [SUPPORTING]"
 classification: supporting

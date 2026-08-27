@@ -1,0 +1,68 @@
+     __________________________________________________________________
+
+           Title: The Annals of Tacitus, Book XV, chapter 44 - the Great Fire
+                  of 64 and Nero's punishment of the Christians
+      Creator(s): Tacitus, Publius Cornelius (Roman senator and historian)
+                  Church, Alfred John (Translator)
+                  Brodribb, William Jackson (Translator)
+      Full title: The Annals, Book 15, chapter 44. Written c. 116 CE,
+                  describing events of 64 CE.
+     Print Basis: The Church and Brodribb English translation, first
+                  published 1876 (Macmillan). THE FILE'S OWN TEXT NAMES NO
+                  TRANSLATOR - it opens "The Annals by Tacitus / Book 15 /
+                  44" and goes straight into the chapter. The attribution to
+                  Church and Brodribb is made HERE, at vendoring, on internal
+                  evidence: the renderings "a most mischievous superstition",
+                  "hatred against mankind", "Christus, from whom the name had
+                  its origin" and the opening "Such indeed were the
+                  precautions of human wisdom" are that translation's
+                  distinctive wording, and it is the standard public-domain
+                  English of this chapter, named as the acquisition candidate
+                  in pahc.source.tacitus-annals since the prior build. A
+                  record quoting this file must therefore say "in the
+                  translation standardly identified as Church and Brodribb"
+                  rather than asserting the attribution flatly, until a copy
+                  bearing the translators' names is collated against it.
+          Rights: Public Domain
+    Rights basis: 1876 publication date, long out of US copyright. NOT read
+                  from this file's own front matter, which has none. Supplied
+                  by Mark 2026-08-27.
+Source Collection: A transcription that carried Creative Commons BY-SA deed
+                  boilerplate in its tail ("Text is available under the
+                  Creative Commons Attribution-ShareAlike License; additional
+                  terms may apply..."), stripped at vendoring. That licence
+                  attaches to whoever made the transcription; the underlying
+                  1876 translation is public domain by date regardless.
+
+      SCOPE - READ THIS BEFORE CITING: THIS IS ONE CHAPTER, NOT THE ANNALS.
+                  375 words. Book 15, chapter 44, and nothing else. The rest
+                  of Tacitus is NOT in this corpus. Nothing here licenses a
+                  claim about what Tacitus says elsewhere - not Annals 15.38-
+                  43 on the fire itself, not the Histories on Judaea, not
+                  Book 15's surrounding narrative of Nero's rebuilding. Any
+                  record reaching for those is reaching past the file.
+
+  THE TEXTUAL CRUX: The Medicean manuscript reads "chrestianos", corrected
+                  by a later hand to "christianos"; this translation prints
+                  "Christians" and gives no note. That correction is where a
+                  real scholarly question sits, and a record quoting the
+                  English here cannot see it. Do not build any claim about
+                  what Romans called this group on the strength of this
+                  file's spelling.
+
+   WHAT IT DOES NOT SETTLE: The passage's authenticity is not seriously
+                  disputed. Whether a discrete, fire-linked persecution of
+                  Christians AS A NAMED GROUP actually occurred in 64 is a
+                  live, non-fringe debate (Brent Shaw against Christopher
+                  Jones). Those are two different questions and vendoring
+                  this file settles only the first. See
+                  pahc.source.tacitus-annals, which carries the limit.
+     __________________________________________________________________
+
+The Annals by Tacitus
+
+Book 15
+
+44
+
+Such indeed were the precautions of human wisdom. The next thing was to seek means of propitiating the gods, and recourse was had to the Sibylline books, by the direction of which prayers were offered to Vulcanus, Ceres, and Proserpina. Juno, too, was entreated by the matrons, first, in the Capitol, then on the nearest part of the coast, whence water was procured to sprinkle the fane and image of the goddess. And there were sacred banquets and nightly vigils celebrated by married women. But all human efforts, all the lavish gifts of the emperor, and the propitiations of the gods, did not banish the sinister belief that the conflagration was the result of an order. Consequently, to get rid of the report, Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace. Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus, and a most mischievous superstition, thus checked for the moment, again broke out not only in Judaea, the first source of the evil, but even in Rome, where all things hideous and shameful from every part of the world find their centre and become popular. Accordingly, an arrest was first made of all who pleaded guilty; then, upon their information, an immense multitude was convicted, not so much of the crime of firing the city, as of hatred against mankind. Mockery of every sort was added to their deaths. Covered with the skins of beasts, they were torn by dogs and perished, or were nailed to crosses, or were doomed to the flames and burnt, to serve as a nightly illumination, when daylight had expired. Nero offered his gardens for the spectacle, and was exhibiting a show in the circus, while he mingled with the people in the dress of a charioteer or stood aloft on a car. Hence, even for criminals who deserved extreme and exemplary punishment, there arose a feeling of compassion; for it was not, as it seemed, for the public good, but to glut one man's cruelty, that they were being destroyed.

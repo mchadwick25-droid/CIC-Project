@@ -36,6 +36,8 @@ relations:
   target: pahc.gravity.martyrdom-meaning
 - type: associated-with
   target: pahc.gravity.boundary-drawing
+- type: associated-with
+  target: pahc.quote.lucian-orphans-and-widows
 name: "State Legal Precarity [2A - ongoing/external]"
 matrix_cell: 2A
 kind: ongoing

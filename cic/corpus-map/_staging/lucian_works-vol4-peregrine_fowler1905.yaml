@@ -1,0 +1,67 @@
+# Vendored 2026-08-27, supplied by Mark. Fulfils part of the acquisition
+# pahc.search.roman-historians-english-pd left open as not_found.
+source_file: lucian_works-vol4-peregrine_fowler1905.txt
+authors_ruled:
+  fowler_brothers:
+    kind: metadata-omission
+    evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor has
+      nothing to match. The translators are not in doubt: the title page reads "TRANSLATED BY
+      H. W. FOWLER AND F. G. FOWLER... OXFORD AT THE CLARENDON PRESS 1905". The slug is used ONLY
+      for the 1905 apparatus - the Notes Explanatory of Allusions at pp. 191-244 and the prefatory
+      matter - and never for Lucian''s own text.
+
+      '
+assignments:
+- work: 'The Death of Peregrine (De Morte Peregrini)'
+  author: lucian
+  locus: pp. 79-94; the Christian material concentrated in the Palestine episode and the
+    imprisonment
+  atlas_ids:
+  - post-apostolic-house-church
+  role: context
+  confidence: assigned
+  note: 'ROLE IS `context`. Lucian is a satirist and a hostile outside witness, and the portrait of
+    Peregrinus himself is unusable as a positive account of anything. What is usable is what the
+    satire preserves without meaning to, because it is scenery rather than argument: officials,
+    orphans and ancient widows at the prison gate from break of day; bribed gaolers; meals carried
+    in; the sacred writings read; deputations sent from Asiatic cities at communal expense with
+    sympathy and legal advice; a conviction of immortality that produces contempt of death; and
+    goods held as common property. Jones and Bremmer read the passage this way and so does this
+    corpus.
+
+    THE TRANSLATION IS NOT TRANSPARENT. The Fowlers render Lucian into colloquial Edwardian
+    English with sums in pounds sterling. A quote carries 1905 register as well as second-century
+    content and a record using it must say so.
+
+    '
+- work: 'The Works of Lucian of Samosata, Volume IV: the other seventeen pieces'
+  author: lucian
+  locus: 'Slander a Warning; The Hall; Patriotism; Dipsas; A Word with Hesiod; The Ship; Dialogues
+    of the Hetaerae; The Runaways; Saturnalia; Cronosolon; four Saturnalian Letters; A Feast of
+    Lapithae; Demosthenes; The Gods in Council; The Cynic; The Purist Purized'
+  atlas_ids:
+  - post-apostolic-house-church
+  role: context
+  confidence: provisional
+  note: 'Registered rather than assigned to a use. These are second-century Greek prose from the
+    same decades and the same eastern-Mediterranean world as this Atlas entry, and several bear on
+    it obliquely - The Runaways is on the same false-Cynic theme as the Peregrine, Saturnalia and
+    the Saturnalian Letters are on wealth, patronage and obligation between rich and poor, and A
+    Feast of Lapithae is a set-piece on how a shared meal goes wrong. `provisional` because no
+    record in this world has yet had occasion to open any of them; the volume is here so that
+    nobody has to conclude it holds only the Peregrine.
+
+    '
+- work: 'Notes Explanatory of Allusions to Persons, &c. (1905)'
+  author: fowler_brothers
+  locus: pp. 191-244, plus the alphabetical table
+  atlas_ids:
+  - post-apostolic-house-church
+  role: context
+  confidence: assigned
+  note: 'Edwardian editorial apparatus, not an ancient source, and marked `context` for that
+    reason. Its use here is that it identifies Lucian''s allusions - it is where the volume states,
+    for instance, that Peregrine "is a historical character", and it glosses the Cynics on whom the
+    satire turns. Never quotable as Lucian.
+
+    '

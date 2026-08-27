@@ -241,6 +241,18 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: Notes Explanatory of Allusions to Persons, &c. (1905)
+  author: fowler_brothers
+  locus: pp. 191-244, plus the alphabetical table
+  role: context
+  confidence: assigned
+  note: 'Edwardian editorial apparatus, not an ancient source, and marked `context` for that
+    reason. Its use here is that it identifies Lucian''s allusions - it is where the volume
+    states, for instance, that Peregrine "is a historical character", and it glosses the Cynics
+    on whom the satire turns. Never quotable as Lucian.
+
+    '
+  source_file: lucian_works-vol4-peregrine_fowler1905.txt
 - work: The Gospel of Peter
   author: gospel-of-peter
   locus: div2 3.2 (Akhmim fragment)
@@ -416,6 +428,43 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: The Death of Peregrine (De Morte Peregrini)
+  author: lucian
+  locus: pp. 79-94; the Christian material concentrated in the Palestine episode and the imprisonment
+  role: context
+  confidence: assigned
+  note: 'ROLE IS `context`. Lucian is a satirist and a hostile outside witness, and the portrait
+    of Peregrinus himself is unusable as a positive account of anything. What is usable is
+    what the satire preserves without meaning to, because it is scenery rather than argument:
+    officials, orphans and ancient widows at the prison gate from break of day; bribed gaolers;
+    meals carried in; the sacred writings read; deputations sent from Asiatic cities at communal
+    expense with sympathy and legal advice; a conviction of immortality that produces contempt
+    of death; and goods held as common property. Jones and Bremmer read the passage this way
+    and so does this corpus.
+
+    THE TRANSLATION IS NOT TRANSPARENT. The Fowlers render Lucian into colloquial Edwardian
+    English with sums in pounds sterling. A quote carries 1905 register as well as second-century
+    content and a record using it must say so.
+
+    '
+  source_file: lucian_works-vol4-peregrine_fowler1905.txt
+- work: 'The Works of Lucian of Samosata, Volume IV: the other seventeen pieces'
+  author: lucian
+  locus: Slander a Warning; The Hall; Patriotism; Dipsas; A Word with Hesiod; The Ship; Dialogues
+    of the Hetaerae; The Runaways; Saturnalia; Cronosolon; four Saturnalian Letters; A Feast
+    of Lapithae; Demosthenes; The Gods in Council; The Cynic; The Purist Purized
+  role: context
+  confidence: provisional
+  note: 'Registered rather than assigned to a use. These are second-century Greek prose from
+    the same decades and the same eastern-Mediterranean world as this Atlas entry, and several
+    bear on it obliquely - The Runaways is on the same false-Cynic theme as the Peregrine,
+    Saturnalia and the Saturnalian Letters are on wealth, patronage and obligation between
+    rich and poor, and A Feast of Lapithae is a set-piece on how a shared meal goes wrong.
+    `provisional` because no record in this world has yet had occasion to open any of them;
+    the volume is here so that nobody has to conclude it holds only the Peregrine.
+
+    '
+  source_file: lucian_works-vol4-peregrine_fowler1905.txt
 - work: The Martyrdom of Ignatius
   author: martyrdom_of_ignatius
   locus: div2 5.25 under div1 'IGNATIUS'
@@ -602,6 +651,26 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: The Annals, Book 15, chapter 44 (the Great Fire and Nero's punishment of the Christians)
+  author: tacitus
+  locus: Book 15, ch. 44 entire; about 375 words
+  role: context
+  confidence: assigned
+  note: 'ROLE IS `context`, NOT `tradition`, and deliberately so. Tacitus is a hostile outside
+    witness writing c. 116 about events of 64; he is not a voice of the tradition and must
+    never be compiled as one. What he supplies is the earliest datable non-Christian notice
+    of the group in Rome, and the earliest outside notice that its founder was executed by
+    a Roman governor.
+
+    TWO LIMITS RIDE WITH IT. The Medicean MS reads "chrestianos", corrected by a later hand
+    to "christianos", and this English prints "Christians" with no note - so nothing here
+    can carry a claim about what Romans called this group. And the passage''s authenticity
+    (not seriously disputed) is a different question from whether a discrete, fire-linked
+    persecution of Christians as a named group happened in 64 (live, non-fringe: Shaw against
+    Jones). Vendoring settles the first only.
+
+    '
+  source_file: tacitus_annals-15-44_church-brodribb1876.txt
 - work: Address to the Greeks
   author: tatian
   locus: div2 3.2 under div1 'TATIAN'
