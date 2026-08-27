@@ -428,3 +428,91 @@ def test_assemble_evidence_fallback_never_fires_once_a_cell_matches():
     )
     assert evidence["cells"] != []
     assert all(not c.get("fulltext_fallback") for c in evidence["candidates"])
+
+
+# ---- entity routing (Stage A, added 2026-08-27) -------------------------
+# Fixture shaped from the measured failure it exists for: a world whose
+# figure is named in the question but whose name is in no canon question,
+# so every content-word tier is blind to it.
+ENTITY_CANON = {
+    **CANON_QUESTIONS,
+    "fleet.canon.q-f1e-rule": {
+        "id": "fleet.canon.q-f1e-rule",
+        "record_type": "canon_question",
+        "cell": "F1-E",
+        "text": "Who held authority among you, and how did anyone come to have it?",
+    },
+}
+ENTITY_FIGURE = {
+    "id": "fix.figure.pachomius",
+    "record_type": "figure",
+    "canon_cells": ["F1-E"],
+    "names": [{"name": "Pachomius", "tag": "in-world"}, {"name": "Pachomius of Tabennesi (c. 292-346)", "tag": "scholarly"}],
+}
+ENTITY_QUOTE = {
+    "id": "fix.quote.the-rule",
+    "record_type": "quote",
+    "canon_cells": ["F1-E"],
+    "text": "Suffer each one to eat and to drink, as Pachomius was commanded.",
+    "license": "verbatim",
+}
+ENTITY_REPOSITORY = {r["id"]: r for r in (WITNESS, LIMIT, TERM_A, ENTITY_FIGURE, ENTITY_QUOTE)}
+ENTITY_COVERAGE = {**COVERAGE, "F1-E": {"quotes": ["fix.quote.the-rule"], "terms": [], "stories": [], "doctrinal_witness": [], "gravities": [], "forces": [], "contested_claims": []}}
+
+
+def test_entity_routing_reaches_a_cell_no_content_word_tier_would():
+    matches = match_asks_to_cells(
+        message="Is there anything Pachomius himself actually put in writing?",
+        asks=None,
+        canon_questions=ENTITY_CANON,
+        repository_records=ENTITY_REPOSITORY,
+    )
+    entity = [m for m in matches if m.get("from_entity")]
+    assert entity, "a named figure must reach the cell its own world discusses it in"
+    assert entity[0]["cell"] == "F1-E"
+    assert entity[0]["from_entity"] == "pachomius"
+
+
+def test_entity_routing_adds_a_slot_and_never_displaces_a_content_word_match():
+    # The whole safety argument: entity routing widens the ground, so a
+    # cell an honest literal match found must still be there afterwards.
+    without = match_asks_to_cells(
+        message="What did your community actually have about Jesus?",
+        asks=None, canon_questions=ENTITY_CANON, repository_records=None,
+    )
+    with_entity = match_asks_to_cells(
+        message="What did your community actually have about Jesus, and about Pachomius?",
+        asks=None, canon_questions=ENTITY_CANON, repository_records=ENTITY_REPOSITORY,
+    )
+    kept = {m["cell"] for m in with_entity if not m.get("from_entity")}
+    assert {m["cell"] for m in without} <= kept
+
+
+def test_entity_routing_ignores_a_name_the_canon_already_carries():
+    # A token already in canon vocabulary routes through cell_keywords; a
+    # second path for it would only let the entity tier duplicate - and
+    # potentially outrank - the honest match it is copying.
+    figure = {**ENTITY_FIGURE, "id": "fix.figure.jesus", "names": [{"name": "Jesus", "tag": "in-world"}]}
+    repo = {**ENTITY_REPOSITORY, figure["id"]: figure}
+    matches = match_asks_to_cells(
+        message="Tell me about Jesus.", asks=None, canon_questions=ENTITY_CANON, repository_records=repo,
+    )
+    assert not [m for m in matches if m.get("from_entity") == "jesus"]
+
+
+def test_fallback_still_fires_when_the_only_match_is_an_entity_match():
+    # Regression guard: an entity match is a weaker signal than a canon or
+    # hint match - it knows the question is ABOUT someone, not what is
+    # asked - so it must not suppress the Stage A2 net the way a real cell
+    # match does. Measured on pahc: "Who was Papias?" fell from three
+    # records to one when entity routing first landed.
+    repo = {**FALLBACK_REPOSITORY, ENTITY_FIGURE["id"]: ENTITY_FIGURE}
+    evidence = assemble_evidence(
+        message="What did Pachomius say of paradise?",
+        asks=None,
+        canon_questions=ENTITY_CANON,
+        coverage=ENTITY_COVERAGE,
+        repository_records=repo,
+    )
+    assert all(m.get("from_entity") for m in evidence["cells"])
+    assert any(c.get("fulltext_fallback") for c in evidence["candidates"])

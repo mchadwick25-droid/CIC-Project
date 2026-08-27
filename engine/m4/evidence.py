@@ -36,7 +36,7 @@ beyond-the-seed expansion this module performs, and it is exactly the
 gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
-from engine.m1.canon import cell_keywords, retrieval_hint_keywords
+from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import all_text, content_words, overlap_coefficient
 from engine.m4.grounding_net import scope_completion
 
@@ -354,7 +354,7 @@ def match_asks_to_cells(
     canon_words = cell_keywords(canon_questions)
     matches = _rank(canon_words)
     if len(matches) >= top_n:
-        return matches[:top_n]
+        return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
 
     # Hints widen cells the fleet already defines; they never invent a
     # cell, so a stale canon_cells value on a record can't create one.
@@ -366,7 +366,7 @@ def match_asks_to_cells(
     if hinted:
         matches = _fill(matches, hinted, from_retrieval_hint=True)
         if len(matches) >= top_n:
-            return matches[:top_n]
+            return _add_entity_cell(matches[:top_n], query_words, repository_records, canon_words)
 
     # Everything above compares words literally. This tier runs only when
     # that left slots unfilled, so an honest literal match is never
@@ -378,8 +378,50 @@ def match_asks_to_cells(
     # reach ground, usually the wrong ground, so it is not here.
     full = {cell: canon_words.get(cell, set()) | hinted.get(cell, set()) for cell in canon_words}
     stemmed = {cell: _stems(words) for cell, words in full.items()}
-    query_words = _stems(query_words)
-    return _fill(matches, stemmed, matched_by="stem")[:top_n]
+    stem_query = _stems(query_words)
+    saved_query, query_words = query_words, stem_query
+    matches = _fill(matches, stemmed, matched_by="stem")[:top_n]
+    query_words = saved_query
+    return _add_entity_cell(matches, query_words, repository_records, canon_words)
+
+
+# Entity routing (added 2026-08-27 on a measured failure - see
+# engine.m1.canon.entity_cells for the failing turn). Every tier above
+# compares content words and weighs a proper noun no more heavily than any
+# other word, so naming a figure did nothing.
+#
+# IT ADDS A SLOT RATHER THAN COMPETING FOR ONE, and that is the whole
+# safety argument. The alternative - letting an entity hit displace the
+# weakest canon match - needed a tuned threshold on how weak is weak
+# enough, and a wrong threshold silently drops an honest literal match.
+# This cannot: every cell the tiers above found survives untouched, and
+# the only effect of naming a figure is that one further cell's ground
+# rides along. That costs tokens in an uncached per-turn block. It cannot
+# cost correctness, because the ground has never been a whitelist - the
+# grounding net checks each sentence against the whole repository, so a
+# wider ground widens what is OFFERED and changes nothing about what may
+# be said.
+_ENTITY_EXTRA_CELLS = 1
+
+
+def _add_entity_cell(matches, query_words, repository_records, canon_words):
+    if not repository_records:
+        return matches
+    routes = entity_cells(repository_records, canon_vocabulary=set().union(*canon_words.values()) if canon_words else None)
+    if not routes:
+        return matches
+    already = {m["cell"] for m in matches}
+    added = 0
+    for name in sorted(query_words & set(routes)):
+        for cell in routes[name]:
+            if added >= _ENTITY_EXTRA_CELLS:
+                return matches
+            if cell in already or cell not in canon_words:
+                continue
+            already.add(cell)
+            added += 1
+            matches.append({"cell": cell, "score": None, "shared_words": [name], "from_entity": name})
+    return matches
 
 
 def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000) -> list[dict]:
@@ -510,10 +552,21 @@ def assemble_evidence(
             seen_ids.add(candidate["id"])
             selected.append({**candidate, "cell": match["cell"]})
 
-    # Stage A2: only when Stage A found no cell AT ALL - never when a cell
-    # matched but session-exclusion is what emptied `selected` (that is an
-    # intentional "already told this" outcome, not a retrieval failure).
-    if not cell_matches:
+    # Stage A2: only when Stage A found no cell on its own EVIDENCE - never
+    # when a cell matched but session-exclusion is what emptied `selected`
+    # (that is an intentional "already told this" outcome, not a retrieval
+    # failure).
+    #
+    # An entity-only match does not count as Stage A finding a cell, and
+    # that clause is a regression fix rather than a refinement: measured on
+    # pahc, "Who was Papias?" reached no cell before entity routing and got
+    # three records from this fallback, then reached C-E through the entity
+    # tier and got one, because a cell match suppressed the fallback that
+    # had been carrying it. Entity routing is a weaker signal than a canon
+    # or hint match by construction - it knows the question is ABOUT
+    # someone, not what is being asked - so it widens the ground without
+    # claiming the fallback is no longer needed.
+    if not [m for m in cell_matches if not m.get("from_entity")]:
         for candidate in _fulltext_fallback_candidates(query_words=_query_words(message, asks), repository_records=repository_records):
             if candidate["id"] in seen_ids:
                 continue

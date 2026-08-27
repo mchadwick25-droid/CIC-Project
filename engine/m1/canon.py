@@ -25,8 +25,19 @@ while retrieval hints belong to one world's own records. Unioning them
 inside cell_keywords would make the compiled fleet cache wrong for every
 world; keeping them apart lets Stage A union the two at turn time and
 leaves the cache meaning precisely what it says.
+
+entity_cells() is the third corpus, added 2026-08-27 after a measured
+failure: every router above compares CONTENT WORDS, and a proper noun
+carries no more weight than any other word, so a participant naming a
+figure gets nothing from the name. Measured on desert - "Is there
+anything Pachomius himself actually put in writing that I could read?"
+reached F4-T and F2-I at 0.29 each on the strength of "writing" and
+"read", returned six records of scriptural-engagement material, and none
+of the Pachomian Rule, which sits in F3-I. The name did no work at all.
 """
-from engine.prose import content_words
+import re
+
+from engine.prose import all_text, content_words
 
 
 def valid_cells(fleet_records: dict[str, dict]) -> set[str]:
@@ -105,3 +116,95 @@ def classify_cell(cell: str, records: dict[str, dict]) -> dict:
     else:
         status = "empty"
     return {"status": status, "substantive": substantive, "honest_limit": honest_limit}
+
+
+# A figure's in-world name is a PHRASE, not a token list: pahc's church of
+# Rome is named "the church of God sojourning at Rome". Splitting on
+# whitespace - which is what engine.m4.grounding_net.build_figure_lexicon
+# does, correctly, for its own job - yields {church, god, sojourning,
+# rome}, and routing on "church" in a world that says church 51 times
+# sends every question everywhere. That lexicon is a POSITIVE check on
+# text the model already produced, where over-inclusion is harmless;
+# routing is the opposite risk, so this extractor is separate and
+# stricter rather than shared.
+#
+# Document frequency was tried first and is the WRONG discriminator,
+# measured: a world's central figures are its most frequent words, so a
+# df cap drops pachomius (24 mentions), antony (46) and ephrem (49) while
+# keeping sojourning (7) and themselves (21). Capitalisation is what
+# actually separates a name from a common noun in these fields.
+_LEADING_ARTICLES = {"the", "a", "an"}
+
+
+def _proper_tokens(name: str) -> set[str]:
+    tokens = re.findall(r"[A-Za-z][A-Za-z'-]*", name or "")
+    out: set[str] = set()
+    for position, token in enumerate(tokens):
+        if position == 0 and token.lower() in _LEADING_ARTICLES:
+            continue
+        if not token[0].isupper() or len(token) < 3:
+            continue
+        out.add(token.lower())
+    return out
+
+
+def entity_names(records: dict[str, dict]) -> set[str]:
+    """Lowercased proper-noun tokens from this world's figure records'
+    IN-WORLD names only. Scholarly forms are skipped for the same reason
+    build_figure_lexicon skips them - "Clement of Alexandria (Titus
+    Flavius Clemens...)" drags common place and epithet words in."""
+    names: set[str] = set()
+    for record in records.values():
+        if record.get("record_type") != "figure":
+            continue
+        for entry in record.get("names") or []:
+            if isinstance(entry, dict) and entry.get("tag") == "in-world":
+                names |= _proper_tokens(entry.get("name") or "")
+    return names
+
+
+def entity_cells(records: dict[str, dict], *, canon_vocabulary: set[str] | None = None, min_share: float = 0.2) -> dict[str, list[str]]:
+    """entity token -> the cells that token's own world actually discusses
+    it in, most-discussed first.
+
+    Mention-based rather than curated from the figure record's relations,
+    deliberately: a record added tomorrow routes on the day it lands, with
+    no edge to remember to declare. Measured on desert, both derivations
+    return the same three cells for "pachomius" ({F3-I, F4-I, F6-I}), and
+    only this one carries the WEIGHT that lets F6-I's single mention be
+    dropped while F3-I's thirteen are kept.
+
+    canon_vocabulary drops tokens the fleet's own canon questions already
+    contain - ijc's "constantine" is one - because such a token already
+    routes through cell_keywords and giving it a second path would only
+    let entity routing displace the honest match it duplicates.
+
+    min_share is the floor a cell must hold of one entity's mentions to
+    count as a cell that entity is ABOUT rather than one it is mentioned
+    in passing."""
+    names = entity_names(records)
+    if canon_vocabulary:
+        names = {n for n in names if n not in canon_vocabulary}
+    if not names:
+        return {}
+
+    counts: dict[str, dict[str, int]] = {n: {} for n in names}
+    for record in records.values():
+        words = content_words(all_text(record))
+        cells = record.get("canon_cells") or []
+        if not cells:
+            continue
+        for name in names & words:
+            for cell in cells:
+                counts[name][cell] = counts[name].get(cell, 0) + 1
+
+    out: dict[str, list[str]] = {}
+    for name, cell_counts in counts.items():
+        total = sum(cell_counts.values())
+        if not total:
+            continue
+        ranked = sorted(cell_counts.items(), key=lambda kv: (-kv[1], kv[0]))
+        kept = [cell for cell, n in ranked if n / total >= min_share]
+        if kept:
+            out[name] = kept
+    return out
