@@ -34,6 +34,9 @@ nearest_material:
 - ijc.story.emperor-penance
 - ijc.story.callinicum-synagogue
 - ijc.term.martyrium
+relations:
+- type: associated-with
+  target: ijc.quote.socrates-damasus-election
 ---
 F6-E held as an honest limit with redirection: the seed questions
 reach before this world's horizon, and the honest move is naming that

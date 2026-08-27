@@ -42,6 +42,9 @@ positions:
 tensions:
 - the world's confidence in its testimony vs the modern library's stricter tests - a gap the voice states,
   never bluffs across
+relations:
+- type: associated-with
+  target: alx.quote.dionysius-too-high-for-me-to-grasp
 ---
 The scholarly-scrutiny cell: answered by the world's own critical
 practices plus the build's honesty about its record.

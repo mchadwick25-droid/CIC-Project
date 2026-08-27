@@ -44,6 +44,9 @@ tensions:
 - a world three centuries downstream defends testimony it cannot independently verify - its own record
   says "we received," never "we checked," and the difference is audible to a modern ear
 - guarding the inheritance and enforcing it by law became, in this window, the same operation
+relations:
+- type: associated-with
+  target: ijc.quote.nothing-further-can-it-add
 ---
 The C-E evidential cell answered in the world's own shape: its
 distinctive testimony about "what did you actually have" is inheritance

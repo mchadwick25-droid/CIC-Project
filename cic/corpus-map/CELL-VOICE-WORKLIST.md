@@ -12,8 +12,8 @@ licensed quotes that voice it — never only propositional records."*
 Nothing measured that until 2026-08-27. On that day 69 cells across the six
 worlds were served by propositional records alone — a witness or a term
 asserting what the world held, with no licensed quote to say it in the
-world's own words. Thirty-nine have been closed since; the count below is
-what remains.
+world's own words. Fifty-three have been closed since; the count below is
+what remains, and none of it is openable.
 
 **THE RULING INSTRUMENT WAS WRONG ABOUT EIGHT CELLS, AND THE ERROR IS
 INSTRUCTIVE.** The first pass called 20 cells NEEDS READING. Eight were
@@ -26,15 +26,22 @@ Philadelphians 4, Philocalia I. The pattern is widened and the comment in
 a hand-written corpus: **the citation vocabulary belongs to the corpus, not
 to the person writing the regex.**
 
-**The OPENABLE ruling held up.** Of the 35 cells ruled openable, 30 were
-closed by going to the locus the record already cited and finding a
-quotable sentence sitting there — in 24 records, because several passages
-honestly answer more than one cell. Five resisted, and they resisted for a
-reason worth knowing: all five point at *Eusebius* or *Socrates* section
-numbers (Eus. HE VII.24, VII.25, VI.8; Socr. HE VII.8, IV.29), and the
-vendored NPNF volumes interleave editorial apparatus so densely that
-locating a numbered section by text search is unreliable. They need a
-reader working from the volume's own structure, not a probe.
+**The OPENABLE ruling held up — all 35 of them.** Every cell ruled openable
+was closed by going to the locus the record already cited and finding a
+quotable sentence sitting there, in 29 records: several passages honestly
+answer more than one cell, and one cell was closed by giving an existing
+record the second cell it was already doing the work of rather than writing
+a duplicate over the same passage.
+
+**The last six needed structure, not search.** They resisted the first two
+rounds for one reason: all six point at *Eusebius* or *Socrates* section
+numbers, and the vendored NPNF volumes interleave editorial apparatus so
+densely that a text probe for a numbered section is unreliable. Working
+from the volumes' own chapter headings found all six — and found that one
+locus in this file had been misread: Socrates *HE* IV.29 is the Damasus
+election, not the Arsenius hand (that is Book I, chapter 29). Same chapter
+number, different book; the kind of error a probe produces and a table of
+contents does not.
 
 **Three loci were corrected rather than copied.** Ambrose's ranking of
 virginity, widowhood and marriage stands at *Concerning Widows* IV.40–41,
@@ -76,10 +83,11 @@ a catechumen). All three had quotable text exactly where the ruling said.
 
 ## Discipline for working this list
 
-1. **Open from the locus the record already cites.** Every one of the nine
-   opened so far came from a locus its own witness had been citing and could
-   not show. If you find yourself hunting for a better passage, the cell may
-   really be NEEDS READING.
+1. **Open from the locus the record already cites.** All 35 came from a
+   locus its own witness had been citing and could not show. If you find
+   yourself hunting for a better passage, the cell may really be NEEDS
+   READING — and if the probe fails, go to the volume's table of contents
+   before concluding the passage is not there.
 2. **Keep the qualification inside the sentence.** Origen says "I hold to
    be"; trimming that turns an argument into an assertion. Ephrem's pearl is
    turned on the palm before the conclusion; cutting to the memorable phrase
@@ -95,30 +103,23 @@ a catechumen). All three had quotable text exactly where the ruling said.
 
 ## Current state
 
-```
-22 cells served without a quote or story
+No cell is OPENABLE any more. What remains is a reading question or a
+closed one.
 
-    6  OPENABLE
+```
+16 cells served without a quote or story
+
    11  NEEDS READING
     5  LIMIT-ONLY
 
-alx      6  3 openable, 2 needs reading, 1 limit-only
-    F1-T   OPENABLE
-           -> alx.term.anastasis <- athanasius-de-incarnatione  [8-10, 20-32]
-           -> alx.term.anastasis <- clement-stromateis  [IV.26, VI]
-    F2-E   OPENABLE
-           -> alx.dw.record <- eusebius-historia-ecclesiastica  [VII.25 (Dionysius's critical analysis of the Apocalypse)]
+alx      3  2 needs reading, 1 limit-only
     F2-T   NEEDS READING
     F3-E   NEEDS READING
-    F3-P   OPENABLE
-           -> alx.dw.church-failure <- eusebius-historia-ecclesiastica  [VI.8 (the rupture), VII (the lapsed controversy)]
     F5-E   LIMIT-ONLY
 hal      2  1 needs reading, 1 limit-only
     F1-E   NEEDS READING
     F6-E   LIMIT-ONLY
-syr      7  5 needs reading, 1 openable, 1 limit-only
-    F1-E   OPENABLE
-           -> syr.dw.decides <- socrates-historia-ecclesiastica  [VII.8 (the synod's door opened at the close)]
+syr      6  5 needs reading, 1 limit-only
     F2-P   NEEDS READING
            (unbacked: syr.term.raza-shrara <- brock-luminous-eye, syr.term.raza-shrara <- murray-symbols)
     F3-P   NEEDS READING
@@ -129,14 +130,10 @@ syr      7  5 needs reading, 1 openable, 1 limit-only
     F5-T   LIMIT-ONLY
     F6-I   NEEDS READING
            (unbacked: syr.dw.unsettled <- gedsh, syr.dw.unsettled <- koltun-fromm-dialogue)
-ijc      5  2 openable, 2 needs reading, 1 limit-only
-    C-E    OPENABLE
-           -> ijc.dw.received-not-seen <- chalcedon-acts  [Session IV (the rule of faith recited - Nicaea, Constantinople, ]
+ijc      3  2 needs reading, 1 limit-only
     F2-E   NEEDS READING
     F2-T   NEEDS READING
     F4-P   LIMIT-ONLY
-    F6-E   OPENABLE
-           -> ijc.limit.earlier-windows <- socrates-he  [IV.29 (where this world's own hard evidence actually lives)]
 desert   2  1 needs reading, 1 limit-only
     F2-E   NEEDS READING
            (unbacked: desert.term.apophthegma <- burton-christie-word)

@@ -34,6 +34,8 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: syr.quote.permitted-to-erect-churches
+- type: associated-with
   target: syr.gravity.authority-ambiguity
 text: 'Who had the right to decide, when belief was disputed? This world''s honest answer is: it was still
   being worked out, and our record shows the working. There were bishops - Nisibis remembered its line
