@@ -1,0 +1,22 @@
+# Written 2026-08-27 by desert's unopened-volume sweep.
+source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
+assignments:
+- work: Commentary on the Gospel of Matthew, Books I-II and X-XIV
+  author: origen
+  locus: ch. 30, The Sinning Brother, on Matthew 18:15, at file line 36205
+  atlas_ids:
+  - desert-monasticism
+  role: antecedent
+  confidence: assigned
+  note: 'ROLE IS `antecedent`: Caesarea, c. 245, before this world begins, and nobody here is shown
+    reading it. Its use is comparative and is worth the row. Origen works Matthew 18:15 at length -
+    whether correction applies to all sins or only grave ones, whether a man who sins greatly is a
+    brother at all - and then objects to his own conclusion, that expelling a man after three
+    censures for reviling or over-drinking "would seem to be very harsh". Set that beside Abba
+    Moses arriving at the council with a leaking jug and refusing to judge at all. Two ends of one
+    tradition on one problem; this world had only the desert end.
+
+    BOOK XV IS NOT IN THIS VOLUME. Origen on Matthew 19:12 and the eunuchs for the kingdom - the
+    passage a world about celibacy would most want - is absent, and no record may reach for it.
+
+    '

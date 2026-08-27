@@ -31,6 +31,12 @@ relations:
   target: desert.contested.alexandria-continuity
 - type: associated-with
   target: desert.force.authority-tension-vulnerability
+- type: associated-with
+  target: desert.source.origen-de-principiis
+- type: associated-with
+  target: desert.source.origen-philocalia
+- type: associated-with
+  target: desert.quote.god-is-not-a-body
 ---
 Re-derived from the prior build's cleared Doc_08 Cell 3A-i. This is the
 historically decisive fracture event for gravity 9 (Evagrian
