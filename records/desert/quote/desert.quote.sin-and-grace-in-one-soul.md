@@ -26,6 +26,7 @@ retrieval:
   - "participant says they were baptised or converted and are exactly the same person"
   - "participant asks whether a believer still sins, or still struggles years later"
   - "participant asks what happens to someone who dies still fighting"
+  - "participant says they converted and nothing changed, or that they feel unchanged"
   do_not_retrieve_when: []
 relations:
 - type: associated-with

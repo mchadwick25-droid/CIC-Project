@@ -103,6 +103,43 @@ There are exactly two honest remedies, and the first is usually right:
    lone HINT word, so putting the word in a hint leaves it stranded. That
    is a spec change and belongs to a human.
 
+### What the canon fixed, and what it did not — measured 2026-08-27
+
+Three `[measured]` questions were added to Appendix A for the three cases
+above and the canon reseeded (90 -> 93). One was closed outright and two
+were not, and the difference is instructive.
+
+CLOSED. "You talk about the heart a lot. What did you mean by it?" went
+from NO CELL AT ALL and three ground records to one cell and three of the
+new records. That is the `neighbours` pattern exactly: the word existed
+nowhere in the canon, so no hint could rescue it, and one canon question
+carrying `heart` did. On the locked sixty-question benchmark the same three
+questions took the fleet from 461 ground / 64 cells to 466 / 67 — alx and
+ijc gained as well as desert, which is the fleet-wide canon doing
+fleet-wide work.
+
+NOT CLOSED, and this is a limit of the ROUTER, not of the corpus:
+
+    "Does God ever feel like anything, or is it only believed?"
+        F6-P scores 0.5 on `ever`, `god`, `like`. F1-P, which holds the
+        new question and the records, does not make the top two.
+    "I became a Christian and nothing changed. What is wrong with me?"
+        F3-I scores 0.6 on `became`, `christian`, `wrong`.
+
+Adding the participant's word forms to the hints (`feel` beside `felt`,
+`changed` beside `same person` — rule 6, and worth doing on its own terms)
+changed neither, and the locked sixty did not move either. The reason is
+that only the top-scoring cells are kept: **a broad cell can outscore the
+right one on generic words.** `ever`, `god`, `like` are not about the hard
+places, but F6-P holds enough of them to win, and once it wins, nothing in
+a record that lives in F1-P can be reached.
+
+So there is a third remedy beyond the two above, and it is neither a hint
+nor a canon question: the cell scorer itself, which currently lets common
+words carry a cell. Recorded here rather than acted on — changing how
+routing scores is an engine change with fleet-wide blast radius, and it
+wants its own measurement, not a patch appended to a hint pass.
+
 ## The cost is real and shows up immediately
 
 The same rewrite that moved nine probe questions onto the new records cost

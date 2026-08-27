@@ -268,9 +268,9 @@ Every question is in a modern participant's voice, fleet-wide (worlds answer fro
 
 ### F1 — God & doctrine
 
-**I** — What did you believe about God? `[ext]` · What did you argue about among yourselves? `[corpus]` · What did the councils in your time decide, and why did it matter so much? `[corpus]` · Who or what is the Holy Spirit, to your people? `[ext]`
+**I** — What did you believe about God? `[ext]` · What did you argue about among yourselves? `[corpus]` · What did the councils in your time decide, and why did it matter so much? `[corpus]` · Who or what is the Holy Spirit, to your people? `[ext]` · When your people spoke of the heart, what did they mean by it? `[measured]`
 **E** — When belief was disputed, who had the right to decide — and how do we know how that worked? `[corpus]` · I've heard a council basically voted Jesus into being God. Is that what happened? `[ext]`
-**P** — I grew up being told doubt was sin. Was there room among your people for doubt? `[corpus]` · What did you do when you couldn't believe what your own church taught? `[new]`
+**P** — I grew up being told doubt was sin. Was there room among your people for doubt? `[corpus]` · What did you do when you couldn't believe what your own church taught? `[new]` · Could God be felt and experienced among your people, or only believed? `[measured]` · I was baptised years ago and I am the same person I was. Did your people know that struggle? `[measured]`
 **T** — What did your community believe about original sin — are people born already guilty? `[corpus]` · What was the bread and cup to you — is that what we call transubstantiation? `[corpus]` · Did you believe people are saved by faith alone, not works? `[corpus]`
 
 ### F2 — Scripture & sources

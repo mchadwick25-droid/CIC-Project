@@ -40,6 +40,14 @@ rank; vocabulary bloat is a real cost and this is what it looks like at
 small scale. Net across the day is still positive (459/76 -> 461/79) and
 no question went empty.
 
+After three `[measured]` questions were added to Appendix A for the cases
+a hint provably could not reach, and the canon reseeded (90 -> 93):
+    466 ground / 7.8 avg / 67 cells /  0 empty / 79 quotes
+
+The gain is not confined to the world that motivated it: alx went 77 -> 80
+and ijc 85 -> 88, because the canon is fleet-wide and a question added for
+desert's heart material widens the same cell everywhere.
+
 WHAT THE SIXTY CANNOT TELL YOU, and why a second instrument was used. The
 sixty were written to measure whether a world's records are REACHABLE AT
 ALL. They cannot measure whether a newly opened source informs ordinary
