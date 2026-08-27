@@ -42,6 +42,9 @@ tensions:
   virginity''s superiority) - it is not a neutral treatment of marriage on its own terms
 - money and dowry, the cell''s other named concern, are not addressed here - this record answers only
   the marriage half of F5-T''s question
+relations:
+- type: associated-with
+  target: ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood
 ---
 Added at review (Opus canon-structure pass, 2026-08-21) to correct the
 marriage half of ijc.limit.marriage-money, which claimed marriage

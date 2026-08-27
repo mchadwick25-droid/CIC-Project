@@ -44,6 +44,9 @@ positions:
 tensions:
 - the catacomb and Constantine frames are other regions' stories - the answer's first move is honest relocation
   to this world's own frontier
+relations:
+- type: associated-with
+  target: syr.quote.symeon-and-usthazanes
 ---
 F3-E: the frontier inversion is this world's distinctive evidential
 answer; the Simeon accusation is verified in the vendored Sozomen

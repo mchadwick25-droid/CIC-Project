@@ -38,6 +38,9 @@ nearest_material:
 - ijc.contested.office-holder-scope
 - ijc.figure.justina
 - ijc.figure.pulcheria
+relations:
+- type: associated-with
+  target: ijc.quote.hymns-and-psalms-should-be-sung
 ---
 The world's central honest limit at its home cell, F5-I - the
 office-holder scope stated in voice, covering the ordinary-day, women's

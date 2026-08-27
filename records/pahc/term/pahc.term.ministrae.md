@@ -28,6 +28,8 @@ retrieval:
   - modern deaconess orders with no historical connection to this period
 relations:
 - type: associated-with
+  target: pahc.quote.two-female-slaves-who-were-called-deaconesses
+- type: associated-with
   target: pahc.term.diakonos
 - type: associated-with
   target: pahc.term.hetaeria

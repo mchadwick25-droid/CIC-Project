@@ -12,8 +12,26 @@ licensed quotes that voice it — never only propositional records."*
 Nothing measured that until 2026-08-27. On that day 69 cells across the six
 worlds were served by propositional records alone — a witness or a term
 asserting what the world held, with no licensed quote to say it in the
-world's own words. Nine were opened the same day; the count below is what
-remains.
+world's own words. Thirty-nine have been closed since; the count below is
+what remains.
+
+**The OPENABLE ruling held up.** Of the 35 cells ruled openable, 30 were
+closed by going to the locus the record already cited and finding a
+quotable sentence sitting there — in 24 records, because several passages
+honestly answer more than one cell. Five resisted, and they resisted for a
+reason worth knowing: all five point at *Eusebius* or *Socrates* section
+numbers (Eus. HE VII.24, VII.25, VI.8; Socr. HE VII.8, IV.29), and the
+vendored NPNF volumes interleave editorial apparatus so densely that
+locating a numbered section by text search is unreliable. They need a
+reader working from the volume's own structure, not a probe.
+
+**Three loci were corrected rather than copied.** Ambrose's ranking of
+virginity, widowhood and marriage stands at *Concerning Widows* IV.40–41,
+not I.1–2 as the record cited; Clement's free-will argument is put most
+compactly in the chapter headed "The Reason and End of Divine Punishments";
+Justin's "Moses is more ancient" sentence stands at *1 Apol.* 44, not the
+59–60 its witness named. In each case the argument does run where the
+record said — the sentence quoted does not.
 
 ## The four rulings
 
@@ -62,19 +80,17 @@ a catechumen). All three had quotable text exactly where the ruling said.
 4. **Fix cells before hints.** Six desert quotes had been filed under daily
    life when they answered practice; that was worth more than any hint.
 
+
 ## Current state
 
 ```
-60 cells served without a quote or story
+30 cells served without a quote or story
 
-   35  OPENABLE
+    5  OPENABLE
    20  NEEDS READING
     5  LIMIT-ONLY
 
-alx      9  6 openable, 2 needs reading, 1 limit-only
-    F1-P   OPENABLE
-           -> alx.dw.doubt <- eusebius-historia-ecclesiastica  [VII.24]
-           -> alx.term.autexousia <- clement-stromateis  [II.15, IV.24]
+alx      6  3 openable, 2 needs reading, 1 limit-only
     F1-T   OPENABLE
            -> alx.term.anastasis <- clement-stromateis  [IV.26, VI]
            -> alx.term.eucharistia <- clement-paidagogos  [II.2 (the eucharistic discussion)]
@@ -84,57 +100,23 @@ alx      9  6 openable, 2 needs reading, 1 limit-only
     F3-E   NEEDS READING
     F3-P   OPENABLE
            -> alx.dw.church-failure <- eusebius-historia-ecclesiastica  [VI.8 (the rupture), VII (the lapsed controversy)]
-    F3-T   OPENABLE
-           -> alx.term.episkopos <- clement-stromateis  [VI.13]
-    F4-E   OPENABLE
-           -> alx.dw.apostolic <- athanasius-festal-letters  [Letter 39 (the received scriptures)]
     F5-E   LIMIT-ONLY
-pahc    11  7 needs reading, 4 openable
+pahc     7  7 needs reading
     C-E    NEEDS READING
     C-T    NEEDS READING
-    F1-E   OPENABLE
-           -> pahc.term.prophetes <- didache  [11-13 ('not every one that speaketh in the Spirit is a prophet';]
     F1-I   NEEDS READING
     F1-T   NEEDS READING
-    F3-E   OPENABLE
-           -> pahc.witness.outsider-view <- pliny-letters  [10.96 (Pliny's own report of what he found)]
     F4-P   NEEDS READING
     F4-T   NEEDS READING
-    F5-E   OPENABLE
-           -> pahc.limit.material-remains <- pliny-letters  [10.96-97 (this world's only outside, non-Christian description o]
     F6-I   NEEDS READING
-    F6-P   OPENABLE
-           -> pahc.term.ministrae <- pliny-letters  [10.96 ('two female slaves who were called deaconesses (ministrae]
-hal     10  8 openable, 1 needs reading, 1 limit-only
-    C-T    OPENABLE
-           -> hal.dw.was-jesus-god <- jerome-apology-rufinus  [Book I (his professions of the church's faith against heresy)]
-           -> hal.dw.was-jesus-god <- jerome-ep22  [secs. 1, 25 (devotion to Christ as Lord and Bridegroom)]
+hal      2  1 needs reading, 1 limit-only
     F1-E   NEEDS READING
-    F1-T   OPENABLE
-           -> hal.dw.sin-grace <- jerome-ep107  [secs. 4-7 (a child raised toward baptism and consecration)]
-    F3-P   OPENABLE
-           -> hal.dw.church-failure <- jerome-ep22  [sec. 28 (clergy corruption named from inside)]
-    F3-T   OPENABLE
-           -> hal.dw.one-church <- sulpitius-dialogues  [Dialogue I.7 ('a man truly Catholic'); I.8 (the parish under Jer]
-    F4-E   OPENABLE
-           -> hal.dw.apostolic <- jerome-ep22  [secs. 21, 36 (the scriptural precedents claimed for the ascetic ]
-           -> hal.dw.apostolic <- jerome-against-jovinianus  [Book I (the argument from scripture for virginity)]
-    F4-T   OPENABLE
-           -> hal.dw.practices <- jerome-ep107  [secs. 4-13 (a life vowed and formed from infancy)]
-           -> hal.dw.practices <- jerome-ep127  [secs. 12-13 (the fall of Rome heard as judgment)]
-    F5-E   OPENABLE
-           -> hal.limit.f5-material-remains <- jerome-ep108  [secs. 14, 34 (the buildings named; the burial by the church)]
     F6-E   LIMIT-ONLY
-    F6-T   OPENABLE
-           -> hal.dw.hell <- jerome-apology-rufinus  [Book II (the renunciation of Origen's universal restoration)]
-           -> hal.dw.marriage-ending <- jerome-ep77  [secs. 2-6 (Fabiola's divorce, remarriage, penance, restoration)]
-syr      8  5 needs reading, 2 openable, 1 limit-only
+syr      7  5 needs reading, 1 openable, 1 limit-only
     F1-E   OPENABLE
            -> syr.dw.decides <- socrates-historia-ecclesiastica  [VII.8 (the synod's door opened at the close)]
     F2-P   NEEDS READING
            (unbacked: syr.term.raza-shrara <- brock-luminous-eye, syr.term.raza-shrara <- murray-symbols)
-    F3-E   OPENABLE
-           -> syr.dw.outsiders-empire <- sozomen-historia-ecclesiastica  [II.9 (the accusation against Symeon)]
     F3-P   NEEDS READING
            (unbacked: syr.dw.failures <- gedsh, syr.dw.failures <- koltun-fromm-dialogue)
     F4-T   NEEDS READING
@@ -143,47 +125,16 @@ syr      8  5 needs reading, 2 openable, 1 limit-only
     F5-T   LIMIT-ONLY
     F6-I   NEEDS READING
            (unbacked: syr.dw.unsettled <- gedsh, syr.dw.unsettled <- koltun-fromm-dialogue)
-ijc     13  8 openable, 4 needs reading, 1 limit-only
+ijc      6  4 needs reading, 1 limit-only, 1 openable
     C-E    NEEDS READING
-    F1-P   OPENABLE
-           -> ijc.dw.room-for-hesitation <- socrates-he  [I.8 (Eusebius's letter to his church, npnf202 from line 2972)]
     F2-E   NEEDS READING
     F2-I   NEEDS READING
     F2-T   NEEDS READING
-    F3-T   OPENABLE
-           -> ijc.term.primatus <- jerome-de-viris  [ch. 103 (the epigraphic program's contemporary witness)]
-    F4-E   OPENABLE
-           -> ijc.dw.ancient-custom <- augustine-confessions  [IX.7 (a practice's beginning honestly dated)]
     F4-P   LIMIT-ONLY
-    F4-T   OPENABLE
-           -> ijc.dw.baptism-threshold <- sozomen-he  [VII.4 (Theodosius's baptism at Thessalonica)]
-           -> ijc.dw.baptism-threshold <- eusebius-vita-constantini  [IV.61-64 (Constantine's deathbed baptism, npnf201 from line 6774]
-    F5-E   OPENABLE
-           -> ijc.term.martyrium <- jerome-de-viris  [ch. 103 (the verse program's contemporary witness)]
-    F5-I   OPENABLE
-           -> ijc.limit.f5-ordinary-day <- augustine-confessions  [IX.7 (the single congregational interior)]
-    F5-T   OPENABLE
-           -> ijc.dw.marriage-ranked <- ambrose-concerning-widows  [ch. I.1-2]
     F6-E   OPENABLE
            -> ijc.limit.earlier-windows <- socrates-he  [IV.29 (where this world's own hard evidence actually lives)]
-desert   9  7 openable, 1 needs reading, 1 limit-only
-    F1-E   OPENABLE
-           -> desert.dw.councils <- athanasius-vita-antonii  [SS68 - Antony's own rejection of both Melitian and Arian teachin]
+desert   2  1 needs reading, 1 limit-only
     F2-E   NEEDS READING
            (unbacked: desert.term.apophthegma <- burton-christie-word)
     F2-T   LIMIT-ONLY
-    F3-E   OPENABLE
-           -> desert.dw.strangest <- athanasius-vita-antonii  [SS2-3 - giving away a substantial inheritance over two separate ]
-    F3-P   OPENABLE
-           -> desert.dw.melitian-power <- athanasius-vita-antonii  [SS68 - never held communion with the Meletian schismatics; SS89 ]
-    F4-E   OPENABLE
-           -> desert.dw.apostolic <- athanasius-vita-antonii  [SS3-4 - the older ascetic already living near the village before]
-    F4-T   OPENABLE
-           -> desert.dw.born-again <- palladius-lausiac-history  [ch. XLV - Philoromus, a Galatian priest and ascetic, on the day ]
-           -> desert.dw.judgment-and-resurrection <- athanasius-vita-antonii  [SS16 - the shortness of this life measured against the ages to c]
-    F6-E   OPENABLE
-           -> desert.dw.death-wish <- athanasius-vita-antonii  [SS8-9, SS12-13, SS23 - the combat and general spiritual-warfare ]
-    F6-T   OPENABLE
-           -> desert.dw.marriage-ending <- palladius-lausiac-history  [ch. XXII - Paul, finding his wife with another man, leaving her ]
-           -> desert.dw.only-true-religion <- athanasius-vita-antonii  [SS72-80 - Antony's own public disputation with visiting Greek ph]
 ```

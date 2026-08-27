@@ -38,6 +38,8 @@ retrieval:
   do_not_retrieve_when:
   - the question is really about Constantinople's own claim (presbeia instead)
 relations:
+- type: associated-with
+  target: ijc.quote.a-fine-talent-for-making-verses
 - {type: associated-with, target: ijc.term.communio}
 - {type: associated-with, target: ijc.term.presbeia}
 - {type: associated-with, target: ijc.term.tomus}

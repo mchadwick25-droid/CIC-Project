@@ -40,6 +40,9 @@ positions:
 - the evidential gap between the apostolic age and this world's first witnesses is real and stated
 tensions:
 - the tradition's confidence in its inheritance vs the historian's gap - held open, not resolved
+relations:
+- type: associated-with
+  target: alx.quote.appointed-by-the-fathers-to-be-read
 ---
 The apostolic-continuity cell: the world's claim AND its evidential
 limit, together.

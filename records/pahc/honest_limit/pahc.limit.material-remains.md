@@ -37,6 +37,9 @@ nearest_material:
 - pahc.core.house-church
 - pahc.figure.ministrae
 - pahc.term.ekklesia
+relations:
+- type: associated-with
+  target: pahc.quote.two-female-slaves-who-were-called-deaconesses
 ---
 Fulfills the obligation flagged explicitly in world-build-docs/pahc/
 GRAVITY-INDEX.md's own "Not advanced" section for G06 (household/oikos):

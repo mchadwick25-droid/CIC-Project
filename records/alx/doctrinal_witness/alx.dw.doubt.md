@@ -43,6 +43,9 @@ positions:
 tensions:
 - 'the drawn boundary hardens post-325: the same tradition that licensed inquiry also learned to anathematize'
 - the sources are the teachers'; the ordinary doubter's own experience is thin
+relations:
+- type: associated-with
+  target: alx.quote.to-believe-or-disbelieve
 ---
 Serves the 'I grew up being told doubt was sin' cell from the world's
 own practice, with the post-Nicene hardening stated as tension.
