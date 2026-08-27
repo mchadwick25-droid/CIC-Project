@@ -67,5 +67,26 @@ used = {w.get("author") for ws in buckets.values() for w in ws}
 results.append(check("every author ruling is used by some assignment",
                      all(slug in used for slug in rulings)))
 
+
+
+# --- the `antecedent` role (added with the Cyprian ruling, 2026-08-26) ---
+buckets2, _ = corpus_map_merge.merge(write=False)
+ante = [(a, w) for a, ws in buckets2.items() for w in ws if w.get("role") == "antecedent"]
+results.append(check(f"the antecedent role is in use ({len(ante)} row(s))", bool(ante)))
+
+# An antecedent assignment must NEVER be the author's own home. Cyprian is
+# antecedent to `donatism` and tradition in `latin-pastoral...`; if the same
+# work were antecedent where it is also tradition, the role would be
+# meaningless and someone has used it as a softer `tradition`.
+home = {(w.get("work"), a) for a, ws in buckets2.items() for w in ws if w.get("role") == "tradition"}
+overlap = [(w.get("work"), a) for a, w in ante if (w.get("work"), a) in home]
+results.append(check("no work is both antecedent and tradition in the same entry", not overlap))
+
+# And the rule that stops it exploding is only meaningful if the relation stays
+# rare: it requires the entry's own vendored sources to argue from the text.
+total_rows = sum(len(v) for v in buckets2.values())
+results.append(check(f"antecedent stays a narrow relation ({len(ante)}/{total_rows} rows)",
+                     len(ante) <= total_rows * 0.05))
+
 print("\nall passed" if all(results) else "\nFAILURES")
 sys.exit(0 if all(results) else 1)

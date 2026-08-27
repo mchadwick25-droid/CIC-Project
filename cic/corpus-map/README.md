@@ -24,6 +24,29 @@ mechanism: no lookup table, nothing to keep in sync, and integration later is
 a join on a key that already matches. `engine/m1/cross_world.py` performs that
 join on every fleet run, so if the buckets ever stop lining up it shows there.
 
+## Three relations, not two
+
+`role` says how a work stands to the entry it is assigned to.
+
+| role | means |
+|---|---|
+| `tradition` | the entry's own voice — a work of that community |
+| `context` | the view from outside: a pagan critic, a civil historian, or a **contemporary opponent**. Augustine on the Manichaeans, Cyprian on the Novatian schism he lived through |
+| `antecedent` | the authority the entry argued *from*, written before it existed. Added 2026-08-26 for Cyprian and Donatism |
+
+**`antecedent` carries a rule, and it needs one.** If "a later movement claimed
+him" were sufficient, Augustine would be assigned to every Reformation entry
+and Origen to everything after him, and the map would say nothing. So an
+antecedent assignment requires that **the entry's own vendored sources argue
+from the text** — that reading this entry means reading that work. Demonstrable
+in the corpus, not asserted from what a tradition later said about itself.
+Augustine's *On Baptism, Against the Donatists* names Cyprian 306 times in
+92,000 words; that is the kind of evidence the rule wants.
+
+One author can hold two relations to two entries, and Cyprian does: antecedent
+to `donatism`, context for `novatianism`. Where a single row needs both, it
+splits into two — the same shape non-exclusivity already uses.
+
 ## Why non-exclusivity is load-bearing
 
 `desert`'s most important source is Athanasius' *Vita Antonii*, and Athanasius

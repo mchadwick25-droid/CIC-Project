@@ -33,6 +33,31 @@ Three rulings are enforced here rather than left to memory:
       while looking tidy. A validator that demanded uniqueness would be
       enforcing a bug.
 
+  ROLE: TRADITION | CONTEXT | ANTECEDENT.
+
+      `antecedent` was added 2026-08-26 for a relation the first two cannot
+      express. The Donatists claimed Cyprian as their charter authority - his
+      rebaptism practice, his purity-of-clergy ecclesiology, the Carthage
+      council of 256. He is not a Donatist, so `tradition` is false. He died
+      fifty years before the schism began, so `context` - describing a
+      movement from outside - is false too. He is the authority the movement
+      argued FROM, and both sides did: Augustine's *On Baptism, Against the
+      Donatists* names him 306 times in ninety thousand words.
+
+      THE RULE THAT STOPS THIS EXPLODING, and it needs one. If "a later
+      movement claimed him" were sufficient, Augustine would be assigned to
+      every Reformation entry and Origen to everything after him, and the map
+      would say nothing. So: an `antecedent` assignment requires that the
+      entry's OWN VENDORED SOURCES ARGUE FROM THE TEXT - that reading this
+      entry means reading that work. Demonstrable in the corpus, not asserted
+      from what the tradition later said about itself. Admiration and descent
+      are not enough; the argument has to run through the words.
+
+      A contemporary opponent is `context`, not `antecedent`. Cyprian is
+      antecedent to `donatism` and context for `novatianism`, whose schism he
+      lived through and argued against - the same author, two relations, which
+      is the point of having the field at all.
+
   ROLE: TRADITION | CONTEXT (Mark, 2026-08-26: "it carries a context marker
       for that world"). Julian, Porphyry, Libanius and Ammianus are assigned
       to the entry they SURROUND, marked context. They are the view from
@@ -61,7 +86,7 @@ MAP_DIR = REPO_ROOT / "cic" / "corpus-map"
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"
 CENSUS = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 
-ROLES = {"tradition", "context"}
+ROLES = {"tradition", "context", "antecedent"}
 CONFIDENCES = {"assigned", "provisional", "needs-ruling"}
 REQUIRED = ("work", "author", "source_file", "role", "confidence")
 

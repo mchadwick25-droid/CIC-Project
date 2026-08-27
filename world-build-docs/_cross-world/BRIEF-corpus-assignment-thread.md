@@ -183,7 +183,7 @@ What it enforces, so you know what will bounce:
 |---|---|
 | filename == `atlas_id` == a real `movements[].id` | the alignment mechanism; a typo would create a silent orphan bucket |
 | `work`, `author`, `source_file`, `role`, `confidence` all present | an assignment missing any of these cannot be acted on later |
-| `role` ∈ {`tradition`, `context`} · `confidence` ∈ {`assigned`, `provisional`, `needs-ruling`} | §11a and §6.6 |
+| `role` ∈ {`tradition`, `context`, `antecedent`} · `confidence` ∈ {`assigned`, `provisional`, `needs-ruling`} | §11a, §6.6, and the antecedent rule below |
 | `source_file` names a file in `cic/texts/` | catches a source that was cited but never vendored |
 | `author` is a slug in `cic/texts/AUTHORS.md` | §6.2 — derived from the markup, not from your own patristics |
 | the same work twice in ONE entry | a duplicate. The same work in SEVERAL entries is expected and correct (§6.1) — the validator will never complain about that |
@@ -231,6 +231,15 @@ Antonii*, and Athanasius is Alexandria's author: `npnf204` is cited by 53
 partition silently destroys desert's entire evidential base, and would look
 tidy while doing it.** If your output has one world per author, treat that as
 a bug in the assignment, not a finding about the corpus.
+
+**6.1b — `antecedent` is the third relation, and it is narrow.** Added
+2026-08-26 for the Cyprian/Donatism ruling. A work is `antecedent` to an entry
+when it is the authority that entry argued *from*, written before the entry
+existed — not its own voice (`tradition`) and not an outside observer's
+(`context`). **The rule: an antecedent assignment requires that the entry's own
+vendored sources argue from the text.** Admiration and descent are not enough,
+or Augustine ends up assigned to every Reformation entry. A *contemporary*
+opponent is `context`, not `antecedent`.
 
 **6.2 — Derive, do not assert.** Every author name should come from the
 files' own CCEL markup (`<DC.Creator>` slugs, `<div1>` titles), which

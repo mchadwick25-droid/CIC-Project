@@ -181,14 +181,19 @@ assignments:
   locus: div2 4.4
   atlas_ids:
   - donatism
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'FLAG, not assertion (per group instruction): the Donatists claimed Cyprian - his
     rebaptism practice and purity-of-clergy ecclesiology - as their charter authority, and
     Augustine''s anti-Donatist works argue with Cyprian''s letters at length. Whether the
-    Cyprianic corpus files as antecedent tradition for donatism needs Mark''s ruling.
-
-    '
+    Cyprianic corpus files as antecedent tradition for donatism needs Mark''s ruling. Ruled
+    2026-08-26: `role: antecedent`, a third relation added to the corpus-map schema for exactly
+    this. Cyprian is not a Donatist, so `tradition` was false; he died fifty years before
+    the schism, so `context` - describing a movement from outside - was false too. He is the
+    authority both sides argued FROM. The rule the new role carries: an antecedent assignment
+    requires that the entry''s own vendored sources argue from the text. Measured here rather
+    than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian 306 times,
+    Agrippinus 28, in 92,000 words.'
 - work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
@@ -205,14 +210,26 @@ assignments:
   locus: div3 under 4.5 - Treatise I
   atlas_ids:
   - donatism
-  - novatianism
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'FLAG as with the Epistles: both sides of the Donatist controversy argued from this
     text, and it was written against the Novatianist schism among others. Needs a ruling on
-    antecedent-tradition status.
-
-    '
+    antecedent-tradition status. Ruled 2026-08-26: `role: antecedent` for donatism. Both sides
+    of that controversy argued from this text and Augustine''s On Baptism works through it
+    at length; Cyprian himself predates the schism by fifty years.'
+- work: On the Unity of the Church (De Unitate)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise I
+  atlas_ids:
+  - novatianism
+  role: context
+  confidence: assigned
+  note: 'FLAG as with the Epistles: both sides of the Donatist controversy argued from this
+    text, and it was written against the Novatianist schism among others. Needs a ruling on
+    antecedent-tradition status. Ruled 2026-08-26: `role: context` for novatianism. The two
+    targets needed DIFFERENT relations, so the row was split - Cyprian is the authority Donatism
+    claimed, and a contemporary opponent of the Novatian schism he lived through. One work,
+    two relations, two rows.'
 - work: On the Dress of Virgins (De Habitu Virginum)
   author: cyprian
   locus: div3 under 4.5 - Treatise II
@@ -239,12 +256,16 @@ assignments:
   locus: div3 under 4.5 - Treatise III
   atlas_ids:
   - donatism
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'FLAG as with the Epistles: the lapsed/traditor problem is exactly the question Donatism
-    reopened after the Diocletianic persecution.
-
-    '
+    reopened after the Diocletianic persecution. Ruled 2026-08-26: `role: antecedent`, a third
+    relation added to the corpus-map schema for exactly this. Cyprian is not a Donatist, so
+    `tradition` was false; he died fifty years before the schism, so `context` - describing
+    a movement from outside - was false too. He is the authority both sides argued FROM. The
+    rule the new role carries: an antecedent assignment requires that the entry''s own vendored
+    sources argue from the text. Measured here rather than asserted - Augustine''s On Baptism,
+    Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
 - work: On the Lord's Prayer (De Dominica Oratione)
   author: cyprian
   locus: div3 under 4.5 - Treatise IV
@@ -356,13 +377,17 @@ assignments:
   locus: div2 4.6
   atlas_ids:
   - donatism
-  role: tradition
-  confidence: needs-ruling
+  role: antecedent
+  confidence: assigned
   note: 'FLAG: the 256 rebaptism council was the Donatists'' standing proof that African tradition
     required rebaptism of those baptized outside the church. Same antecedent-tradition question
-    as the Epistles.
-
-    '
+    as the Epistles. Ruled 2026-08-26: `role: antecedent`, a third relation added to the corpus-map
+    schema for exactly this. Cyprian is not a Donatist, so `tradition` was false; he died
+    fifty years before the schism, so `context` - describing a movement from outside - was
+    false too. He is the authority both sides argued FROM. The rule the new role carries:
+    an antecedent assignment requires that the entry''s own vendored sources argue from the
+    text. Measured here rather than asserted - Augustine''s On Baptism, Against the Donatists
+    names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
 - work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
     the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)
   author: cyprian

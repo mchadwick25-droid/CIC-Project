@@ -29,13 +29,14 @@ works:
 - work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
-  role: tradition
-  confidence: needs-ruling
+  role: context
+  confidence: assigned
   note: 'FLAG as with the Epistles: both sides of the Donatist controversy argued from this
     text, and it was written against the Novatianist schism among others. Needs a ruling on
-    antecedent-tradition status.
-
-    '
+    antecedent-tradition status. Ruled 2026-08-26: `role: context` for novatianism. The two
+    targets needed DIFFERENT relations, so the row was split - Cyprian is the authority Donatism
+    claimed, and a contemporary opponent of the Novatian schism he lived through. One work,
+    two relations, two rows.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The Epistles of Cyprian
   author: cyprian

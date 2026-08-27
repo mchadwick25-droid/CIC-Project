@@ -62,12 +62,7 @@ SWEEPS = {
         "closed: `gallic-monastic-ascetic-christianity` (era 2, c. 360-450) was added on record "
         "and seven works moved to it. What is left here is genuinely later material placed by "
         "date-guess, not gap-parking.",
-    "donatism":
-        "**The Cyprian antecedent question**, raised once per work the Donatists actually "
-        "invoked. Cyprian died in 258 and the Donatists claimed him; whether his Epistles, "
-        "*De Unitate*, *De Lapsis* and the 256 rebaptism council belong to `donatism` as "
-        "antecedents, or only to his own entry, is a judgment about what an entry's corpus is "
-        "for. The workers refused to decide it and flagged it four times.",
+
     "syriac-edessa-nisibis":
         "**The Clementine literature, and what `syr` is for.** Recognitions and Homilies sit "
         "between `ebionite-nazoraean-current` (the Jewish-Christian source theory) and this "
@@ -213,6 +208,17 @@ def main() -> None:
         "Noetus*, two substantial heresiological works with nowhere to point.\n"
         "- **`bardaisanite-current`** — where the entry states the creedal question rather than "
         "settling it, because the evidence genuinely does not.\n\n"
+        "**And one ruling that added no entry at all.** The Donatists claimed Cyprian as their "
+        "charter authority, and four of his works were flagged against `donatism` because "
+        "neither existing role fitted: he is not a Donatist (`tradition` is false) and he died "
+        "fifty years before the schism, so he is not describing it from outside (`context` is "
+        "false). The answer was a third relation, **`antecedent`** — the authority an entry "
+        "argued *from* — with a rule that stops it swallowing the map: **an antecedent "
+        "assignment requires that the entry's own vendored sources argue from the text.** "
+        "Measured, not asserted: Augustine's *On Baptism, Against the Donatists* names Cyprian "
+        "306 times in 92,000 words. Cyprian is `antecedent` to `donatism` and `context` for "
+        "`novatianism`, whose schism he lived through and argued against — one author, two "
+        "relations, which is what the field is for. Four rows, and a test pins it narrow.\n\n"
         "**One invariant now holds across all nine floor entries and is worth knowing.** Of the "
         "70 works assigned to them, exactly **two** are a floor movement's own surviving voice — "
         "the *Excerpts of Theodotus* and Bardaisan's *Book of the Laws of Divers Countries*. "
