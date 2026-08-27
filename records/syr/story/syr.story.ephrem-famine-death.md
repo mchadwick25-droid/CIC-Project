@@ -30,6 +30,8 @@ retrieval:
 relations:
 - type: illustrates
   target: syr.gravity.covenant-life
+- type: associated-with
+  target: syr.quote.ephrem-keeper-of-strangers
 narrative_tier: 2
 narrative_tier_justification: 'Tier 2 (collected tradition): the earliest witnesses (Palladius, c. 420;
   Sozomen, 5th century; a Gennadius notice consulted alongside them) write a generation and more after

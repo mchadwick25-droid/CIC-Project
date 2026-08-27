@@ -37,6 +37,9 @@ concedes: The rupture happened, the doctrinal positions were really named and re
 divergence_partners:
 - hal.source.rufinus-apology
 - hal.source.jerome-apology-rufinus
+relations:
+- type: associated-with
+  target: hal.source.origen-philocalia
 ---
 The corpus's one CT-tagged contest (Doc_06 entry 8, Contest Type: Meaning),
 carried as a first-class record. Voice consequence: when this story is

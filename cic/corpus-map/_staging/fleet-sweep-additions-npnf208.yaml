@@ -1,0 +1,23 @@
+# Written 2026-08-27 by the fleet unopened-volume sweep. The volume was already
+# vendored; this row records that syriac-edessa-nisibis now opens it.
+source_file: npnf208_basil-letters-select-works.xml
+assignments:
+- work: The Hexaemeron, Homily II (on Genesis 1:2)
+  author: basil
+  locus: the passage crediting an unnamed Syrian with the reading of Genesis 1:2, at file line 16729,
+    with the NPNF's own endnote on his identity
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: context
+  confidence: assigned
+  note: 'ROLE IS `context`: a Cappadocian bishop is not a voice of this Atlas entry. Its value is
+    that he defers, in public, to a Syriac speaker on the sense of a Hebrew verb, on the ground that
+    Syriac stands nearer the Hebrew than Greek does - an outsider stating this tradition''s own
+    linguistic self-understanding with no stake in flattering it.
+
+    HE NAMES NOBODY, and the volume''s own Victorian apparatus disagrees with itself: Tillemont
+    reads Eusebius of Samosata, the Benedictine editors prefer Ephrem Syrus, and modern scholarship
+    (per syr.story.basil-legend) says Eusebius of Emesa. Three candidates, no name in the text. The
+    passage may be used for what Basil says; never to identify the man.
+
+    '

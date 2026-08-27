@@ -1,0 +1,22 @@
+# Written 2026-08-27 by the fleet unopened-volume sweep.
+source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
+assignments:
+- work: The City of God, Book XVIII, chapters 42-44 (the authority of the Septuagint)
+  author: augustine
+  locus: XVIII.43 at file line 36715, naming Jerome; XVIII.42 at 36469; the Hebrew-versus-Septuagint
+    chronology question at 28189
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: context
+  confidence: assigned
+  note: 'ROLE IS `context`: Augustine is the other side of this entry''s central argument, not one of
+    its voices. The entry already holds his LETTERS to Jerome, which is the argument while it was
+    live. This is the settled verdict delivered years later for the whole church, with Jerome named
+    respectfully inside it - and Augustine concedes every point of scholarship (Jerome is learned in
+    all three languages; the Jews grant his work faithful; the Seventy erred in many places) before
+    ruling against him on the ground that the seventy translators were prophets too.
+
+    ONLY XVIII.42-44 IS ASSIGNED. The two cities, the fall of Rome, the critique of Roman religion
+    and the whole of On Christian Doctrine in the same volume are not this entry''s business.
+
+    '

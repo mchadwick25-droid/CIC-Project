@@ -31,6 +31,26 @@ works:
     world''s. A two-sided correspondence has voice on both sides. It is also the largest single
     thing in this volume after the Confessions.'
   source_file: npnf101_augustine-confessions-letters.xml
+- work: The City of God, Book XVIII, chapters 42-44 (the authority of the Septuagint)
+  author: augustine
+  locus: XVIII.43 at file line 36715, naming Jerome; XVIII.42 at 36469; the Hebrew-versus-Septuagint
+    chronology question at 28189
+  role: context
+  confidence: assigned
+  note: 'ROLE IS `context`: Augustine is the other side of this entry''s central argument,
+    not one of its voices. The entry already holds his LETTERS to Jerome, which is the argument
+    while it was live. This is the settled verdict delivered years later for the whole church,
+    with Jerome named respectfully inside it - and Augustine concedes every point of scholarship
+    (Jerome is learned in all three languages; the Jews grant his work faithful; the Seventy
+    erred in many places) before ruling against him on the ground that the seventy translators
+    were prophets too.
+
+    ONLY XVIII.42-44 IS ASSIGNED. The two cities, the fall of Rome, the critique of Roman
+    religion and the whole of On Christian Doctrine in the same volume are not this entry''s
+    business.
+
+    '
+  source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
 - work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
@@ -222,6 +242,26 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- work: The Paradise of Palladius, Book I, ch. l (Of the Blessed Man Possidonius)
+  author: palladius
+  locus: Chapter l - the Possidonius report about "Hieronymus" and Paula
+  role: context
+  confidence: assigned
+  note: 'THE SECOND RECENSION OF THAT ENTRY''S ONE HOSTILE WITNESS, and it charges something
+    different. The Greek says Jerome "showed qualities of temper so disastrous that they threw
+    into the shade his splendid achievements" and has Posidonius PREDICTING that Paula will
+    die first and be freed from his bad temper. The Syriac says he "possessed the vices of
+    envy and evil-eyedness" and reports that she "departed from this world before her time
+    in order that she might escape from his envy". Bad temper has become the evil eye; a guarded
+    prophecy has become a fact.
+
+    AND PAULA IS NOT IN THE SYRIAC WOMEN''S CHAPTERS AT ALL. Searched directly: her name occurs
+    once in the whole file, here. The recension that hardened the charge is the recension
+    that dropped her from the company of holy women, and nothing settles whether that is loss,
+    choice, or a different exemplar.
+
+    '
+  source_file: palladius_paradise-v1-syriac_budge1907.txt
 - work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
     Librorum Origenis)
   author: rufinus

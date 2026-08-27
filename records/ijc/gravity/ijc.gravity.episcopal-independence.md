@@ -24,6 +24,8 @@ sources:
   locus: IX.7 (independent corroboration of the 386 standoff)
   license: public-domain
 relations:
+- type: tension-with
+  target: ijc.quote.no-power-but-of-god
 - {type: illustrated-by, target: ijc.story.vigil-in-basilica}
 - {type: illustrated-by, target: ijc.story.emperor-penance}
 - {type: illustrated-by, target: ijc.story.callinicum-synagogue}

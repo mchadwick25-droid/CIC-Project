@@ -32,6 +32,8 @@ relations:
   target: pahc.term.baptisma
 - type: associated-with
   target: pahc.story.two-ways-catechumen
+- type: associated-with
+  target: pahc.quote.appointed-to-be-read
 plain_meaning: 'Before the water, the teaching of the two ways. A way of life and a way of death
   lie open before every person. Walking one rather than the other is a choice kept daily.'
 world_word: the Two Ways

@@ -41,6 +41,11 @@ concedes: Both witnesses are partisan - Jerome idealizing his patron and his own
 divergence_partners:
 - hal.source.jerome-ep108
 - hal.source.palladius-lausiac
+relations:
+- type: associated-with
+  target: hal.source.palladius-paradise-syriac
+- type: associated-with
+  target: hal.quote.paula-escaped-his-envy
 ---
 A contest the prior build carried implicitly (Doc_02's Palladius entry and
 Author Gravity assessment) and this record makes first-class: the two

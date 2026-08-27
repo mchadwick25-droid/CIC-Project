@@ -20,6 +20,9 @@ rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "assigned to this world by the cross-world corpus assignment; anf04 was one of two volumes this world had never opened"
 external_ids: {ccel_volume: "anf04"}
+relations:
+- type: associated-with
+  target: hal.source.origen-philocalia
 ---
 Rights verified 2026-08-27 from the file's own DC.Rights header (Public
 Domain). The Prologue is at line 22273 and was read there.

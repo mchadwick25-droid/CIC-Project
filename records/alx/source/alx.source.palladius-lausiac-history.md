@@ -20,6 +20,9 @@ rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.palladius-lausiac-clarke); already vendored in the CCEL corpus (Mark, 2026-08-15, via Roger Pearse's morefathers transcription); rights read from the file's own prepended provenance header"
 external_ids: {ccel_volume: "palladius_clarke1918"}
+relations:
+- type: associated-with
+  target: alx.source.vita-antonii-syriac
 ---
 Rights verified 2026-08-20 from the file's own prepended header: "Rights:
 Public Domain" (Clarke 1918 publication; Pearse's transcriptions separately

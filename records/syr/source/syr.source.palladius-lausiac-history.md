@@ -23,6 +23,9 @@ attribution_status: attributed; written c. 420, within living memory of Ephrem's
   narrative witnesses to him, though already devotionally shaped
 discovery_channel: identified at step 3 while verifying the Ephrem famine-relief tradition against vendored
   texts; rights read from the file's own header, 2026-08-21
+relations:
+- type: associated-with
+  target: syr.source.palladius-paradise-syriac
 ---
 Registered mid-ecology (step 3) when figure work needed the earliest
 famine-relief witness: Palladius and Sozomen carry the same story

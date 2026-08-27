@@ -20,6 +20,9 @@ rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.athanasius-npnf2-04); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf204"}
+relations:
+- type: associated-with
+  target: alx.source.vita-antonii-syriac
 ---
 Rights verified 2026-08-20 from the file's own DC.Rights header (Public
 Domain). Work presence verified by title references from file line 1044 and

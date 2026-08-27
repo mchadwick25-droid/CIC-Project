@@ -29,6 +29,8 @@ modern_lens_note: >-
   seized. Eutropius had used his office to abolish it, and was now the man at the altar. 'Divers' is
   archaic English for various.
 relations:
+- type: associated-with
+  target: ijc.quote.no-power-but-of-god
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 ---

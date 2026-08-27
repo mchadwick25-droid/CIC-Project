@@ -25,6 +25,8 @@ sources:
   locus: VII.4 (the Thessalonica law)
   license: public-domain
 relations:
+- type: illustrated-by
+  target: ijc.quote.no-power-but-of-god
 - {type: illustrated-by, target: ijc.story.vision-and-alliance}
 - {type: illustrated-by, target: ijc.story.altar-of-victory}
 - {type: illustrated-by, target: ijc.quote.milan-edict}

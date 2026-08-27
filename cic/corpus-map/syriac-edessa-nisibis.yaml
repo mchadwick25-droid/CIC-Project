@@ -152,6 +152,24 @@ works:
     2026-08-26: bardaisanite-current added alongside - the party this work argues with now
     has an entry of its own.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: The Hexaemeron, Homily II (on Genesis 1:2)
+  author: basil
+  locus: the passage crediting an unnamed Syrian with the reading of Genesis 1:2, at file
+    line 16729, with the NPNF's own endnote on his identity
+  role: context
+  confidence: assigned
+  note: 'ROLE IS `context`: a Cappadocian bishop is not a voice of this Atlas entry. Its value
+    is that he defers, in public, to a Syriac speaker on the sense of a Hebrew verb, on the
+    ground that Syriac stands nearer the Hebrew than Greek does - an outsider stating this
+    tradition''s own linguistic self-understanding with no stake in flattering it.
+
+    HE NAMES NOBODY, and the volume''s own Victorian apparatus disagrees with itself: Tillemont
+    reads Eusebius of Samosata, the Benedictine editors prefer Ephrem Syrus, and modern scholarship
+    (per syr.story.basil-legend) says Eusebius of Emesa. Three candidates, no name in the
+    text. The passage may be used for what Basil says; never to identify the man.
+
+    '
+  source_file: npnf208_basil-letters-select-works.xml
 - work: The Chronicle of Edessa
   author: chronicle-of-edessa
   locus: whole work (single-work volume, ~7,960 words; Cowper's JSL translation)
@@ -365,6 +383,25 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
+  author: palladius
+  locus: Chapter lviij - the angelic roll, the famine relief, and the vine growing from his
+    tongue
+  role: tradition
+  confidence: assigned
+  note: 'A SYRIAC WORLD READING ITS OWN FOUNDING POET IN A SYRIAC RECENSION, where until now
+    every word of Palladius on Ephrem came through Greek and then Edwardian English. The divergences
+    from the Greek fall exactly where that matters: TWO VISIONS the Greek line does not carry
+    at all (the angels finding no saint fit to hold the roll except Ephraim; the vine from
+    his tongue filling the heavens while the birds eat and the clusters only grow), and a
+    famine exchange whose crucial line reads "O man, we know that thou art God" where the
+    Greek reads "a man of God".
+
+    Registered ALONGSIDE the Clarke translation the entry already holds, never in place of
+    it.
+
+    '
+  source_file: palladius_paradise-v1-syriac_budge1907.txt
 - work: The Clementine Homilies
   author: pseudo-clement
   locus: div2 6.4

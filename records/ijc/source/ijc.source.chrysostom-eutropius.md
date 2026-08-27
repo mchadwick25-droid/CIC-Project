@@ -20,6 +20,9 @@ rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "found by the cross-world corpus assignment (cic/corpus-map/imperial-juridical-christianity.yaml), which assigned five npnf109 works to this world and observed that no record here opens the volume; the world names Chrysostom nowhere at all"
 external_ids: {ccel_volume: "npnf109"}
+relations:
+- type: associated-with
+  target: ijc.source.chrysostom-homilies-romans
 ---
 Rights verified 2026-08-27 from the file's own DC.Rights header (Public
 Domain, line 88). Translator verified from the section's own title-page

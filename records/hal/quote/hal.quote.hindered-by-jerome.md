@@ -25,6 +25,9 @@ text: 'Among them was the Roman lady Paula, mother of Toxotius, a woman of great
 speaker_or_author: 'Palladius of Galatia, Lausiac History 41 (trans. Clarke)'
 license: verbatim
 modern_lens_note: '"Jealousy" carries the older sense of envy over standing or advantage, not a personal or romantic sense.'
+relations:
+- type: associated-with
+  target: hal.quote.paula-escaped-his-envy
 ---
 Verified verbatim 2026-08-21 against the vendored Clarke translation (a
 footnote-number artifact in the raw file, 'Paula,276', is elided from the

@@ -36,9 +36,13 @@ description: "HISTORICAL EVENT: as monepiscopacy and apostolic succession became
   preserved, cited, and eventually required a two-century critical-scholarship effort to
   authenticate precisely because of its later canonical importance; 1 Clement was folded into Codex
   Alexandrinus alongside the New Testament. By contrast, Hermas - cited as scripture by Irenaeus,
-  Clement of Alexandria, and Origen, included in Codex Sinaiticus - was only later excluded by
-  Athanasius, its canonical status having been genuinely fluid, not settled from the start; the
-  Didache disappeared from active circulation for roughly eighteen centuries. WORLD'S OWN
+  Clement of Alexandria, and Origen, included in Codex Sinaiticus - was REASSIGNED rather than
+  expelled by Athanasius's Festal Letter of 367, which places it and the Teaching of the
+  Apostles (the Didache) among books 'not indeed included in the Canon, but appointed by the
+  Fathers to be read by those who newly join us'; its canonical status had been genuinely
+  fluid, not settled from the start, and what 367 fixed was that it belonged to catechesis
+  rather than to the assembly. The Didache disappeared from active circulation for roughly
+  eighteen centuries. WORLD'S OWN
   EXPERIENCE: not recoverable - no source in this world's own evidentiary base registers an
   awareness of its own eventual selective transmission. This is a judgment available only in
   retrospect, from outside this world's own lived experience, and is not attributed to this world's
@@ -54,8 +58,13 @@ description: "HISTORICAL EVENT: as monepiscopacy and apostolic succession became
 manifestations:
 - "Ignatius's corpus requiring a two-century critical-scholarship effort to authenticate, precisely because of its later canonical importance"
 - "1 Clement folded into Codex Alexandrinus alongside the New Testament"
-- "Hermas cited as scripture by three major later fathers, then excluded by Athanasius - a fluid, not originally settled, canonical status"
+- "Hermas cited as scripture by three major later fathers, then moved by Athanasius's Festal Letter of 367 into the class of books read to those newly joining rather than out of the church's books altogether - a fluid, not originally settled, canonical status, and a demotion rather than an expulsion"
 - "the Didache's own roughly eighteen-century disappearance from active circulation"
+relations:
+- type: associated-with
+  target: pahc.source.athanasius-festal-39
+- type: associated-with
+  target: pahc.quote.appointed-to-be-read
 ---
 Re-derived from the approved Doc_08 Force 3B-2. FIXED at Step 6 round-1
 review: the causal-synthesis hedge previously lived only in
@@ -71,3 +80,25 @@ to any gravity or force by name, unlike its Cell 2B counterpart
 G02); this record does not manufacture a connection Doc_08 itself does
 not state. It is the ending-stage counterpart to that same mechanism,
 noted here in prose rather than as a formal schema relation.
+
+CORRECTED 2026-08-27, on the fleet unopened-volume sweep
+(pahc.search.unopened-volume-sweep). This record had said Hermas was
+"excluded by Athanasius" and listed that as a manifestation. It is not
+what the Festal Letter of 367 does. Athanasius names a second class of
+books - Wisdom, Sirach, Esther, Judith, Tobit, the Teaching of the
+Apostles and the Shepherd - "not indeed included in the Canon, but
+appointed by the Fathers to be read by those who newly join us", and
+puts both of this world's own nearly-lost texts in it.
+
+The correction strengthens this record rather than weakening it. A book
+moved from the church's reading to the catechumens' is a book whose
+survival now depends on a much smaller and more occasional demand for
+copies, which is a better mechanism for the thinning this record
+describes than a straightforward ban would be. The claim was directionally
+right and specifically wrong, and the specifics were doing work.
+
+Opened at pahc.source.athanasius-festal-39; the passage is quoted at
+pahc.quote.appointed-to-be-read. The letter is 367 and this world closes
+at 200, so nothing in it is evidence about the second century - it is
+admitted to this record and to no other, because this force is about what
+happened to this world's texts afterward.
