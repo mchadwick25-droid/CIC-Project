@@ -26,6 +26,8 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: desert.quote.composed-by-bishop-palladius-for-the-prefect-lausus
+- type: associated-with
   target: desert.term.geron-abba-amma
 - type: associated-with
   target: desert.term.diakrisis

@@ -42,6 +42,9 @@ positions:
 tensions:
 - no internal voice of dissent from the harshness survives - none may be invented; the discomfort belongs
   to the telling, not to an imagined in-world minority
+relations:
+- type: associated-with
+  target: syr.quote.a-man-called-wise-amongst-the-jews
 ---
 F6-I: the hard-places informational cell. The final sentence's
 evaluative turn stays within the world's own raza/shrara logic

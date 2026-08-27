@@ -45,6 +45,11 @@ positions:
 tensions:
 - the wider Nisibis cathedral plan is a scholar's reconstruction from partial remains, not a confirmed
   structure - only the baptistery is cited without qualification
+relations:
+- type: associated-with
+  target: syr.quote.the-scribes-and-the-prefects-over-the-archives
+- type: associated-with
+  target: syr.quote.the-temple-of-the-church-of-the-christians
 ---
 F5-E: the Kayaalp discipline from Doc_02 SS6 (baptistery secure;
 five-aisled plan hypothetical) is carried into the tensions field

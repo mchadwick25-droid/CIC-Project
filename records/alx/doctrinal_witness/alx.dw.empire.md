@@ -40,6 +40,9 @@ positions:
 tensions:
 - gratitude for peace vs the new coercion exercised in the church's name - the world holds both without
   resolving them
+relations:
+- type: associated-with
+  target: alx.quote.no-festal-letter-was-written
 ---
 The Constantine cell, answered from inside the one community that
 experienced both sides within living memory.

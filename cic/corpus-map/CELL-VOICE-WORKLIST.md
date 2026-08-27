@@ -12,61 +12,90 @@ licensed quotes that voice it — never only propositional records."*
 Nothing measured that until 2026-08-27. On that day 69 cells across the six
 worlds were served by propositional records alone — a witness or a term
 asserting what the world held, with no licensed quote to say it in the
-world's own words. Fifty-three have been closed since; the count below is
-what remains, and none of it is openable.
+world's own words. Sixty-four have been closed since — every cell the
+instrument ever ruled OPENABLE or NEEDS READING. The count below is what is
+left.
 
-**THE RULING INSTRUMENT WAS WRONG ABOUT EIGHT CELLS, AND THE ERROR IS
-INSTRUCTIVE.** The first pass called 20 cells NEEDS READING. Eight were
-OPENABLE all along: the `_SPECIFIC` pattern wanted a keyword before the
-number (`ch. 4`, `sec. 7`, `Book II`) and this corpus mostly cites bare
-ones — `42, 44`, `9-10, 14`, `7` — plus work-specific divisions it had
-never heard of: Mandate 9, Session IV, Canon 6, Sermon III,
-Philadelphians 4, Philocalia I. The pattern is widened and the comment in
-`cell_voice.py` records why. The ordinary lesson for a classifier run over
-a hand-written corpus: **the citation vocabulary belongs to the corpus, not
-to the person writing the regex.**
+**THE RULING INSTRUMENT WAS WRONG TWICE, AND THE SECOND TIME IS THE
+INSTRUCTIVE ONE.** The first pass called 20 cells NEEDS READING; eight were
+openable, because `_SPECIFIC` wanted a keyword before the number (`ch. 4`,
+`Book II`) and this corpus mostly cites bare ones. It was widened with the
+forms that had been missed — and then missed a fresh set: bare Roman
+numerals (`XXII`, `I–VII`), letter citations (`Ep. XXVIII`, `Epp. 135–139`),
+section marks, pages, lemmas (`s.v. Papa bar Aggai`), structural positions
+(`praef.`, `salutation`). Three more cells were openable all along, one of
+them carrying `Ep. XXVIII (npnf212 line 5099)` — a letter AND a line number,
+as precise as anything in the corpus, read as vague.
 
-**The OPENABLE ruling held up — all 35 of them.** Every cell ruled openable
-was closed by going to the locus the record already cited and finding a
-quotable sentence sitting there, in 29 records: several passages honestly
-answer more than one cell, and one cell was closed by giving an existing
-record the second cell it was already doing the work of rather than writing
-a duplicate over the same passage.
+**Enumerating specificity cannot work, and that is the finding.** Citation
+grammar is open-ended: every edition brings its own divisions, so the list
+is never finished and each widening only moves the boundary. What can be
+tested is whether the locus points at a PLACE at all, and a place is named
+with a *locator token* — a number, a Roman numeral, a section mark, a page,
+a lemma, a named structural position. Which grammar those tokens sit in is
+the edition's business, not the pattern's. So `cell_voice.py` now runs one
+rule: **specific when it carries a locator token, vague when it carries
+none.** The old vocabulary falls out of it instead of being listed —
+"passim", "the whole collection", "the exile-years letters", "the polemic's
+own harshness" all name bodies of text, and none of them contains a locator.
 
-**The last six needed structure, not search.** They resisted the first two
-rounds for one reason: all six point at *Eusebius* or *Socrates* section
-numbers, and the vendored NPNF volumes interleave editorial apparatus so
-densely that a text probe for a numbered section is unreliable. Working
-from the volumes' own chapter headings found all six — and found that one
-locus in this file had been misread: Socrates *HE* IV.29 is the Damasus
-election, not the Arsenius hand (that is Book I, chapter 29). Same chapter
-number, different book; the kind of error a probe produces and a table of
-contents does not.
+Two cleverer versions were tried and rejected; the code records why so they
+are not tried again. Listing vague head-nouns (`the … corpus/letters/
+tradition`) fires on the descriptive glosses this corpus attaches to precise
+citations — `Canon XXVIII (the claim contested in the conciliar record)` is
+not vague. Stripping those glosses first fixes that and breaks something
+worse, because parentheses here also carry real loci: `the withdrawal
+narrative (§§3–14)`, `the Ephraim chapter (file line 471)`. Measured over
+all 1,242 loci in the corpus, the one-rule version misrules **one**; each
+of the cleverer ones misruled thirty or more.
 
-**Three loci were corrected rather than copied.** Ambrose's ranking of
+**It also reopened four cells that were reported closed.** Under the old
+pattern, five cells were LIMIT-ONLY — served by an honest_limit alone, and a
+limit owes no quote. Four of those five turn out to cite a specific locus
+(Clement *Paidagogos* II–III; Jerome *Ep.* 137; Aphrahat VI; Ambrose *Ep.*
+LI), so they now rule OPENABLE, on the same precedent as ijc F6-E: a limit
+can be voiced by the passage it is pointing at. Those four are work, not
+noise, and they are the current list.
+
+**Four loci were corrected rather than copied.** Ambrose's ranking of
 virginity, widowhood and marriage stands at *Concerning Widows* IV.40–41,
 not I.1–2 as the record cited; Clement's free-will argument is put most
 compactly in the chapter headed "The Reason and End of Divine Punishments";
 Justin's "Moses is more ancient" sentence stands at *1 Apol.* 44, not the
-59–60 its witness named. In each case the argument does run where the
-record said — the sentence quoted does not.
+59–60 its witness named; and the baptism material `syr.dw.born-again-endtimes`
+cites at Aphrahat *Demonstration* VI is not in VI (Of Monks) at all — it
+stands at VII.20, in this world's *other* vendored Aphrahat file. In the
+first three cases the argument does run where the record said and only the
+sentence sits elsewhere; the fourth is a wrong work.
 
 ## The four rulings
 
-The discriminator is empirical, not a guess. Across those nine quotes, a
-record citing a **named locus in a vendored file** had a quotable sentence
-sitting at that locus **every single time** — Justin *1 Apol.* 67, 1 Clement
-42, Origen *Contra Celsum* II.56, Jerome *Ep.* XXII.30, Aphrahat
-*Demonstration* I, Ephrem's *Pearl* I, and the rest. A record citing
-"passim", or a work with no vendored edition, or a modern scholarly study,
-did not.
+The discriminator is empirical, not a guess, and it has now been tested at
+both ends. A record citing a **named locus in a vendored file** had a
+quotable sentence sitting at that locus in **all 35** cells ruled openable —
+Justin *1 Apol.* 67, 1 Clement 42, Origen *Contra Celsum* II.56, Jerome
+*Ep.* XXII.30, Aphrahat *Demonstration* I, Ephrem's *Pearl* I, and the rest.
+
+NEEDS READING held up too, but differently: all 11 of those cells had a
+voice waiting, so the ruling never meant "probably nothing here" — it meant
+"nobody can say without looking." Three of the 11 were mis-ruled and
+openable all along. The other eight were genuinely vague and reading them
+paid: `alx.dw.empire` cited "the exile-years letters" and what was actually
+there was the years the letters were *not written*; `syr.dw.remains` cited
+"the archive-derived civic record" and that turned out to be a single dated
+entry naming the four officials who filed it. **A vague locus is often a
+record that has not yet noticed how good its own evidence is.**
 
 | Ruling | Meaning | Whose job |
 |---|---|---|
 | **OPENABLE** | a serving record names a specific locus in a vendored file | corpus work — go and read it |
-| **NEEDS READING** | vendored, but the locus is vague | someone must read before anyone can rule |
+| **NEEDS READING** | vendored, but the locus carries no locator token | someone must read before anyone can rule |
 | **UNQUOTABLE** | nothing vendored stands behind it — scholarship or consult-only editions only | a **sourcing** question for a human, not a defect |
-| **LIMIT-ONLY** | served by an honest_limit alone | closed. A limit names what is missing; it owes no quote |
+| **LIMIT-ONLY** | served by an honest_limit alone, *and* that limit cites no specific locus | closed. A limit names what is missing; it owes no quote |
+
+A limit that *does* cite a specific locus rules OPENABLE instead, because a
+limit can be voiced by the passage it points at — that is how ijc F6-E and
+desert F2-E were closed. LIMIT-ONLY is for a limit with nowhere to point.
 
 **A cell at UNQUOTABLE is not a failure.** It means the propositional record
 is the honest answer available, and nothing changes until a text is
@@ -98,44 +127,44 @@ a catechumen). All three had quotable text exactly where the ruling said.
    shown doing it, not asserted to have done it.
 4. **Fix cells before hints.** Six desert quotes had been filed under daily
    life when they answered practice; that was worth more than any hint.
+5. **On a vague locus, read for what the record does not know it has.** The
+   eight genuinely-vague cells all yielded, and in most of them the passage
+   that answered the cell was not the one the witness had in mind. The
+   witness says "the exile-years letters" and means the letters; the answer
+   is the year there was no letter.
+6. **Verify the quote against the file, not against your reading of it.**
+   Every quote in the last two rounds was checked by substring match on the
+   vendored text, whitespace-normalised, before the record was written.
+   That caught three near-misses: an NPNF editorial footnote sitting inside
+   a Leo sentence, a page-marker inside an Ephrem one, and a section numeral
+   inside an Aphrahat one. Each is disclosed in its record's
+   `divergence_note` rather than silently smoothed.
 
 
 
 ## Current state
 
-No cell is OPENABLE any more. What remains is a reading question or a
-closed one.
+Every cell that was OPENABLE or NEEDS READING has been closed. What is
+listed now is what the rewritten discriminator surfaced.
 
 ```
-16 cells served without a quote or story
+5 cells served without a quote or story
 
-   11  NEEDS READING
-    5  LIMIT-ONLY
+    4  OPENABLE
+    1  LIMIT-ONLY
 
-alx      3  2 needs reading, 1 limit-only
-    F2-T   NEEDS READING
-    F3-E   NEEDS READING
-    F5-E   LIMIT-ONLY
-hal      2  1 needs reading, 1 limit-only
-    F1-E   NEEDS READING
-    F6-E   LIMIT-ONLY
-syr      6  5 needs reading, 1 limit-only
-    F2-P   NEEDS READING
-           (unbacked: syr.term.raza-shrara <- brock-luminous-eye, syr.term.raza-shrara <- murray-symbols)
-    F3-P   NEEDS READING
-           (unbacked: syr.dw.failures <- gedsh, syr.dw.failures <- koltun-fromm-dialogue)
-    F4-T   NEEDS READING
-    F5-E   NEEDS READING
-           (unbacked: syr.dw.remains <- kayaalp-nisibis-cathedral)
-    F5-T   LIMIT-ONLY
-    F6-I   NEEDS READING
-           (unbacked: syr.dw.unsettled <- gedsh, syr.dw.unsettled <- koltun-fromm-dialogue)
-ijc      3  2 needs reading, 1 limit-only
-    F2-E   NEEDS READING
-    F2-T   NEEDS READING
-    F4-P   LIMIT-ONLY
-desert   2  1 needs reading, 1 limit-only
-    F2-E   NEEDS READING
-           (unbacked: desert.term.apophthegma <- burton-christie-word)
+alx      1  1 openable
+    F5-E   OPENABLE
+           -> alx.limit.material-remains <- clement-paidagogos  [II-III (daily-life instruction without architecture)]
+hal      1  1 openable
+    F6-E   OPENABLE
+           -> hal.limit.martyrdom <- attack-letters-416  [Ep. 137 ('murders' - the community's only violent deaths, unname]
+syr      1  1 openable
+    F5-T   OPENABLE
+           -> syr.limit.marriage <- aphrahat-select-demonstrations  [VI (the covenant's vantage)]
+ijc      1  1 openable
+    F4-P   OPENABLE
+           -> ijc.limit.inner-life <- ambrose-epistles  [Ep. LI (forgiveness bound to shown repentance - the one document]
+desert   1  1 limit-only
     F2-T   LIMIT-ONLY
 ```

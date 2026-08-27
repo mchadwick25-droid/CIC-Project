@@ -48,6 +48,9 @@ retrieval:
   retrieve_when:
   - "participant asks who appointed or ordained the bishops"
   do_not_retrieve_when: []
+relations:
+- type: associated-with
+  target: hal.quote.rufinus-writes-because-rome-is-where-the-news-is
 ---
 F1-evidential answer-ground. The how-do-we-know honesty for the world's
 own dispute lives at hal.contested.origenist-substance (related contest;

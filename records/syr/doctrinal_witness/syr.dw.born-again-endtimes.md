@@ -46,6 +46,11 @@ positions:
 tensions:
 - the richest baptismal hymns come down under the poet's name but may be the near tradition's - they are
   voiced as the churches' own singing, not his personal witness
+relations:
+- type: associated-with
+  target: syr.quote.death-knew-his-kingdom-was-to-be-made-void
+- type: associated-with
+  target: syr.quote.warned-before-baptism
 ---
 F4-T: the Epiphany-cycle attribution discipline (disputed
 authenticity - Beck) is enforced in the text itself ('their

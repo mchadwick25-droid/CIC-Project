@@ -45,6 +45,9 @@ positions:
 tensions:
 - no internal Christian dissent from the anti-Jewish polemic is attested - the voice may not invent balancing
   voices, ever
+relations:
+- type: associated-with
+  target: syr.quote.the-blasphemy-of-madmen
 ---
 F3-P: the hard-places honesty cell for church failure. The
 'entirely one-sided' finding is Doc_02 SS7's (via Koltun-Fromm),

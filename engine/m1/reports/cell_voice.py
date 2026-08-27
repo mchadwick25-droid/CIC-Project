@@ -52,29 +52,50 @@ WORLDS = ["alx", "pahc", "hal", "syr", "ijc", "desert"]
 
 # A locus is VAGUE when it points at a body of text rather than a place in
 # one. These are the phrasings the corpus actually uses for that.
-_VAGUE = re.compile(
-    r"passim|whole (file|work|collection|volume|letter)|scattered|throughout|"
-    r"the collections? as a whole|entire|no vendored|consult-only", re.I)
-# ...and SPECIFIC when it names a place in a text rather than a body of it.
+# HOW A LOCUS IS JUDGED, and the shape of the rule matters more than the
+# pattern in it.
 #
-# WIDENED 2026-08-27, after the first pass under-reported. The original
-# pattern wanted a keyword before the number and so missed every locus that
-# just gives one - "42, 44", "9-10, 14", "7" - and every work-specific
-# division name this corpus actually uses: Mandate 9, Session IV, Canon 6,
-# Sermon III, Philadelphians 4, Smyrnaeans 8, Philocalia I. Eight cells
-# ruled NEEDS READING on the first run were openable all along. The lesson
-# is the ordinary one for a classifier over a corpus written by hand: the
-# vocabulary is the corpus's, not the pattern-writer's.
+# REWRITTEN 2026-08-27 after the enumeration approach under-reported TWICE.
+# The first version wanted a keyword before the number ("ch. 4", "Book II")
+# and missed the bare ones this corpus mostly uses. It was widened with the
+# forms that had been missed - and promptly missed a fresh set: bare Roman
+# numerals ("XXII", "I-VII"), letter citations ("Ep. XXVIII", "Epp.
+# 135-139"), section marks, pages ("p. 682"), lemmas ("s.v. Papa bar
+# Aggai"), structural positions ("praef.", "salutation"). Three more cells
+# were openable all along, one of them carrying a locus - "Ep. XXVIII
+# (npnf212 line 5099)" - as precise as any in the corpus.
+#
+# The second failure is the informative one: ENUMERATING SPECIFICITY CANNOT
+# WORK. Citation grammar is open-ended, because every edition brings its
+# own divisions, so the list is never finished and each widening only moves
+# the boundary. What can be tested instead is whether the locus points at a
+# PLACE at all, and a place is named with a locator token: a number, a
+# Roman numeral, a section mark, a page, a lemma, a named structural
+# position. Which grammar those tokens sit in is the edition's business,
+# not this pattern's.
+#
+# So there is one rule. A locus is specific when it carries a locator
+# token, and vague when it carries none. The old vocabulary falls out of it
+# rather than being listed: "passim", "the whole collection", "the
+# exile-years letters", "the polemic's own harshness" all name bodies of
+# text, and none of them contains a locator.
+#
+# Two attempts that were tried and rejected, recorded so they are not tried
+# again. Listing vague head-nouns ("the ... corpus/letters/tradition")
+# fires on the descriptive glosses this corpus attaches to precise
+# citations - "Canon XXVIII (the claim contested in the conciliar record)"
+# is not vague. Stripping those glosses first fixes that and breaks
+# something worse, because parentheses here also carry REAL loci:
+# "the withdrawal narrative (SS3-14)", "the Ephraim chapter (file line
+# 471)". One test over the whole string misrules one locus in 1242; each
+# of the cleverer versions misruled thirty or more.
 _SPECIFIC = re.compile(
-    r"\bSS?\s?\d|\b[IVXLC]{1,6}\.\s?\d|\bch(?:ap)?\.?\s*[IVXLC\d]|\bBook\s+[IVXLC\d]|"
-    r"\bsecs?\.\s*\d|\bletter\s+[IVXLC\d]|\b\d+[.:]\d+|file line \d|"
-    r"Hymn\s+[IVXLC\d]|Demonstration\s+[IVXLC]|"
-    # a bare number or range, which is how most loci in this corpus cite
-    r"^\s*\d+(?:\s*[-,]\s*\d+)*\s*(?:\(|$)|"
-    # named divisions particular to a work
-    r"\b(?:Mandate|Similitude|Vision|Session|Canon|Sermon|Oration|Homily|Tractate|"
-    r"Philadelphians|Smyrnaeans|Ephesians|Magnesians|Trallians|Romans|Polycarp|"
-    r"Philocalia|Praktikos|Dialogue|Institutes?|Conference)\s+[IVXLC\d]", re.I)
+    r"\d"                                   # any number: 42, 10.96, line 5099
+    r"|\b[IVXLC]+\b"                        # a Roman numeral standing alone
+    r"|SS|\u00a7"                            # section marks
+    r"|\bs\.\s?v\.|\bpp?\."                # a lemma; a page
+    r"|\bpraef|\bpreface|\bsalutation|\bfront matter|\btitle page"
+    r"|\bopening\b|\bclosing\b")
 
 
 def _vendored_sources(records):
@@ -107,7 +128,8 @@ def rule_cell(cell, records, vendored):
                 unbacked.append(where)
             elif _SPECIFIC.search(locus):
                 openable.append((where, locus))
-            elif _VAGUE.search(locus) or True:
+            else:
+                # names a body of text, not a place in one: someone must read
                 vague.append(where)
 
     if not (openable or vague):
