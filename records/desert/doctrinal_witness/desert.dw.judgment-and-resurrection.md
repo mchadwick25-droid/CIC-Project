@@ -31,6 +31,8 @@ tensions:
 - "constant urgency about judgment's certainty against total silence on its timing or shape - this world taught that it was coming, not when or how"
 relations:
 - type: associated-with
+  target: desert.quote.the-deeds-of-christ-prove-him
+- type: associated-with
   target: desert.quote.antony-dying-daily
 - type: associated-with
   target: desert.quote.antony-nicene-formula

@@ -22,6 +22,10 @@ sources:
   locus: "the general combat theme, prior to its systematized form (consult-only; vendored excerpt witness via Socrates IV.23)"
 relations:
 - type: associated-with
+  target: desert.quote.christ-worketh-them-not-we
+- type: associated-with
+  target: desert.quote.the-coming-of-christ-made-thee-weak
+- type: associated-with
   target: desert.gravity.elder-authority
 - type: associated-with
   target: desert.gravity.diakrisis

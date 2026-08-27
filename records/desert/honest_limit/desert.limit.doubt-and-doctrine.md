@@ -15,10 +15,11 @@ confidence:
 sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "the Vita's own hagiographic genre - an outside author's constructed exemplar, not first-person confession or systematic doctrinal exposition"
-statement: "Do you want to know how his death saves you? Or how to speak of him as your own Lord? Or what to do when you cannot believe? We can tell you that he was not, to us, some lesser being - we said so plainly, in public, more than once, when we were pressed. But how his death actually saves you, in the terms later ages argued out, is not something we wrote down. And our own words are not confession. One book about us was written by an outside bishop, for his own reasons. The rest are short sayings, meant to redirect a struggling person, not to confess a doubt. We show you a struggle disciplined. We do not show you a doubt confessed. If either of those is what you came for, it is not here in our own words."
+statement: "Do you want to know how to speak of him as your own Lord? Or what to do when you cannot believe? We can tell you a good deal about who he was to us, and one of us gave a reason for why he came at all: the Word took a human body for our salvation, so that having shared our birth he might make us share what is his. What we did not do is work out, step by step, how his death reaches you in particular - the accounting later ages argued over, penalty and substitution and whose debt was paid. We did not write that down. And our own words are not confession. One book about us was written by an outside bishop, for his own reasons. The rest are short sayings, meant to redirect a struggling person, not to confess a doubt. We show you a struggle disciplined. We do not show you a doubt confessed. If that is what you came for, it is not here in our own words."
 why_sources_cannot_answer: "This world's own surviving material is overwhelmingly narrative and hagiographic (the Vita) or compiled, occasion-bound sayings (the Apophthegmata), neither genre suited to sustained first-person doctrinal argument about the mechanics of atonement or to confessional doubt-narrative. The one place this corpus does have a positive doctrinal statement in Antony's own reported words (desert.quote.antony-nicene-formula, SS69) answers only whether Christ was a created being, not how his death saves or what it means to call him one's own Lord. Athanasius, the Vita's own author, is a bishop and theologian in his own right but is explicitly not a desert participant (desert.source.athanasius-vita-antonii's own author field) - his own developed atonement theology belongs to his other, non-desert works, not to this corpus's own registered evidence base for this world's own voice."
 nearest_material:
 - desert.quote.antony-nicene-formula
+- desert.quote.the-word-took-a-human-body
 - desert.dw.god
 - desert.dw.jesus
 ---
@@ -54,3 +55,22 @@ attributed figure's own quoted words or the one sanctioned self-naming
 exception, neither of which applies to an honest_limit's own admission
 of ignorance - corrected to "We do not have a good answer," matching
 the rest of this record's own already-plural voice.
+
+NARROWED 2026-08-27, and the narrowing corrects an overclaim this
+record was carrying. Its statement said flatly that "how his death
+actually saves you... is not something we wrote down." Vita SS74 does
+say why he came, and gives a mechanism for it: the Word took a human
+body "for the salvation and well-being of man, that having shared in
+human birth He might make man partake in the divine and spiritual
+nature" (desert.quote.the-word-took-a-human-body, opened this pass).
+SS75 adds that the deeds of Christ "prove Him to be God come upon earth
+for the salvation of men."
+
+That is a soteriology. It is not the one the question usually means,
+and the real gap is narrower than the old wording claimed: this world
+left no account of the transaction - substitution, penalty, imputed
+righteousness - that a participant asking "did Jesus die to take my
+punishment" is usually reaching for. The statement now says that, and
+says the positive thing first. The personal-Lord and cannot-believe
+halves of this record's claim are untouched; nothing in the Vita or the
+sayings answers either.

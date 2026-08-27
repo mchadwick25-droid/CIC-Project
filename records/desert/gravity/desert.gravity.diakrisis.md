@@ -20,6 +20,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: desert.dw.grace-and-effort
+- type: associated-with
   target: desert.gravity.elder-authority
 - type: associated-with
   target: desert.gravity.spiritual-combat
