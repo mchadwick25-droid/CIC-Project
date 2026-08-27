@@ -7,13 +7,18 @@ works:
   author: passion_of_perpetua
   locus: div2 6.6 under div1 'Ethical.' (printed as an Appendix)
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Carthage, 203 - inside tertullian-s-voice''s window and city, transmitted with his
     corpus, and the volume''s editor thinks him its editor but not author. Its New Prophecy
     affinities are long argued. Best guesses only: a first-person martyr diary by a woman
-    is precious enough that where it lives should be Mark''s call, not a worker''s.
-
-    '
+    is precious enough that where it lives should be Mark''s call, not a worker''s. RULED
+    BY MARK, 2026-08-26: tertullian-s-voice. The two ids were offered as alternatives - Carthage
+    203, inside that entry''s window and city, transmitted with Tertullian''s corpus and edited
+    by him on the volume''s own reading, against the long-argued New Prophecy affinities -
+    and the ruling picked one, so the montanism-the-new-prophecy guess is dropped rather than
+    left standing as a second best-guess Mark did not choose. Restoring it is one id if he
+    wants both: the affinity claim is real scholarship, not a shelving convenience, and nothing
+    in this note argues against it.'
   source_file: anf03_tertullian.xml
 - work: A Treatise on the Soul (De Anima)
   author: tertullian
