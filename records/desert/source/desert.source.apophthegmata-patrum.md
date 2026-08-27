@@ -15,6 +15,8 @@ confidence:
 sources: []
 relations:
 - type: associated-with
+  target: desert.source.macarian-homilies
+- type: associated-with
   target: desert.source.burton-christie-word
 author: "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c."
 work: "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work, and whether strand-porousness is lived reality or editorial artifact is this build's open question, desert.contested.strand-porousness)"

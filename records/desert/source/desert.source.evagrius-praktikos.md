@@ -15,6 +15,8 @@ confidence:
 sources: []
 relations:
 - type: associated-with
+  target: desert.source.macarian-homilies
+- type: associated-with
   target: desert.source.socrates-historia-ecclesiastica
 author: "Evagrius Ponticus (c. 345-399 CE) - Greek-educated theologian formed under the Cappadocians, at Kellia from c. 385 to his death; this world's most systematic participant-author and its most atypical by education"
 work: "Praktikos; Chapters on Prayer (De oratione); Antirrhetikos - the most systematic surviving interior psychology of the ascetic life produced inside this world (Strand C, Kellia): the eight logismoi, apatheia, the practice of talking back to thoughts with Scripture. Transmission is this world's starkest survival story: after the 553 condemnation (well outside this world's own window), the speculative works survive chiefly in Syriac and Armenian; in Greek, Chapters on Prayer transmits mostly under the name of Nilus of Ancyra, while the Praktikos generally transmits under Evagrius's own name"
