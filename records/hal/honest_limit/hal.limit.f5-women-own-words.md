@@ -23,7 +23,7 @@ sources:
 - source_id: hal.source.jerome-ep46
   locus: whole letter (the one letter in their names - held to be his)
   license: public-domain
-statement: 'You ask for the women''s own words. We must be honest: not one written word
+statement: 'You ask for the women''s own words. Not one written word
   of theirs was kept. They wrote - questions, letters, a report of the fire that reached
   a pope - and every page is lost. What remains is what one man wrote about them.'
 why_sources_cannot_answer: 'No text composed by Paula, Eustochium, Marcella, or Fabiola

@@ -18,7 +18,7 @@ sources:
   locus: IV.29 (where this world's own hard evidence actually lives)
   license: public-domain
 statement: 'You ask about testimony wrung from tortured slaves, and about believers who ran toward
-  death as martyrs. We must be honest: those questions belong to the age of persecution, and our world
+  death as martyrs. Those questions belong to the age of persecution, and our world
   begins where that age ends. By our window the martyrs are graves we honor, not deaths we seek. If
   you want our own hard evidence - the kind that taints - ask instead about the blood shed over who
   would be bishop of Rome, the massacre an emperor ordered and repented, and a burned synagogue our own

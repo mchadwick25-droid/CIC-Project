@@ -20,8 +20,7 @@ sources:
 - source_id: syr.source.bardaisan-book-of-laws
   locus: the marriage customs surveyed
   license: public-domain
-statement: 'You ask what marriage meant to our people - our weddings, our homes. We must be honest about
-  our record: the voices that survive are vowed celibates, and they wrote of marriage mostly from the
+statement: 'You ask what marriage meant to our people - our weddings, our homes. The voices that survive are vowed celibates, and they wrote of marriage mostly from the
   covenant''s side, to those who had renounced it. Most of our people married and raised children; their
   weddings and their homes were real. But the texts we kept praise the single life far more than they
   describe the married one.'

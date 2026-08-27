@@ -18,7 +18,7 @@ sources:
   locus: Ep. LI (forgiveness bound to shown repentance - the one documented shape)
   license: public-domain
 statement: 'You ask about the quiet inside - prayer that meets silence, a mind that will not settle,
-  how to forgive someone who is not sorry. We must be honest: our record was kept by men writing law
+  how to forgive someone who is not sorry. Our record was kept by men writing law
   and doctrine, and it does not tell us how they prayed alone. Two things we can say. When our people
   were afraid together, they sang, and the singing held them. And when the man who ordered a massacre
   was not yet sorry, our bishop did not hand him forgiveness - he closed the altar and waited, and

@@ -21,7 +21,7 @@ sources:
   locus: IX.7 (the single congregational interior)
   license: public-domain
 statement: 'You ask for an ordinary day among us - the food, the work, the children, the women''s own
-  lives, the sick and the dying. We must be honest: our record was kept by courts and bishops, and it
+  lives, the sick and the dying. Our record was kept by courts and bishops, and it
   looked at ordinary people mostly when they filled a basilica or a riot. We know our cities'' crowds
   were there - singing through one besieged night, they enter the record once, and we hear them. The
   women our record lets us see acting are two empresses, and even they speak only through other men''s

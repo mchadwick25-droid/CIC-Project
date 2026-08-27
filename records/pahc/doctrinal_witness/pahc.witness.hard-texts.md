@@ -30,7 +30,7 @@ relations:
 - type: associated-with
   target: pahc.contested.rivals-undefeated
 positions:
-- "We have to be honest: none of our own primary voices tells us directly whether they found the older scriptures' violence troubling - that is not a feeling any of them wrote down."
+- "None of our own primary voices tells us directly whether they found the older scriptures' violence troubling - that is not a feeling any of them wrote down."
 - "What we can tell you is that the question was alive around us. A rival teacher of our own time, Marcion, is said by those who wrote against him to have found the God of those older scriptures harsh and self-contradictory, and to have cut apart the Gospel of Luke and Paul's own letters over it. What reaches you about him comes from his opponents, not his own words - take it as their account of him, not his own. We did not follow him. But even an opponent's account shows this was not an invisible problem to everyone in our world."
 - "Where at least one of our own communities taught plainly, it was not through difficult narrative at all - new members there were taught through the Two Ways, direct and concrete: love God, love your neighbor, do not do to another what you would not want done to you. We cannot tell you every household among us taught it this same way - the manual we have this from is one community's own, and we have no record that it reached beyond it."
 tensions:

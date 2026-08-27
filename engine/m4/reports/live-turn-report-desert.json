@@ -3,8 +3,8 @@
   "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
   "region": "us-west-2",
   "world_key": "desert",
-  "manifest_hash": "sha256:38392569c13d7fce72ec4e6a4dd6bd072140bbb33bc614858fee5ce0015f27c3",
-  "package": "packages/desert/2026-08-27T16-05-28Z",
+  "manifest_hash": "sha256:2f94bef11ae4c48566df5d53d3fa3600b1ef88951c5d327b0132911eb146feb4",
+  "package": "packages/desert/2026-08-27T17-15-20Z",
   "results": [
     {
       "id": "message-1",
@@ -15,10 +15,10 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "desert",
-          "text": "We do not have an honest answer. The Rule that carries his name does not give us his own hand writing it. The tradition tells it this way: an angel came to him and gave him a tablet with the rule written on it - let each eat and work according to his own strength; divide the community by letters only the spiritual would understand; test a newcomer for three years before letting him into the sanctuary. Later in the same telling he argues back, saying the prayers set down are too few, and is told the rule is pitched for the weak, so even the little ones can keep it. That is the founding story the rule itself carries. It does not name Pachomius as the one putting stylus to wax.\n\nWhat survives under his name are provisions - legislation, really - not letters in his own voice the way we have from some others. The Ethiopic recension says plainly: let no one converse with his neighbor at the place where he sleeps. It remembers his sister, how he cut her hair and made a dwelling-place for her alone on the opposite side of the river. But these are provisions written about him or attributed to the rule he founded, not a letter he sat down and wrote to someone by name.\n\nWe have to be honest with you: if you want something where a man is writing in his own person, thinking through a question with someone he knows - the way we have from others in this world - we do not have that from Pachomius. What we have is the Rule itself, the organizing force behind the Koinonia, his own name for the linked houses that lived under it. The angel-and-tablet telling is not a historical claim we are making; it is how the tradition chose to frame where the Rule came from. Whether he wrote any of it himself, we cannot say.",
+          "text": "No. Nothing in Pachomius's own hand survives. What we have is the Rule that bears his name - and the tradition tells us he received it from an angel who handed him a tablet of iron. That account comes to us through later hands, not his own writing. The Rule itself exists in multiple versions - Coptic fragments, Greek, Latin, and a fuller Ethiopic recension - all of them transmitted copies made after his death, arranged and rearranged by later communities who lived under them. So what you would actually be reading is the Rule as his communities kept it, not a letter or instruction written in his own person the way, say, one of our letter-writers left his own words behind.\n\nThe provisions themselves are brief and concrete - \"let no one converse with his neighbor at the place where he sleeps\", or \"allow each man to eat and drink according to his strength\" - the kind of directive meant to govern a common life, not to develop an argument. One section remembers that he founded a house for his own sister across the river, at a distance of a mile, when she came to him wanting the same discipline. That is as close as the material gets to showing his own hand in a decision, and even there it is narrated about him, not written by him.\n\nIf what you are looking for is his own voice in his own words, we do not have it. What we have is the Rule his houses lived by, carried forward in their own memory of him.",
           "citations": [
             {
-              "sentence": "The Rule that carries his name does not give us his own hand writing it.",
+              "sentence": "What we have is the Rule that bears his name - and the tradition tells us he received it from an angel who handed him a tablet of iron.",
               "record_ids": [
                 "desert.story.angel-hands-the-tablet"
               ],
@@ -40,7 +40,7 @@
               ]
             },
             {
-              "sentence": "Later in the same telling he argues back, saying the prayers set down are too few, and is told the rule is pitched for the weak, so even the little ones can keep it.",
+              "sentence": "That account comes to us through later hands, not his own writing.",
               "record_ids": [
                 "desert.story.angel-hands-the-tablet"
               ],
@@ -62,10 +62,34 @@
               ]
             },
             {
-              "sentence": "What survives under his name are provisions - legislation, really - not letters in his own voice the way we have from some others.",
+              "sentence": "The Rule itself exists in multiple versions - Coptic fragments, Greek, Latin, and a fuller Ethiopic recension - all of them transmitted copies made after his death, arranged and rearranged by later communities who lived under them.",
+              "record_ids": [
+                "desert.story.angel-hands-the-tablet"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.story.angel-hands-the-tablet",
+                  "record_type": "story",
+                  "label": "the rule that begins by saying where it came from - an angel, a cave, and a tablet of iron",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.pachomian-corpus",
+                      "author": "The Pachomian federation (Pachomius c. 292-346 and successors; the Lives produced and revised within the koinonia)",
+                      "work": "The Pachomian corpus: the Rules (Praecepta and companion collections - surviving complete only in Jerome's Latin translation of 404, made from a Greek intermediary itself translated from Coptic, with partial Coptic originals) and the Lives of Pachomius (Sahidic and Bohairic Coptic, and Greek including the Vita Prima - multiple only-partially-overlapping recensions whose priority and incident-level reliability remain genuinely debated: Rousseau and Veilleux hold differing positions, not adjudicated by this build). Strand B's own internal documentation - the most direct textual link this world has to its cenobitic governance",
+                      "locus": "Ethiopic recension, Part I opening, pp. 681-682, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)",
+                      "rights_status": "Rules: QUOTABLE. Schodde 1885 is public domain by date, read from the file's own running heads and page numbers; a Princeton scan supplied by Mark 2026-08-27. Lives: still not quotable - every English edition is modern and copyrighted, so Lives claims continue to rest on vendored one-remove witnesses plus consult-only scholarship at stated confidence"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The provisions themselves are brief and concrete - \"let no one converse with his neighbor at the place where he sleeps\", or \"allow each man to eat and drink according to his strength\" - the kind of directive meant to govern a common life, not to develop an argument.",
               "record_ids": [
                 "desert.quote.no-one-seize-the-hand",
-                "desert.quote.womens-house-across-the-river"
+                "desert.quote.pachomius-angel-tablet",
+                "desert.quote.no-one-seize-the-hand",
+                "desert.quote.pachomius-angel-tablet"
               ],
               "sources": [
                 {
@@ -83,27 +107,19 @@
                   ]
                 },
                 {
-                  "record_id": "desert.quote.womens-house-across-the-river",
+                  "record_id": "desert.quote.pachomius-angel-tablet",
                   "record_type": "quote",
-                  "label": "the Ethiopic recension of the Rule, Part II",
+                  "label": "an angel",
                   "sources": [
                     {
-                      "source_id": "desert.source.pachomian-corpus",
-                      "author": "The Pachomian federation (Pachomius c. 292-346 and successors; the Lives produced and revised within the koinonia)",
-                      "work": "The Pachomian corpus: the Rules (Praecepta and companion collections - surviving complete only in Jerome's Latin translation of 404, made from a Greek intermediary itself translated from Coptic, with partial Coptic originals) and the Lives of Pachomius (Sahidic and Bohairic Coptic, and Greek including the Vita Prima - multiple only-partially-overlapping recensions whose priority and incident-level reliability remain genuinely debated: Rousseau and Veilleux hold differing positions, not adjudicated by this build). Strand B's own internal documentation - the most direct textual link this world has to its cenobitic governance",
-                      "locus": "Ethiopic recension, Part II (the second word of the holy Pachomius), p. 685, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)",
-                      "rights_status": "Rules: QUOTABLE. Schodde 1885 is public domain by date, read from the file's own running heads and page numbers; a Princeton scan supplied by Mark 2026-08-27. Lives: still not quotable - every English edition is modern and copyrighted, so Lives claims continue to rest on vendored one-remove witnesses plus consult-only scholarship at stated confidence"
+                      "source_id": "desert.source.palladius-lausiac-history",
+                      "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
+                      "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
+                      "locus": "ch. XXXII - the angel's own opening instruction, in Clarke's translation",
+                      "rights_status": "public-domain"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "sentence": "The Ethiopic recension says plainly: let no one converse with his neighbor at the place where he sleeps.",
-              "record_ids": [
-                "desert.quote.no-one-seize-the-hand"
-              ],
-              "sources": [
+                },
                 {
                   "record_id": "desert.quote.no-one-seize-the-hand",
                   "record_type": "quote",
@@ -117,11 +133,25 @@
                       "rights_status": "Rules: QUOTABLE. Schodde 1885 is public domain by date, read from the file's own running heads and page numbers; a Princeton scan supplied by Mark 2026-08-27. Lives: still not quotable - every English edition is modern and copyrighted, so Lives claims continue to rest on vendored one-remove witnesses plus consult-only scholarship at stated confidence"
                     }
                   ]
+                },
+                {
+                  "record_id": "desert.quote.pachomius-angel-tablet",
+                  "record_type": "quote",
+                  "label": "an angel",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.palladius-lausiac-history",
+                      "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
+                      "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
+                      "locus": "ch. XXXII - the angel's own opening instruction, in Clarke's translation",
+                      "rights_status": "public-domain"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "sentence": "It remembers his sister, how he cut her hair and made a dwelling-place for her alone on the opposite side of the river.",
+              "sentence": "One section remembers that he founded a house for his own sister across the river, at a distance of a mile, when she came to him wanting the same discipline.",
               "record_ids": [
                 "desert.quote.womens-house-across-the-river"
               ],
@@ -143,128 +173,29 @@
               ]
             },
             {
-              "sentence": "What we have is the Rule itself, the organizing force behind the Koinonia, his own name for the linked houses that lived under it.",
+              "sentence": "That is as close as the material gets to showing his own hand in a decision, and even there it is narrated about him, not written by him.",
               "record_ids": [
-                "desert.term.koinonia",
-                "desert.gravity.koinonia"
+                "desert.quote.womens-house-across-the-river"
               ],
               "sources": [
                 {
-                  "record_id": "desert.term.koinonia",
-                  "record_type": "term",
-                  "label": "koinonia",
+                  "record_id": "desert.quote.womens-house-across-the-river",
+                  "record_type": "quote",
+                  "label": "the Ethiopic recension of the Rule, Part II",
                   "sources": [
                     {
                       "source_id": "desert.source.pachomian-corpus",
                       "author": "The Pachomian federation (Pachomius c. 292-346 and successors; the Lives produced and revised within the koinonia)",
                       "work": "The Pachomian corpus: the Rules (Praecepta and companion collections - surviving complete only in Jerome's Latin translation of 404, made from a Greek intermediary itself translated from Coptic, with partial Coptic originals) and the Lives of Pachomius (Sahidic and Bohairic Coptic, and Greek including the Vita Prima - multiple only-partially-overlapping recensions whose priority and incident-level reliability remain genuinely debated: Rousseau and Veilleux hold differing positions, not adjudicated by this build). Strand B's own internal documentation - the most direct textual link this world has to its cenobitic governance",
-                      "locus": "the Rule and Lives (as reported; no vendored text)",
+                      "locus": "Ethiopic recension, Part II (the second word of the holy Pachomius), p. 685, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)",
                       "rights_status": "Rules: QUOTABLE. Schodde 1885 is public domain by date, read from the file's own running heads and page numbers; a Princeton scan supplied by Mark 2026-08-27. Lives: still not quotable - every English edition is modern and copyrighted, so Lives claims continue to rest on vendored one-remove witnesses plus consult-only scholarship at stated confidence"
-                    },
-                    {
-                      "source_id": "desert.source.palladius-lausiac-history",
-                      "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
-                      "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
-                      "locus": "ch. XXXII (the Tabennesiot rule as Palladius reports it)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "desert.source.sozomen-historia-ecclesiastica",
-                      "author": "Sozomen (Salamanes Hermeias Sozomenos, c. 400-c. 450 CE) - lawyer-historian, Constantinople; raised near Gaza among monastic circles but never an Egyptian desert participant",
-                      "work": "Historia Ecclesiastica (c. 440s), used here ONLY for its Egyptian-monasticism material: I.12-14 (monasticism's origins, Antony, the philosophy-of-monasticism excursus), III.14 (the long census of Egyptian holy men including Pachomius, with a summary of the Pachomian rule and federation), VI.28-31 (the next desert generation); largely dependent on Socrates, the monastic literary tradition, and oral report - a compiler's corroboration, not independent testimony",
-                      "locus": "III.14 (the rule summary at one remove)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "desert.source.rousseau-pachomius",
-                      "author": "Philip Rousseau",
-                      "work": "Pachomius: The Making of a Community in Fourth-Century Egypt (University of California Press, 1985). The standard critical study of the Pachomian sources and community formation; anchors Strand B treatment and the version-priority caution on the Lives (Rousseau and Veilleux hold differing positions on textual priority - a live debate this build does not adjudicate). Cross-world caution carried from Step 0: Rousseau's separate monograph on Basil of Caesarea belongs to World #5 (Cappadocian), not here - the two Rousseau works must not be conflated",
-                      "locus": "the named modern authority for Rule-content or Lives-incident claims resting on consult-only scholarship, per this world's standing rule (here, the federation's house count, a Lives-incident claim)",
-                      "rights_status": "copyrighted-consult-only"
-                    }
-                  ]
-                },
-                {
-                  "record_id": "desert.gravity.koinonia",
-                  "record_type": "gravity",
-                  "label": "Koinonia - communal rule and common property",
-                  "sources": [
-                    {
-                      "source_id": "desert.source.pachomian-corpus",
-                      "author": "The Pachomian federation (Pachomius c. 292-346 and successors; the Lives produced and revised within the koinonia)",
-                      "work": "The Pachomian corpus: the Rules (Praecepta and companion collections - surviving complete only in Jerome's Latin translation of 404, made from a Greek intermediary itself translated from Coptic, with partial Coptic originals) and the Lives of Pachomius (Sahidic and Bohairic Coptic, and Greek including the Vita Prima - multiple only-partially-overlapping recensions whose priority and incident-level reliability remain genuinely debated: Rousseau and Veilleux hold differing positions, not adjudicated by this build). Strand B's own internal documentation - the most direct textual link this world has to its cenobitic governance",
-                      "locus": "the organizing principle of the entire corpus",
-                      "rights_status": "Rules: QUOTABLE. Schodde 1885 is public domain by date, read from the file's own running heads and page numbers; a Princeton scan supplied by Mark 2026-08-27. Lives: still not quotable - every English edition is modern and copyrighted, so Lives claims continue to rest on vendored one-remove witnesses plus consult-only scholarship at stated confidence"
-                    },
-                    {
-                      "source_id": "desert.source.palladius-lausiac-history",
-                      "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
-                      "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
-                      "locus": "ch. XXXII (the Tabennesiot rule as reported)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "desert.source.sozomen-historia-ecclesiastica",
-                      "author": "Sozomen (Salamanes Hermeias Sozomenos, c. 400-c. 450 CE) - lawyer-historian, Constantinople; raised near Gaza among monastic circles but never an Egyptian desert participant",
-                      "work": "Historia Ecclesiastica (c. 440s), used here ONLY for its Egyptian-monasticism material: I.12-14 (monasticism's origins, Antony, the philosophy-of-monasticism excursus), III.14 (the long census of Egyptian holy men including Pachomius, with a summary of the Pachomian rule and federation), VI.28-31 (the next desert generation); largely dependent on Socrates, the monastic literary tradition, and oral report - a compiler's corroboration, not independent testimony",
-                      "locus": "III.14 (the rule summary at one remove)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "desert.source.rousseau-pachomius",
-                      "author": "Philip Rousseau",
-                      "work": "Pachomius: The Making of a Community in Fourth-Century Egypt (University of California Press, 1985). The standard critical study of the Pachomian sources and community formation; anchors Strand B treatment and the version-priority caution on the Lives (Rousseau and Veilleux hold differing positions on textual priority - a live debate this build does not adjudicate). Cross-world caution carried from Step 0: Rousseau's separate monograph on Basil of Caesarea belongs to World #5 (Cappadocian), not here - the two Rousseau works must not be conflated",
-                      "locus": "the named modern authority for the federation's house count, a Lives-incident claim - not carried by either vendored witness, which give population, not house, counts",
-                      "rights_status": "copyrighted-consult-only"
                     }
                   ]
                 }
               ]
             }
           ],
-          "glosses": [
-            {
-              "id": "desert.term.koinonia",
-              "matched_name": "Koinonia",
-              "plain_meaning": "The Koinonia: Pachomius's own name for his linked houses. They lived under one written rule and one leader.",
-              "quick_meaning": "Pachomius's linked houses: one written rule, one head.",
-              "translational_sense": "'Communal rule' undersells it: this was an institutional invention answering a real problem - how total formation could scale past one extraordinary hermit - and it sat in unresolved tension with the elder-model for this world's whole span.",
-              "false_friend": [
-                "fellowship in the loose modern church sense",
-                "any monastery whatever"
-              ],
-              "sourced_by": [
-                {
-                  "source_id": "desert.source.pachomian-corpus",
-                  "author": "The Pachomian federation (Pachomius c. 292-346 and successors; the Lives produced and revised within the koinonia)",
-                  "work": "The Pachomian corpus: the Rules (Praecepta and companion collections - surviving complete only in Jerome's Latin translation of 404, made from a Greek intermediary itself translated from Coptic, with partial Coptic originals) and the Lives of Pachomius (Sahidic and Bohairic Coptic, and Greek including the Vita Prima - multiple only-partially-overlapping recensions whose priority and incident-level reliability remain genuinely debated: Rousseau and Veilleux hold differing positions, not adjudicated by this build). Strand B's own internal documentation - the most direct textual link this world has to its cenobitic governance",
-                  "locus": "the Rule and Lives (as reported; no vendored text)",
-                  "rights_status": "Rules: QUOTABLE. Schodde 1885 is public domain by date, read from the file's own running heads and page numbers; a Princeton scan supplied by Mark 2026-08-27. Lives: still not quotable - every English edition is modern and copyrighted, so Lives claims continue to rest on vendored one-remove witnesses plus consult-only scholarship at stated confidence"
-                },
-                {
-                  "source_id": "desert.source.palladius-lausiac-history",
-                  "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
-                  "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
-                  "locus": "ch. XXXII (the Tabennesiot rule as Palladius reports it)",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "desert.source.sozomen-historia-ecclesiastica",
-                  "author": "Sozomen (Salamanes Hermeias Sozomenos, c. 400-c. 450 CE) - lawyer-historian, Constantinople; raised near Gaza among monastic circles but never an Egyptian desert participant",
-                  "work": "Historia Ecclesiastica (c. 440s), used here ONLY for its Egyptian-monasticism material: I.12-14 (monasticism's origins, Antony, the philosophy-of-monasticism excursus), III.14 (the long census of Egyptian holy men including Pachomius, with a summary of the Pachomian rule and federation), VI.28-31 (the next desert generation); largely dependent on Socrates, the monastic literary tradition, and oral report - a compiler's corroboration, not independent testimony",
-                  "locus": "III.14 (the rule summary at one remove)",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "desert.source.rousseau-pachomius",
-                  "author": "Philip Rousseau",
-                  "work": "Pachomius: The Making of a Community in Fourth-Century Egypt (University of California Press, 1985). The standard critical study of the Pachomian sources and community formation; anchors Strand B treatment and the version-priority caution on the Lives (Rousseau and Veilleux hold differing positions on textual priority - a live debate this build does not adjudicate). Cross-world caution carried from Step 0: Rousseau's separate monograph on Basil of Caesarea belongs to World #5 (Cappadocian), not here - the two Rousseau works must not be conflated",
-                  "locus": "the named modern authority for Rule-content or Lives-incident claims resting on consult-only scholarship, per this world's standing rule (here, the federation's house count, a Lives-incident claim)",
-                  "rights_status": "copyrighted-consult-only"
-                }
-              ]
-            }
-          ],
+          "glosses": [],
           "figures_used": [
             {
               "id": "desert.figure.pachomius",
@@ -295,108 +226,87 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "We do not have an honest answer.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              },
-              {
-                "sentence": "The Rule that carries his name does not give us his own hand writing it.",
-                "tags": [
-                  "desert.story.angel-hands-the-tablet"
-                ],
-                "verdict": "ok",
-                "why": "grounded 50% in own tagged records",
-                "ratio": 0.5
-              },
-              {
-                "sentence": "The tradition tells it this way: an angel came to him and gave him a tablet with the rule written on it - let each eat and work according to his own strength; divide the community by letters only the spiritual would understand; test a newcomer for three years before letting him into the sanctuary.",
-                "tags": [
-                  "desert.story.angel-hands-the-tablet"
-                ],
-                "verdict": "withhold",
-                "why": "specific claim (number) only 38% grounded in its own tags; inside a named thin topic: ['rule'] (The tension between personal and institutional authority is well-evidenced structurally but not dramatized in any single preserved narrative scene identified so far.)",
-                "ratio": 0.38
-              },
-              {
-                "sentence": "Later in the same telling he argues back, saying the prayers set down are too few, and is told the rule is pitched for the weak, so even the little ones can keep it.",
-                "tags": [
-                  "desert.story.angel-hands-the-tablet"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "That is the founding story the rule itself carries.",
+                "sentence": "No.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "It does not name Pachomius as the one putting stylus to wax.",
+                "sentence": "Nothing in Pachomius's own hand survives.",
                 "tags": [],
                 "verdict": "withhold",
-                "why": "specific claim (proper-noun:['pachomius']) with no citation tag"
+                "why": "specific claim (proper-noun:[\"pachomius's\"]) with no citation tag"
               },
               {
-                "sentence": "What survives under his name are provisions - legislation, really - not letters in his own voice the way we have from some others.",
+                "sentence": "What we have is the Rule that bears his name - and the tradition tells us he received it from an angel who handed him a tablet of iron.",
                 "tags": [
-                  "desert.quote.no-one-seize-the-hand",
-                  "desert.quote.womens-house-across-the-river"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "The Ethiopic recension says plainly: let no one converse with his neighbor at the place where he sleeps.",
-                "tags": [
-                  "desert.quote.no-one-seize-the-hand"
-                ],
-                "verdict": "ok",
-                "why": "grounded 88% in own tagged records",
-                "ratio": 0.88
-              },
-              {
-                "sentence": "It remembers his sister, how he cut her hair and made a dwelling-place for her alone on the opposite side of the river.",
-                "tags": [
-                  "desert.quote.womens-house-across-the-river"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "But these are provisions written about him or attributed to the rule he founded, not a letter he sat down and wrote to someone by name.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "We have to be honest with you: if you want something where a man is writing in his own person, thinking through a question with someone he knows - the way we have from others in this world - we do not have that from Pachomius.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              },
-              {
-                "sentence": "What we have is the Rule itself, the organizing force behind the Koinonia, his own name for the linked houses that lived under it.",
-                "tags": [
-                  "desert.term.koinonia",
-                  "desert.gravity.koinonia"
+                  "desert.story.angel-hands-the-tablet"
                 ],
                 "verdict": "ok",
                 "why": "grounded 90% in own tagged records",
                 "ratio": 0.9
               },
               {
-                "sentence": "The angel-and-tablet telling is not a historical claim we are making; it is how the tradition chose to frame where the Rule came from.",
+                "sentence": "That account comes to us through later hands, not his own writing.",
+                "tags": [
+                  "desert.story.angel-hands-the-tablet"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The Rule itself exists in multiple versions - Coptic fragments, Greek, Latin, and a fuller Ethiopic recension - all of them transmitted copies made after his death, arranged and rearranged by later communities who lived under them.",
+                "tags": [
+                  "desert.story.angel-hands-the-tablet"
+                ],
+                "verdict": "ok",
+                "why": "grounded 43% in own tagged records",
+                "ratio": 0.43
+              },
+              {
+                "sentence": "So what you would actually be reading is the Rule as his communities kept it, not a letter or instruction written in his own person the way, say, one of our letter-writers left his own words behind.",
                 "tags": [],
                 "verdict": "withhold",
                 "why": "specific claim (proper-noun:['rule']) with no citation tag"
               },
               {
-                "sentence": "Whether he wrote any of it himself, we cannot say.",
+                "sentence": "The provisions themselves are brief and concrete - \"let no one converse with his neighbor at the place where he sleeps\", or \"allow each man to eat and drink according to his strength\" - the kind of directive meant to govern a common life, not to develop an argument.",
+                "tags": [
+                  "desert.quote.no-one-seize-the-hand",
+                  "desert.quote.pachomius-angel-tablet",
+                  "desert.quote.no-one-seize-the-hand",
+                  "desert.quote.pachomius-angel-tablet"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "One section remembers that he founded a house for his own sister across the river, at a distance of a mile, when she came to him wanting the same discipline.",
+                "tags": [
+                  "desert.quote.womens-house-across-the-river"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That is as close as the material gets to showing his own hand in a decision, and even there it is narrated about him, not written by him.",
+                "tags": [
+                  "desert.quote.womens-house-across-the-river"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "If what you are looking for is his own voice in his own words, we do not have it.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "What we have is the Rule his houses lived by, carried forward in their own memory of him.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['rule']) with no citation tag"
               }
             ],
             "substantive_survives": true
@@ -416,108 +326,15 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "desert",
-          "text": "Yes. And we will tell you honestly what we kept and what we did not.\n\nWomen lived this life alongside men - we have their names, we have stories about them, and we have at least one teaching that names them directly: \"...it is necessary for us to remember also the chosen and mighty women unto whom God also gave an equal measure of strength of will as unto men, so that they might have no cause for being feeble in the performance of the labour of ascetic excellence\". That is not a polite acknowledgment. That is a claim that God gave women the same strength of will for this work that he gave men, spoken in so many words.\n\nThe same basic shape held for them that held for us - withdrawal from settled life, the cell, manual work, prayer. One story we kept tells of a virgin named Piamon, in Upper Egypt, whose own village was threatened by barbarian raiders. The elders of the village came to her and said: we do not dare go out to meet them, but if you want to spare the village and your own house, you go out to meet them. She refused to go out - but she climbed to the roof and stood in prayer the whole night without once kneeling, and prayed that God would transfix the enemy where they stood. The village elders came to her as though she carried authority they themselves did not have, and she answered with the discipline she had trained in - prayer held through the night, standing.\n\nAnother story tells of a virgin in Alexandria, beautiful enough that people stared, who withdrew from sight for exactly that reason - so as not to be the occasion of anyone stumbling. When the archbishop Athanasius was fleeing the Arians, he did not go to his kinsmen or his friends or the clergy. He went to her house at midnight. She hid him, washed his feet, saw to what he needed, borrowed books and brought them to him, and the account says no one in Alexandria knew where he was for the whole of that time. When it was over he appeared in the church and explained himself: he had gone to the one person no one could suspect him of going to, and he said he had gained two things by it, his own life and hers.\n\nWe need to be honest with you about what we do not have, though. We have women's names, we have stories about them - some fifteen narrated lives in one collection, told the same way our men's lives were told, by the same author, at the same length - and we have their speech reported inside those stories. What we do not have is a woman speaking at length in her own person the way some of our men's sayings come down to us. The men in that same collection are also narrated in the third person, so the difference is not narration against sayings. The difference is that the women arrive at the thirty-fifth chapter, after thirty-four chapters of men, in a section their author felt he had to announce and justify before he wrote it. That is the truth of what survives. We are not going to smooth it over.",
+          "text": "Yes. Women lived this life - in their own cells, under their own discipline, doing the same work we did. We should say plainly: the women's own lives come to us mostly through a man's narration, not through their own first-person accounts the way some of the men's sayings do. That is a real limit on what we can tell you.\n\nWhat we do have: about fifteen women's lives, told at length, several with their own speech reported inside the telling - Piamon of Upper Egypt, Talida and Taor of Antinoe, Melania the Great and the Younger, and others. One of those accounts shows a woman whose own authority in her village was enough that the elders came to her, not to any man, when armed men were riding toward them - they told her plainly they would not dare go out to meet the threat themselves, and they asked her to do it. She refused to go out. Instead she went up on the roof and prayed standing the whole night through, asking God to stop the enemy where they were. Another account, one that reaches us from multiple sources, tells of a virgin in Alexandria so beautiful that people stared, who withdrew from sight for exactly that reason - and who, years later, hid the archbishop Athanasius in her own house when no one else could be trusted to do it without being suspected.\n\nThe author who collected these lives wrote, before he began that section, that it was necessary to remember the women too, because God gave them the same measure of strength as the men, so they would have no cause to be considered weak in the work of this life. He had to say that - which tells you it was not assumed.\n\nThe daily shape, so far as we can tell: the same manual work we did, done in the cell to live and as discipline. The same selling of goods that tied all of us to the villages around us, men and women alike. The same Scriptures, the same small number of verses taken up as counsel. We cannot tell you specific liturgical details - what prayers beyond the Psalter, what exact shape the weekly gathering took for them - because that ground is thin for all of us, men and women both. What we can tell you is that the women's settlements were real, working communities, not footnotes.\n\nThe clearest limit we owe you: no woman's own first-person account survives in our material the way some men's sayings do. The asymmetry is real, and we will not smooth it over by pretending we have more than we do.",
           "citations": [
             {
-              "sentence": "Women lived this life alongside men - we have their names, we have stories about them, and we have at least one teaching that names them directly: \"...it is necessary for us to remember also the chosen and mighty women unto whom God also gave an equal measure of strength of will as unto men, so that they might have no cause for being feeble in the performance of the labour of ascetic excellence\".",
+              "sentence": "Women lived this life - in their own cells, under their own discipline, doing the same work we did.",
               "record_ids": [
-                "desert.quote.equal-measure-of-strength"
+                "desert.term.cheironaxia",
+                "desert.term.kellion"
               ],
               "sources": [
-                {
-                  "record_id": "desert.quote.equal-measure-of-strength",
-                  "record_type": "quote",
-                  "label": "Palladius, in the Syriac recension of the Paradise",
-                  "sources": [
-                    {
-                      "source_id": "desert.source.palladius-paradise-syriac",
-                      "author": "Palladius of Galatia (c. 363-c. 430); the Syriac recension as 'Anan-Isho' of Beth 'Abhe redacted it, early seventh century; Ernest Alfred Wallis Budge, translator",
-                      "work": "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in sixty-six chapters, preceded by the Syriac Life of Saint Anthony attributed to Athanasius and by Budge's own 1907 Preface and Introduction. Palladius' Book I here carries the chapters this world's Greek-based copy also carries, plus the run from chapter xxxv onward: about fifteen named women with chapters of their own - Piamon, Talida of Antinoe, Taor, Melania the Great and the Younger, Olympias, Candida, Gelasia, Juliana, Magna, Thais, the unnamed virgin who hid Athanasius and others",
-                      "locus": "Book I, ch. xxxv, the opening of the section on holy women, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)",
-                      "rights_status": "public-domain, and quotable. 1907 publication date, long out of US copyright"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "The same basic shape held for them that held for us - withdrawal from settled life, the cell, manual work, prayer.",
-              "record_ids": [
-                "desert.gravity.withdrawal",
-                "desert.term.kellion",
-                "desert.term.cheironaxia"
-              ],
-              "sources": [
-                {
-                  "record_id": "desert.gravity.withdrawal",
-                  "record_type": "gravity",
-                  "label": "Withdrawal",
-                  "sources": [
-                    {
-                      "source_id": "desert.source.athanasius-vita-antonii",
-                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
-                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
-                      "locus": "SS2-14 (the staged withdrawal), SS49-50 (the inner mountain)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "desert.source.apophthegmata-patrum",
-                      "author": "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c.",
-                      "work": "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work, and whether strand-porousness is lived reality or editorial artifact is this build's open question, desert.contested.strand-porousness)",
-                      "locus": "passim - the tradition's organizing act",
-                      "rights_status": "ancient work public-domain; Budge 1907 English now vendored, public domain by date; modern translations copyrighted, consult-only"
-                    },
-                    {
-                      "source_id": "desert.source.palladius-lausiac-history",
-                      "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
-                      "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
-                      "locus": "ch. VII, VIII, XVIII",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "desert.source.kellia-excavations",
-                      "author": "French and Swiss archaeological missions (site rediscovered by Antoine Guillaumont, 1964; excavated 1965-1990)",
-                      "work": "The Kellia excavations - c. 125 km2, over 1,500 identified structures: single cells to multi-room hermitages with attached oratories, chapels, and towers, plus communal-service clusters and at least one commercial center. Direct physical corroboration of Strand C's settlement pattern, and the corpus's only substantial non-literary window on residents' own devotional and daily concerns (wall inscriptions, graffiti, paintings; artifacts chiefly pottery). Never connects a specific structure to a specific named figure - that link is Inferential-Thin and no record makes it",
-                      "locus": "settlement pattern corroboration",
-                      "rights_status": "material evidence; publications copyrighted, consult-only; no text vendored or quotable"
-                    },
-                    {
-                      "source_id": "desert.source.nepheros-archive",
-                      "author": "The monk Nepheros and his correspondents (mid-4th c. CE); modern edition by B. Kramer and J. C. Shelton (Das Archiv des Nepheros, 1987). The related but DISTINCT earlier Melitian dossier - the Paieous correspondence (monastery of Hathor, 330s-340s) - belongs to the London papyri, P.Lond. VI, ed. H. I. Bell (1924), not to the 1987 edition; the two archives together are the Melitian documentary witness Doc_02 SS5.2 describes, and neither edition is in hand, so the archive-to-edition mapping stated here is held at verified-via-authority and must be re-checked against the editions themselves before any figure or quote record leans on either monk by name (Step2 Review Round 1, Finding 5)",
-                      "work": "The Nepheros archive (with the related Paieous correspondence as its earlier companion dossier) - 4th-century papyrological correspondence of a MELITIAN monastic community near Hipponon (Heracleopolite nome): everyday economic and legal letters, the closest thing this world's period offers to unmediated documentary evidence of a functioning monastic community's ordinary life. Two standing cautions travel with every use: (1) the community is Melitian, not Nicene-communion - its representativeness for the mainstream strands rests on the UNVERIFIED working assumption that day-to-day practice did not differ much across that ecclesial line (Doc_01 open item 1, still open); (2) its editors read the community as organizationally 'intermediary' - between full cenobium and hermit-scatter - which does not map cleanly onto any of Doc_01's three strands (a real typology complication, held open at desert.contested.strand-porousness)",
-                      "locus": "documentary corroboration, Melitian-caveated; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, no clean fit to this world's three strands",
-                      "rights_status": "ancient papyri public-domain; edition copyrighted, consult-only; no text vendored or quotable"
-                    },
-                    {
-                      "source_id": "desert.source.pachomian-corpus",
-                      "author": "The Pachomian federation (Pachomius c. 292-346 and successors; the Lives produced and revised within the koinonia)",
-                      "work": "The Pachomian corpus: the Rules (Praecepta and companion collections - surviving complete only in Jerome's Latin translation of 404, made from a Greek intermediary itself translated from Coptic, with partial Coptic originals) and the Lives of Pachomius (Sahidic and Bohairic Coptic, and Greek including the Vita Prima - multiple only-partially-overlapping recensions whose priority and incident-level reliability remain genuinely debated: Rousseau and Veilleux hold differing positions, not adjudicated by this build). Strand B's own internal documentation - the most direct textual link this world has to its cenobitic governance",
-                      "locus": "the second attesting stream (alongside the Apophthegmata) answering the Rubenson/Antony-literacy Cross-Check question",
-                      "rights_status": "Rules: QUOTABLE. Schodde 1885 is public domain by date, read from the file's own running heads and page numbers; a Princeton scan supplied by Mark 2026-08-27. Lives: still not quotable - every English edition is modern and copyrighted, so Lives claims continue to rest on vendored one-remove witnesses plus consult-only scholarship at stated confidence"
-                    }
-                  ]
-                },
-                {
-                  "record_id": "desert.term.kellion",
-                  "record_type": "term",
-                  "label": "kellion",
-                  "sources": [
-                    {
-                      "source_id": "desert.source.kellia-excavations",
-                      "author": "French and Swiss archaeological missions (site rediscovered by Antoine Guillaumont, 1964; excavated 1965-1990)",
-                      "work": "The Kellia excavations - c. 125 km2, over 1,500 identified structures: single cells to multi-room hermitages with attached oratories, chapels, and towers, plus communal-service clusters and at least one commercial center. Direct physical corroboration of Strand C's settlement pattern, and the corpus's only substantial non-literary window on residents' own devotional and daily concerns (wall inscriptions, graffiti, paintings; artifacts chiefly pottery). Never connects a specific structure to a specific named figure - that link is Inferential-Thin and no record makes it",
-                      "locus": "1,500+ structures, single cells to multi-room hermitages with attached oratories",
-                      "rights_status": "material evidence; publications copyrighted, consult-only; no text vendored or quotable"
-                    },
-                    {
-                      "source_id": "desert.source.palladius-lausiac-history",
-                      "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
-                      "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
-                      "locus": "cells in lived use across the settlements (e.g. ch. VII, ch. XVIII)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                },
                 {
                   "record_id": "desert.term.cheironaxia",
                   "record_type": "term",
@@ -559,11 +376,32 @@
                       "rights_status": "copyrighted-consult-only"
                     }
                   ]
+                },
+                {
+                  "record_id": "desert.term.kellion",
+                  "record_type": "term",
+                  "label": "kellion",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.kellia-excavations",
+                      "author": "French and Swiss archaeological missions (site rediscovered by Antoine Guillaumont, 1964; excavated 1965-1990)",
+                      "work": "The Kellia excavations - c. 125 km2, over 1,500 identified structures: single cells to multi-room hermitages with attached oratories, chapels, and towers, plus communal-service clusters and at least one commercial center. Direct physical corroboration of Strand C's settlement pattern, and the corpus's only substantial non-literary window on residents' own devotional and daily concerns (wall inscriptions, graffiti, paintings; artifacts chiefly pottery). Never connects a specific structure to a specific named figure - that link is Inferential-Thin and no record makes it",
+                      "locus": "1,500+ structures, single cells to multi-room hermitages with attached oratories",
+                      "rights_status": "material evidence; publications copyrighted, consult-only; no text vendored or quotable"
+                    },
+                    {
+                      "source_id": "desert.source.palladius-lausiac-history",
+                      "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
+                      "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
+                      "locus": "cells in lived use across the settlements (e.g. ch. VII, ch. XVIII)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "sentence": "One story we kept tells of a virgin named Piamon, in Upper Egypt, whose own village was threatened by barbarian raiders.",
+              "sentence": "One of those accounts shows a woman whose own authority in her village was enough that the elders came to her, not to any man, when armed men were riding toward them - they told her plainly they would not dare go out to meet the threat themselves, and they asked her to do it.",
               "record_ids": [
                 "desert.quote.piamon-judge-of-the-earth"
               ],
@@ -585,7 +423,7 @@
               ]
             },
             {
-              "sentence": "The elders of the village came to her and said: we do not dare go out to meet them, but if you want to spare the village and your own house, you go out to meet them.",
+              "sentence": "Instead she went up on the roof and prayed standing the whole night through, asking God to stop the enemy where they were.",
               "record_ids": [
                 "desert.quote.piamon-judge-of-the-earth"
               ],
@@ -607,21 +445,43 @@
               ]
             },
             {
-              "sentence": "She refused to go out - but she climbed to the roof and stood in prayer the whole night without once kneeling, and prayed that God would transfix the enemy where they stood.",
+              "sentence": "Another account, one that reaches us from multiple sources, tells of a virgin in Alexandria so beautiful that people stared, who withdrew from sight for exactly that reason - and who, years later, hid the archbishop Athanasius in her own house when no one else could be trusted to do it without being suspected.",
               "record_ids": [
-                "desert.quote.piamon-judge-of-the-earth"
+                "desert.story.virgin-who-hid-athanasius"
               ],
               "sources": [
                 {
-                  "record_id": "desert.quote.piamon-judge-of-the-earth",
+                  "record_id": "desert.story.virgin-who-hid-athanasius",
+                  "record_type": "story",
+                  "label": "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.palladius-paradise-syriac",
+                      "author": "Palladius of Galatia (c. 363-c. 430); the Syriac recension as 'Anan-Isho' of Beth 'Abhe redacted it, early seventh century; Ernest Alfred Wallis Budge, translator",
+                      "work": "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in sixty-six chapters, preceded by the Syriac Life of Saint Anthony attributed to Athanasius and by Budge's own 1907 Preface and Introduction. Palladius' Book I here carries the chapters this world's Greek-based copy also carries, plus the run from chapter xxxv onward: about fifteen named women with chapters of their own - Piamon, Talida of Antinoe, Taor, Melania the Great and the Younger, Olympias, Candida, Gelasia, Juliana, Magna, Thais, the unnamed virgin who hid Athanasius and others",
+                      "locus": "Book I, ch. xxxv, Of the Virgin of Alexandria who hid Athanasius, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)",
+                      "rights_status": "public-domain, and quotable. 1907 publication date, long out of US copyright"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The author who collected these lives wrote, before he began that section, that it was necessary to remember the women too, because God gave them the same measure of strength as the men, so they would have no cause to be considered weak in the work of this life.",
+              "record_ids": [
+                "desert.quote.equal-measure-of-strength"
+              ],
+              "sources": [
+                {
+                  "record_id": "desert.quote.equal-measure-of-strength",
                   "record_type": "quote",
-                  "label": "the elders of Piamon's village, and Piamon of Upper Egypt, as Palladius reports them",
+                  "label": "Palladius, in the Syriac recension of the Paradise",
                   "sources": [
                     {
                       "source_id": "desert.source.palladius-paradise-syriac",
                       "author": "Palladius of Galatia (c. 363-c. 430); the Syriac recension as 'Anan-Isho' of Beth 'Abhe redacted it, early seventh century; Ernest Alfred Wallis Budge, translator",
                       "work": "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in sixty-six chapters, preceded by the Syriac Life of Saint Anthony attributed to Athanasius and by Budge's own 1907 Preface and Introduction. Palladius' Book I here carries the chapters this world's Greek-based copy also carries, plus the run from chapter xxxv onward: about fifteen named women with chapters of their own - Piamon, Talida of Antinoe, Taor, Melania the Great and the Younger, Olympias, Candida, Gelasia, Juliana, Magna, Thais, the unnamed virgin who hid Athanasius and others",
-                      "locus": "Book I, ch. xxxv, Of Piamon the Virgin, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)",
+                      "locus": "Book I, ch. xxxv, the opening of the section on holy women, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)",
                       "rights_status": "public-domain, and quotable. 1907 publication date, long out of US copyright"
                     }
                   ]
@@ -629,110 +489,158 @@
               ]
             },
             {
-              "sentence": "Another story tells of a virgin in Alexandria, beautiful enough that people stared, who withdrew from sight for exactly that reason - so as not to be the occasion of anyone stumbling.",
+              "sentence": "The daily shape, so far as we can tell: the same manual work we did, done in the cell to live and as discipline.",
               "record_ids": [
-                "desert.story.virgin-who-hid-athanasius"
+                "desert.term.cheironaxia",
+                "desert.gravity.manual-labor"
               ],
               "sources": [
                 {
-                  "record_id": "desert.story.virgin-who-hid-athanasius",
-                  "record_type": "story",
-                  "label": "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect",
+                  "record_id": "desert.term.cheironaxia",
+                  "record_type": "term",
+                  "label": "cheironaxia / ergocheiron",
                   "sources": [
                     {
-                      "source_id": "desert.source.palladius-paradise-syriac",
-                      "author": "Palladius of Galatia (c. 363-c. 430); the Syriac recension as 'Anan-Isho' of Beth 'Abhe redacted it, early seventh century; Ernest Alfred Wallis Budge, translator",
-                      "work": "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in sixty-six chapters, preceded by the Syriac Life of Saint Anthony attributed to Athanasius and by Budge's own 1907 Preface and Introduction. Palladius' Book I here carries the chapters this world's Greek-based copy also carries, plus the run from chapter xxxv onward: about fifteen named women with chapters of their own - Piamon, Talida of Antinoe, Taor, Melania the Great and the Younger, Olympias, Candida, Gelasia, Juliana, Magna, Thais, the unnamed virgin who hid Athanasius and others",
-                      "locus": "Book I, ch. xxxv, Of the Virgin of Alexandria who hid Athanasius, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)",
-                      "rights_status": "public-domain, and quotable. 1907 publication date, long out of US copyright"
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS3 ('He worked, however, with his hands... part he spent on bread and part he gave to the needy', file lines ~31290-31300)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "desert.source.palladius-lausiac-history",
+                      "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
+                      "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
+                      "locus": "ch. VII (Nitria: 'All these men work with their hands at linen-manufacture, so that all are self-supporting', file line 225)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "desert.source.nepheros-archive",
+                      "author": "The monk Nepheros and his correspondents (mid-4th c. CE); modern edition by B. Kramer and J. C. Shelton (Das Archiv des Nepheros, 1987). The related but DISTINCT earlier Melitian dossier - the Paieous correspondence (monastery of Hathor, 330s-340s) - belongs to the London papyri, P.Lond. VI, ed. H. I. Bell (1924), not to the 1987 edition; the two archives together are the Melitian documentary witness Doc_02 SS5.2 describes, and neither edition is in hand, so the archive-to-edition mapping stated here is held at verified-via-authority and must be re-checked against the editions themselves before any figure or quote record leans on either monk by name (Step2 Review Round 1, Finding 5)",
+                      "work": "The Nepheros archive (with the related Paieous correspondence as its earlier companion dossier) - 4th-century papyrological correspondence of a MELITIAN monastic community near Hipponon (Heracleopolite nome): everyday economic and legal letters, the closest thing this world's period offers to unmediated documentary evidence of a functioning monastic community's ordinary life. Two standing cautions travel with every use: (1) the community is Melitian, not Nicene-communion - its representativeness for the mainstream strands rests on the UNVERIFIED working assumption that day-to-day practice did not differ much across that ecclesial line (Doc_01 open item 1, still open); (2) its editors read the community as organizationally 'intermediary' - between full cenobium and hermit-scatter - which does not map cleanly onto any of Doc_01's three strands (a real typology complication, held open at desert.contested.strand-porousness)",
+                      "locus": "ordinary monastic economic correspondence (documentary corroboration; the community whose letters these are was Melitian, not part of the Nicene-communion majority this world otherwise centers - that its ordinary economic life ran like everyone else's is a working assumption, not a settled finding; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, a fit that this world's own three strands do not settle either)",
+                      "rights_status": "ancient papyri public-domain; edition copyrighted, consult-only; no text vendored or quotable"
+                    },
+                    {
+                      "source_id": "desert.source.kellia-excavations",
+                      "author": "French and Swiss archaeological missions (site rediscovered by Antoine Guillaumont, 1964; excavated 1965-1990)",
+                      "work": "The Kellia excavations - c. 125 km2, over 1,500 identified structures: single cells to multi-room hermitages with attached oratories, chapels, and towers, plus communal-service clusters and at least one commercial center. Direct physical corroboration of Strand C's settlement pattern, and the corpus's only substantial non-literary window on residents' own devotional and daily concerns (wall inscriptions, graffiti, paintings; artifacts chiefly pottery). Never connects a specific structure to a specific named figure - that link is Inferential-Thin and no record makes it",
+                      "locus": "commercial infrastructure at the settlements",
+                      "rights_status": "material evidence; publications copyrighted, consult-only; no text vendored or quotable"
+                    },
+                    {
+                      "source_id": "desert.source.goehring-ascetics",
+                      "author": "James E. Goehring",
+                      "work": "Ascetics, Society, and the Desert: Studies in Early Egyptian Monasticism (Trinity Press International, 1999). Documentary/papyrological challenge to the hagiographic 'flight to the desert' narrative: settlements sat on marginal-but-not-remote land with real economic ties to villages (sale of woven goods and other produce of monastic labor). A substantive mainstream position carried in Doc_01 SS3 with an honest verification bound: the prior build confirmed the volume's existence, thesis, and method but never independently verified its specific claims - that bound STILL HOLDS in this build and travels with every citation",
+                      "locus": "the embeddedness thesis - settlements on marginal-but-not-remote land with real village trade ties; cited jointly with Kellia and Nepheros per this world's standing rule, not alone; his specific claims carry an open verification bound (Doc_01 SS11 item 6) that travels with every citation",
+                      "rights_status": "copyrighted-consult-only"
+                    }
+                  ]
+                },
+                {
+                  "record_id": "desert.gravity.manual-labor",
+                  "record_type": "gravity",
+                  "label": "Manual labor as ascetic discipline",
+                  "sources": [
+                    {
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS3 - working with his hands from the start",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "desert.source.palladius-lausiac-history",
+                      "author": "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis",
+                      "work": "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts",
+                      "locus": "ch. VII - Nitria's linen-manufacture, self-support",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "desert.source.nepheros-archive",
+                      "author": "The monk Nepheros and his correspondents (mid-4th c. CE); modern edition by B. Kramer and J. C. Shelton (Das Archiv des Nepheros, 1987). The related but DISTINCT earlier Melitian dossier - the Paieous correspondence (monastery of Hathor, 330s-340s) - belongs to the London papyri, P.Lond. VI, ed. H. I. Bell (1924), not to the 1987 edition; the two archives together are the Melitian documentary witness Doc_02 SS5.2 describes, and neither edition is in hand, so the archive-to-edition mapping stated here is held at verified-via-authority and must be re-checked against the editions themselves before any figure or quote record leans on either monk by name (Step2 Review Round 1, Finding 5)",
+                      "work": "The Nepheros archive (with the related Paieous correspondence as its earlier companion dossier) - 4th-century papyrological correspondence of a MELITIAN monastic community near Hipponon (Heracleopolite nome): everyday economic and legal letters, the closest thing this world's period offers to unmediated documentary evidence of a functioning monastic community's ordinary life. Two standing cautions travel with every use: (1) the community is Melitian, not Nicene-communion - its representativeness for the mainstream strands rests on the UNVERIFIED working assumption that day-to-day practice did not differ much across that ecclesial line (Doc_01 open item 1, still open); (2) its editors read the community as organizationally 'intermediary' - between full cenobium and hermit-scatter - which does not map cleanly onto any of Doc_01's three strands (a real typology complication, held open at desert.contested.strand-porousness)",
+                      "locus": "documentary corroboration, Melitian-caveated; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, no clean fit to this world's three strands",
+                      "rights_status": "ancient papyri public-domain; edition copyrighted, consult-only; no text vendored or quotable"
+                    },
+                    {
+                      "source_id": "desert.source.kellia-excavations",
+                      "author": "French and Swiss archaeological missions (site rediscovered by Antoine Guillaumont, 1964; excavated 1965-1990)",
+                      "work": "The Kellia excavations - c. 125 km2, over 1,500 identified structures: single cells to multi-room hermitages with attached oratories, chapels, and towers, plus communal-service clusters and at least one commercial center. Direct physical corroboration of Strand C's settlement pattern, and the corpus's only substantial non-literary window on residents' own devotional and daily concerns (wall inscriptions, graffiti, paintings; artifacts chiefly pottery). Never connects a specific structure to a specific named figure - that link is Inferential-Thin and no record makes it",
+                      "locus": "at least one commercial center at the settlement",
+                      "rights_status": "material evidence; publications copyrighted, consult-only; no text vendored or quotable"
                     }
                   ]
                 }
               ]
             },
             {
-              "sentence": "When the archbishop Athanasius was fleeing the Arians, he did not go to his kinsmen or his friends or the clergy.",
+              "sentence": "The same selling of goods that tied all of us to the villages around us, men and women alike.",
               "record_ids": [
-                "desert.story.virgin-who-hid-athanasius"
+                "desert.gravity.economic-embeddedness"
               ],
               "sources": [
                 {
-                  "record_id": "desert.story.virgin-who-hid-athanasius",
-                  "record_type": "story",
-                  "label": "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect",
+                  "record_id": "desert.gravity.economic-embeddedness",
+                  "record_type": "gravity",
+                  "label": "Economic and social embeddedness in village life",
                   "sources": [
                     {
-                      "source_id": "desert.source.palladius-paradise-syriac",
-                      "author": "Palladius of Galatia (c. 363-c. 430); the Syriac recension as 'Anan-Isho' of Beth 'Abhe redacted it, early seventh century; Ernest Alfred Wallis Budge, translator",
-                      "work": "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in sixty-six chapters, preceded by the Syriac Life of Saint Anthony attributed to Athanasius and by Budge's own 1907 Preface and Introduction. Palladius' Book I here carries the chapters this world's Greek-based copy also carries, plus the run from chapter xxxv onward: about fifteen named women with chapters of their own - Piamon, Talida of Antinoe, Taor, Melania the Great and the Younger, Olympias, Candida, Gelasia, Juliana, Magna, Thais, the unnamed virgin who hid Athanasius and others",
-                      "locus": "Book I, ch. xxxv, Of the Virgin of Alexandria who hid Athanasius, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)",
-                      "rights_status": "public-domain, and quotable. 1907 publication date, long out of US copyright"
+                      "source_id": "desert.source.goehring-ascetics",
+                      "author": "James E. Goehring",
+                      "work": "Ascetics, Society, and the Desert: Studies in Early Egyptian Monasticism (Trinity Press International, 1999). Documentary/papyrological challenge to the hagiographic 'flight to the desert' narrative: settlements sat on marginal-but-not-remote land with real economic ties to villages (sale of woven goods and other produce of monastic labor). A substantive mainstream position carried in Doc_01 SS3 with an honest verification bound: the prior build confirmed the volume's existence, thesis, and method but never independently verified its specific claims - that bound STILL HOLDS in this build and travels with every citation",
+                      "locus": "the documentary challenge to the 'flight to the desert' narrative",
+                      "rights_status": "copyrighted-consult-only"
+                    },
+                    {
+                      "source_id": "desert.source.kellia-excavations",
+                      "author": "French and Swiss archaeological missions (site rediscovered by Antoine Guillaumont, 1964; excavated 1965-1990)",
+                      "work": "The Kellia excavations - c. 125 km2, over 1,500 identified structures: single cells to multi-room hermitages with attached oratories, chapels, and towers, plus communal-service clusters and at least one commercial center. Direct physical corroboration of Strand C's settlement pattern, and the corpus's only substantial non-literary window on residents' own devotional and daily concerns (wall inscriptions, graffiti, paintings; artifacts chiefly pottery). Never connects a specific structure to a specific named figure - that link is Inferential-Thin and no record makes it",
+                      "locus": "at least one commercial center at the settlement - Documented, verified-via-authority, no representativeness qualification",
+                      "rights_status": "material evidence; publications copyrighted, consult-only; no text vendored or quotable"
+                    },
+                    {
+                      "source_id": "desert.source.nepheros-archive",
+                      "author": "The monk Nepheros and his correspondents (mid-4th c. CE); modern edition by B. Kramer and J. C. Shelton (Das Archiv des Nepheros, 1987). The related but DISTINCT earlier Melitian dossier - the Paieous correspondence (monastery of Hathor, 330s-340s) - belongs to the London papyri, P.Lond. VI, ed. H. I. Bell (1924), not to the 1987 edition; the two archives together are the Melitian documentary witness Doc_02 SS5.2 describes, and neither edition is in hand, so the archive-to-edition mapping stated here is held at verified-via-authority and must be re-checked against the editions themselves before any figure or quote record leans on either monk by name (Step2 Review Round 1, Finding 5)",
+                      "work": "The Nepheros archive (with the related Paieous correspondence as its earlier companion dossier) - 4th-century papyrological correspondence of a MELITIAN monastic community near Hipponon (Heracleopolite nome): everyday economic and legal letters, the closest thing this world's period offers to unmediated documentary evidence of a functioning monastic community's ordinary life. Two standing cautions travel with every use: (1) the community is Melitian, not Nicene-communion - its representativeness for the mainstream strands rests on the UNVERIFIED working assumption that day-to-day practice did not differ much across that ecclesial line (Doc_01 open item 1, still open); (2) its editors read the community as organizationally 'intermediary' - between full cenobium and hermit-scatter - which does not map cleanly onto any of Doc_01's three strands (a real typology complication, held open at desert.contested.strand-porousness)",
+                      "locus": "documentary corroboration; Documented as to existence, Melitian association, and general character, verified-via-authority; representativeness for the mainstream strands an unverified working assumption; its editors also read it as organizationally intermediary, between full cenobium and hermit-scatter, no clean fit to this world's three strands",
+                      "rights_status": "ancient papyri public-domain; edition copyrighted, consult-only; no text vendored or quotable"
                     }
                   ]
                 }
               ]
             },
             {
-              "sentence": "He went to her house at midnight.",
+              "sentence": "The same Scriptures, the same small number of verses taken up as counsel.",
               "record_ids": [
-                "desert.story.virgin-who-hid-athanasius"
+                "desert.dw.writings"
               ],
               "sources": [
                 {
-                  "record_id": "desert.story.virgin-who-hid-athanasius",
-                  "record_type": "story",
-                  "label": "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect",
+                  "record_id": "desert.dw.writings",
+                  "record_type": "doctrinal_witness",
+                  "label": "We had the same Scriptures the wider church had - nothing more, nothing of our own alongs…",
                   "sources": [
                     {
-                      "source_id": "desert.source.palladius-paradise-syriac",
-                      "author": "Palladius of Galatia (c. 363-c. 430); the Syriac recension as 'Anan-Isho' of Beth 'Abhe redacted it, early seventh century; Ernest Alfred Wallis Budge, translator",
-                      "work": "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in sixty-six chapters, preceded by the Syriac Life of Saint Anthony attributed to Athanasius and by Budge's own 1907 Preface and Introduction. Palladius' Book I here carries the chapters this world's Greek-based copy also carries, plus the run from chapter xxxv onward: about fifteen named women with chapters of their own - Piamon, Talida of Antinoe, Taor, Melania the Great and the Younger, Olympias, Candida, Gelasia, Juliana, Magna, Thais, the unnamed virgin who hid Athanasius and others",
-                      "locus": "Book I, ch. xxxv, Of the Virgin of Alexandria who hid Athanasius, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)",
-                      "rights_status": "public-domain, and quotable. 1907 publication date, long out of US copyright"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "She hid him, washed his feet, saw to what he needed, borrowed books and brought them to him, and the account says no one in Alexandria knew where he was for the whole of that time.",
-              "record_ids": [
-                "desert.story.virgin-who-hid-athanasius"
-              ],
-              "sources": [
-                {
-                  "record_id": "desert.story.virgin-who-hid-athanasius",
-                  "record_type": "story",
-                  "label": "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect",
-                  "sources": [
+                      "source_id": "desert.source.apophthegmata-patrum",
+                      "author": "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c.",
+                      "work": "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work, and whether strand-porousness is lived reality or editorial artifact is this build's open question, desert.contested.strand-porousness)",
+                      "locus": "the collection's own habitual, unglossed use of scripture as immediate counsel",
+                      "rights_status": "ancient work public-domain; Budge 1907 English now vendored, public domain by date; modern translations copyrighted, consult-only"
+                    },
                     {
-                      "source_id": "desert.source.palladius-paradise-syriac",
-                      "author": "Palladius of Galatia (c. 363-c. 430); the Syriac recension as 'Anan-Isho' of Beth 'Abhe redacted it, early seventh century; Ernest Alfred Wallis Budge, translator",
-                      "work": "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in sixty-six chapters, preceded by the Syriac Life of Saint Anthony attributed to Athanasius and by Budge's own 1907 Preface and Introduction. Palladius' Book I here carries the chapters this world's Greek-based copy also carries, plus the run from chapter xxxv onward: about fifteen named women with chapters of their own - Piamon, Talida of Antinoe, Taor, Melania the Great and the Younger, Olympias, Candida, Gelasia, Juliana, Magna, Thais, the unnamed virgin who hid Athanasius and others",
-                      "locus": "Book I, ch. xxxv, Of the Virgin of Alexandria who hid Athanasius, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)",
-                      "rights_status": "public-domain, and quotable. 1907 publication date, long out of US copyright"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "When it was over he appeared in the church and explained himself: he had gone to the one person no one could suspect him of going to, and he said he had gained two things by it, his own life and hers.",
-              "record_ids": [
-                "desert.story.virgin-who-hid-athanasius"
-              ],
-              "sources": [
-                {
-                  "record_id": "desert.story.virgin-who-hid-athanasius",
-                  "record_type": "story",
-                  "label": "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect",
-                  "sources": [
+                      "source_id": "desert.source.athanasius-vita-antonii",
+                      "author": "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant",
+                      "work": "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)",
+                      "locus": "SS2-3 - scripture heard and acted on directly, the pattern this witness generalizes from",
+                      "rights_status": "public-domain"
+                    },
                     {
-                      "source_id": "desert.source.palladius-paradise-syriac",
-                      "author": "Palladius of Galatia (c. 363-c. 430); the Syriac recension as 'Anan-Isho' of Beth 'Abhe redacted it, early seventh century; Ernest Alfred Wallis Budge, translator",
-                      "work": "The Paradise, Volume I - the Book of Paradise of Palladius, Book I, in sixty-six chapters, preceded by the Syriac Life of Saint Anthony attributed to Athanasius and by Budge's own 1907 Preface and Introduction. Palladius' Book I here carries the chapters this world's Greek-based copy also carries, plus the run from chapter xxxv onward: about fifteen named women with chapters of their own - Piamon, Talida of Antinoe, Taor, Melania the Great and the Younger, Olympias, Candida, Gelasia, Juliana, Magna, Thais, the unnamed virgin who hid Athanasius and others",
-                      "locus": "Book I, ch. xxxv, Of the Virgin of Alexandria who hid Athanasius, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)",
-                      "rights_status": "public-domain, and quotable. 1907 publication date, long out of US copyright"
+                      "source_id": "desert.source.evagrius-praktikos",
+                      "author": "Evagrius Ponticus (c. 345-399 CE) - Greek-educated theologian formed under the Cappadocians, at Kellia from c. 385 to his death; this world's most systematic participant-author and its most atypical by education",
+                      "work": "Praktikos; Chapters on Prayer (De oratione); Antirrhetikos - the most systematic surviving interior psychology of the ascetic life produced inside this world (Strand C, Kellia): the eight logismoi, apatheia, the practice of talking back to thoughts with Scripture. Transmission is this world's starkest survival story: after the 553 condemnation (well outside this world's own window), the speculative works survive chiefly in Syriac and Armenian; in Greek, Chapters on Prayer transmits mostly under the name of Nilus of Ancyra, while the Praktikos generally transmits under Evagrius's own name",
+                      "locus": "the Antirrhetikos - scripture collected and deployed against tempting thoughts, consult-only",
+                      "rights_status": "ancient works public-domain in their surviving versions; no English edition vendorable (modern translations copyrighted, consult-only); vendored excerpt witness via npnf202 only"
                     }
                   ]
                 }
@@ -754,7 +662,78 @@
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "And we will tell you honestly what we kept and what we did not.",
+                "sentence": "Women lived this life - in their own cells, under their own discipline, doing the same work we did.",
+                "tags": [
+                  "desert.term.cheironaxia",
+                  "desert.term.kellion"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We should say plainly: the women's own lives come to us mostly through a man's narration, not through their own first-person accounts the way some of the men's sayings do.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "That is a real limit on what we can tell you.",
+                "tags": [
+                  "desert.gravity.manual-labor"
+                ],
+                "verdict": "withhold",
+                "why": "tagged claim sharing no content word with its own tagged records"
+              },
+              {
+                "sentence": "What we do have: about fifteen women's lives, told at length, several with their own speech reported inside the telling - Piamon of Upper Egypt, Talida and Taor of Antinoe, Melania the Great and the Younger, and others.",
+                "tags": [
+                  "desert.gravity.withdrawal"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['antinoe', 'egypt', 'great', 'melania', 'piamon', 'talida', 'taor', 'upper', 'younger'], number) only 10% grounded in its own tags; inside a named thin topic: ['women'] (Named women and their sayings survive, and so do about fifteen narrated lives of named women in the Syriac recension of Palladius - Piamon, Talida of Antinoe, Taor, Melania the Great and the Younger, Olympias, Juliana, Gelasia, Magna, Thais and others - several with their speech reported inside the narration. What does not survive is a woman speaking at length in her own person; no first-person account by a woman is in this material. The men of that same book are narrated in the third person too, so the asymmetry is not narration against sayings: it is that the women arrive at the thirty-fifth chapter, after thirty-four chapters of men, in a section their author has to announce and justify before he writes it.)",
+                "ratio": 0.1
+              },
+              {
+                "sentence": "One of those accounts shows a woman whose own authority in her village was enough that the elders came to her, not to any man, when armed men were riding toward them - they told her plainly they would not dare go out to meet the threat themselves, and they asked her to do it.",
+                "tags": [
+                  "desert.quote.piamon-judge-of-the-earth"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "She refused to go out.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Instead she went up on the roof and prayed standing the whole night through, asking God to stop the enemy where they were.",
+                "tags": [
+                  "desert.quote.piamon-judge-of-the-earth"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Another account, one that reaches us from multiple sources, tells of a virgin in Alexandria so beautiful that people stared, who withdrew from sight for exactly that reason - and who, years later, hid the archbishop Athanasius in her own house when no one else could be trusted to do it without being suspected.",
+                "tags": [
+                  "desert.story.virgin-who-hid-athanasius"
+                ],
+                "verdict": "ok",
+                "why": "grounded 64% in own tagged records",
+                "ratio": 0.64
+              },
+              {
+                "sentence": "The author who collected these lives wrote, before he began that section, that it was necessary to remember the women too, because God gave them the same measure of strength as the men, so they would have no cause to be considered weak in the work of this life.",
+                "tags": [
+                  "desert.quote.equal-measure-of-strength"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "He had to say that - which tells you it was not assumed.",
                 "tags": [
                   "desert.quote.equal-measure-of-strength"
                 ],
@@ -762,151 +741,54 @@
                 "why": "tagged claim sharing no content word with its own tagged records"
               },
               {
-                "sentence": "Women lived this life alongside men - we have their names, we have stories about them, and we have at least one teaching that names them directly: \"...it is necessary for us to remember also the chosen and mighty women unto whom God also gave an equal measure of strength of will as unto men, so that they might have no cause for being feeble in the performance of the labour of ascetic excellence\".",
+                "sentence": "The daily shape, so far as we can tell: the same manual work we did, done in the cell to live and as discipline.",
                 "tags": [
-                  "desert.quote.equal-measure-of-strength"
-                ],
-                "verdict": "ok",
-                "why": "quoted span(s) verbatim in tagged record(s)"
-              },
-              {
-                "sentence": "That is not a polite acknowledgment.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "That is a claim that God gave women the same strength of will for this work that he gave men, spoken in so many words.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "The same basic shape held for them that held for us - withdrawal from settled life, the cell, manual work, prayer.",
-                "tags": [
-                  "desert.gravity.withdrawal",
-                  "desert.term.kellion",
-                  "desert.term.cheironaxia"
+                  "desert.term.cheironaxia",
+                  "desert.gravity.manual-labor"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "One story we kept tells of a virgin named Piamon, in Upper Egypt, whose own village was threatened by barbarian raiders.",
+                "sentence": "The same selling of goods that tied all of us to the villages around us, men and women alike.",
                 "tags": [
-                  "desert.quote.piamon-judge-of-the-earth"
-                ],
-                "verdict": "ok",
-                "why": "grounded 46% in own tagged records",
-                "ratio": 0.46
-              },
-              {
-                "sentence": "The elders of the village came to her and said: we do not dare go out to meet them, but if you want to spare the village and your own house, you go out to meet them.",
-                "tags": [
-                  "desert.quote.piamon-judge-of-the-earth"
+                  "desert.gravity.economic-embeddedness"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "She refused to go out - but she climbed to the roof and stood in prayer the whole night without once kneeling, and prayed that God would transfix the enemy where they stood.",
+                "sentence": "The same Scriptures, the same small number of verses taken up as counsel.",
                 "tags": [
-                  "desert.quote.piamon-judge-of-the-earth"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "The village elders came to her as though she carried authority they themselves did not have, and she answered with the discipline she had trained in - prayer held through the night, standing.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Another story tells of a virgin in Alexandria, beautiful enough that people stared, who withdrew from sight for exactly that reason - so as not to be the occasion of anyone stumbling.",
-                "tags": [
-                  "desert.story.virgin-who-hid-athanasius"
-                ],
-                "verdict": "ok",
-                "why": "grounded 75% in own tagged records",
-                "ratio": 0.75
-              },
-              {
-                "sentence": "When the archbishop Athanasius was fleeing the Arians, he did not go to his kinsmen or his friends or the clergy.",
-                "tags": [
-                  "desert.story.virgin-who-hid-athanasius"
-                ],
-                "verdict": "ok",
-                "why": "grounded 86% in own tagged records",
-                "ratio": 0.86
-              },
-              {
-                "sentence": "He went to her house at midnight.",
-                "tags": [
-                  "desert.story.virgin-who-hid-athanasius"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "She hid him, washed his feet, saw to what he needed, borrowed books and brought them to him, and the account says no one in Alexandria knew where he was for the whole of that time.",
-                "tags": [
-                  "desert.story.virgin-who-hid-athanasius"
+                  "desert.dw.writings"
                 ],
                 "verdict": "ok",
                 "why": "grounded 100% in own tagged records",
                 "ratio": 1.0
               },
               {
-                "sentence": "When it was over he appeared in the church and explained himself: he had gone to the one person no one could suspect him of going to, and he said he had gained two things by it, his own life and hers.",
-                "tags": [
-                  "desert.story.virgin-who-hid-athanasius"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "We need to be honest with you about what we do not have, though.",
+                "sentence": "We cannot tell you specific liturgical details - what prayers beyond the Psalter, what exact shape the weekly gathering took for them - because that ground is thin for all of us, men and women both.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "exempt: honesty scaffolding / sanctioned self-naming"
               },
               {
-                "sentence": "We have women's names, we have stories about them - some fifteen narrated lives in one collection, told the same way our men's lives were told, by the same author, at the same length - and we have their speech reported inside those stories.",
+                "sentence": "What we can tell you is that the women's settlements were real, working communities, not footnotes.",
                 "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (number, enumeration) with no citation tag"
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "What we do not have is a woman speaking at length in her own person the way some of our men's sayings come down to us.",
+                "sentence": "The clearest limit we owe you: no woman's own first-person account survives in our material the way some men's sayings do.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The asymmetry is real, and we will not smooth it over by pretending we have more than we do.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              },
-              {
-                "sentence": "The men in that same collection are also narrated in the third person, so the difference is not narration against sayings.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "The difference is that the women arrive at the thirty-fifth chapter, after thirty-four chapters of men, in a section their author felt he had to announce and justify before he wrote it.",
-                "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (number) with no citation tag"
-              },
-              {
-                "sentence": "That is the truth of what survives.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "We are not going to smooth it over.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
               }
             ],
             "substantive_survives": true

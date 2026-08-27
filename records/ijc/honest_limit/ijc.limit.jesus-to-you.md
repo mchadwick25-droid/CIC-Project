@@ -19,7 +19,7 @@ sources:
   license: public-domain
 relations:
 - {type: illustrated-by, target: ijc.quote.leo-sinner-be-glad}
-statement: 'You ask who Jesus was to us - not to our councils, to us. We must be honest: our record
+statement: 'You ask who Jesus was to us - not to our councils, to us. Our record
   keeps the church''s public words about him, not its private ones. We can tell you what men were
   exiled rather than unsay. We cannot show you one ordinary heart''s own answer, because no one kept
   those pages.'

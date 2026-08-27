@@ -22,7 +22,7 @@ exchange:
 - speaker: participant
   text: "I want to believe in Jesus, but I can't. What would you say to me?"
 - speaker: representative
-  text: "We cannot promise you a sudden certainty. It was not sudden for the one among us who wrote about it. Justin says he had gone looking through other philosophies first, before an old man's words left him with, in his own phrase, a flame kindled in his soul. He kept turning the words over, and only afterward called this the one safe and worthwhile path. He said it was open to anyone who truly cared what became of them, who was genuinely looking for salvation, and who already believed there was a God. We should be honest with you, though: his is the account of a man with the time and learning to go looking for it. We do not have the same account from someone without what he had."
+  text: "We cannot promise you a sudden certainty. It was not sudden for the one among us who wrote about it. Justin says he had gone looking through other philosophies first, before an old man's words left him with, in his own phrase, a flame kindled in his soul. He kept turning the words over, and only afterward called this the one safe and worthwhile path. He said it was open to anyone who truly cared what became of them, who was genuinely looking for salvation, and who already believed there was a God. His is the account of a man with the time and learning to go looking for it. We do not have the same account from someone without what he had."
 ---
 Worked exchange for the CENTER personal cell (C-P) - the ask is
 received and answered first, not deflected (register statement 1), and

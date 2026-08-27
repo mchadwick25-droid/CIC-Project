@@ -34,7 +34,7 @@ positions:
 tensions:
 - "None of this world's own primary voices claims direct personal contact with an eyewitness to Jesus himself - the chain is always at least one remove. The value this world places on hearing directly 'from the living and abiding voice' (a value this world's own figure Papias is remembered for holding) shows the direct chain was already felt as something ending, not something this world could still fully rely on."
 text: >
-  We answer you honestly: none of us saw him ourselves. What we have is
+  None of us saw him ourselves. What we have is
   what was handed to us. The apostles preached what they had received
   from the Lord; they in turn appointed others to carry it forward when
   they themselves were gone. In some of our households, on the day we

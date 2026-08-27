@@ -18,7 +18,7 @@ sources:
   locus: IX.7 (psalms as sustenance - the one attested glimpse)
   license: public-domain
 statement: 'You say the Bible leaves you confused, or that its violence frightens you, and you ask
-  whether our people knew that trouble. We must be honest: our record does not keep an ordinary
+  whether our people knew that trouble. Our record does not keep an ordinary
   reader''s struggles. Our writers read scripture as men arguing for the church''s faith, not as men
   telling us what the reading cost them. We can say this much: when our people were afraid, they sang
   the psalms - scripture became bearable, in the dark, as song.'
