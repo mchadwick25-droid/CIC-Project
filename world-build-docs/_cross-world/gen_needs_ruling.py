@@ -65,20 +65,9 @@ SWEEPS = {
         "`apocryphal-and-pseudepigraphal-literature`, and `palestinian-church-pre-constantinian`. "
         "What is left is the one work whose problem was never the shelf: the *Passion of St. "
         "Symphorosa*, a Roman martyr act travelling under Julius Africanus' name on thin grounds. "
-        "No new entry touches that, because the doubt is about the attribution.",
+        "No new entry touches that, and none ever will, because the doubt is about the "
+        "attribution and not about the shelf.",
 
-    "latin-pastoral-congregational-christianity":
-        "**Where does Lactantius live? — the one gap the five new entries did not close.** Four "
-        "of the five works that made this a pile on 2026-08-26 have gone: Minucius Felix's "
-        "*Octavius* and Commodian's verse to `latin-apologists`, both works of Victorinus of "
-        "Pettau to `danubian-latin-christianity`. What is left is the work that was never a "
-        "regional question. The *Divine Institutes* was written c. 303-311 during the Great "
-        "Persecution by a North-African-trained rhetor teaching at Nicomedia who afterwards "
-        "tutored Constantine's son, and it is flagged on **two** entries because it genuinely "
-        "faces both ways. `latin-apologists` is now a third and probably better candidate — "
-        "Jerome makes Lactantius the pupil of Arnobius, who is in that entry — but Mark held this "
-        "one back when he ruled the five regional gaps, so it is left as he left it rather than "
-        "absorbed as a side effect of them.",
 }
 
 
@@ -269,6 +258,28 @@ def main() -> None:
         "later. The hole is large where the evidence is small: this is the see that produced "
         "Lucian, whose pupils became the Arian party. Paul's own teaching stays an unregistered "
         "floor question, and the entry's `floorNote` says so rather than deciding it.\n")
+    out.append(
+        "\n**And the ruling the five entries made possible, 2026-08-27.** Lactantius had been "
+        "flagged on **two** entries at once — `imperial-juridical-christianity` and "
+        "`latin-pastoral-congregational-christianity` — because he genuinely faces both ways: a "
+        "rhetor teaching at Diocletian's capital who wrote the fullest Latin defence of the faith "
+        "during the persecution, and then tutored the son of the emperor who ended it. He was "
+        "deliberately held back when the five entries were minted, so that a ruling he was owed "
+        "would not arrive as a side effect of one about somewhere else. Mark ruled him into "
+        "`latin-apologists`, where Jerome's line making him Arnobius' pupil puts him.\n\n"
+        "**The ruling splits the author, and that is what *per work* means.** Four works move — "
+        "the *Divine Institutes* and its three companions, about three hundred thousand words, "
+        "quadrupling the new entry's corpus. *Of the Manner in Which the Persecutors Died* does "
+        "not. It was written c. 314–15 from inside the Constantinian settlement rather than "
+        "against the persecution, it prints the Milan agreement and the dream before the Milvian "
+        "Bridge, and — the part that settles it — **it is load-bearing for a built world**: "
+        "`ijc.source.lactantius-de-mortibus` is cited by `ijc.figure.constantine` and "
+        "`ijc.gravity.church-state-alliance`, and `ijc.search.f6-e-negative-sweep` records that it "
+        "is that world's only licensed source reaching back before 312. Following the author would "
+        "have stripped a live world of a source it depends on, which is precisely what the "
+        "non-exclusivity rule exists to prevent. The three companion treatises moved without a "
+        "fresh judgement, because the worker had already declared the dependency: their notes read "
+        "*pending the ruling flagged on The Divine Institutes*.\n")
     out.append("\n## The sweeps — in order of how much each clears\n")
     out.append("| ruling | clears | the question |")
     out.append("|---|---:|---|")

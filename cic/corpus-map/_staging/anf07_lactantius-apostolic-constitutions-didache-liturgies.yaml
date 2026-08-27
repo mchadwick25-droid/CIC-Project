@@ -53,16 +53,20 @@ assignments:
   author: lactantius
   locus: div2 3.2 — The Divine Institutes
   atlas_ids:
-  - imperial-juridical-christianity
-  - latin-pastoral-congregational-christianity
+  - latin-apologists
   role: tradition
-  confidence: needs-ruling
-  note: 'Written c. 303-311 during the Great Persecution by a North-African-trained Latin rhetor teaching
-    at Nicomedia, later tutor at Constantine''s court. Straddles Era-1 Latin apologetics and Era-2 Constantinian
-    Christianity. STILL `needs-ruling` 2026-08-27, but the question has changed shape: latin-apologists
-    (I.43) now exists and is a third and better candidate than either of the two rows below - Jerome makes
-    Lactantius Arnobius'' pupil, and Arnobius is now in that entry. Mark held this one back when he ruled
-    the five regional gaps, so it is left as he left it rather than absorbed by a side effect.
+  confidence: assigned
+  note: 'RULED BY MARK 2026-08-27: Lactantius lives in `latin-apologists` (I.43). The straddle in the
+    old note was real - written c. 303-311 under the Great Persecution by a rhetor teaching at Nicomedia,
+    who afterwards tutored Constantine''s son at Trier - and the entry that resolves it did not exist
+    when the work was flagged. Jerome makes him Arnobius'' pupil at Sicca, and Arnobius is in this entry;
+    the Institutes are the fullest Latin defence anyone wrote, and most of the work predates 312.
+
+
+    THE RULING SPLITS THE AUTHOR, WHICH IS WHAT `per work` MEANS. Lactantius'' apologetic corpus moves;
+    *Of the Manner in Which the Persecutors Died* does NOT. That is the Athanasius case the schema names
+    - the Vita Antonii is desert''s and Against the Arians is Alexandria''s, one author, two entries,
+    split by work.
 
 
     '
@@ -70,23 +74,31 @@ assignments:
   author: lactantius
   locus: div2 3.3
   atlas_ids:
-  - imperial-juridical-christianity
+  - latin-apologists
   role: tradition
-  confidence: provisional
-  note: 'Philosophical-theological treatise against Epicurean/Stoic views of deity. Placed
-    with the rest of Lactantius pending the ruling flagged on The Divine Institutes; same
-    era-straddle doubt.
+  confidence: assigned
+  note: 'Philosophical-theological treatise against Epicurean and Stoic accounts of deity. Moved with
+    the *Divine Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT a fresh judgement: the
+    worker''s own note placed it on imperial-juridical ''pending the ruling flagged on The Divine Institutes'',
+    so the dependency was declared at the time and this is it resolving. Confidence rises from `provisional`
+    to `assigned` because the doubt recorded was the era-straddle, and that is now settled.
+
 
     '
 - work: On the Workmanship of God
   author: lactantius
   locus: div2 3.4
   atlas_ids:
-  - imperial-juridical-christianity
+  - latin-apologists
   role: tradition
-  confidence: provisional
-  note: 'Treatise on providence and the human frame, c. 303-304. Same placement doubt as the
-    other Lactantius works.
+  confidence: assigned
+  note: 'On the design of the human body, against Epicurean chance - Lactantius'' natural-theology piece.
+    Moved with the *Divine Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT a fresh judgement:
+    the worker''s own note placed it on imperial-juridical ''pending the ruling flagged on The Divine
+    Institutes'', so the dependency was declared at the time and this is it resolving. Confidence rises
+    from `provisional` to `assigned` because the doubt recorded was the era-straddle, and that is now
+    settled.
+
 
     '
 - work: Of the Manner in Which the Persecutors Died
@@ -96,19 +108,30 @@ assignments:
   - imperial-juridical-christianity
   role: tradition
   confidence: assigned
-  note: 'De Mortibus Persecutorum, c. 313-315: the founding narrative of the Constantinian
-    turn, ending in Milan-edict text. The clearest ijc fit in the Lactantius corpus.
+  note: 'STAYS ON imperial-juridical-christianity, and is the one Lactantius work the 2026-08-27 ruling
+    does not move. Written c. 314-15 AFTER the Edict of Milan, from inside the Constantinian settlement
+    rather than against the persecution: it prints the text of the Milan agreement (ch. 48) and the dream
+    before the Milvian Bridge (ch. 44). It is not apologetic, and it is LOAD-BEARING FOR A BUILT WORLD
+    - `ijc.source.lactantius-de-mortibus` is cited by `ijc.figure.constantine` and `ijc.gravity.church-state-alliance`,
+    and `ijc.search.f6-e-negative-sweep` records that it is that world''s only licensed source reaching
+    back before 312. Moving it to follow its author would have stripped a live world of a source it depends
+    on, which is exactly what the non-exclusivity rule exists to prevent.
+
 
     '
 - work: Fragments of Lactantius
   author: lactantius
   locus: div2 3.6
   atlas_ids:
-  - imperial-juridical-christianity
+  - latin-apologists
   role: tradition
-  confidence: provisional
-  note: 'Miscellaneous fragments and attributed verse (incl. the Phoenix). Kept with the author''s
-    other works; same placement doubt.
+  confidence: assigned
+  note: 'The surviving fragments, carried with the corpus they belong to. Moved with the *Divine Institutes*
+    on Mark''s ruling of 2026-08-27, and moved WITHOUT a fresh judgement: the worker''s own note placed
+    it on imperial-juridical ''pending the ruling flagged on The Divine Institutes'', so the dependency
+    was declared at the time and this is it resolving. Confidence rises from `provisional` to `assigned`
+    because the doubt recorded was the era-straddle, and that is now settled.
+
 
     '
 - work: On Easter (De Pascha)

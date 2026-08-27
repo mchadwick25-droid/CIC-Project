@@ -30,7 +30,7 @@ join on every fleet run, so if the buckets ever stop lining up it shows there.
 
 | role | means | count |
 |---|---|---:|
-| `tradition` | the entry's own voice — a work of that community | 581 |
+| `tradition` | the entry's own voice — a work of that community | 580 |
 | `context` | the view from outside: a pagan critic, a civil historian, or a **contemporary opponent**. Augustine on the Manichaeans, Cyprian on the Novatian schism he lived through | 124 |
 | `antecedent` | the authority the entry argued *from*, written before it existed. Cyprian and Donatism | 4 |
 | `transmission` | **custody, not voice** — this tradition preserved and passed on a work that is not its own. Syriac scribes and a Greek apology; Christian scribes and the Jewish pseudepigrapha | 10 |

@@ -26,7 +26,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `antiochene-church-third-century` | The Church of Antioch in the Third Century | c. 190-312 | Antioch on the Orontes, and its Syrian hinterland | Possible Future World (on record) |
 | `modalist-monarchianism` | Modalist Monarchianism | c. 190-270 | Smyrna, Rome, Libya | Floor Question (register) ⛔ |
 | `tertullian-s-voice` | Tertullian's Voice | c. 197-220 | Carthage | Possible Future World (on record) |
-| `latin-apologists` | The Latin Apologists | c. 200-320 | Rome and Ostia; Sicca and Cirta in Numidia | Possible Future World (on record) |
+| `latin-apologists` | The Latin Apologists | c. 200-320 | Rome and Ostia; Sicca in Numidia; Nicomedia and Trie | Possible Future World (on record) |
 | `roman-church-third-century` | The Roman Church in the Third Century | c. 200-268 | Rome | Possible Future World (on record) |
 | `syriac-edessa-nisibis` | Syriac Christianity (Edessa/Nisibis) | 200–410 CE | Edessa & Nisibis | Built & Live |
 | `manichaeism` | Manichaeism | 3rd-7th c. | Persia to the Mediterranean | Excluded - Doctrinal Floor (C1) ⛔ |

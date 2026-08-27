@@ -13,7 +13,7 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
-## 2026-08-27 (Pass 6) — census 274→292, added by the CORPUS rather than by a Step 0 gate; the pile bar, and Mark's override of it
+## 2026-08-27 (Pass 6) — census 274→292, added by the CORPUS rather than by a Step 0 gate; the pile bar, Mark's override of it, and the Lactantius split
 
 **This entry exists because eighteen movements entered the census without one
 of these entries being written, which is exactly the failure this log is for.**
@@ -63,19 +63,33 @@ So: `latin-apologists` (I.43), `roman-church-gregorian` (II.18),
 `why` field — I.42 holds **one work, three thousand words**, and says so.
 
 **What the override did NOT do.** It did not settle anything a worker had
-refused to settle. Lactantius was held back deliberately and is still flagged;
-the two attribution questions (the *Passion of St. Symphorosa* under Julius
+refused to settle. Lactantius was held back deliberately, so that a ruling he
+was owed would not arrive as a side effect of one about somewhere else; Mark
+ruled him separately the same day, into `latin-apologists`. **That ruling splits
+the author, which is what *per work* means.** The *Divine Institutes* and its
+three companions move — about three hundred thousand words, quadrupling the new
+entry's corpus. *Of the Manner in Which the Persecutors Died* does not: written
+c. 314–15 from inside the Constantinian settlement, it is **load-bearing for a
+built world** (`ijc.source.lactantius-de-mortibus`, cited by
+`ijc.figure.constantine` and `ijc.gravity.church-state-alliance`, and recorded
+in `ijc.search.f6-e-negative-sweep` as that world's only licensed source
+reaching back before 312). Following the author would have stripped a live world
+of a source it depends on, which is what the non-exclusivity rule exists to
+prevent.
+
+The two attribution questions (the *Passion of St. Symphorosa* under Julius
 Africanus' name, the Maximus of Jerusalem fragment) are untouched by any new
 entry, because a new shelf does not answer a doubt about who wrote something.
-Flagged works fleet-wide: **87 → 3**.
+Flagged works fleet-wide: **87 → 2**.
 
 **Verification:** census validator clean at 292 movements / 69 edges / 10 eras;
-`cic/engine/corpus_map.py` valid at 719 assignments across 56 entries; 14/14
+`cic/engine/corpus_map.py` valid at 718 assignments across 56 entries; 14/14
 corpus-map tests; `engine.m1.cross_world` 0 new defects.
 
-**Next action:** three flagged works remain and all three are Mark's — where
-Lactantius lives, and the two attributions. Nothing is blocked on them; the map
-is valid and usable as it stands.
+**Next action:** two flagged works remain and both are Mark's, and both are
+**attribution** questions rather than shelving ones — no further entry can
+answer either. Nothing is blocked on them; the map is valid and usable as it
+stands.
 
 ---
 

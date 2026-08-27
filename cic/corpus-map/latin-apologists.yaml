@@ -50,3 +50,69 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- work: A Treatise on the Anger of God
+  author: lactantius
+  locus: div2 3.3
+  role: tradition
+  confidence: assigned
+  note: 'Philosophical-theological treatise against Epicurean and Stoic accounts of deity.
+    Moved with the *Divine Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT
+    a fresh judgement: the worker''s own note placed it on imperial-juridical ''pending the
+    ruling flagged on The Divine Institutes'', so the dependency was declared at the time
+    and this is it resolving. Confidence rises from `provisional` to `assigned` because the
+    doubt recorded was the era-straddle, and that is now settled.
+
+
+    '
+  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- work: Fragments of Lactantius
+  author: lactantius
+  locus: div2 3.6
+  role: tradition
+  confidence: assigned
+  note: 'The surviving fragments, carried with the corpus they belong to. Moved with the *Divine
+    Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT a fresh judgement: the
+    worker''s own note placed it on imperial-juridical ''pending the ruling flagged on The
+    Divine Institutes'', so the dependency was declared at the time and this is it resolving.
+    Confidence rises from `provisional` to `assigned` because the doubt recorded was the era-straddle,
+    and that is now settled.
+
+
+    '
+  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- work: On the Workmanship of God
+  author: lactantius
+  locus: div2 3.4
+  role: tradition
+  confidence: assigned
+  note: 'On the design of the human body, against Epicurean chance - Lactantius'' natural-theology
+    piece. Moved with the *Divine Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT
+    a fresh judgement: the worker''s own note placed it on imperial-juridical ''pending the
+    ruling flagged on The Divine Institutes'', so the dependency was declared at the time
+    and this is it resolving. Confidence rises from `provisional` to `assigned` because the
+    doubt recorded was the era-straddle, and that is now settled.
+
+
+    '
+  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- work: The Divine Institutes
+  author: lactantius
+  locus: div2 3.2 — The Divine Institutes
+  role: tradition
+  confidence: assigned
+  note: 'RULED BY MARK 2026-08-27: Lactantius lives in `latin-apologists` (I.43). The straddle
+    in the old note was real - written c. 303-311 under the Great Persecution by a rhetor
+    teaching at Nicomedia, who afterwards tutored Constantine''s son at Trier - and the entry
+    that resolves it did not exist when the work was flagged. Jerome makes him Arnobius''
+    pupil at Sicca, and Arnobius is in this entry; the Institutes are the fullest Latin defence
+    anyone wrote, and most of the work predates 312.
+
+
+    THE RULING SPLITS THE AUTHOR, WHICH IS WHAT `per work` MEANS. Lactantius'' apologetic
+    corpus moves; *Of the Manner in Which the Persecutors Died* does NOT. That is the Athanasius
+    case the schema names - the Vita Antonii is desert''s and Against the Arians is Alexandria''s,
+    one author, two entries, split by work.
+
+
+    '
+  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml

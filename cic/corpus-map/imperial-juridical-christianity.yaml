@@ -383,59 +383,20 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
-- work: A Treatise on the Anger of God
-  author: lactantius
-  locus: div2 3.3
-  role: tradition
-  confidence: provisional
-  note: 'Philosophical-theological treatise against Epicurean/Stoic views of deity. Placed
-    with the rest of Lactantius pending the ruling flagged on The Divine Institutes; same
-    era-straddle doubt.
-
-    '
-  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: Fragments of Lactantius
-  author: lactantius
-  locus: div2 3.6
-  role: tradition
-  confidence: provisional
-  note: 'Miscellaneous fragments and attributed verse (incl. the Phoenix). Kept with the author''s
-    other works; same placement doubt.
-
-    '
-  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
 - work: Of the Manner in Which the Persecutors Died
   author: lactantius
   locus: div2 3.5
   role: tradition
   confidence: assigned
-  note: 'De Mortibus Persecutorum, c. 313-315: the founding narrative of the Constantinian
-    turn, ending in Milan-edict text. The clearest ijc fit in the Lactantius corpus.
-
-    '
-  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: On the Workmanship of God
-  author: lactantius
-  locus: div2 3.4
-  role: tradition
-  confidence: provisional
-  note: 'Treatise on providence and the human frame, c. 303-304. Same placement doubt as the
-    other Lactantius works.
-
-    '
-  source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: The Divine Institutes
-  author: lactantius
-  locus: div2 3.2 — The Divine Institutes
-  role: tradition
-  confidence: needs-ruling
-  note: 'Written c. 303-311 during the Great Persecution by a North-African-trained Latin
-    rhetor teaching at Nicomedia, later tutor at Constantine''s court. Straddles Era-1 Latin
-    apologetics and Era-2 Constantinian Christianity. STILL `needs-ruling` 2026-08-27, but
-    the question has changed shape: latin-apologists (I.43) now exists and is a third and
-    better candidate than either of the two rows below - Jerome makes Lactantius Arnobius''
-    pupil, and Arnobius is now in that entry. Mark held this one back when he ruled the five
-    regional gaps, so it is left as he left it rather than absorbed by a side effect.
+  note: 'STAYS ON imperial-juridical-christianity, and is the one Lactantius work the 2026-08-27
+    ruling does not move. Written c. 314-15 AFTER the Edict of Milan, from inside the Constantinian
+    settlement rather than against the persecution: it prints the text of the Milan agreement
+    (ch. 48) and the dream before the Milvian Bridge (ch. 44). It is not apologetic, and it
+    is LOAD-BEARING FOR A BUILT WORLD - `ijc.source.lactantius-de-mortibus` is cited by `ijc.figure.constantine`
+    and `ijc.gravity.church-state-alliance`, and `ijc.search.f6-e-negative-sweep` records
+    that it is that world''s only licensed source reaching back before 312. Moving it to follow
+    its author would have stripped a live world of a source it depends on, which is exactly
+    what the non-exclusivity rule exists to prevent.
 
 
     '
