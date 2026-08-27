@@ -11,7 +11,7 @@ confidence:
   verification_state: unverified
   evidentiary_weight: corroborating
   formation_confidence: Contested
-  divergence_note: 'Weaker than the Schodde lead and must not be treated as equivalent. A translator''s
+  divergence_note: 'RESOLVED 2026-08-27 - see the CLEARED note at the foot of this record. Retained as written because the reasoning that follows was correct at the time and the correction is instructive: the lead was weaker than Schodde and must not have been treated as equivalent. A translator''s
     own dedication to the public domain is a rights claim by a living author, not an expiry by date,
     and this one reportedly acknowledges a debt to Simon Tugwell''s 1987 translation, which is in
     copyright. That combination needs a real look at the dedication''s terms before anything is
@@ -78,3 +78,33 @@ Tugwell acknowledgement. If those together show a CC BY or public-domain
 dedication covering the translation itself, this becomes a clean
 acquisition and fourteen records in this world stop being unable to quote
 the author they rest on.
+
+CLEARED 2026-08-27, later the same day, and not by the route this record
+was looking for. Mark supplied the Guide's Credits page verbatim. It reads:
+"This work is licensed under a Creative Commons Attribution 4.0
+International (CC BY 4.0) License... The Guide to Evagrius Ponticus
+includes, under Writings, many versions of Evagrius's writings, and only
+those versions without license restrictions."
+
+So the answer was neither expiry nor a translator's public-domain
+dedication. It was an open licence, deliberately granted, plus the
+editor's own assertion that everything he hosts is unrestricted. This
+record asked whether Evagrius was in the PUBLIC DOMAIN by any route, and
+the honest answer to that question is still no for Dysinger's English - a
+translation is a derivative work and he holds copyright in it. The
+question that unblocked the corpus was a different one: is it LICENSED.
+Twice now the search has failed by asking about the wrong category of
+right, and that is the lesson worth carrying to the next blocked source.
+
+cic/texts/evagrius_praktikos_dysinger.txt is vendored under CC BY 4.0, the
+first file in this corpus that is not public domain, with the attribution
+obligation stated on the file and on desert.source.evagrius-praktikos.
+
+The Tugwell question is NOT resolved and is recorded as open on the source
+record. It was never verified in the first place - it came from
+search-result metadata, and the dedication has never been read, this
+build's network access to evagriusponticus.net being blocked throughout.
+It does not block the acquisition: the operative permission is the
+editor's grant, and a derivative-rights question underneath that grant is
+the Guide's to answer, not a downstream reader's. It stays on the record
+so that a person who can open the page knows to look.
