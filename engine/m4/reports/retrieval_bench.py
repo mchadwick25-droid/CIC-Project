@@ -24,15 +24,18 @@ material (baptise/baptize/babies/infants, appointed/ordained, pagan
 temples, neighbours):
     450 ground / 7.5 avg / 63 cells /  1 empty / 74 quotes
 
-ONE question in sixty still reaches no cell: pahc's "What did the
-neighbours think of you?". Its content words are `neighbours` and
-`think`. `neighbours` is now in the hint vocabulary; `think` is in no
-vocabulary anywhere, and a two-word query may not be decided by a lone
-HINT word (see engine/m4/evidence.py on why - that is the case where the
-matched word may be the framing verb rather than the subject). Closing it
-would mean putting `think` into a cell's vocabulary, which is a common
-English verb and a real precision cost for every other record in that
-cell. Left open deliberately.
+After four questions were added to Appendix A of the Program Spec and
+the canon reseeded (86 -> 90):
+    459 ground / 7.7 avg / 64 cells /  0 empty / 76 quotes
+
+NO QUESTION IN THE SIXTY NOW REACHES AN EMPTY GROUND. The last holdout
+was pahc's "What did the neighbours think of you?", and it is worth
+recording why the canon closed what a hint could not: its words are
+`neighbours` and `think`, and a two-word query may be decided by a lone
+CANON word but not a lone HINT word. Putting `neighbours` in a hint left
+it stranded; putting it in a canon question - F3-E, "What did your
+neighbours say about you - what were you accused of?" - made it a word
+the router trusts on its own.
 
 Run: python3 engine/m4/reports/retrieval_bench.py
 """

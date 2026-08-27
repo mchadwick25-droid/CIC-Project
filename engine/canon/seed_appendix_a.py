@@ -1,7 +1,17 @@
 """One-time (re-runnable) generator: Appendix A -> records/_fleet/canon_question/*.md
 (stage 3, Build-Blueprint.md SS5: "Canon v1 as records"). QUESTIONS below is a
 verbatim transcription of CiC-Program-Spec.md's Appendix A - every text string,
-cell, and source tag copied exactly, nothing paraphrased or invented. Kept as a
+cell, and source tag copied exactly, nothing paraphrased or invented. That
+includes the `[measured]`-tagged questions added to Appendix A after the v1
+approval: they are transcribed here from the spec exactly like the rest, and
+the spec is still the source. Strip every `measured` source tag and this table
+is Appendix A as originally approved.
+
+APPEND ONLY, NEVER INSERT. Ids are assigned by order within a cell
+(build_records below), and demonstration records across every world carry a
+`canon_question_id` pointing at one - inserting a row mid-cell silently
+renumbers every question after it and repoints those demonstrations at the
+wrong question. A new question goes at the END of its cell's run. Kept as a
 script rather than 86 hand-authored files so the transcription is auditable
 against its source in one place and reproducible; the generated .md files
 remain ordinary hand-editable source records afterward (this is a bulk-seeding
@@ -70,11 +80,14 @@ QUESTIONS: list[tuple[str, str, list[str], list[str]]] = [
     ("F3-I", "What actually happened when you gathered?", ["corpus"], []),
     ("F3-I", "Was it actually dangerous to be a Christian, day to day, or is that exaggerated?", ["corpus"], []),
     ("F3-I", "How did your movement spread so far, so fast?", ["ext"], []),
+    ("F3-I", "Who chose your leaders — were bishops appointed, elected, or something else?", ["measured"], []),
     ("F3-E", "Were Christians really hiding in the catacombs?", ["ext"], []),
     ("F3-E", "Did Constantine corrupt the church — did the empire change what you were?", ["ext"], []),
     ("F3-E", "What would an outsider have found strangest about you?", ["corpus"], []),
+    ("F3-E", "What did your neighbours say about you — what were you accused of?", ["measured"], []),
     ("F3-P", "The church that raised me protected people who caused harm. Your churches had failures too — what did you do with them?", ["corpus", "ext"], []),
     ("F3-P", "Your church used power against Christians who disagreed. Defend that.", ["corpus"], []),
+    ("F3-P", "What happened to the temples and the old gods once you had the power?", ["measured"], []),
     ("F3-T", 'Was your church "Catholic"? Is there a church today I could visit that\'s yours?', ["corpus"], []),
     ("F3-T", "Did you have denominations — how did you handle other communities who called on Christ differently?", ["corpus"], []),
     # F4 - Living the faith
@@ -90,6 +103,7 @@ QUESTIONS: list[tuple[str, str, list[str], list[str]]] = [
     ("F4-T", "Were you born again — is that how you'd put what happened to you?", ["corpus"], []),
     ("F4-T", "Did you tithe? How did you decide what to give?", ["new"], []),
     ("F4-T", "What did you believe about the end of the world — anything like what we call the rapture?", ["corpus"], []),
+    ("F4-T", "Did you baptise babies, or only adults who chose it for themselves?", ["measured"], []),
     # F5 - Daily life
     ("F5-I", "Walk me through an ordinary day among your people, from waking to sleeping.", ["corpus"], []),
     ("F5-I", "What did you eat, and who ate with you?", ["corpus"], []),
