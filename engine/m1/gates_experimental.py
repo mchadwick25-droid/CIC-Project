@@ -23,9 +23,7 @@ engine/prose.py, where four production modules could stop importing them
 by their private names from a file marked experimental. What is left here
 is only what the file's name has always claimed.
 """
-import json
 import re
-from pathlib import Path
 
 from engine.prose import (
     SCAFFOLD_MARKERS,
