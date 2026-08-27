@@ -15,6 +15,9 @@ confidence:
 sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "scattered sayings, particularly prominent across the tradition"
+- source_id: desert.source.cassian-institutes
+  locus: Institutes IV, the stages from fear of the Lord to love
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:

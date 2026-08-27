@@ -15,6 +15,9 @@ confidence:
 sources:
 - source_id: desert.source.evagrius-praktikos
   locus: "the scheme's contemplative stage (consult-only; vendored excerpt witness via Socrates IV.23)"
+- source_id: desert.source.cassian-conferences
+  locus: Conf. III ch. VI, the third renunciation and the Song of Songs
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:

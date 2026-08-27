@@ -20,6 +20,9 @@ sources:
   locus: "the eight-fold taxonomy (Strand C's systematization; consult-only, with vendored excerpt witness via Socrates IV.23)"
 - source_id: desert.source.apophthegmata-patrum
   locus: "passim (disclosure of thoughts to an elder)"
+- source_id: desert.source.cassian-conferences
+  locus: Conf. V ch. II, Serapion's enumeration
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
