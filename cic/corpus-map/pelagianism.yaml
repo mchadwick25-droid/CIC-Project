@@ -14,20 +14,25 @@ works:
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
-- work: Letters of St. Augustin
+- work: 'Letters of St. Augustin: the Pelagian correspondence'
   author: augustine
-  locus: div1 7 — Letters of St. Augustin (the controversy sub-bodies within the selection)
-  role: tradition
-  confidence: needs-ruling
-  note: 'The doubt is granularity, not placement. Inside the one letter body sit three real
-    sub-corpora: substantial Donatist correspondence (letters to Vincentius, Emeritus, Boniface
-    and about Petilian; 118 Donatist mentions in the volume), anti-Pelagian letters, and the
-    twelve-letter Augustine-Jerome exchange that is core evidence for the Hieronymian world
-    (whose npnf206 carries Jerome''s side). Mark should rule whether the body stands in these
-    entries whole, or the letters split per-controversy — the per-work rule cuts both ways
-    for a 366k-word collection.
-
-    '
+  locus: div3 letters CXLVI, CXCI (2 letters, ~1,182 words)
+  role: context
+  confidence: assigned
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
+    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    exchange, exactly) and by keyword count where it does not, taking the natural break in
+    the distribution rather than a chosen threshold. The four parts partition the 168 with
+    no overlap. One extraction bug was caught and fixed before any of this was written: the
+    last letter''s span ran to end-of-file and swallowed the indexes, reading CCLXIX as 15,011
+    words when it is 238. It had put a Pelagian sub-corpus of 16,193 words on the map that
+    does not exist. WITH THAT FIXED THIS SUB-CORPUS IS ALMOST NOTHING: two letters, 1,182
+    words - Letter CXLVI to Pelagius himself (204 words, cordial, before the controversy)
+    and Letter CXCI to Sixtus. The original note assumed ''anti-Pelagian letters'' formed
+    a real body inside this volume; measured, they do not. The substance is in npnf105, which
+    is where the anti-Pelagian treatises are and where pelagianism draws 15 works from. Recorded
+    because an absence someone expected is worth as much as a presence.'
   source_file: npnf101_augustine-confessions-letters.xml
 - work: On Grace and Free Will (De gratia et libero arbitrio)
   author: augustine

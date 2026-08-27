@@ -32,20 +32,24 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
-- work: Letters of St. Augustin
+- work: 'Letters of St. Augustin: the Donatist correspondence'
   author: augustine
-  locus: div1 7 — Letters of St. Augustin (the controversy sub-bodies within the selection)
-  role: tradition
-  confidence: needs-ruling
-  note: 'The doubt is granularity, not placement. Inside the one letter body sit three real
-    sub-corpora: substantial Donatist correspondence (letters to Vincentius, Emeritus, Boniface
-    and about Petilian; 118 Donatist mentions in the volume), anti-Pelagian letters, and the
-    twelve-letter Augustine-Jerome exchange that is core evidence for the Hieronymian world
-    (whose npnf206 carries Jerome''s side). Mark should rule whether the body stands in these
-    entries whole, or the letters split per-controversy — the per-work rule cuts both ways
-    for a 366k-word collection.
-
-    '
+  locus: div3 letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX,
+    CLXXIII (11 letters, ~54,523 words)
+  role: context
+  confidence: assigned
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
+    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    exchange, exactly) and by keyword count where it does not, taking the natural break in
+    the distribution rather than a chosen threshold. The four parts partition the 168 with
+    no overlap. Cut at eight or more occurrences of the Donatist vocabulary (Donatist, Donatus,
+    Circumcellion, Petilian, Emeritus, rebaptism), which is where the distribution breaks
+    - the next letters down carry five and read as asides - plus Letter LXXVI, whose title
+    addresses the Donatists as a body. Letter XCIII to Vincentius is the largest at 18,595
+    words and carries 31 of the hits on its own. `context`, not `tradition`: Augustine is
+    the Catholic opponent, per the role normalisation already applied to his anti-Donatist
+    treatises.'
   source_file: npnf101_augustine-confessions-letters.xml
 - work: On Baptism, Against the Donatists
   author: augustine

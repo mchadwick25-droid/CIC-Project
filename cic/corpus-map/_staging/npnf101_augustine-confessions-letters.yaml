@@ -43,34 +43,79 @@ assignments:
     not lose its best eyewitness while npnf210 carries only Ambrose''s own side.
 
     '
-- work: Letters of St. Augustin
-  author: augustine
-  locus: div1 7 — Letters of St. Augustin (selection of 168 letters, I-CCLXIX, assigned as
-    one body)
+- author: augustine
+  work: 'Letters of St. Augustin: the Augustine-Jerome correspondence'
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  locus: div3 letters XXVIII, XXXIX, XL, LXVII, LXVIII, LXXI, LXXII, LXXIII, LXXV, LXXXI,
+    LXXXII, CXXIII, CLXVI, CLXVII, CLXXII, CXCV, CCII (17 letters, ~52,892 words)
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
+    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    exchange, exactly) and by keyword count where it does not, taking the natural break in
+    the distribution rather than a chosen threshold. The four parts partition the 168 with
+    no overlap. This part is exact: every letter whose title names Jerome, in both directions.
+    `tradition` for BOTH entries deliberately - the exchange contains Jerome''s own letters,
+    which are the Hieronymian world''s voice, and Augustine''s, which are the Latin pastoral
+    world''s. A two-sided correspondence has voice on both sides. It is also the largest single
+    thing in this volume after the Confessions.'
+- author: augustine
+  work: 'Letters of St. Augustin: the Donatist correspondence'
+  atlas_ids:
+  - donatism
+  role: context
+  confidence: assigned
+  locus: div3 letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX,
+    CLXXIII (11 letters, ~54,523 words)
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
+    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    exchange, exactly) and by keyword count where it does not, taking the natural break in
+    the distribution rather than a chosen threshold. The four parts partition the 168 with
+    no overlap. Cut at eight or more occurrences of the Donatist vocabulary (Donatist, Donatus,
+    Circumcellion, Petilian, Emeritus, rebaptism), which is where the distribution breaks
+    - the next letters down carry five and read as asides - plus Letter LXXVI, whose title
+    addresses the Donatists as a body. Letter XCIII to Vincentius is the largest at 18,595
+    words and carries 31 of the hits on its own. `context`, not `tradition`: Augustine is
+    the Catholic opponent, per the role normalisation already applied to his anti-Donatist
+    treatises.'
+- author: augustine
+  work: 'Letters of St. Augustin: the Pelagian correspondence'
+  atlas_ids:
+  - pelagianism
+  role: context
+  confidence: assigned
+  locus: div3 letters CXLVI, CXCI (2 letters, ~1,182 words)
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
+    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    exchange, exactly) and by keyword count where it does not, taking the natural break in
+    the distribution rather than a chosen threshold. The four parts partition the 168 with
+    no overlap. One extraction bug was caught and fixed before any of this was written: the
+    last letter''s span ran to end-of-file and swallowed the indexes, reading CCLXIX as 15,011
+    words when it is 238. It had put a Pelagian sub-corpus of 16,193 words on the map that
+    does not exist. WITH THAT FIXED THIS SUB-CORPUS IS ALMOST NOTHING: two letters, 1,182
+    words - Letter CXLVI to Pelagius himself (204 words, cordial, before the controversy)
+    and Letter CXCI to Sixtus. The original note assumed ''anti-Pelagian letters'' formed
+    a real body inside this volume; measured, they do not. The substance is in npnf105, which
+    is where the anti-Pelagian treatises are and where pelagianism draws 15 works from. Recorded
+    because an absence someone expected is worth as much as a presence.'
+- author: augustine
+  work: 'Letters of St. Augustin: the general correspondence'
   atlas_ids:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
-  note: 'NPNF''s selection of 168 letters spanning Augustine''s whole episcopate, assigned
-    as one coherent body per the granularity rule. The bulk is pastoral and North African;
-    his home entry takes the body.
-
-    '
-- work: Letters of St. Augustin
-  author: augustine
-  locus: div1 7 — Letters of St. Augustin (the controversy sub-bodies within the selection)
-  atlas_ids:
-  - donatism
-  - pelagianism
-  - hieronymian-ascetic-literary
-  role: tradition
-  confidence: needs-ruling
-  note: 'The doubt is granularity, not placement. Inside the one letter body sit three real
-    sub-corpora: substantial Donatist correspondence (letters to Vincentius, Emeritus, Boniface
-    and about Petilian; 118 Donatist mentions in the volume), anti-Pelagian letters, and the
-    twelve-letter Augustine-Jerome exchange that is core evidence for the Hieronymian world
-    (whose npnf206 carries Jerome''s side). Mark should rule whether the body stands in these
-    entries whole, or the letters split per-controversy — the per-work rule cuts both ways
-    for a 366k-word collection.
-
-    '
+  locus: div3, the remaining 138 letters (~258,018 words)
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
+    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    exchange, exactly) and by keyword count where it does not, taking the natural break in
+    the distribution rather than a chosen threshold. The four parts partition the 168 with
+    no overlap. Everything not claimed by the three controversies above - the bulk of the
+    volume, and the ordinary work of a bishop''s correspondence: pastoral advice, administration,
+    consolation, friendship, the exchanges with Paulinus and Nebridius. It keeps `tradition`
+    for the Latin pastoral entry, which is what it is.'
