@@ -44,6 +44,10 @@ relations:
   target: desert.force.oral-to-written-shift
 - type: associated-with
   target: desert.story.sarah-answer
+- type: associated-with
+  target: desert.quote.equal-measure-of-strength
+- type: associated-with
+  target: desert.story.virgin-who-hid-athanasius
 ---
 UPDATED 2026-08-27 ON THE ARRIVAL OF A VENDORED EDITION. Two changes,
 and the first is a correction.

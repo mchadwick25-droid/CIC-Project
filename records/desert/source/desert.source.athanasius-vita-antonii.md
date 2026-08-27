@@ -18,6 +18,10 @@ relations:
   target: desert.source.athanasius-festal-letters
 - type: associated-with
   target: desert.source.brakke-athanasius
+- type: associated-with
+  target: desert.source.palladius-paradise-syriac
+- type: associated-with
+  target: desert.story.virgin-who-hid-athanasius
 author: "Athanasius of Alexandria (c. 296-373 CE) - bishop, not a desert participant"
 work: "Vita Antonii (Life of Antony), c. 356-362 CE - episcopal hagiography constructing an exemplar (Greco-Roman bios conventions adapted to Christian sanctity); the single most influential text about this world, written from outside it; its formation ideal is credible evidence, its miracle episodes are not historical reporting, and its 'unlettered' (agrammatos) portrait of Antony is contested (see desert.contested.antony-literacy)"
 edition: "trans. H. Ellershaw (in Robertson's NPNF series 2 vol. 4, 1892), vendored as cic/texts/npnf204_athanasius-select-works-letters.xml (work division at file line 30411; text from line 30986)"

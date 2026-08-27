@@ -37,6 +37,8 @@ relations:
   target: desert.story.antony-tomb-combat
 - type: associated-with
   target: desert.quote.antony-not-worsted
+- type: illustrated-by
+  target: desert.quote.equal-measure-of-strength
 - {type: illustrated-by, target: desert.quote.eight-principal-faults}
 - {type: illustrated-by, target: desert.quote.ladder-from-compunction}
 - {type: illustrated-by, target: desert.quote.arch-drawn-from-the-centre}

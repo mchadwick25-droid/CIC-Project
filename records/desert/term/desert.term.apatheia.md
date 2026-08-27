@@ -39,6 +39,8 @@ relations:
   target: desert.gravity.evagrian-systematization
 - type: associated-with
   target: desert.contested.antony-literacy
+- type: associated-with
+  target: desert.quote.talida-key-never-taken
 plain_meaning: "Freedom from the passions that drive a person. In Evagrius's plan, the goal of the working stage of this life. Not apathy."
 world_word: apatheia
 false_friend:

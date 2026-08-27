@@ -30,6 +30,8 @@ relations:
   target: desert.story.antony-call
 - type: associated-with
   target: desert.story.antony-withdrawal
+- type: associated-with
+  target: desert.quote.piamon-judge-of-the-earth
 ---
 Re-derived from the prior build's cleared Doc_08 Cell 1B-i. A genuine
 qualification on how withdrawal (desert.gravity.withdrawal) should be

@@ -58,6 +58,10 @@ relations:
   target: desert.quote.antony-dying-daily
 - type: associated-with
   target: desert.quote.arsenius-flee-tace-quiesce
+- type: illustrated-by
+  target: desert.quote.taor-not-compelled-to-market
+- type: illustrated-by
+  target: desert.quote.melania-to-the-governor
 - {type: illustrated-by, target: desert.quote.three-kinds-of-monks}
 - {type: illustrated-by, target: desert.quote.antony-on-living-near-kin}
 name: "Withdrawal [PRIMARY]"
