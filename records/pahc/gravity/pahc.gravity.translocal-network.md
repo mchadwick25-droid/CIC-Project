@@ -45,6 +45,7 @@ relations:
   target: pahc.story.ignatius-guarded-journey
 - type: associated-with
   target: pahc.story.polycarp-forwards-letters
+- {type: illustrated-by, target: pahc.quote.polycrates-to-victor}
 name: "Translocal Correspondence Network [PRIMARY]"
 classification: primary
 description: "Letters carried between churches - what holds this world together across cities, in

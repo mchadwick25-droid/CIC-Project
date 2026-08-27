@@ -40,6 +40,7 @@ relations:
   target: pahc.witness.outsider-view
 - type: associated-with
   target: pahc.story.pliny-interrogation
+- {type: illustrated-by, target: pahc.story.grandsons-before-domitian}
 name: "State Pressure / Legal Precarity [SUPPORTING]"
 classification: supporting
 description: "Real, local, lethal exposure under law nobody was fully sure of - not a systematic hunt
