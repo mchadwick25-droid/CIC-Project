@@ -36,6 +36,8 @@ retrieval:
   - infant-baptism debates or modern baptismal theology with no connection to this period
 relations:
 - type: associated-with
+  target: pahc.quote.in-living-water
+- type: associated-with
   target: pahc.term.two-ways
 - type: associated-with
   target: pahc.term.episkopos

@@ -55,11 +55,26 @@ WORLDS = ["alx", "pahc", "hal", "syr", "ijc", "desert"]
 _VAGUE = re.compile(
     r"passim|whole (file|work|collection|volume|letter)|scattered|throughout|"
     r"the collections? as a whole|entire|no vendored|consult-only", re.I)
-# ...and SPECIFIC when it names a section, chapter, book, letter or line.
+# ...and SPECIFIC when it names a place in a text rather than a body of it.
+#
+# WIDENED 2026-08-27, after the first pass under-reported. The original
+# pattern wanted a keyword before the number and so missed every locus that
+# just gives one - "42, 44", "9-10, 14", "7" - and every work-specific
+# division name this corpus actually uses: Mandate 9, Session IV, Canon 6,
+# Sermon III, Philadelphians 4, Smyrnaeans 8, Philocalia I. Eight cells
+# ruled NEEDS READING on the first run were openable all along. The lesson
+# is the ordinary one for a classifier over a corpus written by hand: the
+# vocabulary is the corpus's, not the pattern-writer's.
 _SPECIFIC = re.compile(
     r"\bSS?\s?\d|\b[IVXLC]{1,6}\.\s?\d|\bch(?:ap)?\.?\s*[IVXLC\d]|\bBook\s+[IVXLC\d]|"
     r"\bsecs?\.\s*\d|\bletter\s+[IVXLC\d]|\b\d+[.:]\d+|file line \d|"
-    r"Hymn\s+[IVXLC\d]|Demonstration\s+[IVXLC]", re.I)
+    r"Hymn\s+[IVXLC\d]|Demonstration\s+[IVXLC]|"
+    # a bare number or range, which is how most loci in this corpus cite
+    r"^\s*\d+(?:\s*[-,]\s*\d+)*\s*(?:\(|$)|"
+    # named divisions particular to a work
+    r"\b(?:Mandate|Similitude|Vision|Session|Canon|Sermon|Oration|Homily|Tractate|"
+    r"Philadelphians|Smyrnaeans|Ephesians|Magnesians|Trallians|Romans|Polycarp|"
+    r"Philocalia|Praktikos|Dialogue|Institutes?|Conference)\s+[IVXLC\d]", re.I)
 
 
 def _vendored_sources(records):

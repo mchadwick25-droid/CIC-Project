@@ -8,6 +8,7 @@ register: emic
 canon_cells:
 - F2-E
 - F3-I
+- F6-I
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -37,6 +38,8 @@ relations:
 - type: associated-with
   target: pahc.witness.scripture-and-testimony
 - type: associated-with
+  target: pahc.witness.what-we-never-settled
+- type: associated-with
   target: pahc.quote.first-clement-apostolic-chain
 ---
 Opened 2026-08-27 for F2-E, "how do you know" about this world's scriptures, which was served by
@@ -46,3 +49,12 @@ Kept for the altered citation as much as for the claim. A world that says it was
 apostolic testimony alongside written scripture should be shown doing exactly that - reaching for
 Isaiah, and bending it - rather than only asserted to have done it. The ANF editor caught the
 alteration in 1885 and the note travels with the quote.
+
+F6-I ADDED 2026-08-27, rather than duplicating the passage into a second
+record. pahc.witness.what-we-never-settled cites chs. 42 and 44 for the
+plural "bishops and deacons" held against Ignatius's single bishop, and
+served that cell with no quote. The tension is IN this sentence - Clement
+writes bishops in the plural for one city, and pahc.quote.jesus-christ-our-god
+has Ignatius binding a congregation to THE bishop, singular. Two records
+opened the same day, from the same corpus, that do not agree about how a
+church is governed. Neither is corrected toward the other.

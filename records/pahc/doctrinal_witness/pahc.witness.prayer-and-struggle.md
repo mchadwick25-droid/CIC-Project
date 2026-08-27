@@ -26,7 +26,9 @@ retrieval:
   - "participant says prayer feels like silence"
   - "participant asks how to forgive someone who isn't sorry"
   do_not_retrieve_when: []
-relations: []
+relations:
+- type: associated-with
+  target: pahc.quote.put-away-doubting-from-you
 positions:
 - "Hermas was told directly that a slow answer to prayer is not the same as a refusal - look first for what may be holding it back in yourself, and keep asking rather than concluding you were denied."
 - "On forgiveness, at least one of our own communities practiced this communally, not privately: confess your wrongs before the gathered assembly before the offering is made, and be reconciled with anyone you are at odds with first - reconciliation was a precondition for worship there, not an inward feeling settled alone. We have no record of how far this specific practice reached beyond that one community."

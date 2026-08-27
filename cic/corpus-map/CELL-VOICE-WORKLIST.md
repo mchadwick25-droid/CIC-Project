@@ -15,6 +15,17 @@ asserting what the world held, with no licensed quote to say it in the
 world's own words. Thirty-nine have been closed since; the count below is
 what remains.
 
+**THE RULING INSTRUMENT WAS WRONG ABOUT EIGHT CELLS, AND THE ERROR IS
+INSTRUCTIVE.** The first pass called 20 cells NEEDS READING. Eight were
+OPENABLE all along: the `_SPECIFIC` pattern wanted a keyword before the
+number (`ch. 4`, `sec. 7`, `Book II`) and this corpus mostly cites bare
+ones — `42, 44`, `9-10, 14`, `7` — plus work-specific divisions it had
+never heard of: Mandate 9, Session IV, Canon 6, Sermon III,
+Philadelphians 4, Philocalia I. The pattern is widened and the comment in
+`cell_voice.py` records why. The ordinary lesson for a classifier run over
+a hand-written corpus: **the citation vocabulary belongs to the corpus, not
+to the person writing the regex.**
+
 **The OPENABLE ruling held up.** Of the 35 cells ruled openable, 30 were
 closed by going to the locus the record already cited and finding a
 quotable sentence sitting there — in 24 records, because several passages
@@ -81,19 +92,20 @@ a catechumen). All three had quotable text exactly where the ruling said.
    life when they answered practice; that was worth more than any hint.
 
 
+
 ## Current state
 
 ```
-30 cells served without a quote or story
+22 cells served without a quote or story
 
-    5  OPENABLE
-   20  NEEDS READING
+    6  OPENABLE
+   11  NEEDS READING
     5  LIMIT-ONLY
 
 alx      6  3 openable, 2 needs reading, 1 limit-only
     F1-T   OPENABLE
+           -> alx.term.anastasis <- athanasius-de-incarnatione  [8-10, 20-32]
            -> alx.term.anastasis <- clement-stromateis  [IV.26, VI]
-           -> alx.term.eucharistia <- clement-paidagogos  [II.2 (the eucharistic discussion)]
     F2-E   OPENABLE
            -> alx.dw.record <- eusebius-historia-ecclesiastica  [VII.25 (Dionysius's critical analysis of the Apocalypse)]
     F2-T   NEEDS READING
@@ -101,14 +113,6 @@ alx      6  3 openable, 2 needs reading, 1 limit-only
     F3-P   OPENABLE
            -> alx.dw.church-failure <- eusebius-historia-ecclesiastica  [VI.8 (the rupture), VII (the lapsed controversy)]
     F5-E   LIMIT-ONLY
-pahc     7  7 needs reading
-    C-E    NEEDS READING
-    C-T    NEEDS READING
-    F1-I   NEEDS READING
-    F1-T   NEEDS READING
-    F4-P   NEEDS READING
-    F4-T   NEEDS READING
-    F6-I   NEEDS READING
 hal      2  1 needs reading, 1 limit-only
     F1-E   NEEDS READING
     F6-E   LIMIT-ONLY
@@ -125,10 +129,10 @@ syr      7  5 needs reading, 1 openable, 1 limit-only
     F5-T   LIMIT-ONLY
     F6-I   NEEDS READING
            (unbacked: syr.dw.unsettled <- gedsh, syr.dw.unsettled <- koltun-fromm-dialogue)
-ijc      6  4 needs reading, 1 limit-only, 1 openable
-    C-E    NEEDS READING
+ijc      5  2 openable, 2 needs reading, 1 limit-only
+    C-E    OPENABLE
+           -> ijc.dw.received-not-seen <- chalcedon-acts  [Session IV (the rule of faith recited - Nicaea, Constantinople, ]
     F2-E   NEEDS READING
-    F2-I   NEEDS READING
     F2-T   NEEDS READING
     F4-P   LIMIT-ONLY
     F6-E   OPENABLE

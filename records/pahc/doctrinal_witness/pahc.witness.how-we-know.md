@@ -27,7 +27,9 @@ retrieval:
   - "participant asks whether anyone in this world had known an eyewitness"
   do_not_retrieve_when:
   - "a question about modern historical-critical method with no connection to this world's own texts"
-relations: []
+relations:
+- type: associated-with
+  target: pahc.quote.they-appointed-those-already-mentioned
 positions:
 - "We did not see him ourselves. What we have is a chain: the apostles preached what they received from the Lord, and in turn appointed others after them."
 - "In Rome by the mid-2nd century, memoirs of the apostles were read aloud at the weekly gathering, alongside the writings of the prophets, for as long as time allowed."
