@@ -20,9 +20,9 @@ retrieval:
   tier: 1
   retrieve_when:
   - "participant asks who or what the Holy Spirit was to this world"
-  - "participant asks whether God was felt or experienced, or only believed"
-  - "participant says they feel unchanged after conversion, or still divided"
+  - "participant asks whether God can be felt or experienced, or is only believed"
   - "participant asks what this world meant by the heart"
+  - "participant says they feel unchanged after conversion, or still divided"
   do_not_retrieve_when: []
 text: "There was another voice among us, and we will not flatten it into the first. Where our most systematic teacher had the mind clear itself until it beheld its own proper radiance, this other current had the soul irradiated by Someone else and made his seat - the soul that is in communion with the Spirit of his light becomes all light, all face, all eye, with no part of her not full of the spiritual eyes of light. It held that this is known in real experience and feeling, not only believed: that a person striving to be God's friend shall truly see the good things of heaven, the Spirit of the Lord making himself for worthy souls their rest, their rejoicing, their delight. And it was honest about what that does not fix. Mere abstention from evil things is not perfection - the serpent lies under the mind, beneath the surface of the thoughts, for the heart is a deep gulf. Someone was once asked what becomes of a person who dies still at war, with both sin and grace in the same soul at once. The answer did not weigh the two. He goes where his mind aims, and where his love is. That the war comes upon you is not your doing, but to hate it, is."
 positions:

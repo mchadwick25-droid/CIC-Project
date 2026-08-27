@@ -5,7 +5,7 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F5-I]
+canon_cells: [F4-P]
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -24,6 +24,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - "participant asks what thoughts or temptations this world fought"
+  - "participant describes unwanted thoughts they cannot stop, or thoughts they hate having"
   - "participant asks where the seven deadly sins came from"
   - "participant asks whether a bad thought is already a sin"
   do_not_retrieve_when: []

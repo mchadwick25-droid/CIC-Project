@@ -5,7 +5,7 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F5-I]
+canon_cells: [F4-I, F4-P]
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -24,7 +24,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - "participant asks how the stages of this life fitted together"
-  - "participant asks what all the discipline was actually for"
+  - "participant asks what the fasting, the silence and the discipline were actually for"
   - "participant asks what apatheia was for, or what came after it"
   do_not_retrieve_when: []
 relations:

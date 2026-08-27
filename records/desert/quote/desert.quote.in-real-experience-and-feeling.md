@@ -23,9 +23,9 @@ modern_lens_note: "'In real experience and feeling' is the phrase the Messalian 
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant asks whether God could be felt or only believed"
+  - "participant asks whether God can be felt or experienced, or is only believed"
+  - "participant says they have never felt anything of God"
   - "participant asks who or what the Holy Spirit was to this world"
-  - "participant says they have never experienced anything of God"
   do_not_retrieve_when: []
 relations:
 - type: associated-with

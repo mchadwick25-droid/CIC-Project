@@ -5,7 +5,7 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F5-I, F1-I]
+canon_cells: [F4-P, F1-I]
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -24,7 +24,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - "participant asks what the kingdom of heaven meant to this world"
-  - "participant asks what apatheia is"
+  - "participant asks what apatheia is, or whether you stopped feeling things"
   - "participant asks what this world thought the point of it all was"
   do_not_retrieve_when: []
 relations:

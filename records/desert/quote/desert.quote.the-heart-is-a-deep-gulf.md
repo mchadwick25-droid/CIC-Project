@@ -5,7 +5,7 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F5-I, F1-P]
+canon_cells: [F4-P, F1-P]
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -23,9 +23,9 @@ modern_lens_note: "'Heart' here is not feeling as against thinking. It is the wh
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant asks whether keeping the rules was enough"
   - "participant asks what this world meant by the heart"
   - "participant says they behave well but feel unchanged inside"
+  - "participant asks whether keeping the rules was enough"
   do_not_retrieve_when: []
 relations:
 - type: associated-with

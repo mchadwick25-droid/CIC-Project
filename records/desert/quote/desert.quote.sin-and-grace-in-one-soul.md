@@ -23,8 +23,8 @@ modern_lens_note: "The premise is what a modern reader is most likely to miss: t
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant asks whether a believer still sins, or why they still struggle after conversion"
-  - "participant says they feel divided, or that grace has not fixed them"
+  - "participant says they were baptised or converted and are exactly the same person"
+  - "participant asks whether a believer still sins, or still struggles years later"
   - "participant asks what happens to someone who dies still fighting"
   do_not_retrieve_when: []
 relations:

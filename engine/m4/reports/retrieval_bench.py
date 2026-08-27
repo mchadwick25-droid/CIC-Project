@@ -28,6 +28,30 @@ After four questions were added to Appendix A of the Program Spec and
 the canon reseeded (86 -> 90):
     459 ground / 7.7 avg / 64 cells /  0 empty / 76 quotes
 
+After the Evagrius and Macarius reading passes, and after those eleven
+records' hints were rewritten in participant idiom:
+    461 ground / 7.7 avg / 64 cells /  0 empty / 79 quotes
+
+That last line carries a REGRESSION and it is left visible: the reading
+pass alone measured 462/80, and rewriting the hints cost one ground record
+and one quote in desert (88->87, 18->17). Hint words are merged into a
+cell's vocabulary, so a wider hint can displace a candidate that used to
+rank; vocabulary bloat is a real cost and this is what it looks like at
+small scale. Net across the day is still positive (459/76 -> 461/79) and
+no question went empty.
+
+WHAT THE SIXTY CANNOT TELL YOU, and why a second instrument was used. The
+sixty were written to measure whether a world's records are REACHABLE AT
+ALL. They cannot measure whether a newly opened source informs ordinary
+questions ALONGSIDE the existing ones, because none of them was written
+about the new material. That question was probed separately (twelve
+questions on the interior life, 2026-08-27), and the honest result was
+mixed: the new records reached questions using their own vocabulary but
+missed three that should plainly have found them. Two of those three are
+NOT hint-fixable and are recorded in cic/corpus-map/RETRIEVAL-HINTS.md
+under the structural limit - they route to cells the records do not claim,
+and rule 4 forbids papering over that with a hint.
+
 NO QUESTION IN THE SIXTY NOW REACHES AN EMPTY GROUND. The last holdout
 was pahc's "What did the neighbours think of you?", and it is worth
 recording why the canon closed what a hint could not: its words are

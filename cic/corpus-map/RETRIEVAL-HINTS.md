@@ -65,6 +65,52 @@ whatever words you put in it are the words that will reach this record.
    one-word query may match a hint word, a two-word query may not,
    precisely because of it. Name the subject; keep the verb plain.
 
+## The structural limit: what a hint cannot do, measured
+
+Added 2026-08-27, after the Evagrius and Macarius reading passes, when the
+question was put directly: do newly opened sources INFORM ALONGSIDE the
+existing ones, or only fill the gaps their own hints name?
+
+Twelve interior-life questions were probed against desert. Hints written in
+participant idiom moved nine of them onto the new records. Three did not
+move, and the reason matters more than the number:
+
+    "Does God ever feel like anything, or is it only believed?"
+        -> routed to F6-P and C-P. The Macarian records claim F1-I, F1-P.
+    "I became a Christian and nothing changed. What is wrong with me?"
+        -> routed to F3-I and C-I. The record claims F1-P, F1-T.
+    "You talk about the heart a lot. What did you mean by it?"
+        -> routed to NO cell at all; `heart` is in no canon question.
+
+None of these is a hint problem, and writing a hint for any of them would
+be rule 2 overfitting dressed as a fix. Rule 4 is the reason: **a hint only
+widens cells the record already claims.** If the router sends a question to
+F6-P and your record is in F1-P, no wording in that record's hints can
+reach it - the cell was decided before the record was ever scored.
+
+There are exactly two honest remedies, and the first is usually right:
+
+1. **The record's cells are wrong.** Fix them. In this same pass six
+   Evagrius quotes were assigned F5-I - which is ordinary daily life, food,
+   work, children - when the eight logismoi and the noonday demon plainly
+   answer F4-P, "I can't quiet my own head." Moving them was worth more
+   than any hint, and it was rule 4 that caught it.
+
+2. **The canon has no question with that word in it.** Then it is a canon
+   gap, and it goes to Appendix A of the Program Spec, not into a hint.
+   `heart` is the current instance and is the same shape as `neighbours`
+   was: a two-word query can be decided by a lone CANON word but not by a
+   lone HINT word, so putting the word in a hint leaves it stranded. That
+   is a spec change and belongs to a human.
+
+## The cost is real and shows up immediately
+
+The same rewrite that moved nine probe questions onto the new records cost
+one ground record and one quote on the locked sixty-question benchmark
+(462/80 -> 461/79, both in desert). Wider hints displace candidates that
+used to rank. Report the regression alongside the gain; a hint pass with no
+reported cost has probably not been measured.
+
 ## What to do about a record you cannot hint honestly
 
 Leave it. A quote whose only honest retrieval condition is "the

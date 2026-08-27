@@ -5,7 +5,7 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F5-I, F5-P]
+canon_cells: [F4-P]
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -23,8 +23,9 @@ modern_lens_note: "The nearest modern words - listlessness, burnout, depression 
 retrieval:
   tier: 1
   retrieve_when:
-  - "participant describes listlessness, restlessness or wanting to be anywhere else"
-  - "participant asks what this world did about boredom or despair in the cell"
+  - "participant describes listlessness, restlessness, boredom or wanting to be anywhere else"
+  - "participant says they want to quit, walk away, or leave the life they have chosen"
+  - "participant asks what this world did about despair in the cell"
   - "participant asks about the noonday demon or acedia"
   do_not_retrieve_when: []
 relations:

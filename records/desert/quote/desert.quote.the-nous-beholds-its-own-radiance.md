@@ -5,7 +5,7 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F5-I]
+canon_cells: [F4-P]
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -24,6 +24,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks how anyone could tell whether the discipline was working"
+  - "participant asks how you knew you were making progress, or getting anywhere"
   - "participant asks what apatheia felt like or how it was recognised"
   do_not_retrieve_when: []
 relations:
