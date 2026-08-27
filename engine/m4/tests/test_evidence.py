@@ -5,6 +5,7 @@ disk required.
 """
 from engine.m4.evidence import (
     _fallback_search_text,
+    _looks_like_follow_up,
     _word_weights,
     _fulltext_fallback_candidates,
     apply_session_exclusion,
@@ -656,3 +657,57 @@ def test_a_broad_cell_does_not_shut_out_a_specific_one_on_common_words():
     cells = [m["cell"] for m in match_asks_to_cells(
         message=message, asks=[{"order": 1, "text": message}], canon_questions=canon)]
     assert "F1-P" in cells, cells
+
+
+# --- follow-ups inherit the prior subject's cells (2026-08-27) --------------
+
+def test_a_question_that_names_its_own_subject_is_not_a_follow_up():
+    """The half of the test that stops this firing on real questions: 33 of
+    the 93 canon questions contain `that`, `this` or `it`, and every one of
+    them still names what it is asking about."""
+    assert not _looks_like_follow_up(
+        "What did your community actually have about Jesus - writings, memories, people?",
+        None, CANON_QUESTIONS, None)
+
+
+def test_a_back_reference_with_no_subject_is_a_follow_up():
+    assert _looks_like_follow_up("Why did that matter?", None, CANON_QUESTIONS, None)
+    assert _looks_like_follow_up("Say more about that.", None, CANON_QUESTIONS, None)
+
+
+def test_a_bare_request_with_no_back_reference_is_not_a_follow_up():
+    """`Tell me more.` is a follow-up to a human and not to this test - it
+    carries no marker, so it is deliberately out of scope rather than
+    caught by a looser rule that would also catch real questions."""
+    assert not _looks_like_follow_up("Tell me more.", None, CANON_QUESTIONS, None)
+
+
+def test_a_follow_up_inherits_the_prior_turn_cells():
+    history = [
+        {"role": "user", "content": "What did your community actually have about Jesus - writings, memories, people?"},
+        {"role": "assistant", "content": "What we had reached us through people who had known him."},
+    ]
+    out = assemble_evidence(
+        message="Why did that matter?", asks=None, canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE, repository_records=REPOSITORY, history=history)
+    assert out["cells"], "a follow-up with history should reach a cell"
+    assert all(c.get("inherited_from_prior_turn") for c in out["cells"]), out["cells"]
+    assert out["cells"][0]["cell"] == "C-E"
+
+
+def test_history_never_changes_a_turn_that_names_its_own_subject():
+    """The safety property: only follow-ups consult history at all, so every
+    ordinary turn is bit-for-bit what it was before this existed."""
+    message = "What did your community actually have about Jesus - writings, memories, people?"
+    history = [{"role": "user", "content": "How did your people fast?"},
+               {"role": "assistant", "content": "We fasted."}]
+    kw = dict(message=message, asks=None, canon_questions=CANON_QUESTIONS,
+              coverage=COVERAGE, repository_records=REPOSITORY)
+    assert assemble_evidence(**kw) == assemble_evidence(**kw, history=history)
+
+
+def test_a_first_turn_has_no_history_to_inherit_from():
+    out = assemble_evidence(
+        message="Why did that matter?", asks=None, canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE, repository_records=REPOSITORY, history=[])
+    assert not any(c.get("inherited_from_prior_turn") for c in out["cells"])

@@ -175,8 +175,9 @@ vocabularies, `isn't` in four cells. Twelve are now stopwords; `women's`
 and `world's` are deliberately not, being possessives of content nouns.
 Fixed, at no cost to the locked sixty.
 
-**RETRIEVAL HAS NO MEMORY, AND THE MODEL DOES.** This one is NOT fixed and
-is the more important of the two. A follow-up whose subject is `this`,
+**RETRIEVAL HAD NO MEMORY WHILE THE MODEL DID.** Fixed 2026-08-27, after
+being recorded here as architectural; the write-up below is left as it was
+found because it explains what the fix is for. A follow-up whose subject is `this`,
 `that` or `there` carries almost no retrievable content - strip the
 pronouns from the question above and you are left with `different`,
 `disagree`, `pictures`, `two`, none of which is in any cell. The
@@ -189,11 +190,33 @@ asked, on any follow-up that refers back rather than restating.** That is
 common in real conversation and the corpus cannot hint its way out of it -
 no wording in any record helps when the query has no subject in it.
 
-The fix is architectural, not editorial: Stage A would need the prior
-turn's cells to fall back on when a message yields none of its own.
-match_asks_to_cells takes no history today, so this is an interface change
-and wants its own design and measurement. Written up here so the next
-person to see a strange follow-up answer knows where to look.
+THE FIX, in engine/m4/evidence.py. A follow-up now inherits the cells of
+the last participant message that stood on its own, and those cells lead -
+a follow-up is ABOUT the previous subject, so the previous subject's ground
+should not be competing for second place against a cell matched on `said`.
+
+Detection needs both halves, and the measurement is why. A back-reference
+alone is not enough: 33 of the 93 canon questions contain `that`, `this` or
+`it`, and every one of them still NAMES ITS SUBJECT ("How did your people
+fast, and what was it for?"). What marks a follow-up is a back-reference
+AND almost no evidence of its own - measured as the best cell's shared
+mass under the scorer's own weighting, where the 93 canon questions have a
+median of 4.17 and ordinary follow-ups run 0.00 to 1.25. The conjunction
+catches 9 of 11 ordinary follow-ups and misfires on 1 of 93 canon questions
+and 2 of the 60 benchmark questions - and both of those benchmark misfires
+reach NO cell today, so inheriting is a gain there rather than a cost.
+
+Two properties keep it safe, and both are pinned by tests: a first turn has
+no history and is unchanged, and a message that is not a follow-up never
+consults history at all, so every ordinary turn is bit-for-bit what it was.
+Chains resolve to the last self-standing question rather than to each
+other, so "Say more about that." followed by "And then?" both inherit from
+the question that opened the thread.
+
+WHAT IT DOES NOT COVER: a follow-up carrying no marker at all. "Tell me
+more." and "Did they all think so?" are follow-ups to a human and are
+deliberately out of scope, because the looser rule that would catch them
+also catches real questions.
 
 ## The cost is real and shows up immediately
 

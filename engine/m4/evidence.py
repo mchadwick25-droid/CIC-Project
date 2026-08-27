@@ -37,6 +37,7 @@ gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
 import math
+import re
 
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords
 from engine.prose import all_text, content_words, overlap_coefficient
@@ -664,6 +665,91 @@ def apply_session_exclusion(*, selected: list[dict], already_told_ids: set[str] 
     return out
 
 
+# RETRIEVAL HAS NO MEMORY OF ITS OWN, AND THE MODEL DOES. Found by a live
+# turn on 2026-08-27, not by inspection. Asked "You've given me two
+# different pictures there. Did your own people disagree about this?", the
+# voice answered at length, and well, about whether women could be elders -
+# a question nobody had asked. The conversation was in the prompt and
+# plainly understood; only the GROUND was blind to it, assembled from the
+# follow-up's own words, and the voice answered from what it was handed.
+#
+# Strip the pronouns from that question and what is left is `different`,
+# `disagree`, `pictures`, `two`. The subject is `this`. Measured across a
+# set of ordinary follow-ups, every one routed on noise: "Why did that
+# matter?" scored 1.0 on `matter`, "Who said it?" scored 1.0 on `said`,
+# "Was that common?" and "What happened to him after that?" reached nothing
+# at all. No hint and no canon question can help - the query has no subject
+# in it.
+#
+# DETECTING ONE. The presence of a back-reference is not enough on its own:
+# 33 of the 93 canon questions contain `that`, `this` or `it`, and in every
+# one of them the question still NAMES ITS SUBJECT ("How did your people
+# fast, and what was it for?"). What separates a follow-up is that it
+# carries a back-reference AND almost no evidence of its own. The second
+# half is measurable with the weighting the cell scorer already computes:
+# the best cell's shared mass. Across the 93 canon questions that mass has
+# a median of 4.17 and a minimum of 1.00; across ordinary follow-ups it is
+# 0.00 to 1.25.
+#
+# So: a back-reference marker, AND best-cell shared mass below
+# _FOLLOW_UP_MASS. Measured on three sets - it catches 9 of 11 ordinary
+# follow-ups (the two it misses, "Tell me more." and "Did they all think
+# so?", carry no marker), and misfires on 1 of 93 canon questions and 2 of
+# the 60 benchmark questions. Both benchmark misfires currently reach NO
+# cell at all, so inheriting is a gain there rather than a cost.
+#
+# WHAT HAPPENS THEN. The prior turn's cells lead and the message's own fill
+# the remaining slots - a follow-up is ABOUT the previous subject, so the
+# previous subject's ground should not be competing for second place with a
+# cell matched on `said`. Two properties keep this safe: a first turn has
+# no prior cells and is unchanged, and a message that is not a follow-up
+# never consults history at all, so every non-referential turn is
+# bit-for-bit what it was.
+#
+# Chains resolve to the last SELF-STANDING question, not the last message,
+# so "Say more about that." followed by "And then?" both inherit from the
+# real question that opened the thread rather than from each other.
+_BACK_REFERENCE = {"that", "this", "those", "these", "it", "there", "then"}
+_FOLLOW_UP_MASS = 1.30
+
+
+def _looks_like_follow_up(message: str, asks, canon_questions, repository_records) -> bool:
+    """A back-reference with no subject of its own - see the block above for
+    the measurement behind both halves of the test."""
+    words = _query_words(message, asks)
+    if not words or not (_BACK_REFERENCE & set(re.findall(r"[a-z']+", (message or "").lower()))):
+        return False
+    matches = match_asks_to_cells(
+        message=message, asks=asks, canon_questions=canon_questions,
+        repository_records=repository_records, top_n=1,
+    )
+    if not matches:
+        return True
+    cell_words = cell_keywords(canon_questions)
+    counts = {w: sum(1 for ws in cell_words.values() if w in ws) for w in words}
+    weights = _word_weights(words, counts)
+    return sum(weights.get(w, 1.0) for w in matches[0]["shared_words"]) < _FOLLOW_UP_MASS
+
+
+def inherited_cells(history, *, canon_questions, repository_records, top_n) -> list[dict]:
+    """The cells of the most recent participant message that stood on its
+    own. history is the Messages-API shape engine.api.wiring builds."""
+    for entry in reversed(history or []):
+        if entry.get("role") != "user":
+            continue
+        text = entry.get("content") or ""
+        if _looks_like_follow_up(text, None, canon_questions, repository_records):
+            continue
+        return [
+            {**m, "inherited_from_prior_turn": True}
+            for m in match_asks_to_cells(
+                message=text, asks=None, canon_questions=canon_questions,
+                repository_records=repository_records, top_n=top_n,
+            )
+        ]
+    return []
+
+
 def assemble_evidence(
     *,
     message: str,
@@ -674,6 +760,7 @@ def assemble_evidence(
     thin_topics: list[dict] | None = None,
     already_told_ids: set[str] | list[str] | None = None,
     top_n_cells: int = 2,
+    history: list[dict] | None = None,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
     Returns {"cells": [...Stage A...], "candidates": [...B+C+E...],
@@ -684,6 +771,15 @@ def assemble_evidence(
     cell_matches = match_asks_to_cells(
         message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n_cells
     )
+    # A follow-up is ABOUT the previous subject. See _looks_like_follow_up.
+    if history and _looks_like_follow_up(message, asks, canon_questions, repository_records):
+        carried = inherited_cells(
+            history, canon_questions=canon_questions,
+            repository_records=repository_records, top_n=top_n_cells,
+        )
+        if carried:
+            own = [m for m in cell_matches if m["cell"] not in {c["cell"] for c in carried}]
+            cell_matches = (carried + own)[:top_n_cells]
 
     selected: list[dict] = []
     seen_ids: set[str] = set()

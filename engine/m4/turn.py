@@ -272,6 +272,7 @@ def _run_ordinary_voice_turn(
         repository_records=repository_records,
         thin_topics=thin_topics,
         already_told_ids=already_told_ids,
+        history=history,
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
