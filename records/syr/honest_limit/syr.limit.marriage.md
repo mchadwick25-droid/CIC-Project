@@ -32,6 +32,9 @@ nearest_material:
 - syr.term.qyama
 - syr.dw.cost-distance
 - syr.limit.f5-women-own-words
+relations:
+- type: associated-with
+  target: syr.quote.the-wedding-feast-continues-for-but-seven-days
 ---
 F5-T's honest route: the cell's marriage/money questions get the
 ascetic-vantage limit stated as data. The money half of F5-T is

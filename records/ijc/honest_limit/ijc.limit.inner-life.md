@@ -32,6 +32,9 @@ nearest_material:
 - ijc.story.emperor-penance
 - ijc.story.vigil-in-basilica
 - ijc.quote.ambrose-dare-not-offer
+relations:
+- type: associated-with
+  target: ijc.quote.sin-is-not-done-away-but-by-tears
 ---
 F4-P held as an honest limit with the record's two real gifts to the
 question named inside it (the sustaining singing; forgiveness's

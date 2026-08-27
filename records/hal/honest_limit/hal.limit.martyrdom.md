@@ -34,6 +34,9 @@ nearest_material:
 - hal.story.attack-416
 - hal.story.rome-crisis
 - hal.story.desert-romances
+relations:
+- type: associated-with
+  target: hal.quote.they-have-left-untold-the-name
 ---
 Grounds cell F6-E entirely. The one-honest-limit-per-cell rule applies (no
 other record claims F6-E). The Pliny-derived canon question is answered by

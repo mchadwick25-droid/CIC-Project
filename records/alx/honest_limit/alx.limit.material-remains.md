@@ -27,6 +27,9 @@ why_sources_cannot_answer: Alexandria's own Christian archaeology for this windo
 nearest_material:
 - alx.story.plague-nursing
 - alx.term.eucharistia
+relations:
+- type: associated-with
+  target: alx.quote.couches-and-trenchers-and-bowls
 ---
 The archaeologists cell: an honest limit rather than borrowed
 generalities. If the Oxyrhynchus volumes are acquired and curated at a
