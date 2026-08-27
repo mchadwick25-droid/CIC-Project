@@ -3,17 +3,22 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: merovingian-gallic-christianity
 works:
-- work: The Gospel of Pseudo-Matthew
-  author: gospel-of-pseudo-matthew
-  locus: div2 7.5
+- work: Gennadius, Lives of Illustrious Men (continuation)
+  author: gennadius
+  locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
   role: tradition
-  confidence: needs-ruling
-  note: 'Early-medieval Latin reworking of the Protevangelium tradition (commonly dated c.
-    600-625, Frankish milieu argued). The Merovingian entry is a dating guess; an Ante-Nicene
-    volume housing a 7th-century work is worth a reviewer''s note in itself.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  confidence: assigned
+  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. The doubt:
+    he has no census home - merovingian-gallic-christianity (c. 480-620) starts as he ends,
+    and no fifth-century Gallic entry exists. Parked as context for hal solely as the direct
+    continuation of Jerome''s literary project; Mark should rule whether it belongs there,
+    in the Gallic entry, or nowhere. Ruled 2026-08-26: Gennadius of Marseilles died c. 496,
+    which is INSIDE merovingian-gallic-christianity''s window (c. 480-620) rather than before
+    it - the note read ''starts as he ends'', but the overlap is real and he falls in it.
+    Assigned there as his home, with hieronymian-ascetic-literary kept as context, which is
+    what the note itself said the hal claim was: the direct continuation of Jerome''s literary
+    project, not membership of his circle.'
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213

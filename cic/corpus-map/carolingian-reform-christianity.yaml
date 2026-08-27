@@ -15,13 +15,3 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: The Gospel of the Nativity of Mary
-  author: gospel-of-nativity-of-mary
-  locus: div2 7.6
-  role: tradition
-  confidence: needs-ruling
-  note: 'Later Latin abridgement of Pseudo-Matthew, generally placed in the Carolingian period;
-    the id is a dating guess only.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

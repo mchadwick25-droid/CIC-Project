@@ -130,25 +130,29 @@ assignments:
   author: apocalypse-of-the-virgin
   locus: div2 7.2
   atlas_ids:
-  - byzantine-imperial-church-macedonian
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Medieval Greek tour-of-hell apocalypse; its possible dates span several Byzantine
     entries, and an Ante-Nicene volume is not evidence of an ante-Nicene work. Needs a ruling
-    on which segment, if any.
-
-    '
+    on which segment, if any. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
 - work: The Apocalypse of Sedrach
   author: apocalypse-of-sedrach
   locus: div2 8.2
   atlas_ids:
-  - byzantine-imperial-church-macedonian
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Byzantine-era Greek apocalypse on older Jewish material; same which-segment doubt
-    as the Apocalypse of the Virgin.
-
-    '
+    as the Apocalypse of the Virgin. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
 - work: The Testament of Abraham
   author: testament-of-abraham
   locus: div2 9.3

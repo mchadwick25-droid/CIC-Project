@@ -763,13 +763,20 @@ works:
   author: cyprian
   locus: div2 4.7 - four pieces, assigned as one body
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.
     Two pieces (On the Public Shows, and the chastity treatise) are widely attributed to Novatian
     in modern scholarship, which is why novatianism appears here - needs a ruling on whether
-    the attribution question should move them.
-
-    '
+    the attribution question should move them. RULED 2026-08-26, under a principle rather
+    than one by one - nine works across six entries were asking the same question, whether
+    a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
+    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
+    and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
+    because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
+    corpora detached from their attributed authors instead.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The Octavius of Minucius Felix
   author: felix

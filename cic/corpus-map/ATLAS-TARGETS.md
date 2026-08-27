@@ -15,7 +15,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 |---|---|---|---|---|
 | `ebionite-nazoraean-current` | Ebionite / Nazoraean Current | 1st-4th c. | Palestine, Syria | Contested - Evidentiary |
 | `post-apostolic-house-church` | Post-Apostolic House-Church Christianity | 70–200 CE | Antioch, Asia Minor, Rome | Built & Live |
-| `apocryphal-and-pseudepigraphal-literature` | Apocryphal and Pseudepigraphal Literature in Christian Transmission | c. 100-500 | Asia Minor, Syria, Egypt, Rome | Possible Future World (on record) |
+| `apocryphal-and-pseudepigraphal-literature` | Apocryphal and Pseudepigraphal Literature in Christian Transmission | c. 100-900 | Asia Minor, Syria, Egypt, Rome, and the Latin West | Possible Future World (on record) |
 | `valentinian-and-other-gnostic-christianities` | Valentinian & other Gnostic Christianities | 2nd-3rd c. | Alexandria, Rome, widespread | Excluded - Doctrinal Floor (C1) ⛔ |
 | `greek-apologists-second-century` | The Second-Century Greek Apologists | c. 124-200 | Athens, Rome, Sardis, Antioch | Possible Future World (on record) |
 | `marcion-marcionism` | Marcion / Marcionism | c. 140-300s | Rome, widespread | Excluded - Doctrinal Floor (C1) ⛔ |

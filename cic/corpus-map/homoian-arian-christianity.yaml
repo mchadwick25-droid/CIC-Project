@@ -204,7 +204,7 @@ works:
   author: hilary_poit
   locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Written to the Gallic bishops to explain the eastern creeds before Ariminum/Seleucia
     - a direct primary account of the Homoian conciliar creeds, so the homoian assignment
     is firm, and the conciliar-imperial subject matter makes imperial-juridical a real second
@@ -213,14 +213,16 @@ works:
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`.'
+    floor material only as `register: etic`. Cleared 2026-08-26: as De Trinitate - the doubt
+    was Hilary''s home, and gallic-nicene-episcopate now holds it. The homoian context assignment
+    was always the firm half.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
 - work: De Trinitate (On the Trinity)
   author: hilary_poit
   locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
     2
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The doubt is Hilary''s home, not the work: the census has NO entry for fourth-century
     Gallic Nicene Christianity (Merovingian Gaul begins c. 480), so the Latin anti-Arian voice
     of the West has no author-entry to belong to. The homoian-arian-christianity assignment
@@ -232,7 +234,10 @@ works:
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`.'
+    floor material only as `register: etic`. Cleared 2026-08-26: this note''s own words were
+    that the homoian assignment is the firm half and the doubt was Hilary''s HOME. gallic-nicene-episcopate
+    was added on record and now holds him, so nothing here is open. The context relation to
+    the Arian party stands unchanged.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
 - work: The Dialogue Against the Luciferians
   author: jerome

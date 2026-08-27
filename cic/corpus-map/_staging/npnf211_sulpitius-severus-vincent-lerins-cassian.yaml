@@ -60,12 +60,22 @@ assignments:
   locus: div2 2.5 — The Doubtful Letters
   atlas_ids:
   - gallic-monastic-ascetic-christianity
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Seven letters the edition itself marks doubtful - the attribution doubt is the editors''
     own, on top of the Gallic-gap doubt shared with the Martin works. Re-pointed 2026-08-26
     to gallic-monastic-ascetic-christianity, the era-2 entry added on record. Still `needs-ruling`:
-    the editors'' own attribution doubt is untouched by the new entry.'
+    the editors'' own attribution doubt is untouched by the new entry. RULED 2026-08-26, under
+    a principle rather than one by one - nine works across six entries were asking the same
+    question, whether a spurious corpus files under the attributed name at all. IT DOES, AND
+    IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute
+    from outside knowledge, so the transmitted-author shelf stands: that is how the corpus
+    presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
+    is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
+    corpora detached from their attributed authors instead.'
 - work: The Sacred History (Chronica)
   author: sulpiciusseverus
   locus: div2 2.6 — The Sacred History of Sulpitius Severus

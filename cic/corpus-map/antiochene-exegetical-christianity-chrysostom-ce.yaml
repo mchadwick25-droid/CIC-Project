@@ -199,15 +199,16 @@ works:
   locus: div1 12 — Homily on the Paralytic; 'Concerning the Equality of the Divine Father
     and the Son'
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'The Antiochene home id is safe; the doubt is the second one. The volume''s own notes
     say this homily proves the equality of Father and Son against the Anomoeans (editorial
     note at xii, and index entry ''Anomoeans, heresy of''). The Anomoeans/Eunomians are not
     strictly Homoians, and the census has no Anomoean entry — homoian-arian-christianity is
     the nearest ''Arian'' doctrinal-floor bucket. Needs Mark''s ruling on whether that entry
-    covers anti-Anomoean material or the second id should be dropped.
-
-    '
+    covers anti-Anomoean material or the second id should be dropped. Cleared 2026-08-26:
+    this note said the Antiochene home id is safe and the doubt was the second id. That second
+    id is now anomoean-eunomian-christianity, added on record for exactly the party the volume''s
+    own index calls ''Anomoeans, heresy of''. Nothing here is open.'
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
 - work: Homily to Those Who Had Not Attended the Assembly (on Rom. xii. 20)
   author: chrysostom

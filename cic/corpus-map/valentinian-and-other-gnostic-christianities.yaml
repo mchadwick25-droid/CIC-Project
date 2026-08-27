@@ -64,14 +64,21 @@ works:
   author: pseudo_tertullian
   locus: div2 5.11 under div1 'Anti-Marcion.' (marked apparatus in STRUCTURE.md)
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: 'An ancient heresy catalogue, not 19th-century editorial matter, though STRUCTURE.md''s
     apparatus marker caught it via its "Appendix" title - flagged rather than silently skipped.
     The volume''s own editor calls it spurious (see ruling above). Needs a ruling on both
     counts: whether a pseudo-Tertullianic catalogue is wanted at all, and where; its notices
-    cover many more movements than these two entries.
-
-    '
+    cover many more movements than these two entries. RULED 2026-08-26, under a principle
+    rather than one by one - nine works across six entries were asking the same question,
+    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
+    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
+    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
+    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
+    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
+    corpora detached from their attributed authors instead.'
   source_file: anf03_tertullian.xml
 - work: Against the Valentinians
   author: tertullian

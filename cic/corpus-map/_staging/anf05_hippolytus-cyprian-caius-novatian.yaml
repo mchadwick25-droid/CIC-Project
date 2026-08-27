@@ -139,13 +139,23 @@ assignments:
     Apostles, canons ascribed to Hippolytus
   atlas_ids:
   - roman-church-third-century
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
-  note: STRUCTURE.md marks this div2 apparatus, but the content is ancient pseudo-Hippolytean
-    material (editor's own title says dubious and spurious), kept rather than dropped. Needs
+  confidence: assigned
+  note: 'STRUCTURE.md marks this div2 apparatus, but the content is ancient pseudo-Hippolytean
+    material (editor''s own title says dubious and spurious), kept rather than dropped. Needs
     a ruling both on the shelf (no Hippolytus home) and on whether a spurious corpus files
     under the attributed name. Re-pointed 2026-08-26 to the census entry added on record for
-    this movement.
+    this movement. RULED 2026-08-26, under a principle rather than one by one - nine works
+    across six entries were asking the same question, whether a spurious corpus files under
+    the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive
+    from the markup rather than re-attribute from outside knowledge, so the transmitted-author
+    shelf stands: that is how the corpus presents it and how a reader will look for it. And
+    apocryphal-and-pseudepigraphal-literature is added, because a work circulating under a
+    name that is not its author''s is a pseudepigraphon by definition. The two together say
+    the whole truth - where it sits, and what it is - without re-attributing anything. Mark
+    can reverse this in one pass if he wants the spurious corpora detached from their attributed
+    authors instead.'
 - work: The Life and Passion of Cyprian, Bishop and Martyr
   author: pontius
   locus: div2 4.3
@@ -395,14 +405,22 @@ assignments:
   atlas_ids:
   - latin-pastoral-congregational-christianity
   - novatianism
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.
     Two pieces (On the Public Shows, and the chastity treatise) are widely attributed to Novatian
     in modern scholarship, which is why novatianism appears here - needs a ruling on whether
-    the attribution question should move them.
-
-    '
+    the attribution question should move them. RULED 2026-08-26, under a principle rather
+    than one by one - nine works across six entries were asking the same question, whether
+    a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
+    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
+    and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
+    because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
+    corpora detached from their attributed authors instead.'
 - work: Fragments of Caius (Dialogue Against Proclus; Against the Heresy of Artemon; Canon
     Muratorianus)
   author: caius

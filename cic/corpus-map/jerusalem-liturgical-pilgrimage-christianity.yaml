@@ -35,17 +35,6 @@ works:
 
     '
   source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
-- work: The Book of John Concerning the Falling Asleep of Mary
-  author: falling-asleep-of-mary
-  locus: div2 7.42
-  role: tradition
-  confidence: needs-ruling
-  note: 'Greek Dormition narrative, 5th-6th c.; the Dormition traditions and their feasts
-    center on Jerusalem, but the text postdates the entry''s 325-450 window — needs a ruling
-    on where Dormition literature lives.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: On Pilgrimages
   author: gregory_nyssa
   locus: txt heading at line 33740 (part II, Ascetic and Moral)
@@ -83,13 +72,3 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: The Passing of Mary (two Latin forms)
-  author: passing-of-mary
-  locus: div2 7.43-7.44
-  role: tradition
-  confidence: needs-ruling
-  note: 'Latin Transitus Mariae (circulating under Melito''s name); same class and same doubt
-    as the Falling Asleep of Mary.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

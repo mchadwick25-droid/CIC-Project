@@ -33,14 +33,17 @@ works:
   author: gennadius
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
   role: context
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. The doubt:
     he has no census home - merovingian-gallic-christianity (c. 480-620) starts as he ends,
     and no fifth-century Gallic entry exists. Parked as context for hal solely as the direct
     continuation of Jerome''s literary project; Mark should rule whether it belongs there,
-    in the Gallic entry, or nowhere.
-
-    '
+    in the Gallic entry, or nowhere. Ruled 2026-08-26: Gennadius of Marseilles died c. 496,
+    which is INSIDE merovingian-gallic-christianity''s window (c. 480-620) rather than before
+    it - the note read ''starts as he ends'', but the overlap is real and he falls in it.
+    Assigned there as his home, with hieronymian-ascetic-literary kept as context, which is
+    what the note itself said the hal claim was: the direct continuation of Jerome''s literary
+    project, not membership of his circle.'
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Against Jovinianus
   author: jerome

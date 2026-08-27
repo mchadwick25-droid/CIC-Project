@@ -6,13 +6,16 @@ works:
 - work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
   locus: div2 7.7
-  role: tradition
-  confidence: needs-ruling
+  role: transmission
+  confidence: assigned
   note: 'Egyptian composition (Coptic/Arabic transmission), commonly dated 4th-7th century,
     tied to the Coptic feast of Joseph; the Egyptian Miaphysite entry is a provenance guess
-    across an uncertain date range.
-
-    '
+    across an uncertain date range. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is. Egyptian composition surviving in Coptic and Arabic - the Egyptian church
+    is why we have it, which is custody rather than a date guess.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Divine Liturgy of Mark
   author: liturgy-of-st-mark

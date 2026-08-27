@@ -449,37 +449,58 @@ assignments:
   author: gospel-of-pseudo-matthew
   locus: div2 7.5
   atlas_ids:
-  - merovingian-gallic-christianity
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Early-medieval Latin reworking of the Protevangelium tradition (commonly dated c.
     600-625, Frankish milieu argued). The Merovingian entry is a dating guess; an Ante-Nicene
-    volume housing a 7th-century work is worth a reviewer''s note in itself.
-
-    '
+    volume housing a 7th-century work is worth a reviewer''s note in itself. Ruled 2026-08-26:
+    moved to apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900
+    to cover its own material. Every note in this group said the same thing - the entry it
+    sat in was whichever era bucket happened to be nearest, on a date its own note calls a
+    guess spanning centuries. An era guess is not a placement; the class is.'
 - work: The Gospel of the Nativity of Mary
   author: gospel-of-nativity-of-mary
   locus: div2 7.6
   atlas_ids:
-  - carolingian-reform-christianity
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Later Latin abridgement of Pseudo-Matthew, generally placed in the Carolingian period;
-    the id is a dating guess only.
-
-    '
+    the id is a dating guess only. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
+- work: The History of Joseph the Carpenter
+  author: history-of-joseph-the-carpenter
+  locus: div2 7.7
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Egyptian composition (Coptic/Arabic transmission), commonly dated 4th-7th century,
+    tied to the Coptic feast of Joseph; the Egyptian Miaphysite entry is a provenance guess
+    across an uncertain date range. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
 - work: The History of Joseph the Carpenter
   author: history-of-joseph-the-carpenter
   locus: div2 7.7
   atlas_ids:
   - cyrilline-miaphysite-egyptian-christianity
-  role: tradition
-  confidence: needs-ruling
+  role: transmission
+  confidence: assigned
   note: 'Egyptian composition (Coptic/Arabic transmission), commonly dated 4th-7th century,
     tied to the Coptic feast of Joseph; the Egyptian Miaphysite entry is a provenance guess
-    across an uncertain date range.
-
-    '
+    across an uncertain date range. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is. Egyptian composition surviving in Coptic and Arabic - the Egyptian church
+    is why we have it, which is custody rather than a date guess.'
 - work: The Infancy Gospel of Thomas (three forms)
   author: infancy-gospel-of-thomas
   locus: div2 7.8-7.10
@@ -496,13 +517,29 @@ assignments:
   author: arabic-gospel-of-the-infancy
   locus: div2 7.11
   atlas_ids:
-  - syriac-orthodox-west-syriac-christianity
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Compiled from Syriac sources, commonly dated 5th-6th century; the West Syriac entry
-    is a transmission-milieu guess.
-
-    '
+    is a transmission-milieu guess. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
+- work: The Arabic Gospel of the Infancy of the Saviour
+  author: arabic-gospel-of-the-infancy
+  locus: div2 7.11
+  atlas_ids:
+  - syriac-orthodox-west-syriac-christianity
+  role: transmission
+  confidence: assigned
+  note: 'Compiled from Syriac sources, commonly dated 5th-6th century; the West Syriac entry
+    is a transmission-milieu guess. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is. Compiled from Syriac sources and transmitted in Arabic through that milieu;
+    custody, not composition.'
 - work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
   author: gospel-of-nicodemus
   locus: div2 7.12-7.17
@@ -559,13 +596,15 @@ assignments:
   author: acts-of-barnabas
   locus: div2 7.27
   atlas_ids:
-  - byzantine-imperial-church-justinianic
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Cypriot composition commonly tied to the 5th-century case for Cyprus''s autocephaly;
-    the Justinianic entry is the nearest era bucket, not a fit.
-
-    '
+    the Justinianic entry is the nearest era bucket, not a fit. Ruled 2026-08-26: moved to
+    apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900 to cover
+    its own material. Every note in this group said the same thing - the entry it sat in was
+    whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
+    centuries. An era guess is not a placement; the class is.'
 - work: The Acts of Philip
   author: acts-of-philip
   locus: div2 7.28
@@ -618,13 +657,15 @@ assignments:
   author: acts-of-matthew
   locus: div2 7.32
   atlas_ids:
-  - byzantine-imperial-church-justinianic
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Late Greek hagiographic romance (5th-7th c.?); the Justinianic entry is an era guess
-    for a work with no strong bucket.
-
-    '
+    for a work with no strong bucket. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
 - work: Acts of Thomas (with the Consummation of Thomas)
   author: acts-of-thomas
   locus: div2 7.33-7.34
@@ -643,10 +684,14 @@ assignments:
   author: martyrdom-of-bartholomew
   locus: div2 7.35
   atlas_ids:
-  - byzantine-imperial-church-justinianic
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
-  note: Late Greek romance; era guess only, same class as the Matthew acts.
+  confidence: assigned
+  note: 'Late Greek romance; era guess only, same class as the Matthew acts. Ruled 2026-08-26:
+    moved to apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900
+    to cover its own material. Every note in this group said the same thing - the entry it
+    sat in was whichever era bucket happened to be nearest, on a date its own note calls a
+    guess spanning centuries. An era guess is not a placement; the class is.'
 - work: Acts of the Holy Apostle Thaddaeus
   author: acts-of-thaddaeus
   locus: div2 7.36
@@ -704,13 +749,15 @@ assignments:
   author: revelation-of-esdras
   locus: div2 7.39
   atlas_ids:
-  - byzantine-imperial-church-macedonian
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Byzantine-era Greek apocalypse on Jewish Esdras material; its date range spans several
-    Byzantine entries — needs a ruling on which segment, if any.
-
-    '
+    Byzantine entries — needs a ruling on which segment, if any. Ruled 2026-08-26: moved to
+    apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900 to cover
+    its own material. Every note in this group said the same thing - the entry it sat in was
+    whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
+    centuries. An era guess is not a placement; the class is.'
 - work: Revelation of Paul
   author: apocalypse-of-paul
   locus: div2 7.40
@@ -728,36 +775,42 @@ assignments:
   author: revelation-of-john
   locus: div2 7.41
   atlas_ids:
-  - byzantine-imperial-church-macedonian
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Apocryphal Apocalypse of John, Byzantine-era Greek (5th-9th c.?); same which-Byzantine-segment
-    doubt as the Revelation of Esdras.
-
-    '
+    doubt as the Revelation of Esdras. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
 - work: The Book of John Concerning the Falling Asleep of Mary
   author: falling-asleep-of-mary
   locus: div2 7.42
   atlas_ids:
-  - jerusalem-liturgical-pilgrimage-christianity
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Greek Dormition narrative, 5th-6th c.; the Dormition traditions and their feasts
     center on Jerusalem, but the text postdates the entry''s 325-450 window — needs a ruling
-    on where Dormition literature lives.
-
-    '
+    on where Dormition literature lives. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
 - work: The Passing of Mary (two Latin forms)
   author: passing-of-mary
   locus: div2 7.43-7.44
   atlas_ids:
-  - jerusalem-liturgical-pilgrimage-christianity
+  - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Latin Transitus Mariae (circulating under Melito''s name); same class and same doubt
-    as the Falling Asleep of Mary.
-
-    '
+    as the Falling Asleep of Mary. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
 - work: 'The Decretals (pseudo-Isidorian: Zephyrinus to Fabian)'
   author: decretals-pseudo-isidore
   locus: div1 8 (div2 8.3-8.9)

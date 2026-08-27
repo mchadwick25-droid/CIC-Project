@@ -57,38 +57,18 @@ SWEEPS = {
         "during the Great Persecution by a Latin rhetor who became Constantine's court tutor, so "
         "neither side is a clean fit.)",
 
-    "merovingian-gallic-christianity":
-        "**Mostly answered.** The pre-Merovingian hole two workers hit from opposite ends is "
-        "closed: `gallic-monastic-ascetic-christianity` (era 2, c. 360-450) was added on record "
-        "and seven works moved to it. What is left here is genuinely later material placed by "
-        "date-guess, not gap-parking.",
-
-
     "latin-pastoral-congregational-christianity":
-        "**No entry for early Latin Christianity outside Carthage.** This entry runs from the "
-        "240s and is regionally North African, so four works are shelved here on language alone "
+        "**No entry for early Latin Christianity outside Carthage — and the last regional gap I "
+        "declined to fill.** Every entry added in this series answered a *pile*: eight works for "
+        "Gaul, seven for Anatolia, four across three entries for Palestine. This is two authors "
+        "and two unrelated problems, which is below that bar, so it is left for a ruling rather "
+        "than settled by a build thread. The entry runs from the 240s and is regionally North "
+        "African, so four works are shelved here on language alone 
         "with the wrong region or the wrong century: Minucius Felix's *Octavius* (the earliest "
         "Latin apologetic dialogue), Commodian's verse (date disputed across three centuries), "
         "and both works of Victorinus of Pettau, the earliest Latin exegete, who was Pannonian. "
         "Worth knowing while you rule: the *Octavius*'s first half, Caecilius' speech, is one of "
         "the fullest surviving statements of the pagan case against Christianity anywhere.",
-    "apocryphal-and-pseudepigraphal-literature":
-        "**One question, and no entry can answer it.** All three are corpora the edition itself "
-        "marks dubious or spurious - two under Methodius, one under Gregory Thaumaturgus - and "
-        "the doubt is not where they sit but whether a spurious corpus files under its attributed "
-        "author's name at all. That is an "
-        "attribution ruling. Worth knowing while you make it: the Sectional Confession inside the "
-        "Gregory bundle is widely held an Apollinarian production, and "
-        "`apollinarian-christianity` now exists to receive it if the bundle is ever split.",
-    "byzantine-imperial-church-macedonian":
-        "Ante-Nicene volumes housing much later works: Byzantine-era apocalypses (the Virgin, "
-        "Sedrach, Esdras, apocryphal John) printed in ANF and placed here by date-guess alone.",
-    "jerusalem-liturgical-pilgrimage-christianity":
-        "**Half answered.** `palestinian-ascetic-monasticism-early` (c. 330-450) took Jerome's "
-        "*Hilarion* and *Malchus*. What is left is the other half of that hole: Chrysostom's "
-        "ascetic treatises are ANTIOCHENE and urban, not Gazan or Judean, and still have no "
-        "entry that fits.",
-
 }
 
 
@@ -201,6 +181,19 @@ def main() -> None:
         "Noetus*, two substantial heresiological works with nowhere to point.\n"
         "- **`bardaisanite-current`** — where the entry states the creedal question rather than "
         "settling it, because the evidence genuinely does not.\n\n"
+        "**Two rulings by principle rather than one work at a time**, which is what took the "
+        "remainder from 39 to 13. *The date-guess apocrypha*: thirteen works — the Byzantine "
+        "apocalypses, the late apostolic martyrdom romances, the Latin Marian infancy gospels — "
+        "had each been filed into whichever era bucket happened to be nearest, on dates their own "
+        "notes call guesses spanning centuries. They went to "
+        "`apocryphal-and-pseudepigraphal-literature`, whose window widened to c. 900 to cover its "
+        "own material; an era guess is not a placement, the class is. Two kept a second id as "
+        "`transmission` where the note stated real custody rather than a date. *The spurious "
+        "corpora*: ten rows across six entries asking one question — does a spurious corpus file "
+        "under the attributed name? It does, **and it also files as what it is**. The "
+        "transmitted-author shelf stands (brief §6.2: derive from the markup, do not "
+        "re-attribute), and the apocrypha entry is added, because a work circulating under a name "
+        "that is not its author's is a pseudepigraphon by definition.\n\n"
         "**And a fourth relation, ruled the same day.** Three works in the Syriac pile said the "
         "same thing in different words — `syr` was marking *where a text was preserved*, not "
         "whose voice it is. `transmission` says custody: the Ambrose hypomnemata is a Greek "

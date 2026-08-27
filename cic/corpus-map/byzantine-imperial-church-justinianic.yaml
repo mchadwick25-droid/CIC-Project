@@ -3,26 +3,6 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: byzantine-imperial-church-justinianic
 works:
-- work: The Acts of Barnabas
-  author: acts-of-barnabas
-  locus: div2 7.27
-  role: tradition
-  confidence: needs-ruling
-  note: 'Cypriot composition commonly tied to the 5th-century case for Cyprus''s autocephaly;
-    the Justinianic entry is the nearest era bucket, not a fit.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
-- work: Acts and Martyrdom of St. Matthew the Apostle
-  author: acts-of-matthew
-  locus: div2 7.32
-  role: tradition
-  confidence: needs-ruling
-  note: 'Late Greek hagiographic romance (5th-7th c.?); the Justinianic entry is an era guess
-    for a work with no strong bucket.
-
-    '
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
   author: council-of-chalcedon-451
   locus: div1 11 — acts extracts, Definition 11.13, canons 11.18 (the Tome split out below)
@@ -93,10 +73,3 @@ works:
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
-- work: Martyrdom of the Holy and Glorious Apostle Bartholomew
-  author: martyrdom-of-bartholomew
-  locus: div2 7.35
-  role: tradition
-  confidence: needs-ruling
-  note: Late Greek romance; era guess only, same class as the Matthew acts.
-  source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

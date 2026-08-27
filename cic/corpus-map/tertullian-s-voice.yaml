@@ -96,14 +96,21 @@ works:
   author: tertullian
   locus: div2 3.11 - Appendix (five verse pieces, div3s)
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
     Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
     in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.
     Needs a ruling on whether spurious verse files under tertullian at all, and where non-Marcion
-    pieces belong.
-
-    '
+    pieces belong. RULED 2026-08-26, under a principle rather than one by one - nine works
+    across six entries were asking the same question, whether a spurious corpus files under
+    the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive
+    from the markup rather than re-attribute from outside knowledge, so the transmitted-author
+    shelf stands: that is how the corpus presents it and how a reader will look for it. And
+    apocryphal-and-pseudepigraphal-literature is added, because a work circulating under a
+    name that is not its author''s is a pseudepigraphon by definition. The two together say
+    the whole truth - where it sits, and what it is - without re-attributing anything. Mark
+    can reverse this in one pass if he wants the spurious corpora detached from their attributed
+    authors instead.'
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
 - work: De Fuga in Persecutione (Flight in Persecution)
   author: tertullian

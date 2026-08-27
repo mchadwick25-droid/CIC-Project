@@ -99,7 +99,7 @@ assignments:
   - anatolian-church-third-century
   - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'CCEL''s own heading marks the body dubious or spurious; several pieces are much later
     (the Sectional Confession is widely held an Apollinarian production). Needs a ruling on
     whether a spurious corpus files under the attributed name at all. Re-pointed 2026-08-26
@@ -107,7 +107,16 @@ assignments:
     for the pseudonymous character. STILL `needs-ruling`: whether a spurious corpus files
     under the attributed name at all is an attribution ruling no new entry answers. The Sectional
     Confession is widely held an Apollinarian production, and apollinarian-christianity now
-    exists to receive it if the bundle is ever split.'
+    exists to receive it if the bundle is ever split. RULED 2026-08-26, under a principle
+    rather than one by one - nine works across six entries were asking the same question,
+    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
+    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
+    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
+    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
+    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
+    corpora detached from their attributed authors instead.'
 - work: Extant Fragments of Dionysius of Alexandria (works and epistles)
   author: dionysius_gr
   locus: 'div2 4.3 - two div3 groups: sections of works (On Nature, against Sabellius) and
@@ -167,12 +176,21 @@ assignments:
   atlas_ids:
   - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Printed under Africanus but generally regarded as a later pseudonymous legend; kept
     under the attributed name pending a ruling, on the same shelf as his section. Re-pointed
     2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold exactly this class,
     and alexandria was a provenance guess only. STILL `needs-ruling`: the attribution doubt
-    in this note is untouched by a new entry.'
+    in this note is untouched by a new entry. RULED 2026-08-26, under a principle rather than
+    one by one - nine works across six entries were asking the same question, whether a spurious
+    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
+    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
+    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
+    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
+    circulating under a name that is not its author''s is a pseudepigraphon by definition.
+    The two together say the whole truth - where it sits, and what it is - without re-attributing
+    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
+    from their attributed authors instead.'
 - work: The Passion of St. Symphorosa and Her Seven Sons
   author: juliusafricanus
   locus: div2 5.6
@@ -443,7 +461,7 @@ assignments:
   - anatolian-church-third-century
   - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Festal oration for the Meeting in the Temple, widely regarded as later than Methodius
     (the feast''s development postdates him). Shelved with his section pending a ruling on
     the spurious pieces. Re-pointed 2026-08-26 to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature
@@ -451,7 +469,16 @@ assignments:
     asks - whether a spurious corpus files under the attributed name at all - is an attribution
     ruling that no new entry answers. Worth noting for whoever rules it: the Sectional Confession
     is widely held an Apollinarian production, and apollinarian-christianity now exists to
-    receive it if the bundle is ever split.'
+    receive it if the bundle is ever split. RULED 2026-08-26, under a principle rather than
+    one by one - nine works across six entries were asking the same question, whether a spurious
+    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
+    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
+    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
+    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
+    circulating under a name that is not its author''s is a pseudepigraphon by definition.
+    The two together say the whole truth - where it sits, and what it is - without re-attributing
+    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
+    from their attributed authors instead.'
 - work: Oration on the Palms
   author: methodius
   locus: div2 11.9
@@ -459,14 +486,23 @@ assignments:
   - anatolian-church-third-century
   - apocryphal-and-pseudepigraphal-literature
   role: tradition
-  confidence: needs-ruling
+  confidence: assigned
   note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Re-pointed 2026-08-26
     to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
     for the pseudonymous character. STILL `needs-ruling`: the question this note asks - whether
     a spurious corpus files under the attributed name at all - is an attribution ruling that
     no new entry answers. Worth noting for whoever rules it: the Sectional Confession is widely
     held an Apollinarian production, and apollinarian-christianity now exists to receive it
-    if the bundle is ever split.'
+    if the bundle is ever split. RULED 2026-08-26, under a principle rather than one by one
+    - nine works across six entries were asking the same question, whether a spurious corpus
+    files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
+    6.2 says derive from the markup rather than re-attribute from outside knowledge, so the
+    transmitted-author shelf stands: that is how the corpus presents it and how a reader will
+    look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work circulating
+    under a name that is not its author''s is a pseudepigraphon by definition. The two together
+    say the whole truth - where it sits, and what it is - without re-attributing anything.
+    Mark can reverse this in one pass if he wants the spurious corpora detached from their
+    attributed authors instead.'
 - work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
     fragments)
   author: methodius
