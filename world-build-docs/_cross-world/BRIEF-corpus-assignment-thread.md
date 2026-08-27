@@ -183,7 +183,7 @@ What it enforces, so you know what will bounce:
 |---|---|
 | filename == `atlas_id` == a real `movements[].id` | the alignment mechanism; a typo would create a silent orphan bucket |
 | `work`, `author`, `source_file`, `role`, `confidence` all present | an assignment missing any of these cannot be acted on later |
-| `role` ∈ {`tradition`, `context`, `antecedent`} · `confidence` ∈ {`assigned`, `provisional`, `needs-ruling`} | §11a, §6.6, and the antecedent rule below |
+| `role` ∈ {`tradition`, `context`, `antecedent`, `transmission`} · `confidence` ∈ {`assigned`, `provisional`, `needs-ruling`} | §11a, §6.6, and the antecedent rule below |
 | `source_file` names a file in `cic/texts/` | catches a source that was cited but never vendored |
 | `author` is a slug in `cic/texts/AUTHORS.md` | §6.2 — derived from the markup, not from your own patristics |
 | the same work twice in ONE entry | a duplicate. The same work in SEVERAL entries is expected and correct (§6.1) — the validator will never complain about that |
@@ -240,6 +240,17 @@ existed — not its own voice (`tradition`) and not an outside observer's
 vendored sources argue from the text.** Admiration and descent are not enough,
 or Augustine ends up assigned to every Reformation entry. A *contemporary*
 opponent is `context`, not `antecedent`.
+
+**6.1c — `transmission` is custody, not voice.** Added 2026-08-26. Use it when
+the entry's people *preserved* a work that originates outside them and is why
+we still have it — Syriac scribes and a Greek apology, Christian scribes and
+the Jewish pseudepigrapha. **Not** for an opponent quoted *inside* a work of
+the tradition (Celsus in Origen — the containing work is Origen's), and **not**
+for a lost work surviving as fragments in a later author (that is a fact about
+the source record). A work the tradition composed stays `tradition` however
+widely it was copied. Rule of thumb: if the work's own voice has no home
+elsewhere in the map, you have not found a transmission — you have found a
+`tradition` you mislabelled.
 
 **6.2 — Derive, do not assert.** Every author name should come from the
 files' own CCEL markup (`<DC.Creator>` slugs, `<div1>` titles), which

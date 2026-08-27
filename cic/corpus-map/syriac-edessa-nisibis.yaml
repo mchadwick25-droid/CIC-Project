@@ -66,7 +66,7 @@ works:
 - work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
   author: ambrose-hypomnemata
   locus: div2 9.18
-  role: tradition
+  role: transmission
   confidence: provisional
   note: 'Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
     per the volume''s endnote). It is Christian apologetic, not Edessene as such; syr marks
@@ -77,7 +77,11 @@ works:
     to the Greeks. So greek-apologists-second-century is added, which is where the argument
     belongs, and syriac-edessa-nisibis is kept, which is how it reached us. `provisional`
     because the APOLOGIST half is a date question - the entry''s window is 124-200 and this
-    piece is undated - not because the Syriac half is in doubt.'
+    piece is undated - not because the Syriac half is in doubt. Role ruled 2026-08-26: `transmission`,
+    the fourth relation, added on Mark''s ruling. The relation is CUSTODY - this tradition
+    preserved a work that is not its own voice. The volume''s own headnote says the original
+    was Greek, because the Syriac mistranslates it in places. Syriac scribes are why it exists
+    at all; the argument in it is not theirs.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: 'Demonstration II: On Love'
   author: aphrahat
@@ -344,7 +348,7 @@ works:
 - work: The Clementine Homilies
   author: pseudo-clement
   locus: div2 6.4
-  role: tradition
+  role: transmission
   confidence: assigned
   note: 'Same ruling and same doubt as the Recognitions: pseudonymous Clement romance with
     Jewish-Christian theology (the True Prophet, anti-Pauline edge), Syrian provenance c.
@@ -354,12 +358,15 @@ works:
     which exists for exactly a disputed record; syriac-edessa-nisibis because composition
     in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
     hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
-    same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
+    same as Edessene. Non-exclusive assignment is what lets both facts be true at once. Role
+    ruled 2026-08-26: `transmission`, the fourth relation, added on Mark''s ruling. The relation
+    is CUSTODY - this tradition preserved a work that is not its own voice. As the Recognitions:
+    custody here, voice in ebionite-nazoraean-current.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Recognitions of Clement
   author: pseudo-clement
   locus: div2 6.3
-  role: tradition
+  role: transmission
   confidence: assigned
   note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
     Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
@@ -372,7 +379,13 @@ works:
     which exists for exactly a disputed record; syriac-edessa-nisibis because composition
     in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
     hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
-    same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
+    same as Edessene. Non-exclusive assignment is what lets both facts be true at once. Role
+    ruled 2026-08-26: `transmission`, the fourth relation, added on Mark''s ruling. The relation
+    is CUSTODY - this tradition preserved a work that is not its own voice. Syriac preserves
+    part of the Clementine corpus; composition was Syrian but not demonstrably Edessene, and
+    this entry is Edessa and Nisibis. The VOICE assignment is ebionite-nazoraean-current,
+    which stays `tradition`. Custody here, voice there - which is what the role was added
+    to be able to say.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Ecclesiastical History of Sozomen
   author: sozomen
@@ -444,7 +457,7 @@ works:
 - work: Two Epistles Concerning Virginity
   author: two-epistles-on-virginity
   locus: div2 5.3-5.4
-  role: tradition
+  role: transmission
   confidence: assigned
   note: 'Pseudo-Clementine ascetic letters, generally placed in 3rd-century Syria/Palestine
     and preserved in Syriac. syr is a region-and-era guess, not a demonstrated Edessene provenance;
@@ -453,5 +466,9 @@ works:
     Syrian milieu, and given apocryphal-and-pseudepigraphal-literature alongside, which is
     what these are - pseudo-Clementine letters written under a name that is not theirs. The
     ascetic-milieu question in the original note is not resolved by either; it is noted and
-    not forced.'
+    not forced. Role ruled 2026-08-26: `transmission`, the fourth relation, added on Mark''s
+    ruling. The relation is CUSTODY - this tradition preserved a work that is not its own
+    voice. Pseudo-Clementine ascetic letters preserved in Syriac; the note already said syr
+    was a region-and-era guess rather than demonstrated Edessene provenance. Custody is the
+    honest claim.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

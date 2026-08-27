@@ -88,5 +88,31 @@ total_rows = sum(len(v) for v in buckets2.values())
 results.append(check(f"antecedent stays a narrow relation ({len(ante)}/{total_rows} rows)",
                      len(ante) <= total_rows * 0.05))
 
+
+
+# --- the `transmission` role (Mark's ruling, 2026-08-26) ---
+buckets3, _ = corpus_map_merge.merge(write=False)
+trans = [(a, w) for a, ws in buckets3.items() for w in ws if w.get("role") == "transmission"]
+results.append(check(f"the transmission role is in use ({len(trans)} row(s))", bool(trans)))
+
+# Custody and voice cannot be the same claim about the same entry.
+same = [(w.get("work"), a) for a, w in trans
+        if any(x.get("work") == w.get("work") and x.get("role") == "tradition"
+               for x in buckets3.get(a, []))]
+results.append(check("no work is both transmission and tradition in the same entry", not same))
+
+# THE INVARIANT THAT MAKES THE ROLE MEAN SOMETHING. `transmission` says a
+# tradition preserved a work that is not its own voice - so that voice has to
+# be somewhere. A transmission row whose work has no `tradition` or `context`
+# home anywhere is custody of nothing, and almost certainly a mis-used
+# `tradition`.
+homed = {x.get("work") for ws in buckets3.values() for x in ws
+         if x.get("role") in ("tradition", "context")}
+orphan = sorted({w.get("work") for _, w in trans if w.get("work") not in homed})
+results.append(check("every transmitted work has its voice assigned somewhere else", not orphan))
+if orphan:
+    for o in orphan:
+        print(f"       orphan: {o}")
+
 print("\nall passed" if all(results) else "\nFAILURES")
 sys.exit(0 if all(results) else 1)

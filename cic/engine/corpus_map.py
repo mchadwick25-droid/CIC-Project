@@ -33,7 +33,44 @@ Three rulings are enforced here rather than left to memory:
       while looking tidy. A validator that demanded uniqueness would be
       enforcing a bug.
 
-  ROLE: TRADITION | CONTEXT | ANTECEDENT.
+  ROLE: TRADITION | CONTEXT | ANTECEDENT | TRANSMISSION.
+
+      `transmission` was added 2026-08-26 on Mark's ruling, after three works
+      in the Syriac pile turned out to be saying the same thing in different
+      words: `syr` was marking WHERE A TEXT WAS PRESERVED, not whose voice it
+      is. The Ambrose hypomnemata is a Greek apology that survives only
+      because Syriac scribes copied it. The Testaments of the Twelve
+      Patriarchs, the Life of Adam and Eve and the Narrative of Zosimus are
+      Jewish works that survive only because Christian scribes went on copying
+      them after Judaism had let them go.
+
+      THE RELATION IS CUSTODY. Not authorship, not opposition, not authority.
+      An assignment is `transmission` when the work ORIGINATES OUTSIDE the
+      entry and the entry's people are why we still have it.
+
+      THE BOUNDARY, which is the whole reason this was measured before it was
+      added. A scan for preservation language returned 25 rows, and reading
+      them showed it conflating three different relations. Only the first
+      belongs here:
+
+        transmission   this tradition preserved a work that is not its voice.
+        embedded voice an opponent's words survive INSIDE a work of this
+                       tradition - Celsus inside Origen's refutation, Petilian
+                       inside Augustine's, Mani inside Augustine's. The
+                       containing work is the tradition's own; the quoted
+                       voice has no separate custody relation, and marking one
+                       would make every polemic a transmission.
+        attested-by    a lost work survives as fragments quoted by a later
+                       author - Alexander of Jerusalem via Eusebius. That is a
+                       fact about the source record, not a relation between an
+                       entry and a work.
+
+      A work the tradition COMPOSED is `tradition`, however widely it was
+      later copied. And an entry whose whole subject is preserved material -
+      `apocryphal-and-pseudepigraphal-literature` - holds that material as
+      `tradition`, because there it is the content rather than the custody:
+      the Testaments are `tradition` in the apocrypha entry and
+      `transmission` in `post-apostolic-house-church`, whose scribes kept them.
 
       `antecedent` was added 2026-08-26 for a relation the first two cannot
       express. The Donatists claimed Cyprian as their charter authority - his
@@ -86,7 +123,7 @@ MAP_DIR = REPO_ROOT / "cic" / "corpus-map"
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"
 CENSUS = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 
-ROLES = {"tradition", "context", "antecedent"}
+ROLES = {"tradition", "context", "antecedent", "transmission"}
 CONFIDENCES = {"assigned", "provisional", "needs-ruling"}
 REQUIRED = ("work", "author", "source_file", "role", "confidence")
 

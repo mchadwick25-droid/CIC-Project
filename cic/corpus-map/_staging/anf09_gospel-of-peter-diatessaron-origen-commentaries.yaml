@@ -178,7 +178,6 @@ assignments:
   author: narrative-of-zosimus
   locus: div2 11.2
   atlas_ids:
-  - post-apostolic-house-church
   - apocryphal-and-pseudepigraphal-literature
   role: tradition
   confidence: assigned
@@ -187,6 +186,21 @@ assignments:
     only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class
     these notes kept saying had no bucket. pahc is kept where the subject matter is genuinely
     apostolic-era; this entry names what the TEXT is.'
+- work: The Narrative of Zosimus
+  author: narrative-of-zosimus
+  locus: div2 11.2
+  atlas_ids:
+  - post-apostolic-house-church
+  role: transmission
+  confidence: assigned
+  note: 'Legend of the Blessed Ones (the Rechabites), Jewish core with Christian reworking,
+    date and provenance uncertain; pahc stands in for ''early Christian transmission milieu''
+    only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the class
+    these notes kept saying had no bucket. pahc is kept where the subject matter is genuinely
+    apostolic-era; this entry names what the TEXT is. Role ruled 2026-08-26: `transmission`,
+    the fourth relation, added on Mark''s ruling. The relation is CUSTODY - this tradition
+    preserved a work that is not its own voice. Jewish core with Christian reworking; preserved
+    in Christian transmission, not composed here.'
 - work: The First Epistle of Clement to the Corinthians
   author: clement_rome
   locus: div2 12.4

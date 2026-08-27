@@ -24,15 +24,43 @@ mechanism: no lookup table, nothing to keep in sync, and integration later is
 a join on a key that already matches. `engine/m1/cross_world.py` performs that
 join on every fleet run, so if the buckets ever stop lining up it shows there.
 
-## Three relations, not two
+## Four relations
 
 `role` says how a work stands to the entry it is assigned to.
 
-| role | means |
-|---|---|
-| `tradition` | the entry's own voice — a work of that community |
-| `context` | the view from outside: a pagan critic, a civil historian, or a **contemporary opponent**. Augustine on the Manichaeans, Cyprian on the Novatian schism he lived through |
-| `antecedent` | the authority the entry argued *from*, written before it existed. Added 2026-08-26 for Cyprian and Donatism |
+| role | means | count |
+|---|---|---:|
+| `tradition` | the entry's own voice — a work of that community | 571 |
+| `context` | the view from outside: a pagan critic, a civil historian, or a **contemporary opponent**. Augustine on the Manichaeans, Cyprian on the Novatian schism he lived through | 114 |
+| `antecedent` | the authority the entry argued *from*, written before it existed. Cyprian and Donatism | 4 |
+| `transmission` | **custody, not voice** — this tradition preserved and passed on a work that is not its own. Syriac scribes and a Greek apology; Christian scribes and the Jewish pseudepigrapha | 7 |
+
+Both of the narrow two were added 2026-08-26, each on a measured case, and each
+carries a rule that keeps it narrow.
+
+**`transmission` is custody.** An assignment qualifies when the work
+*originates outside* the entry and the entry's people are why we still have it.
+Two things it is **not**, and the distinction is what stopped it swallowing
+twenty-five rows:
+
+- **embedded voice** — an opponent's words survive *inside* a work of this
+  tradition. Celsus inside Origen's refutation, Petilian inside Augustine's.
+  The containing work is the tradition's own; marking it would make every
+  polemic a transmission.
+- **attested-by** — a lost work survives as fragments quoted by a later author,
+  Alexander of Jerusalem via Eusebius. A fact about the source record, not a
+  relation between an entry and a work.
+
+A work the tradition *composed* stays `tradition` however widely it was later
+copied. And an entry whose whole subject is preserved material —
+`apocryphal-and-pseudepigraphal-literature` — holds it as `tradition`, because
+there it is the content rather than the custody. The Testaments of the Twelve
+Patriarchs are `tradition` in the apocrypha entry and `transmission` in
+`post-apostolic-house-church`, whose scribes kept them.
+
+A test pins the invariant that makes the role mean anything: **every
+transmitted work has its voice assigned somewhere else.** Custody of nothing
+is a mis-used `tradition`.
 
 **`antecedent` carries a rule, and it needs one.** If "a later movement claimed
 him" were sufficient, Augustine would be assigned to every Reformation entry
@@ -46,42 +74,6 @@ Augustine's *On Baptism, Against the Donatists* names Cyprian 306 times in
 One author can hold two relations to two entries, and Cyprian does: antecedent
 to `donatism`, context for `novatianism`. Where a single row needs both, it
 splits into two — the same shape non-exclusivity already uses.
-
-## Open: should there be a fourth role, `transmission`?
-
-**Raised 2026-08-26, deliberately not decided.** Three of the four works in the
-`syriac-edessa-nisibis` pile carried notes saying the same thing in different
-words — *"syr marks only where the Syriac transmission preserved it"*,
-*"preserved in Syriac … not a demonstrated Edessene provenance"*. What they are
-describing is a work a tradition **copied and kept** without it being that
-tradition's own voice, its opponent, or its authority. None of the three
-existing roles says that.
-
-It generalises past this pile. The Jewish pseudepigrapha in
-`apocryphal-and-pseudepigraphal-literature` — the Testaments of the Twelve
-Patriarchs, the Life of Adam and Eve, the Testament of Abraham — survive
-*only* because Christian scribes went on copying them after Judaism had let
-them go. Same relation.
-
-**Why it was not just added.** A pattern-scan of every note describing
-preservation returned 25 rows, and reading them showed the scan was conflating
-three different things:
-
-| | |
-|---|---|
-| **transmission** | this tradition preserved a text that is not its own voice — the Syriac apology, the Jewish pseudepigrapha |
-| **embedded voice** | an opponent's words survive *inside* a work of this tradition — Celsus inside Origen, Petilian inside Augustine, Mani inside Augustine |
-| **attested-by** | a lost work survives as fragments quoted by a later author — Alexander of Jerusalem via Eusebius |
-
-Only the first is a relation between an entry and a work. A fourth role added
-without that boundary drawn would be misapplied to the other two immediately,
-which is the same explosion risk `antecedent` had to be ruled against.
-
-And unlike `antecedent`, this one is **not forced**: every work in the pile had
-an honest role available without it. `antecedent` existed because four Cyprian
-works had *no* truthful role at all. This would be an improvement, not a
-necessity — so it is Mark's to rule rather than a build thread's to impose one
-turn after the last schema change.
 
 ## Why non-exclusivity is load-bearing
 
