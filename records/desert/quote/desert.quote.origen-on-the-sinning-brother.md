@@ -39,6 +39,13 @@ modern_lens_note: >-
   the masses" is not contempt; it is the observation that ordinary people sin ordinarily and
   constantly. A modern reader may expect an ancient theologian to be harsher than a modern one.
   Here he is arguing himself out of a rule because he has counted who it would catch.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how a brother who had done wrong was corrected, judged, or put out"
+  - "participant asks whether this world had any procedure for discipline, or only the elders' judgement"
+  - "participant asks what the tradition before this world said about correcting a fellow Christian"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.moses-leaking-jug

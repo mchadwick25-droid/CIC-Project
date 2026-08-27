@@ -41,6 +41,13 @@ modern_lens_note: >-
   furious, because if God has no body then the image of God in Genesis is not a face, and a man who
   has spent forty years praying to a face is being told he was praying to nothing. Read the
   sentence knowing what it takes away, not what it asserts.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what the argument or controversy about Origen was actually about"
+  - "participant asks whether God has a body or a face, or what it meant to be made in God's image"
+  - "participant asks why a bishop's letter could enrage monks in the desert"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.force.origenist-controversy

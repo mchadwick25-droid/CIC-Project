@@ -6,6 +6,7 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells:
+- F6-I
 - F3-I
 confidence:
   citation_specificity: A
@@ -39,6 +40,13 @@ modern_lens_note: >-
   is kept in company, and the failure happens where nobody is watching. "Abide with their brethren
   as far as their names are concerned" is a community saying that its own membership roll has
   stopped meaning anything.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether anyone failed, fell away, or lived a double life inside a monastery"
+  - "participant asks what the communities said about their own decay or hypocrisy"
+  - "participant asks whether these houses ever criticised themselves"
+  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.authority-tension
@@ -47,6 +55,14 @@ relations:
 - type: associated-with
   target: desert.quote.no-one-seize-the-hand
 ---
+CELL CORRECTED 2026-08-27, on a retrieval measurement: this record carried
+F3-I alone and belongs first in F6-I, whose canon questions are "Was there
+anything about your own community that troubled you?" and "What did your
+people never settle?". A federation's own homily about monks whose names
+are on the roll and whose nights are not is an F6-I record before it is
+anything else, and under-classifying it made it unreachable from the
+question it most directly answers.
+
 Verified verbatim 2026-08-27 against the vendored file, Part III, pp.
 686-687. The quotation stops at "like a hyena" because the sentence
 continues across the p. 687 page break; what follows in the file is an
