@@ -37,6 +37,7 @@ relations:
 - {type: associated-with, target: ijc.gravity.sacramental-institutional-tension}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 - {type: associated-with, target: ijc.force.inherited-episcopal-church}
+- {type: illustrated-by, target: ijc.quote.secular-ruler-ecclesiastical-cause}
 name: Episcopal Independence from Imperial Command [SUPPORTING - strand-bound]
 classification: supporting
 description: 'A bishop''s authority to refuse an emperor, grounded not in his see''s rank or pedigree but

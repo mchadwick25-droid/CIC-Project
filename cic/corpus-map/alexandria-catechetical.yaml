@@ -439,9 +439,16 @@ works:
   locus: div2 12.3
   role: tradition
   confidence: provisional
-  note: 'The Egyptian/Alexandrian rite; ancestor of the Coptic Liturgy of St. Cyril. Assigned
-    to Alexandria as its liturgical practice and to the Egyptian Miaphysite entry whose received
-    form this is; the extant text is later than the Alexandrian entry''s window.
+  note: 'DECLINED FOR alexandria-catechetical 2026-08-27, on the EDITION''S OWN EVIDENCE rather
+    than a judgement call. The ANF text carries an editorial note at the Only-begotten Son
+    troparion: "It is so worded that it must be dated later than the Council of Ephesus, a.d.
+    431." alexandria-catechetical''s window is c. 150-400, so the received text this file
+    prints is later than the world it was assigned to, by the file''s own reckoning. The rite
+    is genuinely Alexandrian and the assignment is not wrong about that - what is wrong is
+    treating a post-431 recension as a source for a world that ends at 400. Kept `provisional`
+    and left unopened deliberately; if a world for the later Alexandrian rite is ever built,
+    this is its material.
+
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml

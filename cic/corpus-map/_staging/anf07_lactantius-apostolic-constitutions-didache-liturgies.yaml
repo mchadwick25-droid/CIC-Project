@@ -293,9 +293,15 @@ assignments:
   - cyrilline-miaphysite-egyptian-christianity
   role: tradition
   confidence: provisional
-  note: 'The Egyptian/Alexandrian rite; ancestor of the Coptic Liturgy of St. Cyril. Assigned
-    to Alexandria as its liturgical practice and to the Egyptian Miaphysite entry whose received
-    form this is; the extant text is later than the Alexandrian entry''s window.
+  note: 'DECLINED FOR alexandria-catechetical 2026-08-27, on the EDITION''S OWN EVIDENCE rather than a
+    judgement call. The ANF text carries an editorial note at the Only-begotten Son troparion: "It is
+    so worded that it must be dated later than the Council of Ephesus, a.d. 431." alexandria-catechetical''s
+    window is c. 150-400, so the received text this file prints is later than the world it was assigned
+    to, by the file''s own reckoning. The rite is genuinely Alexandrian and the assignment is not wrong
+    about that - what is wrong is treating a post-431 recension as a source for a world that ends at 400.
+    Kept `provisional` and left unopened deliberately; if a world for the later Alexandrian rite is ever
+    built, this is its material.
+
 
     '
 - work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
@@ -307,9 +313,13 @@ assignments:
   - the-church-of-the-east-under-persia
   role: tradition
   confidence: provisional
-  note: 'The East Syrian anaphora of Addai and Mari — the volume''s own notice calls it "one
-    of the three Nestorian liturgies" and records Renaudot''s case for its great antiquity.
-    Assigned to syr for the Addai/Edessa tradition it embodies and to both Church-of-the-East
-    entries whose rite it is; the manuscript form is medieval, hence provisional.
+  note: 'DECLINED FOR syriac-edessa-nisibis 2026-08-27, for the same reason as the Liturgy of Mark and
+    on the same page of apparatus. The ANF prints a text "corrected after Renaudot" from an 18th-c. collection,
+    and the Early Liturgies section''s own notes date the received forms well after the councils; syr''s
+    window is 200-410. The East Syriac anaphora under Addai''s and Mari''s names is the living continuation
+    of the world syr describes - Addai is its founding apostle and the Doctrine of Addai is already vendored
+    here - and that continuity is exactly why the temptation to shelve it in-window is strong and wrong.
+    Kept `provisional` and left unopened.
+
 
     '

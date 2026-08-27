@@ -36,6 +36,7 @@ relations:
 - {type: tension-with, target: ijc.gravity.episcopal-independence}
 - {type: associated-with, target: ijc.gravity.precision-seeking}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
+- {type: illustrated-by, target: ijc.quote.secular-ruler-ecclesiastical-cause}
 name: Orthodoxy-Enforcement Through Imperial Power [PRIMARY]
 classification: primary
 description: 'The recurring use of state power to police the church''s confessional boundary - a mechanism
