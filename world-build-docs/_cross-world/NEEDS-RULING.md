@@ -48,13 +48,13 @@ Five are shelves for material the corpus carries *about* a movement, registered 
 
 | ruling | clears | the question |
 |---|---:|---|
-| `latin-pastoral-congregational-christianity` | 5 | No entry for early Latin Christianity outside Carthage |
+| `latin-pastoral-congregational-christianity` | 5 | No entry for early Latin Christianity outside Carthage — and the last regional gap I [...] |
 | `imperial-juridical-christianity` | 1 | Not the historians, and now down to one |
 | `post-apostolic-house-church` | 1 | Answered |
 
 ## `latin-pastoral-congregational-christianity` — 5 work(s)
 
-**No entry for early Latin Christianity outside Carthage.** This entry runs from the 240s and is regionally North African, so four works are shelved here on language alone with the wrong region or the wrong century: Minucius Felix's *Octavius* (the earliest Latin apologetic dialogue), Commodian's verse (date disputed across three centuries), and both works of Victorinus of Pettau, the earliest Latin exegete, who was Pannonian. Worth knowing while you rule: the *Octavius*'s first half, Caecilius' speech, is one of the fullest surviving statements of the pagan case against Christianity anywhere.
+**No entry for early Latin Christianity outside Carthage — and the last regional gap I declined to fill.** Every entry added in this series answered a *pile*: eight works for Gaul, seven for Anatolia, four across three entries for Palestine. This is two authors and two unrelated problems, which is below that bar, so it is left for a ruling rather than settled by a build thread. The entry runs from the 240s and is regionally North African, so four works are shelved here on language alone with the wrong region or the wrong century: Minucius Felix's *Octavius* (the earliest Latin apologetic dialogue), Commodian's verse (date disputed across three centuries), and both works of Victorinus of Pettau, the earliest Latin exegete, who was Pannonian. Worth knowing while you rule: the *Octavius*'s first half, Caecilius' speech, is one of the fullest surviving statements of the pagan case against Christianity anywhere.
 
 *In this pile: commodian, felix, lactantius, victorinus.*
 

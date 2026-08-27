@@ -63,7 +63,7 @@ SWEEPS = {
         "Gaul, seven for Anatolia, four across three entries for Palestine. This is two authors "
         "and two unrelated problems, which is below that bar, so it is left for a ruling rather "
         "than settled by a build thread. The entry runs from the 240s and is regionally North "
-        "African, so four works are shelved here on language alone 
+        "African, so four works are shelved here on language alone "
         "with the wrong region or the wrong century: Minucius Felix's *Octavius* (the earliest "
         "Latin apologetic dialogue), Commodian's verse (date disputed across three centuries), "
         "and both works of Victorinus of Pettau, the earliest Latin exegete, who was Pannonian. "
