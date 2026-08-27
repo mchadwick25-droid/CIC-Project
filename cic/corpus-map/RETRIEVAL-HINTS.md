@@ -159,6 +159,42 @@ vocabulary but weak evidence, while a hint whose words are specific to its
 subject is worth several times more per word than it used to be. Write the
 distinctive noun.
 
+### Two defects a live turn found that no probe had
+
+Recorded 2026-08-27, from three billed turns against desert. The first two
+were good. The third asked "You've given me two different pictures there.
+Did your own people disagree about this?" and the voice answered, at
+length and well, about whether women could be elders - a question nobody
+had asked.
+
+**CONTRACTIONS WERE EVIDENCE.** The apostrophe is a word character in
+engine/prose.py's tokenizer, so `you've` was a content word like any noun.
+That turn routed to F6-P on `people` and `you've`, and to F2-E on `given`
+and `you've`. Fourteen apostrophe tokens sat in the canon's own cell
+vocabularies, `isn't` in four cells. Twelve are now stopwords; `women's`
+and `world's` are deliberately not, being possessives of content nouns.
+Fixed, at no cost to the locked sixty.
+
+**RETRIEVAL HAS NO MEMORY, AND THE MODEL DOES.** This one is NOT fixed and
+is the more important of the two. A follow-up whose subject is `this`,
+`that` or `there` carries almost no retrievable content - strip the
+pronouns from the question above and you are left with `different`,
+`disagree`, `pictures`, `two`, none of which is in any cell. The
+conversation was in the prompt (the voice had two prior turns replayed and
+plainly understood them), but the GROUND was assembled from the follow-up's
+own words alone, and the voice answered from the ground it was handed.
+
+So the failure mode to know about: **a good answer to a question nobody
+asked, on any follow-up that refers back rather than restating.** That is
+common in real conversation and the corpus cannot hint its way out of it -
+no wording in any record helps when the query has no subject in it.
+
+The fix is architectural, not editorial: Stage A would need the prior
+turn's cells to fall back on when a message yields none of its own.
+match_asks_to_cells takes no history today, so this is an interface change
+and wants its own design and measurement. Written up here so the next
+person to see a strange follow-up answer knows where to look.
+
 ## The cost is real and shows up immediately
 
 The same rewrite that moved nine probe questions onto the new records cost

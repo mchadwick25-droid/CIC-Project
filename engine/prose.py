@@ -73,6 +73,24 @@ _STOPWORDS = {
     "can", "could", "would", "should", "will", "shall", "must", "let", "yet",
     "even", "still", "just", "only", "own", "back", "before", "after",
     "because", "about", "against", "between", "from", "each", "other",
+    # Contractions tokenize as single words - the apostrophe is a word
+    # character in _WORD - so every one of these was a CONTENT word until
+    # 2026-08-27, scored as evidence about a cell like any noun. Found by a
+    # live turn: "You've given me two different pictures there. Did your own
+    # people disagree about this?" routed to F6-P on `people` and `you've`,
+    # and to F2-E on `given` and `you've` - not one word that carries the
+    # actual ask matched anything, and the voice answered a question about
+    # women elders that nobody had asked.
+    #
+    # Fourteen apostrophe tokens sat in the canon's own cell vocabularies
+    # (`isn't` in four cells, `can't`/`couldn't`/`what's`/`you've` in two
+    # each). Twelve are pure function words and are listed here. TWO ARE
+    # NOT and are deliberately absent: `women's` and `world's` are
+    # possessives of content nouns and remain evidence.
+    "can't", "couldn't", "didn't", "doesn't", "don't", "hasn't", "haven't",
+    "i'm", "i've", "isn't", "it's", "that's", "there's", "they're",
+    "wasn't", "we're", "we've", "weren't", "what's", "wouldn't",
+    "you'd", "you're", "you've",
 }
 
 # Updated 2026-08-21 for the fleet-wide pronoun rule (strict we-voice,
