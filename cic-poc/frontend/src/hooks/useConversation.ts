@@ -7,7 +7,7 @@
  * survive a reload of the same tab, not follow the participant to a new tab
  * or persist past the tab's lifetime.
  */
-import { useCallback, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import { ApiRequestError, createSession, getTranscript, sendMessage } from '../lib/api';
 import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { FacilitatorTurn, TranscriptEntry, VoiceTurn } from '../types/conversation';
@@ -56,6 +56,11 @@ const initialState: ConversationState = {
 
 export function useConversation() {
   const [state, setState] = useState<ConversationState>(initialState);
+  // One client_msg_id per LOGICAL message: resending the same text after a
+  // failure reuses the id, so the server's idempotency check (2026-08-28
+  // audit fix) can refuse the duplicate instead of double-answering and
+  // double-spending. New text = new id = a genuinely new message.
+  const lastAttemptRef = useRef<{ text: string; id: string } | null>(null);
 
   const begin = useCallback(async (worldKey: string) => {
     setState((prev) => ({ ...prev, isLoading: true, error: null }));
@@ -93,7 +98,9 @@ export function useConversation() {
       }
       setState((prev) => ({ ...prev, isLoading: true, error: null, turns: [...prev.turns, { speaker: 'participant', text }] }));
       try {
-        const result = await sendMessage(sessionId, sessionCode, text, crypto.randomUUID());
+        const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
+        lastAttemptRef.current = attempt;
+        const result = await sendMessage(sessionId, sessionCode, text, attempt.id);
         setState((prev) => {
           const appended: ConversationTurn[] = [];
           if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind });

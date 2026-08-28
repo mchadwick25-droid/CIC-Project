@@ -60,6 +60,11 @@ export function useTable() {
   // The continue-loop reads credentials from here rather than from the
   // (stale) closure state React handed the callback.
   const sessionRef = useRef<{ sessionId: string; sessionCode: string } | null>(null);
+  const lastAttemptRef = useRef<{ text: string; id: string } | null>(null);
+  // Guards the continue loop against running twice at once (mid-round
+  // reload auto-resume racing an existing loop) - the server refuses the
+  // overlap too (TableAdvanceInFlight); this simply avoids provoking it.
+  const loopingRef = useRef(false);
 
   const applyAdvance = useCallback((advance: TableMessageResponse) => {
     setState((prev) => ({
@@ -74,6 +79,8 @@ export function useTable() {
 
   const runRound = useCallback(
     async (first: TableMessageResponse) => {
+      if (loopingRef.current) return;
+      loopingRef.current = true;
       applyAdvance(first);
       let open = first.round_open && !first.session_closed;
       while (open && sessionRef.current) {
@@ -84,9 +91,11 @@ export function useTable() {
         } catch (error) {
           const message = error instanceof ApiRequestError ? error.message : 'The table lost its thread mid-round.';
           setState((prev) => ({ ...prev, isLoading: false, error: message }));
+          loopingRef.current = false;
           return;
         }
       }
+      loopingRef.current = false;
       setState((prev) => ({ ...prev, isLoading: false }));
     },
     [applyAdvance]
@@ -128,7 +137,9 @@ export function useTable() {
       }
       setState((prev) => ({ ...prev, isLoading: true, error: null, turns: [...prev.turns, { speaker: 'participant', text }] }));
       try {
-        const first = await sendTableMessage(session.sessionId, session.sessionCode, text, crypto.randomUUID());
+        const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
+        lastAttemptRef.current = attempt;
+        const first = await sendTableMessage(session.sessionId, session.sessionCode, text, attempt.id);
         await runRound(first);
         return true;
       } catch (error) {

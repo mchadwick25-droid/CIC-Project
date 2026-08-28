@@ -28,6 +28,7 @@ import uuid
 from dataclasses import dataclass
 
 from engine.api.wiring import (
+    DuplicateMessage,
     ProviderCallFailed,
     SessionClosed,
     SessionNotFound,
@@ -51,6 +52,28 @@ from engine.m4.table_governance import detect_direct_address, governance_summary
 from engine.m4.store import Store
 from engine.m4.turn import UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
 from engine.m4.turn_selector import Selection, select_speaker
+
+import threading
+from contextlib import contextmanager
+
+# One in-process lock per table session (2026-08-28 audit): two overlapping
+# advances both project the same open round and both run a voice turn.
+# In-process is the true scope today - the SQLite store already pins the
+# service to one instance; the Postgres move revisits this alongside it.
+_ADVANCE_LOCKS: dict[str, threading.Lock] = {}
+_ADVANCE_LOCKS_GUARD = threading.Lock()
+
+
+@contextmanager
+def _advance_lock(session_id: str):
+    with _ADVANCE_LOCKS_GUARD:
+        lock = _ADVANCE_LOCKS.setdefault(session_id, threading.Lock())
+    if not lock.acquire(blocking=False):
+        raise TableAdvanceInFlight(session_id)
+    try:
+        yield
+    finally:
+        lock.release()
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
 from engine.m5.routing import PRESSABLE_CLASSES
@@ -64,6 +87,14 @@ _SELECTOR_TRANSCRIPT_WINDOW = 12  # attributed entries the selector sees; the ro
 class TableRoundNotOpen(Exception):
     """continue was called with no round in flight (or on an interview
     session) - a client sequencing error, mapped to 409 by the app layer."""
+
+
+class TableAdvanceInFlight(Exception):
+    """Another advance (message or /continue) for this table session is
+    already running in this process - the overlap the 2026-08-28 audit
+    found: a mid-round reload's auto-resume racing the original tab's
+    loop, each advancing the same round and doubling voice turns and
+    spend. Refused as a 409; the client simply keeps continuing."""
 
 
 class TableRoundStillOpen(Exception):
@@ -437,7 +468,7 @@ def _advance_open_round(
     )
 
 
-def handle_table_message(
+def _handle_table_message_unlocked(
     *,
     store: Store,
     usage_store: UsageLogStore,
@@ -468,9 +499,14 @@ def handle_table_message(
     anachronistic_ids = _round_anachronistic_term_ids(worlds)
 
     msg_uuid = client_msg_id or str(uuid.uuid4())
+    participant_event_uuid = (
+        str(uuid.uuid5(uuid.NAMESPACE_URL, f"cic:{session_id}:{msg_uuid}")) if client_msg_id else str(uuid.uuid4())
+    )
+    if client_msg_id and store.event_exists(participant_event_uuid):
+        raise DuplicateMessage(session_id)
     participant_payload = {"text": text, "client_msg_id": msg_uuid}
     events.validate("participant_message", participant_payload)
-    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="participant_message", payload=participant_payload)
+    store.append(session_id=session_id, event_uuid=participant_event_uuid, event_type="participant_message", payload=participant_payload)
     round_no = state.round_no + 1
 
     gate_run = run_gate(
@@ -550,7 +586,7 @@ def handle_table_message(
     )
 
 
-def continue_table_round(
+def _continue_table_round_unlocked(
     *,
     store: Store,
     usage_store: UsageLogStore,
@@ -584,3 +620,18 @@ def continue_table_round(
         degraded=bool(gate_payload.get("degraded")),
         facilitator=[],
     )
+
+
+def handle_table_message(*, session_id: str, **kwargs) -> TableMessageResult:
+    """Public entry - one advance in flight per table session (see
+    _advance_lock). All real work is _handle_table_message_unlocked."""
+    with _advance_lock(session_id):
+        return _handle_table_message_unlocked(session_id=session_id, **kwargs)
+
+
+def continue_table_round(*, session_id: str, **kwargs) -> TableMessageResult:
+    """Public entry - same single-advance guarantee as handle_table_message:
+    the mid-round-reload race (two clients continuing one round) is refused
+    as TableAdvanceInFlight instead of doubling voice turns and spend."""
+    with _advance_lock(session_id):
+        return _continue_table_round_unlocked(session_id=session_id, **kwargs)

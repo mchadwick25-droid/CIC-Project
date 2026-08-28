@@ -269,6 +269,10 @@ def create_app(
             raise HTTPException(status_code=409, detail="session already closed")
         except table_wiring.TableRoundStillOpen:
             raise HTTPException(status_code=409, detail="round still open - continue it before the next message")
+        except table_wiring.TableAdvanceInFlight:
+            raise HTTPException(status_code=409, detail="advance already in flight - the table is already speaking")
+        except wiring.DuplicateMessage:
+            raise HTTPException(status_code=409, detail="duplicate message - already received")
         except PackageRefused:
             logger.warning("message refused: package unavailable session=%s", session_id)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
@@ -306,6 +310,8 @@ def create_app(
             raise HTTPException(status_code=409, detail="session already closed")
         except table_wiring.TableRoundNotOpen:
             raise HTTPException(status_code=409, detail="no open round to continue")
+        except table_wiring.TableAdvanceInFlight:
+            raise HTTPException(status_code=409, detail="advance already in flight - the table is already speaking")
         except PackageRefused:
             logger.warning("continue refused: package unavailable session=%s", session_id)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
