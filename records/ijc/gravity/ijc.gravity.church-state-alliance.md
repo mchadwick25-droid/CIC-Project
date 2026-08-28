@@ -25,9 +25,16 @@ sources:
   locus: VII.4 (the Thessalonica law)
   license: public-domain
 relations:
+- type: illustrated-by
+  target: ijc.quote.no-power-but-of-god
 - {type: illustrated-by, target: ijc.story.vision-and-alliance}
 - {type: illustrated-by, target: ijc.story.altar-of-victory}
 - {type: illustrated-by, target: ijc.quote.milan-edict}
+- {type: illustrated-by, target: ijc.story.eutropius-at-the-altar}
+- {type: illustrated-by, target: ijc.quote.eutropius-right-of-refuge}
+- {type: illustrated-by, target: ijc.quote.happy-christian-emperors}
+- {type: illustrated-by, target: ijc.story.emperor-builds-another-basilica}
+- {type: illustrated-by, target: ijc.quote.compelled-to-come-in}
 - {type: precondition-for, target: ijc.gravity.primacy-claiming}
 - {type: precondition-for, target: ijc.gravity.orthodoxy-enforcement}
 - {type: tension-with, target: ijc.gravity.episcopal-independence}

@@ -1,0 +1,47 @@
+# Written 2026-08-27 by the fleet unopened-volume sweep. The file was vendored
+# earlier the same day; these rows add the three further Atlas entries that now
+# open it, alongside the desert-monasticism rows already staged.
+source_file: palladius_paradise-v1-syriac_budge1907.txt
+assignments:
+- work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
+  author: palladius
+  locus: Chapter lviij - the angelic roll, the famine relief, and the vine growing from his tongue
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'A SYRIAC WORLD READING ITS OWN FOUNDING POET IN A SYRIAC RECENSION, where until now every
+    word of Palladius on Ephrem came through Greek and then Edwardian English. The divergences from
+    the Greek fall exactly where that matters: TWO VISIONS the Greek line does not carry at all (the
+    angels finding no saint fit to hold the roll except Ephraim; the vine from his tongue filling the
+    heavens while the birds eat and the clusters only grow), and a famine exchange whose crucial line
+    reads "O man, we know that thou art God" where the Greek reads "a man of God".
+
+    Registered ALONGSIDE the Clarke translation the entry already holds, never in place of it.
+
+    '
+- work: The Paradise of Palladius, Book I, ch. l (Of the Blessed Man Possidonius)
+  author: palladius
+  locus: Chapter l - the Possidonius report about "Hieronymus" and Paula
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: context
+  confidence: assigned
+  note: 'THE SECOND RECENSION OF THAT ENTRY''S ONE HOSTILE WITNESS, and it charges something
+    different. The Greek says Jerome "showed qualities of temper so disastrous that they threw into
+    the shade his splendid achievements" and has Posidonius PREDICTING that Paula will die first and
+    be freed from his bad temper. The Syriac says he "possessed the vices of envy and
+    evil-eyedness" and reports that she "departed from this world before her time in order that she
+    might escape from his envy". Bad temper has become the evil eye; a guarded prophecy has become a
+    fact.
+
+    AND PAULA IS NOT IN THE SYRIAC WOMEN''S CHAPTERS AT ALL. Searched directly: her name occurs once
+    in the whole file, here. The recension that hardened the charge is the recension that dropped her
+    from the company of holy women, and nothing settles whether that is loss, choice, or a different
+    exemplar.
+
+    '
+# The Syriac Life of Saint Anthony is NOT re-staged here. It was already assigned
+# to BOTH desert-monasticism and alexandria-catechetical when this file was first
+# vendored (see palladius_paradise-v1-syriac_budge1907.yaml), and the merge caught
+# the duplicate. alx.source.vita-antonii-syriac is the record that opens it.

@@ -26,6 +26,12 @@ modern_lens_note: >
   It is closer to the ancient philosophical-conversion idiom - the
   language a Greek philosopher would use for finally finding the right
   school of thought - than to that later religious register.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how a person came to believe in the first place"
+  - "participant asks what changed someone's mind and who they met"
+  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, section iv (viii.iv.viii). This world's own

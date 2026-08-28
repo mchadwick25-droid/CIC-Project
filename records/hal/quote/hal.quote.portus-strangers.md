@@ -22,6 +22,12 @@ text: 'The whole world knows that a home for strangers has been established at P
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Strangers" here means travelers and pilgrims in need of hospitality, not people generally unknown to the household.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they did for travellers, pilgrims and the poor"
+  - "participant asks how far their reputation reached"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 77, the
 Fabiola-and-Pammachius hospice at Rome's harbor). Note: the NPNF editor's

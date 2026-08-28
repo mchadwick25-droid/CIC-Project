@@ -30,6 +30,8 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: alx.quote.no-sun-no-moon-no-sky
+- type: associated-with
   target: alx.gravity.scripture-formative
 - type: associated-with
   target: alx.contested.allegory-from-within

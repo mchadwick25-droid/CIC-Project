@@ -27,6 +27,12 @@ modern_lens_note: >
   partakes in the Word (Logos), so anyone who lived by right reason -
   named here by name, Socrates among them - already lived in Christ
   before Christ, in this world's own technical sense of that claim.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether people outside the community were lost"
+  - "participant asks what they made of good people who had never heard of Christ"
+  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 viii, ch. 46 (viii.ii.xlvi). Direct textual ground

@@ -25,6 +25,12 @@ text: For what is more full of respect than that the Emperor should be called th
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether the emperor was inside the church or above it"
+  - "participant asks what a bishop said to an emperor's face"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.story.vigil-in-basilica}

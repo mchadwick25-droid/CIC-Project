@@ -1,0 +1,115 @@
+# Worker staging file - npnf209 (Hilary of Poitiers + John of Damascus, NPNF
+# second series vol. 9). STRUCTURE.md quirk a reviewer should know: all of
+# Hilary's actual works sit NESTED under div1 2, which is titled "*Title
+# Page*" and flagged (apparatus) - so the volume shows ~94,956 words of text
+# against ~309,685 of "apparatus", but div2 2.4 (De Synodis), 2.5 (De
+# Trinitate) and 2.6 (Homilies on Psalms) are real works, not editorial
+# matter. Only the true apparatus is skipped: prefaces, the ~75,265-word
+# Introduction (div2 2.3), indexes.
+# The two authors are three centuries apart: Hilary is the fourth-century
+# Latin anti-Arian voice (Era 2); John of Damascus (d. c. 749) belongs to
+# Era 4 entries, not to any entry his volume-mates share.
+source_file: npnf209_hilary-poitiers-john-damascus.xml
+assignments:
+- work: De Trinitate (On the Trinity)
+  author: hilary_poit
+  locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
+    2
+  atlas_ids:
+  - gallic-nicene-episcopate
+  role: tradition
+  confidence: assigned
+  note: 'The doubt is Hilary''s home, not the work: the census has NO entry for fourth-century
+    Gallic Nicene Christianity (Merovingian Gaul begins c. 480), so the Latin anti-Arian voice
+    of the West has no author-entry to belong to. The homoian-arian-christianity assignment
+    is the firm half - this is the major Latin work written against the Arian ascendancy and
+    belongs in that excluded entry''s material. imperial-juridical is the best-guess home:
+    Hilary''s career was made by imperial church politics (exiled by Constantius, restored
+    under Julian), but Gaul is outside that entry''s stated region. Mark to rule where Hilary
+    himself lives. Re-pointed 2026-08-26: gallic-nicene-episcopate (era 2, c. 350-400) was
+    added on record precisely because this note kept saying Hilary had no home. The homoian
+    half of the assignment is unchanged.'
+- work: De Trinitate (On the Trinity)
+  author: hilary_poit
+  locus: div2 2.5 (~190,221 words, twelve books), nested under the apparatus-flagged div1
+    2
+  atlas_ids:
+  - homoian-arian-christianity
+  role: context
+  confidence: assigned
+  note: 'The doubt is Hilary''s home, not the work: the census has NO entry for fourth-century
+    Gallic Nicene Christianity (Merovingian Gaul begins c. 480), so the Latin anti-Arian voice
+    of the West has no author-entry to belong to. The homoian-arian-christianity assignment
+    is the firm half - this is the major Latin work written against the Arian ascendancy and
+    belongs in that excluded entry''s material. imperial-juridical is the best-guess home:
+    Hilary''s career was made by imperial church politics (exiled by Constantius, restored
+    under Julian), but Gaul is outside that entry''s stated region. Mark to rule where Hilary
+    himself lives.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`. Cleared 2026-08-26: this note''s own words were
+    that the homoian assignment is the firm half and the doubt was Hilary''s HOME. gallic-nicene-episcopate
+    was added on record and now holds him, so nothing here is open. The context relation to
+    the Arian party stands unchanged.'
+- work: De Synodis (On the Councils)
+  author: hilary_poit
+  locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
+  atlas_ids:
+  - gallic-nicene-episcopate
+  role: tradition
+  confidence: assigned
+  note: 'Written to the Gallic bishops to explain the eastern creeds before Ariminum/Seleucia
+    - a direct primary account of the Homoian conciliar creeds, so the homoian assignment
+    is firm, and the conciliar-imperial subject matter makes imperial-juridical a real second
+    home. Same unresolved question as De Trinitate: no census entry exists for Hilary''s own
+    Gallic church. Re-pointed 2026-08-26: gallic-nicene-episcopate (era 2, c. 350-400) was
+    added on record precisely because this note kept saying Hilary had no home. The homoian
+    half of the assignment is unchanged.'
+- work: De Synodis (On the Councils)
+  author: hilary_poit
+  locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
+  atlas_ids:
+  - homoian-arian-christianity
+  role: context
+  confidence: assigned
+  note: 'Written to the Gallic bishops to explain the eastern creeds before Ariminum/Seleucia
+    - a direct primary account of the Homoian conciliar creeds, so the homoian assignment
+    is firm, and the conciliar-imperial subject matter makes imperial-juridical a real second
+    home. Same unresolved question as De Trinitate: no census entry exists for Hilary''s own
+    Gallic church.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`. Cleared 2026-08-26: as De Trinitate - the doubt
+    was Hilary''s home, and gallic-nicene-episcopate now holds it. The homoian context assignment
+    was always the firm half.'
+- work: Homilies on Psalms I, LIII, CXXX
+  author: hilary_poit
+  locus: div2 2.6 (~12,517 words), nested under the apparatus-flagged div1 2
+  atlas_ids:
+  - gallic-nicene-episcopate
+  role: tradition
+  confidence: assigned
+  note: 'Pastoral exegesis with no anti-Arian frame, so the homoian bucket does not fit; listed
+    against the best-guess entry only because the merge requires at least one id. The real
+    answer is the same missing bucket as above - fourth-century Gaul. Whatever Mark rules
+    for Hilary''s home should carry all three of his works. Re-pointed 2026-08-26: gallic-nicene-episcopate
+    (era 2, c. 350-400) was added on record precisely because this note kept saying Hilary
+    had no home. The homoian half of the assignment is unchanged.'
+- work: An Exact Exposition of the Orthodox Faith (De Fide Orthodoxa)
+  author: damascus
+  locus: 'div1 3 (~94,912 words): Prologue at div2 3.3, the Exposition at 3.4'
+  atlas_ids:
+  - melkite-arabic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Three centuries later than everything else in this worker group: John (d. c. 749)
+    wrote at Mar Saba in Palestine under the caliphate, which is exactly the Era 4 melkite-arabic-christianity
+    entry (c. 700-1009, Palestine/Syria) - a Pre-Survey Candidate, valid per Mark''s ruling.
+    Provisional because a reviewer could argue for byzantine-imperial-church-heraclian-iconoclast
+    instead or as well: the work became the doctrinal summa of Byzantine orthodoxy, but John
+    lived and wrote outside the empire, so the Melkite entry is where the man and the writing
+    actually sit.
+
+    '

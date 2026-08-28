@@ -19,7 +19,7 @@ sources:
 - source_id: desert.source.palladius-lausiac-history
   locus: "the whole file, checked by full-text search: zero occurrences of 'tithe'; almsgiving appears throughout but never as a fixed, named proportion"
   license: public-domain
-statement: "How did we decide what to give as a tithe? We do not have a clear answer. We spoke of giving away everything, not a measured portion. No source we kept names a tithe, or any fixed share, at all."
+statement: "How did we decide what to give as a tithe? We spoke of giving away everything, not a measured portion. No source we kept names a tithe, or any fixed share, at all."
 why_sources_cannot_answer: "No source in this corpus discusses proportional giving (tithing) as distinct from total renunciation, checked directly: zero occurrences of 'tithe' in either the Vita or Palladius, the corpus's two narrative sources. This world's own logic of total renunciation (desert.story.antony-call) structurally excludes the proportional-giving question the 'tithe' framing assumes."
 nearest_material:
 - desert.story.antony-call

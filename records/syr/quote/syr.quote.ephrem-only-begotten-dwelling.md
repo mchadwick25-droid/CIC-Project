@@ -22,5 +22,11 @@ text: the only-begotten departed from [being] with Deity and took up His abode i
 speaker_or_author: syr.figure.ephrem
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they held about how God became human"
+  - "participant asks about Mary and the birth"
+  do_not_retrieve_when: []
 ---
 Verified verbatim (Homily on Our Lord). The Ihidaya made brother of many - the incarnation in this world's own key.

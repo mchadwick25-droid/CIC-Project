@@ -29,6 +29,8 @@ retrieval:
   do_not_retrieve_when:
   - the question concerns conciliar process generally (concilium instead)
 relations:
+- type: associated-with
+  target: ijc.quote.the-rudiments-of-the-creed
 - {type: associated-with, target: ijc.term.primatus}
 - {type: associated-with, target: ijc.term.homoousios}
 - {type: associated-with, target: ijc.term.communio}

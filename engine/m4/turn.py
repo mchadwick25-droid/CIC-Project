@@ -56,6 +56,7 @@ from engine.m4 import crisis_resources, evidence, facilitator_turns, grounding_n
 from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
+from engine.m4.output_check import check_output
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used
 from engine.m4.term_glosses import find_glosses_used
 from engine.m4.world_loader import LoadedWorld
@@ -272,6 +273,7 @@ def _run_ordinary_voice_turn(
         repository_records=repository_records,
         thin_topics=thin_topics,
         already_told_ids=already_told_ids,
+        history=history,
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
@@ -332,7 +334,10 @@ def _run_ordinary_voice_turn(
         "degraded_by_net": degraded_by_net,
         # The finished string, checked last, after the net has cut and the
         # fallback has appended - because that is the only text a person
-        # actually reads, and until now nothing looked at it.
+        # actually reads, and until now nothing looked at it. Reports,
+        # never edits (Program-Spec M4: never by editing a live response);
+        # a finding here means something UPSTREAM is wrong.
+        "output_defects": check_output(answer_text, history=history, participant_message=participant_message),
     }
     return voice_event, usage_records
 
@@ -519,7 +524,7 @@ def run_turn(
                 )
                 stream_failed = False
                 if stream_text.strip():
-                    voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "figures_used": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}}
+                    voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "figures_used": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}, "output_defects": check_output(stream_text, history=history, participant_message=participant_message)}
 
         facilitator_event = crisis_resources.append_crisis_resources_turn(
             signal=signal, stream_text=stream_text, stream_failed=stream_failed,

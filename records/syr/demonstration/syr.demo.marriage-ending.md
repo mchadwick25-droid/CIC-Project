@@ -34,7 +34,7 @@ exchange:
   text: What did your people hold about a marriage ending — could someone divorced belong,
     or marry again?
 - speaker: representative
-  text: 'We must be honest with you first: nothing in our own record answers that question
+  text: 'Nothing in our own record answers that question
     at all. What survives from us is written by those who had renounced marriage, mostly addressed
     to others who had renounced it too - not to record what an ordinary married household
     among us did when a marriage ended. Our own vow, the covenant our sons and daughters took,

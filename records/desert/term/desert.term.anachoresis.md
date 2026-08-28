@@ -51,6 +51,8 @@ relations:
   target: desert.gravity.withdrawal
 - type: associated-with
   target: desert.gravity.economic-embeddedness
+- type: associated-with
+  target: desert.quote.taor-not-compelled-to-market
 plain_meaning: "Withdrawal: leaving settled village life for the desert's edge, as the whole work of formation, not a change of address."
 world_word: anachoresis
 false_friend:

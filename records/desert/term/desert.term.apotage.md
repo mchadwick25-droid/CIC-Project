@@ -31,6 +31,8 @@ relations:
   target: desert.term.anachoresis
 - type: associated-with
   target: desert.term.koinonia
+- type: associated-with
+  target: desert.quote.three-years-a-servant
 plain_meaning: "Renunciation: you give up property, family claims, and standing to enter this life."
 world_word: apotage
 false_friend:

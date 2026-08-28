@@ -1,0 +1,25 @@
+# Written 2026-08-27 by desert's unopened-volume sweep
+# (desert.search.unopened-volume-sweep). These three volumes were already
+# vendored and already assigned to other Atlas entries; what is new is that
+# desert-monasticism now opens them, so its bucket must show it.
+source_file: origen_philocalia_lewis1911.txt
+assignments:
+- work: The Philocalia of Origen
+  author: origen
+  locus: twenty-seven chapters; I-XV on scriptural interpretation, XXI-XXVII on free will, fate and
+    providence; ch. I drawn "From the work on Principles", ch. XIII the Letter to Gregory
+  atlas_ids:
+  - desert-monasticism
+  role: context
+  confidence: assigned
+  note: 'ROLE IS `context` AND MUST STAY SO. No desert ascetic is shown reading Origen in this
+    world''s material; Evagrius is the Origenist here and he is registered separately. The anthology
+    earns its place for two things. It is a dated measurement of which Origen was thought safe
+    BEFORE the controversy - somebody in the 350s picked twenty-seven chapters worth keeping, and a
+    council condemned him forty years later. And ch. I is drawn from De Principiis, so it is the
+    Greek check on Rufinus'' partisan Latin for the passages it covers.
+
+    THE COMPILERS ARE NOT NAMED IN THE FILE. Basil of Caesarea and Gregory of Nazianzus are the
+    traditional ascription and the text supports neither; say "traditionally ascribed".
+
+    '

@@ -21,6 +21,12 @@ text: 'I said: I cannot surrender the basilica, but I may not fight.'
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether a bishop could refuse an emperor and survive"
+  - "participant asks what happened when the court demanded a church building"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---

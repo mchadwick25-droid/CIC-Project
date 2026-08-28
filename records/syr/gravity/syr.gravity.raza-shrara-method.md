@@ -41,6 +41,10 @@ relations:
   target: syr.force.frontier-plural-milieu
 - type: illustrated-by
   target: syr.quote.pearl-mysteries
+- type: illustrated-by
+  target: syr.quote.basil-credits-a-syrian
+- type: illustrated-by
+  target: syr.story.ephrem-roll-and-vine
 name: Symbolic-Typological Theological Method (raza/shrara) [PRIMARY - C1]
 description: 'Doctrine is done in symbol and type, not syllogism: the raza (symbol, mystery) in Scripture
   and creation is bound to the shrara (truth) it discloses and carries its hidden power, so theology''s

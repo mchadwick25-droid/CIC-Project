@@ -7,6 +7,7 @@ status: draft
 register: emic
 canon_cells:
 - F6-I
+- F6-E
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -27,8 +28,16 @@ license: verbatim
 modern_lens_note: >-
   'Prefect of the city' names a specific Roman civil office (Rome's chief magistrate), not a generic
   modern administrative title.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how a bishop was chosen and what happened when it was contested"
+  - "participant asks whether these elections turned violent"
+  - "participant presses this world on violence done from inside it"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
+- {type: associated-with, target: ijc.limit.earlier-windows}
 ---
 Text verified verbatim against the vendored file 2026-08-21. The hard
 F6 fact in a church historian's own words: Damasus's episcopate - the
@@ -38,3 +47,11 @@ historian's fuller account (Ammianus 27.3, with its casualty figure)
 is not vendorable this session (ijc.search.ammianus-english) and is
 referenced only. This world tells this against itself, as its own
 sources do.
+
+Given F6-E as well on 2026-08-27. That cell was bare: it is served only by
+ijc.limit.earlier-windows, which declines the seed questions as reaching
+before this world's window and hands the participant this world's own hard
+evidence instead - naming this record by id as the first thing to hand over.
+The redirect had nothing standing in the cell to redirect INTO. Rather than
+write a second record over the same passage, the record the limit already
+points at was given the cell it was already doing the work of.

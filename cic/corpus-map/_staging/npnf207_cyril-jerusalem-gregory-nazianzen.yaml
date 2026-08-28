@@ -1,0 +1,108 @@
+# Worker staging file - npnf207 (Cyril of Jerusalem + Gregory Nazianzen, NPNF
+# second series vol. 7). Apparatus skipped: title pages, Cyril Introduction
+# (div2 2.3, ~41,654 words), Nazianzen Prolegomena (div2 3.2), indexes.
+source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
+assignments:
+- work: The Catechetical Lectures (Procatechesis, Catecheses I-XVIII, Mystagogic Catecheses
+    I-V)
+  author: cyril_jer
+  locus: 'div1 2 (~202,666 words): Procatechesis at div2 2.4, the eighteen pre-baptismal lectures
+    at 2.5-2.22, the five lectures on the Mysteries at 2.23-2.27. One catechetical course,
+    assigned as one work.
+
+    '
+  atlas_ids:
+  - jerusalem-liturgical-pilgrimage-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The corpus''s best witness to fourth-century Jerusalem liturgy and initiation - delivered
+    in the Church of the Holy Sepulchre to candidates for baptism, with the Mystagogic lectures
+    describing the rites of baptism, chrism and eucharist as practiced there. This is the
+    Jerusalem entry''s founding corpus; not one of these lectures is cited anywhere in the
+    fleet today (audit F-25).
+
+    '
+- work: Select Orations of Saint Gregory Nazianzen
+  author: gregory_naz
+  locus: 'div1 3 (~235,530 words) - one body of about two dozen orations (div2 3.3-3.27),
+    assigned as one work; the Five Theological Orations within it are additionally listed
+    as their own entry below.
+
+    '
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: 'Includes Oration 2 on the priesthood (3.4), the panegyrics on Caesarius, Gorgonia
+    and his father, On the Great Athanasius (3.11), the festal orations, and the Funeral Oration
+    on Basil (3.26). The family orations on Gorgonia and Nonna are among the corpus''s few
+    extended portraits of women - the gap every world names.
+
+    '
+- work: The Five Theological Orations (Orations 27-31)
+  author: gregory_naz
+  locus: div2 3.13-3.17, with the editor's introduction at 3.12
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: provisional
+  note: 'Split out from the Select Orations because these five, preached against the Eunomians
+    at Constantinople, are what a reader names as a work, and they carry the anti-Arian assignment.
+    The doubt is the same as for Nyssa''s Against Eunomius: the opponents are Eunomian Anomoeans,
+    and the census''s only Arian bucket is named for the Homoian party. Assigned there as
+    nearest entry; Mark may want to strike or rebucket.
+
+    '
+- work: The Five Theological Orations (Orations 27-31)
+  author: gregory_naz
+  locus: div2 3.13-3.17, with the editor's introduction at 3.12
+  atlas_ids:
+  - anomoean-eunomian-christianity
+  role: context
+  confidence: assigned
+  note: 'Split out from the Select Orations because these five, preached against the Eunomians
+    at Constantinople, are what a reader names as a work, and they carry the anti-Arian assignment.
+    The doubt is the same as for Nyssa''s Against Eunomius: the opponents are Eunomian Anomoeans,
+    and the census''s only Arian bucket is named for the Homoian party. Assigned there as
+    nearest entry; Mark may want to strike or rebucket.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`. Re-pointed 2026-08-26: the gap this flagged is
+    closed - anomoean-eunomian-christianity (era 2, Floor Question) was added to the census
+    on record, so anti-Eunomian material now names the party it actually argues with rather
+    than the Homoian wing it split from in 360.'
+- work: Select Letters of Saint Gregory Nazianzen
+  author: gregory_naz
+  locus: 'div1 4 (~37,693 words) - one body of letters in three editorial groups: Letters
+    on the Apollinarian Controversy (4.2), Correspondence with Basil (4.3), Miscellaneous
+    Letters (4.4). Assigned as one work.
+
+    '
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: 'The Apollinarian group (the letters to Cledonius) is foundational Christological
+    material, but the census has no Apollinarian entry, so the party argued against has nowhere
+    to receive it; noted rather than forced into an unrelated bucket. 2026-08-26: apollinarian-christianity
+    added alongside - the party this work argues with now has an entry of its own.'
+- work: Select Letters of Saint Gregory Nazianzen
+  author: gregory_naz
+  locus: 'div1 4 (~37,693 words) - one body of letters in three editorial groups: Letters
+    on the Apollinarian Controversy (4.2), Correspondence with Basil (4.3), Miscellaneous
+    Letters (4.4). Assigned as one work.
+
+    '
+  atlas_ids:
+  - apollinarian-christianity
+  role: context
+  confidence: assigned
+  note: 'The Apollinarian group (the letters to Cledonius) is foundational Christological
+    material, but the census has no Apollinarian entry, so the party argued against has nowhere
+    to receive it; noted rather than forced into an unrelated bucket. 2026-08-26: apollinarian-christianity
+    added alongside - the party this work argues with now has an entry of its own.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'

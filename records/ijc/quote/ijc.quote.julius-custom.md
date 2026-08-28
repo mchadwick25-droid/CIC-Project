@@ -23,6 +23,12 @@ text: And why was nothing said to us concerning the Church of the Alexandrians i
 speaker_or_author: ijc.figure.julius
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what the customary procedure was when a bishop was deposed"
+  - "participant asks whether Rome expected to be consulted"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.letter-that-outranked-a-council}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}

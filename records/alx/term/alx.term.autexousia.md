@@ -30,7 +30,9 @@ retrieval:
   do_not_retrieve_when:
   - means freedom in a political or civic sense
   - means freedom from sin rather than freedom as the condition of formation
-relations: []
+relations:
+- type: associated-with
+  target: alx.quote.to-believe-or-disbelieve
 plain_meaning: The soul's genuine self-determination - its real power to turn toward or away, to attend
   or withhold. Without it, formation would be manipulation, not growth.
 world_word: autexousia (self-determination)

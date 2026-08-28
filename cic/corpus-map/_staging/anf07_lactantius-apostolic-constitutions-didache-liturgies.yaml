@@ -1,0 +1,325 @@
+# Corpus assignment worker, 2026-08-26. Anonymous-and-collective group.
+source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+authors_ruled:
+  didache:
+    kind: anonymous
+    evidence: 'div1 8 "The Teaching of the Twelve Apostles"; anf07 DC.Creator lists only asterius,
+      dionysius_rome, lactantius, venantius, victorinus. The work names no author; the slug
+      names the work-entity per brief 6.4.
+
+      '
+  apostolic-constitutions:
+    kind: anonymous
+    evidence: 'div1 9 "Constitutions of the Holy Apostles"; no DC.Creator for the section.
+      The compilation speaks in the apostles'' collective name (a pseudapostolic frame), but
+      no individual is claimed; brief 7 lists it under "genuinely anonymous".
+
+      '
+  second-clement:
+    kind: pseudonymous
+    evidence: 'div1 10 "The Second Epistle of Clement"; the section''s Introductory Notice
+      by Prof. Riddle (div2 10.2) treats it as an early homily transmitted under Clement''s
+      name, not his composition. No DC.Creator for the section.
+
+      '
+  nicene-creed:
+    kind: anonymous
+    evidence: 'div1 11 "The Nicene Creed"; no DC.Creator. A conciliar text, not a person''s
+      work.
+
+      '
+  liturgy-of-st-james:
+    kind: pseudonymous
+    evidence: 'div2 12.2 title "The Divine Liturgy of James the Holy Apostle and Brother of
+      the Lord"; the Early Liturgies Introductory Notice (div2 12.1) treats the apostolic
+      attributions as traditional, the received texts as later.
+
+      '
+  liturgy-of-st-mark:
+    kind: pseudonymous
+    evidence: 'div2 12.3 title "The Divine Liturgy of the Holy Apostle and Evangelist Mark";
+      same Introductory Notice treatment as the Liturgy of James.
+
+      '
+  liturgy-of-addai-and-mari:
+    kind: pseudonymous
+    evidence: 'div2 12.4 "The Liturgy of the Blessed Apostles", heading "Composed by St. Adaeus
+      and St. Maris, Teachers of the Easterns"; the Introductory Notice calls it "one of the
+      three Nestorian liturgies" (with those of Nestorius and Theodore).
+
+      '
+assignments:
+- work: The Divine Institutes
+  author: lactantius
+  locus: div2 3.2 — The Divine Institutes
+  atlas_ids:
+  - latin-apologists
+  role: tradition
+  confidence: assigned
+  note: 'RULED BY MARK 2026-08-27: Lactantius lives in `latin-apologists` (I.43). The straddle in the
+    old note was real - written c. 303-311 under the Great Persecution by a rhetor teaching at Nicomedia,
+    who afterwards tutored Constantine''s son at Trier - and the entry that resolves it did not exist
+    when the work was flagged. Jerome makes him Arnobius'' pupil at Sicca, and Arnobius is in this entry;
+    the Institutes are the fullest Latin defence anyone wrote, and most of the work predates 312.
+
+
+    THE RULING SPLITS THE AUTHOR, WHICH IS WHAT `per work` MEANS. Lactantius'' apologetic corpus moves;
+    *Of the Manner in Which the Persecutors Died* does NOT. That is the Athanasius case the schema names
+    - the Vita Antonii is desert''s and Against the Arians is Alexandria''s, one author, two entries,
+    split by work.
+
+
+    '
+- work: A Treatise on the Anger of God
+  author: lactantius
+  locus: div2 3.3
+  atlas_ids:
+  - latin-apologists
+  role: tradition
+  confidence: assigned
+  note: 'Philosophical-theological treatise against Epicurean and Stoic accounts of deity. Moved with
+    the *Divine Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT a fresh judgement: the
+    worker''s own note placed it on imperial-juridical ''pending the ruling flagged on The Divine Institutes'',
+    so the dependency was declared at the time and this is it resolving. Confidence rises from `provisional`
+    to `assigned` because the doubt recorded was the era-straddle, and that is now settled.
+
+
+    '
+- work: On the Workmanship of God
+  author: lactantius
+  locus: div2 3.4
+  atlas_ids:
+  - latin-apologists
+  role: tradition
+  confidence: assigned
+  note: 'On the design of the human body, against Epicurean chance - Lactantius'' natural-theology piece.
+    Moved with the *Divine Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT a fresh judgement:
+    the worker''s own note placed it on imperial-juridical ''pending the ruling flagged on The Divine
+    Institutes'', so the dependency was declared at the time and this is it resolving. Confidence rises
+    from `provisional` to `assigned` because the doubt recorded was the era-straddle, and that is now
+    settled.
+
+
+    '
+- work: Of the Manner in Which the Persecutors Died
+  author: lactantius
+  locus: div2 3.5
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'STAYS ON imperial-juridical-christianity, and is the one Lactantius work the 2026-08-27 ruling
+    does not move. Written c. 314-15 AFTER the Edict of Milan, from inside the Constantinian settlement
+    rather than against the persecution: it prints the text of the Milan agreement (ch. 48) and the dream
+    before the Milvian Bridge (ch. 44). It is not apologetic, and it is LOAD-BEARING FOR A BUILT WORLD
+    - `ijc.source.lactantius-de-mortibus` is cited by `ijc.figure.constantine` and `ijc.gravity.church-state-alliance`,
+    and `ijc.search.f6-e-negative-sweep` records that it is that world''s only licensed source reaching
+    back before 312. Moving it to follow its author would have stripped a live world of a source it depends
+    on, which is exactly what the non-exclusivity rule exists to prevent.
+
+
+    '
+- work: Fragments of Lactantius
+  author: lactantius
+  locus: div2 3.6
+  atlas_ids:
+  - latin-apologists
+  role: tradition
+  confidence: assigned
+  note: 'The surviving fragments, carried with the corpus they belong to. Moved with the *Divine Institutes*
+    on Mark''s ruling of 2026-08-27, and moved WITHOUT a fresh judgement: the worker''s own note placed
+    it on imperial-juridical ''pending the ruling flagged on The Divine Institutes'', so the dependency
+    was declared at the time and this is it resolving. Confidence rises from `provisional` to `assigned`
+    because the doubt recorded was the era-straddle, and that is now settled.
+
+
+    '
+- work: On Easter (De Pascha)
+  author: venantius
+  locus: div1 4 — Venantius
+  atlas_ids:
+  - merovingian-gallic-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The volume''s own notes identify the author as Venantius Honorius Clementianus Fortunatus,
+    sixth-century presbyter-poet (poem addressed to bishop Felix; author of a poem on St.
+    Martin) — the Merovingian Gaul court/episcopal poet. A sixth-century work oddly housed
+    in an Ante-Nicene volume; the census entry (c. 480-620, Gaul) fits it exactly.
+
+    '
+- work: The Extant Writings of Asterius Urbanus
+  author: asterius
+  locus: div2 5.2
+  atlas_ids:
+  - montanism-the-new-prophecy
+  role: context
+  confidence: provisional
+  note: 'Fragments of three books against the Montanists (preserved via Eusebius HE v.16-17),
+    recounting Montanus, Maximilla, and the Asian synodal rejection — primary outside evidence
+    about the New Prophecy, and it also preserves reports of Montanist oracles. Role marked
+    context because it describes the movement rather than speaking as one of it; if Mark reserves
+    `context` for non-Christian outsiders, flip to tradition and rely on the per-record etic
+    register. The author has no bucket of his own (3rd-c. Asia Minor proto-orthodoxy has no
+    census entry).
+
+    '
+- work: On the Creation of the World
+  author: victorinus
+  locus: div2 6.1
+  atlas_ids:
+  - danubian-latin-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Victorinus of Pettau (Poetovio, Pannonia; martyred c. 304), the earliest Latin exegete. RULED
+    2026-08-27: danubian-latin-christianity (I.40, era 1, c. 250-400) was minted for exactly this gap
+    - the worker''s note said the Latin-pastoral entry was a language-only guess with the wrong region,
+    and it was right. Mark overrode the pile bar (two works) because an accurate thin entry beats an inaccurate
+    thick one.
+
+
+    '
+- work: Commentary on the Apocalypse of the Blessed John
+  author: victorinus
+  locus: div2 6.2
+  atlas_ids:
+  - danubian-latin-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Same author and same ruling as On the Creation of the World: moved to danubian-latin-christianity
+    2026-08-27. Millenarian exegesis, and the transmitted text is Jerome''s revision - he rewrote the
+    chiliast ending. That is custody, not authorship, so it is carried as a SEPARATE `transmission` row
+    on hieronymian-ascetic-literary rather than as a second claim on the voice.
+
+
+    '
+- work: Commentary on the Apocalypse of the Blessed John
+  author: victorinus
+  locus: div2 6.2
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: transmission
+  confidence: assigned
+  note: 'Added 2026-08-27 with the `transmission` role. The commentary is Victorinus'' - his voice is
+    on danubian-latin-christianity - but the text anyone can read is Jerome''s reissue, with the millenarian
+    ending rewritten. The relation is custody: this entry''s people are why we still have it, and why
+    we do not have quite what was written. That is the boundary the role was defined on.
+
+
+    '
+- work: Against the Sabellians
+  author: dionysius_rome
+  locus: div2 7.2
+  atlas_ids:
+  - roman-church-third-century
+  role: tradition
+  confidence: assigned
+  note: 'Dionysius bishop of Rome (c. 259-268), against Sabellian and tritheist readings,
+    written into the controversy with Dionysius of Alexandria and preserved by Athanasius.
+    There is no Era-1 Roman-church entry; assigned provisionally to the Alexandrian controversy
+    it addresses. A Roman bishop''s doctrinal letter filed under Alexandria needs Mark''s
+    sign-off. Re-pointed 2026-08-26: roman-church-third-century was added on record and widened
+    to 268 to hold it. Dionysius was bishop 259-268, and a Roman bishop''s doctrinal letter
+    belongs to the Roman church rather than to the Alexandrian controversy it addresses.'
+- work: The Teaching of the Twelve Apostles (Didache)
+  author: didache
+  locus: div2 8.3
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'The earliest church order, late 1st/early 2nd c., Syrian/Antiochene milieu — squarely
+    the entry''s era and region, and a core source for it. Later incorporated and expanded
+    in Apostolic Constitutions VII (same volume), which is assigned separately.
+
+    '
+- work: Constitutions of the Holy Apostles (Apostolic Constitutions)
+  author: apostolic-constitutions
+  locus: div1 9, Books I-VIII
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: tradition
+  confidence: provisional
+  note: 'Compiled c. 375-380 in Syria (Antioch) — the same city and generation as the Chrysostom-centered
+    entry, which is the nearest census bucket, though that entry is styled "exegetical" and
+    this is a church-order/liturgical compilation (Book VIII carries the Clementine liturgy
+    and the Apostolic Canons). It also embeds the Didache and the Didascalia, which gives
+    post-apostolic-house-church a transmission interest noted here rather than asserted as
+    an assignment.
+
+    '
+- work: The Second Epistle of Clement (an ancient homily)
+  author: second-clement
+  locus: div2 10.3 — The Homily
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'The earliest surviving Christian homily, mid-2nd c., Rome or Corinth; Clementine
+    by transmission only. The same work is printed again in anf09 (div2 12.6) — both staged,
+    which the merge tolerates as two source files.
+
+    '
+- work: The Nicene Creed
+  author: nicene-creed
+  locus: div1 11
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The conciliar creed of 325 (with the 381 form) — the central document of the imperial-juridical
+    entry. Alexandria''s stake in it (the Athanasian defense) is noted for reviewers but the
+    creed itself is filed with the councils.
+
+    '
+- work: The Divine Liturgy of James
+  author: liturgy-of-st-james
+  locus: div2 12.2
+  atlas_ids:
+  - jerusalem-liturgical-pilgrimage-christianity
+  - syriac-orthodox-west-syriac-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The Jerusalem/Antiochene rite: evidence of the practice the Jerusalem liturgical-pilgrimage
+    entry is about, and the ancestral anaphora of the West Syriac (Syriac Orthodox) church.
+    The received text is later than its apostolic attribution — practice evidence, not authorial
+    argument; provisional because the text''s date is far from the entries'' windows.
+
+    '
+- work: The Divine Liturgy of Mark
+  author: liturgy-of-st-mark
+  locus: div2 12.3
+  atlas_ids:
+  - alexandria-catechetical
+  - cyrilline-miaphysite-egyptian-christianity
+  role: tradition
+  confidence: provisional
+  note: 'DECLINED FOR alexandria-catechetical 2026-08-27, on the EDITION''S OWN EVIDENCE rather than a
+    judgement call. The ANF text carries an editorial note at the Only-begotten Son troparion: "It is
+    so worded that it must be dated later than the Council of Ephesus, a.d. 431." alexandria-catechetical''s
+    window is c. 150-400, so the received text this file prints is later than the world it was assigned
+    to, by the file''s own reckoning. The rite is genuinely Alexandrian and the assignment is not wrong
+    about that - what is wrong is treating a post-431 recension as a source for a world that ends at 400.
+    Kept `provisional` and left unopened deliberately; if a world for the later Alexandrian rite is ever
+    built, this is its material.
+
+
+    '
+- work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
+  author: liturgy-of-addai-and-mari
+  locus: div2 12.4
+  atlas_ids:
+  - syriac-edessa-nisibis
+  - persian-church-of-the-east-early
+  - the-church-of-the-east-under-persia
+  role: tradition
+  confidence: provisional
+  note: 'DECLINED FOR syriac-edessa-nisibis 2026-08-27, for the same reason as the Liturgy of Mark and
+    on the same page of apparatus. The ANF prints a text "corrected after Renaudot" from an 18th-c. collection,
+    and the Early Liturgies section''s own notes date the received forms well after the councils; syr''s
+    window is 200-410. The East Syriac anaphora under Addai''s and Mari''s names is the living continuation
+    of the world syr describes - Addai is its founding apostle and the Doctrine of Addai is already vendored
+    here - and that continuity is exactly why the temptation to shelve it in-window is strong and wrong.
+    Kept `provisional` and left unopened.
+
+
+    '

@@ -34,6 +34,10 @@ tensions:
 - "a shared boundary held by nearly everyone against a contemplative depth reached by very few - the second was never our common experience"
 relations:
 - type: associated-with
+  target: desert.dw.the-heart-and-the-spirit
+- type: associated-with
+  target: desert.quote.the-kingdom-is-apatheia
+- type: associated-with
   target: desert.quote.antony-nicene-formula
 - type: associated-with
   target: desert.limit.original-sin-eucharist-faith

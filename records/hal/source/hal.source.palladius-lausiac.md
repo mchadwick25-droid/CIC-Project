@@ -20,6 +20,9 @@ rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Doc_02 section 2.2 located the Paula chapter (HL 41) but flagged its wording as not yet re-collated; this branch verified both chapters' wording directly against the vendored Clarke translation (file lines 431-435, 473-475)"
 external_ids: {}
+relations:
+- type: associated-with
+  target: hal.source.palladius-paradise-syriac
 ---
 Rights verified from the file's own prepended header ('Rights: Public
 Domain'; Clarke 1918, plus the transcriber's site-wide public-domain

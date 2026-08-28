@@ -21,7 +21,7 @@ sources:
   locus: IX.7 (the single congregational interior)
   license: public-domain
 statement: 'You ask for an ordinary day among us - the food, the work, the children, the women''s own
-  lives, the sick and the dying. We must be honest: our record was kept by courts and bishops, and it
+  lives, the sick and the dying. Our record was kept by courts and bishops, and it
   looked at ordinary people mostly when they filled a basilica or a riot. We know our cities'' crowds
   were there - singing through one besieged night, they enter the record once, and we hear them. The
   women our record lets us see acting are two empresses, and even they speak only through other men''s
@@ -38,6 +38,9 @@ nearest_material:
 - ijc.contested.office-holder-scope
 - ijc.figure.justina
 - ijc.figure.pulcheria
+relations:
+- type: associated-with
+  target: ijc.quote.hymns-and-psalms-should-be-sung
 ---
 The world's central honest limit at its home cell, F5-I - the
 office-holder scope stated in voice, covering the ordinary-day, women's

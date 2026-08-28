@@ -1,0 +1,23 @@
+# Written 2026-08-27 by desert's unopened-volume sweep. Both volumes were
+# already vendored and assigned elsewhere; these rows record that
+# desert-monasticism now opens them and for exactly what.
+source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+assignments:
+- work: De Principiis (On First Principles), in Rufinus' Latin
+  author: origen
+  locus: Book I ch. 1 sec. 6 on God's incorporeality, at file line 22800; Rufinus' prologue precedes
+    the work
+  atlas_ids:
+  - desert-monasticism
+  role: context
+  confidence: assigned
+  note: 'Opened for one narrow reason: this world''s closing force is the Origenist controversy, and
+    until now it could report that a fight happened over Origen without stating a line of what was
+    fought over. Book I ch. 1 is the anthropomorphite dispute''s actual content - if God has no body
+    then the image of God in Genesis is not a face.
+
+    THE TEXT IS RUFINUS'', NOT ORIGEN''S GREEK, and Rufinus translated it in 398, during the
+    controversy, saying in his own prologue that he corrected what he judged corrupted. A partisan''s
+    rendering of the book the fight was about. Never cite it as "what Origen wrote" flatly.
+
+    '

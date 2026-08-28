@@ -34,6 +34,9 @@ narratable: true
 bridge_line: the widow whose fortune and resolve built Bethlehem - founder and head of the
   women's community, mother of Eustochium and Blaesilla, the material foundation of the
   whole scholarly project
+relations:
+- type: associated-with
+  target: hal.quote.paula-escaped-his-envy
 ---
 The women's-pole anchor figure. Everything known of her comes through
 Jerome's hand (Ep. 108 above all), and the record's own finding is that she

@@ -1,0 +1,22 @@
+# Worker file: npnf114 (Chrysostom - Homilies on John and Hebrews)
+# Two homily series, two works. Skipped as apparatus: title page, preface, the
+# Comparative Table of editions (3, editorial), the per-series prefaces, and
+# the indexes (6, 7).
+source_file: npnf114_chrysostom-homilies-john-hebrews.xml
+
+assignments:
+  - work: "Homilies on the Gospel of St. John"
+    author: chrysostom
+    locus: "div1 4 — the full John series (eighty-eight homilies), assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+
+  - work: "Homilies on the Epistle to the Hebrews"
+    author: chrysostom
+    locus: "div1 5 — the full Hebrews series, assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned

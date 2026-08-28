@@ -13,6 +13,86 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-27 (Pass 6) — census 274→292, added by the CORPUS rather than by a Step 0 gate; the pile bar, Mark's override of it, and the Lactantius split
+
+**This entry exists because eighteen movements entered the census without one
+of these entries being written, which is exactly the failure this log is for.**
+The additions were made across 2026-08-26 and 08-27 by the cross-world corpus
+assignment thread (`world-build-docs/_cross-world/`, `cic/corpus-map/`), whose
+own records are complete; what was missing until now was any trace of them
+here, in the Atlas's own decision record. Census **274 → 287 → 292**, edges
+**54 → 69**.
+
+**The mechanism was new and is worth naming.** Every previous addition came
+from a Step 0 era gate: a survey ran, candidates were assessed, entries
+entered. These eighteen came from the opposite direction. Ten parallel workers
+assigning 467 vendored works to Atlas entries kept filing the same complaint,
+independently and without being able to see each other: *this material is real
+and the census has nowhere accurate to put it.* Eighty-seven works were flagged
+`needs-ruling` rather than forced onto a wrong shelf, and the dominant reason
+was never doubt about a text — it was a hole in the map. **The corpus audited
+the census.** That is a check no Step 0 gate performs, because a survey asks
+what movements there were and this asks what survives and where it can honestly
+sit.
+
+**Thirteen entries, 2026-08-26.** Seven formation-world candidates
+(`gallic-monastic-ascetic-christianity`, `roman-church-third-century`,
+`palestinian-ascetic-monasticism-early`, `palestinian-church-pre-constantinian`,
+`anatolian-church-third-century`, `gallic-nicene-episcopate`,
+`greek-apologists-second-century`); one explicit shelf that says so on its face
+(`apocryphal-and-pseudepigraphal-literature`); five **Floor Question
+(register)** entries for material the corpus carries *about* a movement
+(`anomoean-eunomian-christianity`, `pneumatomachian-current`,
+`apollinarian-christianity`, `modalist-monarchianism`, `bardaisanite-current`)
+— registered as questions, not as exclusions, because no Phase One record rules
+on any of them by name and these entries do not invent one.
+
+**THE BAR WAS A PILE, AND MARK OVERRODE IT ON 2026-08-27.** Those thirteen were
+each added for a *pile* of misplaced works — eight for Gaul, seven for Anatolia,
+fifteen for the Greek apologists — and five further regional gaps were
+DECLINED on that same ground, with the declines written down rather than
+quietly dropped. Mark's ruling: *mint the thin entries for all five.* The
+reasoning is one line and it is the whole of Pass 6's heart — **an accurate thin
+entry beats an inaccurate thick one.** A world nobody has built yet is still
+better served by a bucket that names it than by being shelved under a
+tradition it does not belong to; the map's job is to be honest about what the
+church has been, and a wrong shelf is a quiet lie about a real body of people.
+So: `latin-apologists` (I.43), `roman-church-gregorian` (II.18),
+`danubian-latin-christianity` (I.40), `aquileian-christianity` (I.41),
+`antiochene-church-third-century` (I.42). Each carries its own thinness in its
+`why` field — I.42 holds **one work, three thousand words**, and says so.
+
+**What the override did NOT do.** It did not settle anything a worker had
+refused to settle. Lactantius was held back deliberately, so that a ruling he
+was owed would not arrive as a side effect of one about somewhere else; Mark
+ruled him separately the same day, into `latin-apologists`. **That ruling splits
+the author, which is what *per work* means.** The *Divine Institutes* and its
+three companions move — about three hundred thousand words, quadrupling the new
+entry's corpus. *Of the Manner in Which the Persecutors Died* does not: written
+c. 314–15 from inside the Constantinian settlement, it is **load-bearing for a
+built world** (`ijc.source.lactantius-de-mortibus`, cited by
+`ijc.figure.constantine` and `ijc.gravity.church-state-alliance`, and recorded
+in `ijc.search.f6-e-negative-sweep` as that world's only licensed source
+reaching back before 312). Following the author would have stripped a live world
+of a source it depends on, which is what the non-exclusivity rule exists to
+prevent.
+
+The two attribution questions (the *Passion of St. Symphorosa* under Julius
+Africanus' name, the Maximus of Jerusalem fragment) are untouched by any new
+entry, because a new shelf does not answer a doubt about who wrote something.
+Flagged works fleet-wide: **87 → 2**.
+
+**Verification:** census validator clean at 292 movements / 69 edges / 10 eras;
+`cic/engine/corpus_map.py` valid at 718 assignments across 56 entries; 14/14
+corpus-map tests; `engine.m1.cross_world` 0 new defects.
+
+**Next action:** two flagged works remain and both are Mark's, and both are
+**attribution** questions rather than shelving ones — no further entry can
+answer either. Nothing is blocked on them; the map is valid and usable as it
+stands.
+
+---
+
 ## 2026-08-14 (Pass 5) — ERA 10 FROZEN by Mark; census 257→274; the Living-Era Protocol ratified; the ten-era Step-0 build COMPLETE
 
 **Decided (Mark): "freeze what is there"** — which under this project's

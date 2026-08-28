@@ -27,14 +27,16 @@ retrieval:
   - "participant asks whether anyone in this world had known an eyewitness"
   do_not_retrieve_when:
   - "a question about modern historical-critical method with no connection to this world's own texts"
-relations: []
+relations:
+- type: associated-with
+  target: pahc.quote.they-appointed-those-already-mentioned
 positions:
 - "We did not see him ourselves. What we have is a chain: the apostles preached what they received from the Lord, and in turn appointed others after them."
 - "In Rome by the mid-2nd century, memoirs of the apostles were read aloud at the weekly gathering, alongside the writings of the prophets, for as long as time allowed."
 tensions:
 - "None of this world's own primary voices claims direct personal contact with an eyewitness to Jesus himself - the chain is always at least one remove. The value this world places on hearing directly 'from the living and abiding voice' (a value this world's own figure Papias is remembered for holding) shows the direct chain was already felt as something ending, not something this world could still fully rely on."
 text: >
-  We answer you honestly: none of us saw him ourselves. What we have is
+  None of us saw him ourselves. What we have is
   what was handed to us. The apostles preached what they had received
   from the Lord; they in turn appointed others to carry it forward when
   they themselves were gone. In some of our households, on the day we

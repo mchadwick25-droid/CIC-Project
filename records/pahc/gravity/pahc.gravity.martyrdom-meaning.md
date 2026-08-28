@@ -37,6 +37,8 @@ relations:
   target: pahc.story.ignatius-guarded-journey
 - type: associated-with
   target: pahc.story.martyrdom-of-polycarp
+- type: illustrated-by
+  target: pahc.quote.lucian-all-brothers
 name: "Martyrdom as Formation-Shaping Meaning-Response [SUPPORTING, Strand A only]"
 classification: supporting
 description: "In some of this world's communities a death for the name is read as the thing that

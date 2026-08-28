@@ -1,0 +1,175 @@
+# Worker: npnf210-214 group, 2026-08-26.
+# Symmachus' Relatio is printed inside Ambrose's letter section because
+# Epistle XVIII answers it. It is not Ambrose's work and CCEL's metadata
+# does not say whose it is.
+source_file: npnf210_ambrose-select-works-letters.xml
+authors_ruled:
+  symmachus:
+    kind: metadata-omission
+    evidence: 'div2 titles "Memorial of Symmachus, the Prefect of the City." (5.1) and "The
+      Memorial of Symmachus, Prefect of the City." (5.3) name Symmachus as the memorial''s
+      author; npnf210 DC.Creator lists only `ambrose`. The Relatio is the pagan prefect''s
+      own state paper, included so that Ambrose''s reply (Epistle XVIII, 5.4) can be read
+      against it.
+
+      '
+assignments:
+- work: On the Duties of the Clergy (De Officiis Ministrorum)
+  author: ambrose
+  locus: div2 4.1 — On the Duties of the Clergy
+  atlas_ids:
+  - ambrosian-milan-standalone
+  role: tradition
+  confidence: assigned
+  note: 'Ambrose''s ethics manual for his own Milanese clergy, the Christian recasting of
+    Cicero''s De Officiis. The formation text of the Milan entry''s own pastoral world.
+
+    '
+- work: On the Holy Spirit (De Spiritu Sancto)
+  author: ambrose
+  locus: div2 4.2 — On the Holy Spirit
+  atlas_ids:
+  - ambrosian-milan-standalone
+  role: tradition
+  confidence: assigned
+  note: 'Written for the emperor Gratian, continuing De Fide; pro-Nicene pneumatology drawing
+    on Basil and Didymus. Its opponents are the Pneumatomachians rather than the Homoians
+    proper, so no homoian-arian-christianity id is asserted here - a reviewer could add one
+    by analogy with De Fide. 2026-08-26: pneumatomachian-current added alongside - the party
+    this work argues with now has an entry of its own.'
+- work: On the Holy Spirit (De Spiritu Sancto)
+  author: ambrose
+  locus: div2 4.2 — On the Holy Spirit
+  atlas_ids:
+  - pneumatomachian-current
+  role: context
+  confidence: assigned
+  note: 'Written for the emperor Gratian, continuing De Fide; pro-Nicene pneumatology drawing
+    on Basil and Didymus. Its opponents are the Pneumatomachians rather than the Homoians
+    proper, so no homoian-arian-christianity id is asserted here - a reviewer could add one
+    by analogy with De Fide. 2026-08-26: pneumatomachian-current added alongside - the party
+    this work argues with now has an entry of its own.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: On the Decease of His Brother Satyrus (De Excessu Fratris)
+  author: ambrose
+  locus: div2 4.3 — On the Decease of His Brother Satyrus
+  atlas_ids:
+  - ambrosian-milan-standalone
+  role: tradition
+  confidence: assigned
+  note: 'Two funeral orations, the second a treatise on resurrection. Milanese pastoral oratory;
+    nothing here reaches beyond the Milan entry.
+
+    '
+- work: Exposition of the Christian Faith (De Fide)
+  author: ambrose
+  locus: div2 4.4 — Exposition of the Christian Faith
+  atlas_ids:
+  - ambrosian-milan-standalone
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Five books commissioned by the emperor Gratian before his campaign against the Goths
+    - doctrine written at an emperor''s request is squarely ijc material as well as Milan''s
+    own. Its anti-Arian argument is carried as a separate context row below.
+
+    '
+- work: Exposition of the Christian Faith (De Fide)
+  author: ambrose
+  locus: div2 4.4 — Exposition of the Christian Faith
+  atlas_ids:
+  - homoian-arian-christianity
+  role: context
+  confidence: assigned
+  note: 'Sustained engagement with Homoian teaching (Palladius of Ratiaria''s circle); one
+    of the fuller Latin records of the position it opposes. Same work as the tradition row
+    above - the role differs per target, so it is staged as two rows.
+
+    '
+- work: On the Mysteries (De Mysteriis)
+  author: ambrose
+  locus: div2 4.5 — On the Mysteries
+  atlas_ids:
+  - ambrosian-milan-standalone
+  role: tradition
+  confidence: assigned
+  note: 'Post-baptismal catechesis on baptism, chrism and eucharist - direct evidence of Milan''s
+    own liturgy and mystagogy.
+
+    '
+- work: Concerning Repentance (De Paenitentia)
+  author: ambrose
+  locus: div2 4.6 — Concerning Repentance
+  atlas_ids:
+  - ambrosian-milan-standalone
+  role: tradition
+  confidence: assigned
+  note: 'Defense of the church''s power to forgive post-baptismal sin. Its anti-Novatianist
+    argument is carried as a context row below.
+
+    '
+- work: Concerning Repentance (De Paenitentia)
+  author: ambrose
+  locus: div2 4.6 — Concerning Repentance
+  atlas_ids:
+  - novatianism
+  role: context
+  confidence: provisional
+  note: 'Written against Novatianist rigorism; opponent testimony for a Contested-Evidentiary
+    entry whose own record is thin. Provisional because the treatise describes the position
+    mostly to refute it.
+
+    '
+- work: Concerning Virgins (De Virginibus)
+  author: ambrose
+  locus: div2 4.7 — Concerning Virgins
+  atlas_ids:
+  - ambrosian-milan-standalone
+  role: tradition
+  confidence: assigned
+  note: 'Three books to his sister Marcellina; the charter of Milanese consecrated virginity.
+    Western ascetic literature, but a decade before Jerome''s circle, so no hieronymian id
+    is asserted.
+
+    '
+- work: Concerning Widows (De Viduis)
+  author: ambrose
+  locus: div2 4.8 — Concerning Widows
+  atlas_ids:
+  - ambrosian-milan-standalone
+  role: tradition
+  confidence: assigned
+  note: 'Companion piece to Concerning Virgins; same disposition.
+
+    '
+- work: Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius)
+  author: ambrose
+  locus: div1 5, div2 5.2 and 5.4-5.15 (5.1/5.3, Symmachus' Memorial, split out below)
+  atlas_ids:
+  - imperial-juridical-christianity
+  - ambrosian-milan-standalone
+  role: tradition
+  confidence: assigned
+  note: 'The selection is precisely the church-and-empire dossier ijc.figure.ambrose names:
+    Epistles XVII-XVIII (Altar of Victory, 384), XX-XXI and the Sermon Against Auxentius (the
+    basilica standoff, 386), XL-XLI (Callinicum, 388), LI (Thessalonica, 390), plus the Gervasius/Protasius
+    relics letter and Epistle LXIII to Vercellae. Assigned as one body per the granularity
+    rule; the volume''s own selection is already this coherent.
+
+    '
+- work: Memorial (Relatio) of Symmachus, Prefect of the City
+  author: symmachus
+  locus: div2 5.1 and 5.3 — Memorial of Symmachus
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: assigned
+  note: 'The pagan prefect''s plea for the restoration of the Altar of Victory - a non-Christian
+    state paper, textbook role:context under brief §11a: the view of the imperial church from
+    outside, printed here because Ambrose''s Epistle XVIII answers it point by point. Author
+    ruled above.
+
+    '

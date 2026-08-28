@@ -5,6 +5,8 @@ disk required.
 """
 from engine.m4.evidence import (
     _fallback_search_text,
+    _looks_like_follow_up,
+    _word_weights,
     _fulltext_fallback_candidates,
     apply_session_exclusion,
     assemble_evidence,
@@ -285,6 +287,19 @@ def test_render_evidence_block_uses_citation_ready_ids():
     assert block.startswith("## Ground for this turn")
 
 
+def test_render_evidence_block_says_its_ground_is_not_already_said():
+    """The header frames THIS channel; nothing frames the replayed history
+    (engine.api.wiring._replay_text, which re-attaches [[id]] tags to past
+    turns on purpose). Without this clause a record read here for the first
+    time can be reported to the participant as already given - measured on
+    desert, "Sarah, whose words we already gave you", two turns after a
+    conversation that had not mentioned her."""
+    evidence = {"candidates": [], "cells": [], "thin_ground": []}
+    block = render_evidence_block(evidence)
+    assert "Available, not already said" in block
+    assert "the conversation above" in block
+
+
 def test_render_evidence_block_marks_already_told_and_scope_completion():
     evidence = assemble_evidence(
         message="What does your community remember of Jesus through its teaching?",
@@ -428,3 +443,284 @@ def test_assemble_evidence_fallback_never_fires_once_a_cell_matches():
     )
     assert evidence["cells"] != []
     assert all(not c.get("fulltext_fallback") for c in evidence["candidates"])
+
+
+# ---- entity routing (Stage A, added 2026-08-27) -------------------------
+# Fixture shaped from the measured failure it exists for: a world whose
+# figure is named in the question but whose name is in no canon question,
+# so every content-word tier is blind to it.
+ENTITY_CANON = {
+    **CANON_QUESTIONS,
+    "fleet.canon.q-f1e-rule": {
+        "id": "fleet.canon.q-f1e-rule",
+        "record_type": "canon_question",
+        "cell": "F1-E",
+        "text": "Who held authority among you, and how did anyone come to have it?",
+    },
+}
+ENTITY_FIGURE = {
+    "id": "fix.figure.pachomius",
+    "record_type": "figure",
+    "canon_cells": ["F1-E"],
+    "names": [{"name": "Pachomius", "tag": "in-world"}, {"name": "Pachomius of Tabennesi (c. 292-346)", "tag": "scholarly"}],
+}
+ENTITY_QUOTE = {
+    "id": "fix.quote.the-rule",
+    "record_type": "quote",
+    "canon_cells": ["F1-E"],
+    "text": "Suffer each one to eat and to drink, as Pachomius was commanded.",
+    "license": "verbatim",
+}
+ENTITY_REPOSITORY = {r["id"]: r for r in (WITNESS, LIMIT, TERM_A, ENTITY_FIGURE, ENTITY_QUOTE)}
+ENTITY_COVERAGE = {**COVERAGE, "F1-E": {"quotes": ["fix.quote.the-rule"], "terms": [], "stories": [], "doctrinal_witness": [], "gravities": [], "forces": [], "contested_claims": []}}
+
+
+def test_entity_routing_reaches_a_cell_no_content_word_tier_would():
+    matches = match_asks_to_cells(
+        message="Is there anything Pachomius himself actually put in writing?",
+        asks=None,
+        canon_questions=ENTITY_CANON,
+        repository_records=ENTITY_REPOSITORY,
+    )
+    entity = [m for m in matches if m.get("from_entity")]
+    assert entity, "a named figure must reach the cell its own world discusses it in"
+    assert entity[0]["cell"] == "F1-E"
+    assert entity[0]["from_entity"] == "pachomius"
+
+
+def test_entity_routing_adds_a_slot_and_never_displaces_a_content_word_match():
+    # The whole safety argument: entity routing widens the ground, so a
+    # cell an honest literal match found must still be there afterwards.
+    without = match_asks_to_cells(
+        message="What did your community actually have about Jesus?",
+        asks=None, canon_questions=ENTITY_CANON, repository_records=None,
+    )
+    with_entity = match_asks_to_cells(
+        message="What did your community actually have about Jesus, and about Pachomius?",
+        asks=None, canon_questions=ENTITY_CANON, repository_records=ENTITY_REPOSITORY,
+    )
+    kept = {m["cell"] for m in with_entity if not m.get("from_entity")}
+    assert {m["cell"] for m in without} <= kept
+
+
+def test_entity_routing_ignores_a_name_the_canon_already_carries():
+    # A token already in canon vocabulary routes through cell_keywords; a
+    # second path for it would only let the entity tier duplicate - and
+    # potentially outrank - the honest match it is copying.
+    figure = {**ENTITY_FIGURE, "id": "fix.figure.jesus", "names": [{"name": "Jesus", "tag": "in-world"}]}
+    repo = {**ENTITY_REPOSITORY, figure["id"]: figure}
+    matches = match_asks_to_cells(
+        message="Tell me about Jesus.", asks=None, canon_questions=ENTITY_CANON, repository_records=repo,
+    )
+    assert not [m for m in matches if m.get("from_entity") == "jesus"]
+
+
+def test_fallback_still_fires_when_the_only_match_is_an_entity_match():
+    # Regression guard: an entity match is a weaker signal than a canon or
+    # hint match - it knows the question is ABOUT someone, not what is
+    # asked - so it must not suppress the Stage A2 net the way a real cell
+    # match does. Measured on pahc: "Who was Papias?" fell from three
+    # records to one when entity routing first landed.
+    repo = {**FALLBACK_REPOSITORY, ENTITY_FIGURE["id"]: ENTITY_FIGURE}
+    evidence = assemble_evidence(
+        message="What did Pachomius say of paradise?",
+        asks=None,
+        canon_questions=ENTITY_CANON,
+        coverage=ENTITY_COVERAGE,
+        repository_records=repo,
+    )
+    assert all(m.get("from_entity") for m in evidence["cells"])
+    assert any(c.get("fulltext_fallback") for c in evidence["candidates"])
+
+
+def test_retrieve_when_is_not_searched_by_the_fulltext_fallback():
+    # Regression guard, from the day 124 quote records were hinted at once.
+    # A hint is retrieval vocabulary in the PARTICIPANT'S words - exactly
+    # what this fallback matches on - so counting it inflates document
+    # frequency until an honestly-discriminating word crosses the pool cap
+    # and stops discriminating. Measured on pahc: "believe" matched 4
+    # records and reached ground; after hinting it matched 7, went over the
+    # cap, and "How did you know what to believe?" returned nothing.
+    record = {
+        "id": "fix.quote.hinted",
+        "record_type": "quote",
+        "text": "A saying about bread.",
+        "retrieval": {"tier": 2, "retrieve_when": ["participant asks what they believed about anything at all"]},
+    }
+    searched = _fallback_search_text(record)
+    assert "bread" in searched
+    assert "believed" not in searched
+
+
+# ---- short-query single-word tier (added 2026-08-27) --------------------
+SHORT_CANON = {
+    **CANON_QUESTIONS,
+    "fleet.canon.q-marriage": {
+        "id": "fleet.canon.q-marriage", "record_type": "canon_question", "cell": "F1-E",
+        "text": "What did marriage mean to your people - did you have weddings?",
+    },
+}
+
+
+def test_short_query_may_match_on_one_discriminating_canon_word():
+    # "What did you think of marriage?" has two content words and shares
+    # exactly one with exactly the right cell. Requiring two is requiring
+    # the impossible.
+    matches = match_asks_to_cells(
+        message="What did you think of marriage?", asks=None,
+        canon_questions=SHORT_CANON, repository_records=None,
+    )
+    assert [m["cell"] for m in matches if m.get("matched_by") == "single-word"] == ["F1-E"]
+
+
+def test_long_query_still_needs_two_shared_words():
+    # The relaxation is for short queries only. A lone shared word among
+    # many is the noise the two-word floor exists to reject.
+    matches = match_asks_to_cells(
+        message="I have been wondering lately about weddings and whether anyone here bothered with marriage at all",
+        asks=None, canon_questions=SHORT_CANON, repository_records=None,
+    )
+    assert not [m for m in matches if m.get("matched_by") == "single-word"]
+
+
+def test_short_query_will_not_match_on_a_word_spread_across_cells():
+    # Measured: "Do you like pizza?" reached two cells on `like`, which is
+    # in seven of the fleet's 28 canon cells and picks a cell by coin-toss.
+    spread = {
+        f"fleet.canon.spread{i}": {
+            "id": f"fleet.canon.spread{i}", "record_type": "canon_question", "cell": cell,
+            "text": "Did you like the way things were done?",
+        }
+        for i, cell in enumerate(["C-E", "F1-E", "C-I", "F2-I"])
+    }
+    matches = match_asks_to_cells(
+        message="Do you like pizza?", asks=None,
+        canon_questions={**CANON_QUESTIONS, **spread}, repository_records=None,
+    )
+    assert not [m for m in matches if m.get("matched_by") == "single-word"]
+
+
+def test_single_word_tier_never_displaces_a_stronger_match():
+    # Ordering is this tier's whole safety. Measured on ijc: run before the
+    # hint tier, a 0.5 single-word canon match took a slot ahead of a 1.0
+    # two-word hint match and pushed out the cell that actually answered
+    # the question. A turn already reaching cells must be unchanged.
+    msg = "What did your community actually have about Jesus - writings, memories, people?"
+    before = match_asks_to_cells(message=msg, asks=None, canon_questions=CANON_QUESTIONS, repository_records=None)
+    after = match_asks_to_cells(message=msg, asks=None, canon_questions=SHORT_CANON, repository_records=None)
+    assert [m["cell"] for m in before] == [m["cell"] for m in after]
+
+
+def test_one_word_query_may_match_a_hint_word_but_a_two_word_query_may_not():
+    # A one-word query's single content word IS the subject - there is no
+    # other word for it to be the framing of, and no vocabulary at all can
+    # give it a second shared word. A two-word query is the case where the
+    # matched word may be the framing verb while the real subject is
+    # unknown to every cell ("Can you write me some code?").
+    repo = {
+        "fix.term.hinted": {
+            "id": "fix.term.hinted", "record_type": "term", "canon_cells": ["F1-E"],
+            "plain_meaning": "Washing at initiation.",
+            "retrieval": {"tier": 2, "retrieve_when": ["participant asks whether you baptise babies"]},
+        }
+    }
+    one = match_asks_to_cells(message="Who could be baptise?", asks=None,
+                             canon_questions=CANON_QUESTIONS, repository_records=repo)
+    assert [m["cell"] for m in one if m.get("matched_by") == "single-word-hint"] == ["F1-E"]
+
+    two = match_asks_to_cells(message="Discuss baptise please", asks=None,
+                              canon_questions=CANON_QUESTIONS, repository_records=repo)
+    assert not [m for m in two if m.get("matched_by") == "single-word-hint"]
+
+# --- cell-scorer weighting (the broad-cell defect, 2026-08-27) ---------------
+
+def test_a_word_in_many_cells_is_discounted_but_never_silenced():
+    """The taper's shape, pinned. A word in few cells is full evidence; one
+    spread across many is worth less but still counts, because silencing it
+    would delete the denominator protection that keeps an off-canon message
+    at no cell."""
+    w = _word_weights(
+        {"rare", "borderline", "common", "everywhere", "unknown"},
+        {"rare": 1, "borderline": 4, "common": 8, "everywhere": 28, "unknown": 0},
+    )
+    assert w["rare"] == 1.0
+    assert w["borderline"] == 1.0          # at the threshold, still full evidence
+    assert 0.25 < w["common"] < 1.0        # discounted
+    assert w["everywhere"] == 0.25         # floored, not zero
+    assert w["unknown"] == 1.0             # in no cell: cannot be shared, only widens the denominator
+
+
+def test_a_broad_cell_does_not_shut_out_a_specific_one_on_common_words():
+    """The measured defect this weighting exists for. BROAD shares three
+    words with the query but two of them sit in every cell; NARROW shares
+    two words that occur nowhere else. Under the old flat overlap
+    coefficient BROAD won on count alone and NARROW never reached Stage B,
+    because only the top-scoring cells survive. FILLER exists to give the
+    common words somewhere else to live, which is what makes them common."""
+    canon = {
+        "q.broad": {"record_type": "canon_question", "cell": "F6-P",
+                    "text": "people believe someone happened among community"},
+        "q.narrow": {"record_type": "canon_question", "cell": "F1-P",
+                     "text": "quintessence perambulation"},
+    }
+    for i, cell in enumerate(["C-I", "C-E", "C-P", "C-T", "F2-I", "F2-E", "F3-I", "F3-P"]):
+        canon[f"q.filler{i}"] = {"record_type": "canon_question", "cell": cell,
+                                 "text": "people believe someone happened among community"}
+    message = "people believe someone quintessence perambulation"
+    cells = [m["cell"] for m in match_asks_to_cells(
+        message=message, asks=[{"order": 1, "text": message}], canon_questions=canon)]
+    assert "F1-P" in cells, cells
+
+
+# --- follow-ups inherit the prior subject's cells (2026-08-27) --------------
+
+def test_a_question_that_names_its_own_subject_is_not_a_follow_up():
+    """The half of the test that stops this firing on real questions: 33 of
+    the 93 canon questions contain `that`, `this` or `it`, and every one of
+    them still names what it is asking about."""
+    assert not _looks_like_follow_up(
+        "What did your community actually have about Jesus - writings, memories, people?",
+        None, CANON_QUESTIONS, None)
+
+
+def test_a_back_reference_with_no_subject_is_a_follow_up():
+    assert _looks_like_follow_up("Why did that matter?", None, CANON_QUESTIONS, None)
+    assert _looks_like_follow_up("Say more about that.", None, CANON_QUESTIONS, None)
+
+
+def test_a_bare_request_with_no_back_reference_is_not_a_follow_up():
+    """`Tell me more.` is a follow-up to a human and not to this test - it
+    carries no marker, so it is deliberately out of scope rather than
+    caught by a looser rule that would also catch real questions."""
+    assert not _looks_like_follow_up("Tell me more.", None, CANON_QUESTIONS, None)
+
+
+def test_a_follow_up_inherits_the_prior_turn_cells():
+    history = [
+        {"role": "user", "content": "What did your community actually have about Jesus - writings, memories, people?"},
+        {"role": "assistant", "content": "What we had reached us through people who had known him."},
+    ]
+    out = assemble_evidence(
+        message="Why did that matter?", asks=None, canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE, repository_records=REPOSITORY, history=history)
+    assert out["cells"], "a follow-up with history should reach a cell"
+    assert all(c.get("inherited_from_prior_turn") for c in out["cells"]), out["cells"]
+    assert out["cells"][0]["cell"] == "C-E"
+
+
+def test_history_never_changes_a_turn_that_names_its_own_subject():
+    """The safety property: only follow-ups consult history at all, so every
+    ordinary turn is bit-for-bit what it was before this existed."""
+    message = "What did your community actually have about Jesus - writings, memories, people?"
+    history = [{"role": "user", "content": "How did your people fast?"},
+               {"role": "assistant", "content": "We fasted."}]
+    kw = dict(message=message, asks=None, canon_questions=CANON_QUESTIONS,
+              coverage=COVERAGE, repository_records=REPOSITORY)
+    assert assemble_evidence(**kw) == assemble_evidence(**kw, history=history)
+
+
+def test_a_first_turn_has_no_history_to_inherit_from():
+    out = assemble_evidence(
+        message="Why did that matter?", asks=None, canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE, repository_records=REPOSITORY, history=[])
+    assert not any(c.get("inherited_from_prior_turn") for c in out["cells"])

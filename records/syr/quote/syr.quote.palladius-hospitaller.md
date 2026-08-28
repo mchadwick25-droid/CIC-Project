@@ -24,5 +24,14 @@ modern_lens_note: '''Hospitaller'' most readily calls to a modern ear the later 
   military-religious order (the Knights Hospitaller); here it names Ephrem''s own
   one-time, ad hoc assumption of charitable responsibility during a single famine,
   centuries earlier and unrelated to that later institution.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what happened in a famine and who organised relief"
+  - "participant asks how an outsider described their most famous teacher"
+  do_not_retrieve_when: []
+relations:
+- type: associated-with
+  target: syr.quote.ephrem-keeper-of-strangers
 ---
 Verified verbatim (Clarke's translation). Reported speech within an early account - attributed to the account's rendering, not claimed as Ephrem's own transcribed words.

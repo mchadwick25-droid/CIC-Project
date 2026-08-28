@@ -43,6 +43,9 @@ tensions:
 - this world's trinitarian faith is held as inheritance and defended in polemic; it wrote
   no treatise of its own on the doctrine - its witness is practice and profession, not
   system
+relations:
+- type: associated-with
+  target: hal.quote.ever-let-the-bridegroom-sport-with-you
 ---
 Center-translational answer-ground. The translational discipline: near
 answers marked as near ('close kin'), later formulas named as later, no

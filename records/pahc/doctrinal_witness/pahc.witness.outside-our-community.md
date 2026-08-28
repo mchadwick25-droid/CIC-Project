@@ -29,6 +29,7 @@ retrieval:
   - "participant asks whether outsiders are condemned"
   - "participant asks whether this world's own way was too narrow"
   - "participant asks about divorce"
+  - "participant asks what the neighbours thought of them, and what was said about them locally"
   do_not_retrieve_when: []
 relations: []
 positions:

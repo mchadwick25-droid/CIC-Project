@@ -26,6 +26,12 @@ license: verbatim
 modern_lens_note: >-
   'Trophy' is used in its ancient sense (a battle-standard or token of victory), not the modern
   sense of an award object.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how the emperor came to favour the Christians"
+  - "participant asks whether the vision story can be believed"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.vision-and-alliance}
 ---

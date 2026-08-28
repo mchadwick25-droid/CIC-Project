@@ -29,6 +29,9 @@ positions:
 - "this world's own practice is remembered as an intensification of an inherited substrate, not an invention"
 tensions:
 - "a modest continuity claim (an inherited substrate) against the wider, larger claim the question actually asks (an apostolic line) - we can support the first; on the second we stay silent"
+relations:
+- type: associated-with
+  target: desert.quote.an-old-man-in-the-next-village
 ---
 Drawn directly from desert.force.village-ascetic-culture and
 desert.gravity.withdrawal's own generating-force framing. Answers the

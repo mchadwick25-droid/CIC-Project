@@ -1,0 +1,1190 @@
+# Corpus assignment worker, 2026-08-26. Anonymous-and-collective group.
+# This volume is almost entirely anonymous, pseudonymous and collective
+# material, so it carries far more authors_ruled blocks than most: the slugs
+# name work-entities (brief 6.4), never invented persons. Apparatus (title
+# pages, introductory notices, elucidations, indexes) is skipped throughout.
+source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+authors_ruled:
+  testaments-twelve-patriarchs:
+    kind: pseudonymous
+    evidence: 'div1 3 "The Testaments of the Twelve Patriarchs": twelve first-person deathbed
+      testaments in the patriarchs'' names. anf08 DC.Creator lists only clement_rome and theodotus,
+      neither for this section.
+
+      '
+  two-epistles-on-virginity:
+    kind: pseudonymous
+    evidence: 'div1 5; the section''s Introductory Notice heads it "Attributed to Clement
+      of Rome", groups it with the "Pseudo-Clementina", and argues no spurious writing under
+      Clement''s name is earlier — attributed to Clement, not his.
+
+      '
+  pseudo-clement:
+    kind: pseudonymous
+    evidence: 'div1 6 is titled "Pseudo-Clementine Literature" in the volume''s own markup.
+      CCEL''s DC.Creator carries clement_rome for the volume, but the volume itself rules
+      the attribution pseudonymous in its section title and Introductory Notice; ruled explicitly
+      per the brief''s open question 4.
+
+      '
+  protevangelium-of-james:
+    kind: pseudonymous
+    evidence: 'div2 7.4 title; the text closes claiming James''s authorship. No DC.Creator
+      for any work in the Apocrypha section (div1 7).
+
+      '
+  gospel-of-pseudo-matthew:
+    kind: pseudonymous
+    evidence: 'div2 7.5 title "The Gospel of Pseudo-Matthew" — the volume''s own title already
+      marks the Matthean attribution false.
+
+      '
+  gospel-of-nativity-of-mary:
+    kind: anonymous
+    evidence: 'div2 7.6; a Latin reworking of the Protevangelium material transmitted without
+      an author of its own.
+
+      '
+  history-of-joseph-the-carpenter:
+    kind: anonymous
+    evidence: div2 7.7; no authorial claim in title or text frame.
+  infancy-gospel-of-thomas:
+    kind: pseudonymous
+    evidence: 'div2 7.8-7.10 ("The Gospel of Thomas": two Greek forms and a Latin form); the
+      Greek text opens in the name of "Thomas the Israelite".
+
+      '
+  arabic-gospel-of-the-infancy:
+    kind: anonymous
+    evidence: div2 7.11; compilation transmitted without an author.
+  gospel-of-nicodemus:
+    kind: pseudonymous
+    evidence: 'div2 7.12-7.17 (Acts of Pilate and Descent into Hell, Greek and Latin forms);
+      the prologues ascribe the record to Nicodemus/Ananias.
+
+      '
+  pilate-cycle:
+    kind: pseudonymous
+    evidence: 'div2 7.18-7.24: letters and reports purporting to be Pilate''s own (Letter
+      of Pontius Pilate; Report of Pilate, two forms; Giving Up of Pilate; Death of Pilate;
+      Narrative of Joseph; Avenging of the Saviour) — Christian compositions under a Roman
+      official''s name.
+
+      '
+  acts-of-peter-and-paul:
+    kind: anonymous
+    evidence: div2 7.25; no authorial claim.
+  acts-of-paul-and-thecla:
+    kind: anonymous
+    evidence: 'div2 7.26; transmitted anonymously here (Tertullian''s report that an Asian
+      presbyter composed it is not in this volume''s frame).
+
+      '
+  acts-of-barnabas:
+    kind: pseudonymous
+    evidence: div2 7.27; narrated in the first person as by John Mark.
+  acts-of-philip:
+    kind: anonymous
+    evidence: div2 7.28; no authorial claim.
+  acts-of-andrew:
+    kind: anonymous
+    evidence: div2 7.29 (Acts and Martyrdom of Andrew); no authorial claim.
+  acts-of-andrew-and-matthias:
+    kind: anonymous
+    evidence: div2 7.30; no authorial claim.
+  acts-of-peter-and-andrew:
+    kind: anonymous
+    evidence: div2 7.31; no authorial claim.
+  acts-of-matthew:
+    kind: anonymous
+    evidence: div2 7.32 (Acts and Martyrdom of St. Matthew); no authorial claim.
+  acts-of-thomas:
+    kind: anonymous
+    evidence: 'div2 7.33-7.34 (Acts of the Holy Apostle Thomas; Consummation of Thomas); no
+      authorial claim in the text.
+
+      '
+  martyrdom-of-bartholomew:
+    kind: anonymous
+    evidence: div2 7.35; no authorial claim.
+  acts-of-thaddaeus:
+    kind: anonymous
+    evidence: div2 7.36; no authorial claim.
+  acts-of-john-the-theologian:
+    kind: anonymous
+    evidence: div2 7.37; no authorial claim.
+  revelation-of-moses:
+    kind: anonymous
+    evidence: 'div2 7.38; third-person narrative concerning Adam and Eve transmitted under
+      Moses'' name in the title only.
+
+      '
+  revelation-of-esdras:
+    kind: pseudonymous
+    evidence: div2 7.39; first-person apocalypse in the prophet Esdras' name.
+  apocalypse-of-paul:
+    kind: pseudonymous
+    evidence: 'div2 7.40 "Revelation of Paul": first-person apocalypse in Paul''s name with
+      the Tarsus-discovery frame. The same work appears in anf09 as "The Vision of Paul";
+      one slug covers both.
+
+      '
+  revelation-of-john:
+    kind: pseudonymous
+    evidence: div2 7.41; apocryphal apocalypse in John the Theologian's name.
+  falling-asleep-of-mary:
+    kind: pseudonymous
+    evidence: 'div2 7.42 "The Book of John Concerning the Falling Asleep of Mary" — Dormition
+      narrative in the apostle John''s name.
+
+      '
+  passing-of-mary:
+    kind: pseudonymous
+    evidence: 'div2 7.43-7.44 (two Latin forms); the Latin Transitus tradition circulates
+      under Melito of Sardis'' name, not his.
+
+      '
+  decretals-pseudo-isidore:
+    kind: pseudonymous
+    evidence: 'div1 8; the volume''s own introductory notice and footnotes call these "this
+      collection of false Decretals attributed to one Isidore" and "the False Decretals of
+      the pseudo-Isidorus" — 3rd-century papal names on much later forgeries.
+
+      '
+  abgar-edessa-documents:
+    kind: anonymous
+    evidence: 'div2 9.3 "The Story Concerning the King of Edessa" and 9.5 "Extracts from Various
+      Books Concerning Abgar the King and Addaeus the Apostle" — archive documents and excerpts
+      transmitted without an author.
+
+      '
+  jacob-of-sarug:
+    kind: metadata-omission
+    evidence: 'div2 9.4 "A Canticle of Mar Jacob the Teacher on Edessa" and 9.14 "Homilies,
+      Composed by Mar Jacob"; the section''s own notes identify "Mar Jacob, bishop of Sarug,
+      or Batnae... made bishop of Sarug A.D. 519, and died A.D. 521". A real person CCEL''s
+      volume metadata omits.
+
+      '
+  teaching-of-the-apostles-syriac:
+    kind: anonymous
+    evidence: div2 9.7 'The Teaching of the Apostles' (Syriac); no author.
+  teaching-of-simon-cephas:
+    kind: anonymous
+    evidence: 'div2 9.8 ''The Teaching of Simon Cephas in the City of Rome'' — a Syriac doctrina
+      about Peter, not by him.
+
+      '
+  edessene-martyr-acts:
+    kind: anonymous
+    evidence: 'div2 9.9 (Acts of Sharbil), 9.11 (Martyrdom of Habib the Deacon), 9.12 (Martyrdom
+      of Shamuna, Guria, and Habib, from Simeon Metaphrastes) — Edessene martyr acta transmitted
+      without authors.
+
+      '
+  moses-of-chorene:
+    kind: metadata-omission
+    evidence: 'div2 9.13 "Moses of Chorene: History of Armenia" — the section title names
+      the author; anf08 DC.Creator omits him. His date is disputed (traditionally 5th c.),
+      which the assignment notes rather than the ruling deciding.
+
+      '
+  bardesan:
+    kind: metadata-omission
+    evidence: 'div2 9.16 "Bardesan. The Book of the Laws of Divers Countries" — the section
+      title names its author (the dialogue itself is recorded by his disciple Philippus, noted
+      in the assignment); anf08 DC.Creator omits him.
+
+      '
+  mara-bar-serapion:
+    kind: metadata-omission
+    evidence: 'div2 9.17 "A Letter of Mara, Son of Serapion" — the title names the author,
+      a non-Christian Stoic; DC.Creator omits him.
+
+      '
+  ambrose-hypomnemata:
+    kind: pseudonymous
+    evidence: 'div2 9.18 "Ambrose": "A memorial (hypomnemata) which Ambrose, a chief man of
+      Greece" — the volume''s endnote shows it is a Syriac form of the Greek Discourse to
+      the Greeks ascribed by many to Justin; the "Ambrose" frame is not an identifiable author.
+      NOT Ambrose of Milan; the slug is kept distinct from npnf210''s `ambrose` deliberately.
+
+      '
+  quadratus:
+    kind: metadata-omission
+    evidence: 'div2 10.3 "Quadratus, Bishop of Athens" names the author; anf08 DC.Creator
+      omits every author in the Remains section (div1 10).
+
+      '
+  aristo-of-pella:
+    kind: metadata-omission
+    evidence: div2 10.4 'Aristo of Pella' names the author; DC.Creator omits him.
+  melito-of-sardis:
+    kind: metadata-omission
+    evidence: div2 10.5 'Melito, the Philosopher' (of Sardis, per the notice).
+  hegesippus:
+    kind: metadata-omission
+    evidence: div2 10.6 'Hegesippus' names the author.
+  dionysius-of-corinth:
+    kind: metadata-omission
+    evidence: 'div2 10.7 ''Dionysius, Bishop of Corinth''. Kept distinct from the existing
+      dionysius_gr and dionysius_rome slugs.
+
+      '
+  rhodon:
+    kind: metadata-omission
+    evidence: div2 10.8 'Rhodon' names the author.
+  maximus-of-jerusalem:
+    kind: metadata-omission
+    evidence: 'div2 10.9 ''Maximus, Bishop of Jerusalem'' ("[A.D. 185-196]... He wrote on
+      the inveterate question concerning the Origin of Evil").
+
+      '
+  claudius-apollinaris:
+    kind: metadata-omission
+    evidence: div2 10.10 'Claudius Apollinaris, Bishop of Hierapolis, and Apologist'.
+  polycrates-of-ephesus:
+    kind: metadata-omission
+    evidence: div2 10.11 'Polycrates, Bishop of Ephesus'.
+  theophilus-of-caesarea:
+    kind: metadata-omission
+    evidence: 'div2 10.12 ''Theophilus, Bishop of Caesarea in Palestine''. Kept distinct from
+      the existing theophilus slug (Theophilus of Antioch, anf02).
+
+      '
+  serapion-of-antioch:
+    kind: metadata-omission
+    evidence: div2 10.13 'Serapion, Bishop of Antioch'.
+  apollonius:
+    kind: metadata-omission
+    evidence: div2 10.14 'Apollonius' (anti-Montanist writer, per the fragments).
+  pantaenus:
+    kind: metadata-omission
+    evidence: div2 10.15 'Pantaenus, the Alexandrian Philosopher'.
+  letter-churches-lyons-vienne:
+    kind: anonymous
+    evidence: 'div2 10.16 "Pseud-Irenaeus" — the section itself explains the piece is the
+      letter on "this awful outbreak in Lyons and Vienne" (the Gallican martyrs of 177), traditionally
+      prefixed to Irenaeus'' works but not his; the slug names the work-entity rather than
+      perpetuating the false name.
+
+      '
+assignments:
+- work: The Testaments of the Twelve Patriarchs
+  author: testaments-twelve-patriarchs
+  locus: div1 3 (testaments at div2 3.3-3.14)
+  atlas_ids:
+  - ebionite-nazoraean-current
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Jewish pseudepigraphon with Christian interpolations, or a 2nd-century Christian
+    composition on Jewish sources — the introductory notice itself rehearses the dispute.
+    The census has no entry for Jewish pseudepigrapha in Christian transmission; both ids
+    are guesses (Jewish-Christian milieu; 2nd-century Christian use) and Mark should rule
+    the class. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the
+    class these notes kept saying had no bucket. pahc is kept where the subject matter is
+    genuinely apostolic-era; this entry names what the TEXT is.'
+- work: The Testaments of the Twelve Patriarchs
+  author: testaments-twelve-patriarchs
+  locus: div1 3 (testaments at div2 3.3-3.14)
+  atlas_ids:
+  - post-apostolic-house-church
+  role: transmission
+  confidence: assigned
+  note: 'Jewish pseudepigraphon with Christian interpolations, or a 2nd-century Christian
+    composition on Jewish sources — the introductory notice itself rehearses the dispute.
+    The census has no entry for Jewish pseudepigrapha in Christian transmission; both ids
+    are guesses (Jewish-Christian milieu; 2nd-century Christian use) and Mark should rule
+    the class. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the
+    class these notes kept saying had no bucket. pahc is kept where the subject matter is
+    genuinely apostolic-era; this entry names what the TEXT is. Role ruled 2026-08-26: `transmission`,
+    the fourth relation, added on Mark''s ruling. The relation is CUSTODY - this tradition
+    preserved a work that is not its own voice. A Jewish work with Christian interpolations.
+    Its survival is Christian custody; whether the interpolations make it a Jewish-Christian
+    voice is the separate question the ebionite-nazoraean-current assignment carries, and
+    that one stays `tradition`.'
+- work: Excerpts of Theodotus
+  author: theodotus
+  locus: div2 4.3
+  atlas_ids:
+  - valentinian-and-other-gnostic-christianities
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'Excerpts from Theodotus of the Eastern Valentinian school, preserved with Clement
+    of Alexandria''s interlaced comments: actual Valentinian voice for the doctrinal-floor
+    entry (a built world may draw it only as etic), and a document of Clement''s working method
+    for Alexandria.
+
+    '
+- work: Two Epistles Concerning Virginity
+  author: two-epistles-on-virginity
+  locus: div2 5.3-5.4
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Pseudo-Clementine ascetic letters, generally placed in 3rd-century Syria/Palestine
+    and preserved in Syriac. syr is a region-and-era guess, not a demonstrated Edessene provenance;
+    the ascetic-celibate milieu also touches traditions with no census entry of their own.
+    Ruled 2026-08-26: kept with syriac-edessa-nisibis for the Syriac preservation and third-century
+    Syrian milieu, and given apocryphal-and-pseudepigraphal-literature alongside, which is
+    what these are - pseudo-Clementine letters written under a name that is not theirs. The
+    ascetic-milieu question in the original note is not resolved by either; it is noted and
+    not forced.'
+- work: Two Epistles Concerning Virginity
+  author: two-epistles-on-virginity
+  locus: div2 5.3-5.4
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: transmission
+  confidence: assigned
+  note: 'Pseudo-Clementine ascetic letters, generally placed in 3rd-century Syria/Palestine
+    and preserved in Syriac. syr is a region-and-era guess, not a demonstrated Edessene provenance;
+    the ascetic-celibate milieu also touches traditions with no census entry of their own.
+    Ruled 2026-08-26: kept with syriac-edessa-nisibis for the Syriac preservation and third-century
+    Syrian milieu, and given apocryphal-and-pseudepigraphal-literature alongside, which is
+    what these are - pseudo-Clementine letters written under a name that is not theirs. The
+    ascetic-milieu question in the original note is not resolved by either; it is noted and
+    not forced. Role ruled 2026-08-26: `transmission`, the fourth relation, added on Mark''s
+    ruling. The relation is CUSTODY - this tradition preserved a work that is not its own
+    voice. Pseudo-Clementine ascetic letters preserved in Syriac; the note already said syr
+    was a region-and-era guess rather than demonstrated Edessene provenance. Custody is the
+    honest claim.'
+- work: The Recognitions of Clement
+  author: pseudo-clement
+  locus: div2 6.3
+  atlas_ids:
+  - ebionite-nazoraean-current
+  role: tradition
+  confidence: assigned
+  note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
+    Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
+    sources (Kerygmata Petrou etc.) to Jewish-Christian circles — hence ebionite-nazoraean-current
+    — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr.
+    Both placements need Mark''s ruling; the Latin survives via Rufinus. Ruled 2026-08-26.
+    BOTH placements stand, and they are not in competition: ebionite-nazoraean-current because
+    the Kerygmata Petrou source-stratum behind the Clementina is the principal window onto
+    Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
+    which exists for exactly a disputed record; syriac-edessa-nisibis because composition
+    in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
+    hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
+    same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
+- work: The Recognitions of Clement
+  author: pseudo-clement
+  locus: div2 6.3
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: transmission
+  confidence: assigned
+  note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
+    Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
+    sources (Kerygmata Petrou etc.) to Jewish-Christian circles — hence ebionite-nazoraean-current
+    — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr.
+    Both placements need Mark''s ruling; the Latin survives via Rufinus. Ruled 2026-08-26.
+    BOTH placements stand, and they are not in competition: ebionite-nazoraean-current because
+    the Kerygmata Petrou source-stratum behind the Clementina is the principal window onto
+    Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
+    which exists for exactly a disputed record; syriac-edessa-nisibis because composition
+    in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
+    hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
+    same as Edessene. Non-exclusive assignment is what lets both facts be true at once. Role
+    ruled 2026-08-26: `transmission`, the fourth relation, added on Mark''s ruling. The relation
+    is CUSTODY - this tradition preserved a work that is not its own voice. Syriac preserves
+    part of the Clementine corpus; composition was Syrian but not demonstrably Edessene, and
+    this entry is Edessa and Nisibis. The VOICE assignment is ebionite-nazoraean-current,
+    which stays `tradition`. Custody here, voice there - which is what the role was added
+    to be able to say.'
+- work: The Clementine Homilies
+  author: pseudo-clement
+  locus: div2 6.4
+  atlas_ids:
+  - ebionite-nazoraean-current
+  role: tradition
+  confidence: assigned
+  note: 'Same ruling and same doubt as the Recognitions: pseudonymous Clement romance with
+    Jewish-Christian theology (the True Prophet, anti-Pauline edge), Syrian provenance c.
+    300-320. Ruled 2026-08-26. BOTH placements stand, and they are not in competition: ebionite-nazoraean-current
+    because the Kerygmata Petrou source-stratum behind the Clementina is the principal window
+    onto Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
+    which exists for exactly a disputed record; syriac-edessa-nisibis because composition
+    in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
+    hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
+    same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
+- work: The Clementine Homilies
+  author: pseudo-clement
+  locus: div2 6.4
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: transmission
+  confidence: assigned
+  note: 'Same ruling and same doubt as the Recognitions: pseudonymous Clement romance with
+    Jewish-Christian theology (the True Prophet, anti-Pauline edge), Syrian provenance c.
+    300-320. Ruled 2026-08-26. BOTH placements stand, and they are not in competition: ebionite-nazoraean-current
+    because the Kerygmata Petrou source-stratum behind the Clementina is the principal window
+    onto Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
+    which exists for exactly a disputed record; syriac-edessa-nisibis because composition
+    in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
+    hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
+    same as Edessene. Non-exclusive assignment is what lets both facts be true at once. Role
+    ruled 2026-08-26: `transmission`, the fourth relation, added on Mark''s ruling. The relation
+    is CUSTODY - this tradition preserved a work that is not its own voice. As the Recognitions:
+    custody here, voice in ebionite-nazoraean-current.'
+- work: The Protevangelium of James
+  author: protevangelium-of-james
+  locus: div2 7.4
+  atlas_ids:
+  - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Mid-2nd-century Marian infancy gospel, enormously influential; within pahc''s era
+    though its provenance (Syria? Egypt?) is unknown. The census has no bucket for popular
+    apocryphal literature as a class — a recurring problem in this volume, flagged once here
+    and applied throughout. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside
+    - the class these notes kept saying had no bucket. pahc is kept where the subject matter
+    is genuinely apostolic-era; this entry names what the TEXT is.'
+- work: The Gospel of Pseudo-Matthew
+  author: gospel-of-pseudo-matthew
+  locus: div2 7.5
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Early-medieval Latin reworking of the Protevangelium tradition (commonly dated c.
+    600-625, Frankish milieu argued). The Merovingian entry is a dating guess; an Ante-Nicene
+    volume housing a 7th-century work is worth a reviewer''s note in itself. Ruled 2026-08-26:
+    moved to apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900
+    to cover its own material. Every note in this group said the same thing - the entry it
+    sat in was whichever era bucket happened to be nearest, on a date its own note calls a
+    guess spanning centuries. An era guess is not a placement; the class is.'
+- work: The Gospel of the Nativity of Mary
+  author: gospel-of-nativity-of-mary
+  locus: div2 7.6
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Later Latin abridgement of Pseudo-Matthew, generally placed in the Carolingian period;
+    the id is a dating guess only. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
+- work: The History of Joseph the Carpenter
+  author: history-of-joseph-the-carpenter
+  locus: div2 7.7
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Egyptian composition (Coptic/Arabic transmission), commonly dated 4th-7th century,
+    tied to the Coptic feast of Joseph; the Egyptian Miaphysite entry is a provenance guess
+    across an uncertain date range. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
+- work: The History of Joseph the Carpenter
+  author: history-of-joseph-the-carpenter
+  locus: div2 7.7
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-christianity
+  role: transmission
+  confidence: assigned
+  note: 'Egyptian composition (Coptic/Arabic transmission), commonly dated 4th-7th century,
+    tied to the Coptic feast of Joseph; the Egyptian Miaphysite entry is a provenance guess
+    across an uncertain date range. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is. Egyptian composition surviving in Coptic and Arabic - the Egyptian church
+    is why we have it, which is custody rather than a date guess.'
+- work: The Infancy Gospel of Thomas (three forms)
+  author: infancy-gospel-of-thomas
+  locus: div2 7.8-7.10
+  atlas_ids:
+  - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: '2nd-century childhood-miracles gospel (the boy Jesus), within pahc''s era; provenance
+    unknown. Not the Nag Hammadi Gospel of Thomas. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+- work: The Arabic Gospel of the Infancy of the Saviour
+  author: arabic-gospel-of-the-infancy
+  locus: div2 7.11
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Compiled from Syriac sources, commonly dated 5th-6th century; the West Syriac entry
+    is a transmission-milieu guess. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
+- work: The Arabic Gospel of the Infancy of the Saviour
+  author: arabic-gospel-of-the-infancy
+  locus: div2 7.11
+  atlas_ids:
+  - syriac-orthodox-west-syriac-christianity
+  role: transmission
+  confidence: assigned
+  note: 'Compiled from Syriac sources, commonly dated 5th-6th century; the West Syriac entry
+    is a transmission-milieu guess. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is. Compiled from Syriac sources and transmitted in Arabic through that milieu;
+    custody, not composition.'
+- work: The Gospel of Nicodemus (Acts of Pilate and Descent into Hell, all forms)
+  author: gospel-of-nicodemus
+  locus: div2 7.12-7.17
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Greek Acts of Pilate commonly dated to the 4th century (possibly answering the pagan
+    ''Acts of Pilate'' circulated under Maximin), with the Descensus attached later; provenance
+    unknown. ijc is an era guess only — the work is popular piety, not imperial-juridical
+    argument. Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to
+    hold this class, and the note above already said ijc was an era guess for a work that
+    is popular piety rather than imperial-juridical argument.'
+- work: The Pilate Cycle (letters, reports and legends of Pilate)
+  author: pilate-cycle
+  locus: div2 7.18-7.24
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Grouped as one body: Letter of Pontius Pilate; Report of Pilate (two forms); The
+    Giving Up of Pilate; The Death of Pilate; The Narrative of Joseph; The Avenging of the
+    Saviour. Christian compositions under Roman official personae, late antique to medieval;
+    same era-guess placement and the same doubt as the Gospel of Nicodemus they travel with.
+    Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold this
+    class, and the note above already said ijc was an era guess for a work that is popular
+    piety rather than imperial-juridical argument.'
+- work: Acts of the Holy Apostles Peter and Paul
+  author: acts-of-peter-and-paul
+  locus: div2 7.25
+  atlas_ids:
+  - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Later Greek passio of the Roman martyrdoms (3rd-5th c. in its received form); pahc
+    holds the apostolic-Rome subject matter but the text postdates the entry''s window. 2026-08-26:
+    apocryphal-and-pseudepigraphal-literature added alongside - the class these notes kept
+    saying had no bucket. pahc is kept where the subject matter is genuinely apostolic-era;
+    this entry names what the TEXT is.'
+- work: Acts of Paul and Thecla
+  author: acts-of-paul-and-thecla
+  locus: div2 7.26
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'From the 2nd-century Acts of Paul, Asia Minor — squarely pahc''s era and region,
+    and prime evidence for women''s discipleship and popular asceticism in it. The Syriac
+    Thecla tradition named in brief 11a for syr is the Pearse corpus, not this text.
+
+    '
+- work: The Acts of Barnabas
+  author: acts-of-barnabas
+  locus: div2 7.27
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Cypriot composition commonly tied to the 5th-century case for Cyprus''s autocephaly;
+    the Justinianic entry is the nearest era bucket, not a fit. Ruled 2026-08-26: moved to
+    apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900 to cover
+    its own material. Every note in this group said the same thing - the entry it sat in was
+    whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
+    centuries. An era guess is not a placement; the class is.'
+- work: The Acts of Philip
+  author: acts-of-philip
+  locus: div2 7.28
+  atlas_ids:
+  - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: '4th-5th-century Greek in received form, set at Hierapolis; scholarship links its
+    milieu to Phrygian ascetic (even Montanist-adjacent) circles. pahc is a region-of-subject
+    guess; flagged for a real ruling. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+- work: Acts and Martyrdom of the Holy Apostle Andrew
+  author: acts-of-andrew
+  locus: div2 7.29
+  atlas_ids:
+  - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Derived from the 2nd-3rd-century Acts of Andrew (encratite in temper); the received
+    Greek is later. pahc is an era guess. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+- work: Acts of Andrew and Matthias
+  author: acts-of-andrew-and-matthias
+  locus: div2 7.30
+  atlas_ids:
+  - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Later romance (city of the man-eaters), 4th-6th c.; no good census bucket — pahc
+    carried over from the Andrew cycle for consistency. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+- work: Acts of Peter and Andrew
+  author: acts-of-peter-and-andrew
+  locus: div2 7.31
+  atlas_ids:
+  - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Sequel to Andrew and Matthias; same class, same doubt. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+- work: Acts and Martyrdom of St. Matthew the Apostle
+  author: acts-of-matthew
+  locus: div2 7.32
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Late Greek hagiographic romance (5th-7th c.?); the Justinianic entry is an era guess
+    for a work with no strong bucket. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
+- work: Acts of Thomas (with the Consummation of Thomas)
+  author: acts-of-thomas
+  locus: div2 7.33-7.34
+  atlas_ids:
+  - syriac-edessa-nisibis
+  - st-thomas-christians-of-india
+  role: tradition
+  confidence: assigned
+  note: '3rd-century East Syrian composition from the Edessa orbit (the Hymn of the Pearl
+    tradition) — core syr evidence — and the foundation narrative of Thomas''s Indian mission,
+    hence also the St. Thomas Christians entry, whose tradition claims exactly this story.
+    Non-exclusive by design.
+
+    '
+- work: Martyrdom of the Holy and Glorious Apostle Bartholomew
+  author: martyrdom-of-bartholomew
+  locus: div2 7.35
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Late Greek romance; era guess only, same class as the Matthew acts. Ruled 2026-08-26:
+    moved to apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900
+    to cover its own material. Every note in this group said the same thing - the entry it
+    sat in was whichever era bucket happened to be nearest, on a date its own note calls a
+    guess spanning centuries. An era guess is not a placement; the class is.'
+- work: Acts of the Holy Apostle Thaddaeus
+  author: acts-of-thaddaeus
+  locus: div2 7.36
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: provisional
+  note: 'Greek recension of the Abgar/Edessa founding legend (Thaddaeus = Addai). The subject
+    is syr''s charter myth; the Greek text itself is later (6th-7th c.), hence provisional.
+
+    '
+- work: Acts of the Holy Apostle and Evangelist John the Theologian
+  author: acts-of-john-the-theologian
+  locus: div2 7.37
+  atlas_ids:
+  - post-apostolic-house-church
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Later Greek John material (not the 2nd-century Acts of John as such); Ephesus subject
+    matter, received text much later — pahc is a region-of-subject guess. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside - the class these notes kept saying had no bucket. pahc is kept where
+    the subject matter is genuinely apostolic-era; this entry names what the TEXT is.'
+- work: Revelation of Moses
+  author: revelation-of-moses
+  locus: div2 7.38
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'The Greek Life of Adam and Eve — a Jewish pseudepigraphon in Christian transmission.
+    The census has no bucket for the class (same problem as the Testaments of the Twelve Patriarchs
+    and anf09''s Testament of Abraham); pahc stands in for ''early Christian transmission
+    milieu'' only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside -
+    the class these notes kept saying had no bucket. pahc is kept where the subject matter
+    is genuinely apostolic-era; this entry names what the TEXT is.'
+- work: Revelation of Moses
+  author: revelation-of-moses
+  locus: div2 7.38
+  atlas_ids:
+  - post-apostolic-house-church
+  role: transmission
+  confidence: assigned
+  note: 'The Greek Life of Adam and Eve — a Jewish pseudepigraphon in Christian transmission.
+    The census has no bucket for the class (same problem as the Testaments of the Twelve Patriarchs
+    and anf09''s Testament of Abraham); pahc stands in for ''early Christian transmission
+    milieu'' only. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside -
+    the class these notes kept saying had no bucket. pahc is kept where the subject matter
+    is genuinely apostolic-era; this entry names what the TEXT is. Role ruled 2026-08-26:
+    `transmission`, the fourth relation, added on Mark''s ruling. The relation is CUSTODY
+    - this tradition preserved a work that is not its own voice. The Greek Life of Adam and
+    Eve - a Jewish work that survives because Christian scribes went on copying it after Judaism
+    had let it go.'
+- work: Revelation of Esdras
+  author: revelation-of-esdras
+  locus: div2 7.39
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Byzantine-era Greek apocalypse on Jewish Esdras material; its date range spans several
+    Byzantine entries — needs a ruling on which segment, if any. Ruled 2026-08-26: moved to
+    apocryphal-and-pseudepigraphal-literature, whose window was widened to c. 900 to cover
+    its own material. Every note in this group said the same thing - the entry it sat in was
+    whichever era bucket happened to be nearest, on a date its own note calls a guess spanning
+    centuries. An era guess is not a placement; the class is.'
+- work: Revelation of Paul
+  author: apocalypse-of-paul
+  locus: div2 7.40
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'The Apocalypse of Paul, c. 380-400, likely Egyptian, hugely popular in monastic circles
+    and the medieval West. The SAME WORK appears in anf09 as ''The Vision of Paul'' and is
+    staged identically there; alexandria is a provenance-and-era guess (desert-monasticism
+    is arguably next-best given its monastic circulation). One ruling should settle both instances.
+    Re-pointed 2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold exactly
+    this class, and alexandria was a provenance guess only.'
+- work: Revelation of John (apocryphal)
+  author: revelation-of-john
+  locus: div2 7.41
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Apocryphal Apocalypse of John, Byzantine-era Greek (5th-9th c.?); same which-Byzantine-segment
+    doubt as the Revelation of Esdras. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
+- work: The Book of John Concerning the Falling Asleep of Mary
+  author: falling-asleep-of-mary
+  locus: div2 7.42
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Greek Dormition narrative, 5th-6th c.; the Dormition traditions and their feasts
+    center on Jerusalem, but the text postdates the entry''s 325-450 window — needs a ruling
+    on where Dormition literature lives. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
+- work: The Passing of Mary (two Latin forms)
+  author: passing-of-mary
+  locus: div2 7.43-7.44
+  atlas_ids:
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'Latin Transitus Mariae (circulating under Melito''s name); same class and same doubt
+    as the Falling Asleep of Mary. Ruled 2026-08-26: moved to apocryphal-and-pseudepigraphal-literature,
+    whose window was widened to c. 900 to cover its own material. Every note in this group
+    said the same thing - the entry it sat in was whichever era bucket happened to be nearest,
+    on a date its own note calls a guess spanning centuries. An era guess is not a placement;
+    the class is.'
+- work: 'The Decretals (pseudo-Isidorian: Zephyrinus to Fabian)'
+  author: decretals-pseudo-isidore
+  locus: div1 8 (div2 8.3-8.9)
+  atlas_ids:
+  - carolingian-reform-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The False Decretals, forged c. 850 in Francia under 3rd-century papal names — the
+    volume''s own notice says so. Assigned as one body to the Carolingian entry where they
+    were produced and first deployed; their later career in papal canon law gives latin-papal-church-gregorian
+    a secondary interest noted for reviewers, not asserted.
+
+    '
+- work: Abgar documents (Story concerning the King of Edessa; extracts concerning Abgar and
+    Addaeus)
+  author: abgar-edessa-documents
+  locus: div2 9.3, 9.5
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'The Abgar correspondence and legend from the Edessene archives (the Eusebius-transmitted
+    form and related excerpts) — syr''s founding documents. The fuller Doctrine of Addai is
+    vendored separately (addai_doctrine-of-addai.txt, another worker''s file).
+
+    '
+- work: A Canticle of Mar Jacob the Teacher on Edessa
+  author: jacob-of-sarug
+  locus: div2 9.4
+  atlas_ids:
+  - syriac-edessa-nisibis
+  - syriac-orthodox-west-syriac-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Jacob of Sarug (d. 521) versifying Edessa''s Abgar tradition: subject matter is syr''s,
+    the author belongs to the West Syriac entry''s era. Non-exclusive on purpose.
+
+    '
+- work: The Teaching of Addaeus the Apostle
+  author: addai
+  locus: div2 9.6
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'The Doctrine of Addai in the form this volume carries — syr''s charter narrative.
+    The slug addai is CCEL''s own (from the standalone addai_doctrine-of-addai.txt) and marks
+    traditional attribution: the 5th-century text is about Addai, written anonymously. Overlaps
+    the standalone volume; both stagings are deliberate and the merge tolerates two source
+    files.
+
+    '
+- work: The Teaching of the Apostles (Syriac)
+  author: teaching-of-the-apostles-syriac
+  locus: div2 9.7
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'Syriac church-order document (ordinances of the apostles) from the Edessene document
+    collection; distinct from the Didache (anf07) despite the similar title.
+
+    '
+- work: The Teaching of Simon Cephas in the City of Rome
+  author: teaching-of-simon-cephas
+  locus: div2 9.8
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: Syriac doctrina from the same Edessene collection.
+- work: Acts of Sharbil
+  author: edessene-martyr-acts
+  locus: div2 9.9
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: 'Edessene martyr acta (set under Trajan, composed later in Edessa) — syr''s martyr
+    memory.
+
+    '
+- work: Martyrdom of Habib the Deacon
+  author: edessene-martyr-acts
+  locus: div2 9.11
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: assigned
+  note: Edessene martyr acta (Diocletianic era); syr's martyr memory.
+- work: Martyrdom of Shamuna, Guria, and Habib (from Simeon Metaphrastes)
+  author: edessene-martyr-acts
+  locus: div2 9.12
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: provisional
+  note: 'The same Edessene martyrs, but in the 10th-century Greek of Simeon Metaphrastes —
+    content is syr''s, the literary vehicle is Byzantine; provisional for that mediation.
+
+    '
+- work: 'Moses of Chorene: History of Armenia (extract)'
+  author: moses-of-chorene
+  locus: div2 9.13
+  atlas_ids:
+  - armenian-christianity-conversion-era
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: provisional
+  note: 'Armenian national history retelling the Abgar/Addai material — assigned to the Armenian
+    conversion-era entry as its historiography and to syr for its subject. Moses'' traditional
+    date is 5th c.; scholarship ranges to the 8th, which would move the Armenian id to a later
+    segment.
+
+    '
+- work: 'Bardesan: The Book of the Laws of Divers Countries'
+  author: bardesan
+  locus: div2 9.16
+  atlas_ids:
+  - syriac-edessa-nisibis
+  - bardaisanite-current
+  role: tradition
+  confidence: assigned
+  note: 'Bardaisan of Edessa (154-222), the first named voice of Edessene Christianity; the
+    dialogue on fate and freedom was penned by his disciple Philippus, which the note records
+    rather than minting a second slug. Bardaisan''s later condemnation is a fact about him
+    the syr world already carries; the work is still Edessene tradition, not outside context.
+    2026-08-26: bardaisanite-current added alongside - the party this work argues with now
+    has an entry of its own.'
+- work: A Letter of Mara, Son of Serapion
+  author: mara-bar-serapion
+  locus: div2 9.17
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: context
+  confidence: assigned
+  note: 'A Stoic, non-Christian letter (the ''wise king'' passage) from the same Syriac milieu
+    — exactly Mark''s context case: an outside voice surrounding syr, never the tradition
+    speaking.
+
+    '
+- work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
+  author: ambrose-hypomnemata
+  locus: div2 9.18
+  atlas_ids:
+  - greek-apologists-second-century
+  role: tradition
+  confidence: provisional
+  note: 'Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
+    per the volume''s endnote). It is Christian apologetic, not Edessene as such; syr marks
+    only where the Syriac transmission preserved it. Needs a ruling — arguably belongs with
+    the Greek apologists, who sit in other volumes. Ruled 2026-08-26: this is Greek apologetic
+    that survives only in Syriac - the volume''s own headnote says the original was Greek,
+    because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
+    to the Greeks. So greek-apologists-second-century is added, which is where the argument
+    belongs, and syriac-edessa-nisibis is kept, which is how it reached us. `provisional`
+    because the APOLOGIST half is a date question - the entry''s window is 124-200 and this
+    piece is undated - not because the Syriac half is in doubt.'
+- work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
+  author: ambrose-hypomnemata
+  locus: div2 9.18
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: transmission
+  confidence: provisional
+  note: 'Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
+    per the volume''s endnote). It is Christian apologetic, not Edessene as such; syr marks
+    only where the Syriac transmission preserved it. Needs a ruling — arguably belongs with
+    the Greek apologists, who sit in other volumes. Ruled 2026-08-26: this is Greek apologetic
+    that survives only in Syriac - the volume''s own headnote says the original was Greek,
+    because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
+    to the Greeks. So greek-apologists-second-century is added, which is where the argument
+    belongs, and syriac-edessa-nisibis is kept, which is how it reached us. `provisional`
+    because the APOLOGIST half is a date question - the entry''s window is 124-200 and this
+    piece is undated - not because the Syriac half is in doubt. Role ruled 2026-08-26: `transmission`,
+    the fourth relation, added on Mark''s ruling. The relation is CUSTODY - this tradition
+    preserved a work that is not its own voice. The volume''s own headnote says the original
+    was Greek, because the Syriac mistranslates it in places. Syriac scribes are why it exists
+    at all; the argument in it is not theirs.'
+- work: Fragments of Quadratus
+  author: quadratus
+  locus: div2 10.3
+  atlas_ids:
+  - post-apostolic-house-church
+  - greek-apologists-second-century
+  role: tradition
+  confidence: assigned
+  note: 'The earliest apologist (c. 125, to Hadrian); Athens is outside pahc''s named regions
+    but the era and church-world are pahc''s. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
+- work: Fragments of Aristo of Pella
+  author: aristo-of-pella
+  locus: div2 10.4
+  atlas_ids:
+  - ebionite-nazoraean-current
+  - post-apostolic-house-church
+  - greek-apologists-second-century
+  role: tradition
+  confidence: assigned
+  note: 'Remains of the Dialogue of Jason and Papiscus — a Hebrew-Christian apologetic dialogue
+    from Pella. The Jewish-Christian current and pahc are both defensible; neither is demonstrated
+    by the fragments. 2026-08-26: greek-apologists-second-century added alongside - the entry
+    the corpus assignment showed was missing, for the era''s outward-facing writing. pahc
+    is kept: the era and church-world really are its.'
+- work: Fragments of Melito of Sardis
+  author: melito-of-sardis
+  locus: div2 10.5
+  atlas_ids:
+  - post-apostolic-house-church
+  - greek-apologists-second-century
+  role: tradition
+  confidence: assigned
+  note: 'Bishop of Sardis, 2nd-century Asia Minor: apology, Paschal (Quartodeciman) material,
+    the first known Christian OT canon list — core pahc evidence. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
+- work: Fragments of Hegesippus
+  author: hegesippus
+  locus: div2 10.6
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'Memoirs of the apostolic succession and the Jerusalem church (James, Symeon, the
+    sects) — pahc''s own memory of its first generations.
+
+    '
+- work: Fragments of Dionysius of Corinth
+  author: dionysius-of-corinth
+  locus: div2 10.7
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: Catholic letters to the churches, c. 170 — pahc's inter-church network in action.
+- work: Fragments of Rhodon
+  author: rhodon
+  locus: div2 10.8
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'Asia-trained writer working at Rome, c. 180. A second row places his anti-Marcionite
+    reporting with the Marcion entry.
+
+    '
+- work: Fragments of Rhodon
+  author: rhodon
+  locus: div2 10.8
+  atlas_ids:
+  - marcion-marcionism
+  role: context
+  confidence: assigned
+  note: 'The fragments report the state of Marcion''s school (Apelles, Syneros, the divided
+    diadochoi) — outside description of the movement for the doctrinal-floor entry, hence
+    a separate row carrying role context.
+
+    '
+- work: Fragment of Maximus of Jerusalem
+  author: maximus-of-jerusalem
+  locus: div2 10.9
+  atlas_ids:
+  - palestinian-church-pre-constantinian
+  role: tradition
+  confidence: needs-ruling
+  note: 'Bishop of Jerusalem, A.D. 185-196 per the notice, On the Origin of Evil. No 2nd-century
+    Jerusalem entry exists (the Jerusalem entry begins 325); pahc is a stand-in. The attribution
+    of this large fragment is itself disputed (it circulates with Methodius'' material), which
+    the notice acknowledges. Re-pointed 2026-08-26: palestinian-church-pre-constantinian (era
+    1, c. 185-312) was added on record. Works flagged in THREE separate piles turned out to
+    be this one hole - Alexandria was standing in for it on the strength of correspondence
+    with Origen, who himself moved to Caesarea around 231. STILL `needs-ruling`: the attribution
+    doubt in this note is untouched by a new entry.'
+- work: Fragments of Claudius Apollinaris
+  author: claudius-apollinaris
+  locus: div2 10.10
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'Bishop of Hierapolis and apologist, c. 170s. A second row places his anti-Montanist
+    witness with the Montanism entry.
+
+    '
+- work: Fragments of Claudius Apollinaris
+  author: claudius-apollinaris
+  locus: div2 10.10
+  atlas_ids:
+  - montanism-the-new-prophecy
+  role: context
+  confidence: assigned
+  note: 'Among the earliest anti-Montanist voices (per Eusebius) — outside description of
+    the New Prophecy from a neighboring Phrygian see.
+
+    '
+- work: Fragments of Polycrates of Ephesus
+  author: polycrates-of-ephesus
+  locus: div2 10.11
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'The Quartodeciman letter to Victor of Rome — pahc''s Asia Minor paschal practice
+    defending itself against Rome, c. 190.
+
+    '
+- work: Fragment of Theophilus of Caesarea
+  author: theophilus-of-caesarea
+  locus: div2 10.12
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: provisional
+  note: 'Synodal paschal fragment, Caesarea in Palestine c. 190 — the era''s paschal controversy,
+    though Palestine is outside pahc''s named regions.
+
+    '
+- work: Fragments of Serapion of Antioch
+  author: serapion-of-antioch
+  locus: div2 10.13
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'Bishop of Antioch 190-203; includes the letter on the Gospel of Peter at Rhossus
+    — the direct episcopal counterpart to anf09''s Gospel of Peter text, cross-referenced
+    there.
+
+    '
+- work: Fragments of Apollonius
+  author: apollonius
+  locus: div2 10.14
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'Ephesian (per tradition) anti-Montanist writer, c. 197. A second row places the anti-Montanist
+    content with the Montanism entry.
+
+    '
+- work: Fragments of Apollonius
+  author: apollonius
+  locus: div2 10.14
+  atlas_ids:
+  - montanism-the-new-prophecy
+  role: context
+  confidence: assigned
+  note: 'Detailed hostile reporting on Montanus, Priscilla and the movement''s finances and
+    later leaders — outside description for the Montanism entry, and (with Asterius Urbanus
+    in anf07) much of what survives about it at all.
+
+    '
+- work: Fragments of Pantaenus
+  author: pantaenus
+  locus: div2 10.15
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'First remembered head of the Alexandrian catechetical school, Clement''s teacher
+    — the entry''s founder figure; only fragments survive.
+
+    '
+- work: The Letter of the Churches of Lyons and Vienne (Pseud-Irenaeus)
+  author: letter-churches-lyons-vienne
+  locus: div2 10.16
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: provisional
+  note: 'The Gallican martyrs of 177: Greek-speaking churches with Asia Minor roots writing
+    to the churches of Asia and Phrygia. No Gaul entry exists for Era 1; pahc holds it through
+    those Asia Minor ties. Traditionally prefixed to Irenaeus'' works but not his, hence the
+    work-entity slug.
+
+    '

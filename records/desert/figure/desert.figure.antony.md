@@ -35,6 +35,8 @@ narratable: true
 bridge_line: "the man who, by his own hagiographer's account, gave away nearly everything at about eighteen or twenty on the strength of one verse heard in church, never learned to read, and still told visiting philosophers that a sound mind has no need of letters"
 relations:
 - type: associated-with
+  target: desert.quote.the-word-took-a-human-body
+- type: associated-with
   target: desert.gravity.withdrawal
 - type: associated-with
   target: desert.gravity.spiritual-combat

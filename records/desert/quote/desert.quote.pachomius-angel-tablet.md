@@ -20,11 +20,19 @@ text: "Thou shalt allow each man to eat and drink according to his strength; and
 speaker_or_author: "an angel"
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified: this is administrative rule-language (eating, drinking, labor proportioned to strength), plain in any era."
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what the rule actually required of a member day to day"
+  - "participant asks how food, work and prayer were apportioned"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.pachomius-founding
 - type: associated-with
   target: desert.figure.pachomius
+- type: associated-with
+  target: desert.quote.ethiopic-rule-eat-and-drink
 ---
 Verified verbatim 2026-08-22 against the vendored file (ch. XXXII, line
 397). Added per Step 4 Round 1 review Finding S6, which found

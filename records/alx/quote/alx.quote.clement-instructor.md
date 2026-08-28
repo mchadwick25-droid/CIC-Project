@@ -26,6 +26,12 @@ modern_lens_note: >
   (disordered appetites/desires needing government) rather than the modern
   sense of 'passion' as enthusiasm or a positive trait - the two senses point
   in nearly opposite directions.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how a person was formed or changed by this way of life"
+  - "participant asks what they did about anger, appetite, and unruly feeling"
+  do_not_retrieve_when: []
 ---
 The Paedagogus's picture of Christ as the soul's physician-teacher.
 Serves F4-I (how formation worked) and F4-P ('I can't quiet my own

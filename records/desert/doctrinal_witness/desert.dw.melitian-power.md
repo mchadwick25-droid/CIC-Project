@@ -31,6 +31,9 @@ positions:
 - "the surviving Melitian letters show ordinary monastic business, but whether that practice was truly comparable to our own day to day remains an open, unverified question, not something we can honestly claim to have settled"
 tensions:
 - "a claimed unity of the faith against a documented, unacknowledged parallel community practicing what looks like the same discipline - 'looks like' carrying real uncertainty, not confirmed resemblance"
+relations:
+- type: associated-with
+  target: desert.quote.never-held-communion-with-the-schismatics
 ---
 Drawn directly from desert.force.melitian-rivalry, whose own body
 states the corpus's honest position: silence read as informative rather

@@ -5,7 +5,8 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F3-I
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -23,6 +24,12 @@ license: verbatim
 modern_lens_note: >-
   'Heroic metre' names a specific ancient verse form (dactylic hexameter), not a genre label in any
   modern sense of 'heroic.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how Rome advanced its own standing"
+  - "participant asks what a bishop did with the tombs of the martyrs"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 ---
@@ -43,3 +50,8 @@ build-team scope note rendered verbatim to the participant as this
 quote's speaker line. The speaker line now just names Jerome and the
 locus. NARROW LICENSE: this quote is licensed for use as figure-notice
 material specifically, not for reuse as general testimony elsewhere.
+
+CELL ASSIGNED 2026-08-27; the record had none and sat outside coverage.
+F3-I asks who held authority and how anyone came to have it. Damasus setting
+his own verses over the martyrs' tombs is Rome making that claim in stone,
+and it is one of this world's clearest instances of it.

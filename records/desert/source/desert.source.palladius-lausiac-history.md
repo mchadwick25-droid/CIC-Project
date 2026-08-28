@@ -16,6 +16,8 @@ sources: []
 relations:
 - type: associated-with
   target: desert.source.historia-monachorum
+- type: associated-with
+  target: desert.source.palladius-paradise-syriac
 author: "Palladius of Galatia (c. 363-c. 430 CE) - monk in Egypt (nine years at Cellia by his own statement, c. 388-399, plus Nitria and Alexandria) before becoming bishop of Helenopolis"
 work: "Lausiac History, c. 419-420 - retrospective monastic history addressed to the imperial chamberlain Lausus; the principal narrative-history source for this world alongside the Historia Monachorum, written by a Greek-educated participant-adjacent insider-outsider; curatorial and retrospective (Doc_01 SS2.3 uses it as a codification-boundary marker); numerical claims (Nitria ~5,000, Pachomian house counts) are order-of-magnitude indicators from an interested witness, never precise counts"
 edition: "trans. W. K. Lowther Clarke (SPCK, 1918), vendored as cic/texts/palladius_lausiac-history_clarke1918.txt (prologue at file line 185; Pachomius/Tabennesiots chapter XXXII at line 397)"
@@ -48,3 +50,21 @@ the Rule's text. Textual note: the Greek original has a complex reception
 history including an expanded Latin recension; Clarke translates the
 shorter Greek text as critically established (Butler); not independently
 re-adjudicated here.
+
+SECOND WITNESS VENDORED 2026-08-27:
+cic/texts/palladius_paradise-v1-syriac_budge1907.txt - Palladius Book I
+in the SYRIAC recension Budge copied at Mosul in 1888, alongside the
+Greek-based Clarke translation this record already names. Where the two
+differ, the difference is evidence about transmission rather than a
+problem to resolve, and a quote from either must say which it is from.
+
+ITS DISTINCTIVE CONTENT FOR THIS WORLD is Chapter xxxv onward, "The
+Triumphant Deeds and Exploits and Histories of Holy Women" - roughly
+fifteen women with their own chapters (Melania the Great and the
+Younger, Olympias, Talida the old woman of Antinoe, Piamon, Taor, Thais,
+Candida, Gelasia, Juliana, Magna and others), carrying about ten
+instances of reported speech. THIS IS NOT AMMA MATERIAL AND MUST NOT BE
+TREATED AS THOUGH IT WERE. These are lives narrated by a man who visited
+some of them; the speech is incidental to episodes rather than
+transmitted as teaching. The Apophthegmata's ammas are a different
+evidential object, and this world still has exactly one of them.

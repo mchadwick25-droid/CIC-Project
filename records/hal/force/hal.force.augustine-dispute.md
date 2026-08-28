@@ -29,6 +29,10 @@ relations:
   target: hal.force.transmission-ending
 - type: illustrated-by
   target: hal.story.oea-gourd
+- type: associated-with
+  target: hal.source.augustine-city-of-god
+- type: associated-with
+  target: hal.quote.no-one-preferred-to-the-seventy
 name: The Jerome-Augustine correspondence and the Latin scriptural-authority contest [2A - ongoing/external]
 kind: ongoing
 description: 'A running argument, carried by letter across a real distance, with a respected fellow

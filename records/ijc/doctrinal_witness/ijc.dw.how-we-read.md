@@ -47,6 +47,9 @@ tensions:
   the first abundantly and the second thinly
 - the claim that an unwritten word (homoousios) best guards the written ones was contested precisely
   as a scripture question
+relations:
+- type: associated-with
+  target: ijc.quote.let-the-ancient-customs-prevail
 ---
 F2-I answered from the world's documented interpretive habit (Doc_05
 SS8's finding, grounded here on vendored instances: Leo's Petrine

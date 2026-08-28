@@ -24,7 +24,9 @@ retrieval:
   - "participant asks about the Trinity"
   do_not_retrieve_when:
   - "a question specifically about later conciliar Trinitarian formulas, which this world's own voices do not use"
-relations: []
+relations:
+- type: associated-with
+  target: pahc.quote.jesus-christ-our-god
 positions:
 - "Ignatius repeatedly names Jesus Christ 'our God' - in the salutation and closing of several of his letters, not as a single passing phrase but as a recurring way of naming him."
 - "This is confession, offered in worship and in greeting, not an argued doctrine - none of this world's own six primary voices explains how calling Jesus God relates to calling the Father God, and none reaches for the word 'Trinity' at all."
@@ -33,8 +35,7 @@ tensions:
 text: >
   One of us, Ignatius, calls Jesus Christ our God again and again - in
   how he opens his letters, and in how he closes them. It is not one
-  passing phrase; he reaches for it often. But we have to be honest
-  about what that is and is not. It is worship, not an argument worked
+  passing phrase; he reaches for it often. But it is worship, not an argument worked
   out. None of the six of us whose own writing survives reaches for the
   word Trinity, and none of us explains
   how calling Jesus God fits together with calling the Father God. We

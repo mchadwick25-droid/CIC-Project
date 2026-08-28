@@ -28,6 +28,8 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: pahc.quote.they-appointed-the-first-fruits
+- type: associated-with
   target: pahc.gravity.authority-consolidation
 - type: associated-with
   target: pahc.contested.two-strand-packaging

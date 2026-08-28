@@ -46,6 +46,9 @@ positions:
 tensions:
 - contemporaries inside the church contested whether the ascetic ranking of life went
   beyond scripture - the world's own allies flinched at its harshest defense
+relations:
+- type: associated-with
+  target: hal.quote.i-gather-the-rose-from-the-thorns
 ---
 F4-evidential answer-ground. The novelty admission is Ep. 127 sec. 5's own
 testimony ('In those days no highborn lady at Rome had made profession of

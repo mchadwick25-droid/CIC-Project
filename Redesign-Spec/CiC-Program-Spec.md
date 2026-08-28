@@ -257,7 +257,7 @@ The Table, voice-position variants, and any answer-serving bank are not stages �
 
 ## Appendix A — Question Canon v1 (approved seed)
 
-Every question is in a modern participant's voice, fleet-wide (worlds answer from their own sources or record honest limits). Source tags: `[corpus]` = drawn from CiC's own tested question artifacts; `[ext]` = from the external research; `[new]` = authored for a cell both corpora left empty. Registers: **I** informational · **E** evidential · **P** personal · **T** translational. Phrasing rules (§4.2) applied throughout. Personal-register questions that shade toward disclosure are included deliberately — participants bring them; genuine crisis disclosures are the safety gate's territory, not canon coverage.
+Every question is in a modern participant's voice, fleet-wide (worlds answer from their own sources or record honest limits). Source tags: `[corpus]` = drawn from CiC's own tested question artifacts; `[ext]` = from the external research; `[new]` = authored for a cell both corpora left empty; `[measured]` = added AFTER the v1 approval, authored to close a gap that retrieval measurement exposed rather than to fill an empty cell. The `[measured]` tag exists so the approved v1 seed stays distinguishable from everything added since: strip those and you have Appendix A exactly as approved. Registers: **I** informational · **E** evidential · **P** personal · **T** translational. Phrasing rules (§4.2) applied throughout. Personal-register questions that shade toward disclosure are included deliberately — participants bring them; genuine crisis disclosures are the safety gate's territory, not canon coverage.
 
 ### CENTER — Jesus
 
@@ -268,9 +268,9 @@ Every question is in a modern participant's voice, fleet-wide (worlds answer fro
 
 ### F1 — God & doctrine
 
-**I** — What did you believe about God? `[ext]` · What did you argue about among yourselves? `[corpus]` · What did the councils in your time decide, and why did it matter so much? `[corpus]` · Who or what is the Holy Spirit, to your people? `[ext]`
+**I** — What did you believe about God? `[ext]` · What did you argue about among yourselves? `[corpus]` · What did the councils in your time decide, and why did it matter so much? `[corpus]` · Who or what is the Holy Spirit, to your people? `[ext]` · When your people spoke of the heart, what did they mean by it? `[measured]`
 **E** — When belief was disputed, who had the right to decide — and how do we know how that worked? `[corpus]` · I've heard a council basically voted Jesus into being God. Is that what happened? `[ext]`
-**P** — I grew up being told doubt was sin. Was there room among your people for doubt? `[corpus]` · What did you do when you couldn't believe what your own church taught? `[new]`
+**P** — I grew up being told doubt was sin. Was there room among your people for doubt? `[corpus]` · What did you do when you couldn't believe what your own church taught? `[new]` · Could God be felt and experienced among your people, or only believed? `[measured]` · I was baptised years ago and I am the same person I was. Did your people know that struggle? `[measured]`
 **T** — What did your community believe about original sin — are people born already guilty? `[corpus]` · What was the bread and cup to you — is that what we call transubstantiation? `[corpus]` · Did you believe people are saved by faith alone, not works? `[corpus]`
 
 ### F2 — Scripture & sources
@@ -282,9 +282,9 @@ Every question is in a modern participant's voice, fleet-wide (worlds answer fro
 
 ### F3 — Church & world
 
-**I** — Who held authority among you, and how did anyone come to have it? `[corpus]` · What actually happened when you gathered? `[corpus]` · Was it actually dangerous to be a Christian, day to day, or is that exaggerated? `[corpus]` · How did your movement spread so far, so fast? `[ext]`
-**E** — Were Christians really hiding in the catacombs? `[ext]` · Did Constantine corrupt the church — did the empire change what you were? `[ext]` · What would an outsider have found strangest about you? `[corpus]`
-**P** — The church that raised me protected people who caused harm. Your churches had failures too — what did you do with them? `[corpus+ext]` · Your church used power against Christians who disagreed. Defend that. `[corpus]`
+**I** — Who held authority among you, and how did anyone come to have it? `[corpus]` · What actually happened when you gathered? `[corpus]` · Was it actually dangerous to be a Christian, day to day, or is that exaggerated? `[corpus]` · How did your movement spread so far, so fast? `[ext]` · Who chose your leaders — were bishops appointed, elected, or something else? `[measured]`
+**E** — Were Christians really hiding in the catacombs? `[ext]` · Did Constantine corrupt the church — did the empire change what you were? `[ext]` · What would an outsider have found strangest about you? `[corpus]` · What did your neighbours say about you — what were you accused of? `[measured]`
+**P** — The church that raised me protected people who caused harm. Your churches had failures too — what did you do with them? `[corpus+ext]` · Your church used power against Christians who disagreed. Defend that. `[corpus]` · What happened to the temples and the old gods once you had the power? `[measured]`
 **T** — Was your church "Catholic"? Is there a church today I could visit that's yours? `[corpus]` · Did you have denominations — how did you handle other communities who called on Christ differently? `[corpus]`
 
 ### F4 — Living the faith
@@ -292,7 +292,7 @@ Every question is in a modern participant's voice, fleet-wide (worlds answer fro
 **I** — How did a person actually become one of you? Walk me through it. `[corpus]` · Why and how did you pray? `[ext]` · What happened at the meal you shared? `[corpus]` · How did your people fast, and what was it for? `[new]` · When someone wronged the community, how was it handled — and could they come back? `[corpus]`
 **E** — How do you know your practices went back to the apostles and weren't later inventions? `[new]`
 **P** — I can't quiet my own head. Does your way of life have anything for someone like me? `[corpus]` · How do I forgive someone who isn't sorry? `[new]` · I pray and nothing happens. Did your people know that silence? `[ext]`
-**T** — Were you born again — is that how you'd put what happened to you? `[corpus]` · Did you tithe? How did you decide what to give? `[new]` · What did you believe about the end of the world — anything like what we call the rapture? `[corpus]`
+**T** — Were you born again — is that how you'd put what happened to you? `[corpus]` · Did you tithe? How did you decide what to give? `[new]` · What did you believe about the end of the world — anything like what we call the rapture? `[corpus]` · Did you baptise babies, or only adults who chose it for themselves? `[measured]`
 
 ### F5 — Daily life
 

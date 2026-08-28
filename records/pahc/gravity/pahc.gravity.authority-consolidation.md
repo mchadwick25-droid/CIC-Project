@@ -59,6 +59,7 @@ relations:
   target: pahc.force.monepiscopacy-consolidation
 - type: associated-with
   target: pahc.witness.what-we-never-settled
+- {type: illustrated-by, target: pahc.quote.polycrates-to-victor}
 name: "Authority Consolidation - the episkopos/presbyteros/diakonos question [SUPPORTING]"
 classification: supporting
 description: "Who leads, and how leadership is secured once those who walked with the Lord are gone.

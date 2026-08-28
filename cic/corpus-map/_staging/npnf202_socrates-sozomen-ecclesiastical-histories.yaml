@@ -1,0 +1,76 @@
+source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+
+assignments:
+  # ---- Socrates Scholasticus (div1 2) ----
+  - work: "The Ecclesiastical History of Socrates Scholasticus"
+    author: socrates
+    locus: "div1 2 — Books I-VII, 305-439"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Constantinopolitan continuation of Eusebius, written inside the
+      Theodosian establishment and organized by imperial reigns - Socrates
+      states that the church's fortunes and the empire's are intertwined,
+      which is the ijc world's own thesis. His own entry: the census has no
+      Constantinopolitan-lay-historian bucket, and ijc (Rome, Constantinople,
+      Milan, 312-451) is where he stands.
+
+  - work: "The Ecclesiastical History of Socrates Scholasticus"
+    author: socrates
+    locus: "div1 2 — esp. Books I-IV (Arian controversy), IV.23 (Egyptian monks), VI (Chrysostom), Novatianist notices throughout"
+    atlas_ids:
+      - homoian-arian-christianity
+      - novatianism
+      - desert-monasticism
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: context
+    confidence: assigned
+    note: >
+      Same work, context row: movements Socrates describes without belonging
+      to them, each with real evidentiary weight. Books I-IV document the
+      Arian/homoian councils and quote their creeds (largely via Sabinus'
+      lost synodical collection) - doctrinal-floor entry, described from
+      outside. Socrates is the single richest ancient source for the
+      Novatianists (their Constantinopolitan bishops, laws against them, his
+      unusual sympathy - some ancients thought him one). Book IV.23-24 is a
+      long account of the Egyptian monks with excerpts of Evagrius. Book VI
+      is a primary narrative of Chrysostom's episcopate and fall. Movements
+      merely mentioned are not assigned.
+
+  # ---- Sozomen (div1 3) ----
+  - work: "The Ecclesiastical History of Sozomen"
+    author: sozomen
+    locus: "div1 3 — Books I-IX, 324-425, with the Address to Theodosius II (div2 3.5)"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      A lawyer at Constantinople writing under and for Theodosius II (the
+      dedicatory Address is in this volume); church history framed by courts,
+      laws and emperors. As with Socrates, ijc is his own entry's nearest
+      home in the census.
+
+  - work: "The Ecclesiastical History of Sozomen"
+    author: sozomen
+    locus: "div1 3 — esp. I.12-14, III.14, VI.28-34 (monks); II.9-14 (Persian martyrs); III.16 (Ephraim); Books I-IV (Arian controversy); VIII (Chrysostom)"
+    atlas_ids:
+      - desert-monasticism
+      - homoian-arian-christianity
+      - persian-church-of-the-east-early
+      - syriac-edessa-nisibis
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: context
+    confidence: assigned
+    note: >
+      Same work, context row. Sozomen is the most monastically interested of
+      the continuators: I.12-14, III.14 and VI.28-34 are extended accounts of
+      Egyptian (and Palestinian/Syrian) monasticism naming Antony, Pachomius
+      and the Nitrian fathers - outside evidence desert's ecology needs. Books
+      II.9-14 preserve the martyrs of Persia under Shapur II, among the best
+      Greek evidence for the early Persian church. III.16 is an independent
+      notice of Ephraim and Syriac letters. Books I-IV narrate the
+      Arian/homoian ascendancy; Book VIII is a book-length account of
+      Chrysostom. Each id above rests on sustained treatment, not mention.

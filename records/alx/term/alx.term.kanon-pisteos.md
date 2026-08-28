@@ -26,6 +26,8 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: alx.quote.ecclesiastical-and-apostolical-tradition
+- type: associated-with
   target: alx.gravity.speculative-doctrinal-tension
 plain_meaning: 'The rule of faith: the short summary of what the apostles handed down. It set the bounds
   for reading Scripture.'

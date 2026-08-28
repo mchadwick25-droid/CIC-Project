@@ -48,6 +48,9 @@ positions:
 tensions:
 - reading Rome's fall as judgment sat uneasily beside mourning Rome as home - the same
   letters do both without reconciling them
+relations:
+- type: associated-with
+  target: hal.quote.the-city-which-had-taken-the-whole-world
 ---
 F4-translational answer-ground. The no-tithe and no-rapture answers are
 honest negatives with this world's actual practices in their place. The

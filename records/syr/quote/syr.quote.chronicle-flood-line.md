@@ -23,5 +23,11 @@ license: verbatim
 modern_lens_note: '''Temple'' names this world''s own church building in the
   chronicler''s own idiom; a modern reader may otherwise read ''temple'' as a
   non-Christian worship site rather than this community''s own church.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether their buildings survived and what happened to them"
+  - "participant asks about disaster, flood, or destruction in their city"
+  do_not_retrieve_when: []
 ---
 Verified verbatim (Cowper's translation). The oldest hard line of this world's existence; the interpolation dispute (Bauer vs Barnard) is carried in syr.story.edessa-flood-201.

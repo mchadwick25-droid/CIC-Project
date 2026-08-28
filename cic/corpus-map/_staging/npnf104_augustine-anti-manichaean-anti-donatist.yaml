@@ -1,0 +1,237 @@
+
+source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+assignments:
+- work: On the Morals of the Catholic Church
+  author: augustine
+  locus: div2 4.4 — On the Morals of the Catholic Church
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'First half of the paired De Moribus (388), answering the Manichaean charge against
+    Catholic ethics. Positive exposition of Catholic morals, but written as anti-Manichaean
+    polemic and grouped so by CCEL — dual assignment with its companion below.
+
+    '
+- work: On the Morals of the Catholic Church
+  author: augustine
+  locus: div2 4.4 — On the Morals of the Catholic Church
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: assigned
+  note: 'First half of the paired De Moribus (388), answering the Manichaean charge against
+    Catholic ethics. Positive exposition of Catholic morals, but written as anti-Manichaean
+    polemic and grouped so by CCEL — dual assignment with its companion below.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: On the Morals of the Manichaeans
+  author: augustine
+  locus: div2 4.5 — On the Morals of the Manichæans
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Second half of De Moribus: a detailed, hostile description of Manichaean ethics —
+    the three seals, the elect and auditors — from a former auditor. One of the principal
+    Latin sources on Manichaean practice.
+
+    '
+- work: On the Morals of the Manichaeans
+  author: augustine
+  locus: div2 4.5 — On the Morals of the Manichæans
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: assigned
+  note: 'Second half of De Moribus: a detailed, hostile description of Manichaean ethics —
+    the three seals, the elect and auditors — from a former auditor. One of the principal
+    Latin sources on Manichaean practice.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: On Two Souls, Against the Manichaeans
+  author: augustine
+  locus: div2 4.6 — On Two Souls, Against the Manichæans
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Refutation (c. 391) of the Manichaean doctrine of two souls; states the doctrine
+    in order to refute it.
+
+    '
+- work: On Two Souls, Against the Manichaeans
+  author: augustine
+  locus: div2 4.6 — On Two Souls, Against the Manichæans
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: assigned
+  note: 'Refutation (c. 391) of the Manichaean doctrine of two souls; states the doctrine
+    in order to refute it.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: Acts or Disputation Against Fortunatus the Manichaean
+  author: augustine
+  locus: div2 4.7 — Acts or Disputation Against Fortunatus the Manichæan
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Transcript of the public debate at Hippo (392). Unusual in that it records Fortunatus''
+    own words at length — as close to a Manichaean voice as this volume comes, though preserved
+    by the winning side; a builder using it for the manichaeism entry should know the frame
+    is Augustine''s.
+
+    '
+- work: Acts or Disputation Against Fortunatus the Manichaean
+  author: augustine
+  locus: div2 4.7 — Acts or Disputation Against Fortunatus the Manichæan
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: assigned
+  note: 'Transcript of the public debate at Hippo (392). Unusual in that it records Fortunatus''
+    own words at length — as close to a Manichaean voice as this volume comes, though preserved
+    by the winning side; a builder using it for the manichaeism entry should know the frame
+    is Augustine''s.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: Against the Epistle of Manichaeus, Called Fundamental
+  author: augustine
+  locus: div2 4.8 — Against the Epistle of Manichæus, Called Fundamental
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Refutation (397) that quotes Mani''s Fundamental Epistle verbatim as it goes — a
+    primary Manichaean text surviving in Latin only through this work''s quotations.
+
+    '
+- work: Against the Epistle of Manichaeus, Called Fundamental
+  author: augustine
+  locus: div2 4.8 — Against the Epistle of Manichæus, Called Fundamental
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: assigned
+  note: 'Refutation (397) that quotes Mani''s Fundamental Epistle verbatim as it goes — a
+    primary Manichaean text surviving in Latin only through this work''s quotations.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: Reply to Faustus the Manichaean (Contra Faustum)
+  author: augustine
+  locus: div2 4.9 — Reply to Faustus the Manichæan (33 books, ~176k words)
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The largest anti-Manichaean work (c. 400), and the most valuable text in this volume
+    for the manichaeism entry: each book opens by reproducing Faustus'' Capitula in his own
+    words before answering, so the fullest surviving statement of Manichaean biblical criticism
+    is preserved inside Augustine''s refutation.
+
+    '
+- work: Reply to Faustus the Manichaean (Contra Faustum)
+  author: augustine
+  locus: div2 4.9 — Reply to Faustus the Manichæan (33 books, ~176k words)
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: assigned
+  note: 'The largest anti-Manichaean work (c. 400), and the most valuable text in this volume
+    for the manichaeism entry: each book opens by reproducing Faustus'' Capitula in his own
+    words before answering, so the fullest surviving statement of Manichaean biblical criticism
+    is preserved inside Augustine''s refutation.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: Concerning the Nature of Good, Against the Manichaeans
+  author: augustine
+  locus: div2 4.10 — Concerning the Nature of Good, Against the Manichæans
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Late (c. 404) statement of evil as privation against Manichaean dualism; quotes from
+    Mani''s Thesaurus and Fundamental Epistle.
+
+    '
+- work: Concerning the Nature of Good, Against the Manichaeans
+  author: augustine
+  locus: div2 4.10 — Concerning the Nature of Good, Against the Manichæans
+  atlas_ids:
+  - manichaeism
+  role: context
+  confidence: assigned
+  note: 'Late (c. 404) statement of evil as privation against Manichaean dualism; quotes from
+    Mani''s Thesaurus and Fundamental Epistle.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: On Baptism, Against the Donatists
+  author: augustine
+  locus: div2 5.4 — On Baptism, Against the Donatists (7 books)
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  - donatism
+  role: tradition
+  confidence: assigned
+  note: 'The central treatise (c. 400) on the validity of schismatic baptism. Also a major
+    conduit for Cyprian: it argues through the acts of Cyprian''s baptismal councils at length,
+    and Cyprian''s Carthage belongs to this same Latin pastoral entry — one bucket carries
+    both sides of that inheritance.
+
+    '
+- work: Answer to the Letters of Petilian, the Donatist
+  author: augustine
+  locus: div2 5.5 — Answer to the Letters of Petilian (3 books, ~102k words)
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  - donatism
+  role: tradition
+  confidence: assigned
+  note: 'Book-by-book reply that quotes Petilian of Constantine''s letters clause by clause
+    — the most extensive surviving Donatist voice in the vendored corpus, preserved inside
+    its refutation. For the donatism entry this is the nearest thing to primary Donatist text
+    on hand.
+
+    '
+- work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
+  author: augustine
+  locus: div2 5.6 — The Correction of the Donatists
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  - donatism
+  role: tradition
+  confidence: assigned
+  note: 'Letter-treatise (c. 417) to the tribune Boniface justifying the imperial laws against
+    the Donatists after the events at Carthage — the classic defense of state correction of
+    schism ("compel them to come in"). Also assigned to imperial-juridical-christianity below.
+
+    '
+- work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
+  author: augustine
+  locus: div2 5.6 — The Correction of the Donatists
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Direct evidence for the ijc world''s core question — the church''s use of imperial
+    law — written to an imperial officer to justify coercive legislation. Provisional because
+    Augustine stands outside the Rome-Constantinople-Milan orbit; a reviewer may prefer ijc
+    to reach this through the laws themselves rather than their North African advocate.
+
+    '

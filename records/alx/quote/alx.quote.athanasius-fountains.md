@@ -26,6 +26,12 @@ modern_lens_note: >
   No significant modern-lens risk identified for this quote - the
   fountain/living-water imagery remains broadly legible to a modern ear via
   its continued biblical currency.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks which books they treated as scripture and who decided"
+  - "participant asks whether their Bible was the same as a modern one"
+  do_not_retrieve_when: []
 ---
 The canon list's own summation - the bishop telling all Egypt which
 books the church receives. Serves F2-I ('which writings did your people

@@ -27,6 +27,12 @@ license: verbatim
 modern_lens_note: >-
   'Commonweal' is archaic English for the common good or the state; 'the Divinity' is this
   translation's own formal register for God, not a philosophical abstraction.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks when it stopped being illegal and what changed"
+  - "participant asks what the law actually said"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 ---

@@ -1,0 +1,195 @@
+# Worker staging file - npnf206 (Jerome: Letters and Select Works, NPNF second
+# series vol. 6). Jerome also fills npnf203 (Rufinus/Theodoret volume section -
+# another worker's file); only what is IN THIS FILE is assigned here.
+# Apparatus skipped: title pages, translator's preface, Prolegomena to Jerome
+# (div1 4, ~20,844 words), indexes (div1 8).
+source_file: npnf206_jerome-principal-works.xml
+assignments:
+- work: The Letters of St. Jerome
+  author: jerome
+  locus: 'div1 5 - one body of 150 letters (div2 5.1-5.150, ~288,634 words), assigned as one
+    work, not 150 assignments. Letters XXII and CVIII are additionally listed as their own
+    entries below.
+
+    '
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: tradition
+  confidence: assigned
+  note: 'The core of the built hieronymian world''s corpus. The collection prints correspondence
+    RECEIVED as well as sent - letters from Damasus, Epiphanius, Theophilus of Alexandria,
+    Augustine, Pope Innocent, Rufinus, Procopius are interleaved under the same div1 - so
+    the body is a correspondence corpus around Jerome, not solely his pen; a builder quoting
+    from it should check the individual letter''s sender.
+
+    '
+- work: Letter XXII (To Eustochium, on virginity)
+  author: jerome
+  locus: div2 5.22 - 'To Eustochium', n=XXII, ~18,609 words
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  - desert-monasticism
+  role: tradition
+  confidence: assigned
+  note: 'The brief''s own worked case (section 3) of one work belonging to two entries: Jerome''s
+    programmatic letter on virginity is hieronymian tradition, and its ascetic sections -
+    including his account of his own desert years and of the three kinds of Egyptian monks
+    - are Latin witness for desert-monasticism. Split out from the Letters body so the double
+    home is on record.
+
+    '
+- work: Letter CVIII (To Eustochium - Epitaph of Paula)
+  author: jerome
+  locus: div2 5.108 - 'To Eustochium', n=CVIII, ~16,944 words
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  - jerusalem-liturgical-pilgrimage-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The memoir of Paula: the file''s own preface to the letter says Jerome "relates the
+    story of Paula in detail," her conversion and ascetic life. Its long narrative of her
+    pilgrimage through the Holy Land places it also in the Jerusalem liturgical-pilgrimage
+    entry, and it is one of the corpus''s fullest accounts of a woman''s life - the gap every
+    world names. Split out from the Letters body for the second home.
+
+    '
+- work: The Life of Paulus the First Hermit
+  author: jerome
+  locus: div2 6.1 (~3,900 words)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  - desert-monasticism
+  role: tradition
+  confidence: assigned
+  note: 'Jerome''s Egyptian-desert hagiography, written in deliberate rivalry with the Vita
+    Antonii. Desert evidence written from outside the desert, like the Vita itself.
+
+    '
+- work: The Life of S. Hilarion
+  author: jerome
+  locus: div2 6.2 (~11,619 words)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  - palestinian-ascetic-monasticism-early
+  role: tradition
+  confidence: assigned
+  note: Hilarion carries Antony's pattern to Palestine, so the subject is monasticism outside
+    the desert entry's stated region (Egypt, Nile Valley). No census entry covers fourth-century
+    Palestinian monasticism (the Judean-desert/Gaza entry begins c. 450), so desert-monasticism
+    is the nearest bucket; flagged rather than silently stretched. Re-pointed 2026-08-26 to
+    the census entry added on record for this movement.
+- work: The Life of Malchus, the Captive Monk
+  author: jerome
+  locus: div2 6.3 (~3,513 words)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  - palestinian-ascetic-monasticism-early
+  role: tradition
+  confidence: assigned
+  note: 'Same doubt as the Hilarion: Syrian setting, monastic subject, and no census entry
+    for fourth-century Syrian monasticism outside the Edessa/ Nisibis entry (which this is
+    not). Desert-monasticism as nearest monastic bucket, flagged. Re-pointed 2026-08-26 to
+    the census entry added on record for this movement.'
+- work: The Dialogue Against the Luciferians
+  author: jerome
+  locus: div2 6.4 (~16,292 words)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: tradition
+  confidence: provisional
+  note: 'Argues how the church should receive clergy and laity baptized under the Arian (Homoian)
+    ascendancy after Ariminum - so it is also material about Homoian Arianism and its aftermath,
+    assigned to that excluded entry per the doctrinal-floor rule. Provisional because the
+    Luciferians themselves (a Nicene rigorist schism) have no census entry and the Homoian
+    id carries only half the argument.
+
+    '
+- work: The Dialogue Against the Luciferians
+  author: jerome
+  locus: div2 6.4 (~16,292 words)
+  atlas_ids:
+  - homoian-arian-christianity
+  role: context
+  confidence: provisional
+  note: 'Argues how the church should receive clergy and laity baptized under the Arian (Homoian)
+    ascendancy after Ariminum - so it is also material about Homoian Arianism and its aftermath,
+    assigned to that excluded entry per the doctrinal-floor rule. Provisional because the
+    Luciferians themselves (a Nicene rigorist schism) have no census entry and the Homoian
+    id carries only half the argument.
+
+    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    from outside rather than speaking as it, and the brief allows a built world to draw on
+    floor material only as `register: etic`.'
+- work: The Perpetual Virginity of Blessed Mary (Against Helvidius)
+  author: jerome
+  locus: div2 6.5 (~11,404 words)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: tradition
+  confidence: assigned
+  note: 'Ascetic-doctrinal polemic; Helvidius has no census entry, so it stays with its author.
+
+    '
+- work: Against Jovinianus
+  author: jerome
+  locus: div2 6.6 (two books, ~71,029 words)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: tradition
+  confidence: assigned
+  note: 'The largest treatise in the volume, defending the superiority of virginity. Jovinian
+    has no census entry.
+
+    '
+- work: Against Vigilantius
+  author: jerome
+  locus: div2 6.7 (~6,700 words)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: tradition
+  confidence: assigned
+  note: 'Defense of relic-veneration, vigils and monasticism against Vigilantius, who has
+    no census entry.
+
+    '
+- work: To Pammachius Against John of Jerusalem
+  author: jerome
+  locus: div2 6.8 (~23,662 words)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: tradition
+  confidence: assigned
+  note: 'Origenist-controversy polemic against the bishop of Jerusalem. It describes the Jerusalem
+    church only as an adversary in a Christian quarrel, so it is not assigned to the Jerusalem
+    entry and is not `context` under Mark''s definition (Jerome speaks as a Christian); noted
+    here in case a reviewer wants the Jerusalem cross-reference.
+
+    '
+- work: Against the Pelagians
+  author: jerome
+  locus: div2 6.9 (three books, ~33,959 words)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  - pelagianism
+  role: tradition
+  confidence: assigned
+  note: 'Tradition for its author''s entry and also assigned to the entry it argues against,
+    per the brief - the corpus''s material ABOUT Pelagianism needs a findable home in that
+    census entry.
+
+    '
+- work: Prefaces (to Jerome's early works, the Vulgate Old Testament, and the Commentaries)
+  author: jerome
+  locus: 'div1 7 (~18,466 words): 7.2 prefaces to the early works, 7.3 prefaces to the Vulgate
+    OT books, 7.4 prefaces to the commentaries - one body of short prefaces, assigned together.
+
+    '
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: tradition
+  confidence: assigned
+  note: 'The hieronymian world is built on Jerome''s translation work (brief 11a), and these
+    prefaces are this volume''s direct witness to it - his own statements of method, canon
+    and audience. Editorially collected, but every preface is Jerome''s text, not apparatus.
+
+    '

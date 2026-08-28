@@ -43,6 +43,9 @@ tensions:
 - the same world that argued for decades also enforced conclusions by law - room to doubt and power to
   punish doubt coexisted, and which one a person met depended on standing and timing
 - ordinary believers' private doubt is unrecorded - the record's doubters all hold office
+relations:
+- type: associated-with
+  target: ijc.quote.he-held-aloof-for-a-short-time
 ---
 F1-P answered from the record's one great documented hesitation
 (Eusebius's letter, preserved in Socrates I.8 and verified) rather

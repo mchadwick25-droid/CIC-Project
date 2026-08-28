@@ -28,6 +28,10 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: pahc.quote.moses-is-more-ancient
+- type: associated-with
+  target: pahc.quote.they-appointed-the-first-fruits
+- type: associated-with
   target: pahc.force.apostolic-testimony-inheritance
 positions:
 - "Scripture was not this world's only authority - it was read alongside living apostolic testimony, which for this world was not yet a separate, lesser thing but part of the same measure of what was legitimate."

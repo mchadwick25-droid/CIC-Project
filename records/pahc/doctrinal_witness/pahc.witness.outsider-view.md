@@ -26,6 +26,8 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: pahc.quote.two-female-slaves-who-were-called-deaconesses
+- type: associated-with
   target: pahc.gravity.state-pressure
 positions:
 - "No catacomb, church building, or inscription can be securely tied to this world in this window - hiding underground in catacombs belongs to a later time and a later kind of pressure than anything this world's own record shows."

@@ -25,6 +25,12 @@ text: 'she protested in my hearing that she could behold with the eyes of faith 
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"The eyes of faith" names imaginative, devotional perception - not a claim to literal eyesight of the Nativity scene, which the surrounding text (a cave centuries later) rules out on its own.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what it was like to visit the holy places"
+  - "participant asks how they imagined the events of the gospel"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108 sec. 10,
 div v.CVIII). ATTRIBUTION SHAPE: Jerome reporting Paula's protestation at

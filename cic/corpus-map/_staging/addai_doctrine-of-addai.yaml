@@ -1,0 +1,28 @@
+source_file: addai_doctrine-of-addai.txt
+
+authors_ruled:
+  addai:
+    kind: pseudonymous
+    evidence: >
+      File header reads "Creator(s): Anonymous (Syriac, c. 4th-5th c.)". The
+      work's own colophon ascribes it to a named legendary scribe: "Labubna,
+      the son of Sennac, the son of Abshadar, the king's scribe, wrote these
+      things of Addai the Apostle, from the beginning to the end." The slug
+      `addai` (this file's DC.Creator in AUTHORS.md) names the work's
+      protagonist, not its writer; it is used here as a work-entity slug.
+
+assignments:
+  - work: "The Doctrine of Addai"
+    author: addai
+    locus: "whole work (single-work volume, ~17,242 words; Phillips 1876 translation)"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      The foundational origin legend of Edessene Christianity: the Abgar-Jesus
+      correspondence, Addai's mission to Edessa, the founding of the church,
+      and the succession Addai - Aggai - Palut. Syriac, c. 4th-5th c., squarely
+      inside the world's frame. Written from within the Edessene church as its
+      own account of itself, hence tradition rather than context despite its
+      legendary character.

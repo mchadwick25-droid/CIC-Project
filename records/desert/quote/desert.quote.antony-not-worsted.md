@@ -20,6 +20,12 @@ text: "If there had been any power in you, it would have sufficed had one of you
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "The demons' \"shapes of brute beasts\" risks two opposite modern misreadings: taken as a literal supernatural claim, or dismissed outright as primitive superstition with nothing to say. This world's own record holds it as neither - see desert.story.antony-tomb-combat's own explicit instruction that this material is not neutral incident report."
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether they believed in demons and what one was like to meet"
+  - "participant asks what frightened them at night and how they answered fear"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.antony-tomb-combat

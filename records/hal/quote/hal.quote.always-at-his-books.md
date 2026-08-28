@@ -23,6 +23,12 @@ text: 'He is always occupied in reading, always at his books with his whole hear
 speaker_or_author: 'Sulpitius Severus, Dialogues I.9 (the traveler Postumianus speaking; trans. Roberts)'
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what an ordinary day of work looked like"
+  - "participant asks how a visitor described the household from outside"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf211. An outside
 visitor's eyewitness sketch of the Bethlehem scholar at work, c. 400 - the

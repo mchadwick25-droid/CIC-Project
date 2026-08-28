@@ -20,6 +20,9 @@ rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "prior HAL build Doc_02 named the correspondence; the Augustine-side volume was vendored 2026-08-15 (its own registry entry confirms Letter LXXV's presence); letter list verified on this branch by direct enumeration of the volume's Jerome-titled letter divisions"
 external_ids: {ccel_volume: "npnf101", thml_div: "vii.1.LXXI, vii.1.LXXV"}
+relations:
+- type: associated-with
+  target: hal.source.augustine-city-of-god
 ---
 Rights verified from the file's own DC.Rights header (Public Domain, file
 line 85). Letters titled To/From Jerome enumerated directly from the

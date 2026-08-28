@@ -43,6 +43,9 @@ positions:
 tensions:
 - '"well-documented" and "fairly documented" are different claims; this world''s record is the first
   and not the second'
+relations:
+- type: associated-with
+  target: ijc.quote.the-reading-of-all-the-documents
 ---
 F2-E answered as the world's own honest self-audit - the cell's
 questions ("would it hold up," "isn't it legend," "where is it

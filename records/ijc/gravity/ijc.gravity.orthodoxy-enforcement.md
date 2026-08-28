@@ -29,11 +29,14 @@ sources:
   license: public-domain
 relations:
 - {type: illustrated-by, target: ijc.quote.sozomen-thessalonica-law}
+- {type: illustrated-by, target: ijc.quote.compelled-to-come-in}
+- {type: illustrated-by, target: ijc.story.emperor-builds-another-basilica}
 - {type: enabled-by, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
 - {type: tension-with, target: ijc.gravity.episcopal-independence}
 - {type: associated-with, target: ijc.gravity.precision-seeking}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
+- {type: illustrated-by, target: ijc.quote.secular-ruler-ecclesiastical-cause}
 name: Orthodoxy-Enforcement Through Imperial Power [PRIMARY]
 classification: primary
 description: 'The recurring use of state power to police the church''s confessional boundary - a mechanism

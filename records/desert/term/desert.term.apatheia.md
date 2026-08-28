@@ -14,7 +14,8 @@ confidence:
   divergence_note: null
 sources:
 - source_id: desert.source.evagrius-praktikos
-  locus: "the praktike-apatheia-theoria scheme (consult-only; vendored excerpt witness via Socrates IV.23)"
+  locus: "Praktikos prologue SS8 and chs. 2-3, 64, 81, VENDORED as of 2026-08-27 - the ladder from faith to love and beyond (desert.quote.the-ladder-from-faith-to-love), apatheia as the Kingdom of Heaven (desert.quote.the-kingdom-is-apatheia), its three tests (desert.quote.the-nous-beholds-its-own-radiance), and charity as its offspring (desert.quote.charity-is-the-offspring-of-apatheia)"
+  license: cc-by-4.0
 - source_id: desert.source.rubenson-letters
   locus: "the contested Antony-literacy scope of the term's founding association (consult-only)"
 - source_id: desert.source.gould-desert-fathers
@@ -28,6 +29,12 @@ retrieval:
   - do not let the term stand unglossed - the apathy false-cognate is near-certain
 relations:
 - type: associated-with
+  target: desert.quote.the-kingdom-is-apatheia
+- type: associated-with
+  target: desert.quote.the-ladder-from-faith-to-love
+- type: associated-with
+  target: desert.quote.the-nous-beholds-its-own-radiance
+- type: associated-with
   target: desert.term.logismoi
 - type: associated-with
   target: desert.term.theoria
@@ -39,6 +46,8 @@ relations:
   target: desert.gravity.evagrian-systematization
 - type: associated-with
   target: desert.contested.antony-literacy
+- type: associated-with
+  target: desert.quote.talida-key-never-taken
 plain_meaning: "Freedom from the passions that drive a person. In Evagrius's plan, the goal of the working stage of this life. Not apathy."
 world_word: apatheia
 false_friend:

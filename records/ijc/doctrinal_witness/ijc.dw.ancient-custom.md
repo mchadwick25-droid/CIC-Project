@@ -58,6 +58,9 @@ tensions:
   apostolic - the world''s own opponents said so at the time'
 - '"antiphonal" is not the eyewitness''s own word and is not in this record''s evidence; our sources
   describe hymns and psalms sung together, not the specific back-and-forth form later tradition names'
+relations:
+- type: associated-with
+  target: ijc.quote.hymns-and-psalms-should-be-sung
 ---
 F4-E answered with the world's own custom-apparatus AND its one
 honestly-dated innovation - the pairing that keeps the answer from

@@ -1,0 +1,50 @@
+source_file: npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+
+# CCEL DC.Creator: `augustine`; NPNF div1s are works. No authors_ruled needed.
+#
+# Skipped as editorial apparatus: title page, Contents, Preface (div1 1-3),
+# the Introductory Essay "St. Augustin as an Exegete" (div1 4 — the
+# nineteenth-century editor's essay, not Augustine), and the indexes (8-9).
+#
+# Per brief section 6.5: what is assigned here is Augustine's exegesis and
+# preaching, which is his work and in scope; the biblical text he expounds is
+# not itself part of the corpus.
+
+assignments:
+  - work: "Our Lord's Sermon on the Mount (De sermone Domini in monte)"
+    author: augustine
+    locus: "div1 5 — Our Lord's Sermon on the Mount (2 books)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      c. 394, early exegetical treatise on Matthew 5-7, written as a
+      presbyter at Hippo. Squarely his own entry's material.
+
+  - work: "The Harmony of the Gospels (De consensu evangelistarum)"
+    author: augustine
+    locus: "div1 6 — The Harmony of the Gospels (4 books)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      c. 400. Book I is apologetic, answering pagan critics who set the
+      evangelists against each other; Books II-IV are the harmony proper.
+      Still Augustine speaking as the tradition, so role is tradition, not
+      context — context is reserved for outsiders describing Christians.
+
+  - work: "Sermons on Selected Lessons of the New Testament (Sermones ad populum, NPNF selection)"
+    author: augustine
+    locus: "div1 7 — Sermons on Selected Lessons of the New Testament; a series of ~97 sermons (~308,000 words) assigned as one body per the granularity rule, not one work per sermon"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Sermons preached to his congregations at Hippo and Carthage — the
+      defining material of the Latin pastoral-congregational entry. Scattered
+      anti-Donatist, anti-Manichaean and anti-Pelagian asides occur (a few
+      dozen mentions across 308k words) but no sermon sub-group is dedicated
+      polemic, so no second atlas_id is claimed for the body.

@@ -1,0 +1,48 @@
+source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
+
+# No authors_ruled: DC.Creator names `augustine`; both div1 works are his.
+# Skipped as apparatus: Title Page, Table of Contents, Editor's Preface,
+# Translator's Preface, the Subject Index, and the Indexes.
+
+assignments:
+  - work: "City of God"
+    author: augustine
+    locus: "div1 4 — City of God (Books I-XXII)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's largest work, written at Hippo 413-427. Primary evidence for
+      his own entry. Deliberately NOT scattered further: Books I-X answer
+      pagan critics and Book X engages Porphyry, but the census has no pagan
+      bucket and the Platonist engagement is Augustine's, not Alexandria's —
+      restraint here per Mark's per-work framing.
+
+  - work: "City of God"
+    author: augustine
+    locus: "div1 4 — City of God, esp. Books I-V and XIX"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Occasioned by the sack of Rome in 410; the tradition's central statement
+      on empire, providence, Rome's history and the two cities — the exact
+      questions the ijc world lives inside (Book V on Constantine and
+      Theodosius, Book XIX on earthly peace and the commonwealth). Provisional
+      because Augustine is a North African pastor, not a participant in the
+      Rome-Constantinople-Milan imperial church; it is evidence for ijc's
+      themes rather than a work from inside it.
+
+  - work: "On Christian Doctrine"
+    author: augustine
+    locus: "div1 5 — On Christian Doctrine (Books I-IV)"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Augustine's manual for interpreters and preachers of Scripture, Book IV
+      on Christian eloquence — congregational teaching practice itself, the
+      core of the pastoral entry. No second entry suggests itself.

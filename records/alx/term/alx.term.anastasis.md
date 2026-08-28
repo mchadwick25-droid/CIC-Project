@@ -29,7 +29,9 @@ retrieval:
   do_not_retrieve_when:
   - asking about resurrection primarily as a historical-apologetics question
   - asking about the afterlife in general terms rather than resurrection specifically
-relations: []
+relations:
+- type: associated-with
+  target: alx.quote.athanasius-death-trampled-down
 plain_meaning: Death reversed, both kinds. The soul reunited with God. The body truly transformed, not
   left behind.
 world_word: anastasis (resurrection)

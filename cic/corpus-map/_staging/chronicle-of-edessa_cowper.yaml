@@ -1,0 +1,46 @@
+source_file: chronicle-of-edessa_cowper.txt
+
+authors_ruled:
+  chronicle-of-edessa:
+    kind: anonymous
+    evidence: >
+      File header reads "Creator(s): Anonymous (Syriac, composed c. 540s CE)".
+      Assemani's introduction, carried in the file itself, opens: "We have
+      hitherto not discovered who was the author of the Edessene Chronicle,
+      nor in what age he flourished." The slug is a work-entity, this file's
+      DC.Creator in AUTHORS.md.
+
+assignments:
+  - work: "The Chronicle of Edessa"
+    author: chronicle-of-edessa
+    locus: "whole work (single-work volume, ~7,960 words; Cowper's JSL translation)"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: context
+    confidence: assigned
+    note: >
+      Civil annalistic record of Edessa - kings, floods, bishops, buildings -
+      from 132 BC to AD 540, drawn from the city archives. It documents the
+      201 flood damaging "the temple of the church of the Christians" (the
+      earliest dated church building on record) and Bardaisan's birth in 154.
+      Ecology, not theology: per Mark's 11a ruling ("the outside sources do
+      add an ecology level we need, but for context not theology") it carries
+      role: context on the world it surrounds. Christian-authored, but
+      annalistic and civil rather than a voice of the world's tradition, and
+      composed c. 540s, outside the world's 200-410 frame.
+
+  - work: "The Chronicle of Edessa"
+    author: chronicle-of-edessa
+    locus: "whole work (single-work volume)"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Composed c. 540s, ending at 540 - the opening of this entry's era.
+      Context, not tradition, for it: per Assemani's introduction carried in
+      the file, the chronicler was Chalcedonian ("expressly rejects the
+      opposers of the councils of Ephesus and Chalcedon") and "leaves off
+      writing just when the Jacobite pastors began to invade that church" -
+      so he documents the West Syriac world's ground from the rival side of
+      451. Provisional: Mark may not want a composition-era placement at all.

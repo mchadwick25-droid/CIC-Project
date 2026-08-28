@@ -17,9 +17,13 @@ sources:
   locus: "the combat narratives (SS5-10, SS23; the general theme)"
   license: public-domain
 - source_id: desert.source.evagrius-praktikos
-  locus: "the eight-fold taxonomy (Strand C's systematization; consult-only, with vendored excerpt witness via Socrates IV.23)"
+  locus: "Praktikos ch. 6, VENDORED as of 2026-08-27 (cic/texts/evagrius_praktikos_dysinger.txt) - the eight-fold taxonomy in Evagrius's own words, with its governing clause that whether a thought arrives is not up to us but whether it lingers is; see desert.quote.the-eight-generic-thoughts, and ch. 12 on acedia at desert.quote.the-noonday-demon. The Antirrhetikos remains unvendored and consult-only"
+  license: cc-by-4.0
 - source_id: desert.source.apophthegmata-patrum
   locus: "passim (disclosure of thoughts to an elder)"
+- source_id: desert.source.cassian-conferences
+  locus: Conf. V ch. II, Serapion's enumeration
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -27,6 +31,12 @@ retrieval:
   - questions about demons and spiritual struggle
   do_not_retrieve_when: []
 relations:
+- type: associated-with
+  target: desert.quote.the-eight-generic-thoughts
+- type: associated-with
+  target: desert.quote.the-heart-is-a-deep-gulf
+- type: associated-with
+  target: desert.quote.the-noonday-demon
 - type: associated-with
   target: desert.term.diakrisis
 - type: associated-with

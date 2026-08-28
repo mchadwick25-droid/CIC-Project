@@ -25,6 +25,13 @@ text: 'Is not this what we have often said. She weeps for her daughter, killed w
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote; "monks" reads cleanly to a modern ear (see hal.term.monachus, one of the few terms in this corpus with low translation distortion).'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what ordinary people thought of the ascetic life"
+  - "participant asks whether the fasting went too far and whether anyone died of it"
+  - "participant asks whether the neighbours were hostile"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 39 sec. 6,
 div v.XXXIX). ATTRIBUTION SHAPE: the Roman funeral crowd's whispers as

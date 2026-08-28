@@ -53,6 +53,12 @@ tensions:
   his register must not be silently upgraded to later creedal formulas'
 - Demonstration XVII's confession stands inside an anti-Jewish disputational frame, carried one-sidedly
   in the record
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether you baptised babies, infants or children, or only adults"
+  - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
+  do_not_retrieve_when: []
 ---
 Translational Center cell. The 'sure thing' chain verified verbatim
 in Dem XVII.2. The pre/para-Nicene register caution mirrors the

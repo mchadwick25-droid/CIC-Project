@@ -25,6 +25,12 @@ modern_lens_note: >
   unfamiliar or clinical-sounding image. It names an ordinary inward
   divided-ness - wavering between two minds - not a technical
   psychological or dissociative category in any modern sense.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether there was room for doubt among them"
+  - "participant asks what someone did who could not believe what they were told"
+  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf02_hermas-tatian-athenagoras-
 theophilus-clement-alexandria.xml, div1 ii, section iii (ii.iii.ix).

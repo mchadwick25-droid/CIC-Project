@@ -34,6 +34,10 @@ relations:
   target: syr.force.transmission-ending
 - type: illustrated-by
   target: syr.story.qyama-morning
+- type: illustrated-by
+  target: syr.quote.tatian-born-assyrian
+- type: illustrated-by
+  target: syr.quote.tatian-barbaric-writings
 name: The Diatessaron as Normative Harmonized Gospel [SUPPORTING - C5]
 description: 'For this whole window, ''the Gospel'' is one continuous woven story: Tatian''s harmony is
   the lectionary text both anchor voices know - Aphrahat quotes it, Ephrem comments on it - so the normative

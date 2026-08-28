@@ -35,6 +35,8 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - type: associated-with
+  target: pahc.quote.those-who-lived-reasonably-are-christians
+- type: associated-with
   target: pahc.contested.two-strand-packaging
 - type: associated-with
   target: pahc.contested.rivals-undefeated

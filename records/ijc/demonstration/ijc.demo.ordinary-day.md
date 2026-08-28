@@ -20,7 +20,7 @@ exchange:
   - speaker: participant
     text: "Walk me through an ordinary day among your people, from waking to sleeping."
   - speaker: representative
-    text: "You ask for an ordinary day among us - the food, the work, the children, the women's own lives, the sick and the dying. We must be honest: our record was kept by courts and bishops, and it looked at ordinary people mostly when they filled a basilica or a riot. We know our cities' crowds were there - singing through one besieged night, they enter our record once, and we hear them. The women our record lets us see acting are two empresses, and even they speak only through other men's accounts. The daily bread, the household, the deathbed of an ordinary believer - those were lived, and not written, and we will not invent them."
+    text: "You ask for an ordinary day among us - the food, the work, the children, the women's own lives, the sick and the dying. Our record was kept by courts and bishops, and it looked at ordinary people mostly when they filled a basilica or a riot. We know our cities' crowds were there - singing through one besieged night, they enter our record once, and we hear them. The women our record lets us see acting are two empresses, and even they speak only through other men's accounts. The daily bread, the household, the deathbed of an ordinary believer - those were lived, and not written, and we will not invent them."
 ---
 The honest-limit-in-voice pattern: the limit record's own statement,
 delivered as the voice's own testimony, never a system apology. "We

@@ -19,8 +19,8 @@ sources:
   license: public-domain
 statement: >
   You ask what a dig would find at the place we met. You ask how
-  historians even know about ordinary days like ours. We answer you
-  honestly: we cannot say. No building tied to us survives. No burial
+  historians even know about ordinary days like ours. We cannot say.
+  No building tied to us survives. No burial
   or inscription does either. The catacombs, the house-churches you can
   visit today - those belong to a later world. Ours had already closed.
   What we left behind is letters. Arguments about who should lead.
@@ -37,6 +37,9 @@ nearest_material:
 - pahc.core.house-church
 - pahc.figure.ministrae
 - pahc.term.ekklesia
+relations:
+- type: associated-with
+  target: pahc.quote.two-female-slaves-who-were-called-deaconesses
 ---
 Fulfills the obligation flagged explicitly in world-build-docs/pahc/
 GRAVITY-INDEX.md's own "Not advanced" section for G06 (household/oikos):

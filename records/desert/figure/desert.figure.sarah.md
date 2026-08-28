@@ -5,23 +5,36 @@ record_type: figure
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F6-P]
+canon_cells:
+- F6-P
 confidence:
-  citation_specificity: C
-  verification_state: verified-via-authority
-  evidentiary_weight: corroborating
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the saying's place in the tradition, matching the prior build's cleared Doc_09a rating for the identical material - Inferential/Thin for the specific narrated encounter's historicity, and, more broadly, Inferential/Thin for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound for named ammas generally. This record does not narrow that bound to historicity alone; it is one instance of it. This is this world's own single clearest direct textual evidence for a named amma's own teaching voice, not evidence of a fuller corpus that happens not to have been included here - the thinness itself is genuine, not an artifact of this build's own selection, and desert.source.apophthegmata-patrum's own standing caution (no vendored edition; paraphrase-only) applies here without exception. The scholarly name's '4th-early 5th c.' range is likewise a derivation, from that source record's own dating of the tradition generally - nothing in this corpus dates Sarah individually."
+  divergence_note: 'Six sayings is still a small corpus and the old bound holds for everything beyond
+    what they state: Inferential/Thin for the narrated encounters'' historicity, and nothing in this corpus
+    dates Sarah individually. What has changed is that the sayings themselves are now checkable against
+    a vendored file rather than carried on authority. THE RECENSION MATTERS HERE MORE THAN ANYWHERE: Budge
+    is the Syriac, and the fuller Greek form of §525 - ''according to nature I am a woman, but not according
+    to my thoughts'' - is NOT in it. Syncletica and Theodora, the other two ammas of the tradition, do
+    not appear in this recension at all.'
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Sarah, Alphabetical Collection - one saying, re-derived from the prior build's cleared Doc_09a Story 2.3, itself independently web-verified as genuine and accurately worded; paraphrase-only here, no vendored edition, no verbatim-quote claim"
+  locus: 'Budge''s Syriac recension, six sayings under the name "Mother Sarah": §268 (setting death before
+    her eyes on the ladder), §276 (the message to Abba Paphnutius), §428 (on alms given for men''s approval),
+    §525 ("It is I who am a man"), §566 (seven years against the demon of fornication), and one in the
+    Questions and Answers on praying for a pure heart'
+  license: public-domain
 names:
 - name: Sarah
   tag: in-world
-- name: "Amma Sarah (4th-early 5th c.)"
+- name: Amma Sarah (4th-early 5th c.)
   tag: scholarly
 narratable: true
-bridge_line: "one of a small number of women remembered by name in this world's own teaching tradition - remembered for telling visiting monks who had come to test her that she was a woman by nature but not by her thoughts, and that she was the man among them, and they the women"
+bridge_line: one of a small number of women remembered by name in this world's own teaching tradition
+  - six of her sayings survive, including the one where she told the brethren that she was the man among
+  them and they the women
 relations:
 - type: associated-with
   target: desert.term.geron-abba-amma
@@ -31,7 +44,39 @@ relations:
   target: desert.force.oral-to-written-shift
 - type: associated-with
   target: desert.story.sarah-answer
+- type: associated-with
+  target: desert.quote.equal-measure-of-strength
+- type: associated-with
+  target: desert.story.virgin-who-hid-athanasius
 ---
+UPDATED 2026-08-27 ON THE ARRIVAL OF A VENDORED EDITION. Two changes,
+and the first is a correction.
+
+THE BRIDGE LINE ASSERTED SOMETHING THE TEXT DOES NOT. It read that Sarah
+was remembered "for telling visiting monks who had come to test her that
+she was a woman by nature but not by her thoughts, and that she was the
+man among them." That first clause is the GREEK alphabetical form of the
+saying. Budge's Syriac §525 does not contain it. The bridge_line is a
+participant-facing field - it is what a reader is told about her - so it
+has been cut back to what a vendored file supports. The fuller Greek
+wording may well be older and better; this world simply cannot show it,
+because no public-domain English of the Greek exists
+(desert.search.greek-alphabetical-pd-english).
+
+SHE HAS SIX SAYINGS, NOT ONE. The record previously cited a single
+saying re-derived from consult-only renderings. Budge carries six under
+"Mother Sarah", and they are various: setting her death before her eyes
+each time she climbed a ladder; sending a rebuke to Abba Paphnutius for
+letting a brother be reviled; on alms given for human approval still
+being worth giving; seven years' struggle against the demon of
+fornication on her roof; and a prayer that her own heart be pure rather
+than that others be edified through her. That is a teaching voice with
+range, not a single epigram.
+
+confidence moves from C / verified-via-authority to A / verified-direct
+for the sayings themselves. Everything the old divergence_note bounded
+beyond them still stands.
+
 Formation significance: desert.term.geron-abba-amma's own evidential
 sense already states the asymmetry this record makes concrete - "named
 ammas (Syncletica, Theodora, Sarah) are genuinely attested within it;

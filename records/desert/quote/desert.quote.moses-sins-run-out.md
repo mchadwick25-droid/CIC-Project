@@ -5,26 +5,51 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F4-P]
+canon_cells:
+- F4-P
 confidence:
-  citation_specificity: C
-  verification_state: verified-via-authority
-  evidentiary_weight: corroborating
-  formation_confidence: Widely Accepted
-  divergence_note: "Widely Accepted for the saying's own place in the tradition, matching desert.story.moses-leaking-jug's own rating - Inferential/Thin for any claim beyond what the surviving saying itself states, matching desert.source.apophthegmata-patrum's own unconditional bound. No vendored edition exists for this source; license is paraphrase-only, per that source's own hard rule."
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: load-bearing
+  formation_confidence: Documented
+  divergence_note: null
 sources:
 - source_id: desert.source.apophthegmata-patrum
-  locus: "Moses, Alphabetical Collection - a widely attested saying of Abba Moses's, given here in plain English rather than a specific published translation's own wording"
-text: "My own sins run out behind me the same way, and I do not see them - and today I am coming to judge another man's fault."
-speaker_or_author: "Abba Moses"
-license: paraphrase-only
-modern_lens_note: "No significant modern-lens risk identified for this quote's own vocabulary or imagery: sins pictured as a trail running out behind you, unseen, while you judge someone else's - the image reads plainly to a modern ear the same way it read then."
+  locus: §542 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 1160) - Budge's Syriac recension
+  license: public-domain
+text: The sands are my sins which are running down behind me and I cannot see them, and I, even I, have
+  come this day to judge shortcomings which are not mine.
+speaker_or_author: Abba Moses
+license: verbatim
+modern_lens_note: 'No significant modern-lens risk identified for this quote''s own vocabulary or imagery:
+  sins pictured as a trail running out behind you, unseen, while you judge someone else''s - the image
+  reads plainly to a modern ear the same way it read then.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what happened when someone did wrong and the others found out"
+  - "participant asks whether they judged each other, and how forgiveness worked"
+  - "participant asks whether anyone was ever put out of the community"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.moses-leaking-jug
 - type: associated-with
   target: desert.gravity.diakrisis
 ---
+VERBATIM AS OF 2026-08-27, verified against the newly vendored Budge at
+line 1160, §542. DISCLOSED: the file prints "[The sands are]" in square
+brackets - the translator's supplement for an ellipsis in the Syriac. The
+brackets are dropped and the words kept, because dropping the words would
+leave the sentence without a subject; the supplement is Budge's, not this
+world's, and is flagged here rather than absorbed silently.
+
+The narrative around it - a brother's offence at Scete, the summons Moses
+first refused and then obeyed, the basket of sand carried on his
+shoulders - stands at the same locus and is carried by
+desert.story.moses-leaking-jug, which can now be verified against it
+too.
+
 Paraphrase, not verbatim quotation, per desert.source.apophthegmata-
 patrum's own hard rule - no vendored edition exists for this source.
 No figure record exists for Abba Moses in this corpus (no comparable

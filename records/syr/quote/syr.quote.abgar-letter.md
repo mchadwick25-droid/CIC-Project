@@ -22,6 +22,13 @@ text: I have heard of Thee and of Thy healing, that it is not by medicines and r
 speaker_or_author: "King Abgar, in the Doctrine of Addai's own text of his letter"
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how the gospel first reached this region and who brought it"
+  - "participant asks whether their king was a Christian, and how early"
+  - "participant asks whether the founding stories can be believed"
+  do_not_retrieve_when: []
 ---
 Verified verbatim (Phillips's translation of the Doctrina Addai).
 LEGEND LICENSE: quotable only inside the told-as-legend frame

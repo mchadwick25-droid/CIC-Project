@@ -28,6 +28,7 @@ relations:
   target: alx.force.post-nicene-authority-shift
 - type: tension-with
   target: alx.gravity.learning-formation
+- {type: illustrated-by, target: alx.quote.timothy-ordinary-questions}
 name: Learning-Community (School-Breadth) Tension [TENSIONAL]
 description: 'The depth-formation the school could give the few, against the breadth-formation owed to
   the whole worshipping community - population-separated poles, both real, neither surrendered. This is

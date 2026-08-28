@@ -38,6 +38,10 @@ relations:
   target: desert.force.authority-tension-vulnerability
 - type: associated-with
   target: desert.story.pachomius-founding
+- type: illustrated-by
+  target: desert.quote.rule-for-the-weak
+- type: illustrated-by
+  target: desert.quote.monks-like-hyenas
 name: "Person-based (elder) vs. office-based (Rule) authority [TENSIONAL]"
 description: "Two different, coexisting operative models of how legitimate spiritual authority is constituted and transmitted in the same world in the same decades: authority earned through recognized discernment and personal relationship (gravity 3), against authority conferred by a written Rule and appointed office (gravity 6). Not a separately generated force but the named friction between those two - by construction, its Interaction is with those two gravities specifically. Recurs at the Strand A/C-B boundary; governs succession, discipline, and community stability differently depending which model locally prevails; shapes markedly different participant experience (personal apprenticeship vs. regulated communal life); explains why Strand B required a written Rule at all, given the elder-model Strand A/C already had; and persists, unresolved, across this world's whole c. 320s-c. 430 span. Emerges, alongside gravity 6, from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names."
 classification: tensional

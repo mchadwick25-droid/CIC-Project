@@ -27,7 +27,14 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks who appointed or ordained the bishops and the catholicos"
+  do_not_retrieve_when: []
 relations:
+- type: associated-with
+  target: syr.quote.permitted-to-erect-churches
 - type: associated-with
   target: syr.gravity.authority-ambiguity
 text: 'Who had the right to decide, when belief was disputed? This world''s honest answer is: it was still

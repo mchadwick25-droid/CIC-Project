@@ -33,6 +33,8 @@ retrieval:
   - asking primarily about the teacher's formation function (retrieve alx.term.didaskalos)
   - asking about the Eucharist's own formation function rather than who presides at it
 relations:
+- type: associated-with
+  target: alx.quote.the-grades-here-in-the-church
 - type: tension-with
   target: alx.term.didaskalos
 - type: associated-with

@@ -23,6 +23,12 @@ text: 'Thou liest, thou art a follower of Cicero and not of Christ. For ''where 
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Where thy treasure is, there will thy heart be also" is a direct scriptural citation (Matt. 6:21) placed in the Judge''s mouth, not the dream-vision''s own coinage - a modern reader unfamiliar with the verse may hear it as invented rhetoric.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they made of pagan books and classical learning"
+  - "participant asks whether reading the wrong things troubled their conscience"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 22 sec. 30,
 div v.XXII). ATTRIBUTION SHAPE: these are the words of the Judge in

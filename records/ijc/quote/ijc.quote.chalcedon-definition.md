@@ -29,6 +29,12 @@ modern_lens_note: >-
   'Natures' and 'Person'/'subsistence' are technical patristic ontological categories, not the
   modern psychological sense of 'personality' or a loose sense of 'nature' as temperament - precise,
   load-bearing philosophical vocabulary, not casual description.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what the councils actually decided about Jesus"
+  - "participant asks how they put together his being God and being human"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---

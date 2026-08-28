@@ -47,6 +47,16 @@ relations:
   target: syr.force.transmission-ongoing
 - type: associated-with
   target: syr.story.basil-legend
+- type: associated-with
+  target: syr.source.basil-hexaemeron
+- type: associated-with
+  target: syr.quote.basil-credits-a-syrian
+- type: associated-with
+  target: syr.source.palladius-paradise-syriac
+- type: associated-with
+  target: syr.quote.ephrem-keeper-of-strangers
+- type: associated-with
+  target: syr.story.ephrem-roll-and-vine
 ---
 The world's overwhelming central voice (world_core caution 9: his
 corpus is not a neutral cross-section). Narratable TRUE on a bounded

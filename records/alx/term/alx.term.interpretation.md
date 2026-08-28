@@ -30,7 +30,9 @@ retrieval:
   - asking specifically about the allegorical method (retrieve alx.term.allegoria)
   - asking about the Christological orientation of reading specifically (retrieve
     alx.term.christological-reading)
-relations: []
+relations:
+- type: associated-with
+  target: alx.quote.no-sun-no-moon-no-sky
 plain_meaning: Not analysis applied to a text, but a formation practice - meeting the Logos who speaks
   through Scripture.
 world_word: interpretation

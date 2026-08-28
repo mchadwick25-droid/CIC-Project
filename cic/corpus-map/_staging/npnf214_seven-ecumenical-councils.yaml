@@ -1,0 +1,722 @@
+# Worker: npnf210-214 group, 2026-08-26.
+# Conciliar acts are collective, anonymous, and first-class (brief §6.4).
+# npnf214 carries NO DC.Creator metadata at all - the div titles are the only
+# signal, hence the ruled work-entities below.
+#
+# Skipped as apparatus: Percival's preface, General Introduction (div1 3),
+# Bibliographical Introduction (div1 4), the note on Eastern editions (div1 5),
+# the Excursus on Roman Law (div1 6), every per-council title page, historical
+# introduction, excursus and introductory note, and the indexes (div1 18).
+# What is assigned is the councils' own documents: creeds, canons, definitions,
+# synodal and appended letters, and extracts from the acts.
+source_file: npnf214_seven-ecumenical-councils.xml
+authors_ruled:
+  council-of-nicaea-325:
+    kind: anonymous
+    evidence: 'div1 title "The First Ecumenical Council: The First Council of Nice."; npnf214
+      has no DC.Creator metadata (AUTHORS.md: none). Conciliar acts are a collective work-entity
+      per brief §6.4.
+
+      '
+  council-of-ancyra:
+    kind: anonymous
+    evidence: 'div2 title "The Council of Ancyra." under div1 8 (provincial synods received
+      by the ecumenical councils); no DC.Creator in the volume.
+
+      '
+  council-of-neocaesarea:
+    kind: anonymous
+    evidence: 'div2 title "The Council of Neocaesarea." under div1 8; no DC.Creator in the
+      volume.
+
+      '
+  council-of-gangra:
+    kind: anonymous
+    evidence: 'div2 title "The Council of Grangra." (sic) under div1 8; no DC.Creator in the
+      volume.
+
+      '
+  synod-of-antioch-in-encaeniis:
+    kind: anonymous
+    evidence: 'div2 title "The Synod of Antioch in Encaeniis." under div1 8; no DC.Creator
+      in the volume.
+
+      '
+  synod-of-laodicea:
+    kind: anonymous
+    evidence: 'div2 title "Synod of Laodicea." under div1 8; no DC.Creator in the volume.
+
+      '
+  council-of-constantinople-381:
+    kind: anonymous
+    evidence: 'div1 title "The Second Ecumenical Council: The First Council of Constantinople.";
+      no DC.Creator in the volume.
+
+      '
+  council-of-ephesus-431:
+    kind: anonymous
+    evidence: 'div1 title "The Third Ecumenical Council: The Council of Ephesus."; no DC.Creator
+      in the volume.
+
+      '
+  council-of-chalcedon-451:
+    kind: anonymous
+    evidence: 'div1 title "The Fourth Ecumenical Council. The Council of Chalcedon."; no DC.Creator
+      in the volume.
+
+      '
+  council-of-constantinople-553:
+    kind: anonymous
+    evidence: 'div1 title "The Fifth Ecumenical Council. The Second Council of Constantinople.";
+      no DC.Creator in the volume.
+
+      '
+  council-of-constantinople-680:
+    kind: anonymous
+    evidence: 'div1 title "The Sixth Ecumenical Council. The Third Council of Constantinople.";
+      no DC.Creator in the volume.
+
+      '
+  council-in-trullo-692:
+    kind: anonymous
+    evidence: 'div1 title "The Canons of the Council in Trullo; Often Called The Quinisext
+      Council."; no DC.Creator in the volume.
+
+      '
+  council-of-sardica:
+    kind: anonymous
+    evidence: 'div2 title "The Council of Sardica." under div1 15 (canons received by Trullo
+      and ratified by II Nicaea); no DC.Creator in the volume.
+
+      '
+  council-of-carthage-419:
+    kind: anonymous
+    evidence: 'div2 title "The Canons of the CCXVII Blessed Fathers who assembled at Carthage.
+      Commonly Called The Code of Canons of the African Church." under div1 15; no DC.Creator
+      in the volume.
+
+      '
+  council-of-constantinople-394:
+    kind: anonymous
+    evidence: 'div2 title "Council of Constantinople held under Nectarius." under div1 15;
+      no DC.Creator in the volume.
+
+      '
+  council-of-carthage-under-cyprian:
+    kind: anonymous
+    evidence: 'div2 title "The Council of Carthage held under Cyprian." under div1 15; no
+      DC.Creator in the volume. Cyprian presided, but the acts (the sententiae of the assembled
+      bishops) are the council''s collective work, not his treatise.
+
+      '
+  council-of-nicaea-787:
+    kind: anonymous
+    evidence: 'div1 title "The Seventh Ecumenical Council. The Second Council of Nice."; no
+      DC.Creator in the volume.
+
+      '
+  cyril_alexandria:
+    kind: metadata-omission
+    evidence: 'div2 titles "The Epistle of Cyril to Nestorius" (10.5), "The Epistle of Cyril
+      to Nestorius with the XII. Anathematisms" (10.8), "The Letter of Cyril to John of Antioch"
+      (11.5), and "The Canonical Epistle of Our Holy Father Among the Saints, Cyril, Archbishop
+      of Alexandria" (17.30) all name Cyril of Alexandria as author; the volume has no DC.Creator
+      and AUTHORS.md has no slug for him (cyril_jer is Cyril of Jerusalem, a different man).
+      Slug minted for the author the titles themselves name.
+
+      '
+  apostolic-canons:
+    kind: pseudonymous
+    evidence: 'div2 title "The Canons of the Holy and Altogether August Apostles." (17.4)
+      - canons attributed to the Apostles but of later (4th c.) origin, as the section''s
+      own introduction (17.3) discusses; no DC.Creator in the volume.
+
+      '
+  canonical-epistles-fathers:
+    kind: anonymous
+    evidence: 'div1 17 gathers, per its title, "Canons and Rulings not having Conciliar Origin
+      but Approved by Name in Canon II. of the Synod in Trullo" - a canonical collection whose
+      parts are individually attributed (Dionysius and Peter of Alexandria, Gregory Thaumaturgus,
+      Athanasius, Basil, Gregory of Nyssa, Gregory Nazianzen, Amphilochius, Timothy, Theophilus
+      and Cyril of Alexandria, Gennadius of Constantinople) but whose unity is the collection
+      itself. Ruled as a collection-entity; kind "anonymous" is the least wrong of the three
+      - see the needs-ruling flag on its assignment row.
+
+      '
+  amphilochius:
+    kind: metadata-omission
+    evidence: div2 title 'From the Iambics of St. Amphilochius the Bishop to Seleucus'; npnf214
+      carries no DC.Creator at all, so every author in it is a metadata omission.
+  timothy_alexandria:
+    kind: metadata-omission
+    evidence: div2 title 'The Canonical Answers of Timothy the Most Holy Bishop of Alexandria,
+      Who was One of the CL Fathers'; npnf214 carries no DC.Creator.
+  theophilus_alexandria:
+    kind: metadata-omission
+    evidence: div2 titles 'The Prosphonesus of Theophilus, Archbishop of Alexandria' and following.
+      DELIBERATELY NOT the existing slug `theophilus`, which is Theophilus of ANTIOCH, author
+      of Theophilus to Autolycus - a different man two centuries earlier.
+  gennadius_constantinople:
+    kind: metadata-omission
+    evidence: div2 title 'The Encyclical Letter of Gennadius, Patriarch of Constantinople'.
+      DELIBERATELY NOT the existing slug `gennadius`, which is Gennadius of MARSEILLES, who
+      continued Jerome's catalogue - a different man.
+assignments:
+- work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
+  author: council-of-nicaea-325
+  locus: div1 7 — creed 7.3, canons 7.6, synodal letter 7.9, Easter ruling 7.10 (excursuses
+    are Percival's, skipped)
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The archetypal imperial council - convened by Constantine, its creed and canons enforced
+    by imperial power. Core tradition material for the built ijc world. An alexandria-catechetical
+    claim (the dispute arose there; Alexander and Athanasius carried it) was considered and
+    left to the note rather than asserted - the acts are the empire-church''s, not Alexandria''s.
+
+    '
+- work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
+  author: council-of-nicaea-325
+  locus: div1 7
+  atlas_ids:
+  - homoian-arian-christianity
+  role: context
+  confidence: assigned
+  note: 'The council that condemned Arius - the opponents'' formal record of the Arian teaching
+    the doctrinal-floor entry names. Same work as the tradition row; role differs per target.
+
+    '
+- work: The Canons of the Council of Ancyra
+  author: council-of-ancyra
+  locus: div2 8.3 — The Council of Ancyra
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: 'c. 314: discipline for the lapsed after the Great Persecution. Provisional because
+    these provincial canons are placed in ijc as the imperial-era church-law corpus the ecumenical
+    councils received - a reviewer may prefer a finer home once one exists.
+
+    '
+- work: The Canons of the Council of Neocaesarea
+  author: council-of-neocaesarea
+  locus: div2 8.4 — The Council of Neocaesarea
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Early 4th-c disciplinary canons; same placement reasoning as Ancyra.
+
+    '
+- work: The Canons of the Council of Gangra
+  author: council-of-gangra
+  locus: div2 8.5 — The Council of Grangra (sic)
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Mid-4th-c canons against the ascetic extremism of Eustathius'' circle; same church-law
+    placement as Ancyra, plus a context row below.
+
+    '
+- work: The Canons of the Council of Gangra
+  author: council-of-gangra
+  locus: div2 8.5
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: context
+  confidence: provisional
+  note: 'The Eustathians condemned at Gangra are the radical ascetic milieu of Asia Minor
+    out of which - and against which - the Cappadocian pastoral-monastic settlement grew (Eustathius
+    of Sebaste was Basil''s early mentor). Outside testimony to that entry''s background.
+
+    '
+- work: The Canons of the Synod of Antioch in Encaeniis
+  author: synod-of-antioch-in-encaeniis
+  locus: div2 8.6 — The Synod of Antioch in Encaeniis
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: '341, the Dedication council: canons on episcopal and synodal order, received into
+    the ecumenical corpus despite the council''s ambiguous place in the Arian struggle. Same
+    church-law placement as Ancyra.
+
+    '
+- work: The Canons of the Synod of Laodicea
+  author: synod-of-laodicea
+  locus: div2 8.7 — Synod of Laodicea
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: '4th-c Phrygian canons on order, worship and (canons 59-60) the list of books to be
+    read in church. Same church-law placement as Ancyra.
+
+    '
+- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+  author: council-of-constantinople-381
+  locus: div1 9 — creed 9.3, letter to Theodosius 9.6, canons 9.8, synodical letter 9.9
+  atlas_ids:
+  - imperial-juridical-christianity
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: 'Theodosius'' council and the Nicene-Constantinopolitan creed. The cappadocian id
+    is the arguable one: Gregory Nazianzen presided for part of the council and its pneumatology
+    ratifies the Cappadocian settlement - trim it if that reads as reception rather than tradition.
+    2026-08-26: canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
+    as separate parties; each now has its own entry and this work is the record of all of
+    them.'
+- work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
+  author: council-of-constantinople-381
+  locus: div1 9
+  atlas_ids:
+  - homoian-arian-christianity
+  - anomoean-eunomian-christianity
+  - pneumatomachian-current
+  - apollinarian-christianity
+  role: context
+  confidence: assigned
+  note: 'Canon 1 anathematizes Eunomians, Arians, Semi-Arians and Macedonians by name - the
+    formal record of the parties the homoian entry names, from their condemners. 2026-08-26:
+    anomoean-eunomian-christianity added alongside, since canon 1 names Eunomians and Arians
+    as separate parties and this work is the record of both. 2026-08-26: canon 1 condemns
+    Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as separate parties;
+    each now has its own entry and this work is the record of all of them.'
+- work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
+  author: council-of-ephesus-431
+  locus: div1 10 — acts extracts, decree against Nestorius 10.11, Coelestine's letter 10.13,
+    canons 10.16 (Cyril's epistles split out below)
+  atlas_ids:
+  - imperial-juridical-christianity
+  - cyrilline-miaphysite-egyptian-tradition
+  role: tradition
+  confidence: assigned
+  note: 'Cyril''s council under Theodosius II, within ijc''s window; also the charter of the
+    later Cyrilline/miaphysite tradition, which never ceased to appeal to it. The census holds
+    a near-duplicate era-3 id (cyrilline-miaphysite-egyptian-christianity); the Step-0 on-record
+    deferred entry is used here - a single ruling on which of the two carries corpus would
+    settle this for every worker.
+
+    '
+- work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
+  author: council-of-ephesus-431
+  locus: div1 10
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  - the-church-of-the-east-under-persia
+  role: context
+  confidence: provisional
+  note: 'The condemnation of Nestorius is hostile testimony to Antiochene Christology, and
+    this is the council the Church of the East never received - the record of its defining
+    dispute, from the other side. Provisional: the Antiochene entry is Chrysostom-centered
+    and the Persian entry''s own voice is elsewhere.
+
+    '
+- work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
+    Anathematisms, and the Letter to John of Antioch)
+  author: cyril_alexandria
+  locus: div2 10.5, 10.8-10.9, 11.5 — split out of the Ephesus and Chalcedon acts as the works
+    a reader would name; text overlaps the council rows deliberately
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The doctrinal core of Ephesus and of the whole Cyrilline tradition: the Second Letter
+    (received at Ephesus), the Third with the XII Anathematisms, and the 433 Formula of Reunion
+    letter (Laetentur Caeli), later canonized at Chalcedon. Author slug ruled above from the
+    div2 titles.
+
+    '
+- work: The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII
+    Anathematisms, and the Letter to John of Antioch)
+  author: cyril_alexandria
+  locus: div2 10.5, 10.8-10.9, 11.5
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: context
+  confidence: provisional
+  note: 'The Anathematisms are the sharpest surviving polemical description of Antiochene
+    two-nature language from its opponent; the Letter to John of Antioch records the settlement
+    between the schools.
+
+    '
+- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+  author: council-of-chalcedon-451
+  locus: div1 11 — acts extracts, Definition 11.13, canons 11.18 (the Tome split out below)
+  atlas_ids:
+  - imperial-juridical-christianity
+  - byzantine-imperial-church-justinianic
+  - chalcedonian-monasticism-judean-desert-and-gaza
+  role: tradition
+  confidence: assigned
+  note: 'The council that closes ijc''s era and opens the Byzantine imperial church''s; canon
+    28 on Constantinople''s rank is church-and-empire material of the first order. The third
+    id is the arguable one: the Definition is the charter the Judean-desert and Gaza monks
+    spent the next 160 years defending - trim if that reads as reception.
+
+    '
+- work: 'The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons'
+  author: council-of-chalcedon-451
+  locus: div1 11
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: context
+  confidence: assigned
+  note: 'The council the miaphysite tradition rejects, and the record of the deposition of
+    Dioscorus - its defining dispute, told by the winners.
+
+    '
+- work: The Tome of St. Leo (Letter XXVIII)
+  author: leo
+  locus: div2 11.7 — The Tome of St. Leo
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'Split out of the Chalcedon acts as the work a reader would name; the same text is
+    also carried inside npnf212''s Letters of Leo (Letter XXVIII) - two vendored carriers,
+    one work. Its rejection by the miaphysite tradition is covered by the Chalcedon context
+    row above.
+
+    '
+- work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
+    Anathemas Against Origen'
+  author: council-of-constantinople-553
+  locus: div1 12 — sentence 12.6, capitula 12.7, anathemas 12.9-12.10, Vigilius' decretal
+    12.12
+  atlas_ids:
+  - byzantine-imperial-church-justinianic
+  role: tradition
+  confidence: assigned
+  note: 'Justinian''s council, squarely inside the Justinianic Byzantine entry''s span (451-622);
+    the Vigilius correspondence is church-and-empire material of that world.
+
+    '
+- work: 'The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula,
+    Anathemas Against Origen'
+  author: council-of-constantinople-553
+  locus: div1 12
+  atlas_ids:
+  - the-church-of-the-east-under-persia
+  - antiochene-exegetical-christianity-chrysostom-ce
+  - alexandria-catechetical
+  role: context
+  confidence: provisional
+  note: 'The Three Chapters condemn Theodore of Mopsuestia - the Church of the East''s "Interpreter"
+    - with Theodoret and Ibas: hostile record of the Antiochene school and of the tradition
+    the Persian church canonized. The appended anathemas against Origen are the imperial condemnation
+    of the Alexandrian master - material about the Origenist strand of the built Alexandria
+    world. All three are description from outside, hence context; provisional on how much
+    a 553 council should carry for earlier entries.
+
+    '
+- work: 'The Third Council of Constantinople (680-681): Extracts from the Acts, Letters of
+    Agatho, Definition of Faith'
+  author: council-of-constantinople-680
+  locus: div1 13 — Agatho's letters 13.5-13.6, sentence 13.8, definition 13.10, prosphoneticus
+    13.11, imperial edict 13.14
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: tradition
+  confidence: assigned
+  note: 'The condemnation of Monothelitism, inside the Heraclian-era Byzantine entry''s span
+    (622-843); includes the condemnation of Pope Honorius. The traditional Maronite association
+    with Monothelitism is later polemic and is not asserted as an assignment. No Latin entry
+    exists for era 4 before the Carolingian one, so Agatho''s letters travel with the council
+    rather than to a Roman bucket.
+
+    '
+- work: The Canons of the Council in Trullo (Quinisext, 692)
+  author: council-in-trullo-692
+  locus: div2 14.3 — The Canons of the Council in Trullo
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: tradition
+  confidence: assigned
+  note: 'The 102 canons that became the backbone of Eastern canon law, completing the fifth
+    and sixth councils; Rome''s rejection of parts of it is discussed only in Percival''s
+    apparatus, which is skipped.
+
+    '
+- work: The Canons of the Council of Sardica
+  author: council-of-sardica
+  locus: div2 15.3 — The Council of Sardica
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: '343/344: the appellate canons giving deposed bishops recourse to Rome, enacted amid
+    the East-West rupture over Athanasius - juridical church-and-empire material at ijc''s
+    center. Its Arian-struggle setting is noted; a homoian context row was considered and
+    judged too thin, since the canons themselves are procedural.
+
+    '
+- work: The Code of Canons of the African Church (Council of Carthage, 419)
+  author: council-of-carthage-419
+  locus: div2 15.4 — The Canons of the CCXVII Blessed Fathers who assembled at Carthage
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  role: tradition
+  confidence: assigned
+  note: 'The collected conciliar law of the African church in the age of Aurelius and Augustine
+    - the institutional skeleton of the Latin-pastoral entry''s world (Carthage/Hippo, 240s-430).
+
+    '
+- work: The Code of Canons of the African Church (Council of Carthage, 419)
+  author: council-of-carthage-419
+  locus: div2 15.4
+  atlas_ids:
+  - donatism
+  role: context
+  confidence: provisional
+  note: 'Many canons legislate the reception of Donatist clergy and congregations - the catholic
+    side''s institutional record of the schism it faced. Description from outside the Donatist
+    movement, hence context.
+
+    '
+- work: The Canons of the Council of Constantinople under Nectarius (394)
+  author: council-of-constantinople-394
+  locus: div2 15.5 — Council of Constantinople held under Nectarius
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: provisional
+  note: 'A short synodical ruling on episcopal deposition (the Bostra case); placed with the
+    imperial-era church-law corpus like the div1 8 provincial synods.
+
+    '
+- work: The Acts of the Council of Carthage under Cyprian (256, on baptism)
+  author: council-of-carthage-under-cyprian
+  locus: div2 15.6 — The Council of Carthage held under Cyprian
+  atlas_ids:
+  - latin-pastoral-congregational-christianity
+  - donatism
+  role: tradition
+  confidence: provisional
+  note: 'The sententiae of the 87 bishops on rebaptism, under Cyprian - the entry''s own Carthage
+    in its own century. Donatism is included as shared ancestry rather than heresiology: the
+    Donatists claimed this council''s baptismal doctrine as their patrimony, so it is tradition
+    claimed by both sides, not description of either. Provisional on that double placement.
+
+    '
+- work: 'The Second Council of Nicaea (787): Extracts from the Acts, Decree, Canons'
+  author: council-of-nicaea-787
+  locus: div1 16 — imperial sacra 16.3-16.4, acts extracts, iconoclast epitome 16.10, decree
+    16.12, canons 16.14, letter to the emperors 16.15 (Caroline Books and Frankfort sections
+    are Percival's excursuses, skipped)
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  - iconophile-byzantine-monasticism
+  role: tradition
+  confidence: assigned
+  note: 'The restoration of the icons, inside both the Heraclian/Iconoclast-era imperial entry
+    and the iconophile monastic entry whose cause it vindicated. Session IV-VI extracts preserve,
+    refracted through refutation, the epitome of the iconoclast council of 754 - the iconoclasts''
+    own words survive here and nowhere else in the vendored corpus; that is context material
+    for any future iconoclasm entry, of which the census currently has none.
+
+    '
+- work: The Apostolical Canons
+  author: apostolic-canons
+  locus: div2 17.3-17.4 — The Canons of the Holy and Altogether August Apostles
+  atlas_ids:
+  - imperial-juridical-christianity
+  - apocryphal-and-pseudepigraphal-literature
+  role: tradition
+  confidence: assigned
+  note: 'The 85 canons attributed to the Apostles, received in the East via Trullo canon 2.
+    Pseudonymous church-order material of the 4th century with no census entry of its own;
+    best guess is the imperial-era church-law corpus, but its sibling text (the Apostolic
+    Constitutions, of which these canons form the close) is in anf07 under another worker,
+    and one ruling should place the pair together. 2026-08-26: apocryphal-and-pseudepigraphal-literature
+    added alongside for the pseudo-apostolic character. ijc is kept - these functioned as
+    church law in the imperial-era East, which is what this entry is.'
+- work: The Canonical Epistles of the Fathers received by Trullo Canon II
+  author: canonical-epistles-fathers
+  locus: div2 17.5-17.32 — Dionysius of Alexandria, Peter of Alexandria, Gregory Thaumaturgus,
+    Athanasius, Basil (the canonical epistles to Amphilochius), Gregory of Nyssa, Gregory
+    Nazianzen, Amphilochius, Timothy, Theophilus and Cyril of Alexandria, Gennadius of Constantinople
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: tradition
+  confidence: assigned
+  note: 'A canon-law collection whose parts are individually attributed - most to authors
+    with existing slugs (basil, athanasius, gregory_thau, dionysius_gr, peter_alexandria,
+    gregory_naz). Held as one collection-entity pending a ruling on granularity: a per-father
+    split would send Basil, Nyssa and Nazianzen to the cappadocian entry, the Alexandrian
+    canonists toward alexandria-catechetical and the Cyrilline entry, and so on - but it would
+    also mint ~10 more rows for 17k words of canons whose functional home is the received
+    Eastern canon-law corpus. Best guess pending that ruling: ijc, as for the other received
+    canons. NB the volume''s theophilus and gennadius are of Alexandria and Constantinople
+    - NOT the AUTHORS.md slugs theophilus (Antioch) and gennadius (Marseilles); a per-father
+    split must not reuse those slugs. Split 2026-08-26 on Mark''s ruling, derived from the
+    volume''s own div2 sections rather than from the list in Trullo canon 2. The collection
+    is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons, already a separate
+    work, so this split covers 17.5-17.32. THE RECEPTION STAYS ONE ROW. The worker''s objection
+    to a per-father split was that it mints ten rows for seventeen thousand words, and it
+    was right about the cost. So the split does not duplicate the reception fact: this row
+    stays as the received Eastern canon-law corpus on imperial-juridical-christianity, and
+    the per-father rows carry only their authors'' home entries. One row for what the East
+    received, twelve for who wrote it.'
+- work: The canonical letter of Dionysius of Alexandria to Basilides
+  author: dionysius_gr
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.5 (~490 words)
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
+- work: The canons of Peter of Alexandria, from his Sermon on Penitence
+  author: peter_alexandria
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.6 (~551 words)
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
+    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
+    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
+    17.5-17.32. This row is one father''s share of it. NOTE A DUPLICATE, as with Gregory Thaumaturgus:
+    anf06 div2 9.4 carries ''The Canonical Epistle of Peter of Alexandria'' with Balsamon''s
+    commentaries, already assigned to this entry. Two vendored witnesses to one text.'
+- work: The Canonical Epistle of Gregory Thaumaturgus, on those who ate with the barbarians
+  author: gregory_thau
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.7 (~495 words)
+  atlas_ids:
+  - anatolian-church-third-century
+  role: tradition
+  confidence: assigned
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
+    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
+    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
+    17.5-17.32. This row is one father''s share of it. NOTE A DUPLICATE: anf06 carries the
+    same work, already assigned to this entry. Two vendored witnesses to one text, which is
+    worth knowing before anyone counts words.'
+- work: The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to
+    Ruffinian)
+  author: athanasius
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.8-17.10 (3 pieces, ~903 words)
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
+- work: The canonical epistles of Basil to Amphilochius and others
+  author: basil
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.11-17.20 (10 pieces, ~4,604 words)
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
+    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
+    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
+    17.5-17.32. This row is one father''s share of it. The largest part of the collection
+    by a wide margin, and the reason the split is worth making: Basil''s canonical letters
+    are a quarter of these canons and belong with Basil.'
+- work: The Canonical Epistle of Gregory of Nyssa to Letoius of Melitene
+  author: gregory_nyssa
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.21 (~503 words)
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
+- work: From the metrical poems of Gregory Theologus, on the canon of Scripture
+  author: gregory_naz
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.22 (~196 words)
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
+- work: From the Iambics of Amphilochius to Seleucus, on the canon of Scripture
+  author: amphilochius
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.23 (~242 words)
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
+- work: The Canonical Answers of Timothy of Alexandria
+  author: timothy_alexandria
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.24 (~629 words)
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it.
+- work: The canons of Theophilus of Alexandria (Prosphonesus; Commonitory; to Agatho; to Menas;
+    on the Cathari)
+  author: theophilus_alexandria
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.25-17.29 (5 pieces, ~817 words)
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: provisional
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
+    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
+    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
+    17.5-17.32. This row is one father''s share of it. `provisional` on the date, not the
+    author: Theophilus died in 412 and alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-tradition
+    does not begin until 451. He falls in the gap between them.'
+- work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
+    and Pentapolis)
+  author: cyril_alexandria
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.30-17.31 (~336 words)
+  atlas_ids:
+  - cyrilline-miaphysite-egyptian-tradition
+  role: tradition
+  confidence: assigned
+  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
+    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
+    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
+    17.5-17.32. This row is one father''s share of it. Follows the placement already in the
+    map: Cyril''s Epistles and XII Anathematisms sit in the Cyrilline entry, though he died
+    in 444 and that entry opens at 451. Consistent with the precedent rather than newly stretched
+    here.'
+- work: The Encyclical Letter of Gennadius of Constantinople and his synod
+  author: gennadius_constantinople
+  source_file: npnf214_seven-ecumenical-councils.xml
+  locus: div2 17.32 (~179 words)
+  atlas_ids:
+  - byzantine-imperial-church-justinianic
+  role: tradition
+  confidence: assigned
+  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
+    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
+    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
+    This row is one father's share of it. Patriarch 458-471, inside that entry's 451-622 window.

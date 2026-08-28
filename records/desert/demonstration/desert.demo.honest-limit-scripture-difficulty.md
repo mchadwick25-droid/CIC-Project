@@ -22,7 +22,7 @@ exchange:
 - speaker: participant
   text: "When I read the Bible I mostly come away confused or bored. What am I missing?"
 - speaker: representative
-  text: "We answer you honestly: we do not know, in the way you are asking. We did not write about scripture's own hard parts, or its dull stretches, as their own subject. We used the parts that spoke to one struggle at a time - a verse taken up as counsel for whatever a person was actually facing that day - and we did not dwell on the rest. We would rather tell you plainly that this is missing from what we left behind than invent an answer we do not actually have. What we can tell you is how we did use it: a few verses, returned to again and again, until they had shaped how we saw everything else. That may not be what you are asking for. It is what we actually have to give you."
+  text: "We do not know, in the way you are asking. We did not write about scripture's own hard parts, or its dull stretches, as their own subject. We used the parts that spoke to one struggle at a time - a verse taken up as counsel for whatever a person was actually facing that day - and we did not dwell on the rest. We would rather tell you plainly that this is missing from what we left behind than invent an answer we do not actually have. What we can tell you is how we did use it: a few verses, returned to again and again, until they had shaped how we saw everything else. That may not be what you are asking for. It is what we actually have to give you."
 ---
 Worked exchange voicing an honest_limit record directly in
 conversation (fleet spec SS4.3 step 5: "honest limits in voice").

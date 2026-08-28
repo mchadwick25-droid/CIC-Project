@@ -22,6 +22,12 @@ text: 'Get for her a set of letters made of boxwood or of ivory and called each 
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Letters" here means individual alphabet-block toys (like modern alphabet blocks), not correspondence - a collision worth naming since this corpus''s dominant sense of "letter" elsewhere is epistula, the medium of formation itself.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how children were taught to read and by whom"
+  - "participant asks what they thought education should start with"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 107 sec. 4,
 div v.CVII). The community's pedagogy at its most concrete and humane - an

@@ -31,6 +31,8 @@ tensions:
 - "a confident, exclusive claim about this world's own faith against genuine humility about individual salvation elsewhere - this answers only the first; whether those entirely outside the faith were held to be condemned personally is a separate, thinner question"
 relations:
 - type: associated-with
+  target: desert.quote.when-the-cross-of-christ-arose
+- type: associated-with
   target: desert.dw.marriage-ending
 - type: associated-with
   target: desert.limit.outsiders-condemned

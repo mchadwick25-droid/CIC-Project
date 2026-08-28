@@ -38,6 +38,8 @@ relations:
   target: desert.gravity.elder-authority
 - type: associated-with
   target: desert.figure.sarah
+- type: associated-with
+  target: desert.quote.talida-key-never-taken
 plain_meaning: "Elder, father, mother. The honored address for a proven elder: abba for a man, amma for a woman. Their word carried teaching weight, though they held no office."
 world_word: geron / abba / amma
 false_friend:

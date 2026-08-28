@@ -1,0 +1,118 @@
+"""Tests for the corpus map. Run: python cic/engine/tests_corpus_map.py"""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import corpus_map
+
+
+def check(label, ok):
+    print(f"  {'OK ' if ok else '***'} {label}")
+    return ok
+
+
+results = []
+results.append(check("the seeded map validates clean", corpus_map.validate() == []))
+
+ids = corpus_map.census_ids()
+results.append(check("every map filename is a census movement id",
+                     all(a in ids for a in corpus_map.load())))
+
+# Non-exclusivity is the load-bearing property: the same work in several Atlas
+# entries must NOT be a finding. An exclusive partition would strip desert of
+# the Vita Antonii, whose author belongs to Alexandria.
+docs = corpus_map.load()
+vita = [w for d in docs.values() for w in (d.get("works") or []) if "Vita Antonii" in str(w.get("work"))]
+results.append(check("a work may be assigned to several entries (checked by design, not by count)",
+                     len(vita) >= 1))
+
+# Pre-Survey Candidate entries are valid targets - Mark, 2026-08-26.
+results.append(check("pre-survey entries are assignable",
+                     any(s == "Pre-Survey Candidate" for s in ids.values()) and corpus_map._ANY_STATUS))
+
+
+
+# --- the staging -> bucket merge (added with the Fable handoff, 2026-08-26) ---
+import corpus_map_merge  # noqa: E402
+
+rows, rulings, merge_findings = corpus_map_merge.load_staging()
+results.append(check("staging loads with no findings", merge_findings == []))
+
+# The merge is the only writer, so every bucket must be reproducible from
+# staging. If a bucket exists that a --check merge does not produce, someone
+# hand-edited a generated file and the next merge would silently discard it.
+buckets, _ = corpus_map_merge.merge(write=False)
+results.append(check("every bucket on disk is reproducible from staging",
+                     set(corpus_map.load()) == set(buckets)))
+
+# Non-exclusivity again, this time through the merge: every atlas_id a row
+# names must actually receive that row.
+#
+# The obvious form of this test - count the buckets a work landed in and
+# compare to one row's id count - was WRONG, and the 2026-08-26 assignment run
+# exposed it. The workers converged on modelling `role` as a property of the
+# (work, entry) pair, so one work is written as SEVERAL rows: Against Heresies
+# has a `tradition` row for Irenaeus' own entry and a `context` row for the
+# entries it describes. It lands in four buckets while no single row names more
+# than two, and that is correct. Test the invariant that actually holds.
+multi = [r for r in rows if len(r["_atlas_ids"]) > 1]
+missed = [(r["work"], a) for r in multi for a in r["_atlas_ids"]
+          if not any(w.get("work") == r["work"] and w.get("source_file") == r["source_file"]
+                     for w in buckets.get(a, []))]
+results.append(check(f"every atlas_id named by a multi-entry row receives it "
+                     f"({len(multi)} such row(s))", not missed))
+
+# Every ruled author must actually be used, or the ruling is dead weight.
+used = {w.get("author") for ws in buckets.values() for w in ws}
+results.append(check("every author ruling is used by some assignment",
+                     all(slug in used for slug in rulings)))
+
+
+
+# --- the `antecedent` role (added with the Cyprian ruling, 2026-08-26) ---
+buckets2, _ = corpus_map_merge.merge(write=False)
+ante = [(a, w) for a, ws in buckets2.items() for w in ws if w.get("role") == "antecedent"]
+results.append(check(f"the antecedent role is in use ({len(ante)} row(s))", bool(ante)))
+
+# An antecedent assignment must NEVER be the author's own home. Cyprian is
+# antecedent to `donatism` and tradition in `latin-pastoral...`; if the same
+# work were antecedent where it is also tradition, the role would be
+# meaningless and someone has used it as a softer `tradition`.
+home = {(w.get("work"), a) for a, ws in buckets2.items() for w in ws if w.get("role") == "tradition"}
+overlap = [(w.get("work"), a) for a, w in ante if (w.get("work"), a) in home]
+results.append(check("no work is both antecedent and tradition in the same entry", not overlap))
+
+# And the rule that stops it exploding is only meaningful if the relation stays
+# rare: it requires the entry's own vendored sources to argue from the text.
+total_rows = sum(len(v) for v in buckets2.values())
+results.append(check(f"antecedent stays a narrow relation ({len(ante)}/{total_rows} rows)",
+                     len(ante) <= total_rows * 0.05))
+
+
+
+# --- the `transmission` role (Mark's ruling, 2026-08-26) ---
+buckets3, _ = corpus_map_merge.merge(write=False)
+trans = [(a, w) for a, ws in buckets3.items() for w in ws if w.get("role") == "transmission"]
+results.append(check(f"the transmission role is in use ({len(trans)} row(s))", bool(trans)))
+
+# Custody and voice cannot be the same claim about the same entry.
+same = [(w.get("work"), a) for a, w in trans
+        if any(x.get("work") == w.get("work") and x.get("role") == "tradition"
+               for x in buckets3.get(a, []))]
+results.append(check("no work is both transmission and tradition in the same entry", not same))
+
+# THE INVARIANT THAT MAKES THE ROLE MEAN SOMETHING. `transmission` says a
+# tradition preserved a work that is not its own voice - so that voice has to
+# be somewhere. A transmission row whose work has no `tradition` or `context`
+# home anywhere is custody of nothing, and almost certainly a mis-used
+# `tradition`.
+homed = {x.get("work") for ws in buckets3.values() for x in ws
+         if x.get("role") in ("tradition", "context")}
+orphan = sorted({w.get("work") for _, w in trans if w.get("work") not in homed})
+results.append(check("every transmitted work has its voice assigned somewhere else", not orphan))
+if orphan:
+    for o in orphan:
+        print(f"       orphan: {o}")
+
+print("\nall passed" if all(results) else "\nFAILURES")
+sys.exit(0 if all(results) else 1)

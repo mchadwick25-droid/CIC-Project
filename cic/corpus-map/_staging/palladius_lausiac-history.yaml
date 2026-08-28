@@ -1,0 +1,16 @@
+# SEEDED WORKED EXAMPLE, 2026-08-26 - see npnf204_athanasius.yaml.
+source_file: palladius_lausiac-history_clarke1918.txt
+
+assignments:
+  - work: "Lausiac History"
+    author: palladius
+    locus: "whole work (single-work volume)"
+    atlas_ids:
+      - desert-monasticism
+    role: tradition
+    confidence: assigned
+    note: >
+      Retrospective monastic biography, c. 419-420. Also the only vendored
+      route desert currently has to Evagrius, whose own works have no
+      public-domain English - see WANTS-REGISTER.md, where Evagrius sits at
+      value 14 under "no edition exists".

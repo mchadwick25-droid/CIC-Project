@@ -24,16 +24,22 @@ sources:
   locus: IX.7 (independent corroboration of the 386 standoff)
   license: public-domain
 relations:
+- type: tension-with
+  target: ijc.quote.no-power-but-of-god
 - {type: illustrated-by, target: ijc.story.vigil-in-basilica}
 - {type: illustrated-by, target: ijc.story.emperor-penance}
 - {type: illustrated-by, target: ijc.story.callinicum-synagogue}
 - {type: illustrated-by, target: ijc.quote.ambrose-emperor-in-church}
+- {type: illustrated-by, target: ijc.story.eutropius-at-the-altar}
+- {type: illustrated-by, target: ijc.quote.eutropius-right-of-refuge}
+- {type: illustrated-by, target: ijc.quote.happy-christian-emperors}
 - {type: tension-with, target: ijc.gravity.church-state-alliance}
 - {type: associated-with, target: ijc.gravity.primacy-claiming}
 - {type: tension-with, target: ijc.gravity.orthodoxy-enforcement}
 - {type: associated-with, target: ijc.gravity.sacramental-institutional-tension}
 - {type: associated-with, target: ijc.force.imperial-policy-oscillation}
 - {type: associated-with, target: ijc.force.inherited-episcopal-church}
+- {type: illustrated-by, target: ijc.quote.secular-ruler-ecclesiastical-cause}
 name: Episcopal Independence from Imperial Command [SUPPORTING - strand-bound]
 classification: supporting
 description: 'A bishop''s authority to refuse an emperor, grounded not in his see''s rank or pedigree but

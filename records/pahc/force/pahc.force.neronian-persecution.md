@@ -26,6 +26,8 @@ relations:
   target: pahc.gravity.authority-consolidation
 - type: associated-with
   target: pahc.story.nero-scapegoating
+- type: associated-with
+  target: pahc.quote.tacitus-hatred-against-mankind
 name: "The Neronian Persecution and the Deaths of Peter and Paul, c. 64-68 CE [1A - initiating/external]"
 matrix_cell: 1A
 kind: initiating

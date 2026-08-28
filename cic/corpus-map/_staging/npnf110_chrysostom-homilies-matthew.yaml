@@ -1,0 +1,19 @@
+# Worker file: npnf110 (Chrysostom - Homilies on Matthew)
+# One homily series, one work. Ninety homilies (div2 3.4-3.89) are NOT ninety
+# assignments. Skipped as apparatus: title pages, American and Oxford prefaces,
+# the Introductory Essay (3.3, editorial), and the indexes (4, 5).
+source_file: npnf110_chrysostom-homilies-matthew.xml
+
+assignments:
+  - work: "Homilies on the Gospel of St. Matthew"
+    author: chrysostom
+    locus: "div1 3 — the full series of ninety homilies (div2 3.4-3.89), assigned as one work"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+    note: >
+      The complete Matthew series, the largest single monument of Antiochene
+      exegesis in the corpus (~466k words). Per brief 6.5 the exegesis is
+      Chrysostom's work and in scope; the biblical text he expounds is not
+      itself being assigned.

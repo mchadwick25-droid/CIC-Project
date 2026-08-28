@@ -24,6 +24,12 @@ text: And what shall we say of the new race of us Christians, whom Christ at His
 speaker_or_author: syr.figure.bardaisan
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how Christians in different countries related to one another"
+  - "participant asks what held people together across such distances and customs"
+  do_not_retrieve_when: []
 ---
 Verified verbatim (Book of the Laws of Divers Countries, ANF 8).
 COMPARANDUM DISCIPLINE: the words stand in the dialogue Philip

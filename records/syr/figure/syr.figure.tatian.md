@@ -19,6 +19,9 @@ sources:
 - source_id: syr.source.eusebius-historia-ecclesiastica
   locus: IV.29
   license: public-domain
+- source_id: syr.source.tatian-address-to-greeks
+  locus: ch. XLII (the Assyrian birth, in his own words); ch. XXIX (the conversion)
+  license: public-domain
 names:
 - name: Tatian
   tag: in-world

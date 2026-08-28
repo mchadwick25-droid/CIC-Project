@@ -33,6 +33,8 @@ retrieval:
   - modern eucharistic theology debates with no connection to this period
 relations:
 - type: associated-with
+  target: pahc.quote.first-concerning-the-cup
+- type: associated-with
   target: pahc.term.ekklesia
 - type: associated-with
   target: pahc.term.episkopos

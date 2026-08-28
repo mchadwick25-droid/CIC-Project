@@ -29,6 +29,8 @@ relations:
   target: desert.term.diakrisis
 - type: associated-with
   target: desert.quote.moses-sins-run-out
+- type: associated-with
+  target: desert.quote.origen-on-the-sinning-brother
 narrative_tier: 2
 narrative_tier_justification: "Tier 2 (Collected and Traditional Material): attributed to a named elder (Abba Moses) but transmitted through the compiled Apophthegmata tradition (5th-6th c. compilation, per desert.source.apophthegmata-patrum's own compiler screen) rather than a datable, single-authored text contemporary with the events."
 tellable_as: "a jug leaking water behind him - my own sins run out behind me and I do not see them"

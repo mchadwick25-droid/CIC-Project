@@ -30,6 +30,9 @@ positions:
 - "spiritual combat is presented, from inside, as continuous with martyrdom's own logic, not as a substitute activity invented to fill a gap"
 tensions:
 - "what looks from outside like a wish for death is held, from inside, as its opposite - a wish to give everything, which is not the same desire"
+relations:
+- type: associated-with
+  target: desert.quote.he-longed-to-suffer-martyrdom
 ---
 Drawn directly from desert.force.martyrdom-unavailable, the deliberate
 answer this world's own vocabulary gives to exactly this challenge -

@@ -26,6 +26,12 @@ modern_lens_note: >-
   'A holy nation, a chosen people, a priestly and royal state' is a direct scriptural allusion (1
   Peter 2:9) applied to Rome, not Leo's own political-nationalist coinage - a modern reader
   unfamiliar with the source text may miss that this is applied scripture, not original rhetoric.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what Rome claimed for itself and on what grounds"
+  - "participant asks why Peter and Paul mattered to that claim"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}

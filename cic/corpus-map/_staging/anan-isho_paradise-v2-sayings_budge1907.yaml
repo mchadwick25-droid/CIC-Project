@@ -1,0 +1,35 @@
+# Vendored 2026-08-27, supplied by Mark, fulfilling desert manifest request G1.
+source_file: anan-isho_paradise-v2-sayings_budge1907.txt
+assignments:
+- work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
+  author: anan-isho
+  locus: whole file; fourteen thematic chapters plus the Questions and Answers, sayings numbered
+  atlas_ids:
+  - desert-monasticism
+  role: tradition
+  confidence: assigned
+  note: 'The Apophthegmata Patrum - this world''s central teaching corpus, and the source its
+    build was structured around while having no readable edition of it. Vendored at last on
+    2026-08-27. THE RECENSION IS THE SYRIAC of ''Anan-Isho'', not the Greek alphabetical
+    collection: numbering and often wording differ, so any quote is verbatim FOR BUDGE and must
+    say so in its locus. Amma Sarah is present (six sayings, as "Mother Sarah"); Syncletica and
+    Theodora are NOT, under any spelling - the Greek collection carries them and has no
+    public-domain English (desert.search.greek-alphabetical-pd-english).
+
+    '
+- work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
+  author: anan-isho
+  locus: the recension itself, as a Syriac act of collection and preservation
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: transmission
+  confidence: assigned
+  note: 'CUSTODY, NOT VOICE, which is what this role was defined for. The sayings are Egyptian
+    and their voices belong to desert-monasticism. This corpus exists in the form the world can
+    read because a seventh-century monk of Beth ''Abhe gathered the Syriac versions into one
+    book, and because East Syriac scribes went on copying it. The work originates outside this
+    entry and this entry''s people are why we still have it - the boundary the role carries.
+    Budge translated ''Anan-Isho''s recension, so the English every later reader uses descends
+    from that Syriac act of collection rather than from the Greek tradition.
+
+    '

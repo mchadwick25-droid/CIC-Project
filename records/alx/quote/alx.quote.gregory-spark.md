@@ -18,6 +18,12 @@ sources:
 - source_id: alx.source.gregory-address-to-origen
   locus: VI (anf06 lines 3016-3022)
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what it felt like to come under a teacher's influence"
+  - "participant asks how someone was drawn in, and what the pull was"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.gregory-formation

@@ -30,6 +30,10 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.figure.ephrem
+- type: associated-with
+  target: syr.source.basil-hexaemeron
+- type: associated-with
+  target: syr.quote.basil-credits-a-syrian
 narrative_tier: 3
 narrative_tier_justification: 'Tier 3 (attributed tradition) - and, unusually, positively identified by
   modern scholarship as resting on documented mistaken identity: the ''Syrian'' Basil praises in his own

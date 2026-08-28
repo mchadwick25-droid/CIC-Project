@@ -41,6 +41,9 @@ tensions:
 - honoring the office vs telling the truth about its holders - the record does both, uncomfortably
 - the asker's wound (a church that protected harm-doers) meets a record of a church that fought about
   exactly this and did not always choose well
+relations:
+- type: associated-with
+  target: alx.quote.demetrius-accused-him-bitterly
 ---
 The church-failure cell: answered without defense-lawyering; the
 identity-collision-adjacent care lives in step-5 demonstrations.

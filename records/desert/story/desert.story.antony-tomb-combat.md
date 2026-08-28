@@ -25,6 +25,8 @@ retrieval:
   do_not_retrieve_when:
   - "participant is in acute personal crisis around self-harm, psychiatric crisis, or dissociation - this story's own violent imagery is not meant as guidance for a real mental-health emergency"
 relations:
+- type: associated-with
+  target: desert.quote.the-coming-of-christ-made-thee-weak
 - type: illustrates
   target: desert.gravity.spiritual-combat
 - type: associated-with

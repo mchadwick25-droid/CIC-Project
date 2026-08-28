@@ -27,6 +27,12 @@ modern_lens_note: >
   reading), not a literal comparison or a diminutive nickname. A modern reader
   unfamiliar with the convention may find the image merely odd rather than
   recognizing it as high praise.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how a teacher taught and what a class was like"
+  - "participant asks who someone learned from and how teaching passed on"
+  do_not_retrieve_when: []
 ---
 Clement's tribute to his final teacher. PRECISION CAUTION (from the
 figure record): Clement does not name him; the identification with

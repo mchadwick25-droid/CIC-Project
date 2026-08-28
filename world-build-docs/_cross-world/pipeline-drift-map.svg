@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Data-flow map of the CiC pipeline. A governed path runs from the world records and the registry through the m2 compiler, the compiled package, the m4 and m5 runtime and the API into the participant app. A separate ungoverned path runs from the Atlas world-census file through the public website into the same app via a deep link, never passing through the compiler. Drift enters at the records, at the census, and at the app's hand-maintained per-world tables.">
+          <rect width="1200" height="560" fill="#F1F2EE"/>
+          <defs>
+            <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#1A1D22"/>
+            </marker>
+            <marker id="ar-drift" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path fill="#A8324F" d="M 0 0 L 10 5 L 0 10 z"/>
+            </marker>
+          </defs>
+
+          <!-- ============ lane labels ============ -->
+          <text x="24" y="30" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1.6" fill="#1A1D22" opacity="0.55">GOVERNED PATH — ONE REGISTRY, ONE COMPILER, ONE RUNTIME</text>
+          <text x="24" y="418" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1.6" fill="#A8324F">UNGOVERNED PATH — A SECOND DESCRIPTION OF THE SAME SIX WORLDS</text>
+
+          <!-- ============ registry ============ -->
+          <rect x="232" y="52" width="180" height="58" rx="3" fill="none" stroke="#1A1D22" stroke-width="1.5"/>
+          <text x="322" y="76" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1A1D22">records/worlds.yaml</text>
+          <text x="322" y="94" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">the ONE world registry</text>
+
+          <!-- registry -> compiler -->
+          <line x1="322" y1="110" x2="322" y2="176" stroke="#1A1D22" stroke-width="1.4" marker-end="url(#ar)"/>
+
+          <!-- registry -> api, straight through (this is F-01's mechanism) -->
+          <path d="M 412 81 L 878 81 L 878 176" fill="none" stroke="#1A1D22" stroke-width="1.4" marker-end="url(#ar)"/>
+          <text x="645" y="72" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.72">census_id — read straight from the registry, never compiled</text>
+
+          <!-- ============ main chain ============ -->
+          <!-- 1 records -->
+          <rect x="24" y="184" width="180" height="64" rx="3" fill="none" stroke="#1A1D22" stroke-width="1.5"/>
+          <text x="114" y="208" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1A1D22">records/&lt;world&gt;/</text>
+          <text x="114" y="226" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">14 record types</text>
+          <text x="114" y="241" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">127–175 per world</text>
+
+          <line x1="204" y1="216" x2="232" y2="216" stroke="#1A1D22" stroke-width="1.4" marker-end="url(#ar)"/>
+
+          <!-- 2 compiler -->
+          <rect x="232" y="184" width="180" height="64" rx="3" fill="none" stroke="#2F6B52" stroke-width="2"/>
+          <text x="322" y="208" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1A1D22">m2 compile_world()</text>
+          <text x="322" y="228" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#2F6B52">pure function — cannot</text>
+          <text x="322" y="242" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#2F6B52">tell two worlds apart</text>
+
+          <line x1="412" y1="216" x2="440" y2="216" stroke="#1A1D22" stroke-width="1.4" marker-end="url(#ar)"/>
+          <text x="426" y="205" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="10" fill="#1A1D22" opacity="0.6">sha256</text>
+
+          <!-- 3 package -->
+          <rect x="440" y="184" width="180" height="64" rx="3" fill="none" stroke="#1A1D22" stroke-width="1.5"/>
+          <text x="530" y="208" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1A1D22">packages/&lt;world&gt;/</text>
+          <text x="530" y="226" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">frame · prompt · coverage</text>
+          <text x="530" y="241" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">identical shape, 6/6</text>
+
+          <line x1="620" y1="216" x2="648" y2="216" stroke="#1A1D22" stroke-width="1.4" marker-end="url(#ar)"/>
+
+          <!-- 4 runtime -->
+          <rect x="648" y="184" width="180" height="64" rx="3" fill="none" stroke="#1A1D22" stroke-width="1.5"/>
+          <text x="738" y="208" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1A1D22">m4 · m5 runtime</text>
+          <text x="738" y="226" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">hash-verified load,</text>
+          <text x="738" y="241" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">no per-world branch</text>
+
+          <line x1="828" y1="216" x2="856" y2="216" stroke="#1A1D22" stroke-width="1.4" marker-end="url(#ar)"/>
+
+          <!-- 5 api -->
+          <rect x="856" y="184" width="150" height="64" rx="3" fill="none" stroke="#1A1D22" stroke-width="1.5"/>
+          <text x="931" y="212" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1A1D22">engine/api</text>
+          <text x="931" y="231" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">10 fields per world</text>
+
+          <line x1="1006" y1="216" x2="1042" y2="216" stroke="#1A1D22" stroke-width="1.4" marker-end="url(#ar)"/>
+
+          <!-- ============ fleet records ============ -->
+          <rect x="24" y="290" width="180" height="52" rx="3" fill="none" stroke="#1A1D22" stroke-width="1.5"/>
+          <text x="114" y="312" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1A1D22">records/_fleet/</text>
+          <text x="114" y="329" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">28 canon cells · one voice</text>
+          <path d="M 204 316 L 218 316 L 218 232 L 232 232" fill="none" stroke="#1A1D22" stroke-width="1.4" marker-end="url(#ar)"/>
+
+          <!-- ============ boundary ============ -->
+          <line x1="24" y1="378" x2="1030" y2="378" stroke="#1A1D22" stroke-width="1" stroke-dasharray="5 5" opacity="0.35"/>
+
+          <!-- ============ census lane ============ -->
+          <rect x="232" y="440" width="200" height="64" rx="3" fill="none" stroke="#A8324F" stroke-width="1.5"/>
+          <text x="332" y="464" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#A8324F">world-census.json</text>
+          <text x="332" y="482" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#A8324F" opacity="0.85">name · title · living flag</text>
+          <text x="332" y="497" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#A8324F" opacity="0.85">window · portrait · colour</text>
+
+          <line x1="432" y1="472" x2="648" y2="472" stroke="#A8324F" stroke-width="1.4" marker-end="url(#ar-drift)"/>
+          <text x="540" y="462" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#A8324F">6 Built &amp; Live entries</text>
+
+          <rect x="648" y="440" width="180" height="64" rx="3" fill="none" stroke="#A8324F" stroke-width="1.5"/>
+          <text x="738" y="464" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#A8324F">cic-website</text>
+          <text x="738" y="482" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#A8324F" opacity="0.85">Atlas + front page —</text>
+          <text x="738" y="497" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#A8324F" opacity="0.85">what a participant reads first</text>
+
+          <path d="M 828 472 L 1042 472" fill="none" stroke="#A8324F" stroke-width="1.4" marker-end="url(#ar-drift)"/>
+          <text x="935" y="462" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#A8324F">?worlds=&lt;census_id&gt;</text>
+
+          <!-- ============ the app: where the two paths meet ============ -->
+          <rect x="1042" y="150" width="134" height="354" rx="3" fill="none" stroke="#1A1D22" stroke-width="2"/>
+          <text x="1109" y="300" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1A1D22">the app</text>
+          <text x="1109" y="320" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">world list ·</text>
+          <text x="1109" y="335" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">doorway ·</text>
+          <text x="1109" y="350" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="#1A1D22" opacity="0.62">conversation</text>
+
+          <!-- ============ drift markers ============ -->
+          <circle fill="#A8324F" cx="24" cy="184" r="13"/>
+          <text x="24" y="189" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" fill="#F1F2EE">1</text>
+
+          <circle cx="232" cy="440" r="13" fill="#A8324F"/>
+          <text x="232" y="445" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" fill="#F1F2EE">2</text>
+
+          <circle cx="1042" cy="150" r="13" fill="#A8324F"/>
+          <text x="1042" y="155" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600" fill="#F1F2EE">3</text>
+
+          <circle cx="232" cy="184" r="13" fill="#2F6B52"/>
+          <text x="232" y="190" text-anchor="middle" font-family="IBM Plex Sans, sans-serif" font-size="13" font-weight="600" fill="#F1F2EE">✓</text>
+        </svg>

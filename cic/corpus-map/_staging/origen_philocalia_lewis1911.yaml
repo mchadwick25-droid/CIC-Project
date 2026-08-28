@@ -1,0 +1,38 @@
+source_file: origen_philocalia_lewis1911.txt
+
+assignments:
+  - work: "The Philocalia of Origen"
+    author: origen
+    locus: >
+      whole work (single-work volume, ~85,172 words): 27 chapters listed in
+      the file's own table of contents, on Scripture, its inspiration and
+      interpretation, free will and providence; ch. XIII carries Origen's
+      Letter to Gregory
+    atlas_ids:
+      - alexandria-catechetical
+    role: tradition
+    confidence: assigned
+    note: >
+      Origen's own text throughout - header "Creator(s): Origen of
+      Alexandria", DC.Creator origen - much of it excerpted from De
+      Principiis, Contra Celsum and the commentaries, and partly the only
+      surviving Greek for those passages. Tradition for the world whose
+      catechetical school he led. Lewis translation, T. & T. Clark 1911.
+
+  - work: "The Philocalia of Origen"
+    author: origen
+    locus: "whole work, as above"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: tradition
+    confidence: provisional
+    note: >
+      The Philocalia is an anthology traditionally compiled by Basil and
+      Gregory Nazianzen - Origen's words, Cappadocian selection - so it is
+      also a first-rank document of the Cappadocians' reception of Origen,
+      and belongs in their (Selected - Not Yet Built) bucket as their own
+      act of transmission. Provisional per brief 6.2: the vendored file
+      itself nowhere names the compilers (grep for Basil/Nazianzen finds
+      nothing in it); the attribution rests on the standard tradition
+      (Gregory Nazianzen, Ep. 115) outside the file, so it is stated here
+      as transmission history, not derived from the markup.

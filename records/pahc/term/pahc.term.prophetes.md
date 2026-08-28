@@ -26,6 +26,8 @@ retrieval:
   do_not_retrieve_when:
   - Old Testament prophets or modern charismatic prophecy with no connection to this period
 relations:
+- type: associated-with
+  target: pahc.quote.not-every-one-that-speaketh-in-the-spirit
 - type: tension-with
   target: pahc.term.episkopos
 - type: associated-with

@@ -1,0 +1,23 @@
+# Written 2026-08-27 by the fleet unopened-volume sweep.
+source_file: npnf204_athanasius-select-works-letters.xml
+assignments:
+- work: Festal Letter XXXIX (367) - the canon list and the books appointed to be read
+  author: athanasius
+  locus: Letter XXXIX at file line 68714; the canon list at section 5, the second class of books at
+    section 7
+  atlas_ids:
+  - post-apostolic-house-church
+  role: transmission
+  confidence: assigned
+  note: 'ROLE IS `transmission` AND NOTHING ELSE. This is 367 and that Atlas entry closes at 200, so
+    the letter is not evidence about the second century in any respect. It is admitted for one
+    reason: it is the document by which two of that entry''s own books were sorted.
+
+    IT CORRECTED THE ENTRY. The world had said Athanasius EXCLUDED the Shepherd of Hermas. He does
+    not. He names a second class - "not indeed included in the Canon, but appointed by the Fathers to
+    be read by those who newly join us" - and puts the Shepherd and the Teaching of the Apostles
+    (the Didache) in it, beside Wisdom, Sirach, Esther, Judith and Tobit. Both of that world''s
+    nearly-lost texts, moved together, from the church''s reading to the catechumens''. A demotion,
+    not an expulsion, and a better account of how they thinned.
+
+    '

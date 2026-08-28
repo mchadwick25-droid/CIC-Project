@@ -29,6 +29,12 @@ license: verbatim
 modern_lens_note: >-
   'Catholic Church' here means 'universal' (katholikos), this world's own general self-designation -
   not the later, denominationally specific sense a modern reader is likely to bring to the phrase.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether belief was made compulsory by law"
+  - "participant asks what happened to people who held a different faith"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}
 ---

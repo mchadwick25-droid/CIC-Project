@@ -27,6 +27,12 @@ modern_lens_note: >-
   The described sign ('the letter [Chi], with a perpendicular line drawn through it and turned round
   thus at the top') is the Chi-Rho monogram - a modern reader unfamiliar with that symbol may not
   picture what is actually being described.
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how the emperor came to favour the Christians"
+  - "participant asks whether the conversion story can be believed"
+  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.dream-before-battle}
 ---

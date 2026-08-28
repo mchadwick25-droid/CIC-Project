@@ -48,6 +48,9 @@ tensions:
 - the record's honesty about failure is itself mostly one combative man's honesty about
   OTHER people's failures - his own are documented chiefly by his enemies, and the
   corpus keeps both
+relations:
+- type: associated-with
+  target: hal.quote.those-of-my-own-order
 ---
 F3-personal answer-ground for the church-failure and power questions. The
 protected-people-who-caused-harm modern framing has no direct ancient

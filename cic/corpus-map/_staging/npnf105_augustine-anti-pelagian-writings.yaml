@@ -1,0 +1,192 @@
+source_file: npnf105_augustine-anti-pelagian-writings.xml
+
+# CCEL DC.Creator attributes the whole volume to `augustine`; NPNF div1s are
+# works, so the single-author attribution is sound here. No authors_ruled needed.
+#
+# Volume-wide pattern (the model assignment for this group): every treatise is
+# `tradition` for Augustine's own entry, latin-pastoral-congregational-christianity,
+# AND assigned to `pelagianism`, the movement it argues against (census status
+# Possible Future World). For the pelagianism bucket this corpus is adversarial
+# witness — Pelagius, Caelestius and Julian of Eclanum speak here only through
+# Augustine's extensive quotations of them (e.g. the sixteen "Breviates" of
+# Caelestius reproduced in div1 13, the synod acts quoted through div1 14, and
+# Julian's letters answered point-by-point in div1 18). No Pelagian text is
+# vendored in its own right, so these quotations are the corpus's only access
+# to the movement's own words.
+#
+# Skipped as editorial apparatus, not works: title pages, Contents, American
+# and Edinburgh prefaces and dedications (div1 1-4, 6-9), the Introductory
+# Essay on Augustin and the Pelagian Controversy (div1 5, ~49k words — a
+# nineteenth-century editor's essay, not Augustine), and the indexes (22-23).
+
+assignments:
+  - work: "On the Merits and Forgiveness of Sins, and on the Baptism of Infants (De peccatorum meritis et remissione)"
+    author: augustine
+    locus: "div1 10 — A Treatise on the Merits and Forgiveness of Sins, and on the Baptism of Infants (3 books)"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      First of the anti-Pelagian treatises (412), against Caelestius' teaching
+      on infant baptism and sinlessness. Tradition for its author's own entry;
+      assigned to pelagianism as the movement it argues against.
+
+  - work: "On the Spirit and the Letter (De spiritu et littera)"
+    author: augustine
+    locus: "div1 11 — A Treatise on the Spirit and the Letter"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      412, to Marcellinus, continuing the argument of div1 10 on grace and law.
+      Anti-Pelagian in occasion and doctrine.
+
+  - work: "On Nature and Grace (De natura et gratia)"
+    author: augustine
+    locus: "div1 12 — A Treatise on Nature and Grace"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      415, answering Pelagius' own book De natura, which it quotes throughout —
+      a principal channel for Pelagius' actual words.
+
+  - work: "On Man's Perfection in Righteousness (De perfectione justitiae hominis)"
+    author: augustine
+    locus: "div1 13 — A Treatise Concerning Man's Perfection in Righteousness"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      c. 415/416, answering the sixteen "breviates" (definitiones) of
+      Caelestius, each of which the treatise reproduces before refuting —
+      direct quotation of the Pelagian side.
+
+  - work: "On the Proceedings of Pelagius (De gestis Pelagii)"
+    author: augustine
+    locus: "div1 14 — A Work on the Proceedings of Pelagius"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      417, Augustine's account of the Synod of Diospolis (415), quoting its
+      acts. Part narrative history of the controversy, part polemic; the
+      closest the vendored corpus comes to documentary record of the
+      Pelagian proceedings.
+
+  - work: "On the Grace of Christ, and on Original Sin (De gratia Christi et de peccato originali)"
+    author: augustine
+    locus: "div1 15 — A Treatise on the Grace of Christ, and on Original Sin (two books: On the Grace of Christ; On Original Sin)"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      418, to Albina, Pinianus and Melania. One work in two books, kept as one
+      work — unlike div1 21, where two genuinely distinct treatises share a
+      heading and are split below.
+
+  - work: "On Marriage and Concupiscence (De nuptiis et concupiscentia)"
+    author: augustine
+    locus: "div1 16 — On Marriage and Concupiscence (2 books)"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      419-421, to Count Valerius, answering Julian of Eclanum's charge that
+      the doctrine of original sin condemns marriage. Book II replies to
+      Julian's excerpted objections.
+
+  - work: "On the Soul and its Origin (De anima et ejus origine)"
+    author: augustine
+    locus: "div1 17 — A Treatise on the Soul and its Origin (4 books)"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      419/420, against Vincentius Victor on the soul's origin. Not addressed
+      to Pelagians: NPNF groups it among the anti-Pelagian writings because
+      the dispute arises out of Augustine's teaching on original sin, but
+      Victor was no Pelagian. The doubt is whether the pelagianism id should
+      stand; latin-pastoral-congregational-christianity is not in doubt.
+
+  - work: "Against Two Letters of the Pelagians (Contra duas epistulas Pelagianorum)"
+    author: augustine
+    locus: "div1 18 — A Treatise Against Two Letters of the Pelagians (4 books)"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      420/421, to Pope Boniface, answering two Pelagian circular letters
+      (Julian's among them), which it quotes at length — again the Pelagians'
+      own words surviving only inside the refutation.
+
+  - work: "On Grace and Free Will (De gratia et libero arbitrio)"
+    author: augustine
+    locus: "div1 19 — A Treatise on Grace and Free Will"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      426/427, to the monks of Hadrumetum, on reconciling grace with free
+      will against Pelagian error. The census has no separate entry for the
+      later Massilian ("semi-Pelagian") phase, so pelagianism carries the
+      whole controversy.
+
+  - work: "On Rebuke and Grace (De correptione et gratia)"
+    author: augustine
+    locus: "div1 20 — A Treatise on Rebuke and Grace"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      426/427, also to Hadrumetum, sequel to div1 19 on correction,
+      perseverance and predestination.
+
+  - work: "On the Predestination of the Saints (De praedestinatione sanctorum)"
+    author: augustine
+    locus: "div1 21, Book I (structure path 21.2) — under the volume heading 'A Treatise on the Predestination of the Saints'"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      428/429, to Prosper and Hilary against the objections of the Gallic
+      monks. NPNF prints two distinct treatises under one div1; this is the
+      first. Split per the granularity rule for headings holding several
+      distinct works.
+
+  - work: "On the Gift of Perseverance (De dono perseverantiae)"
+    author: augustine
+    locus: "div1 21, div2 type=Book 'A Treatise on the Gift of Perseverance' (structure path 21.3)"
+    atlas_ids:
+      - pelagianism
+      - latin-pastoral-congregational-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      428/429, the companion and continuation of De praedestinatione
+      sanctorum, transmitted as a separate work; the div2 is itself titled
+      'A Treatise'. Second half of the div1 21 split.

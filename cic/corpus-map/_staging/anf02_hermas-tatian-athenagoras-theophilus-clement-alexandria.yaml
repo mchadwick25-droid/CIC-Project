@@ -1,0 +1,142 @@
+
+source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
+authors_ruled:
+  hermas:
+    kind: pseudonymous
+    evidence: 'div1 2 title "THE PASTOR OF HERMAS"; anf02 DC.Creator lists athenagoras, clement_alex,
+      tatian, theophilus and no author for this section. The work presents itself as the visions
+      of Hermas of Rome; the name is the narrator''s, supplied by the text itself rather than
+      by CCEL''s metadata.
+
+      '
+assignments:
+- work: The Pastor of Hermas
+  author: hermas
+  locus: div1 2 (Visions div2 2.2, Commandments 2.3, Similitudes 2.4)
+  atlas_ids:
+  - post-apostolic-house-church
+  role: tradition
+  confidence: assigned
+  note: 'Rome, c. 90-150 - in the entry''s window and region, and already cited by pahc.source.shepherd-hermas.
+    The pseudonymity ruling above covers how it is filed, not where it belongs.
+
+    '
+- work: Address to the Greeks
+  author: tatian
+  locus: div2 3.2 under div1 'TATIAN'
+  atlas_ids:
+  - post-apostolic-house-church
+  - syriac-edessa-nisibis
+  - greek-apologists-second-century
+  role: tradition
+  confidence: assigned
+  note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
+    window and region), later returned east and claimed as a forefather by the Syriac tradition,
+    which the syr world already reaches through his Diatessaron in anf09. Provisional because
+    he was also later branded an Encratite - Mark may want a ruling on where his voice sits.
+    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
+    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
+    really are its.'
+- work: Fragments (Tatian)
+  author: tatian
+  locus: div2 3.3 under div1 'TATIAN'
+  atlas_ids:
+  - post-apostolic-house-church
+  - syriac-edessa-nisibis
+  role: tradition
+  confidence: provisional
+  note: 'Same author-placement doubt as the Address to the Greeks.
+
+    '
+- work: Theophilus to Autolycus
+  author: theophilus
+  locus: div2 4.2 under div1 'THEOPHILUS'
+  atlas_ids:
+  - post-apostolic-house-church
+  - greek-apologists-second-century
+  role: tradition
+  confidence: assigned
+  note: 'Theophilus, bishop of Antioch, c. 180 - squarely in the entry''s window and named
+    region. 2026-08-26: greek-apologists-second-century added alongside - the entry the corpus
+    assignment showed was missing, for the era''s outward-facing writing. pahc is kept: the
+    era and church-world really are its.'
+- work: A Plea for the Christians
+  author: athenagoras
+  locus: div2 5.2 under div1 'ATHENAGORAS'
+  atlas_ids:
+  - post-apostolic-house-church
+  - greek-apologists-second-century
+  role: tradition
+  confidence: assigned
+  note: 'Athenian apologist, c. 177 - in the entry''s window but not its named regions, and
+    the census has no Greek-apologist entry. Placed with the era-1 mainstream entry; flagged
+    so Mark can move him if a better home appears in a later survey. 2026-08-26: greek-apologists-second-century
+    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
+- work: The Resurrection of the Dead
+  author: athenagoras
+  locus: div2 5.3 under div1 'ATHENAGORAS'
+  atlas_ids:
+  - post-apostolic-house-church
+  - greek-apologists-second-century
+  role: tradition
+  confidence: assigned
+  note: 'Same placement doubt as the Plea. 2026-08-26: greek-apologists-second-century added
+    alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
+    writing. pahc is kept: the era and church-world really are its.'
+- work: Exhortation to the Heathen (Protrepticus)
+  author: clement_alex
+  locus: div2 6.2 under div1 'CLEMENT OF ALEXANDRIA'
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'Already cited by alx.source.clement-protrepticus.
+
+    '
+- work: The Instructor (Paedagogus)
+  author: clement_alex
+  locus: div2 6.3 under div1 'CLEMENT OF ALEXANDRIA'
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'Already cited by alx.source.clement-paidagogos.
+
+    '
+- work: The Stromata, or Miscellanies
+  author: clement_alex
+  locus: div2 6.4 under div1 'CLEMENT OF ALEXANDRIA'
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'Already cited by alx.source.clement-stromateis. Its role as a preserver of gnostic
+    teachers'' words is carried by a separate context entry below.
+
+    '
+- work: The Stromata, or Miscellanies
+  author: clement_alex
+  locus: div2 6.4 under div1 'CLEMENT OF ALEXANDRIA'
+  atlas_ids:
+  - valentinian-and-other-gnostic-christianities
+  role: context
+  confidence: provisional
+  note: 'The Stromata quotes and describes Valentinus, Basilides, Isidore and Carpocrates
+    at length (27 ''Valentin'' and 35 ''Basilides'' hits in the file) - much of what survives
+    of these teachers survives here. Context, not tradition: Clement describes them from outside.
+    Provisional because the material is dispersed through eight books; a reviewer may want
+    locus-level extracts. The file''s 30 ''Marcion'' hits could ground a marcion-marcionism
+    context assignment too - left for review.
+
+    '
+- work: Who is the Rich Man that shall be saved?
+  author: clement_alex
+  locus: div2 6.5 under div1 'CLEMENT OF ALEXANDRIA'
+  atlas_ids:
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'Already cited by alx.source.clement-quis-dives.
+
+    '

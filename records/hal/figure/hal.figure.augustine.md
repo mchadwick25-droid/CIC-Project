@@ -35,6 +35,9 @@ narratable: true
 bridge_line: the bishop across the sea who would not concede the point - this world's
   most serious outside interlocutor, whose objections to the Hebrew-first project reach
   us in his own words
+relations:
+- type: associated-with
+  target: hal.quote.no-one-preferred-to-the-seventy
 ---
 STRICTLY AN OUTSIDE VOICE: Augustine belongs to his own (not-yet-built)
 world; this record draws on him ONLY as the other side of the

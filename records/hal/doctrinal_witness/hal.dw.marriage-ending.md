@@ -43,6 +43,9 @@ positions:
 tensions:
 - the whole account is Jerome's memorial advocacy for a woman he admired - the church
   voices that had questioned her remarriage speak in his record only through his answers
+relations:
+- type: associated-with
+  target: hal.quote.she-put-on-sackcloth
 ---
 F6-translational identity-collision answer-ground (the marriage-ending
 question). The equal-law point is Ep. 77 sec. 3's own argument

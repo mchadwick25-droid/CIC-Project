@@ -41,6 +41,13 @@ tensions:
 - Origen's soul-speculations (transmission-filtered) vs the rule of faith's plain ground
 - 'the translational gap: ''original sin'' as the asker means it is Augustine''s later grammar, not this
   world''s'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks whether you baptised babies, infants or children, or only adults"
+  - "participant asks who could be baptised and at what age"
+  - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
+  do_not_retrieve_when: []
 ---
 The F1-T cell (original sin / bread-and-cup / faith-alone questions
 share the cell; eucharistia's senses carry the second, and the

@@ -23,6 +23,12 @@ text: 'Paula, on making up her mind that she too would learn it, succeeded so we
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what the women of the household actually did with their days"
+  - "participant asks whether women learned the languages too"
+  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108; the
 same passage carries the claim for Eustochium: 'The same accomplishment

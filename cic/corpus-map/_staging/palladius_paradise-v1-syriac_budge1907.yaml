@@ -1,0 +1,63 @@
+# Vendored 2026-08-27, supplied by Mark. Volume 1 of the same Budge Paradise.
+source_file: palladius_paradise-v1-syriac_budge1907.txt
+authors_ruled:
+  budge:
+    kind: metadata-omission
+    evidence: 'The file is plain text and carries no markup to hold a creator, so the extractor
+      has nothing to match. The author is not in doubt: the vendored file''s second line reads
+      "translated by Ernest Alfred Wallis Budge", the Preface is signed "E. A. WALLIS BUDGE.
+      British Museum, June 5, 1907", and Mark supplied the full bibliographic citation naming him.
+      The slug is used ONLY for the 1907 Preface and Introduction - Budge''s own editorial
+      apparatus, assigned as `context`. It is never used for the ancient texts he translated,
+      which are Palladius'' and Athanasius''.
+
+      '
+assignments:
+- work: The Paradise of Palladius, Book I (Syriac recension)
+  author: palladius
+  locus: from "The Paradise of Palladius"; sixty-six chapters, including Chapter xxxv "The Triumphant
+    Deeds and Exploits and Histories of Holy Women"
+  atlas_ids:
+  - desert-monasticism
+  role: tradition
+  confidence: assigned
+  note: 'A SECOND WITNESS, not a replacement: this world already holds Palladius in Clarke''s
+    Greek-based English (palladius_lausiac-history_clarke1918.txt). This is the Syriac recension
+    Budge copied at Mosul in 1888, and where the two differ the difference is itself evidence
+    about transmission. Its distinctive value here is Chapter xxxv onward - roughly fifteen named
+    women with their own chapters (Melania the Great and the Younger, Olympias, Talida of Antinoe,
+    Piamon, Taor, Thais, Candida, Gelasia, Juliana, Magna and others), with about ten instances of
+    reported speech. THAT IS WOMEN''S LIVES NARRATED BY A MAN, NOT AMMA SAYINGS - a different
+    evidential object from the Apophthegmata, and it does not close this world''s women''s-own-words
+    gap.
+
+    '
+- work: The Life of Saint Anthony by Athanasius (Syriac recension)
+  author: athanasius
+  locus: from "The Life of Saint Anthony, by Athanasius, Archbishop of Alexandria"; about 14,800 words
+  atlas_ids:
+  - desert-monasticism
+  - alexandria-catechetical
+  role: tradition
+  confidence: assigned
+  note: 'The Syriac Vita, ABRIDGED - about 14,800 words against roughly 32,000 in the NPNF Greek at
+    npnf204, which both these entries already hold. Carried as a second witness for comparison
+    rather than as a source to quote in preference: where the Syriac is shorter, that is a fact
+    about transmission worth being able to show, and this world''s central biography being
+    demonstrably variable between traditions is worth a participant knowing.
+
+    '
+- work: Budge's Preface and Introduction to the Paradise (1907)
+  author: budge
+  locus: the opening front matter - the Mosul manuscript's discovery and contents, and Palladius'
+    life and travels
+  atlas_ids:
+  - desert-monasticism
+  role: context
+  confidence: assigned
+  note: 'Nineteenth-century editorial apparatus, not an ancient source, and marked `context` for
+    that reason. Its use is provenance: Budge describes the manuscript he copied at Mosul in 1888
+    and lists what it contained, which is how this world can state where its own newly vendored
+    text comes from rather than asserting it.
+
+    '

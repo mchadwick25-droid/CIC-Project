@@ -1,0 +1,61 @@
+# NOTE: the filename means Demonstrations 2 AND 7, not 2 through 7. The file
+# holds exactly two works, per its own header: "Aphrahat, Demonstrations VII
+# (On Penitents) and II (On Love)". Neither is in npnf213, whose Select
+# Demonstrations (Gwynn's selection, held by another worker) are a different
+# set - which is presumably why these two were acquired separately.
+source_file: aphrahat_demonstrations-2-7_hallock1932.txt
+
+assignments:
+  - work: "Demonstration VII: On Penitents"
+    author: aphrahat
+    locus: >
+      first piece in file, heading "Aphrahat, Demonstration VII: On Penitents.
+      Journal of the Society of Oriental Research 16 (1932) pp. 43-56"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      Aphrahat is one of the built Syriac world's core voices. Dem. VII closes
+      with his address to "solitaries, sons of a covenant" - direct evidence
+      for the bnay qyama, central to that world. Hallock's translation,
+      separate from the npnf213 Demonstrations held by another worker.
+
+  - work: "Demonstration VII: On Penitents"
+    author: aphrahat
+    locus: "first piece in file (JSOR 16, 1932, pp. 43-56)"
+    atlas_ids:
+      - persian-church-of-the-east-early
+    role: tradition
+    confidence: provisional
+    note: >
+      The file's own header names the author "Aphrahat, the Persian Sage" -
+      he wrote inside Persian Mesopotamia, which is this census entry's
+      ground (Deferred by Step 0, still a valid target). Provisional because
+      the placement rests on that epithet plus date, not on anything more in
+      the file.
+
+  - work: "Demonstration II: On Love"
+    author: aphrahat
+    locus: >
+      second piece in file, heading "Aphrahat, Demonstration II: On Love.
+      Journal of the Society of Oriental Research 14 (1930) pp. 18-31"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: tradition
+    confidence: assigned
+    note: >
+      Aphrahat's exposition of the two great commandments and forgiveness.
+      Same standing as Dem. VII above: core voice of the built Syriac world,
+      in a translation npnf213 does not carry.
+
+  - work: "Demonstration II: On Love"
+    author: aphrahat
+    locus: "second piece in file (JSOR 14, 1930, pp. 18-31)"
+    atlas_ids:
+      - persian-church-of-the-east-early
+    role: tradition
+    confidence: provisional
+    note: >
+      Same reasoning as Dem. VII: "the Persian Sage" per the file's own
+      header places him also in the early Persian Church of the East entry.

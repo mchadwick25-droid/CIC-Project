@@ -32,7 +32,7 @@ relations:
   target: pahc.contested.didache-dating
 positions:
 - "This world claimed apostolic origin openly and by name - 1 Clement traces a direct chain from Christ to the apostles to their own appointed successors; the Didache carries the apostles' own name in its very title."
-- "We have to be honest about what that claim is worth on its own: it is an assertion this world made about itself, not independent proof. Modern study of these same texts finds their own dating and authorship genuinely disputed - the Didache's own title claims the apostles even though its actual composition is contested to have come decades after them."
+- "The claim is an assertion this world made about itself, not independent proof. Modern study of these same texts finds their own dating and authorship genuinely disputed - the Didache's own title claims the apostles even though its actual composition is contested to have come decades after them."
 tensions:
 - "This world cannot prove its practices trace unbroken to the apostles the way a chain of custody could - what it has is its own claim to that continuity, made confidently and repeatedly, sitting alongside real, unresolved scholarly doubt about exactly how each specific text was actually produced."
 text: >

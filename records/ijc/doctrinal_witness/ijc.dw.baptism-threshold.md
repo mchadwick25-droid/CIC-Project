@@ -46,6 +46,9 @@ tensions:
 - deferred baptism sat oddly beside infant practice growing elsewhere in the same church - the window
   shows the custom in motion, not settled
 - the record marks who crossed the threshold and when; what crossing felt like is mostly unrecorded
+relations:
+- type: associated-with
+  target: ijc.quote.he-deferred-it-in-the-hope
 ---
 F4-T's "born again" question answered through the record's three great
 documented baptisms - the world's real material for the translational

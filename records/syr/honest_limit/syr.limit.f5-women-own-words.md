@@ -20,7 +20,7 @@ sources:
 - source_id: syr.source.harvey-voiced-silence
   locus: the structural finding
   license: in-copyright-consultation
-statement: 'You ask what the women among us said of their own lives. We must be honest: the writings we
+statement: 'You ask what the women among us said of their own lives. The writings we
   have are men''s. The daughters of the covenant sang our teaching in every church - their voices carried
   our faith - yet not one line written by one of them was kept. We can tell you how men praised them.
   We cannot give you their own words.'

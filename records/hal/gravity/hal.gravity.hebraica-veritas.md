@@ -48,6 +48,8 @@ relations:
   target: hal.story.translating-a-book
 - type: illustrated-by
   target: hal.story.ciceronian-dream
+- type: tension-with
+  target: hal.quote.no-one-preferred-to-the-seventy
 name: Hebraica veritas - Hebrew-based textual authority [PRIMARY]
 description: 'The conviction that the Hebrew text of scripture carries the truth closest to its inspired
   origin, held and practiced as a formation commitment: the whole translation project, the years

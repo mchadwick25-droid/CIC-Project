@@ -18,6 +18,12 @@ sources:
 - source_id: alx.source.athanasius-de-incarnatione
   locus: 54 (npnf204 line 18744)
   license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks what they thought salvation actually was and what it did to a person"
+  - "participant asks why it mattered to them whether Jesus was God"
+  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.theosis
