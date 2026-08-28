@@ -4,8 +4,14 @@ fabrication on the fixture world") - both take ONLY a MaskedTranscript
 (masking.py), never the world_key or probe provenance.
 
 source_boundedness is mechanical and reliable: every citation on a masked
-transcript must resolve to a real source record. No model needed, and none
-would make it more correct.
+transcript must resolve to a real source record, transitively (see
+engine.m3.harness._transitive_source_ids), OR name a record in
+engine.m1.canon.voice_scaffold_types() - the fleet's second, distinct
+citation category (the voice's own sanctioned identity/craft framing,
+spec principle 14, never itself historical evidence and never expected to
+be). Both are real, non-fabricated citations; only a citation that
+resolves to neither is a finding. No model needed, and none would make it
+more correct.
 
 register is NOT mechanical in general - spec module M3 says outright that
 "Mark's reading is the instrument for register" (spec SS5, threshold
@@ -37,16 +43,29 @@ class CheckResult:
     findings: list[str] = field(default_factory=list)
 
 
-def source_boundedness_check(transcript: MaskedTranscript, known_source_ids: set[str]) -> CheckResult:
+def source_boundedness_check(
+    transcript: MaskedTranscript, known_source_ids: set[str], voice_scaffold_ids: set[str] = frozenset()
+) -> CheckResult:
     assert_blind(transcript)
-    unresolved = [c for c in transcript["citations"] if c not in known_source_ids]
+    citations = transcript["citations"]
+    unresolved = [c for c in citations if c not in known_source_ids and c not in voice_scaffold_ids]
     if unresolved:
         return CheckResult(
             check="source_boundedness",
             passed=False,
             findings=[f"probe {transcript['probe_id']}: citation(s) do not resolve to any source record: {unresolved}"],
         )
-    return CheckResult(check="source_boundedness", passed=True)
+    # Passing via the scaffold category is still worth naming, not just
+    # silently folded into the same "passed" a source-bounded citation
+    # gets - a report reader should be able to see WHICH category cleared
+    # each citation, not just that something did.
+    scaffolded = sorted(set(citations) & voice_scaffold_ids)
+    findings = (
+        [f"probe {transcript['probe_id']}: citation(s) accepted as voice-scaffold self-attribution, not source evidence: {scaffolded}"]
+        if scaffolded
+        else []
+    )
+    return CheckResult(check="source_boundedness", passed=True, findings=findings)
 
 
 def register_check(transcript: MaskedTranscript, known_quote_texts: set[str]) -> CheckResult:

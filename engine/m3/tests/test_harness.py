@@ -1,4 +1,5 @@
 from engine.m1.loader import load_world_records
+from engine.m3.generation import AnswerResult
 from engine.m3.harness import _transitive_source_ids, run_battery
 
 
@@ -97,5 +98,33 @@ def test_fixture_world_battery_still_passes_after_the_fix():
     resolves, it must never narrow it."""
     records = load_world_records("fix")
     results = run_battery("fix", records)
+    assert results
+    assert all(r.passed for r in results), [r for r in results if not r.passed]
+
+
+class _AlwaysVoiceScaffoldAnswerer:
+    """Every probe answered by citing the world's own sourceless voice_craft
+    record - the shape a real LiveModelAnswerer produces when it draws on
+    Identity/Guard/Characteristic-concerns/Flavor-notes content, per the
+    compiled prompt's own "(cite as [[id]])" instruction
+    (engine/m2/builders.py)."""
+
+    def answer(self, cell, probe_text):
+        return AnswerResult(text="A plain answer in the voice's own framing.", citations=["w.voice.craft"],
+                             source_record_id="w.voice.craft", source_record_type="voice_craft")
+
+
+def test_run_battery_wires_voice_scaffold_ids_through_end_to_end():
+    """Not just a unit-level grading.py fact - run_battery itself must
+    build voice_scaffold_ids from the records it was actually given and
+    hand it to source_boundedness_check, the same way it already does for
+    known_source_ids. A world whose ONLY citation surface is a sourceless
+    voice_craft record must clear the full battery, exactly the case a
+    live desert/alx/... run hits whenever the model answers from its own
+    identity framing rather than retrieved source-backed content."""
+    records = {
+        "w.voice.craft": {"id": "w.voice.craft", "record_type": "voice_craft", "sources": []},
+    }
+    results = run_battery("w", records, answerer=_AlwaysVoiceScaffoldAnswerer())
     assert results
     assert all(r.passed for r in results), [r for r in results if not r.passed]

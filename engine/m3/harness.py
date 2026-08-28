@@ -4,6 +4,8 @@ output ever reaches a grading check.
 """
 from dataclasses import asdict, dataclass
 
+from engine.m1 import canon
+
 from . import grading, protocol, sealed_probes
 from .generation import FixtureRecordAnswerer, NoCoverageError
 from .masking import mask_for_grading
@@ -67,6 +69,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> l
     if answerer is None:
         answerer = FixtureRecordAnswerer(records)
     known_source_ids = _transitive_source_ids(records)
+    voice_scaffold_ids = {r["id"] for r in records.values() if r.get("record_type") in canon.voice_scaffold_types()}
     known_quote_texts = {r["text"] for r in records.values() if r.get("record_type") == "quote" and r.get("text")}
 
     results = []
@@ -83,7 +86,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> l
             probe_id=probe_id, cell=cell, probe_text=probe["text"], answer_text=answer.text, citations=answer.citations
         )
         checks = [
-            grading.source_boundedness_check(transcript, known_source_ids),
+            grading.source_boundedness_check(transcript, known_source_ids, voice_scaffold_ids),
             grading.register_check(transcript, known_quote_texts),
         ]
         results.append(
