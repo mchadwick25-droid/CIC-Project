@@ -12,7 +12,11 @@ REQUIRED_KEYS: dict[str, set[str]] = {
     "participant_message": {"text", "client_msg_id"},
     "gate_decision": {"asks", "register", "out_of_scope", "modern_terms", "safety", "route", "directive", "degraded"},
     "facilitator_turn": {"kind", "text"},
-    "voice_turn": {"speaker", "text", "citations", "glosses", "figures_used", "quote_offers", "attempts_meta"},
+    # output_defects is REQUIRED, not optional, so no path can reach a
+    # participant without the finished text having been checked - the
+    # catalog is where "unskippable" is actually enforceable. Empty list
+    # is the clean case (engine.m4.output_check).
+    "voice_turn": {"speaker", "text", "citations", "glosses", "figures_used", "quote_offers", "attempts_meta", "output_defects"},
     "retrieval_surfaced": {"chunk_ids"},
     "safety_state": {"track", "level", "accumulator"},
     "turn_committed": {"turn_no"},
