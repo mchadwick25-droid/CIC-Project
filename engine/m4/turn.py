@@ -43,7 +43,7 @@ here, not a looser one: no live token-by-token SSE transport exists yet
 in this codebase (engine.m2.manifest's own compat note says so plainly -
 "no runtime exists yet"), so stream_voice_turn already returns full text
 only once the SDK call completes, never incrementally. Given that, "check
-before it reaches a participant" reduces exactly to what _apply_net does
+before it reaches a participant" reduces exactly to what apply_net does
 below: every sentence is verified before ANY of this turn's text is
 placed on TurnResult.voice_event. When a real per-token transport is
 built, sentence-gating moves into that layer; the check itself does not
@@ -297,20 +297,29 @@ def _build_turn_directive(directive: Directive | None) -> str | None:
     return "\n".join(parts)
 
 
-def _apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
-    """The deterministic net (engine.m4.grounding_net.check_turn) over one
-    turn's raw tagged output: withheld sentences never reach the returned
-    text at all (Fork 1 - see module docstring on what "sentence-gated"
-    means against this codebase's current non-streaming transport); the
-    survivors are re-joined with their tags stripped, and their own tags
-    become this turn's per-sentence citations (Artifact-5's citations
-    event, gaining per-sentence anchors instead of one turn-level list -
-    the SSE-shaped part of step 5; no separate SSE transport exists to
-    wire this into yet, so it rides on TurnResult.voice_event['citations']
-    until one does). Returns (text, citations, net_result) - net_result is
-    kept whole (not just substantive_survives) so a caller can audit every
-    sentence's own verdict, tags, and why, same as the M7 audit input the
-    design names in §6.3."""
+def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
+    """THE one owner of the voice text shape - everything a Representative
+    says, in any mode AND in admission, is shaped by this function and only
+    this function. The deterministic net (engine.m4.grounding_net.
+    check_turn) runs over one turn's raw tagged output; the text keeps
+    every sentence with the tags stripped (see the in-function comment -
+    the checks gate decoration, never the text), and only ok-verdict
+    sentences' tags become this turn's per-sentence citations (Artifact-5's
+    citations event, gaining per-sentence anchors instead of one turn-level
+    list; no separate SSE transport exists to wire this into yet, so it
+    rides on TurnResult.voice_event['citations'] until one does). Returns
+    (text, citations, net_result) - net_result is kept whole (not just
+    substantive_survives) so a caller can audit every sentence's own
+    verdict, tags, and why, same as the M7 audit input the design names in
+    §6.3.
+
+    Public on purpose (2026-08-28 foundation audit): M3's LiveModelAnswerer
+    used to re-implement this shape and drifted - it deleted withheld
+    sentences and appended a floor line, both behaviors this function's own
+    history had measured and rejected - so admission was grading a text no
+    participant would ever read. Admission now calls this function, making
+    parity structural rather than asserted. A change here changes what the
+    admission battery measures, by design: they are the same thing."""
     net_result = grounding_net.check_turn(raw_text, repository_records, thin_topics=thin_topics)
     # THE CHECKS GATE DECORATION, NEVER THE TEXT. Program-Spec M4, and
     # again in Artifact-5 SS2 ("they gate decoration, not text"), and again
@@ -396,7 +405,7 @@ def _run_ordinary_voice_turn(
     if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id, world_key=usage_world_key):
         usage_records.append(rec)
 
-    answer_text, citations, net_result = _apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
+    answer_text, citations, net_result = apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
 
     # Real, checkable source references (Mark's own correction, see
     # citation_cards' module docstring) - resolved once here and reused
@@ -607,7 +616,7 @@ def run_turn(
                 # call itself succeeded - but empty_stream is judged on
                 # stream_text, same as always).
                 repository_records = evidence.repository_records_by_id(world.repository)
-                stream_text, _citations, _net_result = _apply_net(
+                stream_text, _citations, _net_result = apply_net(
                     stream_outcome.value.text, repository_records=repository_records, thin_topics=evidence.thin_topics_for(repository_records)
                 )
                 stream_failed = False

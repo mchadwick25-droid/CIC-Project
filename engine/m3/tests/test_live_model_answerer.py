@@ -81,7 +81,14 @@ def test_answer_assembles_evidence_and_returns_grounded_citations():
     assert ASK_TEXT in messages[0]["content"]
 
 
-def test_answer_degrades_to_the_matched_cells_honest_limit_when_nothing_grounds():
+def test_an_ungrounded_answer_is_graded_as_written_no_appended_floor_line():
+    """Parity fix (2026-08-28 foundation audit): the answerer used to
+    append the Fork-2 degradation statement when nothing grounded - a
+    behavior engine.m4.turn had measured and REMOVED for real participant
+    turns ("no code-appended floor line... the honest limit is the voice's
+    own testimony, not a system apology"). Admission now grades exactly
+    what the voice wrote: an ungrounded answer stands as itself, with no
+    citations - so a weak answer is seen as weak, not papered over."""
     coverage = {"C-I": {**_EMPTY_CELL, "honest_limit": ["fix.limit.who-is-jesus"]}}
     world = _world(coverage)
     client = FakeClient(stream_chunks=["We enjoy talking about many things."])
@@ -89,7 +96,8 @@ def test_answer_degrades_to_the_matched_cells_honest_limit_when_nothing_grounds(
 
     result = answerer.answer("C-I", ASK_TEXT)
 
-    assert "We cannot say more than our own record allows." in result.text
+    assert result.text == "We enjoy talking about many things."
+    assert "We cannot say more than our own record allows." not in result.text
     assert result.citations == []
     assert result.source_record_id is None
     assert result.source_record_type is None
@@ -99,14 +107,48 @@ def test_answer_with_no_coverage_at_all_still_returns_a_result_not_an_exception(
     # Unlike FixtureRecordAnswerer.answer (which raises NoCoverageError
     # when a cell has neither a demonstration, substantive record, nor
     # honest_limit), a live answerer always gets SOME text back from the
-    # model - it degrades to the fleet floor line rather than a coverage
-    # exception, since a real generation call always produces something.
+    # model - and returns it as written (production parity), rather than
+    # raising a coverage exception or appending any floor line.
     world = _world({})
     client = FakeClient(stream_chunks=["We enjoy talking about many things."])
     answerer = LiveModelAnswerer(world=world, canon_questions=CANON_QUESTIONS, client=client, model_id="m")
 
     result = answerer.answer("C-I", ASK_TEXT)
 
-    from engine.m4.evidence import FLEET_FLOOR_LINE
+    assert result.text == "We enjoy talking about many things."
 
-    assert FLEET_FLOOR_LINE in result.text
+
+def test_admission_text_shape_is_productions_own_apply_net_verbatim():
+    """The parity guarantee itself: a raw answer carrying one grounded
+    sentence and one sentence whose tag resolves to nothing must come back
+    from the answerer EXACTLY as engine.m4.turn.apply_net shapes it - the
+    fabricating sentence retained in the text (checks gate decoration,
+    never the text) with its tag stripped, and excluded from citations.
+    This is the drift the 2026-08-28 audit found: the old answerer deleted
+    that sentence, so admission graded a text production refuses to
+    produce."""
+    from engine.m4.turn import apply_net
+
+    raw = (
+        "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. "
+        "Our founder wrote twelve books about it [[fix.invented.record]]."
+    )
+    coverage = {"C-I": {**_EMPTY_CELL, "doctrinal_witness": ["fix.witness.who-is-jesus"]}}
+    world = _world(coverage)
+    client = FakeClient(stream_chunks=[raw])
+    answerer = LiveModelAnswerer(world=world, canon_questions=CANON_QUESTIONS, client=client, model_id="m")
+
+    result = answerer.answer("C-I", ASK_TEXT)
+
+    from engine.m4 import evidence as m4_evidence
+
+    repository_records = m4_evidence.repository_records_by_id(world.repository)
+    expected_text, expected_entries, _ = apply_net(
+        raw, repository_records=repository_records, thin_topics=m4_evidence.thin_topics_for(repository_records)
+    )
+
+    assert result.text == expected_text
+    assert "twelve books" in result.text  # retained, tag stripped - never deleted
+    assert "[[" not in result.text
+    assert result.citations == sorted({rid for e in expected_entries for rid in e["record_ids"]})
+    assert "fix.invented.record" not in result.citations
