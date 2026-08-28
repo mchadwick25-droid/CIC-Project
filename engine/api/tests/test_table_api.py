@@ -148,11 +148,12 @@ def test_create_table_session_bad_shapes(store, usage_store, world_loader, regis
 def test_round_turn_at_a_time_to_selector_close(store, usage_store, world_loader, registry, alx_world, desert_world):
     alx_sentence, alx_rid = grounded_sentence(alx_world)
     desert_sentence, desert_rid = grounded_sentence(desert_world)
+    # Positions 2 and 3 are forced moves at a two-seat table (one eligible
+    # voice, floor unmet) - the selector model is consulted only at the
+    # genuine choices: the opening pick and the close decision.
     client = _table_client(
         selector_script=[
             {"next": "alx", "reason": "most directly positioned"},
-            {"next": "desert", "reason": "breadth of voice"},
-            {"next": "alx", "reason": "follows up"},
             {"next": "close", "reason": "genuinely answered"},
         ],
         stream_scripts=[[alx_sentence], [desert_sentence], [alx_sentence]],
@@ -173,11 +174,14 @@ def test_round_turn_at_a_time_to_selector_close(store, usage_store, world_loader
 
     third = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
     assert third["position"] == 3 and third["voice"]["speaker"] == "alx" and third["round_open"]
+    assert "forced move" in third["turn_selected"]["reason"]
 
     close = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
     assert not close["round_open"] and close["voice"] is None and close["turn_no"] == 1
-    # At the floor, close became a legal move.
-    assert "close" in client.messages.selector_enums_seen[3]
+    # At the floor, close became a legal move (second real consult - the
+    # forced positions never reached the model).
+    assert "close" in client.messages.selector_enums_seen[1]
+    assert len(client.messages.selector_enums_seen) == 2
 
     # The round is committed - the next participant message opens round 2.
     assert http.post(f"/api/session/{session_id}/continue", headers=auth).status_code == 409
@@ -193,9 +197,7 @@ def test_round_cap_closes_at_four(store, usage_store, world_loader, registry, al
     client = _table_client(
         selector_script=[
             {"next": "alx", "reason": "r1"},
-            {"next": "desert", "reason": "r2"},
-            {"next": "alx", "reason": "r3"},
-            {"next": "desert", "reason": "r4"},
+            {"next": "desert", "reason": "still adding"},
         ],
         stream_scripts=[[alx_sentence], [desert_sentence], [alx_sentence], [desert_sentence]],
     )
@@ -251,9 +253,9 @@ def test_governed_round_acute_crisis(store, usage_store, world_loader, registry,
 def test_selector_fallback_degrades_not_fails(store, usage_store, world_loader, registry, alx_world, desert_world):
     desert_sentence, _ = grounded_sentence(desert_world)
     alx_sentence, _ = grounded_sentence(alx_world)
-    # Round already has alx as last speaker; the scripted selector insists
-    # on alx twice (illegal self-repeat) - the fallback speaks desert with
-    # degraded=true rather than failing the request.
+    # Three seats so position 2 is a genuine choice (two eligible voices) -
+    # the scripted selector insists on alx twice (illegal self-repeat) and
+    # the fallback speaks desert with degraded=true rather than failing.
     client = _table_client(
         selector_script=[
             {"next": "alx", "reason": "r1"},
@@ -263,7 +265,7 @@ def test_selector_fallback_degrades_not_fails(store, usage_store, world_loader, 
         stream_scripts=[[alx_sentence], [desert_sentence]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
-    session_id, auth = _create_table(http)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert", "pahc"))
     http.post(f"/api/session/{session_id}/message", json={"text": "hi"}, headers=auth)
     result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
     assert result["voice"]["speaker"] == "desert"
@@ -278,8 +280,6 @@ def test_session_cap_at_table_unit(store, usage_store, world_loader, registry, m
     client = _table_client(
         selector_script=[
             {"next": "alx", "reason": "r1"},
-            {"next": "desert", "reason": "r2"},
-            {"next": "alx", "reason": "r3"},
             {"next": "close", "reason": "done"},
         ],
         stream_scripts=[[alx_sentence], [desert_sentence], [alx_sentence]],

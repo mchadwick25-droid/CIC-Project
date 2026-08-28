@@ -101,6 +101,28 @@ def test_fallback_prefers_never_spoken_then_least_recent():
     assert fallback_world(["alx", "desert"], []) == "alx"
 
 
+def test_forced_move_skips_the_model():
+    # Two seats, floor unmet, one eligible voice: there is no judgment to
+    # exercise, so no call is made (any call would pop an empty script and
+    # fail this test) and the reason is code-written - both live runs showed
+    # the model confabulating a justification when asked anyway.
+    client = FakeSelectorClient([])
+    selection, outcomes = _select(client, world_keys=("alx", "desert"), last_speaker="alx")
+    assert selection.world_key == "desert" and not selection.close and not selection.degraded
+    assert "forced move" in selection.reason
+    assert outcomes == []
+
+
+def test_single_eligible_with_close_allowed_still_consults():
+    # One eligible voice but closing is legal: speak-or-close is a genuine
+    # choice, so the model is consulted.
+    client = FakeSelectorClient([{"next": CLOSE, "reason": "answered"}])
+    selection, outcomes = _select(client, world_keys=("alx", "desert"), last_speaker="alx", close_allowed=True)
+    assert selection.close
+    assert len(outcomes) == 1
+    assert client.seen_enums == [["desert", CLOSE]]
+
+
 def test_legal_selection_passes_through():
     client = FakeSelectorClient([{"next": "desert", "reason": "asked directly"}])
     selection, outcomes = _select(client)

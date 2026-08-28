@@ -83,8 +83,6 @@ def test_every_citation_resolves_in_speakers_own_repository(store, usage_store, 
     client = _table_client(
         selector_script=[
             {"next": "alx", "reason": "r1"},
-            {"next": "desert", "reason": "r2"},
-            {"next": "alx", "reason": "r3"},
             {"next": "close", "reason": "done"},
         ],
         stream_scripts=[[alx_sentence], [desert_sentence], [alx_sentence]],
@@ -126,7 +124,7 @@ def test_voice_turn_scope_is_exactly_the_selected_world(store, usage_store, worl
 
     monkeypatch.setattr(table_wiring, "run_voice_turn_for_world", spy)
     client = _table_client(
-        selector_script=[{"next": "desert", "reason": "r1"}, {"next": "alx", "reason": "r2"}],
+        selector_script=[{"next": "desert", "reason": "r1"}],  # position 2 is a forced move
         stream_scripts=[[desert_sentence], [alx_sentence]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
@@ -159,7 +157,7 @@ def test_no_foreknowledge_instruction_reaches_every_voice(store, usage_store, wo
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
     client = _table_client(
-        selector_script=[{"next": "alx", "reason": "r1"}, {"next": "desert", "reason": "r2"}],
+        selector_script=[{"next": "alx", "reason": "r1"}],  # position 2 is a forced move
         stream_scripts=[[alx_sentence], [desert_sentence]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)

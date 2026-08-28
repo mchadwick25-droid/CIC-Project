@@ -67,7 +67,7 @@ def test_table_round_replays_underlying_subject_to_every_voice(store, usage_stor
     pahc_sentence, _ = grounded_sentence(pahc_world)
     fix_sentence, _ = grounded_sentence(fix_world)
     client = _table_client(
-        selector_script=[{"next": "pahc", "reason": "r1"}, {"next": "fix", "reason": "r2"}],
+        selector_script=[{"next": "pahc", "reason": "r1"}],  # position 2 is a forced move
         stream_scripts=[[pahc_sentence], [fix_sentence]],
     )
     http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)

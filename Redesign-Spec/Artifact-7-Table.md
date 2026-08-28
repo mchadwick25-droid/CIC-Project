@@ -186,6 +186,13 @@ tier), invoked before each voice turn:
   moves; if the selector still cannot produce a legal speaker,
   `floor_unmet_exhausted`); cap closes the round regardless of the model's
   preference; an unknown `world_key` in the output is a failed call.
+- **Forced moves make no call** (added 2026-08-28, both live runs'
+  evidence): when closing is off the table and exactly one voice is
+  eligible, there is no judgment to exercise — the code selects it and
+  writes the honest reason itself. Both live runs showed the model, asked
+  anyway, confabulating a justification in the `turn_selected` reason (an
+  M7 audit surface), even with the round facts stated in its prompt. At a
+  two-seat table this also removes two of every three selector calls.
 - **Failure fallback (deterministic)**: on a failed or exhausted-retry
   selector call, the least-recently-spoken eligible voice speaks, and the
   `turn_selected` event carries `degraded: true` with the fallback stated in

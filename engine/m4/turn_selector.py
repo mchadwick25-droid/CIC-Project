@@ -178,6 +178,21 @@ def select_speaker(
     """
     eligible = eligible_worlds(world_keys, last_speaker)
     outcomes: list[CallOutcome] = []
+    if not close_allowed and len(eligible) == 1:
+        # FORCED MOVE - no selector call (2026-08-28, second live run's
+        # finding): with closing off the table and one eligible voice,
+        # there is no judgment to exercise, and both live runs showed the
+        # model, asked anyway, confabulating a justification ("Theon has
+        # not yet spoken this round" about a voice that opened the round) -
+        # even with the round facts stated. A forced move gets a
+        # code-written reason the M7 audit can trust, and at a two-seat
+        # table this also removes two of every three selector calls.
+        return Selection(
+            world_key=eligible[0],
+            close=False,
+            reason="only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
+            degraded=False,
+        ), outcomes
     legal = eligible + [CLOSE] if close_allowed else list(eligible)
     facts = round_facts(world_keys, round_speakers or [])
 
