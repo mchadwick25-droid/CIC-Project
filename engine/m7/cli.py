@@ -13,6 +13,7 @@ import argparse
 import sys
 from pathlib import Path
 
+from engine.m1.registry import load_registry
 from engine.m4.store import Store
 from engine.m7.instruments import run_all
 from engine.m7.report import (
@@ -25,15 +26,29 @@ from engine.m7.report import (
 from engine.m7.session_reader import read_session
 
 
+def _world_names(registry: dict) -> dict[str, list[str]]:
+    """world_key -> that world's own names, for the register_frame
+    self-reference detector. Read-only over the registry, same as
+    everything else here."""
+    names: dict[str, list[str]] = {}
+    for key, entry in registry.items():
+        if not isinstance(entry, dict):
+            continue
+        rep = entry.get("representative") or {}
+        names[key] = [n for n in (rep.get("name"), entry.get("display_name"), entry.get("card_name")) if n]
+    return names
+
+
 def audit(events_db: str, out_dir: Path, since: str | None = None) -> dict:
     store = Store(events_db)
+    names = _world_names(load_registry())
     session_ids = store.list_session_ids(since=since)
     audits = []
     for sid in session_ids:
         session = read_session(store, sid)
         if session is None:
             continue
-        a = run_all(session)
+        a = run_all(session, names)
         write_session_audit(out_dir, a)
         audits.append(a)
     rollup = build_rollup(audits)
