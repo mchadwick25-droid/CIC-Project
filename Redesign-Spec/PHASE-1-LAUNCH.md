@@ -428,10 +428,18 @@ transfer is acceptable.** There is no cutover window to engineer.
 
 Only after the link moves and the new service is answering does `cic-poc`
 become deletable - 1,628 files, 18.6 MB. Keep whatever the new surface
-actually inherited from `cic-poc/frontend`. **Not done yet, deliberately**:
+actually inherited from `cic-poc/frontend`. ~~**Not done yet, deliberately**:
 `cic-poc`'s Render service is SUSPENDED (2026-08-25, Mark, dashboard), not
 deleted - suspending was the ask this gate actually needed (stop the
-Anthropic API calls), and deletion is its own later decision, still open.
+Anthropic API calls), and deletion is its own later decision, still open.~~
+**Deletion decided 2026-08-28** - Mark: "yes we can retire the old
+systems." Done in-repo the same day: `cic-poc/backend`, `docs`,
+`Dockerfile`, and the setup guides removed (`frontend/` kept - it is the
+surface cic-engine builds and serves); the cic-poc service entry removed
+from `render.yaml`. What remains is Mark's dashboard confirmation when
+Render's Blueprint sync flags the suspended service for deletion, and
+revoking the old service's `ANTHROPIC_API_KEY` in the Anthropic console.
+The old pilot's transcripts live in Supabase, untouched by any of this.
 
 > **GATE 6 - MET 2026-08-25.** churchinconversation.com's links reach
 > `cic-engine` (PR #54), and `cic-poc` is suspended in the Render dashboard
