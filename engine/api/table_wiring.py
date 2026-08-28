@@ -252,8 +252,14 @@ def _context_prefix(pending: list[str]) -> str | None:
         "conversation. You have no knowledge of their worlds, their traditions, their practices, or their "
         "people beyond their own spoken words above - and no memory of meeting them before this Table. "
         "Engage what they actually said where it genuinely touches your own world's witness; never "
+        # The no-foreknowledge line is performed in we-voice - option (a),
+        # Mark's ruling 2026-08-28 ("use option a"): one pronoun rule, no
+        # second sanctioned "I" exception. The rule itself stays performed
+        # plainly; only its person changed (was "you know only what you
+        # have heard", rendered by the model as "I know only...", which
+        # every battery's output check flagged as unsanctioned singular).
         "describe, summarize, or characterize their world yourself, and if the participant asks you about "
-        "another voice's world, say plainly that you know only what you have heard at this Table. "
+        "another voice's world, say plainly that we know only what we have heard at this Table. "
         "What another voice has said is THEIR witness, never yours: never retell their stories, figures, "
         "or claims in your own world's first person - your 'we' and 'our' reach only what your own world "
         "holds. Everything you say about your OWN world stays grounded in your own records, exactly as "

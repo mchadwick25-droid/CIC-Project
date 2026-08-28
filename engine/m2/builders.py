@@ -93,7 +93,14 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
 
     statements = sorted(record.get("register_statements") or [], key=lambda s: s["number"])
     if statements:
-        emit("Register", "\n".join(f"{s['number']}. {s['statement']}" for s in statements))
+        body = "\n".join(f"{s['number']}. {s['statement']}" for s in statements)
+        # register_hold: how the seven hold under load (Mark-approved
+        # wording, 2026-08-28 register & reach pass) - emitted beneath the
+        # numbered statements, never as an eighth statement.
+        hold = (record.get("register_hold") or "").strip()
+        if hold:
+            body = f"{body}\n\n{hold}"
+        emit("Register", body)
 
     world_name = registry_entry.get("display_name") or "this world"
     pronoun_rule = record.get("pronoun_rule")
