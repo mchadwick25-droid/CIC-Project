@@ -20,8 +20,11 @@ export function Arrival({ world }: ArrivalProps) {
         <img src={world.portraitImage} alt={world.representativeName} />
       </div>
       <div className="arrival__era sans" style={{ color: world.accentColor }}>
-        {world.displayName} · c. {world.eraStart}–{world.eraEnd}
+        {world.cardName} · c. {world.eraStart}–{world.eraEnd}
       </div>
+      {world.cardName !== world.displayName && (
+        <div className="arrival__scholarly sans">studied as {world.displayName}</div>
+      )}
       <h1 className="arrival__name">{world.representativeName}</h1>
       <p className="arrival__role">
         {world.roleLabel} · <span className="sans">{world.place}</span>

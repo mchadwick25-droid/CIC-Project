@@ -61,7 +61,7 @@ export function TableRoom({
                 <div className="arrival__seat-name">{w.representativeName}</div>
                 <div className="arrival__seat-detail sans">{w.roleLabel}</div>
                 <div className="arrival__seat-detail sans" style={{ color: w.accentColor }}>
-                  {w.displayName} · c. {w.eraStart}–{w.eraEnd}
+                  {w.cardName} · c. {w.eraStart}–{w.eraEnd}
                 </div>
               </div>
             ))}
@@ -110,7 +110,7 @@ export function TableRoom({
           return (
             <div key={i} className="turn turn--voice">
               <div className="turn__speaker sans" style={world ? { color: world.accentColor } : undefined}>
-                {world ? `${world.representativeName} · ${world.displayName}` : turn.speaker}
+                {world ? `${world.representativeName} · ${world.cardName}` : turn.speaker}
               </div>
               <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} />
             </div>

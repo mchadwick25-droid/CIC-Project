@@ -148,6 +148,9 @@ export interface WorldSummary {
   world_key: string;
   census_id: string | null;
   display_name: string | null;
+  // Friendly participant-facing name; display_name is the scholarly one
+  // (both registers, Mark's ruling 2026-08-28).
+  card_name: string | null;
   representative: { name: string; role_label: string } | null;
   time_window: { start: number; end: number } | null;
   place: string | null;

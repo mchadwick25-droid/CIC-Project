@@ -866,3 +866,52 @@ refinement is a copy/data edit, not a design reopening.
 Per-pairing battery runs (Mark's per-run spend authorization, still
 pending) before any Table faces a participant; stage-7 admission
 touchpoints unchanged.
+
+---
+
+## 2026-08-28 — Mark's identity ruling applied: the registry wins, and both
+name registers live in it
+
+**Mark's rulings, his own words:** "yes the registry wins" · "yes i like
+mar yousep, role teacher of the convenant order" · "we need friendly
+names that people can get the right picture in their mind, but also the
+scholor name to show rigor, so both."
+
+**Applied:** `records/worlds.yaml` now owns both registers — a new
+`card_name` (friendly: The House-Churches, Desert Fathers and Mothers,
+The Bethlehem Circle, Church and Empire…) beside `display_name`
+(scholarly). syr's representative took the ruled values (Mar Yausep /
+Teacher of the Covenant Order), closing the honorific-in-the-role-slot
+defect that broke the Facilitator's door sentence. The census now
+derives: three titles corrected to registry values (Household Leader,
+Abba (Elder), Deacon of the Letters — the last superseding Mark's
+2026-07-22 "Apocrisiarius —" long form by this ruling), and the five
+accepted-open identity exemptions in the cross-world checker are DELETED
+— identity drift between the Atlas and the room now fails CI, and the
+card's friendly name (the one field nothing compared) is checked too.
+
+**Containment, verified not asserted:** only syr's package recompiled,
+and the diff is exactly the ruled fields — compiled prompt byte-identical
+(the voice records already spoke as Mar Yausep; the registry was the
+outlier), changes confined to the capsule's metadata line and the
+placeholder portrait label. The voice is untouched.
+
+**Both registers now show:** app cards, tray seats, and in-room speaker
+labels wear the friendly name; the arrival block adds a quiet "studied
+as {scholarly name}" line where the two differ (new label for Mark's
+read). The interview room's speaker label also now wears the world's own
+accent color (it was painting every Representative in Alexandria's).
+Site fixes in the same pass: the homepage hero ("Come and join us at the
+Table") now lands on the app's Table field; "Launch an Interview with
+Mar Yausep" keeps his full name (the name-splitting that would have
+dropped the honorific is gone); support.html finally applies Mark's
+recorded fifth-pass cost ruling ($2→$1) with honest provenance and says
+the Table is running; tour.html's stale one-seat correction is updated;
+the Atlas count is "nearly 300."
+
+**New participant-facing prose (Mark's read):** the arrival's "studied
+as {name}" label; support.html's cost sentence ("about $1 an hour in
+computing — a round working figure we're reconciling against current
+bills…") and Table sentence ("Multi-voice Table conversations are now
+running too; a Table costs more per sitting, since each added voice
+answers in its own turn."); tour.html's update caption.

@@ -1154,3 +1154,11 @@ button {
   text-align: center;
   margin: var(--spacing-sm) 0;
 }
+
+/* Both name registers (Mark's ruling 2026-08-28): the friendly name leads;
+   the scholarly name shows the rigor, quietly, at arrival. */
+.arrival__scholarly {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}

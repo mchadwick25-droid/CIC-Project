@@ -55,11 +55,12 @@ ACCEPTED_OPEN: dict[str, str] = {
     "census-living-flag/pahc": "F-06 - as alx",
     "census-living-flag/hal": "F-06 - as alx",
     "census-living-flag/ijc": "F-06 - as alx",
-    "census-role-label/pahc": "F-07 - Atlas says 'Host of the Assembly', registry says 'Household Leader'; picking one is a participant-facing copy decision",
-    "census-role-label/syr": "F-07 - Atlas says 'Teacher of the Covenant Order', registry says 'Mar'",
-    "census-role-label/desert": "F-07 - Atlas says 'Elder of the Desert', registry says 'Abba (Elder)'",
-    "census-role-label/ijc": "F-07 - Atlas says 'Apocrisiarius - Deacon of the Letters', registry says 'Deacon of the Letters'",
-    "census-representative-name/syr": "F-08 - Atlas says 'Mar Yausep', registry says name 'Yausep' + role 'Mar'; one participant, two names across two surfaces",
+    # F-07/F-08 CLOSED 2026-08-28 by Mark's identity ruling ("the registry
+    # wins"): the census now derives its representative name/title from
+    # records/worlds.yaml (syr's registry entry took the ruled values Mar
+    # Yausep / Teacher of the Covenant Order), so these five accepted-open
+    # entries are deleted and the checks ENFORCE - identity drift between
+    # the Atlas and the room fails the run from here on.
     "census-display-name/alx": "F-09 - alx alone sets display_name to the Atlas's friendly short name; the other five carry the census's formal name",
     "id-type-token/doctrinal_witness": "F-03 - pahc uses `pahc.witness.*` where the other five use `<world>.dw.*`; renaming 17 records re-hashes the package, so it belongs to a pahc build thread",
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
@@ -378,6 +379,14 @@ def check_census_agreement(*, registry, worlds, **_) -> list[Finding]:
             findings.append(_defect("census-role-label", w, f"census representativeTitle {e['representativeTitle']!r} != registry representative.role_label {rep.get('role_label')!r}"))
         if entry.get("name") and entry["name"] != registry[w].get("display_name"):
             findings.append(_defect("census-display-name", w, f"census name {entry['name']!r} != registry display_name {registry[w].get('display_name')!r}"))
+        # The friendly card name (entry.worldName - what the homepage card
+        # and Atlas sheet actually display) was the ONE participant-facing
+        # identity field nothing compared (2026-08-28 foundation audit,
+        # F-16). Mark's same-day ruling: both name registers live in the
+        # registry - card_name friendly, display_name scholarly - and the
+        # census derives.
+        if e.get("worldName") and registry[w].get("card_name") and e["worldName"] != registry[w]["card_name"]:
+            findings.append(_defect("census-world-name", w, f"census entry.worldName {e['worldName']!r} != registry card_name {registry[w]['card_name']!r}"))
     return findings
 
 

@@ -156,6 +156,11 @@ def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitt
                 "world_key": world_key,
                 "census_id": entry.get("census_id"),
                 "display_name": frame.get("display_name"),
+                # BOTH name registers (Mark's ruling, 2026-08-28): card_name
+                # is the friendly participant-facing name ("the right
+                # picture in their mind"), display_name the scholarly one
+                # ("to show rigor"). The registry owns both.
+                "card_name": entry.get("card_name") or frame.get("display_name"),
                 "representative": frame.get("representative"),
                 "time_window": frame.get("time_window"),
                 "place": frame.get("place"),

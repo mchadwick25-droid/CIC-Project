@@ -50,7 +50,7 @@ export function Launch({
               <img className="world-card__portrait" src={world.portraitImage} alt="" />
               <div style={{ flex: 1, minWidth: 0 }}>
                 <div className="world-card__tradition sans" style={{ color: world.accentColor }}>
-                  {world.displayName}
+                  {world.cardName}
                 </div>
                 <div className="world-card__header">
                   <div className="world-card__name">

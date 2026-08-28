@@ -45,7 +45,8 @@ export interface WorldStarter {
 export interface WorldEntry {
   worldKey: string;
   censusId: string | null;
-  displayName: string;
+  displayName: string; // scholarly name ("to show rigor")
+  cardName: string; // friendly name ("the right picture in their mind")
   representativeName: string;
   roleLabel: string;
   place: string;
