@@ -853,8 +853,16 @@ claim is theirs…" — a one-word adaptation of the approved per-world
 sentence), the round-in-progress line, and the sitting-ended line. All
 inventoried here so nothing participant-facing ships unread.
 
+**Mark's go — same day:** after walking the system map (entrances first,
+the Facilitator as the gate, per-voice assembly inside the round):
+"ok it works for me. make this a go." Taken as: the launch system and its
+inventoried prose approved as presented, and the C6 launch set signed off
+as the tray's offered seatings (P1–P3 and F1 offered; P4 stays
+battery-first, unoffered). Merged to main on this go. Any later prose
+refinement is a copy/data edit, not a design reopening.
+
 ### Next action
 
-Mark: read the new prose above and the C6 pairings; then the branch can
-merge. Per-pairing battery runs (his per-run authorization) before any
-Table faces a participant.
+Per-pairing battery runs (Mark's per-run spend authorization, still
+pending) before any Table faces a participant; stage-7 admission
+touchpoints unchanged.
