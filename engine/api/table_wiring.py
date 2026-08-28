@@ -32,6 +32,8 @@ from engine.api.wiring import (
     SessionClosed,
     SessionNotFound,
     UnknownWorldError,
+    WorldNotAdmitted,
+    _check_admission,
     _load_world,
     _replay_text,
     replay_transcript,
@@ -84,11 +86,16 @@ class TableMessageResult:
     session_closed: bool = False
 
 
-def create_table_session(*, store: Store, world_loader: LazyWorldLoader, registry: dict, world_keys: list[str]) -> tuple[str, str]:
+def create_table_session(*, store: Store, world_loader: LazyWorldLoader, registry: dict, world_keys: list[str], require_admitted: bool = False) -> tuple[str, str]:
     """Returns (session_id, raw_code), same contract as the interview's
     create_session. Every seated world is loaded (and its manifest hash
     pinned) before anything is written - a table with an unloadable seat is
-    refused whole, never opened partially."""
+    refused whole, never opened partially. Under admission enforcement
+    (require_admitted, Settings.enforce_admission) every seat must be
+    admitted/open - one unadmitted seat refuses the whole table, checked
+    before any load and before anything is written."""
+    for k in world_keys:
+        _check_admission(registry, k, require_admitted=require_admitted)
     worlds = [_load_world(world_loader, registry, k) for k in world_keys]
     session_id = str(uuid.uuid4())
     raw_code = session_code.generate_code()

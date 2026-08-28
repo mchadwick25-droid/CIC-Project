@@ -32,6 +32,17 @@ class Settings:
     usage_db_path: str
     worlds_yaml_path: Path
     default_world_key: str
+    # THE ADMISSION GATE (stage-10 enforcement; 2026-08-28). The spec is
+    # plain - a world "becomes selectable when it passes Admission" - and
+    # the 2026-08-26 audit's headline finding was that the running engine
+    # never checked: create_session served any `built` world. The gate now
+    # exists; this flag is when it BITES. Off (the default) preserves the
+    # current informed-tester practice as an EXPLICIT, declared deferral
+    # ("deferrals documented, never hidden" - spec SS8) instead of a silent
+    # gap; setting CIC_ENFORCE_ADMISSION=1 is the doors-open flip, after
+    # which only admitted/open worlds are listed or seated, interview and
+    # table alike. Flipping it is Mark's stage-10 act, not a code change.
+    enforce_admission: bool
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -50,4 +61,5 @@ class Settings:
             usage_db_path=os.environ.get("CIC_API_USAGE_DB", _DEFAULT_USAGE_DB),
             worlds_yaml_path=worlds_yaml_path,
             default_world_key=os.environ.get("CIC_API_DEFAULT_WORLD_KEY", _DEFAULT_WORLD_KEY),
+            enforce_admission=os.environ.get("CIC_ENFORCE_ADMISSION", "") in ("1", "true", "yes"),
         )

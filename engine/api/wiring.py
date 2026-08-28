@@ -25,6 +25,29 @@ class UnknownWorldError(Exception):
     """world_key isn't in the registry (records/worlds.yaml)."""
 
 
+class WorldNotAdmitted(Exception):
+    """The world exists but its registry state is not admitted/open, and
+    admission enforcement is on (Settings.enforce_admission - see its own
+    comment for the stage-10 semantics). Raised before any session event is
+    written; the app layer maps it to 403. Carries the world_key."""
+
+
+# The registry states a participant-facing session may be built on once
+# enforcement is on (Artifact-1 SS2's lifecycle: built -> admitted -> open;
+# `built` means gates-green + compiled, NOT validated by the live admission
+# battery or Mark's read). The fixture world never reaches these states, so
+# enforcement also closes the fixture-session hole for free.
+ADMITTED_STATES = frozenset({"admitted", "open"})
+
+
+def _check_admission(registry: dict, world_key: str, *, require_admitted: bool) -> None:
+    if not require_admitted:
+        return
+    entry = registry.get(world_key) or {}
+    if entry.get("state") not in ADMITTED_STATES:
+        raise WorldNotAdmitted(world_key)
+
+
 class SessionNotFound(Exception):
     """No session_started event exists for this session_id."""
 
@@ -64,9 +87,14 @@ def _load_world(world_loader: LazyWorldLoader, registry: dict, world_key: str, *
     return world
 
 
-def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dict, world_key: str) -> tuple[str, str]:
+def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dict, world_key: str, require_admitted: bool = False) -> tuple[str, str]:
     """Returns (session_id, raw_code). The raw code is returned exactly once
-    - only its hash is ever stored (engine.m4.session_code)."""
+    - only its hash is ever stored (engine.m4.session_code).
+
+    require_admitted is the admission gate (Settings.enforce_admission):
+    checked BEFORE the world is even loaded, so a refused create costs
+    nothing and writes nothing."""
+    _check_admission(registry, world_key, require_admitted=require_admitted)
     world = _load_world(world_loader, registry, world_key)
     session_id = str(uuid.uuid4())
     raw_code = session_code.generate_code()
@@ -97,7 +125,7 @@ def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dic
     return session_id, raw_code
 
 
-def list_worlds(*, world_loader: LazyWorldLoader, registry: dict) -> list[dict]:
+def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitted: bool = False) -> list[dict]:
     """The doorway's own content, per formation world - never the fix
     fixture (kind == "fixture": "NOT one of the six formation worlds...
     never listed beside them, never admitted, never reachable by a
@@ -114,6 +142,11 @@ def list_worlds(*, world_loader: LazyWorldLoader, registry: dict) -> list[dict]:
     worlds = []
     for world_key, entry in registry.items():
         if entry.get("kind") != "formation":
+            continue
+        if require_admitted and entry.get("state") not in ADMITTED_STATES:
+            # Under enforcement the doorway lists only worlds a participant
+            # may actually enter - an unadmitted world simply is not
+            # offered, rather than offered and then refused at the door.
             continue
         world = _load_world(world_loader, registry, world_key)
         frame = world.frame

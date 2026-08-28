@@ -678,3 +678,33 @@ Mark: read the pairing doc (C6 sign-off), read the L4/L5 battery texts in
 verification battery re-run when ready (it will prove the appropriation
 fix and the reader clarification live). The floor question (3 vs 2 at a
 two-seat table; the poc ran 2 in production) remains his open call.
+
+---
+
+## 2026-08-28 — The admission gate exists; enforcement is Mark's doors-open flip
+
+**Origin.** Same Table thread, Mark: "what's next on the list." The next
+unblocked pilot-critical item was the 2026-08-26 entry's headline finding:
+the running engine never checked registry state — `create_session` served
+any `built` world.
+
+**Built.** Session creation (interview and table — one unadmitted seat
+refuses a whole table), and the world listing now gate on registry state
+`admitted`/`open`, behind `CIC_ENFORCE_ADMISSION`. Off by default and set
+to "0" in `render.yaml` with the reason written beside it — today's
+informed-tester practice becomes an **explicit, declared deferral** (spec
+§8's own standard) instead of a silent gap. Refused creates return 403 and
+write nothing. Both directions are CI-pinned, including the flip working
+against a registry with admitted worlds. Enforcement also closes the
+fixture-session hole for free (`fix` never advances past `built`).
+
+**What this means for the pilot sequence:** when the fleet passes admission
+and Mark's per-world reads/freezes are done, flipping the env var to "1"
+is the doors-open act — no code change, one line in the deploy config.
+
+### Next action
+
+Unchanged from the roadmap: admission fixes for desert's 26/28 (then the
+fleet), the M7 build, and Mark's standing items (verification battery
+re-run authorization, floor call, facilitator text reads, pairing sign-off,
+PR call).

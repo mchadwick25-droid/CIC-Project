@@ -41,6 +41,7 @@ class Deps:
     world_loader: LazyWorldLoader
     registry: dict
     default_world_key: str
+    enforce_admission: bool
 
 
 class SessionCreateRequest(BaseModel):
@@ -145,6 +146,7 @@ def create_app(
     world_loader: LazyWorldLoader,
     registry: dict,
     default_world_key: str,
+    enforce_admission: bool = False,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes."""
@@ -159,6 +161,7 @@ def create_app(
         world_loader=world_loader,
         registry=registry,
         default_world_key=default_world_key,
+        enforce_admission=enforce_admission,
     )
 
     @app.get("/health")
@@ -169,7 +172,7 @@ def create_app(
     def list_worlds_endpoint(request: Request):
         deps: Deps = request.app.state.deps
         try:
-            worlds = wiring.list_worlds(world_loader=deps.world_loader, registry=deps.registry)
+            worlds = wiring.list_worlds(world_loader=deps.world_loader, registry=deps.registry, require_admitted=deps.enforce_admission)
         except PackageRefused:
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         return WorldListResponse(worlds=worlds)
@@ -187,20 +190,26 @@ def create_app(
                 raise HTTPException(status_code=400, detail="world_keys must be 2-3 distinct keys")
             try:
                 session_id, code = table_wiring.create_table_session(
-                    store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_keys=req.world_keys
+                    store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_keys=req.world_keys,
+                    require_admitted=deps.enforce_admission,
                 )
             except wiring.UnknownWorldError as exc:
                 raise HTTPException(status_code=400, detail=f"unknown world_key {exc.args[0]!r}")
+            except wiring.WorldNotAdmitted as exc:
+                raise HTTPException(status_code=403, detail=f"world {exc.args[0]!r} has not passed admission")
             except PackageRefused:
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
             return SessionCreateResponse(session_id=session_id, session_code=code)
         world_key = req.world_key or deps.default_world_key
         try:
             session_id, code = wiring.create_session(
-                store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_key=world_key
+                store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_key=world_key,
+                require_admitted=deps.enforce_admission,
             )
         except wiring.UnknownWorldError:
             raise HTTPException(status_code=400, detail=f"unknown world_key {world_key!r}")
+        except wiring.WorldNotAdmitted as exc:
+            raise HTTPException(status_code=403, detail=f"world {exc.args[0]!r} has not passed admission")
         except PackageRefused:
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         return SessionCreateResponse(session_id=session_id, session_code=code)
@@ -329,6 +338,7 @@ def _build_real_app() -> FastAPI:
         world_loader=LazyWorldLoader(),
         registry=full_registry["worlds"],
         default_world_key=settings.default_world_key,
+        enforce_admission=settings.enforce_admission,
     )
 
 
