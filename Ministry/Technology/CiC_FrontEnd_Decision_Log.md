@@ -957,3 +957,37 @@ safe to delete but this session's git credential cannot delete branches
 (403) — one local command for Mark:
 `git push origin --delete claude/table-build-scoping claude/retire-cic-poc claude/desert-admission-fix claude/launch-system claude/admission-parity claude/ops-quartet claude/identity-registry claude/scale-track`
 (claude/pilot-launch-website-access-j640i1 stays, per standing rule.)
+
+---
+
+## 2026-08-28 — The fleet-parity battery: six worlds, 28/28, under the
+corrected instrument; the scaffold exemption's IOU paid and deleted
+
+**Run under Mark's grant ("run the battery"), one pass, 168 sealed
+probes.** Every world passed clean — alx, desert, pahc, hal, syr, ijc,
+all 28/28 — under the admission answerer that now grades byte-for-byte
+what a participant receives (engine.m4.turn.apply_net, one owner). One
+register advisory (syr c-i, free-composed, non-gating per the standing
+ruling), zero failures, zero isolation of any kind between the
+instrument and production.
+
+**The measurement the exemption was waiting for:** zero voice-scaffold
+citations across all 168 probes. The compiler fix (voice_craft as
+standing instruction, never a citable section) made the citation
+unreachable, exactly as intended — so `canon.voice_scaffold_types()` and
+its checker exemption are DELETED, with a tombstone note where the
+function stood and a test pinning the new truth: a voice_craft citation
+now FAILS admission, surfaced rather than excused. The two worlds.yaml
+IOU comments are marked paid. (The evidence-status/search-record
+category STAYS — it is load-bearing from the measured four-world run;
+its non-appearance in this run is the stochasticity the one-run policy
+already accounts for.)
+
+**Token counts, this run (measured; no dollars, principle 13):** input
+113,920 · output 75,420 · cache write 96,394 · cache read 2,602,638 —
+added to the reconciliation worksheet's day for the invoice tie-out.
+
+**Standing:** the fleet's mechanical certificate is now re-issued by an
+instrument that measures the real conversation. Stage-7 touchpoints
+(Mark's reads, freezes, registry transitions) are unchanged and remain
+the doors-open path.

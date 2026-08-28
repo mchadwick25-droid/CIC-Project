@@ -92,41 +92,25 @@ def substantive_types() -> set[str]:
     return {"doctrinal_witness", "term", "story", "quote"}
 
 
-def voice_scaffold_types() -> set[str]:
-    """Record types that speak IN the voice's own person, about the voice
-    itself - identity, characteristic concerns, guard, flavor - never a
-    claim about the historical world. Spec principle 14's own sanctioned-
-    fabrication category: a Representative's name, role, and manner of
-    speaking are invented on purpose, not derived from any one source, so
-    a record like this carries `sources: []` by design, not by omission.
-
-    This is the fleet's second citation category, not a laxer case of the
-    first: engine/m2/builders.py's own "(cite as [[id]])" instruction on
-    every Identity/Guard/Characteristic-concerns/Flavor-notes section
-    exists because a live model, left to cite this content some other way,
-    invented fake ids for it (measured: 14 of 47 tag uses on one six-turn
-    run) - pointing it at the record's own real id was the fix, and
-    engine.m4.grounding_net.check_turn already treats that tag as
-    legitimate (any id present in the package's own repository is a valid
-    tag; a claim-marked sentence with no tag at all is what gets withheld
-    live, so simply not tagging this content was never a safe
-    alternative). A citation into this set is the voice naming exactly
-    where a turn of phrase came from - the opposite of fabrication - and
-    it will never resolve to a source, nor should it: a claim ABOUT the
-    historical world needs one; a claim about how the voice itself talks
-    does not. Any consumer that checks whether a citation is fabricated
-    (M3 admission's source_boundedness_check, chiefly) needs both this and
-    the source-resolution check to call something fabricated - never one
-    alone, and never a locally re-derived guess at what belongs here."""
-    return {"voice_craft"}
+# voice_scaffold_types() was DELETED 2026-08-28 after the fleet-parity
+# admission battery measured it unreachable: its root cause (voice_craft
+# compiled as a headed record section carrying "(cite as [[id]])") was
+# fixed in the compiler on 2026-08-28 (builders.py: a standing-instruction
+# section never carries an id), and the exemption stayed only "pending a
+# live measurement confirming it is now unreachable" (worlds.yaml's own
+# IOU). The measurement: ZERO voice-scaffold citations across all 168
+# probes of the six-world battery. Deleting rather than keeping is the
+# foundation audit's own rule - a patch whose cause is fixed must not age
+# into looking like a real category beside the one below, which IS real
+# and live-load-bearing.
 
 
 def evidence_status_types() -> set[str]:
     """Record types whose content IS a record of the evidence situation -
     what was searched for, through what channel, and whether it was found -
-    never themselves a claim resting on a source. The fleet's third
-    citation category, found the same way the second (voice_scaffold_types)
-    was: a live admission run (hal, 2026-08-28) answered an
+    never themselves a claim resting on a source. A distinct citation
+    category, found the way the (since-deleted) voice-scaffold one was: a
+    live admission run (hal, 2026-08-28) answered an
     evidence-pressure probe honestly - "the richness is in the letters, not
     in the stones" - and cited the search_record that establishes exactly
     that absence (hal.search.latin-critical-texts, result: not_found). The
@@ -138,10 +122,10 @@ def evidence_status_types() -> set[str]:
     to trace to a source would demand the absence of evidence come with
     evidence attached.
 
-    Same consumer rule as voice_scaffold_types: anything checking whether
-    a citation is fabricated (M3's source_boundedness_check, chiefly)
-    needs this, the scaffold set, AND source-resolution to call something
-    fabricated - never a locally re-derived guess at what belongs here."""
+    Consumer rule: anything checking whether a citation is fabricated
+    (M3's source_boundedness_check, chiefly) needs BOTH this and
+    source-resolution to call something fabricated - never a locally
+    re-derived guess at what belongs here."""
     return {"search_record"}
 
 
