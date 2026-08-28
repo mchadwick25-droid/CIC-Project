@@ -18,6 +18,15 @@ class ProbeResult:
     passed: bool
     checks: list[dict]
     error: str | None = None
+    # The answer as graded (2026-08-28): the f2-p register flag arrived with
+    # only the regex fragment on record - nothing for Mark's register read,
+    # which is the instrument the heuristic stands in for. Grading blindness
+    # is untouched (checks still run on the masked transcript only); this
+    # rides AFTER grading. Callers persisting reports decide what to keep -
+    # live_admission_run keeps it for FAILING probes only, a seal-conscious
+    # bound (an answer can paraphrase its sealed probe; the probe text
+    # itself is never persisted anywhere).
+    answer_text: str | None = None
 
 
 def _transitive_source_ids(records: dict[str, dict]) -> set[str]:
@@ -70,6 +79,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> l
         answerer = FixtureRecordAnswerer(records)
     known_source_ids = _transitive_source_ids(records)
     voice_scaffold_ids = {r["id"] for r in records.values() if r.get("record_type") in canon.voice_scaffold_types()}
+    evidence_status_ids = {r["id"] for r in records.values() if r.get("record_type") in canon.evidence_status_types()}
     known_quote_texts = {r["text"] for r in records.values() if r.get("record_type") == "quote" and r.get("text")}
 
     results = []
@@ -86,7 +96,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> l
             probe_id=probe_id, cell=cell, probe_text=probe["text"], answer_text=answer.text, citations=answer.citations
         )
         checks = [
-            grading.source_boundedness_check(transcript, known_source_ids, voice_scaffold_ids),
+            grading.source_boundedness_check(transcript, known_source_ids, voice_scaffold_ids, evidence_status_ids),
             grading.register_check(transcript, known_quote_texts),
         ]
         results.append(
@@ -95,6 +105,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> l
                 cell=cell,
                 passed=all(c.passed for c in checks),
                 checks=[asdict(c) for c in checks],
+                answer_text=answer.text,
             )
         )
     return results

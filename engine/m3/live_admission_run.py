@@ -45,7 +45,14 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 WORLDS_YAML = REPO_ROOT / "records" / "worlds.yaml"
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-admission-report.json"
 
-WORLD_KEYS = ["alx", "desert"]  # Mark's explicit authorization, 2026-08-28 - no other world is in scope for this run
+# Per-run authorization is Mark's, every time, named on the command line.
+# The original hardcoded ["alx", "desert"] scope (his 2026-08-28
+# authorization for the first run) became a --worlds argument when he
+# authorized the remaining four ("lets do the other four worlds single
+# admission", same date) - the authorization discipline is unchanged: the
+# person running this passes exactly the worlds Mark authorized, and the
+# report records which they were.
+DEFAULT_WORLD_KEYS = ["alx", "desert"]
 
 
 class _UsageRecordingStream:
@@ -97,7 +104,7 @@ class _UsageRecordingClient:
         self.messages = _UsageRecordingMessages(inner.messages)
 
 
-def run(region: str) -> dict:
+def run(region: str, world_keys: list[str] | None = None) -> dict:
     registry = yaml.safe_load(WORLDS_YAML.read_text(encoding="utf-8"))
     loader = LazyWorldLoader()
     voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", region)
@@ -105,7 +112,7 @@ def run(region: str) -> dict:
     canon_questions = load_fleet_records()
     per_world = {}
 
-    for world_key in WORLD_KEYS:
+    for world_key in (world_keys or DEFAULT_WORLD_KEYS):
         entry = registry["worlds"][world_key]
         world, _timing = loader.load(
             world_key, package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"]
@@ -133,6 +140,12 @@ def run(region: str) -> dict:
                 "passed": r.passed,
                 "checks": r.checks,
                 "usage": asdict(u),
+                # Failing probes keep their answer text so a register flag
+                # can actually be READ (Mark's read is the instrument; the
+                # heuristic is its stand-in). Failing only, and never the
+                # probe text: an answer can paraphrase its sealed probe,
+                # so the bound stays as tight as the read requires.
+                **({"answer_text": r.answer_text} if not r.passed else {}),
             }
             for r, u in zip(battery, normalized)
         ]
@@ -156,10 +169,10 @@ def run(region: str) -> dict:
         "overall_pass": all(w["overall_pass"] for w in per_world.values()),
         "note": (
             "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation "
-            "call, once per probe, for every probe in the sealed battery, both worlds. Token counts "
+            "call, once per probe, for every probe in the sealed battery, per world. Token counts "
             "are measured directly from each call's own usage; no $/token or $/turn figure is quoted "
             "here (spec principle 13 - that waits on a reconciled AWS invoice, not an estimate). "
-            "Authorized by Mark, 2026-08-28: 'authorize the live M3 run against alx and desert.'"
+            "Run under Mark's explicit per-run authorization for exactly the worlds listed above."
         ),
     }
     return report
@@ -168,11 +181,17 @@ def run(region: str) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--region", required=True)
+    parser.add_argument("--worlds", default=",".join(DEFAULT_WORLD_KEYS),
+                        help="comma-separated world keys, exactly as Mark authorized for this run")
+    parser.add_argument("--out", default=str(REPORT_PATH),
+                        help="report path - use a distinct file so prior runs' records survive")
     args = parser.parse_args()
 
-    report = run(args.region)
-    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_PATH.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    world_keys = [k.strip() for k in args.worlds.split(",") if k.strip()]
+    report = run(args.region, world_keys=world_keys)
+    out_path = Path(args.out)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
 
     summary = {
         "voice_model_id": report["voice_model_id"],

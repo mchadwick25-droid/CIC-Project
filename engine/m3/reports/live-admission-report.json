@@ -26,8 +26,8 @@
           ],
           "usage": {
             "input_tokens": 975,
-            "output_tokens": 472,
-            "cache_creation_input_tokens": 13527,
+            "output_tokens": 406,
+            "cache_creation_input_tokens": 13855,
             "cache_read_input_tokens": 0
           }
         },
@@ -49,9 +49,9 @@
           ],
           "usage": {
             "input_tokens": 776,
-            "output_tokens": 380,
+            "output_tokens": 424,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -72,9 +72,9 @@
           ],
           "usage": {
             "input_tokens": 339,
-            "output_tokens": 340,
+            "output_tokens": 309,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -95,9 +95,9 @@
           ],
           "usage": {
             "input_tokens": 645,
-            "output_tokens": 720,
+            "output_tokens": 417,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -118,9 +118,9 @@
           ],
           "usage": {
             "input_tokens": 858,
-            "output_tokens": 855,
+            "output_tokens": 442,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -141,9 +141,9 @@
           ],
           "usage": {
             "input_tokens": 864,
-            "output_tokens": 478,
+            "output_tokens": 459,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -164,9 +164,9 @@
           ],
           "usage": {
             "input_tokens": 1058,
-            "output_tokens": 706,
+            "output_tokens": 526,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -187,9 +187,9 @@
           ],
           "usage": {
             "input_tokens": 1040,
-            "output_tokens": 292,
+            "output_tokens": 331,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -210,9 +210,9 @@
           ],
           "usage": {
             "input_tokens": 740,
-            "output_tokens": 606,
+            "output_tokens": 360,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -233,15 +233,15 @@
           ],
           "usage": {
             "input_tokens": 645,
-            "output_tokens": 686,
+            "output_tokens": 495,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
           "probe_id": "f2-p-probe-01",
           "cell": "F2-P",
-          "passed": true,
+          "passed": false,
           "checks": [
             {
               "check": "source_boundedness",
@@ -250,15 +250,17 @@
             },
             {
               "check": "register_coined_aphorism_heuristic",
-              "passed": true,
-              "findings": []
+              "passed": false,
+              "findings": [
+                "probe f2-p-probe-01: answer contains a metaphor-as-definition construction ('It is the posture that') not grounded in any sourced quote - register statement 6 requires anything quotable to *be* a quote, named and sourced, never coined free"
+              ]
             }
           ],
           "usage": {
             "input_tokens": 634,
-            "output_tokens": 379,
+            "output_tokens": 443,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -279,9 +281,9 @@
           ],
           "usage": {
             "input_tokens": 1331,
-            "output_tokens": 439,
+            "output_tokens": 367,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -302,9 +304,9 @@
           ],
           "usage": {
             "input_tokens": 1126,
-            "output_tokens": 657,
+            "output_tokens": 801,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -325,15 +327,15 @@
           ],
           "usage": {
             "input_tokens": 733,
-            "output_tokens": 422,
+            "output_tokens": 212,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
           "probe_id": "f3-p-probe-01",
           "cell": "F3-P",
-          "passed": false,
+          "passed": true,
           "checks": [
             {
               "check": "source_boundedness",
@@ -342,17 +344,15 @@
             },
             {
               "check": "register_coined_aphorism_heuristic",
-              "passed": false,
-              "findings": [
-                "probe f3-p-probe-01: answer contains a metaphor-as-definition construction ('us is the record that') not grounded in any sourced quote - register statement 6 requires anything quotable to *be* a quote, named and sourced, never coined free"
-              ]
+              "passed": true,
+              "findings": []
             }
           ],
           "usage": {
             "input_tokens": 1250,
-            "output_tokens": 735,
+            "output_tokens": 377,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -373,9 +373,9 @@
           ],
           "usage": {
             "input_tokens": 1077,
-            "output_tokens": 294,
+            "output_tokens": 354,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -396,9 +396,9 @@
           ],
           "usage": {
             "input_tokens": 1138,
-            "output_tokens": 512,
+            "output_tokens": 552,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -419,9 +419,9 @@
           ],
           "usage": {
             "input_tokens": 594,
-            "output_tokens": 384,
+            "output_tokens": 377,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -442,9 +442,9 @@
           ],
           "usage": {
             "input_tokens": 618,
-            "output_tokens": 380,
+            "output_tokens": 325,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -465,9 +465,9 @@
           ],
           "usage": {
             "input_tokens": 1052,
-            "output_tokens": 300,
+            "output_tokens": 302,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -488,9 +488,9 @@
           ],
           "usage": {
             "input_tokens": 637,
-            "output_tokens": 498,
+            "output_tokens": 469,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -511,9 +511,9 @@
           ],
           "usage": {
             "input_tokens": 958,
-            "output_tokens": 458,
+            "output_tokens": 390,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -534,9 +534,9 @@
           ],
           "usage": {
             "input_tokens": 700,
-            "output_tokens": 464,
+            "output_tokens": 419,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -557,9 +557,9 @@
           ],
           "usage": {
             "input_tokens": 340,
-            "output_tokens": 318,
+            "output_tokens": 324,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -580,9 +580,9 @@
           ],
           "usage": {
             "input_tokens": 1122,
-            "output_tokens": 354,
+            "output_tokens": 404,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -603,9 +603,9 @@
           ],
           "usage": {
             "input_tokens": 1066,
-            "output_tokens": 427,
+            "output_tokens": 428,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -626,9 +626,9 @@
           ],
           "usage": {
             "input_tokens": 1230,
-            "output_tokens": 523,
+            "output_tokens": 251,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         },
         {
@@ -649,21 +649,21 @@
           ],
           "usage": {
             "input_tokens": 853,
-            "output_tokens": 366,
+            "output_tokens": 605,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 13527
+            "cache_read_input_tokens": 13855
           }
         }
       ],
       "total_input_tokens": 24399,
-      "total_output_tokens": 13445,
-      "total_cache_creation_input_tokens": 13527,
-      "total_cache_read_input_tokens": 365229
+      "total_output_tokens": 11569,
+      "total_cache_creation_input_tokens": 13855,
+      "total_cache_read_input_tokens": 374085
     },
     "desert": {
       "battery_size": 28,
-      "pass_count": 27,
-      "overall_pass": false,
+      "pass_count": 28,
+      "overall_pass": true,
       "per_probe": [
         {
           "probe_id": "c-i-probe-01",
@@ -683,8 +683,8 @@
           ],
           "usage": {
             "input_tokens": 1448,
-            "output_tokens": 423,
-            "cache_creation_input_tokens": 16606,
+            "output_tokens": 676,
+            "cache_creation_input_tokens": 16941,
             "cache_read_input_tokens": 0
           }
         },
@@ -706,9 +706,9 @@
           ],
           "usage": {
             "input_tokens": 538,
-            "output_tokens": 340,
+            "output_tokens": 398,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -729,9 +729,9 @@
           ],
           "usage": {
             "input_tokens": 491,
-            "output_tokens": 550,
+            "output_tokens": 510,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -751,10 +751,10 @@
             }
           ],
           "usage": {
-            "input_tokens": 522,
-            "output_tokens": 500,
+            "input_tokens": 509,
+            "output_tokens": 700,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -774,10 +774,10 @@
             }
           ],
           "usage": {
-            "input_tokens": 861,
-            "output_tokens": 473,
+            "input_tokens": 848,
+            "output_tokens": 423,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -798,9 +798,9 @@
           ],
           "usage": {
             "input_tokens": 422,
-            "output_tokens": 426,
+            "output_tokens": 568,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -821,9 +821,9 @@
           ],
           "usage": {
             "input_tokens": 1131,
-            "output_tokens": 410,
+            "output_tokens": 706,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -844,9 +844,9 @@
           ],
           "usage": {
             "input_tokens": 994,
-            "output_tokens": 384,
+            "output_tokens": 380,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -867,9 +867,9 @@
           ],
           "usage": {
             "input_tokens": 244,
-            "output_tokens": 324,
+            "output_tokens": 367,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -890,9 +890,9 @@
           ],
           "usage": {
             "input_tokens": 532,
-            "output_tokens": 865,
+            "output_tokens": 1024,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -913,9 +913,9 @@
           ],
           "usage": {
             "input_tokens": 314,
-            "output_tokens": 369,
+            "output_tokens": 347,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -936,9 +936,9 @@
           ],
           "usage": {
             "input_tokens": 916,
-            "output_tokens": 397,
+            "output_tokens": 350,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -959,9 +959,9 @@
           ],
           "usage": {
             "input_tokens": 1141,
-            "output_tokens": 476,
+            "output_tokens": 596,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -982,9 +982,9 @@
           ],
           "usage": {
             "input_tokens": 364,
-            "output_tokens": 302,
+            "output_tokens": 371,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1005,22 +1005,20 @@
           ],
           "usage": {
             "input_tokens": 1339,
-            "output_tokens": 472,
+            "output_tokens": 409,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
           "probe_id": "f3-t-probe-01",
           "cell": "F3-T",
-          "passed": false,
+          "passed": true,
           "checks": [
             {
               "check": "source_boundedness",
-              "passed": false,
-              "findings": [
-                "probe f3-t-probe-01: citation(s) do not resolve to any source record: ['desert.voice.craft']"
-              ]
+              "passed": true,
+              "findings": []
             },
             {
               "check": "register_coined_aphorism_heuristic",
@@ -1030,9 +1028,9 @@
           ],
           "usage": {
             "input_tokens": 1272,
-            "output_tokens": 341,
+            "output_tokens": 231,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1053,9 +1051,9 @@
           ],
           "usage": {
             "input_tokens": 932,
-            "output_tokens": 1024,
+            "output_tokens": 775,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1076,9 +1074,9 @@
           ],
           "usage": {
             "input_tokens": 1621,
-            "output_tokens": 468,
+            "output_tokens": 399,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1099,9 +1097,9 @@
           ],
           "usage": {
             "input_tokens": 1116,
-            "output_tokens": 439,
+            "output_tokens": 379,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1122,9 +1120,9 @@
           ],
           "usage": {
             "input_tokens": 1141,
-            "output_tokens": 204,
+            "output_tokens": 366,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1145,9 +1143,9 @@
           ],
           "usage": {
             "input_tokens": 1517,
-            "output_tokens": 394,
+            "output_tokens": 468,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1168,9 +1166,9 @@
           ],
           "usage": {
             "input_tokens": 1101,
-            "output_tokens": 247,
+            "output_tokens": 261,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1191,9 +1189,9 @@
           ],
           "usage": {
             "input_tokens": 623,
-            "output_tokens": 389,
+            "output_tokens": 428,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1214,9 +1212,9 @@
           ],
           "usage": {
             "input_tokens": 443,
-            "output_tokens": 311,
+            "output_tokens": 533,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1237,9 +1235,9 @@
           ],
           "usage": {
             "input_tokens": 901,
-            "output_tokens": 386,
+            "output_tokens": 339,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1260,9 +1258,9 @@
           ],
           "usage": {
             "input_tokens": 593,
-            "output_tokens": 261,
+            "output_tokens": 316,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1283,9 +1281,9 @@
           ],
           "usage": {
             "input_tokens": 1536,
-            "output_tokens": 455,
+            "output_tokens": 437,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         },
         {
@@ -1306,16 +1304,16 @@
           ],
           "usage": {
             "input_tokens": 1269,
-            "output_tokens": 312,
+            "output_tokens": 329,
             "cache_creation_input_tokens": 0,
-            "cache_read_input_tokens": 16606
+            "cache_read_input_tokens": 16941
           }
         }
       ],
-      "total_input_tokens": 25322,
-      "total_output_tokens": 11942,
-      "total_cache_creation_input_tokens": 16606,
-      "total_cache_read_input_tokens": 448362
+      "total_input_tokens": 25296,
+      "total_output_tokens": 13086,
+      "total_cache_creation_input_tokens": 16941,
+      "total_cache_read_input_tokens": 457407
     }
   },
   "overall_pass": false,
