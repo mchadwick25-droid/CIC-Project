@@ -16,6 +16,7 @@ function toEntry(summary: WorldSummary): WorldEntry | null {
     worldKey: summary.world_key,
     censusId: summary.census_id,
     displayName: summary.display_name ?? summary.world_key,
+    cardName: summary.card_name ?? summary.display_name ?? summary.world_key,
     representativeName: summary.representative.name,
     roleLabel: summary.representative.role_label,
     place: summary.place ?? '',

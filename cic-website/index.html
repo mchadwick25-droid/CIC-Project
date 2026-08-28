@@ -220,7 +220,11 @@
 const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
 const LIVE_APP_URL = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
 if (LIVE_APP_URL) {
-  document.getElementById('launch-link').href = LIVE_APP_URL;
+  // The hero says "join us at the Table" - it lands on the app's Table
+  // field (mode=table opens the launch screen with the Table in focus),
+  // not an interview-first screen that contradicts the button (2026-08-28
+  // foundation audit; deep-link grammar per Mark's launch ruling).
+  document.getElementById('launch-link').href = LIVE_APP_URL + '/?mode=table';
 }
 
 // Representative carousel — reads the same data/world-census.json the
@@ -292,7 +296,10 @@ let repsLastFocused = null;
 function openRepsSheet(w) {
   repsLastFocused = document.activeElement;
   const e = w.entry;
-  const firstName = e.representativeName.split(' ').pop();
+  // The full name, never split: "Mar Yausep" carries his honorific as part
+  // of the name itself (Mark's identity ruling, 2026-08-28) - .split(' ')
+  // .pop() would greet him as bare "Yausep" on the launch button.
+  const firstName = e.representativeName;
   repsSheetContent.innerHTML = `
     <div class="reps-sheet__top">
       <img class="reps-sheet__portrait" src="assets/portraits/${PORTRAIT_FILES[w.id]}" alt="Portrait of ${e.representativeName}" style="--rep-color:${e.color}">

@@ -67,8 +67,8 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
           }
           return (
             <div key={i} className="turn turn--voice">
-              <div className="turn__speaker sans">
-                {world.representativeName} · {world.displayName}
+              <div className="turn__speaker sans" style={{ color: world.accentColor }}>
+                {world.representativeName} · {world.cardName}
               </div>
               <VoiceTurnBody text={turn.text} citations={turn.citations ?? []} figuresUsed={turn.figuresUsed ?? []} glosses={turn.glosses ?? []} />
             </div>

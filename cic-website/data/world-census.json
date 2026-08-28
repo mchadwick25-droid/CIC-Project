@@ -788,7 +788,7 @@
    "entry": {
     "representativeId": "chloe",
     "representativeName": "Chloe",
-    "representativeTitle": "Host of the Assembly",
+    "representativeTitle": "Household Leader",
     "worldName": "The House-Churches",
     "subtitle": "Post-Apostolic House-Church Christianity",
     "color": "#7c3aed",
@@ -1644,7 +1644,7 @@
    "entry": {
     "representativeId": "papnoute",
     "representativeName": "Papnoute",
-    "representativeTitle": "Elder of the Desert",
+    "representativeTitle": "Abba (Elder)",
     "worldName": "Desert Fathers and Mothers",
     "subtitle": "Desert Monasticism",
     "color": "#0f766e",
@@ -1841,7 +1841,7 @@
    "entry": {
     "representativeId": "marius",
     "representativeName": "Marius",
-    "representativeTitle": "Apocrisiarius — Deacon of the Letters",
+    "representativeTitle": "Deacon of the Letters",
     "worldName": "Church and Empire",
     "subtitle": "Imperial and Juridical Christianity",
     "color": "#7A2E2E",

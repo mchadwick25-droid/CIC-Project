@@ -113,6 +113,9 @@ class WorldSummary(BaseModel):
     world_key: str
     census_id: str | None
     display_name: str | None
+    # The friendly participant-facing name; display_name is the scholarly
+    # one (both registers, Mark's ruling 2026-08-28).
+    card_name: str | None = None
     representative: dict | None
     time_window: dict | None
     place: str | None
