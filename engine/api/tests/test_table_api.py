@@ -46,6 +46,7 @@ class _TableMessages:
         self.selector_script = list(selector_script)
         self.stream_scripts = list(stream_scripts)
         self.selector_enums_seen = []
+        self.stream_calls = []
 
     def create(self, *, model, max_tokens, tools, tool_choice, messages, system=None, timeout=None):
         name = tool_choice["name"]
@@ -55,6 +56,7 @@ class _TableMessages:
         return SimpleNamespace(content=[_FakeToolUse(name, self._responses[name])], usage=_FAKE_USAGE)
 
     def stream(self, *, model, max_tokens, system=None, messages):
+        self.stream_calls.append({"system": system, "messages": messages})
         return _FakeStreamCtx(self.stream_scripts.pop(0))
 
 

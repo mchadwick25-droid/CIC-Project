@@ -34,6 +34,7 @@ from engine.api.wiring import (
     UnknownWorldError,
     _load_world,
     _replay_text,
+    replay_transcript,
 )
 from engine.m1.loader import load_fleet_records
 from engine.m4 import events, facilitator_turns, session_code
@@ -261,6 +262,13 @@ def _advance_open_round(
     anachronistic_ids = _round_anachronistic_term_ids(worlds)
     voice_message, directive = voice_message_for_round(gate_payload, participant_text, anachronistic_ids)
     labels = _labels(worlds)
+    # Everything a voice or the selector reads back from the session -
+    # history, context, the selector's window - replays bridged rounds'
+    # participant text as the underlying subject (SS77 applied to session
+    # memory; engine.api.wiring.replay_transcript's docstring is the full
+    # account). Citations and speakers are untouched, so the per-world
+    # memory sets read the same entries.
+    transcript = replay_transcript(state, anachronistic_ids)
 
     common = dict(
         round_no=state.round_no, routing_action=routing_action, routing_reason=routing_reason,
@@ -275,12 +283,12 @@ def _advance_open_round(
         turn_no = _close_round(store, state, reason="cap", turns=state.round_turns)
         return TableMessageResult(**common, round_open=False, turn_selected=None, voice=None, position=None, turn_no=turn_no)
 
-    selector_transcript = "\n\n".join(_attributed_lines(state.transcript, labels)[-_SELECTOR_TRANSCRIPT_WINDOW:])
+    selector_transcript = "\n\n".join(_attributed_lines(transcript, labels)[-_SELECTOR_TRANSCRIPT_WINDOW:])
     seated_lines = "\n".join(
         f"- {w.frame['representative']['name']}, {w.frame['representative']['role_label']} of {w.frame['display_name']} (world_key: {k})"
         for k, w in worlds.items()
     )
-    transcript_speakers = [t["speaker"] for t in state.transcript if t.get("speaker") not in ("participant", "facilitator", None)]
+    transcript_speakers = [t["speaker"] for t in transcript if t.get("speaker") not in ("participant", "facilitator", None)]
     selection, selector_outcomes = select_speaker(
         safety_client,
         safety_model_id,
@@ -314,8 +322,8 @@ def _advance_open_round(
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_selected", payload=selected_payload)
 
     world = worlds[selection.world_key]
-    already_told, already_figures, already_glosses = _already_sets_for(selection.world_key, state.transcript)
-    history, pending = table_history_for(selection.world_key, state.transcript, labels)
+    already_told, already_figures, already_glosses = _already_sets_for(selection.world_key, transcript)
+    history, pending = table_history_for(selection.world_key, transcript, labels)
 
     try:
         voice_event, voice_usage = run_voice_turn_for_world(

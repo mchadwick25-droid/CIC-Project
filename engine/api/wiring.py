@@ -184,6 +184,56 @@ def _replay_text(entry: dict) -> str:
     return said
 
 
+def replay_transcript(state: SessionState, anachronistic_term_ids: set) -> list[dict]:
+    """The transcript as session memory may replay it: each participant
+    entry whose round routed bridge_turn has its text replaced by the
+    underlying subject the voice actually received.
+
+    SS77's "the voice never sees the participant's modern word" was honored
+    on the bridge turn itself and then leaked one turn later: history was
+    built from the transcript's raw participant text, so from the next turn
+    on, the voice read the barred word in its own replayed history (found
+    2026-08-28 while building the Table; fixed for both modes at once - the
+    table's builders consume this same function).
+
+    The route per participant message comes from the logged gate_decision
+    (each participant_message's gate is the next gate_decision after it in
+    the event order - a message whose request crashed before its gate wrote
+    stays un-gated and replays raw, which is honest: no route ever resolved
+    for it). The substitute text is derived by engine.m4.round.
+    voice_message_for_round - the SAME derivation the live bridge turn
+    used, so memory and the turn it remembers cannot disagree.
+
+    This does not touch _replay_text's own discipline ("history must match
+    what the person read"): that rule is about the VOICE's words, which the
+    participant read on screen. The participant's message was never shown
+    back to the participant - substituting what the voice was actually
+    handed keeps the voice's memory consistent with its own experience of
+    the turn, which is the memory being replayed here.
+    """
+    from engine.m4.round import voice_message_for_round
+
+    gate_for_message: list[dict | None] = []
+    for event in state.raw_events:
+        if event.event_type == "participant_message":
+            gate_for_message.append(None)
+        elif event.event_type == "gate_decision" and gate_for_message and gate_for_message[-1] is None:
+            gate_for_message[-1] = event.payload
+
+    result = []
+    ordinal = 0
+    for entry in state.transcript:
+        if entry.get("speaker") == "participant":
+            gate = gate_for_message[ordinal] if ordinal < len(gate_for_message) else None
+            ordinal += 1
+            if gate and gate.get("route") == "bridge_turn":
+                substitute, _directive = voice_message_for_round(gate, entry.get("text") or "", anachronistic_term_ids)
+                if substitute:
+                    entry = {**entry, "text": substitute}
+        result.append(entry)
+    return result
+
+
 def history_from_transcript(transcript: list[dict]) -> list[dict]:
     """Program-Spec M4's "full-session memory", as Messages-API turns.
     Until now the generation call sent a single user message and the voice
@@ -268,9 +318,12 @@ def handle_message(
         for turn in state.transcript
         for gloss in (turn.get("glosses") or [])
     }
-    history = history_from_transcript(state.transcript)
-
     term_ids = compute_anachronistic_term_ids(load_fleet_records(), world.frame["time_window"])
+    # History replays bridged rounds' participant text as the underlying
+    # subject the voice actually received (SS77 applied to session memory,
+    # not only the live turn - see replay_transcript's own docstring).
+    history = history_from_transcript(replay_transcript(state, term_ids))
+
     turn_no = state.turn_count + 1
 
     try:

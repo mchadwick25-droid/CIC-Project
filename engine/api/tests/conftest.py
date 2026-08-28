@@ -41,12 +41,22 @@ class _FakeMessages:
     def __init__(self, *, safety_response, reader_response, stream_chunks):
         self._responses = {"submit_safety_classification": safety_response, "submit_reader_output": reader_response}
         self._stream_chunks = stream_chunks
+        # Every generation call's kwargs, recorded so a test can assert what
+        # the voice was actually handed (system prefix, history, message).
+        self.stream_calls = []
 
     def create(self, *, model, max_tokens, tools, tool_choice, messages, system=None, timeout=None):
         name = tool_choice["name"]
-        return SimpleNamespace(content=[_FakeToolUse(name, self._responses[name])], usage=_FAKE_USAGE)
+        # A fresh copy per call, like a real API's fresh JSON per response:
+        # run_gate writes its resolved modern_terms into the reader value it
+        # received, and a shared dict would leak one turn's resolution into
+        # the next call's "response".
+        import copy
+
+        return SimpleNamespace(content=[_FakeToolUse(name, copy.deepcopy(self._responses[name]))], usage=_FAKE_USAGE)
 
     def stream(self, *, model, max_tokens, system=None, messages):
+        self.stream_calls.append({"system": system, "messages": messages})
         return _FakeStreamCtx(self._stream_chunks)
 
 
