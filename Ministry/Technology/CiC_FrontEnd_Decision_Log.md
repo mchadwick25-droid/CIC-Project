@@ -443,3 +443,100 @@ their original hrefs and text, unaffected by the copy changes around them.
 None from this thread. Open items going forward belong to whatever Mark raises
 next — including, if it comes up again, standing up a real second fund (Academic
 Review or otherwise) with its own Payment Link rather than reusing these two.
+
+---
+
+## 2026-08-26 — Public-launch readiness: stage 10 not reached, "public" is a further
+gate past it, live URL fixes (Stripe transcription, Table sequencing)
+
+**Origin.** Same thread as the entries above, continuing after the website/Stripe
+work shipped (PRs #60-65). Two live-site fixes first, then Mark asked what's left
+before public pilot launch and whether the multi-voice Table could be finished —
+answering that required a real status pull, which surfaced something bigger than
+either question.
+
+**Live-site fixes, same thread:**
+- Both Stripe Payment Link IDs Mark originally pasted were subtly wrong (one
+  character each, at the same visually-ambiguous letter/digit position — `O`/`0`,
+  `I`/`1`/`l`) — both buttons returned Stripe's "page not found." Corrected after
+  Mark copied the real IDs directly from the Stripe Dashboard's own Copy Link
+  action. Then the two links turned out to be assigned to the wrong buttons
+  (one-time and monthly swapped) — swapped the hrefs, not the IDs. Both fixes
+  shipped, deployed, confirmed live. Full root-cause trail is in `support.html`'s
+  own header comment.
+- Font sizes sitewide (including `atlas-v3.html`, initially held back over its
+  packing-algorithm risk, then done after confirming the packing math had real
+  headroom and verifying zero node overlaps across all 274 map entries before
+  shipping) — Mark's report that most non-heading text read too small.
+- Landing page: added the two give buttons directly (not just a Get Involved
+  link), short ask, `.btn.secondary` so it still doesn't compete with the
+  primary "try a conversation" CTA.
+
+**The bigger finding — public-launch readiness.** Mark asked what's left before
+public pilot launch and whether Table could be finished. A research pass (this
+thread) plus a handoff from a separate cross-system-consistency-audit thread
+(PR #68, merged `5d05d76`) together established:
+
+- **`CiC-Program-Spec.md`'s own build table (§9) puts "doors open: pilot with
+  informed testers" at stage 10** — gated on stages 1-9 completing, including
+  Admission (stage 7) passing for the fleet and M7 (stage 9, the transcript
+  audit pipeline) existing. **Neither is true yet.** All seven worlds sit at
+  registry `state: built`, not `admitted` or `open` — and the running engine
+  does not check this at all; `create_session` serves any `built` world with no
+  state gate. M7 does not exist as code anywhere in `engine/`.
+- **"Public availability" is a further gate past stage 10**, not a rewording of
+  it: the spec's own §8 names two additional hard prerequisites — live
+  adversarial safety trials to a 10/10 precedent, and a clinician read — both
+  explicitly "owed before public availability; not yet scheduled." The spec
+  does allow "informed pilot testers" to precede both of those specifically,
+  with deferrals documented, never hidden — but that provision only applies
+  once stage 10 itself is reached, which it isn't.
+- **So this isn't "public vs. informed-tester" as two paths to pick between —
+  neither formal bar is cleared yet**, even though the site is live and, as of
+  this thread's own work, actively soliciting real donations. That gap between
+  formal process and current practice is the real headline finding, more
+  consequential than the Table question that prompted the research.
+- The audit-thread handoff also surfaced: a schema ambiguity in M3 (a
+  `demonstration` record's `sources[].source_id` convention differs between
+  desert/pahc and alx/hal/syr/ijc) makes current admission numbers meaningless
+  until ruled on; retrieval and quote-coverage measurably improved fleet-wide
+  since the last check; a new `output_check.py` catches display defects but
+  never blocks them; a bait probe shows the voice will accept a participant's
+  false premise about earlier conversation content (detected, not prevented);
+  and run-to-run variance on the same package/battery is large enough that no
+  single run proves anything is fixed.
+- **Table status, separately answered:** design is finished (V1.0, locked
+  icon/geometry assets) and real conversational-methodology work exists, but
+  both were written against the old `cic-poc` backend; the old working
+  component code was deliberately deleted during the engine rebuild (recoverable
+  from git history, not in the live tree); the current engine has zero
+  multi-world scaffolding — `mode` is a closed single-value enum at the
+  event-schema level. "Finish" and "upgrade" converge to roughly the same new
+  engineering either way — a real build, not a last-mile add-on.
+
+**Heart of it, not just the mechanics:** this project's own stated differentiator
+is rigor — six worlds built to spec is not the same claim as six worlds proven
+safe to the standard the project set for itself. The gap found here is exactly
+the shape of thing this session's own smaller fixes (the Atlas overpromise, the
+Stripe typo, tiny illegible text) were about: distance between what the site
+claims and what's actually true underneath. This one is bigger than any of
+those.
+
+**Not decided here, Mark's calls:** whether to rule the `source_id` ambiguity
+now (this log's read: take the cheap option — M3 resolves a demonstration's
+record refs transitively to their sources — unless the other two options in the
+audit thread matter for a reason not yet surfaced); whether to authorize the
+live, billed M3 admission run against alx and desert (real model spend, this
+project's standing rule requires his explicit go-ahead every time); how to
+sequence an M7-build thread against a Table-build thread; and whether the
+System Hub log (which owns operations/cross-thread state, not this one) should
+carry a matching entry for the engine-side detail here — this entry stays
+scoped to what it means for the participant-facing product and its own
+launch-readiness framing.
+
+### Next action
+
+Mark to answer the three open calls above. Once sequenced, this thread (or a
+successor) drafts launch prompts for whichever of {M7 build, Table build,
+schema-ambiguity fix} he wants to move on next — none of which belongs in this
+website-access thread's own scope.
