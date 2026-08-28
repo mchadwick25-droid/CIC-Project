@@ -8,11 +8,59 @@ import type { CreateSessionResponse, MessageResponse, TableMessageResponse, Tran
 
 const API_BASE = '/api';
 
+/**
+ * The error-language layer (2026-08-28 foundation audit): eleven raw
+ * backend strings could reach a participant verbatim - "invalid session",
+ * "provider call failed", "Bad Gateway". The Facilitator's own prose is
+ * careful and warm; the error layer was a different register from a
+ * different author, and it was the register a participant met on a bad
+ * day. Every message below is participant-facing prose, inventoried in
+ * the decision log for Mark's read. The raw detail is preserved on
+ * `.detail` and logged to the console for diagnosis - it just never
+ * becomes the sentence a person reads.
+ *
+ * `recoverable` marks the errors whose honest remedy is starting fresh
+ * (a restarted server, a closed session) - the screens render a
+ * begin-again affordance for exactly these, so no error is ever a dead
+ * end.
+ */
+function participantMessage(status: number, detail: string): { message: string; recoverable: boolean } {
+  if (status === 401) {
+    return {
+      message: 'This conversation has slipped away from us — the server was restarted, and nothing you said caused it. You can begin a new one.',
+      recoverable: true,
+    };
+  }
+  if (status === 409 && detail.includes('already closed')) {
+    return { message: "This conversation has closed. You're welcome to begin a new one.", recoverable: true };
+  }
+  if (status === 409 && detail.includes('round still open')) {
+    return { message: 'The table is still finishing its round — let it speak, then ask again.', recoverable: false };
+  }
+  if (status === 429) {
+    // The server already speaks to the participant here (engine/api/ratelimit.py).
+    return { message: detail, recoverable: false };
+  }
+  if (status === 502) {
+    return { message: "The voice couldn't be reached just now. Give it a moment, then send again.", recoverable: false };
+  }
+  if (status === 503) {
+    return { message: "This world's records are briefly unavailable — try again in a moment.", recoverable: false };
+  }
+  return { message: "That didn't go through. Try again in a moment, or begin a new conversation.", recoverable: false };
+}
+
 export class ApiRequestError extends Error {
   status: number;
+  detail: string;
+  recoverable: boolean;
   constructor(status: number, detail: string) {
-    super(detail);
+    const { message, recoverable } = participantMessage(status, detail);
+    super(message);
     this.status = status;
+    this.detail = detail;
+    this.recoverable = recoverable;
+    console.warn(`api error ${status}: ${detail}`);
   }
 }
 
@@ -21,7 +69,9 @@ async function readErrorDetail(response: Response): Promise<string> {
     const body = await response.json();
     if (typeof body?.detail === 'string') return body.detail;
   } catch {
-    // not JSON - fall through
+    // not JSON - Render's proxy answers with HTML on cold starts and
+    // gateway timeouts, which is exactly when a participant most needs a
+    // human sentence instead of "Bad Gateway".
   }
   return response.statusText || `HTTP ${response.status}`;
 }

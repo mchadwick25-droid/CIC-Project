@@ -220,7 +220,15 @@ def create_app(
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
             return SessionCreateResponse(session_id=session_id, session_code=code)
-        world_key = req.world_key or deps.default_world_key
+        if req.world_key is None:
+            # Foundation audit (2026-08-28): POST {} used to fall through to
+            # default_world_key - configured in production as the synthetic
+            # fixture world, which records/worlds.yaml says must never be
+            # participant-reachable ("never listed beside them, never
+            # admitted"). A session names its world or doesn't open; the
+            # frontend always names one, so no real caller changes.
+            raise HTTPException(status_code=400, detail="world_key is required - one world for an interview, or world_keys for a table")
+        world_key = req.world_key
         try:
             session_id, code = wiring.create_session(
                 store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_key=world_key,

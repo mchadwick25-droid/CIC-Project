@@ -24,7 +24,9 @@ interface TableRoomProps {
   roundOpen: boolean;
   isLoading: boolean;
   error: string | null;
+  errorRecoverable: boolean;
   onSend: (text: string) => void;
+  onResumeRound: () => void;
   onEnd: () => void;
   onRestart: () => void;
 }
@@ -34,7 +36,7 @@ function facilitatorParagraphs(text: string): string[] {
 }
 
 export function TableRoom({
-  seatedWorlds, turns, sessionCode, closed, roundOpen, isLoading, error, onSend, onEnd, onRestart,
+  seatedWorlds, turns, sessionCode, closed, roundOpen, isLoading, error, errorRecoverable, onSend, onResumeRound, onEnd, onRestart,
 }: TableRoomProps) {
   const byKey = new Map(seatedWorlds.map((w) => [w.worldKey, w]));
   const anyLivingTradition = seatedWorlds.some((w) => w.livingTraditionFlag);
@@ -45,7 +47,7 @@ export function TableRoom({
         <BrandMark size={16} />
         {sessionCode && (
           <div className="conversation__bar-note sans">
-            Not saved to an account — your session code is <strong>{sessionCode}</strong>
+            Not saved to an account — this conversation lives in this tab
           </div>
         )}
       </div>
@@ -117,20 +119,29 @@ export function TableRoom({
           );
         })}
 
-        {roundOpen && isLoading && <p className="table-round-note sans">The table is speaking — voices answer in turn…</p>}
+        {isLoading && !closed && <p className="waiting-note sans">The table is speaking — voices answer in turn…</p>}
       </div>
 
-      {error && <div className="conversation__error">{error}</div>}
+      {error && (
+        <div className="conversation__error">
+          {error}
+          {errorRecoverable && (
+            <button type="button" className="error-restart sans" onClick={onRestart}>
+              Begin again
+            </button>
+          )}
+          {!errorRecoverable && roundOpen && !isLoading && (
+            <button type="button" className="error-restart sans" onClick={onResumeRound}>
+              Let the table finish its round
+            </button>
+          )}
+        </div>
+      )}
 
       {closed ? (
         <div className="conversation__composer">
           <p className="conversation__bar-note sans" style={{ marginBottom: 'var(--spacing-sm)' }}>
             The sitting has ended — a Table holds five rounds, and this one is complete.
-            {sessionCode && (
-              <>
-                {' '}Keep this code to revisit the transcript: <strong>{sessionCode}</strong>
-              </>
-            )}
           </p>
           <button type="button" className="doorway__begin" onClick={onRestart}>
             Return to the worlds
@@ -140,8 +151,8 @@ export function TableRoom({
         <ChatInput
           onSend={onSend}
           onEnd={onEnd}
-          disabled={isLoading}
-          placeholder="Bring your question to the table…"
+          disabled={isLoading || roundOpen}
+          placeholder={roundOpen ? 'The table is still speaking…' : 'Bring your question to the table…'}
         />
       )}
     </div>

@@ -51,6 +51,9 @@ function App() {
   const [selectedWorldKey, setSelectedWorldKey] = useState<string | null>(null);
   const [seated, setSeated] = useState<string[]>([]);
   const [tableFocus, setTableFocus] = useState(false);
+  // A deep link naming no known world used to fail in silence (and left
+  // the stale query to re-fail on reload) - now it says so, once.
+  const [launchNotice, setLaunchNotice] = useState<string | null>(null);
   const deepLinkFired = useRef(false);
 
   // Waits for the world list before deciding the first screen - a ?worlds=
@@ -91,6 +94,11 @@ function App() {
         // Straight into the room - the interview is the frictionless door.
         consumeDeepLink();
         beginInterview(linked[0]);
+        return;
+      }
+      if (censusIds.length > 0) {
+        consumeDeepLink();
+        setLaunchNotice("We couldn't find that world here — choose from the cards below.");
       }
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -120,6 +128,7 @@ function App() {
     setSelectedWorldKey(null);
     setSeated([]);
     setTableFocus(false);
+    setLaunchNotice(null);
     setScreen('launch');
   };
 
@@ -134,7 +143,7 @@ function App() {
         <Launch
           worlds={worlds}
           isLoading={worldsLoading}
-          error={worldsError}
+          error={worldsError ?? conversation.error ?? launchNotice}
           seated={seated}
           tableFocus={tableFocus}
           convening={table.isLoading}
@@ -157,6 +166,7 @@ function App() {
           closed={conversation.closed}
           isLoading={conversation.isLoading}
           error={conversation.error}
+          errorRecoverable={conversation.errorRecoverable}
           onSend={conversation.send}
           onEnd={handleLeave}
           onRestart={handleLeave}
@@ -172,7 +182,9 @@ function App() {
           roundOpen={table.roundOpen}
           isLoading={table.isLoading}
           error={table.error}
+          errorRecoverable={table.errorRecoverable}
           onSend={table.send}
+          onResumeRound={table.resumeRound}
           onEnd={handleLeave}
           onRestart={handleLeave}
         />

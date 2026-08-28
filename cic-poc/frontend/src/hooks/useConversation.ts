@@ -42,6 +42,9 @@ interface ConversationState {
   closed: boolean;
   isLoading: boolean;
   error: string | null;
+  // True when the honest remedy is starting fresh (restarted server,
+  // closed session) - the screens render a begin-again button for these.
+  errorRecoverable: boolean;
 }
 
 const initialState: ConversationState = {
@@ -52,13 +55,14 @@ const initialState: ConversationState = {
   closed: false,
   isLoading: false,
   error: null,
+  errorRecoverable: false,
 };
 
 export function useConversation() {
   const [state, setState] = useState<ConversationState>(initialState);
 
   const begin = useCallback(async (worldKey: string) => {
-    setState((prev) => ({ ...prev, isLoading: true, error: null }));
+    setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false }));
     try {
       const { session_id, session_code } = await createSession(worldKey);
       writeStored({ sessionId: session_id, sessionCode: session_code, mode: 'interview', worldKey });
@@ -75,11 +79,13 @@ export function useConversation() {
         closed: transcript.closed,
         isLoading: false,
         error: null,
+        errorRecoverable: false,
       });
       return session_id;
     } catch (error) {
-      const message = error instanceof ApiRequestError ? error.message : 'Could not start a conversation.';
-      setState((prev) => ({ ...prev, isLoading: false, error: message }));
+      const message = error instanceof ApiRequestError ? error.message : 'We couldn\'t reach the room just now. Check your connection, then try again.';
+      const recoverable = error instanceof ApiRequestError && error.recoverable;
+      setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
       return null;
     }
   }, []);
@@ -91,7 +97,7 @@ export function useConversation() {
         setState((prev) => ({ ...prev, error: 'No active session' }));
         return false;
       }
-      setState((prev) => ({ ...prev, isLoading: true, error: null, turns: [...prev.turns, { speaker: 'participant', text }] }));
+      setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false, turns: [...prev.turns, { speaker: 'participant', text }] }));
       try {
         const result = await sendMessage(sessionId, sessionCode, text, crypto.randomUUID());
         setState((prev) => {
@@ -112,8 +118,9 @@ export function useConversation() {
         });
         return true;
       } catch (error) {
-        const message = error instanceof ApiRequestError ? error.message : 'That message did not go through.';
-        setState((prev) => ({ ...prev, isLoading: false, error: message }));
+        const message = error instanceof ApiRequestError ? error.message : 'That message didn\'t go through - check your connection and try again.';
+        const recoverable = error instanceof ApiRequestError && error.recoverable;
+        setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
         return false;
       }
     },
@@ -137,6 +144,7 @@ export function useConversation() {
         closed: transcript.closed,
         isLoading: false,
         error: null,
+        errorRecoverable: false,
       });
       return stored.worldKey;
     } catch {
@@ -158,6 +166,7 @@ export function useConversation() {
     closed: state.closed,
     isLoading: state.isLoading,
     error: state.error,
+    errorRecoverable: state.errorRecoverable,
     begin,
     send,
     rehydrate,
