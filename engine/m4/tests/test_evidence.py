@@ -287,6 +287,19 @@ def test_render_evidence_block_uses_citation_ready_ids():
     assert block.startswith("## Ground for this turn")
 
 
+def test_render_evidence_block_says_its_ground_is_not_already_said():
+    """The header frames THIS channel; nothing frames the replayed history
+    (engine.api.wiring._replay_text, which re-attaches [[id]] tags to past
+    turns on purpose). Without this clause a record read here for the first
+    time can be reported to the participant as already given - measured on
+    desert, "Sarah, whose words we already gave you", two turns after a
+    conversation that had not mentioned her."""
+    evidence = {"candidates": [], "cells": [], "thin_ground": []}
+    block = render_evidence_block(evidence)
+    assert "Available, not already said" in block
+    assert "the conversation above" in block
+
+
 def test_render_evidence_block_marks_already_told_and_scope_completion():
     evidence = assemble_evidence(
         message="What does your community remember of Jesus through its teaching?",

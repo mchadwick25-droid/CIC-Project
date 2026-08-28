@@ -846,10 +846,44 @@ def render_evidence_block(evidence: dict) -> str:
     """The §3.3 text block itself, ready to ride in the per-turn user
     message (never the cached system prefix). Ids are the exact strings
     the citation-tag grammar (§4.1, [[<record.id>]]) uses - this block and
-    the model's own tags share one id vocabulary by construction."""
+    the model's own tags share one id vocabulary by construction.
+
+    AVAILABLE IS NOT THE SAME AS ALREADY SAID, and until 2026-08-27 only
+    one of the two channels said which it was. A six-turn live run on
+    desert answered a question about women by opening "Sarah, whose words
+    we already gave you" - and the two turns before it were about Jesus.
+    Sarah's saying was in THIS block, read for the first time, and the next
+    turn compounded it: "whose one saying we already gave you".
+
+    The two channels look alike by construction. engine.api.wiring's
+    _replay_text deliberately re-attaches surviving [[id]] tags to every
+    past turn it replays (without them, session memory taught the voice to
+    stop citing - that docstring has the measurement), so a claim already
+    spoken and a record merely offered arrive in the same grammar. This
+    block was the only one of the two carrying a header, and its header
+    said what may be cited, never what has been said. So the model had a
+    frame for one channel and none for the other, and blurred them.
+
+    The clause below is the frame the other channel implies but cannot
+    state, put here rather than in the replayed turns on purpose:
+    _replay_text keeps a past turn exactly as the participant read it,
+    withheld sentences included, so that the voice's memory cannot
+    disagree with the person's. Scaffolding injected into an assistant
+    turn breaks that, and risks the voice emitting the scaffolding.
+
+    Per-record marking already exists and does not cover this: Stage E
+    annotates `already told this session`, but only for story/quote
+    (deliberately - the continuity rule is about not re-telling a story,
+    while re-using a witness is ordinary). Sarah's quote was NOT told
+    before, so it correctly carried no marker, and the voice still claimed
+    it had been. What was missing was never the marker; it was that an
+    ABSENT marker meant nothing until this said so."""
     lines = [
         "## Ground for this turn (cite only these; anything beyond them is spoken",
         "## as our honest limit, never asserted)",
+        "## Available, not already said: what we have said is only what stands in",
+        "## the conversation above. Never tell a participant we already gave them",
+        "## something first read here.",
     ]
     for candidate in evidence["candidates"]:
         head = (candidate["head"] or "").strip().split(". ")[0].rstrip(".")
