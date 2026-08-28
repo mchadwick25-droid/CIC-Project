@@ -104,6 +104,29 @@ export interface TranscriptResponse {
   turn_count: number;
   closed: boolean;
   transcript: TranscriptEntry[];
+  // Table sessions (Artifact-7): mode "table" with the seated world_keys;
+  // interview sessions carry mode "interview" (or null from older
+  // sessions) and world_keys null.
+  mode: string | null;
+  world_keys: string[] | null;
+  round_open: boolean;
+}
+
+// POST /message on a table session, and every POST /continue: one
+// table-round advance (Artifact-7 SS6) - at most one voice turn per
+// response; round_open says whether to /continue for the next.
+export interface TableMessageResponse {
+  round_no: number;
+  round_open: boolean;
+  routing_action: string | null;
+  routing_reason: string;
+  degraded: boolean;
+  facilitator: FacilitatorTurn[];
+  turn_selected: { world_key: string; position: number } | null;
+  voice: VoiceTurn | null;
+  position: number | null;
+  turn_no: number | null;
+  session_closed: boolean;
 }
 
 export interface ApiError {

@@ -9,45 +9,8 @@
  */
 import { useCallback, useState } from 'react';
 import { ApiRequestError, createSession, getTranscript, sendMessage } from '../lib/api';
+import { clearStored, readStored, writeStored } from '../lib/sessionStore';
 import type { FacilitatorTurn, TranscriptEntry, VoiceTurn } from '../types/conversation';
-
-const STORAGE_KEY = 'cic_session';
-
-interface StoredSession {
-  sessionId: string;
-  sessionCode: string;
-  worldKey: string;
-}
-
-function readStored(): StoredSession | null {
-  try {
-    const raw = sessionStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-    const parsed = JSON.parse(raw);
-    if (typeof parsed?.sessionId === 'string' && typeof parsed?.sessionCode === 'string' && typeof parsed?.worldKey === 'string') {
-      return parsed;
-    }
-    return null;
-  } catch {
-    return null;
-  }
-}
-
-function writeStored(session: StoredSession) {
-  try {
-    sessionStorage.setItem(STORAGE_KEY, JSON.stringify(session));
-  } catch {
-    // Private browsing / quota - reconnect-on-refresh just won't work.
-  }
-}
-
-function clearStored() {
-  try {
-    sessionStorage.removeItem(STORAGE_KEY);
-  } catch {
-    // Nothing to clean up if storage isn't available.
-  }
-}
 
 export interface ConversationTurn {
   speaker: 'participant' | 'facilitator' | string; // world_key for a voice turn
@@ -98,7 +61,7 @@ export function useConversation() {
     setState((prev) => ({ ...prev, isLoading: true, error: null }));
     try {
       const { session_id, session_code } = await createSession(worldKey);
-      writeStored({ sessionId: session_id, sessionCode: session_code, worldKey });
+      writeStored({ sessionId: session_id, sessionCode: session_code, mode: 'interview', worldKey });
       // create_session already appends the Facilitator's door turn (its
       // first-ever line - engine/api/wiring.py) before this ever returns,
       // so one transcript fetch picks it up rather than starting the
@@ -159,7 +122,7 @@ export function useConversation() {
 
   const rehydrate = useCallback(async (): Promise<string | null> => {
     const stored = readStored();
-    if (!stored) return null;
+    if (!stored || stored.mode !== 'interview' || !stored.worldKey) return null;
     try {
       const transcript = await getTranscript(stored.sessionId, stored.sessionCode);
       if (transcript.closed) {

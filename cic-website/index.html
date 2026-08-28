@@ -306,6 +306,11 @@ function openRepsSheet(w) {
     <p class="reps-sheet__body">${e.tile}</p>
     <div class="reps-sheet__actions">
       <a class="btn primary" href="${LIVE_APP_URL}/?worlds=${w.id}&mode=interview" target="_blank" rel="noopener">Launch an Interview with ${firstName}</a>
+      <!-- The Table hand-off is deliberately the quiet second link (Mark's
+           launch ruling, 2026-08-28): mode=table lands on the app's Table
+           field with this seat chosen - never auto-starting a session -
+           where the participant completes the seating and convenes. -->
+      <a class="reps-sheet__secondary" href="${LIVE_APP_URL}/?worlds=${w.id}&mode=table" target="_blank" rel="noopener">Bring ${firstName} to the Table &rarr;</a>
       <a class="reps-sheet__secondary" href="atlas-v3.html" target="_blank" rel="noopener">Read more in the Atlas &rarr;</a>
     </div>
   `;
