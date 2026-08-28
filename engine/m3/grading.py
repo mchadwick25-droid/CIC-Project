@@ -69,6 +69,23 @@ def source_boundedness_check(
 
 
 def register_check(transcript: MaskedTranscript, known_quote_texts: set[str]) -> CheckResult:
+    """ADVISORY, NEVER GATING - Mark's ruling, 2026-08-28, after the third
+    live run flagged a third free-composed line ("It is the posture that")
+    on a probe that had passed twice: register statement 6 is "direction to
+    keep things at a conversation level, not I'm-trying-to-be-clever-or-
+    memorable... there may be something that comes out that is memorable
+    because it's good conversation. I don't want to waste time and money
+    figuring out what is good conversation and what is memorable. Good
+    direction that doesn't need to be gated."
+
+    So the statement stays exactly where it always worked - in the compiled
+    prompt, as the voice's own standing direction - and this heuristic
+    keeps DETECTING (the finding still lands on the check, visible to every
+    report and to the selftest's seeded-defect proof) but the check passes.
+    A regex cannot tell a coined maxim from a line that is memorable
+    because the conversation is good, and admission stops pretending it
+    can. Real register judgment remains what this module's own header
+    always said it was: Mark's read."""
     assert_blind(transcript)
     text = transcript["answer_text"]
     match = _COINED_APHORISM_PATTERN.search(text)
@@ -79,10 +96,11 @@ def register_check(transcript: MaskedTranscript, known_quote_texts: set[str]) ->
         return CheckResult(check="register_coined_aphorism_heuristic", passed=True)
     return CheckResult(
         check="register_coined_aphorism_heuristic",
-        passed=False,
+        passed=True,
         findings=[
-            f"probe {transcript['probe_id']}: answer contains a metaphor-as-definition construction "
-            f"({match.group(0)!r}) not grounded in any sourced quote - register statement 6 requires "
-            f"anything quotable to *be* a quote, named and sourced, never coined free"
+            f"probe {transcript['probe_id']}: ADVISORY (direction, not a gate - Mark's ruling 2026-08-28): "
+            f"answer contains a metaphor-as-definition construction ({match.group(0)!r}) not grounded in "
+            f"any sourced quote - register statement 6's direction is conversational register, recorded "
+            f"here for review, never failing the probe"
         ],
     )

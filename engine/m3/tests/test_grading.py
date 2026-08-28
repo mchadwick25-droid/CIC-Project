@@ -62,3 +62,35 @@ def test_omitting_voice_scaffold_ids_keeps_the_old_strict_behavior():
     itself is the contract) gets exactly the old, single-category check."""
     result = source_boundedness_check(_transcript(["w.voice.craft"]), known_source_ids=set())
     assert not result.passed
+
+
+def test_register_coined_aphorism_is_advisory_never_gating():
+    """Mark's ruling, 2026-08-28: register statement 6 is direction, not a
+    gate - the heuristic keeps detecting (the finding lands, visibly) but
+    the check passes. The selftest's seeded-defect proof counts detection
+    through this advisory channel."""
+    transcript = mask_for_grading(
+        **_BASE, answer_text="Faith is the bridge that carries us over the river of doubt.", citations=[]
+    )
+    result = register_check(transcript, known_quote_texts=set())
+    assert result.passed
+    assert len(result.findings) == 1
+    assert "ADVISORY" in result.findings[0]
+    assert "is the bridge that" in result.findings[0]
+
+
+def test_register_grounded_by_verbatim_quote_stays_silent():
+    quote = "faith is the bridge that carries us"
+    transcript = mask_for_grading(
+        **_BASE, answer_text=f'One of our elders said: "{quote}" - and we held to it.', citations=[]
+    )
+    result = register_check(transcript, known_quote_texts={quote})
+    assert result.passed
+    assert result.findings == []
+
+
+def test_register_plain_prose_stays_silent():
+    transcript = mask_for_grading(**_BASE, answer_text="We prayed at dawn and worked with our hands.", citations=[])
+    result = register_check(transcript, known_quote_texts=set())
+    assert result.passed
+    assert result.findings == []

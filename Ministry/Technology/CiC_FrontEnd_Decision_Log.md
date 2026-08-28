@@ -540,3 +540,43 @@ Mark to answer the three open calls above. Once sequenced, this thread (or a
 successor) drafts launch prompts for whichever of {M7 build, Table build,
 schema-ambiguity fix} he wants to move on next — none of which belongs in this
 website-access thread's own scope.
+
+---
+
+## 2026-08-28 — Mark's register ruling: statement 6 is direction, not a gate;
+alx and desert both clear the mechanical admission bar
+
+**Origin.** The admission re-run (this thread, Mark-authorized under a
+one-run-then-judgment policy) returned desert 28/28 and alx 27/28, alx's
+one flag being the coined-aphorism heuristic on a free-composed line ("It
+is the posture that…") with no record origin, on a probe that had passed
+twice before.
+
+**Mark's ruling, his own words:** the quotable-lines rule is "direction to
+keep things at a conversation level, not I'm-trying-to-be-clever-or-
+memorable… there may be something that comes out that is memorable because
+it's good conversation. I don't want to waste time and money figuring out
+what is good conversation and what is memorable. It's good direction that
+doesn't need to be gated."
+
+**Applied:** register statement 6 stays exactly where it always worked —
+in the compiled prompt as the voice's standing direction, unchanged. The
+M3 heuristic (`engine/m3/grading.py`, always self-described as a "narrow,
+honestly-labeled heuristic stand-in" for Mark's read) now records an
+ADVISORY finding and passes the probe. Detection is not weakened: the
+selftest's seeded-register-defect proof counts the advisory channel, and
+anti-inertness now also requires the clean fixture to trip zero advisories.
+CI green throughout; the ruling and its rationale live in the check's own
+docstring.
+
+**Consequence:** under the ruling, alx's re-run reads 28/28 mechanical —
+**both alx and desert have cleared the mechanical admission bar.** What
+remains for both is entirely Mark's stage-7 touchpoints: the admission
+read, the freeze, and the registry transitions to `admitted`. The run
+reports stand unedited as the historical record; this entry is the
+disposition.
+
+### Next action
+
+Mark: the stage-7 touchpoints for alx and desert, when ready. The pilot's
+remaining long pole is M7.

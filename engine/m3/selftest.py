@@ -28,10 +28,30 @@ def _load_m3_defects() -> list[dict]:
     return [d for d in defects if d.get("layer") == "M3"]
 
 
+def _advisory_register_findings(battery) -> list[str]:
+    """Findings the register heuristic recorded without failing the probe -
+    Mark's 2026-08-28 ruling made that check advisory (direction, not a
+    gate; engine.m3.grading.register_check's own docstring carries the
+    ruling). The seeded-defect proof and the anti-inertness proof both
+    survive with "flag" meaning DETECTED: a seeded register defect must
+    surface as an advisory finding, and the clean fixture must surface
+    none."""
+    return [
+        f
+        for r in battery
+        for c in r.checks
+        if c["check"] == "register_coined_aphorism_heuristic"
+        for f in c.get("findings", [])
+    ]
+
+
 def run() -> dict:
     clean_records = load_world_records(WORLD_KEY)
     baseline = harness.run_battery(WORLD_KEY, clean_records)
-    baseline_pass = all(r.passed for r in baseline)
+    baseline_advisories = _advisory_register_findings(baseline)
+    # Anti-inertness now includes the advisory channel: a clean fixture
+    # must neither fail probes nor trip advisory register findings.
+    baseline_pass = all(r.passed for r in baseline) and not baseline_advisories
     baseline_failures = [r.probe_id for r in baseline if not r.passed]
 
     defect_results = []
@@ -40,7 +60,7 @@ def run() -> dict:
         apply_mutation(mutated, defect)
         battery = harness.run_battery(WORLD_KEY, mutated)
         failing = [r for r in battery if not r.passed]
-        caught = len(failing) > 0
+        caught = len(failing) > 0 or bool(_advisory_register_findings(battery))
         defect_results.append(
             {
                 "id": defect["id"],
@@ -48,6 +68,7 @@ def run() -> dict:
                 "status": "caught" if caught else "MISSED",
                 "failing_probes": [r.probe_id for r in failing],
                 "findings": [c for r in failing for c in r.checks if not c["passed"]],
+                "advisory_register_findings": _advisory_register_findings(battery),
             }
         )
 
@@ -59,7 +80,7 @@ def run() -> dict:
     return {
         "stage": "4",
         "world": WORLD_KEY,
-        "baseline_clean_fixture": {"pass": baseline_pass, "failing_probes": baseline_failures},
+        "baseline_clean_fixture": {"pass": baseline_pass, "failing_probes": baseline_failures, "advisory_register_findings": baseline_advisories},
         "defects": defect_results,
         "overall_pass": overall_pass,
         "admission_results_preview": baseline_results_doc,

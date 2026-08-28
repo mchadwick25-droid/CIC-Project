@@ -3,24 +3,18 @@
   "world": "fix",
   "baseline_clean_fixture": {
     "pass": true,
-    "failing_probes": []
+    "failing_probes": [],
+    "advisory_register_findings": []
   },
   "defects": [
     {
       "id": "admission-register-invented-aphorism",
       "gate": "admission-register-check",
       "status": "caught",
-      "failing_probes": [
-        "c-p-probe-01"
-      ],
-      "findings": [
-        {
-          "check": "register_coined_aphorism_heuristic",
-          "passed": false,
-          "findings": [
-            "probe c-p-probe-01: answer contains a metaphor-as-definition construction ('faith is the bridge that') not grounded in any sourced quote - register statement 6 requires anything quotable to *be* a quote, named and sourced, never coined free"
-          ]
-        }
+      "failing_probes": [],
+      "findings": [],
+      "advisory_register_findings": [
+        "probe c-p-probe-01: ADVISORY (direction, not a gate - Mark's ruling 2026-08-28): answer contains a metaphor-as-definition construction ('faith is the bridge that') not grounded in any sourced quote - register statement 6's direction is conversational register, recorded here for review, never failing the probe"
       ]
     },
     {
@@ -38,7 +32,8 @@
             "probe c-p-probe-01: citation(s) do not resolve to any source record: ['fix.source.does-not-exist']"
           ]
         }
-      ]
+      ],
+      "advisory_register_findings": []
     }
   ],
   "overall_pass": true,
@@ -64,7 +59,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "We did not claim to have seen him ourselves. We claimed only that the ones who told us could not be talked out of what they had seen, and that this was worth our lives changing because of it."
       },
       {
         "probe_id": "c-e-probe-01",
@@ -82,7 +78,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "c-p-probe-01",
@@ -100,7 +97,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "We did not see him ourselves. We hold only what his witnesses could not stop telling - and it was enough to change how we lived. We cannot make you believe. We can only tell you what was told to us, plainly, and let it stand or not on its own."
       },
       {
         "probe_id": "c-t-probe-01",
@@ -118,7 +116,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You ask if we believed in the Trinity. We have to tell you plainly: that is not a word our sources use. We spoke of the Father, the Son, and the Spirit together - see fix.term.the-three for how - but the word \"Trinity\" itself comes from a council later than anything our record reaches.\n"
       },
       {
         "probe_id": "f1-i-probe-01",
@@ -136,7 +135,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "How this world named Father, Son, and Spirit together. This was said before any later word for it existed. Father, Son, and Spirit, named together, before the later word for it."
       },
       {
         "probe_id": "f1-e-probe-01",
@@ -154,7 +154,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f1-p-probe-01",
@@ -172,7 +173,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f1-t-probe-01",
@@ -190,7 +192,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f2-i-probe-01",
@@ -208,7 +211,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f2-e-probe-01",
@@ -226,7 +230,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You ask how much of what we have told you would hold up in a university library. We will not pretend: we are built from two short fixture texts, made for testing, not from a real archive. Nothing we say should be weighed as scholarship - only as a working example of how an honest limit is spoken.\n"
       },
       {
         "probe_id": "f2-p-probe-01",
@@ -244,7 +249,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f2-t-probe-01",
@@ -262,7 +268,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f3-i-probe-01",
@@ -280,7 +287,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f3-e-probe-01",
@@ -298,7 +306,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f3-p-probe-01",
@@ -316,7 +325,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f3-t-probe-01",
@@ -334,7 +344,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f4-i-probe-01",
@@ -352,7 +363,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f4-e-probe-01",
@@ -370,7 +382,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f4-p-probe-01",
@@ -388,7 +401,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f4-t-probe-01",
@@ -406,7 +420,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f5-i-probe-01",
@@ -424,7 +439,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f5-e-probe-01",
@@ -442,7 +458,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f5-p-probe-01",
@@ -460,7 +477,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "A household in Testland loses its standing in the market square after the youngest son is seen at the Sunday gathering; the family holds together anyway. When the youngest of that house was seen going to the gathering on the first day, the market stalls that had traded with them for years began to trade elsewhere. The family did not leave the gathering. They ate less that winter, and stayed.\n"
       },
       {
         "probe_id": "f5-t-probe-01",
@@ -478,7 +496,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f6-i-probe-01",
@@ -496,7 +515,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f6-e-probe-01",
@@ -514,7 +534,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You have asked me something my fixture record was never built to answer. I was made from two short synthetic texts, on purpose, to test how a system like this one handles gates and coverage - not to speak for the whole shape of Christian history. On this question I have nothing honestly to give you.\n"
       },
       {
         "probe_id": "f6-p-probe-01",
@@ -532,7 +553,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "We did not ask what a person had been before the water. We asked only what they carried after it. It is not our role to weigh what you are - only to tell you honestly what we held, and let you judge for yourself what it means for you."
       },
       {
         "probe_id": "f6-t-probe-01",
@@ -550,7 +572,8 @@
             "findings": []
           }
         ],
-        "error": null
+        "error": null,
+        "answer_text": "You ask if people outside our community are going to hell. Our sources do not give us a settled answer to carry to you - the fixture scroll was never written to answer this, and we will not invent one to sound complete.\n"
       }
     ],
     "overall_pass": true,
