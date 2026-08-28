@@ -1232,3 +1232,56 @@ the net to ground.
 disk. From the Render shell:
 `python -m engine.m7.cli audit --events-db $CIC_API_EVENTS_DB --out /data/m7-audits/$(date +%F)`
 — free at any cadence (phase 1 makes no model calls).
+
+---
+
+## 2026-08-28 — Mark's read of the FIRST live participant conversation
+(syr, "who is jesus"): two fixes shipped, one register defect named and
+awaiting his ruling
+
+**Ground truth first: yes, the site is live** — the doors opened at
+Mark's own flip earlier today; churchinconversation.com's Atlas and cards
+deep-link into the app at cic-engine.onrender.com, which serves main.
+
+**Shipped now (merged to main; Render redeploys):**
+1. **The conversation thread is clean.** General References now sits
+   collapsed behind one line — "General references (N)" — and opens on
+   click. Mark: "the long bibliography should be a click... we want the
+   conversation thread clean with the ability to hover and click if you
+   want deeper information." This refines his 2026-08-25 correction
+   (references out of the running text) rather than reversing it. New
+   participant-facing string inventory: the label "General references
+   (N)" (count added to the existing label; disclosure triangle is CSS).
+2. **The register defect is now measurable.** engine/m7 gains
+   register_frame: three deterministic detectors — "this world"
+   third-person framing (his screen: "To this world Jesus is..."), a
+   voice saying its own name in running text (the P1-L4 Papnoute
+   read-note), and a "Name (World):" label echo (the F1-L4 read-note).
+   Zero false positives over the surviving F1 battery log's 9 turns; the
+   sanctioned L4 "at this Table" openings do not trigger.
+
+**Diagnosed, not yet fixed (Mark's ruling + spend grant needed):**
+- **"To this world..." third person.** The witness register is first
+  person plural; the voice stood outside its own world on the very first
+  live answer. The two battery read-notes were this same family — logged
+  then as M7-audit-class observations; the first participant conversation
+  shows the family is a register defect, not a tendency. The fix is
+  craft-level (a first-person-plural frame rule in the fleet voice
+  contract / voice_craft), which changes compiled prompts, which means
+  recompile + admission battery re-verification — the world-build route,
+  never a live patch.
+- **Glossary/story/quote tracks were silent, not broken.** All four
+  transparency tracks are live code; a gloss fires only on a cited TERM
+  record whose word appears in the citing sentence (the anti-lecturing
+  discipline), a story/quote mark only on a cited story/quote record.
+  This answer cited only source records, so nothing fired. Two concrete
+  findings routed to the world build: (1) the voice QUOTED Aphrahat's
+  "sure thing" line, which exists as syr.quote.aphrahat-sure-thing, but
+  cited the source record instead — the quote track stayed dark on a
+  real quotation; (2) participant-level terms the answer leaned on
+  (Sheol, Only-Begotten) have no term records in syr's lexicon, so they
+  cannot gloss.
+
+**Production sweep:** the M7 audit over the Render disk (the shell
+one-liner logged in the previous entry) now detects all of the above,
+including Mark's own conversation.
