@@ -6,15 +6,17 @@ fabrication on the fixture world") - both take ONLY a MaskedTranscript
 source_boundedness is mechanical and reliable: every citation on a masked
 transcript must resolve to a real source record, transitively (see
 engine.m3.harness._transitive_source_ids), OR name a record in
-engine.m1.canon.voice_scaffold_types() - the fleet's second, distinct
-citation category (the voice's own sanctioned identity/craft framing,
-spec principle 14, never itself historical evidence and never expected to
-be) - OR name a record in engine.m1.canon.evidence_status_types() - the
-third category (a search record, definitionally sourceless: it documents
-the looking itself, so citing one grounds an honest evidence-of-absence
-claim). All three are real, non-fabricated citations; only a citation
-that resolves to none of them is a finding. No model needed, and none
-would make it more correct.
+engine.m1.canon.evidence_status_types() (a search record, definitionally
+sourceless: it documents the looking itself, so citing one grounds an
+honest evidence-of-absence claim). Both are real, non-fabricated
+citations; a citation that resolves to neither is a finding. No model
+needed, and none would make it more correct. (A third category -
+voice-scaffold self-attribution - existed 2026-08-26..28 while
+voice_craft compiled as a citable record section; the compiler fix made
+it unreachable and the fleet-parity battery measured exactly that - zero
+scaffold citations in 168 probes - so it was deleted, per the
+foundation audit's own rule about patches outliving their causes. See
+engine/m1/canon.py's tombstone note.)
 
 register is NOT mechanical in general - spec module M3 says outright that
 "Mark's reading is the instrument for register" (spec SS5, threshold
@@ -49,14 +51,11 @@ class CheckResult:
 def source_boundedness_check(
     transcript: MaskedTranscript,
     known_source_ids: set[str],
-    voice_scaffold_ids: set[str] = frozenset(),
     evidence_status_ids: set[str] = frozenset(),
 ) -> CheckResult:
     assert_blind(transcript)
     citations = transcript["citations"]
-    unresolved = [
-        c for c in citations if c not in known_source_ids and c not in voice_scaffold_ids and c not in evidence_status_ids
-    ]
+    unresolved = [c for c in citations if c not in known_source_ids and c not in evidence_status_ids]
     if unresolved:
         return CheckResult(
             check="source_boundedness",
@@ -68,11 +67,6 @@ def source_boundedness_check(
     # gets - a report reader should be able to see WHICH category cleared
     # each citation, not just that something did.
     findings = []
-    scaffolded = sorted(set(citations) & voice_scaffold_ids)
-    if scaffolded:
-        findings.append(
-            f"probe {transcript['probe_id']}: citation(s) accepted as voice-scaffold self-attribution, not source evidence: {scaffolded}"
-        )
     evidence_status = sorted(set(citations) & evidence_status_ids)
     if evidence_status:
         findings.append(
