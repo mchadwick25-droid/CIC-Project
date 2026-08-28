@@ -590,9 +590,30 @@ C6 (first live pairings). And the standing one: **no live table smoke run
 happens without Mark's explicit per-run authorization** — nothing live was
 run in this thread.
 
+**Update, same day — SS77 fix and the authorized live smoke run.** Mark
+authorized both in-thread. (1) The bridge-term history leak (the modern word
+replaying to the voice one turn late) is fixed in both modes through one
+function (`engine.api.wiring.replay_transcript`), regression-pinned. (2) The
+live table smoke run ran (alx + desert, two messages, us-east-1; report:
+`engine/m4/reports/live-table-report.json`; script:
+`engine/m4/live_table_run.py`): two full rounds, both closed by the
+selector's own judgment at 3 turns (cap never hit), 16–25s per voice turn,
+dominance a perfect 0.50/0.50 word-share, **zero isolation violations live**,
+and genuine cross-voice encounter in round 2 (each voice engaging — and at
+one point deferring to — what the other actually said). Two honest findings
+for follow-up, both detected-not-blocked by design: the fleet voice-craft
+pronoun rule (first-person singular) comes under real pressure in the
+Table's reactive register ("what I want you to carry from what he said"),
+firing output_check repeatedly; and output_check's conversational checks are
+table-blind — they read the voice's own pair-history, not the at-the-Table
+context, so a first-turn reference to another voice's words misreads as
+"claims prior discourse with no prior turns." Token counts are in the
+report; no $ figure until a reconciled invoice (principle 13).
+
 ### Next action
 
-Mark: answer C4–C6 when ready; authorize (or defer) the live table smoke run;
-read the three DRAFT facilitator table texts for approval. The frontend tray
-UI remains the frontend thread's own scope, now with a real API to build
+Mark: answer C4–C6 when ready; read the three DRAFT facilitator table texts
+for approval; rule on the two smoke-run findings (table register vs. the
+pronoun rule; table-aware output_check). The frontend tray UI remains the
+frontend thread's own scope, now with a real, live-proven API to build
 against.
