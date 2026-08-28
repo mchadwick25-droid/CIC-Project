@@ -1065,3 +1065,26 @@ already reached the room — give it a moment." (duplicate message) and
 small variants of the approved family, noted here so the inventory stays
 complete. With this merge, every foundation-audit move is closed and no
 raw backend string can reach a participant.
+
+---
+
+## 2026-08-28 — ADMITTED: Mark admits all six worlds
+
+**Mark's act, his own words: "yes i admit all six worlds."** The registry
+records it: alx, desert, pahc, hal, syr, ijc transition `built` →
+`admitted`, each annotated with the full basis — the fleet-parity
+battery's 28/28 under the corrected instrument as the mechanical
+certificate, Mark's read made through the day's session (every flagged
+and failing answer the fleet produced, plus three full live Table
+conversations), and the pinned manifest hashes as the freeze. The
+fixture world stays `built` forever, by design.
+
+**What this changes today: nothing a participant sees** — enforcement
+remains `CIC_ENFORCE_ADMISSION="0"`. What it changes structurally:
+Mark's doors-open flip is now SAFE — flipping to `"1"` will list and
+seat exactly these six worlds instead of emptying the doorway. The
+admission-gate tests were made stage-independent in the same commit
+(they had assumed the registry's pre-admission stage).
+
+**Doors-open, when Mark calls it, is now one line:** render.yaml's
+`CIC_ENFORCE_ADMISSION` to `"1"`.

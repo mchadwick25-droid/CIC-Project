@@ -1,13 +1,13 @@
 """The admission gate (stage-10 enforcement; 2026-08-28). The 2026-08-26
 audit's headline finding: the running engine never checked registry state -
 create_session served any `built` world. The gate exists now, off by
-default (today's informed-tester practice as an explicit, declared
-deferral), and CIC_ENFORCE_ADMISSION=1 is Mark's doors-open flip. Both
-directions are pinned here: enforcement refuses everything in today's
-registry (all worlds sit at `built`), refuses nothing once a world's state
-is admitted/open, and the default leaves current behavior byte-identical
-(every other test in this suite runs with the default and would scream
-otherwise)."""
+default (declared deferral), and CIC_ENFORCE_ADMISSION=1 is Mark's
+doors-open flip. Both directions are pinned here against test-CONSTRUCTED
+registry states (the live registry's stage moves - all six formation
+worlds were admitted by Mark on 2026-08-28 - and these tests must hold at
+every stage): enforcement refuses `built`, admits `admitted`/`open`, and
+the default leaves current behavior unchanged (every other test in this
+suite runs with the default and would scream otherwise)."""
 import copy
 
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
@@ -26,10 +26,19 @@ def _enforcing_client(*, store, usage_store, world_loader, registry):
     return TestClient(app)
 
 
+def _all_built(registry):
+    """The pre-admission stage, constructed - not assumed from the live
+    registry, whose formation worlds advanced to `admitted` on 2026-08-28."""
+    built = copy.deepcopy(registry)
+    for entry in built.values():
+        entry["state"] = "built"
+    return built
+
+
 def test_enforcement_refuses_built_worlds(store, usage_store, world_loader, registry):
-    http = _enforcing_client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
-    # Interview: every world in today's registry is `built` - refused,
-    # including the fixture (which never advances past built by design).
+    http = _enforcing_client(store=store, usage_store=usage_store, world_loader=world_loader, registry=_all_built(registry))
+    # Interview: a `built` world is refused, including the fixture (which
+    # never advances past built by design).
     resp = http.post("/api/session", json={"world_key": "alx"})
     assert resp.status_code == 403
     assert "admission" in resp.json()["detail"]
@@ -45,7 +54,7 @@ def test_enforcement_refuses_built_worlds(store, usage_store, world_loader, regi
 def test_enforcement_admits_admitted_worlds(store, usage_store, world_loader, registry):
     # The same registry with alx and desert advanced to the states the
     # lifecycle defines - the gate opens for exactly them.
-    admitted = copy.deepcopy(registry)
+    admitted = _all_built(registry)
     admitted["alx"]["state"] = "admitted"
     admitted["desert"]["state"] = "open"
     http = _enforcing_client(store=store, usage_store=usage_store, world_loader=world_loader, registry=admitted)
