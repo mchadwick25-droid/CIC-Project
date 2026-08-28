@@ -22,7 +22,11 @@ export function Arrival({ world }: ArrivalProps) {
       <div className="arrival__era sans" style={{ color: world.accentColor }}>
         {world.cardName} · c. {world.eraStart}–{world.eraEnd}
       </div>
-      {world.cardName !== world.displayName && (
+      {/* The scholarly register earns its line only when it's a genuinely
+          different name (Mark's screen read, 2026-08-28: syr's "studied as
+          Syriac Christianity (Edessa/Nisibis)" merely restated the kicker
+          plus a parenthetical the place line already carries). */}
+      {!world.displayName.startsWith(world.cardName) && (
         <div className="arrival__scholarly sans">studied as {world.displayName}</div>
       )}
       <h1 className="arrival__name">{world.representativeName}</h1>
@@ -30,7 +34,7 @@ export function Arrival({ world }: ArrivalProps) {
         {world.roleLabel} · <span className="sans">{world.place}</span>
       </p>
 
-      {world.horizon && <p className="arrival__horizon">{world.horizon}</p>}
+      {world.doorwayDescription && <p className="arrival__horizon">{world.doorwayDescription}</p>}
 
       <div className="arrival__thinness">
         <div className="arrival__thinness-label sans">What this voice knows well — and doesn't</div>

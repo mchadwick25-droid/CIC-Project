@@ -23,7 +23,9 @@ function toEntry(summary: WorldSummary): WorldEntry | null {
     eraStart: summary.time_window.start,
     eraEnd: summary.time_window.end,
     thinnessStatement: summary.thinness_statement ?? '',
-    horizon: summary.horizon,
+    // Prefer the registry's plain-English doorway paragraph; fall back to
+    // the model-facing horizon only for an entry that hasn't authored one.
+    doorwayDescription: summary.doorway_description ?? summary.horizon,
     livingTraditionFlag: summary.living_tradition_flag,
     starters: summary.starters,
     portraitImage: assets.portraitImage,

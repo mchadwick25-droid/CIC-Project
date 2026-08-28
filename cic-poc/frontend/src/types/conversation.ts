@@ -155,6 +155,9 @@ export interface WorldSummary {
   time_window: { start: number; end: number } | null;
   place: string | null;
   thinness_statement: string | null;
+  // Registry-owned participant-facing doorway paragraph (plain English);
+  // horizon is the model-facing self-description kept as the fallback.
+  doorway_description?: string | null;
   horizon: string | null;
   living_tradition_flag: boolean;
   starters: WorldStarter[];

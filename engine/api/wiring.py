@@ -166,9 +166,20 @@ def list_worlds(*, world_loader: LazyWorldLoader, registry: dict, require_admitt
                 # picture in their mind"), display_name the scholarly one
                 # ("to show rigor"). The registry owns both.
                 "card_name": entry.get("card_name") or frame.get("display_name"),
+                # Registry-owned participant-facing doorway paragraph (Mark's
+                # plain-English direction, 2026-08-28), same registry-first
+                # pattern as card_name. `horizon` below is the world_core's
+                # model-facing self-description and stays served as the
+                # fallback for a registry entry that hasn't authored one.
+                "doorway_description": entry.get("doorway_description"),
                 "representative": frame.get("representative"),
                 "time_window": frame.get("time_window"),
-                "place": frame.get("place"),
+                # doorway_place: participant-facing subtitle where the
+                # registry authored one; frame's place is MODEL-FACING (it
+                # compiles into the voice capsule's "Place:" line), which is
+                # why the plain-English rewrite lives beside it instead of
+                # replacing it.
+                "place": entry.get("doorway_place") or frame.get("place"),
                 "thinness_statement": frame.get("thinness_statement"),
                 "horizon": frame.get("horizon"),
                 "living_tradition_flag": frame.get("living_tradition_flag", False),
