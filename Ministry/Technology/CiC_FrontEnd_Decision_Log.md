@@ -803,3 +803,58 @@ the freeze, the registry transition to `admitted` (and, at launch, the
 
 Mark: stage-7 touchpoints, now for the whole fleet. The pilot's remaining
 long poles are M7 (transcript audit) and the frontend table mode.
+
+---
+
+## 2026-08-28 — Mark's launch ruling: modules with mapped connections; the
+Interview frictionless, the Table intentional; arrival happens inside the room
+
+**Mark's ruling, his own words:** "everything working as modules with clear
+mapped connections, so if something needs refining or adding to it doesn't
+break the system… if you launch an interview from the atlas it should go
+straight into the conversation, not to a waiting place, same with cards.
+the only thing that is launched from its own field is the multi-voice
+table as you need to be able to select multiple worlds and have
+suggestions of what work well together… reposition the cards as a launch
+system for both the interviews and the multi-voice conversations, but
+clear differentiation. We want to launch the interview to be easier…
+but the multi-voice table to be a little more intentional as it is more
+expensive." On the disclosure tension: "arrival happens inside the room
+yes."
+
+**The heart of it:** the interview is the low threshold to encounter; a
+Table is something you *convene*. The friction gradient matches both the
+cost (≈$0.25/hr vs ≈$0.58/sitting, rate-card, unreconciled) and the
+meaning — the 5-round cap already makes a Table a sitting, and now the
+launch feels like one.
+
+**The contract (the module boundary), built the same day on
+`claude/launch-system`:** one deep-link grammar between discovery and app —
+`?worlds=<id>&mode=interview` → straight into the room;
+`?worlds=a,b&mode=table` → the Table field with seats chosen, never
+auto-starting; bare `/` → the launch screen. Discovery surfaces (site
+cards, Atlas) never create sessions. Built: the Doorway screen retired
+into an Arrival block inside the conversation (every approved sentence
+relocated verbatim; starter questions now offered in-room until the first
+message); the world cards now launch both shapes ("Begin the Interview" /
+"Add to the Table"); the Table field with seats, pairing guidance from the
+C6 record as *data* (P4 deliberately not offered, per its own
+battery-first status), and one deliberate "Convene the Table" action; the
+Table room itself on the turn-at-a-time transport (voices land one by
+one, per-voice attribution, the sitting's own close); Atlas and site cards
+carry the quiet second "Bring to the Table" hand-off.
+
+**Needs Mark's read (new participant-facing prose, per the
+draft-and-approve discipline):** the Table field's intro ("A Table seats
+two or three of these voices…"), the four pairing titles/blurbs (derived
+from the C6 record, which itself still awaits sign-off), the pluralized
+disclosure line in the table room ("These names are ours; every quote and
+claim is theirs…" — a one-word adaptation of the approved per-world
+sentence), the round-in-progress line, and the sitting-ended line. All
+inventoried here so nothing participant-facing ships unread.
+
+### Next action
+
+Mark: read the new prose above and the C6 pairings; then the branch can
+merge. Per-pairing battery runs (his per-run authorization) before any
+Table faces a participant.
