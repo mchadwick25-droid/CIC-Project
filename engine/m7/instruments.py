@@ -174,6 +174,46 @@ def offer_rates(s: AuditSession) -> dict:
     return dict(counts)
 
 
+def register_frame(s: AuditSession, names: dict[str, list[str]] | None = None) -> list[Finding]:
+    """§3.3's frame half, added 2026-08-28 after the first live participant
+    conversation: a voice standing OUTSIDE its own world's witness. Mark's
+    read of syr's first answer ("To this world Jesus is...") named it -
+    "this should be first person plural" - and the pairing batteries had
+    already shown the same family twice (P1-L4 Papnoute in the third
+    person; F1-L4 a "Papnoute (Desert Monasticism):" label echo). Three
+    deterministic detectors, all review:
+
+    - "this world" / "to this world" in a voice's own turn - the communal
+      witness ("we", "our") never calls itself "this world".
+    - the voice's own representative or world name in its own running text
+      (names supplied by the caller from the registry; keyed by the
+      speaker's world_key).
+    - a leading "Name (World):" label echo - transcript attribution
+      format bleeding into the spoken text.
+    """
+    findings = []
+    names = names or {}
+    for t in s.voice_turns:
+        lowered = t.text.lower()
+        if "this world" in lowered:
+            findings.append(Finding("register_frame", "review", s.session_id,
+                                    f"{t.speaker}'s turn (seq {t.seq}) speaks of its own world in the third person "
+                                    f"(\"this world\") - the witness register is first person plural",
+                                    excerpt=t.text[:160]))
+        for own_name in names.get(t.speaker, []):
+            if own_name and own_name.lower() in lowered:
+                findings.append(Finding("register_frame", "review", s.session_id,
+                                        f"{t.speaker}'s turn (seq {t.seq}) says its own name ({own_name!r}) in its "
+                                        f"running text - third-person self-reference",
+                                        excerpt=t.text[:160]))
+                break
+        if re.match(r"^\s*\S[^:\n]{0,60}\([^)]{1,60}\)\s*:", t.text):
+            findings.append(Finding("register_frame", "review", s.session_id,
+                                    f"{t.speaker}'s turn (seq {t.seq}) opens with a \"Name (World):\" label echo",
+                                    excerpt=t.text[:160]))
+    return findings
+
+
 def encounter_openings(s: AuditSession) -> list[Finding]:
     """§3.8 - personal_wound-register messages, with what followed."""
     findings = []
@@ -221,13 +261,17 @@ def canon_candidate_asks(s: AuditSession) -> list[str]:
     return asks
 
 
-def run_all(s: AuditSession) -> dict:
+def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
     """Every phase-1 instrument over one session. The per-session audit
-    document's content half (report.py owns the file shapes)."""
+    document's content half (report.py owns the file shapes). `names` maps
+    world_key -> that world's own names (representative, display, card)
+    for the register_frame self-reference detector; the CLI builds it from
+    the registry."""
     reg_findings, reg_metrics = register_mechanical(s)
     findings = (
         unread_outputs(s) + isolation(s) + reg_findings + ask_coverage(s)
-        + repetition(s) + safety_review(s) + encounter_openings(s) + governance(s)
+        + repetition(s) + safety_review(s) + register_frame(s, names)
+        + encounter_openings(s) + governance(s)
     )
     return {
         "session_id": s.session_id,

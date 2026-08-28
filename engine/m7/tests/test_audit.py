@@ -15,6 +15,7 @@ from engine.m7.instruments import (
     governance,
     isolation,
     offer_rates,
+    register_frame,
     repetition,
     run_all,
     safety_review,
@@ -206,6 +207,37 @@ def test_safety_abandonment_is_review(tmp_path):
     findings = safety_review(read_session(store, i_sid))
     assert len(findings) == 1
     assert findings[0].instrument == "safety_abandonment" and findings[0].severity == "review"
+
+
+def test_register_frame_catches_all_three_families(tmp_path):
+    """The three real cases: Mark's screen (syr, 'To this world Jesus
+    is...'), P1-L4 (Papnoute in the third person), F1-L4 (the
+    'Papnoute (Desert Monasticism):' label echo)."""
+    store = Store(tmp_path / "events.db")
+    sid = "frame-" + uuid.uuid4().hex[:8]
+    _append(store, sid, "session_started", {
+        "mode": "interview", "frame": "general_seeker", "code_hash": "abc",
+        "world_key": "syr", "package_manifest_hash": "sha256:x",
+    })
+    _append(store, sid, "voice_turn", _voice(
+        "syr", "To this world Jesus is the Only-Begotten of God.", []))
+    _append(store, sid, "voice_turn", _voice(
+        "syr", "Mar Yausep has spoken of the covenant before.", []))
+    _append(store, sid, "voice_turn", _voice(
+        "syr", "Mar Yausep (Syriac Christianity): We remember the flood of 201.", []))
+    _append(store, sid, "voice_turn", _voice(
+        "syr", "We remember the covenant, and we sing what we believe.", []))
+    names = {"syr": ["Mar Yausep", "Syriac Christianity (Edessa/Nisibis)"]}
+    findings = register_frame(read_session(store, sid), names)
+    assert all(f.severity == "review" for f in findings)
+    details = " | ".join(f.detail for f in findings)
+    assert "third person" in details and '"this world"' in details
+    assert "its own name" in details
+    assert "label echo" in details
+    # the clean communal turn produced nothing: 1 this-world + 2 own-name + 1 label echo
+    assert len(findings) == 4
+    # without names, the name detector stays silent rather than guessing
+    assert all("its own name" not in f.detail for f in register_frame(read_session(store, sid), None))
 
 
 def test_encounter_openings_counted(tmp_path):
