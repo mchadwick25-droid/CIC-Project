@@ -83,4 +83,10 @@ COPY --from=frontend-build /frontend/dist cic-poc/frontend/dist
 ENV PORT=8000
 EXPOSE 8000
 
-CMD ["sh", "-c", "uvicorn engine.api.app:app --host 0.0.0.0 --port ${PORT}"]
+# --proxy-headers + --forwarded-allow-ips: behind Render's proxy every
+# request's socket peer is the proxy itself; without these the per-IP
+# rate limiter (engine/api/ratelimit.py) would see ONE client and throttle
+# everyone together. X-Forwarded-For is set by Render's edge, and the
+# proxy is the only thing that can reach this container, so trusting it
+# is trusting the platform we already run on.
+CMD ["sh", "-c", "uvicorn engine.api.app:app --host 0.0.0.0 --port ${PORT} --proxy-headers --forwarded-allow-ips='*'"]

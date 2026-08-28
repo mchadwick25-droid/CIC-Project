@@ -28,7 +28,7 @@ class _FakeMessages:
         self._stream_chunks = stream_chunks
         self.captured_stream_calls = []  # [(system, messages), ...]
 
-    def stream(self, *, model, max_tokens, system=None, messages):
+    def stream(self, *, model, max_tokens, system=None, messages, timeout=None):
         self.captured_stream_calls.append((system, messages))
         return _FakeStreamCtx(self._stream_chunks)
 

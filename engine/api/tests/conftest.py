@@ -55,7 +55,7 @@ class _FakeMessages:
 
         return SimpleNamespace(content=[_FakeToolUse(name, copy.deepcopy(self._responses[name]))], usage=_FAKE_USAGE)
 
-    def stream(self, *, model, max_tokens, system=None, messages):
+    def stream(self, *, model, max_tokens, system=None, messages, timeout=None):
         self.stream_calls.append({"system": system, "messages": messages})
         return _FakeStreamCtx(self._stream_chunks)
 

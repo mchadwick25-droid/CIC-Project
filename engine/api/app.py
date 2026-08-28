@@ -8,7 +8,9 @@ module under pytest (CIC_API_REGION unset in CI) leaves `app = None` rather
 than trying to resolve model IDs or make a real, credentialed Bedrock client.
 Tests import `create_app` directly and build their own app from fakes.
 """
+import logging
 import os
+import time
 from dataclasses import asdict, dataclass
 
 import yaml
@@ -17,7 +19,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from engine.api import table_wiring, wiring
+from engine.api import ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.m4 import session_code
 from engine.m4.projection import project_fresh
@@ -28,6 +30,13 @@ from engine.m8.log_store import UsageLogStore
 _INVALID_SESSION_DETAIL = "invalid session"
 _WORLD_UNAVAILABLE_DETAIL = "world temporarily unavailable"
 _AUTH_PREFIX = "Session "
+
+# The service's one logger (2026-08-28 foundation audit: the service had
+# ZERO logging, and the one place the real Bedrock error was captured it
+# was discarded unbound - a throttling storm was indistinguishable from a
+# credential failure). Session ids are logged; participant text and voice
+# text never are.
+logger = logging.getLogger("cic.api")
 
 
 @dataclass
@@ -147,10 +156,19 @@ def create_app(
     registry: dict,
     default_world_key: str,
     enforce_admission: bool = False,
+    rate_limit: bool = False,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
-    makes a real Bedrock call itself. This is what tests call with fakes."""
+    makes a real Bedrock call itself. This is what tests call with fakes.
+
+    rate_limit defaults False so the fake-backed test apps (which fire
+    many requests from one TestClient 'IP' in seconds) aren't throttled;
+    _build_real_app - the ONLY production constructor - passes True, and
+    engine/api/tests/test_ratelimit.py pins that a rate-limited app
+    actually limits."""
     app = FastAPI(title="CiC engine/api (minimal test backend)")
+    if rate_limit:
+        ratelimit.install(app)
     app.state.deps = Deps(
         voice_client=voice_client,
         voice_model_id=voice_model_id,
@@ -198,7 +216,9 @@ def create_app(
             except wiring.WorldNotAdmitted as exc:
                 raise HTTPException(status_code=403, detail=f"world {exc.args[0]!r} has not passed admission")
             except PackageRefused:
+                logger.warning("table session refused: package unavailable worlds=%s", req.world_keys)
                 raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+            logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
             return SessionCreateResponse(session_id=session_id, session_code=code)
         world_key = req.world_key or deps.default_world_key
         try:
@@ -211,7 +231,9 @@ def create_app(
         except wiring.WorldNotAdmitted as exc:
             raise HTTPException(status_code=403, detail=f"world {exc.args[0]!r} has not passed admission")
         except PackageRefused:
+            logger.warning("session refused: package unavailable world=%s", world_key)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+        logger.info("session created session=%s mode=interview world=%s", session_id, world_key)
         return SessionCreateResponse(session_id=session_id, session_code=code)
 
     @app.post("/api/session/{session_id}/message", response_model=MessageResponse | TableMessageResponse)
@@ -231,9 +253,11 @@ def create_app(
             text=req.text,
             client_msg_id=req.client_msg_id,
         )
+        started = time.monotonic()
         try:
             if state.mode == "table":
                 result = table_wiring.handle_table_message(**call_kwargs)
+                logger.info("table message handled session=%s round=%s ms=%d", session_id, result.round_no, (time.monotonic() - started) * 1000)
                 return TableMessageResponse(**asdict(result))
             result = wiring.handle_message(**call_kwargs)
         except wiring.SessionNotFound:
@@ -243,9 +267,15 @@ def create_app(
         except table_wiring.TableRoundStillOpen:
             raise HTTPException(status_code=409, detail="round still open - continue it before the next message")
         except PackageRefused:
+            logger.warning("message refused: package unavailable session=%s", session_id)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-        except wiring.ProviderCallFailed:
+        except wiring.ProviderCallFailed as exc:
+            # The bound exception carries the real Bedrock error - the one
+            # signal that tells throttling apart from credentials apart
+            # from a bug. The audit found it constructed and discarded.
+            logger.error("provider call failed session=%s: %s", session_id, exc)
             raise HTTPException(status_code=502, detail="provider call failed")
+        logger.info("message handled session=%s turn=%s ms=%d", session_id, result.turn_no, (time.monotonic() - started) * 1000)
         return MessageResponse(**asdict(result))
 
     @app.post("/api/session/{session_id}/continue", response_model=TableMessageResponse)
@@ -274,8 +304,10 @@ def create_app(
         except table_wiring.TableRoundNotOpen:
             raise HTTPException(status_code=409, detail="no open round to continue")
         except PackageRefused:
+            logger.warning("continue refused: package unavailable session=%s", session_id)
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
-        except wiring.ProviderCallFailed:
+        except wiring.ProviderCallFailed as exc:
+            logger.error("provider call failed session=%s (continue): %s", session_id, exc)
             raise HTTPException(status_code=502, detail="provider call failed")
         return TableMessageResponse(**asdict(result))
 
@@ -321,6 +353,13 @@ def create_app(
 def _build_real_app() -> FastAPI:
     from engine.provider.bedrock import make_client, resolve_model_id
 
+    # Make the module logger actually emit under uvicorn: uvicorn
+    # configures its own loggers only, so without a root handler the
+    # "cic.api" records vanish. basicConfig is a no-op if a root handler
+    # already exists (e.g. a future log-shipping setup), so this never
+    # double-configures.
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
+
     settings = Settings.from_env()
     voice_model_id = resolve_model_id(settings.voice_model_pattern, settings.region)
     safety_model_id = resolve_model_id(settings.safety_model_pattern, settings.region)
@@ -339,6 +378,7 @@ def _build_real_app() -> FastAPI:
         registry=full_registry["worlds"],
         default_world_key=settings.default_world_key,
         enforce_admission=settings.enforce_admission,
+        rate_limit=True,
     )
 
 
