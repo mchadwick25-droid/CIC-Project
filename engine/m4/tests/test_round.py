@@ -9,13 +9,13 @@ from types import SimpleNamespace
 import pytest
 
 from engine.m4.round import (
+    TABLE_SESSION_ROUND_CAP,
     RoundConfig,
     directive_from_payload,
     open_table_round,
-    table_voice_turn_count,
     voice_message_for_round,
 )
-from engine.m4.turn import SESSION_TURN_CAP, GateRun
+from engine.m4.turn import GateRun
 from engine.m5.failure import CallOutcome
 from engine.m5.routing import Directive
 
@@ -54,12 +54,12 @@ def _gate_run(
     )
 
 
-def _open(gate_run, *, voice_turns_so_far=0, track_a_last=None, anachronistic_term_ids=frozenset()):
+def _open(gate_run, *, rounds_completed=0, track_a_last=None, anachronistic_term_ids=frozenset()):
     return open_table_round(
         gate_run=gate_run,
         representative_names=NAMES,
         track_a_last=track_a_last,
-        voice_turns_so_far=voice_turns_so_far,
+        rounds_completed=rounds_completed,
         anachronistic_term_ids=set(anachronistic_term_ids),
     )
 
@@ -79,18 +79,6 @@ def test_round_config_defaults_and_bounds():
         RoundConfig(floor=3, cap=7)  # beyond the re-tested ceiling
     with pytest.raises(ValueError):
         RoundConfig(floor=5, cap=4)  # floor above cap
-
-
-def test_table_voice_turn_count_ignores_participant_and_facilitator():
-    transcript = [
-        {"speaker": "participant", "text": "q"},
-        {"speaker": "facilitator", "text": "welcome"},
-        {"speaker": "alx", "text": "a"},
-        {"speaker": "desert", "text": "b"},
-        {"speaker": "participant", "text": "q2"},
-        {"speaker": "alx", "text": "c"},
-    ]
-    assert table_voice_turn_count(transcript) == 3
 
 
 # --- round-level routing ---
@@ -138,7 +126,7 @@ def test_track_b_speaks_check_then_proceeds():
 
 
 def test_session_cap_fires_at_table_unit():
-    opening = _open(_gate_run(), voice_turns_so_far=SESSION_TURN_CAP)
+    opening = _open(_gate_run(), rounds_completed=TABLE_SESSION_ROUND_CAP)
     assert opening.session_capped
     assert not opening.voices_speak
     assert opening.routing_action == "session_cap_turn"
@@ -147,7 +135,7 @@ def test_session_cap_fires_at_table_unit():
 def test_acute_crisis_overrides_session_cap():
     opening = _open(
         _gate_run(action="safety_turn", safety_value={"signal": "ACUTE_DISTRESS", "acute_level": "a2"}),
-        voice_turns_so_far=SESSION_TURN_CAP,
+        rounds_completed=TABLE_SESSION_ROUND_CAP,
     )
     assert not opening.session_capped
     assert opening.facilitator_events[0]["resources_appended"]

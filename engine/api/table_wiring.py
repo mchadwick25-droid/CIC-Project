@@ -43,12 +43,12 @@ from engine.m4.projection import SessionState, project_fresh
 from engine.m4.round import (
     RoundConfig,
     open_table_round,
-    table_voice_turn_count,
     voice_message_for_round,
 )
+from engine.m4.table_governance import detect_direct_address, governance_summary
 from engine.m4.store import Store
 from engine.m4.turn import UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
-from engine.m4.turn_selector import select_speaker
+from engine.m4.turn_selector import Selection, select_speaker
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
 from engine.m5.routing import PRESSABLE_CLASSES
@@ -253,8 +253,18 @@ def _last_participant_text(state: SessionState) -> str:
 
 def _close_round(store: Store, state: SessionState, *, reason: str, turns: int) -> int:
     """round_closed + turn_committed, in that order - a round, not a voice
-    turn, is the committed unit (Artifact-7 SS2). Returns the turn_no."""
-    closed_payload = {"round_no": state.round_no, "reason": reason, "turns": turns}
+    turn, is the committed unit (Artifact-7 SS2). Returns the turn_no.
+
+    Every close carries the deterministic governance summary (C5,
+    engine.m4.table_governance): per-voice word/turn shares and any
+    dominance findings over the conversation so far - detected and
+    audit-visible on the round_closed event, never blocking. Convergence
+    is deliberately absent here: the poc implemented it as a conservative
+    model judgment, so it runs in the live battery, not the round loop."""
+    closed_payload = {
+        "round_no": state.round_no, "reason": reason, "turns": turns,
+        "governance": governance_summary(state.transcript, state.world_keys or []),
+    }
     events.validate("round_closed", closed_payload)
     store.append(session_id=state.session_id, event_uuid=str(uuid.uuid4()), event_type="round_closed", payload=closed_payload)
     turn_no = state.turn_count + 1
@@ -312,24 +322,41 @@ def _advance_open_round(
         turn_no = _close_round(store, state, reason="cap", turns=state.round_turns)
         return TableMessageResult(**common, round_open=False, turn_selected=None, voice=None, position=None, turn_no=turn_no)
 
-    selector_transcript = "\n\n".join(_attributed_lines(transcript, labels)[-_SELECTOR_TRANSCRIPT_WINDOW:])
-    seated_lines = "\n".join(
-        f"- {w.frame['representative']['name']}, {w.frame['representative']['role_label']} of {w.frame['display_name']} (world_key: {k})"
-        for k, w in worlds.items()
-    )
-    transcript_speakers = [t["speaker"] for t in transcript if t.get("speaker") not in ("participant", "facilitator", None)]
-    selection, selector_outcomes = select_speaker(
-        safety_client,
-        safety_model_id,
-        message=voice_message,
-        transcript_text=selector_transcript or "(nothing yet - this is the opening turn)",
-        seated_lines=seated_lines,
-        world_keys=list(state.world_keys),
-        last_speaker=state.round_speakers[-1] if state.round_speakers else None,
-        close_allowed=config.close_allowed(state.round_turns),
-        transcript_speakers=transcript_speakers,
-        round_speakers=list(state.round_speakers),
-    )
+    # DIRECT ADDRESS BY NAME (Facilitator Governance SS8, C5): a participant
+    # who names exactly one seated Representative gets that voice at the
+    # round's opening position - immediately, with no selector call. The
+    # detection runs on the participant's RAW message (names are not modern
+    # terms; a bridged round's underlying subject carries no names to find).
+    direct_address = None
+    if state.round_turns == 0:
+        name_to_world = {w.frame["representative"]["name"]: k for k, w in worlds.items()}
+        direct_address = detect_direct_address(participant_text, name_to_world)
+    if direct_address is not None:
+        selection = Selection(
+            world_key=direct_address, close=False,
+            reason="direct address by name - routed immediately, no selector call (Facilitator Governance SS8)",
+            degraded=False,
+        )
+        selector_outcomes = []
+    else:
+        selector_transcript = "\n\n".join(_attributed_lines(transcript, labels)[-_SELECTOR_TRANSCRIPT_WINDOW:])
+        seated_lines = "\n".join(
+            f"- {w.frame['representative']['name']}, {w.frame['representative']['role_label']} of {w.frame['display_name']} (world_key: {k})"
+            for k, w in worlds.items()
+        )
+        transcript_speakers = [t["speaker"] for t in transcript if t.get("speaker") not in ("participant", "facilitator", None)]
+        selection, selector_outcomes = select_speaker(
+            safety_client,
+            safety_model_id,
+            message=voice_message,
+            transcript_text=selector_transcript or "(nothing yet - this is the opening turn)",
+            seated_lines=seated_lines,
+            world_keys=list(state.world_keys),
+            last_speaker=state.round_speakers[-1] if state.round_speakers else None,
+            close_allowed=config.close_allowed(state.round_turns),
+            transcript_speakers=transcript_speakers,
+            round_speakers=list(state.round_speakers),
+        )
     usage_records = []
     for outcome in selector_outcomes:
         if rec := _maybe_record_usage(
@@ -449,7 +476,7 @@ def handle_table_message(
         gate_run=gate_run,
         representative_names=representative_names,
         track_a_last=state.safety.track_a_last,
-        voice_turns_so_far=table_voice_turn_count(state.transcript),
+        rounds_completed=state.turn_count,
         anachronistic_term_ids=anachronistic_ids,
     )
 

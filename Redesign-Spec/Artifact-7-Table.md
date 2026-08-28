@@ -169,7 +169,21 @@ tags replay only where they verified.
 ## 5. The turn selector
 
 A new gate-class model call (`call_kind: "turn_selector"`, safety-model
-tier), invoked before each voice turn:
+tier), invoked before each voice turn — except two cases decided in code
+first:
+
+- **Direct address by name** (Facilitator Governance SS8, the governing
+  sentence the poc's S4.4a battery graded against: *"When the participant
+  addresses a specific Representative, you route accordingly. Immediately,
+  completely, without editorial intervention."*): a participant message
+  naming exactly one seated Representative routes that voice at the
+  round's opening position with no selector call. Conservative by the
+  proven design — two names is ambiguous and falls through to the
+  selector; "each/all/both of you" blocks the short-circuit; title-only
+  address stays the selector's regime.
+- **Forced moves** (below) make no call either.
+
+Otherwise:
 
 - **Input**: the participant's message, the round-so-far and recent public
   transcript, and for each seated world only participant-facing frame data
@@ -234,18 +248,47 @@ unchanged.
   kind `turn_selector`; voice-generation and selector usage records carry
   the speaking/selected `world_key` (nullable on non-world calls) so
   per-world cost at a shared table is answerable.
-- Session cap: **provisional (C4, DECIDABLE)** — carried forward as the
-  interview's unit, completed voice turns, `SESSION_TURN_CAP` unchanged,
-  which at a table means roughly 2–3 participant exchanges. This is the
-  conservative cost reading, marked in code as awaiting Mark's call between
-  "10 exchanges" and "10 voice turns" (and a live measured run, separately
-  authorized, before the number itself is re-derived).
+- Session cap: **C4 RESOLVED (2026-08-28, Mark's delegation of the full
+  C4 range)** — the table unit is **completed rounds**
+  (`TABLE_SESSION_ROUND_CAP`, default 5), not voice turns: rounds are what
+  a participant actually spends, and a voice-turn cap leaked the cost unit
+  into the participant's experience (~3 questions per session). The
+  default of 5 sits in the same measured output-token envelope as the
+  interview's 10-turn cap (compact-turn rounds ran ~1.8k output tokens;
+  live-table-report-2.json), and stays config pending a live long-session
+  input-growth measurement — the same discipline the interview cap's own
+  memory-growth run established.
 - No $ figure is quoted anywhere in this build until measured against a
   reconciled AWS invoice (spec principle 13); token counts are reportable.
 
 ## 8. Gates before a participant sits at a Table
 
-This artifact's own floor (C5's fuller battery remains Mark's call):
+**The Table battery (C5, defined 2026-08-28)** — the successor to the
+poc's S4.4a battery, implemented in `engine/m4/live_table_battery.py`
+(live, by-hand, per-run authorized; every deterministic half is already
+CI). Six probes in one session, ordered so probes 1–5 spend the round cap
+and probe 6 proves it: **L1** direct address by name (AUTO — FG SS8
+routing, zero selector calls), **L2** "each of you" breadth (AUTO — no
+short-circuit, ≥2 distinct voices), **L3** crisis at the table (AUTO —
+governed round, resources append, turns 0), **L4** no-foreknowledge (a
+voice asked directly about another seated world claims only what it heard
+here — RECORDED for Mark's read; the isolation sweep stays AUTO), **L5**
+cross-voice memory attribution (RECORDED), **L6** the session round cap
+close (AUTO). Post-run over the whole session: the isolation sweep, the
+per-round governance summaries read back from `round_closed`, and the
+convergence check — a conservative model judgment in the poc's own
+lineage, RECORDED, never auto-failed. Round-level **dominance** is
+deterministic and runs in the engine itself (`engine/m4/table_governance`,
+poc thresholds: word-share ≥0.70 min 150 words; turn-share ≥0.50 at 3+
+seats min 6 turns), attached to every `round_closed` payload — detected
+and audit-visible, never blocking. SS210's sealed safety battery needs
+**no** table-mode rerun on this build's evidence: the sealed call's input
+is byte-unchanged in table mode (same message-level call, same empty
+window/accumulator), and SS210's own trigger is a change to the sealed
+call's input — L3 stands as the live table-mode smoke of the governed
+path, not a substitute for that reasoning.
+
+This artifact's own floor:
 
 1. The §3 isolation suite green in CI (assertions, seeded leak, static
    scope check).

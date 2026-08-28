@@ -274,7 +274,7 @@ def test_selector_fallback_degrades_not_fails(store, usage_store, world_loader, 
 
 
 def test_session_cap_at_table_unit(store, usage_store, world_loader, registry, monkeypatch, alx_world, desert_world):
-    monkeypatch.setattr("engine.m4.round.SESSION_TURN_CAP", 1)
+    monkeypatch.setattr("engine.m4.round.TABLE_SESSION_ROUND_CAP", 1)
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
     client = _table_client(
@@ -294,6 +294,49 @@ def test_session_cap_at_table_unit(store, usage_store, world_loader, registry, m
     assert capped["facilitator"][0]["kind"] == "close"
     # The session is closed for good.
     assert http.post(f"/api/session/{session_id}/message", json={"text": "three"}, headers=auth).status_code == 409
+
+
+def test_direct_address_routes_without_selector(store, usage_store, world_loader, registry, alx_world, desert_world):
+    """FG SS8 end to end: naming Papnoute routes desert at position 1 with
+    no selector call at all (an empty selector script proves it - any call
+    would pop-from-empty and fail)."""
+    desert_sentence, _ = grounded_sentence(desert_world)
+    papnoute = desert_world.frame["representative"]["name"]
+    client = _table_client(selector_script=[], stream_scripts=[[desert_sentence]])
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http)
+    result = http.post(
+        f"/api/session/{session_id}/message",
+        json={"text": f"{papnoute}, what do you do with a restless mind?"}, headers=auth,
+    ).json()
+    assert result["voice"]["speaker"] == "desert"
+    assert "direct address" in result["turn_selected"]["reason"]
+    assert client.messages.selector_enums_seen == []
+    # And no turn_selector usage record exists - the routing cost nothing.
+    assert all(r.call_kind != "turn_selector" for r in usage_store.read_for_session(session_id))
+
+
+def test_round_closed_carries_governance_summary(store, usage_store, world_loader, registry, alx_world, desert_world):
+    """Every round_closed event carries the deterministic governance
+    summary (C5) - visible here through a full round driven over HTTP,
+    read back from the raw store."""
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "r1"}, {"next": "close", "reason": "done"}],
+        stream_scripts=[[alx_sentence], [desert_sentence], [alx_sentence]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http)
+    result = http.post(f"/api/session/{session_id}/message", json={"text": "what is prayer?"}, headers=auth).json()
+    while result["round_open"]:
+        result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    closed = [e for e in store.read_events(session_id) if e.event_type == "round_closed"]
+    assert len(closed) == 1
+    governance = closed[0].payload["governance"]
+    assert set(governance["word_share"]) == {"alx", "desert"}
+    assert governance["turns"] == {"alx": 2, "desert": 1}
+    assert isinstance(governance["dominance_signals"], list)
 
 
 def test_usage_records_carry_world_attribution(store, usage_store, world_loader, registry, alx_world):

@@ -26,7 +26,7 @@ from dataclasses import dataclass
 
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns
-from engine.m4.turn import SESSION_TURN_CAP, GateRun
+from engine.m4.turn import GateRun
 from engine.m5.routing import Directive, directive_without_terms
 
 
@@ -67,13 +67,23 @@ class RoundOpening:
     session_capped: bool = False
 
 
-def table_voice_turn_count(transcript: list[dict]) -> int:
-    """Completed voice turns across the whole session - the C4-provisional
-    session-cap unit, carried forward from the interview (where it is
-    len(history)//2 for the same reason: voice generations are what drive
-    cost). Counted from the transcript rather than history pairing because
-    a table round hangs several voice turns off one participant message."""
-    return sum(1 for t in transcript if t.get("speaker") not in (None, "participant", "facilitator"))
+# C4 RESOLVED (2026-08-28, Mark's delegation of the full C4 range): the
+# table session cap is counted in COMPLETED ROUNDS, not voice turns. The
+# interview's voice-turn unit was the right cost proxy for a mode where one
+# exchange is one voice turn; at a table one participant exchange spends
+# 1-4 voice turns, and capping the session at 10 voice turns would have
+# handed a participant roughly three questions - a cost unit leaking into
+# the participant's experience. Rounds are what a participant actually
+# spends. The NUMBER is set from the measured live runs (token counts,
+# engine/m4/reports/live-table-report-2.json): a compact-turn round ran
+# ~1.8k output tokens across 3 voice turns, so 5 rounds sits in the same
+# output-token envelope as the interview's measured 10-turn cap, with
+# input growth to be re-measured by a live long-session run before this
+# number is treated as load-bearing (same discipline as the interview
+# cap's own memory-growth measurement; no $ figure until a reconciled
+# invoice, principle 13). Config, not constant law - swappable without
+# touching round semantics.
+TABLE_SESSION_ROUND_CAP = 5
 
 
 def open_table_round(
@@ -81,7 +91,7 @@ def open_table_round(
     gate_run: GateRun,
     representative_names: list[str],
     track_a_last: dict | None,
-    voice_turns_so_far: int,
+    rounds_completed: int,
     anachronistic_term_ids: set,
 ) -> RoundOpening:
     """Resolve one gated participant message into the round it opens.
@@ -103,14 +113,13 @@ def open_table_round(
     )
     # THE CAP OVERRIDES EVERYTHING EXCEPT A REAL CRISIS - same rule, same
     # placement as the interview (checked after routing, before any voice
-    # call is spent). C4 PROVISIONAL: the unit is completed voice turns,
-    # carried forward from the interview's own cost-driven choice; whether
-    # a table participant gets N exchanges or N voice turns is Mark's open
-    # call, and this line is where his answer lands.
-    if not is_acute_crisis and voice_turns_so_far >= SESSION_TURN_CAP:
+    # call is spent). C4: the table unit is completed ROUNDS - see
+    # TABLE_SESSION_ROUND_CAP's own comment for the resolution and its
+    # measured basis.
+    if not is_acute_crisis and rounds_completed >= TABLE_SESSION_ROUND_CAP:
         return RoundOpening(
             routing_action="session_cap_turn",
-            **{**common, "routing_reason": f"session turn cap reached ({SESSION_TURN_CAP} voice turns)"},
+            **{**common, "routing_reason": f"session round cap reached ({TABLE_SESSION_ROUND_CAP} rounds)"},
             facilitator_events=[facilitator_turns.table_session_cap_turn(representative_names)],
             voices_speak=False,
             session_capped=True,
