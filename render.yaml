@@ -41,12 +41,22 @@
 # setting, not something any file in this repo records - confirm it
 # there when connecting or re-connecting.
 #
-# events.db/usage.db (engine/api/config.py's own defaults) are NOT on a
-# Render Disk here, so they are ephemeral container storage - wiped on
-# every restart and every redeploy, the same failure shape the retired
-# cic-poc entry once documented for its own JSONL transcripts. Fine for
-# a short pilot's worth of restarts; add a Render Disk before relying on
-# transcripts surviving a redeploy.
+# events.db/usage.db live on the Render Disk below (CIC_API_EVENTS_DB /
+# CIC_API_USAGE_DB point at its mount), so they survive restarts and
+# redeploys. They were in-container ephemeral storage until 2026-08-28 -
+# the same failure shape the retired cic-poc entry once documented for
+# its own JSONL transcripts. The disk closed that gap (foundation audit,
+# blocker #1): with
+# the DB paths at their in-container defaults, EVERY restart and redeploy
+# erased every transcript, every gate_decision audit record, and the M8
+# cost ledger - and every live session died mid-conversation with
+# "invalid session". The deferral was documented and scoped to "a short
+# pilot's worth of restarts"; the launch ambition outgrew it. A disk pins
+# this service to one instance, which the SQLite session store already
+# requires - horizontal scale arrives with the Postgres move, not before.
+# Scheduled WITH persistence, not after it: retention/TTL and the
+# deletion_requested writer (audit move 6) - persistence without
+# retention converts data LOSS into unbounded GROWTH.
 services:
   - type: web
     name: cic-engine
@@ -54,9 +64,17 @@ services:
     dockerfilePath: ./engine/Dockerfile
     dockerContext: .
     plan: standard
+    disk:
+      name: cic-engine-data
+      mountPath: /data
+      sizeGB: 1
     envVars:
       - key: CIC_API_REGION
         value: us-east-1
+      - key: CIC_API_EVENTS_DB
+        value: /data/cic_api_events.db
+      - key: CIC_API_USAGE_DB
+        value: /data/cic_api_usage.db
       # THE ADMISSION GATE, declared deferral (spec SS8: "deferrals
       # documented, never hidden"). "0" = today's informed-tester practice:
       # worlds at registry state `built` are served without having passed

@@ -36,7 +36,7 @@ class StreamResult:
 
 def stream_voice_turn(
     client, model_id: str, *, system_prompt: str, message: str, turn_directive: str | None = None,
-    history: list[dict] | None = None, max_tokens: int = 1024,
+    history: list[dict] | None = None, max_tokens: int = 1024, timeout: float = 90.0,
 ) -> CallOutcome:
     """Returns a CallOutcome whose .value is a StreamResult on success. A
     stream that completes but yields zero text is still status='ok' (it's a
@@ -77,8 +77,17 @@ def stream_voice_turn(
         system = [{"type": "text", "text": system_prompt, "cache_control": {"type": "ephemeral"}}]
         if turn_directive:
             system.append({"type": "text", "text": turn_directive})
+        # timeout: the 2026-08-28 foundation audit found this - the one
+        # call that holds a participant's HTTP request open - was the only
+        # model call in the system with NO bound (SDK default: 600s read),
+        # while the cheap gate calls were bounded at 4s. 90s is ~3x the
+        # worst measured real turn (engine/m8 reports: 10-30s of stream);
+        # it exists to cut hung streams loose, never to cut real answers
+        # short. The APITimeoutError catch below has handled the outcome
+        # since stage 5 - the bound just makes it reachable.
         with client.messages.stream(
-            model=model_id, max_tokens=max_tokens, system=system, messages=[*(history or []), {"role": "user", "content": message}]
+            model=model_id, max_tokens=max_tokens, system=system,
+            messages=[*(history or []), {"role": "user", "content": message}], timeout=timeout,
         ) as stream:
             for text in stream.text_stream:
                 chunks.append(text)
