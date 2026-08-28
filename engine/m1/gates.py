@@ -335,8 +335,9 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
     audit of every field build_prompt() actually compiles found 4 places
     where build-process attribution (a date, "RULED by Mark", a direct
     quote of the project lead) had leaked into voice_craft.identity and
-    world_core.horizon - the compiled Identity and Horizon sections a
-    live model reads as its own self-description and historical scope.
+    world_core.horizon - the sections a live model reads as its own
+    self-description and its historical scope (compiled as "Who we are",
+    above the prompt's ground line, and "Horizon", below it).
     Fixed by hand (world/alexandria c0a105a); this gate is the mechanical
     check that should have caught it at record-commit time instead of
     three commits and a manual full-corpus read later.
