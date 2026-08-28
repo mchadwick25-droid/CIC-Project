@@ -92,6 +92,35 @@ def substantive_types() -> set[str]:
     return {"doctrinal_witness", "term", "story", "quote"}
 
 
+def voice_scaffold_types() -> set[str]:
+    """Record types that speak IN the voice's own person, about the voice
+    itself - identity, characteristic concerns, guard, flavor - never a
+    claim about the historical world. Spec principle 14's own sanctioned-
+    fabrication category: a Representative's name, role, and manner of
+    speaking are invented on purpose, not derived from any one source, so
+    a record like this carries `sources: []` by design, not by omission.
+
+    This is the fleet's second citation category, not a laxer case of the
+    first: engine/m2/builders.py's own "(cite as [[id]])" instruction on
+    every Identity/Guard/Characteristic-concerns/Flavor-notes section
+    exists because a live model, left to cite this content some other way,
+    invented fake ids for it (measured: 14 of 47 tag uses on one six-turn
+    run) - pointing it at the record's own real id was the fix, and
+    engine.m4.grounding_net.check_turn already treats that tag as
+    legitimate (any id present in the package's own repository is a valid
+    tag; a claim-marked sentence with no tag at all is what gets withheld
+    live, so simply not tagging this content was never a safe
+    alternative). A citation into this set is the voice naming exactly
+    where a turn of phrase came from - the opposite of fabrication - and
+    it will never resolve to a source, nor should it: a claim ABOUT the
+    historical world needs one; a claim about how the voice itself talks
+    does not. Any consumer that checks whether a citation is fabricated
+    (M3 admission's source_boundedness_check, chiefly) needs both this and
+    the source-resolution check to call something fabricated - never one
+    alone, and never a locally re-derived guess at what belongs here."""
+    return {"voice_craft"}
+
+
 def classify_cell(cell: str, records: dict[str, dict]) -> dict:
     """Returns {"status": ..., "substantive": [ids], "honest_limit": [ids]}.
     status is one of: "substantive", "honest_limit", "multiple_honest_limit"
