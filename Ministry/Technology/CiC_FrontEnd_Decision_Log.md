@@ -1088,3 +1088,24 @@ admission-gate tests were made stage-independent in the same commit
 
 **Doors-open, when Mark calls it, is now one line:** render.yaml's
 `CIC_ENFORCE_ADMISSION` to `"1"`.
+
+---
+
+## 2026-08-28 — DOORS OPEN: Mark flips the admission gate on
+
+**Mark's act, his own words: "open the doors, flip the switch."**
+`render.yaml` now ships `CIC_ENFORCE_ADMISSION="1"` — the declared
+deferral the gate was born with is ended, on the same day it became
+safe to end it: the fleet admitted on the fleet-parity 28/28. From the
+next deploy, the doorway lists and seats exactly the six admitted
+worlds, interview and table alike, and the synthetic fixture world is
+unreachable in production — the registry's own oldest requirement,
+finally enforced by the running system.
+
+**One dashboard step to land it:** Render applies blueprint env-var
+changes on sync — Mark confirms the sync (the same visit that confirms
+the new disk and the old service's deletion), and the deploy that
+follows is the open door.
+
+**Still gated as before:** a Table faces a participant only after the
+per-pairing battery runs (Mark's per-run spend grant).

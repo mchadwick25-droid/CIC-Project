@@ -36,12 +36,13 @@ class Settings:
     # plain - a world "becomes selectable when it passes Admission" - and
     # the 2026-08-26 audit's headline finding was that the running engine
     # never checked: create_session served any `built` world. The gate now
-    # exists; this flag is when it BITES. Off (the default) preserves the
-    # current informed-tester practice as an EXPLICIT, declared deferral
-    # ("deferrals documented, never hidden" - spec SS8) instead of a silent
-    # gap; setting CIC_ENFORCE_ADMISSION=1 is the doors-open flip, after
-    # which only admitted/open worlds are listed or seated, interview and
-    # table alike. Flipping it is Mark's stage-10 act, not a code change.
+    # exists; this flag is when it BITES: only admitted/open worlds are
+    # listed or seated, interview and table alike. The code default stays
+    # off (local dev and tests construct their own stages), but the
+    # DEPLOYED value is "1": Mark flipped the doors open on 2026-08-28
+    # ("open the doors, flip the switch"), the same day he admitted all
+    # six worlds - render.yaml carries the flip and its record; the
+    # declared deferral this flag was born with is ended.
     enforce_admission: bool
 
     @classmethod
