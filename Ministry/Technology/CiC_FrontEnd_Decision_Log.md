@@ -1146,3 +1146,54 @@ cache fields this run — carried to the worksheet as measured.
 **Standing:** the last gate before a participant sits at a Table is
 passed for every offered seating. The doors are open; the Tables are
 cleared to be sat at.
+
+---
+
+## 2026-08-28 — M7 built: the transcript audit reads what the runtime
+has always written (Mark: "start the m7 build")
+
+**Contract first:** Redesign-Spec/Artifact-8-Audit.md — same pattern as
+Artifact-7, the contract precedes the code and the code cites it. M7 is
+the offline batch reader of the event log: findings route to the world
+build and admission re-runs, **never to live patches**; it creates no
+runtime path and holds no state the log doesn't hold.
+
+**The standing debt is paid.** Four safety/audit outputs computed on
+every live turn and read by nothing — voice_turn.grounding,
+do_not_voice_violation, output_defects, round_closed.governance — now
+have their reader (engine/m7/session_reader.py). The foundation audit's
+"dead code that looks like a safety check" finding is closed.
+
+**Ten instruments, phase 1, all deterministic and report-only**
+(principle 10 — report-only until data earns a bar): unread-output
+surfacing, isolation over every real session, mechanical register
+(FK/FRE whole-turn + first-sentence-answers-first-ask), ask-coverage,
+repetition, safety review including intervention-followed-by-abandonment,
+offer rates, encounter openings, governance rollup, question-canon
+candidates. Severity vocabulary: defect / review / info. Readability is
+self-contained in engine/m7/readability.py, deliberately outside
+engine/prose.py, so a readability tweak can never change what the net
+withholds. Short turns report as unscored, never as clean.
+
+**Three output layers, PII posture in the bytes:** operator-only
+per-session audits (participant text lives only there and in
+canon-candidates.json, per Artifact-6), and a fleet rollup + digest
+carrying **no participant text** — the shareable layer. Every derived
+file names its session_ids, so a deletion request is a grep (the lineage
+the retention/Postgres stage will compute over).
+
+**Cadence:** `python -m engine.m7.cli audit --events-db /data/... --out DIR
+[--since ISO]` — daily over yesterday's sessions, on-demand over
+everything; exit code 1 on any defect so a scheduled run can page.
+
+**Cost:** phase 1 makes zero model calls — the audit is free at any
+cadence. Phase 2 (model-assisted register/distinctness, the two-move
+readability split, per-cell offer rates) stays declared in Artifact-8 §5
+and gated on Mark's per-run authorization.
+
+**Verification:** 20 new tests (reader, every instrument, the
+no-participant-text-in-fleet-layer boundary, --since, exit codes); full
+suite 527 passed. Zero package manifests touched — the quality rule
+holds trivially. The two pairing-battery read-notes (Papnoute
+third-person, F1 label echo) are exactly the class of thing the
+repetition/register instruments now catch in production sessions.
