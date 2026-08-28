@@ -253,8 +253,108 @@ def _quote_opening(quote: dict, width: int = 60) -> str:
     return f'"{text}"' if len(text) <= width else f'"{text[:width].rstrip()}..."'
 
 
+# THE PROMPT HAS TWO HALVES, and until now only one of them was named.
+#
+# One half is records of the world, each section addressed by an id the
+# voice copies when it draws on that section. The other is standing
+# instruction - the fleet's own register/pronoun/citation/limit segment -
+# which carries no ids, needs none, and has never had one invented for it:
+# nobody has ever seen [[fleet.voice.register]] in a live turn.
+#
+# Both regions existed already. What did not exist was any statement of
+# where one stopped and the other began: the boundary was wherever
+# build_fleet_preamble's output happened to end, and nothing on the page
+# said so. voice_craft - the voice's own identity, guard, concerns and
+# flavor notes, which are instruction about how we speak, not evidence
+# about the world - sat on the wrong side of that unnamed boundary, and was
+# given an id so the model would stop inventing one.
+#
+# This constant is the boundary, written out. It replaces the id that
+# voice_craft was carrying; see the fabrication history on emit() below for
+# what that id cost and why it was reached for, and instruct() for why
+# moving the content is a better answer than keeping the id.
+#
+# The wording is the lesson of the adjacency failure, run the other way.
+# Printing an id beside a heading told a model the id existed without
+# telling it what the id addressed, and the model kept inventing. Omitting
+# an id tells a model nothing at all about why it is missing. So the
+# absence is stated, and what to do instead is stated with it: a claim
+# about the world that we happen to have met in our own instruction is
+# carried by the record that holds it, from below the line or from the
+# turn's ground - never by an address for the instruction.
+_GROUND_LINE = """## Below this line is our world's own record
+
+Everything above this line is our own standing instruction - our register, our
+pronouns, who we are, what we hold ourselves to, what we keep returning to,
+how we word things. It is how we speak, not something we know about the world.
+It carries no record id because it is not a record of anything, and no id is
+ever written for it: a sentence about ourselves carries no tag at all.
+
+Everything below this line is our world's own record, and so is the ground
+given with each turn. Each of those carries its own id - printed in the
+section's heading, or beside each entry in a list - and a claim drawn from one
+carries that id, copied exactly. Where something above the line is a claim
+about the world - a person, a place, a date, how much of our own record
+survives - the record that holds it is below the line or in this turn's
+ground, and it is that id which is copied.
+"""
+
+
 def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
-    segments: list[str] = build_fleet_preamble(fleet, registry_entry, records)
+    # Two lists, spliced at the end with _GROUND_LINE between them, because
+    # the halves are no longer interleaved: voice_craft's four sections used
+    # to be emitted around world_core's four, and a reader (or a model) had
+    # nothing to tell instruction from record but the prose itself.
+    standing: list[str] = build_fleet_preamble(fleet, registry_entry, records)
+    ground: list[str] = []
+
+    # A STANDING-INSTRUCTION SECTION NEVER CARRIES AN ID. Same two-argument
+    # shape build_fleet_preamble's own emit() has always had, and for the
+    # same reason - there is no third argument to pass, because there is no
+    # address for content that is not a record of the world.
+    #
+    # This is where voice_craft now compiles. Every voice_craft record in the
+    # fleet carries `sources: []` on purpose (spec principle 14: a
+    # Representative's name, role and manner of speaking are the build's one
+    # sanctioned fabrication), so "(cite as [[<world>.voice.craft]])" was an
+    # instruction to produce a citation that can never resolve to a source -
+    # and a live M3 admission probe produced exactly that, [[desert.voice.craft]]
+    # on f3-t-probe-01 ("Was your church 'Catholic'? Is there a church today I
+    # could visit that's yours?" - a question about the voice itself, which is
+    # the shape that reaches for this material).
+    #
+    # WHY THIS DOES NOT REOPEN THE FABRICATION THE ID WAS SUPPRESSING. The
+    # measurement below reads as "sections without an id fabricate", but the
+    # fleet preamble was in that same prompt, four sections deep, with no id
+    # and plain-noun headings ("Register", "Limit discipline"), and it
+    # contributed nothing to the table - build_fleet_preamble landed in
+    # 4994ff0, before the run 4909dd1 measured. So id-presence was never the
+    # discriminator. What fabricated was material the model read as ground it
+    # owed an address for; what did not was material it read as instruction
+    # about how to speak. voice_craft is the second kind and was filed with
+    # the first.
+    #
+    # And the headings are phrased as clauses in the voice's own we-form, not
+    # as the plain nouns "Identity", "Guard", "Characteristic concerns",
+    # "Flavor notes". That is the adjacency finding's own diagnosis applied
+    # directly - "a heading which is a plain noun still reads as a namespace
+    # of its own", and "Identity" was in fact one of the three headings that
+    # produced invented ids. "Who we are" cannot be read as an id segment;
+    # id segments are single lowercase tokens.
+    #
+    # Nothing on the checking side changes. A sentence about ourselves that
+    # names nobody and counts nothing already passes the live net as
+    # interpretive framing; the two first-person lines that must be speakable
+    # with no ground at all - the honesty scaffolding and "I am a
+    # representative of ..." - are already exempt by literal marker, because
+    # the fleet contract teaches those verbatim. A sentence that DOES carry a
+    # claim marker is by definition naming a person, place, text or number,
+    # which is a claim about the world, and the record that holds it is below
+    # the line or in the turn's ground. There is no third category needing a
+    # new exemption.
+    def instruct(header: str, body: str | None) -> None:
+        if body and body.strip():
+            standing.append(f"## {header}\n\n{body.strip()}\n")
 
     # EVERY SECTION CARRIES THE ID OF THE RECORD IT CAME FROM, in the exact
     # [[id]] form the citation contract asks the voice to write. Measured on
@@ -303,14 +403,33 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     # So the heading states the relation instead of implying it. "(cite as
     # [[id]])" is an instruction where " [[id]]" was an adjacency, and it
     # costs four words a section.
+    #
+    # This treatment is now scoped to what it was always FOR: sections that
+    # are records of the world. It no longer reaches the voice's own craft
+    # material, which goes through instruct() above.
     def emit(header: str, body: str | None, record_id: str | None = None) -> None:
         if body and body.strip():
             head = f"{header} (cite as [[{record_id}]])" if record_id else header
-            segments.append(f"## {head}\n\n{body.strip()}\n")
+            ground.append(f"## {head}\n\n{body.strip()}\n")
 
+    # The four voice_craft fields, together, above the line - not split around
+    # world_core's four the way they used to be. Grouping them is half the
+    # point: four contiguous sections in the voice's own we-form, in the same
+    # run as the register and the pronoun rule, read as one block of standing
+    # instruction. Interleaved with Horizon and Cautions they read as content.
     craft = _one(records, "voice_craft")
     if craft:
-        emit("Identity", craft.get("identity"), craft["id"])
+        instruct("Who we are", craft.get("identity"))
+        instruct("What we hold ourselves to", craft.get("guard"))
+        concerns = craft.get("characteristic_concerns") or []
+        if concerns:
+            instruct("What we keep returning to", "\n".join(f"- {c}" for c in concerns))
+        notes = craft.get("flavor_notes") or []
+        if notes:
+            instruct(
+                "How we word things",
+                "\n".join(f"- [{n.get('segment')}] {n.get('note')}" for n in notes),
+            )
 
     core = _one(records, "world_core")
     if core:
@@ -320,19 +439,6 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
         emit("Formation logic", core.get("formation_logic"), core["id"])
         emit("Thinness", core.get("thinness"), core["id"])
         emit("Cautions", core.get("cautions"), core["id"])
-
-    if craft:
-        emit("Guard", craft.get("guard"), craft["id"])
-        concerns = craft.get("characteristic_concerns") or []
-        if concerns:
-            emit("Characteristic concerns", "\n".join(f"- {c}" for c in concerns), craft["id"])
-        notes = craft.get("flavor_notes") or []
-        if notes:
-            emit(
-                "Flavor notes",
-                "\n".join(f"- [{n.get('segment')}] {n.get('note')}" for n in notes),
-                craft["id"],
-            )
 
     for term in _by_type(records, "term"):
         body = "\n\n".join(filter(None, [term.get("plain_meaning"), term.get("quick_meaning")]))
@@ -420,6 +526,12 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
             lines.append(f"{turn['speaker']}: {text}")
         emit("Demonstration", "\n".join(lines), demo["id"])
 
+    # The line is a boundary, so it is only written where there are two sides
+    # to divide. A prompt with no standing instruction at all (a bare-records
+    # unit fixture, never a real compile - every world loads the fleet record)
+    # would otherwise open with a paragraph about material above it that is
+    # not there.
+    segments = standing + ([_GROUND_LINE] + ground if standing and ground else ground)
     return ("\n".join(segments) + "\n").encode("utf-8")
 
 
