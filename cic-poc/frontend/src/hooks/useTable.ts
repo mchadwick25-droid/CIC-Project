@@ -42,6 +42,7 @@ interface TableState {
   closed: boolean;
   isLoading: boolean;
   error: string | null;
+  errorRecoverable: boolean;
 }
 
 const initialState: TableState = {
@@ -53,6 +54,7 @@ const initialState: TableState = {
   closed: false,
   isLoading: false,
   error: null,
+  errorRecoverable: false,
 };
 
 export function useTable() {
@@ -89,8 +91,9 @@ export function useTable() {
           applyAdvance(next);
           open = next.round_open && !next.session_closed;
         } catch (error) {
-          const message = error instanceof ApiRequestError ? error.message : 'The table lost its thread mid-round.';
-          setState((prev) => ({ ...prev, isLoading: false, error: message }));
+          const message = error instanceof ApiRequestError ? error.message : 'The table lost its thread mid-round - you can pick the round back up below.';
+          const recoverable = error instanceof ApiRequestError && error.recoverable;
+          setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
           loopingRef.current = false;
           return;
         }
@@ -102,7 +105,7 @@ export function useTable() {
   );
 
   const convene = useCallback(async (worldKeys: string[]) => {
-    setState((prev) => ({ ...prev, isLoading: true, error: null }));
+    setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false }));
     try {
       const { session_id, session_code } = await createTableSession(worldKeys);
       sessionRef.current = { sessionId: session_id, sessionCode: session_code };
@@ -119,11 +122,13 @@ export function useTable() {
         closed: transcript.closed,
         isLoading: false,
         error: null,
+        errorRecoverable: false,
       });
       return session_id;
     } catch (error) {
-      const message = error instanceof ApiRequestError ? error.message : 'Could not convene the table.';
-      setState((prev) => ({ ...prev, isLoading: false, error: message }));
+      const message = error instanceof ApiRequestError ? error.message : 'We couldn\'t convene the table just now - check your connection, then try again.';
+      const recoverable = error instanceof ApiRequestError && error.recoverable;
+      setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
       return null;
     }
   }, []);
@@ -135,7 +140,7 @@ export function useTable() {
         setState((prev) => ({ ...prev, error: 'No table convened' }));
         return false;
       }
-      setState((prev) => ({ ...prev, isLoading: true, error: null, turns: [...prev.turns, { speaker: 'participant', text }] }));
+      setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false, turns: [...prev.turns, { speaker: 'participant', text }] }));
       try {
         const attempt = lastAttemptRef.current?.text === text ? lastAttemptRef.current : { text, id: crypto.randomUUID() };
         lastAttemptRef.current = attempt;
@@ -143,8 +148,9 @@ export function useTable() {
         await runRound(first);
         return true;
       } catch (error) {
-        const message = error instanceof ApiRequestError ? error.message : 'That message did not go through.';
-        setState((prev) => ({ ...prev, isLoading: false, error: message }));
+        const message = error instanceof ApiRequestError ? error.message : 'That message didn\'t go through - check your connection and try again.';
+        const recoverable = error instanceof ApiRequestError && error.recoverable;
+        setState((prev) => ({ ...prev, isLoading: false, error: message, errorRecoverable: recoverable }));
         return false;
       }
     },
@@ -170,6 +176,7 @@ export function useTable() {
         closed: transcript.closed,
         isLoading: false,
         error: null,
+        errorRecoverable: false,
       });
       // A round left open by a mid-round reload is resumable - keep
       // continuing it so the table finishes what it was saying.
@@ -187,6 +194,18 @@ export function useTable() {
     }
   }, [runRound]);
 
+  const resumeRound = useCallback(async () => {
+    // A mid-round failure leaves roundOpen true with the loop stopped -
+    // without this, the room was permanently stuck behind a 409 the UI
+    // gave no way out of (foundation audit). Re-enter the continue loop;
+    // the server replays the open round's real state.
+    setState((prev) => ({ ...prev, isLoading: true, error: null, errorRecoverable: false }));
+    await runRound({
+      round_no: 0, round_open: true, routing_action: null, routing_reason: '', degraded: false,
+      facilitator: [], turn_selected: null, voice: null, position: null, turn_no: null, session_closed: false,
+    });
+  }, [runRound]);
+
   const reset = useCallback(() => {
     clearStored();
     sessionRef.current = null;
@@ -202,8 +221,10 @@ export function useTable() {
     closed: state.closed,
     isLoading: state.isLoading,
     error: state.error,
+    errorRecoverable: state.errorRecoverable,
     convene,
     send,
+    resumeRound,
     rehydrate,
     reset,
   };

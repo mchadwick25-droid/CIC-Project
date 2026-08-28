@@ -1151,12 +1151,28 @@ button {
   cursor: default;
 }
 
-.table-round-note {
-  font-size: 0.78rem;
-  color: var(--color-text-light);
+/* Trust package (2026-08-28): the wait has a voice, and no error is a
+   dead end. */
+.waiting-note {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
   font-style: italic;
   text-align: center;
-  margin: var(--spacing-sm) 0;
+  margin: var(--spacing-sm) auto;
+  max-width: var(--max-width);
+}
+
+.error-restart {
+  display: block;
+  margin-top: var(--spacing-sm);
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: var(--border-radius);
+  color: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 7px 14px;
+  cursor: pointer;
 }
 
 /* Both name registers (Mark's ruling 2026-08-28): the friendly name leads;

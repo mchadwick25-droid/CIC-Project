@@ -869,6 +869,7 @@ touchpoints unchanged.
 
 ---
 
+<<<<<<< HEAD
 ## 2026-08-28 — Mark's identity ruling applied: the registry wins, and both
 name registers live in it
 
@@ -991,3 +992,76 @@ added to the reconciliation worksheet's day for the invoice tie-out.
 instrument that measures the real conversation. Stage-7 touchpoints
 (Mark's reads, freezes, registry transitions) are unchanged and remain
 the doors-open path.
+=======
+## 2026-08-28 — Foundation-audit moves 1–3 landed; prose inventory for Mark's read
+
+**On Mark's go** ("ok lets go") over the Foundation Audit's ranked plan,
+under the standing quality rule: no change that alters a pinned package
+manifest without his explicit ruling — all three moves leave every
+manifest hash untouched; the voice is byte-identical.
+
+**Move 1 (merged):** admission's answerer now calls production's own
+text-shaper (`engine.m4.turn.apply_net`, made public as the ONE owner of
+the voice text shape). The gate now grades byte-for-byte what a
+participant receives. The fleet re-verification battery is coded,
+mock-verified, and WAITING on the session's spend gate — Mark to run or
+re-authorize.
+
+**Move 2 (merged):** Render Disk (transcripts/audit/cost ledger survive
+deploys; retention scheduled with move 6), per-IP rate limits on the two
+spend-bearing endpoints, a 90s voice-call timeout, and real logging with
+the Bedrock error bound instead of discarded.
+
+**Move 3 (on `claude/trust-package`, merge after Mark's prose read):**
+the error-language layer (no raw backend string ever reaches a
+participant), begin-again affordances on recoverable errors, the
+table-room round-resume (the 409 dead-end is gone; the composer waits
+while a round is open), the waiting notes now covering the longest wait,
+the unfulfillable session-code promises removed, the empty-create
+fixture hole closed (a session names its world or doesn't open), and
+privacy.html's deletion promise made mechanism-honest.
+
+**New participant-facing prose (Mark's read, inventoried):**
+- Error layer: "This conversation has slipped away from us — the server
+  was restarted, and nothing you said caused it. You can begin a new
+  one." · "This conversation has closed. You're welcome to begin a new
+  one." · "The table is still finishing its round — let it speak, then
+  ask again." · "The voice couldn't be reached just now. Give it a
+  moment, then send again." · "This world's records are briefly
+  unavailable — try again in a moment." · "That didn't go through. Try
+  again in a moment, or begin a new conversation." · connection
+  fallbacks ("We couldn't reach the room just now…").
+- Rate limit (served by the engine): "The room is full for a moment -
+  please wait a little and try again."
+- Waiting notes: "{Name} is considering…" · "The table is speaking —
+  voices answer in turn…" · composer placeholder "The table is still
+  speaking…".
+- Buttons: "Begin again" · "Let the table finish its round".
+- Bar note: "Not saved to an account — this conversation lives in this
+  tab" (replaces the session-code line; the any-device promise is
+  removed until resume is built or ruled out).
+- Deep link miss: "We couldn't find that world here — choose from the
+  cards below."
+- privacy.html deletion sentence: "Deletion is handled by hand by the
+  project team at this stage — there's no self-serve button — so please
+  allow a few days."
+
+### Next action
+
+Mark: (1) run or re-authorize the fleet re-verification battery (move
+1's last step); (2) read the prose inventory above — then trust-package
+merges; (3) the identity ruling (move 4's gate).
+>>>>>>> claude/trust-package
+
+---
+
+## 2026-08-28 — Mark approved the prose; the trust package is on main
+
+"i approve the prose, merge the trust package." Merged, with two
+additions made at the merge itself (the engine gained two 409s after the
+branch was cut, and each needed its participant sentence): "That message
+already reached the room — give it a moment." (duplicate message) and
+"The table is already speaking — one moment." (advance in flight) — both
+small variants of the approved family, noted here so the inventory stays
+complete. With this merge, every foundation-audit move is closed and no
+raw backend string can reach a participant.
