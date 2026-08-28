@@ -1197,3 +1197,38 @@ suite 527 passed. Zero package manifests touched — the quality rule
 holds trivially. The two pairing-battery read-notes (Papnoute
 third-person, F1 label echo) are exactly the class of thing the
 repetition/register instruments now catch in production sessions.
+
+---
+
+## 2026-08-28 — First real M7 run (F1 flagship log): zero defects, and the
+pronoun-at-table question becomes a measured finding
+
+Run over the one live event log still on the build machine — the F1
+(alx+desert+pahc) battery session. **0 defect / 13 review / 12 info.**
+No isolation, no do_not_voice, register mean FK 8.5 / FRE 68.8 (inside
+the spec's plain bands, report-only).
+
+**The review findings are one design question, now with data:** 12 of 13
+are pronoun output-defects, and nearly all of them are the L4
+no-foreknowledge rule line itself — "I know only what I have heard at
+this Table" — plus the first-person recounting that follows it. The
+verbatim rule performance Mark's read approved collides with the
+communal-witness pronoun discipline the output check enforces. One
+distinct sub-case: quoted speech inside a story (Abba Moses' "my own
+sins run out behind me") flagged — a quoted-speech false-positive class.
+This is the "pronoun rule at table" open item made concrete; the ruling
+is Mark's, the fix (whichever way he rules) lands in the world
+build/output check, never live.
+
+The 13th review is ask-coverage on the crisis-governance round —
+expected shape for a governed round (resources, no voice answers); noted
+for a phase-2 refinement (governed rounds should be exempt). The info
+findings: net decoration withheld on 9 sentences across the session, and
+both L4 turns had no substantive survivor — also expected, since an L4
+turn recounts table-heard material and carries no own-world claims for
+the net to ground.
+
+**Production cadence:** the live participant log lives on the Render
+disk. From the Render shell:
+`python -m engine.m7.cli audit --events-db $CIC_API_EVENTS_DB --out /data/m7-audits/$(date +%F)`
+— free at any cadence (phase 1 makes no model calls).
