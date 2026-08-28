@@ -206,12 +206,16 @@ class TurnResult:
     usage_records: list[UsageRecord] = field(default_factory=list)
 
 
-def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str, model_id: str) -> UsageRecord | None:
+def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str, model_id: str, world_key: str | None = None) -> UsageRecord | None:
     """Every real call's raw usage is parity-checked (engine.m8.parity)
     BEFORE it becomes a UsageRecord - "usage logging with correct cache
     accounting tested against raw API shapes" happens inline, on every real
     turn, not as a separate exercise run occasionally. A divergence raises
-    loudly here rather than silently producing a wrong attributed number."""
+    loudly here rather than silently producing a wrong attributed number.
+
+    world_key (Artifact-7 SS7): set for table-mode voice/selector calls so
+    per-world cost at a shared table is answerable; None everywhere else -
+    an interview session's calls are attributable from session_id alone."""
     if outcome.raw_usage is None:
         return None
     from engine.m8.parity import assert_parity
@@ -219,7 +223,7 @@ def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str
 
     normalized = normalize_usage(outcome.raw_usage)
     assert_parity(outcome.raw_usage, normalized)
-    return record_usage(usage=normalized, session_id=session_id, call_kind=call_kind, model_id=model_id)
+    return record_usage(usage=normalized, session_id=session_id, call_kind=call_kind, model_id=model_id, world_key=world_key)
 
 
 def _directive_payload(directive: Directive | None) -> dict | None:
@@ -341,7 +345,18 @@ def _run_ordinary_voice_turn(
     already_bridged_figure_ids: set[str] | None = None,
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
+    context_prefix: str | None = None,
+    usage_world_key: str | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
+    """context_prefix and usage_world_key are the table's two additions
+    (Artifact-7 SS3-4, SS7), both None on every interview call so that path
+    is byte-identical to before they existed. context_prefix carries the
+    attributed at-the-Table speech since this voice's last turn - it rides
+    in the per-turn user message only (never the cached system prefix, same
+    cache discipline as the evidence block) and is deliberately NOT part of
+    the message evidence assembly matches against: retrieval stays focused
+    on the participant's own ask, not on what another voice said.
+    usage_world_key tags this call's UsageRecord with the speaking world."""
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
     thin_topics = evidence.thin_topics_for(repository_records)
@@ -369,6 +384,8 @@ def _run_ordinary_voice_turn(
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
+    if context_prefix:
+        user_message = f"{context_prefix}\n\n{user_message}"
 
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
@@ -376,7 +393,7 @@ def _run_ordinary_voice_turn(
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
-    if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id):
+    if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id, world_key=usage_world_key):
         usage_records.append(rec)
 
     answer_text, citations, net_result = _apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)

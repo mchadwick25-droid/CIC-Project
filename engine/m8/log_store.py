@@ -28,16 +28,18 @@ CREATE TABLE IF NOT EXISTS usage_log (
   model_id    TEXT NOT NULL,
   provider    TEXT NOT NULL,
   usage_json  TEXT NOT NULL,
-  created_at  TEXT NOT NULL
+  created_at  TEXT NOT NULL,
+  world_key   TEXT
 );
 """
 
 
 def _row_to_record(row) -> UsageRecord:
-    trace_id, session_id, call_kind, model_id, provider, usage_json, _created_at = row
+    trace_id, session_id, call_kind, model_id, provider, usage_json, _created_at, world_key = row
     usage_dict = json.loads(usage_json)
     return UsageRecord(
-        trace_id=trace_id, session_id=session_id, call_kind=call_kind, model_id=model_id, provider=provider, usage=NormalizedUsage(**usage_dict)
+        trace_id=trace_id, session_id=session_id, call_kind=call_kind, model_id=model_id, provider=provider, usage=NormalizedUsage(**usage_dict),
+        world_key=world_key,
     )
 
 
@@ -54,6 +56,14 @@ class UsageLogStore:
     def _init_schema(self) -> None:
         with self._connect() as conn:
             conn.executescript(DDL)
+            # world_key (Artifact-7 SS7) arrived after real dev/test DBs
+            # existed; CREATE TABLE IF NOT EXISTS won't grow an existing
+            # table, so add the column in place. Old rows read back with
+            # world_key None - honest for every interview-era record, which
+            # never belonged to a world differently than its session did.
+            existing = {r[1] for r in conn.execute("PRAGMA table_info(usage_log)")}
+            if "world_key" not in existing:
+                conn.execute("ALTER TABLE usage_log ADD COLUMN world_key TEXT")
 
     def append(self, record: UsageRecord) -> None:
         """Idempotent on trace_id, same discipline as engine.m4.store.Store
@@ -61,8 +71,8 @@ class UsageLogStore:
         duplicate row."""
         with self._connect() as conn:
             conn.execute(
-                "INSERT OR IGNORE INTO usage_log (trace_id, session_id, call_kind, model_id, provider, usage_json, created_at) "
-                "VALUES (?, ?, ?, ?, ?, ?, ?)",
+                "INSERT OR IGNORE INTO usage_log (trace_id, session_id, call_kind, model_id, provider, usage_json, created_at, world_key) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
                 (
                     record.trace_id,
                     record.session_id,
@@ -71,6 +81,7 @@ class UsageLogStore:
                     record.provider,
                     json.dumps(asdict(record.usage)),
                     datetime.now(timezone.utc).isoformat(),
+                    record.world_key,
                 ),
             )
             conn.commit()
@@ -78,14 +89,14 @@ class UsageLogStore:
     def read_all(self) -> list[UsageRecord]:
         with self._connect() as conn:
             rows = conn.execute(
-                "SELECT trace_id, session_id, call_kind, model_id, provider, usage_json, created_at FROM usage_log ORDER BY created_at ASC"
+                "SELECT trace_id, session_id, call_kind, model_id, provider, usage_json, created_at, world_key FROM usage_log ORDER BY created_at ASC"
             ).fetchall()
         return [_row_to_record(r) for r in rows]
 
     def read_for_session(self, session_id: str) -> list[UsageRecord]:
         with self._connect() as conn:
             rows = conn.execute(
-                "SELECT trace_id, session_id, call_kind, model_id, provider, usage_json, created_at FROM usage_log "
+                "SELECT trace_id, session_id, call_kind, model_id, provider, usage_json, created_at, world_key FROM usage_log "
                 "WHERE session_id = ? ORDER BY created_at ASC",
                 (session_id,),
             ).fetchall()
