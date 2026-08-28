@@ -3,6 +3,7 @@ record = one file: YAML front matter between `---` fences + a free markdown
 body. The body is provenance/build notes only - never read by any builder or
 gate, so it is kept but excluded from validation.
 """
+from functools import lru_cache
 from pathlib import Path
 
 import yaml
@@ -51,6 +52,14 @@ def load_world_records(world_key: str, records_root: Path = RECORDS_ROOT) -> dic
     return records
 
 
+@lru_cache(maxsize=4)
 def load_fleet_records(records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
+    """Cached (2026-08-28 foundation audit): parsing the ~95 fleet files
+    measured 57-63ms warm, and the turn path called this THREE times per
+    participant message - ~190ms of GIL-held CPU per message re-parsing
+    identical, image-immutable files. The cache returns one shared dict:
+    callers treat it as read-only (every current caller does; the
+    selftest's seeded-defect mutation path goes through
+    load_world_records, which stays uncached for exactly that reason)."""
     return load_world_records("_fleet", records_root=records_root)
 

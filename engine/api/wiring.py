@@ -52,6 +52,11 @@ class SessionNotFound(Exception):
     """No session_started event exists for this session_id."""
 
 
+class DuplicateMessage(Exception):
+    """A client_msg_id this session has already processed - the retry is
+    refused before any model call (409 at the API), never re-run."""
+
+
 class SessionClosed(Exception):
     """A session_closed event is already on record (engine.m4.projection's
     SessionState.closed) - the session ended, most often via
@@ -328,9 +333,20 @@ def handle_message(
     world = _load_world(world_loader, registry, state.world_key, expected_manifest_hash=state.package_manifest_hash)
 
     msg_uuid = client_msg_id or str(uuid.uuid4())
+    # Idempotency, ENFORCED (2026-08-28 foundation audit: client_msg_id was
+    # recorded in the payload but the dedupe key - event_uuid - was minted
+    # fresh every call, so a retried message ran a second full turn and
+    # doubled the spend). With a client_msg_id the event_uuid is derived
+    # deterministically, so the same logical message can only ever be one
+    # event - and a replay is refused BEFORE any model call runs.
+    participant_event_uuid = (
+        str(uuid.uuid5(uuid.NAMESPACE_URL, f"cic:{session_id}:{msg_uuid}")) if client_msg_id else str(uuid.uuid4())
+    )
+    if client_msg_id and store.event_exists(participant_event_uuid):
+        raise DuplicateMessage(session_id)
     participant_payload = {"text": text, "client_msg_id": msg_uuid}
     events.validate("participant_message", participant_payload)
-    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="participant_message", payload=participant_payload)
+    store.append(session_id=session_id, event_uuid=participant_event_uuid, event_type="participant_message", payload=participant_payload)
 
     already_told_ids = {
         record_id
