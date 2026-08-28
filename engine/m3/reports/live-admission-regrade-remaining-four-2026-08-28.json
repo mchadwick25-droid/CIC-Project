@@ -1,0 +1,31 @@
+{
+  "regrades": {
+    "pahc/f2-e-probe-01": {
+      "previously_unresolved_citations": [
+        "pahc.contested.egypt-exclusion"
+      ],
+      "now_passed": true,
+      "findings": [],
+      "register_untouched": true
+    },
+    "hal/f5-e-probe-01": {
+      "previously_unresolved_citations": [
+        "hal.search.latin-critical-texts"
+      ],
+      "now_passed": true,
+      "findings": [
+        "probe f5-e-probe-01: citation(s) accepted as evidence-status disclosure (a search record grounding what was looked for and whether it was found), not source evidence: ['hal.search.latin-critical-texts']"
+      ],
+      "register_untouched": true
+    }
+  },
+  "basis": "Deterministic re-grade of the two probes that failed on the live run recorded in live-admission-report-remaining-four-2026-08-28.json - no new model call (Mark's cost policy: 'we cant afford to test 20 times at each step'; the persisted live answers stand as graded material). Sound because the live check's finding names exactly the unresolved citations, every other citation on those probes already resolved, and both fixes are strictly widening: pahc.contested.egypt-exclusion gained a real grounding chain (sources[] -> pahc.core.house-church -> five literal source records), and source_boundedness_check gained the evidence-status category (engine.m1.canon.evidence_status_types: search records, definitionally sourceless). The register check did not run again and did not need to: it passed on the live run for both probes.",
+  "resulting_fleet_picture": {
+    "alx": "28/28 live (2026-08-28 first run, under register ruling)",
+    "desert": "28/28 live (2026-08-28 re-run after dw.jesus fix)",
+    "syr": "28/28 live",
+    "ijc": "28/28 live",
+    "pahc": "28/28 - 27 live + f2-e re-graded pass (record-side fix)",
+    "hal": "28/28 - 27 live + f5-e re-graded pass (checker-side category)"
+  }
+}

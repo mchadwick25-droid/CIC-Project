@@ -9,9 +9,12 @@ engine.m3.harness._transitive_source_ids), OR name a record in
 engine.m1.canon.voice_scaffold_types() - the fleet's second, distinct
 citation category (the voice's own sanctioned identity/craft framing,
 spec principle 14, never itself historical evidence and never expected to
-be). Both are real, non-fabricated citations; only a citation that
-resolves to neither is a finding. No model needed, and none would make it
-more correct.
+be) - OR name a record in engine.m1.canon.evidence_status_types() - the
+third category (a search record, definitionally sourceless: it documents
+the looking itself, so citing one grounds an honest evidence-of-absence
+claim). All three are real, non-fabricated citations; only a citation
+that resolves to none of them is a finding. No model needed, and none
+would make it more correct.
 
 register is NOT mechanical in general - spec module M3 says outright that
 "Mark's reading is the instrument for register" (spec SS5, threshold
@@ -44,27 +47,38 @@ class CheckResult:
 
 
 def source_boundedness_check(
-    transcript: MaskedTranscript, known_source_ids: set[str], voice_scaffold_ids: set[str] = frozenset()
+    transcript: MaskedTranscript,
+    known_source_ids: set[str],
+    voice_scaffold_ids: set[str] = frozenset(),
+    evidence_status_ids: set[str] = frozenset(),
 ) -> CheckResult:
     assert_blind(transcript)
     citations = transcript["citations"]
-    unresolved = [c for c in citations if c not in known_source_ids and c not in voice_scaffold_ids]
+    unresolved = [
+        c for c in citations if c not in known_source_ids and c not in voice_scaffold_ids and c not in evidence_status_ids
+    ]
     if unresolved:
         return CheckResult(
             check="source_boundedness",
             passed=False,
             findings=[f"probe {transcript['probe_id']}: citation(s) do not resolve to any source record: {unresolved}"],
         )
-    # Passing via the scaffold category is still worth naming, not just
+    # Passing via a non-source category is still worth naming, not just
     # silently folded into the same "passed" a source-bounded citation
     # gets - a report reader should be able to see WHICH category cleared
     # each citation, not just that something did.
+    findings = []
     scaffolded = sorted(set(citations) & voice_scaffold_ids)
-    findings = (
-        [f"probe {transcript['probe_id']}: citation(s) accepted as voice-scaffold self-attribution, not source evidence: {scaffolded}"]
-        if scaffolded
-        else []
-    )
+    if scaffolded:
+        findings.append(
+            f"probe {transcript['probe_id']}: citation(s) accepted as voice-scaffold self-attribution, not source evidence: {scaffolded}"
+        )
+    evidence_status = sorted(set(citations) & evidence_status_ids)
+    if evidence_status:
+        findings.append(
+            f"probe {transcript['probe_id']}: citation(s) accepted as evidence-status disclosure "
+            f"(a search record grounding what was looked for and whether it was found), not source evidence: {evidence_status}"
+        )
     return CheckResult(check="source_boundedness", passed=True, findings=findings)
 
 

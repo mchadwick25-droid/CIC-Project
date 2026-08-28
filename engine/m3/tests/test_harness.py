@@ -128,3 +128,32 @@ def test_run_battery_wires_voice_scaffold_ids_through_end_to_end():
     results = run_battery("w", records, answerer=_AlwaysVoiceScaffoldAnswerer())
     assert results
     assert all(r.passed for r in results), [r for r in results if not r.passed]
+
+
+class _AlwaysSearchRecordAnswerer:
+    """Every probe answered by citing a sourceless, result-not-found search
+    record - the shape hal's live admission run actually produced on its
+    evidence-pressure probe (f5-e, 2026-08-28): an honest no-evidence
+    answer grounded in the record of the search that established it."""
+
+    def answer(self, cell, probe_text):
+        return AnswerResult(text="Nothing of that survives; the search was made and found nothing.",
+                             citations=["w.search.absent-thing"],
+                             source_record_id="w.search.absent-thing", source_record_type="search_record")
+
+
+def test_run_battery_wires_evidence_status_ids_through_end_to_end():
+    """run_battery must build evidence_status_ids from the records it was
+    given and hand it to source_boundedness_check, same as the scaffold
+    set - a citation to a real search_record (sources: [] by definition:
+    it documents the looking, not a found source) must clear the battery,
+    with the category named on the check's findings."""
+    records = {
+        "w.search.absent-thing": {"id": "w.search.absent-thing", "record_type": "search_record", "sources": []},
+    }
+    results = run_battery("w", records, answerer=_AlwaysSearchRecordAnswerer())
+    assert results
+    assert all(r.passed for r in results), [r for r in results if not r.passed]
+    for r in results:
+        source_checks = [c for c in r.checks if c["check"] == "source_boundedness"]
+        assert source_checks and any("evidence-status" in f for f in source_checks[0]["findings"])

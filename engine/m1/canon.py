@@ -121,6 +121,30 @@ def voice_scaffold_types() -> set[str]:
     return {"voice_craft"}
 
 
+def evidence_status_types() -> set[str]:
+    """Record types whose content IS a record of the evidence situation -
+    what was searched for, through what channel, and whether it was found -
+    never themselves a claim resting on a source. The fleet's third
+    citation category, found the same way the second (voice_scaffold_types)
+    was: a live admission run (hal, 2026-08-28) answered an
+    evidence-pressure probe honestly - "the richness is in the letters, not
+    in the stones" - and cited the search_record that establishes exactly
+    that absence (hal.search.latin-critical-texts, result: not_found). The
+    citation is the answer naming its actual ground: the search that was
+    run. A `result: not_found` search record is definitionally sourceless -
+    73 of the fleet's 74 search records carry `sources: []` by design,
+    because the record documents the looking, and what was found (if
+    anything) gets its own source record instead. Requiring such a record
+    to trace to a source would demand the absence of evidence come with
+    evidence attached.
+
+    Same consumer rule as voice_scaffold_types: anything checking whether
+    a citation is fabricated (M3's source_boundedness_check, chiefly)
+    needs this, the scaffold set, AND source-resolution to call something
+    fabricated - never a locally re-derived guess at what belongs here."""
+    return {"search_record"}
+
+
 def classify_cell(cell: str, records: dict[str, dict]) -> dict:
     """Returns {"status": ..., "substantive": [ids], "honest_limit": [ids]}.
     status is one of: "substantive", "honest_limit", "multiple_honest_limit"
