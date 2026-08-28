@@ -138,7 +138,7 @@ def resolve_citation_sources(citations: list[dict], repository_records: dict[str
     """citations, unchanged, with one new key per entry: `sources`, the
     resolved cards for every record_id that sentence cited. Never mutates
     the sentence/record_ids the citation-verification net already
-    produced - additive only, same principle _apply_net itself follows
+    produced - additive only, same principle apply_net itself follows
     ("the checks gate decoration, never the text")."""
     out = []
     for citation in citations:

@@ -29,7 +29,7 @@ from dataclasses import dataclass
 from engine.m1 import canon
 from engine.m4 import evidence as m4_evidence
 from engine.m4.generation import stream_voice_turn
-from engine.m4.grounding_net import check_turn
+from engine.m4.turn import apply_net
 from engine.m4.world_loader import LoadedWorld
 
 _TYPE_PRIORITY = ["doctrinal_witness", "quote", "story", "term"]
@@ -181,17 +181,18 @@ class LiveModelAnswerer:
         if stream_outcome.status != "ok":
             raise RuntimeError(f"LiveModelAnswerer: voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
 
-        net_result = check_turn(stream_outcome.value.text, self.repository_records, thin_topics=self.thin_topics)
-        surviving = [s for s in net_result["sentences"] if s["verdict"] == "ok"]
-        text = " ".join(s["sentence"] for s in surviving)
-        citations = sorted({rid for s in surviving for rid in s["tags"]})
-
-        if not net_result["substantive_survives"]:
-            # Same Fork-2 fallback engine.m4.turn uses for a live turn - an
-            # admission probe that guts is exactly the case admission
-            # exists to surface, not paper over with a friendlier answer.
-            fallback = m4_evidence.degradation_statement(turn_evidence)
-            text = f"{text} {fallback}".strip() if text else fallback
+        # ONE owner of the text shape (2026-08-28 foundation audit): this
+        # used to re-implement the net application - deleting withheld
+        # sentences and appending a Fork-2 floor line, both behaviors
+        # engine.m4.turn had measured and REMOVED for real participant
+        # turns - so admission graded a text no participant would ever
+        # read. apply_net is production's own shaper; calling it makes
+        # parity structural rather than asserted: the answer graded here
+        # is byte-for-byte the answer a participant would receive.
+        text, citation_entries, _net_result = apply_net(
+            stream_outcome.value.text, repository_records=self.repository_records, thin_topics=self.thin_topics
+        )
+        citations = sorted({rid for entry in citation_entries for rid in entry["record_ids"]})
 
         # source_record_id/source_record_type are metadata only - never
         # read by masking.py/grading.py (the masked transcript carries
