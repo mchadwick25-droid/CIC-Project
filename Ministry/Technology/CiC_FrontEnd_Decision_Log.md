@@ -540,3 +540,59 @@ Mark to answer the three open calls above. Once sequenced, this thread (or a
 successor) drafts launch prompts for whichever of {M7 build, Table build,
 schema-ambiguity fix} he wants to move on next — none of which belongs in this
 website-access thread's own scope.
+
+---
+
+## 2026-08-28 — The Table on the new engine: C1–C3 decided, engine build landed,
+C4–C6 still Mark's
+
+**Origin.** The Table-build thread the 2026-08-26 entry anticipated. Ground
+truth first (recorded in full in
+`Ministry/Technology/CiC_Table_Engine_Scoping_2026-08-28.md`): the Table's
+design layer was already complete and live-tested against the old `cic-poc`
+backend — `CiC_L3D_The_Table_Design_Document_V2.3` plus
+`CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md` — and the "deliberately
+deleted" component code turned out to be frontend-only (`LivingTableScene`);
+the poc backend's multi-world machinery survives in the tree as the proven
+reference. The new engine had zero multi-voice scaffolding, exactly as the
+audit handoff said.
+
+**Mark's decisions, this thread (participant-facing, hence recorded here):**
+- **C1 — Facilitator's voice at the Table:** fixed templates parameterized by
+  the seated worlds, keeping the engine's no-free-generation Facilitator
+  discipline. The table door / dependency-check / session-cap texts are wired
+  as DRAFT copy awaiting his line-read, same swappable-copy pattern as the
+  interview's session-cap turn; the Mark-approved crisis-resources text is
+  reused verbatim with its name slot filled by the or-joined representative
+  names.
+- **C2 — Transport:** turn-at-a-time HTTP. Each response carries at most one
+  voice turn plus `round_open`; the client POSTs `/continue` for the next.
+  No SSE dependency; a future streaming layer can carry the same events.
+- **C3 — Round budget:** floor/cap as configuration — floor 3, cap 4 default,
+  6 allowed (the ceiling the old backend's turn-cap incident re-test
+  verified).
+
+**Built on `claude/table-build-scoping` (engine-side; contract:
+`Redesign-Spec/Artifact-7-Table.md`):** mode="table" sessions (2–3 worlds,
+schema-enforced ceiling), the gated round loop over the existing single-voice
+machinery, the turn selector with code-enforced rules and deterministic
+fallback, per-world session memory and viewer-parameterized history, per-world
+M8 cost attribution, `POST /api/session` accepting `world_keys`, and the
+grounding-isolation CI suite (seeded cross-world leak withheld; every
+surviving citation proven to resolve in the speaker's own repository). All
+existing CI checks pass unmodified — the interview path is untouched.
+
+**Still Mark's, unchanged from the scoping doc:** C4 (session-cap unit at a
+table — currently carried forward as 10 voice turns, provisional and marked
+so in code), C5 (what validation battery gates the Table before participants
+sit — the CI isolation suite is this build's own floor, not a substitute),
+C6 (first live pairings). And the standing one: **no live table smoke run
+happens without Mark's explicit per-run authorization** — nothing live was
+run in this thread.
+
+### Next action
+
+Mark: answer C4–C6 when ready; authorize (or defer) the live table smoke run;
+read the three DRAFT facilitator table texts for approval. The frontend tray
+UI remains the frontend thread's own scope, now with a real API to build
+against.
