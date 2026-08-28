@@ -17,7 +17,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from engine.api import wiring
+from engine.api import table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
 from engine.m4 import session_code
 from engine.m4.projection import project_fresh
@@ -45,6 +45,9 @@ class Deps:
 
 class SessionCreateRequest(BaseModel):
     world_key: str | None = None
+    # 2-3 world keys creates a table session (Artifact-7 SS1/SS6); mutually
+    # exclusive with world_key. Omit both for the default interview world.
+    world_keys: list[str] | None = None
 
 
 class SessionCreateResponse(BaseModel):
@@ -66,12 +69,34 @@ class MessageResponse(BaseModel):
     voice: dict | None
 
 
+class TableMessageResponse(BaseModel):
+    """One table-round advance (Artifact-7 SS6): at most one voice turn per
+    response, round_open says whether to POST /continue for the next.
+    turn_no is set only on the response that committed the round."""
+    round_no: int
+    round_open: bool
+    routing_action: str | None
+    routing_reason: str
+    degraded: bool
+    facilitator: list[dict]
+    turn_selected: dict | None
+    voice: dict | None
+    position: int | None
+    turn_no: int | None
+    session_closed: bool
+
+
 class TranscriptResponse(BaseModel):
     session_id: str
     world_key: str | None
     turn_count: int
     closed: bool
     transcript: list[dict]
+    # Table sessions (Artifact-7): mode "table" with the seated world_keys;
+    # interview sessions carry mode "interview" and world_keys None.
+    mode: str | None = None
+    world_keys: list[str] | None = None
+    round_open: bool = False
 
 
 class WorldSummary(BaseModel):
@@ -152,6 +177,23 @@ def create_app(
     @app.post("/api/session", status_code=201, response_model=SessionCreateResponse)
     def create_session_endpoint(req: SessionCreateRequest, request: Request):
         deps: Deps = request.app.state.deps
+        if req.world_keys is not None:
+            if req.world_key is not None:
+                raise HTTPException(status_code=400, detail="pass world_key OR world_keys, not both")
+            if not (2 <= len(req.world_keys) <= 3) or len(set(req.world_keys)) != len(req.world_keys):
+                # Same bound the event schema enforces (Artifact-7 SS1) -
+                # refused here too so the client gets a 400, not a 500 from
+                # the validation layer.
+                raise HTTPException(status_code=400, detail="world_keys must be 2-3 distinct keys")
+            try:
+                session_id, code = table_wiring.create_table_session(
+                    store=deps.store, world_loader=deps.world_loader, registry=deps.registry, world_keys=req.world_keys
+                )
+            except wiring.UnknownWorldError as exc:
+                raise HTTPException(status_code=400, detail=f"unknown world_key {exc.args[0]!r}")
+            except PackageRefused:
+                raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+            return SessionCreateResponse(session_id=session_id, session_code=code)
         world_key = req.world_key or deps.default_world_key
         try:
             session_id, code = wiring.create_session(
@@ -163,12 +205,49 @@ def create_app(
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         return SessionCreateResponse(session_id=session_id, session_code=code)
 
-    @app.post("/api/session/{session_id}/message", response_model=MessageResponse)
+    @app.post("/api/session/{session_id}/message", response_model=MessageResponse | TableMessageResponse)
     def send_message(session_id: str, req: MessageRequest, request: Request, authorization: str | None = Header(default=None)):
+        deps: Deps = request.app.state.deps
+        state = _authenticate(deps.store, session_id, authorization)
+        call_kwargs = dict(
+            store=deps.store,
+            usage_store=deps.usage_store,
+            world_loader=deps.world_loader,
+            registry=deps.registry,
+            voice_client=deps.voice_client,
+            voice_model_id=deps.voice_model_id,
+            safety_client=deps.safety_client,
+            safety_model_id=deps.safety_model_id,
+            session_id=session_id,
+            text=req.text,
+            client_msg_id=req.client_msg_id,
+        )
+        try:
+            if state.mode == "table":
+                result = table_wiring.handle_table_message(**call_kwargs)
+                return TableMessageResponse(**asdict(result))
+            result = wiring.handle_message(**call_kwargs)
+        except wiring.SessionNotFound:
+            raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
+        except wiring.SessionClosed:
+            raise HTTPException(status_code=409, detail="session already closed")
+        except table_wiring.TableRoundStillOpen:
+            raise HTTPException(status_code=409, detail="round still open - continue it before the next message")
+        except PackageRefused:
+            raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
+        except wiring.ProviderCallFailed:
+            raise HTTPException(status_code=502, detail="provider call failed")
+        return MessageResponse(**asdict(result))
+
+    @app.post("/api/session/{session_id}/continue", response_model=TableMessageResponse)
+    def continue_round(session_id: str, request: Request, authorization: str | None = Header(default=None)):
+        """Advance the open table round by one voice turn, or report its
+        close (Artifact-7 SS6). 409 when no round is open - including on an
+        interview session, which never has one."""
         deps: Deps = request.app.state.deps
         _authenticate(deps.store, session_id, authorization)
         try:
-            result = wiring.handle_message(
+            result = table_wiring.continue_table_round(
                 store=deps.store,
                 usage_store=deps.usage_store,
                 world_loader=deps.world_loader,
@@ -178,18 +257,18 @@ def create_app(
                 safety_client=deps.safety_client,
                 safety_model_id=deps.safety_model_id,
                 session_id=session_id,
-                text=req.text,
-                client_msg_id=req.client_msg_id,
             )
         except wiring.SessionNotFound:
             raise HTTPException(status_code=401, detail=_INVALID_SESSION_DETAIL)
         except wiring.SessionClosed:
             raise HTTPException(status_code=409, detail="session already closed")
+        except table_wiring.TableRoundNotOpen:
+            raise HTTPException(status_code=409, detail="no open round to continue")
         except PackageRefused:
             raise HTTPException(status_code=503, detail=_WORLD_UNAVAILABLE_DETAIL)
         except wiring.ProviderCallFailed:
             raise HTTPException(status_code=502, detail="provider call failed")
-        return MessageResponse(**asdict(result))
+        return TableMessageResponse(**asdict(result))
 
     @app.get("/api/session/{session_id}/transcript", response_model=TranscriptResponse)
     def get_transcript_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
@@ -197,7 +276,8 @@ def create_app(
         _authenticate(deps.store, session_id, authorization)
         state = wiring.get_transcript(deps.store, session_id)
         return TranscriptResponse(
-            session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed, transcript=state.transcript
+            session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed, transcript=state.transcript,
+            mode=state.mode, world_keys=state.world_keys, round_open=state.round_open,
         )
 
     # Stage 5 (PHASE-1-LAUNCH.md): one Render service, not two - same
