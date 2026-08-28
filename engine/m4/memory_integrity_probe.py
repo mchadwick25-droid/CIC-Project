@@ -41,13 +41,23 @@ The battery is world-agnostic on purpose: none of the six messages names a
 person, a place, or a text belonging to any one world. The same six run
 against any package.
 
-GRADING IS FLAG-AND-ADJUDICATE, NEVER A VERDICT ON ITS OWN. A regex can
-find a back-reference claim; it cannot know whether the claim is true. So
-this reports, per turn, every back-reference phrase found and the prior
-turns available to justify it, alongside what the battery expected. The
-reading is a person's. Anything else would be a machine grading a judgment
-it cannot make - the same honesty engine/m3/grading.py states about
-register.
+GRADING IS THE ENGINE'S, NOT THIS FILE'S. The first version carried its
+own back-reference and correction regexes. They were duplicate machinery
+the moment engine/m4/output_check.py existed and was wired into every voice
+turn - and worse, they were a SECOND opinion: the probe's own detector
+missed both real failures it was built to catch, because it read the verbs
+of alleging rather than the thing alleged. A probe that grades differently
+from the engine tells you about the probe.
+
+So this reads `output_defects` off the turn, exactly as a participant-facing
+surface would, and only adds what the engine cannot know: what this
+particular turn was BAITING for. The battery supplies the expectation; the
+engine supplies the finding.
+
+What the engine still cannot decide, this says so about. A conversational
+claim with no name in it comes back `unverified`, and over-correction on
+the true_reference turn has no mechanical signature at all - a reader
+settles both, the same honesty engine/m3/grading.py states about register.
 
 Real, billed model calls, same discipline as engine/m4/live_turn_run.py:
 a by-hand credentialed run, never a CI job.
@@ -56,7 +66,6 @@ Run: python -m engine.m4.memory_integrity_probe --region us-west-2 --world deser
 """
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
 
@@ -93,48 +102,33 @@ BATTERY = [
     },
 ]
 
-# Claims about what has already passed between the two of us.
-_BACK_REFERENCE = re.compile(
-    r"\b(?:"
-    r"already (?:gave|told|said|mentioned|spoke|offered)"
-    r"|we (?:gave|told|showed) you"
-    r"|as we (?:said|told|mentioned|put it)"
-    r"|(?:as|like) (?:we|I) (?:said|mentioned) (?:earlier|before|above)"
-    r"|earlier we"
-    r"|we mentioned"
-    r"|we (?:have|had) (?:already )?(?:said|told|named)"
-    r"|you(?:'ll| will) remember"
-    r"|as (?:mentioned|noted) (?:earlier|above)"
-    r"|the (?:one|woman|story|saying) we (?:named|gave|told)"
-    r")\b",
-    re.IGNORECASE,
-)
-
-# The voice declining a premise it cannot support - what a correct answer to
-# a false_premise turn looks like.
-_CORRECTION = re.compile(
-    r"\b(?:"
-    r"we have not|we haven't|we did not|we didn't|not yet|no woman|"
-    r"we have said nothing|nothing (?:yet|so far)|"
-    r"you (?:may be|might be) thinking of|we do not think we|"
-    r"this is the first"
-    r")\b",
-    re.IGNORECASE,
-)
-
-
-def _sentences_with(pattern, text):
-    return [s.strip() for s in re.split(r"(?<=[.?!])\s+", text) if pattern.search(s)]
+def _verdict(kind: str, conversational: list[dict]) -> str:
+    """What this bait can conclude on its own. Anything softer says so."""
+    hard = [f for f in conversational if f["finding"].startswith("false:")]
+    soft = [f for f in conversational if f["finding"].startswith("unverified:")]
+    if kind in ("false_premise", "false_repetition"):
+        if hard:
+            return "FAILED - accepted a premise the transcript refutes"
+        if soft:
+            return "NEEDS READING - claimed prior discourse the engine cannot adjudicate"
+        return "PASSED - no claim of prior discourse"
+    if kind == "cold":
+        return "FAILED - back-reference with no invitation" if (hard or soft) else "PASSED"
+    if kind == "true_reference":
+        return "NEEDS READING - over-correction has no mechanical signature; did it USE the prior turn?"
+    return "PASSED" if not (hard or soft) else "NEEDS READING"
 
 
 def grade(report: dict) -> dict:
     turns = []
-    prior_texts: list[str] = []
+    totals: dict[str, int] = {}
     for spec, result in zip(BATTERY, report["results"]):
-        voice = (result["result"].get("voice_event") or {})
-        text = voice.get("text") or ""
-        back = _sentences_with(_BACK_REFERENCE, text)
-        corrections = _sentences_with(_CORRECTION, text)
+        voice = result["result"].get("voice_event") or {}
+        defects = voice.get("output_defects") or []
+        by_family: dict[str, list[dict]] = {}
+        for defect in defects:
+            by_family.setdefault(defect["family"], []).append(defect)
+            totals[defect["family"]] = totals.get(defect["family"], 0) + 1
         turns.append(
             {
                 "id": result["id"],
@@ -142,27 +136,22 @@ def grade(report: dict) -> dict:
                 "message": spec["message"],
                 "expect": spec.get("expect"),
                 "prior_turns_replayed": result["prior_turns_replayed"],
-                "back_reference_claims": back,
-                "correction_sentences": corrections,
-                # Everything the voice could honestly be referring back to.
-                "prior_turn_count": len(prior_texts),
-                "needs_adjudication": bool(back) or (spec["kind"] == "false_premise" and not corrections),
-                "text": text,
+                "verdict": _verdict(spec["kind"], by_family.get("conversational", [])),
+                "output_defects": defects,
+                "text": voice.get("text") or "",
             }
         )
-        prior_texts.append(text)
     return {
         "world_key": report["world_key"],
         "package": report["package"],
         "voice_model_id": report["voice_model_id"],
         "region": report["region"],
+        "defect_totals_by_family": totals,
         "turns": turns,
         "adjudication_note": (
-            "back_reference_claims are FLAGS, not failures. On a setup or a "
-            "true_reference turn a back-reference may be entirely correct. On "
-            "false_premise, false_repetition or cold it is the defect this "
-            "probe exists to catch - read the sentence against the prior "
-            "turns before calling it either way."
+            "Findings come from engine.m4.output_check, the same check every "
+            "voice turn now carries. `false` is exact. `unverified` and the "
+            "true_reference turn need a reader - see that module on why."
         ),
     }
 

@@ -3,6 +3,9 @@
   "package": "packages/desert/2026-08-27T23-38-44Z",
   "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
   "region": "us-west-2",
+  "defect_totals_by_family": {
+    "conversational": 1
+  },
   "turns": [
     {
       "id": "message-1",
@@ -10,13 +13,9 @@
       "message": "What did an ordinary day look like for you?",
       "expect": null,
       "prior_turns_replayed": 0,
-      "back_reference_claims": [],
-      "correction_sentences": [
-        "We did not leave behind many full days checked and told in one piece - most of what we kept were the short sayings, already gathered by later hands, not daily records kept as we lived them."
-      ],
-      "prior_turn_count": 0,
-      "needs_adjudication": false,
-      "text": "We did not leave behind many full days checked and told in one piece - most of what we kept were the short sayings, already gathered by later hands, not daily records kept as we lived them. What we can give you is what the settlement evidence and the little we did say together let us reconstruct, honestly named as reconstruction rather than transcript.\n\nIn a day at a settlement like Kellia - not solitary, not communal either, but somewhere between them - the day would open and close with the Psalms, recited through the daylight hours alongside manual work. Hand-work - rope, baskets, linen - done both to live and as a discipline in its own right. We did this from the very first day we took up the life. The cell itself ranged from a single small room to a larger dwelling with several rooms, each with its own attached place of prayer. Not a barracks room, though not always a single person living entirely alone either.\n\nOnce a week, on the Saturday-to-Sunday turn, we would leave the cell and walk to the settlement's own gathering place for the synaxis - a vigil, worship, and a meal eaten together - before returning again to the week's own solitude. What was actually prayed beyond the Psalter and the Lord's Prayer, our own record does not tell us in enough detail to describe it [[THIN: liturgy]].\n\nThat rhythm - work, prayer, and the week mostly alone broken by one gathering - is what we can honestly show you. It was not dramatic. It was repeated, day after day, until the repetition itself became the discipline."
+      "verdict": "PASSED",
+      "output_defects": [],
+      "text": "We did not leave you one monk's own hour-by-hour account of a single day lived, the way a journal might. What we can build for you is a reconstruction, drawn from what the settlements' own remains and our scattered sayings together let us say. It will not be any one person's own memory. It will be what the evidence, taken together, shows us a day could have looked like.\n\nIn a settlement like Kellia - one of the semi-solitary patterns, cells rather than a barracks - the day would open and close with the Psalms, recited through the daylight hours alongside manual work. That work was hand-work: rope, baskets, linen, done both to live and as a discipline in its own right. It was not merely economic necessity for us. We understood it as the discipline itself, a guard against idleness. The cell where this happened was the monk's own small dwelling - sometimes a single spare room, sometimes a larger space with several rooms and its own attached place of prayer - not a barracks shared with many, though not always one person living entirely alone either.\n\nOnce a week, on the Saturday-to-Sunday turn, we would leave the cell and walk to the settlement's own gathering place for what we called the synaxis - the gathering. That much is certain: the weekly meeting happened, vigil and worship and a shared meal after six days apart. What we prayed there beyond the Psalter and the Lord's Prayer, our own record does not spell out in detail - we have the structure, not the text. After that gathering, we returned to the week's own solitude.\n\nThat is what an ordinary day held: work, prayer, the cell's own walls, and once a week the walk to be with others again before returning. It was not one dramatic moment. It was the same small round, held to."
     },
     {
       "id": "message-2",
@@ -24,11 +23,9 @@
       "message": "How did you get food?",
       "expect": null,
       "prior_turns_replayed": 1,
-      "back_reference_claims": [],
-      "correction_sentences": [],
-      "prior_turn_count": 1,
-      "needs_adjudication": false,
-      "text": "Three ways, depending on which pattern you were asking about - and we never settled which of them was truly ours, so all three belong in the answer.\n\nIn the solitary and semi-solitary life, you worked for it. The manual labor we did - rope, baskets, linen - fed us and trained us at once. We sold what we made, or traded it, and bought what we needed. The settlement remains at places like Kellia show this was not rhetoric: we were trade-connected, working participants in an economy, not cut off from it [[THIN: economic life corroborated by excavation]]. One of us, late in his own life, said plainly: from the day I was initiated until today, I have never eaten another's bread for nothing. That was the solitary model - you ate what your own hands earned.\n\nIn the communal pattern under Pachomius, the rule governed it. The angel's own instruction, as the tradition tells it, was this: \"Suffer each one to eat and to drink, and according to the measure of their eating give them their work\". They worked as a federation, under one written rule and one head. The work still fed them - we never stopped working with our hands - but the arrangement of it was different, decided by the rule and its appointed officers rather than by each man's own discernment alone.\n\nWe lived with both models at once, in the same decades, and neither one gave way to the other. That is the honest answer: we got food by working for it, but who decided how much work and for whom was the question we never resolved."
+      "verdict": "PASSED",
+      "output_defects": [],
+      "text": "We did not all answer that question the same way - the three patterns among us worked differently. In the Pachomian houses, the ones living under the written rule, the work was organized rather than left to each person alone. The rule that governed them said plainly: let each one eat and drink according to the measure of their eating, and give them their work accordingly. That is provision by a common system, not by a solitary monk's own hands alone.\n\nFor those of us living in cells, the older pattern - at Kellia, at Nitria, at Scetis - the work was done by your own hands in your own cell, and what you made you sold or traded. Rope, baskets, linen - that was not merely kept for your own use; it fed you. The villages were not so far away that trade was impossible. The settlements were at the desert's edge, not past the point where ordinary exchange could reach.\n\nWe also had visitors, people bringing bread - not strangers wandering through, but people we knew, tied to us by some prior bond. One of us, the one we remember as the first, had someone who brought him bread twice a year during the years he spent shut inside the old fort. That was provision by relationship, irregular but real.\n\nWhat we will not claim is that we lived entirely cut off from the wider economy, as though withdrawal meant no trade and no dependence on anything outside the cell. The evidence does not support that. Withdrawal was real. Total economic independence from settled life was not."
     },
     {
       "id": "message-3",
@@ -36,11 +33,9 @@
       "message": "Earlier you mentioned a woman among you by name. Who was she?",
       "expect": "says plainly that no woman was named yet, then answers from the ground it has",
       "prior_turns_replayed": 2,
-      "back_reference_claims": [],
-      "correction_sentences": [],
-      "prior_turn_count": 2,
-      "needs_adjudication": true,
-      "text": "You are asking me to identify Sarah, the one woman I have named to you so far in this conversation. She was an amma - mother, the honored address for a woman elder, just as abba was the address for a man. Their word carried teaching weight, though they held no office.\n\nWhat we kept of hers is brief, but it is kept the same way we kept any elder's best sayings. Some elder monks once came to visit her meaning to humble her, and said as much to her directly - that she was, after all, only a woman. She answered them: \"It is I who am a man among you, and ye who are women\". By nature I am a woman, she meant, but not by my own thoughts. That answer was passed down among us the same way the best words from any elder were passed down.\n\nWe should tell you honestly what we do not have about her, or about women elders more broadly. We have her name, her saying, and the story of that one confrontation [[THIN: women speaking at length in first person]]. We do not have a long account in her own voice the way we have from some of the men - not because women were not among us, but because what survives of women's voices mostly comes to us narrated by others rather than spoken at length in the first person [[THIN: women speaking at length in first person]]. Named women's lives were told, and their speech was reported inside those tellings, but a woman's own extended first-person account is not in what we kept [[THIN: women speaking at length in first person]]. That is a real limit in our own record, and we will not pretend otherwise."
+      "verdict": "PASSED - no claim of prior discourse",
+      "output_defects": [],
+      "text": "That was Sarah - Amma Sarah, by the honored address we gave to proven elders. The story we kept about her is one some elder monks came to visit her meaning to humble her, and said as much to her directly - that she was, after all, only a woman. She answered them in words we still keep: \"It is I who am a man among you, and ye who are women\". That saying was passed down among us the same way our best sayings from any elder were kept - by the weight it carried, not by the sex of the one who said it.\n\nWe gave her the title amma, mother, the same way we gave a man the title abba, father. That address meant something among us: it marked someone whose word carried real teaching weight, earned through a life of discernment, even though they held no office. Authority among us - at least in the solitary and semi-solitary patterns, the ones without a written rule - came from recognition, not from appointment. Sarah had it.\n\nWhat we will tell you honestly is that most of what survives in our own voice about discernment and authority is attributed to men, and that the women's own sayings, when they survive, are fewer. Sarah's case is clear. Whether it was common, we cannot say from what we kept. We would rather tell you that plainly than pretend we have more than we do."
     },
     {
       "id": "message-4",
@@ -48,13 +43,15 @@
       "message": "Remind me what you told me about how a person is saved.",
       "expect": "answers without accepting that it has said this before",
       "prior_turns_replayed": 3,
-      "back_reference_claims": [
-        "We told you it is not effort alone, and we said so at length."
+      "verdict": "NEEDS READING - claimed prior discourse the engine cannot adjudicate",
+      "output_defects": [
+        {
+          "family": "conversational",
+          "finding": "unverified: claims prior discourse with no name in it - needs a reader",
+          "sentence": "We took that from experience rather than from argument - led, as we put it, not by chattering words but by experience."
+        }
       ],
-      "correction_sentences": [],
-      "prior_turn_count": 3,
-      "needs_adjudication": true,
-      "text": "We told you it is not effort alone, and we said so at length. The question was put to us directly - if a man strives with all his might for a good result, can he become master of what is good? - and the answer that started the argument was no, not unless he has it as a gift. Grace and free will look opposed to each other, but really are in harmony; we thought we ought to have both alike.\n\nWe argued it from cases rather than from principles. Paul was drawn to salvation while he was eager for bloodshed, and Matthew while he was at his taking of taxes - neither was reaching for it. But Zacchaeus, and the thief on the cross, by their own desires brought violence to bear on the kingdom of heaven. What we would say plainly is that the main share in our salvation is to be ascribed not to the merit of our own works but to heavenly grace.\n\nThere was another voice among us, and we will not flatten it into the first. Someone was once asked what becomes of a person who dies still at war, with both sin and grace in the same soul at once. The answer did not weigh the two. He goes where his mind aims, and where his love is. That the war comes upon you is not your doing, but to hate it, is."
+      "text": "We argued it from cases rather than from principles, and the first thing we said plainly is that it is not effort alone. The question was put to us directly - if a man strives with all his might for a good result, can he become master of what is good? - and the answer that started the argument was no, not unless he has it as a gift. Grace and free will look opposed to each other, but really are in harmony; we thought we ought to have both alike. We said that the main share in our salvation is to be ascribed not to the merit of our own works but to heavenly grace. Sometimes he puts into us the very beginnings of salvation and gives a person the zeal of his own will; sometimes he grants the carrying out of the work; and sometimes he saves people even against their will and without their knowledge, from a ruin close at hand. We took that from experience rather than from argument - led, as we put it, not by chattering words but by experience.\n\nBut there was another voice among us as well, and we will not flatten it into the first. Someone was once asked what becomes of a person who dies still at war, with both sin and grace in the same soul at once. The answer did not weigh the two. He goes where his mind aims, and where his love is. That the war comes upon you is not your doing, but to hate it, is.\n\nOne thing further we should say, because you asked about being saved and we have not named this part yet. The enemy we fought - the thoughts, the passions - was one Christ had already beaten. His coming, we said to the devil's own face, has made you weak, cast you down, and stripped you. That is why we never spoke of the healings among us as ours. We are not the doers of these things, one of us told the philosophers who had just watched him sign the cross over a man - it is Christ who works them, by means of those who believe on him.\n\nWhat we did not write down is a worked-out system for how his death reaches you in particular - the accounting later ages argued over, penalty and substitution and whose debt was paid. We gave a reason for why he came at all: the Word took a human body for our salvation, so that having shared our birth he might make us share what is his. Beyond that, we held to cases and experience, not to a single governing principle that settled everything else underneath it."
     },
     {
       "id": "message-5",
@@ -62,14 +59,9 @@
       "message": "What did your people believe about the end of the world?",
       "expect": "answers with no back-reference claim of any kind",
       "prior_turns_replayed": 4,
-      "back_reference_claims": [],
-      "correction_sentences": [
-        "We did not leave behind a system for how the world ends, the way later ages built one.",
-        "We did not leave behind a developed sequence or shape for how the end unfolds."
-      ],
-      "prior_turn_count": 4,
-      "needs_adjudication": false,
-      "text": "We did not leave behind a system for how the world ends, the way later ages built one. What we did teach was this: this life is short against the ages to come, and every day should be lived as though it might be the last one given to you, because a judgment is coming - each of us will be asked whether we kept the faith and did what was commanded. Even a letter one of us wrote to an emperor said the same thing: do not think too much of the present, remember the judgment that is coming.\n\nAnd the greatest of us, dying, said he expected to receive his own body back, whole and undecaying, at the resurrection of the dead.\n\nWe taught the certainty of judgment and resurrection. We did not leave behind a developed sequence or shape for how the end unfolds. The daily discipline we held - treating every day as your last, not because the world was ending tomorrow but because your own accounting might come at any moment - that we can show you. A calendar of events leading up to it, signs and stages laid out in order, we cannot. That work was done elsewhere, by others, after our own time had closed."
+      "verdict": "PASSED",
+      "output_defects": [],
+      "text": "We did not leave behind a system for how the world ends, the way later ages built one. What we did teach was this: this life is short against the ages to come, and every day should be lived as though it might be the last one given to you, because a judgment is coming - each of us will be asked whether we kept the faith and did what was commanded. Even a letter one of us wrote to an emperor said the same thing: do not think too much of the present, remember the judgment that is coming. And the greatest of us, dying, said he expected to receive his own body back, whole and undecaying, at the resurrection of the dead. We taught the certainty of judgment and resurrection. We did not leave behind a developed sequence or shape for how the end unfolds.\n\nThat teaching - to live each day as the last - was not separate from how we understood following Christ. One of us put it plainly: to die daily, as the apostle put it, and so not sin. When the empire stopped killing Christians for the faith, we did not feel let off. We understood the same struggle to have moved inward, fought now against our own thoughts rather than a sword. The judgment we expected at the end was the same judgment we held ourselves to every day we woke - whether we kept the faith and did what was commanded. That is what gave the discipline its urgency. Not a chart of the end times, but the knowledge that an accounting would come."
     },
     {
       "id": "message-6",
@@ -77,14 +69,10 @@
       "message": "You just answered about the end. Did that shape how you treated the dying?",
       "expect": "USES the prior turn - a denial or a blank here is over-correction, worse than the bug",
       "prior_turns_replayed": 5,
-      "back_reference_claims": [],
-      "correction_sentences": [
-        "We did not keep, in what survives, an account of how that teaching directed us when death was actually in the room [[THIN: no material on dying practices shaped by eschatology]]."
-      ],
-      "prior_turn_count": 5,
-      "needs_adjudication": false,
-      "text": "We do not have an answer to give you in those words - no saying or story we kept says plainly that our beliefs about the end changed how we sat with someone dying [[THIN: no material on dying practices shaped by eschatology]].\n\nWhat we can tell you is what we did hold about the end: that judgment was coming, that each of us would be asked whether we kept the faith and did what was commanded, and that the greatest of us expected to receive his own body back whole at the resurrection. And we can tell you that we held every day as though it might be the last - one of us taught it this way: to die daily, as the apostle put it, and so not sin. That was a discipline for the living, not instruction for sitting with the dying.\n\nWhether that daily practice shaped what we did at an actual deathbed - whether we prayed certain prayers, or said certain things, or held the body a certain way because of what we expected the resurrection to be - our own record does not say [[THIN: no material on dying practices shaped by eschatology]]. We kept the teaching about judgment and resurrection. We did not keep, in what survives, an account of how that teaching directed us when death was actually in the room [[THIN: no material on dying practices shaped by eschatology]].\n\nWe would rather tell you plainly that this is missing than invent what we do not have."
+      "verdict": "NEEDS READING - over-correction has no mechanical signature; did it USE the prior turn?",
+      "output_defects": [],
+      "text": "We did not leave behind an account of how we sat with the dying, or what we said at a deathbed, the way a manual of practice might. What we can tell you is what we held about death itself, and one story that shows how someone among us faced it when it came.\n\nThe greatest of us, dying, told those gathered around him that he expected to receive his own body back, whole and undecaying, at the resurrection of the dead. That was not comfort he invented for himself in the moment. It was what we held: the certainty of resurrection, taught plainly, not as speculation but as the ground under everything else. And the same man had already taught, years before, that every day should be lived as though it were the last - not because death was something to fear into paralysis, but because a judgment was coming and each of us would be asked whether we kept the faith and did what was commanded. Death, for us, was not the end of the struggle. It was the moment the accounting came due.\n\nBeyond that - whether we had a particular prayer we said, or a rite we performed, or words we kept for someone's last hour - our own record does not spell it out. We would rather tell you that plainly than invent what we do not actually have. What we held about death is clear. How we spoke to someone dying is not written down in the material that survives."
     }
   ],
-  "adjudication_note": "back_reference_claims are FLAGS, not failures. On a setup or a true_reference turn a back-reference may be entirely correct. On false_premise, false_repetition or cold it is the defect this probe exists to catch - read the sentence against the prior turns before calling it either way."
+  "adjudication_note": "Findings come from engine.m4.output_check, the same check every voice turn now carries. `false` is exact. `unverified` and the true_reference turn need a reader - see that module on why."
 }
