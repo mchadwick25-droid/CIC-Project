@@ -11,9 +11,12 @@
 # cic-engine 2026-08-25 (PR #54) and the service was suspended in the
 # dashboard the same day. Removing the entry here lets the next Blueprint
 # sync flag the suspended service for deletion - Render asks for a
-# dashboard confirmation before deleting; that confirmation, and revoking
-# the old service's ANTHROPIC_API_KEY in the Anthropic console, are
-# Mark's account actions. The old pilot's transcripts live in Supabase, a
+# dashboard confirmation before deleting; that confirmation is Mark's
+# account action, and the last one open: the Anthropic keys were disabled
+# by Mark 2026-08-28 (the account's remaining credit goes to another,
+# non-CiC project), so ALL CiC model spend now flows through AWS Bedrock
+# alone - one channel, which is exactly what the spec-principle-13
+# invoice reconciliation wants. The old pilot's transcripts live in Supabase, a
 # separate service this touches not at all. The whole retired entry -
 # including its Haiku-switch history and the Supabase-durability
 # rationale - is in git history at this file's prior revisions.

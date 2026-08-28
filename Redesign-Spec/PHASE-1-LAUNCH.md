@@ -436,9 +436,11 @@ Anthropic API calls), and deletion is its own later decision, still open.~~
 systems." Done in-repo the same day: `cic-poc/backend`, `docs`,
 `Dockerfile`, and the setup guides removed (`frontend/` kept - it is the
 surface cic-engine builds and serves); the cic-poc service entry removed
-from `render.yaml`. What remains is Mark's dashboard confirmation when
-Render's Blueprint sync flags the suspended service for deletion, and
-revoking the old service's `ANTHROPIC_API_KEY` in the Anthropic console.
+from `render.yaml`. The Anthropic keys were disabled by Mark the same
+day (2026-08-28; the account's remaining credit is his to spend on
+another, non-CiC project) - so all CiC model spend now flows through AWS
+Bedrock alone. What remains is one action: Mark's dashboard confirmation
+when Render's Blueprint sync flags the suspended service for deletion.
 The old pilot's transcripts live in Supabase, untouched by any of this.
 
 > **GATE 6 - MET 2026-08-25.** churchinconversation.com's links reach
