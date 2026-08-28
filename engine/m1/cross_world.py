@@ -35,7 +35,6 @@ drift fails. Removing an entry is what "fixed" means here.
 import json
 import re
 import sys
-from pathlib import Path
 
 from engine.m1.loader import RECORDS_ROOT, load_world_records
 from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry

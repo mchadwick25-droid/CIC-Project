@@ -40,6 +40,11 @@ export function Launch({
       <ArrivingLockup />
       {error && <div className="conversation__error" style={{ margin: '0 var(--spacing-lg)' }}>{error}</div>}
       {isLoading && !error && <p className="world-list__loading sans">Gathering the worlds…</p>}
+      {!isLoading && !error && worlds.length === 0 && (
+        <p className="world-list__loading sans">
+          The doors aren't open just yet — the worlds are being prepared. Please come back soon.
+        </p>
+      )}
 
       <div className="world-list">
         {worlds.map((world) => {

@@ -12,9 +12,13 @@
   --color-surface: #FEFCF8;
   --color-text: #2A2521;
   --color-text-muted: #6C6257;
-  --color-text-light: #8A837C;
+  /* 2026-08-28 a11y sweep: was #8A837C - 3.38:1 on the cream background,
+     below AA, and it carried load-bearing copy (the Facilitator's own
+     disclosure turns, the exit button, placeholders, waiting notes).
+     #6C6257 (the muted tone already in this palette) measures 5.39:1. */
+  --color-text-light: #6C6257;
 
-  --color-facilitator: #8A837C;
+  --color-facilitator: #6C6257; /* same a11y fix - the Facilitator's words were at 3.38:1 */
 
   --color-representative: #B45309;
   --color-representative-bg: #FBF2E2;

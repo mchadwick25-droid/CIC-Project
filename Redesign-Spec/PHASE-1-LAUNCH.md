@@ -270,7 +270,7 @@ Housekeeping that makes every later stage legible. None of it touches code.
 
 > **GATE 1 - MET 2026-08-24.** `main` and `build/phase-1` both at
 > `417f3211`; remote branches 120 -> 76; `baseline/pilot-2026-08-24` still
-> at `8b23f46e`; and all 18 unmerged branches confirmed still present.
+> at `8b23f46e`; and all 18 unmerged branches confirmed still present *(count correct on 2026-08-24; by 2026-08-28 the remote held 87 branches, ~81 unmerged — the per-branch-verification rule stands, the numbers do not; see the foundation audit)*.
 >
 > Note for whoever keeps this level: **the `main` fast-forward is now
 > protection, not housekeeping** (Stage 0). If a later merge lands on
@@ -325,7 +325,7 @@ transcripts settles that part.
 
 ---
 
-## Stage 3 - Give the engine a container  *(assistant, no spend)*
+## Stage 3 - Give the engine a container  *(assistant, no spend)*  -  **DONE 2026-08-25** *(marked 2026-08-28: `engine/Dockerfile` exists, CI's docker-build job builds it, and it is the deployed image — this stage's own prose below predates completion)*
 
 There is no `engine/Dockerfile`. `render.yaml` builds `cic-poc/Dockerfile`
 and nothing else.
@@ -345,7 +345,7 @@ scoped to Bedrock invoke on the models actually used.
 
 ---
 
-## Stage 4 - Give the engine a surface  *(assistant + Mark's design eye)*
+## Stage 4 - Give the engine a surface  *(assistant + Mark's design eye)*  -  **DONE 2026-08-25** *(marked 2026-08-28: the surface ships inside the engine image and has since grown the launch system and Table room — see the decision log)*
 
 `engine/api` is four HTTP endpoints and no UI. The only participant-facing
 surface anywhere in this repository is `cic-poc/frontend` - **48 files**,

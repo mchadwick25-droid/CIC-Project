@@ -1,3 +1,11 @@
+> **Superseded — kept for its reasoning, not as instructions
+> (marked 2026-08-28, foundation audit).** This document describes the
+> retired cic-poc backend (`app/main.py`, LangGraph nodes, Supabase,
+> direct Anthropic API) in the present tense. That system was retired
+> 2026-08-25 and deleted 2026-08-28; the current system is the engine
+> (`engine/`, Bedrock-only) documented in `Redesign-Spec/`. Same banner
+> convention as `world-build-docs/_cross-world/README.md`.
+
 # Pass 2 blueprint — Touches verification against real code
 
 Research pass dispatched to replace the blueprint's placeholder/generic `Touches:` fields with real file paths and line numbers, verified against the actual `cic-poc/backend` (and where relevant `cic-poc/frontend`) code rather than derived from Pass 1's prose alone. Covers Phase 2's remaining steps (S2.1–S2.9) plus Phases 3–6, which had no per-step Touches field at all. The blueprint's own per-step entries now carry a condensed version of this; this document is the full record, kept for the file:line citations and the reasoning behind each one.

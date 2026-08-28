@@ -1,5 +1,19 @@
 # Build handoff note
 
+> **Currency note, 2026-08-28 (foundation audit):** this handoff's
+> "current state" sections describe the system as it stood at the close of
+> the build thread (2026-08-24) and several load-bearing statements are now
+> false: cic-poc is retired and deleted (only its frontend survives, built
+> into the engine's own image); `render.yaml` runs ONE service
+> (`cic-engine`, Bedrock-only — `LLM_PROVIDER`/`LLM_MODEL` no longer
+> exist); the engine HAS a participant surface (`engine/api` serves it
+> same-origin, with `/api/worlds` and table sessions); and the M6 gate
+> ("not a task any thread should pick up") was superseded by Mark's
+> launch-system go. Read this file for its reasoning and history — for
+> current state, read `PHASE-1-LAUNCH.md`'s stage marks, `render.yaml`,
+> and the decision log. Kept for its reasoning, not as instructions.
+
+
 Read `Build-Blueprint.md` first; this note is only the "where things stand"
 supplement it asks for at every stage boundary / stop-and-ask / economy
 checkpoint.

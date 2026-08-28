@@ -60,8 +60,9 @@
 .access-give-actions{margin:1.1rem 0}
 
 /* Representative carousel — chronological, era-tinted, click for the same
-   info the program's own world tile shows, then a direct link into a free
-   Deep Interview (never a route into the paid multi-representative Table).
+   info the program's own world tile shows, then two hand-offs per Mark's
+   launch ruling (2026-08-28): the Interview link (instant) and the quiet
+   Bring-to-the-Table link (seats the app's Table field, never auto-starts).
    Data comes from data/world-census.json at runtime, same single source of
    truth the Atlas itself reads, so this never drifts out of sync with it. */
 .reps-carousel-wrap{position:relative;padding:0 1.5rem}
@@ -238,11 +239,6 @@ const PORTRAIT_FILES = {
   'desert-monasticism': 'desert.png',
   'hieronymian-ascetic-literary': 'bethlehem.png',
 };
-// Known discrepancy, not silently patched: the census's own id for this one
-// entry doesn't match the live app's real world_id (world_manifest.py) —
-// flagged in the Website thread's Decision Log; corrected here so the
-// interview link actually works, not fixed at the source in this pass.
-const CENSUS_ID_FIX = { 'imperial-and-juridical-christianity': 'imperial-juridical-christianity' };
 
 fetch('data/world-census.json')
   .then(r => r.json())
@@ -253,7 +249,7 @@ fetch('data/world-census.json')
     const live = data.movements
       .filter(m => m.status === 'Built & Live')
       .map(m => {
-        const id = CENSUS_ID_FIX[m.id] || m.id;
+        const id = m.id;
         return { id, era: m.era, start: m.start, dates: m.dates, region: m.region, entry: m.entry };
       })
       .sort((a, b) => a.start - b.start);

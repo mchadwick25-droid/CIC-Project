@@ -1,3 +1,11 @@
+> **Superseded — kept for its reasoning, not as instructions
+> (marked 2026-08-28, foundation audit).** This document describes the
+> retired cic-poc backend (`app/main.py`, LangGraph nodes, Supabase,
+> direct Anthropic API) in the present tense. That system was retired
+> 2026-08-25 and deleted 2026-08-28; the current system is the engine
+> (`engine/`, Bedrock-only) documented in `Redesign-Spec/`. Same banner
+> convention as `world-build-docs/_cross-world/README.md`.
+
 # Church in Conversation: System Redesign — Pass 2 Build Blueprint
 
 **Date:** 2026-07-26
