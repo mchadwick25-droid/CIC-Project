@@ -18,6 +18,43 @@ class ProbeResult:
     error: str | None = None
 
 
+def _transitive_source_ids(records: dict[str, dict]) -> set[str]:
+    """A citation is source-bounded if it names a literal `source` record,
+    or if it names some other record (quote/term/gravity/...) whose OWN
+    `sources[]` names one - transitively, to arbitrary depth. This is
+    grounding, not citation-style: two coherent-but-different citing
+    conventions coexist across the fleet (2026-08-26 finding) -
+    desert/pahc's demonstrations cite a `source` record directly;
+    alx/hal/syr/ijc's cite the intermediate quote/term/gravity record that
+    itself cites the source. Both are real grounding chains; only the first
+    hop differs. Resolving transitively fixes the false failures on the
+    second convention without loosening what counts as grounded: a citation
+    that doesn't trace to any real source record, by any path, still fails.
+    Mark's decision (2026-08-26, over two costlier alternatives that would
+    have meant re-tagging content across four worlds): fix the checker, not
+    the data.
+
+    Memoized and cycle-guarded - the corpus is a DAG in the intended case
+    (source records carry no sources of their own), but this doesn't trust
+    that, since a malformed record shouldn't be able to hang the harness."""
+    direct = {r["id"] for r in records.values() if r.get("record_type") == "source"}
+    resolved: dict[str, bool] = {}
+
+    def resolves(record_id: str, path: frozenset[str]) -> bool:
+        if record_id in direct:
+            return True
+        if record_id in resolved:
+            return resolved[record_id]
+        if record_id in path or record_id not in records:
+            return False
+        cited = (records[record_id].get("sources") or [])
+        result = any(resolves(s["source_id"], path | {record_id}) for s in cited)
+        resolved[record_id] = result
+        return result
+
+    return direct | {record_id for record_id in records if resolves(record_id, frozenset())}
+
+
 def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> list[ProbeResult]:
     """answerer defaults to FixtureRecordAnswerer(records) - the
     deterministic, no-model battery every existing caller (this module's
@@ -29,7 +66,7 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> l
     itself makes no model-provider decision either way."""
     if answerer is None:
         answerer = FixtureRecordAnswerer(records)
-    known_source_ids = {r["id"] for r in records.values() if r.get("record_type") == "source"}
+    known_source_ids = _transitive_source_ids(records)
     known_quote_texts = {r["text"] for r in records.values() if r.get("record_type") == "quote" and r.get("text")}
 
     results = []
