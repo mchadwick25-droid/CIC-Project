@@ -580,3 +580,58 @@ disposition.
 
 Mark: the stage-7 touchpoints for alx and desert, when ready. The pilot's
 remaining long pole is M7.
+
+---
+
+## 2026-08-28 — Remaining four worlds run single admission; the whole fleet
+now stands at 28/28 mechanical
+
+**Origin.** Mark: "lets do the other four worlds single admission" — one
+live run each for pahc, hal, syr, ijc, same one-run-then-judgment cost
+policy as the desert/alx re-run.
+
+**Result of the live run:** syr 28/28, ijc 28/28, pahc 27/28, hal 27/28.
+(Two register advisories on syr, non-gating per the ruling above.) Both
+failures were the source-boundedness check on an evidence-pressure probe,
+and both persisted answers read as exactly what admission wants: honest
+disclosures citing real records. pahc's voice disclosed the Bagnall
+dependency behind the Egypt exclusion and cited
+`pahc.contested.egypt-exclusion`; hal's voice said the archaeology does
+not survive ("the richness is in the letters, not in the stones") and
+cited `hal.search.latin-critical-texts`, the `result: not_found` search
+record that establishes it. The checker called both fabricated because
+neither record traces to a source — for opposite reasons.
+
+**Fixes (commit c1c4e657):**
+- **hal — checker-side, fleet-wide.** A third citation category,
+  `evidence_status_types` (search records), joining the voice-scaffold
+  category from the same precedent: a search record documents the looking
+  itself, so it is definitionally sourceless — 73 of the fleet's 74 carry
+  `sources: []` by design. Requiring it to trace to a source would demand
+  the absence of evidence come with evidence attached. The check names
+  the category on its findings; an invented id still fails.
+- **pahc — record-side, one record.** `pahc.contested.egypt-exclusion`
+  was the only one of the fleet's 40 contested_claim records with no
+  grounding chain; its `sources[]` now names `pahc.core.house-church`,
+  the record whose caution 7 it explicitly carries forward — the fleet's
+  ordinary intermediate-record citing convention. The Bagnall disclosure
+  stays prose-only, still not manufactured into a source record. Package
+  rebuilt and repinned.
+
+**Verification without new spend:** both failures re-graded
+deterministically against the persisted live answers (the live finding
+names exactly the unresolved citations; both fixes are strictly
+widening). Recorded in
+`engine/m3/reports/live-admission-regrade-remaining-four-2026-08-28.json`.
+Full engine suite green; M2 restore and staleness clean.
+
+**Consequence: all six worlds — alx, desert, pahc, hal, syr, ijc — have
+now cleared the mechanical admission bar.** Everything that remains for
+admission is Mark's stage-7 touchpoints per world: the admission read,
+the freeze, the registry transition to `admitted` (and, at launch, the
+`CIC_ENFORCE_ADMISSION` flip).
+
+### Next action
+
+Mark: stage-7 touchpoints, now for the whole fleet. The pilot's remaining
+long poles are M7 (transcript audit) and the frontend table mode.
