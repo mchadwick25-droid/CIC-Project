@@ -339,6 +339,45 @@ def test_round_closed_carries_governance_summary(store, usage_store, world_loade
     assert isinstance(governance["dominance_signals"], list)
 
 
+def test_table_voice_payload_matches_interview_shape(store, usage_store, world_loader, registry, alx_world):
+    """The three-level transparency program (citation cards with
+    participant-readable labels, per-sentence citations, glosses, figure
+    bridges - engine/m4/citation_cards.py and the shipped VoiceTurnBody
+    UI) consumes the interview's voice payload. A table voice turn must
+    hand it the identical shape, so the same rendering carries the same
+    apparatus at a table with zero UI changes - Mark's requirement,
+    2026-08-28: the transparency program 'will need to be part of the
+    conversation' at the Table."""
+    from engine.api.tests.conftest import FakeBedrockClient
+
+    alx_sentence, _ = grounded_sentence(alx_world)
+    # Interview turn on fix (the existing proven fixture path).
+    interview_client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=interview_client)
+    resp = http.post("/api/session", json={"world_key": "fix"})
+    auth = {"Authorization": f"Session {resp.json()['session_code']}"}
+    interview_voice = http.post(
+        f"/api/session/{resp.json()['session_id']}/message", json={"text": "who was Jesus?"}, headers=auth
+    ).json()["voice"]
+
+    # Table turn on alx.
+    table_client = _table_client(selector_script=[{"next": "alx", "reason": "r"}], stream_scripts=[[alx_sentence]])
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=table_client)
+    session_id, auth = _create_table(http)
+    table_voice = http.post(f"/api/session/{session_id}/message", json={"text": "what is prayer?"}, headers=auth).json()["voice"]
+
+    assert set(interview_voice) <= set(table_voice), (
+        f"table voice payload missing interview keys: {set(interview_voice) - set(table_voice)}"
+    )
+    # And the cards resolve: every citation carries the resolved sources
+    # list the transparency UI's level three reads.
+    assert table_voice["citations"], "the table turn should carry a surviving citation"
+    assert all("sources" in c for c in table_voice["citations"])
+
+
 def test_usage_records_carry_world_attribution(store, usage_store, world_loader, registry, alx_world):
     alx_sentence, _ = grounded_sentence(alx_world)
     client = _table_client(selector_script=[{"next": "alx", "reason": "r"}], stream_scripts=[[alx_sentence]])
