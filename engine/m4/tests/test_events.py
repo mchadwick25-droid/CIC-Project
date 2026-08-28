@@ -21,10 +21,14 @@ def test_unknown_type_rejected():
 
 
 def test_bad_enum_rejected():
+    # "panel" not "table": table joined the mode enum with Artifact-7, so
+    # the out-of-vocabulary example had to become a genuinely unknown mode.
+    # (The old payload - interview keys with mode "table" - still fails,
+    # but as a mode-shape mismatch; test_table_schema covers that.)
     with pytest.raises(EventValidationError):
         validate(
             "session_started",
-            {"world_key": "fix", "mode": "table", "frame": None, "code_hash": "x", "package_manifest_hash": "y"},
+            {"world_key": "fix", "mode": "panel", "frame": None, "code_hash": "x", "package_manifest_hash": "y"},
         )
 
 

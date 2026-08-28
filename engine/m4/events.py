@@ -1,14 +1,28 @@
 """The event catalog (Artifact-3 SS2) - "exhaustive; adding a type is a
 reviewed change." REQUIRED_KEYS is the payload floor per type; ENUMS are the
-closed vocabularies the spec pins (mode is literally just "interview" in
-Phase 1 - the Table is a separate future product, spec O9). validate()
-raises on a missing key or an out-of-vocabulary value; it does not (and
-should not) validate business logic like "does world_key exist" - that's
-the registry's job, not the log's.
+closed vocabularies the spec pins. validate() raises on a missing key or an
+out-of-vocabulary value; it does not (and should not) validate business
+logic like "does world_key exist" - that's the registry's job, not the log's.
+
+Table mode (Artifact-7, 2026-08-28): mode gained "table" alongside
+"interview", and session_started became the one MODE-SHAPED payload in the
+catalog - an interview carries world_key/package_manifest_hash, a table
+carries world_keys/package_manifest_hashes, and a payload carrying both
+shapes (or a table outside 2-3 distinct worlds) fails validation. The
+2-3 bound is enforced here at the log level deliberately: the design doc's
+own construction note admits "no mechanism in the system prevents a fourth
+world from being called" and leaves the ceiling to the Facilitator's
+judgment - this schema is that mechanism (Artifact-7 SS1), the same way the
+catalog already pins enums rather than trusting call sites. turn_selected
+and round_closed are the round's audit surface (Artifact-7 SS2): who was
+chosen to speak and why is never recoverable from voice_turn order alone.
 """
 
 REQUIRED_KEYS: dict[str, set[str]] = {
-    "session_started": {"world_key", "mode", "frame", "code_hash", "package_manifest_hash"},
+    # session_started's mode-dependent keys (world_key vs world_keys, hash
+    # vs hashes) are enforced by _validate_session_started_shape below, not
+    # by this floor - this is the mode-independent floor only.
+    "session_started": {"mode", "frame", "code_hash"},
     "participant_message": {"text", "client_msg_id"},
     "gate_decision": {"asks", "register", "out_of_scope", "modern_terms", "safety", "route", "directive", "degraded"},
     "facilitator_turn": {"kind", "text"},
@@ -20,6 +34,13 @@ REQUIRED_KEYS: dict[str, set[str]] = {
     "retrieval_surfaced": {"chunk_ids"},
     "safety_state": {"track", "level", "accumulator"},
     "turn_committed": {"turn_no"},
+    # Table rounds (Artifact-7 SS2). turn_selected precedes each table
+    # voice_turn: world_key is the chosen speaker, reason the selector's
+    # stated basis (or the deterministic fallback's, with degraded true).
+    # round_closed is written exactly once per round; turns is the count of
+    # voice turns the round actually produced (0 for a governed round).
+    "turn_selected": {"round_no", "position", "world_key", "reason", "degraded"},
+    "round_closed": {"round_no", "reason", "turns"},
     "session_resumed": {"device_hint"},
     "escalation_pressed": {"class"},
     "deletion_requested": set(),
@@ -27,7 +48,8 @@ REQUIRED_KEYS: dict[str, set[str]] = {
 }
 
 ENUMS: dict[tuple[str, str], set[str]] = {
-    ("session_started", "mode"): {"interview"},  # the only mode Phase 1 ships (spec O9: Table is a separate product)
+    ("session_started", "mode"): {"interview", "table"},  # interview: Phase 1's single-voice mode; table: Artifact-7 (2026-08-28), the multi-voice extension spec O9 priced in
+    ("round_closed", "reason"): {"selector_closed", "cap", "floor_unmet_exhausted"},  # Artifact-7 SS2
     ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close"},
     ("safety_state", "track"): {"A", "B"},
     ("escalation_pressed", "class"): {"later_age", "other_tradition"},
@@ -37,6 +59,42 @@ ENUMS: dict[tuple[str, str], set[str]] = {
 
 class EventValidationError(ValueError):
     pass
+
+
+# The two mode shapes, stated once. Each mode's keys are REQUIRED for that
+# mode and FORBIDDEN for the other - a payload that carries both shapes is
+# ambiguous about what session it started and fails loudly (Artifact-7 SS1).
+_MODE_KEYS = {
+    "interview": {"world_key", "package_manifest_hash"},
+    "table": {"world_keys", "package_manifest_hashes"},
+}
+
+
+def _validate_session_started_shape(payload: dict) -> None:
+    mode = payload.get("mode")
+    if mode not in _MODE_KEYS:
+        return  # the enum check below owns the unknown-mode error
+    required, forbidden = _MODE_KEYS[mode], set().union(*(v for k, v in _MODE_KEYS.items() if k != mode))
+    missing = required - set(payload)
+    if missing:
+        raise EventValidationError(f"session_started mode={mode!r} payload missing required keys: {sorted(missing)}")
+    present_forbidden = forbidden & set(payload)
+    if present_forbidden:
+        raise EventValidationError(
+            f"session_started mode={mode!r} payload carries the other mode's keys: {sorted(present_forbidden)} - a payload must be exactly one shape"
+        )
+    if mode == "table":
+        world_keys = payload["world_keys"]
+        if not isinstance(world_keys, list) or not (2 <= len(world_keys) <= 3) or len(set(world_keys)) != len(world_keys):
+            # One world is an interview, not a table; four is forbidden by
+            # schema, not left to judgment - this line IS the mechanism the
+            # design doc's construction note said did not exist.
+            raise EventValidationError(f"session_started world_keys must be 2-3 distinct keys, got {world_keys!r}")
+        hashes = payload["package_manifest_hashes"]
+        if not isinstance(hashes, dict) or set(hashes) != set(world_keys):
+            raise EventValidationError(
+                f"session_started package_manifest_hashes keys {sorted(hashes) if isinstance(hashes, dict) else hashes!r} must match world_keys {sorted(world_keys)} exactly"
+            )
 
 
 def validate(event_type: str, payload: dict) -> None:
@@ -49,6 +107,8 @@ def validate(event_type: str, payload: dict) -> None:
     missing = REQUIRED_KEYS[event_type] - set(payload)
     if missing:
         raise EventValidationError(f"{event_type} payload missing required keys: {sorted(missing)}")
+    if event_type == "session_started":
+        _validate_session_started_shape(payload)
     for field, allowed in ENUMS.items():
         etype, key = field
         if etype == event_type and payload.get(key) not in allowed:
