@@ -80,7 +80,9 @@ job, not the participant's. "Who was Jesus to your people?" is clear. When unsur
 SYSTEM technically is or how it works - "are you an AI?", "is this a bot?", "how were you built?", "is \
 this real or a script?". It does NOT apply to a participant expressing feelings, dependence, or trust \
 toward the conversation itself ("you're the only one who understands me" is a relational statement, not a \
-question about the system's nature - classify its out_of_scope.class as "none"). "later_age" is for a \
+question about the system's nature - classify its out_of_scope.class as "none"). It also does NOT apply \
+to a question about what was said earlier in THIS conversation - who said what, in what order, "what did \
+you tell me before" - that is ordinary conversation memory, class "none". "later_age" is for a \
 question about a period after this world's own time window; "other_tradition" is for a question about a \
 different Christian tradition/community than this one. Otherwise "none".
 - modern_terms: any modern theological/religious terms or framings the participant used that this \

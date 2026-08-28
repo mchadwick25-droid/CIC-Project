@@ -169,6 +169,7 @@ def test_no_foreknowledge_instruction_reaches_every_voice(store, usage_store, wo
         rendered = str(call["messages"])
         assert "only through what they have said here" in rendered
         assert "no knowledge of their worlds" in rendered
+        assert "THEIR witness, never yours" in rendered  # the L4 appropriation finding's fix
         assert "Keep this turn compact" in rendered
 
 

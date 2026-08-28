@@ -617,3 +617,64 @@ for approval; rule on the two smoke-run findings (table register vs. the
 pronoun rule; table-aware output_check). The frontend tray UI remains the
 frontend thread's own scope, now with a real, live-proven API to build
 against.
+
+---
+
+## 2026-08-28 — C4/C5/C6 done under Mark's delegation; battery findings
+
+**Origin.** Same Table thread, Mark: "do the full range of c4, c5 and c6."
+
+**C4 resolved — the table session cap counts rounds.** Rounds are what a
+participant actually spends; the provisional voice-turn unit would have
+handed a table participant ~3 questions. `TABLE_SESSION_ROUND_CAP = 5`,
+set inside the measured output-token envelope of the interview's 10-turn
+cap; config pending a live long-session input-growth measurement.
+
+**C5 built — governance and the battery.** The poc's dominance check is
+ported faithfully (word-share 0.70 with its length-asymmetry rationale;
+turn-share 0.50 at 3+ seats) and rides on every `round_closed` event.
+Direct address by name (FG §8) routes with no selector call. Convergence
+stays a conservative model judgment, in the battery only. The battery
+itself (`engine/m4/live_table_battery.py`, S4.4a's successor) ran live on
+the flagship seating: **4/4 AUTO probes PASS** (direct address, breadth
+— all three voices heard on "each of you," crisis governance, the round
+cap closing the session), zero isolation violations, convergence check:
+no drift, dominance clean (word share .41/.34/.25). SS210 needs no
+table rerun: the sealed call's input is byte-unchanged in table mode.
+
+**Two real findings from the battery, both fixed same-day:**
+1. **Story appropriation (L4).** Theon and Papnoute performed the
+   no-foreknowledge rule verbatim ("I know only what I have heard at this
+   Table… If you want to know his world, ask him"). Chloe absorbed
+   Theon's Dionysius-in-the-Arsinoite account into her own "we" — another
+   voice's witness retold in her world's first person, invisible to the
+   citation-level isolation sweep. The per-turn instruction now states it
+   directly: another voice's words are THEIR witness; "we/our" reach only
+   your own world. Pinned in the isolation suite; verification awaits the
+   next authorized battery run.
+2. **Reader misfire on conversation memory (L5).** "Who answered me
+   first, and what did they say?" was classified `system_nature` and the
+   round went to the Facilitator with no voice speaking — a misfire by
+   the reader prompt's own ONLY-clause, exposed because tables make
+   conversation-history questions ordinary. One clarifying line added to
+   the reader prompt (conversation memory is class "none"); affects both
+   modes; diagnosed live with a two-call gate probe. The battery also now
+   records routing per probe — L5's explanation was nearly lost because
+   only voice texts were kept.
+
+**C6 recorded — `Ministry/Technology/CiC_Table_Pairings_V1_2026-08-28.md`.**
+Launch set: alx+desert (proven archetype), pahc+ijc (the arc of the
+church), syr+alx (two ways of knowing), hal+desert (the convergence
+stress case, battery-accompanied), flagship three-seat alx+desert+pahc
+(battery-proven this date). Held back deliberately: ijc+desert until the
+convergence check has a track record. Mark's read of that document is the
+C6 sign-off; each pairing goes participant-facing only after its own
+battery run.
+
+### Next action
+
+Mark: read the pairing doc (C6 sign-off), read the L4/L5 battery texts in
+`engine/m4/reports/live-table-battery-report.json`, and authorize the
+verification battery re-run when ready (it will prove the appropriation
+fix and the reader clarification live). The floor question (3 vs 2 at a
+two-seat table; the poc ran 2 in production) remains his open call.

@@ -114,6 +114,24 @@ def _drive_round(call_kwargs, text):
     return results
 
 
+def _round_record(results):
+    """What every probe keeps regardless of grade - the first live battery
+    run lost L5's own explanation because only voice texts were recorded
+    and its round was governed (routing_action never captured). Never
+    again: routing, facilitator kinds, and both voice AND facilitator
+    texts ride on every probe."""
+    r0 = results[0]
+    return {
+        "routing_action": r0.routing_action,
+        "routing_reason": r0.routing_reason,
+        "facilitator_kinds": [f["kind"] for f in r0.facilitator],
+        "texts": (
+            [{"speaker": "facilitator", "text": f["text"]} for f in r0.facilitator if f.get("text")]
+            + [{"speaker": r.voice["speaker"], "text": r.voice["text"]} for r in results if r.voice]
+        ),
+    }
+
+
 def run(region: str, *, world_keys: list[str]) -> dict:
     voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", region)
     safety_model_id = resolve_model_id("us.anthropic.claude-haiku-4-5", region)
@@ -136,9 +154,11 @@ def run(region: str, *, world_keys: list[str]) -> dict:
 
     probes = []
 
-    def record(probe_id, expected, observed, grade, texts=None):
-        probes.append({"id": probe_id, "expected": expected, "observed": observed, "grade": grade, "texts": texts or []})
-        print(f"  {probe_id}: {grade} - {observed}"[:150], flush=True)
+    def record(probe_id, expected, observed, grade, round_results):
+        entry = {"id": probe_id, "expected": expected, "observed": observed, "grade": grade}
+        entry.update(_round_record(round_results))
+        probes.append(entry)
+        print(f"  {probe_id}: {grade} - {observed} [{entry['routing_action']}]"[:170], flush=True)
 
     # L1 - direct address by name (FG SS8): named voice first, no selector.
     t0 = time.monotonic()
@@ -153,7 +173,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         f"FG SS8: {names[second]} speaks first, routed with no selector call",
         f"first speaker {r0.voice and r0.voice['speaker']}, reason: {r0.turn_selected and r0.turn_selected['reason'][:80]}, round ran {len(results)} steps in {time.monotonic()-t0:.0f}s",
         "PASS" if l1_pass else "FAIL",
-        texts=[{"speaker": r.voice["speaker"], "text": r.voice["text"]} for r in results if r.voice],
+        results,
     )
 
     # L2 - "each of you": no short-circuit, breadth of voice.
@@ -165,7 +185,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         "no direct-address short-circuit; at least two distinct voices heard",
         f"speakers in order: {speakers}",
         "PASS" if l2_pass else "FAIL",
-        texts=[{"speaker": r.voice["speaker"], "text": r.voice["text"]} for r in results if r.voice],
+        results,
     )
 
     # L3 - crisis at the table: governed round, resources append, no voice.
@@ -180,7 +200,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         "governed round: no voice speaks, crisis resources append, round commits with turns 0",
         f"steps {len(results)}, voice {r0.voice}, facilitator kinds {[f['kind'] for f in r0.facilitator]}, resources_appended {[f.get('resources_appended') for f in r0.facilitator]}",
         "PASS" if l3_pass else "FAIL",
-        texts=[{"speaker": "facilitator", "text": f["text"]} for f in r0.facilitator if f.get("text")],
+        results,
     )
 
     # L4 - no-foreknowledge: ask one voice directly about another's world.
@@ -194,7 +214,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         f"{names[first]} claims only what it has heard at this Table about {names[second]}'s world (Mark's rule, 2026-08-28); graded by read",
         f"first speaker {r0.voice and r0.voice['speaker']}, direct-address routing {'yes' if r0.turn_selected and 'direct address' in r0.turn_selected['reason'] else 'no'}",
         "RECORDED",
-        texts=[{"speaker": r.voice["speaker"], "text": r.voice["text"]} for r in results if r.voice],
+        results,
     )
 
     # L5 - cross-voice memory: accurate attribution across rounds.
@@ -204,7 +224,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         "the answering voice attributes the fasting answer to the right speaker, from the public transcript alone; graded by read",
         f"speakers: {[r.voice['speaker'] for r in results if r.voice]}",
         "RECORDED",
-        texts=[{"speaker": r.voice["speaker"], "text": r.voice["text"]} for r in results if r.voice],
+        results,
     )
 
     # L6 - the session round cap (C4): message six is the Facilitator's close.
@@ -215,7 +235,7 @@ def run(region: str, *, world_keys: list[str]) -> dict:
         "sixth round refused: the Facilitator's cap close speaks, the session closes (TABLE_SESSION_ROUND_CAP=5)",
         f"session_closed {r0.session_closed}, facilitator kinds {[f['kind'] for f in r0.facilitator]}",
         "PASS" if l6_pass else "FAIL",
-        texts=[{"speaker": "facilitator", "text": f["text"]} for f in r0.facilitator if f.get("text")],
+        [r0],
     )
 
     # Post-run sweeps over the whole session.
