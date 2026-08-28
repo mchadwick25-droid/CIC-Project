@@ -319,7 +319,6 @@ def _proper_nouns(sentence: str) -> set[str]:
     words = _WORD.findall(sentence)
     clause_starts = {0}
     for m in re.finditer(r"[:;]\s*", sentence):
-        tail = sentence[m.end():]
         tail_words = _WORD.findall(sentence[: m.end()])
         if tail_words:
             clause_starts.add(len(tail_words))

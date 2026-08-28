@@ -915,3 +915,45 @@ computing — a round working figure we're reconciling against current
 bills…") and Table sentence ("Multi-voice Table conversations are now
 running too; a Table costs more per sitting, since each added voice
 answers in its own turn."); tour.html's update caption.
+
+---
+
+## 2026-08-28 — Foundation-audit moves 5–6: the residue swept, the scale trio landed
+
+**Move 6 (merged):** fleet-record parsing cached (~190ms of CPU per
+message reclaimed, measured); client_msg_id idempotency ENFORCED (a
+retried message is refused before any model call — it can no longer
+double-answer or double-spend); one advance in flight per table session
+(the mid-round-reload race is refused instead of doubling voice turns);
+the store's busy-timeout path retries instead of surfacing a raw 500.
+Postgres + retention + the deletion writer remain the deliberate later
+stage.
+
+**Move 5 (merged):** 181 orphan package manifests removed (~5.1MB; only
+the 7 pinned remain, discipline noted in .gitignore); verified-dead code
+deleted (worldIcons.tsx, the unreachable CENSUS_ID_FIX, unused imports,
+a dead local in prose.py); the false "no runtime exists yet" citation
+removed from turn.py's Fork-1 argument (the manifest note itself waits
+for the next natural fleet recompile — changing it alone would repin all
+seven packages for a metadata string); World-Cards.md re-pointed at the
+registry (it instructed future builds to trust a deleted file, with
+values that lost the identity ruling); BUILD-HANDOFF and the Pass2 docs
+carry the "kept for its reasoning, not as instructions" banner;
+PHASE-1-LAUNCH stages 3–4 marked DONE and its branch-count gate
+annotated; CIC_ENFORCE_ADMISSION documented in both config-surface lists;
+the failing-contrast token fixed (#8A837C → #6C6257, 3.38:1 → 5.39:1 —
+the Facilitator's own disclosure text now passes AA); the launch screen
+gained an empty state so the enforcement flip can never show a blank
+page ("The doors aren't open just yet — the worlds are being prepared.
+Please come back soon." — for Mark's read).
+
+**Deliberately left:** the voice_scaffold checker exemption — its
+measure-or-delete decision rides on the pending fleet re-verification
+battery (zero voice_craft citations across 168 probes = delete);
+Syriac-Build/'s diverged methodology-tree copy needs the build thread's
+own triage (binary docx diffs, same version numbers, different bytes —
+not this sweep's to resolve); the 8 merged remote branches are verified
+safe to delete but this session's git credential cannot delete branches
+(403) — one local command for Mark:
+`git push origin --delete claude/table-build-scoping claude/retire-cic-poc claude/desert-admission-fix claude/launch-system claude/admission-parity claude/ops-quartet claude/identity-registry claude/scale-track`
+(claude/pilot-launch-website-access-j640i1 stays, per standing rule.)

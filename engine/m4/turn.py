@@ -40,8 +40,7 @@ tagged text before any of it is treated as this turn's answer.
 
 Fork 1 (sentence-gated streaming) is honored in its strictest reading
 here, not a looser one: no live token-by-token SSE transport exists yet
-in this codebase (engine.m2.manifest's own compat note says so plainly -
-"no runtime exists yet"), so stream_voice_turn already returns full text
+in this codebase, so stream_voice_turn already returns full text
 only once the SDK call completes, never incrementally. Given that, "check
 before it reaches a participant" reduces exactly to what apply_net does
 below: every sentence is verified before ANY of this turn's text is

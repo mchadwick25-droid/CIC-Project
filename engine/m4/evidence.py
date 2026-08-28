@@ -36,7 +36,6 @@ beyond-the-seed expansion this module performs, and it is exactly the
 gravity/contested_claim anti-conflation case the design cares most about
 - the door-line bug's own systemic fix.
 """
-import math
 import re
 
 from engine.m1.canon import entity_cells, cell_keywords, retrieval_hint_keywords

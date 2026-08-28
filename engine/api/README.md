@@ -26,8 +26,13 @@ Optional env vars (all have defaults): `CIC_API_VOICE_MODEL_PATTERN` (default
 `us.anthropic.claude-haiku-4-5`), `CIC_API_EVENTS_DB` (default
 `./cic_api_events.db`), `CIC_API_USAGE_DB` (default `./cic_api_usage.db`),
 `CIC_API_WORLDS_YAML` (default `records/worlds.yaml`), `CIC_API_DEFAULT_WORLD_KEY`
-(default `fix` — the synthetic fixture world, the safest first target for an
-unverified credential).
+(default `fix`; note that since 2026-08-28 a session must NAME its world —
+`POST /api/session` with no `world_key` is refused, so the default is no
+longer reachable through the API), and `CIC_ENFORCE_ADMISSION` — the
+doors-open switch (`"1"` = only admitted/open worlds are listed or seated;
+`"0"` = today's declared deferral, see render.yaml's own comment). The
+2026-08-28 audit found this one shipped-but-undocumented; this list is the
+config surface, so it lives here now.
 
 ## Endpoints
 

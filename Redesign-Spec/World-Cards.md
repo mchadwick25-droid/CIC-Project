@@ -1,16 +1,24 @@
 # World Cards — established participant-facing identity per world
 
+> **SOURCE OF TRUTH CORRECTED, 2026-08-28 (foundation audit + Mark's
+> identity ruling: "the registry wins").** This file's original header
+> named `cic-poc/backend/app/world_manifest.py` as the source of truth —
+> that file was DELETED with the old system's retirement, and several
+> values below are the old system's (they lost the 2026-08-28 ruling).
+> **`records/worlds.yaml` is the one source of identity** — name,
+> role_label, card_name (friendly), display_name (scholarly) — checked
+> against the census by `engine/m1/cross_world.py` in CI. If this file
+> disagrees with the registry, the registry wins; update this file to
+> match, never the reverse. What remains genuinely valuable here is the
+> reasoning: the facilitator cautions and selection-card copy earned
+> through adversarial testing. Kept for its reasoning — its values are
+> not instructions.
+
 This is a build resource, not a design artifact: it exists so a world-build
 thread doesn't reinvent a Representative's name, title, or public
 description at step 5(a) when one has already been decided, live-tested,
-and shown to participants. **Source of truth remains
-`cic-poc/backend/app/world_manifest.py`** on this branch — that file is the
-single-source-of-truth `WORLD_MANIFEST` the live PoC app actually reads;
-this document is a human-readable mirror of its six entries plus the
-"Choose a Tradition" selection-card copy Mark supplied 2026-08-22, kept here
-so a build thread reading `Redesign-Spec/` doesn't have to know the PoC
-backend's file layout to find it. If the two ever disagree, `world_manifest.py`
-wins — update this file to match, not the reverse.
+and shown to participants — but the established values now live in
+`records/worlds.yaml`, not here.
 
 **How to use this during a build:** when a world-build thread reaches its
 own step 5(a) (Representative identity emergence — see

@@ -38,3 +38,11 @@ cic_api_usage.db*
 # so a clean checkout can still VERIFY a package it did not build.
 packages/*/*/**
 !packages/*/*/manifest.json
+# Only the PINNED manifests (the ones records/worlds.yaml names) are meant
+# to stay tracked - the exception above admits every build's manifest, and
+# by 2026-08-28 that had accumulated 181 orphans (~5.1MB) referenced by
+# nothing, growing ~7 per fleet recompile (foundation audit). The sweep
+# removed them; after a repin, `git rm` the manifest the pin left behind.
+# (A path-level ignore can't express "only the pinned one" - the registry
+# decides that - so this stays a stated discipline with the audit's
+# cross-check, not a pattern.)
