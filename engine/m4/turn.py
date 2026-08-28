@@ -84,6 +84,98 @@ class UnhandledRoutingAction(NotImplementedError):
 
 
 @dataclass(frozen=True)
+class GateRun:
+    """One participant message's gate pass, whole - the two sealed-tier
+    calls, the resolved routing, the event payloads they produce, and the
+    usage they cost. Extracted from run_turn (2026-08-28, Artifact-7) so a
+    table round can gate ONCE per participant message and then run several
+    voice turns against the same decision - the gate is message-level and
+    world-agnostic, so running it per voice would be paying twice for the
+    same answer. run_turn's own behavior is unchanged: it calls run_gate and
+    reads these fields exactly where it used to compute them inline."""
+    gate: dict
+    gate_result: object  # engine.m5.failure.resolve_gate's result, kept whole
+    safety_outcome: CallOutcome
+    reader_outcome: CallOutcome
+    safety_state_events: list[dict]
+    usage_records: list[UsageRecord]
+
+
+def run_gate(
+    *,
+    session_id: str,
+    safety_client,
+    safety_model_id: str,
+    participant_message: str,
+    pressed: dict,
+    anachronistic_term_ids: set,
+    track_b_accumulator: dict | None = None,
+) -> GateRun:
+    """The gate half of run_turn, verbatim - see run_turn's docstring for
+    the semantics of each input. The sealed safety call still gets an empty
+    window and an empty accumulator (the RECORDED, NOT CONSULTED discipline;
+    engine.m5.safety_accumulation's own module docstring)."""
+    usage_records: list[UsageRecord] = []
+
+    safety_outcome = live_calls.call_safety(safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
+    if rec := _maybe_record_usage(safety_outcome, session_id=session_id, call_kind="safety_call", model_id=safety_model_id):
+        usage_records.append(rec)
+    reader_outcome = live_calls.call_reader(safety_client, safety_model_id, message=participant_message)
+    if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id):
+        usage_records.append(rec)
+
+    # WHICH MODERN TERMS ARE IN PLAY, settled here once, before anything
+    # downstream reads them - so routing's intersection and the bridge's
+    # re-derivation below see the same list instead of each deriving one.
+    # Two passes, and the second is not a belt-and-braces duplicate of the
+    # first; they fix different failures, both measured live on 2026-08-24:
+    #
+    #   resolve_term_ids  - the reader is INSTRUCTED to invent its term_id
+    #     (engine.m5.live_calls' own prompt), and routing matches those
+    #     against fleet record ids. The intersection was empty every time.
+    #   terms_in_message  - the reader flagged "Trinity" on two attempts at
+    #     the same question and returned modern_terms: [] on a third. An id
+    #     fix cannot help a flag that never came. Whether the participant
+    #     used the word is not a judgement call, so it is not left to one.
+    #
+    # The reader's own reading is kept, not replaced: it can flag terms the
+    # fleet carries no record for (those keep its id and never intersect),
+    # and it reads framings a word list cannot see.
+    if reader_outcome.value is not None:
+        fleet_records = load_fleet_records()
+        resolved = resolve_term_ids(reader_outcome.value.get("modern_terms"), fleet_records)
+        resolved += terms_in_message(
+            participant_message, fleet_records, already_found={t["term_id"] for t in resolved}
+        )
+        reader_outcome.value["modern_terms"] = resolved
+
+    gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+    gate = _gate_decision_payload(
+        safety_outcome=safety_outcome, reader_outcome=reader_outcome, gate_result=gate_result
+    )
+    # RECORDED, NOT CONSULTED. The prior accumulator comes in from the
+    # caller (same seam as `pressed`) and goes only into the next
+    # safety_state payload - it is deliberately NOT passed to
+    # live_calls.call_safety above, which still gets an empty window and an
+    # empty accumulator. Feeding it back would change the sealed call's own
+    # input and oblige the full live safety rerun (Program-Spec SS210)
+    # against a 33-scenario corpus that was authored entirely as single
+    # messages with no window. That is a separate decision on separate
+    # evidence; see engine.m5.safety_accumulation's module docstring.
+    safety_states = safety_state_events(
+        track_b_accumulator, None if safety_outcome.failed else safety_outcome.value
+    )
+    return GateRun(
+        gate=gate,
+        gate_result=gate_result,
+        safety_outcome=safety_outcome,
+        reader_outcome=reader_outcome,
+        safety_state_events=safety_states,
+        usage_records=usage_records,
+    )
+
+
+@dataclass(frozen=True)
 class TurnResult:
     routing_action: str
     routing_reason: str
@@ -114,12 +206,16 @@ class TurnResult:
     usage_records: list[UsageRecord] = field(default_factory=list)
 
 
-def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str, model_id: str) -> UsageRecord | None:
+def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str, model_id: str, world_key: str | None = None) -> UsageRecord | None:
     """Every real call's raw usage is parity-checked (engine.m8.parity)
     BEFORE it becomes a UsageRecord - "usage logging with correct cache
     accounting tested against raw API shapes" happens inline, on every real
     turn, not as a separate exercise run occasionally. A divergence raises
-    loudly here rather than silently producing a wrong attributed number."""
+    loudly here rather than silently producing a wrong attributed number.
+
+    world_key (Artifact-7 SS7): set for table-mode voice/selector calls so
+    per-world cost at a shared table is answerable; None everywhere else -
+    an interview session's calls are attributable from session_id alone."""
     if outcome.raw_usage is None:
         return None
     from engine.m8.parity import assert_parity
@@ -127,7 +223,7 @@ def _maybe_record_usage(outcome: CallOutcome, *, session_id: str, call_kind: str
 
     normalized = normalize_usage(outcome.raw_usage)
     assert_parity(outcome.raw_usage, normalized)
-    return record_usage(usage=normalized, session_id=session_id, call_kind=call_kind, model_id=model_id)
+    return record_usage(usage=normalized, session_id=session_id, call_kind=call_kind, model_id=model_id, world_key=world_key)
 
 
 def _directive_payload(directive: Directive | None) -> dict | None:
@@ -249,7 +345,18 @@ def _run_ordinary_voice_turn(
     already_bridged_figure_ids: set[str] | None = None,
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
+    context_prefix: str | None = None,
+    usage_world_key: str | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
+    """context_prefix and usage_world_key are the table's two additions
+    (Artifact-7 SS3-4, SS7), both None on every interview call so that path
+    is byte-identical to before they existed. context_prefix carries the
+    attributed at-the-Table speech since this voice's last turn - it rides
+    in the per-turn user message only (never the cached system prefix, same
+    cache discipline as the evidence block) and is deliberately NOT part of
+    the message evidence assembly matches against: retrieval stays focused
+    on the participant's own ask, not on what another voice said.
+    usage_world_key tags this call's UsageRecord with the speaking world."""
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
     thin_topics = evidence.thin_topics_for(repository_records)
@@ -277,6 +384,8 @@ def _run_ordinary_voice_turn(
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
+    if context_prefix:
+        user_message = f"{context_prefix}\n\n{user_message}"
 
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
@@ -284,7 +393,7 @@ def _run_ordinary_voice_turn(
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
-    if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id):
+    if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id, world_key=usage_world_key):
         usage_records.append(rec)
 
     answer_text, citations, net_result = _apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
@@ -340,6 +449,16 @@ def _run_ordinary_voice_turn(
         "output_defects": check_output(answer_text, history=history, participant_message=participant_message),
     }
     return voice_event, usage_records
+
+
+# Artifact-7 SS3: the Table's per-voice runner IS the interview's ordinary
+# path, scoped to one world - same compiled prompt as cached prefix, same
+# evidence assembly from that world's own coverage/repository, same
+# grounding net against that world's own records. The isolation property
+# falls out of this line: a table voice turn simply has no other world in
+# scope. Exposed as a public name rather than duplicated, so the two modes
+# can never drift apart.
+run_voice_turn_for_world = _run_ordinary_voice_turn
 
 
 def run_turn(
@@ -403,57 +522,26 @@ def run_turn(
     never fed to the sealed safety call, same discipline track_b_accumulator
     already holds and for the same SS210 reason (see
     engine.m5.safety_accumulation's own module docstring)."""
-    usage_records: list[UsageRecord] = []
-
-    safety_outcome = live_calls.call_safety(safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
-    if rec := _maybe_record_usage(safety_outcome, session_id=session_id, call_kind="safety_call", model_id=safety_model_id):
-        usage_records.append(rec)
-    reader_outcome = live_calls.call_reader(safety_client, safety_model_id, message=participant_message)
-    if rec := _maybe_record_usage(reader_outcome, session_id=session_id, call_kind="reader_call", model_id=safety_model_id):
-        usage_records.append(rec)
-
-    # WHICH MODERN TERMS ARE IN PLAY, settled here once, before anything
-    # downstream reads them - so routing's intersection and the bridge's
-    # re-derivation below see the same list instead of each deriving one.
-    # Two passes, and the second is not a belt-and-braces duplicate of the
-    # first; they fix different failures, both measured live on 2026-08-24:
-    #
-    #   resolve_term_ids  - the reader is INSTRUCTED to invent its term_id
-    #     (engine.m5.live_calls' own prompt), and routing matches those
-    #     against fleet record ids. The intersection was empty every time.
-    #   terms_in_message  - the reader flagged "Trinity" on two attempts at
-    #     the same question and returned modern_terms: [] on a third. An id
-    #     fix cannot help a flag that never came. Whether the participant
-    #     used the word is not a judgement call, so it is not left to one.
-    #
-    # The reader's own reading is kept, not replaced: it can flag terms the
-    # fleet carries no record for (those keep its id and never intersect),
-    # and it reads framings a word list cannot see.
-    if reader_outcome.value is not None:
-        fleet_records = load_fleet_records()
-        resolved = resolve_term_ids(reader_outcome.value.get("modern_terms"), fleet_records)
-        resolved += terms_in_message(
-            participant_message, fleet_records, already_found={t["term_id"] for t in resolved}
-        )
-        reader_outcome.value["modern_terms"] = resolved
-
-    gate_result = resolve_gate(safety_outcome=safety_outcome, reader_outcome=reader_outcome, pressed=pressed, anachronistic_term_ids=anachronistic_term_ids)
+    # The gate pass, extracted whole to run_gate (2026-08-28, Artifact-7 -
+    # a table round gates once per message, then runs several voice turns
+    # against the same decision). The locals below keep their old names so
+    # every branch under them is untouched.
+    gate_run = run_gate(
+        session_id=session_id,
+        safety_client=safety_client,
+        safety_model_id=safety_model_id,
+        participant_message=participant_message,
+        pressed=pressed,
+        anachronistic_term_ids=anachronistic_term_ids,
+        track_b_accumulator=track_b_accumulator,
+    )
+    usage_records = list(gate_run.usage_records)
+    safety_outcome = gate_run.safety_outcome
+    reader_outcome = gate_run.reader_outcome
+    gate_result = gate_run.gate_result
     action = gate_result.routing.action
-    gate = _gate_decision_payload(
-        safety_outcome=safety_outcome, reader_outcome=reader_outcome, gate_result=gate_result
-    )
-    # RECORDED, NOT CONSULTED. The prior accumulator comes in from the
-    # caller (same seam as `pressed`) and goes only into the next
-    # safety_state payload - it is deliberately NOT passed to
-    # live_calls.call_safety above, which still gets an empty window and an
-    # empty accumulator. Feeding it back would change the sealed call's own
-    # input and oblige the full live safety rerun (Program-Spec SS210)
-    # against a 33-scenario corpus that was authored entirely as single
-    # messages with no window. That is a separate decision on separate
-    # evidence; see engine.m5.safety_accumulation's module docstring.
-    safety_states = safety_state_events(
-        track_b_accumulator, None if safety_outcome.failed else safety_outcome.value
-    )
+    gate = gate_run.gate
+    safety_states = gate_run.safety_state_events
 
     # THE CAP OVERRIDES EVERYTHING EXCEPT A REAL CRISIS. Checked once, here,
     # after routing but before any branch spends a voice call - so a capped

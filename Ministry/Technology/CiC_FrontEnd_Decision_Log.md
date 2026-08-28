@@ -543,6 +543,174 @@ website-access thread's own scope.
 
 ---
 
+## 2026-08-28 — The Table on the new engine: C1–C3 decided, engine build landed,
+C4–C6 still Mark's
+
+**Origin.** The Table-build thread the 2026-08-26 entry anticipated. Ground
+truth first (recorded in full in
+`Ministry/Technology/CiC_Table_Engine_Scoping_2026-08-28.md`): the Table's
+design layer was already complete and live-tested against the old `cic-poc`
+backend — `CiC_L3D_The_Table_Design_Document_V2.3` plus
+`CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md` — and the "deliberately
+deleted" component code turned out to be frontend-only (`LivingTableScene`);
+the poc backend's multi-world machinery survives in the tree as the proven
+reference. The new engine had zero multi-voice scaffolding, exactly as the
+audit handoff said.
+
+**Mark's decisions, this thread (participant-facing, hence recorded here):**
+- **C1 — Facilitator's voice at the Table:** fixed templates parameterized by
+  the seated worlds, keeping the engine's no-free-generation Facilitator
+  discipline. The table door / dependency-check / session-cap texts are wired
+  as DRAFT copy awaiting his line-read, same swappable-copy pattern as the
+  interview's session-cap turn; the Mark-approved crisis-resources text is
+  reused verbatim with its name slot filled by the or-joined representative
+  names.
+- **C2 — Transport:** turn-at-a-time HTTP. Each response carries at most one
+  voice turn plus `round_open`; the client POSTs `/continue` for the next.
+  No SSE dependency; a future streaming layer can carry the same events.
+- **C3 — Round budget:** floor/cap as configuration — floor 3, cap 4 default,
+  6 allowed (the ceiling the old backend's turn-cap incident re-test
+  verified).
+
+**Built on `claude/table-build-scoping` (engine-side; contract:
+`Redesign-Spec/Artifact-7-Table.md`):** mode="table" sessions (2–3 worlds,
+schema-enforced ceiling), the gated round loop over the existing single-voice
+machinery, the turn selector with code-enforced rules and deterministic
+fallback, per-world session memory and viewer-parameterized history, per-world
+M8 cost attribution, `POST /api/session` accepting `world_keys`, and the
+grounding-isolation CI suite (seeded cross-world leak withheld; every
+surviving citation proven to resolve in the speaker's own repository). All
+existing CI checks pass unmodified — the interview path is untouched.
+
+**Still Mark's, unchanged from the scoping doc:** C4 (session-cap unit at a
+table — currently carried forward as 10 voice turns, provisional and marked
+so in code), C5 (what validation battery gates the Table before participants
+sit — the CI isolation suite is this build's own floor, not a substitute),
+C6 (first live pairings). And the standing one: **no live table smoke run
+happens without Mark's explicit per-run authorization** — nothing live was
+run in this thread.
+
+**Update, same day — SS77 fix and the authorized live smoke run.** Mark
+authorized both in-thread. (1) The bridge-term history leak (the modern word
+replaying to the voice one turn late) is fixed in both modes through one
+function (`engine.api.wiring.replay_transcript`), regression-pinned. (2) The
+live table smoke run ran (alx + desert, two messages, us-east-1; report:
+`engine/m4/reports/live-table-report.json`; script:
+`engine/m4/live_table_run.py`): two full rounds, both closed by the
+selector's own judgment at 3 turns (cap never hit), 16–25s per voice turn,
+dominance a perfect 0.50/0.50 word-share, **zero isolation violations live**,
+and genuine cross-voice encounter in round 2 (each voice engaging — and at
+one point deferring to — what the other actually said). Two honest findings
+for follow-up, both detected-not-blocked by design: the fleet voice-craft
+pronoun rule (first-person singular) comes under real pressure in the
+Table's reactive register ("what I want you to carry from what he said"),
+firing output_check repeatedly; and output_check's conversational checks are
+table-blind — they read the voice's own pair-history, not the at-the-Table
+context, so a first-turn reference to another voice's words misreads as
+"claims prior discourse with no prior turns." Token counts are in the
+report; no $ figure until a reconciled invoice (principle 13).
+
+### Next action
+
+Mark: answer C4–C6 when ready; read the three DRAFT facilitator table texts
+for approval; rule on the two smoke-run findings (table register vs. the
+pronoun rule; table-aware output_check). The frontend tray UI remains the
+frontend thread's own scope, now with a real, live-proven API to build
+against.
+
+---
+
+## 2026-08-28 — C4/C5/C6 done under Mark's delegation; battery findings
+
+**Origin.** Same Table thread, Mark: "do the full range of c4, c5 and c6."
+
+**C4 resolved — the table session cap counts rounds.** Rounds are what a
+participant actually spends; the provisional voice-turn unit would have
+handed a table participant ~3 questions. `TABLE_SESSION_ROUND_CAP = 5`,
+set inside the measured output-token envelope of the interview's 10-turn
+cap; config pending a live long-session input-growth measurement.
+
+**C5 built — governance and the battery.** The poc's dominance check is
+ported faithfully (word-share 0.70 with its length-asymmetry rationale;
+turn-share 0.50 at 3+ seats) and rides on every `round_closed` event.
+Direct address by name (FG §8) routes with no selector call. Convergence
+stays a conservative model judgment, in the battery only. The battery
+itself (`engine/m4/live_table_battery.py`, S4.4a's successor) ran live on
+the flagship seating: **4/4 AUTO probes PASS** (direct address, breadth
+— all three voices heard on "each of you," crisis governance, the round
+cap closing the session), zero isolation violations, convergence check:
+no drift, dominance clean (word share .41/.34/.25). SS210 needs no
+table rerun: the sealed call's input is byte-unchanged in table mode.
+
+**Two real findings from the battery, both fixed same-day:**
+1. **Story appropriation (L4).** Theon and Papnoute performed the
+   no-foreknowledge rule verbatim ("I know only what I have heard at this
+   Table… If you want to know his world, ask him"). Chloe absorbed
+   Theon's Dionysius-in-the-Arsinoite account into her own "we" — another
+   voice's witness retold in her world's first person, invisible to the
+   citation-level isolation sweep. The per-turn instruction now states it
+   directly: another voice's words are THEIR witness; "we/our" reach only
+   your own world. Pinned in the isolation suite; verification awaits the
+   next authorized battery run.
+2. **Reader misfire on conversation memory (L5).** "Who answered me
+   first, and what did they say?" was classified `system_nature` and the
+   round went to the Facilitator with no voice speaking — a misfire by
+   the reader prompt's own ONLY-clause, exposed because tables make
+   conversation-history questions ordinary. One clarifying line added to
+   the reader prompt (conversation memory is class "none"); affects both
+   modes; diagnosed live with a two-call gate probe. The battery also now
+   records routing per probe — L5's explanation was nearly lost because
+   only voice texts were kept.
+
+**C6 recorded — `Ministry/Technology/CiC_Table_Pairings_V1_2026-08-28.md`.**
+Launch set: alx+desert (proven archetype), pahc+ijc (the arc of the
+church), syr+alx (two ways of knowing), hal+desert (the convergence
+stress case, battery-accompanied), flagship three-seat alx+desert+pahc
+(battery-proven this date). Held back deliberately: ijc+desert until the
+convergence check has a track record. Mark's read of that document is the
+C6 sign-off; each pairing goes participant-facing only after its own
+battery run.
+
+### Next action
+
+Mark: read the pairing doc (C6 sign-off), read the L4/L5 battery texts in
+`engine/m4/reports/live-table-battery-report.json`, and authorize the
+verification battery re-run when ready (it will prove the appropriation
+fix and the reader clarification live). The floor question (3 vs 2 at a
+two-seat table; the poc ran 2 in production) remains his open call.
+
+---
+
+## 2026-08-28 — The admission gate exists; enforcement is Mark's doors-open flip
+
+**Origin.** Same Table thread, Mark: "what's next on the list." The next
+unblocked pilot-critical item was the 2026-08-26 entry's headline finding:
+the running engine never checked registry state — `create_session` served
+any `built` world.
+
+**Built.** Session creation (interview and table — one unadmitted seat
+refuses a whole table), and the world listing now gate on registry state
+`admitted`/`open`, behind `CIC_ENFORCE_ADMISSION`. Off by default and set
+to "0" in `render.yaml` with the reason written beside it — today's
+informed-tester practice becomes an **explicit, declared deferral** (spec
+§8's own standard) instead of a silent gap. Refused creates return 403 and
+write nothing. Both directions are CI-pinned, including the flip working
+against a registry with admitted worlds. Enforcement also closes the
+fixture-session hole for free (`fix` never advances past `built`).
+
+**What this means for the pilot sequence:** when the fleet passes admission
+and Mark's per-world reads/freezes are done, flipping the env var to "1"
+is the doors-open act — no code change, one line in the deploy config.
+
+### Next action
+
+Unchanged from the roadmap: admission fixes for desert's 26/28 (then the
+fleet), the M7 build, and Mark's standing items (verification battery
+re-run authorization, floor call, facilitator text reads, pairing sign-off,
+PR call).
+
+---
+
 ## 2026-08-28 — Mark's register ruling: statement 6 is direction, not a gate;
 alx and desert both clear the mechanical admission bar
 

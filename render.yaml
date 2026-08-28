@@ -212,6 +212,15 @@ services:
     envVars:
       - key: CIC_API_REGION
         value: us-east-1
+      # THE ADMISSION GATE, declared deferral (spec SS8: "deferrals
+      # documented, never hidden"). "0" = today's informed-tester practice:
+      # worlds at registry state `built` are served without having passed
+      # the live admission battery or Mark's read. Flipping this to "1" is
+      # Mark's stage-10 doors-open act: from then on only admitted/open
+      # worlds are listed or seated, interview and table alike
+      # (engine/api/config.py Settings.enforce_admission).
+      - key: CIC_ENFORCE_ADMISSION
+        value: "0"
       - key: AWS_ACCESS_KEY_ID
         sync: false
       - key: AWS_SECRET_ACCESS_KEY

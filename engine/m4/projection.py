@@ -32,6 +32,19 @@ class SessionState:
     frame: str | None = None
     code_hash: str | None = None
     package_manifest_hash: str | None = None
+    # Table mode (Artifact-7 SS1-2). world_keys/package_manifest_hashes are
+    # the table's counterparts to the two singular fields above - exactly
+    # one pair is ever set, per the event schema's mode-shape rule. The
+    # round_* fields are the open round's own state, folded from
+    # participant_message / turn_selected / voice_turn / round_closed so a
+    # turn-at-a-time continue served by a different process resumes the same
+    # round (Artifact-7 SS6) - never held in memory between requests.
+    world_keys: list[str] | None = None
+    package_manifest_hashes: dict[str, str] | None = None
+    round_no: int = 0
+    round_open: bool = False
+    round_turns: int = 0
+    round_speakers: list[str] = field(default_factory=list)
     transcript: list[dict] = field(default_factory=list)
     turn_count: int = 0
     last_turn_no: int | None = None
@@ -53,13 +66,26 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
     for event in events:
         payload = event.payload
         if event.event_type == "session_started":
-            state.world_key = payload["world_key"]
             state.mode = payload["mode"]
             state.frame = payload["frame"]
             state.code_hash = payload["code_hash"]
-            state.package_manifest_hash = payload["package_manifest_hash"]
+            if payload["mode"] == "table":
+                state.world_keys = list(payload["world_keys"])
+                state.package_manifest_hashes = dict(payload["package_manifest_hashes"])
+            else:
+                state.world_key = payload["world_key"]
+                state.package_manifest_hash = payload["package_manifest_hash"]
         elif event.event_type == "participant_message":
             state.transcript.append({"speaker": "participant", "text": payload["text"]})
+            if state.mode == "table":
+                # A participant message opens the next round (Artifact-7
+                # SS2). A message arriving with a round somehow still open
+                # closes nothing here - the fold records what the log says,
+                # and the round loop is what refuses that sequence.
+                state.round_no += 1
+                state.round_open = True
+                state.round_turns = 0
+                state.round_speakers = []
         elif event.event_type == "facilitator_turn":
             state.transcript.append({"speaker": "facilitator", "kind": payload["kind"], "text": payload["text"]})
         elif event.event_type == "voice_turn":
@@ -72,6 +98,11 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
                     "figures_used": payload["figures_used"],
                 }
             )
+            if state.mode == "table" and state.round_open:
+                state.round_turns += 1
+                state.round_speakers.append(payload["speaker"])
+        elif event.event_type == "round_closed":
+            state.round_open = False
         elif event.event_type == "gate_decision":
             if payload.get("degraded"):
                 state.degraded_turn_count += 1

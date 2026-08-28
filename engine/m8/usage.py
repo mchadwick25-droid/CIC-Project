@@ -28,10 +28,19 @@ SYSTEM_SESSION_ID = "_system"
 class UsageRecord:
     trace_id: str
     session_id: str  # required - SYSTEM_SESSION_ID for non-session calls, never blank
-    call_kind: str  # e.g. "safety_call" | "reader_call" | "voice_generation" | "preflight" (citations_call retired: M4 step 5, LIVE-GENERATION-DESIGN.md Fork 1 - one call now carries its own grounding inline)
+    call_kind: str  # e.g. "safety_call" | "reader_call" | "voice_generation" | "turn_selector" | "preflight" (citations_call retired: M4 step 5, LIVE-GENERATION-DESIGN.md Fork 1 - one call now carries its own grounding inline)
     model_id: str
     provider: str
     usage: NormalizedUsage
+    # Which world's voice this call belongs to (Artifact-7 SS7): at a table,
+    # session_id alone no longer answers "which world cost what" - several
+    # voices share one session. None for calls that belong to no single
+    # world (the gate calls, preflight, every interview-era record), which
+    # is why this is nullable rather than defaulted to a sentinel: an
+    # interview session's voice calls are attributable from session_id
+    # alone, and pretending they carry a world tag they never did would
+    # falsify old rows on read.
+    world_key: str | None = None
 
     @property
     def is_attributed(self) -> bool:
@@ -43,12 +52,14 @@ def new_trace_id() -> str:
 
 
 def record_usage(
-    *, usage: NormalizedUsage, session_id: str, call_kind: str, model_id: str, provider: str = "bedrock", trace_id: str | None = None
+    *, usage: NormalizedUsage, session_id: str, call_kind: str, model_id: str, provider: str = "bedrock", trace_id: str | None = None,
+    world_key: str | None = None,
 ) -> UsageRecord:
     if not session_id:
         raise ValueError("session_id is required - use usage.SYSTEM_SESSION_ID for non-session calls, never blank")
     return UsageRecord(
-        trace_id=trace_id or new_trace_id(), session_id=session_id, call_kind=call_kind, model_id=model_id, provider=provider, usage=usage
+        trace_id=trace_id or new_trace_id(), session_id=session_id, call_kind=call_kind, model_id=model_id, provider=provider, usage=usage,
+        world_key=world_key,
     )
 
 

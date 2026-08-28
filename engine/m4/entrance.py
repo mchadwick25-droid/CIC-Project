@@ -59,25 +59,35 @@ def open_session(
     *,
     session_id: str,
     event_uuid: str,
-    world_key: str,
     mode: str,
     frame: str | None,
     code_hash: str,
-    package_manifest_hash: str,
+    world_key: str | None = None,
+    package_manifest_hash: str | None = None,
+    world_keys: list[str] | None = None,
+    package_manifest_hashes: dict[str, str] | None = None,
 ) -> int:
+    """One sealed writer, two mode shapes (Artifact-7 SS1): an interview
+    passes world_key/package_manifest_hash, a table passes world_keys/
+    package_manifest_hashes. The payload carries only the caller's shape -
+    Nones are never written - and events.validate() is what enforces that
+    the shape matches the mode, so this function stays a writer, not a
+    second validator."""
     existing = store.read_events(session_id)
     if any(e.event_type == SESSION_STARTED_EVENT_TYPE for e in existing):
         raise SecondWriterError(
             f"session {session_id} already has a {SESSION_STARTED_EVENT_TYPE} event - "
-            "this is the only allowed writer of world_key/mode (Artifact-3 SS2)"
+            "this is the only allowed writer of world/mode (Artifact-3 SS2)"
         )
-    payload = {
-        "world_key": world_key,
-        "mode": mode,
-        "frame": frame,
-        "code_hash": code_hash,
-        "package_manifest_hash": package_manifest_hash,
-    }
+    payload: dict = {"mode": mode, "frame": frame, "code_hash": code_hash}
+    if world_key is not None:
+        payload["world_key"] = world_key
+    if package_manifest_hash is not None:
+        payload["package_manifest_hash"] = package_manifest_hash
+    if world_keys is not None:
+        payload["world_keys"] = world_keys
+    if package_manifest_hashes is not None:
+        payload["package_manifest_hashes"] = package_manifest_hashes
     events.validate(SESSION_STARTED_EVENT_TYPE, payload)
     return store.append(
         session_id=session_id, event_uuid=event_uuid, event_type=SESSION_STARTED_EVENT_TYPE, payload=payload
