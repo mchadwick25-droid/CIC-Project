@@ -100,12 +100,36 @@ def fallback_world(eligible: list[str], transcript_speakers: list[str]) -> str:
     return min(eligible, key=lambda k: (last_spoken_index(k), eligible.index(k)))
 
 
+def round_facts(world_keys: list[str], round_speakers: list[str]) -> str:
+    """Code-computed round state, stated to the selector outright (Artifact-7
+    SS5's "eligibility facts computed in code") rather than left for it to
+    infer from a flat transcript window. Added 2026-08-28 after the first
+    live run: the selector's R2-pos3 reason opened with "Theon has not yet
+    responded to this round's question" when Theon had spoken at position 1
+    of that round - the decision itself was defensible, but a turn_selected
+    event's reason is an audit surface (M7), and a false factual sentence in
+    it is a defect. The model no longer has to reconstruct round boundaries
+    it was never told."""
+    if round_speakers:
+        spoken = "; ".join(f"{k} (position {i + 1})" for i, k in enumerate(round_speakers))
+    else:
+        spoken = "(no one - this is the round's opening turn)"
+    unheard = [k for k in world_keys if k not in round_speakers]
+    return (
+        f"Spoken THIS round, in order: {spoken}. "
+        f"Not yet heard this round: {', '.join(unheard) if unheard else '(every voice has spoken this round)'}."
+    )
+
+
 def call_turn_selector(
-    client, model_id: str, *, message: str, transcript_text: str, seated_lines: str, legal_moves: list[str], timeout: float = 10.0
+    client, model_id: str, *, message: str, transcript_text: str, seated_lines: str, legal_moves: list[str],
+    round_facts_text: str = "", timeout: float = 10.0
 ) -> CallOutcome:
+    facts_block = f"Round state (computed, trust it over your own reading):\n{round_facts_text}\n\n" if round_facts_text else ""
     user_content = (
         f"Seated at this Table:\n{seated_lines}\n\n"
         f"What has been said (most recent last):\n{transcript_text}\n\n"
+        f"{facts_block}"
         f"Participant's latest message:\n{message}\n\n"
         f"Your legal moves: {', '.join(legal_moves)}"
     )
@@ -142,6 +166,7 @@ def select_speaker(
     last_speaker: str | None,
     close_allowed: bool,
     transcript_speakers: list[str],
+    round_speakers: list[str] | None = None,
 ) -> tuple[Selection, list[CallOutcome]]:
     """One selection step, rules enforced. Returns the resolved Selection
     and every CallOutcome made along the way (0, 1, or 2 - the caller
@@ -154,9 +179,11 @@ def select_speaker(
     eligible = eligible_worlds(world_keys, last_speaker)
     outcomes: list[CallOutcome] = []
     legal = eligible + [CLOSE] if close_allowed else list(eligible)
+    facts = round_facts(world_keys, round_speakers or [])
 
     outcome = call_turn_selector(
-        client, model_id, message=message, transcript_text=transcript_text, seated_lines=seated_lines, legal_moves=legal
+        client, model_id, message=message, transcript_text=transcript_text, seated_lines=seated_lines, legal_moves=legal,
+        round_facts_text=facts,
     )
     outcomes.append(outcome)
     if outcome.status == "ok":
@@ -169,7 +196,8 @@ def select_speaker(
         # Illegal despite the schema enum (or close when it wasn't offered):
         # one re-ask with close off the menu entirely, then the fallback.
         retry = call_turn_selector(
-            client, model_id, message=message, transcript_text=transcript_text, seated_lines=seated_lines, legal_moves=list(eligible)
+            client, model_id, message=message, transcript_text=transcript_text, seated_lines=seated_lines, legal_moves=list(eligible),
+            round_facts_text=facts,
         )
         outcomes.append(retry)
         if retry.status == "ok" and retry.value.get("next") in eligible:

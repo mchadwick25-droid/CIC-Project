@@ -10,6 +10,7 @@ from engine.m4.turn_selector import (
     Selection,
     eligible_worlds,
     fallback_world,
+    round_facts,
     select_speaker,
 )
 
@@ -39,13 +40,15 @@ class FakeSelectorClient:
 
     def create(self, *, model, max_tokens, system, tools, tool_choice, messages, timeout):
         self.seen_enums.append(list(tools[0]["input_schema"]["properties"]["next"]["enum"]))
+        self.seen_contents = getattr(self, "seen_contents", [])
+        self.seen_contents.append(messages[0]["content"])
         response = self._responses.pop(0)
         if isinstance(response, Exception):
             raise response
         return SimpleNamespace(content=[_FakeToolUse("submit_turn_selection", response)], usage=_FAKE_USAGE)
 
 
-def _select(client, *, world_keys=("alx", "desert", "pahc"), last_speaker=None, close_allowed=False, transcript_speakers=()):
+def _select(client, *, world_keys=("alx", "desert", "pahc"), last_speaker=None, close_allowed=False, transcript_speakers=(), round_speakers=()):
     return select_speaker(
         client,
         "model-x",
@@ -56,7 +59,31 @@ def _select(client, *, world_keys=("alx", "desert", "pahc"), last_speaker=None, 
         last_speaker=last_speaker,
         close_allowed=close_allowed,
         transcript_speakers=list(transcript_speakers),
+        round_speakers=list(round_speakers),
     )
+
+
+def test_round_facts_are_stated_not_inferred():
+    # The R2-pos3 live finding: the selector claimed a voice "has not yet
+    # responded" when it had spoken at position 1 of the round. The facts
+    # are now computed in code and placed in the prompt.
+    assert round_facts(["alx", "desert", "pahc"], []) == (
+        "Spoken THIS round, in order: (no one - this is the round's opening turn). "
+        "Not yet heard this round: alx, desert, pahc."
+    )
+    assert round_facts(["alx", "desert"], ["alx", "desert", "alx"]) == (
+        "Spoken THIS round, in order: alx (position 1); desert (position 2); alx (position 3). "
+        "Not yet heard this round: (every voice has spoken this round)."
+    )
+
+
+def test_round_facts_reach_the_selector_prompt():
+    client = FakeSelectorClient([{"next": "pahc", "reason": "unheard"}])
+    _select(client, round_speakers=["alx", "desert"])
+    content = client.seen_contents[0]
+    assert "Round state (computed, trust it over your own reading):" in content
+    assert "alx (position 1); desert (position 2)" in content
+    assert "Not yet heard this round: pahc" in content
 
 
 def test_no_immediate_self_repeat():

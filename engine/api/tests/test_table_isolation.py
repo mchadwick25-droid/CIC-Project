@@ -148,6 +148,32 @@ def test_voice_turn_scope_is_exactly_the_selected_world(store, usage_store, worl
     assert "since your last turn" in second_call["context_prefix"]
 
 
+def test_no_foreknowledge_instruction_reaches_every_voice(store, usage_store, world_loader, registry, alx_world, desert_world):
+    """Mark's rule (2026-08-28, after the first live run): a Representative
+    has insight into the conversation and its own world ONLY - no
+    foreknowledge of the other worlds. The grounding net cannot enforce
+    this (it checks citations, and a voice describing another world from
+    the model's general knowledge simply loses its badge), so the
+    epistemic position is stated in every table voice call's context, and
+    this test pins that it actually arrives."""
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "r1"}, {"next": "desert", "reason": "r2"}],
+        stream_scripts=[[alx_sentence], [desert_sentence]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http)
+    http.post(f"/api/session/{session_id}/message", json={"text": "hi"}, headers=auth)
+    http.post(f"/api/session/{session_id}/continue", headers=auth)
+    assert len(client.messages.stream_calls) == 2
+    for call in client.messages.stream_calls:
+        rendered = str(call["messages"])
+        assert "only through what they have said here" in rendered
+        assert "no knowledge of their worlds" in rendered
+        assert "not an antique manner of speaking" in rendered
+
+
 def test_per_world_session_memory_is_filtered_by_speaker():
     transcript = [
         {"speaker": "participant", "text": "q"},

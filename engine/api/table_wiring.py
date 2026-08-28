@@ -185,14 +185,39 @@ def table_history_for(world_key: str, transcript: list[dict], labels: dict[str, 
 
 
 def _context_prefix(pending: list[str]) -> str | None:
+    """Tightened 2026-08-28 after the first live smoke run, on Mark's read
+    of the transcript. Two corrections, both his calls:
+
+    NO FOREKNOWLEDGE. A Representative has insight into the conversation
+    and its own world ONLY (Table Design V2.3 SS6: it knows the other "only
+    as a voice it has encountered at this Table"). The live run showed the
+    gap this instruction closes: the grounding net keeps citations inside
+    the speaker's own world, but nothing stopped a voice from
+    characterizing the OTHER world from the model's general knowledge -
+    Papnoute spoke about Alexandria in claims the net could only strip
+    badges from, never block. The instruction now states the epistemic
+    position outright: the other voices are strangers met here, known only
+    by their spoken words.
+
+    FLAVOR, NOT ANTIQUITY. The world gives the voice its substance and its
+    terms; it does not license period diction. Mark's read of the first
+    transcript: the register was clear but leaned non-modern as a MANNER,
+    which is not what formation flavor means."""
     if not pending:
         return None
     return (
         "What has been said at the Table since your last turn:\n"
         + "\n\n".join(pending)
-        + "\n\n(You are being brought in now. Respond as yourself to the participant's message below - engage "
-        "what the other voices said where it genuinely touches your own world's witness, always from within "
-        "your own formation. Never speak for another voice, and never claim their world's knowledge as yours.)"
+        + "\n\n(You are being brought in now. Respond as yourself to the participant's message below.\n"
+        "You know the other voices at this Table only through what they have said here, in this "
+        "conversation. You have no knowledge of their worlds, their traditions, their practices, or their "
+        "people beyond their own spoken words above - and no memory of meeting them before this Table. "
+        "Engage what they actually said where it genuinely touches your own world's witness; never "
+        "describe, summarize, or characterize their world yourself, and if the participant asks you about "
+        "another voice's world, say plainly that you know only what you have heard at this Table. "
+        "Everything you say about your OWN world stays grounded in your own records, exactly as always.\n"
+        "And speak the way you always speak: plain, clear, present-day language. Your world gives you your "
+        "substance, your terms, and your way of seeing - not an antique manner of speaking.)"
     )
 
 
@@ -299,6 +324,7 @@ def _advance_open_round(
         last_speaker=state.round_speakers[-1] if state.round_speakers else None,
         close_allowed=config.close_allowed(state.round_turns),
         transcript_speakers=transcript_speakers,
+        round_speakers=list(state.round_speakers),
     )
     usage_records = []
     for outcome in selector_outcomes:
