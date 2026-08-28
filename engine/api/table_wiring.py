@@ -199,10 +199,13 @@ def _context_prefix(pending: list[str]) -> str | None:
     position outright: the other voices are strangers met here, known only
     by their spoken words.
 
-    FLAVOR, NOT ANTIQUITY. The world gives the voice its substance and its
-    terms; it does not license period diction. Mark's read of the first
-    transcript: the register was clear but leaned non-modern as a MANNER,
-    which is not what formation flavor means."""
+    COMPACT TURNS. Mark's settled read of the first transcript (2026-08-28,
+    second pass - an earlier register note the same day was his own
+    misread, withdrawn): the voices are very good, just LONG. Turns ran
+    400-670 words, and at 3-6 turns a round that is the wall-of-text the
+    UX review flagged. The guidance is table-scoped: a voice at a table
+    leaves room for the others and can always be drawn back in - the
+    single-voice interview's length is untouched."""
     if not pending:
         return None
     return (
@@ -216,8 +219,9 @@ def _context_prefix(pending: list[str]) -> str | None:
         "describe, summarize, or characterize their world yourself, and if the participant asks you about "
         "another voice's world, say plainly that you know only what you have heard at this Table. "
         "Everything you say about your OWN world stays grounded in your own records, exactly as always.\n"
-        "And speak the way you always speak: plain, clear, present-day language. Your world gives you your "
-        "substance, your terms, and your way of seeing - not an antique manner of speaking.)"
+        "Keep this turn compact - this is a table, not a lecture. Say the one or two things most worth "
+        "saying right now, at perhaps half the length you would take alone with the participant, and leave "
+        "room for the other voices; you can always be drawn back in.)"
     )
 
 

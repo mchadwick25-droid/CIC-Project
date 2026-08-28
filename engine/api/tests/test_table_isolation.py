@@ -171,7 +171,7 @@ def test_no_foreknowledge_instruction_reaches_every_voice(store, usage_store, wo
         rendered = str(call["messages"])
         assert "only through what they have said here" in rendered
         assert "no knowledge of their worlds" in rendered
-        assert "not an antique manner of speaking" in rendered
+        assert "Keep this turn compact" in rendered
 
 
 def test_per_world_session_memory_is_filtered_by_speaker():
