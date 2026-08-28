@@ -255,23 +255,24 @@ def _quote_opening(quote: dict, width: int = 60) -> str:
 
 # THE PROMPT HAS TWO HALVES, and until now only one of them was named.
 #
-# Below this line every section is a record of the world, addressed by an
-# id the voice copies when it draws on the section. Above it, the fleet's
-# own register/pronoun/citation/limit segment is standing instruction: no
-# ids, none needed, and none has ever been invented for it - nobody has
-# ever seen [[fleet.voice.register]] in a live turn.
+# One half is records of the world, each section addressed by an id the
+# voice copies when it draws on that section. The other is standing
+# instruction - the fleet's own register/pronoun/citation/limit segment -
+# which carries no ids, needs none, and has never had one invented for it:
+# nobody has ever seen [[fleet.voice.register]] in a live turn.
 #
-# The two regions existed already. What did not exist was any statement of
+# Both regions existed already. What did not exist was any statement of
 # where one stopped and the other began: the boundary was wherever
 # build_fleet_preamble's output happened to end, and nothing on the page
 # said so. voice_craft - the voice's own identity, guard, concerns and
 # flavor notes, which are instruction about how we speak, not evidence
-# about the world - sat on the wrong side of that unnamed line and was
+# about the world - sat on the wrong side of that unnamed boundary, and was
 # given an id so the model would stop inventing one.
 #
-# That is the fix this line replaces. See the fabrication history on emit()
-# below for what it cost and why it was reached for; the argument for
-# moving voice_craft instead is on `instruct()`.
+# This constant is the boundary, written out. It replaces the id that
+# voice_craft was carrying; see the fabrication history on emit() below for
+# what that id cost and why it was reached for, and instruct() for why
+# moving the content is a better answer than keeping the id.
 #
 # The wording is the lesson of the adjacency failure, run the other way.
 # Printing an id beside a heading told a model the id existed without
