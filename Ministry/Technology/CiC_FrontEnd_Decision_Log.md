@@ -1109,3 +1109,40 @@ follows is the open door.
 
 **Still gated as before:** a Table faces a participant only after the
 per-pairing battery runs (Mark's per-run spend grant).
+
+---
+
+## 2026-08-28 — The pairing batteries: all four offered seatings pass every
+machine gate; the recorded probes await Mark's read
+
+**Run under Mark's grant ("run the pairing batteries"), one battery per
+offered seating.** P1 (alx+desert), P2 (pahc+ijc, first live sitting),
+P3 (syr+alx, first live sitting), F1 (alx+desert+pahc flagship): each
+**4/4 auto-graded PASS** (direct address, each-of-you breadth, crisis
+governance with resources appended and zero voice turns, round-cap
+close), **zero isolation violations** in all four sweeps, and the
+convergence check found **no drift** in any seating — P2's own words:
+"serious engagement with each other's worlds while maintaining their own
+conceptual ground." P4 (hal+desert) remains unoffered and unrun, per its
+battery-accompanied-review status.
+
+**The recorded probes (Mark's read is the instrument):** every
+no-foreknowledge answer in all four seatings opens with the rule
+performed verbatim — "I know only what I have heard at this Table" —
+and recounts only table-spoken material; every cross-voice memory
+attribution is accurate and confirmed by the quoted voice itself. Two
+read-notes, neither a failure: (1) P1's L4 second turn has Papnoute
+referring to himself in the third person ("Papnoute has spoken of…") —
+a frame wobble when a voice is present for a question about its own
+world; (2) F1's L4 desert turn opens with a self-label prefix
+("Papnoute (Desert Monasticism):"), echoing the transcript's
+attribution format into the spoken text. Both are M7-audit-class
+observations for the pile, not gates.
+
+**Token counts (measured; principle 13):** input 338,853 · output
+26,471 across all four batteries; the battery buckets recorded zero
+cache fields this run — carried to the worksheet as measured.
+
+**Standing:** the last gate before a participant sits at a Table is
+passed for every offered seating. The doors are open; the Tables are
+cleared to be sat at.
