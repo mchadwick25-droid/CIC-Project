@@ -108,6 +108,11 @@ def build_fleet_preamble(fleet: dict, registry_entry: dict, records: dict | None
         emit("Pronoun rule", pronoun_rule.replace("{world}", world_name))
 
     emit("Citation contract", _fill_citation_example(record.get("citation_contract") or "", records or {}))
+    # Stories and quotes are never screened by the register (Mark's ruling,
+    # 2026-08-28): stories arrive through their own tellable_as retellings;
+    # quotes speak their build-authored modern_rendering where one exists,
+    # originals on the click page.
+    emit("Stories and quotes", record.get("story_quote_reach"))
     emit("Limit discipline", record.get("limit_discipline"))
     return segments
 
@@ -256,7 +261,12 @@ def _quote_speaker(quote: dict) -> str:
 
 
 def _quote_opening(quote: dict, width: int = 60) -> str:
-    text = " ".join((quote.get("text") or "").split())
+    # The opening words shown are the SPEAKABLE form - the build-authored
+    # modern_rendering where one exists (Mark's ruling, 2026-08-28:
+    # archaic quotes are translated in the build, originals on the click
+    # page), the original text otherwise - so the index matches what the
+    # voice would actually say at the table.
+    text = " ".join((quote.get("modern_rendering") or quote.get("text") or "").split())
     return f'"{text}"' if len(text) <= width else f'"{text[:width].rstrip()}..."'
 
 
@@ -649,6 +659,11 @@ def build_quotes_json(records: dict) -> bytes:
         {
             "id": q["id"],
             "text": q.get("text"),
+            # Build-authored translation for archaic originals (Mark's
+            # ruling, 2026-08-28): the spoken form; text above stays the
+            # original for the click page. Absent when the original's
+            # English is already plain.
+            "modern_rendering": q.get("modern_rendering"),
             "speaker_or_author": q.get("speaker_or_author"),
             "license": q.get("license"),
             "canon_cells": q.get("canon_cells") or [],

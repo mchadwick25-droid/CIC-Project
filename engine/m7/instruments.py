@@ -80,15 +80,32 @@ def isolation(s: AuditSession) -> list[Finding]:
     return findings
 
 
+_QUOTED_SPAN = re.compile(r"[\"“][^\"”]{3,}[\"”]|(?<!\w)'[^']{15,}'(?!\w)")
+
+
+def _strip_quoted(text: str) -> str:
+    """The tradition's own words are exempt from the plain band (Mark's
+    ruling, 2026-08-28: quotes are never screened by readability - the
+    band governs OUR words, never theirs). Straight-single-quote spans
+    only count at length, so contractions survive."""
+    return _QUOTED_SPAN.sub(" ", text)
+
+
 def register_mechanical(s: AuditSession) -> tuple[list[Finding], list[dict]]:
-    """§3.3 - FK/FRE per voice turn (whole-turn, phase 1) and the
-    first-sentence-answers-first-ask overlap ratio. All info; short turns
-    report unscored, never clean."""
+    """§3.3 - FK/FRE per voice turn and the first-sentence-answers-first-ask
+    overlap ratio. All info; short turns report unscored, never clean.
+    Primary numbers are measured with quoted spans stripped (the plain band
+    has no jurisdiction over quoted material - Mark's ruling, 2026-08-28);
+    whole-turn numbers ride alongside as fk_grade_whole/fre_whole."""
     metrics = []
     gate_by_seq = sorted(s.gate_decisions, key=lambda g: g["seq"])
     for t in s.voice_turns:
-        m = measure(t.text)
+        m = measure(_strip_quoted(t.text))
         entry = {"seq": t.seq, "speaker": t.speaker, **m}
+        whole = measure(t.text)
+        if whole.get("scored"):
+            entry["fk_grade_whole"] = whole["fk_grade"]
+            entry["fre_whole"] = whole["fre"]
         gates_before = [g for g in gate_by_seq if g["seq"] < t.seq]
         asks = (gates_before[-1].get("asks") or []) if gates_before else []
         if asks:
@@ -172,6 +189,34 @@ def offer_rates(s: AuditSession) -> dict:
             if len(parts) >= 2:
                 counts[parts[1]] += 1
     return dict(counts)
+
+
+def cross_voice_echo(s: AuditSession) -> list[Finding]:
+    """§3.5's cross-voice half, added 2026-08-28 after the F1 register-reach
+    battery: two DIFFERENT voices in one round sharing long word runs is a
+    distinctiveness defect the within-voice repetition instrument cannot
+    see (the battery's L4 turns opened near-verbatim alike across all
+    three seats; the Gemini outside read named it 'template echo').
+    Deterministic: shared 6-grams across distinct speakers in the same
+    round -> review. Interview sessions have one voice and are skipped."""
+    findings = []
+    by_round: dict[int, list] = {}
+    for t in s.voice_turns:
+        if t.round_no is not None:
+            by_round.setdefault(t.round_no, []).append(t)
+    for round_no, turns in by_round.items():
+        grams: dict[tuple, str] = {}
+        for t in turns:
+            words = _WORDS.findall(t.text.lower())
+            for j in range(len(words) - 5):
+                g = tuple(words[j:j + 6])
+                if g in grams and grams[g] != t.speaker:
+                    findings.append(Finding("cross_voice_echo", "review", s.session_id,
+                                            f"round {round_no}: {t.speaker} echoes {grams[g]}'s wording "
+                                            f"(shared run: \"{' '.join(g)}\")"))
+                    break  # one finding per turn, not per gram
+                grams.setdefault(g, t.speaker)
+    return findings
 
 
 def register_frame(s: AuditSession, names: dict[str, list[str]] | None = None) -> list[Finding]:
@@ -270,8 +315,8 @@ def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
     reg_findings, reg_metrics = register_mechanical(s)
     findings = (
         unread_outputs(s) + isolation(s) + reg_findings + ask_coverage(s)
-        + repetition(s) + safety_review(s) + register_frame(s, names)
-        + encounter_openings(s) + governance(s)
+        + repetition(s) + cross_voice_echo(s) + safety_review(s)
+        + register_frame(s, names) + encounter_openings(s) + governance(s)
     )
     return {
         "session_id": s.session_id,

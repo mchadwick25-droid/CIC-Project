@@ -9,8 +9,10 @@ import uuid
 from engine.m4.store import Store
 from engine.m7.cli import audit
 from engine.m7.instruments import (
+    _strip_quoted,
     ask_coverage,
     canon_candidate_asks,
+    cross_voice_echo,
     encounter_openings,
     governance,
     isolation,
@@ -238,6 +240,52 @@ def test_register_frame_catches_all_three_families(tmp_path):
     assert len(findings) == 4
     # without names, the name detector stays silent rather than guessing
     assert all("its own name" not in f.detail for f in register_frame(read_session(store, sid), None))
+
+
+def test_cross_voice_echo_catches_template_openings(tmp_path):
+    """The F1 register-reach battery's L4 turns: two different voices
+    opening near-verbatim alike in one round ('template echo', per the
+    outside read). Within-voice repetition can't see this."""
+    store = Store(tmp_path / "events.db")
+    sid = "echo-" + uuid.uuid4().hex[:8]
+    _append(store, sid, "session_started", {
+        "mode": "table", "frame": "general_seeker", "code_hash": "abc",
+        "world_keys": ["des", "cap"], "package_manifest_hashes": {"des": "sha256:x", "cap": "sha256:y"},
+    })
+    shared = "I know only what the elder has said here at this Table about the desert."
+    _append(store, sid, "turn_selected", {"round_no": 1, "position": 1, "world_key": "des", "reason": "r", "degraded": False})
+    _append(store, sid, "voice_turn", _voice("des", shared + " Our cells were quiet places of work and prayer.", []))
+    _append(store, sid, "turn_selected", {"round_no": 1, "position": 2, "world_key": "cap", "reason": "r", "degraded": False})
+    _append(store, sid, "voice_turn", _voice("cap", shared + " Our city knew a different silence.", []))
+    _append(store, sid, "round_closed", {"round_no": 1, "reason": "selector_closed", "turns": 2})
+    findings = cross_voice_echo(read_session(store, sid))
+    assert len(findings) == 1 and findings[0].severity == "review"
+    assert "echoes" in findings[0].detail
+
+    # distinct wording in the same round produces nothing
+    sid2 = "clean-" + uuid.uuid4().hex[:8]
+    _append(store, sid2, "session_started", {
+        "mode": "table", "frame": "general_seeker", "code_hash": "abc",
+        "world_keys": ["des", "cap"], "package_manifest_hashes": {"des": "sha256:x", "cap": "sha256:y"},
+    })
+    _append(store, sid2, "turn_selected", {"round_no": 1, "position": 1, "world_key": "des", "reason": "r", "degraded": False})
+    _append(store, sid2, "voice_turn", _voice("des", "The desert taught us to sit with our thoughts until they told the truth.", []))
+    _append(store, sid2, "turn_selected", {"round_no": 1, "position": 2, "world_key": "cap", "reason": "r", "degraded": False})
+    _append(store, sid2, "voice_turn", _voice("cap", "Our households broke one bread and read the letters aloud together.", []))
+    _append(store, sid2, "round_closed", {"round_no": 1, "reason": "selector_closed", "turns": 2})
+    assert cross_voice_echo(read_session(store, sid2)) == []
+
+
+def test_quoted_spans_exempt_from_plain_band():
+    """Mark's ruling: the band governs our words, never the tradition's.
+    A turn heavy with an archaic quote scores on its own prose."""
+    plain = ("Aphrahat said it plainly for all of us. " * 4).strip()
+    archaic = (' "hear thou these things from me without wrangling; whatsoever thou '
+               'hearest that assuredly edifies, receive thou it with gladness of heart" ')
+    stripped = _strip_quoted(plain + archaic)
+    assert "thou" not in stripped and "plainly" in stripped
+    # contractions survive the single-quote rule
+    assert _strip_quoted("we didn't and we won't forget it") == "we didn't and we won't forget it"
 
 
 def test_encounter_openings_counted(tmp_path):

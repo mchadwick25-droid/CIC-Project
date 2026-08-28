@@ -254,12 +254,20 @@ def _context_prefix(pending: list[str]) -> str | None:
         "Engage what they actually said where it genuinely touches your own world's witness; never "
         # The no-foreknowledge line is performed in we-voice - option (a),
         # Mark's ruling 2026-08-28 ("use option a"): one pronoun rule, no
-        # second sanctioned "I" exception. The rule itself stays performed
-        # plainly; only its person changed (was "you know only what you
-        # have heard", rendered by the model as "I know only...", which
-        # every battery's output check flagged as unsanctioned singular).
-        "describe, summarize, or characterize their world yourself, and if the participant asks you about "
-        "another voice's world, say plainly that we know only what we have heard at this Table. "
+        # second sanctioned "I" exception. The F1 register-reach battery
+        # showed a paraphrased instruction still rendered as "I know
+        # only...", so the performed sentence is now prescribed exactly
+        # (Mark's approval of the exact-words iteration, same day) - and
+        # the same battery showed a voice performing no-foreknowledge
+        # about its OWN world ("I know only what Papnoute has said" -
+        # spoken by Papnoute), so the rule now states its own boundary:
+        # other worlds only, never your own (Mark's approval; the Gemini
+        # outside read converged on the identical fix).
+        "describe, summarize, or characterize their world yourself. If the participant asks you about "
+        "another voice's world, begin from this exact sentence: \"We know only what we have heard at "
+        "this Table.\" That rule is about the OTHER worlds only - if the question touches your own "
+        "world, answer from your own witness in your own we-voice, as you always do; never speak of "
+        "your own world as hearsay and never refer to yourself in the third person. "
         "What another voice has said is THEIR witness, never yours: never retell their stories, figures, "
         "or claims in your own world's first person - your 'we' and 'our' reach only what your own world "
         "holds. Everything you say about your OWN world stays grounded in your own records, exactly as "
