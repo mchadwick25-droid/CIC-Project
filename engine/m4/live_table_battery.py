@@ -127,7 +127,22 @@ def _round_record(results):
         "facilitator_kinds": [f["kind"] for f in r0.facilitator],
         "texts": (
             [{"speaker": "facilitator", "text": f["text"]} for f in r0.facilitator if f.get("text")]
-            + [{"speaker": r.voice["speaker"], "text": r.voice["text"]} for r in results if r.voice]
+            + [
+                {
+                    "speaker": r.voice["speaker"],
+                    "text": r.voice["text"],
+                    # The full transparency apparatus per turn (same
+                    # reason as live_table_run's own note): citations
+                    # with resolved sources, glosses, figures, quote
+                    # offers, and the cited ids for the sweep.
+                    "citations": r.voice["citations"],
+                    "glosses": r.voice.get("glosses", []),
+                    "figures_used": r.voice.get("figures_used", []),
+                    "quote_offers": r.voice.get("quote_offers", []),
+                    "cited_record_ids": sorted({rid for c in r.voice["citations"] for rid in c["record_ids"]}),
+                }
+                for r in results if r.voice
+            ]
         ),
     }
 

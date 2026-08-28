@@ -76,6 +76,17 @@ def _turn_summary(result) -> dict:
             "degraded_by_net": voice.get("degraded_by_net", False),
             "output_defects": voice.get("output_defects", []),
             "text": voice["text"],
+            # The transparency apparatus, whole (added after Mark asked to
+            # SEE it and the first three reports turned out to have
+            # summarized it away): per-sentence citations with their
+            # resolved sources, lexicon glosses, figure bridges, quote
+            # offers. This is participant-facing data the engine produces
+            # on every turn - a run report that drops it hides the
+            # system's own best evidence.
+            "citations_full": voice["citations"],
+            "glosses": voice.get("glosses", []),
+            "figures_used": voice.get("figures_used", []),
+            "quote_offers": voice.get("quote_offers", []),
         }
     return summary
 
