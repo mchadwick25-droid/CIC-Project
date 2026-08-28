@@ -34,7 +34,7 @@ text: 'Why does God allow suffering - where was he? This world answered from ins
   to heal; suffering is the school''s hardest classroom, not its abandonment. Second, the witness''s answer:
   where was God in the plague? In the brothers and sisters who did not run - the community''s conduct
   was its theodicy. Third, the honest silence: this world does not claim to unriddle each grief; its confidence
-  is in the Teacher''s purpose, not in explanations of particular pains. What it refuses is the idea that
+  is in the Teacher''s purpose, not in explanations of particular pains. It refuses the idea that
   suffering proves God absent - its martyrs and its nurses had found him most present exactly there.'
 positions:
 - 'suffering read within divine pedagogy: remedial, never meaningless'
