@@ -1,8 +1,21 @@
+import { Arrival } from '../components/Arrival';
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
-import type { WorldEntry } from '../data/worlds';
+import type { WorldEntry, WorldStarter } from '../data/worlds';
+
+// Up to 3 starters spanning distinct cell tags (basic/identity, personal,
+// critical/etic) rather than the first 3 alphabetically - carried from the
+// retired Doorway screen along with the rest of the arrival content: a
+// nervous participant benefits more from seeing the range of what's
+// askable than from an arbitrary sample.
+function sampleStarters(starters: WorldStarter[]): WorldStarter[] {
+  const bySuffix = (suffix: string) => starters.find((s) => s.cell.endsWith(suffix));
+  const picked = [bySuffix('-I'), bySuffix('-P'), bySuffix('-E')].filter((s): s is WorldStarter => s !== undefined);
+  const deduped = picked.filter((s, i) => picked.findIndex((p) => p.cell === s.cell) === i);
+  return deduped.length >= 2 ? deduped : starters.slice(0, 3);
+}
 
 interface ConversationProps {
   world: WorldEntry;
@@ -33,6 +46,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
       </div>
 
       <div className="conversation__transcript">
+        <Arrival world={world} />
         {turns.map((turn, i) => {
           if (turn.speaker === 'participant') {
             return (
@@ -76,12 +90,24 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
           </button>
         </div>
       ) : (
-        <ChatInput
-          onSend={onSend}
-          onEnd={onEnd}
-          disabled={isLoading}
-          placeholder={`Ask ${world.representativeName} anything…`}
-        />
+        <>
+          {!turns.some((t) => t.speaker === 'participant') && world.starters.length > 0 && (
+            <div className="starter-chips">
+              <div className="starter-chips__label sans">Questions you might ask</div>
+              {sampleStarters(world.starters).map((s) => (
+                <button key={s.cell} type="button" className="starter-chip" disabled={isLoading} onClick={() => onSend(s.text)}>
+                  {s.text}
+                </button>
+              ))}
+            </div>
+          )}
+          <ChatInput
+            onSend={onSend}
+            onEnd={onEnd}
+            disabled={isLoading}
+            placeholder={`Ask ${world.representativeName} anything…`}
+          />
+        </>
       )}
     </div>
   );

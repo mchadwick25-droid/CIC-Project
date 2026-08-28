@@ -4,7 +4,7 @@
  * message, so `sendMessage` resolves with the full MessageResponse rather
  * than emitting incremental events.
  */
-import type { CreateSessionResponse, MessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
+import type { CreateSessionResponse, MessageResponse, TableMessageResponse, TranscriptResponse, WorldListResponse } from '../types/conversation';
 
 const API_BASE = '/api';
 
@@ -35,6 +35,52 @@ export async function createSession(worldKey: string): Promise<CreateSessionResp
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ world_key: worldKey }),
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+  return response.json();
+}
+
+// 2-3 distinct world keys convene a table session (Artifact-7 SS1/SS6) -
+// the ONLY way a table starts; nothing auto-creates one from a deep link.
+export async function createTableSession(worldKeys: string[]): Promise<CreateSessionResponse> {
+  const response = await fetch(`${API_BASE}/session`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ world_keys: worldKeys }),
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+  return response.json();
+}
+
+// Advance the open table round by one voice turn (Artifact-7 SS6's
+// turn-at-a-time transport) - called repeatedly while round_open is true,
+// so each voice's words reach the participant as they land rather than
+// after the whole round.
+export async function continueRound(sessionId: string, sessionCode: string): Promise<TableMessageResponse> {
+  const response = await fetch(`${API_BASE}/session/${sessionId}/continue`, {
+    method: 'POST',
+    headers: { ...authHeader(sessionCode) },
+  });
+  if (!response.ok) {
+    throw new ApiRequestError(response.status, await readErrorDetail(response));
+  }
+  return response.json();
+}
+
+export async function sendTableMessage(
+  sessionId: string,
+  sessionCode: string,
+  text: string,
+  clientMsgId?: string
+): Promise<TableMessageResponse> {
+  const response = await fetch(`${API_BASE}/session/${sessionId}/message`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeader(sessionCode) },
+    body: JSON.stringify({ text, client_msg_id: clientMsgId }),
   });
   if (!response.ok) {
     throw new ApiRequestError(response.status, await readErrorDetail(response));

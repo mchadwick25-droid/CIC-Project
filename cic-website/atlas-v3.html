@@ -282,6 +282,9 @@ body.tracing #art .tdot:not(.hot){opacity:.06}
   color:var(--muted);cursor:pointer}
 #sheet .act{display:inline-block;font-size:.86rem;font-weight:700;border:1px solid var(--gold);
   border-radius:0;padding:.4rem .8rem;margin:.6rem .4rem 0 0;cursor:pointer;background:var(--bg);color:var(--ink)}
+/* The Table hand-off reads as the quieter, second choice - the friction
+   gradient (interview easy, table intentional) starts at the button. */
+#sheet .act--table{font-weight:400;border-style:dashed}
 footer{max-width:640px;margin:1rem auto 2.5rem;padding:0 1rem;font-size:.82rem;color:var(--muted)}
 /* Mobile styling below is gated on the html.is-mobile class (set
    synchronously in <head> from screen.width), NOT @media (max-width)/
@@ -1698,16 +1701,17 @@ function openSheet(id){
         pass; this is the honest interim line until then. */
      :live?`<p class="note">This world's full source registry isn't listed here yet, but it exists and grounds every claim the Representative makes — ask about sources directly in the conversation.</p>`
      :`<p class="note">Source base pending — ${esc(eraState)}</p>`}`;
-  /* A second "Add to the Table"/multi-select tray used to sit next to this
-     button, letting a visitor pick up to three worlds and hand off with
-     mode=table -- but the live engine seats exactly one world per session
-     (spec O9) and silently dropped the other two with no explanation
-     (2026-08-25 finding). Removed rather than capped at one: Interview
-     already IS the honest one-world hand-off, so there was nothing left
-     for a one-seat "tray" to do that this button doesn't already do in a
-     single click. Table's own real multi-select UI is Mark's separate,
-     in-progress Table thread's to design -- not this fix's to anticipate. */
-  if(live)h+=`<button class="act" data-act="interview" data-aid="${m.id}">Interview ${esc(m.entry.representativeName)}</button>`;
+  /* Two hand-offs per live world, per Mark's launch ruling (2026-08-28):
+     Interview is the frictionless door -- mode=interview lands straight in
+     the room. The Table is intentional -- mode=table never starts a
+     session; it lands on the app's own Table field with this world seated,
+     where the participant completes the seating (with pairing guidance)
+     and convenes on purpose. This replaces the multi-select tray removed
+     2026-08-25 (it used to hand off seats the surface then silently
+     dropped); composing a Table is the app's job, and now it has the
+     field for it -- the Atlas only ever suggests one seat. */
+  if(live)h+=`<button class="act" data-act="interview" data-aid="${m.id}">Interview ${esc(m.entry.representativeName)}</button>
+    <button class="act act--table" data-act="table" data-aid="${m.id}">Bring ${esc(m.entry.representativeName)} to the Table</button>`;
   /* Plain-language status, moved to the END of the document (Mark,
      2026-08-03): "not sure people want to know our internal decision
      making criteria" up front. Four categories only -- yes built /
@@ -1970,17 +1974,16 @@ if(isMobileDevice){
 }
 updateYearBadge(0);
 /* ---- B5: app hand-off (ids straight from the census — no hand map) ----
-   Single-world only: the live engine seats exactly one world per session
-   (spec O9). A multi-select "tray" letting a visitor pick up to three
-   worlds used to hand off with mode=table, silently dropping the other
-   two on arrival with no explanation (2026-08-25 finding) -- removed
-   rather than patched, since the engine's real cap makes a multi-seat
-   picker a promise this site can't currently keep. Table's own eventual
-   multi-select UI belongs to Mark's separate, in-progress Table thread. */
+   The deep-link grammar (Mark's launch ruling, 2026-08-28):
+   mode=interview lands straight in the room with that one world;
+   mode=table lands on the app's Table field with the id(s) seated,
+   never auto-starting a session — composing and convening a Table is
+   the app's own job, this site only ever suggests seats. */
 function launch(ids,mode){location.href=LIVE_APP_URL+'/?worlds='+ids.join(',')+'&mode='+mode;}
 sheet.addEventListener('click',ev=>{
   const a=ev.target.closest('[data-act]');if(!a)return;
   if(a.dataset.act==='interview'){launch([a.dataset.aid],'interview');return;}
+  if(a.dataset.act==='table'){launch([a.dataset.aid],'table');return;}
 });
 const tb=document.getElementById('themeBtn');let themes=["auto","light","dark"],ti=0;
 tb.addEventListener('click',()=>{ti=(ti+1)%3;const t=themes[ti];
