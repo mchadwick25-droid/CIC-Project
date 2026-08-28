@@ -1,208 +1,53 @@
-# Render Blueprint for cic-poc (the conversation table, 6 worlds).
-# One Docker service: backend serves the built frontend from the same
-# origin (see cic-poc/Dockerfile) — no separate static site needed here.
+# Render Blueprint for Church in Conversation.
 #
-# To deploy: Render dashboard -> New -> Blueprint -> connect this repo.
-# Render finds this file automatically at the repo root.
+# ONE service: cic-engine (engine/api on Bedrock), which also builds and
+# serves cic-poc/frontend same-origin (engine/Dockerfile's frontend
+# stage, engine/api/app.py's static mount) - so no separate static site
+# and no CORS_ORIGINS.
 #
-# ANTHROPIC_API_KEY and CORS_ORIGINS are marked sync: false on purpose -
-# never committed. Set them in the Render dashboard after the first
-# deploy assigns a URL (Settings -> Environment).
+# THE OLD cic-poc SERVICE IS RETIRED. Its entry was removed 2026-08-28 on
+# Mark's decision ("yes we can retire the old systems"), completing
+# PHASE-1-LAUNCH.md Stage 6: churchinconversation.com's links moved to
+# cic-engine 2026-08-25 (PR #54) and the service was suspended in the
+# dashboard the same day. Removing the entry here lets the next Blueprint
+# sync flag the suspended service for deletion - Render asks for a
+# dashboard confirmation before deleting; that confirmation is Mark's
+# account action, and the last one open: the Anthropic keys were disabled
+# by Mark 2026-08-28 (the account's remaining credit goes to another,
+# non-CiC project), so ALL CiC model spend now flows through AWS Bedrock
+# alone - one channel, which is exactly what the spec-principle-13
+# invoice reconciliation wants. The old pilot's transcripts live in Supabase, a
+# separate service this touches not at all. The whole retired entry -
+# including its Haiku-switch history and the Supabase-durability
+# rationale - is in git history at this file's prior revisions.
 #
-# plan: standard - starter (512MB) held after the runtime-FAISS-rebuild
-# OOM was fixed (index-building moved into the Docker build step, see
-# build_indices.py), but a real OOM recurred 2026-08-10 10:55 (instance
-# b74cg, over 512MB, one restart, service recovered same minute) - not a
-# repeat of the old bug (lifespan() confirmed still lazy, no eager
-# preload), but six worlds' worth of substantially larger prompts and
-# the new repository apparatus (99 -> 688 browsable records) landing the
-# same day, on an instance already sized to the original budget target
-# with no headroom. Mark bumped this in the Render dashboard first;
-# codified here immediately after so it survives the next deploy rather
-# than reverting silently.
 # This service is Blueprint-managed, so this file - not a manual
-# dashboard edit - is the actual source of truth for its plan. A
-# dashboard-only change here is exactly the failure mode this comment
-# exists to prevent.
+# dashboard edit - is the actual source of truth for what runs. A
+# dashboard-only change is exactly the failure mode this comment exists
+# to prevent.
+#
+# AWS credentials are marked sync: false on purpose - never committed,
+# set in the Render dashboard (Settings -> Environment) after the first
+# deploy. engine.provider.bedrock.make_client() reads them via boto3's
+# standard credential chain, not a CIC_API_-prefixed var - the exact key
+# names Render needs are AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY (and
+# AWS_SESSION_TOKEN if the identity uses temporary credentials).
+# PHASE-1-LAUNCH.md Stage 3's own caution still holds: cic-bedrock-dev is
+# a DEV identity - production wants its own, scoped to Bedrock invoke on
+# the models actually used (CIC_API_VOICE_MODEL_PATTERN/
+# CIC_API_SAFETY_MODEL_PATTERN, left at their code defaults).
+#
+# Which branch Render's blueprint connection uses is a Render dashboard
+# setting, not something any file in this repo records - confirm it
+# there when connecting or re-connecting.
+#
+# events.db/usage.db (engine/api/config.py's own defaults) are NOT on a
+# Render Disk here, so they are ephemeral container storage - wiped on
+# every restart and every redeploy, the same failure shape the retired
+# cic-poc entry once documented for its own JSONL transcripts. Fine for
+# a short pilot's worth of restarts; add a Render Disk before relying on
+# transcripts surviving a redeploy.
 services:
-  - type: web
-    name: cic-poc
-    runtime: docker
-    dockerfilePath: ./cic-poc/Dockerfile
-    dockerContext: ./cic-poc
-    plan: standard
-    envVars:
-      - key: ANTHROPIC_API_KEY
-        sync: false
-      - key: CORS_ORIGINS
-        sync: false
-      # Conversation tracking. Added 2026-08-09 after Mark confirmed he DOES
-      # want conversations tracked (not necessarily tied to a name), and a
-      # direct read of the code found nothing durable was actually storing
-      # them in this deployment.
-      #
-      # THE GAP, verified in code rather than assumed:
-      #   - OnboardingScreen.tsx tells EVERY participant, unconditionally,
-      #     "Your conversation in this session is being saved and cataloged
-      #     ... reviewed by the project team", and links a privacy page
-      #     stating what is stored and how to request deletion.
-      #   - The durable audit log (events.py _persist_supabase, the
-      #     session_events table) is correctly UN-gated from
-      #     PILOT_LOGGING_ENABLED - but it still returns early when
-      #     supabase_configured() is False.
-      #   - supabase_configured() is just bool(url and service_key), and
-      #     THIS FILE DECLARED NEITHER - unlike ANTHROPIC_API_KEY and
-      #     CORS_ORIGINS above, which are declared sync:false precisely so
-      #     the dashboard is known to be their source.
-      #   - The only other durability is JSONL at
-      #     transcripts/events/<session_id>.jsonl, and this service declares
-      #     NO disk/volume and the Dockerfile no VOLUME - so it is ephemeral
-      #     container storage, wiped on every restart and every redeploy.
-      #
-      # Net effect until these are set: the app promises participants a
-      # catalogued conversation and keeps it only until the next redeploy.
-      #
-      # Declaring them sync:false changes NO behaviour on its own - an unset
-      # value leaves supabase_configured() False exactly as today. It makes
-      # the requirement visible instead of silent. Mark sets the real values
-      # in the Render dashboard (Settings -> Environment); account actions
-      # are his.
-      #
-      # ANONYMITY IS PRESERVED, which is what Mark asked for. Configuring
-      # Supabase does NOT force sign-in: auth.py's get_current_user returns
-      # the anonymous placeholder when Supabase is configured but no token
-      # is offered ("sign-in is an ask for this pilot, not a requirement").
-      # sessions.user_id is nullable and set only for a signed-in
-      # participant (main.py:477), so anonymous conversations are stored
-      # against a session UUID with no name attached.
-      - key: SUPABASE_URL
-        sync: false
-      - key: SUPABASE_SERVICE_KEY
-        sync: false
-      # The human-readable transcript view (sessions + messages tables via
-      # transcript_logging.py) - "the human-readable transcript view Mark
-      # actually reviews", per that module's own docstring. Separate from
-      # the session_events audit log above, and gated on this flag AND
-      # Supabase, so with Supabase unset this remains a no-op.
-      #
-      # The module's stated precondition for turning this on - "only enable
-      # for an actual tester pilot where the onboarding text already
-      # discloses this" - is already met: the cataloging disclosure in
-      # OnboardingScreen.tsx is unconditional and shipped, and links the
-      # privacy page. Turned on 2026-08-09 at Mark's direction.
-      - key: PILOT_LOGGING_ENABLED
-        value: "true"
-      - key: LLM_PROVIDER
-        value: anthropic
-      # Representative/Facilitator GENERATION model. Moved from
-      # claude-sonnet-5 to Haiku 4.5 on 2026-08-09 at Mark's direction, on
-      # cost: repricing the committed cost baseline puts this at -47% of
-      # the whole bill (see Ministry/Technology/Pass3/provider_repricing.py
-      # and CiC_LLM_Provider_Cost_Options_2026-08-09.md). Generation is 71%
-      # of spend, so this one line is the entire available saving short of
-      # a provider migration - and it beats migrating to Gemini 3 Pro or
-      # GPT-5.6 Terra, both of which save less for weeks of work.
-      #
-      # SHIPPED AHEAD OF ITS QUALITY GATE, deliberately and on the record.
-      # Pass 3 (cost_floor_model.py Step 7) declined to recommend this
-      # blind: the prompts carry ~55 distinct prohibitive constructions
-      # plus 7 worked WRONG/RIGHT pairs, and dense negative-constraint
-      # instruction-following over long context is where a smaller model
-      # degrades first. None of the three real-time blocking checks covers
-      # that axis - the post-hoc detectors only queue guidance for a LATER
-      # turn - so a tier failure reaches the participant before anything
-      # catches it. Mark's stated tolerance (2026-08-09): "ok with a
-      # cheaper and a small drop after 15 turns."
-      #
-      # REVERTING IS THIS ONE LINE. Put claude-sonnet-5 back and redeploy;
-      # nothing else in the app is model-specific.
-      #
-      # THE TWO THINGS TO WATCH, both measurable from logs already emitted:
-      # 1. Regeneration rate. Every world in HARD_CEILING_WORLDS
-      #    (nodes.py ~1617) has a ceiling calibrated against a SONNET-
-      #    measured voice profile. A regeneration costs MORE than the
-      #    original turn (it re-sends the whole prompt plus the discarded
-      #    draft), and Desert already regenerated on 80% of turns on
-      #    Sonnet. If Haiku's length adherence is worse, the extra
-      #    regenerations eat the saving. app/length_ceiling_logging.py
-      #    already emits a machine-parseable line per outcome - count it
-      #    before concluding this switch saved anything.
-      # 2. Cache behaviour. Haiku 4.5's minimum cacheable prefix is 4096
-      #    tokens vs Sonnet's 1024. The representative prefix is ~15.2k
-      #    measured, so both breakpoints in _cached_system_message should
-      #    still cache - but confirm cache_read is non-zero in the
-      #    [llm_usage] lines rather than assuming it.
-      #    CONFIRMED 2026-08-10 from Chloe's Haiku checkpoint log, measured
-      #    not assumed: of 68 main_response calls, 67 carried non-zero
-      #    cache_read averaging 12,820 tokens, against a single ~13k cache
-      #    write. Caching behaves exactly as on Sonnet; the 4096-token
-      #    minimum prefix is not a problem at this prompt size. WATCH ITEM
-      #    2 IS CLOSED.
-      # 3. First checkpoint ON Haiku (2026-08-10, Chloe): hard bars all held
-      #    (mean 115.2 vs Sonnet 115.5, zero breaches/concessions/fabrication,
-      #    regeneration 6/8 - unchanged from Sonnet); citations fell 7/8->3/8
-      #    and FRE margin thinned to 61.89 vs the 60 floor. The watch items
-      #    above are live questions, not hypotheticals.
-      # REVERTED TO SONNET 2026-08-10 11:5x, same day it shipped. Not a
-      # reversal of the cost decision - a sequencing fix. The table
-      # workstream measured a HAIKU-ONLY defect this thread could not see:
-      # a Representative writing another world's dialogue inside its own
-      # turn, breaching the public-transcript isolation Facilitator
-      # Governance calls "the boundary that makes the table
-      # constitutionally sound". Zero occurrences in both Sonnet arms, up
-      # to 21% of turns in every Haiku arm. The repair is deterministic
-      # and ready, but it is in PR #10 and NOT in main - and this one
-      # setting governs solo AND table alike, so flipping the model for
-      # the interview thread flipped it for the table too.
-      #
-      # Their governing rule, which this restores: the model switch lands
-      # LAST and ALONE, after everything else is verified on Sonnet, so a
-      # post-switch failure is a one-line revert rather than an
-      # untangling. It went in first instead, inside a 23-commit merge.
-      # The order is the point; put it back and re-flip in sequence.
-      #
-      # Re-flip to claude-haiku-4-5-20251001 only when PR #10 is in main
-      # and main has been verified on Sonnet - see
-      # Ministry/Technology/Table/GO_LIVE_CHECKLIST_2026-08-10.md.
-      - key: LLM_MODEL
-        value: claude-sonnet-5
-
-  # PHASE-1-LAUNCH.md Stage 5, added 2026-08-24 - a SECOND, independent
-  # service, standing up alongside cic-poc above rather than replacing it.
-  # GATE 5 only asks that this answer on its OWN URL and hold a full
-  # conversation; moving churchinconversation.com's link onto it and
-  # retiring cic-poc is Stage 6, "Mark's call to fire", not this one.
-  # Removing cic-poc's own entry above before that stage would desync
-  # Render's Blueprint from the service actually serving live traffic.
-  #
-  # One Docker service, not two: engine/api's own build (engine/Dockerfile)
-  # now also builds cic-poc/frontend and serves it same-origin (Mark's
-  # call, 2026-08-24) - see engine/Dockerfile and engine/api/app.py's
-  # static-file mount for how. No CORS_ORIGINS needed, unlike cic-poc
-  # above.
-  #
-  # AWS credentials are marked sync: false on purpose - never committed,
-  # set in the Render dashboard (Settings -> Environment) after the first
-  # deploy. engine.provider.bedrock.make_client() reads them via boto3's
-  # standard credential chain, not a CIC_API_-prefixed var - the exact key
-  # names Render needs are AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY (and
-  # AWS_SESSION_TOKEN if the identity uses temporary credentials).
-  # PHASE-1-LAUNCH.md Stage 3's own caution still holds: cic-bedrock-dev is
-  # a DEV identity - production wants its own, scoped to Bedrock invoke on
-  # the models actually used (CIC_API_VOICE_MODEL_PATTERN/
-  # CIC_API_SAFETY_MODEL_PATTERN below, left at their code defaults).
-  #
-  # STILL OPEN before this can actually deploy (Stage 5's own flag): which
-  # branch Render's blueprint connection uses is a Render dashboard
-  # setting, not something any file in this repo records - confirm it
-  # before connecting this service.
-  #
-  # events.db/usage.db (engine/api/config.py's own defaults) are NOT on a
-  # Render Disk here, so they are ephemeral container storage - wiped on
-  # every restart and every redeploy, the same failure shape cic-poc's own
-  # Supabase-durability comment above already documented once for the
-  # previous system. Fine for a short pilot's worth of restarts; add a
-  # Render Disk before relying on transcripts surviving a redeploy.
   - type: web
     name: cic-engine
     runtime: docker
