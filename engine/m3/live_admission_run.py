@@ -133,6 +133,12 @@ def run(region: str) -> dict:
                 "passed": r.passed,
                 "checks": r.checks,
                 "usage": asdict(u),
+                # Failing probes keep their answer text so a register flag
+                # can actually be READ (Mark's read is the instrument; the
+                # heuristic is its stand-in). Failing only, and never the
+                # probe text: an answer can paraphrase its sealed probe,
+                # so the bound stays as tight as the read requires.
+                **({"answer_text": r.answer_text} if not r.passed else {}),
             }
             for r, u in zip(battery, normalized)
         ]
