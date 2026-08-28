@@ -337,7 +337,7 @@ def _run_ordinary_voice_turn(
         # actually reads, and until now nothing looked at it. Reports,
         # never edits (Program-Spec M4: never by editing a live response);
         # a finding here means something UPSTREAM is wrong.
-        "output_defects": check_output(answer_text, history=history),
+        "output_defects": check_output(answer_text, history=history, participant_message=participant_message),
     }
     return voice_event, usage_records
 
@@ -524,7 +524,7 @@ def run_turn(
                 )
                 stream_failed = False
                 if stream_text.strip():
-                    voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "figures_used": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}, "output_defects": check_output(stream_text, history=history)}
+                    voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "figures_used": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}, "output_defects": check_output(stream_text, history=history, participant_message=participant_message)}
 
         facilitator_event = crisis_resources.append_crisis_resources_turn(
             signal=signal, stream_text=stream_text, stream_failed=stream_failed,

@@ -59,21 +59,51 @@ _HEADING = re.compile(r"^\s{0,3}#{1,6}\s", re.MULTILINE)
 _RULE = re.compile(r"^\s*-{3,}\s*$", re.MULTILINE)
 _ASTERISK = re.compile(r"\*")
 
-# A claim about the shared past. Deliberately narrow: each of these asserts
-# that something HAS BEEN SAID, which is checkable, rather than merely
-# referring to a topic, which is not.
-_CONVERSATIONAL = re.compile(
+# A claim about the shared past. TWO PARTS, BOTH REQUIRED, because one is
+# not enough: "as we put it, not by chattering words but by experience" is
+# the voice attributing WORDING to its own tradition, not telling the
+# participant what it said earlier - and the first version flagged it. A
+# claim about this conversation nearly always addresses the participant
+# ("we told YOU") or dates itself ("already", "earlier", "so far"). A claim
+# about how the tradition phrased something does neither.
+_SPEECH_ACT = re.compile(
+    r"\b(?:we|i) (?:have )?(?:already )?(?:said|told|gave|given|showed|named|mentioned|spoke|offered)\b",
+    re.IGNORECASE,
+)
+_SESSION_MARKER = re.compile(
+    r"\b(?:you|already|earlier|before|previously|so far|just now|in this conversation)\b",
+    re.IGNORECASE,
+)
+
+# The participant asserting that something was said. The false premise
+# lives HERE, in their turn - acceptance is the absence of a correction in
+# the reply, which is undecidable from the reply alone. This is why the
+# check takes the participant message: no pattern over the output reaches
+# a defect whose other half is in the input.
+_PARTICIPANT_PRIOR = re.compile(
     r"\b(?:"
-    r"already (?:gave|told|said|mentioned|spoke|offered|named)"
-    r"|we (?:gave|told|showed|named) you"
-    r"|as we (?:said|told|mentioned|put it)"
-    r"|(?:as|like) we (?:said|mentioned) (?:earlier|before|above)"
-    r"|earlier we|we mentioned|we have (?:already )?(?:said|told|named)"
-    r"|we told you|you(?:'ll| will) remember"
-    r"|as (?:mentioned|noted) (?:earlier|above)"
-    r"|(?:the|that) (?:one|woman|man|story|saying|elder) (?:we|i) (?:named|gave|told|mentioned)"
-    r"|(?:i|we) have named"
-    r"|so far in this conversation"
+    r"earlier you (?:mentioned|said|named|told|spoke)"
+    r"|you (?:earlier |already |just )?(?:mentioned|named|told me|told us|said)"
+    r"|remind me (?:of )?what you (?:told|said)"
+    r"|as you (?:said|mentioned|put it)"
+    r"|going back to what you said"
+    r")\b",
+    re.IGNORECASE,
+)
+
+# The voice DECLINING a premise about the conversation. Deliberately about
+# saying and naming, never about the record: an earlier version matched "we
+# did not leave behind an account of how we sat with the dying", which is
+# an honest limit about what survives, not a correction of the participant.
+_PREMISE_CORRECTION = re.compile(
+    r"\b(?:"
+    r"we have not (?:said|named|mentioned|spoken|told)"
+    r"|we did not (?:say|name|mention)"
+    r"|we haven't (?:said|named|mentioned)"
+    r"|(?:have )?not yet (?:said|named|mentioned)"
+    r"|this is the first (?:time|thing)"
+    r"|we have (?:said|named) nothing"
+    r"|you may be thinking of"
     r")\b",
     re.IGNORECASE,
 )
@@ -157,7 +187,7 @@ def _conversational_findings(text: str, history: list[dict] | None) -> list[dict
     said = [t.get("content") or "" for t in (history or []) if t.get("role") == "assistant"]
     out = []
     for sentence in sentences(text):
-        if not _CONVERSATIONAL.search(sentence):
+        if not (_SPEECH_ACT.search(sentence) and _SESSION_MARKER.search(sentence)):
             continue
         if not said:
             out.append(_finding("conversational", "false: claims something was already said, on a turn with no prior turns", sentence))
@@ -173,6 +203,77 @@ def _conversational_findings(text: str, history: list[dict] | None) -> list[dict
                 _finding("conversational", "unverified: claims prior discourse with no name in it - needs a reader", sentence)
             )
     return out
+
+
+def _premise_findings(text: str, participant_message: str | None, said: list[str]) -> list[dict]:
+    """The participant asserts prior discourse. Was there any?
+
+    THIS IS THE HALF THE OUTPUT CANNOT SEE. A live probe on desert opened a
+    reply "That was Sarah - Amma Sarah, by the honored address we gave to
+    proven elders", two turns into a conversation about daily bread. Sarah
+    had never been mentioned. Nothing in that sentence is a back-reference
+    phrase; the acceptance is carried by the word "that", pointing at a
+    mention the participant asserted and the transcript refutes. Widening a
+    pattern over the reply never reaches it, because half the defect is in
+    the input.
+
+    So: when the participant claims we said something, ask first whether the
+    claim is SUPPORTED - do the words they used, minus the framing, appear
+    in anything we actually said? A supported claim is an ordinary
+    follow-up and produces nothing, which is what keeps this quiet on the
+    common case.
+
+    An UNSUPPORTED claim is a false premise, and then the reply has exactly
+    one correct move: decline it. Declining produces nothing. Otherwise:
+
+      false        the reply introduces a name that appears in no prior
+                   turn - it has supplied a specific memory that never
+                   happened. Exact.
+      unverified   the reply neither corrects nor names. Whether it went
+                   along with the premise is a reading.
+    """
+    if not participant_message or not _PARTICIPANT_PRIOR.search(participant_message):
+        return []
+
+    prior_words: set[str] = set()
+    for turn in said:
+        prior_words |= content_words(turn)
+
+    # Strip the assertion's own framing, so "you mentioned"/"you told me"
+    # cannot vouch for itself out of some earlier turn's ordinary prose.
+    asked = content_words(_PARTICIPANT_PRIOR.sub(" ", participant_message))
+    if not said:
+        pass  # no prior turn at all: every such claim is false
+    elif asked & prior_words:
+        return []  # supported - an ordinary follow-up
+
+    if _PREMISE_CORRECTION.search(text):
+        return []  # the voice declined it, which is the correct move
+
+    unsaid = sorted(n for n in _proper_nouns_in(text) if not any(n in turn for turn in said))
+    if unsaid:
+        return [
+            _finding(
+                "conversational",
+                f"false: answered an unsupported claim of prior discourse by naming {', '.join(unsaid)}, "
+                "which appears in no prior turn",
+                participant_message,
+            )
+        ]
+    return [
+        _finding(
+            "conversational",
+            "unverified: answered an unsupported claim of prior discourse without correcting it - needs a reader",
+            participant_message,
+        )
+    ]
+
+
+def _proper_nouns_in(text: str) -> set[str]:
+    names: set[str] = set()
+    for sentence in sentences(text):
+        names |= _proper_nouns(sentence)
+    return names
 
 
 def _pronoun_findings(text: str) -> list[dict]:
@@ -191,14 +292,22 @@ def _pronoun_findings(text: str) -> list[dict]:
     return out
 
 
-def check_output(text: str, *, history: list[dict] | None = None) -> list[dict]:
+def check_output(text: str, *, history: list[dict] | None = None, participant_message: str | None = None) -> list[dict]:
     """Every defect found on the finished text. Empty list is the clean case.
 
     `history` is the Messages-API turn list the generation call was given
     (engine.api.wiring.history_from_transcript) - passed rather than
     re-derived, so the check and the call can never disagree about what the
-    voice had actually said.
+    voice had actually said. `participant_message` is the turn being
+    answered: half of a false-premise defect lives there, and no pattern
+    over the reply alone can reach it.
     """
     if not (text or "").strip():
         return []
-    return _display_findings(text) + _conversational_findings(text, history) + _pronoun_findings(text)
+    said = [t.get("content") or "" for t in (history or []) if t.get("role") == "assistant"]
+    return (
+        _display_findings(text)
+        + _conversational_findings(text, history)
+        + _premise_findings(text, participant_message, said)
+        + _pronoun_findings(text)
+    )

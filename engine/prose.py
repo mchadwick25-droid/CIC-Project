@@ -73,6 +73,18 @@ _STOPWORDS = {
     "can", "could", "would", "should", "will", "shall", "must", "let", "yet",
     "even", "still", "just", "only", "own", "back", "before", "after",
     "because", "about", "against", "between", "from", "each", "other",
+    # The closed class was incomplete, and the gap was found the way the
+    # others were - by a check believing it. engine.m4.output_check asks
+    # whether a participant's claim of prior discourse shares any word with
+    # what was actually said; "Earlier you mentioned a woman among you by
+    # name" shared exactly one word with two turns about bread and baskets,
+    # and it was "among". A preposition vouched for a memory that never
+    # happened. These are siblings of the prepositions already listed
+    # above (between, against, about, from, into, over, under) - completing
+    # a closed class, not tuning one check's outcome.
+    "among", "amongst", "through", "throughout", "during", "within",
+    "without", "upon", "across", "toward", "towards", "beyond", "beside",
+    "near", "off", "per", "onto", "unto", "along", "around", "behind",
     # Contractions tokenize as single words - the apostrophe is a word
     # character in _WORD - so every one of these was a CONTENT word until
     # 2026-08-27, scored as evidence about a cell like any noun. Found by a
