@@ -1232,3 +1232,101 @@ the net to ground.
 disk. From the Render shell:
 `python -m engine.m7.cli audit --events-db $CIC_API_EVENTS_DB --out /data/m7-audits/$(date +%F)`
 — free at any cadence (phase 1 makes no model calls).
+
+---
+
+## 2026-08-28 — Mark's read of the FIRST live participant conversation
+(syr, "who is jesus"): two fixes shipped, one register defect named and
+awaiting his ruling
+
+**Ground truth first: yes, the site is live** — the doors opened at
+Mark's own flip earlier today; churchinconversation.com's Atlas and cards
+deep-link into the app at cic-engine.onrender.com, which serves main.
+
+**Shipped now (merged to main; Render redeploys):**
+1. **The conversation thread is clean.** General References now sits
+   collapsed behind one line — "General references (N)" — and opens on
+   click. Mark: "the long bibliography should be a click... we want the
+   conversation thread clean with the ability to hover and click if you
+   want deeper information." This refines his 2026-08-25 correction
+   (references out of the running text) rather than reversing it. New
+   participant-facing string inventory: the label "General references
+   (N)" (count added to the existing label; disclosure triangle is CSS).
+2. **The register defect is now measurable.** engine/m7 gains
+   register_frame: three deterministic detectors — "this world"
+   third-person framing (his screen: "To this world Jesus is..."), a
+   voice saying its own name in running text (the P1-L4 Papnoute
+   read-note), and a "Name (World):" label echo (the F1-L4 read-note).
+   Zero false positives over the surviving F1 battery log's 9 turns; the
+   sanctioned L4 "at this Table" openings do not trigger.
+
+**Diagnosed, not yet fixed (Mark's ruling + spend grant needed):**
+- **"To this world..." third person.** The witness register is first
+  person plural; the voice stood outside its own world on the very first
+  live answer. The two battery read-notes were this same family — logged
+  then as M7-audit-class observations; the first participant conversation
+  shows the family is a register defect, not a tendency. The fix is
+  craft-level (a first-person-plural frame rule in the fleet voice
+  contract / voice_craft), which changes compiled prompts, which means
+  recompile + admission battery re-verification — the world-build route,
+  never a live patch.
+- **Glossary/story/quote tracks were silent, not broken.** All four
+  transparency tracks are live code; a gloss fires only on a cited TERM
+  record whose word appears in the citing sentence (the anti-lecturing
+  discipline), a story/quote mark only on a cited story/quote record.
+  This answer cited only source records, so nothing fired. Two concrete
+  findings routed to the world build: (1) the voice QUOTED Aphrahat's
+  "sure thing" line, which exists as syr.quote.aphrahat-sure-thing, but
+  cited the source record instead — the quote track stayed dark on a
+  real quotation; (2) participant-level terms the answer leaned on
+  (Sheol, Only-Begotten) have no term records in syr's lexicon, so they
+  cannot gloss.
+
+**Production sweep:** the M7 audit over the Render disk (the shell
+one-liner logged in the previous entry) now detects all of the above,
+including Mark's own conversation.
+
+---
+
+## 2026-08-29 — The register & reach pass MERGED (Mark: "merge it"), after
+three battery cycles in one day
+
+**What shipped, all Mark-approved wording, all battery-verified:**
+1. **Fleet voice contract grew four segments/rules:** register_hold (the
+   seven statements held under load - depth as more short sentences);
+   the pronoun frame clause (we speak from inside our world, never about
+   it); the quote-record address rule (the record made for the thing we
+   are doing is the record we cite); story_quote_reach (stories told
+   whole through tellable_as; quotes never screened by readability -
+   spoken in build-authored modern_rendering where archaic, original on
+   the click page; compactness yields to a story once per turn) with the
+   fabrication-guard closing sentence (no record in the ground = no tag).
+2. **modern_rendering mechanism** end to end (compiler, evidence,
+   quotes.json, citation cards, Level-3 "Original wording") - dormant
+   until the translation content pass authors renderings.
+3. **Table L4 rules:** the no-foreknowledge sentence prescribed exactly
+   and in we-voice ("We know only what we have heard at this Table"),
+   bounded to other worlds only.
+4. **M7 grew:** register_frame, cross_voice_echo, quote-exempt
+   readability (the plain band never scores the tradition's own words).
+
+**The verification story, honestly:** cycle 1 (168/168 + 4/4) exposed
+the "I know only" opening and Papnoute's self-hearsay; cycle 2's new
+segment caught TWO invented record addresses (166/168 - the guard
+working; both caught answers in The Register Read); cycle 3, under the
+amended guard, 168/168 + 4/4 with the L4 sentence verbatim everywhere,
+stories back (3 story + 3 quote citations, from 0), label echo 0,
+register FK 8.60/FRE 67.28. Mark read the amended sitting in The
+Register Read and ruled the merge.
+
+**Carried to the next cycle, deliberately (one variable per cycle):**
+the subject-world self-hearsay residual (Papnoute reciting himself -
+drafted self-check line ready); the "portion, never the whole" limit
+line (the Chloe false-negative family); the selector giving one voice
+two turns in a round (governance read); pahc record enrichment
+(jesus-as-god to carry Pliny's "song to Christ as God" + Justin beside
+Ignatius) and syr term records (Sheol et al.) in the world-build
+channel; the quote modern_rendering translation passes (syr/desert
+first). The live pahc repro of Mark's phone conversation is in
+engine/m4/reports/live-turn-report-pahc.json - the false "no other
+voices" did not reproduce under these prompts.

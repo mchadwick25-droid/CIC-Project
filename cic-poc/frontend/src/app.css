@@ -440,10 +440,36 @@ button {
   color: var(--color-text-muted);
 }
 
-/* General References (GeneralReferences.tsx) - the fourth track, plain
-   list at the end of the turn, deliberately NOT the InlineBridge grammar:
-   Mark's own correction (2026-08-25) that a reference belongs at the end
-   of the answer, never as an asterisk inside the running text. */
+/* Original wording of a quote spoken in its modern rendering (Mark's
+   ruling, 2026-08-28): the click page carries both forms. */
+.story-mark__original {
+  margin-top: 8px;
+}
+
+.story-mark__original-label {
+  margin: 0;
+  font-family: var(--font-family-ui);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+}
+
+.story-mark__original blockquote {
+  margin: 4px 0 0;
+  padding-left: 10px;
+  border-left: 2px solid var(--color-border);
+  font-style: italic;
+  font-size: 0.88rem;
+}
+
+/* General References (GeneralReferences.tsx) - the fourth track,
+   deliberately NOT the InlineBridge grammar: Mark's own correction
+   (2026-08-25) that a reference belongs at the end of the answer, never
+   as an asterisk inside the running text; collapsed behind one
+   disclosure line per his read of the first live conversation
+   (2026-08-28, "we want the conversation thread clean"). */
 .turn__general-references {
   margin-top: var(--spacing-md);
   padding-top: var(--spacing-sm);
@@ -458,6 +484,20 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--color-text-muted);
+  cursor: pointer;
+  list-style: none;
+}
+
+.turn__general-references-label::before {
+  content: '▸ ';
+}
+
+.turn__general-references[open] > .turn__general-references-label::before {
+  content: '▾ ';
+}
+
+.turn__general-references-label::-webkit-details-marker {
+  display: none;
 }
 
 /* ============================================================

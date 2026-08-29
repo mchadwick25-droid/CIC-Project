@@ -85,6 +85,11 @@ def test_table_round_replays_underlying_subject_to_every_voice(store, usage_stor
     # the underlying subject where the participant's sentence was.
     assert len(client.messages.stream_calls) == 2
     for call in client.messages.stream_calls:
-        rendered = str(call["messages"])
+        # Join the raw content strings rather than str() the message list:
+        # repr picks its quote style from the string's own contents, so an
+        # instruction that legitimately contains a double-quoted performed
+        # sentence (the Table's "We know only..." line, Mark's option (a))
+        # flips every inner apostrophe to \' and breaks substring checks.
+        rendered = " ".join(m["content"] for m in call["messages"] if isinstance(m.get("content"), str))
         assert TRINITY_QUESTION not in rendered
         assert underlying_subject in rendered

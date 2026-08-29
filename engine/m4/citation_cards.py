@@ -126,12 +126,18 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
                 "rights_status": source_record.get("rights_status"),
             }
         )
-    return {
+    card = {
         "record_id": record_id,
         "record_type": record.get("record_type"),
         "label": _label(record, repository_records),
         "sources": sources,
     }
+    if record.get("record_type") == "quote" and record.get("modern_rendering"):
+        # Mark's ruling (2026-08-28): a quote spoken in its build-authored
+        # modern rendering carries its original wording on the click page.
+        card["original_wording"] = record.get("text")
+        card["spoken_rendering"] = record.get("modern_rendering")
+    return card
 
 
 def resolve_citation_sources(citations: list[dict], repository_records: dict[str, dict]) -> list[dict]:
