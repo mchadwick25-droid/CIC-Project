@@ -1414,3 +1414,57 @@ hand-forcing); the two Table L4 residuals (opening parroting,
 subject-world self-hearsay) proven model-level under clean instruction -
 awaiting Mark's echo-guard and round-design rulings; the demo-tagging
 study; the M8 cache-bucket recorder gap on table paths.
+
+## 2026-08-29 (late) - THE REGISTER TRANSLATION (fleet-wide, record layer)
+
+Mark's ruling, from his live ijc session: "We have regressed back to
+old english criptic speak again, it should be more like the second
+script side by side" - his pasted After column is the target register.
+
+**The diagnosis that set the fix's level:** every degraded line traced
+to RECORD PROSE, lifted near-verbatim by the voice. Not prompt drift,
+not a revert regression - the fragment-poetic register was the authored
+house style of the whole corpus (~1-1.5 spaced dashes/100 words in all
+six worlds), invisible to FK numbers. The pasted ban-list YAML was
+deliberately NOT installed: a banned-phrase list in the prompt is the
+register_hold / fix-on-fix pattern the revert removed.
+
+**The pass, world by world (Mark: "approved, recompile and run the
+probe", then "go"):**
+- ijc (his session's world): 14 dw/limit spoken fields + 4 demo
+  exchanges translated; 5 quotes rendered; "our window"/"for keeps"
+  build-vocab out of spoken text. Live probe: Marius FK 6.5-9.5,
+  chanting gone.
+- syr: 8 dw texts translated ("after the window closed" leak fixed);
+  18 quotes rendered (two added after the probe spoke their archaic
+  originals). Live probe: Mar Yausep FK 6.8-7.7, full we-voice.
+- alx: 7 dw texts (the telegraphic Early/Middle/Late and Before/After
+  structures); 1 quote. Demos already in register - untouched.
+- hal: 4 dw sentence-split + 2 demo mirrors aligned; 3 quotes (the
+  Ciceronian dream pair). Stories and limits untouched.
+- desert: quotes-only - 10 rendered, including the-heart-is-a-deep-gulf
+  from Mark's own bad-examples list. Its dw prose already exemplary.
+- pahc: 7 quotes (Didache trio, First Clement, Polycrates, Lucian,
+  Pliny); one poetic line in limit.ordinary-majority restated.
+
+**Method, every world:** translation not summary - every sourced claim,
+name, hedge, and reviewed-wording constraint checked against each
+record's own body notes and preserved (two of my own first drafts were
+corrected by those notes: the "for us men" creed wording and the
+creed-as-marked-summary rule). Quote originals stay in the text field
+and show at Level 3 - the modern_rendering mechanism, now fed
+fleet-wide (44 renderings authored). Demonstration-tag census verified
+against a baseline build per world: identical or gains-only.
+
+**Measurement, not gates:** M7 register_mechanical now reports
+dash_per_100w and fragment_ratio per voice turn (quote-stripped),
+info layer only - so this drift is visible in the daily digest instead
+of waiting for Mark to hit it live.
+
+**Still queued from this pass:** the authoring-bar addition to the
+build-cycle discipline (new records written in the After register from
+the start); story-embedded archaic quotations (framed as quotes inside
+modern story prose - acceptable, revisit with the story repository);
+live probes for alx/hal/desert/pahc (only ijc and syr probed, per the
+per-run spend rule); the round-design fix still parked on its own
+branch awaiting its battery.

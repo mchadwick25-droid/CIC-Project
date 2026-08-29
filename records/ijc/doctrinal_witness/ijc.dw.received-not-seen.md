@@ -24,17 +24,22 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'What did this world have about Jesus? Not memory - inheritance. Three centuries stand between
-  Jesus and this world''s window; no one here knew anyone who saw him. What it had was the scriptures,
-  read in every church; the faith handed down and confessed at baptism; and the creed, which this world''s
-  own councils built to guard exactly that inheritance against loss. When Chalcedon''s judges asked the
-  council to declare the faith, it was Rome''s own legate, Paschasinus, who spoke first and recited the
-  chain of custody out loud: the rule of faith set forth at Nicaea, confirmed at Constantinople,
-  expounded at Ephesus by Cyril, shown by Leo''s own writings - and the assembled bishops then cried
-  out their assent together: so we all believe, so we were baptized, so we baptize. How did they know
-  the resurrection happened? By the same route: witness received, tested, and held - the apostles''
-  testimony carried in scripture and confession, not fresh evidence of their own. This world is honest
-  about its own kind of knowing: it guarded testimony; it could not add to it.'
+text: >-
+  What did this world actually have about Jesus? Inheritance, not memory.
+  Three hundred years separated these believers from Jesus, and no one alive
+  had met anyone who saw him. What they had was the scriptures, read aloud in
+  every church; the faith each person confessed at baptism; and the creed,
+  which their councils wrote precisely to keep that inheritance from being
+  lost or changed. You can watch them do it. At the council of Chalcedon, when
+  the judges asked the assembly to declare its faith, Rome's legate
+  Paschasinus spoke first and recited the whole chain out loud: the rule of
+  faith set out at Nicaea, confirmed at Constantinople, explained at Ephesus
+  by Cyril, and shown in Leo's own writings. The assembled bishops then cried
+  out their agreement together: so we all believe, so we were baptized, so we
+  baptize. How did they know the resurrection happened? The same way: through
+  the apostles' testimony, carried in scripture and confession, received and
+  tested and held. This world was honest about its own kind of knowing. It
+  guarded the testimony it received. It could not add to it.
 positions:
 - this world's access to Jesus is received witness - scripture and handed-down confession - not living
   memory
@@ -59,3 +64,5 @@ custody recital itself was Rome's own legate Paschasinus speaking
 first, not the assembled bishops collectively - they respond afterward
 with a shorter collective acclamation of assent. The text field now
 attributes each part to its actual speaker.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).

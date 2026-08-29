@@ -21,6 +21,9 @@ sources:
     of 'Anan-Isho', whose numbering and wording differ from the Greek alphabetical collection
   license: public-domain
 text: Mother Sarah used to say to her brethren, “It is I who am a man, and ye who are women.”
+modern_rendering: >-
+  Mother Sarah used to say to her brothers: 'It is I who am the man, and you
+  who are the women.'
 speaker_or_author: desert.figure.sarah
 license: verbatim
 modern_lens_note: '"Man" and "women" operate here as this world''s own gendered virtue-categories (courage
@@ -85,3 +88,5 @@ carrying the same information without either.
 Step4, Round 3 review Finding M6: the M8 fix still left "vendored" and
 a licence-mechanics gloss in this compiled field - reworded above to
 plain description with neither.
+
+MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

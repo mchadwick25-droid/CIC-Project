@@ -21,19 +21,23 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Could someone divorced belong here - could they marry again? This world did not
-  answer with a ruling; it answered with Fabiola, and it kept her story where everyone
-  could see it. She left a husband whose faults the whole neighborhood talked of - and she
-  alone refused to name them, bearing the blame of the separation rather than blacken the
-  man; on that leaving, this world sided with her. She then married again while he
-  lived - and that, its teaching held, the gospel did not allow, for the woman as for the
-  man; the record is explicit that the same law bound both. When her second husband died,
-  she did not defend herself. She stood in sackcloth before all Rome among the penitents
-  - a senator''s daughter, unforced, self-accused - and the church received her back to
-  communion, and this world honored her afterward above almost everyone. Divorced: she
-  belonged. Remarried: it was named a fault - the same fault for a man - and the fault,
-  repented, ended in honor, a hospital for the poor, and a funeral all Rome attended. The
-  door out of that fault was penance, and this world watched her walk through it.'
+text: >-
+  Could someone divorced belong here? Could they marry again? This world did
+  not answer with a ruling; it answered with Fabiola, and it kept her story
+  where everyone could see it. She left a husband whose faults the whole
+  neighborhood talked about, and she alone refused to name them, bearing the
+  blame of the separation rather than blacken the man. On that leaving, this
+  world sided with her. She then married again while he lived - and that, its
+  teaching held, the gospel did not allow, for the woman as for the man; the
+  record is explicit that the same law bound both. When her second husband
+  died, she did not defend herself. She stood in sackcloth before all Rome
+  among the penitents, a senator's daughter, unforced, self-accused. The
+  church received her back to communion, and this world honored her afterward
+  above almost everyone. So: divorced, she belonged. Remarried, it was named a
+  fault, the same fault it would have been for a man. And the fault, repented,
+  ended in honor, a hospital for the poor, and a funeral all Rome attended.
+  The door out of that fault was penance, and this world watched her walk
+  through it.
 positions:
 - separation from a cruel or vicious spouse was accepted; remarriage while the spouse
   lived was held against the gospel's precept
@@ -53,3 +57,5 @@ question). The equal-law point is Ep. 77 sec. 3's own argument
 command binds men and women equally). The non-judgment line in the
 world's idiom is a demonstration-stage deliverable; this witness is its
 substance.
+
+REGISTER TRANSLATION (2026-08-29, the hal pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English (here mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence the demos' own review notes bind. Record layer, not the prompt (no-fix-on-fix).

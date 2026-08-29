@@ -3,12 +3,12 @@
   "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
   "region": "us-east-1",
   "world_key": "pahc",
-  "manifest_hash": "sha256:36889af53f8010fe168a194d975aa57c3e66b329ee86f51311033a75b53ac148",
-  "package": "packages/pahc/2026-08-29T10-26-53Z",
+  "manifest_hash": "sha256:c3882e50c8aeaab02e861990f77faf5c927ce87dbbd4ec75d779898ec45139f3",
+  "package": "packages/pahc/2026-08-29T22-15-04Z",
   "results": [
     {
       "id": "message-1",
-      "message": "who is Jesus?",
+      "message": "How did someone join your community? What was baptism actually like?",
       "prior_turns_replayed": 0,
       "result": {
         "routing_action": "voice_with_directive",
@@ -16,38 +16,31 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "pahc",
-          "text": "He was a real man, not an idea. One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David. He truly ate and drank. He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed. And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.\n\nWhen we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.\n\nOne of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God. We cannot tell you we had settled how.",
+          "text": "Before anything else came the teaching. We taught the Two Ways: a way of life and a way of death, and there is a great difference between the two ways. The Way of Life began with love of God and neighbor, and with this: do not do to another what you would not want done to you. It named what that meant plainly - not to murder, commit adultery, steal, or bear false witness; not to turn away from someone in want, but to share what you had rather than call anything only your own. The Way of Death was laid out by contrast, a list of what the Way of Life rejects.\n\nOnce that teaching had been given, the person preparing would be baptized. In running water if it could be found, but standing water if not, and if neither was available, water poured three times over the head, into the name of the Father, and of the Son, and of the Holy Spirit. Before the water, both the one baptizing and the one being baptized fasted - the one being baptized for one or two days beforehand, and any others who were able joined them. Only after the water could a person come to the table.\n\nWe should say plainly: this is the path one of our own communities' manuals lays out. We do not know how far this exact practice reached beyond that community. And there is something else we need to tell you honestly. One among us, Hermas, reports being taught that God granted one further chance for repentance after baptism, for those who had fallen into serious sin - offered then, before that door closed for good. So the water was not spoken of as though it made a person incapable of falling afterward. It marked entry. What came after it was a life still being formed.",
           "citations": [
             {
-              "sentence": "He was a real man, not an idea.",
+              "sentence": "Before anything else came the teaching.",
               "record_ids": [
-                "pahc.witness.who-was-jesus"
+                "pahc.term.two-ways"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.witness.who-was-jesus",
-                  "record_type": "doctrinal_witness",
-                  "label": "We did not invent him out of an idea",
+                  "record_id": "pahc.term.two-ways",
+                  "record_type": "term",
+                  "label": "the Two Ways",
                   "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Trallians 9 (the 'truly born...truly raised' chain)",
-                      "rights_status": "public-domain"
-                    },
                     {
                       "source_id": "pahc.source.didache",
                       "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
                       "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "9 (thanksgiving 'made known to us through Jesus Thy Servant')",
+                      "locus": "1-6 (the schema itself; 'There are two ways, one of life and one of death')",
                       "rights_status": "public-domain"
                     },
                     {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
+                      "source_id": "pahc.source.barnabas",
+                      "author": "Anonymous (traditionally 'Barnabas'; the attribution is not credited by modern scholarship, and provenance - often argued Alexandrian - lies outside this world's three regions)",
+                      "work": "The Epistle of Barnabas, chapters 18-20 ONLY (the Two Ways section) - registered solely as an independent witness that the Two Ways schema circulated more widely than the Didache's own redaction of it (with the Latin Doctrina Apostolorum, not vendored). The epistle as a whole is NOT a voice of this world",
+                      "locus": "18-20 (independent witness that the schema circulated more widely than the Didache's own redaction)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -55,71 +48,45 @@
               ]
             },
             {
-              "sentence": "One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David.",
+              "sentence": "We taught the Two Ways: a way of life and a way of death, and there is a great difference between the two ways.",
               "record_ids": [
-                "pahc.witness.who-was-jesus"
+                "pahc.quote.two-ways-one-of-life-and-one-of-death"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.witness.who-was-jesus",
-                  "record_type": "doctrinal_witness",
-                  "label": "We did not invent him out of an idea",
+                  "record_id": "pahc.quote.two-ways-one-of-life-and-one-of-death",
+                  "record_type": "quote",
+                  "label": "the manual known as the Didache, or the Teaching of the Twelve Apostles",
                   "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Trallians 9 (the 'truly born...truly raised' chain)",
-                      "rights_status": "public-domain"
-                    },
                     {
                       "source_id": "pahc.source.didache",
                       "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
                       "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "9 (thanksgiving 'made known to us through Jesus Thy Servant')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
+                      "locus": "The Teaching of the Twelve Apostles, ch. I.1-2, in the ANF (Riddle) translation (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml); the edition's interleaved footnote apparatus and scriptural cross-references are removed from the text quoted here",
                       "rights_status": "public-domain"
                     }
-                  ]
+                  ],
+                  "original_wording": "There are two ways, one of life and one of death; but a great difference between the two ways. The way of life, then, is this: First, thou shalt love God who made thee; second, thy neighbour as thyself; and all things whatsoever thou wouldst should not occur to thee, thou also to another do not do.",
+                  "spoken_rendering": "There are two ways: one of life and one of death, and there is a great difference between the two ways. The way of life is this. First, you shall love God, who made you; second, your neighbor as yourself. And whatever you would not want to happen to you, do not do to another."
                 }
               ]
             },
             {
-              "sentence": "He truly ate and drank.",
+              "sentence": "The Way of Life began with love of God and neighbor, and with this: do not do to another what you would not want done to you.",
               "record_ids": [
-                "pahc.witness.who-was-jesus"
+                "pahc.story.two-ways-catechumen"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.witness.who-was-jesus",
-                  "record_type": "doctrinal_witness",
-                  "label": "We did not invent him out of an idea",
+                  "record_id": "pahc.story.two-ways-catechumen",
+                  "record_type": "story",
+                  "label": "Before anything else, a person preparing for baptism in the community behind the Didache is taught the Two Ways - a way of life and a way of death - then baptized in running water where it can be found, with fasting beforehand for both the baptizer and the one being baptized.",
                   "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Trallians 9 (the 'truly born...truly raised' chain)",
-                      "rights_status": "public-domain"
-                    },
                     {
                       "source_id": "pahc.source.didache",
                       "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
                       "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "9 (thanksgiving 'made known to us through Jesus Thy Servant')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
+                      "locus": "1:1-2; 2:1-4:14 (the Way of Life's own moral inventory and almsgiving instruction); 5:1 (the Way of Death, by contrast); 7 (the baptismal instruction)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -127,35 +94,21 @@
               ]
             },
             {
-              "sentence": "He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed.",
+              "sentence": "It named what that meant plainly - not to murder, commit adultery, steal, or bear false witness; not to turn away from someone in want, but to share what you had rather than call anything only your own.",
               "record_ids": [
-                "pahc.witness.who-was-jesus"
+                "pahc.story.two-ways-catechumen"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.witness.who-was-jesus",
-                  "record_type": "doctrinal_witness",
-                  "label": "We did not invent him out of an idea",
+                  "record_id": "pahc.story.two-ways-catechumen",
+                  "record_type": "story",
+                  "label": "Before anything else, a person preparing for baptism in the community behind the Didache is taught the Two Ways - a way of life and a way of death - then baptized in running water where it can be found, with fasting beforehand for both the baptizer and the one being baptized.",
                   "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Trallians 9 (the 'truly born...truly raised' chain)",
-                      "rights_status": "public-domain"
-                    },
                     {
                       "source_id": "pahc.source.didache",
                       "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
                       "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "9 (thanksgiving 'made known to us through Jesus Thy Servant')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
+                      "locus": "1:1-2; 2:1-4:14 (the Way of Life's own moral inventory and almsgiving instruction); 5:1 (the Way of Death, by contrast); 7 (the baptismal instruction)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -163,35 +116,21 @@
               ]
             },
             {
-              "sentence": "And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.",
+              "sentence": "The Way of Death was laid out by contrast, a list of what the Way of Life rejects.",
               "record_ids": [
-                "pahc.witness.who-was-jesus"
+                "pahc.story.two-ways-catechumen"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.witness.who-was-jesus",
-                  "record_type": "doctrinal_witness",
-                  "label": "We did not invent him out of an idea",
+                  "record_id": "pahc.story.two-ways-catechumen",
+                  "record_type": "story",
+                  "label": "Before anything else, a person preparing for baptism in the community behind the Didache is taught the Two Ways - a way of life and a way of death - then baptized in running water where it can be found, with fasting beforehand for both the baptizer and the one being baptized.",
                   "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Trallians 9 (the 'truly born...truly raised' chain)",
-                      "rights_status": "public-domain"
-                    },
                     {
                       "source_id": "pahc.source.didache",
                       "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
                       "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "9 (thanksgiving 'made known to us through Jesus Thy Servant')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
+                      "locus": "1:1-2; 2:1-4:14 (the Way of Life's own moral inventory and almsgiving instruction); 5:1 (the Way of Death, by contrast); 7 (the baptismal instruction)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -199,35 +138,21 @@
               ]
             },
             {
-              "sentence": "When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus.",
+              "sentence": "Once that teaching had been given, the person preparing would be baptized.",
               "record_ids": [
-                "pahc.witness.who-was-jesus"
+                "pahc.story.two-ways-catechumen"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.witness.who-was-jesus",
-                  "record_type": "doctrinal_witness",
-                  "label": "We did not invent him out of an idea",
+                  "record_id": "pahc.story.two-ways-catechumen",
+                  "record_type": "story",
+                  "label": "Before anything else, a person preparing for baptism in the community behind the Didache is taught the Two Ways - a way of life and a way of death - then baptized in running water where it can be found, with fasting beforehand for both the baptizer and the one being baptized.",
                   "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Trallians 9 (the 'truly born...truly raised' chain)",
-                      "rights_status": "public-domain"
-                    },
                     {
                       "source_id": "pahc.source.didache",
                       "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
                       "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "9 (thanksgiving 'made known to us through Jesus Thy Servant')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
+                      "locus": "1:1-2; 2:1-4:14 (the Way of Life's own moral inventory and almsgiving instruction); 5:1 (the Way of Death, by contrast); 7 (the baptismal instruction)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -235,35 +160,79 @@
               ]
             },
             {
-              "sentence": "That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.",
+              "sentence": "In running water if it could be found, but standing water if not, and if neither was available, water poured three times over the head, into the name of the Father, and of the Son, and of the Holy Spirit.",
               "record_ids": [
-                "pahc.witness.who-was-jesus"
+                "pahc.story.two-ways-catechumen"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.witness.who-was-jesus",
-                  "record_type": "doctrinal_witness",
-                  "label": "We did not invent him out of an idea",
+                  "record_id": "pahc.story.two-ways-catechumen",
+                  "record_type": "story",
+                  "label": "Before anything else, a person preparing for baptism in the community behind the Didache is taught the Two Ways - a way of life and a way of death - then baptized in running water where it can be found, with fasting beforehand for both the baptizer and the one being baptized.",
                   "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Trallians 9 (the 'truly born...truly raised' chain)",
-                      "rights_status": "public-domain"
-                    },
                     {
                       "source_id": "pahc.source.didache",
                       "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
                       "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "9 (thanksgiving 'made known to us through Jesus Thy Servant')",
+                      "locus": "1:1-2; 2:1-4:14 (the Way of Life's own moral inventory and almsgiving instruction); 5:1 (the Way of Death, by contrast); 7 (the baptismal instruction)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Before the water, both the one baptizing and the one being baptized fasted - the one being baptized for one or two days beforehand, and any others who were able joined them.",
+              "record_ids": [
+                "pahc.story.two-ways-catechumen"
+              ],
+              "sources": [
+                {
+                  "record_id": "pahc.story.two-ways-catechumen",
+                  "record_type": "story",
+                  "label": "Before anything else, a person preparing for baptism in the community behind the Didache is taught the Two Ways - a way of life and a way of death - then baptized in running water where it can be found, with fasting beforehand for both the baptizer and the one being baptized.",
+                  "sources": [
+                    {
+                      "source_id": "pahc.source.didache",
+                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
+                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
+                      "locus": "1:1-2; 2:1-4:14 (the Way of Life's own moral inventory and almsgiving instruction); 5:1 (the Way of Death, by contrast); 7 (the baptismal instruction)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Only after the water could a person come to the table.",
+              "record_ids": [
+                "pahc.term.baptisma"
+              ],
+              "sources": [
+                {
+                  "record_id": "pahc.term.baptisma",
+                  "record_type": "term",
+                  "label": "baptisma",
+                  "sources": [
+                    {
+                      "source_id": "pahc.source.didache",
+                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
+                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
+                      "locus": "7 (living water; the fallback ladder; threefold pouring; pre-baptismal fasting)",
                       "rights_status": "public-domain"
                     },
                     {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
+                      "source_id": "pahc.source.justin-first-apology",
+                      "author": "Justin Martyr (writing in his own name to a named emperor)",
+                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
+                      "locus": "61 (the washing called illumination; 'except ye be born again'), 65-66 (baptism before the table)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "pahc.source.ignatius-letters",
+                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
+                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
+                      "locus": "Smyrnaeans 8 (not lawful without the bishop to baptize - institutional only, no procedure)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -271,21 +240,21 @@
               ]
             },
             {
-              "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
+              "sentence": "We should say plainly: this is the path one of our own communities' manuals lays out.",
               "record_ids": [
-                "pahc.witness.jesus-as-god"
+                "pahc.story.two-ways-catechumen"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
+                  "record_id": "pahc.story.two-ways-catechumen",
+                  "record_type": "story",
+                  "label": "Before anything else, a person preparing for baptism in the community behind the Didache is taught the Two Ways - a way of life and a way of death - then baptized in running water where it can be found, with fasting beforehand for both the baptizer and the one being baptized.",
                   "sources": [
                     {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
+                      "source_id": "pahc.source.didache",
+                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
+                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
+                      "locus": "1:1-2; 2:1-4:14 (the Way of Life's own moral inventory and almsgiving instruction); 5:1 (the Way of Death, by contrast); 7 (the baptismal instruction)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -293,109 +262,21 @@
               ]
             },
             {
-              "sentence": "It is not one passing phrase; he reaches for it often.",
+              "sentence": "One among us, Hermas, reports being taught that God granted one further chance for repentance after baptism, for those who had fallen into serious sin - offered then, before that door closed for good.",
               "record_ids": [
-                "pahc.witness.jesus-as-god"
+                "pahc.story.hermas-visions"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
+                  "record_id": "pahc.story.hermas-visions",
+                  "record_type": "story",
+                  "label": "A freedman in Rome named Hermas reports receiving a series of visions, delivered through an elderly woman who is later revealed to be the Church herself, teaching that God has granted one further chance for repentance after baptism, before that door closes.",
                   "sources": [
                     {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "But it is worship, not an argument worked out.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We can tell you plainly that we called him God.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We cannot tell you we had settled how.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
+                      "source_id": "pahc.source.shepherd-hermas",
+                      "author": "Hermas (Rome; names himself as narrator and recipient of the visions in his own text)",
+                      "work": "The Shepherd of Hermas; composite, multi-stage composition roughly 90-150 CE (Brox, Leutzsch, Osiek) - no single date can be assigned to the whole work; the traditional mid-2nd-century date rests partly on the Muratorian Fragment's 'brother of Pius' claim, itself undercut if Sundberg/Hahneman's 4th-century-Eastern dating of the Fragment is right",
+                      "locus": "Vision 2.4.1 (the old woman who is the Church); Vision 2.4.3 (Clement and Grapte); Vision 3 (the woman growing younger)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -404,7 +285,36 @@
             }
           ],
           "glosses": [],
-          "figures_used": [],
+          "figures_used": [
+            {
+              "id": "pahc.figure.hermas",
+              "matched_name": "Hermas",
+              "names": [
+                {
+                  "name": "Hermas",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Hermas (the Shepherd of Hermas, Rome)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "A freedman in Rome who wrote down his own visions - about failure, doubt, and whether mercy is used up.",
+              "dates": {
+                "display": "the Shepherd was composed c. 90-150, possibly in stages",
+                "note": "these bound the WORK, not the man - his own dates are not attested"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "pahc.source.shepherd-hermas",
+                  "author": "Hermas (Rome; names himself as narrator and recipient of the visions in his own text)",
+                  "work": "The Shepherd of Hermas; composite, multi-stage composition roughly 90-150 CE (Brox, Leutzsch, Osiek) - no single date can be assigned to the whole work; the traditional mid-2nd-century date rests partly on the Muratorian Fragment's 'brother of Pius' claim, itself undercut if Sundberg/Hahneman's 4th-century-Eastern dating of the Fragment is right",
+                  "locus": "Vision 2.4.1 (the old woman who is the Church); Vision 2.4.3 (Clement and Grapte); Vision 3 (the woman growing younger)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
           "quote_offers": [],
           "attempts_meta": {
             "empty_stream_retries": 0
@@ -412,697 +322,128 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "He was a real man, not an idea.",
+                "sentence": "Before anything else came the teaching.",
                 "tags": [
-                  "pahc.witness.who-was-jesus"
+                  "pahc.term.two-ways"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David.",
+                "sentence": "We taught the Two Ways: a way of life and a way of death, and there is a great difference between the two ways.",
                 "tags": [
-                  "pahc.witness.who-was-jesus"
+                  "pahc.quote.two-ways-one-of-life-and-one-of-death"
                 ],
                 "verdict": "ok",
-                "why": "grounded 57% in own tagged records",
-                "ratio": 0.57
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
               },
               {
-                "sentence": "He truly ate and drank.",
+                "sentence": "The Way of Life began with love of God and neighbor, and with this: do not do to another what you would not want done to you.",
                 "tags": [
-                  "pahc.witness.who-was-jesus"
+                  "pahc.story.two-ways-catechumen"
+                ],
+                "verdict": "ok",
+                "why": "grounded 78% in own tagged records",
+                "ratio": 0.78
+              },
+              {
+                "sentence": "It named what that meant plainly - not to murder, commit adultery, steal, or bear false witness; not to turn away from someone in want, but to share what you had rather than call anything only your own.",
+                "tags": [
+                  "pahc.story.two-ways-catechumen"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed.",
+                "sentence": "The Way of Death was laid out by contrast, a list of what the Way of Life rejects.",
                 "tags": [
-                  "pahc.witness.who-was-jesus"
+                  "pahc.story.two-ways-catechumen"
+                ],
+                "verdict": "ok",
+                "why": "grounded 86% in own tagged records",
+                "ratio": 0.86
+              },
+              {
+                "sentence": "Once that teaching had been given, the person preparing would be baptized.",
+                "tags": [
+                  "pahc.story.two-ways-catechumen"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "In running water if it could be found, but standing water if not, and if neither was available, water poured three times over the head, into the name of the Father, and of the Son, and of the Holy Spirit.",
+                "tags": [
+                  "pahc.story.two-ways-catechumen"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "Before the water, both the one baptizing and the one being baptized fasted - the one being baptized for one or two days beforehand, and any others who were able joined them.",
+                "tags": [
+                  "pahc.story.two-ways-catechumen"
                 ],
                 "verdict": "ok",
                 "why": "grounded 91% in own tagged records",
                 "ratio": 0.91
               },
               {
-                "sentence": "And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.",
+                "sentence": "Only after the water could a person come to the table.",
                 "tags": [
-                  "pahc.witness.who-was-jesus"
-                ],
-                "verdict": "ok",
-                "why": "grounded 75% in own tagged records",
-                "ratio": 0.75
-              },
-              {
-                "sentence": "When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus.",
-                "tags": [
-                  "pahc.witness.who-was-jesus"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.",
-                "tags": [
-                  "pahc.witness.who-was-jesus"
+                  "pahc.term.baptisma"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
+                "sentence": "We should say plainly: this is the path one of our own communities' manuals lays out.",
                 "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "It is not one passing phrase; he reaches for it often.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
+                  "pahc.story.two-ways-catechumen"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "But it is worship, not an argument worked out.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "We can tell you plainly that we called him God.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "We cannot tell you we had settled how.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              }
-            ],
-            "substantive_survives": true
-          },
-          "do_not_voice_violation": null,
-          "degraded_by_net": false,
-          "output_defects": []
-        },
-        "degraded": false
-      }
-    },
-    {
-      "id": "message-2",
-      "message": "was Jesus God?",
-      "prior_turns_replayed": 1,
-      "result": {
-        "routing_action": "voice_with_directive",
-        "routing_reason": "ordinary turn",
-        "facilitator_events": [],
-        "voice_event": {
-          "speaker": "pahc",
-          "text": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God. We cannot tell you we had settled how.",
-          "citations": [
-            {
-              "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "It is not one passing phrase; he reaches for it often.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "But it is worship, not an argument worked out.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We can tell you plainly that we called him God.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We cannot tell you we had settled how.",
-              "record_ids": [
-                "pahc.witness.jesus-as-god"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.jesus-as-god",
-                  "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "glosses": [],
-          "figures_used": [],
-          "quote_offers": [],
-          "attempts_meta": {
-            "empty_stream_retries": 0
-          },
-          "grounding": {
-            "sentences": [
-              {
-                "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "It is not one passing phrase; he reaches for it often.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "But it is worship, not an argument worked out.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "We can tell you plainly that we called him God.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "We cannot tell you we had settled how.",
-                "tags": [
-                  "pahc.witness.jesus-as-god"
-                ],
-                "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              }
-            ],
-            "substantive_survives": true
-          },
-          "do_not_voice_violation": null,
-          "degraded_by_net": false,
-          "output_defects": []
-        },
-        "degraded": false
-      }
-    },
-    {
-      "id": "message-3",
-      "message": "were there other voices from your world that spoke about Jesus?",
-      "prior_turns_replayed": 2,
-      "result": {
-        "routing_action": "voice_with_directive",
-        "routing_reason": "ordinary turn",
-        "facilitator_events": [],
-        "voice_event": {
-          "speaker": "pahc",
-          "text": "Yes. We need to tell you plainly that there were. \n\nOne teacher near us, Marcion, is remembered by his own opponents as finding the God of the older scriptures harsh and self-contradictory. He is said to have cut apart the Gospel of Luke and Paul's own letters over it. We should say plainly: what reaches you about him comes from his opponents, not from him. We did not follow him there. But even his opponents' account tells you the trouble was real enough in our own time that someone built a whole rejection out of it - at least as his enemies tell it.\n\nThere was also a movement some called the New Prophecy, spreading among churches in Asia near the very end of our own time. Churches there met - often, and in many places - over whether to receive it. And there were teachers like Valentinus, whose own followers were our neighbors, not people far away.\n\nWe have to be honest about what this means: Marcion, Valentinian teaching, and the New Prophecy were live, contemporary, geographically overlapping neighbors. The boundary against them was being drawn in real time. The settled lines that came later must never be read back into our own world.",
-          "citations": [
-            {
-              "sentence": "One teacher near us, Marcion, is remembered by his own opponents as finding the God of the older scriptures harsh and self-contradictory.",
-              "record_ids": [
-                "pahc.witness.hard-texts"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.hard-texts",
-                  "record_type": "doctrinal_witness",
-                  "label": "We would rather tell you the truth than a comfortable answer",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.didache",
-                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
-                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "1-6 (the Two Ways as one community's own primary catechetical mode: concrete, direct instruction rather than difficult narrative - representativeness limit applies, see body)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.irenaeus-adversus-haereses",
-                      "author": "Irenaeus of Lyons (c. 130-c. 202 CE; formed in Smyrna under Polycarp, writing from Gaul c. 180)",
-                      "work": "Adversus Haereses (Against Heresies); a BOUNDARY WITNESS in two senses: its Book I is the fullest contemporary description of Valentinian teaching (hostile, but the principal source), and its four-Gospel, apostolic-succession argument is itself one of the three markers of this world's own closing (Doc_01 SS2.2) - a new systematic mode this world's voices do not yet speak",
-                      "locus": "Book I, ch. 27 (Marcion's rejection of the Jewish scriptures' God as harsh and self-contradictory, and his own mutilation of Luke's Gospel and Paul's letters, per this hostile witness)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "He is said to have cut apart the Gospel of Luke and Paul's own letters over it.",
-              "record_ids": [
-                "pahc.witness.hard-texts"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.hard-texts",
-                  "record_type": "doctrinal_witness",
-                  "label": "We would rather tell you the truth than a comfortable answer",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.didache",
-                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
-                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "1-6 (the Two Ways as one community's own primary catechetical mode: concrete, direct instruction rather than difficult narrative - representativeness limit applies, see body)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.irenaeus-adversus-haereses",
-                      "author": "Irenaeus of Lyons (c. 130-c. 202 CE; formed in Smyrna under Polycarp, writing from Gaul c. 180)",
-                      "work": "Adversus Haereses (Against Heresies); a BOUNDARY WITNESS in two senses: its Book I is the fullest contemporary description of Valentinian teaching (hostile, but the principal source), and its four-Gospel, apostolic-succession argument is itself one of the three markers of this world's own closing (Doc_01 SS2.2) - a new systematic mode this world's voices do not yet speak",
-                      "locus": "Book I, ch. 27 (Marcion's rejection of the Jewish scriptures' God as harsh and self-contradictory, and his own mutilation of Luke's Gospel and Paul's letters, per this hostile witness)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We should say plainly: what reaches you about him comes from his opponents, not from him.",
-              "record_ids": [
-                "pahc.witness.hard-texts"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.hard-texts",
-                  "record_type": "doctrinal_witness",
-                  "label": "We would rather tell you the truth than a comfortable answer",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.didache",
-                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
-                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "1-6 (the Two Ways as one community's own primary catechetical mode: concrete, direct instruction rather than difficult narrative - representativeness limit applies, see body)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.irenaeus-adversus-haereses",
-                      "author": "Irenaeus of Lyons (c. 130-c. 202 CE; formed in Smyrna under Polycarp, writing from Gaul c. 180)",
-                      "work": "Adversus Haereses (Against Heresies); a BOUNDARY WITNESS in two senses: its Book I is the fullest contemporary description of Valentinian teaching (hostile, but the principal source), and its four-Gospel, apostolic-succession argument is itself one of the three markers of this world's own closing (Doc_01 SS2.2) - a new systematic mode this world's voices do not yet speak",
-                      "locus": "Book I, ch. 27 (Marcion's rejection of the Jewish scriptures' God as harsh and self-contradictory, and his own mutilation of Luke's Gospel and Paul's letters, per this hostile witness)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We did not follow him there.",
-              "record_ids": [
-                "pahc.witness.hard-texts"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.hard-texts",
-                  "record_type": "doctrinal_witness",
-                  "label": "We would rather tell you the truth than a comfortable answer",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.didache",
-                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
-                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "1-6 (the Two Ways as one community's own primary catechetical mode: concrete, direct instruction rather than difficult narrative - representativeness limit applies, see body)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.irenaeus-adversus-haereses",
-                      "author": "Irenaeus of Lyons (c. 130-c. 202 CE; formed in Smyrna under Polycarp, writing from Gaul c. 180)",
-                      "work": "Adversus Haereses (Against Heresies); a BOUNDARY WITNESS in two senses: its Book I is the fullest contemporary description of Valentinian teaching (hostile, but the principal source), and its four-Gospel, apostolic-succession argument is itself one of the three markers of this world's own closing (Doc_01 SS2.2) - a new systematic mode this world's voices do not yet speak",
-                      "locus": "Book I, ch. 27 (Marcion's rejection of the Jewish scriptures' God as harsh and self-contradictory, and his own mutilation of Luke's Gospel and Paul's letters, per this hostile witness)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "But even his opponents' account tells you the trouble was real enough in our own time that someone built a whole rejection out of it - at least as his enemies tell it.",
-              "record_ids": [
-                "pahc.witness.hard-texts"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.hard-texts",
-                  "record_type": "doctrinal_witness",
-                  "label": "We would rather tell you the truth than a comfortable answer",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.didache",
-                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
-                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "1-6 (the Two Ways as one community's own primary catechetical mode: concrete, direct instruction rather than difficult narrative - representativeness limit applies, see body)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.irenaeus-adversus-haereses",
-                      "author": "Irenaeus of Lyons (c. 130-c. 202 CE; formed in Smyrna under Polycarp, writing from Gaul c. 180)",
-                      "work": "Adversus Haereses (Against Heresies); a BOUNDARY WITNESS in two senses: its Book I is the fullest contemporary description of Valentinian teaching (hostile, but the principal source), and its four-Gospel, apostolic-succession argument is itself one of the three markers of this world's own closing (Doc_01 SS2.2) - a new systematic mode this world's voices do not yet speak",
-                      "locus": "Book I, ch. 27 (Marcion's rejection of the Jewish scriptures' God as harsh and self-contradictory, and his own mutilation of Luke's Gospel and Paul's letters, per this hostile witness)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "There was also a movement some called the New Prophecy, spreading among churches in Asia near the very end of our own time.",
-              "record_ids": [
-                "pahc.witness.god-and-argument"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.god-and-argument",
-                  "record_type": "doctrinal_witness",
-                  "label": "We believed in one God, maker of everything",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.justin-first-apology",
-                      "author": "Justin Martyr (writing in his own name to a named emperor)",
-                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
-                      "locus": "46 (the Logos present in 'every race of men')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "42, 44 (the authority dispute at Corinth)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "passim (the monarchical-bishop program)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.anti-montanist-fragments",
-                      "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
-                      "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
-                      "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Churches there met - often, and in many places - over whether to receive it.",
-              "record_ids": [
-                "pahc.witness.god-and-argument"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.god-and-argument",
-                  "record_type": "doctrinal_witness",
-                  "label": "We believed in one God, maker of everything",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.justin-first-apology",
-                      "author": "Justin Martyr (writing in his own name to a named emperor)",
-                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
-                      "locus": "46 (the Logos present in 'every race of men')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "42, 44 (the authority dispute at Corinth)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "passim (the monarchical-bishop program)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.anti-montanist-fragments",
-                      "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
-                      "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
-                      "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "glosses": [],
-          "figures_used": [],
-          "quote_offers": [],
-          "attempts_meta": {
-            "empty_stream_retries": 0
-          },
-          "grounding": {
-            "sentences": [
-              {
-                "sentence": "Yes.",
+                "sentence": "We do not know how far this exact practice reached beyond that community.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "We need to tell you plainly that there were.",
-                "tags": [
-                  "pahc.witness.god-and-argument"
-                ],
-                "verdict": "withhold",
-                "why": "tagged claim sharing no content word with its own tagged records"
+                "sentence": "And there is something else we need to tell you honestly.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "One teacher near us, Marcion, is remembered by his own opponents as finding the God of the older scriptures harsh and self-contradictory.",
+                "sentence": "One among us, Hermas, reports being taught that God granted one further chance for repentance after baptism, for those who had fallen into serious sin - offered then, before that door closed for good.",
                 "tags": [
-                  "pahc.witness.hard-texts"
+                  "pahc.story.hermas-visions"
                 ],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "why": "grounded 88% in own tagged records",
+                "ratio": 0.88
               },
               {
-                "sentence": "He is said to have cut apart the Gospel of Luke and Paul's own letters over it.",
-                "tags": [
-                  "pahc.witness.hard-texts"
-                ],
+                "sentence": "So the water was not spoken of as though it made a person incapable of falling afterward.",
+                "tags": [],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "We should say plainly: what reaches you about him comes from his opponents, not from him.",
-                "tags": [
-                  "pahc.witness.hard-texts"
-                ],
+                "sentence": "It marked entry.",
+                "tags": [],
                 "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
+                "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "We did not follow him there.",
-                "tags": [
-                  "pahc.witness.hard-texts"
-                ],
+                "sentence": "What came after it was a life still being formed.",
+                "tags": [],
                 "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "But even his opponents' account tells you the trouble was real enough in our own time that someone built a whole rejection out of it - at least as his enemies tell it.",
-                "tags": [
-                  "pahc.witness.hard-texts"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "There was also a movement some called the New Prophecy, spreading among churches in Asia near the very end of our own time.",
-                "tags": [
-                  "pahc.witness.god-and-argument"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "Churches there met - often, and in many places - over whether to receive it.",
-                "tags": [
-                  "pahc.witness.god-and-argument"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "And there were teachers like Valentinus, whose own followers were our neighbors, not people far away.",
-                "tags": [
-                  "pahc.caution.rivals-undefeated"
-                ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
-              },
-              {
-                "sentence": "We have to be honest about what this means: Marcion, Valentinian teaching, and the New Prophecy were live, contemporary, geographically overlapping neighbors.",
-                "tags": [
-                  "pahc.caution.rivals-undefeated"
-                ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
-              },
-              {
-                "sentence": "The boundary against them was being drawn in real time.",
-                "tags": [
-                  "pahc.caution.rivals-undefeated"
-                ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
-              },
-              {
-                "sentence": "The settled lines that came later must never be read back into our own world.",
-                "tags": [
-                  "pahc.caution.rivals-undefeated"
-                ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
+                "why": "no checkable claim - interpretive/connective framing"
               }
             ],
             "substantive_survives": true

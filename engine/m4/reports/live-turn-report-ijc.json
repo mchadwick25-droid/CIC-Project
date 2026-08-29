@@ -1,0 +1,1498 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "ijc",
+  "manifest_hash": "sha256:47b1a4577d81daa9b7ecba3dd2a3471d144b0f40a0cdcd187e5acdee2429b2b5",
+  "package": "packages/ijc/2026-08-29T21-29-44Z",
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Who was Jesus to your world? What did you actually know about him?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "ijc",
+          "text": "To us Jesus is the one our whole argument was about, and the argument itself was our devotion. Our own creed answers first. In substance it says: very God of very God, of one substance with the Father, who for us men and for our salvation came down and was made man; he suffered, and the third day he rose again. A century of councils spent itself making those words exact, because everything hung on them. If the Son is not truly God, then what he gives is not truly God's to give. Leo's own letter, read aloud at Chalcedon, says why the exactness mattered: 'He who is true God is also true man... each form does what is proper to it with the co-operation of the other' - the Word doing what belongs to the Word, the flesh what belongs to the flesh. In the language we actually had, the definitions were the devotion.\n\nWhat did we actually have about him? Inheritance, not memory. Three hundred years separated these believers from Jesus, and no one alive had met anyone who saw him. What we had was the scriptures, read aloud in every church; the faith each person confessed at baptism; and the creed, which our councils wrote precisely to keep that inheritance from being lost or changed. You can watch us do it. At the council of Chalcedon, when the judges asked the assembly to declare its faith, Rome's legate Paschasinus spoke first and recited the whole chain out loud: the rule of faith set out at Nicaea, confirmed at Constantinople, explained at Ephesus by Cyril, and shown in Leo's own writings. The assembled bishops then cried out their agreement together: so we all believe, so we were baptized, so we baptize. How did we know the resurrection happened? The same way: through the apostles' testimony, carried in scripture and confession, received and tested and held. This world was honest about its own kind of knowing. We guarded the testimony we received. We could not add to it.",
+          "citations": [
+            {
+              "sentence": "To us Jesus is the one our whole argument was about, and the argument itself was our devotion.",
+              "record_ids": [
+                "ijc.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus was the one the whole argument was about, and the argument itself wa…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "the Definition",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.leo-letters",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                      "locus": "Ep. XXVIII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "In substance it says: very God of very God, of one substance with the Father, who for us men and for our salvation came down and was made man; he suffered, and the third day he rose again.",
+              "record_ids": [
+                "ijc.quote.nicene-creed"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.nicene-creed",
+                  "record_type": "quote",
+                  "label": "The Council of Nicaea (325)",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed (npnf214 lines 2408-2418)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A century of councils spent itself making those words exact, because everything hung on them.",
+              "record_ids": [
+                "ijc.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus was the one the whole argument was about, and the argument itself wa…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "the Definition",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.leo-letters",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                      "locus": "Ep. XXVIII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "If the Son is not truly God, then what he gives is not truly God's to give.",
+              "record_ids": [
+                "ijc.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus was the one the whole argument was about, and the argument itself wa…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "the Definition",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.leo-letters",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                      "locus": "Ep. XXVIII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Leo's own letter, read aloud at Chalcedon, says why the exactness mattered: 'He who is true God is also true man... each form does what is proper to it with the co-operation of the other' - the Word doing what belongs to the Word, the flesh what belongs to the flesh.",
+              "record_ids": [
+                "ijc.quote.leo-tome-each-form"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.leo-tome-each-form",
+                  "record_type": "quote",
+                  "label": "Leo",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.leo-letters",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                      "locus": "Ep. XXVIII (the Tome), ch. IV (npnf212 lines 5365-5381)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "In the language we actually had, the definitions were the devotion.",
+              "record_ids": [
+                "ijc.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus was the one the whole argument was about, and the argument itself wa…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "the Definition",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.leo-letters",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                      "locus": "Ep. XXVIII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Inheritance, not memory.",
+              "record_ids": [
+                "ijc.dw.received-not-seen"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.received-not-seen",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did this world actually have about Jesus? Inheritance, not memory",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed as received confession",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Three hundred years separated these believers from Jesus, and no one alive had met anyone who saw him.",
+              "record_ids": [
+                "ijc.dw.received-not-seen"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.received-not-seen",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did this world actually have about Jesus? Inheritance, not memory",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed as received confession",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What we had was the scriptures, read aloud in every church; the faith each person confessed at baptism; and the creed, which our councils wrote precisely to keep that inheritance from being lost or changed.",
+              "record_ids": [
+                "ijc.dw.received-not-seen"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.received-not-seen",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did this world actually have about Jesus? Inheritance, not memory",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed as received confession",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "You can watch us do it.",
+              "record_ids": [
+                "ijc.dw.received-not-seen"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.received-not-seen",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did this world actually have about Jesus? Inheritance, not memory",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed as received confession",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "At the council of Chalcedon, when the judges asked the assembly to declare its faith, Rome's legate Paschasinus spoke first and recited the whole chain out loud: the rule of faith set out at Nicaea, confirmed at Constantinople, explained at Ephesus by Cyril, and shown in Leo's own writings.",
+              "record_ids": [
+                "ijc.quote.nothing-further-can-it-add"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.nothing-further-can-it-add",
+                  "record_type": "quote",
+                  "label": "Paschasinus, legate of Rome, at Chalcedon, Session IV",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Extracts from the Acts, Session IV (Labbe and Cossart, Concilia IV, col. 469; npnf214_seven-ecumenical-councils.xml)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The assembled bishops then cried out their agreement together: so we all believe, so we were baptized, so we baptize.",
+              "record_ids": [
+                "ijc.dw.received-not-seen"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.received-not-seen",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did this world actually have about Jesus? Inheritance, not memory",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed as received confession",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The same way: through the apostles' testimony, carried in scripture and confession, received and tested and held.",
+              "record_ids": [
+                "ijc.dw.received-not-seen"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.received-not-seen",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did this world actually have about Jesus? Inheritance, not memory",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed as received confession",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "This world was honest about its own kind of knowing.",
+              "record_ids": [
+                "ijc.dw.received-not-seen"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.received-not-seen",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did this world actually have about Jesus? Inheritance, not memory",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed as received confession",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We guarded the testimony we received.",
+              "record_ids": [
+                "ijc.dw.received-not-seen"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.received-not-seen",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did this world actually have about Jesus? Inheritance, not memory",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed as received confession",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We could not add to it.",
+              "record_ids": [
+                "ijc.dw.received-not-seen"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.received-not-seen",
+                  "record_type": "doctrinal_witness",
+                  "label": "What did this world actually have about Jesus? Inheritance, not memory",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "the Creed as received confession",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "Session IV (the rule of faith recited - Nicaea, Constantinople, the fathers)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "ijc.figure.leo",
+              "matched_name": "Leo",
+              "names": [
+                {
+                  "name": "Leo",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Leo I (\"the Great\"), bishop of Rome (440-461)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the bishop whose letter went to a council in his place - and was received, by those who received it, as Peter himself still speaking",
+              "dates": {
+                "born": "unknown",
+                "died": "461 - a decade past this world's own 451 close; his death is outside the window and nothing after Chalcedon's immediate aftermath is this world's to narrate",
+                "floruit": "bishop of Rome 440-461; the Tome to Flavian 449; Chalcedon and the Canon 28 rejection 451-452"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "ijc.source.leo-letters",
+                  "author": "Leo I, bishop of Rome (440-461)",
+                  "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                  "locus": "Ep. XXVIII (the Tome), ch. IV (npnf212 lines 5365-5381)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "To us Jesus is the one our whole argument was about, and the argument itself was our devotion.",
+                "tags": [
+                  "ijc.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "Our own creed answers first.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "In substance it says: very God of very God, of one substance with the Father, who for us men and for our salvation came down and was made man; he suffered, and the third day he rose again.",
+                "tags": [
+                  "ijc.quote.nicene-creed"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "A century of councils spent itself making those words exact, because everything hung on them.",
+                "tags": [
+                  "ijc.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "If the Son is not truly God, then what he gives is not truly God's to give.",
+                "tags": [
+                  "ijc.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Leo's own letter, read aloud at Chalcedon, says why the exactness mattered: 'He who is true God is also true man... each form does what is proper to it with the co-operation of the other' - the Word doing what belongs to the Word, the flesh what belongs to the flesh.",
+                "tags": [
+                  "ijc.quote.leo-tome-each-form"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "In the language we actually had, the definitions were the devotion.",
+                "tags": [
+                  "ijc.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "What did we actually have about him?",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Inheritance, not memory.",
+                "tags": [
+                  "ijc.dw.received-not-seen"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Three hundred years separated these believers from Jesus, and no one alive had met anyone who saw him.",
+                "tags": [
+                  "ijc.dw.received-not-seen"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "What we had was the scriptures, read aloud in every church; the faith each person confessed at baptism; and the creed, which our councils wrote precisely to keep that inheritance from being lost or changed.",
+                "tags": [
+                  "ijc.dw.received-not-seen"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "You can watch us do it.",
+                "tags": [
+                  "ijc.dw.received-not-seen"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "At the council of Chalcedon, when the judges asked the assembly to declare its faith, Rome's legate Paschasinus spoke first and recited the whole chain out loud: the rule of faith set out at Nicaea, confirmed at Constantinople, explained at Ephesus by Cyril, and shown in Leo's own writings.",
+                "tags": [
+                  "ijc.quote.nothing-further-can-it-add"
+                ],
+                "verdict": "ok",
+                "why": "grounded 44% in own tagged records",
+                "ratio": 0.44
+              },
+              {
+                "sentence": "The assembled bishops then cried out their agreement together: so we all believe, so we were baptized, so we baptize.",
+                "tags": [
+                  "ijc.dw.received-not-seen"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "How did we know the resurrection happened?",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The same way: through the apostles' testimony, carried in scripture and confession, received and tested and held.",
+                "tags": [
+                  "ijc.dw.received-not-seen"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "This world was honest about its own kind of knowing.",
+                "tags": [
+                  "ijc.dw.received-not-seen"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We guarded the testimony we received.",
+                "tags": [
+                  "ijc.dw.received-not-seen"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We could not add to it.",
+                "tags": [
+                  "ijc.dw.received-not-seen"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-2",
+      "message": "Most people back then couldn't read. How did an ordinary believer ever learn the scriptures?",
+      "prior_turns_replayed": 1,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "ijc",
+          "text": "You ask how someone who could not read ever learned the scriptures, and here is our problem stated plainly. Our record was kept by office-holders - bishops, emperors, courts - and it shows us the channels where scripture moved, not what an ordinary believer experienced receiving it. The channels themselves we can name. Scripture was read aloud in the assembly - every gathering heard it. The newly baptized confessed the creed, which carried the faith in words they spoke themselves. And the psalms were sung, together, which is how scripture became something a person could carry without a page. On one besieged night at Milan the whole congregation sang psalms through the dark, and that enters the record because a bishop and a famous convert both remembered it - but it was the crowd doing the singing, which means they knew the words.\n\nWhat we cannot show you is one unlettered believer's own account of how the hearing became knowing. That voice does not survive, for this question or any other. We know scripture was read aloud, because councils legislated by it and bishops preached from it, and both acts assume a congregation present to hear. We know the psalms were sung, because Augustine dates exactly when Milan began singing them, and says the practice spread afterward. What the receiving felt like from inside - whether it was enough, whether it left questions, whether anyone struggled to hold it - no one kept those pages. We will not invent them.",
+          "citations": [
+            {
+              "sentence": "Our record was kept by office-holders - bishops, emperors, courts - and it shows us the channels where scripture moved, not what an ordinary believer experienced receiving it.",
+              "record_ids": [
+                "ijc.dw.how-we-read"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.how-we-read",
+                  "record_type": "doctrinal_witness",
+                  "label": "This world read its scriptures the way it read everything else: as binding authority",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.leo-sermons",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
+                      "locus": "Sermon III (Peter's confession read as standing grant)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the scriptural case for and against the creed words",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "Canon 6 (precedent read as law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Scripture was read aloud in the assembly - every gathering heard it.",
+              "record_ids": [
+                "ijc.dw.how-we-read"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.how-we-read",
+                  "record_type": "doctrinal_witness",
+                  "label": "This world read its scriptures the way it read everything else: as binding authority",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.leo-sermons",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
+                      "locus": "Sermon III (Peter's confession read as standing grant)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the scriptural case for and against the creed words",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "Canon 6 (precedent read as law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The newly baptized confessed the creed, which carried the faith in words they spoke themselves.",
+              "record_ids": [
+                "ijc.dw.how-we-read"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.how-we-read",
+                  "record_type": "doctrinal_witness",
+                  "label": "This world read its scriptures the way it read everything else: as binding authority",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.leo-sermons",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
+                      "locus": "Sermon III (Peter's confession read as standing grant)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the scriptural case for and against the creed words",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "Canon 6 (precedent read as law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And the psalms were sung, together, which is how scripture became something a person could carry without a page.",
+              "record_ids": [
+                "ijc.dw.how-we-read"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.how-we-read",
+                  "record_type": "doctrinal_witness",
+                  "label": "This world read its scriptures the way it read everything else: as binding authority",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.leo-sermons",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
+                      "locus": "Sermon III (Peter's confession read as standing grant)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the scriptural case for and against the creed words",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "Canon 6 (precedent read as law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "On one besieged night at Milan the whole congregation sang psalms through the dark, and that enters the record because a bishop and a famous convert both remembered it - but it was the crowd doing the singing, which means they knew the words.",
+              "record_ids": [
+                "ijc.story.vigil-in-basilica"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.vigil-in-basilica",
+                  "record_type": "story",
+                  "label": "the basilica standoff of 386 - the congregation that held its church against the court, singing",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XX-XXI (npnf210 from line 41434)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "the sermon preached inside the crisis (from line 42065)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (npnf101 from line 13766)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What we cannot show you is one unlettered believer's own account of how the hearing became knowing.",
+              "record_ids": [
+                "ijc.limit.f5-ordinary-day"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.f5-ordinary-day",
+                  "record_type": "honest_limit",
+                  "label": "You ask for an ordinary day among us: the food, the work, the children, the women's own l…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.socrates-he",
+                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                      "locus": "the corpus-wide pattern - crowds appear when office-holders' contests need them",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (the single congregational interior)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We know scripture was read aloud, because councils legislated by it and bishops preached from it, and both acts assume a congregation present to hear.",
+              "record_ids": [
+                "ijc.dw.how-we-read"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.how-we-read",
+                  "record_type": "doctrinal_witness",
+                  "label": "This world read its scriptures the way it read everything else: as binding authority",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.leo-sermons",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
+                      "locus": "Sermon III (Peter's confession read as standing grant)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the scriptural case for and against the creed words",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.canons-nicaea",
+                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                      "locus": "Canon 6 (precedent read as law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We know the psalms were sung, because Augustine dates exactly when Milan began singing them, and says the practice spread afterward.",
+              "record_ids": [
+                "ijc.story.vigil-in-basilica"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.vigil-in-basilica",
+                  "record_type": "story",
+                  "label": "the basilica standoff of 386 - the congregation that held its church against the court, singing",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XX-XXI (npnf210 from line 41434)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "the sermon preached inside the crisis (from line 42065)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (npnf101 from line 13766)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What the receiving felt like from inside - whether it was enough, whether it left questions, whether anyone struggled to hold it - no one kept those pages.",
+              "record_ids": [
+                "ijc.limit.f5-ordinary-day"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.f5-ordinary-day",
+                  "record_type": "honest_limit",
+                  "label": "You ask for an ordinary day among us: the food, the work, the children, the women's own l…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.socrates-he",
+                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                      "locus": "the corpus-wide pattern - crowds appear when office-holders' contests need them",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (the single congregational interior)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We will not invent them.",
+              "record_ids": [
+                "ijc.limit.f5-ordinary-day"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.f5-ordinary-day",
+                  "record_type": "honest_limit",
+                  "label": "You ask for an ordinary day among us: the food, the work, the children, the women's own l…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.socrates-he",
+                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                      "locus": "the corpus-wide pattern - crowds appear when office-holders' contests need them",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (the single congregational interior)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "You ask how someone who could not read ever learned the scriptures, and here is our problem stated plainly.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Our record was kept by office-holders - bishops, emperors, courts - and it shows us the channels where scripture moved, not what an ordinary believer experienced receiving it.",
+                "tags": [
+                  "ijc.dw.how-we-read"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The channels themselves we can name.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Scripture was read aloud in the assembly - every gathering heard it.",
+                "tags": [
+                  "ijc.dw.how-we-read"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The newly baptized confessed the creed, which carried the faith in words they spoke themselves.",
+                "tags": [
+                  "ijc.dw.how-we-read"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "And the psalms were sung, together, which is how scripture became something a person could carry without a page.",
+                "tags": [
+                  "ijc.dw.how-we-read"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "On one besieged night at Milan the whole congregation sang psalms through the dark, and that enters the record because a bishop and a famous convert both remembered it - but it was the crowd doing the singing, which means they knew the words.",
+                "tags": [
+                  "ijc.story.vigil-in-basilica"
+                ],
+                "verdict": "ok",
+                "why": "grounded 50% in own tagged records",
+                "ratio": 0.5
+              },
+              {
+                "sentence": "What we cannot show you is one unlettered believer's own account of how the hearing became knowing.",
+                "tags": [
+                  "ijc.limit.f5-ordinary-day"
+                ],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "That voice does not survive, for this question or any other.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We know scripture was read aloud, because councils legislated by it and bishops preached from it, and both acts assume a congregation present to hear.",
+                "tags": [
+                  "ijc.dw.how-we-read"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We know the psalms were sung, because Augustine dates exactly when Milan began singing them, and says the practice spread afterward.",
+                "tags": [
+                  "ijc.story.vigil-in-basilica"
+                ],
+                "verdict": "ok",
+                "why": "grounded 62% in own tagged records",
+                "ratio": 0.62
+              },
+              {
+                "sentence": "What the receiving felt like from inside - whether it was enough, whether it left questions, whether anyone struggled to hold it - no one kept those pages.",
+                "tags": [
+                  "ijc.limit.f5-ordinary-day"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We will not invent them.",
+                "tags": [
+                  "ijc.limit.f5-ordinary-day"
+                ],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-3",
+      "message": "The Bible honestly confuses me sometimes. Did anyone in your world ever struggle with reading it?",
+      "prior_turns_replayed": 2,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "ijc",
+          "text": "We kept one man's struggle with it, and he is not a small witness. Augustine wrote that when he first turned to the Scriptures to see what they were, they seemed lowly to him next to the grand books he was trained on, and he was too proud to stoop. He 'scorned to be a little one,' in his own words. Years later, weeping and asking how long this would take, he heard a child's voice chanting 'take up and read,' and he opened the book at random. \n\nHere is our limit: that is a famous man's story. What we did not keep is an ordinary reader's struggle. Augustine was a trained public speaker and a bishop, telling his own conversion story long afterwards. A farmer near Hippo who found the reading hard did not leave behind any written record at all. \n\nWe can say this much besides: when our people were afraid, they sang the psalms together. In the dark, scripture became bearable as song.",
+          "citations": [
+            {
+              "sentence": "We kept one man's struggle with it, and he is not a small witness.",
+              "record_ids": [
+                "ijc.limit.reading-alone"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.reading-alone",
+                  "record_type": "honest_limit",
+                  "label": "You say the Bible leaves you confused, or that its violence frightens you, and you ask wh…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (psalms as sustenance - the one attested glimpse)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine wrote that when he first turned to the Scriptures to see what they were, they seemed lowly to him next to the grand books he was trained on, and he was too proud to stoop.",
+              "record_ids": [
+                "ijc.limit.reading-alone"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.reading-alone",
+                  "record_type": "honest_limit",
+                  "label": "You say the Bible leaves you confused, or that its violence frightens you, and you ask wh…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (psalms as sustenance - the one attested glimpse)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He 'scorned to be a little one,' in his own words.",
+              "record_ids": [
+                "ijc.quote.i-scorned-to-be-a-little-one"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.i-scorned-to-be-a-little-one",
+                  "record_type": "quote",
+                  "label": "Augustine of Hippo, Confessions",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "Confessions III.5, whose chapter heading in this edition reads 'He Rejects the Sacred Scriptures as Too Simple, and as Not to Be Compared with the Dignity of Tully' (npnf101_augustine-confessions-letters.xml); the editor's interleaved notes are removed from the text quoted here",
+                      "rights_status": "public-domain"
+                    }
+                  ],
+                  "original_wording": "I resolved, therefore, to direct my mind to the Holy Scriptures, that I might see what they were. And behold, I perceive something not comprehended by the proud, not disclosed to children, but lowly as you approach, sublime as you advance, and veiled in mysteries; and I was not of the number of those who could enter into it, or bend my neck to follow its steps. ... Yet, truly, were they such as would develope in little ones; but I scorned to be a little one, and, swollen with pride, I looked upon myself as a great one.",
+                  "spoken_rendering": "So I decided to turn my mind to the Holy Scriptures, to see what they were like. And what I found was something the proud cannot grasp and children are not shown: lowly as you approach it, towering as you go further in, and veiled in mysteries. I was not the kind of person who could enter it, or bow my neck to walk its path. ... The Scriptures were made to help a little one grow; but I scorned to be a little one, and, swollen with pride, I saw myself as a great one."
+                }
+              ]
+            },
+            {
+              "sentence": "Years later, weeping and asking how long this would take, he heard a child's voice chanting 'take up and read,' and he opened the book at random.",
+              "record_ids": [
+                "ijc.quote.take-up-and-read"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.take-up-and-read",
+                  "record_type": "quote",
+                  "label": "Augustine of Hippo, Confessions",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "Confessions VIII.12 (npnf101_augustine-confessions-letters.xml); the edition's interleaved scriptural references are removed from the text quoted here",
+                      "rights_status": "public-domain"
+                    }
+                  ],
+                  "original_wording": "I sent up these sorrowful cries,—'How long, how long? Tomorrow, and tomorrow? Why not now? Why is there not this hour an end to my uncleanness?' I was saying these things and weeping in the most bitter contrition of my heart, when, lo, I heard the voice as of a boy or girl, I know not which, coming from a neighbouring house, chanting, and oft repeating, 'Take up and read; take up and read.' ... So, restraining the torrent of my tears, I rose up, interpreting it no other way than as a command to me from Heaven to open the book, and to read the first Chapter I should light upon.",
+                  "spoken_rendering": "I cried out in sorrow: 'How long, how long? Tomorrow, and tomorrow? Why not now? Why not end my uncleanness this very hour?' I was saying these things and weeping, my heart crushed with bitterness, when I heard a voice from a nearby house (a boy's or a girl's, I could not tell) chanting over and over: 'Take up and read; take up and read.' ... So I held back my flood of tears and stood up. I could take it no other way than as a command from Heaven to open the book and read the first chapter I turned to."
+                }
+              ]
+            },
+            {
+              "sentence": "Here is our limit: that is a famous man's story.",
+              "record_ids": [
+                "ijc.limit.reading-alone"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.reading-alone",
+                  "record_type": "honest_limit",
+                  "label": "You say the Bible leaves you confused, or that its violence frightens you, and you ask wh…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (psalms as sustenance - the one attested glimpse)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What we did not keep is an ordinary reader's struggle.",
+              "record_ids": [
+                "ijc.limit.reading-alone"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.reading-alone",
+                  "record_type": "honest_limit",
+                  "label": "You say the Bible leaves you confused, or that its violence frightens you, and you ask wh…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (psalms as sustenance - the one attested glimpse)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Augustine was a trained public speaker and a bishop, telling his own conversion story long afterwards.",
+              "record_ids": [
+                "ijc.limit.reading-alone"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.reading-alone",
+                  "record_type": "honest_limit",
+                  "label": "You say the Bible leaves you confused, or that its violence frightens you, and you ask wh…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (psalms as sustenance - the one attested glimpse)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A farmer near Hippo who found the reading hard did not leave behind any written record at all.",
+              "record_ids": [
+                "ijc.limit.reading-alone"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.reading-alone",
+                  "record_type": "honest_limit",
+                  "label": "You say the Bible leaves you confused, or that its violence frightens you, and you ask wh…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (psalms as sustenance - the one attested glimpse)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We can say this much besides: when our people were afraid, they sang the psalms together.",
+              "record_ids": [
+                "ijc.limit.reading-alone"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.reading-alone",
+                  "record_type": "honest_limit",
+                  "label": "You say the Bible leaves you confused, or that its violence frightens you, and you ask wh…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (psalms as sustenance - the one attested glimpse)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "In the dark, scripture became bearable as song.",
+              "record_ids": [
+                "ijc.limit.reading-alone"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.limit.reading-alone",
+                  "record_type": "honest_limit",
+                  "label": "You say the Bible leaves you confused, or that its violence frightens you, and you ask wh…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (psalms as sustenance - the one attested glimpse)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We kept one man's struggle with it, and he is not a small witness.",
+                "tags": [
+                  "ijc.limit.reading-alone"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Augustine wrote that when he first turned to the Scriptures to see what they were, they seemed lowly to him next to the grand books he was trained on, and he was too proud to stoop.",
+                "tags": [
+                  "ijc.limit.reading-alone"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "He 'scorned to be a little one,' in his own words.",
+                "tags": [
+                  "ijc.quote.i-scorned-to-be-a-little-one"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "Years later, weeping and asking how long this would take, he heard a child's voice chanting 'take up and read,' and he opened the book at random.",
+                "tags": [
+                  "ijc.quote.take-up-and-read"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "Here is our limit: that is a famous man's story.",
+                "tags": [
+                  "ijc.limit.reading-alone"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "What we did not keep is an ordinary reader's struggle.",
+                "tags": [
+                  "ijc.limit.reading-alone"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Augustine was a trained public speaker and a bishop, telling his own conversion story long afterwards.",
+                "tags": [
+                  "ijc.limit.reading-alone"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "A farmer near Hippo who found the reading hard did not leave behind any written record at all.",
+                "tags": [
+                  "ijc.limit.reading-alone"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "We can say this much besides: when our people were afraid, they sang the psalms together.",
+                "tags": [
+                  "ijc.limit.reading-alone"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "In the dark, scripture became bearable as song.",
+                "tags": [
+                  "ijc.limit.reading-alone"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "crisis_append_proven": null
+}

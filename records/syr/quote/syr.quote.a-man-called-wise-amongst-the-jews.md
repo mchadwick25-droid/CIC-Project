@@ -21,6 +21,17 @@ sources:
   license: public-domain
 text: >-
   It happened one day, that a man, who is called wise amongst the Jews, questioned me, saying:—Jesus, Who is called your Teacher, wrote for you, that If there shall be in you faith like one grain of mustard, ye shall say to this mountain, Remove, and it shall remove from before you; and (ye shall say) even, Be lifted up and fall into the sea, and it shall obey you. So apparently there is in all your people not one wise man, whose prayer is heard, and who asks of God that your persecutors should cease from you. For clearly it is written for you in that passage, There is nothing which ye shall not be able to do. And when I saw that he was blaspheming and speaking much against the Way (the Christian religion), my mind was disturbed
+modern_rendering: >-
+  It happened one day that a man who is called wise among the Jews questioned
+  me. He said: Jesus, who is called your Teacher, wrote for you that if there
+  is faith in you like one grain of mustard seed, you will say to this
+  mountain, 'Move,' and it will move away from you - and even, 'Rise up and
+  fall into the sea,' and it will obey you. So it seems there is not one wise
+  man in all your people whose prayer is heard, who asks God to make your
+  persecutors stop. For it is clearly written for you in that passage: there
+  is nothing you will not be able to do. And when I saw that he was
+  blaspheming and saying many things against the Way (the Christian religion),
+  my mind was troubled.
 speaker_or_author: Aphrahat, Demonstration XXI.1-2
 license: verbatim
 modern_lens_note: >-
@@ -43,3 +54,5 @@ Reading the strand, the sharpest thing in it is not a piece of polemic but the Q
 answers, which Aphrahat preserves in full and in the questioner's own construction before dismissing
 it. Keeping his reaction inside the quote is the point; ending at 'able to do' would make this world
 look better than its own record does.
+
+MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

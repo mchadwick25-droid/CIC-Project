@@ -27,14 +27,19 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'What this world actually had about Jesus was the Gospel woven as one story - the harmony read in
-  worship - together with the Law and the Prophets read as one long promise of him. It did not claim living
-  eyewitnesses: it stood a century and more from the events, and its own story of an apostle sent to its
-  king is its cherished legend, not its evidence. Asked how it knew the resurrection really happened,
-  it answered from preaching received and from argument: the sage answers the doubter with the Apostle''s
-  seed - what you sow is not made alive unless it dies - and the whole community staked itself on the
-  risen Lord as the pledge that Sheol gives back its dead. Its knowing was the knowing of trust in a received
-  witness, tested in lives and, on the Persian side, in deaths.'
+text: >-
+  What this world actually had about Jesus was the Gospel woven into one
+  continuous story - the harmony its churches read in worship - together with
+  the Law and the Prophets, read as one long promise pointing to him. It did
+  not claim living eyewitnesses. It stood a century and more from the events,
+  and its own story of an apostle sent to its king is its cherished legend,
+  not its evidence. Asked how it knew the resurrection really happened, it
+  answered from preaching received and from argument. The sage answers the
+  doubter with the Apostle's picture of the seed: what you sow does not come
+  to life unless it dies. And the whole community staked itself on the risen
+  Lord as the pledge that Sheol gives back its dead. Its kind of knowing was
+  trust in a received witness, tested in how people lived and, on the Persian
+  side, in how they died.
 positions:
 - the Gospel came as one continuous narrative, received through the church's worship
 - no living memory-chain is claimed; the Abgar story is the community's own legend of origin
@@ -48,3 +53,5 @@ tensions:
 Serves the evidential Center cell without overclaiming: the
 seed argument verified in Dem VIII; the pledge language in the
 Homily. The legend-vs-record split is syr.contested.edessa-origins.
+
+REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

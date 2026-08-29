@@ -27,15 +27,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Was there room for doubt among these people? Their word for the life of belief was not certainty
-  but faith - and faith, the sage taught, is a building: laid on one foundation stone and raised piece
-  by piece, fasting and prayer and love each added course by course. A building is not finished in a day.
-  What this world distrusted was not the struggling believer but the prying scrutinizer - the one who
-  would take the Godhead apart like a problem; its poet sang against that scrutiny while himself asking
-  questions hymn after hymn. And it did not run from hard challenges: the sage records a debater''s taunt
-  - if your faith were true, would not your prayers have stopped the persecution? - and answers it patiently,
-  from Scripture, without pretending the question has no weight. Doubt as a private inner crisis is not
-  this world''s category; the contested, questioned, growing faith is.'
+text: >-
+  Was there room for doubt among these people? Their word for the life of
+  belief was not certainty but faith. Faith, the sage taught, is a building:
+  it rests on one foundation stone and goes up piece by piece, with fasting
+  and prayer and love each added like courses of stone. A building is not
+  finished in a day. What this world distrusted was not the struggling
+  believer. It was the prying scrutinizer, the one who would take the Godhead
+  apart like a problem to be solved. Its own poet sang against that scrutiny
+  while asking questions of his own, hymn after hymn. And it did not run from
+  hard challenges. The sage records a debater's taunt - if your faith were
+  true, would not your prayers have stopped the persecution? - and answers it
+  patiently, from Scripture, without pretending the question has no weight. A
+  private inner crisis of doubt is not something this world wrote about. What
+  it knew, and what it kept, was faith that is contested, questioned, and
+  still growing.
 positions:
 - faith is a structure that grows over a life - incompleteness is its normal condition
 - hard questions were engaged in the open, including the hardest (why doesn't God stop this?)
@@ -50,3 +56,5 @@ relations:
 F1-P: answers from the faith-as-building teaching (Dem I, verified)
 and the Pearl's anti-scrutiny strand, with the category-difference
 honesty the register statements require.
+
+REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

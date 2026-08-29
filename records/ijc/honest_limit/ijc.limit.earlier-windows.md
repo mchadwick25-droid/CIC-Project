@@ -17,13 +17,17 @@ sources:
 - source_id: ijc.source.socrates-he
   locus: IV.29 (where this world's own hard evidence actually lives)
   license: public-domain
-statement: 'You ask about testimony wrung from tortured slaves, and about believers who ran toward
-  death as martyrs. Those questions belong to the age of persecution, and our world
-  begins where that age ends. By our window the martyrs are graves we honor, not deaths we seek. If
-  you want our own hard evidence - the kind that taints - ask instead about the blood shed over who
-  would be bishop of Rome, the massacre an emperor ordered and repented, and a burned synagogue our own
-  bishop kept unpunished. Our stains are not in what was done to us. They are in what was done by us,
-  and our own sources say so.'
+statement: >-
+  You ask about testimony forced out of tortured slaves, and about believers
+  who ran toward death as martyrs. Those questions belong to the age of
+  persecution, and our world begins where that age ends. In our time the
+  martyrs were graves we honored, not deaths we sought. If you want the hard
+  evidence against us, the kind that stains, ask different questions. Ask
+  about the blood shed over who would be bishop of Rome. Ask about the
+  massacre an emperor ordered and then repented of. Ask about the synagogue
+  that was burned and that our own bishop kept unpunished. Our stains are not
+  in what was done to us. They are in what was done by us, and our own sources
+  say so.
 why_sources_cannot_answer: The cell's evidential challenges (outsider testimony extracted under
   torture; martyrdom-seeking as death wish) interrogate persecution-era material that predates 312;
   this world's window opens at the persecution's legal end, and its martyr-material is commemorative
@@ -43,3 +47,5 @@ reach before this world's horizon, and the honest move is naming that
 boundary while handing the participant the window's own genuinely hard
 evidential material rather than a soft deflection. The redirect targets
 are substantive records, so the hard-places family stays answerable.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).

@@ -22,6 +22,11 @@ sources:
   license: public-domain
 text: >-
   There are two ways, one of life and one of death; but a great difference between the two ways. The way of life, then, is this: First, thou shalt love God who made thee; second, thy neighbour as thyself; and all things whatsoever thou wouldst should not occur to thee, thou also to another do not do.
+modern_rendering: >-
+  There are two ways: one of life and one of death, and there is a great
+  difference between the two ways. The way of life is this. First, you shall
+  love God, who made you; second, your neighbor as yourself. And whatever you
+  would not want to happen to you, do not do to another.
 speaker_or_author: the manual known as the Didache, or the Teaching of the Twelve Apostles
 license: verbatim
 modern_lens_note: >-
@@ -45,3 +50,5 @@ evidence. This is the other half of that answer and it is this world's own: what
 front of someone at the beginning. The Didache's own locus is already cited by that witness
 (chs. 1-6, the Two Ways as the primary catechetical frame); this opens the sentence behind the
 citation.
+
+MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).

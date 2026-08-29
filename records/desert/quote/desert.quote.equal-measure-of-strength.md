@@ -30,6 +30,10 @@ text: >-
   Now therefore it is necessary for us to remember also the chosen and mighty women unto whom God
   also gave an equal measure of strength of will as unto men, so that they might have no cause for
   being feeble in the performance of the labour of ascetic excellence.
+modern_rendering: >-
+  Now therefore we must also remember the chosen and mighty women, to whom God
+  gave strength of will in equal measure with the men, so that they would have
+  no excuse for being feeble in carrying out the labor of ascetic excellence.
 speaker_or_author: Palladius, in the Syriac recension of the Paradise
 license: verbatim
 modern_lens_note: >-
@@ -60,3 +64,5 @@ carried in prose since the prior build without a primary text under it.
 This is the tradition stating its own position in its own words, and it
 is more interesting than either a flat endorsement or a flat exclusion
 would be.
+
+MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

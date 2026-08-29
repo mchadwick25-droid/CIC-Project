@@ -27,14 +27,19 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Did belonging cost anything? On the Persian side of this world it could cost everything: when the
-  persecution came, to be known as a Christian - above all as clergy or a covenanter - was to be suspect,
-  taxed, and finally hunted; bishops died first, and the community learned what its promises were worth.
-  On the Roman side the cost was quieter: a name that marked you in a plural city, rivals at the door,
-  kin who did not share the vow. And for those far from everyone they loved - this world knew distance
-  across two empires, and what held its people together was a shared name and shared practice: the same
-  first-day assembly, the same fasts, the same songs and letters traveling the roads, so that a believer
-  arriving anywhere in it found the one name already there.'
+text: >-
+  Did belonging cost anything? On the Persian side of this world it could cost
+  everything. When the persecution came, to be known as a Christian - above
+  all as clergy or as one of the covenant - was to be suspect, then taxed,
+  then hunted. Bishops died first, and the community learned what its promises
+  were worth. On the Roman side the cost was quieter. Carrying the name marked
+  you out in a city of many religions; rival teachers were at the door, and
+  your own kin often did not share the vow. And this world knew distance. Its
+  people were spread across two empires, often far from those they loved, and
+  what held them together was a shared name and shared practice. They kept the
+  same first-day assembly and the same fasts, and the same songs and letters
+  traveled the roads, so that a believer arriving anywhere in it found the one
+  name already there.
 positions:
 - the cost was real and unevenly distributed - Persian-side lives, Roman-side standing
 - shared practice and shared texts held a scattered people together across borders
@@ -47,3 +52,5 @@ F5-P: personal daily-life register, grounded in the persecution
 narrative, the BLC one-name passage, and the covenant's
 town-residence. The stratum caution (leaders' costs overrepresented)
 is stated.
+
+REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

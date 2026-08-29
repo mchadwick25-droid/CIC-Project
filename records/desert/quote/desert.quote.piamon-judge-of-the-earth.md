@@ -35,6 +35,16 @@ text: >-
   earth, Who hast no pleasure in whatever is iniquitous, O my Lord, when the prayer which Thine
   handmaiden prayeth and her supplication reach Thee, let Thy power transfix [the enemy] in the
   spot wherein they are."
+modern_rendering: >-
+  Now the elders of the village were afraid, and they fell down at her feet
+  and begged her, saying: 'We do not dare go out to meet them, for we know
+  their miserable nature and their arrogance. But if you wish to spare the
+  village and your own house, go out yourself to meet them.' And the virgin
+  would not undertake to go out. Instead she went up onto the roof and stood
+  there in prayer the whole night long, without once kneeling down, bowing and
+  pleading to God: 'O Lord, Judge of the earth, who takes no pleasure in
+  anything unjust - my Lord, when the prayer and pleading of your servant
+  reach you, let your power pin the enemy to the spot where they stand.'
 speaker_or_author: the elders of Piamon's village, and Piamon of Upper Egypt, as Palladius reports them
 license: verbatim
 modern_lens_note: >-
@@ -69,3 +79,5 @@ socially entangled rather than removed, and it has rested on excavated
 settlement remains and a documentary letter archive. This is a narrative
 witness to the same thing, from inside the tradition's own literature,
 and it happens to be about a woman.
+
+MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

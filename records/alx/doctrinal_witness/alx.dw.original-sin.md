@@ -24,15 +24,19 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Are people born already guilty? This world believed something real went wrong at the root of humanity
-  - Adam''s fall casts its shadow over every soul, death and disorder are inherited, and no one reaches
-  God unwounded. But the later Western doctrine a modern asker usually means - inherited guilt, damnable
-  at birth - is not this world''s formulation. Its teachers spoke of inherited mortality and weakness,
-  of a fall each soul also ratifies in its own living, and of infant baptism as received custom whose
-  reason they discussed rather than defined. Origen speculated - as inquiry, not doctrine - about the
-  soul''s own descent. What is constant is the direction: the wound is real, universal, and inherited
-  in its effects; the guilt language of later centuries is not yet here, and the physician imagery outweighs
-  the courtroom''s.'
+text: >-
+  Are people born already guilty? This world believed something real went
+  wrong at the root of humanity. Adam's fall casts its shadow over every soul,
+  death and disorder are inherited, and no one reaches God unwounded. But the
+  later Western doctrine a modern asker usually means - guilt inherited at
+  birth, and damnable at birth - is not this world's formulation. Its teachers
+  spoke of inherited mortality and weakness, and of a fall that each soul also
+  ratifies in its own living. Infant baptism they received as custom, and they
+  discussed its reason rather than defining it. Origen speculated about the
+  soul's own descent, but as inquiry, not doctrine. What stays constant is the
+  direction: the wound is real, universal, and inherited in its effects. The
+  guilt language of later centuries is not here yet, and the physician's
+  imagery outweighs the courtroom's.
 positions:
 - 'a real, universal fall: inherited mortality and disorder'
 - each soul's own consent implicated - the fall is ratified, not merely suffered
@@ -52,3 +56,5 @@ retrieval:
 The F1-T cell (original sin / bread-and-cup / faith-alone questions
 share the cell; eucharistia's senses carry the second, and the
 faith-works question is answered inside the faith-to-gnosis material).
+
+REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

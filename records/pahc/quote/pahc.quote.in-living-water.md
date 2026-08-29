@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Having first said all these things, baptize into the name of the Father, and of the Son, and of the Holy Spirit, in living water. But if thou have not living water, baptize into other water; and if thou canst not in cold, in warm. But if thou have not either, pour out water thrice upon the head.
+modern_rendering: >-
+  Having first said all these things, baptize into the name of the Father, and
+  of the Son, and of the Holy Spirit, in living water. But if you have no
+  living water, baptize into other water; and if you cannot in cold, then in
+  warm. And if you have neither, pour water three times upon the head.
 speaker_or_author: the manual known as the Didache
 license: verbatim
 modern_lens_note: >-
@@ -42,3 +47,5 @@ water; the fallback ladder; threefold pouring" and had nothing quotable.
 Kept as the whole ladder rather than the first clause. A cell asking whether this world baptised
 infants is not answered here - the Didache does not say - but the shape of the answer it CAN give
 is that the form bent to circumstance, and that only shows if the fallbacks are shown.
+
+MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).

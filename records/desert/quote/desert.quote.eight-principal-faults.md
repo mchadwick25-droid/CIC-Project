@@ -25,6 +25,12 @@ text: >-
   gluttony, secondly fornication, thirdly philargyria, i.e., avarice or the love of money, fourthly
   anger, fifthly dejection, sixthly acedia, i.e., listlessness or low spirits, seventhly cenodoxia,
   i.e., boasting or vain glory; and eighthly pride.
+modern_rendering: >-
+  There are eight principal faults that attack mankind: first gluttony
+  (gastrimargia); second fornication; third avarice, the love of money
+  (philargyria); fourth anger; fifth dejection; sixth listlessness or low
+  spirits (acedia); seventh boasting or vainglory (cenodoxia); and eighth
+  pride.
 speaker_or_author: Abbot Serapion of Scetis, as Cassian records him
 license: verbatim
 modern_lens_note: >-
@@ -60,3 +66,5 @@ one readable witness this world has to its own psychology is also a
 witness to how a movement handles a teacher it can no longer name - which
 is a fact about the desert worth being able to show, not a defect in the
 source.
+
+MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

@@ -22,6 +22,14 @@ sources:
   license: public-domain
 text: >-
   I sent up these sorrowful cries,—'How long, how long? Tomorrow, and tomorrow? Why not now? Why is there not this hour an end to my uncleanness?' I was saying these things and weeping in the most bitter contrition of my heart, when, lo, I heard the voice as of a boy or girl, I know not which, coming from a neighbouring house, chanting, and oft repeating, 'Take up and read; take up and read.' ... So, restraining the torrent of my tears, I rose up, interpreting it no other way than as a command to me from Heaven to open the book, and to read the first Chapter I should light upon.
+modern_rendering: >-
+  I cried out in sorrow: 'How long, how long? Tomorrow, and tomorrow? Why not
+  now? Why not end my uncleanness this very hour?' I was saying these things
+  and weeping, my heart crushed with bitterness, when I heard a voice from a
+  nearby house (a boy's or a girl's, I could not tell) chanting over and over:
+  'Take up and read; take up and read.' ... So I held back my flood of tears
+  and stood up. I could take it no other way than as a command from Heaven to
+  open the book and read the first chapter I turned to.
 speaker_or_author: Augustine of Hippo, Confessions
 license: verbatim
 modern_lens_note: >-
@@ -44,3 +52,5 @@ what its sources do not contain was too broad.
 The two are deliberately a pair and should usually travel together. One is a man repelled by
 scripture, the other the same man undone by it, and offering either alone gives a participant
 half of what this world's best-known book actually says about reading.
+
+MODERN RENDERING AUTHORED (2026-08-29, same register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

@@ -33,15 +33,19 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Was Jesus God? This world said yes - in its own idiom. The sage calls it a sure thing: Jesus our
-  Lord is God, the Son of God, the King, the King''s Son, Light of light - a chain of Scripture''s own
-  names rather than a philosopher''s definition. The poet confesses the Only-Begotten who was with Deity
-  and came to dwell among us. Asked about the Trinity, this world answers from its font: its baptismal
-  hymns sing the Father rejoicing with his Son and the Spirit over the baptized, and its teachers held
-  that in baptism''s second birth the believer receives the Holy Spirit. Then it guards the mystery: prying
-  scrutiny into the Godhead is warned against, because what God is, is better sung than dissected. It
-  stood with the great council''s faith - its own bishop of Nisibis sat at Nicaea - but its native tongue
-  for that faith was praise.'
+text: >-
+  Was Jesus God? This world said yes, in its own way of speaking. The sage
+  calls it a sure thing: Jesus our Lord is God, the Son of God, the King, the
+  King's Son, Light of light - a chain of Scripture's own names rather than a
+  philosopher's definition. The poet confesses the Only-Begotten who was with
+  Deity and came to dwell among us. Asked about the Trinity, this world
+  answers from its font. Its baptismal hymns sing the Father rejoicing with
+  his Son and the Spirit over the baptized, and its teachers held that in
+  baptism's second birth the believer receives the Holy Spirit. Then it guards
+  the mystery. Its teachers warned against prying scrutiny into the Godhead,
+  because they held that what God is, is better sung than dissected. It stood
+  with the great council's faith - its own bishop of Nisibis sat at Nicaea -
+  but its native tongue for that faith was praise.
 positions:
 - Jesus is confessed as God and Son of God, in Scripture's names
 - the Father, the Son, and the Spirit are named together over baptism, and baptism's second birth gives
@@ -64,3 +68,5 @@ Translational Center cell. The 'sure thing' chain verified verbatim
 in Dem XVII.2. The pre/para-Nicene register caution mirrors the
 reviewed Doc_04/Doc_07 discipline: report the world's own idiom,
 never vindicate or modernize it.
+
+REGISTER TRANSLATION (2026-08-29, the syr pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
