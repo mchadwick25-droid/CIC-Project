@@ -26,6 +26,36 @@ from engine.m7.report import (
 from engine.m7.session_reader import read_session
 
 
+_CITABLE_TYPES = ("doctrinal_witness", "term", "story", "quote", "honest_limit",
+                  "gravity", "force", "contested_claim", "figure", "world_core")
+
+
+def _world_shelves(registry: dict) -> dict[str, dict]:
+    """world_key -> citable shelf, read from each formation world's pinned
+    package repository (read-only, same posture as everything in M7). A
+    world whose package isn't on disk is simply omitted - the utilization
+    block degrades to the worlds it can see rather than failing the audit."""
+    import json as _json
+    from engine.api.config import REPO_ROOT
+    shelves: dict[str, dict] = {}
+    for key, entry in registry.items():
+        if not isinstance(entry, dict) or entry.get("kind") != "formation":
+            continue
+        repo_path = REPO_ROOT / entry["package"]["location"] / "compiled" / "repository.json"
+        if not repo_path.exists():
+            continue
+        records = _json.loads(repo_path.read_text())["records"]
+        by_type: dict[str, list[str]] = {}
+        for r in records:
+            if r.get("record_type") in _CITABLE_TYPES:
+                by_type.setdefault(r["record_type"], []).append(r["id"])
+        shelves[key] = {
+            "citable_ids": [rid for ids in by_type.values() for rid in ids],
+            "by_type": by_type,
+        }
+    return shelves
+
+
 def _world_names(registry: dict) -> dict[str, list[str]]:
     """world_key -> that world's own names, for the register_frame
     self-reference detector. Read-only over the registry, same as
@@ -41,7 +71,9 @@ def _world_names(registry: dict) -> dict[str, list[str]]:
 
 def audit(events_db: str, out_dir: Path, since: str | None = None) -> dict:
     store = Store(events_db)
-    names = _world_names(load_registry())
+    registry = load_registry()
+    names = _world_names(registry)
+    shelves = _world_shelves(registry)
     session_ids = store.list_session_ids(since=since)
     audits = []
     for sid in session_ids:
@@ -51,7 +83,7 @@ def audit(events_db: str, out_dir: Path, since: str | None = None) -> dict:
         a = run_all(session, names)
         write_session_audit(out_dir, a)
         audits.append(a)
-    rollup = build_rollup(audits)
+    rollup = build_rollup(audits, shelves)
     write_rollup(out_dir, rollup)
     write_digest(out_dir, rollup)
     write_canon_candidates(out_dir, audits)

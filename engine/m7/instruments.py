@@ -179,6 +179,19 @@ def safety_review(s: AuditSession) -> list[Finding]:
     return findings
 
 
+def cited_ids(s: AuditSession) -> list[str]:
+    """§3.7's utilization half (added 2026-08-29, Mark: "yes add the
+    utilization instrument"): every distinct record id this session's
+    voices actually cited. Record ids carry no participant text, so the
+    list rides the fleet layer; the rollup unions these per world against
+    each world's citable shelf to answer "what share of what we built do
+    conversations actually draw on?"."""
+    ids: set[str] = set()
+    for t in s.voice_turns:
+        ids.update(_record_ids(t.citations))
+    return sorted(ids)
+
+
 def offer_rates(s: AuditSession) -> dict:
     """§3.7 - story/quote citation counts from the id's own type segment
     (per-cell attribution is phase 2)."""
@@ -334,6 +347,7 @@ def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
         "findings": findings,
         "register_metrics": reg_metrics,
         "offer_rates": offer_rates(s),
+        "cited_record_ids": cited_ids(s),
         "canon_asks": canon_candidate_asks(s),
         "min_scorable_words": MIN_SCORABLE_WORDS,
     }
