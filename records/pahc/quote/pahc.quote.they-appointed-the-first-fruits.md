@@ -23,6 +23,13 @@ sources:
   license: public-domain
 text: >-
   And thus preaching through countries and cities, they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe. Nor was this any new thing, since indeed many ages before it was written concerning bishops and deacons. For thus saith the Scripture in a certain place, \"I will appoint their bishops in righteousness, and their deacons in faith.\"
+modern_rendering: >-
+  And so, preaching through countries and cities, they appointed the
+  first-fruits of their labors, having first tested them by the Spirit, to be
+  bishops and deacons of those who would afterward believe. Nor was this
+  anything new, since bishops and deacons had been written about many ages
+  before. For the Scripture says in a certain place: 'I will appoint their
+  bishops in righteousness, and their deacons in faith.'
 speaker_or_author: the letter known as First Clement, to the church at Corinth
 license: verbatim
 modern_lens_note: >-
@@ -58,3 +65,7 @@ writes bishops in the plural for one city, and pahc.quote.jesus-christ-our-god
 has Ignatius binding a congregation to THE bishop, singular. Two records
 opened the same day, from the same corpus, that do not agree about how a
 church is governed. Neither is corrected toward the other.
+
+MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+
+MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).

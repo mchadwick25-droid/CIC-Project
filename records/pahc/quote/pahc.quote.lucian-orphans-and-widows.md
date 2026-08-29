@@ -33,6 +33,15 @@ text: >-
   hanging about the prison from break of day. Their officials bribed the gaolers to let them sleep
   inside with him. Elegant dinners were conveyed in; their sacred writings were read; and our old
   friend Peregrine (as he was still called in those days) became for them "the modern Socrates."
+modern_rendering: >-
+  The Christians took it all very seriously. He was no sooner in prison than
+  they began trying every means to get him out again - without success.
+  Everything else that could be done for him, they did most devoutly. They
+  thought of nothing else. Orphans and old widows could be seen waiting around
+  the prison from daybreak. Their officials bribed the jailers to let them
+  sleep inside with him. Fine dinners were brought in; their sacred writings
+  were read aloud; and our old friend Peregrine (as he was still called in
+  those days) became for them 'the modern Socrates.'
 speaker_or_author: Lucian of Samosata, in The Death of Peregrine
 license: verbatim
 modern_lens_note: >-
@@ -68,3 +77,5 @@ that translation.
 
 The em dashes and the quotation marks around "the modern Socrates" are
 the 1905 text's own.
+
+MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
