@@ -324,6 +324,11 @@ def test_register_metrics_score_long_turns_and_mark_short_unscored(tmp_path):
     assert scored, "the long table answers must score"
     assert all("fk_grade" in m and "fre" in m for m in scored)
     assert any("first_sentence_first_ask_overlap" in m for m in a["register_metrics"])
+    # Cadence rides alongside, measured never gated (register-translation
+    # pass, 2026-08-29): every turn with words carries the em-dash density
+    # and fragment ratio, and both are info-layer numbers, not findings.
+    assert all("dash_per_100w" in m and "fragment_ratio" in m for m in scored)
+    assert all(0 <= m["fragment_ratio"] <= 1 for m in scored)
 
 
 # --- reports + CLI ---

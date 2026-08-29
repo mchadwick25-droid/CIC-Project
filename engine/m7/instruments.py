@@ -100,8 +100,22 @@ def register_mechanical(s: AuditSession) -> tuple[list[Finding], list[dict]]:
     metrics = []
     gate_by_seq = sorted(s.gate_decisions, key=lambda g: g["seq"])
     for t in s.voice_turns:
-        m = measure(_strip_quoted(t.text))
+        stripped = _strip_quoted(t.text)
+        m = measure(stripped)
         entry = {"seq": t.seq, "speaker": t.speaker, **m}
+        # Cadence, measured never gated (the register-translation pass,
+        # 2026-08-29: the fragment-poetic register lived in record prose and
+        # was invisible to grade-level numbers - FK sat in-band while the
+        # prose chanted). Spaced em-dashes per 100 words and the share of
+        # sentences of five words or fewer make that drift visible per turn.
+        words = stripped.split()
+        if words:
+            entry["dash_per_100w"] = round(100 * stripped.count(" - ") / len(words), 2)
+        sentences = [x.strip() for x in re.split(r"(?<=[.!?])\s+", stripped) if x.strip()]
+        if sentences:
+            entry["fragment_ratio"] = round(
+                sum(1 for x in sentences if len(x.split()) <= 5) / len(sentences), 2
+            )
         whole = measure(t.text)
         if whole.get("scored"):
             entry["fk_grade_whole"] = whole["fk_grade"]
