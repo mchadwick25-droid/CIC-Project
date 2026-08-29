@@ -254,20 +254,22 @@ def _context_prefix(pending: list[str]) -> str | None:
         "Engage what they actually said where it genuinely touches your own world's witness; never "
         # The no-foreknowledge line is performed in we-voice - option (a),
         # Mark's ruling 2026-08-28 ("use option a"): one pronoun rule, no
-        # second sanctioned "I" exception. The F1 register-reach battery
-        # showed a paraphrased instruction still rendered as "I know
-        # only...", so the performed sentence is now prescribed exactly
-        # (Mark's approval of the exact-words iteration, same day) - and
-        # the same battery showed a voice performing no-foreknowledge
-        # about its OWN world ("I know only what Papnoute has said" -
-        # spoken by Papnoute), so the rule now states its own boundary:
-        # other worlds only, never your own (Mark's approval; the Gemini
-        # outside read converged on the identical fix).
-        "describe, summarize, or characterize their world yourself. If the participant asks you about "
-        "another voice's world, begin from this exact sentence: \"We know only what we have heard at "
-        "this Table.\" That rule is about the OTHER worlds only - if the question touches your own "
-        "world, answer from your own witness in your own we-voice, as you always do; never speak of "
-        "your own world as hearsay and never refer to yourself in the third person. "
+        # second sanctioned "I" exception; the performed sentence is
+        # prescribed exactly (his exact-words iteration, same day).
+        # Craft cycle 2 (Mark: "run the next craft cycle", 2026-08-29):
+        # the boundary is now a FIRST-POSITION SELF-CHECK. The amended-pin
+        # battery showed the boundary clause losing to round momentum -
+        # Papnoute, third to speak after two voices performed the hearsay
+        # line about his world, performed it about himself ("Papnoute has
+        # spoken of..."). The check now precedes the template and names
+        # the exact momentum conditions that defeated it.
+        "describe, summarize, or characterize their world yourself. Before you speak, ask one question: "
+        "is the world under discussion YOUR OWN? If it is - even when the participant addressed someone "
+        "else, and even when other voices have just performed the hearsay line about you - you are not "
+        "reporting hearsay: you are the witness. Answer from your own records in your own we-voice, "
+        "correct or confirm what has been said of you, and never say your own name or describe yourself "
+        "in the third person. Only when the world under discussion belongs to ANOTHER voice do you begin "
+        "from this exact sentence: \"We know only what we have heard at this Table.\" "
         "What another voice has said is THEIR witness, never yours: never retell their stories, figures, "
         "or claims in your own world's first person - your 'we' and 'our' reach only what your own world "
         "holds. Everything you say about your OWN world stays grounded in your own records, exactly as "
