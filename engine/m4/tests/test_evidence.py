@@ -746,3 +746,26 @@ def test_diverse_take_breadth_first_by_source():
     assert _diverse_take(mono, repo, 2) == mono
     # sourceless record is its own family, never crowded out
     assert _source_key({"id": "w.limit.x", "sources": []}) == "w.limit.x"
+
+
+def test_diverse_take_downgrades_session_used_families():
+    """Mark's ruling (2026-08-29): a reference already drawn on this session
+    is looked to LAST, never banned - Ignatius yields the first slot to a
+    fresh family once he has spoken, and still fills slots nothing else can."""
+    from engine.m4.evidence import _diverse_take
+    repo = {
+        "w.quote.ign1": {"id": "w.quote.ign1", "sources": [{"source_id": "w.source.ignatius"}]},
+        "w.quote.ign2": {"id": "w.quote.ign2", "sources": [{"source_id": "w.source.ignatius"}]},
+        "w.quote.pliny": {"id": "w.quote.pliny", "sources": [{"source_id": "w.source.pliny"}]},
+        "w.quote.justin": {"id": "w.quote.justin", "sources": [{"source_id": "w.source.justin"}]},
+    }
+    scored = [("w.quote.ign1", 0.9), ("w.quote.pliny", 0.6), ("w.quote.justin", 0.5), ("w.quote.ign2", 0.4)]
+    # nothing used yet: breadth-first as before, Ignatius leads on score
+    assert _diverse_take(scored, repo, 2) == [("w.quote.ign1", 0.9), ("w.quote.pliny", 0.6)]
+    # Ignatius already drawn on this session: fresh families first, Ignatius after
+    used = {"w.source.ignatius"}
+    assert _diverse_take(scored, repo, 3, used) == [
+        ("w.quote.pliny", 0.6), ("w.quote.justin", 0.5), ("w.quote.ign1", 0.9)]
+    # when only Ignatius qualifies, he still fills the slots - downgraded, not banned
+    only_ign = [("w.quote.ign1", 0.9), ("w.quote.ign2", 0.4)]
+    assert _diverse_take(only_ign, repo, 2, used) == only_ign
