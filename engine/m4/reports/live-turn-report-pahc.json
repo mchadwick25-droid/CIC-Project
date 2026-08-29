@@ -3,8 +3,8 @@
   "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
   "region": "us-east-1",
   "world_key": "pahc",
-  "manifest_hash": "sha256:3b22e9b92a6b0bb91c7e96550450bda6dd4f32f595203ff09f5a6394849625e7",
-  "package": "packages/pahc/2026-08-28T23-06-31Z",
+  "manifest_hash": "sha256:36889af53f8010fe168a194d975aa57c3e66b329ee86f51311033a75b53ac148",
+  "package": "packages/pahc/2026-08-29T10-26-53Z",
   "results": [
     {
       "id": "message-1",
@@ -16,10 +16,10 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "pahc",
-          "text": "We say he was truly born - of Mary, from the line of David. We say he truly ate and drank. We say he was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way some among our own neighbors claimed. And we say he was truly raised, and that we will be raised the same way, by the same Father. When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.\n\nOne of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters, and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. None of the six of us whose own writing survives reaches for the word Trinity, and none of us explains how calling Jesus God fits together with calling the Father God. We can tell you plainly that we called him God. We cannot tell you we had settled how.",
+          "text": "He was a real man, not an idea. One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David. He truly ate and drank. He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed. And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.\n\nWhen we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.\n\nOne of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God. We cannot tell you we had settled how.",
           "citations": [
             {
-              "sentence": "We say he was truly born - of Mary, from the line of David.",
+              "sentence": "He was a real man, not an idea.",
               "record_ids": [
                 "pahc.witness.who-was-jesus"
               ],
@@ -55,7 +55,7 @@
               ]
             },
             {
-              "sentence": "We say he truly ate and drank.",
+              "sentence": "One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David.",
               "record_ids": [
                 "pahc.witness.who-was-jesus"
               ],
@@ -91,7 +91,7 @@
               ]
             },
             {
-              "sentence": "We say he was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way some among our own neighbors claimed.",
+              "sentence": "He truly ate and drank.",
               "record_ids": [
                 "pahc.witness.who-was-jesus"
               ],
@@ -127,7 +127,43 @@
               ]
             },
             {
-              "sentence": "And we say he was truly raised, and that we will be raised the same way, by the same Father.",
+              "sentence": "He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed.",
+              "record_ids": [
+                "pahc.witness.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "pahc.witness.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "We did not invent him out of an idea",
+                  "sources": [
+                    {
+                      "source_id": "pahc.source.ignatius-letters",
+                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
+                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
+                      "locus": "Trallians 9 (the 'truly born...truly raised' chain)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "pahc.source.didache",
+                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
+                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
+                      "locus": "9 (thanksgiving 'made known to us through Jesus Thy Servant')",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "pahc.source.first-clement",
+                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
+                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
+                      "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.",
               "record_ids": [
                 "pahc.witness.who-was-jesus"
               ],
@@ -235,7 +271,7 @@
               ]
             },
             {
-              "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters, and in how he closes them.",
+              "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
               "record_ids": [
                 "pahc.witness.jesus-as-god"
               ],
@@ -301,7 +337,7 @@
               ]
             },
             {
-              "sentence": "None of the six of us whose own writing survives reaches for the word Trinity, and none of us explains how calling Jesus God fits together with calling the Father God.",
+              "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
               "record_ids": [
                 "pahc.witness.jesus-as-god"
               ],
@@ -376,16 +412,7 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "We say he was truly born - of Mary, from the line of David.",
-                "tags": [
-                  "pahc.witness.who-was-jesus"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "We say he truly ate and drank.",
+                "sentence": "He was a real man, not an idea.",
                 "tags": [
                   "pahc.witness.who-was-jesus"
                 ],
@@ -393,22 +420,39 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "We say he was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way some among our own neighbors claimed.",
+                "sentence": "One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David.",
                 "tags": [
                   "pahc.witness.who-was-jesus"
                 ],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "why": "grounded 57% in own tagged records",
+                "ratio": 0.57
               },
               {
-                "sentence": "And we say he was truly raised, and that we will be raised the same way, by the same Father.",
+                "sentence": "He truly ate and drank.",
                 "tags": [
                   "pahc.witness.who-was-jesus"
                 ],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed.",
+                "tags": [
+                  "pahc.witness.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 91% in own tagged records",
+                "ratio": 0.91
+              },
+              {
+                "sentence": "And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.",
+                "tags": [
+                  "pahc.witness.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 75% in own tagged records",
+                "ratio": 0.75
               },
               {
                 "sentence": "When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus.",
@@ -428,7 +472,7 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters, and in how he closes them.",
+                "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
                 "tags": [
                   "pahc.witness.jesus-as-god"
                 ],
@@ -453,7 +497,7 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "None of the six of us whose own writing survives reaches for the word Trinity, and none of us explains how calling Jesus God fits together with calling the Father God.",
+                "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
                 "tags": [
                   "pahc.witness.jesus-as-god"
                 ],
@@ -498,10 +542,10 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "pahc",
-          "text": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters, and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. \n\nNone of the six of us whose own writing survives reaches for the word Trinity, and none of us explains how calling Jesus God fits together with calling the Father God. We can tell you plainly that we called him God. We cannot tell you we had settled how.",
+          "text": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God. We cannot tell you we had settled how.",
           "citations": [
             {
-              "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters, and in how he closes them.",
+              "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
               "record_ids": [
                 "pahc.witness.jesus-as-god"
               ],
@@ -567,7 +611,7 @@
               ]
             },
             {
-              "sentence": "None of the six of us whose own writing survives reaches for the word Trinity, and none of us explains how calling Jesus God fits together with calling the Father God.",
+              "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
               "record_ids": [
                 "pahc.witness.jesus-as-god"
               ],
@@ -642,7 +686,7 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters, and in how he closes them.",
+                "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
                 "tags": [
                   "pahc.witness.jesus-as-god"
                 ],
@@ -667,7 +711,7 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "None of the six of us whose own writing survives reaches for the word Trinity, and none of us explains how calling Jesus God fits together with calling the Father God.",
+                "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
                 "tags": [
                   "pahc.witness.jesus-as-god"
                 ],
@@ -712,10 +756,10 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "pahc",
-          "text": "Yes. There were others who spoke about Jesus in our own time, in our own cities, and we did not recognize them as our own.\n\nOne teacher near us, Marcion, is remembered by his own opponents as finding the God of the older writings harsh and self-contradictory. He is said to have cut apart the Gospel of Luke and Paul's own letters over it. We should say plainly: what reaches you about him comes from his opponents, not from him. We did not follow him there.\n\nThere were others too - people teaching about Jesus in ways we named as wrong, loudly and often. One of us, Ignatius, wrote against those who said Jesus only seemed to be a man, that he only appeared to suffer. We called them wrong because they were teaching in our own neighborhoods, to people who might have joined us instead.\n\nThese rivals were not defeated in our own time. Marcion, Valentinian teaching, and the New Prophecy are live, contemporary, geographically overlapping neighbors. The boundary against them is being drawn in real time. Later orthodoxy's settled lines must never be read back.\n\nWe cannot give you their own words. Only the arguments we made against them.",
+          "text": "Yes. We need to tell you plainly that there were. \n\nOne teacher near us, Marcion, is remembered by his own opponents as finding the God of the older scriptures harsh and self-contradictory. He is said to have cut apart the Gospel of Luke and Paul's own letters over it. We should say plainly: what reaches you about him comes from his opponents, not from him. We did not follow him there. But even his opponents' account tells you the trouble was real enough in our own time that someone built a whole rejection out of it - at least as his enemies tell it.\n\nThere was also a movement some called the New Prophecy, spreading among churches in Asia near the very end of our own time. Churches there met - often, and in many places - over whether to receive it. And there were teachers like Valentinus, whose own followers were our neighbors, not people far away.\n\nWe have to be honest about what this means: Marcion, Valentinian teaching, and the New Prophecy were live, contemporary, geographically overlapping neighbors. The boundary against them was being drawn in real time. The settled lines that came later must never be read back into our own world.",
           "citations": [
             {
-              "sentence": "One teacher near us, Marcion, is remembered by his own opponents as finding the God of the older writings harsh and self-contradictory.",
+              "sentence": "One teacher near us, Marcion, is remembered by his own opponents as finding the God of the older scriptures harsh and self-contradictory.",
               "record_ids": [
                 "pahc.witness.hard-texts"
               ],
@@ -831,21 +875,114 @@
               ]
             },
             {
-              "sentence": "We called them wrong because they were teaching in our own neighborhoods, to people who might have joined us instead.",
+              "sentence": "But even his opponents' account tells you the trouble was real enough in our own time that someone built a whole rejection out of it - at least as his enemies tell it.",
               "record_ids": [
-                "pahc.gravity.boundary-drawing"
+                "pahc.witness.hard-texts"
               ],
               "sources": [
                 {
-                  "record_id": "pahc.gravity.boundary-drawing",
-                  "record_type": "gravity",
-                  "label": "Boundary-Drawing Against Contemporary Rival Movements - anti-docetic polemic",
+                  "record_id": "pahc.witness.hard-texts",
+                  "record_type": "doctrinal_witness",
+                  "label": "We would rather tell you the truth than a comfortable answer",
                   "sources": [
+                    {
+                      "source_id": "pahc.source.didache",
+                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
+                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
+                      "locus": "1-6 (the Two Ways as one community's own primary catechetical mode: concrete, direct instruction rather than difficult narrative - representativeness limit applies, see body)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "pahc.source.irenaeus-adversus-haereses",
+                      "author": "Irenaeus of Lyons (c. 130-c. 202 CE; formed in Smyrna under Polycarp, writing from Gaul c. 180)",
+                      "work": "Adversus Haereses (Against Heresies); a BOUNDARY WITNESS in two senses: its Book I is the fullest contemporary description of Valentinian teaching (hostile, but the principal source), and its four-Gospel, apostolic-succession argument is itself one of the three markers of this world's own closing (Doc_01 SS2.2) - a new systematic mode this world's voices do not yet speak",
+                      "locus": "Book I, ch. 27 (Marcion's rejection of the Jewish scriptures' God as harsh and self-contradictory, and his own mutilation of Luke's Gospel and Paul's letters, per this hostile witness)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "There was also a movement some called the New Prophecy, spreading among churches in Asia near the very end of our own time.",
+              "record_ids": [
+                "pahc.witness.god-and-argument"
+              ],
+              "sources": [
+                {
+                  "record_id": "pahc.witness.god-and-argument",
+                  "record_type": "doctrinal_witness",
+                  "label": "We believed in one God, maker of everything",
+                  "sources": [
+                    {
+                      "source_id": "pahc.source.justin-first-apology",
+                      "author": "Justin Martyr (writing in his own name to a named emperor)",
+                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
+                      "locus": "46 (the Logos present in 'every race of men')",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "pahc.source.first-clement",
+                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
+                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
+                      "locus": "42, 44 (the authority dispute at Corinth)",
+                      "rights_status": "public-domain"
+                    },
                     {
                       "source_id": "pahc.source.ignatius-letters",
                       "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
                       "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "the anti-docetic argument, present across several letters (e.g. Trallians 9, Smyrnaeans 1-7)",
+                      "locus": "passim (the monarchical-bishop program)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "pahc.source.anti-montanist-fragments",
+                      "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
+                      "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
+                      "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Churches there met - often, and in many places - over whether to receive it.",
+              "record_ids": [
+                "pahc.witness.god-and-argument"
+              ],
+              "sources": [
+                {
+                  "record_id": "pahc.witness.god-and-argument",
+                  "record_type": "doctrinal_witness",
+                  "label": "We believed in one God, maker of everything",
+                  "sources": [
+                    {
+                      "source_id": "pahc.source.justin-first-apology",
+                      "author": "Justin Martyr (writing in his own name to a named emperor)",
+                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
+                      "locus": "46 (the Logos present in 'every race of men')",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "pahc.source.first-clement",
+                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
+                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
+                      "locus": "42, 44 (the authority dispute at Corinth)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "pahc.source.ignatius-letters",
+                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
+                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
+                      "locus": "passim (the monarchical-bishop program)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "pahc.source.anti-montanist-fragments",
+                      "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
+                      "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
+                      "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -868,16 +1005,15 @@
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "There were others who spoke about Jesus in our own time, in our own cities, and we did not recognize them as our own.",
+                "sentence": "We need to tell you plainly that there were.",
                 "tags": [
                   "pahc.witness.god-and-argument"
                 ],
                 "verdict": "withhold",
-                "why": "specific claim (proper-noun:['jesus']) only 17% grounded in its own tags",
-                "ratio": 0.17
+                "why": "tagged claim sharing no content word with its own tagged records"
               },
               {
-                "sentence": "One teacher near us, Marcion, is remembered by his own opponents as finding the God of the older writings harsh and self-contradictory.",
+                "sentence": "One teacher near us, Marcion, is remembered by his own opponents as finding the God of the older scriptures harsh and self-contradictory.",
                 "tags": [
                   "pahc.witness.hard-texts"
                 ],
@@ -911,71 +1047,62 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "There were others too - people teaching about Jesus in ways we named as wrong, loudly and often.",
-                "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (proper-noun:['jesus']) with no citation tag"
-              },
-              {
-                "sentence": "One of us, Ignatius, wrote against those who said Jesus only seemed to be a man, that he only appeared to suffer.",
+                "sentence": "But even his opponents' account tells you the trouble was real enough in our own time that someone built a whole rejection out of it - at least as his enemies tell it.",
                 "tags": [
-                  "pahc.witness.who-was-jesus"
-                ],
-                "verdict": "withhold",
-                "why": "specific claim (proper-noun:['ignatius', 'jesus']) only 38% grounded in its own tags",
-                "ratio": 0.38
-              },
-              {
-                "sentence": "We called them wrong because they were teaching in our own neighborhoods, to people who might have joined us instead.",
-                "tags": [
-                  "pahc.gravity.boundary-drawing"
+                  "pahc.witness.hard-texts"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "These rivals were not defeated in our own time.",
+                "sentence": "There was also a movement some called the New Prophecy, spreading among churches in Asia near the very end of our own time.",
                 "tags": [
-                  "pahc.caution.rivals-undefeated"
+                  "pahc.witness.god-and-argument"
                 ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
-              },
-              {
-                "sentence": "Marcion, Valentinian teaching, and the New Prophecy are live, contemporary, geographically overlapping neighbors.",
-                "tags": [
-                  "pahc.caution.rivals-undefeated"
-                ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
-              },
-              {
-                "sentence": "The boundary against them is being drawn in real time.",
-                "tags": [
-                  "pahc.caution.rivals-undefeated"
-                ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
-              },
-              {
-                "sentence": "Later orthodoxy's settled lines must never be read back.",
-                "tags": [
-                  "pahc.caution.rivals-undefeated"
-                ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
-              },
-              {
-                "sentence": "We cannot give you their own words.",
-                "tags": [],
                 "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
               },
               {
-                "sentence": "Only the arguments we made against them.",
-                "tags": [],
+                "sentence": "Churches there met - often, and in many places - over whether to receive it.",
+                "tags": [
+                  "pahc.witness.god-and-argument"
+                ],
                 "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "And there were teachers like Valentinus, whose own followers were our neighbors, not people far away.",
+                "tags": [
+                  "pahc.caution.rivals-undefeated"
+                ],
+                "verdict": "withhold",
+                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
+              },
+              {
+                "sentence": "We have to be honest about what this means: Marcion, Valentinian teaching, and the New Prophecy were live, contemporary, geographically overlapping neighbors.",
+                "tags": [
+                  "pahc.caution.rivals-undefeated"
+                ],
+                "verdict": "withhold",
+                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
+              },
+              {
+                "sentence": "The boundary against them was being drawn in real time.",
+                "tags": [
+                  "pahc.caution.rivals-undefeated"
+                ],
+                "verdict": "withhold",
+                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
+              },
+              {
+                "sentence": "The settled lines that came later must never be read back into our own world.",
+                "tags": [
+                  "pahc.caution.rivals-undefeated"
+                ],
+                "verdict": "withhold",
+                "why": "unresolvable record id(s): ['pahc.caution.rivals-undefeated']"
               }
             ],
             "substantive_survives": true

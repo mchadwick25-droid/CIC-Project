@@ -360,6 +360,34 @@ def test_cli_audit_writes_all_layers_and_keeps_participant_text_out_of_fleet(tmp
     assert all(c["ask"] != "what about zebra quills" for c in canon["candidates"])
 
 
+def test_utilization_counts_distinct_cited_against_shelf(tmp_path):
+    """Mark, 2026-08-29: 'what percentage of the current sources are being
+    accessed' - distinct cited ids per world vs the citable shelf; record
+    ids only, so the block rides the fleet layer."""
+    from engine.m7.report import build_rollup, build_utilization
+    store, i_sid, t_sid = _sessions(tmp_path)
+    audits = [run_all(read_session(store, s)) for s in (i_sid, t_sid)]
+    shelves = {
+        "des": {"citable_ids": ["des.source.apophthegmata-1", "des.story.cell-visit", "des.story.unused"],
+                "by_type": {"source?": []}},
+    }
+    # note: des.source.* isn't a citable type in production shelves; here the
+    # shelf is authored directly, which is the contract - the rollup counts
+    # against whatever shelf the caller supplies.
+    shelves["des"]["by_type"] = {"story": ["des.story.cell-visit", "des.story.unused"],
+                                 "source": ["des.source.apophthegmata-1"]}
+    util = build_utilization(audits, shelves)
+    d = util["des"]
+    assert d["citable"] == 3
+    # interview cited apophthegmata-1 + story.cell-visit; table cited apophthegmata-1
+    assert d["cited_distinct"] == 2 and sorted(d["cited_ids"]) == ["des.source.apophthegmata-1", "des.story.cell-visit"]
+    assert d["by_type"]["story"] == {"cited": 1, "total": 2}
+    rollup = build_rollup(audits, shelves)
+    assert rollup["utilization"]["des"]["pct"] == round(2 / 3 * 100, 1)
+    # no shelves -> block absent, rollup still builds
+    assert build_rollup(audits)["utilization"] is None
+
+
 def test_cli_since_scopes_the_sweep(tmp_path):
     store, i_sid, t_sid = _sessions(tmp_path)
     out = tmp_path / "audit-out-since"

@@ -48,15 +48,77 @@ class CheckResult:
     findings: list[str] = field(default_factory=list)
 
 
+# The miscopy floor mirrors the compiler's own measured demo-tag floor
+# (engine/m2/builders.py: DEMONSTRATION_TAG_FLOOR 0.4 ratio + 3 shared
+# content words, set on a 444-sentence study) - the same two-gate
+# discipline, applied to the question "does this sentence's content live
+# in ANY of this world's records?".
+_MISCOPY_RATIO_FLOOR = 0.4
+_MISCOPY_MIN_SHARED = 3
+
+
+def _sentence_verifies(sentence: str, repository_records: dict) -> list[str]:
+    """Record ids whose own text contains this sentence's content at the
+    miscopy floor - deterministic, no model call."""
+    from engine.prose import all_text, content_words
+    words = content_words(sentence)
+    if not words:
+        return []
+    hits = []
+    for rid, record in repository_records.items():
+        record_words = content_words(all_text(record))
+        if not record_words:
+            continue
+        shared = words & record_words
+        ratio = len(shared) / min(len(words), len(record_words))
+        if ratio >= _MISCOPY_RATIO_FLOOR and len(shared) >= _MISCOPY_MIN_SHARED:
+            hits.append(rid)
+    return sorted(hits)
+
+
 def source_boundedness_check(
     transcript: MaskedTranscript,
     known_source_ids: set[str],
     evidence_status_ids: set[str] = frozenset(),
+    repository_records: dict | None = None,
 ) -> CheckResult:
     assert_blind(transcript)
     citations = transcript["citations"]
     unresolved = [c for c in citations if c not in known_source_ids and c not in evidence_status_ids]
     if unresolved:
+        # Option A (Mark's ruling, 2026-08-29, "option A, run it"): an
+        # unresolvable ADDRESS on a sentence whose content verifies
+        # against the world's own records is a MISCOPIED ADDRESS - a
+        # review finding routed to the build - not a fabrication. Five
+        # battery runs characterized the split: every invented address
+        # ever caught sat on an honest or otherwise-grounded sentence
+        # (~1%/probe baseline); no run ever produced fabricated CONTENT.
+        # The zero-fabrication bar keeps meaning invented CLAIMS: a
+        # sentence whose content verifies NOWHERE still fails exactly as
+        # before, as does any unresolved id whose carrying sentence can't
+        # be located.
+        entries = transcript.get("citation_entries") or []
+        if repository_records:
+            still_fabricated, miscopies = [], []
+            for rid in unresolved:
+                sentences = [e.get("sentence", "") for e in entries if rid in (e.get("record_ids") or [])]
+                verified_against = sorted({hit for s in sentences for hit in _sentence_verifies(s, repository_records)})
+                if sentences and verified_against:
+                    miscopies.append((rid, verified_against))
+                else:
+                    still_fabricated.append(rid)
+            if not still_fabricated:
+                return CheckResult(
+                    check="source_boundedness",
+                    passed=True,
+                    findings=[
+                        f"probe {transcript['probe_id']}: MISCOPIED ADDRESS (review, route to build): {rid} does not "
+                        f"exist, but its sentence's content verifies against {hits[:4]} - an address error on real "
+                        f"content, not a fabrication (Option A, Mark's ruling 2026-08-29)"
+                        for rid, hits in miscopies
+                    ],
+                )
+            unresolved = still_fabricated
         return CheckResult(
             check="source_boundedness",
             passed=False,

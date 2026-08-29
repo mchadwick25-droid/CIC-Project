@@ -48,10 +48,42 @@ def write_session_audit(out_dir: Path, audit: dict) -> Path:
     return path
 
 
-def build_rollup(audits: list[dict]) -> dict:
+def build_utilization(audits: list[dict], shelves: dict[str, dict] | None) -> dict | None:
+    """Corpus utilization per world (Mark, 2026-08-29: "what percentage of
+    the current sources are being accessed"): the union of every record id
+    cited across these sessions, against each world's citable shelf.
+    `shelves` maps world_key -> {"citable_ids": [...], "by_type": {type:
+    [ids...]}} (the CLI builds it from the pinned packages, read-only).
+    Record ids only - no participant text."""
+    if not shelves:
+        return None
+    cited: dict[str, set] = {}
+    for a in audits:
+        for rid in a.get("cited_record_ids") or []:
+            cited.setdefault(rid.split(".", 1)[0], set()).add(rid)
+    out = {}
+    for world, shelf in sorted(shelves.items()):
+        citable = set(shelf.get("citable_ids") or [])
+        hit = cited.get(world, set()) & citable
+        by_type = {}
+        for rtype, ids in sorted((shelf.get("by_type") or {}).items()):
+            n_hit = len(hit & set(ids))
+            by_type[rtype] = {"cited": n_hit, "total": len(ids)}
+        out[world] = {
+            "citable": len(citable),
+            "cited_distinct": len(hit),
+            "pct": round(len(hit) / len(citable) * 100, 1) if citable else None,
+            "by_type": by_type,
+            "cited_ids": sorted(hit),
+        }
+    return out
+
+
+def build_rollup(audits: list[dict], shelves: dict[str, dict] | None = None) -> dict:
     """The fleet aggregate. Reads only non-participant keys; findings ride
     whole because a Finding never carries participant text by contract
-    (instruments.Finding: voice text and ids only)."""
+    (instruments.Finding: voice text and ids only). `shelves` (optional,
+    CLI-built from the pinned packages) turns on the utilization block."""
     severity_counts: Counter = Counter()
     instrument_counts: Counter = Counter()
     findings = []
@@ -101,6 +133,7 @@ def build_rollup(audits: list[dict]) -> dict:
             "mean_fre": round(fre_sum / scored, 2) if scored else None,
         },
         "sessions": sessions_summary,
+        "utilization": build_utilization(audits, shelves),
     }
 
 
@@ -152,6 +185,16 @@ def write_digest(out_dir: Path, rollup: dict) -> Path:
         "",
         ", ".join(f"{k}: {v}" for k, v in sorted(rollup["offer_rates"].items())) or "no citations recorded",
         "",
+    ]
+    util = rollup.get("utilization")
+    if util:
+        lines += ["## Corpus utilization", "",
+                  "Distinct records cited across these sessions, against each world's citable shelf:", ""]
+        for w, u in util.items():
+            types = ", ".join(f"{t} {v['cited']}/{v['total']}" for t, v in u["by_type"].items() if v["total"])
+            lines.append(f"- **{w}**: {u['cited_distinct']}/{u['citable']} ({u['pct']}%) — {types}")
+        lines.append("")
+    lines += [
         "## Lineage",
         "",
         f"Computed from session_ids: {', '.join(rollup['lineage_session_ids']) or 'none'}",
