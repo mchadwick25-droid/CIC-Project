@@ -1352,3 +1352,65 @@ merged over the register-reach pins cleanly, staleness 7/7, suite 530.
 session):** six doorway_description paragraphs (alx, pahc, desert, hal,
 syr, ijc) and four rewritten subtitle lines (syr, desert, pahc, ijc) -
 full text in records/worlds.yaml.
+
+---
+
+## 2026-08-29 — THE REVERT merged (Mark: "merge it"): the voice restored,
+breadth made a system function, the admission instrument taught the
+address/fabrication distinction
+
+**The heart of it, in Mark's own words:** "the rulings tonight are not
+helping, they are degrading the quality of speach significantly, we are
+trying to tweek with fix on fix that i have told you not to do... take
+it back to when it was working, all i wanted was she drew from more
+than ignatious." And: "i want the drawing from other sources to be a
+system funtion not a forced thing for one question."
+
+**What merged, verified as one piece (admission 168/168, table 4/4,
+Chloe repro read by Mark - who-is-Jesus at FK 6.7/FRE 78, alive):**
+1. **The revert.** fleet_voice restored to fleet-parity + ONLY the
+   pronoun frame clause; register_hold, story_quote_reach, and the
+   citation-address addendum removed; the Table's exact-sentence
+   prescription removed (it taught identical openings and, at worst,
+   byte-verbatim copying). The lesson is written into the record body:
+   quality comes from records and retrieval, never accreting prompt
+   instruction.
+2. **Breadth as a system function.** evidence._diverse_take: turn-level
+   source diversity (one family per slot when the cell allows) +
+   session-level downgrade (families already cited this session are
+   looked to last, never banned - "like ignatious in pahc"). Same slots,
+   same floors, deterministic, no prompt text.
+3. **Five honest-limit records** (pahc enslaved-voices/womens-own-words/
+   ordinary-majority; desert communal-wrong-unrepaired; syr
+   ritual-sequence) - the fleet's named structural silences now have
+   citable addresses; every previously-caught phantom-tag site has
+   stayed clean since its record landed. demo_tag: exclude opt-outs on
+   all five (two statistical tagger bars measured and rejected; the full
+   tagging study queued).
+4. **The Trinity trim** (Mark: "she shouldnt even know the term"):
+   pahc's spoken witness and demo answer carry the limit without the
+   later word; the Facilitator and modern-term machinery own the
+   time-bridge; the participant's demo line keeps the word.
+5. **Option A admission instrument** (Mark's ruling after five runs
+   characterized the ~1%/probe invented-address baseline): a
+   miscopied address on a sentence whose content verifies against the
+   world's own records = review finding, routed to build; fabricated
+   content, unlocatable sentences, legacy callers = fail exactly as
+   before. Fixtures are the real desert/hal cases.
+6. **M7 grew:** utilization instrument (distinct cited records vs each
+   world's citable shelf, per world per type, in the daily digest) and
+   cited_record_ids per session.
+
+**Cost, calibrated:** AWS actual $31.25 month-to-date reconciled the
+rate-card estimates to within a few percent. Interview ~2.5 cents/turn
+(~25-28 cents per capped session - Mark's target met at designed
+usage); table ~8-10 cents/round (~45-50 cents per session - target met);
+admission cycle ~$2.50-3; table sitting ~$0.50.
+
+**The queue (read-notes in The Register Read):** back-to-back witness
+paragraph repetition (witnesses sit outside already-told marking);
+Pliny/Justin unreached for divinity asks on cell filing (curation, not
+hand-forcing); the two Table L4 residuals (opening parroting,
+subject-world self-hearsay) proven model-level under clean instruction -
+awaiting Mark's echo-guard and round-design rulings; the demo-tagging
+study; the M8 cache-bucket recorder gap on table paths.
