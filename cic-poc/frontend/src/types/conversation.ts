@@ -24,6 +24,11 @@ export interface SourceCard {
   record_type: string;
   label: string;
   sources: SourceReference[];
+  // Quote records spoken in a build-authored modern rendering (Mark's
+  // ruling, 2026-08-28) carry both forms: what was said at the table and
+  // the original wording, shown on the click page.
+  spoken_rendering?: string | null;
+  original_wording?: string | null;
 }
 
 export interface Citation {

@@ -206,7 +206,11 @@ def _head_text(record: dict) -> str:
     if record_type == "story":
         return record.get("tellable_as") or record.get("text") or ""
     if record_type in ("quote",):
-        return record.get("text") or ""
+        # The speakable form: the build-authored modern_rendering where one
+        # exists (Mark's ruling, 2026-08-28 - archaic quotes are translated
+        # in the build, never improvised live), the original otherwise. The
+        # original stays reachable to the net via all_text either way.
+        return record.get("modern_rendering") or record.get("text") or ""
     if record_type == "doctrinal_witness":
         return record.get("text") or "; ".join(record.get("positions") or [])
     if record_type == "honest_limit":

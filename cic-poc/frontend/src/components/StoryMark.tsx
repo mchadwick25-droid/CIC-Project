@@ -51,6 +51,12 @@ export function StoryMark({ sources }: StoryMarkProps) {
             <div key={card.record_id} className="turn__sources-card">
               <p className="turn__sources-label">{card.label}</p>
               <p className="story-mark__ref">{card.record_id}</p>
+              {card.original_wording && (
+                <div className="story-mark__original">
+                  <p className="story-mark__original-label">Original wording</p>
+                  <blockquote>{card.original_wording}</blockquote>
+                </div>
+              )}
               <SourceList sources={card.sources} empty="No source recorded for this." />
             </div>
           ))}

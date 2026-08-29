@@ -440,6 +440,30 @@ button {
   color: var(--color-text-muted);
 }
 
+/* Original wording of a quote spoken in its modern rendering (Mark's
+   ruling, 2026-08-28): the click page carries both forms. */
+.story-mark__original {
+  margin-top: 8px;
+}
+
+.story-mark__original-label {
+  margin: 0;
+  font-family: var(--font-family-ui);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+}
+
+.story-mark__original blockquote {
+  margin: 4px 0 0;
+  padding-left: 10px;
+  border-left: 2px solid var(--color-border);
+  font-style: italic;
+  font-size: 0.88rem;
+}
+
 /* General References (GeneralReferences.tsx) - the fourth track,
    deliberately NOT the InlineBridge grammar: Mark's own correction
    (2026-08-25) that a reference belongs at the end of the answer, never
