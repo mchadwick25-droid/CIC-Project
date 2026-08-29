@@ -17,6 +17,9 @@ sources:
   locus: "SS80 - Antony to the philosophers, immediately after demoniacs brought before them were healed at his signing of the cross"
   license: public-domain
 text: "Why marvel ye at this? We are not the doers of these things, but it is Christ who worketh them by means of those who believe on Him."
+modern_rendering: >-
+  Why do you marvel at this? We are not the doers of these things. It is
+  Christ who does them, by means of those who believe in him.
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "Reads today like modesty. In context it is a claim about agency: the healing is
@@ -42,3 +45,5 @@ The operative Christology of this world, stated in one sentence: Christ is not a
 recalled but an agent presently working, and the monk is the means rather than the
 cause. It is the direct answer to a participant who reads this world's discipline as
 self-reliance, and the corpus had no record carrying it.
+
+MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
