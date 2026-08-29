@@ -1468,3 +1468,25 @@ modern story prose - acceptable, revisit with the story repository);
 live probes for alx/hal/desert/pahc (only ijc and syr probed, per the
 per-run spend rule); the round-design fix still parked on its own
 branch awaiting its battery.
+
+## 2026-08-29 (night) - THE ROUND-DESIGN FIX merged
+
+Mark's ruling: "make the round design fix, papnoute confirms from his
+own witness." The last residual the P1/P2/P3 batteries isolated: the
+subject-world voice performing hearsay about itself.
+
+Structural, in the round loop - never a forced saying: the loop
+detects deterministically when the participant's question names a
+voice's own world (representative or display name; a leading vocative
+is the addressee, not the subject) and swaps that one voice's frame
+from the hearsay rule to the witness stance. Certified on the F1
+battery over the translated pins: L1/L2/L3/L6 auto-PASS, zero
+isolation violations, and Papnoute's L4 turn confirms from his own
+witness - "What he has heard is real, but it is a fragment... If you
+want to know our world, ask us." Merged on Mark's "merge it";
+awaiting his Render sync confirmation.
+
+Queue unchanged: opening parroting (three of Theon's summary sentences
+copied byte-for-byte by a later voice) persists exactly as before the
+fix - its own ruling pending. The "## Response" header one-off and the
+delivery-side leading-header strip remain queued hygiene candidates.
