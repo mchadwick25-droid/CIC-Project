@@ -220,7 +220,44 @@ def table_history_for(world_key: str, transcript: list[dict], labels: dict[str, 
     return history, pending
 
 
-def _context_prefix(pending: list[str]) -> str | None:
+def _own_world_named(world_key: str, worlds: dict, message: str) -> bool:
+    """THE ROUND-DESIGN FIX (Mark's ruling, 2026-08-29: "make the round
+    design fix, papnoute confirms from his own witness"). Deterministic:
+    the participant's message names this voice's own representative or its
+    world's display name -> this voice's world is the SUBJECT under
+    discussion, and its turn is framed as the witness confirming, never as
+    hearsay about itself. Four seatings of battery evidence showed the
+    subject-world voice otherwise adopting the round's hearsay frame about
+    itself ("what Marius himself has said... His world is not ours" -
+    spoken by Marius). Name-matching only - no model call, no guess: a
+    subject the message never names falls back to the ordinary frame,
+    where the own-world boundary line already applies."""
+    world = worlds.get(world_key)
+    if world is None:
+        return False
+    lowered = message.lower().strip()
+    names = [
+        (world.frame.get("representative") or {}).get("name") or "",
+        world.frame.get("display_name") or "",
+    ]
+    for n in names:
+        n = n.lower()
+        if not n:
+            continue
+        idx = lowered.find(n)
+        while idx != -1:
+            after = lowered[idx + len(n):idx + len(n) + 1]
+            # A leading vocative is the ADDRESSEE, not the subject:
+            # "Theon, tell me about Papnoute's world" names Theon only to
+            # hand him the floor - counting it would tell the addressee
+            # his own world is under discussion when it is not.
+            if not (idx == 0 and after in (",", ":")):
+                return True
+            idx = lowered.find(n, idx + len(n))
+    return False
+
+
+def _context_prefix(pending: list[str], *, own_world_is_subject: bool = False) -> str | None:
     """Tightened 2026-08-28 after the first live smoke run, on Mark's read
     of the transcript. Two corrections, both his calls:
 
@@ -244,6 +281,29 @@ def _context_prefix(pending: list[str]) -> str | None:
     single-voice interview's length is untouched."""
     if not pending:
         return None
+    # THE REVERT (2026-08-29): the exact-sentence prescription is GONE - it
+    # taught identical openings and, at worst, byte-verbatim copying. The
+    # rule survives as meaning, in we-voice per Mark's option (a).
+    # THE ROUND-DESIGN FIX (same day, Mark's ruling): when the round loop
+    # detects that THIS voice's own world is the question's subject
+    # (_own_world_named), the hearsay frame is replaced structurally - the
+    # subject voice is the witness, confirming or correcting what the Table
+    # has said of it. The loop chooses the frame; the voice is never asked
+    # to work out which side of the rule it is on mid-turn.
+    if own_world_is_subject:
+        stance = (
+            "The participant has been asking the Table about YOUR OWN world - yours is the one under "
+            "discussion, and what the others have said about it stands above. You are not reporting "
+            "hearsay about yourself: you are the witness. Confirm or correct what has been said of your "
+            "world from your own records, in your own we-voice, and add what you would add. "
+        )
+    else:
+        stance = (
+            "If the participant asks you about another voice's world, say plainly, in your own we-voice, "
+            "that we know only what we have heard at this Table. That rule is about the other voices' "
+            "worlds, never your own: if the question touches your own world, answer from your own witness "
+            "as you always do. "
+        )
     return (
         "What has been said at the Table since your last turn:\n"
         + "\n\n".join(pending)
@@ -252,18 +312,8 @@ def _context_prefix(pending: list[str]) -> str | None:
         "conversation. You have no knowledge of their worlds, their traditions, their practices, or their "
         "people beyond their own spoken words above - and no memory of meeting them before this Table. "
         "Engage what they actually said where it genuinely touches your own world's witness; never "
-        # THE REVERT (2026-08-29, Mark: "take it back to when it was
-        # working... make sure there are not other things that are forced
-        # saying"): the exact-sentence prescription is GONE - it taught the
-        # voices to open identically and, at its worst, to copy a prior
-        # speaker's whole displayed turn byte-for-byte (the cycle-2 battery's
-        # verbatim-parroting finding). What remains is the rule itself, in
-        # we-voice per Mark's option (a), plus the one-line own-world
-        # boundary - meaning, not mandated words.
-        "describe, summarize, or characterize their world yourself. If the participant asks you about "
-        "another voice's world, say plainly, in your own we-voice, that we know only what we have heard "
-        "at this Table. That rule is about the other voices' worlds, never your own: if the question "
-        "touches your own world, answer from your own witness as you always do. "
+        "describe, summarize, or characterize their world yourself. "
+        + stance +
         "What another voice has said is THEIR witness, never yours: never retell their stories, figures, "
         "or claims in your own world's first person - your 'we' and 'our' reach only what your own world "
         "holds. Everything you say about your OWN world stays grounded in your own records, exactly as "
@@ -443,7 +493,10 @@ def _advance_open_round(
             already_bridged_figure_ids=already_figures,
             already_bridged_gloss_ids=already_glosses,
             history=history,
-            context_prefix=_context_prefix(pending),
+            context_prefix=_context_prefix(
+                pending,
+                own_world_is_subject=_own_world_named(selection.world_key, worlds, voice_message),
+            ),
             usage_world_key=selection.world_key,
         )
     except UnhandledRoutingAction:
