@@ -1330,3 +1330,25 @@ channel; the quote modern_rendering translation passes (syr/desert
 first). The live pahc repro of Mark's phone conversation is in
 engine/m4/reports/live-turn-report-pahc.json - the false "no other
 voices" did not reproduce under these prompts.
+
+---
+
+## 2026-08-29 — Doorway prose MERGED (Mark: "i approve the prose, merge
+the doorway branch")
+
+The six plain-English arrival paragraphs and subtitle lines are live
+prose, registry-owned (doorway_description + doorway_place, served
+registry-first like card_name). The model-facing horizon and place stay
+byte-identical - a trial recompile during the build proved both feed the
+voice capsule, which is why the participant-facing register lives in its
+own fields. All six paragraphs measure FK 6.9-9.0 on the M7 readability
+instrument (the first drafts measured FK 12-16 and were rewritten - the
+audit disciplining its own author). The "studied as" scholarly line now
+renders only when it is a genuinely different name (hal keeps it; syr's
+restatement is gone). Zero package manifests touched by this branch;
+merged over the register-reach pins cleanly, staleness 7/7, suite 530.
+
+**Prose inventory (participant-facing, all Mark-approved verbatim in
+session):** six doorway_description paragraphs (alx, pahc, desert, hal,
+syr, ijc) and four rewritten subtitle lines (syr, desert, pahc, ijc) -
+full text in records/worlds.yaml.
