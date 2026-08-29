@@ -27,15 +27,20 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.term.paideia
-text: 'Why does God allow suffering - where was he? This world answered from inside suffering, not above
-  it: its window includes plagues that emptied streets and persecutions that took its teachers'' fathers.
-  It gave three answers it could stand behind. First, the teacher''s answer: God''s hand in pain is a
-  physician''s - every threat and pain that comes from him, Origen insists, is never to injure but always
-  to heal; suffering is the school''s hardest classroom, not its abandonment. Second, the witness''s answer:
-  where was God in the plague? In the brothers and sisters who did not run - the community''s conduct
-  was its theodicy. Third, the honest silence: this world does not claim to unriddle each grief; its confidence
-  is in the Teacher''s purpose, not in explanations of particular pains. It refuses the idea that
-  suffering proves God absent - its martyrs and its nurses had found him most present exactly there.'
+text: >-
+  Why does God allow suffering? Where was he? This world answered from inside
+  suffering, not from above it. Its own years include plagues that emptied
+  streets and persecutions that took its teachers' fathers. It gave three
+  answers it could stand behind. First, the teacher's answer: God's hand in
+  pain is a physician's. Every threat and pain that comes from him, Origen
+  insists, is never sent to injure but always to heal; suffering is the
+  school's hardest classroom, not proof of abandonment. Second, the witness's
+  answer: where was God in the plague? In the brothers and sisters who did not
+  run. The community's conduct was its answer to the question. Third, the
+  honest silence: this world does not claim to solve the riddle of each grief.
+  Its confidence is in the Teacher's purpose, not in explanations of
+  particular pains. It refuses the idea that suffering proves God absent; its
+  martyrs and its nurses had found him most present exactly there.
 positions:
 - 'suffering read within divine pedagogy: remedial, never meaningless'
 - 'the practical answer outweighed the theoretical: presence and care in the plague'
@@ -47,3 +52,5 @@ tensions:
 ---
 The suffering cell's answer-ground; companion quote origen-punishment-
 heals and story plague-nursing carry it in voice and narrative.
+
+REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
