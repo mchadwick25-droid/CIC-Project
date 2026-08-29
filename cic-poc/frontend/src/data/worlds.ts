@@ -3,7 +3,7 @@
  * color, neither of which the registry carries (records/worlds.yaml has no
  * per-world color; portraits are static files already wired for the old
  * World Selector, reused as-is). Everything else about a world - display
- * name, representative, period, place, thinness statement, horizon, starter
+ * name, representative, period, place, thinness statement, doorway description, starter
  * questions - now comes from GET /api/worlds (see hooks/useWorlds.ts),
  * which reads it straight from the compiled package rather than a
  * hand-copied second version of the registry. That second copy is exactly
@@ -53,7 +53,9 @@ export interface WorldEntry {
   eraStart: number;
   eraEnd: number;
   thinnessStatement: string;
-  horizon: string | null;
+  // Plain-English doorway paragraph (registry-owned; the API's model-facing
+  // horizon is folded in as the fallback at the useWorlds mapping).
+  doorwayDescription: string | null;
   livingTraditionFlag: boolean;
   starters: WorldStarter[];
   portraitImage: string;

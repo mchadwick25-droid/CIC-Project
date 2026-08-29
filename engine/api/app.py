@@ -120,6 +120,10 @@ class WorldSummary(BaseModel):
     time_window: dict | None
     place: str | None
     thinness_statement: str | None
+    # The participant-facing doorway paragraph (registry-owned, plain
+    # English); horizon is the model-facing world_core self-description the
+    # doorway used to reuse verbatim, kept as the client-side fallback.
+    doorway_description: str | None = None
     horizon: str | None
     living_tradition_flag: bool
     starters: list[dict]

@@ -23,6 +23,27 @@ worlds:
     display_name: "Alexandrian Christianity"
     time_window: {start: 150, end: 400}
     place: "Alexandria and Egypt"
+    # doorway_place: the participant-facing subtitle line, one per formation world
+    # (uniform key set, cross_world-enforced). Here it matches `place` - the
+    # split only earns different values where the model-facing locator is a
+    # build catalogue (desert) or restates the horizon (syr); `place` itself is
+    # MODEL-FACING (it compiles into the voice capsule's "Place:" line).
+    doorway_place: "Alexandria and Egypt"
+    # doorway_description: the participant-facing doorway paragraph, REGISTRY-OWNED
+    # (Mark's direction 2026-08-28: "simple modern english that introduces scholor
+    # terms when approptiate" - the doorway had been reusing the world_core's
+    # model-facing `horizon` verbatim, which restated the place line and read like
+    # an abstract). Served registry-first by engine/api/wiring.list_worlds, same
+    # pattern as card_name; `horizon` itself is untouched and still feeds the
+    # voice's own prompt. Fleet-wide field, one per formation world.
+    doorway_description: >-
+      Alexandria was the Roman world's great city of learning. Its church made
+      teaching the heart of the faith. New believers were formed by years of
+      staged instruction before baptism. Teachers like Clement and Origen read
+      Scripture in layers: the plain story, and the deeper meaning inside it.
+      They were confident that Greek learning could serve Christ rather than
+      threaten him. In this world, faith grows the way understanding grows - by
+      study, questions, and a teacher's patient guidance.
     card_name: "Alexandrian Christianity"   # BOTH name registers, Mark's ruling 2026-08-28: card_name is the friendly participant-facing name ("the right picture in their mind") used on cards and the Atlas; display_name stays the scholarly name ("to show rigor"). The registry owns both; the census derives (cross_world checks it).
     representative: {name: Theon, role_label: "Catechetical Teacher"}   # sanctioned fabrications (spec principle 14) - RULED by Mark, 2026-08-21, in session ("for the name and role: Theon / Catechetical Teacher")
     state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
@@ -38,6 +59,23 @@ worlds:
     display_name: "Desert Monasticism"
     time_window: {start: 320, end: 430}
     place: "Egyptian and Palestinian desert monasticism - Nitria, Kellia, Scetis (Strand C, semi-anchoritic), Pispir/the inner mountain (Strand A, anchoritic), Tabennesi and the Pachomian federation (Strand B, cenobitic)"
+    # doorway_place: the participant-facing subtitle line (Mark's plain-English
+    # doorway direction, 2026-08-28). `place` above stays untouched because it is
+    # MODEL-FACING: it compiles into the voice capsule's own "Place:" line (proven
+    # by diffing a trial recompile), so rewriting it would change the voice's
+    # prompt - the strand catalogue is exactly the precision the model should
+    # keep. Served registry-first by engine/api/wiring.list_worlds.
+    doorway_place: "The Egyptian desert - Nitria, Kellia, Scetis, and the monasteries of the Nile valley"
+    doorway_description: >-
+      In the 300s, thousands of men and women left Egypt's villages for the
+      desert. They believed that becoming like Christ meant leaving ordinary
+      life behind. Some lived alone, following Antony's example. Some lived in
+      large communities under Pachomius's written rule. Many settled in loose
+      clusters of cells around a shared church. What bound them together was the
+      daily fight against tempting thoughts, work done with their own hands, and
+      elders trusted because their lives had been tested. Above every other
+      virtue they honored discernment: the skill of judging how much any one
+      person can bear.
     card_name: "Desert Fathers and Mothers"
     representative: {name: Papnoute, role_label: "Abba (Elder)"}   # sanctioned fabrications (spec principle 14) - name and role CONFIRMED by Mark, in chat, 2026-08-22, carrying forward the prior-framework decision (World-Builds/Desert-Monasticism/CiC_W3_Representative_Identity_Preliminary_Decision.md: Papnoute, Abba/Elder, drawn from Strand C's own richest cross-strand-attested material, with the binding "whole-world representation" instruction that the Representative speak for Strands A, B, and C together). Role rendered here as "Abba (Elder)" to preserve the prior decision's own stated reasoning for Abba specifically (this world's own native, popularly-recognized address term) alongside the plain-English gloss Mark's own confirming message used. This confirmation checked the identity against this build's own completed content canon (Steps 2-4, Doc_08) and found it holds on every axis the prior decision named, with one further axis (whole-world representation, exercised by the demonstration set specifically) found only partially exercised and named honestly rather than certified - see records/desert/voice_craft/desert.voice.craft.md's own trailing confirmation note for the full check, including one newly-found cost (three distinct historical men named Paphnutius appear in this build's own source/force apparatus, never in compiled-facing content) carried forward alongside the prior decision's own already-named external cost.
     state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
@@ -53,6 +91,16 @@ worlds:
     display_name: "Post-Apostolic House-Church Christianity"
     time_window: {start: 70, end: 200}
     place: "Antioch/Syria, Asia Minor, Rome"
+    doorway_place: "Antioch, the cities of Asia Minor, and Rome"
+    doorway_description: >-
+      After the apostles died, the church lived in ordinary houses.
+      Greek-speaking believers gathered around household tables in Antioch, in
+      the cities of Asia Minor, and in Rome. Letters held these scattered
+      communities together. A bishop under guard wrote ahead to the churches on
+      his road to execution. Rome wrote at length to settle a quarrel in
+      Corinth. There were no church buildings yet, no finished New Testament,
+      no safety in the law. There were only communities working out, generation
+      by generation, what it meant to stay one church across an empire.
     card_name: "The House-Churches"
     representative: {name: Chloe, role_label: "Household Leader"}   # step 5a deliverable (Mark's per-world touchpoint, spec SS4.3); re-confirmed directly with the project lead against the new-regime records (records/pahc/voice_craft/pahc.craft.chloe-voice.md) at Step 11, not carried forward unexamined from the prior-framework build
     state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
@@ -68,6 +116,16 @@ worlds:
     display_name: "Hieronymian Ascetic-Literary Christianity"
     time_window: {start: 382, end: 420}
     place: "Bethlehem and Rome"
+    doorway_place: "Bethlehem and Rome"
+    doorway_description: >-
+      In the year 382 the scholar Jerome came to Rome. There he met a circle of
+      noblewomen who had already traded wealth and status for lives of prayer
+      and study. Their partnership moved to Bethlehem: his learning, their
+      leadership and money. Paula and her daughter Eustochium built monasteries
+      and a guesthouse for pilgrims. Jerome translated the Bible into Latin from
+      the Hebrew it was first written in. Letters across the sea held the world
+      together. It ends when the Bethlehem generation dies out, around the year
+      420.
     card_name: "The Bethlehem Circle"
     representative: {name: Albina, role_label: "Widow of the Household"}   # Mark's ruling (2026-08-22), step-5a touchpoint (Build-Blueprint SS4): a voice of the Bethlehem circle speaking as a widow of the household - formed by renunciation and by the scholarly labor of testing Scripture's Latin words against the Hebrew they were first given in, carrying this circle's whole life, from Rome to Bethlehem. Deliberately not one of this corpus's documented named figures (Marcella, Paula, Eustochium, Fabiola, et al.) - a sanctioned Representative voice per spec principle 14, kept distinct from their own verified quotes/stories. Supersedes the prior framework's preliminary decision (hal_Representative_Identity_Preliminary_Decision.md), which was NOT carried into the new spec. Voice build (voice_craft + demonstration) drafted and adversarially reviewed on this branch; compile (step 6) not yet attempted.
     state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
@@ -83,6 +141,26 @@ worlds:
     display_name: "Syriac Christianity (Edessa/Nisibis)"
     time_window: {start: 200, end: 410}
     place: "The Syriac-speaking ecology across the Roman-Persian Mesopotamian frontier (Edessa, Nisibis, Persian Adiabene)"
+    # doorway_place: the participant-facing subtitle line (Mark's own screen read,
+    # 2026-08-28, flagged this arrival card: "restated or to accedemic" - the old
+    # subtitle duplicated the horizon's opening phrase word for word). `place`
+    # above stays untouched because it is MODEL-FACING: it compiles into the voice
+    # capsule's own "Place:" line (proven by diffing a trial recompile), so
+    # rewriting it would change the voice's prompt. Served registry-first by
+    # engine/api/wiring.list_worlds.
+    doorway_place: "Edessa, Nisibis, and the border country between Rome and Persia"
+    doorway_description: >-
+      This is the church that sang its teaching. Its people spoke Syriac, a
+      sister language of the Aramaic Jesus spoke. They lived in the border
+      cities between the Roman and Persian empires. Their great teachers,
+      Ephrem and Aphrahat, taught the faith through hymns and plain teaching
+      pieces, not learned treatises. At the community's heart stood the
+      covenant: men and women vowed to celibacy and service, who stayed inside
+      the ordinary congregation instead of leaving for a monastery. The story
+      opens with the first trace of a church in Edessa, a building lost to
+      flood in the year 201. It closes in 410, when the church inside Persia
+      took on a formal structure and this world's own way of life gave way to
+      something more official.
     card_name: "Syriac Christianity"
     representative: {name: "Mar Yausep", role_label: "Teacher of the Covenant Order"}   # RULED by Mark, 2026-08-28, in session ("yes i like mar yousep, role teacher of the convenant order"), closing the foundation audit's identity finding: the prior value carried the honorific alone in the role slot (name Yausep, role_label Mar), which made the Facilitator's door sentence ungrammatical ("Yausep, Mar of Syriac Christianity") and split one person across two names between the Atlas card ("Mar Yausep") and the room. The census already carried today's ruling's values; the registry now owns them (registry wins, Mark 2026-08-28). Prior history preserved: sanctioned fabrications (spec principle 14) - name and role CONFIRMED by Mark under the new spec, in chat, 2026-08-22, carrying forward the prior-framework decision (Representative_Identity_Preliminary_Decision.md + Phase Two Formation Calibration, 2026-07-07/08: name Yausep; role revised Malpana->Deacon->Mar by Mark's own rulings). Step 5a's full identity-emergence write-up (rationale derived from the completed records) is still owed when the voice build begins; this confirmation settles the name/role themselves, not that remaining paperwork
     state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
@@ -98,6 +176,16 @@ worlds:
     display_name: "Imperial and Juridical Christianity"
     time_window: {start: 312, end: 451}
     place: "Rome, Constantinople, Milan"
+    doorway_place: "Rome, Constantinople, and Milan"
+    doorway_description: >-
+      In 312 the emperor Constantine took the church under his protection, and
+      everything changed. Bishops who had met in secret now gathered in councils
+      an emperor convened. The church gained legal standing, wealth, and a seat
+      near Roman power. It also had to decide what that nearness should cost.
+      This is the world of the great councils and their canons - the church's
+      written rulings. It is the world of Ambrose of Milan facing down emperors,
+      and of Rome's bishops building their claim to speak for the whole church.
+      It closes at the Council of Chalcedon in 451.
     card_name: "Church and Empire"
     representative: {name: Marius, role_label: "Deacon of the Letters"}   # sanctioned fabrications (spec principle 14) - carried from Mark's own prior-framework decisions, both on the verifiable record: name Marius chosen by Mark directly 2026-07-20 (World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md item 13, overriding the build's "Marcus" recommendation for his own stated reason); participant-facing title "Apocrisiarius - Deacon of the Letters" chosen by Mark 2026-07-22 (same log, item 15). CONFIRMED by Mark, 2026-08-22, in session, at step 5 (spec 4.3): checked against this build's full content canon (142 answer-canon records, three independent Opus adversarial reviews plus two further confirmation passes, 13/13 M1 gates green throughout) and found to hold without qualification - not reopened as a fresh decision, carried forward as the standing pre-rebuild identity, the same way world/syr's own Mar Yausep confirmation is expected to carry forward. See records/ijc/voice_craft/ijc.voice.craft.md and BUILD-LOG.md for the full disposition.
     state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
