@@ -41,6 +41,11 @@ class AnswerResult:
     citations: list[str]
     source_record_id: str | None
     source_record_type: str | None
+    # Per-sentence {sentence, record_ids} entries from apply_net - the
+    # live path carries them so grading can tell a MISCOPIED ADDRESS on a
+    # verifiable sentence from a fabrication (Option A, Mark's ruling
+    # 2026-08-29). Fixture answers leave this None.
+    citation_entries: list[dict] | None = None
 
 
 class NoCoverageError(Exception):
@@ -207,4 +212,5 @@ class LiveModelAnswerer:
             citations=citations,
             source_record_id=citations[0] if citations else None,
             source_record_type=primary.get("record_type") if primary else None,
+            citation_entries=citation_entries,
         )

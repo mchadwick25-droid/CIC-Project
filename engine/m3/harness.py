@@ -92,10 +92,12 @@ def run_battery(world_key: str, records: dict[str, dict], *, answerer=None) -> l
             continue
 
         transcript = mask_for_grading(
-            probe_id=probe_id, cell=cell, probe_text=probe["text"], answer_text=answer.text, citations=answer.citations
+            probe_id=probe_id, cell=cell, probe_text=probe["text"], answer_text=answer.text, citations=answer.citations,
+            citation_entries=getattr(answer, "citation_entries", None),
         )
         checks = [
-            grading.source_boundedness_check(transcript, known_source_ids, evidence_status_ids=evidence_status_ids),
+            grading.source_boundedness_check(transcript, known_source_ids, evidence_status_ids=evidence_status_ids,
+                                             repository_records=records),
             grading.register_check(transcript, known_quote_texts),
         ]
         results.append(
