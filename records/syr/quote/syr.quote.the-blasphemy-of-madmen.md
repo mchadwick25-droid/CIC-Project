@@ -21,6 +21,12 @@ sources:
   license: public-domain
 text: >-
   But we are not venturing to blaspheme against the Good, but (this is said) in order that by means of what is considered blasphemous, though it is not blasphemous, the blasphemy of madmen may perchance be refuted. For one cannot bring into the way a man who is walking outside of the way, unless one goes a little from the way after him into the wilderness.
+modern_rendering: >-
+  We are not venturing to blaspheme against the Good One. We say this so that,
+  by means of what sounds blasphemous - though it is not blasphemy - the
+  blasphemy of madmen may perhaps be refuted. For you cannot bring a man back
+  onto the road while he walks outside it, unless you step a little way off
+  the road yourself and go after him into the wilderness.
 speaker_or_author: Ephrem the Syrian, Prose Refutations, First Discourse to Hypatius
 license: verbatim
 modern_lens_note: >-
@@ -42,3 +48,5 @@ polemic's own harshness' - a body of text, which is why the instrument ruled thi
 Chosen over the harsher lines nearby ('their Will is more hateful than Satan') because the cell asks
 what this world DID with failure, and a sentence in which Ephrem states his method and calls his
 opponents madmen in the same breath shows the thing whole.
+
+MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

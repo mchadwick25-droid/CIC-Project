@@ -21,6 +21,13 @@ text: We are the servants of the crucified one who said "Forgive them for they k
   But, you say, he cut off the right of refuge here by his ordinances and divers kinds of laws. Yes!
   yet now he has learned by experience what it was he did, and he himself by his own deeds has been
   the first to break the law, and has become a spectacle to the whole world.
+modern_rendering: >-
+  We are the servants of the crucified one, who said, 'Forgive them, for they
+  do not know what they are doing.' But, you say, this man cut off the right
+  of refuge here with his decrees and his many kinds of laws. Yes! And now he
+  has learned by experience what it was he did. He himself, by his own
+  actions, has been the first to break his law, and he has become a spectacle
+  to the whole world.
 speaker_or_author: John Chrysostom, bishop of Constantinople, preaching in 399 while Eutropius clung
   to the altar behind him
 license: verbatim
@@ -59,3 +66,5 @@ is the harder half and is why this is not a piece of piety: he grants
 that Eutropius destroyed the very protection now sheltering him, and
 calls his ruin a public lesson. Mercy and satisfaction in the same
 breath, from the same pulpit.
+
+MODERN RENDERING AUTHORED (2026-08-29, same register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

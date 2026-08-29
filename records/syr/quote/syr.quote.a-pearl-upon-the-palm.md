@@ -21,6 +21,12 @@ sources:
   license: public-domain
 text: >-
   On a certain day a pearl did I take up, my brethren; I saw in it mysteries pertaining to the Kingdom; semblances and types of the Majesty; it became a fountain, and I drank out of it mysteries of the Son. I put it, my brethren, upon the palm of my hand, that I might examine it: I went to look at it on one side, and it proved faces on all sides.
+modern_rendering: >-
+  One day, my brothers, I picked up a pearl. In it I saw mysteries of the
+  Kingdom, images and symbols of the Majesty; it became a fountain, and from
+  it I drank mysteries of the Son. I set it, my brothers, on the palm of my
+  hand so I could examine it. I turned to look at it from one side, and it
+  showed faces on every side.
 speaker_or_author: Ephrem the Syrian, The Pearl, Hymn I.1
 license: verbatim
 modern_lens_note: >-
@@ -42,3 +48,5 @@ I-VII (the method performed)'.
 The cell's discipline note in CELL-VOICE-WORKLIST.md warned about this exact passage: the pearl is
 turned on the palm BEFORE the conclusion, and cutting to the memorable phrase loses the seeing that
 produced it. The quote is cut to keep the turning and stop before the doctrine.
+
+MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

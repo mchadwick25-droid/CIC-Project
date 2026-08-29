@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   The most illustrious Presidents and the most honourable Assessors said: ‘The vulgar cries are not worthy of bishops, nor will they assist either side. Suffer, therefore, the reading of all the documents.’
+modern_rendering: >-
+  The most distinguished Presidents and the most honorable Assessors said:
+  'These vulgar outcries are not worthy of bishops, and they will not help
+  either side. Allow, therefore, the reading of all the documents.'
 speaker_or_author: the imperial Presidents and Assessors at Chalcedon, Session I
 license: verbatim
 modern_lens_note: >-
@@ -42,3 +46,5 @@ instrument ruled this NEEDS READING.
 
 The second of those loci is exactly right and points at a real thing: the acts sit EMBEDDED inside a
 narrative volume, and the embedded document is the harder evidence. This sentence is one of them.
+
+MODERN RENDERING AUTHORED (2026-08-29, same register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

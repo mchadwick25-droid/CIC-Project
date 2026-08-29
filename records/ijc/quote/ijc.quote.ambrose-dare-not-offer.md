@@ -20,6 +20,11 @@ sources:
 text: I, I say, have no cause for a charge of contumacy against you, but have cause for fear; I dare not
   offer the sacrifice if you intend to be present. Is that which is not allowed after shedding the blood
   of one innocent person, allowed after shedding the blood of many? I do not think so.
+modern_rendering: >-
+  I have no reason, I say, to charge you with defiance; but I do have reason
+  to fear. I dare not offer the sacrifice if you intend to be present. Is
+  something that is not allowed after the blood of one innocent person has
+  been shed, allowed after the blood of many? I do not think so.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: >-
@@ -42,3 +47,5 @@ its next line says, in Ambrose's own hand for the emperor's eyes alone.
 Not a public excommunication decree but a pastoral ultimatum with the
 altar as its whole leverage: the sharpest documented exercise of
 sacramental authority over positional power in the world's record.
+
+MODERN RENDERING AUTHORED (2026-08-29, same register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

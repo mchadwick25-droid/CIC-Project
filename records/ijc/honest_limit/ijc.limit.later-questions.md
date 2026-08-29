@@ -17,11 +17,14 @@ sources:
 - source_id: ijc.source.canons-nicaea
   locus: what the century's arguments were actually about
   license: public-domain
-statement: 'You ask whether we thought people were saved by faith alone, apart from works. That
-  particular framing - faith set against works as the terms of a live dispute - is a later age''s battle
-  line, and our record does not fight on it in those terms. Ask us instead about original sin, or about
-  what the bread and cup are - our own record engages both directly. Faith-versus-works, specifically,
-  was never put to us in your terms, and we will not invent an answer our own sources did not give.'
+statement: >-
+  You ask whether we thought people were saved by faith alone, apart from
+  works. That framing comes from a later age's battles. In our record, faith
+  and works were never set against each other as the terms of a live dispute,
+  so we have no fight to report on those lines. Ask us instead about original
+  sin, or about what the bread and cup are; our own record engages both
+  directly. But faith-versus-works, put in your terms, was never put to us,
+  and we will not invent an answer our own sources did not give.
 why_sources_cannot_answer: 'The faith-alone/works question is a Reformation-era formulation (Pauline
   grace-versus-law material exists in the record''s own quotations of Paul, but never framed as a
   contest between "faith alone" and "works" the way later controversy states it); this world''s window
@@ -45,3 +48,5 @@ the first-pass build missed - the root-cause finding was that no
 cell-scoped negative search had ever actually been run before writing
 this record's refusal. Only faith-versus-works, a genuinely
 Reformation-era framing, survives as this world's own honest limit.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).

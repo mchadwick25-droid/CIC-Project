@@ -27,17 +27,23 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'This world read its scriptures the way it read everything: toward what binds. The same Bible read
-  for contemplation elsewhere in Christian history, this world read for warrant. "Thou art Peter, and upon
-  this rock I will build my church" - Rome read that as a standing grant of office, not only a blessing.
-  The century''s deepest fight was over scriptural words: whether "like the Father," which scripture''s
-  language could carry, or "of one being," which scripture nowhere says, kept scripture''s meaning
-  better - both sides arguing from the same texts, at councils, for keeps. And the councils'' own past
-  rulings were read the way a court reads precedent: "let the ancient customs prevail." As for which
-  writings counted, this world''s window inherited the scriptures in near-settled form and fought over
-  their interpretation, not their list - the fixing of the list belongs to other rooms than its councils.
-  How someone who could not read received all this, the record barely says: through the assembly, the
-  creed confessed, the psalms sung - the channels are visible even where the experience is not.'
+text: >-
+  This world read its scriptures the way it read everything else: as binding
+  authority. Where other Christian eras read the Bible for private
+  contemplation, this one read it to settle questions of office, law, and
+  boundary. When Rome read 'You are Peter, and on this rock I will build my
+  church,' it took the verse as a standing grant of office, not only a
+  blessing. The century's deepest fight was over scriptural words. Was the Son
+  'like the Father,' language scripture could carry, or 'of one being' with
+  the Father, a phrase scripture nowhere uses? Which wording kept scripture's meaning
+  better was the whole fight, and both sides argued it from the same texts,
+  at councils, with office and exile riding on the outcome. Past council rulings
+  were read the way a court reads precedent: 'let the ancient customs
+  prevail.' As for which books counted as scripture, this world inherited the
+  list in nearly settled form. Its fights were about interpretation, not
+  contents. And how did someone who could not read receive all this? The
+  record barely says. What it shows is the channels: hearing scripture read
+  aloud in the assembly, confessing the creed, and singing the psalms.
 positions:
 - scripture read juridically - for warrant, office, and boundary - is this world's characteristic habit
 - the Nicene argument was an argument about how to be faithful to scripture's own words, on both sides
@@ -57,3 +63,5 @@ reading, Hilary's both-sides scriptural argument, Canon 6's precedent
 language). The canon-list point is stated honestly: fixing the biblical
 canon is not this world's own documented business, and no claim about
 it is made beyond that.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).

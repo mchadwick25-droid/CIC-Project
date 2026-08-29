@@ -21,6 +21,14 @@ sources:
   license: public-domain
 text: >-
   And instead of the groans of the daughters of Eve, they utter the songs of the Bridegroom. The wedding-feast of the daughters of Eve continues for but seven days; but for these (virgins) is the Bridegroom who departs not for ever. The adornment of the daughters of Eve is wool that wears out and perishes, but the garments of these wear not out. Old age withers the beauty of the daughters of Eve, but the beauty of these shall be renewed in the time of the Resurrection.
+modern_rendering: >-
+  And instead of the groans of the daughters of Eve, they sing the songs of
+  the Bridegroom. The wedding feast of the daughters of Eve lasts only seven
+  days; but these virgins have the Bridegroom who never goes away. The
+  adornment of the daughters of Eve is wool that wears out and perishes; the
+  garments of these do not wear out. Old age withers the beauty of the
+  daughters of Eve; the beauty of these will be made new at the time of the
+  Resurrection.
 speaker_or_author: Aphrahat, Demonstration VI.6
 license: verbatim
 modern_lens_note: >-
@@ -42,3 +50,5 @@ cites Demonstration VI specifically, so the limit can be voiced by the passage i
 Chosen because it does the limit's work twice over - it IS the ascetic vantage the limit names, and it
 is also the only concrete detail about an actual wedding anywhere in the vendored corpus. A reader who
 wants to know what a wedding was like gets seven days and a put-down, which is the honest answer.
+
+MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

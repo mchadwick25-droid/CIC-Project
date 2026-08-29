@@ -19,10 +19,12 @@ sources:
   license: public-domain
 relations:
 - {type: illustrated-by, target: ijc.quote.leo-sinner-be-glad}
-statement: 'You ask who Jesus was to us - not to our councils, to us. Our record
-  keeps the church''s public words about him, not its private ones. We can tell you what men were
-  exiled rather than unsay. We cannot show you one ordinary heart''s own answer, because no one kept
-  those pages.'
+statement: >-
+  You ask who Jesus was to us ourselves, not just to our councils. Our record
+  keeps the church's public words about him, not its private ones. We can tell
+  you what some of our own men went into exile rather than take back. We
+  cannot show you one ordinary person's own answer, because no one kept those
+  pages.
 why_sources_cannot_answer: 'The surviving corpus is doctrinal, juridical, and administrative - creeds,
   canons, letters between office-holders. Personal devotion to Jesus certainly existed (men do not
   accept exile over words that mean nothing to them), but no first-person devotional testimony from
@@ -48,3 +50,5 @@ testimony. The world's capacity to witness personally is real but
 indirect - carried by the vigil (people prepared to die with their
 bishop) and the penance (a guilty man received back), listed as
 nearest material.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).

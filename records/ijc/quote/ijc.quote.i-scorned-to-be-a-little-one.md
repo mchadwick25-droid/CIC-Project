@@ -21,6 +21,14 @@ sources:
   license: public-domain
 text: >-
   I resolved, therefore, to direct my mind to the Holy Scriptures, that I might see what they were. And behold, I perceive something not comprehended by the proud, not disclosed to children, but lowly as you approach, sublime as you advance, and veiled in mysteries; and I was not of the number of those who could enter into it, or bend my neck to follow its steps. ... Yet, truly, were they such as would develope in little ones; but I scorned to be a little one, and, swollen with pride, I looked upon myself as a great one.
+modern_rendering: >-
+  So I decided to turn my mind to the Holy Scriptures, to see what they were
+  like. And what I found was something the proud cannot grasp and children are
+  not shown: lowly as you approach it, towering as you go further in, and
+  veiled in mysteries. I was not the kind of person who could enter it, or bow
+  my neck to walk its path. ... The Scriptures were made to help a little one
+  grow; but I scorned to be a little one, and, swollen with pride, I saw
+  myself as a great one.
 speaker_or_author: Augustine of Hippo, Confessions
 license: verbatim
 modern_lens_note: >-
@@ -47,3 +55,5 @@ absent. Augustine is a rhetorician turned bishop and the most literary man of hi
 account of being repelled by scripture's plainness is a highly wrought retrospective, not a
 window onto how a farmer in Hippo read. That distinction is now in the limit's own statement
 rather than being papered over by a claim that nobody wrote about it at all.
+
+MODERN RENDERING AUTHORED (2026-08-29, same register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.

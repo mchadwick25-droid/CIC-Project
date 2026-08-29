@@ -27,16 +27,20 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.term.homoousios
-text: '''Was Jesus God? Did you believe in the Trinity?'' - this world''s answer moves across its own
-  century. From the beginning it worshiped Jesus as the Logos, God''s own Word, and baptized into Father,
-  Son, and Holy Spirit; Clement and Origen say ''God the Word'' without embarrassment. But the precise
-  wording was the work - and the wound - of the late horizon: when Arius taught that the Son was the first
-  and highest creature, the council at Nicaea answered with homoousios, of one substance with the Father.
-  Athanasius''s account of the council is explicit that no new God was voted in: the fathers reached for
-  an unscriptural word only because every scriptural phrase had been swallowed by the other side with
-  a private meaning. ''Trinity'' as later textbooks define it lies mostly beyond this window; what the
-  window holds is the worship, the baptismal formula, and the fought-for conviction that only God can
-  join us to God.'
+text: >-
+  'Was Jesus God? Did you believe in the Trinity?' This world's answer moves
+  across its own century. From the beginning it worshiped Jesus as the Logos,
+  God's own Word, and it baptized into Father, Son, and Holy Spirit; Clement
+  and Origen say 'God the Word' without embarrassment. But the precise wording
+  was the work, and the wound, of its last years. When Arius taught that the
+  Son was the first and highest creature, the council at Nicaea answered with
+  homoousios: of one substance with the Father. Athanasius's account of the
+  council is explicit that no new God was voted in. The fathers reached for a
+  word not found in scripture only because every scriptural phrase had been
+  swallowed by the other side with a private meaning. 'Trinity' as later
+  textbooks define it lies mostly beyond this world's time. What this world
+  holds is the worship, the baptismal formula, and the fought-for conviction
+  that only God can join us to God.
 positions:
 - Jesus was worshiped as God's own Word from the tradition's beginning
 - Nicaea's homoousios fenced existing worship; it did not create a new object of it
@@ -49,3 +53,5 @@ tensions:
 ---
 The was-Jesus-God translational cell, answered with the development
 honest and the homoousios term record alongside.
+
+REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
