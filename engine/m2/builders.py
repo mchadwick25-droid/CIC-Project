@@ -142,6 +142,8 @@ def _demonstration_candidates(records: dict, demo: dict) -> list[dict]:
         return []
     seen: dict[str, dict] = {}
     for record in records.values():
+        if record.get("demo_tag") == "exclude":
+            continue  # authored opt-out - see the note above _MIN_SHARED_WORDS
         if record.get("record_type") in _DEMO_CANDIDATE_TYPES and cells & set(record.get("canon_cells") or []):
             seen[record["id"]] = record
     return list(seen.values())
@@ -218,20 +220,38 @@ def _candidate_head_text(record: dict) -> str:
 # tags rested on exactly two shared words.
 _MIN_SHARED_WORDS = 3
 
+# Records can opt out of demo auto-tagging with `demo_tag: exclude` -
+# added 2026-08-29 (craft cycle 2) when four new honest_limit records,
+# whose statements necessarily speak in framing vocabulary ("we cannot
+# tell you", "plainly"), false-tagged unrelated demo sentences at the
+# shipping floor ("It says plainly that we do not commend those who give
+# themselves up [[pahc.limit.enslaved-voices]]"). Two statistical bars
+# were tried and MEASURED first: shared>=5 killed the false tags but also
+# four short TRUE tags ("No building tied to us survives"); ratio>=0.75
+# killed five true tags. Neither statistic separates a short true limit
+# sentence from a framing coincidence, so the honest mechanism is an
+# authored opt-out on the specific records (the same species of hint as
+# retrieval's own do_not_retrieve_when), leaving every existing fleet tag
+# byte-identical. Lifting the opt-outs is the job of the next full
+# 444-sentence-style tagging study, not another quick bar.
+
 
 def _tag_representative_text(text: str, candidates: list[dict]) -> str:
-    candidate_words = [(record["id"], content_words(_candidate_head_text(record))) for record in candidates]
+    candidate_words = [
+        (record["id"], record.get("record_type"), content_words(_candidate_head_text(record)))
+        for record in candidates
+    ]
     tagged: list[str] = []
     for sentence in quote_aware_sentences(text):
         words = content_words(sentence)
-        best_id, best_ratio, best_shared = None, 0.0, 0
-        for record_id, record_words in candidate_words:
+        best_id, best_type, best_ratio, best_shared = None, None, 0.0, 0
+        for record_id, record_type, record_words in candidate_words:
             if not words or not record_words:
                 continue
             shared = words & record_words
             ratio = len(shared) / min(len(words), len(record_words))
             if ratio > best_ratio:
-                best_ratio, best_id, best_shared = ratio, record_id, len(shared)
+                best_ratio, best_id, best_type, best_shared = ratio, record_id, record_type, len(shared)
         if best_id and best_ratio >= DEMONSTRATION_TAG_FLOOR and best_shared >= _MIN_SHARED_WORDS:
             # BEFORE the terminal punctuation, per the citation contract's own
             # words: "so a sentence-boundary split can never break inside one."
