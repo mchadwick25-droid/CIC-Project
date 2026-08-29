@@ -14,7 +14,10 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: null
-sources: []
+sources:
+- source_id: desert.source.apophthegmata-patrum
+  locus: "passim - the genre's own selection: elder-disciple sayings and exemplary individual acts (Moses' reception; the leaking-jug judgment refused) with no narrative anywhere of a community naming its own wrong and making restitution to the one harmed"
+  license: public-domain
 statement: >
   We kept stories of a man's own past received without judgment - Moses
   came to us known as a robber, and was not turned away. We kept the

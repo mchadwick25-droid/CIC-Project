@@ -14,7 +14,10 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: null
-sources: []
+sources:
+- source_id: pahc.core.house-church
+  locus: "the world's own source ecology as the core record carries it: every registered text literary and urban in origin (Antioch, the Asia Minor circuit, Rome, Corinth), no rural provenance and no non-literate authorship anywhere in the registry - the same record-as-source pattern the fleet's sourceless-contested_claim fix established (see the pahc registry pin annotation, 2026-08-28)"
+  license: public-domain
 statement: >
   Most of us could not read. Most of us left no letters because we
   could not have written one. The record we kept is the work of the few
