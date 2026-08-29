@@ -22,6 +22,15 @@ sources:
   license: public-domain
 text: >-
   Suddenly I was caught up in the spirit and dragged before the judgment seat of the Judge; and here the light was so bright, and those who stood around were so radiant, that I cast myself upon the ground and did not dare to look up. Asked who and what I was I replied: \"I am a Christian.\" But He who presided said: \"Thou liest, thou art a follower of Cicero and not of Christ. For 'where thy treasure is, there will thy heart be also.'\" Instantly I became dumb, and amid the strokes of the lash—for He had ordered me to be scourged—I was tortured more severely still by the fire of conscience.
+modern_rendering: >-
+  Suddenly I was caught up in the spirit and dragged before the judgment seat
+  of the Judge. The light was so bright, and those standing around were so
+  radiant, that I threw myself to the ground and did not dare look up. Asked
+  who and what I was, I replied: 'I am a Christian.' But he who presided said:
+  'You lie. You are a follower of Cicero, and not of Christ. For where your
+  treasure is, there will your heart be also.' Instantly I fell silent, and
+  under the strokes of the lash - for he had ordered me to be scourged - I was
+  tortured worse still by the fire of my conscience.
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-
@@ -45,3 +54,5 @@ Two Latin-trained men, a generation apart, both stopped by Cicero on the way to 
 scourged in a dream for loving the prose, Augustine refusing scripture because its prose was too
 plain. Neither world knows the other's record; the pair is a fleet-level observation, not a claim
 either world makes.
+
+MODERN RENDERING AUTHORED (2026-08-29, hal register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).

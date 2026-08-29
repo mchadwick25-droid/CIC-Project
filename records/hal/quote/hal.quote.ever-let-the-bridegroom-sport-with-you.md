@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   Ever let the privacy of your chamber guard you; ever let the Bridegroom sport with you within. Do you pray? You speak to the Bridegroom. Do you read? He speaks to you. When sleep overtakes you He will come behind and put His hand through the hole of the door, and your heart shall be moved for Him; and you will awake and rise up and say: \"I am sick of love.\"
+modern_rendering: >-
+  Let the privacy of your chamber always guard you; let the Bridegroom always
+  delight with you within it. When you pray, you are speaking to the
+  Bridegroom. When you read, he is speaking to you. When sleep overtakes you,
+  he will come behind the wall and put his hand through the opening of the
+  door, and your heart will be moved for him; and you will wake and rise and
+  say: 'I am sick with love.'
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-
@@ -43,3 +50,5 @@ Chosen over the Apology against Rufinus, which the same witness also cites, beca
 Jerome defending his orthodoxy under attack and this is Jerome saying what Christ was to the people
 he was forming. A cell asking who Jesus was should be voiced by devotion rather than by a
 disclaimer.
+
+MODERN RENDERING AUTHORED (2026-08-29, hal register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
