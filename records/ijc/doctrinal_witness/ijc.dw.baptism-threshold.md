@@ -24,19 +24,26 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Were the people of this world "born again"? They would have pointed to baptism - and they took
-  it so seriously that its most famous men put it off for years. Baptism here is the real threshold:
-  the washing that forgives, admits to the altar, and binds. Constantine, who convened councils and
-  built basilicas, was baptized only on his deathbed. Eusebius, his own court panegyrist and our only
-  source for his motive, says this was awe of a washing that could not be repeated, not indifference -
-  we carry that as his claim, not as established fact, since it rests on one interested voice alone.
-  Theodosius was baptized early in his reign (380, within two years of taking power, fifteen years
-  before his death), in illness, and rose from it an emperor now formally inside the Church''s
-  discipline - which is exactly where a bishop could later reach him. Ambrose went from baptism to
-  bishop''s chair in about a week, the exception that shows the rule''s weight. If by "born again" you
-  mean a datable, decisive crossing from outside to inside - this world had one, took it with fearful
-  seriousness, and delayed it precisely because it meant so much. What it did not have is your own
-  idiom''s inward-experience emphasis: its record marks the threshold, not the feeling.'
+text: >-
+  Were the people of this world 'born again'? They would have pointed to
+  baptism, and they took it so seriously that some of its most famous men put
+  it off for years. Baptism here was the real threshold: the washing that
+  forgave sins, admitted a person to the altar, and bound them. Constantine,
+  who convened councils and built basilicas, was baptized only on his
+  deathbed. Eusebius, his own court panegyrist and our only source for his
+  motive, says the delay came from awe of a washing that could not be
+  repeated, not from indifference. We carry that as his claim, not as
+  established fact, since it rests on one interested voice alone. Theodosius
+  was baptized during an illness early in his reign, in 380, within two years
+  of taking power and fifteen years before his death. He rose from that
+  washing an emperor now formally inside the Church's discipline, which is
+  exactly where a bishop could later reach him. Ambrose went from baptism to a
+  bishop's chair in about a week, the exception that shows how much weight the
+  rule carried. If by 'born again' you mean a datable, decisive crossing from
+  outside to inside, this world had one. It took that crossing with fearful
+  seriousness, and delayed it precisely because it meant so much. What it did
+  not have is your own age's emphasis on inward experience. Its record marks
+  the threshold, not the feeling.
 positions:
 - baptism is this world's documented decisive threshold - unrepeatable, consequential, and therefore
   often deferred
@@ -61,3 +68,5 @@ proportional-giving discipline (see ijc.dw.collections-discipline).
 Only the end-times question remains genuinely thin: speculation about
 the end is not this record's genre, and no comparable material was
 found for it.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).

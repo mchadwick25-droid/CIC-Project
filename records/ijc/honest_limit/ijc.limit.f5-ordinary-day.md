@@ -20,13 +20,16 @@ sources:
 - source_id: ijc.source.augustine-confessions
   locus: IX.7 (the single congregational interior)
   license: public-domain
-statement: 'You ask for an ordinary day among us - the food, the work, the children, the women''s own
-  lives, the sick and the dying. Our record was kept by courts and bishops, and it
-  looked at ordinary people mostly when they filled a basilica or a riot. We know our cities'' crowds
-  were there - singing through one besieged night, they enter the record once, and we hear them. The
-  women our record lets us see acting are two empresses, and even they speak only through other men''s
-  accounts. The daily bread, the household, the deathbed of an ordinary believer - those were lived,
-  and not written, and we will not invent them.'
+statement: >-
+  You ask for an ordinary day among us: the food, the work, the children, the
+  women's own lives, the sick and the dying. Here is our problem. Our record
+  was kept by courts and bishops, and it noticed ordinary people mostly when
+  they filled a basilica or a riot. We know the crowds of our cities were
+  there. On one besieged night they enter the record singing, and for a moment
+  we hear them. The only women our record shows acting are two empresses, and
+  even they speak only through other men's accounts. The daily bread, the
+  household, the deathbed of an ordinary believer: those were lived, not
+  written, and we will not invent them.
 why_sources_cannot_answer: Every Native voice is a bishop, an emperor, a court, or their circle; no
   household correspondence, no ordinary believer's testimony, no woman's own words survive in this
   world's base. The one direct congregational glimpse (the 386 vigil) shows ordinary people inside an
@@ -59,3 +62,5 @@ Ambrose's sister, is also named in this build's own citation apparatus,
 as the addressee of Epp. XX and XLI, though nothing of her own words
 survives either - restated as "lets us see acting," which is exact for
 both empresses without implying the record names no other woman at all.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).

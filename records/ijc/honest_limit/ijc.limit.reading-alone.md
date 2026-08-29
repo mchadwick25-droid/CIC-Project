@@ -17,16 +17,21 @@ sources:
 - source_id: ijc.source.augustine-confessions
   locus: IX.7 (psalms as sustenance - the one attested glimpse)
   license: public-domain
-statement: 'You say the Bible leaves you confused, or that its violence frightens you, and you ask
-  whether our people knew that trouble. We kept one man''s struggle with it, and he is not a small
-  witness. Augustine set down that he turned to the Scriptures to see what they were, found them
-  lowly where he had wanted grandeur, and would not stoop - he scorned, in his own words, to be a
-  little one. Years later, weeping and asking how long, he heard a child''s voice chanting take up
-  and read, and opened the book at random. What we do not keep is an ORDINARY reader''s struggle.
-  The man who wrote that down was a trained rhetorician and a bishop, telling the story of his own
-  conversion long afterwards; a farmer near Hippo who found the reading hard left us nothing. We can
-  say this much besides: when our people were afraid, they sang the psalms - scripture became
-  bearable, in the dark, as song.'
+statement: >-
+  You say the Bible leaves you confused, or that its violence frightens you,
+  and you ask whether our people knew that trouble. We kept one man's struggle
+  with it, and he is not a small witness. Augustine wrote that when he first
+  turned to the Scriptures to see what they were, they seemed lowly to him
+  next to the grand books he was trained on, and he was too proud to stoop. He
+  'scorned to be a little one,' in his own words. Years later, weeping and
+  asking how long this would take, he heard a child's voice chanting 'take up
+  and read,' and he opened the book at random. Here is our limit: that is a
+  famous man's story. What we did not keep is an ORDINARY reader's struggle.
+  Augustine was a trained public speaker and a bishop, telling his own
+  conversion story long afterwards. A farmer near Hippo who found the reading
+  hard did not leave behind any written record at all. We can say this much
+  besides: when our people were afraid, they sang the psalms together. In the
+  dark, scripture became bearable as song.
 why_sources_cannot_answer: Personal testimony about the experience of reading - confusion, fright,
   consolation - is a devotional genre this world's corpus does not contain; its scripture-engagement
   survives as argument and liturgy. The one attested scene of scripture meeting fear is the psalm-singing
@@ -57,3 +62,5 @@ scoped its search to less than the world holds, and here the file it had not
 read was the one file it cited. What survives is narrower and more useful -
 the ORDINARY reader is still missing, and Augustine is the least ordinary
 reader in the corpus.
+
+REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
