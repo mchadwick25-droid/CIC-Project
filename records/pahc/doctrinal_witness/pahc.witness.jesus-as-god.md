@@ -36,12 +36,23 @@ text: >
   One of us, Ignatius, calls Jesus Christ our God again and again - in
   how he opens his letters, and in how he closes them. It is not one
   passing phrase; he reaches for it often. But it is worship, not an argument worked
-  out. None of the six of us whose own writing survives reaches for the
-  word Trinity, and none of us explains
-  how calling Jesus God fits together with calling the Father God. We
+  out. How calling Jesus God fits together with calling the Father God -
+  with there being one God - none of us whose writing survives ever
+  wrote out. We
   can tell you plainly that we called him God. We cannot tell you we
   had settled how.
 ---
+TRINITY TRIM (2026-08-29, Mark's ruling: "she doesn't need to say that,
+she shouldnt even know the term"): the spoken text no longer names the
+later word - "None of the six of us... reaches for the word Trinity" was
+an etic aside inside an emic mouth, and this record's own review pass had
+already flagged that clause as an unscoped absolute. The tensions and
+divergence_note fields (etic, click-page) keep the full Trinity
+scholarship; when a participant brings the word, the gate's modern-term
+machinery and the Facilitator's bridge own the time-crossing - the voice
+never does. Same trim applied the same day to
+pahc.demo.center-jesus-as-god's representative answer.
+
 "our God" as Ignatius's own recurring formula checked directly against
 cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml (occurs in the
 Ephesians salutation, "by the will of the Father, and Jesus Christ, our

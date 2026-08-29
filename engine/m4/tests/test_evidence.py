@@ -724,3 +724,25 @@ def test_a_first_turn_has_no_history_to_inherit_from():
         message="Why did that matter?", asks=None, canon_questions=CANON_QUESTIONS,
         coverage=COVERAGE, repository_records=REPOSITORY, history=[])
     assert not any(c.get("inherited_from_prior_turn") for c in out["cells"])
+
+
+def test_diverse_take_breadth_first_by_source():
+    """Mark's ruling (2026-08-29): source breadth is a system function of
+    selection, never a per-record hand-fix. Same slot count; composition
+    prefers one-per-source-family before seconds from the same family."""
+    from engine.m4.evidence import _diverse_take, _source_key
+    repo = {
+        "w.quote.a1": {"id": "w.quote.a1", "sources": [{"source_id": "w.source.ignatius"}]},
+        "w.quote.a2": {"id": "w.quote.a2", "sources": [{"source_id": "w.source.ignatius"}]},
+        "w.quote.b1": {"id": "w.quote.b1", "sources": [{"source_id": "w.source.pliny"}]},
+    }
+    scored = [("w.quote.a1", 0.9), ("w.quote.a2", 0.8), ("w.quote.b1", 0.5)]
+    # floor 2: best ignatius + best pliny, not two ignatius
+    assert _diverse_take(scored, repo, 2) == [("w.quote.a1", 0.9), ("w.quote.b1", 0.5)]
+    # floor 3: the second ignatius comes back in the fill pass
+    assert _diverse_take(scored, repo, 3) == [("w.quote.a1", 0.9), ("w.quote.b1", 0.5), ("w.quote.a2", 0.8)]
+    # single-family cell: identical to plain top-N
+    mono = [("w.quote.a1", 0.9), ("w.quote.a2", 0.8)]
+    assert _diverse_take(mono, repo, 2) == mono
+    # sourceless record is its own family, never crowded out
+    assert _source_key({"id": "w.limit.x", "sources": []}) == "w.limit.x"

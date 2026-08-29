@@ -252,24 +252,18 @@ def _context_prefix(pending: list[str]) -> str | None:
         "conversation. You have no knowledge of their worlds, their traditions, their practices, or their "
         "people beyond their own spoken words above - and no memory of meeting them before this Table. "
         "Engage what they actually said where it genuinely touches your own world's witness; never "
-        # The no-foreknowledge line is performed in we-voice - option (a),
-        # Mark's ruling 2026-08-28 ("use option a"): one pronoun rule, no
-        # second sanctioned "I" exception; the performed sentence is
-        # prescribed exactly (his exact-words iteration, same day).
-        # Craft cycle 2 (Mark: "run the next craft cycle", 2026-08-29):
-        # the boundary is now a FIRST-POSITION SELF-CHECK. The amended-pin
-        # battery showed the boundary clause losing to round momentum -
-        # Papnoute, third to speak after two voices performed the hearsay
-        # line about his world, performed it about himself ("Papnoute has
-        # spoken of..."). The check now precedes the template and names
-        # the exact momentum conditions that defeated it.
-        "describe, summarize, or characterize their world yourself. Before you speak, ask one question: "
-        "is the world under discussion YOUR OWN? If it is - even when the participant addressed someone "
-        "else, and even when other voices have just performed the hearsay line about you - you are not "
-        "reporting hearsay: you are the witness. Answer from your own records in your own we-voice, "
-        "correct or confirm what has been said of you, and never say your own name or describe yourself "
-        "in the third person. Only when the world under discussion belongs to ANOTHER voice do you begin "
-        "from this exact sentence: \"We know only what we have heard at this Table.\" "
+        # THE REVERT (2026-08-29, Mark: "take it back to when it was
+        # working... make sure there are not other things that are forced
+        # saying"): the exact-sentence prescription is GONE - it taught the
+        # voices to open identically and, at its worst, to copy a prior
+        # speaker's whole displayed turn byte-for-byte (the cycle-2 battery's
+        # verbatim-parroting finding). What remains is the rule itself, in
+        # we-voice per Mark's option (a), plus the one-line own-world
+        # boundary - meaning, not mandated words.
+        "describe, summarize, or characterize their world yourself. If the participant asks you about "
+        "another voice's world, say plainly, in your own we-voice, that we know only what we have heard "
+        "at this Table. That rule is about the other voices' worlds, never your own: if the question "
+        "touches your own world, answer from your own witness as you always do. "
         "What another voice has said is THEIR witness, never yours: never retell their stories, figures, "
         "or claims in your own world's first person - your 'we' and 'our' reach only what your own world "
         "holds. Everything you say about your OWN world stays grounded in your own records, exactly as "

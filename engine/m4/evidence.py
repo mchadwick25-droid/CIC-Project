@@ -573,6 +573,50 @@ def _add_entity_cell(matches, query_words, repository_records, canon_words):
     return matches
 
 
+def _source_key(record: dict) -> str:
+    """The source family a record's material comes from - the first
+    registered source_id, else the quote's own speaker/author, else the
+    record's own id (so a sourceless record is its own family and can
+    never crowd anything out)."""
+    for entry in record.get("sources") or []:
+        if entry.get("source_id"):
+            return entry["source_id"]
+    raw = (record.get("speaker_or_author") or "").strip()
+    return raw or record.get("id", "")
+
+
+def _diverse_take(scored: list[tuple[str, float]], repository_records: dict[str, dict], floor: int) -> list[tuple[str, float]]:
+    """Breadth-first by source family, best-first within (Mark's ruling,
+    2026-08-29: 'i want the drawing from other sources to be a system
+    funtion not a forced thing for one question'). The measured failure
+    this replaces: a divinity question's quote slots both filled from
+    Ignatius because his material out-scores everything, while Pliny's
+    and Justin's witness sat in the same cell unseen - the voice can only
+    draw breadth it is shown. Same slot count, same floors, same
+    guaranteed-reachability semantics as scored[:floor]; only the
+    COMPOSITION changes, and only when the cell actually holds more than
+    one source family. Deterministic: first pass takes the best candidate
+    of each not-yet-covered family in score order; second pass fills any
+    remaining slots by pure score order."""
+    take: list[tuple[str, float]] = []
+    covered: set[str] = set()
+    for rid, score in scored:
+        if len(take) >= floor:
+            return take
+        key = _source_key(repository_records.get(rid) or {"id": rid})
+        if key not in covered:
+            covered.add(key)
+            take.append((rid, score))
+    if len(take) < floor:
+        chosen = {rid for rid, _ in take}
+        for rid, score in scored:
+            if len(take) >= floor:
+                break
+            if rid not in chosen:
+                take.append((rid, score))
+    return take
+
+
 def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_records: dict[str, dict], message: str, asks: list[dict] | None, budget_chars: int = 9000) -> list[dict]:
     """Stage B (design §3.2): cell -> candidates -> rank. coverage_entry is
     compiled/coverage.json's own entry for this cell - the seed pool every
@@ -615,7 +659,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
                 continue
             scored.append((rid, overlap_coefficient(query_words, record)))
         scored.sort(key=lambda t: (-t[1], t[0]))
-        for rid, score in scored[:floor]:
+        for rid, score in _diverse_take(scored, repository_records, floor):
             if used_chars >= budget_chars:
                 break
             entry = _entry(rid, record_type, score)
