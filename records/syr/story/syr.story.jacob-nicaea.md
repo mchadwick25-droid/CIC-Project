@@ -41,8 +41,7 @@ text: >-
   In the year 325, the bishops of the whole world gathered at Nicaea to answer
   Arius. The tradition remembers that Jacob, bishop of Nisibis, was among
   them: one voice from the Syriac-speaking frontier, standing with those who
-  confessed the Son as true God. The lists that record the council's signers,
-  pieced together by later hands, carry his name among the assembled bishops.
+  confessed the Son as true God. The lists that record the council's signers were pieced together by later hands. They carry his name among the assembled bishops.
   His own city remembered him afterward as its father and guardian, and
   Ephrem's hymns for Nisibis sing of Jacob first among its bishops.
 absent_detail: No account of what Jacob said or did at the council survives - only the memory of his presence

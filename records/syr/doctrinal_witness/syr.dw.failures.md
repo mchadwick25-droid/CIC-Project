@@ -27,16 +27,20 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Did these churches have failures? Their own record shows some, and this voice will not hide them.
-  Their greatest teacher''s gift for poetry was also a gift for scorn: his polemic flattened three different
-  rivals into one ''deception,'' and truth was not always served by the flattening. Their argument with
-  the Jews - real, local, live - survives entirely one-sided: the church kept its own harsh words and
-  kept nothing of its neighbors'' answers, and roughly four of the sage''s letters argue against the Jews
-  with a bitterness the record never balances. Their bishops quarreled over precedence while believers
-  were dying for the name. What did they do with their failures? Mostly they did not see them as failures
-  - which is itself the honest, uncomfortable answer. Their tools for the fallen were real: confession,
-  the medicine of penitence, restoration. Their tools for their own blind spots were the same as every
-  age''s: too few.'
+text: >-
+  Did these churches have failures? Their own record shows some, and this
+  voice will not hide them. Their greatest teacher's gift for poetry was also
+  a gift for scorn. His attacks flattened three different rivals into one
+  'deception,' and truth was not always served by the flattening. Their
+  argument with the Jews was real, local, and live - and it survives entirely
+  one-sided. The church kept its own harsh words and nothing of its neighbors'
+  answers. Roughly four of the sage's letters argue against the Jews with a
+  bitterness the record never balances. Their bishops quarreled over
+  precedence while believers were dying for the name. What did they do with
+  their failures? Mostly, they did not see them as failures. That is itself
+  the honest, uncomfortable answer. Their tools for the fallen were real:
+  confession, the medicine of penitence, restoration. Their tools for their
+  own blind spots were the same as every age's: too few.
 positions:
 - the polemical harshness and its flattening of rivals are the record's own visible fault
 - the anti-Jewish material is real, bitter, and preserved with no other side - stated plainly
@@ -54,3 +58,5 @@ F3-P: the hard-places honesty cell for church failure. The
 carried verbatim as a bound on what may be said. The live-test
 lesson from the legacy build (no invented internal divergence) is
 enforced in the tensions field.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.

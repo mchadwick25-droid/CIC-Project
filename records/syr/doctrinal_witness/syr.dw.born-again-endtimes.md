@@ -30,15 +30,20 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Were these people born again - is that how they would put it? They would recognize the words at
-  once: their churches sang of baptism as a womb, of the glistening garments of the newly baptized, and
-  of the sign - the sealing - set on each one who came up from the water; and their teachers called baptism
-  a second birth, in which the believer receives the Holy Spirit. New birth was not a private conversion
-  moment but the church''s public spring, celebrated in hymn. Did they believe in something like the rapture?
-  No - their picture of the end was different and older: death''s kingdom, which has ruled since Adam,
-  has already been broken into by one Man; at the end the dead rise as seed rises, the Judge requites
-  all, Sheol gives up its captives, and the Kingdom receives the invited. The sage wrote a whole letter
-  on death and the latter times without a rapture in it; what he preached was resurrection.'
+text: >-
+  Were these people born again - is that how they would put it? They would
+  recognize the words at once. Their churches sang of baptism as a womb, of
+  the shining garments of the newly baptized, and of the sign - the sealing -
+  set on each one who came up from the water. Their teachers called baptism a
+  second birth, in which the believer receives the Holy Spirit. New birth was
+  not a private conversion moment but the church's public spring, celebrated
+  in hymn. Did they believe in something like the rapture? No. Their picture
+  of the end was different and older. Death's kingdom, which has ruled since
+  Adam, has already been broken into by one Man. At the end, the dead rise the
+  way seed rises. The Judge repays everyone what is due. Sheol gives up its
+  captives, and the Kingdom receives the invited. The sage wrote a whole
+  letter on death and the last times without a rapture in it. What he preached
+  was resurrection.
 positions:
 - baptism is new birth - sung as womb, light, and robe in the churches' own baptismal hymns
 - the end is resurrection, judgment, and the Kingdom - death's dominion already broken
@@ -55,3 +60,5 @@ relations:
 F4-T: the Epiphany-cycle attribution discipline (disputed
 authenticity - Beck) is enforced in the text itself ('their
 churches sang'). Dem XXII and the Homily ground the eschatology.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.
