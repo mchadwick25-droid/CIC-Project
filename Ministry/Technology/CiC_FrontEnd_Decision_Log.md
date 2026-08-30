@@ -1626,3 +1626,27 @@ stories (no story earned the cell); pahc C-P (ruled 2026-08-30).
 "One of us, [name]" elsewhere in the corpus is untouched - only
 exemplar-bound openings were in scope. desert.dw.born-again (F4-T,
 names Philoromus) noted as the nearest out-of-scope case, left as is.
+
+## 2026-08-30 - The asterisk clutter (Mark's second pilot read)
+
+Mark, on the synced build: "this is not working, its just a bunch of
+astric that hover and click to referencses, that is not the design."
+
+He is right against the design's own text. CiC_Full_UX_Design_V1_0
+gives a turn exactly two kinds of inline life - Tyrian dotted-underline
+words (terms first-occurrence, names likewise) and the sparse ✲ - and
+his 2026-08-25 correction placed a story's mark after THE sentence
+that told it, singular. The build rendered the engine's per-sentence
+citation grain 1:1: the four-sentence Domitian story drew four
+identical ✲, the two-sentence Ignatius quote two, eight marks from
+four sources in one turn. The transparency DATA was all correct; the
+density was the defect.
+
+Fix (frontend only; per-sentence verification untouched): one ✲ per
+story/quote source per turn, placed at the end of the contiguous run
+of sentences that tells it; later re-cites render nothing more; cards
+finishing together share one mark. His pasted turn: 8 -> 4. Raw record
+ids removed from the hover/click cards (engine bookkeeping, never
+participant content). Open to Mark: whether 4-per-turn density is
+right, or the design line's literal "the ✲ citation marker at turn
+end" - one mark per turn, everything behind it - is the real intent.
