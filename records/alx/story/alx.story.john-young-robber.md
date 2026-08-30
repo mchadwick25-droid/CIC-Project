@@ -8,6 +8,7 @@ register: emic
 canon_cells:
 - F4-I
 - F6-P
+- C-P
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -62,3 +63,9 @@ someone wronged the community, could they come back?) and F6-P ('if
 someone left your community for good, what would you have wanted them
 to know?'). Every narrative element above is in Clement's telling;
 the dialogue is condensed from the vendored translation, not invented.
+
+CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
+and the five world read"; V1.2 birth condition applied to the existing
+fleet - one story and one term per center cell where they genuinely
+belong, honest empties recorded). Added to C-P: "Would Jesus have wanted anything to do with someone like me?" - the apostle riding after the fallen young man to bring him back is this world's own handed-down answer. Content unchanged; the added
+cell and this note are the whole edit.

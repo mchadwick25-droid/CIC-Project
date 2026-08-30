@@ -7,6 +7,7 @@ status: draft
 register: emic
 canon_cells:
 - F5-I
+- C-E
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -74,3 +75,10 @@ dies, nobody is heroic, and the emperor's verdict is that they are
 beneath his attention. A world that told only its martyr stories would
 give a participant a false picture of what being a Christian under Rome
 usually was - which was, mostly, being too unimportant to prosecute.
+
+CENTER-CELL MAPPING (2026-08-30, Mark's pilot read: the center cells
+had no story or term to offer - "i don't see the full 3 level
+transparency with glossary terms, stories and quotes"; his approved
+scope: one story and one term per center cell where they genuinely
+belong, not everything that could fit). Added to C-E: the canon's own "Had anyone among you known someone who saw him?" is answered by this record directly - the grandsons of Judas, called the Lord's brother, alive and questioned under Domitian. Content unchanged;
+this note and the added cell are the whole edit.

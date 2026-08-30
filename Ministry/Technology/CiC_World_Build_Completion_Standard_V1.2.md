@@ -1,4 +1,10 @@
-# CiC World-Build Completion Standard V1.1
+# CiC World-Build Completion Standard V1.2
+
+**V1.2 change (Change Order, Mark, 2026-08-30, after his first pilot
+read; recorded as a Change Order, never a silent edit):** section B
+gains the transparency-ground read — per-cell story/term offers (or
+recorded honest empties) and the no-hard-bound-introduction check on
+spoken openings.
 
 **V1.1 change (Change Order, Mark, 2026-08-30: "build the authoring
 discipline into the build cycle"; per §E this is a versioned Change
@@ -51,6 +57,16 @@ spoken field reviewed against the approved sample
 screen's output saved beside it; every quote record carries its
 `modern_rendering` at freeze. The sample is the standard — this check
 never takes the form of a word list, and no number gates it.
+
+[V1.2] The transparency-ground read recorded at freeze: for every
+substantive cell (center cells first), either a genuinely-belonging
+story and term are mapped in `canon_cells` (lean — one of each per
+cell at most) or the cell's honest empty is recorded as a finding;
+and no spoken field opens by hard-binding a first-mention
+introduction formula to its answer — the plain name speaks, and
+introducing figures is the system's job (name-bridge mark, then the
+already-introduced signal). Forced fill fails this read the same way
+a word list would.
 
 ## C. Representative-freeze — after world-freeze
 

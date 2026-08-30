@@ -7,6 +7,7 @@ status: draft
 register: emic
 canon_cells:
 - F4-I
+- C-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -69,3 +70,9 @@ ascetic/christological double sense is this term's particular
 contribution. NPNF's 'Of Monks' title for Demonstration VI is the
 translator's convention; the record never uses 'monk' as this world's
 own category.
+
+CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
+and the five world read"; V1.2 birth condition applied to the existing
+fleet - one story and one term per center cell where they genuinely
+belong, honest empties recorded). Added to C-I: "Who was Jesus, to you and your people?" - the Ihidaya is this world's own title for Christ as the Only-Begotten, the word that binds its answer to its way of life. Content unchanged; the added
+cell and this note are the whole edit.

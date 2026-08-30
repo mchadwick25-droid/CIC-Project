@@ -56,7 +56,7 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
-from engine.m4.name_bridge import attach_cited_sources, find_figures_used
+from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
 from engine.m4.term_glosses import find_glosses_used
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
@@ -258,7 +258,7 @@ def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallO
     }
 
 
-def _build_turn_directive(directive: Directive | None) -> str | None:
+def _build_turn_directive(directive: Directive | None, figures_already_named: list[str] | None = None) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
     stays byte-identical across a session and the cache prefix actually
@@ -292,6 +292,19 @@ def _build_turn_directive(directive: Directive | None) -> str | None:
             f"The ask could be read these ways: {'; '.join(directive.ambiguity_options)}. "
             "Answer the most likely reading first, in your opening sentence; then, only if the others "
             "would change the answer, say briefly what they would change. Never open by listing the readings."
+        )
+    if figures_already_named:
+        # The directive channel is the one measured to win over other
+        # pressures (see the ambiguity_options note above). Three live
+        # probes showed the evidence block's own already-introduced
+        # header losing to a ground record's first-mention opening
+        # ("One of us, Ignatius" reproduced verbatim on turn two) - the
+        # signal belongs here, where the voice actually shapes the turn.
+        parts.append(
+            f"Already introduced in this conversation: {', '.join(figures_already_named)}. "
+            "The participant has met these names. A ground record that presents one of them afresh is "
+            "written for a first mention; this turn is not one - carry the name as someone already "
+            "known ('Ignatius also said...' is the shape), never re-introduced as if new."
         )
     return "\n".join(parts)
 
@@ -380,6 +393,17 @@ def _run_ordinary_voice_turn(
     # reads it yet - a follow-up, not a correctness gap: this derives the
     # identical corpus live, just without the compiled cache).
     canon_questions = load_fleet_records()
+    # The same set that keeps the UI's figure mark first-occurrence-only,
+    # resolved to spoken names and put where the VOICE can see it too
+    # (Mark's pilot read, 2026-08-30: "when we use the same name in the
+    # conversation it should be ignatious also talked about..." - the
+    # session tracked the introduction, but only the screen knew).
+    figures_already_named = [
+        name
+        for figure in (world.figures.get("figures") or [])
+        if figure.get("id") in (already_bridged_figure_ids or set())
+        and (name := spoken_name(figure))
+    ]
     turn_evidence = evidence.assemble_evidence(
         message=participant_message,
         asks=directive.asks if directive else None,
@@ -389,6 +413,7 @@ def _run_ordinary_voice_turn(
         thin_topics=thin_topics,
         already_told_ids=already_told_ids,
         history=history,
+        figures_already_named=figures_already_named,
     )
     evidence_block = evidence.render_evidence_block(turn_evidence)
     user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
@@ -397,7 +422,7 @@ def _run_ordinary_voice_turn(
 
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
-        turn_directive=_build_turn_directive(directive), message=user_message, history=history,
+        turn_directive=_build_turn_directive(directive, figures_already_named), message=user_message, history=history,
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
@@ -512,10 +537,14 @@ def run_turn(
     transcript already shows in a prior turn's figures_used, so a name
     bridged once does not fire again (Full UX Design §2.4/§5.7's
     "first-occurrence term" grammar, applied to names the same as lexicon
-    terms). Caller-supplied for the identical reason as already_told_ids;
-    omitting it just means every matching figure fires every time it's
-    named, which is safe (a bridge firing twice loses nothing) but noisier
-    than intended.
+    terms). Since 2026-08-30 the same set also reaches the VOICE: it is
+    resolved to spoken names and rendered into the evidence block as an
+    already-introduced line (Mark's pilot read - both Chloe turns opened
+    "One of us, Ignatius"; the screen knew he was introduced, the voice
+    did not). Caller-supplied for the identical reason as
+    already_told_ids; omitting it means every matching figure fires every
+    time it's named AND the voice is never told a name is already known -
+    safe, but both channels get noisier than intended.
 
     already_bridged_gloss_ids is the same shape again, for
     engine.m4.term_glosses.find_glosses_used: term record ids this

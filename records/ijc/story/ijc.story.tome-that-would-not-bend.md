@@ -9,6 +9,7 @@ canon_cells:
 - F1-I
 - F6-I
 - F3-I
+- C-T
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -84,3 +85,9 @@ Canon 28's reasoning, and the rejection sentence are all
 verbatim-verified in the linked quote records.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+
+CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
+and the five world read"; V1.2 birth condition applied to the existing
+fleet - one story and one term per center cell where they genuinely
+belong, honest empties recorded). Added to C-T: "Was Jesus God? Did you believe in the Trinity?" - Leo's Tome at Chalcedon is this world's own closing argument on how the answer was said and received. Content unchanged; the added
+cell and this note are the whole edit.

@@ -8,6 +8,7 @@ register: emic
 canon_cells:
 - F2-P
 - F1-P
+- C-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -60,3 +61,9 @@ Fremantle rendering - collate at first verbatim use); the enemies' jibe is
 the Apology exchange's attested content. Serves F2-P (confused or bored by
 the Bible - this world's own scholar knew exactly that experience) and
 F1-P.
+
+CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
+and the five world read"; V1.2 birth condition applied to the existing
+fleet - one story and one term per center cell where they genuinely
+belong, honest empties recorded). Added to C-P: "I want to believe in Jesus, but I can't" - the one story this world tells against itself about divided devotion before Christ, in its own teller's words. Content unchanged; the added
+cell and this note are the whole edit.
