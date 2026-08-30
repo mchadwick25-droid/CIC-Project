@@ -252,3 +252,55 @@ Worth recording once, because it shapes what the Haiku risk is actually covered 
 **Also still open from the previous addendum:** `pilot-feedback.html` is a live page, linked from every footer and from inside the app, whose `mailto:` form is unreliable and which nobody reads. Unchanged by this correction — written feedback and conversation tracking are different things, and only the latter turns out to be wanted.
 
 **Next action:** (1) Anthropic Console spending limit — still blocking before 2026-09-01; (2) Supabase configured so conversation tracking is real before more pilot conversations run on Haiku; (3) run the Haiku battery with the voice re-baseline and regeneration-rate read folded in; (4) decide `pilot-feedback.html`; (5) settle which pacing the $0.25-1.00/hr band assumes.
+
+---
+
+## 2026-08-30 — Donation coverage math: hope needs real pilot data, not just growth
+
+**Bridge note.** Nothing in this log since 2026-08-09 — in the gap, the engine itself was rebuilt:
+`cic-poc`/direct-Anthropic-API is retired, the app now runs on the new M8 engine over AWS
+Bedrock (10-turn session cap, not 60), and a full Bedrock-vs-rate-card reconciliation just closed
+clean (`engine/m8/reports/reconciliation-2026-08-28-worksheet.md`, 2026-08-28/30). This entry is
+narrowly about the funding/coverage question that came up while working through that
+reconciliation's cost figures with Mark — it doesn't re-litigate the engineering.
+
+**Origin.** Mark, on hoping Stripe giving (already live on `support.html` — "Keeping the Door
+Open" one-time, "Open the Door Wider" monthly) covers running costs as the pilot grows: "the
+first month will be small as it is still in pilot... i am hoping that could cover costs as we
+start growing."
+
+**The honest math, checked before taking the hope at face value.** Current fully-loaded monthly
+cost: $225 fixed (Claude subscription + Render hosting) + ~$0.35 Bedrock cost per
+interview-equivalent conversation. Applying this workstream's own prior donation benchmark
+(Wikimedia's published 2% ask-conversion rate, ~$5-10 average gift, from the 2026-07-21 Go-Live
+Cost Model): expected donation revenue per conversation-starter ≈ 2% × $7.50 = **$0.15** — *less
+than half* the $0.35 it costs to run that conversation. **At a 2% conversion rate, more volume
+does not close the gap — it widens it in absolute dollars,** even though the *fixed*-cost share
+per person keeps shrinking with scale. Donations can plausibly cover the $225 fixed floor at
+enough volume; they don't outrun the variable Bedrock cost at this conversion rate.
+
+**The one real reason this could be too pessimistic, flagged not assumed:** 2% is a
+stranger-traffic benchmark (Wikimedia's anonymous global readership). CiC's pilot is personally
+invited people who already know Mark and are being interviewed directly (per the 2026-08-09
+entries above) — a materially warmer audience that could convert well above 2%. Nobody has a
+real number for that yet. It is the single biggest lever in the whole projection, bigger than
+visitor count.
+
+**Recommendation given to Mark:** treat donations as covering the fixed cost floor, not the
+marginal per-conversation cost, until real pilot data says otherwise — a smaller, more honest
+claim than "covers costs as we grow." The prior Go-Live model's own sequencing still stands:
+one-time/recurring gifts are the fastest signal test, not necessarily the long-run answer;
+institutional licenses ($1,200-5,000/yr per church/seminary) remain "the structurally strongest
+source" once there's a track record, per the 2026-07-21 model.
+
+**NOT YET DONE — waiting on real data, on Mark's own instruction ("log it once real pilot data
+comes in").** This entry records the framework and the 2%-benchmark projection only. **Next
+action:** once real Stripe conversions start coming in from actual pilot participants, update
+this entry with the real conversion rate and average gift, replacing the Wikimedia benchmark —
+that real number, not projected growth, is what actually answers whether the hope is founded.
+
+**Also surfaced, related to this log's still-open pacing question (2026-08-09 entry above):** the
+current M8 engine declared its own turns-per-hour convention (`engine/m8/cost.py`,
+`TURNS_PER_HOUR_CONVENTION = 12`) independently of this workstream's unresolved 30/hr-vs-6/hr
+question — a third value, not a resolution of the other two. Still open, still this workstream's
+call to settle, now with one more value in play.
