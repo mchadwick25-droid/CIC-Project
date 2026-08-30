@@ -1490,3 +1490,30 @@ Queue unchanged: opening parroting (three of Theon's summary sentences
 copied byte-for-byte by a later voice) persists exactly as before the
 fix - its own ruling pending. The "## Response" header one-off and the
 delivery-side leading-header strip remain queued hygiene candidates.
+
+## 2026-08-30 - THE BAR SWEEP (fleet-wide, one pass)
+
+Mark fixed the bar with an approved sample ("much better thats the
+bar" - the reshaped syr demo; Ministry/Technology/
+CiC_Register_Bar_2026-08-29.md is the anchor). Then the one sweep, not
+tweaks: every spoken field in the corpus screened against the bar
+(199 true offenders), rewritten or sentence-split world by world -
+hal 32 fields, alx 15, ijc 25, desert 33, syr 36+20, pahc 23+ - plus
+44+11 quote renderings brought to the bar and the six conversational
+demos reshaped to his turn ruling (longer allowed, pressure not cap,
+never essays, at most three short paragraphs, first turns handing the
+conversation back). Every quotation kept character-exact; every
+reviewed constraint checked; tag censuses verified per world against
+pre-sweep baseline builds (net +25, no grounding losses). Fleet
+repinned 2026-08-30; suite 535; staleness fresh.
+
+Live verification (same five questions as the pre-sweep check):
+quote-stripped FK 7.9-9.3 per turn, was 9.4-10.7. No fragments, no
+archaic voice, no headers, no repetition; quotes speak renderings.
+
+Open, logged for Mark's ruling - not patched: (1) turn length still
+runs four-to-five short paragraphs against his at-most-three pressure;
+the design dial is the evidence-per-turn trim (P6: pace depth across
+turns) he has not yet ruled on. (2) Two turns slipped into
+first-person singular against the strict we-voice rule - measured by
+the audit, awaiting a design-level answer if it recurs.
