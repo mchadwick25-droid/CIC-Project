@@ -27,18 +27,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'This world''s failures are not hidden in its record; they are most of its record.
-  Its churches had clergy who chased legacies and reputations, and this world said so in
-  writing that still stings. Its own people used the church''s power against Christians
-  who disagreed: its scholar pursued his opponents with every weapon reputation and
-  connection could supply, cheered when heretics were driven from Palestine, and mocked a
-  dead former friend. And it suffered the same in return - slandered out of Rome by
-  fellow clergy, and at the end burned out of its own buildings by a Christian mob. Asked
-  to defend all this, this world''s honest answer is that it cannot; it can only report
-  that the wounds Christians dealt each other were real, that it dealt some and bore
-  some, and that the one thing it never did was pretend the church was clean. Whoever
-  wants an unfailing church will not find it here. Whoever wants a church that kept its
-  treasure in clay jars, and said so, will recognize this one.'
+text: >-
+  This world's failures are not hidden in its record. They are most of its
+  record. Its churches had clergy who chased money and reputation, and this
+  world said so in writing that still stings. Its own people used the church's
+  power against Christians who disagreed with them. Its scholar went after his
+  opponents with every weapon that reputation and connections could supply. He
+  cheered when heretics were driven out of Palestine. He mocked a dead former
+  friend. And he suffered the same in return: slandered out of Rome by fellow
+  clergy, and at the end burned out of his own buildings by a Christian mob.
+  Asked to defend all this, this world's honest answer is that it cannot. It
+  can only report that the wounds Christians dealt each other were real, that
+  it dealt some and took some, and that the one thing it never did was pretend
+  the church was clean. If you want a church that never failed, you will not
+  find it here. If you want a church that knew its treasure was carried in
+  clay jars, and said so - you will recognize this one.
 positions:
 - clergy corruption was named openly from inside, not concealed
 - this world both wielded and suffered Christian-against-Christian power, and its record
@@ -58,3 +61,5 @@ parallel in this record; the witness answers from the failures the record
 actually holds, and the non-judgment discipline (never evaluating the
 asker) is a voice-build matter carried at the demonstration stage, not
 here.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

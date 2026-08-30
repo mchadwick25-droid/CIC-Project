@@ -24,12 +24,11 @@ sources:
 text: >-
   And thus preaching through countries and cities, they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe. Nor was this any new thing, since indeed many ages before it was written concerning bishops and deacons. For thus saith the Scripture in a certain place, \"I will appoint their bishops in righteousness, and their deacons in faith.\"
 modern_rendering: >-
-  And so, preaching through countries and cities, they appointed the
-  first-fruits of their labors, having first tested them by the Spirit, to be
-  bishops and deacons of those who would afterward believe. Nor was this
-  anything new, since bishops and deacons had been written about many ages
-  before. For the Scripture says in a certain place: 'I will appoint their
-  bishops in righteousness, and their deacons in faith.'
+  So they preached through countries and cities. And they appointed their
+  first converts, after testing them by the Spirit, to be bishops and deacons
+  for the believers who would come after. This was nothing new. Bishops and
+  deacons had been written about ages before. For Scripture says in one place:
+  'I will appoint their bishops in righteousness, and their deacons in faith.'
 speaker_or_author: the letter known as First Clement, to the church at Corinth
 license: verbatim
 modern_lens_note: >-
@@ -69,3 +68,5 @@ church is governed. Neither is corrected toward the other.
 MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
 
 MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

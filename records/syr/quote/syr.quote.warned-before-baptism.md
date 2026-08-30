@@ -22,14 +22,14 @@ sources:
 text: >-
   For this reason it is fitting for the sounders of trumpets, the preachers of the Church, to warn all (who are in) the covenant of God before baptism, and to those who choose for themselves virginity and holiness, young men and virgins and those (wishing to. become) holy; and for the preachers to warn them and say: "He who sets his heart upon the natural state of fellowship (i.e.~in matrimony), let him become united before baptism lest, perhaps, he fall in the conflict and be killed. And he who is afraid of this part of the struggle let him turn back lest, perhaps, he break the heart of his brethren as well as his own heart.
 modern_rendering: >-
-  For this reason it is right for the trumpet-sounders, the preachers of the
-  Church, to warn everyone in God's covenant before baptism - the young men
-  and the virgins and those choosing holiness for themselves - and to say:
-  whoever has set his heart on the natural state of fellowship, that is, on
-  marriage, let him marry before baptism, so that he does not fall in the
-  conflict and be killed. And whoever is afraid of this part of the struggle,
-  let him turn back, so that he does not break his brothers' hearts as well as
-  his own.
+  For this reason it is right for the preachers of the Church - the ones who
+  sound the trumpet - to give a warning before baptism. They should warn
+  everyone entering God's covenant: the young men, the virgins, all who are
+  choosing a holy single life. The warning goes like this. If your heart is
+  set on marriage, then marry before your baptism. Otherwise you may fall in
+  the fight and be killed. And if you are afraid of this part of the fight,
+  turn back now, so that you do not break your brothers' hearts along with
+  your own.
 speaker_or_author: Aphrahat, Demonstration VII.20
 license: verbatim
 modern_lens_note: >-
@@ -52,3 +52,5 @@ syr.source.aphrahat-demonstrations-hallock - a source this world already holds a
 citing.
 
 MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

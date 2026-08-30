@@ -20,6 +20,10 @@ sources:
 text: 'My voice sticks in my throat; and, as I dictate, sobs choke my utterance. The City
   which had taken the whole world was itself taken; nay more famine was beforehand with
   the sword and but few citizens were left to be made captives.'
+modern_rendering: >-
+  My voice sticks in my throat, and sobs choke me as I dictate. The city that
+  had captured the whole world was itself captured. Worse: famine got there
+  before the sword, and only a few citizens were left to be taken prisoner.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Famine was beforehand with the sword" is archaic word order for "famine arrived before the sword did" - easily misparsed by a modern reader.'
@@ -38,3 +42,5 @@ suffering cell.
 
 Corrected per independent review Round 1 (2026-08-21): the elision count
 was overstated as two; there is one.
+
+MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.

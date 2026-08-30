@@ -31,9 +31,9 @@ text: >-
   also gave an equal measure of strength of will as unto men, so that they might have no cause for
   being feeble in the performance of the labour of ascetic excellence.
 modern_rendering: >-
-  Now therefore we must also remember the chosen and mighty women, to whom God
-  gave strength of will in equal measure with the men, so that they would have
-  no excuse for being feeble in carrying out the labor of ascetic excellence.
+  Now we must also remember the chosen and mighty women. God gave them
+  strength of will equal to the men's. So they had no excuse for weakness in
+  the hard work of this way of life.
 speaker_or_author: Palladius, in the Syriac recension of the Paradise
 license: verbatim
 modern_lens_note: >-
@@ -66,3 +66,5 @@ is more interesting than either a flat endorsement or a flat exclusion
 would be.
 
 MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

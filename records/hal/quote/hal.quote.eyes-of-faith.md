@@ -22,6 +22,11 @@ text: 'she protested in my hearing that she could behold with the eyes of faith 
   infant Lord wrapped in swaddling clothes and crying in the manger, the wise men
   worshipping Him, the star shining overhead, the virgin mother, the attentive
   foster-father, the shepherds coming by night'
+modern_rendering: >-
+  She said, in my hearing, that with the eyes of faith she could see it all:
+  the infant Lord wrapped in cloths and crying in the manger, the wise men
+  worshipping him, the star shining overhead, the virgin mother, the watchful
+  foster father, and the shepherds coming by night.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"The eyes of faith" names imaginative, devotional perception - not a claim to literal eyesight of the Nativity scene, which the surrounding text (a cave centuries later) rules out on its own.'
@@ -39,3 +44,5 @@ witness, and the epitaph genre's shaping applies (Doc_09a S6); Documented
 as Jerome's written account, Inferential-Thin as Paula's precise
 experience. The record's own honest phrase - 'the eyes of faith' - names
 what kind of seeing this was. Serves C-I and C-P.
+
+MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.

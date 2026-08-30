@@ -23,14 +23,13 @@ sources:
 text: >-
   Suddenly I was caught up in the spirit and dragged before the judgment seat of the Judge; and here the light was so bright, and those who stood around were so radiant, that I cast myself upon the ground and did not dare to look up. Asked who and what I was I replied: \"I am a Christian.\" But He who presided said: \"Thou liest, thou art a follower of Cicero and not of Christ. For 'where thy treasure is, there will thy heart be also.'\" Instantly I became dumb, and amid the strokes of the lash—for He had ordered me to be scourged—I was tortured more severely still by the fire of conscience.
 modern_rendering: >-
-  Suddenly I was caught up in the spirit and dragged before the judgment seat
-  of the Judge. The light was so bright, and those standing around were so
-  radiant, that I threw myself to the ground and did not dare look up. Asked
-  who and what I was, I replied: 'I am a Christian.' But he who presided said:
-  'You lie. You are a follower of Cicero, and not of Christ. For where your
-  treasure is, there will your heart be also.' Instantly I fell silent, and
-  under the strokes of the lash - for he had ordered me to be scourged - I was
-  tortured worse still by the fire of my conscience.
+  Suddenly I was caught up in the spirit and dragged before the Judge's seat.
+  The light was so bright, and the people standing around so radiant, that I
+  threw myself on the ground and did not dare look up. I was asked who and
+  what I was. I answered: 'I am a Christian.' But the one presiding said: 'You
+  lie. You follow Cicero, not Christ. For where your treasure is, there your
+  heart will be also.' I went silent. And while I was being whipped - for he
+  had ordered me beaten - my conscience burned me worse than the lash.
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-
@@ -56,3 +55,5 @@ plain. Neither world knows the other's record; the pair is a fleet-level observa
 either world makes.
 
 MODERN RENDERING AUTHORED (2026-08-29, hal register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

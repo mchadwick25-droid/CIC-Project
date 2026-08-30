@@ -27,18 +27,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Born again - is that how this world would put what happened to its people? It
-  spoke of baptism as the washing that makes new, and of conversion as a turning so sharp
-  it could be dated: the day the widow put on sackcloth, the day the scholar swore off
-  his beloved books. The words are different; the turning is recognizable. Did they
-  tithe? No - a tenth would have sounded timid here. This world''s giving was not a
-  percentage but a direction: fortunes emptied toward the poor, the sick, and the
-  scriptures, with the giver deciding, and being urged to decide for more. The end of
-  the world - anything like the rapture? No such scheme is in its pages. But this world
-  watched Rome itself fall within its own lifetime and read the event with scripture in
-  its mouth - the head of the empire cut off, the world''s light put out, judgment
-  spoken in the prophets'' words. It did not calculate the end; it grieved what looked
-  like the end arriving, and kept praying and translating anyway.'
+text: >-
+  Born again - is that how this world would put what happened to its people?
+  It spoke of baptism as the washing that makes new. And it spoke of
+  conversion as a turn so sharp you could name the day: the day the widow put
+  on sackcloth, the day the scholar swore off his beloved books. The words are
+  different. The turning is recognizable. Did they tithe? No - a tenth would
+  have sounded timid here. Giving was not a percentage but a direction.
+  Fortunes were emptied toward the poor, the sick, and the scriptures, with
+  the giver deciding, and being urged to decide for more. What about the end
+  of the world - anything like the rapture? No such scheme is in its pages.
+  But this world watched Rome itself fall within its own lifetime, and it read
+  that event with scripture in its mouth: the head of the empire cut off, the
+  world's light put out, judgment spoken in the prophets' words. It did not
+  calculate the end. It grieved what looked like the end arriving, and it kept
+  praying and translating anyway.
 positions:
 - baptism and datable conversion carry what "born again" carries, in this world's own
   words
@@ -59,3 +62,5 @@ Ezekiel commentary ('the bright light of all the world was put out, or,
 rather, when the Roman Empire was decapitated'), verified verbatim
 against the vendored text; its source was added per independent review
 Round 1 (2026-08-21), which found it uncited.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

@@ -24,16 +24,18 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'When belief was disputed in this world, no single tribunal decided it - and this
-  world''s own record shows exactly how messy that was. In its great internal fight, both
-  sides appealed at once to scripture, to the faith of the councils, to the bishop of
-  Rome, to the bishop of Alexandria, to local bishops, and to the judgment of the reading
-  public - and the fight was ended less by a verdict than by exhaustion and death. As for
-  the council said to have voted Jesus into being God: this world was born after Nicaea
-  and received its faith as the church''s settled confession, not a vote''s invention -
-  in its account, the council rejected a novelty and confessed what the churches already
-  worshipped. But this world is the wrong witness for what happened in the council hall;
-  it was not there, and it would say so.'
+text: >-
+  When belief was disputed in this world, no single court decided it. The
+  record shows exactly how messy that was. In its great internal fight, both
+  sides appealed to everything at once: to scripture, to the councils' faith,
+  to the bishop of Rome, to the bishop of Alexandria, to local bishops, and to
+  the judgment of whoever was reading. The fight ended less by a verdict than
+  by exhaustion and death. What about the council that supposedly voted Jesus
+  into being God? This world was born after Nicaea. It received its faith as
+  the church's settled confession, not as a vote's invention. In its account,
+  the council rejected a new teaching and confessed what the churches already
+  worshipped. But this world is the wrong witness for what happened inside the
+  council hall. It was not there, and it would say so.
 positions:
 - disputed belief was contested before overlapping authorities - scripture, councils,
   bishops, and learned opinion - with no single deciding court
@@ -57,3 +59,5 @@ own dispute lives at hal.contested.origenist-substance (related contest;
 the tension above states it in-cell). The voted-God-at-a-council question
 answered with this world's reception-era standpoint plus an explicit
 wrong-witness limit rather than an anachronistic eyewitness claim.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

@@ -24,18 +24,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'What this world had about Jesus was, first and above everything, the writings: the
-  Gospels and the whole of scripture, copied, compared, corrected, and translated - not
-  received passively but labored over word by word, because this world believed the
-  writings were the true deposit and worth a lifetime''s exactness. It stood more than
-  three and a half centuries from the events; no one among them had known an eyewitness,
-  and it did not pretend otherwise. Its confidence stood on the received apostolic
-  writings, on the unbroken worship of the churches, and - distinctively - on the places
-  themselves: this world could walk to the cave of the birth, and it treated the land as
-  a kind of witness, a fifth gospel of geography its founders crossed the sea to live
-  inside. Asked how it knew the resurrection really happened, this world answered from
-  the writings it trusted enough to spend a life correcting, and from a hope strong
-  enough that its people gave away fortunes against it.'
+text: >-
+  What did this world have about Jesus? First and above everything, the
+  writings. The Gospels and the whole of scripture were copied, compared,
+  corrected, and translated. Nothing was received passively. This world worked
+  over the text word by word, because it believed the writings were the true
+  treasure handed down, worth a lifetime of exactness. It stood more than
+  three and a half centuries from the events. No one there had ever known an
+  eyewitness, and no one pretended otherwise. Its confidence stood on three
+  things: the apostles' writings as received, the unbroken worship of the
+  churches, and - unusually - the places themselves. These people could walk
+  to the cave of the birth. They treated the land as a kind of witness, and
+  its founders crossed the sea to live inside it. How did they know the
+  resurrection really happened? From the writings they trusted enough to spend
+  a life correcting. And from a hope strong enough that people gave away
+  fortunes on it.
 positions:
 - the scriptures are the deposit about Jesus, and their exact wording matters enough to
   spend a life on
@@ -52,3 +55,5 @@ tensions:
 Center-evidential answer-ground. The 'eyes of faith' phrasing (Ep. 108
 sec. 10, verified) is the record's own honesty about what kind of seeing
 the places gave. Companion story: hal.story.journey-to-bethlehem.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

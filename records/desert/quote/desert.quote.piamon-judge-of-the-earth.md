@@ -36,15 +36,15 @@ text: >-
   handmaiden prayeth and her supplication reach Thee, let Thy power transfix [the enemy] in the
   spot wherein they are."
 modern_rendering: >-
-  Now the elders of the village were afraid, and they fell down at her feet
-  and begged her, saying: 'We do not dare go out to meet them, for we know
-  their miserable nature and their arrogance. But if you wish to spare the
-  village and your own house, go out yourself to meet them.' And the virgin
-  would not undertake to go out. Instead she went up onto the roof and stood
-  there in prayer the whole night long, without once kneeling down, bowing and
-  pleading to God: 'O Lord, Judge of the earth, who takes no pleasure in
-  anything unjust - my Lord, when the prayer and pleading of your servant
-  reach you, let your power pin the enemy to the spot where they stand.'
+  The elders of the village were afraid. They fell at her feet and begged her:
+  'We do not dare go out to meet them. We know how cruel and arrogant they
+  are. But if you want to spare the village and your own house, go out and
+  meet them yourself.' The virgin would not go out. Instead she climbed to the
+  roof and stood there in prayer the whole night, never once kneeling down,
+  bowing and pleading with God: 'Lord, Judge of the earth, you take no
+  pleasure in anything unjust. My Lord, when the prayer and pleading of your
+  servant reach you, let your power pin the enemy to the spot where they
+  stand.'
 speaker_or_author: the elders of Piamon's village, and Piamon of Upper Egypt, as Palladius reports them
 license: verbatim
 modern_lens_note: >-
@@ -81,3 +81,5 @@ witness to the same thing, from inside the tradition's own literature,
 and it happens to be about a woman.
 
 MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

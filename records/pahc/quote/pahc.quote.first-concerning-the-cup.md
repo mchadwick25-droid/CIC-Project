@@ -22,10 +22,10 @@ sources:
 text: >-
   Now concerning the Thanksgiving (Eucharist), thus give thanks. First, concerning the cup: We thank thee, our Father, for the holy vine of David Thy servant, which Thou madest known to us through Jesus Thy Servant; to Thee be the glory for ever.
 modern_rendering: >-
-  Now concerning the Thanksgiving (the Eucharist), give thanks this way.
-  First, concerning the cup: We thank you, our Father, for the holy vine of
-  David your servant, which you made known to us through Jesus your Servant;
-  to you be the glory forever.
+  Now about the Thanksgiving - the Eucharist. Give thanks this way. First,
+  over the cup: We thank you, our Father, for the holy vine of David your
+  servant, which you made known to us through Jesus your Servant. To you be
+  the glory forever.
 speaker_or_author: the manual known as the Didache
 license: verbatim
 modern_lens_note: >-
@@ -49,3 +49,5 @@ participant asking about transubstantiation should meet a prayer that does not m
 all, and should meet it in the source's own words.
 
 MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
