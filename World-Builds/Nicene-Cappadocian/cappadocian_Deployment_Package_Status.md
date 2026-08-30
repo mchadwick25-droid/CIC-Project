@@ -14,7 +14,7 @@
 | 7 | Facilitator Calibration Scenarios | **OUTSTANDING** | Deliberately not drafted: honest scenarios should be written against observed runtime behavior, not invented pre-testing |
 | 8 | World Introduction Brief | **PRODUCED** — cappadocian_World_Introduction_Brief.md | Four participant types; one internal contradiction found and fixed at Critic Finding 20 |
 | 9 | Story Repository | **PARTIAL** — 2 of 18 inventory entries chunked (cappadocianstory001 Tier 1, cappadocianstory002 Tier 4 with full element sourcing) | Full inventory exists as Doc_09; chunking outstanding |
-| 10 | Deployment Lexicon | **PARTIAL** — 3 of 38 entries chunked (cappadocianlex001–003, incl. one CT-typed) | Full lexicon exists as Doc_06; chunking outstanding |
+| 10 | Deployment Lexicon | **PARTIAL** — 3 of 39 entries chunked (cappadocianlex001–003, incl. one CT-typed) | Full lexicon exists as Doc_06; chunking outstanding |
 | 11 | Voice Configuration | **PRODUCED (PENDING TESTING)** — cappadocian_Voice_Configuration_Eumathios.md | No model selected — recorded as pending rather than fabricated; no written-voice blind testing conducted (stated) |
 | A | Activation set (World / Lexicon / Representative / Facilitator-Governance Activation) | **OUTSTANDING** | Session-start configuration files; require operational parameters (2D System Operations) the run did not exercise |
 

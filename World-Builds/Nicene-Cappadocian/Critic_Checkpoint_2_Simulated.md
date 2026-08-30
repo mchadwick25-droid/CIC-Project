@@ -3,6 +3,8 @@
 
 **Simulated review — informational only, not a substitute for genuine independent Critic review or Article 31 external scholarly review.** Same-session limitation as Checkpoint 1 applies in full: this reviewer shares the builder's blind spots and cannot supply the fresh-context adversarial pass the methodology actually calls for.
 
+**Dated correction note (2026-08-30, build thread, per CO-022's small-technical-correction allowance — the finding below is preserved verbatim, not rewritten):** Finding 18's "38 entries" reflects Doc_06's own then-current header, later found to have miscounted its own Tier 3; the real total was 39. Flagged so a reader cross-referencing the number isn't misled, not to alter this record's original finding.
+
 ---
 
 ### Finding 11 — NAME CHECK: "Eumathios" passes this build's knowledge; verification still owed

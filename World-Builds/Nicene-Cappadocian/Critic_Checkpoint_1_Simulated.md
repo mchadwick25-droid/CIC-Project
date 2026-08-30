@@ -3,6 +3,8 @@
 
 **Simulated review — informational only, not a substitute for genuine independent Critic review or Article 31 external scholarly review.** This review was produced in the same continuous session as the documents it criticizes. A same-context reviewer shares the blind spots of the builder. The project lead should commission a genuine fresh-context Critic pass before trusting this build for anything beyond the experiment itself.
 
+**Dated correction note (2026-08-30, build thread, per CO-022's small-technical-correction allowance — the finding below is preserved verbatim, not rewritten):** Finding 8's "10 of 38 entries" reflects Doc_06's own then-current header, which a later independent review found miscounted its own Tier 3 (9 claimed, 10 actual) — the real total was 39, not 38, when this checkpoint was written. The 26% proportion and the disposition are unaffected (10 of 39 ≈ 25.6%, not a materially different figure); flagged here so a reader cross-referencing the number isn't misled, not to alter this record's original finding.
+
 Posture: hunting for contradictions, thin evidence dressed as confident, shape drift (toward Alexandria per the Phase Status blur risk — and toward the Early Latin build's own solutions, a risk unique to a second Fable world), and rigor quietly traded for speed.
 
 ---
