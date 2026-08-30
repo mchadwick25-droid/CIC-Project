@@ -27,15 +27,14 @@ text: As for us, then, we scrupulously observe the exact day, neither adding nor
   the things which are said to terrify us. For those who are greater than I have said, "We ought to
   obey God rather than men."
 modern_rendering: >-
-  As for us, we keep the exact day scrupulously, neither adding nor taking
-  away. For in Asia great lights have gone to their rest, who shall rise again
-  on the day of the Lord's coming. And I also, Polycrates, the least of you
-  all, follow the tradition of my relatives, some of whom I have succeeded -
-  seven of my relatives were bishops, and I am the eighth. I myself, brothers,
-  sixty-five years old in the Lord, who have met with the brothers throughout
-  the world and have read through all Holy Scripture, am not frightened by the
-  things said to terrify us. For those greater than I have said: 'We ought to
-  obey God rather than men.'
+  As for us, we keep the exact day, adding nothing and taking nothing away.
+  Great lights of the faith have died here in Asia, and they will rise again
+  on the day the Lord comes. I, Polycrates, the least of you all, follow the
+  tradition of my family. Seven of my relatives were bishops, and I am the
+  eighth. I am sixty-five years old in the Lord, brothers. I have met
+  believers from all over the world, and I have read the whole of Holy
+  Scripture. And I am not frightened by threats. Men greater than I have said:
+  'We ought to obey God rather than men.'
 speaker_or_author: Polycrates, bishop of Ephesus, writing to Victor of Rome
 license: verbatim
 modern_lens_note: >-
@@ -77,3 +76,5 @@ is not an argument from scripture or from reason - it is a list of the
 dead, and a count of his own family's bishops, and a refusal.
 
 MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

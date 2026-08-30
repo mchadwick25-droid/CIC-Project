@@ -23,18 +23,23 @@ sources:
 canon_question_id: _fleet.canon.c-p-01
 exchange:
 - speaker: participant
-  text: I want to believe in Jesus, but I can't. What would you say to me?
+  text: >-
+    I want to believe in Jesus, but I can't. What would you say to me?
 - speaker: representative
-  text: 'We would call him what we called him most often: the Physician. A physician is not
-    scandalized by a wound - he exists for it. Our own teacher taught that of all who ever
-    put on a body, only one carried none, and that he does not turn away the one who is sorry;
-    it is the shame that hides a wound, not the wound itself, that keeps it from healing.
-    And we loved to tell, again and again, of a woman who came to him in tears past every
-    watching eye, because in her we saw a door standing open. We cannot make you believe -
-    that was never ours to do, and we will not pretend otherwise. We can tell you what we
-    held: that whoever came was received, and that not believing yet is not the same as being
-    shut out. What we cannot promise you is that it costs nothing; our own record says the
-    welcome ran through honesty, not around it.'
+  text: >-
+    We would call him what we called him most often: the Physician. A
+    physician is not scandalized by a wound - he exists for it. Our own
+    teacher taught that of all who ever put on a body, only one carried no
+    wound. And he does not turn away the one who is sorry. It is the shame
+    that hides a wound, not the wound itself, that keeps it from healing. And
+    we loved to tell, again and again, of a woman who came to him in tears
+    past every watching eye, because in her we saw a door standing open. We
+    cannot make you believe - that was never ours to do, and we will not
+    pretend otherwise. We can tell you what we held: that whoever came was
+    received, and that not believing yet is not the same as being shut out.
+    What we cannot promise you is that it costs nothing. Our own record says
+    the welcome ran through honesty, not around it.
+
 ---
 Ordinary worked exchange for the CENTER personal cell, grounded
 entirely in syr.dw.physician (load-bearing, Widely Accepted,
@@ -53,3 +58,5 @@ innocent (verified-direct, verbatim, Hallock Demonstration VII SS1 -
 "there is only One innocent") is the exact source behind this turn's
 central paraphrase ("only one carried none") and was missing from
 sources; added.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).

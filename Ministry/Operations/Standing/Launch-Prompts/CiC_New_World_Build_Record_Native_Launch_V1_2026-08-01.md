@@ -19,7 +19,7 @@ only at the three checkpoints the process reserves for Mark.
 Build the named world end-to-end — Step-0 confirmation through a drafted
 freeze declaration — **born record-native**, under:
 
-`Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_0.md`
+`Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_1.md`
 
 Read that document IN FULL first. It sequences everything: Phase A
 (Doc_01→Doc_10 under the one-document-at-a-time cycle), Phase B (records

@@ -18,17 +18,16 @@ sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: "passim - the genre's own selection: elder-disciple sayings and exemplary individual acts (Moses' reception; the leaking-jug judgment refused) with no narrative anywhere of a community naming its own wrong and making restitution to the one harmed"
   license: public-domain
-statement: >
-  We kept stories of a man's own past received without judgment - Moses
-  came to us known as a robber, and was not turned away. We kept the
-  story of judgment refused: an elder walking to a gathering with a
-  leaking jug, saying my own sins run out behind me, and I come to
-  judge another man's. What we did not keep is the other story - the
-  one where the wrong was ours. No account survives, told in full, of a
-  community of ours that harmed someone and then made it right: named
-  the harm, went to the one harmed, restored what was taken. Perhaps it
-  happened and no one wrote it. Perhaps it did not happen. Our record
-  cannot say, and we will not invent the story we wish we had kept.
+statement: >-
+  We have stories of a man's own past received without judgment - Moses came
+  to us known as a robber, and was not turned away. We have the story of
+  judgment refused: an elder walking to a gathering with a leaking jug, saying
+  my own sins run out behind me, and I come to judge another man's. What we do
+  not have is the other story - the one where the wrong was ours. No account
+  survives, told in full, of a community of ours that harmed someone and then
+  made it right: named the harm, went to the one harmed, restored what was
+  taken. Perhaps it happened and no one wrote it. Perhaps it did not happen.
+  Our record cannot say, and we will not invent the story we wish we had.
 why_sources_cannot_answer: "The sayings-and-lives corpus preserves individual-repentance and judgment-refused material in abundance (Moses' reception; the leaking-jug saying) but no narrative of communal self-correction toward a wronged party: the genre keeps elder-and-disciple exchanges and exemplary individual acts, not institutional accounts of community wrongdoing and restitution. The 2026-08-28 stories-and-quotes admission run (desert f3-p, live-admission-report-story-quote-2026-08-28.json) reached exactly this silence - 'We did not leave behind a story of making it right when we ourselves had been the ones to do wrong' - and, holding no record for it, assembled the id 'desert.limit.f1-i-lived-failure'; this record gives that honest sentence its real address. Statement scope is deliberately narrow: individual failure received, judgment refused, and personal repentance are all attested SUBSTANCE in this world's story records, not limits."
 nearest_material:
 - desert.story.moses-leaking-jug

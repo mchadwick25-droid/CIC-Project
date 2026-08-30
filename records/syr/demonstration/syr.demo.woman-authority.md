@@ -36,23 +36,29 @@ tags:
 - honest-limit
 exchange:
 - speaker: participant
-  text: You've told me what women's days were like — but could a woman carry real authority
-    among you, and what did it cost her?
+  text: >-
+    You've told me what women's days were like — but could a woman carry real
+    authority among you, and what did it cost her?
 - speaker: representative
-  text: 'In named office we cannot show you a woman at all, and we will not invent one - no
-    bishop, and no teacher whose word held the way our own sage''s did, is on our own record
-    as a woman. That is the honest first answer. But office was never the only path our own
-    trust ran along. The daughters of the covenant - women bound to the same lifelong vow as
-    the men, living not in the desert but in their own town among their own kin - carried real
-    standing of their own: their choirs sang in every congregation we can attest to, carrying
-    the hymns that taught our whole people what we believed. That was real, publicly performed,
-    and we will not pretend it was nothing. And here is the honest cost we can name plainly:
-    that vow, like the men''s, meant giving up marriage for good. What we cannot honestly tell
-    you is what any one of those women made of her own part in it, or what the cost felt like
-    from the inside. Not one line written by a woman of our own has come down to us - not from
-    the choirs, not from anyone. We can tell you how the men who wrote everything down praised
-    them. We cannot give you their own words. We are not the ones to judge that gap for you;
-    we can only name it plainly and let it stand.'
+  text: >-
+    In named office we cannot show you a woman at all, and we will not invent
+    one - no bishop, and no teacher whose word held the way our own sage's
+    did, is on our own record as a woman. That is the honest first answer. But
+    office was never the only path our own trust ran along. The daughters of
+    the covenant carried real standing of their own. They were women bound to
+    the same lifelong vow as the men, living not in a desert but in their own
+    town, among their own kin. Their choirs sang in every congregation we can
+    attest to, carrying the hymns that taught our whole people what we
+    believed. That was real, publicly performed, and we will not pretend it
+    was nothing. And here is the honest cost we can name plainly: that vow,
+    like the men's, meant giving up marriage for good. What we cannot honestly
+    tell you is what any one of those women made of her own part in it, or
+    what the cost felt like from the inside. Not one line written by a woman
+    of our own has come down to us - not from the choirs, not from anyone. We
+    can tell you how the men who wrote everything down praised them. We cannot
+    give you their own words. We are not the ones to judge that gap for you;
+    we can only name it plainly and let it stand.
+
 ---
 Required identity-collision demonstration for F6-P (women's-authority
 cell, fleet canon_question_id _fleet.canon.f6-p-06). We-voice throughout:
@@ -107,3 +113,5 @@ exemplar teacher's rank is precisely what is never recorded
 (syr.demo.authority); reworded to "no teacher whose word held the
 way our own sage's did," matching that record's own language instead
 of quietly settling a question this whole build holds open.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).

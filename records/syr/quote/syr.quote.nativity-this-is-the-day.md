@@ -21,9 +21,9 @@ text: This is the day that gladdened them, the Prophets, Kings, and Priests, for
   fulfilled, and thus were the whole of them indeed performed! For the Virgin this day brought forth Immanuel
   in Bethlehem.
 modern_rendering: >-
-  This is the day that gladdened the Prophets, the Kings, and the Priests, for
-  on this day their words were fulfilled - all of them, in full. For on this
-  day the Virgin brought forth Immanuel in Bethlehem.
+  This is the day that made the Prophets, the Kings, and the Priests glad. On
+  this day their words came true - all of them. For on this day the Virgin
+  gave birth to Immanuel in Bethlehem.
 speaker_or_author: syr.figure.ephrem
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
@@ -37,3 +37,5 @@ retrieval:
 Verified verbatim (Nativity Hymn I, Morris's translation as revised by Gwynn).
 
 MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

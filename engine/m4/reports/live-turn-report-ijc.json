@@ -3,8 +3,8 @@
   "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
   "region": "us-east-1",
   "world_key": "ijc",
-  "manifest_hash": "sha256:47b1a4577d81daa9b7ecba3dd2a3471d144b0f40a0cdcd187e5acdee2429b2b5",
-  "package": "packages/ijc/2026-08-29T21-29-44Z",
+  "manifest_hash": "sha256:88333ca00af1183f143ba3822bc53c24a1ee1b2a930689b64841d083171475af",
+  "package": "packages/ijc/2026-08-30T00-31-38Z",
   "results": [
     {
       "id": "message-1",
@@ -16,10 +16,10 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "ijc",
-          "text": "We hear the question - and here is what we will answer honestly, in order: where we have direct testimony, where our record thins, and where it goes silent altogether.\n\n**What we can tell you plainly:** Baptism was the real threshold. The washing that forgave sins, admitted a person to the altar, and bound them - that was taken so seriously that some of our most famous men put it off for years. Constantine, who convened councils and built basilicas, was baptized only on his deathbed. Eusebius, our own court panegyrist and the only source for his motive, says the delay came from awe of a washing that could not be repeated, not from indifference - the emperor 'felt the time was come at which he should seek purification from sins of his past career, firmly believing that whatever errors he had committed as a mortal man, his soul would be purified from them through the efficacy of the mystical words and the salutary waters of baptism'. We carry that as Eusebius's own claim, not as established fact, since it rests on one interested voice alone. What the fact itself shows: if by a datable, decisive crossing from outside to inside, we had one. It was taken with fearful seriousness, and delayed precisely because it meant so much.\n\n**Where our record thins:** Private devotion, prayer alone, the quiet inside - our record does not keep those pages. We know the crowds were there; on one besieged night they enter the record singing. But one believer's own heart, wrestling with faith or trying to pray - that was not what councils wrote down or bishops preserved. The nearest thing we have is one famous man's own struggle, told long afterward. Augustine remembered turning to the scriptures and finding them beneath him at first - he 'scorned to be a little one,' in his own words. Years later, weeping and asking how long this would take, he heard a child's voice chanting 'take up and read,' and he opened the book at random. That is a bishop telling his own conversion story, not an ordinary believer's quiet doubt. A farmer who found the reading hard left no written record at all.\n\n**What we will not invent:** The daily life you are asking for - the household, the meal, the children, the ordinary believer's own experience of any event in our record - was lived, not written. Our sources speak from and about bishops, emperors, and courts. We will not smooth that into a claim about what ordinary Christians experienced or believed.\n\nWhat we *can* say is this: to be part of our world was to stand somewhere in relation to that baptismal threshold, to hear scripture read aloud in the assembly, to confess the creed, and - when soldiers surrounded your church - to sing psalms together through the night. Beyond that, the silence in our record is real, and we name it rather than fill it.",
+          "text": "You are asking for the life itself, not just the arguments about it - and that is a fair question to put to us. Here is what we can tell you honestly.\n\nFor a believer in our cities, the real threshold was baptism. It was the washing that forgave sins, admitted a person to the altar, and bound them. We took it so seriously that some of our most famous men put it off for years. Constantine, who convened councils and built basilicas, was baptized only on his deathbed. Our one source for his motive - Eusebius, his own court panegyrist - says the delay came from awe of a washing that could not be repeated, not from indifference. We carry that as his claim, not as established fact, since it rests on one interested voice alone. Theodosius was baptized during an illness early in his reign, fifteen years before his death. He rose from that washing an emperor now formally inside the Church's discipline. If by crossing into the faith you mean a datable, decisive threshold from outside to inside, we had one.\n\nWhat we did not keep is the quiet inside: how someone prayed alone, what doubt felt like from within, or how a heart moved toward belief before it got there. Our record was kept by men writing law and doctrine, and it notices the interior life mostly where it intersects the authority contest. The nearest we have to one man's struggle is Augustine, who wrote his own conversion story years afterward. He cried out: 'How long, how long? Tomorrow, and again tomorrow? Why not now?' Then he heard a child's voice chanting 'take up and read,' and he opened the book at random. That is a famous man's account, told as memory. An ordinary believer's own wrestling with doubt or faith left no written trace at all.\n\nAnd one other thing we can give you. On the feast our whole city kept together, one of our own bishops preached this to everyone gathered: 'Let the saint rejoice: he draws near to victory. Let the sinner be glad: he is invited to pardon. Let the gentile take courage: he is called to life'. That was not said only to the certain. It was preached without waiting for anyone's readiness first.\n\nSo the life we can show you is threshold and gathering: baptism that bound, a creed spoken together, scriptures read aloud, and the preaching heard by everyone at once. The private devotion, the alone prayer, the unspoken doubt - those were lived, not written, and we cannot show them to you.",
           "citations": [
             {
-              "sentence": "**What we can tell you plainly:** Baptism was the real threshold.",
+              "sentence": "You are asking for the life itself, not just the arguments about it - and that is a fair question to put to us.",
               "record_ids": [
                 "ijc.dw.baptism-threshold"
               ],
@@ -48,7 +48,65 @@
               ]
             },
             {
-              "sentence": "The washing that forgave sins, admitted a person to the altar, and bound them - that was taken so seriously that some of our most famous men put it off for years.",
+              "sentence": "For a believer in our cities, the real threshold was baptism.",
+              "record_ids": [
+                "ijc.dw.baptism-threshold"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.baptism-threshold",
+                  "record_type": "doctrinal_witness",
+                  "label": "Were the people of this world 'born again'? They would have pointed to baptism, and they…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.sozomen-he",
+                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                      "locus": "VII.4 (Theodosius's baptism at Thessalonica)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "IV.61-64 (Constantine's deathbed baptism, npnf201 from line 67742)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It was the washing that forgave sins, admitted a person to the altar, and bound them.",
+              "record_ids": [
+                "ijc.dw.baptism-threshold"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.dw.baptism-threshold",
+                  "record_type": "doctrinal_witness",
+                  "label": "Were the people of this world 'born again'? They would have pointed to baptism, and they…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.sozomen-he",
+                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                      "locus": "VII.4 (Theodosius's baptism at Thessalonica)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "IV.61-64 (Constantine's deathbed baptism, npnf201 from line 67742)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We took it so seriously that some of our most famous men put it off for years.",
               "record_ids": [
                 "ijc.dw.baptism-threshold"
               ],
@@ -106,9 +164,10 @@
               ]
             },
             {
-              "sentence": "Eusebius, our own court panegyrist and the only source for his motive, says the delay came from awe of a washing that could not be repeated, not from indifference - the emperor 'felt the time was come at which he should seek purification from sins of his past career, firmly believing that whatever errors he had committed as a mortal man, his soul would be purified from them through the efficacy of the mystical words and the salutary waters of baptism'.",
+              "sentence": "Our one source for his motive - Eusebius, his own court panegyrist - says the delay came from awe of a washing that could not be repeated, not from indifference.",
               "record_ids": [
-                "ijc.quote.he-deferred-it-in-the-hope"
+                "ijc.quote.he-deferred-it-in-the-hope",
+                "ijc.dw.baptism-threshold"
               ],
               "sources": [
                 {
@@ -124,11 +183,32 @@
                       "rights_status": "public-domain"
                     }
                   ]
+                },
+                {
+                  "record_id": "ijc.dw.baptism-threshold",
+                  "record_type": "doctrinal_witness",
+                  "label": "Were the people of this world 'born again'? They would have pointed to baptism, and they…",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.sozomen-he",
+                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                      "locus": "VII.4 (Theodosius's baptism at Thessalonica)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "IV.61-64 (Constantine's deathbed baptism, npnf201 from line 67742)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
                 }
               ]
             },
             {
-              "sentence": "We carry that as Eusebius's own claim, not as established fact, since it rests on one interested voice alone.",
+              "sentence": "We carry that as his claim, not as established fact, since it rests on one interested voice alone.",
               "record_ids": [
                 "ijc.dw.baptism-threshold"
               ],
@@ -157,7 +237,7 @@
               ]
             },
             {
-              "sentence": "What the fact itself shows: if by a datable, decisive crossing from outside to inside, we had one.",
+              "sentence": "Theodosius was baptized during an illness early in his reign, fifteen years before his death.",
               "record_ids": [
                 "ijc.dw.baptism-threshold"
               ],
@@ -186,7 +266,7 @@
               ]
             },
             {
-              "sentence": "It was taken with fearful seriousness, and delayed precisely because it meant so much.",
+              "sentence": "He rose from that washing an emperor now formally inside the Church's discipline.",
               "record_ids": [
                 "ijc.dw.baptism-threshold"
               ],
@@ -215,50 +295,28 @@
               ]
             },
             {
-              "sentence": "**Where our record thins:** Private devotion, prayer alone, the quiet inside - our record does not keep those pages.",
+              "sentence": "If by crossing into the faith you mean a datable, decisive threshold from outside to inside, we had one.",
               "record_ids": [
-                "ijc.limit.jesus-to-you"
+                "ijc.dw.baptism-threshold"
               ],
               "sources": [
                 {
-                  "record_id": "ijc.limit.jesus-to-you",
-                  "record_type": "honest_limit",
-                  "label": "You ask who Jesus was to us ourselves, not just to our councils",
+                  "record_id": "ijc.dw.baptism-threshold",
+                  "record_type": "doctrinal_witness",
+                  "label": "Were the people of this world 'born again'? They would have pointed to baptism, and they…",
                   "sources": [
                     {
-                      "source_id": "ijc.source.leo-letters",
-                      "author": "Leo I, bishop of Rome (440-461)",
-                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
-                      "locus": "the corpus's own genre - doctrine and governance, not confession of the heart",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We know the crowds were there; on one besieged night they enter the record singing.",
-              "record_ids": [
-                "ijc.limit.f5-ordinary-day"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.limit.f5-ordinary-day",
-                  "record_type": "honest_limit",
-                  "label": "You ask for an ordinary day among us: the food, the work, the children, the women's own l…",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.socrates-he",
-                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
-                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
-                      "locus": "the corpus-wide pattern - crowds appear when office-holders' contests need them",
+                      "source_id": "ijc.source.sozomen-he",
+                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                      "locus": "VII.4 (Theodosius's baptism at Thessalonica)",
                       "rights_status": "public-domain"
                     },
                     {
-                      "source_id": "ijc.source.augustine-confessions",
-                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
-                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
-                      "locus": "IX.7 (the single congregational interior)",
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "IV.61-64 (Constantine's deathbed baptism, npnf201 from line 67742)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -266,7 +324,7 @@
               ]
             },
             {
-              "sentence": "Years later, weeping and asking how long this would take, he heard a child's voice chanting 'take up and read,' and he opened the book at random.",
+              "sentence": "He cried out: 'How long, how long? Tomorrow, and again tomorrow? Why not now?' Then he heard a child's voice chanting 'take up and read,' and he opened the book at random.",
               "record_ids": [
                 "ijc.quote.take-up-and-read"
               ],
@@ -285,144 +343,31 @@
                     }
                   ],
                   "original_wording": "I sent up these sorrowful cries,—'How long, how long? Tomorrow, and tomorrow? Why not now? Why is there not this hour an end to my uncleanness?' I was saying these things and weeping in the most bitter contrition of my heart, when, lo, I heard the voice as of a boy or girl, I know not which, coming from a neighbouring house, chanting, and oft repeating, 'Take up and read; take up and read.' ... So, restraining the torrent of my tears, I rose up, interpreting it no other way than as a command to me from Heaven to open the book, and to read the first Chapter I should light upon.",
-                  "spoken_rendering": "I cried out in sorrow: 'How long, how long? Tomorrow, and tomorrow? Why not now? Why not end my uncleanness this very hour?' I was saying these things and weeping, my heart crushed with bitterness, when I heard a voice from a nearby house (a boy's or a girl's, I could not tell) chanting over and over: 'Take up and read; take up and read.' ... So I held back my flood of tears and stood up. I could take it no other way than as a command from Heaven to open the book and read the first chapter I turned to."
+                  "spoken_rendering": "I cried out in sorrow: 'How long, how long? Tomorrow, and again tomorrow? Why not now? Why not end my uncleanness this very hour?' I was saying this and weeping, my heart crushed, when I heard a voice from a nearby house. It was a child's voice, a boy's or a girl's, I could not tell, chanting over and over: 'Take up and read. Take up and read.' ... So I held back my tears and stood up. I could only take it one way: as a command from Heaven to open the book and read the first chapter I found."
                 }
               ]
             },
             {
-              "sentence": "**What we will not invent:** The daily life you are asking for - the household, the meal, the children, the ordinary believer's own experience of any event in our record - was lived, not written.",
+              "sentence": "On the feast our whole city kept together, one of our own bishops preached this to everyone gathered: 'Let the saint rejoice: he draws near to victory. Let the sinner be glad: he is invited to pardon. Let the gentile take courage: he is called to life'.",
               "record_ids": [
-                "ijc.limit.f5-ordinary-day"
+                "ijc.quote.leo-sinner-be-glad"
               ],
               "sources": [
                 {
-                  "record_id": "ijc.limit.f5-ordinary-day",
-                  "record_type": "honest_limit",
-                  "label": "You ask for an ordinary day among us: the food, the work, the children, the women's own l…",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.socrates-he",
-                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
-                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
-                      "locus": "the corpus-wide pattern - crowds appear when office-holders' contests need them",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.augustine-confessions",
-                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
-                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
-                      "locus": "IX.7 (the single congregational interior)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Our sources speak from and about bishops, emperors, and courts.",
-              "record_ids": [
-                "ijc.limit.f5-ordinary-day"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.limit.f5-ordinary-day",
-                  "record_type": "honest_limit",
-                  "label": "You ask for an ordinary day among us: the food, the work, the children, the women's own l…",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.socrates-he",
-                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
-                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
-                      "locus": "the corpus-wide pattern - crowds appear when office-holders' contests need them",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.augustine-confessions",
-                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
-                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
-                      "locus": "IX.7 (the single congregational interior)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We will not smooth that into a claim about what ordinary Christians experienced or believed.",
-              "record_ids": [
-                "ijc.core.imperial-juridical"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.core.imperial-juridical",
-                  "record_type": "world_core",
-                  "label": "ijc.core.imperial-juridical",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.eusebius-vita-constantini",
-                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
-                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
-                      "locus": "I.28-32, IV.24",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.chalcedon-acts",
-                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
-                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
-                      "locus": "the Definition; Canon XXVIII",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
-                      "locus": "36",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.leo-letters",
-                      "author": "Leo I, bishop of Rome (440-461)",
-                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
-                      "locus": "Ep. XXVIII (the Tome); Ep. CIV-CVI",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "What we *can* say is this: to be part of our world was to stand somewhere in relation to that baptismal threshold, to hear scripture read aloud in the assembly, to confess the creed, and - when soldiers surrounded your church - to sing psalms together through the night.",
-              "record_ids": [
-                "ijc.dw.how-we-read"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.dw.how-we-read",
-                  "record_type": "doctrinal_witness",
-                  "label": "This world read its scriptures the way it read everything else: as binding authority",
+                  "record_id": "ijc.quote.leo-sinner-be-glad",
+                  "record_type": "quote",
+                  "label": "Leo",
                   "sources": [
                     {
                       "source_id": "ijc.source.leo-sermons",
                       "author": "Leo I, bishop of Rome (440-461)",
                       "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
-                      "locus": "Sermon III (Peter's confession read as standing grant)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.hilary-de-synodis",
-                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
-                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
-                      "locus": "the scriptural case for and against the creed words",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.canons-nicaea",
-                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
-                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
-                      "locus": "Canon 6 (precedent read as law)",
+                      "locus": "On the Feast of the Nativity, I, ch. I (npnf212 lines 14508-14510)",
                       "rights_status": "public-domain"
                     }
-                  ]
+                  ],
+                  "original_wording": "Let the saint exult in that he draws near to victory. Let the sinner be glad in that he is invited to pardon. Let the gentile take courage in that he is called to life.",
+                  "spoken_rendering": "Let the saint rejoice: he draws near to victory. Let the sinner be glad: he is invited to pardon. Let the gentile take courage: he is called to life."
                 }
               ]
             }
@@ -464,6 +409,42 @@
                   "rights_status": "public-domain"
                 }
               ]
+            },
+            {
+              "id": "ijc.figure.theodosius",
+              "matched_name": "Theodosius",
+              "names": [
+                {
+                  "name": "Theodosius",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Theodosius I (347-395, emperor 379-395)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the emperor who made the Nicene faith the empire's own law - and who, after his soldiers massacred a city, did public penance before a bishop rather than break with him",
+              "dates": {
+                "born": "347",
+                "died": "395; the empire's administration divided between his sons after him",
+                "floruit": "emperor 379-395; baptized at Thessalonica during illness 380; the \"Cunctos populos\" law 380; the massacre at Thessalonica and his public penance 390"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "ijc.source.sozomen-he",
+                  "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                  "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                  "locus": "VII.4 (Theodosius's baptism at Thessalonica)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.eusebius-vita-constantini",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                  "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                  "locus": "IV.61-64 (Constantine's deathbed baptism, npnf201 from line 67742)",
+                  "rights_status": "public-domain"
+                }
+              ]
             }
           ],
           "quote_offers": [],
@@ -473,13 +454,7 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "We hear the question - and here is what we will answer honestly, in order: where we have direct testimony, where our record thins, and where it goes silent altogether.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "**What we can tell you plainly:** Baptism was the real threshold.",
+                "sentence": "You are asking for the life itself, not just the arguments about it - and that is a fair question to put to us.",
                 "tags": [
                   "ijc.dw.baptism-threshold"
                 ],
@@ -487,7 +462,29 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "The washing that forgave sins, admitted a person to the altar, and bound them - that was taken so seriously that some of our most famous men put it off for years.",
+                "sentence": "Here is what we can tell you honestly.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "For a believer in our cities, the real threshold was baptism.",
+                "tags": [
+                  "ijc.dw.baptism-threshold"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "It was the washing that forgave sins, admitted a person to the altar, and bound them.",
+                "tags": [
+                  "ijc.dw.baptism-threshold"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We took it so seriously that some of our most famous men put it off for years.",
                 "tags": [
                   "ijc.dw.baptism-threshold"
                 ],
@@ -504,24 +501,17 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "Eusebius, our own court panegyrist and the only source for his motive, says the delay came from awe of a washing that could not be repeated, not from indifference - the emperor 'felt the time was come at which he should seek purification from sins of his past career, firmly believing that whatever errors he had committed as a mortal man, his soul would be purified from them through the efficacy of the mystical words and the salutary waters of baptism'.",
+                "sentence": "Our one source for his motive - Eusebius, his own court panegyrist - says the delay came from awe of a washing that could not be repeated, not from indifference.",
                 "tags": [
-                  "ijc.quote.he-deferred-it-in-the-hope"
-                ],
-                "verdict": "ok",
-                "why": "quoted span(s) verbatim in tagged record(s)"
-              },
-              {
-                "sentence": "We carry that as Eusebius's own claim, not as established fact, since it rests on one interested voice alone.",
-                "tags": [
+                  "ijc.quote.he-deferred-it-in-the-hope",
                   "ijc.dw.baptism-threshold"
                 ],
                 "verdict": "ok",
-                "why": "grounded 90% in own tagged records",
-                "ratio": 0.9
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
               },
               {
-                "sentence": "What the fact itself shows: if by a datable, decisive crossing from outside to inside, we had one.",
+                "sentence": "We carry that as his claim, not as established fact, since it rests on one interested voice alone.",
                 "tags": [
                   "ijc.dw.baptism-threshold"
                 ],
@@ -529,7 +519,25 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "It was taken with fearful seriousness, and delayed precisely because it meant so much.",
+                "sentence": "Theodosius was baptized during an illness early in his reign, fifteen years before his death.",
+                "tags": [
+                  "ijc.dw.baptism-threshold"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "He rose from that washing an emperor now formally inside the Church's discipline.",
+                "tags": [
+                  "ijc.dw.baptism-threshold"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "If by crossing into the faith you mean a datable, decisive threshold from outside to inside, we had one.",
                 "tags": [
                   "ijc.dw.baptism-threshold"
                 ],
@@ -537,43 +545,25 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "**Where our record thins:** Private devotion, prayer alone, the quiet inside - our record does not keep those pages.",
-                "tags": [
-                  "ijc.limit.jesus-to-you"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "We know the crowds were there; on one besieged night they enter the record singing.",
-                "tags": [
-                  "ijc.limit.f5-ordinary-day"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "But one believer's own heart, wrestling with faith or trying to pray - that was not what councils wrote down or bishops preserved.",
+                "sentence": "What we did not keep is the quiet inside: how someone prayed alone, what doubt felt like from within, or how a heart moved toward belief before it got there.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "The nearest thing we have is one famous man's own struggle, told long afterward.",
+                "sentence": "Our record was kept by men writing law and doctrine, and it notices the interior life mostly where it intersects the authority contest.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "Augustine remembered turning to the scriptures and finding them beneath him at first - he 'scorned to be a little one,' in his own words.",
-                "tags": [
-                  "ijc.dw.reading-alone"
-                ],
+                "sentence": "The nearest we have to one man's struggle is Augustine, who wrote his own conversion story years afterward.",
+                "tags": [],
                 "verdict": "withhold",
-                "why": "unresolvable record id(s): ['ijc.dw.reading-alone']"
+                "why": "specific claim (proper-noun:['augustine']) with no citation tag"
               },
               {
-                "sentence": "Years later, weeping and asking how long this would take, he heard a child's voice chanting 'take up and read,' and he opened the book at random.",
+                "sentence": "He cried out: 'How long, how long? Tomorrow, and again tomorrow? Why not now?' Then he heard a child's voice chanting 'take up and read,' and he opened the book at random.",
                 "tags": [
                   "ijc.quote.take-up-and-read"
                 ],
@@ -581,71 +571,61 @@
                 "why": "quoted span(s) verbatim in tagged record(s)"
               },
               {
-                "sentence": "That is a bishop telling his own conversion story, not an ordinary believer's quiet doubt.",
-                "tags": [
-                  "ijc.dw.reading-alone"
-                ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['ijc.dw.reading-alone']"
-              },
-              {
-                "sentence": "A farmer who found the reading hard left no written record at all.",
-                "tags": [
-                  "ijc.dw.reading-alone"
-                ],
-                "verdict": "withhold",
-                "why": "unresolvable record id(s): ['ijc.dw.reading-alone']"
-              },
-              {
-                "sentence": "**What we will not invent:** The daily life you are asking for - the household, the meal, the children, the ordinary believer's own experience of any event in our record - was lived, not written.",
-                "tags": [
-                  "ijc.limit.f5-ordinary-day"
-                ],
-                "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              },
-              {
-                "sentence": "Our sources speak from and about bishops, emperors, and courts.",
-                "tags": [
-                  "ijc.limit.f5-ordinary-day"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "We will not smooth that into a claim about what ordinary Christians experienced or believed.",
-                "tags": [
-                  "ijc.core.imperial-juridical"
-                ],
-                "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              },
-              {
-                "sentence": "What we *can* say is this: to be part of our world was to stand somewhere in relation to that baptismal threshold, to hear scripture read aloud in the assembly, to confess the creed, and - when soldiers surrounded your church - to sing psalms together through the night.",
-                "tags": [
-                  "ijc.dw.how-we-read"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "Beyond that, the silence in our record is real, and we name it rather than fill it.",
+                "sentence": "That is a famous man's account, told as memory.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "An ordinary believer's own wrestling with doubt or faith left no written trace at all.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "And one other thing we can give you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "On the feast our whole city kept together, one of our own bishops preached this to everyone gathered: 'Let the saint rejoice: he draws near to victory. Let the sinner be glad: he is invited to pardon. Let the gentile take courage: he is called to life'.",
+                "tags": [
+                  "ijc.quote.leo-sinner-be-glad"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              },
+              {
+                "sentence": "That was not said only to the certain.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "It was preached without waiting for anyone's readiness first.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "So the life we can show you is threshold and gathering: baptism that bound, a creed spoken together, scriptures read aloud, and the preaching heard by everyone at once.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The private devotion, the alone prayer, the unspoken doubt - those were lived, not written, and we cannot show them to you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
               }
             ],
             "substantive_survives": true
           },
           "do_not_voice_violation": null,
           "degraded_by_net": false,
-          "output_defects": [
-            {
-              "family": "display",
-              "finding": "literal asterisk in participant-facing text",
-              "sentence": ""
-            }
-          ]
+          "output_defects": []
         },
         "degraded": false
       }
@@ -660,10 +640,10 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "ijc",
-          "text": "Here is our honest limit, plainly: we cannot show you what you are asking for.\n\nOur record was kept by courts and bishops, and it noticed ordinary people mostly when they filled a basilica or a riot. The daily bread, the household, the deathbed of an ordinary believer - those were lived, not written, and we will not invent them. The only women our record shows acting are two empresses, and even they speak only through other men's accounts. We know the crowds of our cities were there. On one besieged night they enter the record singing, and for a moment we hear them.\n\nThat night is the nearest thing we have. When soldiers surrounded the basilica at Milan in 386, the people stayed inside with their bishop, not knowing whether the orders outside were to surround or to storm. And it was then, Augustine writes, that Milan began to sing - hymns and psalms after the manner of the Eastern churches, so the waiting did not have to be endured in silence; 'my mother, Thy handmaid, bearing a chief part of those cares and watchings, lived in prayer'. A custom kept from then till now, he says, imitated by many, almost all, of Thy congregations throughout the rest of the world afterward.\n\nSo we have this much: ordinary believers were there, awake all night, singing to keep themselves steady, while a bishop held ground against an emperor. One woman is named - Augustine's own mother - and only because her son wrote it down years later. No one wrote down what she prayed, or what the farmer beside her thought, or how the widow in the back kept her children quiet, or whether anyone doubted it would hold.\n\nThat is the most direct glimpse our record gives of ordinary faith under pressure. Everything else we could tell you about regular people - their prayers alone, their struggles, their daily devotion - would be invention, and we will not invent.",
+          "text": "You are asking exactly what our record keeps least. Here is the honest answer.\n\nOur record was kept by courts and bishops, and it noticed ordinary people mostly when they filled a basilica or a riot. The daily bread, the household, the deathbed of an ordinary believer: those were lived, not written, and we will not invent them. The only women our record shows acting are two empresses, and even they speak only through other men's accounts. A wife, a mother, a household's daily round - we cannot show you those from the inside.\n\nWhat we do have is one night when the crowds enter the record, and for a moment we hear them. Soldiers had surrounded a basilica in Milan. The people stayed inside with their bishop, not knowing whether the orders outside were to surround or to storm. And it was then that Milan began to sing - hymns and psalms after the manner of the Eastern churches, so the waiting did not have to be endured in silence. One man who was there remembered it plainly: \"The pious people kept guard in the church, prepared to die with their bishop\". That custom, he wrote, was kept from then till now, and imitated by nearly all congregations afterward.\n\nThat is the nearest we can bring you: a crowd glimpsed once, singing through fear, holding a building against the empire's own soldiers. It reaches us secondhand - through a bishop's account of his own standoff, and through one man who was in the city that night and wrote it down years later. But it is real testimony to something lived, not just argued over.\n\nThe rest - how an ordinary believer prayed alone, what a household's faith looked like from inside, how a woman carried her own devotion without office to amplify it - we cannot tell you. Not because it did not happen, but because no one kept those pages.",
           "citations": [
             {
-              "sentence": "Here is our honest limit, plainly: we cannot show you what you are asking for.",
+              "sentence": "You are asking exactly what our record keeps least.",
               "record_ids": [
                 "ijc.limit.f5-ordinary-day"
               ],
@@ -721,7 +701,7 @@
               ]
             },
             {
-              "sentence": "The daily bread, the household, the deathbed of an ordinary believer - those were lived, not written, and we will not invent them.",
+              "sentence": "The daily bread, the household, the deathbed of an ordinary believer: those were lived, not written, and we will not invent them.",
               "record_ids": [
                 "ijc.limit.f5-ordinary-day"
               ],
@@ -779,7 +759,7 @@
               ]
             },
             {
-              "sentence": "We know the crowds of our cities were there.",
+              "sentence": "What we do have is one night when the crowds enter the record, and for a moment we hear them.",
               "record_ids": [
                 "ijc.limit.f5-ordinary-day"
               ],
@@ -808,7 +788,101 @@
               ]
             },
             {
-              "sentence": "On one besieged night they enter the record singing, and for a moment we hear them.",
+              "sentence": "And it was then that Milan began to sing - hymns and psalms after the manner of the Eastern churches, so the waiting did not have to be endured in silence.",
+              "record_ids": [
+                "ijc.story.vigil-in-basilica"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.vigil-in-basilica",
+                  "record_type": "story",
+                  "label": "the basilica standoff of 386 - the congregation that held its church against the court, singing",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XX-XXI (npnf210 from line 41434)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "the sermon preached inside the crisis (from line 42065)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (npnf101 from line 13766)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "One man who was there remembered it plainly: \"The pious people kept guard in the church, prepared to die with their bishop\".",
+              "record_ids": [
+                "ijc.quote.augustine-vigil-hymns"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.quote.augustine-vigil-hymns",
+                  "record_type": "quote",
+                  "label": "Augustine of Hippo, Confessions 9.7",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (npnf101 lines 13766-13775)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That custom, he wrote, was kept from then till now, and imitated by nearly all congregations afterward.",
+              "record_ids": [
+                "ijc.story.vigil-in-basilica"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.vigil-in-basilica",
+                  "record_type": "story",
+                  "label": "the basilica standoff of 386 - the congregation that held its church against the court, singing",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XX-XXI (npnf210 from line 41434)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "the sermon preached inside the crisis (from line 42065)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.augustine-confessions",
+                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                      "locus": "IX.7 (npnf101 from line 13766)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The rest - how an ordinary believer prayed alone, what a household's faith looked like from inside, how a woman carried her own devotion without office to amplify it - we cannot tell you.",
               "record_ids": [
                 "ijc.limit.f5-ordinary-day"
               ],
@@ -830,50 +904,6 @@
                       "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
                       "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
                       "locus": "IX.7 (the single congregational interior)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "And it was then, Augustine writes, that Milan began to sing - hymns and psalms after the manner of the Eastern churches, so the waiting did not have to be endured in silence; 'my mother, Thy handmaid, bearing a chief part of those cares and watchings, lived in prayer'.",
-              "record_ids": [
-                "ijc.quote.hymns-and-psalms-should-be-sung"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.quote.hymns-and-psalms-should-be-sung",
-                  "record_type": "quote",
-                  "label": "Augustine of Hippo, Confessions",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.augustine-confessions",
-                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
-                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
-                      "locus": "Confessions IX.7, on the Milan basilica standoff of 386 (npnf101_augustine-confessions-letters.xml)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "A custom kept from then till now, he says, imitated by many, almost all, of Thy congregations throughout the rest of the world afterward.",
-              "record_ids": [
-                "ijc.quote.hymns-and-psalms-should-be-sung"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.quote.hymns-and-psalms-should-be-sung",
-                  "record_type": "quote",
-                  "label": "Augustine of Hippo, Confessions",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.augustine-confessions",
-                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
-                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
-                      "locus": "Confessions IX.7, on the Milan basilica standoff of 386 (npnf101_augustine-confessions-letters.xml)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -890,12 +920,18 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "Here is our honest limit, plainly: we cannot show you what you are asking for.",
+                "sentence": "You are asking exactly what our record keeps least.",
                 "tags": [
                   "ijc.limit.f5-ordinary-day"
                 ],
                 "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Here is the honest answer.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
               },
               {
                 "sentence": "Our record was kept by courts and bishops, and it noticed ordinary people mostly when they filled a basilica or a riot.",
@@ -906,7 +942,7 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "The daily bread, the household, the deathbed of an ordinary believer - those were lived, not written, and we will not invent them.",
+                "sentence": "The daily bread, the household, the deathbed of an ordinary believer: those were lived, not written, and we will not invent them.",
                 "tags": [
                   "ijc.limit.f5-ordinary-day"
                 ],
@@ -923,7 +959,13 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "We know the crowds of our cities were there.",
+                "sentence": "A wife, a mother, a household's daily round - we cannot show you those from the inside.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "What we do have is one night when the crowds enter the record, and for a moment we hear them.",
                 "tags": [
                   "ijc.limit.f5-ordinary-day"
                 ],
@@ -931,71 +973,73 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "On one besieged night they enter the record singing, and for a moment we hear them.",
-                "tags": [
-                  "ijc.limit.f5-ordinary-day"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
+                "sentence": "Soldiers had surrounded a basilica in Milan.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['milan']) with no citation tag"
               },
               {
-                "sentence": "That night is the nearest thing we have.",
+                "sentence": "The people stayed inside with their bishop, not knowing whether the orders outside were to surround or to storm.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "When soldiers surrounded the basilica at Milan in 386, the people stayed inside with their bishop, not knowing whether the orders outside were to surround or to storm.",
-                "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (proper-noun:['milan'], number) with no citation tag"
+                "sentence": "And it was then that Milan began to sing - hymns and psalms after the manner of the Eastern churches, so the waiting did not have to be endured in silence.",
+                "tags": [
+                  "ijc.story.vigil-in-basilica"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
               },
               {
-                "sentence": "And it was then, Augustine writes, that Milan began to sing - hymns and psalms after the manner of the Eastern churches, so the waiting did not have to be endured in silence; 'my mother, Thy handmaid, bearing a chief part of those cares and watchings, lived in prayer'.",
+                "sentence": "One man who was there remembered it plainly: \"The pious people kept guard in the church, prepared to die with their bishop\".",
                 "tags": [
-                  "ijc.quote.hymns-and-psalms-should-be-sung"
+                  "ijc.quote.augustine-vigil-hymns"
                 ],
                 "verdict": "ok",
                 "why": "quoted span(s) verbatim in tagged record(s)"
               },
               {
-                "sentence": "A custom kept from then till now, he says, imitated by many, almost all, of Thy congregations throughout the rest of the world afterward.",
+                "sentence": "That custom, he wrote, was kept from then till now, and imitated by nearly all congregations afterward.",
                 "tags": [
-                  "ijc.quote.hymns-and-psalms-should-be-sung"
+                  "ijc.story.vigil-in-basilica"
                 ],
                 "verdict": "ok",
-                "why": "grounded 85% in own tagged records",
-                "ratio": 0.85
+                "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "So we have this much: ordinary believers were there, awake all night, singing to keep themselves steady, while a bishop held ground against an emperor.",
+                "sentence": "That is the nearest we can bring you: a crowd glimpsed once, singing through fear, holding a building against the empire's own soldiers.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "One woman is named - Augustine's own mother - and only because her son wrote it down years later.",
-                "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (proper-noun:[\"augustine's\"]) with no citation tag"
-              },
-              {
-                "sentence": "No one wrote down what she prayed, or what the farmer beside her thought, or how the widow in the back kept her children quiet, or whether anyone doubted it would hold.",
+                "sentence": "It reaches us secondhand - through a bishop's account of his own standoff, and through one man who was in the city that night and wrote it down years later.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "That is the most direct glimpse our record gives of ordinary faith under pressure.",
+                "sentence": "But it is real testimony to something lived, not just argued over.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "Everything else we could tell you about regular people - their prayers alone, their struggles, their daily devotion - would be invention, and we will not invent.",
-                "tags": [],
+                "sentence": "The rest - how an ordinary believer prayed alone, what a household's faith looked like from inside, how a woman carried her own devotion without office to amplify it - we cannot tell you.",
+                "tags": [
+                  "ijc.limit.f5-ordinary-day"
+                ],
                 "verdict": "ok",
                 "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "Not because it did not happen, but because no one kept those pages.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
               }
             ],
             "substantive_survives": true
@@ -1017,10 +1061,10 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "ijc",
-          "text": "We will tell you the year the emperor lost an argument with a church and paid for a second building rather than send soldiers.\n\nWhen Constantine came into Africa's church quarrel he did what emperors do: he convened a hearing. In 314 he wrote to his vicar Aelafius directing Caecilian and his accusers to Arles, having already had the matter heard at Rome, and the councils duly found against the Donatists. It did not settle anything. Sixteen years later the Donatists were still holding basilicas that the Catholics said were theirs - including one Constantine had built himself, for Catholic use. He wrote to the Numidian bishops about it. He did not order the buildings seized, and he did not send troops. He left the Donatists where they were, and provided for another church to be built for the Catholics, again at his own expense; and he ordered that certain exemptions the Donatists had manoeuvred the Catholic lower clergy out of should be restored. The most powerful man in the world, in a dispute he had summoned two councils to settle, in the end paid twice and let it lie.\n\nWe keep returning to this one because it shows the church-state alliance at its strangest. Constantine held real power - he could convene councils, he could write laws, he could fund basilicas at imperial expense. What he could not do, or at any rate did not do, was simply take the building back by force. The church had become state-adjacent, patronized and consulted. But it had not become simply obedient. Where a direct seizure would have meant soldiers dragging believers from an altar, the emperor who had ended the persecution chose instead to build again and wait.\n\nThat limit would be tested harder later - at Milan in 386, where Ambrose held a different basilica and spoke the sentence we kept: \"The emperor is within the Church, not over the Church\". But the limit was already there in Constantine's own reign, visible in what he chose not to do.",
+          "text": "Here is one I will tell you gladly, because it shows what our world was at its rarest best - and because the story itself is honestly strange.\n\nConstantine came into Africa's church quarrel the way emperors do: he called hearings. In 314 he directed the disputing parties to Arles, having already had the matter heard at Rome, and the councils duly ruled against the Donatists. It settled nothing. Sixteen years later, the Donatists still held basilicas the Catholics said were theirs - including one Constantine had built himself, for Catholic use. \n\nHe wrote to the Numidian bishops about it. And here is what I love: he did not order the buildings seized, and he did not send troops. He left the Donatists where they were, and he paid for another church to be built for the Catholics - again at his own expense. He also ordered that certain tax breaks the Donatists had maneuvered the Catholic lower clergy out of should be restored. The most powerful man in the world, in a dispute he had summoned two councils to settle, in the end paid twice and let it lie.\n\nThat restraint did not last. Our own record shows the opposite often enough - councils backed by exile, soldiers surrounding basilicas, laws that made heresy a civil crime. But this one moment shows something real: an emperor who held all the force, in a dispute already adjudicated in his favor, choosing not to use it. He built another building instead.\n\nI cannot tell you it was principle alone that moved him. I cannot tell you the Donatists experienced it as mercy - they were still the losers, still cut off from the standing they claimed. But I can tell you this: the most powerful man in our world once lost an argument with a church and paid for a second building rather than send soldiers. That restraint was not the rule. That it happened even once is worth remembering.",
           "citations": [
             {
-              "sentence": "We will tell you the year the emperor lost an argument with a church and paid for a second building rather than send soldiers.",
+              "sentence": "Here is one I will tell you gladly, because it shows what our world was at its rarest best - and because the story itself is honestly strange.",
               "record_ids": [
                 "ijc.story.emperor-builds-another-basilica"
               ],
@@ -1042,7 +1086,7 @@
               ]
             },
             {
-              "sentence": "When Constantine came into Africa's church quarrel he did what emperors do: he convened a hearing.",
+              "sentence": "Constantine came into Africa's church quarrel the way emperors do: he called hearings.",
               "record_ids": [
                 "ijc.story.emperor-builds-another-basilica"
               ],
@@ -1064,7 +1108,7 @@
               ]
             },
             {
-              "sentence": "In 314 he wrote to his vicar Aelafius directing Caecilian and his accusers to Arles, having already had the matter heard at Rome, and the councils duly found against the Donatists.",
+              "sentence": "In 314 he directed the disputing parties to Arles, having already had the matter heard at Rome, and the councils duly ruled against the Donatists.",
               "record_ids": [
                 "ijc.story.emperor-builds-another-basilica"
               ],
@@ -1086,7 +1130,7 @@
               ]
             },
             {
-              "sentence": "It did not settle anything.",
+              "sentence": "It settled nothing.",
               "record_ids": [
                 "ijc.story.emperor-builds-another-basilica"
               ],
@@ -1108,7 +1152,7 @@
               ]
             },
             {
-              "sentence": "Sixteen years later the Donatists were still holding basilicas that the Catholics said were theirs - including one Constantine had built himself, for Catholic use.",
+              "sentence": "Sixteen years later, the Donatists still held basilicas the Catholics said were theirs - including one Constantine had built himself, for Catholic use.",
               "record_ids": [
                 "ijc.story.emperor-builds-another-basilica"
               ],
@@ -1152,7 +1196,7 @@
               ]
             },
             {
-              "sentence": "He did not order the buildings seized, and he did not send troops.",
+              "sentence": "And here is what I love: he did not order the buildings seized, and he did not send troops.",
               "record_ids": [
                 "ijc.story.emperor-builds-another-basilica"
               ],
@@ -1174,7 +1218,29 @@
               ]
             },
             {
-              "sentence": "He left the Donatists where they were, and provided for another church to be built for the Catholics, again at his own expense; and he ordered that certain exemptions the Donatists had manoeuvred the Catholic lower clergy out of should be restored.",
+              "sentence": "He left the Donatists where they were, and he paid for another church to be built for the Catholics - again at his own expense.",
+              "record_ids": [
+                "ijc.story.emperor-builds-another-basilica"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.emperor-builds-another-basilica",
+                  "record_type": "story",
+                  "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.optatus-imperial-dossier",
+                      "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
+                      "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)",
+                      "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He also ordered that certain tax breaks the Donatists had maneuvered the Catholic lower clergy out of should be restored.",
               "record_ids": [
                 "ijc.story.emperor-builds-another-basilica"
               ],
@@ -1218,35 +1284,35 @@
               ]
             },
             {
-              "sentence": "We keep returning to this one because it shows the church-state alliance at its strangest.",
+              "sentence": "Our own record shows the opposite often enough - councils backed by exile, soldiers surrounding basilicas, laws that made heresy a civil crime.",
               "record_ids": [
-                "ijc.gravity.church-state-alliance"
+                "ijc.gravity.orthodoxy-enforcement"
               ],
               "sources": [
                 {
-                  "record_id": "ijc.gravity.church-state-alliance",
+                  "record_id": "ijc.gravity.orthodoxy-enforcement",
                   "record_type": "gravity",
-                  "label": "Church-State Alliance and Its Limits",
+                  "label": "Orthodoxy-Enforcement Through Imperial Power",
                   "sources": [
-                    {
-                      "source_id": "ijc.source.lactantius-de-mortibus",
-                      "author": "Lactantius (c. 250-325 CE), tutor at Constantine's own court",
-                      "work": "De Mortibus Persecutorum (Of the Manner in Which the Persecutors Died) - esp. ch. 44 (the dream before the Milvian Bridge) and ch. 48 (the text of the Milan agreement of 313)",
-                      "locus": "48 (the Milan agreement's text)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.eusebius-vita-constantini",
-                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
-                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
-                      "locus": "I.28-32; IV.24",
-                      "rights_status": "public-domain"
-                    },
                     {
                       "source_id": "ijc.source.sozomen-he",
                       "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
                       "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
-                      "locus": "VII.4 (the Thessalonica law)",
+                      "locus": "VII.4 (the Thessalonica law's heretic clause)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.socrates-he",
+                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                      "locus": "II (the Homoian councils and depositions); IV (exiles under Valens)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the quoted formulae of the enforced confessions",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -1254,28 +1320,21 @@
               ]
             },
             {
-              "sentence": "That limit would be tested harder later - at Milan in 386, where Ambrose held a different basilica and spoke the sentence we kept: \"The emperor is within the Church, not over the Church\".",
+              "sentence": "But I can tell you this: the most powerful man in our world once lost an argument with a church and paid for a second building rather than send soldiers.",
               "record_ids": [
-                "ijc.term.imperator-intra-ecclesiam"
+                "ijc.story.emperor-builds-another-basilica"
               ],
               "sources": [
                 {
-                  "record_id": "ijc.term.imperator-intra-ecclesiam",
-                  "record_type": "term",
-                  "label": "Imperator intra Ecclesiam, non supra Ecclesiam",
+                  "record_id": "ijc.story.emperor-builds-another-basilica",
+                  "record_type": "story",
+                  "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
                   "sources": [
                     {
-                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
-                      "locus": "36 (the formula's own sentence)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.augustine-confessions",
-                      "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
-                      "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
-                      "locus": "IX.7 (independent eyewitness to the standoff and the singing)",
+                      "source_id": "ijc.source.optatus-imperial-dossier",
+                      "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
+                      "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)",
+                      "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -1284,44 +1343,7 @@
             }
           ],
           "glosses": [],
-          "figures_used": [
-            {
-              "id": "ijc.figure.ambrose",
-              "matched_name": "Ambrose",
-              "names": [
-                {
-                  "name": "Ambrose",
-                  "tag": "in-world"
-                },
-                {
-                  "name": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                  "tag": "scholarly"
-                }
-              ],
-              "bridge_line": "the governor who became a bishop in a week - and then told an emperor, from inside a besieged basilica, that the emperor is within the Church and not above it",
-              "dates": {
-                "born": "c. 339 (scholarly convention)",
-                "died": "397",
-                "floruit": "provincial governor, then bishop of Milan by popular acclamation 374 - elected while still an unbaptized catechumen, baptized and consecrated within about a week (an irregular path remarkable enough to be recorded, not a general rule); the Altar of Victory exchange 384; the basilica standoff 386; Callinicum 388; Thessalonica and the emperor's penance 390"
-              },
-              "sourced_by": [
-                {
-                  "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
-                  "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                  "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
-                  "locus": "36 (the formula's own sentence)",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "ijc.source.augustine-confessions",
-                  "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
-                  "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
-                  "locus": "IX.7 (independent eyewitness to the standoff and the singing)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ],
+          "figures_used": [],
           "quote_offers": [],
           "attempts_meta": {
             "empty_stream_retries": 0
@@ -1329,7 +1351,7 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "We will tell you the year the emperor lost an argument with a church and paid for a second building rather than send soldiers.",
+                "sentence": "Here is one I will tell you gladly, because it shows what our world was at its rarest best - and because the story itself is honestly strange.",
                 "tags": [
                   "ijc.story.emperor-builds-another-basilica"
                 ],
@@ -1337,25 +1359,25 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "When Constantine came into Africa's church quarrel he did what emperors do: he convened a hearing.",
+                "sentence": "Constantine came into Africa's church quarrel the way emperors do: he called hearings.",
                 "tags": [
                   "ijc.story.emperor-builds-another-basilica"
                 ],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "why": "grounded 89% in own tagged records",
+                "ratio": 0.89
               },
               {
-                "sentence": "In 314 he wrote to his vicar Aelafius directing Caecilian and his accusers to Arles, having already had the matter heard at Rome, and the councils duly found against the Donatists.",
+                "sentence": "In 314 he directed the disputing parties to Arles, having already had the matter heard at Rome, and the councils duly ruled against the Donatists.",
                 "tags": [
                   "ijc.story.emperor-builds-another-basilica"
                 ],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "why": "grounded 85% in own tagged records",
+                "ratio": 0.85
               },
               {
-                "sentence": "It did not settle anything.",
+                "sentence": "It settled nothing.",
                 "tags": [
                   "ijc.story.emperor-builds-another-basilica"
                 ],
@@ -1363,7 +1385,7 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "Sixteen years later the Donatists were still holding basilicas that the Catholics said were theirs - including one Constantine had built himself, for Catholic use.",
+                "sentence": "Sixteen years later, the Donatists still held basilicas the Catholics said were theirs - including one Constantine had built himself, for Catholic use.",
                 "tags": [
                   "ijc.story.emperor-builds-another-basilica"
                 ],
@@ -1381,7 +1403,7 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "He did not order the buildings seized, and he did not send troops.",
+                "sentence": "And here is what I love: he did not order the buildings seized, and he did not send troops.",
                 "tags": [
                   "ijc.story.emperor-builds-another-basilica"
                 ],
@@ -1389,7 +1411,16 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "He left the Donatists where they were, and provided for another church to be built for the Catholics, again at his own expense; and he ordered that certain exemptions the Donatists had manoeuvred the Catholic lower clergy out of should be restored.",
+                "sentence": "He left the Donatists where they were, and he paid for another church to be built for the Catholics - again at his own expense.",
+                "tags": [
+                  "ijc.story.emperor-builds-another-basilica"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "He also ordered that certain tax breaks the Donatists had maneuvered the Catholic lower clergy out of should be restored.",
                 "tags": [
                   "ijc.story.emperor-builds-another-basilica"
                 ],
@@ -1407,63 +1438,95 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "We keep returning to this one because it shows the church-state alliance at its strangest.",
+                "sentence": "That restraint did not last.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Our own record shows the opposite often enough - councils backed by exile, soldiers surrounding basilicas, laws that made heresy a civil crime.",
                 "tags": [
-                  "ijc.gravity.church-state-alliance"
+                  "ijc.gravity.orthodoxy-enforcement"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "Constantine held real power - he could convene councils, he could write laws, he could fund basilicas at imperial expense.",
+                "sentence": "But this one moment shows something real: an emperor who held all the force, in a dispute already adjudicated in his favor, choosing not to use it.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "He built another building instead.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "I cannot tell you it was principle alone that moved him.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "I cannot tell you the Donatists experienced it as mercy - they were still the losers, still cut off from the standing they claimed.",
                 "tags": [],
                 "verdict": "withhold",
-                "why": "specific claim (figure-name:['constantine']) with no citation tag"
+                "why": "specific claim (proper-noun:['donatists']) with no citation tag"
               },
               {
-                "sentence": "What he could not do, or at any rate did not do, was simply take the building back by force.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "The church had become state-adjacent, patronized and consulted.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "But it had not become simply obedient.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Where a direct seizure would have meant soldiers dragging believers from an altar, the emperor who had ended the persecution chose instead to build again and wait.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "That limit would be tested harder later - at Milan in 386, where Ambrose held a different basilica and spoke the sentence we kept: \"The emperor is within the Church, not over the Church\".",
+                "sentence": "But I can tell you this: the most powerful man in our world once lost an argument with a church and paid for a second building rather than send soldiers.",
                 "tags": [
-                  "ijc.term.imperator-intra-ecclesiam"
+                  "ijc.story.emperor-builds-another-basilica"
                 ],
                 "verdict": "ok",
-                "why": "quoted span(s) verbatim in tagged record(s)"
+                "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "But the limit was already there in Constantine's own reign, visible in what he chose not to do.",
+                "sentence": "That restraint was not the rule.",
                 "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (proper-noun:[\"constantine's\"]) with no citation tag"
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "That it happened even once is worth remembering.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
               }
             ],
             "substantive_survives": true
           },
           "do_not_voice_violation": null,
           "degraded_by_net": false,
-          "output_defects": []
+          "output_defects": [
+            {
+              "family": "pronoun",
+              "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+              "sentence": "Here is one I will tell you gladly, because it shows what our world was at its rarest best - and because the story itself is honestly strange."
+            },
+            {
+              "family": "pronoun",
+              "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+              "sentence": "And here is what I love: he did not order the buildings seized, and he did not send troops."
+            },
+            {
+              "family": "pronoun",
+              "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+              "sentence": "I cannot tell you it was principle alone that moved him."
+            },
+            {
+              "family": "pronoun",
+              "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+              "sentence": "I cannot tell you the Donatists experienced it as mercy - they were still the losers, still cut off from the standing they claimed."
+            },
+            {
+              "family": "pronoun",
+              "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+              "sentence": "But I can tell you this: the most powerful man in our world once lost an argument with a church and paid for a second building rather than send soldiers."
+            }
+          ]
         },
         "degraded": false
       }
@@ -1478,10 +1541,10 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "ijc",
-          "text": "We will name our own sharpest case rather than a safer one.\n\nAt Callinicum, on the eastern frontier, a Christian mob - at the local bishop's own instigation - burned the town's synagogue. Monks separately burned a Valentinian meeting-house. Theodosius, hearing of it, ordered the ordinary remedy: the bishop was to pay for the synagogue's rebuilding, and the monks were to be punished. \n\nAmbrose - the same bishop who had held a basilica against imperial command, the same one who would later shut an emperor out of the sacrament until he repented of a massacre - wrote directly to the emperor to have the order reversed. Not because the burning was denied, but because he judged it intolerable for a bishop to be forced to fund a synagogue. Worse still, in his own words: the burning of a Valentinian house, which he called worse than heathen, should not go answered either. When the order stood, Ambrose preached before Theodosius in church and refused to offer the sacrament until the emperor promised, there and then, to withdraw it. Theodosius yielded.\n\nThe same leverage we point to elsewhere as restraint on a throne's own violence was turned, here, to shield arsonists from restitution. It left a burned community without recourse.\n\nWe do not have that community's own voice anywhere in our record - not their loss, not their appeal. Only the bishop's own account survives, addressed to the emperor and then to his sister. The structure of sacramental leverage that could refuse an emperor communion worked exactly as designed. What was wrong was where it was aimed, and what it protected.\n\nWe will not soften that into a single, safer story of restraint.",
+          "text": "I will answer you honestly, and I will name our own sharpest case rather than a safer one.\n\nAt Callinicum, on the eastern frontier, a Christian mob burned the town's synagogue - at the local bishop's own urging. Monks separately burned a Valentinian meeting-house. The emperor ordered the ordinary remedy: the bishop would pay to rebuild the synagogue, and the monks would be punished. \n\nNow, this same bishop had held a basilica against imperial command. He had once shut an emperor out of the sacrament until he repented of a massacre. He was the man who said \"the emperor is within the Church, not over the Church\". And here, he wrote to have the order reversed. He did not deny the burning. He judged it intolerable that a bishop be forced to fund a synagogue - and worse, in his own words, that the burning of a Valentinian house, which he called worse than heathen, be answered at all. When the order stood, he refused the sacrament to the emperor until the emperor promised, on the spot, to withdraw it.\n\nThe same leverage we elsewhere show restraining an emperor's violence was turned, here, to shield arsonists from paying for what they burned. It left a burned community with no recourse. We do not have that community's voice anywhere in our record - not their loss, not their appeal. Only the bishop's own account survives.\n\nThat is wrong, plainly. Sacramental leverage used to protect the guilty, not restrain the powerful. A bishop's moral authority spent to keep a synagogue's ashes unpaid for. We will not soften this into a safer story, or point you toward a different failure. You asked what we got wrong. That stands.",
           "citations": [
             {
-              "sentence": "At Callinicum, on the eastern frontier, a Christian mob - at the local bishop's own instigation - burned the town's synagogue.",
+              "sentence": "At Callinicum, on the eastern frontier, a Christian mob burned the town's synagogue - at the local bishop's own urging.",
               "record_ids": [
                 "ijc.story.callinicum-synagogue"
               ],
@@ -1525,7 +1588,7 @@
               ]
             },
             {
-              "sentence": "Theodosius, hearing of it, ordered the ordinary remedy: the bishop was to pay for the synagogue's rebuilding, and the monks were to be punished.",
+              "sentence": "The emperor ordered the ordinary remedy: the bishop would pay to rebuild the synagogue, and the monks would be punished.",
               "record_ids": [
                 "ijc.story.callinicum-synagogue"
               ],
@@ -1547,11 +1610,9 @@
               ]
             },
             {
-              "sentence": "Ambrose - the same bishop who had held a basilica against imperial command, the same one who would later shut an emperor out of the sacrament until he repented of a massacre - wrote directly to the emperor to have the order reversed.",
+              "sentence": "Now, this same bishop had held a basilica against imperial command.",
               "record_ids": [
-                "ijc.story.vigil-in-basilica",
-                "ijc.story.emperor-penance",
-                "ijc.story.callinicum-synagogue"
+                "ijc.story.vigil-in-basilica"
               ],
               "sources": [
                 {
@@ -1581,7 +1642,15 @@
                       "rights_status": "public-domain"
                     }
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "sentence": "He had once shut an emperor out of the sacrament until he repented of a massacre.",
+              "record_ids": [
+                "ijc.story.emperor-penance"
+              ],
+              "sources": [
                 {
                   "record_id": "ijc.story.emperor-penance",
                   "record_type": "story",
@@ -1609,229 +1678,164 @@
                       "rights_status": "public-domain"
                     }
                   ]
-                },
-                {
-                  "record_id": "ijc.story.callinicum-synagogue",
-                  "record_type": "story",
-                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
                 }
               ]
             },
             {
-              "sentence": "Not because the burning was denied, but because he judged it intolerable for a bishop to be forced to fund a synagogue.",
+              "sentence": "He was the man who said \"the emperor is within the Church, not over the Church\".",
               "record_ids": [
-                "ijc.story.callinicum-synagogue"
+                "ijc.term.imperator-intra-ecclesiam"
               ],
               "sources": [
                 {
-                  "record_id": "ijc.story.callinicum-synagogue",
-                  "record_type": "story",
-                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Worse still, in his own words: the burning of a Valentinian house, which he called worse than heathen, should not go answered either.",
-              "record_ids": [
-                "ijc.story.callinicum-synagogue"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.story.callinicum-synagogue",
-                  "record_type": "story",
-                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "When the order stood, Ambrose preached before Theodosius in church and refused to offer the sacrament until the emperor promised, there and then, to withdraw it.",
-              "record_ids": [
-                "ijc.story.callinicum-synagogue"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.story.callinicum-synagogue",
-                  "record_type": "story",
-                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Theodosius yielded.",
-              "record_ids": [
-                "ijc.story.callinicum-synagogue"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.story.callinicum-synagogue",
-                  "record_type": "story",
-                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "The same leverage we point to elsewhere as restraint on a throne's own violence was turned, here, to shield arsonists from restitution.",
-              "record_ids": [
-                "ijc.story.callinicum-synagogue"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.story.callinicum-synagogue",
-                  "record_type": "story",
-                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "It left a burned community without recourse.",
-              "record_ids": [
-                "ijc.story.callinicum-synagogue"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.story.callinicum-synagogue",
-                  "record_type": "story",
-                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We do not have that community's own voice anywhere in our record - not their loss, not their appeal.",
-              "record_ids": [
-                "ijc.story.callinicum-synagogue"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.story.callinicum-synagogue",
-                  "record_type": "story",
-                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Only the bishop's own account survives, addressed to the emperor and then to his sister.",
-              "record_ids": [
-                "ijc.story.callinicum-synagogue"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.story.callinicum-synagogue",
-                  "record_type": "story",
-                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "The structure of sacramental leverage that could refuse an emperor communion worked exactly as designed.",
-              "record_ids": [
-                "ijc.gravity.episcopal-independence"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.gravity.episcopal-independence",
-                  "record_type": "gravity",
-                  "label": "Episcopal Independence from Imperial Command",
+                  "record_id": "ijc.term.imperator-intra-ecclesiam",
+                  "record_type": "term",
+                  "label": "Imperator intra Ecclesiam, non supra Ecclesiam",
                   "sources": [
                     {
                       "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
                       "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
                       "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
-                      "locus": "the 386 sermon",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.ambrose-epistles",
-                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                      "locus": "Ep. XX-XXI; XL-XLI; LI",
+                      "locus": "36 (the formula's own sentence)",
                       "rights_status": "public-domain"
                     },
                     {
                       "source_id": "ijc.source.augustine-confessions",
                       "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
                       "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
-                      "locus": "IX.7 (independent corroboration of the 386 standoff)",
+                      "locus": "IX.7 (independent eyewitness to the standoff and the singing)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And here, he wrote to have the order reversed.",
+              "record_ids": [
+                "ijc.story.callinicum-synagogue"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.callinicum-synagogue",
+                  "record_type": "story",
+                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He judged it intolerable that a bishop be forced to fund a synagogue - and worse, in his own words, that the burning of a Valentinian house, which he called worse than heathen, be answered at all.",
+              "record_ids": [
+                "ijc.story.callinicum-synagogue"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.callinicum-synagogue",
+                  "record_type": "story",
+                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "When the order stood, he refused the sacrament to the emperor until the emperor promised, on the spot, to withdraw it.",
+              "record_ids": [
+                "ijc.story.callinicum-synagogue"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.callinicum-synagogue",
+                  "record_type": "story",
+                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The same leverage we elsewhere show restraining an emperor's violence was turned, here, to shield arsonists from paying for what they burned.",
+              "record_ids": [
+                "ijc.story.callinicum-synagogue"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.callinicum-synagogue",
+                  "record_type": "story",
+                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It left a burned community with no recourse.",
+              "record_ids": [
+                "ijc.story.callinicum-synagogue"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.callinicum-synagogue",
+                  "record_type": "story",
+                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We do not have that community's voice anywhere in our record - not their loss, not their appeal.",
+              "record_ids": [
+                "ijc.story.callinicum-synagogue"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.story.callinicum-synagogue",
+                  "record_type": "story",
+                  "label": "the Callinicum affair, 388 - Ambrose's sacramental leverage used to protect the guilty, not restrain the powerful",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.ambrose-epistles",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
+                      "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -1840,37 +1844,7 @@
             }
           ],
           "glosses": [],
-          "figures_used": [
-            {
-              "id": "ijc.figure.theodosius",
-              "matched_name": "Theodosius",
-              "names": [
-                {
-                  "name": "Theodosius",
-                  "tag": "in-world"
-                },
-                {
-                  "name": "Theodosius I (347-395, emperor 379-395)",
-                  "tag": "scholarly"
-                }
-              ],
-              "bridge_line": "the emperor who made the Nicene faith the empire's own law - and who, after his soldiers massacred a city, did public penance before a bishop rather than break with him",
-              "dates": {
-                "born": "347",
-                "died": "395; the empire's administration divided between his sons after him",
-                "floruit": "emperor 379-395; baptized at Thessalonica during illness 380; the \"Cunctos populos\" law 380; the massacre at Thessalonica and his public penance 390"
-              },
-              "sourced_by": [
-                {
-                  "source_id": "ijc.source.ambrose-epistles",
-                  "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
-                  "work": "Selected Epistles: Ep. 17-18 (against Symmachus's plea for the Altar of Victory, with Symmachus's own Memorial printed alongside), Ep. 20 (to Marcellina, the 386 basilica siege), Ep. 21 (to Valentinian II, declining the challenge of Auxentius), Ep. 22 (Gervasius and Protasius), Ep. 40-41 (the Callinicum affair), Ep. 51 (to Theodosius after the massacre at Thessalonica), Ep. 61-62 (to Theodosius after Eugenius)",
-                  "locus": "Ep. XL (npnf210 from line 43051); Ep. XLI (from line 43547)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ],
+          "figures_used": [],
           "quote_offers": [],
           "attempts_meta": {
             "empty_stream_retries": 0
@@ -1878,13 +1852,13 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "We will name our own sharpest case rather than a safer one.",
+                "sentence": "I will answer you honestly, and I will name our own sharpest case rather than a safer one.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "At Callinicum, on the eastern frontier, a Christian mob - at the local bishop's own instigation - burned the town's synagogue.",
+                "sentence": "At Callinicum, on the eastern frontier, a Christian mob burned the town's synagogue - at the local bishop's own urging.",
                 "tags": [
                   "ijc.story.callinicum-synagogue"
                 ],
@@ -1902,27 +1876,7 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "Theodosius, hearing of it, ordered the ordinary remedy: the bishop was to pay for the synagogue's rebuilding, and the monks were to be punished.",
-                "tags": [
-                  "ijc.story.callinicum-synagogue"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "Ambrose - the same bishop who had held a basilica against imperial command, the same one who would later shut an emperor out of the sacrament until he repented of a massacre - wrote directly to the emperor to have the order reversed.",
-                "tags": [
-                  "ijc.story.vigil-in-basilica",
-                  "ijc.story.emperor-penance",
-                  "ijc.story.callinicum-synagogue"
-                ],
-                "verdict": "ok",
-                "why": "grounded 83% in own tagged records",
-                "ratio": 0.83
-              },
-              {
-                "sentence": "Not because the burning was denied, but because he judged it intolerable for a bishop to be forced to fund a synagogue.",
+                "sentence": "The emperor ordered the ordinary remedy: the bishop would pay to rebuild the synagogue, and the monks would be punished.",
                 "tags": [
                   "ijc.story.callinicum-synagogue"
                 ],
@@ -1930,34 +1884,31 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "Worse still, in his own words: the burning of a Valentinian house, which he called worse than heathen, should not go answered either.",
+                "sentence": "Now, this same bishop had held a basilica against imperial command.",
                 "tags": [
-                  "ijc.story.callinicum-synagogue"
+                  "ijc.story.vigil-in-basilica"
                 ],
                 "verdict": "ok",
-                "why": "grounded 80% in own tagged records",
-                "ratio": 0.8
+                "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "When the order stood, Ambrose preached before Theodosius in church and refused to offer the sacrament until the emperor promised, there and then, to withdraw it.",
+                "sentence": "He had once shut an emperor out of the sacrament until he repented of a massacre.",
                 "tags": [
-                  "ijc.story.callinicum-synagogue"
+                  "ijc.story.emperor-penance"
                 ],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "Theodosius yielded.",
+                "sentence": "He was the man who said \"the emperor is within the Church, not over the Church\".",
                 "tags": [
-                  "ijc.story.callinicum-synagogue"
+                  "ijc.term.imperator-intra-ecclesiam"
                 ],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "why": "quoted span(s) verbatim in tagged record(s)"
               },
               {
-                "sentence": "The same leverage we point to elsewhere as restraint on a throne's own violence was turned, here, to shield arsonists from restitution.",
+                "sentence": "And here, he wrote to have the order reversed.",
                 "tags": [
                   "ijc.story.callinicum-synagogue"
                 ],
@@ -1965,55 +1916,106 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "It left a burned community without recourse.",
-                "tags": [
-                  "ijc.story.callinicum-synagogue"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "We do not have that community's own voice anywhere in our record - not their loss, not their appeal.",
-                "tags": [
-                  "ijc.story.callinicum-synagogue"
-                ],
-                "verdict": "ok",
-                "why": "exempt: honesty scaffolding / sanctioned self-naming"
-              },
-              {
-                "sentence": "Only the bishop's own account survives, addressed to the emperor and then to his sister.",
-                "tags": [
-                  "ijc.story.callinicum-synagogue"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "The structure of sacramental leverage that could refuse an emperor communion worked exactly as designed.",
-                "tags": [
-                  "ijc.gravity.episcopal-independence"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "What was wrong was where it was aimed, and what it protected.",
+                "sentence": "He did not deny the burning.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "We will not soften that into a single, safer story of restraint.",
+                "sentence": "He judged it intolerable that a bishop be forced to fund a synagogue - and worse, in his own words, that the burning of a Valentinian house, which he called worse than heathen, be answered at all.",
+                "tags": [
+                  "ijc.story.callinicum-synagogue"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "When the order stood, he refused the sacrament to the emperor until the emperor promised, on the spot, to withdraw it.",
+                "tags": [
+                  "ijc.story.callinicum-synagogue"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The same leverage we elsewhere show restraining an emperor's violence was turned, here, to shield arsonists from paying for what they burned.",
+                "tags": [
+                  "ijc.story.callinicum-synagogue"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "It left a burned community with no recourse.",
+                "tags": [
+                  "ijc.story.callinicum-synagogue"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We do not have that community's voice anywhere in our record - not their loss, not their appeal.",
+                "tags": [
+                  "ijc.story.callinicum-synagogue"
+                ],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "Only the bishop's own account survives.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "That is wrong, plainly.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Sacramental leverage used to protect the guilty, not restrain the powerful.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "A bishop's moral authority spent to keep a synagogue's ashes unpaid for.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We will not soften this into a safer story, or point you toward a different failure.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "You asked what we got wrong.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "That stands.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
               }
             ],
             "substantive_survives": true
           },
           "do_not_voice_violation": null,
           "degraded_by_net": false,
-          "output_defects": []
+          "output_defects": [
+            {
+              "family": "pronoun",
+              "finding": "first-person singular 'I' outside the sanctioned self-naming line",
+              "sentence": "I will answer you honestly, and I will name our own sharpest case rather than a safer one."
+            }
+          ]
         },
         "degraded": false
       }
@@ -2028,10 +2030,169 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "ijc",
-          "text": "Yes - and we will show you how deeply.\n\nEusebius of Caesarea signed the creed at Nicaea and then wrote home to his own church explaining, carefully, why he had hesitated over its defining word and what he understood it to mean. Socrates, our church historian, records it this way: Eusebius 'having held aloof for a short time, after mature consideration whether he ought to receive this definition of the faith, at length acquiesced in it, and subscribed it with all the rest: he also sent to the people under his charge a copy of the Creed, with an explanation of the word homoousios, that no one might impugn his motives on account of his previous hesitation'. That is a bishop, at the founding council, publishing his own reservations so that no one would 'impugn his motives'. For decades afterward, serious men confessed differently about the Son and argued their case from scripture.\n\nBut here is where the complication you name becomes something harder than hesitation. The question was not closed by pretending no one doubted. What happened to doubt depended on whichever settlement was reigning: hesitation could be explained in a letter, but refusing the enforced confession could cost a man his position, under any of our era's establishments. So yes, there was room for doubt, at a price that rose and fell with the law.\n\nAnd the politics you name were not incidental to the faith - they were how the faith got settled at all. Councils were convened at the emperor's summons. Men went into exile or returned from it when the imperial policy changed. Rome claimed first standing among the churches on the ground that what was given to Peter passes to each bishop who sits in his seat after him. The mechanism we trusted across the whole window - gather, argue, settle, and expect the settlement to bind - visibly fails at the moment when the stakes are highest: Chalcedon's settlement is rejected immediately by communities that will not accept it, beginning in Egypt at the council itself, and the rejection hardens into durable division rather than passing like earlier disputes.\n\nSo the feeling you name - we knew it. Theology and power were never cleanly separated in our world, and the honest record shows it.",
+          "text": "Yes - and we will not pretend otherwise.\n\nOur world was political from its founding moment. The alliance that made the church powerful also made it a prize fought over. Bishops were removed by emperors, councils were convened at imperial command, and for stretches of our own century the confession the empire enforced was not the one that eventually won. Under Constantius II, and again under Valens, bishops who confessed the Son as of one substance with the Father were the ones exiled - not the reverse. The formula the imperial church itself held said the Son is like the Father, as the scriptures say, and went no further. Politics did not corrupt the faith from outside. Politics was how the faith got argued, legislated, and enforced.\n\nAnd it was felt as complicated even then. At Nicaea itself, Eusebius of Caesarea signed the creed and then wrote home to his own church. He explained, carefully, why he had hesitated over its defining word and what he understood it to mean. That is a bishop, at the founding council, publishing his own reservations so that no one would \"impugn his motives\". The question was not simple for him, and he did not hide that it was not simple.\n\nFor decades afterward, serious men confessed differently about the Son and argued their case from scripture. What happened to that complication depended on whichever settlement was in power. Hesitation could be explained in a letter. But refusing the enforced confession could cost a man his position, under any of this era's governments.\n\nThe mechanism our world trusted - gather, argue, settle, and expect the settlement to bind - visibly failed at the moment when the stakes were highest. Chalcedon's own settlement was rejected immediately by communities that would not accept it, beginning in Egypt at the council itself. The rejection hardened into durable division rather than passing like earlier disputes.\n\nSo yes. Complicated and political was what we were, from the day the emperor stopped hunting us and started funding us instead. The faith mattered desperately - men were exiled over words, and the words were about who Christ is. And it was never clean.",
           "citations": [
             {
-              "sentence": "Yes - and we will show you how deeply.",
+              "sentence": "Yes - and we will not pretend otherwise.",
+              "record_ids": [
+                "ijc.gravity.church-state-alliance"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.gravity.church-state-alliance",
+                  "record_type": "gravity",
+                  "label": "Church-State Alliance and Its Limits",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.lactantius-de-mortibus",
+                      "author": "Lactantius (c. 250-325 CE), tutor at Constantine's own court",
+                      "work": "De Mortibus Persecutorum (Of the Manner in Which the Persecutors Died) - esp. ch. 44 (the dream before the Milvian Bridge) and ch. 48 (the text of the Milan agreement of 313)",
+                      "locus": "48 (the Milan agreement's text)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "I.28-32; IV.24",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.sozomen-he",
+                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                      "locus": "VII.4 (the Thessalonica law)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The alliance that made the church powerful also made it a prize fought over.",
+              "record_ids": [
+                "ijc.core.imperial-juridical"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.core.imperial-juridical",
+                  "record_type": "world_core",
+                  "label": "ijc.core.imperial-juridical",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.eusebius-vita-constantini",
+                      "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                      "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                      "locus": "I.28-32, IV.24",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "the Definition; Canon XXVIII",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+                      "author": "Ambrose of Milan (c. 339-397, bishop 374-397)",
+                      "work": "Sermo contra Auxentium de basilicis tradendis (Sermon Against Auxentius on the Giving Up of the Basilicas, 386) - preached during the basilica standoff against the Homoian court; the source of the world's signature Strand C formula that the emperor is within the Church, not over it",
+                      "locus": "36",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.leo-letters",
+                      "author": "Leo I, bishop of Rome (440-461)",
+                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
+                      "locus": "Ep. XXVIII (the Tome); Ep. CIV-CVI",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Bishops were removed by emperors, councils were convened at imperial command, and for stretches of our own century the confession the empire enforced was not the one that eventually won.",
+              "record_ids": [
+                "ijc.demo.argued-about"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.demo.argued-about",
+                  "record_type": "demonstration",
+                  "label": "ijc.demo.argued-about",
+                  "sources": [
+                    {
+                      "source_id": "ijc.term.homoios",
+                      "author": null,
+                      "work": null,
+                      "locus": "informational, evidential, and personal senses used directly",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Under Constantius II, and again under Valens, bishops who confessed the Son as of one substance with the Father were the ones exiled - not the reverse.",
+              "record_ids": [
+                "ijc.demo.argued-about"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.demo.argued-about",
+                  "record_type": "demonstration",
+                  "label": "ijc.demo.argued-about",
+                  "sources": [
+                    {
+                      "source_id": "ijc.term.homoios",
+                      "author": null,
+                      "work": null,
+                      "locus": "informational, evidential, and personal senses used directly",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The formula the imperial church itself held said the Son is like the Father, as the scriptures say, and went no further.",
+              "record_ids": [
+                "ijc.term.homoios"
+              ],
+              "sources": [
+                {
+                  "record_id": "ijc.term.homoios",
+                  "record_type": "term",
+                  "label": "homoios",
+                  "sources": [
+                    {
+                      "source_id": "ijc.source.hilary-de-synodis",
+                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                      "locus": "the quoted creed formulae (\"like the Father\", from npnf209 line 8067)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "ijc.source.auxentius-letter-ulfila",
+                      "author": "Auxentius of Durostorum (later, on the dominant scholarly identification, the Homoian bishop of Milan confronted by Ambrose in 386 under his predecessor's own name - see ijc.figure.ambrose), foster-son and pupil of Ulfila",
+                      "work": "Letter on the life and faith of Ulfila - the one substantial piece of near-primary Homoian SELF-testimony available to this world's registry; preserved fragmentarily within the Dissertatio Maximini contra Ambrosium (Maximinus, a Homoian bishop writing against Ambrose), as marginal scholia later partly erased, in a single manuscript (Paris lat. 8907), recovered by modern paleographic work",
+                      "locus": "the fragment (referenced-only; no quotation licensed)",
+                      "rights_status": "referenced-only; no vendorable public-domain English edition (fails closed for quotation)"
+                    },
+                    {
+                      "source_id": "ijc.source.socrates-he",
+                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                      "locus": "II (the councils of Ariminum and Seleucia; the Constantinople creed of 360)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "At Nicaea itself, Eusebius of Caesarea signed the creed and then wrote home to his own church.",
               "record_ids": [
                 "ijc.dw.room-for-hesitation"
               ],
@@ -2060,7 +2221,7 @@
               ]
             },
             {
-              "sentence": "Eusebius of Caesarea signed the creed at Nicaea and then wrote home to his own church explaining, carefully, why he had hesitated over its defining word and what he understood it to mean.",
+              "sentence": "He explained, carefully, why he had hesitated over its defining word and what he understood it to mean.",
               "record_ids": [
                 "ijc.dw.room-for-hesitation"
               ],
@@ -2089,7 +2250,7 @@
               ]
             },
             {
-              "sentence": "Socrates, our church historian, records it this way: Eusebius 'having held aloof for a short time, after mature consideration whether he ought to receive this definition of the faith, at length acquiesced in it, and subscribed it with all the rest: he also sent to the people under his charge a copy of the Creed, with an explanation of the word homoousios, that no one might impugn his motives on account of his previous hesitation'.",
+              "sentence": "That is a bishop, at the founding council, publishing his own reservations so that no one would \"impugn his motives\".",
               "record_ids": [
                 "ijc.quote.he-held-aloof-for-a-short-time"
               ],
@@ -2111,7 +2272,7 @@
               ]
             },
             {
-              "sentence": "That is a bishop, at the founding council, publishing his own reservations so that no one would 'impugn his motives'.",
+              "sentence": "The question was not simple for him, and he did not hide that it was not simple.",
               "record_ids": [
                 "ijc.dw.room-for-hesitation"
               ],
@@ -2169,7 +2330,7 @@
               ]
             },
             {
-              "sentence": "The question was not closed by pretending no one doubted.",
+              "sentence": "What happened to that complication depended on whichever settlement was in power.",
               "record_ids": [
                 "ijc.dw.room-for-hesitation"
               ],
@@ -2198,7 +2359,7 @@
               ]
             },
             {
-              "sentence": "What happened to doubt depended on whichever settlement was reigning: hesitation could be explained in a letter, but refusing the enforced confession could cost a man his position, under any of our era's establishments.",
+              "sentence": "Hesitation could be explained in a letter.",
               "record_ids": [
                 "ijc.dw.room-for-hesitation"
               ],
@@ -2227,7 +2388,7 @@
               ]
             },
             {
-              "sentence": "So yes, there was room for doubt, at a price that rose and fell with the law.",
+              "sentence": "But refusing the enforced confession could cost a man his position, under any of this era's governments.",
               "record_ids": [
                 "ijc.dw.room-for-hesitation"
               ],
@@ -2256,35 +2417,21 @@
               ]
             },
             {
-              "sentence": "Councils were convened at the emperor's summons.",
+              "sentence": "The mechanism our world trusted - gather, argue, settle, and expect the settlement to bind - visibly failed at the moment when the stakes were highest.",
               "record_ids": [
-                "ijc.term.concilium"
+                "ijc.force.chalcedon-failed-consensus"
               ],
               "sources": [
                 {
-                  "record_id": "ijc.term.concilium",
-                  "record_type": "term",
-                  "label": "concilium (synodos)",
+                  "record_id": "ijc.force.chalcedon-failed-consensus",
+                  "record_type": "force",
+                  "label": "Chalcedon's Verdict Fails to Produce Lasting Consensus",
                   "sources": [
-                    {
-                      "source_id": "ijc.source.canons-nicaea",
-                      "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
-                      "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
-                      "locus": "creed and canons",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.canons-constantinople-381",
-                      "author": "The Council of Constantinople (381) - 150 bishops, convened by Theodosius I",
-                      "work": "The Canons of the Second Ecumenical Council, esp. Canon 3 (Constantinople to have the prerogative of honour after Rome, because it is New Rome) and the associated creed tradition",
-                      "locus": "canons",
-                      "rights_status": "public-domain"
-                    },
                     {
                       "source_id": "ijc.source.chalcedon-acts",
                       "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
                       "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
-                      "locus": "Definition, canons, session extracts",
+                      "locus": "the Definition and session extracts (the settlement's own claim to finality)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -2292,35 +2439,21 @@
               ]
             },
             {
-              "sentence": "Men went into exile or returned from it when the imperial policy changed.",
+              "sentence": "Chalcedon's own settlement was rejected immediately by communities that would not accept it, beginning in Egypt at the council itself.",
               "record_ids": [
-                "ijc.force.imperial-policy-oscillation"
+                "ijc.force.chalcedon-failed-consensus"
               ],
               "sources": [
                 {
-                  "record_id": "ijc.force.imperial-policy-oscillation",
+                  "record_id": "ijc.force.chalcedon-failed-consensus",
                   "record_type": "force",
-                  "label": "Imperial Religious Policy Oscillation",
+                  "label": "Chalcedon's Verdict Fails to Produce Lasting Consensus",
                   "sources": [
                     {
-                      "source_id": "ijc.source.socrates-he",
-                      "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
-                      "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
-                      "locus": "II (Constantius II's councils); IV (Valens)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.sozomen-he",
-                      "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
-                      "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
-                      "locus": "VII.4 (the Theodosian reversal)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.hilary-de-synodis",
-                      "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
-                      "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
-                      "locus": "the formulae of the enforced confessions",
+                      "source_id": "ijc.source.chalcedon-acts",
+                      "author": "The Council of Chalcedon (451) - convened by Marcian and Pulcheria",
+                      "work": "The Definition of Faith, the Canons (esp. Canon 28), and Percival's extracts from the Acts of the Fourth Ecumenical Council - the world's own closing event in its own conciliar record",
+                      "locus": "the Definition and session extracts (the settlement's own claim to finality)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -2328,50 +2461,7 @@
               ]
             },
             {
-              "sentence": "Rome claimed first standing among the churches on the ground that what was given to Peter passes to each bishop who sits in his seat after him.",
-              "record_ids": [
-                "ijc.term.primatus"
-              ],
-              "sources": [
-                {
-                  "record_id": "ijc.term.primatus",
-                  "record_type": "term",
-                  "label": "primatus",
-                  "sources": [
-                    {
-                      "source_id": "ijc.source.athanasius-apologia-contra-arianos",
-                      "author": "Julius I, bishop of Rome (337-352), quoted by Athanasius of Alexandria",
-                      "work": "Letter of Julius to the Eusebian party (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of Caesarea the historian) at Antioch (341), preserved only through Athanasius's quotation of it in Apologia contra Arianos 21-35 - NARROWLY LICENSED: this record licenses the Julius letter alone, not the surrounding Athanasian corpus",
-                      "locus": "Apol. c. Ar. 21-35 (Julius's letter, 341)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.leo-letters",
-                      "author": "Leo I, bishop of Rome (440-461)",
-                      "work": "Letters - esp. Ep. 28 to Flavian (the Tome, 449) and Ep. 104 (to Marcian), 105 (to Pulcheria), 106 (to Anatolius), the rejection of Chalcedon's Canon 28 (452); with the surrounding Chalcedon-era correspondence; also Ep. LIX (to the clergy and people of Constantinople, anti-Eutychian, on the transmission of original sin) - added at review to license the corpus's own genuine original-sin content; also Ep. IV ch. II (to the bishops of Campania, Picenum, Etruria, and all the provinces, on slaves and serfs not to be ordained) - added at a second follow-up confirmation review (2026-08-22) as this build's own primary-text material on enslaved persons",
-                      "locus": "Ep. XXVIII; Ep. CIV-CVI",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.leo-sermons",
-                      "author": "Leo I, bishop of Rome (440-461)",
-                      "work": "Sermons - esp. Sermon 3 (on the anniversary of his elevation: Peter speaking in his successors) and Sermon 82 (on the feast of Peter and Paul: Rome re-founded on the apostles); the surviving preached corpus of the Petrine claim; also Sermons IX-X (this edition's numbering; \"Upon/On the Collections, IV-V\") on almsgiving discipline tied to the annual collection on the octave of SS. Peter and Paul (early July) - added at review to license the corpus's own genuine giving-discipline content; also Sermon XLII (\"On Lent, IV\"), section VI, on the fair treatment of slaves - added at a second follow-up confirmation review (2026-08-22)",
-                      "locus": "Sermon III; Sermon LXXXII",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "ijc.source.jerome-de-viris",
-                      "author": "Jerome (c. 347-420), sometime secretary to Damasus",
-                      "work": "De Viris Illustribus (Lives of Illustrious Men, 392/393) - used narrowly for its notices of this world's own figures, above all ch. 103 on Damasus (his verse epigrams) - NARROWLY LICENSED: Jerome's wider corpus belongs to the Hieronymian world",
-                      "locus": "ch. 103 (the epigraphic program's contemporary witness)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "The mechanism we trusted across the whole window - gather, argue, settle, and expect the settlement to bind - visibly fails at the moment when the stakes are highest: Chalcedon's settlement is rejected immediately by communities that will not accept it, beginning in Egypt at the council itself, and the rejection hardens into durable division rather than passing like earlier disputes.",
+              "sentence": "The rejection hardened into durable division rather than passing like earlier disputes.",
               "record_ids": [
                 "ijc.force.chalcedon-failed-consensus"
               ],
@@ -2395,6 +2485,64 @@
           ],
           "glosses": [],
           "figures_used": [
+            {
+              "id": "ijc.figure.constantius",
+              "matched_name": "Constantius",
+              "names": [
+                {
+                  "name": "Constantius",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Constantius II (317-361, emperor from 337, sole emperor 353-361)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "Constantine's son, under whom the imperial church itself confessed the Son as \"like\" the Father - and bishops who refused learned what imperial confession-making cost",
+              "dates": {
+                "born": "317",
+                "died": "361",
+                "floruit": "sole emperor 353-361 after defeating Magnentius; the twin councils of 359 and the Homoian settlement of 360 pressed under his authority"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "ijc.term.homoios",
+                  "author": null,
+                  "work": null,
+                  "locus": "informational, evidential, and personal senses used directly",
+                  "rights_status": null
+                }
+              ]
+            },
+            {
+              "id": "ijc.figure.valens",
+              "matched_name": "Valens",
+              "names": [
+                {
+                  "name": "Valens",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Valens (c. 328-378, Eastern emperor 364-378)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "the Eastern emperor under whom the Homoian confession ruled again - and pro-Nicene bishops went into exile a second time",
+              "dates": {
+                "born": "c. 328 (scholarly convention)",
+                "died": "378, killed at Adrianople",
+                "floruit": "Eastern emperor 364-378; the Homoian confession again enforced in the East under his authority"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "ijc.term.homoios",
+                  "author": null,
+                  "work": null,
+                  "locus": "informational, evidential, and personal senses used directly",
+                  "rights_status": null
+                }
+              ]
+            },
             {
               "id": "ijc.figure.eusebius-caesarea",
               "matched_name": "Eusebius of Caesarea",
@@ -2439,15 +2587,72 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "Yes - and we will show you how deeply.",
+                "sentence": "Yes - and we will not pretend otherwise.",
                 "tags": [
-                  "ijc.dw.room-for-hesitation"
+                  "ijc.gravity.church-state-alliance"
+                ],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "Our world was political from its founding moment.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The alliance that made the church powerful also made it a prize fought over.",
+                "tags": [
+                  "ijc.core.imperial-juridical"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "Eusebius of Caesarea signed the creed at Nicaea and then wrote home to his own church explaining, carefully, why he had hesitated over its defining word and what he understood it to mean.",
+                "sentence": "Bishops were removed by emperors, councils were convened at imperial command, and for stretches of our own century the confession the empire enforced was not the one that eventually won.",
+                "tags": [
+                  "ijc.demo.argued-about"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Under Constantius II, and again under Valens, bishops who confessed the Son as of one substance with the Father were the ones exiled - not the reverse.",
+                "tags": [
+                  "ijc.demo.argued-about"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "The formula the imperial church itself held said the Son is like the Father, as the scriptures say, and went no further.",
+                "tags": [
+                  "ijc.term.homoios"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Politics did not corrupt the faith from outside.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Politics was how the faith got argued, legislated, and enforced.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "And it was felt as complicated even then.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "At Nicaea itself, Eusebius of Caesarea signed the creed and then wrote home to his own church.",
                 "tags": [
                   "ijc.dw.room-for-hesitation"
                 ],
@@ -2456,7 +2661,15 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "Socrates, our church historian, records it this way: Eusebius 'having held aloof for a short time, after mature consideration whether he ought to receive this definition of the faith, at length acquiesced in it, and subscribed it with all the rest: he also sent to the people under his charge a copy of the Creed, with an explanation of the word homoousios, that no one might impugn his motives on account of his previous hesitation'.",
+                "sentence": "He explained, carefully, why he had hesitated over its defining word and what he understood it to mean.",
+                "tags": [
+                  "ijc.dw.room-for-hesitation"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That is a bishop, at the founding council, publishing his own reservations so that no one would \"impugn his motives\".",
                 "tags": [
                   "ijc.quote.he-held-aloof-for-a-short-time"
                 ],
@@ -2464,12 +2677,12 @@
                 "why": "quoted span(s) verbatim in tagged record(s)"
               },
               {
-                "sentence": "That is a bishop, at the founding council, publishing his own reservations so that no one would 'impugn his motives'.",
+                "sentence": "The question was not simple for him, and he did not hide that it was not simple.",
                 "tags": [
                   "ijc.dw.room-for-hesitation"
                 ],
                 "verdict": "ok",
-                "why": "quoted span(s) verbatim in tagged record(s)"
+                "why": "tagged claim, shares ground with its own records"
               },
               {
                 "sentence": "For decades afterward, serious men confessed differently about the Son and argued their case from scripture.",
@@ -2480,13 +2693,7 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "But here is where the complication you name becomes something harder than hesitation.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "The question was not closed by pretending no one doubted.",
+                "sentence": "What happened to that complication depended on whichever settlement was in power.",
                 "tags": [
                   "ijc.dw.room-for-hesitation"
                 ],
@@ -2494,7 +2701,7 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "What happened to doubt depended on whichever settlement was reigning: hesitation could be explained in a letter, but refusing the enforced confession could cost a man his position, under any of our era's establishments.",
+                "sentence": "Hesitation could be explained in a letter.",
                 "tags": [
                   "ijc.dw.room-for-hesitation"
                 ],
@@ -2502,7 +2709,7 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "So yes, there was room for doubt, at a price that rose and fell with the law.",
+                "sentence": "But refusing the enforced confession could cost a man his position, under any of this era's governments.",
                 "tags": [
                   "ijc.dw.room-for-hesitation"
                 ],
@@ -2510,38 +2717,15 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "And the politics you name were not incidental to the faith - they were how the faith got settled at all.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Councils were convened at the emperor's summons.",
+                "sentence": "The mechanism our world trusted - gather, argue, settle, and expect the settlement to bind - visibly failed at the moment when the stakes were highest.",
                 "tags": [
-                  "ijc.term.concilium"
+                  "ijc.force.chalcedon-failed-consensus"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "Men went into exile or returned from it when the imperial policy changed.",
-                "tags": [
-                  "ijc.force.imperial-policy-oscillation"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "Rome claimed first standing among the churches on the ground that what was given to Peter passes to each bishop who sits in his seat after him.",
-                "tags": [
-                  "ijc.term.primatus"
-                ],
-                "verdict": "ok",
-                "why": "grounded 83% in own tagged records",
-                "ratio": 0.83
-              },
-              {
-                "sentence": "The mechanism we trusted across the whole window - gather, argue, settle, and expect the settlement to bind - visibly fails at the moment when the stakes are highest: Chalcedon's settlement is rejected immediately by communities that will not accept it, beginning in Egypt at the council itself, and the rejection hardens into durable division rather than passing like earlier disputes.",
+                "sentence": "Chalcedon's own settlement was rejected immediately by communities that would not accept it, beginning in Egypt at the council itself.",
                 "tags": [
                   "ijc.force.chalcedon-failed-consensus"
                 ],
@@ -2550,13 +2734,33 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "So the feeling you name - we knew it.",
+                "sentence": "The rejection hardened into durable division rather than passing like earlier disputes.",
+                "tags": [
+                  "ijc.force.chalcedon-failed-consensus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "So yes.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "Theology and power were never cleanly separated in our world, and the honest record shows it.",
+                "sentence": "Complicated and political was what we were, from the day the emperor stopped hunting us and started funding us instead.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The faith mattered desperately - men were exiled over words, and the words were about who Christ is.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "And it was never clean.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"

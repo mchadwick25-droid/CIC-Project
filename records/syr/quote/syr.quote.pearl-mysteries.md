@@ -29,9 +29,9 @@ relations:
 text: On a certain day a pearl did I take up, my brethren; I saw in it mysteries pertaining to the Kingdom;
   semblances and types of the Majesty; it became a fountain, and I drank out of it mysteries of the Son.
 modern_rendering: >-
-  One day, my brothers, I picked up a pearl. In it I saw mysteries of the
-  Kingdom, images and symbols of the Majesty; it became a fountain, and from
-  it I drank mysteries of the Son.
+  One day, my brothers, I picked up a pearl. In it I saw the mysteries of the
+  Kingdom - pictures and signs of the Majesty. It became a fountain, and from
+  it I drank the mysteries of the Son.
 speaker_or_author: syr.figure.ephrem
 license: verbatim
 modern_lens_note: 'A modern reader is likely to read ''pearl'' as an ordinary poetic
@@ -44,3 +44,5 @@ end - the raza method's own emblem: a whole world of mysteries read in
 one pearl held to the light.
 
 MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

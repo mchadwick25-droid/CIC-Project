@@ -50,12 +50,12 @@ text: >-
   part reaches us through the account of the bishop who defeated her.
   Pulcheria carried authority long enough to help convene the council that
   closed this world's era. Leo himself records that she commanded the council
-  to be held, and that she refused his request to hold it in Italy; he
-  answered by sending his legates without protest. He also wrote
-  congratulating her on a synod already held, and none of this was mere
-  courtesy. Her cost was different. Real standing bought her a place in the
-  correspondence of powerful men, and nothing beyond it in her own words. Both
-  women held command. Neither left us her own voice.
+  to be held. She refused his request to hold it in Italy, and he answered by
+  sending his legates without protest. He also wrote congratulating her on a
+  synod already held, and none of this was mere courtesy. Her cost was
+  different. Real standing bought her a place in the correspondence of
+  powerful men, and nothing beyond it in her own words. Both women held
+  command. Neither left us her own voice.
 positions:
 - real coercive state power moved through Justina's court in this world's own record - fines,
   imprisonment, and the machinery of the palace turned against Ambrose; Ambrose's own letter names the
@@ -111,3 +111,5 @@ command... and answers by sending his legates without protest," which
 is what the letter actually supports.
 
 REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

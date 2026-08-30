@@ -24,11 +24,10 @@ sources:
 text: >-
   I therefore considered it the more necessary to examine, even with the use of torture, two female slaves who were called deaconesses (ministrae), in order to ascertain the truth. But I found nothing except a superstition depraved and immoderate; and therefore, postponing further inquiry, I have turned to thee for advice.
 modern_rendering: >-
-  I therefore considered it all the more necessary to find out the truth by
-  examining two female slaves, who were called deaconesses (ministrae) - and
-  to do so under torture. But I found nothing except a depraved and
-  unrestrained superstition, and so I have postponed further inquiry and
-  turned to you for advice.
+  So I decided I had to get the truth by questioning two female slaves, the
+  ones called deaconesses. I questioned them under torture. I found nothing
+  but a crude and excessive superstition. So I have put off any further
+  investigation, and I am turning to you for advice.
 speaker_or_author: Pliny the Younger, governor of Bithynia, to the emperor Trajan
 license: verbatim
 modern_lens_note: >-
@@ -59,3 +58,5 @@ the source, and splitting them across cells would let a turn reach the ministrae
 interrogation that produced the word.
 
 MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

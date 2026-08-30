@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: 'Let the saint exult in that he draws near to victory. Let the sinner be glad in that he is invited
   to pardon. Let the gentile take courage in that he is called to life.'
+modern_rendering: >-
+  Let the saint rejoice: he draws near to victory. Let the sinner be glad: he
+  is invited to pardon. Let the gentile take courage: he is called to life.
 speaker_or_author: ijc.figure.leo
 license: verbatim
 modern_lens_note: >-
@@ -39,3 +42,5 @@ ijc.limit.jesus-to-you's own body as this world's closest approach
 to a direct, personal-register invitation - added at the step-5 review
 so the lament demonstration built from that limit could quote it
 properly rather than paraphrase it.
+
+MODERN RENDERING AUTHORED (2026-08-29, bar sweep): spoken by ijc.demo.want-to-believe; original stays for Level 3.

@@ -1490,3 +1490,57 @@ Queue unchanged: opening parroting (three of Theon's summary sentences
 copied byte-for-byte by a later voice) persists exactly as before the
 fix - its own ruling pending. The "## Response" header one-off and the
 delivery-side leading-header strip remain queued hygiene candidates.
+
+## 2026-08-30 - THE BAR SWEEP (fleet-wide, one pass)
+
+Mark fixed the bar with an approved sample ("much better thats the
+bar" - the reshaped syr demo; Ministry/Technology/
+CiC_Register_Bar_2026-08-29.md is the anchor). Then the one sweep, not
+tweaks: every spoken field in the corpus screened against the bar
+(199 true offenders), rewritten or sentence-split world by world -
+hal 32 fields, alx 15, ijc 25, desert 33, syr 36+20, pahc 23+ - plus
+44+11 quote renderings brought to the bar and the six conversational
+demos reshaped to his turn ruling (longer allowed, pressure not cap,
+never essays, at most three short paragraphs, first turns handing the
+conversation back). Every quotation kept character-exact; every
+reviewed constraint checked; tag censuses verified per world against
+pre-sweep baseline builds (net +25, no grounding losses). Fleet
+repinned 2026-08-30; suite 535; staleness fresh.
+
+Live verification (same five questions as the pre-sweep check):
+quote-stripped FK 7.9-9.3 per turn, was 9.4-10.7. No fragments, no
+archaic voice, no headers, no repetition; quotes speak renderings.
+
+Open, logged for Mark's ruling - not patched: (1) turn length still
+runs four-to-five short paragraphs against his at-most-three pressure;
+the design dial is the evidence-per-turn trim (P6: pace depth across
+turns) he has not yet ruled on. (2) Two turns slipped into
+first-person singular against the strict we-voice rule - measured by
+the audit, awaiting a design-level answer if it recurs.
+
+## 2026-08-30 - The authoring discipline built into the build cycle
+
+Mark's rulings, in sequence: "i don't want a series of rules for
+words, that is adding fix on fix, i want the base conditions to
+generate what we are looking for in each world and throughout the
+system" - then "build the authoring discipline into the build cycle."
+
+Done as a versioned Change Order (per the Completion Standard's own
+SSE), not silent edits:
+- Record-Native World Build Process V1.0 -> V1.1: the register bar is
+  a birth condition of Phase B - every spoken field drafted with the
+  approved sample open; quote records author modern_rendering at
+  birth; step reviews read spoken fields against the sample (a
+  sentence the reviewer must ask the meaning of fails); the bar screen
+  runs before B-8 as a saved artifact, visibility only.
+- Completion Standard V1.0 -> V1.1: section B gains the register-bar
+  read as a required saved artifact at world-freeze.
+- The standing launch prompt now points at V1.1 and names the bar
+  among the read-first documents.
+- The Register Bar doc itself holds ONLY the approved sample and the
+  five base conditions - its rules-ledger section was removed the same
+  day on Mark's correction. Fixes land in records; the fixed corpus is
+  the memory.
+
+Remaining for Mark: one short paragraph to add to the cic-build-cycle
+skill (account-synced, not editable from the repo) - provided in chat.

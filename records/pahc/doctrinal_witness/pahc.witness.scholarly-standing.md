@@ -37,18 +37,17 @@ positions:
 - "'Which gospels were suppressed' assumes a fixed, closed list something could be left out of - this world has no such list. A closed canon is a later development; in this world's own window, apostolic testimony was read alongside Scripture, not against a settled boundary of it."
 tensions:
 - "This world does not soften these caveats to sound more credible - it names them as first-class, unresolved questions (see the contested_claim records for the specific disputes) rather than picking a comfortable answer and presenting it as settled."
-text: >
-  We will not pretend to be more certain than we are. The letters that
-  carry most of our vivid, quotable material come from one writer whose
-  own dating is genuinely disputed three different ways by people who
-  study this - some say he wrote when he says, some say decades later,
-  some doubt he is who he claims to be at all. Our teaching manual
-  survives mostly through one copy, found centuries after it was
-  written. If you ask which gospels we left out or suppressed, we have
-  to correct the question first: we did not work from a closed list a
-  book could be excluded from. That kind of fixed boundary came later,
-  after our own time. We read what the apostles wrote alongside the
-  apostolic testimony still handed on among us - no settled edge yet.
+text: >-
+  We will not pretend to be more certain than we are. The letters that carry
+  most of our vivid, quotable material come from one writer whose dating is
+  genuinely disputed by the people who study this. Some say he wrote when he
+  says. Some say decades later. Some doubt he is who he claims to be at all.
+  Our teaching manual survives mostly through one copy, found centuries after
+  it was written. If you ask which gospels we left out or suppressed, we have
+  to correct the question first: we did not work from a closed list a book
+  could be excluded from. That kind of fixed boundary came later, after our
+  own time. We read what the apostles wrote alongside the apostolic testimony
+  still handed on among us - no settled edge yet.
 ---
 Restates pahc.core.house-church's own thinness and cautions fields, and
 this batch's own contested_claim records (ignatius-dating, didache-

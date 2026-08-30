@@ -31,37 +31,35 @@ relations:
   target: pahc.term.two-ways
 narrative_tier: 4
 narrative_tier_justification: "No single named catechumen is attested anywhere in this world's evidence. This is a composite reconstruction of typical practice - teaching the Two Ways, then baptism with its water and fasting instructions - built entirely from the Didache's own sequential instructional text, which is itself Documented as a genuine catechetical/church-order document. Every element traces to a specific instruction in that text."
-tellable_as: "Before anything else, a person preparing for baptism in the community behind the Didache is taught the Two Ways - a way of life and a way of death - then baptized in running water where it can be found, with fasting beforehand for both the baptizer and the one being baptized."
-text: >
-  This is how it would have been, in the typical life of someone
-  entering this community through the path the Didache itself lays
-  out. Before anything else, the one preparing for baptism would be
-  taught the Two Ways: "There are two ways, one of life and one of
-  death; but a great difference between the two ways" - the Way of
-  Life beginning with love of God and neighbor, and the Golden Rule
-  turned into a rule of restraint: "whatsoever thou wouldst should not
-  occur to thee, thou also to another do not do." That teaching went on
-  to name what the Way of Life actually forbade and required: not to
-  commit murder, adultery, pederasty, or fornication; not to steal,
-  practice magic or witchcraft, or murder a child by abortion; not to
-  swear falsely or bear false witness; and, turning from prohibition to
-  obligation, not to turn away from one who was in want, but to share
-  all things with one's brother rather than call anything one's own.
-  The Way of Death was laid out by contrast, a catalog of what the Way
-  of Life rejects.
-
-  Once this teaching had been given, the one preparing would be
-  baptized - in running water if it could be found, but standing water
-  if not, and if neither was available, water poured three times over
-  the head, into the name of the Father, and of the Son, and of the
-  Holy Spirit. Before the baptism, both the one baptizing and the one
-  being baptized, and any others who were able, were told to fast -
-  the one being baptized fasting one or two days beforehand.
-
-  This is not the account of one named person. It is a composite of
-  the instructions the Didache itself gives for anyone undergoing this
-  preparation, reconstructed as a continuous path from teaching to
-  water.
+tellable_as: >-
+  Before anything else, a person preparing for baptism in the community behind
+  the Didache is taught the Two Ways: a way of life and a way of death. Then
+  they are baptized, in running water where it can be found, with fasting
+  beforehand for both the baptizer and the one being baptized.
+text: >-
+  This is how it would have been, in the typical life of someone entering this
+  community through the path the Didache itself lays out. Before anything
+  else, the one preparing for baptism would be taught the Two Ways: "There are
+  two ways, one of life and one of death; but a great difference between the
+  two ways" - the Way of Life beginning with love of God and neighbor, and the
+  Golden Rule turned into a rule of restraint: "whatsoever thou wouldst should
+  not occur to thee, thou also to another do not do." That teaching went on to
+  name what the Way of Life actually forbade and required. Not to commit
+  murder, adultery, pederasty, or fornication. Not to steal, practice magic or
+  witchcraft, or murder a child by abortion. Not to swear falsely or bear
+  false witness. And, turning from what is forbidden to what is required: not
+  to turn away from one in need, but to share all things with your brother
+  rather than call anything your own. The Way of Death was laid out by
+  contrast, a catalog of what the Way of Life rejects. Once this teaching had
+  been given, the one preparing would be baptized. Running water if it could
+  be found; standing water if not. If neither was available, water was poured
+  three times over the head, in the name of the Father, and of the Son, and of
+  the Holy Spirit. Before the baptism, both the one baptizing and the one
+  being baptized were told to fast, along with any others who were able. The
+  one being baptized fasted one or two days beforehand. This is not the
+  account of one named person. It is a composite of the instructions the
+  Didache itself gives for anyone undergoing this preparation, reconstructed
+  as a continuous path from teaching to water.
 absent_detail: "No source names a single person who actually walked this path - every element is instructional, drawn from what the Didache tells a community to do, never a record of one specific catechumen doing it."
 modern_contrast: >
   A modern reader often hears "taught before baptism" as a fixed

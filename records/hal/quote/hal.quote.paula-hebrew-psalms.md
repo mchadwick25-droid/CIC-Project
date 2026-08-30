@@ -20,6 +20,10 @@ sources:
 text: 'Paula, on making up her mind that she too would learn it, succeeded so well that
   she could chant the psalms in Hebrew and could speak the language without a trace of
   the pronunciation peculiar to Latin.'
+modern_rendering: >-
+  Paula made up her mind to learn Hebrew too, and she succeeded so well that
+  she could chant the psalms in it, and speak it without a trace of a Latin
+  accent.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'
@@ -42,3 +46,5 @@ women's lives: study was daily practice, not ornament).
 Locus corrected per independent review Round 1 (2026-08-21): sec. 26 was
 off by one against the print-edition numbering - now sec. 27, matching
 the paired quote record.
+
+MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.

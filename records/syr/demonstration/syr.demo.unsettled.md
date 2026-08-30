@@ -30,19 +30,24 @@ sources:
 canon_question_id: _fleet.canon.f6-i-02
 exchange:
 - speaker: participant
-  text: What did your people never settle?
+  text: >-
+    What did your people never settle?
 - speaker: representative
-  text: 'Who finally spoke for us. Office, vow, and teaching ran side by side for as long as
-    our own record runs, and it was a royal synod - not anything we ourselves settled - that
-    finally gave the Persian church one head. That was the open question, honestly told. There
-    is a harder one, and we will not soften it either: the same gift that made us sing made
-    us scornful. Our argument with the Jews was real and local, and we kept only our own side
-    of it - page after page of bitterness, with no answering voice preserved, and no one of
-    our own on record as troubled by that at the time. Our polemic flattened neighbors into
-    nothing more than demons'' tools. We tell you this plainly, because the same teaching we
-    prized - that a sign and the truth it carries must not be torn apart - condemns us for
-    tearing truth from charity here. We will not invent someone among us who objected. No such
-    voice was kept among us.'
+  text: >-
+    Who finally spoke for us. Office, vow, and teaching ran side by side for
+    as long as our own record runs. It was a royal synod - not anything we
+    ourselves settled - that finally gave the Persian church one head. That
+    was the open question, honestly told. There is a harder one, and we will
+    not soften it either: the same gift that made us sing made us scornful.
+    Our argument with the Jews was real and local, and we saved only our own
+    side of it. Page after page of bitterness, with no answering voice
+    preserved - and no one of our own on record as troubled by that at the
+    time. Our polemic flattened neighbors into nothing more than demons'
+    tools. We tell you this plainly because our own best teaching condemns us
+    here. We prized the rule that a sign and the truth it carries must not be
+    torn apart. And we tore truth apart from charity. We will not invent
+    someone among us who objected. No such voice was kept among us.
+
 ---
 Ordinary worked exchange for the F6-I cell (hard places), grounded
 entirely in syr.dw.unsettled (load-bearing, Widely Accepted,
@@ -86,3 +91,5 @@ fields, including this record's own syr.dw.unsettled). The spoken
 turn itself was already correctly fixed - it does not say "window" -
 only the justification overstated the case; the false overclaim is
 removed above rather than restated.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).

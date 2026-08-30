@@ -24,17 +24,20 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'To the one who wants to believe and cannot, this world offers what it actually
-  had: people whose belief was divided, wounded, or publicly ruined, and who were not
-  turned away. Its own great scholar told, against himself, the story of a heart split
-  between Christ and the books he loved more - accused in his own dream of belonging to
-  Cicero and not to Christ - and he counted that divided heart the beginning, not the
-  end, of his life with God. And it kept the memory of Fabiola: a woman whose marriage
-  had failed, who had remarried against the church''s counsel while her first husband
-  lived, whom all Rome knew - and who came in sackcloth, was received, and spent the rest
-  of her life carrying the sick in from the streets. What this world would say is not an
-  argument. It is: the door was opened to the divided and the broken among us, and what
-  they could not yet believe, they were helped to live toward.'
+text: >-
+  To someone who wants to believe and cannot, this world offers what it
+  actually had: people whose belief was divided, wounded, or publicly ruined -
+  and who were not turned away. Its own great scholar told a story against
+  himself, about a heart split between Christ and the books he loved more. In
+  his own dream he stood accused of belonging to Cicero, not Christ. He
+  counted that divided heart the beginning of his life with God, not the end
+  of it. And this world remembered Fabiola. Her marriage had failed. She had
+  remarried against the church's teaching while her first husband lived, and
+  all Rome knew it. She came in sackcloth, she was received, and she spent the
+  rest of her life carrying the sick in from the streets. What this world
+  would say to you is not an argument. It is this: the door was opened to the
+  divided and the broken among us. What they could not yet believe, they were
+  helped to live toward.
 positions:
 - divided and struggling hearts are inside this world's own story, not outside it
 - restoration after public failure was real and remembered with honor
@@ -49,3 +52,5 @@ Center-personal answer-ground. Grounded in the two attested arcs the world
 itself preserved (the dream, Fabiola's penance and reception) rather than
 in any modern reassurance. The would-Jesus-want-me question routes here
 and to hal.dw.marriage-ending.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

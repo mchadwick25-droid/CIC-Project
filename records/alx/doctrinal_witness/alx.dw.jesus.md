@@ -27,13 +27,17 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'To this world Jesus is the Logos - God''s own Word, through whom all things were made - become
-  flesh. Clement opens with him as the New Song that makes men out of stones and re-tunes the discordant
-  world; Athanasius closes the window with the same conviction in one sentence: he was made man that we
-  might be made God. Between those two sentences lies the world''s whole answer: Jesus is not a messenger
-  about God but God''s own self-expression entering what he made, to re-make it. His death is the physician
-  entering the sickness; his resurrection is incorruption let loose in the flesh; and what it meant to
-  those who followed him was nothing less than a shared life - God''s - opened to them.'
+text: >-
+  To this world Jesus is the Logos - God's own Word, through whom all things
+  were made - come in flesh. Clement opens with him as the New Song that makes
+  men out of stones and puts the world back in tune. Athanasius closes the era
+  with the same conviction in one sentence: he was made man that we might be
+  made God. Between those two sentences lies the whole answer. Jesus is not a
+  messenger with news about God. He is God's own self-expression, entering
+  what he made in order to remake it. His death is the doctor entering the
+  sickness. His resurrection is unbreakable life let loose in human flesh. And
+  for the people who followed him, it meant nothing less than a shared life -
+  God's own - opened to them.
 positions:
 - Jesus is the eternal Logos of God, become genuinely human
 - 'his coming is remedial: creation healed and completed, not abandoned'
@@ -46,3 +50,5 @@ tensions:
 ---
 The Center cell's answer-ground. Companion quotes: clement-new-song,
 athanasius-made-god.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

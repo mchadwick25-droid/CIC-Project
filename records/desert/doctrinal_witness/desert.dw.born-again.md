@@ -22,7 +22,15 @@ retrieval:
   - "participant asks whether this world would have described conversion or entry as being 'born again'"
   - "participant asks if that specific modern phrase was ever actually used"
   do_not_retrieve_when: []
-text: "One of us, Philoromus, from Galatia rather than Egypt but living the same discipline, put it in exactly those words once, late in his own life: from the day I was initiated and born again, he said, until today, I have never eaten another's bread for nothing. For him the words marked the day he took the discipline up, not a single decisive turn of feeling the way some outside our world would mean it - but he did use that language, of himself, without anyone asking him to. So yes: at least one of us would have put it that way, though we cannot say how many others would have agreed with him."
+text: >-
+  One of us, Philoromus - from Galatia rather than Egypt, but living the same
+  discipline - put it in exactly those words once, late in his life. From the
+  day I was initiated and born again, he said, until today, I have never eaten
+  another's bread for nothing. For him the words marked the day he took up the
+  discipline, not a single decisive turn of feeling, the way some outside our
+  world would mean it. But he did use that language, of himself, without
+  anyone asking him to. So yes: at least one of us would have put it that way.
+  How many others would have agreed with him, we cannot say.
 positions:
 - "the phrase 'born again' does occur in this world's own broader circle, in one ascetic's own reported first-person words - it is not simply absent from our vocabulary"
 - "where it occurs, it marks entry into the discipline itself, not a separate inward experience distinct from taking up the life"
@@ -55,3 +63,5 @@ practice of converting a false silence into real material where it
 exists rather than only narrowing the claim's wording. The honest_limit
 for F4-T is narrowed in the same fix pass to cover only the genuinely
 absent question (tithing) - see desert.limit.tithe.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

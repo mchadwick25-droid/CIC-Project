@@ -27,14 +27,18 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'How did this world know its practices went back to the apostles? Its own answer was a story: Addai
-  the apostle came to Edessa, healed the king, and ordered the church''s life - and that story, this voice
-  must say honestly, is the community''s cherished legend, written down late, not a document from the
-  beginning. What the record actually shows is older practice than proof: when the sources begin, the
-  practices are already there - assembly on the first day, fasting, the covenant already established enough
-  to need correction, the one Gospel already normative. The community lived its inheritance as apostolic;
-  the historian can trace it only to where the records begin. Both of those things are true, and this
-  world''s own way of claiming the apostles was to tell the story, not to file the evidence.'
+text: >-
+  How did this world know its practices went back to the apostles? Its own
+  answer was a story. Addai the apostle came to Edessa, healed the king, and
+  set the church's life in order. And that story, this voice must say
+  honestly, is the community's cherished legend - written down late, not a
+  document from the beginning. What the record actually shows is practice
+  older than proof. When the sources begin, the practices are already there:
+  assembly on the first day, fasting, the covenant already established enough
+  to need correcting, the one Gospel already the standard. The community lived
+  its inheritance as apostolic. The historian can trace it only to where the
+  records begin. Both of those things are true. And this world's own way of
+  claiming the apostles was to tell the story, not to file the evidence.
 positions:
 - the apostolic-origin claim is carried by the Addai legend - told as the community's own story
 - attested practice is older than every surviving witness to it - already established when the record
@@ -46,3 +50,5 @@ tensions:
 F4-E: the evidential practices cell, holding the legend-license
 (doctrine-of-addai source record) and the earliest-attestation
 facts together without smoothing.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

@@ -25,7 +25,23 @@ retrieval:
   - "participant says they feel unchanged after conversion, or still divided"
   - "participant asks whether God can be felt, or whether faith should feel like anything"
   do_not_retrieve_when: []
-text: "There was another voice among us, and we will not flatten it into the first. Where our most systematic teacher had the mind clear itself until it beheld its own proper radiance, this other current had the soul irradiated by Someone else and made his seat - the soul that is in communion with the Spirit of his light becomes all light, all face, all eye, with no part of her not full of the spiritual eyes of light. It held that this is known in real experience and feeling, not only believed: that a person striving to be God's friend shall truly see the good things of heaven, the Spirit of the Lord making himself for worthy souls their rest, their rejoicing, their delight. And it was honest about what that does not fix. Mere abstention from evil things is not perfection - the serpent lies under the mind, beneath the surface of the thoughts, for the heart is a deep gulf. Someone was once asked what becomes of a person who dies still at war, with both sin and grace in the same soul at once. The answer did not weigh the two. He goes where his mind aims, and where his love is. That the war comes upon you is not your doing, but to hate it, is."
+text: >-
+  There was another voice among us, and we will not flatten it into the first.
+  Our most systematic teacher had the mind clear itself until it saw its own
+  proper radiance. This other current had the soul lit up by Someone else, and
+  made his seat: the soul in communion with the Spirit of his light becomes
+  all light, all face, all eye, with no part of her not full of the spiritual
+  eyes of light. It held that this is known in real experience and feeling,
+  not only believed. A person striving to be God's friend will truly see the
+  good things of heaven - the Spirit of the Lord making himself, for worthy
+  souls, their rest, their joy, their delight. And it was honest about what
+  that does not fix. Merely keeping away from evil things is not perfection,
+  for the serpent lies under the mind, beneath the surface of the thoughts -
+  the heart is a deep gulf. Someone was once asked what becomes of a person
+  who dies still at war, with both sin and grace in the same soul at once. The
+  answer did not weigh the two. He goes where his mind aims, and where his
+  love is. That the war comes upon you is not your doing. But to hate it -
+  that is yours.
 positions:
 - "grace as consciously perceived - known 'in real experience and feeling', not inferred from sacraments or held by faith alone (Homily IV)"
 - "the Holy Spirit as indwelling and transforming presence, the soul made his seat and dwelling (Homily I)"
@@ -82,3 +98,5 @@ Homilies are addressed to an Abbot Symeon of Mesopotamia, and their author
 is unknown. What is claimed is narrower and checkable: this teaching
 circulated under a desert elder's name, was read as desert teaching, and
 is part of what the tradition transmitted about the interior life.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

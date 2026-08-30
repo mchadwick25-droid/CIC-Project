@@ -22,6 +22,11 @@ text: 'she never came to see me that she did not ask me some question concerning
   nor would she at once acquiesce in my explanations but on the contrary would dispute
   them; not, however, for argument''s sake but to learn the answers to those objections
   which might, as she saw, be made to my statements.'
+modern_rendering: >-
+  She never visited me without asking some question about the scriptures. And
+  she would not simply accept my explanations - she would argue against them.
+  Not for argument's sake, but to learn the answers to the objections she
+  could see might be raised.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'
@@ -39,3 +44,5 @@ that the strand-determination analysis (Doc_01 section 4, Doc_04) read
 closely: by Jerome's own framing she operated inside the same
 recognition-currency as he did. Serves F1-P (room for questioning) and
 F6-P (woman-authority).
+
+MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.

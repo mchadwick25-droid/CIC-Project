@@ -51,21 +51,24 @@ narrative_tier_justification: >-
   who says he had it from the Alexandrian clergy.
 tellable_as: "the archbishop of Alexandria on the run, hidden by a woman nobody would think to suspect"
 text: >-
-  Palladius says that among the chaste virgins he saw in Alexandria there was one he took to be
-  about seventy, and that the clergy all testified about her: that at twenty she had been so
-  beautiful that people stared, and that she had withdrawn from sight for exactly that reason, so
-  as not to be the occasion of anyone's stumbling. And when the Arians were moving against
-  Athanasius through the prefect, spreading accusations, he did not go to his kinsmen or his
-  friends or the clergy. He rose at midnight, took his tunic, and went to her house. She was
-  astonished. He told her he had fled so as not to make other people guilty on his account, and
-  that God had told him in the night there was no one else with whom he would find deliverance.
-  She hid him. She washed his feet, saw to what he needed, and borrowed books and brought them to
-  him, and Palladius says nobody in Alexandria knew where he was for the whole of that time. When
-  it was over he appeared suddenly in the church, looking, they said, like a man risen from the
-  grave, and he explained himself to the people who had loved him: he had not come to them because
-  he did not want to put them in the position of having to swear false oaths, and he had gone to
-  the one person no one could suspect him of going to, because she was young and beautiful. He
-  said he had gained two things by it, his own life and hers.
+  Palladius says that among the chaste virgins he saw in Alexandria there was
+  one he took to be about seventy. The clergy all testified about her: at
+  twenty she had been so beautiful that people stared, and she had withdrawn
+  from sight for exactly that reason, so as not to be the cause of anyone's
+  stumbling. When the Arians were moving against Athanasius through the
+  prefect, spreading accusations, he did not go to his relatives or his
+  friends or the clergy. He rose at midnight, took his tunic, and went to her
+  house. She was astonished. He told her he had fled so as not to make other
+  people guilty on his account, and that God had told him in the night that
+  with no one else would he find deliverance. She hid him. She washed his feet
+  and saw to what he needed. She borrowed books and brought them to him. And
+  Palladius says nobody in Alexandria knew where he was the whole time. When
+  it was over, he appeared suddenly in the church, looking, they said, like a
+  man risen from the grave. He explained himself to the people who had loved
+  him. He had not come to them, because he did not want to force them into
+  swearing false oaths. He had gone to the one person no one could suspect,
+  because she was young and beautiful. He said he had gained two things by it:
+  his own life, and hers.
 absent_detail: >-
   She is not named, here or anywhere. Nothing is said about what she thought of the arrangement
   beyond that she was astonished and then joyful, and nothing about what it cost her to keep a
@@ -100,3 +103,5 @@ The chronology is broken and the record says so in three places rather
 than smoothing it, because a story this world tells with a known error
 inside it, marked, is worth more than one it tells cleanly and cannot
 defend.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

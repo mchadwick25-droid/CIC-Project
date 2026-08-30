@@ -51,18 +51,21 @@ narrative_tier_justification: >-
   interest of the record is the growth itself, not the content.
 tellable_as: "a roll no saint was fit to hold, and a vine growing out of a poet's tongue until it filled the sky"
 text: >-
-  The Syriac Paradise opens its chapter on Ephraim with a dream. One of the holy fathers saw the
-  company of the angels come down from heaven by God's commandment, and one of them held a roll
-  written on the inside and on the outside, and they asked each other who was fit to be entrusted
-  with it. They named one man and then another, and each time the answer came back that these were
-  holy and righteous but not sufficient for this. They went through many names of saints. At last
-  they said: no man is fit to be entrusted with this thing except Ephraim - and they gave him the
-  roll. And when the dreamer got up in the morning he heard people saying that Ephraim was
-  teaching, and that the words flowed from his mouth like water from a fountain; and then he knew
-  what he had seen. The same chapter closes with a second vision, from Ephraim's own youth: a vine
-  grew out of his tongue, and increased, and filled the whole space beneath the heavens, and was
-  laden with grape clusters; and all the birds of heaven came and ate of it, and the more they ate
-  the more the clusters grew, both in number and in size.
+  The Syriac Paradise opens its chapter on Ephraim with a dream. One of the
+  holy fathers saw the company of the angels come down from heaven at God's
+  command. One of them held a roll, written on the inside and on the outside.
+  They asked each other who was fit to be trusted with it. They named one man,
+  and then another. Each time the answer came back: these are holy and
+  righteous, but not enough for this. They went through many names of saints.
+  At last they said: no one is fit to be trusted with this thing except
+  Ephraim. And they gave him the roll. When the dreamer got up in the morning,
+  he heard people saying that Ephraim was teaching, and that the words flowed
+  from his mouth like water from a fountain. Then he knew what he had seen.
+  The same chapter closes with a second vision, from Ephraim's own youth. A
+  vine grew out of his tongue. It grew and filled the whole space beneath the
+  heavens, loaded with clusters of grapes. All the birds of heaven came and
+  ate from it, and the more they ate, the more the clusters grew, in number
+  and in size.
 absent_detail: >-
   Neither vision is in the Greek-based text of the same chapter. Nobody is named as the dreamer of
   the first. Nothing says when either was told, or by whom, or whether Ephraim knew of the first
@@ -88,3 +91,5 @@ the same chapter met a man the angels selected over every other saint by
 name. The two readerships are the two halves of this world's problem
 about how it was seen and how it saw itself, and here they are in one
 chapter.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

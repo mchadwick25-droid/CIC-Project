@@ -39,14 +39,17 @@ narrative_tier_justification: 'Tier 3 (attributed/hagiographic tradition): Theod
   unambiguous hagiography by genre. Ephrem''s genuine hymns commemorate the city''s deliverance, which
   anchors the memory without attesting the miracle''s particulars.'
 tellable_as: the city's remembered deliverance - Jacob's prayer on the wall, as the church told it
-text: 'When Shapur''s army lay against the walls of Nisibis and the river had been turned against the
-  city, the tradition tells that Ephrem urged the aged bishop Jacob to climb the rampart and let prayer,
-  not strength, be the city''s defense. The old man consented and went up into a tower, and looking out
-  over the numberless camp he asked God not for the enemy''s death, but for the smallest of scourges:
-  mosquitoes and gnats. And the clouds of them came, and maddened the elephants and the horses, and the
-  army that a river could not stop broke camp before the smallest things God had made. The city sang of
-  its deliverance afterward - Ephrem himself, who had urged and witnessed, put it into the hymns Nisibis
-  kept.'
+text: >-
+  Shapur's army lay against the walls of Nisibis, and the river had been
+  turned against the city. The tradition tells that Ephrem urged the aged
+  bishop Jacob to climb the wall and let prayer, not strength, be the city's
+  defense. The old man agreed and went up into a tower. Looking out over the
+  numberless camp, he asked God not for the enemy's death, but for the
+  smallest of plagues: mosquitoes and gnats. The clouds of them came. They
+  maddened the elephants and the horses. And the army that a river could not
+  stop broke camp before the smallest things God had made. The city sang of
+  its rescue afterward. Ephrem himself, who had urged it and watched it, put
+  it into the hymns Nisibis kept.
 absent_detail: 'The miracle is the tradition''s own telling, not verified event; even which siege it belongs
   to (338, 346, or 350) is unsettled. The roles must never be reversed: the tradition credits Jacob''s
   prayer, with Ephrem as the one who urges and later sings - crediting the miracle to Ephrem is a documented
@@ -65,3 +68,5 @@ force; and 'teacher' language without the unattested malpana title.
 The gnats line verified verbatim in vendored Theodoret II.26 ('he
 discharged no other curse than to that mosquitoes and gnats might
 be sent forth upon them').
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

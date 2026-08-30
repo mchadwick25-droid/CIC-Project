@@ -36,13 +36,17 @@ narrative_tier_justification: 'Tier 2 (collected/archival tradition): the Chroni
   held open and never resolved either way.'
 tellable_as: the city chronicle's account of the great flood and the church it destroyed - this world's
   earliest hard trace
-text: 'The Chronicle of Edessa records that in the year 513 of the Greeks - the year 201 - in the month
-  of November, the river Daisan rose against the city in the night. King Abgar watched from the great
-  tower by torchlight as the waters beat on the western wall; the wall gave way, the flood swept through
-  and destroyed the king''s palace, and more than two thousand people died in the water, many in their
-  sleep. And among the losses the chronicle sets down one line that matters most to this world''s memory:
-  the waters destroyed the temple of the church of the Christians. There was a church building standing
-  in Edessa to be destroyed - that terse line is the oldest hard fact of this community''s existence.'
+text: >-
+  The Chronicle of Edessa records that in the year 513 of the Greeks - the
+  year 201 - in the month of November, the river Daisan rose against the city
+  in the night. King Abgar watched from the great tower by torchlight as the
+  waters beat on the western wall. The wall gave way. The flood swept through
+  and destroyed the king's palace, and more than two thousand people died in
+  the water, many in their sleep. And among the losses, the chronicle sets
+  down one line that matters most to this world's memory: the waters destroyed
+  the temple of the church of the Christians. There was a church building
+  standing in Edessa to be destroyed. That short line is the oldest hard fact
+  of this community's existence.
 absent_detail: 'No Christian voice speaks in the account: no bishop or believer is named, and nothing
   of the community''s own experience of the disaster survives. The account was filed by the royal court''s
   own scribes, and whether the church-destruction line is original or a later insertion is a real, named
@@ -59,3 +63,5 @@ text. Dating note: Seleucid 513 + November = 201 CE per the
 reviewed Doc_01; the vendored edition's own footnote computes 202
 (era-convention difference), recorded so the discrepancy never
 surprises a reviewer.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

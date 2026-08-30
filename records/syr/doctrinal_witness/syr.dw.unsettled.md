@@ -33,8 +33,8 @@ text: >-
   royal synod, after this world's own time, to give the Persian church one
   head. What is the hardest true thing about it? Perhaps this: the same gift
   that made it sing made it scornful. Its argument with the Jews was real and
-  local, and it kept only its own side - page after page of bitterness with no
-  answering voice preserved, and no one within the community on record as
+  local, and it saved only its own side - page after page of bitterness with
+  no answering voice preserved, and no one within the community on record as
   troubled by that. Its polemic flattened neighbors into demons' tools. A
   voice that loves this world tells these things plainly. Its own best
   teaching says that truth and its symbol must not be torn apart, and that

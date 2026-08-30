@@ -1,4 +1,10 @@
-# CiC World-Build Completion Standard V1.0
+# CiC World-Build Completion Standard V1.1
+
+**V1.1 change (Change Order, Mark, 2026-08-30: "build the authoring
+discipline into the build cycle"; per §E this is a versioned Change
+Order, never a silent edit):** section B gains the register-bar read
+as a required saved artifact. Worlds already frozen froze against
+V1.0 and are governed by the fleet bar sweep of 2026-08-30 instead.
 
 **Status: GOVERNING — adopted by Mark, 2026-07-27 (S6.1, per-document
 M; drafted same day, adopted as drafted).** Source: Pass 1 §11
@@ -38,6 +44,13 @@ rounds saved per CO-020/CO-022 discipline (no self-certified
 dismissals); the reviewer's relative-recall run recorded; the PRESS
 question answered explicitly; the retrieval golden set authored (12–20
 cases) and its baseline committed.
+
+[V1.1] The register-bar read recorded as a saved artifact: every
+spoken field reviewed against the approved sample
+(`Ministry/Technology/CiC_Register_Bar_2026-08-29.md`), with the bar
+screen's output saved beside it; every quote record carries its
+`modern_rendering` at freeze. The sample is the standard — this check
+never takes the form of a word list, and no number gates it.
 
 ## C. Representative-freeze — after world-freeze
 

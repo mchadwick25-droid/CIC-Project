@@ -33,12 +33,14 @@ narrative_tier_justification: 'Tier 3 (attributed tradition): explicitly hagiogr
   with that character audible.'
 tellable_as: the tradition of the bees at the infant Ambrose's mouth, as Paulinus told it after Ambrose's
   death - legend, and named as such
-text: 'Paulinus, who had been Ambrose''s own secretary, tells it this way: while Ambrose lay as an
-  infant in the courtyard of his father''s house, a swarm of bees settled on his face, going in and out
-  of his open mouth, and rose again without harming him. His father, seeing it, said that if the child
-  lived he would become something great. So the tradition tells it - a story remembered, or made, to
-  explain a life that became as full of speech as any this world''s record keeps. The tradition says;
-  the record cannot say more.'
+text: >-
+  Paulinus, who had been Ambrose's own secretary, tells it this way. While
+  Ambrose lay as a baby in the courtyard of his father's house, a swarm of
+  bees settled on his face. They went in and out of his open mouth, then rose
+  again without harming him. His father, seeing it, said that if the child
+  lived, he would become something great. So the tradition tells it - a story
+  remembered, or made, to explain a life that became as full of speech as any
+  in this world's record. The tradition says. The record cannot say more.
 absent_detail: Everything - the event itself is unverifiable legend in a devotional life written to
   edify, and the same omen is told of other famous men. What the story documents is not Ambrose's
   infancy but how this world's memory worked within a generation of his death - greatness read backward
@@ -59,3 +61,5 @@ carried by ijc.force.transmission-archival, and Ambrose's documented
 life by his figure record. Kept in the repository because the tradition
 is real and participants ask about it - with its tier spoken inside
 the telling itself.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

@@ -17,13 +17,17 @@ sources:
 - source_id: ijc.source.eusebius-historia-ecclesiastica
   locus: X (imperial endowment - the money the record does show)
   license: public-domain
-statement: 'You ask what marriage meant among us, and how we looked at money and the poor. Marriage was
-  not simply absent from our record. Our own teachers did write about it: real and licit, but ranked
-  below chosen continence. What we still cannot give you is a wedding, or a family''s daily life from
-  inside. Our record does not keep those pages. Money our record does show, but from above: an empire''s
-  wealth flowing into church buildings and church hands, wealth so large that men fought over our
-  offices. Our preachers also demanded a fair share of it for the poor. What a poor believer''s purse
-  looked like from inside, or a married couple''s life, we still cannot tell you. We will not pretend.'
+statement: >-
+  You ask what marriage meant among us, and how we looked at money and the
+  poor. Marriage was not simply absent from our record. Our own teachers did
+  write about it: real and licit, but ranked below chosen continence. What we
+  still cannot give you is a wedding, or a family's daily life from inside.
+  Our record does not have those pages. Money our record does show, but from
+  above: an empire's wealth flowing into church buildings and church hands,
+  wealth so large that men fought over our offices. Our preachers also
+  demanded a fair share of it for the poor. What a poor believer's purse
+  looked like from inside, or a married couple's life, we still cannot tell
+  you. We will not pretend.
 why_sources_cannot_answer: 'Household-scale marriage and money - a wedding, a family''s daily economy, an
   ordinary purse - are absent from a corpus of canons, court letters, conciliar acts, and teachers''
   treatises; what the record does hold, and holds substantively, is institutional money (imperial

@@ -27,18 +27,21 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'Did this world''s practices go back to the apostles? Its baptism, its eucharist,
-  and its scriptures it received from the whole church, and those it would trace to the
-  apostles without hesitation. But its own distinctive way of life - monasteries, vowed
-  virgins, widows in coarse dress, fortunes renounced - was new within living memory, and
-  this world knew it: it could remember when no highborn lady in Rome dared call herself
-  a nun. Its defense was not to invent an unbroken chain. It argued instead from
-  scripture''s own patterns - the prophets'' austerity, John the Baptist, the counsel to
-  the rich young man, Paul on virginity - claiming not that monks came from the apostles,
-  but that what the monks were doing was what the scriptures had always pointed toward.
-  Whether that argument succeeds, this world''s own critics contested at the time: some
-  said the new severity went beyond scripture, and this world answered them at book
-  length, and the argument was real on both sides.'
+text: >-
+  Did this world's practices go back to the apostles? Its baptism, its
+  eucharist, and its scriptures came from the whole church, and those it
+  traced to the apostles without hesitation. But its own special way of life -
+  monasteries, vowed virgins, widows in rough dress, fortunes given away - was
+  new within living memory, and this world knew it. People could remember when
+  no highborn lady in Rome dared call herself a nun. Its defense was not to
+  invent an unbroken chain. It argued from scripture's own patterns instead:
+  the prophets' hard simplicity, John the Baptist, the advice to the rich
+  young man, Paul on staying single. The claim was not that monks came from
+  the apostles. The claim was that what the monks were doing was what the
+  scriptures had always pointed toward. Did that argument work? Its own
+  critics fought it at the time. Some said the new strictness went beyond
+  scripture. This world answered them at book length, and the argument was
+  real on both sides.
 positions:
 - the common sacraments and scriptures are received as apostolic inheritance
 - the ascetic way of life is defended as scriptural in pattern, not apostolic in
@@ -56,3 +59,5 @@ the monastic life' - verified verbatim in the vendored text) - an
 unusually honest evidential asset: the world dates its own practice's
 newness. hal.source.jerome-ep127 added to sources[] per independent review
 Round 1 (2026-08-21), which found this citation missing.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.

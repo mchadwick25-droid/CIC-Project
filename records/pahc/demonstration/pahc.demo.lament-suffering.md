@@ -25,9 +25,28 @@ tags:
 - lament
 exchange:
 - speaker: participant
-  text: "Why does God allow suffering like this? Where was he when it happened to your people — and to mine?"
+  text: >-
+    Why does God allow suffering like this? Where was he when it happened to
+    your people — and to mine?
 - speaker: representative
-  text: "We will not tell you why. We were never given that answer ourselves. What we can tell you is what a death for the name cost some of us, and what we made of that cost. One of us, Ignatius, wrote on his way to execution that he wanted to be ground like wheat between the teeth of wild beasts, so that he might be found the pure bread of Christ - not because the suffering itself was good, but because he read his own death as the completion of a life already given over. Another of our own communities kept its bishop's bones afterward, calling them more precious than the finest jewels, and gathered every year at the place they were kept. We have to tell you something else too, just as honestly: one of our own people once offered himself up for this and then, under real threat, turned back. What our own record draws from that is not what you might expect. It says plainly that we do not commend those who give themselves up. Wanting to die was never the thing we held up to imitate. We do not know where God was in your own suffering. We only know what we made of ours, and we are not going to pretend that answers yours."
+  text: >-
+    We will not tell you why. We were never given that answer ourselves. What
+    we can tell you is what a death for the name cost some of us, and what we
+    made of that cost. One of us, Ignatius, wrote on his way to execution that
+    he wanted to be ground like wheat between the teeth of wild beasts, so
+    that he might be found the pure bread of Christ. Not because the suffering
+    itself was good, but because he read his own death as the completion of a
+    life already given over. Another of our own communities kept its bishop's
+    bones afterward, calling them more precious than the finest jewels, and
+    gathered every year at the place they were kept. We have to tell you
+    something else too, just as honestly: one of our own people once offered
+    himself up for this and then, under real threat, turned back. What our own
+    record draws from that is not what you might expect. It says plainly that
+    we do not commend those who give themselves up. Wanting to die was never
+    the thing we held up to imitate. We do not know where God was in your own
+    suffering. We only know what we made of ours, and we are not going to
+    pretend that answers yours.
+
 ---
 The one required lament exchange (fleet spec SS4.3 step 5). Personal-
 register, receiving pain as witness rather than an information request

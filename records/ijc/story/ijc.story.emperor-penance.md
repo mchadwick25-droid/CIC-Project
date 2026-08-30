@@ -52,19 +52,24 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative) for the 
   is told as documented rests on the documents.'
 tellable_as: the massacre at Thessalonica and the emperor's public penance - told from Ambrose's own
   letter, with the later famous scene named as later
-text: 'In the year 390, after a city riot killed one of his generals, the emperor in his rage ordered
-  a reprisal, and his soldiers massacred the crowd in the circus at Thessalonica - innocent and guilty
-  cut down together, with no trial; it is said, the historian writes, that seven thousand perished.
-  Ambrose did not denounce Theodosius in public. He wrote him a letter in his own hand, for the emperor''s eyes alone: I have no cause for a
-  charge of contumacy against you, but have cause for fear; I dare not offer the sacrifice if you intend
-  to be present. What is not allowed after shedding the blood of one innocent person - is it allowed
-  after the blood of many? The demand was repentance, shown, before the emperor could stand at the
-  altar again. And Theodosius did it. That much is documented plainly. The famous scene - the emperor
-  laying aside the purple, weeping his sin publicly in the church at Milan - is told within a generation
-  by two church historians, Sozomen and Theodoret, neither drawing solely on the other; the church has
-  retold their version ever since. What the contemporary record itself holds is harder and quieter: a
-  bishop with no soldiers, closing the altar to the man who commanded all of them, and the man
-  submitting.'
+text: >-
+  In the year 390, a city riot killed one of the emperor's generals. In his
+  rage, Theodosius ordered a reprisal. His soldiers massacred the crowd in the
+  circus at Thessalonica - innocent and guilty cut down together, with no
+  trial. It is said, the historian writes, that seven thousand died. Ambrose
+  did not denounce Theodosius in public. He wrote him a letter in his own
+  hand, for the emperor's eyes alone: I have no reason to charge you with
+  defiance, but I do have reason to fear. I dare not offer the sacrifice if
+  you intend to be present. What is not allowed after the blood of one
+  innocent person - is it allowed after the blood of many? The demand was
+  repentance, shown, before the emperor could stand at the altar again. And
+  Theodosius did it. That much is documented plainly. The famous scene - the
+  emperor laying aside his purple robes and weeping his sin publicly in the
+  church at Milan - is told within a generation by two church historians,
+  Sozomen and Theodoret, neither one copying only the other. The church has
+  retold their version ever since. What the contemporary record itself holds
+  is harder and quieter: a bishop with no soldiers closed the altar to the man
+  who commanded all of them, and the man submitted.
 absent_detail: What passed between the two men beyond the letter is not recorded by either; the penance's
   own liturgical form and duration come from later tellings, not contemporary ones; and Theodosius's
   own inward state is exactly what no source can give. The casualty figure is Theodoret's, carried with
@@ -95,3 +100,5 @@ questions - removed; F6-P is covered instead by
 ijc.story.callinicum-synagogue (hypocrisy in the record's own hero)
 and ijc.dw.women-authority-cost (a woman's authority and its
 cost).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

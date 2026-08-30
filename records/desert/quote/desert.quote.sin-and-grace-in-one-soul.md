@@ -18,11 +18,11 @@ sources:
   license: public-domain
 text: "Question. If a man who is still at war, and who still has both these things in his soul - sin and grace - is removed from this world, where does he go, when both sides have a hold upon him? Answer. He goes where his mind aims, and where his love is. ... That the war comes upon you is not your doing, but to hate it, is."
 modern_rendering: >-
-  Question: If a man who is still at war, who still has both of these things
-  in his soul - sin and grace - is taken out of this world, where does he go,
-  when both sides have a hold on him? Answer: He goes where his mind aims, and
-  where his love is. ... That the war comes upon you is not your doing. But
-  hating it - that is yours.
+  Question: A man is still at war inside. Both things are in his soul - sin
+  and grace - and both have a hold on him. If he is taken out of this world
+  like that, where does he go? Answer: He goes where his mind aims, and where
+  his love is. ... That the war comes upon you is not your doing. But hating
+  it - that is yours.
 speaker_or_author: "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
 license: verbatim
 modern_lens_note: "The premise is what a modern reader is most likely to miss: this world takes it as obvious that a baptised person still has sin AND grace in them at once, and asks only what happens at death. The answer refuses to weigh the two quantities and looks at direction instead - where the mind aims, where the love is. The ellipsis drops two sentences of exhortation between question and the closing clause. The vendored file renders the section number as '1 8.' where the scan broke it; the section is 18."
@@ -50,3 +50,5 @@ participant who reports being unchanged after conversion is not, in this world's
 answer given is not reassurance but reorientation: the war arriving is not your doing, hating it is.
 
 MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
