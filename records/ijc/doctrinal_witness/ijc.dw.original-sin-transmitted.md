@@ -21,16 +21,19 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'You ask whether we thought people were born already guilty. Yes - and this world''s own record
-  says so in as many words, in a letter written against a different error entirely. Writing to
-  Constantinople against Eutyches, Leo states the reason the Word had to become flesh at all: such was
-  the state of all mortals descending from our first ancestors that, after the transmission of original
-  sin to their descendants, no one would have escaped the punishment of condemnation, had the Word not
-  become flesh and dwelt among us. He reaches for Paul to say it twice over - as by one man''s
-  disobedience many were made sinners, so also by one man''s obedience shall many be made righteous; as
-  in Adam all die, so also in Christ shall all be made alive. Guilt inherited from Adam, requiring a
-  second Adam to undo it, stated as settled doctrine, not as one side of a live argument - this is not a
-  question our own century needed to invent an answer to.'
+text: >-
+  You ask whether we thought people were born already guilty. Yes - and our
+  own record says so in plain words, in a letter written against a different
+  error entirely. Writing to Constantinople against Eutyches, Leo states why
+  the Word had to become flesh at all. The state of everyone descended from
+  our first parents was this: original sin passed down to all, and no one
+  would have escaped condemnation if the Word had not become flesh and lived
+  among us. Leo reaches for Paul to say it twice over. As by one man's
+  disobedience many were made sinners, so by one man's obedience many will be
+  made righteous. As in Adam all die, so in Christ all will be made alive.
+  Guilt inherited from Adam, needing a second Adam to undo it - stated as
+  settled doctrine, not as one side of a live argument. This was not a
+  question our century needed to invent an answer to.
 positions:
 - humanity's condemnation is inherited from Adam by transmission, prior to and apart from any individual's
   own act
@@ -59,3 +62,5 @@ Christological argument depends on. Verified directly against the
 vendored corpus, file line 7398. The honest_limit is narrowed
 accordingly to the one F1-T question this record genuinely does not
 reach: sola fide as a Reformation-era formulation.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

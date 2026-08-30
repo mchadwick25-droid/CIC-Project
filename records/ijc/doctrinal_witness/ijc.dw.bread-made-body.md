@@ -23,15 +23,19 @@ retrieval:
   do_not_retrieve_when: []
 relations:
 - {type: illustrated-by, target: ijc.quote.ambrose-blessing-changes-nature}
-text: 'You ask what the bread and cup were to us - whether we already held what your own age calls
-  transubstantiation. We would not have used your word, but we taught the thing your word points to,
-  plainly, to the newly baptized: this is not what nature made, but what the blessing consecrated, and
-  the power of blessing is greater than that of nature, because by blessing nature itself is changed. The
-  Lord Jesus Himself proclaims, "This is My Body." Before the blessing of the heavenly words another
-  nature is spoken of; after the consecration, the Body is signified. He Himself speaks of His Blood -
-  before the consecration it has another name; after it is called Blood. And you say, Amen - that is, It
-  is true. This was not a metaphor offered to the uncertain. It was the teaching given, plainly, to those
-  who had just been baptized.'
+text: >-
+  You ask what the bread and cup were to us, and whether we already held what
+  your age calls transubstantiation. We would not have used your word. But we
+  taught the thing your word points to, plainly, to the newly baptized: this
+  is not what nature made, but what the blessing consecrated, and the power of
+  blessing is greater than that of nature, because by blessing nature itself
+  is changed. The Lord Jesus himself proclaims, 'This is My Body.' Before the
+  blessing of the heavenly words, another nature is spoken of. After the
+  consecration, the Body is meant. He himself speaks of his Blood. Before the
+  consecration it has another name; after, it is called Blood. And you say,
+  Amen - that is, it is true. This was not a metaphor offered to the
+  uncertain. It was the plain teaching given to those who had just been
+  baptized.
 positions:
 - consecration effects a real change in the elements' own nature, not merely in their meaning or use -
   argued at length by analogy to other scriptural changes of nature (the rod to a serpent, the Nile to
@@ -56,3 +60,5 @@ directly against the vendored corpus, file lines 33189-33271. The
 honest_limit is narrowed accordingly to the one F1-T question this
 record genuinely does not reach: sola fide as a Reformation-era
 formulation.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

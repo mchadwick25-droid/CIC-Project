@@ -41,19 +41,24 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): named d
   whole record.'
 tellable_as: Leo's Tome at Chalcedon, and the canon he would not receive - the world's closing argument,
   left open
-text: 'Leo did not go to Chalcedon; his letter went in his place. When the Tome was read to the assembled
-  bishops, the session record has them crying out: This is the faith of the fathers - Peter has spoken
-  thus through Leo. A letter received, by those who received it rightly, as the see of Peter speaking.
-  But the same council, before it dispersed, also granted Constantinople equal privileges with old Rome,
-  rank next after her, and the right to ordain the metropolitans of three dioceses - not because an
-  apostle had ever taught there, but, in the canon''s own words, because the fathers rightly granted
-  privileges to old Rome as the royal city, and the new royal city should be magnified as she is. Leo''s
-  legates objected in the council itself. Leo, when word reached him, refused to receive it,
-  and wrote to emperor, empress, and bishop alike why: things secular stand on a different basis from
-  things divine - rank near a throne is not the kind of claim an apostle''s grave makes, and no vote
-  can make the two the same claim. So the council that settled, at last, who Christ is, left standing
-  open the question it could not settle: where, on earth, the church''s own final authority sits. The
-  world''s record ends with both claims still held, unreconciled.'
+text: >-
+  Leo did not go to Chalcedon; his letter went in his place. When the Tome was
+  read to the assembled bishops, the session record has them crying out: This
+  is the faith of the fathers - Peter has spoken thus through Leo. A letter
+  received, by those who received it rightly, as the see of Peter speaking.
+  But before it broke up, the same council did something else. It granted
+  Constantinople equal privileges with old Rome, rank just after her, and the
+  right to ordain the chief bishops of three regions. Not because an apostle
+  had ever taught there. The canon's own words say why: the fathers rightly
+  granted privileges to old Rome as the royal city, and the new royal city
+  should be honored the same way. Leo's representatives objected in the
+  council itself. Leo, when word reached him, refused to accept it. He wrote
+  to emperor, empress, and bishop alike to say why: things secular stand on a
+  different basis from things divine. Rank near a throne is not the kind of
+  claim an apostle's grave makes, and no vote can make the two the same. So
+  the council that finally settled who Christ is left open the question it
+  could not settle: where, on earth, the church's own final authority sits.
+  This world's record ends with both claims still held, unreconciled.
 absent_detail: The Tome's reception was not unanimous joy - it was questioned in session and examined
   against Cyril before the acclamation carried, and Percival prints extracts, not the complete acts;
   the fuller debates (and the Egyptian bishops' resistance) are in the complete acts this build's base
@@ -77,3 +82,5 @@ later; this record says "before it dispersed" and states the separation
 in absent_detail. The acclamation,
 Canon 28's reasoning, and the rejection sentence are all
 verbatim-verified in the linked quote records.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

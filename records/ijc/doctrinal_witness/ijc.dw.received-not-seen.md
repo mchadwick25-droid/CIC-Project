@@ -27,19 +27,20 @@ retrieval:
 text: >-
   What did this world actually have about Jesus? Inheritance, not memory.
   Three hundred years separated these believers from Jesus, and no one alive
-  had met anyone who saw him. What they had was the scriptures, read aloud in
-  every church; the faith each person confessed at baptism; and the creed,
-  which their councils wrote precisely to keep that inheritance from being
-  lost or changed. You can watch them do it. At the council of Chalcedon, when
-  the judges asked the assembly to declare its faith, Rome's legate
-  Paschasinus spoke first and recited the whole chain out loud: the rule of
-  faith set out at Nicaea, confirmed at Constantinople, explained at Ephesus
-  by Cyril, and shown in Leo's own writings. The assembled bishops then cried
-  out their agreement together: so we all believe, so we were baptized, so we
-  baptize. How did they know the resurrection happened? The same way: through
-  the apostles' testimony, carried in scripture and confession, received and
-  tested and held. This world was honest about its own kind of knowing. It
-  guarded the testimony it received. It could not add to it.
+  had met anyone who saw him. What they had was three things. The scriptures,
+  read aloud in every church. The faith each person confessed at baptism. And
+  the creed, which their councils wrote exactly so that the inheritance could
+  not be lost or changed. You can watch them do it. At the council of
+  Chalcedon, when the judges asked the assembly to declare its faith, Rome's
+  legate Paschasinus spoke first. He recited the whole chain out loud: the
+  rule of faith set out at Nicaea, confirmed at Constantinople, explained at
+  Ephesus by Cyril, and shown in Leo's own writings. The assembled bishops
+  then cried out their agreement together: so we all believe, so we were
+  baptized, so we baptize. How did they know the resurrection happened? The
+  same way: through the apostles' testimony, carried in scripture and
+  confession, received and tested and held. This world was honest about its
+  own kind of knowing. It guarded the testimony it received. It could not add
+  to it.
 positions:
 - this world's access to Jesus is received witness - scripture and handed-down confession - not living
   memory
@@ -66,3 +67,5 @@ with a shorter collective acclamation of assent. The text field now
 attributes each part to its actual speaker.
 
 REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

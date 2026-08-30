@@ -39,15 +39,19 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): a named
   that limitation carried, not smoothed.'
 tellable_as: Eusebius's account of Constantine's vision before the Milvian Bridge, as the emperor himself
   told it to him
-text: 'Eusebius tells what Constantine himself told him, long afterward and under oath: that before the
-  battle at the Milvian Bridge, about noon, he saw with his own eyes a cross of light in the heavens,
-  above the sun, bearing the words Conquer by this - and his whole army saw it too. That night, in his
-  sleep, Christ appeared to him with the same sign and commanded him to make a standard of it and carry
-  it before his armies. He did, and the army that carried it took the bridge, and Rome, and before long
-  the whole West. Eusebius is careful about how he knows this - a witness once removed, reporting what
-  a ruler wished remembered about his own rise, after that ruler''s death. But what followed is not in
-  doubt in anyone''s account: an emperor who had seen this sign stopped hunting the church that bore it,
-  and within a year toleration was law.'
+text: >-
+  Eusebius tells what Constantine himself told him, long afterward and under
+  oath. Before the battle at the Milvian Bridge, about noon, Constantine saw
+  with his own eyes a cross of light in the sky, above the sun, carrying the
+  words: Conquer by this. His whole army saw it too. That night, in his sleep,
+  Christ appeared to him with the same sign and commanded him to make a
+  standard of it and carry it before his armies. He did. The army that carried
+  it took the bridge, then Rome, and before long the whole West. Eusebius is
+  careful about how he knows this. He is a witness once removed, reporting
+  what a ruler wanted remembered about his own rise, after that ruler's death.
+  But what followed is not in doubt in anyone's account. An emperor who had
+  seen this sign stopped hunting the church that carried it. Within a year,
+  toleration was law.
 absent_detail: What Constantine actually experienced, and when his own convictions actually changed, is
   not recoverable - the account is his own telling, decades on, through his own admiring historian. The
   earlier account (Lactantius) has a dream, the night before, and shields, not a standard; the two are
@@ -68,3 +72,5 @@ the verbatim sentence). The tension-with relation to the dream story
 encodes the two accounts' documented divergence
 (ijc.contested.constantine-conversion) at the story layer, per the
 legacy chunk's own pairing instruction.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
