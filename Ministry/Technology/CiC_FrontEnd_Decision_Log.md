@@ -1650,3 +1650,34 @@ ids removed from the hover/click cards (engine bookkeeping, never
 participant content). Open to Mark: whether 4-per-turn density is
 right, or the design line's literal "the ✲ citation marker at turn
 end" - one mark per turn, everything behind it - is the real intent.
+
+## 2026-08-30 - The lexicon lights up (Mark's third pilot read)
+
+Mark: "the lexicon is not working ... and it is the heart of the
+depth. so when Alexandria talks about Logos (a core word for their
+world) that should be in purple with a hover and click access to the
+glossary that is built in the system along with the other 50+ words
+... its not the aurthors we want with colored text its the lexicon
+words in the system." Cost question answered: the scan is string-only,
+no model call - zero added cost. Style ruling: lexicon words and
+author names both plain purple text, no underline (the design doc's
+dotted-underline line is superseded by this ruling).
+
+The finding: the glossary was fully in the system (127 term records
+fleet-wide, alx 51, each with quick/plain meaning, modern-ear sense,
+false friends) and the GlossMark display was built - but the firing
+rule was a two-key lock (voice must CITE the term record AND say the
+word in that sentence) that measured zero fires on every live probe,
+while the name bridge text-scans the whole turn, which is why authors
+lit and lexicon words never did. Fixed: gloss detection is now the
+same text scan as the name bridge - the world's own term records are
+the allowlist, first-occurrence per session, UI-only.
+
+Standing observation from the dry run, for future record authoring:
+the scan lights a word only when the voice actually SAYS the world's
+word. Theon says "Logos" - it lights. Chloe says "give thanks over the
+cup" (not "eucharistia") and Yeshua's world says "the Only-Begotten"
+(not "ihidaya") - nothing lights, honestly. Where a world's voice
+habitually speaks the English rendering of its own word, making that
+rendering reachable is a per-record world_word authoring decision, not
+a code gap.
