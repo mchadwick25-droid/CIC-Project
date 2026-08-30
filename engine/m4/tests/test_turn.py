@@ -380,11 +380,15 @@ def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line()
         world=world, participant_message=ask_text, pressed={}, anachronistic_term_ids=set(),
         already_bridged_figure_ids={"fix.figure.the-elder"},
     )
-    _, messages = client.messages.captured_stream_calls[0]
+    system, messages = client.messages.captured_stream_calls[0]
     user_message = messages[0]["content"]
-    assert "ALREADY INTRODUCED THIS SESSION" in user_message
-    assert "the Elder" in user_message
+    assert "## Already introduced: the Elder." in user_message
     assert "Rhoda" not in user_message  # never introduced, so never listed
+    # The per-turn directive (the channel measured to win - see
+    # _build_turn_directive) carries the same state.
+    directive_text = system if isinstance(system, str) else str(system)
+    assert "Already introduced in this conversation: the Elder." in directive_text
+    assert "Rhoda" not in directive_text
 
 
 def test_a_turn_the_net_cannot_ground_still_reaches_the_participant_whole():

@@ -338,8 +338,7 @@ def test_render_evidence_block_names_figures_already_introduced():
     )
     assert evidence["figures_already_named"] == ["Ignatius", "Justin"]
     block = render_evidence_block(evidence)
-    assert "ALREADY INTRODUCED THIS SESSION" in block
-    assert "Ignatius, Justin" in block
+    assert "## Already introduced: Ignatius, Justin." in block
 
     bare = assemble_evidence(
         message="What does your community remember of Jesus?",
@@ -349,7 +348,7 @@ def test_render_evidence_block_names_figures_already_introduced():
         repository_records=REPOSITORY,
     )
     assert bare["figures_already_named"] == []
-    assert "ALREADY INTRODUCED" not in render_evidence_block(bare)
+    assert "Already introduced" not in render_evidence_block(bare)
 
 
 def test_a_morphological_variant_reaches_the_cell_its_root_defines():

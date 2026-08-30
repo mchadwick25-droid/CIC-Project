@@ -974,6 +974,15 @@ def render_evidence_block(evidence: dict) -> str:
         "## the conversation above. Never tell a participant we already gave them",
         "## something first read here.",
     ]
+    named = evidence.get("figures_already_named") or []
+    if named:
+        lines += [
+            f"## Already introduced: {', '.join(named)}. The participant met these names in",
+            "## an earlier answer. Ground text that presents them afresh is written",
+            "## for a first mention; this turn is not one - carry them as someone",
+            "## already known (the shape of 'Ignatius also said...'), never",
+            "## re-introduced as if new.",
+        ]
     for candidate in evidence["candidates"]:
         head = (candidate["head"] or "").strip().split(". ")[0].rstrip(".")
         descriptors = [candidate["record_type"]]
@@ -989,9 +998,4 @@ def render_evidence_block(evidence: dict) -> str:
     for topic in evidence["thin_ground"]:
         keywords = ", ".join(topic.get("keywords") or [])
         lines.append(f"- THIN GROUND (do not claim past it): {keywords} — {topic.get('note')}")
-    named = evidence.get("figures_already_named") or []
-    if named:
-        lines.append(
-            f"- ALREADY INTRODUCED THIS SESSION (the participant already knows these names; build on that rather than introducing them afresh): {', '.join(named)}"
-        )
     return "\n".join(lines) + "\n"

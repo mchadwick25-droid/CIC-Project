@@ -258,7 +258,7 @@ def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallO
     }
 
 
-def _build_turn_directive(directive: Directive | None) -> str | None:
+def _build_turn_directive(directive: Directive | None, figures_already_named: list[str] | None = None) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
     stays byte-identical across a session and the cache prefix actually
@@ -292,6 +292,19 @@ def _build_turn_directive(directive: Directive | None) -> str | None:
             f"The ask could be read these ways: {'; '.join(directive.ambiguity_options)}. "
             "Answer the most likely reading first, in your opening sentence; then, only if the others "
             "would change the answer, say briefly what they would change. Never open by listing the readings."
+        )
+    if figures_already_named:
+        # The directive channel is the one measured to win over other
+        # pressures (see the ambiguity_options note above). Three live
+        # probes showed the evidence block's own already-introduced
+        # header losing to a ground record's first-mention opening
+        # ("One of us, Ignatius" reproduced verbatim on turn two) - the
+        # signal belongs here, where the voice actually shapes the turn.
+        parts.append(
+            f"Already introduced in this conversation: {', '.join(figures_already_named)}. "
+            "The participant has met these names. A ground record that presents one of them afresh is "
+            "written for a first mention; this turn is not one - carry the name as someone already "
+            "known ('Ignatius also said...' is the shape), never re-introduced as if new."
         )
     return "\n".join(parts)
 
@@ -409,7 +422,7 @@ def _run_ordinary_voice_turn(
 
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
-        turn_directive=_build_turn_directive(directive), message=user_message, history=history,
+        turn_directive=_build_turn_directive(directive, figures_already_named), message=user_message, history=history,
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
