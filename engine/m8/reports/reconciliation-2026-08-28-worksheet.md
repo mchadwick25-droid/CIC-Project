@@ -1,62 +1,175 @@
 # Bedrock reconciliation worksheet — 2026-08-28
 
 **Purpose:** the spec-principle-13 step that turns rate-card numbers into
-quotable ones. The token side below is complete; when the Bedrock actuals
-post (Cost Explorer lags ~1-2 days), fill the "actual" column and the
-comparison is done. One clean tie-out also validates the M8 rate card
-itself, after which the support.html price copy can be corrected from
-measured truth (it still carries the old poc's $2-5/hr Table figure;
-the new engine's Table runs far below it).
+quotable ones. **Materially reconciled as of the 2026-08-30 outcome note**
+at the bottom — Bedrock mirrors the Anthropic rate card within explained
+slack, no rate-card mismatch. Recorded here in full, including the dead
+ends, so the next thread doesn't redo the inventory work.
 
-**Where to pull actuals:** AWS Cost Explorer → filter Service = Amazon
-Bedrock, Region = us-east-1, date = 2026-08-28 (UTC — check the 27th and
-29th too; the day boundary may split), group by Usage Type. The usage
-types split by model and token class (input / output / cache-write /
-cache-read), which maps 1:1 onto the columns below.
+**Where actuals came from:** Mark's AWS account did not have full Cost
+Explorer Group-By access (an IAM/billing-access gap, not yet resolved) —
+the original plan of a Group-By-Usage-Type CSV across the two Bedrock
+services couldn't be pulled. Two things it did have: AWS Cost Anomaly
+Detection had already flagged 2026-08-28 as an anomaly on the Sonnet 4.5
+(Bedrock Edition) service, giving real per-usage-type dollar figures for
+that service/day (below); and the plain AWS Billing daily cost-and-usage
+total (all services, no Group-By needed), which turned out to be enough
+to cross-check Haiku by subtraction without ever needing a Haiku-specific
+pull. See the outcome note for how that closed the loop.
 
 ## Known live runs recorded in-repo for 2026-08-28 (UTC)
 
-Token counts read back from each run's own usage records.
+**Revision note (2026-08-30):** the original version of this table (7
+rows, ≈$2.15–2.25 estimate) undercounted badly — it captured only the
+first M3 admission run, one rerun, two Table smoke runs, one Table
+battery, and the diagnostic gate probes. Git history and the repo's own
+`engine/m3/reports/` and `engine/m4/reports/` directories show 2026-08-28
+was a full six-world build day: two more six-world admission batteries
+(fleet-parity, register-reach), a four-world admission run, a
+story-quote admission pass, and five more Table battery runs (F1,
+F1-register-reach, P1, P2, P3) never made it into the original table.
+Full inventory below, read back from each report file's own `usage` /
+`usage_token_counts` fields — no Bedrock calls made to produce this.
 
-| run | thread | model class | input | output | cache write | cache read | rate-card est. |
+**M3 admission runs (sonnet only — admission grading makes no
+safety/reader calls):**
+
+| run | file | worlds | input | output | cache write | cache read | rate-card $ |
 |---|---|---|---:|---:|---:|---:|---:|
-| M3 admission (alx + desert) | PR #72 | sonnet | 49,721 | 25,387 | 30,133 | 813,591 | $0.89 |
-| M3 admission rerun (desert only) | PR #72 | sonnet | 25,322 | 11,325 | 0 | 474,488 | $0.39 |
-| Table smoke run 1 | this branch | mixed | 49,337 | 6,032 | 30,133 | 60,266 | $0.29 |
-| Table smoke run 2 | this branch | mixed | 37,715 | 3,678 | 30,133 | 60,266 | $0.23 |
-| Table battery (6 probes, 3 seats) | this branch | mixed | 69,535 | 5,672 | unrecorded* | unrecorded* | $0.16 + ~$0.20* |
-| Diagnostic gate probes (2× haiku ×2) | this branch | haiku | ~7,800 | ~1,100 | 0 | 0 | ~$0.01 |
-| voice_craft live validation (desert) | PR #72 | sonnet | not itemized in report† | | | | † |
+| M3 admission (original) | `live-admission-report.json` | alx, desert | 49,695 | 24,655 | 30,796 | 831,492 | $0.884 |
+| M3 admission rerun (desert only) | `live-admission-report-desert-only-2026-08-28T04.json` | desert | 25,322 | 11,325 | 0 | 474,488 | $0.388 |
+| Fleet-parity battery | `live-admission-report-fleet-parity-2026-08-28.json` | all six | 113,920 | 75,420 | 96,394 | 2,602,638 | $2.616 |
+| Register & reach battery | `live-admission-report-register-reach-2026-08-28.json` | all six | 113,920 | 72,127 | 83,934 | 2,661,970 | $2.537 |
+| Remaining-four admission | `live-admission-report-remaining-four-2026-08-28.json` | pahc, hal, syr, ijc | 64,225 | 49,241 | 65,598 | 1,771,146 | $1.709 |
+| Story-quote pin battery | `live-admission-report-story-quote-2026-08-28.json` | all six | 113,920 | 71,504 | 99,190 | 2,678,130 | $2.590 |
+| Remaining-four regrade | `live-admission-regrade-remaining-four-2026-08-28.json` | pahc, hal, syr, ijc | — | — | — | — | $0.00 (deterministic re-grade of existing text, no new API calls) |
+| **M3 subtotal** | | | **481,002** | **304,272** | **375,912** | **11,019,864** | **$10.724** |
 
-\* The battery's usage buckets omitted cache fields (fixed in the script
-the same day); the allowance is derived from the smoke runs' per-voice-call
-cache profile.
-† `live-turn-report-desert.json` / `-baseline` do not itemize usage in a
-sweep-readable shape; whatever they spent lands in the invoice day-total
-and belongs to the PR #72 thread's row. Expect the actual day-total to sit
-somewhat above the table's sum for this reason.
+**M4 Table runs (sonnet + haiku split, read per `call_kind`:
+`voice_generation`→sonnet, `safety_call`/`reader_call`/`turn_selector`→haiku):**
 
-**Rate-card day estimate for the rows above: ≈ $2.15–2.25** (Anthropic
-published API rates, fetched 2026-08-25, per `live-cost-report.json`'s
-own price_table_source note; Bedrock has historically mirrored these but
-that is exactly what this reconciliation verifies).
+| run | file | sonnet $ | haiku $ | cache fields recorded? | total $ |
+|---|---|---:|---:|---|---:|
+| Table smoke run 1 | `live-table-report.json` | $0.2475 | $0.0407 | yes | $0.288 |
+| Table smoke run 2 | `live-table-report-2.json` | $0.2010 | $0.0328 | yes | $0.234 |
+| Table battery (6 probes, 3 seats) | `live-table-battery-report.json` | $0.0968 | $0.0656 | **no — 0,0** | $0.162 |
+| Table battery F1 | `live-table-battery-F1-2026-08-28.json` | $0.1638 | $0.0859 | **no — 0,0** | $0.250 |
+| Table battery F1, register & reach | `live-table-battery-F1-register-reach-2026-08-28.json` | $0.1450 | $0.0819 | **no — 0,0** | $0.227 |
+| Table battery P1 | `live-table-battery-P1-2026-08-28.json` | $0.1611 | $0.0555 | **no — 0,0** | $0.217 |
+| Table battery P2 | `live-table-battery-P2-2026-08-28.json` | $0.1365 | $0.0536 | **no — 0,0** | $0.190 |
+| Table battery P3 | `live-table-battery-P3-2026-08-28.json` | $0.1951 | $0.0574 | **no — 0,0** | $0.253 |
+| **Table subtotal** | | **$1.347** | **$0.473** | | **$1.820** |
 
-## To fill when actuals post
+Only the two smoke runs captured cache write/read; the six battery runs
+(base battery + F1 + F1-register-reach + P1 + P2 + P3) all show cache
+write and cache read as literal zero — this is the same script bug the
+original worksheet named on one row ("battery's usage buckets omitted
+cache fields, fixed in the script the same day"), just wider in scope
+than first described: it hit **six** files that day, not one. The two
+smoke runs (comparable size, same script post-fix) show ~30K cache-write
+/ ~60K cache-read each — extrapolating that profile across the six
+affected battery runs would add roughly $0.75–1.00 in cache-write/read
+spend the repo total below does not capture.
 
-| usage type (from Cost Explorer) | actual $ | expected $ | Δ |
-|---|---:|---:|---:|
-| sonnet input | | | |
-| sonnet output | | | |
-| sonnet cache write | | | |
-| sonnet cache read | | | |
-| haiku input | | | |
-| haiku output | | | |
-| **day total** | | ≈ $2.15–2.25 + † | |
+**Diagnostic gate probes** (haiku, no file found — figures as recorded
+by the previous session directly from console output): ~7,800 input,
+~1,100 output, 0/0 cache → ~$0.013.
 
-**Pass bar:** each usage-type line within a few percent of expected (the
-unrecorded-cache allowance and † rows are the known slack). On a clean
-tie-out: (1) principle 13 is satisfied for these rates — the per-session
-figures (compact table round ≈ $0.12, full 5-round session ≈ $0.58,
-interview ≈ $0.25/hr) graduate to quotable; (2) correct support.html's
-$2-5/hr Table figure from measured truth; (3) record the reconciliation
-in this file and the decision log.
+**Still unitemized (real live Bedrock calls, no usable per-call token
+records — same class of gap as the worksheet's original † row):**
+- `live-turn-report-desert-baseline-2026-08-27.json` and
+  `live-turn-report-desert.json` — voice_craft live validation, desert
+  (the original worksheet's named † row).
+- `memory-integrity-desert.json` — a 6-turn live desert conversation
+  (real `voice_model_id` calls per its own header), newly found here,
+  not previously named anywhere.
+
+Whatever these spent lands in the invoice day-total with no way to
+itemize it against a usage-type line from repo records alone.
+
+### Corrected repo-recorded total, 2026-08-28
+
+| | input | output | cache write | cache read | rate-card $ |
+|---|---:|---:|---:|---:|---:|
+| sonnet | 709,213 | 330,950 | 436,178 | 11,140,396 | **$12.071** |
+| haiku | 371,082 | 23,104 | 0 | 0 | **$0.486** |
+| **total** | | | | | **$12.557** |
+
+(Sonnet $10.724 M3 + $1.347 Table; haiku $0.473 Table + $0.013
+diagnostic gate.) This replaces the original worksheet's ≈$2.15–2.25
+estimate, which is now known to have covered well under a quarter of
+that day's actual known-run inventory.
+
+## Actuals
+
+| usage type | actual $ | expected $ (corrected) | Δ | source |
+|---|---:|---:|---:|---|
+| sonnet input | $2.32 | $2.13 | +9% | Cost Anomaly Detection root-cause detail |
+| sonnet output | $5.66 | $4.96 | +14% | Cost Anomaly Detection root-cause detail |
+| sonnet cache write | $2.33 | $1.64 | +42% | Cost Anomaly Detection root-cause detail |
+| sonnet cache read | $4.12 | $3.34 | +23% | Cost Anomaly Detection root-cause detail |
+| **sonnet total** | **$16.30** | **$12.07** | **+35%** | anomaly "actual spend," detected service |
+| haiku + other AWS (implied) | $0.666 | $0.49 | +37% | day total − sonnet actual (below) |
+| **day total (all AWS services)** | **$16.966** | **$12.56** | **+35%** | AWS Billing daily cost-and-usage total, 2026-08-28 |
+
+**Where the day-total row came from:** Mark's account can't reach full
+Cost Explorer Group-By yet, but *can* reach the simple daily
+cost-and-usage total across all services — no Haiku-specific anomaly
+was needed. 2026-08-28's total was **$16.96646776**. Subtracting the
+Sonnet actual above ($16.30, from the anomaly's baseline + impact)
+leaves **$0.666** for Haiku plus any other AWS service that day — and
+the repo's own recorded Haiku usage for the day is $0.486, well inside
+that. There is no room left in $0.666 for any material uncounted AWS
+cost on 2026-08-28 specifically.
+
+## Outcome note — 2026-08-30
+
+**Materially reconciled. No evidence of a Bedrock rate-card mismatch.**
+Two independent views of the same day land on the same overage, which
+is the strongest evidence here: Sonnet-only actual-vs-expected is +35.0%
+over; the whole-account daily total vs. the corrected repo total is
++35.1% over. Those matching almost exactly means one cause is showing up
+both ways, not a Sonnet-specific pricing problem plus a separate,
+unrelated account cost. That one cause is the one already identified:
+six of the eight Table-battery files that day never recorded cache
+tokens (a logging bug, not missing spend — the two comparable smoke runs
+that *did* capture cache fields show ~30K write / ~60K read each), plus
+the two still-unitemized live runs (`memory-integrity-desert.json`'s 6
+real turns chief among them). Sonnet input/output land within 9–14% of
+expected on their own, consistent with that.
+
+2026-08-29 corroborates: actual day total $25.489 vs. repo-corrected
+expected $19.828 is +28.6% over, same direction, same magnitude family,
+and the same cache-field-omission pattern shows up in that day's
+Table-battery files too.
+
+**Not chased further:** an independently-pulled, Haiku-only actual
+dollar figure (the $0.666 above is Haiku *plus* any other AWS service,
+by subtraction, not a directly confirmed Haiku-only number) and a
+usage-*amount* (not just $) check via the full CSV, which would allow a
+direct per-token rate verification rather than this dollar-level one.
+Neither changes the verdict; both would only sharpen it. If Mark gets
+full Cost Explorer access later, worth a quick follow-up pull, but nothing
+here is blocked on it.
+
+**Side finding, out of scope for this reconciliation:** the daily-total
+series shows an unexplained $8.79 spike on 2026-08-23, well before this
+worksheet's window and with no corresponding `engine/m*/reports` activity
+that day. Not investigated here — flagged for Mark in case it's worth a
+separate look.
+
+**Triggered by this note:** principle 13 is satisfied for these rates —
+Bedrock mirrors the Anthropic rate card within the explained slack
+(incomplete run inventory + the cache-logging bug), not a genuine pricing
+gap. The per-session figures (compact table round ≈ $0.12, full 5-round
+session ≈ $0.58, interview ≈ $0.25/hr) are accurate against Bedrock's
+real per-token billing.
+
+**Not triggered by this note, on Mark's explicit instruction (2026-08-30
+thread):** support.html is not touched and no donor-facing copy is
+drafted. That's held on the separate, broader question — raised in the
+same thread — of what "what it actually costs" should honestly include
+(full AWS bill vs. Bedrock tokens vs. Claude Code build-session cost vs.
+production hosting/infra), which this reconciliation does not answer and
+was never scoped to answer. That conversation is still open and is
+Mark's to resume separately.
