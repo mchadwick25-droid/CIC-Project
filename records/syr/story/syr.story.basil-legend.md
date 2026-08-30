@@ -43,13 +43,17 @@ narrative_tier_justification: 'Tier 3 (attributed tradition) - and, unusually, p
   evidence.'
 tellable_as: a beloved later legend, told with its correction attached - only when a participant raises
   it
-text: 'The later Life of Ephrem tells that the poet, prompted by a vision, journeyed to Caesarea to see
-  the great Basil; that the two holy men, having no common tongue, recognized one another in the Spirit;
-  and that Basil himself ordained Ephrem deacon. It is a story told with love for both men. But it does
-  not hold up: the praise of a ''Syrian'' in Basil''s own writings, on which the tradition built, is now
-  known to concern another man entirely, and the meeting is judged legend. What is true beneath it: Ephrem''s
-  fame did reach the Greek church in his own century - the historians record Basil''s admiration of him
-  - and his diaconate is attested independently, without any journey.'
+text: >-
+  The later Life of Ephrem tells that the poet, prompted by a vision, traveled
+  to Caesarea to see the great Basil. The two holy men had no common language,
+  but they recognized each other in the Spirit. And Basil himself, the story
+  says, ordained Ephrem a deacon. It is a story told with love for both men.
+  But it does not hold up. The praise of a 'Syrian' in Basil's own writings,
+  which the tradition built on, is now known to be about another man entirely.
+  The meeting is judged legend. What is true beneath it is this. Ephrem's fame
+  did reach the Greek church in his own century - the historians record
+  Basil's admiration of him. And his service as a deacon is attested on its
+  own, without any journey.
 absent_detail: The vision, the journey, the wordless recognition, and the ordination-by-Basil are the
   legend's own furniture. The genuine kernel (Basil's recorded admiration; the diaconate attested by Jerome
   and Palladius) stands apart from it.
@@ -65,3 +69,5 @@ carried at the legacy review's verified confidence). Sozomen III.16's
 Basil-admiration notice is the vendored kernel. Never offered
 unprompted (retrieval discipline below); canon_cells empty by the
 same logic.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

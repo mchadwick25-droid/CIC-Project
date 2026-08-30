@@ -36,16 +36,21 @@ narrative_tier_justification: 'Tier 3 (attributed/hagiographic tradition): the m
   - Simeon''s execution, tied to a fiscal-political dispute under Shapur II - rests on genuine historical
   footing per modern scholarship; the scene-by-scene narrative follows hagiographic convention.'
 tellable_as: how the Persian church remembered its bishop's death, as the tradition tells it
-text: When war with Rome made Persia's Christians suspect, a crushing double tax was laid on them, and
-  Simeon, bishop of Seleucia-Ctesiphon, refused to be its collector. He was denounced as a friend of the
-  Roman emperor, arrested, and brought before Shapur the king. The tradition tells that as Simeon was
-  led away, an old royal servant, Usthazanes, who had once denied the faith under pressure, rose to honor
-  him - and the bishop turned his face away, refusing the greeting of a man who had denied his Lord. The
-  rebuke cut the old man to the heart; he repented openly, confessed himself a Christian before the king,
-  and was executed before the bishop's own death - the one who had fallen going ahead, restored, into
-  the martyrs' company. Simeon himself, offered gifts and threatened with the destruction of all the Christians,
-  refused each time to worship the sun or betray his faith, saying he stood now in defense of godliness.
-  He was put to death with his clergy, and the church counted him the first of the great persecution's
+text: >-
+  War with Rome made Persia's Christians suspect, and a crushing double tax
+  was laid on them. Simeon, bishop of Seleucia-Ctesiphon, refused to be its
+  collector. He was denounced as a friend of the Roman emperor, arrested, and
+  brought before Shapur the king. The tradition tells that as Simeon was led
+  away, an old royal servant named Usthazanes rose to honor him. Usthazanes
+  had once denied the faith under pressure. The bishop turned his face away,
+  refusing the greeting of a man who had denied his Lord. The rebuke cut the
+  old man to the heart. He repented openly, confessed himself a Christian
+  before the king, and was executed before the bishop's own death. The one who
+  had fallen went ahead, restored, into the martyrs' company. Simeon himself
+  was offered gifts, then threatened with the destruction of all the
+  Christians. Each time he refused to worship the sun or betray his faith,
+  saying he stood now in defense of godliness. He was put to death with his
+  clergy, and the church counted him the first of the great persecution's
   bishops to die for the name.
 absent_detail: The exact words of the royal audiences, the precise sequence, and the companions' speeches
   are the hagiographic tradition's own shaping, not verified reporting - and even the year is disputed
@@ -66,3 +71,5 @@ never quoted. The legacy guard is carried: the other named martyrs
 (Shahdost, Barba'shmin, Milles and the rest) have NO comparable
 narratives available - no scenes may be improvised for them by
 analogy.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

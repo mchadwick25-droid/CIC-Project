@@ -40,16 +40,21 @@ narrative_tier_justification: 'Tier 3 (attributed tradition / foundation legend)
   evidence this world''s own boundary rests on; the formation ideal (the community''s conviction of
   legitimate apostolic origin) is the evidence it carries.'
 tellable_as: the community's own cherished story of its founding - told as its story, never as history
-text: 'This is how this world told its own beginning. King Abgar the Black, sick in Edessa, heard of Jesus
-  and his healings from his envoys returning through Jerusalem, and wrote him a letter: come to me and
-  heal me, and share my small and beautiful city, safe from those who seek your life - for you must be
-  God come down from heaven, or the Son of God. And the Lord answered, the story says, that he must complete
-  his sending here, but that after his ascension he would send one of his own; and he blessed the city.
-  So after the ascension, Addai came - one of the seventy-two - lodged with Tobia the Jew, healed the
-  king, and preached to the city, calling it from its old gods, Bel and Nebo and Tar''atha, to the one
-  true God. Before he died he appointed Aggai; Aggai was struck down by a rival''s hand before he could
-  ordain a successor; and so Palut traveled to Antioch and was ordained by Serapion - binding Edessa''s
-  church, through Antioch, into the succession running back to Peter.'
+text: >-
+  This is how this world told its own beginning. King Abgar the Black lay sick
+  in Edessa. He heard of Jesus and his healings from envoys returning through
+  Jerusalem, and he wrote Jesus a letter: come to me and heal me, and share my
+  small and beautiful city, safe from those who seek your life - for you must
+  be God come down from heaven, or the Son of God. The Lord answered, the
+  story says, that he had to finish his work where he was. But after his
+  ascension he would send one of his own. And he blessed the city. So after
+  the ascension, Addai came - one of the seventy-two. He lodged with Tobia the
+  Jew, healed the king, and preached to the city, calling it away from its old
+  gods - Bel, Nebo, and Tar'atha - to the one true God. Before he died, Addai
+  appointed Aggai. Aggai was struck down by a rival before he could ordain a
+  successor. So Palut traveled to Antioch and was ordained by Serapion -
+  binding Edessa's church, through Antioch, into the line running back to
+  Peter.
 absent_detail: 'None of this is history: no contemporary corroboration exists, the king''s own coinage
   stayed pagan, and scholarship judges the whole a retrojected apostolic-foundation claim - the community
   writing its longing for legitimate origin into its past. The painted portrait Hanan makes belongs to
@@ -70,3 +75,5 @@ ecological meaning: even the world's proudest origin claim
 legitimates itself by reaching outward - a C4-adjacent pattern.
 Abgar's letter text is quotable verbatim (syr.quote.abgar-letter)
 as the LEGEND's own words.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

@@ -40,14 +40,17 @@ narrative_tier_justification: 'Tier 2 (collected tradition): the earliest witnes
   remove elsewhere in this repository (none of which reach Tier 1 either) keeps this at Tier 2 rather than
   Tier 1; this repository accordingly has no Tier 1 story.'
 tellable_as: the remembered account of how Ephrem spent his last year, as the early tradition tells it
-text: 'In the last year of Ephrem''s life, famine struck Edessa. The old teacher came out from his quiet
-  cell and went to the rich of the city, and rebuked them: why do you let your neighbors die while your
-  wealth rots into your own condemnation? They answered that they trusted no one to handle the distribution
-  honestly. And he asked them: what do you think of me? They said: you are a man of God. Then trust me,
-  he said - I appoint myself hospitaller. He took their money and had some three hundred beds set up in
-  the public porches, and there he nursed the starving and the sick - strangers and townsfolk alike -
-  and buried those who died, until the year turned and the famine broke. Then he went back to his cell,
-  and within a month he died.'
+text: >-
+  In the last year of Ephrem's life, famine struck Edessa. The old teacher
+  came out from his quiet cell and went to the rich of the city, and rebuked
+  them: why do you let your neighbors die while your wealth rots into your own
+  condemnation? They answered that they trusted no one to handle the giving
+  honestly. And he asked them: what do you think of me? They said: you are a
+  man of God. Then trust me, he said - I appoint myself keeper of the
+  strangers' house. He took their money and had some three hundred beds set up
+  in the public porches. There he nursed the starving and the sick, strangers
+  and townsfolk alike, and buried those who died, until the year turned and
+  the famine broke. Then he went back to his cell, and within a month he died.
 absent_detail: The operational particulars beyond the early notices (what exactly was distributed, how
   the work was organized day to day) are not attested and are not supplied. The count of three hundred
   beds and the dialogue with the rich are the early accounts' own telling - remembered tradition, not
@@ -67,3 +70,5 @@ the body of the legacy chunk cites and which is noted here as the
 third convergent witness. Serves F5-I (care of the sick and dying;
 the rich and the poor) - the rare story where this world's life
 touches the destitute directly.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
