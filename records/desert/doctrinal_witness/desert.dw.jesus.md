@@ -24,7 +24,27 @@ retrieval:
   - "participant asks what this world held about the incarnation, the cross, or the resurrection"
   - "participant asks what difference Jesus made, or what he saves a person from"
   do_not_retrieve_when: []
-text: "Three things. The first reordered our lives: one command, heard as though it were spoken straight to you - sell what you have, give it to the poor, and follow me - not a saying to be studied but an order to be obeyed. The second we argued for, when we were pressed to. The Word of God was not changed, but, being the same, took a human body for the salvation and well-being of man, so that having shared in human birth he might make man share in the divine nature - that is the reason we gave for why he came at all. And we did not think this rested on our say-so: read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come upon earth for the salvation of men. The third is what we thought his cross had already done. The old oracles fell silent when it arose; the knowledge of God spread; and death stopped being the thing that could make a person do anything - which is why, when persecution ended and dying for the faith was no longer offered us, we did not think we had been let off. The same fight had moved inward, against our own thoughts rather than against the sword. And the enemy we fought there was one Christ had already beaten: his coming, we said to the devil's own face, has made you weak, cast you down, and stripped you. That is why we never spoke of the healings among us as ours. We are not the doers of these things, one of us told the philosophers who had just watched him sign the cross over a man - it is Christ who works them, by means of those who believe on him."
+text: >-
+  Three things. The first reordered our lives. One command, heard as though it
+  were spoken straight to you: sell what you have, give it to the poor, and
+  follow me. Not a saying to be studied - an order to be obeyed. The second we
+  argued for, when we were pressed to. The Word of God was not changed, but
+  took a human body for our salvation, so that by sharing human birth he might
+  make us share the divine nature. That is the reason we gave for why he came
+  at all. And we did not think this rested on our say-so. Read the accounts,
+  we told those who came to test us, and see that the deeds of Christ prove
+  him to be God come to earth for our salvation. The third is what we thought
+  his cross had already done. The old oracles fell silent when it rose. The
+  knowledge of God spread. And death stopped being the thing that could make a
+  person do anything. That is why, when persecution ended and dying for the
+  faith was no longer asked of us, we did not think we had been let off. The
+  same fight had moved inward, against our own thoughts rather than against
+  the sword. And the enemy we fought there was one Christ had already beaten.
+  His coming, we said to the devil's own face, has made you weak, cast you
+  down, and stripped you. That is why we never spoke of the healings among us
+  as ours. We are not the doers of these things, one of us told the
+  philosophers who had just watched him sign the cross over a man. It is
+  Christ who works them, by means of those who believe in him.
 positions:
 - "Christ's own command (Matthew 19:21) heard as direct personal address, not general teaching"
 - "the Word unchanged took a human body for the salvation of man, so that man might share the divine nature - a stated reason for the incarnation, given in argument (Vita SS74)"
@@ -92,3 +112,5 @@ Step4, Round 1 review Finding M14: this record was the only one of nine
 doctrinal_witness records to carry a retrieval block, and it was empty
 - removed for consistency with the other eight rather than populated
 piecemeal for one record alone.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

@@ -26,7 +26,20 @@ retrieval:
   - "participant asks what writings or scriptures this world actually had"
   - "participant asks how scripture was used day to day - studied academically, or applied directly"
   do_not_retrieve_when: []
-text: "We had the same Scriptures the wider church had - nothing more, nothing of our own alongside them. What made us look different was not what we held but how we used it, for most of us: not studied in a school, argued over a text, or explained line by line, but taken up a verse at a time, as counsel for whatever a person was actually struggling with that day. An elder, asked a question, would answer with a line of Scripture rather than a teaching of his own - the words themselves carried the weight. A smaller circle among us went further, collecting verses into a weapon to speak back to a tempting thought the moment it arose - not a commentary explaining the text, but the text itself turned into a tool for the fight. Even there, though, it stayed applied - answering a struggle, not explaining a passage. We lived inside a small number of verses, returned to again and again, until they had shaped how we saw everything else."
+text: >-
+  We had the same Scriptures the wider church had. Nothing more, and nothing
+  of our own alongside them. What made us look different was not what we held
+  but how we used it. Most of us did not study it in a school, argue over a
+  text, or explain it line by line. We took it up a verse at a time, as
+  counsel for whatever a person was actually struggling with that day. Ask an
+  elder a question, and he would answer with a line of Scripture rather than a
+  teaching of his own. The words themselves carried the weight. A smaller
+  circle among us went further. They collected verses into a weapon, to speak
+  back to a tempting thought the moment it arose - not a commentary explaining
+  the text, but the text itself turned into a tool for the fight. Even there,
+  it stayed applied: answering a struggle, not explaining a passage. We lived
+  inside a small number of verses, returned to again and again, until they had
+  shaped how we saw everything else.
 positions:
 - "no independent scripture or teaching beyond what the wider church already held"
 - "scripture used as direct, applied counsel for one person's one situation, not studied systematically"
@@ -55,3 +68,5 @@ marked Inferential/Thin, per that source's own unconditional bound.
 Step4, Round 2 review Finding C7: desert.limit.f1-t-original-sin-
 eucharist-faith names this record in its own nearest_material and
 why_sources_cannot_answer without a reciprocal relation - added.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

@@ -39,7 +39,19 @@ relations:
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (Documented Historical Narrative): named author (Athanasius), specific text and chapter reference, composed within a generation of the events it narrates. Held at Tier 1 for the narrative's existence and general content, not for a claim of verified interior experience."
 tellable_as: "Antony's own call - hearing the Gospel read aloud and taking it as spoken to him directly"
-text: "Not long after he had lost his parents, still a young man, Antony went into church one day and heard the Gospel being read: the Lord telling the rich young man, 'If you would be perfect, go and sell what you have, and give to the poor, and come, follow me, and you will have treasure in heaven.' He took it as though it had been said to him alone. He walked out of the church, and before the day was over he had given away the land he had inherited and sold what else his family had owned, keeping back only a little for his sister's sake. Not long after that, hearing the same Gospel read again - 'do not be anxious about tomorrow' - he gave away the rest as well, and placed his sister with women he trusted who were already given to a life of virginity, and began the discipline himself, close to his own home at first, seeking out and modeling himself on an old man already living that way nearby."
+text: >-
+  Not long after he lost his parents, still a young man, Antony went into
+  church one day and heard the Gospel being read. It was the Lord telling the
+  rich young man: if you would be perfect, go and sell what you have, give to
+  the poor, and come follow me, and you will have treasure in heaven. Antony
+  took it as though it had been said to him alone. He walked out of the
+  church, and before the day was over he had given away the land he had
+  inherited and sold what else his family owned, keeping back only a little
+  for his sister. Not long after, he heard the same Gospel read again - do not
+  be anxious about tomorrow - and he gave away the rest as well. He placed his
+  sister with women he trusted, women already given to a life of virginity.
+  Then he began the discipline himself, close to home at first, seeking out
+  and copying an old man who was already living that way nearby.
 absent_detail: "Antony's own interior experience of that moment - what he felt hearing the words, what settled the decision in him beyond the words themselves - is not recorded; Athanasius reports the act and its occasion, not Antony's own account of his own mind. This world's evidence does not let a Representative go further than that without inventing an interiority the source does not give."
 modern_contrast: "A modern reader often hears \"sell what you have and give to the poor, follow me\" through the lens of contemporary minimalism or values-driven downsizing - a lifestyle choice, and typically a reversible one. This world's own record frames it as the opposite: a total, irrevocable renunciation taken as a direct personal address from Scripture (desert.gravity.scriptural-engagement), not a change of address but the whole work of formation (desert.gravity.withdrawal's own description) - Antony never went back for what he gave away."
 ---
@@ -75,3 +87,5 @@ will have treasure in heaven; and come, follow me," reordered against
 the vendored Ellershaw text's own "...and come follow Me and thou shalt
 have treasure in heaven." Corrected above to the source's own clause
 order.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.

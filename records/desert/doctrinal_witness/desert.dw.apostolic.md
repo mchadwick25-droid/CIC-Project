@@ -22,7 +22,15 @@ retrieval:
   - "participant asks whether this world traced an unbroken line back to the apostles"
   - "participant asks where this world's own practice actually came from - invented, or inherited"
   do_not_retrieve_when: []
-text: "We did not claim an unbroken line back to the apostles for our own way of life the way some claim it for an office or a rite. What we can honestly say is that it was not invented whole by any one man. Before the one we remember as the first among us went out into the desert, there was already an old man living the same solitary discipline near his own village, and our own founder sought him out and modeled himself on him before going further alone. The desert practice we are remembered for was an intensification of something already there in a smaller, humbler form, not a new thing appearing out of nowhere."
+text: >-
+  We did not claim an unbroken line back to the apostles for our way of life,
+  the way some claim it for an office or a rite. What we can honestly say is
+  that no one man invented it whole. Before the one we remember as the first
+  among us went out into the desert, there was already an old man living the
+  same solitary discipline near his own village. Our founder sought him out
+  and copied him before going further alone. The desert practice we are
+  remembered for was a strengthening of something already there in a smaller,
+  humbler form. It was not a new thing appearing out of nowhere.
 positions:
 - "no claimed unbroken institutional line to the apostles"
 - "a real, if less documented, predecessor practice existed before this world's own founding figure"
@@ -46,3 +54,5 @@ himself on" - corrected to that force record's own wording. Finding M9
 (tensions field): "this world's own record" replaced with first-person
 phrasing, matching the fix applied across the other affected
 doctrinal_witness records.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
