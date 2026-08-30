@@ -161,9 +161,9 @@ separate look.
 **Triggered by this note:** principle 13 is satisfied for these rates —
 Bedrock mirrors the Anthropic rate card within the explained slack
 (incomplete run inventory + the cache-logging bug), not a genuine pricing
-gap. The per-session figures (compact table round ≈ $0.12, full 5-round
-session ≈ $0.58, interview ≈ $0.25/hr) are accurate against Bedrock's
-real per-token billing.
+gap. **The specific per-session $ figures quoted alongside this note were
+wrong — see the 2026-08-30 correction below before quoting any of
+them.**
 
 **Not triggered by this note, on Mark's explicit instruction (2026-08-30
 thread):** support.html is not touched and no donor-facing copy is
@@ -173,3 +173,79 @@ same thread — of what "what it actually costs" should honestly include
 production hosting/infra), which this reconciliation does not answer and
 was never scoped to answer. That conversation is still open and is
 Mark's to resume separately.
+
+## Correction — 2026-08-30 (later): the per-session $ figures were never verified
+
+Mark asked directly whether the interview `$0.25/hr` figure was a blend of
+all three quoted numbers or interview-specific. Checking the label
+answered that (interview-specific, distinct from the two Table figures) —
+but re-deriving it from real data to answer properly surfaced that **it
+had never actually been verified against the current engine at all.** It
+was carried forward, unchecked, from the pre-existing worksheet text
+across every earlier note in this file, including the "accurate against
+Bedrock's real per-token billing" line above. That claim was wrong for
+the interview figure specifically.
+
+**Interview: `$0.25/hr` is wrong. Corrected figure: ≈ $0.35/hr.**
+`engine/m8/reports/live-memory-growth-report.json` is a real, full
+10-turn Bedrock session (the session cap, `SESSION_TURN_CAP = 10`) —
+`turn_dollars` per turn already includes voice + safety + reader calls.
+Session total: $0.2918 → $0.02918/turn. Priced at this engine's own
+declared pacing convention (`engine/m8/cost.py`,
+`TURNS_PER_HOUR_CONVENTION = 12`, sourced from `CiC-Program-Spec.md`
+SS7): $0.02918 × 12 = **$0.350/hr**. The 2-turn snapshot in
+`live-cost-report.json` gives an even higher $0.45–0.53/hr (fewer turns
+to amortize the first turn's cache-write over) — nothing in the real data
+supports $0.25.
+
+**Where `$0.25/hr` actually came from:** it is not a measurement of this
+engine at all. `Ministry/Technology/Pass3/cost_floor_model.py` and
+`provider_repricing.py` both use "$0.25–1.00/hr" repeatedly, but as a
+**target band** from an earlier cost-reduction modeling exercise — and
+that same script's own output states the *modeled* current/baseline cost
+lands around $1.35/hr solo and $2.08/hr Table even after several stacked
+code-level cuts, with the target band only reachable by moving
+representative generation off Sonnet entirely (not done). It also uses a
+different turns-per-hour convention (30/hr solo, 6/hr "reflective") than
+this engine's declared 12/hr — not a comparable unit even on its own
+terms. The worksheet's `$0.25/hr` looks like that target band leaking
+into a "measured" slot it never belonged in.
+
+**Table: `$0.12`/round and `$0.58`/5-round-session hold up better —
+plausible, not tightly verified.** Real data: `live-table-report.json`
+and `live-table-report-2.json`, two independent real 2-round, 2-seat
+Table sessions (`engine/m4/live_table_run.py`):
+
+| | round 1+2 total (sonnet+haiku) | simple $/round |
+|---|---:|---:|
+| smoke run 1 | $0.288 | $0.144 |
+| smoke run 2 | $0.234 | $0.117 |
+| pooled | $0.522 / 4 rounds | **$0.131** |
+
+$0.131/round (simple average) is close to the quoted $0.12 — reasonable
+given only two small sessions to average over. The 5-round figure needs
+a different model, though: cache-write (~$0.113, the system-prompt cost)
+is paid once per session, not once per round, so a 5-round session
+should cost less than 5× the round average, not the same. Modeling it as
+one-time setup + a per-round marginal cost (input/output/cache-read),
+averaged across the two runs: setup ≈ $0.113, marginal ≈ $0.074/round →
+5-round session ≈ $0.113 + 5×$0.074 = **≈$0.48–0.58** depending on which
+run's marginal rate is used — consistent with the quoted $0.58, at the
+higher end of the real range.
+
+**Caveat on both Table figures:** derived from two small, same-world-pair
+(alx/desert), 2-seat sessions — not independently measured at 5 rounds or
+at the "3 seats" seat-count the actual battery runs use. Treat as
+order-of-magnitude confirmed, not independently re-measured at the
+specific round-count/seat-count combination being quoted.
+
+**Corrected quotable set, if quoting any of these:**
+- Interview: **≈$0.35/hr** (was $0.25/hr — wrong, corrected).
+- Table compact round: **≈$0.12–0.13** (holds up, small-sample caveat).
+- Table full 5-round session: **≈$0.48–0.58** (holds up at the upper end
+  of a modeled range, small-sample caveat).
+
+None of this changes the reconciliation's own verdict (Bedrock mirrors
+the rate card) — it's a separate correction to the per-session figures
+that were riding alongside that verdict without ever being independently
+checked.

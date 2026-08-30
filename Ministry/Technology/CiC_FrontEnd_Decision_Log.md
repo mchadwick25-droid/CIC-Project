@@ -1775,9 +1775,9 @@ corroborates in the same direction (+28.6% over the repo-corrected expected), wi
 cache-omission pattern in that day's files.
 
 **Verdict recorded in the worksheet:** materially reconciled, principle 13 satisfied — Bedrock
-mirrors the Anthropic rate card within explained slack, not a genuine pricing mismatch. The
-per-session figures (compact table round ≈ $0.12, full 5-round session ≈ $0.58, interview ≈
-$0.25/hr) are accurate against Bedrock's real billing.
+mirrors the Anthropic rate card within explained slack, not a genuine pricing mismatch. (The
+per-session $ figures quoted alongside this verdict at the time were themselves wrong — see
+the correction entry below, same day.)
 
 **Still not touched, deliberately:** support.html and any donor-facing copy. That stays held
 on the separate "what does 'cost to run this' honestly include" question from the prior entry
@@ -1786,4 +1786,50 @@ of how the tie-out landed.
 
 **Side finding, unrelated to this reconciliation:** the daily-total series shows an
 unexplained $8.79 spike on 2026-08-23, outside this worksheet's window and with no
-corresponding repo activity that day. Flagged for Mark, not investigated here.
+corresponding repo activity that day. Flagged for Mark, not investigated here. Mark's call:
+let it ride under previous versions, not worth chasing — focus is the current version.
+
+---
+
+## 2026-08-30 (same thread, later still) — The per-session $ figures were never actually verified
+
+**Origin.** Mark asked a direct, simple question: was the quoted `interview ≈ $0.25/hr`
+figure a blend of the three per-session numbers, or interview-specific? The label answered
+that part (interview-specific) — but re-deriving it from real data to answer properly
+surfaced that none of the three figures (compact table round $0.12, full 5-round session
+$0.58, interview $0.25/hr) had ever actually been checked against the current engine. They
+were carried forward unverified from the pre-existing worksheet text, including into the
+"accurate against Bedrock's real per-token billing" line recorded a few hours earlier the
+same day. That line was wrong for the interview figure.
+
+**Interview corrected: $0.25/hr → ≈$0.35/hr.** `engine/m8/reports/live-memory-growth-report.json`
+is a real, full 10-turn Bedrock session (the current session cap). Its own per-turn dollars
+already include voice + safety + reader calls: $0.2918 total / 10 turns = $0.02918/turn,
+priced at this engine's own declared pacing convention (`engine/m8/cost.py`,
+`TURNS_PER_HOUR_CONVENTION = 12`) = $0.350/hr. Nothing in the real data supports $0.25.
+
+**Where $0.25/hr actually came from:** not a measurement of this engine. It's a **target
+band** ("$0.25-1.00/hr") from `Ministry/Technology/Pass3/cost_floor_model.py` and
+`provider_repricing.py` — an earlier cost-reduction modeling exercise whose own output states
+the *modeled* current/baseline cost is around $1.35/hr solo and $2.08/hr Table, reachable
+only by moving representative generation off Sonnet (not done), and priced at a different
+turns-per-hour convention than this engine uses. It reads like that old target figure leaked
+into a "measured" slot in the worksheet that it never belonged in.
+
+**Table figures held up better on re-derivation** — not tightly verified, but plausible.
+Two real 2-round, 2-seat Table sessions (`live-table-report.json`,
+`live-table-report-2.json`) average $0.131/round (simple average), close to the quoted
+$0.12. Modeling the 5-round session as one-time cache-write setup (~$0.113, paid once per
+session, not once per round) plus a per-round marginal cost gives ≈$0.48-0.58, consistent
+with the quoted $0.58 at the upper end. Caveat: derived from two small, same-world-pair
+sessions, not independently measured at 5 rounds or at the battery runs' actual 3-seat count.
+
+**Corrected quotable set:** interview ≈$0.35/hr (was $0.25 — wrong); Table compact round
+≈$0.12-0.13 (holds up); Table full 5-round session ≈$0.48-0.58 (holds up at the upper end).
+Full derivation in the worksheet's 2026-08-30 correction section. Doesn't change the
+reconciliation's own verdict (Bedrock mirrors the rate card) — a separate, narrower
+correction to numbers that were riding alongside it unverified.
+
+**Lesson for future principle-13 work:** "the reconciliation passed" and "every number near
+it has been checked" are not the same claim — say so explicitly rather than letting a pass
+verdict imply more than it covers.
