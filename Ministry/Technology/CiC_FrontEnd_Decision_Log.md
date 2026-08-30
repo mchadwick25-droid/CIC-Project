@@ -1701,3 +1701,56 @@ fleet canon, not the curriculum; those words still light live whenever
 the voice actually speaks them. One matching fix from the fleet dry
 run: internal-capital forms ('the Word') match case-sensitively, so
 'The word meant the whole church' no longer lights the Christ gloss.
+
+---
+
+## 2026-08-30 — Bedrock cost reconciliation: not clean, but not a rate mismatch either
+
+**Origin.** Spec-principle-13 reconciliation of 2026-08-28's Bedrock actuals against
+the repo's own recorded token usage (`engine/m8/reports/reconciliation-2026-08-28-worksheet.md`).
+Mark pasted AWS Cost Explorer data into the reconciliation thread; full Group-By-Usage-Type
+access turned out to be blocked by an account permissions gap (IAM billing access, still
+unresolved — Mark is working the fix), so actuals came instead from an AWS Cost Anomaly
+Detection root-cause detail that had already flagged 2026-08-28 on the Sonnet 4.5 (Bedrock
+Edition) service.
+
+**First read looked bad, then didn't.** Against the worksheet's original 7-row "known live
+runs" table (≈$2.15–2.25 estimated), actual Sonnet-only spend for the day ($16.30) looked
+like a ~7x, unexplained gap — the kind of thing principle 13 exists to catch. Investigating
+before accepting that, the 7-row table turned out to be badly incomplete: git history and
+`engine/m3/reports/` / `engine/m4/reports/` show 2026-08-28 was a full six-world build day —
+two more six-world admission batteries, a four-world admission run, a story-quote pin
+battery, and five more Table battery runs never made it into the worksheet. Summing every
+report file's own recorded usage for that day gives a corrected expected total of $12.56
+(sonnet $12.07 + haiku $0.49), not $2.15–2.25.
+
+**Against the corrected total:** sonnet input/output land within 9–14% of actual — a normal
+spread, plausibly closed by two still-unitemized live runs (`memory-integrity-desert.json`'s
+6 real turns chief among them). Cache write (+42%) and cache read (+23%) are still off, but
+that has a specific identified cause, not a mystery: six of the eight Table-battery files
+that day recorded cache tokens as literal zero — the same script bug the original worksheet
+named on *one* row, just wider in scope than first described. Full derivation, per-file
+table, and the outcome note are in the worksheet file itself.
+
+**Decision: not a clean tie-out, not treated as one.** Per the reconciliation's own
+instructions, an unexplained material gap gets diagnosed and presented, not smoothed over —
+this one now has a plausible, evidenced diagnosis (incomplete known-run inventory, plus a
+wider-than-documented cache-logging bug) rather than a rate-card mismatch, but two things are
+still open before it can be called closed: Haiku's actual $ for the day (no anomaly fired for
+Haiku, not yet obtained) and confirmation that the cache gap really is the six-file bug
+(needs the full CSV with usage *amounts*, once Mark's Cost Explorer access is fixed).
+**Nothing graduates from this note** — the per-session figures stay unquotable and
+support.html is untouched until the day is actually reconciled.
+
+**Separately raised and left open:** mid-thread, Mark flagged that "the cost to run this is
+far beyond the api costs" — meaning the full AWS bill (not just the two Bedrock services),
+the cost of the Claude Code build/validation sessions themselves, and production hosting/infra
+(Render, DB) all sit outside what any Bedrock-vs-rate-card reconciliation measures. That's a
+real and separate question from whether Bedrock mirrors the Anthropic rate card, and it isn't
+resolved by a clean tie-out here — recorded so it isn't lost. Even on a clean tie-out, the
+"graduate to quotable" / support.html copy step is being held pending that broader
+conversation, not drafted automatically.
+
+**Next action.** Get Haiku's actual $ (anomaly or fixed Cost Explorer access), confirm the
+cache-bug diagnosis, then decide with Mark separately how "what it actually costs" should be
+scoped before any donor-facing copy changes.
