@@ -170,14 +170,38 @@ export function VoiceTurnBody({ text, citations, figuresUsed = [], glosses = [] 
     generalReferences.push(card);
   };
 
+  // ONE ✲ per story/quote source per turn, after the telling ends -
+  // never one per cited sentence (Mark, live pilot, 2026-08-30: "its
+  // just a bunch of astric... that is not the design" - a story told
+  // across four sentences drew four identical marks, because the
+  // engine's per-sentence citation grain was rendered 1:1. The design's
+  // own grammar is sparse: dotted-underline words plus the ✲, and his
+  // 2026-08-25 correction places a story's mark after THE sentence that
+  // told it - singular). A card renders at the last segment of the
+  // contiguous run of sentences citing its record; a non-consecutive
+  // re-cite later in the turn renders nothing more. The citation DATA
+  // is untouched - verification stays per-sentence; only the marks
+  // thin out.
+  const segmentStoryCards = segments.map((segment) =>
+    segment.citation ? splitCitationSources(segment.citation.sources).storySources : []
+  );
+  const renderedStoryIds = new Set<string>();
+
   const rendered = segments.map((segment, i) => {
     const nodes = renderSegmentText(segment.text, figuresUsed, glosses, usedIds, `seg${i}`);
 
     let trailingMark: React.ReactNode = null;
     if (segment.citation) {
-      const { storySources, otherSources } = splitCitationSources(segment.citation.sources);
-      if (storySources.length) {
-        trailingMark = <StoryMark sources={storySources} />;
+      const { otherSources } = splitCitationSources(segment.citation.sources);
+      const nextIds = new Set((segmentStoryCards[i + 1] ?? []).map((c) => c.record_id));
+      const finishingCards = segmentStoryCards[i].filter((card) => {
+        if (renderedStoryIds.has(card.record_id)) return false;
+        if (nextIds.has(card.record_id)) return false; // still being told - mark where the telling ends
+        return true;
+      });
+      if (finishingCards.length) {
+        finishingCards.forEach((card) => renderedStoryIds.add(card.record_id));
+        trailingMark = <StoryMark sources={finishingCards} />;
       }
       otherSources.forEach(addReference);
     }
