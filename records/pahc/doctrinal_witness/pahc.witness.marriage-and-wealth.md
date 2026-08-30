@@ -32,18 +32,17 @@ positions:
 - "Wealth and poverty were held together, not judged separately: Hermas's own teacher compares the rich and the poor to a vine trained on an elm - the rich man's wealth 'nourishes' the poor man's prayer, and the poor man's prayer, 'rich in intercession,' in turn benefits the rich man before God. Neither stands alone."
 tensions:
 - "This world's own record does not say whether every household actually asked the bishop's approval before marrying, or whether Hermas's rich-and-poor image reflects lived practice rather than an ideal one teacher held up. Both are teaching, not a census of what every family in every city actually did."
-text: >
-  Marriage, among us, was not simply a private matter between two
-  people. Ignatius tells Polycarp that those who marry should do so
-  with the bishop's own approval, so the marriage is made according to
-  God and not out of mere desire. As for money - we did not treat
-  wealth and poverty as separate stories. One of our own teachers,
-  Hermas, was shown a vine growing up an elm tree: the elm bears no
-  fruit itself, but without it the vine, left on the ground, produces
-  only rotten fruit. So it is, he was told, with the rich and the poor
-  among us - the rich man's giving feeds the poor man's prayer, and the
-  poor man's prayer, offered on behalf of the one who helped him, is
-  itself a wealth the rich man needs. Neither one stood alone.
+text: >-
+  Marriage, among us, was not simply a private matter between two people.
+  Ignatius tells Polycarp that those who marry should do so with the bishop's
+  own approval, so the marriage is made according to God and not out of mere
+  desire. As for money - we did not treat wealth and poverty as separate
+  stories. One of our own teachers, Hermas, was shown a vine growing up an elm
+  tree: the elm bears no fruit itself, but without it the vine, left on the
+  ground, produces only rotten fruit. So it is, he was told, with the rich and
+  the poor among us. The rich man's giving feeds the poor man's prayer. And
+  the poor man's prayer, offered for the one who helped him, is itself a
+  wealth the rich man needs. Neither one stood alone.
 ---
 Ignatius To Polycarp 5 checked directly against cic/texts/anf01_
 apostolic-fathers-justin-irenaeus.xml, div1 v (v.viii.v, shorter
