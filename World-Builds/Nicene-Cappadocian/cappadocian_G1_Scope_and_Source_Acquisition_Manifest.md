@@ -1,7 +1,8 @@
 # G1 — Scope Confirmation & Source Acquisition Manifest
 ## Nicene-Cappadocian (cappadocian) — Church in Conversation — Record-Native World Build Process V1.2
 
-**Status:** DECISION ARTIFACT — awaiting the project lead's actual decision. Nothing past this gate proceeds until Mark answers Part A and dispositions Part B.
+**Status:** DECIDED. Mark, 2026-08-30, verbatim: "approve the cost envelope and both decisions, go ahead" — given in direct response to this file's presentation of Part A's scope argument and Part B's manifest as-is. Recorded disposition: Part A's scope (self-description, c. 325–c. 394 boundaries, strand-singular finding, the concentrated evidence base named as a standing risk) is CONFIRMED unchanged; the manifest's rows and honest-gaps handling in Part B are APPROVED as the acquisition target list.
+**Real-world action still needed from Mark, not yet done as of this decision:** the actual download of the accepted files into `cic/texts/`. This session's own egress policy blocks fetching ccel.org/archive.org/tertullian.org directly (confirmed by repeated `EGRESS_BLOCKED` results this session), so the build thread cannot perform this step itself — it is a genuine handoff, not a formality. Until the files are present, Phase A does not continue past Doc_02's rework into Phase B's B-1 (source rows), per this document's own closing section. Everything else gated only on scope/manifest approval (Doc_01 confirmation, Doc_02's structural rework into the Source Registry Template using these rows, the independent review pass) proceeds now.
 **Prepared by:** build thread, 2026-08-30, on recovery of the orphaned `origin/CiC-Fable-Cappadocian` branch (see `CAPPADOCIAN_BUILD_LEDGER.md` for the full recovery/audit record).
 
 ---

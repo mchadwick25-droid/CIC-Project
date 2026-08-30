@@ -35,12 +35,12 @@ Nicene-Cappadocian's evidence base is unusually concentrated: three authors (Bas
 
 Option 1, with Option 2 named as a live, evidenced, and explicitly not-closed question — not a rejected footnote. The build's own words: *"the future-second-voice candidate is explicitly stronger here than in Early Latin... flagged for the project lead with that comparative note."* If a female-anchored Representative is ever built for this project, the recovered build's own assessment is that this world is currently the best-evidenced site to attempt it — a separate, additive build, not a reason to hold this decision.
 
-## Mark's decision (record verbatim once given)
+## Mark's decision (recorded verbatim)
 
-**Name:**
-**Role:**
-**Reasoning, in Mark's own words:**
-**Disposition on the Option 2 question (build a second voice for this world; decline for now; something else):**
-**Date:**
+**Name:** Eumathios (Option 1, as recommended by the recovered build).
+**Role:** an elder of the brotherhoods who keeps the guest-door (Option 1, as recommended).
+**Reasoning, in Mark's own words:** "approve the cost envelope and both decisions, go ahead" — given in direct response to this file's presentation of Option 1 as the recommended identity with Options 2–4 stated as declined alternatives.
+**Disposition on the Option 2 question (build a second voice for this world; decline for now; something else):** Not separately addressed in Mark's reply. Recorded as: the recommendation's own framing stands — Option 2 (a sister of the Annisa sisterhood) stays a live, named, not-foreclosed question for a possible future separate build; it is not decided now and is not being built as part of this world. If Mark later means something more specific by this (e.g., an explicit decline, or a wish to greenlight a second-voice build now), that supersedes this entry on his next word — this is not being treated as a closed question, only as un-raised in this exchange.
+**Date:** 2026-08-30.
 
-*(Per the build-cycle discipline: nothing proceeds on this identity — Doc_10 rework, Phase B B-7 voice records, any deployment artifact — until this section is filled from an actual exchange with the project lead, not inferred from silence.)*
+*(Per the build-cycle discipline, Option 1 is now the settled identity for this build: Doc_10 rework and Phase B B-7 voice records proceed on Eumathios/guest-door elder.)*

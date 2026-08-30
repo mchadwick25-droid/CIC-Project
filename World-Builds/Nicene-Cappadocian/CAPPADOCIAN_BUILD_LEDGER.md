@@ -1,7 +1,7 @@
 # Cappadocian Build Ledger
 ## Record-Native World Build Process V1.2 — recovery, audit, and gate status
 
-**Read this first if resuming.** This world is being recovered and audited per V1.2 Appendix C item 3 ("the Cappadocian orphan"), not built fresh. Current position: **stopped at G1 and G2, both awaiting Mark's actual decision.** No Phase B, C, or D work has started. No API spend beyond this session's own recovery/audit/research reasoning and web searches has occurred.
+**Read this first if resuming.** This world is being recovered and audited per V1.2 Appendix C item 3 ("the Cappadocian orphan"), not built fresh. Current position: **G1 and G2 both decided (Mark, 2026-08-30); cost envelope approved; build proceeding under CO-022 autonomy on the review/rework lane.** One real handoff is still outstanding and blocks Phase B's B-1: Mark's own download of the approved manifest files into `cic/texts/` (this session cannot fetch them — see the G1 file's closing note).
 
 ---
 
@@ -33,14 +33,14 @@ Built as a **single unattended Fable run**, forked from `CiC-Fable-Experiment`, 
 
 | Gate | Status | Artifact |
 |---|---|---|
-| G1 — Scope & Sources | **STOPPED, awaiting Mark** | `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` |
-| G2 — Representative identity | **STOPPED, awaiting Mark** | `cappadocian_Representative_Identity_Options.md` |
+| G1 — Scope & Sources | **DECIDED, 2026-08-30** — scope confirmed, manifest approved; file download from Mark still outstanding (blocks Phase B B-1 only) | `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` |
+| G2 — Representative identity | **DECIDED, 2026-08-30** — Option 1 (Eumathios, guest-door elder); Option 2 left open, not foreclosed, not built now | `cappadocian_Representative_Identity_Options.md` |
 | G3 — Bar read | not reached | — |
 | G4 — Article 29 | not reached (carried `provisional`, unchanged) | — |
 | G5 — Admission & freeze | not reached | — |
-| Cost envelope | **presented below, awaiting Mark's one approval** | this file, §4 |
+| Cost envelope | **APPROVED, 2026-08-30, ≈$60–110** | this file, §4 |
 
-Per CO-022: nothing past these two artifacts is drafted, revised, or extended until Mark's actual words are on record in each file. This includes not touching Doc_01/Doc_02 rework, not starting Phase B, and not treating any of Doc_10's existing content as settled.
+Per CO-022, both decisions are now settled and the build proceeds autonomously within the approved envelope: independent review of Doc_01/Doc_02, Doc_02's structural rework into the V7.4 Source Registry Template, currency checks of Doc_03–09, and Doc_10 rework toward Eumathios/guest-door-elder under the register bar. **Not started yet, and blocked on Mark specifically:** Phase B's B-1 (source rows), which needs the actual files in `cic/texts/`.
 
 ## 4. Cost envelope estimate — for Mark's one approval, before further billed work
 
