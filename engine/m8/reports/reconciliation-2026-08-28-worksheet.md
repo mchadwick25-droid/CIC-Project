@@ -249,3 +249,32 @@ None of this changes the reconciliation's own verdict (Bedrock mirrors
 the rate card) — it's a separate correction to the per-session figures
 that were riding alongside that verdict without ever being independently
 checked.
+
+## Further correction — 2026-08-30 (same day, third pass): Table's 5-round figure walked back to unquotable
+
+Mark, from memory, put a different number on multi-voice Table cost — ~$0.75, recalled from
+whenever a $0.25/hr interview figure was also in circulation — and reasoned that if the interview
+figure corrected up 40% (0.25→0.35), Table should scale the same way (~$1.00). **That specific
+scaling logic doesn't transfer** — the interview correction wasn't a measurement that scaled, it
+was a mislabeled non-measurement (an old target-band figure) swapped for a real one; there's no
+reason the same ratio applies to an unrelated number. **But checking the instinct against real
+data found a genuine problem with the $0.48–0.58 figure above anyway:** it's a model (one-time
+cache-write setup + a flat per-round marginal cost), extrapolated from a real 2-round sample —
+and it assumes marginal cost stays flat round to round. It doesn't. This project already has hard
+evidence per-turn cost climbs as conversation history accumulates (`live-memory-growth-report.json`
+— the exact finding that got `SESSION_TURN_CAP` set to 10 for interviews); a Table round almost
+certainly has the same dynamic, likely worse, since Table history carries every seated voice's
+turns, not one. The flat-marginal model above almost certainly undercounts a real 5-round session.
+
+**Mark confirmed on request: his $0.75 recollection was also never verified against a real test —
+an estimate, same category as the wrong $0.25/hr figure, not measured data.** So neither number
+(this worksheet's $0.48–0.58 model, or Mark's $0.75 recollection) should be treated as quotable.
+**Table full-session figure downgraded from "holds up, small-sample caveat" to genuinely unknown**
+until a real, complete 5-round Table session is run end to end and its actual cost read off it —
+the same way the interview figure got its $0.35. The compact-round figure (≈$0.12–0.13) is
+unaffected — it's a single-round cost, not exposed to the multi-round history-growth problem.
+
+**Consequence for support.html (same day, on Mark's explicit approval):** the cost paragraph now
+states $0.35/hr for interview (real, checked) and states the Table's multi-voice mechanism (why it
+costs more) with **no dollar figure** for the full-session case, rather than publish either
+unverified number as fact. Replace once a real full 5-round session is actually measured.
