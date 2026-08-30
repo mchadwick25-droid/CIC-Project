@@ -3,8 +3,8 @@
   "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
   "region": "us-east-1",
   "world_key": "pahc",
-  "manifest_hash": "sha256:eae0468468edc81c97d1e42b8512a344646c3659efa6dbf091ab947a21a3387d",
-  "package": "packages/pahc/2026-08-30T01-55-03Z",
+  "manifest_hash": "sha256:ba7159851fcd537b88fe57e4ec453700de181ba2c4c5da015ad071eeda4e62bb",
+  "package": "packages/pahc/2026-08-30T02-13-07Z",
   "results": [
     {
       "id": "message-1",
@@ -16,7 +16,7 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "pahc",
-          "text": "He was a real man, not an idea. One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David. He truly ate and drank. He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed. And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.\n\nWhen we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus. More than one of our own households uses those words, not only Ignatius's own. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.\n\nNone of us saw him ourselves. What we have is what was handed to us. The apostles preached what they had received from the Lord, and appointed others to carry it forward once they themselves were gone. We should say plainly, though: even in our own time, that chain was already felt as something thinning, not something we could simply rely on. The emperor once sent for some of Jesus' own family - grandsons of Judas, who was called his brother. What he found were two farmers with calloused hands. They told him about a kingdom not of this world, and he let them go. That is how close we still were, and how far.",
+          "text": "He was a real man, not an idea. Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David. He truly ate and drank. He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed. And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.\n\nWhen we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus. More than one of our own households uses those words, not only Ignatius's own. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.\n\nNone of us saw him ourselves. What we have is what was handed to us. The apostles preached what they had received from the Lord, and appointed others to carry it forward once they themselves were gone. That chain reached us, household to household, letter by letter - but we will not pretend it was unbroken or that we knew eyewitnesses ourselves. By our own time, that nearness was already something we spoke of as thinning, not something we could simply rely on.",
           "citations": [
             {
               "sentence": "He was a real man, not an idea.",
@@ -55,10 +55,9 @@
               ]
             },
             {
-              "sentence": "One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David.",
+              "sentence": "Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David.",
               "record_ids": [
-                "pahc.witness.who-was-jesus",
-                "pahc.quote.ignatius-truly-born"
+                "pahc.witness.who-was-jesus"
               ],
               "sources": [
                 {
@@ -85,20 +84,6 @@
                       "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
                       "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
                       "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                },
-                {
-                  "record_id": "pahc.quote.ignatius-truly-born",
-                  "record_type": "quote",
-                  "label": "The seven letters, middle recension, Trallians 9, shorter — Ignatius, bishop of Antioch",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Trallians 9, shorter (middle) recension",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -108,8 +93,7 @@
             {
               "sentence": "He truly ate and drank.",
               "record_ids": [
-                "pahc.witness.who-was-jesus",
-                "pahc.quote.ignatius-truly-born"
+                "pahc.witness.who-was-jesus"
               ],
               "sources": [
                 {
@@ -136,20 +120,6 @@
                       "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
                       "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
                       "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                },
-                {
-                  "record_id": "pahc.quote.ignatius-truly-born",
-                  "record_type": "quote",
-                  "label": "The seven letters, middle recension, Trallians 9, shorter — Ignatius, bishop of Antioch",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Trallians 9, shorter (middle) recension",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -231,8 +201,7 @@
             {
               "sentence": "When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus.",
               "record_ids": [
-                "pahc.witness.who-was-jesus",
-                "pahc.story.didache-eucharist"
+                "pahc.witness.who-was-jesus"
               ],
               "sources": [
                 {
@@ -259,20 +228,6 @@
                       "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
                       "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
                       "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                },
-                {
-                  "record_id": "pahc.story.didache-eucharist",
-                  "record_type": "story",
-                  "label": "In a community following the Didache's own order, thanks is given first over the cup, then the bread. No story of a supper or a betrayal appears anywhere in the prayer - only knowledge, the vine, and the gathering of a scattered people into one.",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.didache",
-                      "author": "Anonymous/composite (provenance unresolved - Syria likely, Egypt argued)",
-                      "work": "The Didache (The Teaching of the Twelve Apostles); final form c. 80-120 CE per Niederwimmer (outer range to 150 CE; Milavec's minority view argues unified composition 50-70 CE)",
-                      "locus": "9-10, 14",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -376,8 +331,7 @@
             {
               "sentence": "The apostles preached what they had received from the Lord, and appointed others to carry it forward once they themselves were gone.",
               "record_ids": [
-                "pahc.witness.how-we-know",
-                "pahc.quote.they-appointed-those-already-mentioned"
+                "pahc.witness.how-we-know"
               ],
               "sources": [
                 {
@@ -397,86 +351,6 @@
                       "author": "Justin Martyr (writing in his own name to a named emperor)",
                       "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
                       "locus": "67 ('the memoirs of the apostles or the writings of the prophets are read')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                },
-                {
-                  "record_id": "pahc.quote.they-appointed-those-already-mentioned",
-                  "record_type": "quote",
-                  "label": "First Epistle to the Corinthians, First Epistle to the Corinthians, ch. XLIV — the letter known as First Clement, to the church at Corinth",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "First Epistle to the Corinthians, ch. XLIV (anf01_apostolic-fathers-justin-irenaeus.xml)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "The emperor once sent for some of Jesus' own family - grandsons of Judas, who was called his brother.",
-              "record_ids": [
-                "pahc.story.grandsons-before-domitian"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.story.grandsons-before-domitian",
-                  "record_type": "story",
-                  "label": "the day the emperor sent for Jesus' family and found two farmers with calloused hands",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.second-third-century-remains",
-                      "author": "Quadratus of Athens, Aristo of Pella, Melito of Sardis, Hegesippus, Dionysius of Corinth, Rhodon, Claudius Apollinaris of Hierapolis, Polycrates of Ephesus, Serapion of Antioch, Apollonius - the surviving voices of the sub-apostolic churches",
-                      "work": "Remains of the Second and Third Centuries - the fragmentary survivals of ten writers of this world's own generations, including Hegesippus' notices on James the Just and the Lord's kindred, and Polycrates of Ephesus' letter to Victor of Rome on the Passover date",
-                      "locus": "Hegesippus, Concerning the Relatives of Our Saviour (anf08 line 71558), preserved in Eusebius HE III.20; the martyrdom of James at 71545",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "What he found were two farmers with calloused hands.",
-              "record_ids": [
-                "pahc.story.grandsons-before-domitian"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.story.grandsons-before-domitian",
-                  "record_type": "story",
-                  "label": "the day the emperor sent for Jesus' family and found two farmers with calloused hands",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.second-third-century-remains",
-                      "author": "Quadratus of Athens, Aristo of Pella, Melito of Sardis, Hegesippus, Dionysius of Corinth, Rhodon, Claudius Apollinaris of Hierapolis, Polycrates of Ephesus, Serapion of Antioch, Apollonius - the surviving voices of the sub-apostolic churches",
-                      "work": "Remains of the Second and Third Centuries - the fragmentary survivals of ten writers of this world's own generations, including Hegesippus' notices on James the Just and the Lord's kindred, and Polycrates of Ephesus' letter to Victor of Rome on the Passover date",
-                      "locus": "Hegesippus, Concerning the Relatives of Our Saviour (anf08 line 71558), preserved in Eusebius HE III.20; the martyrdom of James at 71545",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "They told him about a kingdom not of this world, and he let them go.",
-              "record_ids": [
-                "pahc.story.grandsons-before-domitian"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.story.grandsons-before-domitian",
-                  "record_type": "story",
-                  "label": "the day the emperor sent for Jesus' family and found two farmers with calloused hands",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.second-third-century-remains",
-                      "author": "Quadratus of Athens, Aristo of Pella, Melito of Sardis, Hegesippus, Dionysius of Corinth, Rhodon, Claudius Apollinaris of Hierapolis, Polycrates of Ephesus, Serapion of Antioch, Apollonius - the surviving voices of the sub-apostolic churches",
-                      "work": "Remains of the Second and Third Centuries - the fragmentary survivals of ten writers of this world's own generations, including Hegesippus' notices on James the Just and the Lord's kindred, and Polycrates of Ephesus' letter to Victor of Rome on the Passover date",
-                      "locus": "Hegesippus, Concerning the Relatives of Our Saviour (anf08 line 71558), preserved in Eusebius HE III.20; the martyrdom of James at 71545",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -525,13 +399,6 @@
                   "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
                   "locus": "49 ('Jesus Christ our Lord gave His blood for us')",
                   "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "pahc.source.ignatius-letters",
-                  "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                  "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                  "locus": "Trallians 9, shorter (middle) recension",
-                  "rights_status": "public-domain"
                 }
               ]
             }
@@ -551,20 +418,18 @@
                 "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "One of us, Ignatius, wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David.",
+                "sentence": "Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David.",
                 "tags": [
-                  "pahc.witness.who-was-jesus",
-                  "pahc.quote.ignatius-truly-born"
+                  "pahc.witness.who-was-jesus"
                 ],
                 "verdict": "ok",
-                "why": "grounded 79% in own tagged records",
-                "ratio": 0.79
+                "why": "grounded 57% in own tagged records",
+                "ratio": 0.57
               },
               {
                 "sentence": "He truly ate and drank.",
                 "tags": [
-                  "pahc.witness.who-was-jesus",
-                  "pahc.quote.ignatius-truly-born"
+                  "pahc.witness.who-was-jesus"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
@@ -590,8 +455,7 @@
               {
                 "sentence": "When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus.",
                 "tags": [
-                  "pahc.witness.who-was-jesus",
-                  "pahc.story.didache-eucharist"
+                  "pahc.witness.who-was-jesus"
                 ],
                 "verdict": "ok",
                 "why": "grounded 100% in own tagged records",
@@ -633,47 +497,20 @@
               {
                 "sentence": "The apostles preached what they had received from the Lord, and appointed others to carry it forward once they themselves were gone.",
                 "tags": [
-                  "pahc.witness.how-we-know",
-                  "pahc.quote.they-appointed-those-already-mentioned"
+                  "pahc.witness.how-we-know"
                 ],
                 "verdict": "ok",
                 "why": "grounded 91% in own tagged records",
                 "ratio": 0.91
               },
               {
-                "sentence": "We should say plainly, though: even in our own time, that chain was already felt as something thinning, not something we could simply rely on.",
+                "sentence": "That chain reached us, household to household, letter by letter - but we will not pretend it was unbroken or that we knew eyewitnesses ourselves.",
                 "tags": [],
                 "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
               },
               {
-                "sentence": "The emperor once sent for some of Jesus' own family - grandsons of Judas, who was called his brother.",
-                "tags": [
-                  "pahc.story.grandsons-before-domitian"
-                ],
-                "verdict": "ok",
-                "why": "grounded 89% in own tagged records",
-                "ratio": 0.89
-              },
-              {
-                "sentence": "What he found were two farmers with calloused hands.",
-                "tags": [
-                  "pahc.story.grandsons-before-domitian"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "They told him about a kingdom not of this world, and he let them go.",
-                "tags": [
-                  "pahc.story.grandsons-before-domitian"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "That is how close we still were, and how far.",
+                "sentence": "By our own time, that nearness was already something we spoke of as thinning, not something we could simply rely on.",
                 "tags": [],
                 "verdict": "ok",
                 "why": "no checkable claim - interpretive/connective framing"
@@ -683,7 +520,13 @@
           },
           "do_not_voice_violation": null,
           "degraded_by_net": false,
-          "output_defects": []
+          "output_defects": [
+            {
+              "family": "conversational",
+              "finding": "false: claims something was already said, on a turn with no prior turns",
+              "sentence": "By our own time, that nearness was already something we spoke of as thinning, not something we could simply rely on."
+            }
+          ]
         },
         "degraded": false
       }
@@ -698,39 +541,24 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "pahc",
-          "text": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God. We cannot tell you we had settled how.\n\nWe believed in one God, maker of everything. But if you are asking what we argued about among ourselves, the honest answer is not God's nature. No gathering of ours ever met to settle a question like that about God. That kind of deciding belongs to a later world. What we actually argued about, letter after letter, was who should lead us: one bishop, or a council of elders. That was our real fight.",
+          "text": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is not one passing phrase; he reaches for it often. But it is worship, not an argument worked out. How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God. We cannot tell you we had settled how.\n\nJustin, writing to the emperor, says something else that bears here: that God's own Word was present in some measure in every people, so that even a reasonable person born before Christ could in that sense already be called a Christian. He was reaching for something about how Christ relates to God and to all peoples - but again, it is an opening gesture, not a settled answer.\n\nWhat we gave you at the table was thanksgiving through Jesus to the Father. What we said in worship was that Jesus is God. The worked-out answer to how both those things hold together at once - that belongs to a later world than ours.",
           "citations": [
             {
-              "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
+              "sentence": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
               "record_ids": [
-                "pahc.witness.jesus-as-god",
-                "pahc.quote.jesus-christ-our-god"
+                "pahc.witness.jesus-as-god"
               ],
               "sources": [
                 {
                   "record_id": "pahc.witness.jesus-as-god",
                   "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
+                  "label": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters, and in…",
                   "sources": [
                     {
                       "source_id": "pahc.source.ignatius-letters",
                       "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
                       "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
                       "locus": "the salutations and closings across several letters, e.g. the Ephesians salutation ('by the will of the Father, and Jesus Christ, our God')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                },
-                {
-                  "record_id": "pahc.quote.jesus-christ-our-god",
-                  "record_type": "quote",
-                  "label": "The seven letters, middle recension, Letter to the Ephesians, ch. VII, in the short recension — Ignatius of Antioch, to the Ephesians",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "Letter to the Ephesians, ch. VII, in the short recension (anf01_apostolic-fathers-justin-irenaeus.xml)",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -746,7 +574,7 @@
                 {
                   "record_id": "pahc.witness.jesus-as-god",
                   "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
+                  "label": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters, and in…",
                   "sources": [
                     {
                       "source_id": "pahc.source.ignatius-letters",
@@ -768,7 +596,7 @@
                 {
                   "record_id": "pahc.witness.jesus-as-god",
                   "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
+                  "label": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters, and in…",
                   "sources": [
                     {
                       "source_id": "pahc.source.ignatius-letters",
@@ -790,7 +618,7 @@
                 {
                   "record_id": "pahc.witness.jesus-as-god",
                   "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
+                  "label": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters, and in…",
                   "sources": [
                     {
                       "source_id": "pahc.source.ignatius-letters",
@@ -812,7 +640,7 @@
                 {
                   "record_id": "pahc.witness.jesus-as-god",
                   "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
+                  "label": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters, and in…",
                   "sources": [
                     {
                       "source_id": "pahc.source.ignatius-letters",
@@ -834,7 +662,7 @@
                 {
                   "record_id": "pahc.witness.jesus-as-god",
                   "record_type": "doctrinal_witness",
-                  "label": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his let…",
+                  "label": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters, and in…",
                   "sources": [
                     {
                       "source_id": "pahc.source.ignatius-letters",
@@ -848,222 +676,7 @@
               ]
             },
             {
-              "sentence": "We believed in one God, maker of everything.",
-              "record_ids": [
-                "pahc.witness.god-and-argument"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.god-and-argument",
-                  "record_type": "doctrinal_witness",
-                  "label": "We believed in one God, maker of everything",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.justin-first-apology",
-                      "author": "Justin Martyr (writing in his own name to a named emperor)",
-                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
-                      "locus": "46 (the Logos present in 'every race of men')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "42, 44 (the authority dispute at Corinth)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "passim (the monarchical-bishop program)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.anti-montanist-fragments",
-                      "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
-                      "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
-                      "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "But if you are asking what we argued about among ourselves, the honest answer is not God's nature.",
-              "record_ids": [
-                "pahc.witness.god-and-argument"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.god-and-argument",
-                  "record_type": "doctrinal_witness",
-                  "label": "We believed in one God, maker of everything",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.justin-first-apology",
-                      "author": "Justin Martyr (writing in his own name to a named emperor)",
-                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
-                      "locus": "46 (the Logos present in 'every race of men')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "42, 44 (the authority dispute at Corinth)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "passim (the monarchical-bishop program)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.anti-montanist-fragments",
-                      "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
-                      "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
-                      "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "No gathering of ours ever met to settle a question like that about God.",
-              "record_ids": [
-                "pahc.witness.god-and-argument"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.god-and-argument",
-                  "record_type": "doctrinal_witness",
-                  "label": "We believed in one God, maker of everything",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.justin-first-apology",
-                      "author": "Justin Martyr (writing in his own name to a named emperor)",
-                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
-                      "locus": "46 (the Logos present in 'every race of men')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "42, 44 (the authority dispute at Corinth)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "passim (the monarchical-bishop program)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.anti-montanist-fragments",
-                      "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
-                      "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
-                      "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "That kind of deciding belongs to a later world.",
-              "record_ids": [
-                "pahc.witness.god-and-argument"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.god-and-argument",
-                  "record_type": "doctrinal_witness",
-                  "label": "We believed in one God, maker of everything",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.justin-first-apology",
-                      "author": "Justin Martyr (writing in his own name to a named emperor)",
-                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
-                      "locus": "46 (the Logos present in 'every race of men')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "42, 44 (the authority dispute at Corinth)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "passim (the monarchical-bishop program)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.anti-montanist-fragments",
-                      "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
-                      "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
-                      "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "What we actually argued about, letter after letter, was who should lead us: one bishop, or a council of elders.",
-              "record_ids": [
-                "pahc.witness.god-and-argument"
-              ],
-              "sources": [
-                {
-                  "record_id": "pahc.witness.god-and-argument",
-                  "record_type": "doctrinal_witness",
-                  "label": "We believed in one God, maker of everything",
-                  "sources": [
-                    {
-                      "source_id": "pahc.source.justin-first-apology",
-                      "author": "Justin Martyr (writing in his own name to a named emperor)",
-                      "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
-                      "locus": "46 (the Logos present in 'every race of men')",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.first-clement",
-                      "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
-                      "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
-                      "locus": "42, 44 (the authority dispute at Corinth)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.ignatius-letters",
-                      "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
-                      "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
-                      "locus": "passim (the monarchical-bishop program)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "pahc.source.anti-montanist-fragments",
-                      "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
-                      "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
-                      "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "That was our real fight.",
+              "sentence": "Justin, writing to the emperor, says something else that bears here: that God's own Word was present in some measure in every people, so that even a reasonable person born before Christ could in that sense already be called a Christian.",
               "record_ids": [
                 "pahc.witness.god-and-argument"
               ],
@@ -1107,7 +720,57 @@
             }
           ],
           "glosses": [],
-          "figures_used": [],
+          "figures_used": [
+            {
+              "id": "pahc.figure.justin",
+              "matched_name": "Justin",
+              "names": [
+                {
+                  "name": "Justin",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Justin Martyr (First Apology c. 153-157, Dialogue with Trypho before his death c. 165, per Minns and Parvis)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "A philosopher who kept the philosopher's dress after becoming a Christian. He described our Sunday worship in an open letter to the emperor, and died for the name he defended.",
+              "dates": {
+                "died": "c. 165",
+                "display": "First Apology c. 153-157; died c. 165 - the best-anchored dating in this world's whole source set"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "pahc.source.justin-first-apology",
+                  "author": "Justin Martyr (writing in his own name to a named emperor)",
+                  "work": "The First Apology; c. 153-157 CE per Minns and Parvis (Oxford, 2009) - the best-anchored dating in this world's entire source set",
+                  "locus": "46 (the Logos present in 'every race of men')",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "pahc.source.first-clement",
+                  "author": "Anonymous (the church of God sojourning at Rome; traditionally Clement of Rome - the attribution is traditional, not self-declared in the text)",
+                  "work": "First Epistle to the Corinthians (1 Clement); traditionally c. 96 CE - the date is actively contested (Welborn broadens the plausible range to 80-140 CE; Herron's minority position argues pre-70)",
+                  "locus": "42, 44 (the authority dispute at Corinth)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "pahc.source.ignatius-letters",
+                  "author": "Ignatius of Antioch (if the traditional attribution holds - see the three-way dispute below)",
+                  "work": "The seven letters, middle recension (Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans, To Polycarp); traditional dating c. 107-117 CE, redated 130s-140s by Barnes and Foster, held pseudepigraphic c. 160-180 by Huebner and Lechner - a genuine three-way scholarly split",
+                  "locus": "passim (the monarchical-bishop program)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "pahc.source.anti-montanist-fragments",
+                  "author": "The 'Anonymous' anti-Montanist (writing c. 192-193 CE to Avircius Marcellus), preserved only in Eusebius's quotations; ANF prints the fragments under the conjectural name 'Asterius Urbanus'",
+                  "work": "Fragments against the Montanists (the New Prophecy) - the earliest sustained inside-the-window testimony to Montanism's Phrygian origin, its spread, and the synodical opposition of Asia Minor's churches; the movement's start date is disputed between c. 157 (Epiphanius) and c. 172 (Eusebius's implied chronology), with current scholarship favoring the later end",
+                  "locus": "the synodical opposition of Asia Minor's churches, near this world's own closing edge",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ],
           "quote_offers": [],
           "attempts_meta": {
             "empty_stream_retries": 0
@@ -1115,10 +778,9 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "One of us, Ignatius, calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
+                "sentence": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
                 "tags": [
-                  "pahc.witness.jesus-as-god",
-                  "pahc.quote.jesus-christ-our-god"
+                  "pahc.witness.jesus-as-god"
                 ],
                 "verdict": "ok",
                 "why": "grounded 100% in own tagged records",
@@ -1167,55 +829,40 @@
                 "why": "exempt: honesty scaffolding / sanctioned self-naming"
               },
               {
-                "sentence": "We believed in one God, maker of everything.",
+                "sentence": "Justin, writing to the emperor, says something else that bears here: that God's own Word was present in some measure in every people, so that even a reasonable person born before Christ could in that sense already be called a Christian.",
                 "tags": [
                   "pahc.witness.god-and-argument"
                 ],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "why": "grounded 76% in own tagged records",
+                "ratio": 0.76
               },
               {
-                "sentence": "But if you are asking what we argued about among ourselves, the honest answer is not God's nature.",
+                "sentence": "He was reaching for something about how Christ relates to God and to all peoples - but again, it is an opening gesture, not a settled answer.",
                 "tags": [
                   "pahc.witness.god-and-argument"
                 ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
+                "verdict": "withhold",
+                "why": "specific claim (figure-name:['god']) only 27% grounded in its own tags",
+                "ratio": 0.27
               },
               {
-                "sentence": "No gathering of ours ever met to settle a question like that about God.",
-                "tags": [
-                  "pahc.witness.god-and-argument"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
+                "sentence": "What we gave you at the table was thanksgiving through Jesus to the Father.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['jesus']) with no citation tag"
               },
               {
-                "sentence": "That kind of deciding belongs to a later world.",
-                "tags": [
-                  "pahc.witness.god-and-argument"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
+                "sentence": "What we said in worship was that Jesus is God.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['jesus']) with no citation tag"
               },
               {
-                "sentence": "What we actually argued about, letter after letter, was who should lead us: one bishop, or a council of elders.",
-                "tags": [
-                  "pahc.witness.god-and-argument"
-                ],
+                "sentence": "The worked-out answer to how both those things hold together at once - that belongs to a later world than ours.",
+                "tags": [],
                 "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "That was our real fight.",
-                "tags": [
-                  "pahc.witness.god-and-argument"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
+                "why": "no checkable claim - interpretive/connective framing"
               }
             ],
             "substantive_survives": true

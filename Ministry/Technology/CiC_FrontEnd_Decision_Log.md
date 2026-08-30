@@ -1578,3 +1578,16 @@ Three findings, three fixes, all design-level:
    evidence block as one ALREADY INTRODUCED THIS SESSION line. Session
    state made visible; the voice finds its own words - no forced
    saying, per his standing ruling.
+
+Addendum, same day: four probes showed the per-turn signal losing to
+the compiled exemplar - demo.center-jesus-as-god answers its own canon
+question verbatim, "One of us, Ignatius," included. Mark: "make the
+record edit and re-probe." Three center spoken openings now speak the
+plain name; introduction is the system's job (name-bridge mark on
+first meeting - fixed the same day to match comma-role epithets like
+"Ignatius, bishop of Antioch" on the bare head - and the
+already-introduced signal after). The verification probe: first
+mention "Ignatius wrote against people...", second mention "Ignatius
+calls Jesus Christ our God again and again" - the reintroduction is
+gone, and both names bridged in the UI. Repinned:
+packages/pahc/2026-08-30T02-13-07Z.
