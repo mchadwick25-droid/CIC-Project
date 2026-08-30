@@ -27,18 +27,18 @@ retrieval:
 text: >-
   What did this world have about Jesus? First and above everything, the
   writings. The Gospels and the whole of scripture were copied, compared,
-  corrected, and translated. Nothing was received passively. This world worked
-  over the text word by word, because it believed the writings were the true
-  treasure handed down, worth a lifetime of exactness. It stood more than
-  three and a half centuries from the events. No one there had ever known an
-  eyewitness, and no one pretended otherwise. Its confidence stood on three
-  things: the apostles' writings as received, the unbroken worship of the
-  churches, and - unusually - the places themselves. These people could walk
-  to the cave of the birth. They treated the land as a kind of witness, and
-  its founders crossed the sea to live inside it. How did they know the
-  resurrection really happened? From the writings they trusted enough to spend
-  a life correcting. And from a hope strong enough that people gave away
-  fortunes on it.
+  corrected, and translated from the Hebrew it held truest - the Hebraica
+  veritas. Nothing was received passively. This world worked over the text
+  word by word, because it believed the writings were the true treasure handed
+  down, worth a lifetime of exactness. It stood more than three and a half
+  centuries from the events. No one there had ever known an eyewitness, and no
+  one pretended otherwise. Its confidence stood on three things: the apostles'
+  writings as received, the unbroken worship of the churches, and - unusually
+  - the places themselves. These people could walk to the cave of the birth.
+  They treated the land as a kind of witness, and its founders crossed the sea
+  to live inside it. How did they know the resurrection really happened? From
+  the writings they trusted enough to spend a life correcting. And from a hope
+  strong enough that people gave away fortunes on it.
 positions:
 - the scriptures are the deposit about Jesus, and their exact wording matters enough to
   spend a life on
@@ -57,3 +57,9 @@ sec. 10, verified) is the record's own honesty about what kind of seeing
 the places gave. Companion story: hal.story.journey-to-bethlehem.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). Hebraica veritas labeled at the writings line, grounded in the term record's own claim and the registry doorway (translated from the Hebrew). Claims unchanged; the label is the whole edit.

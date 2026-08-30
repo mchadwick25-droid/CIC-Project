@@ -2,84 +2,133 @@
 complaint that started this whole audit (Mark, live site, 2026-08-09: "it
 uses complicated words ... catechumen and Didache"). `glosses` has been a
 required key on every voice_turn event since the catalog was written
-(engine/m4/events.py) and hardcoded to `[]` in every branch that builds
-one - this is the first code that populates it.
+(engine/m4/events.py); this module populates it.
 
-The old system's approach (cic-poc/backend's `confirmed_glosses.py`) was a
-hand-curated, world-by-world allowlist - reviewed and added "one at a
-time, per the project owner's own request," specifically to avoid the
-Goodhart failure transparency_reach.py's own docstring names: "driving
+HISTORY OF THE FIRING RULE - two designs, and Mark's ruling between them.
+The old system (cic-poc/backend's `confirmed_glosses.py`) word-matched a
+hand-curated allowlist. The first record-native build here swung the
+other way: citation-anchored - a gloss fired only when the voice CITED
+the term record AND said the word in that cited sentence - to avoid the
+Goodhart failure transparency_reach.py's docstring names ("driving
 coverage up by glossing everything would produce a Representative who
-lectures." That discipline is honored here differently, not abandoned:
-rather than a maintained list of which words to watch for, a gloss only
-ever fires on a term the model ALREADY cited - the same [[record.id]] tag
-the citation-verification net already checked before any of this text
-reached the participant. A term mentioned in passing, uncited, never
-glosses; a term the voice grounded a claim in, and said in the same
-sentence it tagged, does. This can't over-glean by construction: its
-ceiling is exactly the fleet's own citation rate, which is itself
-governed (grounding_net's own withhold discipline) - there is no version
-of this module that "glosses everything," because it never introduces a
-term the voice didn't already choose to cite.
+lectures"). Measured on the live pilot (2026-08-30), that lock never
+opened: when the voice says "Logos" it grounds the sentence in the
+doctrinal witness where the claim lives, not in the lexicon entry, so
+glosses fired zero times across every probe while the name bridge (a
+plain text scan) lit every author. Mark's ruling: "the lexicon is not
+working ... and it is the heart of the depth. so when Alexandria talks
+about Logos (a core word for their world) that should be [marked] with
+a hover and click access to the glossary that is built in the system."
 
-First occurrence only, per session - same discipline, same threading
-pattern (already_bridged_ids, caller-supplied) as
-engine.m4.name_bridge.find_figures_used.
+So this is now the same design as engine.m4.name_bridge: a detection
+pass over the finished turn text, string-only, no model call, gating
+nothing. The lecturing fear is answered by the lexicon itself, not by
+citation-anchoring: the world's term records ARE the curated allowlist
+(Doc_03's own deliberately built, tiered, reviewed vocabulary), the
+first-occurrence-per-session grammar keeps the thread calm (same
+already_bridged_ids threading as the name bridge), and the mark is
+UI-only - it never adds a word to what the voice says.
 """
 import re
 
-from engine.m4.citation_cards import resolve_source_card
 
-
-def _matchable_form(term_record: dict) -> str | None:
-    word = term_record.get("world_word")
+def _matchable_forms(term_record: dict) -> list[str]:
+    """Every string a voice would actually say for this term's world_word.
+    The corpus writes the field three ways, measured fleet-wide (35
+    compound forms across the six worlds): a parenthetical aside that is
+    never spoken verbatim ("anastasis (resurrection)" - the head is the
+    word), comma pairs where both halves are real words ("baptism,
+    photismos"), and slash lists of alternate forms ("geron / abba /
+    amma"). The full pre-parenthetical form always rides first - a longer
+    phrase like "Imperator intra Ecclesiam, non supra Ecclesiam" still
+    matches whole - with the pieces after it. Fragments under three
+    characters are dropped rather than word-matched."""
+    word = (term_record.get("world_word") or "").split(" (", 1)[0].strip()
     if not word:
-        return None
-    return word.split(" (", 1)[0].strip()
+        return []
+    forms = [word]
+    for sep in (",", "/"):
+        if sep in word:
+            forms.extend(piece.strip() for piece in word.split(sep))
+    seen: set[str] = set()
+    out = []
+    for form in forms:
+        key = form.lower()
+        if len(form) >= 3 and key not in seen:
+            seen.add(key)
+            out.append(form)
+    return out
 
 
-def find_glosses_used(citations: list[dict], repository_records: dict[str, dict], *, already_bridged_ids: set[str] | None = None) -> list[dict]:
-    """One entry per cited TERM record whose world_word (head form, before
-    any parenthetical - "allegoria (the spiritual sense)" matches on
-    "allegoria") appears in the very sentence that cited it, in citation
-    order (which is sentence order - engine.m4.grounding_net.check_turn
-    walks the turn's sentences in the order they appear), skipping
-    anything in already_bridged_ids.
+def _form_pattern(form: str) -> tuple[str, int]:
+    """(pattern, flags) for one form. Case-insensitive by default, same as
+    the name bridge - but a form whose CAPITAL sits past the first
+    character ("the Word", "the Son", "the Two Ways") is distinguished
+    from ordinary prose BY that capital, and matching it case-blind is a
+    measured false positive, not a hypothetical: "The word meant the
+    whole church" (a sentence about the word 'catholic') lit the
+    Christ-as-Word gloss on the first fleet-wide dry run. Such forms
+    match case-sensitively, with only the first letter flexible (a
+    sentence-initial "The Word" still matches)."""
+    if any(c.isupper() for c in form[1:]):
+        first, rest = form[0], re.escape(form[1:])
+        if first.isalpha():
+            return rf"\b[{first.upper()}{first.lower()}]{rest}\b", 0
+        return rf"\b{re.escape(form)}\b", 0
+    return rf"\b{re.escape(form)}\b", re.IGNORECASE
 
-    Deliberately narrower than engine.m4.name_bridge.find_figures_used:
-    that module searches the whole turn's text for any figure's name,
-    because a name carries meaning independent of being cited. A term's
-    definition is only worth surfacing where the voice itself just used
-    it AS grounding - so this checks the term's own cited sentence, not
-    the whole turn.
+
+def find_glosses_used(text: str, citations: list[dict], repository_records: dict[str, dict], *, already_bridged_ids: set[str] | None = None) -> list[dict]:
+    """One entry per term record whose world_word (any matchable form -
+    see _matchable_forms) appears in `text`, ordered by where it first
+    appears, skipping anything in already_bridged_ids - the identical
+    contract, span discipline, and tie-break as
+    engine.m4.name_bridge.find_figures_used:
+
+    - Word-boundary, case-insensitive; matched_name is the text's own
+      substring (the frontend locates it with a plain indexOf).
+    - Two records tying on the exact same (position, matched text) - e.g.
+      alx.term.baptism's "photismos" piece against alx.term.photismos
+      itself - resolve deterministically to the lowest id, consuming one
+      gloss chance, not both.
+
+    `sourced_by` carries the flattened source cards of whichever citation
+    sentence the matched word sits inside (citations here are
+    resolve_citation_sources output) - and an empty list when the word's
+    sentence carries no citation: an honest "nothing was cited here,"
+    never a fabricated source. The term record's own meanings always ride
+    regardless, straight from the compiled lexicon entry.
     """
     already = set(already_bridged_ids or ())
+    by_span: dict[tuple[int, str], list[dict]] = {}
+    for record in repository_records.values():
+        if record.get("record_type") != "term" or record.get("id") in already:
+            continue
+        best: tuple[int, str] | None = None
+        for form in _matchable_forms(record):
+            pattern, flags = _form_pattern(form)
+            match = re.search(pattern, text, flags)
+            if match and (best is None or match.start() < best[0]):
+                best = (match.start(), match.group(0))
+        if best is not None:
+            by_span.setdefault(best, []).append(record)
+
+    hits = [(start, min(candidates, key=lambda r: r["id"]), matched_name) for (start, matched_name), candidates in by_span.items()]
+    hits.sort(key=lambda h: h[0])
+
     out = []
-    for citation in citations:
-        sentence = citation.get("sentence") or ""
-        for record_id in citation.get("record_ids") or []:
-            if record_id in already:
-                continue
-            record = repository_records.get(record_id)
-            if record is None or record.get("record_type") != "term":
-                continue
-            form = _matchable_form(record)
-            if not form:
-                continue
-            match = re.search(rf"\b{re.escape(form)}\b", sentence, re.IGNORECASE)
-            if not match:
-                continue
-            already.add(record_id)
-            card = resolve_source_card(record_id, repository_records)
-            out.append(
-                {
-                    "id": record_id,
-                    "matched_name": match.group(0),
-                    "plain_meaning": record.get("plain_meaning"),
-                    "quick_meaning": record.get("quick_meaning"),
-                    "translational_sense": (record.get("senses") or {}).get("translational"),
-                    "false_friend": record.get("false_friend") or [],
-                    "sourced_by": card["sources"] if card else [],
-                }
-            )
+    for _pos, record, matched_name in hits:
+        sentence = next((c for c in citations if matched_name in c.get("sentence", "")), None)
+        sourced_by = [source for card in (sentence.get("sources") or [] if sentence else []) for source in card["sources"]]
+        out.append(
+            {
+                "id": record["id"],
+                "matched_name": matched_name,
+                "plain_meaning": record.get("plain_meaning"),
+                "quick_meaning": record.get("quick_meaning"),
+                "translational_sense": (record.get("senses") or {}).get("translational"),
+                "false_friend": record.get("false_friend") or [],
+                "sourced_by": sourced_by,
+            }
+        )
     return out

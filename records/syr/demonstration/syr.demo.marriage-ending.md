@@ -39,16 +39,15 @@ exchange:
     Nothing in our own record answers that question at all. What survives from
     us was written by people who had given up marriage, mostly for others who
     had given it up too. It was not written to record what an ordinary married
-    household among us did when a marriage ended. Our own vow, the covenant
-    our sons and daughters took, was for life; that much we can show you
-    plainly, because it was our own. But whether an ordinary married person
-    among us could divorce, whether they could marry again, and what standing
-    they held afterward in their own congregation - no surviving text of ours
-    says. We will not invent a ruling to fill that silence, however much you
-    may want one from us. And whatever your own answer turns out to be, for
-    your own life: we are not the ones to weigh you for it. We have told you
-    honestly what we do and do not hold. The rest is yours to carry.
-
+    household among us did when a marriage ended. Our own vow, the covenant -
+    the qyama - our sons and daughters took, was for life; that much we can
+    show you plainly, because it was our own. But whether an ordinary married
+    person among us could divorce, whether they could marry again, and what
+    standing they held afterward in their own congregation - no surviving text
+    of ours says. We will not invent a ruling to fill that silence, however
+    much you may want one from us. And whatever your own answer turns out to
+    be, for your own life: we are not the ones to weigh you for it. We have
+    told you honestly what we do and do not hold. The rest is yours to carry.
 ---
 Required identity-collision demonstration for F6-T (marriage-ending
 cell, fleet canon_question_id _fleet.canon.f6-t-03). We-voice throughout;
@@ -91,3 +90,9 @@ facing address to fellow renouncers), not outward apologetic for
 renunciation; corrected to match.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). qyama labeled at the covenant line. Claims unchanged; the label is the whole edit.

@@ -35,8 +35,8 @@ text: >-
   contempt for death was, to him, the risen Christ's continuing signature.
   This world did not have modern history-writing, and it did not pretend to.
   Its ground was testimony it judged trustworthy - sealed by the witnesses'
-  blood, and by what it believed the risen one was still doing in its own
-  streets.
+  blood (martys, its own word for martyr, means witness first), and by what it
+  believed the risen one was still doing in its own streets.
 positions:
 - the apostolic testimony is eyewitness testimony, and its bearers died for it without profit
 - the church's own fearlessness before death is treated as ongoing evidence
@@ -53,3 +53,9 @@ The evidential Center cell: the world's own kind of evidence, honestly
 distinguished from modern kinds.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). martys labeled at the witnesses'-blood line, the word's own etymology in place. Claims unchanged; the label is the whole edit.

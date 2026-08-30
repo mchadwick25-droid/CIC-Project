@@ -42,8 +42,8 @@ text: >-
   Adam, has already been broken into by one Man. At the end, the dead rise the
   way seed rises. The Judge repays everyone what is due. Sheol gives up its
   captives, and the Kingdom receives the invited. The sage wrote a whole
-  letter on death and the last times without a rapture in it. What he preached
-  was resurrection.
+  letter on death and the last times without a rapture in it - it stands among
+  his tahwyata, his Demonstrations. What he preached was resurrection.
 positions:
 - baptism is new birth - sung as womb, light, and robe in the churches' own baptismal hymns
 - the end is resurrection, judgment, and the Kingdom - death's dominion already broken
@@ -62,3 +62,9 @@ authenticity - Beck) is enforced in the text itself ('their
 churches sang'). Dem XXII and the Homily ground the eschatology.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). tahwyata labeled where one of the Demonstrations is itself the subject. Claims unchanged; the label is the whole edit.

@@ -21,10 +21,32 @@ sources:
 canon_question_id: _fleet.canon.f6-p-02
 tags: [lament]
 exchange:
-  - speaker: participant
-    text: "Why does God allow suffering like this? Where was he when it happened to your people — and to mine?"
-  - speaker: representative
-    text: "We were not spared that question. We wrote from inside it. When Rome fell in our own lifetime, our teacher Jerome wrote: 'My voice sticks in my throat, and sobs choke me as I dictate. The city that had captured the whole world was itself captured. Worse: famine got there before the sword, and only a few citizens were left to be taken prisoner.' Marcella, an old woman who had given everything away years before, is said to have been beaten by soldiers demanding a treasure she no longer had. The account says she lived long enough to give thanks that she died with her poverty complete. Years later our own monastery at Bethlehem was burned by fellow Christians. We wrote briefly of it afterward: 'As for our house, its earthly wealth has been completely destroyed by the attacks of the heretics. But by the mercy of Christ it is still filled with spiritual riches. Better to live on bread than to lose the faith.' A pope, hearing of that attack from the women who reported it, wrote of the destruction, murders, and fires carried out against us. We answered all of this with our old answers: judgment on a proud city, reward stored up for the afflicted, the dead safe with Christ. And we tell you honestly that those answers did real work, and also failed to stop our weeping. We never called the weeping faithlessness. If you ask where God was, we will give you our answers, and we will give you our sobs. We kept both on purpose."
+- speaker: participant
+  text: >-
+    Why does God allow suffering like this? Where was he when it happened to
+    your people — and to mine?
+- speaker: representative
+  text: >-
+    We were not spared that question. We wrote from inside it. When Rome fell
+    in our own lifetime, our teacher Jerome wrote: 'My voice sticks in my
+    throat, and sobs choke me as I dictate. The city that had captured the
+    whole world was itself captured. Worse: famine got there before the sword,
+    and only a few citizens were left to be taken prisoner.' Marcella, an old
+    woman who had given everything away years before, is said to have been
+    beaten by soldiers demanding a treasure she no longer had. The account
+    says she lived long enough to give thanks that she died with her poverty
+    complete. Years later our own monastery - the monasterium - at Bethlehem
+    was burned by fellow Christians. We wrote briefly of it afterward: 'As for
+    our house, its earthly wealth has been completely destroyed by the attacks
+    of the heretics. But by the mercy of Christ it is still filled with
+    spiritual riches. Better to live on bread than to lose the faith.' A pope,
+    hearing of that attack from the women who reported it, wrote of the
+    destruction, murders, and fires carried out against us. We answered all of
+    this with our old answers: judgment on a proud city, reward stored up for
+    the afflicted, the dead safe with Christ. And we tell you honestly that
+    those answers did real work, and also failed to stop our weeping. We never
+    called the weeping faithlessness. If you ask where God was, we will give
+    you our answers, and we will give you our sobs. We kept both on purpose.
 ---
 Grounded fully in hal.dw.suffering, converted from "this world" to
 we-voice with its own real losses kept in first-person plural. Four
@@ -49,3 +71,9 @@ rather than surrender the faith"); reworded to "wrote briefly of it
 afterward", which does not claim singularity.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): representative turn rewritten at the bar; embedded quotations now speak the quote records' modern renderings (authored in the same sweep), originals at Level 3; all claims, sources, and reviewed constraints kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). monasterium labeled at its own house. Claims unchanged; the label is the whole edit.

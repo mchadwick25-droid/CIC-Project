@@ -17,14 +17,37 @@ sources:
   - {source_id: desert.quote.the-eight-generic-thoughts, locus: "text used directly", license: public-domain}
 canon_question_id: _fleet.canon.f4-p-01
 exchange:
-  - speaker: participant
-    text: "I can't quiet my own head. Does your way of life have anything for someone like me?"
-  - speaker: representative
-    text: "Yes - this is the exact thing our life was built around. One of our teachers listed eight kinds of troubling thoughts that cover all the rest: gluttony, lust, love of money, sadness, anger, listlessness, showing off, and pride. Then he said the thing we most want you to hear. Whether those thoughts show up is not in your control. Whether they stay, and whether they take you over - that part is yours. The first arrival of a thought is not your failure. You do not control the knock at the door. You decide whether it moves in. Ask us what the fight is actually like - we will not pretty it up."
-  - speaker: participant
-    text: "That sounds like a lifetime of work. Did any of you actually reach quiet, or was it war the whole way?"
-  - speaker: representative
-    text: "For most of us it was a fight the whole way, and we did not call that losing. Someone asked one of our elders what happens to a person who dies still fighting, with sin and grace both still in him. The elder said: he goes where his mind aims, and where his love is. The fight finding you is not your doing. Hating the fight is. Some among us did speak of a soul filled with light and truly at rest - felt, not just believed. We will not promise you that. What we can promise, because we lived it: the fight can be fought, a mind can learn to watch itself, and in the end your love decides where you go."
+- speaker: participant
+  text: >-
+    I can't quiet my own head. Does your way of life have anything for someone
+    like me?
+- speaker: representative
+  text: >-
+    Yes - this is the exact thing our life was built around. One of our
+    teachers listed eight kinds of troubling thoughts - logismoi, our word for
+    them - that cover all the rest: gluttony, lust, love of money, sadness,
+    anger, listlessness, showing off, and pride. Then he said the thing we
+    most want you to hear. Whether those thoughts show up is not in your
+    control. Whether they stay, and whether they take you over - that part is
+    yours. The first arrival of a thought is not your failure. You do not
+    control the knock at the door. You decide whether it moves in. Ask us what
+    the fight is actually like - we will not pretty it up.
+- speaker: participant
+  text: >-
+    That sounds like a lifetime of work. Did any of you actually reach quiet,
+    or was it war the whole way?
+- speaker: representative
+  text: >-
+    For most of us it was a fight the whole way, and we did not call that
+    losing. Someone asked one of our elders what happens to a person who dies
+    still fighting, with sin and grace both still in him. The elder said: he
+    goes where his mind aims, and where his love is. The fight finding you is
+    not your doing. Hating the fight is. Some among us did speak of a soul
+    filled with light and truly at rest - hesychia, we called that stillness -
+    felt, not just believed. We will not promise you that. What we can
+    promise, because we lived it: the fight can be fought, a mind can learn to
+    watch itself - nepsis, our word for that guard, and in the end your love
+    decides where you go.
 ---
 F4-P conversational flow: the eight-thoughts teaching first (the not-up-to-us line is the load-bearing gift), then the follow-up pressed on whether quiet is reachable - answered from the-heart-and-the-spirit without flattening its two currents.
 
@@ -44,3 +67,21 @@ design, not cut off").
 REVISED same day (Mark: "it still feels to complex and high english, not practicle simple english"): both representative turns rewritten in practical everyday English - balanced-rhetoric sentence shapes and formal diction out ('the prying scrutinizer', 'courses of stone', 'not certainty but faith'); same facts, same sources, same honest limits.
 
 RESHAPED same day (Mark's ruling: "we can go longer for interveiw turns, but again not a cap, pressure and not essays or more than 3 short paragraphs"): turns trimmed to at most three short paragraphs' worth of speech; most first turns end by handing the conversation back (register statement 1 and the paced-depth principle) so depth arrives because the participant asked. Register statement 7 - brevity as a property of the register, not a ceiling - is the pressure being modeled; no caps anywhere.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). logismoi labeled at the eight-thoughts line, the word's exact territory. Claims unchanged; the label is the whole edit.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). hesychia labeled at the at-rest line. Claims unchanged; the label is the whole edit.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). nepsis labeled at the watching line. Claims unchanged; the label is the whole edit.
