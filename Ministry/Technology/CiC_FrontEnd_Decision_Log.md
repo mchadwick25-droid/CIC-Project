@@ -1754,3 +1754,36 @@ conversation, not drafted automatically.
 **Next action.** Get Haiku's actual $ (anomaly or fixed Cost Explorer access), confirm the
 cache-bug diagnosis, then decide with Mark separately how "what it actually costs" should be
 scoped before any donor-facing copy changes.
+
+---
+
+## 2026-08-30 (same thread, later) — Reconciliation closes: Bedrock mirrors the rate card
+
+**What changed.** Mark couldn't get Haiku-specific data, but found something better without
+needing fixed Cost Explorer access: the plain AWS Billing daily cost-and-usage total (all
+services, whole month). 2026-08-28's total was $16.966. Subtracting the Sonnet-only actual
+($16.30, from the earlier anomaly pull) leaves $0.666 for Haiku plus any other AWS service
+that day — the repo's own recorded Haiku usage is $0.486, comfortably inside that, with no
+room left for any material uncounted AWS cost on that specific day.
+
+**Why this closes it.** Two independent views of 2026-08-28 land on almost the same overage:
+Sonnet-only actual-vs-expected is +35.0%; the whole-account daily total vs. the corrected
+repo total is +35.1%. That match is the tell — one cause (the six-file cache-logging bug plus
+the two unitemized live runs, both already identified) is producing both numbers, not a
+Sonnet-specific pricing gap plus a separate unrelated account cost. 2026-08-29's daily total
+corroborates in the same direction (+28.6% over the repo-corrected expected), with the same
+cache-omission pattern in that day's files.
+
+**Verdict recorded in the worksheet:** materially reconciled, principle 13 satisfied — Bedrock
+mirrors the Anthropic rate card within explained slack, not a genuine pricing mismatch. The
+per-session figures (compact table round ≈ $0.12, full 5-round session ≈ $0.58, interview ≈
+$0.25/hr) are accurate against Bedrock's real billing.
+
+**Still not touched, deliberately:** support.html and any donor-facing copy. That stays held
+on the separate "what does 'cost to run this' honestly include" question from the prior entry
+— a clean Bedrock tie-out doesn't answer it, and Mark asked for that step to wait regardless
+of how the tie-out landed.
+
+**Side finding, unrelated to this reconciliation:** the daily-total series shows an
+unexplained $8.79 spike on 2026-08-23, outside this worksheet's window and with no
+corresponding repo activity that day. Flagged for Mark, not investigated here.

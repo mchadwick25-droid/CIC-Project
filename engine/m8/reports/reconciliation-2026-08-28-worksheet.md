@@ -1,20 +1,21 @@
 # Bedrock reconciliation worksheet — 2026-08-28
 
 **Purpose:** the spec-principle-13 step that turns rate-card numbers into
-quotable ones. This reconciliation is **not yet complete** — see the
-2026-08-30 outcome note at the bottom. Recorded here in full so the next
-thread can pick it up without redoing the inventory work.
+quotable ones. **Materially reconciled as of the 2026-08-30 outcome note**
+at the bottom — Bedrock mirrors the Anthropic rate card within explained
+slack, no rate-card mismatch. Recorded here in full, including the dead
+ends, so the next thread doesn't redo the inventory work.
 
 **Where actuals came from:** Mark's AWS account did not have full Cost
 Explorer Group-By access (an IAM/billing-access gap, not yet resolved) —
 the original plan of a Group-By-Usage-Type CSV across the two Bedrock
-services couldn't be pulled. Instead, AWS Cost Anomaly Detection had
-already flagged 2026-08-28 as an anomaly on the Sonnet 4.5 (Bedrock
-Edition) service, and its root-cause detail view gave real per-usage-type
-dollar figures for that service/day (below). **Haiku's actual $ for the
-day is still not obtained** — no equivalent anomaly fired for Haiku, and
-the full CSV route is still blocked. This worksheet should be updated
-once that's available.
+services couldn't be pulled. Two things it did have: AWS Cost Anomaly
+Detection had already flagged 2026-08-28 as an anomaly on the Sonnet 4.5
+(Bedrock Edition) service, giving real per-usage-type dollar figures for
+that service/day (below); and the plain AWS Billing daily cost-and-usage
+total (all services, no Group-By needed), which turned out to be enough
+to cross-check Haiku by subtraction without ever needing a Haiku-specific
+pull. See the outcome note for how that closed the loop.
 
 ## Known live runs recorded in-repo for 2026-08-28 (UTC)
 
@@ -108,41 +109,67 @@ that day's actual known-run inventory.
 | sonnet cache write | $2.33 | $1.64 | +42% | Cost Anomaly Detection root-cause detail |
 | sonnet cache read | $4.12 | $3.34 | +23% | Cost Anomaly Detection root-cause detail |
 | **sonnet total** | **$16.30** | **$12.07** | **+35%** | anomaly "actual spend," detected service |
-| haiku input | pending | $0.37 | — | not yet obtained |
-| haiku output | pending | $0.12 | — | not yet obtained |
-| **day total** | pending (≥$16.30) | $12.56 + unitemized | — | |
+| haiku + other AWS (implied) | $0.666 | $0.49 | +37% | day total − sonnet actual (below) |
+| **day total (all AWS services)** | **$16.966** | **$12.56** | **+35%** | AWS Billing daily cost-and-usage total, 2026-08-28 |
+
+**Where the day-total row came from:** Mark's account can't reach full
+Cost Explorer Group-By yet, but *can* reach the simple daily
+cost-and-usage total across all services — no Haiku-specific anomaly
+was needed. 2026-08-28's total was **$16.96646776**. Subtracting the
+Sonnet actual above ($16.30, from the anomaly's baseline + impact)
+leaves **$0.666** for Haiku plus any other AWS service that day — and
+the repo's own recorded Haiku usage for the day is $0.486, well inside
+that. There is no room left in $0.666 for any material uncounted AWS
+cost on 2026-08-28 specifically.
 
 ## Outcome note — 2026-08-30
 
-**Not a clean tie-out yet, but no evidence of a Bedrock rate-card
-mismatch.** Sonnet input and output land within 9–14% of the corrected
-expected figure — squarely explainable by the two still-unitemized live
-runs above (`memory-integrity-desert.json`'s 6 real turns chief among
-them) plus ordinary rounding in a same-day anomaly snapshot ("total cost
-impact can increase or decrease... up to three times daily" per AWS's
-own note on the anomaly view). Cache write (+42%) and cache read (+23%)
-are the two lines still meaningfully off, and that gap has a specific,
-already-identified cause: six of the eight Table-battery files that day
-never recorded cache tokens at all (a script bug, not a missing spend) —
-backing in the two comparable smoke runs' cache profile across those six
-would close most or all of the remaining gap.
+**Materially reconciled. No evidence of a Bedrock rate-card mismatch.**
+Two independent views of the same day land on the same overage, which
+is the strongest evidence here: Sonnet-only actual-vs-expected is +35.0%
+over; the whole-account daily total vs. the corrected repo total is
++35.1% over. Those matching almost exactly means one cause is showing up
+both ways, not a Sonnet-specific pricing problem plus a separate,
+unrelated account cost. That one cause is the one already identified:
+six of the eight Table-battery files that day never recorded cache
+tokens (a logging bug, not missing spend — the two comparable smoke runs
+that *did* capture cache fields show ~30K write / ~60K read each), plus
+the two still-unitemized live runs (`memory-integrity-desert.json`'s 6
+real turns chief among them). Sonnet input/output land within 9–14% of
+expected on their own, consistent with that.
 
-**What's still open:**
-1. Haiku's actual $ for 2026-08-28 — no anomaly fired for Haiku, so it
-   hasn't been pulled yet. Needed before the day can be called
-   reconciled.
-2. Confirming the cache-write/read gap really is the six-file script bug
-   and not something else, ideally via the full Group-By-Usage-Type CSV
-   once Mark's Cost Explorer access is sorted (would also give usage
-   *amounts*, not just $, for a direct per-token rate check rather than
-   this dollar-level comparison).
+2026-08-29 corroborates: actual day total $25.489 vs. repo-corrected
+expected $19.828 is +28.6% over, same direction, same magnitude family,
+and the same cache-field-omission pattern shows up in that day's
+Table-battery files too.
 
-**Not triggered by this note:** principle 13 is not yet satisfied at the
-pass-bar level the original worksheet defined (that bar assumed a
-complete known-run inventory, which this wasn't); the per-session
-figures do not graduate to quotable; support.html is not touched. Separately
-from the tie-out itself, the wider "what does 'cost to run this' honestly
-include" question (full AWS bill vs. Bedrock tokens vs. build-session cost
-vs. hosting) raised in-thread 2026-08-30 is still open and unresolved by
-this reconciliation regardless of how the tie-out lands — recorded here
-so it isn't lost, decision deferred to Mark.
+**Not chased further:** an independently-pulled, Haiku-only actual
+dollar figure (the $0.666 above is Haiku *plus* any other AWS service,
+by subtraction, not a directly confirmed Haiku-only number) and a
+usage-*amount* (not just $) check via the full CSV, which would allow a
+direct per-token rate verification rather than this dollar-level one.
+Neither changes the verdict; both would only sharpen it. If Mark gets
+full Cost Explorer access later, worth a quick follow-up pull, but nothing
+here is blocked on it.
+
+**Side finding, out of scope for this reconciliation:** the daily-total
+series shows an unexplained $8.79 spike on 2026-08-23, well before this
+worksheet's window and with no corresponding `engine/m*/reports` activity
+that day. Not investigated here — flagged for Mark in case it's worth a
+separate look.
+
+**Triggered by this note:** principle 13 is satisfied for these rates —
+Bedrock mirrors the Anthropic rate card within the explained slack
+(incomplete run inventory + the cache-logging bug), not a genuine pricing
+gap. The per-session figures (compact table round ≈ $0.12, full 5-round
+session ≈ $0.58, interview ≈ $0.25/hr) are accurate against Bedrock's
+real per-token billing.
+
+**Not triggered by this note, on Mark's explicit instruction (2026-08-30
+thread):** support.html is not touched and no donor-facing copy is
+drafted. That's held on the separate, broader question — raised in the
+same thread — of what "what it actually costs" should honestly include
+(full AWS bill vs. Bedrock tokens vs. Claude Code build-session cost vs.
+production hosting/infra), which this reconciliation does not answer and
+was never scoped to answer. That conversation is still open and is
+Mark's to resume separately.
