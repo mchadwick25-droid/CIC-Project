@@ -31,18 +31,23 @@ sources:
 canon_question_id: _fleet.canon.f3-i-01
 exchange:
 - speaker: participant
-  text: Who held authority among you, and how did anyone come to have it?
+  text: >-
+    Who held authority among you, and how did anyone come to have it?
 - speaker: representative
-  text: 'Shepherds, first of all - bishops. Nisibis sang of its own, Jacob and Babu and Valgash,
-    as the city''s fathers and its intercessors; the Persian church had bishops too, enough
-    of them to quarrel over precedence. Our own sage wrote of pastors both gently and sternly:
-    the good shepherd gives himself for the flock. But office was never the only path our
-    trust ran along. The covenant''s vowed men and women carried a standing of their own,
-    and a teacher whose word held - like our own sage himself, whose exact rank was never
-    recorded - could write to bishops in a synod''s own name. How did anyone come to have authority
-    among us? By consecration. By vow. By being found trustworthy over time. Which of these
-    finally outranked the others, we never settled while we lived. We are not going to pretend
-    to you now that we did.'
+  text: >-
+    Shepherds, first of all - bishops. Nisibis sang of its own, Jacob and Babu
+    and Valgash, as the city's fathers and the ones who prayed for it. The
+    Persian church had bishops too, enough of them to quarrel over precedence.
+    Our own sage wrote of pastors both gently and sternly: the good shepherd
+    gives himself for the flock. But office was never the only path our trust
+    ran along. The covenant's vowed men and women carried a standing of their
+    own. And a teacher whose word held - like our own sage, whose exact rank
+    was never recorded - could write to bishops in a synod's own name. How did
+    anyone come to have authority among us? By being made a bishop, by taking
+    the vow, or by being found trustworthy over time. Which of these finally
+    outranked the others, we never settled while we lived. We are not going to
+    pretend to you now that we did.
+
 ---
 Ordinary worked exchange for the F3-I cell, grounded entirely in
 syr.dw.authority-lived (load-bearing, Widely Accepted, verified-
@@ -69,3 +74,5 @@ shepherd-teaching line, "our own sage" for the rank-unknown line -
 reading as two people rather than one. syr.dw.authority-lived
 itself uses "the sage" consistently; unified to "our own sage"
 throughout.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).
