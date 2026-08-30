@@ -1681,3 +1681,23 @@ cup" (not "eucharistia") and Mar Yausep says "the Only-Begotten"
 habitually speaks the English rendering of its own word, making that
 rendering reachable is a per-record world_word authoring decision, not
 a code gap.
+
+Fleet rollout, same day (Mark: "run the pass on the other five worlds
+then merge it"): every world's words labeled at their one natural
+home. Glow after the pass, measured against each pinned build's own
+spoken exemplars: alx 14/51 (Logos, homoousios, anastasis,
+apokatastasis at Origen's hope, pistis, martys, psyche, eucharistia,
+the Word, the Son...), desert 7/18 (logismoi at the eight-thoughts
+line, hesychia, nepsis, diakrisis, apophthegma, apatheia), syr 7/10
+(Ihidaya on the center witness's first line, madrasha, qyama,
+raza+shrara, tahwyata, the Ewangeliyon da-Mhallete), hal 6/23 (the
+translation labor/Vulgata, Hebraica veritas, vidua, monasterium,
+renuntiatio, epistula), ijc 6/12 (homoousios and homoios at the
+argument's own two poles, concilium, primatus, Tomus), pahc 9/13.
+Honest skips recorded per world where no grounded home exists in the
+spoken corpus - alx's formation-curriculum words (theosis, gnosis,
+katechesis, allegoria...) chief among them: the exemplars answer the
+fleet canon, not the curriculum; those words still light live whenever
+the voice actually speaks them. One matching fix from the fleet dry
+run: internal-capital forms ('the Word') match case-sensitively, so
+'The word meant the whole church' no longer lights the Christ gloss.
