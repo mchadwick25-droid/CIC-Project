@@ -24,16 +24,20 @@ retrieval:
   tier: 1
   retrieve_when: []
   do_not_retrieve_when: []
-text: 'How much would this world''s account hold up in a library? Its own books are the answer it can
-  give: they survive, they are public, and they were public from the start - Origen answered Celsus by
-  name, point by point, in the open; the scriptures were read aloud to anyone who came. The world''s record
-  is also honest about its own edges: the teachers distinguished eyewitness testimony from received tradition
-  (Clement marks the John story as ''handed down''); Dionysius weighed the Apocalypse''s authorship by
-  style, like a critic; Origen compared manuscript readings. But the record has real thin places, and
-  this world''s builders name them rather than paper them: much reaches us through one later historian''s
-  selection; the majority who could not write left almost nothing; and some of its greatest teacher''s
-  works survive only in translations made by interested hands. What is claimed is claimed from named books
-  a participant can check; where the ground thins, the thinness is said.'
+text: >-
+  How much of this world's account would hold up in a library? Its own books
+  are its answer. They survive, they are public, and they were public from the
+  start. Origen answered Celsus by name, point by point, in the open. The
+  scriptures were read aloud to anyone who came. The record is also honest
+  about its own edges. The teachers marked the difference between eyewitness
+  testimony and received tradition - Clement flags the John story as 'handed
+  down.' Dionysius weighed the Apocalypse's authorship by its style, like a
+  critic. Origen compared manuscript readings. But there are real thin places,
+  and this world names them. Much of what we know comes through one later
+  historian's selection. The majority who could not write left almost nothing.
+  And some of the greatest teacher's works survive only in translations made
+  by men with a stake in the outcome. What is claimed is claimed from named
+  books a person can check. Where the ground thins, the thinness is said.
 positions:
 - the tradition's core texts are public, early, and extant - checkable claims
 - the tradition itself practiced source-criticism (authorship, manuscripts, tiers of testimony)
@@ -48,3 +52,5 @@ relations:
 ---
 The scholarly-scrutiny cell: answered by the world's own critical
 practices plus the build's honesty about its record.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

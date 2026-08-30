@@ -38,15 +38,20 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative): Dionysi
   account from his book On the Promises, quoted by Eusebius (HE VII.24) - the participant''s own record
   of the event.'
 tellable_as: Bishop Dionysius's own account of the three days in the Arsinoite villages
-text: 'In the villages of the Arsinoite district, the churches had followed the teaching of Nepos, a bishop
-  they loved, who had written a book against the allegorists: the promises in Scripture, he said, meant
-  a thousand-year kingdom of plenty on this earth, plainly read. Nepos had died, and his book ruled whole
-  congregations. Dionysius did not send a condemnation. He went out to the villages, called together the
-  elders and teachers with any of the people who wished to come, and sat with them for three days, from
-  morning until evening, examining the book argument by argument. He wrote afterward that he loved Nepos
-  - his faith, his labor in the Scriptures, his psalms - ''but the truth should be loved and honored most
-  of all.'' The leader of the party, Coracion, was persuaded and said so before them all. Dionysius wrote
-  that he rejoiced most in this: that it ended not in a split, but in agreement reached in the open.'
+text: >-
+  In the villages of the Arsinoite district, the churches followed the
+  teaching of Nepos, a bishop they loved. He had written a book against the
+  allegorists. The promises in Scripture, he said, meant a thousand-year
+  kingdom of plenty on this earth, plainly read. Nepos had died, and his book
+  ruled whole congregations. Dionysius did not send a condemnation. He went
+  out to the villages. He called together the elders and the teachers, with
+  any of the people who wished to come, and sat with them for three days,
+  morning to evening, examining the book argument by argument. He wrote
+  afterward that he loved Nepos - his faith, his hard work in the Scriptures,
+  his psalms - 'but the truth should be loved and honored most of all.' The
+  leader of the other side, Coracion, was persuaded, and said so in front of
+  everyone. Dionysius wrote that this is what he rejoiced in most: it ended
+  not in a split, but in agreement reached in the open.
 absent_detail: The arguments exchanged across the three days are summarized by Dionysius, not transcribed;
   the villagers' own voices survive only in his report of their patience and honesty. Nepos's book itself
   is lost - it is known only through the man who refuted it, and a telling should say so.
@@ -64,3 +69,5 @@ decided - by patient open argument, here), F4-T (the end-times cell:
 this world read the promises spiritually against chiliasm), F6-I (what
 troubled them, handled inside the household). Companion records:
 alx.quote.dionysius-nepos, alx.contested.allegory-from-within.
+
+BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
