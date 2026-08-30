@@ -446,11 +446,11 @@ def _run_ordinary_voice_turn(
     figures_used = attach_cited_sources(figures_used, citations)
 
     # TERM/CONCEPT GLOSSES (VR_1A's other track; the original live-site
-    # complaint this whole audit started from). Anchored to citations, not
-    # independent word-matching - see engine.m4.term_glosses' own module
-    # docstring for why that can't reproduce the old system's lecturing
-    # failure.
-    glosses = find_glosses_used(citations, repository_records, already_bridged_ids=already_bridged_gloss_ids)
+    # complaint this whole audit started from). A text scan against the
+    # world's own lexicon - the same design as the name bridge above,
+    # per Mark's ruling (2026-08-30: "it is the heart of the depth");
+    # the module docstring carries the history of the firing rule.
+    glosses = find_glosses_used(answer_text, citations, repository_records, already_bridged_ids=already_bridged_gloss_ids)
 
     # No code-appended floor line. Program-Spec M5: "In-world thinness is
     # never intercepted - the honest limit is the voice's own testimony,
