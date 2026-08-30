@@ -830,13 +830,27 @@ def assemble_evidence(
     already_told_ids: set[str] | list[str] | None = None,
     top_n_cells: int = 2,
     history: list[dict] | None = None,
+    figures_already_named: list[str] | None = None,
 ) -> dict:
     """The full pipeline, Stages A -> E, deterministic, no model call.
     Returns {"cells": [...Stage A...], "candidates": [...B+C+E...],
-    "thin_ground": [...D...]} - the structured form; render_evidence_block
-    turns this into the §3.3 prose block. Kept separate so callers that
-    need the structure (tests, future SSE per-sentence citation anchors)
-    never have to re-parse rendered text."""
+    "thin_ground": [...D...], "figures_already_named": [...]} - the
+    structured form; render_evidence_block turns this into the §3.3 prose
+    block. Kept separate so callers that need the structure (tests, future
+    SSE per-sentence citation anchors) never have to re-parse rendered
+    text.
+
+    figures_already_named: display names (not record ids) of figures this
+    session's own prior turns already introduced - resolved by the caller
+    from the same already_bridged_figure_ids set the UI's first-occurrence
+    mark grammar already threads (engine.m4.turn.run_turn's docstring on
+    that param). Mark's pilot read (2026-08-30): both Chloe turns opened
+    "One of us, Ignatius" - the session knew he was introduced, but that
+    knowledge only ever suppressed the second underline; the voice itself
+    was never told, and its own record text carries the introduction
+    formula, so it reintroduced him. Same design as Stage E's
+    already-told annotation: session state made visible, the voice finds
+    its own words - never a forced saying."""
     cell_matches = match_asks_to_cells(
         message=message, asks=asks, canon_questions=canon_questions, repository_records=repository_records, top_n=top_n_cells
     )
@@ -909,7 +923,12 @@ def assemble_evidence(
     selected = apply_session_exclusion(selected=selected, already_told_ids=already_told_ids)
     thin_ground = thin_topic_riders(message=message, asks=asks, selected=selected, thin_topics=thin_topics)
 
-    return {"cells": cell_matches, "candidates": selected, "thin_ground": thin_ground}
+    return {
+        "cells": cell_matches,
+        "candidates": selected,
+        "thin_ground": thin_ground,
+        "figures_already_named": list(figures_already_named or []),
+    }
 
 
 def render_evidence_block(evidence: dict) -> str:
@@ -970,4 +989,9 @@ def render_evidence_block(evidence: dict) -> str:
     for topic in evidence["thin_ground"]:
         keywords = ", ".join(topic.get("keywords") or [])
         lines.append(f"- THIN GROUND (do not claim past it): {keywords} — {topic.get('note')}")
+    named = evidence.get("figures_already_named") or []
+    if named:
+        lines.append(
+            f"- ALREADY INTRODUCED THIS SESSION (the participant already knows these names; build on that rather than introducing them afresh): {', '.join(named)}"
+        )
     return "\n".join(lines) + "\n"

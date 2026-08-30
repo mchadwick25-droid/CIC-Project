@@ -74,6 +74,20 @@ def _matchable_forms(figure: dict) -> list[str]:
     return forms
 
 
+def spoken_name(figure: dict) -> str | None:
+    """The one short form of a figure's name a voice would say - the first
+    of _matchable_forms (in-world first, as stored; the same element-0
+    convention that function's own docstring promises callers). Public
+    because the evidence layer needs a display name for a figure the
+    session has already introduced (Mark's pilot read, 2026-08-30: both
+    Chloe turns opened "One of us, Ignatius" - the session tracked the
+    introduction, but only to suppress the UI's second mark; the voice
+    itself was never told), and resolving it here keeps one naming
+    convention instead of two."""
+    forms = _matchable_forms(figure)
+    return forms[0] if forms else None
+
+
 def find_figures_used(text: str, figures: list[dict], *, already_bridged_ids: set[str] | None = None) -> list[dict]:
     """One entry per figure record any of whose names (in-world or the
     short form of the scholarly name - see _matchable_forms) appears in

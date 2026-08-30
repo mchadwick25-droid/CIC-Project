@@ -247,7 +247,7 @@ def test_assemble_evidence_no_cell_still_returns_empty_but_valid_shape():
     evidence = assemble_evidence(
         message="What's the weather like?", asks=None, canon_questions=CANON_QUESTIONS, coverage=COVERAGE, repository_records=REPOSITORY
     )
-    assert evidence == {"cells": [], "candidates": [], "thin_ground": []}
+    assert evidence == {"cells": [], "candidates": [], "thin_ground": [], "figures_already_named": []}
 
 
 def test_assemble_evidence_wires_thin_ground_end_to_end():
@@ -319,6 +319,37 @@ def test_render_evidence_block_includes_thin_ground_line():
     block = render_evidence_block(evidence)
     assert "THIN GROUND" in block
     assert "ethnicity" in block
+
+
+def test_render_evidence_block_names_figures_already_introduced():
+    """Mark's pilot read (2026-08-30): both Chloe turns opened "One of us,
+    Ignatius" - the session's already_bridged_figure_ids suppressed the
+    UI's second underline but never reached the voice. The evidence block
+    is where the voice learns session state (same channel Stage E's
+    already-told annotation uses), so the caller-resolved names render
+    there; no names, no line."""
+    evidence = assemble_evidence(
+        message="What does your community remember of Jesus?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+        figures_already_named=["Ignatius", "Justin"],
+    )
+    assert evidence["figures_already_named"] == ["Ignatius", "Justin"]
+    block = render_evidence_block(evidence)
+    assert "ALREADY INTRODUCED THIS SESSION" in block
+    assert "Ignatius, Justin" in block
+
+    bare = assemble_evidence(
+        message="What does your community remember of Jesus?",
+        asks=None,
+        canon_questions=CANON_QUESTIONS,
+        coverage=COVERAGE,
+        repository_records=REPOSITORY,
+    )
+    assert bare["figures_already_named"] == []
+    assert "ALREADY INTRODUCED" not in render_evidence_block(bare)
 
 
 def test_a_morphological_variant_reaches_the_cell_its_root_defines():

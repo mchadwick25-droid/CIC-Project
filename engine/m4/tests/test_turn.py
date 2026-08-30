@@ -348,6 +348,45 @@ def test_ordinary_turn_wires_a_real_evidence_block_into_the_user_message():
     assert ask_text in user_message  # the participant's own message still rides alongside the evidence block
 
 
+def test_already_bridged_figures_reach_the_voice_as_an_already_introduced_line():
+    """Mark's pilot read (2026-08-30): both Chloe turns opened "One of us,
+    Ignatius" - already_bridged_figure_ids kept the second UI mark from
+    firing but never reached the voice. The set now also resolves to
+    spoken names and rides in the evidence block, so the voice knows the
+    participant has met the name. Without the kwarg, no line - a first
+    turn's prompt is unchanged."""
+    ask_text = "who was Jesus, to you and your people"
+    world = LoadedWorld(
+        world_key="fix",
+        manifest_hash="sha256:test",
+        prompt_text="## Identity\nVera, Witness.",
+        capsule_text="capsule",
+        repository={"records": [{"id": "fix.witness.who-is-jesus", "record_type": "doctrinal_witness", "text": "We did not claim to have seen him ourselves."}]},
+        quotes={"quotes": []},
+        figures={"figures": [
+            {"id": "fix.figure.the-elder", "names": [{"tag": "in-world", "name": "the Elder"}]},
+            {"id": "fix.figure.unmet", "names": [{"tag": "in-world", "name": "Rhoda"}]},
+        ]},
+        coverage={"C-I": {"doctrinal_witness": ["fix.witness.who-is-jesus"], "terms": [], "stories": [], "quotes": [], "honest_limit": [], "gravities": [], "forces": [], "contested_claims": []}},
+        frame={},
+    )
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(asks=[{"order": 1, "text": ask_text}]),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    run_turn(
+        session_id="test-session", voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        world=world, participant_message=ask_text, pressed={}, anachronistic_term_ids=set(),
+        already_bridged_figure_ids={"fix.figure.the-elder"},
+    )
+    _, messages = client.messages.captured_stream_calls[0]
+    user_message = messages[0]["content"]
+    assert "ALREADY INTRODUCED THIS SESSION" in user_message
+    assert "the Elder" in user_message
+    assert "Rhoda" not in user_message  # never introduced, so never listed
+
+
 def test_a_turn_the_net_cannot_ground_still_reaches_the_participant_whole():
     """Program-Spec M4 / Artifact-5 SS2: the checks gate decoration, never
     the text. An off-canon message and an untagged answer: the net records

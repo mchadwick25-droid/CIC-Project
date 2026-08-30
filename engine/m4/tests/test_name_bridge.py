@@ -147,3 +147,11 @@ def test_attach_cited_sources_is_honest_when_nothing_was_cited():
     figures_used = find_figures_used(text, figures)
     attached = attach_cited_sources(figures_used, citations_with_sources=[])
     assert attached[0]["sourced_by"] == []
+
+
+def test_spoken_name_is_the_head_of_the_first_recorded_name():
+    from engine.m4.name_bridge import spoken_name
+
+    assert spoken_name({"names": [{"tag": "in-world", "name": "the Persian sage"}, {"tag": "scholarly", "name": "Aphrahat (fl. 337-345)"}]}) == "the Persian sage"
+    assert spoken_name({"names": [{"tag": "scholarly", "name": "Aphrahat (fl. 337-345)"}]}) == "Aphrahat"
+    assert spoken_name({"names": []}) is None
