@@ -40,20 +40,28 @@ tensions:
 - "We do not resolve either of these for you now, because we could not resolve them then. Naming them honestly is the most honest thing this record can do."
 text: >-
   If you want the hardest true thing about us, it is this: we never agreed on
-  who should lead. In some of our towns, one bishop, with elders and deacons
-  beside him, was the whole shape of how we held together. In others, a
-  council of elders led, and no one felt anything was missing from that. Both
-  went on, unresolved, for as long as our own story runs - it was only settled
-  afterward, by people who came after us. And there is a second hard truth,
-  just as real: almost none of the people who actually filled our rooms left
-  any words of their own. Everything you can hear from us was written by
-  someone who could read and write, and mostly by someone who already led. The
-  poor among us, the enslaved among us, the ones who were simply there - we
-  cannot let you hear them. They were never given the chance to be heard in
-  the first place.
+  who should lead. In some of our towns, one bishop - the episkopos - with
+  elders and deacons beside him, was the whole shape of how we held together.
+  Presbyteros and diakonos were our own words for the elder and the deacon. In
+  others, a council of elders - the presbyterion - led, and no one felt
+  anything was missing from that. Both went on, unresolved, for as long as our
+  own story runs - it was only settled afterward, by people who came after us.
+  And there is a second hard truth, just as real: almost none of the people
+  who actually filled our rooms left any words of their own. Everything you
+  can hear from us was written by someone who could read and write, and mostly
+  by someone who already led. The poor among us, the enslaved among us, the
+  ones who were simply there - we cannot let you hear them. They were never
+  given the chance to be heard in the first place.
 ---
 Restates pahc.gravity.authority-consolidation's own SUPPORTING
 classification and pahc.core.house-church's own thinness field
 (structural silence of non-elite voices) in first-person, participant-
 facing form for the cell that asks this question directly (f6-i-01,
 f6-i-02, f6-i-03).
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
+thanks over the cup, eucaruest (in purple)" - plain meaning first, the
+world's own word after it as a label, so the lexicon scan can light it
+into the glossary). episkopos, presbyterion, presbyteros, and diakonos labeled in the office witness, the record where who-should-lead is the subject. Register bar's own form: "a scholar's term
+only after its plain meaning, as a label." Claims unchanged; the label
+is the whole edit.

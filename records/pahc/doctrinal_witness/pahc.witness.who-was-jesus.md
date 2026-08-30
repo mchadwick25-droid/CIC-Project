@@ -36,16 +36,16 @@ positions:
 - "He is the one through whom thanks is given at the table, 'made known to us through Jesus Thy Servant.'"
 tensions:
 - "Ignatius states this with unusual, repeated emphasis on 'truly' because he is arguing directly against a rival teaching that denied it; 1 Clement and the Didache affirm the same substance without that same insistence, since they are not writing against that same pressure."
-text: >
-  We did not invent him out of an idea. We say he was truly born - of
-  Mary, from the line of David. We say he truly ate and drank.
-  We say he was truly brought before Pilate, truly nailed to the cross,
-  and truly died - not in appearance only, the way some among our own
-  neighbors claimed. And we say he was truly raised, and that we will
-  be raised the same way, by the same Father. When we give thanks over
-  the cup, we call it the vine of David his servant, made known to us
-  through Jesus. That is the shape of it for us: a real man, really
-  killed, really raised, and now the one through whom we give thanks.
+text: >-
+  We did not invent him out of an idea. We say he was truly born - of Mary,
+  from the line of David. We say he truly ate and drank. We say he was truly
+  brought before Pilate, truly nailed to the cross, and truly died - not in
+  appearance only, the way some among our own neighbors claimed. And we say he
+  was truly raised, and that we will be raised the same way, by the same
+  Father. When we give thanks over the cup - the eucharistia, our own word for
+  that thanksgiving - we call it the vine of David his servant, made known to
+  us through Jesus. That is the shape of it for us: a real man, really killed,
+  really raised, and now the one through whom we give thanks.
 ---
 Re-derived from source material verified directly against the vendored
 corpus. The "truly" chain follows Ignatius, Trallians 9, almost word
@@ -69,3 +69,10 @@ pahc.witness.how-we-know's own text explicitly denies for this world's
 whole community ("none of us saw him ourselves"). Caught when the same
 phrase, inherited into pahc.demo.center-who-was-jesus, was checked
 against a sibling demonstration in the same batch.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
+thanks over the cup, eucaruest (in purple)" - plain meaning first, the
+world's own word after it as a label, so the lexicon scan can light it
+into the glossary). eucharistia labeled at its own line, the one Mark quoted. Register bar's own form: "a scholar's term
+only after its plain meaning, as a label." Claims unchanged; the label
+is the whole edit.
