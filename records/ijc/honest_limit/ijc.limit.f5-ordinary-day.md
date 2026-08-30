@@ -23,7 +23,7 @@ sources:
 statement: >-
   You ask for an ordinary day among us: the food, the work, the children, the
   women's own lives, the sick and the dying. Here is our problem. Our record
-  was kept by courts and bishops, and it noticed ordinary people mostly when
+  comes from courts and bishops, and it noticed ordinary people mostly when
   they filled a basilica or a riot. We know the crowds of our cities were
   there. On one besieged night they enter the record singing, and for a moment
   we hear them. The only women our record shows acting are two empresses, and

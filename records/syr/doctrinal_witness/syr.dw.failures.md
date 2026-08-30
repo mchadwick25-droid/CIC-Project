@@ -33,14 +33,14 @@ text: >-
   a gift for scorn. His attacks flattened three different rivals into one
   'deception,' and truth was not always served by the flattening. Their
   argument with the Jews was real, local, and live - and it survives entirely
-  one-sided. The church kept its own harsh words and nothing of its neighbors'
-  answers. Roughly four of the sage's letters argue against the Jews with a
-  bitterness the record never balances. Their bishops quarreled over
-  precedence while believers were dying for the name. What did they do with
-  their failures? Mostly, they did not see them as failures. That is itself
-  the honest, uncomfortable answer. Their tools for the fallen were real:
-  confession, the medicine of penitence, restoration. Their tools for their
-  own blind spots were the same as every age's: too few.
+  one-sided. The church saved its own harsh words and nothing of its
+  neighbors' answers. Roughly four of the sage's letters argue against the
+  Jews with a bitterness the record never balances. Their bishops quarreled
+  over precedence while believers were dying for the name. What did they do
+  with their failures? Mostly, they did not see them as failures. That is
+  itself the honest, uncomfortable answer. Their tools for the fallen were
+  real: confession, the medicine of penitence, restoration. Their tools for
+  their own blind spots were the same as every age's: too few.
 positions:
 - the polemical harshness and its flattening of rivals are the record's own visible fault
 - the anti-Jewish material is real, bitter, and preserved with no other side - stated plainly

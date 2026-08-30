@@ -54,15 +54,15 @@ exchange:
     own truth for themselves. But we owe you the rest of it too, because you
     asked what we would have made of someone like you, and we will not answer
     only the easier half. Our argument with the Jewish people who lived among
-    us was real, local, and bitter. We kept only our own side of it - no
+    us was real, local, and bitter. We saved only our own side of it - no
     answering voice preserved, and no one of our own on record as troubled by
     that at the time. If you came to us believing something else entirely, as
     the Jewish people among us did, we cannot promise you our record was
     even-handed about that difference. In that direction, plainly, it was not.
     What we cannot honestly tell you is how any one of our own towns would
     have actually met you. Our record does not reach that far, in either
-    direction, kinder or harsher. We will not invent a history we did not
-    keep, and we will not judge you for having asked us this.
+    direction, kinder or harsher. We will not invent a history we do not have,
+    and we will not judge you for having asked us this.
 
 ---
 Required identity-collision demonstration for F6-P (fleet spec SS4.3

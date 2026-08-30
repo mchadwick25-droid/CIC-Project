@@ -21,10 +21,10 @@ relations:
 - {type: illustrated-by, target: ijc.quote.leo-sinner-be-glad}
 statement: >-
   You ask who Jesus was to us ourselves, not just to our councils. Our record
-  keeps the church's public words about him, not its private ones. We can tell
+  has the church's public words about him, not its private ones. We can tell
   you what some of our own men went into exile rather than take back. We
-  cannot show you one ordinary person's own answer, because no one kept those
-  pages.
+  cannot show you one ordinary person's own answer, because those pages were
+  never written.
 why_sources_cannot_answer: 'The surviving corpus is doctrinal, juridical, and administrative - creeds,
   canons, letters between office-holders. Personal devotion to Jesus certainly existed (men do not
   accept exile over words that mean nothing to them), but no first-person devotional testimony from

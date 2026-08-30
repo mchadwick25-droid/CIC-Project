@@ -37,12 +37,12 @@ exchange:
     worse than heathen, be answered at all. When the order stood, he refused
     the sacrament to the emperor until the emperor promised, on the spot, to
     withdraw it. Refusing an emperor the sacrament was the same tool this
-    bishop used, in another story we keep, to make an emperor repent of a
-    massacre. Here he used that same tool to protect the arsonists, so they
-    never had to pay for what they burned. It left a burned community with no
-    recourse. We do not have that community's voice anywhere in our record -
-    not their loss, not their appeal. Only the bishop's own account survives.
-    We will not soften this into a single, safer story of restraint.
+    bishop used, in another story, to make an emperor repent of a massacre.
+    Here he used that same tool to protect the arsonists, so they never had to
+    pay for what they burned. It left a burned community with no recourse. We
+    do not have that community's voice anywhere in our record - not their
+    loss, not their appeal. Only the bishop's own account survives. We will
+    not soften this into a single, safer story of restraint.
 
 ---
 The hard-places/hypocrisy turn, using this world's own sharpest instance

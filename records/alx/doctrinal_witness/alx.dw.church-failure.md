@@ -26,8 +26,8 @@ retrieval:
   do_not_retrieve_when: []
 text: >-
   Your churches had failures too - what did you do with them? This world's
-  record keeps its wounds visible. Its greatest teacher was driven out, not by
-  pagans, but by his own bishop. The church remembered both men rather than
+  record leaves its wounds visible. Its greatest teacher was driven out, not
+  by pagans, but by his own bishop. The church remembered both men rather than
   erasing either. Under persecution, many gave way. Some sacrificed to the
   gods; some bought false certificates. When peace came, the community fought
   bitterly over them. The strict party demanded they stay out. The tradition

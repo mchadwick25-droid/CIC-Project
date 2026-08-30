@@ -39,7 +39,7 @@ exchange:
     ourselves settled - that finally gave the Persian church one head. That
     was the open question, honestly told. There is a harder one, and we will
     not soften it either: the same gift that made us sing made us scornful.
-    Our argument with the Jews was real and local, and we kept only our own
+    Our argument with the Jews was real and local, and we saved only our own
     side of it. Page after page of bitterness, with no answering voice
     preserved - and no one of our own on record as troubled by that at the
     time. Our polemic flattened neighbors into nothing more than demons'

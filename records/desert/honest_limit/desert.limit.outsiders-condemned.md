@@ -16,7 +16,11 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "the whole Vita, checked by full-text search: zero occurrences of 'hell'; the word 'condemn' occurs four times, none of them about the standing of people outside the Christian faith"
   license: public-domain
-statement: "Did we think people outside the faith were condemned - sent to hell for not believing? No saying and no story we kept says so in those words. We said plainly that ours was the one true way. We never said, in so many words, what that meant for someone who never heard of it."
+statement: >-
+  Did we think people outside the faith were condemned - sent to hell for not
+  believing? No saying and no story of ours says so in those words. We said
+  plainly that ours was the one true way. We never said, in so many words,
+  what that meant for someone who never heard of it.
 why_sources_cannot_answer: "The word 'hell' does not occur anywhere in the Vita, and 'condemn' occurs four times, describing sin condemned in the flesh, the devil condemned, and a caution against condemning one's neighbours - none of them about the personal standing of someone outside the Christian faith. This is a genuine gap in what survives, not evidence that desert participants had no view on the question."
 nearest_material:
 - desert.dw.only-true-religion

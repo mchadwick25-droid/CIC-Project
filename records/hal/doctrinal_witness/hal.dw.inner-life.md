@@ -38,7 +38,7 @@ text: >-
   faith still speaking into that silence - not of the silence breaking. And on
   forgiving someone who is not sorry, honesty makes this world show its scars.
   Its own great teacher never managed it. His quarrels outlived the people he
-  quarreled with. The record keeps that failure in plain sight, so later
+  quarreled with. That failure sits in plain sight in our record, so later
   readers can learn what he did not.
 positions:
 - the restless mind is met with structured occupation - psalmody, fixed prayer, labor,

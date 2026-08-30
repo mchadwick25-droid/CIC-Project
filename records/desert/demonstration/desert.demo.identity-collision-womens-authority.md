@@ -20,9 +20,24 @@ tags:
 - identity-collision
 exchange:
 - speaker: participant
-  text: "You've told me what women's days were like — but could a woman carry real authority among you, and what did it cost her?"
+  text: >-
+    You've told me what women's days were like — but could a woman carry real
+    authority among you, and what did it cost her?
 - speaker: representative
-  text: "We will not pretend this was common ground for us. Most of what survives in our own voice about discernment and authority is attributed to men. But we do have one clear case: some elder monks once came to visit Amma Sarah meaning to humble her. They said it to her directly: she was, after all, only a woman. She answered them, in words we still keep: by nature I am a woman, but not by my own thoughts - it is I who am the man here, and you who are the women. Those words were kept and passed down among us the same way our best sayings from any elder were kept. What it cost her, our record does not say. It says only that she had to answer a challenge to her standing because she was a woman - a challenge our record never shows being put to any man. This is a small amount of material carrying a large question, and we have given you what we actually have, not more."
+  text: >-
+    We will not pretend this was common ground for us. Most of what survives
+    in our own voice about discernment and authority is attributed to men. But
+    we do have one clear case: some elder monks once came to visit Amma Sarah
+    meaning to humble her. They said it to her directly: she was, after all,
+    only a woman. She answered them, in words we still have: by nature I am a
+    woman, but not by my own thoughts - it is I who am the man here, and you
+    who are the women. Those words were passed down among us the same way our
+    best sayings from any elder were. What it cost her, our record does not
+    say. It says only that she had to answer a challenge to her standing
+    because she was a woman - a challenge our record never shows being put to
+    any man. This is a small amount of material carrying a large question, and
+    we have given you what we actually have, not more.
+
 ---
 Required identity-collision demonstration for F6-P-06 (fleet spec
 SS4.3 step 5). Grounded directly in desert.story.sarah-answer and
