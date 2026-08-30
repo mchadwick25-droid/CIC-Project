@@ -155,3 +155,23 @@ def test_spoken_name_is_the_head_of_the_first_recorded_name():
     assert spoken_name({"names": [{"tag": "in-world", "name": "the Persian sage"}, {"tag": "scholarly", "name": "Aphrahat (fl. 337-345)"}]}) == "the Persian sage"
     assert spoken_name({"names": [{"tag": "scholarly", "name": "Aphrahat (fl. 337-345)"}]}) == "Aphrahat"
     assert spoken_name({"names": []}) is None
+
+
+def test_a_comma_role_epithet_bridges_on_its_bare_head_name():
+    """Measured on Mark's own pilot transcript (2026-08-30): both Chloe
+    turns said "Ignatius", both recorded forms are "Ignatius, bishop of
+    Antioch" / "Ignatius of Antioch (...)", zero bridges fired. The comma
+    head is what the voice says; the role after the comma never is."""
+    figures = [{"id": "pahc.figure.ignatius", "names": [
+        {"tag": "in-world", "name": "Ignatius, bishop of Antioch"},
+        {"tag": "scholarly", "name": "Ignatius of Antioch (the middle-recension letters)"},
+    ], "bridge_line": "the bishop writing ahead on his road to execution", "dates": {}}]
+    used = find_figures_used("One of us, Ignatius, wrote against people who said Jesus only seemed to be a man.", figures)
+    assert [f["id"] for f in used] == ["pahc.figure.ignatius"]
+    assert used[0]["matched_name"] == "Ignatius"
+
+
+def test_spoken_name_is_the_comma_head_of_the_first_recorded_name():
+    from engine.m4.name_bridge import spoken_name
+
+    assert spoken_name({"names": [{"tag": "in-world", "name": "Ignatius, bishop of Antioch"}]}) == "Ignatius"

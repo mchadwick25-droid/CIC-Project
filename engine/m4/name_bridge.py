@@ -63,14 +63,30 @@ def _matchable_forms(figure: dict) -> list[str]:
     "matching figure-record names[]", the whole field, not one entry of
     it. Order preserved (in-world first, as stored) so a caller that wants
     only the canonical epithet can still take element 0.
+
+    The comma-role epithet is the same shape as the parenthetical aside
+    and gets the same treatment: "Ignatius, bishop of Antioch" is a name
+    whose HEAD ("Ignatius") is what a voice actually says, and the role
+    after the comma is what it never says verbatim. Measured on Mark's
+    own pilot transcript (2026-08-30): both Chloe turns named Ignatius,
+    and zero bridges fired, because neither recorded form's paren-head is
+    the bare name. The comma head rides as an ADDITIONAL form after the
+    full one, so a longer, earlier match still wins on position; checked
+    against every world's compiled figures, every comma head is either a
+    real spoken name (Ignatius, Pliny, Tacitus, Rabbula, Damasus I...)
+    or a phrase too long to false-match.
     """
     forms = []
     for entry in figure.get("names") or []:
         if not isinstance(entry, dict):
             continue
         name = (entry.get("name") or "").split(" (", 1)[0].strip()
-        if name:
-            forms.append(name)
+        if not name:
+            continue
+        forms.append(name)
+        head = name.split(",", 1)[0].strip()
+        if head and head != name:
+            forms.append(head)
     return forms
 
 
@@ -83,9 +99,11 @@ def spoken_name(figure: dict) -> str | None:
     Chloe turns opened "One of us, Ignatius" - the session tracked the
     introduction, but only to suppress the UI's second mark; the voice
     itself was never told), and resolving it here keeps one naming
-    convention instead of two."""
+    convention instead of two. The comma head of the first recorded name
+    ("Ignatius", not "Ignatius, bishop of Antioch") - the shortest form
+    a voice would actually say, same reasoning as _matchable_forms."""
     forms = _matchable_forms(figure)
-    return forms[0] if forms else None
+    return forms[0].split(",", 1)[0].strip() if forms else None
 
 
 def find_figures_used(text: str, figures: list[dict], *, already_bridged_ids: set[str] | None = None) -> list[dict]:
