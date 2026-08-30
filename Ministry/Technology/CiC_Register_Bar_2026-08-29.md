@@ -39,15 +39,25 @@ This document is the anchor. When speech quality drifts, the fix is
 measured against THIS sample and applied at the record layer - never
 accreted as prompt instruction (the no-fix-on-fix ruling).
 
-## Word-level rulings (accumulate here as Mark's reads land)
+## No rules ledger
 
-- 2026-08-30, "we have not we keep": the archival sense of keep/kept is
-  out of spoken prose. Say "we have," "of ours," "was saved," "was
-  written," or - better - drop the possession verb entirely ("in
-  another story, ..."). Natural uses stay: "he kept telling this
-  story," "kept the same fasts," "kept guard."
-- 2026-08-30, compressed stakes-language fails the bar even when the
-  facts are right: "the same leverage we elsewhere show restraining"
-  became "the same tool Ambrose used, in another story, to make an
-  emperor repent of a massacre." When a sentence needs Mark to ask
-  what it means, that question IS the review; fix the record, repin.
+This document holds one thing: the approved sample and its properties.
+It never grows a list of banned words or per-word rulings - that is
+fix-on-fix in document form (Mark, 2026-08-30: "i don't want a series
+of rules for words... i want the base conditions to generate what we
+are looking for in each world and throughout the system").
+
+The base conditions that generate the register, in order of force:
+
+1. The corpus itself - the records are the voice's diet, and they are
+   written at the bar. A record that misses the bar gets fixed in
+   place and repinned. The fixed record IS the memory; no rule needs
+   to be written down beside it.
+2. The approved sample above - the one standard every fix is measured
+   against, so the bar cannot drift through accumulated exceptions.
+3. The demonstrations - exemplars of the bar in conversation, opening
+   and follow-up alike.
+4. The build-cycle authoring discipline - new records are written and
+   reviewed against the sample from the start, so the corpus stays at
+   the bar as it grows instead of needing sweeps.
+5. M7 measurement - visibility only, never gates.
