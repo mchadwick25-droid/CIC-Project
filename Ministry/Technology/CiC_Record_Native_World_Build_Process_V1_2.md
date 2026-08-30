@@ -1,4 +1,11 @@
-# CiC Record-Native World Build Process — V1.1 (2026-08-30)
+# CiC Record-Native World Build Process — V1.2 (2026-08-30)
+
+**V1.2 change (Change Order, Mark, 2026-08-30, after his first pilot
+read — "i don't see the full 3 level transparency with glossary terms,
+stories and quotes" and the reintroduction finding — "go ahead with the
+change order"):** transparency ground becomes a birth condition of
+Phase B, alongside the register bar — see the second subsection at the
+head of Phase B. No other content changed from V1.1.
 
 **V1.1 change (Change Order, Mark, 2026-08-30: "build the authoring
 discipline into the build cycle"):** the register bar becomes a birth
@@ -144,6 +151,34 @@ holds it, and it holds nothing else. Concretely:
   sentence, fragment ratio) runs over the world's spoken fields and its
   output is saved as an artifact. The numbers are visibility only; the
   sample is the judge. Nothing gates on a number.
+
+**Transparency ground is a birth condition (V1.2).** The three-level
+transparency system can only surface what a cell's coverage offers it —
+Mark's first pilot read found the center cells of a finished world
+holding zero stories and zero terms, so no story or gloss could ever
+fire on "Who was Jesus?" no matter how well the machinery worked.
+Two conditions, born with the records rather than retrofitted:
+
+- **Every substantive cell offers its stories and terms.** When a cell's
+  records are authored, the coverage read asks: does a story genuinely
+  belong here? a term? If yes, its `canon_cells` says so at birth —
+  lean, one story and one term per cell where they genuinely belong,
+  never everything that could fit. If nothing genuinely belongs, that
+  finding is recorded and the cell stays empty there — an honest empty
+  (the fleet's own C-P is one) is a legitimate outcome, forced fill is
+  not. The center cells are read first, the same order the canon tests
+  them.
+- **No spoken field hard-binds a first-mention introduction.** An
+  opening like "One of us, N, ..." welds the introduction to the
+  answer, and a compiled exemplar answering its own canon question will
+  reproduce it verbatim on every later mention (measured, four live
+  probes, 2026-08-30). The spoken field speaks the plain name;
+  introducing the figure is the system's job — the name-bridge mark the
+  first time a session meets the name, the already-introduced signal
+  after. The idiom itself is not banned from a world's prose — it is
+  banned from being the load-bearing opening of an exemplar or witness
+  answer. Figure records author at least one name whose comma head is
+  the name the voice actually says.
 
 This is where a record-native build departs from the six worlds' history:
 instead of finishing Phase A and later migrating, each Phase-A document is
