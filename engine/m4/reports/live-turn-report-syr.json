@@ -3,12 +3,12 @@
   "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
   "region": "us-east-1",
   "world_key": "syr",
-  "manifest_hash": "sha256:e41ae6143476aba64ba1648a0a50a11a87f3f3db41e6e04f22307c2975a3bb5d",
-  "package": "packages/syr/2026-08-29T22-01-32Z",
+  "manifest_hash": "sha256:946e7f89eb4fa49369510fa7127e990e755d25b72a3820c813c1aec1648c3cc9",
+  "package": "packages/syr/2026-08-30T02-23-29Z",
   "results": [
     {
       "id": "message-1",
-      "message": "Was Jesus God to your people? Did you believe in the Trinity?",
+      "message": "Who was Jesus, to you and your people?",
       "prior_turns_replayed": 0,
       "result": {
         "routing_action": "voice_with_directive",
@@ -16,24 +16,38 @@
         "facilitator_events": [],
         "voice_event": {
           "speaker": "syr",
-          "text": "Was Jesus God to us? Yes - in our own way of saying it. Our teacher called it a sure thing: 'Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light' - a chain of Scripture's own names for him, rather than a philosopher's definition. We confessed the Only-Begotten who was with Deity and came to dwell among us. \n\nDid we believe in the Trinity? We answered from our font. Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized, and our teachers held that in baptism's second birth the believer receives the Holy Spirit. Then we guarded the mystery. Our teachers warned against prying scrutiny into the Godhead, because we held that what God is, is better sung than dissected. \n\nWe stood with the great council's faith - our own bishop of Nisibis sat at Nicaea - but our native tongue for that faith was praise.",
+          "text": "To us, Jesus is the Only-Begotten of God. He left his place with God and made his home in the Virgin, and by being born as we are born, he became the brother of many. In him the words of the prophets, kings, and priests came true - our Nativity hymns sing of the day that made them glad, because every old promise came true at Bethlehem. His death and rising are one rescue. He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom. His own resurrection is the promise that he will bring us out after him. And what it meant to those who followed him was healing: he is the Physician, and his coming is medicine for a wounded people.\n\nOne thing further, honestly told. What we actually had about him was the Gospel woven into one continuous story - the harmony our churches read in worship. We did not read four separate accounts. We heard one unfolding telling, and we called it simply 'the Gospel'.",
           "citations": [
             {
-              "sentence": "Our teacher called it a sure thing: 'Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light' - a chain of Scripture's own names for him, rather than a philosopher's definition.",
+              "sentence": "To us, Jesus is the Only-Begotten of God.",
               "record_ids": [
-                "syr.quote.aphrahat-sure-thing"
+                "syr.dw.jesus"
               ],
               "sources": [
                 {
-                  "record_id": "syr.quote.aphrahat-sure-thing",
-                  "record_type": "quote",
-                  "label": "the Persian sage",
+                  "record_id": "syr.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus is the Only-Begotten of God",
                   "sources": [
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord, opening sections",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-nativity-hymns",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+                      "locus": "Hymn I",
+                      "rights_status": "public-domain"
+                    },
                     {
                       "source_id": "syr.source.aphrahat-select-demonstrations",
                       "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
                       "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XVII.2",
+                      "locus": "XVII",
                       "rights_status": "public-domain"
                     }
                   ]
@@ -41,7 +55,418 @@
               ]
             },
             {
-              "sentence": "We confessed the Only-Begotten who was with Deity and came to dwell among us.",
+              "sentence": "He left his place with God and made his home in the Virgin, and by being born as we are born, he became the brother of many.",
+              "record_ids": [
+                "syr.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus is the Only-Begotten of God",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord, opening sections",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-nativity-hymns",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+                      "locus": "Hymn I",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "XVII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "In him the words of the prophets, kings, and priests came true - our Nativity hymns sing of the day that made them glad, because every old promise came true at Bethlehem.",
+              "record_ids": [
+                "syr.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus is the Only-Begotten of God",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord, opening sections",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-nativity-hymns",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+                      "locus": "Hymn I",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "XVII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His death and rising are one rescue.",
+              "record_ids": [
+                "syr.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus is the Only-Begotten of God",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord, opening sections",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-nativity-hymns",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+                      "locus": "Hymn I",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "XVII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom.",
+              "record_ids": [
+                "syr.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus is the Only-Begotten of God",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord, opening sections",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-nativity-hymns",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+                      "locus": "Hymn I",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "XVII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His own resurrection is the promise that he will bring us out after him.",
+              "record_ids": [
+                "syr.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus is the Only-Begotten of God",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord, opening sections",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-nativity-hymns",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+                      "locus": "Hymn I",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "XVII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And what it meant to those who followed him was healing: he is the Physician, and his coming is medicine for a wounded people.",
+              "record_ids": [
+                "syr.dw.jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "To this world, Jesus is the Only-Begotten of God",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord, opening sections",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-nativity-hymns",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+                      "locus": "Hymn I",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "XVII",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What we actually had about him was the Gospel woven into one continuous story - the harmony our churches read in worship.",
+              "record_ids": [
+                "syr.dw.gospel-harmony"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.gospel-harmony",
+                  "record_type": "doctrinal_witness",
+                  "label": "What this world actually had about Jesus was the Gospel woven into one continuous story:…",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.diatessaron-arabic-harmony",
+                      "author": "Tatian (composed c. 172 CE); the vendored text is an English rendering of the Arabic recension",
+                      "work": "The Diatessaron of Tatian - the single continuous-narrative Gospel harmony that served as this world's standard Gospel text until the early fifth century",
+                      "locus": "the harmony (what 'the Gospel' was)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "VIII (the seed argument); I (the foundation)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord (the resurrection as pledge)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We heard one unfolding telling, and we called it simply 'the Gospel'.",
+              "record_ids": [
+                "syr.dw.gospel-harmony"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.gospel-harmony",
+                  "record_type": "doctrinal_witness",
+                  "label": "What this world actually had about Jesus was the Gospel woven into one continuous story:…",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.diatessaron-arabic-harmony",
+                      "author": "Tatian (composed c. 172 CE); the vendored text is an English rendering of the Arabic recension",
+                      "work": "The Diatessaron of Tatian - the single continuous-narrative Gospel harmony that served as this world's standard Gospel text until the early fifth century",
+                      "locus": "the harmony (what 'the Gospel' was)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "VIII (the seed argument); I (the foundation)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord (the resurrection as pledge)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "To us, Jesus is the Only-Begotten of God.",
+                "tags": [
+                  "syr.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "He left his place with God and made his home in the Virgin, and by being born as we are born, he became the brother of many.",
+                "tags": [
+                  "syr.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "In him the words of the prophets, kings, and priests came true - our Nativity hymns sing of the day that made them glad, because every old promise came true at Bethlehem.",
+                "tags": [
+                  "syr.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "His death and rising are one rescue.",
+                "tags": [
+                  "syr.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom.",
+                "tags": [
+                  "syr.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "His own resurrection is the promise that he will bring us out after him.",
+                "tags": [
+                  "syr.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "And what it meant to those who followed him was healing: he is the Physician, and his coming is medicine for a wounded people.",
+                "tags": [
+                  "syr.dw.jesus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "One thing further, honestly told.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "What we actually had about him was the Gospel woven into one continuous story - the harmony our churches read in worship.",
+                "tags": [
+                  "syr.dw.gospel-harmony"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We did not read four separate accounts.",
+                "tags": [
+                  "syr.dw.gospel-harmony"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (number) only 25% grounded in its own tags",
+                "ratio": 0.25
+              },
+              {
+                "sentence": "We heard one unfolding telling, and we called it simply 'the Gospel'.",
+                "tags": [
+                  "syr.dw.gospel-harmony"
+                ],
+                "verdict": "ok",
+                "why": "quoted span(s) verbatim in tagged record(s)"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-2",
+      "message": "was he God",
+      "prior_turns_replayed": 1,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "syr",
+          "text": "Yes. Our sage calls it a sure thing: Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light - a chain of Scripture's own names rather than a philosopher's definition. Our poet confesses the Only-Begotten who was with Deity and came to dwell among us. \n\nAsked about the Trinity, we answer from our font. Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized, and our teachers held that in baptism's second birth the believer receives the Holy Spirit. Then we guard the mystery. Our teachers warned against prying scrutiny into the Godhead, because we held that what God is, is better sung than dissected. \n\nWe stood with the great council's faith - our own bishop of Nisibis sat at Nicaea. But our native tongue for that faith was praise.",
+          "citations": [
+            {
+              "sentence": "Yes.",
               "record_ids": [
                 "syr.dw.was-jesus-god"
               ],
@@ -91,7 +516,107 @@
               ]
             },
             {
-              "sentence": "We answered from our font.",
+              "sentence": "Our sage calls it a sure thing: Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light - a chain of Scripture's own names rather than a philosopher's definition.",
+              "record_ids": [
+                "syr.dw.was-jesus-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "Was Jesus God? This world said yes, in its own way of speaking",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "XVII.2 ('a sure thing with us')",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
+                      "locus": "the Pearl hymns",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord (the Only-Begotten from Deity)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-epiphany-hymns",
+                      "author": "attributed to Ephrem the Syrian; authenticity disputed (likely the near-horizon Syriac baptismal-liturgy tradition rather than Ephrem's own composition)",
+                      "work": "Fifteen Hymns For the Feast of the Epiphany",
+                      "locus": "the Father-with-Son-and-Spirit doxology in the baptismal cycle",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "VI (the second birth and the receiving of the Spirit)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Our poet confesses the Only-Begotten who was with Deity and came to dwell among us.",
+              "record_ids": [
+                "syr.dw.was-jesus-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "Was Jesus God? This world said yes, in its own way of speaking",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "XVII.2 ('a sure thing with us')",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
+                      "locus": "the Pearl hymns",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord (the Only-Begotten from Deity)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-epiphany-hymns",
+                      "author": "attributed to Ephrem the Syrian; authenticity disputed (likely the near-horizon Syriac baptismal-liturgy tradition rather than Ephrem's own composition)",
+                      "work": "Fifteen Hymns For the Feast of the Epiphany",
+                      "locus": "the Father-with-Son-and-Spirit doxology in the baptismal cycle",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "VI (the second birth and the receiving of the Spirit)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Asked about the Trinity, we answer from our font.",
               "record_ids": [
                 "syr.dw.was-jesus-god"
               ],
@@ -191,7 +716,7 @@
               ]
             },
             {
-              "sentence": "Then we guarded the mystery.",
+              "sentence": "Then we guard the mystery.",
               "record_ids": [
                 "syr.dw.was-jesus-god"
               ],
@@ -291,7 +816,57 @@
               ]
             },
             {
-              "sentence": "We stood with the great council's faith - our own bishop of Nisibis sat at Nicaea - but our native tongue for that faith was praise.",
+              "sentence": "We stood with the great council's faith - our own bishop of Nisibis sat at Nicaea.",
+              "record_ids": [
+                "syr.dw.was-jesus-god"
+              ],
+              "sources": [
+                {
+                  "record_id": "syr.dw.was-jesus-god",
+                  "record_type": "doctrinal_witness",
+                  "label": "Was Jesus God? This world said yes, in its own way of speaking",
+                  "sources": [
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "XVII.2 ('a sure thing with us')",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
+                      "locus": "the Pearl hymns",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-three-homilies",
+                      "author": "Ephrem the Syrian (c. 306-373 CE)",
+                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
+                      "locus": "On Our Lord (the Only-Begotten from Deity)",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.ephrem-epiphany-hymns",
+                      "author": "attributed to Ephrem the Syrian; authenticity disputed (likely the near-horizon Syriac baptismal-liturgy tradition rather than Ephrem's own composition)",
+                      "work": "Fifteen Hymns For the Feast of the Epiphany",
+                      "locus": "the Father-with-Son-and-Spirit doxology in the baptismal cycle",
+                      "rights_status": "public-domain"
+                    },
+                    {
+                      "source_id": "syr.source.aphrahat-select-demonstrations",
+                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
+                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
+                      "locus": "VI (the second birth and the receiving of the Spirit)",
+                      "rights_status": "public-domain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "But our native tongue for that faith was praise.",
               "record_ids": [
                 "syr.dw.was-jesus-god"
               ],
@@ -350,27 +925,15 @@
           "grounding": {
             "sentences": [
               {
-                "sentence": "Was Jesus God to us?",
-                "tags": [],
-                "verdict": "withhold",
-                "why": "specific claim (proper-noun:['jesus']) with no citation tag"
-              },
-              {
-                "sentence": "Yes - in our own way of saying it.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Our teacher called it a sure thing: 'Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light' - a chain of Scripture's own names for him, rather than a philosopher's definition.",
+                "sentence": "Yes.",
                 "tags": [
-                  "syr.quote.aphrahat-sure-thing"
+                  "syr.dw.was-jesus-god"
                 ],
                 "verdict": "ok",
-                "why": "quoted span(s) verbatim in tagged record(s)"
+                "why": "tagged claim, shares ground with its own records"
               },
               {
-                "sentence": "We confessed the Only-Begotten who was with Deity and came to dwell among us.",
+                "sentence": "Our sage calls it a sure thing: Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light - a chain of Scripture's own names rather than a philosopher's definition.",
                 "tags": [
                   "syr.dw.was-jesus-god"
                 ],
@@ -379,13 +942,16 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "Did we believe in the Trinity?",
-                "tags": [],
+                "sentence": "Our poet confesses the Only-Begotten who was with Deity and came to dwell among us.",
+                "tags": [
+                  "syr.dw.was-jesus-god"
+                ],
                 "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
               },
               {
-                "sentence": "We answered from our font.",
+                "sentence": "Asked about the Trinity, we answer from our font.",
                 "tags": [
                   "syr.dw.was-jesus-god"
                 ],
@@ -402,7 +968,7 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "Then we guarded the mystery.",
+                "sentence": "Then we guard the mystery.",
                 "tags": [
                   "syr.dw.was-jesus-god"
                 ],
@@ -419,1026 +985,18 @@
                 "ratio": 1.0
               },
               {
-                "sentence": "We stood with the great council's faith - our own bishop of Nisibis sat at Nicaea - but our native tongue for that faith was praise.",
+                "sentence": "We stood with the great council's faith - our own bishop of Nisibis sat at Nicaea.",
                 "tags": [
                   "syr.dw.was-jesus-god"
                 ],
                 "verdict": "ok",
                 "why": "grounded 100% in own tagged records",
                 "ratio": 1.0
-              }
-            ],
-            "substantive_survives": true
-          },
-          "do_not_voice_violation": null,
-          "degraded_by_net": false,
-          "output_defects": []
-        },
-        "degraded": false
-      }
-    },
-    {
-      "id": "message-2",
-      "message": "What did you believe happens after we die? Do you say everyone outside your faith goes to hell?",
-      "prior_turns_replayed": 1,
-      "result": {
-        "routing_action": "voice_with_directive",
-        "routing_reason": "ordinary turn",
-        "facilitator_events": [],
-        "voice_event": {
-          "speaker": "syr",
-          "text": "What happens after we die? Our teaching ran through Sheol, the silent country of the dead. Since Adam, death has ruled everyone without distinction - and the world's great news was that One had gone into that country and broken it. Our hymns stage Death himself trembling: 'Sin and Hell were terrified: Death trembled and the dead rebelled'. Our poet sang it plainly: 'For our Lord gave His resurrection as a pledge to mortals, that He would remove them from Sheol, which receives the departed without distinction, to the Kingdom which admits the invited with distinction'. What waits beyond death is judgment. The Kingdom, we held, repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope.\n\nDo we say everyone outside our faith goes to hell? We drew far less of the modern map of who exactly burns than people assume. Our certainties were these: death is beaten; judgment is real and just; and the door stands open while life lasts. As for narrowness - one tradition in our own dialogue answered that Christ planted one people in every country. The way is one, but its door opened everywhere.",
-          "citations": [
-            {
-              "sentence": "Our teaching ran through Sheol, the silent country of the dead.",
-              "record_ids": [
-                "syr.dw.death-judgment"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.death-judgment",
-                  "record_type": "doctrinal_witness",
-                  "label": "Someone outside asks: do you say everyone else goes to hell? Isn't one way, out of all th…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXII (death and the latter times)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-nisibene-hymns",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle",
-                      "locus": "the Death-and-Satan cycle",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Our Lord ('the Kingdom which requites all')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Since Adam, death has ruled everyone without distinction - and the world's great news was that One had gone into that country and broken it.",
-              "record_ids": [
-                "syr.dw.death-judgment"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.death-judgment",
-                  "record_type": "doctrinal_witness",
-                  "label": "Someone outside asks: do you say everyone else goes to hell? Isn't one way, out of all th…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXII (death and the latter times)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-nisibene-hymns",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle",
-                      "locus": "the Death-and-Satan cycle",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Our Lord ('the Kingdom which requites all')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Our hymns stage Death himself trembling: 'Sin and Hell were terrified: Death trembled and the dead rebelled'.",
-              "record_ids": [
-                "syr.quote.nisibene-death-trembled"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.quote.nisibene-death-trembled",
-                  "record_type": "quote",
-                  "label": "Ephrem",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.ephrem-nisibene-hymns",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle",
-                      "locus": "Hymn XXXV (the Death-and-Satan cycle)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Our poet sang it plainly: 'For our Lord gave His resurrection as a pledge to mortals, that He would remove them from Sheol, which receives the departed without distinction, to the Kingdom which admits the invited with distinction'.",
-              "record_ids": [
-                "syr.quote.ephrem-resurrection-pledge"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.quote.ephrem-resurrection-pledge",
-                  "record_type": "quote",
-                  "label": "Ephrem",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Our Lord, opening",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "What waits beyond death is judgment.",
-              "record_ids": [
-                "syr.dw.death-judgment"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.death-judgment",
-                  "record_type": "doctrinal_witness",
-                  "label": "Someone outside asks: do you say everyone else goes to hell? Isn't one way, out of all th…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXII (death and the latter times)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-nisibene-hymns",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle",
-                      "locus": "the Death-and-Satan cycle",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Our Lord ('the Kingdom which requites all')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "The Kingdom, we held, repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope.",
-              "record_ids": [
-                "syr.dw.death-judgment"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.death-judgment",
-                  "record_type": "doctrinal_witness",
-                  "label": "Someone outside asks: do you say everyone else goes to hell? Isn't one way, out of all th…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXII (death and the latter times)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-nisibene-hymns",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle",
-                      "locus": "the Death-and-Satan cycle",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Our Lord ('the Kingdom which requites all')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "We drew far less of the modern map of who exactly burns than people assume.",
-              "record_ids": [
-                "syr.dw.death-judgment"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.death-judgment",
-                  "record_type": "doctrinal_witness",
-                  "label": "Someone outside asks: do you say everyone else goes to hell? Isn't one way, out of all th…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXII (death and the latter times)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-nisibene-hymns",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle",
-                      "locus": "the Death-and-Satan cycle",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Our Lord ('the Kingdom which requites all')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Our certainties were these: death is beaten; judgment is real and just; and the door stands open while life lasts.",
-              "record_ids": [
-                "syr.dw.death-judgment"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.death-judgment",
-                  "record_type": "doctrinal_witness",
-                  "label": "Someone outside asks: do you say everyone else goes to hell? Isn't one way, out of all th…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXII (death and the latter times)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-nisibene-hymns",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle",
-                      "locus": "the Death-and-Satan cycle",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Our Lord ('the Kingdom which requites all')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "As for narrowness - one tradition in our own dialogue answered that Christ planted one people in every country.",
-              "record_ids": [
-                "syr.dw.death-judgment"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.death-judgment",
-                  "record_type": "doctrinal_witness",
-                  "label": "Someone outside asks: do you say everyone else goes to hell? Isn't one way, out of all th…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXII (death and the latter times)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-nisibene-hymns",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle",
-                      "locus": "the Death-and-Satan cycle",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Our Lord ('the Kingdom which requites all')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "The way is one, but its door opened everywhere.",
-              "record_ids": [
-                "syr.dw.death-judgment"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.death-judgment",
-                  "record_type": "doctrinal_witness",
-                  "label": "Someone outside asks: do you say everyone else goes to hell? Isn't one way, out of all th…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXII (death and the latter times)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-nisibene-hymns",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Nisibene Hymns (Carmina Nisibena) - 46 of the original 77 hymns; I-XXI (the Nisibis-and-its-bishops cycle) complete, with selections from the rest including the Death-and-Satan cycle",
-                      "locus": "the Death-and-Satan cycle",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Our Lord ('the Kingdom which requites all')",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "glosses": [],
-          "figures_used": [],
-          "quote_offers": [],
-          "attempts_meta": {
-            "empty_stream_retries": 0
-          },
-          "grounding": {
-            "sentences": [
-              {
-                "sentence": "What happens after we die?",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
               },
               {
-                "sentence": "Our teaching ran through Sheol, the silent country of the dead.",
+                "sentence": "But our native tongue for that faith was praise.",
                 "tags": [
-                  "syr.dw.death-judgment"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "Since Adam, death has ruled everyone without distinction - and the world's great news was that One had gone into that country and broken it.",
-                "tags": [
-                  "syr.dw.death-judgment"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "Our hymns stage Death himself trembling: 'Sin and Hell were terrified: Death trembled and the dead rebelled'.",
-                "tags": [
-                  "syr.quote.nisibene-death-trembled"
-                ],
-                "verdict": "ok",
-                "why": "quoted span(s) verbatim in tagged record(s)"
-              },
-              {
-                "sentence": "Our poet sang it plainly: 'For our Lord gave His resurrection as a pledge to mortals, that He would remove them from Sheol, which receives the departed without distinction, to the Kingdom which admits the invited with distinction'.",
-                "tags": [
-                  "syr.quote.ephrem-resurrection-pledge"
-                ],
-                "verdict": "ok",
-                "why": "quoted span(s) verbatim in tagged record(s)"
-              },
-              {
-                "sentence": "What waits beyond death is judgment.",
-                "tags": [
-                  "syr.dw.death-judgment"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "The Kingdom, we held, repays everyone what is due and admits the invited with distinction, and we sang the warning as urgently as the hope.",
-                "tags": [
-                  "syr.dw.death-judgment"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "Do we say everyone outside our faith goes to hell?",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "We drew far less of the modern map of who exactly burns than people assume.",
-                "tags": [
-                  "syr.dw.death-judgment"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "Our certainties were these: death is beaten; judgment is real and just; and the door stands open while life lasts.",
-                "tags": [
-                  "syr.dw.death-judgment"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "As for narrowness - one tradition in our own dialogue answered that Christ planted one people in every country.",
-                "tags": [
-                  "syr.dw.death-judgment"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "The way is one, but its door opened everywhere.",
-                "tags": [
-                  "syr.dw.death-judgment"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              }
-            ],
-            "substantive_survives": true
-          },
-          "do_not_voice_violation": null,
-          "degraded_by_net": false,
-          "output_defects": []
-        },
-        "degraded": false
-      }
-    },
-    {
-      "id": "message-3",
-      "message": "Honestly, I doubt my faith a lot. Would your people have had any patience with someone like me?",
-      "prior_turns_replayed": 2,
-      "result": {
-        "routing_action": "voice_with_directive",
-        "routing_reason": "ordinary turn",
-        "facilitator_events": [],
-        "voice_event": {
-          "speaker": "syr",
-          "text": "We would not call what you carry a scandal. Our own word for the life of belief was not certainty but faith. Faith, our teacher taught, is a building: it rests on one foundation stone and goes up piece by piece, with fasting and prayer and love each added like courses of stone. A building is not finished in a day. \n\nWhat we distrusted was not the struggling believer. It was the prying scrutinizer, the one who would take the Godhead apart like a problem to be solved. Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn. And we did not run from hard challenges. Our teacher records a debater's taunt - if your faith were true, would not your prayers have stopped the persecution? - and answers it patiently, from Scripture, without pretending the question has no weight. \n\nFor the one who cannot quiet their own head, who prays into silence - our pastoral craft was the medicine of penitence. Our teachers talked like field surgeons: 'For all diseases there are medicines, and there will be healing when a skilled physician shall have found them'. A private inner crisis of doubt is not something we wrote about. What we knew, and what we kept, was faith that is contested, questioned, and still growing.",
-          "citations": [
-            {
-              "sentence": "Our own word for the life of belief was not certainty but faith.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Faith, our teacher taught, is a building: it rests on one foundation stone and goes up piece by piece, with fasting and prayer and love each added like courses of stone.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "A building is not finished in a day.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "What we distrusted was not the struggling believer.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "It was the prying scrutinizer, the one who would take the Godhead apart like a problem to be solved.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "And we did not run from hard challenges.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "- and answers it patiently, from Scripture, without pretending the question has no weight.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "For the one who cannot quiet their own head, who prays into silence - our pastoral craft was the medicine of penitence.",
-              "record_ids": [
-                "syr.dw.penitence-prayer"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.penitence-prayer",
-                  "record_type": "doctrinal_witness",
-                  "label": "For the one who cannot quiet their own head, who prays into silence, who cannot forgive -…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-demonstrations-hallock",
-                      "author": "Aphrahat, 'the Persian Sage'",
-                      "work": "Demonstration VII (On Penitents) and Demonstration II (On Love)",
-                      "locus": "VII (the whole teaching on penitents)",
-                      "rights_status": "public-domain (per the transcriber's own declaration carried in the file - Roger Pearse, 2006; NOTE: the 1932 translation does not clear the corpus's usual pre-1930 date rule and rests on that declaration, accepted by the project lead 2026-08-18)"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI.1 (the taunt about unanswered prayer)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-three-homilies",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "Three Homilies: On Our Lord; On Admonition and Repentance; On the Sinful Woman",
-                      "locus": "On Admonition and Repentance",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "Our teachers talked like field surgeons: 'For all diseases there are medicines, and there will be healing when a skilled physician shall have found them'.",
-              "record_ids": [
-                "syr.quote.aphrahat-medicine-penitence"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.quote.aphrahat-medicine-penitence",
-                  "record_type": "quote",
-                  "label": "the Persian sage",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-demonstrations-hallock",
-                      "author": "Aphrahat, 'the Persian Sage'",
-                      "work": "Demonstration VII (On Penitents) and Demonstration II (On Love)",
-                      "locus": "VII.2",
-                      "rights_status": "public-domain (per the transcriber's own declaration carried in the file - Roger Pearse, 2006; NOTE: the 1932 translation does not clear the corpus's usual pre-1930 date rule and rests on that declaration, accepted by the project lead 2026-08-18)"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "A private inner crisis of doubt is not something we wrote about.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "sentence": "What we knew, and what we kept, was faith that is contested, questioned, and still growing.",
-              "record_ids": [
-                "syr.dw.doubt"
-              ],
-              "sources": [
-                {
-                  "record_id": "syr.dw.doubt",
-                  "record_type": "doctrinal_witness",
-                  "label": "Was there room for doubt among these people? Their word for the life of belief was not ce…",
-                  "sources": [
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "I (faith as a building that rises)",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.ephrem-hymns-on-faith-pearl",
-                      "author": "Ephrem the Syrian (c. 306-373 CE)",
-                      "work": "The Pearl: Seven Hymns on the Faith - the edition's selection from the 87-hymn cycle Hymns on Faith",
-                      "locus": "the warnings against prying scrutiny",
-                      "rights_status": "public-domain"
-                    },
-                    {
-                      "source_id": "syr.source.aphrahat-select-demonstrations",
-                      "author": "Aphrahat, 'the Persian Sage' (fl. c. 337-345; a 510 CE colophon calls him 'Mar Jacob, the Persian sage'; the name 'Aphrahat' first appears in the tenth century)",
-                      "work": "Select Demonstrations: I Of Faith; V Of Wars; VI Of Monks (the bnay qyama teaching); VIII Of the Resurrection of the Dead; X Of Pastors; XVII Of Christ the Son of God; XXI Of Persecution; XXII Of Death and the Latter Times",
-                      "locus": "XXI (the outsider's hard questions engaged)",
-                      "rights_status": "public-domain"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "glosses": [],
-          "figures_used": [],
-          "quote_offers": [],
-          "attempts_meta": {
-            "empty_stream_retries": 0
-          },
-          "grounding": {
-            "sentences": [
-              {
-                "sentence": "We would not call what you carry a scandal.",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "Our own word for the life of belief was not certainty but faith.",
-                "tags": [
-                  "syr.dw.doubt"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "Faith, our teacher taught, is a building: it rests on one foundation stone and goes up piece by piece, with fasting and prayer and love each added like courses of stone.",
-                "tags": [
-                  "syr.dw.doubt"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "A building is not finished in a day.",
-                "tags": [
-                  "syr.dw.doubt"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "What we distrusted was not the struggling believer.",
-                "tags": [
-                  "syr.dw.doubt"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "It was the prying scrutinizer, the one who would take the Godhead apart like a problem to be solved.",
-                "tags": [
-                  "syr.dw.doubt"
-                ],
-                "verdict": "ok",
-                "why": "grounded 100% in own tagged records",
-                "ratio": 1.0
-              },
-              {
-                "sentence": "Our own poet sang against that scrutiny while asking questions of his own, hymn after hymn.",
-                "tags": [
-                  "syr.dw.doubt"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "And we did not run from hard challenges.",
-                "tags": [
-                  "syr.dw.doubt"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "Our teacher records a debater's taunt - if your faith were true, would not your prayers have stopped the persecution?",
-                "tags": [],
-                "verdict": "ok",
-                "why": "no checkable claim - interpretive/connective framing"
-              },
-              {
-                "sentence": "- and answers it patiently, from Scripture, without pretending the question has no weight.",
-                "tags": [
-                  "syr.dw.doubt"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "For the one who cannot quiet their own head, who prays into silence - our pastoral craft was the medicine of penitence.",
-                "tags": [
-                  "syr.dw.penitence-prayer"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "Our teachers talked like field surgeons: 'For all diseases there are medicines, and there will be healing when a skilled physician shall have found them'.",
-                "tags": [
-                  "syr.quote.aphrahat-medicine-penitence"
-                ],
-                "verdict": "ok",
-                "why": "quoted span(s) verbatim in tagged record(s)"
-              },
-              {
-                "sentence": "A private inner crisis of doubt is not something we wrote about.",
-                "tags": [
-                  "syr.dw.doubt"
-                ],
-                "verdict": "ok",
-                "why": "tagged claim, shares ground with its own records"
-              },
-              {
-                "sentence": "What we knew, and what we kept, was faith that is contested, questioned, and still growing.",
-                "tags": [
-                  "syr.dw.doubt"
+                  "syr.dw.was-jesus-god"
                 ],
                 "verdict": "ok",
                 "why": "tagged claim, shares ground with its own records"
