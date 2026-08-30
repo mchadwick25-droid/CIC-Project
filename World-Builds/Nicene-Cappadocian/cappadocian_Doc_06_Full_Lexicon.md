@@ -2,8 +2,9 @@
 ## Nicene-Cappadocian Formation World (cappadocian) — Church in Conversation V7
 
 **Step:** 6 of 10 · **Governed by:** Lexicon Development Framework V2.1; Constitution Articles 17, 26, 30
-**Status:** Complete, unreviewed. Tier 1 = 10 full entries; Tier 2 = 19 standard entries; Tier 3 = 9 reference entries. Confidence per Confidence Inheritance Principle; [CT] entries state contest type. Key Texts/Sources cite genuine works at work level; passage-level loci appear only where the builder holds them with confidence, and all must be verified against editions before external use.
+**Status:** Complete; revised 2026-08-30 per independent index review. Tier 1 = 10 full entries; Tier 2 = 19 standard entries; Tier 3 = 10 reference entries — **39 total** (verified by direct enumeration; an earlier version of this header said "Tier 3 = 9" / 38 total, which was wrong). Confidence per Confidence Inheritance Principle; [CT] entries state contest type. Key Texts/Sources cite genuine works at work level; passage-level loci appear only where the builder holds them with confidence, and all must be verified against editions before external use.
 **Pruning note (discipline record):** Doc_03's 12-term Tier 1 slate was pruned to 10 by demonstrated ecological weight at Doc_04 — **paideia** demoted to Tier 2 (elite-register-bounded; Supporting gravity), **martys/martyrion** demoted to Tier 2 (Supporting gravity; dependency moderate). The pruning ran against the builder's own attachment to both terms; recorded so the discipline is visible.
+**Revision note (2026-08-30, index review):** (1) Header count corrected — Tier 3 has 10 entries, not 9; the wrong 38-total figure had already propagated into the Critic checkpoint record, the Deployment Package Status, and the recovery ledger, and must be corrected there by the build thread (not fixable from this document). (2) The Master Index required by the lexicon-index discipline now exists in this document (MASTER INDEX section, Indexes A–E). (3) The closing note's former claim that Related-Terms reciprocity had been "checked" was false as written: 33 one-directional links existed. 21 have been given their real back-links and 12 are declared one-directional with reasons (Index E). (4) **theologia/oikonomia is resolved as [CT]-adjacent, NOT [CT]** — its tag line ([TC][DR]) stands; this matches Doc_03 and World Profile §6, and the closing note here (which had wrongly listed it among stated contest types) is corrected. The build thread should propagate this same resolution — no change needed in Doc_03 or the World Profile, which already say "[CT]-adjacent." (5) The ousia/hypostasis and epinoia/energeia Key Texts now name *Ad Ablabium* (On Not Three Gods) and *Ad Eustathium* (On the Holy Trinity), newly covered by the approved NPNF2 vol. 5 acquisition (`cappadocian-gregnyssa-dogmatic`).
 
 ---
 
@@ -19,7 +20,7 @@
 
 **Distortion Risk — Modern Hearing:** abstract metaphysics remote from faith; "the Trinity" as a logic-puzzle or a mere dogma to assent to; the words as Greek philosophy contaminating simple religion. **World Hearing:** the exact words that keep prayer true; hard-won fence-posts around a mystery, placed with fear; the difference between worshipping God and worshipping a creature hung on their correct use.
 
-**Key Texts:** Basil, Against Eunomius and the letters distinguishing ousia and hypostasis (the celebrated letter on the distinction is transmitted under both Basil's and Nyssen's names — attribution Contested, carried); Gregory of Nazianzus, the Theological Orations; Gregory of Nyssa, Against Eunomius and the short treatises on the distinction. **Key Sources:** as above; the creed of 381. **Related Terms:** homoousios, akatalēpsia, agennētos, doxologia, eusebeia.
+**Key Texts:** Basil, Against Eunomius and the letters distinguishing ousia and hypostasis (the celebrated letter on the distinction is transmitted under both Basil's and Nyssen's names — attribution Contested, carried); Gregory of Nazianzus, the Theological Orations; Gregory of Nyssa, Against Eunomius and the short treatises on the distinction — above all *Ad Ablabium* (On Not Three Gods) and *Ad Eustathium* (On the Holy Trinity), the two texts in which the one-ousia/three-hypostaseis grammar is defended directly against the tritheism charge; both are covered by the approved NPNF2 vol. 5 acquisition (`cappadocian-gregnyssa-dogmatic`). **Key Sources:** as above; the creed of 381. **Related Terms:** homoousios, akatalēpsia, agennētos, doxologia, eusebeia.
 
 ## 2. akatalēpsia (the akatalēptos God) — Tags: [AS][DR][TC][RT] — Tier 1
 
@@ -31,7 +32,7 @@
 
 **Distortion Risk — Modern Hearing:** "no one can know anything about God" (relativist mist); mystery as an excuse to stop thinking; or, from the other side, apophaticism as elite theological fashion. **World Hearing:** a precise double discipline — confess exactly what is given, refuse exactly what is not; the mind fully employed and finally surpassed; safety for worship, not fog.
 
-**Key Texts:** Basil, Against Eunomius; Gregory of Nazianzus, Theological Orations (especially the second, on the impossibility of comprehending God); Gregory of Nyssa, Against Eunomius, Life of Moses (the darkness — AG-flagged as his development). **Key Sources:** Eunomius' surviving Apology (the position answered, in his own words). **Related Terms:** epinoia/energeia, agennētos, ousia/hypostasis, theōsis, eusebeia.
+**Key Texts:** Basil, Against Eunomius; Gregory of Nazianzus, Theological Orations (especially the second, on the impossibility of comprehending God); Gregory of Nyssa, Against Eunomius, Life of Moses (the darkness — AG-flagged as his development). **Key Sources:** Eunomius' surviving Apology (the position answered, in his own words). **Related Terms:** epinoia/energeia, agennētos, ousia/hypostasis, theōsis, eusebeia, paideia/philosophia (T2), epektasis (T2).
 
 ## 3. doxa / doxologia — Tags: [AS][DR][RT] — Tier 1
 
@@ -43,7 +44,7 @@
 
 **Distortion Risk — Modern Hearing:** liturgical wording as adiaphora or traditionalism; "worship wars" as matters of taste; doxology as a hymn-genre label. **World Hearing:** the words said over you and by you are the faith itself in motion; changing them is not restyling but re-teaching; a preposition can be a confession or a betrayal.
 
-**Key Texts:** Basil, On the Holy Spirit (occasion and argument). **Key Sources:** the baptismal exhortations; the creed of 381's pneumatological article ("who with the Father and the Son is together worshipped and together glorified" — the doxological grammar made credal). **Related Terms:** paradosis, baptisma, ousia/hypostasis, psalmōdia, eusebeia.
+**Key Texts:** Basil, On the Holy Spirit (occasion and argument). **Key Sources:** the baptismal exhortations; the creed of 381's pneumatological article ("who with the Father and the Son is together worshipped and together glorified" — the doxological grammar made credal). **Related Terms:** paradosis, baptisma, ousia/hypostasis, psalmōdia, eusebeia, theōsis, theologia/oikonomia (T2).
 
 ## 4. paradosis (agraphos) — Tags: [AS][TC][DR][RT] — Tier 1
 
@@ -67,7 +68,7 @@
 
 **Distortion Risk — Modern Hearing:** "piety" as private devotional sentiment; religiosity; churchmanship. **World Hearing:** a whole-life exactness before God — orthodoxy and open hands as one thing; the word a magistrate could hear as civic virtue and the church filled with the fear of God.
 
-**Key Texts:** pervasive across the three corpora (dogmatic works and moral homilies alike — the cross-genre use is the evidence). **Key Sources:** as above. **Related Terms:** akatalēpsia, doxologia, philoptōchia, pleonexia, kanōn.
+**Key Texts:** pervasive across the three corpora (dogmatic works and moral homilies alike — the cross-genre use is the evidence). **Key Sources:** as above. **Related Terms:** akatalēpsia, doxologia, philoptōchia, pleonexia, kanōn (T3), ousia/hypostasis.
 
 ## 6. koinōnia — Tags: [AS][DR][RT] — Tier 1
 
@@ -79,7 +80,7 @@
 
 **Distortion Risk — Modern Hearing:** "community" as voluntary association, small-group warmth, or an abstract value; monasticism as flight from people. **World Hearing:** the shape of salvation itself — no one becomes like God alone; a discipline with a rule, an obedience, a common table, and the poor at the door; the thing schism wounds and the Spirit gives.
 
-**Key Texts:** Basil, the Asketikon (Longer Rules on the common life against the solitary); the Moralia. **Key Sources:** Gangra's canons (the disorder that ordering answered); Vita Macrinae (the household become community — Gregory's presentation, flagged). **Related Terms:** adelphotēs, askēsis, philoptōchia, hēsychia, kanōn.
+**Key Texts:** Basil, the Asketikon (Longer Rules on the common life against the solitary); the Moralia. **Key Sources:** Gangra's canons (the disorder that ordering answered); Vita Macrinae (the household become community — Gregory's presentation, flagged). **Related Terms:** adelphotēs, askēsis, philoptōchia, hēsychia, kanōn (T3), eikōn, Basileias (T2).
 
 ## 7. philoptōchia — Tags: [AS][RT] — Tier 1
 
@@ -91,7 +92,7 @@
 
 **Distortion Risk — Modern Hearing:** philanthropy as optional generosity of the rich; "charity" versus "justice" as rivals; social program versus spirituality. **World Hearing:** justice and liturgy in one act; the poor man as Christ's own claim; a virtue you can be damned for lacking, preached to your face in a famine.
 
-**Key Texts:** Basil, the famine and wealth homilies (on the rich fool's barns; in time of famine and drought; against usury); Gregory of Nazianzus, On the Love of the Poor; Gregory of Nyssa, On the Love of the Poor / on the lepers. **Key Sources:** the Basileias correspondence (work level). **Related Terms:** philanthrōpia, eikōn, pleonexia, koinōnia, Basileias (T2).
+**Key Texts:** Basil, the famine and wealth homilies (on the rich fool's barns; in time of famine and drought; against usury); Gregory of Nazianzus, On the Love of the Poor; Gregory of Nyssa, On the Love of the Poor / on the lepers. **Key Sources:** the Basileias correspondence (work level). **Related Terms:** philanthrōpia, eikōn, pleonexia, koinōnia, Basileias (T2), eusebeia.
 
 ## 8. eikōn (tou Theou) — Tags: [SC][DR][RT] — Tier 1
 
@@ -143,11 +144,11 @@
 
 **14. homoousios** [SC][TC][RT] — QM: "Of the same being" — Nicaea's contested banner-word, received here and defended as the faith of the 318 fathers. WM: Not this world's coinage but its inheritance and its flag: defended against Homoian dilution ("like…") and Eunomian denial; the word's very unscriptural-ness forced the paradosis and epinoia arguments. EF: the credal face of Primary 1. DR — Modern: creedal boilerplate. World: the word men lost pulpits over. Key: the anti-Eunomian corpora; the ecumenical correspondence. Related: ousia/hypostasis, symbolon (T3), doxologia.
 
-**15. epinoia / energeia** [TC] — QM: The mind's honest concepts, and God's workings — the two-piece answer to how the incomprehensible God is truly known. WM: Our names for God arise by epinoia (reflective conception) from his energeiai (workings in creation and Scripture): each reaches truly, none seizes essence — the era's epistemology of religious language, built under polemical fire. EF: akatalēpsia's technical machinery. DR — Modern: "energies" read through later Palamite debates; "concepts" as mere constructs. World: reverent instruments — true reach, no grasp. Key: Basil, Against Eunomius; Nyssen's continuation. Related: akatalēpsia, agennētos, ousia.
+**15. epinoia / energeia** [TC] — QM: The mind's honest concepts, and God's workings — the two-piece answer to how the incomprehensible God is truly known. WM: Our names for God arise by epinoia (reflective conception) from his energeiai (workings in creation and Scripture): each reaches truly, none seizes essence — the era's epistemology of religious language, built under polemical fire. EF: akatalēpsia's technical machinery. DR — Modern: "energies" read through later Palamite debates; "concepts" as mere constructs. World: reverent instruments — true reach, no grasp. Key: Basil, Against Eunomius; Nyssen's continuation, with *Ad Ablabium* (On Not Three Gods) as the argument's mature deployment — the oneness of God argued from the undivided energeia of the Three (NPNF2 vol. 5 acquisition, `cappadocian-gregnyssa-dogmatic`). Related: akatalēpsia, agennētos, ousia.
 
 **16. agennētos** [TC][CT] — QM: "Unbegotten" — the opponents' battle-standard: Eunomius' claim that this one word names God's very essence. WM: The world's whole doctrine of God's unknowability is its refusal: unbegottenness is true of the Father and exhausts nothing. Contest type (CT): adversarial transmission — beyond Eunomius' one surviving Apology, his position reaches us through his refuters; the world's summary of him ("he claims to know God as God knows himself") is hostile paraphrase, carried as such. EF: the foil that forced Primary 1's precision. DR — Modern: technical noise. World: the word on which the era's deepest error hung. Key: Eunomius, Apology (his own voice); both Contra Eunomium projects. Related: akatalēpsia, epinoia, ousia/hypostasis.
 
-**17. theologia / oikonomia** [TC][DR] — QM: Speech about God-in-himself versus God's dealings with the world — the era's working distinction for what kind of saying is being attempted; oikonomia also names measured pastoral reserve. WM: "Theologia" here is narrow and awesome (the Trinity in itself — hence "the Theologian" as a title of honor); oikonomia covers creation-to-consummation. The second sense of oikonomia — knowing how much truth an audience can carry, when to withhold a word for the church's peace — was practiced and *argued over* within the winning side: the great legislator's reserve about calling the Spirit "God" outright was defended by his friend and resented by allies (Documented argument; motives Contested — carried). EF: Tensional Gravity 9's vocabulary. DR — Modern: "theology" as any religious talk; "economy" as finance. World: register-discipline as reverence — and as a live moral question about candor. Key: the Theological Orations' programmatic openings; the correspondence around Basil's reserve (work level). Related: doxologia, akatalēpsia, parrhēsia.
+**17. theologia / oikonomia** [TC][DR] — QM: Speech about God-in-himself versus God's dealings with the world — the era's working distinction for what kind of saying is being attempted; oikonomia also names measured pastoral reserve. WM: "Theologia" here is narrow and awesome (the Trinity in itself — hence "the Theologian" as a title of honor); oikonomia covers creation-to-consummation. The second sense of oikonomia — knowing how much truth an audience can carry, when to withhold a word for the church's peace — was practiced and *argued over* within the winning side: the great legislator's reserve about calling the Spirit "God" outright was defended by his friend and resented by allies (Documented argument; motives Contested — carried; this reserve debate keeps the entry **[CT]-adjacent, not [CT]** — an intra-world argument whose motives are Contested at claim level, not a contested-tradition tag; resolution recorded in Index D). EF: Tensional Gravity 9's vocabulary. DR — Modern: "theology" as any religious talk; "economy" as finance. World: register-discipline as reverence — and as a live moral question about candor. Key: the Theological Orations' programmatic openings; the correspondence around Basil's reserve (work level). Related: doxologia, akatalēpsia, parrhēsia.
 
 **18. baptisma / phōtisma** [SC][RT] — QM: Baptism/illumination — into the Threefold Name: the community's doctrinal charter in ritual form. WM: The formula is the faith's deposit ("we must believe as we were baptized" — the era's argued logic); delay is the era's pastoral complaint (adults lingering unbaptized for safety); Eunomian re-baptism is the boundary's far side. EF: hub of worship, doctrine, boundary, and discipline (Doc_05's integration assessment). DR — Modern: denominational baptism-debates read back. World: the words said over you as the church's charter and yours. Key: the baptismal exhortations (Basil's protreptic; Nazianzen's oration on baptism); On the Holy Spirit's formula-argument. Related: doxologia, paradosis, symbolon (T3).
 
@@ -165,32 +166,180 @@
 
 **25. epektasis** [AS][TC][PV] — QM: The stretching-forward — perfection as perpetual progress into the inexhaustible God. WM: Built on the apostle's "straining forward" (Phil 3): because God is limitless, the soul's growth has no terminus — arrival would be the end of love. [PV] Nyssen-weighted, and the fixed noun-label owes much to modern scholarship systematizing his participles — both flagged; held at Tier 2 for exactly this discipline (Doc_03's exclusion note). EF: theōsis' dynamic shape in its boldest articulation. DR — Modern: generic "spiritual journey" language; or twentieth-century Nyssen read back as the whole world's common property. World: one teacher's daring reading of everyone's hope. Key: Nyssen, Life of Moses, homilies on the Song. Related: theōsis, akatalēpsia, diastēma (T3).
 
-**26. parrhēsia** [SC][RT] — QM: Bold speech, confident access — before God, and before power. WM: Purification's fruit (the freed conscience speaks to God as friend) and the bishop's public duty (the prefect's bench faced without servility — the era's treasured scenes). EF: links ascent-formation to public courage — one word, both directions. DR — Modern: "speaking truth to power" slogan. World: access won by holiness, spent for others. Key: the ascent-literature; Or. 43's confrontation scenes (genre-flagged). Related: hēsychia, philotimia (T3), eusebeia.
+**26. parrhēsia** [SC][RT] — QM: Bold speech, confident access — before God, and before power. WM: Purification's fruit (the freed conscience speaks to God as friend) and the bishop's public duty (the prefect's bench faced without servility — the era's treasured scenes). EF: links ascent-formation to public courage — one word, both directions. DR — Modern: "speaking truth to power" slogan. World: access won by holiness, spent for others. Key: the ascent-literature; Or. 43's confrontation scenes (genre-flagged). Related: hēsychia, philotimia (T3), eusebeia, theologia/oikonomia.
 
 **27. apatheia** [SC][TC][PV] — QM: Freedom from disordered passion — the Greek ascetic ideal, here disciplined toward love. WM: Not feelinglessness: the same world weeps at deathbeds and defends grief; apatheia is the passions ordered so love can act — usage varies across the three authors [PV], and the term is shared property with Alexandria and the Desert (cross-world blur risk flagged for the build itself [DR]). EF: askēsis' interior aim, subordinate to koinōnia's service. DR — Modern: apathy; emotional suppression. World: a heart weeded, not emptied. Key: the ascetic corpora; Nyssen on the beatitudes. Related: askēsis, penthos/paraklēsis, theōsis.
 
 **28. penthos / paraklēsis** [AS][RT] — QM: Grief and consolation — the era's dense deathbed-and-letter culture: tears permitted, despair refused. WM: Funeral orations, consolation letters, a philosophical dialogue staged at a dying sister's bed; the narrator weeps and is not condemned; hope is argued, not imposed. Classified at Doc_04 as a register, not a gravity — the demotion recorded there. EF: the emotional ecology's tender pole. DR — Modern: grief-management; stoic stiffness attributed wrongly. World: mourning inside the resurrection's grammar. Key: the funeral orations; On the Soul and Resurrection; consolation letters; on infants' early deaths. Related: anastasis, psalmōdia, apatheia.
 
-**29. anastasis** [SC][RT] — QM: Resurrection — the hope that reorders grief and names the renounced life's horizon. WM: Argued at deathbeds (the dialogue's whole business), preached at martyrs' feasts (their "birthdays" logic shared with the wider church), and lived-ahead in the sisterhood ("the life of the angels" anticipated — the Vita's presentation, flagged). EF: the consolation culture's ground; theōsis' terminus that is not a terminus. DR — Modern: afterlife vagueness. World: the body's future and the feast's reason. Key: On the Soul and Resurrection; funeral orations; martyr homilies. Related: penthos/paraklēsis, martys, theōsis.
+**29. anastasis** [SC][RT] — QM: Resurrection — the hope that reorders grief and names the renounced life's horizon. WM: Argued at deathbeds (the dialogue's whole business), preached at martyrs' feasts (their "birthdays" logic shared with the wider church), and lived-ahead in the sisterhood ("the life of the angels" anticipated — the Vita's presentation, flagged). EF: the consolation culture's ground; theōsis' terminus that is not a terminus. DR — Modern: afterlife vagueness. World: the body's future and the feast's reason. Key: On the Soul and Resurrection; funeral orations; martyr homilies. Related: penthos/paraklēsis, martys, theōsis, eikōn.
 
 ---
 
 # TIER 3 — REFERENCE ENTRIES
 
-**30. symbolon / hē pistis tōn 318** — QM: The creed — "the faith of the 318 fathers" of Nicaea: the received standard, fought for and finally established. (DR — Modern: creeds as optional summaries; World: the deposit men were exiled over.)
+**30. symbolon / hē pistis tōn 318** — QM: The creed — "the faith of the 318 fathers" of Nicaea: the received standard, fought for and finally established. (DR — Modern: creeds as optional summaries; World: the deposit men were exiled over.) Related: paradosis, homoousios, baptisma/phōtisma.
 **31. chōrepiskopos** — QM: The country-bishop — village-level oversight under the metropolitan; disciplined in the canonical letters (ordinations-for-money named and forbidden). The region's two-level pastoral structure in one word.
-**32. kanōn / kanonikai** — QM: The rule/canon, and the enrolled women (virgins and widows on the church's list) — discipline's vocabulary and the recognized female estates.
-**33. diastēma** — QM: The interval — the creature's unbridgeable difference from the Creator; ground of incomprehensibility and endless progress. [PV: Nyssen's technical development.]
+**32. kanōn / kanonikai** — QM: The rule/canon, and the enrolled women (virgins and widows on the church's list) — discipline's vocabulary and the recognized female estates. Related: paradosis, eusebeia, koinōnia, adelphotēs.
+**33. diastēma** — QM: The interval — the creature's unbridgeable difference from the Creator; ground of incomprehensibility and endless progress. [PV: Nyssen's technical development.] Related: epektasis.
 **34. mystērion** — QM: Mystery — the hidden made present: in rite, in Scripture's depths, in the God confessed but never compassed.
 **35. phthonos** — QM: Envy — the diabolical sin of the era's own moral preaching (a whole homily against it): the vice that cannot bear another's good.
-**36. philotimia** — QM: Love of honor — the Greek city's engine and the clergy's named disease; the era's own synod-weariness speaks it. (DR — Modern: healthy ambition; World: the pulpit's quiet corruption.)
+**36. philotimia** — QM: Love of honor — the Greek city's engine and the clergy's named disease; the era's own synod-weariness speaks it. (DR — Modern: healthy ambition; World: the pulpit's quiet corruption.) Related: hēsychia, paideia/philosophia, parrhēsia.
 **37. orgē** — QM: Anger — catalogued and disciplined in the moral homilies; the passion that mimics justice.
 **38. oikonomos** — QM: The steward — of the church's goods, the poorhouse, the mysteries; ownership re-described as trust.
 **39. exoria** — QM: Exile/banishment — the era's instrument of religious coercion as this world suffered it: bishops on the roads, sees held by endurance.
 
 ---
 
+# MASTER INDEX (Lexicon-Index Discipline)
+
+**Derivation note.** Every row below is derived directly from this document's 39 entries — the tag lines, Related-Terms lists, and Key Texts/Sources notes as they stand after this revision — not from a separately maintained list. Where a built deployment chunk already exists (entries 1, 6, 9 = `cappadocianlex001_ousia-hypostasis.md`, `cappadocianlex003_koinonia.md`, `cappadocianlex002_theosis.md`), its front-matter was cross-checked against this document: lex001 and lex002 match; **lex003 (koinōnia) has drifted** — its Related-Terms line ends "…hēsychia, eusebeia" where entry 6 here now ends "…hēsychia, kanōn (T3), eikōn, Basileias (T2)" — flagged for reconciliation at chunk production (the chunk files are independently verified compliant and are not altered by this revision). Aliases for entries 1, 6, 9 are their chunks' own; all others are the entries' English glosses, provisional until chunk production. The **Source-Registry X-Ref** column uses the G1 Acquisition Manifest's `source_id` values (prefix `cappadocian-` omitted for width), because the Doc_02 rework into V7.4 Source Registry rows is still pending — those ids are the registry rows' designated ancestors. "gap:" marks a cited Key Text with no manifest row. In the Related-Terms column, a link marked **→** is a *declared one-directional link* (the target deliberately does not link back; reason in Index E.2); every unmarked link is mutual.
+
+## Index A — Master Table (one row per term)
+
+| # | Term | World-Code | Tier | AS | SC | DR | TC | RT | PV | CT | Aliases | Related-Terms | AG-Risk | Source-Registry X-Ref |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | ousia / hypostasis | cappadocian | 1 | y | — | y | y | y | — | y | essence, being, substance, person(s), Trinity terms, "one substance three persons" (lex001) | homoousios; akatalēpsia; agennētos; doxologia; eusebeia | **yes** — the technical articulation is the circle's own labor; distinction-letter attribution Contested | basil-letters; gregnaz-orations-letters; gregnyssa-dogmatic (incl. *Ad Ablabium*, *Ad Eustathium*) · gap: Basil C.Eun.; creed of 381 (v14 row scoped to Gangra/Neocaesarea only) |
+| 2 | akatalēpsia | cappadocian | 1 | y | — | y | y | y | —¹ | — | divine incomprehensibility; the incomprehensible God | epinoia/energeia; agennētos; ousia/hypostasis; theōsis; eusebeia; paideia/philosophia; epektasis | **yes** — Gregories-weighted; Life of Moses AG-flagged in entry | gregnaz-orations-letters; gregnyssa-dogmatic; eunomius-apology · gap: Basil C.Eun.; Life of Moses⁴ |
+| 3 | doxa / doxologia | cappadocian | 1 | y | — | y | — | y | — | — | glory; glory-giving; the doxology | paradosis; baptisma; ousia/hypostasis; psalmōdia; eusebeia; theōsis; theologia/oikonomia | **yes** — a single treatise (Basil, On the Holy Spirit) carries the argument | basil-letters; gregnaz-orations-letters (Or. 40) · gap: Basil's baptismal protreptic (homily corpus); creed of 381 (scope) |
+| 4 | paradosis (agraphos) | cappadocian | 1 | y | — | y | y | y | — | — | the handed-down; unwritten tradition/customs | doxologia; baptisma; symbolon (T3); kanōn (T3); martys/martyrion | **yes** — the explicit argument is Basil's (flagged in entry) | basil-letters |
+| 5 | eusebeia | cappadocian | 1 | y | — | y | — | y | — | — | reverence; right piety | akatalēpsia; doxologia; philoptōchia; pleonexia; kanōn (T3); ousia/hypostasis | no — pervasive across the three corpora (cross-genre use is the evidence) | basil-letters; gregnaz-orations-letters; gregnyssa-dogmatic · gap: moral-homily corpus |
+| 6 | koinōnia | cappadocian | 1 | y | — | y | — | y | — | — | communion, community, common life, fellowship, community of goods, shared life (lex003) | adelphotēs; askēsis; philoptōchia; hēsychia; kanōn (T3); eikōn; Basileias | no — legislation, canons, and Vita are independent streams (presentation flags carried per entry) | basil-asketikon; councils-canons; gregnyssa-macrina · gap: Moralia |
+| 7 | philoptōchia | cappadocian | 1 | y | — | — | — | y | — | — | love of the poor | philanthrōpia; eikōn; pleonexia; koinōnia; Basileias; eusebeia | no — three authors' homilies/orations plus correspondence | basil-letters (Basileias corr.) · gap: Basil famine/wealth homilies; Naz Or. 14; Nyssen De pauperibus — all three named homily-sets unlocated |
+| 8 | eikōn (tou Theou) | cappadocian | 1 | — | y | y | — | y | — | — | image of God | theōsis; philoptōchia; koinōnia; anastasis | **yes** — Nyssen-weighted key texts; the anti-slaveholding locus is a single homily | gregnyssa-dogmatic (Making of Man) · gap: Eccl. hom. 4 (anti-slaveholding locus); poverty orations |
+| 9 | theōsis | cappadocian | 1 | y | — | y | y | y | — | — | deification, divinization, becoming god (by grace), partakers of the divine nature, salvation's goal (lex002) | eikōn; akatalēpsia; epektasis; doxologia; anastasis | **yes** — the noun's coinage is Nazianzen's (doctrine wider — flagged) | gregnaz-orations-letters; basil-letters · gap: Naz verse; Nyssen ascent-literature |
+| 10 | hēsychia | cappadocian | 1 | y | — | y | — | y | — | — | stillness; quiet | koinōnia; askēsis; philotimia (T3); parrhēsia; theōsis **→** | **yes** — Basil's early letters and Nazianzen's career carry the articulation (Doc_03 AG) | basil-letters; gregnaz-orations-letters (Or. 2); basil-asketikon · gap: De vita sua, Sasima poems (verse) |
+| 11 | paideia / philosophia | cappadocian | 2 | y | — | y | y | y | — | — | formation; education; "the true philosophy" | akatalēpsia; epinoia/energeia **→**; philotimia (T3) | **yes** — Doc_03 AG flag: elite self-description | basil-address-young-men; gregnaz-invectives-julian |
+| 12 | martys / martyrion | cappadocian | 2 | — | y | y | — | y | — | — | witness/martyr; shrine; the Forty | panēgyris; paradosis; anastasis | no (wonder-content carries Reported-Experience Status, a separate discipline) | gregnyssa-macrina · gap: Forty/Gordius/Julitta/Mamas homilies; In XL Martyres |
+| 13 | panēgyris | cappadocian | 2 | y | — | — | — | y | — | — | shrine-festival; festival assembly | martys; psalmōdia; philoptōchia **→** | no | gregnaz-orations-letters (festal, partial) · gap: festal homily corpus largely unlocated |
+| 14 | homoousios | cappadocian | 2 | — | y | — | y | y | — | — | "of the same being"; consubstantial; Nicaea's word | ousia/hypostasis; symbolon (T3); doxologia **→** | no | gregnyssa-dogmatic; basil-letters · gap: Basil C.Eun. |
+| 15 | epinoia / energeia | cappadocian | 2 | — | — | — | y | — | — | — | concept(s), conception; workings/operations, energies | akatalēpsia; agennētos; ousia **→** | **yes** — Basil's argument, extended by Nyssen (Doc_03 AG) | gregnyssa-dogmatic (incl. *Ad Ablabium*) · gap: Basil C.Eun. |
+| 16 | agennētos | cappadocian | 2 | — | — | — | y | — | — | y | "unbegotten"; unbegottenness | akatalēpsia; epinoia; ousia/hypostasis | no — adversarial transmission carried under CT, not AG | eunomius-apology; gregnyssa-dogmatic · gap: Basil C.Eun. |
+| 17 | theologia / oikonomia | cappadocian | 2 | — | — | y | y | — | — | —² | God-in-himself vs. God's dealings; pastoral reserve/economy | doxologia; akatalēpsia **→**; parrhēsia | no | gregnaz-orations-letters; basil-letters |
+| 18 | baptisma / phōtisma | cappadocian | 2 | — | y | — | — | y | — | — | baptism; illumination; the Threefold Name | doxologia; paradosis; symbolon (T3) | no | gregnaz-orations-letters (Or. 40); basil-letters · gap: Basil's protreptic homily |
+| 19 | psalmōdia | cappadocian | 2 | y | — | — | — | y | — | — | psalm-singing; the night vigils | doxologia; panēgyris; penthos/paraklēsis | no | basil-letters (the vigil letter) · gap: Psalm-homilies |
+| 20 | adelphotēs | cappadocian | 2 | y | — | — | y | y | — | — | brotherhood; sisterhood | koinōnia; askēsis; kanōn/kanonikai (T3) | no | basil-asketikon; gregnyssa-macrina; councils-canons |
+| 21 | askēsis | cappadocian | 2 | — | y | y | — | y | — | — | training; discipline | koinōnia; adelphotēs; hēsychia; apatheia | no | basil-asketikon; councils-canons; gregnyssa-dogmatic (On Virginity) |
+| 22 | philanthrōpia | cappadocian | 2 | — | y | — | — | y | — | — | God's love for humankind | philoptōchia; eikōn **→**; theōsis **→** | no | gregnyssa-dogmatic (Great Catechism) · gap: poverty orations |
+| 23 | Basileias / ptōchotropheion / xenodocheion | cappadocian | 2 | y | — | — | y | — | — | — | the New City; poorhouse; guest-house; leprosarium | philoptōchia; koinōnia; pleonexia **→** | no | gregnaz-orations-letters (Or. 43); basil-letters |
+| 24 | pleonexia | cappadocian | 2 | — | y | y | — | y | — | — | greed; grasping-for-more; avarice | philoptōchia; eusebeia; eikōn **→** | no | **gap only**: Basil rich-fool/usury homilies; Nyssen against usurers — no registry row at all |
+| 25 | epektasis | cappadocian | 2 | y | — | — | y | — | y | — | the stretching-forward; perpetual progress | theōsis; akatalēpsia; diastēma (T3) | **yes** — [PV] Nyssen-weighted; modern noun-label flagged | **gap only**: Life of Moses⁴; Song homilies — no registry row at all |
+| 26 | parrhēsia | cappadocian | 2 | — | y | — | — | y | — | — | bold speech; confident access; frankness | hēsychia; philotimia (T3); eusebeia **→**; theologia/oikonomia | no | gregnaz-orations-letters (Or. 43, genre-flagged) · gap: ascent-literature loci |
+| 27 | apatheia | cappadocian | 2 | — | y | — | y | — | y | — | freedom from disordered passion; passionlessness (not apathy) | askēsis; penthos/paraklēsis; theōsis **→** | no — [PV] is plural-usage across the three authors, not single dominance | basil-asketikon · gap: Nyssen Beatitudes homilies |
+| 28 | penthos / paraklēsis | cappadocian | 2 | y | — | — | — | y | — | — | grief and consolation; mourning | anastasis; psalmōdia; apatheia | no | gregnaz-orations-letters; gregnyssa-dogmatic (Soul & Resurrection); basil-letters |
+| 29 | anastasis | cappadocian | 2 | — | y | — | — | y | — | — | resurrection | penthos/paraklēsis; martys; theōsis; eikōn | no | gregnyssa-dogmatic; gregnaz-orations-letters · gap: martyr homilies |
+| 30 | symbolon / hē pistis tōn 318 | cappadocian | 3 | — | y³ | — | y³ | y³ | — | — | the creed; the faith of the 318 | paradosis; homoousios; baptisma/phōtisma | n/a (T3 — no Key Sources section per LDF) | n/a (T3) |
+| 31 | chōrepiskopos | cappadocian | 3 | — | y³ | — | y³ | y³ | — | — | country-bishop | — none claimed (E.3) | n/a (T3) | n/a (T3) |
+| 32 | kanōn / kanonikai | cappadocian | 3 | — | y³ | — | y³ | — | — | — | rule/canon; the enrolled women | paradosis; eusebeia; koinōnia; adelphotēs | n/a (T3) | n/a (T3) |
+| 33 | diastēma | cappadocian | 3 | — | — | — | y³ | — | y³ | — | the interval; the Creator/creature gap | epektasis | n/a (T3) | n/a (T3) |
+| 34 | mystērion | cappadocian | 3 | — | y³ | — | y³ | — | — | — | mystery | — none claimed (E.3) | n/a (T3) | n/a (T3) |
+| 35 | phthonos | cappadocian | 3 | — | y³ | — | — | — | — | — | envy | — none claimed (E.3) | n/a (T3) | n/a (T3) |
+| 36 | philotimia | cappadocian | 3 | y³ | — | y³ | — | y³ | — | — | love of honor; ambition | hēsychia; paideia/philosophia; parrhēsia | n/a (T3) | n/a (T3) |
+| 37 | orgē | cappadocian | 3 | — | y³ | — | — | — | — | — | anger; wrath | — none claimed (E.3) | n/a (T3) | n/a (T3) |
+| 38 | oikonomos | cappadocian | 3 | — | y³ | — | — | — | — | — | steward; stewardship | — none claimed (E.3) | n/a (T3) | n/a (T3) |
+| 39 | exoria | cappadocian | 3 | — | y³ | — | — | — | — | — | exile; banishment | — none claimed (E.3) | n/a (T3) | n/a (T3) |
+
+¹ akatalēpsia carries a *claim-level* [PV] flag inside the entry (the mystical elaboration is Nyssen-weighted), not a term-level PV tag; the column reflects the tag line.
+² theologia/oikonomia resolved **[CT]-adjacent, not [CT]** — see Index D.
+³ Tier 3 tag values are carried from Doc_03 (this document's compressed Tier 3 entries do not restate tags). Four of these — symbolon, chōrepiskopos, kanōn/kanonikai, philotimia — were Doc_03 *Tier 2* candidates whose tags were assigned at that tier; carried as recorded, to be re-confirmed at chunk production. Their Tier 2 → Tier 3 placements are this document's final call, but the header's pruning note records only the two Tier 1 → Tier 2 demotions, not these — flagged for the build thread.
+⁴ Life of Moses is absent from NPNF2 vol. 5 *and* from the G1 manifest's own gap list — a gap-list omission flagged for the build thread.
+
+## Index B — By-Tier View
+
+- **Tier 1 (10 — full entries; all always-present YES per World Profile §6):** ousia/hypostasis (1), akatalēpsia (2), doxa/doxologia (3), paradosis agraphos (4), eusebeia (5), koinōnia (6), philoptōchia (7), eikōn tou Theou (8), theōsis (9), hēsychia (10)
+- **Tier 2 (19 — standard entries):** paideia/philosophia (11), martys/martyrion (12), panēgyris (13), homoousios (14), epinoia/energeia (15), agennētos (16), theologia/oikonomia (17), baptisma/phōtisma (18), psalmōdia (19), adelphotēs (20), askēsis (21), philanthrōpia (22), Basileias/ptōchotropheion/xenodocheion (23), pleonexia (24), epektasis (25), parrhēsia (26), apatheia (27), penthos/paraklēsis (28), anastasis (29)
+- **Tier 3 (10 — reference entries, Quick Meaning only):** symbolon/hē pistis tōn 318 (30), chōrepiskopos (31), kanōn/kanonikai (32), diastēma (33), mystērion (34), phthonos (35), philotimia (36), orgē (37), oikonomos (38), exoria (39)
+
+## Index C — By-Tag View
+
+- **[AS] Signature Vocabulary (17):** ousia/hypostasis, akatalēpsia, doxologia, paradosis, eusebeia, koinōnia, philoptōchia, theōsis, hēsychia · paideia/philosophia, panēgyris, psalmōdia, adelphotēs, Basileias, epektasis, penthos/paraklēsis · philotimia³
+- **[SC] Shared Vocabulary (18):** eikōn, martys/martyrion, homoousios, baptisma/phōtisma, askēsis, philanthrōpia, pleonexia, parrhēsia, apatheia, anastasis · symbolon³, chōrepiskopos³, kanōn/kanonikai³, mystērion³, phthonos³, orgē³, oikonomos³, exoria³
+- **[DR] High Distortion Risk (15):** ousia/hypostasis, akatalēpsia, doxologia, paradosis, eusebeia, koinōnia, eikōn, theōsis, hēsychia · paideia/philosophia, martys/martyrion, theologia/oikonomia, askēsis, pleonexia · philotimia³
+- **[TC] Technical Concept (18):** ousia/hypostasis, akatalēpsia, paradosis, theōsis · paideia/philosophia, homoousios, epinoia/energeia, agennētos, theologia/oikonomia, adelphotēs, Basileias, epektasis, apatheia · symbolon³, chōrepiskopos³, kanōn/kanonikai³, mystērion³, diastēma³
+- **[RT] Likely Runtime Term (26):** all ten Tier 1 terms · paideia/philosophia, martys/martyrion, panēgyris, homoousios, baptisma/phōtisma, psalmōdia, adelphotēs, askēsis, philanthrōpia, pleonexia, parrhēsia, penthos/paraklēsis, anastasis · symbolon³, chōrepiskopos³, philotimia³
+- **[PV] Plural Voices (3):** epektasis, apatheia, diastēma³ — plus the claim-level flag inside akatalēpsia (footnote 1)
+- **[CT] Contested Tradition (2):** ousia/hypostasis, agennētos — theologia/oikonomia is [CT]-adjacent only (Index D)
+
+## Index D — CT Contest-Type Check Sheet
+
+| Term | CT tag? | Contest type actually stated in entry? | Contest stated |
+|---|---|---|---|
+| ousia/hypostasis (1) | yes | **YES** | Meaning and historical scope — the tidy "Cappadocian settlement" historiography is contested as oversimplified, and how far the three authors shared one technical scheme is disputed; and relationship to present-day traditions — the terms are load-bearing across Orthodox, Catholic, and Protestant dogmatics, each reading this era through later councils |
+| agennētos (16) | yes | **YES** | Adversarial transmission — beyond Eunomius' one surviving Apology, his position reaches us through his refuters; the world's summary of him is hostile paraphrase, carried as such |
+| theologia/oikonomia (17) | **no — resolved [CT]-adjacent** | n/a — no contest-type section owed | **Resolution (2026-08-30):** the reserve debate is a Documented intra-world argument whose *motives* are Contested at claim level — a confidence flag, not a contested-tradition designation of the term. Tag line stands at [TC][DR], matching Doc_03 ("[CT]-adjacent on the reserve debate") and World Profile §6 ("CT-adjacent (reserve debate)"). The former closing note of this document, which listed it among stated contest types, was the three-way mismatch's outlier and is corrected; no change is needed in Doc_03 or the World Profile |
+
+**Check-sheet verdict:** every CT-tagged term (2 of 2) has its contest type specifically stated — no CT tag is applied with the contest left templated.
+
+## Index E — Related-Terms Reciprocity Sheet
+
+**Accounting.** Pre-revision: 107 directed links; 37 mutual pairs; **33 one-directional links** (the closing note's old claim that reciprocity had been "checked" was false). Post-revision: 128 directed links; 58 mutual pairs; **12 declared one-directional links**, each with its reason (E.2). Of the 33: 10 gained back-links in Tier 1/2 entry lists, 11 were resolved by the four new Tier 3 Related lines (E.3), 12 are declared.
+
+### E.1 Adjacency table (every link, with status)
+
+| # | Term | Links (post-revision) | Status |
+|---|---|---|---|
+| 1 | ousia/hypostasis | homoousios · akatalēpsia · agennētos · doxologia · eusebeia | all mutual (eusebeia back-link added this revision) |
+| 2 | akatalēpsia | epinoia/energeia · agennētos · ousia/hypostasis · theōsis · eusebeia · paideia/philosophia⁺ · epektasis⁺ | all mutual |
+| 3 | doxa/doxologia | paradosis · baptisma · ousia/hypostasis · psalmōdia · eusebeia · theōsis⁺ · theologia/oikonomia⁺ | all mutual |
+| 4 | paradosis | doxologia · baptisma · symbolon (T3) · kanōn (T3) · martys/martyrion | all mutual (T3 back-links via new Related lines) |
+| 5 | eusebeia | akatalēpsia · doxologia · philoptōchia · pleonexia · kanōn (T3) · ousia/hypostasis⁺ | all mutual (philoptōchia pair completed at entry 7) |
+| 6 | koinōnia | adelphotēs · askēsis · philoptōchia · hēsychia · kanōn (T3) · eikōn⁺ · Basileias⁺ | all mutual |
+| 7 | philoptōchia | philanthrōpia · eikōn · pleonexia · koinōnia · Basileias · eusebeia⁺ | all mutual |
+| 8 | eikōn | theōsis · philoptōchia · koinōnia · anastasis | all mutual (pairs completed at entries 6 and 29) |
+| 9 | theōsis | eikōn · akatalēpsia · epektasis · doxologia · anastasis | all mutual (doxologia pair completed at entry 3) |
+| 10 | hēsychia | koinōnia · askēsis · philotimia (T3) · parrhēsia · theōsis → | mutual except theōsis (declared, E.2 #1) |
+| 11 | paideia/philosophia | akatalēpsia · epinoia/energeia → · philotimia (T3) | mutual except epinoia/energeia (declared, E.2 #12) |
+| 12 | martys/martyrion | panēgyris · paradosis · anastasis | all mutual |
+| 13 | panēgyris | martys · psalmōdia · philoptōchia → | mutual except philoptōchia (declared, E.2 #8) |
+| 14 | homoousios | ousia/hypostasis · symbolon (T3) · doxologia → | mutual except doxologia (declared, E.2 #9) |
+| 15 | epinoia/energeia | akatalēpsia · agennētos · ousia → | mutual except ousia (declared, E.2 #10) |
+| 16 | agennētos | akatalēpsia · epinoia · ousia/hypostasis | all mutual |
+| 17 | theologia/oikonomia | doxologia · akatalēpsia → · parrhēsia | mutual except akatalēpsia (declared, E.2 #11); doxologia and parrhēsia pairs completed this revision |
+| 18 | baptisma/phōtisma | doxologia · paradosis · symbolon (T3) | all mutual |
+| 19 | psalmōdia | doxologia · panēgyris · penthos/paraklēsis | all mutual |
+| 20 | adelphotēs | koinōnia · askēsis · kanōn/kanonikai (T3) | all mutual |
+| 21 | askēsis | koinōnia · adelphotēs · hēsychia · apatheia | all mutual |
+| 22 | philanthrōpia | philoptōchia · eikōn → · theōsis → | mutual except eikōn and theōsis (declared, E.2 #5, #4) |
+| 23 | Basileias | philoptōchia · koinōnia · pleonexia → | mutual except pleonexia (declared, E.2 #7) |
+| 24 | pleonexia | philoptōchia · eusebeia · eikōn → | mutual except eikōn (declared, E.2 #6) |
+| 25 | epektasis | theōsis · akatalēpsia · diastēma (T3) | all mutual (akatalēpsia and diastēma pairs completed this revision) |
+| 26 | parrhēsia | hēsychia · philotimia (T3) · eusebeia → · theologia/oikonomia⁺ | mutual except eusebeia (declared, E.2 #3) |
+| 27 | apatheia | askēsis · penthos/paraklēsis · theōsis → | mutual except theōsis (declared, E.2 #2) |
+| 28 | penthos/paraklēsis | anastasis · psalmōdia · apatheia | all mutual |
+| 29 | anastasis | penthos/paraklēsis · martys · theōsis · eikōn⁺ | all mutual |
+| 30 | symbolon | paradosis · homoousios · baptisma/phōtisma | all mutual (Related line added this revision) |
+| 32 | kanōn/kanonikai | paradosis · eusebeia · koinōnia · adelphotēs | all mutual (Related line added this revision) |
+| 33 | diastēma | epektasis | mutual (Related line added this revision) |
+| 36 | philotimia | hēsychia · paideia/philosophia · parrhēsia | all mutual (Related line added this revision) |
+| 31, 34, 35, 37–39 | chōrepiskopos, mystērion, phthonos, orgē, oikonomos, exoria | — | no links claimed in either direction (declared, E.3) |
+
+⁺ = back-link added this revision. → = declared one-directional (E.2).
+
+### E.2 Declared one-directional links (12 — deliberate, with reasons; not oversights)
+
+| # | Link (A → B, no return) | Why one-directional by its actual nature |
+|---|---|---|
+| 1 | hēsychia → theōsis | Means points to end: stillness seeks the God theōsis names, but theōsis' own grammar (image, participation, endless progress, resurrection, worship) does not run through stillness — this world subordinated solitary quiet to the common life; koinōnia, not hēsychia, is salvation's shape here |
+| 2 | apatheia → theōsis | Same rule: the ordered heart is a means; the end's entry does not enumerate its means |
+| 3 | parrhēsia → eusebeia | Fruit points to root: bold access is won by reverence; eusebeia's entry names its own components (exact confession, open hands), not every fruit |
+| 4 | philanthrōpia → theōsis | The incarnation's motive-word looks up to salvation's end; theōsis' grammar does not route through it |
+| 5 | philanthrōpia → eikōn | Warrant flows one way: the image grounds the imitation-logic; the image's dignity does not derive from philanthrōpia |
+| 6 | pleonexia → eikōn | eikōn reaches the wealth-critique through philoptōchia, its direct partner; adding the vice to the image's own list would duplicate that route |
+| 7 | Basileias → pleonexia | The building answers the vice; the vice's anatomy (whose counter-virtue philoptōchia is already listed) does not need the building |
+| 8 | panēgyris → philoptōchia | Venue points to virtue: the festival is where love of the poor gets preached; the virtue does not depend on the venue |
+| 9 | homoousios → doxologia | doxologia reaches the credal vocabulary through ousia/hypostasis, its direct anchor; homoousios is carried inside that entry at depth (Doc_03's own note) |
+| 10 | epinoia/energeia → ousia | ousia/hypostasis routes to the epistemology through akatalēpsia; epinoia/energeia is that entry's technical machinery, one step down |
+| 11 | theologia/oikonomia → akatalēpsia | The register-distinction borrows incomprehensibility's ground; the ground's entry does not enumerate its borrowers |
+| 12 | paideia/philosophia → epinoia/energeia | The school points to the tool it trains; the tool's own ecology is the Eunomian fight, not the formation ladder (paideia's link to that fight is carried reciprocally at akatalēpsia) |
+
+### E.3 Tier 3 back-links and non-linked Tier 3 entries
+
+The pre-revision document gave no Tier 3 entry a Related-Terms field, so nothing could link back to Tier 3 — every inbound link to a Tier 3 term was structurally one-directional. This revision adds compact Related lines to the four Tier 3 entries that are actually targeted — **symbolon** (← paradosis, homoousios, baptisma), **kanōn/kanonikai** (← paradosis, eusebeia, koinōnia, adelphotēs), **diastēma** (← epektasis), **philotimia** (← hēsychia, paideia/philosophia, parrhēsia) — each reciprocating exactly its inbound links, nothing invented. The remaining six Tier 3 entries (chōrepiskopos, mystērion, phthonos, orgē, oikonomos, exoria) have no in-document Related-Terms links in either direction: declared here so it reads as a decision, not an oversight. Natural candidates (e.g., oikonomos ↔ philoptōchia/Basileias; mystērion ↔ akatalēpsia/baptisma) are left to chunk production rather than back-filled speculatively here.
+
+---
+
 ## Cross-Reference and Confidence Review Notes
-Reciprocity of Related Terms checked within this document. Conceptual clusters preserved from Doc_03; the two Tier 1 demotions (paideia, martys/martyrion) recorded in the header and at their entries. Confidence: no entry claims Documented where its ground is reconstruction; Reported-Experience Status applied to the martyr-shrine wonder-content (entry 12); CT contest types stated for ousia/hypostasis, agennētos, theologia/oikonomia (reserve debate); [PV] single-author weighting marked for epektasis, diastēma, apatheia-usage, and the akatalēpsia mystical elaboration. Deployment chunk production (LDF Part VI) occurs at the deployment-output stage; always-present (YES/NO) designations are assigned in the World Profile Section 6.
+
+**Reciprocity of Related Terms — verified this revision via Index E, not merely asserted.** The pre-revision text of this note claimed reciprocity had been "checked within this document"; a direct check found 33 one-directional links. Twenty-one now carry their real back-links (10 added to Tier 1/2 entry lists; 11 resolved by the four new Tier 3 Related lines) and 12 are declared one-directional with stated reasons (Index E.2) — declared, not silent. Conceptual clusters preserved from Doc_03; the two Tier 1 demotions (paideia, martys/martyrion) recorded in the header and at their entries. Confidence: no entry claims Documented where its ground is reconstruction; Reported-Experience Status applied to the martyr-shrine wonder-content (entry 12); **CT contest types stated for ousia/hypostasis and agennētos — the only two [CT]-tagged terms; theologia/oikonomia is [CT]-adjacent, not [CT] (Index D records the resolution; this note formerly misstated it)**; [PV] single-author weighting marked for epektasis, diastēma, apatheia-usage, and the akatalēpsia mystical elaboration. Deployment chunk production (LDF Part VI) occurs at the deployment-output stage; the three chunks already built (`cappadocianlex001_ousia-hypostasis.md`, `cappadocianlex002_theosis.md`, `cappadocianlex003_koinonia.md`) are referenced by the Master Index as they stand. Always-present (YES/NO) designations remain assigned in World Profile Section 6; for tier/tag/risk-flag lookup, §6's partial Tier 1+2 table is superseded by the Master Index above.
 
 *No Representative content appears in this document.*
