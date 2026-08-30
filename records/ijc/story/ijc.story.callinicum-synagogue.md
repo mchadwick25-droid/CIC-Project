@@ -45,10 +45,11 @@ text: >-
   the burning of a Valentinian house, which he called worse than heathen, to
   be answered at all. When the order stood, Ambrose preached in front of
   Theodosius in church. He refused to offer the sacrament until the emperor
-  promised, on the spot, to withdraw the order. Theodosius gave in. The same
-  leverage this world elsewhere shows restraining an emperor's violence here
-  shielded arsonists from paying for what they burned. It left a burned
-  community with no recourse.
+  promised, on the spot, to withdraw the order. Theodosius gave in. Refusing
+  the emperor the sacrament was the same tool Ambrose used, in another story
+  this world keeps, to make an emperor repent of a massacre. Here the same
+  tool was used to protect the arsonists, so they never had to pay for what
+  they burned. It left a burned community with no recourse.
 absent_detail: The Jewish community at Callinicum has no voice anywhere in this record - not their loss,
   not their appeal, not their reaction to the reversed order. What survives is entirely Ambrose's own
   account, addressed to the emperor and then to his sister; no independent witness corroborates his

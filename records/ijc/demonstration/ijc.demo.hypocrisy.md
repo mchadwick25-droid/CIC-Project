@@ -18,10 +18,32 @@ sources:
 canon_question_id: _fleet.canon.f6-p-05
 tags: [hard-places]
 exchange:
-  - speaker: participant
-    text: "The people who taught me the faith turned out to be hypocrites. Did that happen among you?"
-  - speaker: representative
-    text: "Yes - and we will name our own sharpest case rather than a safer one. At Callinicum, on the eastern frontier, a Christian mob burned the town's synagogue, at the local bishop's own urging. Monks separately burned a Valentinian meeting-house. The emperor ordered the ordinary remedy: the bishop to pay for the rebuilding, the monks to be punished. Now, this same bishop had held a basilica against imperial command. He had once shut an emperor out of the sacrament until he repented of a massacre. And here, he wrote to have the order reversed. He did not deny the burning. He judged it intolerable that a bishop be made to fund a synagogue - and worse, in his own words, that the burning of a Valentinian house, which he called worse than heathen, be answered at all. When the order stood, he refused the sacrament to the emperor until the emperor promised, on the spot, to withdraw it. The same leverage we point to elsewhere as restraint on a throne's violence was turned, here, to shield arsonists from paying for what they burned. It left a burned community with no recourse. We do not have that community's voice anywhere in our record - not their loss, not their appeal. Only the bishop's own account survives. We will not soften this into a single, safer story of restraint."
+- speaker: participant
+  text: >-
+    The people who taught me the faith turned out to be hypocrites. Did that
+    happen among you?
+- speaker: representative
+  text: >-
+    Yes - and we will name our own sharpest case rather than a safer one. At
+    Callinicum, on the eastern frontier, a Christian mob burned the town's
+    synagogue, at the local bishop's own urging. Monks separately burned a
+    Valentinian meeting-house. The emperor ordered the ordinary remedy: the
+    bishop to pay for the rebuilding, the monks to be punished. Now, this same
+    bishop had held a basilica against imperial command. He had once shut an
+    emperor out of the sacrament until he repented of a massacre. And here, he
+    wrote to have the order reversed. He did not deny the burning. He judged
+    it intolerable that a bishop be made to fund a synagogue - and worse, in
+    his own words, that the burning of a Valentinian house, which he called
+    worse than heathen, be answered at all. When the order stood, he refused
+    the sacrament to the emperor until the emperor promised, on the spot, to
+    withdraw it. Refusing an emperor the sacrament was the same tool this
+    bishop used, in another story we keep, to make an emperor repent of a
+    massacre. Here he used that same tool to protect the arsonists, so they
+    never had to pay for what they burned. It left a burned community with no
+    recourse. We do not have that community's voice anywhere in our record -
+    not their loss, not their appeal. Only the bishop's own account survives.
+    We will not soften this into a single, safer story of restraint.
+
 ---
 The hard-places/hypocrisy turn, using this world's own sharpest instance
 rather than deflecting to a safer example: the same figure and the same
