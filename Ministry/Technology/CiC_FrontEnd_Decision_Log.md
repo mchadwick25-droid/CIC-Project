@@ -1591,3 +1591,38 @@ mention "Ignatius wrote against people...", second mention "Ignatius
 calls Jesus Christ our God again and again" - the reintroduction is
 gone, and both names bridged in the UI. Repinned:
 packages/pahc/2026-08-30T02-13-07Z.
+
+## 2026-08-30 - Change Order V1.2 + the five-world transparency read
+
+Mark: "go ahead with the change order and the five world read."
+
+Change Order (versioned, never silent): Build Process V1.1 -> V1.2 and
+Completion Standard V1.1 -> V1.2. Transparency ground is a birth
+condition: every substantive cell offers a genuinely-belonging story
+and term at birth or records its honest empty (forced fill fails the
+read), and no spoken field hard-binds a first-mention introduction
+formula to its answer - the plain name speaks; introduction is the
+system's job. Launch prompt repointed to V1.2.
+
+The read, applied to the five worlds beyond pahc (lean - one story and
+one term per center cell, only where genuinely belonging):
+- alx: john-young-robber +C-P (the apostle bringing back the fallen
+  young man); kanon-pisteos +C-E. C-I already held 3 terms, C-T 8.
+- desert: antony-call +C-P (the Gospel heard as spoken straight to
+  him); demo.center-coming-to-belief now speaks "Moses" plain - the
+  one remaining named-introduction bind in a center exemplar.
+- syr: abgar-addai-legend +C-E (its own founding story, told as
+  story); jacob-nicaea +C-T; ihidaya +C-I (their own title for
+  Christ); raza-shrara +C-T (how this world holds divine truth).
+- hal: ciceronian-dream +C-P (the story it tells against itself);
+  vulgata +C-E (how the writings reached anyone).
+- ijc: tome-that-would-not-bend +C-T. C-T already held 3 terms.
+
+Honest empties, recorded as findings, not gaps to fill: desert
+C-E/C-I/C-T (its Jesus-content is one command heard directly - the
+witness records carry it); alx/hal/ijc C-I (their center identity
+answers are the creed/Logos/Word witnesses themselves); ijc/alx C-P
+stories (no story earned the cell); pahc C-P (ruled 2026-08-30).
+"One of us, [name]" elsewhere in the corpus is untouched - only
+exemplar-bound openings were in scope. desert.dw.born-again (F4-T,
+names Philoromus) noted as the nearest out-of-scope case, left as is.
