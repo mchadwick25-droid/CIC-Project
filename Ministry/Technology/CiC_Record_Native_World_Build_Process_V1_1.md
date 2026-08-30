@@ -1,4 +1,9 @@
-# CiC Record-Native World Build Process — V1.0 (2026-08-01)
+# CiC Record-Native World Build Process — V1.1 (2026-08-30)
+
+**V1.1 change (Change Order, Mark, 2026-08-30: "build the authoring
+discipline into the build cycle"):** the register bar becomes a birth
+condition of Phase B — see the new subsection at the head of Phase B.
+No other content changed from V1.0 (2026-08-01).
 
 **What this document is:** the single end-to-end process for building a NEW
 formation world, from Step-0 scope confirmation through a frozen, deployed,
@@ -115,6 +120,30 @@ fully absorbed before retiring them. Do not create new workbooks.
 ---
 
 ## 3. Phase B — Record-store authoring (born under the live gates)
+
+**The register bar is a birth condition (V1.1).** Spoken prose is born
+at the bar the same way records are born under the live gates: from the
+first record, never retrofitted. The bar is one approved sample, not a
+list of rules — `Ministry/Technology/CiC_Register_Bar_2026-08-29.md`
+holds it, and it holds nothing else. Concretely:
+
+- Every spoken field (`text`, `statement`, `tellable_as`, exchange
+  turns, `positions`) is drafted with the approved sample open, and
+  written to match it: practical, straight, clear modern English;
+  simple sentences; a scholar's term only after its plain meaning, as a
+  label. The sample is the standard. No banned-word lists exist or
+  accumulate anywhere in this process.
+- Quote records author their `modern_rendering` at birth. The spoken
+  form is a modern-English translation, never the archaic original; the
+  original stays as the record's `text` for Level 3.
+- Each step's review reads every spoken field against the sample. A
+  sentence the reviewer has to re-read, or has to ask the meaning of,
+  fails and is rewritten before the step clears — that question IS the
+  finding.
+- Before B-8, the bar screen (quote-stripped reading grade, longest
+  sentence, fragment ratio) runs over the world's spoken fields and its
+  output is saved as an artifact. The numbers are visibility only; the
+  sample is the judge. Nothing gates on a number.
 
 This is where a record-native build departs from the six worlds' history:
 instead of finishing Phase A and later migrating, each Phase-A document is
