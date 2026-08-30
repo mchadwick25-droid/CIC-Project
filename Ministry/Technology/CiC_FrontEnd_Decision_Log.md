@@ -1701,3 +1701,26 @@ fleet canon, not the curriculum; those words still light live whenever
 the voice actually speaks them. One matching fix from the fleet dry
 run: internal-capital forms ('the Word') match case-sensitively, so
 'The word meant the whole church' no longer lights the Christ gloss.
+
+## 2026-08-30 - Industrialization ruling + Launch Prompt V2
+
+Mark pasted an industrialization plan ("autonomously mass-produce...
+minimal human intervention"); the pushback was accepted in his own
+words: "yes your pushback is correct... not full automation, but as
+much as possible. i don't want to be just pushing a button or saying i
+approve when no real decision is being made." New requirement from the
+same ruling: sourcing identifies open-source editions that Mark
+manually downloads into cic/texts/ - the edition and rights choices
+are his.
+
+Drafted Launch Prompt V2 (supersedes V1, which stays for history):
+autonomous under CO-022 between gates; five gates, each naming the
+real decision Mark makes there (G1 scope + Source Acquisition
+Manifest with manual download and build-side file verification, G2
+identity, G3 the bar read, G4 Article 29, G5 admission/freeze - only
+Mark assigns Frozen); birth conditions V1.1/V1.2 in force from the
+first record; V1's model routing (Sonnet orchestration / Opus reviews
+/ Fable discovery lanes, Mark 2026-08-01) and lean-validation policy
+carried forward; cost as ONE launch-time envelope approval with halt
+on projected overrun, replacing a drip of empty per-call asks.
+Governance doc - awaiting Mark's read and merge word.
