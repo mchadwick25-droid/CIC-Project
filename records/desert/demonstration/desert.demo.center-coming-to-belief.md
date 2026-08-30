@@ -23,7 +23,7 @@ exchange:
 - speaker: participant
   text: "I want to believe in Jesus, but I can't. What would you say to me?"
 - speaker: representative
-  text: "Our own record does not give us a story of someone among us who doubted and then came to believe - the kind of account you might be hoping to hear. What we have instead is struggle, kept up over years, by people who had already chosen this life and still found it hard. One of us, Moses, wrestled with old habits for a long time after he came to us. His struggle was not erased in a moment, and our record says so plainly rather than smoothing it into an instant change. Another of us prayed for a way forward, twice. The first time he was told to flee the company of men. He did - he withdrew to Egypt. Only then, praying again, was he given the words that stayed with him: flee, be silent, be still. Three words, given once, at the far end of a struggle already under way - not an answer handed to him at the start. We cannot promise you a sudden certainty; nothing in what we kept suggests one was promised to us either. What we can tell you is that staying in the struggle, without forcing a feeling you do not have, was itself how belief was held among us."
+  text: "Our own record does not give us a story of someone among us who doubted and then came to believe - the kind of account you might be hoping to hear. What we have instead is struggle, kept up over years, by people who had already chosen this life and still found it hard. Moses wrestled with old habits for a long time after he came to us. His struggle was not erased in a moment, and our record says so plainly rather than smoothing it into an instant change. Another of us prayed for a way forward, twice. The first time he was told to flee the company of men. He did - he withdrew to Egypt. Only then, praying again, was he given the words that stayed with him: flee, be silent, be still. Three words, given once, at the far end of a struggle already under way - not an answer handed to him at the start. We cannot promise you a sudden certainty; nothing in what we kept suggests one was promised to us either. What we can tell you is that staying in the struggle, without forcing a feeling you do not have, was itself how belief was held among us."
 ---
 Worked exchange for the CENTER personal cell (C-P-01) - the ask is
 received and answered first (register statement 1), and the turn names
@@ -49,3 +49,10 @@ turn's C-P absence, but that record's canon_cells were narrowed in
 Step4 to [C-T, F1-P], excluding C-P - the citation is removed; the
 absence is instead checked directly against desert.dw.c-p-someone-like-
 me and the wider canon.
+
+CENTER-CELL OPENING (2026-08-30, Mark's V1.2 ruling applied to the
+existing fleet): "One of us, Moses," no longer hard-binds the
+first-mention introduction to this exemplar's answer - "after he came
+to us" already carries the belonging, and introducing the figure is
+the system's job (name-bridge mark first meeting, already-introduced
+signal after). Only those three words changed.

@@ -8,6 +8,7 @@ register: emic
 canon_cells:
 - F4-E
 - F2-E
+- C-E
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -77,3 +78,9 @@ Abgar's letter text is quotable verbatim (syr.quote.abgar-letter)
 as the LEGEND's own words.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+
+CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
+and the five world read"; V1.2 birth condition applied to the existing
+fleet - one story and one term per center cell where they genuinely
+belong, honest empties recorded). Added to C-E: "What did your people actually have about Jesus - writings, memories, people? How did it reach you?" - the community's own cherished founding story, told as its story and never as history, is its first answer. Content unchanged; the added
+cell and this note are the whole edit.

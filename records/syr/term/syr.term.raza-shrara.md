@@ -8,6 +8,7 @@ register: emic
 canon_cells:
 - F2-I
 - F2-P
+- C-T
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -77,3 +78,9 @@ PV note carried: Ephrem builds a whole method on the pair; Aphrahat's
 cognate usage is real but plainer - never present the two as co-equal
 theoretical attestation. kasyutha/hayla kasya deliberately folded in
 here, not a separate term (Doc_03 SS3.3).
+
+CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
+and the five world read"; V1.2 birth condition applied to the existing
+fleet - one story and one term per center cell where they genuinely
+belong, honest empties recorded). Added to C-T: "Was Jesus God?" - symbol-and-truth is how this world holds divine truth at all; its was-he-God answer speaks in razas, not definitions. Content unchanged; the added
+cell and this note are the whole edit.

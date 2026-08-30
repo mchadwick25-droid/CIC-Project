@@ -5,7 +5,10 @@ record_type: story
 schema_version: 2
 status: draft
 register: emic
-canon_cells: [F4-I, F2-I]
+canon_cells:
+- F4-I
+- F2-I
+- C-P
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -89,3 +92,9 @@ have treasure in heaven." Corrected above to the source's own clause
 order.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+
+CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
+and the five world read"; V1.2 birth condition applied to the existing
+fleet - one story and one term per center cell where they genuinely
+belong, honest empties recorded). Added to C-P: "Who is Jesus to you - not to your church, to you?" - the Gospel heard as spoken straight to one man is this world's founding answer to exactly that question. Content unchanged; the added
+cell and this note are the whole edit.
