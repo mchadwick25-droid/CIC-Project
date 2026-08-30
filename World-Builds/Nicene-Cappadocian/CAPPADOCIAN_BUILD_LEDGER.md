@@ -1,7 +1,7 @@
 # Cappadocian Build Ledger
 ## Record-Native World Build Process V1.2 — recovery, audit, and gate status
 
-**Read this first if resuming.** This world is being recovered and audited per V1.2 Appendix C item 3 ("the Cappadocian orphan"), not built fresh. Current position: **G1 and G2 both decided (Mark, 2026-08-30); cost envelope approved; build proceeding under CO-022 autonomy on the review/rework lane.** One real handoff is still outstanding and blocks Phase B's B-1: Mark's own download of the approved manifest files into `cic/texts/` (this session cannot fetch them — see the G1 file's closing note).
+**Read this first if resuming.** This world is being recovered and audited per V1.2 Appendix C item 3 ("the Cappadocian orphan"), not built fresh. Current position: **G2 decided and standing. G1 is REOPENED** — the independent reviews it commissioned found the scope argument Mark approved has real, blocking problems (§5 below), so the corrected version is going back to him for actual re-confirmation rather than being treated as settled. Cost envelope approved in principle but the review/rework lane is now known to run past its original estimate (§4, revised). One real handoff is still outstanding regardless: Mark's own download of the manifest files into `cic/texts/` (this session cannot fetch them) — hold this until the manifest is re-confirmed, since one row in the first approved version pointed at the wrong content.
 
 ---
 
@@ -33,14 +33,14 @@ Built as a **single unattended Fable run**, forked from `CiC-Fable-Experiment`, 
 
 | Gate | Status | Artifact |
 |---|---|---|
-| G1 — Scope & Sources | **DECIDED, 2026-08-30** — scope confirmed, manifest approved; file download from Mark still outstanding (blocks Phase B B-1 only) | `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` |
-| G2 — Representative identity | **DECIDED, 2026-08-30** — Option 1 (Eumathios, guest-door elder); Option 2 left open, not foreclosed, not built now | `cappadocian_Representative_Identity_Options.md` |
+| G1 — Scope & Sources | **REOPENED, 2026-08-30** — the approved scope argument and one manifest row were found materially wrong by independent review; corrected versions await Mark's actual re-confirmation, not carried over from the first approval | `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` |
+| G2 — Representative identity | **DECIDED, 2026-08-30, standing** — Option 1 (Eumathios, guest-door elder); Option 2 left open, not foreclosed, not built now. Not reopened — the identity reviews didn't touch this decision's own reasoning | `cappadocian_Representative_Identity_Options.md` |
 | G3 — Bar read | not reached | — |
 | G4 — Article 29 | not reached (carried `provisional`, unchanged) | — |
 | G5 — Admission & freeze | not reached | — |
-| Cost envelope | **APPROVED, 2026-08-30, ≈$60–110** | this file, §4 |
+| Cost envelope | **APPROVED in principle, 2026-08-30; the review/rework lane is now known to run past its original $15–30, see §4** | this file, §4 |
 
-Per CO-022, both decisions are now settled and the build proceeds autonomously within the approved envelope: independent review of Doc_01/Doc_02, Doc_02's structural rework into the V7.4 Source Registry Template, currency checks of Doc_03–09, and Doc_10 rework toward Eumathios/guest-door-elder under the register bar. **Not started yet, and blocked on Mark specifically:** Phase B's B-1 (source rows), which needs the actual files in `cic/texts/`.
+Per CO-022, this is a "finding cuts against an earlier decision" escalation, not a routine revision — the build thread is not self-dispositioning the reopened G1, even though most of the underlying fixes are mechanical. §5 below is the full finding; the manifest file carries the corrected Part A and Part B for Mark's actual re-look.
 
 ## 4. Cost envelope estimate — for Mark's one approval, before further billed work
 
@@ -48,19 +48,39 @@ Per CO-022, both decisions are now settled and the build proceeds autonomously w
 
 This session's own recovery + audit + web research (everything above and the two decision artifacts) has been reasoning and search-tool work, not agent/subagent API spend, and is not counted against this envelope — the envelope below is what remains, gated on Mark's decisions in §2's two open artifacts.
 
-| Lane | What it covers | Estimate | Basis |
-|---|---|---|---|
-| Review & currency rework | Fresh-context adversarial review of Doc_01 and Doc_02 (the existing Critic checkpoints are same-session/simulated and don't satisfy independent review); Doc_02 rework into the V7.4 Source Registry Template; light currency check of Doc_03–09/World Profile against V7.4 + the four index-discipline skills (lexicon/gravity/forces/story) | **$15–30** | [E] |
-| Source verification sweep | Independent check of the structurally load-bearing named-detail claims Critic Finding 1/19 lists (the 381 communion-law bishops, Eunomius' birthplace, the Forty-of-Sebaste family shrine, the Asketikon locus, Gangra's canon content, the famine date, the 372 provincial division) against the acquired texts once Mark downloads them | **$10–20** | [E] |
-| Phase B — record-native conversion (B-1–B-9) | Mechanical scripts (cheap) + Fable component calls for lexicon/story/gravity/forces authoring and — the largest single item — a real voice/Permanent Prompt rebuild to the register bar and transparency-ground birth conditions, since the existing prompt was never read against either | **$25–45** | [E], the widest range here — depends on how much Doc_10 survives a register-bar read intact |
-| Phase C — deployment wiring | Manifest entry, frontend union, indices, Dockerfile audit, ceiling/guard wiring, live smoke test — mostly mechanical | **$2–5** | [E] |
-| Phase D — lean validation | Free floor (gates/schema/parities) + ~10–14 single-trial blind-graded probes (cents each) + one extended live Deep Interview | **$5–10** | [M] for the Deep Interview shape and per-probe cost (policy doc, `2026-08-01_M_lean_validation_interview_spend.md`); [E] for the probe count actually needed here |
-| **Total envelope** | | **≈ $60–110** | |
+| Lane | What it covers | Original estimate | Revised, post-review | Basis |
+|---|---|---|---|---|
+| Review & currency rework | Fresh-context adversarial review of Doc_01 and Doc_02 (done — see §5); **substantial revision of both** (not "light currency check" — the reviews found 15 blocking items each); Doc_02 rework into the V7.4 Source Registry Template incorporating the corrections; Doc_04 real rework (3 of 11 gravities never tested); Doc_06 real rework (no master index exists, plus three factual corrections); light touch-ups to Doc_08/09; adding the now-required ethical/legal lens to Doc_05/07 | $15–30 | **$35–55** | [E] — three independent Opus review passes already spent (§5); this is what's left to actually fix what they found |
+| Source verification sweep | Same scope as before, now informed by two review passes that already did much of this work from memory-cross-check; remaining: confirm against the real acquired texts once downloaded | $10–20 | $10–15 | [E], lower — the reviews already did the cheap part |
+| Phase B — record-native conversion (B-1–B-9) | Unchanged in shape; still the largest single item, still dominated by the voice/Permanent Prompt rebuild to the register bar (the "last martyrs" opening line alone forces a rewrite regardless of the historical correction) | $25–45 | $25–45 | [E], unchanged |
+| Phase C — deployment wiring | Unchanged | $2–5 | $2–5 | [E], unchanged |
+| Phase D — lean validation | Unchanged | $5–10 | $5–10 | [M]/[E], unchanged |
+| **Total envelope** | | **≈ $60–110** | **≈ $80–130** | |
 
-**Two things this figure does not include, both flagged rather than buried:** (1) claude-sonnet-5's intro pricing ends 2026-08-31 (tomorrow, from this session's date) — costs measured under it are already optimistic by ~50% for anything run after; the range above assumes post-increase rates throughout, which is why it reads higher than the fleet's earlier per-world figures. (2) The "honest gaps" section of the Source Acquisition Manifest names real citations (the anti-slaveholding homily chief among them) with no verified open edition found this session — if Mark chooses to close that gap with a licensed purchase rather than accept the scope reduction, that is a real dollar decision outside this envelope, made explicitly, not folded in.
+**This is the "projected overrun, stated plainly" moment the launch prompt's cost policy requires, not silent continuation.** The overrun is entirely in one lane (review & rework) and has an identifiable cause: the original estimate assumed Doc_03–09 needed only a "light currency check," and the actual independent review found Doc_01, Doc_02, Doc_04, and Doc_06 all need real, substantive revision. The three review agents that produced this finding (§5) are themselves already-spent cost, included in the revised range, not an additional ask.
+
+**Unchanged from the first version:** (1) claude-sonnet-5's intro pricing ends 2026-08-31 — the range already assumes post-increase rates. (2) The manifest's honest-gaps section (revised, §5) still names real citations with no open edition — that dollar decision, if Mark wants to close it with a licensed purchase, stays outside this envelope.
 
 **What happens within the envelope once approved:** the build runs without per-call asks, per the launch prompt's cost policy. A projected overrun or exhausted allocation is a halt at the last green checkpoint, stated plainly with a revised estimate — never silent continuation.
 
-## 5. Model routing note specific to this recovery
+## 5. Independent review findings (2026-08-30) — why G1 reopened
+
+Three fresh-context Opus review agents ran after the first G1/G2 approval: one on Doc_01, one on Doc_02 (cross-checked against the approved manifest), one auditing Doc_03/04/06/08/09 against the four index-discipline skills and V7.4 currency. Full transcripts are not retained here; this is the consolidated finding.
+
+**The headline result: the recovered build's reasoning is consistently better than its bookkeeping and its memory.** No reviewer found a fabricated source, an invented quotation from whole cloth, or a classification that looks wrong given the evidence the build presents. What they found instead is a real, recurring pattern: specific facts misremembered (both Doc_01 and Doc_02 independently gave Basil's redated death year as 378 instead of the correct 377 — two reviewers making the identical correction from different angles is a good sign about the review, not the document), scholarly positions misattributed (McGuckin assigned the opposite of his actual known view, and leaned on twice more after), sources overclaimed (a manifest row said a volume contained orations it doesn't), and a few real self-contradictions (the world refuses to equate itself with its three authors, then ends when those three authors die).
+
+**Highest-priority findings:**
+1. **The "last martyrs" self-description is very likely wrong**, and it's already the opening line of the deployed-style Permanent Prompt. Eupsychius of Caesarea was martyred under Julian in 362, inside this world's own span, with his feast attested in Basil's letters.
+2. **A required Construction Framework section (World Separation Criteria) is missing from Doc_01 entirely** — this is the actual reason the c.394 ending is argued from personnel and politics rather than from any demonstrated change in formation, worship, authority, or interpretation, and it's the same root cause behind the strand-singular finding being under-argued.
+3. **The world is written as both regional and confessional without choosing** — the region's own Homoian and Eunomian Christians get excluded as "external weather" or a "boundary" despite the world being framed as a regional formation ecology, not a confessional one.
+4. **Doc_04 has three untested gravities** (Tensional 9/10/11) that appear only at classification, never generated as candidates or run through the six-test assessment — already propagated into Doc_08 and the World Profile as unearned confidence.
+5. **Doc_06 has no master index** (the actual point of the lexicon-index discipline), a wrong entry count in its own header (38 claimed, 39 actual, propagated into three other files including this ledger's first version), and a false "reciprocity checked" claim (33 one-directional links found).
+6. **The Source Acquisition Manifest itself had a real error**: one approved row claimed NPNF2 vol. 7 contains Gregory Nazianzen's Invectives against Julian — it doesn't. Caught before Mark downloaded anything. Full corrections are in the manifest file itself, including a materially expanded gap list (Basil's *Against Eunomius* has no open English translation at all, not just "not yet found") and one real structural decision (Doc_02 §4's regional-economic claims rest entirely on excluded copyrighted scholarship with no possible registry-row support — three options laid out there, Mark's call).
+
+**What's holding up fine, worth naming so it isn't lost in the correction list:** the Author Gravity method and its "Macrina as Gregory presents her" rule; the Article 20 bounded-reconstruction principle; Doc_08's Forces Document (genuinely strong, light-touch-up only); Doc_09's Absent Stories answer; the reserve/*oikonomia* debate write-up; G2's identity reasoning (not touched by any of this — it was a methodology/judgment call, not a factual one, and stands).
+
+**Full corrected scope and manifest:** `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md`, updated in place with `[CORRECTED 2026-08-30]` / `[NEW 2026-08-30]` markers so the diff from what Mark first approved is visible inline rather than requiring a separate diff.
+
+## 6. Model routing note specific to this recovery
 
 Doc_10's existing voice-construction reasoning (Section 2's eloquence calibration, the ventriloquism risk) is genuinely good analysis and should inform the Phase B-7 rebuild rather than being discarded — but the rebuild itself is Fable's lane per the pinned routing (voice construction, Doc_10 + B-7), run against the register bar's approved sample, not against the V3.1-era RCF template alone.
