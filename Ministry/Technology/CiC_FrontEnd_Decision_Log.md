@@ -1676,7 +1676,7 @@ the allowlist, first-occurrence per session, UI-only.
 Standing observation from the dry run, for future record authoring:
 the scan lights a word only when the voice actually SAYS the world's
 word. Theon says "Logos" - it lights. Chloe says "give thanks over the
-cup" (not "eucharistia") and Yeshua's world says "the Only-Begotten"
+cup" (not "eucharistia") and Mar Yausep says "the Only-Begotten"
 (not "ihidaya") - nothing lights, honestly. Where a world's voice
 habitually speaks the English rendering of its own word, making that
 rendering reachable is a per-record world_word authoring decision, not
