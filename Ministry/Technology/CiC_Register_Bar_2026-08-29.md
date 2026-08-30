@@ -38,3 +38,16 @@ records/syr/demonstration/syr.demo.room-for-doubt.md. Its properties:
 This document is the anchor. When speech quality drifts, the fix is
 measured against THIS sample and applied at the record layer - never
 accreted as prompt instruction (the no-fix-on-fix ruling).
+
+## Word-level rulings (accumulate here as Mark's reads land)
+
+- 2026-08-30, "we have not we keep": the archival sense of keep/kept is
+  out of spoken prose. Say "we have," "of ours," "was saved," "was
+  written," or - better - drop the possession verb entirely ("in
+  another story, ..."). Natural uses stay: "he kept telling this
+  story," "kept the same fasts," "kept guard."
+- 2026-08-30, compressed stakes-language fails the bar even when the
+  facts are right: "the same leverage we elsewhere show restraining"
+  became "the same tool Ambrose used, in another story, to make an
+  emperor repent of a massacre." When a sentence needs Mark to ask
+  what it means, that question IS the review; fix the record, repin.
