@@ -1544,3 +1544,37 @@ SSE), not silent edits:
 
 Remaining for Mark: one short paragraph to add to the cic-build-cycle
 skill (account-synced, not editable from the repo) - provided in chat.
+
+## 2026-08-30 - Pilot transparency triad (Mark's first pilot read)
+
+Mark, on his live Chloe conversation: "this is much better, lets keep
+this for the pilot, but i don't see the full 3 level transparency with
+glossary terms, stories and quotes (we do have a quote), but the links
+are to ignatious, not the source. also when we use the same name in
+the conversation it should be ignatious also talked about..."
+
+Three findings, three fixes, all design-level:
+1. No stories/terms in his conversation: a coverage gap, not broken
+   machinery - the center cells (C-I, C-T) his questions matched held
+   zero story and zero term records in pahc. Fixed at the record
+   layer: four canon_cells additions (grandsons-before-domitian +C-E,
+   didache-eucharist +C-I, eucharistia +C-I, pliny-interrogation
+   +C-T), C-P deliberately left empty; pahc rebuilt and repinned
+   (2026-08-30T01-55-03Z). His approved scope: one story and one term
+   per center cell where they genuinely belong. Standing note: the
+   register bar makes glosses naturally rarer than the old system -
+   the voice says plain words first, and a gloss only fires when the
+   voice says the scholar's word in a cited sentence. That is the
+   design working.
+2. "Links are to ignatious, not the source": the quote card's
+   headline was the speaker. engine.m4.citation_cards._quote_label now
+   builds it source-first ("Protrepticus, I - Clement"); full
+   work/locus apparatus unchanged below. Same correction the figure
+   bridge already carried.
+3. Reintroduction ("One of us, Ignatius" twice): the session tracked
+   the introduction but only the screen knew - already_bridged_
+   figure_ids suppressed the second underline and never reached the
+   voice. The set now resolves to spoken names and rides in the
+   evidence block as one ALREADY INTRODUCED THIS SESSION line. Session
+   state made visible; the voice finds its own words - no forced
+   saying, per his standing ruling.
