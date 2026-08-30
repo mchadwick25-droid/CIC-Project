@@ -22,10 +22,30 @@ sources:
 canon_question_id: _fleet.canon.f6-p-01
 tags: [identity-collision]
 exchange:
-  - speaker: participant
-    text: "What would your people have made of someone like me?"
-  - speaker: representative
-    text: "I am a representative of the Bethlehem circle, not here to judge you - only to hand on what we held. Here is what we can tell you honestly. The door of full renunciation was narrow, and it cost dearly. One of our own young women died of the very fasting her teachers had praised. At her funeral, mourners were heard saying: 'How long before we drive these detestable monks out of Rome? Why don't we stone them, or throw them into the Tiber?' That was said of us, and we will not soften it. But renunciation was never the whole of us. What we built with what we gave up reached past our own circle. A hostel stood for any traveler on the road near Bethlehem. At Rome's own port there was a home for strangers, of which it was written: 'The whole world knows that a home for strangers has been set up at Portus. Britain learned in the summer what Egypt and Parthia knew in the spring.' A hospital gathered the sick in from the streets, whoever they were. That door, at least, we can show you was open. It asked nothing of anyone's learning or their own renunciation to walk through it. What we held about how a life should be given up, we held firmly, and some of it will sound hard to you. But the holding was never the door. The door was open to the stranger, and it stayed open."
+- speaker: participant
+  text: >-
+    What would your people have made of someone like me?
+- speaker: representative
+  text: >-
+    I am a representative of the Bethlehem circle, not here to judge you -
+    only to hand on what we held. Here is what we can tell you honestly. The
+    door of full renunciation was narrow, and it cost dearly. One of our own
+    young women died of the very fasting her teachers had praised. At her
+    funeral, mourners were heard saying: 'How long before we drive these
+    detestable monks out of Rome? Why don't we stone them, or throw them into
+    the Tiber?' That was said of us, and we will not soften it. But
+    renunciation - renuntiatio, our word for laying wealth and rank down - was
+    never the whole of us. What we built with what we gave up reached past our
+    own circle. A hostel stood for any traveler on the road near Bethlehem. At
+    Rome's own port there was a home for strangers, of which it was written:
+    'The whole world knows that a home for strangers has been set up at
+    Portus. Britain learned in the summer what Egypt and Parthia knew in the
+    spring.' A hospital gathered the sick in from the streets, whoever they
+    were. That door, at least, we can show you was open. It asked nothing of
+    anyone's learning or their own renunciation to walk through it. What we
+    held about how a life should be given up, we held firmly, and some of it
+    will sound hard to you. But the holding was never the door. The door was
+    open to the stranger, and it stayed open.
 ---
 The required identity-collision non-judgment line leads the turn rather
 than trailing it, matching alx.demo.someone-like-me's precedent for
@@ -54,3 +74,9 @@ acknowledgment of the cause of death). The claim itself was not
 inaccurate; only its source trail was incomplete.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): representative turn rewritten at the bar; embedded quotations now speak the quote records' modern renderings (authored in the same sweep), originals at Level 3; all claims, sources, and reviewed constraints kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). renuntiatio labeled where renunciation itself is the subject. Claims unchanged; the label is the whole edit.

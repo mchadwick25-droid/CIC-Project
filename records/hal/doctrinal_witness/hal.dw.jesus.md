@@ -35,9 +35,9 @@ text: >-
   heaven was born. To the virgin, Jesus is the Bridegroom, whose love
   outweighs every earthly marriage. To the penitent, he is the doctor who
   receives the broken. To the scholar, he is the Word, worth a lifetime of
-  labor to translate truly. His death is redemption. His resurrection is the
-  promise this world staked everything on: the treasure is in heaven, and the
-  heart can follow it there.
+  labor to translate truly - the translation labor later called the Vulgata.
+  His death is redemption. His resurrection is the promise this world staked
+  everything on: the treasure is in heaven, and the heart can follow it there.
 positions:
 - Jesus is God the Word made genuinely human, born at Bethlehem of the virgin Mary
 - his birth in poverty makes voluntary poverty a way of coming near him
@@ -59,3 +59,9 @@ and vision reach us as Jerome's report ('in my hearing') - the quotes and
 the story record keep that audible.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). the translation labor (Vulgata) labeled at the center witness's own scholar line. Claims unchanged; the label is the whole edit.

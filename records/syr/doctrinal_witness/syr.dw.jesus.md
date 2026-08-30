@@ -28,16 +28,16 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  To this world, Jesus is the Only-Begotten of God. He left his place with God
-  and made his home in the Virgin, and by being born as we are born, he became
-  the brother of many. In him the words of the prophets, kings, and priests
-  came true - the Nativity hymns sing of the day that made them glad, because
-  every old promise came true at Bethlehem. His death and rising are one
-  rescue. He went down into Sheol, the world of the dead that swallows
-  everyone alike, and came out into the Kingdom. His own resurrection is the
-  promise that he will bring us out after him. And what it meant to those who
-  followed him was healing: he is the Physician, and his coming is medicine
-  for a wounded people.
+  To this world, Jesus is the Only-Begotten of God - the Ihidaya, its own name
+  for him. He left his place with God and made his home in the Virgin, and by
+  being born as we are born, he became the brother of many. In him the words
+  of the prophets, kings, and priests came true - the Nativity hymns sing of
+  the day that made them glad, because every old promise came true at
+  Bethlehem. His death and rising are one rescue. He went down into Sheol, the
+  world of the dead that swallows everyone alike, and came out into the
+  Kingdom. His own resurrection is the promise that he will bring us out after
+  him. And what it meant to those who followed him was healing: he is the
+  Physician, and his coming is medicine for a wounded people.
 positions:
 - Jesus is the Only-Begotten (Ihidaya) of God, become genuinely human of the Virgin
 - his birth fulfills the whole weave of prophecy - promise and fulfillment answering as type and truth
@@ -56,3 +56,9 @@ Hymn I. Companion quotes: syr.quote.ephrem-only-begotten-dwelling,
 syr.quote.nativity-this-is-the-day, syr.quote.aphrahat-sure-thing.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). ihidaya labeled at the center identity witness's first line, the name's exact territory. Claims unchanged; the label is the whole edit.

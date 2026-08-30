@@ -33,10 +33,11 @@ text: >-
   way of holding it was refusal. We would have nothing to do with those who
   taught otherwise. Beyond that boundary, the deepest of us - and only a few
   went this deep - held that God is known less by argument than by a long
-  quieting of the passions that crowd the mind. Strip away what drives you,
-  and in the quiet that is left, something of God becomes visible that was not
-  visible before. The most systematic among us called that contemplation. It
-  is not a doctrine to recite. It is a seeing that has to be earned.
+  quieting of the passions that crowd the mind - apatheia, our word for that
+  freedom. Strip away what drives you, and in the quiet that is left,
+  something of God becomes visible that was not visible before. The most
+  systematic among us called that contemplation. It is not a doctrine to
+  recite. It is a seeing that has to be earned.
 positions:
 - "the Son is not a lesser or created being but the Eternal Word of the Father's own being - stated plainly, in public, when called on"
 - "day to day, the ordinary form this boundary took was refusal of communion, not argument - but this world's own record also shows public argument more than once, against the Arians at episcopal summons and against pagan philosophers at Antony's own mountain"
@@ -80,3 +81,9 @@ Arian confrontation, matching the correction already made on
 desert.dw.councils for the identical class of overclaim.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). apatheia labeled at the quieting-of-passions line. Claims unchanged; the label is the whole edit.

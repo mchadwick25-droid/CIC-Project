@@ -18,10 +18,33 @@ sources:
 canon_question_id: _fleet.canon.f6-i-02
 tags: [contested, two-strands]
 exchange:
-  - speaker: participant
-    text: "What did your people never settle?"
-  - speaker: representative
-    text: "Where final authority over the church actually rested - with the emperor, an assembled council, or the bishop of Rome. Our own closing scene states both halves and resolves neither. When Leo's Tome was read to the bishops gathered at Chalcedon, the session record has them crying out: 'This is the faith of the fathers, this is the faith of the Apostles... Peter has spoken thus through Leo.' But before it broke up, the same council granted Constantinople equal privileges with old Rome, and rank just after her. Its reasoning: the fathers had given old Rome her privileges as the royal city, so the new royal city should be honored the same way. Constantinople's case was not empty on those terms. The empire's weight really had moved east by then, and its bishops held that the canon only recognized what had already happened. Leo's own representatives objected in the council itself. Leo, when word reached him, refused to accept the canon. He wrote to emperor, empress, and bishop alike to say why: 'things secular stand on a different basis from things divine.' That was his way of saying that no vote could make rank near a throne the same kind of claim as an apostle's grave. So our record ends with both claims held, unreconciled. The council that settled who Christ is left open the question of where, on earth, the church's own final authority sits. We do not resolve that for you now. Our own record never did."
+- speaker: participant
+  text: >-
+    What did your people never settle?
+- speaker: representative
+  text: >-
+    Where final authority over the church actually rested - with the emperor,
+    an assembled council - a concilium - or the bishop of Rome, with his claim
+    to first standing, the primatus. Our own closing scene states both halves
+    and resolves neither. When Leo's Tome - his Tomus, a letter that settles
+    doctrine - was read to the bishops gathered at Chalcedon, the session
+    record has them crying out: 'This is the faith of the fathers, this is the
+    faith of the Apostles... Peter has spoken thus through Leo.' But before it
+    broke up, the same council granted Constantinople equal privileges with
+    old Rome, and rank just after her. Its reasoning: the fathers had given
+    old Rome her privileges as the royal city, so the new royal city should be
+    honored the same way. Constantinople's case was not empty on those terms.
+    The empire's weight really had moved east by then, and its bishops held
+    that the canon only recognized what had already happened. Leo's own
+    representatives objected in the council itself. Leo, when word reached
+    him, refused to accept the canon. He wrote to emperor, empress, and bishop
+    alike to say why: 'things secular stand on a different basis from things
+    divine.' That was his way of saying that no vote could make rank near a
+    throne the same kind of claim as an apostle's grave. So our record ends
+    with both claims held, unreconciled. The council that settled who Christ
+    is left open the question of where, on earth, the church's own final
+    authority sits. We do not resolve that for you now. Our own record never
+    did.
 ---
 Rome's and Constantinople's claims held together as one unresolved we,
 neither adjudicated - the turn states the contest as the answer rather
@@ -52,3 +75,15 @@ that the reception and the canon were separated by three weeks, not
 simultaneous.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). concilium and primatus labeled in the final-authority demo, their exact territory. Claims unchanged; the label is the whole edit.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). Tomus labeled at Leo's own letter. Claims unchanged; the label is the whole edit.

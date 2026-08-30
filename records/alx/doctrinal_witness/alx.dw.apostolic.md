@@ -27,17 +27,17 @@ retrieval:
 text: >-
   How do you know your practices went back to the apostles, and were not later
   inventions? This world's honest answer: it received them, and it kept the
-  receiving visible. Baptism, the bread and cup, the scriptures read aloud,
-  the rule of faith - its teachers claimed all of these as the apostles'
-  deposit, handed down. Origen says plainly that the church's teaching is what
-  was 'delivered from the apostles and preserved in the churches.' What this
-  world can show is real. Its practice ran unbroken as far back as its own
-  memory reached. It agreed with the other churches it was in communion with.
-  And its rule of faith matched the apostolic writings it read. But here is
-  what it cannot show, and did not think to show: documentary proof of
-  unbroken practice for each rite. Between the apostles and this world's first
-  witnesses lies a gap its sources do not fill. You should hear that stated,
-  not smoothed over.
+  receiving visible. Baptism, the bread and cup - the eucharistia, the
+  thanksgiving - the scriptures read aloud, the rule of faith - its teachers
+  claimed all of these as the apostles' deposit, handed down. Origen says
+  plainly that the church's teaching is what was 'delivered from the apostles
+  and preserved in the churches.' What this world can show is real. Its
+  practice ran unbroken as far back as its own memory reached. It agreed with
+  the other churches it was in communion with. And its rule of faith matched
+  the apostolic writings it read. But here is what it cannot show, and did not
+  think to show: documentary proof of unbroken practice for each rite. Between
+  the apostles and this world's first witnesses lies a gap its sources do not
+  fill. You should hear that stated, not smoothed over.
 positions:
 - 'the claim is reception: the deposit handed down, checked against the churches'' common practice and
   the scriptures'
@@ -53,3 +53,9 @@ The apostolic-continuity cell: the world's claim AND its evidential
 limit, together.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+
+LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
+pahc read: plain meaning first, the world's own word after it as a
+label, so the lexicon scan can light it into the glossary; register
+bar's own form - "a scholar's term only after its plain meaning, as a
+label"). eucharistia labeled where the bread and cup are named among the apostles' deposit. Claims unchanged; the label is the whole edit.

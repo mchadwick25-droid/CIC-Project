@@ -107,3 +107,20 @@ def test_every_world_has_at_least_one_term_a_real_sentence_can_gloss():
         head = _matchable_forms(term)[0]
         glosses = find_glosses_used(f"We spoke of {head} often.", [], repo)
         assert term["id"] in [g["id"] for g in glosses], world_key
+
+
+def test_an_internal_capital_form_never_matches_ordinary_prose():
+    """Measured false positive from the first fleet dry run: "The word
+    meant the whole church" (a sentence about the word 'catholic') lit
+    alx's Christ-as-Word gloss under case-blind matching. A form whose
+    capital sits past its first character matches case-sensitively, with
+    only the first letter flexible for sentence starts."""
+    repo = _real_repository("alx")
+    assert not any(
+        g["id"] == "alx.term.word-of-god"
+        for g in find_glosses_used("The word meant the whole church, spread everywhere.", [], repo)
+    )
+    assert any(
+        g["id"] == "alx.term.word-of-god"
+        for g in find_glosses_used("The Word entered what he made in order to remake it.", [], repo)
+    )

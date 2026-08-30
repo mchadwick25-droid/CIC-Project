@@ -60,6 +60,24 @@ def _matchable_forms(term_record: dict) -> list[str]:
     return out
 
 
+def _form_pattern(form: str) -> tuple[str, int]:
+    """(pattern, flags) for one form. Case-insensitive by default, same as
+    the name bridge - but a form whose CAPITAL sits past the first
+    character ("the Word", "the Son", "the Two Ways") is distinguished
+    from ordinary prose BY that capital, and matching it case-blind is a
+    measured false positive, not a hypothetical: "The word meant the
+    whole church" (a sentence about the word 'catholic') lit the
+    Christ-as-Word gloss on the first fleet-wide dry run. Such forms
+    match case-sensitively, with only the first letter flexible (a
+    sentence-initial "The Word" still matches)."""
+    if any(c.isupper() for c in form[1:]):
+        first, rest = form[0], re.escape(form[1:])
+        if first.isalpha():
+            return rf"\b[{first.upper()}{first.lower()}]{rest}\b", 0
+        return rf"\b{re.escape(form)}\b", 0
+    return rf"\b{re.escape(form)}\b", re.IGNORECASE
+
+
 def find_glosses_used(text: str, citations: list[dict], repository_records: dict[str, dict], *, already_bridged_ids: set[str] | None = None) -> list[dict]:
     """One entry per term record whose world_word (any matchable form -
     see _matchable_forms) appears in `text`, ordered by where it first
@@ -88,7 +106,8 @@ def find_glosses_used(text: str, citations: list[dict], repository_records: dict
             continue
         best: tuple[int, str] | None = None
         for form in _matchable_forms(record):
-            match = re.search(rf"\b{re.escape(form)}\b", text, re.IGNORECASE)
+            pattern, flags = _form_pattern(form)
+            match = re.search(pattern, text, flags)
             if match and (best is None or match.start() < best[0]):
                 best = (match.start(), match.group(0))
         if best is not None:
