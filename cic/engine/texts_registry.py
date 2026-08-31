@@ -631,6 +631,24 @@ ENTRIES: tuple[TextEntry, ...] = (
               "acquisition if wanted. Pearse's own public-domain declaration survives at the file's "
               "end, preserved rather than stripped; a bibliographic header was prepended since the "
               "DOCX conversion carried none of its own."),
+    TextEntry("gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt", "Mark", "2026-08-30",
+              "W. K. Lowther Clarke's INTRODUCTION to his 1916 translation of Gregory of Nyssa's Life "
+              "of St. Macrina (SPCK, Early Church Classics) - supplied as a DOCX attachment (Roger "
+              "Pearse's tertullian.org transcription), converted mechanically via zip/XML text "
+              "extraction - no content passed through model-generated output. IMPORTANT: this is the "
+              "introduction ONLY, not the translated Vita narrative itself - the file's own trailing "
+              "'Previous Page / Table Of Contents / Next Page' navigation confirms it is one page of "
+              "a multi-page site transcription, and the actual biography (Macrina's deathbed, her "
+              "teaching, the community at Annesi) is on a page not supplied here. Still a real, "
+              "useful acquisition: carries genuine biographical facts about Gregory of Nyssa (birth "
+              "c. 335; his marriage to a Theosebeia -- possibly, not certainly, the same Theosebia "
+              "named in Doc_02's sec 6 via Gregory of Nazianzus' Ep. 197, not to be conflated without "
+              "checking; his forged reconciliation letter, Basil's Ep. 58; his 376-378 deposition and "
+              "exile; his 379 visit to Macrina after Basil's death and the Council of Antioch; death "
+              "'about 395'), the double-monastery arrangement at Annesi (Peter over the men, Macrina "
+              "over the women), and the Pontus monasteries' background. STILL NEEDED for the "
+              "Nicene-Cappadocian world: the actual Vita narrative, the next page(s) of this same "
+              "transcription."),
 )
 
 

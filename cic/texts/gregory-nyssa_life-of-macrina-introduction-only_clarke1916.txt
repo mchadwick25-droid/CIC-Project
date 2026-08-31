@@ -1,0 +1,101 @@
+Title: St. Gregory of Nyssa: The Life of St. Macrina -- INTRODUCTION ONLY (not the biography's narrative text)
+Creator: Gregory of Nyssa (introduction and forthcoming translation by W. K. Lowther Clarke, B.D.)
+Publisher: Society for Promoting Christian Knowledge (London), "Early Church Classics" series
+Publication Date: 1916
+Rights: Public Domain
+Source: transcribed by Roger Pearse, 2003, from the Tertullian Project (tertullian.org); supplied to this session as a DOCX attachment by Mark, 2026-08-30
+Provenance note: this header was prepended by the build thread -- the DOCX conversion carried no header of its own, though Pearse's own public-domain declaration survives at the file's original end, preserved below. Rights basis: Pearse's site-wide public-domain declaration, the same basis already relied on for this project's other Pearse-sourced vendored files.
+IMPORTANT CONTENT NOTE, read before citing: this file is Clarke's INTRODUCTION only (three sections: I. The Life of Gregory of Nyssa; II. The Life of St. Macrina, i.e. Clarke's translator's note on the text and his translation method; III. The Monasteries of Pontus) -- it is NOT the translated narrative of the Vita Macriniae itself. The file's own trailing navigation ("Previous Page / Table Of Contents / Next Page") confirms this is one page of a multi-page site transcription; the actual biography text is on a subsequent page not supplied here. DO NOT cite this file as "the Life of Macrina" for narrative content (Macrina's deathbed, her teaching, the community at Annesi as Gregory describes it) -- it has none of that. What it DOES usefully carry: real biographical facts about Gregory of Nyssa's own life (born c. 335, probably Caesarea; his marriage to a woman named Theosebeia -- itself relevant to this world's Doc_02 sec 6 Theosebia question, though Clarke's identification differs from the Theosebia of Gregory of Nazianzus' Ep. 197, and the two should not be conflated without checking; his forged letter reconciling Basil and their uncle; his deposition and exile 376-378; his visit to Macrina at Annesi after Basil's death and the Council of Antioch, 379; his death "about 395"), on the double-monastery arrangement at Annesi (Peter presiding over the men, Macrina over the women), and on the Pontus monasteries' background (Pachomius, Eustathius of Sebaste, Basil's Egypt visit 357-8). Mechanically extracted from the supplied DOCX (paragraph boundaries preserved from </w:p> splits, entities unescaped) -- no content passed through model-generated output.
+STILL NEEDED: the actual translated Vita Macrinae narrative -- the "Next Page" content from the same Pearse/tertullian.org transcription this Introduction came from, not yet supplied.
+
+---
+
+Early Church Classics.
+
+ST. GREGORY OF NYSSA THE LIFE OF ST. MACRINA
+
+BY
+
+W. K. LOWTHER CLARKE, B.D.
+
+FORMERLY FELLOW OF JESUS COLLEGE, CAMBRIDGE
+
+1916
+
+SOCIETY FOR PROMOTING CHRISTIAN KNOWLEDGE
+
+LONDON: 68, HAYMARKET, S,W.
+
+ST. GREGORY OF NYSSA
+
+INTRODUCTION
+
+I. THE LIFE OF GREGORY OF NYSSA
+
+READERS to whom the subject is unfamiliar, should be quite clear in their minds from the outset as to the distinction between the three Gregories who played an important part in the Church history of Asia Minor.
+
+(1) Gregory Thaumaturgus (i. e. "Worker of Wonders").1
+
+He was born of heathen parents at Neo-Caesarea in Pontus ; having gone to Palestine for his education, he came under the influence of Origen, then living at Caesarea, and was converted to Christianity. He became bishop of his native city in 240, and carried out the work of evangelising the district most thoroughly. Basil, brother of Gregory of |6 Nyssa, was brought up on the family estate at Annesi, near Neo-Caesarea, by his grandmother Macrina, who used to repeat to him the very words used by Gregory Thaumaturgus.2 Gregory of Nyssa wrote the life of Gregory Thaumaturgus, and to the latter's influence may be ascribed the strong element of Origenism in his writings. Through the same channel Origen's teaching reached Basil and Gregory of Nazianzus, who during their stay at their monastery in Pontus compiled the Philocalia, or collection of choice passages from Origen.
+
+(2) Gregory of Nazianzus was the friend and contemporary of Basil at the University of Athens, in the pioneer monastery in Pontus, and later on as brother bishop. Soon after Basil became bishop of Caesarea in Cappadocia in 370 he forced his friend to accept the see of Sasima, a dusty village where the post changed horses. In 379 he went to Constantinople as orthodox bishop; his sermons preached there have become famous. He died about 390. |7 
+
+(3) Gregory of Nyssa was the younger brother of Basil and author of the present book. A brief sketch of his life must now be given.
+
+He came of a race of landed proprietors, who had estates in Cappadocia and Pontus and had won honourable distinction by their steadfast devotion to the faith under persecution. His parents, Basil and Emmelia, had ten children, of whom four sons and five daughters survived infancy. The eldest child, Macrina, is the subject of this biography; the other four daughters all made satisfactory marriages. St. Basil the Great was the eldest son. Next to him came Naucratius, who was killed on a hunting expedition in Pontus. Gregory and Peter, the two youngest sons, became bishops eventually of Nyssa and Sebaste. It would be difficult to find in the whole of Church history a family so uniformly brilliant.
+
+Gregory was born about 335, probably at Caesarea. Apparently he showed no special promise as a boy, nor did he share Basil's educational advantages. See p. 51 of |8 this book, where Macrina, speaking of his fame, says: "You that have little or no equipment within yourself for such success." His first serious religious impressions seem to have dated from a service at the chapel of the Forty Martyrs. As he slept in an arbour near the chapel he dreamed that the martyrs beat him with rods. When he awoke, he was filled with remorse, and soon afterwards became a Reader. But presently, much to the disgust of Gregory of Nazianzus, he deserted his post in order to become a professor of rhetoric.3
+
+About this time he married a lady named Theosebeia, if this is the true interpretation of some difficult passages. But his growing seriousness, and the example of his brothers and sister, led him before long to espouse the ascetic life and become a member of the monastery in Pontus, where he spent some quiet and studious years. Indeed, he was by nature far better fitted to be a student than a man of affairs. A striking example of the |9 simplicity of his character is afforded by the methods he adopted in order to heal a quarrel between his brother Basil and their uncle Gregory. He actually forged a letter purporting to come from the latter and asking for a reconciliation. In Basil's 58th Epistle may be read the crushing rebuke administered by the elder brother.
+
+In 370 Basil had become bishop and metropolitan of Caesarea. He found the post one of great difficulty, especially in view of the opposition of some of his suffragans. In 372, wishing to strengthen his position by surrounding himself with men whom he could trust, he forced his friend Gregory to accept the bishopric of Sasima, and his brother that of Nyssa. We need not recount in detail the troubles that pursued Gregory during his episcopate. He was deposed and banished in 376, but was recalled on the death of the Emperor Valens in 378.
+
+On January 1, 379, Basil died; in September of the same year Gregory attended a Council at Antioch, after which he determined to visit his sister Macrina in the monastery at Annesi. |10 The visit is described at length in the present book. When the funeral ceremonies were over, he returned to his diocese, only to find a sad state of confusion. Having introduced a certain measure of order, he set out on his travels once more, and visited Babylon with a view of reforming the Church there. After this he went to the holy places of Palestine, where nothing but disillusionment awaited him. In 381 he was present at the Council of Constantinople, and on several subsequent occasions we find him at that city. His death occurred about 395.
+
+Gregory of Nyssa is a figure of great importance in the history of Christian doctrine and the eventual triumph of Nicene orthodoxy. For a sketch of his doctrinal system the reader is referred to J. H. Srawley's edition of The Catechetical Oration, uniform with the present volume.
+
+II. THE LIFE OF ST. MACRINA
+
+Gregory's account of his sister's life is couched in the form of a letter addressed to |11 the monk Olympius, who had been with him at the Council of Antioch.
+
+There is as yet no critical edition of this part of Gregory's works, and it has been necessary to use the text given in Migne's Patrologia Graeca, XLVI, pp. 960 ff.4
+
+The absence of a good text is a serious drawback in a theological treatise where much depends on niceties of language, but in the present case the narrative is so straightforward that no special inconvenience arises. With very few exceptions there is little margin for doubt as to the meaning of the Greek. To reproduce it satisfactorily in English is another matter. In the opening pages of his letter Gregory indulges his well-known rhetorical tendency so freely that it is difficult to find suitable equivalents in English for all the synonyms which he employs. Accordingly in a few places a synonym that adds nothing to the sense has been omitted in the present translation. Occasionally a sentence has been |12 recast with some freedom, in order to make a readable narrative for the English reader.
+
+But when Gregory gets to grips with his subject and describes his arrival at the monastery, the narrative becomes so clear and straightforward as to present no difficulties to the translator. A literal version of the artless and beautiful tale is all that is needed. That Gregory's style should undergo so remarkable a transformation at this point is a convincing proof that he is giving a true account of actual facts, written down shortly after their occurrence.
+
+It is surprising that a story of antiquity, so charmingly told and full of human interest, should have attracted so little attention. Hitherto it has not been accessible to any but scholars. The Latin version in Migne is a useful guide to the meaning of the Greek, but cannot be relied on, as in places it is merely a paraphrase. Had the story been written in the Greek of the fourth century B.C. instead of that of the fourth century A.D., it would probably have been one of the world's classics. |13 
+
+No attempt has been made to break up the matter into numbered sections; this will be the task of a future critical editor. But the pages of Migne arc given in the margin, and a number of paragraph headings provided for the convenience of the reader.
+
+III. THE MONASTERIES OF PONTUS
+
+The mother-land of monasticism was Egypt. The movement there assumed two main forms, the eremitic and the coenobitic.
+
+St. Antony (c. 250-c. 350) was the pioneer of the former, the devotees of which led solitary lives in their cells, either quite independently, or grouped around some central church, as at Nitria or Scete. In some cases there was a considerable amount of organisation, but the solitary or eremitic life lived in common was always quite different from the true common life.
+
+Pachomius (c. 290-346) was the originator of ccenobitism, which was first put into practice at his monastery of Tabennisi.
+
+In 357-8 Basil visited Egypt and returned |14 home, resolved to initiate the Pachomian mode of life in his own country. Eustathius of Sebaste was already working on the same lines, and the unorganised ascetic life in the world, to which Gregory of Nazianzus refers in his works, had paved the way for monasticism proper. Basil called his friend Gregory to fulfil a promise made in student days at Athens and join him in the ascetic life. This Gregory eventually did, though he was unable at first to pay more than a brief visit. Basil chose for his experiment a spot of much natural beauty on the banks of the Iris. At Annesi, on the opposite side of the river, his mother Emmelia and sister Macrina were living on the family estate. Basil put himself at the head of a community of men likeminded with himself, while Macrina, as described in the present book, began to organise a monastery on her side of the river. Basil took Pachomius' coenobium at Tabennisi for his model, with certain modifications suggested by his own original and practical mind.
+
+In the Life of St. Macrina we find a double |15 monastery, the men presided over by Peter, the women by Macrina. This seems to have been a natural development of the earlier ascetic family life to which Macrina had drawn her mother after the death of Naucratius. We do not know to what extent it conformed to the regulations for double monasteries prescribed by Basil in his Rules. It is not clear whether Basil's monastery on the far side of the Iris was still existing when Gregory visited Macrina. It may be surmised that, when Basil became bishop of Caesarea and Peter reached man's estate, the brethren were transferred to the opposite bank and came under the joint rule of Macrina and Peter.
+
+The subject of the Basilian coenobia and their place in the history of monasticism has been worked out in two recent monographs, St. Basil and his Rule (Oxford, 1912), by E. F. Morison, and St. Basil the Great: a Study in Monasticism (Cambridge, 1913), by the present writer. Through the Latin version of Rufinus Basil's Rules became known in the West and influenced St. Benedict. |16 
+
+The Life of St. Macrina throws a light on the arrangements of a double monastery in primitive times, and supplements the account given in the Pachomian and Basilian Rules. This subject has not yet been worked out with any completeness, so far as the writer is aware. It is not clear what influence, if any, Rufinus' version of Basil's Rules had upon the origin of double monasteries in Ireland and elsewhere. Perhaps the system arose independently in different lands and centuries under similar conditions of primitive enthusiasm. Reference may be made to a paper by Sir William Hope, The Gilbertian Priory of Watton (London, 1901, reprinted from The Archaeological Journal, LVIII, No. 229). The rules governing the relations of monks and nuns in this priory bear so close a resemblance to those found in St. Basil, that the student will probably not be far wrong if he assumes that the plan of the buildings as sketched by Dr. Hope in his monograph fairly represents the topography of the scenes described in Gregory's Life of his sister.
+
+[Footnotes have been renumbered and placed at the end]
+
+1. 1 See the article on him in the Dictionary of Christian Biography, and Harnack, Expansion of Christianity, II, 349-352.
+
+2. 1 See Basil, Ep. 223.
+
+3. 1 Greg. Naz., Ep. I, translated in Nicene Fathers series, Vol. VII, p. 459.
+
+4. 1 For some remarks on the text of Gregory, see the introduction to Srawley, The Catechetical Oration of Gregory of Nyssa (Cambridge, 1903).
+
+Previous PageTable Of ContentsNext Page
+
+This text was transcribed by Roger Pearse, 2003.  All material on this page is in the public domain - copy freely.
+
+Greek text is rendered using the Scholars Press SPIonic font, free from here.
