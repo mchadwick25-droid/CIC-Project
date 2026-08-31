@@ -742,6 +742,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 7,891 | 7,891 | julian_letter-to-the-athenians_wright1913 |
 
+## `julian_letters-1-73_wright1923.txt`
+
+1 section(s) to level 2 · ~37,359 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 37,359 | 37,359 | julian_letters-1-73_wright1923 |
+
 ## `lucian_works-vol4-peregrine_fowler1905.txt`
 
 1 section(s) to level 2 · ~78,209 words of text · ~0 words of apparatus

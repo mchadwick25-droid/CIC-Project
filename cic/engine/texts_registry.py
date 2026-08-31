@@ -719,6 +719,28 @@ ENTRIES: tuple[TextEntry, ...] = (
               "old religion's own voice pressing on this world (Doc_01 sec 4) - Julian's own account "
               "of his break with Constantius and, implicitly, with the Christian household that "
               "raised him."),
+    TextEntry("julian_letters-1-73_wright1923.txt", "Mark", "2026-08-31",
+              "Julian's Letters 1-73 (of an unstated larger total - see below), trans. Wilmer Cave "
+              "Wright, from The Works of the Emperor Julian vol. 3 (Loeb Classical Library, 1923) - "
+              "supplied as a DOCX attachment (Roger Pearse's tertullian.org transcription, 2010), "
+              "converted mechanically via zip/XML text extraction, same method as every other file "
+              "vendored this session - no content passed through model-generated output. Supplied by "
+              "Mark specifically for Letter 36 (Rescript on Christian Teachers, this world's "
+              "cappadocian-julian-rescript-teachers acquisition) - confirmed present in full, in "
+              "sequence between Letters 35 and 37, complete with its own footnotes. NOT the complete "
+              "Works vol. 3: Letters 1 through 73 are present in unbroken sequence (verified no gaps "
+              "or duplicates), matching the file's own cited range (pp. 2-235), but its own footnotes "
+              "cross-reference later letters ('Letter 76,' 'To Iamblichus, p. 255,' 'To Sarapion, pp. "
+              "271, 277') not included here - Pearse's site evidently splits the collection across "
+              "further pages beyond this one, not supplied. Vendored in its full received scope "
+              "(all 73 letters), not narrowed to Letter 36, since the other 72 are a genuine, "
+              "separately citable acquisition (correspondence with Priscus, Libanius, Maximus of "
+              "Ephesus, the Alexandrians, Arsacius, the citizens of Edessa, and others) not "
+              "previously in this world's source list. Pearse's public-domain declaration survives "
+              "at the file's end, preserved rather than stripped; a bibliographic header was "
+              "prepended since the DOCX conversion carried none of its own. RIGHTS: independently "
+              "cleared by the 1923 publication date alone (this registry's pre-1929 rule), on top of "
+              "Pearse's site-wide declaration."),
 )
 
 
