@@ -686,6 +686,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 119,040 | 119,040 | ephraim_prose-refutations_mitchell1912-1921 |
 
+## `eunomius_first-apology_whiston1711.txt`
+
+1 section(s) to level 2 · ~9,298 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 9,298 | 9,298 | eunomius_first-apology_whiston1711 |
+
 ## `evagrius_praktikos_dysinger.txt`
 
 1 section(s) to level 2 · ~8,148 words of text · ~0 words of apparatus

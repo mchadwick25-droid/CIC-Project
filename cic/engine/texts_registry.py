@@ -686,6 +686,22 @@ ENTRIES: tuple[TextEntry, ...] = (
               "own. This is the world's one surviving Eunomian narrative voice (Doc_02 sec 1.6) - "
               "the project's rare control on the losing side's own frame, filtered through a hostile "
               "epitomizer, a caveat this world's use of the text must carry forward."),
+    TextEntry("eunomius_first-apology_whiston1711.txt", "Mark", "2026-08-31",
+              "Eunomius' Liber Apologeticus, trans. William Whiston (1711), re-edited by Roger "
+              "Pearse with Vaggione's modern chapter numbering (tertullian.org, 2002) - supplied as "
+              "a DOCX attachment, converted mechanically via zip/XML text extraction, same method "
+              "as every other file vendored this session - no content passed through model-generated "
+              "output. Confirmed complete: chapters I-XXVII (Whiston's own numbering, his closing "
+              "note on ending his volume there reproduced inline) plus chapter XXVIII (the Eunomian "
+              "Confession of Faith appended to the manuscripts, drawn by Pearse from vol. 4 of "
+              "Whiston's Primitive Christianity Reviv'd and inserted in its Vaggione-numbered place) "
+              "plus the full set of 23 numbered footnotes. Pearse's public-domain declaration "
+              "survives at the file's end, preserved rather than stripped; a bibliographic header "
+              "was prepended since the DOCX conversion carried none of its own. This is the build's "
+              "one real control on adversarial distortion against Basil/Nyssen's own polemic "
+              "(Doc_02 sec 1.5) - Eunomius' reply to Basil's Confutation does not survive "
+              "independently and is known only through hostile quotation inside Gregory of Nyssa's "
+              "own refutation, already vendored in npnf205."),
 )
 
 
