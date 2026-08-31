@@ -584,6 +584,20 @@ ENTRIES: tuple[TextEntry, ...] = (
               "vendoring; the bibliographic header prepended to the file records both bases. The "
               "chapter on 'Women, Children, and Slaves' (ch. XI) is likely directly useful for the "
               "Cappadocian build's Article 20 against-the-grain evidence work, not yet drawn on."),
+    TextEntry("gregory-nazianzen_first-invective-against-julian_king1888.txt", "Mark", "2026-08-30",
+              "Gregory Nazianzen, Oration 4 (First Invective Against Julian), trans. C. W. King, from "
+              "'Julian the Emperor' (Bohn's Ecclesiastical Library, 1888) - supplied as a DOCX "
+              "attachment (Roger Pearse's tertullian.org transcription), converted mechanically via "
+              "zip/XML text extraction, same method as the Morison file above - no content passed "
+              "through model-generated output. Closes a real gap the Nicene-Cappadocian world's "
+              "Source Acquisition Manifest named: the vendored "
+              "npnf207_cyril-jerusalem-gregory-nazianzen.xml (NPNF2 vol. 7, Select Orations) does NOT "
+              "include Orations 4-5, confirmed by direct structural check of that file. ONLY Oration "
+              "4 is in THIS file - King's volume also carries Oration 5 (the Second Invective) and "
+              "Libanius' Monody on Julian, neither supplied here and both still an open acquisition "
+              "if wanted. Pearse's own public-domain declaration survives at the file's end, "
+              "preserved rather than stripped; a bibliographic header was prepended since the DOCX "
+              "conversion carried none of its own."),
 )
 
 
