@@ -236,6 +236,23 @@ restated here only so this capture is self-contained:
 3. **Thread scope:** this thread is the Atlas/map's own visual and
    engagement quality, built on what's live — not the surrounding modules
    named in §5–6.
+4. **The base program is the whole ecology, not the built worlds.** Mark's
+   own words: *"we are building for all the worlds, build and not, just the
+   built worlds are marked so they can dive deeper. as we build more worlds
+   we mark those and deepen their content as they come online, but the base
+   program is about the entire ecology, not the build worlds."* The Atlas's
+   scope is the full census (292 movements, all ten eras) as it actually
+   stands today — not a map of six built worlds with placeholders around
+   them. "Built" is one attribute a movement can carry (it unlocks deeper
+   content and a live conversation), never the organizing principle of what
+   the map shows or how much of it is real. As more worlds are built, they
+   get marked and deepened in place; the map's own scope doesn't grow to
+   "catch up" to the build — it was already whole. This directly ratifies
+   the fix made to the storyboard the same session: the earlier seven-scene
+   draft implicitly organized around the six built worlds; the ten-scene,
+   one-per-era revision organizes around the real ecology instead, with
+   built status carried honestly as graphite-vs-full-pigment rather than
+   built-vs-absent.
 
 ## 11. "Artistic and visually engaging" — a new named feature, unpacked
 

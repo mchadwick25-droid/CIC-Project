@@ -13,6 +13,38 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-31 (still later) — Founding principle stated: the base program is the whole ecology, not the built worlds
+
+**Origin.** After the storyboard's ten-scene revision, Mark stated the
+principle underneath it plainly: *"we are building for all the worlds, build
+and not, just the built worlds are marked so they can dive deeper. as we
+build more worlds we mark those and deepen their content as they come online,
+but the base program is about the entire ecology, not the build worlds."*
+
+**Decided.** The Atlas's scope is the full census (292 movements, all ten
+eras) as it stands today — not a map of the six built worlds with
+placeholders around them. "Built" is one honest attribute a movement can
+carry (it unlocks deeper content and a live conversation), never the
+organizing principle of what the map shows or how much of it is real. As more
+worlds are built, they get marked and deepened in place; the map's own scope
+does not grow to catch up with the build — it was already whole.
+
+**Applied immediately.** This ratifies, rather than changes, the same-day
+ten-scene restructuring: the earlier seven-scene draft implicitly organized
+around the six built worlds, and the fix already moved to organizing around
+the real ecology instead. Foregrounded as the storyboard's own leading thesis
+(REV 3, both the `.md` and the published artifact) and logged as a captured
+decision in `Design/CiC_Atlas_Reimagined_Divergent_Capture_V1_2026-08-31.md`
+§10.4, so the reasoning survives independent of this one document's own
+revisions.
+
+### Next action
+
+None yet — carries forward as a standing principle for any future work on
+this thread, including whichever tool or build eventually gets chosen.
+
+---
+
 ## 2026-08-31 (later same day) — Divergent-phase interview, session 1: captured, paused at Mark's request
 
 **Origin.** Following the research thread below, Mark asked to work the same

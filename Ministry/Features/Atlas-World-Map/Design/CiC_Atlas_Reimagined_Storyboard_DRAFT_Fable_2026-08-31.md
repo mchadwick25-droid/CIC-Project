@@ -20,6 +20,21 @@ scene art presented as history. Where this draft takes a creative swing on an
 open question, the swing is marked **[PROPOSED — this draft]** so it can be
 weighed, not mistaken for something already settled.
 
+**The whole ecology, marked where it's built — the founding principle, stated
+plainly.** Mark's own words: *"we are building for all the worlds, build and
+not, just the built worlds are marked so they can dive deeper. as we build
+more worlds we mark those and deepen their content as they come online, but
+the base program is about the entire ecology, not the build worlds."* This
+storyboard is not a map of six built worlds with placeholders around them —
+it is a map of the real, whole census as it stands today, in which "built" is
+one honest attribute a movement can carry (it unlocks deeper content and a
+live conversation), never the organizing principle of what the map shows.
+That is why this draft walks all ten eras rather than the six worlds that
+happen to be built, and why Eras III–X are drawn in full, honest graphite
+detail rather than left thin or skipped. As more worlds are built, they get
+marked and deepened in place — the map's own scope does not grow to catch up
+with the build; it was already whole.
+
 **The constraints this draft works inside, stated once:** the locked manuscript
 palette (parchment `#F7F3EB`, iron-gall `#2A2521`, madder `#A13E2B` — muted,
 never brightened toward alert-red — gold-leaf, lapis, Tyrian, graphite; Full UX
@@ -1156,6 +1171,14 @@ phase.
 
 ## Document log
 
+- **REV 3 (2026-08-31, same day):** Added the founding-principle statement to
+  the header, at Mark's explicit direction — *"the base program is about the
+  entire ecology, not the build worlds."* Ratifies, rather than changes, the
+  REV 2 restructuring: the ten-scene/one-per-era shape was already organized
+  around the whole census, not the six built worlds, and this revision simply
+  states that as the document's own leading thesis instead of leaving it
+  implicit in the scene-by-scene execution. Also logged as a decision in
+  `CiC_Atlas_Reimagined_Divergent_Capture_V1_2026-08-31.md` §10.4.
 - **REV 2 (2026-08-31, same day):** Restructured at Mark's explicit request
   — *"we need 10 eras covered, it should be 10 scenes 1 for each era look at
   the documents and build it as designed."* The first draft's seven scenes
