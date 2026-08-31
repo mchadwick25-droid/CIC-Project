@@ -702,6 +702,23 @@ ENTRIES: tuple[TextEntry, ...] = (
               "(Doc_02 sec 1.5) - Eunomius' reply to Basil's Confutation does not survive "
               "independently and is known only through hostile quotation inside Gregory of Nyssa's "
               "own refutation, already vendored in npnf205."),
+    TextEntry("julian_letter-to-the-athenians_wright1913.txt", "Mark", "2026-08-31",
+              "Julian's Letter to the Senate and People of Athens, trans. Wilmer Cave Wright, from "
+              "The Works of the Emperor Julian vol. 2 (Loeb Classical Library, 1913) - supplied as a "
+              "DOCX attachment (Roger Pearse's tertullian.org transcription, 2010), converted "
+              "mechanically via zip/XML text extraction, same method as every other file vendored "
+              "this session - no content passed through model-generated output. Confirmed complete: "
+              "Wright's brief Introduction plus the full letter tracking the Loeb pagination (|245 "
+              "to |293) named in its own source citation, from Julian's opening address through his "
+              "acclamation as Augustus by the Gaul legions to his closing appeal to Athens, plus the "
+              "complete set of 39 numbered footnotes (every in-text marker 1 through 39 accounted "
+              "for). Pearse's public-domain declaration survives at the file's end, preserved rather "
+              "than stripped; a bibliographic header was prepended since the DOCX conversion carried "
+              "none of its own. RIGHTS: independently cleared by the 1913 publication date alone "
+              "(this registry's pre-1929 rule), on top of Pearse's site-wide declaration. This is the "
+              "old religion's own voice pressing on this world (Doc_01 sec 4) - Julian's own account "
+              "of his break with Constantius and, implicitly, with the Christian household that "
+              "raised him."),
 )
 
 
