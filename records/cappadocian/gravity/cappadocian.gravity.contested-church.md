@@ -54,6 +54,8 @@ relations:
   target: cappadocian.story.sasima-wound
 - type: illustrated-by
   target: cappadocian.story.valens-caesarea
+- type: associated-with
+  target: cappadocian.contested.homoian-nicene-reversal
 name: "The contested church under the contested empire [PRIMARY - situational annotation]"
 classification: primary
 description: >-

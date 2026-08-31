@@ -60,6 +60,10 @@ relations:
   target: cappadocian.story.money-changers-unbegotten
 - type: associated-with
   target: cappadocian.story.thaumaturgus-legend
+- type: associated-with
+  target: cappadocian.contested.settlement-historiography
+- type: associated-with
+  target: cappadocian.contested.agennetos-transmission
 name: "The Triune God confessed at the edge of the knowable [PRIMARY]"
 classification: primary
 description: >-

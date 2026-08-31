@@ -62,6 +62,8 @@ relations:
   target: cappadocian.story.poorhouse-famine-month
 - type: associated-with
   target: cappadocian.story.slave-market-sermon
+- type: associated-with
+  target: cappadocian.contested.eustathian-radicals
 name: "The ascetic reordering of life toward koinōnia and the poor [PRIMARY]"
 classification: primary
 description: >-
