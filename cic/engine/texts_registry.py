@@ -646,9 +646,31 @@ ENTRIES: tuple[TextEntry, ...] = (
               "checking; his forged reconciliation letter, Basil's Ep. 58; his 376-378 deposition and "
               "exile; his 379 visit to Macrina after Basil's death and the Council of Antioch; death "
               "'about 395'), the double-monastery arrangement at Annesi (Peter over the men, Macrina "
-              "over the women), and the Pontus monasteries' background. STILL NEEDED for the "
-              "Nicene-Cappadocian world: the actual Vita narrative, the next page(s) of this same "
-              "transcription."),
+              "over the women), and the Pontus monasteries' background. SUPERSEDED 2026-08-30 by "
+              "gregory-nyssa_life-of-macrina_clarke1916.txt, which carries the complete work; kept "
+              "per this registry's no-deletion practice but redundant with the complete file below."),
+    TextEntry("gregory-nyssa_life-of-macrina_clarke1916.txt", "Mark", "2026-08-30",
+              "W. K. Lowther Clarke's COMPLETE 1916 translation of Gregory of Nyssa's Life of St. "
+              "Macrina (SPCK, Early Church Classics), introduction and narrative together - supplied "
+              "as a second, larger DOCX attachment (Roger Pearse's tertullian.org transcription), "
+              "converted mechanically via zip/XML text extraction, same method as every other file "
+              "vendored this session - no content passed through model-generated output. SUPERSEDES "
+              "gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt (vendored earlier the "
+              "same day from a first, shorter upload that turned out to carry only Clarke's "
+              "introduction, confirmed by its own trailing site-navigation footer) - that file is "
+              "kept per this registry's no-deletion practice, but this file is the one to cite for "
+              "any Macrina narrative content going forward. Confirmed complete by internal content: "
+              "opens with Clarke's introduction (as before), then continues into Gregory's own "
+              "epistolary narrative to the monk Olympius - Naucratius' death and Macrina comforting "
+              "their mother, Emmelia's own death, Macrina's final illness and deathbed teaching, her "
+              "death and funeral (Bishop Araxius of the district presiding) - ending 'THE END' with "
+              "the volume's own printer's colophon (Richard Clay & Sons). Pearse's public-domain "
+              "declaration survives mid-file at the introduction/narrative boundary, preserved "
+              "rather than stripped; a bibliographic header was prepended since the DOCX conversion "
+              "carried none of its own. This is the world's entire primary-text basis for Macrina "
+              "(Doc_02 sec 1.4) - the single most load-bearing text for this world's 'primary voice "
+              "with no primary text' finding and for the female-voice question at the G2 identity "
+              "decision."),
 )
 
 

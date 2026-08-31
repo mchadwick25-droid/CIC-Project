@@ -718,6 +718,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 2,585 | 2,585 | gregory-nyssa_life-of-macrina-introduction-only_clarke1916 |
 
+## `gregory-nyssa_life-of-macrina_clarke1916.txt`
+
+1 section(s) to level 2 · ~14,187 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 14,187 | 14,187 | gregory-nyssa_life-of-macrina_clarke1916 |
+
 ## `lucian_works-vol4-peregrine_fowler1905.txt`
 
 1 section(s) to level 2 · ~78,209 words of text · ~0 words of apparatus
