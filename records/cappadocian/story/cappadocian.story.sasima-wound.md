@@ -29,6 +29,10 @@ relations:
   target: cappadocian.figure.basil
 - type: associated-with
   target: cappadocian.figure.gregory-of-nazianzus
+- type: illustrates
+  target: cappadocian.gravity.hesychia-summons
+- type: illustrates
+  target: cappadocian.gravity.contested-church
 narrative_tier: 1
 narrative_tier_justification: "Tier 1 (one-sided): Gregory's letters, poems, and the autobiographical De vita sua are his own documented, named, contemporary-to-near-contemporary self-account, not later legend - which places this account at Tier 1. But it is one-sided by nature: Basil's own side of the episode is essentially unrecorded, so what is Documented is that Gregory told it this way and felt this way, not an adjudicated account of Basil's own motives, which remain Contested."
 tellable_as: "Basil appoints his own close friend to a backwater see in a jurisdictional fight, and the friendship never fully recovers."
@@ -70,5 +74,9 @@ illustrates Tensional Gravity 8 (hēsychia against the summons, Doc_04 §4)
 from its costliest angle - a man pulled from the retreat he wanted into an
 office he did not, at a friend's own hand - and is a documented instance
 of Primary Gravity 3's provincial-administrative texture (the 372
-division's ecclesiastical fallout). To be converted into real relations[]
-entries once cappadocian's own gravity records exist.
+division's ecclesiastical fallout).
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.hesychia-summons and illustrates
+cappadocian.gravity.contested-church, both connections named above, with
+reciprocal back-edges declared on both gravity records.

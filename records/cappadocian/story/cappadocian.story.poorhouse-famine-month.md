@@ -39,6 +39,10 @@ relations:
   target: cappadocian.term.pleonexia
 - type: associated-with
   target: cappadocian.term.oikonomos
+- type: illustrates
+  target: cappadocian.gravity.ascetic-reordering
+- type: illustrates
+  target: cappadocian.gravity.bishop-patron
 narrative_tier: 4
 narrative_tier_justification: "Tier 4 (historically grounded reconstruction), doubly Inferential-Thin as Doc_09's own text states: no later famine at the complex is itself attested, only the recurring subsistence risk this region's own ecology carries and an institution built to answer it. Every element is separately sourced: the complex's Documented existence, staffing by ascetics, and negotiation with governors; the theological vocabulary reused from Basil's own earlier famine preaching, explicitly declared as a source for vocabulary rather than as this scene's own setting - that preaching belongs to c. 368/9, before Basil's episcopate and before the complex existed (Doc_02 §1.1's own correction, which this entry is deliberately built to respect rather than blur); the leper as a stated test of philanthropia to Nazianzen's Oration 14 and Nyssen's own poverty preaching; pleonexia as the vice named, and oikonomos as the office, to this world's own term records; the granary-door imagery reused deliberately from this world's own famine story."
 tellable_as: "This is how a later crisis would plausibly have found this institution, once it existed - explicitly reconstruction, and explicitly not the founding famine itself."
@@ -94,6 +98,9 @@ barns's body note for the full statement of this project precedent):
 illustrates Primary Gravity 2 (the ascetic reordering toward koinōnia and
 the poor, Doc_04 §4) in its most institutionalized form, and Supporting
 Gravity 7 (the bishop as public patron, Doc_04 §4) as an ongoing,
-post-founding institution rather than a single emergency response. To be
-converted into a real relations[] entry once cappadocian's own gravity
-records exist.
+post-founding institution rather than a single emergency response.
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.ascetic-reordering and illustrates
+cappadocian.gravity.bishop-patron, both connections named above, with
+reciprocal back-edges declared on both gravity records.

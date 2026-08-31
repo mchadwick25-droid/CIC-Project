@@ -27,6 +27,10 @@ relations:
   target: cappadocian.figure.naucratius
 - type: associated-with
   target: cappadocian.figure.macrina
+- type: illustrates
+  target: cappadocian.gravity.household-lineage
+- type: illustrates
+  target: cappadocian.gravity.ascetic-reordering
 narrative_tier: 3
 narrative_tier_justification: "Tier 3: recorded only in the Life of Macrina, family memory shaped by the same genre conventions (an early death read as formation lesson) that shape that work's other episodes. Contested for factual detail; what the story evidences is this era's own picture of lay renunciation before any rule existed to order it, and the family's own experience of sudden loss."
 tellable_as: "A gifted young man leaves a promising career for the wilderness, feeds the poor with what he hunts and fishes, and dies suddenly, young."
@@ -65,5 +69,9 @@ barns's body note for the full statement of this project precedent):
 illustrates Supporting Gravity 6 (household as formation lineage, Doc_04
 §4) and is a documented early instance of Primary Gravity 2's own
 philanthropic strand (feeding the poor) prior to that gravity's later
-institutionalized form. To be converted into a real relations[] entry
-once cappadocian's own gravity records exist.
+institutionalized form.
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.household-lineage and illustrates
+cappadocian.gravity.ascetic-reordering, both connections named above, with
+reciprocal back-edges declared on both gravity records.

@@ -24,6 +24,8 @@ retrieval:
 relations:
 - type: associated-with
   target: cappadocian.figure.gregory-of-nyssa
+- type: associated-with
+  target: cappadocian.gravity.ascetic-reordering
 narrative_tier: 1
 narrative_tier_justification: "Tier 1, as a textual event: the sermon itself is a Documented, named, dated text making this specific argument. What is explicitly not Documented, per Critic Finding 5's own constraint, is any in-world reception of the argument - no other source shows anyone taking it up, debating it, or changing practice because of it. It is told as an outlier protest a single preacher dared to make, never as evidence of the world's own general self-image or practice."
 tellable_as: "One preacher looks at the slave market and asks who could possibly put a price on the image of God - and nothing in this world's own record shows anyone else taking up the argument."
@@ -71,5 +73,10 @@ poor, Doc_04 §4) only at its own honest limit - this sermon is named in
 Doc_02 §6 item 3 as "the world contains, in Nyssen's homily, antiquity's
 sharpest surviving protest against slavery itself," carried as a real and
 important fact, not a closing flourish that lets the absence of any
-broader reform stand in for analysis. To be converted into a real
-relations[] entry once cappadocian's own gravity records exist.
+broader reform stand in for analysis.
+
+CONVERTED AT B-5: real relations[] entry added above - associated-with
+cappadocian.gravity.ascetic-reordering (carried as associated-with rather
+than illustrated-by, since this record's own language is "touches...only
+at its own honest limit" rather than a direct illustration), with the
+reciprocal back-edge declared on that gravity record.

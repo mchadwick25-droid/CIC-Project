@@ -25,6 +25,8 @@ retrieval:
 relations:
 - type: associated-with
   target: cappadocian.figure.gregory-of-nyssa
+- type: illustrates
+  target: cappadocian.gravity.triune-confession
 narrative_tier: 1
 narrative_tier_justification: "Tier 1, as the preacher's own textual report: this is Gregory's own documented complaint, in a specific, dateable sermon, not a later retelling. What is rhetoric-flagged, per Doc_09's own confidence column, is its literal social accuracy - Gregory is exaggerating for rhetorical effect, not conducting a survey, and this record does not treat the vivid specifics as a verified census."
 tellable_as: "A preacher complains that he cannot ask for his change or his bread without being told whether the Son is equal to the Father."
@@ -70,5 +72,8 @@ barns's body note for the full statement of this project precedent):
 illustrates Primary Gravity 1 (the Triune confession, Doc_04 §4) reaching
 "down to the marketplace" - Doc_04 §1's own candidate-1 generation entry
 names exactly this complaint as evidence for that gravity's Formation
-score. To be converted into a real relations[] entry once cappadocian's
-own gravity records exist.
+score.
+
+CONVERTED AT B-5: real relations[] entry added above - illustrates
+cappadocian.gravity.triune-confession, with the reciprocal back-edge
+declared on that gravity record.

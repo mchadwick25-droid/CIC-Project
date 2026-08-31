@@ -27,6 +27,10 @@ retrieval:
 relations:
 - type: associated-with
   target: cappadocian.figure.gregory-thaumaturgus
+- type: associated-with
+  target: cappadocian.gravity.triune-confession
+- type: associated-with
+  target: cappadocian.gravity.household-lineage
 narrative_tier: 3
 narrative_tier_justification: "Tier 3: this is hagiography written a century after its subject's death, in the genre of miracle-cycle and founder-legend - not eyewitness or near-contemporary testimony. The specific numbers, the vision, and the mission narrative are Contested as history and traditional in character; what the story evidences, and what this world's own use of it demonstrates, is its function as a founding legend later generations appealed to as living authority."
 tellable_as: "A missionary finds a region with almost no Christians in it, receives the faith's own creed in a vision, and leaves it almost entirely converted."
@@ -65,5 +69,11 @@ background instance of Primary Gravity 1 (the Triune confession, Doc_04
 §4) via the received creed, and of Supporting Gravity 6 (household/
 network transmission, Doc_04 §4) via Basil's grandmother, Macrina the
 Elder, who is documented (Doc_02 §1.4) as the one who transmitted
-Thaumaturgus's own teaching to Basil directly. To be converted into real
-relations[] entries once cappadocian's own gravity records exist.
+Thaumaturgus's own teaching to Basil directly.
+
+CONVERTED AT B-5: real relations[] entries added above - associated-with
+cappadocian.gravity.triune-confession and associated-with
+cappadocian.gravity.household-lineage (both carried as associated-with
+rather than illustrated-by, since both are named above as "a background
+instance of," not a direct illustration), with reciprocal back-edges
+declared on both gravity records.

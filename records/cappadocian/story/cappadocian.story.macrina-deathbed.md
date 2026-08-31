@@ -28,6 +28,8 @@ relations:
   target: cappadocian.figure.macrina
 - type: associated-with
   target: cappadocian.figure.gregory-of-nyssa
+- type: illustrates
+  target: cappadocian.gravity.household-lineage
 narrative_tier: 1
 narrative_tier_justification: "Tier 1, with a literary frame that must travel with it: Gregory is an eyewitness to the deathbed and burial he describes, so the events themselves are Documented as his own account of what he witnessed. What is Contested, and stated as Contested rather than resolved, is how much of the deathbed dialogue's actual content is Macrina's own words and how much is Gregory's own philosophical composition, staged in her voice."
 tellable_as: "A brother finds his dying sister lying on bare boards, and their last conversation becomes a philosophical dialogue on the soul and the resurrection."
@@ -78,6 +80,8 @@ FEC / GRAVITY LINKAGE (parked for B-5; see cappadocian.story.famine-open-
 barns's body note for the full statement of this project precedent):
 illustrates Supporting Gravity 6 (the household as formation lineage,
 Doc_04 §4) at its most vivid, and is the anchor case for the family-
-network transmission caveat that gravity's own entry carries. To be
-converted into a real relations[] entry once cappadocian's own gravity
-records exist.
+network transmission caveat that gravity's own entry carries.
+
+CONVERTED AT B-5: real relations[] entry added above - illustrates
+cappadocian.gravity.household-lineage, with the reciprocal back-edge
+declared on that gravity record.

@@ -34,6 +34,10 @@ relations:
   target: cappadocian.figure.julian
 - type: associated-with
   target: cappadocian.figure.gregory-of-nazianzus
+- type: illustrates
+  target: cappadocian.gravity.athens-fishermen
+- type: illustrates
+  target: cappadocian.gravity.contested-church
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: both the imperial legislation and Gregory's invectives are named, dated, contemporary or near-contemporary documents, in each side's own words - an unusually rare configuration in this world's evidentiary base, where most conflicts survive from only one side. The two measures against Christian teachers (the general school law and the specific rescript) are genuinely two distinct legal texts whose exact relationship is debated, and Julian's specific measures against Caesarea itself rest on weaker attestation than the school legislation proper."
 tellable_as: "An emperor once schooled in Cappadocia forbids Christians to teach the classics his own faith once forced on him, and dies before the world's fury at him has even finished being written."
@@ -87,5 +91,9 @@ illustrates Tensional Gravity 11 (Athens against the fishermen, Doc_04
 §4) at its most direct - Julian's edict is, per Doc_04 §3.3, "the one pole
 of any tension in this world documented in the adversary's own words" -
 and Primary Gravity 3 (the contested church under the contested empire,
-Doc_04 §4). To be converted into real relations[] entries once
-cappadocian's own gravity records exist.
+Doc_04 §4).
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.athens-fishermen and illustrates
+cappadocian.gravity.contested-church, both connections named above, with
+reciprocal back-edges declared on both gravity records.

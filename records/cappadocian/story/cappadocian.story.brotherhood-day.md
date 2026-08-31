@@ -25,7 +25,9 @@ retrieval:
   - "participant asks what an ordinary day actually looked like in one of this world's own brotherhoods"
   - "participant asks how prayer, work, obedience, and hospitality fit together in the daily rhythm"
   do_not_retrieve_when: []
-relations: []
+relations:
+- type: illustrates
+  target: cappadocian.gravity.ascetic-reordering
 narrative_tier: 4
 narrative_tier_justification: "Tier 4 (historically grounded reconstruction), explicitly marked as such in the telling itself. Every element is separately sourced: the fixed-hour prayer pattern to Basil's own early letter on the Pontus retreat and the Asketikon's own hours provisions; labor as discipline to the Longer Rules; obedience to the proestōs to the Longer Rules' own argument for it; goods held in common to the Rules; hospitality's centrality to the Rules' hospitality provisions and to the poorhouse complex's documented staffing by ascetics; the live community-questions texture to the Shorter Rules' embedded questions, whose genre is itself the evidence that houses under this rule really did argue about how to keep it. Per this build's own Tier 4 discipline, no element that could not be sourced this way is included - no meal contents, no named individual, and no specific settlement beyond 'a brotherhood of the Iris valley' are asserted."
 tellable_as: "a typical day in one of the ordered brotherhoods - not one person's own recorded day, but what the rule and the letters let us reconstruct together"
@@ -80,5 +82,8 @@ FEC / GRAVITY LINKAGE (parked for B-5; see cappadocian.story.famine-open-
 barns's body note for the full statement of this project precedent):
 extends Primary Gravity 2 (the ascetic reordering toward koinōnia and the
 poor, Doc_04 §4) from legislation into lived texture, with the guest-door
-at the day's center. To be converted into a real relations[] entry once
-cappadocian's own gravity records exist.
+at the day's center.
+
+CONVERTED AT B-5: real relations[] entry added above - illustrates
+cappadocian.gravity.ascetic-reordering, with the reciprocal back-edge
+declared on that gravity record.

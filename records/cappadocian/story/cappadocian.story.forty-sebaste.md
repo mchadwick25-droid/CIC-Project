@@ -28,6 +28,8 @@ retrieval:
 relations:
 - type: associated-with
   target: cappadocian.figure.forty-of-sebaste
+- type: illustrates
+  target: cappadocian.gravity.martyrs-land
 narrative_tier: 2
 narrative_tier_justification: "Tier 2 (community tradition): the earliest surviving witnesses to this cult are preached within a century of the deaths - not eyewitness testimony, but early, convergent across two independent preachers, and tied to a real, dated liturgical calendar rather than legend invented from nothing. The specific passion details are traditional rather than independently verified reporting."
 tellable_as: "Forty soldiers are left to freeze on a lake for their faith, one breaks, and the guard watching them takes his place."
@@ -79,5 +81,8 @@ barns's body note for the full statement of this project precedent):
 illustrates Supporting Gravity 5 (the martyrs' land, Doc_04 §4) directly -
 this IS that gravity's own anchor case, named as such at Doc_04 §4
 ("the freshest martyr-memory of any world in this project's current
-set"). To be converted into a real relations[] entry once cappadocian's
-own gravity records exist.
+set").
+
+CONVERTED AT B-5: real relations[] entry added above - illustrates
+cappadocian.gravity.martyrs-land, with the reciprocal back-edge declared
+on that gravity record.

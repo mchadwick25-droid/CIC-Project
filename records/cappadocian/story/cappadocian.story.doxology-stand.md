@@ -31,6 +31,10 @@ relations:
   target: cappadocian.figure.basil
 - type: associated-with
   target: cappadocian.figure.amphilochius
+- type: illustrates
+  target: cappadocian.gravity.triune-confession
+- type: illustrates
+  target: cappadocian.gravity.precision-reserve
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: the treatise's own account of its occasion - a doxology challenged, a friend's request for a fuller answer - is the treatise's own preface, by its named author, addressed to a named contemporary. The surrounding court-pressure context is independently documented elsewhere in this world's record. Contested (Doc_02 §5, debate 10) is why Basil measured his words as he did about the Spirit's plain divinity; that dispute is carried as the era's own open argument among allies, not resolved in the telling."
 tellable_as: "A bishop's small change to a familiar doxology draws challenge, and his answer becomes a book defending how the church's own worship carries its faith."
@@ -94,5 +98,9 @@ confessed at the edge of the knowable, Doc_04 §4) and simultaneously the
 central case for Tensional Gravity 9 (precision against reserve, Doc_04
 §4) - the same episode carries both at once, which is exactly what Doc_04
 §6's interaction matrix records for the 1↔9 pair (candidate 10 "reshapes"
-candidate 1 "from inside... its tempo"). Both connections to be converted
-into real relations[] entries once those gravity records exist.
+candidate 1 "from inside... its tempo").
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.triune-confession and illustrates
+cappadocian.gravity.precision-reserve, both connections named above, with
+reciprocal back-edges declared on both gravity records.

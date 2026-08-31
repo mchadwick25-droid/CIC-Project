@@ -30,6 +30,10 @@ relations:
   target: cappadocian.figure.basil
 - type: associated-with
   target: cappadocian.figure.valens
+- type: illustrates
+  target: cappadocian.gravity.contested-church
+- type: illustrates
+  target: cappadocian.gravity.bishop-patron
 - type: associated-with
   target: cappadocian.figure.modestus
 narrative_tier: 1
@@ -77,5 +81,9 @@ barns's body note for the full statement of this project precedent):
 illustrates Primary Gravity 3 (the contested church under the contested
 empire, Doc_04 §4) at its most personal, and is a documented instance of
 Gravity 7 (the bishop as public patron, Doc_04 §4) exercised against the
-state rather than through it. To be converted into real relations[]
-entries once cappadocian's own gravity records exist.
+state rather than through it.
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.contested-church and illustrates
+cappadocian.gravity.bishop-patron, both connections named above, with
+reciprocal back-edges declared on both gravity records.

@@ -29,6 +29,10 @@ relations:
   target: cappadocian.figure.basil
 - type: associated-with
   target: cappadocian.story.poorhouse-famine-month
+- type: illustrates
+  target: cappadocian.gravity.ascetic-reordering
+- type: associated-with
+  target: cappadocian.gravity.bishop-patron
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: the preaching is the preacher's own homiletic record, delivered at the time of the crisis, not a later retelling. Oration 43's narrative frame corroborates from a documented eyewitness within Basil's own circle, but it is an encomium with a case to make, and its scene-level detail is flagged rather than treated as independent record. Widely Accepted rather than Documented at full strength: the homily text itself has not been independently checked against an acquired edition (see divergence_note); the event's broad shape is not in serious doubt."
 tellable_as: "A famine strikes Caesarea, and a young priest's preaching shames the rich into opening their granaries."
@@ -75,8 +79,13 @@ reordering of life toward koinōnia and the poor, Doc_04 §4) - specifically
 its "wealth arraigned in famine" clause - and background for Gravity 7
 (the bishop as public patron, Doc_04 §4), since Basil acts here as a public
 patron of relief before he ever holds the episcopal office Gravity 7
-otherwise centers on. Both connections are to be converted into real
-relations[] entries once cappadocian's own gravity records exist (B-5).
+otherwise centers on.
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.ascetic-reordering (the touchstone-illustration link
+named above) and associated-with cappadocian.gravity.bishop-patron (the
+background link named above), with reciprocal back-edges declared on both
+gravity records.
 
 Relations to cappadocian.figure.basil and cappadocian.story.poorhouse-
 famine-month are declared directly above since both records exist in this

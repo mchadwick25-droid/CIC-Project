@@ -28,6 +28,10 @@ relations:
   target: cappadocian.figure.gregory-of-nyssa
 - type: associated-with
   target: cappadocian.figure.valens
+- type: illustrates
+  target: cappadocian.gravity.contested-church
+- type: illustrates
+  target: cappadocian.gravity.household-lineage
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: the broad arc - deposition, exile, return - is Documented, corroborated by the wider, independently attested pattern of Valens's pressure on Nicene bishops in this period, not resting on the family's own letters alone. The characterization of the charges as trumped up and the synod as packed is Basil's own partisan framing on his brother's behalf, carried here as exactly that, not as an adjudicated verdict on the original accusation's merits."
 tellable_as: "A bishop is deposed on charges his own brother calls trumped up, driven into exile, and returns only when the political weather finally turns."
@@ -63,6 +67,9 @@ FEC / GRAVITY LINKAGE (parked for B-5; see cappadocian.story.famine-open-
 barns's body note for the full statement of this project precedent):
 illustrates Primary Gravity 3 (the contested church under the contested
 empire, Doc_04 §4) directly, and Supporting Gravity 6 (household as
-formation lineage, Doc_04 §4) via Basil's own defense of his brother. To
-be converted into real relations[] entries once cappadocian's own gravity
-records exist.
+formation lineage, Doc_04 §4) via Basil's own defense of his brother.
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.contested-church and illustrates
+cappadocian.gravity.household-lineage, both connections named above, with
+reciprocal back-edges declared on both gravity records.

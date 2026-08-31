@@ -28,6 +28,10 @@ retrieval:
 relations:
 - type: associated-with
   target: cappadocian.figure.gregory-of-nazianzus
+- type: illustrates
+  target: cappadocian.gravity.hesychia-summons
+- type: illustrates
+  target: cappadocian.gravity.contested-church
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: the events themselves - the mission, the preaching, the Easter violence, the council seat taken and resigned - are Documented; De vita sua and the orations are Gregory's own named, contemporary or near-contemporary self-account. What is not independently checked is his own account of his adversaries' motives and his own interior reasoning, which the McGuckin-register caution requires this telling to carry rather than resolve."
 tellable_as: "A small, embattled congregation in a hostile capital hears the Trinity defended from a house called Resurrection - and the man who preached it best walks away from the throne he is finally given."
@@ -80,5 +84,9 @@ barns's body note for the full statement of this project precedent):
 illustrates Tensional Gravity 8 (hēsychia against the summons, Doc_04 §4)
 at its most public and costly, and Primary Gravity 3 (the contested
 church under the contested empire, Doc_04 §4) at its turning point (the
-Theodosian settlement). To be converted into real relations[] entries
-once cappadocian's own gravity records exist.
+Theodosian settlement).
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.hesychia-summons and illustrates
+cappadocian.gravity.contested-church, both connections named above, with
+reciprocal back-edges declared on both gravity records.

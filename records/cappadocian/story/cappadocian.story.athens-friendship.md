@@ -29,6 +29,10 @@ relations:
   target: cappadocian.figure.basil
 - type: associated-with
   target: cappadocian.figure.gregory-of-nazianzus
+- type: illustrates
+  target: cappadocian.gravity.paideia-converted
+- type: associated-with
+  target: cappadocian.gravity.household-lineage
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: both Oration 43 and De vita sua are Gregory's own documented, named self-account of events in his own life. Idealization is flagged, not hidden: both are retrospective, written by the surviving friend after estrangement and loss, in genres (funeral encomium; verse autobiography) built to present a life in its best light. What is Documented is that this is how Gregory chose to remember and present the friendship, not an independently corroborated account of exactly what passed between two students decades earlier."
 tellable_as: "Two students at Athens form a friendship one of them will later call one soul in two bodies - the world's own portrait of its warmest ideal."
@@ -72,5 +76,10 @@ the bee-and-flowers discipline named in the text is that gravity's own
 signature image - and is background for Supporting Gravity 6 (the
 household/family-network texture, Doc_04 §4), since this friendship
 becomes the second great relational network this world's evidence runs
-through, alongside the family itself. To be converted into real
-relations[] entries once cappadocian's own gravity records exist.
+through, alongside the family itself.
+
+CONVERTED AT B-5: real relations[] entries added above -
+illustrates cappadocian.gravity.paideia-converted (the direct link named
+above) and associated-with cappadocian.gravity.household-lineage (the
+background link named above), with reciprocal back-edges declared on both
+gravity records.

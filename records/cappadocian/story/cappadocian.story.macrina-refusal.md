@@ -25,6 +25,10 @@ retrieval:
 relations:
 - type: associated-with
   target: cappadocian.figure.macrina
+- type: illustrates
+  target: cappadocian.gravity.household-lineage
+- type: illustrates
+  target: cappadocian.gravity.ascetic-reordering
 narrative_tier: 3
 narrative_tier_justification: "Tier 3: this is family memory, recorded by her brother a generation removed from the event itself, shaped by the genre convention of the virgin-philosopher's unwavering resolve - not an eyewitness account of the events in the way the deathbed scene partly is. What the story actually evidences is the formation ideal it communicates, which is Contested for its specific factual detail but genuine as this world's own account of its founding logic."
 tellable_as: "A young woman's betrothed dies before the wedding, and she declares herself bound to him still - the resolve this world remembers as where its own ascetic household began."
@@ -63,6 +67,9 @@ barns's body note for the full statement of this project precedent):
 illustrates Supporting Gravity 6 (the household as formation lineage,
 Doc_04 §4) at its origin point, and Primary Gravity 2 (the ascetic
 reordering of life toward koinōnia and the poor, Doc_04 §4), since this
-resolve is this world's own account of where that reordering starts. To
-be converted into real relations[] entries once cappadocian's own gravity
-records exist.
+resolve is this world's own account of where that reordering starts.
+
+CONVERTED AT B-5: real relations[] entries added above - illustrates
+cappadocian.gravity.household-lineage and illustrates
+cappadocian.gravity.ascetic-reordering, both connections named above, with
+reciprocal back-edges declared on both gravity records.

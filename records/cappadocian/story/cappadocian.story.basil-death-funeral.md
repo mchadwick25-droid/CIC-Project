@@ -30,6 +30,10 @@ relations:
   target: cappadocian.figure.basil
 - type: associated-with
   target: cappadocian.figure.gregory-of-nazianzus
+- type: associated-with
+  target: cappadocian.gravity.martyrs-land
+- type: illustrates
+  target: cappadocian.gravity.bishop-patron
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: Basil's death itself, and the fact of a major public funeral, are Documented historical events. The exact date is genuinely Contested. The scene-level claim of a universal, cross-religious mourning crowd is the encomiast's own, flagged as such rather than treated as an independent census of who actually grieved."
 tellable_as: "Basil dies, and the friend who eulogizes him claims the whole city grieved - Christian, Jewish, and pagan alike."
@@ -81,5 +85,11 @@ illustrates Supporting Gravity 5 (the martyrs' land, Doc_04 §4) only by
 contrast - Basil dies of natural causes, not martyrdom, and this world's
 own memory of him is civic and doctrinal rather than a martyr-cult - and
 is a documented instance of Supporting Gravity 7 (the bishop as public
-patron, Doc_04 §4) at its closing. To be converted into real relations[]
-entries once cappadocian's own gravity records exist.
+patron, Doc_04 §4) at its closing.
+
+CONVERTED AT B-5: real relations[] entries added above - associated-with
+cappadocian.gravity.martyrs-land (the contrast link named above, carried
+as associated-with rather than illustrated-by since it illustrates only
+by contrast) and illustrates cappadocian.gravity.bishop-patron (the direct
+instance named above), with reciprocal back-edges declared on both
+gravity records.

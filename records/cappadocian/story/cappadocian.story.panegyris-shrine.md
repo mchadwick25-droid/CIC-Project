@@ -32,6 +32,8 @@ relations:
   target: cappadocian.figure.basil
 - type: associated-with
   target: cappadocian.figure.gregory-of-nyssa
+- type: illustrates
+  target: cappadocian.gravity.martyrs-land
 narrative_tier: 4
 narrative_tier_justification: "Tier 4 (historically grounded reconstruction), explicitly marked as such. Each element is sourced: the vigil and the passion retold to the named festal homilies themselves (on the Forty, on Gordius, on Theodore); the market-and-crowd texture to the preachers' own asides within those homilies, corroborated only generally by a regional pattern at citation_specificity D with no dedicated text of its own - named here as the thinnest link in this record's own chain, not silently strengthened; the calendar pattern to multiple festal texts naming specific feast dates. This is Inferential-Thin even more markedly than the other Tier 4 entries in this batch, since two of its anchor sources are themselves weak (one unverified, one citation_specificity D) rather than merely composited from otherwise-strong individual elements."
 tellable_as: "a typical martyr's feast at a rural shrine - the vigil, the passion retold, and a preacher competing with the pull of the market crowding the same day"
@@ -84,5 +86,8 @@ the two would overstate what either source actually supports.
 FEC / GRAVITY LINKAGE (parked for B-5; see cappadocian.story.famine-open-
 barns's body note for the full statement of this project precedent):
 illustrates Supporting Gravity 5 (the martyrs' land, Doc_04 §4) at its
-most communal and calendar-anchored. To be converted into a real
-relations[] entry once cappadocian's own gravity records exist.
+most communal and calendar-anchored.
+
+CONVERTED AT B-5: real relations[] entry added above - illustrates
+cappadocian.gravity.martyrs-land, with the reciprocal back-edge declared
+on that gravity record.
