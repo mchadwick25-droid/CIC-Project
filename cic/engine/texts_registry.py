@@ -557,6 +557,33 @@ ENTRIES: tuple[TextEntry, ...] = (
               "distribution carries no 'Rights:' line of its own and its prose declaration sits far "
               "past the 100-line read window - but written as an XML COMMENT rather than plain text, "
               "so the file stays valid XML for ElementTree."),
+    TextEntry("morison_st-basil-and-his-rule_1912.txt", "Mark", "2026-08-30",
+              "E. F. Morison, 'St. Basil and His Rule: A Study in Early Monasticism' (Oxford: Henry "
+              "Frowde, 1912), The S. Deiniol's Series III - supplied as a DOCX attachment (a Google "
+              "Books scan of the University of California copy), converted mechanically via zip/XML "
+              "text extraction (paragraph boundaries from </w:p> splits, entities unescaped) - no "
+              "content passed through model-generated output. Identified while cross-checking the "
+              "Nicene-Cappadocian world's Source Acquisition Manifest against this registry: Mark "
+              "supplied it in response to that manifest's ask for Clarke's 1925 Ascetic Works "
+              "translation, but it is a DIFFERENT work - not a substitute, a related find. THIS IS "
+              "MORISON'S OWN SECONDARY STUDY of Basil's Rule (14 thematic chapters: Introductory/"
+              "Historical, the Retreat in Pontus, Basil's Ascetic Writings, the Inspiration of the "
+              "Monastic Life, the Practice of Asceticism, the Community Life, Obedience and "
+              "Discipline, the Monk at Prayer, the Monk at Work, Vocation and Vows, Women/Children/"
+              "and Slaves, Food and Clothing, Hospitality and Charity, Conclusion), NOT a translation "
+              "of the complete Longer and Shorter Rules - Clarke's 1925 translation remains a "
+              "separate, still-needed acquisition for the Q&A-form primary text itself. It does carry "
+              "two genuine primary-source excerpts in its own right: Appendix A is a translated "
+              "excerpt of Basil's own Introduction/Proem to the Longer Rules (continuous first-person "
+              "primary text, not commentary); Appendix B is the analogous Introduction to the Shorter "
+              "Rules. Appendix C covers the Synod of Gangra's decrees - likely redundant with the "
+              "canons already in npnf214_seven-ecumenical-councils.xml, not independently checked "
+              "against it. RIGHTS: 1912 publication date clears this registry's own 'to ~1929' rule "
+              "independent of the Google Books scan's own public-domain declaration, present in the "
+              "original scan but stripped along with the UC library return-slip boilerplate before "
+              "vendoring; the bibliographic header prepended to the file records both bases. The "
+              "chapter on 'Women, Children, and Slaves' (ch. XI) is likely directly useful for the "
+              "Cappadocian build's Article 20 against-the-grain evidence work, not yet drawn on."),
 )
 
 

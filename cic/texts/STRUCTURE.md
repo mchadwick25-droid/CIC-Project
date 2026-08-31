@@ -678,6 +678,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 119,040 | 119,040 | ephraim_prose-refutations_mitchell1912-1921 |
 
+## `evagrius_praktikos_dysinger.txt`
+
+1 section(s) to level 2 · ~8,148 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 8,148 | 8,148 | evagrius_praktikos_dysinger |
+
 ## `lucian_works-vol4-peregrine_fowler1905.txt`
 
 1 section(s) to level 2 · ~78,209 words of text · ~0 words of apparatus
@@ -685,6 +693,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 78,209 | 78,209 | lucian_works-vol4-peregrine_fowler1905 |
+
+## `macarius_fifty-spiritual-homilies_mason1921.txt`
+
+1 section(s) to level 2 · ~73,435 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 73,435 | 73,435 | macarius_fifty-spiritual-homilies_mason1921 |
+
+## `morison_st-basil-and-his-rule_1912.txt`
+
+1 section(s) to level 2 · ~21,291 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 21,291 | 21,291 | morison_st-basil-and-his-rule_1912 |
 
 ## `npnf101_augustine-confessions-letters.xml`
 
