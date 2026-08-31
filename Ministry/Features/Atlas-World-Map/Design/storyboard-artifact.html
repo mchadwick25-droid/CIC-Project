@@ -1,0 +1,852 @@
+<title>Rivers of the Church</title>
+<style>
+/* ---- Design plan ----
+   Color: parchment/vellum grounds, iron-gall ink, madder rubrication (proposed-item
+   marks only — "the red mark beside black text is where reading begins"), gold-leaf
+   for engraved headings, Tyrian for the sourcing/transparency apparatus, graphite for
+   quiet meta text — all six are this real project's own locked brand tokens, not
+   invented. Each scene's header band washes in that scene's REAL era ground color
+   from the census (light) / groundDark (dark) — era-as-color is literally the
+   storyboard's own thesis, applied to itself.
+   Type: Alegreya (display+body), Alegreya Sans (UI/small-caps labels), Cinzel
+   confined to scene numerals only — exactly the real brand's own typographic law.
+   Layout: one manuscript-folio reading column, a sticky left rail of era-tinted
+   scene tabs modeled on the live Atlas's own "jump to era" rail. */
+:root{
+  --parchment:#F7F3EB; --vellum:#FEFCF8; --iron-gall:#2A2521; --ink-faded:#6C6257;
+  --rule:#E6DFD3; --madder:#A13E2B; --madder-wash:#F7E9E4; --gold-leaf:#B45309;
+  --tyrian:#6B3FA0; --tyrian-wash:#F3EFFA; --graphite:#8A837C;
+  --era-1:#EFDDB3; --era-2:#E3E0CB; --era-3:#D8E4E5;
+  --shadow:0 1px 2px rgba(42,37,33,.08);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
+  --rule:#453a28; --madder:#cf7a5c; --madder-wash:#2e1f18; --gold-leaf:#cfa55c;
+  --tyrian:#b9a3d6; --tyrian-wash:#241d30; --graphite:#8f8266;
+  --era-1:#241A0C; --era-2:#1E1C16; --era-3:#151A1E;
+  --shadow:0 1px 3px rgba(0,0,0,.5);
+}}
+:root[data-theme="dark"]{
+  --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
+  --rule:#453a28; --madder:#cf7a5c; --madder-wash:#2e1f18; --gold-leaf:#cfa55c;
+  --tyrian:#b9a3d6; --tyrian-wash:#241d30; --graphite:#8f8266;
+  --era-1:#241A0C; --era-2:#1E1C16; --era-3:#151A1E;
+  --shadow:0 1px 3px rgba(0,0,0,.5);
+}
+*{box-sizing:border-box}
+body{background:var(--parchment);color:var(--iron-gall);
+  font-family:"Alegreya",Georgia,serif;line-height:1.7;font-size:1.0625rem}
+h1,h2,h3,h4{text-wrap:balance;font-family:"Alegreya",Georgia,serif}
+::selection{background:var(--madder-wash);color:var(--iron-gall)}
+a{color:var(--tyrian)}
+a:focus-visible,button:focus-visible,.tab:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+
+.status-strip{position:sticky;top:0;z-index:30;background:var(--parchment);
+  border-bottom:1px solid var(--rule);padding:.5rem 1.25rem;
+  font-family:"Alegreya Sans",system-ui,sans-serif;font-size:.72rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--graphite);display:flex;gap:.6rem;flex-wrap:wrap;
+  align-items:center}
+.status-strip .dot{width:6px;height:6px;border-radius:50%;background:var(--madder);flex:none}
+
+.shell{display:flex;max-width:1180px;margin:0 auto;align-items:flex-start}
+.rail{position:sticky;top:2.6rem;flex:none;width:64px;padding:2.4rem .5rem 3rem;
+  display:flex;flex-direction:column;gap:.35rem;align-items:center}
+.tab{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;
+  justify-content:center;font-family:"Cinzel",serif;font-size:.8rem;letter-spacing:.02em;
+  border:1px solid var(--rule);background:var(--vellum);color:var(--ink-faded);
+  text-decoration:none;transition:transform .12s ease}
+.tab[data-era="1"]{background:color-mix(in srgb, var(--era-1) 55%, var(--vellum))}
+.tab[data-era="2"]{background:color-mix(in srgb, var(--era-2) 55%, var(--vellum))}
+.tab[data-era="3"]{background:color-mix(in srgb, var(--era-3) 55%, var(--vellum))}
+.tab:hover{transform:scale(1.08);border-color:var(--gold-leaf);color:var(--iron-gall)}
+.rail .label{font-family:"Alegreya Sans",sans-serif;font-size:.58rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--graphite);writing-mode:vertical-rl;margin-top:.4rem}
+@media (max-width:900px){.rail{display:none}}
+
+main{flex:1;min-width:0;padding:2.4rem 1.5rem 6rem;max-width:760px;margin:0 auto}
+
+.masthead{padding-bottom:2rem;border-bottom:2px solid var(--gold-leaf);margin-bottom:2.4rem}
+.masthead .kicker{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--gold-leaf);margin:0 0 .6rem}
+.masthead h1{font-size:2.6rem;font-weight:700;margin:0 0 .5rem;line-height:1.05}
+.masthead .sub{font-style:italic;color:var(--ink-faded);font-size:1.15rem;margin:0 0 1.1rem;
+  max-width:56ch}
+.masthead .meta{font-family:"Alegreya Sans",sans-serif;font-size:.86rem;color:var(--ink-faded);
+  max-width:60ch}
+.masthead .meta b{color:var(--iron-gall);font-weight:700}
+
+.lede{background:var(--vellum);border:1px solid var(--rule);border-radius:2px;
+  padding:1.2rem 1.4rem;margin:0 0 2.6rem;box-shadow:var(--shadow)}
+.lede p{margin:.4rem 0;font-size:.98rem}
+.lede .constraint-list{margin:.6rem 0 0;padding-left:1.1rem;color:var(--ink-faded);
+  font-size:.92rem}
+
+section.board-note{margin:0 0 3rem;padding:1.6rem 1.6rem 1.4rem;background:var(--vellum);
+  border:1px solid var(--rule);border-radius:2px;box-shadow:var(--shadow)}
+section.board-note h2{font-family:"Alegreya Sans",sans-serif;font-size:.8rem;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--gold-leaf);margin:0 0 1rem}
+section.board-note h3{font-size:1.05rem;margin:1.1rem 0 .3rem}
+section.board-note ol{padding-left:1.2rem}
+section.board-note li{margin:.35rem 0}
+
+.scene{margin:0 0 3.4rem;scroll-margin-top:4.5rem}
+.scene-head{border-radius:3px 3px 0 0;padding:1.6rem 1.6rem 1.3rem;position:relative;
+  border:1px solid var(--rule);border-bottom:none}
+.scene-head::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+  background:var(--gold-leaf)}
+.scene-numeral{font-family:"Cinzel",serif;font-size:.82rem;letter-spacing:.16em;
+  color:var(--gold-leaf);text-transform:uppercase;margin:0 0 .3rem}
+.scene-head h2{font-size:1.55rem;margin:0 0 .4rem}
+.scene-head .stage{font-style:italic;color:var(--ink-faded);font-size:1rem;margin:0}
+.scene-body{border:1px solid var(--rule);border-top:none;padding:1.5rem 1.6rem 1.7rem;
+  border-radius:0 0 3px 3px;background:var(--vellum)}
+
+.beat{margin:1.3rem 0}
+.beat h4{font-family:"Alegreya Sans",sans-serif;font-size:.76rem;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--tyrian);margin:0 0 .45rem;display:flex;
+  align-items:center;gap:.5rem}
+.beat h4::after{content:"";flex:1;height:1px;background:var(--rule)}
+.beat p{margin:.4rem 0}
+.beat ul{padding-left:1.2rem;margin:.5rem 0}
+.beat li{margin:.35rem 0}
+
+.proposed{display:inline-flex;align-items:baseline;gap:.35rem;font-family:"Alegreya Sans",sans-serif;
+  font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;color:var(--madder);
+  border:1px solid var(--madder);border-radius:2px;padding:.08rem .4rem;white-space:nowrap;
+  margin:0 .15rem}
+.proposed::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--madder)}
+
+blockquote{margin:.7rem 0;padding:.55rem .95rem;border-left:3px solid var(--gold-leaf);
+  background:color-mix(in srgb, var(--gold-leaf) 6%, var(--vellum));font-style:italic;
+  font-size:.96rem;color:var(--iron-gall)}
+blockquote p{margin:.25rem 0}
+
+.grounding{margin-top:1.4rem;padding:.75rem .95rem;background:var(--tyrian-wash);
+  border-radius:2px;font-size:.82rem;color:var(--iron-gall)}
+.grounding b{font-family:"Alegreya Sans",sans-serif;font-size:.7rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--tyrian);display:block;margin-bottom:.3rem}
+
+.headline-list{list-style:none;padding:0;margin:1rem 0}
+.headline-list li{padding:.9rem 0;border-bottom:1px solid var(--rule)}
+.headline-list li:last-child{border-bottom:none}
+.headline-list .h{font-size:1.2rem;font-weight:700;font-style:italic}
+.headline-list .h::before{content:"\201C"}
+.headline-list .h::after{content:"\201D"}
+.headline-list .for{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;
+  letter-spacing:.05em;color:var(--gold-leaf);text-transform:uppercase;margin:.25rem 0 .15rem}
+.headline-list .derived{font-size:.88rem;color:var(--ink-faded);font-style:italic}
+
+.closing-note{background:var(--vellum);border:1px dashed var(--rule);border-radius:2px;
+  padding:1.2rem 1.4rem;margin:2.6rem 0;font-size:.92rem;color:var(--ink-faded)}
+.closing-note b{color:var(--iron-gall)}
+
+footer.doclog{margin-top:3rem;padding-top:1.4rem;border-top:1px solid var(--rule);
+  font-family:"Alegreya Sans",sans-serif;font-size:.78rem;color:var(--ink-faded)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+@media (max-width:640px){.masthead h1{font-size:2rem}main{padding:1.6rem 1.1rem 4rem}}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&family=Cinzel:wght@500;600&display=swap" rel="stylesheet">
+
+<div class="status-strip"><span class="dot"></span> First creative draft &nbsp;·&nbsp; Sandbox &mdash; does not build &nbsp;·&nbsp; Every world, date and edge below is real, from <code>world-census.json</code></div>
+
+<div class="shell">
+  <nav class="rail" aria-label="Jump to scene">
+    <a class="tab" href="#board" title="The board, stated once">0</a>
+    <a class="tab" data-era="1" href="#scene-1" title="Scene I — The whole landscape at rest">I</a>
+    <a class="tab" data-era="1" href="#scene-2" title="Scene II — The descent into an era">II</a>
+    <a class="tab" data-era="2" href="#scene-3" title="Scene III — Arriving at a world: the Desert">III</a>
+    <a class="tab" data-era="2" href="#scene-4" title="Scene IV — The quiet mark">IV</a>
+    <a class="tab" href="#scene-5" title="Scene V — Edessa to Xi'an">V</a>
+    <a class="tab" data-era="1" href="#scene-6" title="Scene VI — Inside one world">VI</a>
+    <a class="tab" data-era="1" href="#scene-7" title="Scene VII — The bottom edge">VII</a>
+    <a class="tab" href="#closing" title="Five headlines">&hellip;</a>
+    <span class="label">Scenes</span>
+  </nav>
+
+  <main>
+    <header class="masthead">
+      <p class="kicker">Church in Conversation &middot; Atlas reimagined</p>
+      <h1>Rivers of the Church</h1>
+      <p class="sub">A first creative storyboard for what the Atlas could look and feel
+        like — seven scenes, drafted by a Fable-model pass, built from real worlds,
+        real dates, and real sourced connections.</p>
+      <p class="meta">Nothing here is decided, built, or authorized to build. Every named
+        world, era, date, edge, and confidence grade is taken directly from
+        <b>cic-website/data/world-census.json</b> (292 movements, 10 eras, 69 sourced
+        edges). Every piece of period art or architecture described is a real, citable
+        object or place, framed the way a museum wall label would frame it. Where this
+        draft takes a creative swing on an open question, it carries a small
+        <span class="proposed">Proposed</span> mark — so it can be weighed, never
+        mistaken for something already settled.</p>
+    </header>
+
+    <div class="lede">
+      <p><b>The constraints this draft works inside</b>, stated once so the scenes
+      don't have to keep explaining them:</p>
+      <ul class="constraint-list">
+        <li>The locked manuscript palette — parchment, iron-gall, madder (muted, never
+          brightened toward alert-red), gold-leaf, lapis, Tyrian, graphite.</li>
+        <li>The anti-ghost principle — <i>"these must feel like real people at a table,
+          not spirits or ghosts&hellip; no lighting or glow."</i></li>
+        <li>Hover = short, click = full, and no new interaction verb.</li>
+        <li><b>No motion on the board at all.</b> The only motion in the whole experience
+          is the participant's own panning and zooming.</li>
+      </ul>
+    </div>
+
+    <section class="board-note" id="board">
+      <h2>The board, stated once</h2>
+      <p><b>Time flows down.</b> The sheet reads like a page: 70&nbsp;CE at the top edge,
+      the present at the bottom. Ten era bands cross the sheet horizontally, each on its
+      own approved ground from the census, the three tones alternating in a quiet cadence
+      &mdash; warm aged parchment, pale vellum-green, cool pale blue-grey &mdash; down all
+      ten bands to the Global Church Era at the bottom, back on warm. <span class="proposed">Proposed</span>
+      lanes are placed with <code>laneOrder</code> ascending right to left, so the Syriac
+      East &amp; Asia river rises at the sheet's eastern edge and the Protestant and Global
+      Revival lanes open toward the western margin &mdash; a loose compass feeling, not a
+      geographic claim.</p>
+
+      <p><b>Each tradition family is a river.</b> The census's own <code>lane</code>/<code>laneOrder</code>
+      fields are the riverbeds; nothing structural is invented. A tributary joining the
+      main channel is a real <code>formed</code>/<code>transmitted to</code> edge. The
+      same river continuing under a new name is a real <code>continuesAs</code> chain. A
+      river ending is a movement's own recorded end date. Rivers are drawn the way the old
+      mapmakers drew them &mdash; two fine iron-gall bank lines with a muted pigment wash
+      between. <b>The one thing a river never does is move.</b> No shimmer, no animated
+      current, no drifting texture. Ever.</p>
+
+      <p><b>Honesty is rendered, not asserted.</b> Built &amp; Live worlds sit on the
+      landscape at full pigment. Everything else is drawn in graphite underdrawing &mdash;
+      the uninked ruling every real manuscript carries under its ink. Confidence keeps its
+      existing honest line-language everywhere a course is drawn:
+      <b>Documented = solid, Widely Accepted = dashed, Contested = dotted</b> &mdash; the
+      map never inks a stream it can't defend.</p>
+
+      <h3>What makes still art alive &mdash; the creative swing <span class="proposed">Proposed</span></h3>
+      <p>The one open question the brainstorm names twice and never resolves. This
+      draft's answer, applied in every scene below:</p>
+      <ol>
+        <li><b>Evidence of use.</b> Things shown mid-use, just set down &mdash; bread
+          broken, not whole; a letter unfolded, creases showing; a stylus laid across a
+          half-written tablet. No figures needed &mdash; the warmth of people is in the
+          room they just stepped out of. (This is also anti-ghost's safest ground: where
+          a figure would risk reading spectral, show the implements of a practice instead.)</li>
+        <li><b>Light with a time of day.</b> Not glow &mdash; weather. Lamplight low on
+          plaster in Era&nbsp;I; white desert noon in Egypt; candle-dark gold in
+          Byzantium. Anti-ghost stays absolute: light lands on objects and architecture,
+          never as an aura on a person.</li>
+        <li><b>The mark of the hand in the rendering itself.</b> Visible ink texture,
+          pigment pooling at the edge of a wash, the graphite underdrawing showing at a
+          river's bank. The Atlas should feel like the largest page this scriptorium
+          ever ruled &mdash; a made object, not a rendered surface.</li>
+      </ol>
+    </section>
+
+    <!-- SCENE I -->
+    <article class="scene" id="scene-1">
+      <div class="scene-head" style="background:color-mix(in srgb, var(--era-1) 45%, var(--vellum))">
+        <p class="scene-numeral">Scene I</p>
+        <h2>The whole landscape at rest</h2>
+        <p class="stage">Zoomed all the way out. The participant has just arrived and
+          touched nothing.</p>
+      </div>
+      <div class="scene-body">
+        <div class="beat">
+          <h4>What the participant just did</h4>
+          <p>Clicked through from wherever they were &mdash; the homepage, the end of a
+          conversation &mdash; and the Atlas opened at full extent. The camera is still.
+          Nothing on the board moves, and nothing ever will; the first impression is the
+          deep quiet of a large map on a library table.</p>
+        </div>
+        <div class="beat">
+          <h4>On screen</h4>
+          <p>The whole sheet at once &mdash; ten era bands descending through their
+          warm&rarr;cool&rarr;warm cadence, and across them the river systems: seven
+          family lanes plus the headwater. At the very top, on Era&nbsp;I's aged-parchment
+          ground, a single spring: <b>Post-Apostolic House-Church Christianity</b>
+          (70&ndash;200&nbsp;CE), the census's own <code>laneOrder 0</code>, labeled in the
+          data itself <i>"Origin &mdash; before the lanes divide."</i> Its
+          <code>relationsSummary</code> reads, verbatim,</p>
+          <blockquote>Parent of nearly everything on the map.</blockquote>
+          <p>&mdash; and at this zoom that is simply what the picture shows: one spring,
+          and below it the lanes fanning out. At the far margin, set off by a ruled border
+          like a mapmaker's marginal table, the Beyond-the-Floor terrain (lane&nbsp;80,
+          "Non-Nicene Traditions," researched and explained) &mdash; present, labeled,
+          never hidden, never center.</p>
+          <p>At this height no movement names are legible and none try to be. What reads
+          is <b>shape</b>: where rivers thicken with tributaries, where a lane runs thin
+          and alone for centuries, where the Latin West braids into many channels after
+          1517. Six worlds sit on the landscape at full pigment &mdash; the six
+          Built&nbsp;&amp;&nbsp;Live entries &mdash; small illuminated places on an
+          otherwise graphite-ruled survey. The eye finds them the way it finds the gilded
+          initials on a page.</p>
+        </div>
+        <div class="beat">
+          <h4>The art, and where it's drawn from</h4>
+          <p>At full extent the period-art layer is almost subliminal &mdash; each era
+          band carries its texture at whisper strength, like watermarks. Era&nbsp;I's
+          texture is drawn from the <b>Dura-Europos house-church</b> (Syria, c.
+          233&ndash;256, the earliest identified Christian church building); Era&nbsp;V's
+          from the ashlar coursing of <b>Fontenay Abbey</b> (Burgundy, founded 1118);
+          Era&nbsp;X's from the weatherboard and plain brick of the <b>Apostolic Faith
+          Mission at 312 Azusa Street, Los Angeles</b>, as it survives in the movement's
+          own archival photographs. Each texture is sourced and creditable &mdash; at this
+          zoom you feel them as <i>grain</i>, not pictures.</p>
+        </div>
+        <div class="beat">
+          <h4>Text and data on screen</h4>
+          <p>The era names only, engraved in small caps along each band's left margin,
+          with dates beneath. One quiet line of chrome. Nothing else. The census's scale
+          (292 movements, 69 sourced connections) is <i>felt</i> as landscape, not printed
+          as a statistic.</p>
+        </div>
+        <div class="beat">
+          <h4>Alive, without moving</h4>
+          <p>Entirely the maker's-hand principle at this height. The bank lines waver by a
+          hair's width the way ruled ink does; the era grounds are washes with real
+          pooling, not flat fills; the graphite underdrawing of unbuilt rivers is visibly
+          <i>drawing</i>. The felt promise: you can finally see the whole picture
+          <b>and</b> tell that there is somewhere to dive.</p>
+        </div>
+        <div class="grounding"><b>Grounding</b>census <code>meta</code> (292/69),
+          <code>eras[].ground</code>, movement lane/laneOrder fields,
+          <code>post-apostolic-house-church.relationsSummary</code>.</div>
+      </div>
+    </article>
+
+    <!-- SCENE II -->
+    <article class="scene" id="scene-2">
+      <div class="scene-head" style="background:color-mix(in srgb, var(--era-1) 45%, var(--vellum))">
+        <p class="scene-numeral">Scene II</p>
+        <h2>The descent into an era</h2>
+        <p class="stage">The participant pans north and zooms into the top of the sheet:
+          Era&nbsp;I, "The Early Church Era," 70&ndash;312&nbsp;CE.</p>
+      </div>
+      <div class="scene-body">
+        <div class="beat">
+          <h4>What the participant just did</h4>
+          <p>Two slow pinches (or scroll-wheel steps), both theirs. The camera never
+          glides on its own &mdash; it goes exactly where the hand sends it, at the speed
+          the hand sends it, the way the current Atlas already pans on mobile. The whole
+          descent is the participant's own gesture; the board holds still beneath it.</p>
+        </div>
+        <div class="beat">
+          <h4>On screen</h4>
+          <p>Era&nbsp;I now fills the view. What was grain at full extent resolves into
+          picture: the band's background texture is now readable as what it is, and
+          labeled as what it is. The spring of the House-Churches sits upper center, and
+          from it two watercourses leave &mdash; and here the honest line-language does
+          quiet, visible work:</p>
+          <ul>
+            <li>The course running east toward <b>Syriac Christianity
+              (Edessa/Nisibis)</b> is drawn <b>dotted</b> &mdash; the census grades this
+              <code>formed</code> edge <i>Contested</i>:
+              <blockquote>Aramaic-speaking Christianity reached Edessa early, but by what
+              route and hands scholars genuinely disagree.</blockquote></li>
+            <li>The course running south toward <b>Alexandrian Catechetical /
+              Christian-Platonist Tradition</b> is drawn <b>dashed</b> &mdash; <i>Widely
+              Accepted</i>:
+              <blockquote>Egyptian Christianity's origins are obscure in detail, but its
+              second-century emergence out of the same scattered network is broadly
+              accepted.</blockquote></li>
+          </ul>
+          <p>Lower in the band, at the seam where Era&nbsp;I gives way to Era&nbsp;II's
+          cooler vellum-green, a different kind of channel appears: <b>Imperial and
+          Juridical Christianity</b>, which the census itself files not in a lane but on
+          the <i>bridge</i> between two ("Greek East / Latin West &mdash; bridge"). The
+          art honors the data's own oddity: not a natural stream but an <b>engineered
+          channel</b> &mdash; straight banks, cut stone &mdash; running between the Greek
+          East and Latin West rivers. Empire building waterworks between watersheds.
+          Nothing dramatic; just a visibly different kind of line, because it <i>was</i> a
+          different kind of thing.</p>
+        </div>
+        <div class="beat">
+          <h4>The art, and where it's drawn from</h4>
+          <p>The era's backdrop, now legible, is built from a real survival, credited on
+          hover like a wall label:</p>
+          <blockquote>Baptistery wall paintings, Dura-Europos house-church, Syria, c.
+          233&ndash;256 &mdash; probably the oldest surviving Christian paintings
+          anywhere; preserved because a Roman defensive rampart buried the building. On
+          display at the Yale University Art Gallery.</blockquote>
+          <p>The texture takes the Dura paintings' own qualities &mdash; dry fresco on
+          rough plaster, terracotta and olive earth tones sitting naturally inside the
+          muted palette &mdash; and lets them ghost the band's ground at perhaps a tenth
+          strength. One word policed hard in the art direction: the <i>paintings</i> may
+          be faded &mdash; they really are &mdash; but any human form inside the sourced
+          art is presented as the solid painted figure it is, never re-rendered
+          translucent. Fidelity to the artifact and anti-ghost turn out to be the same
+          rule.</p>
+        </div>
+        <div class="beat">
+          <h4>Text and data on screen</h4>
+          <p>The era's engraved title, its dates, and &mdash; set in italic beneath, like
+          an argument-summary in a chapter head &mdash; the census's own era tag:
+          <i>"The apostles' children, under an empire that could turn on them."</i>
+          Movement names begin appearing along their courses at this depth, lettered in
+          italic along the rivers the way real maps letter real rivers.</p>
+        </div>
+        <div class="beat">
+          <h4>Alive, without moving</h4>
+          <p>Light with a time of day arrives. The Era&nbsp;I band reads as <b>lamplit
+          interior</b>: the Dura texture behind the rivers sits in a warm, low key, as if
+          the whole era were seen by the oil lamps its gatherings actually met by. The era
+          doesn't glow. It is simply <i>lit the way its rooms were lit</i> &mdash; which a
+          participant feels before reading a single date.</p>
+        </div>
+        <div class="grounding"><b>Grounding</b>census era&nbsp;1 record (title, dates,
+          tag, ground); edges <code>post-apostolic-house-church &rarr;
+          syriac-edessa-nisibis</code> (formed, Contested) and
+          <code>&rarr; alexandria-catechetical</code> (formed, Widely Accepted), notes
+          verbatim; <code>imperial-juridical-christianity</code> lane&nbsp;3.5 bridge
+          record; House-Churches <code>experienceToday</code> (Dura-Europos, Yale).</div>
+      </div>
+    </article>
+
+    <!-- SCENE III -->
+    <article class="scene" id="scene-3">
+      <div class="scene-head" style="background:color-mix(in srgb, var(--era-2) 50%, var(--vellum))">
+        <p class="scene-numeral">Scene III</p>
+        <h2>Arriving at a world: the Desert</h2>
+        <p class="stage">The participant follows the Africa river south out of Alexandria
+          and zooms to a single world: Desert Monasticism, c. 320&ndash;430&nbsp;CE.</p>
+      </div>
+      <div class="scene-body">
+        <div class="beat">
+          <h4>What the participant just did</h4>
+          <p>Dragged the sheet upward (the camera runs south along the Africa lane, but
+          only because their finger pulled it), then zoomed once more. The Nile-fed green
+          of Alexandria's reach thins; the ground under the river warms from parchment
+          toward bare ochre. They have crossed from Era&nbsp;I into Era&nbsp;II, and from a
+          city into a desert, and both crossings happened in the art before any label
+          said so.</p>
+        </div>
+        <div class="beat">
+          <h4>On screen</h4>
+          <p>The tributary they followed is the census's own <code>formed</code> edge,
+          dashed for <i>Widely Accepted</i>:</p>
+          <blockquote>The desert movement grew in Alexandria's shadow; Athanasius of
+          Alexandria wrote the Life of Antony that carried it to the world.</blockquote>
+          <p>Where the tributary arrives, the world itself sits on the landscape &mdash;
+          and here is this draft's proposed answer to what a world looks like sitting on
+          the terrain <span class="proposed">Proposed</span>: a world is drawn the way
+          the old <i>mappae mundi</i> drew cities &mdash; a small architectural vignette
+          at the riverbank, an illuminated site-mark, unmistakably a place made for
+          people. For the Desert, the vignette is drawn from the real place the census
+          already cites:</p>
+          <blockquote>The Monastery of Saint Anthony, Eastern Desert, Egypt &mdash; a
+          Coptic Orthodox monastery grown up around Antony's own cave, still inhabited,
+          open to visitors.</blockquote>
+          <p>Walled enclosure, cave mouth in the cliff behind, drawn solid in iron-gall
+          with an ochre wash. Beside the vignette, at full pigment because this world is
+          Built&nbsp;&amp;&nbsp;Live, sits Papnoute's locked world emblem &mdash; the
+          cracked jug.</p>
+        </div>
+        <div class="beat">
+          <h4>The hinted presence &mdash; anti-ghost, kept</h4>
+          <p>No monk is depicted. At the cave mouth: a woven rope basket, mid-weave, set
+          down. A water jug in the shade. A worn footpath from the enclosure gate to the
+          river, drawn as real desert paths look &mdash; made by decades of feet. The path
+          is the boldest single stroke in the vignette. People are everywhere in this
+          picture; none of them are shown, and none of them are ghosts.</p>
+        </div>
+        <div class="beat">
+          <h4>Text and data on screen</h4>
+          <p>Hover gives the glimpse card the product already knows everywhere: name,
+          dates, region, status (<i>Open for conversation</i>), and &mdash; because the
+          census flags <code>living: true</code> &mdash; the living-tradition chip. Click
+          gives the full panel: the world's real tile text
+          (<i>"communities who left settled village life to wage a lifelong combat
+          against the thoughts that trouble a person from within"</i>), the real voices
+          (Antony the Great, Pachomius, Amma Syncletica, Evagrius Ponticus, John
+          Cassian), and the honest sourcing line the census already discloses on its
+          tile: <i>"Small corpus, deep on inner combat."</i> Also on the panel, drawn as
+          small downstream course-lines: where this river goes &mdash;
+          <code>transmitted to</code> the Bethlehem Circle (<i>"Jerome and Paula toured
+          the Egyptian ascetic settlements"</i> &mdash; Documented, solid) and
+          <code>formed</code> Byzantine monasticism (<i>"Basil visited Egypt; the whole
+          Greek monastic tradition claims the desert as its root"</i> &mdash; Documented,
+          solid). One tributary in; all later monasticism out. The picture says it before
+          the prose does.</p>
+        </div>
+        <div class="beat">
+          <h4>Alive, without moving</h4>
+          <p>Evidence of use at full strength: the basket mid-weave, the path worn deep,
+          the jug in the shade at what is plainly the hot hour. And this vignette lives
+          at <b>white noon</b>, the one era-scene on the sheet lit mercilessly from above,
+          because that is the desert's true weather and it makes the cave's shade legible
+          as mercy. Stillness here is not a compromise &mdash; it <i>is</i> the content.
+          This is the one world whose whole discipline was learning to sit still in a
+          cell, rendered by a map that has, itself, learned the same.</p>
+        </div>
+        <div class="grounding"><b>Grounding</b><code>desert-monasticism</code> full
+          record (tile, voices, sourcing, living flag, experienceToday); edges
+          <code>alexandria-catechetical &rarr; desert-monasticism</code>,
+          <code>desert-monasticism &rarr; hieronymian-ascetic-literary</code>,
+          <code>desert-monasticism &rarr; iconophile-byzantine-monasticism</code>, notes
+          verbatim; world-icon spec (Papnoute &middot; cracked jug, locked).</div>
+      </div>
+    </article>
+
+    <!-- SCENE IV -->
+    <article class="scene" id="scene-4">
+      <div class="scene-head" style="background:color-mix(in srgb, var(--era-2) 50%, var(--vellum))">
+        <p class="scene-numeral">Scene IV</p>
+        <h2>The quiet mark: hovering a real tension, then opening it</h2>
+        <p class="stage">Era&nbsp;V, "The High Medieval Era," 1054&ndash;1300. The
+          participant notices a small mark between two rivers and pauses on it.</p>
+      </div>
+      <div class="scene-body">
+        <div class="beat">
+          <h4>What the participant just did</h4>
+          <p>Panned down the sheet three era bands &mdash; their own long, satisfying
+          drag through five centuries &mdash; and stopped where the Greek East &amp;
+          Orthodoxy river and the Latin West &amp; Catholicism river run close. Between
+          <b>The Byzantine Church after the Schism</b> (1054&ndash;1300) and <b>The Latin
+          Papal Church (Gregorian Reform to Innocent&nbsp;III)</b> (c. 1049&ndash;1300),
+          something small sits in the space between the two courses.</p>
+        </div>
+        <div class="beat">
+          <h4>The mark itself <span class="proposed">Proposed</span></h4>
+          <p>The interaction mark, everywhere on the sheet, is a <b>footbridge</b> &mdash;
+          a tiny iron-gall bridge glyph at the point where two rivers' stories actually
+          touched, because a bridge is where people cross, and interaction, in Mark's own
+          words, <i>"would be key."</i> The mark's modifiers are honest and quiet:</p>
+          <ul>
+            <li><b>Contemporary contact</b> (<code>contemporary with</code>): the bridge
+              whole.</li>
+            <li><b>Tension</b> (<code>in tension with</code>): the same bridge drawn
+              <b>open at the center</b> &mdash; a span with a gap. Still a bridge. Still
+              small.</li>
+            <li><b>Argument</b> (<code>argued against</code>): the open bridge with a
+              small book-glyph at one end &mdash; because in this census, nearly every
+              argument <i>is</i> a book, and the full panel will name it.</li>
+            <li><b>Confidence</b>: the bridge's linework goes solid/dashed/dotted exactly
+              as every other line on the map does.</li>
+            <li><b>Weight</b>: the mark grows only by an honest, computed property &mdash;
+              how many sourced edges meet at that crossing &mdash; never by an editorial
+              judgment of importance.</li>
+          </ul>
+          <p>No rapids. No storm. No red. The mark between Rome and Constantinople &mdash;
+          the largest estrangement on the entire sheet &mdash; is a broken footbridge a
+          few pixels wide, drawn solid because the record is <i>Documented</i>. Humble
+          transparency, not front and center.</p>
+        </div>
+        <div class="beat">
+          <h4>Hover (short)</h4>
+          <blockquote><b>The Great Schism</b> &middot; in tension &middot; Documented<br>
+          The Roman Church of the Reform Popes &harr; The Orthodox Church of
+          Constantinople<br>1054 &mdash; <i>and it was not as simple as one date. Click
+          for the record.</i></blockquote>
+        </div>
+        <div class="beat">
+          <h4>Click (full)</h4>
+          <blockquote>The Great Schism, in each side's own documents: Humbert's bull of
+          excommunication laid on the altar of Hagia Sophia (16 July 1054);
+          Cerularius's synodal condemnation of the legates the following week. Process
+          honesty: 1054 was symbolic and legate-to-patriarch, not church-to-church; the
+          1204 sack of Constantinople sealed the estrangement (scholars dating the real
+          rupture there &mdash; that reading Contested); the anathemas were mutually
+          lifted in 1965.</blockquote>
+          <p>The panel renders that note's own internal honesty visually: the 1054 line
+          solid, the "real rupture at 1204" reading dotted &mdash; the map keeps its
+          line-language even inside a single record. The last clause sits at the bottom
+          in the smallest honest type: <i>the anathemas were mutually lifted in 1965.</i>
+          Nine hundred years wide, and the record's own final word is a quiet un-saying.</p>
+        </div>
+        <div class="beat">
+          <h4>The counterweight, one band up</h4>
+          <p>So that the bridge-mark never reads as "the conflict symbol," the same mark
+          appears in Era&nbsp;II between the Cappadocian and Bethlehem-Circle courses
+          &mdash; <b>whole</b>, solid, Documented &mdash; for the census edge whose note
+          is simply: <i>"Jerome heard Gregory of Nazianzus teach in Constantinople and
+          calls him his teacher."</i> Most bridges on this sheet are whole &mdash; of 69
+          edges, 47 are formation and transmission, 6 are contact, 16 are tension or
+          argument. The landscape's own arithmetic is mostly gift.</p>
+        </div>
+        <div class="beat">
+          <h4>Alive, without moving</h4>
+          <p>The mark's aliveness is the maker's hand &mdash; it is <i>inscribed</i>, a
+          deliberate small act at a real crossing, with the slight press-weight of a nib
+          start and stop. The restraint itself reads as life: a still, small mark over a
+          nine-century wound is the visual grammar of a witness who was actually there
+          and does not need to raise their voice.</p>
+        </div>
+        <div class="grounding"><b>Grounding</b>edge <code>latin-papal-church-gregorian
+          &harr; byzantine-church-after-1054</code> (in tension with, Documented, note
+          verbatim); edge <code>cappadocian-nicene-pastoral-monastic-tradition &harr;
+          hieronymian-ascetic-literary</code> (contemporary with, Documented, note
+          verbatim); type/confidence counts computed from the census's own
+          <code>edges[]</code>.</div>
+      </div>
+    </article>
+
+    <!-- SCENE V -->
+    <article class="scene" id="scene-5">
+      <div class="scene-head" style="background:linear-gradient(120deg, color-mix(in srgb, var(--era-1) 45%, var(--vellum)), color-mix(in srgb, var(--era-3) 45%, var(--vellum)))">
+        <p class="scene-numeral">Scene V</p>
+        <h2>The river that keeps its bed: one lineage, Edessa to Xi'an</h2>
+        <p class="stage">The participant follows the easternmost river down the whole
+          sheet.</p>
+      </div>
+      <div class="scene-body">
+        <div class="beat">
+          <h4>What the participant just did</h4>
+          <p>Zoomed part-way back out &mdash; their choice, their hands &mdash; until
+          three era bands fit the frame, then panned slowly down the Syriac East &amp;
+          Asia lane at the sheet's eastern edge, riding one river across six centuries.</p>
+        </div>
+        <div class="beat">
+          <h4>On screen</h4>
+          <p>The longest single demonstration on the map of what <code>continuesAs</code>
+          means. The river never forks here and never ends here &mdash; it <b>keeps its
+          bed and changes its name</b>, four times, exactly as the census records:</p>
+          <ol>
+            <li><b>Syriac Christianity (Edessa/Nisibis)</b>, 200&ndash;410 &mdash; the
+              name lettered in italic along the course, as maps letter rivers.</li>
+            <li>At the reach where the record turns, a <b>boundary stone on the
+              bank</b> &mdash; this draft's proposed rendering of a
+              <code>continuesAs</code> seam <span class="proposed">Proposed</span>: a
+              small inscribed stone, dated, at the waterline; the old lettering ends, and
+              downstream the same river carries a new name: <b>Persian Church of the East
+              (early)</b>, to 451. The <code>formed</code> edge's note is on the stone's
+              hover: <i>"The School of Nisibis and the Persian church carry this
+              tradition's teaching directly onward after 410"</i> &mdash; Documented,
+              solid.</li>
+            <li>A second stone at 424 &mdash; the year the bishops of Persia declared
+              their catholicos answered to no bishop beyond their frontier &mdash; and
+              the name becomes <b>The Church of the East under Persia</b>,
+              424&ndash;651.</li>
+            <li>A third stone, and the name becomes <b>The Church of the East on the Silk
+              Road</b>, c. 635&ndash;845 &mdash; the reach the census itself calls
+              <i>"the map's longest single lineage line (Edessa to Xi'an)."</i></li>
+          </ol>
+          <p>The model for those boundary stones is not invented. It is the artifact this
+          very river ends at, credited like the wall label it deserves:</p>
+          <blockquote>The Xi'an Stele, erected 781, inscribed in Chinese and Syriac,
+          narrating a century and a half of what it calls the Luminous Religion in China
+          &mdash; the monument recording Christianity's first arrival in China. On
+          display in the Beilin Museum (the Forest of Steles), Xi'an.</blockquote>
+          <p>So the map's own seam-marker glyph is quietly derived from a real stone this
+          tradition actually carved to mark its own continuity.</p>
+        </div>
+        <div class="beat">
+          <h4>The honest fade</h4>
+          <p>The census grades this reach's sourcing plainly &mdash; <i>"spectacular
+          fragments (Xi'an stele, Dunhuang/Turfan texts) over long silent
+          stretches"</i> &mdash; and the art obeys: between the bright, solidly-drawn
+          points, the course's line relaxes toward the dashed and dotted registers. The
+          river is confident where the record is confident and candid where it is not. In
+          845 &mdash; the imperial edict against foreign religions, the movement's own
+          recorded end date for this window &mdash; the drawn course stops. Not a
+          dramatized drying-up; the inked line simply ends at the year the record ends,
+          with the stone that explains why.</p>
+        </div>
+        <div class="beat">
+          <h4>Alive, without moving</h4>
+          <p>This is the treasure-hunt scene. The aliveness is the <i>arrival</i>: after
+          two quiet, honest, dashed centuries of eastward course, the backdrop texture at
+          the river's end resolves into the stele's own carved surface &mdash; cross
+          rising above cloud and lotus, rendered as rubbing-texture in iron-gall, the way
+          Chinese steles have actually been read for centuries: by hand, with paper and
+          ink. Hands from 781.</p>
+        </div>
+        <div class="grounding"><b>Grounding</b><code>syriac-edessa-nisibis &rarr;
+          persian-church-of-the-east-early &rarr; the-church-of-the-east-under-persia
+          &rarr; the-church-of-the-east-on-the-silk-road</code> <code>continuesAs</code>
+          chain, all four records' dates/regions verbatim; Silk Road entry's sourcing
+          line and 845 end; Xi'an Stele from <code>experienceToday</code>.</div>
+      </div>
+    </article>
+
+    <!-- SCENE VI -->
+    <article class="scene" id="scene-6">
+      <div class="scene-head" style="background:color-mix(in srgb, var(--era-1) 45%, var(--vellum))">
+        <p class="scene-numeral">Scene VI</p>
+        <h2>Inside one world: the House-Churches, at deepest zoom</h2>
+        <p class="stage">The participant returns to the spring at the top of the map and
+          zooms all the way in &mdash; deeper than any scene so far &mdash; until one
+          world becomes its own small terrain.</p>
+      </div>
+      <div class="scene-body">
+        <div class="beat">
+          <h4>What the participant just did</h4>
+          <p>The final zoom depth. Out at full extent the Atlas was a landscape of
+          rivers; at era depth it was a band with courses and marks; at world depth it
+          was a site-vignette by a river. One deliberate pinch further, on a
+          Built&nbsp;&amp;&nbsp;Live world only, and the vignette <b>opens</b> &mdash; the
+          world becomes the whole frame, standing on its own ground, with its own
+          features, all drawn from that world's own construction record.</p>
+        </div>
+        <div class="beat">
+          <h4>On screen &mdash; the world's own terrain <span class="proposed">Proposed</span></h4>
+          <p>For Post-Apostolic House-Church Christianity, the deepest view is a quarter
+          &mdash; a few streets of a Roman-era neighborhood seen at rooftop height, drawn
+          solid in the manuscript register on the Era&nbsp;I ground. Its features are the
+          world's own <b>gravities</b>, exactly mirroring its finalized Gravity
+          Discovery's own proportions:</p>
+          <ul>
+            <li><b>The table (Liturgical Practice, Primary).</b> At the quarter's heart,
+              an ordinary dining room with the fourth wall open, drawn from the only kind
+              of building this world had &mdash; a house. A table laid: bread broken, the
+              shared cup (Chloe's locked emblem, here at last in its native size), a lamp.
+              The benches pushed back, not tucked in. Someone was just here.</li>
+            <li><b>The letter-roads (Translocal Correspondence Network, Primary).</b>
+              From the quarter's edges, roads lettered with real destinations &mdash;
+              Antioch, Smyrna, Corinth, Rome &mdash; and on the table by the door, the
+              network made object: letters, unfolded, creases showing. The record's
+              proudest small fact sits on hover: Polycarp bundling Ignatius's letters for
+              Philippi is <i>"a specific, directly attested transmission event, named by
+              the person who performed it, in his own surviving letter."</i></li>
+            <li><b>The smaller features, honestly scaled.</b> A workshop back-room fitted
+              with benches; above a bathhouse, a rented upper room with writing materials
+              &mdash; Justin Martyr's school. And present, but deliberately small and
+              unspotlit, the Supporting gravity of state pressure: a street door, solid,
+              closed, with a lamp burning behind its crack. That is the whole rendering.
+              The record underneath is one click away and does not flinch &mdash; Pliny's
+              interrogation, and the fact the world's own story inventory states plainly:
+              its single most granular detail of worship <i>"was extracted from two
+              enslaved women, called ministrae, under torture."</i> Present, honestly
+              findable, never a hook.</li>
+          </ul>
+        </div>
+        <div class="beat">
+          <h4>The art, and where it's drawn from</h4>
+          <p>The backdrop at this depth is the world's own real room &mdash; the
+          Dura-Europos house-church again, now at full legibility and full credit. The
+          rendering keeps Dura's plaster texture and earth palette; the label says what
+          is artifact and what is this project's own drawing, the way the world-icons
+          already flag documented, inference, or silent.</p>
+        </div>
+        <div class="beat">
+          <h4>Text and data on screen</h4>
+          <p>The full panel at this depth is the world's front door: the tile text, the
+          real voices (Ignatius, Clement of Rome, Polycarp, Justin Martyr &mdash; and the
+          census's own line, kept verbatim: <i>"the gatherings met in the homes of people
+          history did not bother to write down"</i>), the sourcing disclosure
+          (<i>"communal voice rich, individual interior voice thin"</i>), and the world's
+          existing actions &mdash; <b>Have an interview</b> / <b>Join a
+          conversation</b> &mdash; the same deep-link contract the product already keeps,
+          so the Atlas stays a door that opens both ways, never a dead end.</p>
+        </div>
+        <div class="beat">
+          <h4>Alive, without moving</h4>
+          <p>All three principles converge: evidence of use everywhere (the pushed-back
+          bench, the broken bread, the unfolded letters); lamplight as real weather (this
+          world met at night and before dawn); and the maker's hand in every line. No
+          person depicted, and yet the whole frame is warm with people.</p>
+        </div>
+        <div class="grounding"><b>Grounding</b><code>post-apostolic-house-church</code>
+          full census record (tile, voices, longDescription, sourcing,
+          experienceToday); the world's finalized Gravity Discovery (Liturgical Practice
+          and Translocal Network as Primary) and Story Inventory (Polycarp transmission,
+          Tier&nbsp;1; the Pliny/ministrae disclosure); locked icon spec (Chloe &middot;
+          shared cup).</div>
+      </div>
+    </article>
+
+    <!-- SCENE VII -->
+    <article class="scene" id="scene-7">
+      <div class="scene-head" style="background:color-mix(in srgb, var(--era-1) 45%, var(--vellum))">
+        <p class="scene-numeral">Scene VII</p>
+        <h2>The bottom edge: where the rivers leave the map</h2>
+        <p class="stage">The participant pans all the way down. The sheet ends. Some
+          rivers don't.</p>
+      </div>
+      <div class="scene-body">
+        <div class="beat">
+          <h4>What the participant just did</h4>
+          <p>One long pull downward, through the Missionary Era's cool band into the
+          Global Church Era's warm ground &mdash; the sheet ends on the same warmth it
+          began on, which is not an accident anyone needs explained to them. Then the pan
+          stops, because the parchment stops.</p>
+        </div>
+        <div class="beat">
+          <h4>On screen</h4>
+          <p>The bottom edge of the map, Era&nbsp;X, <i>"The center of gravity moves south
+          and east."</i> And the one place on the whole sheet where the rendering makes a
+          distinction the data has been carrying all along: the <code>living</code>
+          flag. Rivers whose windows closed in the past have ended, honestly, at their
+          recorded end-years upstream. But rivers the census marks living reach the
+          parchment's edge <b>still inked at full confidence &mdash; and run off it</b>.
+          The bank lines go to the deckle edge and stop only because the paper does. A map
+          can end; it would be a lie for the river to.</p>
+          <p>Along that edge, small and credited, the proof the census already carries in
+          its <code>experienceToday</code> fields &mdash; places where a participant
+          could stand, this year, in the current of something that entered the map's top
+          edge:</p>
+          <blockquote>The Monastery of Saint Anthony, Eastern Desert, Egypt &mdash;
+          grown up around Antony's own cave, still inhabited. <i>(The Desert's river:
+          entered the map c. 320.)</i><br><br>
+          Mor Gabriel Monastery, Tur Abdin &mdash; founded 397, still a working
+          monastery. <i>(The Syriac river: entered c. 200.)</i></blockquote>
+        </div>
+        <div class="beat">
+          <h4>Alive, without moving</h4>
+          <p>This scene is the thesis. Nothing here animates &mdash; and the stillness is
+          what makes the claim serious. A shimmering river says "an app is running." A
+          still river inked clean off the edge of a two-thousand-year map, next to a
+          label naming the real monastery where its water can be visited today, says what
+          the project actually believes: this is a visual way to see Jesus at work across
+          history and today &mdash; and <i>today</i> is not a special effect.</p>
+        </div>
+        <div class="grounding"><b>Grounding</b>era&nbsp;10 record (dates, tag, ground);
+          <code>living</code> flags and <code>experienceToday</code> entries for
+          <code>desert-monasticism</code> and <code>syriac-edessa-nisibis</code>.</div>
+      </div>
+    </article>
+
+    <section class="board-note" id="closing">
+      <h2>Closing &mdash; five headlines, offered for the open question</h2>
+      <p>What a "headline" would actually say &mdash; a punchier, more human framing
+      than a formal name &mdash; was left open. These five are offered as concrete
+      candidates, each derived from a real census line, none inventing a fact. They
+      would live where the formal name lives now, with the formal name one breath
+      beneath.</p>
+      <ul class="headline-list">
+        <li><p class="h">The church before it had buildings</p>
+          <p class="for">For &middot; Post-Apostolic House-Church Christianity</p>
+          <p class="derived">Derived from its own longDescription: "Christianity had no
+          buildings of its own&hellip; it had houses."</p></li>
+        <li><p class="h">They went out to fight what was inside</p>
+          <p class="for">For &middot; Desert Monasticism</p>
+          <p class="derived">Derived from its tile: "left settled village life to wage a
+          lifelong combat against the thoughts that trouble a person from within."</p></li>
+        <li><p class="h">One river, Edessa to Xi'an</p>
+          <p class="for">For &middot; The Church of the East on the Silk Road</p>
+          <p class="derived">Derived from its relationsSummary: "the map's longest single
+          lineage line (Edessa to Xi'an)."</p></li>
+        <li><p class="h">An empire that could turn on them</p>
+          <p class="for">For &middot; Era I, The Early Church Era</p>
+          <p class="derived">Trimmed directly from the era's own census tag.</p></li>
+        <li><p class="h">The church moves south</p>
+          <p class="for">For &middot; Era X, The Global Church Era</p>
+          <p class="derived">Derived from its tag: "The center of gravity moves south and
+          east."</p></li>
+      </ul>
+      <p style="font-size:.9rem;color:var(--ink-faded)"><span class="proposed">Proposed</span>
+      rule, if any of these survive review: every headline must be derivable from a line
+      already in the census or the world's own construction record &mdash; so the
+      punchier register never becomes a side door for unsourced claims.</p>
+    </section>
+
+    <div class="closing-note">
+      <p><b>What this draft deliberately does not do:</b> no tool is named, no
+      architecture sketched, no build increment proposed. The scenes above are pictures
+      to react to. Every choice marked <span class="proposed">Proposed</span> stands
+      ready to be kept, bent, or struck.</p>
+    </div>
+
+    <footer class="doclog">
+      <p><b>Document log &mdash; DRAFT, 2026-08-31.</b> First creative pass, produced by
+      a Fable-model session, building on the same day's divergent-phase capture. Sources
+      read in full before drafting: the Divergent Capture, the live
+      <code>world-census.json</code>, the Full UX Design's palette/typography/anti-ghost
+      sections, the existing Full UX Storyboard for voice precedent, and the
+      House-Churches world's own finalized construction records for Scene VI. Sandbox
+      only; touches nothing live; decides nothing.</p>
+    </footer>
+  </main>
+</div>
