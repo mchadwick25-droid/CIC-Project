@@ -869,7 +869,6 @@ touchpoints unchanged.
 
 ---
 
-<<<<<<< HEAD
 ## 2026-08-28 — Mark's identity ruling applied: the registry wins, and both
 name registers live in it
 
@@ -992,7 +991,9 @@ added to the reconciliation worksheet's day for the invoice tie-out.
 instrument that measures the real conversation. Stage-7 touchpoints
 (Mark's reads, freezes, registry transitions) are unchanged and remain
 the doors-open path.
-=======
+
+---
+
 ## 2026-08-28 — Foundation-audit moves 1–3 landed; prose inventory for Mark's read
 
 **On Mark's go** ("ok lets go") over the Foundation Audit's ranked plan,
@@ -1051,7 +1052,6 @@ privacy.html's deletion promise made mechanism-honest.
 Mark: (1) run or re-authorize the fleet re-verification battery (move
 1's last step); (2) read the prose inventory above — then trust-package
 merges; (3) the identity ruling (move 4's gate).
->>>>>>> claude/trust-package
 
 ---
 
