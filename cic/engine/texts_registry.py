@@ -671,6 +671,21 @@ ENTRIES: tuple[TextEntry, ...] = (
               "(Doc_02 sec 1.4) - the single most load-bearing text for this world's 'primary voice "
               "with no primary text' finding and for the female-voice question at the G2 identity "
               "decision."),
+    TextEntry("philostorgius_ecclesiastical-history_walford1855.txt", "Mark", "2026-08-31",
+              "Photius' Epitome of Philostorgius' lost Ecclesiastical History, trans. Edward Walford "
+              "(Bohn's Ecclesiastical Library, 1855) - supplied as a DOCX attachment (Roger Pearse's "
+              "tertullian.org transcription, 2002), converted mechanically via zip/XML text "
+              "extraction, same method as every other file vendored this session - no content "
+              "passed through model-generated output. Confirmed complete: all twelve books present "
+              "(Philostorgius' original does not survive independently - everything here is "
+              "Photius' hostile epitome), Walford's translator's Biographical Notice, Pearse's 2002 "
+              "note quoting Quasten's Patrology on manuscript transmission, and the full set of 241 "
+              "numbered footnotes, ending with the volume's own 'THE END'. Pearse's public-domain "
+              "declaration survives at the file's end, preserved rather than stripped; a "
+              "bibliographic header was prepended since the DOCX conversion carried none of its "
+              "own. This is the world's one surviving Eunomian narrative voice (Doc_02 sec 1.6) - "
+              "the project's rare control on the losing side's own frame, filtered through a hostile "
+              "epitomizer, a caveat this world's use of the text must carry forward."),
 )
 
 

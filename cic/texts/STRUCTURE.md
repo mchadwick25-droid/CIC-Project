@@ -3769,6 +3769,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 100,835 | 100,835 | palladius_paradise-v1-syriac_budge1907 |
 
+## `philostorgius_ecclesiastical-history_walford1855.txt`
+
+1 section(s) to level 2 · ~43,864 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 43,864 | 43,864 | philostorgius_ecclesiastical-history_walford1855 |
+
 ## `tacitus_annals-15-44_church-brodribb1876.txt`
 
 1 section(s) to level 2 · ~835 words of text · ~0 words of apparatus
