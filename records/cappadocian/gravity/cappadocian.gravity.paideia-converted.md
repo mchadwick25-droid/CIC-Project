@@ -69,7 +69,6 @@ manifestations:
 - the Libanius correspondence
 - the whole corpus's rhetorical fabric - the era's best rhetors trained on this same ladder
 - the anti-Eunomian method itself - logic disciplined by reverence against logic worshipped
-classification: supporting
 ---
 Re-derived from the cleared Doc_04 (candidate 3 -> final Gravity 4, per §4's concordance table). Interaction
 Matrix (§6, row/col 3): reinforcing (R) with Gravity 5 (martyrs' land - "the learned panegyric serves the

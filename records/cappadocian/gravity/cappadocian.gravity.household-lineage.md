@@ -84,7 +84,6 @@ manifestations:
 - Basil's own account of his formation inheritance - the grandmother's Thaumaturgan teaching
 - the sheer prosopography of the world's leadership - one family yielding three bishops, one didaskalos, one monk
 - against-the-grain controls, modest but real - the elder Gregory's own household (Nonna forming her Hypsistarian husband), enrolled widows and virgins implying household-based female estates
-classification: supporting
 ---
 Re-derived from the cleared Doc_04 (candidate 5 -> final Gravity 6, per §4's concordance table). Interaction
 Matrix (§6, row/col 5): reinforcing (R) with Gravity 1, Gravity 4 (paideia), Gravity 5 (martyrs), Gravity 7

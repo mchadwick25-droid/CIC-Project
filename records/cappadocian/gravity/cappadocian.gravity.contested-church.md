@@ -88,7 +88,6 @@ manifestations:
 - the provincial division of 372 and its ecclesiastical fallout
 - Or. 43's Valens material - the prefect's bench, the Epiphany visitation
 - the Nicene minority's long endurance to sudden establishment under Theodosius
-classification: primary
 ---
 Re-derived from the cleared Doc_04 (candidate 8 -> final Gravity 3, per §4's concordance table - candidate
 8 as generated at §1, tested at §3.1 as "The contested church under the contested empire"). Interaction

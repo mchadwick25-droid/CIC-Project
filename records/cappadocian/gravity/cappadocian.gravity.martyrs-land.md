@@ -72,7 +72,6 @@ manifestations:
 - the panēgyris calendar - fixed feast days kept year after year, market and liturgy sharing the same day
 - family relics - Emmelia acquiring and enshrining relics of the Forty at the family's own estate chapel at Annisa
 - festal homilies preached across multiple authors, generations after the events, on a real cult and calendar
-classification: supporting
 ---
 Re-derived from the cleared Doc_04 (candidate 4 -> final Gravity 5, per §4's concordance table). Interaction
 Matrix (§6, row/col 4): reinforcing (R) with Gravity 1, Gravity 2, Gravity 4 (paideia), Gravity 6

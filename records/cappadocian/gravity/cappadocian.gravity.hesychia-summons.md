@@ -72,7 +72,6 @@ manifestations:
 - Nazianzen's Oration 2, the flight narratives, De vita sua, the Sasima wound
 - Nyssen the unwilling administrator - Basil's own complaints of his brother's unfitness for office
 - Gregory of Nazianzus's resignation at Constantinople 381 - the tension's last documented act, walking away from the throne he had just been given
-classification: tensional
 ---
 Re-derived from the cleared Doc_04 (candidate 7 -> final Gravity 8, per §4's concordance table). Interaction
 Matrix (§6, row/col 7): reshaping (S) with Gravity 1, Gravity 2, Gravity 4 (paideia), Gravity 6 (household),

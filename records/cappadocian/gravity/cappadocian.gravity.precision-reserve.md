@@ -78,7 +78,6 @@ manifestations:
 - Or. 43's posthumous defense of the oikonomia
 - 381's pneumatological article cast in doxological form - "worshipped and glorified together with" rather than homoousios
 - the Theological Orations' own opening discipline of theological speech - not to everyone, not at all times
-classification: tensional
 ---
 Re-derived from the cleared Doc_04 (candidate 10, added and tested at Revision 1 -> final Gravity 9, per
 §4's concordance table). Interaction Matrix (§6, row/col 10): reshaping (S) with Gravity 1, Gravity 2,

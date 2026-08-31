@@ -91,7 +91,6 @@ manifestations:
 - the poverty homilies - famine, barns, usury - across Basil and Nyssen, and Nazianzen's On the Love of the Poor
 - the Vita's own formation narrative - household become community
 - the guest-door - renunciation aimed toward the poor instead of against the social bond
-classification: primary
 ---
 Re-derived from the cleared Doc_04 (candidate 2 -> final Gravity 2). Interaction Matrix (§6, row/col 2):
 reinforcing (R) with Gravity 1, Gravity 5 (martyrs' land), Gravity 7 (patron); reshaping (S) with Gravity 6

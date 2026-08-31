@@ -78,7 +78,6 @@ manifestations:
 - the dogmatic-polemical stream's double posture - dialectic wielded against Eunomius and dialectic-worship denounced
 - the money-changers complaint - hostile witness to marketplace dialectic
 - the Rules' own subordination of secular learning within the brotherhoods
-classification: tensional
 ---
 Re-derived from the cleared Doc_04 (candidate 12, added and tested at Revision 1 -> final Gravity 11, per
 §4's concordance table). Interaction Matrix (§6, row/col 12): reshaping (S) with Gravity 1, Gravity 2,

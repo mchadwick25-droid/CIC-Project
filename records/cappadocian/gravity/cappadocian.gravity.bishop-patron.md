@@ -78,7 +78,6 @@ manifestations:
 - Or. 43's public-Basil narrative - the Modestus confrontation, the Epiphany visitation
 - the canonical letters - discipline as governance
 - the poorhouse-hospital complex ("the new city") - permanent civic institution built from famine's occasion
-classification: supporting
 ---
 Re-derived from the cleared Doc_04 (candidate 6 -> final Gravity 7, per §4's concordance table). Interaction
 Matrix (§6, row/col 6): reinforcing (R) with Gravity 1, Gravity 2, Gravity 4 (paideia), Gravity 5 (martyrs),

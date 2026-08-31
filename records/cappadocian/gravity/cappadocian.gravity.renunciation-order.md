@@ -71,7 +71,6 @@ manifestations:
 - the Basil-Eustathius arc from collaboration to rupture
 - the canonical letters' discipline of ascetic irregulars
 - the homiletic record - renunciation preached and its excesses walked back
-classification: tensional
 ---
 Re-derived from the cleared Doc_04 (candidate 11, added and tested at Revision 1 -> final Gravity 10, per
 §4's concordance table). Interaction Matrix (§6, row/col 11): reinforcing (R) with Gravity 8 (hēsychia -
