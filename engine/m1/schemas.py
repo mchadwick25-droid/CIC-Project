@@ -199,6 +199,15 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # Story/Quote Template SS3) - not yet in COMPLETION_REQUIRED;
         # existing quote records validate unchanged without it.
         "modern_lens_note": {"type": "string"},
+        # The spoken form (process doc V1.2 line 143: "Quote records author
+        # their modern_rendering at birth... never the archaic original;
+        # the original stays as the record's text for Level 3"). Every
+        # already-admitted world's quote records already carry this field;
+        # schema was missing it, failing gate_schema_validation fleet-wide
+        # (hal 13, pahc 7, syr 18, ijc 6, alx 1, desert 10 findings, all
+        # solely this field, confirmed before this fix). Not yet in
+        # COMPLETION_REQUIRED - existing quote records validate unchanged.
+        "modern_rendering": {"type": "string"},
     },
     "figure": {
         "names": {
