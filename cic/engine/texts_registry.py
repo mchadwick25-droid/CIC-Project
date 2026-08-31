@@ -598,6 +598,26 @@ ENTRIES: tuple[TextEntry, ...] = (
               "if wanted. Pearse's own public-domain declaration survives at the file's end, "
               "preserved rather than stripped; a bibliographic header was prepended since the DOCX "
               "conversion carried none of its own."),
+    TextEntry("basil_ascetic-works-longer-shorter-rules_clarke1925.txt", "Mark", "2026-08-30",
+              "Basil of Caesarea, 'The Ascetic Works of Saint Basil', trans. W. K. L. Clarke, D.D. "
+              "(SPCK / Macmillan, 1925, Translations of Christian Literature Ser. I) - supplied as a "
+              "DOCX attachment (a scan of the School of Theology at Claremont / USC Library copy), "
+              "converted mechanically via zip/XML text extraction, same method as the Morison and "
+              "Nazianzen-invective files above - no content passed through model-generated output. "
+              "Closes the Nicene-Cappadocian world's single highest-priority remaining source gap: "
+              "the world's best window on the brotherhoods' own legislation (Doc_02 sec 1.1, sec 8). "
+              "Confirmed COMPLETE per its own table of contents - not just the two Rules, but the full "
+              "Ascetica: the scholarly Introduction, the Praevia Institutio Ascetica, the Sermo de "
+              "Renuntiatione Saeculi, the Sermo de Ascetica Disciplina, De Iudicio Dei, De Fide, the "
+              "MORALIA, THE LONGER RULES (Regulae Fusius Tractatae), and THE SHORTER RULES (Regulae "
+              "Brevius Tractatae). This is the GREAT Asketikon; the earlier, non-Greek SMALL Asketikon "
+              "(Rufinus' Latin, Syriac) remains unfilled and has no known open English translation. "
+              "RIGHTS: 1925 publication date clears this registry's own pre-1929 rule; independently "
+              "confirmed by the scan's own trailing library catalog card (preserved at the file's "
+              "end), which gives author, translator, publisher, and date verbatim. Clarke also "
+              "translated this project's already-vendored palladius_lausiac-history_clarke1918.txt, "
+              "and (per this book's own back-cover listing) 'The Life of St. Macrina' - a separate, "
+              "still-needed acquisition for this world."),
 )
 
 

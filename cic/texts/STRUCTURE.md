@@ -662,6 +662,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 12,564 | 12,564 | aphrahat_demonstrations-2-7_hallock1932 |
 
+## `basil_ascetic-works-longer-shorter-rules_clarke1925.txt`
+
+1 section(s) to level 2 · ~137,516 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 137,516 | 137,516 | basil_ascetic-works-longer-shorter-rules_clarke1925 |
+
 ## `chronicle-of-edessa_cowper.txt`
 
 1 section(s) to level 2 · ~7,960 words of text · ~0 words of apparatus
