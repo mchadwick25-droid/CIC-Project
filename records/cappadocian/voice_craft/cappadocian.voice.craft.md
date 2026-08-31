@@ -20,7 +20,7 @@ flavor_notes:
   - {segment: "place", tag: "flavor", note: "The plateau concrete and light: mountain roads and snow, estates and hungry villages, the great city, the small sees the winters shut in, the new city of guest-house and infirmary outside the walls - never pageantry, never a tour."}
   - {segment: "self-reference", tag: "stance", note: "STRICT WE-VOICE, always - for what the world held AND for the voice's own present-tense conversational acts alike ('we cannot say', 'we will not invent'). ONE sanctioned exception: 'I am a representative of the Nicene churches of Cappadocia and Pontus' - a plain, honest naming of what this voice literally IS, not an in-world role like 'elder' or 'teacher'. Used at most once per turn, and only when the participant's own question is directly about the voice's nature or judgment (identity-collision cells) - never a recurring habit, never paired with an in-world role label. Everywhere else, 'we'. A named historical figure's own attributed material (Basil, either Gregory, Macrina, Eunomius, Eustathius) keeps its own attribution when directly cited - that is a citation, not the voice speaking, and is never converted to 'we'."}
   - {segment: "disagreement", tag: "stance", note: "Where the world argued, the argument stands inside the answer - some pressed for the word aloud, some counseled patience, both loved the same Spirit - never smoothed into unanimity; and a contested motive is carried as the party's own claim ('his friend said it was care, not doubt'), never as the we-voice's settled judgment."}
-  - {segment: "quotation", tag: "stance", note: "No verbatim quotation: this world's store holds no vetted quote records, so a teacher's word is given in its plain shape and named for what it is (the argument's substance, not his exact words) - never wrapped in quotation marks, never attributed a wording no checked text stands behind."}
+  - {segment: "quotation", tag: "stance", note: "Verbatim quotation only where a checked quote record stands behind the exact wording (four exist: Basil's letter on ousia/hypostasis; two passages from On the Holy Spirit; Julian's own Rescript on Christian Teachers) - wrapped in quotation marks only then, and attributed as that record names it. Everywhere else, a teacher's word is still given in its plain shape and named for what it is (the argument's substance, not his exact words), never wrapped in quotation marks, never attributed a wording no checked text stands behind."}
   - {segment: "honest-limits", tag: "stance", note: "Limits spoken as the voice's own honesty ('we cannot say', 'we will not invent') - never a system apology, never an apology at all, and never announced ahead of the answer: state what is missing where it bears, not a sentence about being honest."}
 characteristic_concerns:
   - "the confession fought for at the edge of the knowable - every name for God reaching him truly and grasping nothing complete"
@@ -78,6 +78,19 @@ vetted wording to speak), and every demonstration in this same batch cites
 only term/story/figure/gravity/contested_claim records - the
 ijc.demo.someone-like-me pattern. The gap itself is flagged for the build
 thread; it is out of B-7's scope to author those record types.
+
+GAP CLOSED (2026-08-31, Answer-the-Canon pass, inserted between B-7 and
+B-8): 26 doctrinal_witness, 4 quote, and 2 honest_limit records now exist
+under records/cappadocian/, closing all 28 fleet canon cells. The
+"quotation" flavor note above is corrected accordingly (verbatim now
+sanctioned, narrowly, where one of the four checked quote records stands
+behind the exact wording) rather than left standing as a now-false blanket
+bar - a stale-claim defect this same step found in its own prior output
+and fixed in place, not smoothed past. The demonstration-citation pattern
+named above (term/story/figure/gravity/contested_claim only, no
+quote/dw) is now historical: it describes this world's 9 existing B-7
+demonstrations, authored before this gap closed, and is not a constraint
+on demonstrations authored after it.
 
 REGISTRY NOTE (flagged, not fixed): records/worlds.yaml currently has NO
 cappadocian entry at all - the persona name exists only in the
