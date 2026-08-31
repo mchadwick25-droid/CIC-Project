@@ -13,6 +13,57 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-31 — Research/ideation thread: "Atlas reimagined" (game-grade visuals, linking, sourcing) — explores, does not build
+
+**Origin.** Mark's own words: *"the atlas/map we have is good, but i want to
+explore the idea of better graphics, linking and sourcing as a way to help
+people see the big picture and not get overwhelmed... i am thinking updated
+age of empire details, or even other games that have these interactive worlds
+that each have features and connect with eachother."* A pure research/ideation
+launch — no code changed, no census edited, nothing decided.
+
+**Output:** `Design/CiC_Atlas_Reimagined_Research_and_Ideas_V0_1_DRAFT.md`.
+Reads `atlas-v3.html`/`world-census.json` as they actually stand (already a
+sourced connection map with hover-trace lineage, typed/confidence-coded edges,
+and a full relational click-sheet — richer than the brief's framing implied),
+checks `records/alx/` and `records/pahc/` for real, sourced cross-world
+connections the current five edge types can't yet express (a shared source
+both worlds cite independently — Eusebius's *Historia Ecclesiastica*; a shared
+figure cited for unrelated reasons — Athanasius's Festal Letter 39 inside
+pahc's own canon record; a documented "adjacency without asserted contact" —
+`pahc.force.alexandria-emergence`), surveys strategy-game campaign maps
+(Crusader Kings III, Age of Empires IV, Civilization's tech tree, branching
+roguelike maps) and closer non-game analogues (Stanford ORBIS, Pelagios/
+Peripleo, museum interactive-timeline design, NYT/Pudding-style
+scrollytelling) for mechanism rather than aesthetics, and returns an idea
+portfolio organized whole-story → era → world → a world's own features
+(gravities/figures/sources/stories, the corpus's own ontology under
+`records/<world>/`).
+
+**Two things flagged for Mark's own read, not settled here:** (1) every idea
+is checked against the anti-ghost principle (scoped to figures, not map
+chrome) and the stillness/reduced-motion posture (motion rare and meaningful,
+never ambient) named in `CiC_Full_UX_Design_V1_0.md`, with any idea that would
+add real motion or bend either rule named explicitly rather than assumed
+clear; (2) the document is explicit that a "these worlds connect" map feature
+must never visually merge two different things this project already keeps
+distinct — a *sourced historical relationship* (the census edge) and the
+Facilitator's own *conversational-contrast* judgment for Table seating
+(`CiC_Table_Pairings_V1_2026-08-28.md`'s C6 record, whose own no-foreknowledge
+rule states historical acquaintance "no longer matters to the mechanics").
+
+**Heart of it:** the brief's own gap is comprehension at scale, not missing
+sourcing or missing connections — both already exist in more depth than the
+brief's framing assumed. "Game-grade" should buy a navigable hierarchy over
+what's already sourced, not more content or ambient visual motion.
+
+### Next action
+
+Mark's read of the document. Nothing here is authorized to build; any idea
+that moves forward needs its own launch thread.
+
+---
+
 ## 2026-08-27 (Pass 6) — census 274→292, added by the CORPUS rather than by a Step 0 gate; the pile bar, Mark's override of it, and the Lactantius split
 
 **This entry exists because eighteen movements entered the census without one
