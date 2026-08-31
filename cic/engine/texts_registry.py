@@ -618,6 +618,19 @@ ENTRIES: tuple[TextEntry, ...] = (
               "translated this project's already-vendored palladius_lausiac-history_clarke1918.txt, "
               "and (per this book's own back-cover listing) 'The Life of St. Macrina' - a separate, "
               "still-needed acquisition for this world."),
+    TextEntry("gregory-nazianzen_second-invective-against-julian_king1888.txt", "Mark", "2026-08-30",
+              "Gregory Nazianzen, Oration 5 (Second Invective Against Julian), trans. C. W. King, from "
+              "'Julian the Emperor' (Bohn's Ecclesiastical Library, 1888) - supplied as a DOCX "
+              "attachment (Roger Pearse's tertullian.org transcription), converted mechanically via "
+              "zip/XML text extraction, same method as the companion Oration 4 file above - no "
+              "content passed through model-generated output. Completes the pair the Nicene-"
+              "Cappadocian world's Source Acquisition Manifest asked for: gregory-nazianzen_first-"
+              "invective-against-julian_king1888.txt (Oration 4) plus this file (Oration 5) together "
+              "cover both orations NPNF2 vol. 7's Select Orations volume omits. King's volume also "
+              "carries Libanius' Monody on Julian, not supplied in either file and still an open "
+              "acquisition if wanted. Pearse's own public-domain declaration survives at the file's "
+              "end, preserved rather than stripped; a bibliographic header was prepended since the "
+              "DOCX conversion carried none of its own."),
 )
 
 

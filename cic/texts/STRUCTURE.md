@@ -702,6 +702,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 30,490 | 30,490 | gregory-nazianzen_first-invective-against-julian_king1888 |
 
+## `gregory-nazianzen_second-invective-against-julian_king1888.txt`
+
+1 section(s) to level 2 · ~13,088 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 13,088 | 13,088 | gregory-nazianzen_second-invective-against-julian_king1888 |
+
 ## `lucian_works-vol4-peregrine_fowler1905.txt`
 
 1 section(s) to level 2 · ~78,209 words of text · ~0 words of apparatus
