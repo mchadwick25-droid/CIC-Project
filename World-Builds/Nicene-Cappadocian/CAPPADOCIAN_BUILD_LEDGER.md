@@ -1,7 +1,7 @@
 # Cappadocian Build Ledger
 ## Record-Native World Build Process V1.2 — recovery, audit, and gate status
 
-**Read this first if resuming.** This world is being recovered and audited per V1.2 Appendix C item 3 ("the Cappadocian orphan"), not built fresh. Current position: **Doc_01, Doc_02, Doc_04, and Doc_06 have each been revised and independently re-checked (§7 below) — Mark asked for these four fixed, and they are, as far as three rounds of review can establish.** G2 stands unchanged. **G1 is still formally REOPENED**, awaiting Mark's actual look at the corrected scope and manifest (§5, §7) — the fixing is done; his re-confirmation is not, and nothing proceeds past it on this session's own authority. Cost envelope approved in principle but the review/rework lane ran past its original estimate (§4). One real handoff is still outstanding regardless: Mark's own download of the manifest files into `cic/texts/` (this session cannot fetch them) — hold this until the manifest is re-confirmed, since earlier versions of two rows pointed at the wrong content (both now fixed).
+**Read this first if resuming.** This world is being recovered and audited per V1.2 Appendix C item 3 ("the Cappadocian orphan"), not built fresh. Current position: **Doc_01, Doc_02, Doc_04, and Doc_06 have each been revised and independently re-checked (§7 below) — Mark asked for these four fixed, and they are, as far as three rounds of review can establish.** G2 stands unchanged. **G1 was RE-CONFIRMED by Mark, 2026-08-31** ("yes, re-confirm G1 on the corrected scope, go ahead"), on the corrected Part A scope argument and Part B manifest — see §9. All eight originally-needed manifest downloads plus two bonus acquisitions are vendored, rights-verified, and registered in `cic/texts/` (Mark supplied every file directly; this session's egress policy blocked fetching them itself). Cost envelope approved in principle; the review/rework lane ran past its original estimate (§4). Next work: Doc_02's conversion into the CF V7.4 Source Registry Template, per the manifest's own closing sequence — now unblocked, in progress.
 
 ---
 
@@ -33,7 +33,7 @@ Built as a **single unattended Fable run**, forked from `CiC-Fable-Experiment`, 
 
 | Gate | Status | Artifact |
 |---|---|---|
-| G1 — Scope & Sources | **REOPENED, 2026-08-30** — the approved scope argument and one manifest row were found materially wrong by independent review; corrected versions await Mark's actual re-confirmation, not carried over from the first approval | `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` |
+| G1 — Scope & Sources | **RE-CONFIRMED, 2026-08-31** — Mark re-confirmed the corrected Part A scope argument and Part B manifest directly ("yes, re-confirm G1 on the corrected scope, go ahead"), after the 2026-08-30 reopening found and fixed real errors in the first approval. All sourcing complete — see §9 | `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` |
 | G2 — Representative identity | **DECIDED, 2026-08-30, standing** — Option 1 (Eumathios, guest-door elder); Option 2 left open, not foreclosed, not built now. Not reopened — the identity reviews didn't touch this decision's own reasoning | `cappadocian_Representative_Identity_Options.md` |
 | G3 — Bar read | not reached | — |
 | G4 — Article 29 | not reached (carried `provisional`, unchanged) | — |
@@ -97,3 +97,25 @@ Three fresh-context Opus review agents ran after the first G1/G2 approval: one o
 ## 8. Model routing note specific to this recovery
 
 Doc_10's existing voice-construction reasoning (Section 2's eloquence calibration, the ventriloquism risk) is genuinely good analysis and should inform the Phase B-7 rebuild rather than being discarded — but the rebuild itself is Fable's lane per the pinned routing (voice construction, Doc_10 + B-7), run against the register bar's approved sample, not against the V3.1-era RCF template alone.
+
+## 9. Sourcing completed and G1 re-confirmed (2026-08-31)
+
+Between the 2026-08-30 reopening and this entry, Mark supplied every remaining row on the manifest's "Still genuinely needed" download list directly, as DOCX attachments, one at a time. Each was independently verified against what the manifest asked for before vendoring (catching two real mismatches along the way — see below) — not vendored on the strength of the filename or Mark's description alone.
+
+**All eight originally-needed downloads closed:**
+1. Basil's Ascetic Works (complete Longer/Shorter Rules, Clarke 1925) — confirmed complete against its own table of contents; an earlier manifest claim that the Moralia was excluded was wrong and corrected.
+2. Gregory Nazianzen's Orations 4 and 5 (both Invectives Against Julian, King 1888) — both supplied, both confirmed complete.
+3. The Life of St. Macrina (Clarke 1916) — the first upload turned out to be Clarke's introduction only (confirmed by its own site-navigation footer); flagged honestly rather than vendored as the whole work; Mark then supplied the complete narrative in a second, larger upload, confirmed complete by content (runs through Macrina's death, funeral, and the volume's own colophon). The introduction-only file was kept, not deleted, and marked superseded.
+4. Photius' Epitome of Philostorgius (Walford 1855) — confirmed complete: all twelve books, the translator's Biographical Notice, and the full 241-entry footnote set.
+5. Eunomius' First Apology (Whiston 1711, Pearse's Vaggione-numbered re-edition) — confirmed complete: chapters I–XXVIII (including the appended Confession of Faith as ch. XXVIII) and all 23 footnotes.
+6. Julian's Letter to the Athenians (Wright 1913) — confirmed complete against its own cited Loeb pagination and all 39 footnotes.
+7. Julian's Rescript on Christian Teachers (Wright 1923, Ep. 36) — the upload supplied for this row turned out to carry a much larger file, Letters 1–73 of Wright's collection; Letter 36 confirmed present and complete in its correct sequence, and the whole 73-letter file was vendored (not narrowed to one letter) since the other 72 are a genuine, separately citable acquisition. Noted honestly that this is not the complete Works vol. 3 (the file's own footnotes reference later letters not included).
+8. Basil's Address to Young Men (Padelford 1902) — confirmed complete: the translator's Outline, all ten chapters plus closing paragraph, and the full 68-entry footnote set. One honesty note carried into the file and the manifest: Pearse's own page doesn't name the translator inline, so that attribution rests on the manifest's own citation, not a title page in the file.
+
+**Two bonus acquisitions, not on the original list:** Morison's *St. Basil and His Rule* (1912, a secondary study, supplied when Mark's first Basil-related upload turned out not to be the Ascetic Works itself) and Julian's Letters 1–73 (bonus content riding along with item 7 above).
+
+Every file is registered in `cic/engine/texts_registry.py` with rights independently confirmed Public Domain, and `cic/texts/README.md`/`AUTHORS.md`/`STRUCTURE.md` regenerated after each addition. Full per-file detail is in each `TextEntry`'s own notes field and in the manifest's own per-row updates.
+
+**Mark then re-confirmed G1** directly: "yes, re-confirm G1 on the corrected scope, go ahead." This closes the escalation opened in §5 — the corrected Part A scope argument and Part B manifest now carry his actual re-look, not an assumption that the first approval survived the reviews that reopened it.
+
+**Next:** per the manifest's own closing sequence and CF V7.4 Step 2, Doc_02's conversion into the Source Registry Template (`L3B-World-Build-Methodology/Source_Registry_Template.md`) — a new companion document, not a rewrite of Doc_02's own narrative, built from the sources Doc_02 already discusses now that they are vendored and checkable.
