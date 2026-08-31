@@ -195,3 +195,51 @@ worlds:
       location: "packages/ijc/2026-08-30T11-03-44Z"   # LEXICON LABEL PASS recompile 2026-08-30 (Mark: plain meaning first, the world's own word after it as a label; fleet rollout after his pahc read): homoousios, homoios, concilium, primatus, Tomus labeled; remaining words skipped honestly (no grounded home in the spoken corpus). Prior pin: packages/ijc/2026-08-30T02-23-32Z. That pin's note: FIVE-WORLD TRANSPARENCY READ recompile 2026-08-30 (Mark: "go ahead with the change order and the five world read"; V1.2 birth condition applied to the existing fleet): tome-that-would-not-bend +C-T. Honest empties recorded in the decision log. No spoken text changed except where noted. Prior pin: packages/ijc/2026-08-30T01-10-10Z. That pin's note: BAR SWEEP recompile 2026-08-30 (Mark: "much better thats the bar" - Ministry/Technology/CiC_Register_Bar_2026-08-29.md): every flagged spoken field in this world swept to the approved sample - short sentences, everyday words; quotes character-exact; renderings at the bar. Tag census verified against a pre-sweep baseline build: no grounding losses. Prior pin: packages/ijc/2026-08-29T21-29-44Z.
     thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
     living_tradition_flag: true   # NOT yet a determination - Living Tradition Status is PENDING Mark's own confirmation (Doc_01 SS1; Constitution Art. 29). Set true meanwhile so the doorway carries the living-tradition distinction (fail toward disclosure, same direction the alx entry documents): this world's Strand A content runs directly into the present-day papacy's own claimed lineage, Strand B's into Eastern Orthodoxy's self-understanding.
+  cappadocian:
+    kind: formation
+    world_id: nicene-cappadocian
+    display_name: "Nicene-Cappadocian Christianity"
+    time_window: {start: 325, end: 394}
+    place: "Cappadocia and Pontus"
+    doorway_place: "Cappadocia and Pontus"
+    doorway_description: >-
+      In the fourth century, the churches of Cappadocia and Pontus fought to
+      defend the faith declared at Nicaea - one God, three who truly are.
+      Basil of Caesarea, his friend Gregory of Nazianzus, and his brother
+      Gregory of Nyssa became this world's most remembered voices, but the
+      faith they defended was lived by a whole people: households and
+      congregations, and communities newly ordered into a common life built
+      around a door kept open for the poor. The same exactness that shaped
+      the church's confession also shaped its care - a famine-born complex
+      outside Caesarea fed, housed, and nursed the destitute and the sick.
+      The story runs from the years after the last persecutions to the
+      deaths of this founding generation, under emperors who alternately
+      protected and opposed the Nicene faith. It closes with that faith's
+      own vindication, and more than a decade spent living inside the
+      victory.
+    # card_name: this world's own build never settled a participant-facing
+    # friendly name (unlike hal/pahc/syr/ijc/desert/alx, whose card_names
+    # were each an explicit prior decision). PROPOSED here, not ruled:
+    # "The Cappadocian Churches" rather than "The Cappadocian Fathers" -
+    # deliberately, since this build's own voice_craft record and
+    # Facilitation Brief (B7) both went to real trouble to carry the
+    # community as a composite whole-people witness, not a three-named-men
+    # unit, and to name "the loosened 'Cappadocian Fathers' unit" as a
+    # historical-framing caution in its own right. A three-men card name
+    # would quietly re-tidy the exact flattening this build corrected.
+    # Mark's call to confirm or change, same as every other world's card_name.
+    card_name: "The Cappadocian Churches"
+    representative: {name: Eumathios, role_label: "Elder of the Brotherhoods"}   # sanctioned fabrications (spec principle 14); name/role established earlier this session (M1) - Facilitation Brief line 4: "Eumathios (an elder of the brotherhoods who keeps the guest-door)". role_label here compressed to the fleet's own terse style (cf. hal's "Widow of the Household", desert's "Abba (Elder)"); the guest-door detail lives in the doorway/introduction copy instead, not the registry role_label itself.
+    census_id: null   # not an Atlas entry yet - this world is not admitted
+    thinness_statement: "Richest in the letters, orations, and treatises of Basil, Gregory of Nazianzus, and Gregory of Nyssa; thinner on women's own words (none survive in their own hand), the plateau's non-elite and non-Greek-speaking faithful, the enslaved (never heard in their own voice despite one preacher's own sharp protest against the institution), and the defeated parties (Eustathius, the Homoian church, the Eunomian movement) who survive almost only inside their opponents' polemic."
+    living_tradition_flag: true   # Article 29/M2 CONFIRMED, 2026-08-31 (CAPPADOCIAN_BUILD_LEDGER.md SS13, Mark in session: "Confirm as drafted") - not provisional-toward-disclosure like several sibling entries above; this is the fleet's own broadest confirmed correspondence (Eastern Orthodoxy, Oriental Orthodoxy, Roman Catholicism, and nearly all Protestant/global Christianity, via the shared Nicene-Constantinopolitan creed), with four documented divergences named at the same determination.
+    # state and package intentionally NOT set yet - this is the world's
+    # first-ever registry entry, added at B-8 (2026-08-31) specifically so
+    # engine.m2.compiler.compile_world can resolve a registry_entry at all
+    # (it hard-requires one; see CAPPADOCIAN_BUILD_LEDGER.md's own B-8
+    # section for the recon that established this). Per compiler.py's own
+    # documented discipline ("rebuild after the registry settles, never
+    # before"), this entry is committed on its own, THEN the first compile
+    # runs against that commit's real records_commit, THEN a follow-up
+    # commit adds state: built and the package: block once a real package
+    # exists - not invented ahead of a real compiled artifact.
