@@ -741,6 +741,20 @@ ENTRIES: tuple[TextEntry, ...] = (
               "prepended since the DOCX conversion carried none of its own. RIGHTS: independently "
               "cleared by the 1923 publication date alone (this registry's pre-1929 rule), on top of "
               "Pearse's site-wide declaration."),
+    TextEntry("basil_address-to-young-men_padelford1902.txt", "Mark", "2026-08-31",
+              "Basil of Caesarea's Address to Young Men on the Right Use of Greek Literature, trans. "
+              "Frederick Morgan Padelford (Yale Studies in English 15, 1902, per this world's own "
+              "manifest citation - Pearse's page itself does not name the translator inline) - "
+              "supplied as a DOCX attachment (Roger Pearse's tertullian.org transcription, 2002), "
+              "converted mechanically via zip/XML text extraction, same method as every other file "
+              "vendored this session - no content passed through model-generated output. Confirmed "
+              "complete: the translator's analytical Outline (ten numbered points plus a Conclusion), "
+              "the full address in chapters I through X plus its closing paragraph, and the complete "
+              "set of 68 numbered footnotes. Pearse's public-domain declaration survives at the "
+              "file's end, preserved rather than stripped; a bibliographic header was prepended "
+              "since the DOCX conversion carried none of its own. This closes the last item on this "
+              "world's Source Acquisition Manifest download list - covers Doc_02 sec 1.1's citation "
+              "directly and is not present in the vendored npnf208 volume."),
 )
 
 
