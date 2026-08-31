@@ -34,6 +34,8 @@ relations:
   target: cappadocian.term.eusebeia
 - type: associated-with
   target: cappadocian.term.philoptochia
+- type: associated-with
+  target: cappadocian.story.poorhouse-famine-month
 plain_meaning: During a famine, preachers named this vice directly. Barns were torn down to build bigger
   ones. Grain was held back for a higher price while children starved at the door. Interest was charged
   that ate away at the poor. The surplus, preachers said, was never really the hoarder's own.

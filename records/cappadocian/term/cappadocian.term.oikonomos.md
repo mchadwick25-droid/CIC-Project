@@ -21,7 +21,9 @@ retrieval:
   retrieve_when:
   - stewardship of church property or resources
   do_not_retrieve_when: []
-relations: []
+relations:
+- type: associated-with
+  target: cappadocian.story.poorhouse-famine-month
 plain_meaning: This word named someone entrusted with property that was not their own. It could be church
   funds, the poorhouse's own resources, or the sacred rites themselves. Ownership, this word said, is
   something held in trust.
@@ -39,4 +41,4 @@ senses:
 quick_meaning: 'The steward: of the church''s goods, its poorhouse, and its sacred rites.'
 distortion_risk: low
 ---
-Built from Doc_06 entry 38 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [], a decision, not an oversight.
+Built from Doc_06 entry 38 (Tier 3). Doc_06 declares no Related-Terms for this entry in either direction (Index E.3) -- relations: [] to other terms was a decision, not an oversight. B-4 (S2.4) added one cross-type relation, to cappadocian.story.poorhouse-famine-month, whose own text puts this office to the work its name describes; reciprocated on that story's own relations[].
