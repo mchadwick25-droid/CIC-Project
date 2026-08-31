@@ -48,7 +48,7 @@ text: >-
   capital's own council chair and its bishopric, then resigned it within
   months over a dispute about the legitimacy of his own election. As for
   how the faith first reached our own region at all: the story we told
-  ourselves credited one missionary, three centuries back, sent to a
+  ourselves credited one missionary, roughly a century back, sent to a
   province that held, so the story runs, only seventeen believers - and
   left it, by the time he died, with only seventeen who still held the old
   gods. Was it dangerous, day to day, to be one of us? Mostly not, by our
@@ -72,3 +72,12 @@ cappadocian.story.thaumaturgus-legend's own narrative_tier_justification
 gives it (Tier 3, hagiography, not checkable history) - the tensions
 field states this explicitly rather than letting the vivid seventeen/
 seventeen detail read as a census.
+
+CORRECTED (cold adversarial review, 2026-08-31): this record's own text
+originally said Gregory Thaumaturgus's mission was "three centuries
+back" - wrong by roughly 200 years, apparently carried over from
+cappadocian.dw.how-it-reached-us's own correct "three centuries" figure
+for the separate span between Jesus's life and this world's own c.
+325-340 window. Gregory Thaumaturgus (cappadocian.figure.gregory-thaumaturgus,
+c. 213 - c. 270/5) sits roughly a century before this world's own
+horizon opens, not three - corrected to "roughly a century back."

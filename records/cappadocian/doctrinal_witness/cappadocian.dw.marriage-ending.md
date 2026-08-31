@@ -27,6 +27,11 @@ sources:
 - source_id: cappadocian.story.macrina-refusal
   locus: "a broken engagement treated as still binding, for contrast"
   license: public-domain
+- source_id: cappadocian.source.basil-asketikon-longer-shorter-rules
+  locus: "Moral Rule LXXIII (a husband/wife not to separate save for adultery or hindrance to godliness)
+    and its rule 2 (neither the putter-away nor the one put away may marry another) - the equal
+    standard the canonical letters' own later, more lenient practice did not simply repeat"
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
@@ -63,8 +68,21 @@ grounded in Basil's own First Canonical Letter to Amphilochius (Epistle
 188), directly checked this session against the vendored npnf208 text for
 its digamy provisions (a year or more of penance, then full return) and
 its own named asymmetry between the standard applied to a departing
-husband and a departing wife, set against that same letter's own earlier
-Moral Rules holding both to one standard - a genuine internal tension in
-Basil's own writing, disclosed rather than smoothed. The "hell for
-outsiders" variant this cell also carries is honestly left unanswered
-here rather than forced onto unrelated material.
+husband and a departing wife, set against the Asketikon's own earlier
+Moral Rules holding both to one standard - a genuine internal tension
+across two distinct works in Basil's own corpus, disclosed rather than
+smoothed. The "hell for outsiders" variant this cell also carries is
+honestly left unanswered here rather than forced onto unrelated
+material.
+
+CORRECTED (cold adversarial review, 2026-08-31): this record's own
+"identical standard" claim (Moral Rule LXXIII and its rule 2, both
+directly checked against the vendored
+basil_ascetic-works-longer-shorter-rules_clarke1925.txt) was originally
+asserted with no citation to back it, and this trailer's own prior
+wording ("that same letter's own earlier Moral Rules") wrongly placed
+the Moralia inside Epistle 188 itself - two separate works within
+Basil's ascetic corpus, not one document with an earlier and later
+section. sources[] now cites cappadocian.source.basil-asketikon-longer-shorter-rules
+directly, and this note states the two-work relationship plainly rather
+than repeating the error.

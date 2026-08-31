@@ -28,7 +28,8 @@ sources:
   locus: "fully what the Father is, defended against the 'like' rival and Eunomius' claim alike"
   license: public-domain
 - source_id: cappadocian.source.gregory-nyssa-catechetical-oration
-  locus: "the ransom and debt argument for the incarnation and death (chs. 21-24)"
+  locus: "the ransom and debt argument for the incarnation and death (chs. 21-24); the physician/healing
+    argument runs separately, chs. 26-29"
   license: public-domain
 - source_id: cappadocian.term.parrhesia
   locus: "the purified conscience speaking to God as a friend speaks"
@@ -88,3 +89,12 @@ not asserted from memory. Reserve tension matches
 cappadocian.gravity.precision-reserve's own standing, unresolved
 disagreement, carried here rather than smoothed into a single verdict.
 Reciprocal relation declared on cappadocian.quote.ousia-and-hypostasis.
+
+CORRECTED (cold adversarial review, 2026-08-31): the locus originally
+cited only "chs. 21-24" for both halves of the text's atonement
+paraphrase ("a ransom paid, a debt settled, the physician entering our
+own sickness to heal it from inside"), but the physician/healing
+argument is a separate movement of Gregory's own text, running chs.
+26-29, not inside 21-24 - both ranges confirmed present in the vendored
+npnf205 text; the locus now cites them separately rather than
+implying one contiguous four-chapter span covers both images.
