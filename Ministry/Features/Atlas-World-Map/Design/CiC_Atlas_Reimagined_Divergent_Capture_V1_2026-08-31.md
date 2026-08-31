@@ -237,23 +237,139 @@ restated here only so this capture is self-contained:
    engagement quality, built on what's live — not the surrounding modules
    named in §5–6.
 
-## 11. Open threads, unresolved, worth returning to
+## 11. "Artistic and visually engaging" — a new named feature, unpacked
+
+Introduced fresh, mid-session, as its own requirement: *"i want this to be
+artistic and visually engaging."* Unpacked into two distinct halves, both
+confirmed as wanted together — **"both, evolve the manuscript feel but
+richer and more alive."** Not a replacement of the locked visual identity
+(parchment, iron-gall ink, the muted palette, Alegreya) — an evolution of it.
+
+**"Richer" — resolved to a concrete answer.** Subtle, real period art and
+architecture from the actual time period, used as background texture so a
+participant gets an immediate, beautiful visual cue for what era/time frame
+they're looking at, before reading any text — surfaced in cards and/or on
+hover, "to immediately connect." This closes the previously-open "what does
+'pictures' mean" thread from §14 below, and it does so inside the standing
+rule already on record (real period art or labeled reconstruction only,
+never invented AI-generated scenes) — fulfilling that rule rather than
+straining against it. Likely also answers most of "what does the terrain
+around the rivers look like" (§8) — the era-appropriate art/architecture is
+plausibly that terrain's own visual ground — though this wasn't stated
+explicitly and shouldn't be assumed settled.
+
+**"More alive" — clarified in two passes, and the second pass changed the
+first.**
+
+- First pass: real motion, subtle and rare, not ambient — with a heart
+  reason stated directly: *"they are not experiencing old dead worlds, but
+  getting a glimpse of life, theology and practices lived."*
+- Second, correcting pass: *"motion was the panning and zooming in and out,
+  the actual board doesn't need motion, the visuals don't need motion, the
+  art does need to capture alive."* So: **the only motion is
+  participant-driven navigation** (panning/zooming through the landscape) —
+  nothing on the board animates, no triggered vignettes, no moving marks.
+  "Alive" for the art itself is entirely a **still-image craft quality**, not
+  an animation.
+- This is a cleaner fit with the stillness posture than the first pass would
+  have been, and it fully dissolves the tension named earlier in this
+  document about rivers implying continuous flowing water — nothing on the
+  board moves, so that tension no longer applies.
+- Worth naming: participant-driven pan/zoom is categorically different from
+  the Living Table's rejected autonomous camera (that one moved *at* the
+  viewer; this one moves *because of* the viewer), and it isn't a new
+  technique — the current Atlas already does bounded pinch/pan/zoom on
+  mobile. This would make that the primary way of moving through the whole
+  experience, not a mobile-only accommodation.
+- **Still open, not resolved:** what actually makes a *still* piece of art
+  feel alive to Mark — style (loose/painterly vs. clean/precise), light and
+  color (warm/dramatic vs. even/flat), a carefully hinted human presence (a
+  hand, a shadow — bounded by anti-ghost), or some combination. Mark said
+  "maybe" to hinted presence, then moved on before fully weighing the other
+  two.
+
+## 12. A governing distinction surfaced this session — principle vs. implementation artifact
+
+Raised by Mark directly: *"if we use a better tool we don't want to be
+locked to the old system"* — and, once discussed, sharpened to a general
+stance rather than a specific rule to relitigate: *"the current build has a
+lot of sourcing and concepts, but we are not locked into anything as long as
+we get a better outcome."*
+
+**Worked example from this session, kept here as the model for future
+sorting:**
+
+- **A genuine principle (tool-independent, travels with any implementation):**
+  anti-ghost. Not a technical workaround — a deliberate claim about what
+  these figures should feel like (real people who lived, not spirits), which
+  actively *serves* "not old dead worlds... a glimpse of life... lived"
+  rather than fighting it. A better tool rendering a beautiful glow doesn't
+  change whether a glow is the right thing to render.
+- **An implementation artifact (tied to one rejected attempt, not a standing
+  rule against the idea itself):** the Living Table's "no camera" ruling —
+  that was about one specific autonomous camera, built and rejected because
+  it moved at the viewer. Participant-driven pan/zoom (§11) isn't bound by
+  that ruling; it's a different thing a better tool makes possible.
+
+**What this means going forward, in Mark's own words:** the sourcing, the
+honest connection model, and the concepts already validated this session
+(rivers, swim lanes, quiet interaction marks, pan/zoom navigation) are
+substance, not "the old system" — they travel forward regardless of tooling.
+What's genuinely open is execution. Not logged as a decision because it
+isn't one yet — recorded here as a working heuristic to keep applying as
+this exploration continues, so an old constraint isn't assumed to bind a new
+build without checking, each time, which kind of constraint it actually is.
+
+## 13. Standalone, plug-and-play module
+
+*"the only other thing is that it is a standalone module that plug and
+plays with multiple links in the system."* Consistent with, and sharpening
+into an actual architecture requirement, what was named loosely in §5 — the
+Atlas is not a dead-end page. It needs real link points **in both
+directions**: things linking into it (the homepage, a conversation,
+whatever else emerges later) and it linking out (into an interview, a
+Table, eventually a Tour). Noted in-session: this isn't a new idea for the
+project to hold — the current system already has a deep-link contract doing
+exactly this job (`?worlds=<id>&mode=interview`/`mode=table`, discovery
+surfaces never creating sessions themselves), and the project has already
+lived through a "one dataset, several surfaces" period once before. The ask
+is continuity of that discipline into whatever the Atlas becomes, not an
+invention from scratch.
+
+## 14. Open threads, unresolved, worth returning to (updated)
 
 - What a headline would actually say, concretely, for one era or world.
-- What "pictures" means in practice — real period art vs. something more
-  illustrative (bounded either way by the standing rule against
-  AI-generated scene art).
-- The sermon-prep tool's heart question — encounter or utility.
-- The terrain around the rivers, and what a "world" looks like sitting on
-  this landscape at different zoom depths.
-- Whether "scaling" means zoom-depth, visual weight, or both.
+  *(Still open — not addressed this round.)*
+- What makes a *still* piece of art feel alive — style, light/color, hinted
+  presence, or a blend. *(Newly open, §11 — the one unresolved piece of
+  "artistic and alive.")*
+- The sermon-prep tool's heart question — encounter or utility. *(Still
+  open.)*
+- The terrain around the rivers at different zoom depths — probably
+  answered by the period-art/architecture idea in §11, but not confirmed as
+  such explicitly; worth checking rather than assuming.
+- Whether "scaling" means zoom-depth, visual weight, or both — partially
+  clarified: zoom-depth is now confirmed as part of navigation (§11);
+  visual-weight-by-honest-property (§8) remains a separate, still-live,
+  not-contradicted idea.
 - Which tool (or combination) actually gets chosen for the map itself —
-  nothing in §9 has been picked.
+  nothing in §9 has been picked, and §13's module requirement is now a real
+  factor in that choice, not just the map's own density problem.
 
 ---
 
 ## Document log
 
+- **V1.1 (2026-08-31, later same session):** Extended at Mark's request to
+  capture the session's second wave after it resumed: "artistic and visually
+  engaging" as a named feature, unpacked into a resolved answer for
+  "richer" (subtle real period art/architecture as an era cue, §11) and a
+  twice-clarified answer for "more alive" (motion is participant-driven
+  pan/zoom only, never on the board itself, §11); a governing
+  principle-vs-implementation-artifact distinction (§12); and the
+  standalone plug-and-play module requirement (§13). Open-threads list
+  (§14) updated to reflect what's resolved and what's newly open. Nothing
+  newly decided beyond what §10 already recorded.
 - **V1 (2026-08-31):** First capture, produced mid-session at Mark's request
   to pause the divergent-phase interview and hold what had accumulated.
   Covers the full first ideation session, from the initial Age of Empires
