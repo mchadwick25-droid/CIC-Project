@@ -1833,3 +1833,47 @@ correction to numbers that were riding alongside it unverified.
 **Lesson for future principle-13 work:** "the reconciliation passed" and "every number near
 it has been checked" are not the same claim — say so explicitly rather than letting a pass
 verdict imply more than it covers.
+
+---
+
+## 2026-08-31 — Atlas reimagined (divergent-phase ideation): Hosted Tour stays Phase 2, but the current visual-tool search must not close that door
+
+**Origin.** A pure research/ideation thread on the Atlas/map's visual and engagement
+quality — sandbox only, nothing live touched, run as an interview (Mark's explicit framing:
+Kaner's diamond, currently in the divergent zone, deliberately not narrowing yet). Full
+context and portfolio: `Ministry/Features/Atlas-World-Map/Design/
+CiC_Atlas_Reimagined_Research_and_Ideas_V0_1_DRAFT.md`.
+
+**What surfaced.** While brainstorming what tool(s) to invest in for the map's own
+graphics, Mark described wanting to "double duty" into building tours of these worlds too —
+his concrete image: sitting in a realistic PAHC worship service, hearing the readings and
+teaching as the sources describe them, "as realistic as we can without live actors or
+videos." That is, close to verbatim, the already-designed **Hosted Tour** (S4-tour,
+`CiC_Full_UX_Design_V1_0.md` §5.5) — including its flagship worked example, already on
+file, of Chloe walking a participant through the PAHC Sunday gathering as Justin Martyr
+describes it. This was not reinvented in this conversation; it was independently
+re-arrived-at.
+
+**Decided — the standing 2026-07-22 Phase 2 deferral holds.** Mark, asked directly whether
+this reopens that timing: *"keep the tour phase 2, don't box the door shut."* The Hosted
+Tour is not moving up. **But its future shape is now a live constraint on today's tool
+search, not a closed question to ignore.** Whatever visual tool or pipeline gets chosen or
+invested in for the Atlas's own legibility problem should be evaluated partly on whether it
+would still be usable, or at least not actively wasted, if the Hosted Tour is built later —
+without spending any real effort designing the Tour itself now.
+
+**Heart of it:** an investment made for the map shouldn't accidentally foreclose the
+clearest, most concrete "wow" idea this whole ideation thread has produced, just because it
+wasn't in scope this week. Sequencing worlds don't need architectural amnesia between them.
+
+**Practical consequence, carried into the tool research:** panorama/room-tour technology
+(Marzipano, Pannellum) and illustrated-scene/visual-novel tooling (Ren'Py) were surfaced as
+real, cheap, honest (no live actors, no AI-generated video) ways the Tour could eventually
+be built — noted and parked, not adopted now. Map-focused tool candidates (Kumu, Flourish,
+Rive, Spline) continue being evaluated primarily against the Atlas's own density/legibility
+problem; "would this choice make a future Tour harder" is now one of the questions asked of
+each, not a requirement any of them has to satisfy today.
+
+### Next action
+
+None yet — divergent phase continues. No tool is chosen; no build is authorized.
