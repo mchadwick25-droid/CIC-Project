@@ -13,6 +13,50 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-08-31 (later same day) — Divergent-phase interview, session 1: captured, paused at Mark's request
+
+**Origin.** Following the research thread below, Mark asked to work the same
+territory as a live interview instead — his framing, explicit: Sam Kaner's
+diamond (divergent → groan zone → convergent), currently in the **divergent**
+zone, Claude interviewing him rather than presenting findings. Also set two
+governing frames for this whole line of work: (1) sandbox only, the live
+system stays untouched until a full replacement exists and is judged clearly
+better; (2) this thread is the Atlas/map's own visual and engagement quality
+built on what's live — not the surrounding modules (sermon prep, a
+curriculum, direct interview/Table access, the separately-scoped
+living-movements-today program).
+
+**Output:** `Design/CiC_Atlas_Reimagined_Divergent_Capture_V1_2026-08-31.md`
+— a full, theme-organized capture of the session, produced at Mark's request
+to pause and hold what had accumulated before continuing. Covers: the felt
+qualities wanted (discovery energy, deep engagement, hardships held humbly
+not sensationally); organizing lenses (geography, tradition family,
+theological distinctives, practices); the core diagnosis (access is solved,
+the failure is overview-vs-detail — "a spreadsheet that doesn't fit on the
+page, but to get it on the page it's too small"); and an emerging core visual
+concept — **a living landscape of time × swim lanes, realized as rivers**
+(mapping cleanly onto the existing `formed`/`transmitted to`/`continuesAs`
+edges, resonant with this exact build's own internal "Ongoing Streams"
+design name), with interaction/tension carried by a small, quiet, scalable
+mark rather than a dramatic effect. Nothing in it is decided except three
+real rulings, also logged in `CiC_FrontEnd_Decision_Log.md`'s own
+2026-08-31 entry: the sandbox constraint, the Hosted Tour staying Phase 2
+("don't box the door shut"), and the thread-scope boundary above.
+
+**Heart of it, unchanged from the research thread:** the gap is comprehension
+at scale, not missing sourcing — confirmed directly by Mark this session,
+independently of the earlier document's own finding.
+
+### Next action
+
+None yet — divergent phase paused, not closed, at Mark's own request. Several
+open threads named in the capture's §11 (what a "headline" says, what
+"pictures" means in practice, the terrain around the rivers, which tool gets
+chosen) are explicitly left for a later continuation of this same interview,
+not for this thread to resolve alone.
+
+---
+
 ## 2026-08-31 — Research/ideation thread: "Atlas reimagined" (game-grade visuals, linking, sourcing) — explores, does not build
 
 **Origin.** Mark's own words: *"the atlas/map we have is good, but i want to
