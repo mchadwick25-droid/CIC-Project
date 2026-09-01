@@ -1,5 +1,5 @@
 # G2 — Representative Identity Options
-## Nicene-Cappadocian (cappadocian) — Church in Conversation
+## Cappadocian (cappadocian) — Church in Conversation
 
 **Status:** DECISION ARTIFACT — awaiting the project lead's actual decision, recorded verbatim below once given. This decision was never put to Mark: it was made autonomously by the Fable build thread on the orphaned `origin/CiC-Fable-Cappadocian` branch, which is precisely the class of decision the build-cycle discipline requires to go to him directly, every time, including (as here) after the fact. Nothing built on this identity — Doc_10's Permanent Prompt, any deployment artifact, any Phase B voice record — is used or extended until Mark decides.
 **Source:** extracted from the recovered `cappadocian_Representative_Construction_Notes_Eumathios.md` §1, where the analysis was already done in full under RCF V3.1. Restated here in the grounded-options format (Alexandria/Hieronymian precedent shape) for the decision itself, not re-argued.
@@ -44,23 +44,3 @@ Option 1, with Option 2 named as a live, evidenced, and explicitly not-closed qu
 **Date:** 2026-08-30.
 
 *(Per the build-cycle discipline, Option 1 is now the settled identity for this build: Doc_10 rework and Phase B B-7 voice records proceed on Eumathios/guest-door elder.)*
-
----
-
-## Addendum, 2026-09-01 — the name reconsidered; Chilo supersedes Eumathios
-
-Mark raised, after admission, that he had not weighed name memorability/accessibility when he approved this decision on 2026-08-30, and that "Eumathios" concerned him as hard to remember or access. This addendum is that reconsideration, recorded the same way the original decision was: openly, with the alternatives actually weighed.
-
-**The role is unchanged.** An elder of the ascetic brotherhoods, stationed at the guest-door - Option 1's own reasoning above still holds in full; only the name was reopened.
-
-**Alternatives researched:** four invented Greek-Christian compound names in the same register as "Eumathios" itself (Silas, Zenon, Nikon, Agapios - none tied to any real documented figure, none shorter or more grounded than the option below), then, at Mark's own direction, real minor names actually attested in this world's own vendored source record: names drawn from Basil's letter-address list (`cic/texts/npnf208_basil-letters-select-works.xml`) that are genuinely obscure - no bishop, author, martyr, council signatory, or figure of any doctrinal significance - so that no participant would mistake the Representative for that real, barely-attested person, for Basil, or for "the real origin" of this world. Two real candidates were surfaced this way: **Urbicius** ("the monk," addressed twice, Letters CXXIII and CCLXII, undisputed authenticity, dated within Basil's own episcopate) and **Chilo** ("his disciple," Letter XLII, one letter, authenticity contested in the manuscript tradition but "apparently without much reason" per the source's own editorial apparatus).
-
-**Mark's decision (recorded verbatim):** "go with Chilo."
-
-**Name-collision check, same standard as Eumathios's own:** no bishop, author, martyr, council signatory, or correspondent of significance in this tradition or era is known under this name to this build; the letter's own addressee is a minor, otherwise-unknown ascetic disciple, not a documented figure of any consequence. One historical-period homonym exists at a safe distance, flagged the same way Eumathios's own Byzantine homonyms were: Chilon of Sparta, one of the Seven Sages of ancient Greece, sixth century BC - a different era, a different religion, a different world entirely, non-confusable with a fourth-century Cappadocian ascetic elder.
-
-**One-line confirmation, same disclosure standard as Eumathios's own:** the Representative named Chilo is not, and does not claim to be, the historical Chilo of Letter XLII - a real but genuinely minor and barely-attested figure in Basil's own correspondence. The name is drawn from that record because it is short, memorable, and obscure enough to carry no risk of a participant mistaking this sanctioned fabrication (spec principle 14) for that actual person, for Basil, or for this world's "real origin." This is the same disclosure this build already makes for Eumathios, applied here to a name sourced from an attested minor mention rather than an invented compound.
-
-**Downstream, not yet done as of this addendum:** `records/worlds.yaml`'s registry entry has been updated to Chilo (same date, same note pointing here) as the operative fix; the live/participant-facing Facilitation Brief and World Introduction Brief documents, and the compiled package, still read "Eumathios" as of this writing and were deliberately left untouched pending Mark's direction on scope, per his own instruction to keep this to a note in the record rather than a full sweep.
-
-*(Per the build-cycle discipline, this addendum - not the original decision above - now states the settled identity: the name is Chilo; the role, and every other finding in this file, stand as originally recorded.)*
