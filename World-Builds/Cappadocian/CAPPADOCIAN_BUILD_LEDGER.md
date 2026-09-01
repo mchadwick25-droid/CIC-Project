@@ -723,3 +723,17 @@ Mark's instruction: "clean up the older CORRECTED 2026-08-30 markers too" — th
 **Files touched:** `cappadocian_Doc_02_Source_Ecology.md` (21 markers, the large majority — 138 lines down to 133), `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` (3), `cappadocian_Voice_Configuration_Eumathios.md` (1), `cappadocian_Source_Registry_Review_Round1.md` and `cappadocian_Doc_10_PermanentPrompt_Review_Round1.md` (1 each — both were review documents citing a Doc_02 passage by its now-removed tag; the citations were updated to point at the section instead, quoted text unchanged and re-verified against the cleaned Doc_02).
 
 **Verification:** re-grepped the whole directory for every target pattern after the edits — zero remaining, confirming nothing was missed. No code references any of these files by content (`grep` across `engine/` for both filenames: no hits), so nothing downstream depends on the removed text.
+
+## 43. The untagged "prior draft" mentions cleaned too (2026-09-01)
+
+Mark's instruction: "clean up the rest of the untagged 'prior draft' mentions too" — SS42's own flagged leftovers.
+
+**Approach:** grepped the whole build-document set (outside this ledger) for "prior draft," "earlier version," "earlier draft," "the original draft," and "the prior version" — 29 occurrences across 8 files. Each was read in its own paragraph and cleaned the same way as SS41/SS42: drop the comparison to what an earlier draft said, keep every fact, citation, and reasoning the sentence was actually making. Two files got a heading trim too, where the comparison was baked into a section heading rather than a trailing clause (`cappadocian_Doc_01_World_Identification.md`'s "The confessional boundary, stated up front..." and "Cultural scope..." headings; its "Boundary decision — ending" heading).
+
+**Deliberately left alone, on the same distinction SS41/SS42 already drew:**
+- `Status:`/process-tracking fields that report a document's own review-round state (e.g. `cappadocian_Doc_01_World_Identification.md`'s own Status line, "one independent review round complete on the prior version") — this is the same genre of field every sibling Doc_XX carries, already left untouched in SS42's Doc_02 pass, not narrative comparison.
+- `cappadocian_Source_Registry_Review_Round3.md`'s use of "an earlier draft" — this is the review's own live investigative reasoning (using a git diff to rule out a hypothesis about how an error got introduced), not a "prior draft said X" comparison; it's the actual analytical content of that review.
+
+**Files touched:** `cappadocian_Doc_01_World_Identification.md` (11 occurrences, the majority), `cappadocian_Doc_02_Source_Ecology.md` (5, missed by SS42's bracket-only grep), `cappadocian_Integrated_Ecology_Analysis.md` (3), `cappadocian_Source_Registry.md` (2), `Cappadocian_Facilitation_Brief_v1_0.md`, `cappadocian_Doc_04_Gravity_Discovery.md`, and `cappadocian_Doc_06_Full_Lexicon.md` (1 each).
+
+**Verification:** re-grepped after the edits — only the two deliberately-left instances above remain, both confirmed against the same standard SS41/SS42 already applied.
