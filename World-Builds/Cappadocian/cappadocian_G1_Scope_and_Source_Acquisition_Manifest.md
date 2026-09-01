@@ -1,5 +1,5 @@
 # G1 — Scope Confirmation & Source Acquisition Manifest
-## Nicene-Cappadocian (cappadocian) — Church in Conversation — Record-Native World Build Process V1.2
+## Cappadocian Christianity (cappadocian) — Church in Conversation — Record-Native World Build Process V1.2
 
 **Status:** Mark approved the 2026-08-30 version of this file ("approve the cost envelope and both decisions, go ahead"). **Since then, the independent adversarial reviews this approval itself commissioned (see the ledger) found real errors in the version he approved — in both Part A's scope argument and this manifest.** Per CO-022 (a finding that cuts against an earlier decision is a standing escalation, not something to fix silently and move on from), those errors are corrected below and Mark's decision is being asked again on the corrected version — not assumed to carry over. **Do not download from this manifest until re-confirmed** — one row below claimed a volume contains a text it does not, and would have sent a real download to the wrong place.
 **What changed and why:** two independent Opus-tier fresh-context reviews (of Doc_01 and of this manifest/Doc_02) ran after the first approval, exactly the review CO-022 requires before treating either document as cleared. Corrections are marked inline `[CORRECTED 2026-08-30]`. Full findings are in `CAPPADOCIAN_BUILD_LEDGER.md` §6.

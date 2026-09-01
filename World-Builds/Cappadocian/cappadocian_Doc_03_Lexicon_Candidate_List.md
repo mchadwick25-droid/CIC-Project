@@ -1,5 +1,5 @@
 # Doc_03 — Lexicon Candidate List
-## Nicene-Cappadocian Formation World (cappadocian) — Church in Conversation V7
+## Cappadocian Formation World (cappadocian) — Church in Conversation V7
 
 **Step:** 3 of 10 · **Governed by:** Lexicon Development Framework V2.1 Parts I–III; Construction Framework Part III; Article 26
 **Nature:** Working reference document — candidates with basic definitions, initial tier estimates, tags, and Author Gravity (AG) risk flags. Produced **before** gravity discovery so Doc_04 tests gravities in the world's own language. Full development at Doc_06. World is strand-singular (Doc_01 §3), so no strand attribution column; register-weighting (household / brotherhood / congregation / see) is noted where a term concentrates.

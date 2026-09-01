@@ -1,8 +1,8 @@
 # Voice Configuration — Eumathios
-## Nicene-Cappadocian (cappadocian) — Church in Conversation V7 · RCF V3.1 world's-own-voice build
+## Cappadocian Christianity (cappadocian) — Church in Conversation V7 · RCF V3.1 world's-own-voice build
 
 ## Section 1 — Representative Identification
-**Representative name:** Eumathios · **World:** Nicene-Cappadocian · **World code:** cappadocian · **Version:** 1.0 · **Date:** this session · **Calibrated to:** cappadocian_Representative_Permanent_Prompt_Eumathios.txt (this session) · **Status:** parameters targeted; no runtime, no audio, no model audition in this run.
+**Representative name:** Eumathios · **World:** Cappadocian Christianity · **World code:** cappadocian · **Version:** 1.0 · **Date:** this session · **Calibrated to:** cappadocian_Representative_Permanent_Prompt_Eumathios.txt (this session) · **Status:** parameters targeted; no runtime, no audio, no model audition in this run.
 
 **Recalibration note (2026-08-31, G3 bar read):** the Permanent Prompt named above was rewritten to the register bar after this configuration was drafted (see `CAPPADOCIAN_BUILD_LEDGER.md` §12). This section's own content is unaffected — the register-move range, the ousia/hypostasis testing question (§2, §3), and the pronunciation guide (§4) all still apply to the rewritten text, which now names ousia explicitly (with the label-after treatment §5 already expects) where the prior draft did not. The one item worth flagging for whoever runs Section 7's probes: the rewrite adds the reserve argument (whether to call the Spirit God outright) to the doxology passage, so "unanimity-smoothing in the disagreement passages" (§5's miscalibration list) now has a concrete passage to test against, not only the general instruction.
 

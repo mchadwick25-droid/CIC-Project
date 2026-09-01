@@ -1,4 +1,4 @@
-# Nicene-Cappadocian (cappadocian) — Deployment Package Status
+# Cappadocian Christianity (cappadocian) — Deployment Package Status
 ## Against the eleven CO-013 outputs + Activation set (System Level Map V1.6)
 
 **Standing caveats:** produced in a single autonomous run; simulated review only; Articles 29 and 31 gates open; no runtime testing of any output; all citations and named details unverified (Critic Finding 1/19); the Permanent Prompt has had zero blind test rounds (the Cordus design-validation informs it but does not transfer). Prototype-permission basis: Article 35 allows prototype/internal-testing deployment with partial outputs **provided the three mandatory Permanent Prompt vision sections are complete** — they are (Critic Finding 14) — and testing participants are informed of prototype status.

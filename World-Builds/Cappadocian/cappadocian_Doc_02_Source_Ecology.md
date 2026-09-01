@@ -1,5 +1,5 @@
 # Doc_02 — Source Ecology
-## Nicene-Cappadocian Formation World (cappadocian) — Church in Conversation V7
+## Cappadocian Formation World (cappadocian) — Church in Conversation V7
 
 **Step:** 2 of 10 · **Governed by:** Construction Framework Part II; Forces Framework Step 2; Constitution Articles 16, 20, 26
 **Revision note (2026-08-30):** revised after independent adversarial review found fifteen blocking factual/attribution defects in the version built under CF V7.3. Corrections are marked inline `[CORRECTED]`. This revision fixed content; it did not itself convert this document into the CF V7.4 Source Registry Template's machine-readable row format — that conversion is the companion document `cappadocian_Source_Registry.md`, built once the acquired texts in `cic/texts/` were present (see the update below).

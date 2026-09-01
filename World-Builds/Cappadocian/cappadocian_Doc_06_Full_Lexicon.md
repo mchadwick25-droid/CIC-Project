@@ -1,5 +1,5 @@
 # Doc_06 — Full Interpretive Lexicon
-## Nicene-Cappadocian Formation World (cappadocian) — Church in Conversation V7
+## Cappadocian Formation World (cappadocian) — Church in Conversation V7
 
 **Step:** 6 of 10 · **Governed by:** Lexicon Development Framework V2.1; Constitution Articles 17, 26, 30
 **Status:** Complete; revised 2026-08-30 per independent index review. Tier 1 = 10 full entries; Tier 2 = 19 standard entries; Tier 3 = 10 reference entries — **39 total** (verified by direct enumeration; an earlier version of this header said "Tier 3 = 9" / 38 total, which was wrong). Confidence per Confidence Inheritance Principle; [CT] entries state contest type. Key Texts/Sources cite genuine works at work level; passage-level loci appear only where the builder holds them with confidence, and all must be verified against editions before external use.

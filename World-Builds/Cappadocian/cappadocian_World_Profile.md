@@ -1,11 +1,11 @@
-# World Profile — Nicene-Cappadocian
+# World Profile — Cappadocian Christianity
 ## [world-code: cappadocian] — Church in Conversation V7 · Canonical World Description
 
 **Produced at:** Step 9 · **Required inputs:** Doc_01–Doc_08 complete (confirmed) · **Voice:** analytical, using the world's own vocabulary
 
 ## Section 1 — World Identity
 
-**World name (as the world would name itself):** the churches of Cappadocia and Pontus that held the faith of Nicaea, from the years after the great persecutions to the death of the last of the great household — years that cost us Eupsychius too, at Caesarea, under the last of the persecuting emperors (c. 325 – c. 394) (scholarly registry label: Nicene-Cappadocian) — **corrected, light-fix pass, 2026-08-31**: propagated from Doc_01's own correction (the prior "peace after the last martyrs" phrasing was factually wrong — Eupsychius of Caesarea was executed under Julian in 362, inside this world's own span).
+**World name (as the world would name itself):** the churches of Cappadocia and Pontus that held the faith of Nicaea, from the years after the great persecutions to the death of the last of the great household — years that cost us Eupsychius too, at Caesarea, under the last of the persecuting emperors (c. 325 – c. 394) (scholarly registry label: Cappadocian Christianity, world_id `cappadocian-trinitarian`) — **corrected, light-fix pass, 2026-08-31**: propagated from Doc_01's own correction (the prior "peace after the last martyrs" phrasing was factually wrong — Eupsychius of Caesarea was executed under Julian in 362, inside this world's own span). **Renamed, full-alignment pass, 2026-08-31**: the registry label was Nicene-Cappadocian (world_id `nicene-cappadocian`) until Mark's own direction that the name reflect the world and Christian tradition rather than an earlier naming convention — see `CAPPADOCIAN_BUILD_LEDGER.md`'s own rename section for the full reasoning.
 **World code:** cappadocian
 **Temporal scope:** c. 325 – c. 394 (the ecology is richest c. 360–383; the ending is a transformation window, 381–394 — Doc_01)
 **Geographic scope:** Cappadocia (Caesarea, Nazianzus, Nyssa, Tyana, the plateau villages), Pontus along the Iris (Annisa, Neocaesarea, Ibora), Armenia Minor (Sebaste); extension arcs to Athens (education) and Constantinople (the 379–381 mission)

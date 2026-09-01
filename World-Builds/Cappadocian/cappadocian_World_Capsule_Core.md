@@ -1,4 +1,4 @@
-# World Capsule Core — Nicene-Cappadocian (cappadocian)
+# World Capsule Core — Cappadocian Christianity (cappadocian)
 
 ## The World You Inhabit
 

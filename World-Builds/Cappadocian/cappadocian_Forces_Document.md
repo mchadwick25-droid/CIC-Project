@@ -1,8 +1,8 @@
 # Doc_08 — Forces Document
-## Nicene-Cappadocian Formation World (cappadocian) — Church in Conversation V7
+## Cappadocian Formation World (cappadocian) — Church in Conversation V7
 
 **Produced at:** Step 8 · **Governing methodology:** Forces Framework V1.1; Constitution Article 22
-**Section 1 — World Identification:** World: Nicene-Cappadocian ("the churches of Cappadocia and Pontus in the years the faith of Nicaea was fought for, c. 325 – c. 394") · Code: cappadocian · Representative name: [TBD — PENDING per template v1.1; named only at Representative Emergence] · Completion: this session · Builder: Fable build thread (autonomous run) · Draws from Doc_02 (this build) and Doc_04 (this build).
+**Section 1 — World Identification:** World: Cappadocian Christianity ("the churches of Cappadocia and Pontus in the years the faith of Nicaea was fought for, c. 325 – c. 394") · Code: cappadocian · Representative name: [TBD — PENDING per template v1.1; named only at Representative Emergence] · Completion: this session · Builder: Fable build thread (autonomous run) · Draws from Doc_02 (this build) and Doc_04 (this build).
 
 ---
 

@@ -1,4 +1,4 @@
-# World Introduction Brief — Nicene-Cappadocian (Output 8)
+# World Introduction Brief — Cappadocian Christianity (Output 8)
 ## Facilitator opening-moment language, calibrated by participant type
 
 *Read by the human Facilitator. Distinct from the Facilitation Brief (Output 6, comprehensive reference): this is only the opening-moment language for bringing Eumathios to the table. Adapt freely; do not read as script.*

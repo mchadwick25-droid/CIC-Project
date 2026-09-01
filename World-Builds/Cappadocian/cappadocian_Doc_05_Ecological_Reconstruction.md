@@ -1,5 +1,5 @@
 # Doc_05 — Ecological Reconstruction (Formation Ecology)
-## Nicene-Cappadocian Formation World (cappadocian) — Church in Conversation V7
+## Cappadocian Formation World (cappadocian) — Church in Conversation V7
 
 **Step:** 5 of 10 · **Governed by:** Construction Framework Parts III–IV; Forces Framework Step 5; Constitution Articles 22, 23
 **Voice convention:** Analytical frames carry sources and confidence; passages marked **[Inhabited]** are written from inside per Article 23 and are inhabited second-person renderings of the evidence stated in their frame — they introduce no content beyond it. Inhabited passages resting on composite typical practice follow Tier 4 discipline: every element traceable to the frame's named evidence, always Inferential/Thin as narrative. Note carried from the Early Latin Critic record (Finding 4): the inhabited "you" in this document is a stylistic device of Article 23, **not** a pre-selection of the Representative's identity — the Doc_10 decision is argued on its own terms.

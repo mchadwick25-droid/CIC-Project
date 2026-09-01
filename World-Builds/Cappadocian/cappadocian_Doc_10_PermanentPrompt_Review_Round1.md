@@ -1,6 +1,6 @@
 # Doc_10 (Representative Permanent Prompt) — Cold Independent Adversarial Review, Round 1
 
-**World:** Nicene-Cappadocian (`cappadocian`) · **Representative:** Eumathios
+**World:** Cappadocian Christianity (`cappadocian`) · **Representative:** Eumathios
 **Artifact under review:** `cappadocian_Representative_Permanent_Prompt_Eumathios.txt` (21 paragraphs, 2,780 words, ~3,747 est. tokens; commit `e3fca0dd`, "Rebuild Eumathios's Permanent Prompt to the register bar (G3 bar read)")
 **Reviewer:** Fresh agent instance, no drafting context, run 2026-08-31. Cross-check access to Doc_01–Doc_09, World Profile, Capsule Core, Voice Configuration, Construction Notes, the Build Ledger, the Identity Options decision artifact, the register bar and its approved sample, the Permanent Prompt Template (v2.4), and the four other built Representative prompts.
 **Review model:** mirrors `hal_Doc_10_Review_Round1.md` — meta-awareness leaks, register/accessibility band, pronoun-convention consistency, naming-collision handling, Christ-Ward Telos non-transferability, gravities/forces/profile consistency, Living Traditions version correctness.

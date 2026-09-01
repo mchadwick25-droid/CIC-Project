@@ -1,4 +1,4 @@
-# Source Registry — Nicene-Cappadocian
+# Source Registry — Cappadocian Christianity
 
 ## Companion to Doc_02 (Source Ecology) — Construction Framework V7.4 Step 2
 

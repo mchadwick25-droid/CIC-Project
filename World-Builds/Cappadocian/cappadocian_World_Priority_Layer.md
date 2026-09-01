@@ -1,4 +1,4 @@
-# World Priority Layer — Nicene-Cappadocian (cappadocian)
+# World Priority Layer — Cappadocian Christianity (cappadocian)
 *Output 2 · Tier 2 of the three-tier retrieval architecture · loaded once at session start (CO-013)*
 
 ## Section 1 — Priority Lexicon Selection

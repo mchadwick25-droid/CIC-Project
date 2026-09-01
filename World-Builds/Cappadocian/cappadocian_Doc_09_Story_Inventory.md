@@ -1,5 +1,5 @@
 # Doc_09 — Story Inventory
-## Nicene-Cappadocian Formation World (cappadocian) — Church in Conversation V7
+## Cappadocian Formation World (cappadocian) — Church in Conversation V7
 
 **Step:** 9 of 10 · **Governed by:** Construction Framework (Story and Narrative Sources Assessment; Part VII Step 9); Constitution Articles 17, 19
 **Rule in force:** Tiers 1–4 only; **no Tier 5 — if the evidence does not support a story, the story does not exist for this world.** Confidence per tier cross-walk. All loci and details flagged per Critic Finding 1: verify before external use. Critic Findings 5, 6, 7 implemented at the entries marked.

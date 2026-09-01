@@ -1,12 +1,12 @@
 # Doc_07 — Integrated Ecology Analysis
-## Nicene-Cappadocian Formation World (cappadocian) — Church in Conversation V7
+## Cappadocian Formation World (cappadocian) — Church in Conversation V7
 
 **Produced at:** Step 7 · **Governed by:** Construction Framework Step 7; Forces Framework Step 7; Constitution Articles 17, 22, 23
 **Voice:** Analytical throughout (construction record).
 
 ## Section 1 — Document Identity and Confirmed Inputs
 
-**World:** Nicene-Cappadocian ("the churches of Cappadocia and Pontus in the years the faith of Nicaea was fought for, c. 325 – c. 394") · **Code:** cappadocian · **Builder:** Fable build thread (autonomous run) · **Date:** this session.
+**World:** Cappadocian Christianity ("the churches of Cappadocia and Pontus in the years the faith of Nicaea was fought for, c. 325 – c. 394") · **Code:** cappadocian · **Builder:** Fable build thread (autonomous run) · **Date:** this session.
 
 | Document | Status |
 |---|---|
