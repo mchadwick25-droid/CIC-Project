@@ -75,6 +75,11 @@ svg#world{display:block}
 :root[data-theme="dark"] .river-calm,
 :root[data-theme="dark"] .river-organic{mix-blend-mode:lighten}
 .node{cursor:pointer}
+/* The browser's default focus ring outlines the whole <g>'s bounding box --
+   which now includes the label text, so it'd draw a rectangle stretching
+   from the dot out past a long name instead of marking the dot itself.
+   The halo (already the hover indicator) marks focus too, via JS. */
+.node:focus-visible{outline:none}
 .node:hover circle.halo{opacity:.35}
 .node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
   pointer-events:none;paint-order:stroke;stroke:var(--parchment);stroke-width:3px}
@@ -19945,8 +19950,18 @@ function render(){
   DATA.movements.forEach(m=>{
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
-    const g=el('g',{class:'node','data-id':m.id});
+    // 292 movements, none of them reachable without a mouse or a finger --
+    // tabindex/role/aria-label plus Enter/Space make each node a real control,
+    // not just a click target. Focus gets its own ring rather than reusing
+    // the hover halo: the halo is filled in the node's own family color, so
+    // on a same-hued river (a teal node on the teal Africa river, say) it
+    // all but disappears -- exactly the wrong place for the one signal a
+    // keyboard user has for "this is where you are."
+    const g=el('g',{class:'node','data-id':m.id,tabindex:'0',role:'button',
+      'aria-label':`${m.shortName||m.name}, ${m.dates}, ${m.status}`});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
+    const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
+      fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
     const dot=el('circle',{cx:m._x,cy:m._y,r:built?4.4:2.6,
       fill: built?col:'var(--graphite)',
       stroke: built?'var(--iron-gall)':'none', 'stroke-width':built?1:0,
@@ -19966,7 +19981,7 @@ function render(){
       'text-anchor':nearRightEdge?'end':'start'});
     lbl.textContent=m.shortName||m.name;
     if(built)lbl.setAttribute('font-weight','700');
-    g.appendChild(halo); g.appendChild(dot); g.appendChild(lbl);
+    g.appendChild(halo); g.appendChild(dot); g.appendChild(focusRing); g.appendChild(lbl);
     g.addEventListener('mouseenter',(ev)=>{
       halo.setAttribute('opacity','.35');showTip(ev,tipFor(m));
       document.querySelectorAll(`.edge-line[data-from="${m.id}"],.edge-line[data-to="${m.id}"]`)
@@ -19979,6 +19994,11 @@ function render(){
         .forEach(p=>p.style.opacity=p.dataset.baseline);
     });
     g.addEventListener('click',(ev)=>{ev.stopPropagation();openPanel(m);});
+    g.addEventListener('focus',()=>focusRing.setAttribute('opacity','1'));
+    g.addEventListener('blur',()=>focusRing.setAttribute('opacity','0'));
+    g.addEventListener('keydown',(ev)=>{
+      if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanel(m);}
+    });
     gNodes.appendChild(g);
 
     if(m.continuesAs && byId[m.continuesAs]){
