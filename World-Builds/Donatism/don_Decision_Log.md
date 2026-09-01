@@ -110,6 +110,8 @@ This log holds the review-round history, revision rationale, and escalation chec
 - **Registry updated:** `Source_Registry.md` rows 19 and 20 moved to Confidence A (vendored, headings directly verified) and moved from the "Priority second-opinion review flags" list into the excluded set alongside rows 3, 4, 6, 30, 31, and 47, on the same basis (independently verified against a vendored primary text this session). New row 50 added for the incidental Donatist sermon, Confidence A for the modest claim it actually licenses (existence, genre, dating), explicitly not yet evaluated against Doc_02's own frameworks.
 - **Manifest updated:** `Source_Acquisition_Manifest.md`'s G4 entry now records the vendored file and the incidental find. A new status line under the G1-gate decision marks G4 discharged; G5–G7 remain open.
 
+**Decision (Mark, 2026-09-01):** row 50 (the anonymous Donatist sermon) is a genuine primary source and should be integrated into Doc_02 at a base level, not left as a flagged Registry row alone — but that integration waits until all of G1–G7 are in hand, rather than reopening Doc_02 after each individual acquisition. Standing plan: continue G5–G7 acquisitions first; once all seven are placed, run one proper Doc_02 revision pass (through the full review cycle, not a side-channel edit) that folds in row 50 and any other findings from G5–G7 at once.
+
 ---
 
 ## Standing process notes for this world (not part of any single document's own findings)
