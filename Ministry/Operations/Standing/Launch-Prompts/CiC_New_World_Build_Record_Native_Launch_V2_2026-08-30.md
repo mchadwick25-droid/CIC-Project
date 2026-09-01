@@ -3,7 +3,7 @@
 **V2 change (Mark's rulings, 2026-08-30, industrializing the pipeline
 after the pilot launch):** "not full automation, but as much as
 possible. i don't want to be just pushing a button or saying i approve
-when no real decision is being made." Three structural changes from V1:
+when no real decision is being made." Five structural changes from V1:
 (1) the build runs autonomously under CO-022's self-disposition
 discipline between gates, and every gate that remains is a REAL
 decision — what Mark actually decides is written into each gate below,
@@ -11,20 +11,30 @@ and a gate with nothing real to decide does not exist; (2) a new Source
 Acquisition gate: the pipeline identifies the open-source editions, and
 Mark manually downloads them into the vendored library — edition and
 rights choices are his; (3) the launch-phase birth conditions (register
-bar V1.1, transparency ground V1.2) are in force from the first record.
-V1's model-routing policy (Mark, 2026-08-01) and lean-validation cost
-policy carry forward unchanged.
+bar V1.1, transparency ground V1.2) are in force from the first record;
+(4) the prompt is GENERAL: it launches any world, listed in the Step-0
+portfolio or not — an unlisted world opens with the G0 scope gate below
+(same-day ruling; the roadmap ahead runs through Galatia, then
+pre-Reformation and Reformation worlds, none of which the original
+portfolio scoped); (5) stewardship never outranks quality (Mark: "while
+good stewardship is important it shouldn't compromise the quality") —
+see the cost section. V1's model-routing policy (Mark, 2026-08-01) and
+lean-validation default carry forward.
 
 Paste this into a fresh thread when a world build is authorized. Fill in
 the one blank. The thread runs the build with agents and quality loops
 and stops only at the gates and escalations below.
 
 > **WORLD TO BUILD:** ______________________
-> (from the Step-0 portfolio in `CiC_Step0_Conclusion_FINAL_v2.docx`.
-> Unbuilt candidates as of 2026-08-01: #4 Donatism; #8 Latin
-> Pastoral-Congregational. #5 Cappadocian is SPECIAL: substantially
-> built on unmerged branch `origin/CiC-Fable-Cappadocian` — recover and
-> audit first, never rebuild from scratch.)
+>
+> If the named world is IN the Step-0 portfolio
+> (`CiC_Step0_Conclusion_FINAL_v2.docx`), build on its conclusions and
+> skip G0. If it is NOT (Galatia; any pre-Reformation or Reformation
+> world), the build OPENS at G0 — no Doc work before it clears.
+> ALWAYS check first for a prior partial build of the named world
+> (unmerged branches, `Archive/`, `World-Builds/`) — recover and audit
+> under the process document rather than rebuilding from scratch
+> (precedent: Cappadocian on `origin/CiC-Fable-Cappadocian`).
 
 ## What this thread does
 
@@ -55,6 +65,27 @@ Everything between gates is the build thread's to decide, do, and
 record under CO-022. Everything below stops the build until Mark's own
 decision, and each names what he is actually deciding — never a bare
 "approve":
+
+**G0 — Portfolio admission (unlisted worlds only), before any Doc
+work.** A world outside the Step-0 portfolio is a portfolio-level
+decision by definition (CO-022 category 2). Prepare a Step-0-grade
+scope brief and STOP: proposed time window and boundaries; era
+placement and what it implies for the Atlas/census (a new era is its
+own flagged decision); a source-landscape preview (what kinds of
+sources exist, the rights outlook — post-1500 worlds mean many modern
+translations are UNDER COPYRIGHT, so name the public-domain path
+honestly or the licensing question plainly); living-tradition proximity
+(the Article 29 outlook — Reformation worlds have direct denominational
+descendants, which sharpens the bounded-reconstruction discipline);
+known sensitivities (e.g., inter-tradition polemic in the sources,
+carried per the project's own named-plainly-not-reenacted precedent);
+and — for apostolic-era worlds like Galatia — the methodology question
+stated as a question: how canonical Scripture itself functions as a
+world-source is NOT settled precedent from the pilot fleet, and Mark
+rules on the approach before it is used. What Mark decides: whether
+this world enters the portfolio at all, its era and window, and the
+named new-territory approaches. His ruling is recorded as a decision
+artifact the whole build cites.
 
 **G1 — Scope & Sources, after Doc_02 clears review.** Present the world
 scope AND the **Source Acquisition Manifest** (format below). What Mark
@@ -159,6 +190,16 @@ no phase re-narrates state to the next.
 
 ## Cost (one real approval, not a drip of empty ones)
 
+**Governing rule (Mark, 2026-08-30): stewardship never outranks
+quality.** The envelope is a planning instrument, not a quality
+ceiling. If staying inside a number would mean shipping under-bar work,
+the build HALTS and states the choice in dollars — it never quietly
+thins the work to fit. Doing the job right inside the current scope —
+an extra review round, a battery-fail loop run to clean, a re-probe —
+is always in-policy without a fresh approval; it is simply reported in
+the real costs. The halt-and-ask is for genuinely expanded scope, never
+for quality.
+
 At launch, before any billed work: estimate the world's build envelope
 from the current rate card (generation lanes + review rounds + lean
 validation), state it in dollars with the lanes itemized, and get
@@ -172,9 +213,12 @@ free floor (gates/schema/parities/coverage) + ~10–14 single-trial
 targeted probes blind-graded (content classes PLUS parroting, pushback,
 over-settling, re-gloss) + ONE extended live Deep Interview (6–8
 rounds) against the real deployed runtime. The full V7.4 two-trial
-battery and the TRR run on Mark's word only. The freeze declaration
-names what lean gives up — never silently. Checkpoint probe state so
-interruptions resume rather than restart.
+battery and the TRR run on Mark's word only — and if the build judges
+lean insufficient for THIS world's specific risks, it says so at G5
+with the reason and the price, so the choice reaches Mark as a quality
+decision, not a budget one. The freeze declaration names what lean
+gives up — never silently. Checkpoint probe state so interruptions
+resume rather than restart.
 
 ## When done
 
