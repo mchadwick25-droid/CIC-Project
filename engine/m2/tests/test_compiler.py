@@ -55,3 +55,31 @@ def test_prompt_and_capsule_and_chunks_carry_no_generated_by_header():
     for path, content in package.items():
         if path.startswith("compiled/chunks/"):
             assert b"generated-by" not in content
+
+
+def test_build_provenance_never_ships_in_repository_json():
+    """Mark's ruling (2026-08-30): the record store is the workshop, the
+    compiled package is the instrument. search_record rows and the
+    reviewer-facing fields (why_sources_cannot_answer, modern_lens_note)
+    stay in the store - gates still validate them - and never ship.
+    Measured before the change: ~250 instances of build language in the
+    fleet's compiled packages, sitting inside the retrieval fallback's
+    own full-text net."""
+    import json
+
+    from engine.m1.loader import load_world_records
+    from engine.m2.compiler import compile_and_hash
+
+    package, _digest = compile_and_hash(world_key="pahc", package_id="TEST", records_commit="TEST", compiler_version="TEST")
+    shipped = json.loads(package["compiled/repository.json"])["records"]
+
+    assert all(r.get("record_type") != "search_record" for r in shipped)
+    for field in ("why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification"):
+        assert all(field not in r for r in shipped), field
+
+    # and the store still carries what the package strips - nothing was
+    # cleaned at the wrong layer
+    records = load_world_records("pahc")
+    assert any(r.get("record_type") == "search_record" for r in records.values())
+    assert any("why_sources_cannot_answer" in r for r in records.values())
+    assert any("modern_lens_note" in r for r in records.values())

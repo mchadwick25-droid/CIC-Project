@@ -1857,3 +1857,38 @@ first record; V1's model routing (Sonnet orchestration / Opus reviews
 carried forward; cost as ONE launch-time envelope approval with halt
 on projected overrun, replacing a drip of empty per-call asks.
 Governance doc - awaiting Mark's read and merge word.
+
+## 2026-09-01 - Clean packages: build provenance never ships
+
+Mark, after a build thread claimed the six worlds' record files held
+forbidden comments: "it is our goal that all world build and active
+files are free from any comments, notes, corruption, they need to be
+clean for exactly what they exist to do."
+
+The verification came back in two halves. (1) The claim as relayed was
+a category error: record BODIES are the mandated audit trail (CO-022
+dated correction notes), are never read by any builder or gate, and
+were verified absent from every compiled package - they must not be
+"cleaned," and build threads were told so. (2) But the check surfaced
+a real finding at the package layer: ~250 instances of build-machinery
+prose inside operative frontmatter fields shipping in repository.json
+(search_record provenance, honest-limit review justifications, source
+discovery notes, story tier justifications) - none spoken, nothing
+reading them at runtime, but sitting INSIDE the full-text retrieval
+fallback's matching net, which has no record-type filter.
+
+Fix at the right layer (Mark: "build it"): the compiler now excludes
+search_record rows and strips why_sources_cannot_answer,
+modern_lens_note, discovery_channel, and narrative_tier_justification
+from repository.json. Records untouched; gates still validate
+everything on the store side. All eight registry worlds (six pilot +
+fix + cappadocian) rebuilt and repinned; residual fleet marker hits: 2
+(syr rights_status embeds a provenance aside - record-layer, flagged;
+ijc voice_craft's deliberate instruction phrase). Regression test pins
+the contract.
+
+COORDINATION NOTE for the three running build threads: this compiler
+change means any package pinned before it will no longer restore
+(restore recompiles and re-verifies the hash). Main is self-consistent
+after this merge; an in-flight branch must rebuild + repin its world
+with the new compiler before or at its own merge.
