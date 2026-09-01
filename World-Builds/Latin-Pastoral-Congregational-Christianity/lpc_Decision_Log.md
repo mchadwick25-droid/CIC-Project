@@ -1,0 +1,29 @@
+# World #8 (Latin Pastoral-Congregational Christianity) — Decision Log
+
+**World-code:** `lpc` (Latin Pastoral-Congregational Christianity), assigned at Step 0, this world's first document.
+
+This log holds project-lead decisions, escalation resolutions, and revision rationale for this world's build, so the construction documents themselves stay clean, substantive content. Review artifacts (the full adversarial review text) live in `Review-Artifacts/`; this log records project-lead-level decisions specifically, per CO-022's own rule that nothing may be attributed to the project lead anywhere in this build without a verifiable record — held to the same bar as Frozen.
+
+---
+
+## Entries
+
+### 2026-09-01 — Doc_01, "orthogonality to state power" framing: project-lead instruction on method
+
+**Context.** Doc_01's own Round 5 independent adversarial review found that the document's World #6 (Imperial and Juridical Christianity) boundary discharge had come to depend on choosing among three competing interpretive readings of a clause in the portfolio-level Step 0 Conclusion's World #8 entry — "confirmed distinct from world #6 (non-overlapping authority structure, **orthogonality to state power**, temporal overlap rather than sequence)." Round 5 held that choosing among the three readings was a decision about a portfolio-level determination that this build thread could not make unilaterally, and recommended escalating the question to the project lead: which reading governs, given that Augustine (one of this world's two anchor figures) is independently documented soliciting Roman state coercion against the Donatists, and that the neighboring, already-built and cleared World #6 (Imperial and Juridical Christianity)'s own completed Doc_04 found the church-state relationship a co-equal, cross-strand Primary gravity for that world.
+
+**The question put to the project lead, in substance:** which of three readings of "orthogonality to state power" should govern this world's own boundary section — (1) a narrow claim that the office is literally never touched by state power (already known to be false and not defended); (2) a narrower claim about the *ground* of episcopal office, i.e. that the office's own legitimacy is not constituted by a relationship to state power, even where the office instrumentally solicits it; or (3) a broader "organizing axis" reading, under which this world's formation logic would need to be shown not to be centered on its relationship to state power at all.
+
+**The project lead's response (Mark, 2026-09-01, in this build session's own conversation, quoted verbatim):**
+
+> "our principle is always truth, transparency in good and grounded in the sources (we dont fabricate or midigate) i try very hard not to influence the sources"
+
+And, when asked to confirm this reframing before treating it as settled:
+
+> "is this a part of the world source and ecology, we are truthful about how the sources present the christian tradistion, but we are not tied to a single influencer/scholor from the time, it is a living ecology that doesn't alway have consistancy. we just say that, augustine did this in the begining then changed his approach and did that"
+
+**What this instruction actually settles, stated narrowly rather than inferred broadly.** The project lead did not select one of the three offered readings. The instruction is about *method*: this project's own governing practice, for this document and generally, is to report what the primary sources document — including where a figure's or a world's own relationship to a question changed over time, or was never consistent — rather than to resolve that record into a single theory manufactured to fit a portfolio-level screening phrase. This is a standing instruction about how sourced claims are made in this build, consistent with Constitution Article 15's own principle that formation worlds are "historically developing ecclesial realities shaped, to the degree the evidence attests, through instability, adaptation, and incomplete continuity." It is not, on its own terms, a ruling that no escalation category applies to Doc_01's disposition — that is a separate question under CO-022, to be assessed on the document's own merits against the actual escalation-category text, not inferred from this instruction alone.
+
+**Consequence for Doc_01.** §7's World #6 boundary discharge was rewritten to report the documented arc of Cyprian's and Augustine's own differing relationships to state power (Cyprian: absent from the question entirely; Augustine: solicited narrowly and early in his own episcopate — the African council of 401, per Letter 185 §25 — then more broadly later, after an argued change of position recorded in his own words at Letter XCIII §17, a.d. 408) rather than adjudicating which of the three prior readings of "orthogonality to state power" is correct. §9's escalation-category assessment was revised to reflect that this reframing removes the specific triggers the three-readings framing had created — checked independently, not assumed, per this project's own review discipline (see `Review-Artifacts/Doc01_Round6_Review.md` for the independent adversarial check this specific reasoning received, and the further revision it required).
+
+**Disposition status of this specific item:** see Doc_01 §9 for the current, independently-reviewed escalation-category assessment. This entry records the project-lead instruction that occasioned the revision; it does not itself constitute Doc_01's disposition.
