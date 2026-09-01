@@ -19906,6 +19906,22 @@ function render(){
     gEdges.appendChild(line);
   });
 
+  // Label stacking within each lane: two movements that start the same year --
+  // house-churches and the Ebionite/Nazoraean current both open at 70 CE, on
+  // the same Origin lane -- land on the exact same point, and their labels
+  // would print on top of each other. Cascade any label too close to the one
+  // before it (in the same lane, sorted by position) down by a fixed step,
+  // rather than solving general layout -- it only has to separate the labels,
+  // the dots stay exactly where the data puts them.
+  const LABEL_GAP=14, labelYById={};
+  laneKeys.forEach(k=>{
+    let lastY=-Infinity;
+    DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a._y-b._y).forEach(m=>{
+      const y=Math.max(m._y+3.5, lastY+LABEL_GAP);
+      labelYById[m.id]=y; lastY=y;
+    });
+  });
+
   // Nodes
   DATA.movements.forEach(m=>{
     const built = m.status==='Built & Live';
@@ -19919,7 +19935,7 @@ function render(){
     // Only shown at organic (zoomed-in) detail -- applyDetail() toggles .lbl the
     // same way it toggles the rivers, so a crowded era stays a river at full
     // extent and only names names once there's room to read them.
-    const lbl=el('text',{class:'lbl',x:m._x+(built?7:5),y:m._y+3.5});
+    const lbl=el('text',{class:'lbl',x:m._x+(built?7:5),y:labelYById[m.id]});
     lbl.textContent=m.shortName||m.name;
     if(built)lbl.setAttribute('font-weight','700');
     g.appendChild(halo); g.appendChild(dot); g.appendChild(lbl);
