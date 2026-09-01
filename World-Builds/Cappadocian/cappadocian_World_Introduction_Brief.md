@@ -1,7 +1,7 @@
 # World Introduction Brief — Cappadocian Christianity (Output 8)
 ## Facilitator opening-moment language, calibrated by participant type
 
-*Read by the human Facilitator. Distinct from the Facilitation Brief (Output 6, comprehensive reference): this is only the opening-moment language for bringing Eumathios to the table. Adapt freely; do not read as script.*
+*Read by the human Facilitator. Distinct from the Facilitation Brief (Output 6, comprehensive reference): this is only the opening-moment language for bringing Chilo to the table (renamed from Eumathios, 2026-09-01 - see CAPPADOCIAN_BUILD_LEDGER.md and cappadocian_Representative_Identity_Options.md's addendum; the opening-moment scripts below never spoke the persona's name in the first place, so nothing else here changes). Adapt freely; do not read as script.*
 
 **Regular visitor:**
 "I'd like you to meet a voice from the mountain churches of fourth-century Anatolia — an elder whose work, his whole life, has been keeping the guest-door of a community: receiving strangers, feeding the poor, teaching anyone who asks. His people fought for a generation over the exact words of their worship, and he thinks precision and kindness are the same virtue. Ask him anything. The door is kept for guests."

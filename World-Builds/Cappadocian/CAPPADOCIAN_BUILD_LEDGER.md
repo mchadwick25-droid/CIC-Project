@@ -537,3 +537,28 @@ Also traced and confirmed **not** a bug, contrary to first appearance: the `?wor
 **Deliberately not touched**: `status` stays "Selected - Not Yet Built" and `entry` stays `null` — this step upgraded content accuracy, not readiness; the portrait blocker named at §30 is unaffected by any of this.
 
 **Verified**: JSON re-validated after every edit, diff confirmed scoped to only this one movement entry (25 lines changed, no reformatting elsewhere), full gate battery re-run on the WRS side (0 findings, unaffected — this step touched only the census file, not `records/`).
+
+## 32. Representative renamed: Eumathios -> Chilo (2026-09-01)
+
+**What Mark raised:** he was not part of the original memorability/accessibility weighing on the Representative's name, and was concerned "Eumathios" would be hard for a participant to remember or access. He asked for real alternative name candidates.
+
+**Research, in sequence:**
+1. Compared Eumathios against the other six worlds' Representative names (Theon, Chloe, Papnoute, Albina, Mar Yausep, Marius) — genuinely the least accessible of the seven: four syllables, no anchor for an English speaker.
+2. First pass: four invented Greek-Christian compound names in the same register Eumathios itself was built in (Silas, Zenon, Nikon, Agapios) — collision-checked against this build's own cast and the other six worlds' names, clean on all.
+3. Mark redirected: he wants a name actually *connected to the Cappadocian world*, and clarified the real purpose of the "not a real documented figure" rule — it exists so a participant won't think they're talking to the actual historical origin, or to Basil, not to forbid every attested name outright. A genuinely minor name mentioned in the record, one nobody would recognize, is fine.
+4. Extracted every real letter-addressee title from Basil's own vendored correspondence (`cic/texts/npnf208_basil-letters-select-works.xml`, 116+ titles) and screened for names that are minor enough to carry no recognition risk. Two real candidates reached Mark: **Urbicius** ("the monk," Letters CXXIII/CCLXII, undisputed authenticity, two letters four years apart) and **Chilo** ("his disciple," Letter XLII, one letter, authenticity contested in the manuscript tradition but "apparently without much reason" per the source's own editorial note).
+
+**Mark's decision:** "go with Chilo."
+
+**What was changed:**
+- `records/worlds.yaml`: `representative.name` Eumathios -> Chilo, with the full sourcing/disclosure note (Chilo is not, and does not claim to be, the real historical Chilo of Letter XLII — same standard as Eumathios's own "not a claim about any real individual").
+- `cappadocian_Representative_Identity_Options.md`: the decision artifact — a dated addendum recording this second decision in full, the original Option 1 entry preserved unchanged above it.
+- Mark then asked for the live-facing documents and the compiled package to be brought into sync too (initially scoped to "just a note in the record"; broadened on his own follow-up):
+  - `Cappadocian_Facilitation_Brief_v1_0.md`: header Representative line and the B5 register-bleed caution updated to Chilo, each carrying a short pointer to this section.
+  - `cappadocian_World_Introduction_Brief.md`: the Facilitator-only framing line (line 4) updated — the opening-moment scripts themselves never spoke the persona's name in the first place (by design; see `cappadocian.voice.craft.md`'s own registry-data-only persona rule), so nothing else in that document changed.
+  - Recompiled (`python -m engine.m2.cli build cappadocian`): new pin `packages/cappadocian/2026-09-01T04-08-36Z`, manifest_hash `sha256:145655...c722f211`. Verified: determinism-check byte-identical on a second compile; all 15 `engine/m1/gates.py` gates pass (0 findings); compiled `capsule.md`/`frame.json` confirmed reading "Chilo" with no remaining "Eumathios" text; `manifest.json` coverage unchanged (cells_substantive: 26, cells_honest_limit: 2, cells_empty: 0) — a metadata-only change, no content moved.
+  - `records/worlds.yaml`'s `package` block updated to the new pin, with the superseded pins named, not deleted.
+
+**Deliberately not touched (historical record, preserved):** the eight construction-history documents that describe the original Eumathios decision and its reviews as they actually happened — `cappadocian_Representative_Construction_Notes_Eumathios.md`, `Critic_Checkpoint_2_Simulated.md`, `Cappadocian_Final_Report.md`, `cappadocian_Deployment_Package_Status.md`, `cappadocian_Doc_10_PermanentPrompt_Review_Round1.md` and `_Round2.md`, `cappadocian_Voice_Configuration_Eumathios.md`, `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` — same discipline as SS28's world-identity rename: real history stays legible, not silently rewritten. Their filenames stay as-is for the same reason; they are accurate records of what was actually built and reviewed at the time.
+
+**Open, named plainly (not run without Mark's own authorization):** this recompile invalidates the manifest-match behind the current 28/28 admission certificate, same as SS28/29's rename did — the certificate ran against the prior (Eumathios-named) package, not this one. A fresh live M3 admission run against this exact pin (real AWS Bedrock spend) is the honest next step to re-certify; not run here without Mark's own per-run authorization.
