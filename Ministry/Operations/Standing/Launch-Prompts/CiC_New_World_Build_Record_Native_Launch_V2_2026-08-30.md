@@ -47,17 +47,18 @@ and stops only at the gates and escalations below.
 
 Build the named world end-to-end — Step-0 confirmation through a
 drafted freeze declaration — **born record-native and born at the bar**,
-under `Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md`.
+under `Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_3.md`.
 
 Read IN FULL, in this order, before any work:
 
-1. The Build Process V1.2 (sequences everything; Phase B's two birth
-   conditions — the register bar and transparency ground — govern every
-   spoken field from the first record).
+1. The Build Process V1.3 (sequences everything; Phase B's three birth
+   conditions — the register bar, transparency ground, and file
+   discipline — govern every spoken field and every file from the first
+   record).
 2. `Ministry/Technology/CiC_Register_Bar_2026-08-29.md` — the ONE
    approved sample. Every spoken field is drafted with it open. It is
    the standard; no banned-word lists exist or accumulate anywhere.
-3. `Ministry/Technology/CiC_World_Build_Completion_Standard_V1.2.md`.
+3. `Ministry/Technology/CiC_World_Build_Completion_Standard_V1.3.md`.
 4. The Construction Framework V7.4, the RCF V3.2, and
    `Ministry/Technology/Pass2/SESSION_CONTRACT.md` — the process
    document tells you where each governs.

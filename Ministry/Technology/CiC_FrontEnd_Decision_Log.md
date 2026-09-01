@@ -1901,3 +1901,9 @@ against both real failures: litter in operative fields (the ~250
 shipped instances) and stripping the mandated body-note audit trail
 (the category error a build thread nearly acted on). Adds the pre-pin
 residue read of compiled repository.json alongside the gates report.
+
+Second addendum: the file discipline is now also a Change Order
+(Mark: "yes add the change order then merge it") - Build Process V1.2
+-> V1.3 (file discipline is the third Phase B birth condition) and
+Completion Standard V1.2 -> V1.3 (the pre-pin residue read recorded as
+a saved artifact at freeze). Launch prompt repointed to V1.3.
