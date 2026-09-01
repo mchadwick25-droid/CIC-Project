@@ -1833,3 +1833,141 @@ correction to numbers that were riding alongside it unverified.
 **Lesson for future principle-13 work:** "the reconciliation passed" and "every number near
 it has been checked" are not the same claim — say so explicitly rather than letting a pass
 verdict imply more than it covers.
+
+---
+
+## 2026-09-01 — Tour work resumes: the "nothing invented" rule scoped correctly, a
+real test case converged on, real prior work found and merged into it
+
+**Origin.** A new front-end thread, launched to explore the zero-credit engagement
+layer (tours, access documents, reading surfaces — no runtime generative cost). Ground
+truth first: `CiC_Full_UX_Design_V1_0.md` §5.5 already specs Hosted Tour in full
+(threshold stop, register strip, beat tracker, honest-absence beat given equal
+dignity to any positive stop), but Mark deferred it to Phase 2+ on 2026-07-22 and had
+it pulled from the build cycle entirely. Also found and fixed in passing: this log
+itself carried unresolved git conflict markers around two 2026-08-28 entries (both
+legitimate, non-conflicting content) — markers removed, both entries kept, nothing
+else touched.
+
+**Mark's framing, his own words: divergent before convergent.** *"i am in a design
+phase and don't want to jump to conclusions or set doors or gates on ideas... anything
+that may be read as a gate or rule, dont feel limited by it."* The one boundary he
+drew explicitly: *"the only thing out of bounds is the conversation engine and
+worlds... not change or add to or modify the records in any way."* Everything else —
+phase-ladder placement, prior Tour deferral, even standing content rules — was opened
+for genuine reconsideration, not because the old reasoning was wrong, but because a
+design phase shouldn't pre-filter on later-stage concerns.
+
+**The real rule correction, Mark's own words:** *"i dont have a nothing invented ever
+rule (if i said it before i can change it), the phrase came from conversation
+boundries and containing ai to a rigorous standard in creating dialog, not a general
+rule that dictates whether we use a discretion or old building as inspiration to build
+a replica. like williamsburg va, isn't all restored buildings, some are filled in, or
+emphasis, they are rebuilding as best they can to original."* This corrects an
+over-application on this thread's own part — the "real photo, never a generated
+reconstruction" line from the old Tour work (and this thread's own early instinct) was
+treated as a general project rule; it was always scoped to the Representative's live
+dialogue. **Applied going forward, for tours specifically, never the conversation
+engine:** informed, honestly-labeled reconstruction (real evidence in, clearly
+captioned as reconstruction, never claimed as a photograph) is legitimate — the
+Williamsburg model. Tour sourcing may also draw on real material outside a world's
+pinned record corpus (period scholarship, other primary texts) and may merge sources
+into one scene, as long as origin stays visibly tagged per element — *"we are clear
+what is coming from where."*
+
+**Present-day sites, real anchors, real sourcing discipline.** Established and held
+throughout: primary institutional voice + academic/peer-reviewed + reputable
+independent press, never a single tourism-blog source. Verified real anchors found for
+all six live worlds plus the in-progress Cappadocia (7th) world, with an honest
+recurring split named across nearly every one — genuinely in-window physical trace
+(San Clemente's lowest layer, the Syriac Sinaiticus, Kom el-Dikka) versus a living
+institution or later structure in real continuous lineage (Deir Anba Bishoi, Deir
+Zafaran, the Lateran) — conflating the two is the same mistake as blending sources in
+a Representative's own speech. One real, self-caught miss: the Vatican's Pio Cristiano
+sarcophagi were initially anchored to pahc (70–200 CE) when the collection spans
+mid-3rd–early 5th century — corrected, and redirected toward `roman-church-third-
+century`, an unbuilt future world with zero `experienceToday` entries of its own.
+
+**Major find: this already exists, live, at scale.** `cic-website/data/world-census.json`
+carries an `experienceToday` field — real, sourced "visit today" pointers — already
+populated on **151 of 292** movements across the whole historical map, already
+rendering in production (`atlas-v3.html` line ~1681, one quiet line per movement:
+"Visit today: [link]"). Real gaps found in the six live worlds: **alx has zero
+entries** despite being Built & Live; the reuse of Mor Gabriel Monastery for both the
+live `syriac-edessa-nisibis` and the future `syriac-orthodox-west-syriac-christianity`
+world is the kind of era-blending the "save later-tradition material for its own
+world" instinct (Mark's ruling, this thread) is meant to catch. Proposed additions
+compiled for all six live worlds, in the existing `{text, url}` schema — **not yet
+written to the file**, held for Mark's read per the standing draft-and-approve
+discipline for anything participant-facing.
+
+**The prime test case: pahc, "A Sunday in Rome, As Justin Describes It."** Mark named
+this the test. Iterated through several real corrections along the way: the reading
+beat's placeholder Ignatius quote (unverified in the old shape-proof) replaced with
+1 Clement, a real in-corpus letter — then that instinct itself corrected again, in
+favor of an existing, better answer (see below). A `roman_housing` outside-source
+finding reshaped the room: most Christians of this era almost certainly met in a
+rented apartment room (an *insula*), not an elite house — Justin's own trial record
+even names his as above a bathhouse — which also reopened a real naming question,
+unresolved: does "House-Churches" (the world's own card name) still fit, given
+*domus ecclesiae* is flagged by real peer-reviewed scholarship (JRA, JTS) as a likely
+anachronism, first attested in Eusebius, 313 CE, outside this world's own window? Not
+decided — "Household" language already sits inside the world's own vocabulary
+(Chloe's title, "Household Leader") as a lower-disruption alternative if Mark wants
+the name itself to carry more precision.
+
+**Then a bigger find: a real, built demo already existed.**
+`Hosted-Tour/Design/CiC_Chloe_Tour_Interactive_Demo.html` (V0.2, 2026-07-16) — 9 real
+stops, screenshot-verified this session as genuinely well produced (manuscript
+aesthetic, a working source-cartouche pattern, real licensed photography with credits
+on hover, a docked caption strip). It answers the room question the *old* way — refuses
+to depict any room at all, since this world is archaeologically invisible and even
+Dura-Europos is a different community, deliberately excluded rather than borrowed.
+Two pieces of its own reasoning are exactly right and not up for revision: refusing to
+fabricate a regional accent (*"an accent is a claim the evidence cannot carry, made in
+the most memorable medium there is"*) and turning a missing-music request into an
+honest-decline stop built from Pliny's own report, naming the real cost of that
+testimony — two enslaved ministrae, tortured for the details, forever unnamed.
+
+**Mark's resolution:** *"you can use it as a source and it fits our design great, but
+the rules are out of date, what we discussed is the more current approach. you are not
+bound to the rules of this, but if they do the work great."* Merged into
+`Tour-Experience-Module-Phase2/CiC_Tour_PAHC_Worship_Service_V3_2026-09-01.md`: the
+existing demo's structure, real assets, and both pieces of held reasoning carry
+forward unchanged; only the room stop (now a Luma Ray3 reconstruction grounded in the
+Casa di Diana, a real, dated, in-window Ostia insula, plus Justin's own rented-room
+detail) and the narration engine (ElevenLabs, replacing edge-tts) change. Both
+`Hosted-Tour/README.md` and `Tour-Experience-Module-Phase2/README.md` got short
+pointer updates so their existing SUPERSEDED trails don't dead-end — neither reverses
+the 2026-08-03 live-hosted-encounter supersession, only the imagery/sourcing rule
+changed, and only for tours.
+
+**Production stack landed on:** ElevenLabs (narration — a real, deliberate choice,
+not a default; a human-recorded alternative was named and set aside), DaVinci Resolve
+(editing/timeline), Luma Ray3 for grounded image-to-video reconstruction work (chosen
+specifically for the "reference image + prompt" grounding workflow — real evidence
+in, not free-form prompting). The disclosure UI for a reconstructed shot reuses the
+app's own existing grammar rather than inventing a new one: label on entry, fades to
+a quiet corner mark, hover/tap-through brings back the full source trail — landed on
+**reusing the existing "cartouche" concept** (already named in the base grammar,
+§5.7) rather than a new glyph; a camera or film-slate icon was considered and set
+aside as breaking the design system's own "nothing tech-forward" rule.
+
+**Two other storyboards sketched, not developed as far:** desert's "The Noonday
+Demon" (Evagrius's own hour-by-hour text, an interior/psychological shape rather than
+a place); ijc's "One Night at the Basilica" (the Milan siege, real Ambrose quotes,
+Ambrosian chant as a real living-tradition audio option). Both real, both sourced,
+parked as the next candidates if the pahc test case validates the approach.
+
+**Not decided here, Mark's calls:** the House-Churches naming question; whether to
+write the six proposed `experienceToday` additions into the live census file; whether
+to widen `experienceToday` coverage beyond the six live worlds next; the desert and
+ijc storyboards' own production passes.
+
+### Next action
+
+Mark: word-level read of the new/changed voiceover (the reconstructed room stop, the
+reframed "What We Cannot Show You" opening) before anything renders — same discipline
+as every other piece of participant-facing prose in this project. First real Luma
+Ray3 render of the room stop, checked against its source stack before being treated as
+final. The naming question, whenever he wants to pick it up.

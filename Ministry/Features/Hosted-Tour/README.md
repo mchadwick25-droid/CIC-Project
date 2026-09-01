@@ -1,5 +1,15 @@
 # Hosted Tour (Phase One)
 
+> **Picked back up 2026-09-01, as a source, not a live spec.** Mark, resuming Tour
+> work in the front-end strategy thread: this demo "fits our design great" and its
+> assets/structure carry forward, but its no-reconstruction-ever rule is superseded
+> by the current approach (informed, honestly-labeled reconstruction is now
+> permitted — see `Tour-Experience-Module-Phase2/CiC_Tour_PAHC_Worship_Service_V3_
+> 2026-09-01.md`, which merges this demo's real assets with that update). Screenshot-
+> verified this session as genuinely well produced. Read on for the 2026-08-03
+> supersession this entry doesn't reverse — the live-hosted-encounter premise below
+> is still out; only the imagery rule changed.
+
 > **Status: SUPERSEDED (2026-08-03).** This demo's whole premise — the
 > Representative hosting a participant live, inside an encounter, with the
 > product's caption-strip UI layered around that live narration — was built
