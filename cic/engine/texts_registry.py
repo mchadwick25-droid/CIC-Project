@@ -732,6 +732,34 @@ ENTRIES: tuple[TextEntry, ...] = (
               "French scholarly prose with extensive footnotes and frequently misread accented characters; "
               "any specific quotation drawn from it needs visual cross-check against its own surrounding "
               "text before being relied on for a verbatim claim."),
+    TextEntry("cil8-supplementum-numidiae_cagnat-schmidt1894.txt", "Mark", "2026-09-01",
+              "Corpus Inscriptionum Latinarum, Volumen Octavum, Supplementum, Pars II: Inscriptionum "
+              "Provinciae Numidiae Latinarum Supplementum, ed. Rene Cagnat and Johannes Schmidt, commentary "
+              "by Johannes Schmidt and Hermann Dessau (Berlin: Reimer, 1894) - Donatism world-build "
+              "Source_Acquisition_Manifest.md §1 request G7 (Source_Registry.md row 48; the Numidia "
+              "supplement specifically, not the 1881 main CIL VIII volume - Numidia is this world's own "
+              "Donatist heartland province). Manually downloaded by Mark from archive.org (a Google Books "
+              "scan) and supplied as a DOCX file attachment - the same acquisition channel used for G1-G6. "
+              "Converted mechanically via a zip/XML text extraction (paragraph boundaries preserved from "
+              "</w:p> splits) - no content passed through model-generated output. This paste's own leading "
+              "archive.org chrome was minimal ('Full text of ...' / 'See other formats' - 2 lines, stripped "
+              "at vendoring); everything after that is unedited raw OCR. RIGHTS: 1894 publication date; the "
+              "scan's own front matter states this is a 1991 University of Minnesota preservation facsimile "
+              "of the deteriorated original, not a new copyrighted edition. MAJOR FIND THIS SESSION: "
+              "Source_Registry.md row 27 (the 'Deo laudes' acclamation) had stood at Confidence C since this "
+              "Registry's first draft - a recognized field category with no specific catalogued inscription. "
+              "This volume's own editorial apparatus resolves that directly: inscription no. 20482 ('DEO "
+              "LAVDES SVPER AQVAS...', a fragment found near Constantine) carries the editors' own note, "
+              "'Deo laudes (de hoc signo Donatistarum cf. supra ad n. 17732)' - the editors themselves "
+              "identify 'Deo laudes' as the Donatists' own sign, as opposed to the Catholic 'Deo gratias.' A "
+              "second passage (this volume's own index/commentary, near inscription 2292) makes the same "
+              "identification in fuller form, naming Bagai and Thamugadi as the Donatists' primary seats. "
+              "The cross-referenced inscription 17732 itself was not found in this specific volume - likely "
+              "in a different CIL VIII fascicle not vendored here. OCR QUALITY: raw and uncorrected, dense "
+              "19th-century epigraphic apparatus abbreviation that this OCR handles worse than narrative "
+              "prose - expect substantial garbling; any specific inscription number or reading needs visual "
+              "cross-check against its own surrounding context, ideally against a standard CIL concordance, "
+              "before being relied on for a verbatim claim."),
 )
 
 
