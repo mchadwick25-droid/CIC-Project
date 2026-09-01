@@ -1,4 +1,5 @@
 <title>Water on the Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 /* ---- Design plan ----
    Color: the real, already-locked CiC manuscript tokens (parchment/iron-gall/madder/
@@ -20025,9 +20026,10 @@ function openPanel(m){
   if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
   if(inbound.length){h+='<h3>Influenced by</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}</div>`;});}
   if(m.continuesAs&&byId[m.continuesAs])h+=`<h3>Continues as</h3><p>${esc(byId[m.continuesAs].shortName||byId[m.continuesAs].name)} — the same ongoing church, next window.</p>`;
-  panelBody.innerHTML=h; panel.classList.add('open');
+  panelBody.innerHTML=h; panel.classList.add('open'); hideTip();
 }
 function openPanelEdge(edg,a,b){
+  hideTip();
   panelBody.innerHTML=`<h2>${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
     <p class="meta">${esc(edg.type)} · ${esc(edg.confidence)}</p>
     <p>${esc(edg.note)}</p>`;
@@ -20124,6 +20126,18 @@ stage.addEventListener('touchend',(ev)=>{Array.from(ev.changedTouches).forEach(t
 
 document.getElementById('resetBtn').addEventListener('click',centerView);
 document.getElementById('scopeClose').addEventListener('click',()=>document.getElementById('scopeNote').remove());
+// #scopeNote's `top` was a fixed 2.6rem, sized for a topbar that fits on one
+// line. On a narrow screen the title/tag/button don't fit and the topbar
+// wraps to two (or three) lines instead -- the note then starts underneath
+// where the topbar used to end, and its own dismiss button (float:right on
+// the note's first line) lands behind the now-taller topbar, unreachable.
+// Measure the topbar's real height instead of assuming one.
+function positionScopeNote(){
+  const note=document.getElementById('scopeNote');
+  if(note)note.style.top=document.querySelector('.topbar').offsetHeight+'px';
+}
+positionScopeNote();
+window.addEventListener('resize',positionScopeNote);
 window.addEventListener('resize',()=>{/* no auto-recenter -- resize is not a participant zoom action */});
 
 const mq=matchMedia('(prefers-color-scheme: dark)');
