@@ -96,7 +96,7 @@
 
 ---
 
-## Second reading — encouraging, ~10 minutes (RULING 5, placement not yet decided)
+## Second reading — encouraging, ~10 minutes (RULING 5, placement decided — see RULING 7)
 
 **RULING 5 (2026-09-01, per Mark's build request relayed into this session — no independently verified direct quote captured this pass, unlike RULINGs 1–4; flag for Mark to confirm in his own words at next review):** request was for a second, longer reading, encouraging in tone, about 10 minutes read aloud (~1,100–1,450 words at an unhurried 110–130 wpm), distinct from the Stop 2/Reading-beat script above. Placement — which stop, or a standalone use outside the worship-service scene — not yet decided.
 
@@ -211,7 +211,9 @@
 
 Both readings' existing cartouche work — RULING 5's Curation status (Curated, with its own honest gap note) and RULING 6's Curation status (Complete) plus its Harsh-Content Notice — attach unchanged to their entries here; nothing about either reading's own text or sourcing block changes because of where it now sits.
 
-**What this doesn't resolve.** The exact interaction shape (an expandable panel, a second screen after the handoff, a menu of two cards) is a build-time UI decision, not a content one — left to whoever builds this stage of the tour. And this placement is a proposal made under Mark's explicit delegation this session, not something he has separately confirmed in his own words the way RULINGs 1–4 were — flag for his read at next review, same as RULING 5's own build note already does.
+**What this doesn't resolve.** The exact interaction shape (an expandable panel, a second screen after the handoff, a menu of two cards) is a build-time UI decision, not a content one — left to whoever builds this stage of the tour.
+
+**Confirmed (2026-09-01, Mark, on the offer text above):** *"good as is."* The placement decision and the offer copy are both settled; RULING 5's own flag (no independently verified direct quote for its build request, unlike RULINGs 1–4) still stands separately and is unrelated to this confirmation.
 
 ---
 
@@ -289,3 +291,7 @@ Revises the old demo's "Representative stays unvoiced" rule — deliberately, no
 1. Mark's word-level read of all new/changed voiceover lines (Stop 0, Stop 7's reframed opening) — same discipline as every other piece of participant-facing prose in this project.
 2. ~~Whether "House-Churches" as this world's name stays as-is or shifts toward "Household" language~~ — **DECIDED, same session:** `card_name` is now "The Scattered Churches" (an Opus review found a better answer than either original option — see the decision log's 2026-09-01 naming addendum). This document's own prose above still says "House-Churches" in a few narrative spots; those are fine to leave as historical description of the world's older name where they're quoting old assets, but any newly-written participant-facing tour copy should use "Scattered Churches" going forward.
 3. First real render of Stop 0 in Luma Ray3, checked against the source stack before it's treated as final — a generated result needs the same verification pass a citation would get.
+4. **Not yet drafted:** the threshold/consent framing (Facilitator, before the scene starts) and the honest-absence reflection ("What We Cannot Show You") plus closing — both still just named as needed, not written, in the "Not yet placed" note above. The old stop-based drafts of this material (RULING 1/2's Stop 8/9) predate RULING 3's continuous-scene structure and can't be dropped in unchanged.
+5. **Not yet drafted:** the actual Facilitator-voice offer script beyond the three lines confirmed this session (RULING 7) — those three lines are the confirmed core, but the surrounding beat (how a participant actually triggers/dismisses the offer in the flow) isn't written.
+6. **Build-time, not content:** the UI interaction shape for the RULING 7 offer (panel / second screen / card menu) — explicitly left open in RULING 7 itself, for whoever builds this stage.
+7. RULING 5's own build request still has no independently verified direct quote from Mark, unlike RULINGs 1–4 and 6 — flagged there, not yet resolved.
