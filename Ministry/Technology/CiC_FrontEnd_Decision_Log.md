@@ -869,7 +869,6 @@ touchpoints unchanged.
 
 ---
 
-<<<<<<< HEAD
 ## 2026-08-28 — Mark's identity ruling applied: the registry wins, and both
 name registers live in it
 
@@ -992,7 +991,9 @@ added to the reconciliation worksheet's day for the invoice tie-out.
 instrument that measures the real conversation. Stage-7 touchpoints
 (Mark's reads, freezes, registry transitions) are unchanged and remain
 the doors-open path.
-=======
+
+---
+
 ## 2026-08-28 — Foundation-audit moves 1–3 landed; prose inventory for Mark's read
 
 **On Mark's go** ("ok lets go") over the Foundation Audit's ranked plan,
@@ -1051,7 +1052,6 @@ privacy.html's deletion promise made mechanism-honest.
 Mark: (1) run or re-authorize the fleet re-verification battery (move
 1's last step); (2) read the prose inventory above — then trust-package
 merges; (3) the identity ruling (move 4's gate).
->>>>>>> claude/trust-package
 
 ---
 
@@ -1833,3 +1833,27 @@ correction to numbers that were riding alongside it unverified.
 **Lesson for future principle-13 work:** "the reconciliation passed" and "every number near
 it has been checked" are not the same claim — say so explicitly rather than letting a pass
 verdict imply more than it covers.
+---
+
+## 2026-08-30 - Industrialization ruling + Launch Prompt V2
+
+Mark pasted an industrialization plan ("autonomously mass-produce...
+minimal human intervention"); the pushback was accepted in his own
+words: "yes your pushback is correct... not full automation, but as
+much as possible. i don't want to be just pushing a button or saying i
+approve when no real decision is being made." New requirement from the
+same ruling: sourcing identifies open-source editions that Mark
+manually downloads into cic/texts/ - the edition and rights choices
+are his.
+
+Drafted Launch Prompt V2 (supersedes V1, which stays for history):
+autonomous under CO-022 between gates; five gates, each naming the
+real decision Mark makes there (G1 scope + Source Acquisition
+Manifest with manual download and build-side file verification, G2
+identity, G3 the bar read, G4 Article 29, G5 admission/freeze - only
+Mark assigns Frozen); birth conditions V1.1/V1.2 in force from the
+first record; V1's model routing (Sonnet orchestration / Opus reviews
+/ Fable discovery lanes, Mark 2026-08-01) and lean-validation policy
+carried forward; cost as ONE launch-time envelope approval with halt
+on projected overrun, replacing a drip of empty per-call asks.
+Governance doc - awaiting Mark's read and merge word.
