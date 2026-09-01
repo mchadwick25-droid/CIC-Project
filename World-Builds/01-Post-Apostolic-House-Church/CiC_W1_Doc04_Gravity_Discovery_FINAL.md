@@ -150,7 +150,7 @@ Seven candidates were generated and tested. One (G06) was tested and found not t
 
 **Classification:** **Tensional.**
 
-**Confidence/Gravity Cross-Check, strengthened per round-4 review:** the prior draft asserted G05 fails the Supporting/Tensional test "at every level" without pointing to textual grounding as specific as the test given to G04. Grounded now: G05's own **Formation test result reads "Plausible... unestablished,"** never rising to the "Clearly" language G04's Formation result uses even at its narrowest scope (Ignatius's own direct addressees — the same population). Thin, single-voice evidence prevents Primary or confident Supporting classification at any grain; the underlying phenomenon (a real, live, unsettled boundary against contemporary rivals) is exactly what a Tensional gravity is for — a persistent, unresolved pressure that keeps this world's ecology from reading as already-settled orthodoxy, without claiming the organizing weight Primary or Supporting would imply. See G04's entry for the full reusable Supporting/Tensional criterion this classification is tested against.
+**Confidence/Gravity Cross-Check:** G05's own **Formation test result reads "Plausible... unestablished,"** never rising to the "Clearly" language G04's Formation result uses even at its narrowest scope (Ignatius's own direct addressees — the same population). Thin, single-voice evidence prevents Primary or confident Supporting classification at any grain; the underlying phenomenon (a real, live, unsettled boundary against contemporary rivals) is exactly what a Tensional gravity is for — a persistent, unresolved pressure that keeps this world's ecology from reading as already-settled orthodoxy, without claiming the organizing weight Primary or Supporting would imply. See G04's entry for the full reusable Supporting/Tensional criterion this classification is tested against.
 
 ---
 
@@ -187,7 +187,7 @@ Seven candidates were generated and tested. One (G06) was tested and found not t
 - **Formation:** Passes strongly — the central recurring communal ritual.
 - **Explanatory:** Passes strongly — explains real variation in the evidence itself (cup-before-bread vs. institution-narrative forms) and explains why Doc_02 needed an explicit diversity-first calibration in the first place.
 - **Persistence:** Passes across all three regions.
-- **Interaction:** See Section 4 — **now thinner than earlier drafts stated, per round-4 review's full re-derivation; see that section for the honest accounting.**
+- **Interaction:** See Section 4.
 
 **Confidence supporting:** Widely Accepted that these three practices/texts exist and differ from one another; Contested on whether any one is representative or network-wide (the same caution Doc_02/Doc_03 already apply throughout).
 

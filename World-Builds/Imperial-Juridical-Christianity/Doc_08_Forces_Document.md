@@ -176,7 +176,7 @@ Connected forces:
 
 **Gravity: Church-State Alliance and Its Limits** (Primary, Doc_04)
 Connected forces:
-- 1A-1 (Constantine's victory/Edict of Milan): produces this gravity directly — Doc_04: "This gravity is Cell 1A/1B's own direct formation-level consequence" (verified verbatim against Doc_04's own text; an earlier draft of this document altered this quotation and has been corrected).
+- 1A-1 (Constantine's victory/Edict of Milan): produces this gravity directly — Doc_04: "This gravity is Cell 1A/1B's own direct formation-level consequence" (verified verbatim against Doc_04's own text).
 - 1B-1 (pre-existing commitments): produces this gravity jointly with 1A-1, per the same citation.
 - 2A-1 (imperial policy oscillation): destabilizes rather than simply sustains — Doc_04: "under Cell 2A's ongoing forces... this gravity does not hold in a simple, stable form — it fractures and re-forms repeatedly."
 
@@ -276,7 +276,7 @@ The Layer 2 (World's Own Experience) content of Forces 2B-2 and 3B-2 specificall
 
 ### Named-Tension Principle
 
-**Status:** CONFIRMED. Doc_04's own Candidate 3 Confidence/Gravity Cross-Check divergence (Section 7) is carried at full strength, not resolved — corrected after an earlier draft misattributed a different, unsourced causal-weight claim to this same principle.
+**Status:** CONFIRMED. Doc_04's own Candidate 3 Confidence/Gravity Cross-Check divergence (Section 7) is carried at full strength, not resolved.
 
 ### Cross-Cell Connection Principle
 
