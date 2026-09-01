@@ -1,4 +1,11 @@
-# CiC World-Build Completion Standard V1.2
+# CiC World-Build Completion Standard V1.3
+
+**V1.3 change (Change Order, Mark, 2026-09-01; recorded as a Change
+Order, never a silent edit):** section B gains the file-discipline
+read — the pre-pin residue read of the compiled repository.json,
+recorded as a saved artifact at freeze, alongside the placement rules
+(operative fields clean, body notes mandatory, provenance fields
+compiler-stripped, no invented fields).
 
 **V1.2 change (Change Order, Mark, 2026-08-30, after his first pilot
 read; recorded as a Change Order, never a silent edit):** section B
@@ -67,6 +74,14 @@ introduction formula to its answer — the plain name speaks, and
 introducing figures is the system's job (name-bridge mark, then the
 already-introduced signal). Forced fill fails this read the same way
 a word list would.
+
+[V1.3] The file-discipline read recorded at freeze: a residue read of
+the compiled repository.json (no build vocabulary in shipped values -
+work dates, review-pass or model names, thread references, provenance
+asides in operative fields), saved as an artifact beside the gates
+report. A hit is a field-placement defect fixed at the record layer
+with a dated body note, then recompiled. Record BODIES are never part
+of this read - they are the mandated audit trail and never compile.
 
 ## C. Representative-freeze — after world-freeze
 

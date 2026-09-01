@@ -1,4 +1,18 @@
-# CiC Record-Native World Build Process — V1.2 (2026-08-30)
+# CiC Record-Native World Build Process — V1.3 (2026-09-01)
+
+**V1.3 change (Change Order, Mark, 2026-09-01: "all world build and
+active files are free from any comments, notes, corruption, they need
+to be clean for exactly what they exist to do" — then, on the codified
+form, "add the change order"):** file discipline becomes the third
+birth condition of Phase B — see the new subsection at the head of
+Phase B. Cleanliness is a PLACEMENT discipline: operative fields carry
+only what they exist to carry, the record body remains the MANDATORY
+home of dated build notes (stripping it is a governance violation, not
+a cleanup), provenance-by-design fields are written fully and stripped
+by the compiler at package time (engine/m2/builders.py, 2026-09-01),
+no frontmatter field is ever invented to hold a note, and every pin is
+preceded by a residue read of the compiled repository.json. No other
+content changed from V1.2.
 
 **V1.2 change (Change Order, Mark, 2026-08-30, after his first pilot
 read — "i don't see the full 3 level transparency with glossary terms,
@@ -179,6 +193,33 @@ Two conditions, born with the records rather than retrofitted:
   banned from being the load-bearing opening of an exemplar or witness
   answer. Figure records author at least one name whose comma head is
   the name the voice actually says.
+
+**File discipline is a birth condition (V1.3).** Everything in its
+place, nothing else — from the first record, never as a later cleanup.
+Two opposite failures are both real and both prohibited: build language
+littering operative fields (measured fleet-wide at ~250 shipped
+instances before the 2026-09-01 compiler fix), and stripping the
+mandated audit trail (a build thread once flagged record-body notes as
+"forbidden comments" — a category error). Concretely:
+
+- An operative frontmatter field carries ONLY what it exists to carry:
+  no work dates, review-pass or model names, thread references, or
+  provenance asides inside values the runtime or a participant reads.
+- Dated build notes, corrections, and craft reasoning go in the record
+  BODY below the closing fence — mandatory (CO-022), never read by any
+  builder or gate, never compiled.
+- Provenance-by-design fields (search_record fields,
+  why_sources_cannot_answer, modern_lens_note, discovery_channel,
+  narrative_tier_justification) are written fully and honestly; the
+  compiler excludes/strips them from shipped packages.
+- No frontmatter field is ever invented to hold a note; the schema is
+  the field list.
+- Every pin is preceded by a residue read of the compiled
+  repository.json alongside the gates report; a hit is a
+  field-placement defect fixed at the record layer with a dated body
+  note, then recompiled. The grep is visibility; the read is the judge.
+- Build deliverable docs live in the canonical world-build folder,
+  never inside records/, packages/, or engine/.
 
 This is where a record-native build departs from the six worlds' history:
 instead of finishing Phase A and later migrating, each Phase-A document is
