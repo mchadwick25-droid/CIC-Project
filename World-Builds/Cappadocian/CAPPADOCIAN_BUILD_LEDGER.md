@@ -607,3 +607,19 @@ Recompiled all six (`python -m engine.m2.cli build <world>`) from each world's o
 alx, hal, and ijc recompiled fully clean (0 findings, all 15 gates). None of these three worlds' records were edited - per Mark's own explicit instruction not to touch other worlds' content, these stand named for the record, not fixed here. A separate task, not this one.
 
 **Verified fleet-wide after both fixes:** `python -m engine.m2.cli staleness-check` → `"pass": true` for all eight registry entries (fix, the six recompiled worlds, and cappadocian). `pytest engine/m1/tests/` → only the two already-known, already-named Cappadocian frontend-wiring failures remain (§30's portrait/census-status blocker); everything else green.
+
+## 35. Icon object decided: the loaf (2026-09-01)
+
+**What Mark asked:** "is there a item that represents chilo's world like the cup for scattered, or the rope for desert" - naming the established pattern the other five locked icons already carry (`cic-website/assets/world-icons/*.svg`): each Representative's portrait holds one small, DOCUMENTED physical object, distinct from an invented prop. Confirmed the pattern by reading the actual SVG header comments: desert's Papnoute holds the cracked jug ("Abba Moses's jar" - DOCUMENTED per desertstory004); house-churches' Chloe holds the shared cup (grounded in 1 Cor 11, the agape meal, Mark-confirmed 2026-07-18).
+
+**Searched Cappadocian's own record store for an equivalent**, same discipline as the other two (a real object attested in this world's own sources, not invented for the art): no single narrated object is as concrete as a jug or a cup, but bread/the loaf recurs consistently, always at hospitality rather than at the theological circle -
+
+- The brotherhood-day story (`cappadocian.story.brotherhood-day`, sourced to the Asketikon's own Longer/Shorter Rules): "at the door, the rule's own heart was tested: travelers were received, fed, and given a share of whatever the house itself ate, with no lesser portion set aside for the stranger."
+- The famine preaching (`cappadocian.term.pleonexia`, `cappadocian.story.famine-open-barns`, `cappadocian.force.famine-crisis`): "the bread in your cupboard belongs to the hungry" - Basil's own recorded line, work-level attribution (the underlying homily text itself is unverified, per `cappadocian.source.basil-moral-famine-homilies`'s own caveat, though the line's currency is well attested).
+- Already load-bearing in this world's own APPROVED voice content: `cappadocian.voice.craft.md`'s own opener flavor note names it directly as one of three grounding images the voice begins from - *"the water and the Name, the song at the lamps, **the loaf carried to the door**."*
+
+Checked and ruled out the Basileias building itself (Basil's poorhouse-hospital complex, the "New City") as an object candidate - `cappadocian.term.basileias` states plainly "no securely identified physical remains for the complex survive," and a building isn't a hand-held icon prop regardless. Named a lamp (Basil's own documented evening lamp-lighting stand, `cappadocian.story.doxology-stand`) as a secondary, also-grounded alternative, but flagged it as Basil's own act specifically, not Chilo's guest-door role - the loaf fits the Representative's own office more directly.
+
+**Mark's decision:** "go with the loaf."
+
+**Status:** decision recorded; the actual icon artwork is Mark's own task, same as every sibling world's icon (each one hand-illustrated and individually locked by him - see the `V#.#... LOCKED` header convention in `cic-website/assets/world-icons/desert.svg` and `house-churches.svg`). Not created here. When it is, it should carry the same header discipline the others do: the loaf itself DOCUMENTED (cited above), any appearance detail (Chilo's own face, dress, age) marked INFERENCE where it is one, and a `LOCKED` note once Mark approves it - matching `desert.svg`'s and `house-churches.svg`'s own pattern exactly.
