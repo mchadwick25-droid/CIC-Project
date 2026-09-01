@@ -40,7 +40,7 @@
 **Cartouche behavior (per this session's UI discussion):** the label appears on entry — *"A reconstruction, not a photograph"* — then fades within a second or two to a small quiet mark in the Tyrian-purple transparency-apparatus family, sitting in the frame's corner. Hover (tap on phone) resurfaces the short form; click/tap-through gives the full trail — Casa di Diana, Justin's own record, the housing scholarship, named separately, not blended into one unlabeled claim.
 
 **Voiceover (ElevenLabs, Facilitator + Chloe, tagged by origin per this session's convention):**
-> **[Facilitator — WORLD RECORD]** Justin taught in a rented room above a bathhouse here in Rome. **[OUTSIDE SOURCE — Roman housing scholarship]** A room like his sat above shops, one floor of many, holding far more families than any single house could. **[Facilitator, on the image]** What you're seeing is built to match that — real proportions, drawn from a building that still stands in Ostia — but it's a reconstruction. Nobody photographed Justin's room. This is our best honest guess at its shape.
+> **[Facilitator — WORLD RECORD]** Justin taught in a rented room above a bathhouse here in Rome. **[OUTSIDE SOURCE — Roman housing scholarship]** A room like his sat above shops, one floor of many, holding far more families than any single house could. **[Facilitator, on the image]** What you're seeing is built to match that — real proportions, drawn from a building that still stands in Ostia. But it's a reconstruction. Nobody photographed Justin's room. This is our best honest guess at its shape.
 >
 > **[Chloe]** Come in. Stand by the wall — you can see the whole room from there. We keep it this way before anyone arrives.
 
@@ -106,9 +106,9 @@
 
 **The threshold, spoken once (Facilitator, before Stop 0's Door begins):**
 
-> This is one of pahc's own mornings, written down, not imagined — Justin, a Christian in Rome, described it to the emperor himself, around 155 CE. This is Rome's own morning, as he told it, not a template for how every community like his gathered — in Antioch, in the cities of Asia, the meal was kept in other shapes. Where he wrote something, it's shown here. Where he didn't, nothing fills the gap. Chloe and the reader's voice are performed with a Greek accent, to mark this as a Greek-speaking world — not a claim about how anyone here actually sounded; nothing like that survives. You can leave at any point.
+> This is one of pahc's own mornings, written down, not imagined. Justin, a Christian in Rome, described it to the emperor himself, around 155 CE. This is Rome's own morning, as he told it. It is not a template for how every community like his gathered. In Antioch, in the cities of Asia, the meal was kept in other shapes. Only what he wrote is shown here. Where he said nothing, nothing fills the gap. Chloe and the teaching voice are performed with a Greek accent, to mark this as a Greek-speaking world — not a claim about how anyone here actually sounded. Nothing like that survives. You can leave at any point.
 
-112 words. Folds in the Greek-accent disclosure the Production Stack section already required "at Beat 0, spoken once, not buried" — never actually placed anywhere until now — rather than inventing a second moment for it. Stop 0's own voiceover (Facilitator + Chloe, already drafted above) follows immediately after, unchanged; nothing here duplicates it — this beat covers the tour's sourcing and scope, Stop 0 covers the room.
+113 words. Folds in the Greek-accent disclosure the Production Stack section already required "at Beat 0, spoken once, not buried" — never actually placed anywhere until now — rather than inventing a second moment for it. Stop 0's own voiceover (Facilitator + Chloe, already drafted above) follows immediately after, unchanged; nothing here duplicates it — this beat covers the tour's sourcing and scope, Stop 0 covers the room.
 
 **The closing, drafted (Chloe's plain-voice content is RULING 2's own locked script, carried forward verbatim — not rewritten):**
 
@@ -122,7 +122,7 @@
 >
 > **Facilitator:** [the RULING 7 offer — three confirmed lines, unchanged, inserted here]
 >
-> **Facilitator (closing note):** Only what the evidence gives, and a plain word where it runs out. That's the rule here — for this world, and for every one of them.
+> **Facilitator (closing note):** That is the rule here: only what the evidence gives, and a plain word where it runs out.
 >
 > *Return-to-conversation handoff.*
 
@@ -326,10 +326,10 @@ Revises the old demo's "Representative stays unvoiced" rule — deliberately, no
 
 ## Open before this builds
 
-1. Mark's word-level read of all new/changed voiceover lines (Stop 0, Stop 7's reframed opening) — same discipline as every other piece of participant-facing prose in this project.
+1. **Claude's word-level read done (2026-09-01), Mark's own final read still open:** Stop 0's voiceover, checked against the fleet voice register statements (`records/_fleet/fleet_voice/_fleet.voice.fleet.md`) and this document's own established conventions. One real fix applied — the Facilitator's "on the image" line joined two ideas across a double em-dash ("built to match that... but it's a reconstruction"), split into two sentences for register statement 3 ("one idea per sentence"). "Stop 7's reframed opening" (the shorter Stop 7 variant a few sections below) is no longer live content — RULING 8's closing beat uses RULING 2's fuller script instead, so this item no longer applies to it; that reframed text is now orphaned draft material, not part of the current flow.
 2. ~~Whether "House-Churches" as this world's name stays as-is or shifts toward "Household" language~~ — **DECIDED, same session:** `card_name` is now "The Scattered Churches" (an Opus review found a better answer than either original option — see the decision log's 2026-09-01 naming addendum). This document's own prose above still says "House-Churches" in a few narrative spots; those are fine to leave as historical description of the world's older name where they're quoting old assets, but any newly-written participant-facing tour copy should use "Scattered Churches" going forward.
 3. First real render of Stop 0 in Luma Ray3, checked against the source stack before it's treated as final — a generated result needs the same verification pass a citation would get.
-4. **Drafted (RULING 8), not yet confirmed:** the threshold/consent framing and the honest-absence reflection ("What We Cannot Show You") plus closing are now written — needs Mark's word-level read, same as item 1, before being treated as locked the way RULING 7's offer text now is.
+4. **Claude's word-level read done (2026-09-01), Mark's own final read still open:** RULING 8's threshold and closing beats. Three real fixes applied on inspection — see RULING 8's own text for detail (the accent-disclosure line had drifted from its already-locked wording; the Facilitator closing note had picked up an unauthorized addition; the new threshold framing joined ideas across em-dashes where the original two-sentence structure it was adapted from should have been kept). What's left is Mark's own confirmation, same as RULING 7's offer text got — a careful editorial pass isn't a substitute for that.
 5. **Not yet drafted:** the actual Facilitator-voice offer script beyond the three lines confirmed this session (RULING 7) — those three lines are the confirmed core, but the surrounding beat (how a participant actually triggers/dismisses the offer in the flow) isn't written.
 6. **Build-time, not content:** the UI interaction shape for the RULING 7 offer (panel / second screen / card menu) — explicitly left open in RULING 7 itself, for whoever builds this stage.
 7. RULING 5's own build request still has no independently verified direct quote from Mark, unlike RULINGs 1–4 and 6 — flagged there, not yet resolved.

@@ -383,7 +383,7 @@ Threshold framing:        [what this tour is / what it's built from / what it wi
                            character's own spoken lines. pahc's own drafted model
                            (RULING 8, same document): "This is one of pahc's own
                            mornings, written down, not imagined... This is Rome's own
-                           morning, as he told it, not a template for how every
+                           morning, as he told it. It is not a template for how every
                            community like his gathered... You can leave at any
                            point." Delivered once, before the first beat, then the
                            Representative's own in-voice narration begins.]
