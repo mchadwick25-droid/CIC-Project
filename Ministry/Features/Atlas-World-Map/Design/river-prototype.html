@@ -61,9 +61,18 @@ svg#world{display:block}
    they make room for neighbors, they don't stay in lanes) otherwise means
    whichever river paints last simply erases the other where they cross. Multiply
    blend lets both show through as a darker confluence instead, and against the
-   light era grounds it barely changes a river's own color where it's alone. */
+   light era grounds it barely changes a river's own color where it's alone.
+   Dark theme inverts the whole premise -- lighter pigment on a near-black
+   ground, not dark ink on parchment -- so "darken" there took the minimum of
+   a light river color against an almost-black backdrop and crushed every
+   river to that backdrop: invisible, not just at crossings, everywhere.
+   "lighten" (per-channel max) is darken's mirror for a light-on-dark palette. */
 .river-calm{transition:opacity .35s ease;mix-blend-mode:darken}
 .river-organic{transition:opacity .35s ease;mix-blend-mode:darken}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .river-calm,
+  :root:not([data-theme="light"]) .river-organic{mix-blend-mode:lighten}}
+:root[data-theme="dark"] .river-calm,
+:root[data-theme="dark"] .river-organic{mix-blend-mode:lighten}
 .node{cursor:pointer}
 .node:hover circle.halo{opacity:.35}
 .node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
