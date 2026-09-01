@@ -582,6 +582,35 @@ ENTRIES: tuple[TextEntry, ...] = (
               "and garbled proper nouns throughout - flagged in the file's own header; any specific "
               "quotation drawn from it needs visual cross-check against its own surrounding text "
               "before being relied on for a verbatim claim."),
+    TextEntry("optatus_libri-vii-critical_ziwsa1893.txt", "Mark", "2026-09-01",
+              "Karl Ziwsa (ed.), S. Optati Milevitani libri VII, accedunt decem monumenta vetera ad "
+              "Donatistarum historiam pertinentia, CSEL 26 (Prague/Vienna/Leipzig: F. Tempsky / "
+              "G. Freytag, 1893) - the public-domain critical Latin edition of Optatus's own work, "
+              "Donatism world-build Source_Acquisition_Manifest.md §1 request G2 (Source_Registry.md "
+              "row 38; the critical-Latin counterpart to the already-vendored 1917 Vassall-Phillips "
+              "English translation at optatus_against-the-donatists.txt, row 1). Manually downloaded "
+              "by Mark from archive.org per the G1 acquisition-gate decision's continuing channel, "
+              "2026-09-01, and supplied as a DOCX file attachment - the same network-egress-blocked "
+              "acquisition channel used for G1. Converted mechanically via a zip/XML text extraction "
+              "(paragraph boundaries preserved from </w:p> splits) - no content passed through "
+              "model-generated output. The archive.org website's own page-navigation chrome (16 lines: "
+              "site header/menu links, the 'Full text of ...' banner, the 'See other formats' link) "
+              "was stripped at vendoring by matching the literal 'See other formats' marker line; "
+              "everything from that point on is unedited raw OCR output, including a Google Books "
+              "scanner disclaimer page (this item is a Google Books scan hosted on archive.org, not a "
+              "native Internet Archive scan) and the library's own due-date slip at the very end. "
+              "RIGHTS: the Google Books disclaimer page carries an explicit public-domain finding in "
+              "its own words ('It has survived long enough for the copyright to expire and the book to "
+              "enter the public domain'), which is what the prepended header's Rights basis cites, "
+              "alongside the independent 1893-publication-date grounds. Confirmed this session as the "
+              "genuine CSEL 26 edition: the title page (CORPUS SCRIPTORUM ECCLESIASTICORUM LATINORUM, "
+              "VOL. XXVI, EX RECOGNITIONE CAROLI ZIWSA, MDCCCLXXXXIII) and the Gesta Purgationis Felicis "
+              "appendix document are both present and correctly identified. OCR QUALITY: raw and "
+              "uncorrected, with a systematic 'e'->'c' OCR misread visible even in the scanner's own "
+              "disclaimer page, and a dense sigla-heavy Latin apparatus criticus that OCR handles worse "
+              "than running prose - flagged in the file's own header; any specific quotation drawn from "
+              "it needs visual cross-check against its own surrounding text before being relied on for "
+              "a verbatim claim."),
 )
 
 
