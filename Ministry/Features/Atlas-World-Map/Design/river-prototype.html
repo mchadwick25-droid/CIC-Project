@@ -54,8 +54,13 @@ svg#world{display:block}
 .era-label,.era-tag{paint-order:stroke;stroke:var(--parchment);stroke-width:5px;stroke-linejoin:round}
 .era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:var(--gold-leaf)}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:var(--ink-faded)}
-.river-calm{transition:opacity .35s ease}
-.river-organic{transition:opacity .35s ease}
+/* Multiply, not stack: two opaque fills winding into the same space (rule 3 --
+   they make room for neighbors, they don't stay in lanes) otherwise means
+   whichever river paints last simply erases the other where they cross. Multiply
+   blend lets both show through as a darker confluence instead, and against the
+   light era grounds it barely changes a river's own color where it's alone. */
+.river-calm{transition:opacity .35s ease;mix-blend-mode:darken}
+.river-organic{transition:opacity .35s ease;mix-blend-mode:darken}
 .node{cursor:pointer}
 .node:hover circle.halo{opacity:.35}
 .node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
