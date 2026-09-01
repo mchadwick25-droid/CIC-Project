@@ -180,16 +180,21 @@ Harsh-Content Notice?    [Yes/No. Yes only where harsh material is a DEFINING
                            feature of this specific beat — the reading or
                            narration centers on condemnation, threat, exclusion,
                            or warning, not merely touches it in passing within a
-                           beat that is warm or neutral overall. RULING 6's
-                           Trallians reading warrants it (four of thirteen
+                           beat that is warm or neutral overall. pahc's
+                           Trallians reading (RULING 6) warrants it (four of thirteen
                            chapters structurally organized around condemning
                            heresy and schism); a beat that is mostly pastoral
                            warmth with one hard clause inside it does not. Do
                            not mark Yes reflexively because the source document
-                           somewhere contains harsh material, or because this
-                           project's own corpus survey found such language
-                           common — judge THIS beat's own center of gravity, not
-                           the source's reputation. Overuse defeats the notice:
+                           somewhere contains harsh material, or because some
+                           OTHER world's corpus turned out to run hard — judge
+                           THIS world's own sources and THIS beat's own center
+                           of gravity, not another world's reputation or this
+                           one's. Most worlds will have some, many, or no beats
+                           marked Yes at all, and a manifest with zero Yes beats
+                           is not an unused feature — it correctly reports that
+                           this world's own sources did not warrant it. Overuse
+                           defeats the notice:
                            if most beats carry it, none of them mean anything by
                            it. See the Harsh-Content Notice Pattern below. If
                            Yes, complete both lines; if No, leave both blank.]
@@ -254,13 +259,20 @@ entirely from Complete-status beats (RULING 6's model — a full letter, unedite
 nothing to disclose here beyond marking every beat Complete; that is itself a valid,
 even preferable, choice where the source's length allows it.
 
-**Harsh-Content Notice Pattern (added per RULING 6, same document):** the corpus
-survey behind RULING 6 found that harsh warning, exclusion, or condemnation language
-is a real, recurring feature of pahc's own pinned sources — not a rare exception one
-tour might stumble into. Where a beat carries that kind of material, this project's
-standing rule is Mark's own: *"there may be harsh statements that are authentic to
-the source, we don't hide or mitigate it."* The Harsh-Content Notice exists to make
-that rule visible in the product, not just true in the sourcing — using the same
+**Harsh-Content Notice Pattern — a standing tour principle, for every world, not a
+pahc rule (first built out per RULING 6, `CiC_Tour_PAHC_Worship_Service_V3_
+2026-09-01.md`):** this project's standing rule is Mark's own, stated as a general
+principle for everything the project builds, not a finding about one world:
+*"there may be harsh statements that are authentic to the source, we don't hide or
+mitigate it."* pahc is where this was first tested, because a tone survey of its own
+pinned corpus found harsh warning/condemnation language genuinely common there — but
+the principle applies to any world, and does not presume every world's sources look
+like pahc's. A world whose own record carries little or none of this kind of
+material will simply have few or no beats marked Yes, and that is the correct,
+expected outcome for that world, not a sign the mechanism went unused. The
+Harsh-Content Notice exists to make the rule visible in the product wherever a
+world's own sources actually warrant it, not just true in the sourcing — using the
+same
 appear-then-fade interaction RULING 4 already specified for Stop 0's reconstruction
 label, applied here to a second purpose. It fires once, at the start of the beat, so
 a participant is told before they read or hear the material, not left to discover
@@ -272,15 +284,24 @@ warning that the source is genuinely hard here, never an apology for showing it,
 never a softening of the words themselves — the notice sits beside the reading, it
 does not edit it.
 
-**Restraint, not reflex (Mark, this session: "only add the harsh notice if the
-material warrents it, not every time"):** that the corpus runs hard often does not
-mean the notice should fire often. The notice is a signal a participant should be
-able to trust — it should mean "this specific beat centers on hard material," not
-"somewhere in this world's sources, something like this exists." A tour that fires
-it on every third beat has made it wallpaper, and a participant stops reading it,
-which defeats the whole purpose RULING 6 built it for. Reserve it for beats where
-the harsh material is genuinely load-bearing to that beat, the same bar RULING 6's
-own Trallians reading was checked against before being marked Yes.
+**Restraint, not reflex (Mark, this session: "this is for everything we do not
+just this tour, we are setting tour principles, not every world has harsh
+statements... only add the harsh notice if the material warrents it, not every
+time"):** two separate things, both true, for every world this template governs.
+First: this is a tour-wide, world-wide principle, not a pahc feature — every future
+tour, for whatever world it serves, inherits the same standard. Second: applying a
+principle everywhere does not mean triggering it everywhere — a world whose own
+sources run gentle should show mostly or entirely No on this field, honestly,
+without a builder feeling obligated to find something to flag. That one world's own
+corpus runs hard often does not mean the notice should fire often, even within that
+world's own tour. The notice is a signal a participant should be able to trust — it
+should mean "this specific beat centers on hard material," not "somewhere in this
+world's sources, something like this exists," and never "the project has a policy
+about this so here it is regardless of world." A tour that fires it on every third
+beat has made it wallpaper, and a participant stops reading it, which defeats the
+purpose across every world using it. Reserve it for beats where the harsh material
+is genuinely load-bearing to that beat, the same bar pahc's own Trallians reading
+(RULING 6) was checked against before being marked Yes.
 
 ---
 
