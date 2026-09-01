@@ -58,8 +58,18 @@ The accent decline and the singing decline (Pliny, the ministrae, their cost) ca
 
 - **Editing/timeline:** DaVinci Resolve.
 - **Reconstructed visuals:** Luma Ray3 (image-to-video), grounded in real reference photography — Casa di Diana chief among them for this stop.
-- **Narration:** ElevenLabs, replacing the existing demo's edge-tts, same register and disclosure conventions (modern reading, no accent claimed).
+- **Narration:** ElevenLabs (Mark has an account/subscription; direct API access from this build environment is confirmed blocked by network policy — audio generated on elevenlabs.io directly, files handed off for integration).
 - **Real, unreconstructed assets** (Ostia street, Rylands Papyrus P52, the carbonized loaf) carry forward from the existing demo unchanged — no reason to touch what's already real, licensed, and correctly labeled.
+
+### Voice casting, decided
+
+Revises the old demo's "Representative stays unvoiced" rule — deliberately, not by drift. That rule existed to protect the *live conversation*, where Chloe is always text, for every participant; a tour is a separate, bounded, produced artifact, so it doesn't carry the same risk. Three distinct voices:
+
+- **Chloe (host)** — female, Greek-accented English. Warm but restrained, unhurried pacing, not bright or commercial-sounding — she's hosting, not performing.
+- **The teaching/primary-source voice** (used only when an actual ancient text is read in its own right — the Didache's Two Ways teaching, Justin's own account — never Chloe's or the Facilitator's words) — male, Greek-accented English. Distinct from Chloe's voice so a participant can tell "this is someone else's actual words" without being told.
+- **The Facilitator** — female, English (British) accent. Deliberately a different accent family from the two in-world voices — the contrast itself signals register: this voice is the outside, modern, procedural one, not part of the scene.
+
+**Why Greek, not a generic "ancient/Middle Eastern" accent:** these communities really did speak Koine Greek — that's documented, not invented — so a Greek accent is anchored to something true about this world specifically, rather than borrowing an unrelated modern culture's voice as generic "otherness" the way a non-specific accent choice would. Still requires its own honest disclosure, same discipline as every other choice on this list — **a line at Beat 0, spoken once, not buried:** *"Chloe and the teaching voice are performed with a Greek accent, to mark this as a Greek-speaking world — not a claim about how anyone here actually sounded. Nothing like that survives."*
 
 ## Open before this builds
 
