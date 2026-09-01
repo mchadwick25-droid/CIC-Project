@@ -47,6 +47,11 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 #stage{position:absolute;inset:0;touch-action:none;cursor:grab}
 #stage.grabbing{cursor:grabbing}
 svg#world{display:block}
+/* Halo, not just a fill: gold-leaf is also FAM's Syriac-East river hue, so a solid
+   river passing under this corner at full pigment can otherwise erase the label --
+   same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible
+   over whatever's underneath, the way a map halos its place-names. */
+.era-label,.era-tag{paint-order:stroke;stroke:var(--parchment);stroke-width:5px;stroke-linejoin:round}
 .era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:var(--gold-leaf)}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:var(--ink-faded)}
 .river-calm{transition:opacity .35s ease}
@@ -19692,6 +19697,13 @@ const isDark=()=>document.documentElement.getAttribute('data-theme')==='dark'||
   (matchMedia('(prefers-color-scheme: dark)').matches&&document.documentElement.getAttribute('data-theme')!=='light');
 const famColor=f=>isDark()?f.cd:f.c;
 
+// Pigment levels. Rivers stay solid at every zoom (opacity is not the honesty signal --
+// built-vs-not is carried by the node dots, not the water). Edges are the opposite:
+// full strength only at full extent (ambient texture) or on demand (hover), because
+// all 69 at once, at a zoom meant for reading one river, is a wiring diagram.
+const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;
+const EDGE_CALM_OP=0.4, EDGE_ORGANIC_OP=0.05, EDGE_ACTIVE_OP=0.85;
+
 /* ---- Real era grounds, from the census's own eras[] ---- */
 const eraLight=['#EFDDB3','#E3E0CB','#D8E4E5'], eraDark=['#241A0C','#1E1C16','#151A1E'];
 function eraGround(i){return isDark()?eraDark[i%3]:eraLight[i%3];}
@@ -19853,26 +19865,35 @@ function render(){
     gLabels.appendChild(tag);
   });
 
-  // Rivers -- calm (generalized) + organic (full detail), cross-faded by zoom (rule 8)
+  // Rivers -- calm (generalized) + organic (full detail), cross-faded by zoom (rule 8).
+  // Pigment, not a wash: the anti-ghost principle (figures read solid/warm/present,
+  // never glowing/translucent) applies just as much to the water as to the people --
+  // a river this faint against parchment reads as a pastel stain, not ink on a page.
   laneKeys.forEach(k=>{
     const f=famOf(k), col=famColor(f);
-    const calm=el('path',{d:riverPath(k,0), fill:col, opacity:0.30, class:'river-calm'});
-    const organic=el('path',{d:riverPath(k,1), fill:col, opacity:0.36, class:'river-organic'});
+    const calm=el('path',{d:riverPath(k,0), fill:col, opacity:RIVER_CALM_OP, class:'river-calm'});
+    const organic=el('path',{d:riverPath(k,1), fill:col, opacity:RIVER_ORGANIC_OP, class:'river-organic'});
     calm.dataset.lane=k; organic.dataset.lane=k;
     gRivers.appendChild(calm); gRivers.appendChild(organic);
   });
 
-  // Edges -- quiet marks, confidence in the line, never a claim the census doesn't carry
+  // Edges -- quiet marks, confidence in the line, never a claim the census doesn't carry.
+  // At full extent, 69 of them read as fine cross-hatching across the whole sheet --
+  // fine. Zoomed in to read one river, all 69 straight lines at once read as a wiring
+  // diagram laid over the water. So edges fade to near-nothing once zoomed past the
+  // same threshold that switches rivers to organic detail, and a hovered node brings
+  // back only its own connections -- on demand, not all-at-once.
   DATA.edges.forEach(edg=>{
     const a=byId[edg.from], b=byId[edg.to]; if(!a||!b)return;
     const dash = edg.confidence==='Contested' ? '2,3' : edg.confidence==='Widely Accepted' ? '6,3' : 'none';
     const line=el('path',{
       d:`M ${a._x.toFixed(1)} ${a._y.toFixed(1)} Q ${((a._x+b._x)/2).toFixed(1)} ${((a._y+b._y)/2-14).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`,
-      fill:'none', stroke:'var(--iron-gall)', 'stroke-width':1.1, opacity:0.4,
+      fill:'none', stroke:'var(--iron-gall)', 'stroke-width':1.1, opacity:EDGE_CALM_OP,
       'stroke-dasharray':dash, class:'edge-line'
     });
-    line.addEventListener('mouseenter',(ev)=>showTip(ev,`<div class="n">${a.shortName||a.name} ↔ ${b.shortName||b.name}</div><div class="m">${edg.type} · ${edg.confidence}</div><div class="s">${esc(edg.note).slice(0,140)}${edg.note.length>140?'…':''}</div>`));
-    line.addEventListener('mouseleave',hideTip);
+    line.dataset.from=edg.from; line.dataset.to=edg.to;
+    line.addEventListener('mouseenter',(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,`<div class="n">${a.shortName||a.name} ↔ ${b.shortName||b.name}</div><div class="m">${edg.type} · ${edg.confidence}</div><div class="s">${esc(edg.note).slice(0,140)}${edg.note.length>140?'…':''}</div>`);});
+    line.addEventListener('mouseleave',()=>{line.style.opacity=line.dataset.baseline;hideTip();});
     line.addEventListener('click',()=>openPanelEdge(edg,a,b));
     gEdges.appendChild(line);
   });
@@ -19888,9 +19909,17 @@ function render(){
       stroke: built?'var(--iron-gall)':'none', 'stroke-width':built?1:0,
       opacity: built?1:0.55});
     g.appendChild(halo); g.appendChild(dot);
-    g.addEventListener('mouseenter',(ev)=>{halo.setAttribute('opacity','.35');showTip(ev,tipFor(m));});
+    g.addEventListener('mouseenter',(ev)=>{
+      halo.setAttribute('opacity','.35');showTip(ev,tipFor(m));
+      document.querySelectorAll(`.edge-line[data-from="${m.id}"],.edge-line[data-to="${m.id}"]`)
+        .forEach(p=>p.style.opacity=EDGE_ACTIVE_OP);
+    });
     g.addEventListener('mousemove',(ev)=>positionTip(ev));
-    g.addEventListener('mouseleave',()=>{halo.setAttribute('opacity','0');hideTip();});
+    g.addEventListener('mouseleave',()=>{
+      halo.setAttribute('opacity','0');hideTip();
+      document.querySelectorAll(`.edge-line[data-from="${m.id}"],.edge-line[data-to="${m.id}"]`)
+        .forEach(p=>p.style.opacity=p.dataset.baseline);
+    });
     g.addEventListener('click',(ev)=>{ev.stopPropagation();openPanel(m);});
     gNodes.appendChild(g);
 
@@ -19961,9 +19990,14 @@ const MIN_S=0.06, MAX_S=3.2, DETAIL_THRESHOLD=0.34;
 function applyTransform(){gRoot.setAttribute('transform',`translate(${tx},${ty}) scale(${scale})`);}
 function applyDetail(){
   const organic = scale>DETAIL_THRESHOLD;
-  document.querySelectorAll('.river-calm').forEach(p=>p.style.opacity=organic?0:0.30);
-  document.querySelectorAll('.river-organic').forEach(p=>p.style.opacity=organic?0.36:0);
+  document.querySelectorAll('.river-calm').forEach(p=>p.style.opacity=organic?0:RIVER_CALM_OP);
+  document.querySelectorAll('.river-organic').forEach(p=>p.style.opacity=organic?RIVER_ORGANIC_OP:0);
   document.querySelectorAll('#nodes .lbl').forEach(t=>t.style.display=organic?'block':'none');
+  document.querySelectorAll('.edge-line').forEach(p=>{
+    const base=organic?EDGE_ORGANIC_OP:EDGE_CALM_OP;
+    p.dataset.baseline=base;
+    p.style.opacity=base;
+  });
 }
 function centerView(){
   scale=Math.min(window.innerWidth/(CANVAS_W*1.05), window.innerHeight/(CANVAS_H*0.14));
