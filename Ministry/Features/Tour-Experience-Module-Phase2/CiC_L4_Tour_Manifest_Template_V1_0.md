@@ -193,7 +193,29 @@ Source cartouche         [one line: citation + tier + confidence label, in this
 
 Source cartouche         [the full source note — what a participant sees on click]
 — full (click):
+
+Curation status          [Complete / Curated — see the Curation-Disclosure Note
+(required if this            below. If Curated, this line must also name what the
+beat quotes a real            source contains beyond what's shown here, in one
+source document):             sentence — not just that a selection was made.]
 ```
+
+**Curation-Disclosure Note (added per RULING 6, `CiC_Tour_PAHC_Worship_Service_V3_
+2026-09-01.md`):** any beat whose narration or reading quotes a real source document
+must state, in its full-click cartouche, whether the quotation is **Complete** (the
+whole document, nothing selected in or out) or **Curated** (chosen from a longer
+document, for register, length, or fit). A Curated line must also say, in one
+sentence, that the source contains material beyond what's shown — not merely that a
+choice was made, but honestly gesturing at what the choice left out (tone, subject,
+or both), the same discipline RULING 4 applied to skipping the Corinthian dispute
+chapters and RULING 5 applied to skipping Chapters XXXVII–XLVIII. This is a
+*selection* disclosure, distinct from the tier/confidence label the short cartouche
+already carries: a participant should never be able to reasonably mistake a
+curated-warm reading, or a curated-harsh one, for a representative sample of its
+source's full range without the manifest having said so plainly. A tour built
+entirely from Complete-status beats (RULING 6's model — a full letter, unedited) has
+nothing to disclose here beyond marking every beat Complete; that is itself a valid,
+even preferable, choice where the source's length allows it.
 
 ---
 
@@ -346,6 +368,10 @@ Confirm each before this manifest may enter review:
       threshold.
 - [ ] **Decline Stop is sourced, not generic** — every declined item cites a real
       absence in the world's own record.
+- [ ] **Curation disclosed** — every beat that quotes or reads a real source states
+      its Curation status (Complete/Curated) in the full-click cartouche; every
+      Curated beat also names, in one sentence, what the source contains beyond
+      what's shown (see the Curation-Disclosure Note above).
 
 ---
 
@@ -451,6 +477,9 @@ fresh argument from primary sources.
    credit line.
 8. **Register-banner persistence and entry/exit mechanics** — present, correctly
    worded for the class, and exit is genuinely available at every beat.
+9. **Curation disclosed** — every beat quoting a real source carries a Curation
+   status; every Curated beat names what the source holds beyond what's shown, not
+   just that a choice was made.
 
 Disposition vocabulary matches the project's existing standard exactly: a manifest
 under construction carries **"DRAFT — pending independent adversarial review"**; a
