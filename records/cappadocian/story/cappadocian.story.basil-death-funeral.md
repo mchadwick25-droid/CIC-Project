@@ -1,6 +1,6 @@
 ---
 id: cappadocian.story.basil-death-funeral
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: story
 schema_version: 2
 status: draft

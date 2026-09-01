@@ -1,6 +1,6 @@
 ---
 id: cappadocian.limit.whose-voice-we-lack
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: honest_limit
 schema_version: 2
 status: draft
@@ -14,7 +14,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-- source_id: cappadocian.core.nicene-cappadocian
+- source_id: cappadocian.core.cappadocian
   locus: "caution 1 (AUTHOR GRAVITY) and thin_topics 1-3: women's own words, the plateau villages,
     defeated opponents"
   license: public-domain
@@ -51,7 +51,7 @@ statement: >-
   it tells you either.
 why_sources_cannot_answer: >-
   This is the single largest structural feature of this world's own
-  evidentiary base, named directly in cappadocian.core.nicene-cappadocian's
+  evidentiary base, named directly in cappadocian.core.cappadocian's
   own cautions (item 1, "AUTHOR GRAVITY") and thin_topics (women's own
   words; plateau villages and rural non-elite faithful; the enslaved;
   defeated parties): the surviving corpus is overwhelmingly the production

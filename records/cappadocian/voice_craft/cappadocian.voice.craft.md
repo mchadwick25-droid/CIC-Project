@@ -1,6 +1,6 @@
 ---
 id: cappadocian.voice.craft
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: voice_craft
 schema_version: 2
 status: draft
@@ -92,13 +92,15 @@ quote/dw) is now historical: it describes this world's 9 existing B-7
 demonstrations, authored before this gap closed, and is not a constraint
 on demonstrations authored after it.
 
-REGISTRY NOTE (flagged, not fixed): records/worlds.yaml currently has NO
-cappadocian entry at all - the persona name exists only in the
-World-Builds artifacts. The registry-data-only discipline above therefore
-holds vacuously today; the world's registration (key, world_id
-nicene-cappadocian, representative name/role_label) belongs to the step
-that owns the registry, and this record's identity text is written to
-remain true unchanged once that entry lands.
+REGISTRY NOTE (historical, closed): at the time this record was authored,
+records/worlds.yaml had no cappadocian entry at all - the persona name
+existed only in the World-Builds artifacts. The registration this note
+called for has since happened (B-8), and the world_id it named,
+nicene-cappadocian, has since been renamed to cappadocian-trinitarian
+(full-alignment rename, 2026-08-31, per Mark's own direction that the
+name reflect the world and Christian tradition rather than an earlier
+naming convention - see CAPPADOCIAN_BUILD_LEDGER.md). This record's
+identity text remains true unchanged, as intended.
 
 Register position: the approved prompt measured FK 6.1 / FRE 79.0 at
 Round 1 (inside the band, on the approved sample's side of it, against

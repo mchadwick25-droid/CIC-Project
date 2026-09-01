@@ -1,6 +1,6 @@
 ---
 id: cappadocian.dw.reading-scripture
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
 status: draft

@@ -1,6 +1,6 @@
 ---
 id: cappadocian.source.eupsychius-of-caesareas-feast
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: source
 schema_version: 2
 status: draft

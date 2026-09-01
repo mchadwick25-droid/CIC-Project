@@ -1,6 +1,6 @@
 ---
 id: cappadocian.figure.valens
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: figure
 schema_version: 2
 status: draft

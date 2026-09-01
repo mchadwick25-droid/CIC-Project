@@ -1,6 +1,6 @@
 ---
 id: cappadocian.contested.homoian-nicene-reversal
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: contested_claim
 schema_version: 2
 status: draft

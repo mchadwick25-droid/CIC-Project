@@ -1,6 +1,6 @@
 ---
 id: cappadocian.dw.a-stranger-weather
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
 status: draft
@@ -31,7 +31,7 @@ sources:
 - source_id: cappadocian.figure.julian
   locus: "his own rescript accusing Christian teachers of dishonesty"
   license: public-domain
-- source_id: cappadocian.core.nicene-cappadocian
+- source_id: cappadocian.core.cappadocian
   locus: "caution 7: what this world's leaders did with power after 381 is thinly documented"
   license: public-domain
 retrieval:

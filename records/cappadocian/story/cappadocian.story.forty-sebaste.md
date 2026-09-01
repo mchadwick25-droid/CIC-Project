@@ -1,6 +1,6 @@
 ---
 id: cappadocian.story.forty-sebaste
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: story
 schema_version: 2
 status: draft

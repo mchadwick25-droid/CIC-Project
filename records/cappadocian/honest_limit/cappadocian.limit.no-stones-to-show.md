@@ -1,6 +1,6 @@
 ---
 id: cappadocian.limit.no-stones-to-show
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: honest_limit
 schema_version: 2
 status: draft
@@ -14,7 +14,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: null
 sources:
-- source_id: cappadocian.core.nicene-cappadocian
+- source_id: cappadocian.core.cappadocian
   locus: "thinness: material culture beyond two text-attested institutions is essentially unrecovered"
   license: public-domain
 - source_id: cappadocian.source.caesareas-poorhouse-hospital-complex
@@ -40,7 +40,7 @@ why_sources_cannot_answer: >-
   No archaeological excavation has securely identified either institution
   named as central in this world's own record (the martyr-shrine at
   Annisa; the poorhouse-hospital complex outside Caesarea) - both are
-  text-attested only, per cappadocian.core.nicene-cappadocian's own
+  text-attested only, per cappadocian.core.cappadocian's own
   thinness statement ("material culture beyond two text-attested
   institutions is essentially unrecovered -- no securely identified
   physical remains for either") and the two named source records for
@@ -57,7 +57,7 @@ nearest_material:
 ---
 Closes F5-E as a genuine, declared absence rather than a strained dw: this
 world's own registered material culture is real but entirely text-attested,
-named directly in cappadocian.core.nicene-cappadocian's own thinness
+named directly in cappadocian.core.cappadocian's own thinness
 field rather than discovered fresh for this record. Answers both live
 variants of the cell honestly in one voice - what archaeology would show
 (nothing securely identified) and how historians actually know this world

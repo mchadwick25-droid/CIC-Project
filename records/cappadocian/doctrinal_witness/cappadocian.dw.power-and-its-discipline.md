@@ -1,6 +1,6 @@
 ---
 id: cappadocian.dw.power-and-its-discipline
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
 status: draft
@@ -18,7 +18,7 @@ confidence:
     (world_core caution 7), is what this world's own leaders did with that power in the years right
     after - this record does not claim to know what it does not know.
 sources:
-- source_id: cappadocian.core.nicene-cappadocian
+- source_id: cappadocian.core.cappadocian
   locus: "caution 7: what leaders did with power after 381 is thinly documented"
   license: public-domain
 - source_id: cappadocian.contested.homoian-nicene-reversal

@@ -1,6 +1,6 @@
 ---
 id: cappadocian.force.persecutions-nearness
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: force
 schema_version: 2
 status: draft

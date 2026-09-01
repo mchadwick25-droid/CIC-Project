@@ -1,6 +1,6 @@
 ---
 id: cappadocian.dw.cost-and-the-letters-that-held-us
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
 status: draft
@@ -26,7 +26,7 @@ sources:
 - source_id: cappadocian.force.family-archive-transmission
   locus: "the circle's own letters copied through episcopal-ascetic networks"
   license: public-domain
-- source_id: cappadocian.core.nicene-cappadocian
+- source_id: cappadocian.core.cappadocian
   locus: "formation_logic: authority running through distributed, portable carriers rather than a
     stable center"
   license: public-domain
@@ -64,6 +64,6 @@ tensions:
   fully hear
 ---
 Closes F5-P. The letters-as-what-held-us-together claim is drawn directly
-from cappadocian.core.nicene-cappadocian's own formation_logic
+from cappadocian.core.cappadocian's own formation_logic
 ("Authority runs through distributed, portable carriers... rather than a
 stable institutional center") rather than asserted independently of it.

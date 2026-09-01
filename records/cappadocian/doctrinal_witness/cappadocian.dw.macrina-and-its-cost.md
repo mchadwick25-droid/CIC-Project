@@ -1,6 +1,6 @@
 ---
 id: cappadocian.dw.macrina-and-its-cost
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
 status: draft

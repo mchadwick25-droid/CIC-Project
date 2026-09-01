@@ -1,6 +1,6 @@
 ---
 id: cappadocian.dw.psalms-teach-the-singer
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
 status: draft
@@ -17,7 +17,7 @@ sources:
 - source_id: cappadocian.term.psalmodia
   locus: "antiphonal night vigils; the psalms as ordinary believers' actual education"
   license: public-domain
-- source_id: cappadocian.core.nicene-cappadocian
+- source_id: cappadocian.core.cappadocian
   locus: "formation_logic: reception before analysis, repetition before articulation"
   license: public-domain
 retrieval:
@@ -49,7 +49,7 @@ tensions:
   is part of the answer, not a way around it
 ---
 Closes F2-P. The "reception before analysis, repetition before
-articulation" formulation is cappadocian.core.nicene-cappadocian's own
+articulation" formulation is cappadocian.core.cappadocian's own
 formation_logic field, cited directly rather than paraphrased loosely.
 The second half of the cell (violence in scripture) is answered with an
 honest, explicit non-answer inside the tensions field rather than a

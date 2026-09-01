@@ -1,6 +1,6 @@
 ---
 id: cappadocian.term.epektasis
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
 status: draft

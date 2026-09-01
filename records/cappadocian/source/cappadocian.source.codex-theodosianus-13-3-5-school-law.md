@@ -1,6 +1,6 @@
 ---
 id: cappadocian.source.codex-theodosianus-13-3-5-school-law
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: source
 schema_version: 2
 status: draft

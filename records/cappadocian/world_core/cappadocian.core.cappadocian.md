@@ -1,6 +1,6 @@
 ---
-id: cappadocian.core.nicene-cappadocian
-world_id: nicene-cappadocian
+id: cappadocian.core.cappadocian
+world_id: cappadocian-trinitarian
 record_type: world_core
 schema_version: 2
 status: draft
@@ -165,6 +165,8 @@ thin_topics:
   note: No securely identified physical remains exist for either of this world's two documented institutions
     (the martyr shrine, the poorhouse-hospital complex).
 ---
-Built from cappadocian_Doc_01_World_Identification.md (SS1, SS4a: the corrected self-description naming Eupsychius; the two-date boundary argument), cappadocian_Integrated_Ecology_Analysis.md SS2E/SS3/SS5 (formation_logic), and cappadocian_Doc_02_Source_Ecology.md SS6/SS9 plus the Source Registry's own named gaps (thinness/cautions/thin_topics). world_id 'nicene-cappadocian' and time_window.end=394 (not 381) are this script's own judgment calls, argued in the build_world_core() docstring above the payload in wb_cappadocian_s21.py.
+Built from cappadocian_Doc_01_World_Identification.md (SS1, SS4a: the corrected self-description naming Eupsychius; the two-date boundary argument), cappadocian_Integrated_Ecology_Analysis.md SS2E/SS3/SS5 (formation_logic), and cappadocian_Doc_02_Source_Ecology.md SS6/SS9 plus the Source Registry's own named gaps (thinness/cautions/thin_topics). world_id 'nicene-cappadocian' (the original B-1 choice, argued in the build_world_core() docstring above the payload in wb_cappadocian_s21.py) and time_window.end=394 (not 381) are this script's own judgment calls; the time_window argument still stands, the world_id itself does not - see the RENAME note below.
 
 No Representative content appears in this record (Doc_01 constraint honored).
+
+RENAME (2026-08-31, full alignment, Mark's own direction - "the name should reflect the world and christian tradition, not an old naming convention"): world_id changed from nicene-cappadocian to cappadocian-trinitarian, and this record's own id from cappadocian.core.nicene-cappadocian to cappadocian.core.cappadocian (matching desert.core.desert's own precedent for a world whose code and its world_core slug are the same word). display_name changed to "Cappadocian Christianity," matching the fleet's own dominant "[X] Christianity" convention (Alexandrian, Hieronymian Ascetic-Literary, Imperial and Juridical, Post-Apostolic House-Church) - the temporal/geographic bounding Doc_01's own Label Test worked out (c. 325-394; Cappadocia, Pontus, and Armenia Minor, not the wider pro-Nicene movement and not the Byzantine-era province) lives in this record's own time_window/horizon/geographic fields and the registry's doorway copy, exactly as it does for every sibling world - none of them fold a date range into their own display name either. Full details: CAPPADOCIAN_BUILD_LEDGER.md's own rename section.

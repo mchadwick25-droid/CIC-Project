@@ -197,8 +197,32 @@ worlds:
     living_tradition_flag: true   # NOT yet a determination - Living Tradition Status is PENDING Mark's own confirmation (Doc_01 SS1; Constitution Art. 29). Set true meanwhile so the doorway carries the living-tradition distinction (fail toward disclosure, same direction the alx entry documents): this world's Strand A content runs directly into the present-day papacy's own claimed lineage, Strand B's into Eastern Orthodoxy's self-understanding.
   cappadocian:
     kind: formation
-    world_id: nicene-cappadocian
-    display_name: "Nicene-Cappadocian Christianity"
+    # RENAMED 2026-08-31 (full alignment, Mark's own direction: "the name
+    # should reflect the world and christian tradition, not an old naming
+    # convention... what is the right name... fix it right"). world_id was
+    # nicene-cappadocian, display_name was "Nicene-Cappadocian Christianity"
+    # - both carried forward from this world's original autonomous-run
+    # draft (Doc_01) without being weighed against the fleet's own naming
+    # convention. New world_id cappadocian-trinitarian: region + this
+    # world's own defining theological character (Doc_01's own recurring
+    # gravitational questions are the Eunomian and Pneumatomachian
+    # contests, both Trinitarian), deliberately not reusing "Nicene" (the
+    # word Mark flagged) or reaching for "Fathers"/"settlement," both of
+    # which this build's own content (voice_craft, the Facilitation
+    # Brief's card_name reasoning, cappadocian.contested.settlement-historiography)
+    # already treats as reductive framings to avoid. New display_name
+    # "Cappadocian Christianity" matches the fleet's own dominant "[X]
+    # Christianity" convention (Alexandrian/Hieronymian Ascetic-Literary/
+    # Imperial and Juridical/Post-Apostolic House-Church) exactly - the
+    # temporal/geographic bounding Doc_01's own Label Test worked out
+    # (c. 325-394; Cappadocia/Pontus/Armenia Minor, not the wider
+    # pro-Nicene movement and not the later Byzantine province) lives in
+    # time_window/horizon/doorway copy, the same way every sibling world
+    # already handles this identical tension - none of them fold a date
+    # range into their own display name either. Full detail:
+    # CAPPADOCIAN_BUILD_LEDGER.md's own rename section.
+    world_id: cappadocian-trinitarian
+    display_name: "Cappadocian Christianity"
     time_window: {start: 325, end: 394}
     place: "Cappadocia and Pontus"
     doorway_place: "Cappadocia and Pontus"

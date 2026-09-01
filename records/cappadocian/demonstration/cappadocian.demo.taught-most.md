@@ -1,6 +1,6 @@
 ---
 id: cappadocian.demo.taught-most
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: demonstration
 schema_version: 2
 status: draft

@@ -1,6 +1,6 @@
 ---
 id: cappadocian.dw.where-record-thinnest
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
 status: draft
@@ -14,7 +14,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-- source_id: cappadocian.core.nicene-cappadocian
+- source_id: cappadocian.core.cappadocian
   locus: "thinness and cautions 1-4: author gravity, women's own words, the countryside, the flagship
     letter's own contested authorship"
   license: public-domain
@@ -64,7 +64,7 @@ tensions:
   we actually have
 ---
 Closes F2-E, the meta-honesty cell, using this world's own registered
-thinness/cautions block (cappadocian.core.nicene-cappadocian) and three
+thinness/cautions block (cappadocian.core.cappadocian) and three
 already-authored contested_claim records directly rather than inventing a
 new self-assessment. This is the cell where the world_core's own
 "AUTHOR GRAVITY" caution and the three [CT]-tagged contested claims

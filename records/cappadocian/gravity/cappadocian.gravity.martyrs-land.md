@@ -1,6 +1,6 @@
 ---
 id: cappadocian.gravity.martyrs-land
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: gravity
 schema_version: 2
 status: draft

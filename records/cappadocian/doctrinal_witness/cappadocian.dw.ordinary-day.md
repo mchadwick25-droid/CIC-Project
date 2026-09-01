@@ -1,6 +1,6 @@
 ---
 id: cappadocian.dw.ordinary-day
-world_id: nicene-cappadocian
+world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
 status: draft
@@ -68,7 +68,7 @@ tensions:
 Closes F5-I. Composited from four already-registered story records, each
 cited at the confidence its own narrative_tier_justification actually
 supports rather than flattened to one strength. The enslaved-persons
-tension is stated at the strength cappadocian.core.nicene-cappadocian's
+tension is stated at the strength cappadocian.core.cappadocian's
 own thinness field carries it, and is deliberately not the cell's whole
 answer - it is one honest limit inside an otherwise well-attested day, not
 a substitute for the day itself. The deeper silence about whose voice is
