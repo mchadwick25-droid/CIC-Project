@@ -176,12 +176,23 @@ Honest-Silence Beat?     [Yes/No. If Yes: state exactly what the source is silen
                            testimony, not an apology; write it in the
                            Representative's own voice, not as a system disclaimer.]
 
-Harsh-Content Notice?    [Yes/No. Yes if this beat's narration or quoted source
-                           material carries language of condemnation, threat,
-                           exclusion, or warning that is authentic to the source —
-                           not invented, not exaggerated, and not softened for the
-                           tour. See the Harsh-Content Notice Pattern below. If Yes,
-                           complete both lines; if No, leave both blank.]
+Harsh-Content Notice?    [Yes/No. Yes only where harsh material is a DEFINING
+                           feature of this specific beat — the reading or
+                           narration centers on condemnation, threat, exclusion,
+                           or warning, not merely touches it in passing within a
+                           beat that is warm or neutral overall. RULING 6's
+                           Trallians reading warrants it (four of thirteen
+                           chapters structurally organized around condemning
+                           heresy and schism); a beat that is mostly pastoral
+                           warmth with one hard clause inside it does not. Do
+                           not mark Yes reflexively because the source document
+                           somewhere contains harsh material, or because this
+                           project's own corpus survey found such language
+                           common — judge THIS beat's own center of gravity, not
+                           the source's reputation. Overuse defeats the notice:
+                           if most beats carry it, none of them mean anything by
+                           it. See the Harsh-Content Notice Pattern below. If
+                           Yes, complete both lines; if No, leave both blank.]
 
   — appears, then fades   [the short notice text. Appears when the beat begins,
     (short form):           fades within a second or two to a small quiet mark —
@@ -260,6 +271,16 @@ full on demand) already governing every other cartouche in this template. It is 
 warning that the source is genuinely hard here, never an apology for showing it, and
 never a softening of the words themselves — the notice sits beside the reading, it
 does not edit it.
+
+**Restraint, not reflex (Mark, this session: "only add the harsh notice if the
+material warrents it, not every time"):** that the corpus runs hard often does not
+mean the notice should fire often. The notice is a signal a participant should be
+able to trust — it should mean "this specific beat centers on hard material," not
+"somewhere in this world's sources, something like this exists." A tour that fires
+it on every third beat has made it wallpaper, and a participant stops reading it,
+which defeats the whole purpose RULING 6 built it for. Reserve it for beats where
+the harsh material is genuinely load-bearing to that beat, the same bar RULING 6's
+own Trallians reading was checked against before being marked Yes.
 
 ---
 
@@ -416,10 +437,12 @@ Confirm each before this manifest may enter review:
       its Curation status (Complete/Curated) in the full-click cartouche; every
       Curated beat also names, in one sentence, what the source contains beyond
       what's shown (see the Curation-Disclosure Note above).
-- [ ] **Harsh content flagged, not softened** — every beat marked Harsh-Content
-      Notice: Yes carries both the appear-then-fade short text and the full
-      hover/click statement; the beat's actual narration or reading is unedited by
-      the notice's presence (see the Harsh-Content Notice Pattern above).
+- [ ] **Harsh content flagged, not softened, not overused** — every beat marked
+      Harsh-Content Notice: Yes carries both the appear-then-fade short text and
+      the full hover/click statement; the beat's actual narration or reading is
+      unedited by the notice's presence; no beat is marked Yes for harsh material
+      that is merely present in passing rather than defining that beat (see the
+      Harsh-Content Notice Pattern and its Restraint, not reflex note above).
 
 ---
 
@@ -528,10 +551,13 @@ fresh argument from primary sources.
 9. **Curation disclosed** — every beat quoting a real source carries a Curation
    status; every Curated beat names what the source holds beyond what's shown, not
    just that a choice was made.
-10. **Harsh content flagged, not softened** — every beat with genuinely harsh
-    source material carries a Harsh-Content Notice with both the short and full
-    text; flag (do not silently accept) a beat that reads as softened, hedged, or
-    edited around its own harsh material instead of showing it plainly.
+10. **Harsh content flagged, not softened, not overused** — every beat with
+    genuinely harsh source material carries a Harsh-Content Notice with both the
+    short and full text; flag a beat that reads as softened, hedged, or edited
+    around its own harsh material instead of showing it plainly; also flag the
+    opposite failure — a notice marked Yes for a beat where the harsh material is
+    incidental rather than defining, which dilutes the signal for every other
+    beat that carries it honestly.
 
 Disposition vocabulary matches the project's existing standard exactly: a manifest
 under construction carries **"DRAFT — pending independent adversarial review"**; a
