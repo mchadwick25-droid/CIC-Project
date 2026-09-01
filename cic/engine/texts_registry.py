@@ -682,6 +682,32 @@ ENTRIES: tuple[TextEntry, ...] = (
               "two-column patristic reference text with frequent apparatus/footnote interleaving; any "
               "specific quotation drawn from it needs visual cross-check against its own surrounding text "
               "before being relied on for a verbatim claim."),
+    TextEntry("augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt", "Mark", "2026-09-01",
+              "Michael Petschenig (ed.), Sancti Aureli Augustini Scripta contra Donatistas, CSEL 51 and 53 "
+              "(Vienna: Tempsky / Leipzig: Freytag, 1908 and 1910) - Donatism world-build "
+              "Source_Acquisition_Manifest.md §1 request G5 (Source_Registry.md rows 17, 18, 39). Manually "
+              "downloaded by Mark from archive.org and supplied as a DOCX file attachment - the same "
+              "acquisition channel used for G1-G4. Converted mechanically via a zip/XML text extraction "
+              "(paragraph boundaries preserved from </w:p> splits) - no content passed through "
+              "model-generated output. VOLUME IDENTITY, A REAL FINDING: this scan's own single surviving "
+              "title page identifies itself only as 'Pars I' (CSEL 51: Psalmus contra partem Donati, "
+              "Contra epistulam Parmeniani, De baptismo), but the OCR text continues well past that "
+              "title page's own stated contents into further distinct works confirmed by their own "
+              "internal Explicit/Incipit markers - Contra Cresconium (four books, explicitly named in the "
+              "text), De unico baptismo, and the short Contra Fulgentium Donatistam - with no second title "
+              "page captured in this OCR to announce them. The consolidated errata section at the very end "
+              "resolves this: it explicitly corrects both 'VOL. LI' and 'VOL. LIII' by name (CSEL's own "
+              "numbers for Pars I and Pars III), confirming this is a library binding of Pars I AND Pars "
+              "III together - Pars III's own title page evidently did not survive this scan's OCR. Pars II "
+              "(CSEL 52, Contra litteras Petiliani) is confirmed absent - checked directly, found only as "
+              "a cross-reference abbreviation ('Petil. = Contra litteras Petiliani'), never as body text. "
+              "This directly satisfies G5's actual purpose: both Contra Cresconium (row 17) and Contra "
+              "epistulam Parmeniani (row 18) are present in this single file, corrected from this build "
+              "thread's own earlier (mistaken) guidance to Mark that these two works sat in different, "
+              "separately-acquired CSEL volumes. RIGHTS: 1908-1910 publication dates alone. OCR QUALITY: "
+              "raw and uncorrected, dense Latin critical-edition apparatus criticus; any specific quotation "
+              "drawn from it needs visual cross-check against its own surrounding text before being relied "
+              "on for a verbatim claim."),
 )
 
 
