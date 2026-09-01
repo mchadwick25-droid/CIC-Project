@@ -97,7 +97,12 @@ svg#world{display:block}
 @media (prefers-reduced-motion:reduce){.river-calm,.river-organic,#panel{transition:none!important}}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans:wght@400;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<!-- Loaded non-blocking: a stylesheet link followed by a script holds up that
+     script until the stylesheet settles. Found by testing this prototype --
+     it turned a slow/blocked font request into a several-second blank freeze
+     of the entire interactive map, not just late-arriving type. -->
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans:wght@400;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans:wght@400;600;700&family=Cinzel:wght@600&display=swap" rel="stylesheet"></noscript>
 
 <div class="topbar">
   <h1>Water on the Page</h1>
@@ -19703,6 +19708,7 @@ function eraSpanYears(e){
   return Math.max(1, Math.max(...ms.map(m=>m.end))-Math.min(...ms.map(m=>m.start)));
 }
 const eraCounts=eras.map(e=>DATA.movements.filter(m=>m.era===e.num).length);
+const eraLaneCounts=eras.map(e=>new Set(DATA.movements.filter(m=>m.era===e.num).map(m=>m.laneOrder)).size);
 const eraSpans=eras.map(eraSpanYears);
 const TOTAL_H=8600, MIN_H=420;
 const rawScore=eras.map((e,i)=>Math.pow(eraCounts[i],0.85)*Math.pow(eraSpans[i],0.12));
@@ -19836,7 +19842,14 @@ function render(){
     gBands.appendChild(el('rect',{x:0,y:eraY0[i],width:CANVAS_W,height:eraH[i],fill:eraGround(i)}));
     const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
-    const tag=el('text',{x:24,y:eraY0[i]+56,class:'era-tag'}); tag.textContent=`${e.tag} — ${e.dates}`;
+    // e.tag is one thread's narrative (usually the imperial/mainstream one), not
+    // the whole band -- Era II's own tag ("Constantine's revolution to Chalcedon")
+    // is the Church-and-Empire river's story, not the Church of the East's, the
+    // Aksumite or Armenian churches', or six other lanes running the same years.
+    // A single line can't speak for a band this plural, so the header states only
+    // what's true of the whole band: how many movements, across how many lanes.
+    const tag=el('text',{x:24,y:eraY0[i]+56,class:'era-tag'});
+    tag.textContent=`${e.dates} — ${eraCounts[i]} movements across ${eraLaneCounts[i]} lanes`;
     gLabels.appendChild(tag);
   });
 
