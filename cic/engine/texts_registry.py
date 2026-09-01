@@ -557,6 +557,31 @@ ENTRIES: tuple[TextEntry, ...] = (
               "distribution carries no 'Rights:' line of its own and its prose declaration sits far "
               "past the 100-line read window - but written as an XML COMMENT rather than plain text, "
               "so the file stays valid XML for ElementTree."),
+    TextEntry("tyconius_liber-regularum_burkitt1894.txt", "Mark", "2026-09-01",
+              "F. C. Burkitt (ed.), The Book of Rules of Tyconius, Newly Edited from the MSS. "
+              "(Texts and Studies III/I, Cambridge University Press, 1894) - the public-domain "
+              "critical Latin edition of Tyconius's Liber Regularum, Donatism world-build "
+              "Source_Acquisition_Manifest.md §1 request G1 (Source_Registry.md rows 15 and 41). "
+              "Manually downloaded by Mark from archive.org (item bookofrulesoftyc00ticouoft, FULL "
+              "TEXT/OCR format) per the G1 acquisition-gate decision, 2026-09-01, and supplied as a "
+              "DOCX file attachment - this world-build's own network egress is blocked for every "
+              "patristic text host including archive.org, so this is the acquisition channel for "
+              "all of G1-G7. Converted mechanically via a zip/XML text extraction (paragraph "
+              "boundaries preserved from </w:p> splits) - no content passed through model-generated "
+              "output. The archive.org website's own page-navigation chrome (16 lines: site header/ "
+              "menu links, the 'Full text of ...' banner, the 'See other formats' link) was stripped "
+              "at vendoring by matching the literal 'See other formats' marker line; everything from "
+              "that point on, including OCR errors and the Internet Archive's own inserted "
+              "'Digitized by the Internet Archive' scan stamp, is unedited raw OCR output - no "
+              "archive.org metadata footer block followed the scanned text in this DOCX. RIGHTS: no "
+              "'Rights:' line of its own (the OCR carries no bibliographic apparatus at all), so a "
+              "header was prepended per the palladius/npnf205/webbe convention, citing archive.org's "
+              "own separately-supplied copyright-evidence record for this item (no visible notice of "
+              "copyright; stated date 1894) plus the independent 1894-publication-date grounds. OCR "
+              "QUALITY: raw and uncorrected, with visible Greek-letter substitution into Latin words "
+              "and garbled proper nouns throughout - flagged in the file's own header; any specific "
+              "quotation drawn from it needs visual cross-check against its own surrounding text "
+              "before being relied on for a verbatim claim."),
 )
 
 
