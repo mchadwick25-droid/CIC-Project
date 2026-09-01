@@ -662,3 +662,13 @@ Checked and ruled out the Basileias building itself (Basil's poorhouse-hospital 
 **Cappadocian is now genuinely, mechanically indistinguishable from any other live world** in every system this build touches - registry, compiled package, live M3 certificate, Atlas census, the marketing site, and the actual participant Table app. The only thing left outstanding, named at §32, is the same one it has always been: merging PR #73 into `main` remains Mark's own act.
 
 **Correction, same day:** Mark asked to merge; CI's own `Validate world-census.json` check caught one more thing this step missed - the census file's own `meta.liveCount`/`meta.statusCounts` summary block (a separate, hand-maintained tally, not derived from the movements array) still said 6 live worlds and 3 "Selected - Not Yet Built", both now wrong by one. Fixed (`liveCount: 7`, `"Built & Live": 7`, `"Selected - Not Yet Built": 2`) and re-verified directly against the actual CI script (`node .../validate-census.mjs`, not just re-reading the JSON): 0 errors, 2 pre-existing warnings unrelated to Cappadocian (shortName length on two unrelated movements).
+
+## 37. PR #73 merged into `main` (2026-09-01)
+
+Mark: "merge PR #73 into main" - a third time, this time with everything actually in place: all 16 CI checks green (confirmed by polling `get_check_runs` directly, not assumed), `mergeable_state: "clean"`, no conflicts. Merged via `merge_pull_request` (a standard merge commit, not a squash, matching this repo's own convention for merging a long-lived feature branch - `f0c46fd6` and `7d61a56a` are the same shape - and keeping the full, ledger-documented commit history intact rather than collapsing it). Merge commit `e948cb02`.
+
+**What this actually does, restated plainly rather than left to the PR body alone:** `CIC_ENFORCE_ADMISSION` has been `"1"` fleet-wide since 2026-08-28 (§32); this merge is the action that puts Cappadocian behind that already-open gate, reachable by real participants the moment Render redeploys. Not a preview, not staged - the real production merge, same as the PR body itself said before Mark decided.
+
+**Not done here, and not this step's to do:** the two further safety gates named in the PR body (live adversarial trials, a clinician read) remain unscheduled for Cappadocian, the same standing the other six worlds already carry in production. Live qualitative validation beyond the clean M3 battery is still outstanding, named but not yet started.
+
+Cappadocian Christianity is now a live, seventh formation world.
