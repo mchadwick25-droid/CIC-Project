@@ -237,13 +237,18 @@ set into the page where it lives.
 Scene I through Scene X: **one for each of the census's ten eras, in order**,
 top of the sheet to bottom. Each scene is that era's own — its real title,
 dates, tag, ground color, and the real movements and edges the census actually
-files in it. One honest fact governs how the ten differ: as of V0.20, **all six
-Built & Live worlds sit in Eras I and II; Eras III through X hold none yet.**
-So the first two scenes arrive at inhabited, full-pigment worlds, and the
-remaining eight are drawn entirely in the graphite-underdrawing register — real
-names, real dates, real sourced marks, ruled but not yet inked. That is not
-eight lesser scenes. It is the survey rendered honestly, and several of the
-strongest pictures below live in the graphite.
+files in it. One rule governs how any two scenes differ, and it is a rule, not
+a snapshot: **Built & Live worlds render at full pigment, wherever they sit;
+everything else renders in graphite underdrawing, wherever it sits** — the
+sheet simply shows what is actually built today, whatever that happens to be.
+It is not this document's job to keep count of which eras that currently
+means, because the count is not fixed — a world coming online next month
+moves it from graphite to full pigment in place, with nothing about this
+rule, or this document's introduction, needing to change. Below, some scenes
+happen to arrive at an inhabited world today and some don't; that is today's
+real state, honestly drawn, not a permanent shape of the design. Graphite is
+not a lesser scene. It is the survey rendered honestly, and several of the
+strongest pictures below live in it.
 
 ---
 
@@ -511,9 +516,10 @@ notes verbatim; current portrait assets (`WORLD_ASSETS`,
 ## Scene III — Era III: The Age of Monks and Empires, 451–622
 
 *"The communions take their lasting shapes after Chalcedon" (the era's tag).
-Ground: cool pale blue-grey `#D8E4E5`. The first band with no Built & Live
-world — and the first scene drawn wholly in graphite underdrawing. Nothing
-here pretends otherwise; everything here is real.*
+Ground: cool pale blue-grey `#D8E4E5`. No Built & Live world sits here yet,
+so the band is drawn wholly in graphite underdrawing — not a lesser
+treatment, just an honest one. Nothing here pretends otherwise; everything
+here is real.*
 
 **What the participant just did:** one steady pull downward, across the seam
 where the vellum-green cools into blue-grey. The pigment washes of the two
@@ -1345,6 +1351,19 @@ be kept, bent, or struck in the convergent phase.
 
 ## Document log
 
+- **REV 5 (2026-09-01):** Mark's correction: *"we don't need to make a point
+  about no built worlds because in a few weeks it may have some and then we
+  would have to change the whole introduction."* The §0 "how the scenes
+  walk" paragraph and Scene III's opening line both stated, as a headline
+  fact, which specific eras currently hold no Built & Live world — true
+  today, but a snapshot dressed as an architectural claim, fragile the
+  moment a new world ships. Reworded to state the actual rule instead (Built
+  & Live renders full pigment, wherever it sits; everything else renders
+  graphite, wherever it sits) without naming which eras that means right
+  now — the rendering already updates itself the moment the census does; the
+  document's own words no longer need to. The REV 2 log entry above is left
+  as written, since a dated log entry is a record of what was true at the
+  time, not part of the living introduction.
 - **REV 4 (2026-09-01):** Two changes, both prompted by direct corrections
   from Mark in the continuing conversation. **First, real portraits replace
   the "no figure shown" device.** The earlier drafts kept every
