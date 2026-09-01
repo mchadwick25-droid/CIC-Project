@@ -96,6 +96,44 @@
 
 ---
 
+## Threshold and closing, drafted (RULING 8)
+
+**RULING 8 (2026-09-01, Claude, drafting per Mark's request — "draft the threshold and closing framing"):** both beats named as missing since RULING 3 restructured the service into one continuous scene. Neither is written from scratch — both carry forward content this document already locked, just relocated and adapted to the current structure.
+
+**Where the threshold content actually came from.** RULING 1's original Stop 1 carried exactly this material — sourcing, scope, exit — in Chloe's own voice: *"This is one of our mornings, written down, not imagined... This is Rome's own morning. In Antioch, in the cities of Asia, the meal was kept differently... You can leave at any point."* RULING 2 deliberately stripped it back out of Chloe's mouth (citation content doesn't belong in a hosting character's spoken lines — "that's product-level framing, not something a host says to a guest") and moved it toward the cartouche system, but never gave it the standalone home RULING 3 later named. This isn't new content; it's RULING 2's own displaced material, finally placed where RULING 3 said it belongs: a Facilitator beat, before Stop 0 begins.
+
+**Register-Banner-Text** (persistent for the tour's whole duration, Class A pattern per the Manifest Template): *"A witness's own account — Justin Martyr, writing to the Roman emperor, c. 155 CE."*
+
+**The threshold, spoken once (Facilitator, before Stop 0's Door begins):**
+
+> This is one of pahc's own mornings, written down, not imagined — Justin, a Christian in Rome, described it to the emperor himself, around 155 CE. This is Rome's own morning, as he told it, not a template for how every community like his gathered — in Antioch, in the cities of Asia, the meal was kept in other shapes. Where he wrote something, it's shown here. Where he didn't, nothing fills the gap. Chloe and the reader's voice are performed with a Greek accent, to mark this as a Greek-speaking world — not a claim about how anyone here actually sounded; nothing like that survives. You can leave at any point.
+
+112 words. Folds in the Greek-accent disclosure the Production Stack section already required "at Beat 0, spoken once, not buried" — never actually placed anywhere until now — rather than inventing a second moment for it. Stop 0's own voiceover (Facilitator + Chloe, already drafted above) follows immediately after, unchanged; nothing here duplicates it — this beat covers the tour's sourcing and scope, Stop 0 covers the room.
+
+**The closing, drafted (Chloe's plain-voice content is RULING 2's own locked script, carried forward verbatim — not rewritten):**
+
+> *The room begins to empty. Some stay behind, still talking. Chloe steps back — out of the whisper — and speaks plainly, no longer narrating the scene.*
+>
+> **Chloe:** There's more we can't give you, even now. The exact words of the prayers and the thanksgiving — no fixed text was ever kept. Of everyone who might have filled a room like this, two names survive in our whole record: Tavia, and the wife of Epitropus. A name and a greeting. Nothing more. A Roman governor once wrote that we met before dawn and sang to Christ as a god. He learned it by torturing two of our serving women — we won't repeat his account without naming that cost. What we sang, no one recorded. There is no music to play here. None will be invented.
+>
+> You've walked through the whole of that morning. The rest is honest silence — we keep that too. Come again, and we'll walk you toward the water, the way it was taught to those preparing for baptism.
+>
+> *A pause. The Facilitator.*
+>
+> **Facilitator:** [the RULING 7 offer — three confirmed lines, unchanged, inserted here]
+>
+> **Facilitator (closing note):** Only what the evidence gives, and a plain word where it runs out. That's the rule here — for this world, and for every one of them.
+>
+> *Return-to-conversation handoff.*
+
+145 words for Chloe's portion. The accent refusal and the singing decline (Pliny, the ministrae, their real cost) are exactly the content flagged earlier in this document as "held exactly as built, not to be re-litigated" — reproduced here character-for-character from RULING 2's final script, not paraphrased, since re-litigating settled, carefully-reasoned material would be its own kind of error.
+
+**One cross-document inconsistency this surfaced, fixed in the template itself:** `CiC_L4_Tour_Manifest_Template_V1_0.md`'s own Entry/Exit section still described "Threshold framing" as spoken "in-voice," modeled on a quote from Chloe's Door beat — that was the pre-RULING-2 version of this exact content, before it moved to Facilitator. Corrected there: Facilitator voice stated explicitly, model quote updated to pahc's own drafted line above.
+
+**What this doesn't resolve:** whether "Return-to-conversation handoff" needs its own actual line of copy (something concrete Chloe or the Facilitator says to physically end the session) or whether it's purely a system/UI transition with no spoken content — the Manifest Template defines the field but doesn't settle that question, and neither does this draft.
+
+---
+
 ## Second reading — encouraging, ~10 minutes (RULING 5, placement decided — see RULING 7)
 
 **RULING 5 (2026-09-01, per Mark's build request relayed into this session — no independently verified direct quote captured this pass, unlike RULINGs 1–4; flag for Mark to confirm in his own words at next review):** request was for a second, longer reading, encouraging in tone, about 10 minutes read aloud (~1,100–1,450 words at an unhurried 110–130 wpm), distinct from the Stop 2/Reading-beat script above. Placement — which stop, or a standalone use outside the worship-service scene — not yet decided.
@@ -291,7 +329,7 @@ Revises the old demo's "Representative stays unvoiced" rule — deliberately, no
 1. Mark's word-level read of all new/changed voiceover lines (Stop 0, Stop 7's reframed opening) — same discipline as every other piece of participant-facing prose in this project.
 2. ~~Whether "House-Churches" as this world's name stays as-is or shifts toward "Household" language~~ — **DECIDED, same session:** `card_name` is now "The Scattered Churches" (an Opus review found a better answer than either original option — see the decision log's 2026-09-01 naming addendum). This document's own prose above still says "House-Churches" in a few narrative spots; those are fine to leave as historical description of the world's older name where they're quoting old assets, but any newly-written participant-facing tour copy should use "Scattered Churches" going forward.
 3. First real render of Stop 0 in Luma Ray3, checked against the source stack before it's treated as final — a generated result needs the same verification pass a citation would get.
-4. **Not yet drafted:** the threshold/consent framing (Facilitator, before the scene starts) and the honest-absence reflection ("What We Cannot Show You") plus closing — both still just named as needed, not written, in the "Not yet placed" note above. The old stop-based drafts of this material (RULING 1/2's Stop 8/9) predate RULING 3's continuous-scene structure and can't be dropped in unchanged.
+4. **Drafted (RULING 8), not yet confirmed:** the threshold/consent framing and the honest-absence reflection ("What We Cannot Show You") plus closing are now written — needs Mark's word-level read, same as item 1, before being treated as locked the way RULING 7's offer text now is.
 5. **Not yet drafted:** the actual Facilitator-voice offer script beyond the three lines confirmed this session (RULING 7) — those three lines are the confirmed core, but the surrounding beat (how a participant actually triggers/dismisses the offer in the flow) isn't written.
 6. **Build-time, not content:** the UI interaction shape for the RULING 7 offer (panel / second screen / card menu) — explicitly left open in RULING 7 itself, for whoever builds this stage.
 7. RULING 5's own build request still has no independently verified direct quote from Mark, unlike RULINGs 1–4 and 6 — flagged there, not yet resolved.

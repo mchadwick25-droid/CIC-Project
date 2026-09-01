@@ -374,10 +374,19 @@ Invitation line          [in the Representative's own voice, offered — never
                            heuristic (Strategy §2.1).]
 
 Threshold framing:        [what this tour is / what it's built from / what it will
-                           not claim — stated before the first beat, in-voice.
-                           Chloe's Door beat is the model: "one Roman writer's
-                           account — not a network template; other households kept
-                           the meal in other shapes."]
+                           not claim — stated before the first beat, in FACILITATOR
+                           voice, not the Representative's. This field was originally
+                           modeled on an early draft of Chloe's own Door beat, which
+                           carried this content in-voice; that draft was corrected
+                           (RULING 2, `CiC_Tour_PAHC_Worship_Service_V3_2026-09-01.md`)
+                           because citation/scope content doesn't belong in a hosting
+                           character's own spoken lines. pahc's own drafted model
+                           (RULING 8, same document): "This is one of pahc's own
+                           mornings, written down, not imagined... This is Rome's own
+                           morning, as he told it, not a template for how every
+                           community like his gathered... You can leave at any
+                           point." Delivered once, before the first beat, then the
+                           Representative's own in-voice narration begins.]
 
 Return-to-conversation    [how the Representative hands the participant back —
 handoff:                   no summary imposed, no interpretation offered unasked.]
