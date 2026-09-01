@@ -1971,3 +1971,88 @@ reframed "What We Cannot Show You" opening) before anything renders — same dis
 as every other piece of participant-facing prose in this project. First real Luma
 Ray3 render of the room stop, checked against its source stack before being treated as
 final. The naming question, whenever he wants to pick it up.
+
+---
+
+## 2026-09-01 (same day) — pahc renamed: "The Scattered Churches," decided via an
+Opus naming review, shipped same session
+
+**Origin.** The naming question the entry above left open. Mark's framing on
+reopening it, unprompted: *"i do think in todays world, house church is more than a
+location, it is a movement in itself, (see fransis chan)."* That's a stronger,
+more concrete version of the concern this thread had already raised (the anachronism
+argument alone was weak; every world name here is a modern retrospective category) —
+a live contemporary movement/brand collision is a real neutrality problem this
+project's own "witness, never persuasion" conviction doesn't tolerate, not just an
+imprecision.
+
+**Scope check before touching anything:** ~213 of 408 repo-wide mentions of
+"house-church" sit inside `records/pahc/`, the World-Build construction docs, and
+compiled packages — this world's own record corpus and build history, explicitly out
+of bounds for this thread (Mark's own boundary, this session: *"the only thing out of
+bounds is the conversation engine and worlds... not change or add to or modify the
+records in any way"*). Those stay untouched. The real, in-scope job was always just
+the display layer: `card_name` in the registry, the census's friendly-register
+fields, and the handful of hardcoded website mentions — `display_name` (the scholarly
+register, "Post-Apostolic House-Church Christianity") stays exactly as it is, same
+two-register split Mark already ruled for syr's Mar Yausep.
+
+**Mark asked for an Opus review** rather than a pick between the two options already
+on the table (keep "House-Churches," or move to "Household Churches") — same pattern
+this project has used before for tone/credibility passes. Briefed with the real
+content, both arguments (anachronism and movement-collision), and the five sibling
+card names for register-matching. **The review didn't just referee — it found a
+third option neither of us had:** every sibling name (Desert Fathers and Mothers, The
+Bethlehem Circle, Church and Empire, Alexandrian Christianity, Syriac Christianity)
+names a people, place, or relation; this was the only one naming a *venue*, and the
+venue was never actually what the world is about — its own doorway tile already said
+"scattered communities... held together by letters." "Household Churches" was judged
+a half-measure: close enough to the modern-movement phrase that someone primed on it
+reads straight through anyway, and it triples up on "household" already carrying
+Chloe's own title and hal's "Widow of the Household."
+
+**Decided: `card_name` → "The Scattered Churches."** Sidesteps the movement collision
+entirely (no contemporary brand to collide with), sidesteps the *insula*/*domus*
+accuracy question entirely (makes no architectural claim), matches the doorway copy's
+own language, carries a real period resonance (1 Peter's address to the diaspora,
+"sojourners of the dispersion"), and doesn't compete with Chloe's own title — a
+household leader is the right-scaled role for one node in a scattered network, not a
+mismatch with it. One honest cost, named by the review itself and not smoothed over:
+"scattered" risks a first-glance read as disunity before the next line resolves it
+into something truer. Judged smaller and more recoverable than the collision risk it
+replaces.
+
+**Shipped same session**, display layer only, verified as a minimal diff before
+committing (a first attempt at the census JSON edit via a full re-serialize blew the
+diff out to 39,068 lines by silently reformatting the whole file — caught before
+committing, reverted, redone as surgical string edits; final diff 11 lines across 4
+files):
+- `records/worlds.yaml` — `card_name: "The Scattered Churches"` (pahc). `display_name`
+  untouched.
+- `cic-website/data/world-census.json` — `shortName`, `informalName`,
+  `entry.worldName` updated; `entry.tile` reworded to drop a "scattered...scattered"
+  repetition the mechanical swap would have created ("the house-churches of
+  Antioch..." → "the scattered churches of Antioch...", and "the scattered
+  gatherings that held together" → "communities that held together"). `name` and
+  `entry.subtitle` (both mirror the scholarly register) untouched.
+- `cic-website/tour.html` (4 spots) and `pilot-feedback.html` (1 spot) — hardcoded
+  display-text mentions updated. Asset filenames (`house-churches.svg`,
+  `house-churches.png`) and internal ids (`post-apostolic-house-church`) deliberately
+  left alone — internal plumbing, not participant-facing text, real risk in touching
+  for no visible benefit.
+- The V3 tour shape-proof's own open-items list updated to reflect this as resolved.
+
+**Not touched, on purpose:** anything inside `records/pahc/`, `World-Builds/01-Post-
+Apostolic-House-Church/`, or `packages/pahc/` — the world's own vocabulary keeps
+saying "house-church" internally, which is a live, visible mismatch between the
+public name and the build's own internal register now. That's a real, named gap, not
+an oversight — closing it is a world-build decision (touches a pinned package,
+triggers its own recompile/reverify discipline) and was never this thread's call to
+make.
+
+### Next action
+
+Nothing further required to ship this — it's live in the repo now. Still open: the
+`records/pahc/`-internal vocabulary mismatch, if Mark ever wants it closed (a
+world-build thread's job, not this one's); the Luma Ray3 room render; the desert and
+ijc storyboards.

@@ -64,5 +64,5 @@ The accent decline and the singing decline (Pliny, the ministrae, their cost) ca
 ## Open before this builds
 
 1. Mark's word-level read of all new/changed voiceover lines (Stop 0, Stop 7's reframed opening) — same discipline as every other piece of participant-facing prose in this project.
-2. Whether "House-Churches" as this world's name stays as-is or shifts toward "Household" language — raised this session, not resolved, not blocking this tour either way.
+2. ~~Whether "House-Churches" as this world's name stays as-is or shifts toward "Household" language~~ — **DECIDED, same session:** `card_name` is now "The Scattered Churches" (an Opus review found a better answer than either original option — see the decision log's 2026-09-01 naming addendum). This document's own prose above still says "House-Churches" in a few narrative spots; those are fine to leave as historical description of the world's older name where they're quoting old assets, but any newly-written participant-facing tour copy should use "Scattered Churches" going forward.
 3. First real render of Stop 0 in Luma Ray3, checked against the source stack before it's treated as final — a generated result needs the same verification pass a citation would get.
