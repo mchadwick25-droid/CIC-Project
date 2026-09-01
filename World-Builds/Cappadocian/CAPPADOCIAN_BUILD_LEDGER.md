@@ -672,3 +672,13 @@ Mark: "merge PR #73 into main" - a third time, this time with everything actuall
 **Not done here, and not this step's to do:** the two further safety gates named in the PR body (live adversarial trials, a clinician read) remain unscheduled for Cappadocian, the same standing the other six worlds already carry in production. Live qualitative validation beyond the clean M3 battery is still outstanding, named but not yet started.
 
 Cappadocian Christianity is now a live, seventh formation world.
+
+## 38. First live conversation with Chilo, read by Mark (2026-09-01)
+
+Mark asked to see actual generated conversation - the one thing named at §37 as still outstanding (the other six worlds each got a live conversation read at their own original fleet admission; Cappadocian didn't exist yet that day, so it never had). Real, billed run, same discipline as every other live call this build made: preflight first (`engine.provider.preflight`, cache write-then-read confirmed), then `engine.m4.live_turn_run --world cappadocian` with four threaded, natural questions (not sealed probes) - `"Who are you, and what does your life actually look like?"`, `"Why did the exact wording matter so much... homoousios and all that?"`, `"What happens when a stranger arrives at your door?"`, `"You mentioned Basil earlier - what was he actually like to be around?"`.
+
+All four turns: `routing_action: voice_with_directive` (ordinary, no safety routing), `degraded: false`, 10-14 real citations per turn back to specific WRS records (`cappadocian.core.cappadocian`, `cappadocian.dw.who-was-jesus`, `cappadocian.dw.ordinary-day`, `cappadocian.story.basil-death-funeral`, among others) - the transparency apparatus grounding every substantive claim, not asserted ungrounded. History correctly threaded turn to turn (`prior_turns_replayed`: 0, 1, 2, 3) - turn 4's own reference back to Basil (raised unprompted by the voice in turn 1) is real conversational memory, not a scripted callback.
+
+On the record, plainly: the voice held its own disciplines throughout, unprompted - strict we-voice never broken to a first-person persona-claim; a direct "we cannot tell you that" on what Basil was actually like to be around, rather than inventing warmth or detail the record doesn't support; the same honest-limits pattern on the guest-door question (the rule is Documented, one doorkeeper's own particular welcome is not); Gregory of Nazianzus's own funeral-oration claim of universal mourning named explicitly as the eulogist's own case, not confirmed by any other witness.
+
+Full transcript: `engine/m4/reports/live-turn-report-cappadocian.json`.
