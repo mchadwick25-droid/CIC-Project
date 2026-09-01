@@ -538,7 +538,25 @@ Also traced and confirmed **not** a bug, contrary to first appearance: the `?wor
 
 **Verified**: JSON re-validated after every edit, diff confirmed scoped to only this one movement entry (25 lines changed, no reformatting elsewhere), full gate battery re-run on the WRS side (0 findings, unaffected — this step touched only the census file, not `records/`).
 
-## 32. Representative renamed: Eumathios -> Chilo (2026-09-01)
+## 32. Doors-open research and PR #73 opened (2026-09-01)
+
+**What Mark asked:** "keep going with the doors-open flip." Investigated before acting rather than assuming the literal ask (flip a per-world switch) was actually what remained to do.
+
+**What the research found, each fact independently checked, not assumed:**
+- `CIC_ENFORCE_ADMISSION` is a single **global**, not per-world, setting (`engine/api/config.py`/`wiring.py`; `ADMITTED_STATES = frozenset({"admitted", "open"})`, both states treated identically).
+- `render.yaml` — the file Render's Blueprint actually deploys from, by its own header comment — has carried `CIC_ENFORCE_ADMISSION: "1"` since commit `d4ac7157`, "DOORS OPEN: CIC_ENFORCE_ADMISSION flips to 1," dated 2026-08-28, quoting Mark's own words that day: "open the doors, flip the switch." The gate has been open, fleet-wide, since before this world's own build began.
+- This entire build happened on `claude/record-native-world-build-v2-tvbwds`, never merged to `main`. The deployed app has had no knowledge of Cappadocian regardless of the gate's own setting — an already-open gate in front of a world the running system has never heard of.
+- **This session's own prior claim was wrong**: earlier ledger entries and the registry's own `state` comment said "NOT yet open: `CIC_ENFORCE_ADMISSION` stays 0 until Mark's own doors-open flip" — written without ever actually checking the deployed config. Caught only when this step's research went looking. Corrected directly, owned plainly rather than smoothed over, here and in `records/worlds.yaml`.
+
+**The real remaining action, once the premise was corrected:** merging this branch to `main` — the actual "doors open" act for Cappadocian specifically, sixty-seven commits, never yet done.
+
+**Attempted directly, blocked by the session's own auto-mode safety classifier**: `git merge --no-ff` into a local `main`-tracking branch was refused — "Permission for this action was denied by the Claude Code auto mode classifier." Per the tool's own instruction, no workaround was attempted; cleaned up cleanly (`git merge --abort` no-op, branch checked back out, the temporary local branch deleted) and reported the block to Mark rather than routing around it, with the assessment that blocking a fleet-wide-visibility action of this size behind an explicit human confirmation is very likely the correct outcome, not a malfunction to defeat.
+
+**Mark: "yes, open a PR."** Opened **PR #73** (`mchadwick25-droid/CIC-Project`, `claude/record-native-world-build-v2-tvbwds` → `main`, https://github.com/mchadwick25-droid/CIC-Project/pull/73), body summarizing the complete build and stating plainly what merging actually does: with the gate already globally open, merging is the real production action that makes Cappadocian reachable by real participants the moment Render redeploys — not a preview, not a staged rollout. The PR body also names, unprompted, the two further safety gates (live adversarial trials, a clinician read) a 2026-08-26 decision-log entry flagged as "not yet scheduled" for the whole fleet, so the merge decision is made with that context rather than without it.
+
+**Not yet done, named for the record:** the merge itself remains Mark's own act.
+
+## 33. Representative renamed: Eumathios -> Chilo (2026-09-01)
 
 **What Mark raised:** he was not part of the original memorability/accessibility weighing on the Representative's name, and was concerned "Eumathios" would be hard for a participant to remember or access. He asked for real alternative name candidates.
 
@@ -561,4 +579,6 @@ Also traced and confirmed **not** a bug, contrary to first appearance: the `?wor
 
 **Deliberately not touched (historical record, preserved):** the eight construction-history documents that describe the original Eumathios decision and its reviews as they actually happened — `cappadocian_Representative_Construction_Notes_Eumathios.md`, `Critic_Checkpoint_2_Simulated.md`, `Cappadocian_Final_Report.md`, `cappadocian_Deployment_Package_Status.md`, `cappadocian_Doc_10_PermanentPrompt_Review_Round1.md` and `_Round2.md`, `cappadocian_Voice_Configuration_Eumathios.md`, `cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md` — same discipline as SS28's world-identity rename: real history stays legible, not silently rewritten. Their filenames stay as-is for the same reason; they are accurate records of what was actually built and reviewed at the time.
 
-**Open, named plainly (not run without Mark's own authorization):** this recompile invalidates the manifest-match behind the current 28/28 admission certificate, same as SS28/29's rename did — the certificate ran against the prior (Eumathios-named) package, not this one. A fresh live M3 admission run against this exact pin (real AWS Bedrock spend) is the honest next step to re-certify; not run here without Mark's own per-run authorization.
+**Re-certified same day, Mark's authorization ("yes, go ahead and run it"):** cheap preflight first (`python -m engine.provider.preflight --model us.anthropic.claude-sonnet-4-5 --region us-east-1`) — live Bedrock connectivity confirmed, cache write-then-read confirmed, streaming cache fields confirmed. Then the real battery: `python -m engine.m3.live_admission_run --region us-east-1 --worlds cappadocian --out engine/m3/reports/live-admission-report-cappadocian-2026-09-01-chilo-rename.json`. **28/28 sealed probes passed, all 28 fleet canon cells covered, zero failures** — independently confirmed by reading the report file directly rather than trusting the process output alone: every one of the 28 `per_probe` entries shows `passed: true`, 28 distinct cells, and no `answer_text` persisted anywhere in the file (the script only retains it for failing probes, and none failed). `records/worlds.yaml`'s `state` and `package` comments both updated to this certificate; the superseded pre-Chilo certificate and pin are named, not deleted.
+
+**Note on section numbering:** this section was originally drafted as "§32" before the doors-open/PR #73 research (which the registry's own `state` comment already promised, under that number, before this section existed) was found to be missing from the ledger entirely. Renumbered to §33 and the missing content written in as the actual §32, immediately above, rather than leaving a dangling cross-reference standing.
