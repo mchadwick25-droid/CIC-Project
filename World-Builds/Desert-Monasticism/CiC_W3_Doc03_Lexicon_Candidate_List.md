@@ -10,7 +10,7 @@
 
 **Built from:** Doc_02's source ecology (primary voices and their transmission histories); a targeted verification pass on Greek/Coptic terminology and the Cassian translation-substitution case, checked against live sources during drafting.
 
-**Note on language layer:** per Doc_01 Section 4 / Doc_02 Section 6 (**citation corrected per Round 1 review, Finding F2** — Doc_02 Section 4 is Liturgical Evidence, not Cultural Scope; this matches the citation already used correctly in Section 3 below), most of the terms below reach us in **Greek**, even where the underlying speech community was substantially Coptic. This document flags that layering explicitly per term rather than letting Greek philosophical vocabulary read as if it were this world's own native idiom throughout — see the per-term "Language layer" note and Section 3 below.
+**Note on language layer:** per Doc_01 Section 4 / Doc_02 Section 6 (Doc_02 Section 4 is Liturgical Evidence, not Cultural Scope), most of the terms below reach us in **Greek**, even where the underlying speech community was substantially Coptic. This document flags that layering explicitly per term rather than letting Greek philosophical vocabulary read as if it were this world's own native idiom throughout — see the per-term "Language layer" note and Section 3 below.
 
 ---
 
@@ -130,7 +130,7 @@ Each entry: term (Greek/Coptic form, transliteration), preliminary definition, i
 - **Author Gravity risk:** low — independently corroborated by archaeological evidence (Doc_02, Section 5.1), a genuinely different evidentiary register from the literary sources.
 - **Source anchor:** Doc_02, Section 5.1.
 
-### 1.15 χειρωναξία / ἐργόχειρον (*cheirōnaxia* / *ergocheiron*) — "handiwork," "manual labor" (**transliteration corrected per Round 1 review, Finding F3**)
+### 1.15 χειρωναξία / ἐργόχειρον (*cheirōnaxia* / *ergocheiron*) — "handiwork," "manual labor"
 
 - **Preliminary definition:** manual labor (chiefly rope- and basket-weaving) undertaken as both economic necessity and deliberate ascetic discipline against idleness (Doc_01, Section 4).
 - **Initial tier estimate:** 1 — cross-strand and directly load-bearing for this world's material self-sustenance and its own ascetic self-understanding simultaneously.
@@ -164,7 +164,7 @@ Each entry: term (Greek/Coptic form, transliteration), preliminary definition, i
 
 ---
 
-### 1.19 Tier 1 candidates — roll-up for Doc_06 (added per Round 1 review, Finding F6; heading level corrected per Round 2 review)
+### 1.19 Tier 1 candidates — roll-up for Doc_06
 
 Per Framework Step 3's requirement to note terms that will require full Tier 1 treatment at Doc_06: this document's Tier 1 estimates are *anachōrēsis* (1.1), *apotagē* (1.2), *hēsychia* (1.4), *logismoi* (1.5, systematized-form caveat applies), *diakrisis* (1.9), *gerōn*/*abba*/*amma* (1.11), *cheirōnaxia*/*ergocheiron* (1.15), and *apophthegma* (1.16). *Koinōnia* (1.12) is Tier 1 for Strand B specifically, not cross-strand. All eight are subject to Doc_04's Confidence/Gravity Cross-Check (Section 4, open item 2) before any of them can anchor a Primary gravity classification.
 
