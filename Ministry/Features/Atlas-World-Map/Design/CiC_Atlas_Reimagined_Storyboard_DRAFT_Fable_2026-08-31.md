@@ -16,7 +16,10 @@ and confidence grade below is taken directly from `cic-website/data/world-census
 or architecture described is a real, citable object or place — most of them
 already cited in the census's own `experienceToday` fields — framed the way a
 museum wall label would frame them, per the standing rule against AI-generated
-scene art presented as history. Where this draft takes a creative swing on an
+scene art presented as history. One bounded exception, sanctioned by Mark and
+specified in §0: a Representative's portrait plate — name, role, and face are
+the project's own declared fabrication, presented as exactly that and never
+as period art or history. Where this draft takes a creative swing on an
 open question, the swing is marked **[PROPOSED — this draft]** so it can be
 weighed, not mistaken for something already settled.
 
@@ -65,6 +68,8 @@ at the sheet's eastern edge, the Caucasus and Greek East beside it, Africa
 toward the center, the Latin West further west, and the Protestant and Global
 Revival lanes opening toward the sheet's western margin. A loose compass
 feeling, not a geographic claim — a swim-lane chart wearing a map's manners.
+And a *resting* order, not a cage: the river mechanics below let a lane lean
+out of its compass place and settle back.
 
 **Each tradition family is a river.** The census's own `lane`/`laneOrder` fields
 are the riverbeds; nothing structural is invented. A tributary joining the main
@@ -75,6 +80,71 @@ own recorded end date. Rivers are drawn the way the old mapmakers drew them:
 lane's wash its own quiet pigment from the palette's family (exact lane-pigment
 assignments deliberately left for the next pass). The one thing a river never
 does is move. No shimmer, no animated current, no drifting texture. Ever.
+
+**How the water behaves — eight river mechanics [PROPOSED — this draft].**
+Everything below is *drawn geometry* — fixed on the page until the data
+changes; none of it animates, ever. These extend the board's grammar; they
+replace none of it.
+
+1. **Band height follows density, not the calendar.** A band's height is
+   driven mainly by how much is actually in it — entry count, roughly — with
+   its real time span as a soft secondary influence, never a strict
+   proportional formula. The governing value is legibility and navigability,
+   not calendar accuracy: a short, dense era can honestly stand taller than a
+   long, sparse one. On the real census this bites immediately — Era IX holds
+   51 entries in 91 years and Era IV holds 22 across 432, so the sheet's
+   tallest band is its fullest, not its longest.
+2. **River width is water volume.** A river's width at any point reads how
+   many movements are actually alive in that lane at that moment in time —
+   swelling where the record is full, thinning where it thins — never a fixed
+   uniform ribbon.
+3. **Rivers wind.** Courses curve to make room for their neighbors, the way
+   real rivers negotiate a shared valley. The goal is navigable, clear flow —
+   never straight parallel rulings held for geometry's sake.
+4. **Era grounds are passthrough, never containers.** (Partly stated above —
+   the seams are already soft; this makes the rule explicit.) Most traditions
+   span era boundaries, and the ground color changing beneath a river never
+   breaks, pauses, or resets its flow. The seams belong to the page; the water
+   belongs to the tradition.
+5. **Lanes can drift toward each other.** Where the record shows a real
+   stretch of dense interaction between two lanes — many sourced edges
+   crossing in one window — their courses lean toward each other through that
+   stretch and ease back apart as the interaction thins. Relationship density,
+   honestly computed from the census's own edges, is allowed to shape the
+   geography itself — the compass placement above is each lane's resting
+   position, not its permanent address.
+6. **Color persists through a name-only seam — and may shift at a real change
+   of gravities.** A `continuesAs` stone that renames the same water keeps
+   the same wash; where a transition is a genuine, documented change in the
+   world's own gravities and forces, the wash may shift with it. Mark's own
+   words for why this is the right line: *"it is the gravities that should
+   bound christian traditions... not just the name."* Stated honestly: this
+   rule cannot yet be verified against any chain on the sheet. Gravity/force
+   analysis (the formal Doc_04/Doc_08 categories) exists only for the six
+   Built & Live worlds — and of those six, exactly one census entry (the
+   Syriac world) carries a `continuesAs` link at all, to the Persian Church
+   of the East (early), a Deferred entry with no gravity analysis of its own,
+   so not even that seam can be checked on both of its banks today. A right
+   rule with an honestly named gap: applied nowhere yet, pretended nowhere.
+7. **Absorption blends; it doesn't stop.** Where one stream genuinely ends by
+   being absorbed into another — merging into a different tradition, not
+   continuing under a new name — its wash visibly blends into the surviving
+   river for a stretch at the confluence, the way real deltas mix before
+   fully joining, rather than stopping at a hard line. Also stated honestly:
+   the census's whole edge vocabulary today is `formed` / `transmitted to` /
+   `argued against` / `contemporary with` / `in tension with` — no edge type
+   records a true merger — so this rule stands ready with no course on the
+   sheet yet entitled to demonstrate it (Scene III shows the nearest miss,
+   and declines it).
+8. **Cartographic generalization by zoom depth.** The working mapmaker's
+   real, named technique: a coastline drawn in fine wandering detail up close
+   is smoothed into a simpler curve at a zoomed-out scale — same real shape,
+   less geometric detail, because full detail at small scale is only noise.
+   Applied whole: at full extent, every river renders as a calm, simplified,
+   honestly-shaped curve; the winding of rule 3, the swelling of rule 2, and
+   the drift of rule 5 only fully render once a participant zooms into an era
+   or a world. The map does not get less true as it gets simpler — it gets
+   less detailed, which is a different thing.
 
 **Honesty is rendered, not asserted.** Built & Live worlds sit on the landscape
 at full pigment. Everything else is drawn in **graphite underdrawing** — the
@@ -95,10 +165,15 @@ proposed answer, applied in every scene below, is three-fold
 1. **Evidence of use.** The still-life painter's oldest trick: things shown
    mid-use, just set down. Bread broken, not whole. A letter unfolded, creases
    showing. A stylus laid across a half-written tablet. A cup pushed slightly
-   off-center, the way a real hand leaves it. No figures needed — the warmth of
-   people is in the room they just stepped out of. (This is also the anti-ghost
-   principle's safest ground: where a figure would risk reading spectral, show
-   the implements of a practice and the space built for it instead.)
+   off-center, the way a real hand leaves it. No figure is required for this
+   to work — the warmth of people is in the room they just stepped out of.
+   (For the graphite worlds, which have no built Representative yet, this
+   remains the whole answer, and where a figure would risk reading spectral
+   the implements and the space still stand in. Where a Representative
+   exists, the portrait plate — next section — now gives the scene its actual
+   figure, and evidence of use becomes the warm room *around* a person rather
+   than a stand-in for one. Figure-avoidance was one execution of anti-ghost,
+   never the rule itself.)
 2. **Light with a time of day.** Not glow — *weather*. Lamplight low on a
    plaster wall in Era I; white desert noon in Egypt; candle-dark gold in
    Byzantium. Light falling on stone and bread and ink is an event that
@@ -110,6 +185,53 @@ proposed answer, applied in every scene below, is three-fold
    at a river's bank. A manuscript feels alive because someone's hand made it
    and you can see that they did. The Atlas should feel like the largest page
    this scriptorium ever ruled — a made object, not a rendered surface.
+
+**The figure at the center — the portrait plate [PROPOSED — this draft].**
+An earlier pass of this draft avoided showing any Representative's face,
+reading anti-ghost through the old emblem-only world icons. Mark has
+corrected this directly, twice: *"the emblem icons are retired and not used,
+the realistic portraits in pngs and jpeg are current"* — and, on the sourcing
+question that kept resurfacing as a gate: *"that was a false gate that keeps
+reemerging, the representative has a box of fabrication to make the system
+relatable, name, role image, but it is specific to the box and only applied
+strictly to the conversation."* So a Representative's standing is now plain:
+name, role, and portrait are the project's own bounded, sanctioned
+fabrication — the same category its spec already applies to a
+Representative's invented name and role label — there to make an abstract
+composite voice feel like a person at a table. The portrait never has to
+clear the sourcing bar that everything a Representative *says* in
+conversation still clears in full. The box is small, named, and does not
+leak.
+
+On the sheet, each Built & Live world's real, current portrait appears as a
+**framed portrait plate — a roundel set into the manuscript page** inside a
+fine ink-ruled border, the way real illuminated manuscripts carried painted
+donor and evangelist portraits inside an otherwise linear, engraved page —
+never a photo dropped flat onto parchment. The frame or ground tint around
+each portrait is that world's own real accent color, from the current
+portrait assets (`WORLD_ASSETS`, `cic-poc/frontend/src/data/worlds.ts`) —
+these six exactly, none invented:
+
+- Scattered Christianity (Chloe) — `/images/portraits/house-churches.png`,
+  accent `#2F6B52`
+- Alexandria (Theon) — `/images/portraits/alexandria.png`, accent `#B45309`
+- Desert Monasticism (Papnoute) — `/images/portraits/desert.png`, accent
+  `#7A6A2E`
+- The Bethlehem Circle — `/images/portraits/bethlehem.png`, accent `#8C4A5C`
+- Syriac Edessa-Nisibis (Mar Yausep) — `/images/portraits/syriac.png`,
+  accent `#3D6B75`
+- Imperial and Juridical Christianity (Marius) —
+  `/images/portraits/empire.png`, accent `#7A5233`
+
+Anti-ghost applies in full and always did: the figure in the plate reads
+solid, warm, present — paint on a ground, light landing on a face the way it
+lands on stone — never glowing, never translucent, never spectral. The
+existing portraits already satisfy this. The plate lives at world-open depth
+and on the world's front-door panel; at full extent a world is still its
+small site-vignette, per generalization (rule 8 above). Graphite worlds
+carry no plate — there is no Representative there yet to portray — and their
+register stays hinted presence until a world comes online and its plate is
+set into the page where it lives.
 
 **How the scenes walk — the structure, fixed at Mark's direction.** Ten scenes,
 Scene I through Scene X: **one for each of the census's ten eras, in order**,
@@ -136,7 +258,12 @@ the homepage, the end of a conversation — and the Atlas opened at full extent:
 the whole sheet at once, ten bands descending through their warm→cool→warm
 cadence, seven family lanes plus the headwater, six small full-pigment worlds
 on an otherwise graphite-ruled survey, found by the eye the way it finds gilded
-initials on a page. At the far margin, ruled off like a mapmaker's marginal
+initials on a page. At this distance every river reads as a calm, simplified,
+honestly-shaped curve — the mapmaker's own generalization (§0, rule 8): the
+full organic winding, the width that swells with density, the lanes' slow
+drift toward each other resolve only as the participant's own zoom descends,
+the way a paper map hands you more the closer you lean in. At the far margin,
+ruled off like a mapmaker's marginal
 table, the Beyond-the-Floor terrain (the census's lane 80, "Non-Nicene
 Traditions," researched and explained) — present, labeled, never hidden, never
 center. Then two slow pinches, both theirs — the camera goes exactly where the
@@ -147,9 +274,11 @@ board holds still beneath the whole descent.
 margin, the tag beneath in Alegreya italic, and the era's own `keyEvents` set
 small along the margin rule — *Destruction of the Temple (70) · Decian
 persecution (250) · Great Persecution begins (303)*. Upper center, a single
-spring: **Post-Apostolic House-Church Christianity** (70–200 CE), the census's
-own `laneOrder 0`, its lane labeled in the data itself *"Origin — before the
-lanes divide,"* its `relationsSummary` reading, verbatim, *"Parent of nearly
+spring: **Scattered Christianity** (70–200 CE) — the world's current display
+name; the live census record still carries the older formal name,
+*Post-Apostolic House-Church Christianity* (id `post-apostolic-house-church`),
+the rename not yet propagated there — the census's own `laneOrder 0`, its
+lane labeled in the data itself *"Origin — before the lanes divide,"* its `relationsSummary` reading, verbatim, *"Parent of nearly
 everything on the map."* At this depth that is simply what the picture shows —
 one spring, and the watercourses leaving it, each wearing the honest
 line-language of its real edge:
@@ -175,14 +304,14 @@ the way the old mappae mundi drew cities — a **small architectural vignette at
 the riverbank**, an illuminated site-mark, unmistakably a *place made for
 people* — and at deepest zoom the vignette becomes the whole frame: the world's
 own small terrain, its features drawn from the world's own finalized
-construction record. For the House-Churches, a few streets of a Roman-era
+construction record. For Scattered Christianity, a few streets of a Roman-era
 neighborhood at rooftop height, organized by the two Primary gravities its
 Gravity Discovery (Doc_04) actually classified:
 
 - **The table (G07 — Liturgical Practice, Primary).** An ordinary dining room
   with the fourth wall open — the only kind of building this world had. Bread
-  broken, the shared cup (Chloe's locked emblem, here at its native size), a
-  lamp, the benches pushed back, not tucked in. Someone was just here.
+  broken, the shared cup, a lamp, the benches pushed back, not tucked in.
+  Someone was just here.
 - **The letter-roads (G02 — Translocal Correspondence Network, Primary).**
   Roads lettered with real destinations — Antioch, Smyrna, Corinth, Rome — and
   by the door, the network made object: letters, unfolded, creases showing.
@@ -200,6 +329,21 @@ Gravity Discovery (Doc_04) actually classified:
   granular detail of worship *"was extracted from two enslaved women, called
   ministrae, under torture."* Present, honestly findable, never a hook —
   capture §3, kept: *"humble transparency that isn't front and center."*
+
+**The figure at the table [PROPOSED — this draft]:** and someone still *is*
+here — the room is no longer shown empty. Set into the page at the heart of
+the opened world, inside a fine ink-ruled roundel grounded in the world's own
+deep green (`#2F6B52`), the world's real, current portrait: **Chloe**, the
+Representative, rendered the way an illuminated manuscript sets a painted
+evangelist portrait into an engraved page — a plate *in* the manuscript, not
+a photograph on it. She reads exactly as anti-ghost demands: solid, warm,
+present, lamplight on a face the way it falls on bread and plaster — no
+glow, no translucence. Her name, her role, and this face are the project's
+sanctioned bounded fabrication (§0, the portrait plate), the box that makes
+a composite voice a person at a table — and nothing she will actually *say*
+in conversation is loosened by it one inch. The bread, the letters, the
+pushed-back benches keep their whole work; they are now the room around a
+person, not the stand-in for one.
 
 **The art, and where it's drawn from** — credited on hover like a wall label:
 
@@ -232,10 +376,11 @@ ways, never a dead end (capture §13).
 **Alive, without moving:** all three principles converge at the spring.
 Evidence of use everywhere; lamplight as real weather — this world met at
 night and before dawn, and its view is lit accordingly, light on walls and
-bread, never an aura; and the maker's hand in every ruled line. No person
-depicted, and the whole frame warm with people — Mark's stated heart for
-"alive": *"not experiencing old dead worlds, but getting a glimpse of life,
-theology and practices lived."*
+bread, never an aura; and the maker's hand in every ruled line. One person
+shown — Chloe, solid at the center of a room the others just stepped out of
+— and the whole frame warm with all of them, answering Mark's stated heart
+for "alive": *"not experiencing old dead worlds, but getting a glimpse of
+life, theology and practices lived."*
 
 **Grounding:** census era 1 record (title, dates, tag, ground, keyEvents);
 `post-apostolic-house-church` full record (lane/laneLabel, relationsSummary,
@@ -244,8 +389,10 @@ tile, voices, longDescription, sourcing, experienceToday); edges
 `→ alexandria-catechetical` (Widely Accepted), `→ roman-church-third-century`
 (Widely Accepted), `→ greek-apologists-second-century` (Documented), notes
 verbatim; World-Builds/01 Doc_04 FINAL (G02, G07 Primary); Doc_09 Story
-Inventory (Polycarp transmission Tier 1; Pliny disclosure); locked icon spec
-(Chloe · shared cup); capture §3, §7, §11, §13.
+Inventory (Polycarp transmission Tier 1; Pliny disclosure); current portrait
+assets (`WORLD_ASSETS`, `cic-poc/frontend/src/data/worlds.ts`: pahc
+`/images/portraits/house-churches.png`, accent `#2F6B52`); capture §3, §7,
+§11, §13.
 
 ---
 
@@ -276,15 +423,19 @@ site-vignette drawn from the real place the census already cites:
 > visitors.* (census `experienceToday`)
 
 Walled enclosure, cave mouth in the cliff behind, drawn solid in iron-gall
-with an ochre wash. Beside it, Papnoute's locked world emblem — the cracked
-jug.
+with an ochre wash.
 
-**The hinted presence (anti-ghost, kept):** no monk is depicted. At the cave
-mouth: a woven rope basket, mid-weave, set down. A water jug in the shade. A
-worn footpath from the enclosure gate to the river, drawn as real desert paths
-look — made by decades of feet. The path is the boldest single stroke in the
-vignette. People are everywhere in this picture; none of them are shown, and
-none of them are ghosts.
+**The figure at the cave mouth (anti-ghost, kept in full) [PROPOSED — this
+draft]:** at the center of the vignette, set into the page inside an
+ink-ruled portrait plate grounded in the world's own ochre-gold (`#7A6A2E`),
+the world's real, current portrait: **Papnoute**, solid as the cliff behind
+him, white noon on a weathered face the way it lands on stone — no glow, no
+translucence, a person, present. Around him the vignette keeps every mark of
+the life: a woven rope basket, mid-weave, set down. A water jug in the shade.
+A worn footpath from the enclosure gate to the river, drawn as real desert
+paths look — made by decades of feet. The path is still the boldest single
+stroke in the vignette. People are everywhere in this picture; one of them is
+shown, and nobody is a ghost.
 
 **The era's other two live worlds, real and connected:** lower in the band,
 where the Greek East and Latin West rivers run closest, the census's own
@@ -292,14 +443,19 @@ oddity is honored — **Imperial and Juridical Christianity** (c. 312–451) is
 filed not in a lane but on the *bridge* between two (`laneOrder 3.5`, "Greek
 East / Latin West — bridge"), and the art draws it as what it was: not a
 natural stream but an **engineered channel** — straight banks, cut stone —
-empire building waterworks between watersheds. Its site-mark is its own real
-survival: *the Archbasilica of St John Lateran, Rome — founded under
-Constantine in the 320s and still the cathedral church of the bishop of Rome*
-(census `experienceToday`). And on the Latin West's eastern reach, **the
-Bethlehem Circle** (Hieronymian Ascetic-Literary Christianity, c. 382–420),
-its site-mark *the Church of the Nativity and the Pilgrimage Route, Bethlehem
-— the UNESCO World Heritage site whose underground caves include the one long
-shown as Jerome's study* (census `experienceToday`). Two real edges tie the
+empire building waterworks between watersheds; the one course in the band
+that *earns* straight lines, now that the natural rivers wind (§0, rule 3).
+Its site-mark is its own real survival: *the Archbasilica of St John Lateran,
+Rome — founded under Constantine in the 320s and still the cathedral church
+of the bishop of Rome* (census `experienceToday`) — and at its own
+world-open depth, its portrait plate: **Marius**, the world's real, current
+portrait, framed in the channel's own bronze-brown (`#7A5233`). And on the
+Latin West's eastern reach, **the Bethlehem Circle** (Hieronymian
+Ascetic-Literary Christianity, c. 382–420), its site-mark *the Church of the
+Nativity and the Pilgrimage Route, Bethlehem — the UNESCO World Heritage site
+whose underground caves include the one long shown as Jerome's study* (census
+`experienceToday`), its own portrait plate grounded in deep madder-rose
+(`#8C4A5C`) waiting at the same world-open depth. Two real edges tie the
 Desert to it and beyond, both Documented, both solid: *"Jerome and Paula
 toured the Egyptian ascetic settlements"* (`transmitted to`), and — flowing
 out of the band entirely — *"Basil visited Egypt; the whole Greek monastic
@@ -330,10 +486,12 @@ corpus, deep on inner combat."*
 mid-weave, the path worn deep, the jug in the shade at what is plainly the hot
 hour. And principle 2: this vignette lives at **white noon**, the one scene on
 the sheet lit mercilessly from above, because that is the desert's true
-weather and it makes the cave's shade legible as mercy. Stillness here is not
-a compromise — it *is* the content. This is the world whose whole discipline
-was learning to sit still in a cell, rendered by a map that has, itself,
-learned the same.
+weather and it makes the cave's shade legible as mercy — light landing on
+stone, jug, and the painted face in its plate alike, never as aura. Stillness
+here is not a compromise — it *is* the content. This is the world whose whole
+discipline was learning to sit still in a cell, rendered by a map that has,
+itself, learned the same — and now shown in the face of a man who is doing
+it.
 
 **Grounding:** census era 2 record (title, dates, tag, ground, keyEvents);
 `desert-monasticism` full record (tile, voices, sourcing, living flag,
@@ -343,7 +501,10 @@ edges `alexandria-catechetical → desert-monasticism`, `desert-monasticism →
 hieronymian-ascetic-literary`, `desert-monasticism →
 iconophile-byzantine-monasticism`,
 `cappadocian-nicene-pastoral-monastic-tradition → hieronymian-ascetic-literary`,
-notes verbatim; world-icon spec (Papnoute · cracked jug, locked); capture §8.
+notes verbatim; current portrait assets (`WORLD_ASSETS`,
+`cic-poc/frontend/src/data/worlds.ts`: desert `/images/portraits/desert.png`
+`#7A6A2E`, ijc `/images/portraits/empire.png` `#7A5233`, hal
+`/images/portraits/bethlehem.png` `#8C4A5C`); capture §8.
 
 ---
 
@@ -404,7 +565,12 @@ One desert, one visitor, one short rule, one monk-bishop — and the whole
 Latin monastic line. The census's own teaser for the Benedictine entry sits
 on its glimpse card: *"a short, practical rule for a single household of
 monks, written while the peninsula was being fought over, that ended up
-organizing Western monastic life for fifteen centuries."*
+organizing Western monastic life for fifteen centuries."* And one rule from
+§0 stays sheathed here deliberately: even on the day this band is inked,
+these meeting courses will not blend their washes at the confluence —
+the delta-blend (§0, rule 7) waits for a documented absorption, and what the
+census records here is `transmitted to` and `formed`: a book handed forward,
+not a stream swallowed.
 
 **A quiet mark:** near the band's end, between the Roman course and the
 Justinianic Byzantine course, a footbridge drawn **open at the center** — the
@@ -463,9 +629,11 @@ experienceToday entries for `early-benedictine-italian-monasticism`,
 ## Scene IV — Era IV: The Early Medieval Era, 622–1054
 
 *"Christianity under new empires, from Ireland to China" (the era's tag).
-Ground: warm parchment `#EFDDB3`. The longest band on the sheet — four
-hundred and thirty-two years — and the widest picture: the participant rides
-one river to the sheet's far eastern edge.*
+Ground: warm parchment `#EFDDB3`. The longest era-span on the sheet — four
+hundred and thirty-two years of real time, though not its tallest band,
+because height follows what a band holds, not the calendar (§0, rule 1) —
+and the widest picture: the participant rides one river to the sheet's far
+eastern edge.*
 
 **What the participant just did:** zoomed part-way back out — their choice,
 their hands — until the whole band fits the frame, then panned slowly east
@@ -918,13 +1086,17 @@ records (the established channels).
 ## Scene IX — Era IX: The Missionary Era, 1815–1906
 
 *"Revival, missions, and a globalizing faith" (the era's tag). Ground: cool
-blue-grey `#D8E4E5`. The census's fullest band — 51 entries — and the scene
-holds its two most remarkable facts: a confluence, and a resurfacing.*
+blue-grey `#D8E4E5`. The census's fullest band — 51 entries in 91 years —
+and so, under §0's density-sized bands (rule 1), the visually tallest on the
+whole sheet. The scene holds its two most remarkable facts: a confluence,
+and a resurfacing.*
 
 **What the participant just did:** panned down into the band and felt the
-density change before counting anything — more courses enter this band than
-any other on the sheet, and lanes that hugged one meridian for centuries now
-reach shores the top edge never imagined. The keyEvents on the margin:
+density change before counting anything — the band runs taller and its
+rivers wider here because more is genuinely in them (§0, rules 1 and 2) —
+more courses enter this band than any other on the sheet, and lanes that
+hugged one meridian for centuries now reach shores the top edge never
+imagined. The keyEvents on the margin:
 *Second Great Awakening (1800s–30s) · Abolition of the transatlantic slave
 trade (1807/1833) · American Civil War (1861–65)*.
 
@@ -1036,8 +1208,9 @@ movements drew on Pentecostal currents while being genuinely
 African-initiated — the balance is actively studied"* (→ African-Initiated
 Churches). The tag's center of gravity is visible as geometry: the lanes
 that thicken in this band are Africa, Global Revival, and the eastern
-reaches; the census's own arithmetic (49 entries here, most flagged
-`living: true`) *is* the picture.
+reaches — §0's width-by-density (rule 2) made visible at era scale; the
+census's own arithmetic (49 entries here, most flagged `living: true`) *is*
+the picture.
 
 **A mark the participant has seen before:** in the Protestant lane, an open
 footbridge — the census's own note introducing it as *"the census's second
@@ -1120,9 +1293,10 @@ fact. They would live where the formal name lives now, with the formal name
 one breath beneath — headline in Alegreya italic, formal name in small caps
 under it.
 
-1. **Era I — "The church before it had buildings."** Post-Apostolic
-   House-Church Christianity. *From its longDescription: "Christianity had
-   no buildings of its own… it had houses."*
+1. **Era I — "The church before it had buildings."** Scattered Christianity
+   (census formal name: Post-Apostolic House-Church Christianity). *From its
+   longDescription: "Christianity had no buildings of its own… it had
+   houses."*
 2. **Era II — "They went out to fight what was inside."** Desert
    Monasticism. *From its tile: "left settled village life to wage a
    lifelong combat against the thoughts that trouble a person from within."*
@@ -1162,15 +1336,66 @@ No tool is named, no architecture sketched, no build increment proposed — per
 the brief. The scenes above are pictures for Mark to react to. Where a scene
 answers a question the capture left open (what a world looks like on the
 terrain; what a `continuesAs` seam looks like — including one whose reaches
-don't touch; what makes still art alive; the footbridge mark; the compass
-placement of lanes; the headline rule), the answer is marked **[PROPOSED —
-this draft]** and stands ready to be kept, bent, or struck in the convergent
-phase.
+don't touch; what makes still art alive; the portrait plate; the eight river
+mechanics; the footbridge mark; the compass placement of lanes; the headline
+rule), the answer is marked **[PROPOSED — this draft]** and stands ready to
+be kept, bent, or struck in the convergent phase.
 
 ---
 
 ## Document log
 
+- **REV 4 (2026-09-01):** Two changes, both prompted by direct corrections
+  from Mark in the continuing conversation. **First, real portraits replace
+  the "no figure shown" device.** The earlier drafts kept every
+  Representative out of frame — baskets, paths, jugs standing in for a person
+  — reading anti-ghost through the old emblem-only world icons and treating a
+  realistic face as gated on a demographic-reference artifact. Mark corrected
+  both premises: *"the emblem icons are retired and not used, the realistic
+  portraits in pngs and jpeg are current,"* and *"that was a false gate that
+  keeps reemerging, the representative has a box of fabrication to make the
+  system relatable, name, role image, but it is specific to the box and only
+  applied strictly to the conversation."* §0 now carries the portrait-plate
+  device [PROPOSED]: each Built & Live world's real, current portrait
+  (`WORLD_ASSETS`, `cic-poc/frontend/src/data/worlds.ts` — exact paths and
+  accent hexes cited, none invented) set into the page as an ink-ruled
+  roundel framed in that world's own accent color, the way illuminated
+  manuscripts carried painted donor and evangelist portraits. Scene I now
+  seats Chloe at the table's center and Scene II sets Papnoute at the cave
+  mouth, with Marius and the Bethlehem Circle's plates named at their
+  world-open depths; the evidence-of-use details (broken bread, unfolded
+  letters, the worn path) are kept as the surrounding scene, no longer a
+  substitute for a figure. Anti-ghost is unchanged and satisfied — solid,
+  warm, present, never glowing — figure-avoidance having been one execution
+  of it, not the rule. Retired-emblem references (Chloe's cup, Papnoute's
+  cracked jug "locked emblems") removed; the objects themselves stay as
+  scene objects. Scene I also adopts the world's new display name,
+  **Scattered Christianity**, noting once that the live census record still
+  carries "Post-Apostolic House-Church Christianity." Graphite worlds keep
+  hinted presence — no Representative exists there yet to portray — so
+  Scenes VI and VII's no-figure passages stand. **Second, eight
+  river-mechanics principles folded into §0** [PROPOSED]: band height by
+  density rather than elapsed time; river width as water volume; winding
+  courses; era grounds as passthrough, never containers; lane drift under
+  documented interaction density; color persistence through name-only
+  `continuesAs` seams with possible shift at a genuine gravity/force change
+  (Mark: *"it is the gravities that should bound christian traditions... not
+  just the name"* — with the gap honestly named: Doc_04/Doc_08 analysis
+  exists only for the six built worlds, and only the Syriac entry carries a
+  `continuesAs` link at all, to a Deferred entry with no gravity analysis,
+  so no seam is checkable on both banks yet); delta-blend at genuine
+  absorption (stated as a rule only — the census's edge vocabulary records
+  no true merger, re-verified this pass, and Scene III now explicitly
+  declines to blend the Cassian-Benedictine confluence because its edges are
+  `transmitted to`/`formed`); and cartographic generalization by zoom depth,
+  with Scene I's full-extent moment rewritten to match. Consequent fix:
+  Scene IV no longer claims to be "the longest band on the sheet" — its 432
+  years stand as the longest era-span, a separate true fact, while Scene IX
+  (51 entries in 91 years, re-verified against `movements[]`) now notes it
+  is the visually tallest band under the density rule. Census facts
+  re-checked this pass: per-era entry counts, edge-type arithmetic (32
+  formed / 15 transmitted / 10 argued / 6 contemporary / 6 in-tension = 69),
+  and the built worlds' `continuesAs` fields.
 - **REV 3 (2026-08-31, same day):** Added the founding-principle statement to
   the header, at Mark's explicit direction — *"the base program is about the
   entire ecology, not the build worlds."* Ratifies, rather than changes, the
