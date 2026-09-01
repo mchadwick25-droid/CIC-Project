@@ -7,7 +7,7 @@
 **Builds on:** Docs 01–05 (all Approved to proceed); Doc_03 + Addendum (24 candidate terms, 1 slated for merge, 2 declined — 23 terms carried into this document).
 **Deployment note:** Per Framework Step 6, this document develops full entries; separate deployment lexicon chunk files (per `[world-code]lex[number]_[term-slug].md` naming and the Deployment Lexicon Chunk Template) are produced here for all 15 **Tier 1** terms, since the Framework specifically requires Tier 1 entries to "reach genuine depth (not placeholder form) before Integrated Ecology Analysis lenses begin" (Step 7). Tier 2 and Tier 3 terms receive complete entries inline in this document; extracting them into standalone chunk files is a mechanical, lower-risk task explicitly deferred to a later deployment pass — **disclosed here, not silently skipped.**
 
-**Cross-document consistency scope, corrected per Round 1 review, which found the original claim overstated, and refined per Round 2, which found the Round 1 fix itself still overstated Distortion Risk's status:** Quick Meaning and World Meaning are carried verbatim between this document's Part A and each corresponding Lexicon-Chunks/ file — the two sections where wording drift would most directly affect a participant-facing claim. Distortion Risk is verbatim in substance but, like Ecological Function and Key Sources, has its internal cross-references (parenthetical document-section numbers) stripped or restated in the chunk versions, since the chunk files are self-contained runtime artifacts that cannot assume a reader has this document's own numbering in view. This adaptation is not verbatim and is not claimed to be for any of these three sections.
+**Cross-document consistency scope:** Quick Meaning and World Meaning are carried verbatim between this document's Part A and each corresponding Lexicon-Chunks/ file — the two sections where wording drift would most directly affect a participant-facing claim. Distortion Risk is verbatim in substance but, like Ecological Function and Key Sources, has its internal cross-references (parenthetical document-section numbers) stripped or restated in the chunk versions, since the chunk files are self-contained runtime artifacts that cannot assume a reader has this document's own numbering in view. This adaptation is not verbatim and is not claimed to be for any of these three sections.
 
 ---
 
@@ -83,7 +83,7 @@
 
 **Quick Meaning:** Consecrated, lifelong sexual continence, held in this world as the highest form of Christian formation available to a woman.
 
-**World Meaning:** Virginity here was not merely the absence of marriage; it was understood as a state nearer to what the redeemed life will finally be — a foretaste, kept now, of a condition not yet arrived for everyone else. To choose it was to choose against the ordinary shape a senatorial daughter's life was expected to take, and the choice was defended with real rhetorical force: sharp words against marriage itself, an argument that a woman keeping her virginity kept something no other state of life could offer. This was not gentle counsel — it provoked real controversy, even from within the household that most prized it. **[World Meaning corrected per Round 1 review, which found "in this world's own literature" and "in at least one surviving articulation" were analytical-distance markers that had leaked into inhabited prose; removed here and in the matching chunk file.]**
+**World Meaning:** Virginity here was not merely the absence of marriage; it was understood as a state nearer to what the redeemed life will finally be — a foretaste, kept now, of a condition not yet arrived for everyone else. To choose it was to choose against the ordinary shape a senatorial daughter's life was expected to take, and the choice was defended with real rhetorical force: sharp words against marriage itself, an argument that a woman keeping her virginity kept something no other state of life could offer. This was not gentle counsel — it provoked real controversy, even from within the household that most prized it.
 
 **Ecological Function:** Distinguishes Eustochium's formation category from Paula's, Marcella's, and Fabiola's (*vidua*, entry 5); central theological content per Doc_05 §9.
 
@@ -109,7 +109,7 @@
 **Modern Hearing:** Risk of treating widowed continence as a lesser, merely-negative absence of remarriage.
 **World Hearing:** A genuine, actively-chosen ascetic vocation with its own discipline and, for at least one of these women, real recognized standing.
 
-**Key Sources:** Ep. 108 (Paula), Ep. 127 (Marcella), Ep. 77 (Fabiola). **Corrected per Round 1 review, which found this pointer ("same Author Gravity caveat as entry 3") had drifted from the corresponding chunk file's own, more specific wording — reconciled here rather than left mismatched:** all three sources are Jerome's own idealizing epitaph genre (the general point shared with entry 3); the pattern's actual independent corroboration rests on independent social-historical scholarship on senatorial renunciation (Doc_02 §6), not the letter count itself.
+**Key Sources:** Ep. 108 (Paula), Ep. 127 (Marcella), Ep. 77 (Fabiola). All three sources are Jerome's own idealizing epitaph genre (the general point shared with entry 3); the pattern's actual independent corroboration rests on independent social-historical scholarship on senatorial renunciation (Doc_02 §6), not the letter count itself.
 
 ---
 
@@ -175,7 +175,7 @@
 **Modern Hearing:** Risk of treating this purely as an abstract soteriological dispute (grace vs. free will) disconnected from real-world consequence.
 **World Hearing:** A dispute this world experienced, at least once, as physical violence at its own door.
 
-**Key Sources:** Jerome's own account (letter to Riparius) — **Author Gravity note: notably vague on casualty/detail specifics; this document does not manufacture precision the source itself withholds (corrected per Round 1 review, which found this had wrongly cited "Doc_01 §9 Open Issue #4" — actually the 385 "synod" issue; the correct grounding for this specific vagueness point is Doc_01 §9's general discipline against overstating institutional/event precision beyond what sources support, not a specific numbered Open Issue).**
+**Key Sources:** Jerome's own account (letter to Riparius) — **Author Gravity note: notably vague on casualty/detail specifics; this document does not manufacture precision the source itself withholds, per Doc_01 §9's general discipline against overstating institutional/event precision beyond what sources support.**
 
 ---
 
@@ -199,7 +199,7 @@
 
 **Quick Meaning:** The recognition of someone as authoritative on disputed scriptural questions through demonstrated learning, exercised in person, apart from any clerical office — the standing at least one woman in this world held in her own right.
 
-**World Meaning:** In this world, being consulted on a hard scriptural question was itself a form of authority, and it did not require ordination to hold it. When the scholar who had trained a Roman household in this kind of reading left for the Holy Land, at least one member of that household did not lose the standing his teaching had helped establish in her — clergy, later, came to her own house with the questions they could no longer bring to him directly. This was a real standing, held and exercised in her own right. **[World Meaning corrected per Round 1 review, which found "it is remembered only in the words of the very teacher whose departure created the space for it" was a source-critical caveat leaking into inhabited prose; moved to Key Sources/Reported-Experience Status below, where it belongs, and removed here and in the matching chunk file.]**
+**World Meaning:** In this world, being consulted on a hard scriptural question was itself a form of authority, and it did not require ordination to hold it. When the scholar who had trained a Roman household in this kind of reading left for the Holy Land, at least one member of that household did not lose the standing his teaching had helped establish in her — clergy, later, came to her own house with the questions they could no longer bring to him directly. This was a real standing, held and exercised in her own right.
 
 **Ecological Function:** The evidentiary core of G5 (Tensional gravity, Doc_04); tested directly and at length in Doc_04's resolution of Doc_01's Open Issue #7 (not reopened — see Doc_04 §2 for the full reasoning, carried forward here, not restated with different wording).
 
@@ -249,7 +249,7 @@
 
 **Quick Meaning:** The hospital Fabiola founded in Rome for the sick — a distinct institution from the hospice for travelers (*xenodochium*, Part B entry 2).
 
-**World Meaning:** Before this world's central scholar and his patrons ever built anything at Bethlehem, one of the women of this same network had already, in Rome, gathered the sick in from the streets and cared for them under one roof — the first such foundation. The word for the place she built came into Latin from Greek and was left there, untranslated, even by the very scholar who elsewhere insisted on precision in translation. **[World Meaning corrected per Round 1 review, which found "by this world's own report" and "this world's own text preserves" were analytical-distance markers leaking into inhabited prose; removed here and in the matching chunk file.]**
+**World Meaning:** Before this world's central scholar and his patrons ever built anything at Bethlehem, one of the women of this same network had already, in Rome, gathered the sick in from the streets and cared for them under one roof — the first such foundation. The word for the place she built came into Latin from Greek and was left there, untranslated, even by the very scholar who elsewhere insisted on precision in translation.
 
 **Ecological Function:** Distinct expression of G2 (renunciation) and G3 (patronage) in the ministry-ecology lens (Doc_05 §5); distinguished explicitly from *xenodochium* to prevent conflation of two real, separate institutions.
 

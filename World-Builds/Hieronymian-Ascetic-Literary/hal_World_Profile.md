@@ -71,7 +71,7 @@
 **Gravity name:** Marcella's independent exegetical authority
 **Gravity type:** Tensional
 **Confidence:** Contested (single-source, per Doc_04's Confidence/Gravity Cross-Check — fails the Primary threshold)
-**Cross-strand status:** World is strand-singular; this gravity does not itself hold across both poles (Rome-only for Marcella's specific instance) — a finding treated as relevant to this candidate's own classification, not to the strand-determination question (**corrected per Round 1 review: this distinction is established at Doc_04 §2, §5, §6, not Doc_07 §2**)
+**Cross-strand status:** World is strand-singular; this gravity does not itself hold across both poles (Rome-only for Marcella's specific instance) — a finding treated as relevant to this candidate's own classification, not to the strand-determination question (this distinction is established at Doc_04 §2, §5, §6, not Doc_07 §2)
 **Brief description:** The genuine, evidentially-thinner counter-current of independently-recognized female scriptural authority — the same underlying currency as the world's Primary patronage-authority gravity, held in a materially independent position, real and formative but not organizing as broadly as the Primary gravities (Doc_01 §4, Doc_04 §2).
 **Grounding:** Doc_02 §1.4 (Ep. 127); Doc_04 §2–3, §6 (Tensional classification, resolving Doc_01's Open Issue #7 — not reopened); Doc_08 §1 (fractures at force 3A-1, the 410 sack).
 
@@ -179,7 +179,7 @@ This world's boundary was the decision to renounce, evidenced through action rat
 
 *(All 15 Tier 1 terms from Doc_06, each with an always-present designation. Tags per Doc_06's Master Lexicon Index.)*
 
-**Corrected per Round 1 review, which found the stated always-present count (9) did not match the table and that bold-vs-plain "YES" formatting carried no defined meaning — both fixed below (reconciled final count: 10 YES / 5 NO); all YES designations now formatted identically.**
+**Always-present count: 10 YES / 5 NO. All YES designations are formatted identically below.**
 
 | Term | Tags | Always-present | Brief characterization | Distortion risk note |
 |---|---|---|---|---|
