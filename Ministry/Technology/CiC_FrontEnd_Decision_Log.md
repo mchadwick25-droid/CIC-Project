@@ -1857,3 +1857,55 @@ first record; V1's model routing (Sonnet orchestration / Opus reviews
 carried forward; cost as ONE launch-time envelope approval with halt
 on projected overrun, replacing a drip of empty per-call asks.
 Governance doc - awaiting Mark's read and merge word.
+
+---
+
+## 2026-09-01 — World-picker swim lanes: sequenced after the first 10 worlds, not built now
+
+**Origin.** With Cappadocian merged (the seventh live world) and its Table-app
+picker just rebuilt as a horizontal scroll (see the same date's Table Engine-
+adjacent work), Mark raised the next scaling problem before it hurts: "as we
+get more worlds, i would like to put the eras on their own horizontal like on
+the landing page, instead of having to scroll 10 or 50 cards to the right you
+can scroll down for the eras and right for any worlds that don't fit on the
+page."
+
+**The pattern, named precisely: swim lanes.** Each era gets its own
+horizontal scrolling row; vertical scroll moves between era rows; horizontal
+scroll handles overflow within a row. Same shape as a streaming service's
+browse screen, for the same reason - it degrades gracefully at any count,
+where one long horizontal row (today's landing-page carousel, and the Table
+picker just built to match it) does not.
+
+**Checked, not assumed: this isn't urgent yet.** 7 worlds are live, 2 more
+selected - 9 total, well inside what a single row handles (verified live,
+screenshots taken the same day). "Possible Future World" adds 19 more; the
+long-tail Pre-Survey pool is 215 - so the underlying worry is real at the
+project's actual scale, just not this month.
+
+**Mark's own sequencing, and the sharper insight underneath it.** Build this
+"as soon as i finish the first 10 worlds in two eras" - eras 1 and 2, both
+early church. His own caution, in his words: "it works now as era 1 and 2 are
+both early church, but later ones will not world [sic, later ones will not
+work]" - flagging that grouping-by-era-number reads as an obviously correct
+container right now only because both eras currently in play are the same
+kind of thing. Once building reaches later eras (his examples: late medieval,
+Reformation) - genuinely different historical periods, not just later
+numbers - whether "one lane per era" is still the right grouping is an open
+question this thread will need to actually test, not inherit unexamined from
+the early-church-only case. Don't let the two-era version quietly become
+"the design," the way an Alpha-phase call can wrongly calcify into permanent
+just because it was never revisited (this skill's own standing caution).
+
+### Next action
+
+None yet, by Mark's own sequencing. Trigger: once the first 10 worlds across
+eras 1-2 are built (currently 9 of that 10 exist - 7 live, 2 selected -
+so close). When that thread opens: (1) thread `era` (not just `eraStart`/
+`eraEnd`) through `GET /api/worlds` into the Table app's `WorldEntry`, since
+grouping needs the number, not just a date range; (2) build the two-axis
+scroll for both `cic-website` and `cic-poc/frontend` so they keep reading as
+one family; (3) explicitly re-test whether era-number grouping still holds
+once a later, genuinely-different-period era is the second data point, not
+carry the two-early-church-eras case forward as though it settled the
+question.
