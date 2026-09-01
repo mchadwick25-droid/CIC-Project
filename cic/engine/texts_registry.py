@@ -708,6 +708,30 @@ ENTRIES: tuple[TextEntry, ...] = (
               "raw and uncorrected, dense Latin critical-edition apparatus criticus; any specific quotation "
               "drawn from it needs visual cross-check against its own surrounding text before being relied "
               "on for a verbatim claim."),
+    TextEntry("monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt", "Mark", "2026-09-01",
+              "Paul Monceaux, Histoire litteraire de l'Afrique chretienne depuis les origines jusqu'a "
+              "l'invasion arabe, Tome V: Saint Optat et les premiers ecrivains donatistes (Paris: Ernest "
+              "Leroux, 1920) - Donatism world-build Source_Acquisition_Manifest.md §1 request G6 "
+              "(Source_Registry.md row 40; the Manifest's own target range was vols. IV-VI, this file is "
+              "Tome V specifically). French-language; no public-domain English translation exists for this "
+              "field-standard older literary history. Manually downloaded by Mark from archive.org and "
+              "supplied as a DOCX file attachment - the same acquisition channel used for G1-G5. Converted "
+              "mechanically via a zip/XML text extraction (paragraph boundaries preserved from </w:p> "
+              "splits) - no content passed through model-generated output. This paste's own leading "
+              "archive.org chrome was minimal ('Full text of ...' / 'See other formats' - 2 lines, "
+              "stripped at vendoring); everything after that is unedited raw OCR. RIGHTS: 1920 publication "
+              "date and the author's 1941 death, both placing this volume long out of US copyright. "
+              "CONTENT CONFIRMED THIS SESSION: covers Optatus, the earliest Donatist polemical writings, "
+              "an extensive dedicated chapter headed 'TYCONIUS,' and substantial treatment of the "
+              "Macarian-persecution martyr narratives - both the Passio Marculi and the Passio Maximiani "
+              "et Isaac are discussed at length, with Migne column citations ('Passio Marculi, p. 762 "
+              "Migne' / 'p. 766 Migne') that corroborate this world-build's own Source_Acquisition_"
+              "Manifest.md citation of PL 8, columns 760-766 - directly confirming the Manifest's own "
+              "description of this work as 'a second, independent public-domain route to the Passiones' "
+              "(G4). Macrobius's letter is likewise discussed. OCR QUALITY: raw and uncorrected, dense "
+              "French scholarly prose with extensive footnotes and frequently misread accented characters; "
+              "any specific quotation drawn from it needs visual cross-check against its own surrounding "
+              "text before being relied on for a verbatim claim."),
 )
 
 
