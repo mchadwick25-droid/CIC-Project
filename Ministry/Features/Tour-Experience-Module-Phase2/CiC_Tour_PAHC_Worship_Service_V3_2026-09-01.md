@@ -42,7 +42,27 @@
 **Voiceover (ElevenLabs, Facilitator + Chloe, tagged by origin per this session's convention):**
 > **[Facilitator — WORLD RECORD]** Justin taught in a rented room above a bathhouse here in Rome. **[OUTSIDE SOURCE — Roman housing scholarship]** A room like his sat above shops, one floor of many, holding far more families than any single house could. **[Facilitator, on the image]** What you're seeing is built to match that — real proportions, drawn from a building that still stands in Ostia — but it's a reconstruction. Nobody photographed Justin's room. This is our best honest guess at its shape.
 >
-> **[Chloe]** Come in — stand there, where you can see the whole room. We keep it the way it's always kept before anyone arrives.
+> **[Chloe]** Come in. Stand by the wall — you can see the whole room from there. We keep it this way before anyone arrives.
+
+**RULING (2026-09-01, Mark):** Chloe's full script was rewritten fleet-register-compliant — strict we-voice throughout (was drifting into "I," which the live conversation's own `pronoun_rule` forbids except one narrow sanctioned case never used here), and stripped of coined "quotable" phrasing ("hear me plainly," "the silence is also mine"), which register statement 6 explicitly rules out. Grounded directly against `records/_fleet/fleet_voice/_fleet.voice.fleet.md`'s seven register statements and a real approved demonstration turn (`pahc.demo.honest-limit-material-remains`), not just a general "sound plainer" instinct. **Full corrected script, all nine stops, in the session's own paste-ready form — this supersedes the per-stop text elsewhere in this document and in the old demo's own HTML wherever the two differ:**
+
+> **Stop 1 · The Door** — Come in. Stand by the wall — you can see the whole room from there. We keep it this way before anyone arrives. This is one of our mornings, written down, not imagined. Justin, one of us in Rome, described it to the emperor himself. This is Rome's own morning. In Antioch, in the cities of Asia, the meal was kept differently. We show you only what he wrote. Where he said nothing, we say nothing. You can leave at any point.
+>
+> **Stop 2 · The Day** — It is the day named for the sun. From the city and the countryside, we come to one place, Justin says. One room, and people arriving. That is the first thing to know about us. We gather. Nothing begins until we are together.
+>
+> **Stop 3 · The Reading** — The records of the apostles are read aloud, or the writings of the prophets. Not a fixed portion. As long as the morning allows.
+>
+> **Stop 4 · The Word** — Then the one presiding speaks. He asks us to live out what we just heard. That is the whole of it. Not new teaching. The old examples, said again. No sermon of ours survives — none was written down. But the plain teaching we give to those preparing for the water was written. Hear how it opens.
+>
+> **Stop 5 · The Prayers** — Then we all stand together and pray. Justin does not give the words. Neither do we. They were ours, spoken standing, in one body.
+>
+> **Stop 6 · The Bread and the Cup** — Bread is brought, and wine mixed with water. The one presiding gives thanks over them. No book held his words. His thanksgiving was his own. The people made it theirs with one word: Amen.
+>
+> **Stop 7 · The Collection** — Those with means, and who are willing, give what they choose. It is laid with the one presiding. Justin tells the emperor where it goes: to orphans and widows, to the sick, to prisoners, to strangers among us. The meal and the giving are one motion.
+>
+> **Stop 8 · What We Cannot Show You** — What you just walked into is a reconstruction. It is not a photograph. Even that cannot give you everything. The exact words of the prayers and the thanksgiving are not among them. Justin says only "according to his ability." No fixed text was ever kept. Of everyone who might have filled a room like this, two names survive in our whole record: Tavia, and the wife of Epitropus. A name and a greeting. Nothing more. A Roman governor wrote that we met before dawn and sang to Christ as a god. He learned it by torturing two of our serving women. We will not quote his page without naming their cost. What we sang, he did not record. No one else did either. There is no music to play. None will be invented.
+>
+> **Stop 9 · The Way Out** — You have walked through what Justin wrote — all of it. The rest of that morning is honest silence. We keep that silence too. Come again, and we will walk you toward the water, the way it was taught to those preparing for baptism. That path is reconstruction, plainly marked — no single account of it survives. And if another world's own sources keep no such morning at all, its door will say so honestly. That is the rule here: only what the evidence gives, and a plain word where it runs out.
 
 ### Stop 7 — What We Cannot Show You (reframed, not removed)
 
