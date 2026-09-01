@@ -14,9 +14,11 @@ rights choices are his; (3) the launch-phase birth conditions (register
 bar V1.1, transparency ground V1.2) are in force from the first record;
 (4) the prompt is GENERAL: it launches any world, listed in the Step-0
 portfolio or not — an unlisted world opens with the G0 scope gate below
-(same-day ruling; the roadmap ahead runs through Galatia, then
-pre-Reformation and Reformation worlds, none of which the original
-portfolio scoped); (5) stewardship never outranks quality (Mark: "while
+(same-day ruling; the roadmap ahead runs through Gaul — Gallic
+Christianity, surfaced by the project's own analyses of the
+already-downloaded sources — then pre-Reformation and Reformation
+worlds, Atlas eras VI and VII, none of which the original portfolio
+scoped); (5) stewardship never outranks quality (Mark: "while
 good stewardship is important it shouldn't compromise the quality") —
 see the cost section. V1's model-routing policy (Mark, 2026-08-01) and
 lean-validation default carry forward.
@@ -29,7 +31,7 @@ and stops only at the gates and escalations below.
 >
 > If the named world is IN the Step-0 portfolio
 > (`CiC_Step0_Conclusion_FINAL_v2.docx`), build on its conclusions and
-> skip G0. If it is NOT (Galatia; any pre-Reformation or Reformation
+> skip G0. If it is NOT (Gaul; any pre-Reformation or Reformation
 > world), the build OPENS at G0 — no Doc work before it clears.
 > ALWAYS check first for a prior partial build of the named world
 > (unmerged branches, `Archive/`, `World-Builds/`) — recover and audit
@@ -69,23 +71,39 @@ decision, and each names what he is actually deciding — never a bare
 **G0 — Portfolio admission (unlisted worlds only), before any Doc
 work.** A world outside the Step-0 portfolio is a portfolio-level
 decision by definition (CO-022 category 2). Prepare a Step-0-grade
-scope brief and STOP: proposed time window and boundaries; era
-placement and what it implies for the Atlas/census (a new era is its
-own flagged decision); a source-landscape preview (what kinds of
-sources exist, the rights outlook — post-1500 worlds mean many modern
-translations are UNDER COPYRIGHT, so name the public-domain path
-honestly or the licensing question plainly); living-tradition proximity
-(the Article 29 outlook — Reformation worlds have direct denominational
-descendants, which sharpens the bounded-reconstruction discipline);
-known sensitivities (e.g., inter-tradition polemic in the sources,
-carried per the project's own named-plainly-not-reenacted precedent);
-and — for apostolic-era worlds like Galatia — the methodology question
-stated as a question: how canonical Scripture itself functions as a
-world-source is NOT settled precedent from the pilot fleet, and Mark
-rules on the approach before it is used. What Mark decides: whether
-this world enters the portfolio at all, its era and window, and the
-named new-territory approaches. His ruling is recorded as a decision
-artifact the whole build cites.
+scope brief and STOP. The brief anchors to what already exists:
+
+- **Provenance:** what surfaced this world — cite the actual analyses
+  (Gaul came out of the project's own analyses of the downloaded
+  sources; a world like that may find much of its G1 library ALREADY
+  vendored under `cic/texts/`, making G1 verification-first rather than
+  download-first).
+- **Atlas placement:** the census (`cic-website/data/world-census.json`)
+  is frozen at ten eras (I–X) with 292 movement entries — locate the
+  world there. Name WHICH movement entry or entries it claims (Gaul
+  already appears as The Gallic Nicene Episcopate I.37, Gallic
+  Monastic-Ascetic I.27, and Merovingian Gallic II.7; pre-Reformation
+  worlds live in era VI, Reformation in era VII) and the proposed
+  window against theirs. A world that maps to NO census movement is
+  itself a flagged finding, never silently added.
+- **Source-landscape preview:** what kinds of sources exist and the
+  rights outlook — post-1500 worlds mean many modern translations are
+  UNDER COPYRIGHT, so name the public-domain path honestly or the
+  licensing question plainly.
+- **Living-tradition proximity:** the Article 29 outlook — Reformation
+  worlds have direct denominational descendants, which sharpens the
+  bounded-reconstruction discipline.
+- **Known sensitivities:** e.g., inter-tradition polemic in the
+  sources, carried per the project's own named-plainly-not-reenacted
+  precedent.
+- **New-territory methodology:** where this world's era or source-type
+  has no precedent in the built fleet, state each new methodology
+  question AS a question with options — never as an assumed answer.
+
+What Mark decides: whether this world enters the portfolio at all, its
+window and which Atlas movements it claims, and the named new-territory
+approaches. His ruling is recorded as a decision artifact the whole
+build cites.
 
 **G1 — Scope & Sources, after Doc_02 clears review.** Present the world
 scope AND the **Source Acquisition Manifest** (format below). What Mark
