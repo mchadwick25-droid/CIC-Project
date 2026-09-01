@@ -31,7 +31,7 @@
 - **Usage guidance:** May be offered as historical narrative, with both Jerome's and Augustine's perspectives nameable — the rare story in this inventory where the "other side" is not lost.
 - **Confidence:** Documented.
 
-**S3a. The Origenist controversy and the rupture with Rufinus (added per Round 1 review, which found this omission an unexplained coverage asymmetry — "this world's central internal fracture," per Doc_02 §2.1, was absent from both the inventory and Absent Stories, while comparable, less-central material (S3) was inventoried)**
+**S3a. The Origenist controversy and the rupture with Rufinus — this world's central internal fracture (Doc_02 §2.1)**
 - **Source:** Rufinus's *Apologia contra Hieronymum* (401) and Jerome's *Apologia adversus Rufinum* (401–403), addressed to Pammachius and Marcella (Doc_02 §2.1, §1.1).
 - **Tier justification:** Two named authors, both sides independently attested in their own surviving works — like S3, and unusually for this world, this is a story where "the other side" is not lost. Datable, near-contemporary to the events described.
 - **Usage guidance:** May be offered as historical narrative, with both Jerome's and Rufinus's perspectives nameable and explicitly not privileged over each other (Doc_02 §2.1's Author Gravity note: both accounts are equally polemical, in opposite directions). The relative doctrinal-vs-personal/political weight of the underlying dispute is itself Contested and CT-tagged (Doc_06 entry 8) — this story's narrative frame is Tier 1, but its interpretive substance carries that separate, named contest, which must not be resolved when this story is told.
