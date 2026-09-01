@@ -52,7 +52,7 @@
 >
 > **Stop 3 · The Reading** — The records of the apostles are read aloud, or the writings of the prophets. Not a fixed portion. As long as the morning allows.
 >
-> **Stop 4 · The Word** — Then the one presiding speaks. He asks us to live out what we just heard. That is the whole of it. Not new teaching. The old examples, said again. No sermon of ours survives — none was written down. But the plain teaching we give to those preparing for the water was written. Hear how it opens.
+> **Stop 4 · The Word** — Then the one presiding speaks. He asks us to live out what we just heard. That is the whole of it. Not new teaching. The old examples, said again. What did such teaching sound like? The exact words from that morning are not kept. But a teaching like this survives — given to those preparing for the water. It may be close to what was actually said. Hear how it opens.
 >
 > **Stop 5 · The Prayers** — Then we all stand together and pray. Justin does not give the words. Neither do we. They were ours, spoken standing, in one body.
 >
