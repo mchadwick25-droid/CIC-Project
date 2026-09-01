@@ -20,8 +20,13 @@ already-downloaded sources — then pre-Reformation and Reformation
 worlds, Atlas eras VI and VII, none of which the original portfolio
 scoped); (5) stewardship never outranks quality (Mark: "while
 good stewardship is important it shouldn't compromise the quality") —
-see the cost section. V1's model-routing policy (Mark, 2026-08-01) and
-lean-validation default carry forward.
+see the cost section; (6, added 2026-09-01) FILE DISCIPLINE (Mark:
+"all world build and active files are free from any comments, notes,
+corruption, they need to be clean for exactly what they exist to do")
+— see its own section below: cleanliness is a PLACEMENT discipline,
+never a deletion one, and both failures are real (litter in operative
+fields, and stripping the mandated audit trail). V1's model-routing
+policy (Mark, 2026-08-01) and lean-validation default carry forward.
 
 Paste this into a fresh thread when a world build is authorized. Fill in
 the one blank. The thread runs the build with agents and quality loops
@@ -188,6 +193,47 @@ for the life of the world.
 - Gates green from the first record (Hieronymian's born-at-zero
   standard); a new record set opens at alias_safety zero or the step
   isn't done.
+
+## File discipline — everything in its place, nothing else (2026-09-01)
+
+Mark's ruling: active files are "clean for exactly what they exist to
+do." In this system that is a PLACEMENT discipline. Two opposite
+failures have both actually happened, and this section prevents both:
+a build thread once flagged the fleet's mandated record-body notes as
+"forbidden comments" (a category error that, acted on, would have
+erased the audit trail), while ~250 real instances of build language
+sat inside operative fields and shipped. The rules:
+
+- **An operative frontmatter field carries ONLY what it exists to
+  carry.** No work dates, review-pass or model names, thread
+  references, "per the project lead" asides, or provenance embedded in
+  values the runtime or a participant reads. The named counter-example:
+  a `rights_status` that carried "(accepted by the project lead
+  2026-08-18)" shipped that aside onto a participant-facing source
+  card.
+- **Dated build notes, corrections, and craft reasoning go in the
+  record BODY** below the closing fence — MANDATORY (CO-022: disclosed
+  dated notes, never silent rewrites), never read by any builder or
+  gate, never compiled. Stripping record bodies is a governance
+  violation, not a cleanup.
+- **Provenance that IS a record's job stays in the fields built for
+  it**: search_record fields, `why_sources_cannot_answer`,
+  `modern_lens_note`, `discovery_channel`,
+  `narrative_tier_justification`. Write them fully and honestly — the
+  compiler excludes/strips all of these from shipped packages
+  (engine/m2/builders.py, 2026-09-01), so they never leave the store.
+- **Never invent a frontmatter field to hold a note.** The schema is
+  the field list; the undeclared `demo_tag` fields found on four limit
+  records are the live example of the gate finding this causes.
+- **Before any pin**: the gates report is clean AND a residue read of
+  the compiled `repository.json` confirms no build vocabulary in
+  shipped values. A hit is a field-placement defect — fixed at the
+  record layer with a dated body note, then recompiled. Numbers and
+  greps are visibility; the read is the judge, same as every screen in
+  this process.
+- **Build deliverable docs** (Doc_01–10, reviews, ledgers, worklists)
+  live in the canonical world-build folder for this world — never
+  inside `records/`, `packages/`, or `engine/`.
 
 ## Model routing (pinned — Mark's policy, 2026-08-01, names refreshed)
 
