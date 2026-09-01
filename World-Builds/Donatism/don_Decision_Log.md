@@ -50,6 +50,14 @@ This log holds the review-round history, revision rationale, and escalation chec
 - **Escalation check:** None of the four standing escalation categories applies on the final content. Two categories were live points of disagreement across the review sequence and are recorded as resolved, not merely dropped: (1) the corpus map's own internal `context`/`tradition` inconsistency on the Augustine letters cluster (`cic/corpus-map/donatism.yaml`) is a process finding about a generated file outside this build thread's editing authority, not a Category 4 item — Round 2 mislabeled it Category 4, Round 3 corrected the label, and this holds; (2) the Source Acquisition Manifest's rights-posture question is not a Category 2 portfolio-level decision — Round 2 argued it was, Round 3 found that reading untenable against `cic-build-cycle`'s actual test ("decided for a reason external to this world's own ecology," not "touches a cross-world policy") and against the standing precedent of six other worlds' own Source Request Manifests, and this holds through Round 5. The Step 2 forces-lens gap and the four-band Confidence Map pattern are named as System Hub process findings (Doc_02 §9 items 8–9), not escalated, consistent with how Step0 §3 B1 surfaced an analogous `texts_registry.py` discrepancy.
 - **Disposition: Approved to proceed.** Not Frozen.
 
+### 2026-09-01 — G1 (Source Acquisition Decision)
+
+- **Gate:** the launch prompt's own G1 decision point — the project lead's real choice on which editions enter `cic/texts/`, presented via `Source_Acquisition_Manifest.md` once that document reached Approved to proceed.
+- **Presented:** the world scope (Doc_01/Step0's confirmed 311/312–439 window, boundaries, and strand-singular finding) and the Manifest's seven §1 acquisition requests (G1–G7), each with its own rights determination and, where found, a real checked URL.
+- **Decision (Mark, 2026-09-01):** acquire all seven of G1–G7. World scope confirmed as presented, not reopened.
+- **Not yet done:** the actual downloads. This build session's own outbound network access cannot reach any of the identified hosts (archive.org, Gallica, and general web domains all return an egress-blocked error from inside this session), so placing the files at their Destination filenames in `cic/texts/` is Mark's own action, per the Manifest's own closing note. Four of the seven (G2, G5, G6, G7) do not yet have a confirmed URL and need a further search before they can be downloaded at all.
+- **Standing gate for Phase A:** the build verifies each placed file's presence and basic identity before Phase A construction continues past Doc_02. This is not a self-disposition — it is a hard dependency on files this build thread cannot place itself.
+
 ---
 
 ## Standing process notes for this world (not part of any single document's own findings)

@@ -50,6 +50,10 @@ Frend (1952) · Shaw (2011) · Tilley, *The Bible in Christian North Africa* (19
 
 ---
 
-## Decision needed from the project lead
+## Decision from the project lead — G1 gate, 2026-09-01
 
-For each of the seven requests in §1 (G1–G7): acquire, decline, or defer. §2 and §3 need no decision — they are recorded so the build does not re-discover, mid-construction, that these routes are closed. Once a §1 request is acquired, the project lead places the file at its stated Destination (or a corrected one, if the actual downloaded item is structured differently) and follows the two vendoring steps named in §1's closing note; the build then verifies the placed file's presence and basic identity before Phase A construction continues past Doc_02.
+Mark: acquire all seven §1 requests (G1–G7); the world scope (Doc_01/Step0's 311/312–439 window and boundaries) confirmed as-is, not reopened. Logged in `don_Decision_Log.md`.
+
+Because this build session's own outbound network access cannot reach any of the identified hosts (§1's own network-access note), the actual downloads are Mark's own action, not this build thread's. For each of G1–G7: open the "where" link(s), confirm the item actually delivers full text under free access rather than a preview or lending checkout, save the file at the Destination filename given (or a corrected one, if the real item is structured differently — e.g. G3's two-volume Mommsen edition, or G1's three alternate Internet Archive copies of the same printing), and follow the two vendoring steps in §1's closing note (a provenance header stating the public-domain basis, then `python cic/engine/texts_registry.py --write-readme` after adding the `ENTRIES` row). G2, G5, G6, and G7 do not yet have a confirmed URL — a further search is needed for those four before they can be downloaded at all.
+
+The build verifies each placed file's presence and basic identity before Phase A construction continues past Doc_02 — a missing or substituted file halts, it is never worked around.
