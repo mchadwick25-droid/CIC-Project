@@ -19925,10 +19925,21 @@ function render(){
 
     if(m.continuesAs && byId[m.continuesAs]){
       const n=byId[m.continuesAs];
-      gEdges.appendChild(el('path',{
-        d:`M ${m._x.toFixed(1)} ${m._y.toFixed(1)} L ${n._x.toFixed(1)} ${n._y.toFixed(1)}`,
-        stroke:col, 'stroke-width':2, opacity:0.5, fill:'none'
-      }));
+      const sameLane = n.laneOrder===m.laneOrder;
+      // 75 of the census's 77 continuesAs links stay inside one lane -- the river
+      // itself already carries that continuity, so a second stroke in the same
+      // family color right beside it just reads as a thinner duplicate river.
+      // A seam mark (not a second stream) is enough: only the 2 links that
+      // actually cross into a different lane -- a real gravity shift, not just
+      // a name change -- earn a drawn bridge, in gold-leaf so it reads as a
+      // marked crossing rather than more water.
+      if(!sameLane){
+        gEdges.appendChild(el('path',{
+          d:`M ${m._x.toFixed(1)} ${m._y.toFixed(1)} L ${n._x.toFixed(1)} ${n._y.toFixed(1)}`,
+          stroke:'var(--gold-leaf)', 'stroke-width':1.6, opacity:0.7, 'stroke-dasharray':'1,4',
+          'stroke-linecap':'round', fill:'none'
+        }));
+      }
       gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold-leaf)'}));
     }
   });
