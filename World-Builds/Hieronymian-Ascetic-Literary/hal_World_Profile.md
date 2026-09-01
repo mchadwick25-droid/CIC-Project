@@ -113,7 +113,7 @@ This world organized reality around a layered, two-tier account of textual autho
 
 ### 4C — Authority Structures
 
-Authority in this world was a single currency — demonstrated scriptural learning, personally verified through direct engagement — held in structurally different positions depending on whether the holder needed patronage's material function to exercise it (Doc_07 §2, correcting an earlier draft's domain-separation account). Jerome held this currency in a materially dependent position, requiring continuous external funding; Marcella held the identical currency independently, requiring no patron (Doc_01 §4). This world had no episcopal or territorial authority structure of its own; its central scholar held the humblest clerical rank and never sought higher office (Doc_01 §3.3, §8.1).
+Authority in this world was a single currency — demonstrated scriptural learning, personally verified through direct engagement — held in structurally different positions depending on whether the holder needed patronage's material function to exercise it (Doc_07 §2). Jerome held this currency in a materially dependent position, requiring continuous external funding; Marcella held the identical currency independently, requiring no patron (Doc_01 §4). This world had no episcopal or territorial authority structure of its own; its central scholar held the humblest clerical rank and never sought higher office (Doc_01 §3.3, §8.1).
 
 ### 4D — Boundary Structures
 
