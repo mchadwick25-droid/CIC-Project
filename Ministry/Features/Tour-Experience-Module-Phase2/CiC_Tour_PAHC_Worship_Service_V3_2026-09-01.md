@@ -184,6 +184,7 @@
   - **Appears, then fades (short form):** "Authentic to the source — shown as written."
   - **Full (hover/click):** "This reading includes Ignatius's own language of warning, exclusion, and condemnation of heretical teaching. We show it as written, rather than hiding or softening it — the same standard of transparency this tour holds for every reading, whether its register is warm or hard."
   - The notice sits beside the reading; it does not edit it. Nothing in the transcribed letter above changes because of it.
+- **Why not tour-stop content:** it was built specifically as a corrective to two prior curated-warm readings, not as tour-stop content in the same register as RULINGs 4–5.
 - **Placement decided — see RULING 7 below.**
 
 ---
@@ -196,9 +197,9 @@
 
 **Why together, not separate.** This is the real decision, not the mechanical one. Two prior sessions' worth of this thread has been about exactly one failure mode: a curated-warm reading, encountered on its own, can leave someone with a rosier picture of this tradition than its own sources support — and the fix an earlier turn reached for (build a corrective harsh reading) only actually corrects anything if a participant who finds the warm one is also handed the hard one, not left to stumble on it separately or never find it at all. Splitting them across different parts of the site would recreate the exact problem RULING 6 exists to fix. Presented together, at the same moment, in a fixed order — encouraging first, complete letter second — a participant who opens either one is handed straight to the other. The pairing itself is the disclosure; it does the work no cartouche wording alone can do.
 
-**Where, specifically.** At the existing, still-open exit point this document already flagged (line 95's "honest-absence reflection... plus closing, landing after the scene ends and Chloe steps out of the whisper to speak plainly"). That is where the tour already shifts register from immersive to plain — the natural, lowest-friction seam for optional longer material, rather than inventing a new interruption mid-scene. Sequence: scene ends → Chloe steps out of the whisper → "What We Cannot Show You" (the honest-absence beat) → this closing offer → Return-to-conversation handoff.
+**Where, specifically.** At the existing, still-open exit point this document already flagged, in the "Not yet placed in this structure, still needed" note under the Final Flow above — the "honest-absence reflection ('What We Cannot Show You') plus closing, landing after the scene ends and Chloe steps out of the whisper to speak plainly." That is where the tour already shifts register from immersive to plain — the natural, lowest-friction seam for optional longer material, rather than inventing a new interruption mid-scene. Sequence: scene ends → Chloe steps out of the whisper → "What We Cannot Show You" (the honest-absence beat) → this closing offer → Return-to-conversation handoff.
 
-**Voice: Facilitator, not Chloe.** This is a navigational offer ("here is more to read"), not something a hosting character says mid-immersion — the same reasoning that moved Stop 9's closing note to the Facilitator back in RULING 1. Matches the Manifest Template's own Entry/Exit definition: offered, never imposed, no interpretation forced on a participant who doesn't ask for it.
+**Voice: Facilitator, not Chloe.** This is a navigational offer ("here is more to read"), not something a hosting character says mid-immersion — the same reasoning that moved Stop 9's closing line to the Facilitator back in RULING 2 ("that's product-level framing, not something a host says to a guest"). Matches the Manifest Template's own Entry/Exit definition: offered, never imposed, no interpretation forced on a participant who doesn't ask for it.
 
 **The offer, concretely:**
 
