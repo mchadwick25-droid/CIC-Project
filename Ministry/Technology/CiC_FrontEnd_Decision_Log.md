@@ -2113,3 +2113,41 @@ written into the V3 storyboard.
 Apply this rule when desert and ijc move toward casting, per the worked examples
 above. Nothing else pending from this entry — it's a standing principle now, not a
 one-off.
+
+---
+
+## 2026-09-01 (same day) — standing rule: the Bible is not a source for a formation
+world's own practice, even where it's true
+
+**Origin.** Building the pahc tour's "what varied" disclosure, I cited Paul's letters
+to Corinth (1 Corinthians 11) as evidence that some communities held a fuller shared
+meal alongside the eucharistic rite. Mark's correction: *"we dont use the bible as a
+source (not because its not true, but we don't know how exact this movment followed
+it) this starts at 70ce."*
+
+**The rule, precisely, not just "don't cite scripture":** not a claim about the Bible's
+truth or reliability — a claim about evidentiary gap. A New Testament text documents
+what an apostolic-era author wrote or instructed; it does not, by itself, document
+that a specific formation world's own participants, decades or centuries later,
+actually practiced it that way. Citing it as if it describes *this world's* practice
+assumes a continuity between instruction and lived reality that the record doesn't
+support. Compounding it in this specific case: 1 Corinthians dates to the 50s CE —
+before pahc's own window opens at 70 CE. Two independent reasons, not one, and either
+alone would have been disqualifying.
+
+**What replaced it, already properly in-corpus:** the Didache — already used elsewhere
+in this same tour build — genuinely does the rite differently (cup before bread, no
+institution narrative, closed to the unbaptized), real, dated inside this world's own
+window, no reach outside the pinned corpus required to make the same honest point
+about variation.
+
+**Applies fleet-wide, going forward:** any future tour or reconstruction reaching for
+a "what did the wider tradition do" comparison should stay inside a world's own pinned
+record corpus (or another formation world's, clearly labeled as a different world)
+rather than the Bible itself — the same discipline that already governs everything
+else on this list, just not yet stated for this specific, easy-to-reach-for case.
+
+### Next action
+
+None pending — applied immediately in the pahc build; standing rule for whoever builds
+the next tour.

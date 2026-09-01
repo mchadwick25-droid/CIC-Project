@@ -44,7 +44,49 @@
 >
 > **[Chloe]** Come in. Stand by the wall — you can see the whole room from there. We keep it this way before anyone arrives.
 
-**RULING 2 (2026-09-01, Mark, supersedes the ruling below):** *"this is a recreation putting pieces together, not a literal script... its williamsburg[e] only a sunday morning worship, using sources to build an experience, not just say what the documents said... i want the tour as if the participant is attending a worship service, not being informed about it. we use the hover and click to add to the building at the same place we say what this is and the sources we selected."* The register-bar pass below (RULING 1) was necessary but not sufficient — it fixed the *voice* (we-voice, plain, no coined lines) but the *mode* was still documentary narration with inline citations ("Justin's own words," "no book held his words"). That's citation-recitation, not recreation. Fixed: every inline attribution and sourcing aside is now carried by the cartouche/hover-click layer already built for exactly this job, never spoken. Chloe narrates the scene as something happening, present-tense, the way a real recreation is performed — informed by the sources, not footnoting them aloud. **Final script, all nine stops, supersedes RULING 1's version below and the old demo's own HTML text wherever they differ:**
+**RULING 3 (2026-09-01, Mark, supersedes the flow below — the actual current version):** RULING 2's stop-based script (still 9 discrete stops) was itself superseded by a bigger structural rethink: *"does she need 9 stops or does the service just happen... she greets, explains... as if whispering in the participant's ear as the service goes on... this still feels like she is narrating."* The service is now one continuous scene, not 9 clickable stops. Chloe speaks four short times total, always while something is already happening, never introducing it. The presider never gets invented dialogue — his thanksgiving's exact words aren't preserved, so only the act is shown. "Amen" is the one line Justin actually attests as spoken aloud in the room. Staging details (reading posture, prayer posture, distribution) were verified against real period scholarship before being kept, not left as unattested guesswork — see the sourcing block below. One methodological correction inside this pass, now a standing rule: the Bible is not a source for a formation world's own practice, even where it's true — the record doesn't establish that a specific movement's later participants actually followed what an earlier apostolic-era text instructed. Dropped an initial reach for 1 Corinthians as "what varied" evidence (also chronologically before pahc's own 70 CE window) in favor of the Didache, already properly in-corpus.
+
+**Final flow, current:**
+
+> *The room, at rest. Morning light through a doorway. A few people already inside. More arrive — a greeting at the door, someone finding where to stand.*
+>
+> **Chloe, quietly:** This is the morning. This is where we gather.
+>
+> *The room fills. A reader stands, the text held in raised hands, and reads aloud. Unhurried. However long the morning gives.*
+>
+> *The reading ends. The one presiding speaks — urging the room toward what was just heard. Brief. The old examples, pressed home.*
+>
+> *Then the whole room stands, together, arms lifted.*
+>
+> **Chloe, quietly:** For themselves. And for everyone beyond this room.
+>
+> *Bread is brought. Wine and water, in a cup. The one presiding lifts them, gives thanks — his own words, unhurried, for everything given.*
+>
+> **The room, together:** Amen.
+>
+> *The deacons carry it through the room, hand to hand — bread pressed into one palm after another, the cup held while each person drinks.*
+>
+> **Chloe, quietly:** It won't stay in this room. Before the morning ends, some of this goes out — to the ones who couldn't come.
+>
+> *Before they leave, what can be given is given, and laid with the one presiding.*
+>
+> **Chloe, quietly:** Whoever's willing. Whatever they can give. It goes to orphans and widows, to the sick, to those in prison, to strangers with nowhere else to turn.
+>
+> *The room begins to empty. Some stay behind, still talking.*
+
+**Sourcing block (click-page content, not spoken):**
+- **The spine:** Justin Martyr, *First Apology* 65–67 — Rome, c. 155 CE.
+- **Reader stands, scroll in raised hands:** attested first-century synagogue practice (the Magdala stone table) and Roman public-reading custom (*recitationes*) — general period grounding, not specific to this community.
+- **Arms raised in prayer:** the *orans* posture, well-documented in Christian art from the 2nd century on.
+- **Deacons actively distributing, including to the absent:** Justin's own text, this world's own record.
+- **People staying to talk afterward:** inference from this community's own documented closeness ("we always keep together," Justin's own phrase, same source) — not directly attested for this specific morning.
+- **What varied, honestly, not blended into one picture:** this is Rome's own shape, as one man described it. Other communities within this same world kept the rite differently — the community behind the Didache's own teaching used a different order entirely: cup before bread, no fixed institution narrative, closed to anyone not yet baptized. Not the same rite performed two ways — two real, different communities, never merged into one.
+
+**Not yet placed in this structure, still needed:** the threshold/consent framing (Facilitator, before the scene starts); the Two Ways teaching itself, likely as the diegetic reading rather than explained; and the honest-absence reflection ("What We Cannot Show You") plus closing, landing after the scene ends and Chloe steps out of the whisper to speak plainly.
+
+---
+
+**RULING 2 (2026-09-01, Mark, superseded above):** *"this is a recreation putting pieces together, not a literal script... its williamsburg[e] only a sunday morning worship, using sources to build an experience, not just say what the documents said... i want the tour as if the participant is attending a worship service, not being informed about it. we use the hover and click to add to the building at the same place we say what this is and the sources we selected."* The register-bar pass below (RULING 1) was necessary but not sufficient — it fixed the *voice* (we-voice, plain, no coined lines) but the *mode* was still documentary narration with inline citations ("Justin's own words," "no book held his words"). That's citation-recitation, not recreation. Fixed: every inline attribution and sourcing aside is now carried by the cartouche/hover-click layer already built for exactly this job, never spoken. Chloe narrates the scene as something happening, present-tense, the way a real recreation is performed — informed by the sources, not footnoting them aloud. **Final script, all nine stops, supersedes RULING 1's version below and the old demo's own HTML text wherever they differ:**
 
 > **Stop 1 · The Door** — Come in. Stand by the wall — you can see the whole room from there. We keep it this way before anyone arrives.
 >
