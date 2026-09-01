@@ -19779,6 +19779,18 @@ const laneKeys=[...new Set(DATA.movements.map(m=>m.laneOrder))].sort((a,b)=>a-b)
 const CANVAS_W=Math.max(1400, laneKeys.length*135);
 const laneX={}; laneKeys.forEach((k,i)=>{laneX[k]=70+(i+0.5)*((CANVAS_W-140)/laneKeys.length);});
 
+// Every lane's river used to run the full sheet, top to bottom, at a floor
+// width even where it had zero active movements -- Protestant & Evangelical
+// (first entry 1517) and Global Revival & Pentecostal (first entry 1904)
+// were rendering as full rivers back in the Early Church Era, seven and
+// fourteen centuries before either existed. Genesis year -- this lane's
+// real earliest start -- is where its river is allowed to begin at all.
+const laneGenesisYear={}, laneGenesisY={};
+laneKeys.forEach(k=>{
+  laneGenesisYear[k]=Math.min(...DATA.movements.filter(m=>m.laneOrder===k).map(m=>m.start));
+  laneGenesisY[k]=yearToY(laneGenesisYear[k]);
+});
+
 /* ---- Per-lane density profile (rule 2: width is water volume) and a seeded
    winding wave (rule 3) -- sampled every 24px down the whole sheet. ---- */
 const STEP=24;
@@ -19817,7 +19829,11 @@ const maxCnt=Math.max(1,...laneKeys.map(k=>Math.max(...laneSamples[k].map(p=>p.c
 function widthAt(k,y){
   const pts=laneSamples[k]; const idx=Math.min(pts.length-1,Math.max(0,Math.round(y/STEP)));
   const cnt=pts[idx].cnt;
-  return 10 + 46*Math.pow(cnt/maxCnt,0.55);
+  // No floor: a lane with nothing active at this point in time is not a thin
+  // trickle, it does not exist yet (or has genuinely gone quiet). The old "10 +"
+  // floor kept every lane rendering at a minimum width for the whole sheet,
+  // Protestant & Evangelical included, thirteen centuries before it existed.
+  return cnt===0 ? 0 : 10 + 46*Math.pow(cnt/maxCnt,0.55);
 }
 
 /* ---- Path building: smooth-quadratic through sampled points -- simple, robust,
@@ -19833,11 +19849,26 @@ function smoothPath(pts){
   d+=`L ${last.x.toFixed(1)} ${last.y.toFixed(1)} `;
   return d;
 }
+// How long (in canvas units) a newly-emerging lane spends visibly peeling off
+// the Origin trunk -- widening from nothing and drifting out from Origin's own
+// position to its own column -- rather than simply appearing, already at full
+// width, in an empty column of its own. "Origin — before the lanes divide" is
+// the literal trunk every other family differentiates out of; the geometry
+// should say so instead of contradicting the lane's own name.
+const MERGE_WINDOW=260;
 function riverPath(k, amp){
   const left=[], right=[];
   for(let y=0;y<CANVAS_H;y+=STEP){
-    const cx=laneX[k]+laneWave[k](y)*amp;
-    const hw=widthAt(k,y)/2*(0.35+0.65*Math.min(1,amp>0?1:0.5));
+    const ownX=laneX[k]+laneWave[k](y)*amp;
+    const fullW=widthAt(k,y);
+    let cx=ownX, w=fullW;
+    if(k!==0){
+      const t=Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));
+      const originX=laneX[0]+laneWave[0](y)*amp;
+      cx=originX+(ownX-originX)*t;
+      w=fullW*t;
+    }
+    const hw=w/2*(0.35+0.65*Math.min(1,amp>0?1:0.5));
     left.push({x:cx-hw,y}); right.push({x:cx+hw,y});
   }
   const rightRev=right.slice().reverse();
