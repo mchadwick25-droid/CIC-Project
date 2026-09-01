@@ -1,5 +1,16 @@
 # Tour Experience Module (Phase Two)
 
+> **Picked back up 2026-09-01** in the front-end strategy thread, as pure divergent
+> exploration (Mark's own framing: no doors, no gates on ideas at this stage) that
+> converged on a real test case: `CiC_Tour_PAHC_Worship_Service_V3_2026-09-01.md`,
+> which merges `Hosted-Tour/`'s real built assets with an updated ruling — informed,
+> honestly-labeled reconstruction (the Williamsburg model) is now permitted for tour
+> visuals, ElevenLabs narration, real present-day site/archive sourcing outside the
+> pinned world records where clearly tagged by origin. Full reasoning in
+> `CiC_FrontEnd_Decision_Log.md`, 2026-09-01 entry. This does not reverse the
+> live-hosted-encounter premise this folder was superseded over below — only the
+> imagery/sourcing rule changed, and only for tours, never the conversation engine.
+
 > **Status: SUPERSEDED (2026-08-03).** This entire design — Strategy V0.3, the
 > L4 Tour Manifest Template, the Build Spec, the Eligibility Gate — was built
 > around live-hosted-inside-an-encounter as its load-bearing assumption

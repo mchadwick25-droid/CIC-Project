@@ -1833,6 +1833,7 @@ correction to numbers that were riding alongside it unverified.
 **Lesson for future principle-13 work:** "the reconciliation passed" and "every number near
 it has been checked" are not the same claim — say so explicitly rather than letting a pass
 verdict imply more than it covers.
+
 ---
 
 ## 2026-08-30 - Industrialization ruling + Launch Prompt V2
@@ -1907,3 +1908,321 @@ Second addendum: the file discipline is now also a Change Order
 -> V1.3 (file discipline is the third Phase B birth condition) and
 Completion Standard V1.2 -> V1.3 (the pre-pin residue read recorded as
 a saved artifact at freeze). Launch prompt repointed to V1.3.
+
+---
+
+## 2026-09-01 — Tour work resumes: the "nothing invented" rule scoped correctly, a
+real test case converged on, real prior work found and merged into it
+
+**Origin.** A new front-end thread, launched to explore the zero-credit engagement
+layer (tours, access documents, reading surfaces — no runtime generative cost). Ground
+truth first: `CiC_Full_UX_Design_V1_0.md` §5.5 already specs Hosted Tour in full
+(threshold stop, register strip, beat tracker, honest-absence beat given equal
+dignity to any positive stop), but Mark deferred it to Phase 2+ on 2026-07-22 and had
+it pulled from the build cycle entirely. Also found and fixed in passing: this log
+itself carried unresolved git conflict markers around two 2026-08-28 entries (both
+legitimate, non-conflicting content) — markers removed, both entries kept, nothing
+else touched.
+
+**Mark's framing, his own words: divergent before convergent.** *"i am in a design
+phase and don't want to jump to conclusions or set doors or gates on ideas... anything
+that may be read as a gate or rule, dont feel limited by it."* The one boundary he
+drew explicitly: *"the only thing out of bounds is the conversation engine and
+worlds... not change or add to or modify the records in any way."* Everything else —
+phase-ladder placement, prior Tour deferral, even standing content rules — was opened
+for genuine reconsideration, not because the old reasoning was wrong, but because a
+design phase shouldn't pre-filter on later-stage concerns.
+
+**The real rule correction, Mark's own words:** *"i dont have a nothing invented ever
+rule (if i said it before i can change it), the phrase came from conversation
+boundries and containing ai to a rigorous standard in creating dialog, not a general
+rule that dictates whether we use a discretion or old building as inspiration to build
+a replica. like williamsburg va, isn't all restored buildings, some are filled in, or
+emphasis, they are rebuilding as best they can to original."* This corrects an
+over-application on this thread's own part — the "real photo, never a generated
+reconstruction" line from the old Tour work (and this thread's own early instinct) was
+treated as a general project rule; it was always scoped to the Representative's live
+dialogue. **Applied going forward, for tours specifically, never the conversation
+engine:** informed, honestly-labeled reconstruction (real evidence in, clearly
+captioned as reconstruction, never claimed as a photograph) is legitimate — the
+Williamsburg model. Tour sourcing may also draw on real material outside a world's
+pinned record corpus (period scholarship, other primary texts) and may merge sources
+into one scene, as long as origin stays visibly tagged per element — *"we are clear
+what is coming from where."*
+
+**Present-day sites, real anchors, real sourcing discipline.** Established and held
+throughout: primary institutional voice + academic/peer-reviewed + reputable
+independent press, never a single tourism-blog source. Verified real anchors found for
+all six live worlds plus the in-progress Cappadocia (7th) world, with an honest
+recurring split named across nearly every one — genuinely in-window physical trace
+(San Clemente's lowest layer, the Syriac Sinaiticus, Kom el-Dikka) versus a living
+institution or later structure in real continuous lineage (Deir Anba Bishoi, Deir
+Zafaran, the Lateran) — conflating the two is the same mistake as blending sources in
+a Representative's own speech. One real, self-caught miss: the Vatican's Pio Cristiano
+sarcophagi were initially anchored to pahc (70–200 CE) when the collection spans
+mid-3rd–early 5th century — corrected, and redirected toward `roman-church-third-
+century`, an unbuilt future world with zero `experienceToday` entries of its own.
+
+**Major find: this already exists, live, at scale.** `cic-website/data/world-census.json`
+carries an `experienceToday` field — real, sourced "visit today" pointers — already
+populated on **151 of 292** movements across the whole historical map, already
+rendering in production (`atlas-v3.html` line ~1681, one quiet line per movement:
+"Visit today: [link]"). Real gaps found in the six live worlds: **alx has zero
+entries** despite being Built & Live; the reuse of Mor Gabriel Monastery for both the
+live `syriac-edessa-nisibis` and the future `syriac-orthodox-west-syriac-christianity`
+world is the kind of era-blending the "save later-tradition material for its own
+world" instinct (Mark's ruling, this thread) is meant to catch. Proposed additions
+compiled for all six live worlds, in the existing `{text, url}` schema — **not yet
+written to the file**, held for Mark's read per the standing draft-and-approve
+discipline for anything participant-facing.
+
+**The prime test case: pahc, "A Sunday in Rome, As Justin Describes It."** Mark named
+this the test. Iterated through several real corrections along the way: the reading
+beat's placeholder Ignatius quote (unverified in the old shape-proof) replaced with
+1 Clement, a real in-corpus letter — then that instinct itself corrected again, in
+favor of an existing, better answer (see below). A `roman_housing` outside-source
+finding reshaped the room: most Christians of this era almost certainly met in a
+rented apartment room (an *insula*), not an elite house — Justin's own trial record
+even names his as above a bathhouse — which also reopened a real naming question,
+unresolved: does "House-Churches" (the world's own card name) still fit, given
+*domus ecclesiae* is flagged by real peer-reviewed scholarship (JRA, JTS) as a likely
+anachronism, first attested in Eusebius, 313 CE, outside this world's own window? Not
+decided — "Household" language already sits inside the world's own vocabulary
+(Chloe's title, "Household Leader") as a lower-disruption alternative if Mark wants
+the name itself to carry more precision.
+
+**Then a bigger find: a real, built demo already existed.**
+`Hosted-Tour/Design/CiC_Chloe_Tour_Interactive_Demo.html` (V0.2, 2026-07-16) — 9 real
+stops, screenshot-verified this session as genuinely well produced (manuscript
+aesthetic, a working source-cartouche pattern, real licensed photography with credits
+on hover, a docked caption strip). It answers the room question the *old* way — refuses
+to depict any room at all, since this world is archaeologically invisible and even
+Dura-Europos is a different community, deliberately excluded rather than borrowed.
+Two pieces of its own reasoning are exactly right and not up for revision: refusing to
+fabricate a regional accent (*"an accent is a claim the evidence cannot carry, made in
+the most memorable medium there is"*) and turning a missing-music request into an
+honest-decline stop built from Pliny's own report, naming the real cost of that
+testimony — two enslaved ministrae, tortured for the details, forever unnamed.
+
+**Mark's resolution:** *"you can use it as a source and it fits our design great, but
+the rules are out of date, what we discussed is the more current approach. you are not
+bound to the rules of this, but if they do the work great."* Merged into
+`Tour-Experience-Module-Phase2/CiC_Tour_PAHC_Worship_Service_V3_2026-09-01.md`: the
+existing demo's structure, real assets, and both pieces of held reasoning carry
+forward unchanged; only the room stop (now a Luma Ray3 reconstruction grounded in the
+Casa di Diana, a real, dated, in-window Ostia insula, plus Justin's own rented-room
+detail) and the narration engine (ElevenLabs, replacing edge-tts) change. Both
+`Hosted-Tour/README.md` and `Tour-Experience-Module-Phase2/README.md` got short
+pointer updates so their existing SUPERSEDED trails don't dead-end — neither reverses
+the 2026-08-03 live-hosted-encounter supersession, only the imagery/sourcing rule
+changed, and only for tours.
+
+**Production stack landed on:** ElevenLabs (narration — a real, deliberate choice,
+not a default; a human-recorded alternative was named and set aside), DaVinci Resolve
+(editing/timeline), Luma Ray3 for grounded image-to-video reconstruction work (chosen
+specifically for the "reference image + prompt" grounding workflow — real evidence
+in, not free-form prompting). The disclosure UI for a reconstructed shot reuses the
+app's own existing grammar rather than inventing a new one: label on entry, fades to
+a quiet corner mark, hover/tap-through brings back the full source trail — landed on
+**reusing the existing "cartouche" concept** (already named in the base grammar,
+§5.7) rather than a new glyph; a camera or film-slate icon was considered and set
+aside as breaking the design system's own "nothing tech-forward" rule.
+
+**Two other storyboards sketched, not developed as far:** desert's "The Noonday
+Demon" (Evagrius's own hour-by-hour text, an interior/psychological shape rather than
+a place); ijc's "One Night at the Basilica" (the Milan siege, real Ambrose quotes,
+Ambrosian chant as a real living-tradition audio option). Both real, both sourced,
+parked as the next candidates if the pahc test case validates the approach.
+
+**Not decided here, Mark's calls:** the House-Churches naming question; whether to
+write the six proposed `experienceToday` additions into the live census file; whether
+to widen `experienceToday` coverage beyond the six live worlds next; the desert and
+ijc storyboards' own production passes.
+
+### Next action
+
+Mark: word-level read of the new/changed voiceover (the reconstructed room stop, the
+reframed "What We Cannot Show You" opening) before anything renders — same discipline
+as every other piece of participant-facing prose in this project. First real Luma
+Ray3 render of the room stop, checked against its source stack before being treated as
+final. The naming question, whenever he wants to pick it up.
+
+---
+
+## 2026-09-01 (same day) — pahc renamed: "The Scattered Churches," decided via an
+Opus naming review, shipped same session
+
+**Origin.** The naming question the entry above left open. Mark's framing on
+reopening it, unprompted: *"i do think in todays world, house church is more than a
+location, it is a movement in itself, (see fransis chan)."* That's a stronger,
+more concrete version of the concern this thread had already raised (the anachronism
+argument alone was weak; every world name here is a modern retrospective category) —
+a live contemporary movement/brand collision is a real neutrality problem this
+project's own "witness, never persuasion" conviction doesn't tolerate, not just an
+imprecision.
+
+**Scope check before touching anything:** ~213 of 408 repo-wide mentions of
+"house-church" sit inside `records/pahc/`, the World-Build construction docs, and
+compiled packages — this world's own record corpus and build history, explicitly out
+of bounds for this thread (Mark's own boundary, this session: *"the only thing out of
+bounds is the conversation engine and worlds... not change or add to or modify the
+records in any way"*). Those stay untouched. The real, in-scope job was always just
+the display layer: `card_name` in the registry, the census's friendly-register
+fields, and the handful of hardcoded website mentions — `display_name` (the scholarly
+register, "Post-Apostolic House-Church Christianity") stays exactly as it is, same
+two-register split Mark already ruled for syr's Mar Yausep.
+
+**Mark asked for an Opus review** rather than a pick between the two options already
+on the table (keep "House-Churches," or move to "Household Churches") — same pattern
+this project has used before for tone/credibility passes. Briefed with the real
+content, both arguments (anachronism and movement-collision), and the five sibling
+card names for register-matching. **The review didn't just referee — it found a
+third option neither of us had:** every sibling name (Desert Fathers and Mothers, The
+Bethlehem Circle, Church and Empire, Alexandrian Christianity, Syriac Christianity)
+names a people, place, or relation; this was the only one naming a *venue*, and the
+venue was never actually what the world is about — its own doorway tile already said
+"scattered communities... held together by letters." "Household Churches" was judged
+a half-measure: close enough to the modern-movement phrase that someone primed on it
+reads straight through anyway, and it triples up on "household" already carrying
+Chloe's own title and hal's "Widow of the Household."
+
+**Decided: `card_name` → "The Scattered Churches."** Sidesteps the movement collision
+entirely (no contemporary brand to collide with), sidesteps the *insula*/*domus*
+accuracy question entirely (makes no architectural claim), matches the doorway copy's
+own language, carries a real period resonance (1 Peter's address to the diaspora,
+"sojourners of the dispersion"), and doesn't compete with Chloe's own title — a
+household leader is the right-scaled role for one node in a scattered network, not a
+mismatch with it. One honest cost, named by the review itself and not smoothed over:
+"scattered" risks a first-glance read as disunity before the next line resolves it
+into something truer. Judged smaller and more recoverable than the collision risk it
+replaces.
+
+**Shipped same session**, display layer only, verified as a minimal diff before
+committing (a first attempt at the census JSON edit via a full re-serialize blew the
+diff out to 39,068 lines by silently reformatting the whole file — caught before
+committing, reverted, redone as surgical string edits; final diff 11 lines across 4
+files):
+- `records/worlds.yaml` — `card_name: "The Scattered Churches"` (pahc). `display_name`
+  untouched.
+- `cic-website/data/world-census.json` — `shortName`, `informalName`,
+  `entry.worldName` updated; `entry.tile` reworded to drop a "scattered...scattered"
+  repetition the mechanical swap would have created ("the house-churches of
+  Antioch..." → "the scattered churches of Antioch...", and "the scattered
+  gatherings that held together" → "communities that held together"). `name` and
+  `entry.subtitle` (both mirror the scholarly register) untouched.
+- `cic-website/tour.html` (4 spots) and `pilot-feedback.html` (1 spot) — hardcoded
+  display-text mentions updated. Asset filenames (`house-churches.svg`,
+  `house-churches.png`) and internal ids (`post-apostolic-house-church`) deliberately
+  left alone — internal plumbing, not participant-facing text, real risk in touching
+  for no visible benefit.
+- The V3 tour shape-proof's own open-items list updated to reflect this as resolved.
+
+**Not touched, on purpose:** anything inside `records/pahc/`, `World-Builds/01-Post-
+Apostolic-House-Church/`, or `packages/pahc/` — the world's own vocabulary keeps
+saying "house-church" internally, which is a live, visible mismatch between the
+public name and the build's own internal register now. That's a real, named gap, not
+an oversight — closing it is a world-build decision (touches a pinned package,
+triggers its own recompile/reverify discipline) and was never this thread's call to
+make.
+
+### Next action
+
+Nothing further required to ship this — it's live in the repo now. Still open: the
+`records/pahc/`-internal vocabulary mismatch, if Mark ever wants it closed (a
+world-build thread's job, not this one's); the Luma Ray3 room render; the desert and
+ijc storyboards.
+
+---
+
+## 2026-09-01 (same day) — the accent-grounding rule, a durable principle for every
+future tour's voice casting
+
+**Origin.** Building toward the first real pahc tour render, the question of whether
+Chloe's voice should carry an accent at all. First instinct (this thread's own,
+carried from the old demo's reasoning): no accent, ever — nothing survives to base one
+on, and "sounds ancient/foreign" almost always means borrowing a real modern
+community's actual voice as generic set-dressing. Mark pushed back, and the pushback
+was right: *"its not about matching the exact voice it would have been, its about the
+participant recognizing they are in a cross-cultural situation."* A fully neutral
+voice isn't actually neutral — it's the choice to make an ancient Levantine/
+Mediterranean world sound like a default Anglophone narrator, which is its own quiet
+flattening.
+
+**The synthesis, Mark's own words, generalized:** *"if we are recreating a viable
+history we pick the closest language family we have... if the tour is showing what is
+there today... we use an accent the modern tour guide might have."* Two different
+questions, two different honest answers, decided by which layer the content is
+actually in:
+
+- **Reconstructed / in-world content** (a Representative hosting, or an ancient
+  figure's own words read aloud) → the closest real, *documented* language family
+  for that specific speaker. Not a blanket per-world accent — per-speaker. Worked
+  example: in a desert tour, Papnoute (an Egyptian elder) would take Coptic; Evagrius
+  specifically, whose own writing documents him as a Cappadocian-Greek outlier even
+  within that world, would take Greek for his own quoted words in the same tour.
+- **Present-day material** (real sites, real "visit today" footage) → the accent a
+  real local guide would actually have now. Worked examples: Ostia/Casa di Diana →
+  Italian; Antioch/Antakya → Turkish (with a real chance of Arabic, given Hatay's own
+  documented Arabic-speaking population); St. Antony's Monastery/Kellia → Egyptian
+  Arabic; Sant'Ambrogio → Italian.
+
+**Why this is stronger than either extreme:** a flat "no accent ever" rule erases the
+real cross-cultural fact of these worlds under a default-neutral voice; a generic
+"sounds ancient/foreign" accent borrows an unrelated modern community's real identity
+as costume. This rule is grounded either way — just grounded in a different truth
+depending on which century the content is actually showing, which is the same
+discipline this whole project already runs on (site anchors dated as "in-window trace"
+vs. "living institution," reconstructions labeled as reconstructions) applied to
+voice specifically.
+
+**Applied to pahc, this session:** Chloe (host) and the teaching/source-reading voice
+both Greek-accented English — the real, documented language of this world. The
+Facilitator gets a distinct female English accent, deliberately a different family,
+so the accent contrast itself signals register (outside/procedural voice vs. in-world
+voices) without needing a caption to explain it. Requires its own one-line honest
+disclosure at the tour's threshold, same as every other design choice on this list —
+written into the V3 storyboard.
+
+### Next action
+
+Apply this rule when desert and ijc move toward casting, per the worked examples
+above. Nothing else pending from this entry — it's a standing principle now, not a
+one-off.
+
+---
+
+## 2026-09-01 (same day) — standing rule: the Bible is not a source for a formation
+world's own practice, even where it's true
+
+**Origin.** Building the pahc tour's "what varied" disclosure, I cited Paul's letters
+to Corinth (1 Corinthians 11) as evidence that some communities held a fuller shared
+meal alongside the eucharistic rite. Mark's correction: *"we dont use the bible as a
+source (not because its not true, but we don't know how exact this movment followed
+it) this starts at 70ce."*
+
+**The rule, precisely, not just "don't cite scripture":** not a claim about the Bible's
+truth or reliability — a claim about evidentiary gap. A New Testament text documents
+what an apostolic-era author wrote or instructed; it does not, by itself, document
+that a specific formation world's own participants, decades or centuries later,
+actually practiced it that way. Citing it as if it describes *this world's* practice
+assumes a continuity between instruction and lived reality that the record doesn't
+support. Compounding it in this specific case: 1 Corinthians dates to the 50s CE —
+before pahc's own window opens at 70 CE. Two independent reasons, not one, and either
+alone would have been disqualifying.
+
+**What replaced it, already properly in-corpus:** the Didache — already used elsewhere
+in this same tour build — genuinely does the rite differently (cup before bread, no
+institution narrative, closed to the unbaptized), real, dated inside this world's own
+window, no reach outside the pinned corpus required to make the same honest point
+about variation.
+
+**Applies fleet-wide, going forward:** any future tour or reconstruction reaching for
+a "what did the wider tradition do" comparison should stay inside a world's own pinned
+record corpus (or another formation world's, clearly labeled as a different world)
+rather than the Bible itself — the same discipline that already governs everything
+else on this list, just not yet stated for this specific, easy-to-reach-for case.
+
+### Next action
+
+None pending — applied immediately in the pahc build; standing rule for whoever builds
+the next tour.
