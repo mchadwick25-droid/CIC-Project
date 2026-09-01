@@ -2056,3 +2056,60 @@ Nothing further required to ship this — it's live in the repo now. Still open:
 `records/pahc/`-internal vocabulary mismatch, if Mark ever wants it closed (a
 world-build thread's job, not this one's); the Luma Ray3 room render; the desert and
 ijc storyboards.
+
+---
+
+## 2026-09-01 (same day) — the accent-grounding rule, a durable principle for every
+future tour's voice casting
+
+**Origin.** Building toward the first real pahc tour render, the question of whether
+Chloe's voice should carry an accent at all. First instinct (this thread's own,
+carried from the old demo's reasoning): no accent, ever — nothing survives to base one
+on, and "sounds ancient/foreign" almost always means borrowing a real modern
+community's actual voice as generic set-dressing. Mark pushed back, and the pushback
+was right: *"its not about matching the exact voice it would have been, its about the
+participant recognizing they are in a cross-cultural situation."* A fully neutral
+voice isn't actually neutral — it's the choice to make an ancient Levantine/
+Mediterranean world sound like a default Anglophone narrator, which is its own quiet
+flattening.
+
+**The synthesis, Mark's own words, generalized:** *"if we are recreating a viable
+history we pick the closest language family we have... if the tour is showing what is
+there today... we use an accent the modern tour guide might have."* Two different
+questions, two different honest answers, decided by which layer the content is
+actually in:
+
+- **Reconstructed / in-world content** (a Representative hosting, or an ancient
+  figure's own words read aloud) → the closest real, *documented* language family
+  for that specific speaker. Not a blanket per-world accent — per-speaker. Worked
+  example: in a desert tour, Papnoute (an Egyptian elder) would take Coptic; Evagrius
+  specifically, whose own writing documents him as a Cappadocian-Greek outlier even
+  within that world, would take Greek for his own quoted words in the same tour.
+- **Present-day material** (real sites, real "visit today" footage) → the accent a
+  real local guide would actually have now. Worked examples: Ostia/Casa di Diana →
+  Italian; Antioch/Antakya → Turkish (with a real chance of Arabic, given Hatay's own
+  documented Arabic-speaking population); St. Antony's Monastery/Kellia → Egyptian
+  Arabic; Sant'Ambrogio → Italian.
+
+**Why this is stronger than either extreme:** a flat "no accent ever" rule erases the
+real cross-cultural fact of these worlds under a default-neutral voice; a generic
+"sounds ancient/foreign" accent borrows an unrelated modern community's real identity
+as costume. This rule is grounded either way — just grounded in a different truth
+depending on which century the content is actually showing, which is the same
+discipline this whole project already runs on (site anchors dated as "in-window trace"
+vs. "living institution," reconstructions labeled as reconstructions) applied to
+voice specifically.
+
+**Applied to pahc, this session:** Chloe (host) and the teaching/source-reading voice
+both Greek-accented English — the real, documented language of this world. The
+Facilitator gets a distinct female English accent, deliberately a different family,
+so the accent contrast itself signals register (outside/procedural voice vs. in-world
+voices) without needing a caption to explain it. Requires its own one-line honest
+disclosure at the tour's threshold, same as every other design choice on this list —
+written into the V3 storyboard.
+
+### Next action
+
+Apply this rule when desert and ijc move toward casting, per the worked examples
+above. Nothing else pending from this entry — it's a standing principle now, not a
+one-off.
