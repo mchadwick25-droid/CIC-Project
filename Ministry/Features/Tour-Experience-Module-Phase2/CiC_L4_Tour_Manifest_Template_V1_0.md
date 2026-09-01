@@ -176,6 +176,32 @@ Honest-Silence Beat?     [Yes/No. If Yes: state exactly what the source is silen
                            testimony, not an apology; write it in the
                            Representative's own voice, not as a system disclaimer.]
 
+Harsh-Content Notice?    [Yes/No. Yes if this beat's narration or quoted source
+                           material carries language of condemnation, threat,
+                           exclusion, or warning that is authentic to the source —
+                           not invented, not exaggerated, and not softened for the
+                           tour. See the Harsh-Content Notice Pattern below. If Yes,
+                           complete both lines; if No, leave both blank.]
+
+  — appears, then fades   [the short notice text. Appears when the beat begins,
+    (short form):           fades within a second or two to a small quiet mark —
+                             same appear-then-fade-to-corner-mark behavior as Stop
+                             0's reconstruction label (RULING 4,
+                             `CiC_Tour_PAHC_Worship_Service_V3_2026-09-01.md`).
+                             Model wording: "Authentic to the source — shown as
+                             written."]
+
+  — full (hover/click):   [the full statement, resurfaced on hover (tap on phone)
+                             and given in full on click/tap-through. State plainly
+                             that the harsh language is the source's own and that
+                             it is not hidden or mitigated. Model wording: "This
+                             reading includes the source's own language of
+                             warning, exclusion, or condemnation. We show it as
+                             written, rather than hiding or softening it — the
+                             same standard of transparency this tour holds for
+                             every reading, whether its register is warm or
+                             hard."]
+
 Q&A Demonstration?       [Yes/No. At most one or two beats per tour should model the
                            tour pausing for a real question and resuming — this
                            demonstrates that a tour is conversation with structure,
@@ -216,6 +242,24 @@ source's full range without the manifest having said so plainly. A tour built
 entirely from Complete-status beats (RULING 6's model — a full letter, unedited) has
 nothing to disclose here beyond marking every beat Complete; that is itself a valid,
 even preferable, choice where the source's length allows it.
+
+**Harsh-Content Notice Pattern (added per RULING 6, same document):** the corpus
+survey behind RULING 6 found that harsh warning, exclusion, or condemnation language
+is a real, recurring feature of pahc's own pinned sources — not a rare exception one
+tour might stumble into. Where a beat carries that kind of material, this project's
+standing rule is Mark's own: *"there may be harsh statements that are authentic to
+the source, we don't hide or mitigate it."* The Harsh-Content Notice exists to make
+that rule visible in the product, not just true in the sourcing — using the same
+appear-then-fade interaction RULING 4 already specified for Stop 0's reconstruction
+label, applied here to a second purpose. It fires once, at the start of the beat, so
+a participant is told before they read or hear the material, not left to discover
+mid-sentence that the register has shifted; it then recedes to a small mark rather
+than staying as a persistent interruption, resurfaces on hover, and gives the full
+statement on click — the same three-stage disclosure discipline (visible → quiet →
+full on demand) already governing every other cartouche in this template. It is a
+warning that the source is genuinely hard here, never an apology for showing it, and
+never a softening of the words themselves — the notice sits beside the reading, it
+does not edit it.
 
 ---
 
@@ -372,6 +416,10 @@ Confirm each before this manifest may enter review:
       its Curation status (Complete/Curated) in the full-click cartouche; every
       Curated beat also names, in one sentence, what the source contains beyond
       what's shown (see the Curation-Disclosure Note above).
+- [ ] **Harsh content flagged, not softened** — every beat marked Harsh-Content
+      Notice: Yes carries both the appear-then-fade short text and the full
+      hover/click statement; the beat's actual narration or reading is unedited by
+      the notice's presence (see the Harsh-Content Notice Pattern above).
 
 ---
 
@@ -480,6 +528,10 @@ fresh argument from primary sources.
 9. **Curation disclosed** — every beat quoting a real source carries a Curation
    status; every Curated beat names what the source holds beyond what's shown, not
    just that a choice was made.
+10. **Harsh content flagged, not softened** — every beat with genuinely harsh
+    source material carries a Harsh-Content Notice with both the short and full
+    text; flag (do not silently accept) a beat that reads as softened, hedged, or
+    edited around its own harsh material instead of showing it plainly.
 
 Disposition vocabulary matches the project's existing standard exactly: a manifest
 under construction carries **"DRAFT — pending independent adversarial review"**; a
