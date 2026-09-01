@@ -92,7 +92,7 @@
 - **People staying to talk afterward:** inference from this community's own documented closeness ("we always keep together," Justin's own phrase, same source) — not directly attested for this specific morning.
 - **What varied, honestly, not blended into one picture:** this is Rome's own shape, as one man described it. Other communities within this same world kept the rite differently — the community behind the Didache's own teaching used a different order entirely: cup before bread, no fixed institution narrative, closed to anyone not yet baptized. Not the same rite performed two ways — two real, different communities, never merged into one.
 
-**Not yet placed in this structure, still needed:** the threshold/consent framing (Facilitator, before the scene starts); and the honest-absence reflection ("What We Cannot Show You") plus closing, landing after the scene ends and Chloe steps out of the whisper to speak plainly. (The diegetic reading itself is now placed — see RULING 4 above; the Two Ways teaching is no longer used here.)
+**Not yet placed in this structure, still needed:** the threshold/consent framing (Facilitator, before the scene starts); and the honest-absence reflection ("What We Cannot Show You") plus closing, landing after the scene ends and Chloe steps out of the whisper to speak plainly. (The diegetic reading itself is now placed — see RULING 4 above; the Two Ways teaching is no longer used here.) The closing sequence now also carries the two longer readings' "read more" offer, immediately after the honest-absence beat — see RULING 7.
 
 ---
 
@@ -128,7 +128,7 @@
 - **The spine:** 1 Clement, Chapters XXXIII, XXXIV, XXXV (opening only), XXXVI, XLIX, L — Rome's own letter to Corinth, this world's own record, `cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml`.
 - **Bracketed translator insertions removed for read-aloud flow:** the source text uses square brackets around a small number of supplied words (`[cometh]`, `[is]`, `[the Scripture]`, `[within their proper bounds]`, `[of His creatures]`, `[now]`, `[blessed]`) — standard translation-apparatus convention, not part of the Greek. Kept invisible here (brackets dropped, supplied words kept) so a reader isn't stopped by editorial marks that were never meant to be spoken; the words themselves are unchanged from source.
 - **The gap, named honestly:** the reading moves from Chapter XXXVI straight to Chapter XLIX, skipping Chapters XXXVII–XLVIII entire. This is a compiled/abridged reading, not a claim that these chapters sit next to each other in the letter — same honesty standard RULING 4 already applied to its own skip of Chapter XXI.
-- **Not yet decided:** where this reading is used — a specific tour stop, a standalone "deeper reading" asset outside the worship-service scene, or something else. Needs Mark's read.
+- **Placement decided — see RULING 7 below:** paired with RULING 6's Trallians letter as one closing "read more" offer, at the tour's exit, not inside the scene.
 
 ---
 
@@ -184,7 +184,33 @@
   - **Appears, then fades (short form):** "Authentic to the source — shown as written."
   - **Full (hover/click):** "This reading includes Ignatius's own language of warning, exclusion, and condemnation of heretical teaching. We show it as written, rather than hiding or softening it — the same standard of transparency this tour holds for every reading, whether its register is warm or hard."
   - The notice sits beside the reading; it does not edit it. Nothing in the transcribed letter above changes because of it.
-- **Not yet decided:** how and where this is used. It was built specifically as a corrective to two prior curated-warm readings, not as tour-stop content in the same register as RULINGs 4–5 — Mark's call on placement remains open, though the participant-facing framing question is now answered by the notice above.
+- **Placement decided — see RULING 7 below.**
+
+---
+
+## Placement, decided: RULING 5 and RULING 6 as one paired closing offer (RULING 7)
+
+**RULING 7 (2026-09-01, Claude, per Mark's instruction — "decide placement for the two readings and the Trallians letter"):** placed together, deliberately, not apart — RULING 5's encouraging excerpt and RULING 6's complete Trallians letter become one paired "read more" offer at the tour's exit, not two separately-scattered assets and not additions to the immersive scene itself.
+
+**Why not inside the scene.** RULING 3 built the whole service as one continuous, whisper-paced flow — Chloe speaks four short times total, and RULING 4's in-scene reading (the 1 Clement salutation + Chapter XX, ~330 words, ~2.5–3 min) was specifically shaped to fit that pacing without pulling focus. RULING 5 (~10 min) and RULING 6 (~12 min) are each four to five times longer than the entire reading beat they'd have to sit inside. Both RULINGs said so themselves when built ("distinct from the Stop 2/Reading-beat script"; "not as tour-stop content in the same register as RULINGs 4–5") — this ruling just closes the loop they left open, rather than reopening a question already answered.
+
+**Why together, not separate.** This is the real decision, not the mechanical one. Two prior sessions' worth of this thread has been about exactly one failure mode: a curated-warm reading, encountered on its own, can leave someone with a rosier picture of this tradition than its own sources support — and the fix an earlier turn reached for (build a corrective harsh reading) only actually corrects anything if a participant who finds the warm one is also handed the hard one, not left to stumble on it separately or never find it at all. Splitting them across different parts of the site would recreate the exact problem RULING 6 exists to fix. Presented together, at the same moment, in a fixed order — encouraging first, complete letter second — a participant who opens either one is handed straight to the other. The pairing itself is the disclosure; it does the work no cartouche wording alone can do.
+
+**Where, specifically.** At the existing, still-open exit point this document already flagged (line 95's "honest-absence reflection... plus closing, landing after the scene ends and Chloe steps out of the whisper to speak plainly"). That is where the tour already shifts register from immersive to plain — the natural, lowest-friction seam for optional longer material, rather than inventing a new interruption mid-scene. Sequence: scene ends → Chloe steps out of the whisper → "What We Cannot Show You" (the honest-absence beat) → this closing offer → Return-to-conversation handoff.
+
+**Voice: Facilitator, not Chloe.** This is a navigational offer ("here is more to read"), not something a hosting character says mid-immersion — the same reasoning that moved Stop 9's closing note to the Facilitator back in RULING 1. Matches the Manifest Template's own Entry/Exit definition: offered, never imposed, no interpretation forced on a participant who doesn't ask for it.
+
+**The offer, concretely:**
+
+> **[Facilitator, after Chloe steps out of the whisper]:** If you want to hear more of what this world actually wrote, in its own words, two longer readings are here. Real letters, not written for this tour.
+>
+> **A Longer Word of Encouragement** (~10 min) — from Rome's own letter to Corinth. A chosen selection, not the whole letter — see its notice for what that means and what was left out.
+>
+> **A Letter, Complete** (~12 min) — a bishop's letter to the church at Tralles, left exactly as he wrote it. Warmth and hard language both, neither edited out. Carries its own notice before it begins.
+
+Both readings' existing cartouche work — RULING 5's Curation status (Curated, with its own honest gap note) and RULING 6's Curation status (Complete) plus its Harsh-Content Notice — attach unchanged to their entries here; nothing about either reading's own text or sourcing block changes because of where it now sits.
+
+**What this doesn't resolve.** The exact interaction shape (an expandable panel, a second screen after the handoff, a menu of two cards) is a build-time UI decision, not a content one — left to whoever builds this stage of the tour. And this placement is a proposal made under Mark's explicit delegation this session, not something he has separately confirmed in his own words the way RULINGs 1–4 were — flag for his read at next review, same as RULING 5's own build note already does.
 
 ---
 
