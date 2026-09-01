@@ -5,10 +5,10 @@
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
   "generated": "2026-08-02",
   "totalEntries": 292,
-  "liveCount": 6,
+  "liveCount": 7,
   "statusCounts": {
-   "Built & Live": 6,
-   "Selected - Not Yet Built": 3,
+   "Built & Live": 7,
+   "Selected - Not Yet Built": 2,
    "Possible Future World (on record)": 19,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
