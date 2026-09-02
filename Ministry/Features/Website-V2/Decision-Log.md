@@ -1067,3 +1067,54 @@ here: §1.8's state table, §1.9's accessibility walk-through and keyboard
 tab-stop counts, and §1.10 still describe the *pre-swap* order and have
 not been re-verified against the new one — real work, not yet done, before
 either document is fully trustworthy again on those specifics.
+
+## 2026-09-02 (later still) — The gallery caps its own height, doesn't grow the page
+
+**Mark's follow-up, looking at the rebuilt gallery:** two era rows today is
+fine, but the project's own "twenty centuries" horizon means eras will
+keep being added — left unchecked, the page could end up with 50+ rows
+stacked down the homepage. The rows need to scroll off the screen instead
+of lengthening the page; two rows is the right amount to show at once,
+now.
+
+**Fix: `.who-gallery` wraps both era groups in a fixed-height,
+internally-scrolling container** (`overflow-y:auto`), sized per breakpoint
+to exactly fit today's two eras with no scrollbar at all — a third era (or
+a fourth, or a fiftieth) extends the *scrollable* content past that cap
+instead of pushing the door, the exchange, the disclosure, and everything
+below it further down the page. The homepage's own total length stays
+bounded regardless of how many traditions or eras the project adds later;
+only the gallery's internal scroll grows.
+
+Heights are measured, not guessed — real jumps happen where the grid's
+`auto-fill` column count changes, and those jumps don't line up with the
+breakpoints already in the stylesheet, so this component gets its own:
+
+| Width | Today's 2-era height (measured) | Cap set |
+|---|---|---|
+| ≤480px | 1070–1505 (worst case at 320) | 1560px |
+| 481–699px | 1041–1338 (worst case at 481) | 1380px |
+| ≥700px | 724–765 | 800px |
+
+The first attempt used the existing 640/680 breakpoints and left a gap at
+681–699px where the grid was still in its narrower-tier wrapping (1041px
+tall) but the cap had already dropped to the desktop 800px value, clipping
+content that should have fit with no scroll. Caught by testing every
+width in that gap, not just the round numbers, and fixed by moving the
+breakpoint to 699px, where the content itself actually transitions.
+
+**Verified locally, both the no-scroll-today case and the mechanism
+itself:** every width from 320–1440px (plus the specific 660–710px range
+around the fixed breakpoint) shows `scrollHeight === clientHeight` — no
+scrollbar, exactly as today's two eras should render. A synthetic third
+era injected via script (test-only, never committed) confirmed the
+container correctly switches to an internal scroll once content exceeds
+the cap, while the page's own total height barely moves. `padding-right`
+and a matching negative margin keep the scrollbar (when one eventually
+appears) from overlapping the rightmost column.
+
+Not yet built, and worth naming rather than leaving implicit: there is no
+visible "more eras below" affordance beyond the native scrollbar, since
+nothing scrolls today. Worth a second look — a subtle edge fade, or just
+confirming the native scrollbar reads clearly enough — once a real third
+era makes the scroll live.

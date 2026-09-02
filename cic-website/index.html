@@ -156,7 +156,16 @@ p{margin:0 0 1rem}
 .held .edit{font-family:var(--sans);font-size:.9rem}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .6rem;max-width:var(--measure)}
 .who .scope{color:var(--muted);max-width:var(--measure);margin:0 0 .6rem}
+/* The gallery's own viewport: today's two eras fit with no scrollbar at
+   any width (measured per tier below); a third era extends the scrollable
+   content past the cap instead of lengthening the page (Mark's ruling,
+   2026-09-02 — "or we will end up with over 50 rows"). Heights are
+   measured, not guessed, same discipline as the header's own table. */
+.who-gallery{max-height:800px;overflow-y:auto;padding-right:.5rem;margin:0 -.5rem 0 0}
+@media (max-width:699px){ .who-gallery{max-height:1380px} }
+@media (max-width:480px){ .who-gallery{max-height:1560px} }
 .era-head{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:1.8rem 0 .8rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem;display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline}
+.who-gallery .era-head:first-child{margin-top:0}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
 .chairs{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1.75rem 1.25rem}
 .chair{--ring:var(--tint);display:flex;flex-direction:column;align-items:flex-start;gap:.45rem}
@@ -273,6 +282,7 @@ p{margin:0 0 1rem}
     <h2 id="who-title" data-copy="draft">Who would you like to ask?</h2>
     <p class="scope" data-copy="draft">Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.</p>
 
+    <div class="who-gallery">
     <h3 class="era-head" data-copy="census"><span>The Early Church Era</span><span class="dates">70–312 CE</span></h3>
     <ol class="chairs">
       <li class="chair" style="--tint:#7c3aed;--tint-dark:#955FF0" data-copy="census">
@@ -350,6 +360,7 @@ p{margin:0 0 1rem}
         </div>
       </li>
     </ol>
+    </div>
 
     <p class="pilot-note" data-copy="live">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith.</p>
     <p class="pilot-caveat" data-copy="live">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>

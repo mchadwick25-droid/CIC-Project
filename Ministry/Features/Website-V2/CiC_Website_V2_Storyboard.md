@@ -271,6 +271,18 @@ are unchanged; the descriptive tile sentence (§1.3f's `entry.tile`) is
 still full census-verbatim text in the DOM, `-webkit-line-clamp: 2` for
 sighted layout only — a screen reader still hears the whole sentence.
 
+**The gallery caps its own height (2026-09-02 change order, same
+conversation):** both era groups sit inside one `overflow-y:auto`
+container, sized per breakpoint to fit exactly today's two eras with no
+scrollbar at all (measured: ≤480px 1560px, 481–699px 1380px, ≥700px
+800px — the tier boundaries are the grid's own column-count jumps, not
+the stylesheet's other breakpoints). A third era scrolls within that
+container instead of lengthening the page; the homepage's total height
+stays bounded no matter how many traditions or eras the project adds
+later. No "more below" affordance exists yet beyond the native
+scrollbar — there is nothing to scroll to today, so nothing to signal;
+revisit once a real third era makes it live.
+
 | # | Element | Copy | Register |
 |---|---|---|---|
 | 1.3a | The held block (hidden until a question is held): a vellum block with a 3px lapis left rule; `tabindex="-1"`, `aria-labelledby` the label and the question | Your question, held: · *the visitor's own words, italic* · Edit it | `[VERBATIM — constitution]` for the label; "Edit it" `[DRAFT COPY — pending Mark's approval]` |
