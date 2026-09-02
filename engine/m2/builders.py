@@ -708,10 +708,41 @@ def build_figures_json(records: dict) -> bytes:
     return canonical_json({"figures": figures})
 
 
+# BUILD PROVENANCE NEVER SHIPS (Mark's ruling, 2026-08-30: "all world
+# build and active files ... need to be clean for exactly what they exist
+# to do"). The record STORE is the workshop - bodies, search records, and
+# reviewer-facing fields are its mandated audit trail and stay untouched.
+# The compiled PACKAGE is the instrument, and two kinds of build residue
+# were shipping in it, measured fleet-wide before this change (~250
+# instances):
+#
+# - search_record rows: provenance instruments documenting how a source
+#   hunt ran ("the sandbox blocks patristic hosts", review-pass names).
+#   Nothing at runtime reads them - but the full-text retrieval fallback
+#   (engine.m4.evidence._fulltext_fallback_candidates) has no record-type
+#   filter and walks every record's strings, so a participant question
+#   sharing a word with a search note could surface one as evidence.
+#   Excluded from the package entirely.
+# - why_sources_cannot_answer / modern_lens_note / discovery_channel /
+#   narrative_tier_justification: reviewer- and author-facing prose on
+#   honest_limit, quote, source, and story records (admission-run
+#   citations, authoring cautions, how-this-was-found notes, tier
+#   justifications). The operative content of each record lives in its
+#   other fields; none of these four has a runtime consumer (verified by
+#   grep outside gates/schemas; the fallback already excluded
+#   modern_lens_note by name) and all are stripped at compile.
+#
+# M1 gates still validate everything on the records themselves - this
+# changes what ships, never what is authored or checked.
+_PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record"}
+_PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification"}
+
+
 def build_repository_json(records: dict) -> bytes:
     entries = [
-        {k: v for k, v in record.items() if not k.startswith("_")}
+        {k: v for k, v in record.items() if not k.startswith("_") and k not in _PACKAGE_STRIPPED_FIELDS}
         for record in sorted(records.values(), key=lambda r: r["id"])
+        if record.get("record_type") not in _PACKAGE_EXCLUDED_RECORD_TYPES
     ]
     return canonical_json({"records": entries})
 

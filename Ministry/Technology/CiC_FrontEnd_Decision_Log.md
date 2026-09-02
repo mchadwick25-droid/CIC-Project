@@ -1909,3 +1909,55 @@ one family; (3) explicitly re-test whether era-number grouping still holds
 once a later, genuinely-different-period era is the second data point, not
 carry the two-early-church-eras case forward as though it settled the
 question.
+
+---
+
+## 2026-09-01 - Clean packages: build provenance never ships
+
+Mark, after a build thread claimed the six worlds' record files held
+forbidden comments: "it is our goal that all world build and active
+files are free from any comments, notes, corruption, they need to be
+clean for exactly what they exist to do."
+
+The verification came back in two halves. (1) The claim as relayed was
+a category error: record BODIES are the mandated audit trail (CO-022
+dated correction notes), are never read by any builder or gate, and
+were verified absent from every compiled package - they must not be
+"cleaned," and build threads were told so. (2) But the check surfaced
+a real finding at the package layer: ~250 instances of build-machinery
+prose inside operative frontmatter fields shipping in repository.json
+(search_record provenance, honest-limit review justifications, source
+discovery notes, story tier justifications) - none spoken, nothing
+reading them at runtime, but sitting INSIDE the full-text retrieval
+fallback's matching net, which has no record-type filter.
+
+Fix at the right layer (Mark: "build it"): the compiler now excludes
+search_record rows and strips why_sources_cannot_answer,
+modern_lens_note, discovery_channel, and narrative_tier_justification
+from repository.json. Records untouched; gates still validate
+everything on the store side. All eight registry worlds (six pilot +
+fix + cappadocian) rebuilt and repinned; residual fleet marker hits: 2
+(syr rights_status embeds a provenance aside - record-layer, flagged;
+ijc voice_craft's deliberate instruction phrase). Regression test pins
+the contract.
+
+COORDINATION NOTE for the three running build threads: this compiler
+change means any package pinned before it will no longer restore
+(restore recompiles and re-verifies the hash). Main is self-consistent
+after this merge; an in-flight branch must rebuild + repin its world
+with the new compiler before or at its own merge.
+
+Addendum, same day: the launch prompt gains a File Discipline section
+(Mark: "rework the build prompt to make sure the process remains clean
+and the build threads are not adding anything that shouldn't be in the
+files"). Cleanliness codified as a placement discipline guarding
+against both real failures: litter in operative fields (the ~250
+shipped instances) and stripping the mandated body-note audit trail
+(the category error a build thread nearly acted on). Adds the pre-pin
+residue read of compiled repository.json alongside the gates report.
+
+Second addendum: the file discipline is now also a Change Order
+(Mark: "yes add the change order then merge it") - Build Process V1.2
+-> V1.3 (file discipline is the third Phase B birth condition) and
+Completion Standard V1.2 -> V1.3 (the pre-pin residue read recorded as
+a saved artifact at freeze). Launch prompt repointed to V1.3.
