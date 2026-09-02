@@ -670,3 +670,18 @@ Table links land on a disabled "Seat at least two voices" button today.
 **Next action:** Opus reviews the synthesis against the charter, the
 constitution, and the full struggle record, per the standing rule.
 Then it goes to Mark to read and, if ready, freeze.
+
+## 2026-09-02 (later still) — D3 synthesis review commissioned
+
+One Opus review of both D3 documents together, checked against the
+hybrid, its review/defense, the five original directions, the brand
+system, and the constitution — verifying fidelity (nothing killed
+quietly reintroduced), internal consistency between the two documents,
+a spot-check of the synthesis's own verification claims, draft-and-
+approve discipline, and whether it still serves the heart audience as
+well as the hybrid did once generalized from one tradition to seven and
+from one mockup to a full storyboard. Landing in
+`Sandbox/D2-struggle/D3-synthesis-review.md` (kept in Sandbox as
+process material; the two reviewed deliverables stay in place
+regardless of the verdict). Required a clear verdict: freeze as-is,
+freeze with named fixes, or not ready.
