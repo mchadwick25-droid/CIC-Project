@@ -65,9 +65,14 @@ positions:
 tensions:
 - whether Macrina is recoverable behind that framing at all is itself argued among the scholars who
   study her; we do not resolve that argument, only carry it honestly
+relations:
+- type: associated-with
+  target: cappadocian.quote.macrina-refuses-remarriage
 ---
 Closes F6-P, recomposed as a witness statement in its own right from the
 same ground cappadocian.demo.woman-authority already stands on, consistent
 with it rather than contradicting it. Deliberately consistent, not
 identical: this dw states the argument without the dialogue's own
 "you've told me... but" framing.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.macrina-refuses-remarriage, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.

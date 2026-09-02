@@ -65,6 +65,9 @@ tensions:
 - we cannot tell you this world's own record ever grappled, in surviving text, with protecting a
   wrongdoer rather than disciplining one - if that failure happened here, it is not preserved in
   anything we can cite
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-canon-to-amphilochius
 ---
 Closes F3-P, the accountability cell, without either defending the 381
 communion law's coercion or inventing an unattested cover-up scandal to
@@ -72,3 +75,5 @@ match the question's own harsher framing. Grounded directly in world_core
 caution 7 (the brief establishment's own thin documentation) rather than
 smoothing past it, matching this build's own standing discipline of
 disclosing rather than resolving a genuine gap.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-canon-to-amphilochius, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
