@@ -786,3 +786,24 @@ Mark needs to check, only the correct name for it. Corrected in
 inheritance note. Still open: Mark confirming the Production branch
 value and checking the Deployments tab for a sandbox-branch preview
 URL.
+
+## 2026-09-02 (later still) — Non-production branch builds enabled
+
+Mark enabled "Builds for non-production branches" on the Cloudflare
+Worker's Build settings, after confirming Production branch = `main`
+and finding the deploy command for that toggle. Per Cloudflare's own
+docs (developers.cloudflare.com/workers/ci-cd/builds/build-branches/,
+/workers/versions-and-deployments/preview-urls/ — fetched via search,
+direct fetch to the docs domain is blocked by this session's egress
+proxy), this defaults to `npx wrangler versions upload` for
+non-production branches — a preview-only command, distinct from the
+production branch's `npx wrangler deploy`, that uploads a new Worker
+version with its own stable preview URL and does not shift production
+traffic. Flagged for Mark to confirm the non-production command
+actually reads as the safe default, not a leftover from the August
+incident when this same toggle was previously enabled with the
+unconditional deploy command.
+
+Pushing this entry now to trigger a real build under the new setting;
+next check is the Deployments tab for a preview URL tied to
+`claude/website-v2-sandbox`.
