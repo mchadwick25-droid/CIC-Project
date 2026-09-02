@@ -592,3 +592,16 @@ struggled and defended in turn. What remains before D3: Mark's read of
 where this landed, and his ruling on the query-string-vs-fragment
 question (and, separately, whether/when to greenlight the small
 app-side change it requires).
+
+**Mark's ruling: use the fragment.** DECIDED — the held question
+travels to the app as a URL fragment (`#q=`), never a query string,
+per the defense's own privacy reasoning. This is a design/protocol
+decision, not yet a build instruction — the actual `App.tsx` change
+(parseDeepLink reading the fragment, ChatInput accepting an initial
+value) is D4's to build when this increment is scheduled, not done
+here. This was the last open item from D2. **D3 opens next**: Fable
+synthesizes the defended hybrid into Website Design V2 — the full
+design document plus the page-by-page storyboard — filed in
+`Ministry/Features/Website-V2/` proper, not Sandbox, per the charter's
+own file discipline and draft-and-approve rule for participant-facing
+copy.
