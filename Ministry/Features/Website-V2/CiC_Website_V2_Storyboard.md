@@ -1,8 +1,10 @@
 # Church in Conversation — Website V2 Storyboard
 
 **Status: D3 deliverable, 2026-09-02. Companion to `CiC_Website_Design_V2.md`
-(the design record — philosophy, system, rulings). Awaiting the Opus review
-of the synthesis, then Mark's freeze. Not built; nothing here is live.**
+(the design record — philosophy, system, rulings). Reviewed by Opus the same
+day (`Sandbox/D2-struggle/D3-synthesis-review.md`: ready to freeze with
+eleven named fixes); this revision applies them, each named where it lands.
+Awaiting Mark's freeze. Not built; nothing here is live.**
 
 **What this is.** Every page the site has, page by page: its purpose, its
 sections in order with the copy and the copy's register, every meaningful
@@ -21,9 +23,17 @@ by reference:
 - `[CAPTURE — verbatim]` — the shipped conversation capture
   `cic-website/assets/tour-captures/theon-confidence.png` (2026-08-25),
   transcribed word for word (verified against the image).
-- `[BRIEF — the tradition's reviewer's brief, arranged]` — the reviewer's
-  brief for that tradition's build (for Chloe, the House-Churches build's),
-  arranged as a table or list (via Direction 03).
+- `[BRIEF — the tradition's reviewer's brief, arranged]` — that tradition's
+  brief for outside reviewers in `Ministry/Scholarly-Review/`, arranged as a
+  table or list, its words unchanged. For Chloe:
+  `CiC_World1_Brief_for_Reviewers_Source.md` (the source of
+  `CiC_World1_Brief_for_Reviewers_V0_1_DRAFT.docx`; Direction 03 used it
+  first). Three more exist — `CiC_WorldBrief_Desert_V0_1_DRAFT.md`,
+  `CiC_WorldBrief_Hieronymian_V0_1_DRAFT.md` (the Bethlehem Circle),
+  `CiC_WorldBrief_Syriac_V0_1_DRAFT.md`; **Alexandria, the Cappadocian
+  Churches and Church and Empire have none.** All four are drafts, cleared
+  for no participant surface: **ruling 36** gates them, tradition by
+  tradition, alongside rulings 2, 3 and 4 (the review's R7).
 
 **Every line marked `[DRAFT COPY — pending Mark's approval]` is collected in
 Appendix A for his approval pass.** Rulings are cited by their number in the
@@ -79,19 +89,24 @@ visitor only, the side door.
 
 **Rules.** The mark is not in the header (ruling 8). Nothing is sticky. The
 header wraps; it never clips a link and never hides a scroller. Nav links are
-44px-tall targets with a 2px madder underline on hover, focus and
-`aria-current="page"`. The side door is italic, muted, never a button; it is
+≥44px targets (measured 48px tall on phones, 49px from 700) with a 2px madder
+underline on hover, focus and `aria-current="page"`. Below 640px the nav sets
+at .9rem with tighter gaps (design record §12). The side door is italic, muted, never a button; it is
 `hidden` unless the returning flag is set, and `.site-nav a[hidden]` is
 `display:none` (the inline-flex rule would otherwise defeat the attribute —
 design record §11.6); a 0.3em `gap` on the anchor keeps the space between its
 two halves (measured 4.55px).
 
-**States.** *First visit:* no side door; header 110px at 320–390 (two nav
-rows), 61px from 414 (one row), 41px from 768. *Returning* (the `localStorage`
-flag `cic-returning` is set when the visitor follows any app link; read in
-`try/catch`): the side door appears in the nav; the header gains a nav row
-between 414 and 768 (measured; not at 1280). *No JavaScript:* the side door stays hidden (the attribute is in the
-markup); everything else is static. *Dark:* surface ground, text `#F1E9DD`,
+**States.** *First visit:* no side door; header **163px** at 320–390 (the
+wordmark on its own row above two nav rows), **114px** at 414–480 (above one
+nav row), **65px** at 640 and **73px** from 700 (one row) — sandbox note
+stripped; the first issue's 110 / 61 / 41 were these heights minus the
+note's, corrected at the fix pass (design record §4.2, §12). *Returning*
+(the `localStorage` flag `cic-returning` is set when the visitor follows any
+app link; read in `try/catch`): the side door appears in the nav and costs a
+row from 414 to 900 (measured: 163px at 414–480, 114 at 640, 174 at 700,
+125 at 768–900; 73 from 1024). *No JavaScript:* the side door stays hidden
+(the attribute is in the markup); everything else is static. *Dark:* surface ground, text `#F1E9DD`,
 underline `#E08C74`. *Print:* hidden.
 
 **Screen reader.** `banner` → link "Church in Conversation" → navigation
@@ -109,7 +124,8 @@ RECOMMENDED: this one footer line on every page. Today `support.html` carries
 a different line ("A ministry in formation.") and `pilot-feedback.html`'s
 footer nav omits Feedback and Privacy — both unify to the standard footer.
 Mark to confirm the entity line as the single footer line (it is the line
-the entity facts favour). Footer links are 44px targets in muted ink.
+the entity facts favour) — **ruling 39** in the design record's register.
+Footer links are 44px targets in muted ink.
 
 ### S.4 The sandbox note
 
@@ -131,6 +147,22 @@ is given with it stripped.
   site cannot know; every app link is a plain link and the app's own
   loading/error states apply. No site copy promises availability.
 - **404:** §9.
+
+### S.6 Page titles and descriptions
+
+The strings a search result, a browser tab or a shared link shows. The live
+site carries both on every page in one form — `X — Church in Conversation`
+— and both are participant-facing copy under the draft-and-approve rule
+(the review's R10). There is no OG / Twitter-card convention on the live
+site to inherit, so none is added.
+
+| Page | `<title>` | `<meta name="description">` | Register |
+|---|---|---|---|
+| Home | Church in Conversation: The First Centuries | Twenty centuries of the Church's story, one era at a time. Seven Christian traditions you can sit down with today, from the Early Church and Imperial Church eras. Come and join us at the Table. | `[LIVE — carried unchanged]` — the description as corrected by the pending "six → seven" push (design record §11.4) |
+| Tradition ×7 | {Tradition} — Church in Conversation *(Chloe's: The House-Churches — Church in Conversation)* | Pattern: {Name} is an AI voice for {the tradition, as its tile names it}, {dates}. Where the record is quiet, the questions people bring, and what {she/he} is built from. *Chloe's instance:* Chloe is an AI voice for the house-churches of Antioch, Asia Minor and Rome, 70–200 CE. Where the record is quiet, the questions people bring, and what she is built from. | title `[CENSUS — verbatim]` + the live suffix; description `[DRAFT COPY — pending Mark's approval]` — the pattern here, one instance drafted with each page as it clears ruling 4. The AI question is raised in the description itself, first, before anything else it says |
+| About · Get Involved · Privacy · Pilot Feedback · Church in History (and its two redirect stubs) | live | live | `[LIVE — carried unchanged]` |
+| What's Next | What's Next — Church in Conversation | ⚠ the live description says "three new worlds in development" — **ruling 37** | title `[LIVE]`; description is Mark's |
+| 404 | Nothing at this address — Church in Conversation | There's nothing at this address. The door is still open — start with your question on the home page. — plus `<meta name="robots" content="noindex">`, since Cloudflare Pages serves the page with a 404 status and it should never be indexed | `[DRAFT COPY — pending Mark's approval]` (both) |
 
 ---
 
@@ -183,7 +215,7 @@ hairline border; inside it, top to bottom:
 | 1.2f | The "how" line — **interim wording, until `#q=` lands in the app** | Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there. | `[DRAFT COPY — pending Mark's approval]` |
 | 1.2f′ | The "how" line — **the day `#q=` lands** (replaces 1.2f) | Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — where it will be waiting for you. | `[DRAFT COPY — pending Mark's approval]` |
 | 1.2g | The AI line — before any conversation link; graphite left rule, ink text | You will be in conversation with an AI system — a voice built from one tradition's own letters and records. It shows its sources as it speaks, and it will tell you where its record runs out. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.2h | Offered-questions heading (small caps-style sans label, muted) | Or begin with one of these — questions people bring | `[DRAFT COPY — pending Mark's approval]` |
+| 1.2h | Offered-questions heading (uppercase, letterspaced sans label, muted — never small caps, ruling 19) | Or begin with one of these — questions people bring | `[DRAFT COPY — pending Mark's approval]` |
 | 1.2i | Six offered questions, each a 44px link, italic, a madder dash before and arrow after | 1 · I grew up being told doubt was sin. Was there room among your people for doubt? · 2 · Did any of you ever want to leave? · 3 · I pray and nothing happens. Did your people know that silence? · 4 · The people who taught me the faith turned out to be hypocrites. Did that happen among you? · 5 · Why does God allow suffering like this? Where was he when it happened to your people — and to mine? · 6 · I want to believe in Jesus, but I can't. What would you say to me? | `[CANON — verbatim, canon_status: seed]` (rulings 2, 10, 13) |
 | 1.2j | Note under the list | These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room. | `[DRAFT COPY — pending Mark's approval]` — the hybrid's visible "seed-status" tag does not ship |
 
@@ -213,11 +245,11 @@ The second screen; the door's landing zone. Top to bottom:
 | 1.3e | Era heading, H3 (×2) | The Early Church Era · 70–312 CE / The Imperial Church Era · 312–451 CE | `[CENSUS — verbatim]` (the census's era heads carry hyphens; the dash seam is a data fix — design record §11.3) |
 | 1.3f | Seven chairs (see the table below) — each an `<li>`: 72px portrait in a 2px tint ring (56px ≤480) · H4 name with the role beside it in muted sans · tradition name in italic · dates · region in sans · the tile · two text actions | — | `[CENSUS — verbatim]` |
 | 1.3g | Chair action 1 (bold sans text link, current-colour underline, 44px) | Ask {Name} → | `[DRAFT COPY — pending Mark's approval]` (pattern) |
-| 1.3h | Chair action 2 (muted text link) | Her/His record → *(visually hidden: " — {Tradition}")* | `[DRAFT COPY — pending Mark's approval]` (pattern) — present only when that tradition's page exists (ruling 4) |
+| 1.3h | Chair action 2 (muted text link) | Her/His record → *(visually hidden: " — {Tradition}")* | `[DRAFT COPY — pending Mark's approval]` (pattern) — present only when that tradition's page exists (ruling 4). **At launch that is Chloe's chair alone**: the other six chairs carry one action, "Ask {Name} →", and nothing in the second slot — no placeholder, no "coming soon," no disabled link (§1.8, the launch row; the review's R1) |
 | 1.3i | Pilot note — **below the seven**, the live site's own order | This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3j | Cost caveat — below the seven | Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3i′/j′ | **Offered re-draft for ruling 20** (replaces 1.3i–j if Mark takes it) | This is a pilot. We're listening for what people coming from four directions find here — the curious, pastors and teachers, scholars, and anyone re-examining their faith. Every conversation costs real money to run, so for now we ask each person to keep to about five. We can't enforce that; we can only ask. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.3k | The second door | Or bring two or three of them to one table. Set your own table → | `[DRAFT COPY — pending Mark's approval]` — the link is `?mode=table`, the app's empty Table field, which is what the copy says (ruling 11) |
+| 1.3k | The second door | Or bring two or three of them to one table. Set your own table → | `[DRAFT COPY — pending Mark's approval]` — the link is `?mode=table`, the app's empty Table field, which is what the copy says (ruling 11). Whether a free entry point surfaces the Table at all is **ruling 35** (D0's seam G, the once-planned paid tier); if the gate stands, this line is cut and nothing else moves |
 
 **The seven chairs — every field from `world-census.json` (2026-09-02), rendered verbatim:**
 
@@ -268,7 +300,7 @@ side by side (1.35fr / .65fr); below, the notes follow the leaf.
 | 1.5d | Bullet | **Locked to sources.** A voice is built last, from a completed record of one tradition's own letters, sermons, and primary sources, through a ten-step, review-gated build — and speaks only from that record. | `[DRAFT COPY — pending Mark's approval]` |
 | 1.5e | Bullet | **Shows its confidence.** Every claim carries how well it is attested, in the same five words inside every conversation, never adjusted for who is asking. | `[DRAFT COPY — pending Mark's approval]` |
 | 1.5f | Bullet | **Watched while it speaks.** Every conversation is watched in real time for a softened truth, an invented detail, or knowledge the voice shouldn't have — and corrected before it reaches you. | lead `[DRAFT COPY — pending Mark's approval]`; sentence `[LIVE — carried unchanged]` (about.html) |
-| 1.5g | Bullet | **Witness, never recruitment.** A voice of its tradition, in real conversation — it does not pretend to be a person, and it is not here to win you over. | `[DRAFT COPY — pending Mark's approval]` (the protected line the hybrid used here now appears once, at 1.5n) |
+| 1.5g | Bullet | **Witness, never recruitment.** A voice of its tradition, in real conversation — it does not pretend to be a person, and it is not here to win you over. | `[DRAFT COPY — pending Mark's approval]` (the protected line the hybrid used here now appears once, at 1.5o) |
 | 1.5h | Column 2, H3 | What is unfinished, said plainly | `[DRAFT COPY — pending Mark's approval]` |
 | 1.5i | Bullet | **Independent academic review is the standard we are building toward.** It has not begun; an advisory board is being formed and needs funding and volunteers. | `[DRAFT COPY — pending Mark's approval]` |
 | 1.5j | Bullet | **Every conversation runs on one plain voice.** The modes designed for a pastor, a scholar, or someone re-examining faith have not shipped. | `[DRAFT COPY — pending Mark's approval]` |
@@ -313,6 +345,7 @@ week; nothing in the layout depends on its wording).
 |---|---|
 | **First visit** | No side door, no welcome-back line. Hook, door, six questions; the AI line before any conversation link. |
 | **Returning** (flag set) | The side door in the header; *Welcome back. Go straight in →* under the hook. Everything else identical — the seven never move, never in a carousel. |
+| **Launch state** (ruling 4 — the most likely shipping configuration; the review's R1) | Only Chloe's tradition page exists. Her chair carries two actions; the other six carry "Ask {Name} →" alone, the tile and every census field unchanged, the second slot simply absent — nothing greyed, nothing promised. The chairs list is asymmetric and says so to a screen reader by having one link where the others have two; no other line on the page changes. A tradition's record link appears the day its page clears. Measured on a scratch copy in this state: **34 tab stops** for a first-time visitor (35 returning), against 40 in the end state (§1.9). |
 | **Question held — typed** | Submit (control or Enter): the held block renders at the top of §1.3 with the question; URL `#q=…`; scroll to §1.3; focus on the held block; next Tab → *Edit it*. |
 | **Question held — offered** | Tapping an offered question: the same, with that text; the input is filled with it too. |
 | **Question held — restored** | Arriving at a URL carrying `#q=…` (shared, bookmarked, Back from the app): the held block is shown without scrolling; the input carries the text. |
@@ -336,8 +369,9 @@ the lede → the "how" line → the AI line → the list heading → list of 6 l
 announced as "Your question, held: {question}", then link "Edit it"] → H2
 "Who would you like to ask?" → scope → H3 era → list of 3: each H4 "{Name}
 {Role}", tradition, dates and region, the tile, link "Ask {Name}", link
-"{Her/His} record — {Tradition}" → H3 era → list of 4 → the pilot note, the
-cost caveat → "Or bring two or three of them to one table." link "Set your
+"{Her/His} record — {Tradition}" (at launch, only Chloe's item has the
+second link; the other six end at "Ask {Name}") → H3 era → list of 4 → the
+pilot note, the cost caveat → "Or bring two or three of them to one table." link "Set your
 own table" → H2 "What a conversation looks like" → figure (labelled by its
 caption): the leaf read as prose, "✲ 3" with `aria-label` "three sources
 cited" → complementary "How to read the exchange": four H3 + paragraphs → H2
@@ -346,27 +380,29 @@ H2 "Church in History" → paragraph → two links → H2 "Support" (visually
 hidden) → three lines with three links → contentinfo: the entity line, four
 links.
 
-**Keyboard path (40 stops for a first-time visitor, 41 returning):** skip
-link → wordmark → 5 nav links (→ side door) → [welcome-back link] →
+**Keyboard path (end state: 40 stops for a first-time visitor, 41
+returning; launch state: 34 and 35 — both measured by a real Tab walk):**
+skip link → wordmark → 5 nav links (→ side door) → [welcome-back link] →
 question input → Choose who to ask → 6 offered questions → [after a hold:
-Edit it] → 7 × (Ask {Name}, {Her/His} record) → Set your own table → About —
-how it works → Open Church in History → What's next → give once → give
-monthly → Get Involved → 4 footer links. Focus ring 2px madder, 3px offset.
-No positive `tabindex`; nothing hidden is a stop; nothing is sticky, so the
+Edit it] → 7 × (Ask {Name}, {Her/His} record) — at launch, Ask Chloe, Her
+record, then six × Ask {Name} alone → Set your own table → About — how it
+works → Open Church in History → What's next → give once → give monthly →
+Get Involved → 4 footer links. Focus ring 2px madder, 3px offset. No
+positive `tabindex`; nothing hidden is a stop; nothing is sticky, so the
 focused element is never obscured.
 
 **Touch.** Every control ≥44px tall: the input, the button, the six question
-links, the fourteen chair actions, the Table link, the map links, the support
-links, the footer links, the nav. Inline prose links (the About link, the
+links, the chair actions (fourteen in the end state, eight at launch), the
+Table link, the map links, the support links, the footer links, the nav. Inline prose links (the About link, the
 protected lines' surroundings) ride the inline exception.
 
 ### 1.10 Responsive behaviour
 
 | Width | Behaviour |
 |---|---|
-| ≥900 (desktop) | Chrome at 64rem; sections at 44rem; reading at 38rem. Input and button on one row. Exchange: leaf and margin side by side. Disclosure two columns. Header one row (41px). |
-| 640–899 | Single column narrows; exchange stacks below 900; disclosure two columns from 760. Input and button on one row from 768. |
-| <640 (phone) | Header wraps (two nav rows at ≤390; one at 414); door box padding 1rem; button wraps under the input (input basis 11rem); portrait 72px (56px ≤480); everything single column; no horizontal scroll at 320 (verified). |
+| ≥900 (desktop) | Chrome at 64rem; sections at 44rem; reading at 38rem. Input and button on one row. Exchange: leaf and margin side by side. Disclosure two columns. Header one row (73px). |
+| 640–899 | Single column narrows; exchange stacks below 900; disclosure two columns from 760. Input and button on one row from 768. Header one row (65px at 640, 73 from 700). |
+| <640 (phone) | Header wraps — the wordmark on its own row above two nav rows at ≤390 (163px), above one at 414–480 (114px); the nav at .9rem; door box padding 1rem; button wraps under the input (input basis 11rem); portrait 72px (56px ≤480); everything single column; no horizontal scroll at 320 (verified). |
 | 320 | Input 537–585; first offered question 1,201; overflow 0. |
 
 Page height: 9,441px at 390×844 (with the sandbox note), 6,786 at 1280.
@@ -402,8 +438,8 @@ Table*. No skipped levels (verified). No mark, no motion on this page.
 | Where we are quiet | `records/<prefix>/honest_limit/*` — the participant-facing statement of each, in the tradition's "we" voice, with a source note beside each (draft) |
 | Questions people bring | P-cell canon questions that map to the tradition's records, with the record source under each (draft); the tradition's own starter draft's hard openers when cleared (ruling 3) |
 | In {her/his} own words | two `records/<prefix>/doctrinal_witness/*` texts, with the lexicon live on the tradition's Tier-1 `records/<prefix>/term/*` (plain meaning = the term record's own; fuller entry drafted from its sources) |
-| The record behind the voice | census `longDescription` · `voices` · `sourcing` · `floorNote` · `legacy` · `experienceToday`; the reviewer's brief (sources table, gravities, contested ground, the four press questions), arranged |
-| Review status | drafted; no counts, no dates |
+| The record behind the voice | census `longDescription` · `voices` · `sourcing` · `floorNote` · `legacy` · `experienceToday`; the tradition's reviewer's brief in `Ministry/Scholarly-Review/` (sources table, gravities, contested ground, the four press questions), arranged — ruling 36; four traditions have one, three do not |
+| Review status | drafted; no counts, no dates; "a reviewer's brief is on file" only where one is |
 
 **The seven instances — what the record store holds today (2026-09-02):**
 
@@ -417,9 +453,28 @@ Table*. No skipped levels (verified). No mark, no motion on this page.
 | The Cappadocian Churches (`cappadocian-nicene-pastoral-monastic-tradition`) | `cappadocian` / `cappadocian-trinitarian` (id seam) | 2 | 26 | 39 | 1 | all 259 draft |
 | The Bethlehem Circle (`hieronymian-ascetic-literary`) | `hal` / same | 4 | 16 | 23 | 1 | all 173 draft |
 
-Every tradition has the fields the template draws on. Every record is in
-draft — ruling 4 gates all seven pages. A page ships only when its quoted
-records clear; until then the homepage chair carries no record link.
+Every tradition has the census and record fields the template draws on.
+Every record is in draft — ruling 4 gates all seven pages. A page ships only
+when its quoted records clear; until then the homepage chair carries no
+record link (§1.8, the launch row).
+
+**Reviewer's brief on file (ruling 36; the review's R7):** the
+House-Churches — `CiC_World1_Brief_for_Reviewers_Source.md`; Desert Fathers
+and Mothers — `CiC_WorldBrief_Desert_V0_1_DRAFT.md`; the Bethlehem Circle —
+`CiC_WorldBrief_Hieronymian_V0_1_DRAFT.md`; Syriac Christianity —
+`CiC_WorldBrief_Syriac_V0_1_DRAFT.md`. **None** for Alexandrian
+Christianity, the Cappadocian Churches or Church and Empire (their
+Facilitation Briefs, where they exist, are a different artifact — written
+for the Facilitator, not for reviewers, and not what §2.8 arranges). On a
+page whose tradition has no brief, §2.8e's table, §2.8f, §2.8h's contested
+list and §2.8k's four questions are absent — not paraphrased from the build
+documents — until a brief exists and clears (§2.10).
+
+The silences do not generalise evenly: 2 `honest_limit` records
+(Cappadocian) to 7 (Church and Empire), plus the guard line — three
+sections to eight against Chloe's five. The template's rule is the same at
+every count: whole, said first, no accordion; the page length moves with it
+(design record §9).
 
 ### 2.1 Breadcrumb, title block, portrait
 
@@ -429,27 +484,31 @@ records clear; until then the homepage chair carries no record link.
 | 2.1b | Identity line (sans, uppercase, muted) | The Early Church Era · 70–200 CE · Antioch, Asia Minor, Rome | `[CENSUS — verbatim]` |
 | 2.1c | H1 | The House-Churches | `[CENSUS — verbatim]` |
 | 2.1d | Formal name, italic muted | Post-Apostolic House-Church Christianity | `[CENSUS — verbatim]` |
-| 2.1e | Status line, 3px tint left rule | Open for conversation — you can sit down with this tradition now. | `[DRAFT COPY — pending Mark's approval]` (from `statusWord`) |
+| 2.1e | Status line, 3px tint left rule | Open for conversation — you can sit down with this tradition now. | `[DRAFT COPY — pending Mark's approval]` — drafted from `statusWord` only where it reads "Open for conversation" (six of seven). The Cappadocian entry carries `"Built & Live"` and `glyph: "live"` (a census seam, design record §11.3; the review's r9); Chilo's page never renders it — the sentence above is the one status line, and the census is where the fix goes |
 | 2.1f | Tile | The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means. | `[CENSUS — verbatim]` |
 | 2.1g | Portrait plate (4:5 crop, hairline border, max 20rem; the figure never dimmed) | alt: Chloe: a woman in a veil drawn up over her head and a rose-colored tunic, holding a plain cup in both hands, painted against a warm neutral ground. | `[DRAFT COPY — pending Mark's approval]` |
 | 2.1h | Caption | **Chloe, Household Leader.** The voice of this tradition — a painted portrait, not a photograph: a face from this tradition, not one person. The veil, the plain wool, and the shared cup are grounded in the tradition's own sources; her complexion is an inference from where she lived, and is labeled so. | `[DRAFT COPY — pending Mark's approval]` |
 
 ### 2.2 The seat line — the chair offered once, outlined
 
-Not sticky. A hairline-ruled row: a sentence, an outlined button, a quiet
-text link.
+Not sticky. First the AI line — one sentence, before either way in — then a
+hairline-ruled row: a sentence, an outlined button, a quiet text link.
 
 | # | Copy | Register |
 |---|---|---|
-| 2.2a | Chloe is seated. Begin when you're ready — or read on. | `[DRAFT COPY — pending Mark's approval]` |
-| 2.2b | Begin a conversation with Chloe | `[DRAFT COPY — pending Mark's approval]` — `?worlds=<id>&mode=interview` (+ `#q=` once it lands) |
-| 2.2c | Bring Chloe to a Table → *(with the landing state said — ruling 18)*: Bring Chloe to a Table — she'll be seated there; choose at least one more voice. | `[DRAFT COPY — pending Mark's approval]` |
+| 2.2a | **The AI line, first** (added at the fix pass — the review's R5; the rows below were a–c): Chloe is an AI system — one voice built from this tradition's own letters and records. She shows her sources as she speaks, and she will tell you where the record runs out. | `[DRAFT COPY — pending Mark's approval]` — sans, graphite left rule, ink text: the homepage's 1.2g pattern. A paragraph, not a heading and not a tab stop. A visitor who arrives here directly — a shared link, a search result, which is what seven indexed pages are for — has passed no disclosure; this is the Brand Guidelines' "Always" and the design record's §3.7 item 8 kept on this page. Measured 1,268–1,352 at 390×844; the first app link at 1,443, after it |
+| 2.2b | Chloe is seated. Begin when you're ready — or read on. | `[DRAFT COPY — pending Mark's approval]` |
+| 2.2c | Begin a conversation with Chloe | `[DRAFT COPY — pending Mark's approval]` — `?worlds=<id>&mode=interview` (+ `#q=` once it lands) |
+| 2.2d | Bring Chloe to a Table → *(with the landing state said — ruling 18)*: Bring Chloe to a Table — she'll be seated there; choose at least one more voice. | `[DRAFT COPY — pending Mark's approval]` — stands on ruling 35 (whether a free entry point surfaces the Table at all); cut, with its twin in §2.9d, if the gate stands |
 
 **Arriving with a held question (RECOMMENDED):** if the URL carries `#q=…`
 (the visitor came from the homepage's held state), the held block (1.3a's
-grammar) renders above the seat line, and both chair links carry the fragment
-the day the app reads it — the constitution's R0 "visible through every
-routing state," extended one page.
+grammar) renders above the seat line — beneath the AI line — and both chair
+links carry the fragment the day the app reads it — the constitution's R0
+"visible through every routing state," extended one page. The fragment is
+read under the design record's §5.1 rule (decode in `try/catch`, trim, 280
+characters, `textContent` only — the review's R6) on this page exactly as
+on the homepage.
 
 ### 2.3 On this page — RECOMMENDED (ruling 22)
 
@@ -457,7 +516,11 @@ A short `<nav aria-label="On this page">` of five in-page links under the
 seat line — *Who is speaking · Where we are quiet · Questions people bring ·
 In her own words · The record* — so a twenty-screen phone page is navigable
 without an accordion. `[DRAFT COPY — pending Mark's approval]` for the five
-labels (they mirror the section eyebrows).
+labels (they mirror the section eyebrows). Build note (the review's r15):
+these are fragment links, so a plain click would replace a held `#q=` and a
+share taken afterwards would lose the question; with JavaScript they scroll
+by script and leave the hash alone (design record §11.6), and without it
+no question was ever held.
 
 ### 2.4 Who is speaking
 
@@ -475,8 +538,8 @@ labels (they mirror the section eyebrows).
 | 2.5a | Eyebrow: Where we are quiet · H2: What this record cannot tell you — said first | `[DRAFT COPY — pending Mark's approval]` |
 | 2.5b | Epigraph, italic: Where the historical record is thin, we let the silence stand. | `[VERBATIM — locked, Brand Guidelines]` — once per page |
 | 2.5c | In Chloe's own voice, from the tradition's own record. These are the silences the voice carries into every conversation. | `[DRAFT COPY — pending Mark's approval]` |
-| 2.5d | Five silences, each an H3 + the record's participant-facing statement, whole (ruling 22): **The enslaved among us** (145 words, `pahc.limit.enslaved-voices`) · **Women's own words** (140, `pahc.limit.womens-own-words`) · **The quiet majority** (134, `pahc.limit.ordinary-majority`) · **The rooms themselves** (163, `pahc.limit.material-remains` — with "a later [tradition]" elided, ruling 17) · **One voice, under guard** (91, the guard line of `pahc.craft.chloe-voice`) | H3s `[DRAFT COPY — pending Mark's approval]`; statements `[RECORD — verbatim, status: draft in the store]` (ruling 4) |
-| 2.5e | A source sidenote beside each — e.g. **Source.** Pliny, *Letters* 10.96 — the two enslaved women called *ministrae*, examined under torture: the only place an enslaved member of this tradition comes individually into view, and through an interrogator's pen. Record: `pahc.limit.enslaved-voices`. | `[DRAFT COPY — pending Mark's approval]` (×5) |
+| 2.5d | Five silences, each an H3 + the record's participant-facing statement, whole (ruling 22): **The enslaved among us** (145 words, `pahc.limit.enslaved-voices`) · **Women's own words** (140, `pahc.limit.womens-own-words`) · **The quiet majority** (134, `pahc.limit.ordinary-majority`) · **The rooms themselves** (163, `pahc.limit.material-remains` — with "a later [tradition]" elided, ruling 17) · **One voice, under guard** — the `guard` field of `pahc.craft.chloe-voice`, **102 words, quoted from its second sentence to its end (91 words)**. Its first sentence, *"The one fleet floor line, absolutely: honest thinness over invented depth,"* is the build's instruction to itself, not the voice speaking, and would trip the Never list's jargon rule; it is cut, and the cut is declared here and on the page (2.5e) — the review's R4, under ruling 17's own precedent | H3s `[DRAFT COPY — pending Mark's approval]`; the four `honest_limit` statements `[RECORD — verbatim, status: draft in the store]` (ruling 4); the fifth `[RECORD — from its second sentence, the opening sentence elided and declared; status: draft in the store]` |
+| 2.5e | A source sidenote beside each — e.g. **Source.** Pliny, *Letters* 10.96 — the two enslaved women called *ministrae*, examined under torture: the only place an enslaved member of this tradition comes individually into view, and through an interrogator's pen. Record: `pahc.limit.enslaved-voices`. — and, beside the fifth: **Source.** The voice's own guard line, `pahc.craft.chloe-voice`, from its second sentence; the first is the build's instruction to itself, not the voice. | `[DRAFT COPY — pending Mark's approval]` (×5) |
 
 The margin apparatus appears only where a record stands behind the sentence
 (01's narrowed rule). Sidenotes sit inside the paragraph after the sentence
@@ -505,7 +568,7 @@ that work.
 |---|---|---|
 | 2.7a | Eyebrow: In her own words · H2: The hardest true thing about us | `[DRAFT COPY — pending Mark's approval]` |
 | 2.7b | What Chloe says when asked what her people never settled, and whether there was room for doubt — from the record, as the voice carries it. The dotted words open the tradition's own lexicon: hover or focus for the plain meaning, click or tap through for the full entry. | `[DRAFT COPY — pending Mark's approval]` |
-| 2.7c | Two witness texts: *If you want the hardest true thing about us, it is this: we never agreed on who should lead…* (297 words, `pahc.witness.what-we-never-settled`, confidence Widely Accepted) · *One of us, Hermas, was told plainly: put doubting away from yourself…* (106 words, `pahc.witness.doubt-and-asking`, confidence Documented) | `[RECORD — verbatim, status: draft in the store]` |
+| 2.7c | Two witness texts: *If you want the hardest true thing about us, it is this: we never agreed on who should lead…* (184 words, `pahc.witness.what-we-never-settled`, confidence Widely Accepted) · *One of us, Hermas, was told plainly: put doubting away from yourself…* (106 words, `pahc.witness.doubt-and-asking`, confidence Documented) — both counts are the record's `text` field alone (the first issue gave 297 for the first, the rendered count with its four lexicon glosses; the review's r3) | `[RECORD — verbatim, status: draft in the store]` |
 | 2.7d | Four lexicon terms inside the first text — *episkopos · presbyteros · diakonos · presbyterion* — each a `<button>` with a Tyrian dotted underline, described by its gloss | the plain meanings `[RECORD — verbatim]` (`pahc.term.*`); the fuller Level-3 entries `[DRAFT COPY — pending Mark's approval]` (×4), each ending with its sources |
 | 2.7e | Source sidenotes beside each text — e.g. **Source.** Hermas, *Mandate* 9. The record's own caution: this comes from one Roman visionary text, addressed mainly to sin and second repentance — it speaks for how this one figure was taught to answer doubt, not for every household. | `[DRAFT COPY — pending Mark's approval]` (×2) |
 
@@ -528,12 +591,13 @@ a control; it is a picture on the homepage only.
 | 2.8b | Intro | Everything above is drawn from here. What follows is the record's own account of itself: what the tradition is, whose words survive, what the reconstruction rests on, where it is contested, and what a reviewer would press first. | `[DRAFT COPY — pending Mark's approval]` |
 | 2.8c | H3 What this tradition is | the census `longDescription` (one paragraph) | `[CENSUS — verbatim]` |
 | 2.8d | H3 Voices in the record | the census `voices` list (Ignatius · Clement · Polycarp · Justin · the unnamed householders) | `[CENSUS — verbatim]` |
-| 2.8e | H3 What it rests on | The record's own one-line assessment: *Moderate; communal voice rich, individual interior voice thin (disclosed on its tile).* — then the sources table (Source · Standing · Disclosed dependency; eight rows; scrolls inside its own container on a phone) | `sourcing` `[CENSUS — verbatim]`; table `[BRIEF — arranged]`; the note "Standings and dependencies are this tradition's reviewer's brief's own words, arranged as a table." `[DRAFT COPY — pending Mark's approval]` |
-| 2.8f | H3 What organizes it | A "gravity" is a force the evidence shows actually organizing the community's life. Each candidate was tested six ways and classed by how much of the record carries it; one did not clear the bar and is kept on record as a tested non-finding. — then the seven gravities (Primary ×2 · Supporting ×3 · Tensional · Declined) with one reason each | intro `[DRAFT COPY — pending Mark's approval]`; list `[BRIEF — arranged]` |
+| 2.8e | H3 What it rests on | The record's own one-line assessment: *Moderate; communal voice rich, individual interior voice thin (disclosed on its tile).* — then the sources table (Source · Standing · Disclosed dependency; eight rows; scrolls inside its own container on a phone) | `sourcing` `[CENSUS — verbatim]`; table `[BRIEF — arranged]` from `CiC_World1_Brief_for_Reviewers_Source.md` §"The evidentiary base" (ruling 36); the note "Standings and dependencies are this tradition's reviewer's brief's own words, arranged as a table." `[DRAFT COPY — pending Mark's approval]` |
+| 2.8f | H3 What organizes it | A "gravity" is a force the evidence shows actually organizing the community's life. Each candidate was tested six ways and classed by how much of the record carries it; one did not clear the bar and is kept on record as a tested non-finding. — then the seven gravities (Primary ×2 · Supporting ×3 · Tensional · Declined) with one reason each | intro `[DRAFT COPY — pending Mark's approval]`; list `[BRIEF — arranged]` from the brief's §"What organizes the world" (ruling 36) |
 | 2.8g | H3 Confidence and contested ground | Every term and story in this record carries one of five labels, strongest to weakest — the same five words you will meet inside the conversation, never adjusted for who is asking. — the five-glyph legend (Documented · Widely Accepted · Dominant Modern Reconstruction · Contested · Inferential / Thin) **beside** the contested list, never before content; the contested list (three items) | intro `[DRAFT COPY — pending Mark's approval]`; labels the constitution's own (Article 17); list `[BRIEF — arranged]` |
-| 2.8h | The floor note, last in this sub-section (ruling 9) | Where it stands on the Creed — the census's floor note · These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it. | label `[DRAFT COPY — pending Mark's approval]`; note `[CENSUS — verbatim]` |
-| 2.8i | H3 Legacy, and where to stand today | the census `legacy` paragraph; the two `experienceToday` links (Dura-Europos; Yale University Art Gallery) | `[CENSUS — verbatim]` |
-| 2.8j | H3 Review status, and where a reviewer might press first | Internal review: Each of the ten build steps was review-gated. Revision is expected, and recorded. · External academic review: Not yet begun. A reviewer's brief is on file; an advisory board to facilitate independent review is being formed and needs funding and volunteers. · Published on purpose — the four questions the record's own authors would most want a scholar of the period to test. — the four press questions · If this is your field: info@churchinconversation.com. And the live test: ask Chloe what she cannot know, and see whether she answers like a witness. | status and framing `[DRAFT COPY — pending Mark's approval]`; the four questions `[BRIEF — arranged]` |
+| 2.8h | H3 Where this record is contested, by its own account | The contested list (three items — the single-manuscript dependencies, the Ignatian authenticity dispute, the Egypt exclusion), each carrying its glyph from the legend beside it | `[BRIEF — arranged]` from the brief's §"The evidentiary base," second paragraph (ruling 36). This is the record section's sixth H3, its own heading in the reference — the first issue folded it into 2.8g and counted seven H3s against the outline's eight (the review's r2) |
+| 2.8i | The floor note, last in this sub-section (ruling 9) | Where it stands on the Creed — the census's floor note · These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it. | label `[DRAFT COPY — pending Mark's approval]`; note `[CENSUS — verbatim]` |
+| 2.8j | H3 Legacy, and where to stand today | the census `legacy` paragraph; the two `experienceToday` links (Dura-Europos; Yale University Art Gallery) | `[CENSUS — verbatim]` |
+| 2.8k | H3 Review status, and where a reviewer might press first | Internal review: Each of the ten build steps was review-gated. Revision is expected, and recorded. · External academic review: Not yet begun. A reviewer's brief is on file; an advisory board to facilitate independent review is being formed and needs funding and volunteers. · Published on purpose — the four questions the record's own authors would most want a scholar of the period to test. — the four press questions · If this is your field: info@churchinconversation.com. And the live test: ask Chloe what she cannot know, and see whether she answers like a witness. | status and framing `[DRAFT COPY — pending Mark's approval]`; the four questions `[BRIEF — arranged]` from the brief's §"Where a reviewer might poke first" (ruling 36). On a page whose tradition has no brief, "A reviewer's brief is on file" and the "Published on purpose" block are omitted; the rest of the sub-section stands |
 
 Project jargon on this surface — "gravity," "Tensional," "Declined," "tested
 non-finding" — is defined inline where it appears; the review flagged it
@@ -560,7 +624,8 @@ named here for Mark to look at.
 
 | State | What the visitor sees |
 |---|---|
-| **Default** | The page as above; the chair outlined at the top (1,348px at 390), filled at the end (16,027px). |
+| **Default** | The page as above; the AI line at 1,268px (390×844, note stripped), the chair outlined at the top (1,368px), filled at the end (16,046px). |
+| **Tradition without a reviewer's brief** (ruling 36 — Alexandria, the Cappadocian Churches, Church and Empire today) | §2.8e's table, §2.8f, §2.8h and §2.8k's four questions are absent; the census-derived sub-sections (2.8c, d, the `sourcing` line, 2.8i, 2.8j) and the review-status lines stand, minus "A reviewer's brief is on file." The record section reads shorter and says less; it does not paraphrase the build documents to fill the gap. |
 | **Arrived with a held question** | The held block above the seat line (RECOMMENDED, §2.2); the chair links carry `#q=` once the app reads it. |
 | **Lexicon — hover/focus** | The Level-2 card beside the term (fixed popover above the thumb below 1100px); `aria-expanded="true"`; the term stays expanded while focus is anywhere inside its wrapper. |
 | **Lexicon — Level 3** | The panel (side, or bottom sheet ≤640) with the word, the plain meaning, the fuller entry, the sources; focus on ×; Escape/× returns focus to the term; the text is never covered on desktop and stays visible above the sheet on phone. |
@@ -576,8 +641,9 @@ named here for Mark to look at.
 **Screen reader, top to bottom:** skip link → banner → main → navigation
 "Breadcrumb" (Home › Who's at the table › current) → the identity line → H1
 → formal name → status → tile → complementary "Portrait": image (alt),
-caption → region "Chloe is seated": sentence, link "Begin a conversation
-with Chloe", link "Bring Chloe to a Table…" → [navigation "On this page"] →
+caption → the AI line, read as a paragraph (2.2a) → region "Chloe is
+seated": sentence, link "Begin a conversation with Chloe", link "Bring Chloe
+to a Table…" → [navigation "On this page"] →
 H2 "An AI system…" → paragraph with an inline note (Source…) → the distress
 line → H2 "What this record cannot tell you — said first" → the epigraph →
 list of 5: H3, statement, note → H2 "Start with the hard one" → intro → list
@@ -591,16 +657,23 @@ mailto → H2 "Come and join us at the Table" → sentence → two links → the
 line → link "The other six chairs" → contentinfo. The closed Level-3 panel is
 `visibility:hidden` and absent from the tree.
 
-**Keyboard (33 stops):** skip → wordmark → nav → 3 breadcrumb links → Begin →
-Bring → [5 on-this-page links] → 7 question links → 4 lexicon buttons (Tab
-moves term to term; Enter opens Level 3; the card's "Full entry" is
-`tabindex="-1"` by design — pointer and touch only) → 2 external links → the
-mailto → Begin → Bring → the other six chairs → 4 footer links. Inside the
-panel: × (focused on open) → back to the term on Escape/×.
+**Keyboard (32 stops for a first-time visitor; 33 returning, the side door
+after the nav — a real Tab walk on the fix-pass copy):** skip → wordmark →
+nav → 2 breadcrumb links (Home, Who's at the table; the current page is
+text, not a link — the first issue counted three, and its 33 was the
+hybrid's ungated side door) → Begin → Bring → [5 on-this-page links] → 7
+question links → 4 lexicon buttons (Tab moves term to term; Enter opens
+Level 3; the card's "Full entry" is `tabindex="-1"` by design — pointer and
+touch only) → 2 external links → the mailto → Begin → Bring → the other six
+chairs → 4 footer links. Inside the panel: × (focused on open) → back to the
+term on Escape/×.
 
-**Touch:** every padded control ≥44px; the lexicon buttons carry a 44px hit
-area on phone per the constitution's §2.4; the two external links and the
-mailto are inline prose links.
+**Touch:** every padded control ≥44px. The lexicon buttons and the
+breadcrumb links **must** carry a 44px hit area (design record R-A4; the
+constitution's §2.4) — the reference measures the four terms at 29px tall
+(74×29, 86×29, 67×29, 92×29) and the breadcrumb links at 34px, so this is a
+build fix the verifier checks, not a property of the reference (the
+review's r1). The two external links and the mailto are inline prose links.
 
 ### 2.12 Responsive behaviour
 
@@ -609,7 +682,7 @@ mailto are inline prose links.
 | ≥1100 | Reading column 38rem with a 17rem reserved margin; sidenotes float right and clear; the Level-2 card anchored beside the term. |
 | 900–1099 | Title block two columns (text 7fr, portrait 4fr); sidenotes in flow, indented; the card a fixed popover. |
 | 640–899 | Single column; portrait plate under the title block, max 20rem. |
-| <640 | Header wraps; sources table scrolls inside its own container; gravities stack to one column; status grid one column; Level-3 = bottom sheet (12px top radius, ≤55vh); seat line wraps; the page is 16,663px at 390×844 (about twenty screens) — the cost of carrying the silences whole (ruling 22), navigable by §2.3. |
+| <640 | Header wraps; sources table scrolls inside its own container; gravities stack to one column; status grid one column; Level-3 = bottom sheet (12px top radius, ≤55vh); seat line wraps; the page is 16,683px at 390×844 with the AI line (about twenty screens; sandbox note stripped) — the cost of carrying the silences whole (ruling 22), navigable by §2.3, whose five-link nav is not in that figure (it adds one short row). |
 | 320 | Overflow 0 (verified). |
 
 ---
@@ -690,13 +763,14 @@ tradition (PR #73). The correction is done in a worktree and not yet pushed
 | 5d | More Traditions — paragraph | Each fills in a major, distinct strand of the ancient church not yet represented — ordinary settled parish life, and a persecuted rival tradition. Each gets the same full build as the seven traditions already live: its own representative voice, sourced vocabulary, and story material, built from its own letters, sermons, and sources. | `[DRAFT COPY — pending Mark's approval]` (the live sentence with the third strand and "six" removed) |
 | 5e | Reformation Era · Atlas Upgrade · Academic Review · User Access | carried | `[LIVE — carried unchanged]` |
 
-**Two content checks for Mark, not design rulings (⚠):** the page's meta
+**Two content checks for Mark (⚠ — rulings 37 and 38 in the design
+record's register, so the freeze pass sees them):** the page's meta
 description still says "three new worlds" — the tradition-not-world rule and
-the count both apply; and the Atlas Upgrade section says Church in History
-"currently covers the traditions Church in Conversation has built or plans
-to build," while the Atlas that shipped 2026-08-03 maps all 292 census
-entries across ten eras (and `support.html` says so). One of the two pages is
-stale; D3 does not know which sentence Mark wants.
+the count both apply (ruling 37); and the Atlas Upgrade section says Church
+in History "currently covers the traditions Church in Conversation has built
+or plans to build," while the Atlas that shipped 2026-08-03 maps all 292
+census entries across ten eras (and `support.html` says so). One of the two
+pages is stale; D3 does not know which sentence Mark wants (ruling 38).
 
 **States:** global. **Screen reader:** H1 "Where we're headed" → six
 sections, the traditions as a list with bold names and muted meta →
@@ -786,7 +860,8 @@ One short page in the V2 chrome:
 | 9c | Links: Home · Go straight in → (the app) | labels `[LIVE]` / `[DRAFT COPY — pending Mark's approval]` |
 
 No mark on this page (its sentence is not owed where the mark is absent).
-**States:** global. **Screen reader:** H1, one paragraph, two links.
+Title, description and `noindex` in S.6. **States:** global. **Screen
+reader:** H1, one paragraph, two links.
 
 ---
 
@@ -795,10 +870,22 @@ No mark on this page (its sentence is not owed where the mark is absent).
 Each line here is `[DRAFT COPY — pending Mark's approval]`; approving a line
 means approving its words as they stand. Verbatim, live, census, record,
 canon, starters, capture and brief material is not listed — it is not
-drafted, and its own gates (rulings 2, 3, 4, 20) are in the design record.
+drafted, and its own gates are in the design record: rulings 2, 3, 4, 20,
+and **36 for the arranged brief material**, which reaches Mark's approval
+pass through that ruling, tradition by tradition, not through this list.
+
+One note for the copy pass rather than a rule (the review's r16): a few
+drafted lines stack two negations in one sentence — 2.1h ("a painted
+portrait, not a photograph: a face from this tradition, not one person"),
+2.4b ("a voice, not a person who lived"). The Never list bans stacked "not
+X, it's Y" as a sentence shape; the Always list keeps "a clarifying contrast
+naming what kind of thing this is," which is what these are. Defensible;
+Mark's eye is the test.
 
 **Shared chrome**
-- S.2 Been here before? Go straight in → · S.3 (footer line unification — no new words)
+- S.2 Been here before? Go straight in → · S.3 (footer line unification — no new words; ruling 39)
+- S.6 The tradition-page description pattern: {Name} is an AI voice for {the tradition, as its tile names it}, {dates}. Where the record is quiet, the questions people bring, and what {she/he} is built from. · Chloe's instance: Chloe is an AI voice for the house-churches of Antioch, Asia Minor and Rome, 70–200 CE. Where the record is quiet, the questions people bring, and what she is built from.
+- S.6 404 title: Nothing at this address — Church in Conversation · 404 description: There's nothing at this address. The door is still open — start with your question on the home page.
 
 **Home**
 - 1.1d Welcome back. Go straight in →
@@ -840,7 +927,8 @@ drafted, and its own gates (rulings 2, 3, 4, 20) are in the design record.
 - 2.1e Open for conversation — you can sit down with this tradition now.
 - 2.1g (alt) Chloe: a woman in a veil drawn up over her head and a rose-colored tunic, holding a plain cup in both hands, painted against a warm neutral ground.
 - 2.1h Chloe, Household Leader. The voice of this tradition — a painted portrait, not a photograph: a face from this tradition, not one person. The veil, the plain wool, and the shared cup are grounded in the tradition's own sources; her complexion is an inference from where she lived, and is labeled so.
-- 2.2a Chloe is seated. Begin when you're ready — or read on. · 2.2b Begin a conversation with Chloe · 2.2c Bring Chloe to a Table — she'll be seated there; choose at least one more voice.
+- 2.2a Chloe is an AI system — one voice built from this tradition's own letters and records. She shows her sources as she speaks, and she will tell you where the record runs out.
+- 2.2b Chloe is seated. Begin when you're ready — or read on. · 2.2c Begin a conversation with Chloe · 2.2d Bring Chloe to a Table — she'll be seated there; choose at least one more voice.
 - 2.3 Who is speaking · Where we are quiet · Questions people bring · In her own words · The record
 - 2.4a Who is speaking · An AI system, speaking for a whole people
 - 2.4b Chloe is a voice, not a person who lived, and she never pretends otherwise. She is this tradition's own surviving witnesses — Ignatius, Polycarp, Clement of Rome, Hermas, Justin, the Didache — given one voice, and she speaks the way a people speaks of itself: we, our, among us. Where those witnesses disagreed, she keeps the disagreement visible rather than settling it for them. Her name and her role are the only invented things about her; every claim she makes belongs to the record, and she will tell you plainly when the record runs out.
@@ -848,7 +936,7 @@ drafted, and its own gates (rulings 2, 3, 4, 20) are in the design record.
 - 2.5a Where we are quiet · What this record cannot tell you — said first
 - 2.5c In Chloe's own voice, from the tradition's own record. These are the silences the voice carries into every conversation.
 - 2.5d The five H3s: The enslaved among us · Women's own words · The quiet majority · The rooms themselves · One voice, under guard
-- 2.5e The five source notes (as in the reference implementation)
+- 2.5e The five source notes (as in the reference implementation), the fifth now reading: Source. The voice's own guard line, `pahc.craft.chloe-voice`, from its second sentence; the first is the build's instruction to itself, not the voice.
 - 2.6a Questions people bring to this table · Start with the hard one
 - 2.6b These are doors, not a syllabus. You are never confined to them, and a question none of them anticipated meets Chloe on the same terms. Each opens a conversation with her; you ask it yourself in the room — for now, nothing is sent ahead. Under each, where her record can answer from.
 - 2.6e The seven source lines (as in the reference implementation)
@@ -861,8 +949,8 @@ drafted, and its own gates (rulings 2, 3, 4, 20) are in the design record.
 - 2.8e Standings and dependencies are this tradition's reviewer's brief's own words, arranged as a table.
 - 2.8f A "gravity" is a force the evidence shows actually organizing the community's life. Each candidate was tested six ways and classed by how much of the record carries it; one did not clear the bar and is kept on record as a tested non-finding.
 - 2.8g Every term and story in this record carries one of five labels, strongest to weakest — the same five words you will meet inside the conversation, never adjusted for who is asking.
-- 2.8h Where it stands on the Creed — the census's floor note (label)
-- 2.8j Internal review: Each of the ten build steps was review-gated. Revision is expected, and recorded. · External academic review: Not yet begun. A reviewer's brief is on file; an advisory board to facilitate independent review is being formed and needs funding and volunteers. · Published on purpose — the four questions the record's own authors would most want a scholar of the period to test. · If this is your field: info@churchinconversation.com. And the live test: ask Chloe what she cannot know, and see whether she answers like a witness.
+- 2.8i Where it stands on the Creed — the census's floor note (label)
+- 2.8k Internal review: Each of the ten build steps was review-gated. Revision is expected, and recorded. · External academic review: Not yet begun. A reviewer's brief is on file; an advisory board to facilitate independent review is being formed and needs funding and volunteers. · Published on purpose — the four questions the record's own authors would most want a scholar of the period to test. · If this is your field: info@churchinconversation.com. And the live test: ask Chloe what she cannot know, and see whether she answers like a witness.
 - 2.9a The Table · 2.9c You have read what Chloe is built from, where it is thin, and what she will not claim. The chair has been pulled out the whole time. · 2.9d (the two actions) · 2.9f The other six chairs →
 
 **What's Next**
@@ -895,14 +983,22 @@ From the design record's §12 (converged scratch copies, Chromium
 | Minimum contrast (light / dark) | 5.37 / 5.66 | 5.39 / 5.66 |
 | Contrast failures | 0 | 0 |
 | Smallest text | 13px | 13px |
-| Animations / transitions | 2 (the mark) / 0 | 0 / 0 |
+| Animations / transitions | 2 animated elements, 3 animation-names (the mark) / 0 | 0 / 0 |
 | Under reduced motion | 0 | 0 |
-| Tab stops | 40 (41 returning) | 33 |
-| Page height at 390×844 | 9,441px (with the note) | 16,663px |
+| Tab stops | 40 (41 returning) in the end state; **34 (35) at launch**, ruling 4 | 32 (33 returning) |
+| Header height, first-time visitor | 163px at 320–390 · 114 at 414–480 · 65 at 640 · 73 from 700 | the same chrome in the build (the hybrid's tradition file measures 169 at ≤480) |
+| Page height at 390×844 | 9,441px (with the note) | 16,683px (note stripped, with the AI line) |
 | Input in the first screen | 320×844 · 390×660/740/844 · 414×896 · 1280 · 1440×790 | — |
-| Landmarks at 390 | AI line 807 · first offered question 1,005 · first "Ask" after a hold 770 below the landing | seat line 1,348 · silences 2,383 · questions 5,952 · record 9,260 · closing 16,027 |
+| Landmarks at 390 | AI line 807 · first offered question 1,005 · first "Ask" after a hold 770 below the landing | AI line 1,268 · seat line 1,368 · first app link 1,443 · silences 2,402 · questions 5,971 · record 9,279 · closing 16,046 |
 
-*— D3 storyboard, 2026-09-02. Every copy line carries its register; every
-drafted line is in Appendix A for Mark's approval; every number was measured
-on a scratch render, and nothing outside this file and the design record was
-written.*
+The tradition column is re-measured at the fix pass with the AI line in
+place, the side door gated and the sandbox note stripped, as this caption
+says; the first issue's tradition figures (1,348 · 2,383 · 5,952 · 9,260 ·
+16,027 · 16,663) had been taken with the note present, 75px on that page at
+390 (design record §12).
+
+*— D3 storyboard, 2026-09-02; fix pass the same day, after the Opus review.
+Every copy line carries its register; every drafted line is in Appendix A
+for Mark's approval; every number was measured on a scratch render — and
+re-measured where the review found a slip — and nothing outside this file
+and the design record was written.*

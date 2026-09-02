@@ -1,9 +1,12 @@
 # Church in Conversation — Website Design V2
 
 **Status: D3 deliverable, 2026-09-02. Converged from the defended hybrid
-("The Open Door," Direction 06). Awaiting the Opus review of this synthesis,
-then Mark's freeze. After the freeze, changes need a change order, not quiet
-edits. Not yet built; nothing here is live.**
+("The Open Door," Direction 06). Reviewed by Opus the same day
+(`Sandbox/D2-struggle/D3-synthesis-review.md`: "ready to freeze with named
+required fixes" — eleven, R1–R11, and sixteen non-blocking items); this
+revision applies them, each named where it lands. Awaiting Mark's freeze.
+After the freeze, changes need a change order, not quiet edits. Not yet
+built; nothing here is live.**
 
 **What this is.** The design record for the redesigned public website
 (`cic-website/`): the philosophy as converged, how it serves the four charter
@@ -55,6 +58,13 @@ register (the 05 defense's rule, adopted by the hybrid): nothing lifted from
 app code, a record, or a data file is filed as cleared for a public surface
 by virtue of being verbatim. And the corpus-wide vocabulary rule holds in
 every drafted line: *tradition*, never *world*.
+
+The storyboard adds two provenance tags of its own, `[CAPTURE — verbatim]`
+and `[BRIEF — arranged]`, defined in its Conventions. The brief material is
+arranged from a named file per tradition and gated by ruling 36. A
+`[RECORD — verbatim]` quote that begins or ends inside the field says so
+where it is used, with the record cited beside it (ruling 17; the guard line,
+storyboard §2.5d) — "verbatim" never covers an undeclared cut.
 
 ### 0.2 Decision markers
 
@@ -132,8 +142,9 @@ carries the defense's corrections to it as binding on the record:
 
 Three smaller citation slips (a spliced quotation, three words dropped from
 inside a quotation, two section pointers) are corrected in the storyboard
-where the material is used; every quotation there is exact or marked as a
-paraphrase.
+where the material is used; every quotation there is exact, marked as a
+paraphrase, or carries a declared elision with the record cited beside it
+(ruling 17; the guard line in storyboard §2.5d).
 
 ### 1.3 What died, and stays dead
 
@@ -187,8 +198,10 @@ voice naming its limit); what holds the thing to the record and what is
 unfinished (the disclosure block, raised by us, before any conversation
 link); one link to the map; the support slot in the quietest register.
 
-One click deep, a tradition's page lets the voice say who is speaking and
-where its record is quiet *before* it offers the record itself — Direction
+One click deep, a tradition's page says in one line that the voice is an AI
+system — before either chair link, because a shared link or a search result
+lands here without passing the homepage — and then lets the voice say who
+is speaking and where its record is quiet *before* it offers the record itself — Direction
 01's chapter order carrying Direction 03's record (collection → assembly →
 trust → chair) as the second screen its own defense argued it always was.
 Disclosure about the *tradition* leads; methodology about the *project* is
@@ -253,8 +266,8 @@ not ship stripped:
 | The AI line | 807px | before any conversation link, for a first-time visitor (verified: zero app links precede it) |
 | After a question is held | landing at the held block | the first "Ask" link is 770px below the landing point — within the landing screen at 844 |
 | A returning visitor | header, every page | one-tap side door; a welcome-back line under the hook |
-| The record | one click | from any chair |
-| The Table | one quiet link | below the seven |
+| The record | one click | from Chloe's chair at launch — the only tradition page that exists until each tradition's records clear ruling 4; from any chair in the end state (storyboard §1.8, the launch row) |
+| The Table | one quiet link | below the seven — kept only if Mark lifts the D0 note's paid-tier gate (ruling 35) |
 | The map | one link | its own section |
 
 What the door does today: holds the question on this page, restores it from
@@ -322,7 +335,10 @@ Applied as a list, not felt as a mood (the 04 defense's item 2):
 6. The ask below the door, in the quietest register on the page, as text
    links; the seeker's voice outranks the donor's.
 7. Nothing sticky follows the visitor; nothing moves to attract a click.
-8. The AI question raised by us, first, before any conversation link.
+8. The AI question raised by us, first, before any conversation link — on
+   the homepage at the door (storyboard §1.2g); on every tradition page as
+   one line above the seat line (§2.2a), because a direct arrival has passed
+   nothing else (the review's R5). No exception is claimed on any surface.
 
 ---
 
@@ -344,6 +360,11 @@ Applied as a list, not felt as a mood (the 04 defense's item 2):
 | Tour | `tour.html` | Pulled from nav since 2026-07-20; unchanged; unlinked; not a V2 surface |
 | 404 | `404.html` | **New, RECOMMENDED** — Cloudflare Pages serves it; one paragraph and the door (storyboard §9) |
 
+Every page's `<title>` and `<meta name="description">` — the strings a
+search result or a shared link shows — are specified in the storyboard's
+S.6, in the live site's own `X — Church in Conversation` form; the eight new
+ones are drafted there under the draft-and-approve rule (the review's R10).
+
 ### 4.2 Chrome
 
 **Header**, every page: the wordmark **Church *in* Conversation** (italic
@@ -353,25 +374,48 @@ hover/focus/current; for a returning visitor only, a quiet italic side door,
 *Been here before? Go straight in →* (draft copy — storyboard S.2). The
 header wraps on narrow screens; it
 never clips, never hides a scroller, is never sticky. The mark is not in the
-header (ruling 8). Measured: two nav rows at 320–390 (header 110px with no
-sandbox note), one row from 414.
+header (ruling 8). Below 640px the nav sets at .9rem with tighter gaps — the
+one chrome change the first issue of §12 left unnamed; it is listed there
+now. Measured, first-time visitor, sandbox note stripped: at 320–390 the
+wordmark takes its own row above **two** nav rows — header **163px**; at
+414–480 one nav row under the wordmark — **114px**; at 640 one row —
+**65px**; from 700 one row — **73px**. Nav links measure 48px tall on phones
+and 49px from 700, so the 44px target rule (R-A4) holds inside every
+one-row header. (The first issue printed 110 / 61 / 41 here and in §12.
+Those were the header heights *minus the sandbox note's height* — an
+arithmetic slip; the note sits above the header and never changes it. The
+fold figures were not affected: the input positions were note-stripped
+correctly, and the review reproduced the fold conclusion with margin.)
 
 **Footer**, every page: the live entity line, verbatim, and About · Feedback
-· Privacy · Contact.
+· Privacy · Contact (ruling 39 for the line's unification).
 
 **Skip link** first in DOM on every page; after it, the next Tab lands inside
-`<main>` — on the homepage, on the question input (verified).
+`<main>` — on the homepage, on the question input for a first-time visitor
+(verified); for a returning visitor the welcome-back link under the hook
+comes first (storyboard §1.9).
 
 ### 4.3 The doors, and every app hand-off
 
 Three doors, ranked — a deliberate departure from the constitution's
-co-equal S0 for the *website only* (ruling 1):
+co-equal S0 for the *website only* (ruling 1). The constitution's three are
+*Start with your question · Build your own table · Guided onboarding*; the
+site keeps the first, gives the second a quiet third place, puts the
+chronological picker in the middle rank, and drops guided onboarding
+entirely — it is not built (D0 note §2.D; the hybrid's README §10), and
+nothing here previews it:
 
 1. **Start with your question** — the homepage's first surface.
 2. **Choose a voice** — the seven chairs, the second screen; also every
    tradition page's seat line and closing door.
 3. **Set your own table** — one quiet text link below the seven, to the app's
    Table field; never a primary; promises nothing about the experience.
+
+Whether a free entry point should surface the Table at all is a business
+question the D0 note flagged (seam G — multi-voice Tables were once a planned
+paid tier) and no round answered. The third door and the tradition page's
+"Bring *Name* to a Table" links stand on ruling 35, ⚠ OPEN FOR MARK; the
+copy nowhere depends on them.
 
 Every hand-off into the app uses the app's own deep-link contract
 (`cic-poc/frontend/src/App.tsx`, header comment, verified 2026-09-02):
@@ -427,6 +471,24 @@ or storyboard contradicts that brief; the nav label "Map" and the page title
   jumps to the chairs, the input keeps the typed text (no reload), nothing is
   held, nothing is sent, no URL is written (verified). Every name and every
   app link is static markup.
+- **The fragment is data, never markup** (the review's R6). `#q=` is the one
+  string in a shareable URL that anyone can write. On arrival and on every
+  hold, the same four steps: read `location.hash`; `decodeURIComponent`
+  inside `try/catch`; `trim()`; cut to **280 characters** — the input's own
+  `maxlength`. The value is rendered only through `textContent` and the
+  input's `value` — never `innerHTML`, never a selector, never an attribute.
+  The invariant: **the URL is the held state, normalised.** An undecodable
+  fragment (a malformed `%` sequence) holds nothing and is left as it is.
+  An empty or whitespace-only value holds nothing, and the empty fragment is
+  dropped from the URL. An over-long value is held truncated, the input
+  carries the truncated text, and the fragment is rewritten to the 280 that
+  were held. Every rewrite is `history.replaceState` — no navigation, no
+  history entry — and on arrival the page never scrolls. Every "Ask *Name*"
+  href gains `'#q=' + encodeURIComponent(text)` from the *held* value, never
+  from the raw hash. This is the reference script's own behaviour
+  (`.trim().slice(0, 280)`, `heldQ.textContent = text`), verified case by
+  case at the fix pass (§12); the rule is stated here because the reference
+  script is what D4 replaces. The app inherits it (§5.2).
 - **The copy at the door says exactly what happens** (draft, storyboard §1.2):
   the question stays in this browser tab and is sent to no one until the
   visitor presses Send in the room — and, until §5.2 lands, that they will
@@ -439,6 +501,14 @@ question travels to the app as a URL fragment (`#q=`), never a query string.**
 A fragment is never sent in any HTTP request — it stays in the browser — so
 "sent to no one" is exact, and nothing lands in the app host's access logs.
 
+What is decided is the mechanism. The Decision-Log is explicit that the
+change order itself is not yet authorised ("the actual `App.tsx` change… is
+D4's to build when this increment is scheduled, not done here"). Its
+authorisation is **ruling 34, ⚠ OPEN FOR MARK**, with D3's recommendation
+to schedule it with D4's first increment: "authorise this direction" and
+"authorise one line in `App.tsx`" are the same decision, and the door is
+unfinished without the second.
+
 The contract, for the app-side change order (D4; its own decision to schedule,
 its own deploy on Render — the site cannot close this gap alone):
 
@@ -447,9 +517,11 @@ its own deploy on Render — the site cannot close this gap alone):
    strips the URL; `consumeDeepLink()` clears the hash as well as the search.
 2. `Conversation.tsx` — passes the question down.
 3. `ChatInput.tsx` — accepts an `initialMessage` prop into its state;
-   **never auto-sends** (the constitution's own rule, storyboard §G.3 / §R:
-   "pre-filled, editable, deletable, never auto-sent"); the participant
-   presses Send.
+   **never auto-sends** (the constitution's own rule —
+   `CiC_Full_UX_Storyboard_V1_0.md` §G.3 / §R: "pre-filled, editable,
+   deletable, never auto-sent"); the participant presses Send. The value is
+   a string, trimmed and capped at the composer's own maximum, set as the
+   textarea's value — the same data-never-markup rule as §5.1.
 4. Whether a question also travels into a Table (`TableRoom.tsx`) — a separate
    small decision inside the change order; RECOMMENDED no for now (the Table
    is convened, not asked).
@@ -512,14 +584,24 @@ stretch is moot).
 | Body (homepage) | Alegreya | 1.0625rem / 1.65 | |
 | Reading column (tradition page) | Alegreya | 1.125rem / 1.6 on a 38rem measure | 01's reading conditions |
 | H1 | Alegreya 500 | `clamp(2rem, 4.5vw, 3rem)` / 1.12 | a title, not a bold headline |
-| H2 | Alegreya 500 | `clamp(1.6rem, 3.2vw, 2rem)` | |
-| H3 / H4 | Alegreya 700 | 1.15rem / 1.25rem | Representative names are H4 |
+| H2 | Alegreya 500 | `clamp(1.6rem, 3.2vw, 2rem)` / 1.15 | |
+| H3 — homepage era heads (×2) | Alegreya Sans 600 | 0.8125rem / 1.15 | uppercase, letterspaced .12em, muted; the dates beside them weight 400, no transform |
+| H3 — homepage margin notes (×4) and disclosure columns (×2) | Alegreya Sans 700 | 0.8125rem / 1.15 | uppercase, letterspaced .08–.1em, ink |
+| H3 — tradition page, the silences (×5) | Alegreya Sans 700 | 1.05rem / 1.15 | uppercase, letterspaced .06em, ink |
+| H3 — tradition page, the record's sub-heads (×8) | Alegreya 700 | 1.15rem / 1.15 | |
+| H4 — Representative names (×7) | Alegreya 700 | 1.25rem / 1.15 | the role beside the name in muted sans |
 | Labels, chrome, sidenotes, captions, eyebrows | Alegreya Sans | 0.8125–0.95rem | **never below 0.8125rem (13px)** |
 | Buttons | Alegreya Sans 600 | 1rem | |
 | Wordmark | Alegreya 700, *in* italic 400 | 1.2rem | |
 
 `text-wrap: balance` on headings, `pretty` on reading paragraphs; no
 justification; no drop caps; no small caps; no old-style figure feature.
+The five H3 rows are the computed styles read from the rendered reference
+(the review's R2): the first issue's single "H3 / H4 · 1.15rem / 1.25rem"
+row would have set the era heads and the margin notes in serif, and read
+as two sizes rather than a size and a leading. Every sans label on either
+page — including the offered-questions heading (storyboard §1.2h) — is
+uppercase and letterspaced, never small caps.
 
 ### 6.2 Colour — the locked palette, plus the usage layer V2 adds
 
@@ -586,6 +668,14 @@ Rules that ride with the tables, binding:
 - The live stylesheet's `--muted #6B6259` (4.45 on the Era-I ground) is not a
   V2 token; secondary text is ink-faded / dark muted, and never on an era
   ground on this site (era grounds are the Atlas's).
+- The re-set exchange on the homepage (storyboard §1.4d) departs from the
+  constitution's §4.1 transcript grammar in two named ways, both forced by
+  this usage layer: the Representative's label is ink with a gold-leaf rule
+  beside it, not "a gold small-caps label" (gold-leaf never sets small text;
+  no small caps — ruling 19); and the Facilitator's lines are italic in
+  ink-faded, not "graphite" (graphite never sets text). The grammar's shape
+  — name above flowing prose, no bubbles, the participant's "You" in lapis —
+  is kept exactly. Ruling 21 carries the note.
 
 ### 6.3 Motion — the whole inventory, binding
 
@@ -601,9 +691,11 @@ Rules that ride with the tables, binding:
 Nothing else transitions, reveals, lifts, slides, or dims — by omission in
 the stylesheet, not by a global override. Verified by enumerating every
 element's computed `animation-name` and `transition-duration`: homepage
-exactly two animations (the ring, the seat), zero transitions; tradition
-page zero and zero; under `prefers-reduced-motion` zero on both (§12). The
-mark's autoplay on arrival is ruling 16.
+exactly two animated elements carrying three animation-names (`cic-buildC`
+on the ring; `cic-sitdown` and `cic-breath` on the seat), zero transitions;
+tradition page zero and zero; under `prefers-reduced-motion` zero on both
+(§12). A verifier asserting "two" by name would fail; it asserts two
+elements and these three names. The mark's autoplay on arrival is ruling 16.
 
 ### 6.4 The restraint discipline, with its reasons
 
@@ -662,9 +754,16 @@ written for the mark — with `#CB6E52` reserved for the mark's dot.
   boundary that carries meaning; both registers.
 - **R-A3 Size.** Nothing under 13px carries meaning.
 - **R-A4 Targets.** ≥24×24 everywhere; ≥44px on every padded control (buttons,
-  nav links, chair actions, the input, question links, the panel close);
-  inline links in running prose ride SC 2.5.8's inline exception and are
-  not claimed at 44 (the corrected sentence — the hybrid's overstatement,
+  nav links — the tradition page's breadcrumb links included, which the
+  reference sets at 34px and the build pads to 44 — chair actions, the
+  input, question links, the panel close). **Lexicon terms, and the ✲
+  wherever it is a control, carry a 44px padded hit area** — the
+  constitution's §2.4 and §7 item 9, carried to the site's own lexicon. The
+  reference does not give them one (the four terms measure 74×29, 86×29,
+  67×29 and 92×29 at 390); the build adds a transparent `::before` that
+  extends the hit box without moving the text, and §7.3 measures it. Inline
+  links in running prose ride SC 2.5.8's inline exception and are not
+  claimed at 44 (the corrected sentence — the hybrid's overstatement,
   withdrawn).
 - **R-A5 Names.** Every link's purpose from its text alone: every "Ask" names
   the person; every record link carries the tradition's name (visually
@@ -716,6 +815,14 @@ standing script plus one human step:
 8. In the real faces, on a real device or a device-mode render with the
    fonts loaded, before ship: the fold positions in §3.3 were measured in
    fallback faces.
+9. The hit box of every lexicon term, ✲ control and breadcrumb link, ≥44px
+   (R-A4) — the one target class the reference fails.
+10. Reading level of every drafted participant-facing line (Flesch-Kincaid)
+    against the Brand Guidelines' 10th-grade floor; the record apparatus
+    (storyboard §2.8f–h) may run higher and sits one screen deep. For the
+    record: the D2 reviews measured the hybrid at 8.2 (homepage) and 10.1
+    (tradition page); the D3 review measured D3's drafted copy at roughly
+    grade 5–6, the apparatus at 11–15.
 
 ---
 
@@ -727,8 +834,8 @@ secondary breakpoints, each doing one job:
 
 | Breakpoint | What changes |
 |---|---|
-| ≤480 | chair portrait 56px; header 118px (one nav row from 414; two at ≤390) |
-| ≤640 | header padding tightens; side-door long text hidden; Level-3 panel becomes a bottom sheet (≤55vh, transcript visible above); gravities stack; status grid single column |
+| ≤480 | chair portrait 56px |
+| ≤640 | header padding tightens and the nav sets at .9rem with tighter gaps — header 163px at 320–390 (the wordmark's row above two nav rows), 114px at 414–480 (above one), 65px at 640 (one row; §4.2); side-door long text hidden; Level-3 panel becomes a bottom sheet (≤55vh, transcript visible above); gravities stack; status grid single column |
 | ≥640 | status grid two columns |
 | ≥760 | disclosure block two columns |
 | ≥900 | homepage exchange: leaf + margin notes side by side; tradition title block: text + portrait plate |
@@ -748,11 +855,16 @@ bottom sheet's cap. Full per-page behaviour is in the storyboard.
 - **The seven are still chronological.** Under a question, not instead of
   one — but a visitor who wants "which of these is for me" gets no ranking
   until the router exists or ruling 13 is made.
-- **The tradition page is long on a phone** — 16,663px at 390×844 (about
-  twenty screens) with the five silences carried whole (673 words of
-  statements plus their source notes) and the record in full. The chair is
-  offered at 1,348px and again at the end; an in-page contents list is
-  recommended (ruling 22) so the length is navigable.
+- **The tradition page is long on a phone** — 16,683px at 390×844 with the
+  AI line above the seat line (about twenty screens), the five silences
+  carried whole (673 words of statements plus their source notes) and the
+  record in full. The chair is offered at 1,368px and again at the end; an
+  in-page contents list is recommended (ruling 22) so the length is
+  navigable. That is Chloe's page. The silences run 2 to 7 per tradition
+  (storyboard §2), so the Cappadocian page carries three sections where
+  Chloe's carries five and Church and Empire's eight; the length moves with
+  them, and "the silences, whole, said first" is the rule at three and at
+  eight alike — no accordion at eight, no padding at three.
 - **Only Chloe's record page exists in the reference implementation.** The
   pattern is one page; the content is seven, and each tradition's record must
   clear ruling 4 before its page ships.
@@ -774,14 +886,16 @@ bottom sheet's cap. Full per-page behaviour is in the storyboard.
 Every named "ruling for Mark" the hybrid (README §8, 1–12) and its defense
 (§5.4, 13–20) accumulated, plus the items the review and defense named
 without numbering and the decisions the record left to D3. Nothing dropped.
+Rulings 34–39 were added at the D3 review (its R7, R8, R9 and R11); the
+storyboard's own page-level ⚠ items are all here (37–39).
 
 | # | Ruling | Status | D3's position |
 |---|---|---|---|
-| 1 | **The question door outranks the other S0 doors on the website.** The constitution's S0 makes three doors co-equal, "no default"; this site gives "Start with your question" the first surface, "choose a voice" the second screen, the Table a quiet third. | **⚠ OPEN FOR MARK** — a stretch of a FINAL document | RECOMMENDED: adopt the ranking for the website only. It is taken from Mark's own 2026-09-02 words and the five-for-five D2 finding; the app's own S0 stays co-equal and is not this workstream's. |
+| 1 | **The question door outranks the other S0 doors on the website.** The constitution's S0 makes three doors co-equal, "no default"; this site gives "Start with your question" the first surface, "choose a voice" the second screen, the Table a quiet third. | **⚠ OPEN FOR MARK** — a stretch of a FINAL document | RECOMMENDED: adopt the ranking for the website only. It is taken from Mark's own 2026-09-02 words and the five-for-five D2 finding; the app's own S0 stays co-equal and is not this workstream's. Said plainly (the review's r7): the constitution's three doors are *your question · build your own table · guided onboarding*; the site keeps two, substitutes the chronological picker for the middle rank, and drops guided onboarding because it is not built (D0 note; hybrid README §10). |
 | 2 | **Seed-status canon questions on a public surface.** All 23 P-cell questions are `canon_status: seed`, already served inside every live conversation. | **⚠ OPEN FOR MARK** — content clearance | RECOMMENDED: clear the six for the homepage (no new exposure); the internal status word never appears on the page. |
 | 3 | **The W1 Guided Starters draft** ("awaiting Mark's review, not deployed") supplies three of the tradition page's seven questions. | **⚠ OPEN FOR MARK** — content clearance | RECOMMENDED: the template ships with cleared questions only; the three starters join when that draft is reviewed. |
 | 4 | **Record text at `status: draft` on a public page.** Every field the tradition page quotes — silences, witness texts, terms, the guard line — is draft in the store; so are all seven traditions' records (156–259 records each, all draft). | **⚠ OPEN FOR MARK** — the biggest content gate in V2 | RECOMMENDED: the template freezes now; each tradition's page ships when its quoted records clear the record store's own gates, labelled as the record's. Paraphrase is not an option — trimming or softening a silence is the edit a doubter would catch. |
-| 5 | **The question in the deep link.** | **DECIDED** — see 14 | Build item for the app (§5.2), its own change order. |
+| 5 | **The question in the deep link — the mechanism.** | **DECIDED as to mechanism** — see 14 | Build item for the app (§5.2). Whether and when the change order is built is *not* decided — that is ruling 34. |
 | 6 | **Dark mode.** One measured dark register for the site (§6.5); inside it, `#E08C74` vs the brand's `#CB6E52` for action text. | RECOMMENDED (keep a dark register) · **⚠ OPEN FOR MARK** (which action colour) | Keep `#E08C74` for links and action; `#CB6E52` for the mark only. |
 | 7 | **The seven derived dark tradition tints** (§6.2) — new values, not brand-approved. | **⚠ OPEN FOR MARK** — brand approval | RECOMMENDED: approve as `colorDark` census fields, rings only. |
 | 8 | **The mark leaves the header;** appears once, in the hero, with its public sentence beside it at caption size; the header carries the wordmark with the italic *in*. The sentence is therefore the first text on the page — an explicit choice under the Logo Usage Sheet's caption rule, not an inherited one. | RECOMMENDED — it is the fix for the two Logo Usage Sheet breaks the Decision-Log records against the live header | Mark to confirm the departure from the live header convention at the freeze. |
@@ -793,16 +907,16 @@ without numbering and the decisions the record left to D3. Nothing dropped.
 | 14 | **Where the held question rides to the app.** | **DECIDED — the fragment `#q=`, never a query string** (Mark, Decision-Log 2026-09-02) | Protocol in §5.2; the site's own hold is also fragment-only (§5.1, §5.4). |
 | 15 | **Same-tab hand-off** on every app link. | RECOMMENDED (§5.3) | Pre-ship live check on the deployed engine's rehydration. |
 | 16 | **The mark's joining plays on arrival.** The Logo Usage Sheet: "the motion never replays unbidden and never plays the joining at a visitor" — "the joining" is undefined in the brand files; the brand's own reference file autoplays the full sequence once. | **⚠ OPEN FOR MARK** — brand interpretation (the 04 defense's stretch item, restored) | RECOMMENDED: keep the single autoplay on arrival, byte-faithful to the reference; reduced motion gets the still mark. Mark defines "the joining" for the record. |
-| 17 | **The two "world" record quotes** on the tradition page. | RECOMMENDED: bracketed elision — "a later [tradition]" — with the record cited beside it, until `task_9222cdbc` fixes the record layer; then verbatim | Verified: zero visible "world" on the converged page. |
+| 17 | **The two "world" record quotes** on the tradition page. | RECOMMENDED: bracketed elision — "a later [tradition]" — with the record cited beside it, until `task_9222cdbc` fixes the record layer; then verbatim | Verified: zero visible "world" on the converged page. The same discipline now covers the guard line's opening sentence (storyboard §2.5d, the review's R4): the cut is declared on the page in the source note, with the record cited, and the tag no longer says "verbatim" unqualified. |
 | 18 | **The single-seat Table href** (`?worlds=X&mode=table`) lands on a disabled "Seat at least two voices." The live site's own per-Representative link has the same landing. | RECOMMENDED: keep the link with landing-state copy (storyboard §2.2/§2.9); file the live-site defect separately | A documented pairing would need `pairings.ts` (itself DRAFT) — not now. |
 | 19 | **The four antiquarian devices** — Roman numerals, drop caps, a colophon, small caps — excluded on the hybrid's reading of "nothing antiquarian," argued for by both the 01 and 03 defenses. | **⚠ OPEN FOR MARK** | RECOMMENDED: exclude. The 01 review's "illuminated codex" finding is about accumulation, and Mark's non-religious-feel ruling makes the accumulation risk real on this subject. |
 | 20 | **The pilot/cost copy itself** — "a limited number of participants… about five conversations" — a scarcity register the Never list names, on the homepage in any position. | **⚠ OPEN FOR MARK** | RECOMMENDED: move below the seven (done, the live order) *and* re-draft in a capacity register without scarcity shape (storyboard §1.3 offers the draft). |
-| 21 | **The captured exchange's ground.** The hybrid sets it on `--gold-wash` in a bordered box; the constitution removed gold-wash from the transcript ("remain in the palette for any washed grounds elsewhere"). | RECOMMENDED: set the leaf on vellum (`--surface`) with the hairline border — a quoted leaf that shows the app's own no-wash grammar, and no argument about "elsewhere" | Either reading is defensible; vellum contradicts nothing. |
+| 21 | **The captured exchange's ground.** The hybrid sets it on `--gold-wash` in a bordered box; the constitution removed gold-wash from the transcript ("remain in the palette for any washed grounds elsewhere"). | RECOMMENDED: set the leaf on vellum (`--surface`) with the hairline border — a quoted leaf that shows the app's own no-wash grammar, and no argument about "elsewhere" | Either reading is defensible; vellum contradicts nothing. The leaf's label grammar also departs from §4.1 in two ways the usage layer forces — ink with a gold rule for the Representative's name (no gold small text, no small caps), italic ink-faded for the Facilitator (graphite never sets text) — named in §6.2 (the review's r8). |
 | 22 | **"Where we are quiet" — whole, or opened from the first two sentences?** (Left to D3 by the hybrid.) | RECOMMENDED: whole. 673 words of statements; the cost is the page length in §9. Add an "On this page" contents nav under the seat line. No accordion — an accordion hides a silence. | |
 | 23 | **The 02 defense's optional homepage map band** (left to D3). | RECOMMENDED: not in V2. One link. Revisit once the Atlas is on the brand tokens; building it now re-enters the palette debt on the homepage. | |
 | 24 | **A Representative's portrait is never dimmed, on any surface.** | RECOMMENDED as a binding site rule (§6.4); carried into the Atlas track as its own ruling (it changes `atlas-v3.html`'s 18%) | |
 | 25 | **The protected hook's capitalisation** — Brand Guidelines and the live H1 say "Church"; the constitution's S0 quotes "church." | Note, not a ruling: the FINAL brand text governs; V2 uses "Church" | A drift in the constitution's own record, noted for that thread. |
-| 26 | **The phone header wraps to two nav rows** (110px at 320–390 without the sandbox note) rather than a menu button or a hidden scroller. | RECOMMENDED (measured) | Paid once; not sticky. |
+| 26 | **The phone header wraps to two nav rows** (163px at 320–390: the wordmark's own row above two nav rows; 114px at 414–480 above one — §4.2) rather than a menu button or a hidden scroller. | RECOMMENDED (measured) | Paid once; not sticky. |
 | 27 | **A "Traditions" index page and a "Method" page** (the 03 defense's items 8–9). | RECOMMENDED: not in V2's page set — the homepage's chairs section (deep-linkable at `#who`) is the index; About's "How it works" is the method. A Method page is a candidate for a later increment if About grows. | |
 | 28 | **A branded 404 page.** | RECOMMENDED: add (storyboard §9). | |
 | 29 | **`Referrer-Policy` in `_headers`.** | Build item under ruling 14 (§5.4). | |
@@ -810,6 +924,12 @@ without numbering and the decisions the record left to D3. Nothing dropped.
 | 31 | **The offered-questions list as the period-risk surface.** | Note. Content saves it; the build watches it. | |
 | 32 | **Cloudflare Pages preview deployment for D4** — the charter's Render assumption was wrong (D0 seam A); `cic-website/` deploys via Pages, which supports per-branch previews natively. | **⚠ OPEN FOR MARK** — console action, already logged; restated because D4 cannot start safely without it | Confirm a Pages preview build for `claude/website-v2-sandbox`. |
 | 33 | **The six historical-site photos** (D0 seam B). | Untouched; none used in V2 | No change. |
+| 34 | **Authorising the `#q=` change order in `cic-poc/frontend`** (§5.2 — roughly fifteen lines across three or four files, a test, a Render deploy). Ruling 14 decided the transport; the Decision-Log says the build "is D4's to build when this increment is scheduled, not done here." | **⚠ OPEN FOR MARK** — a change order against the app, outside this workstream's own repo (the review's R11) | RECOMMENDED: schedule it with D4's first increment. Until it lands the door's interim clause stands, the visitor types the question twice, and the site's most important promise is half-kept. "Authorise this direction" and "authorise one line in `App.tsx`" are the same decision. |
+| 35 | **Should a free entry point surface the Table at all?** D0's seam G: the V1 log's 2026-07-24 rule kept the multi-Representative Table out of the free interview entry point as a planned paid tier; the live homepage has since put "Bring *Name* to the Table" beside every free interview link under Mark's 2026-08-28 launch ruling (`index.html` 63–65, 313–317) — a loosening that was never confirmed as one. V2 designs entry points around the loosened reading: the third door (storyboard §1.3k) and two Table links on every tradition page (§2.2d, §2.9d). | **⚠ OPEN FOR MARK** — a business-model decision, not a design one (the review's R8) | RECOMMENDED: keep them, *because* the live site already does — but as Mark's confirmation, not D3's assumption. If the paid-tier gate stands, cut 1.3k and the tradition page's two Table links; no other copy or layout depends on them, and ruling 18 becomes moot. |
+| 36 | **The reviewer's-brief material on the tradition page** — the sources table, the gravities, the contested list and the four "press first" questions (storyboard §2.8e, f, h, k) — is arranged from `Ministry/Scholarly-Review/CiC_World1_Brief_for_Reviewers_Source.md` for Chloe, and from that folder's `CiC_WorldBrief_{Desert,Hieronymian,Syriac}_V0_1_DRAFT.md` for three more. **Alexandria, the Cappadocian Churches and Church and Empire have no brief.** All four files are drafts written for outside reviewers, in public-safe form by their own account; none has been cleared for a participant surface. | **⚠ OPEN FOR MARK** — content clearance, alongside 2, 3 and 4 (the review's R7) | RECOMMENDED: clear the W1 brief's arranged material with Chloe's page. For the other six, the brief-derived sub-sections ship only when that tradition's brief exists *and* is cleared; until then they are absent from that page (the census-derived sub-sections stand), and the review-status line does not say "a reviewer's brief is on file" where none is. This narrows what the template promised, and the storyboard now says so (§2.10). |
+| 37 | **`whats-next.html`'s meta description** still says "three new worlds in development" — the count and the tradition-not-world rule both apply (storyboard §5, S.6). | **⚠ OPEN FOR MARK** — live copy; a wording Mark owns (the review's R9) | RECOMMENDED: "two new traditions in development" in the pending-push wording, or whatever that fix settles on. |
+| 38 | **`whats-next.html` and `support.html` contradict each other on the Atlas's scope** — the first says Church in History "currently covers the traditions Church in Conversation has built or plans to build"; the second describes the map that shipped 2026-08-03 across all 292 census entries (storyboard §5). | **⚠ OPEN FOR MARK** — one of the two live sentences is stale; D3 does not know which Mark wants (the review's R9) | RECOMMENDED: the `support.html` sentence, which matches the census and the shipped map. |
+| 39 | **One footer line on every page** — the entity line (storyboard S.3). Today `support.html` carries "A ministry in formation." and `pilot-feedback.html`'s footer omits Feedback and Privacy. | **⚠ OPEN FOR MARK** — a copy change on two live pages (the review's R9) | RECOMMENDED: the entity line everywhere; it is the line the entity facts favour. |
 
 ---
 
@@ -854,14 +974,26 @@ fixes go there, never on a page:
   `imperial-juridical` / `imperial-juridical-christianity`): the tradition
   page joins census data by census id and records by record `world_id`; the
   build must not assume they match.
+- The Cappadocian entry alone carries `statusWord: "Built & Live"`,
+  `glyph: "live"` and a portrait `.jpg` in `entry.icon`, where the other six
+  live entries carry `"Open for conversation"`, `null` and a world-icon SVG
+  (PR #74's census fix was made for the Atlas display). Rendered as the
+  storyboard's §2.1e specifies, Chilo's status line would read "Built & Live
+  — you can sit down…" — project jargon on a participant surface (the
+  review's r9). The page never renders an internal status word: the status
+  line is drafted from `statusWord` only where it reads "Open for
+  conversation," and the fix is in the census, not on the page.
 
 ### 11.4 Content gates
 
-- Rulings 2, 3, 4 (canon, starters, draft records).
+- Rulings 2, 3, 4 (canon, starters, draft records) and 36 (the reviewer's
+  brief material — four traditions have a brief file, three have none).
 - `whats-next.html`'s Cappadocian correction and the two "six traditions"
   counts (`index.html`, `about.html`) — done in a worktree, **not yet
   pushed** (Decision-Log 2026-09-02). V2's What's Next and About assume they
   have landed: seven live, two in development (Latin Pastoral, Donatism).
+  Two more items on the same page are Mark's: its meta description (ruling
+  37) and its Atlas sentence against `support.html`'s (ruling 38).
 - `task_9222cdbc`: "world" in the record store's spoken text.
 
 ### 11.5 Deploy
@@ -886,6 +1018,20 @@ the existing `no-store` on HTML and `/data/*` stands.
   tradition page's plate), `loading="lazy"`, `decoding="async"`.
 - All fold positions were measured in fallback faces (§0.3); the real
   Alegreya has a larger x-height — re-measure with the fonts loaded.
+- The `#q=` fragment: §5.1's rule, verbatim — decode in `try/catch`, trim,
+  cut to 280, `textContent` only. One cross-feature seam (the review's
+  r15): an "On this page" link (storyboard §2.3) is a fragment navigation,
+  so it replaces `#q=`, and a share or bookmark taken after it loses the
+  question. With JavaScript the contents links scroll by script and leave
+  the hash alone (`preventDefault`, `scrollIntoView`, focus moved to the
+  heading with `tabindex="-1"`); without JavaScript they are plain anchors
+  and no question was ever held, so nothing is lost.
+- Inline-mark hit areas (R-A4): the lexicon `<button>`s and the breadcrumb
+  links need a padded hit box the reference does not give them (29px and
+  34px tall respectively at 390).
+- The side door on the tradition page: the hybrid's `tradition-chloe.html`
+  leaves it ungated (no `hidden`, no `id`); the shared chrome gates it on
+  every page, as S.2 specifies.
 
 ---
 
@@ -899,25 +1045,37 @@ scope line), `gap` on the side door, the side door gated on the returning
 flag, the pilot and cost paragraphs below the seven, seven distinct record
 link names, focus to the held block, the protected line once per section,
 the distress line once per page, the in-tab disclosure, the dated caption,
-the fragment-only hold with no `<form>`, the input named by the H2, and on
-the tradition page the orphaned `#lexhint` deleted and the two "world" quotes
-elided. Chromium `chromium-1194`, Playwright, fallback faces.
+the fragment-only hold with no `<form>`, the input named by the H2, **the
+phone chrome tightened — below 640px the nav at .9rem with `gap:0 .85rem`
+and the header row's gap `.1rem 1rem` — and the hero/door padding tightened
+for the fold (hero `2rem 1.25rem .5rem`, door top `.75rem`, the door's inner
+padding 1rem at ≤640, input basis 11rem)** — the chrome change the first
+issue of this list left unnamed (the review's R3) — and on the tradition
+page the orphaned `#lexhint` deleted and the two "world" quotes elided.
+Chromium `chromium-1194`, Playwright, fallback faces.
 
 **Fold (converged homepage, first-time visitor, sandbox note stripped):**
 
 | Viewport | Header | Input top–bottom | Lede | First offered question |
 |---|---|---|---|---|
-| 320×844 | 110 | 537–585 | 674–812 | 1,201 |
-| 360×800 | 110 | 456–504 | 574–684 | 1,029 |
-| 390×844 · 740 · 660 | 110 | 456–504 | 574–684 | 1,005 |
-| 414×896 | 61 | 408–456 | 526–636 | 957 |
-| 768×1024 | 41 | 364–412 (button on the same row) | 428–483 | 671 |
-| 1280×800 · 1440×790 | 41 | 455–503 | 519–574 | 762 |
+| 320×844 | 163 | 537–585 | 674–812 | 1,201 |
+| 360×800 | 163 | 456–504 | 574–684 | 1,029 |
+| 390×844 · 740 · 660 | 163 | 456–504 | 574–684 | 1,005 |
+| 414×896 | 114 | 408–456 | 526–636 | 957 |
+| 768×1024 | 73 | 364–412 (button on the same row) | 428–483 | 671 |
+| 1280×800 · 1440×790 | 73 | 455–503 | 519–574 | 762 |
 
 The input is in the first screen at every viewport tested, including
 390×660 and 320×844; the lede is fully in the first screen from 740 and its
 first line is visible at 660. The unfixed hybrid, re-rendered for the
-record: input at 897px at 390×844, exactly the review's number.
+record: input at 897px at 390×844, exactly the review's number. The header
+column is corrected at the fix pass: the first issue printed 110 / 61 / 41,
+which were these heights minus the sandbox note's (53px on phones, 32 on
+desktop) — the note sits above the header and does not change it. The
+position columns were note-stripped correctly and are unchanged; with the
+hybrid's own untightened nav the review measured 168 / 118 / 73 and the same
+fold conclusion. Nav links are 48px tall at ≤640 and 49px above, inside a
+65–73px one-row header, so S.2's 44px rule and these heights agree.
 
 **Overflow:** 0px at 320 / 360 / 390 / 414 / 480 / 768 / 1024 / 1280 / 1440,
 light and dark, both pages.
@@ -930,15 +1088,21 @@ in §6.2 match the hybrid's to two decimals in every row.
 
 **Size:** nothing under 13px on either page in either register.
 
-**Motion:** homepage two animations (the mark's ring and seat), zero
+**Motion:** homepage two animated elements, three animation-names
+(`cic-buildC` on the ring; `cic-sitdown`, `cic-breath` on the seat), zero
 transitions; tradition page zero and zero; reduced motion zero on both.
 
 **Structure:** homepage outline H1 → H2 (door) → H2 (who) → H3 ×2 → H4 ×7 →
 H2 ×4, no skipped levels; 40 tab stops (the side door hidden for a first
-timer), none under 24×24 except inline prose links; tradition page 33 tab
-stops. Seven record links, seven distinct accessible names; seven "Ask"
-links naming the person; zero app links before the AI line for a first-time
-visitor. The skip link's next Tab lands on the question input.
+timer; a real Tab walk, not only an enumeration), none under 24×24 except
+inline prose links; tradition page **32** tab stops with the side door
+gated as S.2 specifies — 33 with it ungated, as the hybrid file leaves it,
+which is the figure the first issue printed and the review reproduced; the
+storyboard's keyboard path had also miscounted the breadcrumb as three
+links (it is two: the current page is text). Seven record links, seven
+distinct accessible names; seven "Ask" links naming the person; zero app
+links before the AI line for a first-time visitor. The skip link's next Tab
+lands on the question input.
 
 **The door:** typed + Enter → `#q=…` in the URL, empty search string, the
 held block visible, focus on the held block (name: "Your question, held:" +
@@ -958,21 +1122,57 @@ zero times in the visible text.
 
 **The side door:** hidden for a first-time visitor at every width; for a
 returning visitor, a 4.55px gap between "Been here before?" and "Go straight
-in →" at ≥768; for returning visitors only, the side door adds a nav row
-between 414 and 768 (measured; not at 1280).
+in →" at ≥768; for returning visitors only, the side door costs a nav row
+from 414 to 900 (measured at the fix pass: header 163px at 414–480, 114 at
+640, 174 at 700, 125 at 768–900; 73 from 1024, as for a first-time visitor).
 
 **Looked at:** screenshots at 390 light and dark, 1280 light, the
 after-submit landing zone, the returning header, the tradition page at 390
 and 1280 — the door is in screen one, the held block reads as the
 constitution's R0, the header's gap is visible.
 
+**Measured at the fix pass (the review's R1, R3, R5), same Chromium, same
+faces, sandbox note stripped:**
+
+- *The homepage's launch state* (ruling 4: Chloe's page only, six chairs
+  with one action) — a scratch copy with the six other record links removed:
+  **34 tab stops** for a first-time visitor by a real Tab walk (40 in the
+  end state, re-walked the same way), one record link, seven "Ask" links,
+  header 163px at 390; every other figure unchanged.
+- *The tradition page with the AI line above the seat line* (storyboard
+  §2.2a, the shared phone chrome, the side door gated) at 390×844: header
+  169px (the hybrid's tradition file differs from its homepage by a few
+  pixels of chrome; the build has one stylesheet); the AI line 1,268–1,352;
+  the seat line 1,368; the first app link ("Begin a conversation with
+  Chloe") 1,443 — **after** the AI line for a first-time visitor; "An AI
+  system, speaking for a whole people" 1,622; the silences 2,402; the
+  questions 5,971; "In her own words" 7,715; the record 9,279; the closing
+  door 16,046; page height 16,683; overflow 0 at 320, 390 and 1280; eight
+  H3s in the record section. The first issue's tradition landmarks
+  (1,348 · 2,383 · 5,952 · 9,260 · 16,027 · 16,663) were taken with the
+  sandbox note present — 75px on that page at 390 — contrary to Appendix
+  B's own caption; the figures above are stripped, as the caption says.
+- *The `#q=` rule (§5.1), against the reference script, arriving at the
+  converged homepage with each fragment:* `#q=` and `#q=%20%20%20` →
+  nothing held, the fragment dropped; `#q=%E0%A4%A` (undecodable) → nothing
+  held, the URL untouched; three hundred characters → held at 280, the
+  input at 280, the fragment rewritten to those 280; `<b>`, `<img
+  onerror>` encoded → held as text, **zero elements** inside the held block;
+  a normal question → held, restored, no scroll on arrival.
+- *Contrast, re-walked on both fix-pass copies with the note and the
+  sandbox draft marks stripped:* tradition page with the AI line, 264 text
+  nodes, minimum 5.39 light / 5.66 dark, zero failures, nothing under 13px
+  — the new line is ink on parchment and sets no new minimum; homepage in
+  the launch state, 163 nodes, 5.37 / 5.66, zero failures.
+
 ---
 
 ## 13. What happens next
 
-1. Opus reviews this synthesis and the storyboard against the charter, the
+1. Opus reviewed this synthesis and the storyboard against the charter, the
    constitution, and the struggle record — the same discipline as every
-   prior artifact.
+   prior artifact (2026-09-02: ready to freeze with eleven required fixes,
+   applied in this revision and named where each lands).
 2. Mark reads, rules on the ⚠ items in §10 (or defers them explicitly), and
    **freezes** Website Design V2. After the freeze, changes need a change
    order.
@@ -981,10 +1181,12 @@ constitution's R0, the header's gap is visible.
    tradition template with Chloe's page (gated on ruling 4); the carried
    pages' small changes; the 404. Each increment runs §7.3 before any push
    and is read by Mark before it merges — merge means live.
-4. The app change order for `#q=` is scheduled separately; the day it
-   lands, the door's interim clause is deleted and the "Ask" hrefs carry the
-   question.
+4. The app change order for `#q=` is scheduled separately, on Mark's
+   authorisation (ruling 34); the day it lands, the door's interim clause is
+   deleted and the "Ask" hrefs carry the question.
 
-*— D3 synthesis, 2026-09-02. Every number above was measured on a scratch
-render after the fixes were applied; every quotation was opened at its
-source; nothing outside this file and the storyboard was written.*
+*— D3 synthesis, 2026-09-02; fix pass the same day, after the Opus review.
+Every number above was measured on a scratch render after the fixes were
+applied — and re-measured where the review found a slip; every quotation
+was opened at its source; nothing outside this file and the storyboard was
+written.*
