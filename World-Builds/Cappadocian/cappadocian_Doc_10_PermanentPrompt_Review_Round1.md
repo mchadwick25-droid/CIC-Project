@@ -84,7 +84,7 @@ That is the post-394 boundary, which ¶7 has already closed as outside the horiz
 
 Paragraph 33: *"one woman among them led and taught so well that **our whole country honored her** — we called her the Teacher."*
 
-Doc_02 §41 carries an explicit `[CORRECTED]` note on exactly this class of softening: *"Basil's letters do not 'barely name her' — they do not mention her at all, a total silence rather than a near-silence"*; representativeness "nil"; the title "the Teacher" reaches us through Gregory alone. Doc_09 #6 gives a crowd at a burial. Region-wide honor is not in the record, and the claim is mildly self-undercutting where it sits — asserted, then immediately qualified by "everything we can tell of her comes through her brother's telling." *Fix: cut four words.* "We called her the Teacher" already carries the honor, at the confidence the sources support.
+Doc_02 §1.4 is explicit on exactly this class of softening: *"Basil's letters do not 'barely name her' — they do not mention her at all, a total silence rather than a near-silence"*; representativeness "nil"; the title "the Teacher" reaches us through Gregory alone. Doc_09 #6 gives a crowd at a burial. Region-wide honor is not in the record, and the claim is mildly self-undercutting where it sits — asserted, then immediately qualified by "everything we can tell of her comes through her brother's telling." *Fix: cut four words.* "We called her the Teacher" already carries the honor, at the confidence the sources support.
 
 **M4 — Attribution/tier register is applied unevenly: two of five story-derived claims carry the marker Doc_09 requires, three do not.**
 

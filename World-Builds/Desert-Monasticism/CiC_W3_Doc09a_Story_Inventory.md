@@ -112,7 +112,7 @@
 
 ### 4.1 A Day in a Kellia Cell
 
-**Story (reconstruction, explicitly marked):** In a typical day for a semi-anchoritic ascetic at Kellia, the day would open and close with recitation of the Psalter, continuous with manual labor — weaving rope or baskets — performed through the daylight hours in the cell's own workspace. On the sixth day, the ascetic would walk to the settlement's communal gathering point for the *synaxis* — a vigil, shared liturgy, and communal meal — before returning to the cell's solitude for the coming week. (**Diet detail removed per Round 1 review, Finding 3** — an earlier draft included a general "simple and limited" meals clause that this document's own evidence base could not source to a specific attested passage; per the Story Repository Chunk Template's own rule that an unsourced Tier 4 element "must be removed from the Story Text" rather than retained-and-flagged, it has been removed rather than kept with a caveat.)
+**Story (reconstruction, explicitly marked):** In a typical day for a semi-anchoritic ascetic at Kellia, the day would open and close with recitation of the Psalter, continuous with manual labor — weaving rope or baskets — performed through the daylight hours in the cell's own workspace. On the sixth day, the ascetic would walk to the settlement's communal gathering point for the *synaxis* — a vigil, shared liturgy, and communal meal — before returning to the cell's solitude for the coming week.
 
 **Confidence:** Inferential / Thin, per the Template's own rule that Tier 4 stories always carry this level regardless of individual element quality.
 
@@ -121,7 +121,6 @@
 - *Manual labor in the cell, rope/basket weaving:* Doc_01 §4; Doc_02 §5.1–5.2 (textual, archaeological, and papyrological corroboration).
 - *Cell as basic architectural unit, individual dwelling with attached oratory:* Doc_02 §5.1 (Kellia excavation findings).
 - *Weekly Saturday-to-Sunday synaxis with vigil, liturgy, shared meal:* Doc_03 §1.13; Doc_06 §2.6.
-- *(The diet element previously listed here was removed from the Story Text per Round 1 review, Finding 3, rather than retained as an unsourced element — see the Story Text's own note above.)*
 
 **Formation ecology connection:** Synthesizes gravities 1, 4, and the Strand C-specific expression of gravity 5 into a single reconstructed daily rhythm, directly corresponding to Doc_07 §9's own architecture-based integration finding (the cell and the *synaxis* infrastructure jointly provisioning for both solitude and periodic communal accountability).
 

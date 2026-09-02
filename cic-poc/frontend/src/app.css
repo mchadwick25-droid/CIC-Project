@@ -171,11 +171,25 @@ button {
 /* ============================================================
    World list (Program.dc.html)
    ============================================================ */
+/* Horizontal scrolling choice (replaces the old vertical stack, 2026-09-01,
+   Mark: "replace all the old with the new true to the new design") - same
+   scroll-snap pattern cic-website's own reps carousel already proved
+   (index.html's .reps-carousel), so the two apps feel like one family
+   rather than two different pickers. Native browser scrolling only -
+   touch/trackpad and a horizontal scrollbar, no carousel library. */
 .world-list {
   display: flex;
-  flex-direction: column;
   gap: var(--spacing-md);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
   padding: var(--spacing-sm) var(--spacing-lg) var(--spacing-xl);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .world-list {
+    scroll-behavior: smooth;
+  }
 }
 
 .world-list__loading {
@@ -188,28 +202,45 @@ button {
 
 .world-card {
   display: flex;
-  gap: var(--spacing-md);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  width: 240px;
+  gap: 6px;
   padding: var(--spacing-md);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-lg);
-  text-align: left;
   cursor: pointer;
   font: inherit;
   color: inherit;
+  box-shadow: 0 1px 6px rgba(42, 37, 33, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .world-card:hover,
+  .world-card:focus-visible {
+    transform: translateY(-2px);
+  }
 }
 
 .world-card:hover,
 .world-card:focus-visible {
   border-color: var(--color-text-light);
+  box-shadow: 0 4px 14px rgba(42, 37, 33, 0.14);
 }
 
 .world-card__portrait {
-  width: 56px;
-  height: 56px;
+  width: 96px;
+  height: 96px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 22%;
   flex-shrink: 0;
+  margin-bottom: 4px;
 }
 
 .world-card__tradition {
@@ -218,14 +249,13 @@ button {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  margin-bottom: 2px;
 }
 
 .world-card__header {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: var(--spacing-sm);
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 
 .world-card__name {
@@ -259,6 +289,10 @@ button {
   font-size: 0.85rem;
   line-height: 1.5;
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* .doorway__begin survives its retired screen: the closed-state
@@ -835,12 +869,14 @@ button {
 
 .world-card__actions {
   display: flex;
-  gap: var(--spacing-sm);
+  flex-direction: column;
+  width: 100%;
+  gap: 6px;
   margin-top: var(--spacing-sm);
-  flex-wrap: wrap;
 }
 
 .world-card__interview {
+  width: 100%;
   border: none;
   border-radius: var(--border-radius);
   color: var(--color-surface);
@@ -855,6 +891,7 @@ button {
 }
 
 .world-card__seat {
+  width: 100%;
   background: none;
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
