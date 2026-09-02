@@ -20331,6 +20331,26 @@ function render(){
     labelYById[m.id]=y;
     placedLabels.push({x:anchorX,y});
   });
+  // A first attempt at this gave every Built & Live world first claim on the
+  // space around its own name, in its own pass ahead of the general cascade
+  // above -- clean for this one cluster, but it pulled built worlds out of
+  // the map's one real chronological ordering entirely, and that had a real
+  // side effect three eras away: Alexandria's label no longer absorbed the
+  // same upstream push it used to, which rippled forward and left the
+  // unrelated Latin Apologists/Tertullian/Third-Century Rome cluster
+  // (confirmed regression-free before that change, regressed after) with
+  // three names compressed into the same few pixels. Reverted to the single
+  // chronological pass above -- known correct -- and this one specific,
+  // confirmed pair gets a small, explicit, documented correction instead:
+  // Aksum's own natural position (its real 340s date, unchanged) sits
+  // between the Desert's portrait and the Desert's own name, so its label
+  // is pushed below the Desert's rather than left to land in that gap.
+  const LABEL_DEFERS_TO={'aksumite-christianity-conversion-era':'desert-monasticism'};
+  Object.entries(LABEL_DEFERS_TO).forEach(([id,afterId])=>{
+    if(labelYById[id]==null||labelYById[afterId]==null)return;
+    const minY=labelYById[afterId]+LABEL_GAP;
+    if(labelYById[id]<minY)labelYById[id]=minY;
+  });
 
   // Nodes
   DATA.movements.forEach(m=>{
