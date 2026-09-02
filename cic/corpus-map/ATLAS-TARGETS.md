@@ -46,6 +46,7 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `imperial-juridical-christianity` | Imperial and Juridical Christianity | c. 312-451 | Rome, Constantinople, Milan | Built & Live |
 | `armenian-christianity-conversion-era` | Armenian Christianity (conversion era) | c. 314-451 | Armenia | Deferred by Step 0 |
 | `desert-monasticism` | Desert Monasticism | c. 320–430 CE | Nile Valley & Desert, Egypt | Built & Live |
+| `cappadocian-nicene-pastoral-monastic-tradition` | Cappadocian Christianity | c. 325-394 CE | Cappadocia / Anatolia | Built & Live |
 | `jerusalem-liturgical-pilgrimage-christianity` | Jerusalem Liturgical-Pilgrimage Christianity | c. 325-450 | Jerusalem | Possible Future World (on record) |
 | `aksumite-christianity-conversion-era` | Aksumite Christianity (conversion era) | c. 330-451 | Aksum (Ethiopia/Eritrea) | Deferred by Step 0 |
 | `palestinian-ascetic-monasticism-early` | Early Palestinian Ascetic Monasticism | c. 330-450 | Gaza, the Judean desert, Sinai road | Possible Future World (on record) |
@@ -55,7 +56,6 @@ The six *Built & Live* entries are the six worlds that exist today. There is one
 | `antiochene-exegetical-christianity-chrysostom-ce` | Antiochene Exegetical Christianity (Chrysostom-centered) | c. 350-430 | Antioch | Possible Future World (on record) |
 | `gallic-nicene-episcopate` | The Gallic Nicene Episcopate | c. 350-400 | Poitiers, Béziers, Arles, Paris | Possible Future World (on record) |
 | `apollinarian-christianity` | Apollinarian Christianity | c. 360-430 | Laodicea, Syria, Asia Minor | Floor Question (register) ⛔ |
-| `cappadocian-nicene-pastoral-monastic-tradition` | Cappadocian Nicene Pastoral-Monastic Tradition | c. 360-380s | Cappadocia / Anatolia | Selected - Not Yet Built |
 | `gallic-monastic-ascetic-christianity` | Gallic Monastic-Ascetic Christianity | c. 360-450 | Tours, Lérins, Marseilles | Possible Future World (on record) |
 | `pneumatomachian-current` | Pneumatomachian ('Macedonian') Christianity | c. 360-420 | Constantinople, Asia Minor, Thrace | Floor Question (register) ⛔ |
 | `priscillianist-asceticism` | Priscillianist Asceticism | c. 370-450 | Spain | Possible Future World (on record) |
