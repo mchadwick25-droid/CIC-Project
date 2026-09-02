@@ -685,3 +685,26 @@ from one mockup to a full storyboard. Landing in
 process material; the two reviewed deliverables stay in place
 regardless of the verdict). Required a clear verdict: freeze as-is,
 freeze with named fixes, or not ready.
+
+## 2026-09-02 (later still) — D3 fix pass commissioned
+
+Opus's verdict: ready to freeze with eleven named required fixes (R1,
+R5, R6, R7, R8 substantive; R2, R3, R4, R9, R10, R11 precision), all
+edits to the two existing D3 documents, nothing D2 settled reopened.
+Headline items: the homepage doesn't yet distinguish its one-tradition
+launch state from its eventual seven-page end state; the tradition
+page's own order puts two conversation links before the AI disclosure
+for a direct arrival; the question fragment has no escaping/length
+rule; the reviewer's-brief material traces to no real file; and D0's
+paid-tier Table gate (seam G) quietly disappeared while a new door was
+promoted, needing an explicit ruling rather than a silent assumption.
+
+Commissioned one Fable fix pass, briefed with the full review and told
+to apply the eleven required fixes plus the sixteen non-blocking items
+where quick, without relitigating anything the review confirmed or
+reopening the struggle record's settled decisions. Editing the two
+documents in place.
+
+**Next action:** once the fix pass lands, this coordinator spot-checks
+it against the review's own required-fix list, then it goes to Mark to
+read and freeze.
