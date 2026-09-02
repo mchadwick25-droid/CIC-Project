@@ -106,6 +106,8 @@ python cic/engine/corpus_map_merge.py --check   # validate staging, write nothin
 python cic/engine/corpus_map_merge.py           # merge staging → buckets, then validate
 python cic/engine/corpus_map.py --coverage      # what is assigned, and what is not yet
 python cic/engine/works_registry.py --check     # validate WORKS.yaml — unique work_ids, item addresses resolve
+python cic/engine/corpus_index.py --build       # (re)build cic/texts/INDEX.sqlite — NOT committed, see .gitignore
+python cic/engine/corpus_index.py "QUERY" [--entry ID] [--limit N]   # full-text search, ranked, with canonical addresses
 ```
 
 ## Canonical addresses
