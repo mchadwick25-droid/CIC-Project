@@ -485,3 +485,34 @@ adversarial review (and, if real problems surface, its own one-shot
 defense) — the same discipline every D1 direction got, not a lighter
 pass because it's already synthesized from prior critique. Only after
 that does D3 proper (Fable's full Design V2 doc + storyboard) begin.
+
+## 2026-09-02 (later still) — Hybrid landed; Opus review commissioned
+
+**Landed:** `Sandbox/D1-directions/06-hybrid-open-door/` — a real,
+verified question-first S0 door as the homepage's first surface (a
+working GET form, no JS required, the question held on-page per the
+storyboard's R0 grammar) for the first time in this workstream;
+`tradition-chloe.html` synthesizing 01's chapter order and 03's record
+into one page; a full parentage table; measured contrast tables for
+both registers (seven derived dark-safe tradition tints); twelve
+rulings for Mark. Verified in headless Chromium at eight widths, light
+and dark: zero overflow, zero contrast failures, nothing under 13px,
+door works with JS off.
+
+**Two things found in passing, not part of this direction's own
+scope:** a corpus-wide "tradition, not world" rename that never reached
+the record store's own spoken text (`pahc.limit.material-remains` still
+says "a later world," quoted verbatim on the tradition page) — queued
+as a separate task, `task_9222cdbc`; and a correction to how this
+brief itself paraphrased a D2 finding about the multi-voice Table's
+live status — the hybrid's author caught the discrepancy and followed
+the primary review rather than the paraphrase, flagged honestly rather
+than silently resolved.
+
+**Commissioned, same day:** the hybrid's own full Opus adversarial
+review, explicitly told not to go easy on it for being a synthesis —
+required to spot-check the "named parentage" claims against the actual
+five original directions, and to test specifically whether the
+question-first door and the merged tradition page actually resolve what
+killed their parents or just relabel it. Landing in
+`Sandbox/D2-struggle/06-hybrid-open-door-review.md`.
