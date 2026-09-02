@@ -72,6 +72,15 @@ REPO_ROOT = ROOT.parent  # PORT NOTE (2026-08-21, world/alexandria handoff): thi
 TEXTS_DIR = ROOT / "texts"
 RECORDS_DIR = REPO_ROOT / "records"
 
+# Planning triggers for the store's total size, not a gate - see
+# world-build-docs/_cross-world/PLAN-texts-store-scaling.md for the reasoning
+# (git-lfs vs a separate cic-texts repository vs doing nothing) and why these
+# two numbers specifically. 700 MB is "go re-read the plan"; 1 GB is the
+# blueprint's own original "act on it" threshold. Printed by report() below,
+# never enforced - crossing either is not a defect.
+_SIZE_TRIGGER_BYTES = 700 * 1024 * 1024
+_SIZE_URGENT_BYTES = 1024 * 1024 * 1024
+
 # Two conventions seen across what's actually been vendored, both CCEL's
 # own: the plain-text export's "Rights: Public Domain" line, and ThML XML's
 # own <DC.Rights>Public Domain</DC.Rights> Dublin-Core element - found only
@@ -978,6 +987,12 @@ def registry_problems(entries: tuple, discovered: list, headers: dict) -> list:
     return problems
 
 
+def total_bytes() -> int:
+    """Live, not cached - the sum of what's actually sitting in cic/texts/
+    right now. Small enough a directory to just stat every run."""
+    return sum((TEXTS_DIR / name).stat().st_size for name in discovered_files())
+
+
 def registry_problems_live() -> list:
     """The real check: ENTRIES against whatever is actually sitting in
     cic/texts/ right now, headers read fresh. This is what gate_texts_registry
@@ -1024,6 +1039,20 @@ def report() -> int:
     print(f"\n{len(rows)} vendored file(s), {len(uncited)} with zero citing record(s):")
     for name in uncited:
         print(f"  - {name}")
+
+    total = total_bytes()
+    mb = total / (1024 * 1024)
+    if total >= _SIZE_URGENT_BYTES:
+        print(f"\ncic/texts/ is {mb:.0f} MB - at or past the ~1GB threshold in "
+              "world-build-docs/_cross-world/PLAN-texts-store-scaling.md. Time to act on "
+              "that plan, not just re-read it.")
+    elif total >= _SIZE_TRIGGER_BYTES:
+        print(f"\ncic/texts/ is {mb:.0f} MB - past the 700MB planning trigger in "
+              "world-build-docs/_cross-world/PLAN-texts-store-scaling.md. Worth a look "
+              "before it becomes urgent.")
+    else:
+        print(f"\ncic/texts/ is {mb:.0f} MB ({total / _SIZE_TRIGGER_BYTES:.0%} of the "
+              "700MB planning trigger).")
 
     problems = registry_problems_live()
     if problems:
