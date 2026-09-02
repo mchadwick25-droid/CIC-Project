@@ -454,3 +454,34 @@ question down, not read a map or a method first).
 review/defense pairs, and picks — or redirects. D3 (Fable synthesis,
 Opus review of the synthesis, Mark's freeze) does not start until he
 does.
+
+## 2026-09-02 (later still) — Mark picks Option A: hybridize
+
+**Mark's ruling, given directly:** "Go ahead with option A." Commissioned
+one Fable synthesis — not another five-way blind diverge, a single
+hybrid with named parentage, per the charter's own D2 rule. Unlike D1's
+authors, this author was explicitly given all five D1 directions and
+all ten D2 review/defense files, plus the struggle summary, and told to
+verify the summary's claims against the primary files rather than trust
+it alone.
+
+**What it's asked to synthesize, each piece credited to its source:**
+a real, prominent question-first S0 door (constitution §5.1's own
+design, never built by any D1 direction — the phase's clearest
+finding); a Representative/tradition inner page merging 01's
+chapter-essay pattern and 03's `tradition.html` (collection → assembly
+→ trust → chair, one click deep, not the homepage); the Atlas
+explicitly excluded from the homepage and left to 02's own twelve-item
+rework brief as a separate track; 04's restraint discipline (no
+gratuitous motion, one action per screen, a real contrast floor) with
+its liturgical vocabulary and structure explicitly excluded — that
+direction died for cause, not craft, and its skin doesn't survive even
+though its discipline does; and 05's conceded fact that multi-voice
+Table and Representative Modes aren't live, so no copy may promise
+either. Writing to `Sandbox/D1-directions/06-hybrid-open-door/`.
+
+**Next action:** once landed, this hybrid gets its own full Opus
+adversarial review (and, if real problems surface, its own one-shot
+defense) — the same discipline every D1 direction got, not a lighter
+pass because it's already synthesized from prior critique. Only after
+that does D3 proper (Fable's full Design V2 doc + storyboard) begin.
