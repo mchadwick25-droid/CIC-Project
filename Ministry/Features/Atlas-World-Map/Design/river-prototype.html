@@ -19800,11 +19800,7 @@ laneKeys.forEach(k=>{
 // Greek/Latin bridge's genesis is formed from Greek East AND Latin West, two
 // already-differentiated lanes, not the undifferentiated trunk. Only "formed"
 // and "transmitted to" edges count as lineage; "argued against", "contemporary
-// with", and "in tension with" are relationships, not ancestry. A lane with no
-// such edge into its genesis movement (most of them -- the census doesn't
-// assert a specific parent for Latin West, Protestant, Global Revival, and
-// several others) gets no convergence at all: its river simply widens in its
-// own column rather than visually claiming a lineage the record doesn't.
+// with", and "in tension with" are relationships, not ancestry.
 const LINEAGE_TYPES=new Set(['formed','transmitted to']);
 const laneParent={};
 laneKeys.forEach(k=>{
@@ -19813,6 +19809,45 @@ laneKeys.forEach(k=>{
   const inbound=DATA.edges.find(e=>e.to===genesisId&&LINEAGE_TYPES.has(e.type)&&byId[e.from]);
   if(inbound)laneParent[k]=byId[inbound.from].laneOrder;
 });
+
+// A handful of lanes have no structured edge into their genesis movement, but
+// DO have a real, specific origin stated in that movement's own prose record
+// (relationsSummary) -- checked individually against the actual text, not
+// left as an unrequested default:
+const LANE_PARENT_FROM_RECORD={
+  2:3,  // Armenian Christianity (conversion era): "Formed via Cappadocia and
+        // Syriac Edessa" -- Cappadocia (Cappadocian Nicene Pastoral-Monastic
+        // Tradition) is lane 3, named first of the two; Syriac Edessa is
+        // lane 1, already Armenia's real secondary source but not drawable
+        // as a second trunk.
+  6:5,  // Lutheran Wittenberg & Its Congregations: "Child of late-medieval
+        // piety and its protest" -- that piety is Era VI's own Latin West
+        // devotional movements, lane 5.
+  50:6, // Progressive Christianity: its own record names this explicitly, in
+        // both directions -- "IX.35 (the mainline century...) is its parent"
+        // -- The Mainline Century (Liberal Protestantism & Neo-Orthodoxy) is
+        // lane 6.
+  1.5:1 // Northeast India Revivals & the Mar Thoma Reform: "honestly
+        // extending the St. Thomas lane" -- the St. Thomas Christians chain
+        // is lane 1.
+};
+laneKeys.forEach(k=>{if(k!==0&&laneParent[k]==null&&LANE_PARENT_FROM_RECORD[k]!=null)laneParent[k]=LANE_PARENT_FROM_RECORD[k];});
+
+// Four lanes are left with no parent at all -- checked, not skipped, and each
+// stays a plain spring for a different, specific reason its own record gives:
+//  - Latin West (Tertullian's Voice): the record itself calls him "a dropped
+//    voice... where he belongs is an open question for a future pass." No
+//    invented certainty where the project's own record has none.
+//  - The Latin/Prot bridge (Taize & Iona): "heirs of monastic lines" (plural,
+//    unspecific) -- real, but not one traceable source to draw a line from.
+//  - Global Revival & Pentecostal (the 1904-07 Revival Family): its record
+//    is explicit that there is no single origin to show -- "siblings of
+//    Azusa without descending from it -- revival as polygenetic, which is
+//    itself honest history." A spring is the accurate shape here, not a gap.
+//  - Non-Nicene (Valentinian & other Gnostic Christianities): its record
+//    frames it as arising IN TENSION WITH the forming mainstream, not
+//    descending from it -- "rivals the early traditions... were shaped by."
+//    A convergence line would claim a lineage; this is a rivalry instead.
 
 /* ---- Per-lane density profile (rule 2: width is water volume) and a seeded
    winding wave (rule 3) -- sampled every 24px down the whole sheet. ---- */
