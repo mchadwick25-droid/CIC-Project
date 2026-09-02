@@ -181,9 +181,11 @@ Harsh-Content Notice?    [Yes/No. Yes only where harsh material is a DEFINING
                            narration centers on condemnation, threat, exclusion,
                            or warning, not merely touches it in passing within a
                            beat that is warm or neutral overall. pahc's
-                           Trallians reading (RULING 6) warrants it (four of thirteen
-                           chapters structurally organized around condemning
-                           heresy and schism); a beat that is mostly pastoral
+                           Smyrnaeans reading (RULING 6, letter swapped by RULING 10)
+                           warrants it (five of thirteen chapters structurally
+                           organized around condemning docetism, including an
+                           explicit instruction to keep aloof from those who hold
+                           it); a beat that is mostly pastoral
                            warmth with one hard clause inside it does not. Do
                            not mark Yes reflexively because the source document
                            somewhere contains harsh material, or because some
@@ -300,8 +302,8 @@ world's sources, something like this exists," and never "the project has a polic
 about this so here it is regardless of world." A tour that fires it on every third
 beat has made it wallpaper, and a participant stops reading it, which defeats the
 purpose across every world using it. Reserve it for beats where the harsh material
-is genuinely load-bearing to that beat, the same bar pahc's own Trallians reading
-(RULING 6) was checked against before being marked Yes.
+is genuinely load-bearing to that beat, the same bar pahc's own Smyrnaeans reading
+(RULING 6, letter swapped by RULING 10) was checked against before being marked Yes.
 
 ---
 
