@@ -117,6 +117,13 @@ svg#world{display:block}
 #panel .edge{font-size:.85rem;padding:.4rem 0;border-bottom:1px solid var(--rule)}
 #panel .edge:last-child{border-bottom:none}
 #panel .edge .k{color:var(--tyrian);font-variant:small-caps;font-size:.76rem}
+#panel .repline{font-size:.95rem;margin:0 0 .5rem}
+#panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
+#panel .teaser{font-style:italic;font-size:.98rem;line-height:1.55;margin:.6rem 0;
+  padding-left:.6rem;border-left:2px solid var(--gold-leaf)}
+#panel ul.voices,#panel ul.exptoday{margin:.3rem 0;padding-left:1.1rem}
+#panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
+#panel ul.exptoday a{color:var(--tyrian)}
 #legend{position:fixed;left:.8rem;bottom:.8rem;z-index:20;background:var(--vellum);
   border:1px solid var(--rule);border-radius:3px;padding:.5rem .7rem;font-size:.72rem;
   max-width:230px;max-height:60vh;overflow-y:auto;box-shadow:var(--shadow)}
@@ -20496,7 +20503,7 @@ function render(){
 
   applyDetail();
 }
-function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function tipFor(m){
   return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(m.region||'')}</div><div class="s">${esc(m.status)}</div>`;
 }
@@ -20511,9 +20518,28 @@ function hideTip(){tip.style.display='none';}
 const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody');
 function openPanel(m){
   const inbound=DATA.edges.filter(e=>e.to===m.id), outbound=DATA.edges.filter(e=>e.from===m.id);
-  let h=`<h2>${esc(m.name)}</h2><p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>
-    <span class="statuspill">${esc(m.status)}</span>
-    <h3>Why it's here</h3><p>${esc(m.why||m.longDescription||'')}</p>`;
+  const entry=m.entry;
+  let h=`<h2>${esc(m.name)}</h2>`;
+  // Built & Live worlds carry a real Representative (name, role, world name) in
+  // their own `entry` record -- the whole point of "Built & Live" -- but until
+  // now nothing on the map ever showed it. A click landed on the same bare
+  // status/edges template as an unbuilt entry.
+  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b>, ${esc(entry.representativeTitle)} — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`;
+  h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>
+    <span class="statuspill">${esc(m.status)}</span>`;
+  if(m.statusDescription)h+=`<p class="statusdesc">${esc(m.statusDescription)}</p>`;
+  if(m.why)h+=`<h3>Why it's here</h3><p>${esc(m.why)}</p>`;
+  // The census's "front door" line -- `entry.tile` for a built world, `teaser`
+  // for everything else -- is the hook every one of the 292 records was given.
+  // It was captured in the data and never once rendered.
+  const lede=entry?entry.tile:m.teaser;
+  if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
+  if(m.longDescription)h+=`<h3>The Story</h3><p>${esc(m.longDescription)}</p>`;
+  if(m.voices&&m.voices.length)h+=`<h3>Voices</h3><ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
+  if(m.sourcing)h+=`<h3>Sourcing</h3><p>${esc(m.sourcing)}</p>`;
+  if(m.floorNote)h+=`<h3>Doctrinal floor note</h3><p>${esc(m.floorNote)}</p>`;
+  if(m.legacy)h+=`<h3>Legacy</h3><p>${esc(m.legacy)}</p>`;
+  if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
   if(m.relationsSummary)h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
   if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
   if(inbound.length){h+='<h3>Influenced by</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}</div>`;});}
