@@ -757,3 +757,11 @@ Mark's instructions "sweep the 'corrected per Round N review' layer too," then "
 **Verified before commit:** full gate battery re-run after every fix - `overall_pass: true`, all 15 gates clean; determinism-check byte-identical on a second compile. Quote count: 4 -> 13 (a real, verified step toward the fleet's own richer worlds, not full parity with alx's 26 or desert's 56 - the gap is narrowed, not closed).
 
 **Not yet done, named for the record:** recompiling and re-pinning `records/worlds.yaml` to this new record set, and re-running the live M3 admission battery against the recompiled package to re-certify it, both require Mark's own per-run spend authorization before they happen - not run in this step.
+
+## 46. Recompiled, re-pinned, and re-admitted against the 13-quote record set (2026-09-02)
+
+**Origin.** Mark's authorization, same day as SS45's authoring work ("yes," in response to the offer to either author another batch or run the recompile/re-pin/re-admission on what already existed).
+
+**Built.** Recompiled from the current record set (259 -> 268 records, the net of 9 new quote records); determinism-check byte-identical on a second compile; full gate battery re-confirmed clean (15/15, `overall_pass: true`). `records/worlds.yaml`'s package pin updated to this build (`packages/cappadocian/2026-09-02T03-58-07Z`); superseded pin `packages/cappadocian/2026-09-01T17-22-00Z` kept on disk, not deleted, per this repo's own manifest-only-tracked convention.
+
+**Live M3 admission run against this exact pin:** 28/28 sealed probes, all 28 fleet canon cells, zero failures (`engine/m3/reports/live-admission-report-cappadocian-2026-09-02-quotes-batch.json`). Content unchanged at the cell-coverage level (still 26 substantive / 2 honest-limit, same as every prior certificate) - this run re-certifies that the added quote material didn't introduce any new grounding, isolation, or register failure, not a new coverage claim.
