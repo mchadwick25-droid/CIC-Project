@@ -516,3 +516,41 @@ five original directions, and to test specifically whether the
 question-first door and the merged tradition page actually resolve what
 killed their parents or just relabel it. Landing in
 `Sandbox/D2-struggle/06-hybrid-open-door-review.md`.
+
+## 2026-09-02 (later still) — Hybrid review lands: survives, conditionally; one real cross-system dependency surfaced
+
+**Verdict: survives, conditionally.** Genuinely much stronger than its
+five parents — most of the hybrid's own self-assessment independently
+reproduced (zero overflow at 320–1440 both registers, zero text-contrast
+failures, verbatim record quotations, an exact motion inventory).
+
+**Real defects found, not fatal but real:** the question input sits
+below the fold on short phone viewports (897px top at 390×844; the
+words "Start with your question" entirely off-screen at 390×660); a
+header CSS bug collapsing spacing between two elements at every width
+≥641px on both pages; three parentage claims that don't hold up against
+the originals cited; and Direction 05's information architecture
+surviving intact underneath the question box rather than being replaced
+as claimed.
+
+**The one finding load-bearing enough to flag directly, for Mark, not
+just for the defense round:** submitting a question routes through a
+century-sorted picker to a new browser tab with **no question parameter
+carried over** — the visitor has to retype or remember what they just
+asked — landing first on a scarcity notice the brand's own Never list
+bans, with the first real conversation link at 2,627px (further than
+the distance that convicted Direction 05's whole information
+architecture). The reviewer's own framing: **"the door cannot be
+finished on the marketing site alone"** until the app's own deep-link
+handling reads a question parameter. This is a real cross-system
+dependency between the website (this workstream) and the conversation
+app (`cic-poc/frontend`, `App.tsx`'s deep-link contract) — not
+something a website mockup or copy fix can close on its own. Sent to
+the hybrid's author as part of its one-shot defense with explicit
+instruction not to claim a design-only fix for a technical gap that
+isn't actually closed; flagged here for Mark's own awareness regardless
+of how the defense answers it, since it may need its own change order
+against the app, separate from whether this design direction is good.
+
+**Commissioned:** the hybrid's one-shot defense, per the standing rule.
+Landing in `Sandbox/D2-struggle/06-hybrid-open-door-defense.md`.
