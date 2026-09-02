@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Church in Conversation — The First Centuries</title>
+<meta name="description" content="Twenty centuries of the Church. One table. A chair pulled out for you. Seven Christian traditions from the Church's first four hundred years, built from their own letters, sermons, and records.">
+<!-- ===================================================================
+     WEBSITE V2 · D1 SANDBOX · Direction 04 — QUIET-LITURGICAL · homepage
+     Sandbox mockup. Not a deliverable, not live, not final copy.
+
+     Self-contained: inline CSS, Google Fonts (same families the live site
+     loads), a few lines of vanilla JS. Open the file directly in a browser.
+     Portrait images and nav targets are referenced RELATIVE TO THE REPO
+     (../../../../../../cic-website/…) so the mockup renders from this folder.
+
+     COPY MARKING — every prose block carries data-copy=
+       "protected"  one of the six locked lines, verbatim (Brand Guidelines)
+       "brand"      other locked brand wording, verbatim (one-breath sentence,
+                    the mark's public sentence)
+       "live"       copy already public on the live site, unchanged
+       "draft"      illustrative prose drafted for this mockup — NOT final
+       "census"     data from cic-website/data/world-census.json, unchanged
+                    (only hyphens normalized to en-dashes in date ranges)
+
+     THE ORDER OF THE PAGE (an order of service, not a funnel):
+       I.   Threshold  — the mark, its one public sentence, nothing else
+            (a silence is kept)
+       II.  Greeting   — the hook, the one-breath sentence, and the AI
+                         question raised first, then answered
+       III. The Table  — the seven, in chronological order, one at a time
+            (a silence is kept)
+       IV.  The Door   — the one madder action, to before-you-sit.html
+       then the quiet support slot (volatile copy — a slot, not a layout)
+
+     MOTION INVENTORY (the whole list):
+       - the "Arriving" mark plays ONCE per page arrival, in the hero,
+         exactly per Brand-Assets/CiC_Logo_Arriving_Motion_Reference.html;
+         its slow breath continues because the brand says the dot is the
+         guest, alive. Nothing else in the identity moves. The header
+         carries the wordmark only, so the mark is never on screen twice.
+       - scroll is the visitor's own act: smooth + a soft snap to stations,
+         both ONLY under prefers-reduced-motion: no-preference and only on
+         desktop-height viewports.
+       - nothing fades, slides, lifts on hover, transitions, or reveals on
+         scroll. Everything on the page is present from the first paint.
+       - prefers-reduced-motion: the completed still mark; no smooth scroll;
+         no snap. The page is otherwise identical.
+     =================================================================== -->
+<link rel="icon" href="../../../../../../cic-website/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* ---- Tokens: the locked manuscript palette (Brand Guidelines / UX Design §2.1) ---- */
+:root{
+  --parchment:#F7F3EB; --vellum:#FEFCF8; --iron-gall:#2A2521; --ink-faded:#6C6257;
+  --madder:#A13E2B; --madder-deep:#7E2F20; --gold-leaf:#B45309;
+  --rule:rgba(42,37,33,.16);
+  /* role tokens (re-toned for dark below; hue never changes) */
+  --ground:var(--parchment); --surface:var(--vellum);
+  --text:var(--iron-gall); --muted:var(--ink-faded);
+  --accent-text:var(--madder);        /* madder as text/rule/focus: 5.86:1 on parchment */
+  --gold-text:var(--gold-leaf);       /* the Representative voice: 4.54:1 on parchment */
+  --dot:var(--madder); --ring:var(--iron-gall);
+  --plate-ink:#2A2521; --plate-light:#F6EFE0;   /* the Living Table's nameplate inversion, 13.2:1 */
+  --btn-fill:var(--madder); --btn-fill-hover:var(--madder-deep); --btn-text:var(--vellum);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --ground:#17130F; --surface:#1E1913; --text:#F1E9DD; --muted:#B8AEA1;
+    --rule:rgba(241,233,221,.16);
+    --accent-text:#E08C74;            /* 7.19:1 on #17130F — the live site's proven value */
+    --gold-text:#E0A458;              /* 8.47:1 */
+    --dot:#CB6E52; --ring:#EDE5D6;    /* the mark's own dark register (Logo Usage Sheet) */
+    --plate-ink:#EDE5D6; --plate-light:#17130F;
+    --btn-fill:#A13E2B; --btn-fill-hover:#7E2F20; --btn-text:#F6EFE0;   /* 5.66:1 */
+  }
+}
+
+*{box-sizing:border-box}
+html{scroll-padding-top:3.5rem}
+@media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth} }
+/* The soft snap: desktop-height viewports only, and only when the visitor
+   has not asked for reduced motion. `proximity`, never `mandatory` — the
+   visitor is nudged toward a station, never trapped in one. */
+@media (min-width:900px) and (min-height:700px) and (prefers-reduced-motion:no-preference){
+  html{scroll-snap-type:y proximity}
+  .station{scroll-snap-align:start}
+}
+body{margin:0;background:var(--ground);color:var(--text);
+  font-family:'Alegreya','Iowan Old Style',Georgia,serif;font-size:1.125rem;line-height:1.75}
+/* No transitions anywhere. A state change is a state change, the way ink is. */
+*,*::before,*::after{transition:none!important}
+a{color:var(--accent-text)}
+:focus-visible{outline:2px solid var(--accent-text);outline-offset:3px}
+.visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--plate-ink);color:var(--plate-light);padding:.6rem 1rem;z-index:100;font-family:'Alegreya Sans',sans-serif}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+
+/* ---- Header: wordmark only. The mark lives in the hero and plays there once. ---- */
+.site-header{border-bottom:1px solid var(--rule);background:var(--surface)}
+.site-header .wrap{max-width:64rem;margin:0 auto;padding:1.05rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem 2rem;flex-wrap:wrap}
+.wordmark{font-family:'Alegreya',Georgia,serif;font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap}
+.wordmark em{font-style:italic}   /* the lockup rule: roman, italic "in", no "The" */
+.site-nav{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;display:flex;gap:.2rem 1.4rem;align-items:center;flex-wrap:wrap}
+.site-nav a{color:var(--text);text-decoration:none;padding:.6rem .15rem;border-bottom:2px solid transparent}
+.site-nav a:hover,.site-nav a:focus-visible{border-bottom-color:var(--accent-text)}
+/* The side door: the returning visitor's way in. Quiet text, never a button. */
+.side-door{color:var(--muted);font-style:italic}
+.side-door:hover,.side-door:focus-visible{color:var(--text)}
+
+/* ---- The order of arrival: a still marker of where you are. Current station
+        is shown by the Living Table's own device — a solid nameplate inversion.
+        No glow, no underline sliding, no dot moving. ---- */
+.order{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;z-index:10}
+.order ol{list-style:none;margin:0;padding:0;display:flex;gap:.25rem}
+.order li{margin:0}
+.order a{display:block;color:var(--muted);text-decoration:none;padding:.5rem .75rem;min-height:24px;border:1px solid transparent}
+.order a:hover,.order a:focus-visible{color:var(--text);border-color:var(--rule)}
+.order a[aria-current="location"]{background:var(--plate-ink);color:var(--plate-light);border-color:var(--plate-ink)}
+.order .silence-note{display:none}
+@media (min-width:1100px){
+  .order{position:fixed;left:1.5rem;top:50%;transform:translateY(-50%)}
+  .order ol{flex-direction:column;gap:.35rem}
+  .order .silence-note{display:block;margin:1rem 0 0 .75rem;font-family:'Alegreya',serif;font-style:italic;text-transform:none;letter-spacing:0;font-size:.9rem;color:var(--muted);max-width:9rem;line-height:1.4}
+}
+@media (max-width:1099.98px){
+  .order{position:sticky;top:0;background:var(--ground);border-bottom:1px solid var(--rule)}
+  .order ol{justify-content:center;overflow-x:auto;padding:.25rem .5rem;scrollbar-width:none}
+}
+
+/* ---- Stations ---- */
+main{display:block}
+.station{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:5rem 1.5rem}
+.station:focus{outline:none}
+.station .inner{max-width:40rem;width:100%}
+
+.eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-text);font-weight:600;margin:0 0 1.25rem}
+/* Rubrics — the red instructions in a service book. Madder, italic, small. */
+.rubric{font-style:italic;color:var(--accent-text);font-size:1.1rem;margin:0}
+.rubric-sub{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;margin:2.75rem 0 0}
+.rubric-sub a{color:var(--muted);text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:.22em;padding:.5rem .3rem;display:inline-block}
+.rubric-sub a:hover,.rubric-sub a:focus-visible{color:var(--text);text-decoration-color:currentColor}
+.protected{font-style:italic}
+
+/* I. Threshold */
+.mark-large{width:clamp(120px,22vw,176px);margin:0 auto 2.75rem;color:var(--ring)}
+.mark-large svg{display:block;width:100%;height:auto}
+.public-sentence{font-size:clamp(1.25rem,2.4vw,1.55rem);line-height:1.5;max-width:30rem;margin:0 auto;text-wrap:balance}
+
+/* The "Arriving" motion — copied exactly from the brand's implementation
+   reference (Brand-Assets/CiC_Logo_Arriving_Motion_Reference.html). One
+   motion, once per page arrival. The dot never enters the ring. Nothing
+   reacts to the cursor. Reduced motion: the completed still mark. */
+.arriving-ring{fill:none;stroke:currentColor;stroke-width:11;stroke-linecap:round;stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}
+.arriving-seat{fill:var(--dot);transform-origin:88.5px 50px;transform:translate(0,-6px)}
+.arriving.play .arriving-ring{animation:cic-buildC 1300ms cubic-bezier(.4,0,.2,1) 800ms both}
+.arriving.play .arriving-seat{animation:cic-sitdown 600ms cubic-bezier(.3,0,.35,1.4) 2400ms both,
+                              cic-breath 5.5s ease-in-out 3750ms infinite}
+@keyframes cic-buildC{0%{stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}4%{opacity:1}100%{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}}
+@keyframes cic-sitdown{0%{transform:translate(0,-6px)}62%{transform:translate(0,1px) scale(1.1,.86)}100%{transform:translate(0,0) scale(1,1)}}
+@keyframes cic-breath{0%,100%{opacity:1}50%{opacity:.76}}
+@media (prefers-reduced-motion:reduce){
+  .arriving.play .arriving-ring,.arriving.play .arriving-seat{animation:none}
+  .arriving .arriving-ring{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
+  .arriving .arriving-seat{transform:translate(0,0)}
+}
+
+/* A silence: empty parchment given real height, and one rubric. */
+.silence{min-height:85vh;min-height:85svh}
+@media (max-width:639.98px){ .silence{min-height:55vh;min-height:55svh} }
+
+/* II. Greeting */
+.greeting h1{font-size:clamp(2rem,4.6vw,3.1rem);line-height:1.15;font-weight:500;margin:0 0 1.6rem;text-wrap:balance}
+.lede{font-size:1.25rem;line-height:1.6;max-width:36rem;margin:0 auto 1.4rem;text-wrap:balance}
+.doorway{font-style:italic;color:var(--muted);margin:0 0 3.5rem}
+.trust{max-width:34rem;margin:0 auto;text-align:left;border-top:1px solid var(--rule);padding-top:2.25rem}
+.trust h2{font-size:1.35rem;font-weight:500;margin:0 0 .8rem;line-height:1.3}
+.trust p{margin:0 0 1rem}
+.trust p:last-child{margin-bottom:0}
+
+/* III. The Table — the places, set one at a time. Not a carousel. */
+.table-station{min-height:auto;display:block;text-align:left;padding:7rem 1.5rem 6rem}
+.table-station .inner{max-width:44rem;margin:0 auto}
+.table-station h2{font-size:clamp(1.7rem,3.6vw,2.3rem);font-weight:500;margin:0 0 1rem;line-height:1.2}
+.table-station .scope{color:var(--muted);max-width:36rem;margin:0 0 2rem}
+.era-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:.25rem 1rem;font-family:'Alegreya Sans',sans-serif;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:3.5rem 0 1rem;border-bottom:1px solid var(--rule);padding-bottom:.6rem}
+.era-head .era-dates{font-weight:400;letter-spacing:.06em;text-transform:none}
+.places{list-style:none;margin:0;padding:0}
+.place{display:grid;grid-template-columns:8.5rem 1fr;gap:1.75rem;align-items:start;padding:2.75rem 0;border-bottom:1px solid var(--rule)}
+.place:last-child{border-bottom:none}
+.portrait{width:8.5rem;aspect-ratio:1/1;border-radius:50%;overflow:hidden;border:2px solid var(--seat,var(--accent-text));background:var(--surface)}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
+.place-name{margin:0 0 .2rem;font-size:1.45rem;font-weight:700;line-height:1.2}
+.place-name .title{display:block;font-family:'Alegreya Sans',sans-serif;font-weight:400;font-size:.95rem;color:var(--muted);letter-spacing:.02em;margin-top:.25rem}
+.place-tradition{margin:0 0 .25rem;font-style:italic;color:var(--gold-text)}
+.place-tradition .sub{font-style:normal;color:var(--muted);font-family:'Alegreya Sans',sans-serif;font-size:.9rem}
+.place-meta{margin:0 0 .9rem;font-family:'Alegreya Sans',sans-serif;font-size:.9rem;color:var(--muted)}
+.place-tile{margin:0 0 1rem}
+.place-action{margin:0}
+.place-action a{font-family:'Alegreya Sans',sans-serif;font-weight:600;color:var(--accent-text);text-decoration:none;border-bottom:1px solid currentColor;padding:.45rem 0;display:inline-block}
+.place-action a:hover,.place-action a:focus-visible{color:var(--text)}
+.after-places{color:var(--muted);margin:3rem 0 0;font-style:italic}
+@media (max-width:639.98px){
+  .place{grid-template-columns:1fr;gap:1rem}
+  .portrait{width:6.5rem}
+}
+
+/* IV. The Door */
+.door h2{font-size:clamp(1.7rem,3.6vw,2.4rem);font-weight:500;margin:0 0 1.5rem;line-height:1.2}
+.measure{max-width:34rem;margin:0 auto 2.75rem}
+.btn{display:inline-block;font-family:'Alegreya Sans',sans-serif;font-weight:600;font-size:1.02rem;padding:.95rem 1.8rem;border-radius:4px;text-decoration:none;background:var(--btn-fill);color:var(--btn-text);border:1.5px solid var(--btn-fill)}
+.btn:hover,.btn:focus-visible{background:var(--btn-fill-hover);border-color:var(--btn-fill-hover);color:var(--btn-text)}
+.door-secondary{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;margin:1.6rem 0 0}
+.door-secondary a{color:var(--muted);text-decoration-color:var(--rule);text-underline-offset:.22em;padding:.5rem .3rem;display:inline-block}
+.door-secondary a:hover,.door-secondary a:focus-visible{color:var(--text);text-decoration-color:currentColor}
+.pilot-note,.pilot-caveat{font-family:'Alegreya Sans',sans-serif;color:var(--muted);max-width:30rem;margin:0 auto;text-wrap:balance}
+.pilot-note{font-size:.95rem;margin-top:3.5rem}
+.pilot-caveat{font-size:.88rem;font-style:italic;margin-top:.6rem}
+
+/* The support slot — volatile copy; a slot, deliberately not a layout. */
+.support-slot{padding:4rem 1.5rem 5rem;text-align:center;border-top:1px solid var(--rule)}
+.support-slot .inner{max-width:32rem;margin:0 auto;font-family:'Alegreya Sans',sans-serif;font-size:.95rem;color:var(--muted)}
+.support-slot p{margin:0 0 .8rem}
+.support-slot a{color:var(--muted);text-decoration-color:var(--rule);text-underline-offset:.22em;padding:.35rem .1rem;display:inline-block}
+.support-slot a:hover,.support-slot a:focus-visible{color:var(--text);text-decoration-color:currentColor}
+
+/* Footer — as live */
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted)}
+.site-footer .wrap{max-width:64rem;margin:0 auto;padding:2rem 1.5rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.site-footer a{color:var(--muted)}
+.site-footer nav{display:flex;gap:1.2rem;flex-wrap:wrap}
+.site-footer nav a{display:inline-block;padding:.5rem .1rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="homepage.html">Church <em>in</em> Conversation</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="../../../../../../cic-website/about.html">About</a>
+      <a href="../../../../../../cic-website/atlas-v3.html">Map</a>
+      <a href="../../../../../../cic-website/support.html">Get Involved</a>
+      <!-- The side door. Liturgy has always had one: the order of service does
+           not change for the person who already knows it; they simply are not
+           walked through it again. Quiet text, never a button. DRAFT wording. -->
+      <a class="side-door" id="side-door" href="https://cic-engine.onrender.com/?mode=table" data-copy="draft">Already know the way? Go to the Table &rarr;</a>
+    </nav>
+  </div>
+</header>
+
+<!-- The order of arrival. Printed once, still. The current station is marked
+     by the same solid inversion the Living Table uses for its speaking
+     nameplate. Silences are not stations; the marker does not move during one. -->
+<nav class="order" aria-label="The order of arrival">
+  <ol>
+    <li><a href="#threshold">Threshold</a></li>
+    <li><a href="#greeting">Greeting</a></li>
+    <li><a href="#table">Table</a></li>
+    <li><a href="#door">Door</a></li>
+  </ol>
+  <p class="silence-note" data-copy="draft">Two silences are kept along the way.</p>
+</nav>
+
+<main id="main">
+
+  <!-- I. THRESHOLD — the mark, at first contact, with its one public sentence
+       (the Logo Usage Sheet: "the mark never appears at first contact without
+       this one plain sentence beside it"). Nothing else is on this screen. -->
+  <section class="station threshold" id="threshold" data-order tabindex="-1" aria-labelledby="threshold-line">
+    <div class="inner">
+      <div class="mark-large arriving play">
+        <svg viewBox="0 0 100 100" role="img" aria-label="The Arriving mark: a table drawn as a single open ring, its opening facing right, with one red dot waiting at the threshold">
+          <circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/>
+          <circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/>
+        </svg>
+      </div>
+      <p class="public-sentence" id="threshold-line" data-copy="brand">The mark is a table; the opening is the way in &mdash; and it never closes.</p>
+      <p class="rubric-sub"><a href="#silence-1" data-copy="draft">Continue when you are ready</a></p>
+    </div>
+  </section>
+
+  <!-- A silence. Real height, one rubric, nothing withheld: the way on is
+       printed at the bottom of it. -->
+  <section class="station silence" id="silence-1" tabindex="-1" aria-label="A silence">
+    <div class="inner">
+      <p class="rubric" data-copy="draft">Silence is kept.</p>
+      <p class="rubric-sub"><a href="#greeting" data-copy="draft">Continue when you are ready</a></p>
+    </div>
+  </section>
+
+  <!-- II. GREETING — the words that gather you. The AI question is raised
+       here, first, by us, and answered (the brand's "Always"). -->
+  <section class="station greeting" id="greeting" data-order tabindex="-1" aria-labelledby="hook">
+    <div class="inner">
+      <p class="eyebrow" data-copy="draft">The Greeting</p>
+      <h1 id="hook" data-copy="protected">Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
+      <p class="lede" data-copy="brand">Church in Conversation rebuilds documented Christian movements from their own words &mdash; and you don't just read about them: you join them at a table where they talk with you, and with each other &mdash; openly.</p>
+      <p class="doorway" data-copy="protected">A doorway to sit with the Christian movements of history.</p>
+
+      <div class="trust">
+        <h2 data-copy="draft">You will be in conversation with an AI system.</h2>
+        <p data-copy="draft">Each voice at the Table is a built voice &mdash; made from one Christian tradition's own letters, sermons, and records, and speaking from those and from nothing else. It shows its sources, and how well each claim is attested, one click away. It is a conversation with a tradition's witness, not with a person.</p>
+        <p data-copy="live">Every conversation is watched in real time for a softened truth, an invented detail, or knowledge the voice shouldn't have &mdash; and corrected before it reaches you.</p>
+        <p class="protected" data-copy="protected">Where the historical record is thin, we let the silence stand.</p>
+      </div>
+
+      <p class="rubric-sub"><a href="#table" data-copy="draft">Continue when you are ready</a></p>
+    </div>
+  </section>
+
+  <!-- III. THE TABLE — the seven, set one at a time in chronological order.
+       Data: cic-website/data/world-census.json, the seven "Built & Live"
+       movements, sorted by start year; the build reads that file at runtime
+       exactly as the live index.html does. Hardcoded here so the mockup opens
+       from disk. Portrait ring color = each entry's own census color (the
+       same non-brand hues the live carousel already uses — the Atlas palette
+       debt, inherited and named, not paid here). -->
+  <section class="station table-station" id="table" data-order tabindex="-1" aria-labelledby="table-h">
+    <div class="inner">
+      <p class="eyebrow" data-copy="draft">The Table</p>
+      <h2 id="table-h" data-copy="draft">Who is seated</h2>
+      <p class="scope" data-copy="draft">For this first pilot stage, seven Christian traditions from the Church's first four hundred years. They are introduced in order, one at a time. Each has one Representative, who speaks for the tradition and from its own record.</p>
+
+      <h3 class="era-head" data-copy="census"><span>The Early Church Era</span> <span class="era-dates">70&ndash;312 CE</span></h3>
+      <ol class="places">
+        <li class="place" data-census-id="post-apostolic-house-church" style="--seat:#7c3aed">
+          <div class="portrait"><img src="../../../../../../cic-website/assets/portraits/house-churches.png" alt="Chloe, Representative of The House-Churches" width="160" height="160"></div>
+          <div class="place-text" data-copy="census">
+            <p class="place-name"><span class="name">Chloe</span><span class="title">Household Leader</span></p>
+            <p class="place-tradition">The House-Churches <span class="sub">&middot; Post-Apostolic House-Church Christianity</span></p>
+            <p class="place-meta">70&ndash;200 CE &middot; Antioch, Asia Minor, Rome</p>
+            <p class="place-tile">The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE &mdash; the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means.</p>
+            <p class="place-action"><a href="before-you-sit.html?who=post-apostolic-house-church" data-copy="draft">Sit down with Chloe</a></p>
+          </div>
+        </li>
+        <li class="place" data-census-id="alexandria-catechetical" style="--seat:#2B5F8A">
+          <div class="portrait"><img src="../../../../../../cic-website/assets/portraits/alexandria.png" alt="Theon, Representative of Alexandrian Christianity" width="160" height="160"></div>
+          <div class="place-text" data-copy="census">
+            <p class="place-name"><span class="name">Theon</span><span class="title">Catechetical Teacher</span></p>
+            <p class="place-tradition">Alexandrian Christianity <span class="sub">&middot; Alexandrian Catechetical Tradition</span></p>
+            <p class="place-meta">c. 150&ndash;400 CE &middot; Alexandria, Egypt</p>
+            <p class="place-tile">Alexandria, c. 150 to 400 CE &mdash; a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.</p>
+            <p class="place-action"><a href="before-you-sit.html?who=alexandria-catechetical" data-copy="draft">Sit down with Theon</a></p>
+          </div>
+        </li>
+        <li class="place" data-census-id="syriac-edessa-nisibis" style="--seat:#b45309">
+          <div class="portrait"><img src="../../../../../../cic-website/assets/portraits/syriac.png" alt="Mar Yausep, Representative of Syriac Christianity" width="160" height="160"></div>
+          <div class="place-text" data-copy="census">
+            <p class="place-name"><span class="name">Mar Yausep</span><span class="title">Teacher of the Covenant Order</span></p>
+            <p class="place-tradition">Syriac Christianity</p>
+            <p class="place-meta">200&ndash;410 CE &middot; Edessa &amp; Nisibis</p>
+            <p class="place-tile">Edessa and Nisibis, 200 to 410 CE &mdash; in what is now southeastern Turkey &mdash; a community shaped by persecution under Persian rule, holding together through covenant vows and typological reading of Scripture.</p>
+            <p class="place-action"><a href="before-you-sit.html?who=syriac-edessa-nisibis" data-copy="draft">Sit down with Mar Yausep</a></p>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="era-head" data-copy="census"><span>The Imperial Church Era</span> <span class="era-dates">312&ndash;451 CE</span></h3>
+      <ol class="places">
+        <li class="place" data-census-id="imperial-juridical-christianity" style="--seat:#7A2E2E">
+          <div class="portrait"><img src="../../../../../../cic-website/assets/portraits/empire.png" alt="Marius, Representative of Church and Empire" width="160" height="160"></div>
+          <div class="place-text" data-copy="census">
+            <p class="place-name"><span class="name">Marius</span><span class="title">Deacon of the Letters</span></p>
+            <p class="place-tradition">Church and Empire <span class="sub">&middot; Imperial and Juridical Christianity</span></p>
+            <p class="place-meta">c. 312&ndash;451 CE &middot; Rome, Constantinople, Milan</p>
+            <p class="place-tile">Rome, Constantinople, and Milan, c. 312 to 451 CE &mdash; the church's first century beside a throne rather than beneath a sword, working out what the emperor's favor bought and what it could still take away.</p>
+            <p class="place-action"><a href="before-you-sit.html?who=imperial-juridical-christianity" data-copy="draft">Sit down with Marius</a></p>
+          </div>
+        </li>
+        <li class="place" data-census-id="desert-monasticism" style="--seat:#0f766e">
+          <div class="portrait"><img src="../../../../../../cic-website/assets/portraits/desert.png" alt="Papnoute, Representative of the Desert Fathers and Mothers" width="160" height="160"></div>
+          <div class="place-text" data-copy="census">
+            <p class="place-name"><span class="name">Papnoute</span><span class="title">Abba (Elder)</span></p>
+            <p class="place-tradition">Desert Fathers and Mothers <span class="sub">&middot; Desert Monasticism</span></p>
+            <p class="place-meta">c. 320&ndash;430 CE &middot; Nile Valley &amp; Desert, Egypt</p>
+            <p class="place-tile">The Nile Valley and the desert of Egypt, c. 320 to 430 CE &mdash; communities who left settled village life to wage a lifelong combat against the thoughts that trouble a person from within.</p>
+            <p class="place-action"><a href="before-you-sit.html?who=desert-monasticism" data-copy="draft">Sit down with Papnoute</a></p>
+          </div>
+        </li>
+        <li class="place" data-census-id="cappadocian-nicene-pastoral-monastic-tradition" style="--seat:#A0522D">
+          <div class="portrait"><img src="../../../../../../cic-website/assets/portraits/cappadocian.jpg" alt="Chilo, Representative of The Cappadocian Churches" width="160" height="160"></div>
+          <div class="place-text" data-copy="census">
+            <p class="place-name"><span class="name">Chilo</span><span class="title">Elder of the Brotherhoods</span></p>
+            <p class="place-tradition">The Cappadocian Churches <span class="sub">&middot; Cappadocian Pastoral-Monastic and Trinitarian Tradition</span></p>
+            <p class="place-meta">c. 325&ndash;394 CE &middot; Cappadocia / Anatolia</p>
+            <p class="place-tile">The Nicene-confessing churches of Cappadocia and Pontus, c. 325 to 394 CE &mdash; the households and brotherhoods around Basil of Caesarea, Gregory of Nazianzus, Gregory of Nyssa, and Macrina, who held, defended, and inherited the imperial establishment of the Nicene confession while feeding the hungry through famine and burying their own martyr.</p>
+            <p class="place-action"><a href="before-you-sit.html?who=cappadocian-nicene-pastoral-monastic-tradition" data-copy="draft">Sit down with Chilo</a></p>
+          </div>
+        </li>
+        <li class="place" data-census-id="hieronymian-ascetic-literary" style="--seat:#9d174d">
+          <div class="portrait"><img src="../../../../../../cic-website/assets/portraits/bethlehem.png" alt="Albina, Representative of The Bethlehem Circle" width="160" height="160"></div>
+          <div class="place-text" data-copy="census">
+            <p class="place-name"><span class="name">Albina</span><span class="title">Widow of the Household</span></p>
+            <p class="place-tradition">The Bethlehem Circle <span class="sub">&middot; Hieronymian Ascetic-Literary Christianity</span></p>
+            <p class="place-meta">c. 382&ndash;420 CE &middot; Rome &amp; Bethlehem</p>
+            <p class="place-tile">Rome and Bethlehem, c. 382 to 420 CE &mdash; a circle of scholars and ascetics who gave up wealth and rank to test Scripture's Latin translation against the Hebrew it was first given in.</p>
+            <p class="place-action"><a href="before-you-sit.html?who=hieronymian-ascetic-literary" data-copy="draft">Sit down with Albina</a></p>
+          </div>
+        </li>
+      </ol>
+
+      <p class="after-places" data-copy="draft">Each of these took months of review-gated work to build. More are being built the same way, one at a time.</p>
+      <p class="rubric-sub" style="text-align:center"><a href="#silence-2" data-copy="draft">Continue when you are ready</a></p>
+    </div>
+  </section>
+
+  <!-- A second silence, before the door. -->
+  <section class="station silence" id="silence-2" tabindex="-1" aria-label="A silence">
+    <div class="inner">
+      <p class="rubric" data-copy="draft">Silence is kept.</p>
+      <p class="rubric-sub"><a href="#door" data-copy="draft">Continue when you are ready</a></p>
+    </div>
+  </section>
+
+  <!-- IV. THE DOOR — one madder action, to the threshold page
+       (before-you-sit.html), which hands off to the app. -->
+  <section class="station door" id="door" data-order tabindex="-1" aria-labelledby="door-h">
+    <div class="inner">
+      <p class="eyebrow" data-copy="draft">The Door</p>
+      <h2 id="door-h" data-copy="draft">When you are ready.</h2>
+      <p class="measure" data-copy="protected">We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share.</p>
+      <p class="door-action"><a class="btn" href="before-you-sit.html" data-copy="protected">Come and join us at the Table</a></p>
+      <p class="door-secondary"><a href="../../../../../../cic-website/atlas-v3.html" data-copy="draft">Or explore the Map first</a></p>
+      <p class="pilot-note" data-copy="live">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives &mdash; general, pastor or teacher, academic, and anyone re-examining their faith.</p>
+      <p class="pilot-caveat" data-copy="live">Because of cost, we're asking each participant to keep to about five conversations for now &mdash; we can't enforce this yet, only ask.</p>
+    </div>
+  </section>
+
+  <!-- The support slot. Cost/ask copy has been rewritten six times in a week
+       (inheritance note, seam F): this is a slot for whatever the current
+       approved wording is, laid out as plain text links so a rewrite never
+       needs a redesign. The seeker's voice outranks the donor's; this sits
+       below the door, in the quietest register on the page. Copy = live. -->
+  <section class="support-slot" aria-labelledby="support-h">
+    <div class="inner">
+      <h2 class="visually-hidden" id="support-h">Support</h2>
+      <p data-copy="live">Running these conversations costs real money. If you'd like to help more people use them:</p>
+      <p data-copy="live"><a href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open &mdash; give once</a> &nbsp;&middot;&nbsp; <a href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider &mdash; give monthly</a></p>
+      <p data-copy="live">For what this actually costs and where it goes, see <a href="../../../../../../cic-website/support.html">Get Involved</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span data-copy="live">&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="../../../../../../cic-website/about.html">About</a>
+      <a href="../../../../../../cic-website/pilot-feedback.html">Feedback</a>
+      <a href="../../../../../../cic-website/privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+// The whole script: (1) the side door points at the app (same LIVE_APP_URL
+// pattern as the live index.html); (2) the order marker learns which station
+// is on screen. Nothing here moves anything. Without JS the page is complete:
+// four still links, every station reachable.
+var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
+var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
+var side = document.getElementById('side-door');
+if (side) side.href = APP + '/?mode=table';
+
+if (!('IntersectionObserver' in window)) return;
+var links = {};
+Array.prototype.forEach.call(document.querySelectorAll('.order a[href^="#"]'), function(a){
+  links[a.getAttribute('href').slice(1)] = a;
+});
+var current = null;
+function mark(id){
+  if (id === current) return;
+  if (current && links[current]) links[current].removeAttribute('aria-current');
+  if (links[id]) links[id].setAttribute('aria-current','location');
+  current = id;
+}
+// A station is "where you are" once it crosses the middle band of the viewport.
+// Silences carry no data-order, so the marker rests through them.
+var io = new IntersectionObserver(function(entries){
+  entries.forEach(function(e){ if (e.isIntersecting) mark(e.target.id); });
+}, { rootMargin: '-45% 0px -45% 0px', threshold: 0 });
+Array.prototype.forEach.call(document.querySelectorAll('.station[data-order]'), function(s){ io.observe(s); });
+})();
+</script>
+</body>
+</html>

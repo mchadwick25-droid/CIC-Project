@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Church in Conversation — The First Centuries</title>
+<meta name="description" content="Seven Christian traditions from the Church's own first four centuries, each introduced in its own voice. Twenty centuries of the Church. One table. A chair pulled out for you.">
+<!--
+  SANDBOX MOCKUP — Website V2, D1 direction 01: Editorial / Long-Form Storytelling.
+  Not a deliverable. Not deployed. Copy marked DRAFT is illustrative and unreviewed;
+  lines marked VERBATIM are the brand's protected lines and must not be paraphrased.
+  Real data (tradition names, Representatives, dates, regions, colors) is taken from
+  cic-website/data/world-census.json as of 2026-09-02, entered by hand here so the file
+  opens directly from disk with no fetch. Portraits are referenced relatively from
+  cic-website/assets/portraits/ (the six locked portraits plus Cappadocian).
+  Fonts: the same Google Fonts approach the live site already uses, plus the small-caps
+  cut of the same superfamily (Alegreya SC) — a proposed within-family addition, flagged
+  in README.md for Mark, not assumed.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+SC:wght@400;500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   TOKENS — the locked manuscript palette (CiC_Full_UX_Design_V1_0 §2.1),
+   unchanged. Dark register follows the live site's proven values.
+   ===================================================================== */
+:root{
+  --parchment:#F7F3EB; --vellum:#FEFCF8; --iron-gall:#2A2521; --ink-faded:#6C6257;
+  --rule:#E6DFD3; --madder:#A13E2B; --madder-deep:#7E2F20; --gold-leaf:#B45309;
+  --gold-wash:#FBF2E2; --lapis:#1E40AF; --tyrian:#6B3FA0; --tyrian-wash:#F3EFFA;
+  --graphite:#8A837C;
+  --numeral:#E6DFD3;           /* decorative chapter numerals only, never text that carries meaning */
+  --measure:38rem;             /* ~62–66 characters of Alegreya at the reading size */
+  --spread:72rem;
+  --reading:1.25rem;           /* 20px running prose — a book, not a screen */
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sc:'Alegreya SC','Alegreya',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --parchment:#17130F; --vellum:#1E1913; --iron-gall:#F1E9DD; --ink-faded:#B8AEA1;
+    --rule:rgba(241,233,221,.16); --madder:#E08C74; --madder-deep:#F0A98F; --gold-leaf:#E0A458;
+    --gold-wash:#241C13; --tyrian:#C9A6E8; --tyrian-wash:#2A2133; --numeral:rgba(241,233,221,.10);
+  }
+}
+
+/* =====================================================================
+   PAGE — one column of prose, set like a book. Nothing competes with it.
+   ===================================================================== */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:4.5rem}   /* anchors and focus clear the sticky running head */
+@media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} }
+body{
+  margin:0; background:var(--parchment); color:var(--iron-gall);
+  font-family:var(--serif); font-size:var(--reading); line-height:1.55;
+  font-variant-numeric:oldstyle-nums; font-kerning:normal;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  hanging-punctuation:first last;
+}
+a{color:var(--madder); text-decoration-thickness:.06em; text-underline-offset:.16em}
+a:hover{color:var(--madder-deep)}
+:focus-visible{outline:2px solid var(--madder); outline-offset:3px; border-radius:2px}
+img{max-width:100%; height:auto; display:block}
+p{margin:0 0 1.25em}
+em{font-style:italic}
+.sc{font-family:var(--sc); font-weight:400; letter-spacing:.06em; text-transform:lowercase}
+.sans{font-family:var(--sans)}
+.draft{ /* marks illustrative copy; removed at D3 */
+  font-family:var(--sans); font-size:.72rem; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ink-faded); border:1px solid var(--rule); padding:.15em .5em; border-radius:2px;
+  vertical-align:middle; margin-left:.4em; white-space:nowrap;
+}
+
+.skip-link{position:absolute; left:-999px; top:auto; background:var(--iron-gall); color:var(--parchment);
+  padding:.6rem 1rem; z-index:100; font-family:var(--sans)}
+.skip-link:focus{position:fixed; left:1rem; top:1rem}
+
+/* --- Running head: the one persistent piece of chrome. A book's running header:
+       wordmark left, where-you-are and the single door right. -------------------- */
+.running-head{
+  position:sticky; top:0; z-index:20; background:var(--vellum);
+  border-bottom:1px solid var(--rule);
+}
+.running-head .row{
+  max-width:var(--spread); margin:0 auto; padding:.7rem 1.5rem;
+  display:flex; align-items:center; justify-content:space-between; gap:1.5rem;
+}
+.brand{display:flex; align-items:center; gap:.65rem; text-decoration:none; color:var(--iron-gall); flex-shrink:0}
+.brand .wordmark{font-family:var(--serif); font-weight:700; font-size:1.15rem; letter-spacing:.01em}
+.brand .wordmark em{font-weight:400}
+.arriving-mark svg{display:block; width:32px; height:32px}
+.arriving-mark .arriving-ring{fill:none; stroke:currentColor; stroke-width:11; stroke-linecap:round;
+  stroke-dasharray:260 100; stroke-dashoffset:-50}
+.arriving-mark .arriving-seat{fill:#A13E2B}
+@media (prefers-color-scheme:dark){ .arriving-mark .arriving-seat{fill:#CB6E52} }
+.head-nav{display:flex; align-items:center; gap:1.4rem; font-family:var(--sans); font-size:.95rem; min-width:0}
+.head-nav a{color:var(--iron-gall); text-decoration:none; padding:.55rem 0; border-bottom:1.5px solid transparent; white-space:nowrap}
+.head-nav a:hover{border-bottom-color:var(--madder)}
+.head-nav a.door{color:var(--madder); font-weight:500}
+.head-nav a.door:hover{color:var(--madder-deep); border-bottom-color:var(--madder-deep)}
+.head-nav .sep{width:1px; height:1.1rem; background:var(--rule)}
+@media (max-width:760px){
+  .head-nav a.optional, .head-nav .sep{display:none}
+  .brand .wordmark{font-size:1.02rem}
+}
+
+/* --- Slow reveal: a page that turns, never a page that pops. ------------------- */
+.js .reveal{opacity:0; transform:translateY(14px);
+  transition:opacity 1100ms cubic-bezier(.2,.6,.2,1), transform 1100ms cubic-bezier(.2,.6,.2,1)}
+.js .reveal.in{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){ .js .reveal{opacity:1; transform:none; transition:none} }
+
+/* --- Masthead / front matter ---------------------------------------------------- */
+.masthead{max-width:var(--spread); margin:0 auto; padding:6rem 1.5rem 3.5rem; text-align:center}
+.masthead .issue{font-family:var(--sc); font-size:.95rem; letter-spacing:.18em; color:var(--ink-faded); margin:0 0 1.4rem}
+.masthead h1{
+  font-family:var(--serif); font-weight:700; font-size:clamp(2.6rem,7.2vw,5.4rem); line-height:1;
+  letter-spacing:-.01em; margin:0 0 1.6rem; text-wrap:balance;
+}
+.masthead h1 em{font-weight:400}
+.masthead .strap{font-style:italic; font-size:clamp(1.15rem,2.2vw,1.5rem); color:var(--ink-faded); margin:0 auto; max-width:34rem; text-wrap:balance}
+.masthead .rule{width:6rem; height:1px; background:var(--iron-gall); opacity:.55; margin:2.4rem auto 0}
+
+/* --- The article column ----------------------------------------------------------
+       ≥1100px: a three-track grid so sidenotes (the "shows its work" apparatus) sit in
+       the outer margin like a scholarly edition. Below that they fall inline. */
+.article{max-width:var(--spread); margin:0 auto; padding:0 1.5rem}
+.prose{max-width:var(--measure); margin:0 auto}
+/* Essays: the reading column. Sidenotes live inside the paragraph, right after their
+   ✲ marker (so they read in order), and at ≥1100px float into an outer margin the
+   column keeps free for them; below that they set as indented notes in the flow. */
+.article.with-margin{max-width:calc(var(--measure) + 3rem)}
+@media (min-width:1100px){
+  .article.with-margin{max-width:calc(var(--measure) + 3rem + 18rem); padding-right:calc(1.5rem + 18rem)}
+}
+.sidenote{
+  display:block; font-family:var(--sans); font-size:.86rem; line-height:1.45; color:var(--ink-faded);
+  border-top:1px solid var(--rule); padding-top:.5rem; margin:.6em 0 1em 1.4rem;
+  text-indent:0; font-style:normal; text-align:left;
+}
+@media (min-width:1100px){ .sidenote{float:right; clear:right; width:15rem; margin:.15em -18rem .9rem 0} }
+.sidenote .mark{color:var(--tyrian); font-family:var(--serif); margin-right:.3em}
+.article.with-margin p + p{text-indent:1.6em; margin-top:-1.05em}   /* book paragraphs: indent, no gap */
+.article.with-margin .dropcap, .article.with-margin .noindent, .article.with-margin .standfirst{text-indent:0; margin-top:0}
+.article.with-margin .pull{text-indent:0; margin-top:2.6rem}
+a.cite{color:var(--tyrian); text-decoration:none; font-size:.9em; padding:.2em .25em; margin-left:.05em}
+a.cite:hover{color:var(--tyrian); text-decoration:underline}
+
+.opening{padding:2.5rem 0 4rem}
+.opening h2{
+  font-family:var(--serif); font-weight:400; font-size:clamp(2rem,4.4vw,3.2rem); line-height:1.08;
+  letter-spacing:-.005em; margin:0 0 1.2rem; text-wrap:balance;
+}
+.standfirst{font-size:1.45rem; line-height:1.4; color:var(--ink-faded); font-style:italic; margin:0 0 2.4rem; text-wrap:pretty}
+.dropcap::first-letter{
+  float:left; font-family:var(--serif); font-weight:400; font-size:4.6em; line-height:.78;
+  padding:.09em .08em 0 0; color:var(--iron-gall);
+}
+.prose p{text-wrap:pretty}
+.prose p + p{text-indent:1.6em; margin-top:-1.05em}     /* book paragraphs: indent, no gap */
+.prose p.noindent{text-indent:0; margin-top:0}
+.pull{
+  font-family:var(--serif); font-style:italic; font-size:1.6rem; line-height:1.3; text-align:center;
+  max-width:28rem; margin:2.6rem auto; color:var(--iron-gall); text-wrap:balance;
+}
+.pull::before,.pull::after{content:""; display:block; width:3rem; height:1px; background:var(--iron-gall); opacity:.5; margin:1rem auto}
+
+/* --- Contents page --------------------------------------------------------------- */
+.contents{padding:3rem 0 4rem; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule)}
+.contents h2{font-family:var(--sc); font-weight:400; font-size:1.1rem; letter-spacing:.2em; text-align:center; margin:0 0 2.2rem}
+.contents .part{font-family:var(--sc); font-size:.95rem; letter-spacing:.14em; color:var(--ink-faded); margin:1.8rem 0 .7rem; text-align:left}
+.contents ol{list-style:none; margin:0; padding:0}
+.contents li{display:flex; align-items:baseline; gap:.6rem; padding:.42rem 0; font-size:1.12rem}
+.contents li .num{font-family:var(--sc); width:2.2rem; flex-shrink:0; color:var(--ink-faded)}
+.contents li a{color:var(--iron-gall); text-decoration:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.contents li a:hover{color:var(--madder); text-decoration:underline}
+.contents li .leader{flex:1; min-width:1.5rem; border-bottom:1px dotted var(--ink-faded); opacity:.7; transform:translateY(-.3em)}
+.contents li .who{font-family:var(--sans); font-size:.92rem; color:var(--ink-faded); flex-shrink:0; text-align:right}
+.contents li .who b{font-family:var(--serif); font-weight:500; font-size:1.05rem; color:var(--iron-gall)}
+@media (max-width:640px){
+  .contents li{flex-wrap:wrap}
+  .contents li .leader{display:none}
+  .contents li .who{width:100%; padding-left:2.8rem; text-align:left}
+}
+
+/* --- Part openers: a book's part-title page ------------------------------------- */
+.part-open{max-width:var(--spread); margin:0 auto; padding:7rem 1.5rem 4rem; text-align:center}
+.part-open .label{font-family:var(--sc); font-size:1rem; letter-spacing:.22em; color:var(--ink-faded); margin:0 0 1rem}
+.part-open h2{font-family:var(--serif); font-weight:400; font-size:clamp(2.2rem,5vw,3.8rem); line-height:1.05; margin:0 0 .8rem; text-wrap:balance}
+.part-open .dates{font-family:var(--sc); font-size:1.05rem; letter-spacing:.14em; color:var(--ink-faded); margin:0 0 2rem}
+.part-open p{max-width:32rem; margin:0 auto; font-size:1.15rem; color:var(--iron-gall); text-wrap:pretty}
+
+/* --- Chapter openings: one Representative, one spread ---------------------------- */
+.chapter{max-width:var(--spread); margin:0 auto; padding:4.5rem 1.5rem 5.5rem; position:relative}
+.chapter + .chapter{border-top:1px solid var(--rule)}
+.chapter .spread{display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr); gap:3.5rem 4.5rem; align-items:start}
+.chapter.verso .spread{grid-template-columns:minmax(0,7fr) minmax(0,5fr)}
+.chapter.verso .plate{order:2}
+@media (max-width:900px){
+  .chapter .spread, .chapter.verso .spread{grid-template-columns:1fr; gap:2rem}
+  .chapter.verso .plate{order:0}
+}
+.plate{position:relative; padding-left:.9rem}
+.chapter.verso .plate{padding-left:0; padding-right:.9rem}
+.plate .ribbon{position:absolute; top:-.6rem; bottom:-1.8rem; left:0; width:6px; background:var(--rep)}
+.chapter.verso .plate .ribbon{left:auto; right:0}
+.plate figure{margin:0}
+.plate img{width:100%; aspect-ratio:4/5; object-fit:cover; object-position:50% 18%; border:1px solid var(--rule); background:var(--vellum)}
+.plate figcaption{font-family:var(--sans); font-size:.84rem; line-height:1.45; color:var(--ink-faded); margin:.75rem 0 0; max-width:26rem}
+.plate figcaption b{font-family:var(--sc); font-weight:400; letter-spacing:.1em; color:var(--iron-gall)}
+.chapter .numeral{
+  position:absolute; top:2.2rem; right:1.5rem; font-family:var(--serif); font-size:clamp(5rem,11vw,8.5rem);
+  line-height:.8; color:var(--numeral); user-select:none; pointer-events:none; font-variant-numeric:lining-nums;
+}
+.chapter.verso .numeral{right:auto; left:1.5rem}
+.chapter .text{position:relative; z-index:1}
+.chapter .kicker{font-family:var(--sc); font-size:.95rem; letter-spacing:.18em; color:var(--rep-text,var(--gold-leaf)); margin:0 0 .9rem}
+.chapter h3{font-family:var(--serif); font-weight:400; font-size:clamp(2rem,4vw,3rem); line-height:1.06; margin:0 0 .5rem; text-wrap:balance}
+.chapter .dateline{font-family:var(--sc); font-size:.95rem; letter-spacing:.1em; color:var(--ink-faded); margin:0 0 1.6rem}
+.chapter .tile{font-size:1.2rem; line-height:1.45; color:var(--iron-gall); margin:0 0 1.8rem; text-wrap:pretty}
+.chapter .voice{border-left:2px solid var(--gold-leaf); padding-left:1.2rem; margin:0 0 1.6rem}
+.chapter .voice .who{font-family:var(--sc); font-size:.9rem; letter-spacing:.12em; color:var(--gold-leaf); margin:0 0 .5rem}
+.chapter .voice p{font-size:1.15rem; line-height:1.5; margin:0; text-wrap:pretty}
+.chapter .read{font-family:var(--serif); font-size:1.15rem; margin:0 0 .5rem}
+.chapter .read a{text-decoration:none; border-bottom:1px solid currentColor}
+.chapter .begin{font-family:var(--sans); font-size:.95rem; color:var(--ink-faded); margin:0}
+.chapter .begin a{color:var(--ink-faded); text-decoration-color:var(--rule)}
+.chapter .begin a:hover{color:var(--madder); text-decoration-color:currentColor}
+@media (prefers-color-scheme:dark){ .chapter .kicker{color:var(--gold-leaf)} }
+
+/* --- Essays (About / What it will not claim / What's next / the Atlas) ---------- */
+.essay{padding:4.5rem 0 3rem; border-top:1px solid var(--rule)}
+.essay .kicker{font-family:var(--sc); font-size:.95rem; letter-spacing:.18em; color:var(--ink-faded); margin:0 0 .8rem; text-align:center}
+.essay h2{font-family:var(--serif); font-weight:400; font-size:clamp(1.9rem,3.6vw,2.7rem); line-height:1.1; margin:0 0 1.6rem; text-align:center; text-wrap:balance}
+.steps{list-style:none; margin:2rem 0; padding:0; counter-reset:step; border-top:1px solid var(--rule)}
+.steps li{counter-increment:step; display:grid; grid-template-columns:2.6rem 1fr; gap:.6rem; padding:.9rem 0; border-bottom:1px solid var(--rule); font-size:1.08rem}
+.steps li::before{content:counter(step,upper-roman); font-family:var(--sc); color:var(--ink-faded); letter-spacing:.08em; padding-top:.1em}
+.steps li b{font-weight:500}
+
+/* --- The door: one closing line, set large, then the colophon -------------------- */
+.door{max-width:var(--spread); margin:0 auto; padding:7rem 1.5rem 4rem; text-align:center; border-top:1px solid var(--rule)}
+.door p.line{font-family:var(--serif); font-weight:400; font-size:clamp(2rem,5vw,3.6rem); line-height:1.1; margin:0 0 2rem; text-wrap:balance}
+.door p.line a{color:var(--iron-gall); text-decoration:none; border-bottom:2px solid var(--madder); padding-bottom:.05em}
+.door p.line a:hover{color:var(--madder)}
+.door .quiet{font-family:var(--sans); font-size:.98rem; color:var(--ink-faded); max-width:32rem; margin:0 auto .5rem; text-wrap:balance}
+.door .quiet a{color:var(--ink-faded)}
+.door .quiet a:hover{color:var(--madder)}
+
+.colophon{max-width:var(--measure); margin:0 auto; padding:3rem 1.5rem 2rem; border-top:1px solid var(--rule)}
+.colophon h2{font-family:var(--sc); font-weight:400; font-size:1rem; letter-spacing:.2em; margin:0 0 1rem; text-align:center}
+.colophon p{font-size:1.05rem; text-wrap:pretty}
+.colophon .fine{font-family:var(--sans); font-size:.9rem; color:var(--ink-faded)}
+.colophon .ways{display:flex; gap:1.6rem; flex-wrap:wrap; justify-content:center; margin:1.4rem 0 .4rem; font-family:var(--serif); font-size:1.1rem}
+.colophon .ways a{text-decoration:none; border-bottom:1px solid currentColor}
+
+.site-footer{border-top:1px solid var(--rule); background:var(--vellum); margin-top:3rem}
+.site-footer .row{max-width:var(--spread); margin:0 auto; padding:2.4rem 1.5rem 2.6rem; display:grid; grid-template-columns:auto 1fr; gap:1.4rem 1.6rem; align-items:center}
+.site-footer .mark-line{font-family:var(--serif); font-style:italic; font-size:1.05rem; margin:0; text-wrap:balance}
+.site-footer .legal{grid-column:1/-1; font-family:var(--sans); font-size:.88rem; color:var(--ink-faded); display:flex; flex-wrap:wrap; gap:.6rem 1.4rem; align-items:center}
+.site-footer .legal a{color:var(--ink-faded); padding:.4rem 0}
+/* The "Arriving" motion in the colophon — the brand's own sequence, once per arrival,
+   the completed still mark under reduced motion. Copied from the live stylesheet. */
+.arriving-mark.play svg{width:56px; height:56px}
+.arriving-mark.play .arriving-ring{stroke-dasharray:0 360; opacity:0; animation:cic-buildC 1300ms cubic-bezier(.4,0,.2,1) 800ms both}
+.arriving-mark.play .arriving-seat{transform-origin:88.5px 50px; transform:translate(0,-6px);
+  animation:cic-sitdown 600ms cubic-bezier(.3,0,.35,1.4) 2400ms both, cic-breath 5.5s ease-in-out 3750ms infinite}
+@keyframes cic-buildC{0%{stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}4%{opacity:1}100%{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}}
+@keyframes cic-sitdown{0%{transform:translate(0,-6px)}62%{transform:translate(0,1px) scale(1.1,.86)}100%{transform:translate(0,0) scale(1,1)}}
+@keyframes cic-breath{0%,100%{opacity:1}50%{opacity:.76}}
+@media (prefers-reduced-motion:reduce){
+  .arriving-mark.play .arriving-ring,.arriving-mark.play .arriving-seat{animation:none}
+  .arriving-mark.play .arriving-ring{stroke-dasharray:260 100; stroke-dashoffset:-50; opacity:1}
+  .arriving-mark.play .arriving-seat{transform:translate(0,0)}
+}
+
+@media print{
+  .running-head, .draft{display:none}
+  body{font-size:11pt; color:#000; background:#fff}
+  .chapter{break-inside:avoid}
+  a{color:#000; text-decoration:none}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="running-head">
+  <div class="row">
+    <a class="brand" href="#top" aria-label="Church in Conversation — home">
+      <span class="arriving-mark" aria-hidden="true">
+        <svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg>
+      </span>
+      <span class="wordmark">Church <em>in</em> Conversation</span>
+    </a>
+    <nav class="head-nav" aria-label="Site">
+      <a href="#contents">Contents</a>
+      <a class="optional" href="#built">About</a>
+      <a class="optional" href="#whats-next">What’s Next</a>
+      <a class="optional" href="../../../../../../cic-website/atlas-v3.html">Atlas</a>
+      <a class="optional" href="#door-open">Get Involved</a>
+      <span class="sep" aria-hidden="true"></span>
+      <a class="door" href="https://cic-engine.onrender.com/?mode=table">Come and join us at the Table&nbsp;&rarr;</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<div id="top"></div>
+
+<!-- ============================== FRONT MATTER ============================== -->
+<section class="masthead" aria-labelledby="mast-title">
+  <p class="issue">The First Centuries&ensp;·&ensp;Seven Christian traditions, 70–451 <span class="sc">ce</span></p>
+  <h1 id="mast-title">Church <em>in</em> Conversation</h1>
+  <p class="strap">A doorway to sit with the Christian movements of history</p>
+  <div class="rule" aria-hidden="true"></div>
+</section>
+
+<!-- ============================== THE OPENING ESSAY ============================== -->
+<article class="article with-margin opening" aria-labelledby="hook">
+  <h2 id="hook" class="reveal">Twenty centuries of the Church. One table. A chair pulled out for you.</h2>
+  <p class="standfirst reveal">Christian traditions, built from their own letters, sermons, and historical record.</p>
+
+  <p class="dropcap reveal">Most of us have known one or two ways of following Jesus, and were trained to defend that one more than to explore the ones beyond it. For two thousand years, though, Christians have understood him, worshipped him, and tried to live like him in ways that would have surprised one another: a widow keeping a household in Rome, an elder in the Egyptian desert naming the thought that troubled him before it could deceive, a teacher in Alexandria reading Scripture beside a seeker until the seeker’s own eye opened. Each of them bears witness to something. Together they form one vast testimony to the ongoing work of Jesus among his people. <span class="draft">draft</span></p>
+
+  <p class="reveal">Church in Conversation rebuilds documented Christian movements from their own words — and you don’t just read about them: you join them at a table where they talk with you, and with each other — openly.</p>
+
+  <p class="reveal">It is fair to ask what is doing the speaking. The voice you meet at the Table is an AI system, and it never pretends otherwise. It is built last, from a finished record: each tradition’s own letters, sermons, and sources gathered and weighed, every claim checked against them directly and labeled for how well it is attested. It shows its confidence as it speaks. Where the historical record is thin, we let the silence stand. Each build is months of review-gated scholarship; independent academic review is the standard we are building toward, and have not yet reached.<a class="cite" href="#n1" aria-label="Note 1">✲</a><span class="sidenote" id="n1" role="note"><span class="mark" aria-hidden="true">✲</span>The ten-step build, and what “labeled for how well it is attested” means in practice, is set out in the essay <a href="#built">How it is built</a> below. The same marker inside a conversation opens the source a Representative is drawing on.</span> <span class="draft">draft</span></p>
+
+  <p class="reveal">We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike. We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share.</p>
+
+  <p class="reveal">What is built and live today is a first chapter: seven traditions from the Church’s own first four centuries, from the house-churches that held together after the apostles were gone to the circle of scholars in Bethlehem testing a Latin Bible against its Hebrew. Each has a Representative, a voice, who introduces their tradition in the chapters that follow — and who will sit with you at the Table when you are ready.<a class="cite" href="#n2" aria-label="Note 2">✲</a><span class="sidenote" id="n2" role="note"><span class="mark" aria-hidden="true">✲</span>Live traditions and dates are read from the same census the Atlas uses; the count here is seven as of 2 September 2026. Numbers are checked with Mark before anything prints.</span> <span class="draft">draft</span></p>
+
+  <p class="pull reveal">“The mark is a table; the opening is the way in — and it never closes.”</p>
+</article>
+
+<!-- ============================== CONTENTS ============================== -->
+<nav class="article contents reveal" id="contents" aria-labelledby="contents-title">
+  <div class="prose">
+    <h2 id="contents-title">In this issue</h2>
+
+    <p class="part">Part One · The Early Church Era · 70–312</p>
+    <ol>
+      <li><span class="num">I</span><a href="#ch-1">The House-Churches</a><span class="leader" aria-hidden="true"></span><span class="who"><b>Chloe</b> · 70–200</span></li>
+      <li><span class="num">II</span><a href="#ch-2">Alexandrian Christianity</a><span class="leader" aria-hidden="true"></span><span class="who"><b>Theon</b> · c. 150–400</span></li>
+      <li><span class="num">III</span><a href="#ch-3">Syriac Christianity</a><span class="leader" aria-hidden="true"></span><span class="who"><b>Mar Yausep</b> · 200–410</span></li>
+    </ol>
+
+    <p class="part">Part Two · The Imperial Church Era · 312–451</p>
+    <ol>
+      <li><span class="num">IV</span><a href="#ch-4">Church and Empire</a><span class="leader" aria-hidden="true"></span><span class="who"><b>Marius</b> · c. 312–451</span></li>
+      <li><span class="num">V</span><a href="#ch-5">Desert Fathers and Mothers</a><span class="leader" aria-hidden="true"></span><span class="who"><b>Papnoute</b> · c. 320–430</span></li>
+      <li><span class="num">VI</span><a href="#ch-6">The Cappadocian Churches</a><span class="leader" aria-hidden="true"></span><span class="who"><b>Chilo</b> · c. 325–394</span></li>
+      <li><span class="num">VII</span><a href="#ch-7">The Bethlehem Circle</a><span class="leader" aria-hidden="true"></span><span class="who"><b>Albina</b> · c. 382–420</span></li>
+    </ol>
+
+    <p class="part">Essays</p>
+    <ol>
+      <li><span class="num">&nbsp;</span><a href="#built">How it is built</a><span class="leader" aria-hidden="true"></span><span class="who">the ten-step process</span></li>
+      <li><span class="num">&nbsp;</span><a href="#claim">What it will not claim</a><span class="leader" aria-hidden="true"></span><span class="who">witness, never recruitment</span></li>
+      <li><span class="num">&nbsp;</span><a href="#atlas">Church in History</a><span class="leader" aria-hidden="true"></span><span class="who">the Atlas, ten eras</span></li>
+      <li><span class="num">&nbsp;</span><a href="#whats-next">What’s next</a><span class="leader" aria-hidden="true"></span><span class="who">the traditions to come</span></li>
+      <li><span class="num">&nbsp;</span><a href="#door-open">Keeping the door open</a><span class="leader" aria-hidden="true"></span><span class="who">get involved</span></li>
+    </ol>
+  </div>
+</nav>
+
+<!-- ============================== PART ONE ============================== -->
+<section class="part-open reveal" id="part-1" aria-labelledby="part-1-title">
+  <p class="label">Part One</p>
+  <h2 id="part-1-title">The Early Church Era</h2>
+  <p class="dates">70–312 <span class="sc">ce</span></p>
+  <p>The generations after the last of those who had walked with the Lord had died. Small gatherings in borrowed rooms, held together by letters, a shared meal, and arguments they had not yet settled — under an empire that could, on any ordinary day, ask them for a name. <span class="draft">draft</span></p>
+</section>
+
+<article class="chapter reveal" id="ch-1" style="--rep:#7c3aed;--rep-text:#7c3aed" aria-labelledby="ch-1-title">
+  <span class="numeral" aria-hidden="true">I</span>
+  <div class="spread">
+    <div class="plate">
+      <span class="ribbon" aria-hidden="true"></span>
+      <figure>
+        <img src="../../../../../../cic-website/assets/portraits/house-churches.png" alt="Chloe, Representative of the House-Churches: a woman in a veil and rose-colored tunic holding a plain cup in both hands." width="530" height="530" loading="lazy">
+        <figcaption><b>Plate I.</b> Chloe, Household Leader. The Representative of the House-Churches — a voice for a whole people, never one person’s biography.</figcaption>
+      </figure>
+    </div>
+    <div class="text">
+      <p class="kicker">Chapter I · Antioch, Asia Minor, Rome</p>
+      <h3 id="ch-1-title">The House-Churches</h3>
+      <p class="dateline">70–200 <span class="sc">ce</span> · Post-Apostolic House-Church Christianity</p>
+      <p class="tile">The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body’s suffering truly means.</p>
+      <div class="voice">
+        <p class="who">Chloe · Household Leader</p>
+        <p>We were never many in one room. A household’s door opened, the lamps were lit, and a letter from another city was read aloud before the bread was broken — proof that we were larger than the room we gathered in. Who should lead us, and what the Lord’s suffering truly was, we were still arguing about. We did not stop meeting in order to settle it. <span class="draft">draft</span></p>
+      </div>
+      <p class="read"><a href="representative-chloe.html">Read Chloe’s introduction to the House-Churches&nbsp;&rarr;</a></p>
+      <p class="begin">Or <a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview">begin a conversation with Chloe</a> · <a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=table">bring Chloe to the Table</a></p>
+    </div>
+  </div>
+</article>
+
+<article class="chapter verso reveal" id="ch-2" style="--rep:#2B5F8A;--rep-text:#2B5F8A" aria-labelledby="ch-2-title">
+  <span class="numeral" aria-hidden="true">II</span>
+  <div class="spread">
+    <div class="text">
+      <p class="kicker">Chapter II · Alexandria, Egypt</p>
+      <h3 id="ch-2-title">Alexandrian Christianity</h3>
+      <p class="dateline">c. 150–400 <span class="sc">ce</span> · Alexandrian Catechetical Tradition</p>
+      <p class="tile">Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture’s surface is a door onto the Logos’s own inexhaustible depth.</p>
+      <div class="voice">
+        <p class="who">Theon · Catechetical Teacher</p>
+        <p>In Alexandria we received a seeker into a life of reading — accompanied, beside a teacher, until the words on the surface of Scripture opened onto the depth the Word had placed there. A knowing that leaves the knower unaltered, we said, is no knowing at all. <span class="draft">draft</span></p>
+      </div>
+      <p class="read"><a href="#ch-2" aria-describedby="mock-note">Read Theon’s introduction to Alexandrian Christianity&nbsp;&rarr;</a></p>
+      <p class="begin">Or <a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview">begin a conversation with Theon</a> · <a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=table">bring Theon to the Table</a></p>
+    </div>
+    <div class="plate">
+      <span class="ribbon" aria-hidden="true"></span>
+      <figure>
+        <img src="../../../../../../cic-website/assets/portraits/alexandria.png" alt="Theon, Representative of Alexandrian Christianity." width="543" height="543" loading="lazy">
+        <figcaption><b>Plate II.</b> Theon, Catechetical Teacher. A didaskalos who reads Scripture beside a seeker.</figcaption>
+      </figure>
+    </div>
+  </div>
+</article>
+
+<article class="chapter reveal" id="ch-3" style="--rep:#b45309;--rep-text:#b45309" aria-labelledby="ch-3-title">
+  <span class="numeral" aria-hidden="true">III</span>
+  <div class="spread">
+    <div class="plate">
+      <span class="ribbon" aria-hidden="true"></span>
+      <figure>
+        <img src="../../../../../../cic-website/assets/portraits/syriac.png" alt="Mar Yausep, Representative of Syriac Christianity." width="572" height="572" loading="lazy">
+        <figcaption><b>Plate III.</b> Mar Yausep, Teacher of the Covenant Order. The honorific is part of the name.</figcaption>
+      </figure>
+    </div>
+    <div class="text">
+      <p class="kicker">Chapter III · Edessa &amp; Nisibis</p>
+      <h3 id="ch-3-title">Syriac Christianity</h3>
+      <p class="dateline">200–410 <span class="sc">ce</span> · Edessa and Nisibis</p>
+      <p class="tile">Edessa and Nisibis, 200 to 410 CE — in what is now southeastern Turkey — a community shaped by persecution under Persian rule, holding together through covenant vows and typological reading of Scripture.</p>
+      <div class="voice">
+        <p class="who">Mar Yausep · Teacher of the Covenant Order</p>
+        <p>We read the old stories for the hidden truth bound within them, kept a covenant vow, and gathered under one Gospel. Under Persian rule our bishops were killed and the see stood empty for decades. The teaching endured, carried in hymn and in demonstration. <span class="draft">draft</span></p>
+      </div>
+      <p class="read"><a href="#ch-3">Read Mar Yausep’s introduction to Syriac Christianity&nbsp;&rarr;</a></p>
+      <p class="begin">Or <a href="https://cic-engine.onrender.com/?worlds=syriac-edessa-nisibis&amp;mode=interview">begin a conversation with Mar Yausep</a> · <a href="https://cic-engine.onrender.com/?worlds=syriac-edessa-nisibis&amp;mode=table">bring Mar Yausep to the Table</a></p>
+    </div>
+  </div>
+</article>
+
+<!-- ============================== PART TWO ============================== -->
+<section class="part-open reveal" id="part-2" aria-labelledby="part-2-title">
+  <p class="label">Part Two</p>
+  <h2 id="part-2-title">The Imperial Church Era</h2>
+  <p class="dates">312–451 <span class="sc">ce</span></p>
+  <p>The Church’s first century beside a throne rather than beneath a sword. Councils, letters between great sees, brotherhoods in Cappadocia, cells in the Egyptian desert, and a household in Bethlehem checking every Latin word against the Hebrew. <span class="draft">draft</span></p>
+</section>
+
+<article class="chapter verso reveal" id="ch-4" style="--rep:#7A2E2E;--rep-text:#7A2E2E" aria-labelledby="ch-4-title">
+  <span class="numeral" aria-hidden="true">IV</span>
+  <div class="spread">
+    <div class="text">
+      <p class="kicker">Chapter IV · Rome, Constantinople, Milan</p>
+      <h3 id="ch-4-title">Church and Empire</h3>
+      <p class="dateline">c. 312–451 <span class="sc">ce</span> · Imperial and Juridical Christianity</p>
+      <p class="tile">Rome, Constantinople, and Milan, c. 312 to 451 CE — the church’s first century beside a throne rather than beneath a sword, working out what the emperor’s favor bought and what it could still take away.</p>
+      <div class="voice">
+        <p class="who">Marius · Deacon of the Letters</p>
+        <p>Letter after letter, council after council, we worked out what the emperor’s favor had bought and what it could still take away — and never fully settled whose word binds when a see’s own rank is disputed. I carry Rome’s claim, Constantinople’s, and Milan’s alike, and I will not tell you which one wins. <span class="draft">draft</span></p>
+      </div>
+      <p class="read"><a href="#ch-4">Read Marius’s introduction to Church and Empire&nbsp;&rarr;</a></p>
+      <p class="begin">Or <a href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview">begin a conversation with Marius</a> · <a href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=table">bring Marius to the Table</a></p>
+    </div>
+    <div class="plate">
+      <span class="ribbon" aria-hidden="true"></span>
+      <figure>
+        <img src="../../../../../../cic-website/assets/portraits/empire.png" alt="Marius, Representative of Church and Empire." width="527" height="527" loading="lazy">
+        <figcaption><b>Plate IV.</b> Marius, Deacon of the Letters. An apocrisiarius carrying letters between the great sees.</figcaption>
+      </figure>
+    </div>
+  </div>
+</article>
+
+<article class="chapter reveal" id="ch-5" style="--rep:#0f766e;--rep-text:#0f766e" aria-labelledby="ch-5-title">
+  <span class="numeral" aria-hidden="true">V</span>
+  <div class="spread">
+    <div class="plate">
+      <span class="ribbon" aria-hidden="true"></span>
+      <figure>
+        <img src="../../../../../../cic-website/assets/portraits/desert.png" alt="Papnoute, Representative of the Desert Fathers and Mothers." width="511" height="511" loading="lazy">
+        <figcaption><b>Plate V.</b> Papnoute, Abba. An elder of the desert, solitary cells and shared households alike.</figcaption>
+      </figure>
+    </div>
+    <div class="text">
+      <p class="kicker">Chapter V · Nile Valley &amp; Desert, Egypt</p>
+      <h3 id="ch-5-title">Desert Fathers and Mothers</h3>
+      <p class="dateline">c. 320–430 <span class="sc">ce</span> · Desert Monasticism</p>
+      <p class="tile">The Nile Valley and the desert of Egypt, c. 320 to 430 CE — communities who left settled village life to wage a lifelong combat against the thoughts that trouble a person from within.</p>
+      <div class="voice">
+        <p class="who">Papnoute · Abba (Elder)</p>
+        <p>We left the villages for the desert to fight the thoughts that trouble a person from within — some of us in a solitary cell, tested by an elder one at a time; others gathered under a shared rule we called koinonia. Which pattern was truer we never agreed. What we learned was to name a thought rightly before it could deceive. <span class="draft">draft</span></p>
+      </div>
+      <p class="read"><a href="#ch-5">Read Papnoute’s introduction to the Desert&nbsp;&rarr;</a></p>
+      <p class="begin">Or <a href="https://cic-engine.onrender.com/?worlds=desert-monasticism&amp;mode=interview">begin a conversation with Papnoute</a> · <a href="https://cic-engine.onrender.com/?worlds=desert-monasticism&amp;mode=table">bring Papnoute to the Table</a></p>
+    </div>
+  </div>
+</article>
+
+<article class="chapter verso reveal" id="ch-6" style="--rep:#A0522D;--rep-text:#A0522D" aria-labelledby="ch-6-title">
+  <span class="numeral" aria-hidden="true">VI</span>
+  <div class="spread">
+    <div class="text">
+      <p class="kicker">Chapter VI · Cappadocia / Anatolia</p>
+      <h3 id="ch-6-title">The Cappadocian Churches</h3>
+      <p class="dateline">c. 325–394 <span class="sc">ce</span> · Cappadocian Pastoral-Monastic and Trinitarian Tradition</p>
+      <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, c. 325 to 394 CE — the households and brotherhoods around Basil of Caesarea, Gregory of Nazianzus, Gregory of Nyssa, and Macrina, who held, defended, and inherited the imperial establishment of the Nicene confession while feeding the hungry through famine and burying their own martyr.</p>
+      <div class="voice">
+        <p class="who">Chilo · Elder of the Brotherhoods</p>
+        <p>Around Basil, the two Gregories, and Macrina, we held and defended the confession of Nicaea — and fed the hungry through a famine, and buried our own martyr. The brotherhoods kept a guest-door. I am the one who keeps it. <span class="draft">draft</span></p>
+      </div>
+      <p class="read"><a href="#ch-6">Read Chilo’s introduction to the Cappadocian Churches&nbsp;&rarr;</a></p>
+      <p class="begin">Or <a href="https://cic-engine.onrender.com/?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview">begin a conversation with Chilo</a> · <a href="https://cic-engine.onrender.com/?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=table">bring Chilo to the Table</a></p>
+    </div>
+    <div class="plate">
+      <span class="ribbon" aria-hidden="true"></span>
+      <figure>
+        <img src="../../../../../../cic-website/assets/portraits/cappadocian.jpg" alt="Chilo, Representative of the Cappadocian Churches: a bearded man in undyed wool holding flat loaves of bread." width="720" height="720" loading="lazy">
+        <figcaption><b>Plate VI.</b> Chilo, Elder of the Brotherhoods. The seventh tradition, live since August 2026.</figcaption>
+      </figure>
+    </div>
+  </div>
+</article>
+
+<article class="chapter reveal" id="ch-7" style="--rep:#9d174d;--rep-text:#9d174d" aria-labelledby="ch-7-title">
+  <span class="numeral" aria-hidden="true">VII</span>
+  <div class="spread">
+    <div class="plate">
+      <span class="ribbon" aria-hidden="true"></span>
+      <figure>
+        <img src="../../../../../../cic-website/assets/portraits/bethlehem.png" alt="Albina, Representative of the Bethlehem Circle." width="748" height="748" loading="lazy">
+        <figcaption><b>Plate VII.</b> Albina, Widow of the Household. A voice of the circle, and no claim to be any woman its sources name.</figcaption>
+      </figure>
+    </div>
+    <div class="text">
+      <p class="kicker">Chapter VII · Rome &amp; Bethlehem</p>
+      <h3 id="ch-7-title">The Bethlehem Circle</h3>
+      <p class="dateline">c. 382–420 <span class="sc">ce</span> · Hieronymian Ascetic-Literary Christianity</p>
+      <p class="tile">Rome and Bethlehem, c. 382 to 420 CE — a circle of scholars and ascetics who gave up wealth and rank to test Scripture’s Latin translation against the Hebrew it was first given in.</p>
+      <div class="voice">
+        <p class="who">Albina · Widow of the Household</p>
+        <p>In Rome, and then in Bethlehem, we gave up wealth and rank to test the Latin words of Scripture against the Hebrew they were first given in. No office held us together; earned trust did — even when that conviction cost us dearly among our own. <span class="draft">draft</span></p>
+      </div>
+      <p class="read"><a href="#ch-7">Read Albina’s introduction to the Bethlehem Circle&nbsp;&rarr;</a></p>
+      <p class="begin">Or <a href="https://cic-engine.onrender.com/?worlds=hieronymian-ascetic-literary&amp;mode=interview">begin a conversation with Albina</a> · <a href="https://cic-engine.onrender.com/?worlds=hieronymian-ascetic-literary&amp;mode=table">bring Albina to the Table</a></p>
+    </div>
+  </div>
+</article>
+
+<p id="mock-note" class="sans" style="max-width:var(--measure);margin:0 auto;padding:0 1.5rem;font-size:.85rem;color:var(--ink-faded)">In this mockup only Chapter I is built as a full page; the other “Read” links stay on this page.</p>
+
+<!-- ============================== ESSAYS ============================== -->
+<article class="article with-margin essay reveal" id="built" aria-labelledby="built-title">
+  <p class="kicker">Essay</p>
+  <h2 id="built-title">How it is built</h2>
+  <p class="dropcap">Each Christian tradition is built by going through a disciplined ten-step process. We gather and weigh its own letters, sermons, records, and validated sources. We research its own vocabulary, and the internal and external forces that shaped its beliefs and convictions. Every claim is checked against those sources directly and labeled for how well it’s attested. External academic review is the standard we’re building toward for every tradition — not yet complete, since it isn’t funded yet. Only then, last, is a representative voice created out of that finished, self-contained record. It speaks only from the tradition’s own letters, sermons, and primary sources.<a class="cite" href="#n3" aria-label="Note 3">✲</a><span class="sidenote" id="n3" role="note"><span class="mark" aria-hidden="true">✲</span>Three labels travel with every claim: documented in the tradition’s own sources, inferred from its setting, or silent — the record does not say. A Representative carries the label into the conversation rather than smoothing it away. <span class="draft">draft</span></span></p>
+  <p class="pull">Where the historical record is thin, we let the silence stand.</p>
+  <ol class="steps" aria-label="The ten steps, in brief (draft)">
+    <li><b>World identification.</b> Where and when the tradition lived, and which strands of it the record can actually support.</li>
+    <li><b>Source ecology.</b> Its own surviving voices, weighed for what each can and cannot bear.</li>
+    <li><b>Lexicon.</b> The words it thought in, plain meaning first, then the native word.</li>
+    <li><b>Gravities.</b> What organized everything — tested, not assumed.</li>
+    <li><b>Ecology, forces, stories.</b> How it formed people; what pressed on it from inside and out; what it remembered, and what it never wrote down.</li>
+    <li><b>The Representative, last.</b> A voice built only from the finished record, then tested against a battery of hard, adversarial questions before anyone meets it. <span class="draft">draft — steps compressed for the page; the build process document is the authority</span></li>
+  </ol>
+</article>
+
+<article class="article with-margin essay reveal" id="claim" aria-labelledby="claim-title">
+  <p class="kicker">Essay</p>
+  <h2 id="claim-title">What it will not claim</h2>
+  <p class="dropcap">A Representative speaks for a particular movement within Christ’s Church, allowed to speak openly in its own voice, pointing beyond itself to the One it ultimately serves, plainly and on its own terms. It will disagree with the tradition at the next chair. It will tell you what its own record says, and it will tell you when its record runs out — the enslaved member whose own words never survived, the ordinary believer who never wrote anything down, the room whose walls no archaeologist has found. <span class="draft">draft</span></p>
+  <p>It will never try to convert you. What it means for you is yours to own and share. If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.<a class="cite" href="#n4" aria-label="Note 4">✲</a><span class="sidenote" id="n4" role="note"><span class="mark" aria-hidden="true">✲</span>Every conversation is watched in real time for a softened truth, an invented detail, or knowledge the voice shouldn’t have — and corrected before it reaches you.</span></p>
+</article>
+
+<article class="article with-margin essay reveal" id="atlas" aria-labelledby="atlas-title">
+  <p class="kicker">The Atlas</p>
+  <h2 id="atlas-title">Church in History</h2>
+  <p class="dropcap">Seven traditions can sit at the Table today. The Atlas holds the wider story around them: nearly three hundred Christian movements across ten eras, from 70 CE to the present, each with what is known about it, whether or not it ever gets a chair. Hover for a glimpse; click for depth. It is where the traditions still being built first appear, and where a reader finds the century a chapter here belongs to.<a class="cite" href="#n5" aria-label="Note 5">✲</a><span class="sidenote" id="n5" role="note"><span class="mark" aria-hidden="true">✲</span>The movement count is the live site’s own figure and is checked with Mark before print. The Atlas currently runs its own palette; this direction inherits that debt and pays it at build, so the map reads as a fold-out of this same book.</span> <span class="draft">draft</span></p>
+  <p class="noindent"><a href="../../../../../../cic-website/atlas-v3.html">Open the Atlas&nbsp;&rarr;</a></p>
+</article>
+
+<article class="article with-margin essay reveal" id="whats-next" aria-labelledby="next-title">
+  <p class="kicker">Essay</p>
+  <h2 id="next-title">What’s next</h2>
+  <p class="dropcap">Two more traditions of the ancient Church are in development, each with the same full build as the seven already live: Latin pastoral-congregational Christianity, at Carthage and Hippo — Cyprian, and Augustine’s own congregation; and Donatism, a rival North African tradition shaped by martyr-memory. After the ancient set is complete, a second wave is planned to span the Reformation. The count is set; which traditions is not yet chosen. <span class="draft">draft — status lines verified against the census on 2 September 2026, not against a planning document</span></p>
+  <p>Every conversation today runs on the plain, single-mode Representative. Modes that adjust pacing for a pastor preparing a sermon or a student working through doubt were designed and built once, tested, and set aside for re-integration; they have not shipped. An advisory board for independent academic review is a top priority and needs both funding and volunteers. If you can help with either, write to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
+</article>
+
+<!-- ============================== THE DOOR ============================== -->
+<section class="door reveal" id="door" aria-labelledby="door-line">
+  <p class="line" id="door-line"><a href="https://cic-engine.onrender.com/?mode=table">Come and join us at the Table</a></p>
+  <p class="quiet">This is a pilot. We’re intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith. Because of cost, we’re asking each participant to keep to about five conversations for now — we can’t enforce this yet, only ask.</p>
+</section>
+
+<section class="colophon reveal" id="door-open" aria-labelledby="colophon-title">
+  <h2 id="colophon-title">Keeping the door open</h2>
+  <p>Running these conversations costs real money — turn by turn, and in the hosting, storage, and ongoing work of maintaining it. We’ve worked to bring what we can down, so the door can stay open to as many people as possible. Keeping it that way is where we need your help. Every gift goes to the Accessibility Fund: helping more people, in more languages, explore more Christian traditions.</p>
+  <div class="ways">
+    <a href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open — give once</a>
+    <a href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider — give monthly</a>
+  </div>
+  <p class="fine">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible. Prefer another way, or want to introduce us to a scholar who might serve as an external reviewer? <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="row">
+    <span class="arriving-mark play" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg>
+    </span>
+    <p class="mark-line">The mark is a table; the opening is the way in — and it never closes.</p>
+    <div class="legal">
+      <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+      <a href="#built">About</a>
+      <a href="../../../../../../cic-website/pilot-feedback.html">Feedback</a>
+      <a href="../../../../../../cic-website/privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  // Progressive: with no JS, everything is simply visible. With JS, each block
+  // is revealed once as it enters the viewport — slowly, and never re-hidden.
+  document.documentElement.classList.replace('no-js','js');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var blocks = document.querySelectorAll('.reveal');
+  if (reduce || !('IntersectionObserver' in window)) {
+    blocks.forEach(function(b){ b.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+  blocks.forEach(function(b){ io.observe(b); });
+})();
+</script>
+</body>
+</html>

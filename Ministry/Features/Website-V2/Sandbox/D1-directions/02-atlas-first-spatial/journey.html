@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas-First Spatial — the inner journey: from the map to a chair</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<!--
+  WEBSITE V2 · D1 DIRECTION 02 — ATLAS-FIRST SPATIAL · the key inner journey
+  "A visitor discovers and enters a conversation with a Representative
+  through the map itself." Eight beats, each drawn as a static frame with
+  three annotations: what the visitor sees, what a screen reader announces,
+  and which inherited rule is in force. Sandbox artifact; the frames are
+  simplified reproductions of homepage.html's real states, not live code —
+  open homepage.html for the working interaction. Content is the census's
+  own text for Alexandria / Theon, verbatim.
+-->
+<style>
+:root{--parchment:#F7F3EB;--vellum:#FEFCF8;--iron-gall:#2A2521;--ink-faded:#6C6257;--ink-faded-ground:#4A433C;--rule:#E6DFD3;--rule-strong:rgba(42,37,33,.22);
+  --madder:#A13E2B;--madder-deep:#7E2F20;--gold-leaf:#B45309;--gold-wash:#FBF2E2;--tyrian:#6B3FA0;--era1:#EFDDB3;--era2:#EDDEB9;
+  --text:var(--iron-gall);--text-2:var(--ink-faded);--ground:var(--parchment);--surface:var(--vellum);--action:var(--madder);--witness:var(--gold-leaf)}
+@media (prefers-color-scheme:dark){:root{--text:#F1E9DD;--text-2:#B8AEA1;--ink-faded-ground:#B8AEA1;--ground:#17130F;--surface:#1E1913;--rule:rgba(241,233,221,.16);--rule-strong:rgba(241,233,221,.3);--action:#E08C74;--witness:#E0A458;--era1:#241A0C;--era2:#221A0E}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:'Alegreya',Georgia,serif;font-size:1.0625rem;line-height:1.6}
+a{color:var(--action)}
+.sans{font-family:'Alegreya Sans',sans-serif}
+header.top{border-bottom:1px solid var(--rule);background:var(--surface);padding:1rem 1.5rem;font-family:'Alegreya Sans',sans-serif;font-size:.9rem;color:var(--text-2);display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline}
+header.top b{font-family:'Alegreya',serif;font-weight:700;font-size:1.15rem;color:var(--text)}
+header.top a{text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.wrap{max-width:74rem;margin:0 auto;padding:2rem 1.5rem 4rem}
+h1{font-size:clamp(1.8rem,3.4vw,2.5rem);line-height:1.15;margin:0 0 .5rem;text-wrap:balance}
+.lede{color:var(--text-2);font-size:1.15rem;max-width:50rem;margin:0 0 2.2rem}
+.eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .35rem}
+.beat{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(16rem,1fr);gap:1.5rem 2.2rem;padding:2rem 0;border-top:1px solid var(--rule)}
+.beat h2{font-size:1.5rem;margin:0 0 .5rem;grid-column:1/-1}
+.beat h2 .n{font-family:'Alegreya Sans',sans-serif;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-2);display:block;margin-bottom:.2rem}
+.notes h3{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--witness);margin:1rem 0 .25rem}
+.notes h3:first-child{margin-top:0}
+.notes p{margin:0 0 .5rem;font-size:.97rem}
+.notes .sr{font-family:'Alegreya Sans',sans-serif;font-size:.9rem;background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--tyrian);padding:.55rem .75rem;color:var(--text)}
+.notes .sr b{color:var(--tyrian)}
+.notes .rule{font-style:italic;color:var(--text-2)}
+@media (max-width:820px){.beat{grid-template-columns:1fr}}
+
+/* ── frames: simplified reproductions of the homepage's real states ── */
+.frame{position:relative;border:1px solid var(--rule-strong);background:var(--ground);overflow:hidden;box-shadow:0 2px 12px rgba(42,37,33,.1);font-size:.78rem;line-height:1.35;min-height:300px}
+.frame.phone{width:min(320px,100%);margin:0 auto;min-height:560px;border-radius:22px;border-width:6px;border-color:var(--text)}
+.f-plate{height:34px;background:var(--surface);border-bottom:1px solid var(--rule);display:flex;align-items:center;gap:.6rem;padding:0 .75rem;font-family:'Alegreya Sans',sans-serif}
+.f-plate .wm{font-family:'Alegreya',serif;font-weight:700;font-size:.86rem;color:var(--text)}
+.f-plate .wm em{font-weight:400}
+.f-plate .badge{margin:0 auto;font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-2)}
+.f-plate .nav{display:flex;gap:.6rem;font-size:.68rem}
+.f-plate .nav span{border-bottom:2px solid transparent}
+.f-plate .nav span.on{border-bottom-color:var(--action);color:var(--action)}
+.f-thesis{padding:.9rem .9rem .6rem;display:grid;grid-template-columns:auto 1fr;gap:.7rem;align-items:start}
+.f-thesis .mark{width:34px;height:34px}
+.f-thesis .mark circle.r{fill:none;stroke:var(--text);stroke-width:11;stroke-linecap:round;stroke-dasharray:260 100;stroke-dashoffset:-50}
+.f-thesis .ms{font-style:italic;font-size:.62rem;color:var(--text-2);max-width:6rem;line-height:1.3}
+.f-thesis h1{font-size:1.15rem;line-height:1.15;margin:0 0 .25rem}
+.f-thesis .l{font-size:.86rem;margin:0 0 .3rem}
+.f-thesis .o{font-family:'Alegreya Sans',sans-serif;color:var(--text-2);font-size:.7rem;margin:0 0 .4rem}
+.f-thesis .lg{display:flex;gap:.9rem;flex-wrap:wrap;font-family:'Alegreya Sans',sans-serif;font-size:.66rem}
+.f-thesis .lg b{font-weight:700}
+.f-axis{position:relative;height:18px;margin:0 .9rem;font-family:'Alegreya Sans',sans-serif;font-size:.56rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-2)}
+.f-axis span{position:absolute;top:0;transform:translateX(-50%)}
+.f-era{position:relative;background:var(--era1);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule-strong);margin:0 .9rem;padding-bottom:.6rem}
+.f-era.e2{background:var(--era2)}
+.f-erahead{display:flex;flex-wrap:wrap;gap:.1rem .7rem;align-items:baseline;padding:.45rem .6rem .35rem;border-bottom:1px solid var(--rule-strong);background:color-mix(in srgb,var(--era1) 86%,transparent)}
+.f-erahead .no{font-variant:small-caps;letter-spacing:.1em;font-weight:700;font-size:.72rem}
+.f-erahead .t{font-weight:700;font-size:.9rem}
+.f-erahead .tag{font-style:italic;flex-basis:100%;color:var(--ink-faded-ground);font-size:.7rem}
+.f-erahead .d{font-family:'Alegreya Sans',sans-serif;color:var(--ink-faded-ground);font-size:.66rem}
+.f-erahead .more{margin-left:auto;font-family:'Alegreya Sans',sans-serif;color:var(--action);font-size:.64rem}
+.f-canvas{position:relative;height:330px}
+.stop{position:absolute;width:160px;background:var(--surface);border:1px solid var(--rule-strong);border-left:3px solid var(--tint);border-radius:0 5px 5px 0;padding:.35rem .5rem .4rem .45rem;display:grid;grid-template-columns:auto 1fr;column-gap:.45rem;align-items:center;box-shadow:0 1px 2px rgba(42,37,33,.08)}
+.stop.wide{width:300px;grid-template-columns:auto 1fr auto}
+.stop .pt{grid-row:1/3;width:32px;height:32px;border-radius:50%;border:2px solid var(--tint);background:var(--gold-wash);display:grid;place-items:center;font-weight:700;color:var(--iron-gall);font-size:.9rem}
+.stop .nm{font-weight:700;font-size:.74rem;display:flex;gap:.25rem;align-items:center}
+.stop .nm svg{width:10px;height:10px}
+.stop .mt{font-family:'Alegreya Sans',sans-serif;font-size:.58rem;color:var(--ink-faded-ground)}
+.stop .mt i{display:block;font-family:'Alegreya',serif;font-size:.66rem;color:var(--text);font-style:italic}
+.stop .sp{grid-row:1/3;font-family:'Alegreya Sans',sans-serif;font-size:.54rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faded-ground);text-align:right}
+.stop.plans{background:color-mix(in srgb,var(--surface) 55%,transparent);border-style:dashed;border-left-style:solid}
+.stop.plans .pt{border-style:dashed;background:transparent}
+.stop.hot{box-shadow:0 0 0 2px var(--tint),0 4px 14px rgba(42,37,33,.16)}
+.stop.focus{outline:2px solid var(--action);outline-offset:3px}
+.dim .stop:not(.hot){opacity:.55}
+.threads{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.threads path{fill:none;stroke:var(--witness);stroke-width:1.6;opacity:.5}
+.threads path.wa{opacity:.38}
+.threads path.ct{stroke-dasharray:4 4}
+.threads path.hot{opacity:1;stroke-width:2.6}
+.dim .threads path:not(.hot){opacity:.12}
+.threads path.tail{stroke:var(--tint);stroke-width:2.4;opacity:.28}
+.glimpse{position:absolute;z-index:5;width:220px;background:var(--surface);border:1px solid var(--rule-strong);border-top:3px solid var(--tint);padding:.5rem .6rem;box-shadow:0 8px 24px rgba(42,37,33,.18);font-size:.7rem;line-height:1.4}
+.glimpse .n{font-weight:700;font-size:.8rem}
+.glimpse .t{font-family:'Alegreya Sans',sans-serif;color:var(--text-2);font-size:.64rem}
+.glimpse .w{font-style:italic;margin:.1rem 0 .2rem}
+.glimpse .s{font-family:'Alegreya Sans',sans-serif;font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;color:var(--witness);margin-top:.3rem}
+.glimpse .full{margin-top:.4rem;border:1px solid var(--action);color:var(--action);font-family:'Alegreya Sans',sans-serif;font-weight:600;padding:.35rem .5rem;text-align:center;font-size:.66rem}
+.panel{position:absolute;top:0;right:0;bottom:0;width:58%;background:var(--surface);border-left:2px solid var(--witness);padding:.7rem .9rem;box-shadow:-6px 0 26px rgba(42,37,33,.14);overflow:hidden;font-size:.72rem;line-height:1.45}
+.panel .x{position:absolute;top:.5rem;right:.5rem;width:26px;height:26px;border-radius:50%;border:1px solid var(--rule-strong);display:grid;place-items:center;font-size:.9rem}
+.panel .x.focus{outline:2px solid var(--action);outline-offset:2px}
+.panel .top{display:flex;gap:.6rem;align-items:flex-start;padding-right:2rem;margin-bottom:.5rem}
+.panel .pt{width:44px;height:44px;border-radius:50%;border:2px solid var(--tint);background:var(--gold-wash);display:grid;place-items:center;font-weight:700;font-size:1rem;color:var(--iron-gall);flex:none}
+.panel h2{font-size:1rem;margin:0;line-height:1.1}
+.panel .ti{font-family:'Alegreya Sans',sans-serif;color:var(--tint);font-size:.66rem}
+.panel .wo{font-style:italic}
+.panel .me{font-family:'Alegreya Sans',sans-serif;color:var(--text-2);font-size:.62rem}
+.panel .st{font-family:'Alegreya Sans',sans-serif;font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;color:var(--witness);margin-top:.2rem}
+.panel .tile{background:var(--gold-wash);border-left:3px solid var(--witness);padding:.45rem .55rem;color:var(--iron-gall);margin:0 0 .5rem}
+.panel h3{font-family:'Alegreya Sans',sans-serif;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--witness);margin:.6rem 0 .15rem;display:flex;align-items:center;gap:.4rem}
+.panel h3::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.panel p{margin:.15rem 0}
+.panel .doors{border-top:1px solid var(--rule);padding-top:.5rem;margin-top:.5rem}
+.panel .cta{font-family:'Alegreya Sans',sans-serif;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-2);margin:0 0 .35rem}
+.btn{display:inline-block;font-family:'Alegreya Sans',sans-serif;font-weight:600;font-size:.7rem;padding:.45rem .8rem;border-radius:3px;border:1.5px solid var(--madder);background:var(--madder);color:var(--vellum)}
+.btn.focus{outline:2px solid var(--action);outline-offset:2px}
+.quiet{display:block;margin-top:.4rem;font-family:'Alegreya Sans',sans-serif;font-size:.66rem;color:var(--action);border-bottom:1px solid var(--rule-strong);width:max-content}
+.fine{font-family:'Alegreya Sans',sans-serif;font-size:.6rem;color:var(--text-2);margin-top:.4rem}
+.edge{padding:.25rem 0;border-bottom:1px solid var(--rule)}
+.edge b{font-weight:700}
+.edge .cw{font-family:'Alegreya Sans',sans-serif;font-size:.52rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--text-2);color:var(--text-2);padding:0 .25rem;margin-left:.25rem}
+.edge .no{font-style:italic;color:var(--text-2);font-size:.66rem}
+.url{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.82rem;background:var(--surface);border:1px solid var(--rule);padding:.4rem .6rem;word-break:break-all;display:block;margin:.3rem 0}
+/* phone frame internals */
+.ph-rows{padding:.4rem .5rem}
+.ph-row{background:var(--surface);border:1px solid var(--rule-strong);border-left:3px solid var(--tint);border-radius:0 5px 5px 0;padding:.4rem .5rem;margin:0 0 .4rem;display:grid;grid-template-columns:auto 1fr;column-gap:.45rem;align-items:center}
+.ph-row .pt{grid-row:1/3;width:30px;height:30px;border-radius:50%;border:2px solid var(--tint);background:var(--gold-wash);display:grid;place-items:center;font-weight:700;color:var(--iron-gall)}
+.ph-row .nm{font-weight:700;font-size:.74rem}
+.ph-row .mt{font-family:'Alegreya Sans',sans-serif;font-size:.58rem;color:var(--ink-faded-ground)}
+.ph-row .mt i{display:block;font-family:'Alegreya',serif;font-size:.66rem;color:var(--text)}
+.ph-row.hot{box-shadow:0 0 0 2px var(--tint)}
+.ph-compressed{padding:.35rem .5rem;border-top:1px solid var(--rule-strong)}
+.ph-compressed .no{font-variant:small-caps;font-weight:700;letter-spacing:.08em;font-size:.66rem}
+.ph-compressed .c{font-family:'Alegreya Sans',sans-serif;font-size:.6rem;color:var(--ink-faded-ground)}
+.sheet{position:absolute;left:0;right:0;bottom:0;max-height:70%;background:var(--surface);border-top:2px solid var(--witness);border-radius:14px 14px 0 0;padding:.5rem .8rem;box-shadow:0 -6px 26px rgba(42,37,33,.2);font-size:.7rem;overflow:hidden}
+.sheet .grab{width:34px;height:4px;border-radius:2px;background:var(--rule-strong);margin:0 auto .4rem}
+.scrim{position:absolute;inset:0;background:rgba(30,24,18,.42)}
+.risks{border-top:1px solid var(--rule);padding-top:1.6rem;margin-top:1rem}
+.risks h2{font-size:1.5rem;margin:0 0 .6rem}
+.risks ol{padding-left:1.3rem;max-width:56rem}
+.risks li{margin:0 0 .7rem}
+.risks li b{font-weight:700}
+</style>
+</head>
+<body>
+<header class="top"><b>Church <em>in</em> Conversation</b> <span>Website V2 · Sandbox · D1 direction 02 — Atlas-First Spatial</span> <a href="homepage.html">the homepage mockup</a> <a href="README.md">the direction's README</a></header>
+<div class="wrap">
+<p class="eyebrow">The key inner journey</p>
+<h1>From the map to a chair: a visitor finds Theon</h1>
+<p class="lede">Eight beats, each drawn as a frame from <a href="homepage.html">homepage.html</a>. Three annotations under every frame: what the visitor sees, what a screen reader announces, and which inherited rule is in force. The visitor here is someone who has never heard of the project and never asked for Alexandria — they find it by walking down the page. Nothing in these frames is invented: the text is the census's own entry for the Alexandrian Catechetical tradition and its Representative, Theon.</p>
+
+<!-- ───────────────────────── BEAT 1 ───────────────────────── -->
+<section class="beat" aria-labelledby="b1">
+  <h2 id="b1"><span class="n">Beat 1 · 0 s</span>Arrival: the page is the map</h2>
+  <div class="frame" aria-label="Frame: the title plate, the thesis plate, and the top of Era I">
+    <div class="f-plate"><span class="wm">Church <em>in</em> Conversation</span><span class="badge">Era I · The Early Church Era · 70–312 CE</span><span class="nav"><span>Read as a list</span><span>How this was made</span><span>Get involved</span></span></div>
+    <div class="f-thesis">
+      <div><svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><circle class="r" cx="50" cy="50" r="31" pathLength="360"/><circle cx="88.5" cy="50" r="6.5" fill="#A13E2B"/></svg><div class="ms">The mark is a table; the opening is the way in — and it never closes.</div></div>
+      <div>
+        <h1>Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
+        <p class="l">A doorway to sit with the Christian movements of history.</p>
+        <p class="o">This page is the map. Time runs downward; west is to the left, east to the right. Every house is a Christian tradition you can sit down with today — seven so far. Hover to glimpse one; click to meet its Representative.</p>
+        <div class="lg"><span><b>House</b> — open for conversation. Seven so far.</span><span><b>Plans</b> — chosen, not yet built. Two.</span><span><b>Question</b> — under review.</span><span><b>Closed door</b> — grounds stated.</span></div>
+      </div>
+    </div>
+    <div class="f-axis"><span style="left:3%">Milan</span><span style="left:13%">Rome</span><span style="left:60%">Constantinople</span><span style="left:76%">Bethlehem</span><span style="left:93%">Nisibis</span></div>
+    <div class="f-era"><div class="f-erahead"><span class="no">Era I</span><span class="t">The Early Church Era</span><span class="tag">The apostles' children, under an empire that could turn on them</span><span class="d">70–312 CE</span><span class="more">All 21 traditions of this era on the full map →</span></div>
+      <div class="f-canvas" style="height:70px"><div class="stop wide" style="--tint:#7c3aed;left:22%;top:10px"><span class="pt">C</span><span class="nm"><svg viewBox="0 0 16 16"><path d="M2 8 L8 2 L14 8 M4 7 V14 H12 V7 M7 14 V10 H9 V14" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Chloe</span><span class="mt"><i>The House-Churches</i>70–200 CE · Antioch, Asia Minor, Rome</span><span class="sp">Antioch · Asia Minor · Rome</span></div></div>
+    </div>
+  </div>
+  <div class="notes">
+    <h3>What the visitor sees</h3>
+    <p>No hero, no button stack. The protected hook, the doorway line, and one orientation sentence — then a legend that is also the pitch: houses you can enter, plans, questions, and closed doors with their grounds stated. Beneath it, the first band of the map is already on screen: aged parchment, and one wide house spanning Antioch to Rome. The mark plays once, its sentence beside it, and never again.</p>
+    <h3>What a screen reader announces</h3>
+    <p class="sr"><b>Heading 1:</b> Twenty centuries of the Church. One table. A chair pulled out for you. · A doorway to sit with the Christian movements of history. · <b>List, How to read the map, 4 items.</b> · <b>Region:</b> Church in History — the map. Ten eras in order; the traditions you can sit down with are listed inside their eras.</p>
+    <h3>The rule in force</h3>
+    <p class="rule">Legend-as-thesis (the map thread's decided grammar, Full UX Design §5.2), the mark's public sentence said once at first contact (Logo Usage Sheet), and this direction's own law: the map is a view of a document. The DOM under this frame is an ordered list of eras, each an ordered list of stops.</p>
+  </div>
+</section>
+
+<!-- ───────────────────────── BEAT 2 ───────────────────────── -->
+<section class="beat" aria-labelledby="b2">
+  <h2 id="b2"><span class="n">Beat 2 · the first ten seconds</span>Reading the shape before reading a word</h2>
+  <div class="frame" aria-label="Frame: Era I with three houses, one plan, and the threads between them">
+    <div class="f-era" style="margin-top:.6rem"><div class="f-erahead"><span class="no">Era I</span><span class="t">The Early Church Era</span><span class="d">70–312 CE</span><span class="d">Destruction of the Temple (70) · Decian persecution (250) · Great Persecution begins (303)</span></div>
+      <div class="f-canvas">
+        <svg class="threads" viewBox="0 0 800 330" preserveAspectRatio="none" aria-hidden="true">
+          <path class="tail" style="--tint:#7c3aed" d="M376 62 v40"/>
+          <path class="tail" style="--tint:#2B5F8A" d="M500 150 v90"/>
+          <path class="tail" style="--tint:#b45309" d="M688 236 v80"/>
+          <path class="wa" d="M376 62 C 376 100, 500 80, 500 106"/>
+          <path class="ct" d="M376 62 C 376 140, 688 120, 688 192"/>
+        </svg>
+        <div class="stop wide" style="--tint:#7c3aed;left:22%;top:14px"><span class="pt">C</span><span class="nm">Chloe</span><span class="mt"><i>The House-Churches</i>70–200 CE · Antioch, Asia Minor, Rome</span><span class="sp">Antioch · Asia Minor · Rome</span></div>
+        <div class="stop focus" style="--tint:#2B5F8A;left:52%;top:106px"><span class="pt">T</span><span class="nm">Theon</span><span class="mt"><i>Alexandrian Christianity</i>c. 150–400 CE · Alexandria, Egypt</span></div>
+        <div class="stop" style="--tint:#b45309;left:76%;top:192px"><span class="pt">M</span><span class="nm">Mar Yausep</span><span class="mt"><i>Syriac Christianity</i>200–410 CE · Edessa &amp; Nisibis</span></div>
+        <div class="stop plans" style="--tint:#6C6257;left:4%;top:262px"><span class="pt">▦</span><span class="nm">Latin Pastoral</span><span class="mt">c. 240s–430 · Carthage, Hippo Regius<i style="font-style:normal;font-family:'Alegreya Sans',sans-serif;font-size:.54rem;letter-spacing:.05em;text-transform:uppercase">Chosen — not yet built</i></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h3>What the visitor sees</h3>
+    <p>The story is in the shape before any prose: everything hangs from the wide house at the top. Alexandria sits east and later; Edessa further east and later still, joined to the top by a dashed thread. Far west and low, a dashed plan — Carthage — with no portrait yet. Each stop's tail runs down for its lifetime. A visitor who reads only shapes has already learned the four messages: many movements, one origin; threads only where the record allows; a plan shown as a plan; and where the next build lands.</p>
+    <h3>What a screen reader announces</h3>
+    <p class="sr"><b>Heading 2:</b> The Early Church Era · Era I · 70–312 CE · 3 open for conversation, 1 chosen but not yet built. 17 more traditions from this era are on the full map. · <b>List, Era I stops, 4 items.</b> · <b>Button:</b> Chloe, Household Leader, The House-Churches, 70–200 CE, Antioch, Asia Minor, Rome. Open for conversation. Has popup dialog.</p>
+    <p>A keyboard visitor Tabs from the legend straight onto Chloe. Arrow-down moves to Theon, then Mar Yausep, then the plan — chronological order, because that is the DOM order. Home and End jump to the first and last stop on the whole map.</p>
+    <h3>The rule in force</h3>
+    <p class="rule">The Atlas's own invariants, inherited whole: no relationship rendered the census doesn't carry; confidence always in words (the dashed thread is <em>Contested</em> — and that word is inside Chloe's and Mar Yausep's entries); icons never the sole carrier of status. Vertical distance is ordinal, not to scale, exactly as atlas-v3 already declares.</p>
+  </div>
+</section>
+
+<!-- ───────────────────────── BEAT 3 ───────────────────────── -->
+<section class="beat" aria-labelledby="b3">
+  <h2 id="b3"><span class="n">Beat 3 · hover, or focus</span>The glimpse: hover is short</h2>
+  <div class="frame dim" aria-label="Frame: hovering Theon's stop opens the Level-2 glimpse and lights its lineage">
+    <div class="f-era" style="margin-top:.6rem"><div class="f-erahead"><span class="no">Era I</span><span class="t">The Early Church Era</span><span class="d">70–312 CE</span></div>
+      <div class="f-canvas" style="height:360px">
+        <svg class="threads" viewBox="0 0 800 360" preserveAspectRatio="none" aria-hidden="true">
+          <path class="wa hot" d="M376 62 C 376 100, 500 80, 500 106"/>
+          <path class="ct" d="M376 62 C 376 140, 688 120, 688 192"/>
+          <path class="wa hot" d="M500 150 C 500 250, 520 300, 520 400"/>
+          <path class="hot" d="M500 150 C 500 260, 640 320, 640 400"/>
+        </svg>
+        <div class="stop wide hot" style="--tint:#7c3aed;left:22%;top:14px"><span class="pt">C</span><span class="nm">Chloe</span><span class="mt"><i>The House-Churches</i>70–200 CE · Antioch, Asia Minor, Rome</span><span class="sp">Antioch · Asia Minor · Rome</span></div>
+        <div class="stop hot focus" style="--tint:#2B5F8A;left:52%;top:106px"><span class="pt">T</span><span class="nm">Theon</span><span class="mt"><i>Alexandrian Christianity</i>c. 150–400 CE · Alexandria, Egypt</span></div>
+        <div class="stop" style="--tint:#b45309;left:76%;top:192px"><span class="pt">M</span><span class="nm">Mar Yausep</span><span class="mt"><i>Syriac Christianity</i>200–410 CE · Edessa &amp; Nisibis</span></div>
+        <div class="glimpse" style="--tint:#2B5F8A;left:38%;top:168px">
+          <div class="n">Theon</div><div class="t">Catechetical Teacher · Alexandrian Christianity</div><div class="w">c. 150–400 CE · Alexandria, Egypt</div>
+          <div>Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.</div>
+          <div class="s">⌂ Open for conversation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h3>What the visitor sees</h3>
+    <p>The pointer rests on Theon. A vellum card opens beneath the stop — name, title, tradition, dates and place, the census teaser, the status in words. The threads that touch Alexandria come up to full strength and everything else on the canvas steps back to 55%: up to the house-churches (widely accepted), down to the Desert (widely accepted) and to Bethlehem (documented). Nothing dims to invisibility; nothing moves. Focus does exactly the same as hover, so the keyboard visitor gets the identical card.</p>
+    <h3>What a screen reader announces</h3>
+    <p class="sr"><b>Button:</b> Theon, Catechetical Teacher, Alexandrian Christianity, c. 150–400 CE, Alexandria, Egypt. Open for conversation. Has popup dialog. <b>Description:</b> Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth. Open for conversation.</p>
+    <h3>The rule in force</h3>
+    <p class="rule">Hover = short, click = full (Full UX Design §2.4) — no third verb. The glimpse is <code>role="tooltip"</code>, attached by <code>aria-describedby</code> only while shown; it never traps focus and Escape clears it. Trace-on-hover is the Atlas's existing behavior, kept; the 55% step-back replaces the Atlas's 18%, because on a page that is also the homepage the rest of the map must stay readable while one stop is examined.</p>
+  </div>
+</section>
+
+<!-- ───────────────────────── BEAT 4 ───────────────────────── -->
+<section class="beat" aria-labelledby="b4">
+  <h2 id="b4"><span class="n">Beat 4 · click, or Enter</span>Entering: click is full</h2>
+  <div class="frame" aria-label="Frame: the Level-3 side panel open on Theon, the map still live to its left" style="min-height:420px">
+    <div class="f-era" style="margin-top:.6rem;height:404px"><div class="f-erahead"><span class="no">Era I</span><span class="t">The Early Church Era</span><span class="d">70–312 CE</span></div>
+      <div class="f-canvas" style="height:340px">
+        <div class="stop wide" style="--tint:#7c3aed;left:6%;top:14px"><span class="pt">C</span><span class="nm">Chloe</span><span class="mt"><i>The House-Churches</i>70–200 CE</span><span class="sp">Antioch · Rome</span></div>
+        <div class="stop hot" style="--tint:#2B5F8A;left:16%;top:106px"><span class="pt">T</span><span class="nm">Theon</span><span class="mt"><i>Alexandrian Christianity</i>c. 150–400 CE · Alexandria, Egypt</span></div>
+      </div>
+    </div>
+    <div class="panel" style="--tint:#2B5F8A">
+      <span class="x focus" aria-hidden="true">×</span>
+      <div class="top"><span class="pt">T</span><div><h2>Theon</h2><div class="ti">Catechetical Teacher</div><div class="wo">Alexandrian Christianity — Alexandrian Catechetical Tradition</div><div class="me">c. 150–400 CE · Alexandria, Egypt · Africa</div><div class="st">⌂ Open for conversation</div></div></div>
+      <p class="tile">Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.</p>
+      <div class="doors"><p class="cta">Come and join us at the Table</p><span class="btn">Interview Theon</span><span class="quiet">Bring Theon to the Table →</span><p class="fine">The interview opens straight into the room. The Table seats Theon and waits for you to convene — nothing starts on its own.</p></div>
+      <h3>About this tradition</h3>
+      <p>Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the shape the city gave everything else — a school. Teachers received enquirers, catechumens preparing for baptism, and educated pagans curious about this new philosophy, and walked them through Scripture as a text with a surface and a depth…</p>
+      <h3>Major voices</h3>
+      <p>Pantaenus — the earliest teacher named in the tradition… · Clement of Alexandria — wrote for educated Greeks… · Origen — the tradition's towering figure…</p>
+    </div>
+  </div>
+  <div class="notes">
+    <h3>What the visitor sees</h3>
+    <p>A vellum panel slides in from the right — 440px, its own scroll, a gold-leaf rule on its edge. The map stays live behind it; the visitor can keep hovering other stops with the panel open. Top to bottom: portrait and name, title, tradition, dates and place, status; the teaser on a warm cream ground; then the two doors, <em>before</em> the long reading — because a visitor who already knows they want to sit down should never have to scroll past two thousand words to find the chair. Then the full entry: about, voices, legacy, where it stands on the Creed, lineage, visit today, sources.</p>
+    <h3>What a screen reader announces</h3>
+    <p class="sr"><b>Dialog:</b> Theon. <b>Button:</b> Close. (focus lands here) · Tab → <b>Link:</b> Interview Theon, opens in new tab · <b>Link:</b> Bring Theon to the Table · <b>Heading 3:</b> About this tradition …</p>
+    <p>Escape closes the panel and focus returns to Theon's stop on the map. The URL is now <code>#alexandria-catechetical</code> — a place on the map that can be sent to someone.</p>
+    <h3>The rule in force</h3>
+    <p class="rule">Level-3 surfaces are panels alongside, never centered modals (§2.4, §9.1 DECIDED). On desktop the panel is non-modal (<code>aria-modal="false"</code>), because the map — the primary surface — must stay reachable; on phone it becomes a bottom sheet and is modal. The two hand-offs and their friction gradient are Mark's launch ruling of 2026-08-28, unchanged: the interview is the frictionless door; the Table seats and never auto-starts.</p>
+  </div>
+</section>
+
+<!-- ───────────────────────── BEAT 5 ───────────────────────── -->
+<section class="beat" aria-labelledby="b5">
+  <h2 id="b5"><span class="n">Beat 5 · scrolling the entry</span>The lineage, in words</h2>
+  <div class="frame" aria-label="Frame: the panel's Lineage section" style="min-height:240px">
+    <div class="panel" style="--tint:#2B5F8A;width:100%;position:relative;box-shadow:none;border-left:0;min-height:240px">
+      <h3>Where it stands on the Creed</h3>
+      <p>Nothing in this tradition's confession diverges from the doctrine the Nicene Creed later stated. Some of Origen's more speculative proposals — about the pre-existence of souls and the final restoration of all things — were disputed in his own lifetime and formally condemned by a church council three centuries after his death.</p>
+      <h3>Lineage on this map</h3>
+      <div class="edge">Formed by <b style="color:var(--action);text-decoration:underline">House-Churches</b><span class="cw">Widely Accepted</span><div class="no">Egyptian Christianity's origins are obscure in detail, but its second-century emergence out of the same scattered network is broadly accepted.</div></div>
+      <div class="edge">Formed <b style="color:var(--action);text-decoration:underline">The Desert</b><span class="cw">Widely Accepted</span><div class="no">The desert movement grew in Alexandria's shadow; Athanasius of Alexandria wrote the Life of Antony that carried it to the world.</div></div>
+      <div class="edge">Passed on to <b style="color:var(--action);text-decoration:underline">Bethlehem Circle</b><span class="cw">Documented</span><div class="no">Origen's textual scholarship (the Hexapla) is the direct ancestor of Jerome's Hebrew-testing project — even as Jerome turned publicly against Origen's theology.</div></div>
+      <h3>Sources</h3>
+      <p class="no" style="font-style:italic;color:var(--text-2)">Rich (Clement, Origen); school-institution question is live scholarship. This tradition's full source registry grounds every claim the Representative makes — ask about sources directly in the conversation.</p>
+    </div>
+  </div>
+  <div class="notes">
+    <h3>What the visitor sees</h3>
+    <p>The three threads that lit up in Beat 3, now as three sentences, each with its confidence word in a small tag and the census note beneath. Each name is a jump: activating "The Desert" closes this panel, scrolls the map to Papnoute's stop in Era II, and opens his entry. The visitor is now walking the map from inside the document.</p>
+    <h3>What a screen reader announces</h3>
+    <p class="sr"><b>Heading 3:</b> Lineage on this map · Formed by, <b>button:</b> House-Churches, Widely Accepted. Egyptian Christianity's origins are obscure in detail… · Formed, <b>button:</b> The Desert, Widely Accepted…</p>
+    <h3>The rule in force</h3>
+    <p class="rule">"Confidence always in words" — the drawn thread is a picture of this paragraph, never the other way round. The Atlas's uniform template holds here (about, voices, legacy, Creed, lineage, visit, sources, status) so a built tradition and an unbuilt one read as the same kind of thing. The hover→click grammar inside the text (the jump links) is the same grammar as on the canvas.</p>
+  </div>
+</section>
+
+<!-- ───────────────────────── BEAT 6 ───────────────────────── -->
+<section class="beat" aria-labelledby="b6">
+  <h2 id="b6"><span class="n">Beat 6 · the decision</span>Two doors, one quieter than the other</h2>
+  <div class="frame" aria-label="Frame: the panel's two hand-offs" style="min-height:200px">
+    <div class="panel" style="--tint:#2B5F8A;width:100%;position:relative;box-shadow:none;border-left:0;min-height:200px">
+      <div class="doors" style="border-top:0;margin-top:0"><p class="cta">Come and join us at the Table</p><span class="btn focus">Interview Theon</span><span class="quiet">Bring Theon to the Table →</span><p class="fine">The interview opens straight into the room. The Table seats Theon and waits for you to convene — nothing starts on its own.</p></div>
+      <p style="margin-top:.8rem"><span class="url">https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview</span><span class="url">https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=table</span></p>
+    </div>
+  </div>
+  <div class="notes">
+    <h3>What the visitor sees</h3>
+    <p>One madder button and one quiet underlined link. The button says what it does with a name in it. The line beneath says plainly what each door does and what it doesn't — nothing starts on its own. Both open the app in a new tab, so the map is still there when the visitor comes back.</p>
+    <h3>What the site does not promise here</h3>
+    <p>No seated Living Table scene, no Representative Modes, no multi-voice Table — none of that is live in the app yet (D0 note §2.D). The copy describes exactly the two behaviors the app has today: the interview lands in the room; the Table field seats one Representative and waits. The homepage only ever suggests one seat, the same rule the Atlas already keeps.</p>
+    <h3>The rule in force</h3>
+    <p class="rule">Madder is the system's action accent; gold-leaf is the witnesses' pigment — the button is madder, the panel's rule is gold (§2.1). "Come and join us at the Table" is used verbatim, once, as the doors' label. Participation verbs only: meet, ask, join.</p>
+  </div>
+</section>
+
+<!-- ───────────────────────── BEAT 7 ───────────────────────── -->
+<section class="beat" aria-labelledby="b7">
+  <h2 id="b7"><span class="n">Beat 7 · on a phone</span>A different form, not a shrink</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem">
+    <div class="frame phone" aria-label="Phone frame 1: Era I as tappable rows">
+      <div class="f-plate"><span class="wm">Church <em>in</em> Conversation</span><span class="nav" style="margin-left:auto"><span>List</span><span>Involved</span></span></div>
+      <div class="f-erahead" style="margin:0"><span class="no">Era I</span><span class="t">The Early Church Era</span><span class="tag">The apostles' children, under an empire that could turn on them</span><span class="d">70–312 CE</span></div>
+      <div class="ph-rows" style="background:var(--era1)">
+        <div class="ph-row" style="--tint:#7c3aed"><span class="pt">C</span><span class="nm">⌂ Chloe</span><span class="mt"><i>The House-Churches</i>70–200 CE · Antioch, Asia Minor, Rome</span></div>
+        <div class="ph-row hot" style="--tint:#2B5F8A"><span class="pt">T</span><span class="nm">⌂ Theon</span><span class="mt"><i>Alexandrian Christianity</i>c. 150–400 CE · Alexandria, Egypt</span></div>
+        <div class="ph-row" style="--tint:#b45309"><span class="pt">M</span><span class="nm">⌂ Mar Yausep</span><span class="mt"><i>Syriac Christianity</i>200–410 CE · Edessa &amp; Nisibis</span></div>
+        <div class="ph-row" style="--tint:#6C6257;border-style:dashed;border-left-style:solid"><span class="pt" style="border-style:dashed;background:transparent">▦</span><span class="nm">Latin Pastoral</span><span class="mt">c. 240s–430 · Carthage, Hippo Regius<i style="font-style:normal;font-family:'Alegreya Sans',sans-serif;font-size:.54rem;text-transform:uppercase;letter-spacing:.05em">Chosen — not yet built</i></span></div>
+      </div>
+      <div class="f-erahead" style="margin:0;background:var(--era2)"><span class="no">Era II</span><span class="t">The Imperial Church Era</span><span class="d">312–451 CE</span></div>
+      <div class="ph-rows" style="background:var(--era2)"><div class="ph-row" style="--tint:#7A2E2E"><span class="pt">M</span><span class="nm">⌂ Marius</span><span class="mt"><i>Church and Empire</i>c. 312–451 · Rome, Constantinople, Milan</span></div></div>
+      <div class="ph-compressed" style="background:#EBDFC0"><span class="no">Era III · The Age of Monks and Empires · 451–622</span><div class="c">18 traditions on record · none built yet · See them on the full map →</div></div>
+    </div>
+    <div class="frame phone" aria-label="Phone frame 2: the tap popover with a Full entry action">
+      <div class="f-plate"><span class="wm">Church <em>in</em> Conversation</span></div>
+      <div class="ph-rows" style="background:var(--era1);padding-top:.6rem">
+        <div class="ph-row" style="--tint:#7c3aed"><span class="pt">C</span><span class="nm">⌂ Chloe</span><span class="mt"><i>The House-Churches</i>70–200 CE</span></div>
+        <div class="ph-row hot" style="--tint:#2B5F8A"><span class="pt">T</span><span class="nm">⌂ Theon</span><span class="mt"><i>Alexandrian Christianity</i>c. 150–400 CE · Alexandria, Egypt</span></div>
+        <div class="glimpse" style="--tint:#2B5F8A;position:relative;width:100%;margin:.2rem 0 .5rem">
+          <div class="n">Theon</div><div class="t">Catechetical Teacher · Alexandrian Christianity</div><div class="w">c. 150–400 CE · Alexandria, Egypt</div>
+          <div>Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.</div>
+          <div class="s">⌂ Open for conversation</div>
+          <div class="full">Full entry →</div>
+        </div>
+        <div class="ph-row" style="--tint:#b45309"><span class="pt">M</span><span class="nm">⌂ Mar Yausep</span><span class="mt"><i>Syriac Christianity</i>200–410 CE</span></div>
+      </div>
+    </div>
+    <div class="frame phone" aria-label="Phone frame 3: the bottom sheet, the full entry">
+      <div class="f-plate"><span class="wm">Church <em>in</em> Conversation</span></div>
+      <div class="ph-rows" style="background:var(--era1);padding-top:.6rem"><div class="ph-row" style="--tint:#7c3aed"><span class="pt">C</span><span class="nm">⌂ Chloe</span><span class="mt"><i>The House-Churches</i></span></div><div class="ph-row" style="--tint:#2B5F8A"><span class="pt">T</span><span class="nm">⌂ Theon</span><span class="mt"><i>Alexandrian Christianity</i></span></div></div>
+      <div class="scrim"></div>
+      <div class="sheet" style="--tint:#2B5F8A">
+        <div class="grab"></div>
+        <div class="top" style="display:flex;gap:.5rem;align-items:flex-start"><span class="pt" style="width:40px;height:40px;border-radius:50%;border:2px solid var(--tint);background:var(--gold-wash);display:grid;place-items:center;font-weight:700;color:var(--iron-gall);flex:none">T</span><div><h2 style="font-size:1rem;margin:0">Theon</h2><div class="ti" style="color:var(--tint);font-family:'Alegreya Sans',sans-serif;font-size:.66rem">Catechetical Teacher</div><div style="font-style:italic">Alexandrian Christianity</div><div class="st" style="font-family:'Alegreya Sans',sans-serif;font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;color:var(--witness)">⌂ Open for conversation</div></div><span class="x" style="position:absolute;top:.5rem;right:.5rem;width:26px;height:26px;border-radius:50%;border:1px solid var(--rule-strong);display:grid;place-items:center">×</span></div>
+        <p class="tile" style="background:var(--gold-wash);border-left:3px solid var(--witness);padding:.45rem .55rem;color:var(--iron-gall);margin:.4rem 0">Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading…</p>
+        <p class="cta" style="font-family:'Alegreya Sans',sans-serif;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-2);margin:0 0 .35rem">Come and join us at the Table</p>
+        <span class="btn" style="display:block;text-align:center">Interview Theon</span><span class="quiet">Bring Theon to the Table →</span>
+        <h3 style="font-family:'Alegreya Sans',sans-serif;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--witness);margin:.6rem 0 .15rem">About this tradition</h3>
+        <p>Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the shape the city gave everything else — a school…</p>
+      </div>
+    </div>
+  </div>
+  <div class="notes" style="grid-column:1/-1">
+    <h3>What the visitor sees</h3>
+    <p>Below 640px there is no canvas. The same DOM flows as the constitution's era-accordion: era heads on their grounds, stops as full-width tappable rows in chronological order, Eras III–X as one-line bands with their counts. There is nothing to pinch, nothing to pan, no horizontal scroll anywhere. First tap on a row opens the popover in place with a "Full entry →" action; the second tap, or that action, opens the bottom sheet with the whole entry and the same two doors.</p>
+    <h3>The rule in force</h3>
+    <p class="rule">Full UX Design §5.2 and §7.2 — "the map → era-accordion below 640px: a different form, not a shrink" — and §2.4's phone grammar: tap = the Level-2 popover with one "Full entry →" action; Level-3 = bottom sheet; tap-elsewhere dismisses; no long-press, no new verb. Every row is a 44px-plus target. This is the point at which atlas-v3's six rounds of pinch-zoom trouble simply do not exist, because the direction's phone form has no map to zoom.</p>
+  </div>
+</section>
+
+<!-- ───────────────────────── BEAT 8 ───────────────────────── -->
+<section class="beat" aria-labelledby="b8">
+  <h2 id="b8"><span class="n">Beat 8 · coming back</span>A stop is a place: it can be returned to and sent</h2>
+  <div class="frame" aria-label="Frame: the title plate with the year badge, and the list view" style="min-height:220px">
+    <div class="f-plate"><span class="wm">Church <em>in</em> Conversation</span><span class="badge">Era II · The Imperial Church Era · 312–451 CE</span><span class="nav"><span class="on">Show the map</span><span>How this was made</span><span>Get involved</span></span></div>
+    <div style="padding:.8rem .9rem"><span class="url">https://churchinconversation.com/#alexandria-catechetical</span>
+      <div class="f-erahead" style="background:var(--era2);margin-top:.5rem"><span class="no">Era II</span><span class="t">The Imperial Church Era</span><span class="d">312–451 CE</span></div>
+      <div style="background:var(--era2);display:grid;grid-template-columns:1fr 1fr;gap:.5rem;padding:.5rem">
+        <div class="ph-row" style="--tint:#7A2E2E;margin:0"><span class="pt">M</span><span class="nm">⌂ Marius</span><span class="mt"><i>Church and Empire</i>c. 312–451</span></div>
+        <div class="ph-row" style="--tint:#0f766e;margin:0"><span class="pt">P</span><span class="nm">⌂ Papnoute</span><span class="mt"><i>Desert Fathers and Mothers</i>c. 320–430 CE</span></div>
+        <div class="ph-row" style="--tint:#A0522D;margin:0"><span class="pt">C</span><span class="nm">⌂ Chilo</span><span class="mt"><i>The Cappadocian Churches</i>c. 325–394 CE</span></div>
+        <div class="ph-row" style="--tint:#9d174d;margin:0"><span class="pt">A</span><span class="nm">⌂ Albina</span><span class="mt"><i>The Bethlehem Circle</i>c. 382–420 CE</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h3>What the visitor sees</h3>
+    <p>Three things that make a map habitable rather than merely impressive. The year badge in the title plate always names the era under the viewport's center — "where am I" is never a guess. "Read as a list" strips the spatial layer on any screen and is remembered for that browser. And every entry's URL is a fragment — <code>#alexandria-catechetical</code> — so a stop can be bookmarked or sent to a friend and re-opens exactly where it was found.</p>
+    <h3>What a screen reader announces</h3>
+    <p class="sr"><b>Polite announcement, on scroll:</b> Era II · The Imperial Church Era · 312–451 CE. · <b>Toggle button, pressed:</b> Show the map.</p>
+    <h3>The rule in force</h3>
+    <p class="rule">WCAG 2.2 — 2.4.8 Location (AAA, adopted as binding for the map region in this direction's README §6), 2.4.11 Focus Not Obscured (the sticky plates never cover a focused stop; every stop carries a scroll margin), and the Atlas's own shareable-view discipline (deep links, replaceState, never history spam).</p>
+  </div>
+</section>
+
+<section class="risks" aria-labelledby="risks-h">
+  <h2 id="risks-h">Where this journey could fail — named, for D2 to attack</h2>
+  <ol>
+    <li><b>The visitor who wants to be told what to do.</b> There is no "Start here" button above the map. The thesis plate's orientation line and the seven houses are the answer, and "Prefer a list?" is the fallback — but a visitor who reads nothing and wants a single button has to find a stop. This is the direction's largest bet and it should be tested with real first-time visitors, not argued.</li>
+    <li><b>Search.</b> With seven stops, the homepage carries no search; the full map does. The map study's own lesson — search-first beats browse-first when someone has a specific answer in mind — applies the moment the homepage carries more than roughly a dozen stops. A build rule, not a maybe: the next wave of traditions brings search onto the homepage plate.</li>
+    <li><b>Hover on trackpad-less laptops and pen devices.</b> Focus covers keyboard users and tap covers touch, but a pointer with no hover state (some pen and hybrid devices) gets neither the glimpse nor the trace until it taps. Acceptable, because tap still reaches the full entry; not ideal.</li>
+    <li><b>Reading order on the wide stops.</b> The origin band and the Church-and-Empire band span half the canvas; a low-vision visitor at 300% zoom sees them as ordinary cards (the canvas collapses to the list form under 900px CSS width), which is correct but loses the "everything hangs from here" picture. The words carry it; the picture does not.</li>
+    <li><b>Two plates, one page.</b> About and Get Involved are plates at the map's edge, not pages. A visitor arriving from a search result for "who runs this" lands on a map, not a paragraph. The skip link "Skip past the map" and the plate anchors mitigate; they do not remove the cost.</li>
+  </ol>
+</section>
+</div>
+</body>
+</html>

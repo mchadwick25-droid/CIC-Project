@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Church in Conversation — the map is the doorway</title>
+<meta name="description" content="Twenty centuries of the Church laid out as one map. Every house on it is a Christian tradition you can sit down with today. Hover to glimpse, click to enter.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<!--
+  ═══════════════════════════════════════════════════════════════════════
+  WEBSITE V2 · D1 DIRECTION 02 — ATLAS-FIRST SPATIAL · homepage mockup
+  Sandbox artifact. Not deployed, not linked. Self-contained: no build,
+  no framework, no fetch (the seven live worlds, the two chosen-not-yet-
+  built worlds, the six census edges among the live worlds, and the ten
+  eras are embedded verbatim from cic-website/data/world-census.json —
+  a production build reads that file live, exactly as atlas-v3 does).
+
+  THE PHILOSOPHY, IN ONE LINE: the homepage IS the map. There is no hero,
+  no CTA stack, no Home/About/Support hierarchy. The visitor lands on
+  twenty centuries and walks down them; every Representative is a stop
+  discovered on the way; About and Get Involved are plates on the same
+  canvas, reached by scrolling to them, not pages reached by leaving.
+
+  GRAMMAR (inherited, not invented — Full UX Design V1.0 §2.4/§5.2):
+    desktop  hover = short (Level-2 glimpse)   click = full (Level-3 panel)
+    phone    tap   = popover + "Full entry →"  tap-through = bottom sheet
+    keyboard focus = short                     Enter/Space = full
+    Level-3 is a side panel alongside the map on desktop, a bottom sheet
+    on phone — never a centered modal. Esc/× closes, focus returns.
+
+  THE NON-VISUAL RULE (this direction's own law): the map is a VIEW of a
+  document, never the document. The DOM is an ordered list of eras and
+  stops in chronological order; CSS positions it spatially on wide
+  screens. Every fact carried by position, color, or a drawn thread is
+  also stated in words inside the DOM. "Read as a list" removes the
+  spatial layer and nothing is lost. Below 640px the list form is the
+  only form (the constitution's era-accordion: a different form, not a
+  shrink).
+
+  PALETTE CONVERGENCE (D0 note §2.C — paid down here, not deferred):
+  chrome runs on the brand tokens (parchment / vellum / iron-gall /
+  madder-as-action / gold-leaf-as-witness); era bands use the ten
+  APPROVED grounds from the World Icon & Table Template Spec §7 — not
+  the three-value cycle world-census.json currently carries for eras
+  II–X (a data seam, flagged in this direction's README). Georgia is
+  gone; Alegreya + Alegreya Sans throughout.
+
+  Portraits load from the live site's assets by relative path so the
+  mockup shows the real locked portraits when opened from a checkout,
+  and degrades to a tinted initial when it can't reach them.
+  ═══════════════════════════════════════════════════════════════════════
+-->
+<style>
+/* ── tokens: the brand system, verbatim (FINAL) ─────────────────────── */
+:root{
+  --parchment:#F7F3EB; --vellum:#FEFCF8; --iron-gall:#2A2521; --ink-faded:#6C6257;
+  --rule:#E6DFD3; --rule-strong:rgba(42,37,33,.22);
+  --madder:#A13E2B; --madder-deep:#7E2F20; --gold-leaf:#B45309; --gold-wash:#FBF2E2;
+  --lapis:#1E40AF; --tyrian:#6B3FA0; --graphite:#8A837C;
+  /* proposed addition for this direction (README §5): secondary ink for
+     text that sits ON an era ground. --ink-faded measures 4.45:1 on the
+     Era I ground — under AA. This value measures ≥7.2:1 on all ten. */
+  --ink-faded-ground:#4A433C;
+  /* the ten APPROVED era grounds (Icon & Table Template Spec §7) */
+  --era1:#EFDDB3; --era2:#EDDEB9; --era3:#EBDFC0; --era4:#E9E0C6; --era5:#E7E1CC;
+  --era6:#E6E3D3; --era7:#E4E4D9; --era8:#E2E5DF; --era9:#E0E6E6; --era10:#DEE7EC;
+  --text:var(--iron-gall); --text-2:var(--ink-faded); --ground:var(--parchment); --surface:var(--vellum);
+  --action:var(--madder); --action-hover:var(--madder-deep); --witness:var(--gold-leaf);
+  --focus:var(--madder); --thread:var(--gold-leaf);
+  --plate-h:56px; --row-h:150px; --era-head:78px; --stop-w:232px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --text:#F1E9DD; --text-2:#B8AEA1; --ink-faded-ground:#B8AEA1; --ground:#17130F; --surface:#1E1913;
+    --rule:rgba(241,233,221,.16); --rule-strong:rgba(241,233,221,.3);
+    --action:#E08C74; --action-hover:#F0A98F; --witness:#E0A458; --focus:#E08C74; --thread:#E0A458;
+    --era1:#241A0C; --era2:#221A0E; --era3:#201A10; --era4:#1F1A13; --era5:#1D1A15;
+    --era6:#1C1A17; --era7:#1A1A19; --era8:#181A1C; --era9:#171A1E; --era10:#141A20;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--plate-h) + 12px)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--ground);color:var(--text);font-family:'Alegreya','Iowan Old Style',Georgia,serif;font-size:1.0625rem;line-height:1.65}
+a{color:var(--action)}
+a:hover{color:var(--action-hover)}
+.sans{font-family:'Alegreya Sans','Trebuchet MS',sans-serif}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--iron-gall);color:var(--vellum);padding:.6rem 1rem;z-index:100;font-family:'Alegreya Sans',sans-serif}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+
+/* ── the title plate (sticky, thin — the whole persistent chrome) ───── */
+.plate-title{position:sticky;top:0;z-index:40;height:var(--plate-h);background:var(--surface);border-bottom:1px solid var(--rule);display:flex;align-items:center;gap:1rem;padding:0 1.25rem}
+.plate-title .wordmark{font-family:'Alegreya',Georgia,serif;font-weight:700;font-size:1.2rem;color:var(--text);text-decoration:none;letter-spacing:.01em;white-space:nowrap}
+.plate-title .wordmark em{font-style:italic;font-weight:400}
+#yearBadge{margin:0 auto;font-family:'Alegreya Sans',sans-serif;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-2);text-align:center;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.plate-nav{display:flex;align-items:center;gap:.25rem;font-family:'Alegreya Sans',sans-serif;font-size:.92rem}
+.plate-nav a,.plate-nav button{color:var(--text);text-decoration:none;background:none;border:0;font:inherit;padding:.55rem .55rem;border-bottom:2px solid transparent;cursor:pointer;min-height:44px;display:inline-flex;align-items:center;gap:.35rem}
+.plate-nav a:hover,.plate-nav button:hover{border-bottom-color:var(--action)}
+.plate-nav button[aria-pressed="true"]{border-bottom-color:var(--action);color:var(--action)}
+.plate-nav svg{width:14px;height:14px}
+@media (max-width:640px){
+  .plate-title{padding:0 .8rem;gap:.5rem}
+  #yearBadge{display:none}
+  .plate-nav{font-size:.86rem}
+  .plate-nav .hide-sm{display:none}
+}
+
+/* ── the "Arriving" mark — motion per the Logo Usage Sheet (plays once) ─ */
+.arriving-mark svg{display:block;width:56px;height:56px;color:var(--text)}
+.arriving-mark .ring{fill:none;stroke:currentColor;stroke-width:11;stroke-linecap:round;stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}
+.arriving-mark .seat{fill:var(--madder);transform-origin:88.5px 50px;transform:translate(0,-6px)}
+@media (prefers-color-scheme:dark){.arriving-mark .seat{fill:#CB6E52}}
+.arriving-mark.play .ring{animation:cic-buildC 1300ms cubic-bezier(.4,0,.2,1) 800ms both}
+.arriving-mark.play .seat{animation:cic-sitdown 600ms cubic-bezier(.3,0,.35,1.4) 2400ms both,cic-breath 5.5s ease-in-out 3750ms infinite}
+@keyframes cic-buildC{0%{stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}4%{opacity:1}100%{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}}
+@keyframes cic-sitdown{0%{transform:translate(0,-6px)}62%{transform:translate(0,1px) scale(1.1,.86)}100%{transform:translate(0,0) scale(1,1)}}
+@keyframes cic-breath{0%,100%{opacity:1}50%{opacity:.76}}
+@media (prefers-reduced-motion:reduce){
+  .arriving-mark.play .ring,.arriving-mark.play .seat{animation:none}
+  .arriving-mark .ring{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
+  .arriving-mark .seat{transform:translate(0,0)}
+}
+
+/* ── the thesis plate: the legend is the pitch ───────────────────────── */
+.thesis{max-width:64rem;margin:0 auto;padding:2.6rem 1.5rem 1.6rem;display:grid;grid-template-columns:auto 1fr;gap:1.2rem 1.6rem;align-items:start}
+.thesis .lockup{display:flex;flex-direction:column;gap:.5rem;max-width:11rem}
+.thesis .mark-sentence{font-style:italic;font-size:.92rem;color:var(--text-2);line-height:1.45;margin:0}
+.thesis h1{font-size:clamp(1.9rem,3.6vw,2.7rem);line-height:1.12;margin:0 0 .7rem;text-wrap:balance;font-weight:700}
+.thesis .lede{font-size:1.22rem;margin:0 0 .9rem;color:var(--text)}
+.thesis .orient{font-family:'Alegreya Sans',sans-serif;font-size:1rem;color:var(--text-2);margin:0 0 1.2rem;max-width:44rem}
+.legend{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.5rem 1.4rem;font-family:'Alegreya Sans',sans-serif;font-size:.95rem}
+.legend li{display:flex;gap:.55rem;align-items:flex-start;line-height:1.4}
+.legend svg{flex:none;width:18px;height:18px;margin-top:.15rem;color:var(--text)}
+.legend b{font-weight:700}
+.legend .n{color:var(--text-2)}
+.thesis .silence{grid-column:1/-1;margin:.6rem 0 0;font-style:italic;color:var(--text-2);border-top:1px solid var(--rule);padding-top:.9rem;display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;align-items:baseline;justify-content:space-between}
+.thesis .silence button{font:inherit;font-family:'Alegreya Sans',sans-serif;font-style:normal;font-size:.92rem;color:var(--action);background:none;border:0;padding:.4rem 0;cursor:pointer;text-decoration:underline;text-decoration-color:var(--rule-strong);text-underline-offset:3px}
+.thesis .silence button:hover{text-decoration-color:currentColor}
+@media (max-width:640px){
+  .thesis{grid-template-columns:1fr;padding:1.8rem 1rem 1.2rem}
+  .thesis .lockup{flex-direction:row;align-items:center;max-width:none}
+  .arriving-mark svg{width:44px;height:44px}
+}
+
+/* ── the atlas region ─────────────────────────────────────────────────── */
+.atlas{position:relative;max-width:1180px;margin:0 auto;padding:0 1.5rem 1rem}
+.axis{position:relative;height:38px;margin:0 0 .35rem;font-family:'Alegreya Sans',sans-serif;font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-2)}
+.axis .tick{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap;padding-top:14px}
+.axis .tick::before{content:"";position:absolute;top:0;left:50%;width:1px;height:10px;background:var(--rule-strong)}
+.axis .end{position:absolute;top:14px;font-weight:700}
+.axis .end.w{left:0}.axis .end.e{right:0}
+.eras{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule-strong)}
+.era{position:relative;background:var(--eg);border-bottom:1px solid var(--rule-strong);min-height:calc(var(--era-head) + var(--rows) * var(--row-h) + 36px);
+  --eg:var(--parchment)}
+.era--1{--eg:var(--era1)}.era--2{--eg:var(--era2)}.era--3{--eg:var(--era3)}.era--4{--eg:var(--era4)}.era--5{--eg:var(--era5)}
+.era--6{--eg:var(--era6)}.era--7{--eg:var(--era7)}.era--8{--eg:var(--era8)}.era--9{--eg:var(--era9)}.era--10{--eg:var(--era10)}
+.era--compressed{min-height:0}
+.erahead{position:sticky;top:var(--plate-h);z-index:5;display:flex;flex-wrap:wrap;gap:.15rem 1rem;align-items:baseline;padding:.75rem 1rem .6rem;
+  background:color-mix(in srgb,var(--eg) 86%,transparent);backdrop-filter:blur(2px);border-bottom:1px solid var(--rule-strong)}
+.erahead .no{font-family:'Alegreya',serif;font-variant:small-caps;letter-spacing:.12em;font-weight:700;font-size:1rem;color:var(--text)}
+.erahead .title{font-size:1.25rem;font-weight:700;margin:0}
+.erahead .tag{font-style:italic;color:var(--ink-faded-ground);flex-basis:100%;font-size:1rem}
+.erahead .dates,.erahead .events{font-family:'Alegreya Sans',sans-serif;font-size:.9rem;color:var(--ink-faded-ground)}
+.erahead .more{margin-left:auto;font-family:'Alegreya Sans',sans-serif;font-size:.9rem;color:var(--action);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.erahead .more:hover{border-bottom-color:currentColor}
+.era--compressed .erahead{position:static;background:none;backdrop-filter:none;border-bottom:0;padding-bottom:.2rem}
+.era--compressed .count{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;color:var(--ink-faded-ground);padding:0 1rem .9rem;margin:0;display:flex;flex-wrap:wrap;gap:.2rem 1rem;align-items:baseline}
+.era--compressed .count a{color:var(--action);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.era--compressed .count a:hover{border-bottom-color:currentColor}
+.era--compressed .count .note{flex-basis:100%;font-family:'Alegreya',serif;font-style:italic;color:var(--ink-faded-ground)}
+
+/* stops — the list items, positioned by CSS on wide screens */
+.stops{list-style:none;margin:0;padding:0}
+.stop{position:absolute;width:var(--w,var(--stop-w));left:calc(var(--x) - var(--w,var(--stop-w)) / 2);top:calc(var(--era-head) + var(--row) * var(--row-h) + 14px);scroll-margin-top:calc(var(--plate-h) + 80px)}
+.stop__btn{display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:.7rem;align-items:center;width:100%;min-height:44px;text-align:left;font:inherit;color:var(--text);
+  background:var(--surface);border:1px solid var(--rule-strong);border-left:4px solid var(--tint);border-radius:0 6px 6px 0;padding:.55rem .75rem .6rem .65rem;cursor:pointer;
+  box-shadow:0 1px 2px rgba(42,37,33,.08);transition:box-shadow .15s ease,transform .15s ease}
+.stop__btn:hover,.stop__btn:focus-visible,.stop.is-hot .stop__btn{box-shadow:0 0 0 2px var(--tint),0 4px 14px rgba(42,37,33,.16)}
+@media (prefers-reduced-motion:no-preference){.stop__btn:hover,.stop__btn:focus-visible{transform:translateY(-1px)}}
+.stop__btn:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.stop__portrait{grid-row:1/3;width:52px;height:52px;border-radius:50%;overflow:hidden;border:2px solid var(--tint);background:var(--gold-wash);display:grid;place-items:center;flex:none}
+.stop__portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
+.stop__portrait .initial{font-family:'Alegreya',serif;font-weight:700;font-size:1.3rem;color:var(--iron-gall)}
+.stop__name{display:flex;align-items:center;gap:.4rem;font-weight:700;font-size:1.02rem;line-height:1.2}
+.stop__name svg{width:14px;height:14px;flex:none;color:var(--text)}
+.stop__meta{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;line-height:1.35;color:var(--ink-faded-ground)}
+.stop__meta .w{display:block;font-style:italic;font-family:'Alegreya',serif;font-size:.92rem;color:var(--text)}
+.stop--wide .stop__btn{grid-template-columns:auto 1fr auto}
+.stop--wide .stop__span{grid-row:1/3;font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faded-ground);text-align:right;line-height:1.35;align-self:center}
+.stop--plans .stop__btn{background:color-mix(in srgb,var(--surface) 55%,transparent);border-style:dashed;border-left-style:solid}
+.stop--plans .stop__portrait{border-style:dashed;background:transparent}
+.stop--plans .stop__portrait svg{width:24px;height:24px;color:var(--text)}
+.stop__status{grid-column:2/-1;font-family:'Alegreya Sans',sans-serif;font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faded-ground);margin-top:.2rem}
+.stop--journey{font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faded-ground);position:absolute;white-space:nowrap}
+.stop--journey .pin{display:inline-block;width:9px;height:9px;border-radius:50%;border:2px solid var(--tint);vertical-align:-1px;margin-right:.35rem;background:var(--surface)}
+
+/* threads — drawn only where the census carries a relationship */
+.threads{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;overflow:visible}
+.threads path.thread{fill:none;stroke:var(--thread);stroke-width:2;opacity:.55;pointer-events:stroke;transition:opacity .15s,stroke-width .15s}
+.threads path.thread.c-contested{stroke-dasharray:5 5}
+.threads path.thread.c-widely{opacity:.42}
+.threads path.thread.t-contemporary{stroke-dasharray:1.5 5;stroke-linecap:round}
+.threads path.thread.is-hot{opacity:1;stroke-width:3.2}
+.threads path.tail{fill:none;stroke:var(--tint);stroke-width:3;opacity:.28;stroke-linecap:butt}
+.threads path.journey{fill:none;stroke:var(--tint);stroke-width:1.5;stroke-dasharray:2 5;opacity:.7;stroke-linecap:round}
+.atlas.is-tracing .stop:not(.is-hot) .stop__btn{opacity:.55}
+.atlas.is-tracing .threads path.thread:not(.is-hot){opacity:.12}
+@media (prefers-reduced-motion:reduce){.threads path,.stop__btn{transition:none}}
+
+/* the Level-2 glimpse */
+#glimpse{position:fixed;z-index:60;max-width:300px;background:var(--surface);color:var(--text);border:1px solid var(--rule-strong);border-top:3px solid var(--tint,var(--witness));padding:.7rem .85rem .75rem;box-shadow:0 8px 24px rgba(42,37,33,.18);font-size:.94rem;line-height:1.45}
+#glimpse[hidden]{display:none}
+#glimpse .g-n{font-weight:700;font-size:1rem}
+#glimpse .g-t{font-family:'Alegreya Sans',sans-serif;color:var(--text-2);font-size:.85rem}
+#glimpse .g-w{font-style:italic;margin:.15rem 0 .25rem}
+#glimpse .g-c{font-size:.92rem}
+#glimpse .g-s{font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--witness);margin-top:.4rem}
+#glimpse .g-full{display:none;margin-top:.5rem;font:inherit;font-family:'Alegreya Sans',sans-serif;font-weight:600;font-size:.9rem;color:var(--action);background:none;border:1px solid var(--action);padding:.5rem .8rem;min-height:44px;cursor:pointer;width:100%}
+@media (hover:none){#glimpse .g-full{display:block}}
+
+/* the Level-3 panel: side panel on desktop, bottom sheet on phone */
+#scrim{position:fixed;inset:0;background:rgba(30,24,18,.42);z-index:70;display:none}
+#scrim.on{display:block}
+#panel{position:fixed;top:0;right:0;bottom:0;width:min(440px,94vw);z-index:80;background:var(--surface);color:var(--text);border-left:2px solid var(--witness);overflow-y:auto;padding:1.1rem 1.4rem 2rem;transform:translateX(105%);transition:transform .22s ease;box-shadow:-6px 0 26px rgba(42,37,33,.14)}
+#panel.on{transform:none}
+#panel[hidden]{display:none}
+@media (prefers-reduced-motion:reduce){#panel{transition:none}}
+#panel .p-close{position:sticky;top:0;float:right;margin:-.2rem -.4rem 0 0;width:40px;height:40px;border-radius:50%;border:1px solid var(--rule-strong);background:var(--surface);color:var(--text);font-size:1.25rem;line-height:1;cursor:pointer;z-index:1}
+#panel .p-top{display:flex;gap:.9rem;align-items:flex-start;padding-right:2.5rem;margin:0 0 .9rem}
+#panel .p-portrait{width:76px;height:76px;border-radius:50%;overflow:hidden;border:2px solid var(--tint);background:var(--gold-wash);display:grid;place-items:center;flex:none}
+#panel .p-portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
+#panel .p-portrait .initial{font-weight:700;font-size:1.6rem}
+#panel h2{font-size:1.45rem;margin:0 0 .1rem;line-height:1.15}
+#panel .p-title{font-family:'Alegreya Sans',sans-serif;color:var(--tint-text,var(--text-2));font-size:.9rem;margin:0 0 .3rem}
+#panel .p-world{font-style:italic;margin:0}
+#panel .p-meta{font-family:'Alegreya Sans',sans-serif;font-size:.85rem;color:var(--text-2);margin:.2rem 0 0}
+#panel .p-status{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--witness);margin:.35rem 0 0;display:flex;gap:.4rem;align-items:center}
+#panel .p-status svg{width:14px;height:14px}
+#panel .p-tile{font-size:1rem;line-height:1.55;margin:0 0 1rem;padding:.8rem .95rem;background:var(--gold-wash);border-left:3px solid var(--witness);color:var(--iron-gall)}
+#panel h3{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--witness);margin:1.1rem 0 .3rem;display:flex;align-items:center;gap:.5rem}
+#panel h3::after{content:"";flex:1;border-top:1px solid var(--rule)}
+#panel p{margin:.25rem 0;font-size:.97rem;line-height:1.55}
+#panel .p-note{font-style:italic;color:var(--text-2);font-size:.9rem}
+#panel .edge{padding:.35rem 0;border-bottom:1px solid var(--rule);font-size:.93rem}
+#panel .edge:last-child{border-bottom:0}
+#panel .edge b{font-weight:700}
+#panel .edge .cw{font-family:'Alegreya Sans',sans-serif;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--text-2);color:var(--text-2);padding:.02rem .35rem;margin-left:.3rem;white-space:nowrap;vertical-align:1px}
+#panel .edge .jump{font:inherit;color:var(--action);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-decoration-color:var(--rule-strong);text-underline-offset:3px}
+#panel .edge .jump:hover{text-decoration-color:currentColor}
+#panel .p-doors{margin-top:1.3rem;padding-top:1rem;border-top:1px solid var(--rule)}
+#panel .p-doors .cta-label{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-2);margin:0 0 .6rem}
+.btn{display:inline-block;font-family:'Alegreya Sans',sans-serif;font-weight:600;font-size:.95rem;padding:.8rem 1.4rem;border-radius:4px;text-decoration:none;border:1.5px solid var(--madder);min-height:44px;line-height:1.3}
+.btn.primary{background:var(--madder);color:var(--vellum)}
+.btn.primary:hover{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
+.btn.secondary{background:transparent;color:var(--action);border-color:var(--action)}
+.btn.secondary:hover{background:rgba(161,62,43,.07)}
+#panel .p-doors .quiet{display:block;margin-top:.7rem;font-family:'Alegreya Sans',sans-serif;font-size:.9rem;color:var(--action);text-decoration:none;border-bottom:1px solid var(--rule-strong);width:max-content;max-width:100%}
+#panel .p-doors .quiet:hover{border-bottom-color:currentColor}
+#panel .p-doors .fine{font-family:'Alegreya Sans',sans-serif;font-size:.82rem;color:var(--text-2);margin-top:.8rem}
+#panel .grab{display:none}
+@media (max-width:640px){
+  #panel{top:auto;left:0;right:0;bottom:0;width:100%;max-height:86vh;border-left:0;border-top:2px solid var(--witness);border-radius:14px 14px 0 0;transform:translateY(105%);padding:.6rem 1.1rem 1.6rem;box-shadow:0 -6px 26px rgba(42,37,33,.2)}
+  #panel .grab{display:block;width:38px;height:4px;border-radius:2px;background:var(--rule-strong);margin:0 auto .55rem}
+}
+
+/* ── LIST VIEW and the phone form: the same DOM, the spatial layer removed ─ */
+body.list-view .axis,body.list-view .threads{display:none}
+body.list-view .era{min-height:0}
+body.list-view .stops{padding:.4rem 1rem 1rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:.7rem}
+body.list-view .stop{position:static;width:auto}
+body.list-view .stop--journey{position:static;padding:.2rem 1rem 0;grid-column:1/-1}
+body.list-view .erahead{position:static}
+@media (max-width:900px){
+  .axis,.threads{display:none}
+  .era{min-height:0}
+  .stops{padding:.4rem .8rem 1rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.6rem}
+  .stop{position:static;width:auto}
+  .stop--journey{position:static;padding:.2rem .8rem 0;grid-column:1/-1}
+  .atlas{padding:0 .8rem 1rem}
+  .erahead{position:sticky}
+}
+@media (max-width:640px){
+  .stops{grid-template-columns:1fr;padding:.3rem .6rem .8rem}
+  .erahead{padding:.6rem .7rem .5rem}
+  .erahead .title{font-size:1.1rem}
+  .era--compressed .count{padding:0 .7rem .7rem}
+}
+
+/* ── the edge plate: what lies past the map's last band ──────────────── */
+.edge-plate{max-width:64rem;margin:0 auto;padding:2.8rem 1.5rem 2rem;border-top:1px solid var(--rule)}
+.edge-plate .eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.82rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .5rem}
+.edge-plate h2{font-size:1.9rem;margin:0 0 .5rem;text-wrap:balance}
+.edge-plate .intro{color:var(--text-2);font-size:1.1rem;margin:0 0 2rem;max-width:44rem}
+.edge-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:2rem 2.5rem}
+.edge-grid h3{font-size:1.25rem;margin:0 0 .6rem}
+.edge-grid p{margin:0 0 .8rem;font-size:1rem}
+.edge-grid ul{margin:0 0 .8rem;padding-left:1.1rem}
+.edge-grid li{margin:0 0 .35rem}
+.edge-grid .fine{font-family:'Alegreya Sans',sans-serif;font-size:.86rem;color:var(--text-2)}
+.edge-grid .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:.6rem 0 .8rem}
+.edge-grid .give .btn{font-size:.9rem;padding:.65rem 1rem}
+.edge-grid .give .btn span{font-weight:400;opacity:.85}
+.edge-grid a.deep{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.edge-grid a.deep:hover{border-bottom-color:currentColor}
+
+footer.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--text-2);margin-top:2rem}
+footer.site-footer .wrap{max-width:64rem;margin:0 auto;padding:2rem 1.5rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+footer.site-footer a{color:var(--text-2)}
+footer.site-footer nav{display:flex;gap:1.2rem}
+footer.site-footer nav a{display:inline-block;padding:.5rem .1rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the map</a>
+<a class="skip-link" href="#edge">Skip past the map</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="ic-house" viewBox="0 0 16 16"><path d="M2 8 L8 2 L14 8 M4 7 V14 H12 V7 M7 14 V10 H9 V14" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+<symbol id="ic-plans" viewBox="0 0 16 16"><rect x="2.5" y="2.5" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M2.5 6 H13.5 M6 6 V13.5 M8.5 8.5 H11 M8.5 11 H11" fill="none" stroke="currentColor" stroke-width="1.1"/></symbol>
+<symbol id="ic-question" viewBox="0 0 16 16"><path d="M5 5.5 Q5 2.5 8 2.5 Q11 2.5 11 5 Q11 7 8.5 8 L8 10" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="7.2" y="12" width="1.8" height="1.8" fill="currentColor"/></symbol>
+<symbol id="ic-door" viewBox="0 0 16 16"><rect x="3.5" y="2" width="9" height="12.5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="10" y="7.6" width="1.7" height="1.7" fill="currentColor"/><path d="M3.5 14.5 H12.5" stroke="currentColor" stroke-width="1.5"/></symbol>
+<symbol id="ic-list" viewBox="0 0 16 16"><path d="M2 4h12M2 8h12M2 12h12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+</defs>
+</svg>
+
+<header class="plate-title">
+  <a class="wordmark" href="#top">Church <em>in</em> Conversation</a>
+  <div id="yearBadge" aria-live="polite" aria-atomic="true"></div>
+  <nav class="plate-nav" aria-label="Site">
+    <button type="button" id="listToggle" aria-pressed="false"><svg aria-hidden="true"><use href="#ic-list"/></svg><span>Read as a list</span></button>
+    <a href="#made" class="hide-sm">How this was made</a>
+    <a href="#involved">Get involved</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="thesis" id="top" aria-labelledby="h1">
+  <div class="lockup">
+    <span class="arriving-mark play" role="img" aria-label="Church in Conversation mark: a ring open to the right, with a dot at the threshold">
+      <svg viewBox="0 0 100 100"><circle class="ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="seat" cx="88.5" cy="50" r="6.5"/></svg>
+    </span>
+    <p class="mark-sentence">The mark is a table; the opening is the way in — and it never closes.</p>
+  </div>
+  <div>
+    <h1 id="h1">Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
+    <p class="lede">A doorway to sit with the Christian movements of history.</p>
+    <p class="orient">This page is the map. Time runs downward; west is to the left, east to the right. Every house on it is a Christian tradition you can sit down with today — seven so far, from the Church's first four hundred years. Hover to glimpse one; click to meet its Representative.</p>
+    <ol class="legend" aria-label="How to read the map">
+      <li><svg aria-hidden="true"><use href="#ic-house"/></svg><span><b>House</b> — open for conversation. <span class="n" id="legend-live"></span></span></li>
+      <li><svg aria-hidden="true"><use href="#ic-plans"/></svg><span><b>Plans</b> — chosen for its era after a completed survey; not yet built. <span class="n" id="legend-plans"></span></span></li>
+      <li><svg aria-hidden="true"><use href="#ic-question"/></svg><span><b>Question</b> — real history under review, deferred, or not yet assessed. No verdict is implied.</span></li>
+      <li><svg aria-hidden="true"><use href="#ic-door"/></svg><span><b>Closed door</b> — outside the Nicene base this project builds from; the grounds are always stated, and exclusion is never a judgment of unimportance.</span></li>
+    </ol>
+    <p class="silence"><span>Where the historical record is thin, we let the silence stand.</span><button type="button" id="listToggle2">Prefer a list? Read the map as a list</button></p>
+  </div>
+</section>
+
+<div class="atlas" id="atlas" role="region" aria-label="Church in History — the map. Ten eras in order; the traditions you can sit down with are listed inside their eras.">
+  <p class="sr-only">Across the page, west to east: Milan, Carthage, Rome, Constantinople, Alexandria, the Egyptian desert, Bethlehem, Cappadocia, Antioch, Edessa, Nisibis. Every stop states its own places and dates in words.</p>
+  <div class="axis" aria-hidden="true" id="axis"></div>
+  <ol class="eras" id="eras"></ol>
+  <svg class="threads" id="threads" aria-hidden="true"></svg>
+</div>
+
+<section class="edge-plate" id="edge" aria-labelledby="edge-h">
+  <p class="eyebrow">Past the last band</p>
+  <h2 id="edge-h">The edge of the map</h2>
+  <p class="intro">The seven houses above are the first chapter — <em>Church in Conversation: The First Centuries</em>. Everything past Era II is surveyed and on record, and none of it is built yet. Here is what comes next, how the map was made, and how to help.</p>
+  <div class="edge-grid">
+    <div id="next">
+      <h3>What's next</h3>
+      <p>Two more traditions from the first centuries are chosen and waiting for construction — you passed their plans on the way down: <strong>Latin Pastoral-Congregational Christianity</strong> (Carthage and Hippo Regius) and <strong>Donatism</strong> (Roman North Africa). Each gets the same full build as the seven already open: its own Representative voice, sourced vocabulary, and story material, built from its own letters, sermons, and sources.</p>
+      <p>A second wave is planned to follow the ancient set, spanning the Reformation — seven traditions. The count is set; which ones isn't chosen yet. That selection happens once the ancient set is complete.</p>
+      <p>Church in History itself grows past what's built: the full map already carries every tradition surveyed across all ten eras, so you can explore what's known about a movement whether or not it has a chair at the Table yet. Same grammar there — hover for a glimpse, click for depth.</p>
+      <a class="deep" href="https://churchinconversation.com/atlas-v3.html">Open the full map — every tradition, all ten eras →</a>
+    </div>
+    <div id="made">
+      <h3>How this map was made</h3>
+      <p>Each Christian tradition is built by going through a disciplined ten-step process. We gather and weigh its own letters, sermons, records, and validated sources. We research its own vocabulary, and the forces that shaped its convictions. Every claim is checked against those sources directly and labeled for how well it's attested. Only then, last, is a Representative voice created out of that finished record — and it speaks only from the tradition's own words.</p>
+      <p>Is a Representative an AI? Yes. It is locked to its tradition's sources, it shows its confidence, and every conversation is watched for a softened truth, an invented detail, or knowledge the voice shouldn't have — and corrected before it reaches you. What's unfinished, plainly: external academic review is the standard we're building toward for every tradition, and it isn't complete yet.</p>
+      <p>We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike. We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share.</p>
+      <a class="deep" href="https://churchinconversation.com/about.html">The mission and the five convictions →</a>
+    </div>
+    <div id="involved">
+      <h3>Get involved</h3>
+      <p>Running these conversations costs real money. If you'd like to help more people use them:</p>
+      <div class="give">
+        <a class="btn secondary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open <span>— give once</span></a>
+        <a class="btn secondary" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider <span>— give monthly</span></a>
+      </div>
+      <p class="fine">For what this actually costs and where it goes, see <a href="https://churchinconversation.com/support.html">Get Involved</a>. We're also forming an advisory board for independent academic review of each tradition and of this map — it needs both funding and volunteers: <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
+      <p class="fine">Church in Conversation is part of Faithways Studio, Inc., a Colorado Public Benefit Corporation — not a nonprofit. Contributions are not tax-deductible.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<div id="glimpse" role="tooltip" hidden></div>
+<div id="scrim"></div>
+<aside id="panel" role="dialog" aria-labelledby="panelTitle" tabindex="-1" hidden>
+  <div class="grab" aria-hidden="true"></div>
+  <button type="button" class="p-close" id="panelClose" aria-label="Close">&times;</button>
+  <div id="panelBody"></div>
+</aside>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer"><a href="https://churchinconversation.com/about.html">About</a><a href="https://churchinconversation.com/pilot-feedback.html">Feedback</a><a href="https://churchinconversation.com/privacy.html">Privacy</a><a href="mailto:info@churchinconversation.com">Contact</a></nav>
+  </div>
+</footer>
+
+<script>
+"use strict";
+/* ── data: embedded verbatim from cic-website/data/world-census.json ── */
+const WORLDS = [
+ {
+  "id": "post-apostolic-house-church",
+  "era": 1,
+  "name": "Post-Apostolic House-Church Christianity",
+  "shortName": "House-Churches",
+  "dates": "70–200 CE",
+  "start": 70,
+  "end": 200,
+  "region": "Antioch, Asia Minor, Rome",
+  "regions": [
+   "Mediterranean",
+   "Middle East"
+  ],
+  "lane": "Origin — before the lanes divide",
+  "status": "Built & Live",
+  "statusWord": "Open for conversation",
+  "statusDesc": "You can sit down with this tradition now.",
+  "sourcing": "Moderate; communal voice rich, individual interior voice thin (disclosed on its tile)",
+  "floorNote": "These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it.",
+  "teaser": "The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means.",
+  "rep": "Chloe",
+  "repTitle": "Household Leader",
+  "world": "The House-Churches",
+  "subtitle": "Post-Apostolic House-Church Christianity",
+  "tint": "#7c3aed",
+  "portrait": "house-churches.png",
+  "long": "After the apostles died, Christianity had no buildings of its own, no clergy in any later sense, and no agreed list of Scriptures — it had houses. Believers gathered in a member's dining room or the back of a workshop, ate a meal together, read aloud whatever apostolic letters had reached them, and stayed connected to distant congregations by hand-carried correspondence and travelling teachers. Across these decades the shape of the church slowly emerged in practice rather than by decree. Who should preside, how to receive people through baptism, what to do when a member handed in his neighbours under interrogation, what to make of the fact that faithfulness kept costing people their lives. Ignatius of Antioch wrote to churches along his route while under armed guard on the way to his own execution in Rome; Justin Martyr, teaching in a rented room above a bathhouse in the same city, wrote down what a Sunday gathering actually looked like. And both were killed for it.",
+  "voices": [
+   "Ignatius of Antioch — bishop who wrote seven letters to congregations while being marched to his execution in Rome, c. 107-117",
+   "Clement of Rome — wrote from the Roman church to the Corinthians around 96 to settle a dispute over deposed leaders, the earliest Christian letter outside the New Testament",
+   "Polycarp of Smyrna — bishop who had known the apostolic generation, put to death at Smyrna around 155, his death recorded by his own congregation",
+   "Justin Martyr — a philosopher who kept teaching Christianity as a school in Rome and left the earliest detailed description of Christian Sunday worship",
+   "Most of these communities' hosts and householders are unnamed in the record — the gatherings met in the homes of people history did not bother to write down"
+  ],
+  "legacy": "Almost everything on this map descends from these gatherings. The basic shape of Christian worship — assembling on the first day of the week, reading Scripture aloud, a shared table — was set here, along with the offices of bishop, presbyter and deacon, and the habit of reading apostolic letters in public until they became Scripture by use rather than by ruling. Their networks of hospitality between cities became the nervous system of the ancient church, and their correspondence — Clement, Ignatius, Polycarp — has been read ever since. The Didache, by contrast, was lost for centuries and recovered from a single surviving manuscript only in the 1870s.",
+  "visit": [
+   {
+    "text": "The Dura-Europos house-church, Syria — an ordinary home converted for worship between about 233 and 256, the earliest identified Christian church building, preserved because a Roman defensive rampart buried it",
+    "url": "https://en.wikipedia.org/wiki/Dura-Europos_church"
+   },
+   {
+    "text": "Yale University Art Gallery, New Haven — the Dura-Europos baptistery wall paintings, probably the oldest surviving Christian paintings anywhere, are on display",
+    "url": "https://artgallery.yale.edu/collections/objects/34496"
+   }
+  ],
+  "living": false
+ },
+ {
+  "id": "alexandria-catechetical",
+  "era": 1,
+  "name": "Alexandrian Catechetical / Christian-Platonist Tradition",
+  "shortName": "Alexandria",
+  "dates": "c. 150–400 CE",
+  "start": 150,
+  "end": 400,
+  "region": "Alexandria, Egypt",
+  "regions": [
+   "Africa",
+   "Mediterranean"
+  ],
+  "lane": "Africa",
+  "status": "Built & Live",
+  "statusWord": "Open for conversation",
+  "statusDesc": "You can sit down with this tradition now.",
+  "sourcing": "Rich (Clement, Origen); school-institution question is live scholarship",
+  "floorNote": "Nothing in this tradition's confession diverges from the doctrine the Nicene Creed later stated. Some of Origen's more speculative proposals — about the pre-existence of souls and the final restoration of all things — were disputed in his own lifetime and formally condemned by a church council three centuries after his death.",
+  "teaser": "Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.",
+  "rep": "Theon",
+  "repTitle": "Catechetical Teacher",
+  "world": "Alexandrian Christianity",
+  "subtitle": "Alexandrian Catechetical Tradition",
+  "tint": "#2B5F8A",
+  "portrait": "alexandria.png",
+  "long": "Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the shape the city gave everything else — a school. Teachers received enquirers, catechumens preparing for baptism, and educated pagans curious about this new philosophy, and walked them through Scripture as a text with a surface and a depth: the letter first, then the moral sense, then the spiritual meaning that opens onto the Logos himself. Clement wrote for cultivated Greeks who wanted to know whether a Christian could keep his learning. Origen, who succeeded him, produced a staggering body of commentary and the Hexapla, a six-column parallel edition of the Old Testament assembled to see what the Hebrew actually said — before falling out with his bishop and moving his teaching to Caesarea around 231. Historians still argue about how formal the whole thing was. Whether Alexandria really had one continuous institution with a succession of appointed heads, as Eusebius later described it, or a looser sequence of private Christian schools whose teachers happened to be remembered together.",
+  "voices": [
+   "Pantaenus — the earliest teacher named in the tradition, remembered as a converted Stoic philosopher",
+   "Clement of Alexandria — wrote for educated Greeks, arguing that philosophy had been a tutor leading toward Christ",
+   "Origen — the tradition's towering figure: commentator, textual scholar, and the first Christian to attempt a systematic account of the faith",
+   "Dionysius of Alexandria — Origen's student, later bishop, who steered the Egyptian church through persecution and plague",
+   "Didymus the Blind — blind from early childhood, taught in Alexandria for decades and was consulted by Jerome and Rufinus"
+  ],
+  "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became the dominant Christian approach for over a millennium, in the East and West alike. Origen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so. The tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary.",
+  "visit": [],
+  "living": false
+ },
+ {
+  "id": "syriac-edessa-nisibis",
+  "era": 1,
+  "name": "Syriac Christianity (Edessa/Nisibis)",
+  "shortName": "Syriac Edessa",
+  "dates": "200–410 CE",
+  "start": 200,
+  "end": 410,
+  "region": "Edessa & Nisibis",
+  "regions": [
+   "Middle East"
+  ],
+  "lane": "Syriac East & Asia",
+  "status": "Built & Live",
+  "statusWord": "Open for conversation",
+  "statusDesc": "You can sit down with this tradition now.",
+  "sourcing": "Rich formal/doctrinal, thinner personal texture (disclosed on its tile)",
+  "floorNote": "This tradition holds the doctrine the Nicene Creed states. One figure inside it, the philosopher-poet Bardaisan, taught cosmological ideas his own later tradition repudiated; exactly where he stands relative to that doctrine remains an open question.",
+  "teaser": "Edessa and Nisibis, 200 to 410 CE — in what is now southeastern Turkey — a community shaped by persecution under Persian rule, holding together through covenant vows and typological reading of Scripture.",
+  "rep": "Mar Yausep",
+  "repTitle": "Teacher of the Covenant Order",
+  "world": "Syriac Christianity",
+  "subtitle": null,
+  "tint": "#b45309",
+  "portrait": "syriac.png",
+  "long": "East of the Roman frontier, in the border cities of Edessa and Nisibis, Christianity grew up speaking Syriac — a form of Aramaic close to the language Jesus himself spoke. And it developed a character of its own before Greek theology reached it. It taught in poetry rather than philosophical prose, reading the Scriptures typologically, as a world of symbols answering one another. Ephrem the Syrian wrote hundreds of hymns that carried doctrine in metre so a congregation could sing what it believed. Its ascetics were not desert hermits but the sons and daughters of the covenant, consecrated men and women who took vows of celibacy and stayed inside the ordinary congregation, serving it. And it lived on a fault line. When the Roman emperor Jovian surrendered Nisibis to Persia in 363, Ephrem and much of the Christian community moved west to Edessa, and the churches left behind under Persian rule faced waves of persecution as a suspected foreign fifth column.",
+  "voices": [
+   "Tatian — compiled the Diatessaron, a single continuous gospel woven from the four, which Syriac churches used as their standard gospel text for centuries",
+   "Bardaisan of Edessa — philosopher, astrologer and hymn-writer at the Edessan court, whose cosmological teaching the later Syriac tradition rejected while keeping his poetic form",
+   "Jacob of Nisibis — bishop of Nisibis until 338, remembered as the city's protector during Persian siege",
+   "Ephrem the Syrian — deacon, teacher and the tradition's greatest poet, who moved from Nisibis to Edessa in 363 and died caring for famine victims there"
+  ],
+  "legacy": "This is a living inheritance, not a closed chapter. The Syriac churches that descend from it — the Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome — still worship in Syriac and still sing Ephrem's hymns. Syriac Christianity carried the faith east along the trade routes into Persia, to India, and as far as Tang-dynasty China, and Syriac translators later became the channel through which Greek philosophy and medicine passed into Arabic and eventually back to Europe. The School of Nisibis became one of the ancient world's most important centres of theological education.",
+  "visit": [
+   {
+    "text": "Mor Gabriel Monastery, Tur Abdin, southeastern Turkey — founded in 397 and still a working monastery and the seat of the metropolitan of Tur Abdin, one of the oldest continuously inhabited Christian monasteries on earth",
+    "url": "https://en.wikipedia.org/wiki/Mor_Gabriel_Monastery"
+   }
+  ],
+  "living": true
+ },
+ {
+  "id": "desert-monasticism",
+  "era": 2,
+  "name": "Desert Monasticism",
+  "shortName": "The Desert",
+  "dates": "c. 320–430 CE",
+  "start": 320,
+  "end": 430,
+  "region": "Nile Valley & Desert, Egypt",
+  "regions": [
+   "Africa"
+  ],
+  "lane": "Africa",
+  "status": "Built & Live",
+  "statusWord": "Open for conversation",
+  "statusDesc": "You can sit down with this tradition now.",
+  "sourcing": "Small corpus, deep on inner combat (disclosed on its tile)",
+  "floorNote": "The desert communities held the same Nicene faith as the churches they came out of — what set them apart was a way of life, not a different doctrine.",
+  "teaser": "The Nile Valley and the desert of Egypt, c. 320 to 430 CE — communities who left settled village life to wage a lifelong combat against the thoughts that trouble a person from within.",
+  "rep": "Papnoute",
+  "repTitle": "Abba (Elder)",
+  "world": "Desert Fathers and Mothers",
+  "subtitle": "Desert Monasticism",
+  "tint": "#0f766e",
+  "portrait": "desert.png",
+  "long": "Beginning in the late third century, Egyptian Christians started walking out of their villages into the desert — first alone, into caves and abandoned forts, then into loose settlements, and finally into organized communities with shared meals, shared work, and a written rule. What drew them was not escape but combat: the conviction that the real battlefield of a Christian life is inward, among the thoughts and appetites that trouble a person from within, and that learning to fight there takes a lifetime of silence, manual labour, and blunt honesty with an elder. Their teaching passed mostly in short exchanges — a younger monk asking an elder for \"a word,\" the elder answering in a sentence — later gathered into the collections we call the Sayings of the Desert Fathers and Mothers. By the fifth century visitors from Rome, Gaul, and Palestine were coming to watch and take notes, and what they carried home became the seed of monastic life across the whole Christian world.",
+  "voices": [
+   "Antony the Great — the hermit whose withdrawal into the Egyptian desert, and the biography Athanasius wrote about him, made the movement famous across the empire",
+   "Pachomius — a former soldier who gathered scattered hermits into organized communities under a common rule, and so invented communal monasticism",
+   "Amma Syncletica — one of the desert mothers, remembered for sayings on the ascetic struggle preserved alongside the men's",
+   "Evagrius Ponticus — a scholar turned monk who mapped the inner life, naming the eight troubling thoughts that became the West's seven deadly sins",
+   "John Cassian — a visitor who spent years among the Egyptian monks and carried their teaching west in Latin, where Benedict later read him"
+  ],
+  "legacy": "Almost every later form of Christian monastic life descends from here. Benedict's Rule sends its readers to John Cassian's reports from Egypt, and the monasteries of Sinai, Athos, and the wider East trace their practice to the same source. The sayings are still read as spiritual reading in Orthodox, Catholic, and Protestant circles alike, and Evagrius's list of the eight troubling thoughts became, by way of Gregory the Great, the seven deadly sins of Western moral teaching. Some of the houses founded in that first Egyptian generation are still living communities — the Coptic monasteries of St Antony and St Paul near the Red Sea, and the cluster at Wadi al-Natrun, are inhabited by monks today.",
+  "visit": [
+   {
+    "text": "The Monastery of Saint Anthony, Eastern Desert, Egypt — a Coptic Orthodox monastery grown up around Antony's own cave, still inhabited and open to visitors",
+    "url": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Anthony"
+   }
+  ],
+  "living": true
+ },
+ {
+  "id": "cappadocian-nicene-pastoral-monastic-tradition",
+  "era": 2,
+  "name": "Cappadocian Christianity",
+  "shortName": "Cappadocians",
+  "dates": "c. 325-394 CE",
+  "start": 325,
+  "end": 394,
+  "region": "Cappadocia / Anatolia",
+  "regions": [
+   "Asia Minor"
+  ],
+  "lane": "Greek East & Orthodoxy",
+  "status": "Built & Live",
+  "statusWord": "Open for conversation",
+  "statusDesc": "You can sit down with this tradition now.",
+  "sourcing": "Rich (Basil, the Gregories, and — rare for a defeated opponent — Eunomius' own surviving Apology); several flagship attributions (Epistle 38) contested",
+  "floorNote": "These are among the people who wrote the creed. The language it uses for Father, Son, and Spirit is substantially theirs — though which of them wrote which formulation is not always as settled as the textbook story suggests.",
+  "teaser": "Cappadocia and Pontus, c. 325 to 394 CE — a people who fought a generation over a single word in their worship, kept a door open for the poor, and buried a martyr of their own along the way.",
+  "rep": "Chilo",
+  "repTitle": "Elder of the Brotherhoods",
+  "world": "The Cappadocian Churches",
+  "subtitle": "Cappadocian Pastoral-Monastic and Trinitarian Tradition",
+  "tint": "#A0522D",
+  "portrait": "cappadocian.jpg",
+  "long": "In Cappadocia and neighboring Pontus, from the years after the last empire-wide persecutions to the death of the last of a remarkable generation, one extended family and the friends around it did more than most to settle the words Christians still use about God — how settled that settlement really was is itself now a live scholarly question. Basil of Caesarea, his younger brother Gregory of Nyssa, their elder sister Macrina, and Basil's friend Gregory of Nazianzus argued the hardest question of the century — whether the Son and the Spirit are God in the same sense the Father is — while running dioceses, burying relatives, and feeding the hungry through famine. Basil's own preaching indicted the region's grain-hoarders by name and built a hospital, hostel, and workhouse complex outside Caesarea after the famine of 368 — a genuine, near-unprecedented undertaking, though not, as later legend sometimes claims, the first of its kind anywhere. Macrina turned the family estate into an ascetic household and, in her brother's account of her last days, taught him theology from her deathbed — the only record of her that survives; no words of her own reach us independently of his telling. Gregory of Nazianzus carried the argument to Constantinople, where the creed most Christians still recite took its final shape in 381. The years were not peaceful throughout: this world buried its own martyr, Eupsychius of Caesarea, executed under Julian in 362, and endured a hostile imperial church under Valens that drove Gregory of Nyssa briefly into exile. Even the letter usually cited as proof the three men agreed on the technical vocabulary — Epistle 38 — is itself contested between Basil and Gregory of Nyssa in modern scholarship.",
+  "voices": [
+   "Basil of Caesarea — bishop, monastic legislator, and builder of the great hospital and poorhouse complex outside his city",
+   "Macrina the Younger — their elder sister, who turned the family estate into an ascetic community; her teaching survives only inside her brother Gregory of Nyssa's own account of it, not in her own words",
+   "Gregory of Nazianzus — the reluctant preacher whose sermons on the Trinity at Constantinople carried the argument in public",
+   "Gregory of Nyssa — Basil's younger brother, the most speculative of them, who wrote on the soul, the resurrection, and the soul's endless ascent into God",
+   "Emmelia — mother of Basil, Macrina, and Gregory, who ran the household this whole tradition grew out of",
+   "Eupsychius of Caesarea — this world's own later martyr, executed under Julian in 362, remembered at an annual feast rather than in any surviving homily"
+  ],
+  "legacy": "Their labor on the language — one being, three persons — became the standard grammar of Christian talk about God in East and West alike and stands behind the creed recited in most churches on Sunday, though the tidy story of a fully agreed \"Cappadocian settlement\" is itself contested by modern scholars, who read more real variation between the three than the textbook version allows. Basil's rules for communal ascetic life remain foundational for Eastern Orthodox monasticism, and his hospital-and-hostel complex for the sick and destitute is often named among the ancestors of the Christian hospital — a real and remarkable undertaking, though not literally the first of its kind, and no physical trace of the complex itself has ever been securely identified. All four are venerated as saints across the Orthodox, Catholic, Anglican, and Lutheran calendars, and Gregory of Nazianzus is one of only three figures the Eastern church calls simply \"the Theologian.\"",
+  "visit": [],
+  "living": true
+ },
+ {
+  "id": "imperial-juridical-christianity",
+  "era": 2,
+  "name": "Imperial and Juridical Christianity",
+  "shortName": "Church & Empire",
+  "dates": "c. 312-451",
+  "start": 312,
+  "end": 451,
+  "region": "Rome, Constantinople, Milan",
+  "regions": [
+   "Asia Minor",
+   "Mediterranean"
+  ],
+  "lane": "Greek East / Latin West — bridge",
+  "status": "Built & Live",
+  "statusWord": "Open for conversation",
+  "statusDesc": "You can sit down with this tradition now.",
+  "sourcing": "Rich institutional (Eusebius, Ambrose, Leo)",
+  "floorNote": "This is the tradition that convened Nicaea and eventually made its creed imperial law, so its standing on the Creed is not in doubt. It is worth saying plainly, though, that this was never obvious to the people living through it: for long stretches of the fourth century the emperor's own church was Homoian rather than Nicene. The hard questions here are about power, not about doctrine.",
+  "teaser": "Rome, Constantinople, and Milan, c. 312 to 451 CE — the church's first century beside a throne rather than beneath a sword, working out what the emperor's favor bought and what it could still take away.",
+  "rep": "Marius",
+  "repTitle": "Deacon of the Letters",
+  "world": "Church and Empire",
+  "subtitle": "Imperial and Juridical Christianity",
+  "tint": "#7A2E2E",
+  "portrait": "empire.png",
+  "long": "For nearly three centuries the church had been an illegal association. Then, between Constantine's grant of toleration in 313 and Theodosius's legislation at the end of the century, it became first protected, then privileged, then the empire's official religion. And had to work out, very fast, what to do with that. Bishops found themselves hearing civil lawsuits, administering public building funds, and travelling to councils at imperial expense; emperors found themselves summoning those councils and expecting the results to hold. The terms of that unplanned bargain were tested constantly — Ambrose of Milan made Theodosius do public penance after the massacre at Thessalonica in 390, and a doctrinal letter Leo of Rome had written two years earlier to the bishop of Constantinople was read out at Chalcedon in 451 and received as settling the matter. And what the arrangement produced, canon law, church courts, a hierarchy mapped onto imperial administration, and a permanent argument about where a ruler's authority ends, outlasted the western empire itself.",
+  "voices": [
+   "Constantine — the first emperor to protect and endow the church, and the first to summon a general council of its bishops",
+   "Eusebius of Caesarea — bishop and historian, who wrote the first church history and the most admiring account of Constantine's reign",
+   "Theodosius I — whose laws made Nicene Christianity the empire's official religion, and who did public penance at Ambrose's insistence",
+   "Ambrose of Milan — the bishop who set the precedent that an emperor stands inside the church rather than above it",
+   "Leo I of Rome — whose letter to the bishop of Constantinople, written in 449 and read aloud at Chalcedon in 451, was received as settling the question of Christ's two natures"
+  ],
+  "legacy": "This is where most of what people mean by \"the institutional church\" was built: canon law, church courts, dioceses drawn along the empire's own administrative lines, and the assumption that a general council can settle a disputed doctrine for everybody. The argument it started — where a ruler's authority over the church ends and the church's over the ruler begins — runs on through the medieval investiture disputes, the Reformation's territorial settlements, and every later fight about established churches and their disestablishment. Its physical inheritance is still standing. The basilica, a Roman public hall rather than a temple, was the form the emperors paid for, and it remains the basic shape of church buildings across Europe.",
+  "visit": [
+   {
+    "text": "The Archbasilica of St John Lateran, Rome — founded under Constantine in the 320s and still the cathedral church of the bishop of Rome",
+    "url": "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+   }
+  ],
+  "living": false
+ },
+ {
+  "id": "hieronymian-ascetic-literary",
+  "era": 2,
+  "name": "Hieronymian Ascetic-Literary Christianity",
+  "shortName": "Bethlehem Circle",
+  "dates": "c. 382–420 CE",
+  "start": 382,
+  "end": 420,
+  "region": "Rome & Bethlehem",
+  "regions": [
+   "Mediterranean"
+  ],
+  "lane": "Latin West & Catholicism",
+  "status": "Built & Live",
+  "statusWord": "Open for conversation",
+  "statusDesc": "You can sit down with this tradition now.",
+  "sourcing": "Richest written record of the four built worlds - mostly via one prolific pen (disclosed)",
+  "floorNote": "Nothing here is in question on the Creed. Jerome was a combative defender of Nicene orthodoxy, and the circle's controversies were about asceticism, Origen's legacy, and the right basis for translating Scripture.",
+  "teaser": "Rome and Bethlehem, c. 382 to 420 CE — a circle of scholars and ascetics who gave up wealth and rank to test Scripture's Latin translation against the Hebrew it was first given in.",
+  "rep": "Albina",
+  "repTitle": "Widow of the Household",
+  "world": "The Bethlehem Circle",
+  "subtitle": "Hieronymian Ascetic-Literary Christianity",
+  "tint": "#9d174d",
+  "portrait": "bethlehem.png",
+  "long": "In the early 380s a circle of wealthy Roman women — Marcella on the Aventine, and the widow Paula with her daughter Eustochium — began meeting to study Scripture and to live an ascetic life in the middle of the city, taking as their teacher a caustic, brilliant scholar named Jerome. Roman society found the whole arrangement scandalous: senatorial fortunes given away, aristocratic daughters refusing marriage, a priest shut up with widows over Hebrew grammar. When Jerome's protector Pope Damasus died in 384 and the hostility became unbearable, Paula and Eustochium sold their estates, sailed east, and founded monasteries at Bethlehem — a house for men, houses for women, and a hostel for pilgrims — with Jerome installed alongside to work. What came out of that arrangement was the Vulgate: a Latin Bible built book by book, against fierce criticism — the Old Testament rendered not from the Greek everyone was used to but from the Hebrew it had first been written in — and a body of letters in which the women's questions, funding, and insistence are visible on nearly every page.",
+  "voices": [
+   "Jerome — the scholar and translator at the centre of it, whose Latin Bible became the West's standard text for a thousand years",
+   "Paula — the Roman widow who funded and led the move to Bethlehem and built its monasteries and pilgrim hostel",
+   "Eustochium — Paula's daughter, who took a vow of virginity as a girl in Rome and ran the Bethlehem women's houses after her mother's death",
+   "Marcella — the Aventine widow in whose household the circle began, and who kept pressing Jerome with questions about the biblical text long after he had left Rome",
+   "Rufinus of Aquileia — Jerome's old friend and fellow translator, whose bitter public quarrel with him over Origen split the wider ascetic network"
+  ],
+  "legacy": "The Vulgate became the Bible of the Latin West for over a thousand years. The text medieval theology argued from, the text later translators worked from or against, and the text the Council of Trent declared authentic in 1546. Its principle mattered as much as its content: Jerome's insistence on going back to the Hebrew rather than resting on the Greek is the ancestor of every later \"back to the sources\" movement, including the Renaissance and Reformation scholarship that eventually turned on the Vulgate itself. The circle left a second, quieter pattern too — wealthy women funding, hosting, and directing serious biblical scholarship — which recurs constantly in later Christian history. And the caves beneath the Church of the Nativity in Bethlehem, where tradition places Jerome's study, are still shown to pilgrims.",
+  "visit": [
+   {
+    "text": "Church of the Nativity and the Pilgrimage Route, Bethlehem — the UNESCO World Heritage site whose underground caves include the one long shown as Jerome's study",
+    "url": "https://whc.unesco.org/en/list/1433/"
+   }
+  ],
+  "living": false
+ },
+ {
+  "id": "latin-pastoral-congregational-christianity",
+  "era": 1,
+  "name": "Latin Pastoral-Congregational Christianity",
+  "shortName": "Latin Pastoral",
+  "dates": "c. 240s-430",
+  "start": 240,
+  "end": 430,
+  "region": "Carthage, Hippo Regius",
+  "regions": [
+   "Africa",
+   "Mediterranean"
+  ],
+  "lane": "Latin West & Catholicism",
+  "status": "Selected - Not Yet Built",
+  "statusWord": "Chosen — not yet built",
+  "statusDesc": "One of the traditions chosen for its era after a completed survey. Construction has not begun.",
+  "sourcing": "Rich (Cyprian's letters, Augustine's sermons to his own flock)",
+  "floorNote": "Nothing in this tradition's confession diverges from the doctrine the Nicene Creed states.",
+  "teaser": "Roman North Africa, c. 240s to 430 CE — the parish before the word existed: bishops burying plague victims, preaching to the same faces every week, and deciding what to do about the people who had failed.",
+  "rep": null,
+  "repTitle": null,
+  "world": null,
+  "subtitle": null,
+  "tint": null,
+  "portrait": null,
+  "long": "This is the ordinary congregational life of Latin-speaking North Africa — not the councils and not the controversies, but the week in and week out work of a bishop with a flock. Cyprian became bishop of Carthage around 248, went into hiding when the emperor Decius ordered universal sacrifice, and returned to the hardest pastoral problem of the age. What to do with the thousands of his own people who had complied and now wanted back in. He organized relief through the epidemic that still bears his name, telling his congregation to nurse pagan neighbours as well as their own, and was beheaded outside Carthage in 258. A century and a half later Augustine, bishop of Hippo Regius from 395 until his death in 430, preached to the same congregation several times a week for thirty-five years, with stenographers taking much of it down. Hundreds of those sermons survive, arguing, joking, scolding and consoling actual people whose situations he knew. Between the two: catechumens under instruction, baptisms at Easter, penitents doing public penance, the care of widows and the poor, and the bishop sitting as judge in his own people's disputes.",
+  "voices": [
+   "Cyprian of Carthage — bishop through persecution and plague, whose letters are the fullest surviving picture of how a third-century congregation actually ran",
+   "Pontius the Deacon — Cyprian's deacon, who wrote an account of his bishop's life and death",
+   "Augustine of Hippo — bishop of Hippo Regius for thirty-five years, and the most extensively documented working pastor of the ancient world",
+   "Possidius of Calama — Augustine's friend and fellow bishop, who wrote his biography and catalogued his works"
+  ],
+  "legacy": "The North African church itself did not survive: the Vandals took the province in the 430s, and the Arab conquest of the seventh century ended Latin Christianity there altogether. What it left behind is the working vocabulary of Western church life. Cyprian's letters became foundational for Western understandings of the bishop's office and the unity of the church. Augustine's sermons shaped Christian preaching for well over a thousand years, and the catechumenate and penitential practice worked out in these congregations became the pattern for Western sacramental discipline. Latin Christianity's basic assumptions about what a local church is were largely formed in these two African towns.",
+  "visit": [
+   {
+    "text": "Hippo Regius and the Basilica of Saint Augustine, Annaba, Algeria — the excavated ruins of Augustine's city lie below a nineteenth-century basilica overlooking the site, both open to visitors",
+    "url": "https://en.wikipedia.org/wiki/Basilica_of_Saint_Augustine"
+   }
+  ],
+  "living": false
+ },
+ {
+  "id": "donatism",
+  "era": 2,
+  "name": "Donatism",
+  "shortName": "Donatism",
+  "dates": "c. 312-430s",
+  "start": 312,
+  "end": 430,
+  "region": "North Africa (Carthage)",
+  "regions": [
+   "Africa",
+   "Mediterranean"
+  ],
+  "lane": "Latin West & Catholicism",
+  "status": "Selected - Not Yet Built",
+  "statusWord": "Chosen — not yet built",
+  "statusDesc": "One of the traditions chosen for its era after a completed survey. Construction has not begun.",
+  "sourcing": "Substantial but heavily via opponents (Augustine) - a named challenge",
+  "floorNote": "Donatism held the same Nicene doctrine as its rivals — the dispute was about who could validly serve as clergy after the persecution, not about the Trinity, Christ's divinity, or any point of creedal belief.",
+  "teaser": "Roman North Africa, c. 312 to 430s CE — a church of martyrs' descendants who refused to let those who had betrayed the faith under persecution lead it again, known to history mostly through the words of their fiercest opponent.",
+  "rep": null,
+  "repTitle": null,
+  "world": null,
+  "subtitle": null,
+  "tint": null,
+  "portrait": null,
+  "long": "When Rome's persecution of Christians ended in 313, the churches of North Africa split over what happened next: could bishops who had handed over Scriptures to be burned, or otherwise compromised under threat of death, still validly ordain and consecrate? The Donatists said no — only those untainted by that betrayal could carry on the church's ministry. And for roughly a century they were the majority church across much of Roman Africa, with their own bishops, their own martyrs, and a fierce insistence that holiness, not political favor, marked the true church. Their most famous opponent was Augustine of Hippo, whose writings against them are almost all that survives of their story — the Donatists rarely got to speak in their own words, and even their name was one their rivals gave them. Imperial pressure and, eventually, the Vandal invasions wore the movement down, but for a long stretch of the fourth and fifth centuries, this was simply what Christianity looked like across much of North Africa.",
+  "voices": [
+   "Donatus Magnus — the movement's founding bishop and namesake",
+   "Petilian of Cirta — a Donatist bishop whose own writings, now lost, survive only in Augustine's quotations of them",
+   "Tyconius — a Donatist theologian whose ideas on the church shaped Augustine's own thinking even as his own party distanced itself from him",
+   "Augustine of Hippo — the tradition's most consequential opponent, whose polemics are the main surviving record of their arguments"
+  ],
+  "legacy": "Donatism left no continuing church of its own — its last communities disappeared under the Arab conquest of North Africa in the seventh century. But arguing against it, Augustine worked out that the church is a mixed body of saints and sinners rather than a pure remnant, and that a sacrament's validity doesn't depend on the minister's own holiness. Both became foundational, lasting Western Christian doctrine. Excavated basilica ruins from Donatist-era Timgad, one of their strongholds in Roman Numidia, still stand in Algeria today. A physical trace of a communion that otherwise left no institution behind.",
+  "visit": [
+   {
+    "text": "Timgad, Algeria — UNESCO World Heritage Roman ruins including a Donatist-era basilica",
+    "url": "https://en.wikipedia.org/wiki/Timgad"
+   }
+  ],
+  "living": false
+ }
+];
+const EDGES = [
+ {
+  "from": "post-apostolic-house-church",
+  "to": "syriac-edessa-nisibis",
+  "type": "formed",
+  "confidence": "Contested",
+  "note": "Aramaic-speaking Christianity reached Edessa early, but by what route and hands scholars genuinely disagree."
+ },
+ {
+  "from": "post-apostolic-house-church",
+  "to": "alexandria-catechetical",
+  "type": "formed",
+  "confidence": "Widely Accepted",
+  "note": "Egyptian Christianity's origins are obscure in detail, but its second-century emergence out of the same scattered network is broadly accepted."
+ },
+ {
+  "from": "alexandria-catechetical",
+  "to": "desert-monasticism",
+  "type": "formed",
+  "confidence": "Widely Accepted",
+  "note": "The desert movement grew in Alexandria’s shadow; Athanasius of Alexandria wrote the Life of Antony that carried it to the world."
+ },
+ {
+  "from": "desert-monasticism",
+  "to": "hieronymian-ascetic-literary",
+  "type": "transmitted to",
+  "confidence": "Documented",
+  "note": "Jerome and Paula toured the Egyptian ascetic settlements; the circle's practice consciously imported the desert's renunciation."
+ },
+ {
+  "from": "alexandria-catechetical",
+  "to": "hieronymian-ascetic-literary",
+  "type": "transmitted to",
+  "confidence": "Documented",
+  "note": "Origen's textual scholarship (the Hexapla) is the direct ancestor of Jerome's Hebrew-testing project — even as Jerome turned publicly against Origen's theology."
+ },
+ {
+  "from": "cappadocian-nicene-pastoral-monastic-tradition",
+  "to": "hieronymian-ascetic-literary",
+  "type": "contemporary with",
+  "confidence": "Documented",
+  "note": "Jerome heard Gregory of Nazianzus teach in Constantinople and calls him his teacher."
+ }
+];
+const ERAS = [
+ {
+  "no": "I",
+  "num": 1,
+  "title": "The Early Church Era",
+  "academic": "The Ante-Nicene Period",
+  "dates": "70-312 CE",
+  "tag": "The apostles' children, under an empire that could turn on them",
+  "events": [
+   "Destruction of the Temple (70)",
+   "Decian persecution (250)",
+   "Great Persecution begins (303)"
+  ],
+  "count": 21,
+  "frozen": true
+ },
+ {
+  "no": "II",
+  "num": 2,
+  "title": "The Imperial Church Era",
+  "academic": "The Constantinian/Nicene Era",
+  "dates": "312-451 CE",
+  "tag": "From Constantine's revolution to Chalcedon",
+  "events": [
+   "Edict of Milan (313)",
+   "Council of Nicaea (325)",
+   "Sack of Rome by the Visigoths (410)"
+  ],
+  "count": 22,
+  "frozen": true
+ },
+ {
+  "no": "III",
+  "num": 3,
+  "title": "The Age of Monks and Empires",
+  "academic": "Late Antiquity",
+  "dates": "451-622",
+  "tag": "The communions take their lasting shapes after Chalcedon",
+  "events": [
+   "Fall of Rome (476)",
+   "Benedict's Rule (c. 530)",
+   "Justinian's Plague begins (541)"
+  ],
+  "count": 18,
+  "frozen": true
+ },
+ {
+  "no": "IV",
+  "num": 4,
+  "title": "The Early Medieval Era",
+  "academic": "The Early Middle Ages",
+  "dates": "622-1054",
+  "tag": "Christianity under new empires, from Ireland to China",
+  "events": [
+   "Rise of Islam (622)",
+   "Viking raid on Lindisfarne (793)",
+   "Charlemagne crowned emperor (800)"
+  ],
+  "count": 22,
+  "frozen": true
+ },
+ {
+  "no": "V",
+  "num": 5,
+  "title": "The High Medieval Era",
+  "academic": "The High Middle Ages",
+  "dates": "1054-1300",
+  "tag": "Reform, renewal, and the new orders",
+  "events": [
+   "The Great Schism (1054)",
+   "First Crusade (1096)",
+   "Sack of Constantinople (1204)"
+  ],
+  "count": 27,
+  "frozen": true
+ },
+ {
+  "no": "VI",
+  "num": 6,
+  "title": "The Late Medieval Era",
+  "academic": "The Late Middle Ages",
+  "dates": "1300-1517",
+  "tag": "Crisis and devotion on the eve of reform",
+  "events": [
+   "Avignon Papacy begins (1309)",
+   "Black Death (1347–51)",
+   "Western Schism (1378–1417)"
+  ],
+  "count": 23,
+  "frozen": true
+ },
+ {
+  "no": "VII",
+  "num": 7,
+  "title": "The Reformation Era",
+  "academic": null,
+  "dates": "1517-1650",
+  "tag": "The Western church remade - several ways at once",
+  "events": [
+   "Luther's 95 Theses (1517)",
+   "Council of Trent (1545–63)",
+   "Peace of Westphalia (1648)"
+  ],
+  "count": 30,
+  "frozen": true
+ },
+ {
+  "no": "VIII",
+  "num": 8,
+  "title": "The Enlightenment & Awakening Era",
+  "academic": "The Age of Enlightenment and Revival",
+  "dates": "1650-1815",
+  "tag": "Established churches, awakened hearts",
+  "events": [
+   "American Revolution & disestablishment (1776)",
+   "First Great Awakening (1730s)",
+   "French Revolution's dechristianization campaign (1790s)"
+  ],
+  "count": 29,
+  "frozen": true
+ },
+ {
+  "no": "IX",
+  "num": 9,
+  "title": "The Missionary Era",
+  "academic": "The Great Century of Missions",
+  "dates": "1815-1906",
+  "tag": "Revival, missions, and a globalizing faith",
+  "events": [
+   "Second Great Awakening (1800s–30s)",
+   "Abolition of the transatlantic slave trade (1807/1833)",
+   "American Civil War (1861–65)"
+  ],
+  "count": 51,
+  "frozen": true
+ },
+ {
+  "no": "X",
+  "num": 10,
+  "title": "The Global Church Era",
+  "academic": "World Christianity",
+  "dates": "1906-present",
+  "tag": "The center of gravity moves south and east",
+  "events": [
+   "Azusa Street Revival begins (1906)",
+   "World War I (1914–18)",
+   "Second Vatican Council (1962–65)"
+  ],
+  "count": 49,
+  "frozen": true
+ }
+];
+
+
+/* ── config ─────────────────────────────────────────────────────────── */
+const isLocal=['localhost','127.0.0.1'].includes(location.hostname);
+const LIVE_APP_URL=isLocal?'http://localhost:5173':'https://cic-engine.onrender.com';
+const SITE='https://churchinconversation.com/';            /* relative in production */
+const PORTRAIT_BASE='../../../../../../cic-website/assets/portraits/'; /* mockup-only path to the live assets */
+
+/* Where (x, as a share of the canvas, from approximate longitude 8°E→43°E,
+   hand-nudged so nothing collides) and when (row = ordinal within the era,
+   by start year — vertical distance is not to scale, same rule as atlas-v3).
+   Every place and date is ALSO in words on the stop itself. */
+const POS={
+  'post-apostolic-house-church':      {x:47,  row:0, w:'44%', span:'Antioch · Asia Minor · Rome'},
+  'alexandria-catechetical':          {x:62.6,row:1},
+  'syriac-edessa-nisibis':            {x:86,  row:2},
+  'latin-pastoral-congregational-christianity':{x:14,row:3},
+  'imperial-juridical-christianity':  {x:31,  row:0, w:'50%', span:'Milan · Rome · Constantinople'},
+  'donatism':                         {x:14,  row:1},
+  'desert-monasticism':               {x:64,  row:1},
+  'cappadocian-nicene-pastoral-monastic-tradition':{x:78.6,row:2},
+  'hieronymian-ascetic-literary':     {x:77.7,row:3, journey:{fromX:12.9,label:'from Rome, 385'}}
+};
+const AXIS=[['Milan',3.4],['Carthage',6.6],['Rome',12.9],['Constantinople',60],['Alexandria',62.6],['the desert',66.5],['Bethlehem',77.7],['Cappadocia',80],['Antioch',82.6],['Edessa',88],['Nisibis',94.9]];
+const esc=t=>(t==null?"":String(t)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+const byId={};WORLDS.forEach(w=>byId[w.id]=w);
+const isLive=w=>w.status==='Built & Live';
+const noHover=matchMedia('(hover: none)').matches;
+const isPhone=()=>matchMedia('(max-width: 640px)').matches;
+
+/* ── render: the axis, the eras, the stops ───────────────────────────── */
+(function renderAxis(){
+  const ax=document.getElementById('axis');
+  ax.innerHTML='<span class="end w">West</span><span class="end e">East</span>'+
+    AXIS.filter((_,i)=>i!==7).map(([n,x])=>`<span class="tick" style="left:${x}%">${esc(n)}</span>`).join('');
+})();
+
+(function renderEras(){
+  const ol=document.getElementById('eras');
+  let html='';
+  ERAS.forEach(e=>{
+    const stops=WORLDS.filter(w=>w.era===e.num).sort((a,b)=>a.start-b.start);
+    const rows=stops.length?Math.max(...stops.map(w=>POS[w.id].row))+1:0;
+    const compressed=!stops.length;
+    const liveN=stops.filter(isLive).length, planN=stops.length-liveN;
+    const head=`<div class="erahead">
+        <span class="no"${e.academic?` title="${esc(e.academic)}"`:''}>Era ${esc(e.no)}</span>
+        <h2 class="title">${esc(e.title)}</h2>
+        ${e.tag?`<span class="tag">${esc(e.tag)}</span>`:''}
+        <span class="dates">${esc(e.dates)}</span>
+        <span class="events">${e.events.map(esc).join(' · ')}</span>
+        ${!compressed?`<a class="more" href="${SITE}atlas-v3.html">All ${e.count} traditions of this era on the full map →</a>`:''}
+      </div>`;
+    if(compressed){
+      html+=`<li class="era era--${e.num} era--compressed" id="era-${e.num}" data-era="${e.num}" style="--rows:0">${head}
+        <p class="count"><span>${e.count} traditions on record</span><span>·</span><span>none built yet</span><span>·</span><span>${e.frozen?'the era survey is complete':'the era survey has not run yet'}</span>
+        <a href="${SITE}atlas-v3.html">See them on the full map →</a>
+        ${e.num===7?`<span class="note">Seven traditions from this era are planned to follow the ancient set. The count is set; which ones isn't chosen yet.</span>`:''}</p></li>`;
+      return;
+    }
+    html+=`<li class="era era--${e.num}" id="era-${e.num}" data-era="${e.num}" style="--rows:${rows}">${head}
+      <p class="sr-only">${liveN} open for conversation${planN?`, ${planN} chosen but not yet built`:''}. ${e.count-stops.length} more traditions from this era are on the full map.</p>
+      <ol class="stops" aria-label="Era ${esc(e.no)} stops">${stops.map(stopHtml).join('')}</ol></li>`;
+  });
+  ol.innerHTML=html;
+  document.getElementById('legend-live').textContent=`Seven so far.`;
+  document.getElementById('legend-plans').textContent=`Two chosen.`;
+})();
+
+function portraitHtml(w,cls){
+  if(!w.portrait)return `<span class="${cls}" style="--tint:${w.tint||'var(--witness)'}"><svg aria-hidden="true"><use href="#ic-plans"/></svg></span>`;
+  const initial=(w.rep||w.shortName).charAt(0);
+  return `<span class="${cls}" style="--tint:${w.tint}"><img src="${PORTRAIT_BASE}${w.portrait}" alt="" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'initial',textContent:'${initial}'}))"></span>`;
+}
+function stopHtml(w){
+  const p=POS[w.id], live=isLive(w);
+  const tint=w.tint||'#6C6257';
+  const style=`--x:${p.x}%;--row:${p.row};--tint:${tint};${p.w?`--w:${p.w};`:''}`;
+  const label=live
+    ?`${w.rep}, ${w.repTitle}, ${w.world}, ${w.dates}, ${w.region}. ${w.statusWord}.`
+    :`${w.shortName}, ${w.dates}, ${w.region}. ${w.statusWord}.`;
+  const icon=live?'ic-house':'ic-plans';
+  let inner;
+  if(live){
+    inner=`${portraitHtml(w,'stop__portrait')}
+      <span class="stop__name"><svg aria-hidden="true"><use href="#${icon}"/></svg>${esc(w.rep)}</span>
+      <span class="stop__meta"><span class="w">${esc(w.world)}</span>${esc(w.dates)} · ${esc(w.region)}</span>
+      ${p.w?`<span class="stop__span" aria-hidden="true">${esc(p.span)}</span>`:''}`;
+  }else{
+    inner=`${portraitHtml(w,'stop__portrait')}
+      <span class="stop__name"><svg aria-hidden="true"><use href="#${icon}"/></svg>${esc(w.shortName)}</span>
+      <span class="stop__meta">${esc(w.dates)} · ${esc(w.region)}</span>
+      <span class="stop__status">${esc(w.statusWord)}</span>`;
+  }
+  const journey=p.journey?`<li class="stop--journey" style="--tint:${tint};left:${p.journey.fromX}%;top:calc(var(--era-head) + ${p.row} * var(--row-h) + 14px + 26px)" data-journey="${w.id}"><span class="pin" aria-hidden="true"></span>${esc(p.journey.label)} — <span class="sr-only">${esc(w.world)} began in Rome and moved to Bethlehem in 385.</span><span aria-hidden="true">the circle sails east</span></li>`:'';
+  return `${journey}<li class="stop ${live?'stop--live':'stop--plans'} ${p.w?'stop--wide':''}" id="${w.id}" data-id="${w.id}" style="${style}">
+    <button type="button" class="stop__btn" aria-label="${esc(label)}" aria-haspopup="dialog" data-id="${w.id}">${inner}</button></li>`;
+}
+
+/* ── threads: only the relationships the census carries, confidence in words ─ */
+const atlas=document.getElementById('atlas'), svg=document.getElementById('threads');
+function center(el,edge){
+  const a=atlas.getBoundingClientRect(), r=el.getBoundingClientRect();
+  return {x:r.left-a.left+r.width/2, y:(edge==='top'?r.top:r.bottom)-a.top, w:r.width};
+}
+function drawThreads(){
+  svg.innerHTML='';
+  if(document.body.classList.contains('list-view')||matchMedia('(max-width: 900px)').matches)return;
+  const a=atlas.getBoundingClientRect();
+  svg.setAttribute('viewBox',`0 0 ${a.width} ${a.height}`);
+  let out='';
+  /* lifetime tails (decorative; dates are in words on every stop) */
+  WORLDS.forEach(w=>{
+    const el=document.getElementById(w.id);if(!el)return;
+    const c=center(el.firstElementChild,'bottom');
+    const len=Math.min((w.end-w.start)*0.55,120);
+    out+=`<path class="tail" style="--tint:${w.tint||'#6C6257'}" d="M${c.x} ${c.y} v${len}"/>`;
+  });
+  /* the Rome → Bethlehem journey */
+  document.querySelectorAll('[data-journey]').forEach(j=>{
+    const w=byId[j.dataset.journey], el=document.getElementById(w.id);
+    const jr=j.getBoundingClientRect(), er=el.firstElementChild.getBoundingClientRect();
+    const x1=jr.left-a.left+4, y=jr.top-a.top+jr.height/2, x2=er.left-a.left;
+    out+=`<path class="journey" style="--tint:${w.tint}" d="M${x1} ${y} H${x2}"/>`;
+  });
+  EDGES.forEach((e,i)=>{
+    const f=document.getElementById(e.from), t=document.getElementById(e.to);if(!f||!t)return;
+    const p1=center(f.firstElementChild,'bottom'), p2=center(t.firstElementChild,'top');
+    const conf=e.confidence==='Contested'?'c-contested':e.confidence==='Widely Accepted'?'c-widely':'c-documented';
+    const type=e.type==='contemporary with'?'t-contemporary':'t-lineage';
+    const dy=Math.max(40,(p2.y-p1.y)/2);
+    const d=type==='t-contemporary'
+      ?`M${p1.x} ${p1.y} C ${p1.x} ${p1.y+dy}, ${p2.x} ${p2.y-dy}, ${p2.x} ${p2.y}`
+      :`M${p1.x} ${p1.y} C ${p1.x} ${p1.y+dy}, ${p2.x} ${p2.y-dy}, ${p2.x} ${p2.y}`;
+    out+=`<path class="thread ${conf} ${type}" data-ei="${i}" data-from="${e.from}" data-to="${e.to}" d="${d}"><title>${esc(byId[e.from].shortName)} → ${esc(byId[e.to].shortName)}: ${esc(e.type)}, ${esc(e.confidence)}. ${esc(e.note)}</title></path>`;
+  });
+  svg.innerHTML=out;
+}
+let __rs=null;addEventListener('resize',()=>{clearTimeout(__rs);__rs=setTimeout(drawThreads,150);});
+
+/* ── trace: hover/focus one stop, its lineage lights ─────────────────── */
+function related(id){const s=new Set([id]);EDGES.forEach(e=>{if(e.from===id)s.add(e.to);if(e.to===id)s.add(e.from);});return s;}
+function trace(id){
+  const rel=related(id);atlas.classList.add('is-tracing');
+  document.querySelectorAll('.stop').forEach(n=>n.classList.toggle('is-hot',rel.has(n.dataset.id)));
+  svg.querySelectorAll('.thread').forEach(p=>p.classList.toggle('is-hot',p.dataset.from===id||p.dataset.to===id));
+}
+function untrace(){atlas.classList.remove('is-tracing');document.querySelectorAll('.is-hot').forEach(n=>n.classList.remove('is-hot'));}
+
+/* ── Level 2: the glimpse (hover = short · focus = short · tap = popover) ─ */
+const glimpse=document.getElementById('glimpse');
+let glimpseFor=null;
+function glimpseHtml(w){
+  const live=isLive(w);
+  return `<div class="g-n">${esc(live?w.rep:w.shortName)}</div>
+    ${live?`<div class="g-t">${esc(w.repTitle)} · ${esc(w.world)}</div>`:`<div class="g-t">${esc(w.name)}</div>`}
+    <div class="g-w">${esc(w.dates)} · ${esc(w.region)}</div>
+    <div class="g-c">${esc(w.teaser)}</div>
+    <div class="g-s"><svg width="12" height="12" aria-hidden="true" style="vertical-align:-1px"><use href="#${live?'ic-house':'ic-plans'}"/></svg> ${esc(w.statusWord)}</div>
+    <button type="button" class="g-full" data-id="${w.id}">Full entry →</button>`;
+}
+function showGlimpse(btn){
+  const w=byId[btn.dataset.id];if(!w)return;
+  if(glimpseFor!==w.id){glimpse.innerHTML=glimpseHtml(w);glimpse.style.setProperty('--tint',w.tint||'var(--witness)');glimpseFor=w.id;}
+  glimpse.hidden=false;
+  btn.setAttribute('aria-describedby','glimpse');
+  const r=btn.getBoundingClientRect();
+  glimpse.style.left=Math.max(8,Math.min(r.left,innerWidth-312))+'px';
+  const below=r.bottom+10, h=glimpse.offsetHeight;
+  glimpse.style.top=(below+h>innerHeight-8?Math.max(8,r.top-h-10):below)+'px';
+  trace(w.id);
+}
+function hideGlimpse(){
+  glimpse.hidden=true;
+  document.querySelectorAll('[aria-describedby="glimpse"]').forEach(b=>b.removeAttribute('aria-describedby'));
+  untrace();
+}
+let lastTap=null;
+atlas.addEventListener('pointerover',ev=>{if(noHover)return;const b=ev.target.closest('.stop__btn');if(b)showGlimpse(b);});
+atlas.addEventListener('pointerout',ev=>{if(noHover)return;const b=ev.target.closest('.stop__btn');if(b&&!b.contains(ev.relatedTarget))hideGlimpse();});
+atlas.addEventListener('focusin',ev=>{const b=ev.target.closest('.stop__btn');if(b)showGlimpse(b);});
+atlas.addEventListener('focusout',ev=>{const b=ev.target.closest('.stop__btn');if(b)hideGlimpse();});
+atlas.addEventListener('click',ev=>{
+  const b=ev.target.closest('.stop__btn');
+  if(!b){if(noHover){hideGlimpse();lastTap=null;}return;}
+  if(noHover&&lastTap!==b.dataset.id){showGlimpse(b);lastTap=b.dataset.id;return;} /* first tap = popover */
+  lastTap=null;hideGlimpse();openPanel(b.dataset.id,b);
+});
+glimpse.addEventListener('click',ev=>{const f=ev.target.closest('.g-full');if(f){const b=document.querySelector(`.stop__btn[data-id="${f.dataset.id}"]`);hideGlimpse();lastTap=null;openPanel(f.dataset.id,b);}});
+/* thread hover: the relationship, in words */
+svg.addEventListener('pointerover',ev=>{
+  const p=ev.target.closest('.thread');if(!p||noHover)return;
+  const e=EDGES[+p.dataset.ei];
+  glimpse.innerHTML=`<div class="g-n">${esc(byId[e.from].shortName)} → ${esc(byId[e.to].shortName)}</div><div class="g-s">${esc(e.type)} · ${esc(e.confidence)}</div><div class="g-c"><i>${esc(e.note)}</i></div>`;
+  glimpse.style.setProperty('--tint','var(--witness)');glimpseFor='edge:'+p.dataset.ei;glimpse.hidden=false;
+  glimpse.style.left=Math.min(ev.clientX+12,innerWidth-312)+'px';glimpse.style.top=Math.min(ev.clientY+14,innerHeight-160)+'px';
+  p.classList.add('is-hot');
+});
+svg.addEventListener('pointerout',ev=>{const p=ev.target.closest('.thread');if(p){p.classList.remove('is-hot');glimpse.hidden=true;glimpseFor=null;}});
+
+/* ── keyboard: the stops are a roving list in chronological order ────── */
+atlas.addEventListener('keydown',ev=>{
+  const b=ev.target.closest('.stop__btn');if(!b)return;
+  const all=[...atlas.querySelectorAll('.stop__btn')], i=all.indexOf(b);
+  const go=n=>{ev.preventDefault();all[n].focus();all[n].scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});};
+  if(ev.key==='ArrowDown'||ev.key==='ArrowRight'){if(i<all.length-1)go(i+1);}
+  else if(ev.key==='ArrowUp'||ev.key==='ArrowLeft'){if(i>0)go(i-1);}
+  else if(ev.key==='Home')go(0);
+  else if(ev.key==='End')go(all.length-1);
+  else if(ev.key==='Escape')hideGlimpse();
+});
+
+/* ── Level 3: the full entry — side panel (desktop) · bottom sheet (phone) ─ */
+const panel=document.getElementById('panel'), scrim=document.getElementById('scrim'), panelBody=document.getElementById('panelBody');
+let panelTrigger=null;
+function edgeRow(e,id){
+  const other=e.from===id?e.to:e.from, om=byId[other];
+  const verb=e.from===id?(e.type==='contemporary with'?'Contemporary with':e.type==='transmitted to'?'Passed on to':'Formed')
+                        :(e.type==='contemporary with'?'Contemporary with':e.type==='transmitted to'?'Received from':'Formed by');
+  return `<div class="edge">${verb} <button type="button" class="jump" data-jump="${other}">${esc(om.shortName)}</button><span class="cw">${esc(e.confidence)}</span><div class="p-note">${esc(e.note)}</div></div>`;
+}
+function panelHtml(w){
+  const live=isLive(w), id=w.id;
+  const edges=EDGES.filter(e=>e.from===id||e.to===id);
+  const app=`${LIVE_APP_URL}/?worlds=${encodeURIComponent(id)}`;
+  let h=`<div class="p-top">${portraitHtml(w,'p-portrait')}<div>
+    <h2 id="panelTitle">${esc(live?w.rep:w.shortName)}</h2>
+    ${live?`<p class="p-title" style="--tint-text:${w.tint}">${esc(w.repTitle)}</p><p class="p-world">${esc(w.world)}${w.subtitle?' — '+esc(w.subtitle):''}</p>`:`<p class="p-world">${esc(w.name)}</p>`}
+    <p class="p-meta">${esc(w.dates)} · ${esc(w.region)}${w.lane?' · '+esc(w.lane):''}</p>
+    <p class="p-status"><svg aria-hidden="true"><use href="#${live?'ic-house':'ic-plans'}"/></svg>${esc(w.statusWord)}</p>
+  </div></div>
+  <p class="p-tile">${esc(w.teaser)}</p>`;
+  if(live){
+    h+=`<div class="p-doors"><p class="cta-label">Come and join us at the Table</p>
+      <a class="btn primary" href="${app}&mode=interview" target="_blank" rel="noopener">Interview ${esc(w.rep)}</a>
+      <a class="quiet" href="${app}&mode=table" target="_blank" rel="noopener">Bring ${esc(w.rep)} to the Table →</a>
+      <p class="fine">The interview opens straight into the room. The Table seats ${esc(w.rep)} and waits for you to convene — nothing starts on its own.</p></div>`;
+  }else{
+    h+=`<div class="p-doors"><p class="cta-label">Not yet open</p><p>${esc(w.statusDesc)}</p>
+      <a class="quiet" href="#involved" data-close>Help build the next tradition →</a></div>`;
+  }
+  h+=`<h3>About this tradition</h3>${w.long?`<p>${esc(w.long)}</p>`:`<p class="p-note">Not yet written — construction has not begun.</p>`}`;
+  if(w.voices&&w.voices.length)h+=`<h3>Major voices</h3>${w.voices.map(v=>`<p>${esc(v)}</p>`).join('')}`;
+  if(w.legacy)h+=`<h3>What it left behind</h3><p>${esc(w.legacy)}</p>`;
+  if(w.floorNote)h+=`<h3>Where it stands on the Creed</h3><p>${esc(w.floorNote)}</p>`;
+  h+=`<h3>Lineage on this map</h3>`;
+  h+=edges.length?edges.map(e=>edgeRow(e,id)).join(''):`<p class="p-note">No relationship is drawn for this entry among the seven open traditions — the map never draws a thread it can't defend. The full map carries its wider lineage.</p>`;
+  if(w.visit&&w.visit.length)h+=`<h3>Visit today</h3>${w.visit.map(x=>`<p><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.text)}</a></p>`).join('')}`;
+  h+=`<h3>Sources</h3>${live?`<p class="p-note">${esc(w.sourcing)}. This tradition's full source registry grounds every claim the Representative makes — ask about sources directly in the conversation.</p>`:`<p class="p-note">Source base pending — construction has not begun.</p>`}`;
+  h+=`<p style="margin-top:1rem"><a class="quiet" style="display:inline" href="${SITE}atlas-v3.html">This entry on the full map →</a></p>`;
+  return h;
+}
+function openPanel(id,trigger){
+  const w=byId[id];if(!w)return;
+  panelTrigger=trigger||document.activeElement;
+  panelBody.innerHTML=panelHtml(w);
+  panel.style.setProperty('--tint',w.tint||'var(--witness)');
+  panel.hidden=false;
+  const modal=isPhone();
+  panel.setAttribute('aria-modal',modal?'true':'false');
+  scrim.classList.toggle('on',modal);
+  requestAnimationFrame(()=>{panel.classList.add('on');panel.scrollTop=0;document.getElementById('panelClose').focus();});
+  history.replaceState(null,'','#'+id);
+  document.addEventListener('keydown',onPanelKey);
+}
+function closePanel(){
+  panel.classList.remove('on');scrim.classList.remove('on');
+  document.removeEventListener('keydown',onPanelKey);
+  const done=()=>{panel.hidden=true;};
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches)done();else setTimeout(done,230);
+  if(location.hash)history.replaceState(null,'',location.pathname+location.search);
+  if(panelTrigger&&document.contains(panelTrigger))panelTrigger.focus();
+  panelTrigger=null;
+}
+function onPanelKey(ev){
+  if(ev.key==='Escape'){closePanel();return;}
+  if(ev.key!=='Tab'||panel.getAttribute('aria-modal')!=='true')return;
+  const els=[...panel.querySelectorAll('button,[href],[tabindex]:not([tabindex="-1"])')].filter(el=>el.offsetParent!==null);
+  if(!els.length)return;const first=els[0],last=els[els.length-1];
+  if(ev.shiftKey&&document.activeElement===first){ev.preventDefault();last.focus();}
+  else if(!ev.shiftKey&&document.activeElement===last){ev.preventDefault();first.focus();}
+}
+document.getElementById('panelClose').addEventListener('click',closePanel);
+scrim.addEventListener('click',closePanel);
+panel.addEventListener('click',ev=>{
+  const j=ev.target.closest('[data-jump]');
+  if(j){const id=j.dataset.jump;closePanel();const el=document.querySelector(`.stop__btn[data-id="${id}"]`);if(el){el.scrollIntoView({block:'center'});setTimeout(()=>openPanel(id,el),260);}return;}
+  if(ev.target.closest('[data-close]'))closePanel();
+});
+/* deep link: #<tradition-id> opens its entry directly — a stop is a shareable place */
+function openFromHash(){const id=location.hash.slice(1);if(byId[id]){const el=document.querySelector(`.stop__btn[data-id="${id}"]`);if(el)el.scrollIntoView({block:'center'});openPanel(id,el);}}
+addEventListener('hashchange',openFromHash);
+
+/* ── list view: the spatial layer removed, nothing lost ──────────────── */
+const listBtn=document.getElementById('listToggle'), listBtn2=document.getElementById('listToggle2');
+function setList(on,persist){
+  document.body.classList.toggle('list-view',on);
+  listBtn.setAttribute('aria-pressed',String(on));
+  listBtn.querySelector('span').textContent=on?'Show the map':'Read as a list';
+  listBtn2.textContent=on?'Show the map again':'Prefer a list? Read the map as a list';
+  if(persist){try{localStorage.setItem('cic_v2_list_view',on?'1':'0');}catch(e){}}
+  drawThreads();
+}
+listBtn.addEventListener('click',()=>setList(!document.body.classList.contains('list-view'),true));
+listBtn2.addEventListener('click',()=>{setList(!document.body.classList.contains('list-view'),true);document.getElementById('era-1').scrollIntoView();});
+let saved=null;try{saved=localStorage.getItem('cic_v2_list_view');}catch(e){}
+setList(saved==='1',false);
+
+/* ── "where am I": the era at the viewport's center, announced politely ─ */
+const badge=document.getElementById('yearBadge');
+const eraEls=[...document.querySelectorAll('.era')];
+let badgeEra=null;
+function updateBadge(){
+  const mid=innerHeight*0.45;let best=null;
+  eraEls.forEach(el=>{const r=el.getBoundingClientRect();if(r.top<=mid&&r.bottom>=mid)best=el;});
+  if(!best){badge.textContent='';badgeEra=null;return;}
+  const e=ERAS[+best.dataset.era-1];
+  if(badgeEra===e.num)return;badgeEra=e.num;
+  badge.textContent=`Era ${e.no} · ${e.title} · ${e.dates}`;
+}
+addEventListener('scroll',updateBadge,{passive:true});
+
+/* ── boot ────────────────────────────────────────────────────────────── */
+function boot(){drawThreads();updateBadge();if(location.hash)openFromHash();}
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(boot);else boot();
+addEventListener('load',()=>setTimeout(drawThreads,50));
+</script>
+</body>
+</html>
