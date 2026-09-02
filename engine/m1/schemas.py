@@ -111,6 +111,21 @@ ENVELOPE_PROPERTIES = {
     "status": {"enum": ["draft", "ready", "frozen"]},
     "register": {"enum": ["emic", "etic", "emic-unavailable"]},
     "canon_cells": {"type": "array", "items": {"type": "string"}},
+    # Authored opt-out from M2's demo auto-tagging (engine/m2/builders.py's
+    # _demonstration_candidates(), added 2026-08-29, craft cycle 2): a
+    # record whose own framing vocabulary ("we cannot tell you", "plainly")
+    # false-tags unrelated demo sentences at the shipping floor sets
+    # `demo_tag: exclude` rather than being silently mistagged. Real,
+    # load-bearing field (5 honest_limit records use it fleet-wide as of
+    # 2026-09-02) that was simply missing from this schema until now -
+    # every record carrying it was failing gate_schema_validation, the
+    # same shape of gap quote.modern_rendering was in before it. Spans
+    # every type builders.py's own _DEMO_CANDIDATE_TYPES lists (not just
+    # honest_limit), so it lives on the envelope, like canon_cells itself.
+    # "exclude" is the only value the compiler checks for; anything else
+    # would silently do nothing, which is exactly the class of typo an
+    # enum (rather than a bare string) catches at the schema layer.
+    "demo_tag": {"enum": ["exclude"]},
     "confidence": _CONFIDENCE_SCHEMA,
     "sources": {"type": "array", "items": _SOURCE_REF_SCHEMA},
     "retrieval": _RETRIEVAL_SCHEMA,
