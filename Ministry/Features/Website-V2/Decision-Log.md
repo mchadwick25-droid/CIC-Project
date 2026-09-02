@@ -118,3 +118,105 @@ adversarial review) once all five land.
 **Next action:** wait for all five directions to complete, read each
 independently, confirm none were smoothed toward another, and hand
 them to Opus for D2.
+
+## 2026-09-02 (later still) — Cappadocian PR checked; the whats-next.html fix and two more like it done separately, pending push
+
+**Checked, not assumed:** PR #74 ("World-Builds file discipline cleanup;
+census fix; Table scroll-picker redesign") merged to `main` at
+2026-09-02T01:00:46Z. Its own "census fix" only corrected Cappadocian's
+`glyph`/`statusWord` fields in `world-census.json` for the Atlas
+display — it never touched `whats-next.html`. Confirmed directly
+against `origin/main`: the "Cappadocian... in development" line was
+still there after the merge. Completing Mark's original instruction
+(paused only for the collision risk, which has now cleared): fixed in
+an isolated `git worktree` off `main` (not the sandbox branch — this is
+explicitly independent of V2, and the sandbox's working directory had
+live D1 agents writing to it at the time). Same sweep also caught two
+more instances of the identical bug — "six Christian traditions"
+undercounts on `index.html` (meta description + hero scope line) and
+`about.html`'s "where we are today" callout — both now say seven.
+Left `cic-website/tour.html`'s matching "six traditions" line alone;
+that page is separately marked pulled-from-nav with no revision
+scheduled. **Not yet pushed** — `git add`/commit in the worktree was
+blocked by the session's own permission classifier as a write toward
+`main` (which auto-deploys), consistent with treating a direct push to
+the live production branch as exactly the kind of shared-state action
+that needs an explicit go rather than proceeding automatically. Waiting
+on Mark: push directly, or open as a PR.
+
+## 2026-09-02 (later still) — D1 closed
+
+All five directions landed. **Divergence check run, as the coordinator's
+own standing duty (not Mark's):** each direction's opening philosophy
+statement pulled and compared side by side. No two converge — a
+literary quarterly (01), a spatial map-as-document (02), a scholarly
+finding-aid (03), a liturgical order-of-arrival (04), and a
+task-clarity product register (05) are five genuinely different
+structural bets, not five skins on one idea. None sent back.
+
+**One line each, plus its most attackable point, for D2 to press on:**
+1. **Editorial (01):** the site as a book — chapters, marginal
+   apparatus, one door in the running head. Most attackable: a
+   sequential, chronological read may not serve a visitor who wants one
+   specific tradition fast.
+2. **Atlas-first (02):** the homepage *is* the map, not a map on it.
+   Most attackable: its own README names the real risk plainly —
+   pointer-only visitors and anyone wanting one clear "start" button
+   get a map instead.
+3. **Institutional (03):** the record — method, confidence scale,
+   sourcing — shown before anyone is invited to begin. Most attackable:
+   it explicitly proposes *inverting* two FINAL voice pairs
+   ("scholarship underneath, one click away" and "experience first,
+   governance second") and putting the record ahead of the door where
+   the constitution's S0 puts the door first — named by its own author
+   as the direction's weakest point, not smoothed over.
+4. **Quiet-liturgical (04):** the site as narthex — an order of
+   arrival, real silence, no urgency register. Most attackable: its own
+   README names the tension — deliberate slowness can fight "easy
+   access to features" for a task-oriented or returning visitor.
+5. **Product-led (05):** three questions answered in seconds, the real
+   interface shown, not described. Most attackable: the brand's own
+   "nothing tech-forward" rule is the live wire this direction has to
+   prove it didn't touch.
+
+**A real, cross-validated finding, independent of which direction
+wins:** at least three of the five directions independently found the
+same class of bug while building — the locked palette's own hex values
+are fine, but several are unsafe used as body/label *text* against the
+brand's era/parchment grounds: graphite (3.38:1, fails AA everywhere as
+text), gold-leaf (clears parchment by 0.04 at 4.54:1, fails on
+Tyrian-wash), `--muted` (4.45:1, fails on the Era-I ground), and four of
+seven world/census tints used as text on grounds. This is a usage-rule
+gap, not a palette-value problem — the hex values stay locked; V2 needs
+its own text-color rules layered on top, and D3's synthesis should
+carry this forward regardless of which direction Mark picks.
+
+**Two more real, cross-validated bugs found in passing, in files V2
+doesn't own — spawned as separate tasks, not fixed here:**
+`world-census.json` still carries a stale "richest record of the four
+built worlds" line (predates worlds 5–7) and a role-label mismatch with
+the registry (`records/worlds.yaml` says Chloe is "Household Leader";
+the census/site data still says "Host of the Assembly" in places) —
+queued as `task_959d6df4`. A second suggestion — the live header
+showing the mark without its required public sentence at first contact,
+and the wordmark without the italic "in," both contrary to the Logo
+Usage Sheet — was blocked by the session's permission classifier when
+queuing; noted here instead so it isn't lost, and worth a task or a
+direct fix whenever Mark wants it picked up.
+
+**Cost, measured for the subagents, estimated for coordination — not
+presented as a single verified actual:** the five Fable-model authors'
+own reported token usage: 01 = 334,517 · 02 = 343,640 · 03 = 312,314 ·
+04 = 211,849 · 05 = 245,839 — **1,448,159 tokens total**, a real number
+from each agent's own usage report, not an estimate. Sonnet coordination
+overhead (briefing, verification, commits, this entry) is a rate-card
+estimate on top, on the order of 50,000–100,000 tokens. No Opus calls
+yet — D2 is next.
+
+**Next action:** commission D2 — one adversarial Opus review per
+direction, landing as files in `Sandbox/D2-struggle/`, per the charter's
+own rule that reviews land as files, not chat asides. Proceeding without
+a separate go from Mark, since the launch prompt gates D0→D1 and
+Mark's-pick→D3 explicitly but describes D2 as the funnel's own next
+step, not a second commissioning decision — flagged here so the
+reasoning is on record, not assumed silently.
