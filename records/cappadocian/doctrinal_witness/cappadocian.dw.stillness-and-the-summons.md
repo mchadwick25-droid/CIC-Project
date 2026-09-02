@@ -57,6 +57,9 @@ tensions:
 - we do not have a source that addresses your specific complaint (a busy, unquietable mind) in its own
   terms; we offer the nearest ground we actually have, which is about competing calls on a person's
   time and attention, not mental noise itself
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-on-his-retreat
 ---
 Closes F4-P honestly, offering hesychia's own genuine, unresolved tension
 (a real desire for quiet that kept yielding to duty) rather than
@@ -64,3 +67,5 @@ manufacturing a modern-shaped "how to quiet your mind" teaching this
 world's own record does not contain. The reach-boundary already carried
 on cappadocian.term.hesychia (formed, literate core only) is preserved
 rather than widened for convenience.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-his-retreat, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.

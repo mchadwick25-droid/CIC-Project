@@ -49,8 +49,13 @@ tensions:
 - we cannot tell you with confidence how this world's own practice compared to infant baptism
   specifically; the delay pattern is what our own record actually shows us, not a settled
   infant-versus-adult ruling
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-against-delaying-baptism
 ---
 Closes F4-T on the strongest-attested variant (baptism, adult and often
 delayed), honestly declining the tithe and end-times variants this
 world's own registered material does not develop rather than padding the
 answer with invented content.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-against-delaying-baptism, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.

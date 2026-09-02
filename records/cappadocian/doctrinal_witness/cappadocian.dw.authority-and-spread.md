@@ -66,6 +66,9 @@ tensions:
 - the founding-conversion numbers (seventeen believers becoming seventeen holdouts) are legend's own
   arithmetic, a claim about total transformation, not a census anyone actually took - we do not pretend
   otherwise
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-to-the-chorepiscopi
 ---
 Closes F3-I. The founding-legend material is used exactly at the strength
 cappadocian.story.thaumaturgus-legend's own narrative_tier_justification
@@ -81,3 +84,5 @@ for the separate span between Jesus's life and this world's own c.
 325-340 window. Gregory Thaumaturgus (cappadocian.figure.gregory-thaumaturgus,
 c. 213 - c. 270/5) sits roughly a century before this world's own
 horizon opens, not three - corrected to "roughly a century back."
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-to-the-chorepiscopi, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
