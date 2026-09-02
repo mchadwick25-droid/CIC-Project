@@ -19913,7 +19913,7 @@ function smoothPath(pts){
 // than simply appearing, already at full width, in an empty column of its
 // own. Without a documented parent, only the width ramps in; the geometry
 // never invents a lineage the record doesn't assert.
-const MERGE_WINDOW=260;
+const MERGE_WINDOW=440;
 function riverPath(k, amp){
   const left=[], right=[];
   const parentK=laneParent[k];
@@ -19922,10 +19922,21 @@ function riverPath(k, amp){
     const fullW=widthAt(k,y);
     let cx=ownX, w=fullW;
     if(k!==0){
-      const t=Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));
+      const raw=Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));
+      // Smoothstep, not a straight ramp: a lane peeling off its parent lane
+      // was riding a linear 0-to-1 blend, which -- since the gap between two
+      // lane columns usually dwarfs the wave's own +-52px swing -- read as a
+      // straight diagonal cut wherever it happened, not a river joining
+      // another. Easing the *rate* of the blend (zero velocity at both ends)
+      // curves the transition itself; the bulge below adds an actual organic
+      // arc through it. Both are scaled by amp so calm (zoomed-out, amp=0)
+      // paths stay the deliberately simplified lines rule 8 calls for --
+      // only the full-detail organic path gets the joining curve.
+      const t=raw*raw*(3-2*raw);
       if(parentK!=null){
         const parentX=laneX[parentK]+laneWave[parentK](y)*amp;
-        cx=parentX+(ownX-parentX)*t;
+        const bulge=Math.sin(raw*Math.PI)*64*amp;
+        cx=parentX+(ownX-parentX)*t+bulge;
       }
       w=fullW*t;
     }
