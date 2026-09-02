@@ -173,16 +173,32 @@ site to inherit, so none is added.
 
 ## 1. Home — `index.html`
 
-**Purpose.** Take what the visitor brought. Open with the hook and one real
-place to put a question down; then who can carry it; then what a
+**Purpose.** Take what the visitor brought. Open with the hook; then who can
+carry it, so a question can be asked with real context instead of into a
+void; then one real place to put that question down; then what a
 conversation is like; then what holds it to the record and what is
 unfinished; then the map; then the ask.
 
-**Order of the page (H-level outline):** H1 hook → §1.2 H2 *Start with your
-question* → §1.3 H2 *Who would you like to ask?* (H3 era ×2, H4 name ×7) →
+**Change order, 2026-09-02 (Decision-Log): §1.2 and §1.3 swap order —
+Mark's ruling.** A visitor handed a bare "ask a question" box before seeing
+who is even there has no way to know what's askable or trustworthy; the
+seven need to be met first, so the question that follows is "I want to ask
+*her* something, because I trust she has the context to answer it," not a
+generic prompt into empty air. §1.3's own content, mechanism and register
+tags are unchanged by the swap — only its position, and the door's, move.
+§1.3's chairs are also regrouped as a gallery (rows = era, columns =
+chronological order within the era) rather than a single stacked list, so
+the section stays scannable as more traditions and eras are added — see the
+new §1.3 below. **§1.8's state table, §1.9's accessibility walk-through and
+keyboard-path counts, and §1.10 below are written to the *pre-swap* order
+and have not yet been re-verified against the new one** — re-verify before
+they're relied on for anything beyond the general shape of each state.
+
+**Order of the page (H-level outline):** H1 hook → §1.3 H2 *Who would you
+like to ask?* (H3 era ×2, H4 name ×7) → §1.2 H2 *Start with your question* →
 §1.4 H2 *What a conversation looks like* (H3 ×4 margin notes) → §1.5 H2 the
 disclosure (H3 ×2) → §1.6 H2 *Church in History* → §1.7 H2 *Support*
-(visually hidden). No skipped levels (verified).
+(visually hidden). No skipped levels (verified against the build).
 
 **Data.** The seven chairs are the census's own fields. RECOMMENDED: generate
 the seven rows into the static HTML from `world-census.json` by a small
@@ -239,7 +255,21 @@ the AI line for a first-time visitor (verified).
 
 ### 1.3 Who would you like to ask — `#who`
 
-The second screen; the door's landing zone. Top to bottom:
+**Now the first screen after the hero (2026-09-02 change order above), not
+the door's landing zone — context before the ask.** Top to bottom:
+
+**The chairs are a gallery, not a stacked list (2026-09-02 change order):**
+each era heading is followed by a grid, `repeat(auto-fill, minmax(150px,1fr))`,
+so an era's chairs run left to right in chronological order and the next
+era starts a new row below — vertical position reads as time, horizontal
+position within a row reads as chronology within that era. This is the
+scale answer for "more than ten": a new tradition joins its era's row
+(wrapping to a second row under the same era heading if the row is full)
+rather than lengthening a single column everyone has to scroll past.
+Portrait, name, role, tradition, dates, and both chair actions (§1.3g/h)
+are unchanged; the descriptive tile sentence (§1.3f's `entry.tile`) is
+still full census-verbatim text in the DOM, `-webkit-line-clamp: 2` for
+sighted layout only — a screen reader still hears the whole sentence.
 
 | # | Element | Copy | Register |
 |---|---|---|---|

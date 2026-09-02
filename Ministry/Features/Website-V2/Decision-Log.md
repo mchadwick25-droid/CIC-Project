@@ -992,3 +992,78 @@ light-register ground/surface). Recorded here as the change order;
 §6.2's token table needs the same two-value edit the next time that
 document is opened, so the frozen record doesn't quietly drift from
 what's actually shipping.
+
+## 2026-09-02 (later still) — Change order: "who" before the door
+
+**Mark's objection to the built homepage:** the question door is the first
+thing on the page, but the question it asks for hangs — nothing happens
+with it until a tradition is picked — and the real heart of this project is
+*who* you're sitting with, not a question typed into empty air. Sharpened
+on push-back: a blank "ask a question" box doesn't fail because visitors
+lack questions, it fails because they don't yet have the context to know
+what's worth asking or who could actually answer it. "I want to ask her
+something, because I trust she has the context to answer it" — that
+sentence needs the *her* established before the question makes sense.
+
+**Ruling: swap §1.2 (the door) and §1.3 ("Who would you like to ask?") —
+who leads.** Agreed on the merits, not just accepted: the visitor now meets
+the seven immediately after the hero, then reaches the question door
+already knowing who's at the table. The one accepted cost: someone who
+arrives already carrying a specific question no longer gets the instant
+"type it right now" landing spot — they meet the seven first. The offered
+six hard questions still give an on-ramp once they reach the door.
+
+**Also ruled, same conversation — the chairs regroup as a gallery:** at
+more than ten traditions across more eras, a single stacked column (the
+launch build's actual shape) would make people scroll past everyone to
+find one voice. New rule: **vertically by era, horizontally by each
+tradition's start date within the era** — each era is a row, chronological
+left to right, wrapping to a second row under the same era heading if an
+era outgrows one row's width, rather than lengthening a shared column.
+
+**Applied to `cic-website/index.html`:**
+- The `<section class="who">` block (held-block, eyebrow, H2, scope, both
+  era groups, pilot note, cost caveat, second door) moved to immediately
+  after the hero; `<section class="door">` (the question input, offered
+  questions) now follows it. No copy changed except what the reorder
+  itself implies — the door's own H2/lede/how-line/AI-line/offered
+  questions are byte-for-byte the same text, just relocated.
+- `.chairs` changed from a block list to
+  `grid-template-columns:repeat(auto-fill,minmax(150px,1fr))` — each
+  `<ol class="chairs">` (one per era) is now a row of tiles instead of a
+  stacked column; `.chair` itself changed from portrait-beside-text to a
+  compact vertical tile (portrait, name, role, tradition, dates, a
+  2-line-clamped tile sentence, actions). The tile sentence stays full
+  census-verbatim text in the DOM — the clamp is CSS-only, so a screen
+  reader still gets the whole sentence; only the sighted layout truncates.
+  `.who`'s own max-width widened from the 44rem single-column measure to
+  the 64rem chrome width to give the grid room; the section's own prose
+  (h2, scope, pilot note, held block) stays pinned to the narrower
+  measure for readability.
+- The held-question mechanism (`hold()`/`setHeld()`, the `#q=` fragment
+  protocol, restoring from a shared URL, the no-JS fallback) is
+  functionally unchanged — it already scrolled to and focused `#who`
+  after a hold, which now means scrolling *up* to the chairs (they
+  precede the door in the DOM) instead of down. No code change was needed
+  for this; `scrollIntoView`/`.focus()` don't care about direction.
+
+**Verified locally** (headless Chromium): zero horizontal overflow at
+320–1440px; heading outline now runs H1 → H2 "Who would you like to ask?"
+(H3 era ×2, H4 name ×7) → H2 "Start with your question" → H2 "What a
+conversation looks like" → ... with no skipped levels; the grid shows all
+3 of era 1's chairs on one row and all 4 of era 2's on one row at
+1024px+, 2 per row at 390px (era 1: 2+1, era 2: 2+2) — real scroll
+reduction, not just reflow; held/offered/restore/empty-submit all
+re-tested end to end post-reorder — hash, held-block text, focus, and the
+Ask-link `#q=` rewrite all still fire correctly with the new scroll
+direction. Portraits confirmed loading correctly (an early screenshot
+showed two blank circles — traced to the screenshot tool's own lazy-load
+timing, not a page bug; all seven decode and render once given a moment).
+
+**Recorded as a real deviation from the frozen storyboard**, not a quiet
+edit: `CiC_Website_V2_Storyboard.md` §1's "Purpose" and "Order of the page"
+updated in place, with an explicit change-order note. Flagged there and
+here: §1.8's state table, §1.9's accessibility walk-through and keyboard
+tab-stop counts, and §1.10 still describe the *pre-swap* order and have
+not been re-verified against the new one — real work, not yet done, before
+either document is fully trustworthy again on those specifics.
