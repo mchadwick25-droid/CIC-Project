@@ -74,3 +74,12 @@ philosophies (editorial/long-form; atlas-first spatial;
 institutional-professional; quiet-liturgical; product-led feature
 clarity) — and the `whats-next.html` Cappadocian fix as a
 separately-actionable item. Wait for his go before commissioning D1.
+
+**Mark's ruling on the two side items:** hold both. The
+`whats-next.html` Cappadocian fix is **not** done now — a separate
+Cappadocian-thread session is opening its own PR at the same time, and
+touching that file here risks colliding with it. Re-evaluate once that
+PR lands (it may already fix this, or may not — check before acting,
+don't assume either way). The photo-rights question (seam B) stays
+open, untouched, no change from D0. D1 commissioning itself is still
+awaiting Mark's explicit go.
