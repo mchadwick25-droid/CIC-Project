@@ -19913,7 +19913,13 @@ function smoothPath(pts){
 // than simply appearing, already at full width, in an empty column of its
 // own. Without a documented parent, only the width ramps in; the geometry
 // never invents a lineage the record doesn't assert.
-const MERGE_WINDOW=440;
+// Kept short on purpose: most lanes' real genesis falls early in Era I, and
+// at 440 the transition swallowed nearly that whole era -- almost everything
+// visible in the map's opening was "still joining," not yet independently
+// winding, which is what actually read as "the winding is gone" even though
+// the wave itself never changed. 150 gives the join enough room for a real
+// curve, then hands the lane back to its own full-amplitude wave quickly.
+const MERGE_WINDOW=150;
 function riverPath(k, amp){
   const left=[], right=[];
   const parentK=laneParent[k];
