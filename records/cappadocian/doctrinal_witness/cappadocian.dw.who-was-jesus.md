@@ -68,6 +68,9 @@ positions:
 tensions:
 - our fullest language for what his death accomplished (ransom, debt, healing) is near later
   substitutionary language without being identical to it, and we do not claim it as such
+relations:
+- type: associated-with
+  target: cappadocian.quote.gregory-nyssa-on-becoming-god
 ---
 Closes C-I. Recomposed, not copied, from the same ground the two existing
 demonstrations for this cell already stand on
@@ -79,3 +82,5 @@ matches this build's own worked precedent
 identical to it") applied honestly to this world's own ransom/debt/healing
 vocabulary rather than importing hal's own Bridegroom imagery, which
 belongs to a different world's own record, not this one's.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.gregory-nyssa-on-becoming-god, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.

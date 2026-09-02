@@ -61,6 +61,9 @@ positions:
 tensions:
 - we cannot show you the inside of every bishop's own vote or motive at any council; what we can show
   you is that the confession argued for was already being sung before any vote we know of was taken
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-on-the-doxology-challenge
 ---
 Closes F1-E, the "voted Jesus into being God" cell, using the same
 doxology-stand material this world's own C-T dw draws on but turned to a
@@ -71,3 +74,5 @@ wording treated as evidence for belief) and cappadocian.force.imperial-church-ar
 documented arc (Nicaea 325 to Constantinople 381), without duplicating
 that force record's own citation weight since the term and story records
 already carry the claim directly.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-the-doxology-challenge, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
