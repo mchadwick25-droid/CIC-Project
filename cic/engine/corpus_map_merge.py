@@ -183,7 +183,15 @@ def merge(write: bool = True) -> tuple[dict[str, list[dict]], list[str]]:
         # Only files carrying the header are ever removed: anything a human
         # wrote by hand is left alone and reported instead.
         for path in MAP_DIR.glob("*.yaml"):
-            if path.stem in buckets or path.name in _NOT_A_BUCKET | {"UNATTRIBUTED.yaml"}:
+            # UNATTRIBUTED.yaml, WORKS.yaml (works_registry.py) and
+            # AUTHOR-IDS.yaml (author_ids.py) are all hand-written registries
+            # that live beside the buckets, not buckets themselves - the same
+            # fact corpus_map.py's own NON_BUCKET_FILES tracks for its
+            # loader. Two separate lists in two scripts rather than one
+            # shared constant (pre-existing shape, not changed here) - keep
+            # them in sync by hand when either grows.
+            if path.stem in buckets or path.name in _NOT_A_BUCKET | {
+                    "UNATTRIBUTED.yaml", "WORKS.yaml", "AUTHOR-IDS.yaml"}:
                 continue
             if path.read_text(encoding="utf-8").startswith(_GENERATED_FIRST_LINE):
                 path.unlink()

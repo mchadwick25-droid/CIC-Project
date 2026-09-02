@@ -1,0 +1,47 @@
+# Worker notes, 2026-09-02. Split into two rows rather than one, because the
+# file itself is two different things: Basil's own words (Appendices A/B)
+# embedded inside a modern scholar's secondary study (the other 14
+# chapters). Confident about the first; flagged needs-ruling on the second,
+# per 6.6 (flag rather than force a confident wrong call).
+source_file: morison_st-basil-and-his-rule_1912.txt
+assignments:
+- work: Introduction/Proem to the Longer Rules and to the Shorter Rules
+    (Appendices A and B of Morison's book - Basil's own words, translated in
+    full, not Morison's paraphrase)
+  author: basil
+  locus: pp. 137-145ish (Appendix A and Appendix B specifically, not the
+    book's other 14 chapters)
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: >
+    Basil's own first-person introductory text to his Rules, embedded
+    as an appendix inside Morison's 1912 study rather than published
+    as its own translation. Genuinely his own voice - joins his other
+    already-assigned work at this entry (basil_address-to-young-men,
+    basil_ascetic-works-longer-shorter-rules).
+- work: St. Basil and His Rule - A Study in Early Monasticism (the book's
+    own 14 thematic chapters, Morison's own scholarly argument - everything
+    EXCEPT Appendices A and B, assigned separately above)
+  author: morison
+  locus: whole file except Appendices A and B
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: context
+  confidence: needs-ruling
+  note: >
+    NEEDS A RULING. E. F. Morison is a modern (1912) scholar; this
+    material is HIS OWN secondary study, not an ancient tradition-voice
+    and not really a contemporary opponent's context-voice either (role
+    set to context here only as the closest available guess, per the
+    established pattern elsewhere in this corpus-map of pairing a
+    best-guess role with confidence: needs-ruling, not left blank) - it
+    postdates the world it describes by roughly 1,500 years. The live
+    question: should modern secondary scholarship that happens to be
+    old enough to be public domain get a corpus-map assignment at all,
+    or does it belong entirely outside this map the way anf10's
+    bibliographic index does (SS6.5's logic, though SS6.5 only names
+    anf10 and webbe by name)? This worker's own lean: no assignment for
+    this portion, treat it the same as anf10 - but not confident enough
+    to commit that as `assigned` rather than flag it.

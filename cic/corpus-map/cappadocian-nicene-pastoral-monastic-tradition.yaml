@@ -13,6 +13,17 @@ works:
     than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
     3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
     This row is one father's share of it.
+- work: Address to Young Men on the Right Use of Greek Literature
+  author: basil
+  locus: whole file - Outline, chapters I-X, closing paragraph, 68 footnotes
+  role: tradition
+  confidence: assigned
+  note: 'Basil of Caesarea''s own work - one of the three Cappadocian Fathers. Directly relevant
+    to this world''s Doc_02 SS1.1 citation; closed the last item on this world''s Source Acquisition
+    Manifest download list per the file''s own vendoring note.
+
+    '
+  source_file: basil_address-to-young-men_padelford1902.txt
 - work: De Spiritu Sancto (On the Holy Spirit)
   author: basil
   locus: div1 7 (~53,414 words), thirty chapters at div2 7.2-7.31
@@ -24,6 +35,33 @@ works:
     stays with its author''s entry; noted rather than forced. 2026-08-26: pneumatomachian-current
     added alongside - the party this work argues with now has an entry of its own.'
   source_file: npnf208_basil-letters-select-works.xml
+- work: Introduction/Proem to the Longer Rules and to the Shorter Rules (Appendices A and
+    B of Morison's book - Basil's own words, translated in full, not Morison's paraphrase)
+  author: basil
+  locus: pp. 137-145ish (Appendix A and Appendix B specifically, not the book's other 14 chapters)
+  role: tradition
+  confidence: assigned
+  note: 'Basil''s own first-person introductory text to his Rules, embedded as an appendix
+    inside Morison''s 1912 study rather than published as its own translation. Genuinely his
+    own voice - joins his other already-assigned work at this entry (basil_address-to-young-men,
+    basil_ascetic-works-longer-shorter-rules).
+
+    '
+  source_file: morison_st-basil-and-his-rule_1912.txt
+- work: The Ascetic Works of Saint Basil (the Great Asketikon - Longer Rules and Shorter Rules,
+    plus the Moralia and shorter ascetic treatises)
+  author: basil
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'Basil of Caesarea''s own foundational monastic legislation - the file''s own vendoring
+    note calls this "the Nicene-Cappadocian world''s single highest-priority remaining source
+    gap: the world''s best window on the brotherhoods'' own legislation." The GREAT Asketikon
+    specifically; the earlier, non-Greek SMALL Asketikon (Rufinus'' Latin, a Syriac recension)
+    remains unvendored.
+
+    '
+  source_file: basil_ascetic-works-longer-shorter-rules_clarke1925.txt
 - work: The Hexaemeron
   author: basil
   locus: div1 8 (~57,097 words), nine homilies at div2 8.2-8.10
@@ -89,6 +127,68 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: The First Apology (Liber Apologeticus)
+  author: eunomius
+  locus: whole file - chapters I-XXVIII plus 23 footnotes
+  role: context
+  confidence: assigned
+  note: 'A contemporary opponent''s own voice (role: context per SS4/SS6.1b''s four-way definition
+    - not limited to non-Christian outsiders), not the Cappadocian world''s own tradition.
+    Basil''s Contra Eunomium and Gregory of Nyssa''s Contra Eunomium both answer this text
+    directly - reading Eunomius'' own words is what lets a builder check whether their polemic
+    represents him fairly, the exact "control on adversarial distortion" the file''s own note
+    names.
+
+    '
+  source_file: eunomius_first-apology_whiston1711.txt
+- work: First Invective Against Julian the Emperor (Oration 4)
+  author: gregory-nazianzen
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'Gregory Nazianzen''s own polemic - one of the three Cappadocian Fathers, own voice.
+    Vendored specifically for this world per its own Source Acquisition Manifest.
+
+    '
+  source_file: gregory-nazianzen_first-invective-against-julian_king1888.txt
+- work: Second Invective Against Julian the Emperor (Oration 5)
+  author: gregory-nazianzen
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'Gregory Nazianzen''s own polemic, companion to Oration 4 (assigned separately, same
+    entry). Own voice, vendored for this world''s own Source Acquisition Manifest.
+
+    '
+  source_file: gregory-nazianzen_second-invective-against-julian_king1888.txt
+- work: The Life of St. Macrina (Vita Macrinae) - complete, introduction and narrative
+  author: gregory-nyssa
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'Gregory of Nyssa''s own work - one of the three Cappadocian Fathers. The file''s
+    own vendoring note calls this "the world''s entire primary-text basis for Macrina... the
+    single most load-bearing text for the ''primary voice with no primary text'' finding and
+    for the female-voice question." Supersedes gregory-nyssa_life-of-macrina- introduction-only_clarke1916.txt
+    for narrative content (assigned separately below, kept per this project''s no-deletion
+    practice).
+
+    '
+  source_file: gregory-nyssa_life-of-macrina_clarke1916.txt
+- work: The Life of St. Macrina - Clarke's Introduction only (not the biography's narrative
+    text)
+  author: gregory-nyssa
+  locus: whole file (Clarke's translator's introduction, three sections)
+  role: tradition
+  confidence: provisional
+  note: 'provisional, not assigned: this is Clarke''s own INTRODUCTION (real biographical
+    facts about Gregory of Nyssa''s life, per the file''s own content note) rather than Gregory''s
+    own narrative text, which is what the complete companion file actually carries. A builder
+    citing this world''s Macrina material should reach for gregory-nyssa_life-of-macrina_clarke1916.txt
+    (assigned separately) first; this file''s own biographical-facts content is real but secondary.
+
+    '
+  source_file: gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt
 - work: From the metrical poems of Gregory Theologus, on the canon of Scripture
   author: gregory_naz
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -324,6 +424,42 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
+  author: julian
+  locus: whole file; Letter 36 specifically
+  role: context
+  confidence: assigned
+  note: 'Letter 36 bans Christians from teaching classical literature - directly targeting
+    the paideia this world''s own figures (Basil''s own Address to Young Men on the Right
+    Use of Greek Literature, vendored separately) depended on and defended. This file was
+    supplied specifically for this world''s own Source Acquisition Manifest (its own acquisition
+    id: cappadocian-julian-rescript- teachers, per cic/texts/README.md''s ENTRIES note on
+    this file). Assigned alongside imperial-juridical-christianity, not instead of it (SS6.1,
+    non-exclusive by default).
+
+    '
+  source_file: julian_letters-1-73_wright1923.txt
+- work: St. Basil and His Rule - A Study in Early Monasticism (the book's own 14 thematic
+    chapters, Morison's own scholarly argument - everything EXCEPT Appendices A and B, assigned
+    separately above)
+  author: morison
+  locus: whole file except Appendices A and B
+  role: context
+  confidence: needs-ruling
+  note: 'NEEDS A RULING. E. F. Morison is a modern (1912) scholar; this material is HIS OWN
+    secondary study, not an ancient tradition-voice and not really a contemporary opponent''s
+    context-voice either (role set to context here only as the closest available guess, per
+    the established pattern elsewhere in this corpus-map of pairing a best-guess role with
+    confidence: needs-ruling, not left blank) - it postdates the world it describes by roughly
+    1,500 years. The live question: should modern secondary scholarship that happens to be
+    old enough to be public domain get a corpus-map assignment at all, or does it belong entirely
+    outside this map the way anf10''s bibliographic index does (SS6.5''s logic, though SS6.5
+    only names anf10 and webbe by name)? This worker''s own lean: no assignment for this portion,
+    treat it the same as anf10 - but not confident enough to commit that as `assigned` rather
+    than flag it.
+
+    '
+  source_file: morison_st-basil-and-his-rule_1912.txt
 - work: The Philocalia of Origen
   author: origen
   locus: whole work, as above
@@ -339,3 +475,14 @@ works:
 
     '
   source_file: origen_philocalia_lewis1911.txt
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
+  author: philostorgius
+  locus: whole file
+  role: context
+  confidence: assigned
+  note: 'A contemporary Eunomian''s own account of the same events the Cappadocian Fathers
+    lived through and wrote against - a contemporary opponent''s view (role: context per SS4/SS6.1b''s
+    four-way definition), not the Cappadocian world''s own voice.
+
+    '
+  source_file: philostorgius_ecclesiastical-history_walford1855.txt

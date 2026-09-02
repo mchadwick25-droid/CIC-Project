@@ -1,0 +1,33 @@
+# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
+# filename, matching AUTHORS.md's `philostorgius`. Doubly mediated: an
+# Anomoean/Eunomian historian's own work, surviving only via Photius'
+# hostile epitome - the author, per SS6.2, is Philostorgius himself (the
+# epitomizer Photius is a transmitter, not the work's own voice).
+source_file: philostorgius_ecclesiastical-history_walford1855.txt
+assignments:
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
+  author: philostorgius
+  locus: whole file - all twelve books
+  atlas_ids:
+  - anomoean-eunomian-christianity
+  role: tradition
+  confidence: assigned
+  note: >
+    Philostorgius was himself Anomoean/Eunomian - this is that
+    tradition's own historical self-account, even though it survives
+    only through a hostile Chalcedonian epitomizer's summary rather
+    than independently. The file's own vendoring note already frames
+    it as "the world's one surviving Eunomian narrative voice," a
+    caveat about mediation, not about whose voice it is.
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
+  author: philostorgius
+  locus: whole file
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: context
+  confidence: assigned
+  note: >
+    A contemporary Eunomian's own account of the same events the
+    Cappadocian Fathers lived through and wrote against - a
+    contemporary opponent's view (role: context per SS4/SS6.1b's
+    four-way definition), not the Cappadocian world's own voice.

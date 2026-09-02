@@ -1,0 +1,24 @@
+# Worker notes, 2026-09-02. Internet Archive scan, no ThML markup - author
+# slug from filename, matching AUTHORS.md's `macarius`. Already cited by
+# two desert quote/source records before this assignment existed.
+source_file: macarius_fifty-spiritual-homilies_mason1921.txt
+assignments:
+- work: Fifty Spiritual Homilies of St. Macarius the Egyptian
+  author: macarius
+  locus: whole file
+  atlas_ids:
+  - desert-monasticism
+  role: tradition
+  confidence: provisional
+  note: >
+    provisional, not assigned outright: the attribution itself is
+    genuinely contested, and the file's own header says so at length
+    (Mason's Introduction argues against "Pseudo-Macarius"; the
+    Internet Archive's own catalog record leads with Pseudo-Macarius
+    anyway). Whichever the true authorship, the homilies themselves sit
+    squarely in the Egyptian desert ascetic-teaching tradition and are
+    already cited by desert.source.macarian-homilies and
+    desert.quote.sin-and-grace-in-one-soul - this assignment tracks
+    that existing usage rather than resolving the authorship question,
+    which is a content matter for whichever world cites it (per the
+    brief's own scope, SS9).
