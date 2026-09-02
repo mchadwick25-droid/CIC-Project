@@ -861,3 +861,82 @@ correction, AI-disclosure-before-conversation-links ordering, the
 launch-state distinction, the `#q=` fragment protocol) were written
 into the design documents, not back into the hybrid's own mockup
 files. First increment: the homepage.
+
+## 2026-09-02 (later still) — D4 Increment 1: the real homepage built
+
+`cic-website/index.html` rewritten in full, following storyboard §1 and
+design record §5/§6/§7 line by line rather than copying the hybrid
+mockup. Structural corrections made relative to the hybrid, each traced
+to a specific spec item:
+
+- **Fragment-only door, no `<form>`.** The hybrid's `<form method="get"
+  action="#who">` and its `?q=` query-string JS are gone. The input
+  sits in a plain `<div>`; the control is a button-styled `<a
+  href="#who">`; Enter in the input and each offered question are
+  wired the same way. Every hold writes `#q=<encoded>` via
+  `history.replaceState` only — never a query string (§5.1, ruling 14).
+  Verified: no `?` ever appears in the URL through the hold/offered/
+  restore/empty-submit paths.
+- **The real §5.1 algorithm**, not the hybrid's approximation: decode
+  in `try/catch`, `.trim().slice(0,280)`, render via `textContent`/
+  `.value` only, normalise the URL on arrival without scrolling. Every
+  "Ask *Name*" href gains `#q=<held text>` once a question is held
+  (verified — this is current on-page behaviour per §5.1, independent
+  of the app-side change order in §5.2/ruling 34, which is not
+  authorised and not touched here).
+- **Same-tab hand-off (ruling 15).** Dropped `target="_blank"` and the
+  "(opens in a new tab)" announcements from every app link — the
+  hybrid still had these; the design record recommends same-tab now
+  that sessions rehydrate on reload.
+- **Launch state (ruling 4).** Only Chloe's chair carries a second
+  action ("Her record →", linking to `traditions/post-apostolic-house-
+  church.html`, not yet built — next increment). The other six end at
+  "Ask *Name* →"; no `#mock-note`, no placeholder, nothing greyed.
+- **The fold fix**, applied as the fix-pass specified: the lede moved
+  out of the hero into the door (after the input/button row); the pilot
+  note and cost caveat moved below the seven chairs, not above; the
+  hero's first sentence given to the "who" section's scope line
+  instead.
+- **The disclosure block corrected**: the "Witness, never recruitment"
+  bullet no longer duplicates the protected closing line (that line now
+  appears once, at the end of the section); a new fifth bullet, "Lives
+  in one browser tab, not an account," added to the unfinished column
+  per storyboard 1.5k; the dated caption ("on 25 August 2026") restored
+  on the exchange capture.
+- **Mark removed from the header** (ruling 8) — the wordmark is plain
+  text; the "Arriving" mark plays once, only in the hero, beside its
+  own sentence.
+- **`.site-nav a[hidden]{display:none}`** added (§11.6) so the gated
+  side door is actually hidden, not just `inline-flex`ed into empty
+  space; the mobile chrome tightening from the fix pass (nav `.9rem`,
+  header row and door padding, input `flex-basis:11rem` ≤640px)
+  applied as specified.
+- **Real relative paths** throughout (`assets/...`, `about.html`,
+  etc.) in place of the hybrid's sandbox-depth `../../../../../../`
+  paths; title and meta description corrected to storyboard §S.6
+  exactly (the pending "six→seven" fix folded in here, so the separate
+  unpushed `main`-branch fix is superseded for this file); no sandbox
+  note, no visible `draft` tags (kept as invisible `data-copy`
+  provenance attributes only); support-slot links are plain text, never
+  buttons (the live site's current button styling was not carried
+  over, per storyboard 1.7).
+- **Fully self-contained** — inline CSS, no dependency on the shared
+  `assets/style.css` — so it can't collide with pages not yet rebuilt.
+
+**Verified locally** (headless Chromium, `/opt/pw-browsers`, no live
+preview per the ruling above): zero horizontal overflow at 320–1440px,
+both registers; heading outline is one clean H1→H2→H2(H3×2→H4×7)→
+H2(H3×4)→H2(H3×2)→H2→H2 with no skipped levels; skip link moves focus
+into `<main>`; hold/offered/restore/empty-submit flows all behave per
+§5.1 and §1.8's state table (including the no-scroll-on-arrival
+invariant); no-JS hrefs degrade to plain `#who` jumps; spot-checked
+contrast ratios all clear the 4.5:1 floor (most clear 7:1; the
+muted/secondary tone holds its documented 5.39/8.45, as approved in
+the design record). Screenshots (mobile and desktop, both registers)
+shared with Mark for review before this merges.
+
+**Known, expected gap:** Chloe's "Her record" link points to
+`traditions/post-apostolic-house-church.html`, which doesn't exist yet
+— that's Increment 2. **Still open, unchanged by this increment:**
+rulings 34/35/36/37-39, the photo-rights question (seam B), and content
+clearance for the canon/starter questions.

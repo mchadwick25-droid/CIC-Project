@@ -4,202 +4,459 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Church in Conversation: The First Centuries</title>
-<meta name="description" content="Twenty centuries of the Church's story, one era at a time. Six Christian traditions you can sit down with today, from the Early Church and Imperial Church eras. Come and join us at the Table.">
+<meta name="description" content="Twenty centuries of the Church's story, one era at a time. Seven Christian traditions you can sit down with today, from the Early Church and Imperial Church eras. Come and join us at the Table.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-/* ===================================================================
-   Home — pilot-invitation rebuild, 2026-07-25. The Table (conversation
-   program) is primary; the Atlas is a supporting, secondary entry point
-   reachable from nav only, not embedded in the hero. Built one decision
-   at a time with Mark; see the Front-End Strategy thread's decision log.
-   =================================================================== */
-.pilot-note{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted);max-width:30rem;margin:1.6rem auto .5rem;text-align:center;text-wrap:balance}
-.pilot-caveat{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.86rem;color:var(--muted);max-width:28rem;margin:0 auto;text-align:center;text-wrap:balance}
-
-.hero-actions-wrap{max-width:60rem;margin:0 auto;padding:2.6rem 1.5rem 4rem;text-align:center}
-.hero p.lede{margin:0 auto .75rem}
-
-.table-section{max-width:60rem;margin:0 auto;padding:0 0 4rem}
-.table-section .wrap-head{max-width:60rem;margin:0 auto;padding:0 1.5rem}
-.table-section .eyebrow{font-family:'Alegreya Sans',sans-serif;font-size:.85rem;letter-spacing:.13em;
-  text-transform:uppercase;color:var(--madder);font-weight:600;text-align:center;margin:0 0 .6rem}
-.table-section .scope{text-align:center;color:var(--muted);font-size:1.02rem;margin:0 auto 2.2rem;max-width:42rem;text-wrap:balance}
-
-/* Access ask, added 2026-08-25 (Public Pilot Access thread) — deliberately
-   quiet: below the primary hero actions, never in the hero, so it never
-   competes with "try a conversation" for a first-time visitor's attention.
-   Copy reviewed for tone/credibility by an Opus 5 pass before shipping,
-   same discipline as any other new participant-facing text on this site. */
-.access-note-wrap{max-width:60rem;margin:0 auto;padding:0 1.5rem 3rem;text-align:center}
-.access-note{font-family:'Alegreya Sans',sans-serif;font-size:.92rem;color:var(--muted);max-width:30rem;margin:0 auto;text-wrap:balance}
-.access-note a{color:var(--muted);text-decoration-color:var(--rule)}
-.access-note a:hover,.access-note a:focus-visible{color:inherit;text-decoration-color:currentColor}
-/* --muted itself is never redefined for dark mode anywhere on this site
-   (assets/style.css only re-tones specific SELECTORS, e.g. .hero p.lede,
-   to #B8AEA1 - a proven-compliant value already used site-wide), so this
-   local color:var(--muted) needs its own explicit dark-mode override or it
-   stays at its light-mode value against a near-black background: measured
-   ~3.2:1, below the 4.5:1 AA minimum for body text (2026-08-25 full-review
-   finding). Same #B8AEA1 the shared stylesheet already trusts elsewhere. */
-@media (prefers-color-scheme:dark){ .access-note{color:#B8AEA1} }
-
-/* Give buttons added 2026-08-26, at Mark's direction, once support.html's
-   own Stripe links were confirmed working: .btn.secondary (not .primary),
-   deliberately lighter-weight than the hero's "Come and join us at the
-   Table" button so this still doesn't compete with the primary path — the
-   original 2026-08-25 design brief's constraint, unchanged by adding real
-   checkout here. Same two hrefs as support.html's "Be Part of It" section;
-   that page's own header comment is the source of truth on which link is
-   which and why (domain name isn't a reliable signal - see there) — if
-   either link ever needs rotating, both places need the same edit, since
-   this is a plain multi-page static site with no shared-include mechanism. */
-.access-give-actions{margin:1.1rem 0}
-
-/* Representative carousel — chronological, era-tinted, click for the same
-   info the program's own world tile shows, then two hand-offs per Mark's
-   launch ruling (2026-08-28): the Interview link (instant) and the quiet
-   Bring-to-the-Table link (seats the app's Table field, never auto-starts).
-   Data comes from data/world-census.json at runtime, same single source of
-   truth the Atlas itself reads, so this never drifts out of sync with it. */
-.reps-carousel-wrap{position:relative;padding:0 1.5rem}
-.reps-carousel{display:flex;gap:1.1rem;overflow-x:auto;scroll-snap-type:x mandatory;
-  padding:.4rem .4rem 1.2rem;margin:0 -.4rem;scrollbar-width:thin}
-@media (prefers-reduced-motion:no-preference){ .reps-carousel{scroll-behavior:smooth} }
-.reps-era-divider{flex:0 0 auto;width:1px;align-self:stretch;background:var(--rule);position:relative;margin:0 .2rem}
-.reps-era-divider span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(180deg);
-  writing-mode:vertical-rl;font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.08em;
-  text-transform:uppercase;color:var(--muted);background:var(--parchment);padding:.5rem .3rem;white-space:nowrap}
-.rep-card{flex:0 0 auto;scroll-snap-align:start;width:196px;text-align:center;cursor:pointer;
-  border:1px solid var(--rule);border-radius:12px;padding:1.1rem 1rem 1.3rem;background:var(--vellum);
-  font:inherit;color:#2A2521;box-shadow:0 1px 6px rgba(42,37,33,.08);transition:transform .15s ease,box-shadow .15s ease}
-.rep-card.era-1{background:#EFDDB3}
-.rep-card.era-2{background:#EDDEB9}
-@media (prefers-color-scheme:dark){
-  .rep-card.era-1{background:#332818}
-  .rep-card.era-2{background:#302617}
+/* Website V2 · Home. Design record: Ministry/Features/Website-V2/CiC_Website_Design_V2.md
+   Storyboard: Ministry/Features/Website-V2/CiC_Website_V2_Storyboard.md §1
+   data-copy marks each line's register (protected/brand/live/census/canon/draft)
+   for the approval ledger; it has no visual or behavioural effect. */
+:root{
+  --parchment:#F7F3EB; --vellum:#FEFCF8; --gold-wash:#FBF2E2;
+  --ink:#2A2521;
+  --ink-faded:#6C6257;
+  --madder:#A13E2B;
+  --madder-deep:#7E2F20;
+  --gold-leaf:#B45309;
+  --tyrian:#6B3FA0;
+  --lapis:#1E40AF;
+  --graphite:#8A837C;
+  --rule:#E6DFD3;
+  --ground:var(--parchment); --surface:var(--vellum); --leaf:var(--gold-wash);
+  --text:var(--ink); --muted:var(--ink-faded);
+  --action:var(--madder); --action-hover:var(--madder-deep);
+  --gold-text:var(--gold-leaf); --tyrian-text:var(--tyrian); --lapis-text:var(--lapis);
+  --control:var(--graphite);
+  --btn-fill:var(--madder); --btn-text:var(--vellum); --btn-edge:var(--madder);
+  --mark-ink:#2A2521; --mark-dot:#A13E2B;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
 }
-@media (prefers-reduced-motion:no-preference){ .rep-card:hover,.rep-card:focus-visible{transform:translateY(-2px)} }
-.rep-card:hover,.rep-card:focus-visible{box-shadow:0 4px 14px rgba(42,37,33,.14);outline:none}
-.rep-card:focus-visible{outline:2px solid var(--rep-color,var(--madder));outline-offset:2px}
-.rep-card .era-label{display:block;font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.08em;
-  text-transform:uppercase;color:var(--muted);margin:0 0 .6rem}
-.rep-card .portrait{width:100%;aspect-ratio:1/1;border-radius:50%;overflow:hidden;
-  border:2px solid var(--rep-color,var(--madder));background:var(--vellum);margin:0 0 .7rem}
-.rep-card img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
-.rep-card .name{font-weight:700;font-size:1.02rem;margin:0 0 .1rem;color:inherit}
-.rep-card .tradition{font-family:'Alegreya Sans',sans-serif;font-style:italic;font-size:.86rem;color:var(--rep-color,var(--madder));margin:0 0 .4rem}
-.rep-card .meta{font-family:'Alegreya Sans',sans-serif;font-size:.82rem;color:var(--muted);line-height:1.4}
 @media (prefers-color-scheme:dark){
-  .rep-card{color:#F1E9DD}
-  .rep-card .era-label,.rep-card .meta{color:#B8AEA1}
+  :root{
+    --ground:#17130F; --surface:#1E1913; --leaf:#241C13;
+    --text:#F1E9DD;
+    --muted:#B8AEA1;
+    --action:#E08C74;
+    --action-hover:#F0A98F;
+    --gold-text:#E0A458;
+    --tyrian-text:#C9A6E8;
+    --lapis-text:#9DB4F0;
+    --control:#A39B92;
+    --rule:rgba(241,233,221,.16);
+    --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+    --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
+  }
 }
-.reps-scroll-hint{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;color:var(--muted);text-align:right;margin:0 1.5rem}
+*{box-sizing:border-box}
+html{scroll-padding-top:1rem}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+.wrap{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
 
-/* Lightweight info sheet, opened on click */
-.reps-scrim{position:fixed;inset:0;background:rgba(30,24,18,.42);opacity:0;pointer-events:none;
-  transition:opacity .2s ease;z-index:30}
-.reps-scrim.open{opacity:1;pointer-events:auto}
-.reps-sheet{position:fixed;left:50%;bottom:0;transform:translate(-50%,100%);width:min(540px,100vw - 2rem);
-  max-height:min(78vh,620px);overflow-y:auto;background:var(--vellum);color:#2A2521;border:1px solid var(--rule);border-bottom:none;
-  border-radius:16px 16px 0 0;box-shadow:0 -6px 26px rgba(42,37,33,.2);transition:transform .28s cubic-bezier(.2,.8,.3,1);
-  z-index:31;padding:1.6rem 1.6rem 2rem}
-@media (min-width:640px){ .reps-sheet{border-radius:16px;border-bottom:1px solid var(--rule)} }
-.reps-sheet.open{transform:translate(-50%,0)}
-@media (min-width:640px){ .reps-sheet.open{transform:translate(-50%,-5vh)} }
-@media (prefers-reduced-motion:reduce){ .reps-sheet,.reps-scrim{transition:none} }
-.reps-sheet__close{position:absolute;top:.9rem;right:.9rem;width:32px;height:32px;border-radius:50%;
-  border:1px solid var(--rule);background:var(--parchment);color:var(--iron-gall);font-size:1.1rem;line-height:1;cursor:pointer}
-.reps-sheet__close:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
-.reps-sheet__top{display:flex;gap:1rem;align-items:flex-start;margin:0 0 1.1rem;padding-right:2rem}
-.reps-sheet__portrait{width:76px;height:76px;border-radius:50%;object-fit:cover;object-position:50% 22%;
-  border:2px solid var(--rep-color,var(--madder));flex-shrink:0}
-.reps-sheet__name{font-size:1.4rem;font-weight:700;margin:0 0 .1rem}
-.reps-sheet__title{font-family:'Alegreya Sans',sans-serif;color:var(--rep-color,var(--madder));font-size:.9rem;margin:0 0 .4rem}
-.reps-sheet__world{font-style:italic;font-size:.98rem;margin:0}
-.reps-sheet__meta{font-family:'Alegreya Sans',sans-serif;font-size:.85rem;color:var(--muted);margin:.2rem 0 0}
-.reps-sheet__body{font-size:.98rem;line-height:1.6;margin:0 0 1.4rem}
-.reps-sheet__actions{display:flex;flex-wrap:wrap;gap:.7rem 1.2rem;align-items:center;border-top:1px solid var(--rule);padding-top:1.1rem}
-.reps-sheet__secondary{font-family:'Alegreya Sans',sans-serif;font-size:.88rem}
-
+/* Header. The mark itself lives only in the hero (ruling 8) — the wordmark
+   here is plain text. The header wraps; nothing is sticky. */
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.7rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.25rem 1.5rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.site-nav{font-family:var(--sans);font-size:.95rem;display:flex;flex-wrap:wrap;align-items:center;gap:0 1.1rem}
+.site-nav a{color:var(--text);text-decoration:none;padding:.7rem .1rem;border-bottom:2px solid transparent;min-height:44px;display:inline-flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{border-bottom-color:var(--action)}
+.site-nav a[aria-current="page"]{border-bottom-color:var(--action)}
+.site-nav a[hidden]{display:none}
+.site-nav .side-door{color:var(--muted);font-style:italic;gap:.3em}
+.site-nav .side-door:hover,.site-nav .side-door:focus-visible{color:var(--text)}
 @media (max-width:640px){
-  .rep-card{width:168px}
+  .site-nav .sd-long{display:none}
+  .site-nav{font-size:.9rem;gap:0 .85rem}
+  .site-header .row{gap:.1rem 1rem}
 }
+
+/* Hero — the mark plays once, with its own sentence beside it; the H1. */
+.hero{max-width:var(--col);margin:0 auto;padding:2.75rem 1.25rem 1.25rem;text-align:center}
+.mark-line{display:flex;align-items:center;justify-content:center;gap:.9rem;margin:0 auto 1.75rem;max-width:32rem;text-align:left}
+.mark-line .arriving{width:52px;flex:0 0 52px;color:var(--mark-ink)}
+.mark-line svg{display:block;width:100%;height:auto}
+.mark-line p{margin:0;font-family:var(--sans);font-size:.9rem;line-height:1.4;color:var(--muted);text-wrap:balance}
+.arriving-ring{fill:none;stroke:currentColor;stroke-width:11;stroke-linecap:round;stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}
+.arriving-seat{fill:var(--mark-dot);transform-origin:88.5px 50px;transform:translate(0,-6px)}
+.arriving.play .arriving-ring{animation:cic-buildC 1300ms cubic-bezier(.4,0,.2,1) 800ms both}
+.arriving.play .arriving-seat{animation:cic-sitdown 600ms cubic-bezier(.3,0,.35,1.4) 2400ms both,cic-breath 5.5s ease-in-out 3750ms infinite}
+@keyframes cic-buildC{0%{stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}4%{opacity:1}100%{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}}
+@keyframes cic-sitdown{0%{transform:translate(0,-6px)}62%{transform:translate(0,1px) scale(1.1,.86)}100%{transform:translate(0,0) scale(1,1)}}
+@keyframes cic-breath{0%,100%{opacity:1}50%{opacity:.76}}
+@media (prefers-reduced-motion:reduce){
+  .arriving.play .arriving-ring,.arriving.play .arriving-seat{animation:none}
+  .arriving .arriving-ring{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
+  .arriving .arriving-seat{transform:translate(0,0)}
+}
+.hero h1{font-size:clamp(2rem,4.5vw,3rem);line-height:1.12;margin:0 0 1rem}
+.welcome-back{font-family:var(--sans);font-size:.95rem;color:var(--muted);margin:1rem auto 0;max-width:30rem}
+.welcome-back a{color:var(--action)}
+@media (max-width:640px){
+  .hero{padding:2rem 1.25rem .5rem}
+  .mark-line{margin-bottom:1.25rem}
+  .mark-line .arriving{width:44px;flex-basis:44px}
+}
+
+/* The door — the page's one filled control. No <form>: the held question
+   rides the URL fragment only, never a query string (design record §5.1). */
+.door{max-width:var(--col);margin:0 auto;padding:1.5rem 1.25rem 2.5rem}
+.door .inner{max-width:var(--measure);margin:0 auto;background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:1.6rem 1.5rem 1.5rem}
+.door h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .9rem}
+.qform{margin:0 0 1.1rem}
+.qform label{display:block;font-family:var(--sans);font-size:.875rem;font-weight:600;letter-spacing:.04em;color:var(--text);margin:0 0 .4rem}
+.qform .fieldrow{display:flex;flex-wrap:wrap;gap:.6rem}
+.qform input{flex:1 1 16rem;min-width:0;font:inherit;font-size:1.125rem;line-height:1.4;color:var(--text);background:var(--ground);border:1.5px solid var(--control);border-radius:3px;padding:.65rem .8rem;min-height:44px}
+.qform input:focus-visible{outline:2px solid var(--action);outline-offset:2px;border-color:var(--action)}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:1rem;line-height:1.2;padding:.7rem 1.3rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
+.btn:hover,.btn:focus-visible{background:var(--madder-deep);border-color:var(--btn-edge);color:var(--btn-text)}
+.door .lede{color:var(--text);margin:0 0 1.1rem;font-size:1.05rem;line-height:1.55;max-width:var(--measure)}
+.how{color:var(--muted);margin:0 0 1.1rem;font-size:1rem;line-height:1.5}
+.ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.4rem}
+.offered-head{font-family:var(--sans);font-size:.875rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--muted);margin:0 0 .2rem}
+.offered{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.offered li{border-bottom:1px solid var(--rule)}
+.offered a{display:flex;align-items:center;gap:.6rem;padding:.6rem .1rem;min-height:44px;color:var(--text);text-decoration:none;font-style:italic;font-size:1.05rem;line-height:1.4}
+.offered a::before{content:"—";color:var(--action);font-style:normal;flex:0 0 auto}
+.offered a::after{content:"→";color:var(--action);font-style:normal;margin-left:auto;flex:0 0 auto;padding-left:.5rem}
+.offered a:hover,.offered a:focus-visible{color:var(--action-hover);text-decoration:underline;text-decoration-color:var(--action)}
+.offered-note{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:.8rem 0 0;line-height:1.45}
+@media (max-width:640px){
+  .door{padding-top:.75rem}
+  .door .inner{padding:1rem}
+  .qform input{flex-basis:11rem}
+}
+
+/* Who would you like to ask — the seven, chronological, one action each. */
+.who{max-width:var(--col);margin:0 auto;padding:1.5rem 1.25rem 2rem;border-top:1px solid var(--rule)}
+.held{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--lapis-text);border-radius:0 3px 3px 0;padding:.9rem 1.1rem;margin:0 0 1.6rem}
+.held .k{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--lapis-text);margin:0 0 .25rem}
+.held .q{font-style:italic;font-size:1.15rem;margin:0 0 .35rem}
+.held .edit{font-family:var(--sans);font-size:.9rem}
+.who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .6rem}
+.who .scope{color:var(--muted);max-width:var(--measure);margin:0 0 .6rem}
+.era-head{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:1.8rem 0 .2rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem;display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline}
+.era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
+.chairs{list-style:none;margin:0;padding:0}
+.chair{--ring:var(--tint);display:grid;grid-template-columns:72px minmax(0,1fr);gap:1.1rem;align-items:start;padding:1.2rem 0;border-bottom:1px solid var(--rule)}
+@media (prefers-color-scheme:dark){ .chair{--ring:var(--tint-dark)} }
+.chair .portrait{width:72px;height:72px;border-radius:50%;overflow:hidden;border:2px solid var(--ring);background:var(--surface)}
+.chair .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.chair h4{font-size:1.25rem;font-weight:700;margin:0 0 .1rem}
+.chair h4 .role{font-family:var(--sans);font-weight:400;font-size:.95rem;color:var(--muted);margin-left:.5rem}
+.chair .trad{font-style:italic;margin:0 0 .15rem}
+.chair .meta{font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:0 0 .5rem}
+.chair .tile{margin:0 0 .5rem;max-width:var(--measure);font-size:1rem;line-height:1.55}
+.chair .acts{display:flex;flex-wrap:wrap;gap:0 1.6rem;font-family:var(--sans);font-size:.95rem}
+.chair .acts a{display:inline-flex;align-items:center;min-height:44px;padding:.2rem 0;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
+.chair .acts a.record{font-weight:400;color:var(--muted)}
+.chair .acts a.record:hover,.chair .acts a.record:focus-visible{color:var(--action-hover)}
+@media (max-width:480px){ .chair{grid-template-columns:56px minmax(0,1fr);gap:.9rem} .chair .portrait{width:56px;height:56px} }
+.pilot-note,.pilot-caveat{font-family:var(--sans);color:var(--muted);max-width:var(--measure);margin:1.6rem 0 .4rem;line-height:1.45}
+.pilot-note{font-size:.95rem}
+.pilot-caveat{font-size:.9rem;font-style:italic;margin:0 0 1.4rem}
+.second-door{margin:0;max-width:var(--measure);font-size:1.05rem}
+.second-door a{font-family:var(--sans);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;display:inline-flex;align-items:center;min-height:44px;padding:.2rem 0}
+
+/* One exchange — the leaf, no composer, no chrome. */
+.looks{max-width:var(--col);margin:0 auto;padding:2.2rem 1.25rem;border-top:1px solid var(--rule)}
+.looks h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .5rem}
+.looks .intro{color:var(--muted);max-width:var(--measure);margin:0 0 1.2rem}
+.exchange{display:grid;gap:1.4rem}
+@media (min-width:900px){ .exchange{grid-template-columns:minmax(0,1.35fr) minmax(0,.65fr);gap:2.2rem;align-items:start} }
+.leaf{background:var(--leaf);border:1px solid var(--rule);border-radius:2px;padding:1.2rem 1.4rem 1.1rem;font-size:1rem;line-height:1.62}
+.leaf .head{font-family:var(--sans);font-size:.8125rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--rule);padding-bottom:.55rem;margin:0 0 1rem}
+.leaf .fac{color:var(--muted);font-style:italic;border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 .9rem;font-size:.97rem}
+.leaf .you{font-family:var(--sans);font-size:.8125rem;letter-spacing:.06em;text-transform:uppercase;color:var(--lapis-text);font-weight:600;margin:0 0 .15rem}
+.leaf .q{font-style:italic;margin:0 0 1rem}
+.leaf .who-said{font-family:var(--sans);font-size:.8125rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text);font-weight:700;margin:0 0 .3rem;border-left:3px solid var(--gold-text);padding-left:.5rem}
+.leaf .a p{margin:0 0 .8rem}
+.leaf .a p:last-child{margin:0}
+.gloss{color:var(--tyrian-text);text-decoration:underline dotted;text-decoration-thickness:1px;text-underline-offset:.2em}
+.cite{color:var(--tyrian-text);font-family:var(--sans);font-size:.875rem;white-space:nowrap;margin-left:.3rem;font-weight:700}
+.leaf-caption{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:.6rem 0 0;line-height:1.45}
+.margin{display:grid;gap:.9rem;align-content:start}
+.margin h3{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;margin:0 0 .2rem;color:var(--text)}
+.margin .note{border-top:1px solid var(--rule);padding-top:.6rem}
+.margin p{margin:0;color:var(--muted);font-size:.97rem;line-height:1.5}
+
+/* Before you sit down — the disclosure block. */
+.before{max-width:var(--col);margin:0 auto;padding:2.2rem 1.25rem;border-top:1px solid var(--rule)}
+.before h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .5rem}
+.two{display:grid;gap:1.4rem}
+@media (min-width:760px){ .two{grid-template-columns:1fr 1fr;gap:2.2rem} }
+.two h3{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--text);margin:0 0 .5rem;border-bottom:1px solid var(--rule);padding-bottom:.45rem}
+.two ul{list-style:none;margin:0;padding:0}
+.two li{padding:.5rem 0;border-bottom:1px solid var(--rule);font-size:1rem;line-height:1.5}
+.two li:last-child{border-bottom:none}
+.two li strong{font-weight:700}
+.before .committed{margin:1.6rem 0 0;max-width:var(--measure);font-style:italic}
+.before .measure{max-width:var(--measure);color:var(--muted);margin:.5rem 0 0}
+
+/* The map — one link. */
+.map{max-width:var(--col);margin:0 auto;padding:2.2rem 1.25rem;border-top:1px solid var(--rule)}
+.map h2{font-size:clamp(1.4rem,2.8vw,1.75rem);margin:0 0 .5rem}
+.map p{max-width:var(--measure)}
+.map .links{font-family:var(--sans);display:flex;flex-wrap:wrap;gap:0 1.6rem}
+.map .links a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;padding:.2rem 0}
+
+/* The support slot — quiet register, text links only, never buttons. */
+.support{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem 3rem;border-top:1px solid var(--rule);font-family:var(--sans);font-size:.95rem;color:var(--muted)}
+.support p{max-width:var(--measure);margin:0 0 .6rem}
+.support a{display:inline-flex;align-items:center;min-height:44px;color:var(--action)}
+
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
+.site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+@media print{ .site-header,.support,.skip-link{display:none} }
 </style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="index.html">
-      <span class="arriving-mark play" aria-hidden="true">
-        <svg viewBox="0 0 100 100">
-          <circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/>
-          <circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/>
-        </svg>
-      </span>
-      <span class="wordmark">Church in Conversation</span>
-    </a>
-    <nav class="site-nav">
+  <div class="row">
+    <a class="wordmark" href="index.html">Church <em>in</em> Conversation</a>
+    <nav class="site-nav" aria-label="Site">
       <a href="index.html" aria-current="page">Home</a>
       <a href="about.html">About</a>
       <a href="whats-next.html">What's Next</a>
       <a href="atlas-v3.html">Map</a>
       <a href="support.html">Get Involved</a>
+      <a class="side-door" id="side-door" href="https://cic-engine.onrender.com/" hidden data-app data-copy="draft"><span class="sd-long">Been here before? </span>Go straight in →</a>
     </nav>
   </div>
 </header>
 
-<main id="main">
-  <section class="hero" style="padding-bottom:1rem;">
-    <h1>Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
-    <p class="lede">Christian traditions, built from their own letters, sermons, and historical record.</p>
+<main id="main" tabindex="-1">
+
+  <section class="hero" aria-labelledby="hook">
+    <div class="mark-line">
+      <div class="arriving play" aria-hidden="true">
+        <svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg>
+      </div>
+      <p data-copy="brand">The mark is a table; the opening is the way in — and it never closes.</p>
+    </div>
+    <h1 id="hook" data-copy="protected">Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
+    <p class="welcome-back" id="welcome-back" hidden data-copy="draft">Welcome back. <a href="https://cic-engine.onrender.com/" data-app>Go straight in →</a></p>
   </section>
 
-  <section class="table-section">
-    <div class="wrap-head">
-      <p class="eyebrow">Who's at the table</p>
-      <p class="scope">For this first pilot stage, we have six Christian traditions from the Early Church and Imperial Church eras. Click anyone to learn more, or begin a conversation.</p>
+  <section class="door" aria-labelledby="door-title">
+    <div class="inner">
+      <h2 id="door-title" data-copy="constitution">Start with your question</h2>
+      <div class="qform">
+        <label class="vh" for="q">Your question</label>
+        <div class="fieldrow">
+          <input type="text" id="q" name="q" maxlength="280" autocomplete="off" spellcheck="true" aria-labelledby="door-title">
+          <a class="btn" id="ask-control" href="#who">Choose who to ask →</a>
+        </div>
+      </div>
+      <p class="lede" data-copy="draft">Whether you come curious, with a sermon to write, or with a question about faith you've carried for years — there is a chair.</p>
+      <!-- interim wording: #q= doesn't yet reach the app (ruling 34, open) -->
+      <p class="how" data-copy="draft">Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there.</p>
+      <p class="ai-line" data-copy="draft">You will be in conversation with an AI system — a voice built from one tradition's own letters and records. It shows its sources as it speaks, and it will tell you where its record runs out.</p>
+      <p class="offered-head" data-copy="draft">Or begin with one of these — questions people bring</p>
+      <ul class="offered" data-copy="canon">
+        <li><a href="#who" data-q>I grew up being told doubt was sin. Was there room among your people for doubt?</a></li>
+        <li><a href="#who" data-q>Did any of you ever want to leave?</a></li>
+        <li><a href="#who" data-q>I pray and nothing happens. Did your people know that silence?</a></li>
+        <li><a href="#who" data-q>The people who taught me the faith turned out to be hypocrites. Did that happen among you?</a></li>
+        <li><a href="#who" data-q>Why does God allow suffering like this? Where was he when it happened to your people — and to mine?</a></li>
+        <li><a href="#who" data-q>I want to believe in Jesus, but I can't. What would you say to me?</a></li>
+      </ul>
+      <p class="offered-note" data-copy="draft">These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room.</p>
     </div>
-    <div class="reps-carousel-wrap">
-      <div class="reps-carousel" id="repsCarousel" tabindex="0" aria-label="Representatives, in chronological order"></div>
-    </div>
-    <p class="reps-scroll-hint">scroll &rarr;</p>
-    <p class="pilot-note">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives &mdash; general, pastor or teacher, academic, and anyone re-examining their faith.</p>
-    <p class="pilot-caveat">Because of cost, we're asking each participant to keep to about five conversations for now &mdash; we can't enforce this yet, only ask.</p>
   </section>
 
-  <section class="hero-actions-wrap">
-    <div class="hero-actions">
-      <a class="btn primary" id="launch-link" href="atlas-v3.html">Come and join us at the Table</a>
-      <a class="btn secondary" href="atlas-v3.html">Explore the Timeline</a>
+  <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
+    <div class="held" id="held" hidden tabindex="-1">
+      <p class="k" data-copy="constitution">Your question, held:</p>
+      <p class="q" id="held-q"></p>
+      <a class="edit" href="#q" id="held-edit">Edit it</a>
+    </div>
+    <p class="eyebrow" data-copy="live">Who's at the table</p>
+    <h2 id="who-title" data-copy="draft">Who would you like to ask?</h2>
+    <p class="scope" data-copy="draft">Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.</p>
+
+    <h3 class="era-head" data-copy="census"><span>The Early Church Era</span><span class="dates">70–312 CE</span></h3>
+    <ol class="chairs">
+      <li class="chair" style="--tint:#7c3aed;--tint-dark:#955FF0" data-copy="census">
+        <div class="portrait"><img src="assets/portraits/house-churches.png" alt="Chloe, Representative of The House-Churches" width="72" height="72" loading="lazy" decoding="async"></div>
+        <div>
+          <h4>Chloe<span class="role">Household Leader</span></h4>
+          <p class="trad">The House-Churches</p>
+          <p class="meta">70–200 CE · Antioch, Asia Minor, Rome</p>
+          <p class="tile">The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means.</p>
+          <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app data-ask>Ask Chloe →</a><a class="record" href="traditions/post-apostolic-house-church.html">Her record →<span class="vh"> — The House-Churches</span></a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#2B5F8A;--tint-dark:#3B83BF" data-copy="census">
+        <div class="portrait"><img src="assets/portraits/alexandria.png" alt="Theon, Representative of Alexandrian Christianity" width="72" height="72" loading="lazy" decoding="async"></div>
+        <div>
+          <h4>Theon<span class="role">Catechetical Teacher</span></h4>
+          <p class="trad">Alexandrian Christianity</p>
+          <p class="meta">c. 150–400 CE · Alexandria, Egypt</p>
+          <p class="tile">Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.</p>
+          <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-ask>Ask Theon →</a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#b45309;--tint-dark:#CC5E0A" data-copy="census">
+        <div class="portrait"><img src="assets/portraits/syriac.png" alt="Mar Yausep, Representative of Syriac Christianity" width="72" height="72" loading="lazy" decoding="async"></div>
+        <div>
+          <h4>Mar Yausep<span class="role">Teacher of the Covenant Order</span></h4>
+          <p class="trad">Syriac Christianity</p>
+          <p class="meta">200–410 CE · Edessa &amp; Nisibis</p>
+          <p class="tile">Edessa and Nisibis, 200 to 410 CE — in what is now southeastern Turkey — a community shaped by persecution under Persian rule, holding together through covenant vows and typological reading of Scripture.</p>
+          <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=syriac-edessa-nisibis&amp;mode=interview" data-app data-ask>Ask Mar Yausep →</a></p>
+        </div>
+      </li>
+    </ol>
+
+    <h3 class="era-head" data-copy="census"><span>The Imperial Church Era</span><span class="dates">312–451 CE</span></h3>
+    <ol class="chairs">
+      <li class="chair" style="--tint:#7A2E2E;--tint-dark:#C36060" data-copy="census">
+        <div class="portrait"><img src="assets/portraits/empire.png" alt="Marius, Representative of Church and Empire" width="72" height="72" loading="lazy" decoding="async"></div>
+        <div>
+          <h4>Marius<span class="role">Deacon of the Letters</span></h4>
+          <p class="trad">Church and Empire</p>
+          <p class="meta">c. 312-451 · Rome, Constantinople, Milan</p>
+          <p class="tile">Rome, Constantinople, and Milan, c. 312 to 451 CE — the church's first century beside a throne rather than beneath a sword, working out what the emperor's favor bought and what it could still take away.</p>
+          <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview" data-app data-ask>Ask Marius →</a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#0f766e;--tint-dark:#128D84" data-copy="census">
+        <div class="portrait"><img src="assets/portraits/desert.png" alt="Papnoute, Representative of the Desert Fathers and Mothers" width="72" height="72" loading="lazy" decoding="async"></div>
+        <div>
+          <h4>Papnoute<span class="role">Abba (Elder)</span></h4>
+          <p class="trad">Desert Fathers and Mothers</p>
+          <p class="meta">c. 320–430 CE · Nile Valley &amp; Desert, Egypt</p>
+          <p class="tile">The Nile Valley and the desert of Egypt, c. 320 to 430 CE — communities who left settled village life to wage a lifelong combat against the thoughts that trouble a person from within.</p>
+          <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=desert-monasticism&amp;mode=interview" data-app data-ask>Ask Papnoute →</a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#A0522D;--tint-dark:#C46437" data-copy="census">
+        <div class="portrait"><img src="assets/portraits/cappadocian.jpg" alt="Chilo, Representative of The Cappadocian Churches" width="72" height="72" loading="lazy" decoding="async"></div>
+        <div>
+          <h4>Chilo<span class="role">Elder of the Brotherhoods</span></h4>
+          <p class="trad">The Cappadocian Churches</p>
+          <p class="meta">c. 325-394 CE · Cappadocia / Anatolia</p>
+          <p class="tile">The Nicene-confessing churches of Cappadocia and Pontus, c. 325 to 394 CE — the households and brotherhoods around Basil of Caesarea, Gregory of Nazianzus, Gregory of Nyssa, and Macrina, who held, defended, and inherited the imperial establishment of the Nicene confession while feeding the hungry through famine and burying their own martyr.</p>
+          <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview" data-app data-ask>Ask Chilo →</a></p>
+        </div>
+      </li>
+      <li class="chair" style="--tint:#9d174d;--tint-dark:#E23B7F" data-copy="census">
+        <div class="portrait"><img src="assets/portraits/bethlehem.png" alt="Albina, Representative of The Bethlehem Circle" width="72" height="72" loading="lazy" decoding="async"></div>
+        <div>
+          <h4>Albina<span class="role">Widow of the Household</span></h4>
+          <p class="trad">The Bethlehem Circle</p>
+          <p class="meta">c. 382–420 CE · Rome &amp; Bethlehem</p>
+          <p class="tile">Rome and Bethlehem, c. 382 to 420 CE — a circle of scholars and ascetics who gave up wealth and rank to test Scripture's Latin translation against the Hebrew it was first given in.</p>
+          <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=hieronymian-ascetic-literary&amp;mode=interview" data-app data-ask>Ask Albina →</a></p>
+        </div>
+      </li>
+    </ol>
+
+    <p class="pilot-note" data-copy="live">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith.</p>
+    <p class="pilot-caveat" data-copy="live">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+    <p class="second-door" data-copy="draft">Or bring two or three of them to one table. <a href="https://cic-engine.onrender.com/?mode=table" data-app>Set your own table →</a></p>
+  </section>
+
+  <section class="looks" aria-labelledby="looks-title">
+    <p class="eyebrow" data-copy="draft">One exchange, as it happened</p>
+    <h2 id="looks-title" data-copy="draft">What a conversation looks like</h2>
+    <p class="intro" data-copy="draft">A visitor pressed Theon on how sure he really was. This is what came back — the voice holding apart what it knows from what it cannot show.</p>
+    <div class="exchange">
+      <figure style="margin:0" aria-labelledby="leaf-cap">
+        <div class="leaf" data-copy="capture">
+          <p class="head">Alexandrian Christianity · c. 150–400 CE</p>
+          <p class="fac">I'm glad you're here. Come in, settle wherever feels right.</p>
+          <p class="fac">Welcome to the table. Today you sit with Theon, a catechetical teacher from the Christian community of Alexandria, speaking to you from somewhere within the second through fourth centuries of that great city's life — a place where scripture, philosophy, and the discipline of the soul were held together in one breath. Theon awaits your questions; where shall we begin?</p>
+          <p class="you">You</p>
+          <p class="q">What's the actual evidence for how confident we can be about that practice? How sure are you, really?</p>
+          <p class="who-said">Theon · Catechetical Teacher</p>
+          <div class="a">
+            <p>We told you the shape a formation likely took, not one seeker's counted days. That is worth holding apart plainly, because the two are not equally sure.</p>
+            <p>The stages themselves — coming first as one still under instruction, the waiting before the water, the <span class="gloss">illumination</span> <span class="gloss">baptism</span> itself is named to be, the deepening afterward that never counts itself finished — these we hold with real confidence, because they are not inference. They are the pattern our own life set down and still keeps: the great fast, the feast that follows it, the daily return to a <span class="gloss">Scripture</span> never read once and shelved. That rhythm is not reconstructed. It is what we do.</p>
+            <p>What we cannot give you is one particular <span class="gloss">soul</span> walking it — a name, a morning, a specific word said to a specific catechumen on a specific day. When we spoke of "a typical formation," that was offered honestly as the shape many lives probably shared, not as any single life we can point to and say: this happened, here, to this one. Where the pattern is concerned, our confidence is real. Where a particular soul's road through it is concerned, we have the outline and not the portrait — and we would rather tell you that plainly than paint a face onto it that was never there.<span class="cite" aria-label="three sources cited">✲ 3</span></p>
+          </div>
+        </div>
+        <figcaption class="leaf-caption" id="leaf-cap" data-copy="draft">Captured from a live conversation with Theon on 25 August 2026; the words are unchanged, re-set here in the app's long-form grammar. The dotted terms and the ✲ are live in the room — hover or tap them there for the plain meaning, and for the sources. Here they are a picture.</figcaption>
+      </figure>
+      <aside class="margin" aria-label="How to read the exchange" data-copy="draft">
+        <div class="note"><h3>The quieter voice</h3><p>The italic lines are the Facilitator, who opens the room, bridges anything the voice could not know, and — if something painful comes up — points you toward real people who can help.</p></div>
+        <div class="note"><h3>A dotted term</h3><p>Opens a short gloss in the tradition's own words; one tap more opens the full entry. Marked the first time it appears, then left alone.</p></div>
+        <div class="note"><h3>✲ 3 · the sources</h3><p>Three letters and records stand behind this answer. In the room you open the list, and every one is checkable.</p></div>
+        <div class="note"><h3>Where it's thin</h3><p data-copy="protected" style="color:var(--text)">Where the historical record is thin, we let the silence stand.</p></div>
+      </aside>
     </div>
   </section>
 
-  <section class="access-note-wrap">
-    <p class="access-note">Running these conversations costs real money. If you'd like to help more people use them:</p>
-    <div class="hero-actions access-give-actions">
-      <a class="btn secondary" href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open <span style="font-weight:400;opacity:.85">— give once</span></a>
-      <a class="btn secondary" href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider <span style="font-weight:400;opacity:.85">— give monthly</span></a>
+  <section class="before" aria-labelledby="before-title">
+    <p class="eyebrow" data-copy="draft">Before you sit down</p>
+    <h2 id="before-title" data-copy="draft">This is an AI system. Here is what holds it to the record, and what is still unfinished.</h2>
+    <div class="two">
+      <div>
+        <h3 data-copy="draft">What holds it</h3>
+        <ul data-copy="draft">
+          <li><strong>Locked to sources.</strong> A voice is built last, from a completed record of one tradition's own letters, sermons, and primary sources, through a ten-step, review-gated build — and speaks only from that record.</li>
+          <li><strong>Shows its confidence.</strong> Every claim carries how well it is attested, in the same five words inside every conversation, never adjusted for who is asking.</li>
+          <li><strong>Watched while it speaks.</strong> <span data-copy="live">Every conversation is watched in real time for a softened truth, an invented detail, or knowledge the voice shouldn't have — and corrected before it reaches you.</span></li>
+          <li><strong>Witness, never recruitment.</strong> A voice of its tradition, in real conversation — it does not pretend to be a person, and it is not here to win you over.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-copy="draft">What is unfinished, said plainly</h3>
+        <ul data-copy="draft">
+          <li><strong>Independent academic review is the standard we are building toward.</strong> It has not begun; an advisory board is being formed and needs funding and volunteers.</li>
+          <li><strong>Every conversation runs on one plain voice.</strong> The modes designed for a pastor, a scholar, or someone re-examining faith have not shipped.</li>
+          <li><strong>Lives in one browser tab, not an account.</strong> There is no sign-in; a conversation stays in the tab you open it in. What we keep on our side, and how to ask us to delete it, is on the Privacy page.</li>
+          <li><strong>Later centuries are planned, not built.</strong> What is live is the Church's own first four hundred years; each later era is its own careful build.</li>
+          <li><span data-copy="live">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</span></li>
+        </ul>
+      </div>
     </div>
-    <p class="access-note">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
+    <p class="committed" data-copy="protected">We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike.</p>
+    <p class="measure" data-copy="protected">We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share.</p>
+    <p class="sans muted" style="font-size:.9rem;margin:1rem 0 0" data-copy="draft">How a tradition is built, step by step: <a href="about.html#how-it-works">About — how it works</a>.</p>
+  </section>
+
+  <section class="map" aria-labelledby="map-title">
+    <p class="eyebrow" data-copy="draft">Twenty centuries on one map</p>
+    <h2 id="map-title" data-copy="live">Church in History</h2>
+    <p data-copy="draft">Seven traditions are open for conversation and two more are chosen and being built. Nearly three hundred movements across ten eras are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read.</p>
+    <p class="links"><a href="atlas-v3.html">Open Church in History →</a><a href="whats-next.html" style="font-weight:400">What's next</a></p>
+  </section>
+
+  <section class="support" aria-labelledby="support-title">
+    <h2 class="vh" id="support-title">Support</h2>
+    <p data-copy="live">Running these conversations costs real money. If you'd like to help more people use them:</p>
+    <p data-copy="live"><a href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open — give once</a> &nbsp;·&nbsp; <a href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider — give monthly</a></p>
+    <p data-copy="live">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
   </section>
 </main>
 
-<div class="reps-scrim" id="repsScrim"></div>
-<div class="reps-sheet" id="repsSheet" role="dialog" aria-modal="true" aria-labelledby="repsSheetName">
-  <button class="reps-sheet__close" id="repsSheetClose" aria-label="Close">&times;</button>
-  <div id="repsSheetContent"></div>
-</div>
-
 <footer class="site-footer">
-  <div class="wrap">
-    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
-    <nav>
+  <div class="row">
+    <span data-copy="live">&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
       <a href="about.html">About</a>
       <a href="pilot-feedback.html">Feedback</a>
       <a href="privacy.html">Privacy</a>
@@ -211,127 +468,60 @@
 <script>
 (function(){
 "use strict";
-// Same LIVE_APP_URL pattern as atlas.html — honest about not
-// being wired up when hosting isn't ready, live locally during dev.
-// PHASE-1-LAUNCH.md Stage 6: points at cic-engine (the new surface,
-// engine/api + the rebuilt frontend), not the old cic-poc - Mark's ruling
-// 2026-08-24, "the site is not in use, so downtime during the transfer is
-// acceptable." Local dev port matches the new frontend's vite default
-// (cic-poc/frontend/vite.config.ts), not the old app's 8199.
-const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
-const LIVE_APP_URL = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
-if (LIVE_APP_URL) {
-  // The hero says "join us at the Table" - it lands on the app's Table
-  // field (mode=table opens the launch screen with the Table in focus),
-  // not an interview-first screen that contradicts the button (2026-08-28
-  // foundation audit; deep-link grammar per Mark's launch ruling).
-  document.getElementById('launch-link').href = LIVE_APP_URL + '/?mode=table';
+var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
+var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
+Array.prototype.forEach.call(document.querySelectorAll('a[data-app]'), function(a){
+  a.href = a.href.replace('https://cic-engine.onrender.com', APP);
+  a.addEventListener('click', function(){ try { localStorage.setItem('cic-returning','1'); } catch(e){} });
+});
+Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){ a.dataset.hrefBase = a.href; });
+try {
+  if (localStorage.getItem('cic-returning') === '1') {
+    document.getElementById('welcome-back').hidden = false;
+    document.getElementById('side-door').hidden = false;
+  }
+} catch(e){}
+
+var input = document.getElementById('q');
+var held = document.getElementById('held');
+var heldQ = document.getElementById('held-q');
+var who = document.getElementById('who');
+var askLinks = document.querySelectorAll('a[data-ask]');
+
+// The URL is the held state, normalised: read, decode in try/catch, trim,
+// cut to 280 (design record §5.1). Rendered only via textContent/.value.
+function readHash(){
+  var h = window.location.hash;
+  if (h.indexOf('#q=') !== 0) return '';
+  var text;
+  try { text = decodeURIComponent(h.slice(3)); } catch(e){ return ''; }
+  return text.trim().slice(0, 280);
 }
-
-// Representative carousel — reads the same data/world-census.json the
-// Atlas itself reads, so it can never drift out of sync with it the way
-// two independently-maintained copies of this data have before on this site.
-const PORTRAIT_FILES = {
-  'post-apostolic-house-church': 'house-churches.png',
-  'alexandria-catechetical': 'alexandria.png',
-  'syriac-edessa-nisibis': 'syriac.png',
-  'imperial-juridical-christianity': 'empire.png',
-  'desert-monasticism': 'desert.png',
-  'hieronymian-ascetic-literary': 'bethlehem.png',
-  'cappadocian-nicene-pastoral-monastic-tradition': 'cappadocian.jpg',
-};
-
-fetch('data/world-census.json')
-  .then(r => r.json())
-  .then(data => {
-    const eraTitles = {};
-    data.eras.forEach(e => { eraTitles[e.num] = e.title; });
-
-    const live = data.movements
-      .filter(m => m.status === 'Built & Live')
-      .map(m => {
-        const id = m.id;
-        return { id, era: m.era, start: m.start, dates: m.dates, region: m.region, entry: m.entry };
-      })
-      .sort((a, b) => a.start - b.start);
-
-    const carousel = document.getElementById('repsCarousel');
-    let lastEra = null;
-    live.forEach(w => {
-      if (lastEra !== null && w.era !== lastEra) {
-        const div = document.createElement('div');
-        div.className = 'reps-era-divider';
-        div.innerHTML = `<span>${eraTitles[w.era]}</span>`;
-        carousel.appendChild(div);
-      }
-      lastEra = w.era;
-
-      const card = document.createElement('button');
-      card.className = `rep-card era-${w.era}`;
-      card.style.setProperty('--rep-color', w.entry.color);
-      card.innerHTML = `
-        <span class="era-label">${eraTitles[w.era]}</span>
-        <div class="portrait"><img src="assets/portraits/${PORTRAIT_FILES[w.id]}" alt="${w.entry.representativeName}, Representative of ${w.entry.worldName}"></div>
-        <p class="name">${w.entry.representativeName}</p>
-        <p class="tradition">${w.entry.worldName}</p>
-        <p class="meta">${w.dates}<br>${w.region}</p>
-      `;
-      card.addEventListener('click', () => openRepsSheet(w));
-      carousel.appendChild(card);
-    });
-  })
-  .catch(err => {
-    console.error('Failed to load the representative carousel:', err);
+function setHeld(text, scroll){
+  heldQ.textContent = text;
+  held.hidden = false;
+  input.value = text;
+  try { history.replaceState(null, '', '#q=' + encodeURIComponent(text)); } catch(e){}
+  Array.prototype.forEach.call(askLinks, function(a){
+    a.href = a.dataset.hrefBase + '#q=' + encodeURIComponent(text);
   });
-
-const repsScrim = document.getElementById('repsScrim');
-const repsSheet = document.getElementById('repsSheet');
-const repsSheetContent = document.getElementById('repsSheetContent');
-const repsSheetClose = document.getElementById('repsSheetClose');
-let repsLastFocused = null;
-
-function openRepsSheet(w) {
-  repsLastFocused = document.activeElement;
-  const e = w.entry;
-  // The full name, never split: "Mar Yausep" carries his honorific as part
-  // of the name itself (Mark's identity ruling, 2026-08-28) - .split(' ')
-  // .pop() would greet him as bare "Yausep" on the launch button.
-  const firstName = e.representativeName;
-  repsSheetContent.innerHTML = `
-    <div class="reps-sheet__top">
-      <img class="reps-sheet__portrait" src="assets/portraits/${PORTRAIT_FILES[w.id]}" alt="Portrait of ${e.representativeName}" style="--rep-color:${e.color}">
-      <div>
-        <h2 class="reps-sheet__name" id="repsSheetName">${e.representativeName}</h2>
-        <p class="reps-sheet__title" style="color:${e.color}">${e.representativeTitle}</p>
-        <p class="reps-sheet__world">${e.worldName}${e.subtitle ? ' &mdash; ' + e.subtitle : ''}</p>
-        <p class="reps-sheet__meta">${w.dates} &middot; ${w.region}</p>
-      </div>
-    </div>
-    <p class="reps-sheet__body">${e.tile}</p>
-    <div class="reps-sheet__actions">
-      <a class="btn primary" href="${LIVE_APP_URL}/?worlds=${w.id}&mode=interview" target="_blank" rel="noopener">Launch an Interview with ${firstName}</a>
-      <!-- The Table hand-off is deliberately the quiet second link (Mark's
-           launch ruling, 2026-08-28): mode=table lands on the app's Table
-           field with this seat chosen - never auto-starting a session -
-           where the participant completes the seating and convenes. -->
-      <a class="reps-sheet__secondary" href="${LIVE_APP_URL}/?worlds=${w.id}&mode=table" target="_blank" rel="noopener">Bring ${firstName} to the Table &rarr;</a>
-      <a class="reps-sheet__secondary" href="atlas-v3.html" target="_blank" rel="noopener">Read more in the Atlas &rarr;</a>
-    </div>
-  `;
-  repsScrim.classList.add('open');
-  repsSheet.classList.add('open');
-  repsSheetClose.focus();
-  document.addEventListener('keydown', onRepsKeydown);
+  if (scroll) { who.scrollIntoView({block:'start'}); held.focus({preventScroll:true}); }
 }
-function closeRepsSheet() {
-  repsScrim.classList.remove('open');
-  repsSheet.classList.remove('open');
-  document.removeEventListener('keydown', onRepsKeydown);
-  if (repsLastFocused) repsLastFocused.focus();
+function hold(raw, scroll){
+  var text = (raw || '').trim().slice(0, 280);
+  if (!text) { if (scroll) { who.scrollIntoView({block:'start'}); who.focus({preventScroll:true}); } return; }
+  setHeld(text, scroll);
 }
-function onRepsKeydown(e) { if (e.key === 'Escape') closeRepsSheet(); }
-repsScrim.addEventListener('click', closeRepsSheet);
-repsSheetClose.addEventListener('click', closeRepsSheet);
+
+var restored = readHash();
+if (restored) setHeld(restored, false);
+
+document.getElementById('ask-control').addEventListener('click', function(e){ e.preventDefault(); hold(input.value, true); });
+input.addEventListener('keydown', function(e){ if (e.key === 'Enter') { e.preventDefault(); hold(input.value, true); } });
+Array.prototype.forEach.call(document.querySelectorAll('a[data-q]'), function(a){
+  a.addEventListener('click', function(e){ e.preventDefault(); hold(a.textContent, true); });
+});
+document.getElementById('held-edit').addEventListener('click', function(e){ e.preventDefault(); input.focus(); input.scrollIntoView({block:'center'}); });
 })();
 </script>
 </body>
