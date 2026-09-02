@@ -331,3 +331,74 @@ infrastructure issue, not a design decision, reported for the
 honest ledger rather than absorbed silently. Relaunching regardless,
 per the standing rule that quality and rigor over cost governs even
 here.
+
+## 2026-09-02 (later still) — All five D2 reviews landed: every direction dies at the whole-site level, every direction leaves real salvage
+
+All five adversarial reviews are in, each independently rendering both
+mockups in headless Chromium, measuring real contrast/overflow/tab-order
+rather than trusting the direction's own self-assessment, and each
+required to weigh in on Mark's non-religious-feel and hard-questions-
+audience rulings. One line each:
+
+1. **Editorial (01):** *survives as a source of parts, dies as the
+   spine.* A hard bug (the running head's door pushed off-screen and
+   unreachable on iPad portrait), a broken print stylesheet, per-
+   tradition "begin a conversation" links rendered at 1.196:1 contrast
+   — invisible — and two charges the reviewer calls unpatchable: it
+   organizes by chronology and prices itself in reading minutes,
+   deleting the constitution's own "Start with your question" door, and
+   names the re-assessing/reevaluation audience once, at 93% of the way
+   down the page.
+2. **Atlas-first (02):** *dies as a homepage; reassign as the
+   `atlas-v3.html` rework brief.* A real horizontal-overflow bug the
+   README denied outright, an accessible fallback that deletes all
+   content without JavaScript despite claiming otherwise, dark-mode
+   tint-as-text failures to 1.88:1, and a "Where it stands on the
+   Creed" mechanism the reviewer calls a denominational vetting board —
+   arguably worse for a deconstructing visitor than any direction's
+   incense.
+3. **Institutional (03):** *dies as a homepage direction, survives as
+   an inner-page pattern.* The kill is structural: its own section
+   order ranks audiences the exact inverse of Mark's stated heart
+   priority. A real sticky-marginal collision on its flagship section,
+   per-tradition entry points 850px off-screen on phone with the CTA
+   hidden, and a word-budget count of 1,352 words about the instrument
+   to 585 about the traditions, with zero showing an actual
+   conversation.
+4. **Quiet-liturgical (04):** *dies as a direction, survives as a
+   policy.* The most decisive kill: the author had already stripped
+   every liturgical word from the visible copy, and the page still
+   reads as a service — the feeling comes from the ordo, the red-italic
+   rubric, and the printed order, none of them words. The constitution's
+   own stillness rule doesn't transfer (it's grounded in a specific
+   ground-layer/anti-ghost reason absent on a marketing page), and every
+   paced beat in the real constitution is participant-initiated while
+   this direction's two are neither.
+5. **Product-led (05):** *dies as a whole-site direction, survives as a
+   method to extract.* A dark-mode primary-button contrast failure at
+   2.69:1, the AI disclosure absent from the direction's own designated
+   informed-decision page, and — against Mark's heart-audience note —
+   an IA that reads as a scholar's finding aid with no question-shaped
+   door.
+
+**Every direction died at the whole-site level. Every direction left
+real, specific, named salvage** — this is not five failures, it's D1
+and D2 doing exactly what the charter asked of a genuine divergent/
+struggle process: five honest, different bets, each falsified in a
+different way, each leaving something true behind. Two new
+cross-direction findings for D3 regardless of outcome: (a) the D1
+text-contrast finding (§ D1 closure) now extends to dark-mode
+*graphical* elements too — four of seven census tints fail 3:1 as
+rings/underlines in dark mode, not just as text; (b) at least three
+reviews independently converge on the same structural diagnosis in
+different words — a direction that leads with anything other than a
+clear, fast, personal way to ask a hard question fails Mark's stated
+heart audience, regardless of how well-crafted or professional it is.
+
+**Next step, per the charter's own D2 rule, not a new decision:**
+"Authors may file one defense each; a direction that cannot be
+defended dies." No direction has had its defense yet — none of the
+above verdicts are final. Commissioning one Fable defense per
+direction next, each seeing only its own direction and its own review
+(not the other four), before any kill is treated as settled or any
+hybridization is considered.
