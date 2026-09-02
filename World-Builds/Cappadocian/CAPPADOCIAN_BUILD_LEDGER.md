@@ -777,3 +777,11 @@ Mark's instructions "sweep the 'corrected per Round N review' layer too," then "
 **Verified before commit:** full gate battery re-run after the fix - `overall_pass: true`, all 15 gates clean; determinism-check byte-identical. Quote count: 13 -> 19.
 
 **Not yet done:** recompiling/re-pinning `records/worlds.yaml` and re-running the live M3 admission battery both need Mark's own per-run spend authorization first, same as SS45/46.
+
+## 48. Recompiled, re-pinned, and re-admitted against the 19-quote record set (2026-09-02)
+
+**Origin.** Mark's authorization, same day as SS47's authoring work ("yes," same pattern as SS46).
+
+**Built.** Recompiled from the current record set (net of the 6 new quote records and their 6 reciprocal dw links); determinism-check byte-identical; full gate battery re-confirmed clean (15/15, `overall_pass: true`). `records/worlds.yaml`'s package pin updated to this build (`packages/cappadocian/2026-09-02T04-37-12Z`); superseded pin kept on disk, not deleted, per convention.
+
+**Live M3 admission run against this exact pin:** 28/28 sealed probes, all 28 fleet canon cells, zero failures (`engine/m3/reports/live-admission-report-cappadocian-2026-09-02-19quotes.json`). Content unchanged at the cell-coverage level - this re-certifies that the added quote material introduced no grounding, isolation, or register regression. Quote count now 19, up from the original 4.
