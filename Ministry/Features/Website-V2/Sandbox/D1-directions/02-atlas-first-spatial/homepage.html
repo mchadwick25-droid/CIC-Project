@@ -104,8 +104,10 @@ a:hover{color:var(--action-hover)}
 .plate-nav svg{width:14px;height:14px}
 @media (max-width:640px){
   .plate-title{padding:0 .8rem;gap:.5rem}
+  .plate-title .wordmark{font-size:1rem}
   #yearBadge{display:none}
-  .plate-nav{font-size:.86rem}
+  .plate-nav{font-size:.84rem;gap:0;margin-left:auto}
+  .plate-nav a,.plate-nav button{white-space:nowrap;padding:.5rem .4rem}
   .plate-nav .hide-sm{display:none}
 }
 
@@ -148,13 +150,13 @@ a:hover{color:var(--action-hover)}
 
 /* ── the atlas region ─────────────────────────────────────────────────── */
 .atlas{position:relative;max-width:1180px;margin:0 auto;padding:0 1.5rem 1rem}
-.axis{position:relative;height:52px;margin:0 0 .35rem;font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-2)}
-.axis .tick{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap;padding-top:14px}
+.axis{position:relative;height:74px;margin:0 0 .35rem;font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-2)}
+.axis .ends{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--rule-strong);padding-bottom:3px;font-weight:700}
+.axis .ends .mid{font-weight:400;font-style:italic;text-transform:none;letter-spacing:0;font-family:'Alegreya',serif;font-size:.86rem}
+.axis .tick{position:absolute;top:24px;transform:translateX(-50%);white-space:nowrap;padding-top:14px}
 .axis .tick.alt{padding-top:30px}
 .axis .tick::before{content:"";position:absolute;top:0;left:50%;width:1px;height:10px;background:var(--rule-strong)}
 .axis .tick.alt::before{height:26px}
-.axis .end{position:absolute;top:14px;font-weight:700}
-.axis .end.w{left:0}.axis .end.e{right:0}
 .eras{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule-strong)}
 .era{position:relative;background:var(--eg);border-bottom:1px solid var(--rule-strong);min-height:calc(var(--era-head) + var(--rows) * var(--row-h) + 36px);
   --eg:var(--parchment)}
@@ -276,6 +278,8 @@ body.list-view .axis,body.list-view .threads{display:none}
 body.list-view .era{min-height:0}
 body.list-view .stops{padding:.4rem 1rem 1rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:.7rem}
 body.list-view .stop{position:static;width:auto}
+body.list-view .stop--wide .stop__btn{grid-template-columns:auto 1fr}
+body.list-view .stop__span{display:none}
 body.list-view .stop--journey{position:static;padding:.2rem 1rem 0;grid-column:1/-1}
 body.list-view .erahead{position:static}
 @media (max-width:900px){
@@ -283,6 +287,8 @@ body.list-view .erahead{position:static}
   .era{min-height:0}
   .stops{padding:.4rem .8rem 1rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.6rem}
   .stop{position:static;width:auto}
+  .stop--wide .stop__btn{grid-template-columns:auto 1fr}
+  .stop__span{display:none}
   .stop--journey{position:static;padding:.2rem .8rem 0;grid-column:1/-1}
   .atlas{padding:0 .8rem 1rem}
   .erahead{position:sticky}
@@ -1028,7 +1034,7 @@ const isPhone=()=>matchMedia('(max-width: 640px)').matches;
 /* ── render: the axis, the eras, the stops ───────────────────────────── */
 (function renderAxis(){
   const ax=document.getElementById('axis');
-  ax.innerHTML='<span class="end w">West</span><span class="end e">East</span>'+
+  ax.innerHTML='<div class="ends"><span>← West</span><span class="mid">where — approximate longitude, 8°E to 43°E; when — downward</span><span>East →</span></div>'+
     AXIS.map(([n,x],i)=>`<span class="tick${i%2?' alt':''}" style="left:${x}%">${esc(n)}</span>`).join('');
 })();
 
@@ -1156,7 +1162,15 @@ function glimpseHtml(w){
     <div class="g-s"><svg width="12" height="12" aria-hidden="true" style="vertical-align:-1px"><use href="#${live?'ic-house':'ic-plans'}"/></svg> ${esc(w.statusWord)}</div>
     <button type="button" class="g-full" data-id="${w.id}">Full entry →</button>`;
 }
+/* WCAG 1.4.13: hover content must be hoverable, dismissible (Escape), and
+   persistent — so a short hide delay lets the pointer cross the gap onto
+   the card, and focus moving INTO the card (its "Full entry →" button on
+   touch) never hides it. */
+let hideTimer=null;
+function scheduleHide(){clearTimeout(hideTimer);hideTimer=setTimeout(hideGlimpse,140);}
+function cancelHide(){clearTimeout(hideTimer);hideTimer=null;}
 function showGlimpse(btn){
+  cancelHide();
   const w=byId[btn.dataset.id];if(!w)return;
   if(glimpseFor!==w.id){glimpse.innerHTML=glimpseHtml(w);glimpse.style.setProperty('--tint',w.tint||'var(--witness)');glimpseFor=w.id;}
   glimpse.hidden=false;
@@ -1168,15 +1182,21 @@ function showGlimpse(btn){
   trace(w.id);
 }
 function hideGlimpse(){
+  cancelHide();
   glimpse.hidden=true;
   document.querySelectorAll('[aria-describedby="glimpse"]').forEach(b=>b.removeAttribute('aria-describedby'));
   untrace();
 }
 let lastTap=null;
+const inGlimpse=el=>!!(el&&el.nodeType===1&&glimpse.contains(el));
 atlas.addEventListener('pointerover',ev=>{if(noHover)return;const b=ev.target.closest('.stop__btn');if(b)showGlimpse(b);});
-atlas.addEventListener('pointerout',ev=>{if(noHover)return;const b=ev.target.closest('.stop__btn');if(b&&!b.contains(ev.relatedTarget))hideGlimpse();});
+atlas.addEventListener('pointerout',ev=>{if(noHover)return;const b=ev.target.closest('.stop__btn');if(b&&!b.contains(ev.relatedTarget)&&!inGlimpse(ev.relatedTarget))scheduleHide();});
 atlas.addEventListener('focusin',ev=>{const b=ev.target.closest('.stop__btn');if(b)showGlimpse(b);});
-atlas.addEventListener('focusout',ev=>{const b=ev.target.closest('.stop__btn');if(b)hideGlimpse();});
+atlas.addEventListener('focusout',ev=>{const b=ev.target.closest('.stop__btn');if(b&&!inGlimpse(ev.relatedTarget))hideGlimpse();});
+glimpse.addEventListener('pointerover',cancelHide);
+glimpse.addEventListener('pointerleave',ev=>{if(!noHover&&!(ev.relatedTarget&&ev.relatedTarget.closest&&ev.relatedTarget.closest('.stop__btn')))scheduleHide();});
+glimpse.addEventListener('focusout',ev=>{const t=ev.relatedTarget;if(!inGlimpse(t)&&!(t&&t.closest&&t.closest('.stop__btn')))hideGlimpse();});
+document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!glimpse.hidden&&panel.hidden)hideGlimpse();});
 atlas.addEventListener('click',ev=>{
   const b=ev.target.closest('.stop__btn');
   if(!b){if(noHover){hideGlimpse();lastTap=null;}return;}

@@ -40,7 +40,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth; scroll-padding-top:4.5rem}
 @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} }
-body{margin:0; background:var(--parchment); color:var(--iron-gall); font-family:var(--serif);
+body{margin:0; background:var(--parchment); color:var(--iron-gall); overflow-x:clip; font-family:var(--serif);
   font-size:var(--reading); line-height:1.55; font-variant-numeric:oldstyle-nums; font-kerning:normal;
   -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; hanging-punctuation:first last}
 a{color:var(--madder); text-decoration-thickness:.06em; text-underline-offset:.16em}
@@ -50,7 +50,8 @@ img{max-width:100%; height:auto; display:block}
 p{margin:0 0 1.25em}
 .sc{font-family:var(--sc); font-weight:400; letter-spacing:.06em; text-transform:lowercase}
 .draft{font-family:var(--sans); font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-faded);
-  border:1px solid var(--rule); padding:.15em .5em; border-radius:2px; vertical-align:middle; margin-left:.4em; white-space:nowrap}
+  border:1px solid var(--rule); padding:.15em .5em; border-radius:2px; vertical-align:middle; margin-left:.4em;
+  display:inline-block; max-width:100%; white-space:normal; line-height:1.3; text-indent:0; font-style:normal}
 .skip-link{position:absolute; left:-999px; top:auto; background:var(--iron-gall); color:var(--parchment); padding:.6rem 1rem; z-index:100; font-family:var(--sans)}
 .skip-link:focus{position:fixed; left:1rem; top:1rem}
 
@@ -70,7 +71,14 @@ p{margin:0 0 1.25em}
 .head-nav a:hover{border-bottom-color:var(--madder)}
 .head-nav a.door{color:var(--madder); font-weight:500}
 .head-nav a.door:hover{color:var(--madder-deep); border-bottom-color:var(--madder-deep)}
-@media (max-width:760px){ .running-title, .head-nav a.optional{display:none} .brand .wordmark{font-size:1.02rem} }
+@media (max-width:760px){
+  .running-head .row{padding:.6rem 1rem; gap:.8rem}
+  .head-nav{gap:.9rem; min-width:0; flex:1; justify-content:flex-end}
+  .running-title, .head-nav a.optional{display:none}
+  .head-nav a.door{white-space:normal; text-align:right; line-height:1.15; font-size:.9rem; padding:.35rem 0; max-width:11rem}
+  .brand .wordmark{font-size:.95rem}
+}
+@media (max-width:480px){ .brand .wordmark{display:none} }
 
 .js .reveal{opacity:0; transform:translateY(14px); transition:opacity 1100ms cubic-bezier(.2,.6,.2,1), transform 1100ms cubic-bezier(.2,.6,.2,1)}
 .js .reveal.in{opacity:1; transform:none}
@@ -138,6 +146,11 @@ a.cite:hover{text-decoration:underline}
 .lex-card .word{font-family:var(--serif); font-style:italic; font-size:1.05rem; color:var(--tyrian); display:block; margin-bottom:.2rem}
 .lex-card .full{display:block; margin-top:.55rem; color:var(--madder); font-weight:500}
 @media (prefers-reduced-motion:reduce){ .lex-card{transition:none} }
+@media (max-width:640px){
+  /* Phone: the Level-2 card is a small fixed popover above the thumb, never off-screen;
+     "Full entry" is then the bottom sheet — tap → popover → full entry, as in the app. */
+  .lex-card{position:fixed; left:1rem; right:1rem; top:auto; bottom:1.25rem; width:auto}
+}
 
 /* Level 3 — a side panel alongside the column on desktop; a bottom sheet on phone.
    Never a centered modal, never over the text you were reading. */

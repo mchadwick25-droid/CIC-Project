@@ -137,6 +137,7 @@ nav.nav a:hover, nav.nav a[aria-current="page"] { border-bottom-color: var(--mad
 
 /* Finding-aid layout: sticky contents + record body */
 .record { display: grid; grid-template-columns: 15rem minmax(0, 1fr); gap: 2rem clamp(2rem, 4vw, 4rem); padding: 2rem 0 3rem; }
+.record > *, .titleblock > *, .gravities li > *, .status-grid > * { min-width: 0; }   /* grid children may shrink; wide tables scroll inside their own wrappers */
 .contents { position: sticky; top: 4rem; align-self: start; font-family: var(--sans); font-size: .875rem; }
 .contents h2 { font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faded); font-weight: 600; margin-bottom: .6rem; }
 .contents ol { list-style: none; margin: 0 0 1.5rem; padding: 0; border-left: 1px solid var(--rule-strong); }
@@ -148,7 +149,7 @@ nav.nav a:hover, nav.nav a[aria-current="page"] { border-bottom-color: var(--mad
 .metadata dt { color: var(--ink-faded); }
 .metadata dd { margin: 0; color: var(--ink); }
 
-.record__body > section { padding: 1.6rem 0 2.1rem; border-top: 1px solid var(--rule-strong); }
+.record__body > section { padding: 1.6rem 0 2.1rem; border-top: 1px solid var(--rule-strong); scroll-margin-top: 5rem; }   /* anchors land below the sticky seat bar */
 .record__body > section:first-child { border-top: none; padding-top: 0; }
 .record__body h2 { font-size: clamp(1.45rem, 2.4vw, 1.9rem); margin-bottom: .25rem; }
 .record__body h2 .n { font-family: var(--sc); font-weight: 400; color: var(--ink-faded); margin-right: .6rem; font-size: .8em; }
@@ -228,13 +229,13 @@ nav.nav a:hover, nav.nav a[aria-current="page"] { border-bottom-color: var(--mad
 .colophon p { max-width: none; margin-bottom: .5rem; }
 
 @media (max-width: 900px) {
-  .titleblock { grid-template-columns: 1fr; }
-  .record { grid-template-columns: 1fr; }
+  .titleblock { grid-template-columns: minmax(0, 1fr); }
+  .record { grid-template-columns: minmax(0, 1fr); }
   .contents { position: static; }
   .contents ol { columns: 2; column-gap: 2rem; }
-  .gravities li { grid-template-columns: 1fr; gap: .15rem; }
-  .status-grid { grid-template-columns: 1fr; }
-  .colophon .page { grid-template-columns: 1fr; }
+  .gravities li { grid-template-columns: minmax(0, 1fr); gap: .15rem; }
+  .status-grid { grid-template-columns: minmax(0, 1fr); }
+  .colophon .page { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 640px) {
   .masthead__inner { gap: .75rem; }
@@ -242,6 +243,8 @@ nav.nav a:hover, nav.nav a[aria-current="page"] { border-bottom-color: var(--mad
   .brand .wordmark { font-size: 1.05rem; }
   .contents ol { columns: 1; }
   .seatbar .page { flex-direction: column; align-items: flex-start; gap: .5rem; }
+  .srcs tbody th { white-space: normal; }
+  .tbl-wrap { margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter); }
 }
 @media print {
   .sandbox-note, .seatbar, .masthead__cta, .close .actions { display: none; }
@@ -329,7 +332,9 @@ nav.nav a:hover, nav.nav a[aria-current="page"] { border-bottom-color: var(--mad
     <div class="page">
       <span class="seated">Chloe is seated. Begin when you're ready — or read on.</span>
       <span class="acts">
-        <a class="btn primary small" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview">Begin an interview with Chloe</a>
+        <!-- Outlined, not filled: the chair is visible the whole way down and never pushed.
+             The filled button is reserved for the page's end, after the record. -->
+        <a class="btn secondary small" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview">Begin an interview with Chloe</a>
         <a class="quiet" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=table">Bring Chloe to the Table →</a>
       </span>
     </div>

@@ -89,19 +89,18 @@ hybridized, not warmed with imagery it has no honest use for.
 - **Any imagery beyond the brand's own.** No photographs (the six site photos are
   not cleared, and would not fit), no illustration, no era-tinted grounds.
 - **Density below 900px.** The register scrolls horizontally inside its own
-  container; the confidence scale stacks. Acceptable, heavier than cards.
+  container; the confidence scale stacks. Heavier than cards.
 - **The live site's lightness.** One hero and a carousel become a long document.
-  Returning visitors use the masthead button and never scroll; first-timers are
-  asked to read.
+  First-timers are asked to read.
 
 ## 4. Typography, color, motion — inside the locked system
 
 **Type.** Alegreya for reading and display; Alegreya Sans for labels, tables,
 chrome; Alegreya SC — the same superfamily's true small caps — for section
-numerals, catalogue identifiers, and confidence labels. If Mark reads SC as a third
-face, it drops to `font-variant` small caps with no other change. Old-style
-figures throughout except in identifiers; one measure, one line-height; nothing
-under 13px carries meaning.
+numerals, catalogue identifiers, and confidence labels (if Mark reads SC as a
+third face, it drops to `font-variant` small caps, nothing else changes). Old-style
+figures except in identifiers; one measure, one line-height; nothing under 13px
+carries meaning.
 
 **Color.** Every token is the brand's, used for the job the constitution assigns
 it. Madder for action only. **Tyrian for the confidence and transparency apparatus
@@ -116,7 +115,6 @@ buttons flipped to dark text on madder because light text on that madder fails
 
 **Motion.** The "Arriving" mark plays once per arrival, exactly as the live
 stylesheet has it; reduced-motion receives the still mark. Nothing else moves.
-Sticky bars and the sticky marginal column are position, not motion.
 
 ## 5. Accessibility floor
 
@@ -150,10 +148,10 @@ own container.
    not. This is the direction's most attackable point; D2 should attack it there.
 2. **S0's door-primacy.** The constitution governs the app, not this site, but this
    homepage makes the record the primary surface and the door persistent chrome —
-   the inverse of S0. That should be an explicit ruling for the site.
-3. **The mark appears twice on the homepage** — animated in the masthead, still at
-   56px in the hero frontispiece beside its one public sentence, so first contact
-   carries the sentence as the usage sheet requires. Confirm it reads as one mark.
+   the inverse of S0. Worth an explicit ruling for the site.
+3. **The mark appears twice on the homepage** — animated in the masthead, still in
+   the hero frontispiece beside its one public sentence, so first contact carries
+   the sentence as the usage sheet requires. Confirm it reads as one mark.
 
 ## 7. Seams found while building
 

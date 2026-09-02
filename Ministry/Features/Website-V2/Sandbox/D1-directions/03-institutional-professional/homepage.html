@@ -206,8 +206,10 @@ nav.nav a:hover { color: var(--ink); }
 .frontispiece__note { font-family: var(--sans); font-size: .75rem; color: var(--ink-faded); margin: .9rem 0 0; line-height: 1.4; }
 
 /* ---------- Section grammar: marginal label column + content column ---------- */
-.section { border-top: 1px solid var(--rule-strong); padding: clamp(2.25rem, 5vw, 3.75rem) 0; }
+.section { border-top: 1px solid var(--rule-strong); padding: clamp(2.25rem, 5vw, 3.75rem) 0; scroll-margin-top: 1rem; }
 .section__grid { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: 1.5rem clamp(2rem, 4vw, 4rem); }
+.section__grid > *, .hero > *, .twocol > * { min-width: 0; }   /* grid children may shrink; wide tables scroll inside their own wrappers */
+.span-all { grid-column: 1 / -1; }
 .marginal { position: sticky; top: 1rem; align-self: start; }
 .marginal .num { font-family: var(--sc); font-size: 2.6rem; line-height: 1; color: var(--ink); font-weight: 400; display: block; margin-bottom: .35rem; }
 .marginal .eyebrow { margin-bottom: .8rem; }
@@ -259,7 +261,7 @@ nav.nav a:hover { color: var(--ink); }
 
 /* ---------- The Register (catalogue table) ---------- */
 .register-wrap { overflow-x: auto; border: 1px solid var(--rule-strong); background: var(--vellum); }
-table.register { border-collapse: collapse; width: 100%; min-width: 58rem; font-size: .95rem; }
+table.register { border-collapse: collapse; width: 100%; min-width: 64rem; font-size: .95rem; }
 .register caption { text-align: left; font-family: var(--sans); font-size: .8125rem; color: var(--ink-faded); padding: .7rem 1rem; caption-side: top; border-bottom: 1px solid var(--rule); }
 .register thead th { font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faded); font-weight: 600; text-align: left; padding: .7rem .8rem; border-bottom: 1px solid var(--rule-strong); background: var(--vellum); white-space: nowrap; }
 .register tbody th, .register tbody td { padding: .85rem .8rem; border-bottom: 1px solid var(--rule); vertical-align: top; text-align: left; font-weight: 400; }
@@ -277,7 +279,7 @@ table.register { border-collapse: collapse; width: 100%; min-width: 58rem; font-
 .register .sub { display: block; font-family: var(--sans); font-size: .8rem; color: var(--ink-faded); margin-top: .15rem; font-style: italic; }
 .register .rep { font-weight: 500; }
 .register .rep small { display: block; font-family: var(--sans); font-size: .8rem; color: var(--ink-faded); font-weight: 400; }
-.register .src { font-family: var(--sans); font-size: .84rem; line-height: 1.45; color: var(--ink); max-width: 20rem; }
+.register .src { font-family: var(--sans); font-size: .84rem; line-height: 1.45; color: var(--ink); max-width: 22rem; min-width: 14rem; }
 .register .meta { font-family: var(--sans); font-size: .84rem; color: var(--ink-faded); white-space: nowrap; }
 .register .acts { white-space: nowrap; font-family: var(--sans); font-size: .875rem; }
 .register .acts a { display: block; padding: .2rem 0; min-height: 28px; }
@@ -322,29 +324,33 @@ table.register { border-collapse: collapse; width: 100%; min-width: 58rem; font-
   .step { min-height: 13rem; }
 }
 @media (max-width: 900px) {
-  .hero { grid-template-columns: 1fr; }
-  .section__grid { grid-template-columns: 1fr; gap: 1rem; }
-  .marginal { position: static; display: grid; grid-template-columns: auto 1fr; gap: .2rem 1rem; align-items: baseline; }
+  .hero { grid-template-columns: minmax(0, 1fr); }
+  .section__grid { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .marginal { position: static; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: .2rem 1rem; align-items: baseline; }
   .marginal .num { font-size: 2rem; margin: 0; }
   .marginal p { grid-column: 2; margin-bottom: .3rem; }
   .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .step { min-height: 0; }
   .scale { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-  .twocol { grid-template-columns: 1fr; }
-  .method-status { grid-template-columns: 1fr; }
-  .colophon .page { grid-template-columns: 1fr; }
+  .twocol { grid-template-columns: minmax(0, 1fr); }
+  .method-status { grid-template-columns: minmax(0, 1fr); }
+  .colophon .page { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 640px) {
   .masthead__inner { gap: .75rem; }
   .masthead__cta { display: none; }   /* the Table remains one tap away in the hero and the register */
   .brand .wordmark { font-size: 1.05rem; }
-  .status-band div { border-right: none; margin-right: 0; padding-right: 0; width: 100%; }
-  .steps { grid-template-columns: 1fr; }
-  .scale { grid-template-columns: 1fr; border-left: 1px solid var(--rule-strong); }
+  /* Phone: the four load-bearing facts, two-up; the three descriptive rows drop so the hook stays near the fold */
+  .status-band dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .45rem 1rem; }
+  .status-band div { border-right: none; margin-right: 0; padding-right: 0; display: block; }
+  .status-band div.opt { display: none; }
+  .status-band dt { display: block; margin-bottom: .05rem; }
+  .steps { grid-template-columns: minmax(0, 1fr); }
+  .scale { grid-template-columns: minmax(0, 1fr); border-left: 1px solid var(--rule-strong); }
   .scale__level { border-right: none; border-bottom: 1px solid var(--rule); flex-direction: row; align-items: flex-start; flex-wrap: wrap; }
   .scale__level:last-child { border-bottom: none; }
   .scale__gloss { flex-basis: 100%; }
-  .gate { grid-template-columns: 1fr; gap: .3rem; }
+  .gate { grid-template-columns: minmax(0, 1fr); gap: .3rem; }
   .register-wrap { margin: 0 calc(-1 * var(--gutter)); border-left: none; border-right: none; }
 }
 
@@ -397,13 +403,13 @@ table.register { border-collapse: collapse; width: 100%; min-width: 58rem; font-
 <div class="status-band" aria-label="State of the record">
   <div class="page">
     <dl>
-      <div><dt>Series</dt><dd>The First Centuries</dd></div>
+      <div class="opt"><dt>Series</dt><dd>The First Centuries</dd></div>
       <div><dt>Traditions open for conversation</dt><dd>7</dd></div>
       <div><dt>Movements surveyed</dt><dd>292, across 10 eras</dd></div>
-      <div><dt>Build method</dt><dd>10 steps, review-gated</dd></div>
+      <div class="opt"><dt>Build method</dt><dd>10 steps, review-gated</dd></div>
       <div><dt>Confidence scale</dt><dd>5 levels, visible in every conversation</dd></div>
       <div><dt>External academic review</dt><dd>not yet begun</dd></div>
-      <div><dt>Census</dt><dd>2026-08-02</dd></div>
+      <div class="opt"><dt>Census</dt><dd>2026-08-02</dd></div>
     </dl>
   </div>
 </div>
@@ -563,7 +569,10 @@ table.register { border-collapse: collapse; width: 100%; min-width: 58rem; font-
       <div>
         <h2 id="register-title">Seven traditions open for conversation</h2>
         <p class="intro">Each entry is a completed record with a Representative who speaks only from it. Open the record before you sit down, or sit down first — the record stays open either way.<mark class="draft">draft</mark></p>
+      </div>
 
+      <!-- The register spans the full page width beneath its marginal notes, like a plate. -->
+      <div class="span-all">
         <div class="register-wrap">
           <table class="register">
             <caption>Church in Conversation: The First Centuries — traditions built and live, from world-census.json (V0.20, 2026-08-02). In production this table is generated from that file at runtime, as the current site's carousel is.</caption>
