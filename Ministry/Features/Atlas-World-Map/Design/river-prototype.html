@@ -20511,7 +20511,19 @@ function tipFor(m){
 /* ---- Tooltip (hover = short) ---- */
 const tip=document.getElementById('tip');
 function showTip(ev,html){tip.innerHTML=html; tip.style.display='block'; positionTip(ev);}
-function positionTip(ev){tip.style.left=(ev.clientX+14)+'px'; tip.style.top=(ev.clientY+14)+'px';}
+function positionTip(ev){
+  // Nodes run all the way to the canvas's own right and bottom edges (the
+  // "Beyond the Floor" lane sits at the far right on purpose) -- a tooltip
+  // placed with a fixed offset from the cursor, with nothing to stop it,
+  // renders partly or fully off the browser window there. Flip to the
+  // other side of the cursor when the default placement would overflow,
+  // then clamp as a last resort.
+  const pad=8, w=tip.offsetWidth, h=tip.offsetHeight;
+  let left=ev.clientX+14, top=ev.clientY+14;
+  if(left+w>window.innerWidth-pad)left=ev.clientX-14-w;
+  if(top+h>window.innerHeight-pad)top=ev.clientY-14-h;
+  tip.style.left=Math.max(pad,left)+'px'; tip.style.top=Math.max(pad,top)+'px';
+}
 function hideTip(){tip.style.display='none';}
 
 /* ---- Side panel (click = full) ---- */
