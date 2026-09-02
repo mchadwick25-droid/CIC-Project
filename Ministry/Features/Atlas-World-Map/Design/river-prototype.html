@@ -20236,19 +20236,53 @@ function render(){
   // x* down by a fixed step. The dots stay exactly where the data puts them --
   // only the label text moves.
   const LABEL_GAP=14, LABEL_XPROX=150, labelYById={}, placedLabels=[];
-  // A portrait plate sits PORTRAIT_OFFSET above its own dot, wide enough
-  // (2*(PORTRAIT_R+4)) that a different, merely-nearby movement's label can
-  // land inside it -- Church & Empire's label and the Desert's portrait are
-  // two different lanes but close enough in both x and y that this actually
-  // happened. Dots and portraits stay exactly where the data puts them, so
-  // this registers each portrait's footprint as one more obstacle the same
-  // label cascade already routes around -- a tighter x-proximity than
-  // LABEL_XPROX since a roundel is far narrower than the 150-unit berth two
-  // text labels need.
-  const PORTRAIT_XPROX=PORTRAIT_R+4+20;
-  const portraitObstacles=DATA.movements
-    .filter(m=>m.status==='Built & Live' && PORTRAIT_DATA[m.id])
-    .map(m=>({x:m._x, bottom:(m._y-PORTRAIT_OFFSET)+(PORTRAIT_R+4)}));
+  // Portrait placement, resolved before labels even start: a portrait's
+  // fixed PORTRAIT_OFFSET above its own dot can land on top of a different,
+  // unrelated movement's dot -- Hieronymian/Albina and the standalone
+  // Ambrosian-Milan entry are both lane 5, only 39 years apart, close enough
+  // that the fixed offset put her portrait 11 units from that other node's
+  // own halo. Dots never move (real chronology); a portrait steps back
+  // further up instead, in fixed steps, until clear of every other
+  // movement's halo and every other already-placed portrait.
+  const PORTRAIT_STEP=10, PORTRAIT_MAX_OFFSET=88, PORTRAIT_CLEAR=PORTRAIT_R+4+9+3;
+  const portraitOffsetById={}, placedPortraits=[];
+  DATA.movements.filter(m=>m.status==='Built & Live' && PORTRAIT_DATA[m.id]).forEach(m=>{
+    let offset=PORTRAIT_OFFSET, clear=false;
+    while(offset<=PORTRAIT_MAX_OFFSET){
+      const py=m._y-offset;
+      const clearOfDots=DATA.movements.every(other=>other.id===m.id ||
+        Math.hypot(other._x-m._x, other._y-py)>=PORTRAIT_CLEAR);
+      const clearOfPortraits=placedPortraits.every(p=>
+        Math.hypot(p.x-m._x, p.y-py)>=(PORTRAIT_R+4)*2+5);
+      if(clearOfDots&&clearOfPortraits){clear=true;break;}
+      offset+=PORTRAIT_STEP;
+    }
+    // No tested step ever cleared everything -- an honest cap rather than an
+    // untested, ever-larger offset: fall back to the largest step actually
+    // checked instead of the one that broke the loop out of range.
+    if(!clear)offset=PORTRAIT_MAX_OFFSET;
+    portraitOffsetById[m.id]=offset;
+    placedPortraits.push({x:m._x, y:m._y-offset});
+  });
+  // A portrait plate is wide enough (2*(PORTRAIT_R+4)) that a different,
+  // merely-nearby movement's label can land inside it even when its own
+  // anchor point tests clear -- Church & Empire's label starts 47 units from
+  // the Desert's portrait (just outside a simple point-proximity check) but
+  // "Church & Empire" itself is wide enough to reach 18 units past the
+  // portrait's own center. So this is a real circle-vs-rectangle test
+  // (closest point on the label's estimated box to the portrait's center),
+  // not a proximity threshold on the anchor alone.
+  const portraitObstacles=placedPortraits;
+  function clearsPortraits(anchorX,y,nearRightEdge,textLen){
+    const w=textLen*6.5;
+    const left=nearRightEdge?anchorX-w:anchorX, right=nearRightEdge?anchorX:anchorX+w;
+    for(const p of portraitObstacles){
+      const cx=Math.max(left,Math.min(p.x,right));
+      const d=Math.hypot(p.x-cx,p.y-y);
+      if(d<PORTRAIT_R+4)return p;
+    }
+    return null;
+  }
   // Found while checking the portrait fix above, not caused by it (confirmed
   // by diffing against a render with the new portrait-obstacle check
   // disabled -- identical result either way): in a genuinely dense stretch,
@@ -20266,15 +20300,17 @@ function render(){
     const built=m.status==='Built & Live';
     const anchorX=m._x+(nearRightEdge?-(built?7:5):(built?7:5));
     const naturalY=m._y+3.5;
+    const text=m.shortName||m.name;
     let y=naturalY;
     for(let i=placedLabels.length-1;i>=0;i--){
       const p=placedLabels[i];
       if(y-p.y>60)break; // sorted by y -- nothing earlier can be close enough to matter
       if(Math.abs(p.x-anchorX)<LABEL_XPROX)y=Math.max(y,p.y+LABEL_GAP);
     }
-    portraitObstacles.forEach(p=>{
-      if(Math.abs(p.x-anchorX)<PORTRAIT_XPROX)y=Math.max(y,p.bottom+LABEL_GAP);
-    });
+    let hit;
+    while((hit=clearsPortraits(anchorX,y,nearRightEdge,text.length))){
+      y=Math.max(y+LABEL_GAP, hit.y+(PORTRAIT_R+4)+LABEL_GAP);
+    }
     y=Math.min(y,naturalY+MAX_LABEL_DRIFT);
     labelYById[m.id]=y;
     placedLabels.push({x:anchorX,y});
@@ -20322,7 +20358,7 @@ function render(){
     let portrait=null;
     if(built && PORTRAIT_DATA[m.id]){
       portrait=el('g',{class:'portrait-plate',
-        transform:`translate(${m._x.toFixed(1)},${(m._y-PORTRAIT_OFFSET).toFixed(1)})`});
+        transform:`translate(${m._x.toFixed(1)},${(m._y-portraitOffsetById[m.id]).toFixed(1)})`});
       // Backing plate in the world's own accent color -- "the frame/ground
       // tint is that world's own accent color" per the Atlas storyboard
       // draft -- solid, never translucent, per the map's own anti-ghost rule.
