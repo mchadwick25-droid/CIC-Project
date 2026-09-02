@@ -122,5 +122,16 @@ a full CTS-URN adoption (that would require converting every vendored
 volume to TEI first) — it borrows the *idea*, stable structural addressing
 instead of a byte offset, at a cost this corpus can actually afford today.
 
+The same form is also a real, optional field on any record's `sources[]`
+entry, `address` — a sibling to the existing free-text `locus`, not a
+replacement for it (Mark's sign-off, 2026-09-02: a new field, `locus`
+itself untouched; optional/best-effort, backfilled only where an existing
+citation unambiguously resolves to a real marker in the actual file, never
+guessed). `engine/m1/gates.py`'s `canonical-address` gate checks any
+`address` that's set is well-formed and names a file that exists under
+`cic/texts/` — it does not and cannot confirm the `<locus>` half actually
+points at the right passage; that's still on whoever set it, same as
+`locus` itself always was.
+
 The brief that governs this work is
 `world-build-docs/_cross-world/BRIEF-corpus-assignment-thread.md`.

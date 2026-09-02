@@ -30,6 +30,13 @@ _TEXTS_DIR = Path(__file__).resolve().parents[2] / "cic" / "texts"
 # swallowing that period into the captured filename with the greedy form,
 # producing a false "file does not exist" against a file that does.
 _EDITION_PATH = re.compile(r"cic/texts/([\w\-]+\.(?:txt|xml))")
+# The canonical passage address form defined this session: cic:<file-stem>:
+# <locus>, e.g. cic:npnf208_basil-letters-select-works.xml:vi.iii.CLXXXVIII.
+# Same shape as cic/engine/works_registry.py's own _ADDRESS regex, kept as a
+# separate constant rather than imported - this module (engine/m1/) currently
+# imports nothing from cic/engine/, the same boundary _EDITION_PATH's own
+# comment above already draws for texts_registry.py.
+_ADDRESS_RE = re.compile(r"^cic:([A-Za-z0-9._-]+):(.+)$")
 
 COMPLETION_REQUIRED = {
     "world_core": ["time_window", "horizon", "formation_logic", "thinness", "cautions"],
@@ -299,6 +306,40 @@ def gate_edition_rights_consistency(records, fleet, registry) -> list[str]:
     return findings
 
 
+def gate_canonical_address(records, fleet, registry) -> list[str]:
+    """Mechanical half of the canonical passage address (cic:<file-stem>:
+    <locus>), defined this session and formally added to the schema as an
+    optional `address` field sitting beside `locus` on any sources[] entry
+    (per Mark's sign-off, 2026-09-02: a new sibling field, locus itself
+    untouched; optional/best-effort backfill on existing records). Checks
+    the two things a bare string type can't: the address is well-formed,
+    and the file it names actually exists under cic/texts/. Does NOT check
+    that <locus> resolves to a real division inside the file - the same
+    boundary works_registry.py's own parse_address() draws for WORKS.yaml's
+    item addresses, for the same reason: confirming a real div/section
+    marker exists would mean re-implementing each format's own structure
+    parser per record, not a one-line check. Envelope-level like locus
+    itself, so this runs over every record type's sources[], not only
+    quote - quote is only where the field was scoped from.
+    """
+    findings = []
+    for rid, rec in records.items():
+        for i, ref in enumerate(rec.get("sources") or []):
+            addr = str(ref.get("address") or "").strip()
+            if not addr:
+                continue
+            m = _ADDRESS_RE.match(addr)
+            if not m:
+                findings.append(f"{rid}: sources[{i}].address {addr!r} does not match the "
+                                 f"cic:<file>:<locus> form")
+                continue
+            filename = m.group(1)
+            if not (_TEXTS_DIR / filename).exists():
+                findings.append(f"{rid}: sources[{i}].address names cic/texts/{filename}, "
+                                 f"which does not exist on disk")
+    return findings
+
+
 def gate_readability(records, fleet, registry) -> list[str]:
     # FLAGGED, not fixed (2026-09-02, held by project-lead direction): this
     # gate does not check `quote` records at all - only term.quick_meaning/
@@ -526,6 +567,7 @@ GATES = {
     "confidence-crosscheck": gate_confidence_crosscheck,
     "rights": gate_rights,
     "edition-rights-consistency": gate_edition_rights_consistency,
+    "canonical-address": gate_canonical_address,
     "readability": gate_readability,
     "canon-coverage": gate_canon_coverage,
     "no-build-attribution": gate_no_build_attribution,

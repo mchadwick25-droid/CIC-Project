@@ -15,6 +15,7 @@ confidence:
 sources:
 - source_id: desert.source.evagrius-praktikos
   locus: "Praktikos ch. 64, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
+  address: "cic:evagrius_praktikos_dysinger.txt:64"
   license: cc-by-4.0
 text: "The proof of apatheia is that the nous begins to behold its [own] proper gentle radiance; that it remains tranquil in the presence of visions during sleep; and that it looks at matters calmly."
 speaker_or_author: Evagrius Ponticus, in the Praktikos

@@ -104,6 +104,13 @@ defects:
     mutation: {op: set_field, path: edition, value: "Fixture Edition 1, vendored as cic/texts/fixture-nonexistent-file.txt"}
     expected_failure: "edition names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
 
+  - id: canonical-address-missing-file
+    gate: canonical-address
+    layer: M1
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: "sources[0].address", value: "cic:fixture-nonexistent-file.txt:1.4"}
+    expected_failure: "sources[0].address names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+
   - id: readability-quick-meaning-too-dense
     gate: readability
     layer: M1

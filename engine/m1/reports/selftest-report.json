@@ -103,6 +103,14 @@
       ]
     },
     {
+      "id": "canonical-address-missing-file",
+      "gate": "canonical-address",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: sources[0].address names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+      ]
+    },
+    {
       "id": "readability-quick-meaning-too-dense",
       "gate": "readability",
       "status": "caught",

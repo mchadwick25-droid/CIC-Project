@@ -15,6 +15,7 @@ confidence:
 sources:
 - source_id: desert.source.evagrius-praktikos
   locus: "Praktikos ch. 81, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
+  address: "cic:evagrius_praktikos_dysinger.txt:81"
   license: cc-by-4.0
 text: "Charity is the offspring of apatheia; apatheia is the flower of the ascetical life (praktike). The ascetical life is constituted by keeping the commandments, and these are watched over by the fear of God, which is begotten by right belief. Belief is an indwelling good which exists naturally even in those who have not yet believed in God."
 speaker_or_author: Evagrius Ponticus, in the Praktikos

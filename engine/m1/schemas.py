@@ -63,6 +63,18 @@ _SOURCE_REF_SCHEMA = {
         "source_id": {"type": "string"},
         "locus": {"type": "string"},
         "license": {"type": "string"},
+        # Optional, additive (2026-09-02, Mark's sign-off: "new address field,
+        # locus untouched" + "optional/best-effort, existing where possible").
+        # The canonical passage address defined this session, form
+        # `cic:<file-stem>:<locus>` (see cic/corpus-map/README.md's addressing
+        # note and cic/engine/works_registry.py's own parse_address()) - a
+        # machine-checkable pointer alongside locus's free-text citation form,
+        # not a replacement for it. Format and file-existence are checked by
+        # gate_canonical_address (gates.py), not by this schema - the same
+        # split source.edition/gate_edition_rights_consistency already uses.
+        # Envelope-level, like locus itself: any citable record type can set
+        # it, not just quote, though quote is where this was scoped from.
+        "address": {"type": "string"},
     },
     "required": ["source_id"],
     "additionalProperties": False,
