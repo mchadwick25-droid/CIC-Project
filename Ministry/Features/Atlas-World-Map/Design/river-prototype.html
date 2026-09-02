@@ -20280,6 +20280,21 @@ function render(){
     portraitOffsetById[m.id]=offset;
     placedPortraits.push({x:m._x, y:m._y-offset});
   });
+  // A built world's name reads as belonging to its own picture only if it
+  // stays close under it. At the base 28-unit offset that's automatic (dot
+  // and portrait are already close together), but Desert's portrait had to
+  // step back to 68 and Hieronymian/Albina's to 88 to clear an unrelated
+  // dot -- and since the label was still anchored off the DOT, not the
+  // portrait, that same distance opened up as a visibly large, unrelated-
+  // looking gap between the picture and its own name. Anchoring a built
+  // label's natural position to its own portrait's bottom edge instead
+  // keeps the two together regardless of how far collision-avoidance had to
+  // push the portrait itself.
+  const portraitBottomById={};
+  DATA.movements.forEach(m=>{
+    if(portraitOffsetById[m.id]!=null)
+      portraitBottomById[m.id]=(m._y-portraitOffsetById[m.id])+(PORTRAIT_R+4);
+  });
   // A portrait plate is wide enough (2*(PORTRAIT_R+4)) that a different,
   // merely-nearby movement's label can land inside it even when its own
   // anchor point tests clear -- Church & Empire's label starts 47 units from
@@ -20311,11 +20326,23 @@ function render(){
   // already-crowded spot -- a smaller cost than a label that reads as
   // unattached to anything.
   const MAX_LABEL_DRIFT=90;
-  DATA.movements.slice().sort((a,b)=>a._y-b._y).forEach(m=>{
+  // Anchoring a built label's target position to its portrait (above) is not
+  // enough on its own: this cascade is sequential, first-come-first-served,
+  // and it still processed every movement in real chronological order --
+  // meaning Albina's own dot (c. 386-419) still placed her label *after*
+  // Priscillianists and Ambrose's Milan (both chronologically earlier),
+  // which had already claimed the space right under her portrait by the
+  // time her own turn came up, however close her computed target was.
+  // Sorting by where a label actually WANTS to render -- the portrait's
+  // position for a built one, the dot for everyone else -- gives it a fair
+  // turn among its true visual neighbors instead of a turn keyed to a dot
+  // that may sit much further down the page than its own name does.
+  const labelSortY=m=>portraitBottomById[m.id]!=null?portraitBottomById[m.id]:m._y;
+  DATA.movements.slice().sort((a,b)=>labelSortY(a)-labelSortY(b)).forEach(m=>{
     const nearRightEdge=m._x>CANVAS_W-220;
     const built=m.status==='Built & Live';
     const anchorX=m._x+(nearRightEdge?-(built?7:5):(built?7:5));
-    const naturalY=m._y+3.5;
+    const naturalY=portraitBottomById[m.id]!=null ? portraitBottomById[m.id]+LABEL_GAP : m._y+3.5;
     const text=m.shortName||m.name;
     let y=naturalY;
     for(let i=placedLabels.length-1;i>=0;i--){
