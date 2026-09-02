@@ -616,20 +616,25 @@ ground, at what size. Every pair below was re-derived from the hex values by
 D3 (WCAG relative luminance) and matches the hybrid's §6 to two decimals in
 every row; the rendered DOM was walked separately (§12).
 
-**Light register** — grounds parchment `#F7F3EB` (P) · vellum `#FEFCF8` (V) ·
-gold-wash `#FBF2E2` (GW):
+**Light register** — grounds parchment `#F6F6F2` (P) · vellum `#FFFFFF` (V) ·
+gold-wash `#FBF2E2` (GW). **Change order, 2026-09-02** (Decision-Log): P and
+V were re-picked at Mark's request — less yellow, a plainer paper/card pair
+— while GW and every other token on this page (including the seven tradition
+tints below) are untouched; every ratio in the P and V columns below is
+recomputed against the new pair, not the original `#F7F3EB` / `#FEFCF8`
+(every number moved up, none down):
 
 | Token | Hex | P | V | GW | Rule |
 |---|---|---|---|---|---|
-| iron-gall | `#2A2521` | 13.70 | 14.80 | 13.65 | text, any size (AAA) |
-| ink-faded | `#6C6257` | 5.39 | 5.82 | 5.37 | secondary text ≥13px |
-| madder | `#A13E2B` | 5.86 | 6.33 | 5.83 | action: links, focus ring, the one filled button (vellum on it 6.33) |
-| madder-deep | `#7E2F20` | 8.20 | 8.85 | 8.17 | hover |
-| tyrian | `#6B3FA0` | 6.67 | 7.21 | 6.65 | the lexicon apparatus; draft tags (sandbox only) |
-| lapis | `#1E40AF` | 7.88 | 8.51 | 7.85 | the participant's own words: *Your question, held:* |
-| gold-leaf | `#B45309` | 4.54 | 4.90 | **4.52** | **rules and ≥18.66px-bold only — never small text** (the 0.02 margin on gold-wash) |
-| graphite | `#8A837C` | 3.38 | 3.65 | 3.36 | **control borders only** (≥3:1 as a boundary); never text |
-| rule | `#E6DFD3` | 1.20 | 1.29 | 1.19 | hairlines between blocks; **never on an interactive element** |
+| iron-gall | `#2A2521` | 13.99 | 15.16 | 13.65 | text, any size (AAA) |
+| ink-faded | `#6C6257` | 5.50 | 5.96 | 5.37 | secondary text ≥13px |
+| madder | `#A13E2B` | 5.98 | 6.48 | 5.83 | action: links, focus ring, the one filled button (vellum on it 6.48) |
+| madder-deep | `#7E2F20` | 8.37 | 9.07 | 8.17 | hover |
+| tyrian | `#6B3FA0` | 6.82 | 7.38 | 6.65 | the lexicon apparatus; draft tags (sandbox only) |
+| lapis | `#1E40AF` | 8.05 | 8.72 | 7.85 | the participant's own words: *Your question, held:* |
+| gold-leaf | `#B45309` | 4.63 | 5.02 | **4.52** | **rules and ≥18.66px-bold only — never small text** (the 0.02 margin on gold-wash) |
+| graphite | `#8A837C` | 3.45 | 3.74 | 3.36 | **control borders only** (≥3:1 as a boundary); never text |
+| rule | `#E6DFD3` | 1.22 | 1.32 | 1.19 | hairlines between blocks; **never on an interactive element** |
 
 **Dark register** — ground `#17130F` · surface `#1E1913` · leaf `#241C13`:
 
@@ -648,10 +653,11 @@ gold-wash `#FBF2E2` (GW):
 | dark rule | `rgba(241,233,221,.16)` | — | | | hairlines only, as in light |
 
 **The seven tradition tints — rings and one left rule only, never text, in
-either register.** Light, on parchment: House-Churches `#7c3aed` 5.15 ·
-Alexandria `#2B5F8A` 6.11 · Syriac `#b45309` 4.54 · Church and Empire
-`#7A2E2E` 8.40 · Desert `#0f766e` 4.95 · Cappadocian `#A0522D` 5.07 ·
-Bethlehem `#9d174d` 7.12 — all ≥3:1 as rings. In dark the raw values fail as
+either register — colours unchanged by the 2026-09-02 ground/surface change
+order above.** Light, on the new parchment: House-Churches `#7c3aed` 5.26 ·
+Alexandria `#2B5F8A` 6.24 · Syriac `#b45309` 4.63 · Church and Empire
+`#7A2E2E` 8.59 · Desert `#0f766e` 5.05 · Cappadocian `#A0522D` 5.18 ·
+Bethlehem `#9d174d` 7.28 — all ≥3:1 as rings. In dark the raw values fail as
 rings (Church and Empire 1.99, Bethlehem 2.34, Alexandria 2.73, all seven
 under 3.7). **Proposed dark tints** (ruling 7 — new values, derived, not
 brand-approved): `#955FF0` · `#3B83BF` · `#CC5E0A` · `#C36060` · `#128D84` ·

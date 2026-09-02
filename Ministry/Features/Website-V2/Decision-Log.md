@@ -940,3 +940,55 @@ shared with Mark for review before this merges.
 — that's Increment 2. **Still open, unchanged by this increment:**
 rulings 34/35/36/37-39, the photo-rights question (seam B), and content
 clearance for the canon/starter questions.
+
+## 2026-09-02 (later still) — Palette question raised; ruling: less-yellow ground only
+
+**Mark's question, looking at the built homepage:** does the manuscript
+palette (parchment, madder, gold-leaf) actually serve who the project
+is trying to reach, given the "no religion feel" goal — and does it
+even hold up once the site's own "twenty centuries" reaches the
+missions era or the modern era, not just the first four centuries it's
+built for today?
+
+**A comparison mockup was built and shared** (not committed to the
+repo — a published Artifact, "Manuscript or Daylight"): the same three
+cards (the real Chloe; two invented, clearly-labeled stand-ins for a
+1930s East Africa mission figure and a modern São Paulo house-church
+pastor) rendered in the current manuscript system side by side with an
+alternate "daylight" system (less-yellow paper ground, plain white
+cards, a clay accent instead of madder, a muted era-tag family instead
+of the current jewel-tone chair tints, Fraunces/Public Sans instead of
+Alegreya/Alegreya Sans). The recommendation offered was to move the
+whole chrome to the alternate system, since parchment reads as
+period-true for Early Church but starts arguing with the content by
+the time the timeline reaches a pastor with a phone number.
+
+**Mark's ruling: adopt only the less-yellow ground; keep every other
+color — including all seven per-tradition/per-era tint colors — as
+they are now.** Not the wholesale swap recommended; a single, scoped
+change.
+
+**Applied to `cic-website/index.html`:** `--parchment` `#F7F3EB` →
+`#F6F6F2`; `--vellum` `#FEFCF8` → `#FFFFFF`. Nothing else touched —
+`--ink`, `--ink-faded`, `--madder` (and its hover/edge), `--gold-leaf`,
+`--gold-wash` (the exchange leaf's own background, read as content
+styling rather than "the background"), `--tyrian`, `--lapis`,
+`--graphite`, `--rule`, and all seven chair tints (light and dark) are
+byte-for-byte unchanged. Dark register also left untouched — Mark's
+comment was made against the light-mode comparison only, and nothing
+he said reached dark mode.
+
+**Re-verified, not just assumed:** the new pair only improves the
+already-documented ratios (recomputed, not eyeballed) —
+ground/ink 13.99 (was 13.70), ground/muted 5.50 (was 5.39),
+ground/madder 5.98 (was 5.86); the white surface clears further still.
+No regression against any number the design record already locked in.
+Re-screenshotted the door/hero at 1280×900 to confirm no visual
+breakage — clean.
+
+This is a real, if small, deviation from the frozen `CiC_Website_Design_V2.md`
+§6.2 color tables (which name `#F7F3EB`/`#FEFCF8` as the verified
+light-register ground/surface). Recorded here as the change order;
+§6.2's token table needs the same two-value edit the next time that
+document is opened, so the frozen record doesn't quietly drift from
+what's actually shipping.
