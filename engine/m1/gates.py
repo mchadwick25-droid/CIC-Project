@@ -300,6 +300,20 @@ def gate_edition_rights_consistency(records, fleet, registry) -> list[str]:
 
 
 def gate_readability(records, fleet, registry) -> list[str]:
+    # FLAGGED, not fixed (2026-09-02, held by project-lead direction): this
+    # gate does not check `quote` records at all - only term.quick_meaning/
+    # plain_meaning and honest_limit.statement. A cross-world thread's own
+    # research into a Bible translation for readability (NRSV vs RSV,
+    # settled on NRSV) surfaced that the "two-layer wording" field it
+    # expected on quote records (a historical wording plus a plain modern
+    # one) does not exist in this checkout's quote schema - the only
+    # related field, modern_lens_note, is a clarifying note about meaning,
+    # not a plain-language rendering of the quote's own text. Either that
+    # field lives on a branch not present here, or it is a decision not
+    # yet implemented as a schema field. Whichever it is, this FK_CEILING
+    # currently does not reach the content the readability conversation
+    # was actually about. Left as-is per explicit instruction, not
+    # overlooked.
     findings = []
     checks = []
     for rid, rec in records.items():
