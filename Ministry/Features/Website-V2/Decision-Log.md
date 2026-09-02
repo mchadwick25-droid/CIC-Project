@@ -412,3 +412,45 @@ risk. Checked the clock directly rather than guessing (03:57 UTC,
 already past reset) and relaunched all five with the identical briefs.
 No content was lost this time, unlike the earlier D2 review incident —
 these failed before writing anything.
+
+## 2026-09-02 (later still) — D2 closed: all five defenses landed, struggle summary written
+
+All five defenses in. Every direction conceded the whole-site-homepage
+kill in some form — none argued the reviewer was wrong about that.
+Full record, per-direction verdicts, and the choice now in front of
+Mark: `Sandbox/D2-struggle/CiC_Website_V2_D2_Struggle_Summary.md`.
+
+**The headline finding, not manufactured by this coordinator:** four of
+the five defenses, independently, without being asked to converge on
+anything, concluded the homepage's real missing move is a fast, direct,
+question-first door — before chronology, before a map, before a
+method, before a threshold ritual. The existing UX constitution
+already designs this exact door at S0 ("Start with your question," a
+co-equal door with the others). None of the five D1 directions built
+it prominently. Two cross-direction technical findings also confirmed
+regardless of outcome: the D1 text-contrast bug extends to dark-mode
+graphical elements (rings, underlines, not just text), and every
+direction that touched dark mode broke it in its own way — the brand
+record's "dark mode: deferred" note needs a real ruling in D3, not five
+more ad hoc attempts.
+
+**No direction survives whole.** This is not a process failure — five
+different, well-built bets, each tested hard, each falsified
+differently, matches exactly what the charter asked a genuine
+divergent/struggle process to do. Per the charter's own D2 rule
+("Mark reads the survivors and the struggle record and picks... do not
+pre-collapse the choice for him"), three real paths are laid out in the
+summary without picking among them: (A) authorize a hybrid direction —
+synthesized from the named survivors, itself getting its own Opus
+review before D3; (B) pick one direction and repair it narrowly; (C)
+re-diverge fresh, informed by what D2 found. **Recommendation given,
+clearly marked as a recommendation, not a foregone conclusion:** (A),
+reasoned both on craft (the convergent question-first finding, real
+salvage across four directions that a single-direction pick would
+discard) and on heart (Mark's stated audience wants to put a hard
+question down, not read a map or a method first).
+
+**Next action:** Mark reads the struggle summary and the five
+review/defense pairs, and picks — or redirects. D3 (Fable synthesis,
+Opus review of the synthesis, Mark's freeze) does not start until he
+does.
