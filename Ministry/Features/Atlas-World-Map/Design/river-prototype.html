@@ -20581,7 +20581,15 @@ function buildLegend(){
   FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rows+=`<div class="row"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</div>`;});
   rows+='<span class="cap" style="margin-top:.5rem">Status</span>';
   rows+=`<div class="row"><i style="background:var(--graphite);opacity:.6"></i>Not yet built (graphite)</div>`;
-  rows+=`<div class="row"><i style="background:var(--gold-leaf)"></i>Built &amp; Live (full pigment)</div>`;
+  // A Built & Live dot isn't one fixed color -- it renders at full strength
+  // in whatever tradition-family color it already sits on (Cappadocian's is
+  // Greek East blue, the Desert's is Africa teal, and so on), not a single
+  // "built" hue. A flat gold swatch here would show a color that matches
+  // none of the seven real built dots except by lane coincidence. A small
+  // multi-color wheel, sampling four real family colors, says "varies by
+  // family" honestly instead of asserting one.
+  const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
+  rows+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
   wrap.innerHTML=`<button id="legendToggle" type="button">Legend &#9662;</button><div class="rows">${rows}</div>`;
   document.getElementById('legendToggle').addEventListener('click',()=>{
     const open=wrap.classList.toggle('collapsed');
