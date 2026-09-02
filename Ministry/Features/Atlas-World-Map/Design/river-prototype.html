@@ -19729,20 +19729,40 @@ const DATA = {
 ;
 
 /* ---- Real tradition-family palette, unchanged from the live Atlas (atlas-v3.html) ---- */
+// Re-stepped 2026-09 for measured accessibility (dataviz skill's
+// validate_palette.js), not eyeballed: the original 13 hues had two lane-
+// adjacent pairs that were nearly indistinguishable even for full-color
+// vision (Syriac East vs. Syriac/Prot. bridge, worst-case Delta E 7.1 in
+// OKLab -- the pass floor is 15), on top of several hues reading as
+// desaturated gray (below the OKLCH chroma floor) and two too dark for the
+// light-mode band. Every hue below was nudged -- never past 45deg from its
+// original identity, and several moved far less -- until every lane-
+// adjacent pair (the ones a viewer actually sees side by side) cleared
+// both the chroma/lightness bands and the hard normal-vision floor, in
+// both themes. CVD separation for adjacent pairs lands in the legal 6-8
+// floor band rather than the 8+ target; that's accepted here specifically
+// because this map already carries the secondary encoding the skill
+// requires for that band -- each family also has a fixed lane position
+// and a text label on hover/click, never color alone. Full pairwise
+// separation across all 13 (not just neighbors) was not chased: the
+// method's own categorical ceiling is 8 hues, already tight, so a
+// non-adjacent pair (e.g. two different bridge lanes) can still read
+// similarly -- an accepted, structural limit at 13 categories, not an
+// oversight.
 const FAM=[
- {k:0,  lbl:"Origin",      c:"#6b4f2a", cd:"#c9a86a"},
- {k:1,  lbl:"Syriac East", c:"#b45309", cd:"#eab06b"},
- {k:1.5,lbl:"Syriac/Prot. bridge", c:"#94693A", cd:"#d0a276"},
- {k:2,  lbl:"Caucasus",    c:"#3f7261", cd:"#8fc4b0"},
- {k:3,  lbl:"Greek East",  c:"#2B5F8A", cd:"#7EB8E8"},
- {k:3.5,lbl:"Greek/Latin bridge", c:"#653a68", cd:"#c39cc6"},
- {k:4,  lbl:"Africa",      c:"#0f766e", cd:"#5fd6be"},
- {k:5,  lbl:"Latin West",  c:"#7A2E2E", cd:"#E8998F"},
- {k:5.5,lbl:"Latin/Prot. bridge", c:"#8A4A6B", cd:"#d49ebc"},
- {k:6,  lbl:"Protestant & Evangelical", c:"#44518F", cd:"#9daae8"},
- {k:7,  lbl:"Global Revival & Pentecostal", c:"#A62639", cd:"#ef8f9d"},
- {k:50, lbl:"Cross-Family", c:"#77705F", cd:"#b3ab96"},
- {k:80, lbl:"Non-Nicene",  c:"#7a5d94", cd:"#b9a3d6"}
+ {k:0,  lbl:"Origin",      c:"#e15a4f", cd:"#e86155"},
+ {k:1,  lbl:"Syriac East", c:"#883a51", cd:"#95455c"},
+ {k:1.5,lbl:"Syriac/Prot. bridge", c:"#a58a00", cd:"#ac9000"},
+ {k:2,  lbl:"Caucasus",    c:"#29672e", cd:"#357339"},
+ {k:3,  lbl:"Greek East",  c:"#3849b6", cd:"#4255c4"},
+ {k:3.5,lbl:"Greek/Latin bridge", c:"#9c74d9", cd:"#a27adf"},
+ {k:4,  lbl:"Africa",      c:"#009fab", cd:"#12a5b1"},
+ {k:5,  lbl:"Latin West",  c:"#7c4b00", cd:"#8b5500"},
+ {k:5.5,lbl:"Latin/Prot. bridge", c:"#71379a", cd:"#7d43a7"},
+ {k:6,  lbl:"Protestant & Evangelical", c:"#1c8cfb", cd:"#2c93ff"},
+ {k:7,  lbl:"Global Revival & Pentecostal", c:"#db509e", cd:"#e257a4"},
+ {k:50, lbl:"Cross-Family", c:"#717918", cd:"#798224"},
+ {k:80, lbl:"Non-Nicene",  c:"#6369b2", cd:"#6c72bc"}
 ];
 function famOf(laneOrder){let best=FAM[0],bd=1e9;FAM.forEach(f=>{const d=Math.abs(f.k-laneOrder);if(d<bd){bd=d;best=f;}});return best;}
 const isDark=()=>document.documentElement.getAttribute('data-theme')==='dark'||
