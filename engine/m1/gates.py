@@ -6,6 +6,7 @@ to the other directly with no separate lookup table (law 4, applied to test
 wiring too).
 """
 import re
+from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
@@ -14,6 +15,21 @@ from .fk import fk_grade
 from .schemas import RELATION_INVERSE, build_schema
 
 FK_CEILING = 10
+
+# cic/texts/ - two levels up from engine/m1/, then across to the sibling
+# cic/ tree. This module deliberately does NOT import cic/engine/
+# texts_registry.py's own rights_clears() (a different top-level package,
+# and this compiler-facing module currently imports nothing outside
+# engine/m1/) - the open-licence check below duplicates its ~1-line logic
+# rather than reach across that boundary for one function.
+_TEXTS_DIR = Path(__file__).resolve().parents[2] / "cic" / "texts"
+# Anchored to a real extension (every file in cic/texts/ is .txt or .xml,
+# confirmed against the live directory) rather than a greedy [\w.-]+ -
+# caught live against real records: "cic/texts/macarius_..._mason1921.txt.
+# Two divisions" (a sentence-ending period right after the filename) was
+# swallowing that period into the captured filename with the greedy form,
+# producing a false "file does not exist" against a file that does.
+_EDITION_PATH = re.compile(r"cic/texts/([\w\-]+\.(?:txt|xml))")
 
 COMPLETION_REQUIRED = {
     "world_core": ["time_window", "horizon", "formation_logic", "thinness", "cautions"],
@@ -236,6 +252,53 @@ def gate_rights(records, fleet, registry) -> list[str]:
     return findings
 
 
+def gate_edition_rights_consistency(records, fleet, registry) -> list[str]:
+    """gate_rights (above) only checks that rights_status is non-blank -
+    never that it agrees with anything. A source record's edition field
+    often names a specific vendored file in free-form prose (the same
+    "cic/texts/<filename>" string cic/engine/texts_registry.py's own
+    citing_records() already scans records/ for, in the opposite
+    direction - that module finds records from a file, this finds a file
+    from a record). Nothing before this checked the path actually
+    resolves: a record could name a file that was renamed, moved, or
+    never vendored, and no gate would catch it before a build thread
+    noticed by hand. Two checks, only for source records whose edition
+    names such a path:
+      (1) the file exists under cic/texts/ at all;
+      (2) if the file's own header states an open licence rather than
+          public domain (so far only evagrius_praktikos_dysinger.txt,
+          CC BY 4.0), the record's rights_status should say so too, not
+          bare "public-domain" - a record read on its own, without the
+          vendored file open beside it, should not misstate what it can
+          license.
+    A record whose edition never names a cic/texts/ path at all (a
+    consult-only or not-yet-vendored source) is out of this gate's scope
+    entirely - that is what gate_rights already governs.
+    """
+    findings = []
+    for rid, rec in records.items():
+        if rec.get("record_type") != "source":
+            continue
+        edition = str(rec.get("edition") or "")
+        m = _EDITION_PATH.search(edition)
+        if not m:
+            continue
+        filename = m.group(1)
+        path = _TEXTS_DIR / filename
+        if not path.exists():
+            findings.append(f"{rid}: edition names cic/texts/{filename}, which does not exist on disk")
+            continue
+        header = path.read_text(encoding="utf-8", errors="replace")[:4000]
+        is_open_licence = "cc by" in header.lower()
+        rights_status = str(rec.get("rights_status") or "").strip().lower()
+        if is_open_licence and rights_status == "public-domain":
+            findings.append(
+                f"{rid}: edition names cic/texts/{filename}, whose own header declares an open "
+                f"licence (not public domain), but rights_status says bare 'public-domain' - "
+                f"misstates the actual rights basis to a reader of this record alone")
+    return findings
+
+
 def gate_readability(records, fleet, registry) -> list[str]:
     findings = []
     checks = []
@@ -448,6 +511,7 @@ GATES = {
     "distribution-health": gate_distribution_health,
     "confidence-crosscheck": gate_confidence_crosscheck,
     "rights": gate_rights,
+    "edition-rights-consistency": gate_edition_rights_consistency,
     "readability": gate_readability,
     "canon-coverage": gate_canon_coverage,
     "no-build-attribution": gate_no_build_attribution,

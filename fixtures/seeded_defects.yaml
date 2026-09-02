@@ -97,6 +97,13 @@ defects:
     mutation: {op: delete_field, path: rights_status}
     expected_failure: "source has no rights_status - rights gate fails closed (spec: rights per record, fail-closed)"
 
+  - id: edition-rights-consistency-missing-file
+    gate: edition-rights-consistency
+    layer: M1
+    target_record: records/fix/source/fix.source.witness-scroll.md
+    mutation: {op: set_field, path: edition, value: "Fixture Edition 1, vendored as cic/texts/fixture-nonexistent-file.txt"}
+    expected_failure: "edition names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+
   - id: readability-quick-meaning-too-dense
     gate: readability
     layer: M1

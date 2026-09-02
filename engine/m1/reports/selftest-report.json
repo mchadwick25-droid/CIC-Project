@@ -95,6 +95,14 @@
       ]
     },
     {
+      "id": "edition-rights-consistency-missing-file",
+      "gate": "edition-rights-consistency",
+      "status": "caught",
+      "findings": [
+        "fix.source.witness-scroll: edition names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+      ]
+    },
+    {
       "id": "readability-quick-meaning-too-dense",
       "gate": "readability",
       "status": "caught",
