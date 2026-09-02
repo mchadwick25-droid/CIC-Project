@@ -527,6 +527,31 @@ ENTRIES: tuple[TextEntry, ...] = (
               "quotation. Hilary is an independent Latin transmitter of the same texts, so the "
               "exclusion does not apply and no owner decision is needed to use them. Vendored for "
               "future reference; no quote or source record cites it yet."),
+    TextEntry("codex-theodosianus_latinlibrary.txt", "Mark", "2026-09-02",
+              "The Codex Theodosianus, all 16 books, downloaded book by book from The Latin Library "
+              "(thelatinlibrary.com/theodosius.html) and compiled into one document -- supplied for the "
+              "Latin Pastoral-Congregational Christianity world-build's own Registry row 44, after that "
+              "row's own account of the CC-BY-NC-SA-licensed Oxford Text Archive item 0329 (Mommsen and "
+              "Meyer's critical edition, referenced but not vendored) left this world without a vendored "
+              "copy of the text at all. The Latin Library states site-wide that it has 'taken every "
+              "reasonable precaution to ensure that the Latin texts presented here are in the Public "
+              "Domain,' which is the rights basis here, but does not name the critical edition any given "
+              "transcription follows and states explicitly that its texts are 'not intended for research "
+              "purposes nor as substitutes for critical editions' -- a real gap for a legal corpus where "
+              "a constitution's exact wording is the whole point, disclosed in this file's own header "
+              "rather than absorbed into an unqualified public-domain claim. Converted mechanically from "
+              "a DOCX file (paragraph boundaries preserved from </w:p> splits, the same method used for "
+              "origen_philocalia_lewis1911.txt) -- no content passed through model-generated output. "
+              "CONVERTER NOTE: the extraction's first pass mis-rendered three `<w:tab/>` runs in the "
+              "file's own trailing site-attribution line as literal '<w:t>' text, because the naive "
+              "`<w:t[^>]*>` pattern also matched `<w:tab/>` (which begins with the same three characters); "
+              "caught by inspecting the tail of the extracted text against the raw XML before finalizing, "
+              "fixed by anchoring the pattern to require whitespace or '>' immediately after 'w:t'. "
+              "Structural integrity confirmed: all 16 LIBER headings present in order, ~798 numbered "
+              "titles (CTh.x.y.0 headings), and the file's own trailing line names its source outright "
+              "('Theodosian Code / Ius Romanum / The Latin Library / The Classics Page'). See Registry "
+              "row 44 and `lpc_Decision_Log.md` for how this world's build handles the edition-provenance "
+              "gap against the OTA/Mommsen-Meyer file already referenced there."),
     TextEntry("webbe_world-english-bible-british-edition.xml", "Claude (at Mark's direction)",
               "2026-08-19",
               "THE FIRST BIBLE IN THIS CORPUS, and it is here for one narrow job: the SPOKEN layer "
