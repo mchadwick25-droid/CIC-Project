@@ -131,7 +131,7 @@ This section restates, without redrawing, the preliminary forces identification 
 
 **Layer 1 — Historical Event:** Nearly all textual material currently vendored for this world passed through Catholic hands (Optatus, Augustine) before reaching this document — the eventually-victorious party's own literature, preserved by institutions with every reason to preserve it. **Documented**, and named as this world's own central evidentiary problem throughout Doc_01 and Doc_02 (Doc_01 §5, Cell 2B; Doc_02 §1).
 
-**Layer 2 — World's Own Experience:** This world's own record does not show its own actors reflecting on this condition directly — no surviving Donatist chronicle of Arles, no surviving Donatist administrative account of the Macarian repression exists, only the martyr-cult narrative response to it (Doc_02 §6). This is a genuine absence, not a filled silence: whatever this world understood itself to be doing when its own texts were produced, its own understanding of how those texts would or would not survive is not recoverable from what remains.
+**Layer 2 — World's Own Experience:** This world's own record does not show its own actors reflecting on this condition directly — no surviving Donatist chronicle of Arles, no surviving Donatist administrative account of the Macarian repression exists, only the martyr-cult narrative response to it. This is a genuine absence, not a filled silence: whatever this world understood itself to be doing when its own texts were produced, its own understanding of how those texts would or would not survive is not recoverable from what remains.
 
 **Layer 3 — Formation Impact:** This transmission pattern is the specific mechanism behind this world's own Author Gravity concentration — Petilian's own quoted words survive only because Augustine needed them in front of a reader to refute them, a preservation mechanism selecting for refutability, not fairness (Doc_02 §2). It is what makes the small independently-surviving remainder (Tyconius's *Liber Regularum*, the martyr texts, the epigraphy) this document's own single most valuable evidentiary category, connected fully at Section 6 below.
 
@@ -165,9 +165,9 @@ This section restates, without redrawing, the preliminary forces identification 
 
 #### Force 3A-1: The 411 Conference of Carthage's verdict and the penal legislation that followed
 
-**Layer 1 — Historical Event:** The imperially-convened 411 Conference of Carthage, Marcellinus presiding, seated 284 Donatist against 286 Catholic bishops and ruled against the Donatist party; the verdict was followed by sustained penal legislation. **Documented** (Doc_01 §2).
+**Layer 1 — Historical Event:** The imperially-convened 411 Conference of Carthage, Marcellinus presiding, seated 284 Donatist against 286 Catholic bishops and ruled against the Donatist party; the verdict was followed by sustained penal legislation. **Documented** (Doc_01 §2). Emeritus of Caesarea and the other Donatist bishops present are recorded, per the *Gesta Collationis Carthaginiensis*, speaking at length on their own side of the exchange, but that text itself remains unvendored, so their own words on the verdict itself are referenced-only in this construction, not quotable (Doc_02 §1).
 
-**Layer 2 — World's Own Experience:** This world's own record does not preserve a direct account of how its own participants received this specific verdict — Emeritus of Caesarea and the other Donatist bishops present are recorded, per the *Gesta Collationis Carthaginiensis*, speaking at length on their own side of the exchange, but that text itself remains unvendored, so their own words on the verdict itself are referenced-only in this construction, not quotable (Doc_02 §1). What this world's own broader record does state is that a council's verdict, even one this large and formally convened, is not what settles who the true church is — the same conviction G5 states throughout the window.
+**Layer 2 — World's Own Experience:** This world's own record does not preserve a direct account of how its own participants received this specific verdict. What this world's own broader record does state is that a council's verdict, even one this large and formally convened, is not what settles who the true church is — the same conviction this world holds throughout the window: that no council, however large or formally convened, settles who the true church is.
 
 **Layer 3 — Formation Impact:** This force presses G5 to its sharpest test and directly reshapes G4, which now bears the verdict's own legal-institutional consequences. It is also where Force 2B-4's own Maximianist consequences are pressed again, one last time, before the window closes.
 
@@ -175,11 +175,11 @@ This section restates, without redrawing, the preliminary forces identification 
 
 #### Force 3A-2: The Vandal invasion (429) and capture of Carthage (439)
 
-**Layer 1 — Historical Event:** The Vandal invasion of Roman North Africa, begun in 429, culminated in the capture of Carthage in 439. **Documented** (Doc_01 §2).
+**Layer 1 — Historical Event:** The Vandal invasion of Roman North Africa, begun in 429, culminated in the capture of Carthage in 439 — "the removal of the Roman-imperial, Catholic-aligned adjudicating power this world's entire refusal-of-imperial-legitimacy pattern is defined against," in Doc_01's own stated terms. **Documented** (Doc_01 §2).
 
-**Layer 2 — World's Own Experience:** This world's own record does not preserve its own participants' interpretation of this ending — the community's own account of what the Vandal conquest meant is not recoverable from surviving sources. What Doc_01 itself states plainly is what the event removed: "the removal of the Roman-imperial, Catholic-aligned adjudicating power this world's entire refusal-of-imperial-legitimacy pattern is defined against" (Doc_01 §2).
+**Layer 2 — World's Own Experience:** This world's own record does not preserve its own participants' interpretation of this ending — the community's own account of what the Vandal conquest meant is not recoverable from surviving sources.
 
-**Layer 3 — Formation Impact:** This is, on Doc_01's own terms, the single most direct forces-connection of any gravity in this document — it removes the specific power G5 is defined in refusal of, and is what closes this world's own construction window (Doc_04 §3.7). It does not end the underlying two-party contest, which the record shows continuing under different political conditions well past 439, into Gregory the Great's 590s correspondence (Doc_01 §2) — a fact this document does not treat as resolved by this force, only as marking where this world's own construction window itself ends.
+**Layer 3 — Formation Impact:** This force, together with Force 3A-1's own verdict and penal legislation, is what Doc_04 §3.7 names as "the most direct forces-connection of any gravity in this document" — jointly, the two remove the specific power G5 is defined in refusal of, and their combined effect is what closes this world's own construction window (Doc_04 §3.7). On Doc_01's own narrower language, this specific force is where that combined effect completes. It does not end the underlying two-party contest, which the record shows continuing under different political conditions well past 439, into Gregory the Great's 590s correspondence (Doc_01 §2) — a fact this document does not treat as resolved by this force, only as marking where this world's own construction window itself ends.
 
 ---
 
@@ -193,9 +193,9 @@ This section restates, without redrawing, the preliminary forces identification 
 
 #### Force 3B-1: Institutional attrition under sustained legal pressure
 
-**Layer 1 — Historical Event:** This world's own institutional life underwent sustained attrition under legal pressure and property confiscation across the ending phase, though it was not extinguished within this world's own construction window (Doc_01 §2, §7 item 8).
+**Layer 1 — Historical Event:** This world's own institutional life underwent sustained attrition under legal pressure and property confiscation across the ending phase, though it was not extinguished within this world's own construction window; the movement's own later history, continuing past 439 under Vandal and then Byzantine rule, is attested only by the record falling silent, not by any surviving Donatist voice narrating its own decline (Doc_01 §2, §7 item 8; Doc_02 §7).
 
-**Layer 2 — World's Own Experience:** This world's own record does not preserve a direct account of what this attrition felt like from inside — the movement's own later history, continuing past 439 under Vandal and then Byzantine rule, is attested only by the record falling silent, not by any surviving Donatist voice narrating its own decline (Doc_02 §7).
+**Layer 2 — World's Own Experience:** This world's own record does not preserve a direct account of what this attrition felt like from inside.
 
 **Layer 3 — Formation Impact:** This force is what Doc_01 §7 item 8 explicitly binds a future compilation to record honestly — a real, later, more gradual decline, not smoothed into a sudden ending at 439. It is the specific reason this document's own confidence about G4's own institutional continuity ends precisely where the vendored record does, not where the movement itself actually ended.
 
@@ -294,7 +294,7 @@ Connected forces:
 **Gravity: G2 — Rebaptism as Boundary-Marking Practice** (Primary, Doc_04)
 
 Connected forces:
-- 1B-1 (Cyprianic rigorist inheritance): the same doctrinal ground as G1.
+- 1B-1 (Cyprianic rigorist inheritance): the same doctrinal ground as G1 — not 1B-2, which grounds G4's own institutional form rather than G2's own enacted rite directly.
 - 2B-1 (sustained purity doctrine and rebaptism practice): G2's own enacted, ongoing form.
 - 2A-1 (oscillating imperial policy): the direct target of successive imperial edicts naming rebaptism specifically as a legal offense.
 
@@ -317,6 +317,7 @@ Connected forces:
 - 2B-4 (Maximianist fracture): an internal force operating within, and testing, this hierarchy's own conciliar machinery.
 - 3A-1 (411 Conference verdict): acts directly on this hierarchy as a legal-institutional target.
 - 3A-2 (Vandal capture): removes the imperial-Catholic power this hierarchy had been contesting for legal recognition against.
+- 3B-1 (institutional attrition): this document's own confidence about G4's own institutional continuity ends precisely where the vendored record does — the attrition force names the specific limit on what this construction can claim about the hierarchy's own later life.
 
 ---
 
@@ -325,7 +326,7 @@ Connected forces:
 Connected forces:
 - 2A-1 (oscillating imperial policy): the ongoing external force this refusal is a stance toward, sustained across the whole window.
 - 3A-1 (411 Conference verdict): presses this refusal to its sharpest test.
-- 3A-2 (Vandal capture): the most direct forces-connection of any gravity in this document — removes the specific power this gravity is defined in refusal of, and closes this world's own construction window.
+- 3A-2 (Vandal capture): together with 3A-1, the most direct forces-connection of any gravity in this document (Doc_04 §3.7's own "together" finding) — the two jointly remove the specific power this gravity is defined in refusal of, and close this world's own construction window.
 
 ---
 
@@ -369,7 +370,7 @@ Gravity discovery (Doc_04) established *that* G1 through T2 organize this world'
 
 ### Where Forces and Gravities Most Tightly Cohere
 
-G3 and Force 2A-2 (the Macarian repression) are this document's own strongest single force-to-gravity connection — neither is explicable without the other. The repression explains why this world's own commemorative practice takes the specific, dated, textually-productive form it does; the commemorative practice explains why the repression, rather than fading into the general memory of ancient persecution, remains this world's own most vivid, most frequently re-narrated historical force. G5 and Force 3A-2 (the Vandal capture) are the second-strongest: Doc_04 §3.7 already states this is "the most direct forces-connection of any gravity in this document," and nothing in this forces analysis disturbs that finding — it is confirmed, not merely repeated.
+G3 and Force 2A-2 (the Macarian repression) are this document's own strongest single force-to-gravity connection — neither is explicable without the other. The repression explains why this world's own commemorative practice takes the specific, dated, textually-productive form it does; the commemorative practice explains why the repression, rather than fading into the general memory of ancient persecution, remains this world's own most vivid, most frequently re-narrated historical force. G5 and Forces 3A-1/3A-2 together (the 411 Conference verdict and the Vandal capture) are the second-strongest: Doc_04 §3.7 already states this joint connection is "the most direct forces-connection of any gravity in this document," and nothing in this forces analysis disturbs that finding — it is confirmed, not merely repeated, and this document's own split of Doc_04's single Cell-3A finding into two distinct forces (3A-1, 3A-2) does not change that the superlative belongs to their combined effect, not to either force alone.
 
 ### Where Forces Analysis Surfaced Gaps
 
@@ -405,15 +406,15 @@ This is the explicit link Doc_02 §1–§2 already establishes and this document
 
 ### Forces at Documented or Widely Accepted Level
 
-Force 1A-1 (Diocletianic persecution), Force 1B-2 (Felix accusation/Majorinus consecration), Force 2A-1 (oscillating imperial policy), Force 2A-2 (Macarian repression), Force 2B-1 (sustained purity/rebaptism practice), Force 2B-4 (Maximianist fracture), Force 3A-1 (411 Conference verdict), and Force 3A-2 (Vandal capture) are all **Documented** — each rests on multiple independently-corroborated dated events already established in Doc_01's own core sequence (Doc_02 §8) and confirmed directly in the vendored primary texts (Optatus's own Appendix of Documents; Augustine's own quotation of the Cebarsussi and Bagai sentences). Force 1B-1 (the Cyprianic rigorist inheritance) is **Documented** as this world's own founding logic, independently measured by the corpus map's own citation-frequency finding (Cyprian named 306 times in *On Baptism* alone). Force 2B-3 (martyr-cult and confessor memory) is **Documented**, resting on the least Author-Gravity-encumbered evidentiary base of any force in this document.
+Force 1A-1 (Diocletianic persecution), Force 1B-2 (Felix accusation/Majorinus consecration), Force 2A-1 (oscillating imperial policy), Force 2A-2 (Macarian repression), Force 2B-1 (sustained purity/rebaptism practice), Force 2B-4 (Maximianist fracture), Force 3A-1 (411 Conference verdict), and Force 3A-2 (Vandal capture) are all **Documented** — each rests on multiple independently-corroborated dated events already established in Doc_01's own core sequence (Doc_02 §8) and confirmed directly in the vendored primary texts (Optatus's own Appendix of Documents; Augustine's own quotation of the Cebarsussi and Bagai sentences). Force 1B-1 (the Cyprianic rigorist inheritance) is **Documented** as this world's own founding logic, independently measured by the corpus map's own citation-frequency finding (Cyprian named 306 times in *On Baptism* alone). Force 2B-3 (martyr-cult and confessor memory) is **Documented**, resting on the least Author-Gravity-encumbered evidentiary base of any force in this document. Force 2B-2 (transmission through the hostile party's own manuscript tradition) is likewise **Documented** — named as this world's own central evidentiary problem throughout Doc_01 and Doc_02, and independently corroborated by the corpus map's own manuscript-tradition finding (Doc_02 §6).
 
 ### Forces at Dominant Modern Reconstruction Level
 
-None of this document's twelve identified forces rests primarily on Dominant Modern Reconstruction. Where a DMR-level judgment appears at all in this world's construction, it belongs to a candidate gravity's own character claims (D-A's own character/scale rating, Doc_04 §3.5), not to the forces themselves, which are dated historical events rather than contested characterizations.
+None of this document's thirteen identified forces rests primarily on Dominant Modern Reconstruction. Where a DMR-level judgment appears at all in this world's construction, it belongs to a candidate gravity's own character claims (D-A's own character/scale rating, Doc_04 §3.5), not to the forces themselves, which are dated historical events rather than contested characterizations.
 
 ### Forces at Contested Level
 
-None of the twelve identified forces is itself contested as to whether it occurred. The one live scholarly contest bearing on this matrix — whether D-A's own hostile characterization substantially reflects its actual character (Frend against Shaw, Doc_03 §4) — attaches to a gravity's own evidentiary texture, not to Force 2A-1's or Force 2B-4's own bare occurrence, and is carried at full strength in Doc_04 §3.5 and Doc_06 §2 rather than resolved or restated here.
+None of the thirteen identified forces is itself contested as to whether it occurred. The one live scholarly contest bearing on this matrix — whether D-A's own hostile characterization substantially reflects its actual character (Frend against Shaw, Doc_03 §4) — attaches to a gravity's own evidentiary texture, not to Force 2A-1's or Force 2B-4's own bare occurrence, and is carried at full strength in Doc_04 §3.5 and Doc_06 §2 rather than resolved or restated here.
 
 ### Forces at Inferential/Thin Level
 
@@ -431,13 +432,13 @@ One standing tension is carried into this document from Doc_04/Doc_06 rather tha
 
 **Status:** CONFIRMED.
 
-Every Layer 2 entry in Section 3 above uses this world's own vocabulary — the *traditor*'s tainted hand, the martyr proved true by suffering, the refusal of the emperor's own standing to judge the church — with no modern sociological, political-science, or psychological framework imported into that layer. Where this world's own self-understanding is not recoverable from surviving sources (Force 3A-1, Force 3A-2, Force 3B-1, Force 3B-2), Layer 2 states that absence directly rather than substituting a modern analytical reconstruction for it. The boundary between Layer 1 (where this document's own analytical vocabulary — "Documented," "confidence level," cell references — properly appears) and Layer 2 (where it must not) was maintained throughout; no Layer 2 entry contains a confidence-level marker or a cell-reference inside its own prose.
+Every Layer 2 entry in Section 3 above uses this world's own vocabulary — the *traditor*'s tainted hand, the martyr proved true by suffering, the refusal of the emperor's own standing to judge the church — with no modern sociological, political-science, or psychological framework imported into that layer. Where this world's own self-understanding is not recoverable from surviving sources (Force 3A-1, Force 3A-2, Force 3B-1, Force 3B-2), Layer 2 states that absence directly rather than substituting a modern analytical reconstruction for it. This status was checked, not merely asserted: a full re-read of every Layer 2 entry caught two distinct violations before disposition, both corrected — a gravity referenced by its own analytical ID ("G5") inside Force 3A-1's own Layer 2 prose, rewritten to state the same conviction without the ID; and inline document citations inside four "not recoverable" Layer 2 entries (Forces 2B-2, 3A-1, 3A-2, 3B-1), which belong to Layer 1's or Layer 3's own analytical register, moved there. With those two fixes applied, the boundary between Layer 1 (where this document's own analytical vocabulary — "Documented," confidence markers, cell references, gravity IDs, citations — properly appears) and Layer 2 (where it must not) now holds throughout; no Layer 2 entry contains a confidence-level marker, a cell-reference, a gravity ID, or an inline citation inside its own prose.
 
 ### Proportionality Principle
 
 **Status:** CONFIRMED.
 
-All twelve identified forces received full three-layer treatment; none was abbreviated to Layer 1 only. This is itself a finding proportional to this world's own evidentiary situation, not a default: every one of these twelve forces has a genuine, traceable formation impact this document can state specifically (each connects to at least one classified gravity, per Section 5), so none qualified for the template's own abbreviated-treatment allowance. Depth within full treatment is proportional to attestation strength — Force 2A-2 (the Macarian repression) and Force 2B-4 (the Maximianist fracture) receive the fullest Layer 1 documentary grounding, matching their own status as this world's own most richly and directly attested events; Force 3B-1's own Layer 2 and Layer 3 are correspondingly the most restrained in this document, matching the genuine thinness of what the vendored record can support for this world's own later institutional decline.
+All thirteen identified forces received full three-layer treatment; none was abbreviated to Layer 1 only. This is itself a finding proportional to this world's own evidentiary situation, not a default: eleven of these thirteen forces have a genuine, traceable connection to at least one classified gravity, stated specifically at Section 5; the remaining two (Force 2B-2, Force 3B-2) are the required transmission entries, which this document treats as cross-cutting rather than gravity-specific, per Section 6's own fuller synthesis — a distinct but equally genuine formation impact, not a lesser one. None of the thirteen qualified for the template's own abbreviated-treatment allowance. Depth within full treatment is proportional to attestation strength — Force 2B-4 (the Maximianist fracture) carries the longest and most detailed Layer 1 in this document, matching its own status as this world's own most richly and directly attested internal episode, corroborated by multiple independent sources (the Cebarsussi and Bagai sentences, quoted directly in Augustine's own primary text); Force 3B-1's own Layer 2 is not the shortest "not recoverable" entry in this document (Force 3B-2's is), but its own Layer 3 is the most restrained, matching the genuine thinness of what the vendored record can support for this world's own later institutional decline specifically, as against the transmission force's own fuller Section 6 treatment.
 
 ### Named-Tension Principle
 
@@ -484,7 +485,7 @@ Cells 2B and 3B each address transmission specifically, with named mechanisms (t
 |---|---|---|---|---|---|---|
 | 1A-1 | Initiating/External | Diocletianic persecution and *traditio* demand | Documented | G3 | → 2A-2 (Connection 1) | No |
 | 1B-1 | Initiating/Internal | Cyprianic rigorist inheritance | Documented | G1, G2 | — | No |
-| 1B-2 | Initiating/Internal | Felix accusation / Majorinus consecration | Documented | G4, T1 | → 2B-1 (Connection 2); → 2A-1 (Connection 3) | No |
+| 1B-2 | Initiating/Internal | Felix accusation / Majorinus consecration | Documented | G1, G4, T1 | → 2B-1 (Connection 2); → 2A-1 (Connection 3) | No |
 | 2A-1 | Ongoing/External | Oscillating imperial religious policy | Documented | G2, G5, D-A, T1 | ← 1B-2 (Connection 3); → 2B-4 (Connection 5) | No |
 | 2A-2 | Ongoing/External | Macarian repression (347–348) | Documented | G3 | ← 1A-1 (Connection 1); → 2B-3 (Connection 4) | No |
 | 2B-1 | Ongoing/Internal | Sustained purity doctrine and rebaptism practice | Documented | G1, G2 | ← 1B-2 (Connection 2) | No |
@@ -503,7 +504,7 @@ Cells 2B and 3B each address transmission specifically, with named mechanisms (t
 | G1 (Ministerial Purity, Primary) | 1B-1, 1B-2, 2B-1, 2B-4 |
 | G2 (Rebaptism, Primary) | 1B-1, 2A-1, 2B-1 |
 | G3 (Martyr-Cult, Primary) | 1A-1, 2A-2, 2B-3, 3B-2 |
-| G4 (Parallel Hierarchy, Supporting) | 1B-2, 2B-4, 3A-1, 3A-2 |
+| G4 (Parallel Hierarchy, Supporting) | 1B-2, 2B-4, 3A-1, 3A-2, 3B-1 |
 | G5 (Refusal of Imperial Legitimacy, Primary) | 2A-1, 3A-1, 3A-2 |
 | D-A (Agonistici, Supporting, regional) | 2A-1, 2B-4 |
 | T1 (Principled Refusal vs. Pragmatic Recourse, Tensional) | 1B-2, 2A-1, 2B-4 |
@@ -516,7 +517,7 @@ All eight classified gravities populated; no empty row.
 ## Open Items and Process Findings
 
 1. Force 3A-1's own Layer 2 names a genuine gap: this world's own Donatist-voiced reception of the 411 Conference's verdict is referenced-only (the *Gesta Collationis Carthaginiensis* remains unvendored, Doc_02 §1), not recoverable in this construction's own current state. Should the *Gesta* become vendorable in a future acquisition round, this force's own Layer 2 should be revisited directly, not assumed unchanged.
-2. D-A's own force connections (2A-1, 2B-4) remain narrower than every other classified gravity's own connection count, consistent with — not contradicting — Doc_04 §3.5's own finding that this candidate carries the sharpest confidence divergence in the entire gravity-discovery document. This document does not manufacture additional force connections to bring D-A's own count closer to its peers.
+2. T2 connects to exactly one force (2B-4) — the narrowest connection count of any classified gravity in this document, narrower even than D-A's own two (2A-1, 2B-4). This is not itself a confidence-divergence signal the way D-A's own scope-qualification is (Doc_04 §3.5): T2 is a tightly-scoped, single-episode Tensional gravity whose entire evidentiary base is the Maximianist affair, so a single connected force is exactly what its own narrow scope predicts, not a gap. D-A's own two connections remain narrower than every Primary or Supporting gravity's own count, which this document reads as consistent with — not contradicting — Doc_04 §3.5's own finding that this candidate carries the sharpest confidence divergence in the entire gravity-discovery document. This document does not manufacture additional force connections to bring either gravity's own count closer to its peers.
 3. Force 3B-1's own Inferential/Thin rating for its specific shape (as against the Documented rating for its bare occurrence) is the one place in this document's own Section 7 where a single force carries two different confidence levels for two different claims about itself — named explicitly there rather than collapsed into one rating.
 
 ---
@@ -529,4 +530,4 @@ Independent adversarial review pending, per `cic-build-cycle`.
 
 ---
 
-*End Doc_08. Six cells, twelve identified forces, all three-layer, all confirmed gravities connected, transmission addressed explicitly at both required cells and synthesized fully at Section 6. Next: Validation Layer, once this document reaches at least "Approved to proceed."*
+*End Doc_08. Six cells, thirteen identified forces, all three-layer, all confirmed gravities connected, transmission addressed explicitly at both required cells and synthesized fully at Section 6. Next: Validation Layer, once this document reaches at least "Approved to proceed."*
