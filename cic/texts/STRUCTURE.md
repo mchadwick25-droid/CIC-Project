@@ -704,11 +704,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `evagrius_praktikos_dysinger.txt`
 
-1 section(s) to level 2 · ~8,148 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~8,195 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 8,148 | 8,148 | evagrius_praktikos_dysinger |
+| `1` | 0 | 8,195 | 8,195 | evagrius_praktikos_dysinger |
 
 ## `gregory-nazianzen_first-invective-against-julian_king1888.txt`
 
@@ -768,11 +768,11 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 
 ## `macarius_fifty-spiritual-homilies_mason1921.txt`
 
-1 section(s) to level 2 · ~73,435 words of text · ~0 words of apparatus
+1 section(s) to level 2 · ~73,480 words of text · ~0 words of apparatus
 
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
-| `1` | 0 | 73,435 | 73,435 | macarius_fifty-spiritual-homilies_mason1921 |
+| `1` | 0 | 73,480 | 73,480 | macarius_fifty-spiritual-homilies_mason1921 |
 
 ## `morison_st-basil-and-his-rule_1912.txt`
 

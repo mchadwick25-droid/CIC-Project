@@ -10,7 +10,7 @@ and `gate_quote_fidelity_recording` had nothing honest to record.
 
 **This file is GENERATED, not hand-edited** -- run
 `python cic/engine/texts_registry.py --write-readme` after vendoring a new
-file or adding an ENTRIES row in that module. Editing this table directly
+file or adding an entry to cic/texts/REGISTRY.yaml. Editing this table directly
 will be overwritten the next time it runs.
 
 PUBLIC DOMAIN ONLY. Every file here must be out of copyright, and its own
