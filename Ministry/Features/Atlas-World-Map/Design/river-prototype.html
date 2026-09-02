@@ -19901,16 +19901,27 @@ const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
 const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
 
-// Orientation for readers with no map of church history to hang this on --
-// each line built from that era's own real, already-sourced keyEvents (never
-// an invented date), not a paraphrase claiming more than the record does.
-// Only the eras where a genuine, widely-known outside anchor exists get one;
-// this is deliberately a handful of markers, not commentary on all ten.
+// Orientation for readers with no map of church history to hang this on. Each
+// line traces to real, already-vetted project sources: the four world-event
+// anchors (marked "For scale") come straight from that era's own keyEvents in
+// world-census.json; the rest is the actual periodization rationale from the
+// project's own pre-Step-0 research (CiC_World_Atlas_PreStep0_Survey_V0_1.md
+// and its External Review), not an invented date or a paraphrase claiming
+// more than that record says. Era VII's line is the census's own era tag --
+// safe to reuse here (unlike the old per-band header use of tags, REV 5's
+// fix) because it's explicitly plural on its face ("several ways at once"),
+// not one thread's story standing in for the whole band.
 const WORLD_CONTEXT={
-  1:"This band starts where the map does: the Jerusalem Temple falls in 70 CE. It runs to Constantine's Edict of Milan in 313 -- the year the persecution these movements describe finally ends.",
-  3:"For scale: Rome itself falls to invasion in 476, partway through this band.",
-  6:"For scale: the Black Death is sweeping Europe (1347–51) during this band.",
-  10:"For scale: World War I (1914–18) breaks out early in this band."
+  1:"This band starts where the map does: the Jerusalem Temple falls in 70 CE, running to Constantine's Edict of Milan in 313 — the year the persecution these movements describe finally ends. Historians call this the field's most recognizable break, though for the Persian church east of Rome the divide ran backwards: Constantine's conversion made them look Rome-aligned, and their persecution only intensified after 312.",
+  2:"The era historians call the ‘imperial church’ — Christianity moves from persecuted minority to the empire's own religion, and the councils that define its creeds (Nicaea, then Chalcedon just after this band) happen because an emperor now has a stake in the outcome.",
+  3:"The parting of the communions: Chalcedonian, miaphysite, and East Syriac Christianity become distinct, self-aware families in this band, while the Latin West enters the post-Roman kingdoms and monasticism becomes the era's formative engine everywhere. For scale: Rome itself falls to invasion in 476, partway through.",
+  4:"Christianity becomes a minority faith across its old heartlands under the rise of Islam, converts new northern peoples, fights an internal war over religious images, and sends its longest missions east along the Silk Road.",
+  5:"The Latin West's great creative explosion: new religious orders, new lay movements, and documented women's religious life at a scale not seen before, while Byzantium consolidates and the Christian East endures under new pressures.",
+  6:"Plague, papal schism, and institutional crisis — met by the most interior, vernacular, and lay-accessible devotional writing Christianity had yet produced. For scale: the Black Death is sweeping Europe (1347–51) during this band.",
+  7:"The Western church remade — several ways at once: this band holds the Reformation's many, often-rival movements side by side, each with its own direct descendants still living today.",
+  8:"Established churches settle into place; renewal moves into small groups, personal religious experience, and transatlantic revival. This is the era first-person spiritual autobiography becomes a mass genre.",
+  9:"Christianity globalizes under empire's shadow and against it. The era's honest theme is entanglement: mission and colonialism, revival and respectability, liberation and paternalism, held together rather than resolved.",
+  10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
 };
 
 function wrapText(str,maxChars){
