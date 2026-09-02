@@ -8,6 +8,8 @@
 
 **A note on this world's own starting position, unlike the sibling Donatism build's own manifest.** This world already holds an unusually complete primary-source base: the full ANF05 volume (Cyprian's own *Epistles*, treatises, and Pontius's *Life*) and eight full NPNF volumes of Augustine's own corpus are already vendored and already carry `confidence: assigned` for nearly every entry in the corpus map. This manifest is therefore short — it names real gaps at the *critical-edition* and *alternative-source* level, not gaps in primary-source coverage itself, which this world does not have in the way most other confirmed worlds do.
 
+**Disposition.** This document, `Doc_02_Source_Ecology.md`, and `Source_Registry.md` were self-disposed together by the build thread to **Approved to proceed** on 2026-09-02, after Round 14 independent adversarial review (`Review-Artifacts/Doc02_Round14_Review.md`) returned no substantial-revision finding and no CO-022 escalation category applied — see `Doc_02_Source_Ecology.md` §10 for the full disposition entry. This Manifest's own G1–G9 candidates are unchanged by that disposition and remain awaiting Mark's own acquisition decision, per Article 21 and the G1-gate checkpoint — a genuine project-lead decision this build thread does not make unilaterally, distinct from the self-disposable review cycle that has now concluded for these three documents.
+
 ---
 
 ## 1. OPEN requests — public domain, real acquisition candidates
