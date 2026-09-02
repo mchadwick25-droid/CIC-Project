@@ -69,7 +69,7 @@
   --text:var(--iron-gall); --text-2:var(--ink-faded); --ground:var(--parchment); --surface:var(--vellum);
   --action:var(--madder); --action-hover:var(--madder-deep); --witness:var(--gold-leaf);
   --focus:var(--madder); --thread:var(--gold-leaf);
-  --plate-h:56px; --row-h:150px; --era-head:78px; --stop-w:232px;
+  --plate-h:56px; --row-h:150px; --era-head:108px; --stop-w:232px;
 }
 @media (prefers-color-scheme:dark){
   :root{
@@ -148,9 +148,11 @@ a:hover{color:var(--action-hover)}
 
 /* ── the atlas region ─────────────────────────────────────────────────── */
 .atlas{position:relative;max-width:1180px;margin:0 auto;padding:0 1.5rem 1rem}
-.axis{position:relative;height:38px;margin:0 0 .35rem;font-family:'Alegreya Sans',sans-serif;font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-2)}
+.axis{position:relative;height:52px;margin:0 0 .35rem;font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-2)}
 .axis .tick{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap;padding-top:14px}
+.axis .tick.alt{padding-top:30px}
 .axis .tick::before{content:"";position:absolute;top:0;left:50%;width:1px;height:10px;background:var(--rule-strong)}
+.axis .tick.alt::before{height:26px}
 .axis .end{position:absolute;top:14px;font-weight:700}
 .axis .end.w{left:0}.axis .end.e{right:0}
 .eras{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule-strong)}
@@ -165,41 +167,43 @@ a:hover{color:var(--action-hover)}
 .erahead .title{font-size:1.25rem;font-weight:700;margin:0}
 .erahead .tag{font-style:italic;color:var(--ink-faded-ground);flex-basis:100%;font-size:1rem}
 .erahead .dates,.erahead .events{font-family:'Alegreya Sans',sans-serif;font-size:.9rem;color:var(--ink-faded-ground)}
-.erahead .more{margin-left:auto;font-family:'Alegreya Sans',sans-serif;font-size:.9rem;color:var(--action);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
-.erahead .more:hover{border-bottom-color:currentColor}
+/* links that sit ON an era ground: ink text (≥7:1) with a madder underline
+   as the link cue (non-text, ≥4.8:1) — madder as text there is only 4.84:1 */
+.erahead .more{margin-left:auto;font-family:'Alegreya Sans',sans-serif;font-size:.9rem;color:var(--text);text-decoration:underline;text-decoration-color:var(--action);text-decoration-thickness:1.5px;text-underline-offset:3px}
+.erahead .more:hover{color:var(--action)}
 .era--compressed .erahead{position:static;background:none;backdrop-filter:none;border-bottom:0;padding-bottom:.2rem}
 .era--compressed .count{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;color:var(--ink-faded-ground);padding:0 1rem .9rem;margin:0;display:flex;flex-wrap:wrap;gap:.2rem 1rem;align-items:baseline}
-.era--compressed .count a{color:var(--action);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
-.era--compressed .count a:hover{border-bottom-color:currentColor}
+.era--compressed .count a{color:var(--text);text-decoration:underline;text-decoration-color:var(--action);text-decoration-thickness:1.5px;text-underline-offset:3px}
+.era--compressed .count a:hover{color:var(--action)}
 .era--compressed .count .note{flex-basis:100%;font-family:'Alegreya',serif;font-style:italic;color:var(--ink-faded-ground)}
 
 /* stops — the list items, positioned by CSS on wide screens */
 .stops{list-style:none;margin:0;padding:0}
-.stop{position:absolute;width:var(--w,var(--stop-w));left:calc(var(--x) - var(--w,var(--stop-w)) / 2);top:calc(var(--era-head) + var(--row) * var(--row-h) + 14px);scroll-margin-top:calc(var(--plate-h) + 80px)}
+.stop{position:absolute;z-index:2;width:var(--w,var(--stop-w));left:calc(var(--x) - var(--w,var(--stop-w)) / 2);top:calc(var(--era-head) + var(--row) * var(--row-h) + 14px);scroll-margin-top:calc(var(--plate-h) + 110px)}
 .stop__btn{display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:.7rem;align-items:center;width:100%;min-height:44px;text-align:left;font:inherit;color:var(--text);
   background:var(--surface);border:1px solid var(--rule-strong);border-left:4px solid var(--tint);border-radius:0 6px 6px 0;padding:.55rem .75rem .6rem .65rem;cursor:pointer;
   box-shadow:0 1px 2px rgba(42,37,33,.08);transition:box-shadow .15s ease,transform .15s ease}
 .stop__btn:hover,.stop__btn:focus-visible,.stop.is-hot .stop__btn{box-shadow:0 0 0 2px var(--tint),0 4px 14px rgba(42,37,33,.16)}
 @media (prefers-reduced-motion:no-preference){.stop__btn:hover,.stop__btn:focus-visible{transform:translateY(-1px)}}
 .stop__btn:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
-.stop__portrait{grid-row:1/3;width:52px;height:52px;border-radius:50%;overflow:hidden;border:2px solid var(--tint);background:var(--gold-wash);display:grid;place-items:center;flex:none}
+.stop__portrait{grid-row:1/3;grid-column:1;width:52px;height:52px;border-radius:50%;overflow:hidden;border:2px solid var(--tint);background:var(--gold-wash);display:grid;place-items:center;flex:none}
 .stop__portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
 .stop__portrait .initial{font-family:'Alegreya',serif;font-weight:700;font-size:1.3rem;color:var(--iron-gall)}
-.stop__name{display:flex;align-items:center;gap:.4rem;font-weight:700;font-size:1.02rem;line-height:1.2}
+.stop__name{grid-column:2;grid-row:1;display:flex;align-items:center;gap:.4rem;font-weight:700;font-size:1.02rem;line-height:1.2}
 .stop__name svg{width:14px;height:14px;flex:none;color:var(--text)}
-.stop__meta{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;line-height:1.35;color:var(--ink-faded-ground)}
+.stop__meta{grid-column:2;grid-row:2;font-family:'Alegreya Sans',sans-serif;font-size:.82rem;line-height:1.35;color:var(--ink-faded-ground)}
 .stop__meta .w{display:block;font-style:italic;font-family:'Alegreya',serif;font-size:.92rem;color:var(--text)}
 .stop--wide .stop__btn{grid-template-columns:auto 1fr auto}
-.stop--wide .stop__span{grid-row:1/3;font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faded-ground);text-align:right;line-height:1.35;align-self:center}
+.stop--wide .stop__span{grid-row:1/3;grid-column:3;font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faded-ground);text-align:right;line-height:1.35;align-self:center}
 .stop--plans .stop__btn{background:color-mix(in srgb,var(--surface) 55%,transparent);border-style:dashed;border-left-style:solid}
 .stop--plans .stop__portrait{border-style:dashed;background:transparent}
 .stop--plans .stop__portrait svg{width:24px;height:24px;color:var(--text)}
-.stop__status{grid-column:2/-1;font-family:'Alegreya Sans',sans-serif;font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faded-ground);margin-top:.2rem}
-.stop--journey{font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faded-ground);position:absolute;white-space:nowrap}
+.stop__status{grid-column:2;grid-row:3;font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faded-ground);margin-top:.2rem}
+.stop--journey{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faded-ground);position:absolute;z-index:2;white-space:nowrap}
 .stop--journey .pin{display:inline-block;width:9px;height:9px;border-radius:50%;border:2px solid var(--tint);vertical-align:-1px;margin-right:.35rem;background:var(--surface)}
 
 /* threads — drawn only where the census carries a relationship */
-.threads{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;overflow:visible}
+.threads{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;overflow:visible}
 .threads path.thread{fill:none;stroke:var(--thread);stroke-width:2;opacity:.55;pointer-events:stroke;transition:opacity .15s,stroke-width .15s}
 .threads path.thread.c-contested{stroke-dasharray:5 5}
 .threads path.thread.c-widely{opacity:.42}
@@ -218,7 +222,7 @@ a:hover{color:var(--action-hover)}
 #glimpse .g-t{font-family:'Alegreya Sans',sans-serif;color:var(--text-2);font-size:.85rem}
 #glimpse .g-w{font-style:italic;margin:.15rem 0 .25rem}
 #glimpse .g-c{font-size:.92rem}
-#glimpse .g-s{font-family:'Alegreya Sans',sans-serif;font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--witness);margin-top:.4rem}
+#glimpse .g-s{font-family:'Alegreya Sans',sans-serif;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--witness);margin-top:.4rem}
 #glimpse .g-full{display:none;margin-top:.5rem;font:inherit;font-family:'Alegreya Sans',sans-serif;font-weight:600;font-size:.9rem;color:var(--action);background:none;border:1px solid var(--action);padding:.5rem .8rem;min-height:44px;cursor:pointer;width:100%}
 @media (hover:none){#glimpse .g-full{display:block}}
 
@@ -248,7 +252,7 @@ a:hover{color:var(--action-hover)}
 #panel .edge{padding:.35rem 0;border-bottom:1px solid var(--rule);font-size:.93rem}
 #panel .edge:last-child{border-bottom:0}
 #panel .edge b{font-weight:700}
-#panel .edge .cw{font-family:'Alegreya Sans',sans-serif;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--text-2);color:var(--text-2);padding:.02rem .35rem;margin-left:.3rem;white-space:nowrap;vertical-align:1px}
+#panel .edge .cw{font-family:'Alegreya Sans',sans-serif;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--text-2);color:var(--text-2);padding:.02rem .35rem;margin-left:.3rem;white-space:nowrap;vertical-align:1px}
 #panel .edge .jump{font:inherit;color:var(--action);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-decoration-color:var(--rule-strong);text-underline-offset:3px}
 #panel .edge .jump:hover{text-decoration-color:currentColor}
 #panel .p-doors{margin-top:1.3rem;padding-top:1rem;border-top:1px solid var(--rule)}
@@ -1014,7 +1018,7 @@ const POS={
   'cappadocian-nicene-pastoral-monastic-tradition':{x:78.6,row:2},
   'hieronymian-ascetic-literary':     {x:77.7,row:3, journey:{fromX:12.9,label:'from Rome, 385'}}
 };
-const AXIS=[['Milan',3.4],['Carthage',6.6],['Rome',12.9],['Constantinople',60],['Alexandria',62.6],['the desert',66.5],['Bethlehem',77.7],['Cappadocia',80],['Antioch',82.6],['Edessa',88],['Nisibis',94.9]];
+const AXIS=[['Milan',3.4],['Carthage',6.6],['Rome',12.9],['Constantinople',60],['Alexandria',62.6],['Bethlehem',77.7],['Antioch',82.6],['Edessa',88],['Nisibis',94.9]];
 const esc=t=>(t==null?"":String(t)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 const byId={};WORLDS.forEach(w=>byId[w.id]=w);
 const isLive=w=>w.status==='Built & Live';
@@ -1025,7 +1029,7 @@ const isPhone=()=>matchMedia('(max-width: 640px)').matches;
 (function renderAxis(){
   const ax=document.getElementById('axis');
   ax.innerHTML='<span class="end w">West</span><span class="end e">East</span>'+
-    AXIS.filter((_,i)=>i!==7).map(([n,x])=>`<span class="tick" style="left:${x}%">${esc(n)}</span>`).join('');
+    AXIS.map(([n,x],i)=>`<span class="tick${i%2?' alt':''}" style="left:${x}%">${esc(n)}</span>`).join('');
 })();
 
 (function renderEras(){
@@ -1253,7 +1257,7 @@ function openPanel(id,trigger){
   panel.setAttribute('aria-modal',modal?'true':'false');
   scrim.classList.toggle('on',modal);
   requestAnimationFrame(()=>{panel.classList.add('on');panel.scrollTop=0;document.getElementById('panelClose').focus();});
-  history.replaceState(null,'','#'+id);
+  try{history.replaceState(null,'','#'+id);}catch(e){}
   document.addEventListener('keydown',onPanelKey);
 }
 function closePanel(){
@@ -1261,7 +1265,7 @@ function closePanel(){
   document.removeEventListener('keydown',onPanelKey);
   const done=()=>{panel.hidden=true;};
   if(matchMedia('(prefers-reduced-motion: reduce)').matches)done();else setTimeout(done,230);
-  if(location.hash)history.replaceState(null,'',location.pathname+location.search);
+  if(location.hash){try{history.replaceState(null,'',location.pathname+location.search);}catch(e){}}
   if(panelTrigger&&document.contains(panelTrigger))panelTrigger.focus();
   panelTrigger=null;
 }

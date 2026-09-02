@@ -24,16 +24,16 @@ has to ask it.
 Nothing is decorative. Typography carries the hierarchy; a marginal column numbers
 the sections like a monograph; the only motion is the brand's "Arriving" mark.
 Credentialing is load-bearing: the Step 10 quotation, the 28-of-28 admission
-battery, the reviewer's brief, and the published "where a reviewer might press
-first" list are the argument, not the footnotes.
+battery, and the published "where a reviewer might press first" list are the
+argument, not the footnotes.
 
 `tradition.html` pushes this to its conclusion: an archival finding aid for the
 House-Churches — identifier, scope, evidentiary base with disclosed dependencies,
-the gravity classification including the one candidate that was declined,
-contested ground, declared limits, the Representative's derivation, and the four
-questions the record's own authors want a scholar to press. The chair is pulled out
-the whole time — a quiet sticky bar reads "Chloe is seated. Begin when you're ready
-— or read on" — but the record comes first on the page.
+gravity classification including the one candidate declined, contested ground,
+declared limits, the Representative's derivation, and the four questions the
+record's own authors want a scholar to press. The chair is pulled out the whole
+time — a quiet sticky bar reads "Chloe is seated. Begin when you're ready — or
+read on" — but the record comes first.
 
 ## 2. The four charter goals, and the tension
 
@@ -62,8 +62,7 @@ the page argues for.
 sight, to a pastor, a professor, or a skeptical reevaluator. "Cutting-edge" is
 claimed on narrower ground: publishing the method, the confidence scale, a
 declined gravity, and the reviewer's own attack questions on the public face of an
-AI product is genuinely unusual, and it is the one thing here a competitor would
-not copy.
+AI product is genuinely unusual.
 
 **Warmth versus authority, directly.** This is the direction's real risk, and it is
 not resolved by softening the register but by where the warmth is put. Three
@@ -167,3 +166,7 @@ own container.
   and the alt text stands in otherwise. Everything else in both files is inline.
 - Nothing here promises Representative Modes, multi-voice seating, or external
   review as present; all three are listed under "What is unfinished."
+- The corpus-wide "tradition," not "world" rule is applied to every visitor-facing
+  line, including the reviewer's brief material on `tradition.html` (one
+  substitution in its four questions). Left as "world" only in verbatim titles
+  (World Profile, World Identification), the Step 10 quotation, and file names.
