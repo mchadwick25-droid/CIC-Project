@@ -629,3 +629,44 @@ The Atlas is referenced as its own separate rework track (Direction
 against the charter, the constitution, and the full struggle record.
 Then Mark freezes it — after the freeze, changes need a change order,
 not quiet edits.
+
+## 2026-09-02 (later still) — D3 lands: Design V2 + Storyboard, verified
+
+Both filed in `Ministry/Features/Website-V2/` proper:
+`CiC_Website_Design_V2.md` (990 lines) and `CiC_Website_V2_Storyboard.md`
+(908 lines). Verified in headless Chromium against a scratch copy of
+the hybrid with the defense's fixes actually applied, not assumed: the
+fold fix reproduces the review's own numbers (question input at
+456–504px vs. 897px unfixed), zero overflow and zero contrast failures
+across both pages and both registers, nothing under 13px, the held
+question announced to screen readers, no query string anywhere — built
+to the fragment ruling. 85 `[DRAFT COPY]` lines flagged for Mark's
+approval pass; locked brand lines tagged verbatim, distinctly.
+
+**Rulings register: 33 items, none dropped.** 2 DECIDED (the fragment
+and its build item), 13 flagged ⚠ OPEN FOR MARK each with a
+recommendation (headline ones: the S0 door ranking as a
+website-only stretch of the constitution; the draft-status records
+gate governing all seven tradition pages; whether the fleet's
+seed-status canon questions are cleared for a marketing surface; the
+derived dark tints; the mark's autoplay; the pilot/cost scarcity copy,
+with an offered re-draft; needing the Cloudflare Pages preview
+environment before D4 starts), the rest RECOMMENDED with reasons
+stated.
+
+**Three findings surfaced, not resolved here, none this workstream's
+to fix:** `whats-next.html` and `support.html` contradict each other on
+the Atlas's scope, and `whats-next.html`'s own meta description still
+says "three new worlds" — the same class of staleness as the earlier
+Cappadocian fix, in a different spot; two traditions' record-store ids
+differ from their `world-census.json` ids (`cappadocian-trinitarian`
+vs. the census id, `imperial-juridical` likewise) — the eventual build
+must join on both; and a CSS rule (`.site-nav a{display:inline-flex}`)
+that would have silently defeated the gated side door's `hidden`
+attribute, caught in verification before it could ship. A fourth,
+already queued as `task_c8e50b7d`: the live site's per-Representative
+Table links land on a disabled "Seat at least two voices" button today.
+
+**Next action:** Opus reviews the synthesis against the charter, the
+constitution, and the full struggle record, per the standing rule.
+Then it goes to Mark to read and, if ready, freeze.
