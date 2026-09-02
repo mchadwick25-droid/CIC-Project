@@ -220,3 +220,38 @@ a separate go from Mark, since the launch prompt gates D0→D1 and
 Mark's-pick→D3 explicitly but describes D2 as the funnel's own next
 step, not a second commissioning decision — flagged here so the
 reasoning is on record, not assumed silently.
+
+## 2026-09-02 (later still) — D2 commissioned; Mark's values, in his own words
+
+Five independent Opus reviewers commissioned in parallel, one per
+direction, each blind to the other four and to each other's reviews,
+each required to verify the direction's own self-assessed claims
+against the actual markup/code rather than trust them at face value
+(including, for 05, independently re-checking its claim that
+multi-voice Table code is live in `cic-poc/frontend`). Landing as files
+in `Sandbox/D2-struggle/<slug>-review.md`. Each brief named that
+direction's own most self-confessed vulnerability (from the D1-closure
+summary above) as a required point of attack, not just an open-ended
+critique.
+
+**Mark's own words, given directly, worth recording verbatim as the
+heart of the charter rather than paraphrased into the four goals a
+second time:** *"accessability, ease of use, engaging and trustworthy
+(scholor), and no pressure, just witness."* Read against the charter's
+four stated goals (accessibility, clear storytelling/communication,
+easy access to features, professional/cutting-edge design), this is
+Mark naming which tension inside "professional design" actually
+matters to him: not authority for its own sake, but **trustworthy
+because scholarly** — earned credibility, not institutional distance —
+paired with **engaging**, not cold. And "no pressure, just witness" is
+the brand's own "witness but not recruiting" pair, restated as a
+standing test, not a background rule. This will govern how the D2
+struggle summary gets framed for Mark and how D3's brief is written —
+not a new decision changing what the five directions were commissioned
+against (their briefs already carried these values via the charter and
+the brand voice pairs), but the lens his own pick should be read
+through. Three of the five running reviews already independently press
+directly on this exact tension (institutional-professional's
+scholarly-vs-warm inversion; quiet-liturgical's slowness-vs-access;
+product-led's clarity-vs-tech-forward) — no relaunch needed, this
+sharpens how their findings get read, not what gets asked of them.
