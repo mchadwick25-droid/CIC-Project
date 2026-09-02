@@ -20064,13 +20064,14 @@ function render(){
 
   // Era bands -- passthrough grounding, never a container (rule 4)
   eras.forEach((e,i)=>{
-    // Half-opacity, not a flat solid block: full strength, the band's own
-    // tint competed with the rivers on equal footing for visual weight; at
-    // 50% it reads as a wash toward the page's own parchment underneath
-    // (rule 4's "passthrough grounding" -- background, not foreground), and
-    // the water -- painted solid on top -- is what a reader's eye actually
-    // lands on.
-    gBands.appendChild(el('rect',{x:0,y:eraY0[i],width:CANVAS_W,height:eraH[i],fill:eraGround(i),opacity:0.5}));
+    // Not a flat solid block: full strength, the band's own tint competed
+    // with the rivers on equal footing for visual weight. Pixel-checked
+    // against the rivers directly (they're painted at fixed high opacity
+    // with mix-blend-mode:darken, so their own color reads the same
+    // regardless of this value) -- what this actually tunes is only the
+    // tone of the empty paper between them, richer/warmer as it climbs
+    // toward solid.
+    gBands.appendChild(el('rect',{x:0,y:eraY0[i],width:CANVAS_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
     // The band wash above is deliberately thin now, so whatever stream is
     // passing through the header gutter (held at flat width right here, see
     // the yearToY/density-sampling notes above) shows through at real
