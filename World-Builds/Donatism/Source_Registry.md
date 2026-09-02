@@ -1,6 +1,6 @@
 # Source Registry — Donatism
 
-**Status:** Drafted; disposed jointly with `Doc_02_Source_Ecology.md`, per that document's own §10.
+**Status:** Approved to proceed; disposed jointly with `Doc_02_Source_Ecology.md`, per that document's own §10.
 **Companion to `Doc_02_Source_Ecology.md`, built together in the same Step 2 pass, per `Source_Registry_Template.md` V1.0.** Boundary Status checked against `Doc_01_World_Identification_Boundaries_Orientation.md`'s stated boundary (311/312–439 CE, North Africa; Approved to proceed, 2026-09-01). Living document: append-only, no renumbering, no deletion.
 
 Every source named in `Doc_02_Source_Ecology.md` in support of a specific claim has a corresponding row below, per the Registry's own checkpoint rule.
