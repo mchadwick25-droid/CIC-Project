@@ -81,5 +81,40 @@ Cappadocian-thread session is opening its own PR at the same time, and
 touching that file here risks colliding with it. Re-evaluate once that
 PR lands (it may already fix this, or may not — check before acting,
 don't assume either way). The photo-rights question (seam B) stays
-open, untouched, no change from D0. D1 commissioning itself is still
-awaiting Mark's explicit go.
+open, untouched, no change from D0.
+
+## 2026-09-02 (later) — D1 commissioned
+
+**Mark's go, given directly:** "Go ahead, commission the five D1
+directions now." WCAG 2.2 AA confirmed by default as the shared
+accessibility floor (no objection raised to the proposal).
+
+Five independent Fable-model authors commissioned in parallel, each
+briefed by pointer to the governing files (this workstream's charter,
+the D0 inheritance note, the Brand Guidelines, the Full UX Design
+constitution, the live `cic-website/` pages, and `world-census.json`)
+rather than a paraphrased summary — per the standing rule that briefs
+must not let drift into the source record. Each was explicitly told it
+has no visibility into the other four and must not hedge toward or
+accommodate them; none were shown each other's philosophy statements
+beyond their own. Writing to `Sandbox/D1-directions/<slug>/`:
+
+1. `01-editorial-longform` — Editorial / Long-Form Storytelling
+2. `02-atlas-first-spatial` — Atlas-First Spatial
+3. `03-institutional-professional` — Institutional-Professional / Scholarly Authority
+4. `04-quiet-liturgical` — Quiet-Liturgical
+5. `05-product-led-clarity` — Product-Led Feature Clarity
+
+Each is asked for: a stated philosophy, a scored case against the four
+charter goals, named sacrifices, typography/color/motion intent within
+the locked brand system (any proposed stretch of a locked rule flagged
+explicitly as a ruling for Mark, not made quietly), a stated
+accessibility floor, a real self-contained `homepage.html` mockup, and
+one key inner-journey mockup. Real census data only — no invented
+traditions, and the six not-cleared historical photos excluded by
+brief. Running in the background; will close D1 and open D2 (Opus
+adversarial review) once all five land.
+
+**Next action:** wait for all five directions to complete, read each
+independently, confirm none were smoothed toward another, and hand
+them to Opus for D2.
