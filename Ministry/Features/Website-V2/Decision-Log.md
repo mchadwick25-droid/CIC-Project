@@ -255,3 +255,47 @@ directly on this exact tension (institutional-professional's
 scholarly-vs-warm inversion; quiet-liturgical's slowness-vs-access;
 product-led's clarity-vs-tech-forward) — no relaunch needed, this
 sharpens how their findings get read, not what gets asked of them.
+
+## 2026-09-02 (later still) — Mark's heart audience and register, named more sharply
+
+**Mark's own words, given directly, verbatim:** *"non religious (even
+though we are religious, i don't want the feel of religion) i want the
+general interest, re-assesing (deconstruction), pastor and scholor to
+feel at home, but my heart is those seeking answers to hard questions
+of faith, not accademics."*
+
+Two distinct rulings here, both load-bearing for D2 and D3, neither a
+restatement of what's already logged:
+
+1. **Register: not religious-feeling, even though the project is
+   religious.** A tone/structure requirement independent of doctrinal
+   content — the site must not read as devotional, liturgical, or
+   churchy, whatever the words say. This is new information, not
+   present in the charter or brand guidelines as stated (the brand
+   voice pairs govern *what is said*; this governs how the whole
+   thing *feels*, formally, on sight).
+2. **Audience priority, explicit.** All four of the project's own
+   Representative Modes (General, Pastor/Teacher, Academic,
+   Reevaluation) should feel at home — but Mark's own heart is the
+   Reevaluation audience: someone with hard, personal questions about
+   their faith. Academics are explicitly named as *not* the heart
+   audience. This sharpens the Brand Guidelines' own "the seeker's
+   voice always outranks the donor's" line into a ranking among the
+   four modes themselves, not just seeker-vs-donor.
+
+**Sent to all five running D2 reviewers before they finished writing,**
+not held for a later synthesis pass — each was asked to add two
+required attack angles (religious feel; whether the direction serves
+the hard-questions seeker or over-serves the academic) rather than
+have the coordinator layer this on afterward. Flagged directly to two
+reviewers as their direction's most consequential tension:
+**quiet-liturgical (04)** — built entirely on liturgical vocabulary and
+structure (narthex, order of arrival, imposed silence), now the
+direction most directly in conflict with "I don't want the feel of
+religion," possibly fatally; and **institutional-professional (03)** —
+built to make a scholar feel at home first, now in direct tension with
+"my heart... not academics." The other three were asked to check for
+subtler versions of the same two risks rather than assuming they're
+exempt. This is context for the reviews already in flight, not a new
+commissioning decision or a change to what the five directions
+themselves were built against.
