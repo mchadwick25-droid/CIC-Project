@@ -299,3 +299,35 @@ subtler versions of the same two risks rather than assuming they're
 exempt. This is context for the reviews already in flight, not a new
 commissioning decision or a change to what the five directions
 themselves were built against.
+
+## 2026-09-02 (later still) — Operational incident: four in-flight D2 reviews lost, relaunched combined
+
+**Found while checking on progress, not self-reported:** a `ListAgents`
+check came back under a different session identifier than every prior
+check this thread, reporting zero reachable agents. Checked the
+filesystem directly rather than trusting agent-tracking state: only
+`05-product-led-clarity-review.md` existed in `Sandbox/D2-struggle/`
+(already landed and committed) — the other four reviewers
+(01, 02, 03, 04), including the four that had just been sent the
+heart-context follow-up message in the previous entry, had produced no
+files and were gone. Read as a background-agent-tracking reset
+(cause not confirmed further; not investigated past confirming the
+actual state on disk, since the fix doesn't depend on the cause).
+
+**Fix:** relaunched all four as fresh Opus reviews, this time with the
+original four-section brief and the two heart-context sections
+(religious feel; hard-questions-seeker vs. academic) combined into one
+six-section brief each, rather than a two-stage send — the two-stage
+approach is what the lost run was mid-way through, and there's no
+reason to risk repeating that shape now that it's a single message.
+Each still points to the same direction folder, the same governing
+files, and Mark's two verbatim 2026-09-02 statements, quoted directly
+in the brief this time rather than relayed as a follow-up. The one
+already-landed review (05) is untouched and stands as final.
+
+**Cost note:** the four lost reviews' token spend, whatever it was,
+bought nothing recoverable — this is real, wasted cost from an
+infrastructure issue, not a design decision, reported for the
+honest ledger rather than absorbed silently. Relaunching regardless,
+per the standing rule that quality and rigor over cost governs even
+here.
