@@ -19851,10 +19851,17 @@ laneKeys.forEach(k=>{
 // left as an unrequested default:
 const LANE_PARENT_FROM_RECORD={
   2:3,  // Armenian Christianity (conversion era): "Formed via Cappadocia and
-        // Syriac Edessa" -- Cappadocia (Cappadocian Nicene Pastoral-Monastic
-        // Tradition) is lane 3, named first of the two; Syriac Edessa is
-        // lane 1, already Armenia's real secondary source but not drawable
-        // as a second trunk.
+        // Syriac Edessa" -- Cappadocia is lane 3, named first of the two;
+        // Syriac Edessa is lane 1, already Armenia's real secondary source
+        // but not drawable as a second trunk. NOTE: this is the region/see
+        // (Gregory the Illuminator was consecrated bishop in Caesarea of
+        // Cappadocia, c.314, which is Armenia's own genesis year below) --
+        // NOT the same thing as the later "Cappadocian Nicene
+        // Pastoral-Monastic Tradition" world (Basil, the Gregorys, Macrina;
+        // 325-394), which sits in this same lane 3 but starts 11 years
+        // after Armenia's thread has already begun peeling off it. Checked
+        // deliberately: the geometry only uses the lane number, so the
+        // visual split still correctly begins before that dot, not out of it.
   6:5,  // Lutheran Wittenberg & Its Congregations: "Child of late-medieval
         // piety and its protest" -- that piety is Era VI's own Latin West
         // devotional movements, lane 5.
