@@ -38,22 +38,37 @@ Source Collection: Internet Archive / Google Books scan. Supplied
                   a recognized field category with no specific
                   catalogued inscription, since this Registry's first
                   draft. This volume's own editorial apparatus directly
-                  resolves that gap: inscription no. 20482 ("DEO LAVDES
-                  SVPER AQVAS...", a fragment found near Constantine)
-                  carries the editors' own note, "Deo laudes (de hoc
-                  signo Donatistarum cf. supra ad n. 17732)" -- i.e.
-                  the editors themselves identify "Deo laudes" as the
-                  Donatists' own sign/formula, as opposed to the
-                  Catholic "Deo gratias." A second passage (this
-                  volume's own index/commentary, near inscription
-                  2292) makes the same identification in fuller form:
-                  "[Deo] laudes signum ac fuit Donatistarum, quorum
-                  sedes primariae erant Bagai et [Thamugadi]" -- "Deo
-                  laudes was the sign of the Donatists, whose primary
-                  seats were Bagai and Thamugadi." The cross-referenced
-                  inscription 17732 itself was not found in this
-                  specific volume (likely catalogued in a different
-                  CIL VIII fascicle not vendored here).
+                  resolves that gap. The primary witness is inscription
+                  no. 17732, found on two pillars near Bagai itself
+                  (now preserved at Khenchela) and reading "DEO LAVDES"
+                  twice; the editors' own note there reads, in full,
+                  "Uti [Deo] gratias... catholicorum, ita [Deo] laudes
+                  signum ac tessera fuit Donatistarum, quorum sedes
+                  primariae erant Bagai et Thamugadi" -- "just as 'Deo
+                  gratias' [was the sign] of Catholics, so 'Deo laudes'
+                  was the sign and token of the Donatists, whose
+                  primary seats were Bagai and Thamugadi." A second
+                  inscription, no. 20482 ("DEO LAVDES SVPER AQVAS..."),
+                  carries an editorial note that is a direct
+                  cross-reference back to 17732's own identification --
+                  "Deo laudes (de hoc signo Donatistarum cf. supra ad
+                  n. 17732)" -- not a second, independent attestation;
+                  20482 is itself found at Beni Fouda, in this same
+                  volume's own Mauretania Sitifensis supplement
+                  section, not the Numidian material proper (an
+                  earlier version of this note misdescribed it as
+                  "found near Constantine," corrected 2026-09-02 on
+                  direct re-reading of the surrounding heading, which
+                  reads "MAVRETANIA SITIFENSIS SVPPL."). Two further
+                  inscriptions in this same volume also carry the
+                  acclamation: no. 17368 ("DEO LAVDES") and no. 18669
+                  ("DEO LAVDES DICAMVS"). Correction, 2026-09-02: an
+                  earlier version of this note stated inscription
+                  17732 "was not found in this specific volume" --
+                  that was a search error; 17732 is present in this
+                  volume's own Bagai section (in the Bagai/Khenchela
+                  region entries) and is in fact the strongest of the
+                  four attestations, not a missing cross-reference.
      OCR quality: Raw, uncorrected OCR of a dense 19th-century
                   epigraphic reference work using heavy Latin
                   apparatus abbreviation and a critical typeface this
