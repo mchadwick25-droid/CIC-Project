@@ -19964,6 +19964,36 @@ function laneCenterX(k,y){return laneX[k]+laneWave[k](y)*1;} // organic amplitud
 /* ---- Node positions ---- */
 DATA.movements.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });
 
+// laneCenterX depends only on lane and year, so any two movements born the
+// same year in the same lane land on the exact same point -- 24 such groups
+// in the census (e.g. the post-apostolic house-churches and the Ebionite/
+// Nazoraean current, both Origin-lane, both starting 70 CE). Whichever one's
+// <g> happens to paint last then sits on top of the pile and is the only one
+// a mouse or finger can ever reach; the rest are keyboard-Tab-only, an
+// invisible dead zone for anyone using a pointer -- and every node carries a
+// r=9 halo that's part of that pile even at opacity 0 (an SVG shape still
+// captures pointer events when it's only invisible, not display:none), so
+// the two members of a pair need to end up more than 2*9=18 units apart, not
+// just far enough that their small dots stop touching. A small deterministic
+// fan-out -- not a change to the river's own shape, which never reads _x --
+// keeps every movement independently visible and clickable; 24 units apart
+// clears that halo-collision margin and is still nowhere near the ~124-unit
+// gap between neighboring lanes, so no one reads as having drifted into
+// another family's water.
+{
+  const coincident={};
+  DATA.movements.forEach(m=>{
+    const key=m.laneOrder+'|'+m.start;
+    (coincident[key]=coincident[key]||[]).push(m);
+  });
+  Object.values(coincident).forEach(group=>{
+    if(group.length<2)return;
+    group.sort((a,b)=>a.id.localeCompare(b.id));
+    const spacing=24, startOffset=-(group.length-1)/2*spacing;
+    group.forEach((m,i)=>{ m._x+=startOffset+i*spacing; });
+  });
+}
+
 /* ---- SVG assembly ---- */
 const svg=document.getElementById('world');
 svg.setAttribute('viewBox',`0 0 ${CANVAS_W} ${CANVAS_H}`);
