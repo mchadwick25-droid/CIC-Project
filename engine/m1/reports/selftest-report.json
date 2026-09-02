@@ -119,6 +119,14 @@
       ]
     },
     {
+      "id": "readability-quote-modern-rendering-too-dense",
+      "gate": "readability",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: modern_rendering scores FK grade 20.2, above the ceiling of 10"
+      ]
+    },
+    {
       "id": "canon-coverage-blank-cell",
       "gate": "canon-coverage",
       "status": "caught",

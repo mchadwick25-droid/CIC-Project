@@ -118,6 +118,13 @@ defects:
     mutation: {op: set_field, path: quick_meaning, value: "The triune hypostatic co-inherence of Father, Son, and Spirit as this community apprehended it prior to conciliar formalization."}
     expected_failure: "quick_meaning exceeds FK grade 10 (Artifact-1 §6 readability gate)"
 
+  - id: readability-quote-modern-rendering-too-dense
+    gate: readability
+    layer: M1
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: add_field, path: modern_rendering, value: "The unmediated testimonial witness persisted irrepressibly notwithstanding the deponent's own non-observation of the underlying event."}
+    expected_failure: "modern_rendering exceeds FK grade 10 (Artifact-1 §6 readability gate) - text itself, the verbatim Level-3 wording, is never graded"
+
   - id: canon-coverage-blank-cell
     gate: canon-coverage
     layer: M1

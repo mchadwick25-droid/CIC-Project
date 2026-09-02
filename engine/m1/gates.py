@@ -341,20 +341,33 @@ def gate_canonical_address(records, fleet, registry) -> list[str]:
 
 
 def gate_readability(records, fleet, registry) -> list[str]:
-    # FLAGGED, not fixed (2026-09-02, held by project-lead direction): this
-    # gate does not check `quote` records at all - only term.quick_meaning/
-    # plain_meaning and honest_limit.statement. A cross-world thread's own
-    # research into a Bible translation for readability (NRSV vs RSV,
-    # settled on NRSV) surfaced that the "two-layer wording" field it
-    # expected on quote records (a historical wording plus a plain modern
-    # one) does not exist in this checkout's quote schema - the only
-    # related field, modern_lens_note, is a clarifying note about meaning,
-    # not a plain-language rendering of the quote's own text. Either that
-    # field lives on a branch not present here, or it is a decision not
-    # yet implemented as a schema field. Whichever it is, this FK_CEILING
-    # currently does not reach the content the readability conversation
-    # was actually about. Left as-is per explicit instruction, not
-    # overlooked.
+    # RESOLVED 2026-09-02 (was flagged 2026-09-02, same day - the flag's own
+    # premise turned out to be stale, not a real gap). The flag claimed
+    # quote's only readability-relevant field was modern_lens_note (a
+    # meaning-clarification note, not a plain-language rendering) and that
+    # the "two-layer wording" idea (verbatim historical text plus a modern
+    # spoken form) had no schema field. Checked against this checkout
+    # directly: it does - `modern_rendering` (schemas.py, quote
+    # TYPE_PROPERTIES), added the same day this flag was written, per the
+    # V1.2 process doc (Ministry/Technology/CiC_Record_Native_World_Build_
+    # Process_V1_3.md): "Quote records author their modern_rendering at
+    # birth. The spoken form is a modern-English translation, never the
+    # archaic original; the original stays as the record's text for Level
+    # 3." Every built world's quote records already populate it (Mark's
+    # standing ruling, 2026-08-28); `engine/m4/evidence.py`'s own
+    # `_speakable_text` already reads `modern_rendering or text` for
+    # exactly this reason. So this gate now grades `modern_rendering`, same
+    # as term/honest_limit's own fields - and deliberately NEVER grades
+    # `text` itself, which stays verbatim by design (Level 3, the "click
+    # page" original wording) and must never be pressured toward a grade
+    # level.
+    #
+    # This is a real, live check, not a formality: run directly against
+    # the actual fleet (not the fixture), it finds 12 already-authored
+    # modern_rendering values over FK_CEILING across 2 worlds (hal,
+    # cappadocian) - real content this gate was always meant to catch,
+    # invisible until today only because the check itself was missing, not
+    # because the fields passed clean.
     findings = []
     checks = []
     for rid, rec in records.items():
@@ -363,6 +376,8 @@ def gate_readability(records, fleet, registry) -> list[str]:
             checks.append((rid, "plain_meaning", rec.get("plain_meaning")))
         if rec.get("record_type") == "honest_limit":
             checks.append((rid, "statement", rec.get("statement")))
+        if rec.get("record_type") == "quote":
+            checks.append((rid, "modern_rendering", rec.get("modern_rendering")))
     for rid, field, text in checks:
         if not text:
             continue
