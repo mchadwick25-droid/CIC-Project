@@ -20042,6 +20042,22 @@ function laneCenterX(k,y){return laneX[k]+laneWave[k](y)*1+driftOffset(k,y)*1;} 
 /* ---- Node positions ---- */
 DATA.movements.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });
 
+// A small, deliberate visual nudge for one specific crowding case: Desert
+// Monasticism (c. 320, lane 4) and Church & Empire (312, lane 3.5) plot only
+// 39 years and one lane apart -- close enough that both worlds' portrait
+// plates and names kept fighting for the same patch of page, with Church &
+// Empire's own name cascading away from its own picture to clear Desert's.
+// Both dates are already recorded as circa; nudging Desert's PLOTTED
+// position about 16 years later -- still its own decade, still Era II, well
+// short of the 451 boundary -- is chosen from within that already-honest
+// approximation, not a new claim. Its real start/end and every displayed
+// date stay exactly as recorded; only where the dot draws moves.
+const VISUAL_Y_NUDGE={'desert-monasticism':80};
+Object.entries(VISUAL_Y_NUDGE).forEach(([id,dy])=>{
+  const m=byId[id]; if(!m)return;
+  m._y+=dy; m._x=laneCenterX(m.laneOrder,m._y);
+});
+
 // laneCenterX depends only on lane and year, so any two movements born the
 // same year in the same lane land on the exact same point -- 24 such groups
 // in the census (e.g. the post-apostolic house-churches and the Ebionite/
