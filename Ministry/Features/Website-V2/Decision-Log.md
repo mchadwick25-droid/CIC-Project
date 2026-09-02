@@ -708,3 +708,31 @@ documents in place.
 **Next action:** once the fix pass lands, this coordinator spot-checks
 it against the review's own required-fix list, then it goes to Mark to
 read and freeze.
+
+## 2026-09-02 (later still) — D3 fix pass landed and spot-checked; ready for Mark's freeze
+
+All eleven required fixes applied and verified in place (design doc
+990→1192 lines, storyboard 908→1004 lines), plus all sixteen
+non-blocking items and two further slips the author caught in its own
+re-measurement. Coordinator spot-check confirms rulings 34–39 are
+present, correctly framed, and match the review's own required-fix
+list. Both documents' status blocks now read: reviewed by Opus, fixes
+applied, awaiting Mark's freeze.
+
+**D3 is complete. This is the freeze gate** — the charter's own
+"after the freeze, changes need a change order, not quiet edits" line
+starts to apply once Mark rules. Register carries 39 rulings total;
+most consequential for his read, surfaced directly rather than left to
+be found: ruling 34 (authorize the app's `#q=` change order — a small,
+real change in `cic-poc/frontend`, D4's to build once scheduled),
+ruling 35 (the paid-tier multi-voice-Table gate — a business-model
+question this design assumed loosened but never had confirmed), ruling
+36 (reviewer's-brief content clearance — real briefs exist for four
+traditions, none for three, and none of the four are cleared for a
+participant surface yet), and ruling 32 (the Cloudflare Pages preview
+environment D0 already flagged — D4 can't start safely without it).
+The remaining rulings are content-clearance and copy-register calls,
+each already carrying its own recommendation in the document.
+
+**Next action:** Mark reads both documents (or this ledger's summary
+first) and rules — freeze, freeze with named changes, or hold.
