@@ -554,3 +554,41 @@ against the app, separate from whether this design direction is good.
 
 **Commissioned:** the hybrid's one-shot defense, per the standing rule.
 Landing in `Sandbox/D2-struggle/06-hybrid-open-door-defense.md`.
+
+## 2026-09-02 (later still) — D2 fully closed: hybrid defended, one decision surfaced for Mark
+
+**The defense lands, and concedes nearly everything, re-verified
+independently rather than taken on the review's word:** the fold, the
+header flex-whitespace bug, the un-announced held question, all three
+disputed parentage claims, the dark-tint headroom sentence, both stale
+"world" quotes, and more. Two of the review's claims contested with
+real evidence and won: no "known limitation" banner exists anywhere in
+`cic-poc/`'s history to transcribe, and one distance comparison wasn't
+like-for-like. A measured, verified fix for the fold defect is already
+in hand (input directly under the H1, in-screen on every shipping phone
+height, zero overflow).
+
+**The cross-system dependency is now confirmed in the actual app code,
+not just asserted:** `App.tsx`'s `parseDeepLink` reads only
+`worlds`/`mode`; `consumeDeepLink` strips the URL before render;
+`ChatInput.tsx` takes no initial-value prop. The question genuinely
+cannot reach the composer today. This is **not fixable on the marketing
+site alone** — a real app change (roughly 3–4 files) plus a Render
+deploy, not the one-line fix the review guessed at.
+
+**One real, live decision inside that fix, surfaced rather than made
+silently:** should the held question travel to the app as a **query
+string** (`?q=`, which lands in host/server logs) or a **URL fragment**
+(`#q=`, which a browser never sends to a server)? The defense
+recommends the fragment, on privacy grounds consistent with the
+project's own "nothing is sent ahead" posture. This is a real technical
+decision with a real privacy tradeoff, not a design question — it's
+being put to Mark, not decided here.
+
+**D2 is now closed in full**, for the hybrid and for the whole
+directions-and-hybrid arc: five directions diverged, five struggled and
+defended, one hybrid synthesized with named parentage, that hybrid
+struggled and defended in turn. What remains before D3: Mark's read of
+where this landed, and his ruling on the query-string-vs-fragment
+question (and, separately, whether/when to greenlight the small
+app-side change it requires).
