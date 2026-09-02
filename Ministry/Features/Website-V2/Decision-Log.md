@@ -766,3 +766,23 @@ D0 → D1 (five directions) → D2 (five reviews, five defenses, one hybrid,
 its review, its defense) → D3 (synthesis, review, fix pass) is complete,
 frozen, and on record. D4 begins once the Pages preview question is
 settled.
+
+## 2026-09-02 (later still) — Change order: Cloudflare Worker, not Pages
+
+**Correction to the frozen record**, per the charter's own rule that
+changes after freeze need a change order, not a quiet edit. Mark
+pasted the actual Cloudflare dashboard page while checking on the
+preview-build question: the live site is a **Cloudflare Worker with
+static assets** using Workers Builds for its Git integration — not
+the classic "Cloudflare Pages" product this workstream assumed since
+D0 (the dashboard fields shown are unambiguously Workers-only
+language: "Variables cannot be added to a Worker that only has static
+assets," Runtime/Compatibility-date/Compatibility-flags sections).
+Functionally the same fix still applies — Workers Builds supports
+per-branch preview deployments the same way Pages does, gated on the
+Production branch being set correctly — so this doesn't change what
+Mark needs to check, only the correct name for it. Corrected in
+`CiC_Website_Design_V2.md` (ruling 32, the 404-page row) and the D0
+inheritance note. Still open: Mark confirming the Production branch
+value and checking the Deployments tab for a sandbox-branch preview
+URL.

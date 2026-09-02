@@ -62,10 +62,13 @@ visitor-facing copy they draft.
 **A. The charter's own deploy assumption is wrong — flag for Mark before D4.**
 The launch prompt's open item asks whether to add "a Render preview
 environment or manual deploys" for the build window. But `cic-website/`
-deploys via **Cloudflare Pages** (confirmed in its own README and in the V1
+deploys via a **Cloudflare Worker with static assets** (Workers Builds'
+Git integration — corrected 2026-09-02; originally read from its own
+README, which describes the classic "Pages" product, but the live
+dashboard confirmed it's actually Workers-only language) (also see the V1
 Decision-Log's 2026-08-06 entry about a Cloudflare Worker misconfiguration
 that was fixed). Render hosts the **conversation engine**
-(`cic-engine.onrender.com`), a separate service. Cloudflare Pages already
+(`cic-engine.onrender.com`), a separate service. Workers Builds already
 supports per-branch preview deployments natively — the D4 open item is
 probably "confirm/configure a Pages preview build for `claude/website-v2-
 sandbox`," not a Render question at all. Worth a direct correction to Mark
