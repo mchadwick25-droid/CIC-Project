@@ -1,12 +1,17 @@
 # Church in Conversation — Website Design V2
 
-**Status: D3 deliverable, 2026-09-02. Converged from the defended hybrid
-("The Open Door," Direction 06). Reviewed by Opus the same day
-(`Sandbox/D2-struggle/D3-synthesis-review.md`: "ready to freeze with named
-required fixes" — eleven, R1–R11, and sixteen non-blocking items); this
-revision applies them, each named where it lands. Awaiting Mark's freeze.
-After the freeze, changes need a change order, not quiet edits. Not yet
-built; nothing here is live.**
+**Status: FROZEN — Mark, 2026-09-02 ("Freeze it"). Converged from the
+defended hybrid ("The Open Door," Direction 06). Reviewed by Opus the same
+day (`Sandbox/D2-struggle/D3-synthesis-review.md`: "ready to freeze with named
+required fixes" — eleven, R1–R11, and sixteen non-blocking items); applied in
+this revision, each named where it lands, and spot-checked against the
+review's own list before the freeze. From here, changes need a change order
+(`Decision-Log.md`), not quiet edits — this file and its companion storyboard
+are the binding reference for D4. The register below still carries roughly
+twenty ⚠ OPEN FOR MARK items — the freeze fixes this document's shape and
+content as the reference, it does not itself resolve those; each is still a
+real open decision, to be ruled on as D4 reaches it or sooner if Mark wants to
+clear them ahead of time. Not yet built; nothing here is live.**
 
 **What this is.** The design record for the redesigned public website
 (`cic-website/`): the philosophy as converged, how it serves the four charter

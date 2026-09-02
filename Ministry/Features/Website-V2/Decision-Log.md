@@ -736,3 +736,33 @@ each already carrying its own recommendation in the document.
 
 **Next action:** Mark reads both documents (or this ledger's summary
 first) and rules — freeze, freeze with named changes, or hold.
+
+## 2026-09-02 (later still) — FROZEN
+
+**Mark's ruling, given directly: "Freeze it."** `CiC_Website_Design_V2.md`
+and `CiC_Website_V2_Storyboard.md`, as they stand at commit `560efeb5`
+plus the two status-block edits recording the freeze itself, are now the
+binding design reference for D4. Per the charter: from here, changes need
+a change order in this log, not quiet edits to the documents.
+
+**What the freeze does and doesn't cover, stated plainly so it isn't
+assumed either way later:** it fixes the two documents' shape and content
+as the reference to build from. It does **not** silently resolve the
+roughly twenty ⚠ OPEN FOR MARK items still in the rulings register (content
+clearance, the paid-tier Table gate, the reviewer's-brief material, the
+app change order, etc.) — each stays a real open decision, to be brought
+to Mark as D4 reaches it, or sooner if he'd rather clear them ahead of
+time. Silence on an item is not approval of its RECOMMENDED default.
+
+**The one item that blocks D4 from starting at all, restated one more
+time because it's a console action only Mark can take:** ruling 32 /
+D0 seam A — a Cloudflare Pages preview build for `claude/website-v2-sandbox`
+(or a manual-deploys switch), so build increments can be read before they
+touch the live site. `cic-website/` deploys via Cloudflare Pages, not
+Render — the charter's own original assumption. Nothing else is
+outstanding to open D4; this is the next concrete step.
+
+D0 → D1 (five directions) → D2 (five reviews, five defenses, one hybrid,
+its review, its defense) → D3 (synthesis, review, fix pass) is complete,
+frozen, and on record. D4 begins once the Pages preview question is
+settled.

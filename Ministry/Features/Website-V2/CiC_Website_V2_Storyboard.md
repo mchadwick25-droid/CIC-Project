@@ -1,10 +1,15 @@
 # Church in Conversation — Website V2 Storyboard
 
-**Status: D3 deliverable, 2026-09-02. Companion to `CiC_Website_Design_V2.md`
-(the design record — philosophy, system, rulings). Reviewed by Opus the same
-day (`Sandbox/D2-struggle/D3-synthesis-review.md`: ready to freeze with
-eleven named fixes); this revision applies them, each named where it lands.
-Awaiting Mark's freeze. Not built; nothing here is live.**
+**Status: FROZEN — Mark, 2026-09-02 ("Freeze it"). Companion to
+`CiC_Website_Design_V2.md` (the design record — philosophy, system, rulings).
+Reviewed by Opus the same day (`Sandbox/D2-struggle/D3-synthesis-review.md`:
+ready to freeze with eleven named fixes); applied in this revision, each
+named where it lands, and spot-checked against the review's own list before
+the freeze. From here, changes need a change order (`Decision-Log.md`), not
+quiet edits — this file and its companion design record are the binding
+reference for D4. Its own ⚠ items and Appendix A's draft-copy lines are not
+resolved by the freeze — they're real open decisions for D4 or sooner. Not
+built; nothing here is live.**
 
 **What this is.** Every page the site has, page by page: its purpose, its
 sections in order with the copy and the copy's register, every meaningful
