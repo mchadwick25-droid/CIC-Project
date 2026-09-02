@@ -1,4 +1,4 @@
-# Cloudflare Pages custom headers.
+# Cloudflare Worker (static assets) custom headers.
 #
 # Why this file exists: the site was observed serving different visitors
 # different page versions on the same URL right after a deploy (some got a
