@@ -143,11 +143,13 @@ svg#world{display:block}
   <button id="scopeClose" type="button" aria-label="Dismiss">&times;</button>
   <b>What this tests:</b> real census data (292 movements, 69 sourced edges) drawn as
   ten era bands sized by density and thirteen tradition-family rivers that wind and
-  widen by real density, with generalization by zoom and participant-only pan/zoom.
-  <b>Deliberately not in this rough pass:</b> lane drift toward related lanes, portrait
-  plates, gravity-linked color shifts, absorption blending &mdash; real proposed rules,
-  just not built here yet. Drag to pan, scroll/pinch to zoom, hover a mark for a
-  glimpse, click for the full record.
+  widen by real density, drift toward lanes they're documented as contemporary with
+  and away from ones they argued against or stood in tension with, with generalization
+  by zoom and participant-only pan/zoom.
+  <b>Deliberately not in this rough pass:</b> portrait plates, gravity-linked color
+  shifts, absorption blending &mdash; real proposed rules, just not built here yet.
+  Drag to pan, scroll/pinch to zoom, hover a mark for a glimpse, click for the full
+  record.
 </div>
 
 <div id="stage">
@@ -19875,6 +19877,54 @@ function seededWave(seed){return (y)=>{
 };}
 const laneWave={}; laneKeys.forEach(k=>{laneWave[k]=seededWave(k+1);});
 
+// Lane drift toward -- or away from -- a related lane: the scope note's own
+// "deliberately not in this rough pass" list named this ("lane drift toward
+// related lanes") as a real proposed rule, not an invented one. Built from
+// the same edges already on the map, not new claims: 'contemporary with'
+// pulls two lanes' water toward each other over the real years both
+// movements were active; 'argued against' and 'in tension with' push them
+// apart over that same documented window. 'formed'/'transmitted to' are
+// excluded -- they already drive the genesis/parent convergence above, and
+// reusing them here as generic attraction would draw the same lineage twice.
+const ATTRACT_TYPES=new Set(['contemporary with']);
+const REPEL_TYPES=new Set(['argued against','in tension with']);
+const DRIFT_MAX=32; // px -- a firm nudge, not a lane change: about a quarter
+  // of the ~124-135px gap between neighboring lanes, so a pulled or pushed
+  // lane never reads as having crossed into a neighbor's own water.
+const driftEdges=[];
+DATA.edges.forEach(e=>{
+  const a=byId[e.from], b=byId[e.to];
+  if(!a||!b||a.laneOrder===b.laneOrder)return;
+  let sign=0;
+  if(ATTRACT_TYPES.has(e.type))sign=1;
+  else if(REPEL_TYPES.has(e.type))sign=-1;
+  else return;
+  const y0=yearToY(Math.min(a.start,b.start)), y1=yearToY(Math.max(a.end,b.end));
+  if(y1<=y0)return;
+  driftEdges.push({laneA:a.laneOrder, laneB:b.laneOrder, y0, y1, sign});
+});
+function driftInfluence(edge,y){
+  if(y<edge.y0||y>edge.y1)return 0;
+  const t=(y-edge.y0)/(edge.y1-edge.y0);
+  // Smoothstep fade over the first/last fifth of the documented overlap --
+  // full strength through the middle, never a hard on/off snap.
+  const raw=Math.min(t/0.2,(1-t)/0.2,1);
+  return raw*raw*(3-2*raw);
+}
+function driftOffset(k,y){
+  let total=0;
+  driftEdges.forEach(edge=>{
+    const other = edge.laneA===k ? edge.laneB : edge.laneB===k ? edge.laneA : null;
+    if(other==null)return;
+    const infl=driftInfluence(edge,y);
+    if(infl<=0)return;
+    total+=edge.sign*(Math.sign(laneX[other]-laneX[k])||1)*infl;
+  });
+  // Saturate rather than clip -- several real relationships overlapping at
+  // once ease toward the cap instead of hitting a hard wall.
+  return Math.tanh(total/2)*DRIFT_MAX;
+}
+
 function concurrentCount(laneOrder, year){
   return DATA.movements.filter(m=>m.laneOrder===laneOrder && m.start<=year && m.end>=year).length;
 }
@@ -19942,7 +19992,7 @@ function riverPath(k, amp){
   const left=[], right=[];
   const parentK=laneParent[k];
   for(let y=0;y<CANVAS_H;y+=STEP){
-    const ownX=laneX[k]+laneWave[k](y)*amp;
+    const ownX=laneX[k]+laneWave[k](y)*amp+driftOffset(k,y)*amp;
     const fullW=widthAt(k,y);
     let cx=ownX, w=fullW;
     if(k!==0){
@@ -19958,7 +20008,7 @@ function riverPath(k, amp){
       // only the full-detail organic path gets the joining curve.
       const t=raw*raw*(3-2*raw);
       if(parentK!=null){
-        const parentX=laneX[parentK]+laneWave[parentK](y)*amp;
+        const parentX=laneX[parentK]+laneWave[parentK](y)*amp+driftOffset(parentK,y)*amp;
         const bulge=Math.sin(raw*Math.PI)*64*amp;
         cx=parentX+(ownX-parentX)*t+bulge;
       }
@@ -19977,7 +20027,7 @@ function riverPath(k, amp){
   d+=smoothPath(rightRev).replace(/^M [\d.-]+ [\d.-]+ /,'')+' Z';
   return d;
 }
-function laneCenterX(k,y){return laneX[k]+laneWave[k](y)*1;} // organic amplitude reference (amp=1 = full)
+function laneCenterX(k,y){return laneX[k]+laneWave[k](y)*1+driftOffset(k,y)*1;} // organic amplitude reference (amp=1 = full)
 
 /* ---- Node positions ---- */
 DATA.movements.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });
