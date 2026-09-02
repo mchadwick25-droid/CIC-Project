@@ -110,7 +110,20 @@ python cic/engine/works_registry.py --check     # validate WORKS.yaml — unique
 python cic/engine/author_ids.py --check         # validate AUTHOR-IDS.yaml — well-formed Wikidata/VIAF ids
 python cic/engine/corpus_index.py --build       # (re)build cic/texts/INDEX.sqlite — NOT committed, see .gitignore
 python cic/engine/corpus_index.py "QUERY" [--entry ID] [--limit N]   # full-text search, ranked, with canonical addresses
+python cic/engine/corpus_coverage.py            # cic-website/data/corpus-coverage.json — Atlas-facing vendored-coverage feed
 ```
+
+## Atlas-facing coverage feed
+
+`cic-website/data/corpus-coverage.json` (2026-09-02, Mark's sign-off) is the
+public join between this map and the census: for all 292 census entries, the
+vendored works corpus-map has actually assigned, or an honest empty list.
+Scoped to vendored coverage only — the acquirable-PD/purchasable/no-edition-
+exists breakdown `WANTS-REGISTER.md` carries is deliberately left out, since
+that data only has real content for the 7 already-built formation worlds
+today (see `cic/engine/corpus_coverage.py`'s own docstring for the full
+reasoning). Generated, not hand-edited; not yet wired into `atlas-v3.html`'s
+rendering — that's separate front-end work.
 
 ## Canonical addresses
 
