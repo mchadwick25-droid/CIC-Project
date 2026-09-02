@@ -64,6 +64,9 @@ tensions:
   legislation counsels returning a runaway to an owner rather than ending the relationship itself; no
   first-person account from an enslaved person inside this world survives to tell you what any of this
   actually felt like
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-on-work-and-prayer
 ---
 Closes F5-I. Composited from four already-registered story records, each
 cited at the confidence its own narrative_tier_justification actually
@@ -75,3 +78,5 @@ a substitute for the day itself. The deeper silence about whose voice is
 missing (women's own words, enslaved persons' own words) is given its
 own full, dedicated treatment at cappadocian.limit.whose-voice-we-lack
 (F6-I) rather than repeated at length here.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-work-and-prayer, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.

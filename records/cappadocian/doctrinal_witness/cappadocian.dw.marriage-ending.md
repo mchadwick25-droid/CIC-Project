@@ -62,6 +62,9 @@ tensions:
 - we do not have this world's own developed answer to whether people outside the faith altogether are
   excluded from it; this record answers the marriage-and-belonging question specifically, not the wider
   question of exclusion
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-canon-on-digamy
 ---
 Closes F6-T on the identity-collision-tagged divorce/remarriage variant,
 grounded in Basil's own First Canonical Letter to Amphilochius (Epistle
@@ -86,3 +89,5 @@ Basil's ascetic corpus, not one document with an earlier and later
 section. sources[] now cites cappadocian.source.basil-asketikon-longer-shorter-rules
 directly, and this note states the two-work relationship plainly rather
 than repeating the error.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-canon-on-digamy, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.

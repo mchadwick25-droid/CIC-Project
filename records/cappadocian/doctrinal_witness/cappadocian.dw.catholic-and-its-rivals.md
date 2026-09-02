@@ -70,9 +70,14 @@ tensions:
 - the neat later story of "the Cappadocian settlement" - one shared, agreed technical scheme - is itself
   a live scholarly dispute; we do not claim more agreement among our own three teachers than the record
   can bear
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-on-eustathius-rupture
 ---
 Closes F3-T. The closing tension deliberately imports
 cappadocian.contested.settlement-historiography's own held_against
 material rather than letting the "our own confession is the real one"
 answer read as more settled and self-congratulatory than this world's own
 best scholarship allows.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-eustathius-rupture, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
