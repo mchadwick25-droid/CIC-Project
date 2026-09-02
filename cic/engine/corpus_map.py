@@ -153,6 +153,16 @@ def load() -> dict[str, dict]:
     for path in sorted(MAP_DIR.glob("*.yaml")):
         if path.name == "UNATTRIBUTED.yaml":      # a ruling list, not a bucket
             continue
+        if path.name == "WORKS.yaml":             # a Work/Expression registry
+            # (cic/engine/works_registry.py's own file, added 2026-09-02),
+            # not a per-census-entry bucket - same shape of exclusion as
+            # UNATTRIBUTED.yaml above, caught the same way: this loader
+            # globs every *.yaml in the directory with no other filter,
+            # so a new non-bucket file here needs an explicit line or it
+            # gets silently misread as a malformed bucket instead of
+            # skipped, which is exactly what happened before this line
+            # was added.
+            continue
         out[path.stem] = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     return out
 
