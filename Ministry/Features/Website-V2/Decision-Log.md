@@ -832,3 +832,32 @@ command is untouched.
 Pushing this entry now as the real test of the fix; next check is the
 Deployments/build log for a clean, successful build on
 `claude/website-v2-sandbox` with its own preview URL.
+
+## 2026-09-02 (later still) — Preview pipeline shelved; D4 begins
+
+**Mark's ruling: option 1 — skip the live preview, start D4.** After
+extensive diagnosis (the real Version-command bug found and fixed;
+confirmed the toggle fires for other branches; ruled out a
+cic-website/-scoped watch path by testing with a real file change;
+still nothing built for `claude/website-v2-sandbox` specifically across
+four separate pushes) the remaining cause is most likely a
+branch-specific quirk in Cloudflare's own webhook tracking, not
+anything fixable from the settings visible in this session. Not
+pursued further — diminishing returns against real D4 progress.
+
+**Verification for D4, in place of a live preview:** the same
+discipline already used through D1–D3 — local rendering in headless
+Chromium (pre-installed at `/opt/pw-browsers`), contrast and overflow
+checks, accessibility-tree inspection, and screenshots shared directly
+in conversation. No live URL; Mark reads each increment's rendered
+result before it merges, per the charter's own D4 rule, just via
+screenshots/local review rather than a hosted preview.
+
+**D4 starts now.** Building to the frozen `CiC_Website_Design_V2.md`
+and `CiC_Website_V2_Storyboard.md`, using the defended hybrid's
+`homepage.html`/`tradition-chloe.html` as structural reference — **not**
+as-is, since the D3 review's fixes (the fold fix, the header CSS
+correction, AI-disclosure-before-conversation-links ordering, the
+launch-state distinction, the `#q=` fragment protocol) were written
+into the design documents, not back into the hybrid's own mockup
+files. First increment: the homepage.
