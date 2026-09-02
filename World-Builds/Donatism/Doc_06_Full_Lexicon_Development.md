@@ -6,7 +6,7 @@
 **Required before:** Doc_07 (Integrated Ecology Analysis — its integration lenses depend on Tier-1 entries reaching genuine depth)
 **Governed by:** Construction Framework V7.4 Step 6; Interpretive Lexicon Development Framework V2.1 (Parts III–VII); Deployment Lexicon Chunk Template V1.0 (L4); Constitution V2.3 Articles 17 (confidence), 20 (Affirmative Duty), 23 (Writing-From-Inside), 26 ([CT] tagging), 30 (Three-Level Transparency); grounded in `Doc_01_World_Identification_Boundaries_Orientation.md`, `Doc_02_Source_Ecology.md`/`Source_Registry.md`, `Doc_03_Lexicon_Candidate_List.md`, `Doc_04_Gravity_Discovery.md`, and `Doc_05_Ecological_Reconstruction.md` (all Approved to proceed).
 **Companion artifacts:** `Lexicon-Chunks/donlexNNN_*.md` (deployment chunk files); `Lexicon_Deployment_Index.xlsx` (master index — one row per term across the full 21-term roster, filterable by tier/tag/CT/Author-Gravity, with a CT Contest-Type Check sheet and a Related-Terms Reciprocity sheet).
-**Status:** DRAFT — pending independent adversarial review, per `cic-build-cycle`.
+**Status:** Approved to proceed, self-disposed by this build thread per `cic-build-cycle` (no escalation category applies). Cleared independent adversarial review across two rounds — Round 1 (0 High/4 Medium/1 Low, all fixed) and Round 2, a confirming pass (CLEARED, all five fixes verified genuinely applied with no new defect). Review history and disposition log: `don_Decision_Log.md`; review artifacts: `Review-Artifacts/Doc06_Round1_Review.md`, `Doc06_Round2_Review.md`.
 
 ---
 
@@ -104,4 +104,4 @@ Each carries: retrieval front-matter (Term, World-Code, Tier, Tags, Aliases, Rel
 
 ---
 
-*End Doc_06. Companions: 7 `Lexicon-Chunks/donlexNNN_*.md` files (all confirmed Tier-1 terms) + `Lexicon_Deployment_Index.xlsx` (full 21-term roster). Next: Doc_07 (Integrated Ecology Analysis), once this document reaches at least "Approved to proceed."*
+*End Doc_06. Companions: 7 `Lexicon-Chunks/donlexNNN_*.md` files (all confirmed Tier-1 terms) + `Lexicon_Deployment_Index.xlsx` (full 21-term roster). Approved to proceed by this build thread. Next: Doc_07 (Integrated Ecology Analysis).*
