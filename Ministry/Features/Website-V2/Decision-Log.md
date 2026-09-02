@@ -402,3 +402,13 @@ above verdicts are final. Commissioning one Fable defense per
 direction next, each seeing only its own direction and its own review
 (not the other four), before any kill is treated as settled or any
 hybridization is considered.
+
+## 2026-09-02 (later still) — Defense round hit a rate limit; retried clean
+
+All five defense agents failed on their first launch with HTTP 429
+(`claude-fable-5-1` session limit, resets 3:50am UTC) — each had barely
+started reading its own files, so no partial or corrupted output was at
+risk. Checked the clock directly rather than guessing (03:57 UTC,
+already past reset) and relaunched all five with the identical briefs.
+No content was lost this time, unlike the earlier D2 review incident —
+these failed before writing anything.
