@@ -19752,6 +19752,20 @@ const rawSum=rawScore.reduce((a,b)=>a+b,0);
 let eraH=rawScore.map(s=>Math.max(MIN_H, s/rawSum*TOTAL_H));
 const hSum=eraH.reduce((a,b)=>a+b,0);
 eraH=eraH.map(h=>h/hSum*TOTAL_H); // renormalize after the floor
+
+// Every band's header (title, dates, world-context caption) used to sit
+// directly on top of that era's own opening river -- a movement dated right
+// at an era's first year lands at eraY0[i] by construction, the same few
+// pixels the caption prints on, so the text and the very worlds it's
+// introducing (Alexandria, the Desert...) fought for the same ground. A
+// fixed gutter -- sized to the tallest of the ten header blocks (era I's
+// three-line caption, ~146px) plus real breathing room -- reserves that
+// space at the top of every band for text alone; no movement is plotted
+// inside it (see the yearToY and per-y density-sampling changes below),
+// so the streams entering the band are visible passing under the caption
+// without a single world's dot or label competing with it.
+const HEADER_GUTTER=190;
+eraH=eraH.map(h=>h+HEADER_GUTTER);
 let eraY0=[]; {let y=40; eras.forEach((e,i)=>{eraY0.push(y); y+=eraH[i];});}
 const CANVAS_H=eraY0[eraY0.length-1]+eraH[eraH.length-1]+60;
 
@@ -19767,10 +19781,10 @@ function yearToY(year){
     const [a,b]=eraYearRange[i];
     if(year<b||i===eras.length-1){
       const t=Math.max(0,Math.min(1,(year-a)/Math.max(1,(b-a))));
-      return eraY0[i]+t*eraH[i];
+      return eraY0[i]+HEADER_GUTTER+t*(eraH[i]-HEADER_GUTTER);
     }
   }
-  return eraY0[eraY0.length-1];
+  return eraY0[eraY0.length-1]+eraH[eraH.length-1];
 }
 
 /* ---- Lanes: real laneOrder ascending, left to right (a simplification of the
@@ -19872,7 +19886,11 @@ laneKeys.forEach(k=>{
     let year=null;
     for(let i=0;i<eras.length;i++){
       if(y>=eraY0[i] && y<eraY0[i]+eraH[i]+0.01){
-        const t=(y-eraY0[i])/eraH[i];
+        // Inside the header gutter itself there's no real "when" to compute --
+        // hold at the era's own opening year, so the river simply carries
+        // whatever width it already had at that boundary through the caption
+        // zone rather than sampling a year that was never actually plotted.
+        const t=y<eraY0[i]+HEADER_GUTTER ? 0 : (y-eraY0[i]-HEADER_GUTTER)/(eraH[i]-HEADER_GUTTER);
         year=eraYearRange[i][0]+t*(eraYearRange[i][1]-eraYearRange[i][0]);
         break;
       }
@@ -20019,13 +20037,13 @@ const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
 // fix) because it's explicitly plural on its face ("several ways at once"),
 // not one thread's story standing in for the whole band.
 const WORLD_CONTEXT={
-  1:"This band starts where the map does: the Jerusalem Temple falls in 70 CE, running to Constantine's Edict of Milan in 313 — the year the persecution these movements describe finally ends. Historians call this the field's most recognizable break, though for the Persian church east of Rome the divide ran backwards: Constantine's conversion made them look Rome-aligned, and their persecution only intensified after 312.",
-  2:"The era historians call the ‘imperial church’ — Christianity moves from persecuted minority to the empire's own religion, and the councils that define its creeds (Nicaea, then Chalcedon just after this band) happen because an emperor now has a stake in the outcome.",
-  3:"The parting of the communions: Chalcedonian, miaphysite, and East Syriac Christianity become distinct, self-aware families in this band, while the Latin West enters the post-Roman kingdoms and monasticism becomes the era's formative engine everywhere. For scale: Rome itself falls to invasion in 476, partway through.",
+  1:"This band starts where the map does: the Jerusalem Temple falls in 70 CE, running to Constantine's Edict of Milan in 313 — the year the persecution these movements describe finally ends. For the Persian church east of Rome, that divide ran backwards: persecution only intensified after 312.",
+  2:"The era historians call the 'imperial church' — Christianity moves from persecuted minority to the empire's own religion, and the creeds that define it (Nicaea, then Chalcedon just after this band) get settled because an emperor now has a stake in the outcome.",
+  3:"The parting of the communions: Chalcedonian, miaphysite, and East Syriac Christianity become distinct, self-aware families here, while the Latin West enters the post-Roman kingdoms and monasticism becomes its formative engine everywhere. For scale: Rome itself falls to invasion in 476, partway through.",
   4:"Christianity becomes a minority faith across its old heartlands under the rise of Islam, converts new northern peoples, fights an internal war over religious images, and sends its longest missions east along the Silk Road.",
-  5:"The Latin West's great creative explosion: new religious orders, new lay movements, and documented women's religious life at a scale not seen before, while Byzantium consolidates and the Christian East endures under new pressures.",
-  6:"Plague, papal schism, and institutional crisis — met by the most interior, vernacular, and lay-accessible devotional writing Christianity had yet produced. For scale: the Black Death is sweeping Europe (1347–51) during this band.",
-  7:"The Western church remade — several ways at once: this band holds the Reformation's many, often-rival movements side by side, each with its own direct descendants still living today.",
+  5:"The Latin West's great creative explosion — new religious orders, new lay movements, and women's religious life at a scale not seen before — while Byzantium consolidates and the Christian East endures new pressures.",
+  6:"Plague, papal schism, and institutional crisis, met by the most interior, vernacular, lay-accessible devotional writing Christianity had yet produced. For scale: the Black Death sweeps Europe (1347–51) during this band.",
+  7:"The Western church remade, several ways at once: this band holds the Reformation's many, often-rival movements side by side, each with its own direct descendants still living today.",
   8:"Established churches settle into place; renewal moves into small groups, personal religious experience, and transatlantic revival. This is the era first-person spiritual autobiography becomes a mass genre.",
   9:"Christianity globalizes under empire's shadow and against it. The era's honest theme is entanglement: mission and colonialism, revival and respectability, liberation and paternalism, held together rather than resolved.",
   10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
@@ -20060,7 +20078,11 @@ function render(){
     gLabels.appendChild(tag);
     if(WORLD_CONTEXT[e.num]){
       const ctx=el('text',{x:24,y:eraY0[i]+78,class:'era-context'});
-      wrapText(WORLD_CONTEXT[e.num],78).forEach((line,li)=>{
+      // Wrapped wide enough to run most of the way across the band -- the
+      // header gutter above gives it a lane-free strip to do that in -- rather
+      // than stacking into a tall narrow column at the left margin, which is
+      // what forced the gutter this deep in the first place.
+      wrapText(WORLD_CONTEXT[e.num],200).forEach((line,li)=>{
         const tspan=el('tspan',{x:24,dy:li===0?0:16});
         tspan.textContent=line;
         ctx.appendChild(tspan);
