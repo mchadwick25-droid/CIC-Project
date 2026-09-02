@@ -2,6 +2,11 @@ EVAGRIUS PONTICUS (EVAGRIOS PONTIKOS), THE PRAKTIKOS
 English translation by Luke Dysinger, O.S.B.
 From the Guide to Evagrius Ponticus, edited by Joel Kalvesmaki, 2026 edition
 https://evagriusponticus.net
+Rights: CC BY 4.0 (Creative Commons Attribution 4.0 International -- NOT
+public domain; attribution to Luke Dysinger and the Guide to Evagrius
+Ponticus must travel with any quotation. See the LICENCE paragraph below
+for the full terms this line restates in the Rights: format
+cic/engine/texts_registry.py scans for.)
 
 LICENCE - AND THIS FILE IS THE FIRST IN THIS CORPUS THAT IS NOT PUBLIC
 DOMAIN. Every other file under cic/texts/ is out of copyright by age. This

@@ -33,6 +33,21 @@ README - e.g. "this volume's own Julius is Africanus, not Rome" - preserved
 here so it survives being folded into a generated document instead of a
 hand-edited one).
 
+THE DATE RULE IS ROLLING, NOT FIXED AT 1929. US copyright duration is
+published-work-plus-95-years; a work enters the public domain on January 1
+of the year 95 years after its publication, every year, on a rolling basis.
+As of 2026-01-01, that means works published through 1930 are public
+domain, not just through 1929 - last year's line, not a permanent one.
+Individual ENTRIES notes below that cite "pre-1929" or "to ~1929" are
+historical records of the rule as it stood when that specific file was
+vendored and are correct as written; they are deliberately NOT rewritten
+here to say 1930, per this registry's own no-rewrite-history practice
+(the same discipline that keeps a superseded file's old note rather than
+deleting it). Anyone applying the date rule to a NEW candidate should use
+the current year-95 threshold, not copy the "1929" figure out of an old
+note. This threshold needs restating again next January, and the January
+after that, indefinitely - it is not a one-time fix.
+
 Usage:
   python cic/engine/texts_registry.py                 # report
   python cic/engine/texts_registry.py --write-readme   # regenerate cic/texts/README.md
@@ -755,6 +770,69 @@ ENTRIES: tuple[TextEntry, ...] = (
               "since the DOCX conversion carried none of its own. This closes the last item on this "
               "world's Source Acquisition Manifest download list - covers Doc_02 sec 1.1's citation "
               "directly and is not present in the vendored npnf208 volume."),
+    TextEntry("anan-isho_paradise-v2-sayings_budge1907.txt", "Mark", "date unknown (present on disk "
+              "before this row existed; retroactively declared 2026-09-02, not guessed)",
+              "'Anan-Isho's Syriac recension of the Apophthegmata Patrum material, Vol. II of Budge's "
+              "Paradise, trans. E. A. Wallis Budge (Chatto & Windus, 1907). Public domain by the file's "
+              "own header (1907 publication date). This file was present in cic/texts/ and already "
+              "cited by six desert quote/source records before this ENTRIES row existed - an "
+              "undeclared-vendoring gap the registry itself flags as a problem, closed here without "
+              "changing the file or re-verifying the citations, which the registry's own 'cited by' "
+              "column computes fresh from the records every run regardless of this row."),
+    TextEntry("evagrius_praktikos_dysinger.txt", "Mark", "date unknown (present on disk before this "
+              "row existed; retroactively declared 2026-09-02, not guessed)",
+              "Evagrius Ponticus, the Praktikos, trans. Luke Dysinger, O.S.B., from the Guide to "
+              "Evagrius Ponticus (evagriusponticus.net). NOT public domain - the first file in this "
+              "corpus under an open licence rather than out-of-copyright-by-age: CC BY 4.0, attribution "
+              "to Dysinger and the Guide required with any quotation, per the file's own LICENCE "
+              "paragraph. A machine-readable 'Rights:' line was added to the file 2026-09-02 (restating "
+              "the existing prose licence, not changing its terms) so the registry's own rights-check "
+              "stops reporting UNVERIFIED for a file that was never actually undeclared, only "
+              "undetected by the regex. Already cited by ten desert records before this row existed."),
+    TextEntry("lucian_works-vol4-peregrine_fowler1905.txt", "Mark", "date unknown (present on disk "
+              "before this row existed; retroactively declared 2026-09-02, not guessed)",
+              "The Works of Lucian of Samosata, Vol. IV, trans. H. W. and F. G. Fowler (Oxford: "
+              "Clarendon Press, 1905) - Lucian's own account of Peregrinus, the pahc world's control on "
+              "an outside pagan witness. Public domain by the file's own header (1905 publication "
+              "date). Already cited by four pahc records before this row existed."),
+    TextEntry("macarius_fifty-spiritual-homilies_mason1921.txt", "Mark", "date unknown (present on "
+              "disk before this row existed; retroactively declared 2026-09-02, not guessed)",
+              "Fifty Spiritual Homilies of St. Macarius the Egyptian, trans. A. J. Mason (SPCK/"
+              "Macmillan, 1921), from an Internet Archive scan (item fiftyspiritualho00pseuuoft). "
+              "Public domain by the file's own header (1921 publication date, pre-1929; Mason himself "
+              "d. 1928, also clear under UK life-plus-70). A machine-readable 'Rights:' line was added "
+              "2026-09-02, restating the file's own 'RIGHTS.' paragraph verbatim in the format the "
+              "registry's regex scans for - the paragraph itself already stated public domain, the "
+              "regex just could not see it. Attribution disputed within the file itself (Pseudo-"
+              "Macarius vs. Macarius the Egyptian - see the file's own 'WHAT THIS IS, AND WHOSE IT IS' "
+              "section); the ascription question is a content matter for whichever world cites it, not "
+              "a rights question, and is unaffected by this row. Already cited by two desert records "
+              "before this row existed."),
+    TextEntry("pachomius_rules-ethiopic_schodde1885.txt", "Mark", "date unknown (present on disk "
+              "before this row existed; retroactively declared 2026-09-02, not guessed)",
+              "The Rules of Pachomius, translated from the Ethiopic by George H. Schodde (The "
+              "Presbyterian Review, vol. 6, 1885). Public domain by the file's own header (1885 "
+              "publication date). Already cited by nine desert records before this row existed, "
+              "including srcDES-level source and story records - among the more heavily load-bearing "
+              "files in this batch of seven."),
+    TextEntry("palladius_paradise-v1-syriac_budge1907.txt", "Mark", "date unknown (present on disk "
+              "before this row existed; retroactively declared 2026-09-02, not guessed)",
+              "The Paradise, Volume I (1907): Budge's Preface and Introduction, Athanasius's Life of "
+              "Saint Anthony in Syriac, and the Paradise of Palladius, Book I, trans. E. A. Wallis Budge "
+              "(London: Chatto & Windus, 1907). Public domain by the file's own header (1907 "
+              "publication date). The most heavily cited file in this batch of seven by a wide margin - "
+              "sixteen records across four worlds (alx, desert, hal, syr) before this row existed, "
+              "including desert's own Athanasius Vita Antonii Syriac-recension source and several "
+              "quote records. Companion volume to palladius_lausiac-history_clarke1918.txt (already "
+              "registered) and anan-isho_paradise-v2-sayings_budge1907.txt (Vol. II, this same batch)."),
+    TextEntry("tacitus_annals-15-44_church-brodribb1876.txt", "Mark", "date unknown (present on disk "
+              "before this row existed; retroactively declared 2026-09-02, not guessed)",
+              "Tacitus, Annals Book XV ch. 44 - the Great Fire of Rome and Nero's punishment of "
+              "Christians, trans. Church and Brodribb (Macmillan, 1876) per internal stylistic evidence "
+              "(the file's own text names no translator). Public domain by the file's own header (1876 "
+              "publication date). Pahc's outside-pagan-witness control on the Neronian persecution "
+              "narrative, alongside the Lucian and Suetonius material. Already cited by four pahc "
+              "records before this row existed."),
 )
 
 
@@ -787,6 +865,23 @@ def rights_declared(header: str) -> str | None:
     if not m:
         return None
     return (m.group(1) or m.group(2)).strip()  # exactly one alternative matches
+
+
+def rights_clears(rights: str | None) -> bool:
+    """Whether a declared rights basis is one this registry accepts as
+    verified, not just present. Two categories, not one: public domain (the
+    original and still the overwhelming majority - out of copyright by age
+    or an accepted transcriber declaration), and an explicit open licence
+    (evagrius_praktikos_dysinger.txt, added 2026-09-02, the first file in
+    this corpus that is not public domain - CC BY 4.0, which is lawful to
+    vendor but carries an attribution obligation the PD files do not).
+    Anything else - blank, a bare 'copyright', an in-copyright notice - is
+    correctly NOT cleared here; this function widens what counts as
+    verified, it does not loosen the verification itself."""
+    if not rights:
+        return False
+    r = rights.lower()
+    return "public domain" in r or "cc by" in r
 
 
 def title_declared(header: str) -> str | None:
@@ -876,9 +971,10 @@ def registry_problems(entries: tuple, discovered: list, headers: dict) -> list:
                         f"undeclared vendoring")
     for name in sorted(declared & found):
         r = rights_declared(headers.get(name, ""))
-        if not (r and "public domain" in r.lower()):
-            problems.append(f"{name}: no verifiable public-domain rights line found in its "
-                            f"own header ({r!r}) - do not treat as cleared for use")
+        if not rights_clears(r):
+            problems.append(f"{name}: no verifiable rights line found in its own header "
+                            f"({r!r}) - not public domain and no recognized open licence, "
+                            f"do not treat as cleared for use")
     return problems
 
 
@@ -920,7 +1016,7 @@ def report() -> int:
         if not r.exists:
             print(f"{r.filename:<{namecol}}{'MISSING FILE':<16}")
             continue
-        ok = bool(r.rights and "public domain" in r.rights.lower())
+        ok = rights_clears(r.rights)
         rights_mark = r.rights if ok else f"UNVERIFIED ({r.rights!r})"
         print(f"{r.filename:<{namecol}}{rights_mark:<16}{len(r.citing):<10}")
 
@@ -935,8 +1031,8 @@ def report() -> int:
         for p in problems:
             print("  -", p)
         return 1
-    print("\nOK: every vendored file has a header-verified public-domain rights line, "
-          "an ENTRIES row, and no ENTRIES row points at a missing file.")
+    print("\nOK: every vendored file has a header-verified rights line (public domain, or a "
+          "recognized open licence), an ENTRIES row, and no ENTRIES row points at a missing file.")
     return 0
 
 
