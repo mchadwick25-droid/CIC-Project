@@ -605,3 +605,27 @@ design document plus the page-by-page storyboard — filed in
 `Ministry/Features/Website-V2/` proper, not Sandbox, per the charter's
 own file discipline and draft-and-approve rule for participant-facing
 copy.
+
+## 2026-09-02 (later still) — D3 commissioned
+
+One Fable synthesis, pointed at the defended hybrid
+(`Sandbox/D1-directions/06-hybrid-open-door/`) as its primary source —
+not re-deriving from the five original directions, converging what
+already survived struggle. Asked to apply the hybrid's own review and
+defense findings as fixes (the verified fold layout, the header CSS
+fix, corrected parentage and distance claims), resolve or explicitly
+flag every accumulated "ruling for Mark" across the hybrid's README,
+review, and defense (~20 items) rather than silently dropping any, and
+build to the fragment ruling above. Two deliverables, in
+`Ministry/Features/Website-V2/` proper: `CiC_Website_Design_V2.md` (the
+full design document) and `CiC_Website_V2_Storyboard.md` (every page,
+every state, copy register, accessibility and responsive behavior).
+Draft-and-approve required on all participant-facing copy — locked
+brand lines quoted verbatim and marked distinctly from drafted prose.
+The Atlas is referenced as its own separate rework track (Direction
+02's twelve-item brief), not rebuilt here.
+
+**Next action:** once both files land, Opus reviews the synthesis
+against the charter, the constitution, and the full struggle record.
+Then Mark freezes it — after the freeze, changes need a change order,
+not quiet edits.
