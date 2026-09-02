@@ -271,17 +271,23 @@ are unchanged; the descriptive tile sentence (§1.3f's `entry.tile`) is
 still full census-verbatim text in the DOM, `-webkit-line-clamp: 2` for
 sighted layout only — a screen reader still hears the whole sentence.
 
-**The gallery caps its own height (2026-09-02 change order, same
-conversation):** both era groups sit inside one `overflow-y:auto`
-container, sized per breakpoint to fit exactly today's two eras with no
-scrollbar at all (measured: ≤480px 1560px, 481–699px 1380px, ≥700px
-800px — the tier boundaries are the grid's own column-count jumps, not
-the stylesheet's other breakpoints). A third era scrolls within that
-container instead of lengthening the page; the homepage's total height
-stays bounded no matter how many traditions or eras the project adds
-later. No "more below" affordance exists yet beyond the native
-scrollbar — there is nothing to scroll to today, so nothing to signal;
-revisit once a real third era makes it live.
+**The gallery shows one era at a time (2026-09-02, two change orders the
+same conversation — the first capped both eras together, the second
+narrowed that to one row):** each era (heading + chairs) is its own
+`.era-group`; the gallery snap-scrolls between them
+(`scroll-snap-type: y mandatory`), sized per breakpoint to the taller
+era (420px ≥700px, 760px 481–699px, 820px ≤480px) plus bottom padding
+so the *last* era can still scroll fully flush to the top (94/117/209px
+— without it the browser clamps the scroll short, confirmed directly,
+not assumed). A `← Previous era / {Era} · N of M / Next era →` control
+below the gallery moves between them, focus following so the move is
+announced; it's JS-revealed only, `hidden` by default, since without
+JavaScript the gallery is still a plain scrollable region (`tabindex=0`)
+with every era and every name in static markup, reachable by wheel,
+touch, or keyboard. A third era extends the scroll and the nav's own
+count instead of lengthening the page; **the padding is keyed to
+whichever era is currently last, so it needs re-measuring, not just the
+height tiers, the day a third era changes which one that is.**
 
 | # | Element | Copy | Register |
 |---|---|---|---|

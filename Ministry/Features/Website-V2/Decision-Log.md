@@ -1118,3 +1118,65 @@ visible "more eras below" affordance beyond the native scrollbar, since
 nothing scrolls today. Worth a second look — a subtle edge fade, or just
 confirming the native scrollbar reads clearly enough — once a real third
 era makes the scroll live.
+
+## 2026-09-02 (later still) — One era at a time, with a next/previous pointer
+
+**Mark's follow-up, same conversation:** even two eras stacked is more
+screen than it needs to be — show one era's row at a time, scrolled off
+rather than stacked, with a "next era" control to move between them.
+
+**Built:** each era (heading + its chairs) now wraps in its own
+`.era-group`; `.who-gallery` shows exactly one at a time via
+`scroll-snap-type: y mandatory` (each group `scroll-snap-align: start`)
+sized per breakpoint to fit the taller of today's two eras — 420px
+≥700px, 760px 481–699px, 820px ≤480px, the same measured-per-tier
+discipline as the two-era version this replaces. Below the gallery, an
+era-nav row (`← Previous era` / `The {Era} · N of M` / `Next era →`)
+moves between them: a real `<button>` pair, hidden by default and
+revealed only once JavaScript confirms it can wire them up — the same
+progressive-enhancement idiom already used for the returning-visitor side
+door. Clicking Next/Previous scrolls the gallery so that era's heading is
+flush with the top and moves focus there (`tabindex="-1"` on the
+era-group, `aria-labelledby` its heading) — the visitor caused the state
+change, so a screen reader hears it via focus moving, not a live region
+(the same rule the held-question flow already follows).
+
+**Without JavaScript**, the buttons never appear, but nothing is lost:
+`.who-gallery` is a plain native scroll region (`tabindex="0"` so it's
+keyboard-reachable — arrow keys and Page Down/Up scroll it once focused),
+and every era, every name, every link is still in the static markup,
+reachable by wheel, touch, or Tab. R-A10 holds without any extra work
+here, same as everywhere else on this page.
+
+**A real bug, caught before shipping, not after:** the first version set
+each tier's `max-height` to fit the *taller* of the two eras and stopped
+there. Clicking "Next era" from era 1 (`Household Leader` era, 3 chairs)
+to era 2 (`Deacon of the Letters` era, 4 chairs, shorter overall at most
+widths) landed mid-viewport, not flush — era 2 simply doesn't have enough
+of its *own* height to fill a viewport sized for era 1, and there's
+nothing after it, so the browser clamps `scrollTop` before era 2's top
+ever reaches the container's top. Confirmed directly (`scrollTop` stuck
+at the clamped max regardless of the value the script asked for) rather
+than assumed. Fixed with `padding-bottom` on the gallery — 94/117/209px
+per tier, `viewport height − era 2's own measured height` at that tier —
+giving the last era enough trailing space to scroll fully into place.
+**This padding is keyed to era 2 specifically being last**; the day a
+third era is added and something else becomes last, both the max-height
+tier table and this padding need re-measuring together, not just the
+former.
+
+**Verified**, not assumed: zero horizontal overflow 320–1440px; every
+tier's gallery genuinely scrolls (`scrollHeight > clientHeight` at all
+widths, confirming one-era-at-a-time is real, not just visually
+coincidental); Next from era 1 lands with era 2's heading exactly flush
+(`scrollTop` matches era 2's measured offset, not clamped short) and
+focus/labels/disabled-state all update correctly and *stay* correct
+across time (re-checked at multiple delays — the debounced scroll
+listener doesn't fight a button click's own state); Previous returns
+cleanly to `scrollTop: 0`; the held-question flow re-tested end to end
+inside the new nested structure with no regressions; no-JS confirmed via
+`javaScriptEnabled: false` — era-nav stays hidden, all seven Ask links
+present, native scroll still active. A nice side effect, not designed
+in: at the default (era 1) scroll position, era 2's heading and the top
+sliver of its portraits peek over the gallery's bottom edge on every
+tested width — a genuine "there's more" cue that costs nothing extra.

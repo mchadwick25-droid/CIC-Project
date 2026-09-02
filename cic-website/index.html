@@ -156,17 +156,29 @@ p{margin:0 0 1rem}
 .held .edit{font-family:var(--sans);font-size:.9rem}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .6rem;max-width:var(--measure)}
 .who .scope{color:var(--muted);max-width:var(--measure);margin:0 0 .6rem}
-/* The gallery's own viewport: today's two eras fit with no scrollbar at
-   any width (measured per tier below); a third era extends the scrollable
-   content past the cap instead of lengthening the page (Mark's ruling,
-   2026-09-02 — "or we will end up with over 50 rows"). Heights are
-   measured, not guessed, same discipline as the header's own table. */
-.who-gallery{max-height:800px;overflow-y:auto;padding-right:.5rem;margin:0 -.5rem 0 0}
-@media (max-width:699px){ .who-gallery{max-height:1380px} }
-@media (max-width:480px){ .who-gallery{max-height:1560px} }
-.era-head{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:1.8rem 0 .8rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem;display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline}
-.who-gallery .era-head:first-child{margin-top:0}
+/* The gallery's own viewport: one era at a time (Mark's 2026-09-02
+   follow-up — "only one row showing", so the section never takes up
+   huge screen space no matter how many eras the project reaches).
+   scroll-snap holds each era flush to the top; the era-nav pair below
+   moves between them without hunting for a native scrollbar. Heights
+   are measured per tier, same discipline as the header's own table.
+   padding-bottom matters as much as max-height: without trailing space
+   past the last era, the browser clamps scrollTop before that era's
+   own top ever reaches the container's top — verified this actually
+   happens (era 2 stalled mid-viewport, not flush) before adding it.
+   Both cap and padding are keyed to today's two eras; re-measure both
+   the day a third era changes which one is last. */
+.who-gallery{max-height:420px;overflow-y:auto;scroll-snap-type:y mandatory;padding-right:.5rem;padding-bottom:94px;margin:0 -.5rem 0 0}
+@media (max-width:699px){ .who-gallery{max-height:760px;padding-bottom:117px} }
+@media (max-width:480px){ .who-gallery{max-height:820px;padding-bottom:209px} }
+.era-group{scroll-snap-align:start}
+.era-head{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .8rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem;display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
+.era-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:.9rem;font-family:var(--sans)}
+.era-nav-btn{background:none;border:none;padding:.6rem .3rem;min-height:44px;font:inherit;font-size:.9rem;font-weight:600;color:var(--action);cursor:pointer;display:inline-flex;align-items:center;gap:.3rem}
+.era-nav-btn:hover,.era-nav-btn:focus-visible{color:var(--action-hover)}
+.era-nav-btn:disabled{visibility:hidden}
+.era-nav .current{color:var(--muted);font-size:.8125rem;text-align:center}
 .chairs{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1.75rem 1.25rem}
 .chair{--ring:var(--tint);display:flex;flex-direction:column;align-items:flex-start;gap:.45rem}
 @media (prefers-color-scheme:dark){ .chair{--ring:var(--tint-dark)} }
@@ -282,8 +294,9 @@ p{margin:0 0 1rem}
     <h2 id="who-title" data-copy="draft">Who would you like to ask?</h2>
     <p class="scope" data-copy="draft">Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.</p>
 
-    <div class="who-gallery">
-    <h3 class="era-head" data-copy="census"><span>The Early Church Era</span><span class="dates">70–312 CE</span></h3>
+    <div class="who-gallery" id="who-gallery" tabindex="0" role="group" aria-label="Traditions by era">
+    <div class="era-group" id="era-1" tabindex="-1" aria-labelledby="era-1-head" data-era-label="The Early Church Era">
+    <h3 class="era-head" id="era-1-head" data-copy="census"><span>The Early Church Era</span><span class="dates">70–312 CE</span></h3>
     <ol class="chairs">
       <li class="chair" style="--tint:#7c3aed;--tint-dark:#955FF0" data-copy="census">
         <div class="portrait"><img src="assets/portraits/house-churches.png" alt="Chloe, Representative of The House-Churches" width="72" height="72" loading="lazy" decoding="async"></div>
@@ -316,8 +329,10 @@ p{margin:0 0 1rem}
         </div>
       </li>
     </ol>
+    </div>
 
-    <h3 class="era-head" data-copy="census"><span>The Imperial Church Era</span><span class="dates">312–451 CE</span></h3>
+    <div class="era-group" id="era-2" tabindex="-1" aria-labelledby="era-2-head" data-era-label="The Imperial Church Era">
+    <h3 class="era-head" id="era-2-head" data-copy="census"><span>The Imperial Church Era</span><span class="dates">312–451 CE</span></h3>
     <ol class="chairs">
       <li class="chair" style="--tint:#7A2E2E;--tint-dark:#C36060" data-copy="census">
         <div class="portrait"><img src="assets/portraits/empire.png" alt="Marius, Representative of Church and Empire" width="72" height="72" loading="lazy" decoding="async"></div>
@@ -360,6 +375,13 @@ p{margin:0 0 1rem}
         </div>
       </li>
     </ol>
+    </div>
+    </div>
+
+    <div class="era-nav" id="era-nav" hidden>
+      <button type="button" class="era-nav-btn" id="era-prev">← Previous era</button>
+      <span class="current" id="era-nav-current"></span>
+      <button type="button" class="era-nav-btn" id="era-next">Next era →</button>
     </div>
 
     <p class="pilot-note" data-copy="live">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith.</p>
@@ -537,6 +559,54 @@ Array.prototype.forEach.call(document.querySelectorAll('a[data-q]'), function(a)
   a.addEventListener('click', function(e){ e.preventDefault(); hold(a.textContent, true); });
 });
 document.getElementById('held-edit').addEventListener('click', function(e){ e.preventDefault(); input.focus(); input.scrollIntoView({block:'center'}); });
+
+// Era nav — one era visible at a time (design record §11.6-equivalent:
+// buttons are a JS-only convenience; without JS the gallery is still a
+// plain scrollable region, every era and every name reachable by wheel,
+// touch, or keyboard once it's focused).
+var gallery = document.getElementById('who-gallery');
+var eraGroups = Array.prototype.slice.call(document.querySelectorAll('.era-group'));
+if (gallery && eraGroups.length > 1) {
+  var eraNav = document.getElementById('era-nav');
+  var eraPrev = document.getElementById('era-prev');
+  var eraNext = document.getElementById('era-next');
+  var eraCurrent = document.getElementById('era-nav-current');
+  var currentIdx = 0;
+  function offsetWithinGallery(el){
+    return el.getBoundingClientRect().top - gallery.getBoundingClientRect().top + gallery.scrollTop;
+  }
+  function currentEraIndex(){
+    var top = gallery.scrollTop, idx = 0;
+    for (var i = 0; i < eraGroups.length; i++) {
+      if (offsetWithinGallery(eraGroups[i]) <= top + 4) idx = i;
+    }
+    return idx;
+  }
+  function updateEraNav(idx){
+    eraPrev.disabled = idx === 0;
+    eraNext.disabled = idx === eraGroups.length - 1;
+    eraCurrent.textContent = eraGroups[idx].dataset.eraLabel + ' · ' + (idx + 1) + ' of ' + eraGroups.length;
+  }
+  function goToEra(idx){
+    idx = Math.max(0, Math.min(eraGroups.length - 1, idx));
+    gallery.scrollTop = offsetWithinGallery(eraGroups[idx]);
+    eraGroups[idx].focus({preventScroll:true});
+    currentIdx = idx;
+    updateEraNav(idx);
+  }
+  eraPrev.addEventListener('click', function(){ goToEra(currentIdx - 1); });
+  eraNext.addEventListener('click', function(){ goToEra(currentIdx + 1); });
+  // Manual wheel/touch scroll: debounced so scroll-snap's own settle
+  // (which fires intermediate scroll events) doesn't fight the number
+  // a button click just set.
+  var scrollTimer = null;
+  gallery.addEventListener('scroll', function(){
+    clearTimeout(scrollTimer);
+    scrollTimer = setTimeout(function(){ currentIdx = currentEraIndex(); updateEraNav(currentIdx); }, 120);
+  });
+  eraNav.hidden = false;
+  updateEraNav(0);
+}
 })();
 </script>
 </body>
