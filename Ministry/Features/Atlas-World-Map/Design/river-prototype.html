@@ -19792,6 +19792,28 @@ laneKeys.forEach(k=>{
   laneGenesisY[k]=yearToY(laneGenesisYear[k]);
 });
 
+// Which lane a new river visually peels off of at its genesis -- not assumed
+// to always be Origin. Checked against the census's own sourced edges into
+// each lane's earliest movement: Greek East & Orthodoxy's genesis entry (The
+// Church of Roman Palestine before Constantine) has a Documented edge in from
+// Alexandria -- Origen's own move there in 231 -- not from Origin. The
+// Greek/Latin bridge's genesis is formed from Greek East AND Latin West, two
+// already-differentiated lanes, not the undifferentiated trunk. Only "formed"
+// and "transmitted to" edges count as lineage; "argued against", "contemporary
+// with", and "in tension with" are relationships, not ancestry. A lane with no
+// such edge into its genesis movement (most of them -- the census doesn't
+// assert a specific parent for Latin West, Protestant, Global Revival, and
+// several others) gets no convergence at all: its river simply widens in its
+// own column rather than visually claiming a lineage the record doesn't.
+const LINEAGE_TYPES=new Set(['formed','transmitted to']);
+const laneParent={};
+laneKeys.forEach(k=>{
+  if(k===0)return;
+  const genesisId=DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start)[0].id;
+  const inbound=DATA.edges.find(e=>e.to===genesisId&&LINEAGE_TYPES.has(e.type)&&byId[e.from]);
+  if(inbound)laneParent[k]=byId[inbound.from].laneOrder;
+});
+
 /* ---- Per-lane density profile (rule 2: width is water volume) and a seeded
    winding wave (rule 3) -- sampled every 24px down the whole sheet. ---- */
 const STEP=24;
@@ -19850,23 +19872,26 @@ function smoothPath(pts){
   d+=`L ${last.x.toFixed(1)} ${last.y.toFixed(1)} `;
   return d;
 }
-// How long (in canvas units) a newly-emerging lane spends visibly peeling off
-// the Origin trunk -- widening from nothing and drifting out from Origin's own
-// position to its own column -- rather than simply appearing, already at full
-// width, in an empty column of its own. "Origin — before the lanes divide" is
-// the literal trunk every other family differentiates out of; the geometry
-// should say so instead of contradicting the lane's own name.
+// How long (in canvas units) a newly-emerging lane spends visibly widening
+// from nothing -- and, where laneParent[k] names a real documented source,
+// drifting out from THAT lane's own position into its own column -- rather
+// than simply appearing, already at full width, in an empty column of its
+// own. Without a documented parent, only the width ramps in; the geometry
+// never invents a lineage the record doesn't assert.
 const MERGE_WINDOW=260;
 function riverPath(k, amp){
   const left=[], right=[];
+  const parentK=laneParent[k];
   for(let y=0;y<CANVAS_H;y+=STEP){
     const ownX=laneX[k]+laneWave[k](y)*amp;
     const fullW=widthAt(k,y);
     let cx=ownX, w=fullW;
     if(k!==0){
       const t=Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));
-      const originX=laneX[0]+laneWave[0](y)*amp;
-      cx=originX+(ownX-originX)*t;
+      if(parentK!=null){
+        const parentX=laneX[parentK]+laneWave[parentK](y)*amp;
+        cx=parentX+(ownX-parentX)*t;
+      }
       w=fullW*t;
     }
     const hw=w/2*(0.35+0.65*Math.min(1,amp>0?1:0.5));
