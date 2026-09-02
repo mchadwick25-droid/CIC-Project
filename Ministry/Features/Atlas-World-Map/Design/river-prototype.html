@@ -20516,6 +20516,12 @@ function hideTip(){tip.style.display='none';}
 
 /* ---- Side panel (click = full) ---- */
 const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody');
+// A handful of records use a bare "-" as their own placeholder for "not
+// applicable here" (relationsSummary on 8 movements, sourcing on 2) rather
+// than leaving the field out. Rendered under its own header that reads as a
+// broken/empty section, not a considered answer -- treat it the same as
+// genuinely absent.
+function hasContent(v){return !!v&&v.trim()!=='-';}
 function openPanel(m){
   const inbound=DATA.edges.filter(e=>e.to===m.id), outbound=DATA.edges.filter(e=>e.from===m.id);
   const entry=m.entry;
@@ -20536,11 +20542,11 @@ function openPanel(m){
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
   if(m.longDescription)h+=`<h3>The Story</h3><p>${esc(m.longDescription)}</p>`;
   if(m.voices&&m.voices.length)h+=`<h3>Voices</h3><ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
-  if(m.sourcing)h+=`<h3>Sourcing</h3><p>${esc(m.sourcing)}</p>`;
+  if(hasContent(m.sourcing))h+=`<h3>Sourcing</h3><p>${esc(m.sourcing)}</p>`;
   if(m.floorNote)h+=`<h3>Doctrinal floor note</h3><p>${esc(m.floorNote)}</p>`;
   if(m.legacy)h+=`<h3>Legacy</h3><p>${esc(m.legacy)}</p>`;
   if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
-  if(m.relationsSummary)h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
+  if(hasContent(m.relationsSummary))h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
   if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
   if(inbound.length){h+='<h3>Influenced by</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}</div>`;});}
   if(m.continuesAs&&byId[m.continuesAs])h+=`<h3>Continues as</h3><p>${esc(byId[m.continuesAs].shortName||byId[m.continuesAs].name)} — the same ongoing church, next window.</p>`;
