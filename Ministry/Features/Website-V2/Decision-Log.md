@@ -807,3 +807,28 @@ unconditional deploy command.
 Pushing this entry now to trigger a real build under the new setting;
 next check is the Deployments tab for a preview URL tied to
 `claude/website-v2-sandbox`.
+
+## 2026-09-02 (later still) — Preview pipeline diagnosed and fixed
+
+**Root cause found via a live failed build, not guessed:** a real build
+on an unrelated branch (`claude/cic-tour-encouraging-reading-x5dxmw`,
+triggered once "Builds for non-production branches" was enabled) failed
+with "Missing entry-point to Worker script or to assets directory."
+Comparing it against a successful `main` build's own log showed why:
+`wrangler deploy` (production's command) runs a smart auto-detect step
+that finds `cic-website` as the static output directory and generates
+an ephemeral `wrangler.jsonc` for that build only (never committed to
+git — there is no wrangler config file anywhere in this repo, confirmed
+directly). `wrangler versions upload` (the non-production "Version
+command," a distinct dashboard field from "Deploy command") has no such
+auto-detect step and needs the assets directory named explicitly.
+
+**Fix, applied by Mark:** the Version command changed from
+`npx wrangler versions upload` to
+`npx wrangler versions upload --assets=cic-website`, matching what
+production's own auto-detect already resolves to. Production's Deploy
+command is untouched.
+
+Pushing this entry now as the real test of the fix; next check is the
+Deployments/build log for a clean, successful build on
+`claude/website-v2-sandbox` with its own preview URL.
