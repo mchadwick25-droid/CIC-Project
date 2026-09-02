@@ -20071,6 +20071,17 @@ function render(){
     // the water -- painted solid on top -- is what a reader's eye actually
     // lands on.
     gBands.appendChild(el('rect',{x:0,y:eraY0[i],width:CANVAS_W,height:eraH[i],fill:eraGround(i),opacity:0.5}));
+    // The band wash above is deliberately thin now, so whatever stream is
+    // passing through the header gutter (held at flat width right here, see
+    // the yearToY/density-sampling notes above) shows through at real
+    // strength -- exactly the point for the band generally, but it means the
+    // caption can no longer count on a calm, even backdrop the way it could
+    // over a fully opaque band. A dedicated plate behind just the text block
+    // (parchment, so it reads consistently against any era's tint and any
+    // family's river color, same reasoning as the per-glyph stroke halo
+    // already on .era-label/.era-tag/.era-context) keeps the caption legible
+    // without putting the whole gutter back to full opacity.
+    gLabels.appendChild(el('rect',{x:10,y:eraY0[i]+6,width:1120,height:120,fill:'var(--parchment)',opacity:0.5}));
     const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
