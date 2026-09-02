@@ -5,13 +5,17 @@ WHY. WORKS.yaml is hand-maintained prose-plus-structure, the same shape as
 texts_registry.py's own ENTRIES tuple - and that file's own docstring makes
 the argument this one follows: a registry that just repeats hand-typed
 claims is exactly the kind of self-certified report this project's review
-discipline already distrusts. Two things are worth checking every run
+discipline already distrusts. Three things are worth checking every run
 rather than trusting whatever was true when a WORKS.yaml entry was written:
 (1) every item address actually resolves to a file that exists under
-cic/texts/, and (2) work_id values are unique, since other tooling (a
-future source-record work_id field, per Fable's blueprint W1) will use
-work_id as a foreign key and a silent duplicate would corrupt that join
-without ever raising an error on its own.
+cic/texts/, (2) work_id values are unique, since `source` records' own
+work_id field (added 2026-09-02, per Fable's blueprint W1 and Mark's
+sign-off) uses work_id as a foreign key and a silent duplicate would
+corrupt that join without ever raising an error on its own, and (3) every
+work_id a source record actually USES names a real entry here - the field
+is free-typed prose in a records/*.md file, unchecked by the schema itself
+(a typo is still a well-formed string), so this is the only place that
+join gets verified at all.
 
 WHAT THIS DOES NOT CHECK. Whether an external_id (CPG/CPL/Wikidata) is
 correct - that would require calling out to those authorities, which this
@@ -100,6 +104,34 @@ def problems(data: dict) -> list[str]:
     return out
 
 
+def record_work_id_usage(known_ids: set[str]) -> tuple[int, list[str]]:
+    """Cross-check the other direction: every `work_id` a `source` record
+    actually carries must name a real entry here. Most source records have
+    no work_id at all - WORKS.yaml is seeded, not comprehensive, and that's
+    expected, not a finding. A work_id that IS set but matches nothing is
+    the one thing worth catching, since nothing else in the pipeline would.
+    Returns (how many source records are linked, the mismatch problems)."""
+    sys.path.insert(0, str(REPO_ROOT))
+    from engine.m1.loader import load_world_records
+    from engine.m1.registry import formation_world_keys
+
+    linked = 0
+    out = []
+    for world_key in formation_world_keys():
+        records = load_world_records(world_key)
+        for rid, record in records.items():
+            if record.get("record_type") != "source":
+                continue
+            wid = record.get("work_id")
+            if not wid:
+                continue
+            if wid in known_ids:
+                linked += 1
+            else:
+                out.append(f"{rid}: work_id {wid!r} does not match any WORKS.yaml work_id")
+    return linked, out
+
+
 def report() -> int:
     data = load()
     works = data.get("works") or []
@@ -113,13 +145,19 @@ def report() -> int:
               f"external_ids verified: {verified or 'none'}")
 
     probs = problems(data)
+    known_ids = {w.get("work_id") for w in works if w.get("work_id")}
+    linked, record_probs = record_work_id_usage(known_ids)
+    probs = probs + record_probs
+    print(f"\n{linked} source record(s) across the fleet carry a work_id linking here.")
+
     if probs:
         print(f"\n{len(probs)} problem(s):")
         for p in probs:
             print(f"  - {p}")
         return 1
     print("\nOK: every work_id unique, every item address resolves to a file on disk "
-          "(or is a flagged placeholder awaiting narrowing).")
+          "(or is a flagged placeholder awaiting narrowing), and every source record's "
+          "work_id (where set) names a real entry here.")
     return 0
 
 

@@ -35,7 +35,16 @@
 # one -- it is already proven on this exact problem shape.
 #
 # SCHEMA, per work:
-#   work_id:            slug, stable, referenced by canonical addresses below
+#   work_id:            slug, stable, referenced by canonical addresses below.
+#                       Also the foreign key a world's own `source` record can
+#                       carry in its own (optional) `work_id` field, added
+#                       2026-09-02 per Mark's sign-off: "optional/best effort
+#                       and existing where possible" - not required, not
+#                       backfilled by guessing, only set where a source
+#                       record's own author+work+edition already and
+#                       unambiguously match one entry here. Cross-checked by
+#                       cic/engine/works_registry.py's record_work_id_usage(),
+#                       not by the record schema itself.
 #   title:               the work's own conventional English title
 #   author:               author slug (matches corpus-map's author convention
 #                         where one exists, e.g. UNATTRIBUTED.yaml's slugs)

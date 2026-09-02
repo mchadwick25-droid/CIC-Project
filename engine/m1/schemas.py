@@ -152,6 +152,17 @@ TYPE_PROPERTIES: dict[str, dict] = {
         "attribution_status": {"type": "string"},
         "discovery_channel": {"type": "string"},
         "external_ids": {"type": "object"},
+        # Optional, additive (2026-09-02, Mark's sign-off: "optional/best
+        # effort and existing where possible"): foreign key into
+        # cic/corpus-map/WORKS.yaml's own work_id, cross-checked by
+        # cic/engine/works_registry.py's record_work_id_problems(), not by
+        # this schema (a typo'd id is still a well-formed string). Not yet
+        # in COMPLETION_REQUIRED - existing source records validate
+        # unchanged without it, and most will stay unset: WORKS.yaml is
+        # itself a seeded, incomplete registry (four entries at the time
+        # this field was added), so absence means "not joined yet," not
+        # "wrong."
+        "work_id": {"type": "string"},
     },
     "term": {
         "plain_meaning": {"type": "string"},
