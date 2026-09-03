@@ -20509,6 +20509,9 @@ const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 // claims it does.
 const gBreakBand=el('g',{id:'break-band'}); gRoot.appendChild(gBreakBand);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
+// Sits directly above the rivers and nothing else -- edges/nodes/labels
+// stay crisp on top of it, only the river gets the band-edge fade.
+const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
 const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
@@ -20535,6 +20538,23 @@ const defs=el('defs',{});
 const portraitClip=el('clipPath',{id:'portraitClip'});
 portraitClip.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R}));
 defs.appendChild(portraitClip);
+// Mark, live-site review: a river cutting straight through an era break
+// band at full color read as the band being interrupted rather than the
+// river passing under it -- but painting the whole band on top of the
+// rivers (tried before, see the gBreakBand-vs-gRivers ordering note below)
+// tinted every family hue with the band's own purple, worst for the hues
+// already close to it. This gradient is the middle path: transparent
+// through the band's own middle (rivers keep their true color there,
+// same as today), fading to the band tint only in a strip right at each
+// edge, so a river reads as ducking under the band at the seam without
+// losing its color across the band's full height. objectBoundingBox
+// (the SVG default) means one gradient works for every era's rect
+// regardless of its absolute y position.
+const bandFadeGrad=el('linearGradient',{id:'bandFade',x1:'0',y1:'0',x2:'0',y2:'1'});
+['0','0.18','0.82','1'].forEach((offset,i)=>{
+  bandFadeGrad.appendChild(el('stop',{offset,'data-edge':(i===0||i===3)?'1':'0'}));
+});
+defs.appendChild(bandFadeGrad);
 svg.appendChild(defs);
 
 // Orientation for readers with no map of church history to hang this on. Each
@@ -20682,8 +20702,17 @@ function wrapText(str,maxChars){
 }
 
 function render(){
-  gBands.innerHTML=''; gBreakBand.innerHTML=''; gRivers.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gLabels.innerHTML='';
+  gBands.innerHTML=''; gBreakBand.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gLabels.innerHTML='';
   lastOrganic=null; // force the next applyDetail() to re-apply to the freshly rebuilt elements
+
+  // Same color/opacity the break band itself uses (see below) -- kept in
+  // sync here since both need to match for the fade to read as "the same
+  // band, thinning out" rather than two different tints.
+  const bandFadeColor=isDark()?'#F6F6F2':'#C9B8E0', bandFadeOp=isDark()?0.92:0.45;
+  document.querySelectorAll('#bandFade stop').forEach(s=>{
+    s.setAttribute('stop-color',bandFadeColor);
+    s.setAttribute('stop-opacity',s.dataset.edge==='1'?bandFadeOp:0);
+  });
 
   // Era bands -- passthrough grounding, never a container (rule 4)
   eras.forEach((e,i)=>{
@@ -20719,6 +20748,12 @@ function render(){
     // now, which is why the caption text is fixed dark ink in both themes
     // rather than following the page's own light/dark text tokens.
     gBreakBand.appendChild(el('rect',{x:BLEED_X,y:eraY0[i]+6,width:BLEED_W,height:120,fill:isDark()?'#F6F6F2':'#C9B8E0',opacity:isDark()?0.92:0.45}));
+    // Same rect, same band, painted again on top of the rivers -- but
+    // filled with the band-fade gradient (transparent through its own
+    // middle) instead of a flat tint, so only the ~22px right at the top
+    // and bottom edges actually shows here; the band's own middle keeps
+    // showing whatever the rivers already painted beneath it.
+    gBandFade.appendChild(el('rect',{x:BLEED_X,y:eraY0[i]+6,width:BLEED_W,height:120,fill:'url(#bandFade)'}));
     const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
