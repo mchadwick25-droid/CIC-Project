@@ -2403,3 +2403,69 @@ themes, all three lines render as intended.
 
 **Next action:** ship this as a small follow-up PR/push to `main`,
 same as PR #85.
+
+---
+
+## 2026-09-03 (later still) — "What's new" note, targeted at returning
+visitors only, self-expiring by design
+
+**Origin.** Mark: add a banner announcing recent launches (Cappadocian,
+the Atlas rebuild) so people who visited a month ago know what's
+changed.
+
+**Real tension named, not silently resolved either way.** A static
+"New: Cappadocian!" line is exactly what the 2026-09-03 timeless-copy
+ruling exists to prevent - it goes stale the moment the next thing
+ships, and nothing about "add a banner" says who updates or retires it
+later. Built to self-expire instead of raising this as a blocker: a
+version string on the update (`WHATS_NEW_VERSION`), checked against
+what each visitor's browser has already recorded seeing
+(`cic-whats-new-seen` in localStorage). Shows once to whoever's behind,
+then gets out of the way - no manual cleanup needed when the next
+update lands, just bump the version string and change the text.
+
+**Targeted, not universal.** The homepage already had exactly the
+right hook: `cic-returning`, a flag set the first time anyone clicks
+through to a real conversation, already driving the existing
+`#welcome-back` line. Piggybacked on it rather than adding a page-wide
+banner - a first-time visitor sees the clean page this session just
+finished building, nothing more; only someone who's actually been here
+before sees what's changed since.
+
+**Copy shipped:** "Since you were last here: a new tradition — the
+Cappadocian Churches — and Church in History, completely rebuilt." -
+using the site's own existing names for both (the chair label, the
+portal title), not new marketing language.
+
+**Verified, all four visitor states directly (not assumed):** a brand
+new visitor sees nothing; a returning visitor with no seen-marker yet
+sees it once, and the marker sets; a returning visitor who already saw
+this exact version sees nothing on repeat visits; a returning visitor
+who last saw an older version sees it again - the exact "logged in
+last month" case Mark named. Zero overflow at 320/375/1024/1440px.
+Zero comments/`data-copy` on the file.
+
+**Next action:** ship as a follow-up PR to `main`, same pattern as
+before.
+
+**Corrected, same day - Mark rejected this design.** "please dont just
+go with your own idea, i asked for a banner that announces things to
+people about what is new, that is what i want... i can update the
+banner everytime we get something new done." He asked for a plain,
+visible, manually-maintained banner; this thread substituted its own
+design (gated to returning visitors only, self-expiring via a version
+string) without checking first. The timeless-copy tension named above
+was real, but Mark's own answer to it - he'll update the banner by
+hand each time - was simpler than what got built, and it wasn't this
+thread's call to override.
+
+**Rebuilt to match what was actually asked.** Removed the
+`cic-returning` gating, the `WHATS_NEW_VERSION` string, and the
+`cic-whats-new-seen` localStorage check entirely - no hidden state,
+nothing JS-driven. `.whats-new-banner` is now a plain, always-visible
+div near the top of the page (after the hero, before the who section),
+same visual register as the rest of the site (bordered card, eyebrow
+label), holding the same copy in plain text Mark can edit directly in
+the HTML whenever something new ships. Verified visible on a
+completely fresh page load with no localStorage set, zero overflow
+320-1440px both themes, zero comments/`data-copy`.
