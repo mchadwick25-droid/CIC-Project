@@ -2094,3 +2094,29 @@ filled seat, "Already seated," "Leave this seat open," and Escape all
 still work; zero overflow 320–1440px with the info view open at every
 width; zero console errors. Zero comments and zero `data-copy`
 attributes in both files, unchanged.
+
+---
+
+## 2026-09-03 (later still) — Chairs by era become an accordion
+
+Mark, checking the phone layout: the era pagination (scroll + "Previous/
+Next era") never triggers yet with only 7 chairs across 2 eras, and his
+actual concern was scale — as more eras are added, he doesn't want a
+visitor scrolling past many profiles to find the one they want. Fix:
+each era heading is now a toggle; opening one closes any other open era,
+so at most one era's chairs show at a time regardless of how many eras
+exist later. Old scroll-cap/pagination JS (`sizeGallery`, era-nav
+prev/next) removed as dead weight now that the toggle makes it
+unnecessary.
+
+**Changed, `index.html`:** first era open by default, rest collapsed,
+on click. No `hidden` baked into the markup itself — JS applies the
+collapsed state on load, so a no-JS visitor still sees every chair,
+matching how the rest of the site degrades.
+
+**Verified:** initial state (era 1 open, era 2 closed); clicking era 2
+opens it and closes era 1; clicking an open era closes it with none
+open; re-opening works; record links inside an open era still resolve;
+zero overflow 320–1440px with either era open; zero console errors;
+no-JS context confirms both eras' chairs are present and unhidden in
+the raw markup.
