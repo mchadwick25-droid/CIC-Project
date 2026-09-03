@@ -95,6 +95,7 @@ p{margin:0 0 1rem}
 .hero h1{font-size:clamp(2rem,4.5vw,3rem);line-height:1.12;margin:0 0 1rem}
 .welcome-back{font-family:var(--sans);font-size:.95rem;color:var(--muted);margin:1rem auto 0;max-width:30rem}
 .welcome-back a{color:var(--action)}
+.whats-new{font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:.6rem auto 0;max-width:30rem}
 @media (max-width:640px){
   .hero{padding:2rem 1.25rem .5rem}
   .mark-line{margin-bottom:1.25rem}
@@ -194,6 +195,7 @@ p{margin:0 0 1rem}
     </div>
     <h1 id="hook">Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
     <p class="welcome-back" id="welcome-back" hidden>Welcome back. <a href="https://cic-engine.onrender.com/" data-app>Go straight to a conversation →</a></p>
+    <p class="whats-new" id="whats-new" hidden>Since you were last here: a new tradition — the Cappadocian Churches — and Church in History, completely rebuilt.</p>
   </section>
 
   <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
@@ -351,10 +353,15 @@ Array.prototype.forEach.call(document.querySelectorAll('a[data-app]'), function(
   a.href = a.href.replace('https://cic-engine.onrender.com', APP);
   a.addEventListener('click', function(){ try { localStorage.setItem('cic-returning','1'); } catch(e){} });
 });
+var WHATS_NEW_VERSION = '2026-09-cappadocian-atlas';
 try {
   if (localStorage.getItem('cic-returning') === '1') {
     document.getElementById('welcome-back').hidden = false;
     document.getElementById('side-door').hidden = false;
+    if (localStorage.getItem('cic-whats-new-seen') !== WHATS_NEW_VERSION) {
+      document.getElementById('whats-new').hidden = false;
+      localStorage.setItem('cic-whats-new-seen', WHATS_NEW_VERSION);
+    }
   }
 } catch(e){}
 
