@@ -21082,8 +21082,14 @@ function render(){
           stroke:'var(--gold-leaf)', 'stroke-width':1.6, opacity:0.7, 'stroke-dasharray':'1,4',
           'stroke-linecap':'round', fill:'none'
         }));
+        // The seam-mark dot belongs only to the cross-lane bridge above --
+        // it was previously appended unconditionally here, so all 75 same-lane
+        // continuesAs links (whose continuity the river itself already shows)
+        // got an unexplained, non-interactive gold-leaf dot stranded mid-river
+        // with no label, tooltip, or hover state. Nested inside the same
+        // !sameLane check as the bridge line it marks fixes it.
+        gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold-leaf)'}));
       }
-      gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold-leaf)'}));
     }
   });
 
