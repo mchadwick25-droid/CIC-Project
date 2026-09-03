@@ -2242,3 +2242,34 @@ how-lines all render correctly (checked directly, not assumed).
 
 **Next action:** none outstanding on the landing page itself - this
 clears the way for the merge-and-ship discussed in the entry above.
+
+---
+
+## 2026-09-03 (later still) — Atlas repositioned: exploration, not a
+second conversation-starter
+
+**Origin.** Mark, continuing the same portal-reorder thought: "for the
+atlas, lets focus on exploring the 200 plus worlds, connections and
+stories." Once Table leads as the headline "have a real conversation"
+feature, the Atlas doesn't need to also pitch conversations - its own
+identity is the exploration layer underneath: the whole landscape, how
+movements connect, and the stories that belong to no single one of
+them (exactly what the story-marker work already ships).
+
+**Fixed something the last entry's own copy got wrong in hindsight.**
+The Atlas portal's paragraph had just been given a trailing "start a
+conversation with anyone already speaking" clause, written before this
+repositioning. Pulled that back out. New text: "Two hundred and some
+Christian movements across the whole of Church history are on record
+here — how they connect, where they diverged, and the stories that
+don't belong to just one of them. Hover for a glimpse, click for
+depth." Round figure, not the exact census count - same timeless-copy
+principle as everywhere else on this page. Eyebrow and CTA unchanged.
+
+**Scope note:** this is the landing-page teaser card only.
+`atlas-v3.html`'s own interior framing is a different, out-of-scope
+track for this thread; if Mark wants the same exploration-first
+emphasis carried onto the Atlas page itself, that's a request for
+whichever thread owns it, not assumed here.
+
+**Verified:** zero comments/`data-copy` on the file.
