@@ -1,0 +1,25 @@
+# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
+# filename, matching AUTHORS.md's `gregory-nyssa`. Superseded by the
+# complete file (gregory-nyssa_life-of-macrina_clarke1916.txt, assigned
+# separately) for narrative content, but still real, distinct content in
+# its own right (Clarke's introduction) - assigned rather than left out,
+# per this project's no-deletion-of-superseded-material practice.
+source_file: gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt
+assignments:
+- work: The Life of St. Macrina - Clarke's Introduction only (not the
+    biography's narrative text)
+  author: gregory-nyssa
+  locus: whole file (Clarke's translator's introduction, three sections)
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: provisional
+  note: >
+    provisional, not assigned: this is Clarke's own INTRODUCTION (real
+    biographical facts about Gregory of Nyssa's life, per the file's
+    own content note) rather than Gregory's own narrative text, which
+    is what the complete companion file actually carries. A builder
+    citing this world's Macrina material should reach for
+    gregory-nyssa_life-of-macrina_clarke1916.txt (assigned separately)
+    first; this file's own biographical-facts content is real but
+    secondary.

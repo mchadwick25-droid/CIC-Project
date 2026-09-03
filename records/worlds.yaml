@@ -4,17 +4,17 @@
 # commits only.
 worlds:
   fix:
-    kind: fixture          # NOT one of the six formation worlds: the harness's own negative control (spec stage 0.6). Never listed beside them, never admitted, never reachable by a participant.
+    kind: fixture
     world_id: fixture-synthetic
     display_name: "Fixture World (synthetic)"
     time_window: {start: 100, end: 100}
     place: "Testland (synthetic, no real geography)"
-    representative: {name: Vera, role_label: Witness}   # sanctioned fabrications (spec principle 14)
-    state: built            # gates green (stage 1) + a compiled package (stage 2); never advances past built - not a real world, never admitted or open
-    census_id: null        # not an Atlas entry - synthetic only
+    representative: {name: Vera, role_label: Witness}
+    state: built
+    census_id: null
     package:
-      manifest_hash: "sha256:767835bf37b8d75525f1c004c27807a95460c267d49712f6d6a64f74a8ae130e"
-      location: "packages/fix/2026-08-29T10-26-51Z"   # THE REVERT recompile 2026-08-29 (Mark: "take it back to when it was working... make sure there are not other things that are forced saying"): fleet_voice restored to fleet-parity + ONLY the pronoun frame clause; register_hold, story_quote_reach, and the citation-address addendum are gone; the Table exact-sentence prescription is gone (wiring). pahc additionally: the Trinity aside trimmed from jesus-as-god witness + demo (out-of-window vocabulary; the Facilitator owns the time-bridge). Source breadth is now the evidence layer's job (_diverse_take). Batteries run against THIS pin.
+      manifest_hash: "sha256:7d764dd1108421b7e1fdd22039579f88881ead7bd8eec940fabc5318cf9bb0d1"
+      location: "packages/fix/2026-09-01T17-21-47Z"
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
   alx:
@@ -23,19 +23,7 @@ worlds:
     display_name: "Alexandrian Christianity"
     time_window: {start: 150, end: 400}
     place: "Alexandria and Egypt"
-    # doorway_place: the participant-facing subtitle line, one per formation world
-    # (uniform key set, cross_world-enforced). Here it matches `place` - the
-    # split only earns different values where the model-facing locator is a
-    # build catalogue (desert) or restates the horizon (syr); `place` itself is
-    # MODEL-FACING (it compiles into the voice capsule's "Place:" line).
     doorway_place: "Alexandria and Egypt"
-    # doorway_description: the participant-facing doorway paragraph, REGISTRY-OWNED
-    # (Mark's direction 2026-08-28: "simple modern english that introduces scholor
-    # terms when approptiate" - the doorway had been reusing the world_core's
-    # model-facing `horizon` verbatim, which restated the place line and read like
-    # an abstract). Served registry-first by engine/api/wiring.list_worlds, same
-    # pattern as card_name; `horizon` itself is untouched and still feeds the
-    # voice's own prompt. Fleet-wide field, one per formation world.
     doorway_description: >-
       Alexandria was the Roman world's great city of learning. Its church made
       teaching the heart of the faith. New believers were formed by years of
@@ -44,27 +32,21 @@ worlds:
       They were confident that Greek learning could serve Christ rather than
       threaten him. In this world, faith grows the way understanding grows - by
       study, questions, and a teacher's patient guidance.
-    card_name: "Alexandrian Christianity"   # BOTH name registers, Mark's ruling 2026-08-28: card_name is the friendly participant-facing name ("the right picture in their mind") used on cards and the Atlas; display_name stays the scholarly name ("to show rigor"). The registry owns both; the census derives (cross_world checks it).
-    representative: {name: Theon, role_label: "Catechetical Teacher"}   # sanctioned fabrications (spec principle 14) - RULED by Mark, 2026-08-21, in session ("for the name and role: Theon / Catechetical Teacher")
-    state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
-    census_id: "alexandria-catechetical"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.2") - verified against the running Atlas frontend, not guessed from the spec's own illustrative "IX.12"-style example: atlas-v3.html's "Interview <rep>" button sends data-aid="${m.id}" (the census entry's id field), not atlasId, so this is the value the real deep link actually needs. Matches this world's own world_id independently.
+    card_name: "Alexandrian Christianity"
+    representative: {name: Theon, role_label: "Catechetical Teacher"}
+    state: admitted
+    census_id: "alexandria-catechetical"
     package:
-      manifest_hash: "sha256:cdd973d6f32308d13b67e779b999719ed63ea02bd50532e1fb669b7bfd887616"
-      location: "packages/alx/2026-08-30T11-03-37Z"   # LEXICON LABEL PASS recompile 2026-08-30 (Mark: plain meaning first, the world's own word after it as a label; fleet rollout after his pahc read): eucharistia, anastasis, apokatastasis, pistis, martys, psyche labeled; remaining words skipped honestly (no grounded home in the spoken corpus). Prior pin: packages/alx/2026-08-30T02-23-25Z. That pin's note: FIVE-WORLD TRANSPARENCY READ recompile 2026-08-30 (Mark: "go ahead with the change order and the five world read"; V1.2 birth condition applied to the existing fleet): john-young-robber +C-P, kanon-pisteos +C-E. Honest empties recorded in the decision log. No spoken text changed except where noted. Prior pin: packages/alx/2026-08-30T01-10-11Z. That pin's note: BAR SWEEP recompile 2026-08-30 (Mark: "much better thats the bar" - Ministry/Technology/CiC_Register_Bar_2026-08-29.md): every flagged spoken field in this world swept to the approved sample - short sentences, everyday words; quotes character-exact; renderings at the bar. Tag census verified against a pre-sweep baseline build: no grounding losses. Prior pin: packages/alx/2026-08-29T22-06-48Z.
+      manifest_hash: "sha256:e6734e1e4ebc22b0baec7c8c7491d43e1eae663f4a20d0f004a2f989e7cb9a32"
+      location: "packages/alx/2026-09-01T17-21-49Z"
     thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
-    living_tradition_flag: true   # prior-framework confirmation by Mark (2026-07-17): Coptic Orthodox Church primary heir; carried forward with re-confirmation under the new spec flagged as pending - the doorway carries the living-tradition distinction meanwhile (fail toward disclosure)
+    living_tradition_flag: true
   desert:
     kind: formation
     world_id: desert-monasticism
     display_name: "Desert Monasticism"
     time_window: {start: 320, end: 430}
     place: "Egyptian and Palestinian desert monasticism - Nitria, Kellia, Scetis (Strand C, semi-anchoritic), Pispir/the inner mountain (Strand A, anchoritic), Tabennesi and the Pachomian federation (Strand B, cenobitic)"
-    # doorway_place: the participant-facing subtitle line (Mark's plain-English
-    # doorway direction, 2026-08-28). `place` above stays untouched because it is
-    # MODEL-FACING: it compiles into the voice capsule's own "Place:" line (proven
-    # by diffing a trial recompile), so rewriting it would change the voice's
-    # prompt - the strand catalogue is exactly the precision the model should
-    # keep. Served registry-first by engine/api/wiring.list_worlds.
     doorway_place: "The Egyptian desert - Nitria, Kellia, Scetis, and the monasteries of the Nile valley"
     doorway_description: >-
       In the 300s, thousands of men and women left Egypt's villages for the
@@ -77,14 +59,14 @@ worlds:
       virtue they honored discernment: the skill of judging how much any one
       person can bear.
     card_name: "Desert Fathers and Mothers"
-    representative: {name: Papnoute, role_label: "Abba (Elder)"}   # sanctioned fabrications (spec principle 14) - name and role CONFIRMED by Mark, in chat, 2026-08-22, carrying forward the prior-framework decision (World-Builds/Desert-Monasticism/CiC_W3_Representative_Identity_Preliminary_Decision.md: Papnoute, Abba/Elder, drawn from Strand C's own richest cross-strand-attested material, with the binding "whole-world representation" instruction that the Representative speak for Strands A, B, and C together). Role rendered here as "Abba (Elder)" to preserve the prior decision's own stated reasoning for Abba specifically (this world's own native, popularly-recognized address term) alongside the plain-English gloss Mark's own confirming message used. This confirmation checked the identity against this build's own completed content canon (Steps 2-4, Doc_08) and found it holds on every axis the prior decision named, with one further axis (whole-world representation, exercised by the demonstration set specifically) found only partially exercised and named honestly rather than certified - see records/desert/voice_craft/desert.voice.craft.md's own trailing confirmation note for the full check, including one newly-found cost (three distinct historical men named Paphnutius appear in this build's own source/force apparatus, never in compiled-facing content) carried forward alongside the prior decision's own already-named external cost.
-    state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
-    census_id: "desert-monasticism"   # cic-website/data/world-census.json entry id (era 2, atlasId "I.3", shortName "The Desert") - verified against the census file directly, same id-field convention the alx entry documents, and matches this world's own world_id independently. Set 2026-08-26 by the cross-system consistency audit: this was the ONE formation world carrying null here, and null is not "no Atlas entry" for a world the census lists as Built & Live - it is a deep link that can never match. cic-website/index.html sends `?worlds=${w.id}` and atlas-v3.html sends `data-aid="${m.id}"`, both the census entry's own id; cic-poc/frontend's App.tsx matches that against this field (findWorldByCensusId), so with null here every "Launch an Interview with Papnoute" click landed a participant on the world list instead of Papnoute's doorway, while the other five went straight through.
+    representative: {name: Papnoute, role_label: "Abba (Elder)"}
+    state: admitted
+    census_id: "desert-monasticism"
     package:
-      manifest_hash: "sha256:8cf4a53fe1e698a8ef6bbf162658329db173ceca11c872d804822213fe07a3a9"
-      location: "packages/desert/2026-08-30T11-03-39Z"   # LEXICON LABEL PASS recompile 2026-08-30 (Mark: plain meaning first, the world's own word after it as a label; fleet rollout after his pahc read): logismoi, hesychia, nepsis, diakrisis, apophthegma, apatheia labeled; remaining words skipped honestly (no grounded home in the spoken corpus). Prior pin: packages/desert/2026-08-30T02-23-27Z. That pin's note: FIVE-WORLD TRANSPARENCY READ recompile 2026-08-30 (Mark: "go ahead with the change order and the five world read"; V1.2 birth condition applied to the existing fleet): antony-call +C-P; demo.center-coming-to-belief opening speaks the plain name (Moses). Honest empties recorded in the decision log. No spoken text changed except where noted. Prior pin: packages/desert/2026-08-30T01-10-13Z. That pin's note: BAR SWEEP recompile 2026-08-30 (Mark: "much better thats the bar" - Ministry/Technology/CiC_Register_Bar_2026-08-29.md): every flagged spoken field in this world swept to the approved sample - short sentences, everyday words; quotes character-exact; renderings at the bar. Tag census verified against a pre-sweep baseline build: no grounding losses. Prior pin: packages/desert/2026-08-29T22-12-09Z.
+      manifest_hash: "sha256:098b8c85610137a4b53311274a6a0403fc24ce327157cdb480bb67f939a890de"
+      location: "packages/desert/2026-09-01T17-21-51Z"
     thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
-    living_tradition_flag: true   # set as a plain factual matter, per Doc_09c SS4's own words: "Desert Monasticism's direct historical descendants (Coptic Orthodox monasticism, and more broadly the Eastern and Western monastic traditions descending in part from this world via Cassian's transmission)... constitute a living tradition" - NOT a prior-framework confirmed determination in itself, but the living-tradition-differentiation review Doc_09c SS4 named as a required, unperformed freeze-eligibility gate distinct from this underlying factual claim HAS NOW BEEN PERFORMED and closed clean (2026-08-22): every compiled-facing field checked directly for present-day/living-tradition conflation, zero genuine instances, cross-checked independently by two parties - see Doc_09c SS4's own addendum and World-Builds/Desert-Monasticism/CiC_W3_Living_Tradition_Differentiation_Review.md for the full method and result, and DECISION-LOG.md for the disposition. The doorway still carries the living-tradition distinction regardless (fail toward disclosure) - this closure is about whether the compiled content itself conflates past and present, not about removing the flag. External Scholarly Review (Doc_09c SS4's other named freeze-eligibility gate) remains open and unperformed, unaffected by this closure.
+    living_tradition_flag: true
   pahc:
     kind: formation
     world_id: post-apostolic-house-church
@@ -102,14 +84,14 @@ worlds:
       no safety in the law. There were only communities working out, generation
       by generation, what it meant to stay one church across an empire.
     card_name: "The House-Churches"
-    representative: {name: Chloe, role_label: "Household Leader"}   # step 5a deliverable (Mark's per-world touchpoint, spec SS4.3); re-confirmed directly with the project lead against the new-regime records (records/pahc/voice_craft/pahc.craft.chloe-voice.md) at Step 11, not carried forward unexamined from the prior-framework build
-    state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
-    census_id: "post-apostolic-house-church"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.1") - the census entry's own id field, the value the Atlas deep link sends (same convention verified for alx)
+    representative: {name: Chloe, role_label: "Household Leader"}
+    state: admitted
+    census_id: "post-apostolic-house-church"
     package:
-      manifest_hash: "sha256:762e47d766e44898efff76d4e56ebcc2ae9fadd109c5e0fe4c37983cf313a899"
-      location: "packages/pahc/2026-08-30T10-56-37Z"   # LEXICON LABEL PASS recompile 2026-08-30 (Mark: "yes it should be give thanks over the cup, eucaruest (in purple)"): eight world-words labeled at their natural homes in witnesses/demos - eucharistia, episkopos, presbyterion, presbyteros, diakonos, baptisma, ministrae, ekklesia; two-ways already spoken; prophetes/agape/hetaeria/pertinacia skipped honestly (no grounded home). Prior pin: packages/pahc/2026-08-30T02-13-07Z. That pin's note: CENTER-CELL OPENING recompile 2026-08-30 (Mark: "make the record edit", after four live probes showed the compiled exemplar reproducing its "One of us, Ignatius," opening verbatim on later mentions): three spoken openings speak the plain name - witness.jesus-as-god, demo.center-jesus-as-god, demo.center-who-was-jesus; introduction is the system's job (name-bridge mark first meeting, already-introduced signal after). Prior pin: packages/pahc/2026-08-30T01-55-03Z. That pin's note: CENTER-CELL MAPPING recompile 2026-08-30 (Mark's pilot read: the center cells had no story or term to offer): four canon_cells additions only - grandsons-before-domitian +C-E, didache-eucharist +C-I, eucharistia +C-I, pliny-interrogation +C-T; C-P deliberately left empty (nothing genuinely belongs). No spoken text changed. Prior pin: packages/pahc/2026-08-30T01-10-14Z. That pin's note: BAR SWEEP recompile 2026-08-30 (Mark: "much better thats the bar" - Ministry/Technology/CiC_Register_Bar_2026-08-29.md): every flagged spoken field in this world swept to the approved sample - short sentences, everyday words; quotes character-exact; renderings at the bar. Tag census verified against a pre-sweep baseline build: no grounding losses. Prior pin: packages/pahc/2026-08-29T22-15-04Z.
+      manifest_hash: "sha256:c92838012b664dfb1a0319b436383233222c69ccc61f856595b4ea0a6d17669f"
+      location: "packages/pahc/2026-09-01T17-21-53Z"
     thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
-    living_tradition_flag: true   # prior-framework determination confirmed by Mark (2026-07-31): universal descent - every later church looks back to rooms like these - with a strict non-identity discipline (this is a bounded historical reconstruction, not any present-day church's self-account). Carried forward with re-confirmation under the new spec pending; the doorway carries the distinction meanwhile (fail toward disclosure).
+    living_tradition_flag: true
   hal:
     kind: formation
     world_id: hieronymian-ascetic-literary
@@ -127,27 +109,20 @@ worlds:
       together. It ends when the Bethlehem generation dies out, around the year
       420.
     card_name: "The Bethlehem Circle"
-    representative: {name: Albina, role_label: "Widow of the Household"}   # Mark's ruling (2026-08-22), step-5a touchpoint (Build-Blueprint SS4): a voice of the Bethlehem circle speaking as a widow of the household - formed by renunciation and by the scholarly labor of testing Scripture's Latin words against the Hebrew they were first given in, carrying this circle's whole life, from Rome to Bethlehem. Deliberately not one of this corpus's documented named figures (Marcella, Paula, Eustochium, Fabiola, et al.) - a sanctioned Representative voice per spec principle 14, kept distinct from their own verified quotes/stories. Supersedes the prior framework's preliminary decision (hal_Representative_Identity_Preliminary_Decision.md), which was NOT carried into the new spec. Voice build (voice_craft + demonstration) drafted and adversarially reviewed on this branch; compile (step 6) not yet attempted.
-    state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
-    census_id: "hieronymian-ascetic-literary"   # cic-website/data/world-census.json entry id (atlasId "I.9") - the census entry's own id field is what the Atlas deep link sends (per the alx verification of atlas-v3.html's data-aid wiring); matches this world's world_id independently
+    representative: {name: Albina, role_label: "Widow of the Household"}
+    state: admitted
+    census_id: "hieronymian-ascetic-literary"
     package:
-      manifest_hash: "sha256:d991f618ff459b249b990e99bb716c3b5fc08becdab189f513118a6d02d48ffb"
-      location: "packages/hal/2026-08-30T11-03-43Z"   # LEXICON LABEL PASS recompile 2026-08-30 (Mark: plain meaning first, the world's own word after it as a label; fleet rollout after his pahc read): the translation labor (Vulgata), Hebraica veritas, vidua, monasterium, renuntiatio, epistula labeled; remaining words skipped honestly (no grounded home in the spoken corpus). Prior pin: packages/hal/2026-08-30T02-23-31Z. That pin's note: FIVE-WORLD TRANSPARENCY READ recompile 2026-08-30 (Mark: "go ahead with the change order and the five world read"; V1.2 birth condition applied to the existing fleet): ciceronian-dream +C-P, vulgata +C-E. Honest empties recorded in the decision log. No spoken text changed except where noted. Prior pin: packages/hal/2026-08-30T01-10-12Z. That pin's note: BAR SWEEP recompile 2026-08-30 (Mark: "much better thats the bar" - Ministry/Technology/CiC_Register_Bar_2026-08-29.md): every flagged spoken field in this world swept to the approved sample - short sentences, everyday words; quotes character-exact; renderings at the bar. Tag census verified against a pre-sweep baseline build: no grounding losses. Prior pin: packages/hal/2026-08-29T22-09-59Z.
+      manifest_hash: "sha256:39af5c44720e7c42d00e0b09707510e65fa4f80078045c08bca65a63fd4990c4"
+      location: "packages/hal/2026-09-01T17-21-54Z"
     thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
-    living_tradition_flag: true   # PROVISIONAL, set toward disclosure (spec principle 6): the living-tradition determination is Mark's per-world touchpoint and has not been made for this world under the new spec. Substance: this is a bounded historical reconstruction of one specific 382-420 network, not today's church of any name - but Jerome, the Vulgate, and Latin monasticism are all claimed inheritances of living traditions (Roman Catholic above all), so until Mark rules, the doorway should carry the distinction rather than omit it. Flipping to false is Mark's call, not the build thread's.
+    living_tradition_flag: true
   syr:
     kind: formation
     world_id: syriac-edessa-nisibis
     display_name: "Syriac Christianity (Edessa/Nisibis)"
     time_window: {start: 200, end: 410}
     place: "The Syriac-speaking ecology across the Roman-Persian Mesopotamian frontier (Edessa, Nisibis, Persian Adiabene)"
-    # doorway_place: the participant-facing subtitle line (Mark's own screen read,
-    # 2026-08-28, flagged this arrival card: "restated or to accedemic" - the old
-    # subtitle duplicated the horizon's opening phrase word for word). `place`
-    # above stays untouched because it is MODEL-FACING: it compiles into the voice
-    # capsule's own "Place:" line (proven by diffing a trial recompile), so
-    # rewriting it would change the voice's prompt. Served registry-first by
-    # engine/api/wiring.list_worlds.
     doorway_place: "Edessa, Nisibis, and the border country between Rome and Persia"
     doorway_description: >-
       This is the church that sang its teaching. Its people spoke Syriac, a
@@ -162,14 +137,14 @@ worlds:
       took on a formal structure and this world's own way of life gave way to
       something more official.
     card_name: "Syriac Christianity"
-    representative: {name: "Mar Yausep", role_label: "Teacher of the Covenant Order"}   # RULED by Mark, 2026-08-28, in session ("yes i like mar yousep, role teacher of the convenant order"), closing the foundation audit's identity finding: the prior value carried the honorific alone in the role slot (name Yausep, role_label Mar), which made the Facilitator's door sentence ungrammatical ("Yausep, Mar of Syriac Christianity") and split one person across two names between the Atlas card ("Mar Yausep") and the room. The census already carried today's ruling's values; the registry now owns them (registry wins, Mark 2026-08-28). Prior history preserved: sanctioned fabrications (spec principle 14) - name and role CONFIRMED by Mark under the new spec, in chat, 2026-08-22, carrying forward the prior-framework decision (Representative_Identity_Preliminary_Decision.md + Phase Two Formation Calibration, 2026-07-07/08: name Yausep; role revised Malpana->Deacon->Mar by Mark's own rulings). Step 5a's full identity-emergence write-up (rationale derived from the completed records) is still owed when the voice build begins; this confirmation settles the name/role themselves, not that remaining paperwork
-    state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
-    census_id: "syriac-edessa-nisibis"   # cic-website/data/world-census.json entry id (era 1, atlasId "I.7") - same deep-link field the alx entry verified (data-aid = census id); matches this world's own world_id independently
+    representative: {name: "Mar Yausep", role_label: "Teacher of the Covenant Order"}
+    state: admitted
+    census_id: "syriac-edessa-nisibis"
     package:
-      manifest_hash: "sha256:b71eabfe913725c4e09f10e2878f88fabeb902f22754a6c266059b70fc76403d"
-      location: "packages/syr/2026-08-30T11-03-41Z"   # LEXICON LABEL PASS recompile 2026-08-30 (Mark: plain meaning first, the world's own word after it as a label; fleet rollout after his pahc read): ihidaya, madrasha, qyama, raza+shrara, tahwyata, Ewangeliyon da-Mhallete labeled; remaining words skipped honestly (no grounded home in the spoken corpus). Prior pin: packages/syr/2026-08-30T02-23-29Z. That pin's note: FIVE-WORLD TRANSPARENCY READ recompile 2026-08-30 (Mark: "go ahead with the change order and the five world read"; V1.2 birth condition applied to the existing fleet): abgar-addai-legend +C-E, jacob-nicaea +C-T, ihidaya +C-I, raza-shrara +C-T. Honest empties recorded in the decision log. No spoken text changed except where noted. Prior pin: packages/syr/2026-08-30T01-10-11Z. That pin's note: BAR SWEEP recompile 2026-08-30 (Mark: "much better thats the bar" - Ministry/Technology/CiC_Register_Bar_2026-08-29.md): every flagged spoken field in this world swept to the approved sample - short sentences, everyday words; quotes character-exact; renderings at the bar. Tag census verified against a pre-sweep baseline build: no grounding losses. Prior pin: packages/syr/2026-08-29T22-04-24Z.
+      manifest_hash: "sha256:1a416ec372029c86923b2d7744462ca2c532a99e9c867f251dcdf6ae9aa2a9bb"
+      location: "packages/syr/2026-09-01T17-21-56Z"
     thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
-    living_tradition_flag: true   # prior-framework confirmation by Mark (2026-07-11, Living Tradition Status CONFIRMED: the Syriac churches - Church of the East, Syriac Orthodox, Eastern Catholic heirs - are living heirs); carried forward with re-confirmation under the new spec flagged as pending - the doorway carries the living-tradition distinction meanwhile (fail toward disclosure)
+    living_tradition_flag: true
   ijc:
     kind: formation
     world_id: imperial-juridical
@@ -187,11 +162,42 @@ worlds:
       and of Rome's bishops building their claim to speak for the whole church.
       It closes at the Council of Chalcedon in 451.
     card_name: "Church and Empire"
-    representative: {name: Marius, role_label: "Deacon of the Letters"}   # sanctioned fabrications (spec principle 14) - carried from Mark's own prior-framework decisions, both on the verifiable record: name Marius chosen by Mark directly 2026-07-20 (World-Builds/Imperial-Juridical-Christianity/Open_Gaps_Tracking.md item 13, overriding the build's "Marcus" recommendation for his own stated reason); participant-facing title "Apocrisiarius - Deacon of the Letters" chosen by Mark 2026-07-22 (same log, item 15). CONFIRMED by Mark, 2026-08-22, in session, at step 5 (spec 4.3): checked against this build's full content canon (142 answer-canon records, three independent Opus adversarial reviews plus two further confirmation passes, 13/13 M1 gates green throughout) and found to hold without qualification - not reopened as a fresh decision, carried forward as the standing pre-rebuild identity, the same way world/syr's own Mar Yausep confirmation is expected to carry forward. See records/ijc/voice_craft/ijc.voice.craft.md and BUILD-LOG.md for the full disposition.
-    state: admitted         # Step 7 complete - ADMITTED by Mark, 2026-08-28, in session ("yes i admit all six worlds"). The mechanical certificate: the fleet-parity battery of the same day - 28/28 sealed probes under the corrected admission instrument (engine.m4.turn.apply_net, grading byte-for-byte what a participant receives; report engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json). The read: Mark's own, made through the day's session rather than as a ceremony - he read every flagged and failing answer this fleet produced (alx's register line and his statement-6 ruling; desert's corrected witness and re-run; pahc's Bagnall disclosure and hal's letters-not-stones answer, and both fixes; syr's advisories), plus three full live Table conversations. The freeze: the pinned manifest_hash above IS the frozen artifact. NOT yet open: CIC_ENFORCE_ADMISSION stays "0" until Mark's doors-open flip; this transition is what makes that flip safe.
-    census_id: "imperial-juridical-christianity"   # cic-website/data/world-census.json entry id (era 2, atlasId "I.6", shortName "Church & Empire" - the participant-facing card name Mark chose 2026-07-20, Open_Gaps item 12); verified against the census file directly, same id-field convention the alx entry documents
+    representative: {name: Marius, role_label: "Deacon of the Letters"}
+    state: admitted
+    census_id: "imperial-juridical-christianity"
     package:
-      manifest_hash: "sha256:eef00a0dd042e280cbfcdb9c66506401c1d94f4de01c65625565aa254645aed7"
-      location: "packages/ijc/2026-08-30T11-03-44Z"   # LEXICON LABEL PASS recompile 2026-08-30 (Mark: plain meaning first, the world's own word after it as a label; fleet rollout after his pahc read): homoousios, homoios, concilium, primatus, Tomus labeled; remaining words skipped honestly (no grounded home in the spoken corpus). Prior pin: packages/ijc/2026-08-30T02-23-32Z. That pin's note: FIVE-WORLD TRANSPARENCY READ recompile 2026-08-30 (Mark: "go ahead with the change order and the five world read"; V1.2 birth condition applied to the existing fleet): tome-that-would-not-bend +C-T. Honest empties recorded in the decision log. No spoken text changed except where noted. Prior pin: packages/ijc/2026-08-30T01-10-10Z. That pin's note: BAR SWEEP recompile 2026-08-30 (Mark: "much better thats the bar" - Ministry/Technology/CiC_Register_Bar_2026-08-29.md): every flagged spoken field in this world swept to the approved sample - short sentences, everyday words; quotes character-exact; renderings at the bar. Tag census verified against a pre-sweep baseline build: no grounding losses. Prior pin: packages/ijc/2026-08-29T21-29-44Z.
+      manifest_hash: "sha256:b30e3d3476bf885de389a9e605f399ef38790ed5c94d047250dc8ae6fb511fa9"
+      location: "packages/ijc/2026-09-01T17-21-58Z"
     thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
-    living_tradition_flag: true   # NOT yet a determination - Living Tradition Status is PENDING Mark's own confirmation (Doc_01 SS1; Constitution Art. 29). Set true meanwhile so the doorway carries the living-tradition distinction (fail toward disclosure, same direction the alx entry documents): this world's Strand A content runs directly into the present-day papacy's own claimed lineage, Strand B's into Eastern Orthodoxy's self-understanding.
+    living_tradition_flag: true
+  cappadocian:
+    kind: formation
+    world_id: cappadocian-trinitarian
+    display_name: "Cappadocian Christianity"
+    time_window: {start: 325, end: 394}
+    place: "Cappadocia and Pontus"
+    doorway_place: "Cappadocia and Pontus"
+    doorway_description: >-
+      In the fourth century, the churches of Cappadocia and Pontus fought to
+      defend the faith declared at Nicaea - one God, three who truly are.
+      Basil of Caesarea, his friend Gregory of Nazianzus, and his brother
+      Gregory of Nyssa became this world's most remembered voices, but the
+      faith they defended was lived by a whole people: households and
+      congregations, and communities newly ordered into a common life built
+      around a door kept open for the poor. The same exactness that shaped
+      the church's confession also shaped its care - a famine-born complex
+      outside Caesarea fed, housed, and nursed the destitute and the sick.
+      The story runs from the years after the last persecutions to the
+      deaths of this founding generation, under emperors who alternately
+      protected and opposed the Nicene faith. It closes with that faith's
+      own vindication, and more than a decade spent living inside the
+      victory.
+    card_name: "The Cappadocian Churches"
+    representative: {name: Chilo, role_label: "Elder of the Brotherhoods"}
+    census_id: "cappadocian-nicene-pastoral-monastic-tradition"
+    thinness_statement: "Richest in the letters, orations, and treatises of Basil, Gregory of Nazianzus, and Gregory of Nyssa; thinner on women's own words (none survive in their own hand), the plateau's non-elite and non-Greek-speaking faithful, the enslaved (never heard in their own voice despite one preacher's own sharp protest against the institution), and the defeated parties (Eustathius, the Homoian church, the Eunomian movement) who survive almost only inside their opponents' polemic."
+    living_tradition_flag: true
+    state: admitted
+    package:
+      manifest_hash: "sha256:418edb41cbcdb34a73c4eea213035c43465df45e4a9e436bcad196b267283a84"
+      location: "packages/cappadocian/2026-09-02T04-37-12Z"

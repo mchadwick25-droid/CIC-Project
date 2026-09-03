@@ -1,5 +1,11 @@
 # Launch prompt — Record-Native World Build (V1, 2026-08-01)
 
+**SUPERSEDED by V2 (2026-08-30):** use
+`CiC_New_World_Build_Record_Native_Launch_V2_2026-08-30.md` — it carries
+this document's model routing and lean-validation policies forward and
+adds the real-decision gates, the Source Acquisition Manifest, and the
+launch-phase birth conditions. This file stays for history.
+
 Paste this into a fresh Fable thread when credits are available for a full
 world build. Fill in the one blank below. Everything else is automated:
 the thread runs the whole build with agents and quality loops, and stops

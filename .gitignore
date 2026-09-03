@@ -27,6 +27,11 @@ haiku_enforced.log
 cic_api_events.db*
 cic_api_usage.db*
 
+# The full-text search index over cic/texts/ - DERIVED, ~180MB, and
+# byte-different on every rebuild even with identical content (SQLite
+# metadata). Regenerate with: python cic/engine/corpus_index.py --build
+cic/texts/INDEX.sqlite
+
 # Compiled world packages are DERIVED, not source. records/ is the source of
 # truth; `python -m engine.m2.cli build <world>` regenerates a package
 # byte-identically from it (proved by determinism-check and the staleness
