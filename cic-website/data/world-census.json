@@ -813,6 +813,484 @@
      "text": "Yale University Art Gallery, New Haven — the Dura-Europos baptistery wall paintings, probably the oldest surviving Christian paintings anywhere, are on display",
      "url": "https://artgallery.yale.edu/collections/objects/34496"
     }
+   ],
+   "sources": [
+    {
+     "work": "A Plea for the Christians",
+     "author": "athenagoras",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts and Martyrdom of the Holy Apostle Andrew",
+     "author": "acts-of-andrew",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Andrew and Matthias",
+     "author": "acts-of-andrew-and-matthias",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Paul and Thecla",
+     "author": "acts-of-paul-and-thecla",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Peter and Andrew",
+     "author": "acts-of-peter-and-andrew",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of the Holy Apostle and Evangelist John the Theologian",
+     "author": "acts-of-john-the-theologian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of the Holy Apostles Peter and Paul",
+     "author": "acts-of-peter-and-paul",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Address to the Greeks",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Heresies (Books I-V)",
+     "author": "irenaeus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Apology (Apologeticus)",
+     "author": "tertullian",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Dialogue with Trypho",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Epistle to Diognetus",
+     "author": "mathetes",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Epistle to the Philippians (Polycarp)",
+     "author": "polycarp",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Epistles of Ignatius (seven epistles; shorter, longer and Syriac recensions)",
+     "author": "ignatius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Eulogy on S. Ignatius",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "First Epistle to the Corinthians (1 Clement)",
+     "author": "clement_rome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragment of Theophilus of Caesarea",
+     "author": "theophilus-of-caesarea",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments (Tatian)",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments from the Lost Writings of Irenaeus",
+     "author": "irenaeus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Apollonius",
+     "author": "apollonius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Aristo of Pella",
+     "author": "aristo-of-pella",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Claudius Apollinaris",
+     "author": "claudius-apollinaris",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Dionysius of Corinth",
+     "author": "dionysius-of-corinth",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Hegesippus",
+     "author": "hegesippus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Melito of Sardis",
+     "author": "melito-of-sardis",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Papias",
+     "author": "papias",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Polycrates of Ephesus",
+     "author": "polycrates-of-ephesus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Quadratus",
+     "author": "quadratus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Rhodon",
+     "author": "rhodon",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Serapion of Antioch",
+     "author": "serapion-of-antioch",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Hortatory Address to the Greeks",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Resurrection (fragments)",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Sole Government of God",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Other Fragments from the Lost Writings of Justin",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Spurious Epistles of Ignatius",
+     "author": "pseudo_ignatius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Acts of Philip",
+     "author": "acts-of-philip",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Acts of Xanthippe and Polyxena",
+     "author": "acts-of-xanthippe-and-polyxena",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apocalypse of Peter",
+     "author": "apocalypse-of-peter",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apology of Aristides the Philosopher",
+     "author": "aristides",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Discourse to the Greeks",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Epistle of Barnabas",
+     "author": "barnabas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Apology",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Epistle of Clement to the Corinthians",
+     "author": "clement_rome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Five Books Against Marcion",
+     "author": "tertullian",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Gospel of Peter",
+     "author": "gospel-of-peter",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Infancy Gospel of Thomas (three forms)",
+     "author": "infancy-gospel-of-thomas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Letter of the Churches of Lyons and Vienne (Pseud-Irenaeus)",
+     "author": "letter-churches-lyons-vienne",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Martyrdom of Ignatius",
+     "author": "martyrdom_of_ignatius",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Martyrdom of Justin Martyr",
+     "author": "martyrdom_of_justin",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Martyrdom of Polycarp",
+     "author": "martyrdom_of_polycarp",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Passion of St. Symphorosa and Her Seven Sons",
+     "author": "juliusafricanus",
+     "role": "tradition",
+     "confidence": "needs-ruling",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Pastor of Hermas",
+     "author": "hermas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Protevangelium of James",
+     "author": "protevangelium-of-james",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Resurrection of the Dead",
+     "author": "athenagoras",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Second Apology",
+     "author": "justin_martyr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Second Epistle of Clement (an ancient homily)",
+     "author": "second-clement",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Second Epistle of Clement (an ancient homily)",
+     "author": "second-clement",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Teaching of the Twelve Apostles (Didache)",
+     "author": "didache",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Theophilus to Autolycus",
+     "author": "theophilus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Notes Explanatory of Allusions to Persons, &c. (1905)",
+     "author": "fowler_brothers",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Annals, Book 15, chapter 44 (the Great Fire and Nero's punishment of the Christians)",
+     "author": "tacitus",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Church History of Eusebius (Historia Ecclesiastica)",
+     "author": "eusebius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Death of Peregrine (De Morte Peregrini)",
+     "author": "lucian",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Works of Lucian of Samosata, Volume IV: the other seventeen pieces",
+     "author": "lucian",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Festal Letter XXXIX (367) - the canon list and the books appointed to be read",
+     "author": "athanasius",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Revelation of Moses",
+     "author": "revelation-of-moses",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Narrative of Zosimus",
+     "author": "narrative-of-zosimus",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Testaments of the Twelve Patriarchs",
+     "author": "testaments-twelve-patriarchs",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    }
    ]
   },
   {
@@ -997,7 +1475,464 @@
     "Dionysius of Alexandria — Origen's student, later bishop, who steered the Egyptian church through persecution and plague",
     "Didymus the Blind — blind from early childhood, taught in Alexandria for decades and was consulted by Jerome and Rufinus"
    ],
-   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became the dominant Christian approach for over a millennium, in the East and West alike. Origen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so. The tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary."
+   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became the dominant Christian approach for over a millennium, in the East and West alike. Origen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so. The tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary.",
+   "sources": [
+    {
+     "work": "A Letter from Origen to Africanus",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "A Letter from Origen to Gregory",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "A Letter to Origen from Africanus About the History of Susanna",
+     "author": "juliusafricanus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against the Heathen (Contra Gentes)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Apology to the Emperor (Apologia ad Constantium)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Arian History (Historia Arianorum ad Monachos)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "De Principiis (On First Principles)",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Defence Against the Arians (Apologia Contra Arianos)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Defence of Dionysius (De Sententia Dionysii)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Defence of His Flight (Apologia de Fuga)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Defence of the Nicene Definition (De Decretis)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Deposition of Arius (Depositio Arii, with Alexander's Encyclical)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Encyclical Letter (Epistola Encyclica)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Epistles on the Arian Heresy and the Deposition of Arius",
+     "author": "alexander_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Excerpts of Theodotus",
+     "author": "theodotus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Exegetical Fragments of Dionysius of Alexandria",
+     "author": "dionysius_gr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Exhortation to the Heathen (Protrepticus)",
+     "author": "clement_alex",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Extant Fragments of Dionysius of Alexandria (works and epistles)",
+     "author": "dionysius_gr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Four Discourses Against the Arians (Orationes contra Arianos IV)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments from the Writings of Peter of Alexandria (On the Godhead, On the Advent, On the Soul, and the Paschal fragments)",
+     "author": "peter_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Pamphilus (exposition on the Acts of the Apostles)",
+     "author": "pamphilus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Pantaenus",
+     "author": "pantaenus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Phileas (Epistle to the People of Thmuis; on the martyrs of Alexandria)",
+     "author": "phileas",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Pierus of Alexandria",
+     "author": "pierus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments of Theognostus of Alexandria (from the Hypotyposes)",
+     "author": "theognostus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "From the Discourse on the Resurrection",
+     "author": "methodius",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter of Origen to Gregory",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Luke x. 22 (In Illud Omnia Mihi Tradita Sunt)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Councils of Ariminum and Seleucia (De Synodis)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Incarnation of the Word (De Incarnatione)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Origen Against Celsus (Contra Celsum)",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Origen's Commentary on the Gospel of John",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Origen's Commentary on the Gospel of Matthew",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Personal Letters of Athanasius",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Prologue of Rufinus (to De Principiis)",
+     "author": "rufinus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Statement of Faith (Expositio Fidei)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Synodal Letter to the Bishops of Africa (Ad Afros Epistola Synodica)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Synodal Letter to the People of Antioch (Tomus ad Antiochenos)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apocalypse of Peter",
+     "author": "apocalypse-of-peter",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canonical Answers of Timothy of Alexandria",
+     "author": "timothy_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canonical Epistle of Peter of Alexandria",
+     "author": "peter_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Divine Liturgy of Mark",
+     "author": "liturgy-of-st-mark",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Epistle of Theonas to Lucianus",
+     "author": "theonas",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Festal Letters (with the Festal Index)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Genuine Acts of Peter of Alexandria",
+     "author": "peter_alexandria",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Historia Acephala",
+     "author": "historia_acephala",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Instructor (Paedagogus)",
+     "author": "clement_alex",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Saint Anthony by Athanasius (Syriac recension)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Oration and Panegyric Addressed to Origen",
+     "author": "gregory_thau",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paschal Canon of Anatolius of Alexandria, with fragments of the Books on Arithmetic",
+     "author": "anatolius",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Philocalia of Origen",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Stromata, or Miscellanies",
+     "author": "clement_alex",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to Ruffinian)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canonical letter of Dionysius of Alexandria to Basilides",
+     "author": "dionysius_gr",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canons of Peter of Alexandria, from his Sermon on Penitence",
+     "author": "peter_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canons of Theophilus of Alexandria (Prosphonesus; Commonitory; to Agatho; to Menas; on the Cathari)",
+     "author": "theophilus_alexandria",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "To the Bishops of Egypt (Ad Episcopos Aegypti et Libyae)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Vita Antonii (Life of Antony)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Who is the Rich Man that shall be saved?",
+     "author": "clement_alex",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Jerome's Apology for Himself Against the Books of Rufinus",
+     "author": "jerome",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter of Anastasius to John of Jerusalem concerning Rufinus",
+     "author": "anastasius_rome",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione Librorum Origenis)",
+     "author": "rufinus",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Rufinus' Translation Prefaces and Perorations (Recognitions of Clement; Origen on Psalms 36-38; Origen on Romans)",
+     "author": "rufinus",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Church History of Eusebius (Historia Ecclesiastica)",
+     "author": "eusebius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Second Council of Constantinople (553): Extracts from the Acts, Sentence, Capitula, Anathemas Against Origen",
+     "author": "council-of-constantinople-553",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    }
+   ]
   },
   {
    "id": "syriac-edessa-nisibis",
@@ -1052,6 +1987,295 @@
     {
      "text": "Mor Gabriel Monastery, Tur Abdin, southeastern Turkey — founded in 397 and still a working monastery and the seat of the metropolitan of Tur Abdin, one of the oldest continuously inhabited Christian monasteries on earth",
      "url": "https://en.wikipedia.org/wiki/Mor_Gabriel_Monastery"
+    }
+   ],
+   "sources": [
+    {
+     "work": "A Canticle of Mar Jacob the Teacher on Edessa",
+     "author": "jacob-of-sarug",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Abgar documents (Story concerning the King of Edessa; extracts concerning Abgar and Addaeus)",
+     "author": "abgar-edessa-documents",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Sharbil",
+     "author": "edessene-martyr-acts",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of Thomas (with the Consummation of Thomas)",
+     "author": "acts-of-thomas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Acts of the Holy Apostle Thaddaeus",
+     "author": "acts-of-thaddaeus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Address to the Greeks",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Bardaisan (A Discourse Against Bardaisan)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Bardaisan's 'Domnus'",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Mani",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Marcion (Discourses I-III)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Bardesan: The Book of the Laws of Divers Countries",
+     "author": "bardesan",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Demonstration II: On Love",
+     "author": "aphrahat",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Demonstration VII: On Penitents",
+     "author": "aphrahat",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Discourses to Hypatius (Five Discourses Against the False Teachings)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fifteen Hymns for the Feast of the Epiphany",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fragments (Tatian)",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Martyrdom of Habib the Deacon",
+     "author": "edessene-martyr-acts",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Martyrdom of Shamuna, Guria, and Habib (from Simeon Metaphrastes)",
+     "author": "edessene-martyr-acts",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Moses of Chorene: History of Armenia (extract)",
+     "author": "moses-of-chorene",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Virginity (A Discourse of S. Ephraim on Virginity)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Select Demonstrations of Aphrahat",
+     "author": "aphrahat",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Diatessaron of Tatian",
+     "author": "tatian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Doctrine of Addai",
+     "author": "addai",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Liturgy of the Blessed Apostles (Adaeus and Maris)",
+     "author": "liturgy-of-addai-and-mari",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Nisibene Hymns",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)",
+     "author": "palladius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Pearl: Seven Hymns on the Faith",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Teaching of Addaeus the Apostle",
+     "author": "addai",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Teaching of Simon Cephas in the City of Rome",
+     "author": "teaching-of-simon-cephas",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Teaching of the Apostles (Syriac)",
+     "author": "teaching-of-the-apostles-syriac",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Three Homilies (On Our Lord; On Admonition and Repentance; On the Sinful Woman)",
+     "author": "ephraim",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "A Letter of Mara, Son of Serapion",
+     "author": "mara-bar-serapion",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Chronicle of Edessa",
+     "author": "chronicle-of-edessa",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Sozomen",
+     "author": "sozomen",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Hexaemeron, Homily II (on Genesis 1:2)",
+     "author": "basil",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Ambrose: a memorial (hypomnemata) addressed to the Greeks",
+     "author": "ambrose-hypomnemata",
+     "role": "transmission",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Clementine Homilies",
+     "author": "pseudo-clement",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt",
+     "author": "anan-isho",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Recognitions of Clement",
+     "author": "pseudo-clement",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Two Epistles Concerning Virginity",
+     "author": "two-epistles-on-virginity",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
     }
    ]
   },
@@ -1665,6 +2889,176 @@
      "text": "The Monastery of Saint Anthony, Eastern Desert, Egypt — a Coptic Orthodox monastery grown up around Antony's own cave, still inhabited and open to visitors",
      "url": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Anthony"
     }
+   ],
+   "sources": [
+    {
+     "work": "Dialogues of Sulpitius Severus",
+     "author": "sulpiciusseverus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Fifty Spiritual Homilies of St. Macarius the Egyptian",
+     "author": "macarius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Lausiac History",
+     "author": "palladius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter XXII (To Eustochium, on virginity)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Incarnation of the Lord, Against Nestorius (De Incarnatione)",
+     "author": "cassian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Personal Letters of Athanasius",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Conferences of John Cassian",
+     "author": "cassian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Paulus the First Hermit",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Saint Anthony by Athanasius (Syriac recension)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of Palladius, Book I (Syriac recension)",
+     "author": "palladius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt",
+     "author": "anan-isho",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Praktikos",
+     "author": "evagrius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "CC BY 4.0 (Creative Commons Attribution 4.0 International) -- NOT public domain; attribution to Luke Dysinger and the Guide to Evagrius Ponticus must travel with any quotation."
+    },
+    {
+     "work": "The Rules of Pachomius, Part I (the angel's ordinance)",
+     "author": "pachomius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Rules of Pachomius, Part II (the second word of the holy Pachomius)",
+     "author": "pachomius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Rules of Pachomius, Part III (the symbolical homily on the ten associations)",
+     "author": "ethiopic_homily_on_the_ten_associations",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Twelve Books on the Institutes of the Coenobia",
+     "author": "cassian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Vita Antonii (Life of Antony)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Budge's Preface and Introduction to the Paradise (1907)",
+     "author": "budge",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "De Principiis (On First Principles), in Rufinus' Latin",
+     "author": "origen",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Schodde's introduction to the Rules (1885)",
+     "author": "schodde",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Socrates Scholasticus",
+     "author": "socrates",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Sozomen",
+     "author": "sozomen",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Philocalia of Origen",
+     "author": "origen",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Commentary on the Gospel of Matthew, Books I-II and X-XIV",
+     "author": "origen",
+     "role": "antecedent",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    }
    ]
   },
   {
@@ -1814,7 +3208,282 @@
     "Emmelia — mother of Basil, Macrina, and Gregory, who ran the household this whole tradition grew out of",
     "Eupsychius of Caesarea — this world's own later martyr, executed under Julian in 362, remembered at an annual feast rather than in any surviving homily"
    ],
-   "legacy": "Their labor on the language — one being, three persons — became the standard grammar of Christian talk about God in East and West alike and stands behind the creed recited in most churches on Sunday, though the tidy story of a fully agreed \"Cappadocian settlement\" is itself contested by modern scholars, who read more real variation between the three than the textbook version allows. Basil's rules for communal ascetic life remain foundational for Eastern Orthodox monasticism, and his hospital-and-hostel complex for the sick and destitute is often named among the ancestors of the Christian hospital — a real and remarkable undertaking, though not literally the first of its kind, and no physical trace of the complex itself has ever been securely identified. All four are venerated as saints across the Orthodox, Catholic, Anglican, and Lutheran calendars, and Gregory of Nazianzus is one of only three figures the Eastern church calls simply \"the Theologian.\""
+   "legacy": "Their labor on the language — one being, three persons — became the standard grammar of Christian talk about God in East and West alike and stands behind the creed recited in most churches on Sunday, though the tidy story of a fully agreed \"Cappadocian settlement\" is itself contested by modern scholars, who read more real variation between the three than the textbook version allows. Basil's rules for communal ascetic life remain foundational for Eastern Orthodox monasticism, and his hospital-and-hostel complex for the sick and destitute is often named among the ancestors of the Christian hospital — a real and remarkable undertaking, though not literally the first of its kind, and no physical trace of the complex itself has ever been securely identified. All four are venerated as saints across the Orthodox, Catholic, Anglican, and Lutheran calendars, and Gregory of Nazianzus is one of only three figures the Eastern church calls simply \"the Theologian.\"",
+   "sources": [
+    {
+     "work": "A Declaration of Faith",
+     "author": "gregory_thau",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Address to Young Men on the Right Use of Greek Literature",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "De Spiritu Sancto (On the Holy Spirit)",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "First Invective Against Julian the Emperor (Oration 4)",
+     "author": "gregory-nazianzen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "From the Iambics of Amphilochius to Seleucus, on the canon of Scripture",
+     "author": "amphilochius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "From the metrical poems of Gregory Theologus, on the canon of Scripture",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Funeral Oration on Meletius",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Introduction/Proem to the Longer Rules and to the Shorter Rules (Appendices A and B of Morison's book - Basil's own words, translated in full, not Morison's paraphrase)",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On \"Not Three Gods\" (To Ablabius)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Infants' Early Deaths",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Pilgrimages",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On Virginity",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Baptism of Christ",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Faith (To Simplicius)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Holy Spirit (Against the Followers of Macedonius)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Making of Man",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Soul and the Resurrection",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Second Invective Against Julian the Emperor (Oration 5)",
+     "author": "gregory-nazianzen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Select Letters of Saint Gregory Nazianzen",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Select Orations of Saint Gregory Nazianzen",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ascetic Works of Saint Basil (the Great Asketikon - Longer Rules and Shorter Rules, plus the Moralia and shorter ascetic treatises)",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canonical Epistle of Gregory of Nyssa to Letoius of Melitene",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Council of Constantinople (381): Creed, Canons, Synodical Letter",
+     "author": "council-of-constantinople-381",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Five Theological Orations (Orations 27-31)",
+     "author": "gregory_naz",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Great Catechism",
+     "author": "gregory_nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Hexaemeron",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Letters",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of St. Macrina (Vita Macrinae) - complete, introduction and narrative",
+     "author": "gregory-nyssa",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of St. Macrina - Clarke's Introduction only (not the biography's narrative text)",
+     "author": "gregory-nyssa",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Oration and Panegyric Addressed to Origen",
+     "author": "gregory_thau",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Philocalia of Origen",
+     "author": "origen",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The canonical epistles of Basil to Amphilochius and others",
+     "author": "basil",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Ecclesiastical History (surviving only as Photius' Epitome)",
+     "author": "philostorgius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)",
+     "author": "julian",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Gangra",
+     "author": "council-of-gangra",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Apology (Liber Apologeticus)",
+     "author": "eunomius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    }
+   ]
   },
   {
    "id": "imperial-juridical-christianity",
@@ -1871,6 +3540,323 @@
      "text": "The Archbasilica of St John Lateran, Rome — founded under Constantine in the 320s and still the cathedral church of the bishop of Rome",
      "url": "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
     }
+   ],
+   "sources": [
+    {
+     "work": "Apology to the Emperor (Apologia ad Constantium)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)",
+     "author": "anti-donatist-dossier",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Arian History (Historia Arianorum ad Monachos)",
+     "author": "athanasius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "City of God",
+     "author": "augustine",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Exposition of the Christian Faith (De Fide)",
+     "author": "ambrose",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Homilies on the Epistle to the Romans, Homily XXIII (on Romans 13:1)",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters of Innocent of Rome concerning Chrysostom",
+     "author": "innocent_rome",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters of St. Chrysostom to Innocent, Bishop of Rome",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Of the Manner in Which the Persecutors Died",
+     "author": "lactantius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "On the Incarnation of the Lord, Against Nestorius (De Incarnatione)",
+     "author": "cassian",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius)",
+     "author": "ambrose",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apostolical Canons",
+     "author": "apostolic-canons",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canonical Epistles of the Fathers received by Trullo Canon II",
+     "author": "canonical-epistles-fathers",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Ancyra",
+     "author": "council-of-ancyra",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Constantinople under Nectarius (394)",
+     "author": "council-of-constantinople-394",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Gangra",
+     "author": "council-of-gangra",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Neocaesarea",
+     "author": "council-of-neocaesarea",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Council of Sardica",
+     "author": "council-of-sardica",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Synod of Antioch in Encaeniis",
+     "author": "synod-of-antioch-in-encaeniis",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Canons of the Synod of Laodicea",
+     "author": "synod-of-laodicea",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Church History of Eusebius (Historia Ecclesiastica)",
+     "author": "eusebius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Correction of the Donatists (De Correctione Donatistarum, Letter 185)",
+     "author": "augustine",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Council of Chalcedon (451): Extracts from the Acts, Definition of Faith, Canons",
+     "author": "council-of-chalcedon-451",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Council of Ephesus (431): Extracts from the Acts, Decree, Canons",
+     "author": "council-of-ephesus-431",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Socrates Scholasticus",
+     "author": "socrates",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Sozomen",
+     "author": "sozomen",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Epistles of Cyril of Alexandria (Second and Third Letters to Nestorius, the XII Anathematisms, and the Letter to John of Antioch)",
+     "author": "cyril_alexandria",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Council of Constantinople (381): Creed, Canons, Synodical Letter",
+     "author": "council-of-constantinople-381",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The First Council of Nicaea (325): Creed, Canons, Synodal Letter",
+     "author": "council-of-nicaea-325",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Homilies on the Statues to the People of Antioch",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Letters of Leo the Great",
+     "author": "leo",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Constantine (Vita Constantini)",
+     "author": "eusebius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Nicene Creed",
+     "author": "nicene-creed",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Oration of Constantine to the Assembly of the Saints",
+     "author": "constantine",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Oration of Eusebius (In Praise of Constantine, De Laudibus Constantini)",
+     "author": "eusebius",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Sacred History (Chronica)",
+     "author": "sulpiciusseverus",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Sermons of Leo the Great",
+     "author": "leo",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Tome of St. Leo (Letter XXVIII)",
+     "author": "leo",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Two Homilies on Eutropius",
+     "author": "chrysostom",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter of Eusebius of Caesarea to his flock (Epistola Eusebii)",
+     "author": "eusebius",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter to the Athenians (Letter to the Senate and People of Athens)",
+     "author": "julian",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)",
+     "author": "julian",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Memorial (Relatio) of Symmachus, Prefect of the City",
+     "author": "symmachus",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Ecclesiastical History of Theodoret",
+     "author": "theodoret",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    }
    ]
   },
   {
@@ -1926,6 +3912,183 @@
     {
      "text": "Church of the Nativity and the Pilgrimage Route, Bethlehem — the UNESCO World Heritage site whose underground caves include the one long shown as Jerome's study",
      "url": "https://whc.unesco.org/en/list/1433/"
+    }
+   ],
+   "sources": [
+    {
+     "work": "Against Jovinianus",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against Vigilantius",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Against the Pelagians",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Jerome's Apology for Himself Against the Books of Rufinus",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter CVIII (To Eustochium - Epitaph of Paula)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter XXII (To Eustochium, on virginity)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letters of St. Augustin: the Augustine-Jerome correspondence",
+     "author": "augustine",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Lives of Illustrious Men (De Viris Illustribus)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Prefaces (to Jerome's early works, the Vulgate Old Testament, and the Commentaries)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Prologue of Rufinus (to De Principiis)",
+     "author": "rufinus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Rufinus' Apology in Defence of Himself (Apologia ad Anastasium)",
+     "author": "rufinus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Apology of Rufinus (Against Jerome, to Apronianus)",
+     "author": "rufinus",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Dialogue Against the Luciferians",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Letters of St. Jerome",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Malchus, the Captive Monk",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of Paulus the First Hermit",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Life of S. Hilarion",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Perpetual Virginity of Blessed Mary (Against Helvidius)",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "To Pammachius Against John of Jerusalem",
+     "author": "jerome",
+     "role": "tradition",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Gennadius, Lives of Illustrious Men (continuation)",
+     "author": "gennadius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Letter of Anastasius to John of Jerusalem concerning Rufinus",
+     "author": "anastasius_rome",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione Librorum Origenis)",
+     "author": "rufinus",
+     "role": "context",
+     "confidence": "provisional",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The City of God, Book XVIII, chapters 42-44 (the authority of the Septuagint)",
+     "author": "augustine",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "The Paradise of Palladius, Book I, ch. l (Of the Blessed Man Possidonius)",
+     "author": "palladius",
+     "role": "context",
+     "confidence": "assigned",
+     "rights": "Public Domain"
+    },
+    {
+     "work": "Commentary on the Apocalypse of the Blessed John",
+     "author": "victorinus",
+     "role": "transmission",
+     "confidence": "assigned",
+     "rights": "Public Domain"
     }
    ]
   },
