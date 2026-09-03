@@ -2066,3 +2066,50 @@ because neither has been asked yet, not because either is hard.
 
 **Next action:** get Mark's call on #1 (which shape of "wider"), since
 it resequences the urgency of everything else on this list.
+
+---
+
+## 2026-09-03 (later still) — Reframed: ready to launch the instant a
+grant or gift lands, not gated on money arriving first
+
+**Origin.** Mark, after the AWS-credit runway discussion: "lets get
+everything ready so when we get a grant or gift we can go immediatly."
+This changes the shape of the list above from "sequence these five
+items" to: separate what money-independent readiness work can be
+finished now from the one real switch that funding itself flips.
+
+**Split of the 2026-09-03 list, funding-independent vs. the switch:**
+
+*Build/decide now, none of it waiting on money:*
+- Item 2, privacy/consent disclosure — pure build work, do it now.
+- Conversion tracking/instrumentation — not on the original list by
+  name, but required for item 4 to ever resolve with real numbers
+  instead of the 2%-benchmark; needs to exist BEFORE the first funded
+  wave of traffic, not added after, or the data point gets missed.
+- A cost guardrail (spend alert or usage cap beyond the existing
+  10-turn/session limit) — so "go immediately" on a grant doesn't also
+  mean "immediately exposed to runaway spend" before the conversion
+  data proves the math out.
+- Item 5, world-discovery UX at the next roster size — audit now.
+- Item 6, finish in-flight work (Website V2, the two CI checks, story
+  module) — same as before, bounded, do it regardless.
+
+*Needs Mark's decision now, but costs nothing to decide today:*
+- Item 1's shape - what "wider" looks like on day one. Recommended:
+  a semi-public waitlist rather than fully public - it can go live
+  now, build a real queue while waiting on funding, and turns "we got
+  the grant" into "open the queue" instead of a cold public opening.
+- Item 3, accounts vs. stateless - recommended: stay stateless for
+  this launch. Accounts are a real build cost that delays "ready," and
+  nothing in the case for Phase 1 requires them yet; revisit once real
+  usage says otherwise.
+
+*The switch itself, deferred until money is actually in hand:*
+- Lifting whichever gate item 1 lands on (opening the waitlist, or
+  wider still) - the one piece of this list that funding, not
+  readiness work, is meant to trigger.
+
+**Next action:** Mark's call on the two decisions above (waitlist vs.
+another shape; stay stateless or not) - everything else on this list
+is now buildable in parallel without waiting on either answer or on
+funding.
