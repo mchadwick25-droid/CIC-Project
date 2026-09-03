@@ -121,14 +121,36 @@ scope AND the **Source Acquisition Manifest** (format below). What Mark
 decides: whether this world's window and boundaries are right, and
 WHICH editions enter the library — rights, translation, and scope
 choices per source, with the manifest's own recommendations to accept
-or override. He then manually downloads the chosen open-source texts
-into `cic/texts/` under the manifest's stated filenames. The build
-VERIFIES every listed file is present and matches its stated
-size/identity before Phase A continues past Doc_02 — a missing or
-substituted file is a halt, never a workaround. Every Manifest row for
-a source NOT already found via the corpus-map/index check above should
-carry the trail: a real discovery_helper.py or WebSearch hit, verified
-against the actual host, not a guessed URL.
+or override.
+
+**Intake happens in THIS thread (2026-09-03 update — was written as an
+out-of-band step before this; it isn't one).** For each Manifest row Mark
+accepts, he finds and downloads the edition, then attaches it right here
+— no separate session, no handoff. The build thread runs
+`cic/texts/INTAKE.md` itself on each attachment: settle the rights basis,
+write the header, name the file, add its `REGISTRY.yaml` row, assign it
+into this world's own corpus-map bucket (and any other Atlas entry it
+plausibly serves — the same check-every-world discipline
+`cic/texts/INTAKE.md` §6 and the process document's "Cross-world source
+layer" section both state), and rebuild the search index before moving
+on to the next row. A batch too large to attach one at a time goes to
+`cic/texts/_intake/` instead (see that folder's own README) and gets
+worked through the same way. Either path, the build thread cross-checks
+what it actually vendored against what the accepted Manifest row said —
+a missing file, a rights basis that doesn't clear, or an edition that
+doesn't match what was accepted is a halt, never a workaround, never
+silently substituted. Every Manifest row for a source NOT already found
+via the corpus-map/index check above should carry the trail: a real
+discovery_helper.py or WebSearch hit, verified against the actual host,
+not a guessed URL.
+
+One thing worth knowing, not a bug: running `corpus_map_merge.py` (not
+`--check`) merges every staging file currently sitting in
+`cic/corpus-map/_staging/`, not only the one this thread just wrote —
+by design (that folder's own docstring: many workers, each owning one
+file, the merge is what collects all of it). Seeing another world's
+pending assignment appear in the merge output is that design working,
+not this thread's own mistake.
 
 **G2 — Representative identity, after Doc_09.** The grounded-options
 artifact: named ROLE + NAME alternatives, an explicit trade-off each,
