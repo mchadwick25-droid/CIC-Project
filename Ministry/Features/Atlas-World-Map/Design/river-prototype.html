@@ -54,7 +54,15 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
   cursor:pointer;font-size:.9rem;line-height:1;padding:0 .2rem}
 #stage{position:absolute;inset:0;touch-action:none;cursor:grab}
 #stage.grabbing{cursor:grabbing}
-svg#world{display:block}
+/* The era body/break-band rects (render(), below) bleed far past the canvas's
+   own edges so they cross the full screen at any pan/zoom -- but the SVG
+   element itself carries its own width/height attributes (CANVAS_W x CANVAS_H)
+   and clips its viewport to that box by default, same as any element with
+   overflow:hidden, regardless of how far a child's own coordinates extend.
+   overflow:visible here, not a change to width/height/viewBox (which would add
+   a second, unwanted auto-scale on top of the existing manual scale/tx/ty
+   system). */
+svg#world{display:block;overflow:visible}
 /* Halo, not just a fill: gold-leaf is also FAM's Syriac-East river hue, so a solid
    river passing under this corner at full pigment can otherwise erase the label --
    same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible
@@ -20161,6 +20169,15 @@ function el(tag,attrs){const e=document.createElementNS(NS,tag); for(const k in 
 
 const gRoot=el('g',{id:'pan-zoom'}); svg.appendChild(gRoot);
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
+// The era break band sits between the era-body ground and the rivers, not
+// with the caption text in gLabels (which stays last/topmost) -- it was
+// found painting the band there put it on top of the rivers too, tinting
+// every one of the 13 family hues by whatever the band's own color was
+// instead of letting them show through, worst for hues close to the
+// band's own purple. A river genuinely passing through the header gutter
+// should read at its own real color, same as the code above already
+// claims it does.
+const gBreakBand=el('g',{id:'break-band'}); gRoot.appendChild(gBreakBand);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
@@ -20224,7 +20241,8 @@ function wrapText(str,maxChars){
 }
 
 function render(){
-  gBands.innerHTML=''; gRivers.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gLabels.innerHTML='';
+  gBands.innerHTML=''; gBreakBand.innerHTML=''; gRivers.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gLabels.innerHTML='';
+  lastOrganic=null; // force the next applyDetail() to re-apply to the freshly rebuilt elements
 
   // Era bands -- passthrough grounding, never a container (rule 4)
   eras.forEach((e,i)=>{
@@ -20239,18 +20257,27 @@ function render(){
     // mode; dark mode's own subtle per-era cycling, eraDark above, is
     // unchanged) -- only the header gutter at the top of each era carries
     // color now, as a full-width break between one era and the next.
-    gBands.appendChild(el('rect',{x:-CANVAS_W*4,y:eraY0[i],width:CANVAS_W*9,height:eraH[i],fill:eraGround(i),opacity:0.75}));
+    // In light mode eraGround(i) is a flat #F6F6F2, identical to the page
+    // body -- painting it is a no-op (10 full-width rects that render
+    // nothing), so skip it there; dark mode's real cycling still paints.
+    if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
     // The break band: bled past the canvas edges (same trick as the era
     // body above) so it crosses the full screen at any zoom/pan instead of
-    // stopping at the caption text's own width -- confirmed at 0.75 opacity
-    // that read as too heavy once it spanned the whole screen, so this pass
-    // is also more transparent. Soft light purple in light mode, whiteish
-    // against the dark theme's near-black canvas ("on black" gets a bright
-    // break, not a dark-on-dark purple one). Both are light surfaces, which
-    // is why the caption text below is fixed dark ink in both themes rather
-    // than following the page's own light/dark text tokens -- this band is
-    // its own small light card regardless of overall theme.
-    gLabels.appendChild(el('rect',{x:-CANVAS_W*4,y:eraY0[i]+6,width:CANVAS_W*9,height:120,fill:isDark()?'#F6F6F2':'#C9B8E0',opacity:0.45}));
+    // stopping at the caption text's own width. Soft light purple in light
+    // mode, whiteish against the dark theme's near-black canvas ("on
+    // black" gets a bright break, not a dark-on-dark purple one). Opacity
+    // is deliberately asymmetric: 0.45 of an already-light color over an
+    // already-light page still composites light, but the same 0.45 of
+    // near-white over near-black only reaches mid-gray (measured ~#7F7C76)
+    // -- nowhere near light enough for the fixed-dark-ink caption text
+    // below, which measured 1.2-1.4:1 contrast there (WCAG AA needs
+    // 4.5:1). 0.92 in dark mode composites to ~#E5E4E0, clearing 4.5:1+
+    // for the description text and 3.9-4.7:1 for the title/dates (backed
+    // further by their own stroke halo, same as everywhere else in the
+    // file text sits over a variable background). Both are light surfaces
+    // now, which is why the caption text is fixed dark ink in both themes
+    // rather than following the page's own light/dark text tokens.
+    gBreakBand.appendChild(el('rect',{x:BLEED_X,y:eraY0[i]+6,width:BLEED_W,height:120,fill:isDark()?'#F6F6F2':'#C9B8E0',opacity:isDark()?0.92:0.45}));
     const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
@@ -20304,7 +20331,7 @@ function render(){
       'stroke-dasharray':dash, class:'edge-line'
     });
     line.dataset.from=edg.from; line.dataset.to=edg.to;
-    line.addEventListener('mouseenter',(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,`<div class="n">${a.shortName||a.name} ↔ ${b.shortName||b.name}</div><div class="m">${edg.type} · ${edg.confidence}</div><div class="s">${esc(edg.note).slice(0,140)}${edg.note.length>140?'…':''}</div>`);});
+    line.addEventListener('mouseenter',(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,`<div class="n">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`);});
     line.addEventListener('mouseleave',()=>{line.style.opacity=line.dataset.baseline;hideTip();});
     line.addEventListener('click',()=>openPanelEdge(edg,a,b));
     gEdges.appendChild(line);
@@ -20488,7 +20515,7 @@ function render(){
     // dot (not on it) so it never competes with the label for the same
     // horizontal space, and clear of the halo/focus-ring below it.
     let portrait=null;
-    if(built && PORTRAIT_DATA[m.id]){
+    if(built && PORTRAIT_DATA[m.id] && m.entry){
       portrait=el('g',{class:'portrait-plate',
         transform:`translate(${m._x.toFixed(1)},${(m._y-portraitOffsetById[m.id]).toFixed(1)})`});
       // Backing plate in the world's own accent color -- "the frame/ground
@@ -20555,7 +20582,15 @@ function tipFor(m){
 
 /* ---- Tooltip (hover = short) ---- */
 const tip=document.getElementById('tip');
-function showTip(ev,html){tip.innerHTML=html; tip.style.display='block'; positionTip(ev);}
+let tipW=0, tipH=0;
+function showTip(ev,html){
+  tip.innerHTML=html; tip.style.display='block';
+  // Measured once here, on the content change -- not on every mousemove in
+  // positionTip() below, which fires continuously while a node/edge is
+  // hovered and would otherwise force a synchronous layout read each time.
+  tipW=tip.offsetWidth; tipH=tip.offsetHeight;
+  positionTip(ev);
+}
 function positionTip(ev){
   // Nodes run all the way to the canvas's own right and bottom edges (the
   // "Beyond the Floor" lane sits at the far right on purpose) -- a tooltip
@@ -20563,7 +20598,7 @@ function positionTip(ev){
   // renders partly or fully off the browser window there. Flip to the
   // other side of the cursor when the default placement would overflow,
   // then clamp as a last resort.
-  const pad=8, w=tip.offsetWidth, h=tip.offsetHeight;
+  const pad=8, w=tipW, h=tipH;
   let left=ev.clientX+14, top=ev.clientY+14;
   if(left+w>window.innerWidth-pad)left=ev.clientX-14-w;
   if(top+h>window.innerHeight-pad)top=ev.clientY-14-h;
@@ -20646,6 +20681,16 @@ function buildLegend(){
 const stage=document.getElementById('stage');
 let scale=Math.min(window.innerWidth/CANVAS_W, window.innerHeight/eraH[0]/2.6), tx=0, ty=0;
 const MIN_S=0.06, MAX_S=3.2, DETAIL_THRESHOLD=0.34;
+let lastOrganic=null; // applyDetail() no-ops when the calm/organic threshold hasn't actually crossed
+// The era-body/break-band bleed rects (render(), below) need to still reach the
+// browser's real left/right edges at ANY pan/zoom, including the most zoomed-out
+// state on a wide monitor. A fixed multiple of CANVAS_W falls short there: at
+// MIN_S, 9*CANVAS_W*MIN_S is under 1000 screen px, nowhere near a 2400px+ window's
+// actual width, regardless of the SVG's own overflow setting -- that's a bleed
+// too narrow for the zoom level, not a clipping problem. Size it in world units
+// against MIN_S itself so width*scale clears a generous 8000px viewport even in
+// that worst case; every less-zoomed-out scale only overshoots further.
+const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;
 // Era captions read from a fixed screen margin, not a fixed canvas x: at
 // x:24 in canvas space, wherever the current pan/zoom happened to put that
 // point was "the left margin" -- on a wide window, centerView()'s own
@@ -20662,6 +20707,8 @@ function pinEraCaptions(){
 function applyTransform(){gRoot.setAttribute('transform',`translate(${tx},${ty}) scale(${scale})`);pinEraCaptions();}
 function applyDetail(){
   const organic = scale>DETAIL_THRESHOLD;
+  if(organic===lastOrganic)return; // every wheel/pinch tick calls this; skip the DOM writes when nothing crossed the threshold
+  lastOrganic=organic;
   document.querySelectorAll('.river-calm').forEach(p=>p.style.opacity=organic?0:RIVER_CALM_OP);
   document.querySelectorAll('.river-organic').forEach(p=>p.style.opacity=organic?RIVER_ORGANIC_OP:0);
   document.querySelectorAll('#nodes .lbl').forEach(t=>t.style.display=organic?'block':'none');
@@ -20675,7 +20722,16 @@ function applyDetail(){
 function centerView(){
   scale=Math.min(window.innerWidth/(CANVAS_W*1.05), window.innerHeight/(CANVAS_H*0.14));
   scale=Math.max(MIN_S,Math.min(MAX_S,scale));
-  tx=(window.innerWidth-CANVAS_W*scale)/2; ty=40;
+  tx=(window.innerWidth-CANVAS_W*scale)/2;
+  // Era 1's own caption renders starting a little below screen-y 0 -- a fixed
+  // ty:40 assumed a one-line topbar and no intro banner. The topbar can wrap
+  // to two/three lines (positionScopeNote above) and #scopeNote's own banner
+  // sits right under it; together they run up to ~148px on a narrow window
+  // before it's dismissed, hiding era 1's header behind fixed chrome for any
+  // first-time visitor. Measure the real chrome instead of assuming its height.
+  const topbar=document.querySelector('.topbar'), note=document.getElementById('scopeNote');
+  const chrome=(topbar?topbar.offsetHeight:0)+(note?note.offsetHeight:0);
+  ty=Math.max(40,chrome+12);
   applyTransform(); applyDetail();
 }
 stage.addEventListener('wheel',(ev)=>{
@@ -20744,7 +20800,7 @@ window.addEventListener('resize',positionScopeNote);
 window.addEventListener('resize',()=>{/* no auto-recenter -- resize is not a participant zoom action */});
 
 const mq=matchMedia('(prefers-color-scheme: dark)');
-mq.addEventListener('change',()=>{render(); buildLegend(); pinEraCaptions();});
+mq.addEventListener('change',()=>{render(); buildLegend(); applyTransform(); applyDetail();});
 
 render();
 buildLegend();
