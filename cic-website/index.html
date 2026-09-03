@@ -10,10 +10,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-/* Website V2 · Home. Design record: Ministry/Features/Website-V2/CiC_Website_Design_V2.md
-   Storyboard: Ministry/Features/Website-V2/CiC_Website_V2_Storyboard.md §1
-   data-copy marks each line's register (protected/brand/live/census/canon/draft)
-   for the approval ledger; it has no visual or behavioural effect. */
 :root{
   --parchment:#F6F6F2; --vellum:#FFFFFF; --gold-wash:#FBF2E2;
   --ink:#2A2521;
@@ -69,8 +65,6 @@ p{margin:0 0 1rem}
 .muted{color:var(--muted)}
 .wrap{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
 
-/* Header. The mark itself lives only in the hero (ruling 8) — the wordmark
-   here is plain text. The header wraps; nothing is sticky. */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.7rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.25rem 1.5rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
@@ -88,18 +82,11 @@ p{margin:0 0 1rem}
   .site-header .row{gap:.1rem 1rem}
 }
 
-/* Hero — the mark plays once, with its own sentence beside it; the H1. */
 .hero{max-width:var(--col);margin:0 auto;padding:2.75rem 1.25rem 1.25rem;text-align:center}
 .mark-line{display:flex;align-items:center;justify-content:center;gap:.9rem;margin:0 auto 1.75rem;max-width:32rem;text-align:left}
 .mark-line .arriving{width:52px;flex:0 0 52px;color:var(--mark-ink)}
 .mark-line svg{display:block;width:100%;height:auto}
 .mark-line p{margin:0;font-family:var(--sans);font-size:.9rem;line-height:1.4;color:var(--muted);text-wrap:balance}
-/* Resting/complete is the default appearance — safe with no JS, under
-   reduced motion, and for the header mark (which always carries .play
-   from first paint, so animation-fill-mode:both overrides these anyway).
-   .pending is the one opt-in exception: JS adds it, only when it's about
-   to animate an instance on first scroll into view, to force the
-   undrawn starting look until then. */
 .arriving-ring{fill:none;stroke:currentColor;stroke-width:11;stroke-linecap:round;stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
 .arriving-seat{fill:var(--mark-dot);transform-origin:88.5px 50px;transform:translate(0,0)}
 .arriving.pending .arriving-ring{stroke-dasharray:0 360;opacity:0}
@@ -123,8 +110,6 @@ p{margin:0 0 1rem}
   .mark-line .arriving{width:44px;flex-basis:44px}
 }
 
-/* The door — the page's one filled control. No <form>: the held question
-   rides the URL fragment only, never a query string (design record §5.1). */
 .door{max-width:var(--col);margin:0 auto;padding:1.5rem 1.25rem 2.5rem;border-top:1px solid var(--rule)}
 .door .inner{max-width:var(--measure);margin:0 auto;background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:1.6rem 1.5rem 1.5rem}
 .door h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .9rem}
@@ -152,11 +137,6 @@ p{margin:0 0 1rem}
   .qform input{flex-basis:11rem}
 }
 
-/* Who would you like to have a conversation with — first on the page (context before the
-   question, per Mark's 2026-09-02 ruling): a gallery, not a list — rows
-   are eras (vertical = time), each row runs chronologically left to
-   right, so the grid can grow past ten voices without deepening the
-   scroll to find one. */
 .who{max-width:var(--wide);margin:0 auto;padding:1.5rem 1.25rem 2rem}
 .held{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--lapis-text);border-radius:0 3px 3px 0;padding:.9rem 1.1rem;margin:0 0 1.6rem;max-width:var(--measure)}
 .held .k{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--lapis-text);margin:0 0 .25rem}
@@ -164,15 +144,6 @@ p{margin:0 0 1rem}
 .held .edit{font-family:var(--sans);font-size:.9rem}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .6rem;max-width:var(--measure)}
 .who .scope{color:var(--muted);max-width:var(--measure);margin:0 0 .6rem}
-/* The gallery's own viewport: every era that fits shows in full — no
-   partial row ever peeks over the edge (Mark's 2026-09-02 ruling: "for
-   now 2 rows on the screen, all the current rows... don't show the top
-   of the next row"). These CSS caps are the no-JS fallback, sized to
-   fit today's two eras with no scrollbar (measured per tier, same
-   discipline as the header's own table); JS below recomputes an exact
-   height from real content so the cutoff always lands on an era
-   boundary, never mid-era, once a third era stops fitting. The era-nav
-   pair only appears once there's something to scroll to. */
 .who-gallery{max-height:800px;overflow-y:auto;scroll-snap-type:y mandatory;padding-right:.5rem;margin:0 -.5rem 0 0}
 @media (max-width:699px){ .who-gallery{max-height:1380px} }
 @media (max-width:480px){ .who-gallery{max-height:1560px} }
@@ -208,7 +179,6 @@ p{margin:0 0 1rem}
 .second-door a{font-family:var(--sans);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:.2rem 0}
 .second-door a .arriving{width:24px;flex:0 0 24px;color:var(--mark-ink)}
 
-/* One exchange — the leaf, no composer, no chrome. */
 .looks{max-width:var(--col);margin:0 auto;padding:2.2rem 1.25rem;border-top:1px solid var(--rule)}
 .looks h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .5rem}
 .looks .intro{color:var(--muted);max-width:var(--measure);margin:0 0 1.2rem}
@@ -230,7 +200,6 @@ p{margin:0 0 1rem}
 .margin .note{border-top:1px solid var(--rule);padding-top:.6rem}
 .margin p{margin:0;color:var(--muted);font-size:.97rem;line-height:1.5}
 
-/* Before you sit down — the disclosure block. */
 .before{max-width:var(--col);margin:0 auto;padding:2.2rem 1.25rem;border-top:1px solid var(--rule)}
 .before h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .5rem}
 .two{display:grid;gap:1.4rem}
@@ -243,14 +212,12 @@ p{margin:0 0 1rem}
 .before .committed{margin:1.6rem 0 0;max-width:var(--measure);font-style:italic}
 .before .measure{max-width:var(--measure);color:var(--muted);margin:.5rem 0 0}
 
-/* The map — one link. */
 .map{max-width:var(--col);margin:0 auto;padding:2.2rem 1.25rem;border-top:1px solid var(--rule)}
 .map h2{font-size:clamp(1.4rem,2.8vw,1.75rem);margin:0 0 .5rem}
 .map p{max-width:var(--measure)}
 .map .links{font-family:var(--sans);display:flex;flex-wrap:wrap;gap:0 1.6rem}
 .map .links a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;padding:.2rem 0}
 
-/* The support slot — quiet register, text links only, never buttons. */
 .support{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem 3rem;border-top:1px solid var(--rule);font-family:var(--sans);font-size:.95rem;color:var(--muted)}
 .support p{max-width:var(--measure);margin:0 0 .6rem}
 .support a{display:inline-flex;align-items:center;min-height:44px;color:var(--action)}
@@ -274,7 +241,7 @@ p{margin:0 0 1rem}
       <a href="whats-next.html">What's Next</a>
       <a href="atlas-v3.html">Map</a>
       <a href="support.html">Get Involved</a>
-      <a class="side-door" id="side-door" href="https://cic-engine.onrender.com/" hidden data-app data-copy="draft"><span class="sd-long">Been here before? </span>Go straight in →</a>
+      <a class="side-door" id="side-door" href="https://cic-engine.onrender.com/" hidden data-app><span class="sd-long">Been here before? </span>Go straight in →</a>
     </nav>
   </div>
 </header>
@@ -286,27 +253,27 @@ p{margin:0 0 1rem}
       <div class="arriving play" aria-hidden="true">
         <svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg>
       </div>
-      <p data-copy="brand">The mark is a table; the opening is the way in — and it never closes.</p>
+      <p>The mark is a table; the opening is the way in — and it never closes.</p>
     </div>
-    <h1 id="hook" data-copy="protected">Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
-    <p class="welcome-back" id="welcome-back" hidden data-copy="draft">Welcome back. <a href="https://cic-engine.onrender.com/" data-app>Go straight in →</a></p>
+    <h1 id="hook">Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
+    <p class="welcome-back" id="welcome-back" hidden>Welcome back. <a href="https://cic-engine.onrender.com/" data-app>Go straight in →</a></p>
   </section>
 
   <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
     <div class="held" id="held" hidden tabindex="-1">
-      <p class="k" data-copy="constitution">Your question, held:</p>
+      <p class="k">Your question, held:</p>
       <p class="q" id="held-q"></p>
       <a class="edit" href="#q" id="held-edit">Edit it</a>
     </div>
-    <p class="eyebrow" data-copy="live">Who's at the table</p>
-    <h2 id="who-title" data-copy="draft">Who would you like to have a conversation with?</h2>
-    <p class="scope" data-copy="draft">Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.</p>
+    <p class="eyebrow">Who's at the table</p>
+    <h2 id="who-title">Who would you like to have a conversation with?</h2>
+    <p class="scope">Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.</p>
 
     <div class="who-gallery" id="who-gallery" tabindex="0" role="group" aria-label="Traditions by era">
     <div class="era-group" id="era-1" tabindex="-1" aria-labelledby="era-1-head" data-era-label="The Early Church Era">
-    <h3 class="era-head" id="era-1-head" data-copy="census"><span>The Early Church Era</span><span class="dates">70–312 CE</span></h3>
+    <h3 class="era-head" id="era-1-head"><span>The Early Church Era</span><span class="dates">70–312 CE</span></h3>
     <ol class="chairs">
-      <li class="chair" style="--tint:#7c3aed;--tint-dark:#955FF0" data-copy="census">
+      <li class="chair" style="--tint:#7c3aed;--tint-dark:#955FF0">
         <div class="portrait"><img src="assets/portraits/house-churches.png" alt="Chloe, Representative of The House-Churches" width="72" height="72" loading="lazy" decoding="async"></div>
         <div>
           <h4>Chloe<span class="role">Household Leader</span></h4>
@@ -316,7 +283,7 @@ p{margin:0 0 1rem}
           <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" data-app data-ask>Ask Chloe →</a><a class="record" href="traditions/post-apostolic-house-church.html">Her record →<span class="vh"> — The House-Churches</span></a></p>
         </div>
       </li>
-      <li class="chair" style="--tint:#2B5F8A;--tint-dark:#3B83BF" data-copy="census">
+      <li class="chair" style="--tint:#2B5F8A;--tint-dark:#3B83BF">
         <div class="portrait"><img src="assets/portraits/alexandria.png" alt="Theon, Representative of Alexandrian Christianity" width="72" height="72" loading="lazy" decoding="async"></div>
         <div>
           <h4>Theon<span class="role">Catechetical Teacher</span></h4>
@@ -326,7 +293,7 @@ p{margin:0 0 1rem}
           <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-ask>Ask Theon →</a><a class="record" href="traditions/alexandria-catechetical.html">His record →<span class="vh"> — Alexandrian Christianity</span></a></p>
         </div>
       </li>
-      <li class="chair" style="--tint:#b45309;--tint-dark:#CC5E0A" data-copy="census">
+      <li class="chair" style="--tint:#b45309;--tint-dark:#CC5E0A">
         <div class="portrait"><img src="assets/portraits/syriac.png" alt="Mar Yausep, Representative of Syriac Christianity" width="72" height="72" loading="lazy" decoding="async"></div>
         <div>
           <h4>Mar Yausep<span class="role">Teacher of the Covenant Order</span></h4>
@@ -340,9 +307,9 @@ p{margin:0 0 1rem}
     </div>
 
     <div class="era-group" id="era-2" tabindex="-1" aria-labelledby="era-2-head" data-era-label="The Imperial Church Era">
-    <h3 class="era-head" id="era-2-head" data-copy="census"><span>The Imperial Church Era</span><span class="dates">312–451 CE</span></h3>
+    <h3 class="era-head" id="era-2-head"><span>The Imperial Church Era</span><span class="dates">312–451 CE</span></h3>
     <ol class="chairs">
-      <li class="chair" style="--tint:#7A2E2E;--tint-dark:#C36060" data-copy="census">
+      <li class="chair" style="--tint:#7A2E2E;--tint-dark:#C36060">
         <div class="portrait"><img src="assets/portraits/empire.png" alt="Marius, Representative of Church and Empire" width="72" height="72" loading="lazy" decoding="async"></div>
         <div>
           <h4>Marius<span class="role">Deacon of the Letters</span></h4>
@@ -352,7 +319,7 @@ p{margin:0 0 1rem}
           <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview" data-app data-ask>Ask Marius →</a></p>
         </div>
       </li>
-      <li class="chair" style="--tint:#0f766e;--tint-dark:#128D84" data-copy="census">
+      <li class="chair" style="--tint:#0f766e;--tint-dark:#128D84">
         <div class="portrait"><img src="assets/portraits/desert.png" alt="Papnoute, Representative of the Desert Fathers and Mothers" width="72" height="72" loading="lazy" decoding="async"></div>
         <div>
           <h4>Papnoute<span class="role">Abba (Elder)</span></h4>
@@ -362,7 +329,7 @@ p{margin:0 0 1rem}
           <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=desert-monasticism&amp;mode=interview" data-app data-ask>Ask Papnoute →</a></p>
         </div>
       </li>
-      <li class="chair" style="--tint:#A0522D;--tint-dark:#C46437" data-copy="census">
+      <li class="chair" style="--tint:#A0522D;--tint-dark:#C46437">
         <div class="portrait"><img src="assets/portraits/cappadocian.jpg" alt="Chilo, Representative of The Cappadocian Churches" width="72" height="72" loading="lazy" decoding="async"></div>
         <div>
           <h4>Chilo<span class="role">Elder of the Brotherhoods</span></h4>
@@ -372,7 +339,7 @@ p{margin:0 0 1rem}
           <p class="acts"><a href="https://cic-engine.onrender.com/?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview" data-app data-ask>Ask Chilo →</a></p>
         </div>
       </li>
-      <li class="chair" style="--tint:#9d174d;--tint-dark:#E23B7F" data-copy="census">
+      <li class="chair" style="--tint:#9d174d;--tint-dark:#E23B7F">
         <div class="portrait"><img src="assets/portraits/bethlehem.png" alt="Albina, Representative of The Bethlehem Circle" width="72" height="72" loading="lazy" decoding="async"></div>
         <div>
           <h4>Albina<span class="role">Widow of the Household</span></h4>
@@ -392,14 +359,14 @@ p{margin:0 0 1rem}
       <button type="button" class="era-nav-btn" id="era-next">Next era →</button>
     </div>
 
-    <p class="pilot-note" data-copy="live">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith.</p>
-    <p class="pilot-caveat" data-copy="live">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
-    <p class="second-door" data-copy="draft">Or bring two or three of them to one table. <a href="table.html"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Set your own table →</a></p>
+    <p class="pilot-note">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith.</p>
+    <p class="pilot-caveat">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+    <p class="second-door">Or bring two or three of them to one table. <a href="table.html"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Set your own table →</a></p>
   </section>
 
   <section class="door" aria-labelledby="door-title">
     <div class="inner">
-      <h2 id="door-title" data-copy="constitution">Start with your question</h2>
+      <h2 id="door-title">Start with your question</h2>
       <div class="qform">
         <label class="vh" for="q">Your question</label>
         <div class="fieldrow">
@@ -407,12 +374,11 @@ p{margin:0 0 1rem}
           <a class="btn" id="ask-control" href="#who">Choose who to ask →</a>
         </div>
       </div>
-      <p class="lede" data-copy="draft">Whether you come curious, with a sermon to write, or with a question about faith you've carried for years — there is a chair.</p>
-      <!-- interim wording: #q= doesn't yet reach the app (ruling 34, open) -->
-      <p class="how" data-copy="draft">Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there.</p>
-      <p class="ai-line" data-copy="draft">You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out.</p>
-      <p class="offered-head" data-copy="draft">Or begin with one of these — questions people bring</p>
-      <ul class="offered" data-copy="canon">
+      <p class="lede">Whether you come curious, with a sermon to write, or with a question about faith you've carried for years — there is a chair.</p>
+            <p class="how">Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there.</p>
+      <p class="ai-line">You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out.</p>
+      <p class="offered-head">Or begin with one of these — questions people bring</p>
+      <ul class="offered">
         <li><a href="#who" data-q>I grew up being told doubt was sin. Was there room among your people for doubt?</a></li>
         <li><a href="#who" data-q>Did any of you ever want to leave?</a></li>
         <li><a href="#who" data-q>I pray and nothing happens. Did your people know that silence?</a></li>
@@ -420,17 +386,17 @@ p{margin:0 0 1rem}
         <li><a href="#who" data-q>Why does God allow suffering like this? Where was he when it happened to your people — and to mine?</a></li>
         <li><a href="#who" data-q>I want to believe in Jesus, but I can't. What would you say to me?</a></li>
       </ul>
-      <p class="offered-note" data-copy="draft">These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room.</p>
+      <p class="offered-note">These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room.</p>
     </div>
   </section>
 
   <section class="looks" aria-labelledby="looks-title">
-    <p class="eyebrow" data-copy="draft">One exchange, as it happened</p>
-    <h2 id="looks-title" data-copy="draft">What a conversation looks like</h2>
-    <p class="intro" data-copy="draft">A visitor pressed Theon on how sure he really was. This is what came back — the voice holding apart what it knows from what it cannot show.</p>
+    <p class="eyebrow">One exchange, as it happened</p>
+    <h2 id="looks-title">What a conversation looks like</h2>
+    <p class="intro">A visitor pressed Theon on how sure he really was. This is what came back — the voice holding apart what it knows from what it cannot show.</p>
     <div class="exchange">
       <figure style="margin:0" aria-labelledby="leaf-cap">
-        <div class="leaf" data-copy="capture">
+        <div class="leaf">
           <p class="head">Alexandrian Christianity · c. 150–400 CE</p>
           <p class="fac">I'm glad you're here. Come in, settle wherever feels right.</p>
           <p class="fac">Welcome to the table. Today you sit with Theon, a catechetical teacher from the Christian community of Alexandria, speaking to you from somewhere within the second through fourth centuries of that great city's life — a place where scripture, philosophy, and the discipline of the soul were held together in one breath. Theon awaits your questions; where shall we begin?</p>
@@ -443,64 +409,64 @@ p{margin:0 0 1rem}
             <p>What we cannot give you is one particular <span class="gloss">soul</span> walking it — a name, a morning, a specific word said to a specific catechumen on a specific day. When we spoke of "a typical formation," that was offered honestly as the shape many lives probably shared, not as any single life we can point to and say: this happened, here, to this one. Where the pattern is concerned, our confidence is real. Where a particular soul's road through it is concerned, we have the outline and not the portrait — and we would rather tell you that plainly than paint a face onto it that was never there.<span class="cite" aria-label="three sources cited">✲ 3</span></p>
           </div>
         </div>
-        <figcaption class="leaf-caption" id="leaf-cap" data-copy="draft">Captured from a live conversation with Theon on 25 August 2026; the words are unchanged, re-set here in the app's long-form grammar. The dotted terms and the ✲ are live in the room — hover or tap them there for the plain meaning, and for the sources. Here they are a picture.</figcaption>
+        <figcaption class="leaf-caption" id="leaf-cap">Captured from a live conversation with Theon on 25 August 2026; the words are unchanged, re-set here in the app's long-form grammar. The dotted terms and the ✲ are live in the room — hover or tap them there for the plain meaning, and for the sources. Here they are a picture.</figcaption>
       </figure>
-      <aside class="margin" aria-label="How to read the exchange" data-copy="draft">
+      <aside class="margin" aria-label="How to read the exchange">
         <div class="note"><h3>The quieter voice</h3><p>The italic lines are the Facilitator, who opens the room, bridges anything the voice could not know, and — if something painful comes up — points you toward real people who can help.</p></div>
         <div class="note"><h3>A dotted term</h3><p>Opens a short gloss in the tradition's own words; one tap more opens the full entry. Marked the first time it appears, then left alone.</p></div>
         <div class="note"><h3>✲ 3 · the sources</h3><p>Three letters and records stand behind this answer. In the room you open the list, and every one is checkable.</p></div>
-        <div class="note"><h3>Where it's thin</h3><p data-copy="protected" style="color:var(--text)">Where the historical record is thin, we let the silence stand.</p></div>
+        <div class="note"><h3>Where it's thin</h3><p style="color:var(--text)">Where the historical record is thin, we let the silence stand.</p></div>
       </aside>
     </div>
   </section>
 
   <section class="before" aria-labelledby="before-title">
-    <p class="eyebrow" data-copy="draft">Before you sit down</p>
-    <h2 id="before-title" data-copy="draft">A representative voice, not a person. Here is what holds it to the record, and what is still unfinished.</h2>
+    <p class="eyebrow">Before you sit down</p>
+    <h2 id="before-title">A representative voice, not a person. Here is what holds it to the record, and what is still unfinished.</h2>
     <div class="two">
       <div>
-        <h3 data-copy="draft">What holds it</h3>
-        <ul data-copy="draft">
+        <h3>What holds it</h3>
+        <ul>
           <li><strong>Locked to sources.</strong> A voice is built last, from a completed record of one tradition's own letters, sermons, and primary sources, through a ten-step, review-gated build — and speaks only from that record.</li>
           <li><strong>Shows its confidence.</strong> Every claim carries how well it is attested, in the same five words inside every conversation, never adjusted for who is asking.</li>
-          <li><strong>Watched while it speaks.</strong> <span data-copy="live">Every conversation is watched in real time for a softened truth, an invented detail, or knowledge the voice shouldn't have — and corrected before it reaches you.</span></li>
+          <li><strong>Watched while it speaks.</strong> <span>Every conversation is watched in real time for a softened truth, an invented detail, or knowledge the voice shouldn't have — and corrected before it reaches you.</span></li>
           <li><strong>Witness, never recruitment.</strong> A voice of its tradition, in real conversation — it does not pretend to be a person, and it is not here to win you over.</li>
         </ul>
       </div>
       <div>
-        <h3 data-copy="draft">What is unfinished, said plainly</h3>
-        <ul data-copy="draft">
+        <h3>What is unfinished, said plainly</h3>
+        <ul>
           <li><strong>Independent academic review is the standard we are building toward.</strong> It has not begun; an advisory board is being formed and needs funding and volunteers.</li>
           <li><strong>Every conversation runs on one plain voice.</strong> The modes designed for a pastor, a scholar, or someone re-examining faith have not shipped.</li>
           <li><strong>Lives in one browser tab, not an account.</strong> There is no sign-in; a conversation stays in the tab you open it in. What we keep on our side, and how to ask us to delete it, is on the Privacy page.</li>
           <li><strong>Later centuries are planned, not built.</strong> What is live is the Church's own first four hundred years; each later era is its own careful build.</li>
-          <li><span data-copy="live">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</span></li>
+          <li><span>If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</span></li>
         </ul>
       </div>
     </div>
-    <p class="committed" data-copy="protected">We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike.</p>
-    <p class="measure" data-copy="protected">We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share.</p>
-    <p class="sans muted" style="font-size:.9rem;margin:1rem 0 0" data-copy="draft">How a tradition is built, step by step: <a href="about.html#how-it-works">About — how it works</a>.</p>
+    <p class="committed">We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike.</p>
+    <p class="measure">We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share.</p>
+    <p class="sans muted" style="font-size:.9rem;margin:1rem 0 0">How a tradition is built, step by step: <a href="about.html#how-it-works">About — how it works</a>.</p>
   </section>
 
   <section class="map" aria-labelledby="map-title">
-    <p class="eyebrow" data-copy="draft">Twenty centuries on one map</p>
-    <h2 id="map-title" data-copy="live">Church in History</h2>
-    <p data-copy="draft">Seven traditions are open for conversation and two more are chosen and being built. Nearly three hundred movements across ten eras are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read.</p>
+    <p class="eyebrow">Twenty centuries on one map</p>
+    <h2 id="map-title">Church in History</h2>
+    <p>Seven traditions are open for conversation and two more are chosen and being built. Nearly three hundred movements across ten eras are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read.</p>
     <p class="links"><a href="atlas-v3.html">Open Church in History →</a><a href="whats-next.html" style="font-weight:400">What's next</a></p>
   </section>
 
   <section class="support" aria-labelledby="support-title">
     <h2 class="vh" id="support-title">Support</h2>
-    <p data-copy="live">Running these conversations costs real money. If you'd like to help more people use them:</p>
-    <p data-copy="live"><a href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open — give once</a> &nbsp;·&nbsp; <a href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider — give monthly</a></p>
-    <p data-copy="live">For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
+    <p>Running these conversations costs real money. If you'd like to help more people use them:</p>
+    <p><a href="https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00">Keeping the Door Open — give once</a> &nbsp;·&nbsp; <a href="https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01">Open the Door Wider — give monthly</a></p>
+    <p>For what this actually costs and where it goes, see <a href="support.html">Get Involved</a>.</p>
   </section>
 </main>
 
 <footer class="site-footer">
   <div class="row">
-    <span data-copy="live">&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
     <nav aria-label="Footer">
       <a href="about.html">About</a>
       <a href="pilot-feedback.html">Feedback</a>
@@ -533,8 +499,6 @@ var heldQ = document.getElementById('held-q');
 var who = document.getElementById('who');
 var askLinks = document.querySelectorAll('a[data-ask]');
 
-// The URL is the held state, normalised: read, decode in try/catch, trim,
-// cut to 280 (design record §5.1). Rendered only via textContent/.value.
 function readHash(){
   var h = window.location.hash;
   if (h.indexOf('#q=') !== 0) return '';
@@ -568,11 +532,6 @@ Array.prototype.forEach.call(document.querySelectorAll('a[data-q]'), function(a)
 });
 document.getElementById('held-edit').addEventListener('click', function(e){ e.preventDefault(); input.focus(); input.scrollIntoView({block:'center'}); });
 
-// Era gallery — every era that fits shows in full; the era-nav pair only
-// appears once there's more than fits (design record §11.6-equivalent:
-// it's a JS-only convenience — without JS the gallery is a plain
-// scrollable region, every era and name reachable by wheel, touch, or
-// keyboard once it's focused, capped by the CSS fallback above).
 var gallery = document.getElementById('who-gallery');
 var eraGroups = Array.prototype.slice.call(document.querySelectorAll('.era-group'));
 if (gallery && eraGroups.length) {
@@ -583,9 +542,6 @@ if (gallery && eraGroups.length) {
   function offsetWithinGallery(el){
     return el.getBoundingClientRect().top - gallery.getBoundingClientRect().top + gallery.scrollTop;
   }
-  // The exact height that fits as many whole eras as the CSS fallback's
-  // own target allows, and not one pixel of the next one — recomputed
-  // from real rendered content so the cutoff is never mid-era.
   function sizeGallery(){
     gallery.style.paddingBottom = '0px';
     var target = window.innerWidth <= 480 ? 1560 : window.innerWidth <= 699 ? 1380 : 800;
@@ -596,19 +552,10 @@ if (gallery && eraGroups.length) {
       fit = bottom;
     }
     gallery.style.maxHeight = fit + 'px';
-    // Only pad when there's actually more content than fits — otherwise
-    // today's exactly-enough eras would grow a phantom scrollbar for no
-    // reason. When there is more, the last era needs enough of its own
-    // trailing space to reach the container's top when scrolled to —
-    // nothing follows it to push the scroll that far otherwise (the same
-    // clamp bug found and fixed for the one-era-at-a-time build).
     var last = eraGroups[eraGroups.length - 1];
     var total = offsetWithinGallery(last) + last.offsetHeight;
     gallery.style.paddingBottom = total > fit ? Math.max(0, fit - last.offsetHeight) + 'px' : '0px';
   }
-  // More than one era can be on screen at once, so "current" is a range,
-  // not a single index: the first era at/after the scrolled top, and the
-  // last one still fully inside the visible height.
   function topIndex(){
     var top = gallery.scrollTop, idx = 0;
     for (var i = 0; i < eraGroups.length; i++) {
@@ -633,10 +580,6 @@ if (gallery && eraGroups.length) {
     eraCurrent.textContent = label + ' · ' + range + ' of ' + eraGroups.length;
     eraNav.hidden = gallery.scrollHeight <= gallery.clientHeight + 1;
   }
-  // Paging back fits as much as possible into the space ending right at
-  // the current top, rather than just stepping back one era — so Prev
-  // from a lone trailing era returns to the same multi-era page Next
-  // came from, not a one-era sliver of it.
   function prevPageStart(topIdx){
     var target = window.innerWidth <= 480 ? 1560 : window.innerWidth <= 699 ? 1380 : 800;
     var endOffset = offsetWithinGallery(eraGroups[topIdx]), j = topIdx - 1;
@@ -651,9 +594,6 @@ if (gallery && eraGroups.length) {
   }
   eraPrev.addEventListener('click', function(){ goToEra(prevPageStart(topIndex())); });
   eraNext.addEventListener('click', function(){ goToEra(bottomVisibleIndex(topIndex()) + 1); });
-  // Manual wheel/touch scroll: debounced so scroll-snap's own settle
-  // (which fires intermediate scroll events) doesn't fight the number
-  // a button click just set.
   var scrollTimer = null;
   gallery.addEventListener('scroll', function(){
     clearTimeout(scrollTimer);
@@ -668,12 +608,6 @@ if (gallery && eraGroups.length) {
   updateEraNav();
 }
 
-// The Table's own doorway mark, playing once the first time it scrolls
-// into view — the same motion as the hero's, drawing the eye to it
-// rather than leaving it a plain line of text easy to scroll past.
-// Clicking through and arriving at table.html plays its own copy of
-// this same motion on load, so the cue also covers "the first time you
-// click," not just "the first time you scroll to it."
 var tableCue = document.getElementById('table-cue');
 if (tableCue) {
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;

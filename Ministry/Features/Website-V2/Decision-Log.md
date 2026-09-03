@@ -1974,3 +1974,53 @@ itself, not a per-instance row):**
 principle 1 (this session's own prior commit); principle 2 is
 prospective, named as a bar for later, not applied retroactively in this
 pass; the process checklist describes work already done, not new work.
+
+---
+
+## 2026-09-03 (later still) — Tradition pages cut down; build files carry no notes
+
+Mark, immediately after the above: "this should be short and sweet we
+dont need building processes or pages of descriptions, this is not a
+book or paper, it is just enough to interest, orient and engage the
+participant." Then: "any documentation or notes or corruptions should
+never be in the files... remove any notes, comments, documentation that
+is not core to the functionality... if you need to keep things in a side
+document that is ok, but never in the build or resource files."
+
+**The seven-step process checklist added minutes earlier is gone** —
+exactly the "building process" overhead Mark said isn't wanted. The two
+standing principles are collapsed into a few sentences at the top of the
+storyboard's §2, not a page of them.
+
+**Both tradition pages rebuilt short**, cutting everything past what
+interests, orients, and engages: the lexicon/witness-text section and
+the whole "record behind the voice" finding aid (sources, gravities,
+confidence legend, contested list, legacy, review status) are gone.
+What's left: title block, one-line representative statement, one short
+"where it's quiet" excerpt, three or four questions to ask, the door.
+Chloe's page: 628 → 272 lines. Theon's: 554 → 273. The "on this page" nav
+is gone with them — nothing left to navigate to.
+
+**`index.html` and `table.html` stripped of every HTML/CSS/JS comment
+and every `data-copy` attribute**; both tradition pages built clean from
+the start. `data-copy` was already documented as having "no visual or
+behavioural effect" — pure annotation — so removing it is zero-risk to
+behavior, confirmed by re-running the full functional suite (table.html's
+seat/chooser/convene flow, the homepage's era gallery and table-cue
+animation, both tradition pages' held-question flow) with no change in
+result. Nothing explanatory is lost — it lives here instead, which is
+where Mark said it belongs.
+
+**Storyboard's §2 rewritten to match** (was ~350 lines of detailed
+per-section spec; now about a dozen lines naming the order and content
+sources) and Appendix A's tradition-page copy list cut to match what
+actually ships. Rulings 3, 22, and 36 — the starter-question gate, the
+in-page-nav rule, and the reviewer's-brief content gate — no longer
+apply to this template; nothing on the page depends on any of them
+anymore. Not individually rewritten in the ruling register; noted here
+rather than left silently orphaned.
+
+**Verified:** both pages, zero overflow 320–1440px, clean heading
+outlines, held-question flow correct in a fresh context, zero
+`target="_blank"`; `index.html` and `table.html` re-verified end to end
+after the comment/attribute strip with no regressions.

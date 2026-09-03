@@ -11,15 +11,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-/* Website V2 · Set your own table. New page, not yet in the frozen
-   storyboard — built at Mark's direction, 2026-09-03, to give the
-   multi-voice Table its own standalone entry (previously only a
-   secondary link, and a per-tradition "Bring {Name} to a Table" link
-   that cast whichever tradition you started from as the table's host).
-   The graphic adapts the "Arriving" mark's own doorway geometry — a
-   ring with an opening and a seat settling into it — to four seats
-   instead of one: you, already arrived, and three doorways still open.
-   data-copy marks each line's register; it has no visual effect. */
 :root{
   --parchment:#F6F6F2; --vellum:#FFFFFF; --gold-wash:#FBF2E2;
   --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
@@ -86,23 +77,11 @@ p{margin:0 0 1rem}
 .hero h1{font-size:clamp(2rem,4.5vw,2.75rem);margin:0 0 .75rem}
 .hero .lede{font-size:1.15rem;max-width:32rem;margin:0 auto 1.75rem;text-wrap:balance;color:var(--text)}
 
-/* The graphic: the Arriving mark's own ring-and-doorway geometry, drawn at
-   four points instead of one. "You" occupies the mark's own established
-   threshold position; three more doorways open around the rest of the
-   ring. Plays once on arrival, like the homepage hero; nothing else on
-   this page moves (reduced motion: the completed ring, no seat motion). */
 .table-graphic{position:relative;width:280px;height:280px;margin:0 auto 2rem}
 .table-graphic svg{position:absolute;inset:0;width:100%;height:100%;color:var(--mark-ink)}
-/* One continuous arc, one gap — the logo's own ring, not four cut
-   segments. The gap is a quarter of the circle (matching the four-way
-   split: You + three seats), centered on the right where "You" sits,
-   same threshold role the mark's own single gap plays. */
 .ring{fill:none;stroke:currentColor;stroke-width:8;stroke-linecap:round;stroke-dasharray:0 400;opacity:0}
 .table-graphic.play .ring{animation:table-draw 1100ms cubic-bezier(.4,0,.2,1) 300ms both}
 @keyframes table-draw{0%{stroke-dasharray:0 400;opacity:0}4%{opacity:1}100%{stroke-dasharray:329.9 400;opacity:1}}
-/* Seats sit just outside the ring, like chairs pulled up to a table,
-   not fitted into notches cut in it. Each is centered on its own
-   quarter of the circle (90° apart), same as the ring's own quartering. */
 .seat{position:absolute;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center}
 .seat-you{background:var(--surface);border:2px solid var(--mark-dot);font-family:var(--sans);font-size:.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--mark-dot);left:218px;top:112px;opacity:0}
 .table-graphic.play .seat-you{animation:seat-in 500ms cubic-bezier(.3,0,.35,1.4) 1300ms both}
@@ -131,9 +110,6 @@ p{margin:0 0 1rem}
 .caveat{font-family:var(--sans);font-size:.9rem;color:var(--muted);max-width:var(--measure);margin:1.5rem auto 0;text-align:center}
 .noscript-note{font-family:var(--sans);font-size:.9rem;color:var(--muted);max-width:var(--measure);margin:1rem auto;text-align:center;border:1px solid var(--rule);padding:.9rem 1.1rem;border-radius:3px}
 
-/* The chooser — the same side-panel / bottom-sheet mechanic as the
-   tradition page's Level-3 lexicon entries, repurposed for picking a
-   voice for one seat instead of reading one term. */
 .panel{position:fixed;top:0;right:0;height:100vh;width:min(420px,100vw);background:var(--surface);border-left:1px solid var(--rule);padding:1.6rem 1.6rem 2rem;overflow-y:auto;z-index:30;visibility:hidden}
 .panel.open{visibility:visible}
 @media (max-width:640px){ .panel{top:auto;bottom:0;height:auto;max-height:70vh;width:100vw;border-left:0;border-top:1px solid var(--rule);border-radius:12px 12px 0 0} }
@@ -159,10 +135,7 @@ p{margin:0 0 1rem}
 .site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
 
 @media (max-width:480px){
-  /* Same layout, scaled by 240/280 — the SVG (fixed 0 0 280 280 viewBox)
-     scales itself with the container; only the HTML seat positions,
-     sized in real pixels, need recomputing at the same ratio. */
-  .table-graphic{width:240px;height:240px}
+    .table-graphic{width:240px;height:240px}
   .seat{width:48px;height:48px}
   .seat-you{left:186.9px;top:96px}
   .seat-1{left:96px;top:186.9px}
@@ -184,7 +157,7 @@ p{margin:0 0 1rem}
       <a href="whats-next.html">What's Next</a>
       <a href="atlas-v3.html">Map</a>
       <a href="support.html">Get Involved</a>
-      <a class="side-door" id="side-door" href="https://cic-engine.onrender.com/" hidden data-app data-copy="draft"><span class="sd-long">Been here before? </span>Go straight in →</a>
+      <a class="side-door" id="side-door" href="https://cic-engine.onrender.com/" hidden data-app><span class="sd-long">Been here before? </span>Go straight in →</a>
     </nav>
   </div>
 </header>
@@ -199,9 +172,9 @@ p{margin:0 0 1rem}
     </nav>
 
     <section class="hero" aria-labelledby="hook">
-      <p class="eyebrow" data-copy="draft">The Table</p>
-      <h1 id="hook" data-copy="draft">Set your own table</h1>
-      <p class="lede" data-copy="draft">You're already seated. Choose up to three traditions to join you — each speaks from its own record, in its own voice. No one at this table is the host.</p>
+      <p class="eyebrow">The Table</p>
+      <h1 id="hook">Set your own table</h1>
+      <p class="lede">You're already seated. Choose up to three traditions to join you — each speaks from its own record, in its own voice. No one at this table is the host.</p>
 
       <div class="table-graphic play" id="tableGraphic" aria-hidden="true">
         <svg viewBox="0 0 280 280">
@@ -222,14 +195,14 @@ p{margin:0 0 1rem}
         </button>
       </div>
 
-      <p class="ai-line" data-copy="draft">Each voice you seat is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out.</p>
+      <p class="ai-line">Each voice you seat is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out.</p>
     </section>
 
     <div class="convene">
       <a class="btn" id="convene-link" href="https://cic-engine.onrender.com/?mode=table" data-app aria-disabled="true">Choose at least two to open the conversation</a>
       <p class="count" id="convene-count" aria-live="polite">0 of 3 seats filled.</p>
       <noscript><p class="noscript-note">Choosing seats here needs JavaScript. You can still <a href="https://cic-engine.onrender.com/?mode=table">open an empty table and choose there →</a></p></noscript>
-      <p class="caveat" data-copy="live">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+      <p class="caveat">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
     </div>
   </div>
 </main>
@@ -243,7 +216,7 @@ p{margin:0 0 1rem}
 
 <footer class="site-footer">
   <div class="row">
-    <span data-copy="live">&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
     <nav aria-label="Footer">
       <a href="about.html">About</a>
       <a href="pilot-feedback.html">Feedback</a>
@@ -259,9 +232,6 @@ p{margin:0 0 1rem}
 var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
 var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
 
-// The seven traditions — census id, name, tradition, tile portrait, tint.
-// Same fields the homepage gallery already renders; kept here as data so
-// the chooser can list all seven without duplicating markup per seat.
 var WORLDS = [
   { id:'post-apostolic-house-church', name:'Chloe', trad:'The House-Churches', img:'assets/portraits/house-churches.png', tint:'#7c3aed' },
   { id:'alexandria-catechetical', name:'Theon', trad:'Alexandrian Christianity', img:'assets/portraits/alexandria.png', tint:'#2B5F8A' },
@@ -272,9 +242,6 @@ var WORLDS = [
   { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#9d174d' }
 ];
 
-// A seat pre-filled by a tradition page's own "Bring {Name} to the Table"
-// link — ?worlds=<id> — seats that one voice here too, symmetrically: one
-// of three open seats, not the page's own subject.
 var seated = [null, null, null];
 var params = new URLSearchParams(window.location.search);
 var preseat = params.get('worlds');
