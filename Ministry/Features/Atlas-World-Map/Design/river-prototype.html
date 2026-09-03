@@ -58,14 +58,16 @@ svg#world{display:block}
 /* Halo, not just a fill: gold-leaf is also FAM's Syriac-East river hue, so a solid
    river passing under this corner at full pigment can otherwise erase the label --
    same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible
-   over whatever's underneath, the way a map halos its place-names. */
-.era-label,.era-tag,.era-context{paint-order:stroke;stroke:var(--parchment);stroke-width:5px;stroke-linejoin:round}
-.era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:var(--gold-leaf)}
-.era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:var(--ink-faded)}
-/* Was var(--tyrian) -- the same hue as the header-gutter break band it
-   now sits on, which made the fill itself (not just its stroke halo)
-   blend into its own background. */
-.era-context{font-family:"Alegreya",Georgia,serif;font-size:13px;fill:var(--iron-gall)}
+   over whatever's underneath, the way a map halos its place-names.
+   Fixed (not theme-variable) colors throughout: the break band behind this text
+   is its own small light card in both themes now (soft purple in light mode,
+   whiteish in dark), so the caption stays dark-ink-on-light-card regardless of
+   the page's own light/dark tokens -- following --iron-gall/--ink-faded into
+   dark mode would hand back the same light-on-light problem this was fixed for. */
+.era-label,.era-tag,.era-context{paint-order:stroke;stroke:#F6F6F2;stroke-width:5px;stroke-linejoin:round}
+.era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:#B45309}
+.era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:#6C6257}
+.era-context{font-family:"Alegreya",Georgia,serif;font-size:13px;fill:#2A2521}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   pointer-events:none;user-select:none}
@@ -20238,17 +20240,15 @@ function render(){
     // unchanged) -- only the header gutter at the top of each era carries
     // color now, as a full-width break between one era and the next.
     gBands.appendChild(el('rect',{x:-CANVAS_W*4,y:eraY0[i],width:CANVAS_W*9,height:eraH[i],fill:eraGround(i),opacity:0.75}));
-    // The break band: full tyrian purple (not the pale wash), 75% opacity,
-    // bled past the canvas edges the same way the era body above is, so it
-    // reads as a line all the way across the screen -- the visual "here a
-    // new era starts" the eras used to get from a full-height color change.
-    // Real strength on purpose: at 75% opacity a river or edge line passing
-    // through the gutter still shows through, but the band itself needs to
-    // be strong enough to work as a break, which is also why the caption
-    // text sitting on it (.era-context especially, previously tyrian --
-    // the same hue as this band) needed its own contrast fix below rather
-    // than a translucent plate.
-    gLabels.appendChild(el('rect',{x:-CANVAS_W*4,y:eraY0[i],width:CANVAS_W*9,height:HEADER_GUTTER,fill:'var(--tyrian)',opacity:0.75}));
+    // The break band: sized to the caption text itself (not bled full-width
+    // -- a screen-wide stripe read as too heavy once seen rendered), a soft
+    // light purple in light mode, and a whiteish card against the dark
+    // theme's near-black canvas ("on black" gets a bright break, not a
+    // dark-on-dark purple one). Both are light surfaces, which is why the
+    // caption text below is fixed dark ink in both themes rather than
+    // following the page's own light/dark text tokens -- this band is its
+    // own small light card regardless of overall theme.
+    gLabels.appendChild(el('rect',{x:10,y:eraY0[i]+6,width:1120,height:120,fill:isDark()?'#F6F6F2':'#C9B8E0',opacity:0.75}));
     const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
