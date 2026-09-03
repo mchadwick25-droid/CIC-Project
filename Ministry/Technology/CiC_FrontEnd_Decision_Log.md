@@ -2113,3 +2113,9 @@ finished now from the one real switch that funding itself flips.
 another shape; stay stateless or not) - everything else on this list
 is now buildable in parallel without waiting on either answer or on
 funding.
+
+**LOCKED, same day.** Mark: "lock both, stay stateless and go with the
+waitlist." Day-one audience shape is a semi-public waitlist, not fully
+public and not staying invite-only; sessions stay stateless for this
+launch, no accounts. Both now buildable immediately - see next entry
+for scoping the two build items these decisions unblock.
