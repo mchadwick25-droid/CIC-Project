@@ -2327,3 +2327,44 @@ emphasis carried onto the Atlas page itself, that's a request for
 whichever thread owns it, not assumed here.
 
 **Verified:** zero comments/`data-copy` on the file.
+
+---
+
+## 2026-09-03 (later still) — SHIPPED: PR #85 merged, the new entry
+path is live
+
+Mark: "go ahead," then "yes, subscribe and merge it once green." Full
+sequence: merged `main` into the branch (clean, no conflicts - `main`'s
+own history never touched the files this branch changed), verified
+`atlas-v3.html`/`world-census.json`/`corpus-coverage.json` byte-
+identical to `main` post-merge, ran the full check (zero comments,
+zero overflow 320-1440px both themes, all 162 internal links resolve)
+across all 9 shipping pages. A direct push to `main` was blocked by
+the harness's own safety classifier (unrelated to repo permissions);
+opened PR #85 instead, matching how the Atlas work itself shipped.
+
+**One real CI failure, fixed properly.** The M1 gate battery selftest
+failed for a genuine reason: `engine/m1/cross_world.py`'s
+`check_site_portraits` regex-parsed a `PORTRAIT_FILES` JS object from
+the old homepage's carousel - gone now that the V2 homepage gives each
+world its own `traditions/<census_id>.html` page with a direct
+portrait image instead. Repointed the check at that real structure
+(does the tradition page exist, does it carry a portrait image file
+that's actually on disk), verified locally before pushing (10/10
+passing, was 9/10). Flagged, not fixed - a sibling script
+(`gen_matrix.py`) has the identical bug and will crash next time it's
+run; queued as a separate task rather than widening this PR, since it
+isn't wired into any CI workflow.
+
+**One known-unrelated failure, stood down on record.** "Workers
+Builds: cic-project" (Cloudflare) failed with no accessible logs -
+same signature PR #78 already documented reproducing on `main`'s own
+tip independent of diff content. Posted one comment on the PR naming
+the check, why it isn't this PR's, and that no re-run was available
+from here, then merged on 12/12 real GitHub Actions checks green.
+
+**Live now:** the new homepage, `table.html`, and all 7
+`traditions/*.html` pages are on `main`. `about.html`'s brand lines and
+consent disclosure too. The waitlist link is still pending Mark's
+Google Form URL - the one item left on the launch-readiness list that
+isn't already shipped or decided.
