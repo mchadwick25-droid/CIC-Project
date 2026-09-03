@@ -2186,3 +2186,59 @@ the same personal-invite mechanism already governing today's pilot.
 Site-side work is now exactly one thing: a "Join the waitlist" link
 pointing at the form URL once Mark creates it. Nothing else on the
 launch-readiness list changes.
+
+---
+
+## 2026-09-03 (later still) — Three pre-launch landing-page fixes,
+before shipping the entry path live
+
+**Origin.** Mark, reviewing the landing page before the merge-and-ship
+discussed above: three things to fix first, not blocking issues found
+by this thread.
+
+**1. Portals reordered - Table first, Atlas second.** Mark's own
+reasoning: it flows better coming out of the representatives' pictures
+into three of them sitting at a table, and the Table is the project's
+actual name and central feature - the Atlas is a genuinely great, free
+feature he wants people to visit, but it isn't the headline. Swapped
+the two `<a class="portal">` blocks in `index.html`; confirmed no
+order-dependent CSS (`nth-child` etc.) existed to break.
+
+**2. The giving section, given real visual weight.** Root cause of "it
+doesn't capture the need": its `<h2>` was `class="vh"` - visually
+hidden. A sighted visitor saw two plain muted-gray links and nothing
+else; there was no heading, no visual weight, nothing built to earn
+attention. Rebuilt as a bordered card (`.support-card`, matching the
+surface/border treatment already used for `.callout` on About and the
+portal cards here) with a real visible heading, an eyebrow label
+("Help keep the door open"), a small line-art door mark (the site's
+established pattern of small abstract SVG marks, same idea as the
+`.arriving` icon already used for the Table link), and the two Stripe
+links promoted from plain text to filled buttons - the first solid-
+fill button component on the page, deliberately, since this is
+specifically the one place asking for that level of visual weight.
+Copy itself barely changed - this was a visual-treatment fix, not a
+wordier one.
+
+**3. Brief how-tos added, without reverting to the cut system-
+explanation register.** Mark: introduce each feature with what it is
+and how to participate, "not just a picture and click" - explicitly
+not the wordy descriptions already cut earlier this session. Added one
+short line to each entry point rather than a new explanatory block:
+who/chairs gets a new `.how-line`, "Click anyone's picture to read
+their record, then start the conversation from there"; the Table
+portal's existing paragraph gains one trailing clause, "Choose who
+joins you, then start the conversation"; the Atlas portal's existing
+paragraph gains one trailing clause, "and start a conversation with
+anyone already speaking" - since today's copy read as "go look at a
+map" with no hint that a live conversation can start from inside it.
+`table.html` itself already had a real how-to built in
+(`#hook`/`.lede`); this was purely the landing-page teaser cards
+catching up to it.
+
+**Verified:** zero comments/`data-copy`, zero overflow 320-1440px,
+both themes; portal order, support-section content, and the new
+how-lines all render correctly (checked directly, not assumed).
+
+**Next action:** none outstanding on the landing page itself - this
+clears the way for the merge-and-ship discussed in the entry above.
