@@ -132,6 +132,12 @@ svg#world{display:block;overflow:visible}
 .node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px}
 .edge-line{pointer-events:stroke;cursor:pointer}
+/* The invisible, wider twin of .edge-line -- see the touch-target block at
+   the end of this stylesheet for why it exists and how it stays a constant
+   width across zoom. 4 (a modest, always-on improvement over the visible
+   line's own 1.1) is the fine-pointer default; (pointer:coarse) below
+   overrides it to a real touch corridor. */
+.edge-hit{pointer-events:stroke;cursor:pointer;stroke-width:4}
 /* A default browser focus outline traces the path's bounding box, which for a
    long diagonal line is a big, mostly-empty rectangle that doesn't read as
    "this line is focused." Thicken the stroke itself instead, the same idea as
@@ -190,6 +196,35 @@ svg#world{display:block;overflow:visible}
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:190px;text-align:right}
 @media (prefers-reduced-motion:reduce){.river-calm,.river-organic,#panel{transition:none!important}}
+
+/* ---- Touch tap targets ----
+   Measured at a real default mobile view (390x844): the node halo (the
+   actual hit area, not the dot itself) rendered at ~14px across, a node's
+   own name label at ~10px tall, an edge line's hit corridor at well under
+   1px, and every persistent chrome button under 24px on at least one axis
+   -- against the 24x24 WCAG AA floor and the 44x44 Apple/Google actually
+   recommend, every one of them was built for a mouse's precision, not a
+   finger. (pointer:coarse) is real capability detection, not a screen-width
+   guess: a touch-primary device gets bigger targets regardless of window
+   size, a mouse/trackpad keeps the exact sizes already tuned and verified
+   all session, on a hybrid device (touchscreen laptop) the query reflects
+   whichever the OS reports as primary. --zoom-scale (kept live in
+   applyTransform(), one custom property write per pan/zoom tick rather than
+   a per-element loop) lets the halo and edge-hit corridor hold a CONSTANT
+   on-screen size across the whole zoom range instead of shrinking back to
+   unusable the moment someone zooms out -- the exact failure a fixed-size
+   fix would still have. Chrome buttons just get bigger outright; a bigger
+   button on a touch device is normal responsive design, not a compromise. */
+@media (pointer:coarse){
+  .node .halo{r:calc(22 / var(--zoom-scale,1))}
+  .edge-hit{stroke-width:calc(30 / var(--zoom-scale,1))}
+  .topbar button{min-height:44px;padding:.6rem 1rem}
+  #scopeNote button{min-width:44px;min-height:44px;display:inline-flex;
+    align-items:center;justify-content:center;font-size:1.1rem}
+  #panel .close{min-width:44px;min-height:44px;display:inline-flex;
+    align-items:center;justify-content:center}
+  #legendToggle{min-height:44px;display:flex;align-items:center}
+}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <!-- Loaded non-blocking: a stylesheet link followed by a script holds up that
@@ -20525,9 +20560,9 @@ function render(){
   DATA.edges.forEach(edg=>{
     const a=byId[edg.from], b=byId[edg.to]; if(!a||!b)return;
     const dash = edg.confidence==='Contested' ? '2,3' : edg.confidence==='Widely Accepted' ? '6,3' : 'none';
+    const d=`M ${a._x.toFixed(1)} ${a._y.toFixed(1)} Q ${((a._x+b._x)/2).toFixed(1)} ${((a._y+b._y)/2-14).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`;
     const line=el('path',{
-      d:`M ${a._x.toFixed(1)} ${a._y.toFixed(1)} Q ${((a._x+b._x)/2).toFixed(1)} ${((a._y+b._y)/2-14).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`,
-      fill:'none', stroke:'var(--iron-gall)', 'stroke-width':1.1, opacity:EDGE_CALM_OP,
+      d, fill:'none', stroke:'var(--iron-gall)', 'stroke-width':1.1, opacity:EDGE_CALM_OP,
       'stroke-dasharray':dash, class:'edge-line', tabindex:'0', role:'button',
       // Nodes carry a real tabindex/role/keydown pair (rule established for
       // the 292 movements); the 69 relationship lines between them had none
@@ -20536,8 +20571,25 @@ function render(){
       'aria-label':`${a.shortName||a.name} and ${b.shortName||b.name}, ${edg.type}, ${edg.confidence}`
     });
     line.dataset.from=edg.from; line.dataset.to=edg.to;
-    line.addEventListener('mouseenter',(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));});
-    line.addEventListener('mouseleave',()=>{line.style.opacity=line.dataset.baseline;hideTip();});
+    const onEnter=(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));};
+    const onLeave=()=>{line.style.opacity=line.dataset.baseline;hideTip();};
+    const onClick=()=>openPanelEdge(edg,a,b);
+    // A mouse can land precisely on the line itself, but at real zoom its
+    // rendered stroke is routinely under a screen pixel wide -- nowhere near
+    // enough for a finger, or even a mouse in a hurry. An invisible, much
+    // wider twin of the same path sits alongside it purely to catch pointer
+    // input, sharing these same mouse/touch handlers -- never the keyboard
+    // ones below, so Tab still lands on this edge exactly once, not twice.
+    const hit=el('path',{d, fill:'none', stroke:'transparent', class:'edge-hit'});
+    hit.addEventListener('mouseenter',onEnter);
+    hit.addEventListener('mousemove',(ev)=>positionTip(ev));
+    hit.addEventListener('mouseleave',onLeave);
+    hit.addEventListener('click',onClick);
+    gEdges.appendChild(hit);
+
+    line.addEventListener('mouseenter',onEnter);
+    line.addEventListener('mousemove',(ev)=>positionTip(ev));
+    line.addEventListener('mouseleave',onLeave);
     line.addEventListener('focus',()=>{
       line.style.opacity=EDGE_ACTIVE_OP;
       // No cursor position to hang a tooltip off of on a keyboard focus --
@@ -20545,8 +20597,8 @@ function render(){
       const r=line.getBoundingClientRect();
       showTipAt(r.left+r.width/2,r.top+r.height/2,tipForEdge(edg,a,b));
     });
-    line.addEventListener('blur',()=>{line.style.opacity=line.dataset.baseline;hideTip();});
-    line.addEventListener('click',()=>openPanelEdge(edg,a,b));
+    line.addEventListener('blur',onLeave);
+    line.addEventListener('click',onClick);
     line.addEventListener('keydown',(ev)=>{
       if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanelEdge(edg,a,b);}
     });
@@ -21050,7 +21102,16 @@ function pinEraCaptions(){
   const x=((ERA_CAPTION_MARGIN-tx)/scale).toFixed(2);
   gLabels.querySelectorAll('text,tspan').forEach(t=>t.setAttribute('x',x));
 }
-function applyTransform(){gRoot.setAttribute('transform',`translate(${tx},${ty}) scale(${scale})`);pinEraCaptions();}
+function applyTransform(){
+  gRoot.setAttribute('transform',`translate(${tx},${ty}) scale(${scale})`);
+  // One custom-property write, not a loop over 292 halos and 69 edges: the
+  // touch-target CSS (end of the stylesheet) reads this back via calc() to
+  // hold a constant ON-SCREEN hit size across the whole zoom range. Written
+  // every tick regardless of pointer type -- cheap, and harmless where the
+  // fine-pointer CSS never references it.
+  gRoot.style.setProperty('--zoom-scale',scale);
+  pinEraCaptions();
+}
 function applyDetail(){
   const organic = scale>DETAIL_THRESHOLD;
   if(organic===lastOrganic)return; // every wheel/pinch tick calls this; skip the DOM writes when nothing crossed the threshold
