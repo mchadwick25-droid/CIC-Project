@@ -1,13 +1,22 @@
-# Intake — turning an attached file into a vendored, registered, findable text
+# Intake — turning a raw file into a vendored, registered, findable text
 
 **Hand-written, not generated.** Unlike `README.md`/`AUTHORS.md`/`STRUCTURE.md`
 in this same directory, nothing regenerates this file — it's the procedure,
 not a report on the corpus.
 
-**Trigger.** Mark finds a source, downloads it to his own machine, and
-attaches it in a live chat message — no separate upload step, no shared
-drive. This document is what happens next, in that same session, from that
-attachment to a vendored file every future session can search and cite.
+**Trigger — two real paths, both fine (2026-09-03).** Mark finds a source
+and downloads it to his own machine; from there:
+- **Attach it in a live chat message** — one or a few files, no separate
+  upload step. Good for a single find mid-conversation.
+- **Push it to `cic/texts/_intake/` on GitHub** — better for a batch (a
+  whole folder of finds at once), or anything found outside a live
+  session. A session picks up whatever's waiting there. See
+  `cic/texts/_intake/README.md` for that folder's own discipline: nothing
+  in it is vendored yet, and it empties out as each file is processed.
+
+This document is what happens next either way, in whichever session picks
+the file up — from a raw attachment or `_intake/` file to a vendored file
+every future session can search and cite.
 
 **Two shapes of source, same pipeline, different rights checklist.** Most of
 this corpus so far is an English translation of an ancient work. Starting
@@ -20,12 +29,14 @@ where they differ, both paths are stated.
 
 ---
 
-## 1. Read what was actually attached
+## 1. Read what was actually received
 
 Extract the text, and pull whatever the source itself states: title, author,
 translator/editor, publisher, year, and — critically — **where Mark got it
-and what that host itself says about rights.** If Mark's message doesn't
-already say the URL and the host's own rights statement, ask before doing
+and what that host itself says about rights.** A chat attachment usually has
+this in Mark's own message alongside it; a file pulled from `_intake/`
+should have it in a sidecar note per that folder's own convention. If
+neither states the URL and the host's own rights statement, ask before doing
 anything else. A rights basis is never guessed; it either comes from the
 file's own front matter, from the host page Mark names, or from the
 project's own PD-by-date rule applied to a stated publication date. See
