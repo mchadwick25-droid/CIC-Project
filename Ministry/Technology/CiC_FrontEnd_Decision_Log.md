@@ -1992,3 +1992,10 @@ differently. The linking question is moot: an in-between entry doesn't
 need to reference the worlds around it, only to honestly locate itself
 in the gap. Sourcing-bar and candidate-list questions from above are
 still open.
+
+**Closed out, same day.** Mark: keep the bar high, same standard as
+Silesia - no lighter documented-standard path for a build thread to
+mass-vet entries. Ownership is also settled: this isn't this thread's
+work to source or vet. The "Atlas Reimagined" thread already has a
+Fable subagent researching candidates now. This thread's role on the
+story module ends here - FYI only, no action expected.
