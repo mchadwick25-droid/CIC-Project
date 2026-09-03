@@ -152,3 +152,41 @@ Ranked by how safe the translation is, not by how much we want the text:
 3. Pliny (Melmoth/Bosanquet) and Ephrem's *Prose Refutations* (Mitchell). Both close a rowed primary that has no text at all, and Mitchell is an edition the records already cite.
 
 Everything below that is real but incremental. And the two Tier-4 translation projects — *Verba Seniorum* and Parisot — should not start until the Article 31 review question for build-made translations has an answer, which is the same open question the Source Anchors spec parks at §5.2.
+
+---
+
+## Addendum, 2026-09-02 — `cappadocian` and `ijc` era, cross-checked (Sonnet build pass + Opus adversarial review + Fable deep research)
+
+Written answering the same standing question, now that `WANTS-REGISTER.md`'s "unclassified" bucket (55 rows, current as of this date) needed sorting for the two worlds that went live since this file's original pass. Method: a first Sonnet sort, an Opus adversarial review of that sort against the live register and the vendored corpus, and a Fable research pass on the primary-text leads the sort produced — each independently checking the others' work, findings kept only where corroborated or where a direct grep against the file on disk settled it. Same standing caveat as above: this session could reach WebSearch (unlike the build sandbox), but not fetch archive.org/HathiTrust pages directly, so items below are marked by how they were confirmed.
+
+### Free — already vendored, not yet in a source record (zero download, a records task not an acquisition task)
+
+- **Gregory of Nazianzus, Letters 48, 49 ("The Praises of Quiet"), 50, 58 — the Sasima correspondence to Basil.** Confirmed present verbatim by direct grep against `cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml` (`div3 type="Letter"`, `n="XLVIII"/"XLIX"/"L"/"LVIII"`, lines 45734–45867+). NPNF2-7 carries a Select Letters division alongside the Select Orations division already known to be in this file — the letters division had gone unchecked.
+- **Amphilochius of Iconium, extracts from the *Iambics to Seleucus*.** Confirmed present verbatim by direct grep against `cic/texts/npnf214_seven-ecumenical-councils.xml` (line 1080, "Extracts from the iambics of St. Amphilochius the bishop"). This is the only PD English of anything by Amphilochius himself located anywhere in this pass — everything else attributed to him in `cappadocian`'s records turned out on check to be Basil's letters *to* him (NPNF2-8, Epp. 188/199/217), already vendored.
+
+### Confirmed PD, not yet downloaded — real acquisitions
+
+| Work | Edition | Rights basis | Located at |
+|---|---|---|---|
+| Paulinus of Milan, *Vita Ambrosii* | Kaniecka, CUA Patristic Studies 16 (Washington, 1928) — Latin text with English translation | US publication 1928, clears the date rule; independently found by both the Opus review and the Fable research pass | archive.org/details/vitasanctiambros00paul (HathiTrust record 001639802) |
+| The Liturgy of St. Basil | J.M. Neale, *The Liturgies of SS. Mark, James, Clement, Chrysostom, and Basil* (London, 1859; 2nd ed. 1868/69) | pre-1929 | archive.org/details/liturgiesofssmar00neal — supersedes an initial guess at Brightman 1896, which the Opus review could not confirm actually carries an English Basil text |
+| Ammianus Marcellinus, *Res Gestae* 27.3 | C.D. Yonge trans. (Bohn, 1862; also a 1902 London printing) | pre-1929 | Gutenberg #28587; archive.org/details/ammianus-marcellinus-yonge-1902. (Sat unclassified in the register through an oversight in the first sort — flagged by the Opus review.) |
+| Suetonius, *Claudius* 25.4 / *Nero* 16 | J.C. Rolfe trans., Loeb (1914) | pre-1929 | archive.org/details/suetonius-loeb |
+| Odes of Solomon (42 odes) | J. Rendel Harris trans. (1909; 2nd ed. 1911) | pre-1929 | archive.org/details/TheOdesAndPsalmsOfSolomon |
+
+### No PD path exists — correctly stays consult-only, don't re-chase
+
+- **Theodosian Code (Pharr, 1952).** Confirmed by the Opus review: no earlier complete English translation exists (the only prior English is an unpublished 1944 Vanderbilt thesis on Book IX alone). Mommsen–Meyer (1905) remains the only PD route and it is Latin-only, matching the existing note in `World-Builds/Cappadocian/cappadocian_G1_Scope_and_Source_Acquisition_Manifest.md`.
+- **Epiphanius, *Panarion* (sections on Eustathius and the Pneumatomachians).** No PD English located, full or excerpt — even Roger Pearse's own excerpt page uses Williams's in-copyright translation.
+- **Council of Nicaea (325) subscription lists, as an English list.** The PD critical edition (Gelzer/Hilgenfeld/Cuntz, *Patrum Nicaenorum nomina*, 1898) is Latin/Greek/Coptic/Syriac/Arabic/Armenian only; Hefele's PD 1871 English translation discusses the signing but does not reproduce the list; the only English lists found (fourthcentury.com, Wikipedia) are modern and not PD-declared.
+- **Basil's *Small Asketikon*, Rufinus's Latin recension.** No English translation of Rufinus's Latin (or of any Syriac recension) is PD — only Silvas (2005/2013, in copyright). The already-vendored Clarke 1925 translates the Greek *Great* Asketikon, a different work, not a substitute.
+- **Auxentius of Durostorum's letter on Ulfila.** Likely no clean PD English exists — Scott's *Ulfilas, Apostle of the Goths* (1885, PD, archive.org/details/ulfilasapostleof00scot) discusses it at length but neither agent could confirm it reproduces a full translation rather than a paraphrase; Heather & Matthews (1991, in copyright) is described in its own front matter as bringing most of its texts into English for the first time, which weighs against an earlier full translation existing at all.
+
+### Needs a human to open a page — the agent sandbox couldn't confirm these
+
+- **Gregory of Nyssa, homilies on the Forty Martyrs of Sebaste, the Song of Songs, and Ecclesiastes.** McCambly's translations, hosted at lectio-divina.org, may carry a usable public-domain-equivalent declaration ("not subject to copyright" per a search-engine snippet of the site's welcome page) — worth someone actually opening the page and reading the declaration in full before relying on it. If it holds up, this closes three real gaps at once.
+- **Scott's *Ulfilas* (1885)**, on the Auxentius question above — worth a direct read to settle whether it translates the letter or only summarizes it.
+
+### One correction to how this file's own reasoning gets carried forward
+
+The Opus review caught that two "not a real source" calls in the first sort had the right conclusion but the wrong citation trail: Julian's punitive measures against Caesarea are independently attested in Sozomen, *HE* 5.4 (already vendored, `npnf202`), not only in the Nazianzen invectives; and the Caesarea poorhouse-hospital complex is attested in Basil's own letters (`npnf208`) and Gregory's Oration 43 (`npnf207`), not merely asserted as an undocumented institutional fact. Worth remembering if either claim is ever written into an actual `cappadocian` source record — Article 28 requires the citation trail itself to be accurate, not just the conclusion it supports.

@@ -6,6 +6,7 @@ to the other directly with no separate lookup table (law 4, applied to test
 wiring too).
 """
 import re
+from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
@@ -14,6 +15,28 @@ from .fk import fk_grade
 from .schemas import RELATION_INVERSE, build_schema
 
 FK_CEILING = 10
+
+# cic/texts/ - two levels up from engine/m1/, then across to the sibling
+# cic/ tree. This module deliberately does NOT import cic/engine/
+# texts_registry.py's own rights_clears() (a different top-level package,
+# and this compiler-facing module currently imports nothing outside
+# engine/m1/) - the open-licence check below duplicates its ~1-line logic
+# rather than reach across that boundary for one function.
+_TEXTS_DIR = Path(__file__).resolve().parents[2] / "cic" / "texts"
+# Anchored to a real extension (every file in cic/texts/ is .txt or .xml,
+# confirmed against the live directory) rather than a greedy [\w.-]+ -
+# caught live against real records: "cic/texts/macarius_..._mason1921.txt.
+# Two divisions" (a sentence-ending period right after the filename) was
+# swallowing that period into the captured filename with the greedy form,
+# producing a false "file does not exist" against a file that does.
+_EDITION_PATH = re.compile(r"cic/texts/([\w\-]+\.(?:txt|xml))")
+# The canonical passage address form defined this session: cic:<file-stem>:
+# <locus>, e.g. cic:npnf208_basil-letters-select-works.xml:vi.iii.CLXXXVIII.
+# Same shape as cic/engine/works_registry.py's own _ADDRESS regex, kept as a
+# separate constant rather than imported - this module (engine/m1/) currently
+# imports nothing from cic/engine/, the same boundary _EDITION_PATH's own
+# comment above already draws for texts_registry.py.
+_ADDRESS_RE = re.compile(r"^cic:([A-Za-z0-9._-]+):(.+)$")
 
 COMPLETION_REQUIRED = {
     "world_core": ["time_window", "horizon", "formation_logic", "thinness", "cautions"],
@@ -236,7 +259,115 @@ def gate_rights(records, fleet, registry) -> list[str]:
     return findings
 
 
+def gate_edition_rights_consistency(records, fleet, registry) -> list[str]:
+    """gate_rights (above) only checks that rights_status is non-blank -
+    never that it agrees with anything. A source record's edition field
+    often names a specific vendored file in free-form prose (the same
+    "cic/texts/<filename>" string cic/engine/texts_registry.py's own
+    citing_records() already scans records/ for, in the opposite
+    direction - that module finds records from a file, this finds a file
+    from a record). Nothing before this checked the path actually
+    resolves: a record could name a file that was renamed, moved, or
+    never vendored, and no gate would catch it before a build thread
+    noticed by hand. Two checks, only for source records whose edition
+    names such a path:
+      (1) the file exists under cic/texts/ at all;
+      (2) if the file's own header states an open licence rather than
+          public domain (so far only evagrius_praktikos_dysinger.txt,
+          CC BY 4.0), the record's rights_status should say so too, not
+          bare "public-domain" - a record read on its own, without the
+          vendored file open beside it, should not misstate what it can
+          license.
+    A record whose edition never names a cic/texts/ path at all (a
+    consult-only or not-yet-vendored source) is out of this gate's scope
+    entirely - that is what gate_rights already governs.
+    """
+    findings = []
+    for rid, rec in records.items():
+        if rec.get("record_type") != "source":
+            continue
+        edition = str(rec.get("edition") or "")
+        m = _EDITION_PATH.search(edition)
+        if not m:
+            continue
+        filename = m.group(1)
+        path = _TEXTS_DIR / filename
+        if not path.exists():
+            findings.append(f"{rid}: edition names cic/texts/{filename}, which does not exist on disk")
+            continue
+        header = path.read_text(encoding="utf-8", errors="replace")[:4000]
+        is_open_licence = "cc by" in header.lower()
+        rights_status = str(rec.get("rights_status") or "").strip().lower()
+        if is_open_licence and rights_status == "public-domain":
+            findings.append(
+                f"{rid}: edition names cic/texts/{filename}, whose own header declares an open "
+                f"licence (not public domain), but rights_status says bare 'public-domain' - "
+                f"misstates the actual rights basis to a reader of this record alone")
+    return findings
+
+
+def gate_canonical_address(records, fleet, registry) -> list[str]:
+    """Mechanical half of the canonical passage address (cic:<file-stem>:
+    <locus>), defined this session and formally added to the schema as an
+    optional `address` field sitting beside `locus` on any sources[] entry
+    (per Mark's sign-off, 2026-09-02: a new sibling field, locus itself
+    untouched; optional/best-effort backfill on existing records). Checks
+    the two things a bare string type can't: the address is well-formed,
+    and the file it names actually exists under cic/texts/. Does NOT check
+    that <locus> resolves to a real division inside the file - the same
+    boundary works_registry.py's own parse_address() draws for WORKS.yaml's
+    item addresses, for the same reason: confirming a real div/section
+    marker exists would mean re-implementing each format's own structure
+    parser per record, not a one-line check. Envelope-level like locus
+    itself, so this runs over every record type's sources[], not only
+    quote - quote is only where the field was scoped from.
+    """
+    findings = []
+    for rid, rec in records.items():
+        for i, ref in enumerate(rec.get("sources") or []):
+            addr = str(ref.get("address") or "").strip()
+            if not addr:
+                continue
+            m = _ADDRESS_RE.match(addr)
+            if not m:
+                findings.append(f"{rid}: sources[{i}].address {addr!r} does not match the "
+                                 f"cic:<file>:<locus> form")
+                continue
+            filename = m.group(1)
+            if not (_TEXTS_DIR / filename).exists():
+                findings.append(f"{rid}: sources[{i}].address names cic/texts/{filename}, "
+                                 f"which does not exist on disk")
+    return findings
+
+
 def gate_readability(records, fleet, registry) -> list[str]:
+    # RESOLVED 2026-09-02 (was flagged 2026-09-02, same day - the flag's own
+    # premise turned out to be stale, not a real gap). The flag claimed
+    # quote's only readability-relevant field was modern_lens_note (a
+    # meaning-clarification note, not a plain-language rendering) and that
+    # the "two-layer wording" idea (verbatim historical text plus a modern
+    # spoken form) had no schema field. Checked against this checkout
+    # directly: it does - `modern_rendering` (schemas.py, quote
+    # TYPE_PROPERTIES), added the same day this flag was written, per the
+    # V1.2 process doc (Ministry/Technology/CiC_Record_Native_World_Build_
+    # Process_V1_3.md): "Quote records author their modern_rendering at
+    # birth. The spoken form is a modern-English translation, never the
+    # archaic original; the original stays as the record's text for Level
+    # 3." Every built world's quote records already populate it (Mark's
+    # standing ruling, 2026-08-28); `engine/m4/evidence.py`'s own
+    # `_speakable_text` already reads `modern_rendering or text` for
+    # exactly this reason. So this gate now grades `modern_rendering`, same
+    # as term/honest_limit's own fields - and deliberately NEVER grades
+    # `text` itself, which stays verbatim by design (Level 3, the "click
+    # page" original wording) and must never be pressured toward a grade
+    # level.
+    #
+    # This is a real, live check, not a formality: run directly against
+    # the actual fleet (not the fixture), it finds 12 already-authored
+    # modern_rendering values over FK_CEILING across 2 worlds (hal,
+    # cappadocian) - real content this gate was always meant to catch,
+    # invisible until today only because the check itself was missing, not
+    # because the fields passed clean.
     findings = []
     checks = []
     for rid, rec in records.items():
@@ -245,6 +376,8 @@ def gate_readability(records, fleet, registry) -> list[str]:
             checks.append((rid, "plain_meaning", rec.get("plain_meaning")))
         if rec.get("record_type") == "honest_limit":
             checks.append((rid, "statement", rec.get("statement")))
+        if rec.get("record_type") == "quote":
+            checks.append((rid, "modern_rendering", rec.get("modern_rendering")))
     for rid, field, text in checks:
         if not text:
             continue
@@ -448,6 +581,8 @@ GATES = {
     "distribution-health": gate_distribution_health,
     "confidence-crosscheck": gate_confidence_crosscheck,
     "rights": gate_rights,
+    "edition-rights-consistency": gate_edition_rights_consistency,
+    "canonical-address": gate_canonical_address,
     "readability": gate_readability,
     "canon-coverage": gate_canon_coverage,
     "no-build-attribution": gate_no_build_attribution,

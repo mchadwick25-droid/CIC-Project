@@ -127,6 +127,19 @@ works:
 
     '
   source_file: pachomius_rules-ethiopic_schodde1885.txt
+- work: The Praktikos
+  author: evagrius
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'Evagrius Ponticus'' own foundational text on the eight generic thoughts (logismoi)
+    and apatheia - core desert teaching, already the basis of desert.term.logismoi and six
+    desert quote records. NOT public domain (CC BY 4.0, Dysinger''s translation) - attribution
+    must travel with any quotation; see the file''s own rights header and desert.source.evagrius-praktikos''
+    own rights_status field for the full basis.
+
+    '
+  source_file: evagrius_praktikos_dysinger.txt
 - work: Letter XXII (To Eustochium, on virginity)
   author: jerome
   locus: div2 5.22 - 'To Eustochium', n=XXII, ~18,609 words
@@ -150,6 +163,23 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- work: Fifty Spiritual Homilies of St. Macarius the Egyptian
+  author: macarius
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'RULED, Mark, 2026-09-02: confirmed assigned. The attribution itself is genuinely
+    contested (traditional "Macarius the Egyptian" vs. modern scholarship''s "Pseudo-Macarius,"
+    likely 4th-5th c. Syrian, tied to the Messalian movement - the file''s own header states
+    both positions at length), but the placement was never actually in question: whichever
+    the true authorship, the homilies sit squarely in the Egyptian desert ascetic-teaching
+    tradition and are already cited by desert.source.macarian-homilies and desert.quote.sin-and-
+    grace-in-one-soul. Per the brief''s own scope (SS9), the identity question is a content
+    matter for whichever world cites it, not a corpus-map placement question - carried forward
+    here as a caveat, not as a reason to withhold assignment.
+
+    '
+  source_file: macarius_fifty-spiritual-homilies_mason1921.txt
 - work: Commentary on the Gospel of Matthew, Books I-II and X-XIV
   author: origen
   locus: ch. 30, The Sinning Brother, on Matthew 18:15, at file line 36205

@@ -405,6 +405,29 @@ works:
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
+- work: Letter to the Athenians (Letter to the Senate and People of Athens)
+  author: julian
+  locus: whole file (Loeb pp. 245-293)
+  role: context
+  confidence: assigned
+  note: 'The non-Christian world''s own voice (brief SS11a''s worked example: "Libanius and
+    Julian to imperial-juridical-christianity, whose world they are the outside of"). Julian''s
+    own account of his break with Constantius and, implicitly, the Christian household that
+    raised him - the file''s own vendoring note already frames it this way.
+
+    '
+  source_file: julian_letter-to-the-athenians_wright1913.txt
+- work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
+  author: julian
+  locus: whole file (Loeb pp. 2-235); Letter 36 is the Rescript on Christian Teachers specifically
+  role: context
+  confidence: assigned
+  note: 'The non-Christian world''s own voice, per brief SS11a''s worked example. Letter 36
+    is an actual imperial rescript - law, not polemic - making the imperial-juridical entry
+    the clearest single home for it.
+
+    '
+  source_file: julian_letters-1-73_wright1923.txt
 - work: Of the Manner in Which the Persecutors Died
   author: lactantius
   locus: div2 3.5

@@ -61,7 +61,12 @@ def classify(record: dict) -> str:
     return "unclassified"
 
 
-def main() -> None:
+def gather_rows() -> tuple[list, list]:
+    """Every wanted source, classified, sorted - the data main() renders and
+    the same data DOWNLOAD-QUEUE.md's generator draws on, split out
+    2026-09-02 specifically so the queue doesn't have to scrape this
+    module's own generated markdown table to get at data that already
+    exists here as plain dicts. Returns (rows, worlds)."""
     worlds = formation_world_keys()
     rows = []
     for world_key in worlds:
@@ -84,8 +89,12 @@ def main() -> None:
                 "author": str(record.get("author") or "").split("(")[0].strip()[:44],
                 "work": str(record.get("work") or "").split(" - ")[0].strip()[:78],
             })
-
     rows.sort(key=lambda r: (-r["depends"], r["world"], r["id"]))
+    return rows, worlds
+
+
+def main() -> None:
+    rows, worlds = gather_rows()
     by_kind: dict[str, list] = defaultdict(list)
     for row in rows:
         by_kind[row["kind"]].append(row)

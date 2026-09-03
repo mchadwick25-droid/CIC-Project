@@ -95,11 +95,35 @@
       ]
     },
     {
+      "id": "edition-rights-consistency-missing-file",
+      "gate": "edition-rights-consistency",
+      "status": "caught",
+      "findings": [
+        "fix.source.witness-scroll: edition names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+      ]
+    },
+    {
+      "id": "canonical-address-missing-file",
+      "gate": "canonical-address",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: sources[0].address names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+      ]
+    },
+    {
       "id": "readability-quick-meaning-too-dense",
       "gate": "readability",
       "status": "caught",
       "findings": [
         "fix.term.the-three: quick_meaning scores FK grade 15.4, above the ceiling of 10"
+      ]
+    },
+    {
+      "id": "readability-quote-modern-rendering-too-dense",
+      "gate": "readability",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: modern_rendering scores FK grade 20.2, above the ceiling of 10"
       ]
     },
     {

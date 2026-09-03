@@ -1,0 +1,34 @@
+# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
+# filename, matching AUTHORS.md's `julian`.
+source_file: julian_letters-1-73_wright1923.txt
+assignments:
+- work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
+  author: julian
+  locus: whole file (Loeb pp. 2-235); Letter 36 is the Rescript on Christian
+    Teachers specifically
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: assigned
+  note: >
+    The non-Christian world's own voice, per brief SS11a's worked
+    example. Letter 36 is an actual imperial rescript - law, not
+    polemic - making the imperial-juridical entry the clearest single
+    home for it.
+- work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
+  author: julian
+  locus: whole file; Letter 36 specifically
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: context
+  confidence: assigned
+  note: >
+    Letter 36 bans Christians from teaching classical literature -
+    directly targeting the paideia this world's own figures (Basil's
+    own Address to Young Men on the Right Use of Greek Literature,
+    vendored separately) depended on and defended. This file was
+    supplied specifically for this world's own Source Acquisition
+    Manifest (its own acquisition id: cappadocian-julian-rescript-
+    teachers, per cic/texts/README.md's ENTRIES note on this file).
+    Assigned alongside imperial-juridical-christianity, not instead of
+    it (SS6.1, non-exclusive by default).

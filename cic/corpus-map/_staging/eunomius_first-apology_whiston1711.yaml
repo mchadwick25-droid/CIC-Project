@@ -1,0 +1,37 @@
+# Worker notes, 2026-09-02. Single-work Pearse file, no ThML markup - author
+# slug from the filename convention (brief SS11a), matching AUTHORS.md's own
+# `eunomius` entry.
+source_file: eunomius_first-apology_whiston1711.txt
+assignments:
+- work: The First Apology (Liber Apologeticus)
+  author: eunomius
+  locus: whole file - chapters I-XXVIII (Whiston's numbering, Vaggione's
+    re-numbering per Pearse's edition) plus 23 footnotes
+  atlas_ids:
+  - anomoean-eunomian-christianity
+  role: tradition
+  confidence: assigned
+  note: >
+    Eunomius' own defense of his own position, in his own words - not
+    mediated through a hostile source. The file's own vendoring note
+    already states its purpose precisely: "the build's one real control
+    on adversarial distortion against Basil/Nyssen's own polemic" -
+    Eunomius' reply to that polemic (the Apology for the Apology) does
+    not survive independently and is known only through hostile
+    quotation inside Gregory of Nyssa's own refutation (npnf205,
+    already vendored).
+- work: The First Apology (Liber Apologeticus)
+  author: eunomius
+  locus: whole file - chapters I-XXVIII plus 23 footnotes
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: context
+  confidence: assigned
+  note: >
+    A contemporary opponent's own voice (role: context per SS4/SS6.1b's
+    four-way definition - not limited to non-Christian outsiders), not
+    the Cappadocian world's own tradition. Basil's Contra Eunomium and
+    Gregory of Nyssa's Contra Eunomium both answer this text directly -
+    reading Eunomius' own words is what lets a builder check whether
+    their polemic represents him fairly, the exact "control on
+    adversarial distortion" the file's own note names.
