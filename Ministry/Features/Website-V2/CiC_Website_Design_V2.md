@@ -344,6 +344,16 @@ Applied as a list, not felt as a mood (the 04 defense's item 2):
    the homepage at the door (storyboard §1.2g); on every tradition page as
    one line above the seat line (§2.2a), because a direct arrival has passed
    nothing else (the review's R5). No exception is claimed on any surface.
+   **2026-09-03 change order (Mark, ruling on the point directly):** the
+   wording that had carried this — "an AI system," "shows its sources as
+   it speaks" — led every page with the mechanism instead of the world
+   being represented; wrong focus. The requirement itself stands and the
+   line keeps its position, ahead of any conversation link, on every
+   surface; its wording is now a brief "representative voice, not a
+   person who lived" statement, carrying the same substance in the
+   register the rest of the site uses. Applied fleet-wide: §1.2g, the
+   homepage's "Before you sit down" section heading, §2.2a and §2.4a on
+   both shipped tradition pages, and `table.html`'s own line.
 
 ---
 

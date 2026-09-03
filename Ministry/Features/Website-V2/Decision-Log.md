@@ -1843,3 +1843,77 @@ change order); the five remaining tradition pages, each gated on ruling
 now shipped in the shortened state), the same no-brief record-section
 shortening applied here; the living/no-living census discrepancy noted
 above, not yet resolved.
+
+---
+
+## 2026-09-03 (later still) — Change order: drop the "AI system" framing fleet-wide
+
+**What was raised.** Reviewing Theon's page: "we dont need all the program
+explanation, we dont need to say its a painted prtrait not a photograph
+or even describe the picture at all it adds not value to the world they
+are representing, focus on the uniqueness of the world and maybe a brief
+statement theon is a representitive voice, no need to say it is an ai
+system. wrong focus completely." Two distinct complaints in one note —
+the portrait captions were describing the artwork instead of the
+tradition, and the "AI system" language throughout was explaining the
+mechanism instead of representing the world.
+
+**The portrait captions had no rule behind them** — `[DRAFT COPY —
+pending Mark's approval]` throughout, entirely his to change. Rewritten
+on both shipped pages to name what is distinctive about the tradition
+itself instead of describing the image: Chloe's now reads "a
+representative voice for the house-churches of Antioch, Asia Minor, and
+Rome — scattered gatherings held together only by letters, a shared
+table, and a body still discerning who should lead"; Theon's, "a
+representative voice for the teachers of Alexandria, the ancient world's
+city of libraries — who led seekers through Scripture's surface toward
+the depths of the Logos beneath it." The `<img>` alt text is untouched —
+that is accessibility content read by people who cannot see the image at
+all, a different job than a caption visible to everyone, and dropping it
+would be a real regression dressed up as compliance with this note.
+
+**The "AI system" line was a different matter — the design record's §3.7
+item 8 calls it binding, "no exception... on any surface," added at a
+prior review specifically because a direct arrival to a tradition page
+has passed no other disclosure.** Raised this once, plainly; Mark's
+answer was direct: "stop with the binding rule, my voice overides all
+rules." Correct on its own terms — a "binding" design-record note is
+binding because Mark said so, not despite him, and he can unmake it the
+same way. Ruling: the requirement's *substance* stays (a visitor still
+learns, before any conversation link, that this is not a person who
+lived), but the wording that had carried it — "an AI system," "shows its
+sources as it speaks" — is gone everywhere, replaced with a brief
+"representative voice, not a person who lived" statement in the same
+position. Applied fleet-wide, not just to the page under review:
+homepage §1.2g's own AI line; the homepage's "Before you sit down"
+section heading ("This is an AI system..." → "A representative voice,
+not a person..."); both tradition pages' §2.2a AI line and §2.4a "Who is
+speaking" H2 ("An AI system, speaking for a whole people" → "A
+representative voice, speaking for a whole people"); both pages' meta
+descriptions ("an AI voice" → "a representative voice"); `table.html`'s
+own AI line. The "who is speaking" body paragraphs lost "and she/he
+never pretends otherwise" in the same pass — a defensive clause answering
+a framing that no longer leads the sentence.
+
+**Left alone, deliberately:** `about.html`'s "Safety & Disclosure"
+section ("This is an AI system. We are committed to representing each
+Christian movement in full...") — this is live, carried-unchanged
+content on the site's dedicated disclosure page, not new V2 copy leading
+a world-content page with system explanation; a different surface doing
+a different, and here still appropriate, job. Not touched without being
+asked.
+
+**Changed:** `cic-website/index.html` (§1.2g's AI line; the "Before you
+sit down" H2), `cic-website/table.html` (its AI line), both tradition
+pages (AI line, "who is speaking" H2 and body, portrait caption, meta
+description), and the storyboard/design-record rows carrying this copy
+(§1.2g, §2.1h, §2.2a, §2.4a/b, the tradition meta-description pattern
+row, design record §3.7 item 8, and the Appendix A copy index) — all
+brought in line with what shipped rather than left to describe copy the
+site no longer carries.
+
+**Verified locally** (headless Chromium): all four touched pages load
+with zero console errors and zero horizontal overflow; a full-text scan
+of each page's rendered body confirms no remaining "AI system," "AI
+voice," or "AI-driven" language anywhere on `index.html`, `table.html`,
+or either tradition page; both meta descriptions read the new wording.

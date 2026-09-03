@@ -166,7 +166,7 @@ site to inherit, so none is added.
 | Page | `<title>` | `<meta name="description">` | Register |
 |---|---|---|---|
 | Home | Church in Conversation: The First Centuries | Twenty centuries of the Church's story, one era at a time. Seven Christian traditions you can sit down with today, from the Early Church and Imperial Church eras. Come and join us at the Table. | `[LIVE — carried unchanged]` — the description as corrected by the pending "six → seven" push (design record §11.4) |
-| Tradition ×7 | {Tradition} — Church in Conversation *(Chloe's: The House-Churches — Church in Conversation)* | Pattern: {Name} is an AI voice for {the tradition, as its tile names it}, {dates}. Where the record is quiet, the questions people bring, and what {she/he} is built from. *Chloe's instance:* Chloe is an AI voice for the house-churches of Antioch, Asia Minor and Rome, 70–200 CE. Where the record is quiet, the questions people bring, and what she is built from. | title `[CENSUS — verbatim]` + the live suffix; description `[DRAFT COPY — pending Mark's approval]` — the pattern here, one instance drafted with each page as it clears ruling 4. The AI question is raised in the description itself, first, before anything else it says |
+| Tradition ×7 | {Tradition} — Church in Conversation *(Chloe's: The House-Churches — Church in Conversation)* | Pattern: {Name} is a representative voice for {the tradition, as its tile names it}, {dates}. Where the record is quiet, the questions people bring, and what {she/he} is built from. *Chloe's instance:* Chloe is a representative voice for the house-churches of Antioch, Asia Minor and Rome, 70–200 CE. Where the record is quiet, the questions people bring, and what she is built from. *Theon's instance:* Theon is a representative voice for the school and church of Alexandria, c. 150 to 400 CE. Where the record is quiet, the questions people bring, and what he is built from. | title `[CENSUS — verbatim]` + the live suffix; description `[DRAFT COPY — pending Mark's approval]` — the pattern here, one instance drafted with each page as it clears ruling 4. 2026-09-03 change order: "an AI voice" → "a representative voice," matching the fleet-wide wording fix (design record §3.7 item 8) |
 | About · Get Involved · Privacy · Pilot Feedback · Church in History (and its two redirect stubs) | live | live | `[LIVE — carried unchanged]` |
 | What's Next | What's Next — Church in Conversation | ⚠ the live description says "three new worlds in development" — **ruling 37** | title `[LIVE]`; description is Mark's |
 | 404 | Nothing at this address — Church in Conversation | There's nothing at this address. The door is still open — start with your question on the home page. — plus `<meta name="robots" content="noindex">`, since Cloudflare Pages serves the page with a 404 status and it should never be indexed | `[DRAFT COPY — pending Mark's approval]` (both) |
@@ -237,7 +237,7 @@ hairline border; inside it, top to bottom:
 | 1.2e | The lede (names the person Mark named, in the first screen) | Whether you come curious, with a sermon to write, or with a question about faith you've carried for years — there is a chair. | `[DRAFT COPY — pending Mark's approval]` |
 | 1.2f | The "how" line — **interim wording, until `#q=` lands in the app** | Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there. | `[DRAFT COPY — pending Mark's approval]` |
 | 1.2f′ | The "how" line — **the day `#q=` lands** (replaces 1.2f) | Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — where it will be waiting for you. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.2g | The AI line — before any conversation link; graphite left rule, ink text | You will be in conversation with an AI system — a voice built from one tradition's own letters and records. It shows its sources as it speaks, and it will tell you where its record runs out. | `[DRAFT COPY — pending Mark's approval]` |
+| 1.2g | The AI line — before any conversation link; graphite left rule, ink text | You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out. | `[DRAFT COPY — pending Mark's approval]` — 2026-09-03 change order (Mark): drop the "AI system" / program-explanation framing everywhere it leads a page; lead with the world and the tradition, not the mechanism. A brief "representative voice" statement carries the substance of item 8's disclosure without the system-explanation register |
 | 1.2h | Offered-questions heading (uppercase, letterspaced sans label, muted — never small caps, ruling 19) | Or begin with one of these — questions people bring | `[DRAFT COPY — pending Mark's approval]` |
 | 1.2i | Six offered questions, each a 44px link, italic, a madder dash before and arrow after | 1 · I grew up being told doubt was sin. Was there room among your people for doubt? · 2 · Did any of you ever want to leave? · 3 · I pray and nothing happens. Did your people know that silence? · 4 · The people who taught me the faith turned out to be hypocrites. Did that happen among you? · 5 · Why does God allow suffering like this? Where was he when it happened to your people — and to mine? · 6 · I want to believe in Jesus, but I can't. What would you say to me? | `[CANON — verbatim, canon_status: seed]` (rulings 2, 10, 13) |
 | 1.2j | Note under the list | These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room. | `[DRAFT COPY — pending Mark's approval]` — the hybrid's visible "seed-status" tag does not ship |
@@ -491,7 +491,7 @@ homepage chair, the app deep link and (via `world_id`) the record store.
 Build choice; `tradition-<short>.html` is acceptable if Mark prefers flat
 files.
 
-**H-level outline:** H1 tradition name → H2 *An AI system, speaking for a
+**H-level outline:** H1 tradition name → H2 *A representative voice, speaking for a
 whole people* → H2 *What this record cannot tell you — said first* (H3 ×5
 silences) → H2 *Start with the hard one* → H2 *The hardest true thing about
 us* → H2 *What she is built from…* (H3 ×8) → H2 *Come and join us at the
@@ -557,7 +557,7 @@ every count: whole, said first, no accordion; the page length moves with it
 | 2.1e | Status line, 3px tint left rule | Open for conversation — you can sit down with this tradition now. | `[DRAFT COPY — pending Mark's approval]` — drafted from `statusWord` only where it reads "Open for conversation" (six of seven). The Cappadocian entry carries `"Built & Live"` and `glyph: "live"` (a census seam, design record §11.3; the review's r9); Chilo's page never renders it — the sentence above is the one status line, and the census is where the fix goes |
 | 2.1f | Tile | The house-churches of Antioch, Asia Minor, and Rome, 70 to 200 CE — the scattered gatherings that held together after the apostles were gone, connected by letters, formed around the table, still discerning who should lead and what the body's suffering truly means. | `[CENSUS — verbatim]` |
 | 2.1g | Portrait plate (4:5 crop, hairline border, max 20rem; the figure never dimmed) | alt: Chloe: a woman in a veil drawn up over her head and a rose-colored tunic, holding a plain cup in both hands, painted against a warm neutral ground. | `[DRAFT COPY — pending Mark's approval]` |
-| 2.1h | Caption | **Chloe, Household Leader.** The voice of this tradition — a painted portrait, not a photograph: a face from this tradition, not one person. The veil, the plain wool, and the shared cup are grounded in the tradition's own sources; her complexion is an inference from where she lived, and is labeled so. | `[DRAFT COPY — pending Mark's approval]` |
+| 2.1h | Caption | **Chloe, Household Leader.** A representative voice for the house-churches of Antioch, Asia Minor, and Rome — scattered gatherings held together only by letters, a shared table, and a body still discerning who should lead. | `[DRAFT COPY — pending Mark's approval]` — 2026-09-03 change order (Mark): the caption should not describe or explain the portrait at all ("a painted portrait, not a photograph," the veil/wool/cup, the complexion note) — none of it serves the world being represented. Replaced with a line naming what is distinctive about the tradition itself, applied to both shipped tradition pages |
 
 ### 2.2 The seat line — the chair offered once, outlined
 
@@ -566,7 +566,7 @@ hairline-ruled row: a sentence, an outlined button, a quiet text link.
 
 | # | Copy | Register |
 |---|---|---|
-| 2.2a | **The AI line, first** (added at the fix pass — the review's R5; the rows below were a–c): Chloe is an AI system — one voice built from this tradition's own letters and records. She shows her sources as she speaks, and she will tell you where the record runs out. | `[DRAFT COPY — pending Mark's approval]` — sans, graphite left rule, ink text: the homepage's 1.2g pattern. A paragraph, not a heading and not a tab stop. A visitor who arrives here directly — a shared link, a search result, which is what seven indexed pages are for — has passed no disclosure; this is the Brand Guidelines' "Always" and the design record's §3.7 item 8 kept on this page. Measured 1,268–1,352 at 390×844; the first app link at 1,443, after it |
+| 2.2a | **The AI line, first** (added at the fix pass — the review's R5; the rows below were a–c). **Superseded 2026-09-03 (Mark, change order):** Chloe is a representative voice for this tradition, not a person who lived — built from its own letters and records, and honest about where they run out. | `[DRAFT COPY — pending Mark's approval]` — sans, graphite left rule, ink text: the homepage's 1.2g pattern. A paragraph, not a heading and not a tab stop. A visitor who arrives here directly — a shared link, a search result, which is what seven indexed pages are for — has passed no disclosure; item 8's substance is kept, in a brief "representative voice" register rather than the "AI system" / program-explanation framing the original wording led with. Position/measurement unchanged from the original fix pass |
 | 2.2b | Chloe is seated. Begin when you're ready — or read on. | `[DRAFT COPY — pending Mark's approval]` |
 | 2.2c | Begin a conversation with Chloe | `[DRAFT COPY — pending Mark's approval]` — `?worlds=<id>&mode=interview` (+ `#q=` once it lands) |
 | 2.2d | Bring Chloe to the Table → | `[LIVE — as shipped]` — **ruling 35 (2026-09-03): no gate**, stands unconditionally, with its twin in §2.9d. Superseded from the draft's fuller sentence when the Table became its own page (2026-09-03 change order, §2a): the link now reads `../table.html?worlds=post-apostolic-house-church`, which seats Chloe and explains itself on arrival — the seat line no longer needs to say "she'll be seated there; choose at least one more voice" itself |
@@ -596,8 +596,8 @@ no question was ever held.
 
 | # | Copy | Register |
 |---|---|---|
-| 2.4a | Eyebrow: Who is speaking · H2: An AI system, speaking for a whole people | `[DRAFT COPY — pending Mark's approval]` |
-| 2.4b | Chloe is a voice, not a person who lived, and she never pretends otherwise. She is this tradition's own surviving witnesses — Ignatius, Polycarp, Clement of Rome, Hermas, Justin, the Didache — given one voice, and she speaks the way a people speaks of itself: *we*, *our*, *among us*. Where those witnesses disagreed, she keeps the disagreement visible rather than settling it for them. Her name and her role are the only invented things about her; every claim she makes belongs to the record, and she will tell you plainly when the record runs out. | `[DRAFT COPY — pending Mark's approval]` |
+| 2.4a | Eyebrow: Who is speaking · H2: A representative voice, speaking for a whole people | `[DRAFT COPY — pending Mark's approval]` — 2026-09-03 change order (Mark): "An AI system, speaking for a whole people" led with the mechanism, not the world; corrected fleet-wide (§1.2g, §2.2a, §2.4a, and the homepage's "Before you sit down" H2 all carried the same fix) |
+| 2.4b | Chloe is a voice, not a person who lived. She is this tradition's own surviving witnesses — Ignatius, Polycarp, Clement of Rome, Hermas, Justin, the Didache — given one voice, and she speaks the way a people speaks of itself: *we*, *our*, *among us*. Where those witnesses disagreed, she keeps the disagreement visible rather than settling it for them. Her name and her role are the only invented things about her; every claim she makes belongs to the record, and she will tell you plainly when the record runs out. | `[DRAFT COPY — pending Mark's approval]` — "and she never pretends otherwise" cut in the same pass: defensive, and unnecessary once the line no longer leads with the system framing it was answering |
 | 2.4c | Sidenote: **Source.** The voice's own identity record, `pahc.craft.chloe-voice`: "her name and role are the only sanctioned fabrications this build allows; every quote and claim behind them belongs to this [tradition's] own surviving voices." | quotation `[RECORD — verbatim, status: draft in the store]` with the bracketed elision (ruling 17); the framing `[DRAFT COPY — pending Mark's approval]` |
 | 2.4d | If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support. | `[LIVE — carried unchanged]` — once per page |
 
@@ -1049,12 +1049,15 @@ and **36 for the arranged brief material**, which reaches Mark's approval
 pass through that ruling, tradition by tradition, not through this list.
 
 One note for the copy pass rather than a rule (the review's r16): a few
-drafted lines stack two negations in one sentence — 2.1h ("a painted
-portrait, not a photograph: a face from this tradition, not one person"),
-2.4b ("a voice, not a person who lived"). The Never list bans stacked "not
-X, it's Y" as a sentence shape; the Always list keeps "a clarifying contrast
-naming what kind of thing this is," which is what these are. Defensible;
-Mark's eye is the test.
+drafted lines use one negation to name what kind of thing this is — 2.4b
+("a voice, not a person who lived"), 2.2a ("a representative voice for
+this tradition, not a person who lived"). The Never list bans stacked
+"not X, it's Y" as a sentence shape; the Always list keeps "a clarifying
+contrast naming what kind of thing this is," which is what these are.
+Defensible; Mark's eye is the test. (2.1h's own stacked-negation example,
+"a painted portrait, not a photograph," no longer applies — the caption
+was rewritten under the 2026-09-03 change order to drop the portrait
+description entirely, not just its phrasing.)
 
 **Shared chrome**
 - S.2 Been here before? Go straight in → · S.3 (footer line unification — no new words; ruling 39)
@@ -1067,7 +1070,7 @@ Mark's eye is the test.
 - 1.2e Whether you come curious, with a sermon to write, or with a question about faith you've carried for years — there is a chair.
 - 1.2f Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there.
 - 1.2f′ Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — where it will be waiting for you.
-- 1.2g You will be in conversation with an AI system — a voice built from one tradition's own letters and records. It shows its sources as it speaks, and it will tell you where its record runs out.
+- 1.2g You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out.
 - 1.2h Or begin with one of these — questions people bring
 - 1.2j These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room.
 - 1.3a Edit it · 1.3c Who would you like to have a conversation with?
@@ -1100,12 +1103,12 @@ Mark's eye is the test.
 **Tradition page (Chloe's instance; the pattern for seven)**
 - 2.1e Open for conversation — you can sit down with this tradition now.
 - 2.1g (alt) Chloe: a woman in a veil drawn up over her head and a rose-colored tunic, holding a plain cup in both hands, painted against a warm neutral ground.
-- 2.1h Chloe, Household Leader. The voice of this tradition — a painted portrait, not a photograph: a face from this tradition, not one person. The veil, the plain wool, and the shared cup are grounded in the tradition's own sources; her complexion is an inference from where she lived, and is labeled so.
+- 2.1h Chloe, Household Leader. A representative voice for the house-churches of Antioch, Asia Minor, and Rome — scattered gatherings held together only by letters, a shared table, and a body still discerning who should lead.
 - 2.2a Chloe is an AI system — one voice built from this tradition's own letters and records. She shows her sources as she speaks, and she will tell you where the record runs out.
 - 2.2b Chloe is seated. Begin when you're ready — or read on. · 2.2c Begin a conversation with Chloe · 2.2d Bring Chloe to a Table — she'll be seated there; choose at least one more voice.
 - 2.3 Who is speaking · Where we are quiet · Questions people bring · In her own words · The record
-- 2.4a Who is speaking · An AI system, speaking for a whole people
-- 2.4b Chloe is a voice, not a person who lived, and she never pretends otherwise. She is this tradition's own surviving witnesses — Ignatius, Polycarp, Clement of Rome, Hermas, Justin, the Didache — given one voice, and she speaks the way a people speaks of itself: we, our, among us. Where those witnesses disagreed, she keeps the disagreement visible rather than settling it for them. Her name and her role are the only invented things about her; every claim she makes belongs to the record, and she will tell you plainly when the record runs out.
+- 2.4a Who is speaking · A representative voice, speaking for a whole people
+- 2.4b Chloe is a voice, not a person who lived. She is this tradition's own surviving witnesses — Ignatius, Polycarp, Clement of Rome, Hermas, Justin, the Didache — given one voice, and she speaks the way a people speaks of itself: we, our, among us. Where those witnesses disagreed, she keeps the disagreement visible rather than settling it for them. Her name and her role are the only invented things about her; every claim she makes belongs to the record, and she will tell you plainly when the record runs out.
 - 2.4c (framing of the source note)
 - 2.5a Where we are quiet · What this record cannot tell you — said first
 - 2.5c In Chloe's own voice, from the tradition's own record. These are the silences the voice carries into every conversation.
