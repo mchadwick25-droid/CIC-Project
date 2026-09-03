@@ -1408,3 +1408,137 @@ and Mothers, the Bethlehem Circle, and Syriac Christianity, per the
 storyboard's own table; the other three (Alexandria, Cappadocia, Church
 and Empire) would ship with §2.8's record section shortened, not
 paraphrased, exactly as §2.10 specifies for that state.
+
+---
+
+## 2026-09-03 (later) — Change order: the Table becomes its own page
+
+**What was raised.** Reviewing the built homepage and Chloe's tradition
+page, Mark: "the mulit-voice should be stand alone with the table the
+first place and a way to invite up to 3 worlds to the table, it should be
+a chloe card and then find others, that gets confusing and sets chloe to
+be the leader rather than joining the conversation (perseption) can we do
+a cool graphic that opens the table and then gives you the worlds to
+select." The individual-conversation path (Atlas, homepage chairs, each
+tradition page's own "Begin" links) was affirmed as correct; the complaint
+was specifically that the *multi-voice* entry point, as built, put one
+tradition's card first and framed the rest as add-ons to it.
+
+**Investigated before designing anything:**
+- The app's actual Table contract (`cic-poc/frontend`, not assumed): a
+  link of the shape `?worlds=id1,id2,id3&mode=table` pre-seats up to three
+  traditions and lands on the Launch screen with "Convene the Table"
+  enabled once ≥2 are filled — it never auto-starts a session (the app's
+  own code comment: "the link chooses seats, the participant convenes").
+  No app-side change needed; the website can build this link today.
+- What "the open door graphic" referred to, when Mark pointed to it as the
+  illustration to adapt: the existing "Arriving" brand mark
+  (`Ministry/Communication/Brand-Assets/CiC_Logo_Arriving_Master.svg`), a
+  ring with a doorway-gap and a dot "sitting down" at the threshold — not
+  a separate, uncommissioned asset.
+
+**Ruling, after Mark confirmed the shape** ("3 open seats and the
+participant view as the fourth"): a new standalone page, `table.html`,
+not in the original storyboard (§1's site map had "Set your own table" go
+straight into the app). Four seats shown symmetrically: "You," already
+seated at the mark's own threshold position, and three open doorways.
+Picking a seat opens a chooser (all seven traditions, portrait + name +
+tradition, already-seated ones shown disabled rather than hidden); two or
+more filled seats enables a single "Open the conversation" link built
+from the live selection. No tradition is ever cast as host — resolving
+the perception problem directly, not just relabeling it.
+
+**Built:** `cic-website/table.html`, and the storyboard now carries this
+as new §2a (change order, full section — purpose, page order, the
+chooser, hand-off behavior, states/screen-reader/keyboard/responsive,
+open items). The site map (§ "Site map") updated to route "Set your own
+table" through this page instead of straight into the app, and to show
+each tradition page's "Bring {Name} to the Table" link doing the same.
+
+**Two existing links rewired to point here instead of the app directly:**
+the homepage's `.second-door` link (was
+`https://cic-engine.onrender.com/?mode=table`, now `table.html`, `data-app`
+removed since it no longer targets the app), and Chloe's page's two
+"Bring Chloe to the Table" links (`#seat-bring`, `#door-bring`; now
+`../table.html?worlds=post-apostolic-house-church`, same `data-app`/
+`data-ask` removal). **Deliberate deviation from §2.2a's "all four
+conversation links carry `#q=`" rule:** these two links no longer carry
+the held question forward. A question held for one voice doesn't
+cleanly address a table where that voice is no longer singled out;
+forwarding it would re-seat the exact "one tradition speaks for the
+room" framing this change order exists to remove. The other two links on
+Chloe's page ("Begin a conversation with Chloe," `#seat-begin`/
+`#door-begin`) are untouched and still carry `#q=`. Recorded in §2a
+rather than left as a silent gap in §2.2a's rule.
+
+**A bug caught in verification, not assumed fixed:** the chooser panel's
+"← Leave this seat open" button used `hidden` to show/hide itself, but
+`.panel .remove{display:flex}` had no `[hidden]` override — the same
+class of bug as the homepage's `.era-nav` earlier this session. The first
+functional-test pass read the `hidden` *attribute* and reported success;
+only a screenshot of the chooser opened on an *empty* seat showed the
+remove button rendered anyway. Fixed with `.panel .remove[hidden]{display:
+none}`; re-verified with `getComputedStyle` on both the empty-seat case
+(`display:none`) and the filled-seat case (`display:flex`), not the
+attribute alone. Also caught and fixed separately: the arrival animation
+screenshot was taken at 600ms, before the sequence (ring draws to 1400ms,
+"You" seats in to 1800ms) had finished, making "You" appear to not exist
+at all — a test-timing error, not a page bug; corrected by waiting 2000ms
+before screenshotting.
+
+**Mark's correction on seeing the first version:** "the circles need to
+be centered on the 1/4 segment and sitting just outside the table (as if
+at the table and make the table the same c that is the logo, not 4
+segments, but three and an open 4th that the participant sits at, same
+as the logo." The first build had drawn the ring as four separate dashed
+arc-segments (one gap per seat, `stroke-dasharray` cycling four equal
+dash/gap pairs) and placed the three open-seat circles at a radius that
+put them mostly *inside* the ring's own band — reading as four notches
+cut into the ring, each seat sitting in its own cut-out, rather than one
+table with chairs around it. Corrected to match what was actually asked:
+the ring redrawn as a single continuous arc (`<path>` with one `A` arc
+command, not a dashed `<circle>`) — the logo's own unbroken "C," not a
+segmented one — with exactly one gap, a quarter of the circle, centered
+on the right where "You" sits (the mark's own threshold position, kept).
+All four seats — "You" and the three open ones — recentered to sit just
+outside the ring's outer edge (worked out by computing exact geometry
+rather than eyeballing it: ring radius, stroke width, and seat-circle
+size solved together so each seat clears the ring with a small margin and
+still fits inside the graphic's own box with room to spare, at both the
+280px desktop size and the 240px phone tier — verified the phone tier by
+scaling every figure by the same 240/280 ratio rather than re-deriving it
+independently, so the two tiers stay geometrically consistent). Seat
+circles shrunk slightly (72px → 56px, 48px on phones) to make the outside
+clearance work within the graphic's existing footprint rather than
+enlarging the graphic itself, still well clear of the 44px hit-target
+floor. Re-verified after the change: zero overflow at every breakpoint,
+the full seat/chooser/convene functional suite unchanged and passing, and
+reduced-motion's finished-state dasharray recomputed for the new (shorter)
+arc length and confirmed by `getComputedStyle`, not assumed to still
+match after the geometry changed.
+
+**Verified locally** (headless Chromium): zero horizontal overflow
+320–1440px on `table.html`; initial state (0 of 3, convene disabled);
+seating a tradition updates the seat's portrait/tint, the live count, and
+un-disables the tradition in other seats' choosers only once it's no
+longer selected; a tradition already seated elsewhere shows disabled,
+"Already seated," in a second seat's chooser; two seated traditions
+correctly build `?worlds=id1,id2&mode=table` and enable "Open the
+conversation"; removing a seated tradition empties the seat and
+decrements the count; arriving at `table.html?worlds=id1,id2` pre-seats
+both immediately with the convene link already live; reduced-motion shows
+the finished ring and seated "You" with `animation:none` on every
+animated rule, not just the resting-state values (the same fix this
+session already had to make once, on the homepage's own mark — verified
+this time rather than assumed carried over); dark mode legible; 390px
+mobile lays out cleanly, graphic rescaled with seat positions
+recalculated, not just shrunk; zero `target="_blank"` anywhere on the
+page.
+
+**Open:** ruling 35 (whether the Table ships free and prominent, as built
+here, or behind a paid-tier gate — not yet ruled); whether to fold the
+app's curated `pairings.ts` suggested-pairing shortcuts into this page as
+a faster path than picking three individually (asked, not yet answered);
+the SVG ring's gap centering is tuned by eye against the mark's own
+geometry, not derived analytically — a fine first pass, revisit if Mark's
+reaction calls for it.

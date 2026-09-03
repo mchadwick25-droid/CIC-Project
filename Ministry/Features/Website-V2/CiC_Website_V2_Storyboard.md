@@ -53,8 +53,10 @@ sandbox note stripped unless stated).
 
 ```
 Home (index.html)
-├── The door → the seven chairs → the app (interview)  ·  Set your own table → the app (Table field)
+├── The door → the seven chairs → the app (interview)  ·  Set your own table → table.html (NEW, change order 2026-09-03)
 ├── traditions/<census-id>.html  ×7  (one template; Chloe's page is the reference)
+│     └── "Bring {Name} to the Table" → table.html?worlds=<census-id> (NEW, same change order)
+├── table.html (NEW) → the app (Table field, ≥2 seated)
 ├── About (about.html)
 ├── What's Next (whats-next.html)
 ├── Map = Church in History (atlas-v3.html — its own rework track)
@@ -752,6 +754,94 @@ review's r1). The two external links and the mailto are inline prose links.
 | 640–899 | Single column; portrait plate under the title block, max 20rem. |
 | <640 | Header wraps; sources table scrolls inside its own container; gravities stack to one column; status grid one column; Level-3 = bottom sheet (12px top radius, ≤55vh); seat line wraps; the page is 16,683px at 390×844 with the AI line (about twenty screens; sandbox note stripped) — the cost of carrying the silences whole (ruling 22), navigable by §2.3, whose five-link nav is not in that figure (it adds one short row). |
 | 320 | Overflow 0 (verified). |
+
+---
+
+## 2a. Set your own table — `table.html` (NEW, change order 2026-09-03)
+
+**Not in the original storyboard.** §1's site map originally sent "Set your
+own table" straight into the app's Table field, with the app's own Launch
+screen doing all seat-picking (see §1.7's app-boundary note). Mark's
+critique of the hybrid build: the homepage showed the multi-voice option as
+a second link hanging off Chloe's card — "that gets confusing and sets
+Chloe to be the leader rather than joining the conversation." Ruling: the
+Table becomes its own page. No tradition is ever shown as the table's host;
+"You" is one of four seats, symmetrically, the same as the three you invite.
+
+**Purpose.** Let a visitor assemble up to three traditions before ever
+opening the app, then hand the app a single ready-to-convene link
+(`?worlds=id1,id2[,id3]&mode=table`) — confirmed against the app's own
+`Launch.tsx` that this pre-seeds the field without auto-starting a session
+("the link chooses seats, the participant convenes").
+
+**The graphic.** Adapts the "Arriving" brand mark's own ring-and-doorway
+geometry — one continuous ring, one gap, one seated dot — to four seats
+instead of one, keeping the mark's own shape: a single unbroken arc (the
+same "C" the logo draws), not four cut segments. The gap is a quarter of
+the circle, centered on the right where "You" sits — the mark's own
+threshold position, kept exactly. All four seats, "You" included, sit
+just outside the ring's edge, like chairs pulled up to a round table
+rather than fitted into notches cut in it; each is centered on its own
+quarter of the circle, 90° apart, matching the ring's own quartering.
+(First pass drew four dashed arc-segments with a gap at every seat, each
+circle overlapping the ring rather than sitting outside it — Mark's
+correction on seeing it: the ring should read as the logo's own single
+opening, and the seats should sit at the table, not in it.) Plays once on
+arrival — the ring draws, "You" settles in — under the same restraint
+discipline as the homepage's own mark (§1.2's Arriving sequence): no
+other motion on the page, `prefers-reduced-motion` shows the completed
+state with `animation: none` explicitly set on every animated rule, not
+just the resting values.
+
+**Order of the page:** eyebrow "The Table" → H1 "Set your own table" → one
+line stating no seat is host → the graphic (aria-hidden; each open seat is
+a real button with a visually-hidden status span) → the AI-disclosure line
+(same register as the homepage's 1.2g and the tradition page's §2.2a) →
+the convene control, disabled and reading "Choose at least two…" until two
+seats are filled, then "Open the conversation" with the built `?worlds=`
+link → a live seat count (`aria-live="polite"`) → the cost caveat carried
+verbatim from every other conversation entry point.
+
+**The chooser.** Clicking an open seat (or a filled one, to change it)
+opens a side panel (bottom sheet under 640px) — the same mechanic as the
+tradition page's Level-3 lexicon panel (§2.10) — listing all seven
+traditions with portrait, name, and tradition name; a tradition already
+seated elsewhere is shown, disabled, "Already seated," not hidden. A
+filled seat's chooser adds "← Leave this seat open" above the list. Escape
+or the × returns focus to the seat button that opened it.
+
+**Hand-off from a tradition page.** Each tradition page's "Bring {Name} to
+the Table" link (§2.2/§2.9) now points to `table.html?worlds=<census-id>`
+instead of the app directly — that tradition arrives pre-seated, as one of
+three open seats, not as the page's own subject. The held `#q=` question
+(§2.2a) is **not** carried onto this link: a question held for one voice
+doesn't cleanly address a table where that voice is no longer singled
+out, and forwarding it would re-introduce the "one tradition speaks for
+the room" framing this page exists to remove. The two per-tradition
+"Begin a conversation with {Name}" interview links are unaffected and
+still carry `#q=` as before.
+
+**No-JS:** the seat buttons and convene control need script to build the
+`?worlds=` link from a live selection; `<noscript>` offers a plain link
+straight to the app's empty Table field instead of a dead control.
+
+**States:** the global states only (§S). **Screen reader:** banner → main
+→ H1 → graphic (aria-hidden, its four buttons independently reachable) →
+AI line → convene control → live seat count → contentinfo. **Keyboard:**
+chrome → three seat buttons → convene control; the chooser panel traps
+focus at its close button on open and returns it to the seat button on
+close. **Responsive:** single column, `--col` measure throughout; the
+graphic scales down at ≤480px (240px ring) with seat positions
+recalculated, not just shrunk; zero horizontal overflow 320–1440px
+(verified).
+
+**Open, not yet ruled on:** ruling 35 (whether the Table should be free
+and prominent, or gated behind a paid tier — this page assumes free and
+prominent, pending that ruling); whether to fold the app's curated
+`pairings.ts` suggested-pairing shortcuts into this page as a faster path
+than picking three individually; the SVG ring's gap centering is tuned by
+eye against the mark's own geometry, not derived analytically — acceptable
+as a first pass, refinable if Mark's reaction calls for it.
 
 ---
 
