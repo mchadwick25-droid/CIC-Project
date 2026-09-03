@@ -2327,3 +2327,79 @@ emphasis carried onto the Atlas page itself, that's a request for
 whichever thread owns it, not assumed here.
 
 **Verified:** zero comments/`data-copy` on the file.
+
+---
+
+## 2026-09-03 (later still) — SHIPPED: PR #85 merged, the new entry
+path is live
+
+Mark: "go ahead," then "yes, subscribe and merge it once green." Full
+sequence: merged `main` into the branch (clean, no conflicts - `main`'s
+own history never touched the files this branch changed), verified
+`atlas-v3.html`/`world-census.json`/`corpus-coverage.json` byte-
+identical to `main` post-merge, ran the full check (zero comments,
+zero overflow 320-1440px both themes, all 162 internal links resolve)
+across all 9 shipping pages. A direct push to `main` was blocked by
+the harness's own safety classifier (unrelated to repo permissions);
+opened PR #85 instead, matching how the Atlas work itself shipped.
+
+**One real CI failure, fixed properly.** The M1 gate battery selftest
+failed for a genuine reason: `engine/m1/cross_world.py`'s
+`check_site_portraits` regex-parsed a `PORTRAIT_FILES` JS object from
+the old homepage's carousel - gone now that the V2 homepage gives each
+world its own `traditions/<census_id>.html` page with a direct
+portrait image instead. Repointed the check at that real structure
+(does the tradition page exist, does it carry a portrait image file
+that's actually on disk), verified locally before pushing (10/10
+passing, was 9/10). Flagged, not fixed - a sibling script
+(`gen_matrix.py`) has the identical bug and will crash next time it's
+run; queued as a separate task rather than widening this PR, since it
+isn't wired into any CI workflow.
+
+**One known-unrelated failure, stood down on record.** "Workers
+Builds: cic-project" (Cloudflare) failed with no accessible logs -
+same signature PR #78 already documented reproducing on `main`'s own
+tip independent of diff content. Posted one comment on the PR naming
+the check, why it isn't this PR's, and that no re-run was available
+from here, then merged on 12/12 real GitHub Actions checks green.
+
+**Live now:** the new homepage, `table.html`, and all 7
+`traditions/*.html` pages are on `main`. `about.html`'s brand lines and
+consent disclosure too. The waitlist link is still pending Mark's
+Google Form URL - the one item left on the launch-readiness list that
+isn't already shipped or decided.
+
+---
+
+## 2026-09-03 (later still) — Post-ship copy fix: "letters and
+records" said three times in three consecutive lines
+
+**Origin.** Mark, looking at the live page: the introduction repeats
+"built from their own record" three times and needs a real edit pass -
+clear, not repetitive.
+
+**Found exactly what he was pointing at.** Three lines in a row, right
+under the "who" heading: `.scope` ("...each with one voice that speaks
+for it from its own letters and records"), `.ai-line` ("built from one
+tradition's own letters and records, and honest about where they run
+out"), `.how-line` ("Click anyone's picture to read their record...").
+The middle two aren't the redundancy - `.ai-line` is the mandated
+disclosure line (design record 3.7 item 8, "no exception on any
+surface," Mark's own binding ruling from earlier in this project) and
+can't be trimmed; `.how-line`'s "record" names the actual destination
+page, matching the "Her record ->" / "His record ->" links inside each
+chair - that's consistent terminology, not repetition. `.scope` and
+`.ai-line` were the actual near-verbatim overlap: both said "own
+letters and records" back to back.
+
+**Fix:** trimmed `.scope`'s sourcing clause, since `.ai-line` says the
+same thing one sentence later. New text: "Christian traditions from
+the Church's first four centuries, each with one voice that speaks for
+it. Ask any of them." No information lost - the sourcing claim still
+appears, once, immediately after. `.ai-line` and `.how-line` untouched.
+
+**Verified:** zero comments/`data-copy`, zero overflow 320-1440px both
+themes, all three lines render as intended.
+
+**Next action:** ship this as a small follow-up PR/push to `main`,
+same as PR #85.
