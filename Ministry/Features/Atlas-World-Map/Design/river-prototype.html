@@ -62,7 +62,10 @@ svg#world{display:block}
 .era-label,.era-tag,.era-context{paint-order:stroke;stroke:var(--parchment);stroke-width:5px;stroke-linejoin:round}
 .era-label{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;fill:var(--gold-leaf)}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:14px;fill:var(--ink-faded)}
-.era-context{font-family:"Alegreya",Georgia,serif;font-size:13px;fill:var(--tyrian)}
+/* Was var(--tyrian) -- the same hue as the header-gutter break band it
+   now sits on, which made the fill itself (not just its stroke halo)
+   blend into its own background. */
+.era-context{font-family:"Alegreya",Georgia,serif;font-size:13px;fill:var(--iron-gall)}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   pointer-events:none;user-select:none}
@@ -19787,14 +19790,13 @@ const EDGE_CALM_OP=0.4, EDGE_ORGANIC_OP=0.05, EDGE_ACTIVE_OP=0.85;
    Light-mode grounds carried the same old-manuscript/institutional feel
    as the parchment token they were designed alongside (tan, vellum-
    green, pale slate -- the era's own "ground" per the census, not
-   arbitrary). First re-picked to the flat app-chrome ground (#F6F6F2),
-   which then read as no contrast at all between the canvas and its own
-   chrome -- settled on #F3EFFA instead, the same --tyrian-wash the
-   scopeNote introduction banner already uses, so the canvas reads as
-   its own layer against the chrome without reintroducing the old tan/
-   green/slate cycle. Dark mode already tested fine as-is and is
-   untouched. */
-const eraLight=['#F3EFFA','#F3EFFA','#F3EFFA'], eraDark=['#241A0C','#1E1C16','#151A1E'];
+   arbitrary). The era body itself now just stays the plain page ground
+   (matching --parchment exactly, so it reads as no tint at all) -- the
+   break between eras moved to a dedicated purple band across the header
+   gutter instead (see the gBands/gLabels rects below), rather than
+   tinting the whole era height. Dark mode's own era-body cycling is
+   untouched, already confirmed working as-is. */
+const eraLight=['#F6F6F2','#F6F6F2','#F6F6F2'], eraDark=['#241A0C','#1E1C16','#151A1E'];
 function eraGround(i){return isDark()?eraDark[i%3]:eraLight[i%3];}
 
 const byId={}; DATA.movements.forEach(m=>byId[m.id]=m);
@@ -20231,24 +20233,22 @@ function render(){
     // regardless of this value) -- what this actually tunes is only the
     // tone of the empty paper between them, richer/warmer as it climbs
     // toward solid.
-    // Bleeds far past the canvas's own left/right edges (rather than just
-    // x:0, width:CANVAS_W) so the band reads as the WHOLE page at any
-    // horizontal pan/zoom, not a block that stops where the rivers do --
-    // this rect still lives inside the pan/zoom group, so only a very wide
-    // fixed span (not the viewport's own width, which this SVG has no
-    // access to on every frame) keeps its edge from ever coming into view.
+    // The era body itself stays the plain page ground (no tint in light
+    // mode; dark mode's own subtle per-era cycling, eraDark above, is
+    // unchanged) -- only the header gutter at the top of each era carries
+    // color now, as a full-width break between one era and the next.
     gBands.appendChild(el('rect',{x:-CANVAS_W*4,y:eraY0[i],width:CANVAS_W*9,height:eraH[i],fill:eraGround(i),opacity:0.75}));
-    // The band wash above is deliberately thin now, so whatever stream is
-    // passing through the header gutter (held at flat width right here, see
-    // the yearToY/density-sampling notes above) shows through at real
-    // strength -- exactly the point for the band generally, but it means the
-    // caption can no longer count on a calm, even backdrop the way it could
-    // over a fully opaque band. A dedicated plate behind just the text block
-    // (parchment, so it reads consistently against any era's tint and any
-    // family's river color, same reasoning as the per-glyph stroke halo
-    // already on .era-label/.era-tag/.era-context) keeps the caption legible
-    // without putting the whole gutter back to full opacity.
-    gLabels.appendChild(el('rect',{x:10,y:eraY0[i]+6,width:1120,height:120,fill:'var(--parchment)',opacity:0.5}));
+    // The break band: full tyrian purple (not the pale wash), 75% opacity,
+    // bled past the canvas edges the same way the era body above is, so it
+    // reads as a line all the way across the screen -- the visual "here a
+    // new era starts" the eras used to get from a full-height color change.
+    // Real strength on purpose: at 75% opacity a river or edge line passing
+    // through the gutter still shows through, but the band itself needs to
+    // be strong enough to work as a break, which is also why the caption
+    // text sitting on it (.era-context especially, previously tyrian --
+    // the same hue as this band) needed its own contrast fix below rather
+    // than a translucent plate.
+    gLabels.appendChild(el('rect',{x:-CANVAS_W*4,y:eraY0[i],width:CANVAS_W*9,height:HEADER_GUTTER,fill:'var(--tyrian)',opacity:0.75}));
     const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
