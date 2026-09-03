@@ -41,7 +41,7 @@ from engine.m1.registry import REPO_ROOT, formation_world_keys, load_registry
 
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
-SITE_INDEX_HTML = REPO_ROOT / "cic-website" / "index.html"
+SITE_TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
 
 DEFECT = "defect"
 OBSERVATION = "observation"
@@ -592,19 +592,30 @@ def check_app_world_assets(*, worlds, **_) -> list[Finding]:
 
 
 def check_site_portraits(*, registry, worlds, **_) -> list[Finding]:
-    """cic-website/index.html's carousel keys its portrait files by census id.
-    A world the census lists but this table does not renders a broken image
-    on the front page of the public site."""
+    """Each world's own cic-website/traditions/<census_id>.html page carries its
+    Representative's portrait directly - the site's entry pattern since the V2
+    homepage replaced the old carousel (which kept one shared PORTRAIT_FILES
+    lookup in index.html; this checks the same concern against where that
+    content actually lives now). A world with no tradition page, or whose
+    portrait file is missing on disk, renders a broken image on the public
+    site."""
     findings = []
-    if not SITE_INDEX_HTML.is_file():
-        return [_defect("site-portrait-file", "fleet", f"{SITE_INDEX_HTML} not found")]
-    text = SITE_INDEX_HTML.read_text(encoding="utf-8")
-    block = re.search(r"PORTRAIT_FILES\s*=\s*\{(.*?)\}", text, re.S)
-    mapped = set(re.findall(r"'([^']+)'\s*:", block.group(1))) if block else set()
     for w in worlds:
         cid = registry[w].get("census_id")
-        if cid and cid not in mapped:
-            findings.append(_defect("site-portrait", w, f"census_id {cid!r} has no PORTRAIT_FILES entry - the Atlas carousel renders a broken image for this world"))
+        if not cid:
+            continue
+        page = SITE_TRADITIONS_DIR / f"{cid}.html"
+        if not page.is_file():
+            findings.append(_defect("site-portrait", w, f"census_id {cid!r} has no cic-website/traditions/{cid}.html - the site has no page to carry this world's portrait"))
+            continue
+        text = page.read_text(encoding="utf-8")
+        img_match = re.search(r'<img\s+src="([^"]+)"', text)
+        if not img_match:
+            findings.append(_defect("site-portrait", w, f"traditions/{cid}.html has no portrait <img>"))
+            continue
+        img_path = (page.parent / img_match.group(1)).resolve()
+        if not img_path.is_file():
+            findings.append(_defect("site-portrait", w, f"traditions/{cid}.html's portrait image {img_match.group(1)!r} does not exist on disk"))
     return findings
 
 
