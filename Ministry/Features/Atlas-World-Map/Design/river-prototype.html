@@ -19795,6 +19795,16 @@ const famColor=f=>isDark()?f.cd:f.c;
 // all 69 at once, at a zoom meant for reading one river, is a wiring diagram.
 const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;
 const EDGE_CALM_OP=0.4, EDGE_ORGANIC_OP=0.05, EDGE_ACTIVE_OP=0.85;
+// The organic-zoom edge opacity reads as a faint, present wireframe at 0.05 in
+// light mode (iron-gall's dark ink against the near-white page), but the same
+// opacity is close to imperceptible in dark mode: iron-gall inverts to a light
+// cream stroke there, and a thin light line at low opacity on a near-black
+// ground reads far fainter than the same absolute color delta does on a near-
+// white one (screenshot-verified side by side, not just contrast-ratio math --
+// the two composites are near-identical in raw WCAG contrast, yet one is
+// legible and the other isn't). 0.15 was the lowest dark-mode value that
+// matched light mode's visibility in that comparison.
+const EDGE_ORGANIC_OP_DARK=0.15;
 
 /* ---- Real era grounds, from the census's own eras[] ----
    Light-mode grounds carried the same old-manuscript/institutional feel
@@ -20714,7 +20724,7 @@ function applyDetail(){
   document.querySelectorAll('#nodes .lbl').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('#nodes .portrait-plate').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('.edge-line').forEach(p=>{
-    const base=organic?EDGE_ORGANIC_OP:EDGE_CALM_OP;
+    const base=organic?(isDark()?EDGE_ORGANIC_OP_DARK:EDGE_ORGANIC_OP):EDGE_CALM_OP;
     p.dataset.baseline=base;
     p.style.opacity=base;
   });
