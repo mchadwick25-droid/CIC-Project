@@ -98,6 +98,15 @@ _SIZE_URGENT_BYTES = 1024 * 1024 * 1024
 # either way, since only one can match a given header).
 _RIGHTS_LINE = re.compile(r"Rights:\s*(.+)|<DC\.Rights>\s*([^<]+)")
 _TITLE_LINE = re.compile(r"Title:\s*(.+)|<DC\.Title>\s*([^<]+)")
+# Added 2026-09-02, for original-language witnesses (see cic/texts/INTAKE.md):
+# every file vendored before this line was English by construction, so this
+# reads as None for all 64 of them - report() below treats that as English,
+# not as UNVERIFIED. A file whose text is NOT the language a reader would
+# assume from its title/context should say so explicitly with this line, an
+# ISO 639-3 code (grc, lat, syr, ...) rather than a free-text name, the same
+# "a real, checkable code, not a project-invented label" discipline
+# rights_basis and AUTHOR-IDS.yaml's own identifiers already follow.
+_LANGUAGE_LINE = re.compile(r"Language:\s*(.+)|<DC\.Language>\s*([^<]+)")
 
 
 @dataclass(frozen=True)
@@ -184,6 +193,18 @@ def title_declared(header: str) -> str | None:
     return (m.group(1) or m.group(2)).strip()
 
 
+def language_declared(header: str) -> str:
+    """The file's own stated language, read fresh - same discipline as
+    rights/title. Undeclared means English: every file vendored before
+    2026-09-02 predates this field and is English by construction, so
+    absence is the documented default, not an UNVERIFIED state the way
+    a missing rights line is."""
+    m = _LANGUAGE_LINE.search(header)
+    if not m:
+        return "en"
+    return (m.group(1) or m.group(2)).strip()
+
+
 def discovered_files() -> list[str]:
     """What is ACTUALLY sitting in cic/texts/ right now, not what ENTRIES
     claims - the two are cross-checked in report(), not assumed to agree."""
@@ -223,6 +244,7 @@ class Row:
     exists: bool
     rights: str | None
     title: str | None
+    language: str = "en"
     citing: list[str] = field(default_factory=list)
 
 
@@ -301,6 +323,7 @@ def build_rows() -> list[Row]:
             exists=exists,
             rights=rights_declared(header) if exists else None,
             title=title_declared(header) if exists else None,
+            language=language_declared(header) if exists else "en",
             citing=citing_records(name) if exists else [],
         ))
     return rows
@@ -323,6 +346,13 @@ def report() -> int:
     print(f"\n{len(rows)} vendored file(s), {len(uncited)} with zero citing record(s):")
     for name in uncited:
         print(f"  - {name}")
+
+    non_english = [(r.filename, r.language) for r in rows if r.exists and r.language != "en"]
+    if non_english:
+        print(f"\n{len(non_english)} non-English source(s) - original-language witness, "
+              "not primary evidence (see cic/texts/INTAKE.md):")
+        for name, lang in non_english:
+            print(f"  - {name}  [{lang}]")
 
     total = total_bytes()
     mb = total / (1024 * 1024)
@@ -365,7 +395,8 @@ def write_readme() -> int:
         "**This file is GENERATED, not hand-edited** -- run",
         "`python cic/engine/texts_registry.py --write-readme` after vendoring a new",
         "file or adding an entry to cic/texts/REGISTRY.yaml. Editing this table directly",
-        "will be overwritten the next time it runs.",
+        "will be overwritten the next time it runs. See `cic/texts/INTAKE.md` for the",
+        "full procedure, from an attached file to a vendored, registered, findable text.",
         "",
         "PUBLIC DOMAIN ONLY. Every file here must be out of copyright, and its own",
         "provenance header must say so -- the `rights` column below is read fresh",
@@ -374,8 +405,12 @@ def write_readme() -> int:
         "Ward 1975) are referenced by `source` record and never vendored --",
         "committing them would be redistribution.",
         "",
-        "| file | title (from the file's own header) | rights | supplied | added | cited by |",
-        "|---|---|---|---|---|---|",
+        "`lang` is blank for English (the default when a file has no `Language:` line -",
+        "true for every file vendored before 2026-09-02) and an ISO 639-3 code otherwise",
+        "-- an original-language witness, not a translation; see `cic/texts/INTAKE.md`.",
+        "",
+        "| file | title (from the file's own header) | lang | rights | supplied | added | cited by |",
+        "|---|---|---|---|---|---|---|",
     ]
     for r in rows:
         if not r.exists:
@@ -384,7 +419,8 @@ def write_readme() -> int:
         cited = ", ".join(f"`{c}`" for c in r.citing) if r.citing else "-"
         supplied = e.supplied_by if e else "?"
         added = e.date_added if e else "?"
-        lines.append(f"| `{r.filename}` | {r.title or ''} | {r.rights or 'UNVERIFIED'} "
+        lang = "" if r.language == "en" else r.language
+        lines.append(f"| `{r.filename}` | {r.title or ''} | {lang} | {r.rights or 'UNVERIFIED'} "
                      f"| {supplied} | {added} | {cited} |")
 
     lines.append("")

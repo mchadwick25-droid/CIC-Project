@@ -174,11 +174,15 @@ order:
    this world's own Manifest — the same edition may close a gap for a
    later world too, and a source found once should never need finding
    twice.
-5. **After Mark vendors a file**, add its row to `cic/texts/REGISTRY.yaml`
-   (`cic/engine/texts_registry.py`'s own discipline) and assign the work
-   into this world's corpus-map bucket via a `cic/corpus-map/_staging/`
-   file + `corpus_map_merge.py` — this is what makes the NEXT world's
-   step 1 above find it.
+5. **After Mark vendors a file** (attached directly in a chat message, per
+   `cic/texts/INTAKE.md` — the full procedure from attachment to a
+   registered, findable text, including the rights-checklist and naming
+   convention for original-language witnesses, which Mark is now also
+   sourcing directly in Greek/Latin/Syriac as second witnesses, never as
+   primary evidence), add its row to `cic/texts/REGISTRY.yaml` and assign
+   the work into this world's corpus-map bucket via a
+   `cic/corpus-map/_staging/` file + `corpus_map_merge.py` — this is what
+   makes the NEXT world's step 1 above find it.
 6. **Cite with a canonical address where one exists** — a source row's
    `sources[].address` field (sibling to `locus`, added 2026-09-02)
    takes the exact string step 2 returns. Optional; `locus` alone still

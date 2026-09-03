@@ -98,6 +98,11 @@ finding about the corpus.
 | `AUTHOR-IDS.yaml` | Wikidata/VIAF identity keys per author slug — keyed to `cic/texts/AUTHORS.md`'s own slugs (a real, documented mismatch against `WORKS.yaml`'s longer author slugs — see the file's own header). Seeded, five of 77 authors as of 2026-09-02, each verified via WebSearch. Validated by `cic/engine/author_ids.py`. |
 | `_staging/` | the writers' files. This is where the work happens. |
 
+New source, not yet in `cic/texts/` at all? Start at
+`cic/texts/INTAKE.md` instead — the full procedure from an attached file
+to a vendored, registered, and assigned text, including the rights
+checklist and naming convention for original-language witnesses.
+
 ## Commands
 
 ```
