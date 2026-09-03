@@ -2052,3 +2052,45 @@ page; homepage's overflow re-checked after the five new links; all seven
 homepage record links confirmed present and pointed at the right files.
 Zero comments and zero `data-copy` attributes in any of the five new
 files, built clean from the start.
+
+---
+
+## 2026-09-03 (later still) — One entry pattern: picture → record → launch
+
+Mark clarified the system architecture after flagging it as feeling
+complicated: there is one pattern, reused everywhere a representative's
+picture appears — click it, land on that representative's own detail
+page, launch from there. Three surfaces carry this pattern: the
+homepage scroll, the Atlas (its own separate detail template, already
+correct, untouched), and the Table's own chooser (which launches "Join
+the table," not an interview, and stays inline rather than navigating
+away). My first read of this was backwards — I proposed cutting the
+tradition-page link and keeping the direct "Ask" shortcut. Mark
+corrected it: the shortcut is what goes, not the record page.
+
+**Changed, `index.html`:** removed "Ask {Name} →" from all seven chairs;
+each portrait is now a link to that tradition's page, alongside the
+existing "record →" text link — one destination, two ways to reach it.
+The held-question forwarding that used to target the "Ask" links now
+targets the record/portrait links instead, so a question held on the
+homepage still arrives on the tradition page via `#q=` and from there
+into its own "Begin a conversation" link, unchanged.
+
+**Changed, `table.html`:** the chooser no longer seats a representative
+on the first click. Clicking a name now shows an inline "more
+information" view in the same panel — portrait, tradition, one-line
+description, a "Back to the list" link, and "Join the table," which
+performs the actual seating. Each `WORLDS` entry gained a one-line
+`desc`. The list view, "Already seated" disabled state, and "Leave this
+seat open" removal all still route through the same seat data — no
+change to `seated[]` or the convene/URL logic.
+
+**Verified:** all seven homepage portrait links match their record
+links exactly; a held question forwards `#q=` into both; zero stray
+"Ask" links remain; zero overflow 320–1440px on both pages. Table:
+clicking a name shows info without seating; "Join the table" seats
+correctly and closes the panel; "Back" returns to the list; switching a
+filled seat, "Already seated," "Leave this seat open," and Escape all
+still work; zero overflow 320–1440px with the info view open at every
+width; zero console errors. Zero comments and zero `data-copy`
+attributes in both files, unchanged.

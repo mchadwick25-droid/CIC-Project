@@ -128,6 +128,16 @@ p{margin:0 0 1rem}
 .choices .name{font-family:var(--serif);font-weight:700;font-size:1rem;color:var(--text)}
 .choices .trad{font-family:var(--sans);font-size:.8125rem;color:var(--muted)}
 .choices .taken{font-family:var(--sans);font-size:.75rem;color:var(--muted);margin-left:auto}
+.info{display:flex;flex-direction:column}
+.info[hidden]{display:none}
+.info .back{display:flex;width:100%;align-items:center;gap:.3rem;font:inherit;font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--action);background:none;border:0;padding:.8rem .1rem;margin:0 0 1rem;cursor:pointer;min-height:44px;text-align:left}
+.info .back:hover,.info .back:focus-visible{color:var(--action-hover)}
+.info-portrait{width:96px;height:96px;border-radius:50%;overflow:hidden;border:2px solid var(--tint,var(--control));margin:0 0 .9rem}
+.info-portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.info-name{font-family:var(--serif);font-weight:700;font-size:1.3rem;color:var(--text);margin:0 0 .2rem}
+.info-trad{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0 0 .9rem}
+.info-desc{font-family:var(--sans);font-size:.9375rem;color:var(--text);line-height:1.5;margin:0 0 1.4rem}
+.info .btn{width:100%}
 
 .site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
 .site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
@@ -212,6 +222,14 @@ p{margin:0 0 1rem}
   <p class="kicker" id="choosePanelTitle">Choose who joins you</p>
   <button type="button" class="remove" id="removeSeat" hidden>← Leave this seat open</button>
   <ul class="choices" id="choicesList"></ul>
+  <div class="info" id="infoView" hidden>
+    <button type="button" class="back" id="infoBack">← Back to the list</button>
+    <div class="info-portrait" id="infoPortrait"></div>
+    <h3 class="info-name" id="infoName"></h3>
+    <p class="info-trad" id="infoTrad"></p>
+    <p class="info-desc" id="infoDesc"></p>
+    <button type="button" class="btn" id="infoJoin">Join the table</button>
+  </div>
 </aside>
 
 <footer class="site-footer">
@@ -233,13 +251,13 @@ var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1
 var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
 
 var WORLDS = [
-  { id:'post-apostolic-house-church', name:'Chloe', trad:'The House-Churches', img:'assets/portraits/house-churches.png', tint:'#7c3aed' },
-  { id:'alexandria-catechetical', name:'Theon', trad:'Alexandrian Christianity', img:'assets/portraits/alexandria.png', tint:'#2B5F8A' },
-  { id:'syriac-edessa-nisibis', name:'Mar Yausep', trad:'Syriac Christianity', img:'assets/portraits/syriac.png', tint:'#b45309' },
-  { id:'imperial-juridical-christianity', name:'Marius', trad:'Church and Empire', img:'assets/portraits/empire.png', tint:'#7A2E2E' },
-  { id:'desert-monasticism', name:'Papnoute', trad:'Desert Fathers and Mothers', img:'assets/portraits/desert.png', tint:'#0f766e' },
-  { id:'cappadocian-nicene-pastoral-monastic-tradition', name:'Chilo', trad:'The Cappadocian Churches', img:'assets/portraits/cappadocian.jpg', tint:'#A0522D' },
-  { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#9d174d' }
+  { id:'post-apostolic-house-church', name:'Chloe', trad:'The House-Churches', img:'assets/portraits/house-churches.png', tint:'#7c3aed', desc:'Antioch, Asia Minor, and Rome, 70–200 CE — scattered gatherings held together by letters and a shared table.' },
+  { id:'alexandria-catechetical', name:'Theon', trad:'Alexandrian Christianity', img:'assets/portraits/alexandria.png', tint:'#2B5F8A', desc:'Alexandria, c. 150–400 CE — a community of readers led through Scripture’s surface toward its depths.' },
+  { id:'syriac-edessa-nisibis', name:'Mar Yausep', trad:'Syriac Christianity', img:'assets/portraits/syriac.png', tint:'#b45309', desc:'Edessa and Nisibis, 200–410 CE — a covenant people who held together under Persian rule.' },
+  { id:'imperial-juridical-christianity', name:'Marius', trad:'Church and Empire', img:'assets/portraits/empire.png', tint:'#7A2E2E', desc:'Rome, Constantinople, and Milan, c. 312–451 CE — the church’s first century beside a throne.' },
+  { id:'desert-monasticism', name:'Papnoute', trad:'Desert Fathers and Mothers', img:'assets/portraits/desert.png', tint:'#0f766e', desc:'The Nile Valley and the desert of Egypt, c. 320–430 CE — a lifelong combat with the thoughts within.' },
+  { id:'cappadocian-nicene-pastoral-monastic-tradition', name:'Chilo', trad:'The Cappadocian Churches', img:'assets/portraits/cappadocian.jpg', tint:'#A0522D', desc:'Cappadocia and Pontus, c. 325–394 CE — brotherhoods who fed the hungry and fought for one word.' },
+  { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#9d174d', desc:'Rome and Bethlehem, c. 382–420 CE — scholars and ascetics testing Scripture against its own Hebrew.' }
 ];
 
 var seated = [null, null, null];
@@ -255,9 +273,17 @@ var panel = document.getElementById('choosePanel');
 var closeBtn = document.getElementById('choosePanelClose');
 var removeBtn = document.getElementById('removeSeat');
 var choicesList = document.getElementById('choicesList');
+var infoView = document.getElementById('infoView');
+var infoBack = document.getElementById('infoBack');
+var infoPortrait = document.getElementById('infoPortrait');
+var infoName = document.getElementById('infoName');
+var infoTrad = document.getElementById('infoTrad');
+var infoDesc = document.getElementById('infoDesc');
+var infoJoin = document.getElementById('infoJoin');
 var conveneLink = document.getElementById('convene-link');
 var conveneCount = document.getElementById('convene-count');
 var activeSeat = null;
+var viewedWorld = null;
 
 function worldById(id){ for (var i = 0; i < WORLDS.length; i++) if (WORLDS[i].id === id) return WORLDS[i]; return null; }
 
@@ -308,10 +334,31 @@ function renderAll(){
   }
 }
 
+function showList(){
+  viewedWorld = null;
+  infoView.hidden = true;
+  choicesList.hidden = false;
+  removeBtn.hidden = !seated[activeSeat];
+  closeBtn.focus();
+}
+function showInfo(w){
+  viewedWorld = w;
+  infoView.style.setProperty('--tint', w.tint);
+  infoPortrait.innerHTML = '<img src="' + w.img + '" alt="" loading="lazy" decoding="async">';
+  infoName.textContent = w.name;
+  infoTrad.textContent = w.trad;
+  infoDesc.textContent = w.desc;
+  choicesList.hidden = true;
+  removeBtn.hidden = true;
+  infoView.hidden = false;
+  infoBack.focus();
+}
 function openChooser(seatIndex){
   activeSeat = seatIndex;
   var currentId = seated[seatIndex];
   removeBtn.hidden = !currentId;
+  choicesList.hidden = false;
+  infoView.hidden = true;
   choicesList.innerHTML = '';
   WORLDS.forEach(function(w){
     var takenElsewhere = seated.indexOf(w.id) !== -1 && seated[seatIndex] !== w.id;
@@ -324,7 +371,7 @@ function openChooser(seatIndex){
       '<span><span class="name">' + w.name + '</span><br><span class="trad">' + w.trad + '</span></span>' +
       (takenElsewhere ? '<span class="taken">Already seated</span>' : '');
     if (!takenElsewhere) {
-      btn.addEventListener('click', function(id){ return function(){ seated[activeSeat] = id; closeChooser(); renderAll(); }; }(w.id));
+      btn.addEventListener('click', function(w){ return function(){ showInfo(w); }; }(w));
     }
     li.appendChild(btn);
     choicesList.appendChild(li);
@@ -338,10 +385,13 @@ function closeChooser(){
   document.removeEventListener('keydown', onPanelKey);
   if (activeSeat !== null) seatButtons[activeSeat].focus();
   activeSeat = null;
+  viewedWorld = null;
 }
 function onPanelKey(e){ if (e.key === 'Escape') closeChooser(); }
 closeBtn.addEventListener('click', closeChooser);
 removeBtn.addEventListener('click', function(){ seated[activeSeat] = null; closeChooser(); renderAll(); });
+infoBack.addEventListener('click', showList);
+infoJoin.addEventListener('click', function(){ seated[activeSeat] = viewedWorld.id; closeChooser(); renderAll(); });
 seatButtons.forEach(function(btn, i){ btn.addEventListener('click', function(){ openChooser(i); }); });
 
 Array.prototype.forEach.call(document.querySelectorAll('a[data-app]'), function(a){
