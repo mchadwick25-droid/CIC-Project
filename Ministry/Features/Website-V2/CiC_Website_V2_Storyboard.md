@@ -53,7 +53,7 @@ sandbox note stripped unless stated).
 
 ```
 Home (index.html)
-├── The door → the seven chairs → the app (interview)  ·  Set your own table → table.html (NEW, change order 2026-09-03)
+├── The chairs, by era → a tradition page → the app (interview)  ·  Set your own table → table.html (NEW, change order 2026-09-03)
 ├── traditions/<census-id>.html  ×7  (one template; Chloe's page is the reference)
 │     └── "Bring {Name} to the Table" → table.html?worlds=<census-id> (NEW, same change order)
 ├── table.html (NEW) → the app (Table field, ≥2 seated)
@@ -78,7 +78,8 @@ Footer (every page): About · Feedback · Privacy · Contact.
 First element in the DOM. `Skip to content` `[LIVE — carried unchanged]`.
 Off-screen until focused; focused, it sits fixed at the top left on ink with
 parchment text. Activating it moves focus into `<main>`; the next Tab lands on
-the page's first control (homepage: the question input — verified).
+the page's first control (homepage, as of the 2026-09-03 cut: the first
+era's toggle button).
 
 ### S.2 Header
 
@@ -175,48 +176,42 @@ site to inherit, so none is added.
 
 ## 1. Home — `index.html`
 
-**Purpose.** Take what the visitor brought. Open with the hook; then who can
-carry it, so a question can be asked with real context instead of into a
-void; then one real place to put that question down; then the map; then the
-ask.
+**Purpose.** Take what the visitor brought. Open with the hook; then who
+can carry it — the chairs, by era; then the map; then the ask.
 
-**Change order, 2026-09-03 (Decision-Log): the sample exchange and the
-disclosure grid are cut.** Mark: numbers describing the current state of
-the build (how many traditions, how many eras) will be constantly changing
-for weeks and need to be timeless; and most of what the old §1.4/§1.5 said
-is not part of the experience itself — it's explanation *about* the
-experience, which distracts rather than orients. The demonstration
-conversation (§1.4, "One exchange, as it happened") and the two-column
-disclosure block (§1.5, "Before you sit down") are both removed from the
-homepage entire. The one line that actually needs to be said before a
-visitor starts — that they're speaking with a representative voice, not a
-person who lived — already exists independently at §1.2g and stays. The
-distress-routing disclosure (§1.5m) and the account/privacy fact (§1.5k)
-already live on About's Safety & Disclosure section and the Privacy page
-respectively, so nothing safety-relevant is lost, only its repetition on
-the homepage. If people want the fuller detail these sections carried, a
-future FAQ page is the right place for it, not the front door.
+**History, most recent first (Decision-Log has the full reasoning for
+each):**
+- **2026-09-03, later.** §1.2 ("Start with your question" — the input
+  box and the six offered questions) is cut entire, not just trimmed.
+  It was a second way in alongside the chairs, and Mark's read going
+  through this freeze pass was that the chairs are the one path that
+  matters now; a typed-question door duplicated it. The one disclosure
+  line the door section carried (representative voice, not a person who
+  lived) moved into §1.3, right after the scope line, so it isn't lost.
+  The held-question mechanism (`#q=`, ruling 14) has no producer on the
+  homepage anymore; each tradition page's own `#q=` handling is
+  untouched and still works if a link ever arrives carrying one.
+- **2026-09-03, earlier the same day.** The sample exchange (old §1.4)
+  and the two-column disclosure grid (old §1.5) cut entire — explanation
+  about the experience, not the experience, and a distraction. Numbers
+  describing the current build state (how many traditions, how many
+  eras) also swept out of the homepage's copy — they'll be stale within
+  weeks. See the fuller note this replaced, preserved in the
+  Decision-Log rather than repeated here.
+- **2026-09-02.** §1.2 and §1.3 swapped order (before today's cut, §1.2
+  came first): a visitor should meet who's there before being handed a
+  bare question box. Moot now that §1.2 is gone, but recorded since it's
+  why §1.3 is a gallery grouped by era rather than a stacked list — that
+  part of the ruling still stands.
 
-**Change order, 2026-09-02 (Decision-Log): §1.2 and §1.3 swap order —
-Mark's ruling.** A visitor handed a bare "ask a question" box before seeing
-who is even there has no way to know what's askable or trustworthy; the
-seven need to be met first, so the question that follows is "I want to ask
-*her* something, because I trust she has the context to answer it," not a
-generic prompt into empty air. §1.3's own content, mechanism and register
-tags are unchanged by the swap — only its position, and the door's, move.
-§1.3's chairs are also regrouped as a gallery (rows = era, columns =
-chronological order within the era) rather than a single stacked list, so
-the section stays scannable as more traditions and eras are added — see the
-new §1.3 below. **§1.8's state table, §1.9's accessibility walk-through and
-keyboard-path counts, and §1.10 below are written to the *pre-swap* order
-and have not yet been re-verified against the new one** — re-verify before
-they're relied on for anything beyond the general shape of each state.
-
-**Order of the page (H-level outline), as of the 2026-09-03 cut above:** H1
-hook → §1.3 H2 *Who would you like to ask?* (H3 era ×2, H4 name ×7) → §1.2
-H2 *Start with your question* → §1.6 H2 *Church in History* → §1.7 H2
-*Support* (visually hidden). No skipped levels (verified against the
-build).
+**Order of the page (H-level outline), current:** H1 hook → §1.3 H2 *Who
+would you like to have a conversation with?* (H3 era, one per era, each a
+toggle; H4 name × however many are built) → §1.4 H2 *Church in History* →
+§1.5 H2 *Support* (visually hidden). No skipped levels (verified against
+the build). Section numbers below haven't been renumbered to match —
+they still read §1.3 / §1.6 / §1.7 for the sections that survive, since
+renumbering a frozen document's own cross-references for their own sake
+isn't worth doing until the next real content change touches them.
 
 **Data.** The seven chairs are the census's own fields. RECOMMENDED: generate
 the seven rows into the static HTML from `world-census.json` by a small
@@ -244,37 +239,18 @@ caption rule discharged, an explicit choice (ruling 8). Centred; the H1 at
 The page's first surface and its only filled control. A vellum box with a
 hairline border; inside it, top to bottom:
 
-| # | Element | Copy | Register |
-|---|---|---|---|
-| 1.2a | H2 (also the input's accessible name) | Start with your question | `[VERBATIM — constitution]` |
-| 1.2b | Visually hidden `<label for="q">` | Your question | `[DRAFT COPY — pending Mark's approval]` |
-| 1.2c | Text input, `maxlength` 280, 44px tall, 1.5px graphite border, ground-coloured | — | — |
-| 1.2d | The control — an in-page link styled as the one filled button (madder fill, vellum text; in dark the 1.5px `#E08C74` edge carries the boundary) | Choose who to ask → | `[DRAFT COPY — pending Mark's approval]` |
-| 1.2e | The lede (names the person Mark named, in the first screen) | Whether you come curious, with a sermon to write, or with a question about faith you've carried for years — there is a chair. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.2f | The "how" line — **interim wording, until `#q=` lands in the app** | Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.2f′ | The "how" line — **the day `#q=` lands** (replaces 1.2f) | Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — where it will be waiting for you. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.2g | The AI line — before any conversation link; graphite left rule, ink text | You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out. | `[DRAFT COPY — pending Mark's approval]` — 2026-09-03 change order (Mark): drop the "AI system" / program-explanation framing everywhere it leads a page; lead with the world and the tradition, not the mechanism. A brief "representative voice" statement carries the substance of item 8's disclosure without the system-explanation register |
-| 1.2h | Offered-questions heading (uppercase, letterspaced sans label, muted — never small caps, ruling 19) | Or begin with one of these — questions people bring | `[DRAFT COPY — pending Mark's approval]` |
-| 1.2i | Six offered questions, each a 44px link, italic, a madder dash before and arrow after | 1 · I grew up being told doubt was sin. Was there room among your people for doubt? · 2 · Did any of you ever want to leave? · 3 · I pray and nothing happens. Did your people know that silence? · 4 · The people who taught me the faith turned out to be hypocrites. Did that happen among you? · 5 · Why does God allow suffering like this? Where was he when it happened to your people — and to mine? · 6 · I want to believe in Jesus, but I can't. What would you say to me? | `[CANON — verbatim, canon_status: seed]` (rulings 2, 10, 13) |
-| 1.2j | Note under the list | These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room. | `[DRAFT COPY — pending Mark's approval]` — the hybrid's visible "seed-status" tag does not ship |
-
-**Behaviour** (design record §5.1): with JavaScript, the control and Enter
-hold the question; each offered question holds its text; the URL's fragment
-becomes `#q=…`; the page scrolls to §1.3 and focus moves to the held block.
-Without JavaScript, the control is a plain jump to `#who`; the input keeps
-its text; nothing is held or written to the URL. There is no `<form>` and no
-query string anywhere (ruling 30).
-
-**Measured:** input at 456–504px on 390×844/740/660, 537–585 at 320×844,
-455–503 at 1280 and 1440×790 — in the first screen everywhere; the lede fully
-in screen one from 740, its first line visible at 660; the AI line at 807
-(390), before the first offered question at 1,005; zero app links precede
-the AI line for a first-time visitor (verified).
+**Removed, 2026-09-03.** Every element that lived here (the input, the
+"Choose who to ask" control, the lede, the "how" line, the six offered
+questions and their note) is cut along with the section. The one line
+that has to survive — the representative-voice disclosure — moved to
+§1.3, right after the scope line. The held-question mechanism (`#q=`,
+ruling 14, ruling 30's no-query-string rule) no longer has anything on
+the homepage that produces one; a tradition page reached by a link that
+already carries `#q=` still reads and forwards it correctly, unchanged.
 
 ### 1.3 Who would you like to have a conversation with — `#who`
 
-**Now the first screen after the hero (2026-09-02 change order above), not
-the door's landing zone — context before the ask.** Top to bottom:
+**Now the first screen after the hero.** Top to bottom:
 
 **The chairs are a gallery, not a stacked list (2026-09-02 change order):**
 each era heading is followed by a grid, `repeat(auto-fill, minmax(150px,1fr))`,
@@ -284,56 +260,43 @@ position within a row reads as chronology within that era. This is the
 scale answer for "more than ten": a new tradition joins its era's row
 (wrapping to a second row under the same era heading if the row is full)
 rather than lengthening a single column everyone has to scroll past.
-Portrait, name, role, tradition, dates, and both chair actions (§1.3g/h)
+Portrait, name, role, tradition, dates, and the chair action (§1.3h)
 are unchanged; the descriptive tile sentence (§1.3f's `entry.tile`) is
 still full census-verbatim text in the DOM, `-webkit-line-clamp: 2` for
 sighted layout only — a screen reader still hears the whole sentence.
 
-**The gallery shows every era that fits, in full — never a partial one
-(2026-09-02/03, three change orders the same conversation: cap both
-eras together, narrow to one row, then back to "as many whole eras as
-fit," which is where it settled):** each era (heading + chairs) is its
-own `.era-group`, `scroll-snap-align: start`. A `sizeGallery()` pass
-sums each group's real rendered height against a per-tier target
-(800px ≥700px, 1380px 481–699px, 1560px ≤480px — the same numbers as
-the first, both-eras change order, since that's still what today's
-content needs) and sets the container's `max-height` to the exact sum
-of whichever whole eras fit — never mid-era, recomputed from live
-content rather than hand-measured, so it stays correct as content
-changes. Those per-tier numbers are also the CSS fallback for no-JS,
-and happen to already show both of today's eras with no scrollbar on
-their own. A `← Previous era / {Era} · N–M of T / Next era →` control
-appears **only when content actually overflows**
-(`scrollHeight > clientHeight` — with today's two eras, never); Next
-and Previous each compute the best-fitting page in their direction
-(not just ±1 era), and focus follows so the move is announced. Without
-JavaScript the gallery is a plain scrollable region (`tabindex=0`),
-every era and name in static markup, reachable by wheel, touch, or
-keyboard — the nav control simply never appears. **The last-visible
-era needs dynamically-computed trailing padding to reach the
-container's top when scrolled to** (nothing follows it otherwise, so
-the browser clamps the scroll short — confirmed directly, twice, in two
-different shapes of this feature); that padding is computed fresh each
-time against whichever era is currently last, not hand-measured, so it
-stays correct regardless of how many eras exist. `[hidden]` on
-`.era-nav` needed its own `{display:none}` rule to actually take effect
-— the same specificity bug the design record's §11.6 already named for
-`.site-nav a[hidden]`, worth checking for on any future element that is
-both given a `hidden` attribute and its own `display` in CSS.
+**Each era opens and closes independently (2026-09-03 change order,
+replacing an earlier scroll-and-paginate design that never actually
+triggered):** the era heading is a toggle button (`aria-expanded`,
+`aria-controls`); opening one closes whichever other era was open, so
+at most one era's chairs are ever on screen regardless of how many
+eras exist later. The first era is open by default. This is the scale
+answer for "more than ten": no scroll cap or pagination math to
+maintain, no numbers to keep in sync with content — a new era just
+joins the list, collapsed, until someone opens it. No-JS: every era's
+chairs sit unhidden in the static markup (no `hidden` attribute baked
+in), so a visitor without JavaScript still sees everything; the JS
+applies the collapsed state on load. `.chairs[hidden]{display:none}`
+needed its own rule to actually take effect — the same
+`[hidden]`-vs-`display` specificity bug the design record's §11.6
+already named for `.site-nav a[hidden]`, worth checking for on any
+future element that is both given a `hidden` attribute and its own
+`display` in CSS.
 
 | # | Element | Copy | Register |
 |---|---|---|---|
-| 1.3a | The held block (hidden until a question is held): a vellum block with a 3px lapis left rule; `tabindex="-1"`, `aria-labelledby` the label and the question | Your question, held: · *the visitor's own words, italic* · Edit it | `[VERBATIM — constitution]` for the label; "Edit it" `[DRAFT COPY — pending Mark's approval]` |
+| 1.3a | *Removed 2026-09-03* — the held block had no producer once §1.2 was cut; see §1.2's own removal note | — | — |
 | 1.3b | Eyebrow | Who's at the table | `[LIVE — carried unchanged]` |
 | 1.3c | H2 | Who would you like to have a conversation with? | `[DRAFT COPY — pending Mark's approval]` — 2026-09-03 change order (Mark): the project's name is *Church in Conversation*; a question is how one starts, but the conversation is the point, and the heading should say so |
-| 1.3d | Scope line (carries the sentence the hero gave up) | Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one. | `[LIVE]` — 2026-09-03 change order: dropped "Seven," a count that changes as more traditions are built |
+| 1.3d | Scope line (carries the sentence the hero gave up) | Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. | `[LIVE]` — 2026-09-03 change orders: dropped "Seven" (a count that changes as more traditions are built) and "You can bring the same question to more than one" (the held-question feature it referred to no longer exists on this page) |
+| 1.3d′ | The representative-voice line, relocated here from the removed §1.2g when that section was cut | You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out. | `[DRAFT COPY — pending Mark's approval]` |
 | 1.3e | Era heading, H3, one per era, now a toggle button (2026-09-03 change order: eras open and close, one at a time, so the list stays short as more eras are added — see below) | The Early Church Era · 70–312 CE / The Imperial Church Era · 312–451 CE | `[CENSUS — verbatim]` (the census's era heads carry hyphens; the dash seam is a data fix — design record §11.3) |
 | 1.3f | The chairs (see the table below), grouped under their era's toggle — each an `<li>`: 72px portrait in a 2px tint ring (56px ≤480, portrait itself a link), H4 name with the role beside it in muted sans · tradition name in italic · dates · region in sans · the tile · one text action | — | `[CENSUS — verbatim]` |
 | 1.3h | Chair action (muted text link; the portrait links to the same place, so this isn't a second path in) | Her/His record → *(visually hidden: " — {Tradition}")* | `[DRAFT COPY — pending Mark's approval]` (pattern) — present on all seven as of 2026-09-03. The direct "Ask {Name} →" shortcut that used to sit beside it was removed the same day: one path into each tradition (portrait or record link → the tradition page → the actual interview/table launch), not two |
 | 1.3i | Pilot note — **below the seven**, the live site's own order | This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3j | Cost caveat — below the seven | Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3i′/j′ | **Offered re-draft for ruling 20** (replaces 1.3i–j if Mark takes it) | This is a pilot. We're listening for what people coming from four directions find here — the curious, pastors and teachers, scholars, and anyone re-examining their faith. Every conversation costs real money to run, so for now we ask each person to keep to about five. We can't enforce that; we can only ask. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.3k | The second door — the link now carries a small copy of the Arriving mark (§1.2's own SVG, `id="table-cue"`), playing its draw-and-settle motion once, the first time the line scrolls into view (`IntersectionObserver`, disconnects after firing) | Or bring two or three of them to one table. Set your own table → | `[DRAFT COPY — pending Mark's approval]` — the link is `table.html` (2026-09-03 change order: the Table became its own page, §2a), not the app directly (ruling 11's original "empty Table field" premise no longer holds — `table.html` itself hands the app that link once ≥2 seats are filled). **Ruling 35 (2026-09-03): no gate.** This line stands unconditionally |
+| 1.3k | The second door — the link now carries a small copy of the Arriving mark (the same SVG as §1.1's hero mark, `id="table-cue"`), playing its draw-and-settle motion once, the first time the line scrolls into view (`IntersectionObserver`, disconnects after firing) | Or bring two or three of them to one table. Set your own table → | `[DRAFT COPY — pending Mark's approval]` — the link is `table.html` (2026-09-03 change order: the Table became its own page, §2a), not the app directly (ruling 11's original "empty Table field" premise no longer holds — `table.html` itself hands the app that link once ≥2 seats are filled). **Ruling 35 (2026-09-03): no gate.** This line stands unconditionally |
 
 **The seven chairs — every field from `world-census.json` (2026-09-02), rendered verbatim:**
 
@@ -352,10 +315,12 @@ era heads. The tile under each chair is the census `entry.tile`, verbatim.
 "Mar Yausep" is never split (the honorific is part of the name — Mark's
 2026-08-28 identity ruling, carried from the live site's own code comment).
 
-**After a hold, on phone:** the landing screen reads — held question ·
-Edit it · Who's at the table · Who would you like to have a conversation
-with? · scope · The Early Church Era, open, with Chloe's chair inside it.
-No pilot paragraph, no cost paragraph in the landing zone.
+**On phone, first load:** the landing screen reads — Who's at the table ·
+Who would you like to have a conversation with? · scope · the
+representative-voice line · The Early Church Era, open, with Chloe's
+chair inside it. No pilot paragraph, no cost paragraph in the landing
+zone; no held-question state exists on this page anymore (§1.2 removal,
+above).
 
 ### 1.4 / 1.5 — removed, 2026-09-03
 
@@ -396,65 +361,56 @@ week; nothing in the layout depends on its wording).
 
 | State | What the visitor sees |
 |---|---|
-| **First visit** | No side door, no welcome-back line. Hook, door, six questions; the AI line before any conversation link. |
-| **Returning** (flag set) | The side door in the header; *Welcome back. Go straight to a conversation →* under the hook. Everything else identical — the seven never move, never in a carousel. |
+| **First visit** | No side door, no welcome-back line. Hook, chairs (first era open), the representative-voice line above them. |
+| **Returning** (flag set) | The side door in the header; *Welcome back. Go straight to a conversation →* under the hook. Everything else identical — chairs don't move, never in a carousel. |
 | **Launch state** (ruling 4) | All built tradition pages exist and every chair carries the same single record link into its page — one path in, not the "Ask" shortcut plus record link this table originally planned for. This is the shipped shape §1.9 describes now, not an interim one. |
-| **Question held — typed** | Submit (control or Enter): the held block renders at the top of §1.3 with the question; URL `#q=…`; scroll to §1.3; focus on the held block; next Tab → *Edit it*. |
-| **Question held — offered** | Tapping an offered question: the same, with that text; the input is filled with it too. |
-| **Question held — restored** | Arriving at a URL carrying `#q=…` (shared, bookmarked, Back from the app): the held block is shown without scrolling; the input carries the text. |
-| **Edit it** | Focus returns to the input, scrolled to centre; re-submitting replaces the held text. |
-| **Empty submit** | Scroll to §1.3, nothing held, focus on the section. |
-| **No JavaScript** | Control and offered questions jump to `#who`; the input keeps its text; no hold, no URL. Every name and app link present (7 names, 10 app links). |
-| **Dark** | §6.2 dark table; the button's boundary is its `#E08C74` edge; the tints are the `colorDark` values (rings only). |
+| **A tradition page reached via a `#q=` link** (shared, bookmarked, or from some future source — nothing on the homepage produces one anymore since §1.2 was cut) | That page's own held block shows the question without scrolling; it forwards into that page's own "Begin a conversation" link. Unaffected by anything on this page. |
+| **No JavaScript** | Era toggles have no click handler, so every era's chairs are visible, unhidden, all the time — strictly more content shown, never less. Every name and record link present. |
+| **Dark** | §6.2 dark table; the tints are the `colorDark` values (rings only). |
 | **Reduced motion** | The mark still, seated; nothing else moves in any state. |
 | **Print** | Header, support slot, skip link hidden; every section present. |
-| **After `#q=` lands in the app** | Each chair's record/portrait link carries `#q=<the held question>` onto the tradition page, which forwards it into its own "Begin a conversation" link; 1.2f′ replaces 1.2f. Same-tab hand-off (ruling 15): Back returns to this page with the question restored. |
 
 ### 1.9 Accessibility behaviour
 
 **What a screen reader encounters, top to bottom, as of the 2026-09-03
-cut:** skip link → banner: "Church in Conversation" link, navigation
+cuts:** skip link → banner: "Church in Conversation" link, navigation
 "Site" (5 links) → main → H1 (the hook) — the mark is decorative and
 silent; its sentence is read as a paragraph before the H1 → H2 "Who would
-you like to have a conversation with?" → scope → per era: a toggle
-heading, then (when open) a list of chairs, each H4 "{Name} {Role}",
-tradition, dates and region, the tile, link "{Her/His} record" (the
-portrait is the same link, so it isn't a second stop) → the pilot note,
-the cost caveat → "Or bring two or three of them to one table." link "Set
-your own table" → H2 "Start with your question" → the lede → the "how"
-line → the representative-voice line → the list heading → list of 6
-links (each the full question) → the note → [after a hold: the held
-block, focused, announced as "Your question, held: {question}", then link
-"Edit it"] → H2 "Church in History" → paragraph → two links → H2
-"Support" (visually hidden) → three lines with three links → contentinfo:
-the entity line, four links.
+you like to have a conversation with?" → scope → the representative-voice
+line → per era: a toggle heading, then (when open) a list of chairs, each
+H4 "{Name} {Role}", tradition, dates and region, the tile, link "{Her/His}
+record" (the portrait is the same link, so it isn't a second stop) → the
+pilot note, the cost caveat → "Or bring two or three of them to one
+table." link "Set your own table" → H2 "Church in History" → paragraph →
+two links → H2 "Support" (visually hidden) → three lines with three links
+→ contentinfo: the entity line, four links.
 
 **Keyboard path.** skip link → wordmark → 5 nav links (→ side door) →
 [welcome-back link] → per era: a toggle button, then (when open) each
-chair's portrait/record link → question input → Choose who to ask → 6
-offered questions → [after a hold: Edit it] → Set your own table → Open
-Church in History → What's next → give once → give monthly → Get
-Involved → 4 footer links. Focus ring 2px madder, 3px offset. No positive
-`tabindex`; nothing hidden is a stop; nothing is sticky, so the focused
-element is never obscured. Exact stop counts aren't tracked here anymore
-— they'd go stale with every tradition added, exactly the kind of number
-the 2026-09-03 ruling says to stop carrying in this document.
+chair's portrait/record link → Set your own table → Open Church in
+History → What's next → give once → give monthly → Get Involved → 4
+footer links. Focus ring 2px madder, 3px offset. No positive `tabindex`;
+nothing hidden is a stop; nothing is sticky, so the focused element is
+never obscured. Exact stop counts aren't tracked here anymore — they'd go
+stale with every tradition added, exactly the kind of number the
+2026-09-03 ruling says to stop carrying in this document.
 
-**Touch.** Every control ≥44px tall: the input, the button, the offered
-questions, the era toggles, the chair links, the Table link, the map
-links, the support links, the footer links, the nav.
+**Touch.** Every control ≥44px tall: the era toggles, the chair links,
+the Table link, the map links, the support links, the footer links, the
+nav.
 
 ### 1.10 Responsive behaviour
 
 | Width | Behaviour |
 |---|---|
-| ≥900 (desktop) | Chrome at 64rem; sections at 44rem; reading at 38rem. Input and button on one row. Header one row (73px). |
-| 640–899 | Single column narrows. Input and button on one row from 768. Header one row (65px at 640, 73 from 700). |
-| <640 (phone) | Header wraps — the wordmark on its own row above two nav rows at ≤390 (163px), above one at 414–480 (114px); the nav at .9rem; door box padding 1rem; button wraps under the input (input basis 11rem); portrait 72px (56px ≤480); everything single column; no horizontal scroll at 320 (verified). |
-| 320 | Input 537–585; first offered question 1,201; overflow 0. |
+| ≥900 (desktop) | Chrome at 64rem; sections at 44rem; reading at 38rem. Header one row (73px). |
+| 640–899 | Single column narrows. Header one row (65px at 640, 73 from 700). |
+| <640 (phone) | Header wraps — the wordmark on its own row above two nav rows at ≤390 (163px), above one at 414–480 (114px); the nav at .9rem; portrait 72px (56px ≤480); everything single column; no horizontal scroll at 320 (verified). |
 
-Page height, after the 2026-09-03 cut: 3,856px at 390×844, 2,873 at 1280
-— roughly 60% shorter than the pre-cut measurement.
+Page height, after both 2026-09-03 cuts (the disclosure/exchange
+sections, then §1.2): 2,755px at 390×844, 2,041 at 1280 — a bit over a
+fifth of the original 9,441px/6,786px measurement this page started
+the day at.
 
 ---
 
@@ -537,7 +493,7 @@ just the resting values.
 **Order of the page:** eyebrow "The Table" → H1 "Set your own table" → one
 line stating no seat is host → the graphic (aria-hidden; each open seat is
 a real button with a visually-hidden status span) → the AI-disclosure line
-(same register as the homepage's 1.2g and each tradition page's own AI line) →
+(same register as the homepage's 1.3d′ and each tradition page's own AI line) →
 the convene control, disabled and reading "Choose at least two…" until two
 seats are filled, then "Open the conversation" with the built `?worlds=`
 link → a live seat count (`aria-live="polite"`) → the cost caveat carried
@@ -796,15 +752,10 @@ pass through that ruling, tradition by tradition, not through this list.
 
 **Home**
 - 1.1d Welcome back. Go straight to a conversation →
-- 1.2b Your question (hidden label) · 1.2d Choose who to ask →
-- 1.2e Whether you come curious, with a sermon to write, or with a question about faith you've carried for years — there is a chair.
-- 1.2f Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there.
-- 1.2f′ Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — where it will be waiting for you.
-- 1.2g You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out.
-- 1.2h Or begin with one of these — questions people bring
-- 1.2j These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room.
-- 1.3a Edit it · 1.3c Who would you like to have a conversation with?
-- 1.3d Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.
+- 1.2 Removed 2026-09-03 — see §1.2 above.
+- 1.3c Who would you like to have a conversation with?
+- 1.3d Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them.
+- 1.3d′ You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out.
 - 1.3h Her/His record → (— {Tradition})
 - 1.3i′/j′ This is a pilot. We're listening for what people coming from four directions find here — the curious, pastors and teachers, scholars, and anyone re-examining their faith. Every conversation costs real money to run, so for now we ask each person to keep to about five. We can't enforce that; we can only ask.
 - 1.3k Or bring two or three of them to one table. Set your own table →
@@ -842,6 +793,14 @@ pass through that ruling, tradition by tradition, not through this list.
 ---
 
 ## Appendix B — Measurements referenced in this storyboard
+
+**Historical snapshot — predates the tradition-page short-template
+rebuild and both of the 2026-09-03 homepage cuts.** The "Tradition"
+column below describes the old long-form template (16,683px tall);
+today's seven built tradition pages run about 270 lines and nowhere
+near that height. Kept for what it documents about the measurement
+method, not as a current reference — see the Decision-Log for
+current, verified figures on what's actually shipped.
 
 From the design record's §12 (converged scratch copies, Chromium
 `chromium-1194`, fallback faces, the sandbox note stripped):

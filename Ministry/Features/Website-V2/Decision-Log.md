@@ -2210,3 +2210,82 @@ heading outline (H1 → H2 "Who would you like..." → H3 era × 2 → H4 × 7
 "Support"); page height dropped from roughly 6,786px to 2,873px at
 1280 wide (390×844: 3,856px, down from 9,441). Zero comments, zero
 `data-copy` attributes — unchanged.
+
+---
+
+## 2026-09-03 (later still) — Homepage cut, part two: the question door itself
+
+Mark, mid-turn on the previous cut: drop "Start with your question"
+entire — it isn't needed. The chairs are the one path into a
+conversation now (this session's earlier architecture ruling); a
+typed-question door was a second, parallel way in, and duplicated it.
+
+**Cut entirely, `index.html`:** §1.2 — the text input, "Choose who to
+ask" control, the lede, the "how" line, the six offered questions, and
+their note. Also cut: the `#held` block in `#who` (it had no producer
+left once the input was gone) and the whole held-question mechanism's
+JS — `readHash`, `setHeld`, `hold`, the input/offered-question
+listeners, and the code that appended `#q=` onto chair links. About 60
+lines of markup, roughly 40 of JS, and the CSS unique to the door
+(`.door`, `.qform`, `.fieldrow`, `.btn`, `.lede`, `.how`, `.offered*`,
+`.held*`) plus the `--lapis`, `--lapis-text`, `--btn-fill`, `--btn-text`,
+`--btn-edge`, `--gold-leaf`, `--gold-text` custom properties that had no
+other use left.
+
+**Kept, relocated:** the one disclosure line the door section carried
+(representative voice, not a person who lived) moved to `#who`, right
+after the scope line — it's the one thing from that section that had to
+survive somewhere. The scope line itself dropped "You can bring the same
+question to more than one," since that promise specifically described
+the now-gone held-question feature.
+
+**Left alone on purpose:** each tradition page's own `#q=`-reading and
+forwarding (ruling 14) is untouched — it still works correctly if a link
+ever arrives carrying a question (a share, a bookmark, some future
+mechanism), independent of anything on the homepage. Nothing on the
+homepage will ever populate one anymore, but there was no reason to also
+rip out a working, independently-useful mechanism on seven other pages
+just because its one producer went away.
+
+**Storyboard:** §1.2 replaced with a short removal note; §1.3's own
+description of the era gallery was still describing the scroll-and-
+paginate mechanism from *before* this session's earlier accordion
+change (never reconciled until now) — rewritten to match what's
+actually built. Accessibility walk-through, keyboard path, responsive
+table, and Appendix A's draft-copy list all updated to drop the removed
+elements. Appendix B (measurements) marked as a historical snapshot
+predating both the tradition-page rebuild and today's cuts, rather than
+silently updated line-by-line — most of what it measured no longer
+exists in that shape.
+
+**Verified:** zero remaining door/held/input elements; the relocated
+disclosure line renders once, correctly, in `#who`; zero overflow
+320–1440px; zero console errors; clean heading outline (H1 → H2 "Who
+would you like..." → H3 era × 2 → H4 × 7 → H2 "Church in History" → H2
+"Support"). Page height now 2,041px at 1280 (was 6,786 at the start of
+today, 2,873 after the first cut), 2,755px at 390×844 (was 9,441).
+The homepage's own Table-cue mark (Arriving mark on "Set your own
+table →") and table.html itself unaffected — checked directly, since
+they share no markup with what was removed. Zero
+comments, zero `data-copy` attributes — unchanged.
+
+---
+
+## 2026-09-03 (later still) — The two orphaned brand lines land on About
+
+Closing the loop from the disclosure-grid cut earlier today: the two
+`[VERBATIM — locked, Brand Guidelines]` lines ("We are committed to
+representing each Christian movement in full…" / "We measure whether
+each Christian movement is represented…") had no home once that section
+was removed. Mark: add them to About. Placed in the mission section,
+right after its own closing paragraph — the natural continuation of
+"Together, Christ's many movements across history form one vast
+testimony…" Noticed in the same paragraph and fixed while there: the
+"Where we are today" callout still said "six traditions," pre-dating
+Cappadocian's launch as the seventh — the same stale-count problem
+today's ruling is about, on a page this session hadn't touched yet.
+Dropped the number rather than correcting it to seven, consistent with
+that ruling.
+
+**Verified:** zero overflow 320–1440px; zero console errors; zero
+comments, zero `data-copy` attributes.

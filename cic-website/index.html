@@ -16,16 +16,12 @@
   --ink-faded:#6C6257;
   --madder:#A13E2B;
   --madder-deep:#7E2F20;
-  --gold-leaf:#B45309;
-  --lapis:#1E40AF;
   --graphite:#8A837C;
   --rule:#E6DFD3;
   --ground:var(--parchment); --surface:var(--vellum);
   --text:var(--ink); --muted:var(--ink-faded);
   --action:var(--madder); --action-hover:var(--madder-deep);
-  --gold-text:var(--gold-leaf); --lapis-text:var(--lapis);
   --control:var(--graphite);
-  --btn-fill:var(--madder); --btn-text:var(--vellum); --btn-edge:var(--madder);
   --mark-ink:#2A2521; --mark-dot:#A13E2B;
   --serif:'Alegreya','Iowan Old Style',Georgia,serif;
   --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
@@ -38,11 +34,8 @@
     --muted:#B8AEA1;
     --action:#E08C74;
     --action-hover:#F0A98F;
-    --gold-text:#E0A458;
-    --lapis-text:#9DB4F0;
     --control:#A39B92;
     --rule:rgba(241,233,221,.16);
-    --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
     --mark-ink:#EDE5D6; --mark-dot:#CB6E52;
   }
 }
@@ -108,38 +101,9 @@ p{margin:0 0 1rem}
   .mark-line .arriving{width:44px;flex-basis:44px}
 }
 
-.door{max-width:var(--col);margin:0 auto;padding:1.5rem 1.25rem 2.5rem;border-top:1px solid var(--rule)}
-.door .inner{max-width:var(--measure);margin:0 auto;background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:1.6rem 1.5rem 1.5rem}
-.door h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .9rem}
-.qform{margin:0 0 1.1rem}
-.qform label{display:block;font-family:var(--sans);font-size:.875rem;font-weight:600;letter-spacing:.04em;color:var(--text);margin:0 0 .4rem}
-.qform .fieldrow{display:flex;flex-wrap:wrap;gap:.6rem}
-.qform input{flex:1 1 16rem;min-width:0;font:inherit;font-size:1.125rem;line-height:1.4;color:var(--text);background:var(--ground);border:1.5px solid var(--control);border-radius:3px;padding:.65rem .8rem;min-height:44px}
-.qform input:focus-visible{outline:2px solid var(--action);outline-offset:2px;border-color:var(--action)}
-.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:1rem;line-height:1.2;padding:.7rem 1.3rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
-.btn:hover,.btn:focus-visible{background:var(--madder-deep);border-color:var(--btn-edge);color:var(--btn-text)}
-.door .lede{color:var(--text);margin:0 0 1.1rem;font-size:1.05rem;line-height:1.55;max-width:var(--measure)}
-.how{color:var(--muted);margin:0 0 1.1rem;font-size:1rem;line-height:1.5}
 .ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.4rem}
-.offered-head{font-family:var(--sans);font-size:.875rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--muted);margin:0 0 .2rem}
-.offered{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
-.offered li{border-bottom:1px solid var(--rule)}
-.offered a{display:flex;align-items:center;gap:.6rem;padding:.6rem .1rem;min-height:44px;color:var(--text);text-decoration:none;font-style:italic;font-size:1.05rem;line-height:1.4}
-.offered a::before{content:"—";color:var(--action);font-style:normal;flex:0 0 auto}
-.offered a::after{content:"→";color:var(--action);font-style:normal;margin-left:auto;flex:0 0 auto;padding-left:.5rem}
-.offered a:hover,.offered a:focus-visible{color:var(--action-hover);text-decoration:underline;text-decoration-color:var(--action)}
-.offered-note{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:.8rem 0 0;line-height:1.45}
-@media (max-width:640px){
-  .door{padding-top:.75rem}
-  .door .inner{padding:1rem}
-  .qform input{flex-basis:11rem}
-}
 
 .who{max-width:var(--wide);margin:0 auto;padding:1.5rem 1.25rem 2rem}
-.held{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--lapis-text);border-radius:0 3px 3px 0;padding:.9rem 1.1rem;margin:0 0 1.6rem;max-width:var(--measure)}
-.held .k{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--lapis-text);margin:0 0 .25rem}
-.held .q{font-style:italic;font-size:1.15rem;margin:0 0 .35rem}
-.held .edit{font-family:var(--sans);font-size:.9rem}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .6rem;max-width:var(--measure)}
 .who .scope{color:var(--muted);max-width:var(--measure);margin:0 0 .6rem}
 .who-gallery{padding-right:.5rem;margin:0 -.5rem 0 0}
@@ -221,14 +185,10 @@ p{margin:0 0 1rem}
   </section>
 
   <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
-    <div class="held" id="held" hidden tabindex="-1">
-      <p class="k">Your question, held:</p>
-      <p class="q" id="held-q"></p>
-      <a class="edit" href="#q" id="held-edit">Edit it</a>
-    </div>
     <p class="eyebrow">Who's at the table</p>
     <h2 id="who-title">Who would you like to have a conversation with?</h2>
-    <p class="scope">Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.</p>
+    <p class="scope">Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them.</p>
+    <p class="ai-line">You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out.</p>
 
     <div class="who-gallery" id="who-gallery">
     <div class="era-group" id="era-1">
@@ -319,32 +279,6 @@ p{margin:0 0 1rem}
     <p class="second-door">Or bring two or three of them to one table. <a href="table.html"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Set your own table →</a></p>
   </section>
 
-  <section class="door" aria-labelledby="door-title">
-    <div class="inner">
-      <h2 id="door-title">Start with your question</h2>
-      <div class="qform">
-        <label class="vh" for="q">Your question</label>
-        <div class="fieldrow">
-          <input type="text" id="q" name="q" maxlength="280" autocomplete="off" spellcheck="true" aria-labelledby="door-title">
-          <a class="btn" id="ask-control" href="#who">Choose who to ask →</a>
-        </div>
-      </div>
-      <p class="lede">Whether you come curious, with a sermon to write, or with a question about faith you've carried for years — there is a chair.</p>
-            <p class="how">Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there.</p>
-      <p class="ai-line">You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out.</p>
-      <p class="offered-head">Or begin with one of these — questions people bring</p>
-      <ul class="offered">
-        <li><a href="#who" data-q>I grew up being told doubt was sin. Was there room among your people for doubt?</a></li>
-        <li><a href="#who" data-q>Did any of you ever want to leave?</a></li>
-        <li><a href="#who" data-q>I pray and nothing happens. Did your people know that silence?</a></li>
-        <li><a href="#who" data-q>The people who taught me the faith turned out to be hypocrites. Did that happen among you?</a></li>
-        <li><a href="#who" data-q>Why does God allow suffering like this? Where was he when it happened to your people — and to mine?</a></li>
-        <li><a href="#who" data-q>I want to believe in Jesus, but I can't. What would you say to me?</a></li>
-      </ul>
-      <p class="offered-note">These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room.</p>
-    </div>
-  </section>
-
   <section class="map" aria-labelledby="map-title">
     <p class="eyebrow">Twenty centuries on one map</p>
     <h2 id="map-title">Church in History</h2>
@@ -381,52 +315,12 @@ Array.prototype.forEach.call(document.querySelectorAll('a[data-app]'), function(
   a.href = a.href.replace('https://cic-engine.onrender.com', APP);
   a.addEventListener('click', function(){ try { localStorage.setItem('cic-returning','1'); } catch(e){} });
 });
-Array.prototype.forEach.call(document.querySelectorAll('#who-gallery a[href^="traditions/"]'), function(a){ a.dataset.hrefBase = a.href; });
 try {
   if (localStorage.getItem('cic-returning') === '1') {
     document.getElementById('welcome-back').hidden = false;
     document.getElementById('side-door').hidden = false;
   }
 } catch(e){}
-
-var input = document.getElementById('q');
-var held = document.getElementById('held');
-var heldQ = document.getElementById('held-q');
-var who = document.getElementById('who');
-var askLinks = document.querySelectorAll('#who-gallery a[href^="traditions/"]');
-
-function readHash(){
-  var h = window.location.hash;
-  if (h.indexOf('#q=') !== 0) return '';
-  var text;
-  try { text = decodeURIComponent(h.slice(3)); } catch(e){ return ''; }
-  return text.trim().slice(0, 280);
-}
-function setHeld(text, scroll){
-  heldQ.textContent = text;
-  held.hidden = false;
-  input.value = text;
-  try { history.replaceState(null, '', '#q=' + encodeURIComponent(text)); } catch(e){}
-  Array.prototype.forEach.call(askLinks, function(a){
-    a.href = a.dataset.hrefBase + '#q=' + encodeURIComponent(text);
-  });
-  if (scroll) { who.scrollIntoView({block:'start'}); held.focus({preventScroll:true}); }
-}
-function hold(raw, scroll){
-  var text = (raw || '').trim().slice(0, 280);
-  if (!text) { if (scroll) { who.scrollIntoView({block:'start'}); who.focus({preventScroll:true}); } return; }
-  setHeld(text, scroll);
-}
-
-var restored = readHash();
-if (restored) setHeld(restored, false);
-
-document.getElementById('ask-control').addEventListener('click', function(e){ e.preventDefault(); hold(input.value, true); });
-input.addEventListener('keydown', function(e){ if (e.key === 'Enter') { e.preventDefault(); hold(input.value, true); } });
-Array.prototype.forEach.call(document.querySelectorAll('a[data-q]'), function(a){
-  a.addEventListener('click', function(e){ e.preventDefault(); hold(a.textContent, true); });
-});
-document.getElementById('held-edit').addEventListener('click', function(e){ e.preventDefault(); input.focus(); input.scrollIntoView({block:'center'}); });
 
 var eraToggles = Array.prototype.slice.call(document.querySelectorAll('.era-toggle'));
 function setEraOpen(toggle, open){
