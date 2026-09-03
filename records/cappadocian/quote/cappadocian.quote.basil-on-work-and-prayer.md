@@ -57,17 +57,20 @@ relations:
 - type: associated-with
   target: cappadocian.dw.ordinary-day
 modern_rendering: >-
-  Some of you try to get out of work by claiming prayer or psalm-singing
-  needs the time instead - but understand that every task has its own
-  proper hour, just as Ecclesiastes says: "There is a time for
-  everything." Prayer and psalm-singing are different: any hour at all
-  will do for those. So we can praise God with psalms, hymns, and
-  spiritual songs while our hands stay busy at work - aloud, if the task
-  allows it and it won't pull anyone else's mind off the faith, and
-  silently in the heart if it won't - giving thanks to the God who gave
-  us both the strength to work with our hands and the sense to know how,
-  and who supplied the tools we use and the trade we practice, whatever
-  that work may be. And we pray, too, that what our hands make will be
+  Some of you try to get out of work by claiming prayer or
+  psalm-singing needs the time instead. But understand: every task has
+  its own proper hour, just as Ecclesiastes says, "There is a time for
+  everything." Prayer and psalm-singing are different. Any hour at all
+  will do for those.
+
+
+  So we can praise God with psalms, hymns, and spiritual songs while
+  our hands stay busy at work. Aloud, if the task allows it, and it
+  won't pull anyone else's mind off the faith. Silently in the heart,
+  if it won't. Either way, we give thanks to the God who gave us the
+  strength to work with our hands, and the sense to know how. He also
+  supplied the tools we use and the trade we practice, whatever that
+  work may be. And we pray, too, that what our hands make will be
   aimed at pleasing him.
 ---
 Verified verbatim 2026-09-02 directly against the vendored

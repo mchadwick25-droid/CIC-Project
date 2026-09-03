@@ -47,11 +47,11 @@ relations:
   target: cappadocian.dw.marriage-ending
 modern_rendering: >-
   For a third marriage or beyond, they set the same kind of rule as for
-  a second marriage, just scaled up: a second marriage carries a year
-  of penance (some say two), while a third means separation from
-  communion for three or often four years - and at that point, it
-  isn't really called marriage anymore. It's polygamy, or really just
-  a limited, tolerated form of fornication.
+  a second marriage - just scaled up. A second marriage carries a year
+  of penance (some say two). A third means separation from communion
+  for three years, often four. And at that point, it isn't really
+  called marriage anymore. It's polygamy - or really, just a limited,
+  tolerated form of fornication.
 ---
 Verified verbatim 2026-09-02 directly against the vendored
 npnf208_basil-letters-select-works.xml (the div's own XML id is

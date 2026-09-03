@@ -52,18 +52,23 @@ relations:
 - type: associated-with
   target: cappadocian.dw.psalms-teach-the-singer
 modern_rendering: >-
-  Here is what actually happens among us: people come to the house of
-  prayer at night, and in the middle of real distress and tears they
-  make their confession to God. Then they get up from praying and start
+  Here is what actually happens among us. People come to the house of
+  prayer at night. In the middle of real distress and tears, they make
+  their confession to God. Then they get up from praying and start
   singing psalms - split into two groups, singing back and forth to
-  each other. That alone does two things at once: it reinforces
-  everything they have absorbed from the Gospels, and it settles them
-  into a steady, undistracted frame of mind. After that, one voice
-  starts a psalm and the rest pick it up, and this continues all night
-  through different psalms, with prayers worked in between, until, as
-  day is breaking, everyone together - as if with one voice and one
-  heart - raises the psalm of confession to the Lord, each person
-  putting his own repentance into it.
+  each other.
+
+
+  That alone does two things at once. It reinforces everything they
+  have absorbed from the Gospels. And it settles them into a steady,
+  undistracted frame of mind.
+
+
+  After that, one voice starts a psalm and the rest pick it up. This
+  continues all night, through different psalms, with prayers worked
+  in between. Then, as day is breaking, everyone comes together - as
+  if with one voice and one heart - to raise the psalm of confession
+  to the Lord. Each person puts his own repentance into it.
 ---
 Verified verbatim 2026-09-02 directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n "antiphonal"

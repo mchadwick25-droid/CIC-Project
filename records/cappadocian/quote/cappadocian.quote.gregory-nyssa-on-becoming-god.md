@@ -64,17 +64,19 @@ relations:
   target: cappadocian.dw.who-was-jesus
 modern_rendering: >-
   It shouldn't strike anyone as strange that God was born into our
-  nature - not if you actually look at the universe and see God present
-  in everything, holding it all together, filling it. Everything that
-  exists depends on him; nothing exists apart from him. So why call it
+  nature. Not if you actually look at the universe and see God present
+  in everything - holding it all together, filling it. Everything that
+  exists depends on him. Nothing exists apart from him. So why call it
   scandalous that God was born among us - the same God who was never
-  really absent from us to begin with? Here is the difference: before,
-  he sustained our nature invisibly, from within it; now, at the
-  incarnation, he was poured directly into our nature - so that our
-  nature itself, through that union, might become divine. Rescued from
-  death, and placed beyond the reach of our enemy's schemes. His own
-  rising from death becomes, for the rest of us mortals, the beginning of
-  our own rising into unending life.
+  really absent from us to begin with?
+
+
+  Here is the difference. Before, he sustained our nature invisibly,
+  from within it. Now, at the incarnation, he was poured directly into
+  our nature - so that our nature itself, through that union, might
+  become divine. Rescued from death, and placed beyond the reach of
+  our enemy's schemes. His own rising from death becomes, for the rest
+  of us mortals, the beginning of our own rising into unending life.
 ---
 Verified verbatim 2026-09-02 directly against the vendored
 npnf205_gregory-nyssa-dogmatic-treatises.txt. Located via `grep -n -i

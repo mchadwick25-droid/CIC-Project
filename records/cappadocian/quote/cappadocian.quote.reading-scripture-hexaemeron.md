@@ -51,11 +51,11 @@ relations:
 modern_rendering: >-
   If we just read the words of Scripture, we find only a few short
   syllables: "Let the waters bring forth flying creatures above the
-  earth, across the dome of the sky." But if we ask what those words
-  actually mean, the sheer wonder of the Creator's wisdom comes into
-  view. Think of the differences he foresaw among all the flying
-  creatures - how he sorted them into kinds, how he gave each one its
-  own distinguishing features!
+  earth, across the dome of the sky." But ask what those words
+  actually mean, and the sheer wonder of the Creator's wisdom comes
+  into view. Think of the differences he foresaw among all the flying
+  creatures. Think how he sorted them into kinds, and gave each one
+  its own distinguishing features!
 ---
 Verified verbatim 2026-09-02 directly against the vendored
 npnf208_basil-letters-select-works.xml. Located with `grep -n -i "if we

@@ -52,15 +52,17 @@ relations:
   target: cappadocian.dw.confession-not-a-vote
 modern_rendering: >-
   Not long ago, praying with the congregation, I used the full
-  doxology to God the Father in both of its forms - at one point
-  "with the Son, together with the Holy Spirit," and at another
-  "through the Son, in the Holy Spirit." Some of those present
-  attacked me for it, on the grounds that I was introducing new and
-  self-contradictory language. You, though - mainly to help them, or,
+  doxology to God the Father in both of its forms. At one point, "with
+  the Son, together with the Holy Spirit." At another, "through the
+  Son, in the Holy Spirit." Some of those present attacked me for it.
+  They said I was introducing new and self-contradictory language.
+
+
+  You, though, suggested something better - mainly to help them, or,
   if they can't be helped, to protect anyone who might be taken in by
-  them - suggested that some clear teaching ought to be put out
+  them. You suggested that some clear teaching ought to be put out,
   explaining what these words actually mean. So I will write as
-  briefly as I can, trying to lay down some starting points we can
+  briefly as I can. I will try to lay down some starting points we can
   agree on for the discussion.
 ---
 Verified verbatim 2026-09-02 directly against the vendored

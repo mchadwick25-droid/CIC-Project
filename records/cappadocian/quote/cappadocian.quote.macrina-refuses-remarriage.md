@@ -64,19 +64,25 @@ relations:
 - type: associated-with
   target: cappadocian.dw.macrina-and-its-cost
 modern_rendering: >-
-  When the marriage her father had arranged was undone by the young man's
-  death, she said the arrangement counted as good as an actual marriage,
-  and she resolved to stay single from then on, as if it had really taken
-  place. Her resolve held firmer than anyone would have expected from
-  someone her age. Whenever her parents brought her fresh proposals - and
-  they kept coming, given how many suitors her beauty attracted - she
-  would say it made no sense, and wasn't right, to break faith with the
-  marriage her father had already arranged for her by considering someone
-  else, since by nature a person has only one marriage, just as they have
-  one birth and one death. She insisted that the man bound to her by her
-  parents' arrangement was not dead: she believed that, through the hope
-  of the resurrection, he was alive with God and only away, and that it
-  would be wrong not to stay faithful to a husband who was merely absent.
+  When the young man died, the marriage her father had arranged for her
+  was undone. But she said the arrangement itself counted as good as an
+  actual marriage. So she resolved to stay single from then on, as if the
+  marriage had really taken place. Her resolve held firmer than anyone
+  would have expected from someone her age.
+
+
+  Her parents kept bringing her fresh proposals - her beauty attracted
+  many suitors. Each time, she said the same thing. It made no sense, she
+  said, and it wasn't right, to break faith with the marriage her father
+  had already arranged, just to consider someone else. By nature, she
+  said, a person has only one marriage. Just as they have one birth and
+  one death.
+
+
+  She insisted that the man bound to her by her parents' arrangement was
+  not dead. Because of the hope of the resurrection, she believed he was
+  alive with God - only away, not gone. So it would be wrong, she said,
+  not to stay faithful to a husband who was merely absent.
 ---
 Verified verbatim 2026-09-02 directly against the vendored
 gregory-nyssa_life-of-macrina_clarke1916.txt, under its own section header
