@@ -2119,3 +2119,57 @@ waitlist." Day-one audience shape is a semi-public waitlist, not fully
 public and not staying invite-only; sessions stay stateless for this
 launch, no accounts. Both now buildable immediately - see next entry
 for scoping the two build items these decisions unblock.
+
+---
+
+## 2026-09-03 (later still) — Disclosure copy shipped; waitlist form
+spec'd, account creation is Mark's own action
+
+**Consent disclosure, shipped.** `about.html`'s existing Safety &
+Disclosure section is the right home - already the fuller, plainly-
+worded surface (it's the one place on the site that still says "This
+is an AI system," deliberately kept there per the 2026-09-03 (earlier)
+change-order entry: "a different surface doing a different job").
+Added one paragraph after the existing two: "Every conversation is
+recorded. We review conversations — in real time, to catch and correct
+the kind of problem named above, and afterward, to see how well each
+voice is representing its tradition and to make it better.
+Conversations are not sold or shared outside this work." States only
+what's actually true and already practiced (the M7 audit reads the
+same recorded conversations this paragraph discloses) - no invented
+opt-out, no retention/deletion promise not backed by real practice.
+Verified: zero comments/data-copy on the file, same standing rule as
+every other page this session.
+
+**What this doesn't cover, flagged not solved:** this is the About
+page's fuller disclosure. The 2026-09-03 (earlier) log entry's
+original ask was really about the point right before a conversation
+starts - which lives inside the engine app (`cic-engine.onrender.com`),
+a different codebase than `cic-website`. That in-flow placement is
+still a follow-up for whichever thread owns that app; this ships the
+honest interim version reachable from every page's footer/nav today.
+
+**Waitlist: spec'd, not yet live - creating the actual form is Mark's
+own account action**, same precedent as the Stripe Payment Links (his
+dashboard, not this thread's). Ready to paste into a new Google Form:
+- **Title:** Join the Waitlist — Church in Conversation
+- **Description:** "We're inviting a small, growing circle of people
+  into real conversations with Representatives from the Church's first
+  centuries. Leave your email and we'll reach out as we're able to
+  open the doors wider."
+- **Fields:** Email (short answer, required); Name (short answer,
+  optional); How did you hear about this? (short answer, optional).
+  Deliberately no tradition checklist - the roster changes, and a
+  waitlist form is exactly the kind of surface that goes stale fastest
+  if it names specifics (same timeless-copy principle as the homepage
+  cuts earlier this session).
+- **Confirmation message:** "Thank you — you're on the list. We'll be
+  in touch as we're able to open the doors wider."
+
+**Next action:** Mark creates the form and sends back the real URL;
+this thread wires a "Join the waitlist" entry point into the site the
+same day. Separate, not yet decided: today's site lets anyone who
+finds a launch link through to a live conversation with no real gate -
+the waitlist doesn't have teeth as an access control until that's
+addressed, which is a bigger call than adding the form itself and
+deliberately not assumed here.
