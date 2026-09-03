@@ -2,11 +2,19 @@ EVAGRIUS PONTICUS (EVAGRIOS PONTIKOS), THE PRAKTIKOS
 English translation by Luke Dysinger, O.S.B.
 From the Guide to Evagrius Ponticus, edited by Joel Kalvesmaki, 2026 edition
 https://evagriusponticus.net
-Rights: CC BY 4.0 (Creative Commons Attribution 4.0 International -- NOT
-public domain; attribution to Luke Dysinger and the Guide to Evagrius
-Ponticus must travel with any quotation. See the LICENCE paragraph below
-for the full terms this line restates in the Rights: format
-cic/engine/texts_registry.py scans for.)
+Rights: CC BY 4.0 (Creative Commons Attribution 4.0 International) -- NOT public domain; attribution to Luke Dysinger and the Guide to Evagrius Ponticus must travel with any quotation.
+See the LICENCE paragraph below for the full terms this line restates in
+the Rights: format cic/engine/texts_registry.py scans for. (Fixed
+2026-09-03: the original header wrapped the Rights: statement itself
+across five physical lines, so the single-line Rights: regex only ever
+read "CC BY 4.0 (Creative Commons Attribution 4.0 International -- NOT" --
+correct enough to pass the rights gate, since "cc by" still matched, but
+truncated exactly at the crucial "NOT public domain" qualifier everywhere
+this string got displayed, caught when it surfaced verbatim on the Atlas
+website's new per-world sources panel. The fix keeps the Rights: line
+itself on one physical line so the regex captures the complete statement;
+this explanatory note deliberately starts on the next line so it stays
+out of the captured value.)
 
 LICENCE - AND THIS FILE IS THE FIRST IN THIS CORPUS THAT IS NOT PUBLIC
 DOMAIN. Every other file under cic/texts/ is out of copyright by age. This
