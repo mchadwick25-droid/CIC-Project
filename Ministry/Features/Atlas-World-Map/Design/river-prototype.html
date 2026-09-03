@@ -19787,13 +19787,14 @@ const EDGE_CALM_OP=0.4, EDGE_ORGANIC_OP=0.05, EDGE_ACTIVE_OP=0.85;
    Light-mode grounds carried the same old-manuscript/institutional feel
    as the parchment token they were designed alongside (tan, vellum-
    green, pale slate -- the era's own "ground" per the census, not
-   arbitrary) -- re-picked 2026-09 to the app-chrome ground (#F6F6F2)
-   for the same reason. Dark mode already tested fine as-is and is
-   untouched. All three light steps now match, so the per-era rects sit
-   flush against the page instead of banding it -- era boundaries still
-   read from the header banner and the divider rule, not from a ground
-   shift. */
-const eraLight=['#F6F6F2','#F6F6F2','#F6F6F2'], eraDark=['#241A0C','#1E1C16','#151A1E'];
+   arbitrary). First re-picked to the flat app-chrome ground (#F6F6F2),
+   which then read as no contrast at all between the canvas and its own
+   chrome -- settled on #F3EFFA instead, the same --tyrian-wash the
+   scopeNote introduction banner already uses, so the canvas reads as
+   its own layer against the chrome without reintroducing the old tan/
+   green/slate cycle. Dark mode already tested fine as-is and is
+   untouched. */
+const eraLight=['#F3EFFA','#F3EFFA','#F3EFFA'], eraDark=['#241A0C','#1E1C16','#151A1E'];
 function eraGround(i){return isDark()?eraDark[i%3]:eraLight[i%3];}
 
 const byId={}; DATA.movements.forEach(m=>byId[m.id]=m);
@@ -20230,7 +20231,13 @@ function render(){
     // regardless of this value) -- what this actually tunes is only the
     // tone of the empty paper between them, richer/warmer as it climbs
     // toward solid.
-    gBands.appendChild(el('rect',{x:0,y:eraY0[i],width:CANVAS_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
+    // Bleeds far past the canvas's own left/right edges (rather than just
+    // x:0, width:CANVAS_W) so the band reads as the WHOLE page at any
+    // horizontal pan/zoom, not a block that stops where the rivers do --
+    // this rect still lives inside the pan/zoom group, so only a very wide
+    // fixed span (not the viewport's own width, which this SVG has no
+    // access to on every frame) keeps its edge from ever coming into view.
+    gBands.appendChild(el('rect',{x:-CANVAS_W*4,y:eraY0[i],width:CANVAS_W*9,height:eraH[i],fill:eraGround(i),opacity:0.75}));
     // The band wash above is deliberately thin now, so whatever stream is
     // passing through the header gutter (held at flat width right here, see
     // the yearToY/density-sampling notes above) shows through at real
