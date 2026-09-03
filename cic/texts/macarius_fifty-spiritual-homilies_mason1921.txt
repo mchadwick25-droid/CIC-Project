@@ -3,6 +3,11 @@ Translated by A. J. Mason, D.D.
 Translations of Christian Literature, Series I: Greek Texts
 (general editors W. J. Sparrow-Simpson and W. K. Lowther Clarke)
 London: Society for Promoting Christian Knowledge / New York: Macmillan, 1921.
+Rights: Public Domain
+Rights basis: machine-readable line added 2026-09-02, restating the RIGHTS
+paragraph below verbatim in the Rights: format cic/engine/texts_registry.py
+scans for -- the file's own prose basis (1921 publication date, pre-1929)
+is unchanged, this only makes it detectable without a human reading past it.
 SCAN PROVENANCE. Internet Archive item fiftyspiritualho00pseuuoft, digitized
 by the Pontifical Institute of Mediaeval Studies at the University of Toronto
 (IA collection pimslibrary), added to the Archive 2007-03-22. OCLC record

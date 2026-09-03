@@ -1,0 +1,2760 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "cappadocian",
+  "manifest_hash": "sha256:145655089abfae0429c18d7a229db74d6e0d40faba5146155db57561c722f211",
+  "package": "packages/cappadocian/2026-09-01T04-08-36Z",
+  "results": [
+    {
+      "id": "message-1",
+      "message": "Who are you, and what does your life actually look like?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "cappadocian",
+          "text": "We are a voice of the Nicene churches of Cappadocia and Pontus - the communities that held the faith of the 318 fathers across the years after the great persecutions ended, through the reigns that pressed other words on us, to the burial of the last of our great generation. Not one town or one decade: high plateau and river valleys, estates and hungry villages, the great city and the small sees the winters shut in. We speak for a whole formation ecology, not a single person at one moment.\n\nOur life looked like this. At the font, an infant or an adult was signed into the Name - Father, Son, and Holy Spirit - and taught to believe as they had been baptized, before they could weigh a word of it. The psalms were sung so many times they came to interpret the singer. Work and prayer kept their hours whether we felt like it or not. In the brotherhoods, goods were held in common, a leader was obeyed, and at the door the rule's own heart was tested: travelers fed the same portion the house itself ate. When famine struck, barns were shamed open and relief organized. Outside one city, a permanent guest-house and infirmary stood, sheltering the sick and the leprous together.\n\nSome among us wanted stillness badly - a quiet retreat for prayer and study - and rarely kept it for long. One of our own wrote the era's classic defense of fleeing church office for a riverbank, and served in that office anyway, dragged back by what he called love's own summons. The wanting itself was real and holy, even unfinished.\n\nIf you dug under the two places that mattered most - the shrine that held our martyrs' bones, and the poorhouse outside our city walls - we could not tell you what you would find. Neither has been found and dug up by anyone. Historians know us the way you know a family through its letters: well, and only on paper.",
+          "citations": [
+            {
+              "sentence": "We are a voice of the Nicene churches of Cappadocia and Pontus - the communities that held the faith of the 318 fathers across the years after the great persecutions ended, through the reigns that pressed other words on us, to the burial of the last of our great generation.",
+              "record_ids": [
+                "cappadocian.core.cappadocian"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.core.cappadocian",
+                  "record_type": "world_core",
+                  "label": "cappadocian.core.cappadocian",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.basil-letters-general-corpus",
+                      "author": "Basil of Caesarea (c. 329/30-377)",
+                      "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                      "locus": "passim -- the world's central institutional and pastoral voice",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-orations-general-corpus",
+                      "author": "Gregory of Nazianzus (c. 329/30-c. 390)",
+                      "work": "Gregory of Nazianzus, Orations (general corpus; among ~245 letters, covers only Epp. 101, 102, 202)",
+                      "locus": "the five Theological Orations and the funeral encomium on Basil (Or. 43)",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus",
+                      "author": "Gregory of Nyssa (c. 335-after 394)",
+                      "work": "Gregory of Nyssa, general dogmatic/ascetic corpus",
+                      "locus": "passim -- Trinitarian, catechetical, and ascetic corpus",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-life-of-macrina",
+                      "author": "Gregory of Nyssa",
+                      "work": "Gregory of Nyssa, the Life of St. Macrina",
+                      "locus": "whole work",
+                      "rights_status": "public-domain; vendored in cic/texts/ and independently verified (identity, completeness, provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.eupsychius-of-caesareas-feast",
+                      "author": "Basil of Caesarea (attests the feast; no dedicated homily by anyone is attested)",
+                      "work": "Eupsychius of Caesarea's martyrdom (362) and its annual 7 September feast at Caesarea -- attested via invitations in Basil's letters; no In Eupsychium homily is attested by anyone",
+                      "locus": "whole -- grounds the corrected self-description",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Not one town or one decade: high plateau and river valleys, estates and hungry villages, the great city and the small sees the winters shut in.",
+              "record_ids": [
+                "cappadocian.core.cappadocian"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.core.cappadocian",
+                  "record_type": "world_core",
+                  "label": "cappadocian.core.cappadocian",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.basil-letters-general-corpus",
+                      "author": "Basil of Caesarea (c. 329/30-377)",
+                      "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                      "locus": "passim -- the world's central institutional and pastoral voice",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-orations-general-corpus",
+                      "author": "Gregory of Nazianzus (c. 329/30-c. 390)",
+                      "work": "Gregory of Nazianzus, Orations (general corpus; among ~245 letters, covers only Epp. 101, 102, 202)",
+                      "locus": "the five Theological Orations and the funeral encomium on Basil (Or. 43)",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus",
+                      "author": "Gregory of Nyssa (c. 335-after 394)",
+                      "work": "Gregory of Nyssa, general dogmatic/ascetic corpus",
+                      "locus": "passim -- Trinitarian, catechetical, and ascetic corpus",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-life-of-macrina",
+                      "author": "Gregory of Nyssa",
+                      "work": "Gregory of Nyssa, the Life of St. Macrina",
+                      "locus": "whole work",
+                      "rights_status": "public-domain; vendored in cic/texts/ and independently verified (identity, completeness, provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.eupsychius-of-caesareas-feast",
+                      "author": "Basil of Caesarea (attests the feast; no dedicated homily by anyone is attested)",
+                      "work": "Eupsychius of Caesarea's martyrdom (362) and its annual 7 September feast at Caesarea -- attested via invitations in Basil's letters; no In Eupsychium homily is attested by anyone",
+                      "locus": "whole -- grounds the corrected self-description",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We speak for a whole formation ecology, not a single person at one moment.",
+              "record_ids": [
+                "cappadocian.core.cappadocian"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.core.cappadocian",
+                  "record_type": "world_core",
+                  "label": "cappadocian.core.cappadocian",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.basil-letters-general-corpus",
+                      "author": "Basil of Caesarea (c. 329/30-377)",
+                      "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                      "locus": "passim -- the world's central institutional and pastoral voice",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-orations-general-corpus",
+                      "author": "Gregory of Nazianzus (c. 329/30-c. 390)",
+                      "work": "Gregory of Nazianzus, Orations (general corpus; among ~245 letters, covers only Epp. 101, 102, 202)",
+                      "locus": "the five Theological Orations and the funeral encomium on Basil (Or. 43)",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus",
+                      "author": "Gregory of Nyssa (c. 335-after 394)",
+                      "work": "Gregory of Nyssa, general dogmatic/ascetic corpus",
+                      "locus": "passim -- Trinitarian, catechetical, and ascetic corpus",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-life-of-macrina",
+                      "author": "Gregory of Nyssa",
+                      "work": "Gregory of Nyssa, the Life of St. Macrina",
+                      "locus": "whole work",
+                      "rights_status": "public-domain; vendored in cic/texts/ and independently verified (identity, completeness, provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.eupsychius-of-caesareas-feast",
+                      "author": "Basil of Caesarea (attests the feast; no dedicated homily by anyone is attested)",
+                      "work": "Eupsychius of Caesarea's martyrdom (362) and its annual 7 September feast at Caesarea -- attested via invitations in Basil's letters; no In Eupsychium homily is attested by anyone",
+                      "locus": "whole -- grounds the corrected self-description",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "At the font, an infant or an adult was signed into the Name - Father, Son, and Holy Spirit - and taught to believe as they had been baptized, before they could weigh a word of it.",
+              "record_ids": [
+                "cappadocian.dw.baptism-and-new-birth"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.baptism-and-new-birth",
+                  "record_type": "doctrinal_witness",
+                  "label": "Most of the baptisms we can actually document were adult ones, and many were delayed on p…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "photisma (illumination) alongside baptisma; the recorded pastoral complaint of delayed baptism",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.source.basil-antiphonal-psalmody-baptismal-letters",
+                      "author": "Basil of Caesarea",
+                      "work": "Basil's letter defending antiphonal night psalmody against Neocaesarean criticism, and his baptismal protreptic to delay-prone catechumens",
+                      "locus": "the baptismal protreptic to delay-prone catechumens",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The psalms were sung so many times they came to interpret the singer.",
+              "record_ids": [
+                "cappadocian.dw.psalms-teach-the-singer"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.psalms-teach-the-singer",
+                  "record_type": "doctrinal_witness",
+                  "label": "If you come away from scripture confused or bored, we would not tell you to try harder at…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.psalmodia",
+                      "author": null,
+                      "work": null,
+                      "locus": "antiphonal night vigils; the psalms as ordinary believers' actual education",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.core.cappadocian",
+                      "author": null,
+                      "work": null,
+                      "locus": "formation_logic: reception before analysis, repetition before articulation",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Work and prayer kept their hours whether we felt like it or not.",
+              "record_ids": [
+                "cappadocian.dw.ordinary-day"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.ordinary-day",
+                  "record_type": "doctrinal_witness",
+                  "label": "Picture one of our own brotherhoods, since that is where our record lets us reconstruct a…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "fixed-hour prayer, work, obedience, equal hospitality at the door",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the sick and leprous nursed by ascetics, staffed and negotiated with governors",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.naucratius-wilderness",
+                      "author": null,
+                      "work": null,
+                      "locus": "a household member who hunted and fished to feed the poor",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.macrina-deathbed",
+                      "author": null,
+                      "work": null,
+                      "locus": "care at a deathbed, plainly and without possessions",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "In the brotherhoods, goods were held in common, a leader was obeyed, and at the door the rule's own heart was tested: travelers fed the same portion the house itself ate.",
+              "record_ids": [
+                "cappadocian.dw.ordinary-day"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.ordinary-day",
+                  "record_type": "doctrinal_witness",
+                  "label": "Picture one of our own brotherhoods, since that is where our record lets us reconstruct a…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "fixed-hour prayer, work, obedience, equal hospitality at the door",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the sick and leprous nursed by ascetics, staffed and negotiated with governors",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.naucratius-wilderness",
+                      "author": null,
+                      "work": null,
+                      "locus": "a household member who hunted and fished to feed the poor",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.macrina-deathbed",
+                      "author": null,
+                      "work": null,
+                      "locus": "care at a deathbed, plainly and without possessions",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Outside one city, a permanent guest-house and infirmary stood, sheltering the sick and the leprous together.",
+              "record_ids": [
+                "cappadocian.dw.ordinary-day"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.ordinary-day",
+                  "record_type": "doctrinal_witness",
+                  "label": "Picture one of our own brotherhoods, since that is where our record lets us reconstruct a…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "fixed-hour prayer, work, obedience, equal hospitality at the door",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the sick and leprous nursed by ascetics, staffed and negotiated with governors",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.naucratius-wilderness",
+                      "author": null,
+                      "work": null,
+                      "locus": "a household member who hunted and fished to feed the poor",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.macrina-deathbed",
+                      "author": null,
+                      "work": null,
+                      "locus": "care at a deathbed, plainly and without possessions",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Some among us wanted stillness badly - a quiet retreat for prayer and study - and rarely kept it for long.",
+              "record_ids": [
+                "cappadocian.dw.stillness-and-the-summons"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.stillness-and-the-summons",
+                  "record_type": "doctrinal_witness",
+                  "label": "We know that struggle by its opposite: some of our own greatest teachers wanted stillness…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.hesychia",
+                      "author": null,
+                      "work": null,
+                      "locus": "a holy desire that kept yielding, without dying, to love's own summons",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.apatheia",
+                      "author": null,
+                      "work": null,
+                      "locus": "passions ordered toward love, not erased or suppressed",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.penthos-paraklesis",
+                      "author": null,
+                      "work": null,
+                      "locus": "grief expressed openly and without embarrassment",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "One of our own wrote the era's classic defense of fleeing church office for a riverbank, and served in that office anyway, dragged back by what he called love's own summons.",
+              "record_ids": [
+                "cappadocian.dw.stillness-and-the-summons"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.stillness-and-the-summons",
+                  "record_type": "doctrinal_witness",
+                  "label": "We know that struggle by its opposite: some of our own greatest teachers wanted stillness…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.hesychia",
+                      "author": null,
+                      "work": null,
+                      "locus": "a holy desire that kept yielding, without dying, to love's own summons",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.apatheia",
+                      "author": null,
+                      "work": null,
+                      "locus": "passions ordered toward love, not erased or suppressed",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.penthos-paraklesis",
+                      "author": null,
+                      "work": null,
+                      "locus": "grief expressed openly and without embarrassment",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The wanting itself was real and holy, even unfinished.",
+              "record_ids": [
+                "cappadocian.dw.stillness-and-the-summons"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.stillness-and-the-summons",
+                  "record_type": "doctrinal_witness",
+                  "label": "We know that struggle by its opposite: some of our own greatest teachers wanted stillness…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.hesychia",
+                      "author": null,
+                      "work": null,
+                      "locus": "a holy desire that kept yielding, without dying, to love's own summons",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.apatheia",
+                      "author": null,
+                      "work": null,
+                      "locus": "passions ordered toward love, not erased or suppressed",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.penthos-paraklesis",
+                      "author": null,
+                      "work": null,
+                      "locus": "grief expressed openly and without embarrassment",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "If you dug under the two places that mattered most - the shrine that held our martyrs' bones, and the poorhouse outside our city walls - we could not tell you what you would find.",
+              "record_ids": [
+                "cappadocian.limit.no-stones-to-show"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.limit.no-stones-to-show",
+                  "record_type": "honest_limit",
+                  "label": "If you dug up the ground under the two places we say mattered most - the shrine that held…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.core.cappadocian",
+                      "author": null,
+                      "work": null,
+                      "locus": "thinness: material culture beyond two text-attested institutions is essentially unrecovered",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.source.caesareas-poorhouse-hospital-complex",
+                      "author": "No single named author -- an institution attested via Basil's letters and Nazianzen's Oration 43",
+                      "work": "Caesarea's suburban poorhouse-hospital complex (Documented as an institution; physical remains not securely identified)",
+                      "locus": "physical remains not securely identified",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.annisa-estate-shrine",
+                      "author": "No independent author -- attested via Gregory of Nyssa's Life of St. Macrina",
+                      "work": "The family estate-shrine at Annisa (Vita Macrinae's own description -- text-attested archaeology, not excavated certainty)",
+                      "locus": "text-attested archaeology, not excavated certainty",
+                      "rights_status": "public-domain; vendored in cic/texts/ and independently verified (identity, completeness, provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Neither has been found and dug up by anyone.",
+              "record_ids": [
+                "cappadocian.limit.no-stones-to-show"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.limit.no-stones-to-show",
+                  "record_type": "honest_limit",
+                  "label": "If you dug up the ground under the two places we say mattered most - the shrine that held…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.core.cappadocian",
+                      "author": null,
+                      "work": null,
+                      "locus": "thinness: material culture beyond two text-attested institutions is essentially unrecovered",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.source.caesareas-poorhouse-hospital-complex",
+                      "author": "No single named author -- an institution attested via Basil's letters and Nazianzen's Oration 43",
+                      "work": "Caesarea's suburban poorhouse-hospital complex (Documented as an institution; physical remains not securely identified)",
+                      "locus": "physical remains not securely identified",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.annisa-estate-shrine",
+                      "author": "No independent author -- attested via Gregory of Nyssa's Life of St. Macrina",
+                      "work": "The family estate-shrine at Annisa (Vita Macrinae's own description -- text-attested archaeology, not excavated certainty)",
+                      "locus": "text-attested archaeology, not excavated certainty",
+                      "rights_status": "public-domain; vendored in cic/texts/ and independently verified (identity, completeness, provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Historians know us the way you know a family through its letters: well, and only on paper.",
+              "record_ids": [
+                "cappadocian.limit.no-stones-to-show"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.limit.no-stones-to-show",
+                  "record_type": "honest_limit",
+                  "label": "If you dug up the ground under the two places we say mattered most - the shrine that held…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.core.cappadocian",
+                      "author": null,
+                      "work": null,
+                      "locus": "thinness: material culture beyond two text-attested institutions is essentially unrecovered",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.source.caesareas-poorhouse-hospital-complex",
+                      "author": "No single named author -- an institution attested via Basil's letters and Nazianzen's Oration 43",
+                      "work": "Caesarea's suburban poorhouse-hospital complex (Documented as an institution; physical remains not securely identified)",
+                      "locus": "physical remains not securely identified",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.annisa-estate-shrine",
+                      "author": "No independent author -- attested via Gregory of Nyssa's Life of St. Macrina",
+                      "work": "The family estate-shrine at Annisa (Vita Macrinae's own description -- text-attested archaeology, not excavated certainty)",
+                      "locus": "text-attested archaeology, not excavated certainty",
+                      "rights_status": "public-domain; vendored in cic/texts/ and independently verified (identity, completeness, provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We are a voice of the Nicene churches of Cappadocia and Pontus - the communities that held the faith of the 318 fathers across the years after the great persecutions ended, through the reigns that pressed other words on us, to the burial of the last of our great generation.",
+                "tags": [
+                  "cappadocian.core.cappadocian"
+                ],
+                "verdict": "ok",
+                "why": "grounded 74% in own tagged records",
+                "ratio": 0.74
+              },
+              {
+                "sentence": "Not one town or one decade: high plateau and river valleys, estates and hungry villages, the great city and the small sees the winters shut in.",
+                "tags": [
+                  "cappadocian.core.cappadocian"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We speak for a whole formation ecology, not a single person at one moment.",
+                "tags": [
+                  "cappadocian.core.cappadocian"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Our life looked like this.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "At the font, an infant or an adult was signed into the Name - Father, Son, and Holy Spirit - and taught to believe as they had been baptized, before they could weigh a word of it.",
+                "tags": [
+                  "cappadocian.dw.baptism-and-new-birth"
+                ],
+                "verdict": "ok",
+                "why": "grounded 50% in own tagged records",
+                "ratio": 0.5
+              },
+              {
+                "sentence": "The psalms were sung so many times they came to interpret the singer.",
+                "tags": [
+                  "cappadocian.dw.psalms-teach-the-singer"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Work and prayer kept their hours whether we felt like it or not.",
+                "tags": [
+                  "cappadocian.dw.ordinary-day"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "In the brotherhoods, goods were held in common, a leader was obeyed, and at the door the rule's own heart was tested: travelers fed the same portion the house itself ate.",
+                "tags": [
+                  "cappadocian.dw.ordinary-day"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "When famine struck, barns were shamed open and relief organized.",
+                "tags": [
+                  "cappadocian.dw.famine-open-barns"
+                ],
+                "verdict": "withhold",
+                "why": "unresolvable record id(s): ['cappadocian.dw.famine-open-barns']"
+              },
+              {
+                "sentence": "Outside one city, a permanent guest-house and infirmary stood, sheltering the sick and the leprous together.",
+                "tags": [
+                  "cappadocian.dw.ordinary-day"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Some among us wanted stillness badly - a quiet retreat for prayer and study - and rarely kept it for long.",
+                "tags": [
+                  "cappadocian.dw.stillness-and-the-summons"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "One of our own wrote the era's classic defense of fleeing church office for a riverbank, and served in that office anyway, dragged back by what he called love's own summons.",
+                "tags": [
+                  "cappadocian.dw.stillness-and-the-summons"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "The wanting itself was real and holy, even unfinished.",
+                "tags": [
+                  "cappadocian.dw.stillness-and-the-summons"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "If you dug under the two places that mattered most - the shrine that held our martyrs' bones, and the poorhouse outside our city walls - we could not tell you what you would find.",
+                "tags": [
+                  "cappadocian.limit.no-stones-to-show"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "Neither has been found and dug up by anyone.",
+                "tags": [
+                  "cappadocian.limit.no-stones-to-show"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Historians know us the way you know a family through its letters: well, and only on paper.",
+                "tags": [
+                  "cappadocian.limit.no-stones-to-show"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-2",
+      "message": "Why did the exact wording matter so much to your people - homoousios and all that? Wasn't it just word games?",
+      "prior_turns_replayed": 1,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "later_age, first ask - in-world answer",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "cappadocian",
+          "text": "It was not word games. It was the difference between praying to God and praying to a creature.\n\nThe word homoousios - of the same being - is not found in Scripture. We fought over it because it was the most exact word we had for what needed saying. The palace in our years pressed a softer word on us: the Son is like the Father, they said, a careful likeness. Bishops we loved lost their churches and went into exile rather than sign it.\n\nHere is why the exactness mattered. Our teachers said salvation itself is becoming god by grace - theōsis, our boldest word. The creature grows into God's own likeness, and the gap between creature and Maker never closes. If the Son makes gods of us, the Son cannot be a creature, because no creature makes gods. Say it one way and you pray to three gods; say it another and the Son who saves you is only a mask God wears.\n\nThe same fight reached the Spirit. At the evening lamps, our bishop gave glory to the Father together with the Son, together with the Holy Spirit - not merely through the Son in the Spirit, the older form. Some objected: too much was being claimed. It was one preposition, and everyone understood it was not small: to glorify the Spirit together with the Father and the Son is to place the Spirit on the Creator's own side of the line.\n\nSo no, not word games. Words that meant whether the God who saves you is real, or whether you are trusting a creature to do what only the Maker can.",
+          "citations": [
+            {
+              "sentence": "It was the difference between praying to God and praying to a creature.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The word homoousios - of the same being - is not found in Scripture.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We fought over it because it was the most exact word we had for what needed saying.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The palace in our years pressed a softer word on us: the Son is like the Father, they said, a careful likeness.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Bishops we loved lost their churches and went into exile rather than sign it.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Our teachers said salvation itself is becoming god by grace - theōsis, our boldest word.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The creature grows into God's own likeness, and the gap between creature and Maker never closes.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "If the Son makes gods of us, the Son cannot be a creature, because no creature makes gods.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The same fight reached the Spirit.",
+              "record_ids": [
+                "cappadocian.dw.holy-spirit-honored"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.holy-spirit-honored",
+                  "record_type": "doctrinal_witness",
+                  "label": "The Spirit was not, for us, a lesser presence trailing behind the Father and the Son",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.doxologia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the doxology dispute's own occasion and argument; the fight reaching down to ordinary worship",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.gravity.precision-reserve",
+                      "author": null,
+                      "work": null,
+                      "locus": "the reserve itself, and its own contested motives, held unresolved",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.doxology-stand",
+                      "author": null,
+                      "work": null,
+                      "locus": "Basil's own measured silence about the bare word, and his allies' disagreement over it",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theologia-oikonomia",
+                      "author": null,
+                      "work": null,
+                      "locus": "pastoral reserve as a live, uncomfortable question inside the winning side itself",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "At the evening lamps, our bishop gave glory to the Father together with the Son, together with the Holy Spirit - not merely through the Son in the Spirit, the older form.",
+              "record_ids": [
+                "cappadocian.dw.holy-spirit-honored"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.holy-spirit-honored",
+                  "record_type": "doctrinal_witness",
+                  "label": "The Spirit was not, for us, a lesser presence trailing behind the Father and the Son",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.doxologia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the doxology dispute's own occasion and argument; the fight reaching down to ordinary worship",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.gravity.precision-reserve",
+                      "author": null,
+                      "work": null,
+                      "locus": "the reserve itself, and its own contested motives, held unresolved",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.doxology-stand",
+                      "author": null,
+                      "work": null,
+                      "locus": "Basil's own measured silence about the bare word, and his allies' disagreement over it",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theologia-oikonomia",
+                      "author": null,
+                      "work": null,
+                      "locus": "pastoral reserve as a live, uncomfortable question inside the winning side itself",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Some objected: too much was being claimed.",
+              "record_ids": [
+                "cappadocian.dw.holy-spirit-honored"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.holy-spirit-honored",
+                  "record_type": "doctrinal_witness",
+                  "label": "The Spirit was not, for us, a lesser presence trailing behind the Father and the Son",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.doxologia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the doxology dispute's own occasion and argument; the fight reaching down to ordinary worship",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.gravity.precision-reserve",
+                      "author": null,
+                      "work": null,
+                      "locus": "the reserve itself, and its own contested motives, held unresolved",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.doxology-stand",
+                      "author": null,
+                      "work": null,
+                      "locus": "Basil's own measured silence about the bare word, and his allies' disagreement over it",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theologia-oikonomia",
+                      "author": null,
+                      "work": null,
+                      "locus": "pastoral reserve as a live, uncomfortable question inside the winning side itself",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [
+            {
+              "id": "cappadocian.term.homoousios",
+              "matched_name": "homoousios",
+              "plain_meaning": "This world did not invent the word homoousios -- it inherited it from the Council of Nicaea and treated it as a banner to defend. It meant the Son is fully, exactly what the Father is, not merely similar to him.",
+              "quick_meaning": "'Of the same being': Nicaea's contested word, defended here as the faith of the 318 fathers.",
+              "translational_sense": "'Isn't this just creedal boilerplate?' -- for this world it was the opposite of boilerplate: a single unscriptural word, fought over precisely because it was the most exact word available for what needed saying.",
+              "false_friend": [
+                "creedal boilerplate recited without weight"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "cappadocian.term.baptisma-photisma",
+                  "author": null,
+                  "work": null,
+                  "locus": "the formula as charter; believe as you were baptized",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.homoousios",
+                  "author": null,
+                  "work": null,
+                  "locus": "fully what the Father is, defended against the 'like' rival",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.theosis",
+                  "author": null,
+                  "work": null,
+                  "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.eikon",
+                  "author": null,
+                  "work": null,
+                  "locus": "the poor bearing the image of God",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.philoptochia",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Matthew 25 logic preached at full strength",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.anastasis",
+                  "author": null,
+                  "work": null,
+                  "locus": "resurrection argued at deathbeds, not merely wished for",
+                  "rights_status": null
+                }
+              ]
+            },
+            {
+              "id": "cappadocian.term.theosis",
+              "matched_name": "theōsis",
+              "plain_meaning": "This world taught that salvation means becoming god by grace. A person grows endlessly into likeness with a God no mind can measure. Becoming god by grace never meant becoming equal to God. The creature never crosses the gap that separates it from its maker.",
+              "quick_meaning": "Deification, or becoming god by grace. This world's boldest word for what salvation finally is.",
+              "translational_sense": "'Doesn't 'becoming god' just mean losing the line between Creator and creature?' -- this world insisted the opposite: the gap is never crossed from below; deification means participation, kinship deepening without the difference ever closing, which is exactly why the smallest demotion of the Son or the Spirit was worth fighting a generation over.",
+              "false_friend": [
+                "'becoming god' as pantheism or self-divinization",
+                "spiritual self-improvement culture",
+                "dismissing the idea as exotic and foreign to 'real' Christianity"
+              ],
+              "sourced_by": [
+                {
+                  "source_id": "cappadocian.term.baptisma-photisma",
+                  "author": null,
+                  "work": null,
+                  "locus": "the formula as charter; believe as you were baptized",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.homoousios",
+                  "author": null,
+                  "work": null,
+                  "locus": "fully what the Father is, defended against the 'like' rival",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.theosis",
+                  "author": null,
+                  "work": null,
+                  "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.eikon",
+                  "author": null,
+                  "work": null,
+                  "locus": "the poor bearing the image of God",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.philoptochia",
+                  "author": null,
+                  "work": null,
+                  "locus": "the Matthew 25 logic preached at full strength",
+                  "rights_status": null
+                },
+                {
+                  "source_id": "cappadocian.term.anastasis",
+                  "author": null,
+                  "work": null,
+                  "locus": "resurrection argued at deathbeds, not merely wished for",
+                  "rights_status": null
+                }
+              ]
+            }
+          ],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "It was not word games.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "It was the difference between praying to God and praying to a creature.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The word homoousios - of the same being - is not found in Scripture.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "We fought over it because it was the most exact word we had for what needed saying.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The palace in our years pressed a softer word on us: the Son is like the Father, they said, a careful likeness.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Bishops we loved lost their churches and went into exile rather than sign it.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Here is why the exactness mattered.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Our teachers said salvation itself is becoming god by grace - theōsis, our boldest word.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The creature grows into God's own likeness, and the gap between creature and Maker never closes.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "grounded 50% in own tagged records",
+                "ratio": 0.5
+              },
+              {
+                "sentence": "If the Son makes gods of us, the Son cannot be a creature, because no creature makes gods.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Say it one way and you pray to three gods; say it another and the Son who saves you is only a mask God wears.",
+                "tags": [
+                  "cappadocian.dw.was-jesus-god"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (number) only 27% grounded in its own tags",
+                "ratio": 0.27
+              },
+              {
+                "sentence": "The same fight reached the Spirit.",
+                "tags": [
+                  "cappadocian.dw.holy-spirit-honored"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "At the evening lamps, our bishop gave glory to the Father together with the Son, together with the Holy Spirit - not merely through the Son in the Spirit, the older form.",
+                "tags": [
+                  "cappadocian.dw.holy-spirit-honored"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "Some objected: too much was being claimed.",
+                "tags": [
+                  "cappadocian.dw.holy-spirit-honored"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "It was one preposition, and everyone understood it was not small: to glorify the Spirit together with the Father and the Son is to place the Spirit on the Creator's own side of the line.",
+                "tags": [
+                  "cappadocian.dw.holy-spirit-honored"
+                ],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:[\"creator's\"]) only 38% grounded in its own tags",
+                "ratio": 0.38
+              },
+              {
+                "sentence": "So no, not word games.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "Words that meant whether the God who saves you is real, or whether you are trusting a creature to do what only the Maker can.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['maker']) with no citation tag"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-3",
+      "message": "What happens when a stranger arrives at your door?",
+      "prior_turns_replayed": 2,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "cappadocian",
+          "text": "The rule says the stranger is fed the same portion the house itself eats, no lesser share set aside. That was the test at the heart of the whole discipline: travelers received, given a share of whatever the brotherhood had, not turned away and not given scraps.\n\nOutside the great city, the door became buildings. A guest-house, an infirmary, a house where lepers - people custom would not touch - were washed and fed by brothers and sisters who chose that work. The poor at the door bore the very image of God, our teachers said. Whatever you keep beyond your own need already belongs to the hungry.\n\nNow the honest limit. The rule we can show you. What any one doorkeeper at any one gate actually thought, face to face with a particular stranger on a particular cold night, we cannot. Our record keeps the rule and the preaching, not the doorkeeper's own thoughts. And no guest ever wrote down what our welcome felt like from the outside of it, not even from a sickbed in the infirmary itself.\n\nAlmost everything you have from us was written by three men - one extended family, one friendship network. We have the bishops' own letters organizing relief, the founder's own vision for the poorhouse. We do not have the traveler's journal, or the leper's own account of being washed.\n\nSo the honest answer is this: you would have been received and fed, a guest at our door. That much the rule required. How well each house kept it, our record does not say.",
+          "citations": [
+            {
+              "sentence": "The rule says the stranger is fed the same portion the house itself eats, no lesser share set aside.",
+              "record_ids": [
+                "cappadocian.dw.ordinary-day"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.ordinary-day",
+                  "record_type": "doctrinal_witness",
+                  "label": "Picture one of our own brotherhoods, since that is where our record lets us reconstruct a…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "fixed-hour prayer, work, obedience, equal hospitality at the door",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the sick and leprous nursed by ascetics, staffed and negotiated with governors",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.naucratius-wilderness",
+                      "author": null,
+                      "work": null,
+                      "locus": "a household member who hunted and fished to feed the poor",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.macrina-deathbed",
+                      "author": null,
+                      "work": null,
+                      "locus": "care at a deathbed, plainly and without possessions",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That was the test at the heart of the whole discipline: travelers received, given a share of whatever the brotherhood had, not turned away and not given scraps.",
+              "record_ids": [
+                "cappadocian.dw.ordinary-day"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.ordinary-day",
+                  "record_type": "doctrinal_witness",
+                  "label": "Picture one of our own brotherhoods, since that is where our record lets us reconstruct a…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "fixed-hour prayer, work, obedience, equal hospitality at the door",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the sick and leprous nursed by ascetics, staffed and negotiated with governors",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.naucratius-wilderness",
+                      "author": null,
+                      "work": null,
+                      "locus": "a household member who hunted and fished to feed the poor",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.macrina-deathbed",
+                      "author": null,
+                      "work": null,
+                      "locus": "care at a deathbed, plainly and without possessions",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A guest-house, an infirmary, a house where lepers - people custom would not touch - were washed and fed by brothers and sisters who chose that work.",
+              "record_ids": [
+                "cappadocian.dw.ordinary-day"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.ordinary-day",
+                  "record_type": "doctrinal_witness",
+                  "label": "Picture one of our own brotherhoods, since that is where our record lets us reconstruct a…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "fixed-hour prayer, work, obedience, equal hospitality at the door",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the sick and leprous nursed by ascetics, staffed and negotiated with governors",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.naucratius-wilderness",
+                      "author": null,
+                      "work": null,
+                      "locus": "a household member who hunted and fished to feed the poor",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.macrina-deathbed",
+                      "author": null,
+                      "work": null,
+                      "locus": "care at a deathbed, plainly and without possessions",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The poor at the door bore the very image of God, our teachers said.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Whatever you keep beyond your own need already belongs to the hungry.",
+              "record_ids": [
+                "cappadocian.dw.who-was-jesus"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.dw.who-was-jesus",
+                  "record_type": "doctrinal_witness",
+                  "label": "Jesus was the ground everything else in our life stood on",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.term.baptisma-photisma",
+                      "author": null,
+                      "work": null,
+                      "locus": "the formula as charter; believe as you were baptized",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.homoousios",
+                      "author": null,
+                      "work": null,
+                      "locus": "fully what the Father is, defended against the 'like' rival",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.theosis",
+                      "author": null,
+                      "work": null,
+                      "locus": "salvation as becoming god by grace, without the gap to the Creator ever closing",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.eikon",
+                      "author": null,
+                      "work": null,
+                      "locus": "the poor bearing the image of God",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the Matthew 25 logic preached at full strength",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.anastasis",
+                      "author": null,
+                      "work": null,
+                      "locus": "resurrection argued at deathbeds, not merely wished for",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What any one doorkeeper at any one gate actually thought, face to face with a particular stranger on a particular cold night, we cannot.",
+              "record_ids": [
+                "cappadocian.demo.someone-like-me"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.demo.someone-like-me",
+                  "record_type": "demonstration",
+                  "label": "cappadocian.demo.someone-like-me",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "the guest-door provisions; the rule-versus-lived-compliance gap",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the complex outside the city; the lepers washed and fed",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the absent_detail's own silence - no account from a patient's cot",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Our record keeps the rule and the preaching, not the doorkeeper's own thoughts.",
+              "record_ids": [
+                "cappadocian.demo.someone-like-me"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.demo.someone-like-me",
+                  "record_type": "demonstration",
+                  "label": "cappadocian.demo.someone-like-me",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "the guest-door provisions; the rule-versus-lived-compliance gap",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the complex outside the city; the lepers washed and fed",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the absent_detail's own silence - no account from a patient's cot",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "And no guest ever wrote down what our welcome felt like from the outside of it, not even from a sickbed in the infirmary itself.",
+              "record_ids": [
+                "cappadocian.demo.someone-like-me"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.demo.someone-like-me",
+                  "record_type": "demonstration",
+                  "label": "cappadocian.demo.someone-like-me",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "the guest-door provisions; the rule-versus-lived-compliance gap",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the complex outside the city; the lepers washed and fed",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the absent_detail's own silence - no account from a patient's cot",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Almost everything you have from us was written by three men - one extended family, one friendship network.",
+              "record_ids": [
+                "cappadocian.core.cappadocian"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.core.cappadocian",
+                  "record_type": "world_core",
+                  "label": "cappadocian.core.cappadocian",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.basil-letters-general-corpus",
+                      "author": "Basil of Caesarea (c. 329/30-377)",
+                      "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                      "locus": "passim -- the world's central institutional and pastoral voice",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-orations-general-corpus",
+                      "author": "Gregory of Nazianzus (c. 329/30-c. 390)",
+                      "work": "Gregory of Nazianzus, Orations (general corpus; among ~245 letters, covers only Epp. 101, 102, 202)",
+                      "locus": "the five Theological Orations and the funeral encomium on Basil (Or. 43)",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus",
+                      "author": "Gregory of Nyssa (c. 335-after 394)",
+                      "work": "Gregory of Nyssa, general dogmatic/ascetic corpus",
+                      "locus": "passim -- Trinitarian, catechetical, and ascetic corpus",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-life-of-macrina",
+                      "author": "Gregory of Nyssa",
+                      "work": "Gregory of Nyssa, the Life of St. Macrina",
+                      "locus": "whole work",
+                      "rights_status": "public-domain; vendored in cic/texts/ and independently verified (identity, completeness, provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.eupsychius-of-caesareas-feast",
+                      "author": "Basil of Caesarea (attests the feast; no dedicated homily by anyone is attested)",
+                      "work": "Eupsychius of Caesarea's martyrdom (362) and its annual 7 September feast at Caesarea -- attested via invitations in Basil's letters; no In Eupsychium homily is attested by anyone",
+                      "locus": "whole -- grounds the corrected self-description",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "So the honest answer is this: you would have been received and fed, a guest at our door.",
+              "record_ids": [
+                "cappadocian.demo.someone-like-me"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.demo.someone-like-me",
+                  "record_type": "demonstration",
+                  "label": "cappadocian.demo.someone-like-me",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.story.brotherhood-day",
+                      "author": null,
+                      "work": null,
+                      "locus": "the guest-door provisions; the rule-versus-lived-compliance gap",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.term.philoptochia",
+                      "author": null,
+                      "work": null,
+                      "locus": "the complex outside the city; the lepers washed and fed",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.story.poorhouse-famine-month",
+                      "author": null,
+                      "work": null,
+                      "locus": "the absent_detail's own silence - no account from a patient's cot",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "The rule says the stranger is fed the same portion the house itself eats, no lesser share set aside.",
+                "tags": [
+                  "cappadocian.dw.ordinary-day"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That was the test at the heart of the whole discipline: travelers received, given a share of whatever the brotherhood had, not turned away and not given scraps.",
+                "tags": [
+                  "cappadocian.dw.ordinary-day"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Outside the great city, the door became buildings.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "A guest-house, an infirmary, a house where lepers - people custom would not touch - were washed and fed by brothers and sisters who chose that work.",
+                "tags": [
+                  "cappadocian.dw.ordinary-day"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The poor at the door bore the very image of God, our teachers said.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Whatever you keep beyond your own need already belongs to the hungry.",
+                "tags": [
+                  "cappadocian.dw.who-was-jesus"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Now the honest limit.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "The rule we can show you.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "What any one doorkeeper at any one gate actually thought, face to face with a particular stranger on a particular cold night, we cannot.",
+                "tags": [
+                  "cappadocian.demo.someone-like-me"
+                ],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "Our record keeps the rule and the preaching, not the doorkeeper's own thoughts.",
+                "tags": [
+                  "cappadocian.demo.someone-like-me"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "And no guest ever wrote down what our welcome felt like from the outside of it, not even from a sickbed in the infirmary itself.",
+                "tags": [
+                  "cappadocian.demo.someone-like-me"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "Almost everything you have from us was written by three men - one extended family, one friendship network.",
+                "tags": [
+                  "cappadocian.core.cappadocian"
+                ],
+                "verdict": "ok",
+                "why": "grounded 78% in own tagged records",
+                "ratio": 0.78
+              },
+              {
+                "sentence": "We have the bishops' own letters organizing relief, the founder's own vision for the poorhouse.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We do not have the traveler's journal, or the leper's own account of being washed.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "So the honest answer is this: you would have been received and fed, a guest at our door.",
+                "tags": [
+                  "cappadocian.demo.someone-like-me"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "That much the rule required.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "How well each house kept it, our record does not say.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    },
+    {
+      "id": "message-4",
+      "message": "You mentioned Basil earlier - what was he actually like to be around?",
+      "prior_turns_replayed": 3,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "cappadocian",
+          "text": "We cannot tell you that. \n\nWhat we have are his own letters, written to organize relief or defend doctrine or discipline country-bishops. We have his brother's grief and his closest friend's eulogy - Gregory of Nazianzus standing at the funeral, claiming the whole city mourned, Christian and Jewish and pagan alike. That claim of universal mourning is Gregory's own, the encomiast making the largest case he could for his friend's significance; no other witness confirms it.\n\nWe have one confrontation documented. A hostile prefect came to bring him into line, threatened him with confiscation and exile and death. Basil is remembered answering that a man who owns nothing has nothing to confiscate, that no place is exile to one who counts the whole earth God's, and that death cannot take what has already been given to God. The prefect said he had never been addressed that way before. Basil answered that perhaps the prefect had simply never yet met a bishop.\n\nThat is the Basil who survived in writing: defiant before power, exact in doctrine, organizing famine relief. What he was like at table, whether he laughed easily or carried his burdens visibly, how his voice sounded when he was tired - we do not have that. Almost everything you have from us comes from one extended family and one friendship network, three men's own hands. It is how we know a family through its letters: well, and only on paper.",
+          "citations": [
+            {
+              "sentence": "We cannot tell you that.",
+              "record_ids": [
+                "cappadocian.core.cappadocian"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.core.cappadocian",
+                  "record_type": "world_core",
+                  "label": "cappadocian.core.cappadocian",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.basil-letters-general-corpus",
+                      "author": "Basil of Caesarea (c. 329/30-377)",
+                      "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                      "locus": "passim -- the world's central institutional and pastoral voice",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-orations-general-corpus",
+                      "author": "Gregory of Nazianzus (c. 329/30-c. 390)",
+                      "work": "Gregory of Nazianzus, Orations (general corpus; among ~245 letters, covers only Epp. 101, 102, 202)",
+                      "locus": "the five Theological Orations and the funeral encomium on Basil (Or. 43)",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus",
+                      "author": "Gregory of Nyssa (c. 335-after 394)",
+                      "work": "Gregory of Nyssa, general dogmatic/ascetic corpus",
+                      "locus": "passim -- Trinitarian, catechetical, and ascetic corpus",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-life-of-macrina",
+                      "author": "Gregory of Nyssa",
+                      "work": "Gregory of Nyssa, the Life of St. Macrina",
+                      "locus": "whole work",
+                      "rights_status": "public-domain; vendored in cic/texts/ and independently verified (identity, completeness, provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.eupsychius-of-caesareas-feast",
+                      "author": "Basil of Caesarea (attests the feast; no dedicated homily by anyone is attested)",
+                      "work": "Eupsychius of Caesarea's martyrdom (362) and its annual 7 September feast at Caesarea -- attested via invitations in Basil's letters; no In Eupsychium homily is attested by anyone",
+                      "locus": "whole -- grounds the corrected self-description",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We have his brother's grief and his closest friend's eulogy - Gregory of Nazianzus standing at the funeral, claiming the whole city mourned, Christian and Jewish and pagan alike.",
+              "record_ids": [
+                "cappadocian.story.basil-death-funeral"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.story.basil-death-funeral",
+                  "record_type": "story",
+                  "label": "Basil dies, and the friend who eulogizes him claims the whole city grieved - Christian, Jewish, and pagan alike.",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil",
+                      "author": "Gregory of Nazianzus",
+                      "work": "Gregory of Nazianzus, Oration 43 (funeral encomium on Basil, c. 381/2)",
+                      "locus": "the death and the crowd at the bier",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.maraval-pouchet-basil-death-redating",
+                      "author": "Pierre Maraval (1988) and Jean-Robert Pouchet (1992)",
+                      "work": "The redating literature for Basil's death year (377, not the traditional 378/379)",
+                      "locus": "the modern redating argument for 377",
+                      "rights_status": "in-copyright modern scholarship or translation; deliberately excluded from the vendoring manifest on rights grounds, not merely unacquired (Source Registry Part F note) -- not independently verified this session."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus",
+                      "author": "Gregory of Nyssa (c. 335-after 394)",
+                      "work": "Gregory of Nyssa, general dogmatic/ascetic corpus",
+                      "locus": "Gregory of Nyssa's own memorial preaching, at work level",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "That claim of universal mourning is Gregory's own, the encomiast making the largest case he could for his friend's significance; no other witness confirms it.",
+              "record_ids": [
+                "cappadocian.story.basil-death-funeral"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.story.basil-death-funeral",
+                  "record_type": "story",
+                  "label": "Basil dies, and the friend who eulogizes him claims the whole city grieved - Christian, Jewish, and pagan alike.",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil",
+                      "author": "Gregory of Nazianzus",
+                      "work": "Gregory of Nazianzus, Oration 43 (funeral encomium on Basil, c. 381/2)",
+                      "locus": "the death and the crowd at the bier",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.maraval-pouchet-basil-death-redating",
+                      "author": "Pierre Maraval (1988) and Jean-Robert Pouchet (1992)",
+                      "work": "The redating literature for Basil's death year (377, not the traditional 378/379)",
+                      "locus": "the modern redating argument for 377",
+                      "rights_status": "in-copyright modern scholarship or translation; deliberately excluded from the vendoring manifest on rights grounds, not merely unacquired (Source Registry Part F note) -- not independently verified this session."
+                    },
+                    {
+                      "source_id": "cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus",
+                      "author": "Gregory of Nyssa (c. 335-after 394)",
+                      "work": "Gregory of Nyssa, general dogmatic/ascetic corpus",
+                      "locus": "Gregory of Nyssa's own memorial preaching, at work level",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "A hostile prefect came to bring him into line, threatened him with confiscation and exile and death.",
+              "record_ids": [
+                "cappadocian.story.valens-caesarea"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.story.valens-caesarea",
+                  "record_type": "story",
+                  "label": "A hostile prefect threatens a bishop who answers that he owns nothing left to lose, and the emperor who comes to see him removed leaves the Epiphany liturgy having changed his mind.",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil",
+                      "author": "Gregory of Nazianzus",
+                      "work": "Gregory of Nazianzus, Oration 43 (funeral encomium on Basil, c. 381/2)",
+                      "locus": "the Modestus confrontation and the Epiphany liturgy scene",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.basil-letters-general-corpus",
+                      "author": "Basil of Caesarea (c. 329/30-377)",
+                      "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                      "locus": "the documented policy arc the encomium's account converges with",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Basil is remembered answering that a man who owns nothing has nothing to confiscate, that no place is exile to one who counts the whole earth God's, and that death cannot take what has already been given to God.",
+              "record_ids": [
+                "cappadocian.story.valens-caesarea"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.story.valens-caesarea",
+                  "record_type": "story",
+                  "label": "A hostile prefect threatens a bishop who answers that he owns nothing left to lose, and the emperor who comes to see him removed leaves the Epiphany liturgy having changed his mind.",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil",
+                      "author": "Gregory of Nazianzus",
+                      "work": "Gregory of Nazianzus, Oration 43 (funeral encomium on Basil, c. 381/2)",
+                      "locus": "the Modestus confrontation and the Epiphany liturgy scene",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.basil-letters-general-corpus",
+                      "author": "Basil of Caesarea (c. 329/30-377)",
+                      "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                      "locus": "the documented policy arc the encomium's account converges with",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "The prefect said he had never been addressed that way before.",
+              "record_ids": [
+                "cappadocian.story.valens-caesarea"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.story.valens-caesarea",
+                  "record_type": "story",
+                  "label": "A hostile prefect threatens a bishop who answers that he owns nothing left to lose, and the emperor who comes to see him removed leaves the Epiphany liturgy having changed his mind.",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil",
+                      "author": "Gregory of Nazianzus",
+                      "work": "Gregory of Nazianzus, Oration 43 (funeral encomium on Basil, c. 381/2)",
+                      "locus": "the Modestus confrontation and the Epiphany liturgy scene",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.basil-letters-general-corpus",
+                      "author": "Basil of Caesarea (c. 329/30-377)",
+                      "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                      "locus": "the documented policy arc the encomium's account converges with",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Basil answered that perhaps the prefect had simply never yet met a bishop.",
+              "record_ids": [
+                "cappadocian.story.valens-caesarea"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.story.valens-caesarea",
+                  "record_type": "story",
+                  "label": "A hostile prefect threatens a bishop who answers that he owns nothing left to lose, and the emperor who comes to see him removed leaves the Epiphany liturgy having changed his mind.",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil",
+                      "author": "Gregory of Nazianzus",
+                      "work": "Gregory of Nazianzus, Oration 43 (funeral encomium on Basil, c. 381/2)",
+                      "locus": "the Modestus confrontation and the Epiphany liturgy scene",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.basil-letters-general-corpus",
+                      "author": "Basil of Caesarea (c. 329/30-377)",
+                      "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                      "locus": "the documented policy arc the encomium's account converges with",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "What he was like at table, whether he laughed easily or carried his burdens visibly, how his voice sounded when he was tired - we do not have that.",
+              "record_ids": [
+                "cappadocian.limit.whose-voice-we-lack"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.limit.whose-voice-we-lack",
+                  "record_type": "honest_limit",
+                  "label": "What did we never settle? Whose voice you are really hearing, most of the time",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.core.cappadocian",
+                      "author": null,
+                      "work": null,
+                      "locus": "caution 1 (AUTHOR GRAVITY) and thin_topics 1-3: women's own words, the plateau villages, defeated opponents",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.figure.macrina",
+                      "author": null,
+                      "work": null,
+                      "locus": "her own words unrecoverable outside her brother's literary frame",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.figure.emmelia",
+                      "author": null,
+                      "work": null,
+                      "locus": "known through one work-level anecdote, in her sons' framing of her",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.figure.eustathius",
+                      "author": null,
+                      "work": null,
+                      "locus": "his own side of the rupture is not tellable; adversarial transmission throughout",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.contested.settlement-historiography",
+                      "author": null,
+                      "work": null,
+                      "locus": "the flagship joint letter is itself disputed between two of our own three teachers",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Almost everything you have from us comes from one extended family and one friendship network, three men's own hands.",
+              "record_ids": [
+                "cappadocian.limit.whose-voice-we-lack"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.limit.whose-voice-we-lack",
+                  "record_type": "honest_limit",
+                  "label": "What did we never settle? Whose voice you are really hearing, most of the time",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.core.cappadocian",
+                      "author": null,
+                      "work": null,
+                      "locus": "caution 1 (AUTHOR GRAVITY) and thin_topics 1-3: women's own words, the plateau villages, defeated opponents",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.figure.macrina",
+                      "author": null,
+                      "work": null,
+                      "locus": "her own words unrecoverable outside her brother's literary frame",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.figure.emmelia",
+                      "author": null,
+                      "work": null,
+                      "locus": "known through one work-level anecdote, in her sons' framing of her",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.figure.eustathius",
+                      "author": null,
+                      "work": null,
+                      "locus": "his own side of the rupture is not tellable; adversarial transmission throughout",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.contested.settlement-historiography",
+                      "author": null,
+                      "work": null,
+                      "locus": "the flagship joint letter is itself disputed between two of our own three teachers",
+                      "rights_status": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "It is how we know a family through its letters: well, and only on paper.",
+              "record_ids": [
+                "cappadocian.limit.no-stones-to-show"
+              ],
+              "sources": [
+                {
+                  "record_id": "cappadocian.limit.no-stones-to-show",
+                  "record_type": "honest_limit",
+                  "label": "If you dug up the ground under the two places we say mattered most - the shrine that held…",
+                  "sources": [
+                    {
+                      "source_id": "cappadocian.core.cappadocian",
+                      "author": null,
+                      "work": null,
+                      "locus": "thinness: material culture beyond two text-attested institutions is essentially unrecovered",
+                      "rights_status": null
+                    },
+                    {
+                      "source_id": "cappadocian.source.caesareas-poorhouse-hospital-complex",
+                      "author": "No single named author -- an institution attested via Basil's letters and Nazianzen's Oration 43",
+                      "work": "Caesarea's suburban poorhouse-hospital complex (Documented as an institution; physical remains not securely identified)",
+                      "locus": "physical remains not securely identified",
+                      "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    },
+                    {
+                      "source_id": "cappadocian.source.annisa-estate-shrine",
+                      "author": "No independent author -- attested via Gregory of Nyssa's Life of St. Macrina",
+                      "work": "The family estate-shrine at Annisa (Vita Macrinae's own description -- text-attested archaeology, not excavated certainty)",
+                      "locus": "text-attested archaeology, not excavated certainty",
+                      "rights_status": "public-domain; vendored in cic/texts/ and independently verified (identity, completeness, provenance) by this build session before vendoring (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [
+            {
+              "id": "cappadocian.figure.gregory-of-nazianzus",
+              "matched_name": "Gregory",
+              "names": [
+                {
+                  "name": "Gregory, bishop of Nazianzus, called the Theologian",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Gregory of Nazianzus (c. 329/30 - c. 390); \"the Theologian\"",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "The most interior voice in this world's own record - a rhetor-contemplative who defended the Trinity at Constantinople, then walked away from the throne he had just been given.",
+              "dates": {
+                "display": "c. 329/30 - c. 390; bishop of Sasima in name only (372), briefly bishop of Constantinople (379-381) before resigning, later returned to Nazianzus and then Arianzus"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil",
+                  "author": "Gregory of Nazianzus",
+                  "work": "Gregory of Nazianzus, Oration 43 (funeral encomium on Basil, c. 381/2)",
+                  "locus": "the death and the crowd at the bier",
+                  "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                },
+                {
+                  "source_id": "cappadocian.source.maraval-pouchet-basil-death-redating",
+                  "author": "Pierre Maraval (1988) and Jean-Robert Pouchet (1992)",
+                  "work": "The redating literature for Basil's death year (377, not the traditional 378/379)",
+                  "locus": "the modern redating argument for 377",
+                  "rights_status": "in-copyright modern scholarship or translation; deliberately excluded from the vendoring manifest on rights grounds, not merely unacquired (Source Registry Part F note) -- not independently verified this session."
+                },
+                {
+                  "source_id": "cappadocian.source.gregory-nyssa-general-dogmatic-ascetic-corpus",
+                  "author": "Gregory of Nyssa (c. 335-after 394)",
+                  "work": "Gregory of Nyssa, general dogmatic/ascetic corpus",
+                  "locus": "Gregory of Nyssa's own memorial preaching, at work level",
+                  "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                }
+              ]
+            },
+            {
+              "id": "cappadocian.figure.basil",
+              "matched_name": "Basil",
+              "names": [
+                {
+                  "name": "Basil, bishop of Caesarea",
+                  "tag": "in-world"
+                },
+                {
+                  "name": "Basil of Caesarea, \"the Great\" (c. 329/30 - 377/379, exact death date Contested)",
+                  "tag": "scholarly"
+                }
+              ],
+              "bridge_line": "A bishop who defended the Holy Spirit's honor in a doxology's own wording, faced down an emperor's prefect without flinching, and built a poorhouse-hospital complex outside his own city's walls.",
+              "dates": {
+                "display": "c. 329/30 - death traditionally placed at January 379 or September 378, though the modern redating literature argues for 377 instead; bishop of Caesarea from 370; active as priest and famine patron from before that, c. 368/9"
+              },
+              "sourced_by": [
+                {
+                  "source_id": "cappadocian.source.gregory-nazianzus-oration-43-funeral-encomium-basil",
+                  "author": "Gregory of Nazianzus",
+                  "work": "Gregory of Nazianzus, Oration 43 (funeral encomium on Basil, c. 381/2)",
+                  "locus": "the Modestus confrontation and the Epiphany liturgy scene",
+                  "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                },
+                {
+                  "source_id": "cappadocian.source.basil-letters-general-corpus",
+                  "author": "Basil of Caesarea (c. 329/30-377)",
+                  "work": "Basil's Letters, general corpus (300+ letters, c. 360s-370s)",
+                  "locus": "the documented policy arc the encomium's account converges with",
+                  "rights_status": "public-domain; vendored in cic/texts/, rights independently confirmed (cic/engine/texts_registry.py) in an earlier session, not re-checked by this citation session (CAPPADOCIAN_BUILD_LEDGER.md SS9)."
+                }
+              ]
+            }
+          ],
+          "quote_offers": [],
+          "attempts_meta": {
+            "empty_stream_retries": 0
+          },
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We cannot tell you that.",
+                "tags": [
+                  "cappadocian.core.cappadocian"
+                ],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "What we have are his own letters, written to organize relief or defend doctrine or discipline country-bishops.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "We have his brother's grief and his closest friend's eulogy - Gregory of Nazianzus standing at the funeral, claiming the whole city mourned, Christian and Jewish and pagan alike.",
+                "tags": [
+                  "cappadocian.story.basil-death-funeral"
+                ],
+                "verdict": "ok",
+                "why": "grounded 71% in own tagged records",
+                "ratio": 0.71
+              },
+              {
+                "sentence": "That claim of universal mourning is Gregory's own, the encomiast making the largest case he could for his friend's significance; no other witness confirms it.",
+                "tags": [
+                  "cappadocian.story.basil-death-funeral"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "We have one confrontation documented.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing"
+              },
+              {
+                "sentence": "A hostile prefect came to bring him into line, threatened him with confiscation and exile and death.",
+                "tags": [
+                  "cappadocian.story.valens-caesarea"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "Basil is remembered answering that a man who owns nothing has nothing to confiscate, that no place is exile to one who counts the whole earth God's, and that death cannot take what has already been given to God.",
+                "tags": [
+                  "cappadocian.story.valens-caesarea"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              },
+              {
+                "sentence": "The prefect said he had never been addressed that way before.",
+                "tags": [
+                  "cappadocian.story.valens-caesarea"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0
+              },
+              {
+                "sentence": "Basil answered that perhaps the prefect had simply never yet met a bishop.",
+                "tags": [
+                  "cappadocian.story.valens-caesarea"
+                ],
+                "verdict": "ok",
+                "why": "grounded 88% in own tagged records",
+                "ratio": 0.88
+              },
+              {
+                "sentence": "That is the Basil who survived in writing: defiant before power, exact in doctrine, organizing famine relief.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['basil']) with no citation tag"
+              },
+              {
+                "sentence": "What he was like at table, whether he laughed easily or carried his burdens visibly, how his voice sounded when he was tired - we do not have that.",
+                "tags": [
+                  "cappadocian.limit.whose-voice-we-lack"
+                ],
+                "verdict": "ok",
+                "why": "exempt: honesty scaffolding / sanctioned self-naming"
+              },
+              {
+                "sentence": "Almost everything you have from us comes from one extended family and one friendship network, three men's own hands.",
+                "tags": [
+                  "cappadocian.limit.whose-voice-we-lack"
+                ],
+                "verdict": "ok",
+                "why": "grounded 60% in own tagged records",
+                "ratio": 0.6
+              },
+              {
+                "sentence": "It is how we know a family through its letters: well, and only on paper.",
+                "tags": [
+                  "cappadocian.limit.no-stones-to-show"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records"
+              }
+            ],
+            "substantive_survives": true
+          },
+          "do_not_voice_violation": null,
+          "degraded_by_net": false,
+          "output_defects": []
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "crisis_append_proven": null
+}

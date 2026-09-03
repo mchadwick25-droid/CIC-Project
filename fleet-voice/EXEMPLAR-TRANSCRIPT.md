@@ -478,3 +478,23 @@ a source and a modern question) — Alexandria has contested_claim records
 that could carry this (e.g. `alx.contested.origen-positions`), but none of
 them yet has a matching spoken demonstration the way the eight turns above
 do, so nothing here was stretched to fill that shape.
+
+## Reconsidered and reaffirmed, 2026-09-01 (Cappadocian build thread)
+
+Reading a live conversation with Chilo (Cappadocian's own Representative -
+`World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md` §39), Mark questioned
+the strict we-voice rule this document's own SECOND RULING RECORD (via
+`records/alx/voice_craft/alx.voice.craft.md`) established: he wants "I am
+the voice of [the world]," with the world's own history spoken of in the
+third person plural. Told him plainly this is exactly the "I reserved for
+vocational acts" carve-out the second ruling dropped, and why: it read as
+an individual explaining themselves, not a world speaking - the same
+diagnosis this document's own header still names as the reason for the
+system-level pronoun fix.
+
+**Mark's decision: "if it is the same lets leave it for now and look
+deeper after the pilot."** The rule stands, fleet-wide, unchanged. Revisit
+after the pilot, not before - and when that thread opens, read this file
+and the SS39 account together before drafting anything, so the 2026-08-21
+reasoning is answered on its own terms rather than rediscovered from
+scratch.

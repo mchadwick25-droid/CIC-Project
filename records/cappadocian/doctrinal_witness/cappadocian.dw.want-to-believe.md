@@ -53,6 +53,9 @@ tensions:
 - we can show you the argument and the pastoral complaint; we cannot show you what either actually felt
   like from inside one struggling believer's own words, since none of that survives in a first-person
   voice
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-against-eunomius-ant
 ---
 Closes C-P, drawing the same two-term ground as the existing
 cappadocian.demo.want-to-believe (akatalepsia, baptisma-photisma) but
@@ -62,3 +65,5 @@ of the ground itself: this world can show an argument and a pastoral
 pattern, not a first-person testimony of doubt from inside the
 congregation, which world_core's own AUTHOR GRAVITY caution already names
 as a structural feature of this world's whole record.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-against-eunomius-ant, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed. (An earlier draft of this cross-reference pointed at cappadocian.quote.basil-address-to-young-men-on-learning; an independent adversarial review found that quote did not actually back this dw's own claim, so it was replaced with a genuinely on-topic passage from Basil's Letter XVI, "Against Eunomius the heretic.")

@@ -47,6 +47,9 @@ positions:
 tensions:
 - we have no record of this world's own reaction to the violence in scripture; naming that gap honestly
   is part of the answer, not a way around it
+relations:
+- type: associated-with
+  target: cappadocian.quote.basil-on-antiphonal-psalmody
 ---
 Closes F2-P. The "reception before analysis, repetition before
 articulation" formulation is cappadocian.core.cappadocian's own
@@ -55,3 +58,5 @@ The second half of the cell (violence in scripture) is answered with an
 honest, explicit non-answer inside the tensions field rather than a
 manufactured reaction this world's own record does not contain -
 matching this world's own guard against invented depth.
+
+Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-antiphonal-psalmody, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.

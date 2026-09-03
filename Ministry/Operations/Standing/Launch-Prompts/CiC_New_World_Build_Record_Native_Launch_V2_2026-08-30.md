@@ -83,7 +83,12 @@ scope brief and STOP. The brief anchors to what already exists:
   (Gaul came out of the project's own analyses of the downloaded
   sources; a world like that may find much of its G1 library ALREADY
   vendored under `cic/texts/`, making G1 verification-first rather than
-  download-first).
+  download-first). Check this mechanically, first, per the process
+  document's own "Cross-world source layer" section (added
+  2026-09-02): `python cic/engine/corpus_map.py --coverage` and this
+  world's own `cic/corpus-map/<atlas-id>.yaml` bucket, if one exists,
+  show what's already vendored and assigned before any request is
+  drafted.
 - **Atlas placement:** the census (`cic-website/data/world-census.json`)
   is frozen at ten eras (I–X) with 292 movement entries — locate the
   world there. Name WHICH movement entry or entries it claims (Gaul
@@ -116,11 +121,41 @@ scope AND the **Source Acquisition Manifest** (format below). What Mark
 decides: whether this world's window and boundaries are right, and
 WHICH editions enter the library — rights, translation, and scope
 choices per source, with the manifest's own recommendations to accept
-or override. He then manually downloads the chosen open-source texts
-into `cic/texts/` under the manifest's stated filenames. The build
-VERIFIES every listed file is present and matches its stated
-size/identity before Phase A continues past Doc_02 — a missing or
-substituted file is a halt, never a workaround.
+or override.
+
+**Intake happens in THIS thread (2026-09-03 update — was written as an
+out-of-band step before this; it isn't one).** For each Manifest row Mark
+accepts, he finds and downloads the edition, then attaches it right here
+— no separate session, no handoff. The build thread runs
+`cic/texts/INTAKE.md` itself on each attachment: settle the rights basis,
+write the header, name the file, add its `REGISTRY.yaml` row, assign it
+into this world's own corpus-map bucket (and any other Atlas entry it
+plausibly serves — the same check-every-world discipline
+`cic/texts/INTAKE.md` §6 and the process document's "Cross-world source
+layer" section both state), and rebuild the search index before moving
+on to the next row. A batch too large to attach one at a time goes to
+`cic/texts/_intake/` instead (see that folder's own README) and gets
+worked through the same way. Either path, the build thread cross-checks
+what it actually vendored against what the accepted Manifest row said —
+a missing file, a rights basis that doesn't clear, or an edition that
+doesn't match what was accepted is a halt, never a workaround, never
+silently substituted. Every Manifest row for a source NOT already found
+via the corpus-map/index check above should carry the trail: a real
+discovery_helper.py or WebSearch hit, verified against the actual host,
+not a guessed URL.
+
+**Use `--write-only <own-volume-token>` for this, not a plain merge
+(2026-09-03).** A plain `corpus_map_merge.py` run writes and PRUNES every
+bucket every staging file currently touches, not only the one this thread
+just wrote - correct for a deliberate, authoritative pass, but a real risk
+mid-build: it could finalize, or even delete, another world's
+still-in-progress staging file's work if that thread happens to run
+first. `--write-only anf02` (say) still reads every staging file, so the
+buckets it DOES write are still computed correctly against everyone's
+current assignments - it just restricts what actually lands on disk to
+buckets anf02's own staging file references, and skips pruning entirely.
+Run a plain, full merge only when a deliberate, whole-corpus pass is
+actually wanted (a good habit at the end of a build, not mid-flight).
 
 **G2 — Representative identity, after Doc_09.** The grounded-options
 artifact: named ROLE + NAME alternatives, an explicit trade-off each,

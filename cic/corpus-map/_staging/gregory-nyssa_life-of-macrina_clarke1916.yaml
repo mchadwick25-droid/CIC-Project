@@ -1,0 +1,20 @@
+# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
+# filename, matching AUTHORS.md's `gregory-nyssa`.
+source_file: gregory-nyssa_life-of-macrina_clarke1916.txt
+assignments:
+- work: The Life of St. Macrina (Vita Macrinae) - complete, introduction and
+    narrative
+  author: gregory-nyssa
+  locus: whole file
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: >
+    Gregory of Nyssa's own work - one of the three Cappadocian Fathers.
+    The file's own vendoring note calls this "the world's entire
+    primary-text basis for Macrina... the single most load-bearing text
+    for the 'primary voice with no primary text' finding and for the
+    female-voice question." Supersedes gregory-nyssa_life-of-macrina-
+    introduction-only_clarke1916.txt for narrative content (assigned
+    separately below, kept per this project's no-deletion practice).

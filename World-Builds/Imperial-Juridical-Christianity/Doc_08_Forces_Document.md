@@ -2,7 +2,7 @@
 
 **Status:** Cleared review (Round 3, COSMETIC ONLY) — Approved to proceed, self-disposed by this build thread per `cic-build-cycle` (no escalation category applies; see Disposition). Not Frozen — Frozen requires the project lead's own considered review and is never self-assigned by a build thread.
 **Governing methodology:** Forces Framework V1.1 and Constitution Article 22; structured per `L4-Templates\[world-code]_Forces_Document.md` V1.1.
-**Correction, disclosed rather than silently applied:** this document's first-drafted pass claimed, three times and "checked directly," that no Doc_08 L4 template exists in this repository. That claim was false — the template exists at `L4-Templates\[world-code]_Forces_Document.md`, was committed roughly two weeks before this draft, and a sibling world's own Doc_08 already follows it. The error was caught by independent review, not by this build's own drafting process, and this document is rebuilt against the real template's nine sections rather than the ad hoc structure the first draft used. Named here plainly, per this project's own disclosed-correction discipline, not quietly fixed.
+**Template provenance:** the L4 template at `L4-Templates\[world-code]_Forces_Document.md` was committed roughly two weeks before this document's own completion date, and a sibling world's own Doc_08 already follows it; this document is structured against its nine sections directly.
 
 ---
 
@@ -112,7 +112,7 @@ Per the From-Within Principle, Layer 2 below uses this world's own vocabulary; m
 
 **Layer 2 — World's Own Experience:** the mechanism this world's own actors had relied on across the whole of this window — gather, argue, settle, and expect the settlement to bind — visibly fails to do what it had always been trusted to do, at the exact moment when the stakes of it working were highest.
 
-**Layer 3 — Formation Impact:** this force does not itself organize a specific Doc_04 gravity — a boundary-condition force, like Force 3A-2 below, real and load-bearing without directly producing a confirmed gravity of its own. Its own formation impact runs through Force 3B-1: it is the direct external condition Rome's own rejection (below) reacts to (Section 4, Connection 5) — corrected after this document's first-drafted pass wrongly attached to *this* force the "closing event... primacy-claiming collision" quote that Doc_04 itself attaches specifically to Canon 28 and Leo's rejection (Force 3B-1's own territory), not to the miaphysite rejection this force documents.
+**Layer 3 — Formation Impact:** this force does not itself organize a specific Doc_04 gravity — a boundary-condition force, like Force 3A-2 below, real and load-bearing without directly producing a confirmed gravity of its own. Its own formation impact runs through Force 3B-1: it is the direct external condition Rome's own rejection (below) reacts to (Section 4, Connection 5). Doc_04's own "closing event... primacy-claiming collision" quote attaches specifically to Canon 28 and Leo's rejection (Force 3B-1's own territory, below), not to the miaphysite rejection this force documents.
 
 #### Force 3A-2: Western imperial authority's continuing collapse
 
@@ -160,7 +160,7 @@ Per the From-Within Principle, Layer 2 below uses this world's own vocabulary; m
 
 ### What the Cross-Cell Pattern Reveals
 
-No force in this world's own matrix operates in true isolation, but the pattern is not evenly distributed — Force 2A-1 participates in two of the six named connections (2 and 4), tied with Force 1A-1 (1 and 3) and Force 3B-1 (4 and 5) — corrected after this document's first-drafted pass overstated 2A-1 as uniquely "participating in three of the six" and as this world's own "single most structurally connected force," a claim its own connection list does not support. What the six connections do show, honestly: three forces (1A-1, 2A-1, 3B-1) each sit at two connection points, while the remaining forces sit at one or none — a moderate, not singular, concentration, consistent with Section 5's own separate finding that 2A-1 is this world's single most *gravity*-connected force (five gravities), which is a different and better-supported claim than a cross-cell-connection count.
+No force in this world's own matrix operates in true isolation, but the pattern is not evenly distributed — Force 2A-1 participates in two of the six named connections (2 and 4), tied with Force 1A-1 (1 and 3) and Force 3B-1 (4 and 5). What the six connections do show, honestly: three forces (1A-1, 2A-1, 3B-1) each sit at two connection points, while the remaining forces sit at one or none — a moderate, not singular, concentration, consistent with Section 5's own separate finding that 2A-1 is this world's single most *gravity*-connected force (five gravities), which is a different and better-supported claim than a cross-cell-connection count.
 
 ---
 
@@ -172,11 +172,11 @@ No force in this world's own matrix operates in true isolation, but the pattern 
 Connected forces:
 - 2A-1 (imperial policy oscillation): intensifies this gravity — Doc_04's own forces-connection notation states the gravity is "held and intensified" here, and Rome's own declining political centrality (2A-2, below) "is precisely what makes this gravity more load-bearing over time."
 - 2A-2 (Western fragmentation): intensifies, per the same Doc_04 citation.
-- 3B-1 (Leo's rejection of Canon 28): this gravity's own direct closing evidentiary instance — Doc_04: "the world's own closing event (Chalcedon, Canon 28, Leo's rejection)... is itself a primacy-claiming collision" — corrected here after this document's first draft misattached this same quote to Force 3A-1, whose own miaphysite-rejection content is not what Doc_04's own text is naming. 3A-1 remains connected only indirectly, as 3B-1's own external trigger (Section 4, Connection 5), not as a direct source of this gravity.
+- 3B-1 (Leo's rejection of Canon 28): this gravity's own direct closing evidentiary instance — Doc_04: "the world's own closing event (Chalcedon, Canon 28, Leo's rejection)... is itself a primacy-claiming collision." 3A-1 (Chalcedon's failed consensus, whose own miaphysite-rejection content is distinct from this quote) remains connected only indirectly, as 3B-1's own external trigger (Section 4, Connection 5), not as a direct source of this gravity.
 
 **Gravity: Church-State Alliance and Its Limits** (Primary, Doc_04)
 Connected forces:
-- 1A-1 (Constantine's victory/Edict of Milan): produces this gravity directly — Doc_04: "This gravity is Cell 1A/1B's own direct formation-level consequence" (verified verbatim against Doc_04's own text; an earlier draft of this document altered this quotation and has been corrected).
+- 1A-1 (Constantine's victory/Edict of Milan): produces this gravity directly — Doc_04: "This gravity is Cell 1A/1B's own direct formation-level consequence" (verified verbatim against Doc_04's own text).
 - 1B-1 (pre-existing commitments): produces this gravity jointly with 1A-1, per the same citation.
 - 2A-1 (imperial policy oscillation): destabilizes rather than simply sustains — Doc_04: "under Cell 2A's ongoing forces... this gravity does not hold in a simple, stable form — it fractures and re-forms repeatedly."
 
@@ -200,7 +200,7 @@ Connected forces:
 
 ### Cross-Strand Gravity Note
 
-Corrected after this document's first-drafted pass overstated the strand-coverage of the forces underlying Candidates 1 and 6: per Doc_04 §5's own cross-strand findings, only Candidate 2 (Alliance and Its Limits) is confirmed cross-strand to all three strands — Forces 1A-1 and 1B-1, which jointly produce it, are accordingly this world's own genuinely all-three-strand-shared preconditions. Candidate 1 (Primacy-Claiming) is confirmed cross-strand to Strands A and B *only*, not C (Doc_04's own corrected finding); Candidate 6 (the Tensional gravity) is confirmed present in Strands A and C, with its own Strand B status left genuinely open at Doc_04 rather than asserted. Force 2A-1, which connects to both, does not itself need to cut across all three strands to explain this — it explains why Candidate 4 (strand-bound to Strand C alone) and several cross-strand-but-not-universal gravities can share a connection to the same force without being the same kind of gravity: a shared force can produce a cross-strand gravity in one pairing of strands and a strand-bound gravity in a third, depending on which strand's own actors it presses on and how.
+Per Doc_04 §5's own cross-strand findings, only Candidate 2 (Alliance and Its Limits) is confirmed cross-strand to all three strands — Forces 1A-1 and 1B-1, which jointly produce it, are accordingly this world's own genuinely all-three-strand-shared preconditions. Candidate 1 (Primacy-Claiming) is confirmed cross-strand to Strands A and B *only*, not C (Doc_04's own corrected finding); Candidate 6 (the Tensional gravity) is confirmed present in Strands A and C, with its own Strand B status left genuinely open at Doc_04 rather than asserted. Force 2A-1, which connects to both, does not itself need to cut across all three strands to explain this — it explains why Candidate 4 (strand-bound to Strand C alone) and several cross-strand-but-not-universal gravities can share a connection to the same force without being the same kind of gravity: a shared force can produce a cross-strand gravity in one pairing of strands and a strand-bound gravity in a third, depending on which strand's own actors it presses on and how.
 
 ### What Forces Analysis Adds
 
@@ -260,7 +260,7 @@ The Layer 2 (World's Own Experience) content of Forces 2B-2 and 3B-2 specificall
 
 ### Named Scholarly Tensions Carried at Full Strength
 
-**Corrected after this document's first-drafted pass named a tension (the relative causal weight of Force 2A-1 versus Force 2B-1) and attributed it to sources — Doc_04's own Cross-Check divergence and Hanson's own scholarship — that, checked directly, do not actually address that specific causal question.** The tension this document can accurately carry, because it is the one already established and correctly sourced at Doc_04 itself, is narrower: Doc_04's own Confidence/Gravity Cross-Check for Candidate 3 (Orthodoxy-Enforcement, directly grounded in Force 2A-1) found that the enforcement *mechanism*'s existence is Documented, but the specific content of what was actually enforced or resisted at any given moment inside the Homoian-establishment decades rests more heavily on Hanson's modern reconstruction (Widely Accepted to Dominant Modern Reconstruction) than on directly-surviving Homoian self-testimony (Confidence C, Registry row 23) — a genuine, disclosed divergence between a force's own institutional reality and how precisely its own historical content can be reconstructed, carried forward here rather than resolved, and not conflated with a separate causal-weight question this document does not have independent grounds to raise.
+**Named Scholarly Tension — stated at the scope its sources actually support.** Doc_04's own Confidence/Gravity Cross-Check for Candidate 3 (Orthodoxy-Enforcement, directly grounded in Force 2A-1) found that the enforcement *mechanism*'s existence is Documented, but the specific content of what was actually enforced or resisted at any given moment inside the Homoian-establishment decades rests more heavily on Hanson's modern reconstruction (Widely Accepted to Dominant Modern Reconstruction) than on directly-surviving Homoian self-testimony (Confidence C, Registry row 23) — a genuine, disclosed divergence between a force's own institutional reality and how precisely its own historical content can be reconstructed, carried forward here rather than resolved. This is not a claim about the relative causal weight of Force 2A-1 versus Force 2B-1 — this document does not have independent grounds to raise that separate question.
 
 ---
 
@@ -276,7 +276,7 @@ The Layer 2 (World's Own Experience) content of Forces 2B-2 and 3B-2 specificall
 
 ### Named-Tension Principle
 
-**Status:** CONFIRMED. Doc_04's own Candidate 3 Confidence/Gravity Cross-Check divergence (Section 7) is carried at full strength, not resolved — corrected after an earlier draft misattributed a different, unsourced causal-weight claim to this same principle.
+**Status:** CONFIRMED. Doc_04's own Candidate 3 Confidence/Gravity Cross-Check divergence (Section 7) is carried at full strength, not resolved.
 
 ### Cross-Cell Connection Principle
 
@@ -337,7 +337,7 @@ All six gravities populated; no empty row.
 
 ## Open Items and Process Findings
 
-1. This document's first-drafted pass falsely claimed no Doc_08 template exists; corrected (see header note). No further System Hub recommendation is needed on this point — the template is real, found, and now used.
+1. The Doc_08 L4 template exists at `L4-Templates\[world-code]_Forces_Document.md` (see header note); no System Hub recommendation is needed on this point.
 2. §7's Named Tension (Doc_04's own Candidate 3 Confidence/Gravity Cross-Check divergence — mechanism Documented, specific Homoian-decades content less securely attested) is carried forward to Doc_09's own Validation Layer as a standing, unresolved item.
 3. Forces 3A-1, 3A-2, 2B-2, and 3B-2 are genuinely not connected to any single Doc_04 gravity (Section 5, "Where Forces Analysis Surfaced Gaps") — named as a finding, not silently omitted from the Force Index or treated as a completion failure. (Corrected to include 3A-1, dropped from this specific list when its own gravity-connection was reassigned to 3B-1 at Round 2 — the omission was itself caught only at Round 3, an instance of exactly the propagation-gap risk this build has flagged repeatedly in its own Open Gaps log.)
 

@@ -35,7 +35,10 @@ bucket files, deliberately: an exclusive partition would strip desert of the
 Vita Antonii, which is its evidential base. See corpus_map.py's docstring.
 
     python cic/engine/corpus_map_merge.py --check    # report, write nothing
-    python cic/engine/corpus_map_merge.py            # merge, then validate
+    python cic/engine/corpus_map_merge.py            # full merge: write every bucket, prune orphans
+    python cic/engine/corpus_map_merge.py --write-only anf02   # write only the buckets anf02's
+                                                                 # own staging file touches (see
+                                                                 # merge()'s own docstring)
 """
 from __future__ import annotations
 
@@ -133,7 +136,24 @@ def load_staging() -> tuple[list[dict], dict[str, dict], list[str]]:
     return rows, rulings, findings
 
 
-def merge(write: bool = True) -> tuple[dict[str, list[dict]], list[str]]:
+def merge(write: bool = True, write_only: list[str] | None = None) -> tuple[dict[str, list[dict]], list[str]]:
+    """write_only, distinct from the module-level ONLY (--check's own
+    filter): ONLY restricts what gets READ, which is right for one worker
+    validating its own file in isolation but wrong for a real write (a
+    partial read makes every bucket outside it look orphaned - the reason
+    main() below still refuses to combine ONLY with a real merge).
+    write_only restricts only what gets WRITTEN: it still reads every
+    staging file, so a bucket two volumes both touch is computed from
+    both, correctly - it just skips writing any bucket that the matching
+    staging file(s) don't themselves reference, and skips pruning
+    entirely, because a scoped run only ever has a partial view of which
+    buckets are truly orphaned. Built 2026-09-03 for exactly the case a
+    single build thread's own intake work needs: land its own world's
+    assignment without touching (or risking pruning) another world's
+    still-in-progress staging file, mid-flight in a different thread at
+    the same time. Run a full, unscoped merge periodically - or whenever
+    a deliberate, authoritative pass is actually wanted - to pick up
+    anything a run of scoped merges left unpruned."""
     import yaml
 
     rows, rulings, findings = load_staging()
@@ -168,7 +188,19 @@ def merge(write: bool = True) -> tuple[dict[str, list[dict]], list[str]]:
             encoding="utf-8")
 
     if write:
-        for atlas_id, works in sorted(buckets.items()):
+        if write_only:
+            in_scope = {
+                atlas_id
+                for row in rows
+                if any(token in row["_from"] for token in write_only)
+                for atlas_id in row["_atlas_ids"]
+            }
+            target_ids = sorted(in_scope & buckets.keys())
+        else:
+            target_ids = sorted(buckets.keys())
+
+        for atlas_id in target_ids:
+            works = buckets[atlas_id]
             if atlas_id in _NOT_A_BUCKET:
                 findings.append(f"refusing to write bucket named {atlas_id!r}")
                 continue
@@ -182,14 +214,30 @@ def merge(write: bool = True) -> tuple[dict[str, list[dict]], list[str]]:
         # a generated directory that keeps its own history is not generated.
         # Only files carrying the header are ever removed: anything a human
         # wrote by hand is left alone and reported instead.
-        for path in MAP_DIR.glob("*.yaml"):
-            if path.stem in buckets or path.name in _NOT_A_BUCKET | {"UNATTRIBUTED.yaml"}:
-                continue
-            if path.read_text(encoding="utf-8").startswith(_GENERATED_FIRST_LINE):
-                path.unlink()
-            else:
-                findings.append(f"{path.name}: hand-written, and nothing in staging produces it "
-                                "any more - merge left it alone; move it into _staging/ or delete it")
+        #
+        # SKIPPED ENTIRELY when write_only is set: pruning decides a bucket
+        # is orphaned because NO staging produces it - a decision that needs
+        # the full picture this run's restricted WRITE deliberately doesn't
+        # act on. A scoped run leaving a truly-orphaned bucket standing a
+        # while longer is the safe failure; a scoped run deleting a bucket
+        # another thread's staging file was mid-write on is not.
+        if not write_only:
+            for path in MAP_DIR.glob("*.yaml"):
+                # UNATTRIBUTED.yaml, WORKS.yaml (works_registry.py) and
+                # AUTHOR-IDS.yaml (author_ids.py) are all hand-written registries
+                # that live beside the buckets, not buckets themselves - the same
+                # fact corpus_map.py's own NON_BUCKET_FILES tracks for its
+                # loader. Two separate lists in two scripts rather than one
+                # shared constant (pre-existing shape, not changed here) - keep
+                # them in sync by hand when either grows.
+                if path.stem in buckets or path.name in _NOT_A_BUCKET | {
+                        "UNATTRIBUTED.yaml", "WORKS.yaml", "AUTHOR-IDS.yaml"}:
+                    continue
+                if path.read_text(encoding="utf-8").startswith(_GENERATED_FIRST_LINE):
+                    path.unlink()
+                else:
+                    findings.append(f"{path.name}: hand-written, and nothing in staging produces it "
+                                    "any more - merge left it alone; move it into _staging/ or delete it")
     return buckets, findings
 
 
@@ -200,17 +248,36 @@ def main(argv: list[str] | None = None) -> int:
                         help="with --check: consider only staging files whose name contains one "
                              "of these, so a worker can validate its own files while others are "
                              "mid-write")
+    parser.add_argument("--write-only", nargs="*", default=None, metavar="TOKEN",
+                        help="write only the Atlas-entry bucket(s) that staging file(s) whose "
+                             "name contains one of these tokens actually touch - still reads "
+                             "every staging file for a correct picture of those buckets' full "
+                             "contents, just restricts what lands on disk, and skips pruning "
+                             "entirely (see merge()'s own docstring for why). Use this from "
+                             "inside one build thread's own intake work so it can never touch or "
+                             "prune another world's still-in-progress staging file; run a plain, "
+                             "full merge (no flags) periodically for the complete, authoritative "
+                             "pass.")
     args = parser.parse_args(argv)
     if args.only and not args.check:
         parser.error("--only is for --check; a partial merge would prune every other bucket")
+    if args.write_only is not None and args.check:
+        parser.error("--write-only writes buckets; --check writes nothing. Use one or the other.")
+    if args.write_only == []:
+        parser.error("--write-only needs at least one token - an empty list would write nothing")
     ONLY[:] = args.only
 
-    buckets, findings = merge(write=not args.check)
+    buckets, findings = merge(write=not args.check, write_only=args.write_only)
     _, rulings, _ = load_staging()
     total = sum(len(v) for v in buckets.values())
     staged = len({(w.get("work"), w.get("source_file")) for ws in buckets.values() for w in ws})
+    scope_note = ""
+    if args.check:
+        scope_note = "  [check only, nothing written]"
+    elif args.write_only:
+        scope_note = f"  [scoped write: {' '.join(args.write_only)!r} - pruning skipped]"
     print(f"{staged} distinct work(s) → {total} assignment(s) across {len(buckets)} Atlas entry(ies)"
-          + ("  [check only, nothing written]" if args.check else ""))
+          + scope_note)
 
     multi = sorted(((len({a for a, ws in buckets.items() if any(
         w.get("work") == work and w.get("source_file") == src for w in ws)}), work)

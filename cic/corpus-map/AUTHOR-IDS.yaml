@@ -1,0 +1,48 @@
+# cic/corpus-map/AUTHOR-IDS.yaml — external identity keys for author slugs
+#
+# WHY. Identity is mechanical; classification is interpretive (the same
+# line WORKS.yaml draws for works, drawn here for authors). Attaching a
+# Wikidata Q-id to an author slug answers one narrow, checkable question -
+# "is `augustine` in this file the same person Wikidata calls Augustine of
+# Hippo" - by reference, without importing any subject taxonomy or
+# biographical judgment. It resolves nothing about tradition, era-bucket,
+# or corpus-map role; those stay exactly where they already are.
+#
+# KEYED TO cic/texts/AUTHORS.md's OWN SLUGS, NOT WORKS.yaml's. This is a
+# real, known inconsistency worth stating plainly rather than quietly
+# picking one: AUTHORS.md's slugs come straight from each file's own
+# <DC.Creator> markup (short forms - `augustine`, `basil`, `tertullian`),
+# while WORKS.yaml's four seed entries used longer, hand-disambiguated
+# slugs (`augustine-of-hippo`, `athanasius-of-alexandria`) written before
+# this file existed to cross-reference against. Reconciling the two into
+# one slug convention is real, deliberate work - a rename touches every
+# existing reference to whichever slug loses - and is NOT done here by
+# accident just because this file needed to pick one. This file picked
+# AUTHORS.md's because it is the one actually generated from the corpus's
+# own markup, not hand-typed.
+#
+# STATUS: SEEDED, NOT COMPLETE. Five of AUTHORS.md's 77 authors, each
+# verified via WebSearch against Wikidata directly, 2026-09-02 - the same
+# incremental-seeding shape WORKS.yaml and download-queue-seed.yaml both
+# use. Do not fill in the other 72 from memory; verify each the same way
+# or leave it out.
+#
+# SCHEMA: author_slug (matching AUTHORS.md) -> {wikidata, viaf}. Either
+# field may be null if genuinely unverified - never guessed.
+
+authors:
+  augustine:
+    wikidata: "Q8018"
+    viaf: "66806872"
+  tertullian:
+    wikidata: "Q174929"
+    viaf: "100226395"
+  origen:
+    wikidata: "Q170472"
+    viaf: "95155322"
+  jerome:
+    wikidata: "Q44248"
+    viaf: "95147024"
+  basil:
+    wikidata: "Q44258"
+    viaf: "88967224"

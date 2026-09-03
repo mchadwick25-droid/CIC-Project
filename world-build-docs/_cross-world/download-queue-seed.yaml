@@ -1,0 +1,111 @@
+# Human-verified, ready-to-download candidates - the seed half of
+# DOWNLOAD-QUEUE.md (see gen_download_queue.py). The other half is
+# WANTS-REGISTER.md's own "acquirable, public domain" bucket, which is
+# already generated from records/ and needs no seeding here.
+#
+# WHY A SEPARATE SEED FILE, NOT JUST WANTS-REGISTER.md's OWN OUTPUT.
+# WANTS-REGISTER.md is reactive by construction: an entry appears only
+# after some world's build thread has already written a `source` record
+# citing something it can't read. Every entry below was found the OTHER
+# direction - a session went looking for a public-domain edition of
+# something no world had cited yet, verified it against a real host, and
+# recorded it here BEFORE any source record exists. Ammianus Marcellinus
+# 27.3 is the clearest case: confirmed public domain 2026-09-02, and still
+# absent from WANTS-REGISTER.md's own acquirable bucket as of that date,
+# because nothing had cited it yet for the register's own generator to see.
+#
+# HAND-MAINTAINED, APPEND-ONLY - same discipline as WORKS.yaml. Add a row
+# when a candidate is actually verified against a real host, not when it
+# merely seems likely; leave rights_basis fields unfilled rather than
+# guessed, per this project's standing rule against fabricated citations.
+# Move a row's status to "downloaded" once vendored - don't delete it,
+# the same no-rewrite-history practice texts_registry.py already follows.
+#
+# SCHEMA, per candidate:
+#   title, author, translator, year
+#   world:          which world's build surfaced the need (informational -
+#                   the same edition may serve other worlds too, per
+#                   corpus-map's own non-exclusive assignment principle)
+#   why:            what gap this closes, and how it was found
+#   url:            the specific host page verified to carry it
+#   rights_basis:   one of texts_registry.py's rights_clears() categories,
+#                   or "pd-us-by-date" pending that enum's own formalization
+#   verified_by:    who/what actually confirmed the URL and rights basis
+#                   carries the edition claimed, and when
+#   status:         not-yet-downloaded | downloaded | superseded
+
+queue:
+  - title: "Vita Ambrosii (Life of Ambrose)"
+    author: "Paulinus of Milan"
+    translator: "Sr. Mary Simplicia Kaniecka"
+    year: 1928
+    world: ijc
+    why: >
+      Independently located by both an Opus adversarial review and a
+      Fable research pass, 2026-09-02, while sorting WANTS-REGISTER.md's
+      "unclassified" bucket for ijc's Paulinus-of-Milan row. Kaniecka's
+      CUA Patristic Studies edition (Latin text with English translation)
+      was originally misfiled as "needs a research pass"; both independent
+      checks found it already exists and is already public domain.
+    url: "https://archive.org/details/vitasanctiambros00paul"
+    rights_basis: pd-us-by-date
+    verified_by: "Opus adversarial review + Fable research pass, 2026-09-02 (independent, cross-confirmed)"
+    status: not-yet-downloaded
+
+  - title: "The Liturgies of SS. Mark, James, Clement, Chrysostom, and Basil"
+    author: "attrib. Basil of Caesarea (the Basil liturgy specifically)"
+    translator: "J. M. Neale"
+    year: "1859 (2nd ed. 1868/69)"
+    world: cappadocian
+    why: >
+      An initial guess at Brightman's 1896 "Liturgies Eastern and Western"
+      as the PD English source for the Liturgy of St. Basil could not be
+      confirmed (Brightman keeps the Byzantine material largely in Greek).
+      Neale's earlier translation was found as the real candidate during
+      the same Opus adversarial review, 2026-09-02.
+    url: "https://archive.org/details/liturgiesofssmar00neal"
+    rights_basis: pd-us-by-date
+    verified_by: "Opus adversarial review, 2026-09-02"
+    status: not-yet-downloaded
+
+  - title: "Res Gestae, Book 27.3"
+    author: "Ammianus Marcellinus"
+    translator: "C. D. Yonge"
+    year: "1862 (also a 1902 London printing)"
+    world: ijc
+    why: >
+      Sat as an "unclassified" WANTS-REGISTER row through an oversight in
+      that register's first sort - flagged by an Opus adversarial review,
+      2026-09-02, then directly verified against two real hosts.
+    url: "https://www.gutenberg.org/files/28587/28587-h/28587-h.htm"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebSearch verification, 2026-09-02"
+    status: not-yet-downloaded
+
+  - title: "Lives of the Twelve Caesars (Claudius 25.4, Nero 16)"
+    author: "Suetonius"
+    translator: "J. C. Rolfe"
+    year: 1914
+    world: pahc
+    why: >
+      The Chrestus-clause (Claudius 25.4) and Christian-persecution notice
+      (Nero 16) sat unclassified pending a PD-edition check. Rolfe's Loeb
+      translation, verified directly, 2026-09-02.
+    url: "https://archive.org/details/suetonius-loeb"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebSearch verification, 2026-09-02"
+    status: not-yet-downloaded
+
+  - title: "The Odes and Psalms of Solomon, Published from the Syriac Version"
+    author: "Anonymous (the Odes of Solomon, 42 odes)"
+    translator: "J. Rendel Harris"
+    year: "1909 (2nd ed. 1911)"
+    world: syr
+    why: >
+      Sat unclassified in WANTS-REGISTER.md; Harris's edition (the first
+      publication of the recovered manuscript) verified directly,
+      2026-09-02.
+    url: "https://archive.org/details/TheOdesAndPsalmsOfSolomon"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebSearch verification, 2026-09-02"
+    status: not-yet-downloaded

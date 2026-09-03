@@ -138,6 +138,67 @@ result review) is served by the record store itself plus its generated
 views — S6.2's close-out audits machine-verified the old workbooks as
 fully absorbed before retiring them. Do not create new workbooks.
 
+**Cross-world source layer (added 2026-09-02) — check this BEFORE
+drafting Doc_02's Source Registry, not after.** Six built worlds' worth
+of vendoring already sits in `cic/texts/`, tracked and searchable
+independently of any one world's own request process. A new world's
+Doc_02/G1 work is verification-first against that layer, not
+download-first from zero — Gaul is the standing example (G0's own
+provenance note in the launch prompt already says so). Concretely, in
+order:
+
+1. **See what's already assigned to this world's own Atlas entry** —
+   `python cic/engine/corpus_map.py --coverage`, or read
+   `cic/corpus-map/<atlas-id>.yaml` directly if it exists. The bucket
+   filename IS the census id (`cic-website/data/world-census.json`'s own
+   `id` field) — no lookup needed. Anything listed there is a vendored
+   work with a role (`tradition`/`context`/`antecedent`/`transmission`)
+   and confidence already argued out; a Doc_02 row citing one of these
+   starts from that reasoning, not from zero.
+2. **Search across everything vendored, not just this world's own prior
+   citations** — `python cic/engine/corpus_index.py "TERM" --entry
+   <atlas-id> --limit N` (build the index once per session with
+   `corpus_index.py --build` — it's derived, gitignored, ~10 seconds for
+   the whole corpus). Returns ranked hits scoped to this world's own
+   corpus-map assignments, each with a canonical address
+   (`cic:<file>:<locus>`) ready to paste into a source row's own locus.
+3. **For anything genuinely not yet vendored**, run
+   `world-build-docs/_cross-world/discovery_helper.py` on a machine
+   with real network (never inside a build thread's own sandbox — every
+   patristic text host is blocked there) to find real candidates before
+   falling back to open-ended web search. It prints a paste-ready,
+   UNVERIFIED stub — never add it to the Manifest without independently
+   confirming the URL and rights basis yourself.
+4. **A confirmed candidate goes into
+   `world-build-docs/_cross-world/download-queue-seed.yaml`**, not only
+   this world's own Manifest — the same edition may close a gap for a
+   later world too, and a source found once should never need finding
+   twice.
+5. **After Mark vendors a file** (attached directly in a chat message, per
+   `cic/texts/INTAKE.md` — the full procedure from attachment to a
+   registered, findable text, including the rights-checklist and naming
+   convention for original-language witnesses, which Mark is now also
+   sourcing directly in Greek/Latin/Syriac as second witnesses, never as
+   primary evidence), add its row to `cic/texts/REGISTRY.yaml` and assign
+   the work into this world's corpus-map bucket via a
+   `cic/corpus-map/_staging/` file + `corpus_map_merge.py --write-only
+   <own-volume-token>` (2026-09-03 — a plain, unscoped merge writes and
+   PRUNES every bucket every current staging file touches, which risks
+   finalizing or deleting another world's still-in-progress staging
+   mid-build; `--write-only` still reads everything for a correct
+   picture, it just restricts what actually gets written, and skips
+   pruning) — this is what makes the NEXT world's step 1 above find it.
+6. **Cite with a canonical address where one exists** — a source row's
+   `sources[].address` field (sibling to `locus`, added 2026-09-02)
+   takes the exact string step 2 returns. Optional; `locus` alone still
+   validates.
+
+None of this replaces Doc_02's own judgment about what belongs in THIS
+world's registry — corpus-map assignment and a Source Registry row are
+different questions (shared custody of a text vs. this world's own
+argued use of it). It replaces re-discovering, by hand, what six other
+build threads already found.
+
 ---
 
 ## 3. Phase B — Record-store authoring (born under the live gates)

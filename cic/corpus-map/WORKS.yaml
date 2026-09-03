@@ -1,0 +1,205 @@
+# cic/corpus-map/WORKS.yaml — one entry per ancient Work, not per vendored file
+#
+# WHY THIS EXISTS. corpus-map's own buckets (<census-id>.yaml) answer "what
+# belongs to this Atlas entry." Nothing before this file answered "is the
+# 'Vita Antonii' a source record cites in one world the same Work another
+# world's record calls 'The Life of Saint Anthony (Syriac recension)' -- or
+# a different one." That join has been done by a human reading two records
+# side by side every time it came up. This file is the join key, following
+# the FRBR/IFLA-LRM Work/Expression/Manifestation distinction the project
+# was already making in prose without a shared identifier for it.
+#
+# WHAT THIS IS NOT. Not a tier, not a quote-worthiness ranking, not a
+# glossary. Strictly bibliographic -- the same discipline WANTS-REGISTER.md
+# states for itself: "a measure of what acquiring it would unlock, not an
+# opinion about the work's importance." A world's own source/quote/story
+# records remain the only place interpretive judgment about a Work lives.
+#
+# STATUS: SEEDED, NOT COMPLETE. Four entries, each chosen either because
+# this session verified its external identifiers directly (Vita Antonii,
+# Augustine's Confessions) or because it demonstrates a schema case worth
+# having on record even unverified (Cyprian's Letters, Palladius's Lausiac
+# History -- both already load-bearing across multiple worlds per
+# CORPUS-USE.md). This is the same incremental-seeding shape corpus-map
+# itself used (nine entries at launch, not 274) -- expand it as work
+# actually needs a join, not by trying to pre-populate every author in the
+# 64 vendored files in one pass, which risks exactly what this project
+# refuses to do: guessing at a Clavis or Wikidata number that was never
+# actually checked. external_ids fields left null below are UNVERIFIED,
+# not absent by choice -- do not fill them from memory later either.
+#
+# HAND-MAINTAINED, APPEND-ONLY. Unlike corpus-map's own _staging/-merged
+# split (built for many parallel writers on 274 buckets), one file is
+# enough at this size. If this grows past what one person can safely edit
+# at once, adopt corpus-map's staging pattern rather than inventing a new
+# one -- it is already proven on this exact problem shape.
+#
+# SCHEMA, per work:
+#   work_id:            slug, stable, referenced by canonical addresses below.
+#                       Also the foreign key a world's own `source` record can
+#                       carry in its own (optional) `work_id` field, added
+#                       2026-09-02 per Mark's sign-off: "optional/best effort
+#                       and existing where possible" - not required, not
+#                       backfilled by guessing, only set where a source
+#                       record's own author+work+edition already and
+#                       unambiguously match one entry here. Cross-checked by
+#                       cic/engine/works_registry.py's record_work_id_usage(),
+#                       not by the record schema itself.
+#   title:               the work's own conventional English title
+#   author:               author slug (matches corpus-map's author convention
+#                         where one exists, e.g. UNATTRIBUTED.yaml's slugs)
+#   original_language:   language(s) of composition
+#   composed:             approximate date or range
+#   external_ids:        CPG (Clavis Patrum Graecorum) / CPL (Clavis Patrum
+#                         Latinorum) / wikidata Q-id / ccel_work slug -- any
+#                         field left null is unverified, not "none exists"
+#   expressions:         one entry per distinct translation/recension
+#     - translator:
+#       year:
+#       language:         the TARGET language of this expression (almost
+#                         always English here), noted separately from
+#                         original_language above
+#       recension:         which underlying text-form this expression
+#                         translates, when more than one circulates (e.g.
+#                         Greek vs. Syriac) -- null when there is only one
+#       items:             the actual vendored file(s)/section(s) carrying
+#                         this expression, as canonical addresses (see
+#                         cic/corpus-map/README.md's forthcoming addressing
+#                         note) in the form cic:<file-stem>:<locus>, where
+#                         <locus> is the file's own ThML div id, a plain-text
+#                         section/letter marker, or (last resort) a line
+#                         range -- never a bare line number alone if the
+#                         file carries its own structural markers instead
+
+works:
+  - work_id: athanasius-vita-antonii
+    title: "Life of Antony (Vita Antonii)"
+    author: athanasius-of-alexandria
+    original_language: Greek
+    composed: "c. 360 CE"
+    external_ids:
+      cpg: "2101"          # verified via WebSearch, 2026-09-02 -- the Greek
+                            # original; CPG 2101a is the anonymous early
+                            # Latin version, CPG 2101 (again) covers
+                            # Evagrius of Antioch's Latin translation --
+                            # CPG reuses numbers across versions of one
+                            # work, not a per-file scheme; recorded as-is
+                            # rather than smoothed into false precision
+      cpl: null
+      wikidata: null       # not confirmed this session
+      ccel_work: null
+    expressions:
+      - translator: "H. Ellershaw, rev. Archibald Robertson"
+        year: 1892
+        language: English
+        recension: Greek
+        items:
+          - "cic:npnf204_athanasius-select-works-letters.xml:xvi"
+    notes: >
+      The paradigm non-exclusive case corpus-map/README.md already names:
+      Athanasius's own Work, drawn on as a load-bearing primary source by
+      both alx (Alexandria, Athanasius's own tradition) and desert (Egyptian
+      monasticism, the Work's subject), at real and different weight in
+      each -- 48-53 alx records and 43-53 desert records depending on which
+      generated CORPUS-USE.md snapshot is read. A Syriac recension of the
+      same underlying Life is also in this corpus, carried inside
+      palladius_paradise-v1-syriac_budge1907.txt rather than as its own
+      file (see that work's own item note, not modeled as a separate
+      expression here yet -- Budge's volume is itself an unresolved
+      multi-work compilation, flagged under palladius-paradise-vol1 below).
+
+  - work_id: augustine-confessiones
+    title: "Confessions (Confessiones)"
+    author: augustine-of-hippo
+    original_language: Latin
+    composed: "397-400 CE"
+    external_ids:
+      cpl: "251"            # verified via WebSearch, 2026-09-02
+      cpg: null
+      wikidata: "Q372941"   # verified via WebSearch, 2026-09-02
+      ccel_work: null
+    expressions:
+      - translator: "J. G. Pilkington"
+        year: 1886
+        language: English
+        recension: null
+        items:
+          - "cic:npnf101_augustine-confessions-letters.xml:vi"
+    notes: >
+      Single-expression, single-item, single-world (ijc, per ijc.source.
+      augustine-confessions and hal.search.npnf101-augustine) -- the plain
+      case this schema has to handle correctly before the harder
+      multi-expression ones matter. Kept as a seed entry for exactly that
+      reason: a work with nothing complicated about it is still worth one
+      row, to prove the schema isn't over-fit to the hard cases below.
+
+  - work_id: cyprian-epistulae
+    title: "Letters (Epistulae)"
+    author: cyprian-of-carthage
+    original_language: Latin
+    composed: "c. 249-258 CE"
+    external_ids:
+      cpl: null   # NOT confirmed -- WebSearch this session found CPL's
+                  # existence and general numbering scheme but not
+                  # Cyprian's own entry; left null rather than guessed
+      cpg: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "Robert Ernest Wallis"
+        year: 1868
+        language: English
+        recension: null
+        items:
+          - "cic:anf05_hippolytus-cyprian-caius-novatian.xml:iv"
+    notes: >
+      ~82 individually addressable letters inside one div1 (id="iv",
+      "Cyprian" -- confirmed by direct read of the vendored file's own
+      structure, 2026-09-02). Flagged in cic/texts/README.md's own ENTRIES
+      note on this file as "primary-source material for the not-yet-built
+      Latin Pastoral-Congregational Christianity world" and structured
+      letter-by-letter specifically because that future world will need to
+      address individual letters rather than reading forward through
+      flowing prose. This entry's div-level item address is a placeholder
+      for that need, not a finished one -- a future pass should record each
+      letter's own sub-div id here once a world actually cites one, the
+      same "don't pre-build what nothing needs yet" discipline
+      WANTS-REGISTER.md states for itself.
+
+  - work_id: palladius-lausiac-history
+    title: "The Lausiac History"
+    author: palladius-of-galatia
+    original_language: Greek
+    composed: "c. 419-420 CE"
+    external_ids:
+      cpg: null   # not checked this session
+      cpl: null
+      wikidata: null
+      ccel_work: null
+    expressions:
+      - translator: "W. K. Lowther Clarke"
+        year: 1918
+        language: English
+        recension: Greek
+        items:
+          - "cic:palladius_lausiac-history_clarke1918.txt:whole-file"
+      - translator: "E. A. Wallis Budge"
+        year: 1907
+        language: English
+        recension: Syriac
+        items:
+          - "cic:palladius_paradise-v1-syriac_budge1907.txt:book-i"
+    notes: >
+      The multi-expression case this schema exists to carry correctly:
+      the SAME underlying work, two independent translations from two
+      different ancient recensions (Greek vs. the Syriac 'Paradise' form),
+      cited across four worlds per the live corpus_map.py run (alx, desert,
+      hal, syr) at very different weights -- desert alone reaches 33 records
+      through Clarke and 80 through Budge. Collapsing these into one
+      expression would misrepresent which wording a given quote record
+      actually rests on; keeping them separate here is what lets a future
+      "does this quote match its cited translation" check work at all.
+      Item addresses are file-level placeholders (Clarke's file has no
+      internal div markers; Budge's is one of the still-unmodeled
+      multi-work compilations noted under athanasius-vita-antonii above) --
+      narrowing them to real loci is future work, not done here.

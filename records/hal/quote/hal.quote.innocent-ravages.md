@@ -22,10 +22,10 @@ text: 'The holy virgins Eustochium and Paula have deplored to me the ravages, mu
   district belonging to their church; for with wonderful clemency and generosity they
   have left untold the name and motive of his human agent.'
 modern_rendering: >-
-  The holy virgins Eustochium and Paula have described to me the destruction,
-  murders, fires, and outrages of every kind that, as they say, the devil has
-  carried out in their church's district. With wonderful mercy and generosity,
-  they have left unnamed the human agent and his motive.
+  Eustochium and Paula, two holy women, told me what happened. In their
+  church's district, they said, the devil brought destruction: murders,
+  fires, and every kind of outrage. But they showed wonderful mercy. They
+  never named who did it, or why.
 speaker_or_author: 'Pope Innocent I, Letter 137 (to John of Jerusalem)'
 license: verbatim
 modern_lens_note: '"Outrages" in this register names violent physical injuries, not the modern primary sense of indignation or scandal. "The devil... his human agent" reflects the era''s genuine attribution of the violence to demonic agency working through an unnamed person, not rhetorical hyperbole.'
