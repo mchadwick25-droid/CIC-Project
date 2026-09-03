@@ -109,3 +109,113 @@ queue:
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
     status: not-yet-downloaded
+
+  - title: "S. Thasci Caecili Cypriani opera omnia"
+    author: "Cyprian of Carthage"
+    translator: "Wilhelm (Guilelmus) von Hartel (ed.)"
+    year: "1868-1871 (CSEL 3.1-3.3)"
+    world: lpc
+    why: >
+      lpc's own Source_Acquisition_Manifest.md G1. A critical Latin edition
+      and independent apparatus for the Cyprianic corpus, distinct from the
+      already-vendored ANF05 English translation (which follows Migne, not
+      Hartel) and from the modern in-copyright standard (CCSL 3, 1972-1999,
+      Registry row 58, not a vendoring candidate). Only volume 3.2 (the
+      Epistulae) has a located identifier; 3.1 (treatises) and 3.3 (spuria/
+      indices) were searched for but not found this session - disclosed
+      as an open gap, not silently dropped.
+    url: "https://archive.org/details/CorpusScriptoruEcclesiasticorumLatinorum3.2Cyprian"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, live web search, 2026-09-01 (vol. 3.2 only)"
+    status: not-yet-downloaded
+
+  - title: "Sancti Augustini Vita Scripta a Possidio Episcopo"
+    author: "Possidius of Calama"
+    translator: "Herbert T. Weiskotten (ed. and trans.)"
+    year: 1919
+    world: lpc
+    why: >
+      lpc's own G3, its own strongest candidate. Possidius was Augustine's
+      companion for decades and wrote the Augustine-side counterpart to
+      Pontius's already-vendored Life of Cyprian (row 7) - closes a
+      one-sided formation-narrative gap this world's own Doc_02 SS4/SS9
+      names. Also the underlying source for the Megalius/primate-of-Numidia
+      identification Doc_01 SS5/SS9 disclose as resting on an unvendored
+      work. Latin text with facing English translation - would clear both
+      the English-evidence and original-language-witness needs at once.
+    url: "https://archive.org/details/sanctiaugustiniv00possrich"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, live web search + Cambridge Classical Review cross-citation, 2026-09-01"
+    status: not-yet-downloaded
+
+  - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae"
+    author: "Augustine of Hippo"
+    translator: "Alois Goldbacher (ed.)"
+    year: "1895-1923 (CSEL 34/1, 34/2, 44, 57, 58)"
+    world: lpc
+    why: >
+      lpc's own G4. Critical Latin edition of the Jerome correspondence and
+      general correspondence (Registry rows 10-11, two Confidence-A rows
+      resting on a 19th-century English translation of Migne with no named
+      critical apparatus beneath it) - the same gap G1 names for Cyprian,
+      here for Augustine's letters. Would also help settle the letter-
+      numbering confusion row 46 (Clarke, in-copyright) exists to answer by
+      hand. Only CSEL 57 (letters 185-270) and 58 (preface/indices) located
+      this session; 34/1, 34/2, 44 not found - disclosed as an open gap.
+    url: "https://archive.org/details/CSEL57"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, live web search, 2026-09-01 (CSEL 57 and 58 only)"
+    status: not-yet-downloaded
+
+  - title: "Histoire litteraire de l'Afrique chretienne depuis les origines jusqu'a l'invasion arabe, vols. I-III"
+    author: "Paul Monceaux"
+    translator: null
+    year: "1901-1905"
+    world: lpc
+    why: >
+      lpc's own G5. Foundational literary-historical treatment of Cyprian's
+      place in the wider African Christian-Latin literary tradition,
+      distinct in kind from the modern in-copyright monographs already
+      consultation-only in this Registry (rows 30-36). Vol. II (Saint
+      Cyprien et son temps) bears directly on this world's own Cyprian
+      phase. Tome VII of the same series (Saint Augustin et le Donatisme,
+      1923) is a further, not-yet-formally-requested candidate on the
+      Augustine side, per the same author's own later volumes.
+    url: "https://archive.org/details/histoirelittra00moncuoft"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, live web search, 2026-09-01 (vol. I via this URL; vol. III also confirmed at archive.org/details/histoirelitterai03monc_0; Gallica mirror at gallica.bnf.fr/ark:/12148/bpt6k141717k)"
+    status: not-yet-downloaded
+
+  - title: "Die cyprianische Briefsammlung: Geschichte ihrer Entstehung und Ueberlieferung"
+    author: "Hans von Soden"
+    translator: null
+    year: 1904
+    world: lpc
+    why: >
+      lpc's own G7, the sharpest gap its own Round 6 found. The standard
+      study of how Cyprian's letter collection was formed, ordered, and
+      transmitted across manuscript families - directly on the problem
+      Registry row 46 (Clarke, in-copyright) currently answers only "by
+      hand," and the same problem behind this build's own Ep. XL/Epistle
+      XXXIX citation error, caught only at Doc_02's own Round 1 after
+      propagating across two documents and nine Doc_01 review rounds.
+    url: "https://archive.org/details/diecyprianische00unkngoog"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, live web search (digitized from Harvard University Library's own copy), 2026-09-02"
+    status: not-yet-downloaded
+
+  - title: "Les Passions des martyrs et les genres litteraires"
+    author: "Hippolyte Delehaye"
+    translator: null
+    year: "1921 (2nd ed. 1966)"
+    world: lpc
+    why: >
+      lpc's own G9. The foundational modern study of what the passio/
+      formation-biography genre reliably preserves and where it shapes -
+      an instrument Doc_02 SS2/SS4's own Author Gravity assessment of
+      Pontius's already-vendored Life names the risk of without naming any
+      scholarly account of the genre itself. Closes that gap.
+    url: "https://archive.org/details/lespassionsdesm00dele"
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, live web search, 2026-09-02"
+    status: not-yet-downloaded
