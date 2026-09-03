@@ -200,7 +200,7 @@ svg#world{display:block;overflow:visible}
 <div id="scopeNote">
   <button id="scopeClose" type="button" aria-label="Dismiss">&times;</button>
   <b>What this tests:</b> real census data (292 movements, 69 sourced edges) drawn as
-  ten era bands sized by density and thirteen tradition-family rivers that wind and
+  ten era bands sized by density and fourteen tradition-family rivers that wind and
   widen by real density, drift toward lanes they're documented as contemporary with
   and away from ones they argued against or stood in tension with, with generalization
   by zoom and participant-only pan/zoom. The thin lines crossing between worlds are
@@ -17117,9 +17117,9 @@ const DATA = {
    "regions": [
     "North Europe"
    ],
-   "lane": "3<->6 span (Greek East / Protestant)",
-   "laneLabel": "Greek East / Protestant — span",
-   "laneOrder": 3.5,
+   "lane": "3.6 (Greek East / Protestant bridge)",
+   "laneLabel": "Greek East / Protestant — bridge",
+   "laneOrder": 3.6,
    "beyondFloor": false,
    "status": "Pre-Survey Candidate",
    "chip": "psc",
@@ -19792,11 +19792,25 @@ const DATA = {
 // because this map already carries the secondary encoding the skill
 // requires for that band -- each family also has a fixed lane position
 // and a text label on hover/click, never color alone. Full pairwise
-// separation across all 13 (not just neighbors) was not chased: the
+// separation across all 14 (not just neighbors) was not chased: the
 // method's own categorical ceiling is 8 hues, already tight, so a
 // non-adjacent pair (e.g. two different bridge lanes) can still read
-// similarly -- an accepted, structural limit at 13 categories, not an
+// similarly -- an accepted, structural limit at 14 categories, not an
 // oversight.
+// k:3.6 added 2026-09: a real 14th lane, not a fix folded into an
+// existing one. The Persecuted-Church movement's own record calls it a
+// "3<->6 span (Greek East / Protestant)", but the census's bridge-naming
+// convention (lower lane + 0.5) collided it onto 3.5 -- the SAME slot as
+// the six real Greek Catholic/Uniate movements, an unrelated Greek East/
+// Latin West seam. That miscounted it into "Greek/Latin bridge" by pure
+// arithmetic coincidence, not any curatorial judgment that it belonged
+// there. Rather than force it onto an existing family it doesn't share a
+// history with, or the easier fix of just relabeling its own text to
+// match wherever it landed, it gets the dedicated lane its own record
+// already claimed. c/cd re-validated the same way as the other 13 (this
+// script's own re-step): PASS on every adjacent-pair gate in both themes
+// against its new neighbors (Greek/Latin bridge, Africa), landing in the
+// same accepted dark-mode relief band five other lanes already carry.
 const FAM=[
  {k:0,  lbl:"Origin",      c:"#e15a4f", cd:"#e86155"},
  {k:1,  lbl:"Syriac East", c:"#883a51", cd:"#95455c"},
@@ -19804,6 +19818,7 @@ const FAM=[
  {k:2,  lbl:"Caucasus",    c:"#29672e", cd:"#357339"},
  {k:3,  lbl:"Greek East",  c:"#3849b6", cd:"#4255c4"},
  {k:3.5,lbl:"Greek/Latin bridge", c:"#9c74d9", cd:"#a27adf"},
+ {k:3.6,lbl:"Greek East/Prot. bridge", c:"#d76821", cd:"#de6e29"},
  {k:4,  lbl:"Africa",      c:"#009fab", cd:"#12a5b1"},
  {k:5,  lbl:"Latin West",  c:"#7c4b00", cd:"#8b5500"},
  {k:5.5,lbl:"Latin/Prot. bridge", c:"#71379a", cd:"#7d43a7"},
@@ -20318,8 +20333,15 @@ const RIVER_LORE={
     "originStory": "This lane exists because two kinds of Christians fit neither of the map's big rivers. The first is the undivided imperial church of 312–451 — Constantine's Rome and Constantinople, Ambrose's Milan — when Greek East and Latin West were one communion under one emperor, and the councils from Nicaea to Chalcedon were joint enterprises, however unevenly attended. The second is the Eastern Catholic churches born a millennium after that unity broke: Ruthenian bishops who accepted papal authority at Brest in 1596 while keeping Byzantine worship, for reasons historians still weigh — Counter-Reformation pressure, a wish for parity with Latin colleagues, distrust of both Constantinople and the new Moscow patriarchate; and the Antiochene Melkites, whose rival elections of 1724 split an Arabic-speaking Byzantine-rite church into Catholic and Orthodox halves. The twentieth-century entries record what Soviet power did to such churches.",
     "theology": "There is no single theology here, only two answers to one question: can one church hold Greek and Latin ways of being Christian together? In the fourth and fifth centuries the answer was assumed rather than argued — one creed, one emperor, Rome and Constantinople contesting rank but not communion, and for long stretches the palace backing Homoian rather than Nicene bishops. The Greek Catholic churches gave a later, harder answer: acceptance of the papacy and, after the Synod of Zamość in 1720, of the filioque and several Latin devotions, while retaining the Byzantine liturgy, married parish clergy, leavened bread and Eastern fasting. Orthodox critics long read the union as a rite emptied of its theology; Greek Catholic apologists insisted the rite carries the theology, which is why the 1946–89 underground would not simply turn Orthodox to survive.",
     "practices": "In the imperial century the bridge was lived in shared institutions: bishops travelling to councils, imperial rescripts settling church property, the same creed subscribed in both languages, and Latin pilgrims like Egeria at Jerusalem's Greek liturgies, where translators rendered the bishop's words into Syriac and Latin. The Greek Catholic entries lived it as a daily double identity: the Byzantine Divine Liturgy in Church Slavonic or Arabic, Julian-calendar feasts, a married priesthood, the Basilian monastic order reorganised on Latin lines; and, after Zamość, the pope in the diptychs, the filioque in the creed, and Latin-style devotions that Orthodox neighbours read as betrayal and Roman superiors as insufficient. The 1946–89 underground practised all this in kitchens and forests: night liturgies, secret ordinations, bishops consecrated clandestinely, sometimes regularised by Rome only later, confessions heard by priests registered as factory workers.",
-    "geography": "The first member spans the whole Mediterranean empire — Rome, Milan and Constantinople, with Nicaea, Ephesus and Chalcedon as its council towns. Every Greek Catholic member lies on the actual frontier between Latin and Byzantine Christendom. The Ruthenian lands — today's Ukraine and Belarus — under Polish-Lithuanian rule from 1596, then divided by the Partitions: the Russian share lost most of its Uniates in the 1790s and the remainder at Polotsk in 1839 and Chełm in 1875, while Austrian Galicia, centred on Lviv, turned the church into a Ukrainian national institution. The Melkite Catholics belong to Damascus, Aleppo and Mount Lebanon after 1724. The underground church of 1946–89 is Galicia and Transcarpathia under Soviet rule, with its bishops in the Gulag. The persecuted-church entry adds the wider USSR and Romania, well beyond the Greek–Latin frontier.",
-    "riverCoherence": "This is a seam, not a tradition. Its members share a structural position — churches Byzantine in worship and Roman in obedience, or the imperial church from before that distinction hardened — rather than a line of descent: nothing joins the church of 451 to Brest in 1596 except the memory of a unity Brest claimed to restore. Among the Greek Catholic entries continuity is real: Brest, Zamość, Polotsk, Galicia and the 1946 underground are one church's story. Its contact points are 312–451 and 1596, though Brest also split the Ruthenian church in two; its later ruptures are 1724, 1839 and 1946. One member is not on this seam: the Initsiativniki Baptists and Romania's Lord's Army are a Greek East–Protestant span, here by lane order, not any East–West question; their kinship with the Lviv underground is persecution, not communion."
+    "geography": "The first member spans the whole Mediterranean empire — Rome, Milan and Constantinople, with Nicaea, Ephesus and Chalcedon as its council towns. Every Greek Catholic member lies on the actual frontier between Latin and Byzantine Christendom. The Ruthenian lands — today's Ukraine and Belarus — under Polish-Lithuanian rule from 1596, then divided by the Partitions: the Russian share lost most of its Uniates in the 1790s and the remainder at Polotsk in 1839 and Chełm in 1875, while Austrian Galicia, centred on Lviv, turned the church into a Ukrainian national institution. The Melkite Catholics belong to Damascus, Aleppo and Mount Lebanon after 1724. The underground church of 1946–89 is Galicia and Transcarpathia under Soviet rule, with its bishops in the Gulag.",
+    "riverCoherence": "This is a seam, not a tradition. Its members share a structural position — churches Byzantine in worship and Roman in obedience, or the imperial church from before that distinction hardened — rather than a line of descent: nothing joins the church of 451 to Brest in 1596 except the memory of a unity Brest claimed to restore. Among the Greek Catholic entries continuity is real: Brest, Zamość, Polotsk, Galicia and the 1946 underground are one church's story. Its contact points are 312–451 and 1596, though Brest also split the Ruthenian church in two; its later ruptures are 1724, 1839 and 1946."
+  },
+  "Greek East/Prot. bridge": {
+    "originStory": "This lane holds one census record covering two persecuted movements under two different Communist regimes, joined because both faced the same twentieth-century test — an atheist state's claim on the church — from opposite confessional starting points. In the USSR, a group of Baptist ministers broke in 1961 with the state-registered Baptist union over government control of church life; they were called the Initsiativniki, after their Initiative Group, and were genuinely Protestant by descent, tracing through the 1884 Russian Baptist Union back to the 1860s Ukrainian Stundist revival. In Romania, the Lord's Army began in 1923 as a renewal movement founded by Iosif Trifa, an Orthodox priest, around his weekly paper — not a break from Orthodoxy but a pietist current inside it, one the hierarchy itself grew wary of well before the Communists did.",
+    "theology": "The two halves answer differently to what makes a church legitimate. The Initsiativniki held a Baptist confession outright: believer's baptism, congregational autonomy, a church answerable to no one but its own members and Christ — which is exactly what state registration threatened. The Lord's Army never broke with Orthodox sacramental theology; Trifa's own priesthood and the movement's continued (if uneasy) place inside the Romanian Orthodox Church are the record's own evidence of that. Its distinctive note was personal, felt conversion and strict moral renewal expressed through hymn-singing and confession, a Protestant-shaped piety practiced by people who remained, institutionally, Eastern Orthodox. The bridge is between two different relationships to a state church, not one shared creed.",
+    "practices": "Initsiativniki congregations met unregistered, ran their own press (Khristianin), and organized the Council of Prisoners' Relatives, which from 1964 issued bulletins naming who had been arrested, sentenced, searched or had property confiscated — documentation written the week it happened, not martyrology written after. Georgi Vins's own prison testimony reached the West in translation in 1975. The Lord's Army centered on Trifa's weekly paper and, after his death, Traian Dorz's hymns, sung in gatherings that continued informally once the movement was pushed underground after 1948; Dorz himself wrote prison memoirs. Both left the kind of granular, dated paper trail persecution literature rarely provides.",
+    "geography": "The Initsiativniki were a Soviet-wide phenomenon, not centered on one city — an underground network of unregistered congregations across the USSR held together by shared samizdat rather than shared territory. The Lord's Army is specifically Romanian, rooted in Transylvania around Trifa's own diocese and spreading through parish-level lay circles rather than a separate church structure. Both movements' regimes ended with 1989–91: the fall of Communism in Romania and the Soviet Union's dissolution, which the census treats as the documented terminus of the persecution that defines this entry, while noting plainly that the underlying congregations continued.",
+    "riverCoherence": "This is a single documented case, not a tradition family — one record spanning a genuinely Protestant movement and a movement that stayed Orthodox, grouped under the shared subject of underground faith under Communist rule rather than any shared confession. It sits in its own lane because it doesn't belong in either Greek East or Protestant & Evangelical outright, and forcing it into one would misstate the other half. The census itself draws a further relation, not a lineage: this entry's pattern of unregistered congregations refusing a state's terms is named kin to the Chinese suffering church of the same decades, a parallel across two different states rather than any direct contact between them."
   },
   "Africa": {
     "originStory": "This river begins in Alexandria, where Greek philosophy, the Jewish scholarship that had produced the Septuagint, and Christian teachers of every kind met in one port — Basilides and Valentinus before Clement and Origen. The catechetical tradition took shape from c. 180 partly as an answer to those rivals: a Christianity that could out-argue the philosophers and out-read the Gnostics. Two further pressures made it African rather than merely Greek. Persecution under Decius and Diocletian gave Egypt its martyr identity — the Coptic calendar still counts years from 284, the 'Era of the Martyrs' — and the monasticism Antony had begun earlier (c. 270–285) was read afterwards as martyrdom's successor. And Red Sea trade carried the faith to Aksum, whose king Ezana adopted it c. 330–350 with a bishop, Frumentius, consecrated (as Rufinus tells it) by Athanasius himself.",
@@ -20857,7 +20879,13 @@ function openPanelRiver(f,members){
   hideTip();
   const k=members[0].laneOrder;
   let h=`<h2 id="panelTitle">${esc(f.lbl)}</h2>`;
-  h+=`<p class="meta">${members.length} movement${members.length===1?'':'s'} · ${members[0].start}–${members[members.length-1].start}</p>`;
+  // The span below is earliest-start to latest-start across members (an "end"
+  // isn't a single well-defined number when several are still ongoing) -- a
+  // real range for any river with more than one member, but for exactly one
+  // that degenerates to "year-year" (the same movement's start against
+  // itself), reading like a typo. Show its own real dates string instead.
+  const yearSpan=members.length===1?esc(members[0].dates):`${members[0].start}–${members[members.length-1].start}`;
+  h+=`<p class="meta">${members.length} movement${members.length===1?'':'s'} · ${yearSpan}</p>`;
   const lore=RIVER_LORE[f.lbl];
   if(lore){
     h+=`<h3>Why it started</h3><p>${esc(lore.originStory)}</p>`;
