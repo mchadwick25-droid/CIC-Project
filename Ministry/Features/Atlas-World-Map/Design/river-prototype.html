@@ -114,6 +114,11 @@ svg#world{display:block;overflow:visible}
 .node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
   pointer-events:none;paint-order:stroke;stroke:var(--parchment);stroke-width:3px}
 .edge-line{pointer-events:stroke;cursor:pointer}
+/* A default browser focus outline traces the path's bounding box, which for a
+   long diagonal line is a big, mostly-empty rectangle that doesn't read as
+   "this line is focused." Thicken the stroke itself instead, the same idea as
+   .node's own focus-ring but shaped for a line rather than a dot. */
+.edge-line:focus-visible{outline:none;stroke-width:2.6px}
 #tip{position:fixed;display:none;z-index:40;max-width:260px;background:var(--vellum);
   border:1px solid var(--gold-leaf);border-radius:2px;padding:.5rem .7rem;
   box-shadow:var(--shadow);pointer-events:none;font-size:.82rem}
@@ -20342,12 +20347,28 @@ function render(){
     const line=el('path',{
       d:`M ${a._x.toFixed(1)} ${a._y.toFixed(1)} Q ${((a._x+b._x)/2).toFixed(1)} ${((a._y+b._y)/2-14).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`,
       fill:'none', stroke:'var(--iron-gall)', 'stroke-width':1.1, opacity:EDGE_CALM_OP,
-      'stroke-dasharray':dash, class:'edge-line'
+      'stroke-dasharray':dash, class:'edge-line', tabindex:'0', role:'button',
+      // Nodes carry a real tabindex/role/keydown pair (rule established for
+      // the 292 movements); the 69 relationship lines between them had none
+      // of that -- reachable and clickable with a mouse only, with no way for
+      // a keyboard user to open one's own panel at all.
+      'aria-label':`${a.shortName||a.name} and ${b.shortName||b.name}, ${edg.type}, ${edg.confidence}`
     });
     line.dataset.from=edg.from; line.dataset.to=edg.to;
-    line.addEventListener('mouseenter',(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,`<div class="n">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`);});
+    line.addEventListener('mouseenter',(ev)=>{line.style.opacity=EDGE_ACTIVE_OP;showTip(ev,tipForEdge(edg,a,b));});
     line.addEventListener('mouseleave',()=>{line.style.opacity=line.dataset.baseline;hideTip();});
+    line.addEventListener('focus',()=>{
+      line.style.opacity=EDGE_ACTIVE_OP;
+      // No cursor position to hang a tooltip off of on a keyboard focus --
+      // anchor it to the focused line's own on-screen midpoint instead.
+      const r=line.getBoundingClientRect();
+      showTipAt(r.left+r.width/2,r.top+r.height/2,tipForEdge(edg,a,b));
+    });
+    line.addEventListener('blur',()=>{line.style.opacity=line.dataset.baseline;hideTip();});
     line.addEventListener('click',()=>openPanelEdge(edg,a,b));
+    line.addEventListener('keydown',(ev)=>{
+      if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanelEdge(edg,a,b);}
+    });
     gEdges.appendChild(line);
   });
 
@@ -20593,6 +20614,9 @@ function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replac
 function tipFor(m){
   return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(m.region||'')}</div><div class="s">${esc(m.status)}</div>`;
 }
+function tipForEdge(edg,a,b){
+  return `<div class="n">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
+}
 
 /* ---- Tooltip (hover = short) ---- */
 const tip=document.getElementById('tip');
@@ -20605,7 +20629,17 @@ function showTip(ev,html){
   tipW=tip.offsetWidth; tipH=tip.offsetHeight;
   positionTip(ev);
 }
-function positionTip(ev){
+function positionTip(ev){positionTipAt(ev.clientX,ev.clientY);}
+// A keyboard focus has no cursor position to anchor a tooltip to -- showTipAt
+// takes an explicit screen point (the focused element's own bounding box)
+// instead of a mouse event, so Tab-ing to an edge gets the same tooltip a
+// mouse hover would, not nothing.
+function showTipAt(x,y,html){
+  tip.innerHTML=html; tip.style.display='block';
+  tipW=tip.offsetWidth; tipH=tip.offsetHeight;
+  positionTipAt(x,y);
+}
+function positionTipAt(x,y){
   // Nodes run all the way to the canvas's own right and bottom edges (the
   // "Beyond the Floor" lane sits at the far right on purpose) -- a tooltip
   // placed with a fixed offset from the cursor, with nothing to stop it,
@@ -20613,9 +20647,9 @@ function positionTip(ev){
   // other side of the cursor when the default placement would overflow,
   // then clamp as a last resort.
   const pad=8, w=tipW, h=tipH;
-  let left=ev.clientX+14, top=ev.clientY+14;
-  if(left+w>window.innerWidth-pad)left=ev.clientX-14-w;
-  if(top+h>window.innerHeight-pad)top=ev.clientY-14-h;
+  let left=x+14, top=y+14;
+  if(left+w>window.innerWidth-pad)left=x-14-w;
+  if(top+h>window.innerHeight-pad)top=y-14-h;
   tip.style.left=Math.max(pad,left)+'px'; tip.style.top=Math.max(pad,top)+'px';
 }
 function hideTip(){tip.style.display='none';}
@@ -20772,6 +20806,17 @@ function applyDetail(){
 }
 function centerView(){
   scale=Math.min(window.innerWidth/(CANVAS_W*1.05), window.innerHeight/(CANVAS_H*0.14));
+  // Never start below the calm/organic threshold. Both fit-to-screen terms
+  // above shrink with the viewport, and the width term alone drops scale
+  // under DETAIL_THRESHOLD on any phone-width screen (0.21 at 390px, nowhere
+  // close to organic's 0.34) and on plenty of short or split desktop windows
+  // besides (0.34 at 1280x500) -- meaning the very first thing most mobile
+  // visitors, and no small share of desktop ones, ever saw was the
+  // deliberately simplified "calm" river phase: flat, undetailed, dead
+  // straight, meant for a user-initiated zoomed-out overview, not a first
+  // impression. A narrower initial framing -- fewer lanes visible before
+  // panning -- is a fair trade for that first view actually looking alive.
+  scale=Math.max(scale,DETAIL_THRESHOLD*1.15);
   scale=Math.max(MIN_S,Math.min(MAX_S,scale));
   tx=(window.innerWidth-CANVAS_W*scale)/2;
   // Era 1's own caption renders starting a little below screen-y 0 -- a fixed
