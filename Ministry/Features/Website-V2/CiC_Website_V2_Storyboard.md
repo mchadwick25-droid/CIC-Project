@@ -165,7 +165,7 @@ site to inherit, so none is added.
 
 | Page | `<title>` | `<meta name="description">` | Register |
 |---|---|---|---|
-| Home | Church in Conversation: The First Centuries | Twenty centuries of the Church's story, one era at a time. Seven Christian traditions you can sit down with today, from the Early Church and Imperial Church eras. Come and join us at the Table. | `[LIVE — carried unchanged]` — the description as corrected by the pending "six → seven" push (design record §11.4) |
+| Home | Church in Conversation: The First Centuries | Twenty centuries of the Church's story, one era at a time. Christian traditions you can sit down with today, each with its own voice. Come and join us at the Table. | `[LIVE]` — 2026-09-03 change order: dropped the exact tradition count and named eras, both of which will go stale as more are built |
 | Tradition ×7 | {Tradition} — Church in Conversation *(Chloe's: The House-Churches — Church in Conversation)* | Pattern: {Name} is a representative voice for {the tradition, as its tile names it}, {dates}. Where the record is quiet, the questions people bring, and what {she/he} is built from. *Chloe's instance:* Chloe is a representative voice for the house-churches of Antioch, Asia Minor and Rome, 70–200 CE. Where the record is quiet, the questions people bring, and what she is built from. *Theon's instance:* Theon is a representative voice for the school and church of Alexandria, c. 150 to 400 CE. Where the record is quiet, the questions people bring, and what he is built from. | title `[CENSUS — verbatim]` + the live suffix; description `[DRAFT COPY — pending Mark's approval]` — the pattern here, one instance drafted with each page as it clears ruling 4. 2026-09-03 change order: "an AI voice" → "a representative voice," matching the fleet-wide wording fix (design record §3.7 item 8) |
 | About · Get Involved · Privacy · Pilot Feedback · Church in History (and its two redirect stubs) | live | live | `[LIVE — carried unchanged]` |
 | What's Next | What's Next — Church in Conversation | ⚠ the live description says "three new worlds in development" — **ruling 37** | title `[LIVE]`; description is Mark's |
@@ -177,9 +177,25 @@ site to inherit, so none is added.
 
 **Purpose.** Take what the visitor brought. Open with the hook; then who can
 carry it, so a question can be asked with real context instead of into a
-void; then one real place to put that question down; then what a
-conversation is like; then what holds it to the record and what is
-unfinished; then the map; then the ask.
+void; then one real place to put that question down; then the map; then the
+ask.
+
+**Change order, 2026-09-03 (Decision-Log): the sample exchange and the
+disclosure grid are cut.** Mark: numbers describing the current state of
+the build (how many traditions, how many eras) will be constantly changing
+for weeks and need to be timeless; and most of what the old §1.4/§1.5 said
+is not part of the experience itself — it's explanation *about* the
+experience, which distracts rather than orients. The demonstration
+conversation (§1.4, "One exchange, as it happened") and the two-column
+disclosure block (§1.5, "Before you sit down") are both removed from the
+homepage entire. The one line that actually needs to be said before a
+visitor starts — that they're speaking with a representative voice, not a
+person who lived — already exists independently at §1.2g and stays. The
+distress-routing disclosure (§1.5m) and the account/privacy fact (§1.5k)
+already live on About's Safety & Disclosure section and the Privacy page
+respectively, so nothing safety-relevant is lost, only its repetition on
+the homepage. If people want the fuller detail these sections carried, a
+future FAQ page is the right place for it, not the front door.
 
 **Change order, 2026-09-02 (Decision-Log): §1.2 and §1.3 swap order —
 Mark's ruling.** A visitor handed a bare "ask a question" box before seeing
@@ -196,11 +212,11 @@ keyboard-path counts, and §1.10 below are written to the *pre-swap* order
 and have not yet been re-verified against the new one** — re-verify before
 they're relied on for anything beyond the general shape of each state.
 
-**Order of the page (H-level outline):** H1 hook → §1.3 H2 *Who would you
-like to ask?* (H3 era ×2, H4 name ×7) → §1.2 H2 *Start with your question* →
-§1.4 H2 *What a conversation looks like* (H3 ×4 margin notes) → §1.5 H2 the
-disclosure (H3 ×2) → §1.6 H2 *Church in History* → §1.7 H2 *Support*
-(visually hidden). No skipped levels (verified against the build).
+**Order of the page (H-level outline), as of the 2026-09-03 cut above:** H1
+hook → §1.3 H2 *Who would you like to ask?* (H3 era ×2, H4 name ×7) → §1.2
+H2 *Start with your question* → §1.6 H2 *Church in History* → §1.7 H2
+*Support* (visually hidden). No skipped levels (verified against the
+build).
 
 **Data.** The seven chairs are the census's own fields. RECOMMENDED: generate
 the seven rows into the static HTML from `world-census.json` by a small
@@ -310,11 +326,10 @@ both given a `hidden` attribute and its own `display` in CSS.
 | 1.3a | The held block (hidden until a question is held): a vellum block with a 3px lapis left rule; `tabindex="-1"`, `aria-labelledby` the label and the question | Your question, held: · *the visitor's own words, italic* · Edit it | `[VERBATIM — constitution]` for the label; "Edit it" `[DRAFT COPY — pending Mark's approval]` |
 | 1.3b | Eyebrow | Who's at the table | `[LIVE — carried unchanged]` |
 | 1.3c | H2 | Who would you like to have a conversation with? | `[DRAFT COPY — pending Mark's approval]` — 2026-09-03 change order (Mark): the project's name is *Church in Conversation*; a question is how one starts, but the conversation is the point, and the heading should say so |
-| 1.3d | Scope line (carries the sentence the hero gave up) | Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.3e | Era heading, H3 (×2) | The Early Church Era · 70–312 CE / The Imperial Church Era · 312–451 CE | `[CENSUS — verbatim]` (the census's era heads carry hyphens; the dash seam is a data fix — design record §11.3) |
-| 1.3f | Seven chairs (see the table below) — each an `<li>`: 72px portrait in a 2px tint ring (56px ≤480) · H4 name with the role beside it in muted sans · tradition name in italic · dates · region in sans · the tile · two text actions | — | `[CENSUS — verbatim]` |
-| 1.3g | Chair action 1 (bold sans text link, current-colour underline, 44px) | Ask {Name} → | `[DRAFT COPY — pending Mark's approval]` (pattern) |
-| 1.3h | Chair action 2 (muted text link) | Her/His record → *(visually hidden: " — {Tradition}")* | `[DRAFT COPY — pending Mark's approval]` (pattern) — present only when that tradition's page exists (ruling 4). **As of 2026-09-03, all seven chairs carry it**; the end state §1.8 planned for is now the shipped state |
+| 1.3d | Scope line (carries the sentence the hero gave up) | Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one. | `[LIVE]` — 2026-09-03 change order: dropped "Seven," a count that changes as more traditions are built |
+| 1.3e | Era heading, H3, one per era, now a toggle button (2026-09-03 change order: eras open and close, one at a time, so the list stays short as more eras are added — see below) | The Early Church Era · 70–312 CE / The Imperial Church Era · 312–451 CE | `[CENSUS — verbatim]` (the census's era heads carry hyphens; the dash seam is a data fix — design record §11.3) |
+| 1.3f | The chairs (see the table below), grouped under their era's toggle — each an `<li>`: 72px portrait in a 2px tint ring (56px ≤480, portrait itself a link), H4 name with the role beside it in muted sans · tradition name in italic · dates · region in sans · the tile · one text action | — | `[CENSUS — verbatim]` |
+| 1.3h | Chair action (muted text link; the portrait links to the same place, so this isn't a second path in) | Her/His record → *(visually hidden: " — {Tradition}")* | `[DRAFT COPY — pending Mark's approval]` (pattern) — present on all seven as of 2026-09-03. The direct "Ask {Name} →" shortcut that used to sit beside it was removed the same day: one path into each tradition (portrait or record link → the tradition page → the actual interview/table launch), not two |
 | 1.3i | Pilot note — **below the seven**, the live site's own order | This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3j | Cost caveat — below the seven | Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3i′/j′ | **Offered re-draft for ruling 20** (replaces 1.3i–j if Mark takes it) | This is a pilot. We're listening for what people coming from four directions find here — the curious, pastors and teachers, scholars, and anyone re-examining their faith. Every conversation costs real money to run, so for now we ask each person to keep to about five. We can't enforce that; we can only ask. | `[DRAFT COPY — pending Mark's approval]` |
@@ -337,53 +352,21 @@ era heads. The tile under each chair is the census `entry.tile`, verbatim.
 "Mar Yausep" is never split (the honorific is part of the name — Mark's
 2026-08-28 identity ruling, carried from the live site's own code comment).
 
-**Measured after a hold (390×844):** the landing screen reads — held
-question · Edit it · Who's at the table · Who would you like to have a
-conversation with? · scope
-· The Early Church Era · Chloe. No pilot paragraph, no cost paragraph in the
-landing zone. The first "Ask Chloe" is 770px below the landing point.
+**After a hold, on phone:** the landing screen reads — held question ·
+Edit it · Who's at the table · Who would you like to have a conversation
+with? · scope · The Early Church Era, open, with Chloe's chair inside it.
+No pilot paragraph, no cost paragraph in the landing zone.
 
-### 1.4 One exchange, as it happened
+### 1.4 / 1.5 — removed, 2026-09-03
 
-| # | Element | Copy | Register |
-|---|---|---|---|
-| 1.4a | Eyebrow | One exchange, as it happened | `[DRAFT COPY — pending Mark's approval]` |
-| 1.4b | H2 | What a conversation looks like | `[DRAFT COPY — pending Mark's approval]` |
-| 1.4c | Intro | A visitor pressed Theon on how sure he really was. This is what came back — the voice holding apart what it knows from what it cannot show. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.4d | The leaf — a `<figure>` on vellum (ruling 21) with a hairline border, set in the app's decided long-form grammar: a running head, the Facilitator's two lines in italic muted with a graphite rule, the "You" label in lapis over the question in italic, the Representative's label in ink with a gold-leaf rule, three paragraphs of prose, dotted terms and the ✲ 3 as pictures | Running head: *Alexandrian Christianity · c. 150–400 CE* · Facilitator: *I'm glad you're here. Come in, settle wherever feels right.* / *Welcome to the table. Today you sit with Theon, a catechetical teacher from the Christian community of Alexandria, speaking to you from somewhere within the second through fourth centuries of that great city's life — a place where scripture, philosophy, and the discipline of the soul were held together in one breath. Theon awaits your questions; where shall we begin?* · You: *What's the actual evidence for how confident we can be about that practice? How sure are you, really?* · Theon · Catechetical Teacher: *We told you the shape a formation likely took, not one seeker's counted days. That is worth holding apart plainly, because the two are not equally sure.* / *The stages themselves — coming first as one still under instruction, the waiting before the water, the illumination baptism itself is named to be, the deepening afterward that never counts itself finished — these we hold with real confidence, because they are not inference. They are the pattern our own life set down and still keeps: the great fast, the feast that follows it, the daily return to a Scripture never read once and shelved. That rhythm is not reconstructed. It is what we do.* / *What we cannot give you is one particular soul walking it — a name, a morning, a specific word said to a specific catechumen on a specific day. When we spoke of "a typical formation," that was offered honestly as the shape many lives probably shared, not as any single life we can point to and say: this happened, here, to this one. Where the pattern is concerned, our confidence is real. Where a particular soul's road through it is concerned, we have the outline and not the portrait — and we would rather tell you that plainly than paint a face onto it that was never there.* ✲ 3 | `[CAPTURE — verbatim]` — the capture's obsolete "Known limitation" banner is not transcribed (it no longer exists in the app; the current disclosure is 1.5g) |
-| 1.4e | Caption, dated (the review's condition, the defense's fix) | Captured from a live conversation with Theon on 25 August 2026; the words are unchanged, re-set here in the app's long-form grammar. The dotted terms and the ✲ are live in the room — hover or tap them there for the plain meaning, and for the sources. Here they are a picture. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.4f | Margin note 1, H3 + text | The quieter voice · The italic lines are the Facilitator, who opens the room, bridges anything the voice could not know, and — if something painful comes up — points you toward real people who can help. | `[DRAFT COPY — pending Mark's approval]` (a paraphrase; the distress line itself appears verbatim once per page, at 1.5g) |
-| 1.4g | Margin note 2 | A dotted term · Opens a short gloss in the tradition's own words; one tap more opens the full entry. Marked the first time it appears, then left alone. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.4h | Margin note 3 | ✲ 3 · the sources · Three letters and records stand behind this answer. In the room you open the list, and every one is checkable. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.4i | Margin note 4 | Where it's thin · Where the historical record is thin, we let the silence stand. | H3 `[DRAFT COPY — pending Mark's approval]`; the sentence `[VERBATIM — locked, Brand Guidelines]` |
-
-The leaf has no composer, no Send, no chrome. ≥900px: leaf and margin notes
-side by side (1.35fr / .65fr); below, the notes follow the leaf.
-
-### 1.5 Before you sit down — the disclosure block
-
-| # | Element | Copy | Register |
-|---|---|---|---|
-| 1.5a | Eyebrow | Before you sit down | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5b | H2 | This is an AI system. Here is what holds it to the record, and what is still unfinished. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5c | Column 1, H3 | What holds it | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5d | Bullet | **Locked to sources.** A voice is built last, from a completed record of one tradition's own letters, sermons, and primary sources, through a ten-step, review-gated build — and speaks only from that record. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5e | Bullet | **Shows its confidence.** Every claim carries how well it is attested, in the same five words inside every conversation, never adjusted for who is asking. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5f | Bullet | **Watched while it speaks.** Every conversation is watched in real time for a softened truth, an invented detail, or knowledge the voice shouldn't have — and corrected before it reaches you. | lead `[DRAFT COPY — pending Mark's approval]`; sentence `[LIVE — carried unchanged]` (about.html) |
-| 1.5g | Bullet | **Witness, never recruitment.** A voice of its tradition, in real conversation — it does not pretend to be a person, and it is not here to win you over. | `[DRAFT COPY — pending Mark's approval]` (the protected line the hybrid used here now appears once, at 1.5o) |
-| 1.5h | Column 2, H3 | What is unfinished, said plainly | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5i | Bullet | **Independent academic review is the standard we are building toward.** It has not begun; an advisory board is being formed and needs funding and volunteers. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5j | Bullet | **Every conversation runs on one plain voice.** The modes designed for a pastor, a scholar, or someone re-examining faith have not shipped. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5k | Bullet (new — the disclosure the capture's banner stood for, in its current true form; `Conversation.tsx` 44, `sessionStore.ts`) | **Lives in one browser tab, not an account.** There is no sign-in; a conversation stays in the tab you open it in. What we keep on our side, and how to ask us to delete it, is on the Privacy page. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5l | Bullet | **Later centuries are planned, not built.** What is live is the Church's own first four hundred years; each later era is its own careful build. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.5m | Bullet | If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support. | `[LIVE — carried unchanged]` (about.html) — once per page |
-| 1.5n | Closing line, italic | We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike. | `[VERBATIM — locked, Brand Guidelines]` |
-| 1.5o | Closing line, muted | We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share. | `[VERBATIM — locked, Brand Guidelines]` |
-| 1.5p | Link line | How a tradition is built, step by step: About — how it works. | `[DRAFT COPY — pending Mark's approval]` (links `about.html#how-it-works`) |
-
-No counts, no dates, no status numbers (a status number is a maintenance
-promise). Each project negative is said once, here, and nowhere above the
-fold of any page. ≥760px two columns; below, stacked.
+Both sections (the sample exchange and the two-column disclosure block)
+are cut from the homepage; see the change order under "Purpose" above.
+Two of this section's locked brand lines (1.5n, 1.5o — "We are committed
+to representing each Christian movement in full..." / "We measure
+whether each Christian movement is represented...") need a new home,
+since Brand Guidelines mark them verbatim-required; About's mission
+section is the natural fit but hasn't been decided or built. Flagged for
+Mark rather than placed without a ruling.
 
 ### 1.6 Church in History — one link
 
@@ -391,7 +374,7 @@ fold of any page. ≥760px two columns; below, stacked.
 |---|---|---|---|
 | 1.6a | Eyebrow | Twenty centuries on one map | `[DRAFT COPY — pending Mark's approval]` |
 | 1.6b | H2 | Church in History | `[LIVE — carried unchanged]` (the Atlas's own name) |
-| 1.6c | Paragraph | Seven traditions are open for conversation and two more are chosen and being built. Nearly three hundred movements across ten eras are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read. | `[DRAFT COPY — pending Mark's approval]` — "nearly three hundred" is the live site's own wording for the census's 292; "two more" is the census's `Selected - Not Yet Built` count |
+| 1.6c | Paragraph | More traditions are chosen and being built all the time. Christian movements across the Church's whole history are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read. | `[LIVE]` — 2026-09-03 change order: dropped the exact tradition/movement/era counts, all of which will go stale within weeks |
 | 1.6d | Links | Open Church in History → · What's next | `[DRAFT COPY — pending Mark's approval]` |
 
 No map band (ruling 23). Consistent with the Atlas rework track.
@@ -415,7 +398,7 @@ week; nothing in the layout depends on its wording).
 |---|---|
 | **First visit** | No side door, no welcome-back line. Hook, door, six questions; the AI line before any conversation link. |
 | **Returning** (flag set) | The side door in the header; *Welcome back. Go straight to a conversation →* under the hook. Everything else identical — the seven never move, never in a carousel. |
-| **Launch state** (ruling 4) | As of 2026-09-03, all seven tradition pages exist; every chair carries two actions. This is now the end state §1.9 describes, not the asymmetric interim §1.8 planned for. The tab-stop counts below predate this and need remeasuring; not yet redone. |
+| **Launch state** (ruling 4) | All built tradition pages exist and every chair carries the same single record link into its page — one path in, not the "Ask" shortcut plus record link this table originally planned for. This is the shipped shape §1.9 describes now, not an interim one. |
 | **Question held — typed** | Submit (control or Enter): the held block renders at the top of §1.3 with the question; URL `#q=…`; scroll to §1.3; focus on the held block; next Tab → *Edit it*. |
 | **Question held — offered** | Tapping an offered question: the same, with that text; the input is filled with it too. |
 | **Question held — restored** | Arriving at a URL carrying `#q=…` (shared, bookmarked, Back from the app): the held block is shown without scrolling; the input carries the text. |
@@ -425,57 +408,53 @@ week; nothing in the layout depends on its wording).
 | **Dark** | §6.2 dark table; the button's boundary is its `#E08C74` edge; the tints are the `colorDark` values (rings only). |
 | **Reduced motion** | The mark still, seated; nothing else moves in any state. |
 | **Print** | Header, support slot, skip link hidden; every section present. |
-| **After `#q=` lands in the app** | Each "Ask {Name}" href carries `#q=<the held question>`; 1.2f′ replaces 1.2f. Same-tab hand-off (ruling 15): Back returns to this page with the question restored. |
+| **After `#q=` lands in the app** | Each chair's record/portrait link carries `#q=<the held question>` onto the tradition page, which forwards it into its own "Begin a conversation" link; 1.2f′ replaces 1.2f. Same-tab hand-off (ruling 15): Back returns to this page with the question restored. |
 
 ### 1.9 Accessibility behaviour
 
-**What a screen reader encounters, top to bottom:** skip link → banner:
-"Church in Conversation" link, navigation "Site" (5 links) → main → H1 (the
-hook) — the mark is decorative and silent; its sentence is read as a
-paragraph before the H1 → H2 "Start with your question" → edit text
-"Start with your question" (named by the H2) → link "Choose who to ask" →
-the lede → the "how" line → the AI line → the list heading → list of 6 links
-(each the full question) → the note → [after a hold: the held block, focused,
-announced as "Your question, held: {question}", then link "Edit it"] → H2
-"Who would you like to have a conversation with?" → scope → H3 era → list of 3: each H4 "{Name}
-{Role}", tradition, dates and region, the tile, link "Ask {Name}", link
-"{Her/His} record — {Tradition}" (at launch, only Chloe's item has the
-second link; the other six end at "Ask {Name}") → H3 era → list of 4 → the
-pilot note, the cost caveat → "Or bring two or three of them to one table." link "Set your
-own table" → H2 "What a conversation looks like" → figure (labelled by its
-caption): the leaf read as prose, "✲ 3" with `aria-label` "three sources
-cited" → complementary "How to read the exchange": four H3 + paragraphs → H2
-the disclosure → two H3 lists → the two protected lines → the About link →
-H2 "Church in History" → paragraph → two links → H2 "Support" (visually
-hidden) → three lines with three links → contentinfo: the entity line, four
-links.
+**What a screen reader encounters, top to bottom, as of the 2026-09-03
+cut:** skip link → banner: "Church in Conversation" link, navigation
+"Site" (5 links) → main → H1 (the hook) — the mark is decorative and
+silent; its sentence is read as a paragraph before the H1 → H2 "Who would
+you like to have a conversation with?" → scope → per era: a toggle
+heading, then (when open) a list of chairs, each H4 "{Name} {Role}",
+tradition, dates and region, the tile, link "{Her/His} record" (the
+portrait is the same link, so it isn't a second stop) → the pilot note,
+the cost caveat → "Or bring two or three of them to one table." link "Set
+your own table" → H2 "Start with your question" → the lede → the "how"
+line → the representative-voice line → the list heading → list of 6
+links (each the full question) → the note → [after a hold: the held
+block, focused, announced as "Your question, held: {question}", then link
+"Edit it"] → H2 "Church in History" → paragraph → two links → H2
+"Support" (visually hidden) → three lines with three links → contentinfo:
+the entity line, four links.
 
-**Keyboard path (end state: 40 stops for a first-time visitor, 41
-returning; launch state: 34 and 35 — both measured by a real Tab walk):**
-skip link → wordmark → 5 nav links (→ side door) → [welcome-back link] →
-question input → Choose who to ask → 6 offered questions → [after a hold:
-Edit it] → 7 × (Ask {Name}, {Her/His} record) — at launch, Ask Chloe, Her
-record, then six × Ask {Name} alone → Set your own table → About — how it
-works → Open Church in History → What's next → give once → give monthly →
-Get Involved → 4 footer links. Focus ring 2px madder, 3px offset. No
-positive `tabindex`; nothing hidden is a stop; nothing is sticky, so the
-focused element is never obscured.
+**Keyboard path.** skip link → wordmark → 5 nav links (→ side door) →
+[welcome-back link] → per era: a toggle button, then (when open) each
+chair's portrait/record link → question input → Choose who to ask → 6
+offered questions → [after a hold: Edit it] → Set your own table → Open
+Church in History → What's next → give once → give monthly → Get
+Involved → 4 footer links. Focus ring 2px madder, 3px offset. No positive
+`tabindex`; nothing hidden is a stop; nothing is sticky, so the focused
+element is never obscured. Exact stop counts aren't tracked here anymore
+— they'd go stale with every tradition added, exactly the kind of number
+the 2026-09-03 ruling says to stop carrying in this document.
 
-**Touch.** Every control ≥44px tall: the input, the button, the six question
-links, the chair actions (fourteen in the end state, eight at launch), the
-Table link, the map links, the support links, the footer links, the nav. Inline prose links (the About link, the
-protected lines' surroundings) ride the inline exception.
+**Touch.** Every control ≥44px tall: the input, the button, the offered
+questions, the era toggles, the chair links, the Table link, the map
+links, the support links, the footer links, the nav.
 
 ### 1.10 Responsive behaviour
 
 | Width | Behaviour |
 |---|---|
-| ≥900 (desktop) | Chrome at 64rem; sections at 44rem; reading at 38rem. Input and button on one row. Exchange: leaf and margin side by side. Disclosure two columns. Header one row (73px). |
-| 640–899 | Single column narrows; exchange stacks below 900; disclosure two columns from 760. Input and button on one row from 768. Header one row (65px at 640, 73 from 700). |
+| ≥900 (desktop) | Chrome at 64rem; sections at 44rem; reading at 38rem. Input and button on one row. Header one row (73px). |
+| 640–899 | Single column narrows. Input and button on one row from 768. Header one row (65px at 640, 73 from 700). |
 | <640 (phone) | Header wraps — the wordmark on its own row above two nav rows at ≤390 (163px), above one at 414–480 (114px); the nav at .9rem; door box padding 1rem; button wraps under the input (input basis 11rem); portrait 72px (56px ≤480); everything single column; no horizontal scroll at 320 (verified). |
 | 320 | Input 537–585; first offered question 1,201; overflow 0. |
 
-Page height: 9,441px at 390×844 (with the sandbox note), 6,786 at 1280.
+Page height, after the 2026-09-03 cut: 3,856px at 390×844, 2,873 at 1280
+— roughly 60% shorter than the pre-cut measurement.
 
 ---
 
@@ -825,29 +804,13 @@ pass through that ruling, tradition by tradition, not through this list.
 - 1.2h Or begin with one of these — questions people bring
 - 1.2j These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room.
 - 1.3a Edit it · 1.3c Who would you like to have a conversation with?
-- 1.3d Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.
-- 1.3g Ask {Name} → · 1.3h Her/His record → (— {Tradition})
+- 1.3d Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.
+- 1.3h Her/His record → (— {Tradition})
 - 1.3i′/j′ This is a pilot. We're listening for what people coming from four directions find here — the curious, pastors and teachers, scholars, and anyone re-examining their faith. Every conversation costs real money to run, so for now we ask each person to keep to about five. We can't enforce that; we can only ask.
 - 1.3k Or bring two or three of them to one table. Set your own table →
-- 1.4a One exchange, as it happened · 1.4b What a conversation looks like
-- 1.4c A visitor pressed Theon on how sure he really was. This is what came back — the voice holding apart what it knows from what it cannot show.
-- 1.4e Captured from a live conversation with Theon on 25 August 2026; the words are unchanged, re-set here in the app's long-form grammar. The dotted terms and the ✲ are live in the room — hover or tap them there for the plain meaning, and for the sources. Here they are a picture.
-- 1.4f The quieter voice · The italic lines are the Facilitator, who opens the room, bridges anything the voice could not know, and — if something painful comes up — points you toward real people who can help.
-- 1.4g A dotted term · Opens a short gloss in the tradition's own words; one tap more opens the full entry. Marked the first time it appears, then left alone.
-- 1.4h ✲ 3 · the sources · Three letters and records stand behind this answer. In the room you open the list, and every one is checkable.
-- 1.4i Where it's thin (heading only)
-- 1.5a Before you sit down · 1.5b This is an AI system. Here is what holds it to the record, and what is still unfinished. · 1.5c What holds it · 1.5h What is unfinished, said plainly
-- 1.5d Locked to sources. A voice is built last, from a completed record of one tradition's own letters, sermons, and primary sources, through a ten-step, review-gated build — and speaks only from that record.
-- 1.5e Shows its confidence. Every claim carries how well it is attested, in the same five words inside every conversation, never adjusted for who is asking.
-- 1.5f Watched while it speaks. (lead only)
-- 1.5g Witness, never recruitment. A voice of its tradition, in real conversation — it does not pretend to be a person, and it is not here to win you over.
-- 1.5i Independent academic review is the standard we are building toward. It has not begun; an advisory board is being formed and needs funding and volunteers.
-- 1.5j Every conversation runs on one plain voice. The modes designed for a pastor, a scholar, or someone re-examining faith have not shipped.
-- 1.5k Lives in one browser tab, not an account. There is no sign-in; a conversation stays in the tab you open it in. What we keep on our side, and how to ask us to delete it, is on the Privacy page.
-- 1.5l Later centuries are planned, not built. What is live is the Church's own first four hundred years; each later era is its own careful build.
-- 1.5p How a tradition is built, step by step: About — how it works.
+- 1.4 / 1.5 Removed 2026-09-03 — see §1.4/1.5 above.
 - 1.6a Twenty centuries on one map
-- 1.6c Seven traditions are open for conversation and two more are chosen and being built. Nearly three hundred movements across ten eras are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read.
+- 1.6c More traditions are chosen and being built all the time. Christian movements across the Church's whole history are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read.
 - 1.6d Open Church in History → · What's next
 - 1.7a Support (hidden heading)
 

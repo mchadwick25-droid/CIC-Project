@@ -4,27 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Church in Conversation: The First Centuries</title>
-<meta name="description" content="Twenty centuries of the Church's story, one era at a time. Seven Christian traditions you can sit down with today, from the Early Church and Imperial Church eras. Come and join us at the Table.">
+<meta name="description" content="Twenty centuries of the Church's story, one era at a time. Christian traditions you can sit down with today, each with its own voice. Come and join us at the Table.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
-  --parchment:#F6F6F2; --vellum:#FFFFFF; --gold-wash:#FBF2E2;
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
   --ink:#2A2521;
   --ink-faded:#6C6257;
   --madder:#A13E2B;
   --madder-deep:#7E2F20;
   --gold-leaf:#B45309;
-  --tyrian:#6B3FA0;
   --lapis:#1E40AF;
   --graphite:#8A837C;
   --rule:#E6DFD3;
-  --ground:var(--parchment); --surface:var(--vellum); --leaf:var(--gold-wash);
+  --ground:var(--parchment); --surface:var(--vellum);
   --text:var(--ink); --muted:var(--ink-faded);
   --action:var(--madder); --action-hover:var(--madder-deep);
-  --gold-text:var(--gold-leaf); --tyrian-text:var(--tyrian); --lapis-text:var(--lapis);
+  --gold-text:var(--gold-leaf); --lapis-text:var(--lapis);
   --control:var(--graphite);
   --btn-fill:var(--madder); --btn-text:var(--vellum); --btn-edge:var(--madder);
   --mark-ink:#2A2521; --mark-dot:#A13E2B;
@@ -34,13 +33,12 @@
 }
 @media (prefers-color-scheme:dark){
   :root{
-    --ground:#17130F; --surface:#1E1913; --leaf:#241C13;
+    --ground:#17130F; --surface:#1E1913;
     --text:#F1E9DD;
     --muted:#B8AEA1;
     --action:#E08C74;
     --action-hover:#F0A98F;
     --gold-text:#E0A458;
-    --tyrian-text:#C9A6E8;
     --lapis-text:#9DB4F0;
     --control:#A39B92;
     --rule:rgba(241,233,221,.16);
@@ -175,39 +173,6 @@ p{margin:0 0 1rem}
 .second-door a{font-family:var(--sans);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:.2rem 0}
 .second-door a .arriving{width:24px;flex:0 0 24px;color:var(--mark-ink)}
 
-.looks{max-width:var(--col);margin:0 auto;padding:2.2rem 1.25rem;border-top:1px solid var(--rule)}
-.looks h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .5rem}
-.looks .intro{color:var(--muted);max-width:var(--measure);margin:0 0 1.2rem}
-.exchange{display:grid;gap:1.4rem}
-@media (min-width:900px){ .exchange{grid-template-columns:minmax(0,1.35fr) minmax(0,.65fr);gap:2.2rem;align-items:start} }
-.leaf{background:var(--leaf);border:1px solid var(--rule);border-radius:2px;padding:1.2rem 1.4rem 1.1rem;font-size:1rem;line-height:1.62}
-.leaf .head{font-family:var(--sans);font-size:.8125rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--rule);padding-bottom:.55rem;margin:0 0 1rem}
-.leaf .fac{color:var(--muted);font-style:italic;border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 .9rem;font-size:.97rem}
-.leaf .you{font-family:var(--sans);font-size:.8125rem;letter-spacing:.06em;text-transform:uppercase;color:var(--lapis-text);font-weight:600;margin:0 0 .15rem}
-.leaf .q{font-style:italic;margin:0 0 1rem}
-.leaf .who-said{font-family:var(--sans);font-size:.8125rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text);font-weight:700;margin:0 0 .3rem;border-left:3px solid var(--gold-text);padding-left:.5rem}
-.leaf .a p{margin:0 0 .8rem}
-.leaf .a p:last-child{margin:0}
-.gloss{color:var(--tyrian-text);text-decoration:underline dotted;text-decoration-thickness:1px;text-underline-offset:.2em}
-.cite{color:var(--tyrian-text);font-family:var(--sans);font-size:.875rem;white-space:nowrap;margin-left:.3rem;font-weight:700}
-.leaf-caption{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:.6rem 0 0;line-height:1.45}
-.margin{display:grid;gap:.9rem;align-content:start}
-.margin h3{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;margin:0 0 .2rem;color:var(--text)}
-.margin .note{border-top:1px solid var(--rule);padding-top:.6rem}
-.margin p{margin:0;color:var(--muted);font-size:.97rem;line-height:1.5}
-
-.before{max-width:var(--col);margin:0 auto;padding:2.2rem 1.25rem;border-top:1px solid var(--rule)}
-.before h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .5rem}
-.two{display:grid;gap:1.4rem}
-@media (min-width:760px){ .two{grid-template-columns:1fr 1fr;gap:2.2rem} }
-.two h3{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--text);margin:0 0 .5rem;border-bottom:1px solid var(--rule);padding-bottom:.45rem}
-.two ul{list-style:none;margin:0;padding:0}
-.two li{padding:.5rem 0;border-bottom:1px solid var(--rule);font-size:1rem;line-height:1.5}
-.two li:last-child{border-bottom:none}
-.two li strong{font-weight:700}
-.before .committed{margin:1.6rem 0 0;max-width:var(--measure);font-style:italic}
-.before .measure{max-width:var(--measure);color:var(--muted);margin:.5rem 0 0}
-
 .map{max-width:var(--col);margin:0 auto;padding:2.2rem 1.25rem;border-top:1px solid var(--rule)}
 .map h2{font-size:clamp(1.4rem,2.8vw,1.75rem);margin:0 0 .5rem}
 .map p{max-width:var(--measure)}
@@ -263,7 +228,7 @@ p{margin:0 0 1rem}
     </div>
     <p class="eyebrow">Who's at the table</p>
     <h2 id="who-title">Who would you like to have a conversation with?</h2>
-    <p class="scope">Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.</p>
+    <p class="scope">Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.</p>
 
     <div class="who-gallery" id="who-gallery">
     <div class="era-group" id="era-1">
@@ -380,69 +345,10 @@ p{margin:0 0 1rem}
     </div>
   </section>
 
-  <section class="looks" aria-labelledby="looks-title">
-    <p class="eyebrow">One exchange, as it happened</p>
-    <h2 id="looks-title">What a conversation looks like</h2>
-    <p class="intro">A visitor pressed Theon on how sure he really was. This is what came back — the voice holding apart what it knows from what it cannot show.</p>
-    <div class="exchange">
-      <figure style="margin:0" aria-labelledby="leaf-cap">
-        <div class="leaf">
-          <p class="head">Alexandrian Christianity · c. 150–400 CE</p>
-          <p class="fac">I'm glad you're here. Come in, settle wherever feels right.</p>
-          <p class="fac">Welcome to the table. Today you sit with Theon, a catechetical teacher from the Christian community of Alexandria, speaking to you from somewhere within the second through fourth centuries of that great city's life — a place where scripture, philosophy, and the discipline of the soul were held together in one breath. Theon awaits your questions; where shall we begin?</p>
-          <p class="you">You</p>
-          <p class="q">What's the actual evidence for how confident we can be about that practice? How sure are you, really?</p>
-          <p class="who-said">Theon · Catechetical Teacher</p>
-          <div class="a">
-            <p>We told you the shape a formation likely took, not one seeker's counted days. That is worth holding apart plainly, because the two are not equally sure.</p>
-            <p>The stages themselves — coming first as one still under instruction, the waiting before the water, the <span class="gloss">illumination</span> <span class="gloss">baptism</span> itself is named to be, the deepening afterward that never counts itself finished — these we hold with real confidence, because they are not inference. They are the pattern our own life set down and still keeps: the great fast, the feast that follows it, the daily return to a <span class="gloss">Scripture</span> never read once and shelved. That rhythm is not reconstructed. It is what we do.</p>
-            <p>What we cannot give you is one particular <span class="gloss">soul</span> walking it — a name, a morning, a specific word said to a specific catechumen on a specific day. When we spoke of "a typical formation," that was offered honestly as the shape many lives probably shared, not as any single life we can point to and say: this happened, here, to this one. Where the pattern is concerned, our confidence is real. Where a particular soul's road through it is concerned, we have the outline and not the portrait — and we would rather tell you that plainly than paint a face onto it that was never there.<span class="cite" aria-label="three sources cited">✲ 3</span></p>
-          </div>
-        </div>
-        <figcaption class="leaf-caption" id="leaf-cap">Captured from a live conversation with Theon on 25 August 2026; the words are unchanged, re-set here in the app's long-form grammar. The dotted terms and the ✲ are live in the room — hover or tap them there for the plain meaning, and for the sources. Here they are a picture.</figcaption>
-      </figure>
-      <aside class="margin" aria-label="How to read the exchange">
-        <div class="note"><h3>The quieter voice</h3><p>The italic lines are the Facilitator, who opens the room, bridges anything the voice could not know, and — if something painful comes up — points you toward real people who can help.</p></div>
-        <div class="note"><h3>A dotted term</h3><p>Opens a short gloss in the tradition's own words; one tap more opens the full entry. Marked the first time it appears, then left alone.</p></div>
-        <div class="note"><h3>✲ 3 · the sources</h3><p>Three letters and records stand behind this answer. In the room you open the list, and every one is checkable.</p></div>
-        <div class="note"><h3>Where it's thin</h3><p style="color:var(--text)">Where the historical record is thin, we let the silence stand.</p></div>
-      </aside>
-    </div>
-  </section>
-
-  <section class="before" aria-labelledby="before-title">
-    <p class="eyebrow">Before you sit down</p>
-    <h2 id="before-title">A representative voice, not a person. Here is what holds it to the record, and what is still unfinished.</h2>
-    <div class="two">
-      <div>
-        <h3>What holds it</h3>
-        <ul>
-          <li><strong>Locked to sources.</strong> A voice is built last, from a completed record of one tradition's own letters, sermons, and primary sources, through a ten-step, review-gated build — and speaks only from that record.</li>
-          <li><strong>Shows its confidence.</strong> Every claim carries how well it is attested, in the same five words inside every conversation, never adjusted for who is asking.</li>
-          <li><strong>Watched while it speaks.</strong> <span>Every conversation is watched in real time for a softened truth, an invented detail, or knowledge the voice shouldn't have — and corrected before it reaches you.</span></li>
-          <li><strong>Witness, never recruitment.</strong> A voice of its tradition, in real conversation — it does not pretend to be a person, and it is not here to win you over.</li>
-        </ul>
-      </div>
-      <div>
-        <h3>What is unfinished, said plainly</h3>
-        <ul>
-          <li><strong>Independent academic review is the standard we are building toward.</strong> It has not begun; an advisory board is being formed and needs funding and volunteers.</li>
-          <li><strong>Every conversation runs on one plain voice.</strong> The modes designed for a pastor, a scholar, or someone re-examining faith have not shipped.</li>
-          <li><strong>Lives in one browser tab, not an account.</strong> There is no sign-in; a conversation stays in the tab you open it in. What we keep on our side, and how to ask us to delete it, is on the Privacy page.</li>
-          <li><strong>Later centuries are planned, not built.</strong> What is live is the Church's own first four hundred years; each later era is its own careful build.</li>
-          <li><span>If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</span></li>
-        </ul>
-      </div>
-    </div>
-    <p class="committed">We are committed to representing each Christian movement in full — its testimony, beautiful and hard alike.</p>
-    <p class="measure">We measure whether each Christian movement is represented in an engaging and accurate way. What it means for you is yours to own and share.</p>
-    <p class="sans muted" style="font-size:.9rem;margin:1rem 0 0">How a tradition is built, step by step: <a href="about.html#how-it-works">About — how it works</a>.</p>
-  </section>
-
   <section class="map" aria-labelledby="map-title">
     <p class="eyebrow">Twenty centuries on one map</p>
     <h2 id="map-title">Church in History</h2>
-    <p>Seven traditions are open for conversation and two more are chosen and being built. Nearly three hundred movements across ten eras are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read.</p>
+    <p>More traditions are chosen and being built all the time. Christian movements across the Church's whole history are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read.</p>
     <p class="links"><a href="atlas-v3.html">Open Church in History →</a><a href="whats-next.html" style="font-weight:400">What's next</a></p>
   </section>
 

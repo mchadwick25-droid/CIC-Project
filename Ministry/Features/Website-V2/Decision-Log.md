@@ -2144,3 +2144,69 @@ site; zero overflow 320–1440px on the header at every breakpoint,
 including the ≤640px case where only the CTA half shows (no "Been
 here before?" prefix) and the phrase is at its longest relative to
 available width.
+
+---
+
+## 2026-09-03 (later still) — Homepage cut: no stale numbers, no explaining the experience instead of having it
+
+Mark, going through the freeze-pass review: two standing principles,
+not just fixes to specific lines. (1) Numbers describing the current
+state of the build — how many traditions, how many eras, how many
+movements — will be constantly changing for weeks; copy needs to be
+timeless, not a progress report that goes stale. (2) Most of the
+homepage's "One exchange, as it happened" and "Before you sit down"
+sections is explanation *about* the experience, not the experience
+itself, and that's a distraction — cut it now; a future FAQ page is
+the place for people who want the fuller detail.
+
+**Cut entirely, `index.html`:** §1.4 ("One exchange, as it happened" —
+the sample captured conversation with its four margin notes) and §1.5
+("Before you sit down" — the two-column "what holds it / what's
+unfinished" disclosure grid), roughly 60 lines of markup and ~30 lines
+of now-dead CSS (`.looks`, `.exchange`, `.leaf`, `.gloss`, `.cite`,
+`.leaf-caption`, `.margin`, `.before`, `.two`, and the `--leaf`,
+`--tyrian`, `--tyrian-text`, `--gold-wash` custom properties they alone
+used). The one disclosure that actually needs to be said before a
+visitor starts — representative voice, not a person who lived —
+already exists independently at the door section's `.ai-line` and
+stays untouched. The distress-routing line and the account/privacy fact
+that lived in the disclosure grid are not lost: both already appear on
+About's Safety & Disclosure section and the Privacy page respectively
+(the distress line explicitly "once per page" per the storyboard); only
+their repetition on the homepage is gone.
+
+**Not carried anywhere yet — flagged, not decided:** two lines in the
+cut disclosure block are marked `[VERBATIM — locked, Brand Guidelines]`
+("We are committed to representing each Christian movement in full…" /
+"We measure whether each Christian movement is represented…"). About's
+mission section looks like the right home for them, but that's a
+placement call for Mark, not mine to make by cutting-and-pasting brand
+copy into a page whose content this workstream otherwise left carried
+unchanged.
+
+**Numbers removed as timeless-copy fixes, `index.html`:** the meta
+description and the homepage's own scope line both dropped "Seven" from
+"Seven Christian traditions…"; the Church-in-History paragraph dropped
+"two more," "nearly three hundred," and "ten eras," rewritten to say
+traditions and movements are still being added without committing to a
+count. Tradition pages and table.html were checked and already carry no
+build-progress numbers — nothing to change there. `whats-next.html` and
+`support.html` carry the same kind of stale-prone counts (rulings 37/38
+in the freeze pass already tracks this) but weren't touched here — they're
+separate, already-open items in that review, not part of this sweep.
+
+**Incidental cleanup while in this section:** the storyboard still
+described the old two-action chair pattern ("Ask {Name} →" plus the
+record link) from before this session's earlier chair-link sweep; its
+own accessibility walkthrough, keyboard path, and page-height figures
+predated both that change and today's cut. Rewritten to match what's
+actually built, and pixel-exact tab-stop counts were dropped rather than
+recomputed — precisely the kind of number this ruling says to stop
+carrying.
+
+**Verified:** zero overflow 320–1440px; zero console errors; clean
+heading outline (H1 → H2 "Who would you like..." → H3 era × 2 → H4 × 7
+→ H2 "Start with your question" → H2 "Church in History" → H2
+"Support"); page height dropped from roughly 6,786px to 2,873px at
+1280 wide (390×844: 3,856px, down from 9,441). Zero comments, zero
+`data-copy` attributes — unchanged.
