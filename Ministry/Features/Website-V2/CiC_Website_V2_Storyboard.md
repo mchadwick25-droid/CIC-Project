@@ -91,8 +91,8 @@ visitor only, the side door.
 |---|---|---|
 | Wordmark | Church *in* Conversation | `[VERBATIM — locked, Brand Guidelines]` |
 | Nav | Home · About · What's Next · Map · Get Involved | `[LIVE — carried unchanged]` |
-| Side door (returning visitors only) | Been here before? Go straight in → | `[DRAFT COPY — pending Mark's approval]` |
-| Side door, ≤640px | Go straight in → | (the long half hidden) |
+| Side door (returning visitors only) | Been here before? Go straight to a conversation → | `[DRAFT COPY — pending Mark's approval]` |
+| Side door, ≤640px | Go straight to a conversation → | (the long half hidden) |
 
 **Rules.** The mark is not in the header (ruling 8). Nothing is sticky. The
 header wraps; it never clips a link and never hides a scroller. Nav links are
@@ -117,7 +117,7 @@ row from 414 to 900 (measured: 163px at 414–480, 114 at 640, 174 at 700,
 underline `#E08C74`. *Print:* hidden.
 
 **Screen reader.** `banner` → link "Church in Conversation" → navigation
-"Site": five links (+ "Been here before? Go straight in" when returning).
+"Site": five links (+ "Been here before? Go straight to a conversation" when returning).
 **Keyboard:** wordmark, then the five links in order, then the side door.
 
 ### S.3 Footer
@@ -217,7 +217,7 @@ comment naming the census version it was generated from.
 | 1.1a | The mark, 52px (44px on phones), plays once on arrival (§6.3 of the design record; ruling 16); `aria-hidden` | — | — |
 | 1.1b | The mark's public sentence, caption size, beside the mark | The mark is a table; the opening is the way in — and it never closes. | `[VERBATIM — locked, Brand Guidelines]` |
 | 1.1c | H1 | Twenty centuries of the Church. One table. A chair pulled out for you. | `[VERBATIM — locked, Brand Guidelines]` |
-| 1.1d | Welcome-back line (returning visitors only; hidden otherwise) | Welcome back. Go straight in → | `[DRAFT COPY — pending Mark's approval]` |
+| 1.1d | Welcome-back line (returning visitors only; hidden otherwise) | Welcome back. Go straight to a conversation → | `[DRAFT COPY — pending Mark's approval]` |
 
 The first text on the page is the mark's sentence — the Logo Usage Sheet's
 caption rule discharged, an explicit choice (ruling 8). Centred; the H1 at
@@ -414,7 +414,7 @@ week; nothing in the layout depends on its wording).
 | State | What the visitor sees |
 |---|---|
 | **First visit** | No side door, no welcome-back line. Hook, door, six questions; the AI line before any conversation link. |
-| **Returning** (flag set) | The side door in the header; *Welcome back. Go straight in →* under the hook. Everything else identical — the seven never move, never in a carousel. |
+| **Returning** (flag set) | The side door in the header; *Welcome back. Go straight to a conversation →* under the hook. Everything else identical — the seven never move, never in a carousel. |
 | **Launch state** (ruling 4) | As of 2026-09-03, all seven tradition pages exist; every chair carries two actions. This is now the end state §1.9 describes, not the asymmetric interim §1.8 planned for. The tab-stop counts below predate this and need remeasuring; not yet redone. |
 | **Question held — typed** | Submit (control or Enter): the held block renders at the top of §1.3 with the question; URL `#q=…`; scroll to §1.3; focus on the held block; next Tab → *Edit it*. |
 | **Question held — offered** | Tapping an offered question: the same, with that text; the input is filled with it too. |
@@ -791,8 +791,8 @@ One short page in the V2 chrome:
 | # | Copy | Register |
 |---|---|---|
 | 9a | H1: There's nothing at this address. | `[DRAFT COPY — pending Mark's approval]` |
-| 9b | The door is still open. Start with your question on the home page, or go straight in. | `[DRAFT COPY — pending Mark's approval]` |
-| 9c | Links: Home · Go straight in → (the app) | labels `[LIVE]` / `[DRAFT COPY — pending Mark's approval]` |
+| 9b | The door is still open. Start with your question on the home page, or go straight to a conversation. | `[DRAFT COPY — pending Mark's approval]` |
+| 9c | Links: Home · Go straight to a conversation → (the app) | labels `[LIVE]` / `[DRAFT COPY — pending Mark's approval]` |
 
 No mark on this page (its sentence is not owed where the mark is absent).
 Title, description and `noindex` in S.6. **States:** global. **Screen
@@ -811,12 +811,12 @@ pass through that ruling, tradition by tradition, not through this list.
 
 
 **Shared chrome**
-- S.2 Been here before? Go straight in → · S.3 (footer line unification — no new words; ruling 39)
+- S.2 Been here before? Go straight to a conversation → · S.3 (footer line unification — no new words; ruling 39)
 - S.6 The tradition-page description pattern: {Name} is an AI voice for {the tradition, as its tile names it}, {dates}. Where the record is quiet, the questions people bring, and what {she/he} is built from. · Chloe's instance: Chloe is an AI voice for the house-churches of Antioch, Asia Minor and Rome, 70–200 CE. Where the record is quiet, the questions people bring, and what she is built from.
 - S.6 404 title: Nothing at this address — Church in Conversation · 404 description: There's nothing at this address. The door is still open — start with your question on the home page.
 
 **Home**
-- 1.1d Welcome back. Go straight in →
+- 1.1d Welcome back. Go straight to a conversation →
 - 1.2b Your question (hidden label) · 1.2d Choose who to ask →
 - 1.2e Whether you come curious, with a sermon to write, or with a question about faith you've carried for years — there is a chair.
 - 1.2f Write it in your own words. It stays in this browser tab and is sent to no one until you press Send in the room — for now, you will type it again there.
@@ -874,7 +874,7 @@ pass through that ruling, tradition by tradition, not through this list.
 - §7 (for example: anything on a tradition's page that read as a test you had to pass)
 
 **404**
-- 9a There's nothing at this address. · 9b The door is still open. Start with your question on the home page, or go straight in. · 9c Go straight in →
+- 9a There's nothing at this address. · 9b The door is still open. Start with your question on the home page, or go straight to a conversation. · 9c Go straight to a conversation →
 
 ---
 

@@ -398,7 +398,7 @@ ones are drafted there under the draft-and-approve rule (the review's R10).
 *in* — the lockup rule the live header drops) at left; the nav — Home · About
 · What's Next · Map · Get Involved — as text links with a madder underline on
 hover/focus/current; for a returning visitor only, a quiet italic side door,
-*Been here before? Go straight in →* (draft copy — storyboard S.2). The
+*Been here before? Go straight to a conversation →* (draft copy — storyboard S.2; 2026-09-03 change order — "go straight in" didn't say what "in" meant). The
 header wraps on narrow screens; it
 never clips, never hides a scroller, is never sticky. The mark is not in the
 header (ruling 8). Below 640px the nav sets at .9rem with tighter gaps — the
@@ -453,7 +453,7 @@ Every hand-off into the app uses the app's own deep-link contract
 | Ask *Name* (homepage chair; tradition seat line and closing door) | `?worlds=<census-id>&mode=interview` (+ `#q=…` once §5.2 lands) | straight into the room |
 | Set your own table (homepage) | `?mode=table` | the Table field, empty — as its copy says |
 | Bring *Name* to a Table (tradition page) | `?worlds=<census-id>&mode=table` | the Table field with that one seat — and a *disabled* "Seat at least two voices" button today; ruling 18 |
-| Go straight in (side door; welcome-back) | `/` | the launch screen |
+| Go straight to a conversation (side door; welcome-back) | `/` | the launch screen |
 
 The link texts in this table are the storyboard's, and every one of them is
 `[DRAFT COPY — pending Mark's approval]` there; only *Start with your

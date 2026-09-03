@@ -2120,3 +2120,27 @@ open; re-opening works; record links inside an open era still resolve;
 zero overflow 320–1440px with either era open; zero console errors;
 no-JS context confirms both eras' chairs are present and unhidden in
 the raw markup.
+
+---
+
+## 2026-09-03 (later still) — "Go straight in" didn't say into what
+
+Mark: the phrase names no destination. Swept "Go straight in →" to "Go
+straight to a conversation →" everywhere it appears — the returning-
+visitor side door in the header (every page) and the homepage's own
+welcome-back line. Both link to the app's bare root, which the design
+record's own link table already called "the launch screen" internally;
+"a conversation" is what a visitor actually gets there, in the site's
+own vocabulary, without naming the mechanism (register test, §3.6).
+
+**Changed:** `index.html` (2 instances), `table.html` (1), all seven
+`traditions/*.html` (1 each) — 10 instances total. Storyboard (S.2,
+1.1d, §1.8, the 404 draft at 9b/9c, Appendix A) and the design record's
+link table updated to match, so the reference documents don't go stale
+against what shipped.
+
+**Verified:** zero remaining "Go straight in" anywhere in the built
+site; zero overflow 320–1440px on the header at every breakpoint,
+including the ≤640px case where only the CTA half shows (no "Been
+here before?" prefix) and the phrase is at its longest relative to
+available width.
