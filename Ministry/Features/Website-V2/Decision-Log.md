@@ -2024,3 +2024,31 @@ rather than left silently orphaned.
 outlines, held-question flow correct in a fresh context, zero
 `target="_blank"`; `index.html` and `table.html` re-verified end to end
 after the comment/attribute strip with no regressions.
+
+---
+
+## 2026-09-03 (later still) — D4 Increments 4–8: the remaining five tradition pages built
+
+Mark: "show me the other five tradition pages next." Built to the short
+template (title block, one-line representative statement, one "where
+it's quiet" excerpt, three or four questions, the door) — no separate
+build-process document, per the earlier ruling; each page's real content
+verified against its own record store before writing, not assumed by
+analogy to Chloe's or Theon's.
+
+**Built:** `syriac-edessa-nisibis.html` (Mar Yausep), `imperial-juridical-
+christianity.html` (Marius), `desert-monasticism.html` (Papnoute),
+`cappadocian-nicene-pastoral-monastic-tradition.html` (Chilo),
+`hieronymian-ascetic-literary.html` (Albina). Each page's quiet excerpt
+and every question's source note trace to a real record id — read
+directly from `records/<prefix>/`, not paraphrased. Homepage's five
+remaining chairs gain their "His/Her record →" second action; all seven
+tradition pages now exist, matching the storyboard's own end state
+(§1.9) rather than the interim asymmetric one it planned for launch.
+
+**Verified:** all seven tradition pages, zero overflow 320–1440px, zero
+`target="_blank"`, held-question flow correct in a fresh context per
+page; homepage's overflow re-checked after the five new links; all seven
+homepage record links confirmed present and pointed at the right files.
+Zero comments and zero `data-copy` attributes in any of the five new
+files, built clean from the start.
