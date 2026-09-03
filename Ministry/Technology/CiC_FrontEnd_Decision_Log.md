@@ -1953,12 +1953,28 @@ and so far only entry: the Silesian Children's Prayer Revival
 explicit about what's well attested versus later devotional
 embellishment.
 
-**Open, not yet scoped:** Mark says a "story module" is being added
-next. Not yet clear whether that means (a) more entries in the
-existing book-icon pattern - a content-sourcing task, or (b) a
-structurally different surface - e.g. a richer detail view for a story
-mark than hover/click currently gives, or a way of pulling a
-tradition's own Doc_09 story-repository content onto the map instead
-of (or alongside) these standalone, no-single-movement entries. Asked
-Mark directly rather than guessing. Next action: get his answer, scope
-accordingly.
+**Resolved same day: (a).** Mark confirmed the "story module" is more
+entries in the existing book-icon pattern, not a new UI surface and
+not a Doc_09 pull-through - a content-sourcing task, using the
+existing interaction contract as-is.
+
+**Open now: the sourcing bar going forward.** Silesia's own entry set
+a high one - Mark's personal on-site visit to Cieszyn, explicit
+separation of what's well attested from later devotional
+embellishment. Not yet settled whether every future entry needs that
+same level of personal verification (making this a slow, occasional
+addition) or whether a build thread can apply a documented sourcing
+standard to vet a first batch without Mark visiting each site himself.
+Leaning toward keeping the bar high and the pace slow rather than
+mass-producing entries - the map's trustworthiness depends on every
+mark clearing the same standard, and a "story" mark has no movement
+world-build behind it the way every other mark on the map does, so
+it's inherently harder to source well. Possible existing lead, not yet
+verified: `atlas-v3.html`'s own movements data already carries at
+least one "shelf" entry (post-apostolic-house-church's A5 status, "the
+census has no bucket for the class") for corpus material with no
+single movement home - a different category (a genre of writings vs.
+a narrative episode) but worth checking whether any of that already-
+flagged material could seed a candidate list rather than starting from
+zero. Next action: get Mark's answer on the sourcing bar, and on
+whether he has candidate entries in mind already.
