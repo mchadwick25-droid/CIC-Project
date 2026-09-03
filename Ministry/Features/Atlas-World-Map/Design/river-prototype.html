@@ -21152,6 +21152,7 @@ function openPanel(m){
   panelBody.innerHTML=h; showPanel(); hideTip();
   const interviewBtn=panelBody.querySelector('[data-interview-id]');
   if(interviewBtn)interviewBtn.addEventListener('click',()=>launchInterview(interviewBtn.dataset.interviewId));
+  syncWorldURL(m.id);
 }
 function openPanelEdge(edg,a,b){
   hideTip();
@@ -21159,6 +21160,7 @@ function openPanelEdge(edg,a,b){
     <p class="meta">${esc(edg.type)} · ${esc(edg.confidence)}</p>
     <p>${esc(edg.note)}</p>`;
   showPanel();
+  syncWorldURL(null);
 }
 function openPanelRiver(f,members){
   hideTip();
@@ -21223,6 +21225,7 @@ function openPanelRiver(f,members){
     btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
   });
   showPanel();
+  syncWorldURL(null);
 }
 // Neither trigger (a click, or Enter/Space on a node's own keydown handler)
 // moved focus anywhere -- a keyboard user who opened the panel had no
@@ -21247,6 +21250,32 @@ function closePanel(){
   panel.setAttribute('inert','');
   if(lastFocused&&document.contains(lastFocused))lastFocused.focus();
   lastFocused=null;
+  syncWorldURL(null);
+}
+// Shareable deep link: ?world=<id> opens straight to one movement, the same
+// B5 discipline atlas-v3.html already uses for its own filter state (q/
+// built/laneoff/regionoff) -- read once at boot, written back via
+// replaceState (not pushState -- opening/closing a panel isn't a fresh page,
+// it shouldn't spam browser history) whenever a movement panel opens or
+// closes, so copying the address bar while one is open reproduces the same
+// view. River and edge panels aren't part of this contract -- a movement is
+// the map's own shareable unit ("the world is the primary door").
+function syncWorldURL(id){
+  const p=new URLSearchParams(location.search);
+  if(id)p.set('world',id); else p.delete('world');
+  const qs=p.toString();
+  history.replaceState(null,'',qs?('?'+qs):location.pathname);
+}
+// Brings one world's own dot to the center of the viewport at a fixed,
+// comfortably-zoomed-in scale (past DETAIL_THRESHOLD, so its portrait and
+// label are already showing) rather than leaving a deep-linked panel open
+// over whatever part of the timeline the default overview happened to land
+// on.
+function focusWorld(m){
+  scale=Math.max(scale,0.6);
+  tx=window.innerWidth/2-m._x*scale;
+  ty=window.innerHeight/2-m._y*scale;
+  applyTransform(); applyDetail();
 }
 document.getElementById('panelClose').addEventListener('click',closePanel);
 panel.addEventListener('keydown',(ev)=>{
@@ -21452,4 +21481,9 @@ mq.addEventListener('change',()=>{render(); buildLegend(); applyTransform(); app
 render();
 buildLegend();
 centerView();
+{
+  const deepLinkId=new URLSearchParams(location.search).get('world');
+  const deepLinkM=deepLinkId&&byId[deepLinkId];
+  if(deepLinkM){ focusWorld(deepLinkM); openPanel(deepLinkM); }
+}
 </script>
