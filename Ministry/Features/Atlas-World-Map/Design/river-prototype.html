@@ -173,6 +173,7 @@ svg#world{display:block;overflow:visible}
 #panel ul.voices,#panel ul.exptoday{margin:.3rem 0;padding-left:1.1rem}
 #panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
 #panel ul.exptoday a{color:var(--tyrian)}
+#panel .edge a{color:var(--tyrian)}
 /* A river's own panel lists its member movements as in-app jumps, not real
    URLs -- a <button> styled to read as a link, so it still gets a real click
    target and Enter/Space for free instead of reimplementing that on a <span>. */
@@ -20918,7 +20919,21 @@ function openPanel(m){
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
   if(m.longDescription)h+=`<h3>The Story</h3><p>${esc(m.longDescription)}</p>`;
   if(m.voices&&m.voices.length)h+=`<h3>Voices</h3><ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
-  if(hasContent(m.sourcing))h+=`<h3>Sourcing</h3><p>${esc(m.sourcing)}</p>`;
+  // The census's own bibliography -- 939 citations across 172 of the 292
+  // records, primary sources included, 28 with a direct link to the actual
+  // text -- was captured in the data and never once rendered, same gap as
+  // the teaser/tile line above. m.sourcing (kept) is this record's own
+  // one-line assessment of how strong its sourcing is; the list below is
+  // what that assessment is an assessment OF. Neither implies the other:
+  // some records carry one without the other.
+  if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){
+    h+='<h3>Sources</h3>';
+    if(hasContent(m.sourcing))h+=`<p>${esc(m.sourcing)}</p>`;
+    if(m.sources&&m.sources.length)h+=m.sources.map(s=>{
+      const work=s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.work)}</a>`:esc(s.work);
+      return `<div class="edge"><span class="k">${esc(s.type)}</span><br><b>${work}</b>${s.note?`<br>${esc(s.note)}`:''}</div>`;
+    }).join('');
+  }
   if(m.floorNote)h+=`<h3>Doctrinal floor note</h3><p>${esc(m.floorNote)}</p>`;
   if(m.legacy)h+=`<h3>Legacy</h3><p>${esc(m.legacy)}</p>`;
   if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
