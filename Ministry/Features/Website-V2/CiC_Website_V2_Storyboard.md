@@ -253,7 +253,7 @@ in screen one from 740, its first line visible at 660; the AI line at 807
 (390), before the first offered question at 1,005; zero app links precede
 the AI line for a first-time visitor (verified).
 
-### 1.3 Who would you like to ask — `#who`
+### 1.3 Who would you like to have a conversation with — `#who`
 
 **Now the first screen after the hero (2026-09-02 change order above), not
 the door's landing zone — context before the ask.** Top to bottom:
@@ -307,7 +307,7 @@ both given a `hidden` attribute and its own `display` in CSS.
 |---|---|---|---|
 | 1.3a | The held block (hidden until a question is held): a vellum block with a 3px lapis left rule; `tabindex="-1"`, `aria-labelledby` the label and the question | Your question, held: · *the visitor's own words, italic* · Edit it | `[VERBATIM — constitution]` for the label; "Edit it" `[DRAFT COPY — pending Mark's approval]` |
 | 1.3b | Eyebrow | Who's at the table | `[LIVE — carried unchanged]` |
-| 1.3c | H2 | Who would you like to ask? | `[DRAFT COPY — pending Mark's approval]` |
+| 1.3c | H2 | Who would you like to have a conversation with? | `[DRAFT COPY — pending Mark's approval]` — 2026-09-03 change order (Mark): the project's name is *Church in Conversation*; a question is how one starts, but the conversation is the point, and the heading should say so |
 | 1.3d | Scope line (carries the sentence the hero gave up) | Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one. | `[DRAFT COPY — pending Mark's approval]` |
 | 1.3e | Era heading, H3 (×2) | The Early Church Era · 70–312 CE / The Imperial Church Era · 312–451 CE | `[CENSUS — verbatim]` (the census's era heads carry hyphens; the dash seam is a data fix — design record §11.3) |
 | 1.3f | Seven chairs (see the table below) — each an `<li>`: 72px portrait in a 2px tint ring (56px ≤480) · H4 name with the role beside it in muted sans · tradition name in italic · dates · region in sans · the tile · two text actions | — | `[CENSUS — verbatim]` |
@@ -336,7 +336,8 @@ era heads. The tile under each chair is the census `entry.tile`, verbatim.
 2026-08-28 identity ruling, carried from the live site's own code comment).
 
 **Measured after a hold (390×844):** the landing screen reads — held
-question · Edit it · Who's at the table · Who would you like to ask? · scope
+question · Edit it · Who's at the table · Who would you like to have a
+conversation with? · scope
 · The Early Church Era · Chloe. No pilot paragraph, no cost paragraph in the
 landing zone. The first "Ask Chloe" is 770px below the landing point.
 
@@ -434,7 +435,7 @@ paragraph before the H1 → H2 "Start with your question" → edit text
 the lede → the "how" line → the AI line → the list heading → list of 6 links
 (each the full question) → the note → [after a hold: the held block, focused,
 announced as "Your question, held: {question}", then link "Edit it"] → H2
-"Who would you like to ask?" → scope → H3 era → list of 3: each H4 "{Name}
+"Who would you like to have a conversation with?" → scope → H3 era → list of 3: each H4 "{Name}
 {Role}", tradition, dates and region, the tile, link "Ask {Name}", link
 "{Her/His} record — {Tradition}" (at launch, only Chloe's item has the
 second link; the other six end at "Ask {Name}") → H3 era → list of 4 → the
@@ -963,7 +964,7 @@ Mark's eye is the test.
 - 1.2g You will be in conversation with an AI system — a voice built from one tradition's own letters and records. It shows its sources as it speaks, and it will tell you where its record runs out.
 - 1.2h Or begin with one of these — questions people bring
 - 1.2j These are from the project's own set of questions, the same set every voice is prepared to meet. Any of them, or your own, is asked in the room.
-- 1.3a Edit it · 1.3c Who would you like to ask?
+- 1.3a Edit it · 1.3c Who would you like to have a conversation with?
 - 1.3d Seven Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. You can bring the same question to more than one.
 - 1.3g Ask {Name} → · 1.3h Her/His record → (— {Tradition})
 - 1.3i′/j′ This is a pilot. We're listening for what people coming from four directions find here — the curious, pastors and teachers, scholars, and anyone re-examining their faith. Every conversation costs real money to run, so for now we ask each person to keep to about five. We can't enforce that; we can only ask.

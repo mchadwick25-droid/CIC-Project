@@ -1270,3 +1270,141 @@ three-era case shows eras 1–2, Next lands exactly flush on era 3 alone,
 Previous returns exactly to the original 1–2 view (same label, same
 `scrollTop: 0`); held-question flow and no-JS fallback both re-confirmed
 with no regressions.
+
+## 2026-09-03 — Homepage change order: "have a conversation with," not "ask"
+
+**Mark's ruling:** the H2 over the seven chairs should read "Who would you
+like to have a conversation with?", not "Who would you like to ask?" — the
+project's own name is *Church in Conversation*; a question is how a visitor
+starts, but the conversation itself is the point, and the heading should
+say so rather than naming the mechanism.
+
+**Applied to `cic-website/index.html`** (the H2 is `[DRAFT COPY — pending
+Mark's approval]`, exactly the register this kind of edit is for) and to
+`CiC_Website_V2_Storyboard.md` §1.3 everywhere the old wording was quoted
+— the section heading itself, the copy row (with this ruling noted inline),
+the fold-measurement note, the accessibility walk-through, and Appendix A's
+draft-copy index. Nothing else on the page changed — the eyebrow "Who's at
+the table," the scope line, and every "Ask {Name} →" chair action keep
+their current wording; only the section H2 moved. Verified live.
+
+## 2026-09-03 — D4 Increment 2: Chloe's tradition page built
+
+**Built:** `cic-website/traditions/post-apostolic-house-church.html` —
+Increment 2, following storyboard §2 (the tradition-page template, Chloe
+as its reference instance) line by line, using the defended hybrid's
+`tradition-chloe.html` as structural reference only, the same discipline
+as Increment 1. This is the page the homepage's "Her record →" link has
+pointed to since Increment 1; it now resolves.
+
+**Corrections made relative to the hybrid, each traced to a specific spec
+item, mirroring the homepage's own fix list:**
+
+- **Same-tab hand-off (ruling 15).** Dropped `target="_blank"` and every
+  "(opens in a new tab)" announcement from all four conversation links
+  (the seat line's Begin/Bring, the closing door's Begin/Bring) and the
+  seven — now four, see below — question links.
+- **The `#q=` fragment, extended one page (storyboard §2.2).** A question
+  held on the homepage now survives the click through: on arrival, the
+  page reads `location.hash` (decode in `try/catch`, trim, cut to 280,
+  `textContent` only — §5.1's rule, verbatim), shows a held block between
+  the AI line and the seat line, and appends `#q=<encoded>` to *all four*
+  conversation links (the storyboard's own instruction for this page,
+  distinct from the homepage's own Ask-links-only rule) — not gated
+  behind the app's own change order (ruling 34, still unauthorized),
+  since this is the site's own on-page behavior either way. "Edit it"
+  goes back to `../index.html#q=…`, the only place the actual input lives.
+- **The AI line, added.** The hybrid's seat line had no equivalent of the
+  homepage's 1.2g disclosure; the storyboard's fix-pass added one
+  (§2.2a, "the review's R5") — a visitor arriving here directly, from a
+  search result or a shared link, has passed no other disclosure. Added
+  verbatim, in the same graphite-rule/sans/ink-text treatment as the
+  homepage's own.
+- **"On this page" nav, added (ruling 22, §2.3)** — five links, not in
+  the hybrid at all: a twenty-screen phone page needs a way in without an
+  accordion. With JavaScript the links scroll by script and leave the
+  hash alone, so a held `#q=` survives a same-page jump and a share taken
+  afterward doesn't lose the question; without it, a plain anchor jump —
+  no question was ever held without JavaScript regardless.
+- **Only four questions ship, not seven (⚠ real content gate, ruling 3 —
+  storyboard §2.6c/d).** The hybrid showed all seven; the storyboard is
+  explicit that the tradition's own three starter-draft questions "ship
+  with four until cleared." Ruling 3 has not been cleared, so the three
+  starters are cut here, not just visually deprioritized — verified by
+  counting: 4 question `<li>`s, not 7. **Raising this to Mark now**: the
+  three held-back questions are in the storyboard's own §2.6d if he wants
+  to clear them and bring the page to seven.
+- **The lexicon terms and breadcrumb links now carry a real 44px hit
+  area (R-A4).** The reference measures the four lexicon terms at 29px
+  tall and the breadcrumb links at 34px — named in the storyboard as "a
+  build fix the verifier checks, not a property of the reference." Added
+  a transparent `::before` on `.lex` sized `max(100%, 44px)` and centered
+  over the button (extends the hit box without moving or resizing the
+  visible dotted text), and gave the breadcrumb links `min-height:44px`.
+  Verified by hit-testing actual coordinates 2–7px outside the visible
+  text box (not just reading `getBoundingClientRect` on the visible
+  glyphs, which would have missed the fix entirely) — dispatched clicks
+  land on the button through 7px past its edge, and correctly stop
+  landing on it at 8px, exactly matching the computed 44px box.
+- **The Level-3 panel's "Full entry" control degrades correctly without
+  JavaScript** (storyboard §2.10's no-JS row: "the card's Full entry
+  control is not rendered — the build hides it without script rather
+  than showing a dead control"). `<html class="no-js">` flips to `class="js"`
+  via a one-line synchronous script at the top of `<head>`; `.no-js
+  .lex-card .full{display:none}` hides the control until that flip
+  happens. The rest of the lexicon grammar the hybrid already built
+  (Level-2 shows on hover/focus by CSS alone, `aria-describedby` reaches
+  assistive tech whether or not the card is painted, focus held open
+  across the wrapper, Escape/× returns focus to the term) carries over
+  unchanged — this was already reviewed and verified in D2/D3, not
+  something this increment needed to redo.
+- **`noindex` removed.** The hybrid mockup carried
+  `<meta name="robots" content="noindex">`, correct for a sandbox file
+  never meant to be found; the storyboard's own §2.2a explicitly plans
+  for "seven indexed pages," so the real page should be indexable.
+- **Real relative paths, corrected title/meta, no sandbox note, no
+  visible draft tags** — the same fixes as Increment 1, applied here:
+  paths now resolve from `traditions/` (one level up to `cic-website/`
+  root); title "The House-Churches — Church in Conversation" and the
+  description drafted for Chloe's instance, both from storyboard §S.6's
+  pattern, replacing the hybrid's own differently-worded versions;
+  `data-copy` attributes kept as invisible provenance, every visible
+  `<mark class="draft">` removed; the palette matches the 2026-09-02
+  change order (`#F6F6F2` / `#FFFFFF`) automatically, since the tokens
+  were copied fresh rather than carried from the older hybrid file.
+
+**Content otherwise carried verbatim from the record**, unchanged from
+the hybrid where the hybrid was already quoting `records/pahc/*` and the
+reviewer's brief: the five `honest_limit` silences (Chloe's is five, not
+four — the guard-line silence makes a fifth, correctly counted against
+the storyboard's own H-level outline), the two `doctrinal_witness` texts
+and their four lexicon terms, the sources table, the seven gravities, the
+contested list, the floor note, legacy and review-status sections, and
+the four peer-review press questions. None of this is this session's
+prose; it is the record's own words, arranged.
+
+**Verified locally** (headless Chromium, no live preview): zero
+horizontal overflow 320–1440px including the exact 1099/1100px
+sidenote-float breakpoint; heading outline is one clean H1 → H2 → H2
+(H3×5) → H2 → H2 → H2 (H3×8) → H2, no skipped levels; exactly 4 question
+links, not 7; the lexicon grammar re-tested end to end — hover shows the
+Level-2 card, click opens the Level-3 panel with focus moved to its close
+button, Escape closes it and returns focus to the term, the 44px hit
+extension verified by coordinate, not just by class name; the held-
+question flow re-tested fresh (not on a same-document hash-only
+navigation, which doesn't re-run the page's script — caught this test
+artifact before trusting a false negative) — held block renders, all
+four conversation links gain `#q=`, the edit link points back to the
+homepage with the fragment; no-JS confirmed via `javaScriptEnabled: false`
+— `no-js` class never flips, all four questions present, the "Full
+entry" control absent, the panel stays `visibility:hidden`; zero
+`target="_blank"` anywhere on the page.
+
+**Open, unchanged by this increment:** ruling 3 (the three held-back
+starter questions), ruling 34 (the app-side `#q=` change order), and the
+six remaining tradition pages, each gated on ruling 4 until its own
+record clears — none has a reviewer's brief on file except Desert Fathers
+and Mothers, the Bethlehem Circle, and Syriac Christianity, per the
+storyboard's own table; the other three (Alexandria, Cappadocia, Church
+and Empire) would ship with §2.8's record section shortened, not
+paraphrased, exactly as §2.10 specifies for that state.
