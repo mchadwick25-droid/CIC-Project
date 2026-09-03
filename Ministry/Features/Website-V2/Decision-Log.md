@@ -1180,3 +1180,93 @@ present, native scroll still active. A nice side effect, not designed
 in: at the default (era 1) scroll position, era 2's heading and the top
 sliver of its portraits peek over the gallery's bottom edge on every
 tested width — a genuine "there's more" cue that costs nothing extra.
+
+## 2026-09-03 — Reverted to both eras shown; the peek goes, the pointer stays
+
+**Mark, after using the one-era-at-a-time build:** two rows is fine to
+show at once — for now, with exactly two eras, show both in full. Don't
+show the top of the next row (the peek from the entry above was a miss,
+not a feature); add a next/previous era pointer for whenever a third era
+actually doesn't fit.
+
+**Reverted:** the gallery no longer shows one era at a time. It shows as
+many whole eras as fit — today, both — with the same `.era-group` /
+`scroll-snap-align` structure and the same Previous/Next control kept
+from the last build, but its job changed: the control now only appears
+when content genuinely doesn't fit (`gallery.scrollHeight >
+gallery.clientHeight`), not on a fixed "always show one" rule. With
+exactly two eras and both fitting inside the measured per-tier caps
+(800/1380/1560px, same numbers as the *first* gallery-capping change
+order two entries above), the control stays hidden today — nothing to
+point to yet.
+
+**The height is computed from real content, not just capped by CSS**, so
+the cutoff always lands on an era boundary and never mid-era: a
+`sizeGallery()` pass sums each `.era-group`'s actual rendered height
+against the same per-tier target, stopping at the last one that still
+fits whole, and sets that exact sum as `max-height`. The CSS values
+above are the no-JS fallback only — they happen to already show both of
+today's eras with no scrollbar on their own, which is what let the
+first version of this ship without JS depending on it for correctness.
+
+**Two more real bugs, both caught by testing an actual third era rather
+than trusting the logic on paper:**
+
+1. **The last-era clamp, again, in a new shape.** Sizing the container
+   to fit as many eras as possible (not just one) reintroduces the same
+   clamp the one-era build hit: whichever era ends up last after a Next
+   click may not have enough of its own height to reach the container's
+   top, since nothing follows it. Fixed the same way — `padding-bottom`
+   sized to `(the fitted height) − (last era's own height)` — but this
+   time computed dynamically in `sizeGallery()` off the *actual* last
+   `.era-group`, not hand-measured per tier, since which era is last now
+   depends on where the visitor has scrolled to, not just on today's
+   fixed set of two.
+2. **That padding leaked into the two-era case.** The first pass applied
+   it unconditionally, which added real padding even when both eras
+   already fit with room to spare — reintroducing a phantom scrollbar
+   for exactly the case this whole change order exists to avoid. Caught
+   by re-running the plain two-era overflow sweep after adding the fix
+   for bug 1, not by only testing the three-era path. Fixed by gating
+   the padding on there actually being more content than the fitted
+   height (`total content height > fit`) — zero today, real once a third
+   era doesn't fit.
+3. **Previous didn't reverse Next.** Landing on a lone trailing era (say,
+   era 3 alone, once one exists) and clicking Previous stepped back by a
+   single era-index, landing on "era 2–3" rather than back on the
+   original "era 1–2" page Next came from. Fixed by having Previous
+   compute the largest page that fits *ending* at the current top,
+   mirroring how Next computes the next page — verified by walking
+   forward then back through a real three-era test file and checking the
+   label and `scrollTop` matched the starting state exactly, not just
+   "some earlier state."
+4. **The nav row didn't actually hide.** `eraNav.hidden = true` doesn't
+   hide anything when `.era-nav{display:flex}` has equal-or-higher
+   specificity than the `[hidden]` UA rule it needs to beat — the exact
+   bug the design record's §11.6 already named once for
+   `.site-nav a[hidden]`, recurring here because the fix was applied to
+   one selector and not generalised. Missed by every `getAttribute
+   ('hidden')` check in this pass (the attribute *was* set correctly)
+   and only caught by actually looking at a screenshot, where the label
+   text was plainly sitting on the page it was supposed to be absent
+   from. Fixed with the matching `.era-nav[hidden]{display:none}` rule.
+   **Worth a real pass over the rest of the stylesheet for the same
+   pattern** rather than fixing it a third time somewhere else later —
+   done: every other `hidden`-bearing element (`#welcome-back`, `#held`,
+   `.side-door` via the existing `.site-nav a[hidden]` rule) sets no
+   competing `display` of its own, so none of them share this bug;
+   `.era-nav` was the only other offender.
+
+**Verified after all four fixes, against both a real two-era build and a
+real (not runtime-injected) three-era test file** — a first injection
+attempt via `appendChild` in a live page missed real bugs because the
+page's own script had already cached its `.era-group` list before the
+injection ran, so it silently ignored the new era; switching to an
+actual third `.era-group` written into a scratch copy of the file
+before load is what surfaced bugs 1–3 above. Confirmed: two-era case is
+pixel-identical to before this whole entry (`scrollHeight === clientHeight`
+at every breakpoint, nav genuinely invisible, not just attribute-hidden);
+three-era case shows eras 1–2, Next lands exactly flush on era 3 alone,
+Previous returns exactly to the original 1–2 view (same label, same
+`scrollTop: 0`); held-question flow and no-JS fallback both re-confirmed
+with no regressions.

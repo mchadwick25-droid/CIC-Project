@@ -156,25 +156,24 @@ p{margin:0 0 1rem}
 .held .edit{font-family:var(--sans);font-size:.9rem}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .6rem;max-width:var(--measure)}
 .who .scope{color:var(--muted);max-width:var(--measure);margin:0 0 .6rem}
-/* The gallery's own viewport: one era at a time (Mark's 2026-09-02
-   follow-up — "only one row showing", so the section never takes up
-   huge screen space no matter how many eras the project reaches).
-   scroll-snap holds each era flush to the top; the era-nav pair below
-   moves between them without hunting for a native scrollbar. Heights
-   are measured per tier, same discipline as the header's own table.
-   padding-bottom matters as much as max-height: without trailing space
-   past the last era, the browser clamps scrollTop before that era's
-   own top ever reaches the container's top — verified this actually
-   happens (era 2 stalled mid-viewport, not flush) before adding it.
-   Both cap and padding are keyed to today's two eras; re-measure both
-   the day a third era changes which one is last. */
-.who-gallery{max-height:420px;overflow-y:auto;scroll-snap-type:y mandatory;padding-right:.5rem;padding-bottom:94px;margin:0 -.5rem 0 0}
-@media (max-width:699px){ .who-gallery{max-height:760px;padding-bottom:117px} }
-@media (max-width:480px){ .who-gallery{max-height:820px;padding-bottom:209px} }
+/* The gallery's own viewport: every era that fits shows in full — no
+   partial row ever peeks over the edge (Mark's 2026-09-02 ruling: "for
+   now 2 rows on the screen, all the current rows... don't show the top
+   of the next row"). These CSS caps are the no-JS fallback, sized to
+   fit today's two eras with no scrollbar (measured per tier, same
+   discipline as the header's own table); JS below recomputes an exact
+   height from real content so the cutoff always lands on an era
+   boundary, never mid-era, once a third era stops fitting. The era-nav
+   pair only appears once there's something to scroll to. */
+.who-gallery{max-height:800px;overflow-y:auto;scroll-snap-type:y mandatory;padding-right:.5rem;margin:0 -.5rem 0 0}
+@media (max-width:699px){ .who-gallery{max-height:1380px} }
+@media (max-width:480px){ .who-gallery{max-height:1560px} }
 .era-group{scroll-snap-align:start}
+.era-group:not(:first-child){padding-top:1.8rem}
 .era-head{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .8rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem;display:flex;gap:1rem;flex-wrap:wrap;align-items:baseline}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
 .era-nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-top:.9rem;font-family:var(--sans)}
+.era-nav[hidden]{display:none}
 .era-nav-btn{background:none;border:none;padding:.6rem .3rem;min-height:44px;font:inherit;font-size:.9rem;font-weight:600;color:var(--action);cursor:pointer;display:inline-flex;align-items:center;gap:.3rem}
 .era-nav-btn:hover,.era-nav-btn:focus-visible{color:var(--action-hover)}
 .era-nav-btn:disabled{visibility:hidden}
@@ -560,52 +559,104 @@ Array.prototype.forEach.call(document.querySelectorAll('a[data-q]'), function(a)
 });
 document.getElementById('held-edit').addEventListener('click', function(e){ e.preventDefault(); input.focus(); input.scrollIntoView({block:'center'}); });
 
-// Era nav — one era visible at a time (design record §11.6-equivalent:
-// buttons are a JS-only convenience; without JS the gallery is still a
-// plain scrollable region, every era and every name reachable by wheel,
-// touch, or keyboard once it's focused).
+// Era gallery — every era that fits shows in full; the era-nav pair only
+// appears once there's more than fits (design record §11.6-equivalent:
+// it's a JS-only convenience — without JS the gallery is a plain
+// scrollable region, every era and name reachable by wheel, touch, or
+// keyboard once it's focused, capped by the CSS fallback above).
 var gallery = document.getElementById('who-gallery');
 var eraGroups = Array.prototype.slice.call(document.querySelectorAll('.era-group'));
-if (gallery && eraGroups.length > 1) {
+if (gallery && eraGroups.length) {
   var eraNav = document.getElementById('era-nav');
   var eraPrev = document.getElementById('era-prev');
   var eraNext = document.getElementById('era-next');
   var eraCurrent = document.getElementById('era-nav-current');
-  var currentIdx = 0;
   function offsetWithinGallery(el){
     return el.getBoundingClientRect().top - gallery.getBoundingClientRect().top + gallery.scrollTop;
   }
-  function currentEraIndex(){
+  // The exact height that fits as many whole eras as the CSS fallback's
+  // own target allows, and not one pixel of the next one — recomputed
+  // from real rendered content so the cutoff is never mid-era.
+  function sizeGallery(){
+    gallery.style.paddingBottom = '0px';
+    var target = window.innerWidth <= 480 ? 1560 : window.innerWidth <= 699 ? 1380 : 800;
+    var fit = eraGroups[0].offsetHeight;
+    for (var i = 1; i < eraGroups.length; i++) {
+      var bottom = offsetWithinGallery(eraGroups[i]) + eraGroups[i].offsetHeight;
+      if (bottom > target) break;
+      fit = bottom;
+    }
+    gallery.style.maxHeight = fit + 'px';
+    // Only pad when there's actually more content than fits — otherwise
+    // today's exactly-enough eras would grow a phantom scrollbar for no
+    // reason. When there is more, the last era needs enough of its own
+    // trailing space to reach the container's top when scrolled to —
+    // nothing follows it to push the scroll that far otherwise (the same
+    // clamp bug found and fixed for the one-era-at-a-time build).
+    var last = eraGroups[eraGroups.length - 1];
+    var total = offsetWithinGallery(last) + last.offsetHeight;
+    gallery.style.paddingBottom = total > fit ? Math.max(0, fit - last.offsetHeight) + 'px' : '0px';
+  }
+  // More than one era can be on screen at once, so "current" is a range,
+  // not a single index: the first era at/after the scrolled top, and the
+  // last one still fully inside the visible height.
+  function topIndex(){
     var top = gallery.scrollTop, idx = 0;
     for (var i = 0; i < eraGroups.length; i++) {
       if (offsetWithinGallery(eraGroups[i]) <= top + 4) idx = i;
     }
     return idx;
   }
-  function updateEraNav(idx){
-    eraPrev.disabled = idx === 0;
-    eraNext.disabled = idx === eraGroups.length - 1;
-    eraCurrent.textContent = eraGroups[idx].dataset.eraLabel + ' · ' + (idx + 1) + ' of ' + eraGroups.length;
+  function bottomVisibleIndex(top){
+    var edge = gallery.scrollTop + gallery.clientHeight, idx = top;
+    for (var i = top; i < eraGroups.length; i++) {
+      if (offsetWithinGallery(eraGroups[i]) + eraGroups[i].offsetHeight <= edge + 4) idx = i; else break;
+    }
+    return idx;
+  }
+  function updateEraNav(){
+    var top = topIndex(), bottom = bottomVisibleIndex(top);
+    eraPrev.disabled = top === 0;
+    eraNext.disabled = bottom === eraGroups.length - 1;
+    var label = eraGroups[top].dataset.eraLabel;
+    if (bottom > top) label += ' – ' + eraGroups[bottom].dataset.eraLabel;
+    var range = (top + 1) + (bottom > top ? '–' + (bottom + 1) : '');
+    eraCurrent.textContent = label + ' · ' + range + ' of ' + eraGroups.length;
+    eraNav.hidden = gallery.scrollHeight <= gallery.clientHeight + 1;
+  }
+  // Paging back fits as much as possible into the space ending right at
+  // the current top, rather than just stepping back one era — so Prev
+  // from a lone trailing era returns to the same multi-era page Next
+  // came from, not a one-era sliver of it.
+  function prevPageStart(topIdx){
+    var target = window.innerWidth <= 480 ? 1560 : window.innerWidth <= 699 ? 1380 : 800;
+    var endOffset = offsetWithinGallery(eraGroups[topIdx]), j = topIdx - 1;
+    while (j > 0 && endOffset - offsetWithinGallery(eraGroups[j - 1]) <= target) j--;
+    return Math.max(0, j);
   }
   function goToEra(idx){
     idx = Math.max(0, Math.min(eraGroups.length - 1, idx));
     gallery.scrollTop = offsetWithinGallery(eraGroups[idx]);
     eraGroups[idx].focus({preventScroll:true});
-    currentIdx = idx;
-    updateEraNav(idx);
+    updateEraNav();
   }
-  eraPrev.addEventListener('click', function(){ goToEra(currentIdx - 1); });
-  eraNext.addEventListener('click', function(){ goToEra(currentIdx + 1); });
+  eraPrev.addEventListener('click', function(){ goToEra(prevPageStart(topIndex())); });
+  eraNext.addEventListener('click', function(){ goToEra(bottomVisibleIndex(topIndex()) + 1); });
   // Manual wheel/touch scroll: debounced so scroll-snap's own settle
   // (which fires intermediate scroll events) doesn't fight the number
   // a button click just set.
   var scrollTimer = null;
   gallery.addEventListener('scroll', function(){
     clearTimeout(scrollTimer);
-    scrollTimer = setTimeout(function(){ currentIdx = currentEraIndex(); updateEraNav(currentIdx); }, 120);
+    scrollTimer = setTimeout(updateEraNav, 120);
   });
-  eraNav.hidden = false;
-  updateEraNav(0);
+  var resizeTimer = null;
+  window.addEventListener('resize', function(){
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function(){ sizeGallery(); updateEraNav(); }, 150);
+  });
+  sizeGallery();
+  updateEraNav();
 }
 })();
 </script>

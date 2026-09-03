@@ -271,23 +271,37 @@ are unchanged; the descriptive tile sentence (§1.3f's `entry.tile`) is
 still full census-verbatim text in the DOM, `-webkit-line-clamp: 2` for
 sighted layout only — a screen reader still hears the whole sentence.
 
-**The gallery shows one era at a time (2026-09-02, two change orders the
-same conversation — the first capped both eras together, the second
-narrowed that to one row):** each era (heading + chairs) is its own
-`.era-group`; the gallery snap-scrolls between them
-(`scroll-snap-type: y mandatory`), sized per breakpoint to the taller
-era (420px ≥700px, 760px 481–699px, 820px ≤480px) plus bottom padding
-so the *last* era can still scroll fully flush to the top (94/117/209px
-— without it the browser clamps the scroll short, confirmed directly,
-not assumed). A `← Previous era / {Era} · N of M / Next era →` control
-below the gallery moves between them, focus following so the move is
-announced; it's JS-revealed only, `hidden` by default, since without
-JavaScript the gallery is still a plain scrollable region (`tabindex=0`)
-with every era and every name in static markup, reachable by wheel,
-touch, or keyboard. A third era extends the scroll and the nav's own
-count instead of lengthening the page; **the padding is keyed to
-whichever era is currently last, so it needs re-measuring, not just the
-height tiers, the day a third era changes which one that is.**
+**The gallery shows every era that fits, in full — never a partial one
+(2026-09-02/03, three change orders the same conversation: cap both
+eras together, narrow to one row, then back to "as many whole eras as
+fit," which is where it settled):** each era (heading + chairs) is its
+own `.era-group`, `scroll-snap-align: start`. A `sizeGallery()` pass
+sums each group's real rendered height against a per-tier target
+(800px ≥700px, 1380px 481–699px, 1560px ≤480px — the same numbers as
+the first, both-eras change order, since that's still what today's
+content needs) and sets the container's `max-height` to the exact sum
+of whichever whole eras fit — never mid-era, recomputed from live
+content rather than hand-measured, so it stays correct as content
+changes. Those per-tier numbers are also the CSS fallback for no-JS,
+and happen to already show both of today's eras with no scrollbar on
+their own. A `← Previous era / {Era} · N–M of T / Next era →` control
+appears **only when content actually overflows**
+(`scrollHeight > clientHeight` — with today's two eras, never); Next
+and Previous each compute the best-fitting page in their direction
+(not just ±1 era), and focus follows so the move is announced. Without
+JavaScript the gallery is a plain scrollable region (`tabindex=0`),
+every era and name in static markup, reachable by wheel, touch, or
+keyboard — the nav control simply never appears. **The last-visible
+era needs dynamically-computed trailing padding to reach the
+container's top when scrolled to** (nothing follows it otherwise, so
+the browser clamps the scroll short — confirmed directly, twice, in two
+different shapes of this feature); that padding is computed fresh each
+time against whichever era is currently last, not hand-measured, so it
+stays correct regardless of how many eras exist. `[hidden]` on
+`.era-nav` needed its own `{display:none}` rule to actually take effect
+— the same specificity bug the design record's §11.6 already named for
+`.site-nav a[hidden]`, worth checking for on any future element that is
+both given a `hidden` attribute and its own `display` in CSS.
 
 | # | Element | Copy | Register |
 |---|---|---|---|
