@@ -1961,3 +1961,369 @@ Second addendum: the file discipline is now also a Change Order
 -> V1.3 (file discipline is the third Phase B birth condition) and
 Completion Standard V1.2 -> V1.3 (the pre-pin residue read recorded as
 a saved artifact at freeze). Launch prompt repointed to V1.3.
+
+---
+
+## 2026-09-03 — Atlas rebuild shipped solo, ahead of Website V2; story
+markers already live
+
+**Sequencing decision, resolved.** With `churchinconversation.com` a
+live pilot (merging to main goes live immediately, real participants
+mid-conversation), this thread's recommendation was: ship the Atlas
+rebuild on its own as soon as it's ready, don't bundle it with the
+Website V2 redesign, and don't hold it waiting on V2 either — same
+sequential-release instinct as the 2026-08-14 current-day-space call
+("finish X and get it live first, then Y in its own thread"). Mark
+went the same direction. **Confirmed by direct repo check, not taken
+on report:** the live `cic-website/atlas-v3.html` was replaced by the
+new river-map design via a chain of four merges - #79 (squash merge,
+the initial replacement), #80, #81, #82 - each landing live-site
+feedback in turn (opacity fix for not-yet-built dots, river fade under
+era bands, a source-registry section). Website V2 (branch
+`claude/website-v2-sandbox`) has not shipped and is untouched by this.
+
+**Correction to this thread's own prior tracking:** the branch this
+thread had been watching for the Atlas work, `claude/atlas-game-grade-
+visuals-u3vn4y` (PR #78, "Atlas Reimagined... Water on the Page"),
+is NOT what shipped. The actual launch ran through a separate branch,
+`claude/replace-live-atlas-with-river-map`, built from that same
+prototype file. PR #78's CI-failure diagnosis from earlier today (a
+records/schema repin backlog left by the CiC Library Build Engine
+thread, unrelated to the Atlas work itself) stands as a real, still-
+open finding regardless — flagged to that thread directly — but it
+was never actually blocking the Atlas launch, since #78 wasn't the
+branch that shipped. #78's own status (open/closed/superseded) is
+unconfirmed and not this thread's to resolve.
+
+**Story markers: already a real, shipped feature, not a proposal.**
+PR #81 (commit abadd3f1) added a distinct mark type alongside movement
+nodes - a book-icon "story" mark for real, documented history that
+never grew into, or never surfaced inside, any single movement's own
+record. Same interaction contract as a movement node (hover halo,
+click to open, positioned by year + laneOrder), styled without a
+river-family color since a story belongs to no single lineage. First
+and so far only entry: the Silesian Children's Prayer Revival
+(1707-08), sourced and site-confirmed by Mark's own visit to Cieszyn,
+explicit about what's well attested versus later devotional
+embellishment.
+
+**Resolved same day: (a).** Mark confirmed the "story module" is more
+entries in the existing book-icon pattern, not a new UI surface and
+not a Doc_09 pull-through - a content-sourcing task, using the
+existing interaction contract as-is.
+
+**Open now: the sourcing bar going forward.** Silesia's own entry set
+a high one - Mark's personal on-site visit to Cieszyn, explicit
+separation of what's well attested from later devotional
+embellishment. Not yet settled whether every future entry needs that
+same level of personal verification (making this a slow, occasional
+addition) or whether a build thread can apply a documented sourcing
+standard to vet a first batch without Mark visiting each site himself.
+Leaning toward keeping the bar high and the pace slow rather than
+mass-producing entries - the map's trustworthiness depends on every
+mark clearing the same standard, and a "story" mark has no movement
+world-build behind it the way every other mark on the map does, so
+it's inherently harder to source well. Possible existing lead, not yet
+verified: `atlas-v3.html`'s own movements data already carries at
+least one "shelf" entry (post-apostolic-house-church's A5 status, "the
+census has no bucket for the class") for corpus material with no
+single movement home - a different category (a genre of writings vs.
+a narrative episode) but worth checking whether any of that already-
+flagged material could seed a candidate list rather than starting from
+zero. Next action: get Mark's answer on the sourcing bar, and on
+whether he has candidate entries in mind already.
+
+**Addendum, same day - "in-between" corrected.** This thread first
+read "in-between" as joint ownership (a story belonging to two worlds
+at once) and asked whether its detail view would need to link both
+flanking worlds. Mark's own correction: it's positional, not joint -
+"it isn't really a part of the lutheran reformation, but it isnt part
+of the next movement either, it sits inbetween the lutheran, later
+lutheran and moravian." Kinderbeten sits in the time/place gap between
+built or identified worlds, owned by none of them - same shape as
+"outside" (Silesia had no flanking worlds at all), just located
+differently. The linking question is moot: an in-between entry doesn't
+need to reference the worlds around it, only to honestly locate itself
+in the gap. Sourcing-bar and candidate-list questions from above are
+still open.
+
+**Closed out, same day.** Mark: keep the bar high, same standard as
+Silesia - no lighter documented-standard path for a build thread to
+mass-vet entries. Ownership is also settled: this isn't this thread's
+work to source or vet. The "Atlas Reimagined" thread already has a
+Fable subagent researching candidates now. This thread's role on the
+story module ends here - FYI only, no action expected.
+
+---
+
+## 2026-09-03 (later) — Phase 1 Launch readiness: the real list, one
+track not two
+
+**Origin.** Mark: "what is next to get ready for launch." First reply
+drew a distinction between "finish this round of work" and "Phase 1
+Launch" from the scoping doc's ladder - Mark's correction: "i want to
+get ready for phase 1 launch, doesnt make sense to do two." One list,
+not a small one and a big one.
+
+**Where the product actually stands, checked against
+`Ministry/Features/Front-End-Integration-Strategy/Design/
+CiC_FrontEnd_Strategy_Scoping_2026-07-07.md`'s own Phase 1 questions,
+not assumed:** the project is already well past Prototype Alpha in
+practice - 7 admitted worlds, real conversations, live Stripe giving,
+a register/transparency system Mark has personally stress-tested
+against real transcripts. The product build is not the bottleneck.
+What Phase 1's own scoping questions still have no answer for:
+
+1. **Audience gating - the fork everything else sequences around.**
+   Public, semi-public/waitlist, or still a known community? Currently
+   invited people who already know Mark. Undecided.
+2. **Privacy/consent disclosure.** Conversations are already logged
+   and read (that's how the 2026-08-28 register defect got caught) -
+   fine for people who know that's happening, not fine as a silent
+   default for a stranger. No consent disclosure found built anywhere.
+   Flagged as the sharpest gap: invisible until asked, ugly to retrofit
+   after the fact, and becomes load-bearing the moment #1 opens past
+   personal invites.
+3. **Accounts vs. stateless.** Never decided either way. Current
+   sessions are stateless, 10-turn cap (M8/Bedrock). Needs an actual
+   decision, even if the decision is "still stateless for Phase 1."
+4. **The funding math doesn't support scale yet.** Per the 2026-08-30
+   entry in `CiC_Org_Funding_Decision_Log.md`: at a 2% donation-
+   conversion benchmark, gifts cover the $225 fixed floor, not the
+   ~$0.35/conversation marginal cost - more traffic widens the dollar
+   gap, not closes it. That entry is itself waiting on real pilot
+   conversion data before it can be resolved with real numbers instead
+   of a stranger-traffic benchmark. Opening wider before that data (or
+   a different cost-control answer) means funding growth out of
+   pocket, not discovering it's sustainable. Joint call with the
+   org-funding thread, not this thread's alone.
+5. **World discovery/navigation past the current roster.** Chairs +
+   Atlas hold up fine at 7-9 worlds; the industrialization track exists
+   because that count is going up. Worth checking before the roster
+   doubles, not after.
+6. **Finish what's already in flight** (folded into this one list, not
+   a separate track, per Mark's own correction): Website V2 ship
+   (built, not yet merged/live), the two lingering CI checks (Docker
+   build / Cloudflare Workers Build, both flagged to the engine thread,
+   neither blocking), story module's first new entries at the Silesia
+   bar. Bounded, near-term, none of it blocks on 1-5 above.
+
+**This thread's recommendation, stated plainly:** hold #1 at "known
+community," not fully public, until #2 has a real disclosure built and
+#4 has real pilot data behind it rather than a stranger-traffic
+benchmark - grow the invited circle deliberately in the meantime
+(a specific partner community, a waitlist) rather than opening cold.
+Not a stall - a sequencing call: the two gaps that turn small at
+today's scale (a handful of personally-briefed testers) into real
+harms at Phase 1 scale are exactly #2 and #4, and neither is decided
+because neither has been asked yet, not because either is hard.
+
+**Next action:** get Mark's call on #1 (which shape of "wider"), since
+it resequences the urgency of everything else on this list.
+
+---
+
+## 2026-09-03 (later still) — Reframed: ready to launch the instant a
+grant or gift lands, not gated on money arriving first
+
+**Origin.** Mark, after the AWS-credit runway discussion: "lets get
+everything ready so when we get a grant or gift we can go immediatly."
+This changes the shape of the list above from "sequence these five
+items" to: separate what money-independent readiness work can be
+finished now from the one real switch that funding itself flips.
+
+**Split of the 2026-09-03 list, funding-independent vs. the switch:**
+
+*Build/decide now, none of it waiting on money:*
+- Item 2, privacy/consent disclosure — pure build work, do it now.
+- Conversion tracking/instrumentation — not on the original list by
+  name, but required for item 4 to ever resolve with real numbers
+  instead of the 2%-benchmark; needs to exist BEFORE the first funded
+  wave of traffic, not added after, or the data point gets missed.
+- A cost guardrail (spend alert or usage cap beyond the existing
+  10-turn/session limit) — so "go immediately" on a grant doesn't also
+  mean "immediately exposed to runaway spend" before the conversion
+  data proves the math out.
+- Item 5, world-discovery UX at the next roster size — audit now.
+- Item 6, finish in-flight work (Website V2, the two CI checks, story
+  module) — same as before, bounded, do it regardless.
+
+*Needs Mark's decision now, but costs nothing to decide today:*
+- Item 1's shape - what "wider" looks like on day one. Recommended:
+  a semi-public waitlist rather than fully public - it can go live
+  now, build a real queue while waiting on funding, and turns "we got
+  the grant" into "open the queue" instead of a cold public opening.
+- Item 3, accounts vs. stateless - recommended: stay stateless for
+  this launch. Accounts are a real build cost that delays "ready," and
+  nothing in the case for Phase 1 requires them yet; revisit once real
+  usage says otherwise.
+
+*The switch itself, deferred until money is actually in hand:*
+- Lifting whichever gate item 1 lands on (opening the waitlist, or
+  wider still) - the one piece of this list that funding, not
+  readiness work, is meant to trigger.
+
+**Next action:** Mark's call on the two decisions above (waitlist vs.
+another shape; stay stateless or not) - everything else on this list
+is now buildable in parallel without waiting on either answer or on
+funding.
+
+**LOCKED, same day.** Mark: "lock both, stay stateless and go with the
+waitlist." Day-one audience shape is a semi-public waitlist, not fully
+public and not staying invite-only; sessions stay stateless for this
+launch, no accounts. Both now buildable immediately - see next entry
+for scoping the two build items these decisions unblock.
+
+---
+
+## 2026-09-03 (later still) — Disclosure copy shipped; waitlist form
+spec'd, account creation is Mark's own action
+
+**Consent disclosure, shipped.** `about.html`'s existing Safety &
+Disclosure section is the right home - already the fuller, plainly-
+worded surface (it's the one place on the site that still says "This
+is an AI system," deliberately kept there per the 2026-09-03 (earlier)
+change-order entry: "a different surface doing a different job").
+Added one paragraph after the existing two: "Every conversation is
+recorded. We review conversations — in real time, to catch and correct
+the kind of problem named above, and afterward, to see how well each
+voice is representing its tradition and to make it better.
+Conversations are not sold or shared outside this work." States only
+what's actually true and already practiced (the M7 audit reads the
+same recorded conversations this paragraph discloses) - no invented
+opt-out, no retention/deletion promise not backed by real practice.
+Verified: zero comments/data-copy on the file, same standing rule as
+every other page this session.
+
+**What this doesn't cover, flagged not solved:** this is the About
+page's fuller disclosure. The 2026-09-03 (earlier) log entry's
+original ask was really about the point right before a conversation
+starts - which lives inside the engine app (`cic-engine.onrender.com`),
+a different codebase than `cic-website`. That in-flow placement is
+still a follow-up for whichever thread owns that app; this ships the
+honest interim version reachable from every page's footer/nav today.
+
+**Waitlist: spec'd, not yet live - creating the actual form is Mark's
+own account action**, same precedent as the Stripe Payment Links (his
+dashboard, not this thread's). Ready to paste into a new Google Form:
+- **Title:** Join the Waitlist — Church in Conversation
+- **Description:** "We're inviting a small, growing circle of people
+  into real conversations with Representatives from the Church's first
+  centuries. Leave your email and we'll reach out as we're able to
+  open the doors wider."
+- **Fields:** Email (short answer, required); Name (short answer,
+  optional); How did you hear about this? (short answer, optional).
+  Deliberately no tradition checklist - the roster changes, and a
+  waitlist form is exactly the kind of surface that goes stale fastest
+  if it names specifics (same timeless-copy principle as the homepage
+  cuts earlier this session).
+- **Confirmation message:** "Thank you — you're on the list. We'll be
+  in touch as we're able to open the doors wider."
+
+**Next action:** Mark creates the form and sends back the real URL;
+this thread wires a "Join the waitlist" entry point into the site the
+same day. Separate, not yet decided: today's site lets anyone who
+finds a launch link through to a live conversation with no real gate -
+the waitlist doesn't have teeth as an access control until that's
+addressed, which is a bigger call than adding the form itself and
+deliberately not assumed here.
+
+**Resolved, same day - the "no teeth" question answered by design, not
+left open.** Mark: "i will keep the waitlist outside of the system, i
+dont want a tempary database bulking up the system. i will monitor it
+and invite as i need to." The waitlist is a pure signal-collection
+surface, deliberately never wired into any access-control logic - no
+database, no automated gate, nothing for this or any thread to build
+beyond the Google Form itself and a link to it. Admission stays a
+human decision: Mark reads submissions and invites people directly,
+the same personal-invite mechanism already governing today's pilot.
+Site-side work is now exactly one thing: a "Join the waitlist" link
+pointing at the form URL once Mark creates it. Nothing else on the
+launch-readiness list changes.
+
+---
+
+## 2026-09-03 (later still) — Three pre-launch landing-page fixes,
+before shipping the entry path live
+
+**Origin.** Mark, reviewing the landing page before the merge-and-ship
+discussed above: three things to fix first, not blocking issues found
+by this thread.
+
+**1. Portals reordered - Table first, Atlas second.** Mark's own
+reasoning: it flows better coming out of the representatives' pictures
+into three of them sitting at a table, and the Table is the project's
+actual name and central feature - the Atlas is a genuinely great, free
+feature he wants people to visit, but it isn't the headline. Swapped
+the two `<a class="portal">` blocks in `index.html`; confirmed no
+order-dependent CSS (`nth-child` etc.) existed to break.
+
+**2. The giving section, given real visual weight.** Root cause of "it
+doesn't capture the need": its `<h2>` was `class="vh"` - visually
+hidden. A sighted visitor saw two plain muted-gray links and nothing
+else; there was no heading, no visual weight, nothing built to earn
+attention. Rebuilt as a bordered card (`.support-card`, matching the
+surface/border treatment already used for `.callout` on About and the
+portal cards here) with a real visible heading, an eyebrow label
+("Help keep the door open"), a small line-art door mark (the site's
+established pattern of small abstract SVG marks, same idea as the
+`.arriving` icon already used for the Table link), and the two Stripe
+links promoted from plain text to filled buttons - the first solid-
+fill button component on the page, deliberately, since this is
+specifically the one place asking for that level of visual weight.
+Copy itself barely changed - this was a visual-treatment fix, not a
+wordier one.
+
+**3. Brief how-tos added, without reverting to the cut system-
+explanation register.** Mark: introduce each feature with what it is
+and how to participate, "not just a picture and click" - explicitly
+not the wordy descriptions already cut earlier this session. Added one
+short line to each entry point rather than a new explanatory block:
+who/chairs gets a new `.how-line`, "Click anyone's picture to read
+their record, then start the conversation from there"; the Table
+portal's existing paragraph gains one trailing clause, "Choose who
+joins you, then start the conversation"; the Atlas portal's existing
+paragraph gains one trailing clause, "and start a conversation with
+anyone already speaking" - since today's copy read as "go look at a
+map" with no hint that a live conversation can start from inside it.
+`table.html` itself already had a real how-to built in
+(`#hook`/`.lede`); this was purely the landing-page teaser cards
+catching up to it.
+
+**Verified:** zero comments/`data-copy`, zero overflow 320-1440px,
+both themes; portal order, support-section content, and the new
+how-lines all render correctly (checked directly, not assumed).
+
+**Next action:** none outstanding on the landing page itself - this
+clears the way for the merge-and-ship discussed in the entry above.
+
+---
+
+## 2026-09-03 (later still) — Atlas repositioned: exploration, not a
+second conversation-starter
+
+**Origin.** Mark, continuing the same portal-reorder thought: "for the
+atlas, lets focus on exploring the 200 plus worlds, connections and
+stories." Once Table leads as the headline "have a real conversation"
+feature, the Atlas doesn't need to also pitch conversations - its own
+identity is the exploration layer underneath: the whole landscape, how
+movements connect, and the stories that belong to no single one of
+them (exactly what the story-marker work already ships).
+
+**Fixed something the last entry's own copy got wrong in hindsight.**
+The Atlas portal's paragraph had just been given a trailing "start a
+conversation with anyone already speaking" clause, written before this
+repositioning. Pulled that back out. New text: "Two hundred and some
+Christian movements across the whole of Church history are on record
+here — how they connect, where they diverged, and the stories that
+don't belong to just one of them. Hover for a glimpse, click for
+depth." Round figure, not the exact census count - same timeless-copy
+principle as everywhere else on this page. Eyebrow and CTA unchanged.
+
+**Scope note:** this is the landing-page teaser card only.
+`atlas-v3.html`'s own interior framing is a different, out-of-scope
+track for this thread; if Mark wants the same exploration-first
+emphasis carried onto the Atlas page itself, that's a request for
+whichever thread owns it, not assumed here.
+
+**Verified:** zero comments/`data-copy` on the file.

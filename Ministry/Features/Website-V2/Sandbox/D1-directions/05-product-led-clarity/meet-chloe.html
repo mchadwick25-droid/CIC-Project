@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chloe, The House-Churches — Church in Conversation (sandbox mockup)</title>
+<meta name="description" content="Sandbox mockup. Meet Chloe, a household leader from the house-churches of Antioch, Asia Minor, and Rome, 70–200 CE — and begin a conversation.">
+<link rel="icon" href="../../../../../../cic-website/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   D1 direction 05 — the inner journey: landing → one decision → the app.
+   This page has exactly one job: help a first-time visitor decide to sit
+   with Chloe, and begin, in one action. Everything on it is either real
+   (registry, census, canon questions, a live capture, the app's own
+   disclosure line) or marked data-copy="draft". SANDBOX MOCKUP.
+   ===================================================================== */
+:root{
+  --parchment:#F7F3EB; --vellum:#FEFCF8; --ink:#2A2521; --ink-faded:#6C6257;
+  --rule:#E6DFD3; --rule-strong:rgba(42,37,33,.32);
+  --madder:#A13E2B; --madder-deep:#7E2F20; --madder-text:#A13E2B;
+  --gold-leaf:#B45309; --gold-text:#B45309; --gold-wash:#FBF2E2;
+  --lapis-text:#1E40AF; --tyrian-text:#6B3FA0; --tyrian-wash:#F3EFFA; --graphite:#8A837C;
+  --mark-ink:#2A2521; --mark-dot:#A13E2B; --ring-edge:transparent;
+  --trad:#7c3aed; --trad-text:#7c3aed;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --measure:42rem; --wide:66rem;
+}
+@media (prefers-color-scheme:dark){:root{
+  --parchment:#17130F; --vellum:#1E1913; --ink:#F1E9DD; --ink-faded:#B8AEA1;
+  --rule:rgba(241,233,221,.16); --rule-strong:rgba(241,233,221,.36);
+  --madder-text:#E08C74; --gold-text:#E0A458; --gold-wash:#241D15;
+  --lapis-text:#9DB4F0; --tyrian-text:#B79BE0; --tyrian-wash:#231B2D; --graphite:#A39B92;
+  --mark-ink:#EDE5D6; --mark-dot:#CB6E52; --ring-edge:rgba(241,233,221,.45);
+  --trad-text:#F1E9DD;
+}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--parchment);color:var(--ink);font-family:var(--serif);font-size:1.08rem;line-height:1.65}
+a{color:var(--madder-text)}
+a:hover{color:var(--madder-deep)}
+@media (prefers-color-scheme:dark){a:hover{color:#F0A98F}}
+:focus-visible{outline:2px solid var(--madder-text);outline-offset:3px}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+img{max-width:100%}
+.slug{font-family:var(--sans);font-size:.78rem;letter-spacing:.06em;color:var(--graphite);border-bottom:1px solid var(--rule);padding:.35rem 1.25rem;text-align:center}
+.skip{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--vellum);padding:.6rem 1rem;z-index:100}
+.skip:focus{position:fixed;left:1rem;top:1rem}
+
+header.site{border-bottom:1px solid var(--rule);background:var(--vellum)}
+.site .row{max-width:var(--wide);margin:0 auto;padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--ink);flex-shrink:0}
+.brand .wordmark{font-weight:700;font-size:1.2rem;letter-spacing:.01em}
+.brand .wordmark em{font-weight:400}
+.mark svg{display:block;width:34px;height:34px;color:var(--mark-ink)}
+.mark .ring{fill:none;stroke:currentColor;stroke-width:11;stroke-linecap:round;stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}
+.mark .seat{fill:var(--mark-dot);transform-origin:88.5px 50px;transform:translate(0,-6px)}
+.mark.play .ring{animation:buildC 1300ms cubic-bezier(.4,0,.2,1) 800ms both}
+.mark.play .seat{animation:sit 600ms cubic-bezier(.3,0,.35,1.4) 2400ms both,breath 5.5s ease-in-out 3750ms infinite}
+@keyframes buildC{0%{stroke-dasharray:0 360;stroke-dashoffset:-50;opacity:0}4%{opacity:1}100%{stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}}
+@keyframes sit{0%{transform:translate(0,-6px)}62%{transform:translate(0,1px) scale(1.1,.86)}100%{transform:translate(0,0) scale(1,1)}}
+@keyframes breath{0%,100%{opacity:1}50%{opacity:.76}}
+@media (prefers-reduced-motion:reduce){
+  .mark.play .ring,.mark.play .seat{animation:none}
+  .mark .ring{stroke-dasharray:260 100;opacity:1}
+  .mark .seat{transform:none}
+}
+nav.site-nav{font-family:var(--sans);font-size:.95rem;display:flex;gap:1.4rem;min-width:0;overflow-x:auto;scrollbar-width:none}
+nav.site-nav::-webkit-scrollbar{display:none}
+nav.site-nav a{color:var(--ink);text-decoration:none;border-bottom:2px solid transparent;padding:.7rem .1rem;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center}
+nav.site-nav a:hover,nav.site-nav a[aria-current="page"]{border-bottom-color:var(--madder-text)}
+
+.wrap{max-width:var(--wide);margin:0 auto;padding:0 1.25rem}
+.label{font-family:var(--sans);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--madder-text);font-weight:600;margin:0 0 .5rem}
+h1,h2,h3{font-weight:700;line-height:1.15;margin:0;text-wrap:balance}
+h2{font-size:1.5rem;margin-bottom:.6rem}
+h3{font-size:1.1rem}
+p{margin:0 0 1rem}
+.faded{color:var(--ink-faded)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;font-family:var(--sans);font-weight:600;font-size:1rem;padding:.7rem 1.35rem;min-height:44px;border-radius:3px;text-decoration:none;border:1.5px solid var(--madder);cursor:pointer;line-height:1.2}
+.btn.primary{background:var(--madder);color:var(--vellum)}
+.btn.primary:hover{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
+.btn.secondary{background:transparent;color:var(--madder-text);border-color:var(--madder-text)}
+.btn.secondary:hover{background:rgba(161,62,43,.07);color:var(--madder-text)}
+.textlink{font-family:var(--sans);font-size:.95rem;text-decoration:none;border-bottom:1px solid currentColor;padding:.35rem 0;min-height:44px;display:inline-flex;align-items:center}
+
+/* running head — where you are */
+.crumb{font-family:var(--sans);font-size:.85rem;color:var(--ink-faded);padding:1.1rem 0 0}
+.crumb a{color:var(--ink-faded);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.crumb span{margin:0 .4rem}
+
+/* the decision block — portrait, identity, one action */
+.top{padding:1.4rem 0 2.2rem;display:grid;gap:1.4rem}
+.top .portrait{width:132px;height:132px;border-radius:50%;overflow:hidden;border:3px solid var(--trad);box-shadow:0 0 0 1px var(--ring-edge);background:var(--vellum)}
+.top .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
+.top .era{font-family:var(--sans);font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--trad-text);font-weight:700;margin:0 0 .3rem}
+.top h1{font-size:clamp(2.1rem,5vw,3rem);margin-bottom:.25rem}
+.top .role{font-size:1.2rem;margin:0 0 .15rem}
+.top .role span{font-family:var(--sans);font-size:1rem;color:var(--ink-faded)}
+.top .studied{font-family:var(--sans);font-size:.88rem;color:var(--ink-faded);margin:0 0 1.2rem}
+.top .actions{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center;margin-bottom:.6rem}
+.top .how{font-family:var(--sans);font-size:.88rem;color:var(--ink-faded);margin:0;max-width:30rem}
+
+section.block{padding:2.2rem 0;border-top:1px solid var(--rule)}
+.reading{max-width:var(--measure)}
+.reading p{font-size:1.1rem}
+
+/* thinness — the honest limits, set as a ruled box on vellum */
+.thin{border:1px solid var(--rule);border-left:3px solid var(--gold-leaf);border-radius:0 2px 2px 0;background:var(--vellum);padding:1.1rem 1.3rem;max-width:var(--measure)}
+.thin .k{font-family:var(--sans);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-text);font-weight:700;margin:0 0 .4rem}
+.thin p{margin:0 0 .5rem}
+.thin p:last-child{margin:0}
+
+/* questions — a ruled list, not chips */
+.qs{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule-strong);max-width:var(--measure)}
+.qs li{padding:.8rem 0;border-bottom:1px solid var(--rule);font-style:italic;font-size:1.1rem;display:grid;grid-template-columns:1.6rem 1fr;gap:.4rem}
+.qs li::before{content:"—";color:var(--madder-text);font-style:normal}
+
+/* the leaf — one full exchange in the shipped grammar, with marginalia */
+.exchange{display:grid;gap:1.4rem}
+.leaf{background:var(--gold-wash);border:1px solid var(--rule);border-radius:2px;padding:1.25rem 1.4rem 1.1rem;font-size:1rem;line-height:1.62}
+.leaf .head{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faded);display:flex;align-items:center;gap:.5rem;border-bottom:1px solid var(--rule);padding-bottom:.6rem;margin-bottom:1rem}
+.leaf .head .dot{width:9px;height:9px;border-radius:50%;background:var(--trad);box-shadow:0 0 0 1px var(--ring-edge)}
+.leaf .fac{color:var(--graphite);font-style:italic;border-left:2px solid var(--rule-strong);padding-left:.8rem;margin:0 0 1rem;font-size:.95rem}
+.leaf .you{font-family:var(--sans);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--lapis-text);font-weight:600;margin:0 0 .2rem}
+.leaf .q{font-style:italic;margin:0 0 1.1rem}
+.leaf .who{font-family:var(--sans);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold-text);font-weight:700;margin:0 0 .35rem}
+.leaf .a p{margin:0 0 .8rem}
+.leaf .a p:last-child{margin-bottom:0}
+.gloss{color:var(--tyrian-text);text-decoration:underline dotted;text-decoration-thickness:1px;text-underline-offset:.2em;background:var(--tyrian-wash);padding:0 .15em;border-radius:2px}
+.cite{color:var(--gold-text);font-family:var(--sans);font-size:.85rem;white-space:nowrap;margin-left:.3rem}
+.leaf .foot{font-family:var(--sans);font-size:.8rem;color:var(--graphite);border-top:1px solid var(--rule);margin-top:1rem;padding-top:.6rem}
+.margin{display:grid;gap:1rem;align-content:start}
+.margin .note{border-top:1px solid var(--rule);padding-top:.6rem;font-size:.98rem}
+.margin .k{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;margin:0 0 .2rem;color:var(--ink)}
+.margin p{margin:0;color:var(--ink-faded)}
+.caption{font-family:var(--sans);font-size:.82rem;color:var(--ink-faded);margin:.6rem 0 0}
+
+/* sources — two ruled columns of real titles */
+.sources{display:grid;gap:1.2rem;max-width:var(--measure)}
+.sources ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule-strong)}
+.sources li{padding:.5rem 0;border-bottom:1px solid var(--rule);font-size:1rem}
+.sources .k{font-family:var(--sans);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faded);font-weight:700;margin:0 0 .4rem}
+.disclose{max-width:var(--measure);margin-top:1.2rem;font-family:var(--sans);font-size:.95rem;color:var(--ink-faded)}
+
+/* the others — six compact rows */
+.others{list-style:none;margin:1rem 0 0;padding:0;border-top:1px solid var(--rule-strong);display:grid}
+.others li{display:grid;grid-template-columns:44px 1fr auto;gap:.8rem;align-items:center;padding:.7rem 0;border-bottom:1px solid var(--rule)}
+.others .p{width:44px;height:44px;border-radius:50%;overflow:hidden;border:2px solid var(--o);box-shadow:0 0 0 1px var(--ring-edge)}
+.others .p img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
+.others .n{font-weight:700;margin:0}
+.others .t{font-family:var(--sans);font-size:.88rem;color:var(--ink-faded);margin:0}
+.others a.go{font-family:var(--sans);font-size:.92rem;text-decoration:none;border-bottom:1px solid currentColor;padding:.4rem 0;min-height:44px;display:inline-flex;align-items:center;white-space:nowrap}
+
+/* phone-only sticky foot — a ruled foot of the page, no shadow, no float. PROPOSED STRETCH, see README. */
+.foot-bar{display:none}
+
+footer.site{border-top:1px solid var(--rule);background:var(--vellum);font-family:var(--sans);font-size:.92rem;color:var(--ink-faded);margin-top:2rem}
+footer.site .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+footer.site nav{display:flex;flex-wrap:wrap;gap:1.2rem}
+footer.site a{color:var(--ink-faded);padding:.4rem 0;display:inline-block}
+
+@media (min-width:900px){
+  .top{grid-template-columns:auto minmax(0,1fr);gap:2.4rem;align-items:start;padding-top:2rem}
+  .top .portrait{width:176px;height:176px}
+  .exchange{grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:2.4rem;align-items:start}
+  .sources{grid-template-columns:1fr 1fr;gap:2rem}
+  .others{grid-template-columns:1fr 1fr;column-gap:2.5rem}
+}
+@media (max-width:639px){
+  .brand .wordmark{font-size:1.05rem}
+  nav.site-nav{gap:1rem;font-size:.9rem}
+  .top{grid-template-columns:1fr}
+  .top .actions .btn{width:100%}
+  body{padding-bottom:5.4rem}
+  .foot-bar{display:block;position:fixed;left:0;right:0;bottom:0;background:var(--vellum);border-top:1px solid var(--rule-strong);padding:.6rem 1.25rem calc(.6rem + env(safe-area-inset-bottom));z-index:20}
+  .foot-bar .btn{width:100%}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="slug" role="note">Sandbox mockup · Website V2 · D1 direction 05, product-led clarity · the inner journey · not the live site</div>
+
+<header class="site">
+  <div class="row">
+    <a class="brand" href="homepage.html">
+      <span class="mark play" aria-hidden="true">
+        <svg viewBox="0 0 100 100"><circle class="ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="seat" cx="88.5" cy="50" r="6.5"/></svg>
+      </span>
+      <span class="wordmark">Church <em>in</em> Conversation</span>
+    </a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="homepage.html#meet" aria-current="page">Representatives</a>
+      <a href="../../../../../../cic-website/atlas-v3.html">Map</a>
+      <a href="../../../../../../cic-website/whats-next.html">What's Next</a>
+      <a href="homepage.html#support">Get Involved</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <p class="crumb"><a href="homepage.html#meet">Representatives</a><span>·</span>The Early Church Era<span>·</span>The House-Churches</p>
+
+    <!-- THE DECISION BLOCK. Identity from the census and registry; the one action. -->
+    <div class="top">
+      <div class="portrait"><img src="../../../../../../cic-website/assets/portraits/house-churches.png" alt="Chloe, Representative of The House-Churches"></div>
+      <div>
+        <p class="era">The House-Churches · 70–200 CE</p>
+        <h1>Chloe</h1>
+        <p class="role">Household Leader <span>· Antioch, the cities of Asia Minor, and Rome</span></p>
+        <p class="studied">studied as Post-Apostolic House-Church Christianity</p>
+        <div class="actions">
+          <a class="btn primary" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" target="_blank" rel="noopener">Begin a conversation with Chloe<span class="vh"> (opens in a new tab)</span></a>
+          <a class="textlink" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=table" target="_blank" rel="noopener">Add Chloe to a Table →<span class="vh"> (opens in a new tab)</span></a>
+        </div>
+        <p class="how" data-copy="draft">Opens in a new tab. No account; the conversation lives in that tab and isn't saved. A conversation runs about ten exchanges.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- WHERE SHE SPEAKS FROM — the registry's participant-facing doorway paragraph, verbatim. -->
+  <section class="block">
+    <div class="wrap">
+      <p class="label">Where she speaks from</p>
+      <div class="reading">
+        <p>After the apostles died, the church lived in ordinary houses. Greek-speaking believers gathered around household tables in Antioch, in the cities of Asia Minor, and in Rome. Letters held these scattered communities together. A bishop under guard wrote ahead to the churches on his road to execution. Rome wrote at length to settle a quarrel in Corinth. There were no church buildings yet, no finished New Testament, no safety in the law. There were only communities working out, generation by generation, what it meant to stay one church across an empire.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT SHE KNOWS WELL — AND DOESN'T. The registry's thinness statement and the app's living-tradition line, verbatim. -->
+  <section class="block">
+    <div class="wrap">
+      <div class="thin">
+        <p class="k">What this voice knows well — and doesn't</p>
+        <p>Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains.</p>
+        <p class="faded">This is a bounded historical reconstruction, not today's church of the same name.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUESTIONS — three from the fleet's own question canon (records/_fleet/canon_question), the kind the app offers once you're in the room. -->
+  <section class="block">
+    <div class="wrap">
+      <p class="label">Questions you might ask</p>
+      <h2>Start anywhere</h2>
+      <p class="faded reading" data-copy="draft">Once you're in the room, Chloe's own starter questions are waiting. Or bring your own — these three come from the same set.</p>
+      <ul class="qs">
+        <li>What actually happened when you gathered?</li>
+        <li>I'm far from everyone I love. What held your people together across distances?</li>
+        <li>Where is your own record thinnest?</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ONE EXCHANGE, AS IT HAPPENED — the live capture (assets/tour-captures/chloe-conversation.png), in the shipped grammar.
+       The Facilitator lines and the answer are verbatim; the role label is the registry's current one. -->
+  <section class="block">
+    <div class="wrap">
+      <p class="label">One exchange, as it happened</p>
+      <h2>What a conversation looks like</h2>
+      <div class="exchange">
+        <figure style="margin:0">
+          <div class="leaf" aria-label="A conversation with Chloe">
+            <div class="head"><span class="dot"></span>The House-Churches · 70–200 CE</div>
+            <p class="fac">I'm glad you're here. Come in, settle wherever feels right.</p>
+            <p class="fac">Welcome to the table. Today you're joined by Chloe, a household leader from the house-church communities spanning Antioch, Asia Minor, and Rome, speaking to you from somewhere between 70 and 200 CE — a time when these scattered assemblies were still working out what it meant to hold faith together across such distances and disagreements. She's here now, ready to listen. Please, begin whenever you're ready.</p>
+            <p class="you">You</p>
+            <p class="q">What was it actually like to be part of your church, day to day?</p>
+            <p class="who">Chloe · Household Leader</p>
+            <div class="a">
+              <p>Ordinary, mostly. On the day named for the sun, we gather under whatever roof will hold us — no building of our own, just a household that opens its door. Someone reads: the words of the <span class="gloss">prophets</span>, or an account of what the apostles remembered. Whoever presides speaks a while after, urging us toward what we just heard. We stand together and pray. Then bread and wine mixed with water are brought, thanks is given over them, and we eat together — that is the center of the day, the thing everything else circles around.</p>
+              <p>Before that, though, and after it, there is a great deal of ordinary care. Whoever has something to spare brings it, and it goes to whoever is caring for the widows, the orphans, the sick, the prisoner, the stranger passing through with nowhere else to eat. A catechumen might be sitting with someone that week, learning the <span class="gloss">Two Ways</span> before coming to <span class="gloss">the water</span>. A letter might have arrived that needs reading aloud and talking over — what another household somewhere else is facing, whether it matches what we're facing.</p>
+              <p>So day to day it was not dramatic. It was a rhythm: the gathering, the meal, the care of the ones nobody else was caring for, the letters, the teaching given quietly to whoever needed it next. What is it in particular you're picturing — the gathering itself, or more what it felt like to belong to it?<span class="cite" aria-label="five sources">✲ 5</span></p>
+            </div>
+            <div class="foot">Not saved to an account — this conversation lives in this tab</div>
+          </div>
+          <figcaption class="caption">Captured from a live conversation. The grey lines are the Facilitator, who opens the room and steps in only when needed.</figcaption>
+        </figure>
+        <aside class="margin" aria-label="How to read the transcript" data-copy="draft">
+          <div class="note">
+            <p class="k"><span class="gloss">A dotted term</span></p>
+            <p>Tap it for a short gloss in the tradition's own words; one tap more opens the full entry. Terms are marked the first time they appear, then left alone.</p>
+          </div>
+          <div class="note">
+            <p class="k"><span class="cite" style="margin:0">✲ 5</span> · the sources</p>
+            <p>Five letters and records stand behind this answer. Open the list; every one is checkable.</p>
+          </div>
+          <div class="note">
+            <p class="k">The grey voice</p>
+            <p>The Facilitator opens the room, bridges anything Chloe couldn't know, and — if a conversation touches real distress — steps in to point toward real human support.</p>
+          </div>
+          <div class="note">
+            <p class="k">Where it's thin</p>
+            <p>Where the historical record is thin, we let the silence stand. Ask her where her record is thinnest; she'll say.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUILT FROM HER TRADITION'S OWN RECORD — real source records from records/pahc/source/. -->
+  <section class="block">
+    <div class="wrap">
+      <p class="label">Built from the record</p>
+      <h2>Whose words these are</h2>
+      <p class="faded reading" data-copy="draft">Chloe speaks only from what this tradition left behind and what its neighbours wrote about it. Among the sources her record is built on:</p>
+      <div class="sources">
+        <div>
+          <p class="k">From inside the tradition</p>
+          <ul>
+            <li>The letters of Ignatius of Antioch</li>
+            <li>Clement of Rome's letter to Corinth (<em>1 Clement</em>)</li>
+            <li>The <em>Didache</em></li>
+            <li>Polycarp's letter to the Philippians, and the <em>Martyrdom of Polycarp</em></li>
+            <li>Justin Martyr's <em>First Apology</em> and <em>Dialogue</em></li>
+            <li>The <em>Shepherd of Hermas</em></li>
+          </ul>
+        </div>
+        <div>
+          <p class="k">From outside, looking in</p>
+          <ul>
+            <li>Pliny the Younger's letters to Trajan</li>
+            <li>Tacitus, <em>Annals</em></li>
+            <li>Suetonius, <em>Lives</em></li>
+            <li>Lucian, <em>The Passing of Peregrinus</em></li>
+            <li>Eusebius, <em>Church History</em> (for what was remembered later)</li>
+          </ul>
+        </div>
+      </div>
+      <p class="disclose">Chloe's name is ours; every quote and claim is theirs, and you can check each one.</p>
+    </div>
+  </section>
+
+  <!-- MEET THE OTHERS — the six remaining Representatives, census data. -->
+  <section class="block">
+    <div class="wrap">
+      <p class="label">Meet the others</p>
+      <h2>Six more chairs at the table</h2>
+      <ul class="others">
+        <li style="--o:#2B5F8A"><span class="p"><img src="../../../../../../cic-website/assets/portraits/alexandria.png" alt=""></span><span><p class="n">Theon</p><p class="t">Alexandrian Christianity · c. 150–400 CE</p></span><a class="go" href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" target="_blank" rel="noopener">Begin<span class="vh"> a conversation with Theon (opens in a new tab)</span> →</a></li>
+        <li style="--o:#b45309"><span class="p"><img src="../../../../../../cic-website/assets/portraits/syriac.png" alt=""></span><span><p class="n">Mar Yausep</p><p class="t">Syriac Christianity · 200–410 CE</p></span><a class="go" href="https://cic-engine.onrender.com/?worlds=syriac-edessa-nisibis&amp;mode=interview" target="_blank" rel="noopener">Begin<span class="vh"> a conversation with Mar Yausep (opens in a new tab)</span> →</a></li>
+        <li style="--o:#7A2E2E"><span class="p"><img src="../../../../../../cic-website/assets/portraits/empire.png" alt=""></span><span><p class="n">Marius</p><p class="t">Church and Empire · c. 312–451</p></span><a class="go" href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview" target="_blank" rel="noopener">Begin<span class="vh"> a conversation with Marius (opens in a new tab)</span> →</a></li>
+        <li style="--o:#0f766e"><span class="p"><img src="../../../../../../cic-website/assets/portraits/desert.png" alt=""></span><span><p class="n">Papnoute</p><p class="t">Desert Fathers and Mothers · c. 320–430 CE</p></span><a class="go" href="https://cic-engine.onrender.com/?worlds=desert-monasticism&amp;mode=interview" target="_blank" rel="noopener">Begin<span class="vh"> a conversation with Papnoute (opens in a new tab)</span> →</a></li>
+        <li style="--o:#A0522D"><span class="p"><img src="../../../../../../cic-website/assets/portraits/cappadocian.jpg" alt=""></span><span><p class="n">Chilo</p><p class="t">The Cappadocian Churches · c. 325–394 CE</p></span><a class="go" href="https://cic-engine.onrender.com/?worlds=cappadocian-nicene-pastoral-monastic-tradition&amp;mode=interview" target="_blank" rel="noopener">Begin<span class="vh"> a conversation with Chilo (opens in a new tab)</span> →</a></li>
+        <li style="--o:#9d174d"><span class="p"><img src="../../../../../../cic-website/assets/portraits/bethlehem.png" alt=""></span><span><p class="n">Albina</p><p class="t">The Bethlehem Circle · c. 382–420 CE</p></span><a class="go" href="https://cic-engine.onrender.com/?worlds=hieronymian-ascetic-literary&amp;mode=interview" target="_blank" rel="noopener">Begin<span class="vh"> a conversation with Albina (opens in a new tab)</span> →</a></li>
+      </ul>
+      <p style="margin-top:1rem"><a class="textlink" href="homepage.html#meet">All seven Representatives →</a></p>
+    </div>
+  </section>
+</main>
+
+<!-- Phone only. A ruled foot of the page on vellum — no shadow, nothing floats. Proposed stretch; see README. -->
+<div class="foot-bar" aria-label="Begin">
+  <a class="btn primary" href="https://cic-engine.onrender.com/?worlds=post-apostolic-house-church&amp;mode=interview" target="_blank" rel="noopener">Begin a conversation with Chloe<span class="vh"> (opens in a new tab)</span></a>
+</div>
+
+<footer class="site">
+  <div class="row">
+    <span>© 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="../../../../../../cic-website/about.html">About</a>
+      <a href="../../../../../../cic-website/pilot-feedback.html">Feedback</a>
+      <a href="../../../../../../cic-website/privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
