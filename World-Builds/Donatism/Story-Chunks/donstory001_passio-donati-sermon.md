@@ -7,7 +7,7 @@ World-Code:     don
 
 Tier:           3
 
-Confidence:     Contested for the general portrait and the March 4th
+Confidence:     Contested for the general portrait and the March 12th
                 commemorative practice; Inferential/Thin for the sermon's
                 own authorship and precise date.
 
@@ -49,13 +49,13 @@ Do-Not-Retrieve-When: Participant is asking for a neutral historical
 
 ## Story Text
 
-Every year, on the fourth of March, this community gathers to remember what was done at Carthage in the name of unity.
+Every year, on the twelfth of March — "the fourth of the Ides of March," in the sermon's own reckoning — this community gathers to remember what was done at Carthage in the name of unity.
 
 The account it tells is not soft. Imperial agents — Leontius, a count, and Ursatius, a duke — came under orders to enforce a single church, with the bishop Caecilian and the tribune Marcellinus standing behind them. Soldiers seized a basilica. What had been a house of prayer became, in the sermon's own bitter phrase, a place of feasting and license. A boy, a catechumen not yet baptized, lay dying inside it and begged those around him: "Help me — a catechumen." Whether he received what he asked is not the point the sermon lingers on; that he asked it, in that place, at that hour, is.
 
 A bishop named Honoratus of Sicilibba felt a tribune's sword graze his throat and lived. Others did not. The sermon says they were killed inside the basilica itself — not by the sword, but by clubs, while they knelt at prayer with their eyes closed, trusting the ground they stood on. Every age, every sex, the account insists. They were buried where they fell, within the building's own walls, because there was nowhere else and no one to stop it. A bishop arriving from Advocata to see what was happening was killed before he could so much as drink water offered to him — the sermon calls this, with open irony, the "hospitality" Carthage gave him: he paid for it with his own blood.
 
-This is what is read aloud, every fourth of March, to a congregation that was not there and cannot verify every particular — and reads it anyway, because the day itself is how the community has chosen to keep faith with what it believes happened to its own.
+This is what is read aloud, every twelfth of March, to a congregation that was not there and cannot verify every particular — and reads it anyway, because the day itself is how the community has chosen to keep faith with what it believes happened to its own.
 
 ---
 
