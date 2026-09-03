@@ -20919,13 +20919,24 @@ function openPanel(m){
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
   if(m.longDescription)h+=`<h3>The Story</h3><p>${esc(m.longDescription)}</p>`;
   if(m.voices&&m.voices.length)h+=`<h3>Voices</h3><ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
-  // The census's own bibliography -- 939 citations across 172 of the 292
-  // records, primary sources included, 28 with a direct link to the actual
-  // text -- was captured in the data and never once rendered, same gap as
-  // the teaser/tile line above. m.sourcing (kept) is this record's own
-  // one-line assessment of how strong its sourcing is; the list below is
-  // what that assessment is an assessment OF. Neither implies the other:
-  // some records carry one without the other.
+  if(m.floorNote)h+=`<h3>Doctrinal floor note</h3><p>${esc(m.floorNote)}</p>`;
+  if(m.legacy)h+=`<h3>Legacy</h3><p>${esc(m.legacy)}</p>`;
+  if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
+  if(hasContent(m.relationsSummary))h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
+  if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
+  if(inbound.length){h+='<h3>Influenced by</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}</div>`;});}
+  if(m.continuesAs&&byId[m.continuesAs])h+=`<h3>Continues as</h3><p>${esc(byId[m.continuesAs].shortName||byId[m.continuesAs].name)} — the same ongoing church, next window.</p>`;
+  // Last on purpose: this is the "go deeper if you want" appendix, not
+  // something to read past on the way to the record's own story -- it
+  // belongs after everything the census itself asserts, not in the middle
+  // of it. 939 citations across 172 of the 292 records (599 primary, 185
+  // secondary, 155 reference), 28 with a direct link to the actual text,
+  // captured in the data and never rendered anywhere before this. m.sourcing
+  // (kept) is this record's own one-line assessment of how strong its
+  // sourcing is; the list below is what that assessment is an assessment
+  // OF. Neither implies the other -- some records carry one without the
+  // other, including, notably, all seven Built & Live worlds, which have
+  // the summary line but no itemized list yet.
   if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){
     h+='<h3>Sources</h3>';
     if(hasContent(m.sourcing))h+=`<p>${esc(m.sourcing)}</p>`;
@@ -20934,13 +20945,6 @@ function openPanel(m){
       return `<div class="edge"><span class="k">${esc(s.type)}</span><br><b>${work}</b>${s.note?`<br>${esc(s.note)}`:''}</div>`;
     }).join('');
   }
-  if(m.floorNote)h+=`<h3>Doctrinal floor note</h3><p>${esc(m.floorNote)}</p>`;
-  if(m.legacy)h+=`<h3>Legacy</h3><p>${esc(m.legacy)}</p>`;
-  if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
-  if(hasContent(m.relationsSummary))h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
-  if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
-  if(inbound.length){h+='<h3>Influenced by</h3>';inbound.forEach(e=>{const f=byId[e.from];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}</div>`;});}
-  if(m.continuesAs&&byId[m.continuesAs])h+=`<h3>Continues as</h3><p>${esc(byId[m.continuesAs].shortName||byId[m.continuesAs].name)} — the same ongoing church, next window.</p>`;
   panelBody.innerHTML=h; showPanel(); hideTip();
 }
 function openPanelEdge(edg,a,b){
