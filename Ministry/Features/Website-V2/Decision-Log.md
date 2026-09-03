@@ -2289,3 +2289,68 @@ that ruling.
 
 **Verified:** zero overflow 320–1440px; zero console errors; zero
 comments, zero `data-copy` attributes.
+
+---
+
+## 2026-09-03 (later still) — Right elements, wrong graphics: eras become two scrolling rows, two portals get pictures
+
+Mark, on seeing the shipped cuts: the elements are right, but the
+layout and graphics need work. Three changes, all on `index.html`.
+
+**1. Era gallery: accordion → two rows, each scrollable sideways.**
+The one-open-at-a-time accordion (built earlier today) is gone —
+reversed within the hour of shipping it. Now both eras show as rows at
+once; a third era (once one exists) pushes the gallery into a vertical
+scroll, capped to exactly two eras' combined height
+(`sizeGallery()`, measured from real rendered height, not a hand-tuned
+pixel target). Within a row, chairs no longer wrap or shrink to fit —
+Mark was explicit that cards shouldn't get smaller — they scroll
+sideways instead, fixed at 232px each regardless of viewport. Ran into
+a genuine Chromium quirk doing this: `.chairs{display:flex;
+overflow-x:auto}` rendered correctly (visually clipped, scrolling
+worked) but still inflated `document.documentElement.scrollWidth`,
+producing real horizontal page overflow (488px at 320px width) despite
+every ancestor measuring clean. Confirmed empirically by toggling
+`contain:layout` on `.chairs` in a live page via injected stylesheets —
+overflow dropped to 0 immediately. That's the shipped fix; it isolates
+the row's internal layout from ancestor size calculations, which is
+exactly what CSS containment is for.
+
+**2. Church in History gets an actual picture of the Atlas.** A fresh
+screenshot of `atlas-v3.html`'s own rendering — not a mockup, not the
+older screenshot sitting in `Ministry/Features/Atlas-World-Map/Design/
+tools/shots/` from an earlier design pass — cropped to Era I's colorful
+timeline band (1200×655, `assets/atlas-preview.jpg`, 51KB). Ruling 23
+("no map band") governed building a new interactive map widget into the
+homepage before the Atlas rework lands; a static screenshot linking out
+to the Atlas that already shipped isn't that, so it doesn't reopen that
+ruling.
+
+**3. The Table teaser gets the three-representatives painting.** Mark
+pointed to "the picture we downloaded for the open the window ask on
+the get involved page" — found it at `Ministry/Communication/
+Brand-Assets/Table-Templates/Open Door Table Image.png` (9MB original,
+2816×1536): three painted figures at a round table with a scroll and
+open books, matching the multi-voice Table's own premise exactly.
+Resized and compressed to `assets/table-portrait.jpg` (1200×655,
+124KB, JPEG quality 82 — the PNG original had no transparency to lose).
+
+**Both graphics anchor a new shared "portal" pattern**, replacing the
+old text-only `.map` section and the `.second-door` paragraph that used
+to live inside the chairs section: one `<a>` per portal, image on top,
+then eyebrow/H2/paragraph/CTA below, the whole card clickable. The
+Arriving mark that used to sit in `.second-door`'s link moved into the
+Table portal's CTA line, unchanged otherwise — still fires once on
+first scroll into view. A "What's next →" line sits below both portals,
+since it's not prominent enough on its own to earn a third portal card
+but was still a working link worth keeping.
+
+**Verified:** both eras visible without any interaction; each era's row
+scrolls horizontally when it has more chairs than fit (confirmed on
+the four-chair Imperial era at 900px width); zero overflow 320–1440px,
+light and dark, before and after the `contain:layout` fix; zero console
+errors; no-JS still shows every chair in every era (the height cap and
+horizontal scroll are pure CSS/layout, not JS-dependent — no-JS just
+means no vertical cap ever applies); both portal images load and link
+correctly (`atlas-v3.html`, `table.html`); zero comments, zero
+`data-copy` attributes.

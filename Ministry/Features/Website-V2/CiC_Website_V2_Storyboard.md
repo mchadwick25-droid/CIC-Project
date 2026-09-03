@@ -78,8 +78,8 @@ Footer (every page): About · Feedback · Privacy · Contact.
 First element in the DOM. `Skip to content` `[LIVE — carried unchanged]`.
 Off-screen until focused; focused, it sits fixed at the top left on ink with
 parchment text. Activating it moves focus into `<main>`; the next Tab lands on
-the page's first control (homepage, as of the 2026-09-03 cut: the first
-era's toggle button).
+the page's first control (homepage, as of the 2026-09-03 redesign: the
+first chair's portrait link, Chloe's).
 
 ### S.2 Header
 
@@ -177,10 +177,26 @@ site to inherit, so none is added.
 ## 1. Home — `index.html`
 
 **Purpose.** Take what the visitor brought. Open with the hook; then who
-can carry it — the chairs, by era; then the map; then the ask.
+can carry it — the chairs, by era; then two picture-led portals (the map,
+the Table); then the ask.
 
 **History, most recent first (Decision-Log has the full reasoning for
 each):**
+- **2026-09-03, latest.** Mark, on seeing the shipped cuts: right
+  elements, wrong graphics. Three changes: (1) the era gallery goes from
+  one-open-at-a-time (an accordion the previous entry below describes,
+  in place for under an hour) to two eras always visible as rows, each
+  scrollable sideways for chairs that don't fit, with a vertical scroll
+  once a third era exists — see §1.3's own section below for the
+  mechanism. (2) Church in History gains an actual picture of the
+  Atlas — a screenshot of its own timeline map — instead of describing
+  it in words alone. (3) The Table teaser gains the painted three-
+  representatives-at-a-table image already used for the Get Involved
+  page's giving asks (`Ministry/Communication/Brand-Assets/Table-
+  Templates/Open Door Table Image.png`). Both images now anchor a
+  "portal" card — picture, then a short pitch, then the link — replacing
+  the old text-only `.map` section and the `.second-door` paragraph that
+  used to live inside §1.3.
 - **2026-09-03, later.** §1.2 ("Start with your question" — the input
   box and the six offered questions) is cut entire, not just trimmed.
   It was a second way in alongside the chairs, and Mark's read going
@@ -265,23 +281,28 @@ are unchanged; the descriptive tile sentence (§1.3f's `entry.tile`) is
 still full census-verbatim text in the DOM, `-webkit-line-clamp: 2` for
 sighted layout only — a screen reader still hears the whole sentence.
 
-**Each era opens and closes independently (2026-09-03 change order,
-replacing an earlier scroll-and-paginate design that never actually
-triggered):** the era heading is a toggle button (`aria-expanded`,
-`aria-controls`); opening one closes whichever other era was open, so
-at most one era's chairs are ever on screen regardless of how many
-eras exist later. The first era is open by default. This is the scale
-answer for "more than ten": no scroll cap or pagination math to
-maintain, no numbers to keep in sync with content — a new era just
-joins the list, collapsed, until someone opens it. No-JS: every era's
-chairs sit unhidden in the static markup (no `hidden` attribute baked
-in), so a visitor without JavaScript still sees everything; the JS
-applies the collapsed state on load. `.chairs[hidden]{display:none}`
-needed its own rule to actually take effect — the same
-`[hidden]`-vs-`display` specificity bug the design record's §11.6
-already named for `.site-nav a[hidden]`, worth checking for on any
-future element that is both given a `hidden` attribute and its own
-`display` in CSS.
+**Two eras always visible; each era's own row scrolls sideways for
+chairs that don't fit (2026-09-03 change order, replacing the same-day
+accordion above, which Mark reversed within the hour on seeing it
+shipped):** the era heading is a plain heading again, no toggle. Each
+era's chairs are a single-row flexbox (`display:flex`, no wrap,
+`overflow-x:auto`), card width fixed at 232px regardless of viewport —
+Mark's instruction was explicitly not to shrink cards to fit more in,
+so overflow scrolls instead of the cards shrinking. `#who-gallery`
+itself caps its height to exactly the combined height of the first two
+`.era-group` elements once a third era exists (`sizeGallery()`, measured
+from real rendered height, recomputed on resize) and scrolls vertically
+for eras beyond the second; with today's two eras there is nothing to
+cap, so no vertical scroll shows yet. No-JS: the height cap never
+applies (all eras show, stacked, however many exist) and each era's
+horizontal scroll still works — it's plain CSS, no script needed.
+**Build note:** `.chairs{overflow-x:auto}` on a `display:flex` row
+leaked its own unclipped content width into `document.documentElement`'s
+scrollWidth even though it rendered correctly clipped — a real, empirically-
+confirmed Chromium sizing quirk, not a misunderstanding of the CSS.
+Fixed with `contain:layout` on `.chairs`, which isolates the row's
+internal layout from affecting any ancestor's size calculations;
+verified zero overflow 320–1440px, light and dark, before and after.
 
 | # | Element | Copy | Register |
 |---|---|---|---|
@@ -290,13 +311,13 @@ future element that is both given a `hidden` attribute and its own
 | 1.3c | H2 | Who would you like to have a conversation with? | `[DRAFT COPY — pending Mark's approval]` — 2026-09-03 change order (Mark): the project's name is *Church in Conversation*; a question is how one starts, but the conversation is the point, and the heading should say so |
 | 1.3d | Scope line (carries the sentence the hero gave up) | Christian traditions from the Church's first four centuries, each with one voice that speaks for it from its own letters and records. Ask any of them. | `[LIVE]` — 2026-09-03 change orders: dropped "Seven" (a count that changes as more traditions are built) and "You can bring the same question to more than one" (the held-question feature it referred to no longer exists on this page) |
 | 1.3d′ | The representative-voice line, relocated here from the removed §1.2g when that section was cut | You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.3e | Era heading, H3, one per era, now a toggle button (2026-09-03 change order: eras open and close, one at a time, so the list stays short as more eras are added — see below) | The Early Church Era · 70–312 CE / The Imperial Church Era · 312–451 CE | `[CENSUS — verbatim]` (the census's era heads carry hyphens; the dash seam is a data fix — design record §11.3) |
-| 1.3f | The chairs (see the table below), grouped under their era's toggle — each an `<li>`: 72px portrait in a 2px tint ring (56px ≤480, portrait itself a link), H4 name with the role beside it in muted sans · tradition name in italic · dates · region in sans · the tile · one text action | — | `[CENSUS — verbatim]` |
+| 1.3e | Era heading, H3, one per era, plain (2026-09-03: no longer a toggle — see the gallery mechanism above) | The Early Church Era · 70–312 CE / The Imperial Church Era · 312–451 CE | `[CENSUS — verbatim]` (the census's era heads carry hyphens; the dash seam is a data fix — design record §11.3) |
+| 1.3f | The chairs (see the table below), each era's own horizontally-scrolling row — each an `<li>`: 72px portrait in a 2px tint ring, portrait itself a link, fixed 232px card width, H4 name with the role beside it in muted sans · tradition name in italic · dates · region in sans · the tile · one text action | — | `[CENSUS — verbatim]` |
 | 1.3h | Chair action (muted text link; the portrait links to the same place, so this isn't a second path in) | Her/His record → *(visually hidden: " — {Tradition}")* | `[DRAFT COPY — pending Mark's approval]` (pattern) — present on all seven as of 2026-09-03. The direct "Ask {Name} →" shortcut that used to sit beside it was removed the same day: one path into each tradition (portrait or record link → the tradition page → the actual interview/table launch), not two |
 | 1.3i | Pilot note — **below the seven**, the live site's own order | This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3j | Cost caveat — below the seven | Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3i′/j′ | **Offered re-draft for ruling 20** (replaces 1.3i–j if Mark takes it) | This is a pilot. We're listening for what people coming from four directions find here — the curious, pastors and teachers, scholars, and anyone re-examining their faith. Every conversation costs real money to run, so for now we ask each person to keep to about five. We can't enforce that; we can only ask. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.3k | The second door — the link now carries a small copy of the Arriving mark (the same SVG as §1.1's hero mark, `id="table-cue"`), playing its draw-and-settle motion once, the first time the line scrolls into view (`IntersectionObserver`, disconnects after firing) | Or bring two or three of them to one table. Set your own table → | `[DRAFT COPY — pending Mark's approval]` — the link is `table.html` (2026-09-03 change order: the Table became its own page, §2a), not the app directly (ruling 11's original "empty Table field" premise no longer holds — `table.html` itself hands the app that link once ≥2 seats are filled). **Ruling 35 (2026-09-03): no gate.** This line stands unconditionally |
+| 1.3k | *Moved 2026-09-03* — the second door left §1.3 for its own picture-led portal card; see §1.6 below. The Arriving mark (`id="table-cue"`) moved with it, unchanged otherwise. | — | — |
 
 **The seven chairs — every field from `world-census.json` (2026-09-02), rendered verbatim:**
 
@@ -317,10 +338,9 @@ era heads. The tile under each chair is the census `entry.tile`, verbatim.
 
 **On phone, first load:** the landing screen reads — Who's at the table ·
 Who would you like to have a conversation with? · scope · the
-representative-voice line · The Early Church Era, open, with Chloe's
-chair inside it. No pilot paragraph, no cost paragraph in the landing
-zone; no held-question state exists on this page anymore (§1.2 removal,
-above).
+representative-voice line · The Early Church Era, with Chloe's chair
+inside it. No pilot paragraph, no cost paragraph in the landing zone; no
+held-question state exists on this page anymore (§1.2 removal, above).
 
 ### 1.4 / 1.5 — removed, 2026-09-03
 
@@ -328,21 +348,34 @@ Both sections (the sample exchange and the two-column disclosure block)
 are cut from the homepage; see the change order under "Purpose" above.
 Two of this section's locked brand lines (1.5n, 1.5o — "We are committed
 to representing each Christian movement in full..." / "We measure
-whether each Christian movement is represented...") need a new home,
-since Brand Guidelines mark them verbatim-required; About's mission
-section is the natural fit but hasn't been decided or built. Flagged for
-Mark rather than placed without a ruling.
+whether each Christian movement is represented...") moved to About's
+mission section, right after its own closing paragraph — resolved the
+same day, not left open.
 
 ### 1.6 Church in History — one link
 
+**2026-09-03 change order: merged with the Table teaser into two
+picture-led "portal" cards, side by side from 760px, stacked below.**
+Each is one `<a>` wrapping an image, then an eyebrow, an H2, a short
+paragraph, and a CTA line — click anywhere on the card. Ruling 23 ("no
+map band") was about not building a new interactive map widget into the
+homepage before the Atlas rework lands; a static screenshot linking out
+to the real, already-shipped Atlas isn't that — it's a picture of a page
+that already exists, not new palette debt.
+
 | # | Element | Copy | Register |
 |---|---|---|---|
-| 1.6a | Eyebrow | Twenty centuries on one map | `[DRAFT COPY — pending Mark's approval]` |
-| 1.6b | H2 | Church in History | `[LIVE — carried unchanged]` (the Atlas's own name) |
-| 1.6c | Paragraph | More traditions are chosen and being built all the time. Christian movements across the Church's whole history are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read. | `[LIVE]` — 2026-09-03 change order: dropped the exact tradition/movement/era counts, all of which will go stale within weeks |
-| 1.6d | Links | Open Church in History → · What's next | `[DRAFT COPY — pending Mark's approval]` |
-
-No map band (ruling 23). Consistent with the Atlas rework track.
+| 1.6a | Portal 1 image — a screenshot of `atlas-v3.html`'s own Era I band, cropped to 1200×655, `assets/atlas-preview.jpg` | — | `[LIVE]` — a real screenshot of the shipped page, not a mockup |
+| 1.6b | Portal 1 eyebrow | Twenty centuries on one map | `[DRAFT COPY — pending Mark's approval]` |
+| 1.6c | Portal 1 H2 | Church in History | `[LIVE — carried unchanged]` (the Atlas's own name) |
+| 1.6d | Portal 1 paragraph | More traditions are chosen and being built all the time. Christian movements across the Church's whole history are on record in the project's map — hover for a glimpse, click for depth. | `[LIVE]` — trimmed further for the card's shorter format; the "what is not yet built is still there to be read" clause moved to the What's Next line below |
+| 1.6e | Portal 1 CTA | Open Church in History → | `[DRAFT COPY — pending Mark's approval]` |
+| 1.6f | Portal 2 image — the painted three-representatives-at-a-table piece already used on Get Involved's giving asks (`Ministry/Communication/Brand-Assets/Table-Templates/Open Door Table Image.png`, resized to 1200×655), `assets/table-portrait.jpg` | — | `[LIVE]` — reused brand art, not new |
+| 1.6g | Portal 2 eyebrow | The Table | `[DRAFT COPY — pending Mark's approval]` |
+| 1.6h | Portal 2 H2 | Set your own table | `[DRAFT COPY — pending Mark's approval]` |
+| 1.6i | Portal 2 paragraph | Bring two or three of them to one table. No one seated there is the host — you're one of the four chairs. | `[DRAFT COPY — pending Mark's approval]` — replaces old 1.3k's single line, expanded since the card has room for it |
+| 1.6j | Portal 2 CTA, carrying the Arriving mark (moved from old 1.3k, unchanged) | Set your own table → | `[DRAFT COPY — pending Mark's approval]` |
+| 1.6k | Secondary link, below both cards, own line | What's next → | `[DRAFT COPY — pending Mark's approval]` |
 
 ### 1.7 The support slot
 
@@ -373,31 +406,32 @@ week; nothing in the layout depends on its wording).
 ### 1.9 Accessibility behaviour
 
 **What a screen reader encounters, top to bottom, as of the 2026-09-03
-cuts:** skip link → banner: "Church in Conversation" link, navigation
+redesign:** skip link → banner: "Church in Conversation" link, navigation
 "Site" (5 links) → main → H1 (the hook) — the mark is decorative and
 silent; its sentence is read as a paragraph before the H1 → H2 "Who would
 you like to have a conversation with?" → scope → the representative-voice
-line → per era: a toggle heading, then (when open) a list of chairs, each
-H4 "{Name} {Role}", tradition, dates and region, the tile, link "{Her/His}
-record" (the portrait is the same link, so it isn't a second stop) → the
-pilot note, the cost caveat → "Or bring two or three of them to one
-table." link "Set your own table" → H2 "Church in History" → paragraph →
-two links → H2 "Support" (visually hidden) → three lines with three links
-→ contentinfo: the entity line, four links.
+line → per era: a plain heading, then its row of chairs, each H4 "{Name}
+{Role}", tradition, dates and region, the tile, link "{Her/His} record"
+(the portrait is the same link, so it isn't a second stop) → the pilot
+note, the cost caveat → link "Open Church in History" (image, eyebrow,
+H2, paragraph, and CTA all inside the one link) → link "Set your own
+table" (same pattern) → link "What's next" → H2 "Support" (visually
+hidden) → three lines with three links → contentinfo: the entity line,
+four links.
 
 **Keyboard path.** skip link → wordmark → 5 nav links (→ side door) →
-[welcome-back link] → per era: a toggle button, then (when open) each
-chair's portrait/record link → Set your own table → Open Church in
-History → What's next → give once → give monthly → Get Involved → 4
+[welcome-back link] → per era: each chair's portrait/record link (no
+toggle stop anymore) → the Church in History portal link → the Table
+portal link → What's next → give once → give monthly → Get Involved → 4
 footer links. Focus ring 2px madder, 3px offset. No positive `tabindex`;
 nothing hidden is a stop; nothing is sticky, so the focused element is
 never obscured. Exact stop counts aren't tracked here anymore — they'd go
 stale with every tradition added, exactly the kind of number the
 2026-09-03 ruling says to stop carrying in this document.
 
-**Touch.** Every control ≥44px tall: the era toggles, the chair links,
-the Table link, the map links, the support links, the footer links, the
-nav.
+**Touch.** Every control ≥44px tall: the chair links, each era's
+horizontally-scrolling row itself (touch-drag, no button needed), the
+two portal cards, the support links, the footer links, the nav.
 
 ### 1.10 Responsive behaviour
 
@@ -758,11 +792,13 @@ pass through that ruling, tradition by tradition, not through this list.
 - 1.3d′ You will be in conversation with a representative voice, not a person who lived — built from one tradition's own letters and records, and honest about where they run out.
 - 1.3h Her/His record → (— {Tradition})
 - 1.3i′/j′ This is a pilot. We're listening for what people coming from four directions find here — the curious, pastors and teachers, scholars, and anyone re-examining their faith. Every conversation costs real money to run, so for now we ask each person to keep to about five. We can't enforce that; we can only ask.
-- 1.3k Or bring two or three of them to one table. Set your own table →
+- 1.3k Moved to §1.6 (the Table portal) 2026-09-03 — see below.
 - 1.4 / 1.5 Removed 2026-09-03 — see §1.4/1.5 above.
-- 1.6a Twenty centuries on one map
-- 1.6c More traditions are chosen and being built all the time. Christian movements across the Church's whole history are on record in the project's map — hover for a glimpse, click for depth — so that what is not yet built is still there to be read.
-- 1.6d Open Church in History → · What's next
+- 1.6b Twenty centuries on one map · 1.6e Open Church in History →
+- 1.6d More traditions are chosen and being built all the time. Christian movements across the Church's whole history are on record in the project's map — hover for a glimpse, click for depth.
+- 1.6g The Table · 1.6h Set your own table
+- 1.6i Bring two or three of them to one table. No one seated there is the host — you're one of the four chairs. · 1.6j Set your own table →
+- 1.6k What's next →
 - 1.7a Support (hidden heading)
 
 **Tradition page (Chloe's and Theon's instances; the pattern for seven)**
