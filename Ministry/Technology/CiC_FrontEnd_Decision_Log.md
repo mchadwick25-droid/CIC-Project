@@ -2469,3 +2469,23 @@ label), holding the same copy in plain text Mark can edit directly in
 the HTML whenever something new ships. Verified visible on a
 completely fresh page load with no localStorage set, zero overflow
 320-1440px both themes, zero comments/`data-copy`.
+
+---
+
+## 2026-09-03 (later still) — Cut the mark-line caption: "i hate these
+try to be clever sayings"
+
+Mark: remove "The mark is a table; the opening is the way in — and it
+never closes" from beside the animated logo mark on the hero - it made
+no sense to him and read as trying too hard. Removed the `<p>` outright
+(the icon itself - "the logo" - stays, only the caption goes), and
+cleaned up the now-dead `.mark-line p` CSS rule and the layout
+properties (`gap`, `max-width`, `text-align`) that only made sense with
+two children in the row. Verified: `.mark-line` now renders as just the
+centered icon at its natural size, zero overflow 320-1440px both
+themes, zero comments/`data-copy`.
+
+Standing note for future copy on this page: this is now the second
+piece of "trying to be clever" prose Mark has cut outright (after
+today's homepage-section cuts) - lean toward plain, functional lines
+over evocative ones anywhere new copy gets drafted here.
