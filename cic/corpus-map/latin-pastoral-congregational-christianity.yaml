@@ -813,3 +813,19 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+  author: theodosian-code-compilers
+  locus: whole text; not divided by book/title in this entry — see the file's own CTh.<book>.<title>.<law>
+    headings for addressing a specific constitution
+  role: context
+  confidence: provisional
+  note: 'The imperial legal apparatus this tradition''s own pastoral life operated under,
+    not this tradition''s own voice. Source_Registry.md row 44 names the specific reason this
+    world holds it: the underlying statute behind the Theodosian-law fine Augustine''s own
+    Letter 185 SS25 cites (already role: tradition here, npnf101). Not currently drawn on
+    directly for a specific claim — the exact CTh provision behind that fine reference has
+    not been independently pinned down against this file''s own text this session, disclosed
+    rather than guessed. Provisional pending that check.
+
+    '
+  source_file: codex-theodosianus_latinlibrary.txt
