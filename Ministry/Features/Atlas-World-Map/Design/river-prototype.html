@@ -167,6 +167,11 @@ svg#world{display:block;overflow:visible}
 #panel .edge:last-child{border-bottom:none}
 #panel .edge .k{color:var(--tyrian);font-variant:small-caps;font-size:.76rem}
 #panel .repline{font-size:.95rem;margin:0 0 .5rem}
+#panel .act{display:block;width:100%;margin:0 0 .9rem;padding:.6rem .9rem;
+  font:600 .88rem/1.3 "Alegreya Sans",sans-serif;color:var(--vellum);
+  background:var(--tyrian);border:none;border-radius:3px;cursor:pointer;text-align:center}
+#panel .act:hover{background:var(--madder)}
+#panel .act:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
 #panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
 #panel .teaser{font-style:italic;font-size:.98rem;line-height:1.55;margin:.6rem 0;
   padding-left:.6rem;border-left:2px solid var(--gold-leaf)}
@@ -224,6 +229,7 @@ svg#world{display:block;overflow:visible}
     align-items:center;justify-content:center;font-size:1.1rem}
   #panel .close{min-width:44px;min-height:44px;display:inline-flex;
     align-items:center;justify-content:center}
+  #panel .act{min-height:44px}
   #legendToggle{min-height:44px;display:flex;align-items:center}
 }
 </style>
@@ -21080,6 +21086,17 @@ function hideTip(){tip.style.display='none';}
 
 /* ---- Side panel (click = full) ---- */
 const panel=document.getElementById('panel'), panelBody=document.getElementById('panelBody');
+// Live hand-off: the same isLocal/LIVE_APP_URL/?worlds=<id>&mode=interview
+// contract already shipping in atlas-v3.html and index.html -- reused, not
+// reinvented, so a link into this map's worlds lands the same place a link
+// from the current site would. Interview only, no Table button: Mark's
+// ruling for this version is that launching a multi-voice Table straight
+// from the Atlas is confusing without more context-setting UI than this map
+// has yet -- Tours and research access are later work. One hand-off per
+// Built & Live world, into the room with that one Representative.
+const isLocal=['localhost','127.0.0.1'].includes(location.hostname);
+const LIVE_APP_URL=isLocal?'http://localhost:5173':'https://cic-engine.onrender.com';
+function launchInterview(id){location.href=LIVE_APP_URL+'/?worlds='+encodeURIComponent(id)+'&mode=interview';}
 // A handful of records use a bare "-" as their own placeholder for "not
 // applicable here" (relationsSummary on 8 movements, sourcing on 2) rather
 // than leaving the field out. Rendered under its own header that reads as a
@@ -21094,7 +21111,8 @@ function openPanel(m){
   // their own `entry` record -- the whole point of "Built & Live" -- but until
   // now nothing on the map ever showed it. A click landed on the same bare
   // status/edges template as an unbuilt entry.
-  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b>, ${esc(entry.representativeTitle)} — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`;
+  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b>, ${esc(entry.representativeTitle)} — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>
+    <button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
   h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>
     <span class="statuspill">${esc(m.status)}</span>`;
   if(m.statusDescription)h+=`<p class="statusdesc">${esc(m.statusDescription)}</p>`;
@@ -21116,14 +21134,12 @@ function openPanel(m){
   // Last on purpose: this is the "go deeper if you want" appendix, not
   // something to read past on the way to the record's own story -- it
   // belongs after everything the census itself asserts, not in the middle
-  // of it. 939 citations across 172 of the 292 records (599 primary, 185
-  // secondary, 155 reference), 28 with a direct link to the actual text,
-  // captured in the data and never rendered anywhere before this. m.sourcing
-  // (kept) is this record's own one-line assessment of how strong its
-  // sourcing is; the list below is what that assessment is an assessment
-  // OF. Neither implies the other -- some records carry one without the
-  // other, including, notably, all seven Built & Live worlds, which have
-  // the summary line but no itemized list yet.
+  // of it. 970 citations across 179 of the 292 records (623 primary, 190
+  // secondary, 157 reference), 51 with a direct link to the actual text.
+  // m.sourcing (kept) is this record's own one-line assessment of how
+  // strong its sourcing is; the list below is what that assessment is an
+  // assessment OF. Neither implies the other -- some records carry one
+  // without the other.
   if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){
     h+='<h3>Sources</h3>';
     if(hasContent(m.sourcing))h+=`<p>${esc(m.sourcing)}</p>`;
@@ -21133,6 +21149,8 @@ function openPanel(m){
     }).join('');
   }
   panelBody.innerHTML=h; showPanel(); hideTip();
+  const interviewBtn=panelBody.querySelector('[data-interview-id]');
+  if(interviewBtn)interviewBtn.addEventListener('click',()=>launchInterview(interviewBtn.dataset.interviewId));
 }
 function openPanelEdge(edg,a,b){
   hideTip();
