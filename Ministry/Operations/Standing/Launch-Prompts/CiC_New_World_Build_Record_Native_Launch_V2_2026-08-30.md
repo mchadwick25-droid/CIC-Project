@@ -83,7 +83,12 @@ scope brief and STOP. The brief anchors to what already exists:
   (Gaul came out of the project's own analyses of the downloaded
   sources; a world like that may find much of its G1 library ALREADY
   vendored under `cic/texts/`, making G1 verification-first rather than
-  download-first).
+  download-first). Check this mechanically, first, per the process
+  document's own "Cross-world source layer" section (added
+  2026-09-02): `python cic/engine/corpus_map.py --coverage` and this
+  world's own `cic/corpus-map/<atlas-id>.yaml` bucket, if one exists,
+  show what's already vendored and assigned before any request is
+  drafted.
 - **Atlas placement:** the census (`cic-website/data/world-census.json`)
   is frozen at ten eras (I–X) with 292 movement entries — locate the
   world there. Name WHICH movement entry or entries it claims (Gaul
@@ -120,7 +125,10 @@ or override. He then manually downloads the chosen open-source texts
 into `cic/texts/` under the manifest's stated filenames. The build
 VERIFIES every listed file is present and matches its stated
 size/identity before Phase A continues past Doc_02 — a missing or
-substituted file is a halt, never a workaround.
+substituted file is a halt, never a workaround. Every Manifest row for
+a source NOT already found via the corpus-map/index check above should
+carry the trail: a real discovery_helper.py or WebSearch hit, verified
+against the actual host, not a guessed URL.
 
 **G2 — Representative identity, after Doc_09.** The grounded-options
 artifact: named ROLE + NAME alternatives, an explicit trade-off each,
