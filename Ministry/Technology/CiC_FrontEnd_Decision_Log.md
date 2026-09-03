@@ -1907,3 +1907,58 @@ Second addendum: the file discipline is now also a Change Order
 -> V1.3 (file discipline is the third Phase B birth condition) and
 Completion Standard V1.2 -> V1.3 (the pre-pin residue read recorded as
 a saved artifact at freeze). Launch prompt repointed to V1.3.
+
+---
+
+## 2026-09-03 — Atlas rebuild shipped solo, ahead of Website V2; story
+markers already live
+
+**Sequencing decision, resolved.** With `churchinconversation.com` a
+live pilot (merging to main goes live immediately, real participants
+mid-conversation), this thread's recommendation was: ship the Atlas
+rebuild on its own as soon as it's ready, don't bundle it with the
+Website V2 redesign, and don't hold it waiting on V2 either — same
+sequential-release instinct as the 2026-08-14 current-day-space call
+("finish X and get it live first, then Y in its own thread"). Mark
+went the same direction. **Confirmed by direct repo check, not taken
+on report:** the live `cic-website/atlas-v3.html` was replaced by the
+new river-map design via a chain of four merges - #79 (squash merge,
+the initial replacement), #80, #81, #82 - each landing live-site
+feedback in turn (opacity fix for not-yet-built dots, river fade under
+era bands, a source-registry section). Website V2 (branch
+`claude/website-v2-sandbox`) has not shipped and is untouched by this.
+
+**Correction to this thread's own prior tracking:** the branch this
+thread had been watching for the Atlas work, `claude/atlas-game-grade-
+visuals-u3vn4y` (PR #78, "Atlas Reimagined... Water on the Page"),
+is NOT what shipped. The actual launch ran through a separate branch,
+`claude/replace-live-atlas-with-river-map`, built from that same
+prototype file. PR #78's CI-failure diagnosis from earlier today (a
+records/schema repin backlog left by the CiC Library Build Engine
+thread, unrelated to the Atlas work itself) stands as a real, still-
+open finding regardless — flagged to that thread directly — but it
+was never actually blocking the Atlas launch, since #78 wasn't the
+branch that shipped. #78's own status (open/closed/superseded) is
+unconfirmed and not this thread's to resolve.
+
+**Story markers: already a real, shipped feature, not a proposal.**
+PR #81 (commit abadd3f1) added a distinct mark type alongside movement
+nodes - a book-icon "story" mark for real, documented history that
+never grew into, or never surfaced inside, any single movement's own
+record. Same interaction contract as a movement node (hover halo,
+click to open, positioned by year + laneOrder), styled without a
+river-family color since a story belongs to no single lineage. First
+and so far only entry: the Silesian Children's Prayer Revival
+(1707-08), sourced and site-confirmed by Mark's own visit to Cieszyn,
+explicit about what's well attested versus later devotional
+embellishment.
+
+**Open, not yet scoped:** Mark says a "story module" is being added
+next. Not yet clear whether that means (a) more entries in the
+existing book-icon pattern - a content-sourcing task, or (b) a
+structurally different surface - e.g. a richer detail view for a story
+mark than hover/click currently gives, or a way of pulling a
+tradition's own Doc_09 story-repository content onto the map instead
+of (or alongside) these standalone, no-single-movement entries. Asked
+Mark directly rather than guessing. Next action: get his answer, scope
+accordingly.
