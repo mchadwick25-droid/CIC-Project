@@ -1542,3 +1542,59 @@ a faster path than picking three individually (asked, not yet answered);
 the SVG ring's gap centering is tuned by eye against the mark's own
 geometry, not derived analytically — a fine first pass, revisit if Mark's
 reaction calls for it.
+
+---
+
+## 2026-09-03 (later still) — The homepage's own table link plays the mark's motion
+
+**Asked:** "now use the motion of the logo to draw attention to the
+table, either when you first scroll down to it or click on it the first
+time." Two trigger moments named; the click-triggered one already
+existed — `table.html`'s own copy of the Arriving mark already plays on
+arrival, so clicking through was already covered. What was missing was
+the scroll-triggered one: the homepage's own "Set your own table" line
+(`.second-door`, near the bottom of a long page) was plain text with no
+visual weight, easy to scroll past without noticing it at all.
+
+**Built:** a small copy of the header's own Arriving mark (same ring +
+seat SVG, same `cic-buildC`/`cic-sitdown` keyframes) placed inside the
+"Set your own table" link itself, id `table-cue`. An `IntersectionObserver`
+(threshold 0.6) adds `.play` the first time it scrolls into view, then
+disconnects — the same motion the header plays unconditionally on load,
+now played once, on this link, at the moment a visitor actually reaches
+it.
+
+**A shared-component default had to flip, carefully.** The existing
+`.arriving-ring`/`.arriving-seat` rules' un-animated default was the
+*pre-draw* look (invisible ring, unsettled seat) — correct for the header
+mark, which always carries `.play` from first paint and so never
+renders that default (the animation's own `fill-mode:both` 0% keyframe
+takes over from frame one regardless of what the base rule says). But
+that same default would leave a *new*, not-yet-triggered instance
+permanently invisible before its `IntersectionObserver` fires — worse,
+permanently invisible with no JS at all, since this page has no
+`no-js`/`js` class-flip to hook a fallback to (confirmed by checking:
+unlike the tradition page and `table.html`, `index.html` never adopted
+that pattern). Rather than bolt on a page-specific fallback, flipped the
+shared component's own default to the resting/complete look, and added
+`.arriving.pending` as the one opt-in exception — applied by JS only to
+instances it's actually about to animate, immediately before observing
+them. Verified the header mark's own animation timeline is byte-for-byte
+unaffected by the flip (early frame still pre-draw via the keyframe's own
+0%, late frame still fully drawn and seated) — the change was safe
+specifically because the header's permanent `.play` class means the
+default rule was never actually reaching the screen for it either way.
+
+**Verified locally** (headless Chromium): before scrolling to it, the cue
+carries `.pending` and its ring is invisible (`opacity:0`); scrolling it
+into view swaps to `.play` and the same draw-and-settle motion runs,
+ending at the same fully-drawn resting state computed by `getComputedStyle`
+(not just checked by class name); with JavaScript disabled, the cue
+renders its resting/complete state immediately — never the invisible
+pre-draw look, so no dead icon without JS; under `prefers-reduced-motion:
+reduce`, same immediate resting state, `animationName:"none"`, no
+motion at all; zero horizontal overflow 320–1440px on the homepage with
+the icon in place; zero page errors.
+
+**Open, unchanged:** everything already open from the Table page's own
+build above.
