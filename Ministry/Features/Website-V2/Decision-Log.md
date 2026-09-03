@@ -1598,3 +1598,91 @@ the icon in place; zero page errors.
 
 **Open, unchanged:** everything already open from the Table page's own
 build above.
+
+---
+
+## 2026-09-03 (later still) — Ruling 35 closed: no gate. `pairings.ts`: not yet.
+
+Mark: "rule on ruling 35 and the pairings.ts question" — asked for the
+actual decision, not another round of "open for Mark."
+
+**Ruling 35 — should a free entry point surface the Table at all, or
+should it sit behind a paid tier?** Traced the history before ruling:
+D0's own seam G flagged this back in the V1 log (2026-07-24: keep the
+multi-Representative Table out of the free interview entry point, as a
+planned paid tier) as "worth confirming with Mark rather than assuming
+either way." D1 through D3 designed the third door and both tradition-page
+Table links around a *loosened* reading anyway — because the live site
+already ships "Bring {Name} to the Table" beside every free interview
+link, under Mark's own 2026-08-28 launch ruling — without ever actually
+closing the loop back to him. The D3 synthesis review caught the gap
+(its R8: "G is gone" — every other D0 seam reached a ruling or a section;
+this one reached neither) and forced it into the register as ruling 35,
+recommending "keep them, because the live site already does — but as
+Mark's confirmation, not D3's assumption." That recommendation sat open
+through the freeze and through this session's build of `table.html`.
+
+**Ruling: confirmed. No gate.** The Table ships free and prominent, as
+already built. This is not a new risk — it ratifies what Mark already
+put live on 2026-08-28, and it matches the only cost-control mechanism
+this pilot actually uses anywhere else: an honest ask, not a technical
+enforcement ("we're asking each participant to keep to about five
+conversations for now — we can't enforce this yet, only ask," 1.3j/2.9e,
+unchanged by this ruling and already broad enough to cover Table
+sessions without a copy edit). A hard paywall would require account and
+payment infrastructure that exists nowhere else in this design, built
+for a pilot whose own stated purpose is gathering reaction from a broad,
+curious, largely non-paying audience across four perspectives — gating
+the one feature built to put multiple traditions in dialogue would work
+directly against that goal. Revisit only if real usage data during the
+pilot shows the cost is genuinely unsustainable; until then, no gate.
+Closed in the Design V2 ruling register (item 35), and in the storyboard
+everywhere the "if the gate stands, cut" contingency language was
+carried (§1.3k, §2.2d, §2.9d, §2a) — all now read unconditional. Two
+tradition-page copy rows (§2.2d, §2.9d) were quietly out of sync with
+what actually shipped (`table.html`'s own change order simplified
+"Bring Chloe to a Table — she'll be seated there; choose at least one
+more voice" down to "Bring Chloe to the Table →", since the destination
+page now explains itself on arrival); corrected while closing the ruling
+rather than left drifting.
+
+**The `pairings.ts` question — fold the app's curated suggested-pairing
+shortcuts into `table.html` as a faster path than picking three
+individually?** Read the actual file
+(`cic-poc/frontend/src/data/pairings.ts`) rather than ruling from memory
+of the earlier investigation. What it holds: four pairings sourced from
+`Ministry/Technology/CiC_Table_Pairings_V1_2026-08-28.md`, itself marked
+DRAFT and still awaiting Mark's own sign-off; of the four, only one
+(P1, "the school and the desert") is marked `proven: true` — the other
+three, including the fullest three-voice pairing, are `proven: false`;
+one further pairing (P4, Papnoute + the Hieronymian voice) is deliberately
+withheld from public offering, reserved for "battery-accompanied runs";
+and the data keys traditions by short internal ids (`alx`, `pahc`,
+`desert`…) that don't match the website's own census ids, so reuse would
+need a translation layer, not a straight import.
+
+**Ruling: not yet.** Folding this in now would duplicate draft, mostly
+unproven editorial judgment across two separate codebases with no shared
+source of truth — a real maintenance-drift risk for what is, at best, a
+convenience — and it risks reintroducing exactly the "curator's picks"
+framing the Table page was just rebuilt to remove (whoever picked the
+"recommended" three is, in effect, a soft host again). The picker that
+shipped — open a seat, choose from all seven, portrait and tradition name
+shown — is not high-friction (three taps), and for a first-time visitor
+who doesn't yet know Theon from Papnoute, browsing all seven before
+choosing is arguably the more valuable experience, not a worse one.
+Revisit once the underlying pairing record itself is signed off and more
+of its pairings move to `proven: true`, and then only as a clearly
+separate, secondary affordance (e.g., "New here? Try…" below the graphic)
+rather than folded into the core seat-picking interaction — so a
+suggested start is always visibly a suggestion, never the page's implied
+default.
+
+**Changed:** `Ministry/Features/Website-V2/CiC_Website_Design_V2.md`
+(ruling 35's register entry closed; the entry-points table and the
+V2 door-count paragraph updated to drop the conditional);
+`Ministry/Features/Website-V2/CiC_Website_V2_Storyboard.md` (§1.3k,
+§2.2d, §2.9d, §2a all updated — the gate contingency removed, the two
+stale tradition-page copy rows brought in line with what shipped, and
+§2a's two open items resolved to rulings). No code changed — both
+rulings confirm behavior already built.

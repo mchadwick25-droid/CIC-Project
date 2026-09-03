@@ -318,7 +318,7 @@ both given a `hidden` attribute and its own `display` in CSS.
 | 1.3i | Pilot note — **below the seven**, the live site's own order | This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3j | Cost caveat — below the seven | Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask. | `[LIVE — carried unchanged]` — **ruling 20 ⚠** |
 | 1.3i′/j′ | **Offered re-draft for ruling 20** (replaces 1.3i–j if Mark takes it) | This is a pilot. We're listening for what people coming from four directions find here — the curious, pastors and teachers, scholars, and anyone re-examining their faith. Every conversation costs real money to run, so for now we ask each person to keep to about five. We can't enforce that; we can only ask. | `[DRAFT COPY — pending Mark's approval]` |
-| 1.3k | The second door — the link now carries a small copy of the Arriving mark (§1.2's own SVG, `id="table-cue"`), playing its draw-and-settle motion once, the first time the line scrolls into view (`IntersectionObserver`, disconnects after firing) | Or bring two or three of them to one table. Set your own table → | `[DRAFT COPY — pending Mark's approval]` — the link is `table.html` (2026-09-03 change order: the Table became its own page, §2a), not the app directly (ruling 11's original "empty Table field" premise no longer holds — `table.html` itself hands the app that link once ≥2 seats are filled). Whether a free entry point surfaces the Table at all is **ruling 35** (D0's seam G, the once-planned paid tier); if the gate stands, this line is cut and nothing else moves |
+| 1.3k | The second door — the link now carries a small copy of the Arriving mark (§1.2's own SVG, `id="table-cue"`), playing its draw-and-settle motion once, the first time the line scrolls into view (`IntersectionObserver`, disconnects after firing) | Or bring two or three of them to one table. Set your own table → | `[DRAFT COPY — pending Mark's approval]` — the link is `table.html` (2026-09-03 change order: the Table became its own page, §2a), not the app directly (ruling 11's original "empty Table field" premise no longer holds — `table.html` itself hands the app that link once ≥2 seats are filled). **Ruling 35 (2026-09-03): no gate.** This line stands unconditionally |
 
 **The seven chairs — every field from `world-census.json` (2026-09-02), rendered verbatim:**
 
@@ -569,7 +569,7 @@ hairline-ruled row: a sentence, an outlined button, a quiet text link.
 | 2.2a | **The AI line, first** (added at the fix pass — the review's R5; the rows below were a–c): Chloe is an AI system — one voice built from this tradition's own letters and records. She shows her sources as she speaks, and she will tell you where the record runs out. | `[DRAFT COPY — pending Mark's approval]` — sans, graphite left rule, ink text: the homepage's 1.2g pattern. A paragraph, not a heading and not a tab stop. A visitor who arrives here directly — a shared link, a search result, which is what seven indexed pages are for — has passed no disclosure; this is the Brand Guidelines' "Always" and the design record's §3.7 item 8 kept on this page. Measured 1,268–1,352 at 390×844; the first app link at 1,443, after it |
 | 2.2b | Chloe is seated. Begin when you're ready — or read on. | `[DRAFT COPY — pending Mark's approval]` |
 | 2.2c | Begin a conversation with Chloe | `[DRAFT COPY — pending Mark's approval]` — `?worlds=<id>&mode=interview` (+ `#q=` once it lands) |
-| 2.2d | Bring Chloe to a Table → *(with the landing state said — ruling 18)*: Bring Chloe to a Table — she'll be seated there; choose at least one more voice. | `[DRAFT COPY — pending Mark's approval]` — stands on ruling 35 (whether a free entry point surfaces the Table at all); cut, with its twin in §2.9d, if the gate stands |
+| 2.2d | Bring Chloe to the Table → | `[LIVE — as shipped]` — **ruling 35 (2026-09-03): no gate**, stands unconditionally, with its twin in §2.9d. Superseded from the draft's fuller sentence when the Table became its own page (2026-09-03 change order, §2a): the link now reads `../table.html?worlds=post-apostolic-house-church`, which seats Chloe and explains itself on arrival — the seat line no longer needs to say "she'll be seated there; choose at least one more voice" itself |
 
 **Arriving with a held question (RECOMMENDED):** if the URL carries `#q=…`
 (the visitor came from the homepage's held state), the held block (1.3a's
@@ -686,7 +686,7 @@ named here for Mark to look at.
 | 2.9a | Eyebrow: The Table | `[DRAFT COPY — pending Mark's approval]` |
 | 2.9b | H2: Come and join us at the Table | `[VERBATIM — locked, Brand Guidelines]` (once on this page; nowhere on the homepage) |
 | 2.9c | You have read what Chloe is built from, where it is thin, and what she will not claim. The chair has been pulled out the whole time. | `[DRAFT COPY — pending Mark's approval]` |
-| 2.9d | Begin a conversation with Chloe (filled) · Bring Chloe to a Table — she'll be seated there; choose at least one more voice (outlined; ruling 18) | `[DRAFT COPY — pending Mark's approval]` |
+| 2.9d | Begin a conversation with Chloe (filled) · Bring Chloe to the Table (outlined) | `[LIVE — as shipped]` — **ruling 35 (2026-09-03): no gate**, stands unconditionally, twin of §2.2d; same copy supersession (the link is now `../table.html?worlds=post-apostolic-house-church`, which explains itself on arrival) |
 | 2.9e | Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask. | `[LIVE — carried unchanged]` — ruling 20 governs this line here too |
 | 2.9f | The other six chairs → (to `index.html#who`) | `[DRAFT COPY — pending Mark's approval]` |
 
@@ -835,13 +835,29 @@ graphic scales down at ≤480px (240px ring) with seat positions
 recalculated, not just shrunk; zero horizontal overflow 320–1440px
 (verified).
 
-**Open, not yet ruled on:** ruling 35 (whether the Table should be free
-and prominent, or gated behind a paid tier — this page assumes free and
-prominent, pending that ruling); whether to fold the app's curated
-`pairings.ts` suggested-pairing shortcuts into this page as a faster path
-than picking three individually; the SVG ring's gap centering is tuned by
-eye against the mark's own geometry, not derived analytically — acceptable
-as a first pass, refinable if Mark's reaction calls for it.
+**Ruled 2026-09-03 — ruling 35: no gate.** The Table ships free and
+prominent, as built, confirmed rather than merely assumed (Design V2's
+own ruling register, item 35). **Ruled the same day — `pairings.ts` stays
+out of this page for now.** Checked the actual file
+(`cic-poc/frontend/src/data/pairings.ts`) before ruling rather than
+assuming: it is sourced from a pairing record that itself "awaits Mark's
+sign-off," three of its four curated pairings are marked `proven:false`,
+one pairing is deliberately withheld from public offering pending
+battery-accompanied runs, and its `worldKeys` (`alx`, `pahc`, `desert`…)
+don't match the website's own census ids — reusing it here would mean
+duplicating draft, partly-unproven editorial judgment across two
+codebases with no shared source of truth, and risks quietly re-importing
+a "curator's picks" framing this page was just rebuilt to remove. The
+seven-choice picker stays the only path in this version — three taps,
+and for a first-time visitor who doesn't yet know Theon from Papnoute, a
+chance to see all seven traditions rather than being funneled toward a
+few. Revisit once the underlying pairing record is signed off and more
+of its pairings are proven, as a clearly separate, secondary affordance
+("New here? Try…") — not folded into the core picker.
+
+**Still open:** the SVG ring's gap centering is tuned by eye against the
+mark's own geometry, not derived analytically — acceptable as a first
+pass, refinable if Mark's reaction calls for it.
 
 ---
 
