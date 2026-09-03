@@ -142,6 +142,21 @@ def census_ids() -> dict[str, str]:
     return {m["id"]: m.get("status", "") for m in data.get("movements", [])}
 
 
+# Every *.yaml directly under cic/corpus-map/ that is NOT a per-census-
+# entry bucket. This loader globs the whole directory with no other
+# filter, so a new non-bucket file added here needs a line in this set or
+# it gets silently misread as a malformed bucket - discovered the hard
+# way twice in one session (WORKS.yaml, then AUTHOR-IDS.yaml, both added
+# 2026-09-02) before this collapsed from two near-duplicate `if` branches
+# into one list. A third non-bucket file added later should extend this
+# set, not grow a third branch.
+NON_BUCKET_FILES = {
+    "UNATTRIBUTED.yaml",  # a ruling list
+    "WORKS.yaml",         # a Work/Expression registry (works_registry.py)
+    "AUTHOR-IDS.yaml",    # an author identity registry (this file's own siblings' scope)
+}
+
+
 def load() -> dict[str, dict]:
     """atlas_id -> the parsed file. Missing directory is not an error - the
     map does not exist until the assignment thread starts."""
@@ -151,7 +166,7 @@ def load() -> dict[str, dict]:
     if not MAP_DIR.is_dir():
         return out
     for path in sorted(MAP_DIR.glob("*.yaml")):
-        if path.name == "UNATTRIBUTED.yaml":      # a ruling list, not a bucket
+        if path.name in NON_BUCKET_FILES:
             continue
         out[path.stem] = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     return out

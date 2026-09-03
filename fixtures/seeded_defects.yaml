@@ -97,12 +97,33 @@ defects:
     mutation: {op: delete_field, path: rights_status}
     expected_failure: "source has no rights_status - rights gate fails closed (spec: rights per record, fail-closed)"
 
+  - id: edition-rights-consistency-missing-file
+    gate: edition-rights-consistency
+    layer: M1
+    target_record: records/fix/source/fix.source.witness-scroll.md
+    mutation: {op: set_field, path: edition, value: "Fixture Edition 1, vendored as cic/texts/fixture-nonexistent-file.txt"}
+    expected_failure: "edition names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+
+  - id: canonical-address-missing-file
+    gate: canonical-address
+    layer: M1
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: "sources[0].address", value: "cic:fixture-nonexistent-file.txt:1.4"}
+    expected_failure: "sources[0].address names cic/texts/fixture-nonexistent-file.txt, which does not exist on disk"
+
   - id: readability-quick-meaning-too-dense
     gate: readability
     layer: M1
     target_record: records/fix/term/fix.term.the-three.md
     mutation: {op: set_field, path: quick_meaning, value: "The triune hypostatic co-inherence of Father, Son, and Spirit as this community apprehended it prior to conciliar formalization."}
     expected_failure: "quick_meaning exceeds FK grade 10 (Artifact-1 §6 readability gate)"
+
+  - id: readability-quote-modern-rendering-too-dense
+    gate: readability
+    layer: M1
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: add_field, path: modern_rendering, value: "The unmediated testimonial witness persisted irrepressibly notwithstanding the deponent's own non-observation of the underlying event."}
+    expected_failure: "modern_rendering exceeds FK grade 10 (Artifact-1 §6 readability gate) - text itself, the verbatim Level-3 wording, is never graded"
 
   - id: canon-coverage-blank-cell
     gate: canon-coverage

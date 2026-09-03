@@ -1,0 +1,19 @@
+# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
+# filename, matching AUTHORS.md's `basil`.
+source_file: basil_ascetic-works-longer-shorter-rules_clarke1925.txt
+assignments:
+- work: The Ascetic Works of Saint Basil (the Great Asketikon - Longer Rules
+    and Shorter Rules, plus the Moralia and shorter ascetic treatises)
+  author: basil
+  locus: whole file
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: tradition
+  confidence: assigned
+  note: >
+    Basil of Caesarea's own foundational monastic legislation - the
+    file's own vendoring note calls this "the Nicene-Cappadocian
+    world's single highest-priority remaining source gap: the world's
+    best window on the brotherhoods' own legislation." The GREAT
+    Asketikon specifically; the earlier, non-Greek SMALL Asketikon
+    (Rufinus' Latin, a Syriac recension) remains unvendored.

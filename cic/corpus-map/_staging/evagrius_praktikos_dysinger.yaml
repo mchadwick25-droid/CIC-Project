@@ -1,0 +1,22 @@
+# Worker notes, 2026-09-02. Not a Pearse file - from the Guide to Evagrius
+# Ponticus (evagriusponticus.net), CC BY 4.0, no ThML markup. Author slug
+# from filename, matching AUTHORS.md's `evagrius`. Already cited by ten
+# desert quote/source/term records before this assignment existed - this
+# closes a real gap, not a speculative placement.
+source_file: evagrius_praktikos_dysinger.txt
+assignments:
+- work: The Praktikos
+  author: evagrius
+  locus: whole file
+  atlas_ids:
+  - desert-monasticism
+  role: tradition
+  confidence: assigned
+  note: >
+    Evagrius Ponticus' own foundational text on the eight generic
+    thoughts (logismoi) and apatheia - core desert teaching, already
+    the basis of desert.term.logismoi and six desert quote records.
+    NOT public domain (CC BY 4.0, Dysinger's translation) - attribution
+    must travel with any quotation; see the file's own rights header
+    and desert.source.evagrius-praktikos' own rights_status field for
+    the full basis.

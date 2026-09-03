@@ -21,9 +21,9 @@ text: 'Paula, on making up her mind that she too would learn it, succeeded so we
   she could chant the psalms in Hebrew and could speak the language without a trace of
   the pronunciation peculiar to Latin.'
 modern_rendering: >-
-  Paula made up her mind to learn Hebrew too, and she succeeded so well that
-  she could chant the psalms in it, and speak it without a trace of a Latin
-  accent.
+  Paula decided to learn Hebrew too, and she succeeded so well that she
+  could chant the psalms in it. She spoke the language with no trace of a
+  Latin accent.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'

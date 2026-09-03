@@ -1,0 +1,17 @@
+# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
+# filename, matching AUTHORS.md's `julian`.
+source_file: julian_letter-to-the-athenians_wright1913.txt
+assignments:
+- work: Letter to the Athenians (Letter to the Senate and People of Athens)
+  author: julian
+  locus: whole file (Loeb pp. 245-293)
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: assigned
+  note: >
+    The non-Christian world's own voice (brief SS11a's worked example:
+    "Libanius and Julian to imperial-juridical-christianity, whose world
+    they are the outside of"). Julian's own account of his break with
+    Constantius and, implicitly, the Christian household that raised
+    him - the file's own vendoring note already frames it this way.

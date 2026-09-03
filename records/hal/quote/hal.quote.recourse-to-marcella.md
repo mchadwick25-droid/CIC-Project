@@ -21,8 +21,9 @@ sources:
 text: 'Consequently after my departure from Rome, in case of a dispute arising as to the
   testimony of scripture on any subject, recourse was had to her to settle it.'
 modern_rendering: >-
-  So after I left Rome, whenever a dispute came up about what scripture said
-  on any subject, people went to her to settle it.
+  So after I left Rome, this is what happened. Whenever people disagreed
+  about what scripture said, they went to her. She was the one who settled
+  it.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Recourse was had to her to settle it" is an archaic passive construction meaning simply that people went to her - not a technical or institutional adjudication procedure.'

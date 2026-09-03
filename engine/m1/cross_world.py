@@ -64,6 +64,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     "id-type-token/doctrinal_witness": "F-03 - pahc uses `pahc.witness.*` where the other five use `<world>.dw.*`; renaming 17 records re-hashes the package, so it belongs to a pahc build thread",
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
     "figure-dates-keys/pahc": "F-04 - pahc keys figure.dates as display/note where the other five use born/died/floruit, and the frontend prints the key verbatim, so pahc participants read 'display:' and 'note:' in the UI",
+    "figure-dates-keys/cappadocian": "F-04-analogue - all 15 cappadocian figure records key figure.dates as `display` (one-sentence prose covering contested/multi-clause dating - e.g. Basil's own death 'traditionally placed at January 379 or September 378, though the modern redating literature argues for 377 instead' - that doesn't reduce cleanly to born/died/floruit without losing the contested-date nuance itself). Found 2026-09-01 while wiring the Representative portrait; same disclosed-not-fixed disposition as pahc's own instance, not a mass rewrite improvised under this step - belongs to a cappadocian build thread.",
     "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
     "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
 }
@@ -460,7 +461,16 @@ def check_figure_dates_keys(*, records, worlds, **_) -> list[Finding]:
     """`figure.dates` is `{"type": "object"}` in the schema - no key
     vocabulary at all - and cic-poc/frontend's FigureBridgeMark prints
     `${key}: ${value}` straight into the Level-3 panel. So the authoring
-    convention a world happened to pick IS what a participant reads."""
+    convention a world happened to pick IS what a participant reads.
+
+    fleet_vocabulary is a strict-majority threshold (more worlds use a key
+    than don't), not "all but one" - that weaker form only worked back when
+    pahc was the fleet's sole outlier; the moment a second world (cappadocian,
+    keying dates as `display` for its own reasons) legitimately diverges too,
+    "all but one" silently flags every conforming world instead, since the
+    dominant convention no longer clears an "all but one" bar with two
+    outliers standing. A strict majority keeps working regardless of how many
+    minority conventions exist alongside it."""
     findings = []
     by_world = {}
     for w in worlds:
@@ -469,7 +479,7 @@ def check_figure_dates_keys(*, records, worlds, **_) -> list[Finding]:
     for keys in by_world.values():
         for k in keys:
             counts[k] = counts.get(k, 0) + 1
-    fleet_vocabulary = {k for k, n in counts.items() if n >= len(worlds) - 1}
+    fleet_vocabulary = {k for k, n in counts.items() if n > len(worlds) / 2}
     for w in worlds:
         for key in sorted(by_world[w] - fleet_vocabulary):
             findings.append(_defect("figure-dates-keys", w, f"figure.dates uses key {key!r}, which no other world uses; the frontend prints the key verbatim to the participant"))

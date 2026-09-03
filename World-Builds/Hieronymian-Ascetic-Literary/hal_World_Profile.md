@@ -71,7 +71,7 @@
 **Gravity name:** Marcella's independent exegetical authority
 **Gravity type:** Tensional
 **Confidence:** Contested (single-source, per Doc_04's Confidence/Gravity Cross-Check — fails the Primary threshold)
-**Cross-strand status:** World is strand-singular; this gravity does not itself hold across both poles (Rome-only for Marcella's specific instance) — a finding treated as relevant to this candidate's own classification, not to the strand-determination question (**corrected per Round 1 review: this distinction is established at Doc_04 §2, §5, §6, not Doc_07 §2**)
+**Cross-strand status:** World is strand-singular; this gravity does not itself hold across both poles (Rome-only for Marcella's specific instance) — a finding treated as relevant to this candidate's own classification, not to the strand-determination question (this distinction is established at Doc_04 §2, §5, §6, not Doc_07 §2)
 **Brief description:** The genuine, evidentially-thinner counter-current of independently-recognized female scriptural authority — the same underlying currency as the world's Primary patronage-authority gravity, held in a materially independent position, real and formative but not organizing as broadly as the Primary gravities (Doc_01 §4, Doc_04 §2).
 **Grounding:** Doc_02 §1.4 (Ep. 127); Doc_04 §2–3, §6 (Tensional classification, resolving Doc_01's Open Issue #7 — not reopened); Doc_08 §1 (fractures at force 3A-1, the 410 sack).
 
@@ -113,7 +113,7 @@ This world organized reality around a layered, two-tier account of textual autho
 
 ### 4C — Authority Structures
 
-Authority in this world was a single currency — demonstrated scriptural learning, personally verified through direct engagement — held in structurally different positions depending on whether the holder needed patronage's material function to exercise it (Doc_07 §2, correcting an earlier draft's domain-separation account). Jerome held this currency in a materially dependent position, requiring continuous external funding; Marcella held the identical currency independently, requiring no patron (Doc_01 §4). This world had no episcopal or territorial authority structure of its own; its central scholar held the humblest clerical rank and never sought higher office (Doc_01 §3.3, §8.1).
+Authority in this world was a single currency — demonstrated scriptural learning, personally verified through direct engagement — held in structurally different positions depending on whether the holder needed patronage's material function to exercise it (Doc_07 §2). Jerome held this currency in a materially dependent position, requiring continuous external funding; Marcella held the identical currency independently, requiring no patron (Doc_01 §4). This world had no episcopal or territorial authority structure of its own; its central scholar held the humblest clerical rank and never sought higher office (Doc_01 §3.3, §8.1).
 
 ### 4D — Boundary Structures
 
@@ -179,7 +179,7 @@ This world's boundary was the decision to renounce, evidenced through action rat
 
 *(All 15 Tier 1 terms from Doc_06, each with an always-present designation. Tags per Doc_06's Master Lexicon Index.)*
 
-**Corrected per Round 1 review, which found the stated always-present count (9) did not match the table and that bold-vs-plain "YES" formatting carried no defined meaning — both fixed below (reconciled final count: 10 YES / 5 NO); all YES designations now formatted identically.**
+**Always-present count: 10 YES / 5 NO. All YES designations are formatted identically below.**
 
 | Term | Tags | Always-present | Brief characterization | Distortion risk note |
 |---|---|---|---|---|
@@ -227,7 +227,7 @@ This world's boundary was the decision to renounce, evidenced through action rat
 
 ## Section 8 — Honest Limits
 
-**Voice-convention note, added per Round 1 review, which found the entries below used singular "I" against the template's CO-014 first-person-plural convention without asserting the single-named-voice exception that would license it:** the Representative identity/naming decision, including whether this world is voiced by a single figure or multiple named voices, is a standing escalation category not yet decided (per this build's process discipline) — see the pending Representative Identity Preliminary Decision. The entries below are revised to plural "we" as the template's default convention, pending that decision; if a single-named-voice construction is ultimately chosen and justified, these may be revisited to singular "I" at that stage, not before.
+**Voice-convention note:** the entries below follow the template's CO-014 first-person-plural convention ("we"), not singular "I", because the Representative identity/naming decision — including whether this world is voiced by a single figure or multiple named voices — is a standing escalation category not yet decided (per this build's process discipline); see the pending Representative Identity Preliminary Decision. If a single-named-voice construction is ultimately chosen and justified, these entries may be revisited to singular "I" at that stage, not before.
 
 **Domain:** The specific liturgical horarium at Bethlehem (which hours, which psalms, daily schedule)
 **Ecological basis:** This world's own life is not documented at this level of specificity — the general fact of a structured common life is attested (Ep. 108), but the schedule itself rests on analogy to other monastic communities, not direct attestation (Doc_01 §9 Open Issue #5).

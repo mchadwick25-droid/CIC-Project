@@ -35,6 +35,21 @@ works:
     Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as separate parties;
     each now has its own entry and this work is the record of all of them.'
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: The First Apology (Liber Apologeticus)
+  author: eunomius
+  locus: whole file - chapters I-XXVIII (Whiston's numbering, Vaggione's re-numbering per
+    Pearse's edition) plus 23 footnotes
+  role: tradition
+  confidence: assigned
+  note: 'Eunomius'' own defense of his own position, in his own words - not mediated through
+    a hostile source. The file''s own vendoring note already states its purpose precisely:
+    "the build''s one real control on adversarial distortion against Basil/Nyssen''s own polemic"
+    - Eunomius'' reply to that polemic (the Apology for the Apology) does not survive independently
+    and is known only through hostile quotation inside Gregory of Nyssa''s own refutation
+    (npnf205, already vendored).
+
+    '
+  source_file: eunomius_first-apology_whiston1711.txt
 - work: The Five Theological Orations (Orations 27-31)
   author: gregory_naz
   locus: div2 3.13-3.17, with the editor's introduction at 3.12
@@ -74,3 +89,16 @@ works:
     on record, so anti-Eunomian material now names the party it actually argues with rather
     than the Homoian wing it split from in 360.'
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
+- work: Ecclesiastical History (surviving only as Photius' Epitome)
+  author: philostorgius
+  locus: whole file - all twelve books
+  role: tradition
+  confidence: assigned
+  note: 'Philostorgius was himself Anomoean/Eunomian - this is that tradition''s own historical
+    self-account, even though it survives only through a hostile Chalcedonian epitomizer''s
+    summary rather than independently. The file''s own vendoring note already frames it as
+    "the world''s one surviving Eunomian narrative voice," a caveat about mediation, not about
+    whose voice it is.
+
+    '
+  source_file: philostorgius_ecclesiastical-history_walford1855.txt

@@ -662,6 +662,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 12,564 | 12,564 | aphrahat_demonstrations-2-7_hallock1932 |
 
+## `basil_address-to-young-men_padelford1902.txt`
+
+1 section(s) to level 2 · ~8,420 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 8,420 | 8,420 | basil_address-to-young-men_padelford1902 |
+
+## `basil_ascetic-works-longer-shorter-rules_clarke1925.txt`
+
+1 section(s) to level 2 · ~137,516 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 137,516 | 137,516 | basil_ascetic-works-longer-shorter-rules_clarke1925 |
+
 ## `chronicle-of-edessa_cowper.txt`
 
 1 section(s) to level 2 · ~7,960 words of text · ~0 words of apparatus
@@ -678,6 +694,70 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 119,040 | 119,040 | ephraim_prose-refutations_mitchell1912-1921 |
 
+## `eunomius_first-apology_whiston1711.txt`
+
+1 section(s) to level 2 · ~9,298 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 9,298 | 9,298 | eunomius_first-apology_whiston1711 |
+
+## `evagrius_praktikos_dysinger.txt`
+
+1 section(s) to level 2 · ~8,195 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 8,195 | 8,195 | evagrius_praktikos_dysinger |
+
+## `gregory-nazianzen_first-invective-against-julian_king1888.txt`
+
+1 section(s) to level 2 · ~30,490 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 30,490 | 30,490 | gregory-nazianzen_first-invective-against-julian_king1888 |
+
+## `gregory-nazianzen_second-invective-against-julian_king1888.txt`
+
+1 section(s) to level 2 · ~13,088 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 13,088 | 13,088 | gregory-nazianzen_second-invective-against-julian_king1888 |
+
+## `gregory-nyssa_life-of-macrina-introduction-only_clarke1916.txt`
+
+1 section(s) to level 2 · ~2,585 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 2,585 | 2,585 | gregory-nyssa_life-of-macrina-introduction-only_clarke1916 |
+
+## `gregory-nyssa_life-of-macrina_clarke1916.txt`
+
+1 section(s) to level 2 · ~14,187 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 14,187 | 14,187 | gregory-nyssa_life-of-macrina_clarke1916 |
+
+## `julian_letter-to-the-athenians_wright1913.txt`
+
+1 section(s) to level 2 · ~7,891 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 7,891 | 7,891 | julian_letter-to-the-athenians_wright1913 |
+
+## `julian_letters-1-73_wright1923.txt`
+
+1 section(s) to level 2 · ~37,359 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 37,359 | 37,359 | julian_letters-1-73_wright1923 |
+
 ## `lucian_works-vol4-peregrine_fowler1905.txt`
 
 1 section(s) to level 2 · ~78,209 words of text · ~0 words of apparatus
@@ -685,6 +765,22 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 78,209 | 78,209 | lucian_works-vol4-peregrine_fowler1905 |
+
+## `macarius_fifty-spiritual-homilies_mason1921.txt`
+
+1 section(s) to level 2 · ~73,480 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 73,480 | 73,480 | macarius_fifty-spiritual-homilies_mason1921 |
+
+## `morison_st-basil-and-his-rule_1912.txt`
+
+1 section(s) to level 2 · ~21,291 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 21,291 | 21,291 | morison_st-basil-and-his-rule_1912 |
 
 ## `npnf101_augustine-confessions-letters.xml`
 
@@ -3704,6 +3800,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 | path | lvl | words | subtree | section |
 |---|---:|---:|---:|---|
 | `1` | 0 | 100,835 | 100,835 | palladius_paradise-v1-syriac_budge1907 |
+
+## `philostorgius_ecclesiastical-history_walford1855.txt`
+
+1 section(s) to level 2 · ~43,864 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 43,864 | 43,864 | philostorgius_ecclesiastical-history_walford1855 |
 
 ## `tacitus_annals-15-44_church-brodribb1876.txt`
 
