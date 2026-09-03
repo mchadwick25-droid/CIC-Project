@@ -74,10 +74,9 @@ p{margin:0 0 1rem}
 }
 
 .hero{max-width:var(--col);margin:0 auto;padding:2.75rem 1.25rem 1.25rem;text-align:center}
-.mark-line{display:flex;align-items:center;justify-content:center;gap:.9rem;margin:0 auto 1.75rem;max-width:32rem;text-align:left}
+.mark-line{display:flex;align-items:center;justify-content:center;margin:0 auto 1.75rem}
 .mark-line .arriving{width:52px;flex:0 0 52px;color:var(--mark-ink)}
 .mark-line svg{display:block;width:100%;height:auto}
-.mark-line p{margin:0;font-family:var(--sans);font-size:.9rem;line-height:1.4;color:var(--muted);text-wrap:balance}
 .arriving-ring{fill:none;stroke:currentColor;stroke-width:11;stroke-linecap:round;stroke-dasharray:260 100;stroke-dashoffset:-50;opacity:1}
 .arriving-seat{fill:var(--mark-dot);transform-origin:88.5px 50px;transform:translate(0,0)}
 .arriving.pending .arriving-ring{stroke-dasharray:0 360;opacity:0}
@@ -193,7 +192,6 @@ p{margin:0 0 1rem}
       <div class="arriving play" aria-hidden="true">
         <svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg>
       </div>
-      <p>The mark is a table; the opening is the way in — and it never closes.</p>
     </div>
     <h1 id="hook">Twenty centuries of the Church. One table. A chair pulled out for you.</h1>
     <p class="welcome-back" id="welcome-back" hidden>Welcome back. <a href="https://cic-engine.onrender.com/" data-app>Go straight to a conversation →</a></p>
