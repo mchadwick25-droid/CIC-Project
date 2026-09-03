@@ -19783,8 +19783,17 @@ const famColor=f=>isDark()?f.cd:f.c;
 const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;
 const EDGE_CALM_OP=0.4, EDGE_ORGANIC_OP=0.05, EDGE_ACTIVE_OP=0.85;
 
-/* ---- Real era grounds, from the census's own eras[] ---- */
-const eraLight=['#EFDDB3','#E3E0CB','#D8E4E5'], eraDark=['#241A0C','#1E1C16','#151A1E'];
+/* ---- Real era grounds, from the census's own eras[] ----
+   Light-mode grounds carried the same old-manuscript/institutional feel
+   as the parchment token they were designed alongside (tan, vellum-
+   green, pale slate -- the era's own "ground" per the census, not
+   arbitrary) -- re-picked 2026-09 to the app-chrome ground (#F6F6F2)
+   for the same reason. Dark mode already tested fine as-is and is
+   untouched. All three light steps now match, so the per-era rects sit
+   flush against the page instead of banding it -- era boundaries still
+   read from the header banner and the divider rule, not from a ground
+   shift. */
+const eraLight=['#F6F6F2','#F6F6F2','#F6F6F2'], eraDark=['#241A0C','#1E1C16','#151A1E'];
 function eraGround(i){return isDark()?eraDark[i%3]:eraLight[i%3];}
 
 const byId={}; DATA.movements.forEach(m=>byId[m.id]=m);
