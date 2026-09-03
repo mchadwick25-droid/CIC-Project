@@ -78,7 +78,7 @@ svg#world{display:block;overflow:visible}
 .era-context{font-family:"Alegreya",Georgia,serif;font-size:13px;fill:#2A2521}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
-  pointer-events:none;user-select:none}
+  user-select:none}
 /* Portrait plates -- one of the scope note's own "real proposed rules, just
    not built here yet": a Built & Live world's actual Representative, framed
    as a roundel set into the page rather than a photo dropped flat, per the
@@ -121,8 +121,16 @@ svg#world{display:block;overflow:visible}
    The halo (already the hover indicator) marks focus too, via JS. */
 .node:focus-visible{outline:none}
 .node:hover circle.halo{opacity:.35}
+/* pointer-events was none on .lbl (twice over -- the base rule above and,
+   redundantly, here too) -- the name text floated over its own dot with no
+   hit area of its own, so the only clickable/hoverable target for a
+   movement was the dot itself: r=4.4 built, r=2.6 not, genuinely hard to
+   land on at real zoom. The dot's own click/hover/focus handlers all live
+   on the parent <g> already (this text has none of its own to duplicate),
+   so enabling pointer events here just lets a click or hover on the name
+   bubble up to the same handlers a click on the dot already triggers. */
 .node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
-  pointer-events:none;paint-order:stroke;stroke:var(--parchment);stroke-width:3px}
+  paint-order:stroke;stroke:var(--parchment);stroke-width:3px}
 .edge-line{pointer-events:stroke;cursor:pointer}
 /* A default browser focus outline traces the path's bounding box, which for a
    long diagonal line is a big, mostly-empty rectangle that doesn't read as
