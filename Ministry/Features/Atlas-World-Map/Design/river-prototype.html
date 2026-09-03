@@ -20751,8 +20751,41 @@ function openPanelEdge(edg,a,b){
 }
 function openPanelRiver(f,members){
   hideTip();
+  const k=members[0].laneOrder;
   let h=`<h2 id="panelTitle">${esc(f.lbl)}</h2>`;
   h+=`<p class="meta">${members.length} movement${members.length===1?'':'s'} · ${members[0].start}–${members[members.length-1].start}</p>`;
+  // Nothing in the census names what makes one river different from another --
+  // there's no per-family write-up to draw on, only per-movement records. So
+  // this is computed from the same edges/eras/status fields every other panel
+  // already draws from, not authored: real, checkable facts about this one
+  // river's own shape (how much of the timeline it spans, how built-out it
+  // is, what kind of relationships its movements actually carry), stated
+  // plainly rather than as a claim to be the most/least of anything -- several
+  // rivers tie on any one of these, so "confined to one era" is this river's
+  // own fact, not a superlative over the other twelve.
+  const eraNums=[...new Set(members.map(m=>m.era))];
+  const eraMin=Math.min(...eraNums), eraMax=Math.max(...eraNums);
+  const built=members.filter(m=>m.status==='Built & Live').length;
+  const ids=new Set(members.map(m=>m.id));
+  const laneEdges=DATA.edges.filter(e=>ids.has(e.from)||ids.has(e.to));
+  const typeCounts={};
+  laneEdges.forEach(e=>typeCounts[e.type]=(typeCounts[e.type]||0)+1);
+  const topType=Object.entries(typeCounts).sort((a,b)=>b[1]-a[1])[0];
+  const otherLaneCounts={};
+  laneEdges.forEach(e=>{
+    const otherId=ids.has(e.from)?e.to:e.from, other=byId[otherId];
+    if(other&&other.laneOrder!==k){const lbl=famOf(other.laneOrder).lbl; otherLaneCounts[lbl]=(otherLaneCounts[lbl]||0)+1;}
+  });
+  const topOthers=Object.entries(otherLaneCounts).sort((a,b)=>b[1]-a[1]).slice(0,2).map(([lbl])=>lbl);
+  const spanText=eraNums.length===10?`Present in every one of the map's ten eras.`
+    :eraMin===eraMax?`Confined to a single era (Era ${eraMin}).`
+    :`Spans Era ${eraMin} to Era ${eraMax} — ${eraNums.length} of the map's ten eras.`;
+  const builtText=members.length===1?`Its one movement is${built?'':' not yet'} Built & Live.`
+    :built>0?`${built} of its ${members.length} movements ${built===1?'is':'are'} Built & Live.`
+    :`None of its ${members.length} movements are Built & Live yet.`;
+  const edgeText=laneEdges.length===0?`No connections to other rivers are recorded in this census yet.`
+    :`Its recorded connections lean toward &ldquo;${esc(topType[0])}&rdquo; (${topType[1]} of ${laneEdges.length})${topOthers.length?`, most often with ${topOthers.map(esc).join(' and ')}`:''}.`;
+  h+=`<h3>What sets this river apart</h3><p>${spanText} ${builtText} ${edgeText}</p>`;
   // Each member reopens THIS same panel on its own record -- a way to drill
   // from "the whole river" down to one movement without leaving the panel,
   // instead of a dead end at a bare member list.
