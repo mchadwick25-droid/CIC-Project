@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<script>document.documentElement.className='js'</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexandrian Christianity — Church in Conversation</title>
+<meta name="description" content="Theon is an AI voice for the school and church of Alexandria, c. 150 to 400 CE. Where the record is quiet, the questions people bring, and what he is built from.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* Website V2 · Theon's tradition page — D4 Increment 3, second instance of
+   the §2 template (reference: Chloe, post-apostolic-house-church.html).
+   Design record: CiC_Website_Design_V2.md
+   Storyboard: CiC_Website_V2_Storyboard.md §2. data-copy marks each line's
+   register (protected/brand/live/census/canon/record/brief/draft) for the
+   approval ledger; it has no visual or behavioural effect.
+
+   This tradition has no reviewer's brief on file (ruling 36) — §2.8's
+   record section ships shortened here, per the storyboard's own rule for
+   that state: no sources table, no gravities, no contested-ground list,
+   no four press questions. The confidence legend stays (it explains a
+   vocabulary the witness texts already use). This tradition's own guard
+   field is also one sentence only — the fleet floor line, with no
+   second, world-specific sentence to draw a "one voice, under guard"
+   silence from — so this page carries three silences, not five. Both
+   omissions are real content-shape differences, not oversights; see the
+   Decision-Log entry for this increment. */
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF; --gold-wash:#FBF2E2;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --gold-leaf:#B45309; --tyrian:#6B3FA0; --lapis:#1E40AF; --graphite:#8A837C; --rule:#E6DFD3;
+  --ground:var(--parchment); --surface:var(--vellum); --leaf:var(--gold-wash);
+  --text:var(--ink); --muted:var(--ink-faded);
+  --action:var(--madder); --action-hover:var(--madder-deep);
+  --gold-text:var(--gold-leaf); --tyrian-text:var(--tyrian); --tyrian-wash:#F3EFFA; --lapis-text:var(--lapis);
+  --control:var(--graphite);
+  --btn-fill:var(--madder); --btn-text:var(--vellum); --btn-edge:var(--madder);
+  --tint:#2B5F8A;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem; --margin:17rem;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --ground:#17130F; --surface:#1E1913; --leaf:#241C13;
+    --text:#F1E9DD; --muted:#B8AEA1; --action:#E08C74; --action-hover:#F0A98F;
+    --gold-text:#E0A458; --tyrian-text:#C9A6E8; --tyrian-wash:#2A2133; --lapis-text:#9DB4F0;
+    --control:#A39B92; --rule:rgba(241,233,221,.16);
+    --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+    --tint:#3B83BF;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:1rem}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+
+/* Header — identical to the homepage's: wraps, never clips, the mark stays
+   out of it (ruling 8). */
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.7rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.25rem 1.5rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.site-nav{font-family:var(--sans);font-size:.95rem;display:flex;flex-wrap:wrap;align-items:center;gap:0 1.1rem}
+.site-nav a{color:var(--text);text-decoration:none;padding:.7rem .1rem;border-bottom:2px solid transparent;min-height:44px;display:inline-flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{border-bottom-color:var(--action)}
+.site-nav a[hidden]{display:none}
+.site-nav .side-door{color:var(--muted);font-style:italic;gap:.3em}
+.site-nav .side-door:hover,.site-nav .side-door:focus-visible{color:var(--text)}
+@media (max-width:640px){
+  .site-nav .sd-long{display:none}
+  .site-nav{font-size:.9rem;gap:0 .85rem}
+  .site-header .row{gap:.1rem 1rem}
+}
+
+.page{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
+.crumbs{font-family:var(--sans);font-size:.875rem;color:var(--muted);padding:1rem 0 0}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem .5rem}
+.crumbs li+li::before{content:"›";margin-right:.5rem}
+.crumbs a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+
+/* Title block */
+.titleblock{display:grid;gap:1.5rem;padding:1.2rem 0 1.4rem;align-items:start}
+@media (min-width:900px){ .titleblock{grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:3rem} }
+.titleblock .ident{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .5rem}
+.titleblock h1{font-size:clamp(2.1rem,4.8vw,3.2rem);line-height:1.05;margin:0 0 .5rem}
+.titleblock .formal{font-style:italic;color:var(--muted);margin:0 0 1rem}
+.titleblock .tile{font-size:1.15rem;line-height:1.5;max-width:var(--measure)}
+.status{font-family:var(--sans);font-size:.875rem;color:var(--text);border-left:3px solid var(--tint);padding-left:.7rem;margin:0 0 1rem}
+.plate{max-width:20rem}
+.plate figure{margin:0}
+.plate img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;border:1px solid var(--rule);background:var(--surface)}
+.plate figcaption{font-family:var(--sans);font-size:.875rem;color:var(--muted);line-height:1.45;margin-top:.6rem}
+.plate figcaption b{color:var(--text);font-weight:600}
+
+/* The AI line — before either door, at full contrast. */
+.ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.1rem}
+
+/* A question carried from the homepage. */
+.held{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--lapis-text);border-radius:0 3px 3px 0;padding:.9rem 1.1rem;margin:0 0 1.1rem;max-width:var(--measure)}
+.held .k{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--lapis-text);margin:0 0 .25rem}
+.held .q{font-style:italic;font-size:1.15rem;margin:0 0 .35rem}
+.held .edit{font-family:var(--sans);font-size:.9rem}
+
+/* The seat line — quiet, NOT sticky. */
+.seat{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:.9rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.4rem;font-family:var(--sans);font-size:.95rem}
+.seat .seated{margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:.95rem;line-height:1.2;padding:.6rem 1.1rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
+.btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
+.btn.quiet{background:transparent;color:var(--action);border-color:var(--action)}
+.btn.quiet:hover,.btn.quiet:focus-visible{background:transparent;color:var(--action-hover);border-color:var(--action-hover)}
+.seat .also{color:var(--muted)}
+.seat .also a{display:inline-flex;align-items:center;min-height:44px}
+
+/* On this page */
+.pagenav{font-family:var(--sans);font-size:.875rem;display:flex;flex-wrap:wrap;gap:.2rem 1.2rem;padding:.6rem 0;border-bottom:1px solid var(--rule)}
+.pagenav a{color:var(--muted);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.pagenav a:hover,.pagenav a:focus-visible{color:var(--action)}
+
+/* Reading column with a reserved margin for sidenotes. */
+.article{padding:1.6rem 0 .5rem}
+.article>section{padding:1.4rem 0 1.2rem;border-top:1px solid var(--rule)}
+.article>section:first-child{border-top:none;padding-top:.6rem}
+.reading{max-width:var(--measure);font-size:1.125rem;line-height:1.6}
+.reading p{text-wrap:pretty}
+@media (min-width:1100px){ .page.has-margin{max-width:calc(var(--col) + var(--margin))} .article{padding-right:var(--margin)} }
+.article h2{font-size:clamp(1.5rem,3vw,1.9rem);margin:0 0 .3rem}
+.article h3{font-size:1.15rem;font-weight:700;margin:1.3rem 0 .5rem}
+.epigraph{font-style:italic;font-size:1.3rem;line-height:1.35;color:var(--muted);max-width:26rem;margin:.5rem 0 1.3rem}
+.sidenote{display:block;font-family:var(--sans);font-size:.875rem;line-height:1.45;color:var(--muted);border-top:1px solid var(--rule);padding-top:.45rem;margin:.6em 0 1em 1.4rem;font-style:normal;text-align:left}
+.sidenote b{font-weight:700;color:var(--text)}
+@media (min-width:1100px){ .sidenote{float:right;clear:right;width:15rem;margin:.1em calc(-1 * var(--margin)) .9rem 0} }
+.provenance p{border-left:2px solid var(--control);padding-left:1rem}
+.distress{font-family:var(--sans);font-size:.95rem;color:var(--muted);max-width:var(--measure)}
+
+/* Where we are quiet — three silences in the tradition's own voice */
+.quiet-list{list-style:none;margin:0;padding:0}
+.quiet-list li{padding:.9rem 0;border-top:1px solid var(--rule)}
+.quiet-list li:first-child{border-top:none;padding-top:0}
+.quiet-list h3{margin:0 0 .35rem;font-size:1.05rem;font-family:var(--sans);letter-spacing:.06em;text-transform:uppercase;font-weight:700}
+.quiet-list p{margin:0}
+
+/* Questions — hardest first; each is a door into a real interview */
+.questions{list-style:none;margin:.5rem 0 0;padding:0;border-top:1px solid var(--rule)}
+.questions li{border-bottom:1px solid var(--rule);padding:.5rem 0}
+.questions a{display:flex;align-items:flex-start;gap:.6rem;color:var(--text);text-decoration:none;font-style:italic;font-size:1.1rem;line-height:1.4;padding:.5rem .1rem;min-height:44px}
+.questions a::before{content:"—";color:var(--action);font-style:normal;flex:0 0 auto}
+.questions a::after{content:"→";color:var(--action);font-style:normal;margin-left:auto;padding-left:.6rem;flex:0 0 auto}
+.questions a:hover,.questions a:focus-visible{color:var(--action-hover);text-decoration:underline;text-decoration-color:var(--action)}
+.questions .from{display:block;font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:.1rem 0 .3rem 1.5rem;line-height:1.45}
+
+/* Lexicon — the app's own grammar. */
+.lex-wrap{position:relative;display:inline}
+.lex{position:relative;font:inherit;color:inherit;background:none;border:0;padding:0 .05em;margin:0;cursor:pointer;text-decoration:underline dotted var(--tyrian-text);text-decoration-thickness:.09em;text-underline-offset:.2em;border-radius:2px}
+.lex:hover,.lex:focus-visible{background:var(--tyrian-wash)}
+.lex::before{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:max(100%,44px);height:44px}
+.lex-card{display:none;position:absolute;left:0;top:calc(100% + .5rem);z-index:15;width:20rem;background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--tyrian-text);border-radius:0 6px 6px 0;padding:.8rem 1rem .85rem;font-family:var(--sans);font-size:.92rem;line-height:1.45;color:var(--text);text-align:left;font-style:normal}
+.lex-wrap:hover .lex-card,.lex:focus-visible+.lex-card,.lex[aria-expanded="true"]+.lex-card,.lex-card:focus-within{display:block}
+.lex-card .word{font-family:var(--serif);font-style:italic;font-size:1.05rem;color:var(--tyrian-text);display:block;margin-bottom:.2rem}
+.lex-card .full{display:inline-flex;align-items:center;min-height:44px;margin-top:.4rem;font:inherit;font-weight:600;color:var(--action);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:.16em}
+.no-js .lex-card .full{display:none}
+@media (max-width:1099.98px){ .lex-card{position:fixed;left:1rem;right:1rem;top:auto;bottom:1.25rem;width:auto;max-width:28rem} }
+.panel{position:fixed;top:0;right:0;height:100vh;width:min(420px,100vw);background:var(--surface);border-left:1px solid var(--rule);padding:1.6rem 1.6rem 2rem;overflow-y:auto;z-index:30;visibility:hidden}
+.panel.open{visibility:visible}
+@media (max-width:640px){ .panel{top:auto;bottom:0;height:auto;max-height:55vh;width:100vw;border-left:0;border-top:1px solid var(--rule);border-radius:12px 12px 0 0} }
+.panel .kicker{font-family:var(--sans);font-size:.8125rem;letter-spacing:.14em;text-transform:uppercase;color:var(--tyrian-text);font-weight:600;margin:0 0 .5rem}
+.panel h2{font-family:var(--serif);font-weight:400;font-style:italic;font-size:1.7rem;margin:0 0 .2rem;color:var(--tyrian-text)}
+.panel .plain{font-family:var(--sans);font-size:1rem;color:var(--muted);margin:0 0 1rem}
+.panel p{font-size:1.05rem;line-height:1.5}
+.panel .src{font-family:var(--sans);font-size:.875rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:.7rem;margin-top:1rem}
+.panel .close{position:absolute;top:.8rem;right:.8rem;width:44px;height:44px;border-radius:50%;border:1px solid var(--control);background:var(--ground);color:var(--text);font-size:1.2rem;line-height:1;cursor:pointer;font-family:var(--sans)}
+.voice-note{font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:0 0 1rem}
+
+/* The record — compact, one screen deep */
+.record-intro{color:var(--muted);max-width:var(--measure)}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;font-family:var(--sans);font-size:.875rem;margin:.4rem 0 1rem}
+.legend span{display:inline-flex;align-items:center;gap:.4rem;color:var(--tyrian-text);font-weight:700}
+.legend svg{width:16px;height:16px}
+.floornote{background:var(--surface);border:1px solid var(--rule);padding:.9rem 1.1rem;margin-top:1.1rem;max-width:var(--measure)}
+.floornote .label{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 .35rem;font-weight:600}
+.floornote p{margin:0}
+.voices{list-style:none;margin:0;padding:0}
+.voices li{padding:.5rem 0;border-bottom:1px solid var(--rule)}
+.voices li:last-child{border-bottom:none}
+.status-grid{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);margin:.8rem 0}
+@media (min-width:640px){ .status-grid{grid-template-columns:1fr 1fr} }
+.status-grid div{background:var(--ground);padding:.8rem 1rem}
+.status-grid dt{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem;font-weight:600}
+.status-grid dd{margin:0}
+
+/* Closing */
+.door{border-top:1px solid var(--rule);background:var(--surface);text-align:center;padding:2.5rem 1.25rem 2.5rem}
+.door h2{font-size:clamp(1.7rem,3vw,2.3rem);margin:0 0 .7rem}
+.door p{max-width:var(--measure);margin-left:auto;margin-right:auto}
+.door .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.8rem;margin:1.2rem 0 1rem}
+.door .also{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.door .also a{display:inline-flex;align-items:center;min-height:44px}
+
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
+.site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+@media print{ .site-header,.seat,.pagenav,.door .actions,.panel,.skip-link{display:none} .sidenote{float:none;width:auto;margin-right:0} }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="row">
+    <a class="wordmark" href="../index.html">Church <em>in</em> Conversation</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../whats-next.html">What's Next</a>
+      <a href="../atlas-v3.html">Map</a>
+      <a href="../support.html">Get Involved</a>
+      <a class="side-door" id="side-door" href="https://cic-engine.onrender.com/" hidden data-app data-copy="draft"><span class="sd-long">Been here before? </span>Go straight in →</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="page">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#who">Who's at the table</a></li>
+        <li aria-current="page">Alexandrian Christianity</li>
+      </ol>
+    </nav>
+
+    <div class="titleblock">
+      <div>
+        <p class="ident" data-copy="census">The Early Church Era · c. 150–400 CE · Alexandria, Egypt</p>
+        <h1 data-copy="census">Alexandrian Christianity</h1>
+        <p class="formal" data-copy="census">Alexandrian Catechetical Tradition</p>
+        <p class="status" data-copy="draft">Open for conversation — you can sit down with this tradition now.</p>
+        <p class="tile" data-copy="census">Alexandria, c. 150 to 400 CE — a community of readers who received seekers into a life of accompanied reading, convinced that Scripture's surface is a door onto the Logos's own inexhaustible depth.</p>
+      </div>
+      <aside class="plate" aria-label="Portrait">
+        <figure>
+          <img src="../assets/portraits/alexandria.png" alt="Theon: an older man with close-cropped grey hair in a plain white tunic, pointing to a line of Greek text on a papyrus scroll he holds, painted against a warm neutral ground." width="543" height="543">
+          <figcaption data-copy="draft"><b>Theon, Catechetical Teacher.</b> The voice of this tradition — a painted portrait, not a photograph: a face from this tradition, not one person. The plain tunic and the scroll held open to a line of Greek are grounded in the tradition's own practice of reading Scripture aloud with a teacher; his complexion is an inference from where he lived, and is labeled so.</figcaption>
+        </figure>
+      </aside>
+    </div>
+
+    <p class="ai-line" data-copy="draft">Theon is an AI system — one voice built from this tradition's own letters and records. He shows his sources as he speaks, and he will tell you where the record runs out.</p>
+
+    <div class="held" id="held" hidden>
+      <p class="k" data-copy="constitution">Your question, held:</p>
+      <p class="q" id="held-q"></p>
+      <a class="edit" id="held-edit" href="../index.html">Edit it</a>
+    </div>
+
+    <!-- The chair, offered once here — outlined, not filled — and again at the
+         end, filled, after the record. Nothing sticky. -->
+    <div class="seat" role="region" aria-label="Theon is seated">
+      <p class="seated" data-copy="draft">Theon is seated. Begin when you're ready — or read on.</p>
+      <a class="btn quiet" id="seat-begin" href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-ask>Begin a conversation with Theon</a>
+      <span class="also"><a id="seat-bring" href="../table.html?worlds=alexandria-catechetical">Bring Theon to the Table →</a></span>
+    </div>
+
+    <nav class="pagenav" aria-label="On this page">
+      <a href="#who-speaks" data-jump>Who is speaking</a>
+      <a href="#quiet" data-jump>Where we are quiet</a>
+      <a href="#questions" data-jump>Questions people bring</a>
+      <a href="#voice" data-jump>In his own words</a>
+      <a href="#record" data-jump>The record</a>
+    </nav>
+  </div>
+
+  <div class="page has-margin">
+    <div class="article">
+
+      <!-- 1. WHO IS SPEAKING -->
+      <section class="provenance" id="who-speaks" aria-labelledby="who-speaks-title" tabindex="-1">
+        <p class="eyebrow" data-copy="draft">Who is speaking</p>
+        <h2 id="who-speaks-title" data-copy="draft">An AI system, speaking for a whole people</h2>
+        <div class="reading">
+          <p data-copy="draft">Theon is a voice, not a person who lived, and he never pretends otherwise. He is this tradition's own surviving teachers — Clement, Origen, Dionysius, Didymus, and the school and the villages around them — given one voice across two and a half centuries, and he speaks the way a people speaks of itself: <em>we</em>, <em>our</em>, <em>among us</em>. Where those teachers disagreed, or where the tradition itself changed as the empire around it changed, he keeps that movement visible rather than settling it for them. His name and his role are the only invented things about him; every claim he makes belongs to the record, and he will tell you plainly when the record runs out.<span class="sidenote" role="note"><b>Source.</b> The voice's own identity record, <code>alx.voice.craft</code>: "the persona's name and role label are registry data — the two sanctioned fabrications — and never appear in world records, this one included."</span></p>
+          <p class="distress" data-copy="live">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+        </div>
+      </section>
+
+      <!-- 2. WHERE WE ARE QUIET — said first, in Theon's own voice.
+           Three silences, not five: this tradition's own guard field
+           (alx.voice.craft) is one sentence, the fleet-wide floor line
+           only, with no second, world-specific sentence to draw a
+           "one voice, under guard" item from — see the Decision-Log. -->
+      <section id="quiet" aria-labelledby="quiet-title" tabindex="-1">
+        <p class="eyebrow" data-copy="draft">Where we are quiet</p>
+        <h2 id="quiet-title" data-copy="draft">What this record cannot tell you — said first</h2>
+        <div class="reading">
+          <p class="epigraph" data-copy="protected">Where the historical record is thin, we let the silence stand.</p>
+          <p class="voice-note" data-copy="draft">In Theon's own voice, from the tradition's own record. These are the silences the voice carries into every conversation.</p>
+          <ul class="quiet-list" data-copy="record">
+            <li>
+              <h3>Women's own words</h3>
+              <p>You ask what the women among us said of their own lives. The writings we have are men's. The women are present in them - taught, baptized, remembered, and some died bravely for the faith - but their own words were not saved.<span class="sidenote" role="note"><b>Source.</b> Clement, <i>Paidagogos</i> — the household instruction addresses women; it does not preserve their own words. Eusebius, <i>Historia Ecclesiastica</i> VI.5 — Potamiaena, remembered by others, not in her own words. Record: <code>alx.limit.f5-women-own-words</code>.</span></p>
+            </li>
+            <li>
+              <h3>Left in the sources</h3>
+              <p>What marriage meant among us is a thing our fullest treatment of it cannot say to you in your tongue. Clement wrote a whole book defending marriage against those who despised it - and that book has come down in Latin, not in the English we can honestly give you. We can tell you the heart of it: marriage was honored, the body was not despised, and the home was a place of formation. The detail we must leave in the sources.<span class="sidenote" role="note"><b>Source.</b> Clement, <i>Stromateis</i> III — the tradition's fullest treatment of marriage and the body, extant in the record's own sources only in Latin, with no public-domain English translation. Record: <code>alx.limit.marriage</code>.</span></p>
+            </li>
+            <li>
+              <h3>The city itself</h3>
+              <p>If you dug where we met, we could not tell you what you would find. Our own writings describe souls and books far more than rooms and walls. The city itself has kept little: it was rebuilt age after age, and much of the old shore now lies under the sea.<span class="sidenote" role="note"><b>Source.</b> Alexandria's Christian archaeology for this window is sparse — the city was rebuilt repeatedly and part of its ancient shoreline now lies underwater; Clement's <i>Paidagogos</i> (II–III) describes daily life without describing buildings. Record: <code>alx.limit.material-remains</code>.</span></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 3. QUESTIONS PEOPLE BRING — the tradition's own canon (P-cell)
+           demonstration questions, all eight: unlike Chloe's page, no
+           held-back subset exists here (there is no Alexandria-specific
+           equivalent of ruling 3), so nothing is withheld. Center-cell
+           question first, per this tradition's own build convention
+           ("admission tests the center first," alx.demo.who-was-jesus). -->
+      <section id="questions" aria-labelledby="questions-title" tabindex="-1">
+        <p class="eyebrow" data-copy="draft">Questions people bring to this table</p>
+        <h2 id="questions-title" data-copy="draft">Start with the hard one</h2>
+        <div class="reading">
+          <p data-copy="draft">These are doors, not a syllabus. You are never confined to them, and a question none of them anticipated meets Theon on the same terms. Each opens a conversation with him; you ask it yourself in the room — for now, nothing is sent ahead. Under each, where his record can answer from.</p>
+          <ul class="questions">
+            <li><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-copy="canon">Who was Jesus, to you and your people?<span class="vh"> — ask Theon</span></a><span class="from" data-copy="draft">Clement, <i>Protrepticus</i> I ("the New Song"); Athanasius, <i>De Incarnatione</i> 54 ("made man that we might be made God").</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-copy="canon">I want to believe in Jesus, but I can't. What would you say to me?<span class="vh"> — ask Theon</span></a><span class="from" data-copy="draft">Gregory Thaumaturgus, <i>Address to Origen</i> 6 (the spark that lit the fire); Clement, <i>Stromateis</i> II, V and Origen, <i>De Principiis</i>, preface — faith as a foundation, not a finish line.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-copy="canon">Do you believe people like me — people outside your community — are going to hell?<span class="vh"> — ask Theon</span></a><span class="from" data-copy="draft">Origen, <i>Philocalia</i> 27 — punishment as healing, not vengeance; held as the tradition's own open, contested hope, never a settled teaching or a claim about anyone's actual fate.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-copy="canon">What would your people have made of someone like me?<span class="vh"> — ask Theon</span></a><span class="from" data-copy="draft">The shared bread and cup, and a baptism that asked nothing of a person's letters — set against the school's own narrower door.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-copy="canon">You've told me what women's days were like — but could a woman carry real authority among you, and what did it cost her?<span class="vh"> — ask Theon</span></a><span class="from" data-copy="draft">Eusebius, <i>Historia Ecclesiastica</i> VI.5 (Potamiaena) and VI.1–2 (Origen's own unnamed mother) — and the silence named above.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-copy="canon">What was life like for the women among you — in their own words, where your record has them?<span class="vh"> — ask Theon</span></a><span class="from" data-copy="draft">The same structural silence — no female-authored text survives — with Potamiaena as the nearest material.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-copy="canon">What did your people hold about a marriage ending — could someone divorced belong, or marry again?<span class="vh"> — ask Theon</span></a><span class="from" data-copy="draft">Clement, <i>Stromateis</i> III — surviving only in Latin in the record's own sources, not in the English this record can honestly give.</span></li>
+            <li><a href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-copy="canon">What did you do when you couldn't believe what your own church taught?<span class="vh"> — ask Theon</span></a><span class="from" data-copy="draft">Eusebius, <i>Historia Ecclesiastica</i> VII.24 — Dionysius and the Arsinoite villages, three days of open argument, set against the church's own harder years after Nicaea.</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 4. IN HIS OWN WORDS — the lexicon grammar, live -->
+      <section id="voice" aria-labelledby="voice-title" tabindex="-1">
+        <p class="eyebrow" data-copy="draft">In his own words</p>
+        <h2 id="voice-title" data-copy="draft">The hardest true thing about us</h2>
+        <div class="reading">
+          <p class="voice-note" data-copy="draft">What Theon says when asked whether Jesus was truly God, and whether there was room for doubt — from the record, as the voice carries it. The dotted words open the tradition's own lexicon: hover or focus for the plain meaning, click or tap through for the full entry.</p>
+          <p data-copy="record">Was Jesus God? Did you believe in the Trinity? This world's answer moves across its own century. From the beginning it worshiped Jesus as the <span class="lex-wrap"><button class="lex" type="button" aria-expanded="false" aria-controls="g-logos" aria-describedby="g-logos-text" data-lex="logos">Logos</button><span class="lex-card" id="g-logos" role="note"><span class="word">Logos</span><span id="g-logos-text">The Word: God's own reason and speech, through whom all things were made, and who became flesh in Jesus.</span> <button type="button" class="full" tabindex="-1" data-open="logos">Full entry →</button></span></span>, God's own Word, and it baptized into Father, Son, and Holy Spirit. Clement and Origen say "God the Word" without embarrassment. But the precise wording was the work, and the wound, of its last years. When Arius taught that the Son was the first and highest creature, the council at Nicaea answered with <span class="lex-wrap"><button class="lex" type="button" aria-expanded="false" aria-controls="g-homoousios" aria-describedby="g-homoousios-text" data-lex="homoousios">homoousios</button><span class="lex-card" id="g-homoousios" role="note"><span class="word">homoousios</span><span id="g-homoousios-text">"Of one substance": the word the council at Nicaea used to say the Son is fully God, not a creature.</span> <button type="button" class="full" tabindex="-1" data-open="homoousios">Full entry →</button></span></span>: of one substance with the Father. Athanasius's account of the council is explicit that no new God was voted in. The fathers reached for a word not found in scripture for one reason: every scriptural phrase had been swallowed by the other side with a private meaning of its own. "Trinity" as later textbooks define it lies mostly beyond this world's time. What this world holds is the worship, the baptismal formula, and the fought-for conviction that only God can join us to God.<span class="sidenote" role="note"><b>Source.</b> Athanasius, <i>De Decretis</i> 19–21; Origen, <i>Commentary on John</i> I–II. Record: <code>alx.dw.was-jesus-god</code>, confidence Widely Accepted.</span></p>
+          <p data-copy="record">Was there room for doubt? This world's teachers built their whole method on questions. Clement insisted that faith is the foundation and not the ceiling. The believer is meant to grow from faith into understanding, and growing means asking. Origen's rule was blunter still. What the apostles delivered plainly is fixed. Everything else is open ground, and walking that ground - asking, testing, being wrong, correcting - is how a soul is actually formed. Doubt aimed at understanding was not treated as sin. It was treated as hunger. What this world did not have is the modern language of a private crisis of faith. Its doubters stood inside a praying community. They questioned inside the rule of faith, and they were expected to bring the question to a teacher rather than carry it alone. And when whole congregations doubted the received reading - the villages of the Arsinoite district - the bishop's answer was three days of open argument, not a condemnation.<span class="sidenote" role="note"><b>Source.</b> Clement, <i>Stromateis</i> II, V; Origen, <i>De Principiis</i>, preface; Eusebius, <i>Historia Ecclesiastica</i> VII.24. Record: <code>alx.dw.doubt</code>, confidence Widely Accepted.</span></p>
+        </div>
+      </section>
+
+      <!-- 5. THE RECORD — the finding aid, one screen deep. Shortened: no
+           reviewer's brief exists for this tradition (ruling 36), so no
+           sources table, no gravities, no contested-ground list, and no
+           four press questions — omitted, not paraphrased, per the
+           storyboard's own rule for a no-brief page. -->
+      <section id="record" aria-labelledby="record-title" tabindex="-1">
+        <p class="eyebrow" data-copy="draft">The record behind the voice</p>
+        <h2 id="record-title" data-copy="draft">What he is built from, and how much of it can be trusted</h2>
+        <div class="reading">
+          <p class="record-intro" data-copy="draft">Everything above is drawn from here. What follows is the record's own account of itself: what the tradition is, whose words survive, what the reconstruction rests on, and where independent review of it stands.</p>
+
+          <h3 id="scope">What this tradition is</h3>
+          <p data-copy="census">Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the shape the city gave everything else — a school. Teachers received enquirers, catechumens preparing for baptism, and educated pagans curious about this new philosophy, and walked them through Scripture as a text with a surface and a depth: the letter first, then the moral sense, then the spiritual meaning that opens onto the Logos himself. Clement wrote for cultivated Greeks who wanted to know whether a Christian could keep his learning. Origen, who succeeded him, produced a staggering body of commentary and the Hexapla, a six-column parallel edition of the Old Testament assembled to see what the Hebrew actually said — before falling out with his bishop and moving his teaching to Caesarea around 231. Historians still argue about how formal the whole thing was. Whether Alexandria really had one continuous institution with a succession of appointed heads, as Eusebius later described it, or a looser sequence of private Christian schools whose teachers happened to be remembered together.</p>
+
+          <h3 id="voices">Voices in the record</h3>
+          <ul class="voices" data-copy="census">
+            <li><strong>Pantaenus</strong> — the earliest teacher named in the tradition, remembered as a converted Stoic philosopher</li>
+            <li><strong>Clement of Alexandria</strong> — wrote for educated Greeks, arguing that philosophy had been a tutor leading toward Christ</li>
+            <li><strong>Origen</strong> — the tradition's towering figure: commentator, textual scholar, and the first Christian to attempt a systematic account of the faith</li>
+            <li><strong>Dionysius of Alexandria</strong> — Origen's student, later bishop, who steered the Egyptian church through persecution and plague</li>
+            <li><strong>Didymus the Blind</strong> — blind from early childhood, taught in Alexandria for decades and was consulted by Jerome and Rufinus</li>
+          </ul>
+
+          <h3 id="sources">What it rests on</h3>
+          <p data-copy="census">The record's own one-line assessment: <em>Rich (Clement, Origen); the school-institution question is live scholarship.</em></p>
+
+          <h3 id="confidence">Confidence</h3>
+          <p data-copy="draft">Every term and story in this record carries one of five labels, strongest to weakest — the same five words you will meet inside the conversation, never adjusted for who is asking.</p>
+          <div class="legend" aria-label="The five confidence levels">
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor"/></svg>Documented</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3 A9 9 0 1 1 3 12 L12 12 Z" fill="currentColor"/></svg>Widely Accepted</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/></svg>Dominant Modern Reconstruction</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3 A9 9 0 0 1 21 12 L12 12 Z" fill="currentColor"/></svg>Contested</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="3 2.5"/></svg>Inferential / Thin</span>
+          </div>
+          <div class="floornote">
+            <p class="label" data-copy="draft">Where it stands on the Creed — the census's floor note</p>
+            <p data-copy="census">Nothing in this tradition's confession diverges from the doctrine the Nicene Creed later stated. Some of Origen's more speculative proposals — about the pre-existence of souls and the final restoration of all things — were disputed in his own lifetime and formally condemned by a church council three centuries after his death.</p>
+          </div>
+
+          <h3 id="legacy">Legacy, and where to stand today</h3>
+          <p data-copy="census">The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became the dominant Christian approach for over a millennium, in the East and West alike. Origen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so. The tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary.</p>
+
+          <h3 id="review">Review status</h3>
+          <dl class="status-grid" data-copy="draft">
+            <div><dt>Internal review</dt><dd>Each of the ten build steps was review-gated. Revision is expected, and recorded.</dd></div>
+            <div><dt>External academic review</dt><dd>Not yet begun. No reviewer's brief exists yet for this tradition; one is a prerequisite before outside review can start.</dd></div>
+          </dl>
+          <p class="voice-note" style="margin-top:1rem" data-copy="draft">If this is your field: <a href="mailto:info@churchinconversation.com?subject=Academic%20review%20%E2%80%94%20Alexandrian%20Christianity">info@churchinconversation.com</a>. And the live test: ask Theon what he cannot know, and see whether he answers like a witness.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<!-- The chair, filled, after the record. -->
+<section class="door" aria-labelledby="door-title">
+  <p class="eyebrow" data-copy="draft">The Table</p>
+  <h2 id="door-title" data-copy="protected">Come and join us at the Table</h2>
+  <p data-copy="draft">You have read what Theon is built from, where it is thin, and what he will not claim. The chair has been pulled out the whole time.</p>
+  <div class="actions">
+    <a class="btn" id="door-begin" href="https://cic-engine.onrender.com/?worlds=alexandria-catechetical&amp;mode=interview" data-app data-ask>Begin a conversation with Theon</a>
+    <a class="btn quiet" id="door-bring" href="../table.html?worlds=alexandria-catechetical">Bring Theon to the Table</a>
+  </div>
+  <p class="also" data-copy="live">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+  <p class="also"><a href="../index.html#who">The other six chairs →</a></p>
+</section>
+
+<!-- Level 3: one panel, filled from the entry that was clicked. -->
+<aside class="panel" id="lexPanel" aria-labelledby="lexPanelTitle" tabindex="-1">
+  <button class="close" id="lexPanelClose" type="button" aria-label="Close entry">&times;</button>
+  <p class="kicker">Lexicon · Alexandrian Christianity</p>
+  <h2 id="lexPanelTitle"></h2>
+  <p class="plain" id="lexPanelPlain"></p>
+  <div id="lexPanelBody"></div>
+  <p class="src" id="lexPanelSrc"></p>
+</aside>
+
+<!-- Entry text: the plain meaning is the term record's own; the fuller entry
+     is drafted from the record's sources and is marked as such. -->
+<template id="lex-logos"><h3>Logos</h3><p class="plain">The Word: God's own reason and speech, through whom all things were made, and who became flesh in Jesus.</p><p>John's Gospel opens with the Word, not with Scripture — the one through whom everything was made, who then "became flesh." This tradition, heir to a city where "logos" already meant the divine reason ordering the world, built its whole account of God, Scripture, and creation on that identification: the center this world's faith turns on, attested across its major teachers alike.</p><p class="src">Plain meaning: the record's own (<code>alx.term.logos</code>, confidence Widely Accepted). Fuller entry: draft. Sources: Origen, <i>Commentary on John</i> I–II; Clement, <i>Protrepticus</i> I.</p></template>
+<template id="lex-homoousios"><h3>homoousios</h3><p class="plain">"Of one substance": the word the council at Nicaea used to say the Son is fully God, not a creature.</p><p>The word is not in Scripture, and that was the objection raised against it at the time — a genuine controversy this record keeps visible rather than smoothing over. The council reached for it anyway because, in its own account, every scriptural phrase offered had already been accepted by the other side with a private meaning of its own; a non-scriptural word was the only way to close the loophole. What was defended, on this tradition's own telling, was not a formula but a conviction: only God can join us to God.</p><p class="src">Plain meaning: the record's own (<code>alx.term.homoousios</code>, confidence Widely Accepted). Fuller entry: draft. Sources: Athanasius, <i>De Decretis</i> 19–21.</p></template>
+
+<footer class="site-footer">
+  <div class="row">
+    <span data-copy="live">&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="../about.html">About</a>
+      <a href="../pilot-feedback.html">Feedback</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
+var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
+Array.prototype.forEach.call(document.querySelectorAll('a[data-app]'), function(a){
+  a.href = a.href.replace('https://cic-engine.onrender.com', APP);
+  a.addEventListener('click', function(){ try { localStorage.setItem('cic-returning','1'); } catch(e){} });
+});
+try { if (localStorage.getItem('cic-returning') === '1') document.getElementById('side-door').hidden = false; } catch(e){}
+
+// A question carried from the homepage: read the fragment (design record
+// §5.1 — decode in try/catch, trim, cut to 280, textContent only), show the
+// held block, and carry it onto both of this page's conversation links.
+Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){ a.dataset.hrefBase = a.href; });
+function readHash(){
+  var h = window.location.hash;
+  if (h.indexOf('#q=') !== 0) return '';
+  var text;
+  try { text = decodeURIComponent(h.slice(3)); } catch(e){ return ''; }
+  return text.trim().slice(0, 280);
+}
+var heldText = readHash();
+if (heldText) {
+  document.getElementById('held-q').textContent = heldText;
+  document.getElementById('held').hidden = false;
+  document.getElementById('held-edit').href = '../index.html#q=' + encodeURIComponent(heldText);
+  try { history.replaceState(null, '', '#q=' + encodeURIComponent(heldText)); } catch(e){}
+  Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){
+    a.href = a.dataset.hrefBase + '#q=' + encodeURIComponent(heldText);
+  });
+}
+
+// On-this-page links: with JS, scroll by script and leave the hash alone;
+// without it, a plain anchor jump.
+Array.prototype.forEach.call(document.querySelectorAll('a[data-jump]'), function(a){
+  a.addEventListener('click', function(e){
+    var target = document.getElementById(a.getAttribute('href').slice(1));
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({block:'start'});
+    target.focus({preventScroll:true});
+  });
+});
+
+// Lexicon grammar — hover/focus = Level 2 (CSS); click/Enter = Level 3.
+var panel = document.getElementById('lexPanel');
+var closeBtn = document.getElementById('lexPanelClose');
+var titleEl = document.getElementById('lexPanelTitle');
+var plainEl = document.getElementById('lexPanelPlain');
+var bodyEl = document.getElementById('lexPanelBody');
+var srcEl = document.getElementById('lexPanelSrc');
+var lastFocus = null;
+var coarse = window.matchMedia('(hover: none)').matches;
+function collapseAll(){ Array.prototype.forEach.call(document.querySelectorAll('.lex[aria-expanded="true"]'), function(o){ o.setAttribute('aria-expanded','false'); }); }
+function openPanel(key, from){
+  var tpl = document.getElementById('lex-' + key);
+  if (!tpl) return;
+  var frag = tpl.content.cloneNode(true);
+  titleEl.textContent = frag.querySelector('h3').textContent;
+  plainEl.textContent = frag.querySelector('.plain').textContent;
+  srcEl.innerHTML = frag.querySelector('.src').innerHTML;
+  bodyEl.innerHTML = '';
+  Array.prototype.forEach.call(frag.querySelectorAll('p:not(.plain):not(.src)'), function(p){ bodyEl.appendChild(p); });
+  lastFocus = from;
+  collapseAll();
+  panel.classList.add('open');
+  closeBtn.focus();
+  document.addEventListener('keydown', onKey);
+}
+function closePanel(){
+  panel.classList.remove('open');
+  document.removeEventListener('keydown', onKey);
+  if (lastFocus) lastFocus.focus();
+}
+function onKey(e){ if (e.key === 'Escape') closePanel(); }
+closeBtn.addEventListener('click', closePanel);
+Array.prototype.forEach.call(document.querySelectorAll('.lex'), function(btn){
+  btn.addEventListener('click', function(){
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    if (coarse && !expanded) { collapseAll(); btn.setAttribute('aria-expanded','true'); return; }
+    openPanel(btn.getAttribute('data-lex'), btn);
+  });
+  if (!coarse) btn.addEventListener('focus', function(){ collapseAll(); btn.setAttribute('aria-expanded','true'); });
+});
+Array.prototype.forEach.call(document.querySelectorAll('.lex-wrap'), function(wrap){
+  wrap.addEventListener('focusout', function(e){ if (!e.relatedTarget || !wrap.contains(e.relatedTarget)) wrap.querySelector('.lex').setAttribute('aria-expanded','false'); });
+});
+Array.prototype.forEach.call(document.querySelectorAll('.lex-card .full'), function(b){
+  b.addEventListener('click', function(){ openPanel(b.getAttribute('data-open'), b.parentNode.previousElementSibling); });
+});
+document.addEventListener('click', function(e){ if (!e.target.closest('.lex-wrap')) collapseAll(); });
+})();
+</script>
+</body>
+</html>

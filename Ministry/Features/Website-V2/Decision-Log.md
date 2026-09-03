@@ -1686,3 +1686,160 @@ V2 door-count paragraph updated to drop the conditional);
 stale tradition-page copy rows brought in line with what shipped, and
 §2a's two open items resolved to rulings). No code changed — both
 rulings confirm behavior already built.
+
+---
+
+## 2026-09-03 (later still) — D4 Increment 3: Theon's tradition page built
+
+**Built:** `cic-website/traditions/alexandria-catechetical.html` — the
+second instance of the §2 template (Chloe's page is the reference), for
+Alexandrian Christianity / Theon. Homepage's Theon chair gains its
+second action, "His record →" (§1.3h: present once a tradition's page
+exists), matching Chloe's own pattern exactly. This is a genuinely
+different instance, not a copy-and-rename: Alexandria has no reviewer's
+brief (ruling 36) and a one-sentence guard field, both of which reshape
+real sections of the template rather than just swapping names and
+colors — set out below rather than left implicit.
+
+**Sourced entirely from the record, verified before writing, not
+assumed by analogy to Chloe's page.** Read `records/worlds.yaml`,
+`cic-website/data/world-census.json`'s `alexandria-catechetical` entry,
+and all 192 records under `records/alx/` (a background research pass
+read every file directly and reported exact paths and verbatim text,
+which this build then used and cross-checked, rather than trusting
+summary). Every quoted sentence on the page traces to a specific record
+id, exactly as the template requires.
+
+**Two real content-shape differences from Chloe's page, both
+source-driven, not editorial shortcuts:**
+
+- **Three silences, not five.** Alexandria's own `honest_limit` count is
+  3 (`alx.limit.f5-women-own-words`, `alx.limit.marriage`,
+  `alx.limit.material-remains`), confirmed against the record store
+  directly and against the storyboard's own tracking table (§2, "the
+  seven instances" row for `alx`). Chloe's fifth "quiet" item — "One
+  voice, under guard" — is built from the *second* sentence of her
+  voice's own `guard` field, which for her is two sentences: a fleet-wide
+  floor line, then a world-specific one naming Ignatius's own testimony
+  under armed guard. Checked Alexandria's own guard field
+  (`alx.voice.craft`) directly: it is **one sentence only** — the same
+  fleet-wide floor line ("Honest thinness beats invented depth,
+  absolutely.") — with no second, world-specific sentence to draw an
+  analogous item from. Inventing one, or repurposing an unrelated record
+  to fill that slot, would be exactly the "invented prose" the
+  template's own content-source rule forbids. Three silences ship; the
+  page does not gesture at a fourth.
+- **The record section (§2.8) ships shortened**, per the storyboard's
+  own already-written rule for a no-brief tradition (§2, the paragraph
+  under "the seven instances" table; ruling 36): no sources table
+  (§2.8e's table specifically — the census's own one-line sourcing
+  assessment stays), no "What organizes it" gravities H3 (§2.8f, cut
+  whole), no "Where this record is contested" H3 (§2.8h, cut whole), no
+  four press questions (§2.8k's second half). The confidence legend
+  (§2.8g) stays: it explains a vocabulary the page's own witness texts
+  already use ("confidence Widely Accepted"), independent of whether a
+  contested-ground list sits beside it. The review-status sub-section
+  (§2.8k) keeps its internal-review line and its contact/live-test line,
+  with "a reviewer's brief is on file" replaced by an honest statement
+  that none exists yet — confirmed directly against
+  `Ministry/Scholarly-Review/`: no `CiC_WorldBrief_Alexandria*` file of
+  any kind. A Facilitation Brief does exist for this tradition
+  (`World-Builds/Alexandria-Catechetical-School/Alexandria_Facilitation_Brief_v1_0.md`)
+  but is a different, non-reviewer artifact by its own header ("Article
+  31 external scholarly review outstanding") and was not treated as
+  §2.8 source material, per the storyboard's own explicit warning
+  against that substitution.
+
+**The eight "Questions people bring" ship whole — no ruling-3-style
+held-back subset, because none exists for this tradition.** Chloe's page
+held back three of seven candidate questions pending ruling 3's
+clearance. Alexandria has no equivalent gate: its current-schema
+`records/alx/demonstration/*.md` files (8 of them) are this tradition's
+own instances of the shared cross-tradition canon — confirmed by their
+own `canon_question_id` fields (e.g. `_fleet.canon.f6-p-06`) and, more
+directly, by `alx.demo.woman-authority`'s question text matching Chloe's
+own shipped fourth question almost verbatim ("You've told me what
+women's days were like — but could a woman carry real authority among
+you, and what did it cost her?") — independent confirmation these are
+the same canon pool, not tradition-bespoke prompts. A separate, older,
+explicitly unreviewed draft file does exist
+(`World-Builds/Alexandria-Catechetical-School/Guided_Starters_V0_1_DRAFT.md`,
+literally headed "DRAFT — awaiting Mark's review. Not deployed.") — not
+used here, correctly, since quoting it would mean shipping unreviewed
+legacy content as if it were current. Only the question text and a short
+"from" sourcing line ship per the template's own pattern (mirroring
+Chloe's); the demonstration records' own full worked model answers are
+not surfaced — the visitor asks the question themselves in the room,
+nothing is pre-answered on the page. Ordered center-first (Theon's own
+"who was Jesus" question opens, per this tradition's own internal build
+convention — its file's build note literally reads "Center first ...
+the canon's own rule: admission tests the center first" — a rule this
+build followed rather than imposed), then personal and identity
+questions, closing on an institutional/historical question (the
+Arsinoite dispute), echoing the shape of Chloe's own set without copying
+its specific order.
+
+**"In his own words" — two `doctrinal_witness` texts**, both
+`confidence Widely Accepted`, both structural mirrors of Chloe's own
+choice: `alx.dw.was-jesus-god` (rich in lexicon terms — carries "Logos"
+and "homoousios" as its own words, glossed inline) as the doctrinal
+anchor, `alx.dw.doubt` (zero lexicon terms, exactly like Chloe's own
+second text) for the register shift toward doubt. Two Level-3 lexicon
+entries built from the terms' own record fields (`alx.term.logos`,
+`alx.term.homoousios`) — plain meaning verbatim from the record, fuller
+entry drafted from the same record's `informational`/`evidential`
+senses, each ending with its real sources (Origen's *Commentary on John*
+and Clement's *Protrepticus* for Logos; Athanasius's *De Decretis* for
+homoousios) — not the four terms Chloe's page has, because only these
+two occur as the terms' own words inside the two chosen texts; forcing
+a third or fourth where the text doesn't actually use that word would
+have been the same invented-match error as the guard-field question
+above.
+
+**Portrait caption drafted from the actual image**, not assumed: viewed
+`assets/portraits/alexandria.png` directly (an older man, close-cropped
+grey hair, plain tunic, pointing to Greek text on a held scroll, against
+a warm neutral ground) before writing the alt text and caption, the same
+discipline the hybrid used for Chloe's.
+
+**One data discrepancy surfaced, not resolved here:** `records/worlds.yaml`
+sets `living_tradition_flag: true` (the Coptic Orthodox Church named as
+this tradition's living heir, per Mark's 2026-07-17 ruling), while
+`cic-website/data/world-census.json`'s own `alexandria-catechetical`
+entry carries `"living": false`. The page does not depend on this flag
+either way — it makes no "still practiced today" claim, and (unlike
+Chloe's page) has no `experienceToday` links to hang one on, since the
+census entry has none. Flagging it for the build thread rather than
+silently picking a side.
+
+**Verified locally** (headless Chromium): zero horizontal overflow
+320–1440px including the 1099/1100px sidenote-float breakpoint; heading
+outline H1 → H2 → H2 (H3×3) → H2 → H2 → H2 (H3×6) → H2, no skipped
+levels — six H3s under the record section, not eight, correctly
+reflecting the two cut sub-sections; exactly 8 question links and 3
+silences, both counted directly; the no-brief omissions confirmed
+absent by selector (`table.srcs`, the gravities list, and the contested
+heading all return zero matches; `ol.press` returns zero); the held-
+question flow re-tested fresh (a new browser context, not a same-
+document hash navigation, which doesn't re-run the page's script) —
+held block renders, all four conversation links gain `#q=`; the lexicon
+grammar re-tested end to end for both terms — hover shows the Level-2
+card, click opens the Level-3 panel with focus moved to its close
+button and the correct term's content, Escape closes it and returns
+focus to the term, a second term opens its own distinct entry; the
+44px hit-area's `::before` pseudo-element confirmed at 44px computed
+height (the mechanism is unchanged from Chloe's page, already verified
+there by coordinate-offset clicks — not re-run bit-for-bit here since
+nothing about it changed); no-JS confirmed via `javaScriptEnabled: false`
+— `no-js` class never flips, all 8 questions present, the "Full entry"
+control absent, the panel stays `visibility:hidden`; zero
+`target="_blank"` anywhere on the page; the homepage's new "His record →"
+link verified end to end, including that it actually navigates and
+lands on the correct H1.
+
+**Open, unchanged by this increment:** ruling 34 (the app-side `#q=`
+change order); the five remaining tradition pages, each gated on ruling
+4 and, for three of them (Cappadocia, Church and Empire, plus Alexandria
+now shipped in the shortened state), the same no-brief record-section
+shortening applied here; the living/no-living census discrepancy noted
+above, not yet resolved.
