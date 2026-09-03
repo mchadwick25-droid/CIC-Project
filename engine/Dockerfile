@@ -63,6 +63,20 @@ RUN pip install --no-cache-dir -r engine/api/requirements.txt -r engine/m1/requi
 COPY engine/ engine/
 COPY records/ records/
 COPY packages/ packages/
+# Two engine/m1/gates.py checks (gate_edition_rights_consistency, gate_
+# canonical_address) read cic/texts/<file> straight off disk to confirm a
+# record's cited edition/address actually resolves - _TEXTS_DIR there is
+# repo-root-relative, not records_root-relative, so restore below silently
+# sees every real citation as "does not exist" without this. Missing here
+# was harmless until those two gates existed (2026-09-02/09-03): nothing
+# else this image builds or serves reads cic/texts/, so the restore step
+# was the first thing to ever notice the absence - as a validation/gates-
+# report.json mismatch on every world except fix (whose only edition
+# reference is a deliberately-nonexistent fixture path, already accounted
+# for in its own pinned report). cic/corpus-map/ and cic/engine/ (staging
+# files and build-time tooling, not read by anything at runtime) are
+# deliberately left out.
+COPY cic/texts/ cic/texts/
 
 # Compiled world packages are DERIVED, not source (see .gitignore) — a
 # clean checkout carries only records/, records/worlds.yaml, and each
