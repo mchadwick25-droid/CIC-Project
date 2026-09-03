@@ -104,6 +104,16 @@ svg#world{display:block;overflow:visible}
   :root:not([data-theme="light"]) .river-organic{mix-blend-mode:lighten}}
 :root[data-theme="dark"] .river-calm,
 :root[data-theme="dark"] .river-organic{mix-blend-mode:lighten}
+.river-group{cursor:pointer}
+.river-group:focus-visible{outline:none}
+/* Nodes and edges each carry their own hover/focus indicator; a river had
+   none at all -- hovering or Tab-ing to one changed nothing, so there was no
+   visible sign it was interactive (or that it responded when it was). A thin
+   ink outline on whichever phase (calm/organic) is currently shown, same
+   trigger for mouse and keyboard alike since this is plain CSS. */
+.river-group:hover .river-calm,.river-group:hover .river-organic,
+.river-group:focus-visible .river-calm,.river-group:focus-visible .river-organic{
+  stroke:var(--iron-gall);stroke-width:1.5}
 .node{cursor:pointer}
 /* The browser's default focus ring outlines the whole <g>'s bounding box --
    which now includes the label text, so it'd draw a rectangle stretching
@@ -149,6 +159,11 @@ svg#world{display:block;overflow:visible}
 #panel ul.voices,#panel ul.exptoday{margin:.3rem 0;padding-left:1.1rem}
 #panel ul.voices li,#panel ul.exptoday li{font-size:.88rem;line-height:1.5;margin:.25rem 0}
 #panel ul.exptoday a{color:var(--tyrian)}
+/* A river's own panel lists its member movements as in-app jumps, not real
+   URLs -- a <button> styled to read as a link, so it still gets a real click
+   target and Enter/Space for free instead of reimplementing that on a <span>. */
+#panel .panel-link{background:none;border:none;padding:0;font:inherit;
+  color:var(--tyrian);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
 #legend{position:fixed;left:.8rem;bottom:.8rem;z-index:20;background:var(--vellum);
   border:1px solid var(--rule);border-radius:3px;padding:.5rem .7rem;font-size:.72rem;
   max-width:230px;max-height:60vh;overflow-y:auto;box-shadow:var(--shadow)}
@@ -20336,7 +20351,35 @@ function render(){
     const calm=el('path',{d:riverPath(k,0), fill:col, opacity:RIVER_CALM_OP, class:'river-calm'});
     const organic=el('path',{d:riverPath(k,1), fill:col, opacity:RIVER_ORGANIC_OP, class:'river-organic'});
     calm.dataset.lane=k; organic.dataset.lane=k;
-    gRivers.appendChild(calm); gRivers.appendChild(organic);
+    // Nodes and edges both open a panel and show a tooltip on hover/focus; a
+    // river -- the thing the whole map is named for -- did neither. One group
+    // per lane (not tabindex on each phase-path) keeps the river a single Tab
+    // stop and a single hover target regardless of which phase is showing.
+    const members=DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);
+    const years=members.map(m=>m.start);
+    const riverTip=tipForRiver(f,members.length,Math.min(...years),Math.max(...years));
+    const group=el('g',{class:'river-group',tabindex:'0',role:'button',
+      'aria-label':`${f.lbl} river, ${members.length} movements`});
+    group.appendChild(calm); group.appendChild(organic);
+    group.addEventListener('mouseenter',(ev)=>showTip(ev,riverTip));
+    group.addEventListener('mousemove',(ev)=>positionTip(ev));
+    group.addEventListener('mouseleave',hideTip);
+    group.addEventListener('focus',()=>{
+      // A river's own bounding box can run the full height of the canvas --
+      // far taller than the viewport at any real zoom -- so its geometric
+      // center is routinely off-screen. Clamp the anchor into view instead
+      // of anchoring someplace the user isn't looking.
+      const r=group.getBoundingClientRect();
+      const x=Math.max(0,Math.min(window.innerWidth,(r.left+r.right)/2));
+      const y=Math.max(60,Math.min(window.innerHeight-60,(r.top+r.bottom)/2));
+      showTipAt(x,y,riverTip);
+    });
+    group.addEventListener('blur',hideTip);
+    group.addEventListener('click',()=>openPanelRiver(f,members));
+    group.addEventListener('keydown',(ev)=>{
+      if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanelRiver(f,members);}
+    });
+    gRivers.appendChild(group);
   });
 
   // Edges -- quiet marks, confidence in the line, never a claim the census doesn't carry.
@@ -20621,6 +20664,9 @@ function tipFor(m){
 function tipForEdge(edg,a,b){
   return `<div class="n">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
 }
+function tipForRiver(f,count,minYear,maxYear){
+  return `<div class="n">${esc(f.lbl)}</div><div class="m">${count} movements · ${minYear}–${maxYear}</div>`;
+}
 
 /* ---- Tooltip (hover = short) ---- */
 const tip=document.getElementById('tip');
@@ -20701,6 +20747,22 @@ function openPanelEdge(edg,a,b){
   panelBody.innerHTML=`<h2 id="panelTitle">${esc(a.shortName||a.name)} ↔ ${esc(b.shortName||b.name)}</h2>
     <p class="meta">${esc(edg.type)} · ${esc(edg.confidence)}</p>
     <p>${esc(edg.note)}</p>`;
+  showPanel();
+}
+function openPanelRiver(f,members){
+  hideTip();
+  let h=`<h2 id="panelTitle">${esc(f.lbl)}</h2>`;
+  h+=`<p class="meta">${members.length} movement${members.length===1?'':'s'} · ${members[0].start}–${members[members.length-1].start}</p>`;
+  // Each member reopens THIS same panel on its own record -- a way to drill
+  // from "the whole river" down to one movement without leaving the panel,
+  // instead of a dead end at a bare member list.
+  h+=`<h3>Movements in this river</h3><ul class="voices">${members.map(m=>
+    `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(m.dates)}</li>`
+  ).join('')}</ul>`;
+  panelBody.innerHTML=h;
+  panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
+    btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
+  });
   showPanel();
 }
 // Neither trigger (a click, or Enter/Space on a node's own keydown handler)
@@ -20811,8 +20873,12 @@ function applyDetail(){
   const organic = scale>DETAIL_THRESHOLD;
   if(organic===lastOrganic)return; // every wheel/pinch tick calls this; skip the DOM writes when nothing crossed the threshold
   lastOrganic=organic;
-  document.querySelectorAll('.river-calm').forEach(p=>p.style.opacity=organic?0:RIVER_CALM_OP);
-  document.querySelectorAll('.river-organic').forEach(p=>p.style.opacity=organic?RIVER_ORGANIC_OP:0);
+  // pointer-events follows opacity, not just visually hidden: an SVG shape
+  // at opacity:0 is still hit-tested by default, so without this the HIDDEN
+  // phase's own (differently-shaped) outline kept responding to hover --
+  // whichever phase is actually on screen should be the only one that does.
+  document.querySelectorAll('.river-calm').forEach(p=>{p.style.opacity=organic?0:RIVER_CALM_OP;p.style.pointerEvents=organic?'none':'auto';});
+  document.querySelectorAll('.river-organic').forEach(p=>{p.style.opacity=organic?RIVER_ORGANIC_OP:0;p.style.pointerEvents=organic?'auto':'none';});
   document.querySelectorAll('#nodes .lbl').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('#nodes .portrait-plate').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('.edge-line').forEach(p=>{
