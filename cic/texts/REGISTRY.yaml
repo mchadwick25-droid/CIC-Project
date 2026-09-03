@@ -932,3 +932,19 @@
     date). Pahc's outside-pagan-witness control on the Neronian persecution narrative, alongside
     the Lucian and Suetonius material. Already cited by four pahc records before this row
     existed.
+- filename: nestle1904_greek-new-testament-grc.txt
+  supplied_by: Mark
+  date_added: '2026-09-03'
+  notes: >-
+    First original-language witness vendored under Mark's 2026-09-02 sourcing ruling
+    (cic/texts/INTAKE.md). Not corpus-map assigned - Scripture stays outside the
+    Atlas-entry assignment system by design, the same treatment
+    webbe_world-english-bible-british-edition.xml already has (zero corpus-map rows).
+    A second witness for cross-checking a specific Greek reading against the English
+    Bible a world's own source records actually cite - never primary evidence for a
+    Representative on its own. Replaces a Tischendorf editio octava critica maior scan
+    Mark attached first, whose OCR was corrupted badly enough (including in its own
+    critical apparatus) to fail this project's verified-direct standard; this Nestle
+    1904 transcription is born-digital, not OCR, and every one of its 27 books' chapter
+    counts was checked against its independently known canonical count before this
+    file was written.
