@@ -159,8 +159,10 @@ svg#world{display:block;overflow:visible}
   text-transform:uppercase;cursor:pointer;padding:.15rem 0;width:100%;text-align:left}
 #legend .row{display:flex;align-items:center;gap:.4rem;margin:.15rem 0}
 #legend i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+#legend .linekey{width:26px;height:10px;flex:none;display:inline-block}
 #legend .cap{font-family:"Alegreya Sans",sans-serif;font-size:.68rem;letter-spacing:.08em;
   text-transform:uppercase;color:var(--gold-leaf);margin-bottom:.3rem;display:block}
+#legend .note{font-size:.68rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:190px;text-align:right}
@@ -186,8 +188,10 @@ svg#world{display:block;overflow:visible}
   ten era bands sized by density and thirteen tradition-family rivers that wind and
   widen by real density, drift toward lanes they're documented as contemporary with
   and away from ones they argued against or stood in tension with, with generalization
-  by zoom and participant-only pan/zoom. Built &amp; Live worlds carry their actual
-  Representative's portrait, framed in that world's own accent color.
+  by zoom and participant-only pan/zoom. The thin lines crossing between worlds are
+  those same 69 edges, dashed by how confidently each is sourced (see the legend) —
+  hover or click one for which kind of link it is. Built &amp; Live worlds carry
+  their actual Representative's portrait, framed in that world's own accent color.
   <b>Deliberately not in this rough pass:</b> gravity-linked color shifts, absorption
   blending &mdash; real proposed rules, just not built here yet.
   Drag to pan, scroll/pinch to zoom, hover a mark for a glimpse, click for the full
@@ -20755,6 +20759,19 @@ function buildLegend(){
   // family" honestly instead of asserting one.
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   rows+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
+  // The thin lines between worlds carry two things the map never spelled out
+  // anywhere: the dash pattern is the census's own confidence rating for
+  // that specific connection, and the line itself only says a documented
+  // relationship exists -- not which of the five kinds it is (formed,
+  // transmitted to, argued against, contemporary with, in tension with).
+  // Same-color-same-width by design (rule: a claim's TYPE isn't a claim
+  // about how sure anyone is of it), so that distinction is legend-only.
+  rows+='<span class="cap" style="margin-top:.5rem">Connections</span>';
+  const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
+  rows+=`<div class="row">${lineKey()}Documented</div>`;
+  rows+=`<div class="row">${lineKey('6,3')}Widely accepted</div>`;
+  rows+=`<div class="row">${lineKey('2,3')}Contested</div>`;
+  rows+=`<div class="note">Hover or click a line for which of the five it is — formed, transmitted to, argued against, contemporary with, or in tension with.</div>`;
   wrap.innerHTML=`<button id="legendToggle" type="button">Legend &#9662;</button><div class="rows">${rows}</div>`;
   document.getElementById('legendToggle').addEventListener('click',()=>{
     const open=wrap.classList.toggle('collapsed');
