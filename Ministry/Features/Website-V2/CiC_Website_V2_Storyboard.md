@@ -355,17 +355,33 @@ same day, not left open.
 ### 1.6 Church in History — one link
 
 **2026-09-03 change order: merged with the Table teaser into two
-picture-led "portal" cards, side by side from 760px, stacked below.**
+picture-led "portal" cards, full width, stacked (Atlas over Table).**
 Each is one `<a>` wrapping an image, then an eyebrow, an H2, a short
-paragraph, and a CTA line — click anywhere on the card. Ruling 23 ("no
-map band") was about not building a new interactive map widget into the
-homepage before the Atlas rework lands; a static screenshot linking out
-to the real, already-shipped Atlas isn't that — it's a picture of a page
-that already exists, not new palette debt.
+paragraph, and a CTA line — click anywhere on the card. Mark's own call
+after seeing both laid out: side by side at half-width, the Atlas image
+read as a blurry smudge — full width was the only way the picture
+actually did its job. Ruling 23 ("no map band") was about not building
+a new interactive map widget into the homepage before the Atlas rework
+lands; a static image linking to the shipped Atlas isn't that.
+
+**Portal 1's image is not a screenshot of the live `atlas-v3.html`.**
+It's a captured frame of `river-prototype.html`, the in-progress
+visual-language rework on the separate `claude/atlas-game-grade-
+visuals` branch (Ministry/Features/Atlas-World-Map/Design/) — flowing
+colored "rivers" per tradition family instead of the shipped page's
+straight boxed lines. Mark named that branch directly ("the new sandbox
+version we are building") and separately corrected the era-band
+background from that branch's own tan/sage/blue tri-tone to plain
+white — a design decision made in conversation, not yet committed to
+that branch's own file, applied here only to the captured image. The
+portal's CTA still links to `atlas-v3.html`, the page that actually
+ships today; the picture is deliberately ahead of what a click currently
+lands on. That gap is a known, chosen thing, not an oversight — worth
+closing when the rework itself ships, not before.
 
 | # | Element | Copy | Register |
 |---|---|---|---|
-| 1.6a | Portal 1 image — a screenshot of `atlas-v3.html`'s own Era I band, cropped to 1200×655, `assets/atlas-preview.jpg` | — | `[LIVE]` — a real screenshot of the shipped page, not a mockup |
+| 1.6a | Portal 1 image — a captured frame of the river-prototype visualization (era-band background changed from tan/sage/blue to white per Mark's correction), cropped to 1200×655, `assets/atlas-preview.jpg` | — | `[LIVE]` — real capture of an in-progress prototype, not a mockup; not what `atlas-v3.html` looks like today |
 | 1.6b | Portal 1 eyebrow | Twenty centuries on one map | `[DRAFT COPY — pending Mark's approval]` |
 | 1.6c | Portal 1 H2 | Church in History | `[LIVE — carried unchanged]` (the Atlas's own name) |
 | 1.6d | Portal 1 paragraph | More traditions are chosen and being built all the time. Christian movements across the Church's whole history are on record in the project's map — hover for a glimpse, click for depth. | `[LIVE]` — trimmed further for the card's shorter format; the "what is not yet built is still there to be read" clause moved to the What's Next line below |

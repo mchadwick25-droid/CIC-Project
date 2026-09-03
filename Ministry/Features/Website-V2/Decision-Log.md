@@ -2354,3 +2354,40 @@ horizontal scroll are pure CSS/layout, not JS-dependent — no-JS just
 means no vertical cap ever applies); both portal images load and link
 correctly (`atlas-v3.html`, `table.html`); zero comments, zero
 `data-copy` attributes.
+
+---
+
+## 2026-09-03 (later still) — Portals go full-width, stacked; the Atlas picture becomes the actual river prototype, corrected to white
+
+Mark asked for both layout options mocked up side by side before
+deciding: (A) the shipped two-column portals, (B) full-width, stacked,
+Atlas over Table. Built both as scratch mockups (not committed), using
+a fresh capture of the river-prototype visualization — from the
+separate `claude/atlas-game-grade-visuals` branch's `river-prototype
+.html`, which Mark named directly as "the new sandbox version we are
+building" — rather than the old boxed-line screenshot from
+`atlas-v3.html` used in the first pass. Comparing the two side by side
+was decisive on its own: at half-width, the river image's flowing
+colored threads read as a blur; at full width they read as intended.
+**Mark chose B**, with one correction: the prototype's own era-band
+background (alternating tan/sage/blue) is stale — "we switched to a
+white" — a design call made elsewhere, not yet committed to that
+branch's own file. Patched the era-band color array in a local capture
+only (`eraLight` → white ×3) before recapturing; nothing on the actual
+`atlas-game-grade-visuals` branch was touched, since that track stays
+out of this workstream.
+
+**Shipped, `index.html`:** `.portals` drops the 760px two-column
+breakpoint — both cards now full width (`--wide`, matching the chairs
+gallery above), stacked, gap widened to 2.5rem for the taller cards.
+`assets/atlas-preview.jpg` replaced with the white-background river
+capture (cropped and resized identically to the first pass: 1200×655,
+67KB). Alt text rewritten to describe rivers, not boxes. The CTA still
+points to `atlas-v3.html` — the page that actually ships — so the
+picture now runs ahead of what a click currently lands on. That's a
+real, known gap (documented in the storyboard's own §1.6 note), not an
+error: revisit once the rework itself ships.
+
+**Verified:** zero overflow 320–1440px; both portal cards measure full
+`--wide` width at desktop; both images load and link correctly; zero
+console errors; zero comments, zero `data-copy` attributes.
