@@ -144,13 +144,18 @@ via the corpus-map/index check above should carry the trail: a real
 discovery_helper.py or WebSearch hit, verified against the actual host,
 not a guessed URL.
 
-One thing worth knowing, not a bug: running `corpus_map_merge.py` (not
-`--check`) merges every staging file currently sitting in
-`cic/corpus-map/_staging/`, not only the one this thread just wrote —
-by design (that folder's own docstring: many workers, each owning one
-file, the merge is what collects all of it). Seeing another world's
-pending assignment appear in the merge output is that design working,
-not this thread's own mistake.
+**Use `--write-only <own-volume-token>` for this, not a plain merge
+(2026-09-03).** A plain `corpus_map_merge.py` run writes and PRUNES every
+bucket every staging file currently touches, not only the one this thread
+just wrote - correct for a deliberate, authoritative pass, but a real risk
+mid-build: it could finalize, or even delete, another world's
+still-in-progress staging file's work if that thread happens to run
+first. `--write-only anf02` (say) still reads every staging file, so the
+buckets it DOES write are still computed correctly against everyone's
+current assignments - it just restricts what actually lands on disk to
+buckets anf02's own staging file references, and skips pruning entirely.
+Run a plain, full merge only when a deliberate, whole-corpus pass is
+actually wanted (a good habit at the end of a build, not mid-flight).
 
 **G2 — Representative identity, after Doc_09.** The grounded-options
 artifact: named ROLE + NAME alternatives, an explicit trade-off each,

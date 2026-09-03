@@ -181,8 +181,13 @@ order:
    sourcing directly in Greek/Latin/Syriac as second witnesses, never as
    primary evidence), add its row to `cic/texts/REGISTRY.yaml` and assign
    the work into this world's corpus-map bucket via a
-   `cic/corpus-map/_staging/` file + `corpus_map_merge.py` — this is what
-   makes the NEXT world's step 1 above find it.
+   `cic/corpus-map/_staging/` file + `corpus_map_merge.py --write-only
+   <own-volume-token>` (2026-09-03 — a plain, unscoped merge writes and
+   PRUNES every bucket every current staging file touches, which risks
+   finalizing or deleting another world's still-in-progress staging
+   mid-build; `--write-only` still reads everything for a correct
+   picture, it just restricts what actually gets written, and skips
+   pruning) — this is what makes the NEXT world's step 1 above find it.
 6. **Cite with a canonical address where one exists** — a source row's
    `sources[].address` field (sibling to `locus`, added 2026-09-02)
    takes the exact string step 2 returns. Optional; `locus` alone still

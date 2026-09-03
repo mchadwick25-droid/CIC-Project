@@ -109,7 +109,12 @@ checklist and naming convention for original-language witnesses.
 python cic/engine/corpus_structure.py --write   # cic/texts/STRUCTURE.md — what is in each volume
 python cic/engine/atlas_targets.py              # ATLAS-TARGETS.md — where things can go
 python cic/engine/corpus_map_merge.py --check   # validate staging, write nothing
-python cic/engine/corpus_map_merge.py           # merge staging → buckets, then validate
+python cic/engine/corpus_map_merge.py --write-only <token>  # write+validate only the bucket(s)
+                                                 # <token>'s own staging file touches, no pruning -
+                                                 # use this from inside one world's own build
+                                                 # thread (2026-09-03); see merge()'s own docstring
+python cic/engine/corpus_map_merge.py           # full merge: write every bucket, prune orphans -
+                                                 # a deliberate whole-corpus pass, not a mid-build one
 python cic/engine/corpus_map.py --coverage      # what is assigned, and what is not yet
 python cic/engine/works_registry.py --check     # validate WORKS.yaml — unique work_ids, item addresses resolve
 python cic/engine/author_ids.py --check         # validate AUTHOR-IDS.yaml — well-formed Wikidata/VIAF ids
