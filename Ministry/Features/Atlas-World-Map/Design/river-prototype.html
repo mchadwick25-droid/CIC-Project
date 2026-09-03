@@ -53,7 +53,27 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 #scopeNote b{color:var(--tyrian)}
 #scopeNote button{float:right;background:none;border:none;color:var(--ink-faded);
   cursor:pointer;font-size:.9rem;line-height:1;padding:0 .2rem}
-#stage{position:absolute;inset:0;touch-action:none;cursor:grab}
+/* overflow:hidden here, not just on body -- found integrating this page onto
+   the live site under real mobile Safari/Chrome viewport rules. svg#world
+   below sets real pixel width/height attributes equal to its own viewBox
+   (CANVAS_W/CANVAS_H, comfortably past 1000px), so at rest it's genuinely
+   that many real CSS pixels wide, not scaled to fit -- the pan/zoom
+   transform on its inner <g> is what actually fits content to the screen,
+   not the SVG's own box. A mobile browser decides its LAYOUT viewport width
+   (window.innerWidth) from the widest unclipped content already in the tree
+   at first paint, before body's own overflow:hidden ever gets consulted --
+   confirmed by a real HTTP-served, real-viewport test where document.
+   documentElement.clientWidth and visualViewport.width correctly read the
+   true 390px screen while window.innerWidth read the SVG's own ~1560px
+   width instead. Anything sized as a percentage of that inflated layout
+   viewport (the fixed topbar's own 100%-wide flex children, chief among
+   them) then computes its own width against 1560px and overflows the real,
+   visual 390px screen -- which is what actually surfaced this. Clipping the
+   oversized SVG one level closer, at its own direct container, keeps it out
+   of that width calculation entirely; body's overflow:hidden was never
+   doing the wrong thing, just not close enough to prevent this specific
+   browser behavior from ever measuring the raw child in the first place.*/
+#stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
 #stage.grabbing{cursor:grabbing}
 /* The era body/break-band rects (render(), below) bleed far past the canvas's
    own edges so they cross the full screen at any pan/zoom -- but the SVG
@@ -222,6 +242,25 @@ svg#world{display:block;overflow:visible}
    unusable the moment someone zooms out -- the exact failure a fixed-size
    fix would still have. Chrome buttons just get bigger outright; a bigger
    button on a touch device is normal responsive design, not a compromise. */
+@media (max-width:640px){
+  /* Home link + h1 + tagline + Reset button don't all fit one row at phone
+     width no matter how far each shrinks -- confirmed while integrating
+     this page onto the live site, where the topbar first gained the home
+     link. An overflow-scroll fix (tried first) requires a visitor to
+     discover a hidden swipe affordance to ever reach Reset -- worse than
+     just wrapping. Letting the row wrap needs no new plumbing: both
+     positionScopeNote() and centerView()'s own chrome calculation already
+     read the topbar's real offsetHeight at runtime rather than assuming a
+     fixed height, specifically because the topbar could already need more
+     than one line -- this was that case actually arriving, not a new one.
+     The tag (decorative subtitle, redundant with the intro banner directly
+     below it) drops to its own full-width row rather than fighting the
+     real controls for space; Reset follows on a row of its own after it,
+     since home+h1+Reset together still don't fit width one row at 390px. */
+  .topbar{flex-wrap:wrap;row-gap:.2rem}
+  .topbar .tag{flex:1 1 100%;order:1}
+  .topbar button{order:2}
+}
 @media (pointer:coarse){
   .node .halo{r:calc(22 / var(--zoom-scale,1))}
   .edge-hit{stroke-width:calc(30 / var(--zoom-scale,1))}
