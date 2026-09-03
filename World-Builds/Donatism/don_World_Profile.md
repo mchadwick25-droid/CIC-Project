@@ -4,7 +4,7 @@
 **File naming convention:** `don_World_Profile.md`
 **Produced at:** Construction Step 9 (Framework V7.4 Part V/VI — Step 9 bundles the Story Inventory, the World Profile, and Validation and Testing; this document is the World Profile only, per this world's own established one-document-at-a-time discipline)
 **Required inputs:** Doc_01 through Doc_08 (all Approved to proceed), Doc_09 (Approved to proceed)
-**Feeds:** World Capsule Core, Representative Emergence (RCF v2.0 Phase One), Doc_09 Story Inventory's own ecological context (already built; this document is produced after it in this world's own sequence rather than before, per Framework V7.4's own Step 9 grouping — the L4 template's stated "Feeds: ...Doc_09 Story Inventory" ordering reflects a superseded sequencing assumption; see the Method Note below)
+**Feeds:** World Capsule Core, Representative Emergence (RCF v2.0 Phase One). The template's own "Produced at: Construction Step 8... Feeds: ...Doc_09 Story Inventory" framing reflects a superseded sequencing assumption: Doc_09's own masthead confirms "Step 9 of the Framework bundles three deliverables — the Story Inventory, the World Profile, and Validation and Testing," and this world's own Doc_09 is already built and disposed. This document is produced after Doc_09 in this world's own actual sequence, not before it.
 **Governing methodology:** `L4-Templates/World_Profile_Template.md` V1.1; Construction Framework V7.4 Step 9; Representative Construction Framework V2.0 Phase One; Constitution V2.3 Articles 20, 23, 29, 31
 **Status:** DRAFT, 2026-09-03. Not yet reviewed.
 
@@ -18,9 +18,9 @@ First, the template's own citations (Sections 3, 4) point to Doc_07 "Section 2A"
 
 Second, the template's citations to Doc_07's own top-level sections ("Section 5 — Integrative Observation," "Section 6 — Gaps and Limits") are also off by one: M4 inserted a new `§3` ("Additional Lenses") into Doc_07's structure, shifting every subsequent section down. Doc_07's actual current top-level structure is: `§1` Document Identity, `§2` Integration Lenses (`2A`–`2I`), `§3` Additional Lenses, `§4` Forces as Integration Lens, `§5` Cross-Lens Synthesis, `§6` Integrative Observation, `§7` Gaps and Limits, `§8` Open Items and Handoff.
 
-This document uses Doc_07's **actual current section numbers** throughout, not the template's stale citations. Editing the template itself is outside this build thread's own authority (`cic-build-cycle`: template editing belongs to a coach thread); this finding is disclosed here, and should be flagged to a coach thread the same way Doc_07's own analogous template-staleness finding (`Integrated_Ecology_Analysis_Template.md`) was disclosed rather than corrected unilaterally.
+This document uses Doc_07's **actual current section numbers** throughout, not the template's stale citations. This is a citation-locus correction pointing at already-approved content that already exists at those numbers, not a decision about what content this document type should contain — it does not itself require escalation, any more than fixing a stale cross-reference elsewhere in this world's build would.
 
-A related, disclosed scope decision: the template's own Section 4 names four required Ecological Summary dimensions (Emotional, Philosophical, Authority, Boundary), reflecting the pre-M4 five-lens count. Since Doc_07 actually built nine lenses under M4, Section 4 below covers all nine rather than only the four the stale template anticipates — each of the four originally-required dimensions is still explicitly present, correctly re-mapped to its current lens, and the additional five lenses (Ritual/Practical, Narrative/Mythic, Ethical/Legal, Material, and Formation Logic's own cross-lens role) are included because omitting content Doc_07 actually established, on the strength of an outdated dimension count, would leave the canonical world description thinner than the world's own build record supports.
+**A related but distinct question does require escalation, and is not resolved by this build thread: the template's own Section 4 names four required Ecological Summary dimensions (Emotional, Philosophical, Authority, Boundary), reflecting the pre-M4 five-lens count, while Doc_07 actually built nine lenses under M4.** An earlier draft of this document resolved that mismatch by build-thread judgment alone — expanding Section 4 to cover all nine lenses — and justified doing so by analogy to Doc_07 §1's own template-staleness finding. **That analogy was wrong and has been corrected here rather than left standing.** Doc_07 §1 did not merely disclose its own template mismatch; it escalated the underlying methodology question (which lens structure governs Step 7) to the project lead directly, via `AskUserQuestion`, before drafting, and proceeded only once "the project lead's direction: build this document on Smart's seven dimensions... per M4" was on record (`don_Decision_Log.md`, 2026-09-02). This document faces a comparable fork it has not yet had resolved the same way: whether an M4-era World Profile's own Ecological Summary should cover nine dimensions or four, a question with plain portfolio-wide reach (every other M4-era world's own Doc_07 will yield the identical nine-versus-four mismatch, since M4 is a portfolio-wide Change Order, not a Donatism-specific finding) — squarely the kind of decision `cic-build-cycle`'s own escalation categories name ("Portfolio-level or cross-world strategic decisions — anything decided for a reason external to this specific world's own ecology" and "Governance or methodology decisions — anything that changes how the build process itself works"). Section 4 below is retained at its full nine-lens scope pending that resolution, since the content itself is accurate and none of it needs to be un-written regardless of outcome — but this document is **not self-dispositioned** on the strength of Section 4's own current scope; see Section 10 (Disposition) below.
 
 ---
 
@@ -88,7 +88,7 @@ The canonical gravity record for this world, per Doc_04 §4's own Classification
 
 **Brief description:** Liturgical commemoration, preached sermons at martyrs' anniversaries, and communal memory-making are this world's own most directly formative, repeatedly-enacted practices. Explains the specific liturgical vocabulary (*Deo laudes*, the annual *anniversaria commemoratio*) and the persecuted-true-church self-understanding. Intensifies rather than dissipates under external pressure — each new persecution episode generates new commemorative text production.
 
-**Grounding:** Doc_01 §1; Step0 §1; Doc_02 §4, §5, §6 (rows 19, 20, 27, 48, 50); Doc_03 Cluster 3, Tier 1; Doc_04 §3.3 passes all six gravity tests (very strong); Doc_07 §2B, §2C, §2G, §3B; Doc_08 Force 2A-2, 2B-3; Doc_09 donstory001, 002, 003.
+**Grounding:** Doc_01 §1; Step0 §1; Doc_02 §4, §5, §6 (rows 19, 20, 27, 48, 50); Doc_03 Cluster 3, Tier 1; Doc_04 §3.3 passes all six gravity tests (very strong); Doc_07 §2B, §2C, §2G, §3A; Doc_08 Force 1A-1, 2A-2, 2B-3, 3B-2; Doc_09 donstory001, 002, 003.
 
 ---
 
@@ -102,7 +102,7 @@ The canonical gravity record for this world, per Doc_04 §4's own Classification
 
 **Brief description:** Living under recurring legal jeopardy while refusing to concede the state's own authority to adjudicate ecclesial legitimacy — a lived communal stance across generations, not a single act. Explains why the 313 Rome and 314 Arles rulings were rejected. This gravity's own resolution, via the 411 Conference verdict and the Vandal capture of Carthage, is what closes this world's own construction window — the most direct forces-connection of any gravity in this world's record.
 
-**Grounding:** Doc_01 §3, §5; Doc_02 §6; Doc_03 Cluster 5; Doc_04 §3.7 passes all six gravity tests (Persistence qualified by T1); Doc_07 §2E, §2H; Doc_08 Force 3A-1, 3A-2; Doc_06 donlex019 (promoted to Tier 1 during Doc_06 on the strength of this confirmed classification).
+**Grounding:** Doc_01 §3, §5; Doc_02 §6; Doc_03 Cluster 5; Doc_04 §3.7 passes all six gravity tests (Persistence qualified by T1); Doc_07 §2E, §2H; Doc_08 Force 2A-1, 3A-1, 3A-2; Doc_06 donlex019 (promoted to Tier 1 during Doc_06 on the strength of this confirmed classification).
 
 ---
 
@@ -120,7 +120,7 @@ The canonical gravity record for this world, per Doc_04 §4's own Classification
 
 **Brief description:** The institutional structure within which G1, G2, and G3 operate, not an independent source of formative content itself — two rival bishoprics from the outset, the contest replicated town-for-town. Explains the precise mechanics of the Maximianist affair (rival councils, rival consecrations) and the exact bishop-count precision of the 411 Conference (284 against 286) as two whole churches meeting, not one church and its dissidents.
 
-**Grounding:** Doc_01 §2, §3, §4; Doc_02 §1, §2; Doc_03 Cluster 4, Tier 1; Doc_04 §3.4 passes all six tests, Dependency reveals Supporting; Doc_07 §2F; Doc_08 Force 1B-2, 3A-1, 3A-2, 3B-1.
+**Grounding:** Doc_01 §2, §3, §4; Doc_02 §1, §2; Doc_03 Cluster 4, Tier 1; Doc_04 §3.4 passes all six tests, Dependency reveals Supporting; Doc_07 §2F; Doc_08 Force 1B-2, 2B-4, 3A-1, 3A-2, 3B-1.
 
 ---
 
@@ -130,7 +130,7 @@ The canonical gravity record for this world, per Doc_04 §4's own Classification
 
 **Confidence:** Divergent across three tiers, the sharpest confidence divergence in this world's record: bare existence is Documented (independent imperial legislation, currently unvendored); the *agonistici* self-designation term is Augustine-reported only, reliable reportage rather than independent attestation; character, scale, and conduct rise at most to Dominant Modern Reconstruction (the standard scholarly corrective to the older, fuller hostile portrait).
 
-**Cross-strand status:** Regionally concentrated in Numidia specifically — this candidate fails Dependency, Formation, Explanatory, and Persistence ecology-wide, but passes all four regionally. The one candidate that most clearly fails a strict cross-voice standard for anything beyond bare existence and self-designation.
+**Cross-strand status:** Regionally concentrated in Numidia specifically — this candidate fails Dependency, Formation, Explanatory, and Persistence ecology-wide; regionally, it fully passes Formation and Persistence and only partially passes Dependency and Explanatory. The one candidate that most clearly fails a strict cross-voice standard for anything beyond bare existence and self-designation.
 
 **Brief description:** A rural, itinerant social formation concentrated in Numidia, the direct object of specific imperial legislation (*Codex Theodosianus* 16.5.52), and reported — hostile-mediated — as involved in the Maximianist-era suppression. Its own later reputation is sharply contested between the movement's own petition literature (naming leaders Axido and Fasir as "leaders of the saints," per Doc_09 §6) and the hostile portrait that dominates its wider reception.
 
@@ -152,7 +152,7 @@ The canonical gravity record for this world, per Doc_04 §4's own Classification
 
 **Brief description:** What pulls in each direction: on one side, the movement's own ideological stance that the state has no standing to adjudicate who the true church is, voiced directly in Donatus's own reported retort, "*Quid est imperatori cum ecclesia?*" ("What has the emperor to do with the church?"); on the other, this world's own repeated, documented turns to that same imperial machinery for its own advantage, at three specific, named points across the window. The tension is not resolved by this world's own record — it is held, named at its most absolute alongside the specific places it did not, in practice, hold.
 
-**Grounding:** Doc_01 §5; Doc_04 §3.6; Doc_07 §2H, §6; Doc_08 Force 1B-2, 2A-1, 2B-4; Doc_09 §6 (Donatus's retort, fully treated here rather than as a separate story chunk).
+**Grounding:** Doc_01 §5; Doc_04 §3.6; Doc_07 §2E, §6; Doc_08 Force 1B-2, 2A-1, 2B-4; Doc_09 §6 (Donatus's retort, fully treated here rather than as a separate story chunk).
 
 ---
 
@@ -166,7 +166,7 @@ The canonical gravity record for this world, per Doc_04 §4's own Classification
 
 **Brief description:** What pulls in each direction: on one side, the stated, absolute logic that schismatic or invalidly-ordained clergy require rebaptism and reordination, without exception (G1/G2's own doctrine); on the other, the mainstream party's own actual practice toward the returning Maximianist clergy — reception into office and communion without repeating either rite. Augustine directly and repeatedly quotes this fact and turns it into his single central argument against this world's own rebaptism logic. This world's own record states the gap plainly rather than resolving it.
 
-**Grounding:** Doc_02 §1 (rows 3, 4, 47); Doc_04 §3.6; Doc_06 donlex003; Doc_07 §6; Doc_08 Force 2B-4 (carries the longest and most detailed Layer 1 in Doc_08); Doc_09 donstory008 (the Bagai Reconciliation, the full narrative behind this gravity's own documentary record).
+**Grounding:** Doc_02 §1 (rows 3, 4, 47); Doc_04 §3.6; Doc_06 donlex003; Doc_07 §2H, §6; Doc_08 Force 2B-4 (carries the longest and most detailed Layer 1 in Doc_08); Doc_09 donstory008 (the Bagai Reconciliation, the full narrative behind this gravity's own documentary record).
 
 ---
 
@@ -180,7 +180,7 @@ A fully formed member of this world holds, without qualification, that a sacrame
 
 ### The Formation Mechanism
 
-Formation here does not happen primarily through speculative teaching or a developed interpretive tradition — this world is genuinely thin there (Section 4B/4D below). It happens through enacted threshold-crossing (rebaptism), through repeated commemorative narration (the annual reading at the grave), and through lived legal jeopardy (a formed member's own church exists under continuous external legal pressure). A person is formed less by being taught a doctrine than by doing the rite, hearing the story, and living inside the pressure the doctrine and the story both explain.
+Formation here does not happen primarily through speculative teaching or a developed interpretive tradition — this world is genuinely thin there (Section 4B below). It happens through enacted threshold-crossing (rebaptism), through repeated commemorative narration (the annual reading at the grave), and through lived legal jeopardy (a formed member's own church exists under continuous external legal pressure, per Section 4G). A person is formed less by being taught a doctrine than by doing the rite, hearing the story, and living inside the pressure the doctrine and the story both explain.
 
 ### The Formation Arc
 
@@ -262,7 +262,7 @@ At least one force per occupied cell, prioritized for Layer 3 formation impact, 
 
 **Formation impact (Layer 3):** The deep root of both G1 and G3 — produces the *traditor* accusation G1's whole doctrine turns on, and establishes the pattern of persecution-as-formative-test the later, better-attested Macarian repression repeats and intensifies. Without this force, this world's own central sacramental-validity question would have no occasion to arise.
 
-**Gravity connection:** G1, G3
+**Gravity connection:** G1, G3. Disclosed inconsistency: Doc_08's own Layer 3 prose supports both G1 and G3 (quoted above), but Doc_08's own Force Index and inverted-table apparatus list this force's connected gravity as G3 only. This document follows the Layer 3 prose rather than the table; the discrepancy is Doc_08's own internal inconsistency, not resolved here, and is flagged for a future coach-thread pass.
 
 **Confidence (Layer 1):** Documented
 
@@ -280,6 +280,18 @@ At least one force per occupied cell, prioritized for Layer 3 formation impact, 
 
 ---
 
+**Force:** Oscillating imperial religious policy
+
+**Cell:** 2A — Ongoing/External
+
+**Formation impact (Layer 3):** Sustains G5 throughout the window and is the direct external pressure T1 tests; is also the specific target of G2's own enacted rite (rebaptism is what successive imperial edicts specifically criminalize), and D-A is likewise the direct object of specific imperial legislation. Connected to more gravities than any other single force in this world's own Force Index except the internal Maximianist fracture below.
+
+**Gravity connection:** G2, G5, D-A, T1
+
+**Confidence (Layer 1):** Documented
+
+---
+
 **Force:** The Macarian repression (347–348)
 
 **Cell:** 2A — Ongoing/External
@@ -289,6 +301,18 @@ At least one force per occupied cell, prioritized for Layer 3 formation impact, 
 **Gravity connection:** G3
 
 **Confidence (Layer 1):** Documented, corroborated in this world's own vendored voice
+
+---
+
+**Force:** Sustained purity doctrine and rebaptism practice as founding logic
+
+**Cell:** 2B — Ongoing/Internal
+
+**Formation impact (Layer 3):** This world's own central, continuously operating internal force — it sustains G1 and G2 across the entire window, and is what the Maximianist affair (below) specifically tests, without fracturing.
+
+**Gravity connection:** G1, G2
+
+**Confidence (Layer 1):** Documented
 
 ---
 
@@ -304,11 +328,25 @@ At least one force per occupied cell, prioritized for Layer 3 formation impact, 
 
 ---
 
+**Force:** Martyr-cult and confessor memory sustaining identity
+
+**Cell:** 2B — Ongoing/Internal
+
+**Formation impact (Layer 3):** Sustains G3 continuously and is the mechanism by which the Macarian repression's own acute persecution episode (above) is converted into lasting formation, rather than a one-time crisis that fades.
+
+**Gravity connection:** G3
+
+**Confidence (Layer 1):** Documented
+
+---
+
 **Force:** The 411 Conference of Carthage's verdict and the penal legislation that followed, together with the Vandal invasion (429) and capture of Carthage (439)
 
 **Cell:** 3A — Ending/External
 
-**Formation impact (Layer 3):** Presses G5 to its sharpest test and directly reshapes G4, which now bears the verdict's own legal-institutional consequences; jointly with the Vandal conquest, removes the specific power G5 is defined in refusal of. The combined effect of these two forces is what closes this world's own construction window — the most direct forces-connection of any gravity in this world's record.
+*This entry deliberately combines two forces Doc_08 treats separately (3A-1, the 411 Conference and its penal legislation; 3A-2, the Vandal invasion and capture of Carthage), given their shared gravity connections and jointly-stated Layer 3 finding — Doc_08 §5 itself states "the superlative belongs to their combined effect, not to either force alone." Doc_08's own Force Index lists them as two separate rows; consult it directly for each force's own individual three-layer treatment.*
+
+**Formation impact (Layer 3):** Presses G5 to its sharpest test and directly reshapes G4, which now bears the verdict's own legal-institutional consequences; jointly with the Vandal conquest, removes the specific power G5 is defined in refusal of. The combined effect of these two forces is what closes this world's own construction window — the most direct forces-connection of any gravity in this world's record. (Force 3A-2's own further point — that the underlying two-party contest continues past 439, into Gregory the Great's 590s correspondence — is carried in this document's own Section 1 temporal-scope discussion rather than repeated here.)
 
 **Gravity connection:** G4, G5
 
@@ -506,7 +544,7 @@ Stated as this world's own natural formation character, not as construction gaps
 
 **Living tradition correspondence:** PENDING (Constitution Article 29; Blueprint V7.3 §17) — this determination is a project-lead act this document cannot perform on its own behalf. Doc_01 §1 states this explicitly, and this document does not treat that gate as closed.
 
-This world's own preliminary build-thread-level assessment — distinct from, and not a substitute for, the formal gate above — finds no clear surviving institutional descendant: the historical record shows this movement persisting for centuries beyond this world's own construction window, falling silent after Gregory the Great's correspondence in the 590s, with no attestation of an organized Donatist body thereafter and no documented line to any present-day communion. This world's most durable transmission to later Christian history is substantially dialectical rather than a persisting tradition of its own: the rebaptism controversy it forced is a major and lasting spur to the other side's own theological development — Augustine's mature doctrine of the objective validity of sacraments independent of the minister's own worthiness was substantially forged in direct response to this world's own challenge.
+This world's own preliminary build-thread-level assessment — distinct from, and not a substitute for, the formal gate above — finds no clear surviving institutional descendant: the historical record shows this movement persisting for centuries beyond this world's own construction window, falling silent after Gregory the Great's correspondence in the 590s, with no attestation of an organized Donatist body thereafter and no documented line to any present-day communion (Doc_01 §1). This world's most durable transmission to later Christian history is substantially dialectical rather than a persisting tradition of its own: the rebaptism controversy it forced is a major and lasting spur to the other side's own theological development — Augustine's mature doctrine of the objective validity of sacraments independent of the minister's own worthiness was substantially forged in direct response to this world's own challenge (Doc_01 §6).
 
 **Which present-day tradition(s):** None documented as a direct descendant. If the PENDING gate above resolves to NO living-tradition correspondence, the Representative's Living Traditions Distinction section in the Permanent Prompt should use Version B (no living tradition applicable) — but this document does not make that determination itself.
 
@@ -549,8 +587,20 @@ To be formed in this world was to hold an absolute conviction and a named, unden
 - [x] Section 10 Integrative Observation copied verbatim from Doc_07's own current §6 — status field reads "Verbatim"
 - [x] All section cross-references to Doc_01 through Doc_09 verified — no section relies on content not yet produced
 
-**World Profile completion status:** COMPLETE (pending independent adversarial review; Living Tradition Status remains a project-lead PENDING gate per Section 9, which does not block this document's own disposition per Blueprint V7.3 §17's own freeze-stage, not profile-stage, gating)
+**World Profile completion status:** COMPLETE at the template's own eleven-section checklist level. Living Tradition Status remains a project-lead PENDING gate per Section 9, which does not itself block this document's own disposition (Blueprint V7.3 §17's own gate applies at freeze, not at the profile stage). A separate, unresolved question blocks this document's own disposition — see Disposition below.
 
 ---
 
-*End World Profile draft. Eight gravities synthesized (four Primary, two Supporting, two Tensional); nine ecological lenses summarized; six forces cells covered plus transmission; seven Tier-1 vocabulary terms carried with always-present designations; two tensions held, not resolved; four honest limits named as this world's own character; Living Tradition Status correctly left PENDING for the project lead. Next: independent adversarial review.*
+## Disposition
+
+**Review history:** Round 1 (`Review-Artifacts/WorldProfile_Round1_Review.md`): SUBSTANTIAL REVISION REQUIRED, narrow — 1 High, 5 Medium, 5 Low. All five Medium and five Low findings are fixed above, each independently re-verified against the primary construction documents before being applied (per `cic-build-cycle`'s "never adopt a reviewer's finding without independent re-verification" discipline) — including direct confirmation of Force 2B-1's exact Doc_08 wording, Force 2A-1's own four-gravity connection count, the T1/T2 Doc_07 §2E/§2H citation swap, and the G3 §3A/§3B correction, each checked against the cited source directly rather than taken on the review's own word.
+
+**Escalation-category assessment:** the High finding (H1) is exactly the kind of finding this assessment exists to catch. This document's own earlier draft resolved, by build-thread judgment alone, whether an M4-era World Profile's Ecological Summary should cover nine lenses or the template's own stated four — a decision with plain portfolio-wide reach (every other M4-era world's own Doc_07 will yield the identical mismatch, since M4 is a portfolio-wide Change Order, not a Donatism-specific finding) and one that, on independent verification, does not resemble Doc_07's own precedent the way the original Method Note claimed: Doc_07 resolved an analogous fork by direct project-lead escalation before drafting, not by disclosure alone. This meets `cic-build-cycle`'s own Portfolio-level and Governance/Methodology escalation categories. The Method Note above has been corrected to state this plainly rather than repeat the mischaracterization; Section 4 itself is left at its current nine-lens scope (the content is accurate and would not need to be un-written under either outcome), but this document is not self-dispositioned while the actual scope question remains open.
+
+No other escalation category applies: no Representative-identity decision is made (this document names no Representative); no other portfolio-level decision is made beyond the one named above; no unresolved tension exists between this document and any prior cleared document (every synthesis here applies, rather than redecides, findings Doc_01 through Doc_09 already established, and the Doc_08 internal inconsistency disclosed at Force 1A-1's own gravity-connection field is a small, flagged discrepancy inside an already-approved document, not a disagreement this document itself introduces).
+
+**Disposition: `don_World_Profile.md` — Cleared review, pending project-lead resolution of the Section 4 scope question.** Not yet "Approved to proceed." This document has passed independent adversarial review with no further factual or citation defect outstanding, but per `cic-build-cycle`'s own disposition discipline, a document meeting an escalation category is not eligible for build-thread self-disposition "regardless of how clean the review came back." The actual question — should this world's own Ecological Summary (and, by portfolio-wide implication, every other M4-era world's own World Profile) cover all of Doc_07's actually-built lenses, or only the four the template's own stale text names, with the rest left for the L4 template's own eventual coach-thread revision — is put to the project lead directly below, not decided here.
+
+---
+
+*End World Profile, Round 1 revision. Eight gravities synthesized (four Primary, two Supporting, two Tensional); nine ecological lenses summarized; ten Section 5 entries covering eleven of Doc_08's thirteen named forces across all six cells, plus transmission; seven Tier-1 vocabulary terms carried with always-present designations; two tensions held, not resolved; four honest limits named as this world's own character; Living Tradition Status correctly left PENDING for the project lead. Cleared review; awaiting project-lead resolution of the Section 4 scope question before disposition.*
