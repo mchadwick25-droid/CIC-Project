@@ -1,0 +1,18 @@
+{
+  // Cloudflare Workers Build config for cic-website (churchinconversation.com/.org).
+  // Every branch's build was failing with "A compatibility_date is required when
+  // uploading a Worker" (Wrangler 4.x) because no config file existed anywhere in
+  // this repo for it to read one from — this file exists to fix that, repo-wide.
+  //
+  // "assets.directory" is set explicitly rather than relying on the dashboard
+  // build command's existing `--assets=cic-website` CLI flag: per Cloudflare's
+  // own docs and workers-sdk issue history, `--assets` only drives the
+  // interactive config-generation prompt and has no documented effect in a
+  // non-interactive CI run like Workers Build — the config file is what
+  // actually has to carry it there.
+  "name": "cic-website",
+  "compatibility_date": "2026-09-03",
+  "assets": {
+    "directory": "./cic-website"
+  }
+}
