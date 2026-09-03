@@ -2173,3 +2173,16 @@ finds a launch link through to a live conversation with no real gate -
 the waitlist doesn't have teeth as an access control until that's
 addressed, which is a bigger call than adding the form itself and
 deliberately not assumed here.
+
+**Resolved, same day - the "no teeth" question answered by design, not
+left open.** Mark: "i will keep the waitlist outside of the system, i
+dont want a tempary database bulking up the system. i will monitor it
+and invite as i need to." The waitlist is a pure signal-collection
+surface, deliberately never wired into any access-control logic - no
+database, no automated gate, nothing for this or any thread to build
+beyond the Google Form itself and a link to it. Admission stays a
+human decision: Mark reads submissions and invites people directly,
+the same personal-invite mechanism already governing today's pilot.
+Site-side work is now exactly one thing: a "Join the waitlist" link
+pointing at the form URL once Mark creates it. Nothing else on the
+launch-readiness list changes.
