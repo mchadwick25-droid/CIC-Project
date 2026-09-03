@@ -151,6 +151,12 @@ svg#world{display:block;overflow:visible}
    The halo (already the hover indicator) marks focus too, via JS. */
 .node:focus-visible{outline:none}
 .node:hover circle.halo{opacity:.35}
+/* Story marks: same interaction contract as a node (own halo, own focus
+   ring, no default bounding-box outline), tyrian rather than a family
+   color since a story belongs to no single river. */
+.story{cursor:pointer}
+.story:focus-visible{outline:none}
+.story:hover circle.halo{opacity:.35}
 /* pointer-events was none on .lbl (twice over -- the base rule above and,
    redundantly, here too) -- the name text floated over its own dot with no
    hit area of its own, so the only clickable/hoverable target for a
@@ -272,6 +278,7 @@ svg#world{display:block;overflow:visible}
 }
 @media (pointer:coarse){
   .node .halo{r:calc(22 / var(--zoom-scale,1))}
+  .story .halo{r:calc(22 / var(--zoom-scale,1))}
   .edge-hit{stroke-width:calc(30 / var(--zoom-scale,1))}
   .topbar button{min-height:44px;padding:.6rem 1rem}
   #scopeNote button{min-width:44px;min-height:44px;display:inline-flex;
@@ -20061,6 +20068,33 @@ const DATA = {
    ],
    "legacy": "This is a current in progress rather than a settled tradition, and this map says so. Institutionally it is thin — a handful of publishers and congregational networks, and a great deal of video — which makes it genuinely hard to describe: no central body, no shared confession, and no independent count of any kind, so every figure in circulation comes from self-report or journalism. What it has done is put a question back into ordinary Christian conversation that most churches had long considered settled: what, if anything, the Torah asks of gentile believers. Its individual bodies differ widely from one another, and the map assesses them one at a time."
   }
+ ],
+ "stories": [
+  {
+   "id": "silesian-childrens-prayer-revival",
+   "title": "The Silesian Children's Prayer Revival",
+   "year": 1707,
+   "laneOrder": 5.5,
+   "region": "Silesia (the modern Polish–Czech–German border region)",
+   "confidence": "Widely Accepted",
+   "teaser": "Winter 1707–08: children in a Habsburg province where Protestant worship had been outlawed for decades began slipping out at dusk to pray in the open fields, unled by any adult — and within weeks it was being written about across Europe.",
+   "text": "Silesia's Protestant majority had lived without legal churches for most of a generation after the Counter-Reformation closed or confiscated over a thousand of them. In the winter of 1707–08, in Sprottau and other towns along the Bohemian border, children as young as four began gathering in open fields at dusk, without any pastor or adult organizer, to pray, recite what Scripture they had memorized, and sing. Parents who tried to stop them found the movement kept going anyway; contemporary Pietist writers, including Johann Wilhelm Petersen, described it spreading from town to town within weeks. It coincided with real diplomatic change: the 1707 Convention of Altranstädt, in which Sweden's Charles XII pressed the Habsburg emperor to restore Protestant worship rights in Silesia, leading to six new 'Churches of Grace' — among them the Jesus Church at Cieszyn (Teschen), for a time one of the largest Protestant congregations in Europe.",
+   "caveat": "The vivid specifics most often repeated — a bailiff dropping his whip in tears, exact crowd counts in the thousands, children climbing out of windows — come from later devotional retellings rather than the contemporary record, and this map doesn't assert them as fact. What's well attested is the phenomenon itself, its scale, and its timing alongside Altranstädt.",
+   "relationsSummary": "Often told as a direct feeder into the Moravian settlement at Herrnhut fifteen years later, but that's looser than the record supports: Herrnhut's own founders (VIII.4) were Moravian, not Silesian, refugees. The real connection is a shared world — the same underground, Hussite-descended evangelical culture on the Habsburg borderlands, the same Pietist awakening milieu the young Zinzendorf (born 1700) was raised inside — not a documented organizational line from one to the other.",
+   "sources": [
+    {
+     "work": "Cambridge History of Christianity vol. 7, 'Evangelical awakenings in the North Atlantic world' (Ward)",
+     "type": "reference",
+     "note": "Already the primary secondary source behind this map's own Herrnhut (VIII.4) entry; covers the Silesian awakening as part of the same pre-history."
+    },
+    {
+     "work": "Johann Wilhelm Petersen's contemporary correspondence describing the revival's spread",
+     "type": "primary",
+     "note": "Cited at second hand via later Pietism scholarship; the original letters have not been independently checked for this entry."
+    }
+   ],
+   "relatedIds": ["the-hussite-and-bohemian-brethren-movement","czech-churches-last-century","the-moravian-church-at-herrnhut"]
+  }
  ]
 }
 ;
@@ -20521,8 +20555,17 @@ const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 // claims it does.
 const gBreakBand=el('g',{id:'break-band'}); gRoot.appendChild(gBreakBand);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
+// Sits directly above the rivers and nothing else -- edges/nodes/labels
+// stay crisp on top of it, only the river gets the band-edge fade.
+const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
+// Stories that happened in the gaps -- real, documented, but never grew into
+// (or never surfaced inside) any one movement's own record, so they don't
+// belong on any single node. A small book mark, positioned by year+laneOrder
+// the same way a movement is, sitting on top of nodes so it's never buried
+// under one it happens to land near.
+const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);
 const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
 
 // Portrait plates -- real Representative portraits (Chloe, Theon, Papnoute,
@@ -20547,6 +20590,23 @@ const defs=el('defs',{});
 const portraitClip=el('clipPath',{id:'portraitClip'});
 portraitClip.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R}));
 defs.appendChild(portraitClip);
+// Mark, live-site review: a river cutting straight through an era break
+// band at full color read as the band being interrupted rather than the
+// river passing under it -- but painting the whole band on top of the
+// rivers (tried before, see the gBreakBand-vs-gRivers ordering note below)
+// tinted every family hue with the band's own purple, worst for the hues
+// already close to it. This gradient is the middle path: transparent
+// through the band's own middle (rivers keep their true color there,
+// same as today), fading to the band tint only in a strip right at each
+// edge, so a river reads as ducking under the band at the seam without
+// losing its color across the band's full height. objectBoundingBox
+// (the SVG default) means one gradient works for every era's rect
+// regardless of its absolute y position.
+const bandFadeGrad=el('linearGradient',{id:'bandFade',x1:'0',y1:'0',x2:'0',y2:'1'});
+['0','0.18','0.82','1'].forEach((offset,i)=>{
+  bandFadeGrad.appendChild(el('stop',{offset,'data-edge':(i===0||i===3)?'1':'0'}));
+});
+defs.appendChild(bandFadeGrad);
 svg.appendChild(defs);
 
 // Orientation for readers with no map of church history to hang this on. Each
@@ -20694,8 +20754,17 @@ function wrapText(str,maxChars){
 }
 
 function render(){
-  gBands.innerHTML=''; gBreakBand.innerHTML=''; gRivers.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gLabels.innerHTML='';
+  gBands.innerHTML=''; gBreakBand.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
   lastOrganic=null; // force the next applyDetail() to re-apply to the freshly rebuilt elements
+
+  // Same color/opacity the break band itself uses (see below) -- kept in
+  // sync here since both need to match for the fade to read as "the same
+  // band, thinning out" rather than two different tints.
+  const bandFadeColor=isDark()?'#F6F6F2':'#C9B8E0', bandFadeOp=isDark()?0.92:0.45;
+  document.querySelectorAll('#bandFade stop').forEach(s=>{
+    s.setAttribute('stop-color',bandFadeColor);
+    s.setAttribute('stop-opacity',s.dataset.edge==='1'?bandFadeOp:0);
+  });
 
   // Era bands -- passthrough grounding, never a container (rule 4)
   eras.forEach((e,i)=>{
@@ -20731,6 +20800,12 @@ function render(){
     // now, which is why the caption text is fixed dark ink in both themes
     // rather than following the page's own light/dark text tokens.
     gBreakBand.appendChild(el('rect',{x:BLEED_X,y:eraY0[i]+6,width:BLEED_W,height:120,fill:isDark()?'#F6F6F2':'#C9B8E0',opacity:isDark()?0.92:0.45}));
+    // Same rect, same band, painted again on top of the rivers -- but
+    // filled with the band-fade gradient (transparent through its own
+    // middle) instead of a flat tint, so only the ~22px right at the top
+    // and bottom edges actually shows here; the band's own middle keeps
+    // showing whatever the rivers already painted beneath it.
+    gBandFade.appendChild(el('rect',{x:BLEED_X,y:eraY0[i]+6,width:BLEED_W,height:120,fill:'url(#bandFade)'}));
     const lbl=el('text',{x:24,y:eraY0[i]+34,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
     gLabels.appendChild(lbl);
     // e.tag is one thread's narrative (usually the imperial/mainstream one), not
@@ -21008,7 +21083,11 @@ function render(){
     const dot=el('circle',{cx:m._x,cy:m._y,r:built?4.4:2.6,
       fill: built?col:'var(--graphite)',
       stroke: built?'var(--iron-gall)':'none', 'stroke-width':built?1:0,
-      opacity: built?1:0.55});
+      // 0.55 (Mark, live-site review) blended graphite down to within a few
+      // steps of the parchment ground -- barely there until a hover halo
+      // gave it away. 0.78 keeps not-yet-built worlds visibly quieter than
+      // the full-opacity built dots beside them, without disappearing at rest.
+      opacity: built?1:0.78});
     // Only shown at organic (zoomed-in) detail -- applyDetail() toggles .lbl the
     // same way it toggles the rivers, so a crowded era stays a river at full
     // extent and only names names once there's room to read them.
@@ -21093,6 +21172,33 @@ function render(){
     }
   });
 
+  // Stories in the gaps: positioned exactly like a movement (year -> y,
+  // laneOrder -> x, same yearToY/laneCenterX the rivers and nodes use) so
+  // they sit in real chronological/family space, but drawn as a small book
+  // mark rather than a dot -- nothing here is a movement, has a status, or
+  // owns a stretch of river.
+  (DATA.stories||[]).forEach(s=>{
+    s._y=yearToY(s.year); s._x=laneCenterX(s.laneOrder,s._y);
+    const g=el('g',{class:'story',transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
+      tabindex:'0',role:'button','aria-label':`Story: ${s.title}, ${s.year}`});
+    const halo=el('circle',{class:'halo',r:11,fill:'var(--tyrian)',opacity:0});
+    const focusRing=el('circle',{class:'focus-ring',r:12,fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
+    // A simple open-book glyph, local coordinates centered on the story's own
+    // point -- two page-flaps and a spine, not a literal icon-font import.
+    const book=el('path',{
+      d:'M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8',
+      fill:'var(--tyrian)', stroke:'var(--vellum)', 'stroke-width':0.6, 'stroke-linejoin':'round'});
+    g.appendChild(halo); g.appendChild(book); g.appendChild(focusRing);
+    g.addEventListener('mouseenter',ev=>{halo.setAttribute('opacity','.35');showTip(ev,tipForStory(s));});
+    g.addEventListener('mousemove',ev=>positionTip(ev));
+    g.addEventListener('mouseleave',()=>{halo.setAttribute('opacity','0');hideTip();});
+    g.addEventListener('click',ev=>{ev.stopPropagation();openPanelStory(s);});
+    g.addEventListener('focus',()=>focusRing.setAttribute('opacity','1'));
+    g.addEventListener('blur',()=>focusRing.setAttribute('opacity','0'));
+    g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanelStory(s);}});
+    gStories.appendChild(g);
+  });
+
   applyDetail();
 }
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
@@ -21104,6 +21210,9 @@ function tipForEdge(edg,a,b){
 }
 function tipForRiver(f,count,minYear,maxYear){
   return `<div class="n">${esc(f.lbl)}</div><div class="m">${count} movements · ${minYear}–${maxYear}</div>`;
+}
+function tipForStory(s){
+  return `<div class="n">${esc(s.title)}</div><div class="m">${esc(String(s.year))} · ${esc(s.region||'')}</div><div class="s">Story — not its own movement</div>`;
 }
 
 /* ---- Tooltip (hover = short) ---- */
@@ -21210,6 +21319,32 @@ function openPanel(m){
   const interviewBtn=panelBody.querySelector('[data-interview-id]');
   if(interviewBtn)interviewBtn.addEventListener('click',()=>launchInterview(interviewBtn.dataset.interviewId));
   syncWorldURL(m.id);
+}
+function openPanelStory(s){
+  hideTip();
+  let h=`<h2 id="panelTitle">${esc(s.title)}</h2>
+    <p class="meta">${esc(String(s.year))} · ${esc(s.region||'')}</p>
+    <span class="statuspill">${esc(s.confidence)} · a story, not a movement</span>`;
+  if(s.teaser)h+=`<p class="teaser">${esc(s.teaser)}</p>`;
+  if(s.text)h+=`<h3>The Story</h3><p>${esc(s.text)}</p>`;
+  if(s.caveat)h+=`<h3>What's solid, what's retold</h3><p>${esc(s.caveat)}</p>`;
+  if(hasContent(s.relationsSummary))h+=`<h3>How it connects</h3><p><i>${esc(s.relationsSummary)}</i></p>`;
+  const related=(s.relatedIds||[]).map(id=>byId[id]).filter(Boolean);
+  if(related.length)h+=`<h3>Nearby on the map</h3><ul class="voices">${related.map(m=>
+    `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(m.dates)}</li>`
+  ).join('')}</ul>`;
+  if(s.sources&&s.sources.length){
+    h+='<h3>Sources</h3>'+s.sources.map(src=>{
+      const work=src.url?`<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.work)}</a>`:esc(src.work);
+      return `<div class="edge"><span class="k">${esc(src.type)}</span><br><b>${work}</b>${src.note?`<br>${esc(src.note)}`:''}</div>`;
+    }).join('');
+  }
+  panelBody.innerHTML=h;
+  panelBody.querySelectorAll('button.panel-link').forEach(btn=>{
+    btn.addEventListener('click',()=>{const target=byId[btn.dataset.id]; if(target)openPanel(target);});
+  });
+  showPanel();
+  syncWorldURL(null);
 }
 function openPanelEdge(edg,a,b){
   hideTip();
@@ -21356,7 +21491,7 @@ function buildLegend(){
   let rows='<span class="cap">Tradition families</span>';
   FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rows+=`<div class="row"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</div>`;});
   rows+='<span class="cap" style="margin-top:.5rem">Status</span>';
-  rows+=`<div class="row"><i style="background:var(--graphite);opacity:.6"></i>Not yet built (graphite)</div>`;
+  rows+=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   // A Built & Live dot isn't one fixed color -- it renders at full strength
   // in whatever tradition-family color it already sits on (Cappadocian's is
   // Greek East blue, the Desert's is Africa teal, and so on), not a single
@@ -21366,6 +21501,11 @@ function buildLegend(){
   // family" honestly instead of asserting one.
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   rows+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
+  if((DATA.stories||[]).length){
+    rows+='<span class="cap" style="margin-top:.5rem">Stories</span>';
+    const bookIcon=`<svg class="linekey" viewBox="-8 -6.5 16 13"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width="0.6"/></svg>`;
+    rows+=`<div class="row">${bookIcon}Real, documented, but never its own movement</div>`;
+  }
   // The thin lines between worlds carry two things the map never spelled out
   // anywhere: the dash pattern is the census's own confidence rating for
   // that specific connection, and the line itself only says a documented
