@@ -1999,3 +1999,70 @@ mass-vet entries. Ownership is also settled: this isn't this thread's
 work to source or vet. The "Atlas Reimagined" thread already has a
 Fable subagent researching candidates now. This thread's role on the
 story module ends here - FYI only, no action expected.
+
+---
+
+## 2026-09-03 (later) — Phase 1 Launch readiness: the real list, one
+track not two
+
+**Origin.** Mark: "what is next to get ready for launch." First reply
+drew a distinction between "finish this round of work" and "Phase 1
+Launch" from the scoping doc's ladder - Mark's correction: "i want to
+get ready for phase 1 launch, doesnt make sense to do two." One list,
+not a small one and a big one.
+
+**Where the product actually stands, checked against
+`Ministry/Features/Front-End-Integration-Strategy/Design/
+CiC_FrontEnd_Strategy_Scoping_2026-07-07.md`'s own Phase 1 questions,
+not assumed:** the project is already well past Prototype Alpha in
+practice - 7 admitted worlds, real conversations, live Stripe giving,
+a register/transparency system Mark has personally stress-tested
+against real transcripts. The product build is not the bottleneck.
+What Phase 1's own scoping questions still have no answer for:
+
+1. **Audience gating - the fork everything else sequences around.**
+   Public, semi-public/waitlist, or still a known community? Currently
+   invited people who already know Mark. Undecided.
+2. **Privacy/consent disclosure.** Conversations are already logged
+   and read (that's how the 2026-08-28 register defect got caught) -
+   fine for people who know that's happening, not fine as a silent
+   default for a stranger. No consent disclosure found built anywhere.
+   Flagged as the sharpest gap: invisible until asked, ugly to retrofit
+   after the fact, and becomes load-bearing the moment #1 opens past
+   personal invites.
+3. **Accounts vs. stateless.** Never decided either way. Current
+   sessions are stateless, 10-turn cap (M8/Bedrock). Needs an actual
+   decision, even if the decision is "still stateless for Phase 1."
+4. **The funding math doesn't support scale yet.** Per the 2026-08-30
+   entry in `CiC_Org_Funding_Decision_Log.md`: at a 2% donation-
+   conversion benchmark, gifts cover the $225 fixed floor, not the
+   ~$0.35/conversation marginal cost - more traffic widens the dollar
+   gap, not closes it. That entry is itself waiting on real pilot
+   conversion data before it can be resolved with real numbers instead
+   of a stranger-traffic benchmark. Opening wider before that data (or
+   a different cost-control answer) means funding growth out of
+   pocket, not discovering it's sustainable. Joint call with the
+   org-funding thread, not this thread's alone.
+5. **World discovery/navigation past the current roster.** Chairs +
+   Atlas hold up fine at 7-9 worlds; the industrialization track exists
+   because that count is going up. Worth checking before the roster
+   doubles, not after.
+6. **Finish what's already in flight** (folded into this one list, not
+   a separate track, per Mark's own correction): Website V2 ship
+   (built, not yet merged/live), the two lingering CI checks (Docker
+   build / Cloudflare Workers Build, both flagged to the engine thread,
+   neither blocking), story module's first new entries at the Silesia
+   bar. Bounded, near-term, none of it blocks on 1-5 above.
+
+**This thread's recommendation, stated plainly:** hold #1 at "known
+community," not fully public, until #2 has a real disclosure built and
+#4 has real pilot data behind it rather than a stranger-traffic
+benchmark - grow the invited circle deliberately in the meantime
+(a specific partner community, a waitlist) rather than opening cold.
+Not a stall - a sequencing call: the two gaps that turn small at
+today's scale (a handful of personally-briefed testers) into real
+harms at Phase 1 scale are exactly #2 and #4, and neither is decided
+because neither has been asked yet, not because either is hard.
+
+**Next action:** get Mark's call on #1 (which shape of "wider"), since
+it resequences the urgency of everything else on this list.
