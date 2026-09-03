@@ -1978,3 +1978,17 @@ a narrative episode) but worth checking whether any of that already-
 flagged material could seed a candidate list rather than starting from
 zero. Next action: get Mark's answer on the sourcing bar, and on
 whether he has candidate entries in mind already.
+
+**Addendum, same day - "in-between" corrected.** This thread first
+read "in-between" as joint ownership (a story belonging to two worlds
+at once) and asked whether its detail view would need to link both
+flanking worlds. Mark's own correction: it's positional, not joint -
+"it isn't really a part of the lutheran reformation, but it isnt part
+of the next movement either, it sits inbetween the lutheran, later
+lutheran and moravian." Kinderbeten sits in the time/place gap between
+built or identified worlds, owned by none of them - same shape as
+"outside" (Silesia had no flanking worlds at all), just located
+differently. The linking question is moot: an in-between entry doesn't
+need to reference the worlds around it, only to honestly locate itself
+in the gap. Sourcing-bar and candidate-list questions from above are
+still open.
