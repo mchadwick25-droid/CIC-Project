@@ -1917,3 +1917,60 @@ with zero console errors and zero horizontal overflow; a full-text scan
 of each page's rendered body confirms no remaining "AI system," "AI
 voice," or "AI-driven" language anywhere on `index.html`, `table.html`,
 or either tradition page; both meta descriptions read the new wording.
+
+---
+
+## 2026-09-03 (later still) — Two standing principles added to the §2 template
+
+**Not a build increment — documentation only, at Mark's direction.** After
+the "AI system" change order, Mark stepped back from line editing: "we
+will edit text at a later time, what you need to do is make sure the
+template and processes are in place... focus on the christian tradition,
+the role of the representitive simply said, focused on conversation not
+technology." Followed immediately by a second, related note: "focus more
+on what the reader needs to know about the world and how to engage it
+rather than a laundry list of descriptions. what will help the
+participant understand the tradition, who and how to engage."
+
+Read together, these aren't requests to keep rewriting Chloe's and
+Theon's pages — Mark was explicit that wording will keep changing and
+that isn't today's job. They're a request to make sure what was just
+learned by correction is actually *held* somewhere, so the next five
+tradition-page builds (and the next editing pass on these two) inherit
+the standard instead of re-deriving it from another round of feedback.
+
+**Added to `CiC_Website_V2_Storyboard.md` §2 (the template section
+itself, not a per-instance row):**
+
+1. **A standing principle** — the page is about the tradition and the
+   conversation, not the technology; the representative's own nature is
+   named once, briefly, in passing, and the page moves on to the world.
+   Governs new writing and future editing alike; explicitly not tied to
+   the exact wording, which the register note itself says will keep
+   moving.
+2. **A second test** — every section earns its place by serving one of
+   two reader needs: understanding the tradition, or knowing who and how
+   to engage it. Named §2.8 ("The record behind the voice") as the
+   section most exposed to becoming an inventory instead — a finding aid
+   can be complete and still not help anyone decide whether to sit down
+   with the voice. Built faithfully to spec on both shipped pages so far;
+   flagged for the next editing pass to re-examine H3 by H3, not
+   restructured now.
+3. **A seven-step build-process checklist**, generalizing the discipline
+   actually used and verified building Theon's page (read the census and
+   every record directly, don't assume by analogy; check for a
+   reviewer's brief and apply the no-brief shortening if none exists;
+   check the guard field's real sentence count before assuming a fifth
+   silence; source starter questions from current-schema `demonstration`
+   records, never a superseded draft; trace every claim to its record
+   and, where cited, its primary source; verify overflow/headings/no-JS/
+   held-question/lexicon before calling it done; log real content-shape
+   differences as findings about the source, not as a diff against
+   Chloe's page) — so the remaining five pages, and whoever builds them,
+   start from a written process rather than an unwritten one only this
+   session's transcript holds.
+
+**No code changed.** Both pages already shipped are consistent with
+principle 1 (this session's own prior commit); principle 2 is
+prospective, named as a bar for later, not applied retroactively in this
+pass; the process checklist describes work already done, not new work.

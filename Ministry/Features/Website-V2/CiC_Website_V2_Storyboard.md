@@ -486,10 +486,81 @@ from a chair on the homepage or from a held question. Let the voice say who
 is speaking and where its record is quiet before it offers the record; then
 the record, whole; then the chair, filled.
 
+**Standing principle, governing every instance (2026-09-03, Mark, following
+the "AI system" change order above): this page is about the tradition and
+the conversation, not the technology.** Every section leads with what is
+distinctive about the world being represented — its history, its own
+voice, its own unresolved questions — never with an explanation of how the
+representative works. Where the page needs to say what the representative
+is, it says so once, briefly, in passing ("a representative voice for this
+tradition, not a person who lived") and moves on; it does not become its
+own subject. This governs new writing and future editing alike — the exact
+wording is expected to keep changing (Mark: "we will edit text at a later
+time"), but the stance does not: tradition first, representative named
+simply, conversation over mechanism, on every section of every instance,
+not just the two built so far.
+
+**A second, related test (2026-09-03, Mark): every section earns its
+place by answering one of two questions — what does a reader need to
+understand about this tradition, and who they'd be engaging and how —
+not by being a complete inventory of what the record contains.** §2.8
+("The record behind the voice") is the section most exposed to drifting
+into the second thing: a finding aid can list what it holds — sources,
+gravities, confidence labels, review status — without any one item
+helping a reader decide whether or how to sit down with this voice. Built
+faithfully to spec on both shipped pages so far, but not yet re-passed
+against this test; a later editing pass should ask of each of its H3s
+whether it serves understanding or engagement, and cut or fold what
+serves neither, same as the "AI system" pass above did for §2.1/§2.2/§2.4.
+Not done in this increment — text edits wait, per Mark's own instruction —
+but named here so the next pass has a stated bar to build against, not
+just "make it shorter."
+
 **URL.** RECOMMENDED `traditions/<census-id>.html` — the census id joins the
 homepage chair, the app deep link and (via `world_id`) the record store.
 Build choice; `tradition-<short>.html` is acceptable if Mark prefers flat
 files.
+
+**Build process for each new instance** (established building Theon's
+page, 2026-09-03 — the same discipline applies to the five not yet built):
+
+1. Read the tradition's own census entry (`cic-website/data/world-census.json`)
+   and every record under `records/<prefix>/` directly. Never assume a
+   field, a count, or a section's shape by analogy to an already-built
+   page — the seven traditions do not generalise evenly (§2's own count
+   table), and a wrong assumption ships as invented content.
+2. Check for a reviewer's brief (`Ministry/Scholarly-Review/CiC_WorldBrief_
+   <Tradition>*`, ruling 36). None on file → the no-brief shortening
+   applies: §2.8e's table, §2.8f, and §2.8h's contested list are omitted
+   outright, and §2.8k drops its "a reviewer's brief is on file" sentence
+   and its four press questions. The census-sourced one-line assessment
+   and the confidence legend (§2.8g) stay regardless — they don't depend
+   on the brief.
+3. Check the tradition's own `guard` field before assuming a fifth "one
+   voice, under guard" silence — some traditions carry only the fleet-wide
+   floor line, with no second, world-specific sentence to draw one from.
+   Where that's true, ship however many `honest_limit` records actually
+   exist, not five.
+4. Source "Questions people bring" from the tradition's own current-schema
+   `demonstration` records (each carries a `canon_question_id` tying it to
+   the shared cross-tradition canon — confirm this, don't assume it).
+   Never quote an older, explicitly-unreviewed draft file, even where one
+   exists in a superseded build folder.
+5. Trace every quoted claim, silence, witness text, and lexicon term to
+   its own record id and, where that record cites one, its underlying
+   primary source. The page quotes the record, not a paraphrase of it.
+6. Verify before calling it done: zero horizontal overflow 320–1440px; a
+   clean heading outline with no skipped levels; the no-brief omissions
+   confirmed absent by selector, not just by eye; the held-question flow
+   tested in a fresh browser context (a same-document hash navigation
+   doesn't re-run the page's script and will false-pass); the lexicon
+   grammar tested end to end; no-JS and reduced-motion fallbacks checked;
+   zero `target="_blank"`.
+7. Log the build in the Decision-Log, naming every real content-shape
+   difference from the reference instance and why. A shorter silence list
+   or a shortened record section is a finding about that tradition's own
+   source material, not a shortcut, and the log should read that way, not
+   as a diff against Chloe's page.
 
 **H-level outline:** H1 tradition name → H2 *A representative voice, speaking for a
 whole people* → H2 *What this record cannot tell you — said first* (H3 ×5

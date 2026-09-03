@@ -327,6 +327,18 @@ The subject is religious and the site does not hide it: nine occurrences of
 "doubt" on the tradition page, five silences in a communal "we," three
 thousand words about bishops and martyrdom. That is content, not register.
 
+**2026-09-03 addition (Mark, following the "AI system" change order
+above):** the same discipline that trims religious performance from the
+register also trims technology explanation from it. A tradition page is
+about the tradition and the conversation it makes possible, not about how
+the representative voice is built. §3.5's own ordering already says this —
+governance (the AI line) comes briefly, once, before mechanism (a link to
+About) — this addition is that ordering held to more strictly than the
+first pass held it: the representative's own nature is named simply, in
+passing, and the page moves on to the world. Exact wording is expected to
+keep changing; this stance is what a future editing pass should hold to,
+on every instance, not just the two built so far.
+
 ### 3.7 The pressure checklist — binding on every surface
 
 Applied as a list, not felt as a mood (the 04 defense's item 2):
