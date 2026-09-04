@@ -133,7 +133,7 @@ p{margin:0 0 1rem}
       <a href="../whats-next.html">What's Next</a>
       <a href="../atlas-v3.html">Map</a>
       <a href="../support.html">Get Involved</a>
-      <a class="side-door" id="side-door" href="https://cic-engine.onrender.com/" hidden data-app><span class="sd-long">Been here before? </span>Go straight to a conversation →</a>
+      <a class="side-door" id="side-door" href="../talk.html" hidden><span class="sd-long">Been here before? </span>Go straight to a conversation →</a>
     </nav>
   </div>
 </header>
@@ -174,7 +174,7 @@ p{margin:0 0 1rem}
 
     <div class="seat" role="region" aria-label="Marius is seated">
       <p class="seated">Marius is seated. Begin when you're ready — or read on.</p>
-      <a class="btn quiet" id="seat-begin" href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview" data-app data-ask>Begin a conversation with Marius</a>
+      <a class="btn quiet" id="seat-begin" href="../talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=traditions%2Fimperial-juridical-christianity.html" data-ask>Begin a conversation with Marius</a>
       <span class="also"><a id="seat-bring" href="../table.html?worlds=imperial-juridical-christianity">Bring Marius to the Table →</a></span>
     </div>
   </div>
@@ -203,10 +203,10 @@ p{margin:0 0 1rem}
         <h2 id="questions-title">Start with the hard one</h2>
         <div class="reading">
           <ul class="questions">
-            <li><a href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview" data-app data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Marius</span></a><span class="from">The Nicene Creed; Leo, <i>Epistle</i> XXVIII (the Tome).</span></li>
-            <li><a href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview" data-app data-ask>I want to believe in Jesus, but I can't. What would you say to me?<span class="vh"> — ask Marius</span></a><span class="from">Leo, sermon on the Nativity — "let the sinner be glad."</span></li>
-            <li><a href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview" data-app data-ask>The people who taught me the faith turned out to be hypocrites. Did that happen among you?<span class="vh"> — ask Marius</span></a><span class="from">Ambrose, <i>Epistles</i> XL–XLI — the Callinicum synagogue.</span></li>
-            <li><a href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview" data-app data-ask>What would your people have made of someone like me?<span class="vh"> — ask Marius</span></a><span class="from">Ambrose, <i>Epistles</i> XX–XXI; Augustine, <i>Confessions</i> IX.7.</span></li>
+            <li><a href="../talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=traditions%2Fimperial-juridical-christianity.html" data-ask>Who was Jesus, to you and your people?<span class="vh"> — ask Marius</span></a><span class="from">The Nicene Creed; Leo, <i>Epistle</i> XXVIII (the Tome).</span></li>
+            <li><a href="../talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=traditions%2Fimperial-juridical-christianity.html" data-ask>How did you come to believe in Jesus?<span class="vh"> — ask Marius</span></a><span class="from">Leo, sermon on the Nativity — "let the sinner be glad."</span></li>
+            <li><a href="../talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=traditions%2Fimperial-juridical-christianity.html" data-ask>How did your community handle failure or wrongdoing among its own leaders?<span class="vh"> — ask Marius</span></a><span class="from">Ambrose, <i>Epistles</i> XL–XLI — the Callinicum synagogue.</span></li>
+            <li><a href="../talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=traditions%2Fimperial-juridical-christianity.html" data-ask>What would your people have made of someone like me?<span class="vh"> — ask Marius</span></a><span class="from">Ambrose, <i>Epistles</i> XX–XXI; Augustine, <i>Confessions</i> IX.7.</span></li>
           </ul>
         </div>
       </section>
@@ -219,7 +219,7 @@ p{margin:0 0 1rem}
   <h2 id="door-title">Come and join us at the Table</h2>
   <p>Marius is seated. The chair beside him has been pulled out the whole time.</p>
   <div class="actions">
-    <a class="btn" id="door-begin" href="https://cic-engine.onrender.com/?worlds=imperial-juridical-christianity&amp;mode=interview" data-app data-ask>Begin a conversation with Marius</a>
+    <a class="btn" id="door-begin" href="../talk.html?worlds=imperial-juridical-christianity&amp;mode=interview&amp;from=traditions%2Fimperial-juridical-christianity.html" data-ask>Begin a conversation with Marius</a>
     <a class="btn quiet" id="door-bring" href="../table.html?worlds=imperial-juridical-christianity">Bring Marius to the Table</a>
   </div>
   <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
@@ -241,12 +241,6 @@ p{margin:0 0 1rem}
 <script>
 (function(){
 "use strict";
-var isLocal = ['localhost','127.0.0.1'].indexOf(window.location.hostname) !== -1;
-var APP = isLocal ? 'http://localhost:5173' : 'https://cic-engine.onrender.com';
-Array.prototype.forEach.call(document.querySelectorAll('a[data-app]'), function(a){
-  a.href = a.href.replace('https://cic-engine.onrender.com', APP);
-  a.addEventListener('click', function(){ try { localStorage.setItem('cic-returning','1'); } catch(e){} });
-});
 try { if (localStorage.getItem('cic-returning') === '1') document.getElementById('side-door').hidden = false; } catch(e){}
 
 Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){ a.dataset.hrefBase = a.href; });
