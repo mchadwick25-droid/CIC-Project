@@ -33,7 +33,7 @@ text: >-
   testimony and received tradition - Clement flags the John story as 'handed
   down.' Dionysius weighed the Apocalypse's authorship by its style, like a
   critic. Origen compared manuscript readings. But there are real thin places,
-  and we name them. Much of what we know comes through one later
+  and we name them. Much of what survives comes through one later
   historian's selection. The majority who could not write left almost nothing.
   And some of the greatest teacher's works survive only in translations made
   by men with a stake in the outcome. What is claimed is claimed from named
