@@ -2560,3 +2560,50 @@ pages' offered questions.
 above was in mind going into this - build exactly what Mark specified,
 translated into working engineering, rather than a "better" idea of
 what he probably meant.
+
+---
+
+## 2026-09-04 (same day) — First live test surfaces two engine-side bugs
+
+Mark's verdict on the rework: "much better." He also live-tested it -
+world post-apostolic-house-church ("Chloe"), interview mode - and hit
+two chained problems on the third round of conversation: an "unavailable"
+error, then clicking the only remaining button ("leave") landed him back
+on what he described as "the old look" instead of returning to the new
+homepage.
+
+Investigated (read-only, no files changed on this thread's side) and
+found both live entirely in engine/ and cic-poc/frontend/, not in
+anything cic-website/ owns:
+
+1. **The 503**: `engine/api/wiring.py`'s `handle_message` re-verifies
+   the session's pinned package-manifest hash on every turn, not just
+   at session start. The engine track had just landed a repin of all 8
+   worlds (commit cce06936, alongside a canon-question rewrite) - if
+   that repin's deploy landed on Render mid-conversation, the session's
+   hash from open no longer matches, `PackageRefused` fires, and every
+   subsequent turn in that same session repeats the same 503
+   permanently. This is a real gap: the redesign spec
+   (`Redesign-Spec/Artifact-2-World-Package.md:57`) already promises
+   in-flight sessions survive a repin via old-package retention: the
+   code doesn't implement that yet, so every future repin (routine, by
+   design) will keep breaking whatever conversation happens to be live
+   at deploy time.
+
+2. **"Leave" reverting to the old look**: `talk.html`'s iframe embeds
+   `cic-poc/frontend`'s own SPA unchanged. That SPA has always had its
+   own separate home screen (`Launch.tsx` - the full card grid Mark has
+   called "layers of cards and needless crap information") and its own
+   "Leave for now" button that resets to it (`App.tsx: handleLeave`).
+   That behavior predates this week's rework entirely; it only reads as
+   a regression now because it renders inside the new themed iframe
+   instead of a separate tab, so it looks like the site itself reverted.
+   The SPA has zero iframe awareness - no postMessage, no
+   window.top/parent checks - so it has no way to hand control back to
+   talk.html's own back-link instead of falling into its own old screen.
+
+Filed a full technical writeup (file:line references, root cause,
+suggested fixes for both) to the engine build session - this is their
+code to fix, not something in scope for this thread's talk.html/website
+work. Nothing shipped from this thread in response; this is purely a
+diagnosis-and-handoff entry.
