@@ -12,6 +12,7 @@ import logging
 import os
 import time
 from dataclasses import asdict, dataclass
+from pathlib import Path
 
 import yaml
 from fastapi import FastAPI, Header, HTTPException, Request
@@ -25,6 +26,7 @@ from engine.m4 import session_code
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
+from engine.m7 import scheduler as m7_scheduler
 from engine.m8.log_store import UsageLogStore
 
 _INVALID_SESSION_DETAIL = "invalid session"
@@ -388,6 +390,17 @@ def _build_real_app() -> FastAPI:
     store = Store(settings.events_db_path)
     usage_store = UsageLogStore(settings.usage_db_path)
     full_registry = yaml.safe_load(settings.worlds_yaml_path.read_text(encoding="utf-8"))
+
+    # M7's conversation-quality audit existed but depended on someone
+    # remembering to run it by hand - the one real gap in an otherwise-live
+    # pilot data pipeline (System Health thread, 2026-09-04). Started here,
+    # not as a separate Render service: a Cron Job service can't share this
+    # service's already-attached Persistent Disk. Read-only over the event
+    # log, so a bad run can never affect a live conversation.
+    m7_scheduler.start_background_scheduler(
+        settings.events_db_path, Path(settings.events_db_path).parent / "m7-audits"
+    )
+
     return create_app(
         voice_client=client,
         voice_model_id=voice_model_id,
