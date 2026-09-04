@@ -35,7 +35,7 @@ relations:
   target: cappadocian.term.doxologia
 - type: associated-with
   target: cappadocian.term.parrhesia
-plain_meaning: 'This world used one word, theologia, in a narrow sense: speech about the Trinity itself.
+plain_meaning: 'We used one word, theologia, in a narrow sense: speech about the Trinity itself.
   This was the highest, most awesome kind of speaking. A second word, oikonomia, covered everything from
   creation to salvation. It also meant knowing how much truth to say out loud, and when.'
 world_word: theologia / oikonomia

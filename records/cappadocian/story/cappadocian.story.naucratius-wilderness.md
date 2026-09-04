@@ -40,7 +40,7 @@ text: >-
   taking to the wilderness with a single household servant, Chrysapius, who
   chose to share the life with him rather than remain merely his servant.
   Naucratius lived there as a solitary, not within any organized community
-  - the rules and brotherhoods that would later order this world's ascetic
+  - the rules and brotherhoods that would later order our ascetic
   life did not yet exist. He supported himself and, with what he caught,
   fed elderly and poor people nearby by hunting and fishing, while still
   caring for his mother from a distance. He died suddenly in an accident

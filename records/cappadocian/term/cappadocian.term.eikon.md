@@ -43,7 +43,7 @@ relations:
   target: cappadocian.term.pleonexia
 - type: associated-with
   target: cappadocian.term.theosis
-plain_meaning: 'Every person, this world taught, is made in God''s image. That belief worked two ways:
+plain_meaning: 'Every person, we taught, is made in God''s image. That belief worked two ways:
   upward, it meant the soul is meant to grow to resemble God; outward, it meant the poor man at the door
   and even the enslaved could not be treated as less than human.'
 world_word: eikōn (tou Theou)
@@ -67,7 +67,7 @@ senses:
     the way we do?'' -- no: this was one preacher''s singular, startling protest inside a world that otherwise
     kept the institution it had, for one voice, seen through. Naming that gap honestly matters more than
     smoothing it into a tidier story.'
-quick_meaning: 'The image of God: what this world believed every person is made as, beggar or enslaved
+quick_meaning: 'The image of God: what we believed every person is made as, beggar or enslaved
   alike.'
 distortion_risk: high
 ---

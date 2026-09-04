@@ -41,7 +41,7 @@ relations:
 - type: associated-with
   target: cappadocian.term.symbolon
 plain_meaning: 'Some things the church holds were never written down: which way to face in prayer, when
-  to stand, how many times to dip someone being baptized. This world argued these customs were not optional
+  to stand, how many times to dip someone being baptized. We argued these customs were not optional
   extras. They were the apostles'' faith, passed down in practice instead of in text.'
 world_word: paradosis (agraphos)
 false_friend:

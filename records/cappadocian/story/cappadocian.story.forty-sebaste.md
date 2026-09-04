@@ -44,15 +44,15 @@ text: >-
   guard set to watch over them, moved by what he saw, took off his own
   clothes and joined the remaining thirty-nine on the ice, professing the
   faith the other man had just abandoned, so that the number of martyrs
-  stayed forty. All died. The cult of the Forty was, for this world, its
+  stayed forty. All died. The cult of the Forty was, for us, our
   own fresh martyr-memory - not a story from a distant, half-legendary
   past, but within living memory of the martyrs' own grandparents'
   generation. Basil and Gregory of Nyssa both preached on their feast, and
   the family into which Gregory, Basil, and Macrina were born held its own
   direct connection to the cult: their mother, Emmelia, is credited with
   acquiring relics of the Forty and enshrining them at the family's own
-  estate chapel at Annisa, tying this world's freshest martyr memory
-  directly into its own household.
+  estate chapel at Annisa, tying our freshest martyr memory
+  directly into their own household.
 absent_detail: "No account survives from any of the Forty themselves, or from the guard who is remembered as joining them; the specific narrative details belong to the tradition that grew up around the cult, not to a contemporary eyewitness record."
 modern_contrast: >-
   A modern reader might expect a martyr story this vivid to come from a

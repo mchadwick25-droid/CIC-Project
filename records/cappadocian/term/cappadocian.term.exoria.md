@@ -22,7 +22,7 @@ retrieval:
   - exile or banishment of bishops under hostile rulers
   do_not_retrieve_when: []
 relations: []
-plain_meaning: In this world, holding the wrong position at the wrong moment could mean banishment. Bishops
+plain_meaning: Among us, holding the wrong position at the wrong moment could mean banishment. Bishops
   were sent away from their own cities under hostile rulers. Some sees were held only by whoever could
   outlast the exile.
 world_word: exoria
