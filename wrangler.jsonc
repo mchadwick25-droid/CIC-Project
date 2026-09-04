@@ -10,7 +10,17 @@
   // interactive config-generation prompt and has no documented effect in a
   // non-interactive CI run like Workers Build — the config file is what
   // actually has to carry it there.
-  "name": "cic-website",
+  //
+  // "name" is "cic-project", not "cic-website" (an earlier version of this
+  // file got this wrong, guessing from the cic-website/ folder name — the
+  // Workers Build still failed after that push). The actual registered
+  // Cloudflare Worker service is "cic-project": confirmed from the GitHub
+  // check run's own name ("Workers Builds: cic-project") and its Cloudflare
+  // dashboard URL (.../workers/services/view/cic-project/production/...),
+  // both independent of anything in this repo. Wrangler requires the
+  // config's name to match the dashboard-linked service, or the build
+  // fails fast, before ever reaching the asset upload step.
+  "name": "cic-project",
   "compatibility_date": "2026-09-03",
   "assets": {
     "directory": "./cic-website"
