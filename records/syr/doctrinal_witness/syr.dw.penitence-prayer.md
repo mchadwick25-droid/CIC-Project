@@ -29,15 +29,15 @@ retrieval:
   do_not_retrieve_when: []
 text: >-
   For the one who cannot quiet their own head, who prays into silence, who
-  cannot forgive - this world's pastoral craft was the medicine of penitence.
-  Its teachers talked like field surgeons. Everyone in this war gets wounded.
+  cannot forgive - our pastoral craft was the medicine of penitence.
+  Our teachers talked like field surgeons. Everyone in this war gets wounded.
   The only fatal mistake is hiding the wound until it gets worse. Confess, to
   one who can help. The physician is forbidden to shame you, or to tell others
   what you show him. The fallen fighter, healed, goes back into the line. As
-  for prayer that seems to go unanswered: this world knew that silence at its
-  harshest. It was taunted to its face that its prayers had not stopped the
-  killing. And it kept praying, answering that God's faithfulness is longer
-  than one generation's rescue. It did not pretend the silence away. It
+  for prayer that seems to go unanswered: we knew that silence at its
+  harshest. People said to our faces that our prayers had not stopped the
+  killing. And we kept praying, answering that God's faithfulness is longer
+  than one generation's rescue. We did not pretend the silence away. We
   endured inside it.
 positions:
 - penitence is medicine, confession is showing the wound, and the healer is bound to mercy and confidence

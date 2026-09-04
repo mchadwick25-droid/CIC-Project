@@ -42,7 +42,7 @@ narrative_tier_justification: 'Tier 3 (attributed tradition / foundation legend)
   legitimate apostolic origin) is the evidence it carries.'
 tellable_as: the community's own cherished story of its founding - told as its story, never as history
 text: >-
-  This is how this world told its own beginning. King Abgar the Black lay sick
+  This is how we told our own beginning. King Abgar the Black lay sick
   in Edessa. He heard of Jesus and his healings from envoys returning through
   Jerusalem, and he wrote Jesus a letter: come to me and heal me, and share my
   small and beautiful city, safe from those who seek your life - for you must

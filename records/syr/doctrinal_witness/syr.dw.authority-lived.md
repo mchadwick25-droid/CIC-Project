@@ -31,7 +31,7 @@ relations:
 - type: associated-with
   target: syr.gravity.authority-ambiguity
 text: >-
-  Who held authority among these people? Shepherds, first of all - bishops.
+  Who held authority among us? Shepherds, first of all - bishops.
   Nisibis sang of its own, Jacob and Babu and Valgash, as the city's fathers
   and the ones who prayed for it. The Persian church had its bishops too,
   enough of them to quarrel over precedence. The sage wrote of pastors gently
@@ -41,7 +41,7 @@ text: >-
   like the sage himself, whose rank no one now knows - could write to bishops
   in a synod's name. How did anyone come to have authority? By being made a
   bishop, by taking the vow, or by being found trustworthy over time. Which of
-  these finally outranked the others, this world never settled while it lived.
+  these finally outranked the others, we never settled in our own years.
 positions:
 - bishops led and were beloved - the episcopal line is part of the community's own memory
 - the covenant order and received teachers were real authority pathways beside office

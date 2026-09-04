@@ -26,9 +26,9 @@ retrieval:
 relations:
 - type: associated-with
   target: syr.term.madrasha
-plain_meaning: A memra is a poem in spoken couplets, in one steady meter - recited, not sung. In this
-  world's own years only a few such pieces are securely Ephrem's. The grand 'verse homily' genre came
-  later, after this world's window closed.
+plain_meaning: A memra is a poem in spoken couplets, in one steady meter - recited, not sung. In our
+  own years only a few such pieces are securely Ephrem's. The grand 'verse homily' genre came
+  later, after our time.
 world_word: memra (pl. memre)
 false_friend:
 - verse homily (the later, settled genre of Narsai and Jacob of Serug)
@@ -42,7 +42,7 @@ senses:
     joining.'
   translational: 'If you know ''memra'' from later Syriac literature, set that picture down: here it is
     early, small, and unsettled.'
-quick_meaning: A memra is a poem in recited couplets. In this world's years it was a small form; the famous
+quick_meaning: A memra is a poem in recited couplets. In our years it was a small form; the famous
   verse-homily genre came later.
 distortion_risk: low
 ---
