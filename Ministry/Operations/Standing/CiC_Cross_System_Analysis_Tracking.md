@@ -487,10 +487,25 @@ world's window, or does it just honestly name an absence?
   world's own lifetime), source-dating qualification, and plain "not yet"
   statements that name an absence without asserting what came after.
 - **4 borderline** (`syr.term.catholicos`, `hal.term.grammaticus`,
-  `cappadocian.dw.marriage-ending`, `ijc.story.emperor-penance`) — held for
-  Mark's own read rather than resolved unilaterally; closer to a doctrinal-
-  content judgment than a mechanical fix, and this thread doesn't
-  unilaterally rewrite a world's substantive content on its own reading.
+  `cappadocian.dw.marriage-ending`, `ijc.story.emperor-penance`) — walked
+  through with Mark one at a time rather than resolved unilaterally.
+  Resolution: `syr.term.catholicos` partial-fixed (kept naming "Catholicos"
+  as the later title, needed for this record's own corrective purpose and
+  the same shape as the approved "you are calling it transubstantiation"
+  bridge; cut the one sentence narrating what "later tradition" actually
+  did with it). `ijc.story.emperor-penance`: cut one clause ("the church
+  has retold their version ever since") claiming an unbroken chain of
+  retelling past the world's own close; its historian-dating language
+  (Sozomen/Theodoret writing within a generation, still inside ijc's own
+  window) stayed, since citing a near-contemporary source is not the
+  defect. `hal.term.grammaticus` and `cappadocian.dw.marriage-ending`:
+  left as-is on inspection — both turned out to be one figure's own later
+  work compared to their own earlier work, within the same lifetime and
+  the same world's own window (Jerome's translation labor vs. his own
+  boyhood schooling; Basil's own canonical letters vs. his own earlier
+  ascetic rule) — ordinary biographical/institutional narration, not
+  forward-vantage narration. Repinned syr and ijc (the two whose compiled
+  fields changed); gate battery and test suite confirmed unchanged.
 
 **Generation-time fix**: extended `records/_fleet/fleet_voice/
 _fleet.voice.fleet.md`'s `pronoun_rule` — the same field that already
