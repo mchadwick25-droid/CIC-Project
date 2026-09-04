@@ -348,6 +348,98 @@ corrected), not hand-patching — and that is billed model spend, held for his
 explicit go-ahead before it runs, exactly as agreed before this census
 started.
 
+### Regeneration — done, 2026-09-04 (same session, after Mark's go-ahead)
+
+Before launching, grounded the brief in what was actually already ruled
+rather than a paraphrase of it: the fleet_voice record's `pronoun_rule`
+(`records/_fleet/fleet_voice/_fleet.voice.fleet.md`) already states, verbatim,
+"we do not call our world 'this world' or 'that world'" — this rule existed
+before this thread ever started and was never gated, exactly the "written
+down, never built" failure mode this thread exists to catch, just discovered
+one level deeper than the census alone found it. Also surfaced: the same
+record's own history note documents a prior, reverted attempt at a voice fix
+(2026-08-29) that "turned the voices into record-reciters" — a real, named
+risk this thread's brief explicitly warned the regeneration against, not a
+hypothetical. And the readability standard turned out to be a real, dated
+ruling (`VR_1A_NorthStar_Readability_Target_2026-08-09.md`, "hard edge,
+readability is the whole point"): CEFR B2, FK 8–10 **and** FRE ≥ 60, anchored
+to BBC News/National Geographic prose, with the Bible Project/Tim Mackie
+register (define-then-label) as the founding-vision citation — Mark's own
+words describe Church in Conversation as in part an attempt at "The Bible
+Project, which makes serious scholarship accessible without dumbing it
+down." **Side finding, not fixed here:** FRE ≥ 60 is part of that same ruling
+but `engine/m1/fk.py`/`gate_readability` only computes FK — there is no FRE
+gate anywhere in the battery. Flagged to Mark; not actioned without separate
+sign-off, since adding a permanent gate is a bigger decision than this task.
+
+**One Fable subagent** (not seven — Mark's own phrasing, "a fable agent")
+worked all 7 worlds sequentially (desert→pahc→ijc→alx→syr→hal→cappadocian,
+smallest to largest), re-fetching each world's findings fresh immediately
+before starting it rather than trusting the earlier count, self-verifying
+against the gate after each world before moving on. 137 files, all under
+`records/<world>/`, nothing outside the proven field scope touched, nothing
+recompiled or repinned, nothing committed by the agent itself.
+
+**Verified independently, not taken on the agent's own report:** re-ran
+`gate_voice_perspective` and the full M1 battery myself against the actual
+working tree — 281 → 2, both matching the two already-known false-positive
+exceptions exactly (`cappadocian.dw.reading-scripture`, `syr.dw.death-
+judgment`, same "the world's..." lower-precision form documented at the
+gate's own build). Confirmed against a `git stash` round-trip that every
+other gate's non-empty result (desert's 1 and pahc's 2 `reciprocity`
+findings) is pre-existing, unchanged by the pass. Spot-checked several diffs
+by hand across worlds and record types for fidelity and register quality.
+
+**Independent adversarial review, Opus, full sweep of all 137 files** (not
+a sample — this is live participant-facing content) — did not trust the
+Fable agent's self-report either. Verdict: scope perfectly respected (zero
+touches outside the proven field list across 479 changed lines), all 137
+files' YAML parses, zero citation/quote damage, both licensed idioms
+preserved verbatim, readability flat (mean FK delta +0.02 across 169
+fields), no record-reciter monotony. Found 11 real, specific problems: 2
+softened/strengthened claims (a "taunted" flattened to neutral "said"; an
+invented "everywhere" plus an unwanted active→passive shift), 1 meaning
+shift (a normative claim turned into an implied-restricted-access one), 1
+mid-clause person flip, 1 pronoun collision (a rewritten "we" colliding with
+a pre-existing "we" that meant something else in the same sentence), 3
+partial/inconsistent conversions, and — the most important class — 3 whole
+records the mechanical gate structurally could not have flagged
+(`syr.dw.failures.md`, `syr.dw.born-again-endtimes.md`,
+`pahc.story.two-ways-catechumen.md`, plus a partial fourth,
+`pahc.story.mutual-aid-prisoner.md`) because they carry the identical defect
+in different words — "this community," "these churches," "this voice,"
+"they" — outside `gate_voice_perspective`'s literal "this/the world" pattern
+entirely. Confirms the pattern the original census already named: the
+mechanical check is a floor, not the whole defect class, even within scope
+Mark bounded this assignment to.
+
+Fixed all 11 by hand (not another Fable pass — these were small, precise,
+already-diagnosed-by-Opus edits), including one case where the fix itself
+regressed readability (restoring the original "a woman's highest calling"
+verbatim reintroduces the exact FK-10.2 violation the Fable pass had already
+caught and fixed once) — resolved with a third phrasing that satisfies both
+the fidelity concern and the FK ceiling (verified against `fk_grade`
+directly, not eyeballed). Re-ran the full M1 battery after every fix.
+
+**Final state:** `gate_voice_perspective` 0/0/0/0/0/1/1 across the 7
+worlds (the 2 remaining are the same proven exceptions, not defects). No
+regression on any other gate anywhere. `engine/m1/` + `engine/m2/` test
+suites (34 tests) green. 12 commits on `claude/cic-project-review-3vu3z3`
+(7 per-world re-voice + 5 per-world review-fix), all unpushed pending Mark
+seeing the results — per this project's own standing rule, "push only on
+Mark's word" (`CiC_Record_Native_World_Build_Process`'s session rules).
+
+**What is still genuinely open:** the FRE gate gap (side finding above).
+The broader "future/outside-vantage" class named at the start of this
+thread's first assignment — anachronistic terminology, forward-referencing
+statements, reader's-eye comparisons — remains follow-on scope, not
+attempted. And the "this community"/"these churches"/"this voice" synonym
+family the Opus review surfaced live in this pass is itself evidence that
+`gate_voice_perspective`'s literal-pattern approach has a real, demonstrated
+recall gap beyond the two documented lower-precision forms — worth a
+dedicated look before calling this defect class closed, not assumed fixed
+because the mechanical gate is quiet.
+
 ### Follow-on scope, logged not dropped
 
 The broader "future/outside-vantage" defect class Mark named in interview —
