@@ -152,6 +152,16 @@
       ]
     },
     {
+      "id": "voice-perspective-third-person-self-reference",
+      "gate": "voice-perspective",
+      "status": "caught",
+      "findings": [
+        "fix.witness.who-is-jesus.text: speaks of \"this world\" from outside rather than as \"we\"/\"our\" - 'This world did not claim to have seen him.'",
+        "fix.witness.who-is-jesus.text: speaks of \"this world\" from outside rather than as \"we\"/\"our\" - \"Its record says only that the ones who told it could not be talked out of what they had seen, and that it was worth this world's own lives changing be\"",
+        "fix.witness.who-is-jesus.text: the sentence right after \"this/the world...\" opens with \"Its\", continuing the third-person description instead of switching to \"we\" - \"Its record says only that the ones who told it could not be talked out of what they had seen, and that it was worth this world's own lives changing be\""
+      ]
+    },
+    {
       "id": "sentinel-string-in-retrieval-block",
       "gate": "schema-validation",
       "status": "caught",

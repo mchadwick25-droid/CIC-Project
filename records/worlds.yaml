@@ -13,8 +13,8 @@ worlds:
     state: built
     census_id: null
     package:
-      manifest_hash: "sha256:6aeda41fb4471b0066f7781f4660046b070854426c6b9a98bdc6eb10c541a652"
-      location: "packages/fix/2026-09-04T01-37-28Z"
+      manifest_hash: "sha256:4d3ffd1314c37c6ed8c4f637cff5fda3e3c45d030b99bb7e2b442f895bd104f8"
+      location: "packages/fix/2026-09-04T11-53-08Z"
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
   alx:

@@ -249,8 +249,104 @@ prompt-rule accretion):
 **Status: census complete for Forms 1 and 3 (proven exceptions, final
 counts); Form 2 has a solid high-confidence floor (24/23) and a sampled
 estimate (~130–160/60–90) but not yet an exact count. Root cause identified
-and evidenced. No fix executed yet — reporting to Mark before any record
-edit, documentation change, gate addition, or regeneration spend.**
+and evidenced.**
+
+### Documentation and gate work — done, 2026-09-04 (same session)
+
+Mark's direction after the census report: proceed with documentation and the
+gate, hold the actual fleet-wide record regeneration for separate approval.
+
+**Field scope, coded, not just reasoned about.** `engine/m1/gates.py` gained
+`_PERSPECTIVE_FIELDS`, the literal field map proven above
+(`term.plain_meaning`/`quick_meaning`, `story.tellable_as`/`text`,
+`ambient.detail`, `doctrinal_witness.text`, `honest_limit.statement`, plus
+`demonstration.exchange[].text` for `speaker: representative` turns handled
+separately) — so the gate's scope is the same proven trace as the census, not
+a second, independently-drifting guess at it.
+
+**New gate: `gate_voice_perspective`, registered as `voice-perspective` in
+`GATES`.** Three checks, precision documented at each, matching the census's
+own findings:
+- literal "this world[,'s]" (Form 1), the two proven exceptions
+  (`_MAKER_OF_THIS_WORLD`, `_NOT_OF_THIS_WORLD`) built in as fixed idioms,
+  not a growing word list — same standing as several other gates' own narrow
+  regex exceptions.
+- "the world's..." possessive (a narrowed Form 3 — literal possessive only,
+  not the full bare-noun form, since a blind "the world" search runs only
+  ~20% precision per the census; the possessive-only form runs ~70%,
+  documented in the gate's own docstring as worth a human read, not a
+  confirmed finding on its own).
+- the Tier-A it/its chain (Form 2's high-confidence floor only — sentence
+  immediately after a literal "this/the world" subject sentence — not the
+  broader ~37%-precision pool, for the same reason: the codebase's own
+  established norm, per `gate_no_build_attribution`'s own field-scoping
+  comment, is not to drown real findings in noise).
+
+Sentence splitting reuses `engine.prose.quote_aware_sentences` (already the
+shared primitive `engine/m2/builders.py`, `engine/m4/evidence.py`, and
+`engine/m1/canon.py` all use) rather than a new one-off splitter.
+
+**Selftest-proven**, per the fixture discipline `fixtures/README.md`/
+`Build-Blueprint.md §5 stage 0.6` establish: added
+`voice-perspective-third-person-self-reference` to
+`fixtures/seeded_defects.yaml`, one mutation on
+`records/fix/doctrinal_witness/fix.witness.who-is-jesus.md`'s `text`
+exercising both the literal-phrase and it-chain checks together (the same
+one-mutation-hits-two-patterns shape `no-build-attribution-leaked-ruling`'s
+own seeded defect already uses). Running the gate against the **clean**
+fixture surfaced a real, pre-existing instance of the actual defect inside
+`records/fix/term/fix.term.the-three.md`'s own `plain_meaning` — "How this
+world named Father, Son, and Spirit together" — one of the 250 counted above
+(`fix: 1`). Fixed by hand, in-register, using the record's own
+`senses.informational` field (already correctly first-person) as the model:
+"How we named Father, Son, and Spirit together. We said this before any
+later word for it existed." Content unchanged, register only. Recompiled and
+repinned the fixture's package (`python -m engine.m2.cli build fix`;
+`records/worlds.yaml`'s `fix.package` updated to the new manifest_hash/
+location) since the compiled bytes and the pin must track the record —
+caught by `engine/m2/tests/test_restore.py` going red, not assumed. Full
+selftest (`python -m engine.m1.selftest`): `overall_pass: true`, clean
+baseline, zero misses, zero inert gates — 18 M1 gates now, all
+selftest-proven, same standing the system-state summary already claims for
+the other 17. `engine/m1/` and `engine/m2/` test suites (34 tests) green.
+
+**Run against the real fleet** (not just the fixture — same discipline
+`gate_readability`'s own docstring models: "a real, live check, not a
+formality"): 281 findings across the 7 formation worlds (fixture now clean
+at 0) — alx 35, cappadocian 81, desert 3, hal 66, ijc 33, pahc 6, syr 57.
+Breaks down as 248 literal "this world", 9 "the world's..." (lower
+precision, flagged for a human read per the gate's own documented ~70%),
+24 it/its-chain (matches the census's Tier-A count exactly). The 248 vs. the
+census's hand-verified 250 is a small, explicable methodology difference —
+the gate counts one finding per matching *sentence*, the hand census counted
+raw phrase *occurrences* (so a sentence containing "this world" twice counts
+once here, twice there) — not a discrepancy worth chasing further; the gate
+is a faithful, auditable reimplementation of the same logic the census used,
+not a second independent measurement that happens to disagree.
+
+**Documentation updated the same day**, per the Register Bar's own
+established precedent for exactly this situation (its own "no-fix-on-fix
+ruling": fix at the record layer, base conditions generate it right going
+forward, never prompt-rule accretion):
+- `CiC_Register_Bar_2026-08-29.md` — added first-person perspective as a
+  named property of the approved sample (attributed honestly as this
+  thread's 2026-09-04 finding, not folded into Mark's own quoted words from
+  the day the bar was set), plus a fifth line in "Where the bar is held"
+  naming the new gate as the one property M7 measurement alone couldn't
+  catch.
+- `CiC_Record_Native_World_Build_Process_V1_3.md` — bumped to V1.4, voice
+  perspective added as Phase B's fourth birth condition (alongside the
+  register bar, transparency ground, and file discipline), same section
+  shape as the other three. Kept the filename as-is (V1_3) rather than
+  renaming — several other files reference this document by exact path, and
+  the version bump is inside the document, not in what points to it.
+
+**What is still open, deliberately:** the 281 real findings above are not
+fixed. Per Mark's direction, fixing them means regenerating through the
+corrected authoring path (the same Fable-subagent lexicon/witness process,
+corrected), not hand-patching — and that is billed model spend, held for his
+explicit go-ahead before it runs, exactly as agreed before this census
+started.
 
 ### Follow-on scope, logged not dropped
 
