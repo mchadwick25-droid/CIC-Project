@@ -440,6 +440,78 @@ recall gap beyond the two documented lower-precision forms — worth a
 dedicated look before calling this defect class closed, not assumed fixed
 because the mechanical gate is quiet.
 
+### Second form confirmed live and fixed — forward-vantage anachronism, 2026-09-04 (same session)
+
+Mark ran a live probe against the deployed system after the self-reference
+fixes landed and the specific incident he'd been worried about (an "Old
+Testament" example) did not resurface — a real, useful signal, though not
+proof the broader class was gone (one clean retest ≠ a census). He then
+supplied a fresh live transcript excerpt containing a different, real
+instance: *"we meant a wider stream than what later centuries called the
+canon."* Correct we-voice throughout — and still narrating from outside the
+world's own years, exactly the class this thread's first assignment named
+at the start ("the grand genre came later, after this world's window
+closed") but explicitly scoped out of the first round.
+
+**Confirmed as corpus-connected, not generation-only:** the exact sentence
+Mark quoted isn't a copy of any static record, but the same underlying
+pattern is real and already in the corpus — grep found it in `alx`, `desert`,
+`syr`, `pahc` before any fix. So the live model is composing new instances
+of this pattern at generation time even when the record it's drawing on
+doesn't literally contain it — this needed a two-layer fix, not a corpus
+sweep alone. Mark's own instruction: fix the source at both layers, no
+after-the-fact output screening (matches this project's own standing
+lesson about the reverted 2026-08-29 prompt-accretion attempt).
+
+**Census** (same field scope as the self-reference gate, 12-pattern regex
+sweep, every hit hand-read — not a blind count): 39 raw candidates fleet-
+wide. Read every one in context against the real test: does the voice
+assert positive knowledge of something that happened *after* its own
+world's window, or does it just honestly name an absence?
+
+- **9 confirmed defects**, across pahc, syr (×3 fields, 2 records), desert
+  (×2 records), cappadocian, hal (×2 fields) — fixed at the record layer,
+  same rewrite discipline as the self-reference pass (preserve every fact/
+  citation, several reusing phrasing already present elsewhere in the same
+  record so nothing is invented). One found only by reading the file, not
+  the regex (`hal.term.vulgata.plain_meaning`, "only much later did the
+  church call it" — a grammatical form the census pattern list missed).
+- **~26 are a real, already-correct pattern, not a defect**: naming a
+  later term explicitly as *the participant's own word* ("the later word
+  transubstantiation **you are calling** it") rather than narrating history
+  from outside. `hal.dw.was-jesus-god` is cited elsewhere in this corpus's
+  own body notes as the worked exemplar other worlds already copy — this
+  fix had to explicitly protect that pattern, not just avoid breaking it by
+  accident. Also not defects: ordinary within-window biography ("Julian,
+  who would become emperor, spent his boyhood…" — the event is inside the
+  world's own lifetime), source-dating qualification, and plain "not yet"
+  statements that name an absence without asserting what came after.
+- **4 borderline** (`syr.term.catholicos`, `hal.term.grammaticus`,
+  `cappadocian.dw.marriage-ending`, `ijc.story.emperor-penance`) — held for
+  Mark's own read rather than resolved unilaterally; closer to a doctrinal-
+  content judgment than a mechanical fix, and this thread doesn't
+  unilaterally rewrite a world's substantive content on its own reading.
+
+**Generation-time fix**: extended `records/_fleet/fleet_voice/
+_fleet.voice.fleet.md`'s `pronoun_rule` — the same field that already
+fixed self-reference — with one bounded clause plus the exact worked
+example Mark's own approved rewrite produced ("what later centuries called
+the canon" → "any single fixed list"), and an explicit carve-out
+preserving the translational-bridge pattern above so the new instruction
+doesn't suppress good content along with the bad. Deliberately scoped as
+tightly as the 2026-08-29 "To this world" addition in the same field — one
+clause, one proven example — given that field's own recorded history: a
+prior, larger round of prompt instructions was reverted the same day for
+degrading quality into "record-reciters." **Not yet re-proven under the
+deployed runtime** (this project's own FLAG-037 rule: a prompt fix argued
+in isolation must be re-proven live before it counts) — that requires a
+live model call and stays held for Mark's explicit go-ahead.
+
+**Repinned all 8 worlds** (`records/worlds.yaml` + `packages/*/manifest.json`)
+since `fleet_voice` compiles into every world's prompt — today's cumulative
+edits had left every package stale relative to its pin.
+`engine.m2.cli staleness-check` clean across all 8; full M1/M2 suite green.
+
 ### Follow-on scope, logged not dropped
 
 The broader "future/outside-vantage" defect class Mark named in interview —
