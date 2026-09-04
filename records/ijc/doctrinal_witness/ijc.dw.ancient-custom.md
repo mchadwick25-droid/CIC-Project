@@ -33,9 +33,9 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  How did this world know its practices went back to the apostles? It asked
-  that exact question about itself, constantly, because 'ancient custom' was
-  its strongest currency. Nicaea makes law with it: let the ancient customs
+  How did we know our practices went back to the apostles? We asked
+  that exact question about ourselves, constantly, because 'ancient custom' was
+  our strongest currency. Nicaea makes law with it: let the ancient customs
   prevail. Julius claims Rome's standing with it: the custom has been for word
   to be written first to us. Damasus built pilgrim roads of verse to make his
   see's apostolic memory visible. But the record also lets us watch a custom
@@ -46,8 +46,8 @@ text: >-
   He claims a real beginning at Milan and a wide later imitation - not the
   first Latin hymn ever written. Hilary of Poitiers had already tried, a
   generation earlier, and our sources say he never got hymns into public
-  worship; that success belongs to Ambrose. So the honest answer this world's
-  own record gives is this. Some of its practices genuinely came down from
+  worship; that success belongs to Ambrose. So the honest answer our
+  own record gives is this. Some of our practices genuinely came down from
   before anyone could remember otherwise. Some were new, and known to be new.
   And the claim of apostolic age was itself a tool, used hardest exactly where
   it was most contested.

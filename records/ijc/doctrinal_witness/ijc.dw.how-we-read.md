@@ -28,9 +28,9 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  This world read its scriptures the way it read everything else: as binding
+  We read our scriptures the way we read everything else: as binding
   authority. Where other Christian eras read the Bible for private
-  contemplation, this one read it to settle questions of office, law, and
+  contemplation, we read it to settle questions of office, law, and
   boundary. When Rome read 'You are Peter, and on this rock I will build my
   church,' it took the verse as a standing grant of office, not only a
   blessing. The century's deepest fight was over scriptural words. Was the Son
@@ -39,8 +39,8 @@ text: >-
   better was the whole fight, and both sides argued it from the same texts,
   at councils, with office and exile riding on the outcome. Past council rulings
   were read the way a court reads precedent: 'let the ancient customs
-  prevail.' As for which books counted as scripture, this world inherited the
-  list in nearly settled form. Its fights were about interpretation, not
+  prevail.' As for which books counted as scripture, we inherited the
+  list in nearly settled form. Our fights were about interpretation, not
   contents. And how did someone who could not read receive all this? The
   record barely says. What it shows is the channels: hearing scripture read
   aloud in the assembly, confessing the creed, and singing the psalms.

@@ -48,8 +48,8 @@ text: >-
   survive beside the plea. The emperor is a Christian, he argued. The state
   may not fund what the faith knows to be false. And what Symmachus called
   reverence for the past was the past's own long error. The altar stayed
-  removed. The exchange is this world's establishment speaking at its most
-  confident. It is also the rare place in the record where the defeated side
+  removed. The exchange is our establishment speaking at its most
+  confident. It is also the rare place in our record where the defeated side
   is heard making its own case, in its own words, at full strength.
 absent_detail: Ordinary pagans' religion - as against a senatorial orator's - is not what the Memorial
   preserves; and the emperor's own deliberation survives only as its outcome. The wider legal
