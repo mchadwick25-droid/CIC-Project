@@ -2741,3 +2741,71 @@ handed to the engine session). Open question for Mark, not assumed
 either way: whether `CiC-Program-Spec.md` itself should be formally
 updated to match today's safety-gate ruling, and if so through which
 thread's change-order process.
+
+---
+
+## 2026-09-04 (later still) — Both engine bugs fixed and verified; Mark
+confirms the system is good to broaden the pilot
+
+**Both bugs from the live test, fixed and merged to main same day, by
+the engine build session:**
+
+1. **The mid-conversation 503** (`67398b18`). Root cause matched this
+   thread's own diagnosis exactly: `_load_world()` always resolved a
+   session's package directory through the registry's CURRENT pointer,
+   never the one the session actually verified against at open - the
+   engine track's own canon-question repin (`cce06936`) landing
+   mid-conversation is what triggered it live. Fixed at both layers:
+   `LazyWorldLoader` now keys its cache by `(world_key,
+   expected_manifest_hash)` instead of bare `world_key` (a cache hit no
+   longer skips re-verification), and a session's own pinned package
+   location is now written once at open and used on every later turn,
+   instead of re-resolving through today's registry pointer. This is
+   exactly the old-package-retention promise `Artifact-2` already made
+   and `_load_world` never implemented - closed for good, not just for
+   this one incident, so future repins (routine, expected to keep
+   happening) no longer break whatever conversation is in flight at
+   deploy time. New regression test reproduces the exact failure
+   against two real compiled packages; confirmed failing on old code,
+   passing on the fix.
+
+2. **"Leave" reverting to the old look** (`f6093273`). The embedded
+   conversation app now detects `window.self !== window.top` and, when
+   embedded, posts a message to the parent instead of falling back to
+   its own pre-redesign `Launch` screen - `talk.html` already owns a
+   real, styled back-link and gets to decide where "leave" goes, not
+   the embedded app re-deciding for itself. Standalone (non-iframe)
+   behavior unchanged. Also flipped the 503's error affordance from
+   unrecoverable to recoverable, matching its own "try again in a
+   moment" copy now that the repin fix should make it rare. Verified
+   end-to-end against the real running stack in a real browser, not
+   just a type-check - confirmed the bug reproduces on pre-fix code and
+   is gone after.
+
+**One CI hiccup in between, caught and fixed by a different watchdog
+thread** (the System Health sweep, not this one): the repin fix's own
+regression test depended on historical compiled package bytes that are
+never committed to git per this repo's own packages policy - passed
+locally by accident (leftover build artifacts in that session's working
+tree) but failed on every clean checkout, including CI. Escalated,
+then fixed same day (`ad8ecce1`) by rewriting the test to compile its
+own packages hermetically. Confirmed: main's CI is green on its current
+tip.
+
+**Mark, on the Chloe "cryptic talk" voice-quality regression flagged
+earlier today:** "we have fixed the chloe voice on another thread, we
+are good." Closes the one loose end from the earlier live-test report -
+nothing further open there.
+
+**Where this leaves the "full live launch" checklist from the entry
+above:** with both engine bugs fixed and verified, and the voice-quality
+regression separately resolved, nothing from that list's remaining
+items reads as an active blocker. **Mark's own confirmation stands as
+the launch call:** the system is good to broaden the pilot.
+
+### Next action
+
+None from this thread. Whatever comes next belongs to whatever Mark
+raises - including, if it comes up, the still-open question of whether
+`CiC-Program-Spec.md` gets formally updated to match the safety-gate
+ruling above.
