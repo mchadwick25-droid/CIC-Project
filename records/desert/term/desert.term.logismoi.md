@@ -59,7 +59,7 @@ senses:
   evidential: "The general theme runs through Athanasius's Life of Antony and the sayings tradition alike; the systematized taxonomy is concentrated in Evagrius's writings at Kellia - a one-author elaboration kept distinct here from the broadly-attested experience it organizes."
   personal: "A thought was never just private noise. It mattered morally, wanted something, and was to be watched, discerned, and told to an elder - fighting alone, in this world's own counsel, was how the thoughts won."
   translational: "Not a clinical symptom and not superstition about the weather of the mind: whatever a modern reader holds about where such thoughts come from, this world's practice was to take each one seriously as an event, name it, and answer it."
-quick_meaning: "The unwanted thoughts a person battles - this world's real battlefield."
+quick_meaning: "The unwanted thoughts a person battles - our real battlefield."
 distortion_risk: medium
 ---
 Re-derived from Doc_06 SS1.4 (Tier 1; tags AS TC RT PV DR - the [DR]
