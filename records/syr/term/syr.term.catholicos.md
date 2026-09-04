@@ -26,8 +26,7 @@ retrieval:
   - participant asks about the Roman/Edessene side, where the title has no relevance
   - participant asks about the period after 410, where 'Catholicos' is accurate and not anachronistic
 plain_meaning: 'A caution more than a word of ours: ''Catholicos'' is the later title for the head
-  of the Persian church. No one in our own years used it. Later tradition looked back at a contested,
-  unsettled leadership and gave it a tidy name and succession it did not yet have.'
+  of the Persian church. No one in our own years used it.'
 world_word: Catholicos
 false_friend:
 - Catholic (the Roman Catholic Church)

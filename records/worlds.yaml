@@ -141,8 +141,8 @@ worlds:
     state: admitted
     census_id: "syriac-edessa-nisibis"
     package:
-      manifest_hash: "sha256:b9679bcbe0fa1ee242bf0260f50c3c548970fd0fec5d729b08556d261d495538"
-      location: "packages/syr/2026-09-04T16-41-57Z"
+      manifest_hash: "sha256:025cb1817ca5aea6bdf4b81c5d3e029806dbb516d7a82579f51a690cd4348f16"
+      location: "packages/syr/2026-09-04T18-49-01Z"
     thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
     living_tradition_flag: true
   ijc:
@@ -166,8 +166,8 @@ worlds:
     state: admitted
     census_id: "imperial-juridical-christianity"
     package:
-      manifest_hash: "sha256:5f83bf23af4819ace5fe85e611186cdbd8655cadf02825a3d9de6e1d0b4c3c66"
-      location: "packages/ijc/2026-09-04T16-41-55Z"
+      manifest_hash: "sha256:aaba5b97dd2850cd190932dbc7958cc11a467ef589ec54ca4257172faf09f5b0"
+      location: "packages/ijc/2026-09-04T18-49-02Z"
     thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
     living_tradition_flag: true
   cappadocian:
