@@ -2,10 +2,37 @@
 translate a TurnResult into the right event-log/usage-log writes, in the
 right order, including the two branches run_turn() itself doesn't fully
 handle content for (crisis, unhandled routing)."""
+from pathlib import Path
+
 import pytest
 
 from engine.api import wiring
 from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety_response
+from engine.m2.compiler import compile_and_hash
+
+
+def _compile_fix_package(tmp_path: Path, package_id: str) -> tuple[str, str]:
+    """A real, freshly-compiled fix package written under tmp_path, distinct
+    from any other call by package_id alone (same records in, but package_id
+    is embedded in the manifest, so the hash differs even though every other
+    byte is identical - real repin behavior: content didn't change, the pin
+    did). Returns (location, manifest_hash); location is the tmp_path
+    directory's own absolute path, which _load_world's `REPO_ROOT /
+    location` resolves to unchanged (pathlib: an absolute right operand
+    wins), so this needs no repo-root-relative placement at all - fully
+    hermetic, no dependency on any package actually committed to the repo
+    (packages/README/.gitignore: compiled bytes are derived, never
+    committed - only manifest.json is, which is what caught the first
+    version of this test using real historical packages: it passed locally
+    off compiled bytes this session's own `build` calls had left on disk,
+    and failed on every clean checkout, CI included, 2026-09-04)."""
+    package, digest = compile_and_hash(world_key="fix", package_id=package_id, records_commit="TEST", compiler_version="TEST")
+    out_dir = tmp_path / package_id
+    for rel_path, content in package.items():
+        target = out_dir / rel_path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(content)
+    return str(out_dir), digest
 
 
 def test_create_session_opens_exactly_one_session_started(store, world_loader, registry):
@@ -25,7 +52,7 @@ def test_create_session_unknown_world_raises(store, world_loader, registry):
         wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="does-not-exist")
 
 
-def test_a_repin_mid_session_does_not_refuse_the_in_flight_session(store, usage_store, world_loader, registry):
+def test_a_repin_mid_session_does_not_refuse_the_in_flight_session(store, usage_store, world_loader, registry, tmp_path):
     """Regression, 2026-09-04: a live bug Mark hit on turn 3 of a real
     conversation, root-caused to _load_world() always resolving the package
     DIRECTORY through the registry's CURRENT pointer rather than the one a
@@ -34,20 +61,11 @@ def test_a_repin_mid_session_does_not_refuse_the_in_flight_session(store, usage_
     worlds.yaml commit landing mid-conversation) made every later turn
     refuse with PackageRefused -> 503, permanently, for that session.
 
-    Uses two of fix's own real, already-compiled historical packages
-    (never deleted - packages/fix/*) rather than a synthetic fixture, so
-    this proves the fix against real package bytes, not an idealization.
-    Picked from packages actually holding full compiled bytes locally, not
-    just the manifest.json committed history keeps (packages/README/
-    .gitignore: compiled bytes are derived, not source)."""
-    old_location, old_hash = (
-        "packages/fix/2026-09-03T14-57-38Z",
-        "sha256:e27e46abe8e11edf25375e64829d7e4ef9b47812aee8ac5d96a917e27452de0d",
-    )
-    new_location, new_hash = (
-        "packages/fix/2026-09-04T01-37-28Z",
-        "sha256:6aeda41fb4471b0066f7781f4660046b070854426c6b9a98bdc6eb10c541a652",
-    )
+    Compiles two real fix packages of its own (see _compile_fix_package) -
+    proves the fix against real compile_world() output, not a synthetic
+    manifest, while staying hermetic against a clean checkout."""
+    old_location, old_hash = _compile_fix_package(tmp_path, "test-repin-old")
+    new_location, new_hash = _compile_fix_package(tmp_path, "test-repin-new")
     registry["fix"]["package"]["location"] = old_location
     registry["fix"]["package"]["manifest_hash"] = old_hash
 
