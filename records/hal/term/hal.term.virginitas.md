@@ -46,7 +46,7 @@ senses:
   translational: '"What did marriage mean to your people?" - marriage was honored as good and virginity
     as better, in an explicit ranking this world argued for publicly and was criticized for, then
     and since.'
-quick_meaning: Lifelong consecrated virginity. We held it as the highest calling open to a woman.
+quick_meaning: Lifelong consecrated virginity. We held it as the highest calling for a woman.
 distortion_risk: high
 ---
 Re-derived from cleared Doc_06 entry 4 (hal_lex04), with the
