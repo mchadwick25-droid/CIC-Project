@@ -28,20 +28,20 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Born again - is that how this world would put what happened to its people?
-  It spoke of baptism as the washing that makes new. And it spoke of
-  conversion as a turn so sharp you could name the day: the day the widow put
+  Born again - is that how we would put what happened to us?
+  We spoke of baptism as the washing that makes new. And conversion, for us,
+  was a turn so sharp you could name the day: the day the widow put
   on sackcloth, the day the scholar swore off his beloved books. The words are
-  different. The turning is recognizable. Did they tithe? No - a tenth would
+  different. The turning is recognizable. Did we tithe? No - a tenth would
   have sounded timid here. Giving was not a percentage but a direction.
   Fortunes were emptied toward the poor, the sick, and the scriptures, with
   the giver deciding, and being urged to decide for more. What about the end
-  of the world - anything like the rapture? No such scheme is in its pages.
-  But this world watched Rome itself fall within its own lifetime, and it read
-  that event with scripture in its mouth: the head of the empire cut off, the
-  world's light put out, judgment spoken in the prophets' words. It did not
-  calculate the end. It grieved what looked like the end arriving, and it kept
-  praying and translating anyway.
+  of the world - anything like the rapture? No such scheme is in our pages.
+  But we watched Rome itself fall within our own lifetime, and we read
+  that event with scripture in our mouths: the head of the empire cut off, the
+  light of all the world put out, judgment spoken in the prophets' words. We
+  did not calculate the end. We grieved what looked like the end arriving, and
+  kept praying and translating anyway.
 positions:
 - baptism and datable conversion carry what "born again" carries, in this world's own
   words

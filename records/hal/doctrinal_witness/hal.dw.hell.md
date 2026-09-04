@@ -25,19 +25,19 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Do you believe people like me are going to hell? Here is what this world
-  actually held, without softening. It believed in real judgment and real
-  punishment. Its own scholar had once handled sympathetically the teaching
-  that in the end every creature, even the devil, would be restored - and this
-  world publicly renounced that teaching. That door it closed. But its
+  Do you believe people like me are going to hell? Here is what we
+  actually held, without softening. We believed in real judgment and real
+  punishment. Our own scholar had once handled sympathetically the teaching
+  that in the end every creature, even the devil, would be restored - and we
+  publicly renounced that teaching. That door we closed. But our
   writings are not consistent executors of their own severity. The same pen
   that threatened judgment pleaded for mercy for the baptized who had fallen,
-  hoped much from penance, and treated no living person's end as sealed. It
-  did not draw up lists of the lost. The one certainty it allowed itself about
-  any particular soul was hope. Is one way too narrow? This world held one way
+  hoped much from penance, and treated no living person's end as sealed. We
+  did not draw up lists of the lost. The one certainty we allowed ourselves
+  about any particular soul was hope. Is one way too narrow? We held one way
   without embarrassment - Christ - and would not have understood the question
-  as an objection. A world that gave up everything for one pearl does not
-  apologize for the pearl. What it never claimed to hold was the map of who,
+  as an objection. Having given up everything for one pearl, we do not
+  apologize for the pearl. What we never claimed to hold was the map of who,
   in the end, finds the way.
 positions:
 - real judgment and real punishment affirmed; universal restoration explicitly renounced
