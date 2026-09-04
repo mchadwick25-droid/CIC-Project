@@ -2651,3 +2651,93 @@ suggested fixes for both) to the engine build session - this is their
 code to fix, not something in scope for this thread's talk.html/website
 work. Nothing shipped from this thread in response; this is purely a
 diagnosis-and-handoff entry.
+
+---
+
+## 2026-09-04 (same day) — Full-live-launch status pull; three items
+Mark closes out directly, ruling over the spec's own written gates
+
+**Origin.** Mark: "what do we need to do for a full live launch." Pulled
+a consolidated status across this log, the org-funding log, and
+`CiC-Program-Spec.md` itself (via a read-only research pass) rather
+than re-deriving from memory. Confirmed since the last full readiness
+pass (2026-09-03): doors are already open to the informed pilot
+(`CIC_ENFORCE_ADMISSION=1` live, 7/8 worlds `admitted`), M7 (transcript
+audit) is built and has run, consent disclosure shipped, accounts
+decision locked stateless, Website V2 and this week's total rework are
+both live, both lingering CI checks are green. Confirmed still open:
+real pilot conversion data, conversion-tracking instrumentation, an
+account-level spend guardrail beyond the existing per-session/per-IP
+caps, three unreconciled pacing conventions (30/hr, 6/hr, M8's own
+12/hr) underlying every public $/hr figure, and a world-discovery UX
+audit at larger roster sizes. Also surfaced as new: the two engine-side
+bugs from today's live test (previous entry), and that
+`CiC-Program-Spec.md` §8/§10 still name two further gates before
+"public availability" - live adversarial trials to a "ten-of-ten"
+precedent, and a clinician read - both confirmed via direct repo search
+still fully unscheduled, no reviewer ever identified.
+
+**Mark's rulings, verbatim, closing out three of these directly:**
+
+1. **Waitlist: fully off this thread's plate, no site build at all.**
+   "i am managing the waitlist myself outside the system, do delete
+   that task." Goes further than the 2026-09-03 decision (waitlist
+   stays outside any database) - there is now no "Join the waitlist"
+   link or form to wire into the site either. Mark's own manual,
+   entirely out-of-band process is the whole mechanism. **Item 1 from
+   the original Phase 1 readiness list (audience gating) is closed:
+   nothing further for this thread to build or track.**
+
+2. **AWS credit application: ruled non-blocking.** "the aws credit
+   application doesn't block this live launch." Stays exactly what the
+   2026-09-03 org-funding entry already said it was (runway, not a fix
+   to the underlying unit economics) - now explicitly not a launch
+   gate either. No action needed from this thread; the funding log's
+   own next-action (confirm the application's outcome) is unaffected
+   and unrelated to launch readiness.
+
+3. **The two safety gates: ruled overdone, and already decided before
+   today.** Mark's own words: "we aready decided the safety trail and
+   clinician read as overdone, no other program does that and we have
+   determined and programed the safety interventions in the facilitator
+   role and it is working." Read as: the actual safety mechanism this
+   project relies on is the Facilitator's own programmed interventions
+   (crisis-governance routing, the M1/M5 gate battery, the Table's
+   dominance/isolation governance, M7's live audit reading real
+   conversations) - built, live, and functioning - not an external
+   adversarial-trial battery plus a clinician sign-off modeled on a
+   clinical-product standard this project isn't holding itself to.
+   Per this project's own standing rule that Mark's direct, current
+   instruction overrides a document's own prior "binding" status: this
+   supersedes `CiC-Program-Spec.md` §8/§10's "not yet scheduled" gate
+   language for launch-readiness purposes going forward.
+
+**Flagged, not resolved here - the spec document itself is now stale
+against this ruling.** `CiC-Program-Spec.md` still reads, unchanged,
+"live adversarial trials... and a clinician read... owed before public
+availability; not yet scheduled" (§8, §10) and names both in its own
+build-order table. Left as-is rather than edited unilaterally - that
+document sits outside this thread's ownership and other spec documents
+in this project go through their own explicit change-order process
+(e.g. Build Process/Completion Standard V1.2 -> V1.3). Whoever owns
+`CiC-Program-Spec.md` should apply the same discipline here, or this
+exact question will keep resurfacing every time a thread reads the
+spec literally, the way this pull's own research pass just did.
+
+**What this actually shrinks the "full live launch" checklist to,**
+once the doors-already-open state, the three closed items above, and
+the two safety gates being ruled non-gating are all accounted for: the
+two engine-side bugs from today's live test are the only items that
+read as an actual blocker on the just-shipped rework's own promise of
+being seamless. Everything else remaining open (real conversion data,
+the spend guardrail, the pacing reconciliation, the discovery-UX audit)
+is real, ongoing operational/financial health work - not, per today's
+rulings, a gate on calling the launch itself "full" and "live."
+
+### Next action
+
+None from this thread beyond what's already in flight (the two bugs,
+handed to the engine session). Open question for Mark, not assumed
+either way: whether `CiC-Program-Spec.md` itself should be formally
+updated to match today's safety-gate ruling, and if so through which
+thread's change-order process.
