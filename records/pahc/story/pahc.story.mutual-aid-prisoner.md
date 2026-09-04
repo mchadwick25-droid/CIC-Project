@@ -47,7 +47,7 @@ text: >-
   communities, to comfort and support the one held. Sacred books were read
   aloud to him inside the prison, and gifts of money were brought. A separate,
   later witness describes the standing practice behind such moments. Writing
-  to defend this world's communities before a hostile Roman audience, he tells
+  to defend our communities before a hostile Roman audience, he tells
   of a voluntary monthly contribution, given only by those willing and able.
   The money was not spent 'on feasts, and drinking-bouts, and eating-houses,
   but to support and bury poor people, to supply the wants of boys and girls
