@@ -2489,3 +2489,74 @@ Standing note for future copy on this page: this is now the second
 piece of "trying to be clever" prose Mark has cut outright (after
 today's homepage-section cuts) - lean toward plain, functional lines
 over evocative ones anywhere new copy gets drafted here.
+
+---
+
+## 2026-09-04 — Total rework of the conversation entry path
+
+Mark, in full: the live conversation flow was "not even close to the
+specs I designed" - choosing a representative from the scroll required
+going through "for layers of cards and needless crap information"
+before reaching the conversation. His spec, verbatim in substance: pick
+a representative -> straight into the conversation, or "get more
+information" as the only second choice, and *that* also launches
+straight into the conversation. No opening in another window/tab. Back
+and forth between the conversation and wherever the visitor came from.
+The conversation itself needs to live directly inside
+churchinconversation.com, seamlessly - not a separate system. Offered
+questions should be general, not "deconstructing" ones the visitor can
+raise themselves. "This needs a total rework."
+
+He was explicit up front not to relitigate this or explain why the
+prior build diverged - build the spec as stated.
+
+**What shipped (PR #89):**
+
+- New `cic-website/talk.html` - iframes the engine conversation app
+  under our own domain instead of opening `cic-engine.onrender.com` in
+  a new tab. Persistent "<- Back" link driven by a `from` query param
+  (defaults to `index.html#who`), so the visitor returns to wherever
+  they entered from - a chair, the table, or a tradition page - not to
+  a dead end. Forwards `worlds`/`mode` into the iframe src and passes
+  through a `#q=` starter-question hash if present.
+- `index.html` - every one of the 7 chairs now offers exactly two
+  actions: "Start the conversation ->" (straight to `talk.html`) and
+  "More information" (the tradition page). The tradition page's own
+  conversation links likewise go straight into `talk.html`, so "more
+  information" is never a dead end either - it's a detour that still
+  ends in the conversation.
+- `table.html` - convene and side-door links route through `talk.html`;
+  the `<noscript>` fallback deliberately still points straight at the
+  engine, since `talk.html` needs JS to build its iframe and that's the
+  only reachable path without it.
+- All 7 `traditions/*.html` pages - conversation links (top button,
+  example questions, bottom button) route through `../talk.html`.
+  Rewrote every example/offered question from doubt- and
+  hardship-framed prompts ("I want to believe in Jesus, but I can't...")
+  to general-curiosity ones ("How did you come to believe in Jesus?"),
+  same citations kept - visitors can ask the harder, more
+  "deconstructing" questions themselves; the offered set shouldn't do
+  it for them.
+
+**Feasibility note:** iframe-embedding the engine app couldn't be
+network-verified from this sandbox (egress to `cic-engine.onrender.com`
+is blocked here). Confirmed instead via source inspection: no
+`X-Frame-Options`/CSP/CORS restriction anywhere in `engine/` or
+`render.yaml`, no frame-busting JS in `cic-poc/frontend/src/`. Strong
+evidence it'll work; flagged to Mark as the one thing worth a manual
+check once deployed live.
+
+**Out of scope, flagged not fixed:** `atlas-v3.html` still links
+directly to the engine domain - inconsistent with the new seamless-embed
+pattern, but Atlas remains a separate track this thread doesn't edit
+directly. Also flagged to the engine track (not this thread's to fix):
+Chloe's (post-apostolic-house-church) conversation quality showing
+"criptic talk" per Mark's report, and the shared `canon_question` fleet
+content that feeds the live app's own starter-chips needs the same
+general-over-adversarial rewrite pass applied here to the tradition
+pages' offered questions.
+
+**Lesson restated before building:** the "what's new" banner mistake
+above was in mind going into this - build exactly what Mark specified,
+translated into working engineering, rather than a "better" idea of
+what he probably meant.
