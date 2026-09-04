@@ -2809,3 +2809,71 @@ None from this thread. Whatever comes next belongs to whatever Mark
 raises - including, if it comes up, the still-open question of whether
 `CiC-Program-Spec.md` gets formally updated to match the safety-gate
 ruling above.
+
+---
+
+## 2026-09-04 (later still) — Punch-list resolved: M7 automated, two
+items deliberately deferred to real data, world-count reminder set,
+spec amended, Atlas and AWS-credit left with their owners
+
+**Origin.** This thread's own "anything else left to do?" pull surfaced
+seven items. Mark ruled on all seven in one pass:
+
+1. **M7 automation - confirmed done.** The System Health thread took
+   the earlier poke, built the automation, and folded it into its own
+   standing monitoring duties alongside its other checks. Nothing
+   further from this thread.
+2. **Account-level spend guardrail - deliberately deferred, not
+   declined.** Mark: wait until there's solid feedback and a real
+   study of usage behaviour before building this. Recorded as a
+   conscious sequencing call (data before guardrail-tuning), not an
+   oversight - revisit once real pilot usage patterns exist to design
+   the guardrail against.
+3. **Pacing-convention reconciliation (30/hr vs 6/hr vs M8's 12/hr) -
+   same call.** Mark: "this is just for budgeting, so lets see what the
+   patterns show us." Real usage data will settle which convention
+   actually describes this project's traffic rather than reconciling
+   three guesses in the abstract - deferred for the same reason as #2,
+   not treated as urgent.
+4. **World-discovery UX audit - given a concrete trigger instead of an
+   open-ended "someday."** Mark: set this up at 15 worlds (current
+   fleet: 8). Poked the System Health thread to fold a world-count
+   check into its own periodic sweep - silent while under 15, one flag
+   to Mark and one dated log entry the first sweep that crosses the
+   threshold, then done (not re-flagged every sweep after). This
+   thread doesn't own the audit itself when it comes due - only ensured
+   someone will actually remember to ask the question.
+5. **`atlas-v3.html`'s direct engine link - Mark takes it to the Atlas
+   thread himself.** Consistent with this project's standing boundary
+   that Atlas is a separate track this thread doesn't edit; no action
+   here.
+6. **`CiC-Program-Spec.md` - edited, per Mark's explicit "go ahead."**
+   The document's own header reads "Status: COMPLETE - approved design,
+   ready for build handoff," so this wasn't touched by silently
+   deleting the original gate language - each of the three places
+   naming the two safety gates (§8's paragraph, §9's build-order table
+   row 10, §10's unresolved-risks list) now shows the original text
+   struck through, not removed, with a dated amendment quoting Mark's
+   ruling in full and stating plainly that the Facilitator's own
+   programmed safety interventions are the standard going forward. The
+   original design reasoning stays legible; the amendment makes clear
+   it no longer governs. `Jurisdiction/privacy counsel` (§10, a
+   separate still-open item - legal review of retention/deletion
+   design) was deliberately left untouched; it isn't part of this
+   ruling.
+7. **AWS $1,000 credit outcome - Mark's own, in progress.** "i am
+   working on this now, but it will take a couple of days to get to
+   it." Nothing for this thread to chase; not a blocker on anything
+   else.
+
+**Verified before shipping #6:** grepped the full file afterward to
+confirm only the three intended passages changed and the untouched
+privacy-counsel line still reads exactly as before.
+
+### Next action
+
+None from this thread. Ship the spec amendment (commit, push, PR,
+merge, same pipeline as every other change this session). Everything
+else above now lives with its owner - the System Health thread (M7,
+world-count watch), Mark himself (AWS credit, spend-guardrail/pacing
+timing), or the Atlas thread (its own engine link).
