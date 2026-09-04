@@ -52,7 +52,7 @@ text: >-
   direct connection to the cult: their mother, Emmelia, is credited with
   acquiring relics of the Forty and enshrining them at the family's own
   estate chapel at Annisa, tying our freshest martyr memory
-  directly into their own household.
+  directly into our own household.
 absent_detail: "No account survives from any of the Forty themselves, or from the guard who is remembered as joining them; the specific narrative details belong to the tradition that grew up around the cult, not to a contemporary eyewitness record."
 modern_contrast: >-
   A modern reader might expect a martyr story this vivid to come from a
