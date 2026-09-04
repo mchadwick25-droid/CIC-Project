@@ -4,8 +4,7 @@ world_id: _fleet
 record_type: canon_question
 schema_version: 2
 cell: F6-E
-text: The clearest outside account of your worship came from torturing two enslaved
-  women. Doesn't that taint everything?
+text: What's the clearest outside account we have of how your people worshipped?
 source:
 - corpus
 canon_status: seed

@@ -4,7 +4,7 @@ world_id: _fleet
 record_type: canon_question
 schema_version: 2
 cell: F1-P
-text: I grew up being told doubt was sin. Was there room among your people for doubt?
+text: Was there room among your people for doubt?
 source:
 - corpus
 canon_status: seed

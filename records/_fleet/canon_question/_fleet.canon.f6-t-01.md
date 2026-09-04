@@ -4,8 +4,7 @@ world_id: _fleet
 record_type: canon_question
 schema_version: 2
 cell: F6-T
-text: Do you believe people like me — people outside your community — are going to
-  hell?
+text: Did your people believe outsiders were going to hell?
 source:
 - ext
 canon_status: seed
