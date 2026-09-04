@@ -93,6 +93,49 @@ does not make this thread a general steward of that PR's content-level review th
 comments; those stay with the PR's own owning thread/author, same as the disposition table
 above.
 
-**Next action:** stand up the Routine + PR subscriptions; first scheduled sweep will
-confirm the Cloudflare Workers Build check clears on `main` and note whether PR #85's
-`M1` failure has been picked up by its own thread.
+Routine and PR subscriptions stood up same day: `subscribe_pr_activity` on #78, #85, #11,
+#10; a 6-hour recurring sweep Routine (`trig_018SBnt1JTXwWkRoEfqJTZwP`) bound to this
+session.
+
+---
+
+## 2026-09-04 — First scheduled sweep: PR #85 fixed itself, but the wrangler fix above was
+## wrong — corrected, not yet independently confirmed live
+
+**PR #85 merged.** Its own thread found and fixed the `M1 gate battery selftest` /
+`PORTRAIT_FILES` regression flagged above (`342b0660`, "Fix M1 site-portrait check for
+the new homepage architecture") before merging — confirms yesterday's disposition
+(content-level, that PR's own thread's call) was the right call, not a punt. No open PRs
+now besides the original #78/#11/#10; nothing new to subscribe.
+
+**Caught: the 2026-09-03 wrangler.jsonc fix did not actually clear the Cloudflare check.**
+`main`'s Workers Build (checked via PR #85's own last pre-merge CI run, which included
+the wrangler fix as an ancestor) was still red — same fast, 0-duration failure pattern as
+before the fix, meaning it was failing at the same early pre-build stage, not later in
+the actual asset upload. Root cause: the config's `"name": "cic-website"` was wrong. The
+check run's own GitHub name — **"Workers Builds: cic-project"** — and its Cloudflare
+dashboard URL (`.../workers/services/view/cic-project/production/...`) both name the
+real registered service `cic-project`, evidence external to this repo that wasn't pulled
+up before the first fix. `cic-website` was a guess from the folder name, not confirmed
+against the actual dashboard-linked service — a real gap in yesterday's diagnosis, caught
+here specifically because the standing sweep re-checked the *result* of a fix instead of
+assuming a push meant it worked.
+
+**Fixed:** `wrangler.jsonc`'s `name` corrected to `"cic-project"` (`1b3f767c`, pushed
+straight to `main`, same authorization as the original fix). Re-validated with
+`wrangler deploy --dry-run` — still parses clean, 38 files read from `cic-website/`.
+
+**Not yet independently confirmed live.** Same tooling gap as the first fix: no way to
+query GitHub check-runs for a bare `main` commit outside a PR context, and the Cloudflare
+dashboard itself is authenticated (not fetchable from here). Confirming this actually
+clears the check is the next sweep's first job — don't take a second "should be fixed"
+on faith either.
+
+**Doc-hygiene spot check (2026-09-04):** reviewed `main`'s recent commit log (PRs #85–#88,
+all website content/copy changes) — nothing suggesting stray notes, WIP commentary, or
+scratch changes landed in a build/run tree. Nothing to flag.
+
+**Next action:** next scheduled sweep confirms whether `Workers Builds: cic-project` is
+now green on `main`. If it's still red, stop guessing from indirect evidence — ask Mark
+whether direct Cloudflare dashboard access can be given to this thread, since two rounds
+of external-evidence inference is the edge of what's diagnosable from GitHub's side alone.
