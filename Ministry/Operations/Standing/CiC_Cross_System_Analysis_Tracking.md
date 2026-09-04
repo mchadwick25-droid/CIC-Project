@@ -527,6 +527,44 @@ since `fleet_voice` compiles into every world's prompt — today's cumulative
 edits had left every package stale relative to its pin.
 `engine.m2.cli staleness-check` clean across all 8; full M1/M2 suite green.
 
+### Generation-time fix re-proven live, 2026-09-04 (same session, Mark's go-ahead)
+
+Real, billed Bedrock calls against alx's actual committed package
+(`engine.m4.live_turn_run --region us-east-1 --world alx`, voice model
+`us.anthropic.claude-sonnet-4-5-20250929-v1:0`), one carried session, two
+turns — the FLAG-037 re-proof this project requires before a prompt fix
+counts, not just reasoned about in isolation. Kept deliberately narrow
+(2 turns, 1 world) given real spend; not a full battery.
+
+- **Turn 1** — *"What did you consider Scripture, and how did you decide
+  what counted?"*, close to the shape of question that originally surfaced
+  Mark's "later centuries called the canon" catch. Response covers the same
+  ground (contested boundary, Athanasius's list, the Gnostic challenge)
+  with real clarity, and never once reaches outside its own window —
+  where it places something in time, it's within 150-400 (Athanasius,
+  Dionysius), not after it.
+- **Turn 2**, the harder test — *"Do you believe in the Trinity?"*, chosen
+  specifically because it should trigger the approved bridge pattern, to
+  confirm the new instruction didn't flatten the good behavior along with
+  the bad. It fired correctly: *"the kind a modern asker means by
+  'Trinity'... came late"* and *"'Trinity' as your textbooks define it...
+  lies mostly beyond our time"* - explicitly marked as the participant's
+  own word. Citation log confirms it actually drew on
+  `alx.dw.was-jesus-god`, the exact record cited elsewhere in this corpus
+  as the worked exemplar for this pattern - not a coincidence, the bridge
+  is genuinely still working.
+- Both turns: `routing_action: voice_with_directive`, `degraded: False`,
+  real grounded citations, no record-reciter monotony in either response.
+
+Full transcript saved at
+`/tmp/claude-0/-home-user-CIC-Project/cfc8639a-a7a1-53cc-96be-43725cb36613/scratchpad/live_reproof_alx.json`
+(scratchpad, not committed - session-local).
+
+**Status: re-proven on this narrow test. Not yet run wider** (other
+worlds, other question shapes) - Mark's call whether this is sufficient
+or whether a broader live battery is worth the additional spend before
+calling this fix fully closed.
+
 ### Follow-on scope, logged not dropped
 
 The broader "future/outside-vantage" defect class Mark named in interview —
