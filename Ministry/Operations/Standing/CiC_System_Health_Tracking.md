@@ -146,3 +146,19 @@ scratch changes landed in a build/run tree. Nothing to flag.
 
 **Next action:** none open on the wrangler fix — closed out. Next scheduled sweep resumes
 normal cadence: main + open PRs, repo-wide vs PR-specific triage, doc-hygiene spot check.
+
+**PR #11 and #10 re-checked, same day, at Mark's request.** No change from the sweep
+above — same head commits, same check results, nobody has touched either since. #11's
+one red check (`Runtime tests (prompt assembly)`) is still its own newly-added test suite
+on a non-`main` base branch; #10's checks are still all green but frozen at 2026-08-10.
+
+**Escalated to Mark directly (not a PR comment — content-level, that PR's own call, per
+this thread's standing rule): PR #10 staleness.** 25 days with no commit or CI activity;
+`mergeable_state: dirty` (conflict against `main`, which has moved ~100 commits since);
+its own body still carries two unchecked "before merging — owner: Mark" items (a
+replay-parity run needing real network egress outside the build sandbox, and a request
+that a human see the transparency surfaces rendered at a table). Not inert queued work —
+it carries the round-cap-6→4 change ruled to ship with Phase A, and the dormant Haiku
+speaker-label-repair fix whose own ordering note says it must land before `LLM_MODEL`
+ever flips to Haiku. Flagged so it doesn't fall through the cracks with nobody driving it;
+disposition (merge, close, or revive) is Mark's call, not this thread's.
