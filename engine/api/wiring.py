@@ -81,11 +81,27 @@ class MessageResult:
     voice: dict | None
 
 
-def _load_world(world_loader: LazyWorldLoader, registry: dict, world_key: str, *, expected_manifest_hash: str | None = None) -> LoadedWorld:
+def _load_world(
+    world_loader: LazyWorldLoader,
+    registry: dict,
+    world_key: str,
+    *,
+    expected_manifest_hash: str | None = None,
+    package_location_override: str | None = None,
+) -> LoadedWorld:
     entry = registry.get(world_key)
     if entry is None:
         raise UnknownWorldError(world_key)
-    package_dir = REPO_ROOT / entry["package"]["location"]
+    # package_location_override (2026-09-04): an in-flight session's own
+    # pinned directory, when it has one (see entrance.py's open_session
+    # docstring) - never the registry's CURRENT pointer for that call, since
+    # a repin between this session's open and this turn would otherwise
+    # resolve a directory this session never verified against. Old packages
+    # are never deleted, so the pinned directory is still there to read.
+    # Falls back to today's registry pointer for callers with no pin of
+    # their own (list_worlds, a fresh create_session/create_table_session)
+    # and for sessions opened before this field existed.
+    package_dir = REPO_ROOT / (package_location_override or entry["package"]["location"])
     world, _timing = world_loader.load(
         world_key, package_dir=package_dir, expected_manifest_hash=expected_manifest_hash or entry["package"]["manifest_hash"]
     )
@@ -112,6 +128,12 @@ def create_session(*, store: Store, world_loader: LazyWorldLoader, registry: dic
         frame=None,
         code_hash=session_code.hash_code(raw_code),
         package_manifest_hash=world.manifest_hash,
+        # The directory this world actually loaded from, pinned alongside
+        # its hash - registry[world_key] re-read here rather than reusing
+        # any value from _load_world above, since that call's own default
+        # (no override) resolved through today's registry, which is
+        # exactly the value this session needs to remember (see entrance.py).
+        package_location=str(registry[world_key]["package"]["location"]),
     )
 
     # The conversation's first-ever line, Program-Spec SS71 ("visible at
@@ -339,9 +361,21 @@ def handle_message(
 
     # The world pinned at session creation, not the registry's current value -
     # a mid-session recompile can't silently swap what serves an in-flight
-    # session. A hash mismatch surfaces as PackageRefused (engine.m2.loader_stub),
-    # left uncaught here so the caller (app.py) maps it to a 503.
-    world = _load_world(world_loader, registry, state.world_key, expected_manifest_hash=state.package_manifest_hash)
+    # session. Both the hash AND the directory are pinned (package_location,
+    # 2026-09-04): a repin changes both in the registry, and resolving only
+    # the hash pin against today's (post-repin) directory reliably refuses,
+    # since the two no longer describe the same package - see entrance.py's
+    # open_session docstring. A hash mismatch (still possible: a session
+    # opened before package_location existed has no pin to fall back on)
+    # surfaces as PackageRefused (engine.m2.loader_stub), left uncaught here
+    # so the caller (app.py) maps it to a 503.
+    world = _load_world(
+        world_loader,
+        registry,
+        state.world_key,
+        expected_manifest_hash=state.package_manifest_hash,
+        package_location_override=state.package_location,
+    )
 
     msg_uuid = client_msg_id or str(uuid.uuid4())
     # Idempotency, ENFORCED (2026-08-28 foundation audit: client_msg_id was

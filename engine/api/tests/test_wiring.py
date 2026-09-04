@@ -25,6 +25,62 @@ def test_create_session_unknown_world_raises(store, world_loader, registry):
         wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="does-not-exist")
 
 
+def test_a_repin_mid_session_does_not_refuse_the_in_flight_session(store, usage_store, world_loader, registry):
+    """Regression, 2026-09-04: a live bug Mark hit on turn 3 of a real
+    conversation, root-caused to _load_world() always resolving the package
+    DIRECTORY through the registry's CURRENT pointer rather than the one a
+    session actually verified against at open. A repin between session-open
+    and a later turn (exactly what happened live - a routine records/
+    worlds.yaml commit landing mid-conversation) made every later turn
+    refuse with PackageRefused -> 503, permanently, for that session.
+
+    Uses two of fix's own real, already-compiled historical packages
+    (never deleted - packages/fix/*) rather than a synthetic fixture, so
+    this proves the fix against real package bytes, not an idealization.
+    Picked from packages actually holding full compiled bytes locally, not
+    just the manifest.json committed history keeps (packages/README/
+    .gitignore: compiled bytes are derived, not source)."""
+    old_location, old_hash = (
+        "packages/fix/2026-09-03T14-57-38Z",
+        "sha256:e27e46abe8e11edf25375e64829d7e4ef9b47812aee8ac5d96a917e27452de0d",
+    )
+    new_location, new_hash = (
+        "packages/fix/2026-09-04T01-37-28Z",
+        "sha256:6aeda41fb4471b0066f7781f4660046b070854426c6b9a98bdc6eb10c541a652",
+    )
+    registry["fix"]["package"]["location"] = old_location
+    registry["fix"]["package"]["manifest_hash"] = old_hash
+
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    started = store.read_events(session_id)[0]
+    assert started.payload["package_manifest_hash"] == old_hash
+    assert started.payload["package_location"] == old_location
+
+    # The repin: only the registry's pointer moves, same as a real
+    # records/worlds.yaml commit - old_location's bytes are untouched.
+    registry["fix"]["package"]["location"] = new_location
+    registry["fix"]["package"]["manifest_hash"] = new_hash
+
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"),
+        reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    result = wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="who was Jesus", client_msg_id="msg-1",
+    )
+    assert result.turn_no == 1  # did not raise PackageRefused
+
+    # And a brand-new session opened AFTER the repin correctly pins the NEW
+    # package - both stay independently correct in the same process/loader.
+    session_id_2, _code_2 = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    started_2 = store.read_events(session_id_2)[0]
+    assert started_2.payload["package_manifest_hash"] == new_hash
+    assert started_2.payload["package_location"] == new_location
+
+
 def test_ordinary_message_appends_events_in_order(store, usage_store, world_loader, registry):
     session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
     client = FakeBedrockClient(

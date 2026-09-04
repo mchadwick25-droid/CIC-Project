@@ -137,6 +137,9 @@ def create_table_session(*, store: Store, world_loader: LazyWorldLoader, registr
         code_hash=session_code.hash_code(raw_code),
         world_keys=list(world_keys),
         package_manifest_hashes={w.world_key: w.manifest_hash for w in worlds},
+        # Same directory pin as the interview path (wiring.py's
+        # create_session) - one per seat, same reason.
+        package_locations={k: str(registry[k]["package"]["location"]) for k in world_keys},
     )
     seated = [
         {
@@ -153,11 +156,19 @@ def create_table_session(*, store: Store, world_loader: LazyWorldLoader, registr
 
 
 def _seated_worlds(state: SessionState, world_loader: LazyWorldLoader, registry: dict) -> dict[str, LoadedWorld]:
-    """Every seated world, loaded against the hash pinned at session
-    creation - a mid-session recompile of ANY seat refuses the session's
-    load, same discipline as the interview's single pin."""
+    """Every seated world, loaded against the hash AND directory pinned at
+    session creation - a mid-session repin of ANY seat resolves through its
+    own pinned package, same discipline and same reason as the interview's
+    single pin (see wiring.py's handle_message)."""
+    locations = state.package_locations or {}
     return {
-        k: _load_world(world_loader, registry, k, expected_manifest_hash=state.package_manifest_hashes[k])
+        k: _load_world(
+            world_loader,
+            registry,
+            k,
+            expected_manifest_hash=state.package_manifest_hashes[k],
+            package_location_override=locations.get(k),
+        )
         for k in state.world_keys
     }
 
