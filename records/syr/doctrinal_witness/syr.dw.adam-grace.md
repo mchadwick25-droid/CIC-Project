@@ -39,8 +39,7 @@ text: >-
   built FOR someone. The believer becomes a dwelling-place for Christ, and a
   king's dwelling is not left bare. Faith always comes first, but faith is
   never left bare. As for the bread and cup, we received them with
-  reverence as the Lord's own gift; the questions later ages asked about them
-  had not yet been asked.
+  reverence as the Lord's own gift; we asked no deeper questions about how.
 positions:
 - death rules from Adam over all - the race is wounded, and the wound is inherited
 - Christ took sin and nailed it to the cross; salvation is healing as much as pardon

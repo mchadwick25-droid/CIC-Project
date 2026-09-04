@@ -35,7 +35,7 @@ text: >-
   discussed its reason rather than defining it. Origen wondered about the
   soul's own descent, but as open inquiry, not doctrine. What stays constant
   is the direction. The wound is real, universal, and inherited in its
-  effects. The guilt language of later centuries is not here yet, and the
+  effects. That guilt language is not here, and the
   doctor's imagery outweighs the courtroom's.
 positions:
 - 'a real, universal fall: inherited mortality and disorder'
