@@ -219,3 +219,56 @@ hermetically") — the path this thread's own writeup called safest: the test no
 two real `fix` packages into `tmp_path` itself rather than depending on pre-existing
 historical timestamps. `main`'s CI is green again as of that push (verified: run
 `33866398393`, `engine/api` + `engine/m4` suite, 329 tests, all passing). Closed.
+
+---
+
+## 2026-09-04 (evening) — Two new standing duties added, relayed from Mark via the
+## website/product thread: M7 daily audit scheduling, and a fleet-size watch
+
+**M7 conversation-quality audit, scheduled.** `engine/m7` is a real, working
+transcript-audit pipeline that already reads the same production `session_events`
+store every pilot conversation is durably and anonymously recorded into (schema
+confirmed by direct code read: no name/email/IP/account_id column). It had been run
+manually before; nothing ran it on a schedule — the one real gap in an otherwise-live
+pilot data pipeline. Given this touches the live pilot service and real (if anonymous)
+conversation data, this thread confirmed directly with Mark before writing or deploying
+anything, rather than acting purely on the relay.
+
+Investigated the mechanism before picking one: `render.yaml` confirms `cic-engine` is
+the ONE Render service with the ONE Persistent Disk (`/data`) already mounted — a
+separate Cron Job service would need its own attachment of that same disk, which
+Render doesn't support once it's already attached elsewhere. Added
+`engine/m7/scheduler.py`: a daemon thread inside the existing FastAPI app (wired into
+`_build_real_app()` only, not `create_app()`, so test-built fake apps never spin up a
+background thread) that runs the audit daily and writes a status file
+(`/data/m7-audits/last_run.json`) on the same disk the events DB already lives on.
+Read-only over the event log per the audit function's own guarantee — a bad run can
+never affect a live conversation.
+
+Verified, not assumed: `engine/m7` (29 tests, 5 new) and `engine/api` (72 tests) both
+pass; the actual background thread was smoke-tested end-to-end (monkeypatched
+near-future "next run" time) and confirmed to fire, run the real audit, and write a
+correct status file — not just unit tests of the pure helper functions.
+
+**Committed but not yet pushed.** The push to `main` was blocked by the auto-mode
+permission classifier — a separate guardrail from Mark's own confirmation, and this
+thread is not attempting to work around it. Waiting on Mark's choice: approve the
+push, push it himself, or route it through a PR for review first, given it deploys
+into the live pilot service. **What this thread cannot verify from here regardless:**
+whether the scheduler is actually firing in production once it's live — no Render
+dashboard/log access from this session. Flagged rather than silently assumed.
+
+**Discovery-UX fleet-size watch, added.** Separate, much lower-stakes relay (no
+production code, no live data — just counting entries in a git-tracked YAML file):
+front-end/product thread flagged that the homepage chairs/table/Atlas discovery UX
+holds up fine at the current roster size, but nobody's checked whether it holds up
+once the fleet grows. Mark's call: don't audit now, just watch for the fleet reaching
+15 worlds and flag it then — a product/UX call, not this thread's to judge. Current
+count: 7 formation-kind worlds with `state: admitted` in `records/worlds.yaml` (the
+`kind: fixture` entry excluded — test-only, never shown to real users).
+
+**Both folded into this thread's own periodic-sweep routine** (`trig_018SBnt1JTXwWkRoEfqJTZwP`)
+rather than requiring a separate mechanism — steps 6 and 7 added to its standing
+prompt. Neither logs anything on a routine sweep unless there's something to report
+(M7: a real content-quality finding, surfaced to Mark, never judged by this thread;
+fleet watch: the one-time crossing of 15, then done).
