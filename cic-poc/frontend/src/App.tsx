@@ -10,6 +10,16 @@ import { TableRoom } from './screens/TableRoom';
 
 type Screen = 'launch' | 'conversation' | 'table';
 
+// Safe cross-origin (a reference comparison, never a property read) - the
+// standard "am I inside an iframe" check. Real today: cic-website/talk.html
+// embeds this app in a themed <iframe>, and this app had zero awareness of
+// that (2026-09-04 live bug, Mark hit it directly) - "Leave for now" fell
+// back to this app's own pre-redesign Launch screen, which used to just
+// read as the app's own homepage when reached in its own tab, but reads as
+// "the site broke and reverted to the old design" rendered inside a themed
+// iframe dressed up to look like part of the new site.
+const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
+
 /**
  * The deep-link grammar - the ONE contract between the discovery surfaces
  * (cic-website's world cards, the Atlas) and this app (Mark's launch
@@ -129,6 +139,15 @@ function App() {
     setSeated([]);
     setTableFocus(false);
     setLaunchNotice(null);
+    if (isEmbedded) {
+      // Tell the parent page to navigate itself, rather than falling back
+      // to this app's own Launch screen inside the iframe (see isEmbedded's
+      // own comment). talk.html owns where "leave" actually goes - its own
+      // #back-link, already real and already styled - this app has no
+      // business re-deciding that destination.
+      window.parent.postMessage({ type: 'cic:leave' }, '*');
+      return;
+    }
     setScreen('launch');
   };
 

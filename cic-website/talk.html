@@ -72,9 +72,23 @@ if (worlds) { target.searchParams.set('worlds', worlds); }
 target.searchParams.set('mode', mode);
 if (window.location.hash.indexOf('#q=') === 0) { target.hash = window.location.hash.slice(1); }
 
-document.getElementById('talk-frame').src = target.toString();
+var frame = document.getElementById('talk-frame');
+frame.src = target.toString();
 
 try { localStorage.setItem('cic-returning', '1'); } catch(e){}
+
+// The embedded app's own "Leave for now"/"Begin again" used to fall back
+// to its pre-redesign Launch screen when it had no idea it was inside an
+// iframe (2026-09-04 live bug, Mark hit it directly) - it now posts this
+// instead of navigating itself, and #back-link is already this page's own
+// real, styled answer to "where does leaving go." ev.source restricts to
+// exactly our own iframe - the only page that ever loads inside it is the
+// one this script just pointed at target above.
+window.addEventListener('message', function(ev) {
+  if (ev.source !== frame.contentWindow) return;
+  if (!ev.data || ev.data.type !== 'cic:leave') return;
+  window.location.href = document.getElementById('back-link').getAttribute('href');
+});
 })();
 </script>
 
