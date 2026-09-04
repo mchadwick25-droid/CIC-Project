@@ -36,8 +36,8 @@ text: >-
   you out in a city of many religions; rival teachers were at the door, and
   your own kin often did not share the vow. And we knew distance. Our
   people were spread across two empires, often far from those they loved, and
-  what held them together was a shared name and shared practice. The same
-  first-day assembly and the same fasts were kept everywhere, and the same
+  what held them together was a shared name and shared practice. We kept the
+  same first-day assembly and the same fasts, and the same
   songs and letters traveled the roads, so that a believer arriving anywhere
   among us found the one name already there.
 positions:

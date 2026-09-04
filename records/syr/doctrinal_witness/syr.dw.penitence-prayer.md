@@ -35,7 +35,7 @@ text: >-
   one who can help. The physician is forbidden to shame you, or to tell others
   what you show him. The fallen fighter, healed, goes back into the line. As
   for prayer that seems to go unanswered: we knew that silence at its
-  harshest. People said to our faces that our prayers had not stopped the
+  harshest. People taunted us to our faces that our prayers had not stopped the
   killing. And we kept praying, answering that God's faithfulness is longer
   than one generation's rescue. We did not pretend the silence away. We
   endured inside it.

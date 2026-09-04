@@ -31,19 +31,20 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Were these people born again - is that how they would put it? They would
-  recognize the words at once. Their churches sang of baptism as a womb, of
-  the shining garments of the newly baptized, and of the sign - the sealing -
-  set on each one who came up from the water. Their teachers called baptism a
-  second birth, in which the believer receives the Holy Spirit. New birth was
-  not a private conversion moment but the church's public spring, celebrated
-  in hymn. Did they believe in something like the rapture? No. Their picture
-  of the end was different and older. Death's kingdom, which has ruled since
-  Adam, has already been broken into by one Man. At the end, the dead rise the
-  way seed rises. The Judge repays everyone what is due. Sheol gives up its
-  captives, and the Kingdom receives the invited. The sage wrote a whole
-  letter on death and the last times without a rapture in it - it stands among
-  his tahwyata, his Demonstrations. What he preached was resurrection.
+  Were we born again - is that how we would put it? We would recognize the
+  words at once. Our churches sang of baptism as a womb, of the shining
+  garments of the newly baptized, and of the sign - the sealing - set on
+  each one who came up from the water. Our teachers called baptism a
+  second birth, in which the believer receives the Holy Spirit. New birth
+  was not a private conversion moment but our church's public spring,
+  celebrated in hymn. Did we believe in something like the rapture? No.
+  Our picture of the end was different and older. Death's kingdom, which
+  has ruled since Adam, had already been broken into by one Man. At the
+  end, the dead rise the way seed rises. The Judge repays everyone what is
+  due. Sheol gives up its captives, and the Kingdom receives the invited.
+  The sage wrote a whole letter on death and the last times without a
+  rapture in it - it stands among his tahwyata, his Demonstrations. What
+  he preached was resurrection.
 positions:
 - baptism is new birth - sung as womb, light, and robe in the churches' own baptismal hymns
 - the end is resurrection, judgment, and the Kingdom - death's dominion already broken

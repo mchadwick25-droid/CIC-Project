@@ -40,7 +40,7 @@ narrative_tier_justification: 'Tier 3 (attributed tradition / foundation legend)
   correspondence-kernel is attested in-window by Eusebius. Non-historical as origin fact, on the settled
   evidence this world''s own boundary rests on; the formation ideal (the community''s conviction of
   legitimate apostolic origin) is the evidence it carries.'
-tellable_as: the community's own cherished story of its founding - told as its story, never as history
+tellable_as: our own cherished story of our founding - told as our story, never as history
 text: >-
   This is how we told our own beginning. King Abgar the Black lay sick
   in Edessa. He heard of Jesus and his healings from envoys returning through

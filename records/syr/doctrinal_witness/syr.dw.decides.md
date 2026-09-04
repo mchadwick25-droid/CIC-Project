@@ -48,8 +48,8 @@ text: >-
   chief's claim to first place. The persecution left the chief seat empty for
   twenty years. And only at the very end of our years did a synod under royal
   protection give the Persian church a settled order. In practice, disputed
-  belief was met with teaching, with answers in writing, and with the
-  community's own boundary - not with a standing court.
+  belief was met with teaching, with answers in writing, and with
+  our own boundary - not with a standing court.
 positions:
 - 'episcopal authority was real: local bishops, occasional synods, one bishop at Nicaea'
 - teaching authority ran alongside office - the sage's letters were received as weighty
