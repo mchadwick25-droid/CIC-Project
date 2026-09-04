@@ -99,8 +99,8 @@ session.
 
 ---
 
-## 2026-09-04 — First scheduled sweep: PR #85 fixed itself, but the wrangler fix above was
-## wrong — corrected, not yet independently confirmed live
+## 2026-09-04 — First scheduled sweep: PR #85 fixed itself; the wrangler fix above was
+## wrong, corrected, and now confirmed live
 
 **PR #85 merged.** Its own thread found and fixed the `M1 gate battery selftest` /
 `PORTRAIT_FILES` regression flagged above (`342b0660`, "Fix M1 site-portrait check for
@@ -125,17 +125,24 @@ assuming a push meant it worked.
 straight to `main`, same authorization as the original fix). Re-validated with
 `wrangler deploy --dry-run` — still parses clean, 38 files read from `cic-website/`.
 
-**Not yet independently confirmed live.** Same tooling gap as the first fix: no way to
-query GitHub check-runs for a bare `main` commit outside a PR context, and the Cloudflare
-dashboard itself is authenticated (not fetchable from here). Confirming this actually
-clears the check is the next sweep's first job — don't take a second "should be fixed"
-on faith either.
+**Confirmed live, same day, at Mark's request ("go ahead and run it now").** Same tooling
+gap as before — no way to query GitHub check-runs for a bare `main` commit outside a PR
+context — so verified by syncing PR #78 with `main` (`update_pull_request_branch`, a
+standard, non-content-changing sync that PR needed regardless) to get an observable,
+fresh check run. Worth noting for next time: the Cloudflare check took noticeably longer
+to post than usual (~90 seconds after every other check had already completed, versus
+under a minute in every prior observation) — don't read a temporarily-missing Cloudflare
+check as itself a problem; give it a couple of minutes before concluding anything. Once it
+posted, it ran as a real **in-progress** build rather than the instant 0-duration
+pre-flight failure both earlier attempts showed — itself a strong signal before the final
+result — and finished: **"✅ Deployment successful!"** (`cic-project`, commit `4eb713eb`,
+both a commit preview URL and a branch preview URL returned). Both the `compatibility_date`
+and the `cic-project` name fix are now verified working end-to-end, not just locally
+dry-run-validated.
 
 **Doc-hygiene spot check (2026-09-04):** reviewed `main`'s recent commit log (PRs #85–#88,
 all website content/copy changes) — nothing suggesting stray notes, WIP commentary, or
 scratch changes landed in a build/run tree. Nothing to flag.
 
-**Next action:** next scheduled sweep confirms whether `Workers Builds: cic-project` is
-now green on `main`. If it's still red, stop guessing from indirect evidence — ask Mark
-whether direct Cloudflare dashboard access can be given to this thread, since two rounds
-of external-evidence inference is the edge of what's diagnosable from GitHub's side alone.
+**Next action:** none open on the wrangler fix — closed out. Next scheduled sweep resumes
+normal cadence: main + open PRs, repo-wide vs PR-specific triage, doc-hygiene spot check.
