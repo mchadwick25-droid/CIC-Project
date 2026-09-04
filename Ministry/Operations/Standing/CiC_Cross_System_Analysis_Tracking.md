@@ -584,6 +584,19 @@ self-reference gate; a duplicate-YAML-key defect found once, fleet scope
 unknown) plus a Tier 2/3 sweep of things that are real but belong to other
 threads' or Mark's own ground, not touched here.
 
+### Modern-term bridge buildout dispatched to a separate build thread, 2026-09-04
+
+Mark's call: this thread found and diagnosed the gap (Tier 1 finding #1
+above), but the actual authoring work — a fleet-wide discovery sweep,
+real per-term origin_year research, writing ~25-30+ new
+`records/_fleet/modern_term/` records — goes to a dedicated build thread,
+not this one. Launch prompt:
+`Ministry/Operations/Standing/Launch-Prompts/CiC_Modern_Term_Bridge_Buildout_Thread_Launch_2026-09-04.md`.
+Scoped additive-only (no touching any world's own existing
+`false_friend`/`senses.translational` prose), with the live-battery
+re-proof step explicitly held for Mark's own separate go-ahead, same
+standing discipline as this thread's own spend this session.
+
 ### Follow-on scope, logged not dropped
 
 The broader "future/outside-vantage" defect class Mark named in interview —
