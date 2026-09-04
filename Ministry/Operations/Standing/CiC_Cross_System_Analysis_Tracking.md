@@ -565,6 +565,25 @@ worlds, other question shapes) - Mark's call whether this is sufficient
 or whether a broader live battery is worth the additional spend before
 calling this fix fully closed.
 
+### Total-system recommendations, 2026-09-04 (Mark's request, same session)
+
+Full writeup: `Ministry/Operations/Audits/CiC_Cross_System_Recommendations_2026-09-04.md`.
+Headline finding: the modern-term anachronism bridge
+(`engine/m5/anachronism.py`, wired into `engine/m4/turn.py`, proven against
+two real measured 2026-08-24 bugs) is a fully working, tested mechanism with
+exactly one populated fleet record (`_fleet.modern.trinity`) — everything
+else fleet-wide is being solved redundantly, per-term, in `false_friend`
+prose (168 term records carry that field; a first-pass grep found ~28
+explicitly naming a later/modern-term distinction). High-leverage, low-risk
+next step if Mark wants it pursued. Also: corrected an earlier claim from
+this same session's own tracking entries — `engine/m7/readability.py` does
+compute FRE correctly; what's actually missing is enforcement of Mark's own
+2026-08-09 "hard edge" ruling, not the measurement itself. Two other
+findings logged in the full doc (a synonym-family recall gap in the
+self-reference gate; a duplicate-YAML-key defect found once, fleet scope
+unknown) plus a Tier 2/3 sweep of things that are real but belong to other
+threads' or Mark's own ground, not touched here.
+
 ### Follow-on scope, logged not dropped
 
 The broader "future/outside-vantage" defect class Mark named in interview —
