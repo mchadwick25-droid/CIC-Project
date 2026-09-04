@@ -208,3 +208,14 @@ packages itself instead of depending on specific pre-existing timestamps.
 
 **Next action:** none from this thread until Mark or that session decides a fix
 direction. Not logging this as "resolved" — CI stays red on `main` until it's addressed.
+
+**Resolved same day.** Mark had this thread route the finding directly to that session
+(`session_01CeFxRLYeZxyc5dSb1Xq7Tg`, tagged `cic-library-engine`) via a one-shot scheduled
+wake — no live peer-messaging path existed since the session was idle/disconnected, not
+actively running. It independently re-verified the failure against the real CI run/job
+logs before touching anything (same discipline this thread held to), then pushed
+`ad8ecce1` ("Fix: the repin regression test now compiles its own packages,
+hermetically") — the path this thread's own writeup called safest: the test now compiles
+two real `fix` packages into `tmp_path` itself rather than depending on pre-existing
+historical timestamps. `main`'s CI is green again as of that push (verified: run
+`33866398393`, `engine/api` + `engine/m4` suite, 329 tests, all passing). Closed.
