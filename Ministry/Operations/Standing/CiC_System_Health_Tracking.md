@@ -162,3 +162,49 @@ it carries the round-cap-6→4 change ruled to ship with Phase A, and the dorman
 speaker-label-repair fix whose own ordering note says it must land before `LLM_MODEL`
 ever flips to Haiku. Flagged so it doesn't fall through the cracks with nobody driving it;
 disposition (merge, close, or revive) is Mark's call, not this thread's.
+
+---
+
+## 2026-09-04 (later) — Second scheduled sweep: `engine/api tests` red on every `main`
+## push since `67398b18` — root-caused, escalated, not fixed
+
+**Repo-wide, not PR-specific — confirmed the hard way.** `main`'s last three pushes
+(the PR #78 merge, this thread's own docs-only tracking-doc commit, and a later
+iframe-embed fix) all show GitHub Actions CI `failure`. The docs-only commit failing is
+the tell: a markdown-only change can't break a test job, so this had to be baked into
+`main` itself, not caused by any one diff. Same single job fails every time:
+`engine/api tests (mocked Bedrock, fixture world)` →
+`test_a_repin_mid_session_does_not_refuse_the_in_flight_session` in
+`engine/api/tests/test_wiring.py`.
+
+**Root cause, traced not guessed.** That test (added in `67398b18`, "Fix: a repin
+mid-session no longer refuses an in-flight conversation" — itself a real regression test
+for a live bug Mark hit) hardcodes two historical package snapshots
+(`packages/fix/2026-09-03T14-57-38Z` and a same-day newer one) and expects their
+compiled bytes to already exist on disk. This repo's own policy
+(`packages/README`/`.gitignore`) deliberately excludes compiled package bytes from git —
+only `manifest.json` is committed. The test passed for its author because those bytes
+were still sitting in their own local working session; a fresh checkout (CI, or any new
+clone) never has them. Now permanent: every future branch built from this point on will
+hit the same failure, the same signature as the wrangler/Dockerfile bugs.
+
+**Why this thread isn't fixing it directly.** Checked whether `engine.m2.cli build
+--records-commit <hash>` could mechanically regenerate the missing snapshot — traced
+`compile_world()` in `engine/m2/compiler.py` and confirmed `records_commit` is written
+into the output purely as a provenance label; the compiler actually reads whatever's
+*currently* on disk under `records/`, it does not check out that historical git commit.
+Reproducing the exact historical package would mean checking out an old commit's
+`records/` tree mid-CI-job, compiling, hash-verifying against the manifest, then
+restoring `HEAD` — real engineering work with no existing tooling for it, on a
+regression test guarding a real bug Mark hit. Getting it wrong risks either
+destabilizing CI further or silently weakening the test. That's judgment, not a
+mechanical config fix — escalated to Mark in conversation rather than guessed at.
+
+**Recommendation given to Mark:** route back to whoever wrote `67398b18` (session
+`01CeFxRLYeZxyc5dSb1Xq7Tg`) — they understand the test's actual intent and can decide
+the right fix: properly rebuild both historical snapshots (checking out each one's own
+`records_commit` first), or rewrite the test to compile two fresh, differently-pathed
+packages itself instead of depending on specific pre-existing timestamps.
+
+**Next action:** none from this thread until Mark or that session decides a fix
+direction. Not logging this as "resolved" — CI stays red on `main` until it's addressed.
