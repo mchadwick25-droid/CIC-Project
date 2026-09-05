@@ -1660,3 +1660,41 @@ should, or an overcorrection in the opposite direction; only more real
 usage will tell. Also consistent with the established pattern: all 4
 runs closed at exactly 5 turns, none reached 6 - unrelated to this
 fix, and unchanged from before it.
+
+Merged to main as PR #107 (`1be29694`), deployed and confirmed live.
+
+### Post-merge production check: same first-pass order, ruled a fluke, 2026-09-05
+
+A fresh real production transcript (cappadocian+alx+pahc, "who is
+Jesus") opened Chilo, Theon, Chloe again - the exact pre-fix order -
+with Chloe closing instead of Theon. Mark: "it is still the same order
+for the first 3 entries... maybe thats just coincidence."
+
+Checked against real data already in hand rather than reasoning in the
+abstract: the 4-run fairness proof (same section above) had already
+logged every opening order from that same battery -
+Theon/Chloe/Chilo, Chilo/Chloe/Theon, Theon/Chloe/Chilo,
+Chloe/Chilo/Theon - none matching Chilo/Theon/Chloe. This transcript
+landing on that one specific ordering is a 5th roll among 6 possible
+permutations; unsurprising by chance (a specific permutation recurring
+at least once within 5 draws is >60% likely if genuinely uniform), not
+evidence the shuffle silently stopped working.
+
+Named, not chased further: the 4-run proof's own selector_reasons show
+3 of 4 opening picks justified as "the systematic/catechetical voice
+is the natural first answer to a foundational question" - the same
+SHAPE of reasoning the return-pick fairness fix just named and
+corrected, potentially present for OPENING picks too and independent
+of list-order (randomizing presentation order doesn't touch a
+judgment-level preference for "which voice is the natural opener").
+Flagged as a real hypothesis, not a confirmed finding - n=5 total
+observations is too thin to act on.
+
+**Mark's call**: "let's push the fix we were on and assume the order
+was fluke, we will let the pilot watch it and if there is a continuing
+issue we will come back to this." Standing down on a further live
+battery for now (real spend, not authorized) - the fix already
+merged and deployed above; real pilot usage is the next check, not a
+synthetic one. Revisit only if a real, continuing pattern shows up in
+production use, the same discipline that surfaced and fixed the
+return-pick bias in the first place.
