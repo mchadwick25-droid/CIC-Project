@@ -1126,3 +1126,47 @@ weak-positioned against this - stated as background "facts," not tied
 directly to the close-condition language the system prompt actually
 argues from. Not yet confirmed against real model reasoning - this is a
 hypothesis to test against real selector_reason data, not a finding.
+
+### Root cause confirmed, from the selector's own logged reasoning, 2026-09-05
+
+Mark's own words: "do both" - merge and deploy the observability fix
+(b18ffb62, merged as PR #102 -> `b2dfbc59`), and run a live check now
+for a first real read. Same question and seating as his own real
+production conversation ("who was jesus", desert+cappadocian+pahc), plus
+a 2-seat comparison (alx+desert). Report:
+`engine/m4/reports/live-table-close-reason-2026-09-05.json`.
+
+**The hypothesis is confirmed, and the actual mechanism is cleaner than
+guessed.** The 2-seat round DID reach a second pass, and the selector's
+own stated reason for closing right after it: *"Theon then demonstrated
+how both voices confessed the same Lord despite different doors of
+entry... The exchange has reached natural completion."* The second pass
+happened, added real synthesis, and that synthesis is specifically what
+the selector judged complete. The 3-seat round closed right after the
+first pass, and its own words: *"Each Representative has given a
+substantive account... Another turn would risk restating rather than
+adding. The round has reached natural completion."*
+
+**The actual mechanism**: the floor (3, unconditional, predates all of
+today's work) interacts differently with seat count. At 2 seats,
+"everyone has spoken once" is reached at turn 2 - but the floor doesn't
+allow closing until turn 3, so a turn is MECHANICALLY FORCED beyond
+first-pass completion, and that forced turn is often exactly the
+valuable second-pass synthesis (as it was here). At 3 seats, "everyone
+has spoken once" IS turn 3 - the exact same moment the floor first
+allows closing. There is no forced bridge from first pass into second
+pass at 3 seats the way there structurally is at 2. It isn't that the
+model is more willing to continue at 2 seats specifically - it's that
+the pre-existing floor happens to land past first-pass completion at 2
+seats and exactly at it at 3 seats. Not a wording weakness in the new
+target guidance - a structural fact about how an old, unrelated number
+(the floor) interacts with a new one (seat count).
+
+**Put to Mark, not decided here**: the only lever the data supports for
+making 3-seat rounds reliably reach a second pass the way 2-seat rounds
+do is raising the 3-seat floor to 4 - a real, hard mechanical minimum,
+reversing his own "soft target only, max is the one hard rule" decision
+from earlier today. The softer alternative (strengthening the guidance
+at exactly this decision point, still soft) keeps that constraint but
+has weaker odds of changing behavior, going by what the model's own
+words show it actually weighing. Awaiting his call.
