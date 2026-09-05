@@ -127,7 +127,25 @@ queue:
     url: "https://archive.org/details/CorpusScriptoruEcclesiasticorumLatinorum3.2Cyprian"
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search, 2026-09-01 (vol. 3.2 only)"
-    status: not-yet-downloaded
+    status: superseded
+
+  - title: "S. Thasci Caecili Cypriani opera omnia, Pars I-II (treatises + Epistulae I-LXXXI)"
+    author: "Cyprian of Carthage"
+    translator: "Wilhelm (Guilelmus) Hartel (ed.)"
+    year: "1868 (Pars I) / 1871 (Pars II)"
+    world: lpc
+    why: >
+      Fulfills most of lpc's own G1 (see the entry immediately above, now
+      superseded by this one). Mark supplied a compiled docx covering both
+      Pars I and Pars II in one file, from an archive.org-hosted Google
+      Books scan - a different, more complete source than the vol.-3.2-only
+      item above; the exact archive.org item identifier was not stated when
+      supplied and is not guessed. Pars III (spuria/indices) still not
+      located - G1 stays open for that part only.
+    url: null
+    rights_basis: pd-us-by-date
+    verified_by: "lpc build thread, direct file inspection (OCR-quality sampled across the full document), 2026-09-05"
+    status: downloaded
 
   - title: "Sancti Augustini Vita Scripta a Possidio Episcopo"
     author: "Possidius of Calama"

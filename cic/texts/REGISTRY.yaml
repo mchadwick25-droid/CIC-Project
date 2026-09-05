@@ -974,3 +974,27 @@
     second-witness caveat applies per cic/texts/INTAKE.md: never primary evidence
     for a Representative on its own, only for cross-checking a specific reading
     against whatever English-language source a world's own records actually cite.
+- filename: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
+  supplied_by: Mark
+  date_added: '2026-09-05'
+  notes: >-
+    Hartel's critical edition of Cyprian's own corpus, CSEL 3 Pars I (treatises,
+    1868) and Pars II (Epistulae I-LXXXI, 1871) -- supplied for the Latin
+    Pastoral-Congregational Christianity world-build's own Registry row 39,
+    fulfilling most of that world's Source_Acquisition_Manifest G1 request. Pars
+    III (spuria and indices) is not included and remains unacquired; G1 stays
+    open for that part only. Public domain by date (1868/1871, both far past the
+    ~95-year US threshold); the 1965 Johnson Reprint Corporation printing this
+    scan derives from is a photomechanical reprint of the same public-domain
+    text, no new claim over it. Mechanically extracted from a docx Mark compiled
+    from an archive.org "Full text" view of a Google Books scan (exact item
+    identifier not stated when supplied, not guessed -- see the file's own
+    header); site-navigation chrome and Google's own standard PD usage notice
+    stripped, doubled inter-word spacing normalized, nothing else altered.
+    OCR quality is uneven: the running Latin text reads cleanly throughout
+    (including right at the end, where Epistle 81 closes with no truncation),
+    but the apparatus criticus carries real, localized OCR noise -- garbled
+    manuscript sigla, stray characters -- disclosed in the file's own header
+    rather than treated as pristine. Original-language witness (Latin) --
+    second-witness caveat applies per cic/texts/INTAKE.md: never primary
+    evidence for a Representative on its own.

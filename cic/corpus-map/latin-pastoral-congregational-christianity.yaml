@@ -717,6 +717,25 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- work: S. Thasci Caecili Cypriani Opera omnia (Hartel's critical edition, CSEL 3, Pars I-II)
+  author: cyprian
+  locus: whole text; Pars I ends at the Sententiae Episcoporum, Pars II runs Epistulae I-LXXXI
+    - see the file's own title-page and EPISTVLA headers for addressing a specific treatise
+    or letter
+  role: tradition
+  confidence: assigned
+  note: 'The Latin original behind the already-vendored ANF05 English translation''s own Cyprian
+    works (rows 1-7 and others in this bucket, all sourced from anf05_hippolytus-cyprian-caius-novatian.xml)
+    - not a new voice, the same tradition''s own words in the language Cyprian actually wrote
+    them in. ANF05 itself follows Migne''s text, not Hartel''s, so this is also an independent
+    critical check on that translation''s own base text, not merely a duplicate. Does not
+    cover CSEL 3 Pars III (spuria/indices) - not yet acquired. Second-witness caveat applies
+    per cic/texts/INTAKE.md: legitimate for cross-checking a specific reading against the
+    vendored English translation a world''s own source record actually cites, never primary
+    evidence for a Representative on its own.
+
+    '
+  source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
 - work: The Epistles of Cyprian
   author: cyprian
   locus: 'div2 4.4 - 82 epistles, assigned as one body (includes letters TO Cyprian: Roman
