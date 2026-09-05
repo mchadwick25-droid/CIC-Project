@@ -81,6 +81,27 @@ def test_round_config_defaults_and_bounds():
         RoundConfig(floor=5, cap=4)  # floor above cap
 
 
+def test_round_config_broad_minimum_defaults_and_bounds():
+    """Mark's ruling, 2026-09-05: 'a minimum of 5 interactions per
+    question' for a round genuinely addressed to the whole table
+    (engine.api.table_wiring._round_is_broad decides which rounds qualify;
+    this config only holds the numbers). broad=False (the default on every
+    existing call) is untouched - same discipline as every other addition
+    to this dataclass."""
+    config = RoundConfig()
+    assert (config.broad_floor, config.broad_cap) == (5, 6)
+    assert not config.close_allowed(4, broad=True)
+    assert config.close_allowed(5, broad=True)
+    assert not config.cap_reached(5, broad=True)
+    assert config.cap_reached(6, broad=True)
+    # ordinary (non-broad) behavior is unchanged
+    assert config.close_allowed(3) and config.close_allowed(3, broad=False)
+    with pytest.raises(ValueError):
+        RoundConfig(broad_floor=2, broad_cap=6)  # broad_floor below floor
+    with pytest.raises(ValueError):
+        RoundConfig(broad_floor=5, broad_cap=7)  # beyond the re-tested ceiling
+
+
 # --- round-level routing ---
 
 

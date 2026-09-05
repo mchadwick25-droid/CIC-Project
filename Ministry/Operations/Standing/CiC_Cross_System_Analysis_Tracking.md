@@ -706,3 +706,85 @@ round — real but harder than it sounds (needs a semantic judgment of "did
 this voice engage," not a string match, closer in shape to the existing
 convergence check than to a deterministic gate) — flagged as a follow-up,
 not built here.
+
+### Table-mode round-length ruling: a 5-turn minimum on broad questions, 2026-09-05
+
+After seeing the fix's own live proof, Mark's follow-up ruling: "each
+person answering the question, but also another round of interaction, a
+minimum of 5 interactions per question." Not the same thing as the
+engagement fix above — that made each turn react to what came before; this
+governs how many turns a round runs. Walked through as two open decisions
+before building (his answers): the 5-minimum applies only to a round
+genuinely addressed to the whole table, never one that opened naming one
+Representative directly; and the ceiling above the 5-minimum is 6 (one
+turn of selector-judged headroom), not a hard stop at exactly 5.
+
+**Implementation** (`engine/m4/round.py`, `engine/api/table_wiring.py`):
+`RoundConfig` gained `broad_floor`/`broad_cap` (5/6, same 1-6 ceiling
+discipline the existing floor/cap already holds) alongside the untouched
+`floor`/`cap` (3/4). `close_allowed`/`cap_reached` now take a `broad: bool`
+kwarg (default False, so every existing call — the whole interview surface
+and every table call that doesn't pass it — is unaffected). A new pure
+function, `_round_is_broad`, is the deterministic stand-in for "genuinely
+open to all": true only when (a) the round did NOT open via the direct-
+address short-circuit (reusing `detect_direct_address` on the round's own
+unchanging participant message, computed unconditionally now instead of
+only at position 1) and (b) every seated voice has spoken at least once
+this round. Chosen over parsing the participant's phrasing (Process
+V1.0's own example, "what do each of you think," doesn't even match "who
+is Jesus, and how did you understand Him?" — the actual reported
+question) — this project's own standing preference for code-computed
+rules over model-guessed ones (turn_selector.py's own docstring: "Judgment
+lives in the model's prompt; the RULES live here, in code").
+
+**Three-plus seats only** — found by the test suite, not assumed. A first
+pass applied the same "every seat spoken" check regardless of table size,
+and broke four existing two-seat tests
+(`test_round_turn_at_a_time_to_selector_close`,
+`test_round_cap_closes_at_four`, `test_session_cap_at_table_unit`,
+`test_round_closed_carries_governance_summary`): at two seats, "every seat
+has spoken" is true of any ordinary alternating exchange by turn 2 — it
+carries none of the "whole table" signal it does at three, and would have
+forced a 5-turn minimum onto essentially every two-seat round, not just
+broad ones. Restricted to `len(world_keys) >= 3`; all four tests pass
+again unchanged, and a new end-to-end test
+(`test_broad_round_at_three_seats_requires_five_turns_before_close`) pins
+the three-seat behavior directly: close is illegal at position 4 (forces
+the existing illegal-close retry), and only becomes legal once position 5
+is reached.
+
+**Content quality of the extra turns is not a new mechanism** — the
+same-day engagement fix (context_prefix/table_engagement) already fires
+for any turn with non-empty pending, regardless of position, so turns 4-5
+get the identical reactive framing turns 2-3 already got. Verified this is
+true rather than assumed it: no change was needed to
+`turn_selector.py`'s own prompt — with `close` correctly absent from the
+legal moves once all seats have spoken but the floor unmet, its "prefer an
+unheard voice" clause has nothing left to prefer, so its own "most
+directly positioned to respond to what was just said" clause is what
+actually governs turns 4+, which is exactly the reactive framing wanted.
+
+**Verified**: full test suite (551 tests) green, including three new
+tests (`test_round_config_broad_minimum_defaults_and_bounds`,
+`test_round_is_broad_only_at_three_plus_seats_and_never_after_direct_address`,
+`test_broad_round_at_three_seats_requires_five_turns_before_close`).
+
+**Real cost implication, flagged rather than absorbed silently**: a broad
+round now runs 5-6 voice turns instead of 3-4 — Artifact-7-Table.md §7's
+own cost basis for `TABLE_SESSION_ROUND_CAP=5` (rounds per session, not
+turns) was calibrated against "compact-turn rounds ran ~1.8k output
+tokens" at the OLD 3-4-turn length; a session where a participant asks
+even two or three genuinely broad questions could now spend meaningfully
+more per round than that figure assumed, on the same 5-round session
+budget. Not re-measured or re-sized here — this thread's fix changed round
+DYNAMICS, not session economics, and re-sizing the session cap needs its
+own live measurement, the same discipline the existing cap's own sizing
+note already holds itself to.
+
+**Not yet live-proven**: everything above is verified against the
+deterministic test suite (scripted selector/voice responses) but not yet
+against a real multi-turn broad round on live Bedrock — a materially
+different, new-code live proof from the engagement-fix re-proof already
+done, and real, billed spend. Mark's go-ahead for that run was for the
+engagement fix specifically; this round-length change came after and
+would need its own go-ahead before running.

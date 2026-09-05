@@ -38,3 +38,25 @@ def test_round_design_subject_world_framed_as_witness():
     # shared frame stays identical on both sides
     for text in (subject, other):
         assert "never retell their stories" in text and "Keep this turn compact" in text
+
+
+def test_round_is_broad_only_at_three_plus_seats_and_never_after_direct_address():
+    """Mark's ruling (2026-09-05): the 5-turn minimum applies only to a
+    round genuinely addressed to the whole table - never one that opened
+    naming one Representative directly, and never a two-seat table, where
+    "every seat has spoken" is just the ordinary alternating exchange."""
+    from engine.api.table_wiring import _round_is_broad
+
+    three = ["cappadocian", "pahc", "syr"]
+    two = ["alx", "desert"]
+
+    assert _round_is_broad(["cappadocian"], three, opened_by_direct_address=False) is False
+    assert _round_is_broad(["cappadocian", "pahc"], three, opened_by_direct_address=False) is False
+    assert _round_is_broad(["cappadocian", "pahc", "syr"], three, opened_by_direct_address=False) is True
+    # order and repeats don't matter, only coverage
+    assert _round_is_broad(["syr", "cappadocian", "syr", "pahc"], three, opened_by_direct_address=False) is True
+    # a round that opened naming one Representative never qualifies, even
+    # if every seat is later heard anyway
+    assert _round_is_broad(["cappadocian", "pahc", "syr"], three, opened_by_direct_address=True) is False
+    # two seats: "everyone has spoken" is the ordinary case, never broad
+    assert _round_is_broad(["alx", "desert"], two, opened_by_direct_address=False) is False

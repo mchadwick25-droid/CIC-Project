@@ -114,6 +114,11 @@ def desert_world(world_loader, registry):
     return _load_world(world_loader, registry, "desert")
 
 
+@pytest.fixture
+def pahc_world(world_loader, registry):
+    return _load_world(world_loader, registry, "pahc")
+
+
 # --- creation ---
 
 
@@ -212,6 +217,75 @@ def test_round_cap_closes_at_four(store, usage_store, world_loader, registry, al
     # response, with the voice turn still delivered.
     assert result["position"] == 4 and result["voice"] is not None
     assert not result["round_open"] and result["turn_no"] == 1
+
+
+def test_broad_round_at_three_seats_requires_five_turns_before_close(
+    store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
+):
+    """Mark's ruling, 2026-09-05, after the monologue fix: 'each person
+    answering the question, but also another round of interaction, a
+    minimum of 5 interactions per question' - for a genuinely open,
+    address-everyone question at three or more seats. Once all three seats
+    have spoken (position 3), close is not offered again until position 5 -
+    two seats' own ordinary floor/cap (test_round_cap_closes_at_four) is
+    untouched by this; RoundConfig.broad_floor/broad_cap only ever raise
+    the effective minimum for a round that qualifies, never lower it."""
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    pahc_sentence, _ = grounded_sentence(pahc_world)
+    client = _table_client(
+        selector_script=[
+            {"next": "alx", "reason": "opening"},
+            {"next": "desert", "reason": "unheard voice"},
+            {"next": "pahc", "reason": "last unheard voice"},
+            # Position 4's decision: every seat has now spoken, but the
+            # floor is 5 here (broad), not 3 - "close" is illegal and
+            # forces the one retry (engine.m4.turn_selector's own rule),
+            # which is fed a real pick.
+            {"next": "close", "reason": "premature - should be rejected, floor is 5 here"},
+            {"next": "alx", "reason": "retry: real second-round reply"},
+            {"next": "desert", "reason": "second-round reply"},
+            {"next": "close", "reason": "floor met at last"},
+        ],
+        stream_scripts=[[alx_sentence], [desert_sentence], [pahc_sentence], [alx_sentence], [desert_sentence]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert", "pahc"))
+
+    result = http.post(
+        f"/api/session/{session_id}/message", json={"text": "who is Jesus, and how did you understand Him?"}, headers=auth
+    ).json()
+    assert result["position"] == 1 and result["voice"]["speaker"] == "alx"
+    # Below the ordinary floor of 3, close is never offered.
+    assert "close" not in client.messages.selector_enums_seen[0]
+
+    result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    assert result["position"] == 2 and result["voice"]["speaker"] == "desert"
+
+    result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    assert result["position"] == 3 and result["voice"]["speaker"] == "pahc"
+    assert result["round_open"]  # all three have now spoken, but this is not a close point
+
+    # Position 4's decision: the illegal "close" attempt is rejected (one
+    # retry consumed), landing on the retry's real pick.
+    result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    assert result["position"] == 4 and result["voice"]["speaker"] == "alx" and result["round_open"]
+    assert "close" not in client.messages.selector_enums_seen[-1]  # the retry's own re-asked enum
+
+    result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    assert result["position"] == 5 and result["voice"]["speaker"] == "desert"
+    # Position 5 satisfies the broad floor, but the round doesn't
+    # self-close here - it stays open until a close is actually selected.
+    assert result["round_open"] and result["turn_no"] is None
+
+    close = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    assert not close["round_open"] and close["voice"] is None and close["turn_no"] == 1
+    # This final decision is the first point where "close" was legal.
+    assert "close" in client.messages.selector_enums_seen[-1]
+
+    transcript = http.get(f"/api/session/{session_id}/transcript", headers=auth).json()
+    speakers = [t["speaker"] for t in transcript["transcript"]]
+    assert speakers == ["facilitator", "participant", "alx", "desert", "pahc", "alx", "desert"]
 
 
 def test_message_while_round_open_is_409(store, usage_store, world_loader, registry, alx_world):

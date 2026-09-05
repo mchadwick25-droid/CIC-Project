@@ -36,19 +36,43 @@ class RoundConfig:
     floor 3 / cap 4 default, 6 allowed. The floor binds the selector's
     close option (Table Process V1.0 SS2: it never forces every voice to
     speak); the cap binds absolutely. 6 is the ceiling the turn-cap
-    incident's re-test verified (Process V1.0 SS6), not an arbitrary max."""
+    incident's re-test verified (Process V1.0 SS6), not an arbitrary max.
+
+    BROAD-QUESTION MINIMUM (Mark's ruling, 2026-09-05, after the monologue
+    bug fix: "each person answering the question, but also another round of
+    interaction, a minimum of 5 interactions per question" - but only for a
+    round genuinely addressed to the whole table, never one that opened
+    naming one Representative directly, his own explicit scoping). The
+    caller (engine.api.table_wiring) passes `broad=True` once every seated
+    voice has spoken at least once in a round that did NOT open by direct
+    address - the deterministic stand-in for "genuinely open to all" this
+    project already prefers over a model's guess (turn_selector.py's own
+    docstring: "judgment lives in the model's prompt; the RULES live here,
+    in code"). A question phrased any way still reaches this the moment
+    the selector's ordinary "prefer an unheard voice" preference has, in
+    fact, brought every seat in - not a guess at how the question was
+    worded. broad_floor/broad_cap must both still fit the same 1-6 ceiling
+    the turn-cap incident verified; they only ever raise the effective
+    minimum/cap for a round that already qualifies, never lower it."""
     floor: int = 3
     cap: int = 4
+    broad_floor: int = 5
+    broad_cap: int = 6
 
     def __post_init__(self):
         if not (1 <= self.floor <= self.cap <= 6):
             raise ValueError(f"round config must satisfy 1 <= floor <= cap <= 6, got floor={self.floor} cap={self.cap}")
+        if not (self.floor <= self.broad_floor <= self.broad_cap <= 6):
+            raise ValueError(
+                f"round config must satisfy floor <= broad_floor <= broad_cap <= 6, "
+                f"got floor={self.floor} broad_floor={self.broad_floor} broad_cap={self.broad_cap}"
+            )
 
-    def close_allowed(self, round_turns: int) -> bool:
-        return round_turns >= self.floor
+    def close_allowed(self, round_turns: int, *, broad: bool = False) -> bool:
+        return round_turns >= (self.broad_floor if broad else self.floor)
 
-    def cap_reached(self, round_turns: int) -> bool:
-        return round_turns >= self.cap
+    def cap_reached(self, round_turns: int, *, broad: bool = False) -> bool:
+        return round_turns >= (self.broad_cap if broad else self.cap)
 
 
 @dataclass(frozen=True)

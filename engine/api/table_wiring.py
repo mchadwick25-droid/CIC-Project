@@ -231,6 +231,26 @@ def table_history_for(world_key: str, transcript: list[dict], labels: dict[str, 
     return history, pending
 
 
+def _round_is_broad(round_speakers, world_keys, *, opened_by_direct_address: bool) -> bool:
+    """Mark's ruling, 2026-09-05: whether THIS round has qualified for the
+    5-turn minimum (RoundConfig.broad_floor/broad_cap) - never true for a
+    round that opened naming one Representative directly (his own explicit
+    scoping), and otherwise true exactly once every seated voice has spoken
+    at least once. See RoundConfig's own docstring for why this proxy was
+    chosen over parsing the participant's phrasing.
+
+    Three or more seats only. At two seats, "every seat has spoken" is true
+    of any ordinary alternating exchange by round_turns == 2 - it carries
+    none of the "whole table" signal it does at three, and the existing
+    two-seat floor/cap (3/4, live-battery-calibrated - test_table_api.py's
+    own selector-close and cap tests pin this exact shape) already gives a
+    real second turn to the other voice before close is even offered.
+    Mark's own report, and every seating he named, was three voices."""
+    if opened_by_direct_address or len(world_keys) < 3:
+        return False
+    return set(world_keys) <= set(round_speakers)
+
+
 def _own_world_named(world_key: str, worlds: dict, message: str) -> bool:
     """THE ROUND-DESIGN FIX (Mark's ruling, 2026-08-29: "make the round
     design fix, papnoute confirms from his own witness"). Deterministic:
@@ -449,7 +469,24 @@ def _advance_open_round(
         degraded=degraded, facilitator=facilitator,
     )
 
-    if config.cap_reached(state.round_turns):
+    # DIRECT ADDRESS BY NAME (Facilitator Governance SS8, C5): a participant
+    # who names exactly one seated Representative gets that voice at the
+    # round's opening position - immediately, with no selector call. The
+    # detection runs on the participant's RAW message (names are not modern
+    # terms; a bridged round's underlying subject carries no names to find).
+    # Computed unconditionally (not just at round_turns == 0): the same
+    # pure check, re-run on every continue against the round's one
+    # unchanging participant message, is also how _round_is_broad knows
+    # whether THIS round is even eligible for the 5-turn minimum below -
+    # participant_text never changes mid-round, so this never disagrees
+    # with what position 1 already decided.
+    name_to_world = {w.frame["representative"]["name"]: k for k, w in worlds.items()}
+    opening_direct_address = detect_direct_address(participant_text, name_to_world)
+    broad_pre_turn = _round_is_broad(
+        state.round_speakers, state.world_keys, opened_by_direct_address=opening_direct_address is not None
+    )
+
+    if config.cap_reached(state.round_turns, broad=broad_pre_turn):
         # Defensive only: the cap closes the round in the same request that
         # reaches it (below), so a continue should never find this - but a
         # crash between voice_turn and round_closed would, and the honest
@@ -457,15 +494,7 @@ def _advance_open_round(
         turn_no = _close_round(store, state, reason="cap", turns=state.round_turns)
         return TableMessageResult(**common, round_open=False, turn_selected=None, voice=None, position=None, turn_no=turn_no)
 
-    # DIRECT ADDRESS BY NAME (Facilitator Governance SS8, C5): a participant
-    # who names exactly one seated Representative gets that voice at the
-    # round's opening position - immediately, with no selector call. The
-    # detection runs on the participant's RAW message (names are not modern
-    # terms; a bridged round's underlying subject carries no names to find).
-    direct_address = None
-    if state.round_turns == 0:
-        name_to_world = {w.frame["representative"]["name"]: k for k, w in worlds.items()}
-        direct_address = detect_direct_address(participant_text, name_to_world)
+    direct_address = opening_direct_address if state.round_turns == 0 else None
     if direct_address is not None:
         selection = Selection(
             world_key=direct_address, close=False,
@@ -488,7 +517,7 @@ def _advance_open_round(
             seated_lines=seated_lines,
             world_keys=list(state.world_keys),
             last_speaker=state.round_speakers[-1] if state.round_speakers else None,
-            close_allowed=config.close_allowed(state.round_turns),
+            close_allowed=config.close_allowed(state.round_turns, broad=broad_pre_turn),
             transcript_speakers=transcript_speakers,
             round_speakers=list(state.round_speakers),
         )
@@ -557,7 +586,11 @@ def _advance_open_round(
         usage_store.append(rec)
 
     turns_now = position
-    if config.cap_reached(turns_now):
+    broad_post_turn = _round_is_broad(
+        list(state.round_speakers) + [selection.world_key], state.world_keys,
+        opened_by_direct_address=opening_direct_address is not None,
+    )
+    if config.cap_reached(turns_now, broad=broad_post_turn):
         # state still reflects pre-turn bookkeeping; round_no is unchanged
         # and the close carries the real turn count.
         turn_no = _close_round(store, state, reason="cap", turns=turns_now)
