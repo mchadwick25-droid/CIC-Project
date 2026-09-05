@@ -72,6 +72,23 @@ def test_round_config_defaults_and_bounds():
     assert config.floor == 3
     assert not config.close_allowed(2)
     assert config.close_allowed(3)
+    RoundConfig(cap_by_seats=((2, 5), (3, 6)))  # the re-tested ceiling is legal
+    with pytest.raises(ValueError):
+        RoundConfig(cap_by_seats=((2, 5), (3, 7)))  # beyond the re-tested ceiling
+    with pytest.raises(ValueError):
+        RoundConfig(floor=6, cap_by_seats=((2, 5),))  # floor above a configured cap
+    with pytest.raises(ValueError):
+        RoundConfig(default_cap=7)  # the fallback is bound by the same ceiling
+
+
+def test_round_config_is_genuinely_immutable():
+    """Independent review, 2026-09-05: a mutable dict field on a frozen
+    dataclass used to defeat `frozen` twice over - unhashable, and mutable
+    out from under it with no error. cap_by_seats is a tuple now."""
+    config = RoundConfig()
+    hash(config)  # does not raise
+    with pytest.raises(AttributeError):
+        config.cap_by_seats = ((2, 99),)
 
 
 def test_round_config_seat_scaled_cap():

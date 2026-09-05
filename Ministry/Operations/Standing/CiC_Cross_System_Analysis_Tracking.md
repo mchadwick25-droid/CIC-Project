@@ -868,3 +868,124 @@ implication flagged in the superseded entry above is now MORE relevant,
 not less: a 3-seat round can run to 6 turns and a 2-seat round to 5, both
 higher than the flat cap=4 `TABLE_SESSION_ROUND_CAP`'s own cost basis
 assumed, on every round now, not only a broad-question subset.
+
+### Independent adversarial review (Opus, cold-read) of the seat-scaled design — findings and fixes, 2026-09-05
+
+Mark's go-ahead ("go ahead and get it independently reviewed"). A fresh
+agent, given only the code and Mark's own ten parameters + three
+follow-up considerations (no prior context, told to be adversarial), read
+`table_wiring.py`, `round.py`, `turn_selector.py`, `turn.py`, and this
+project's own register standards, then live-probed the running code
+against `FakeBedrockClient` fixtures rather than just reading. Each
+finding below was verified directly against the actual code before
+acting on it — not taken at face value, same discipline as the earlier
+Fable-review episode.
+
+**Real bugs found and fixed:**
+
+- **The engagement instruction reached a round's TRUE opening turn too**,
+  telling the first-ever speaker to "engage what another voice said" when
+  none had. `pending` (table_wiring.table_history_for) buckets the
+  participant's own message and every Facilitator turn alongside actual
+  voice speech, so the old `if pending` guard was dead code — it was
+  never actually empty on any table call. Point 6 ("the first response
+  answers the question same as the individual interview") had no real
+  implementation. Fixed: `_advance_open_round` now computes
+  `other_voice_has_spoken` (does the transcript contain any SEATED WORLD
+  other than the one about to speak) and gates both `context_prefix` and
+  `table_engagement` on that, not raw `pending` truthiness.
+- **`is_second_pass` was being used as a stand-in for "is this the actual
+  last turn," and the two are different sets at 3 seats.** Demonstrated
+  live: a first-time speaker (pahc) landing on the cap-forced position 6
+  was told to "leave room for the other voices; you can always be drawn
+  back in" — a promise the round's own closing response couldn't keep.
+  Simultaneously, non-final second-pass turns (positions 3-5 of an
+  eventual 6-turn round) were told "this round may well end after your
+  turn" while `turn_selector.round_facts` told the selector, in the same
+  round, that it usually doesn't end there. Fixed: a new `is_final_turn`
+  flag (`position == config.cap_for(num_seats)`, knowable in advance,
+  computed once) now governs the settle/hand-floor-to-the-participant
+  framing; `is_second_pass` governs only turn *content* (full answer vs.
+  depth-or-contrast) and length framing, independently. New tests pin
+  all four quadrants of the 2×2, including an HTTP-level reproduction of
+  the exact scripted scenario the review demonstrated.
+- **Point 10 names both alignment and disagreement as legal focuses for a
+  second-pass turn; the instruction only offered contrast.** A structural
+  bias toward manufactured disagreement, worsened by the 2-seat floor
+  making position 3 a mechanically forced second-pass turn every round.
+  Reworded to "a genuine alignment or a genuine contrast," restoring the
+  omitted half.
+- **`own_world_is_subject`'s stance ("confirm or correct... and add what
+  you would add") directly collided with `is_second_pass`'s "not another
+  full answer" on the one combination no test exercised.** The stance's
+  closing clause now scopes to "the one thing most worth confirming or
+  correcting" when it's a second-pass turn, instead of an open-ended add.
+- **Register statement 1 collision, the highest-risk finding**: the
+  first-pass instruction opened "Before you answer the participant,
+  engage what..." — literally instructing engagement before answering,
+  against "the first sentence answers the first ask." This is the exact
+  failure shape `_build_turn_directive`'s own ambiguity_options history
+  already recorded once (an instruction in this position measurably won,
+  answering the ask only 2 of 5 times, until reworded). Reworded to
+  "Answer the participant first. Where [the other voice(s)] said
+  something that genuinely touches your own world's witness, engage it
+  directly..." — same behavior, ask-first framing restored.
+- **`RoundConfig`'s validation invariant was deleted as refactor
+  collateral.** The old `1 <= floor <= cap <= 6` check (the turn-cap
+  incident's own re-tested ceiling) had no equivalent after the seat-
+  scaling refactor, and swapping a mutable `dict` field onto a
+  `frozen=True` dataclass made instances unhashable AND silently mutable
+  (`config.cap_by_seats[2] = 99` succeeded). Fixed: `cap_by_seats` is a
+  tuple of pairs now (genuinely immutable, hashable), and
+  `__post_init__` restores the ceiling check across every configured cap.
+- **A pre-existing bug, not introduced this session** (dates to
+  436128f1, 2026-08-30): a cap-forced round close built its governance
+  summary from the `state` projected before the cap-triggering voice turn
+  was written, silently undercounting whichever voice closes the round by
+  one turn on every cap-forced close — the M7 audit's per-voice turn/word
+  shares were wrong on exactly the path its own dominance detector most
+  needs to be right on. Found via this review, fixed while already in the
+  function with full context loaded (re-project `state` immediately
+  before `_close_round`, since `round_no`/`turn_count` are unaffected by
+  the fold).
+- **`create_table_session` had no seat-count guard of its own** — only
+  the HTTP layer checked 2-3 distinct keys, and `live_table_run.py`/
+  `live_table_battery.py` call it directly with an unvalidated `--worlds`
+  split. A single key spent a real, billed turn 1 before crashing at
+  position 2. Fixed: the guard now lives at the function itself.
+
+**Confirmed correct, not just asserted** (the review checked from the
+code, not from the claim): `is_second_pass`'s own detection
+(`selection.world_key in state.round_speakers`) holds in every case
+constructed, including the provider-failure retry path and a round
+boundary correctly resetting it; the cap arithmetic has no off-by-one;
+the soft-target selector guidance lands on the right turn count; the
+"exit condition" and "context passing" considerations Mark raised
+mid-build really were already true of the architecture (traced end to
+end through `projection.py`, `app.py`'s 409 mapping, and
+`project_fresh`'s full re-fold on every call) — with one honest caveat
+now stated directly in code: the cap is a hard stop only as far as the
+in-process advance lock's own scope reaches (documented, not a live bug;
+single-instance today).
+
+**Judgment calls, left as they are, flagged rather than silently
+decided**: whether the selector's own "prefer an unheard voice" guidance
+should also apply, unconditionally, to a round that opened by direct
+address (today it stays conditional on the selector's own "genuinely
+open to all" reading, unchanged by this whole design pass); whether
+point 9's per-round phase boundary ("after EACH representative answers")
+is better served by the per-voice implementation this uses (a voice that
+already answered doesn't answer again, regardless of who else has
+spoken) versus a literal per-round one (the predicate that would
+implement it literally is exactly `_round_is_broad`, deleted this same
+day) — the per-voice reading was treated as the reasonable default, not
+re-litigated.
+
+**Verified**: full test suite (559 tests) green, including direct,
+targeted tests for every fix above — not just re-running what already
+existed.
+
+**Still not done**: a live Bedrock re-proof of any of today's instruction
+text (the existing live proof, 28627ee2, exercised only the pre-design-
+pass wording under the old flat cap of 4) — needs its own go-ahead before
+running, same standing rule as every other live spend this session.

@@ -29,8 +29,8 @@ def test_round_design_subject_world_framed_as_witness():
     assert msg in prefix
     assert "you are the witness" not in prefix and "we know only what we have heard at this Table" not in prefix
 
-    subject = _table_engagement_directive(own_world_is_subject=True, is_second_pass=False, num_seats=2)
-    other = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, num_seats=2)
+    subject = _table_engagement_directive(own_world_is_subject=True, is_second_pass=False, is_final_turn=False, num_seats=2)
+    other = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, is_final_turn=False, num_seats=2)
     assert "you are the witness" in subject and "Confirm or correct" in subject
     assert "we know only what we have heard at this Table" not in subject
     assert "we know only what we have heard at this Table" in other
@@ -48,13 +48,17 @@ def test_table_engagement_directive_first_pass_vs_second_pass():
     full answer, and no obligation to touch every other voice (points 9-10)."""
     from engine.api.table_wiring import _table_engagement_directive
 
-    first = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, num_seats=3)
-    second = _table_engagement_directive(own_world_is_subject=False, is_second_pass=True, num_seats=3)
-    assert "engage what" in first and "real agreement as readily as" in first
+    first = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, is_final_turn=False, num_seats=3)
+    second = _table_engagement_directive(own_world_is_subject=False, is_second_pass=True, is_final_turn=False, num_seats=3)
+    assert "Answer the participant first" in first and "real agreement as readily as" in first
     assert "Keep this turn compact" in first
     assert "not another full answer" in second and "Go deeper" in second
     assert "do not have to touch everything" in second
     assert "shorter than your first answer" in second
+    # point 10 names BOTH an alignment and a disagreement as legal focuses -
+    # independent review, 2026-09-05: the pre-review wording only offered
+    # contrast, a real bias toward manufactured disagreement.
+    assert "genuine alignment or a genuine contrast" in second
     # the shared frame (no-foreknowledge, never-retell) is identical either way
     for text in (first, second):
         assert "no knowledge of their worlds" in text and "never retell their stories" in text
@@ -67,8 +71,62 @@ def test_table_engagement_directive_scales_with_seat_count():
     instruction shape, just "the other voice" vs "the other voices"."""
     from engine.api.table_wiring import _table_engagement_directive
 
-    two = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, num_seats=2)
-    three = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, num_seats=3)
+    two = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, is_final_turn=False, num_seats=2)
+    three = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, is_final_turn=False, num_seats=3)
     assert "the other voices" not in two  # singular only at a 2-seat table
     assert "the other voice" in two
     assert "the other voices" in three  # plural at a 3-seat table
+
+
+def test_table_engagement_directive_final_turn_is_not_the_same_set_as_second_pass():
+    """Independent review, 2026-09-05 - the sharpest finding: is_final_turn
+    and is_second_pass are different sets (a first-time speaker can land on
+    the cap-forced last turn; a mid-round second-pass turn is provably not
+    final), and conflating them was backwards on both sides - a non-final
+    turn falsely claimed the round was ending, and the true final turn (when
+    it happened to be some voice's FIRST turn) told it to "leave room" for a
+    voice it could never be drawn back to. Only is_final_turn licenses the
+    settle-and-hand-off-to-the-participant framing; every other turn - first
+    pass or second pass alike - keeps the ordinary "leave room" ending."""
+    from engine.api.table_wiring import _table_engagement_directive
+
+    # A first-time speaker landing on the actual final turn: gets the
+    # settle/hand-off framing despite is_second_pass=False.
+    first_pass_final = _table_engagement_directive(
+        own_world_is_subject=False, is_second_pass=False, is_final_turn=True, num_seats=3
+    )
+    assert "last turn before the participant speaks again" in first_pass_final
+    assert "leave the floor open for the participant" in first_pass_final
+    assert "leave room for the other voices; you can always be drawn back in" not in first_pass_final
+    assert "Answer the participant first" in first_pass_final  # still a real, full first answer
+
+    # A second-pass turn that is provably NOT the final one: never claims
+    # the round is ending.
+    second_pass_not_final = _table_engagement_directive(
+        own_world_is_subject=False, is_second_pass=True, is_final_turn=False, num_seats=3
+    )
+    assert "last turn before the participant speaks again" not in second_pass_not_final
+    assert "Leave room for the other voices" in second_pass_not_final
+
+    # A second-pass turn that IS the final one: both apply together.
+    second_pass_final = _table_engagement_directive(
+        own_world_is_subject=False, is_second_pass=True, is_final_turn=True, num_seats=3
+    )
+    assert "not another full answer" in second_pass_final
+    assert "last turn before the participant speaks again" in second_pass_final
+
+
+def test_table_engagement_directive_subject_second_pass_add_clause_is_scoped():
+    """Independent review, 2026-09-05: own_world_is_subject's stance used to
+    say "add what you would add" unconditionally - an open invitation that
+    directly collided with is_second_pass's own "this turn is not another
+    full answer" on the one combination no test exercised. The subject
+    stance's own closing clause now respects is_second_pass instead of
+    contradicting it."""
+    from engine.api.table_wiring import _table_engagement_directive
+
+    first_pass = _table_engagement_directive(own_world_is_subject=True, is_second_pass=False, is_final_turn=False, num_seats=2)
+    second_pass = _table_engagement_directive(own_world_is_subject=True, is_second_pass=True, is_final_turn=False, num_seats=2)
+    assert "and add what you would add" in first_pass
+    assert "and add what you would add" not in second_pass
+    assert "not everything, this is still not another full answer" in second_pass

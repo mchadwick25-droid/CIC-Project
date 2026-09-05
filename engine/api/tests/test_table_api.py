@@ -147,6 +147,27 @@ def test_create_table_session_bad_shapes(store, usage_store, world_loader, regis
     assert http.post("/api/session", json={"world_keys": ["alx", "nope"]}).status_code == 400
 
 
+def test_create_table_session_rejects_bad_seat_count_directly(store, world_loader, registry):
+    """Independent review, 2026-09-05: the HTTP layer's own 2-3-distinct-
+    seats check (engine.api.app) isn't the only caller -
+    engine.m4.live_table_run and engine.m4.live_table_battery call
+    create_table_session directly with an unvalidated --worlds split, and
+    used to fail only well into a real, billed round (a single key spent
+    turn 1 before crashing at position 2; a fourth key ran with a seat
+    that could never speak). The invariant now lives at the function
+    itself, not only the one caller that happened to validate first."""
+    from engine.api.table_wiring import create_table_session
+
+    with pytest.raises(ValueError):
+        create_table_session(store=store, world_loader=world_loader, registry=registry, world_keys=["alx"])
+    with pytest.raises(ValueError):
+        create_table_session(store=store, world_loader=world_loader, registry=registry, world_keys=["alx", "alx"])
+    with pytest.raises(ValueError):
+        create_table_session(
+            store=store, world_loader=world_loader, registry=registry, world_keys=["alx", "desert", "pahc", "syr"]
+        )
+
+
 # --- the round lifecycle ---
 
 
@@ -281,6 +302,54 @@ def test_round_cap_closes_at_six_for_three_seats(
     assert speakers == ["facilitator", "participant", "alx", "desert", "pahc", "alx", "desert", "pahc"]
 
 
+def test_a_first_time_speaker_landing_on_the_cap_turn_gets_the_final_turn_framing(
+    store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
+):
+    """Independent review, 2026-09-05 - the exact scenario its own live
+    probe demonstrated as broken: at 3 seats, alx/desert alternate through
+    positions 1-5 (both legal - no immediate self-repeat only excludes the
+    LAST speaker, not every prior one) and pahc speaks for the first time
+    only at position 6, the cap. pahc's is_second_pass is False, but it is
+    unambiguously the round's actual final turn - it must get the settle/
+    hand-to-the-participant framing despite never having spoken before,
+    never the ordinary "leave room for the other voices; you can always be
+    drawn back in" (which would be a real promise this turn cannot keep)."""
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    pahc_sentence, _ = grounded_sentence(pahc_world)
+    client = _table_client(
+        selector_script=[
+            {"next": "alx", "reason": "opening"},
+            {"next": "desert", "reason": "responding"},
+            {"next": "alx", "reason": "still adding"},
+            {"next": "desert", "reason": "still adding"},
+            {"next": "alx", "reason": "still adding"},
+            {"next": "pahc", "reason": "pahc's first word, and the table's last"},
+        ],
+        stream_scripts=[
+            [alx_sentence], [desert_sentence], [alx_sentence], [desert_sentence], [alx_sentence], [pahc_sentence],
+        ],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert", "pahc"))
+
+    result = http.post(f"/api/session/{session_id}/message", json={"text": "hi"}, headers=auth).json()
+    for _ in range(5):
+        assert result["round_open"]
+        result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    assert result["position"] == 6 and result["voice"]["speaker"] == "pahc"
+    assert not result["round_open"] and result["turn_no"] == 1
+
+    final_call = client.messages.stream_calls[-1]
+    rendered = str(final_call["system"])
+    assert "last turn before the participant speaks again" in rendered
+    assert "leave the floor open for the participant" in rendered
+    assert "leave room for the other voices; you can always be drawn back in" not in rendered
+    # still a real, full first answer for pahc - point 6 holds even on the
+    # round's last turn.
+    assert "Answer the participant first" in rendered
+
+
 def test_message_while_round_open_is_409(store, usage_store, world_loader, registry, alx_world):
     alx_sentence, _ = grounded_sentence(alx_world)
     client = _table_client(selector_script=[{"next": "alx", "reason": "r"}], stream_scripts=[[alx_sentence]])
@@ -404,6 +473,39 @@ def test_round_closed_carries_governance_summary(store, usage_store, world_loade
     assert set(governance["word_share"]) == {"alx", "desert"}
     assert governance["turns"] == {"alx": 2, "desert": 1}
     assert isinstance(governance["dominance_signals"], list)
+
+
+def test_cap_closed_round_governance_includes_the_cap_turn_itself(
+    store, usage_store, world_loader, registry, alx_world, desert_world
+):
+    """PRE-EXISTING BUG, found by independent review, 2026-09-05 (dates to
+    436128f1, 2026-08-30 - not introduced by this session's round-length
+    work). A cap-forced close built its governance_summary from the `state`
+    projected at the TOP of _advance_open_round, before the cap-triggering
+    voice_turn was written - the round_closed payload's own `turns` count
+    and its `governance` block silently disagreed by exactly one turn on
+    every cap-forced close, undercounting whichever voice closes it."""
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    client = _table_client(
+        selector_script=[
+            {"next": "alx", "reason": "r1"}, {"next": "desert", "reason": "still adding"}, {"next": "alx", "reason": "still adding more"},
+        ],
+        stream_scripts=[[alx_sentence], [desert_sentence], [alx_sentence], [desert_sentence], [alx_sentence]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http)
+    result = http.post(f"/api/session/{session_id}/message", json={"text": "what is prayer?"}, headers=auth).json()
+    while result["round_open"]:
+        result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    assert result["turn_no"] == 1  # this round closed via the cap, not the selector
+
+    closed = [e for e in store.read_events(session_id) if e.event_type == "round_closed"]
+    governance = closed[0].payload["governance"]
+    # 5 voice turns total (the cap for 2 seats): alx at 1/3/5, desert at 2/4.
+    assert closed[0].payload["turns"] == 5
+    assert governance["turns"] == {"alx": 3, "desert": 2}
+    assert sum(governance["turns"].values()) == 5
 
 
 def test_table_voice_payload_matches_interview_shape(store, usage_store, world_loader, registry, alx_world):

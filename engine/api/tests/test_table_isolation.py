@@ -146,14 +146,25 @@ def test_voice_turn_scope_is_exactly_the_selected_world(store, usage_store, worl
     assert "since your last turn" in second_call["context_prefix"]
 
 
-def test_no_foreknowledge_instruction_reaches_every_voice(store, usage_store, world_loader, registry, alx_world, desert_world):
+def test_no_foreknowledge_instruction_reaches_every_voice_after_the_first(
+    store, usage_store, world_loader, registry, alx_world, desert_world
+):
     """Mark's rule (2026-08-28, after the first live run): a Representative
     has insight into the conversation and its own world ONLY - no
     foreknowledge of the other worlds. The grounding net cannot enforce
     this (it checks citations, and a voice describing another world from
     the model's general knowledge simply loses its badge), so the
-    epistemic position is stated in every table voice call's context, and
-    this test pins that it actually arrives."""
+    epistemic position is stated in every table voice call whose context
+    actually contains another voice's words.
+
+    NOT the round's true opening turn (independent review, 2026-09-05):
+    the instruction used to reach position 1 too, telling the very first
+    speaker to "engage what another voice said" when none had - the old
+    `if pending` guard was dead code, since `pending` also carries the
+    participant's own message and Facilitator turns, never empty on any
+    table call. Position 1 now correctly gets no engagement framing at
+    all (Mark's point 6: "the first response answers the question same as
+    the individual interview")."""
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
     client = _table_client(
@@ -165,17 +176,19 @@ def test_no_foreknowledge_instruction_reaches_every_voice(store, usage_store, wo
     http.post(f"/api/session/{session_id}/message", json={"text": "hi"}, headers=auth)
     http.post(f"/api/session/{session_id}/continue", headers=auth)
     assert len(client.messages.stream_calls) == 2
-    for call in client.messages.stream_calls:
-        # 2026-09-05 bug fix (Mark's report: monologues on broad questions):
-        # the epistemic/engagement instruction now rides in the directive
-        # channel (system), not the user message it lived in entirely
-        # before - see engine.m4.turn._build_turn_directive's own note on
-        # why. "Reaches every voice" still means either channel.
-        rendered = str(call["system"]) + str(call["messages"])
-        assert "only through what they have said" in rendered
-        assert "no knowledge of their worlds" in rendered
-        assert "THEIR witness, never yours" in rendered  # the L4 appropriation finding's fix
-        assert "Keep this turn compact" in rendered
+
+    opener = str(client.messages.stream_calls[0]["system"]) + str(client.messages.stream_calls[0]["messages"])
+    assert "only through what they have said" not in opener and "no knowledge of their worlds" not in opener
+
+    # 2026-09-05 bug fix (Mark's report: monologues on broad questions): the
+    # epistemic/engagement instruction rides in the directive channel
+    # (system), not the user message it lived in entirely before - see
+    # engine.m4.turn._build_turn_directive's own note on why.
+    second = str(client.messages.stream_calls[1]["system"]) + str(client.messages.stream_calls[1]["messages"])
+    assert "only through what they have said" in second
+    assert "no knowledge of their worlds" in second
+    assert "THEIR witness, never yours" in second  # the L4 appropriation finding's fix
+    assert "Keep this turn compact" in second
 
 
 def test_per_world_session_memory_is_filtered_by_speaker():

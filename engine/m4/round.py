@@ -22,7 +22,7 @@ gate_decision event alone. voice_message_for_round is that derivation,
 used identically at round open and on every continue - one code path, so
 the two can never disagree about what the voices are answering.
 """
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns
@@ -71,11 +71,28 @@ class RoundConfig:
     This is inherent to the production architecture (Artifact-3's
     event-sourced store), not a property of any one round-length change."""
     floor: int = 3
-    cap_by_seats: dict = field(default_factory=lambda: {2: 5, 3: 6})
+    # A tuple of pairs, not a dict (independent review, 2026-09-05): a
+    # mutable dict field on a frozen dataclass defeats `frozen` twice over -
+    # instances become unhashable, AND `cap_by_seats[2] = 99` mutates the
+    # config out from under `frozen`'s own guarantee, silently, with no
+    # error. A tuple of pairs is a real value, not a mutable container.
+    cap_by_seats: tuple = ((2, 5), (3, 6))
     default_cap: int = 4  # unreached in practice - every real table seats 2 or 3
 
+    def __post_init__(self):
+        # The §6 ceiling the turn-cap incident verified (Process V1.0 §6)
+        # applies to every configured cap, not just the old single `cap`
+        # field it used to be - restored here after the seat-scaling
+        # refactor dropped it entirely (independent review, 2026-09-05).
+        caps = [c for _, c in self.cap_by_seats] + [self.default_cap]
+        if not all(1 <= self.floor <= c <= 6 for c in caps):
+            raise ValueError(
+                f"round config must satisfy 1 <= floor <= cap <= 6 for every seat count, "
+                f"got floor={self.floor} cap_by_seats={self.cap_by_seats} default_cap={self.default_cap}"
+            )
+
     def cap_for(self, num_seats: int) -> int:
-        return self.cap_by_seats.get(num_seats, self.default_cap)
+        return dict(self.cap_by_seats).get(num_seats, self.default_cap)
 
     def close_allowed(self, round_turns: int) -> bool:
         return round_turns >= self.floor
@@ -104,18 +121,27 @@ class RoundOpening:
 # table session cap is counted in COMPLETED ROUNDS, not voice turns. The
 # interview's voice-turn unit was the right cost proxy for a mode where one
 # exchange is one voice turn; at a table one participant exchange spends
-# 1-4 voice turns, and capping the session at 10 voice turns would have
+# several voice turns, and capping the session at 10 voice turns would have
 # handed a participant roughly three questions - a cost unit leaking into
 # the participant's experience. Rounds are what a participant actually
-# spends. The NUMBER is set from the measured live runs (token counts,
-# engine/m4/reports/live-table-report-2.json): a compact-turn round ran
-# ~1.8k output tokens across 3 voice turns, so 5 rounds sits in the same
-# output-token envelope as the interview's measured 10-turn cap, with
-# input growth to be re-measured by a live long-session run before this
-# number is treated as load-bearing (same discipline as the interview
-# cap's own memory-growth measurement; no $ figure until a reconciled
-# invoice, principle 13). Config, not constant law - swappable without
-# touching round semantics.
+# spends. The NUMBER was originally set from a measured live run (token
+# counts, engine/m4/reports/live-table-report-2.json): a compact-turn round
+# ran ~1.8k output tokens across 3 voice turns, sizing 5 rounds against the
+# interview's measured 10-turn cap.
+#
+# THAT BASIS NO LONGER HOLDS (independent review, 2026-09-05, flagged
+# rather than silently left stale): RoundConfig.cap_for now runs rounds to
+# 5 turns at a 2-seat table and 6 at a 3-seat table (soft target 4/5),
+# not the 3 turns this number was measured against - roughly 1.3-2x the
+# per-round output tokens the 5-round session figure was sized on,
+# depending on how often a round actually reaches its target versus its
+# cap. TABLE_SESSION_ROUND_CAP itself was NOT re-measured or re-sized as
+# part of the round-length change that invalidated its own basis - a real
+# gap, not a decision. Needs its own live long-session measurement before
+# either number is treated as load-bearing again (same discipline the
+# interview cap's own memory-growth measurement already holds itself to;
+# no $ figure until a reconciled invoice, principle 13). Config, not
+# constant law - swappable without touching round semantics.
 TABLE_SESSION_ROUND_CAP = 5
 
 
