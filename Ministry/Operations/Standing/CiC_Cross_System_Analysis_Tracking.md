@@ -1660,3 +1660,140 @@ should, or an overcorrection in the opposite direction; only more real
 usage will tell. Also consistent with the established pattern: all 4
 runs closed at exactly 5 turns, none reached 6 - unrelated to this
 fix, and unchanged from before it.
+
+Merged to main as PR #107 (`1be29694`), deployed and confirmed live.
+
+### Post-merge production check: same first-pass order, ruled a fluke, 2026-09-05
+
+A fresh real production transcript (cappadocian+alx+pahc, "who is
+Jesus") opened Chilo, Theon, Chloe again - the exact pre-fix order -
+with Chloe closing instead of Theon. Mark: "it is still the same order
+for the first 3 entries... maybe thats just coincidence."
+
+Checked against real data already in hand rather than reasoning in the
+abstract: the 4-run fairness proof (same section above) had already
+logged every opening order from that same battery -
+Theon/Chloe/Chilo, Chilo/Chloe/Theon, Theon/Chloe/Chilo,
+Chloe/Chilo/Theon - none matching Chilo/Theon/Chloe. This transcript
+landing on that one specific ordering is a 5th roll among 6 possible
+permutations; unsurprising by chance (a specific permutation recurring
+at least once within 5 draws is >60% likely if genuinely uniform), not
+evidence the shuffle silently stopped working.
+
+Named, not chased further: the 4-run proof's own selector_reasons show
+3 of 4 opening picks justified as "the systematic/catechetical voice
+is the natural first answer to a foundational question" - the same
+SHAPE of reasoning the return-pick fairness fix just named and
+corrected, potentially present for OPENING picks too and independent
+of list-order (randomizing presentation order doesn't touch a
+judgment-level preference for "which voice is the natural opener").
+Flagged as a real hypothesis, not a confirmed finding - n=5 total
+observations is too thin to act on.
+
+**Mark's call**: "let's push the fix we were on and assume the order
+was fluke, we will let the pilot watch it and if there is a continuing
+issue we will come back to this." Standing down on a further live
+battery for now (real spend, not authorized) - the fix already
+merged and deployed above; real pilot usage is the next check, not a
+synthetic one. Revisit only if a real, continuing pattern shows up in
+production use, the same discipline that surfaced and fixed the
+return-pick bias in the first place.
+
+### Table-mode cost estimate from real usage data, 2026-09-05
+
+Mark: "can you do a cost estimate on the multi-voice conversation
+now" - i.e. reflecting today's round-length changes (floor/cap raised
+to 5/6 turns per round, per the seat-scaled redesign earlier this
+session), directly relevant to `TABLE_SESSION_ROUND_CAP`'s own flagged
+stale cost basis (`engine/m4/round.py`).
+
+No new live call was made for this - spec principle 13 forbids a
+guessed $/token figure, but it doesn't require new spend when real,
+already-collected usage data answers the question. The 4 return-pick
+fairness-proof runs from earlier tonight (same section above) are each
+one full real Table round under the CURRENT round config (3 seats,
+alx+pahc+cappadocian, all 4 closing at 5 voice turns) with their
+`usage.db` still on disk - read directly via `engine.m8.log_store` and
+priced with `engine.m8.live_cost_run`'s own already-committed price
+table (Anthropic's published rate card, fetched 2026-08-25, cited by
+name - not a reconciled AWS invoice; same discipline `cost.py` itself
+documents). Priced by each record's own real `model_id` rather than
+that script's `call_kind`-based helper, which predates `turn_selector`
+existing as a call kind and would have mispriced it as Sonnet when the
+real records show it running on Haiku.
+
+The 4 runs split cleanly into one cold-cache round and three warm
+ones - useful rather than incidental, since it's exactly the pattern a
+real session produces round-to-round within Bedrock's 5-minute cache
+TTL:
+
+- **Round 1 (cold, cache write)**: 24,241 input / 3,377 output /
+  59,859 cache-write / 45,235 cache-read tokens -> **$0.311**
+- **Rounds 2-4 (warm, cache read only, avg of the 3 real runs)**:
+  ~22,976 input / ~3,090 output / 0 cache-write / ~100,755 cache-read
+  tokens -> **~$0.097** each
+
+Extrapolating to a full `TABLE_SESSION_ROUND_CAP=5`-round session (1
+measured cold round + 4 measured-average warm rounds - a real, if
+approximate, stand-in for one continuous session, not one actually
+run start to finish): **~116k input / ~15.7k output / ~59.9k
+cache-write / ~448k cache-read tokens, ~$0.70/session**, ~$0.14/round
+average, ~$0.028 per voice turn (25 voice turns total at 5/round).
+
+For scale, the same price table priced the interview format's own
+live-cost run (`engine/m8/reports/live-cost-report.json`) at
+~$0.041/turn, ~$0.075-0.09/session (2 turns) - a Table session running
+several times an interview session's cost is expected (3 voices'
+system prompts each round, not one), not itself a red flag.
+
+This also directly checks the round-cap comment's own estimate: it
+guessed today's rounds run "roughly 1.3-2x the per-round output tokens"
+the original 5-round sizing assumed (~1.8k output tokens/round at 3
+turns). Real measured output here is ~3.1-3.4k tokens/round at 5
+turns - about **1.7-1.9x**, landing inside the guessed range and
+confirming the comment's flag was pointed the right direction, without
+yet saying whether 5 rounds is still the right number - that's a
+product/budget call on top of the token math, not something this
+measurement alone decides.
+
+**Not done here, flagged for if Mark wants it**: this used 4
+independent single-round sessions as a cold/warm proxy, not one
+continuous 5-round session measured end to end - the more rigorous
+version of `TABLE_SESSION_ROUND_CAP`'s own re-measurement still needs
+that (real spend, needs Mark's go-ahead). Also not attempted: a
+$/participant-hour figure - `cost.py`'s `TURNS_PER_HOUR_CONVENTION=12`
+was defined for the interview format's single-voice turn pace, and
+applying it to a Table round (which bundles multiple voice turns) has
+no established convention yet; asserting one here would be exactly
+the kind of invented figure principle 13 exists to prevent.
+
+### Round cap resized 5 -> 3, restoring the original budget by ratio, 2026-09-05
+
+Mark, on seeing the estimate above: "i think 3 rounds makes sence,
+that should be about the same as 5 rounds of 3 answers" - catching
+that 5 rounds x the now-typical ~5-turn floor and 3 rounds x the same
+~5-turn floor both land on 5x3 = 3x5 = 15 voice turns, the same
+implicit budget the original 5-round figure was sized on before the
+seat-scaled floor/cap redesign lengthened every round.
+
+Checked against the real numbers already in hand rather than taken on
+faith: the original basis was ~1.8k output tokens/round x 5 rounds =~
+9k output tokens. Tonight's real measured output is ~3.1-3.4k
+tokens/round (5 turns) x 3 rounds =~ 9.6k - a close match, confirming
+3 is the right number to restore the original budget rather than
+merely a plausible-sounding guess. Priced with the same real usage
+data and published rate card as the estimate above: a 3-round session
+now runs ~$0.51 (1 measured cold round + 2 measured-average warm
+rounds), down from ~$0.70 for the un-resized 5-round figure.
+
+Changed `TABLE_SESSION_ROUND_CAP` from 5 to 3 in `engine/m4/round.py`,
+with the reasoning above written into the constant's own comment.
+Full engine test suite still green (572 passed) - every test touching
+the cap reads the constant symbolically, not a hardcoded 5. Flagged,
+not fixed: `engine/m4/live_table_battery.py`'s six-probe live-battery
+script was designed assuming a 5-round cap (probes 1-5 spend the
+session, probe 6 proves the cap close); probes L4 and L5 would now run
+past the new cap. Noted in that script's own docstring rather than
+silently left wrong or reshaped on a guess - reshaping the probe order
+is a design call belonging to whoever next authorizes a real, billed
+run of that battery, not implied by the cap number alone changing.
