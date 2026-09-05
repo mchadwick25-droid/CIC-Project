@@ -1403,6 +1403,45 @@ Full suite green after fixes: 574 tests (3 new beyond the pre-review
 571 - the contradiction test, the `_scoped_pending` unit test, and the
 end-to-end context-scoping proof).
 
-Still open, same as before: a live proof against real Bedrock, only
-with Mark's go-ahead (real spend), before this is considered proven
-rather than just tested and reviewed.
+### Live proof (Mark's go-ahead: "go ahead, run the live proof") - the scoping fix confirmed, the length question isolated, 2026-09-05
+
+Same seating and phrasing as the two most recent real production
+transcripts (cappadocian+alx+pahc = Chilo/Theon/Chloe, "who is Jesus")
+that both closed at turn 4 on a full-table synthesis. Floor (4) and cap
+(6) deliberately untouched - the question was whether the properly-
+scoped mechanism changes anything on its own, not whether a bigger
+minimum forces it to. Report:
+`engine/m4/reports/live-table-engagement-scoping-proof-2026-09-05.json`.
+
+**The scoping fix is real, not cosmetic.** Position 4 (Chilo's return)
+was logged with `engages: pahc` (Chloe) - a genuine selector choice, one
+voice, not the whole table. Chilo's actual turn: "We would say yes to
+every word Chloe has spoken... How calling Jesus God fits with calling
+the Father God: that became our whole life's argument... So what Chloe
+names as unworked-out, we worked out" - engaging Chloe's own named
+unresolved point specifically, extending it with real Cappadocian
+content (homoousios, hypostasis, the doxology story), with NO mention of
+Theon or Alexandria anywhere in the turn. No declared consensus across
+all three voices, no "different rooms in the same house" move - this is
+the alignment-then-depth pattern the design always wanted, now actually
+happening on a real call.
+
+**The round still closed at turn 4.** The selector's own reason: "The
+participant's initial question... has been fully answered by all three
+voices... Another turn would restate rather than add. The exchange is
+complete and genuine." Scoping fixed WHAT a return turn can say and see
+- it did not touch WHEN the selector decides enough is enough, and that
+judgment closed at the floor again, same as every prior run at every
+floor value tried (3, 4). These are two independent mechanisms: content
+quality and round length were never one root cause, just two symptoms
+that happened to co-occur in the transcripts that surfaced this whole
+investigation.
+
+**What this settles and what it doesn't**: the "no smoothing, no false
+conclusion" half of Mark's complaint is now proven, not just tested -
+real evidence, not a hoped-for prose effect. The "5-6 interactions, not
+4" half is untouched by this fix and needs its own lever - most likely
+the floor itself, now on real evidence rather than a guess (raising it
+again was properly held off, per Mark's own "no fix on fix" ruling,
+until there was live data showing whether the scoping fix alone would
+change round length; it didn't). Put to Mark, not decided here.
