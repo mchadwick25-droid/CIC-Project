@@ -1621,3 +1621,42 @@ the return pick - a prompt-level behavioral change, harder to verify
 with certainty than a pure code-logic one. Live proof would need
 Mark's go-ahead (real spend) before considering it more than a
 reasoned, tested guess.
+
+### Live proof (Mark's go-ahead: "go ahead and run the live proof") - a real reversal, 2026-09-05
+
+Same trio and question every real transcript today used
+(cappadocian+alx+pahc, "who is Jesus"), but 4 INDEPENDENT full rounds
+this time (not one) - a single run says little about whether a
+prompt-level nudge actually moved anything. Report:
+`engine/m4/reports/live-table-return-pick-fairness-proof-2026-09-05.json`.
+
+**Before this fix**: pahc (Chloe, the house-churches) got 0 of every
+return pick observed across every real transcript reviewed today -
+heard once, in its first pass, never brought back.
+
+**After**: across the 4 fresh runs, pahc got 4 of 8 total return picks
+(50%) - and was brought back in EVERY one of the 4 runs, closing the
+round itself in 3 of the 4. cappadocian got 3/8 (38%), alx 1/8 (12%).
+Not noise: the selector's own stated reasoning in every single one of
+Chloe's return picks explicitly names the exact thing the new prompt
+guidance asks it to weigh - "her honest acknowledgment... may invite
+the participant to recognize what they're actually hearing" (run 1);
+"this honors the lived, worshipful witness she represents" (run 2);
+"speak to what that transformation looks like in the actual gathered
+household" (run 3); "speak to how her world held this mystery in
+practice, after hearing how the more systematized traditions kept
+reaching back to her testimony as their own ground" (run 4). The
+engagement-scoping fix held up cleanly across all 4 runs too (every
+return logged a single named `engages` target, never a survey), and
+one round's own close reason is worth quoting for the anti-smoothing
+fix too: "naming the reach and tensions within their own tradition
+without smoothing them over, and speaking plainly about what remains
+unfinished" (run 4) - both fixes visibly operating together, unprompted.
+
+**Flagged, not resolved**: n=4 is still small, and Chloe closing 3 of 4
+rounds is itself a real pattern worth watching rather than declaring
+solved - this could be a well-calibrated correction landing where it
+should, or an overcorrection in the opposite direction; only more real
+usage will tell. Also consistent with the established pattern: all 4
+runs closed at exactly 5 turns, none reached 6 - unrelated to this
+fix, and unchanged from before it.

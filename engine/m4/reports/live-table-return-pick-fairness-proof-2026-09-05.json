@@ -1,0 +1,153 @@
+{
+  "runs": [
+    {
+      "turns": [
+        {
+          "position": 1,
+          "speaker": "alx",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 2,
+          "speaker": "pahc",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 3,
+          "speaker": "cappadocian",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 4,
+          "speaker": "pahc",
+          "is_return": true,
+          "engages": "cappadocian"
+        },
+        {
+          "position": 5,
+          "speaker": "cappadocian",
+          "is_return": true,
+          "engages": "pahc"
+        }
+      ],
+      "close_turns": 5,
+      "close_reason": "The participant's opening question \"who is Jesus\" has been thoroughly answered from three genuinely different formation worlds. Theon offered the Logos theology - God's self-expression remaking creation. Chloe grounded it in embodied reality - a real man, truly raised, known through table and life together. Chilo added the costly confession of full divinity and the forward-reaching transformation of theōsis. The exchange cycled back to deepen rather than expand: each voice clarified how their answer held the others' truths while naming what their own world uniquely carried. Another turn would restate rather than add. The question has been answered at the depth the three traditions can reach."
+    },
+    {
+      "turns": [
+        {
+          "position": 1,
+          "speaker": "cappadocian",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 2,
+          "speaker": "pahc",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 3,
+          "speaker": "alx",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 4,
+          "speaker": "cappadocian",
+          "is_return": true,
+          "engages": "alx"
+        },
+        {
+          "position": 5,
+          "speaker": "pahc",
+          "is_return": true,
+          "engages": "cappadocian"
+        }
+      ],
+      "close_turns": 5,
+      "close_reason": "The question \"who is Jesus\" has been answered fully from three distinct formation worlds. Cappadocian has spoken twice - first laying out the theological framework (incarnation, deification, ransom, the poor bearing his image, bodily resurrection) and then returning to defend the core conviction that cost them exile (the Son's full identity with the Father, grounding the claim that creatures are made god). Alexandrian has spoken once, offering the Logos-centered account and the healing metaphor, affirming both the real body and the bold hope. Post-Apostolic has spoken twice - first establishing the real, embodied Jesus and the unsettled (but worshipful) confession of his divinity, then returning to name plainly what they could and could not say: Jesus called God in prayer and thanksgiving, but the systematic working-out belonging to a later world. The participant now has the shape of each answer: what each world knew, how they knew it, where their records end. A fourth turn would circle back rather than add. The round is finished."
+    },
+    {
+      "turns": [
+        {
+          "position": 1,
+          "speaker": "alx",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 2,
+          "speaker": "pahc",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 3,
+          "speaker": "cappadocian",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 4,
+          "speaker": "alx",
+          "is_return": true,
+          "engages": "cappadocian"
+        },
+        {
+          "position": 5,
+          "speaker": "pahc",
+          "is_return": true,
+          "engages": "alx"
+        }
+      ],
+      "close_turns": 5,
+      "close_reason": "The participant's opening question \"who is Jesus\" has been answered fully and genuinely from three distinct formation worlds. Theon has named him as Logos and physician of the soul. Chloe has emphasized his real humanity, real death, and real resurrection. Chilo has articulated his full divinity and the work of theōsis. Each voice has also acknowledged and honored what the others have named - these are not contradictions but one confession held through different rooms. A return now would be restating rather than adding. The round has reached its natural completion at turn 5, with the participant having witnessed how the same Jesus is received, emphasized, and lived differently across genuinely different early Christian worlds."
+    },
+    {
+      "turns": [
+        {
+          "position": 1,
+          "speaker": "pahc",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 2,
+          "speaker": "cappadocian",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 3,
+          "speaker": "alx",
+          "is_return": false,
+          "engages": null
+        },
+        {
+          "position": 4,
+          "speaker": "cappadocian",
+          "is_return": true,
+          "engages": "alx"
+        },
+        {
+          "position": 5,
+          "speaker": "pahc",
+          "is_return": true,
+          "engages": "cappadocian"
+        }
+      ],
+      "close_turns": 5,
+      "close_reason": "The participant's original question has been answered from all three worlds with genuine depth and honesty. Chloe's final turn landed exactly where this round needed to end: acknowledging what is held in common (a real man, really killed, really raised), naming the reach and tensions within their own tradition without smoothing them over, and speaking plainly about what remains unfinished. Each voice has offered its own formation's distinctive witness—Chloe on embodied reality and worship without systematic argument, Chilo on homoousios and theōsis with the schools' precision, Theon on the Logos and shared divine life. Another turn would circle back rather than add. The question \"who is Jesus\" has been answered as fully as these three worlds can answer it together."
+    }
+  ],
+  "return_pick_counts": {
+    "pahc": 4,
+    "cappadocian": 3,
+    "alx": 1
+  }
+}
