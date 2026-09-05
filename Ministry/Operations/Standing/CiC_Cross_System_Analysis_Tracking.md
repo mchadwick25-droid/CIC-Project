@@ -1766,3 +1766,34 @@ was defined for the interview format's single-voice turn pace, and
 applying it to a Table round (which bundles multiple voice turns) has
 no established convention yet; asserting one here would be exactly
 the kind of invented figure principle 13 exists to prevent.
+
+### Round cap resized 5 -> 3, restoring the original budget by ratio, 2026-09-05
+
+Mark, on seeing the estimate above: "i think 3 rounds makes sence,
+that should be about the same as 5 rounds of 3 answers" - catching
+that 5 rounds x the now-typical ~5-turn floor and 3 rounds x the same
+~5-turn floor both land on 5x3 = 3x5 = 15 voice turns, the same
+implicit budget the original 5-round figure was sized on before the
+seat-scaled floor/cap redesign lengthened every round.
+
+Checked against the real numbers already in hand rather than taken on
+faith: the original basis was ~1.8k output tokens/round x 5 rounds =~
+9k output tokens. Tonight's real measured output is ~3.1-3.4k
+tokens/round (5 turns) x 3 rounds =~ 9.6k - a close match, confirming
+3 is the right number to restore the original budget rather than
+merely a plausible-sounding guess. Priced with the same real usage
+data and published rate card as the estimate above: a 3-round session
+now runs ~$0.51 (1 measured cold round + 2 measured-average warm
+rounds), down from ~$0.70 for the un-resized 5-round figure.
+
+Changed `TABLE_SESSION_ROUND_CAP` from 5 to 3 in `engine/m4/round.py`,
+with the reasoning above written into the constant's own comment.
+Full engine test suite still green (572 passed) - every test touching
+the cap reads the constant symbolically, not a hardcoded 5. Flagged,
+not fixed: `engine/m4/live_table_battery.py`'s six-probe live-battery
+script was designed assuming a 5-round cap (probes 1-5 spend the
+session, probe 6 proves the cap close); probes L4 and L5 would now run
+past the new cap. Noted in that script's own docstring rather than
+silently left wrong or reshaped on a guess - reshaping the probe order
+is a design call belonging to whoever next authorizes a real, billed
+run of that battery, not implied by the cap number alone changing.

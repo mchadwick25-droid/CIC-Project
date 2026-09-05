@@ -179,22 +179,30 @@ class RoundOpening:
 # spends. The NUMBER was originally set from a measured live run (token
 # counts, engine/m4/reports/live-table-report-2.json): a compact-turn round
 # ran ~1.8k output tokens across 3 voice turns, sizing 5 rounds against the
-# interview's measured 10-turn cap.
+# interview's measured 10-turn cap - an implicit ~9k output-token, ~15
+# voice-turn budget for a full session.
 #
-# THAT BASIS NO LONGER HOLDS (independent review, 2026-09-05, flagged
-# rather than silently left stale): RoundConfig.cap_for now runs rounds to
-# 5 turns at a 2-seat table and 6 at a 3-seat table (soft target 4/5),
-# not the 3 turns this number was measured against - roughly 1.3-2x the
-# per-round output tokens the 5-round session figure was sized on,
-# depending on how often a round actually reaches its target versus its
-# cap. TABLE_SESSION_ROUND_CAP itself was NOT re-measured or re-sized as
-# part of the round-length change that invalidated its own basis - a real
-# gap, not a decision. Needs its own live long-session measurement before
-# either number is treated as load-bearing again (same discipline the
-# interview cap's own memory-growth measurement already holds itself to;
-# no $ figure until a reconciled invoice, principle 13). Config, not
-# constant law - swappable without touching round semantics.
-TABLE_SESSION_ROUND_CAP = 5
+# RE-SIZED (2026-09-05, Mark's call from real data, not a guess - see
+# Ministry/Operations/Standing/CiC_Cross_System_Analysis_Tracking.md's
+# "Table-mode cost estimate" entry the same day): the seat-scaled
+# floor/cap redesign moved a round from ~3 voice turns to 5-6 (floor
+# 5/cap 6 at 3 seats), leaving the 5-round figure above sized on a round
+# length the code no longer produces - real measured per-round output now
+# runs ~1.7-1.9x the original basis, the range the prior flag guessed
+# without yet resolving. Rather than re-derive a new cap from scratch,
+# Mark's fix restores the ORIGINAL ~9k output-token / ~15 voice-turn
+# session budget arithmetically: 3 rounds at the new ~5-turn floor is
+# 5x3 = 3x5 voice turns, and real measured output confirms it (~3.1-3.4k
+# tokens/round now x 3 rounds =~ 9.6k, against the original ~1.8k x 5 =
+# 9k) - close enough to call it the same budget, not a new one. Priced
+# against the same real usage data and published rate card the cost
+# estimate used: a 3-round session now runs ~$0.51 (1 measured cold round
+# + 2 measured-average warm rounds), against ~$0.70 for the un-resized
+# 5-round figure this replaces. Still config, not constant law -
+# swappable without touching round semantics; a live continuous-session
+# measurement remains the more rigorous check if this ever needs
+# re-deriving from first principles rather than by ratio.
+TABLE_SESSION_ROUND_CAP = 3
 
 
 def open_table_round(
