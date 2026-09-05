@@ -1,0 +1,40 @@
+{
+  "question": "Who is Jesus, and how did you understand Him?",
+  "world_keys": [
+    "cappadocian",
+    "pahc",
+    "syr"
+  ],
+  "turns": [
+    {
+      "speaker": "cappadocian",
+      "position": 1,
+      "text": "Jesus is the Son of God, fully what the Father is - one being with him, not a likeness or a lesser copy. That confession cost us. For most of our own lifetime, the palace pressed a softer word on us: the Son is *like* the Father, they said - homoios, a careful resemblance. Bishops we loved lost their churches rather than sign it. We held instead to the word Nicaea gave us: homoousios - of the same being, one ousia.\n\nBut here is what made the fight matter to us, beyond the words themselves. Salvation, we taught, is becoming god by grace - theōsis, our boldest word for it. If the Son makes gods of us by saving us, then the Son cannot himself be a creature, because no creature makes gods. And we met him first where our whole life began: at the water, baptized into his Name with the Father and the Spirit, the formula itself our charter before we could weigh it.\n\nNow the other half, which we held together with the first. We built our whole way of speaking about God around one honest limit: no mind grasps him completely. We said that against a rival teacher who claimed one word could capture God's whole essence. Every name reaches him truly; none captures him whole. So the Son is fully God, and God remains past our full knowing - both held together, one not waiting to defeat the other.",
+      "cited_record_ids": [
+        "cappadocian.dw.want-to-believe",
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "turn_selected_reason": "Opening question about christology and formation identity - Chilo as Elder of the Cappadocian tradition is well-positioned to speak first from a world known for sophisticated theological reflection on the person of Christ, establishing the Table's depth before the household and Syriac voices follow."
+    },
+    {
+      "speaker": "pahc",
+      "position": 2,
+      "text": "He was a real man, not an idea. Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David. He truly ate and drank. He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed. And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.\n\nWhen we give thanks over the cup - the eucharistia, our own word for that thanksgiving - we call it the vine of David his servant, made known to us through Jesus. That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.\n\nIgnatius calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them. It is worship, not an argument worked out. How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out. We can tell you plainly that we called him God. We cannot tell you we had settled how.\n\nChilo speaks of what Nicaea settled, and of being of one being with the Father. That council met more than a hundred years after our own record ends. We never knew those words.",
+      "cited_record_ids": [
+        "pahc.witness.jesus-as-god",
+        "pahc.witness.who-was-jesus"
+      ],
+      "turn_selected_reason": "The participant asked an open question to the whole Table about Jesus and understanding Him. Chilo (cappadocian) has now spoken. Both remaining Representatives - Chloe (pahc) and Mar Yausep (syr) - are equally positioned to answer. Following the preference for hearing from Representatives not yet heard this round, Chloe should speak next to offer how Post-Apostolic House-Church Christianity understood Jesus, a genuinely different formation context from Cappadocian theology."
+    },
+    {
+      "speaker": "syr",
+      "position": 3,
+      "text": "To us, Jesus is the Only-Begotten of God - the Ihidaya, our own name for him. He left his place with God and made his home in the Virgin, and by being born as we are born, he became the brother of many. In him the words of the prophets, kings, and priests came true - our Nativity hymns sing of the day that made them glad, because every old promise came true at Bethlehem. His death and rising are one rescue. He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom. His own resurrection is the promise that he will bring us out after him. And what it meant to those who followed him was healing: he is the Physician, and his coming is medicine for a wounded people.\n\nChilo speaks of homoousios and theōsis - words from the great council and its language. We stood with that council's faith: our own bishop of Nisibis sat at Nicaea. But our native tongue for that faith was praise, not definition. We sang him more than we dissected him. Where Chilo speaks of *how* to name the Son's relation to the Father, we guarded the mystery. Our teachers warned against prying scrutiny into the Godhead, because what God is, we held, is better sung than taken apart.",
+      "cited_record_ids": [
+        "syr.dw.jesus",
+        "syr.dw.was-jesus-god"
+      ],
+      "turn_selected_reason": "The participant asked a genuinely open question to the whole Table. Two Representatives have already spoken (cappadocian and pahc). Mar Yausep (syr) has not yet been heard this round, and the Syriac formation holds distinctive Christological memory that should be witnessed alongside these others - particularly the Covenant Order teaching from Edessa/Nisibis, which shaped Jesus-understanding in a world distinct from both the Cappadocian and house-church contexts."
+    }
+  ]
+}

@@ -69,16 +69,45 @@ def _open(gate_run, *, rounds_completed=0, track_a_last=None, anachronistic_term
 
 def test_round_config_defaults_and_bounds():
     config = RoundConfig()
-    assert (config.floor, config.cap) == (3, 4)
+    assert config.floor == 3
     assert not config.close_allowed(2)
     assert config.close_allowed(3)
-    assert not config.cap_reached(3)
-    assert config.cap_reached(4)
-    RoundConfig(floor=3, cap=6)  # the re-tested ceiling is legal
+    RoundConfig(cap_by_seats=((2, 5), (3, 6)))  # the re-tested ceiling is legal
     with pytest.raises(ValueError):
-        RoundConfig(floor=3, cap=7)  # beyond the re-tested ceiling
+        RoundConfig(cap_by_seats=((2, 5), (3, 7)))  # beyond the re-tested ceiling
     with pytest.raises(ValueError):
-        RoundConfig(floor=5, cap=4)  # floor above cap
+        RoundConfig(floor=6, cap_by_seats=((2, 5),))  # floor above a configured cap
+    with pytest.raises(ValueError):
+        RoundConfig(default_cap=7)  # the fallback is bound by the same ceiling
+
+
+def test_round_config_is_genuinely_immutable():
+    """Independent review, 2026-09-05: a mutable dict field on a frozen
+    dataclass used to defeat `frozen` twice over - unhashable, and mutable
+    out from under it with no error. cap_by_seats is a tuple now."""
+    config = RoundConfig()
+    hash(config)  # does not raise
+    with pytest.raises(AttributeError):
+        config.cap_by_seats = ((2, 99),)
+
+
+def test_round_config_seat_scaled_cap():
+    """Mark's ruling, 2026-09-05: 'for 2 voices and a participant, the max
+    turns should be 5... for 3 voices the cap is 6' - applied to every
+    round, not gated behind any 'is this broad' judgment (his own explicit
+    scoping, superseding this thread's first pass at a broad-only 5/6
+    minimum). The floor (3) is unconditional and untouched - it predates
+    this ruling entirely."""
+    config = RoundConfig()
+    assert config.cap_for(2) == 5
+    assert config.cap_for(3) == 6
+    assert not config.cap_reached(4, num_seats=2)
+    assert config.cap_reached(5, num_seats=2)
+    assert not config.cap_reached(5, num_seats=3)
+    assert config.cap_reached(6, num_seats=3)
+    # a table this project never seats (Artifact-7 SS1: world_keys 2-3)
+    # falls back to the pre-existing default rather than raising
+    assert config.cap_for(1) == config.default_cap == 4
 
 
 # --- round-level routing ---

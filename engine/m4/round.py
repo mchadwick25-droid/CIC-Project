@@ -32,23 +32,73 @@ from engine.m5.routing import Directive, directive_without_terms
 
 @dataclass(frozen=True)
 class RoundConfig:
-    """C3 (decided 2026-08-28): floor and cap ship as configuration -
-    floor 3 / cap 4 default, 6 allowed. The floor binds the selector's
-    close option (Table Process V1.0 SS2: it never forces every voice to
-    speak); the cap binds absolutely. 6 is the ceiling the turn-cap
-    incident's re-test verified (Process V1.0 SS6), not an arbitrary max."""
+    """C3 (decided 2026-08-28): floor ships as configuration - floor 3,
+    binding the selector's close option (Table Process V1.0 SS2: it never
+    forces every voice to speak). Unconditional, every round, every table
+    size - this predates and is untouched by the seat-scaled cap below.
+
+    SEAT-SCALED CAP (Mark's ruling, 2026-09-05, superseding this thread's
+    own first pass at a broad-only 5/6 minimum): "for 2 voices and a
+    participant, the max turns should be 5... for 3 voices the cap is 6" -
+    applied to EVERY round regardless of how it opened (his explicit
+    scoping, walked through and confirmed), not only a genuinely-open one.
+    The "4 / 5 being the ultimate zone" language in that same ruling is
+    deliberately NOT a second mechanical floor - his own point 3 ("no hard
+    cap or post-conversation monitoring... just a small increased
+    pressure") and his direct confirmation both place it as guidance in the
+    selector's own prompt (engine.m4.turn_selector.round_facts), never a
+    second code-enforced gate; cap_for is the one hard number here. Two
+    seats and three are the only seatings a table ever has (Artifact-7
+    SS1: world_keys 2-3), so a plain mapping is honest about these being
+    two authored numbers, not a formula with a principle behind it.
+
+    EXIT CONDITION (Mark's own check, 2026-09-05, confirmed already true of
+    this design rather than newly built): the moment cap_reached fires -
+    turn 5 for a 2-seat table, turn 6 for a 3-seat table - the round loop
+    (engine.api.table_wiring._advance_open_round) writes round_closed in
+    that same request and returns round_open: False. There is no
+    subsequent generation of any kind until a new participant_message
+    opens the next round (Artifact-7 SS6's turn-at-a-time transport:
+    /continue on a closed round is a 409, not a retry point) - the
+    generation cycle ends unambiguously there and the system waits.
+
+    CONTEXT PASSING (Mark's own check, same date, also already true): each
+    voice turn is one real request against the persisted event log, not a
+    batch of turns generated from one snapshot - _advance_open_round
+    re-projects the FULL transcript from the store (project_fresh) on
+    every single call, so turn 4 is built from turns 1-3 exactly as they
+    were actually written, never from a stale copy taken before turn 1 ran.
+    This is inherent to the production architecture (Artifact-3's
+    event-sourced store), not a property of any one round-length change."""
     floor: int = 3
-    cap: int = 4
+    # A tuple of pairs, not a dict (independent review, 2026-09-05): a
+    # mutable dict field on a frozen dataclass defeats `frozen` twice over -
+    # instances become unhashable, AND `cap_by_seats[2] = 99` mutates the
+    # config out from under `frozen`'s own guarantee, silently, with no
+    # error. A tuple of pairs is a real value, not a mutable container.
+    cap_by_seats: tuple = ((2, 5), (3, 6))
+    default_cap: int = 4  # unreached in practice - every real table seats 2 or 3
 
     def __post_init__(self):
-        if not (1 <= self.floor <= self.cap <= 6):
-            raise ValueError(f"round config must satisfy 1 <= floor <= cap <= 6, got floor={self.floor} cap={self.cap}")
+        # The §6 ceiling the turn-cap incident verified (Process V1.0 §6)
+        # applies to every configured cap, not just the old single `cap`
+        # field it used to be - restored here after the seat-scaling
+        # refactor dropped it entirely (independent review, 2026-09-05).
+        caps = [c for _, c in self.cap_by_seats] + [self.default_cap]
+        if not all(1 <= self.floor <= c <= 6 for c in caps):
+            raise ValueError(
+                f"round config must satisfy 1 <= floor <= cap <= 6 for every seat count, "
+                f"got floor={self.floor} cap_by_seats={self.cap_by_seats} default_cap={self.default_cap}"
+            )
+
+    def cap_for(self, num_seats: int) -> int:
+        return dict(self.cap_by_seats).get(num_seats, self.default_cap)
 
     def close_allowed(self, round_turns: int) -> bool:
         return round_turns >= self.floor
 
-    def cap_reached(self, round_turns: int) -> bool:
-        return round_turns >= self.cap
+    def cap_reached(self, round_turns: int, num_seats: int) -> bool:
+        return round_turns >= self.cap_for(num_seats)
 
 
 @dataclass(frozen=True)
@@ -71,18 +121,27 @@ class RoundOpening:
 # table session cap is counted in COMPLETED ROUNDS, not voice turns. The
 # interview's voice-turn unit was the right cost proxy for a mode where one
 # exchange is one voice turn; at a table one participant exchange spends
-# 1-4 voice turns, and capping the session at 10 voice turns would have
+# several voice turns, and capping the session at 10 voice turns would have
 # handed a participant roughly three questions - a cost unit leaking into
 # the participant's experience. Rounds are what a participant actually
-# spends. The NUMBER is set from the measured live runs (token counts,
-# engine/m4/reports/live-table-report-2.json): a compact-turn round ran
-# ~1.8k output tokens across 3 voice turns, so 5 rounds sits in the same
-# output-token envelope as the interview's measured 10-turn cap, with
-# input growth to be re-measured by a live long-session run before this
-# number is treated as load-bearing (same discipline as the interview
-# cap's own memory-growth measurement; no $ figure until a reconciled
-# invoice, principle 13). Config, not constant law - swappable without
-# touching round semantics.
+# spends. The NUMBER was originally set from a measured live run (token
+# counts, engine/m4/reports/live-table-report-2.json): a compact-turn round
+# ran ~1.8k output tokens across 3 voice turns, sizing 5 rounds against the
+# interview's measured 10-turn cap.
+#
+# THAT BASIS NO LONGER HOLDS (independent review, 2026-09-05, flagged
+# rather than silently left stale): RoundConfig.cap_for now runs rounds to
+# 5 turns at a 2-seat table and 6 at a 3-seat table (soft target 4/5),
+# not the 3 turns this number was measured against - roughly 1.3-2x the
+# per-round output tokens the 5-round session figure was sized on,
+# depending on how often a round actually reaches its target versus its
+# cap. TABLE_SESSION_ROUND_CAP itself was NOT re-measured or re-sized as
+# part of the round-length change that invalidated its own basis - a real
+# gap, not a decision. Needs its own live long-session measurement before
+# either number is treated as load-bearing again (same discipline the
+# interview cap's own memory-growth measurement already holds itself to;
+# no $ figure until a reconciled invoice, principle 13). Config, not
+# constant law - swappable without touching round semantics.
 TABLE_SESSION_ROUND_CAP = 5
 
 
