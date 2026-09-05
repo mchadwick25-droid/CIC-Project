@@ -1463,4 +1463,32 @@ tests, same count - no new tests needed, the seat-scaled floor
 mechanism itself was already proven generically in the prior pass).
 
 Not yet live-verified at the new value - the just-run proof was at
-floor 4. Not yet committed.
+floor 4. Committed (`8df44964`) and pushed.
+
+### Live production bug: Table launch silently fell back to a stale interview, 2026-09-05
+
+Mark: "the live site is not working now, even after i select the three
+voices and say launch table it only goes to the clhoe tile." Confirmed
+first that nothing from today's round-design branch is deployed yet
+(`main` at `b2dec0fa`, unrelated to this) - a pre-existing bug, already
+live, from an earlier merge (`436128f1`, 2026-08-30).
+
+**Root cause** (`cic-poc/frontend/src/App.tsx`'s mount effect): on load,
+the app always tries to resume whatever session is left in this tab's
+`sessionStorage` BEFORE ever parsing the page's own `?worlds=&mode=`
+deep link - and only parses the deep link if resume comes back empty.
+An interview session (e.g. opening Chloe's tile from the homepage) that
+was never formally closed stays both in storage and open server-side
+indefinitely. Navigating from there to the Table page and convening a
+fresh 3-voice Table still built a correct `?worlds=a,b,c&mode=table`
+URL - but the leftover interview resumed successfully first, every
+time, and the fresh Table request was never even parsed.
+
+**Fix**: the mount effect now checks whether the incoming URL
+explicitly names a mode that conflicts with what's stored (e.g. URL
+says `mode=table`, storage says `mode=interview`) - a fresh, different
+request always wins over a stale leftover session. A bare reload of an
+already-open room (no explicit conflicting params) still resumes
+exactly as before - only the conflicting case changes. `npm run build`
+(tsc + vite) clean; no frontend test suite or working eslint config
+exists to run beyond that (pre-existing gap, not touched here).
