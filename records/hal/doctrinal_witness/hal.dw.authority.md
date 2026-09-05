@@ -25,17 +25,17 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  When belief was disputed in this world, no single court decided it. The
-  record shows exactly how messy that was. In its great internal fight, both
+  When belief was disputed among us, no single court decided it. The
+  record shows exactly how messy that was. In our great internal fight, both
   sides appealed to everything at once: to scripture, to the councils' faith,
   to the bishop of Rome, to the bishop of Alexandria, to local bishops, and to
   the judgment of whoever was reading. The fight ended less by a verdict than
   by exhaustion and death. What about the council that supposedly voted Jesus
-  into being God? This world was born after Nicaea. It received its faith as
-  the church's settled confession, not as a vote's invention. In its account,
+  into being God? We were born after Nicaea. Our faith came to us as
+  the church's settled confession, not as a vote's invention. In our account,
   the council rejected a new teaching and confessed what the churches already
-  worshipped. But this world is the wrong witness for what happened inside the
-  council hall. It was not there, and it would say so.
+  worshipped. But we are the wrong witness for what happened inside the
+  council hall. We were not there, and we say so.
 positions:
 - disputed belief was contested before overlapping authorities - scripture, councils,
   bishops, and learned opinion - with no single deciding court

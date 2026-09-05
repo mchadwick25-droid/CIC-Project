@@ -35,7 +35,7 @@ relations:
   target: cappadocian.gravity.household-lineage
 narrative_tier: 1
 narrative_tier_justification: "Tier 1: both Oration 43 and De vita sua are Gregory's own documented, named self-account of events in his own life. Idealization is flagged, not hidden: both are retrospective, written by the surviving friend after estrangement and loss, in genres (funeral encomium; verse autobiography) built to present a life in its best light. What is Documented is that this is how Gregory chose to remember and present the friendship, not an independently corroborated account of exactly what passed between two students decades earlier."
-tellable_as: "Two students at Athens form a friendship one of them will later call one soul in two bodies - the world's own portrait of its warmest ideal."
+tellable_as: "Two students at Athens form a friendship one of them will later call one soul in two bodies - our own portrait of our warmest ideal."
 text: >-
   Basil and Gregory of Nazianzus met as students, most likely at Athens,
   where both went for the fullest education their world offered. Gregory

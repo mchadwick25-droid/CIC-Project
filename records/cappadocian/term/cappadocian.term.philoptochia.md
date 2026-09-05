@@ -49,8 +49,8 @@ relations:
   target: cappadocian.term.philanthropia
 - type: associated-with
   target: cappadocian.term.pleonexia
-plain_meaning: This world preached that the poor bear the image of God. Whatever a person keeps beyond
-  their own need, they said, already belongs to the hungry. In famine, that belief became grain shamed
+plain_meaning: We preached that the poor bear the image of God. Whatever a person keeps beyond
+  their own need, we said, already belongs to the hungry. In famine, that belief became grain shamed
   out of hoarders. Outside one city, it became a permanent guest-house, infirmary, and leper-house.
 world_word: philoptōchia
 false_friend:
@@ -74,7 +74,7 @@ senses:
   translational: '''Isn''t charity just optional generosity, separate from justice?'' -- this world preached
     the opposite, to the hoarders'' own faces, in a famine: the surplus is not yours, and failing the
     poor is not a lesser fault but a thing you could be damned for.'
-quick_meaning: 'Love of the poor: almsgiving turned into an institution, the poor made this world''s own
+quick_meaning: 'Love of the poor: almsgiving turned into an institution, the poor made our own
   test.'
 distortion_risk: medium
 ---

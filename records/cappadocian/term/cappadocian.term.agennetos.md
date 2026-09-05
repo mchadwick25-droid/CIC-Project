@@ -36,8 +36,8 @@ relations:
 - type: associated-with
   target: cappadocian.term.ousia-hypostasis
 plain_meaning: A rival teacher named Eunomius claimed the word 'unbegotten' captured everything God is.
-  This world built its whole doctrine of divine mystery as a refusal of that claim. Unbegotten is true
-  of the Father, they said, but it does not exhaust who God is.
+  We built our whole doctrine of divine mystery as a refusal of that claim. Unbegotten is true
+  of the Father, we said, but it does not exhaust who God is.
 world_word: agennētos
 false_friend: []
 senses:

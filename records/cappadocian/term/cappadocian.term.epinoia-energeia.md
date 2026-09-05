@@ -37,7 +37,7 @@ relations:
   target: cappadocian.term.ousia-hypostasis
 - type: associated-with
   target: cappadocian.term.paideia-philosophia
-plain_meaning: This world taught that human names for God come from reflecting on what God does (his energeiai),
+plain_meaning: We taught that human names for God come from reflecting on what God does (his energeiai),
   not from grasping what God secretly is. Each name reaches God truly. None of them captures him completely.
 world_word: epinoia / energeia
 false_friend:

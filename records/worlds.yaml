@@ -13,8 +13,8 @@ worlds:
     state: built
     census_id: null
     package:
-      manifest_hash: "sha256:6aeda41fb4471b0066f7781f4660046b070854426c6b9a98bdc6eb10c541a652"
-      location: "packages/fix/2026-09-04T01-37-28Z"
+      manifest_hash: "sha256:7bfd5e711f12f20b745305d7cbd85f4063323a7a9acb0015fa80998acfbb4928"
+      location: "packages/fix/2026-09-04T16-41-58Z"
     thinness_statement: "Synthetic by design: substantive on 5 of Canon v1's 28 cells, honest-limited on the rest, on purpose, to exercise both coverage-gate routes."
     living_tradition_flag: false
   alx:
@@ -37,8 +37,8 @@ worlds:
     state: admitted
     census_id: "alexandria-catechetical"
     package:
-      manifest_hash: "sha256:83c3649e538acfa240a269ab21de35cbb375194e689f4e4e896ba1e33de288f2"
-      location: "packages/alx/2026-09-04T01-37-29Z"
+      manifest_hash: "sha256:227518a14932c93ab7f8ed910c84068c9277cce983dece103fa6a54e7db0faf9"
+      location: "packages/alx/2026-09-04T16-41-49Z"
     thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
     living_tradition_flag: true
   desert:
@@ -63,8 +63,8 @@ worlds:
     state: admitted
     census_id: "desert-monasticism"
     package:
-      manifest_hash: "sha256:1a6c03fbafb0a41ad43fa29550754cdcb362f70ed0cd070d718b1ef5b4e473d7"
-      location: "packages/desert/2026-09-04T01-37-30Z"
+      manifest_hash: "sha256:f963a69df2c2ac038818ab6dd6baac4545bf989062889196dfb8c305e905eb02"
+      location: "packages/desert/2026-09-04T16-41-52Z"
     thinness_statement: "Richest in the Apophthegmata's own elder-and-disciple sayings tradition and Antony's own Vita; thinner on ordinary participants outside the collected-sayings tradition, on the Pachomian federation's own interior life beyond its founding, and on women's own voices (a small number of amma sayings, not a fuller corpus)."
     living_tradition_flag: true
   pahc:
@@ -88,8 +88,8 @@ worlds:
     state: admitted
     census_id: "post-apostolic-house-church"
     package:
-      manifest_hash: "sha256:30ad2cd6665128a73af401bc787ac4e5fbd0304ab02c4903ee66c68ed2c9071b"
-      location: "packages/pahc/2026-09-04T01-37-32Z"
+      manifest_hash: "sha256:5da55bded308f4b5e7c41d52626955f12602653723b94cb473a36bbca8619a95"
+      location: "packages/pahc/2026-09-04T16-41-56Z"
     thinness_statement: "Richest in letters, church order, and worship practice; thinner on women's own words, enslaved members, the non-literate majority, and any material remains."
     living_tradition_flag: true
   hal:
@@ -113,8 +113,8 @@ worlds:
     state: admitted
     census_id: "hieronymian-ascetic-literary"
     package:
-      manifest_hash: "sha256:05f8e4a2a4c3a7a01e0dd55ece7d4e268cd253dd09d98ae22c699af38156b315"
-      location: "packages/hal/2026-09-04T01-37-33Z"
+      manifest_hash: "sha256:9d0ad7a8f3942a30ebb91e4c6bc54b826fe1a147a951ad2614c814da543adedf"
+      location: "packages/hal/2026-09-04T16-41-54Z"
     thinness_statement: "Richest in Jerome's own letters, translation prefaces, and the remembered lives of the Roman women who sustained the work; thinner on the women's own words (none survive), ordinary monastery residents, and daily-life detail beyond one letter."
     living_tradition_flag: true
   syr:
@@ -141,8 +141,8 @@ worlds:
     state: admitted
     census_id: "syriac-edessa-nisibis"
     package:
-      manifest_hash: "sha256:4d56a05dd3f88c8e831b58a84653334055413caa6b14f4171edd92dd12f27368"
-      location: "packages/syr/2026-09-04T01-37-35Z"
+      manifest_hash: "sha256:025cb1817ca5aea6bdf4b81c5d3e029806dbb516d7a82579f51a690cd4348f16"
+      location: "packages/syr/2026-09-04T18-49-01Z"
     thinness_statement: "Richest in hymns, doctrinal teaching, and covenant asceticism (Ephrem, Aphrahat); thinner on ordinary believers, women's own words, and the years after Ephrem's death."
     living_tradition_flag: true
   ijc:
@@ -166,8 +166,8 @@ worlds:
     state: admitted
     census_id: "imperial-juridical-christianity"
     package:
-      manifest_hash: "sha256:e24366d193ae7a48eeda39bd67999dbbdcc9222805d844c12ae0009ad08c0535"
-      location: "packages/ijc/2026-09-04T01-37-34Z"
+      manifest_hash: "sha256:aaba5b97dd2850cd190932dbc7958cc11a467ef589ec54ca4257172faf09f5b0"
+      location: "packages/ijc/2026-09-04T18-49-02Z"
     thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
     living_tradition_flag: true
   cappadocian:
@@ -199,5 +199,5 @@ worlds:
     living_tradition_flag: true
     state: admitted
     package:
-      manifest_hash: "sha256:4350dca81107b224322012561cd5dcd8a9b0348fb094687e4bc8a062c4b7a24e"
-      location: "packages/cappadocian/2026-09-04T01-37-36Z"
+      manifest_hash: "sha256:65dd314c2b97fdb1acf5171021167be000d0374ce3bf1ddca531ffd772ab9435"
+      location: "packages/cappadocian/2026-09-04T16-41-51Z"

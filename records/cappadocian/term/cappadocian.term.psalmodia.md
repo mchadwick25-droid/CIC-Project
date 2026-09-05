@@ -29,7 +29,7 @@ relations:
   target: cappadocian.term.panegyris
 - type: associated-with
   target: cappadocian.term.penthos-paraklesis
-plain_meaning: This world sang more psalms from memory than anything else. Some critics called the practice
+plain_meaning: We sang more psalms from memory than anything else. Some critics called the practice
   of singing through the night in two answering choirs a new invention. Basil defended it instead as the
   churches' own common custom.
 world_word: psalmōdia

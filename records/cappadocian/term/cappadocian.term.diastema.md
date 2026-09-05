@@ -25,7 +25,7 @@ retrieval:
 relations:
 - type: associated-with
   target: cappadocian.term.epektasis
-plain_meaning: 'This word named the one gap this world believed could never close: the difference between
+plain_meaning: 'This word named the one gap we believed could never close: the difference between
   God, who has no beginning, and everything else, which does. This gap is the reason no mind can fully
   grasp God, and the reason a soul''s growth toward God never has to end.'
 world_word: diastēma

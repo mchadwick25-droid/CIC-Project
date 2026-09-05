@@ -1,4 +1,25 @@
-# CiC Record-Native World Build Process — V1.3 (2026-09-01)
+# CiC Record-Native World Build Process — V1.4 (2026-09-04)
+
+**V1.4 change (Cross-System Analysis thread finding, 2026-09-04, Mark's
+go-ahead to proceed with documentation and gate work while the fleet-wide
+record fix itself waits for his separate approval on the regeneration
+spend):** voice perspective becomes the fourth birth condition of Phase
+B - see the new subsection at the head of Phase B. Measured fleet-wide:
+the Representative's voice describing its own world from outside ("this
+world taught...") rather than from inside it ("we taught...") in 250
+genuine instances across all 8 built worlds' spoken fields, concentrated
+in the lexicon (`term.plain_meaning`/`quick_meaning`, authored as a Fable
+subagent's Doc_03/Doc_06 pass) - a systematic authoring pattern, not
+scattered error. The approved sample already modeled the correct
+register throughout; what was missing was naming perspective as one of
+its properties and a mechanical check for it, both added the same day
+(`CiC_Register_Bar_2026-08-29.md`; `engine/m1/gates.py`'s new
+`gate_voice_perspective`). Full census, root-cause trace, and precision
+measurements: `CiC_Cross_System_Analysis_Tracking.md`, 2026-09-04 entry.
+The already-built fleet's own 250+ instances are a separate, still-open
+item - fixed through the same corrected authoring path, not hand-patched,
+on Mark's explicit go-ahead before that spend runs. No other content
+changed from V1.3.
 
 **V1.3 change (Change Order, Mark, 2026-09-01: "all world build and
 active files are free from any comments, notes, corruption, they need
@@ -254,6 +275,29 @@ Two conditions, born with the records rather than retrofitted:
   banned from being the load-bearing opening of an exemplar or witness
   answer. Figure records author at least one name whose comma head is
   the name the voice actually says.
+
+**Voice perspective is a birth condition (V1.4).** Every spoken field
+speaks as the world's own voice, from inside it - "we taught", "our own
+record" - never as a builder describing the world from outside it -
+"this world taught", "the world's own record", a third-person "it"/"its"
+chain describing the community as an object. The approved sample
+(`CiC_Register_Bar_2026-08-29.md`'s own exemplar) already has this
+property throughout; this condition just names it, the same way the
+register bar itself names word choice and sentence length. Concretely:
+
+- Draft every spoken field checking this the same way it is already
+  checked against sentence length and word choice: read it back as
+  something an inhabitant of the world would actually say about their own
+  people, not as a description of them from outside.
+- `gate_voice_perspective` (`engine/m1/gates.py`) runs in the M1 battery
+  from the first record - a world born under this condition opens at
+  zero on this gate, the same standard Hieronymian set for alias-safety.
+- Two exceptions exist and are not violations: a quote's own scriptural
+  sense of "this/the world" ("departed from this world"), and the
+  ordinary cosmological sense ("the Maker of this world", refuting
+  Marcion). Both name the created/temporal order itself, not the
+  speaker's own community - see the gate's own docstring for the full
+  reasoning.
 
 **File discipline is a birth condition (V1.3).** Everything in its
 place, nothing else — from the first record, never as a later cleanup.

@@ -35,7 +35,7 @@ relations:
   target: cappadocian.term.philotimia
 - type: associated-with
   target: cappadocian.term.theologia-oikonomia
-plain_meaning: 'This world used one word for two kinds of courage: a purified conscience speaking to God
+plain_meaning: 'We used one word for two kinds of courage: a purified conscience speaking to God
   as a friend, and a bishop standing in front of a hostile official without flattering him. Both were
   treated as the same fruit of the same reverence.'
 world_word: parrhēsia

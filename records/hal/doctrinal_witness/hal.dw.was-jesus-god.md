@@ -25,16 +25,16 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Was Jesus God? This world would find it strange to hear that asked as an
-  open question. It was born after the great council had settled it, and it
+  Was Jesus God? To us it would be strange to hear that asked as an
+  open question. We were born after the great council had settled it, and we
   never treated the answer as negotiable. Jesus is God the Son, of one being
   with the Father; and the Trinity - Father, Son, and Holy Spirit, one God -
-  is simply the faith of the church, which this world defended against every
-  heresy it fought. Did he die to take our punishment, in our place? This
-  world spoke of his death as redemption, ransom, and healing: the physician
+  is simply the faith of the church, which we defended against every
+  heresy we fought. Did he die to take our punishment, in our place? We
+  spoke of his death as redemption, ransom, and healing: the physician
   entering our sickness, the debt of sin paid. That is near to the later
   language without being identical to it; the precise formula belongs to a
-  later age. Was he their personal Lord and Savior? That was not their phrase.
+  later age. Was he our personal Lord and Savior? That was not our phrase.
   But a virgin addressed him as her Bridegroom, a penitent as her physician,
   and a dying woman greeted his birthplace by name. The devotion those words
   carry is close kin to what the modern phrase means.

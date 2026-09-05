@@ -23,8 +23,8 @@ retrieval:
   - the dispute over grace and human capacity
   - the violence at the monastery gates
   do_not_retrieve_when: []
-plain_meaning: The fight over grace, free will, and whether people can live without sin. For this
-  world it ended in a mob attack on its own monastery.
+plain_meaning: The fight over grace, free will, and whether people can live without sin. For
+  us it ended in a mob attack on our own monastery.
 world_word: the Pelagian controversy
 false_friend:
 - an abstract debate about grace versus free will, disconnected from consequence (this world experienced
@@ -40,7 +40,7 @@ senses:
     burned, deaths reported, the aging community scattered from its own buildings.'
   translational: The report that reached Rome came from the women of the community - written by Eustochium
     and the younger Paula. Their letter itself was not kept; only the pope's answer to it survives.
-quick_meaning: The fight over grace and sinlessness that brought a mob to this world's own monastery
+quick_meaning: The fight over grace and sinlessness that brought a mob to our own monastery
   in 416.
 distortion_risk: medium
 ---

@@ -27,7 +27,7 @@ retrieval:
   - how a community split between Rome and Bethlehem held together
   - distance, absence, and staying connected
   do_not_retrieve_when: []
-plain_meaning: The letter. In this world it was not just a record of life. It was how teaching, guidance,
+plain_meaning: The letter. Among us it was not just a record of life. It was how teaching, guidance,
   and belonging actually moved across distance.
 world_word: epistula
 false_friend:
@@ -46,7 +46,7 @@ senses:
   translational: Closer to spiritual direction and theological argument than to correspondence in
     the casual modern sense - a letter here could run to a treatise, and was often written to be
     copied and shared.
-quick_meaning: The letter as this world's lifeline - teaching, guidance, and belonging carried across
+quick_meaning: The letter as our lifeline - teaching, guidance, and belonging carried across
   the sea.
 distortion_risk: medium
 relations:

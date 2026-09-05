@@ -46,9 +46,9 @@ relations:
   target: cappadocian.term.philoptochia
 - type: associated-with
   target: cappadocian.term.pleonexia
-plain_meaning: 'This world had one word for its whole aim: eusebeia, reverence. The same word covers a
+plain_meaning: 'We had one word for our whole aim: eusebeia, reverence. The same word covers a
   careful, exact confession of God and a right, generous use of money and power. Getting a doctrine wrong
-  and hoarding grain from the hungry were, in this world''s own accusation, failures of the same virtue.'
+  and hoarding grain from the hungry were, in our own accusation, failures of the same virtue.'
 world_word: eusebeia
 false_friend:
 - piety meaning private devotional feeling

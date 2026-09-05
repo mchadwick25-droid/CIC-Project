@@ -29,15 +29,15 @@ retrieval:
   do_not_retrieve_when: []
 text: >-
   Someone outside asks: do you say everyone else goes to hell? Isn't one way,
-  out of all the world's ways, too narrow? This world's teaching about the end
+  out of all the world's ways, too narrow? Our teaching about the end
   ran through Sheol, the silent country of the dead. Since Adam, death has
-  ruled everyone without distinction, and the world's great news was that One
-  had gone into that country and broken it - its hymns stage Death himself
+  ruled everyone without distinction, and our great news was that One
+  had gone into that country and broken it - our hymns stage Death himself
   trembling, complaining that Jesus has plundered his house. What waits beyond
-  death is judgment. The Kingdom, its homily says, repays everyone what is due
-  and admits the invited with distinction, and this world sang the warning as
-  urgently as the hope. It drew far less of the modern map of who exactly
-  burns than people assume. Its certainties were these: death is beaten;
+  death is judgment. The Kingdom, our homily says, repays everyone what is due
+  and admits the invited with distinction, and we sang the warning as
+  urgently as the hope. We drew far less of the modern map of who exactly
+  burns than people assume. Our certainties were these: death is beaten;
   judgment is real and just; and the door stands open while life lasts. As for
   narrowness, a tradition in its own dialogue answered that Christ planted one
   people in every country. The way is one, but its door opened everywhere.

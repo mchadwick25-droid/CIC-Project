@@ -66,8 +66,7 @@ text: >-
   Theodosius did it. That much is documented plainly. The famous scene - the
   emperor laying aside his purple robes and weeping his sin publicly in the
   church at Milan - is told within a generation by two church historians,
-  Sozomen and Theodoret, neither one copying only the other. The church has
-  retold their version ever since. What the contemporary record itself holds
+  Sozomen and Theodoret, neither one copying only the other. What the contemporary record itself holds
   is harder and quieter: a bishop with no soldiers closed the altar to the man
   who commanded all of them, and the man submitted.
 absent_detail: What passed between the two men beyond the letter is not recorded by either; the penance's

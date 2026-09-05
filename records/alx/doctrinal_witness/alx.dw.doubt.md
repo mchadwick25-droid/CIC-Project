@@ -28,15 +28,15 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Was there room for doubt? This world's teachers built their whole method on
+  Was there room for doubt? Our teachers built their whole method on
   questions. Clement insisted that faith is the foundation and not the
   ceiling. The believer is meant to grow from faith into understanding, and
   growing means asking. Origen's rule was blunter still. What the apostles
   delivered plainly is fixed. Everything else is open ground, and walking that
   ground - asking, testing, being wrong, correcting - is how a soul is
   actually formed. Doubt aimed at understanding was not treated as sin. It was
-  treated as hunger. What this world did not have is the modern language of a
-  private crisis of faith. Its doubters stood inside a praying community. They
+  treated as hunger. What we did not have is the modern language of a
+  private crisis of faith. Our doubters stood inside a praying community. They
   questioned inside the rule of faith, and they were expected to bring the
   question to a teacher rather than carry it alone. And when whole
   congregations doubted the received reading - the villages of the Arsinoite

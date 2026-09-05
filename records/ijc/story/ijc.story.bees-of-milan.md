@@ -40,7 +40,7 @@ text: >-
   again without harming him. His father, seeing it, said that if the child
   lived, he would become something great. So the tradition tells it - a story
   remembered, or made, to explain a life that became as full of speech as any
-  in this world's record. The tradition says. The record cannot say more.
+  in our record. The tradition says. The record cannot say more.
 absent_detail: Everything - the event itself is unverifiable legend in a devotional life written to
   edify, and the same omen is told of other famous men. What the story documents is not Ambrose's
   infancy but how this world's memory worked within a generation of his death - greatness read backward

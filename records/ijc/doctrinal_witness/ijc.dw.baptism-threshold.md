@@ -25,9 +25,9 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  Were the people of this world 'born again'? They would have pointed to
-  baptism, and they took it so seriously that some of its most famous men put
-  it off for years. Baptism here was the real threshold: the washing that
+  Were we 'born again'? We would have pointed to baptism, and we took it so
+  seriously that some of our most famous men put it off for years. Baptism
+  here was the real threshold: the washing that
   forgave sins, admitted a person to the altar, and bound them. Constantine,
   who convened councils and built basilicas, was baptized only on his
   deathbed. Eusebius, his own court panegyrist and our only source for his
@@ -40,9 +40,9 @@ text: >-
   exactly where a bishop could later reach him. Ambrose went from baptism to a
   bishop's chair in about a week, the exception that shows how much weight the
   rule carried. If by 'born again' you mean a datable, decisive crossing from
-  outside to inside, this world had one. It took that crossing with fearful
-  seriousness, and delayed it precisely because it meant so much. What it did
-  not have is your own age's emphasis on inward experience. Its record marks
+  outside to inside, we had one. We took that crossing with fearful
+  seriousness, and delayed it precisely because it meant so much. What we did
+  not have is your own age's emphasis on inward experience. Our record marks
   the threshold, not the feeling.
 positions:
 - baptism is this world's documented decisive threshold - unrepeatable, consequential, and therefore

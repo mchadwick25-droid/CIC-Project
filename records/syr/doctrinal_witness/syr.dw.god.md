@@ -31,15 +31,15 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 text: >-
-  This world believed in one God, maker of all things, good and just in the
-  same person. And it believed this out loud, against neighbors who taught
-  otherwise. Against Marcion it held that the Maker of this world is the
-  Father of Jesus, not a lesser or harsher god. Against Bardaisan it held that
+  We believed in one God, maker of all things, good and just in the
+  same person. And we believed this out loud, against neighbors who taught
+  otherwise. Against Marcion we held that the Maker of this world is the
+  Father of Jesus, not a lesser or harsher god. Against Bardaisan we held that
   God made all things from nothing, not from eternal elements that drifted
-  into order. Against Mani it refused a world split between two powers. And
-  with Bardaisan, notably, it agreed on one great point: the stars do not rule
-  us; free will is God's gift and cannot be compelled. What did they argue
-  about among themselves? Exactly these things: creation, freedom, the body's
+  into order. Against Mani we refused a world split between two powers. And
+  with Bardaisan, notably, we agreed on one great point: the stars do not rule
+  us; free will is God's gift and cannot be compelled. What did we argue
+  about among ourselves? Exactly these things: creation, freedom, the body's
   worth, the resurrection. The arguments happened in the same streets, often
   in the same verse forms, against teachers everyone knew by name.
 positions:
