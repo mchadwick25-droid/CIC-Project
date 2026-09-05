@@ -1561,3 +1561,63 @@ reversed order while the session's canonical `world_keys` (read back
 from the transcript endpoint) stays untouched. Full suite green (575
 tests), re-run 4 times in full and the fixed fallback test 15x on its
 own to confirm the flake is genuinely gone, not just not-yet-observed.
+
+### Two pre-merge review findings, 2026-09-05 - one false alarm, one real
+
+Mark relaying two findings before merging the round-design/randomization
+work.
+
+**1. "Leaked test prompt artifact" in a citation label - false alarm,
+verified against the actual source.** A citation reference block in
+Chilo's second turn showed the label "No - and we would push back hard
+on the word 'voted.' The council did not invent what we…" and was flagged
+as looking like a leaked adversarial test-probe fragment, revealing an
+"ingestion/tagging seam." Checked the real file:
+`records/cappadocian/doctrinal_witness/cappadocian.dw.confession-not-a-
+vote.md` - a genuine, deliberately-authored `doctrinal_witness` record,
+written in Chilo's own voice, whose own `retrieval.retrieve_when` field
+says exactly when it's meant to surface ("participant asks whether a
+council basically voted Jesus into being God"). The citation UI shows a
+truncated preview of the cited record's own text as its label; this
+record's text is phrased as a direct rebuttal because that's the
+deliberate authoring style for records built to preempt a hard
+objection. Not a bug, nothing to fix. (Walk-by, unrelated: the record's
+`status: draft` frontmatter is a normal three-stage authoring field -
+confirmed the evidence/retrieval pipeline doesn't gate on it at all, so
+draft-status records are already fully live and citable - worth knowing,
+not itself a defect.)
+
+**2. Representational fairness on return picks - real, and fixed.**
+Across every real transcript reviewed that day with the same 3-seat
+trio, the two traditions carrying overlapping technical vocabulary
+(Cappadocian and Alexandrian both argue theosis in their own terms) kept
+getting the return/final-word picks; the thinner-record, earlier-period
+voice (the house-churches) was heard once, in its first pass, and never
+brought back - "the 4th-century intellectual heavyweights got the final
+word over the 2nd-century martyr church." Small, non-randomized sample
+(same worlds, same broad question, informal repeats), but a real,
+consistent pattern worth naming directly rather than waiting on a
+designed study.
+
+Hypothesis, not proven: not a hard-coded preference, but an emergent
+one - two voices sharing the same technical vocabulary (theosis,
+argued in both worlds' own real records) makes an obvious "continue
+this thread" signal for the selector to notice; a voice whose real
+contribution is lived practice, embodiment, or its own honestly
+admitted uncertainty doesn't announce itself in matching language, even
+though it is just as real a thread.
+
+Fix: `SELECTOR_SYSTEM_PROMPT` (`engine/m4/turn_selector.py`) gained a
+new bullet naming this exact risk directly and instructing the selector
+to notice if the same voices keep getting return picks and ask whether
+that's the moment calling for it or just the easier thread to see -
+deliberately NOT a hard quota or forced rotation, preserving Mark's own
+explicit "random or opportunistic selection is fine." New test
+(`test_selector_prompt_warns_against_favoring_richer_traditions_on_return`)
+pins the new guidance text is present. Full suite green (576 tests).
+
+Not yet live-verified whether this measurably changes which voice gets
+the return pick - a prompt-level behavioral change, harder to verify
+with certainty than a pure code-logic one. Live proof would need
+Mark's go-ahead (real spend) before considering it more than a
+reasoned, tested guess.
