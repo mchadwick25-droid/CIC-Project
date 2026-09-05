@@ -1321,8 +1321,88 @@ and every path through `select_speaker` that calls it, 1 in
 `engine/api/tests/test_table_schema.py` pinning the directive's new
 scoped framing and its defensive fallback when no name is given).
 
-Not yet committed or pushed - the standing discipline holds: full
-suite green is necessary, not sufficient, for a real design change of
-this shape. Next: independent review, then a live proof against real
-Bedrock (only with Mark's go-ahead - real spend), before this is
-considered proven rather than just tested.
+Committed (`ee1a72c9`) and pushed to the designated branch (stop hook,
+not yet merged to main) once the suite was green.
+
+### Independent review (Opus, cold-read) - one real gap found and fixed, 2026-09-05
+
+Findings, ranked, each verified against the actual code before acting
+(never trusted at face value):
+
+**HIGH, confirmed and fixed - the mechanism didn't actually enforce
+scoping.** Naming one voice in the directive text is not structural
+scoping if the turn's own context still hands it every OTHER voice's
+full answer regardless - and it did: `table_history_for`'s `pending`
+bucket has always carried everything said since a voice's last turn,
+unfiltered, and `_context_prefix` renders it whole. A return turn could
+still see (and use) material from a voice it wasn't asked to engage -
+one sentence in the directive now named a target; nothing removed the
+rest. This is precisely the "ask nicely, more specifically" pattern
+Mark had just rejected, and the review said so plainly rather than
+calling the diff done.
+
+Fix: `_scoped_pending(pending, keep_labels)` (new,
+`engine/api/table_wiring.py`) - keeps the participant's and Facilitator's
+own lines always, plus the ONE engaged voice's; drops every other seated
+voice's lines from THIS turn's context only. `table_history_for`'s own
+session-memory reconstruction (`history`) is untouched - nothing is
+forgotten, only left out of what this one turn can see. Verified with a
+real end-to-end test
+(`test_second_pass_turn_only_sees_its_engaged_voice_not_every_prior_answer`,
+`test_table_api.py`) that drives a real 3-seat round to its first return
+and inspects the actual rendered messages sent to the model: the
+non-engaged voice's own words are genuinely absent, not merely
+un-referenced in an instruction.
+
+**MEDIUM, confirmed and fixed - `engages` was computed then discarded.**
+`Selection.engages` never reached the `turn_selected` event - the exact
+"computed once, then thrown away" gap `round_closed.selector_reason` was
+built the same day to close for round closes, reopened for turn
+selections. Fixed: `selected_payload["engages"]` added when not None,
+same additive discipline (`events.REQUIRED_KEYS` is a floor).
+
+**MEDIUM, confirmed and fixed - a real contradiction on one untested
+combination.** `own_world_is_subject=True` + `is_second_pass=True`:
+`stance` tells the voice to "confirm or correct what has been said of
+your world" while `focus` said "never a correction of theirs" - both
+cannot be true of the same turn, and no test exercised this exact
+combination (a real coverage gap the review named directly). Fixed:
+`focus` now branches on `own_world_is_subject` too - the subject branch
+names which prior statement is in view and leaves the confirm-or-correct
+instruction to `stance` alone, said once, never contradicted. New test:
+`test_table_engagement_directive_subject_second_pass_names_its_target_without_contradiction`.
+
+**LOW, confirmed and fixed - a wrong comment.** `_selector_tool`'s
+`engages` enum comment claimed "seating-stable order"; it's actually
+first-spoken order (`dict.fromkeys` on `round_speakers`, not
+`world_keys`). Fixed the comment to describe reality.
+
+**Walk-by, fixed while in the file - two pre-existing vacuous test
+assertions.** `test_table_schema.py` and `test_table_api.py` each
+checked a substring with a semicolon the code has never produced - an
+`assert X not in Y` that was always true regardless of correctness,
+predating today's work. Replaced with the real, distinguishing phrase
+("drawn back in every time") that a final turn genuinely never contains.
+
+**LOW, latent, left alone.** `_resolve_engages`'s "a return is never
+left unscoped" guarantee depends on a caller invariant
+(`last_speaker == round_speakers[-1]`) the function itself doesn't
+enforce - true at the one real call site (traced and confirmed), and
+one existing unit test happens to pass an inconsistent pair harmlessly.
+Not fixed: no real bug, and hardening a function against a caller
+discipline no real caller violates would be exactly the kind of
+unrequested robustness this project's own build ethic argues against.
+
+Also confirmed by the review, not a defect: 2-seat tables get the
+mechanism too (harmless - `engages` always resolves to the only other
+voice, pure naming with no functional change) and direct-address routing
+never collides with it (guarded by `round_turns == 0`, which is
+equivalent to `is_second_pass=False` there by construction).
+
+Full suite green after fixes: 574 tests (3 new beyond the pre-review
+571 - the contradiction test, the `_scoped_pending` unit test, and the
+end-to-end context-scoping proof).
+
+Still open, same as before: a live proof against real Bedrock, only
+with Mark's go-ahead (real spend), before this is considered proven
+rather than just tested and reviewed.

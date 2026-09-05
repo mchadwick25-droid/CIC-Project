@@ -98,6 +98,32 @@ def test_table_engagement_directive_second_pass_names_its_one_engagement_target(
     assert "not a survey of everyone at the Table" in unnamed
 
 
+def test_scoped_pending_keeps_participant_facilitator_and_the_engaged_voice_only():
+    """Independent review, 2026-09-05, the finding that actually mattered:
+    naming one voice in the directive is not structural scoping if the
+    turn can still SEE every other voice's full answer regardless -
+    _scoped_pending is what makes the other voice's content genuinely
+    absent from this turn's context, not merely unmentioned in an
+    instruction. table_history_for's own session-memory reconstruction
+    (the alternating history pairs) is untouched by this - see the call
+    site in _advance_open_round."""
+    from engine.api.table_wiring import FACILITATOR_LABEL, PARTICIPANT_LABEL, _scoped_pending
+
+    pending = [
+        f"{PARTICIPANT_LABEL}: what is prayer?",
+        "Theon (Alexandrian Christianity): the Logos...",
+        "Chloe (The House-Churches): a real man...",
+        f"{FACILITATOR_LABEL}: a note on register.",
+    ]
+    scoped = _scoped_pending(pending, keep_labels={PARTICIPANT_LABEL, FACILITATOR_LABEL, "Theon (Alexandrian Christianity)"})
+    assert scoped == [
+        f"{PARTICIPANT_LABEL}: what is prayer?",
+        "Theon (Alexandrian Christianity): the Logos...",
+        f"{FACILITATOR_LABEL}: a note on register.",
+    ]
+    assert not any("Chloe" in line for line in scoped)  # not the engaged voice - genuinely gone
+
+
 def test_table_engagement_directive_scales_with_seat_count():
     """Point 3: "a little increase of pressure to shorten... as we are now
     sharing with one or two other voices" - singular/plural phrasing only,
@@ -131,7 +157,12 @@ def test_table_engagement_directive_final_turn_is_not_the_same_set_as_second_pas
     )
     assert "last turn before the participant speaks again" in first_pass_final
     assert "leave the floor open for the participant" in first_pass_final
-    assert "leave room for the other voices; you can always be drawn back in" not in first_pass_final
+    # A pre-existing vacuous assertion here (independent review, 2026-09-05)
+    # checked for a substring with a semicolon the code never produces -
+    # always true regardless of correctness. The real, distinguishing
+    # phrase is the non-final ending's own "drawn back in every time" -
+    # this genuinely never appears on a final turn.
+    assert "drawn back in every time" not in first_pass_final
     assert "Answer the participant first" in first_pass_final  # still a real, full first answer
 
     # A second-pass turn that is provably NOT the final one: never claims
@@ -164,6 +195,27 @@ def test_table_engagement_directive_subject_second_pass_add_clause_is_scoped():
     assert "and add what you would add" in first_pass
     assert "and add what you would add" not in second_pass
     assert "not everything, this is still not another full answer" in second_pass
+
+
+def test_table_engagement_directive_subject_second_pass_names_its_target_without_contradiction():
+    """Independent review, 2026-09-05: the one untested combination, and
+    the one with a real bug. is_second_pass's own focus text said "never
+    a correction of theirs"; the SAME call's subject stance (above) was
+    telling the voice to "confirm or correct what has been said of your
+    world" - both cannot be true of the same turn. own_world_is_subject
+    now gets its own focus branch: no "correction" language to contradict
+    stance's own, just which prior statement (engage_name) is in view -
+    the confirm-or-correct instruction itself stays in stance, said once."""
+    from engine.api.table_wiring import _table_engagement_directive
+
+    text = _table_engagement_directive(
+        own_world_is_subject=True, is_second_pass=True, is_final_turn=False, num_seats=3, engage_name="Theon"
+    )
+    assert "never a correction of theirs" not in text
+    assert "Theon" in text
+    assert "the one thing most worth confirming or correcting" in text  # stance's own add_clause, untouched
+    assert "not a survey of everyone at the Table" in text
+    assert "not concluding" in text
 
 
 def test_table_engagement_directive_forbids_a_fabricated_facilitator_line():

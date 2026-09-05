@@ -87,8 +87,9 @@ def _selector_tool(legal_moves: list[str], round_speakers: list[str]) -> dict:
         "reason": {"type": "string"},
     }
     if round_speakers:
-        # De-duplicated, seating-stable order, not the model's - a plain
-        # legal-values list, same discipline as `next`'s own enum.
+        # De-duplicated, in the order each first spoke this round (not the
+        # model's own) - a plain legal-values list, same discipline as
+        # `next`'s own enum.
         already_spoken = list(dict.fromkeys(round_speakers))
         properties["engages"] = {
             "type": "string",
