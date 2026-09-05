@@ -225,6 +225,46 @@ def test_round_turn_at_a_time_to_selector_close(store, usage_store, world_loader
     assert closed_events[0].payload["selector_reason"] == "genuinely answered"
 
 
+def test_round_close_reasons_endpoint_surfaces_selector_reason(store, usage_store, world_loader, registry, alx_world, desert_world):
+    """The diagnostic endpoint built for the same question above: readable
+    over HTTP, gated the same way the transcript endpoint is, without a
+    direct read against the store."""
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    client = _table_client(
+        selector_script=[
+            {"next": "alx", "reason": "most directly positioned"},
+            {"next": "close", "reason": "genuinely answered"},
+        ],
+        stream_scripts=[[alx_sentence], [desert_sentence], [alx_sentence]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http)
+
+    # No round closed yet: an empty list, not an error.
+    assert http.get(f"/api/session/{session_id}/round-close-reasons", headers=auth).json()["rounds"] == []
+
+    http.post(f"/api/session/{session_id}/message", json={"text": "what is prayer?"}, headers=auth)
+    http.post(f"/api/session/{session_id}/continue", headers=auth)
+    http.post(f"/api/session/{session_id}/continue", headers=auth)
+    http.post(f"/api/session/{session_id}/continue", headers=auth)  # the closing turn
+
+    body = http.get(f"/api/session/{session_id}/round-close-reasons", headers=auth).json()
+    assert body["session_id"] == session_id
+    assert len(body["rounds"]) == 1
+    closed = body["rounds"][0]
+    assert closed["round_no"] == 1
+    assert closed["reason"] == "selector_closed"
+    assert closed["turns"] == 3
+    assert closed["selector_reason"] == "genuinely answered"
+
+    # Gated exactly like the transcript endpoint: no code, wrong code, both 401.
+    assert http.get(f"/api/session/{session_id}/round-close-reasons").status_code == 401
+    assert http.get(
+        f"/api/session/{session_id}/round-close-reasons", headers={"Authorization": "Session wrong-code"}
+    ).status_code == 401
+
+
 def test_round_cap_closes_at_five_for_two_seats(store, usage_store, world_loader, registry, alx_world, desert_world):
     """Mark's ruling, 2026-09-05: 'for 2 voices and a participant, the max
     turns should be 5' (RoundConfig.cap_for(2) == 5, superseding the old

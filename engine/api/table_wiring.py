@@ -902,3 +902,16 @@ def continue_table_round(*, session_id: str, **kwargs) -> TableMessageResult:
     as TableAdvanceInFlight instead of doubling voice turns and spend."""
     with _advance_lock(session_id):
         return _continue_table_round_unlocked(session_id=session_id, **kwargs)
+
+
+def get_round_close_reasons(store: Store, session_id: str) -> list[dict]:
+    """Every round_closed event's own payload, oldest round first -
+    diagnostic-only read (2026-09-05, Mark's own question on a real
+    production round: "why did it close there?"). selector_reason is
+    present only on a genuine selector close (_close_round); the cap and
+    floor_unmet_exhausted paths carry reason/turns/governance with no
+    model free-text to show."""
+    state = project_fresh(session_id, store)
+    if not state.exists:
+        raise SessionNotFound(session_id)
+    return [event.payload for event in state.raw_events if event.event_type == "round_closed"]

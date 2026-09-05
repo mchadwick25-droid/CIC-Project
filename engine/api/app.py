@@ -111,6 +111,14 @@ class TranscriptResponse(BaseModel):
     round_open: bool = False
 
 
+class RoundCloseReasonsResponse(BaseModel):
+    """Diagnostic-only, table sessions (2026-09-05): every round_closed
+    event's own payload for this session, in round order. Empty for an
+    interview session or a table session with no round closed yet."""
+    session_id: str
+    rounds: list[dict]
+
+
 class WorldSummary(BaseModel):
     world_key: str
     census_id: str | None
@@ -343,6 +351,18 @@ def create_app(
             session_id=session_id, world_key=state.world_key, turn_count=state.turn_count, closed=state.closed, transcript=state.transcript,
             mode=state.mode, world_keys=state.world_keys, round_open=state.round_open,
         )
+
+    @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
+    def get_round_close_reasons_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
+        """Diagnostic-only: gated by the same per-session code as the
+        transcript endpoint above, never a new auth surface. Built
+        2026-09-05 so a real production round's close reason - including
+        the turn selector's own free-text justification on a genuine
+        close - is answerable without a direct read against the store."""
+        deps: Deps = request.app.state.deps
+        _authenticate(deps.store, session_id, authorization)
+        rounds = table_wiring.get_round_close_reasons(deps.store, session_id)
+        return RoundCloseReasonsResponse(session_id=session_id, rounds=rounds)
 
     # Stage 5 (PHASE-1-LAUNCH.md): one Render service, not two - same
     # pattern cic-poc/backend/app/main.py already used, so no CORS_ORIGINS

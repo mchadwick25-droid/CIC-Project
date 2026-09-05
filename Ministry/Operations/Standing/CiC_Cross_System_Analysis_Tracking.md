@@ -1200,3 +1200,49 @@ dedicated test pinning the floor is genuinely seat-scaled while the
 round already couldn't do before turn 3) - needs its own live check
 before considering it proven, same discipline as every other change
 today. Not run yet.
+
+Merged to main as PR #103 (`81b7a4d1`) once real CI (all 17 check runs,
+the Netlify/Cloudflare preview noise aside) came back green.
+
+### Floor-raise confirmed live by real production traffic, 2026-09-05
+
+The next real 3-seat conversation on the site after PR #103 deployed
+(cappadocian+alx+pahc, "who is jesus") reached exactly the bridging
+second pass the fix targeted: four turns (Theon, Chilo, Chloe, then
+Chilo again), the fourth turn opening with explicit agreement ("What
+Theon and Chloe have said stands near us... we confessed both") before
+pressing a genuine contrast (not a different belief - a different cost:
+what it took under a hostile court to keep saying it). This is the
+alignment-then-contrast shape from Mark's own design spec, not a
+restated monologue, and it is the first live case where a 3-seat round
+reached a real second pass since the floor was raised.
+
+Mark asked to check the round's actual close reason to see whether it
+closed right there or ran on. Investigated and found a genuine gap: the
+production event log lives on Render's own private disk
+(`/data/cic_api_events.db`, render.yaml), and no endpoint exposed
+`round_closed`'s payload (reason/turns/governance/selector_reason) - the
+transcript endpoint only ever returned the display transcript. No way
+to answer the question from outside without either DB access (not
+available from this session) or a new endpoint.
+
+**Fix**: `engine.api.table_wiring.get_round_close_reasons(store,
+session_id)` - re-derives state via `project_fresh` (same pattern as
+`wiring.get_transcript`), returns every `round_closed` event's own
+payload in round order. Wired up as `GET
+/api/session/{session_id}/round-close-reasons`, gated by the exact same
+per-session code the transcript endpoint already requires - no new auth
+surface. Diagnostic-only: not part of the participant-facing product,
+not linked from the frontend. Documented in `engine/api/README.md`
+alongside the other endpoints. New test
+(`test_round_close_reasons_endpoint_surfaces_selector_reason`,
+`engine/api/tests/test_table_api.py`) drives a full round to a selector
+close over real HTTP and checks the endpoint returns
+`selector_reason`, checks the empty-list case before any round has
+closed, and checks the same 401 gating as the transcript endpoint (no
+code / wrong code). Full suite green (562 tests).
+
+Still open: the session_id for that specific real conversation isn't
+in hand (the browser UI doesn't surface it), so this endpoint answers
+the question for the *next* production round Mark can capture a
+session_id for, not retroactively for the one already shown.

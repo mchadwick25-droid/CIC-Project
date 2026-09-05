@@ -51,6 +51,12 @@ curl -s -X POST localhost:8000/api/session/<session_id>/message \
 curl -s localhost:8000/api/session/<session_id>/transcript \
   -H "Authorization: Session <session_code>"
 
+# Diagnostic only, table sessions: every round_closed event's own payload
+# (reason, turns, governance, and selector_reason when the close was a
+# genuine model decision rather than the cap or floor_unmet_exhausted)
+curl -s localhost:8000/api/session/<session_id>/round-close-reasons \
+  -H "Authorization: Session <session_code>"
+
 # Liveness check (no downstream calls)
 curl -s localhost:8000/health
 ```
