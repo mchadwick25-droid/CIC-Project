@@ -1074,3 +1074,55 @@ not something either live proof was asked to fix.
 
 **Status: fixed and live-verified**, on the exact scenario that produced
 the defect, with a direct before/after comparison.
+
+### Investigating why rounds keep closing after the first pass, 2026-09-05
+
+Mark's question, from a REAL production conversation he pasted directly
+(the first live participant traffic since today's deploy, not a test):
+"do they answer the question who was jesus" (checking register statement
+1 - two of three voices did, in their first sentence; the third,
+Papnoute, opened experientially and only gave a direct identity
+statement partway through - not touched by anything built today, since
+Papnoute was the round's first speaker and got no table_engagement at
+all; flagged as a base-register question, not this thread's code). Then,
+on noticing the SAME round closed after just the first pass (matching
+both live proofs, now three-for-three including real production
+traffic): "lets find out why its not reaching the full conversation and
+second passes."
+
+**Found a real observability gap before finding the actual cause.**
+Queried the four temp SQLite stores from today's two live-proof runs
+directly (`store.read_events`) rather than guess: every `round_closed`
+event's `reason` field is the fixed ENUM category `"selector_closed"` -
+the model's own free-text `Selection.reason` (its actual stated
+justification for closing) was being computed, then discarded outright.
+No `turn_selected` event is written for a close decision either (only
+for a voice pick) - so there was and is no way to read back WHY any
+round actually closed, in any of today's runs or in production. Fixed:
+`_close_round` gained an optional `selector_reason` param, threaded
+through from the one real close path (`selection.close` in
+`_advance_open_round`) into the `round_closed` payload - additive only
+(`round_closed`'s schema floor is a minimum, not an exhaustive
+whitelist), `None` on the `cap`/`floor_unmet_exhausted` paths where no
+real selector free-text reasoning exists for the close itself. Test
+added, full suite (560 tests) green.
+
+**Not yet answered**: the actual reasoning, since none of today's prior
+live data captured it. Getting a real answer needs either a fresh live
+round (real, billed spend - not run without asking, standing rule) or
+waiting for the next real production round now that the logging is in
+place. Working hypothesis, stated as a hypothesis: the SELECTOR's own
+system prompt (`turn_selector.SELECTOR_SYSTEM_PROMPT`) instructs closing
+"when the participant's message has been genuinely answered and another
+voice would be restating rather than adding," and the SAME first-pass
+engagement instruction that fixed the original monologue bug
+(`_table_engagement_directive`'s non-second-pass branch) already asks
+each voice to name real agreement/difference with what came before - so
+by the third first-pass turn, some of what a second pass would add may
+already have happened, giving the selector real grounds to judge the
+exchange "genuinely answered" before the "ultimate zone" target is
+reached. The new `round_facts` target-length line is comparatively
+weak-positioned against this - stated as background "facts," not tied
+directly to the close-condition language the system prompt actually
+argues from. Not yet confirmed against real model reasoning - this is a
+hypothesis to test against real selector_reason data, not a finding.

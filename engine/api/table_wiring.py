@@ -495,7 +495,7 @@ def _last_participant_text(state: SessionState) -> str:
     raise TableRoundNotOpen(f"session {state.session_id} has an open round but no participant message on record")
 
 
-def _close_round(store: Store, state: SessionState, *, reason: str, turns: int) -> int:
+def _close_round(store: Store, state: SessionState, *, reason: str, turns: int, selector_reason: str | None = None) -> int:
     """round_closed + turn_committed, in that order - a round, not a voice
     turn, is the committed unit (Artifact-7 SS2). Returns the turn_no.
 
@@ -504,11 +504,30 @@ def _close_round(store: Store, state: SessionState, *, reason: str, turns: int) 
     dominance findings over the conversation so far - detected and
     audit-visible on the round_closed event, never blocking. Convergence
     is deliberately absent here: the poc implemented it as a conservative
-    model judgment, so it runs in the live battery, not the round loop."""
+    model judgment, so it runs in the live battery, not the round loop.
+
+    selector_reason (2026-09-05, Mark's own question: "why isn't it
+    reaching second passes?"): the real turn-selector call's own free-text
+    Selection.reason USED TO BE DISCARDED ENTIRELY on a genuine selector
+    close - `reason="selector_closed"` is only ever the fixed ENUM
+    category (round_closed.reason's own allowed values), never the
+    model's actual stated justification, and no turn_selected event is
+    written for a close (only for a voice pick). So there was no way to
+    read back WHY any round actually closed when it did - checked while
+    investigating this exact question: two live-proof runs and one real
+    production round all closed with reason: "selector_closed" and
+    nothing else, the model's own reasoning nowhere in the log. Optional
+    and additive (round_closed's schema floor is a minimum, not an
+    exhaustive whitelist - engine.m4.events.validate only checks required
+    keys are present) - None on the "cap" and "floor_unmet_exhausted"
+    paths, where no real selector free-text reasoning exists for the close
+    itself."""
     closed_payload = {
         "round_no": state.round_no, "reason": reason, "turns": turns,
         "governance": governance_summary(state.transcript, state.world_keys or []),
     }
+    if selector_reason is not None:
+        closed_payload["selector_reason"] = selector_reason
     events.validate("round_closed", closed_payload)
     store.append(session_id=state.session_id, event_uuid=str(uuid.uuid4()), event_type="round_closed", payload=closed_payload)
     turn_no = state.turn_count + 1
@@ -613,7 +632,11 @@ def _advance_open_round(
     if selection.close:
         for rec in usage_records:
             usage_store.append(rec)
-        turn_no = _close_round(store, state, reason="selector_closed", turns=state.round_turns)
+        # selection.close is only ever True from a genuine, successful
+        # selector call (select_speaker's own fallback path never returns
+        # close=True), so selection.reason here is always real model
+        # reasoning, never a degraded placeholder - safe to log outright.
+        turn_no = _close_round(store, state, reason="selector_closed", turns=state.round_turns, selector_reason=selection.reason)
         return TableMessageResult(**common, round_open=False, turn_selected=None, voice=None, position=None, turn_no=turn_no)
 
     position = state.round_turns + 1
