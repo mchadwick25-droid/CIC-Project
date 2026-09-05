@@ -1041,4 +1041,36 @@ test (`test_table_engagement_directive_forbids_a_fabricated_facilitator_line`)
 pins the prohibition's presence and position across every pass/finality
 combination. Full suite (560 tests) green.
 
-**Re-proven live after the fix** — see the next entry.
+**Re-proven live after the fix, same day.** Identical seatings, identical
+question, driven again after the fix landed (40ca5a57) — a direct,
+controlled before/after. Report:
+`engine/m4/reports/live-table-round-design-fix-2026-09-05.json`.
+
+The fabrication is gone: Theon's exact same turn-type (2-seat, second
+pass, position 3 — the precise scenario that produced the fake
+Facilitator line the first time) now opens directly with real content -
+*"We speak the same confession Papnoute does... Where we part is not in
+what we confess, but in how we came to it and what we did with it
+after."* No stray lines or separators in either seating this run.
+
+Content quality on the re-proof is close to a model instance of the
+whole design: that same turn names a genuine alignment (shared
+confession on the Word made flesh) AND a genuine contrast (obedience-in-
+a-day vs. lifelong formation), goes deeper with material the first
+answer never touched (methexis, metanoia), and settles cleanly with no
+dangling question. Chloe's turn in the 3-seat round correctly used the
+no-foreknowledge framing on Chilo's homoousios language ("That language
+is not ours yet... we know only what we have heard at this Table") -
+register and forward-vantage discipline both held.
+
+**One pattern confirmed, not a defect, worth knowing**: the 3-seat round
+closed after 3 turns again - two-for-two now on this exact question,
+never reaching the "ultimate zone" of 5. The mechanism works well when a
+second pass actually triggers (proven both times at 2 seats); on this
+question shape, a 3-seat table's selector has judged the exchange
+genuinely finished after the first pass alone, both times. Not changed
+or investigated further here - a real observed pattern to have on record,
+not something either live proof was asked to fix.
+
+**Status: fixed and live-verified**, on the exact scenario that produced
+the defect, with a direct before/after comparison.
