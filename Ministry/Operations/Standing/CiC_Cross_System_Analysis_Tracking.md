@@ -788,3 +788,83 @@ different, new-code live proof from the engagement-fix re-proof already
 done, and real, billed spend. Mark's go-ahead for that run was for the
 engagement fix specifically; this round-length change came after and
 would need its own go-ahead before running.
+
+### Superseded, same day: seat-scaled round design (2026-09-05)
+
+After seeing the engagement fix's own live proof, Mark reconsidered the
+round-length approach above and gave ten concrete parameters — reframed
+explicitly as "a design enhancement," not a second bug fix. Walked
+through as two clarifying questions before writing anything (his
+answers): the new numbers apply to EVERY round, not gated behind any
+"is this genuinely open to all" judgment (superseding the broad-only
+gating just above); and the "ultimate zone" turn counts are a soft
+preference in the selector's own reasoning, never a second mechanical
+floor — the seat-scaled cap is the one hard number. A third question
+(who drafts the new voice-register-sensitive instruction text): Mark
+chose direct drafting over launching a Fable subagent, since a new
+system-directive instruction — never spoken verbatim by the participant-
+facing voice — is the same kind of task as the engagement fix itself, not
+a record-prose regeneration; it still gets the same independent
+adversarial review before this is called done, not built here yet.
+
+**What changed from the broad-only version**: `RoundConfig` dropped
+`broad_floor`/`broad_cap`/the `broad` kwarg entirely, replaced by
+`cap_by_seats` (`{2: 5, 3: 6}`) and a `cap_for(num_seats)` lookup — the
+pre-existing `floor` (3, unconditional, predates all of this) is
+untouched. `engine.api.table_wiring._round_is_broad` and the direct-
+address-tracking it needed are gone; `cap_reached` now just takes
+`num_seats=len(worlds)`. The "ultimate zone" (4 for two seats, 5 for
+three) lives in `engine.m4.turn_selector.round_facts` as an added,
+seat-scaled guidance line, explicitly framed as "a preference, never a
+rule" — selector-only reasoning, never seen by a participant either way.
+
+**The two-phase turn content** (points 6-10) is new:
+`_table_engagement_directive` gained `is_second_pass` (a voice speaking
+again later in the same round gets a materially different instruction —
+go deeper on one uncovered thing or name a specific contrast, not another
+full answer, and explicit permission to touch only one other voice's
+point rather than surveying everyone) and `num_seats` (the compactness
+framing and every "the other voice(s)" reference now scale by seat count,
+point 3's "little increase of pressure... as we are now sharing with one
+or two other voices" — still a prompt-level nudge only, no word-count
+enforcement or post-conversation monitoring, matching his own explicit
+constraint and how the interview path is already never policed that way).
+The first-pass instruction (points 6-8) is otherwise the same mechanism
+already live-verified for the engagement fix, strengthened only to name
+agreement as readily as contrast.
+
+**Three points Mark raised mid-build, addressed as considerations, not
+demands** (his own words, after I'd started building): (1) an explicit
+exit condition once the cap fires — already true of the architecture
+(turn-at-a-time transport, `round_open: False` on cap, `/continue` on a
+closed round is a 409), now stated outright in `RoundConfig`'s own
+docstring rather than left implicit; (2) each turn built from the real
+prior turns rather than a stale snapshot — also already true (every
+advance re-projects the full transcript from the persisted event log,
+`project_fresh`, on every request; there is no batch-generation pass this
+system ever takes), documented the same way; (3) the final voice
+shouldn't end a turn on an open rhetorical question tossed to another
+voice — genuinely new, not previously covered, folded into the
+second-pass instruction directly ("settle your point rather than opening
+a new question... the participant, not [the other voice/voices], is who
+you leave the floor to"). The cap-triggered final turn is always a
+second-pass turn by construction (cap always exceeds first-pass length at
+both table sizes), so this instruction reaches exactly the turn it needs
+to without a separate "is this literally the last turn" computation.
+
+**Verified**: full test suite (553 tests) green, including replacements
+for every test the broad-only version's removal touched
+(`test_round_config_seat_scaled_cap`, `test_round_cap_closes_at_five_for_two_seats`,
+`test_round_cap_closes_at_six_for_three_seats`,
+`test_round_facts_target_guidance_is_a_preference_not_a_rule`,
+`test_table_engagement_directive_first_pass_vs_second_pass`,
+`test_table_engagement_directive_scales_with_seat_count`).
+
+**Not yet done**: the independent adversarial review of the new
+directive text (same discipline as the Fable regeneration pass got, per
+Mark's own "quality of the voice doesn't change" constraint) and any live
+Bedrock re-proof — both real next steps, neither started here. The cost
+implication flagged in the superseded entry above is now MORE relevant,
+not less: a 3-seat round can run to 6 turns and a 2-seat round to 5, both
+higher than the flat cap=4 `TABLE_SESSION_ROUND_CAP`'s own cost basis
+assumed, on every round now, not only a broad-question subset.

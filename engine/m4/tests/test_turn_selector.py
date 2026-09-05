@@ -70,10 +70,32 @@ def test_round_facts_are_stated_not_inferred():
     assert round_facts(["alx", "desert", "pahc"], []) == (
         "Spoken THIS round, in order: (no one - this is the round's opening turn). "
         "Not yet heard this round: alx, desert, pahc."
+        " A round at this 3-seat table most often finishes well around turn 5 - a preference, never a "
+        "rule: close as soon as the exchange is genuinely finished, and let it run longer only when a "
+        "voice still has something real left to add."
     )
     assert round_facts(["alx", "desert"], ["alx", "desert", "alx"]) == (
         "Spoken THIS round, in order: alx (position 1); desert (position 2); alx (position 3). "
         "Not yet heard this round: (every voice has spoken this round)."
+        " A round at this 2-seat table most often finishes well around turn 4 - a preference, never a "
+        "rule: close as soon as the exchange is genuinely finished, and let it run longer only when a "
+        "voice still has something real left to add."
+    )
+
+
+def test_round_facts_target_guidance_is_a_preference_not_a_rule():
+    """Mark's ruling, 2026-09-05: the 4/5 "ultimate zone" is guidance in
+    the selector's own reasoning, never a second code-enforced gate - the
+    hard number is RoundConfig.cap_for (engine.m4.round), untouched here.
+    A table size this project never seats (Artifact-7 SS1: 2-3 only) gets
+    no target line at all rather than a guessed one."""
+    two = round_facts(["alx", "desert"], [])
+    three = round_facts(["alx", "desert", "pahc"], [])
+    assert "around turn 4" in two and "a preference, never a rule" in two
+    assert "around turn 5" in three and "a preference, never a rule" in three
+    assert round_facts(["fix"], []) == (
+        "Spoken THIS round, in order: (no one - this is the round's opening turn). "
+        "Not yet heard this round: fix."
     )
 
 

@@ -29,8 +29,8 @@ def test_round_design_subject_world_framed_as_witness():
     assert msg in prefix
     assert "you are the witness" not in prefix and "we know only what we have heard at this Table" not in prefix
 
-    subject = _table_engagement_directive(own_world_is_subject=True)
-    other = _table_engagement_directive(own_world_is_subject=False)
+    subject = _table_engagement_directive(own_world_is_subject=True, is_second_pass=False, num_seats=2)
+    other = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, num_seats=2)
     assert "you are the witness" in subject and "Confirm or correct" in subject
     assert "we know only what we have heard at this Table" not in subject
     assert "we know only what we have heard at this Table" in other
@@ -40,23 +40,35 @@ def test_round_design_subject_world_framed_as_witness():
         assert "never retell their stories" in text and "Keep this turn compact" in text
 
 
-def test_round_is_broad_only_at_three_plus_seats_and_never_after_direct_address():
-    """Mark's ruling (2026-09-05): the 5-turn minimum applies only to a
-    round genuinely addressed to the whole table - never one that opened
-    naming one Representative directly, and never a two-seat table, where
-    "every seat has spoken" is just the ordinary alternating exchange."""
-    from engine.api.table_wiring import _round_is_broad
+def test_table_engagement_directive_first_pass_vs_second_pass():
+    """Mark's ruling (2026-09-05, design enhancement): a voice's first turn
+    in a round answers and engages what's come before (points 6-8, naming
+    agreement as readily as difference); a later turn in the SAME round
+    is a different instruction entirely - depth or contrast, not another
+    full answer, and no obligation to touch every other voice (points 9-10)."""
+    from engine.api.table_wiring import _table_engagement_directive
 
-    three = ["cappadocian", "pahc", "syr"]
-    two = ["alx", "desert"]
+    first = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, num_seats=3)
+    second = _table_engagement_directive(own_world_is_subject=False, is_second_pass=True, num_seats=3)
+    assert "engage what" in first and "real agreement as readily as" in first
+    assert "Keep this turn compact" in first
+    assert "not another full answer" in second and "Go deeper" in second
+    assert "do not have to touch everything" in second
+    assert "shorter than your first answer" in second
+    # the shared frame (no-foreknowledge, never-retell) is identical either way
+    for text in (first, second):
+        assert "no knowledge of their worlds" in text and "never retell their stories" in text
 
-    assert _round_is_broad(["cappadocian"], three, opened_by_direct_address=False) is False
-    assert _round_is_broad(["cappadocian", "pahc"], three, opened_by_direct_address=False) is False
-    assert _round_is_broad(["cappadocian", "pahc", "syr"], three, opened_by_direct_address=False) is True
-    # order and repeats don't matter, only coverage
-    assert _round_is_broad(["syr", "cappadocian", "syr", "pahc"], three, opened_by_direct_address=False) is True
-    # a round that opened naming one Representative never qualifies, even
-    # if every seat is later heard anyway
-    assert _round_is_broad(["cappadocian", "pahc", "syr"], three, opened_by_direct_address=True) is False
-    # two seats: "everyone has spoken" is the ordinary case, never broad
-    assert _round_is_broad(["alx", "desert"], two, opened_by_direct_address=False) is False
+
+def test_table_engagement_directive_scales_with_seat_count():
+    """Point 3: "a little increase of pressure to shorten... as we are now
+    sharing with one or two other voices" - singular/plural phrasing only,
+    never a different rule; a 2-seat and a 3-seat table get the identical
+    instruction shape, just "the other voice" vs "the other voices"."""
+    from engine.api.table_wiring import _table_engagement_directive
+
+    two = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, num_seats=2)
+    three = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, num_seats=3)
+    assert "the other voices" not in two  # singular only at a 2-seat table
+    assert "the other voice" in two
+    assert "the other voices" in three  # plural at a 3-seat table

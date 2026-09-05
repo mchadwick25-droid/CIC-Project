@@ -22,7 +22,7 @@ gate_decision event alone. voice_message_for_round is that derivation,
 used identically at round open and on every continue - one code path, so
 the two can never disagree about what the voices are answering.
 """
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, facilitator_turns
@@ -32,47 +32,56 @@ from engine.m5.routing import Directive, directive_without_terms
 
 @dataclass(frozen=True)
 class RoundConfig:
-    """C3 (decided 2026-08-28): floor and cap ship as configuration -
-    floor 3 / cap 4 default, 6 allowed. The floor binds the selector's
-    close option (Table Process V1.0 SS2: it never forces every voice to
-    speak); the cap binds absolutely. 6 is the ceiling the turn-cap
-    incident's re-test verified (Process V1.0 SS6), not an arbitrary max.
+    """C3 (decided 2026-08-28): floor ships as configuration - floor 3,
+    binding the selector's close option (Table Process V1.0 SS2: it never
+    forces every voice to speak). Unconditional, every round, every table
+    size - this predates and is untouched by the seat-scaled cap below.
 
-    BROAD-QUESTION MINIMUM (Mark's ruling, 2026-09-05, after the monologue
-    bug fix: "each person answering the question, but also another round of
-    interaction, a minimum of 5 interactions per question" - but only for a
-    round genuinely addressed to the whole table, never one that opened
-    naming one Representative directly, his own explicit scoping). The
-    caller (engine.api.table_wiring) passes `broad=True` once every seated
-    voice has spoken at least once in a round that did NOT open by direct
-    address - the deterministic stand-in for "genuinely open to all" this
-    project already prefers over a model's guess (turn_selector.py's own
-    docstring: "judgment lives in the model's prompt; the RULES live here,
-    in code"). A question phrased any way still reaches this the moment
-    the selector's ordinary "prefer an unheard voice" preference has, in
-    fact, brought every seat in - not a guess at how the question was
-    worded. broad_floor/broad_cap must both still fit the same 1-6 ceiling
-    the turn-cap incident verified; they only ever raise the effective
-    minimum/cap for a round that already qualifies, never lower it."""
+    SEAT-SCALED CAP (Mark's ruling, 2026-09-05, superseding this thread's
+    own first pass at a broad-only 5/6 minimum): "for 2 voices and a
+    participant, the max turns should be 5... for 3 voices the cap is 6" -
+    applied to EVERY round regardless of how it opened (his explicit
+    scoping, walked through and confirmed), not only a genuinely-open one.
+    The "4 / 5 being the ultimate zone" language in that same ruling is
+    deliberately NOT a second mechanical floor - his own point 3 ("no hard
+    cap or post-conversation monitoring... just a small increased
+    pressure") and his direct confirmation both place it as guidance in the
+    selector's own prompt (engine.m4.turn_selector.round_facts), never a
+    second code-enforced gate; cap_for is the one hard number here. Two
+    seats and three are the only seatings a table ever has (Artifact-7
+    SS1: world_keys 2-3), so a plain mapping is honest about these being
+    two authored numbers, not a formula with a principle behind it.
+
+    EXIT CONDITION (Mark's own check, 2026-09-05, confirmed already true of
+    this design rather than newly built): the moment cap_reached fires -
+    turn 5 for a 2-seat table, turn 6 for a 3-seat table - the round loop
+    (engine.api.table_wiring._advance_open_round) writes round_closed in
+    that same request and returns round_open: False. There is no
+    subsequent generation of any kind until a new participant_message
+    opens the next round (Artifact-7 SS6's turn-at-a-time transport:
+    /continue on a closed round is a 409, not a retry point) - the
+    generation cycle ends unambiguously there and the system waits.
+
+    CONTEXT PASSING (Mark's own check, same date, also already true): each
+    voice turn is one real request against the persisted event log, not a
+    batch of turns generated from one snapshot - _advance_open_round
+    re-projects the FULL transcript from the store (project_fresh) on
+    every single call, so turn 4 is built from turns 1-3 exactly as they
+    were actually written, never from a stale copy taken before turn 1 ran.
+    This is inherent to the production architecture (Artifact-3's
+    event-sourced store), not a property of any one round-length change."""
     floor: int = 3
-    cap: int = 4
-    broad_floor: int = 5
-    broad_cap: int = 6
+    cap_by_seats: dict = field(default_factory=lambda: {2: 5, 3: 6})
+    default_cap: int = 4  # unreached in practice - every real table seats 2 or 3
 
-    def __post_init__(self):
-        if not (1 <= self.floor <= self.cap <= 6):
-            raise ValueError(f"round config must satisfy 1 <= floor <= cap <= 6, got floor={self.floor} cap={self.cap}")
-        if not (self.floor <= self.broad_floor <= self.broad_cap <= 6):
-            raise ValueError(
-                f"round config must satisfy floor <= broad_floor <= broad_cap <= 6, "
-                f"got floor={self.floor} broad_floor={self.broad_floor} broad_cap={self.broad_cap}"
-            )
+    def cap_for(self, num_seats: int) -> int:
+        return self.cap_by_seats.get(num_seats, self.default_cap)
 
-    def close_allowed(self, round_turns: int, *, broad: bool = False) -> bool:
-        return round_turns >= (self.broad_floor if broad else self.floor)
+    def close_allowed(self, round_turns: int) -> bool:
+        return round_turns >= self.floor
 
-    def cap_reached(self, round_turns: int, *, broad: bool = False) -> bool:
-        return round_turns >= (self.broad_cap if broad else self.cap)
+    def cap_reached(self, round_turns: int, num_seats: int) -> bool:
+        return round_turns >= self.cap_for(num_seats)
 
 
 @dataclass(frozen=True)

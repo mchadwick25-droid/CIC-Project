@@ -231,26 +231,6 @@ def table_history_for(world_key: str, transcript: list[dict], labels: dict[str, 
     return history, pending
 
 
-def _round_is_broad(round_speakers, world_keys, *, opened_by_direct_address: bool) -> bool:
-    """Mark's ruling, 2026-09-05: whether THIS round has qualified for the
-    5-turn minimum (RoundConfig.broad_floor/broad_cap) - never true for a
-    round that opened naming one Representative directly (his own explicit
-    scoping), and otherwise true exactly once every seated voice has spoken
-    at least once. See RoundConfig's own docstring for why this proxy was
-    chosen over parsing the participant's phrasing.
-
-    Three or more seats only. At two seats, "every seat has spoken" is true
-    of any ordinary alternating exchange by round_turns == 2 - it carries
-    none of the "whole table" signal it does at three, and the existing
-    two-seat floor/cap (3/4, live-battery-calibrated - test_table_api.py's
-    own selector-close and cap tests pin this exact shape) already gives a
-    real second turn to the other voice before close is even offered.
-    Mark's own report, and every seating he named, was three voices."""
-    if opened_by_direct_address or len(world_keys) < 3:
-        return False
-    return set(world_keys) <= set(round_speakers)
-
-
 def _own_world_named(world_key: str, worlds: dict, message: str) -> bool:
     """THE ROUND-DESIGN FIX (Mark's ruling, 2026-08-29: "make the round
     design fix, papnoute confirms from his own witness"). Deterministic:
@@ -310,7 +290,7 @@ def _context_prefix(pending: list[str]) -> str | None:
     )
 
 
-def _table_engagement_directive(*, own_world_is_subject: bool) -> str:
+def _table_engagement_directive(*, own_world_is_subject: bool, is_second_pass: bool, num_seats: int) -> str:
     """The Table's per-turn behavioral rule - engage what another voice
     just said, stay inside your own witness, keep it compact - in the
     directive channel (engine.m4.turn._build_turn_directive), not the user
@@ -337,18 +317,46 @@ def _table_engagement_directive(*, own_world_is_subject: bool) -> str:
     of the rule itself is untouched from Mark's own 2026-08-28/29 approved
     wording, only where it's said.
 
-    Kept separate from context_prefix's own content (which still carries
-    the real pending speech, in the user message, where the model reads it
-    as what-was-said) so the instruction and the content it governs travel
-    on the two channels each is actually suited to.
+    DESIGN ENHANCEMENT, 2026-09-05, same day (Mark's own words: "the
+    quality of the voice doesn't change... a little increase of pressure
+    to shorten... no hard cap or post conversation monitoring"). Two
+    additions, both his explicit parameters, drafted directly rather than
+    through a Fable subagent - a new system-directive instruction, never
+    spoken verbatim by the voice, is the same kind of task as the bug fix
+    just above, not a record-prose regeneration; still gets the same
+    independent adversarial review before this is called done.
 
-    THE ROUND-DESIGN FIX (2026-08-29, Mark's ruling, unchanged by this
-    move): when the round loop detects that THIS voice's own world is the
-    question's subject (_own_world_named), the hearsay frame is replaced
-    structurally - the subject voice is the witness, confirming or
-    correcting what the Table has said of it. The loop chooses the frame;
-    the voice is never asked to work out which side of the rule it is on
-    mid-turn."""
+    is_second_pass - "the first response answers the question... the
+    second response answers the question but also considers the answer of
+    the first... after each representative answers the question, then the
+    more focused responses come, and they are focused on going deeper...
+    and also identifies disagreement." A voice's FIRST turn in a round
+    (is_second_pass=False, matching points 6-8) keeps the original engage-
+    and-answer framing, strengthened only to name agreement as readily as
+    difference (his own "finds agreement and where the perspective may be
+    different," not only contrast). A voice speaking again later in the
+    same round (is_second_pass=True, point 9) gets a different instruction
+    entirely: not another full answer, but depth on one thing its first
+    turn left uncovered, or a plainly named point of contrast - and,
+    per point 10 ("it can zero in on a specific alignment or
+    disagreement"), permission to touch only the one voice or point that
+    's actually worth answering, not a survey of everyone.
+
+    num_seats - point 3's "little increase of pressure to shorten... as we
+    are now sharing with one or two other voices": the compactness framing
+    scales with how many other voices are actually at this table, and
+    stays a prompt-level nudge only - no word-count enforcement, no
+    post-turn monitoring, matching how the single-voice interview is
+    never policed that way either.
+
+    THE ROUND-DESIGN FIX (2026-08-29, Mark's ruling, unchanged by either
+    move above): when the round loop detects that THIS voice's own world
+    is the question's subject (_own_world_named), the hearsay frame is
+    replaced structurally - the subject voice is the witness, confirming
+    or correcting what the Table has said of it. The loop chooses the
+    frame; the voice is never asked to work out which side of the rule it
+    is on mid-turn."""
+    other_voices = "the other voice" if num_seats <= 2 else "the other voices"
     if own_world_is_subject:
         stance = (
             "The participant has been asking the Table about YOUR OWN world - yours is the one under "
@@ -357,26 +365,54 @@ def _table_engagement_directive(*, own_world_is_subject: bool) -> str:
             "world from your own records, in your own we-voice, and add what you would add."
         )
     else:
+        other_voices_possessive_world = (
+            "the other voice's world" if num_seats <= 2 else "the other voices' worlds"
+        )
         stance = (
             "If the participant asks you about another voice's world, say plainly, in your own we-voice, "
-            "that we know only what we have heard at this Table. That rule is about the other voices' "
-            "worlds, never your own: if the question touches your own world, answer from your own witness "
-            "as you always do."
+            "that we know only what we have heard at this Table. That rule is about " + other_voices_possessive_world +
+            ", never your own: if the question touches your own world, answer from your own witness as "
+            "you always do."
+        )
+
+    if is_second_pass:
+        focus = (
+            "You have already answered this question once this round - this turn is not another full "
+            "answer. Go deeper on one real thing your first answer left out, or name plainly where you see "
+            "it differently from what " + other_voices + " said, a genuine contrast held in your own "
+            "witness, never a correction of theirs. Zero in on the one point most worth making; you do not "
+            "have to touch everything " + other_voices + " said, and you do not have to be the one drawn "
+            "back in every time."
+        )
+        compact = (
+            "Keep this turn shorter than your first answer - one thing, said plainly, is worth more here "
+            "than a survey of everything said so far. Settle your point rather than opening a new question "
+            "to " + other_voices + " - this round may well end after your turn, and the participant, not "
+            + other_voices + ", is who you leave the floor to."
+        )
+    else:
+        focus = (
+            "Before you answer the participant, engage what " + other_voices + " actually said where it "
+            "genuinely touches your own world's witness - name where you find real agreement as readily as "
+            "where your own witness differs; never describe, summarize, or characterize their world "
+            "yourself."
+        )
+        compact = (
+            "Keep this turn compact - this is a table, not a lecture, and you are sharing it with " +
+            other_voices + ". Say the one or two things most worth saying right now, at perhaps half the "
+            "length you would take alone with the participant, and leave room for " + other_voices +
+            "; you can always be drawn back in."
         )
     return (
         "You are being brought into a Table round, not answering alone: what another voice said since "
-        "your last turn is quoted above, in your own opening context. You know the other voices at this "
-        "Table only through what they have said there - you have no knowledge of their worlds, their "
-        "traditions, their practices, or their people beyond their own spoken words, and no memory of "
-        "meeting them before this Table. Before you answer the participant, engage what they actually "
-        "said where it genuinely touches your own world's witness; never describe, summarize, or "
-        "characterize their world yourself. " + stance + " "
+        "your last turn is quoted above, in your own opening context. You know " + other_voices + " at "
+        "this Table only through what they have said there - you have no knowledge of their worlds, "
+        "traditions, practices, or people beyond their own spoken words, and no memory of meeting them "
+        "before this Table. " + focus + " " + stance + " "
         "What another voice has said is THEIR witness, never yours: never retell their stories, figures, "
         "or claims in your own world's first person - your 'we' and 'our' reach only what your own world "
         "holds. Everything you say about your OWN world stays grounded in your own records, exactly as "
-        "always. Keep this turn compact - this is a table, not a lecture. Say the one or two things most "
-        "worth saying right now, at perhaps half the length you would take alone with the participant, and "
-        "leave room for the other voices; you can always be drawn back in."
+        "always. " + compact
     )
 
 
@@ -469,24 +505,9 @@ def _advance_open_round(
         degraded=degraded, facilitator=facilitator,
     )
 
-    # DIRECT ADDRESS BY NAME (Facilitator Governance SS8, C5): a participant
-    # who names exactly one seated Representative gets that voice at the
-    # round's opening position - immediately, with no selector call. The
-    # detection runs on the participant's RAW message (names are not modern
-    # terms; a bridged round's underlying subject carries no names to find).
-    # Computed unconditionally (not just at round_turns == 0): the same
-    # pure check, re-run on every continue against the round's one
-    # unchanging participant message, is also how _round_is_broad knows
-    # whether THIS round is even eligible for the 5-turn minimum below -
-    # participant_text never changes mid-round, so this never disagrees
-    # with what position 1 already decided.
-    name_to_world = {w.frame["representative"]["name"]: k for k, w in worlds.items()}
-    opening_direct_address = detect_direct_address(participant_text, name_to_world)
-    broad_pre_turn = _round_is_broad(
-        state.round_speakers, state.world_keys, opened_by_direct_address=opening_direct_address is not None
-    )
+    num_seats = len(worlds)
 
-    if config.cap_reached(state.round_turns, broad=broad_pre_turn):
+    if config.cap_reached(state.round_turns, num_seats=num_seats):
         # Defensive only: the cap closes the round in the same request that
         # reaches it (below), so a continue should never find this - but a
         # crash between voice_turn and round_closed would, and the honest
@@ -494,7 +515,15 @@ def _advance_open_round(
         turn_no = _close_round(store, state, reason="cap", turns=state.round_turns)
         return TableMessageResult(**common, round_open=False, turn_selected=None, voice=None, position=None, turn_no=turn_no)
 
-    direct_address = opening_direct_address if state.round_turns == 0 else None
+    # DIRECT ADDRESS BY NAME (Facilitator Governance SS8, C5): a participant
+    # who names exactly one seated Representative gets that voice at the
+    # round's opening position - immediately, with no selector call. The
+    # detection runs on the participant's RAW message (names are not modern
+    # terms; a bridged round's underlying subject carries no names to find).
+    direct_address = None
+    if state.round_turns == 0:
+        name_to_world = {w.frame["representative"]["name"]: k for k, w in worlds.items()}
+        direct_address = detect_direct_address(participant_text, name_to_world)
     if direct_address is not None:
         selection = Selection(
             world_key=direct_address, close=False,
@@ -517,7 +546,7 @@ def _advance_open_round(
             seated_lines=seated_lines,
             world_keys=list(state.world_keys),
             last_speaker=state.round_speakers[-1] if state.round_speakers else None,
-            close_allowed=config.close_allowed(state.round_turns, broad=broad_pre_turn),
+            close_allowed=config.close_allowed(state.round_turns),
             transcript_speakers=transcript_speakers,
             round_speakers=list(state.round_speakers),
         )
@@ -561,7 +590,9 @@ def _advance_open_round(
             context_prefix=_context_prefix(pending),
             table_engagement=(
                 _table_engagement_directive(
-                    own_world_is_subject=_own_world_named(selection.world_key, worlds, voice_message)
+                    own_world_is_subject=_own_world_named(selection.world_key, worlds, voice_message),
+                    is_second_pass=selection.world_key in state.round_speakers,
+                    num_seats=num_seats,
                 )
                 if pending
                 else None
@@ -586,11 +617,7 @@ def _advance_open_round(
         usage_store.append(rec)
 
     turns_now = position
-    broad_post_turn = _round_is_broad(
-        list(state.round_speakers) + [selection.world_key], state.world_keys,
-        opened_by_direct_address=opening_direct_address is not None,
-    )
-    if config.cap_reached(turns_now, broad=broad_post_turn):
+    if config.cap_reached(turns_now, num_seats=num_seats):
         # state still reflects pre-turn bookkeeping; round_no is unchanged
         # and the close carries the real turn count.
         turn_no = _close_round(store, state, reason="cap", turns=turns_now)

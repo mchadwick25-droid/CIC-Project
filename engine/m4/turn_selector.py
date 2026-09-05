@@ -100,6 +100,19 @@ def fallback_world(eligible: list[str], transcript_speakers: list[str]) -> str:
     return min(eligible, key=lambda k: (last_spoken_index(k), eligible.index(k)))
 
 
+# TARGET LENGTH (Mark's ruling, 2026-09-05, on a design enhancement pass:
+# "for 2 voices and a participant, the max turns should be 5, 4 being the
+# ultimate zone... for 3 voices the cap is 6, 5 being the ultimate zone").
+# Deliberately a SECOND, softer number from the hard cap the round loop
+# itself enforces (engine.m4.round.RoundConfig.cap_for) - his own point 3
+# ("no hard cap or post conversation monitoring... just a small increased
+# pressure") and his direct confirmation both place this as guidance here,
+# in the selector's own reasoning, never a second code-enforced gate. Only
+# two table sizes exist (Artifact-7 SS1: world_keys 2-3), so this is a
+# plain lookup of his two authored numbers, not a formula.
+_TARGET_TURNS_BY_SEATS = {2: 4, 3: 5}
+
+
 def round_facts(world_keys: list[str], round_speakers: list[str]) -> str:
     """Code-computed round state, stated to the selector outright (Artifact-7
     SS5's "eligibility facts computed in code") rather than left for it to
@@ -109,15 +122,28 @@ def round_facts(world_keys: list[str], round_speakers: list[str]) -> str:
     of that round - the decision itself was defensible, but a turn_selected
     event's reason is an audit surface (M7), and a false factual sentence in
     it is a defect. The model no longer has to reconstruct round boundaries
-    it was never told."""
+    it was never told.
+
+    Carries the target-length guidance too (2026-09-05) - a preference
+    stated as a fact about this table's usual shape, not a rule, and never
+    seen by the participant either way (this whole string is selector-only
+    reasoning input, same as the rest of this function)."""
     if round_speakers:
         spoken = "; ".join(f"{k} (position {i + 1})" for i, k in enumerate(round_speakers))
     else:
         spoken = "(no one - this is the round's opening turn)"
     unheard = [k for k in world_keys if k not in round_speakers]
+    target = _TARGET_TURNS_BY_SEATS.get(len(world_keys))
+    target_line = (
+        f" A round at this {len(world_keys)}-seat table most often finishes well around turn {target} - "
+        "a preference, never a rule: close as soon as the exchange is genuinely finished, and let it run "
+        "longer only when a voice still has something real left to add."
+        if target else ""
+    )
     return (
         f"Spoken THIS round, in order: {spoken}. "
         f"Not yet heard this round: {', '.join(unheard) if unheard else '(every voice has spoken this round)'}."
+        f"{target_line}"
     )
 
 
