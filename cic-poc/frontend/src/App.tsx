@@ -69,13 +69,35 @@ function App() {
   // Waits for the world list before deciding the first screen - a ?worlds=
   // deep link can't be matched against an empty list. Resuming a session
   // already open in this tab takes priority (interview or table, decided
-  // by the stored mode); only when there's nothing to resume does the deep
-  // link get its one chance to fire.
+  // by the stored mode) UNLESS the incoming URL explicitly asks for the
+  // OTHER mode - a fresh, different request always wins over a stale
+  // leftover session (see the conflict check just inside the effect).
+  // Only when there's nothing to resume, or nothing to conflict with,
+  // does the deep link get its one chance to fire.
   useEffect(() => {
     if (worldsLoading || deepLinkFired.current) return;
     deepLinkFired.current = true;
     const stored = readStored();
-    const resume = stored?.mode === 'table' ? table.rehydrate().then((keys) => (keys ? 'table' : null)) : conversation.rehydrate().then((key) => (key ? 'interview' : null));
+    const deepLink = parseDeepLink();
+    // A fresh deep link explicitly asking for a DIFFERENT mode than
+    // whatever's left over in this tab's storage is the participant
+    // choosing to start something new (2026-09-05 live bug, Mark hit it
+    // directly: an earlier interview left mode:'interview' in storage,
+    // and a subsequent Table deep link - a genuinely different request -
+    // never got its one chance to fire, because resuming the stale
+    // interview always ran first and always succeeded, since that old
+    // session was still open server-side; parseDeepLink was only ever
+    // reached once resume came back empty). Only resume when the
+    // incoming request agrees with (or says nothing explicit about) what
+    // is stored - a bare reload of an already-open room still carries no
+    // conflicting params and resumes exactly as before.
+    const hasExplicitDeepLink = deepLink.censusIds.length > 0 || new URLSearchParams(window.location.search).has('mode');
+    const storedModeConflicts = hasExplicitDeepLink && stored !== null && deepLink.mode !== stored.mode;
+    const resume = storedModeConflicts
+      ? Promise.resolve(null)
+      : stored?.mode === 'table'
+        ? table.rehydrate().then((keys) => (keys ? 'table' : null))
+        : conversation.rehydrate().then((key) => (key ? 'interview' : null));
     resume.then((resumed) => {
       if (resumed === 'table') {
         setScreen('table');
@@ -87,7 +109,7 @@ function App() {
         setScreen('conversation');
         return;
       }
-      const { censusIds, mode } = parseDeepLink();
+      const { censusIds, mode } = deepLink;
       const linked = censusIds
         .map((id) => findWorldByCensusId(worlds, id))
         .filter((w): w is NonNullable<typeof w> => w !== undefined)
