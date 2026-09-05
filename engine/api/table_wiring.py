@@ -373,7 +373,27 @@ def _table_engagement_directive(
     or correcting what the Table has said of it. On a second-pass turn,
     that confirming/correcting is scoped to the one thing most worth it,
     not an open "add what you would add" - the review's own find: the
-    unscoped wording collided outright with "not another full answer"."""
+    unscoped wording collided outright with "not another full answer".
+
+    BUG FIX, 2026-09-05, found by the first live proof of this whole design
+    (not the deterministic tests - this only shows up against a real
+    model): a voice's own generated text opened with a fabricated line -
+    "The Facilitator: Theon, the desert voice has brought something in -
+    would you speak to it?" followed by a "---" separator - before its
+    real answer. The Facilitator is a separate, code-owned voice
+    (engine.m4.facilitator_turns); a Representative inventing one is a
+    structural violation, not a register nuance, and the live sample that
+    produced it was otherwise excellent (real alignment AND contrast, a
+    settled close, no self-reference or forward-vantage slip). The likely
+    trigger predates this whole design pass: _context_prefix's own
+    "(You are being brought in now...)" parenthetical - Mark's own
+    2026-08-28/29 wording, unchanged today - reads to a model as a cue
+    worth dramatizing. Fixed here, in the stronger channel, rather than by
+    touching that already-approved user-message text: an explicit
+    "begin speaking as yourself... never write a line for the
+    Facilitator... never open with a separator or a stage direction"
+    instruction, opening this whole directive so it's the first thing
+    read, before the risky phrase's own echo even has room to land."""
     other_voices = "the other voice" if num_seats <= 2 else "the other voices"
     if own_world_is_subject:
         add_clause = (
@@ -435,7 +455,10 @@ def _table_engagement_directive(
         )
     return (
         "You are being brought into a Table round, not answering alone: what another voice said since "
-        "your last turn is quoted above, in your own opening context. You know " + other_voices + " at "
+        "your last turn is quoted above, in your own opening context. Begin speaking as yourself, in your "
+        "own voice, from your first word - never write a line for the Facilitator, never narrate your own "
+        "entrance or address as though it were being staged or announced, and never open with a separator "
+        "or a stage direction before your real answer. You know " + other_voices + " at "
         "this Table only through what they have said there - you have no knowledge of their worlds, "
         "traditions, practices, or people beyond their own spoken words, and no memory of meeting them "
         "before this Table. " + focus + " " + stance + " "

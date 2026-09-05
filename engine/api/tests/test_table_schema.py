@@ -130,3 +130,27 @@ def test_table_engagement_directive_subject_second_pass_add_clause_is_scoped():
     assert "and add what you would add" in first_pass
     assert "and add what you would add" not in second_pass
     assert "not everything, this is still not another full answer" in second_pass
+
+
+def test_table_engagement_directive_forbids_a_fabricated_facilitator_line():
+    """BUG FIX, 2026-09-05, found by the first live proof of this design
+    (not the deterministic tests): a voice's own generated text opened with
+    a fabricated "The Facilitator: ..." line and a "---" separator before
+    its real answer - the Facilitator is a separate, code-owned voice
+    (engine.m4.facilitator_turns), never something a Representative
+    invents. The directive now opens with an explicit prohibition, on
+    every pass and every seat count, before the risky "being brought in"
+    phrasing that likely triggered it even gets a chance to land."""
+    from engine.api.table_wiring import _table_engagement_directive
+
+    for is_second_pass in (False, True):
+        for is_final_turn in (False, True):
+            text = _table_engagement_directive(
+                own_world_is_subject=False, is_second_pass=is_second_pass, is_final_turn=is_final_turn, num_seats=3
+            )
+            assert "never write a line for the Facilitator" in text
+            assert "never narrate your own entrance" in text
+            assert "stage direction" in text
+            # the prohibition is the first real instruction, ahead of the
+            # phrase that likely triggered the fabrication in the live sample
+            assert text.index("never write a line for the Facilitator") < text.index("You know the other voices")

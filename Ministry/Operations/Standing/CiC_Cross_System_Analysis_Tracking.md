@@ -989,3 +989,56 @@ existed.
 text (the existing live proof, 28627ee2, exercised only the pre-design-
 pass wording under the old flat cap of 4) — needs its own go-ahead before
 running, same standing rule as every other live spend this session.
+
+### Live proof (Mark's go-ahead: "go ahead, run the live proof") — one real defect found and fixed, 2026-09-05
+
+Two full live rounds, real Bedrock calls, each driven to whatever length
+the real selector actually chose (not forced to the cap): cappadocian +
+pahc + syr on the same reported question ("who is Jesus, and how did you
+understand Him?"), and alx + desert on the same question for the 2-seat
+case.
+
+**Mostly excellent, and one real, concerning defect.** The engagement
+fix and the two-phase design both held up: real citations throughout, no
+self-reference or forward-vantage slips, and the 2-seat round's actual
+second-pass turn (Theon/alx) is close to a model instance of what was
+asked for — names a genuine alignment ("we meet on the center") AND a
+genuine contrast ("we part on whether following him meant... obeying the
+one command... or reading and re-reading"), zeroes in rather than
+surveying, and settles cleanly with no dangling question. But that same
+turn's own generated text opened with a fabricated line before the real
+answer: *"The Facilitator: Theon, the desert voice has brought something
+in — would you speak to it?"* followed by a "---" separator. Confirmed
+this was the model's own `voice_event["text"]`, not a script or printing
+artifact, by reading the raw saved JSON directly. The Facilitator is a
+separate, code-owned voice (`engine.m4.facilitator_turns`) — a
+Representative inventing one is a structural violation, and the likely
+trigger — `_context_prefix`'s own "(You are being brought in now...)"
+parenthetical — is Mark's own 2026-08-28/29 approved wording, unchanged
+by any of today's work. This predates today's design pass; today's live
+proof is simply the first time it was actually observed.
+
+Also worth naming honestly, not a defect: the 3-seat round never reached
+a second pass at all — the selector judged the exchange genuinely
+finished after everyone's first answer (which already carried real
+cross-voice contrast) and closed at 3 turns, well short of the 5-turn
+"ultimate zone." Consistent with the design as built (soft target only,
+the selector's own judgment prevails, never forced) — but it means the
+full first-pass/second-pass arc Mark described won't show up in every
+round, only in the ones where the selector judges there's still
+something worth a second look.
+
+**Fixed**: `_table_engagement_directive` now opens with an explicit
+prohibition — "Begin speaking as yourself... never write a line for the
+Facilitator, never narrate your own entrance or address as though it
+were being staged or announced, and never open with a separator or a
+stage direction" — ahead of the risky phrasing, on every pass and every
+seat count (the sample that produced the defect was a second-pass turn,
+but the triggering phrase fires on any turn with `other_voice_has_spoken`,
+first pass included). Fixed in the stronger directive channel rather than
+by touching the already-approved `_context_prefix` wording itself. New
+test (`test_table_engagement_directive_forbids_a_fabricated_facilitator_line`)
+pins the prohibition's presence and position across every pass/finality
+combination. Full suite (560 tests) green.
+
+**Re-proven live after the fix** — see the next entry.
