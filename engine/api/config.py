@@ -44,6 +44,13 @@ class Settings:
     # six worlds - render.yaml carries the flip and its record; the
     # declared deferral this flag was born with is ended.
     enforce_admission: bool
+    # Gates /api/admin/pilot-summary (2026-09-05: "how many pilot
+    # id/transcripts have been generated" had no answer from outside the
+    # service - no admin surface existed at all). None (unset) disables the
+    # route entirely rather than defaulting to some guessed secret; a real
+    # deploy sets its own random value in the Render dashboard, same
+    # sync: false pattern as the AWS keys - never committed here.
+    admin_token: str | None
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -63,4 +70,5 @@ class Settings:
             worlds_yaml_path=worlds_yaml_path,
             default_world_key=os.environ.get("CIC_API_DEFAULT_WORLD_KEY", _DEFAULT_WORLD_KEY),
             enforce_admission=os.environ.get("CIC_ENFORCE_ADMISSION", "") in ("1", "true", "yes"),
+            admin_token=os.environ.get("CIC_API_ADMIN_TOKEN") or None,
         )
