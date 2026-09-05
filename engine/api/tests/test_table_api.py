@@ -216,6 +216,14 @@ def test_round_turn_at_a_time_to_selector_close(store, usage_store, world_loader
     speakers = [t["speaker"] for t in transcript["transcript"]]
     assert speakers == ["facilitator", "participant", "alx", "desert", "alx"]
 
+    # Mark's own question, 2026-09-05 ("why isn't it reaching second
+    # passes?"): the real selector's own stated reason for closing used to
+    # be discarded entirely - round_closed.reason is only the fixed ENUM
+    # category ("selector_closed"), never the model's actual free-text
+    # justification. It's logged now, in the raw event.
+    closed_events = [e for e in store.read_events(session_id) if e.event_type == "round_closed"]
+    assert closed_events[0].payload["selector_reason"] == "genuinely answered"
+
 
 def test_round_cap_closes_at_five_for_two_seats(store, usage_store, world_loader, registry, alx_world, desert_world):
     """Mark's ruling, 2026-09-05: 'for 2 voices and a participant, the max
