@@ -1021,3 +1021,28 @@
     translation reads cleanly throughout, including its own closing lines;
     the Latin apparatus and manuscript-collation tables carry more noise,
     disclosed in the file's own header rather than treated as pristine.
+- filename: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
+  supplied_by: Mark
+  date_added: '2026-09-05'
+  notes: >-
+    Goldbacher's critical edition of Augustine's letters, CSEL 57, Pars IV
+    only (Epistulae 185-270) -- supplied for the Latin Pastoral-Congregational
+    Christianity world-build's own Registry row 61, partially fulfilling
+    Source_Acquisition_Manifest G4. The remaining Goldbacher volumes (CSEL
+    34/1, 34/2, 44, 58) are not included and stay open. Public domain by
+    date (1911). Mechanically extracted from a docx Mark compiled from an
+    archive.org "Full text" view of a Google Books scan (exact item
+    identifier not stated when supplied, not guessed, though very likely
+    the same item already noted in the shared download-queue-seed.yaml as
+    archive.org/details/CSEL57 -- not independently confirmed against this
+    specific file); site-navigation chrome and Google's PD usage notice
+    stripped, doubled inter-word spacing normalized, nothing else altered.
+    Latin-only, no facing translation -- original-language witness,
+    second-witness caveat applies per cic/texts/INTAKE.md. OCR quality
+    measurably worse than this project's other recent Latin intakes: a
+    direct paragraph-level scan found ~2.6% of paragraphs (636 of 24,350)
+    with heavy garbage-symbol corruption, concentrated in the apparatus
+    criticus -- at least one specific editorial note is essentially
+    unreadable rather than merely noisy. The running Latin letter text
+    itself reads coherently throughout, including the collection's own
+    final lines; apparatus-level claims need independent verification.
