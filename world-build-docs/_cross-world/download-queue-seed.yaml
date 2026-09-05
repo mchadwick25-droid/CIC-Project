@@ -163,8 +163,8 @@ queue:
       the English-evidence and original-language-witness needs at once.
     url: "https://archive.org/details/sanctiaugustiniv00possrich"
     rights_basis: pd-us-by-date
-    verified_by: "lpc build thread, live web search + Cambridge Classical Review cross-citation, 2026-09-01"
-    status: not-yet-downloaded
+    verified_by: "lpc build thread, live web search + Cambridge Classical Review cross-citation, 2026-09-01; direct file inspection (OCR-quality sampled across the full document) 2026-09-05"
+    status: downloaded
 
   - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae"
     author: "Augustine of Hippo"

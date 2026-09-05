@@ -998,3 +998,26 @@
     rather than treated as pristine. Original-language witness (Latin) --
     second-witness caveat applies per cic/texts/INTAKE.md: never primary
     evidence for a Representative on its own.
+- filename: possidius_vita-augustini_weiskotten1919.txt
+  supplied_by: Mark
+  date_added: '2026-09-05'
+  notes: >-
+    Weiskotten's 1919 Princeton dissertation edition of Possidius's Life of
+    Augustine -- supplied for the Latin Pastoral-Congregational Christianity
+    world-build's own Registry row 45, fulfilling Source_Acquisition_Manifest
+    G3, this world's own highest-priority open request. A genuinely bilingual
+    critical edition: Weiskotten's revised Latin text with apparatus and
+    introduction, together with his complete English translation, notes, and
+    an index. Because the full English translation is present, this is
+    ordinary English-language primary-evidence material, not a second-witness
+    original-language file. Public domain by date (1919). Mechanically
+    extracted from a docx Mark compiled from an archive.org "Full text" view
+    of a Google Books scan of the University of California, Berkeley's own
+    copy (exact item identifier not stated when supplied, not guessed);
+    site-navigation chrome, Google's PD usage notice, and a scanned UC
+    Berkeley circulation due-date slip bound into the back of the physical
+    volume were all stripped as scanning artifacts, doubled inter-word
+    spacing normalized, nothing else altered. OCR quality: the English
+    translation reads cleanly throughout, including its own closing lines;
+    the Latin apparatus and manuscript-collation tables carry more noise,
+    disclosed in the file's own header rather than treated as pristine.
