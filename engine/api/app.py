@@ -8,6 +8,7 @@ module under pytest (CIC_API_REGION unset in CI) leaves `app = None` rather
 than trying to resolve model IDs or make a real, credentialed Bedrock client.
 Tests import `create_app` directly and build their own app from fakes.
 """
+import hmac
 import logging
 import os
 import time
@@ -53,6 +54,7 @@ class Deps:
     registry: dict
     default_world_key: str
     enforce_admission: bool
+    admin_token: str | None = None
 
 
 class SessionCreateRequest(BaseModel):
@@ -119,6 +121,18 @@ class RoundCloseReasonsResponse(BaseModel):
     rounds: list[dict]
 
 
+class PilotSummaryResponse(BaseModel):
+    """Admin-only (2026-09-05), see wiring.PilotSummary's own docstring for
+    what this deliberately does and doesn't carry."""
+    total_sessions: int
+    by_mode: dict[str, int]
+    open_sessions: int
+    closed_by_reason: dict[str, int]
+    table_round_counts_on_cap: dict[str, int]
+    earliest_session_at: str | None
+    latest_session_at: str | None
+
+
 class WorldSummary(BaseModel):
     world_key: str
     census_id: str | None
@@ -161,6 +175,24 @@ def _authenticate(store: Store, session_id: str, authorization: str | None):
     return state
 
 
+_ADMIN_AUTH_PREFIX = "Bearer "
+
+
+def _authenticate_admin(configured_token: str | None, authorization: str | None) -> None:
+    """A separate credential from _authenticate above: that one proves
+    'this caller holds THIS session's own code' (a participant, legitimately);
+    this one proves 'this caller is an operator,' answering across every
+    session at once. Unconfigured, missing, and wrong all return the
+    identical 404 - unlike a session id (which a real participant already
+    knows exists), this route shouldn't confirm its own existence to
+    anyone who lacks the token, config-not-set included."""
+    if not configured_token or not authorization or not authorization.startswith(_ADMIN_AUTH_PREFIX):
+        raise HTTPException(status_code=404)
+    candidate = authorization[len(_ADMIN_AUTH_PREFIX) :].strip()
+    if not candidate or not hmac.compare_digest(candidate, configured_token):
+        raise HTTPException(status_code=404)
+
+
 def create_app(
     *,
     voice_client,
@@ -174,6 +206,7 @@ def create_app(
     default_world_key: str,
     enforce_admission: bool = False,
     rate_limit: bool = False,
+    admin_token: str | None = None,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -182,7 +215,12 @@ def create_app(
     many requests from one TestClient 'IP' in seconds) aren't throttled;
     _build_real_app - the ONLY production constructor - passes True, and
     engine/api/tests/test_ratelimit.py pins that a rate-limited app
-    actually limits."""
+    actually limits.
+
+    admin_token defaults None, same disabled-by-default posture: unset in
+    a test app (or a real deploy that hasn't configured one yet) means
+    /api/admin/pilot-summary 404s outright rather than existing in a
+    permanently-unauthorizable state."""
     app = FastAPI(title="CiC engine/api (minimal test backend)")
     if rate_limit:
         ratelimit.install(app)
@@ -195,6 +233,7 @@ def create_app(
         usage_store=usage_store,
         world_loader=world_loader,
         registry=registry,
+        admin_token=admin_token,
         default_world_key=default_world_key,
         enforce_admission=enforce_admission,
     )
@@ -364,6 +403,20 @@ def create_app(
         rounds = table_wiring.get_round_close_reasons(deps.store, session_id)
         return RoundCloseReasonsResponse(session_id=session_id, rounds=rounds)
 
+    @app.get("/api/admin/pilot-summary", response_model=PilotSummaryResponse)
+    def get_pilot_summary_endpoint(
+        request: Request, authorization: str | None = Header(default=None), since: str | None = None
+    ):
+        """Operator-only (2026-09-05: no way to answer 'how many real
+        pilot sessions exist' or 'is the table round cap firing where it
+        should' from outside the service). `since` is the same ISO-8601
+        prefix filter Store.list_session_ids already defines - unset means
+        every session ever logged."""
+        deps: Deps = request.app.state.deps
+        _authenticate_admin(deps.admin_token, authorization)
+        summary = wiring.get_pilot_summary(deps.store, since=since)
+        return PilotSummaryResponse(**asdict(summary))
+
     # Stage 5 (PHASE-1-LAUNCH.md): one Render service, not two - same
     # pattern cic-poc/backend/app/main.py already used, so no CORS_ORIGINS
     # config and no second thing to deploy and keep in sync. `/api/*` and
@@ -433,6 +486,7 @@ def _build_real_app() -> FastAPI:
         default_world_key=settings.default_world_key,
         enforce_admission=settings.enforce_admission,
         rate_limit=True,
+        admin_token=settings.admin_token,
     )
 
 

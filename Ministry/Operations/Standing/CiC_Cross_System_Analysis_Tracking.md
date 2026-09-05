@@ -1797,3 +1797,55 @@ past the new cap. Noted in that script's own docstring rather than
 silently left wrong or reshaped on a guess - reshaping the probe order
 is a design call belonging to whoever next authorizes a real, billed
 run of that battery, not implied by the cap number alone changing.
+
+### Admin pilot-summary endpoint built, 2026-09-05
+
+Mark: "let's check the pilot for any round-cap issues" - asked right
+after the cap resize above merged. Answered honestly rather than
+guessed at: this sandbox has no Render dashboard/API access, no
+production database credentials, and the two existing per-session
+endpoints (`/transcript`, `/round-close-reasons`) are gated by each
+session's own participant auth code, not something an operator holds
+for a session they didn't open. There was no way to check the pilot at
+all from outside the service - not for me, not really for Mark either
+without going into the Render disk directly.
+
+Mark's follow-up, "how many pilot id/transcripts have been generated
+not from this computer," landed on the same gap from a different
+angle - no admin/list endpoint exists to even count sessions, let alone
+inspect one. Mark: "build the admin endpoint."
+
+Built `GET /api/admin/pilot-summary` (`engine/api/wiring.get_pilot_summary`
++ `engine/api/app.py`), gated by a new `CIC_API_ADMIN_TOKEN` (Bearer,
+`sync: false` in render.yaml - Mark sets a real random value in the
+Render dashboard, same pattern as the AWS keys; unset means the route
+404s outright, not merely unauthorized, so an unconfigured or
+wrong-token request is indistinguishable from a route that doesn't
+exist). Reuses `engine.m7.session_reader.read_session` (the M7 audit's
+own reader) rather than re-deriving the event fold a second way, over
+every session `Store.list_session_ids` returns (the same M7-sweep entry
+point, `since`-filterable).
+
+Returns counts only, never participant content: total sessions, by
+mode (interview/table), open vs. closed, closed sessions by reason
+(`participant`/`idle`/`cap`), and - the round-cap check this was
+actually for - for table sessions that closed via the session round
+cap, a histogram of which round count the cap fired at. That last one
+needed its own real fix before it was honest: the session-cap closure
+always appends its own zero-turn `round_closed` (+`turn_committed`) on
+top of whatever real rounds preceded it (`table_wiring.py`'s
+`session_capped` branch), so the raw `round_closed` count is always one
+higher than `TABLE_SESSION_ROUND_CAP` actually compares against -
+caught by a test expecting `{"1": 1}` and getting `{"2": 1}` before the
+fix (subtracting 1 for the cap's own closing round).
+
+Tests: `engine/api/tests/test_admin.py` - unconfigured token 404s,
+wrong/missing token 404s, and a real table session driven to cap
+closure (`TABLE_SESSION_ROUND_CAP` patched to 1, matching the existing
+`test_session_cap_at_table_unit` pattern) alongside one left open,
+asserting the exact counts and the corrected round histogram. Full
+suite green (575 passed) after this and the round-cap resize above.
+
+Not yet done: Mark still needs to set `CIC_API_ADMIN_TOKEN` in the
+Render dashboard before this is callable in production - the code
+change alone doesn't activate it.
