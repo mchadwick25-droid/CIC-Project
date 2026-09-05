@@ -22,6 +22,22 @@ Selection guidance in the prompt follows Table Process V1.0 SS2: "most
 directly positioned" first, with the breadth-of-voice preference - favor a
 voice that has not yet spoken this round when the question is genuinely
 open to all, without making rotation a rule.
+
+REPRESENTATIONAL FAIRNESS ON RETURN PICKS (2026-09-05, Mark relaying a
+reviewer's finding): across every real transcript reviewed that day with
+the same 3-seat trio, the two traditions carrying more elaborated,
+cross-referencing technical vocabulary (Cappadocian, Alexandrian - both
+argue theosis in their own terms) kept getting the return/final-word
+picks; the thinner, earlier-period voice (the house-churches) was heard
+once, in its first pass, and never brought back - not because its own
+record had nothing left to add, but because two voices sharing the same
+vocabulary makes a more visible "continue this" thread than a voice whose
+real contribution is practice, embodiment, or its own admitted
+uncertainty. Small, non-randomized sample (same worlds, same broad
+question, informal repeats) - real enough to name directly in the prompt
+rather than wait for a designed study, and not a hard quota: rotation is
+still never forced, per Mark's own explicit "random or opportunistic
+selection is fine."
 """
 from dataclasses import dataclass
 
@@ -46,6 +62,13 @@ This is a preference, not a rotation: a Representative with a real, specific res
 said is still the right choice over an as-yet-silent one when the moment calls for it.
 - A round does not need to include every Representative every time. If the question was specific to one or \
 two voices, the others staying silent is a correct outcome, not a failure.
+- A tradition with a thinner, less systematized record is not a tradition with nothing left to add on a \
+return. Two voices sharing the same technical vocabulary (a shared term, a shared argument) makes an obvious \
+thread to continue - but a voice whose real contribution is lived practice, embodiment, or its own honestly \
+admitted uncertainty has just as real a thread worth returning to, even when it does not announce itself in \
+matching language. Do not let how much doctrinal apparatus a world argues out decide who gets brought back. \
+If the same one or two voices keep getting the return picks, ask whether that is genuinely the moment \
+calling for it, or just the easier thread to see.
 - Close the round (when closing is among your legal moves) when the participant's message has been \
 genuinely answered and another voice would be restating rather than adding - never stretch a round to fill \
 the turn budget.
@@ -140,15 +163,25 @@ def eligible_worlds(world_keys: list[str], last_speaker: str | None) -> list[str
 def fallback_world(eligible: list[str], transcript_speakers: list[str]) -> str:
     """Least-recently-spoken eligible voice, across the whole session's
     transcript (not just this round): a voice that has never spoken sorts
-    first, in seating order; otherwise the one whose last turn is furthest
-    back. Deterministic - same inputs, same choice."""
+    first; otherwise the one whose last turn is furthest back. Deterministic
+    - same inputs, same choice - genuinely, not just in practice: the tie-
+    break among never-spoken voices is alphabetical on the world_key itself
+    (2026-09-05 fix), never `eligible`'s own incoming order. It used to be
+    the latter, and "same choice" was only ever true because every caller
+    happened to pass `eligible` in a stable seating order - the moment
+    table_wiring started reshuffling that order per call (Mark's report:
+    "it always answers in the same order... randomize it"), this function's
+    own documented guarantee broke silently. A tie-break keyed to the
+    caller's incoming order was never really deterministic; it was
+    borrowing determinism from a caller invariant this function had no way
+    to enforce."""
     def last_spoken_index(world_key: str) -> int:
         for i in range(len(transcript_speakers) - 1, -1, -1):
             if transcript_speakers[i] == world_key:
                 return i
         return -1
 
-    return min(eligible, key=lambda k: (last_spoken_index(k), eligible.index(k)))
+    return min(eligible, key=lambda k: (last_spoken_index(k), k))
 
 
 # TARGET LENGTH (Mark's ruling, 2026-09-05, on a design enhancement pass:

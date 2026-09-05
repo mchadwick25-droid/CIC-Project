@@ -101,6 +101,23 @@ def test_round_facts_target_guidance_is_a_preference_not_a_rule():
     )
 
 
+def test_selector_prompt_warns_against_favoring_richer_traditions_on_return():
+    """Mark relaying a reviewer's finding, 2026-09-05: across every real
+    transcript reviewed that day with the same 3-seat trio, the two
+    traditions sharing overlapping technical vocabulary (Cappadocian,
+    Alexandrian - both argue theosis in their own terms) kept getting the
+    return/final-word picks; the thinner-record, earlier-period voice
+    (the house-churches) was heard once, in its first pass, and never
+    brought back. Not a hard quota - Mark's own "random or opportunistic
+    selection is fine" stands - a named corrective in the selector's own
+    prompt instead, so the model has to actually weigh the risk rather
+    than default to whichever thread looks most obviously continuable."""
+    from engine.m4.turn_selector import SELECTOR_SYSTEM_PROMPT
+
+    assert "thinner, less systematized record is not a tradition with nothing left to add" in SELECTOR_SYSTEM_PROMPT
+    assert "Do not let how much doctrinal apparatus a world argues out decide who gets brought back" in SELECTOR_SYSTEM_PROMPT
+
+
 def test_round_facts_reach_the_selector_prompt():
     client = FakeSelectorClient([{"next": "pahc", "reason": "unheard"}])
     _select(client, round_speakers=["alx", "desert"])

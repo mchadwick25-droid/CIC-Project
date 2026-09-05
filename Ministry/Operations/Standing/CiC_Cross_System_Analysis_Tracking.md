@@ -1492,3 +1492,171 @@ already-open room (no explicit conflicting params) still resumes
 exactly as before - only the conflicting case changes. `npm run build`
 (tsc + vite) clean; no frontend test suite or working eslint config
 exists to run beyond that (pre-existing gap, not touched here).
+
+### PR #106 merged live; first real production round on the new mechanism, 2026-09-05
+
+Merged (`6fa405eb`) after Mark's "lets make the 5-6 version live so we
+can test it." The next real 3-seat conversation (cappadocian+alx+pahc,
+"who is Jesus") ran to 5 real turns with no forced close in sight:
+Chilo's return (position 4) engaged only Chloe's specific point (the
+ousia/hypostasis precision), zero mention of Theon; Chloe's own first
+pass named a genuine, unsmoothed contrast ("that reaching belongs to
+their own generations, not ours... The rest was still being worked
+out"); Theon's return (position 5) didn't re-engage a specific prior
+claim at all - it explicitly named that it wasn't answering again and
+added real, previously-uncovered depth (Origen's reading practice, the
+teacher-student bond) instead. First live case where both the scoping
+fix and the floor-raise are confirmed working together, unprompted.
+
+### Selector presentation order randomized, 2026-09-05
+
+Mark, after seeing that transcript: "can it go to six sometimes[?]" -
+yes, structurally: floor 5 / cap 6 for three seats already means both
+are legal outcomes: whether a given round reaches 6 depends on the
+selector's own judgment each time, not a further code change. Not yet
+independently confirmed the selector actually reaches 6 with any
+regularity - flagged, not yet measured.
+
+"...and it alwasy answers in the same order can we simply randomize
+the order with everyone still participating" - real, and root-caused:
+`_advance_open_round` built the turn selector's seated-voices listing
+and its `next` enum by iterating `state.world_keys` in that session's
+own FIXED, canonical order (set once at session creation) - identical
+on every call, every round, every session with the same seating. For a
+genuinely open question ("who is Jesus") the selector has no other
+signal to break a tie on, so a well-documented LLM bias (favoring
+whichever option is listed first) had nothing to compete with the same
+listing order every time - not fabricated judgment, just an artifact
+with nothing to interrupt it.
+
+Fix: `engine/api/table_wiring.py`'s `_advance_open_round` now builds a
+freshly-shuffled COPY of `state.world_keys` (`random.shuffle`) for the
+selector's own seated-voices listing and its `next`/`engages` enums,
+re-rolled on every selector call - never the canonical `state.world_keys`
+itself, which every other reader (`worlds`, labels, direct-address
+detection, the actual world load) still uses untouched. "Most directly
+positioned" (the selector's own first-listed criterion) still wins when
+a question genuinely calls for one voice; shuffling only removes the
+artifact where nothing else does.
+
+**Found by the fix itself, not guessed**: `engine.m4.turn_selector.
+fallback_world`'s own docstring promised "Deterministic - same inputs,
+same choice," but its tie-break among never-spoken voices was keyed to
+`eligible`'s own incoming list position - genuinely deterministic only
+because every caller had always passed a stable, seating-order list.
+The moment `_advance_open_round` started reshuffling that order, the
+guarantee broke silently: `test_selector_fallback_degrades_not_fails`
+started failing intermittently (real, unmocked randomness now live in
+that code path - not a mock, so re-running the test itself, 15x in a
+row, was the actual verification). Fixed at the root: the tie-break is
+now alphabetical on the world_key string itself
+(`(last_spoken_index(k), k)`), which is genuinely order-independent -
+`fallback_world`'s own contract no longer secretly depends on what
+order a caller happens to pass, which it never should have.
+
+New test (`test_selector_presentation_order_is_shuffled_not_the_session_
+seating`, `test_table_api.py`) monkeypatches `random.shuffle` to a
+deterministic reversal and confirms the selector's own enum sees the
+reversed order while the session's canonical `world_keys` (read back
+from the transcript endpoint) stays untouched. Full suite green (575
+tests), re-run 4 times in full and the fixed fallback test 15x on its
+own to confirm the flake is genuinely gone, not just not-yet-observed.
+
+### Two pre-merge review findings, 2026-09-05 - one false alarm, one real
+
+Mark relaying two findings before merging the round-design/randomization
+work.
+
+**1. "Leaked test prompt artifact" in a citation label - false alarm,
+verified against the actual source.** A citation reference block in
+Chilo's second turn showed the label "No - and we would push back hard
+on the word 'voted.' The council did not invent what we…" and was flagged
+as looking like a leaked adversarial test-probe fragment, revealing an
+"ingestion/tagging seam." Checked the real file:
+`records/cappadocian/doctrinal_witness/cappadocian.dw.confession-not-a-
+vote.md` - a genuine, deliberately-authored `doctrinal_witness` record,
+written in Chilo's own voice, whose own `retrieval.retrieve_when` field
+says exactly when it's meant to surface ("participant asks whether a
+council basically voted Jesus into being God"). The citation UI shows a
+truncated preview of the cited record's own text as its label; this
+record's text is phrased as a direct rebuttal because that's the
+deliberate authoring style for records built to preempt a hard
+objection. Not a bug, nothing to fix. (Walk-by, unrelated: the record's
+`status: draft` frontmatter is a normal three-stage authoring field -
+confirmed the evidence/retrieval pipeline doesn't gate on it at all, so
+draft-status records are already fully live and citable - worth knowing,
+not itself a defect.)
+
+**2. Representational fairness on return picks - real, and fixed.**
+Across every real transcript reviewed that day with the same 3-seat
+trio, the two traditions carrying overlapping technical vocabulary
+(Cappadocian and Alexandrian both argue theosis in their own terms) kept
+getting the return/final-word picks; the thinner-record, earlier-period
+voice (the house-churches) was heard once, in its first pass, and never
+brought back - "the 4th-century intellectual heavyweights got the final
+word over the 2nd-century martyr church." Small, non-randomized sample
+(same worlds, same broad question, informal repeats), but a real,
+consistent pattern worth naming directly rather than waiting on a
+designed study.
+
+Hypothesis, not proven: not a hard-coded preference, but an emergent
+one - two voices sharing the same technical vocabulary (theosis,
+argued in both worlds' own real records) makes an obvious "continue
+this thread" signal for the selector to notice; a voice whose real
+contribution is lived practice, embodiment, or its own honestly
+admitted uncertainty doesn't announce itself in matching language, even
+though it is just as real a thread.
+
+Fix: `SELECTOR_SYSTEM_PROMPT` (`engine/m4/turn_selector.py`) gained a
+new bullet naming this exact risk directly and instructing the selector
+to notice if the same voices keep getting return picks and ask whether
+that's the moment calling for it or just the easier thread to see -
+deliberately NOT a hard quota or forced rotation, preserving Mark's own
+explicit "random or opportunistic selection is fine." New test
+(`test_selector_prompt_warns_against_favoring_richer_traditions_on_return`)
+pins the new guidance text is present. Full suite green (576 tests).
+
+Not yet live-verified whether this measurably changes which voice gets
+the return pick - a prompt-level behavioral change, harder to verify
+with certainty than a pure code-logic one. Live proof would need
+Mark's go-ahead (real spend) before considering it more than a
+reasoned, tested guess.
+
+### Live proof (Mark's go-ahead: "go ahead and run the live proof") - a real reversal, 2026-09-05
+
+Same trio and question every real transcript today used
+(cappadocian+alx+pahc, "who is Jesus"), but 4 INDEPENDENT full rounds
+this time (not one) - a single run says little about whether a
+prompt-level nudge actually moved anything. Report:
+`engine/m4/reports/live-table-return-pick-fairness-proof-2026-09-05.json`.
+
+**Before this fix**: pahc (Chloe, the house-churches) got 0 of every
+return pick observed across every real transcript reviewed today -
+heard once, in its first pass, never brought back.
+
+**After**: across the 4 fresh runs, pahc got 4 of 8 total return picks
+(50%) - and was brought back in EVERY one of the 4 runs, closing the
+round itself in 3 of the 4. cappadocian got 3/8 (38%), alx 1/8 (12%).
+Not noise: the selector's own stated reasoning in every single one of
+Chloe's return picks explicitly names the exact thing the new prompt
+guidance asks it to weigh - "her honest acknowledgment... may invite
+the participant to recognize what they're actually hearing" (run 1);
+"this honors the lived, worshipful witness she represents" (run 2);
+"speak to what that transformation looks like in the actual gathered
+household" (run 3); "speak to how her world held this mystery in
+practice, after hearing how the more systematized traditions kept
+reaching back to her testimony as their own ground" (run 4). The
+engagement-scoping fix held up cleanly across all 4 runs too (every
+return logged a single named `engages` target, never a survey), and
+one round's own close reason is worth quoting for the anti-smoothing
+fix too: "naming the reach and tensions within their own tradition
+without smoothing them over, and speaking plainly about what remains
+unfinished" (run 4) - both fixes visibly operating together, unprompted.
+
+**Flagged, not resolved**: n=4 is still small, and Chloe closing 3 of 4
+rounds is itself a real pattern worth watching rather than declaring
+solved - this could be a well-calibrated correction landing where it
+should, or an overcorrection in the opposite direction; only more real
+usage will tell. Also consistent with the established pattern: all 4
+runs closed at exactly 5 turns, none reached 6 - unrelated to this
+fix, and unchanged from before it.

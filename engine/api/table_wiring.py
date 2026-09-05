@@ -27,6 +27,7 @@ engage_name), the identical label already crossing via context_prefix,
 never a new kind of leak. engine/api/tests/test_table_isolation.py holds
 this to account with a seeded cross-world leak.
 """
+import random
 import uuid
 from dataclasses import dataclass
 
@@ -670,9 +671,23 @@ def _advance_open_round(
         selector_outcomes = []
     else:
         selector_transcript = "\n\n".join(_attributed_lines(transcript, labels)[-_SELECTOR_TRANSCRIPT_WINDOW:])
+        # Presentation order only (Mark's report, 2026-09-05: "it always
+        # answers in the same order... can we simply randomize the order
+        # with everyone still participating") - a fresh shuffle of this
+        # session's own world_keys, re-rolled on every selector call, never
+        # the canonical state.world_keys itself (worlds, labels, direct
+        # address, and every other seating-order reader are untouched).
+        # LLM list-position primacy is a documented bias; with a genuinely
+        # open question the model has no other signal to break the tie on,
+        # so the same seating order every call was quietly deciding who
+        # opens. "Most directly positioned" still wins when a question
+        # really does call for one voice - shuffling only removes the
+        # artifact where nothing else does.
+        presentation_order = list(state.world_keys)
+        random.shuffle(presentation_order)
         seated_lines = "\n".join(
-            f"- {w.frame['representative']['name']}, {w.frame['representative']['role_label']} of {w.frame['display_name']} (world_key: {k})"
-            for k, w in worlds.items()
+            f"- {worlds[k].frame['representative']['name']}, {worlds[k].frame['representative']['role_label']} of {worlds[k].frame['display_name']} (world_key: {k})"
+            for k in presentation_order
         )
         transcript_speakers = [t["speaker"] for t in transcript if t.get("speaker") not in ("participant", "facilitator", None)]
         selection, selector_outcomes = select_speaker(
@@ -681,7 +696,7 @@ def _advance_open_round(
             message=voice_message,
             transcript_text=selector_transcript or "(nothing yet - this is the opening turn)",
             seated_lines=seated_lines,
-            world_keys=list(state.world_keys),
+            world_keys=presentation_order,
             last_speaker=state.round_speakers[-1] if state.round_speakers else None,
             close_allowed=config.close_allowed(state.round_turns, num_seats=num_seats),
             transcript_speakers=transcript_speakers,
