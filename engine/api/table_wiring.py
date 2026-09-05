@@ -268,70 +268,95 @@ def _own_world_named(world_key: str, worlds: dict, message: str) -> bool:
     return False
 
 
-def _context_prefix(pending: list[str], *, own_world_is_subject: bool = False) -> str | None:
-    """Tightened 2026-08-28 after the first live smoke run, on Mark's read
-    of the transcript. Two corrections, both his calls:
-
-    NO FOREKNOWLEDGE. A Representative has insight into the conversation
-    and its own world ONLY (Table Design V2.3 SS6: it knows the other "only
-    as a voice it has encountered at this Table"). The live run showed the
-    gap this instruction closes: the grounding net keeps citations inside
-    the speaker's own world, but nothing stopped a voice from
-    characterizing the OTHER world from the model's general knowledge -
-    Papnoute spoke about Alexandria in claims the net could only strip
-    badges from, never block. The instruction now states the epistemic
-    position outright: the other voices are strangers met here, known only
-    by their spoken words.
-
-    COMPACT TURNS. Mark's settled read of the first transcript (2026-08-28,
-    second pass - an earlier register note the same day was his own
-    misread, withdrawn): the voices are very good, just LONG. Turns ran
-    400-670 words, and at 3-6 turns a round that is the wall-of-text the
-    UX review flagged. The guidance is table-scoped: a voice at a table
-    leaves room for the others and can always be drawn back in - the
-    single-voice interview's length is untouched."""
+def _context_prefix(pending: list[str]) -> str | None:
+    """The at-the-Table speech since this voice's last turn, and nothing
+    else - real conversational content, not an instruction. Rides in the
+    per-turn user message only (never the cached system prefix, same cache
+    discipline as the evidence block) because the model has to actually
+    read it as what-was-said, immediately ahead of the question it's now
+    being asked. Deliberately thin since 2026-09-05 (see
+    _table_engagement_directive's own docstring): the behavioral rule about
+    this content used to live here too, appended after it, ahead of the
+    evidence block and the bare participant message that ends the turn -
+    exactly the shape the ambiguity_options fix (engine.m4.turn) already
+    proved loses to a competing pressure. The rule moved; the content it's
+    about stays where the model can read it as content."""
     if not pending:
         return None
-    # THE REVERT (2026-08-29): the exact-sentence prescription is GONE - it
-    # taught identical openings and, at worst, byte-verbatim copying. The
-    # rule survives as meaning, in we-voice per Mark's option (a).
-    # THE ROUND-DESIGN FIX (same day, Mark's ruling): when the round loop
-    # detects that THIS voice's own world is the question's subject
-    # (_own_world_named), the hearsay frame is replaced structurally - the
-    # subject voice is the witness, confirming or correcting what the Table
-    # has said of it. The loop chooses the frame; the voice is never asked
-    # to work out which side of the rule it is on mid-turn.
+    return (
+        "What has been said at the Table since your last turn:\n"
+        + "\n\n".join(pending)
+        + "\n\n(You are being brought in now. Respond as yourself to the participant's message below.)"
+    )
+
+
+def _table_engagement_directive(*, own_world_is_subject: bool) -> str:
+    """The Table's per-turn behavioral rule - engage what another voice
+    just said, stay inside your own witness, keep it compact - in the
+    directive channel (engine.m4.turn._build_turn_directive), not the user
+    message it lived in entirely until 2026-09-05.
+
+    BUG FIX, 2026-09-05 (Mark's report: "Table mode gives independent
+    monologues instead of cross-voice engagement on broad questions"). Root
+    cause traced, not assumed: the turn selector (engine.m4.turn_selector)
+    only ever decides WHO speaks next - it has no access to and no effect
+    on HOW the selected voice answers, so "prefer an unheard voice" and
+    "engage what was just said" were never actually in conflict with each
+    other; they are different code paths entirely. The real defect was
+    positional. This whole instruction used to sit at the very START of
+    the per-turn user message, ahead of that turn's evidence block (which
+    grows with how broad the question is - a canonical question like "who
+    is Jesus" pulls the most candidates of any) and ahead of the bare
+    participant message that ends the turn, byte-identical to how it reads
+    in a solo interview. engine.m4.turn._build_turn_directive's own
+    ambiguity_options note already measured this exact shape losing
+    ("it sits after register statement 1 in the prompt, so it won") for an
+    unrelated instruction; the wider the evidence block, the further this
+    one sat from the point of generation. Moving it into the directive
+    channel - proven, in this same function, to win - is the fix; the text
+    of the rule itself is untouched from Mark's own 2026-08-28/29 approved
+    wording, only where it's said.
+
+    Kept separate from context_prefix's own content (which still carries
+    the real pending speech, in the user message, where the model reads it
+    as what-was-said) so the instruction and the content it governs travel
+    on the two channels each is actually suited to.
+
+    THE ROUND-DESIGN FIX (2026-08-29, Mark's ruling, unchanged by this
+    move): when the round loop detects that THIS voice's own world is the
+    question's subject (_own_world_named), the hearsay frame is replaced
+    structurally - the subject voice is the witness, confirming or
+    correcting what the Table has said of it. The loop chooses the frame;
+    the voice is never asked to work out which side of the rule it is on
+    mid-turn."""
     if own_world_is_subject:
         stance = (
             "The participant has been asking the Table about YOUR OWN world - yours is the one under "
             "discussion, and what the others have said about it stands above. You are not reporting "
             "hearsay about yourself: you are the witness. Confirm or correct what has been said of your "
-            "world from your own records, in your own we-voice, and add what you would add. "
+            "world from your own records, in your own we-voice, and add what you would add."
         )
     else:
         stance = (
             "If the participant asks you about another voice's world, say plainly, in your own we-voice, "
             "that we know only what we have heard at this Table. That rule is about the other voices' "
             "worlds, never your own: if the question touches your own world, answer from your own witness "
-            "as you always do. "
+            "as you always do."
         )
     return (
-        "What has been said at the Table since your last turn:\n"
-        + "\n\n".join(pending)
-        + "\n\n(You are being brought in now. Respond as yourself to the participant's message below.\n"
-        "You know the other voices at this Table only through what they have said here, in this "
-        "conversation. You have no knowledge of their worlds, their traditions, their practices, or their "
-        "people beyond their own spoken words above - and no memory of meeting them before this Table. "
-        "Engage what they actually said where it genuinely touches your own world's witness; never "
-        "describe, summarize, or characterize their world yourself. "
-        + stance +
+        "You are being brought into a Table round, not answering alone: what another voice said since "
+        "your last turn is quoted above, in your own opening context. You know the other voices at this "
+        "Table only through what they have said there - you have no knowledge of their worlds, their "
+        "traditions, their practices, or their people beyond their own spoken words, and no memory of "
+        "meeting them before this Table. Before you answer the participant, engage what they actually "
+        "said where it genuinely touches your own world's witness; never describe, summarize, or "
+        "characterize their world yourself. " + stance + " "
         "What another voice has said is THEIR witness, never yours: never retell their stories, figures, "
         "or claims in your own world's first person - your 'we' and 'our' reach only what your own world "
         "holds. Everything you say about your OWN world stays grounded in your own records, exactly as "
-        "always.\n"
-        "Keep this turn compact - this is a table, not a lecture. Say the one or two things most worth "
-        "saying right now, at perhaps half the length you would take alone with the participant, and leave "
-        "room for the other voices; you can always be drawn back in.)"
+        "always. Keep this turn compact - this is a table, not a lecture. Say the one or two things most "
+        "worth saying right now, at perhaps half the length you would take alone with the participant, and "
+        "leave room for the other voices; you can always be drawn back in."
     )
 
 
@@ -504,9 +529,13 @@ def _advance_open_round(
             already_bridged_figure_ids=already_figures,
             already_bridged_gloss_ids=already_glosses,
             history=history,
-            context_prefix=_context_prefix(
-                pending,
-                own_world_is_subject=_own_world_named(selection.world_key, worlds, voice_message),
+            context_prefix=_context_prefix(pending),
+            table_engagement=(
+                _table_engagement_directive(
+                    own_world_is_subject=_own_world_named(selection.world_key, worlds, voice_message)
+                )
+                if pending
+                else None
             ),
             usage_world_key=selection.world_key,
         )

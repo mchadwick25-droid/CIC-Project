@@ -6,7 +6,7 @@ def test_round_design_subject_world_framed_as_witness():
     a voice whose own world the participant named gets the
     witness-confirm stance; every other voice keeps the hearsay rule."""
     from types import SimpleNamespace
-    from engine.api.table_wiring import _context_prefix, _own_world_named
+    from engine.api.table_wiring import _context_prefix, _own_world_named, _table_engagement_directive
 
     worlds = {
         "desert": SimpleNamespace(frame={"representative": {"name": "Papnoute"}, "display_name": "Desert Monasticism"}),
@@ -20,9 +20,17 @@ def test_round_design_subject_world_framed_as_witness():
     assert _own_world_named("alx", worlds, "Papnoute, what would Theon's people say to that?") is True
     assert _own_world_named("desert", worlds, "Papnoute, what would Theon's people say to that?") is False
 
+    # The stance/behavioral rule lives in the directive channel since the
+    # 2026-09-05 bug fix (engine.m4.turn._build_turn_directive) - _context_prefix
+    # now carries only the pending speech itself, identically regardless of
+    # who the subject is.
     pending = ["The Participant: " + msg]
-    subject = _context_prefix(pending, own_world_is_subject=True)
-    other = _context_prefix(pending, own_world_is_subject=False)
+    prefix = _context_prefix(pending)
+    assert msg in prefix
+    assert "you are the witness" not in prefix and "we know only what we have heard at this Table" not in prefix
+
+    subject = _table_engagement_directive(own_world_is_subject=True)
+    other = _table_engagement_directive(own_world_is_subject=False)
     assert "you are the witness" in subject and "Confirm or correct" in subject
     assert "we know only what we have heard at this Table" not in subject
     assert "we know only what we have heard at this Table" in other

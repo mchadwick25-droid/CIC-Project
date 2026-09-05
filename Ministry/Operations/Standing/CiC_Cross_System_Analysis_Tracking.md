@@ -606,3 +606,77 @@ inside the world — is real and almost certainly present beyond these three
 textual forms, but has no defined census method yet and was deliberately not
 attempted this session (scope-bounding agreed with Mark in interview). Next
 assignment candidate, not this one.
+
+### Table-mode monologue bug: root-caused and fixed, 2026-09-05
+
+Mark's report: a broad, address-everyone Table question ("who is Jesus and
+how did you understand Him") produced three complete, well-sourced answers
+in sequence with zero engagement between them — monologues, not a
+conversation, contrary to the Table's own design intent (Program-Spec.md:216,
+Artifact-7-Table.md §5) and its own already-built engagement mechanism
+(`engine/api/table_wiring.py`'s `_context_prefix`/`table_history_for`).
+Mark's own hypothesis: the selector's "prefer an unheard voice" preference
+and the "engage what was just said" instruction weren't combining on broad
+questions.
+
+**Root cause, traced through the actual code rather than assumed**: the
+selector (`engine/m4/turn_selector.py`) only ever decides WHO speaks next —
+it has no access to and no effect on HOW the selected voice answers, so the
+two mechanisms Mark named were never actually in conflict; they're separate
+code paths entirely. The real defect was positional/architectural. The
+engagement instruction ("engage what they actually said... keep this turn
+compact") lived entirely in the per-turn USER message
+(`_context_prefix`), positioned BEFORE that turn's evidence block (which
+scales with how broad the question is — a canonical topic like "who is
+Jesus" pulls the most candidates of any question a participant could ask)
+and BEFORE the bare participant message that ends the turn, byte-identical
+to how the same text reads in a solo interview. This is the *identical
+shape* this codebase already measured losing to a competing pressure:
+`engine/m4/turn.py`'s own `_build_turn_directive` carries a live-measured
+finding from the ambiguity_options fix — an instruction sitting in the user
+message "after register statement 1 in the prompt... won" the wrong way,
+fixed by moving it to the per-turn system directive channel, "the channel
+measured to win over other pressures." The Table's engagement instruction
+was never moved into that channel; it sat in the weaker one the whole time,
+and the effect compounds with how much material a broad question's own
+evidence retrieval and each world's independently rich, citation-ready
+doctrine gives the voice to simply pour out instead.
+
+**Fix**: split the instruction from the content it governs.
+`_context_prefix` (table_wiring.py) now carries only the raw pending
+speech + a one-line transition — real conversational content, in the user
+message, where the model needs to read it as what-was-said. The behavioral
+rule itself (no-foreknowledge stance, engage-what-was-said, own-world-
+subject framing, compact-turn guidance) moved into a new
+`_table_engagement_directive`, threaded through a new `table_engagement`
+parameter on `_build_turn_directive`/`_run_ordinary_voice_turn`
+(engine/m4/turn.py) into the per-turn system directive — the same channel
+already proven to win. Wording is Mark's own 2026-08-28/29 approved text,
+unchanged; only where it's said moved. `table_engagement=None` on every
+interview call and on a table call's true opening turn (nothing said yet
+to engage with), so both paths are untouched there — same discipline as
+`context_prefix`/`usage_world_key`'s own original addition.
+
+**Verified**: full `engine` test suite (543 tests, all directories) passes
+after the change, including `test_table_isolation.py`'s
+`test_no_foreknowledge_instruction_reaches_every_voice` (updated to check
+the system channel where the instruction now actually lives, not because
+the check weakened — the instruction still has to reach every voice,
+just through the correct channel now) and `test_table_schema.py`'s
+witness-framing test (split to check `_context_prefix` for content-only
+and the new `_table_engagement_directive` for the stance logic). No
+records changed, so no package rebuild/repin needed.
+
+**Not yet done, and Mark's call**: this is a prompt-salience/channel-
+strength fix, verified against the deterministic test suite (which scripts
+the model's replies) but not yet against a real Sonnet call — the same
+"prove it live" discipline this thread held for the forward-vantage fix
+earlier this session. A live Table battery run (or a single targeted round
+against the exact "who is Jesus" question class) against real Bedrock
+would be the actual proof; not run without Mark's go-ahead (real, billed
+spend, standing rule). Also not attempted: Mark's own suggestion of a new
+automated check for near-zero cross-reference between voices in a round —
+real but harder than it sounds (needs a semantic judgment of "did this
+voice engage," not a string match, closer in shape to the existing
+convergence check than to a deterministic gate) — flagged as a follow-up,
+not built here.

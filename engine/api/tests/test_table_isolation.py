@@ -166,8 +166,13 @@ def test_no_foreknowledge_instruction_reaches_every_voice(store, usage_store, wo
     http.post(f"/api/session/{session_id}/continue", headers=auth)
     assert len(client.messages.stream_calls) == 2
     for call in client.messages.stream_calls:
-        rendered = str(call["messages"])
-        assert "only through what they have said here" in rendered
+        # 2026-09-05 bug fix (Mark's report: monologues on broad questions):
+        # the epistemic/engagement instruction now rides in the directive
+        # channel (system), not the user message it lived in entirely
+        # before - see engine.m4.turn._build_turn_directive's own note on
+        # why. "Reaches every voice" still means either channel.
+        rendered = str(call["system"]) + str(call["messages"])
+        assert "only through what they have said" in rendered
         assert "no knowledge of their worlds" in rendered
         assert "THEIR witness, never yours" in rendered  # the L4 appropriation finding's fix
         assert "Keep this turn compact" in rendered
