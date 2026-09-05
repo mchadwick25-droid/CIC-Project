@@ -140,15 +140,25 @@ def eligible_worlds(world_keys: list[str], last_speaker: str | None) -> list[str
 def fallback_world(eligible: list[str], transcript_speakers: list[str]) -> str:
     """Least-recently-spoken eligible voice, across the whole session's
     transcript (not just this round): a voice that has never spoken sorts
-    first, in seating order; otherwise the one whose last turn is furthest
-    back. Deterministic - same inputs, same choice."""
+    first; otherwise the one whose last turn is furthest back. Deterministic
+    - same inputs, same choice - genuinely, not just in practice: the tie-
+    break among never-spoken voices is alphabetical on the world_key itself
+    (2026-09-05 fix), never `eligible`'s own incoming order. It used to be
+    the latter, and "same choice" was only ever true because every caller
+    happened to pass `eligible` in a stable seating order - the moment
+    table_wiring started reshuffling that order per call (Mark's report:
+    "it always answers in the same order... randomize it"), this function's
+    own documented guarantee broke silently. A tie-break keyed to the
+    caller's incoming order was never really deterministic; it was
+    borrowing determinism from a caller invariant this function had no way
+    to enforce."""
     def last_spoken_index(world_key: str) -> int:
         for i in range(len(transcript_speakers) - 1, -1, -1):
             if transcript_speakers[i] == world_key:
                 return i
         return -1
 
-    return min(eligible, key=lambda k: (last_spoken_index(k), eligible.index(k)))
+    return min(eligible, key=lambda k: (last_spoken_index(k), k))
 
 
 # TARGET LENGTH (Mark's ruling, 2026-09-05, on a design enhancement pass:

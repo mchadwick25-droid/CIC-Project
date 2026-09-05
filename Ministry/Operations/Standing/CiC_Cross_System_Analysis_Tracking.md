@@ -1492,3 +1492,72 @@ already-open room (no explicit conflicting params) still resumes
 exactly as before - only the conflicting case changes. `npm run build`
 (tsc + vite) clean; no frontend test suite or working eslint config
 exists to run beyond that (pre-existing gap, not touched here).
+
+### PR #106 merged live; first real production round on the new mechanism, 2026-09-05
+
+Merged (`6fa405eb`) after Mark's "lets make the 5-6 version live so we
+can test it." The next real 3-seat conversation (cappadocian+alx+pahc,
+"who is Jesus") ran to 5 real turns with no forced close in sight:
+Chilo's return (position 4) engaged only Chloe's specific point (the
+ousia/hypostasis precision), zero mention of Theon; Chloe's own first
+pass named a genuine, unsmoothed contrast ("that reaching belongs to
+their own generations, not ours... The rest was still being worked
+out"); Theon's return (position 5) didn't re-engage a specific prior
+claim at all - it explicitly named that it wasn't answering again and
+added real, previously-uncovered depth (Origen's reading practice, the
+teacher-student bond) instead. First live case where both the scoping
+fix and the floor-raise are confirmed working together, unprompted.
+
+### Selector presentation order randomized, 2026-09-05
+
+Mark, after seeing that transcript: "can it go to six sometimes[?]" -
+yes, structurally: floor 5 / cap 6 for three seats already means both
+are legal outcomes: whether a given round reaches 6 depends on the
+selector's own judgment each time, not a further code change. Not yet
+independently confirmed the selector actually reaches 6 with any
+regularity - flagged, not yet measured.
+
+"...and it alwasy answers in the same order can we simply randomize
+the order with everyone still participating" - real, and root-caused:
+`_advance_open_round` built the turn selector's seated-voices listing
+and its `next` enum by iterating `state.world_keys` in that session's
+own FIXED, canonical order (set once at session creation) - identical
+on every call, every round, every session with the same seating. For a
+genuinely open question ("who is Jesus") the selector has no other
+signal to break a tie on, so a well-documented LLM bias (favoring
+whichever option is listed first) had nothing to compete with the same
+listing order every time - not fabricated judgment, just an artifact
+with nothing to interrupt it.
+
+Fix: `engine/api/table_wiring.py`'s `_advance_open_round` now builds a
+freshly-shuffled COPY of `state.world_keys` (`random.shuffle`) for the
+selector's own seated-voices listing and its `next`/`engages` enums,
+re-rolled on every selector call - never the canonical `state.world_keys`
+itself, which every other reader (`worlds`, labels, direct-address
+detection, the actual world load) still uses untouched. "Most directly
+positioned" (the selector's own first-listed criterion) still wins when
+a question genuinely calls for one voice; shuffling only removes the
+artifact where nothing else does.
+
+**Found by the fix itself, not guessed**: `engine.m4.turn_selector.
+fallback_world`'s own docstring promised "Deterministic - same inputs,
+same choice," but its tie-break among never-spoken voices was keyed to
+`eligible`'s own incoming list position - genuinely deterministic only
+because every caller had always passed a stable, seating-order list.
+The moment `_advance_open_round` started reshuffling that order, the
+guarantee broke silently: `test_selector_fallback_degrades_not_fails`
+started failing intermittently (real, unmocked randomness now live in
+that code path - not a mock, so re-running the test itself, 15x in a
+row, was the actual verification). Fixed at the root: the tie-break is
+now alphabetical on the world_key string itself
+(`(last_spoken_index(k), k)`), which is genuinely order-independent -
+`fallback_world`'s own contract no longer secretly depends on what
+order a caller happens to pass, which it never should have.
+
+New test (`test_selector_presentation_order_is_shuffled_not_the_session_
+seating`, `test_table_api.py`) monkeypatches `random.shuffle` to a
+deterministic reversal and confirms the selector's own enum sees the
+reversed order while the session's canonical `world_keys` (read back
+from the transcript endpoint) stays untouched. Full suite green (575
+tests), re-run 4 times in full and the fixed fallback test 15x on its
+own to confirm the flake is genuinely gone, not just not-yet-observed.

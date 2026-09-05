@@ -168,6 +168,39 @@ def test_create_table_session_rejects_bad_seat_count_directly(store, world_loade
         )
 
 
+def test_selector_presentation_order_is_shuffled_not_the_session_seating(
+    monkeypatch, store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
+):
+    """Mark's report, 2026-09-05: "it always answers in the same order...
+    can we simply randomize the order with everyone still participating."
+    The session's own canonical seating (state.world_keys - what worlds,
+    labels, and direct-address detection all read) is untouched; only the
+    COPY shown to the turn selector each call is freshly shuffled, so a
+    genuinely open question doesn't quietly always open with whichever
+    voice happens to be listed first."""
+    import engine.api.table_wiring as table_wiring_module
+
+    monkeypatch.setattr(table_wiring_module.random, "shuffle", lambda seq: seq.reverse())
+
+    pahc_sentence, _ = grounded_sentence(pahc_world)
+    client = _table_client(
+        selector_script=[{"next": "pahc", "reason": "reversed presentation puts the last-seated voice first"}],
+        stream_scripts=[[pahc_sentence]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert", "pahc"))
+
+    http.post(f"/api/session/{session_id}/message", json={"text": "who is Jesus?"}, headers=auth)
+
+    # The enum the selector actually saw is the reverse of session seating
+    # order (alx, desert, pahc) - proof the presentation order really is a
+    # freshly shuffled copy, not the canonical order passed straight through.
+    assert client.messages.selector_enums_seen[0] == ["pahc", "desert", "alx"]
+    # The session's own canonical seating is untouched by the shuffle.
+    transcript = http.get(f"/api/session/{session_id}/transcript", headers=auth).json()
+    assert transcript["world_keys"] == ["alx", "desert", "pahc"]
+
+
 # --- the round lifecycle ---
 
 
