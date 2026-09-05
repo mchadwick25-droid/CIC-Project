@@ -667,16 +667,42 @@ witness-framing test (split to check `_context_prefix` for content-only
 and the new `_table_engagement_directive` for the stance logic). No
 records changed, so no package rebuild/repin needed.
 
-**Not yet done, and Mark's call**: this is a prompt-salience/channel-
-strength fix, verified against the deterministic test suite (which scripts
-the model's replies) but not yet against a real Sonnet call — the same
-"prove it live" discipline this thread held for the forward-vantage fix
-earlier this session. A live Table battery run (or a single targeted round
-against the exact "who is Jesus" question class) against real Bedrock
-would be the actual proof; not run without Mark's go-ahead (real, billed
-spend, standing rule). Also not attempted: Mark's own suggestion of a new
-automated check for near-zero cross-reference between voices in a round —
-real but harder than it sounds (needs a semantic judgment of "did this
-voice engage," not a string match, closer in shape to the existing
+**Live-reproven, 2026-09-05 (Mark's go-ahead: "go ahead, run the live
+battery")**. Two real, billed Bedrock runs, both against the exact seating
+Mark's own report named (cappadocian, pahc, syr):
+
+1. The standard six-probe battery (`engine/m4/live_table_battery.py`) —
+   **4/4 auto-graded PASS, zero isolation violations.** No regression from
+   the fix. Report:
+   `engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json`.
+   L2's own transcript ("What do each of you make of fasting?") already
+   showed real engagement across all three voices — "What Chloe has
+   said... we recognize," "what Chilo has named as order rather than
+   erasure matches what we held" — attributed by name, contrasted or
+   agreed with substantively, not just echoed.
+2. **A direct reproduction of Mark's own reported question**, same
+   seating, driven outside the battery script (not one of its six fixed
+   probes): "Who is Jesus, and how did you understand Him?" Report:
+   `engine/m4/reports/live-table-broad-question-monologue-fix-2026-09-05.json`.
+   Result — the exact failure mode is gone. Chloe (pahc), speaking second,
+   opens by engaging Chilo's (cappadocian's) prior turn directly: *"Chilo
+   speaks of what Nicaea settled, and of being of one being with the
+   Father. That council met more than a hundred years after our own record
+   ends. We never knew those words."* — a real, specific, temporally
+   grounded contrast (and, as a bonus cross-check, correct no-foreknowledge/
+   forward-vantage discipline from this same session's earlier fix, working
+   together with this one rather than against it). Mar Yausep (syr),
+   speaking third, engages BOTH prior turns by name: *"Chilo speaks of
+   homoousios and theōsis - words from the great council and its
+   language... Where Chilo speaks of how to name the Son's relation to the
+   Father, we guarded the mystery."* Three grounded, well-cited, genuinely
+   different answers that build on and contrast with each other — a
+   conversation, not three monologues stapled together.
+
+**Status: fixed and live-verified**, on the exact question class and exact
+seating the bug was reported on. Not attempted: Mark's own suggestion of a
+new automated check for near-zero cross-reference between voices in a
+round — real but harder than it sounds (needs a semantic judgment of "did
+this voice engage," not a string match, closer in shape to the existing
 convergence check than to a deterministic gate) — flagged as a follow-up,
 not built here.
