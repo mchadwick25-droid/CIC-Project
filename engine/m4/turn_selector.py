@@ -50,6 +50,11 @@ two voices, the others staying silent is a correct outcome, not a failure.
 genuinely answered and another voice would be restating rather than adding - never stretch a round to fill \
 the turn budget.
 
+When you choose a Representative who has already spoken this round - a return, not their first turn - also \
+set `engages` to the ONE prior speaker (this round) their return is meant to respond to: the specific \
+alignment or contrast their next turn should focus on, not a survey of everyone who has spoken. Leave \
+`engages` unset when `next` is a Representative's first turn this round, or when you are closing.
+
 You only ever select from the legal moves you are given. You never write anything the participant sees; \
 you produce only the selection and a short reason."""
 
@@ -58,26 +63,72 @@ you produce only the selection and a short reason."""
 class Selection:
     """The resolved outcome of one selection step. world_key is None exactly
     when close is True. degraded means the model's own judgment was not what
-    produced this - a failed call, or an illegal output past the schema."""
+    produced this - a failed call, or an illegal output past the schema.
+
+    engages (2026-09-05, structural fix for a repeat failure mode: raising
+    the round floor after a full-table-synthesis close only moved where the
+    same collision happened, since a return turn was always structurally
+    exposed to every prior voice at once with nothing scoping it to one).
+    None exactly when world_key is a Representative's FIRST turn this round
+    (nothing to engage yet) or when close is True; otherwise the ONE prior
+    speaker this return is engaging - resolved (never left to a hopeful
+    prompt alone) by _resolve_engages on every path, model pick, retry,
+    forced move, and fallback alike."""
     world_key: str | None
     close: bool
     reason: str
     degraded: bool
+    engages: str | None = None
 
 
-def _selector_tool(legal_moves: list[str]) -> dict:
+def _selector_tool(legal_moves: list[str], round_speakers: list[str]) -> dict:
+    properties = {
+        "next": {"type": "string", "enum": list(legal_moves)},
+        "reason": {"type": "string"},
+    }
+    if round_speakers:
+        # De-duplicated, in the order each first spoke this round (not the
+        # model's own) - a plain legal-values list, same discipline as
+        # `next`'s own enum.
+        already_spoken = list(dict.fromkeys(round_speakers))
+        properties["engages"] = {
+            "type": "string",
+            "enum": already_spoken,
+            "description": (
+                "Required when `next` names a Representative who has already spoken this round: which "
+                "ONE of their own prior turns this pick's next turn specifically responds to. Leave unset "
+                "when `next` is a Representative's first turn this round, or when closing."
+            ),
+        }
     return {
         "name": "submit_turn_selection",
         "description": "Submit which Representative speaks next at the Table, or close the round.",
         "input_schema": {
             "type": "object",
-            "properties": {
-                "next": {"type": "string", "enum": list(legal_moves)},
-                "reason": {"type": "string"},
-            },
+            "properties": properties,
             "required": ["next", "reason"],
         },
     }
+
+
+def _resolve_engages(chosen: str, round_speakers: list[str] | None, requested: str | None) -> str | None:
+    """None when `chosen` is a first-time speaker this round - nothing to
+    engage yet, whatever the model (or a forced/fallback move, which never
+    asks it at all) supplied. Otherwise the model's own requested target
+    when it names a real prior speaker other than `chosen` itself;
+    deterministically the most recent OTHER speaker in the round if the
+    field was left unset or named `chosen` or a stranger. eligible_worlds'
+    own no-immediate-self-repeat rule guarantees round_speakers[-1] differs
+    from `chosen` on every call path (forced move, real pick, retry, and
+    fallback all draw `chosen` from `eligible`, which excludes the last
+    speaker), so a return is never left unscoped - by an omitted field, a
+    self-reference, or a mechanical pick that never consulted a model."""
+    round_speakers = round_speakers or []
+    if chosen not in round_speakers:
+        return None
+    if requested in round_speakers and requested != chosen:
+        return requested
+    return round_speakers[-1]
 
 
 def eligible_worlds(world_keys: list[str], last_speaker: str | None) -> list[str]:
@@ -149,7 +200,7 @@ def round_facts(world_keys: list[str], round_speakers: list[str]) -> str:
 
 def call_turn_selector(
     client, model_id: str, *, message: str, transcript_text: str, seated_lines: str, legal_moves: list[str],
-    round_facts_text: str = "", timeout: float = 10.0
+    round_facts_text: str = "", round_speakers: list[str] | None = None, timeout: float = 10.0
 ) -> CallOutcome:
     facts_block = f"Round state (computed, trust it over your own reading):\n{round_facts_text}\n\n" if round_facts_text else ""
     user_content = (
@@ -159,7 +210,7 @@ def call_turn_selector(
         f"Participant's latest message:\n{message}\n\n"
         f"Your legal moves: {', '.join(legal_moves)}"
     )
-    tool = _selector_tool(legal_moves)
+    tool = _selector_tool(legal_moves, round_speakers or [])
     try:
         response = client.messages.create(
             model=model_id,
@@ -218,13 +269,14 @@ def select_speaker(
             close=False,
             reason="only eligible voice this position - no immediate self-repeat, and the round floor is not yet met (forced move, no selector call)",
             degraded=False,
+            engages=_resolve_engages(eligible[0], round_speakers, None),
         ), outcomes
     legal = eligible + [CLOSE] if close_allowed else list(eligible)
     facts = round_facts(world_keys, round_speakers or [])
 
     outcome = call_turn_selector(
         client, model_id, message=message, transcript_text=transcript_text, seated_lines=seated_lines, legal_moves=legal,
-        round_facts_text=facts,
+        round_facts_text=facts, round_speakers=round_speakers,
     )
     outcomes.append(outcome)
     if outcome.status == "ok":
@@ -233,17 +285,20 @@ def select_speaker(
         if chosen == CLOSE and close_allowed:
             return Selection(world_key=None, close=True, reason=reason, degraded=False), outcomes
         if chosen in eligible:
-            return Selection(world_key=chosen, close=False, reason=reason, degraded=False), outcomes
+            engages = _resolve_engages(chosen, round_speakers, outcome.value.get("engages"))
+            return Selection(world_key=chosen, close=False, reason=reason, degraded=False, engages=engages), outcomes
         # Illegal despite the schema enum (or close when it wasn't offered):
         # one re-ask with close off the menu entirely, then the fallback.
         retry = call_turn_selector(
             client, model_id, message=message, transcript_text=transcript_text, seated_lines=seated_lines, legal_moves=list(eligible),
-            round_facts_text=facts,
+            round_facts_text=facts, round_speakers=round_speakers,
         )
         outcomes.append(retry)
         if retry.status == "ok" and retry.value.get("next") in eligible:
+            retried = retry.value["next"]
             return Selection(
-                world_key=retry.value["next"], close=False, reason=retry.value.get("reason") or "(no reason given)", degraded=False
+                world_key=retried, close=False, reason=retry.value.get("reason") or "(no reason given)", degraded=False,
+                engages=_resolve_engages(retried, round_speakers, retry.value.get("engages")),
             ), outcomes
 
     fallback = fallback_world(eligible, transcript_speakers)
@@ -252,4 +307,5 @@ def select_speaker(
         close=False,
         reason=f"selector unavailable ({outcomes[-1].status}); deterministic fallback to least-recently-spoken eligible voice",
         degraded=True,
+        engages=_resolve_engages(fallback, round_speakers, None),
     ), outcomes

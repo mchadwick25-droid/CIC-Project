@@ -18,11 +18,14 @@ THE ISOLATION PROPERTY lives one level down and is worth restating at the
 layer that assembles the pieces: the selected voice's turn runs
 engine.m4.turn.run_voice_turn_for_world with exactly one LoadedWorld - its
 own. Evidence, grounding net, name bridge, glosses: all scoped to that
-world's package. What crosses between worlds is ONLY what this module
+world's package. What crosses between worlds is only what this module
 builds into history/context_prefix from the transcript - what was SAID at
 the Table (Table Design V2.3 SS6), attributed by name, never records or
-package internals. engine/api/tests/test_table_isolation.py holds this to
-account with a seeded cross-world leak.
+package internals - plus, on a return turn, that same engaged voice's own
+display name in the directive channel (_table_engagement_directive's
+engage_name), the identical label already crossing via context_prefix,
+never a new kind of leak. engine/api/tests/test_table_isolation.py holds
+this to account with a seeded cross-world leak.
 """
 import uuid
 from dataclasses import dataclass
@@ -311,8 +314,27 @@ def _context_prefix(pending: list[str]) -> str | None:
     )
 
 
+def _scoped_pending(pending: list[str], *, keep_labels: set[str]) -> list[str]:
+    """A return turn's OWN cut of `pending` (independent review, 2026-09-05,
+    the finding that actually mattered): naming one voice in the directive
+    text is not structural scoping if the turn can still SEE every other
+    voice's full answer sitting in its own context regardless - the exact
+    material a full-table synthesis is built from, whatever one sentence
+    asks the model not to do with it. Each entry is `"{label}: {text}"`
+    (table_history_for's own format); kept whole or dropped whole, never
+    edited. Always keeps the participant's and the Facilitator's own lines
+    (the turn still needs the actual question, and any governance text) -
+    only OTHER SEATED VOICES not being engaged are left out, for this one
+    turn's immediate context. table_history_for's own session-memory
+    reconstruction (the alternating `history` pairs) is untouched by this -
+    nothing is forgotten, only left out of what this turn can see right
+    now."""
+    return [line for line in pending if any(line.startswith(label + ":") for label in keep_labels)]
+
+
 def _table_engagement_directive(
-    *, own_world_is_subject: bool, is_second_pass: bool, is_final_turn: bool, num_seats: int
+    *, own_world_is_subject: bool, is_second_pass: bool, is_final_turn: bool, num_seats: int,
+    engage_name: str | None = None,
 ) -> str:
     """The Table's per-turn behavioral rule - engage what another voice
     just said, stay inside your own witness, keep it compact - in the
@@ -393,7 +415,29 @@ def _table_engagement_directive(
     "begin speaking as yourself... never write a line for the
     Facilitator... never open with a separator or a stage direction"
     instruction, opening this whole directive so it's the first thing
-    read, before the risky phrase's own echo even has room to land."""
+    read, before the risky phrase's own echo even has room to land.
+
+    STRUCTURAL FIX, 2026-09-05, same day (Mark's own words, after a live
+    round closed at the floor on a full-table synthesis - "the three of
+    us are saying one thing, from different rooms in the same house":
+    "i dont want the voices closing the conversation as it can
+    continue... no smoothing, no coming together with a nice conclusion...
+    i dont want fix on fix, this should be a base program than generates
+    this, not after fixes"). Raising the floor again, or adding another
+    sentence forbidding a survey of the whole Table, would both have been
+    exactly that - a patch on the same symptom, since a return turn was
+    ALWAYS structurally handed every prior voice's answer at once with
+    nothing scoping it to one, whatever turn number that happened to land
+    on or however firmly worded the plea against it. The real fix lives
+    one level down: engine.m4.turn_selector.Selection now carries its own
+    `engages` field - which ONE prior speaker a return pick is meant to
+    respond to, resolved on every path (a real model choice, or
+    deterministically on a forced/fallback move) rather than left open.
+    engage_name is that target's own display name, threaded in by the
+    caller - is_second_pass's focus text below is now built to name ONE
+    specific voice, never "the other voices" in the aggregate, so a
+    return turn is never structurally invited to tie the whole Table
+    together in the first place."""
     other_voices = "the other voice" if num_seats <= 2 else "the other voices"
     if own_world_is_subject:
         add_clause = (
@@ -420,13 +464,34 @@ def _table_engagement_directive(
         )
 
     if is_second_pass:
-        focus = (
-            "You have already answered this question once this round - this turn is not another full "
-            "answer. Go deeper on one real thing your first answer left out, or name plainly where what " +
-            other_voices + " said meets or parts from your own witness - a genuine alignment or a genuine "
-            "contrast, held in your own witness, never a correction of theirs. Zero in on the one point "
-            "most worth making; you do not have to touch everything " + other_voices + " said."
+        engage_ref = engage_name or other_voices
+        not_concluding = (
+            " This exchange is not concluding here: leave every other thread untouched rather than "
+            "tying the whole Table together."
         )
+        if own_world_is_subject:
+            # Independent review, 2026-09-05: the non-subject branch below
+            # says "never a correction of theirs" - correct THERE, where
+            # two peer witnesses are being compared, but flatly contradicts
+            # this branch's own stance (below), which tells the same voice
+            # to confirm OR CORRECT what has been said of its own world.
+            # This branch names which prior statement is in view and
+            # leaves the confirm-or-correct instruction itself to stance,
+            # once, rather than repeating or contradicting it here.
+            focus = (
+                "You have already answered this question once this round - this turn is not another "
+                "full answer, and not a survey of everyone at the Table. What " + engage_ref + " said "
+                "about your own world is what to weigh here, per the witness stance below." + not_concluding
+            )
+        else:
+            focus = (
+                "You have already answered this question once this round - this turn is not another full "
+                "answer, and not a survey of everyone at the Table. This turn responds specifically to what " +
+                engage_ref + " said: go deeper on one real thing your own first answer left out, or name "
+                "plainly where what " + engage_ref + " said meets or parts from your own witness - a genuine "
+                "alignment or a genuine contrast, held in your own witness, never a correction of theirs." +
+                not_concluding
+            )
         length_note = (
             "Keep this turn shorter than your first answer - one thing, said plainly, is worth more here "
             "than a survey of everything said so far."
@@ -644,6 +709,13 @@ def _advance_open_round(
         "round_no": state.round_no, "position": position, "world_key": selection.world_key,
         "reason": selection.reason, "degraded": selection.degraded,
     }
+    if selection.engages is not None:
+        # Additive, same discipline as round_closed.selector_reason (added
+        # the same day for the identical reason): without this, the log
+        # cannot say which prior turn any return actually engaged - the
+        # exact "computed once, then discarded" gap that made "why isn't
+        # it reaching second passes" unanswerable before.
+        selected_payload["engages"] = selection.engages
     events.validate("turn_selected", selected_payload)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_selected", payload=selected_payload)
 
@@ -670,6 +742,19 @@ def _advance_open_round(
     # sides in the review's own live probe.
     is_final_turn = config.cap_reached(position, num_seats=num_seats)
 
+    # SECOND independent review, 2026-09-05, the finding that actually
+    # mattered: naming ONE voice in the directive text (engage_name, below)
+    # is not a structural fix on its own if `pending` still hands the turn
+    # every OTHER voice's full answer too - the material for exactly the
+    # full-table synthesis this whole change exists to prevent, sitting
+    # right there regardless of what one sentence asks the model not to do
+    # with it. is_second_pass is real scoping only when what the turn can
+    # SEE is scoped, not only what it's told to focus on.
+    is_second_pass = selection.world_key in state.round_speakers
+    engage_name = labels.get(selection.engages) if selection.engages else None
+    if is_second_pass and engage_name:
+        pending = _scoped_pending(pending, keep_labels={PARTICIPANT_LABEL, FACILITATOR_LABEL, engage_name})
+
     try:
         voice_event, voice_usage = run_voice_turn_for_world(
             voice_client=voice_client,
@@ -686,9 +771,10 @@ def _advance_open_round(
             table_engagement=(
                 _table_engagement_directive(
                     own_world_is_subject=_own_world_named(selection.world_key, worlds, voice_message),
-                    is_second_pass=selection.world_key in state.round_speakers,
+                    is_second_pass=is_second_pass,
                     is_final_turn=is_final_turn,
                     num_seats=num_seats,
+                    engage_name=engage_name,
                 )
                 if other_voice_has_spoken
                 else None

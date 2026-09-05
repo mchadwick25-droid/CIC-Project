@@ -69,11 +69,11 @@ def _open(gate_run, *, rounds_completed=0, track_a_last=None, anachronistic_term
 
 def test_round_config_defaults_and_bounds():
     config = RoundConfig()
-    assert config.floor_for(2) == 3 and config.floor_for(3) == 4
+    assert config.floor_for(2) == 3 and config.floor_for(3) == 5
     assert not config.close_allowed(2, num_seats=2)
     assert config.close_allowed(3, num_seats=2)
-    assert not config.close_allowed(3, num_seats=3)
-    assert config.close_allowed(4, num_seats=3)
+    assert not config.close_allowed(4, num_seats=3)
+    assert config.close_allowed(5, num_seats=3)
     RoundConfig(cap_by_seats=((2, 5), (3, 6)))  # the re-tested ceiling is legal
     with pytest.raises(ValueError):
         RoundConfig(cap_by_seats=((2, 5), (3, 7)))  # beyond the re-tested ceiling
@@ -119,17 +119,24 @@ def test_round_config_seat_scaled_floor():
     reliably reached a real second pass. The mechanism: the OLD flat floor
     of 3 happens to land past first-pass completion at 2 seats (forcing
     one bridging turn) but exactly at first-pass completion at 3 seats (no
-    forced bridge). "raise the floor to 4" restores the same mechanical
-    bridge a 2-seat table already had by construction - the 2-seat floor
-    (3) is untouched, since it already did what the 3-seat floor now does
-    on purpose."""
+    forced bridge). The first fix, "raise the floor to 4", restored that
+    bridge - but a live round then closed AT that new floor too, on a
+    full-table synthesis, and a structural fix for the synthesis itself
+    (engine.m4.turn_selector.Selection.engages,
+    engine.api.table_wiring._scoped_pending) proved on a live re-run that
+    content quality and round length are independent: the returning turn
+    engaged one voice genuinely, and the round still closed at 4 anyway.
+    Only then, on that isolated evidence, did Mark rule "raise the floor
+    to 5" - his own original "ultimate zone" target for a 3-seat table.
+    The 2-seat floor (3) is untouched - it was never observed closing
+    early relative to its own cap."""
     config = RoundConfig()
     assert config.floor_for(2) == 3
-    assert config.floor_for(3) == 4
-    # 3 seats: close is not legal right when everyone's spoken once (the
-    # exact bug) - only after one more, bridging turn.
-    assert not config.close_allowed(3, num_seats=3)
-    assert config.close_allowed(4, num_seats=3)
+    assert config.floor_for(3) == 5
+    # 3 seats: close is not legal until turn 5 - the round's only possible
+    # close points are now 5 or 6, matching "5-6 interactions."
+    assert not config.close_allowed(4, num_seats=3)
+    assert config.close_allowed(5, num_seats=3)
     # 2 seats: unchanged - already forces a bridging turn past first pass
     # (turn 2) because the floor (3) was always one more than that.
     assert not config.close_allowed(2, num_seats=2)

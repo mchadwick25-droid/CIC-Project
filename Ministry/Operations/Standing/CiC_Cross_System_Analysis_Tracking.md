@@ -1246,3 +1246,249 @@ Still open: the session_id for that specific real conversation isn't
 in hand (the browser UI doesn't surface it), so this endpoint answers
 the question for the *next* production round Mark can capture a
 session_id for, not retroactively for the one already shown.
+
+### Structural fix for the recurring "closes on a full-table synthesis" failure, 2026-09-05
+
+A third real production transcript (cappadocian+alx+pahc, "who is
+Jesus") showed the identical shape as the second: four turns, the
+fourth (Chilo's return) explicitly gathering Theon's AND Chloe's points
+into one declared consensus - "The three of us are saying one thing,
+from different rooms in the same house" - before adding its own weight.
+Read on its own it's good writing; read as a pattern with the prior
+example, it's the same move twice: a return turn resolving the whole
+Table into agreement right at the floor.
+
+Mark's ruling: "i dont want the voices closing the conversation as it
+can continue... no smoothing, no coming together with a nice
+conclusion, i want 5-6 interactions not 4." First response: raise the
+3-seat floor again, 4->5 (RoundConfig.floor_by_seats), and add another
+forbidding sentence to the second-pass directive text. Both changes
+were built, tests updated, suite green - and then, before committing
+anything, Mark stopped it: "i dont want fix on fix, this should be a
+base program than generates this, not after fixes." Right call - both
+changes were real, but neither touched WHY a return turn keeps reading
+this way regardless of which turn number it lands on, and raising the
+floor a second time in one day would only have moved the same collision
+again. Reverted, unstaged, before either change was committed.
+
+**The actual mechanism**: at a 3-seat table, positions 1-3 are always
+everyone's first pass (nothing to return to before then). Whichever
+position is the FIRST return is therefore always the first moment one
+voice is looking at all three prior first-pass answers at once, with
+nothing scoping it to one of them. The directive already said "zero in
+on the one point... you do not have to touch everything" - a prose
+request asking the model not to do the very thing all its available
+material invites. Words lost to that structural pull both times it was
+tried, at floor 4 and (untested) at floor 5 - moving the number moves
+where the collision happens, not whether it happens.
+
+**The structural fix, not another patch**: `engine.m4.turn_selector.
+Selection` gained a field, `engages` - which ONE prior speaker a return
+pick is meant to respond to, the turn selector's own job now (matching
+Mark's own point 10, "it can zero in on a specific alignment or
+disagreement... not everyone has to respond to both the others" - this
+just makes that structural instead of aspirational). `_selector_tool`'s
+schema carries an `engages` enum (the round's own speakers so far) only
+once someone has spoken; `SELECTOR_SYSTEM_PROMPT` explains when to set
+it. `_resolve_engages` (new, `engine/m4/turn_selector.py`) guarantees a
+return is NEVER left unscoped, on every path: the model's own real
+choice when it names a distinct prior speaker; deterministically the
+most recent OTHER speaker in the round when the field is omitted,
+names itself, or names a stranger; and the same deterministic
+resolution on a forced move or the selector-unavailable fallback, which
+never ask a model at all. The no-immediate-self-repeat rule
+(`eligible_worlds`) guarantees `round_speakers[-1]` always differs from
+whatever was chosen, so the deterministic fallback is always valid.
+
+`engine.api.table_wiring._table_engagement_directive` gained
+`engage_name` (the resolved target's own display name, looked up from
+`labels` at the one call site) and its second-pass `focus` text was
+rewritten around it: "This turn responds specifically to what {name}
+said" replaces "where what the other voices said meets or parts" -
+naming ONE voice is now a structural fact handed to the model, not a
+plea not to survey everyone. Added alongside: an explicit "this
+exchange is not concluding here" line, since the smoothing complaint
+was never only about how many voices got named - a turn that ties even
+ONE relationship into a tidy bow with a closing cadence still reads as
+an ending.
+
+RoundConfig's floor/cap were deliberately left untouched (still 4/6 for
+three seats, from the prior merge) - tuning that number again before
+seeing what a properly-scoped mechanism produces live would be the same
+mistake with different numbers. Full suite green (571 tests: 9 new -
+8 in `engine/m4/tests/test_turn_selector.py` covering `_resolve_engages`
+and every path through `select_speaker` that calls it, 1 in
+`engine/api/tests/test_table_schema.py` pinning the directive's new
+scoped framing and its defensive fallback when no name is given).
+
+Committed (`ee1a72c9`) and pushed to the designated branch (stop hook,
+not yet merged to main) once the suite was green.
+
+### Independent review (Opus, cold-read) - one real gap found and fixed, 2026-09-05
+
+Findings, ranked, each verified against the actual code before acting
+(never trusted at face value):
+
+**HIGH, confirmed and fixed - the mechanism didn't actually enforce
+scoping.** Naming one voice in the directive text is not structural
+scoping if the turn's own context still hands it every OTHER voice's
+full answer regardless - and it did: `table_history_for`'s `pending`
+bucket has always carried everything said since a voice's last turn,
+unfiltered, and `_context_prefix` renders it whole. A return turn could
+still see (and use) material from a voice it wasn't asked to engage -
+one sentence in the directive now named a target; nothing removed the
+rest. This is precisely the "ask nicely, more specifically" pattern
+Mark had just rejected, and the review said so plainly rather than
+calling the diff done.
+
+Fix: `_scoped_pending(pending, keep_labels)` (new,
+`engine/api/table_wiring.py`) - keeps the participant's and Facilitator's
+own lines always, plus the ONE engaged voice's; drops every other seated
+voice's lines from THIS turn's context only. `table_history_for`'s own
+session-memory reconstruction (`history`) is untouched - nothing is
+forgotten, only left out of what this one turn can see. Verified with a
+real end-to-end test
+(`test_second_pass_turn_only_sees_its_engaged_voice_not_every_prior_answer`,
+`test_table_api.py`) that drives a real 3-seat round to its first return
+and inspects the actual rendered messages sent to the model: the
+non-engaged voice's own words are genuinely absent, not merely
+un-referenced in an instruction.
+
+**MEDIUM, confirmed and fixed - `engages` was computed then discarded.**
+`Selection.engages` never reached the `turn_selected` event - the exact
+"computed once, then thrown away" gap `round_closed.selector_reason` was
+built the same day to close for round closes, reopened for turn
+selections. Fixed: `selected_payload["engages"]` added when not None,
+same additive discipline (`events.REQUIRED_KEYS` is a floor).
+
+**MEDIUM, confirmed and fixed - a real contradiction on one untested
+combination.** `own_world_is_subject=True` + `is_second_pass=True`:
+`stance` tells the voice to "confirm or correct what has been said of
+your world" while `focus` said "never a correction of theirs" - both
+cannot be true of the same turn, and no test exercised this exact
+combination (a real coverage gap the review named directly). Fixed:
+`focus` now branches on `own_world_is_subject` too - the subject branch
+names which prior statement is in view and leaves the confirm-or-correct
+instruction to `stance` alone, said once, never contradicted. New test:
+`test_table_engagement_directive_subject_second_pass_names_its_target_without_contradiction`.
+
+**LOW, confirmed and fixed - a wrong comment.** `_selector_tool`'s
+`engages` enum comment claimed "seating-stable order"; it's actually
+first-spoken order (`dict.fromkeys` on `round_speakers`, not
+`world_keys`). Fixed the comment to describe reality.
+
+**Walk-by, fixed while in the file - two pre-existing vacuous test
+assertions.** `test_table_schema.py` and `test_table_api.py` each
+checked a substring with a semicolon the code has never produced - an
+`assert X not in Y` that was always true regardless of correctness,
+predating today's work. Replaced with the real, distinguishing phrase
+("drawn back in every time") that a final turn genuinely never contains.
+
+**LOW, latent, left alone.** `_resolve_engages`'s "a return is never
+left unscoped" guarantee depends on a caller invariant
+(`last_speaker == round_speakers[-1]`) the function itself doesn't
+enforce - true at the one real call site (traced and confirmed), and
+one existing unit test happens to pass an inconsistent pair harmlessly.
+Not fixed: no real bug, and hardening a function against a caller
+discipline no real caller violates would be exactly the kind of
+unrequested robustness this project's own build ethic argues against.
+
+Also confirmed by the review, not a defect: 2-seat tables get the
+mechanism too (harmless - `engages` always resolves to the only other
+voice, pure naming with no functional change) and direct-address routing
+never collides with it (guarded by `round_turns == 0`, which is
+equivalent to `is_second_pass=False` there by construction).
+
+Full suite green after fixes: 574 tests (3 new beyond the pre-review
+571 - the contradiction test, the `_scoped_pending` unit test, and the
+end-to-end context-scoping proof).
+
+### Live proof (Mark's go-ahead: "go ahead, run the live proof") - the scoping fix confirmed, the length question isolated, 2026-09-05
+
+Same seating and phrasing as the two most recent real production
+transcripts (cappadocian+alx+pahc = Chilo/Theon/Chloe, "who is Jesus")
+that both closed at turn 4 on a full-table synthesis. Floor (4) and cap
+(6) deliberately untouched - the question was whether the properly-
+scoped mechanism changes anything on its own, not whether a bigger
+minimum forces it to. Report:
+`engine/m4/reports/live-table-engagement-scoping-proof-2026-09-05.json`.
+
+**The scoping fix is real, not cosmetic.** Position 4 (Chilo's return)
+was logged with `engages: pahc` (Chloe) - a genuine selector choice, one
+voice, not the whole table. Chilo's actual turn: "We would say yes to
+every word Chloe has spoken... How calling Jesus God fits with calling
+the Father God: that became our whole life's argument... So what Chloe
+names as unworked-out, we worked out" - engaging Chloe's own named
+unresolved point specifically, extending it with real Cappadocian
+content (homoousios, hypostasis, the doxology story), with NO mention of
+Theon or Alexandria anywhere in the turn. No declared consensus across
+all three voices, no "different rooms in the same house" move - this is
+the alignment-then-depth pattern the design always wanted, now actually
+happening on a real call.
+
+**The round still closed at turn 4.** The selector's own reason: "The
+participant's initial question... has been fully answered by all three
+voices... Another turn would restate rather than add. The exchange is
+complete and genuine." Scoping fixed WHAT a return turn can say and see
+- it did not touch WHEN the selector decides enough is enough, and that
+judgment closed at the floor again, same as every prior run at every
+floor value tried (3, 4). These are two independent mechanisms: content
+quality and round length were never one root cause, just two symptoms
+that happened to co-occur in the transcripts that surfaced this whole
+investigation.
+
+**What this settles and what it doesn't**: the "no smoothing, no false
+conclusion" half of Mark's complaint is now proven, not just tested -
+real evidence, not a hoped-for prose effect. The "5-6 interactions, not
+4" half is untouched by this fix and needs its own lever - most likely
+the floor itself, now on real evidence rather than a guess (raising it
+again was properly held off, per Mark's own "no fix on fix" ruling,
+until there was live data showing whether the scoping fix alone would
+change round length; it didn't). Put to Mark, not decided here.
+
+**Mark's call: "raise the floor to 5."** Given directly, on the isolated
+evidence above - this time not a guess reacting to one bad transcript,
+but a deliberate decision after the content-quality problem was already
+fixed and proven separately. `RoundConfig.floor_by_seats`'s 3-seat entry
+moves 4->5, his own original "5 being the ultimate zone" target from
+the first design-enhancement ruling. The 2-seat floor (3) stays
+untouched, as before - never observed closing early relative to its own
+cap. Close is now legal only from the decision producing position 6
+(the same decision the cap forces regardless), so 5 or 6 is the only
+possible close point for a 3-seat round - matching "5-6 interactions"
+exactly. Tests updated (`test_round_config_defaults_and_bounds`,
+`test_round_config_seat_scaled_floor`,
+`test_round_cap_closes_at_six_for_three_seats`); full suite green (574
+tests, same count - no new tests needed, the seat-scaled floor
+mechanism itself was already proven generically in the prior pass).
+
+Not yet live-verified at the new value - the just-run proof was at
+floor 4. Committed (`8df44964`) and pushed.
+
+### Live production bug: Table launch silently fell back to a stale interview, 2026-09-05
+
+Mark: "the live site is not working now, even after i select the three
+voices and say launch table it only goes to the clhoe tile." Confirmed
+first that nothing from today's round-design branch is deployed yet
+(`main` at `b2dec0fa`, unrelated to this) - a pre-existing bug, already
+live, from an earlier merge (`436128f1`, 2026-08-30).
+
+**Root cause** (`cic-poc/frontend/src/App.tsx`'s mount effect): on load,
+the app always tries to resume whatever session is left in this tab's
+`sessionStorage` BEFORE ever parsing the page's own `?worlds=&mode=`
+deep link - and only parses the deep link if resume comes back empty.
+An interview session (e.g. opening Chloe's tile from the homepage) that
+was never formally closed stays both in storage and open server-side
+indefinitely. Navigating from there to the Table page and convening a
+fresh 3-voice Table still built a correct `?worlds=a,b,c&mode=table`
+URL - but the leftover interview resumed successfully first, every
+time, and the fresh Table request was never even parsed.
+
+**Fix**: the mount effect now checks whether the incoming URL
+explicitly names a mode that conflicts with what's stored (e.g. URL
+says `mode=table`, storage says `mode=interview`) - a fresh, different
+request always wins over a stale leftover session. A bare reload of an
+already-open room (no explicit conflicting params) still resumes
+exactly as before - only the conflicting case changes. `npm run build`
+(tsc + vite) clean; no frontend test suite or working eslint config
+exists to run beyond that (pre-existing gap, not touched here).
