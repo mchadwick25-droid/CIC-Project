@@ -1170,3 +1170,33 @@ from earlier today. The softer alternative (strengthening the guidance
 at exactly this decision point, still soft) keeps that constraint but
 has weaker odds of changing behavior, going by what the model's own
 words show it actually weighing. Awaiting his call.
+
+**Mark's call: "raise the floor to 4."** Given directly, after seeing
+both the confirmed mechanism and a fourth real production example
+(cappadocian+alx+pahc, "who is Jesus") showing the identical pattern -
+strong engagement (Theon and Chloe both explicitly named alignment and
+contrast with prior speakers, Chloe correctly using the no-foreknowledge/
+temporal-vantage framing on Chilo's and Theon's vocabulary), closing
+right after the first pass every time.
+
+`RoundConfig.floor` (a single flat int) became `floor_by_seats` (a tuple
+of pairs, same immutability discipline as `cap_by_seats`) + `default_floor`,
+with a new `floor_for(num_seats)` method: 3 for two seats (unchanged - it
+already forced the bridging turn a 2-seat table needed), 4 for three
+seats (new - restores the same mechanical bridge a 2-seat table already
+had by construction, where it was previously missing). `close_allowed`
+now takes `num_seats`, threaded from the one call site
+(`engine.api.table_wiring._advance_open_round`). `__post_init__`'s
+1<=floor<=cap<=6 ceiling check now validates every floor/cap pair across
+both seat counts, not just a single flat pair. Full suite (561 tests)
+green, including one existing 3-seat cap test whose own assertions
+about when "close" first becomes legal moved from position 4 to position
+5 (as they should - that's the exact behavior just fixed), and a new
+dedicated test pinning the floor is genuinely seat-scaled while the
+2-seat floor stays untouched.
+
+**Not yet live-verified**: this changes real round dynamics again (a
+3-seat round can no longer close before turn 4, matching what a 2-seat
+round already couldn't do before turn 3) - needs its own live check
+before considering it proven, same discipline as every other change
+today. Not run yet.

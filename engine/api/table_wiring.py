@@ -618,7 +618,7 @@ def _advance_open_round(
             seated_lines=seated_lines,
             world_keys=list(state.world_keys),
             last_speaker=state.round_speakers[-1] if state.round_speakers else None,
-            close_allowed=config.close_allowed(state.round_turns),
+            close_allowed=config.close_allowed(state.round_turns, num_seats=num_seats),
             transcript_speakers=transcript_speakers,
             round_speakers=list(state.round_speakers),
         )

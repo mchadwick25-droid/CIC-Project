@@ -32,25 +32,45 @@ from engine.m5.routing import Directive, directive_without_terms
 
 @dataclass(frozen=True)
 class RoundConfig:
-    """C3 (decided 2026-08-28): floor ships as configuration - floor 3,
-    binding the selector's close option (Table Process V1.0 SS2: it never
-    forces every voice to speak). Unconditional, every round, every table
-    size - this predates and is untouched by the seat-scaled cap below.
+    """C3 (decided 2026-08-28): floor ships as configuration - originally a
+    single flat 3, binding the selector's close option (Table Process V1.0
+    SS2: it never forces every voice to speak).
 
     SEAT-SCALED CAP (Mark's ruling, 2026-09-05, superseding this thread's
     own first pass at a broad-only 5/6 minimum): "for 2 voices and a
     participant, the max turns should be 5... for 3 voices the cap is 6" -
     applied to EVERY round regardless of how it opened (his explicit
     scoping, walked through and confirmed), not only a genuinely-open one.
-    The "4 / 5 being the ultimate zone" language in that same ruling is
-    deliberately NOT a second mechanical floor - his own point 3 ("no hard
-    cap or post-conversation monitoring... just a small increased
-    pressure") and his direct confirmation both place it as guidance in the
-    selector's own prompt (engine.m4.turn_selector.round_facts), never a
-    second code-enforced gate; cap_for is the one hard number here. Two
-    seats and three are the only seatings a table ever has (Artifact-7
-    SS1: world_keys 2-3), so a plain mapping is honest about these being
-    two authored numbers, not a formula with a principle behind it.
+    The "4 / 5 being the ultimate zone" language in that same ruling was
+    first built as guidance only (engine.m4.turn_selector.round_facts),
+    never a second code-enforced gate - his own point 3 ("no hard cap or
+    post-conversation monitoring... just a small increased pressure").
+
+    FLOOR SEAT-SCALED TOO (Mark's ruling, 2026-09-05, later the same day,
+    reversing the "soft target only" call above for the floor
+    specifically): investigated why 3-seat rounds were consistently
+    closing right after the first pass, never reaching a second look -
+    confirmed from the selector's own logged reasoning (round_closed.
+    selector_reason, added the same day for exactly this question), not
+    guessed. The real mechanism: the OLD flat floor of 3 happens to land
+    past first-pass completion at 2 seats (forcing one bridging turn,
+    which a live proof showed becoming genuine second-pass synthesis -
+    "Theon then demonstrated how both voices confessed the same Lord
+    despite different doors of entry") but landed EXACTLY at first-pass
+    completion at 3 seats (no forced bridge - "each Representative has
+    given a substantive account... another turn would risk restating").
+    Not a wording weakness the softer target guidance could fix - a
+    structural fact about how the floor interacts with seat count. Mark's
+    call, once the data was in front of him: "raise the floor to 4" for a
+    3-seat table specifically, restoring the SAME mechanical bridge a
+    2-seat table already had by construction. The 2-seat floor (3) is
+    untouched - it already does what the 3-seat floor now does on
+    purpose.
+
+    Two seats and three are the only seatings a table ever has
+    (Artifact-7 SS1: world_keys 2-3), so plain mappings are honest about
+    these being authored numbers, not formulas with a principle behind
+    them.
 
     EXIT CONDITION (Mark's own check, 2026-09-05, confirmed already true of
     this design rather than newly built): the moment cap_reached fires -
@@ -70,32 +90,40 @@ class RoundConfig:
     were actually written, never from a stale copy taken before turn 1 ran.
     This is inherent to the production architecture (Artifact-3's
     event-sourced store), not a property of any one round-length change."""
-    floor: int = 3
-    # A tuple of pairs, not a dict (independent review, 2026-09-05): a
+    # Tuples of pairs, not dicts (independent review, 2026-09-05): a
     # mutable dict field on a frozen dataclass defeats `frozen` twice over -
     # instances become unhashable, AND `cap_by_seats[2] = 99` mutates the
     # config out from under `frozen`'s own guarantee, silently, with no
     # error. A tuple of pairs is a real value, not a mutable container.
+    floor_by_seats: tuple = ((2, 3), (3, 4))
+    default_floor: int = 3  # unreached in practice - every real table seats 2 or 3
     cap_by_seats: tuple = ((2, 5), (3, 6))
     default_cap: int = 4  # unreached in practice - every real table seats 2 or 3
 
     def __post_init__(self):
         # The §6 ceiling the turn-cap incident verified (Process V1.0 §6)
-        # applies to every configured cap, not just the old single `cap`
-        # field it used to be - restored here after the seat-scaling
-        # refactor dropped it entirely (independent review, 2026-09-05).
-        caps = [c for _, c in self.cap_by_seats] + [self.default_cap]
-        if not all(1 <= self.floor <= c <= 6 for c in caps):
+        # applies to every configured floor/cap pair, not just the old
+        # single floor/cap fields they used to be.
+        floors = dict(self.floor_by_seats)
+        caps = dict(self.cap_by_seats)
+        seats = set(floors) | set(caps)
+        pairs = [(floors.get(s, self.default_floor), caps.get(s, self.default_cap)) for s in seats]
+        pairs.append((self.default_floor, self.default_cap))
+        if not all(1 <= f <= c <= 6 for f, c in pairs):
             raise ValueError(
                 f"round config must satisfy 1 <= floor <= cap <= 6 for every seat count, "
-                f"got floor={self.floor} cap_by_seats={self.cap_by_seats} default_cap={self.default_cap}"
+                f"got floor_by_seats={self.floor_by_seats} default_floor={self.default_floor} "
+                f"cap_by_seats={self.cap_by_seats} default_cap={self.default_cap}"
             )
+
+    def floor_for(self, num_seats: int) -> int:
+        return dict(self.floor_by_seats).get(num_seats, self.default_floor)
 
     def cap_for(self, num_seats: int) -> int:
         return dict(self.cap_by_seats).get(num_seats, self.default_cap)
 
-    def close_allowed(self, round_turns: int) -> bool:
-        return round_turns >= self.floor
+    def close_allowed(self, round_turns: int, num_seats: int) -> bool:
+        return round_turns >= self.floor_for(num_seats)
 
     def cap_reached(self, round_turns: int, num_seats: int) -> bool:
         return round_turns >= self.cap_for(num_seats)
