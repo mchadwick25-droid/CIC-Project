@@ -258,10 +258,11 @@ def test_round_cap_closes_at_six_for_three_seats(
     """Mark's ruling, 2026-09-05: 'for 3 voices the cap is 6'
     (RoundConfig.cap_for(3) == 6). At three seats there is never a forced
     move (two voices are always eligible, excluding only the last
-    speaker), so all six turns are real selector picks; the floor (3,
-    unconditional, unchanged) makes close legal from position 4's decision
-    onward, but this round's own selector keeps finding something worth
-    adding until the cap forces it closed at position 6."""
+    speaker), so all six turns are real selector picks; the 3-seat floor
+    (4 - raised the same day, after the floor was confirmed to be seat-
+    scaled too, RoundConfig.floor_for(3)) makes close legal from position
+    5's decision onward, but this round's own selector keeps finding
+    something worth adding until the cap forces it closed at position 6."""
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
     pahc_sentence, _ = grounded_sentence(pahc_world)
@@ -287,18 +288,19 @@ def test_round_cap_closes_at_six_for_three_seats(
     assert result["position"] == 1 and result["voice"]["speaker"] == "alx"
     assert "close" not in client.messages.selector_enums_seen[0]  # below the floor
 
-    for expected_position in (2, 3):
+    for expected_position in (2, 3, 4):
         result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
         assert result["position"] == expected_position and result["round_open"]
+        # Below the 3-seat floor (4, raised the same day the floor was
+        # confirmed seat-scaled) - close is not yet offered, including at
+        # position 4's own decision (round_turns=3 < floor_for(3)=4).
+        assert "close" not in client.messages.selector_enums_seen[-1]
 
-    # Position 4's decision is the first point "close" is legal (floor met),
+    # Position 5's decision is the first point "close" is legal (floor met),
     # but this round's own script keeps choosing a real voice instead.
     result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
-    assert result["position"] == 4 and result["round_open"]
-    assert "close" in client.messages.selector_enums_seen[-1]
-
-    result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
     assert result["position"] == 5 and result["round_open"] and result["turn_no"] is None
+    assert "close" in client.messages.selector_enums_seen[-1]
 
     result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
     # The sixth voice turn is the cap: closed in the same response.
