@@ -312,7 +312,8 @@ def _context_prefix(pending: list[str]) -> str | None:
 
 
 def _table_engagement_directive(
-    *, own_world_is_subject: bool, is_second_pass: bool, is_final_turn: bool, num_seats: int
+    *, own_world_is_subject: bool, is_second_pass: bool, is_final_turn: bool, num_seats: int,
+    engage_name: str | None = None,
 ) -> str:
     """The Table's per-turn behavioral rule - engage what another voice
     just said, stay inside your own witness, keep it compact - in the
@@ -393,7 +394,29 @@ def _table_engagement_directive(
     "begin speaking as yourself... never write a line for the
     Facilitator... never open with a separator or a stage direction"
     instruction, opening this whole directive so it's the first thing
-    read, before the risky phrase's own echo even has room to land."""
+    read, before the risky phrase's own echo even has room to land.
+
+    STRUCTURAL FIX, 2026-09-05, same day (Mark's own words, after a live
+    round closed at the floor on a full-table synthesis - "the three of
+    us are saying one thing, from different rooms in the same house":
+    "i dont want the voices closing the conversation as it can
+    continue... no smoothing, no coming together with a nice conclusion...
+    i dont want fix on fix, this should be a base program than generates
+    this, not after fixes"). Raising the floor again, or adding another
+    sentence forbidding a survey of the whole Table, would both have been
+    exactly that - a patch on the same symptom, since a return turn was
+    ALWAYS structurally handed every prior voice's answer at once with
+    nothing scoping it to one, whatever turn number that happened to land
+    on or however firmly worded the plea against it. The real fix lives
+    one level down: engine.m4.turn_selector.Selection now carries its own
+    `engages` field - which ONE prior speaker a return pick is meant to
+    respond to, resolved on every path (a real model choice, or
+    deterministically on a forced/fallback move) rather than left open.
+    engage_name is that target's own display name, threaded in by the
+    caller - is_second_pass's focus text below is now built to name ONE
+    specific voice, never "the other voices" in the aggregate, so a
+    return turn is never structurally invited to tie the whole Table
+    together in the first place."""
     other_voices = "the other voice" if num_seats <= 2 else "the other voices"
     if own_world_is_subject:
         add_clause = (
@@ -420,12 +443,15 @@ def _table_engagement_directive(
         )
 
     if is_second_pass:
+        engage_ref = engage_name or other_voices
         focus = (
             "You have already answered this question once this round - this turn is not another full "
-            "answer. Go deeper on one real thing your first answer left out, or name plainly where what " +
-            other_voices + " said meets or parts from your own witness - a genuine alignment or a genuine "
-            "contrast, held in your own witness, never a correction of theirs. Zero in on the one point "
-            "most worth making; you do not have to touch everything " + other_voices + " said."
+            "answer, and not a survey of everyone at the Table. This turn responds specifically to what " +
+            engage_ref + " said: go deeper on one real thing your own first answer left out, or name "
+            "plainly where what " + engage_ref + " said meets or parts from your own witness - a genuine "
+            "alignment or a genuine contrast, held in your own witness, never a correction of theirs. "
+            "This exchange is not concluding here: leave every other thread untouched rather than tying "
+            "the whole Table together."
         )
         length_note = (
             "Keep this turn shorter than your first answer - one thing, said plainly, is worth more here "
@@ -689,6 +715,7 @@ def _advance_open_round(
                     is_second_pass=selection.world_key in state.round_speakers,
                     is_final_turn=is_final_turn,
                     num_seats=num_seats,
+                    engage_name=labels.get(selection.engages) if selection.engages else None,
                 )
                 if other_voice_has_spoken
                 else None

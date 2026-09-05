@@ -45,15 +45,21 @@ def test_table_engagement_directive_first_pass_vs_second_pass():
     in a round answers and engages what's come before (points 6-8, naming
     agreement as readily as difference); a later turn in the SAME round
     is a different instruction entirely - depth or contrast, not another
-    full answer, and no obligation to touch every other voice (points 9-10)."""
+    full answer, scoped to the ONE prior speaker the turn selector named
+    (points 9-10, made structural the same day - see the next test), never
+    a survey of the whole Table."""
     from engine.api.table_wiring import _table_engagement_directive
 
     first = _table_engagement_directive(own_world_is_subject=False, is_second_pass=False, is_final_turn=False, num_seats=3)
-    second = _table_engagement_directive(own_world_is_subject=False, is_second_pass=True, is_final_turn=False, num_seats=3)
+    second = _table_engagement_directive(
+        own_world_is_subject=False, is_second_pass=True, is_final_turn=False, num_seats=3, engage_name="Theon"
+    )
     assert "Answer the participant first" in first and "real agreement as readily as" in first
     assert "Keep this turn compact" in first
-    assert "not another full answer" in second and "Go deeper" in second
-    assert "do not have to touch everything" in second
+    assert "not another full answer" in second and "go deeper" in second
+    assert "not a survey of everyone at the Table" in second
+    assert "not concluding here" in second
+    assert "Theon" in second
     assert "shorter than your first answer" in second
     # point 10 names BOTH an alignment and a disagreement as legal focuses -
     # independent review, 2026-09-05: the pre-review wording only offered
@@ -62,6 +68,34 @@ def test_table_engagement_directive_first_pass_vs_second_pass():
     # the shared frame (no-foreknowledge, never-retell) is identical either way
     for text in (first, second):
         assert "no knowledge of their worlds" in text and "never retell their stories" in text
+
+
+def test_table_engagement_directive_second_pass_names_its_one_engagement_target():
+    """STRUCTURAL FIX, 2026-09-05 (Mark: "i dont want fix on fix, this
+    should be a base program than generates this, not after fixes" - after
+    a live round closed on a full-table synthesis and a floor-only fix
+    would just have moved where the same collision happened). engage_name
+    is threaded in from the turn selector's own resolved
+    Selection.engages (engine.m4.turn_selector._resolve_engages, which
+    always names something on a real second-pass turn) - a return turn
+    names ONE voice, never every voice at once, structurally rather than
+    by asking nicely."""
+    from engine.api.table_wiring import _table_engagement_directive
+
+    named = _table_engagement_directive(
+        own_world_is_subject=False, is_second_pass=True, is_final_turn=False, num_seats=3, engage_name="Chloe"
+    )
+    assert "responds specifically to what Chloe said" in named
+    assert "what the other voices said" not in named  # the aggregate framing is gone once a name is known
+
+    # Defensive only - a real second-pass turn always carries a resolved
+    # engage_name (turn_selector's own no-immediate-self-repeat invariant
+    # guarantees _resolve_engages never returns None there); the directive
+    # itself still degrades to the old aggregate framing rather than
+    # producing a broken sentence if it somehow arrives without one.
+    unnamed = _table_engagement_directive(own_world_is_subject=False, is_second_pass=True, is_final_turn=False, num_seats=3)
+    assert "what the other voices said" in unnamed
+    assert "not a survey of everyone at the Table" in unnamed
 
 
 def test_table_engagement_directive_scales_with_seat_count():

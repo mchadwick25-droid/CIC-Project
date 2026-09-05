@@ -1246,3 +1246,83 @@ Still open: the session_id for that specific real conversation isn't
 in hand (the browser UI doesn't surface it), so this endpoint answers
 the question for the *next* production round Mark can capture a
 session_id for, not retroactively for the one already shown.
+
+### Structural fix for the recurring "closes on a full-table synthesis" failure, 2026-09-05
+
+A third real production transcript (cappadocian+alx+pahc, "who is
+Jesus") showed the identical shape as the second: four turns, the
+fourth (Chilo's return) explicitly gathering Theon's AND Chloe's points
+into one declared consensus - "The three of us are saying one thing,
+from different rooms in the same house" - before adding its own weight.
+Read on its own it's good writing; read as a pattern with the prior
+example, it's the same move twice: a return turn resolving the whole
+Table into agreement right at the floor.
+
+Mark's ruling: "i dont want the voices closing the conversation as it
+can continue... no smoothing, no coming together with a nice
+conclusion, i want 5-6 interactions not 4." First response: raise the
+3-seat floor again, 4->5 (RoundConfig.floor_by_seats), and add another
+forbidding sentence to the second-pass directive text. Both changes
+were built, tests updated, suite green - and then, before committing
+anything, Mark stopped it: "i dont want fix on fix, this should be a
+base program than generates this, not after fixes." Right call - both
+changes were real, but neither touched WHY a return turn keeps reading
+this way regardless of which turn number it lands on, and raising the
+floor a second time in one day would only have moved the same collision
+again. Reverted, unstaged, before either change was committed.
+
+**The actual mechanism**: at a 3-seat table, positions 1-3 are always
+everyone's first pass (nothing to return to before then). Whichever
+position is the FIRST return is therefore always the first moment one
+voice is looking at all three prior first-pass answers at once, with
+nothing scoping it to one of them. The directive already said "zero in
+on the one point... you do not have to touch everything" - a prose
+request asking the model not to do the very thing all its available
+material invites. Words lost to that structural pull both times it was
+tried, at floor 4 and (untested) at floor 5 - moving the number moves
+where the collision happens, not whether it happens.
+
+**The structural fix, not another patch**: `engine.m4.turn_selector.
+Selection` gained a field, `engages` - which ONE prior speaker a return
+pick is meant to respond to, the turn selector's own job now (matching
+Mark's own point 10, "it can zero in on a specific alignment or
+disagreement... not everyone has to respond to both the others" - this
+just makes that structural instead of aspirational). `_selector_tool`'s
+schema carries an `engages` enum (the round's own speakers so far) only
+once someone has spoken; `SELECTOR_SYSTEM_PROMPT` explains when to set
+it. `_resolve_engages` (new, `engine/m4/turn_selector.py`) guarantees a
+return is NEVER left unscoped, on every path: the model's own real
+choice when it names a distinct prior speaker; deterministically the
+most recent OTHER speaker in the round when the field is omitted,
+names itself, or names a stranger; and the same deterministic
+resolution on a forced move or the selector-unavailable fallback, which
+never ask a model at all. The no-immediate-self-repeat rule
+(`eligible_worlds`) guarantees `round_speakers[-1]` always differs from
+whatever was chosen, so the deterministic fallback is always valid.
+
+`engine.api.table_wiring._table_engagement_directive` gained
+`engage_name` (the resolved target's own display name, looked up from
+`labels` at the one call site) and its second-pass `focus` text was
+rewritten around it: "This turn responds specifically to what {name}
+said" replaces "where what the other voices said meets or parts" -
+naming ONE voice is now a structural fact handed to the model, not a
+plea not to survey everyone. Added alongside: an explicit "this
+exchange is not concluding here" line, since the smoothing complaint
+was never only about how many voices got named - a turn that ties even
+ONE relationship into a tidy bow with a closing cadence still reads as
+an ending.
+
+RoundConfig's floor/cap were deliberately left untouched (still 4/6 for
+three seats, from the prior merge) - tuning that number again before
+seeing what a properly-scoped mechanism produces live would be the same
+mistake with different numbers. Full suite green (571 tests: 9 new -
+8 in `engine/m4/tests/test_turn_selector.py` covering `_resolve_engages`
+and every path through `select_speaker` that calls it, 1 in
+`engine/api/tests/test_table_schema.py` pinning the directive's new
+scoped framing and its defensive fallback when no name is given).
+
+Not yet committed or pushed - the standing discipline holds: full
+suite green is necessary, not sufficient, for a real design change of
+this shape. Next: independent review, then a live proof against real
+Bedrock (only with Mark's go-ahead - real spend), before this is
+considered proven rather than just tested.

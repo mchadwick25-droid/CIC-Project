@@ -8,6 +8,8 @@ from types import SimpleNamespace
 from engine.m4.turn_selector import (
     CLOSE,
     Selection,
+    _resolve_engages,
+    _selector_tool,
     eligible_worlds,
     fallback_world,
     round_facts,
@@ -203,3 +205,93 @@ def test_illegal_twice_falls_back():
     assert selection.degraded
     assert selection.world_key == "pahc"  # never spoken beats alx
     assert len(outcomes) == 2
+
+
+# --- engages: a return turn's own scoped engagement target (2026-09-05,
+# structural fix for a repeat "closes on a full-table synthesis" failure -
+# see engine.api.table_wiring._table_engagement_directive's own docstring
+# for the live case that drove it). A first-time speaker never carries
+# one; a returning speaker always resolves to exactly one prior speaker,
+# on every path - a real model choice, or deterministically when no model
+# was asked (a forced move) or its answer can't be trusted (an omission,
+# a self-reference, or a name outside the round, and the full fallback
+# path alike).
+
+
+def test_selector_tool_schema_carries_engages_only_once_someone_has_spoken():
+    opening = _selector_tool(["alx", "desert", "pahc"], [])
+    assert "engages" not in opening["input_schema"]["properties"]
+
+    mid_round = _selector_tool(["alx", "desert", "pahc"], ["alx", "desert"])
+    assert mid_round["input_schema"]["properties"]["engages"]["enum"] == ["alx", "desert"]
+
+
+def test_resolve_engages_directly():
+    # A first-time speaker: nothing to engage yet, whatever was requested.
+    assert _resolve_engages("pahc", ["alx", "desert"], "alx") is None
+    assert _resolve_engages("pahc", [], None) is None
+    # A return with a real, distinct requested target: passed through.
+    assert _resolve_engages("alx", ["alx", "desert", "pahc"], "desert") == "desert"
+    # A return with no requested target, a self-reference, or a stranger:
+    # deterministically the most recent OTHER speaker in the round.
+    assert _resolve_engages("alx", ["alx", "desert", "pahc"], None) == "pahc"
+    assert _resolve_engages("alx", ["alx", "desert", "pahc"], "alx") == "pahc"
+    assert _resolve_engages("alx", ["alx", "desert", "pahc"], "syr") == "pahc"
+
+
+def test_forced_move_return_resolves_engages_to_the_last_speaker():
+    """A forced move (2026-08-28) never asks the model, but the return it
+    forces still needs a scoped engagement target - at a 2-seat table the
+    only other voice already IS the one it just heard from."""
+    client = FakeSelectorClient([])
+    selection, _ = _select(client, world_keys=("alx", "desert"), last_speaker="desert", round_speakers=["alx", "desert"])
+    assert selection.world_key == "alx" and not selection.degraded
+    assert selection.engages == "desert"
+
+
+def test_selector_supplied_engages_passes_through():
+    client = FakeSelectorClient([{"next": "alx", "reason": "circling back", "engages": "desert"}])
+    selection, _ = _select(
+        client, world_keys=("alx", "desert", "pahc"), last_speaker="pahc", close_allowed=True,
+        round_speakers=["alx", "desert", "pahc"],
+    )
+    assert selection.world_key == "alx" and selection.engages == "desert"
+
+
+def test_selector_omitted_engages_falls_back_to_most_recent_other_speaker():
+    client = FakeSelectorClient([{"next": "alx", "reason": "circling back"}])  # no "engages" key at all
+    selection, _ = _select(
+        client, world_keys=("alx", "desert", "pahc"), last_speaker="pahc", close_allowed=True,
+        round_speakers=["alx", "desert", "pahc"],
+    )
+    assert selection.world_key == "alx" and selection.engages == "pahc"  # round_speakers[-1]
+
+
+def test_selector_self_referential_engages_falls_back():
+    client = FakeSelectorClient([{"next": "alx", "reason": "circling back", "engages": "alx"}])
+    selection, _ = _select(
+        client, world_keys=("alx", "desert", "pahc"), last_speaker="pahc", close_allowed=True,
+        round_speakers=["alx", "desert", "pahc"],
+    )
+    assert selection.world_key == "alx" and selection.engages == "pahc"
+
+
+def test_first_pass_pick_never_carries_an_engages_value():
+    # The model names a target anyway (a schema slip, not enforced against
+    # a first-timer) - discarded, since there is nothing to engage yet.
+    client = FakeSelectorClient([{"next": "pahc", "reason": "unheard", "engages": "alx"}])
+    selection, _ = _select(client, round_speakers=["alx", "desert"])
+    assert selection.world_key == "pahc" and selection.engages is None
+
+
+def test_failed_call_fallback_resolves_engages_when_the_fallback_is_a_return():
+    from anthropic import APITimeoutError
+
+    client = FakeSelectorClient([APITimeoutError(request=None)])
+    selection, outcomes = _select(
+        client, world_keys=("alx", "desert", "pahc"), last_speaker="pahc",
+        transcript_speakers=["alx", "desert", "pahc"], round_speakers=["alx", "desert", "pahc"],
+    )
+    assert selection.degraded
+    assert selection.world_key == "alx"  # furthest-back eligible voice, per fallback_world
+    assert selection.engages == "pahc"  # round_speakers[-1]
