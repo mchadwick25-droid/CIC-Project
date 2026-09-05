@@ -250,13 +250,12 @@ pass; the actual background thread was smoke-tested end-to-end (monkeypatched
 near-future "next run" time) and confirmed to fire, run the real audit, and write a
 correct status file — not just unit tests of the pure helper functions.
 
-**Committed but not yet pushed.** The push to `main` was blocked by the auto-mode
-permission classifier — a separate guardrail from Mark's own confirmation, and this
-thread is not attempting to work around it. Waiting on Mark's choice: approve the
-push, push it himself, or route it through a PR for review first, given it deploys
-into the live pilot service. **What this thread cannot verify from here regardless:**
-whether the scheduler is actually firing in production once it's live — no Render
-dashboard/log access from this session. Flagged rather than silently assumed.
+**Pushed same day, on Mark's explicit go-ahead** ("go ahead and push it") after the
+auto-mode classifier had blocked the first attempt. `main` at `46c11d63`; CI confirmed
+green (run `33917613006`). **What this thread still cannot verify from here:** whether
+the scheduler is actually firing in production — no Render dashboard/log access from
+this session. That gap is permanent, not a "pending" item — every future sweep should
+keep saying so rather than assuming success just because the code shipped.
 
 **Discovery-UX fleet-size watch, added.** Separate, much lower-stakes relay (no
 production code, no live data — just counting entries in a git-tracked YAML file):
