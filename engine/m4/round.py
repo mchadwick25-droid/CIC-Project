@@ -67,6 +67,30 @@ class RoundConfig:
     untouched - it already does what the 3-seat floor now does on
     purpose.
 
+    FLOOR RAISED AGAIN, SAME DAY, ON ISOLATED EVIDENCE (Mark's ruling,
+    after a live round at floor 4 closed with a full-table synthesis -
+    "the three of us are saying one thing, from different rooms in the
+    same house"): his first response, rejected on his own explicit
+    instruction ("i dont want fix on fix, this should be a base program
+    than generates this, not after fixes"), was to raise the floor again
+    AND patch the directive's prose - the same reactive pattern twice
+    over in one day. The actual fix built instead:
+    engine.m4.turn_selector.Selection.engages plus
+    engine.api.table_wiring._scoped_pending, so a return turn structurally
+    cannot see a non-engaged voice's content, not merely told not to use
+    it. A live proof against real Bedrock (same seating and question that
+    surfaced the bug) then isolated two independent things: the scoping
+    fix genuinely works (the returning voice engaged one specific named
+    voice's one point, extending it, with zero mention of the third voice
+    or any declared consensus) - but the round still closed at turn 4,
+    the selector's own judgment unmoved by what the returning turn was
+    scoped to. Content quality and round length were never one root
+    cause. Only now, with that isolation as real evidence rather than a
+    guess, did Mark rule "raise the floor to 5" - his own original
+    "5 being the ultimate zone" target for a 3-seat table, restoring a
+    genuine floor/cap gap (5/6) for the selector's own judgment to use
+    rather than closing it entirely.
+
     Two seats and three are the only seatings a table ever has
     (Artifact-7 SS1: world_keys 2-3), so plain mappings are honest about
     these being authored numbers, not formulas with a principle behind
@@ -95,7 +119,7 @@ class RoundConfig:
     # instances become unhashable, AND `cap_by_seats[2] = 99` mutates the
     # config out from under `frozen`'s own guarantee, silently, with no
     # error. A tuple of pairs is a real value, not a mutable container.
-    floor_by_seats: tuple = ((2, 3), (3, 4))
+    floor_by_seats: tuple = ((2, 3), (3, 5))
     default_floor: int = 3  # unreached in practice - every real table seats 2 or 3
     cap_by_seats: tuple = ((2, 5), (3, 6))
     default_cap: int = 4  # unreached in practice - every real table seats 2 or 3

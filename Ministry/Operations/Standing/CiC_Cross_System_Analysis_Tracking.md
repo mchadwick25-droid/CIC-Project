@@ -1445,3 +1445,22 @@ the floor itself, now on real evidence rather than a guess (raising it
 again was properly held off, per Mark's own "no fix on fix" ruling,
 until there was live data showing whether the scoping fix alone would
 change round length; it didn't). Put to Mark, not decided here.
+
+**Mark's call: "raise the floor to 5."** Given directly, on the isolated
+evidence above - this time not a guess reacting to one bad transcript,
+but a deliberate decision after the content-quality problem was already
+fixed and proven separately. `RoundConfig.floor_by_seats`'s 3-seat entry
+moves 4->5, his own original "5 being the ultimate zone" target from
+the first design-enhancement ruling. The 2-seat floor (3) stays
+untouched, as before - never observed closing early relative to its own
+cap. Close is now legal only from the decision producing position 6
+(the same decision the cap forces regardless), so 5 or 6 is the only
+possible close point for a 3-seat round - matching "5-6 interactions"
+exactly. Tests updated (`test_round_config_defaults_and_bounds`,
+`test_round_config_seat_scaled_floor`,
+`test_round_cap_closes_at_six_for_three_seats`); full suite green (574
+tests, same count - no new tests needed, the seat-scaled floor
+mechanism itself was already proven generically in the prior pass).
+
+Not yet live-verified at the new value - the just-run proof was at
+floor 4. Not yet committed.

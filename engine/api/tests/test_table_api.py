@@ -299,10 +299,13 @@ def test_round_cap_closes_at_six_for_three_seats(
     (RoundConfig.cap_for(3) == 6). At three seats there is never a forced
     move (two voices are always eligible, excluding only the last
     speaker), so all six turns are real selector picks; the 3-seat floor
-    (4 - raised the same day, after the floor was confirmed to be seat-
-    scaled too, RoundConfig.floor_for(3)) makes close legal from position
-    5's decision onward, but this round's own selector keeps finding
-    something worth adding until the cap forces it closed at position 6."""
+    (5 - raised a second time the same day, on live evidence that the
+    engagement-scoping fix genuinely worked but round length was an
+    independent problem it didn't touch) makes close legal only from
+    position 6's decision onward - the same decision the cap forces
+    closed regardless, so 5 or 6 is now this table's only possible close
+    point. This round's own selector keeps finding something worth adding
+    at every decision until the cap forces it closed at position 6."""
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
     pahc_sentence, _ = grounded_sentence(pahc_world)
@@ -328,22 +331,19 @@ def test_round_cap_closes_at_six_for_three_seats(
     assert result["position"] == 1 and result["voice"]["speaker"] == "alx"
     assert "close" not in client.messages.selector_enums_seen[0]  # below the floor
 
-    for expected_position in (2, 3, 4):
+    for expected_position in (2, 3, 4, 5):
         result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
         assert result["position"] == expected_position and result["round_open"]
-        # Below the 3-seat floor (4, raised the same day the floor was
-        # confirmed seat-scaled) - close is not yet offered, including at
-        # position 4's own decision (round_turns=3 < floor_for(3)=4).
+        # Below the 3-seat floor (5) - close is not yet offered, including
+        # at position 5's own decision (round_turns=4 < floor_for(3)=5).
         assert "close" not in client.messages.selector_enums_seen[-1]
 
-    # Position 5's decision is the first point "close" is legal (floor met),
-    # but this round's own script keeps choosing a real voice instead.
+    # Position 6's decision is the first point "close" is legal (floor
+    # met) - but it is also the cap position, so the turn happens and the
+    # round closes in the same response regardless of what the selector
+    # would have chosen.
     result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
-    assert result["position"] == 5 and result["round_open"] and result["turn_no"] is None
     assert "close" in client.messages.selector_enums_seen[-1]
-
-    result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
-    # The sixth voice turn is the cap: closed in the same response.
     assert result["position"] == 6 and result["voice"] is not None
     assert not result["round_open"] and result["turn_no"] == 1
 
