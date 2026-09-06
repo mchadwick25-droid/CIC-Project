@@ -23,16 +23,23 @@ const isEmbedded = typeof window !== 'undefined' && window.self !== window.top;
 /**
  * The deep-link grammar - the ONE contract between the discovery surfaces
  * (cic-website's world cards, the Atlas) and this app (Mark's launch
- * ruling, 2026-08-28):
+ * ruling, 2026-08-28; Table mode's auto-start reversal, 2026-09-06):
  *
- *   ?worlds=<id>&mode=interview   -> straight into the conversation, no
- *                                    waiting place (arrival happens inside
- *                                    the room)
- *   ?worlds=a,b[,c]&mode=table    -> the launch screen's Table field with
- *                                    those seats chosen - a Table is
- *                                    CONVENED, never auto-started
- *   ?mode=table                   -> the Table field, empty
- *   /                             -> the launch screen (the world cards)
+ *   ?worlds=<id>&mode=interview      -> straight into the conversation, no
+ *                                       waiting place (arrival happens
+ *                                       inside the room)
+ *   ?worlds=a,b[,c]&mode=table       -> straight into the table
+ *                                       conversation, same as interview -
+ *                                       2 or 3 named seats is enough to
+ *                                       convene on arrival (2026-09-06:
+ *                                       Mark reversed the original "a
+ *                                       Table is CONVENED, never
+ *                                       auto-started" rule - "it should go
+ *                                       straight to the conversation")
+ *   ?worlds=<one id>&mode=table,       -> too few seats to convene - the
+ *   ?mode=table                          launch screen's Table field, with
+ *                                        that one seat (or none) chosen
+ *   /                                 -> the launch screen (the world cards)
  *
  * Interview mode with several ids honors the first (one voice per
  * interview, spec O9). Ids are census_ids - the same ids worlds.yaml and
@@ -115,9 +122,27 @@ function App() {
         .filter((w): w is NonNullable<typeof w> => w !== undefined)
         .map((w) => w.worldKey);
       if (mode === 'table') {
-        // Intentional by design: the link chooses seats, the participant
-        // convenes. Never auto-creates a session.
-        setSeated([...new Set(linked)].slice(0, 3));
+        const uniqueLinked = [...new Set(linked)].slice(0, 3);
+        if (uniqueLinked.length >= 2) {
+          // 2026-09-06: auto-convene, same as interview's frictionless
+          // arrival - Mark's reversal of the original "never auto-creates
+          // a session" rule. Falling back to the seat-and-focus path below
+          // if convene() itself fails keeps a broken table from stranding
+          // the participant with nothing on screen.
+          consumeDeepLink();
+          table.convene(uniqueLinked).then((sessionId) => {
+            if (sessionId) {
+              setScreen('table');
+              return;
+            }
+            setSeated(uniqueLinked);
+            setTableFocus(true);
+          });
+          return;
+        }
+        // Too few named seats to convene - land on the Table field with
+        // what we have (0 or 1 seat), awaiting the rest.
+        setSeated(uniqueLinked);
         setTableFocus(true);
         consumeDeepLink();
         return;
