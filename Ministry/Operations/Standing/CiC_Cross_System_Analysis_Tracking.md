@@ -1849,3 +1849,49 @@ suite green (575 passed) after this and the round-cap resize above.
 Not yet done: Mark still needs to set `CIC_API_ADMIN_TOKEN` in the
 Render dashboard before this is callable in production - the code
 change alone doesn't activate it.
+
+### Pilot-summary endpoint confirmed live, 2026-09-06: every session shows open
+
+Mark set `CIC_API_ADMIN_TOKEN` in the Render dashboard and confirmed
+the endpoint works end to end against real production data (a real
+troubleshooting session - the token he'd saved in Render and the one
+he was testing with kept drifting apart across several attempts;
+resolved by comparing exact lengths and values on both sides directly
+rather than assuming either was right).
+
+First real read of `/api/admin/pilot-summary`:
+```
+total_sessions            : 48
+by_mode                   : @{interview=36; table=12}
+open_sessions             : 48
+closed_by_reason          :
+table_round_counts_on_cap :
+earliest_session_at       : 2026-08-28T21:16:11.650756+00:00
+latest_session_at         : 2026-09-05T22:34:49.796238+00:00
+```
+
+Answers the original questions: 48 real pilot sessions exist (36
+interview, 12 table), Aug 28 - Sep 5. `table_round_counts_on_cap`
+being empty means no table session has hit the session round cap yet
+at all, under either the old cap (5) or the new one (3) - there is
+simply no data yet to confirm or deny the round-cap question that
+started all of this; not evidence either way.
+
+**A real, separate finding surfaced by this, not a bug in the
+endpoint**: every one of the 48 sessions shows open, zero closed by
+any reason. Checked why rather than assumed: `engine/m4/events.py`'s
+own schema declares three `session_closed` reasons -
+`participant`/`idle`/`cap` - but a repo-wide grep shows only `cap` is
+ever actually written by any code path (`table_wiring.py`'s session
+round-cap close, `wiring.py`'s interview turn-cap close). Nothing
+closes a session when a participant simply stops responding or closes
+the tab, and nothing closes one for going idle either, despite the
+schema declaring that reason exists - a week-old abandoned session
+from Aug 28 shows exactly as "open" as one from an hour ago. Session
+lifecycle only ever ends by hitting the cap; every other real ending
+is invisible to this (and any other) summary.
+
+**Mark's call**: "leave it flagged for now" - not acted on. No idle-
+close writer built; `open_sessions` in this endpoint's output should
+be read as "never hit a cap," not "currently active," until this gap
+is closed.
