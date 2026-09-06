@@ -133,6 +133,11 @@ p{margin:0 0 1rem}
 .choices .trad{font-family:var(--sans);font-size:.8125rem;color:var(--muted)}
 .choices .ctx{font-family:var(--sans);font-size:.75rem;color:var(--muted)}
 .choices .taken{font-family:var(--sans);font-size:.75rem;color:var(--muted);margin-left:auto}
+.tile-tip{position:fixed;z-index:40;max-width:280px;background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:.6rem .8rem;box-shadow:0 6px 20px rgba(0,0,0,.2);pointer-events:none}
+.tile-tip[hidden]{display:none}
+.tile-tip .tip-name{font-family:var(--serif);font-weight:700;font-size:.95rem;color:var(--text)}
+.tile-tip .tip-trad{font-family:var(--sans);font-size:.75rem;color:var(--muted);margin:0 0 .3rem}
+.tile-tip .tip-desc{font-family:var(--sans);font-size:.8125rem;line-height:1.4;color:var(--text)}
 .info{display:flex;flex-direction:column}
 .info[hidden]{display:none}
 .info .back{display:flex;width:100%;align-items:center;gap:.3rem;font:inherit;font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--action);background:none;border:0;padding:.8rem .1rem;margin:0 0 1rem;cursor:pointer;min-height:44px;text-align:left}
@@ -268,6 +273,25 @@ var WORLDS = [
   { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#9d174d', desc:'Rome and Bethlehem, c. 382–420 CE — scholars and ascetics testing Scripture against its own Hebrew.' }
 ];
 
+var tileTip = document.createElement('div');
+tileTip.className = 'tile-tip';
+tileTip.setAttribute('role', 'tooltip');
+tileTip.hidden = true;
+document.body.appendChild(tileTip);
+
+function showTileTip(target, w){
+  tileTip.innerHTML = '<div class="tip-name">' + w.name + '</div><div class="tip-trad">' + w.trad + '</div><div class="tip-desc">' + w.desc + '</div>';
+  tileTip.hidden = false;
+  var r = target.getBoundingClientRect();
+  var th = tileTip.offsetHeight;
+  var top = r.bottom + 6;
+  if (top + th > window.innerHeight - 8) top = r.top - th - 6;
+  if (top < 8) top = 8;
+  tileTip.style.left = Math.max(8, r.left) + 'px';
+  tileTip.style.top = top + 'px';
+}
+function hideTileTip(){ tileTip.hidden = true; }
+
 var seated = [null, null, null];
 var params = new URLSearchParams(window.location.search);
 var preseat = params.get('worlds');
@@ -373,7 +397,11 @@ function openChooser(seatIndex){
       '<span><span class="name">' + w.name + '</span><br><span class="trad">' + w.trad + '</span><br><span class="ctx">' + ctx + '</span></span>' +
       (takenElsewhere ? '<span class="taken">Already seated</span>' : '');
     if (!takenElsewhere) {
-      btn.addEventListener('click', function(w){ return function(){ showInfo(w); }; }(w));
+      btn.addEventListener('click', function(w){ return function(){ hideTileTip(); showInfo(w); }; }(w));
+      btn.addEventListener('mouseenter', function(w){ return function(e){ showTileTip(e.currentTarget, w); }; }(w));
+      btn.addEventListener('mouseleave', hideTileTip);
+      btn.addEventListener('focus', function(w){ return function(e){ showTileTip(e.currentTarget, w); }; }(w));
+      btn.addEventListener('blur', hideTileTip);
     }
     li.appendChild(btn);
     choicesList.appendChild(li);
@@ -388,6 +416,7 @@ function closeChooser(){
   if (activeSeat !== null) seatButtons[activeSeat].focus();
   activeSeat = null;
   viewedWorld = null;
+  hideTileTip();
 }
 function onPanelKey(e){ if (e.key === 'Escape') closeChooser(); }
 closeBtn.addEventListener('click', closeChooser);
