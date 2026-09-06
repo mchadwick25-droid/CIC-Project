@@ -2877,3 +2877,81 @@ merge, same pipeline as every other change this session). Everything
 else above now lives with its owner - the System Health thread (M7,
 world-count watch), Mark himself (AWS credit, spend-guardrail/pacing
 timing), or the Atlas thread (its own engine link).
+
+## 2026-09-06 — Table page iterated through five real UI requests;
+the launch problem itself turned out to live entirely in the engine
+
+A live Table transcript Mark pasted read as three monologues in
+sequence, not a discussion. Root-caused as a real engine bug (not a
+design limit) in the turn-selector/engagement-instruction interaction
+- and largely already being worked by the separate "cic project code
+review and planning" thread (its own long PR chain). Gave Mark a
+clean, self-contained brief to paste into that thread rather than
+duplicating the investigation here.
+
+Then five rounds of Table-page UI requests, each shipped same-day:
+
+1. **Flip launch and seat-picking, add context lines to tiles** (PR
+   #111). Launch became the primary choice; changing who sits
+   became the secondary one. Each seat-picker tile gained a one-line
+   context string pulled from the world's own description, not just
+   a name.
+2. **Hover/click on the seat-picker tiles**, matching the Atlas
+   pattern (`atlas-v3.html`'s tooltip-on-hover, full detail-on-click)
+   - a single reusable tooltip element, positioned off the hovered
+   tile with viewport-edge flip logic, not cursor-following (list
+   items, not a map). Same PR.
+3. **Mark tested live and reported the flip made it worse**: the
+   picker needed to be visible from the start, not reached as a
+   second screen, and the launch button was lying about what it did
+   ("Launch the Table" without a real table set still routed to
+   the engine's own launch grid). PR #113 put the seat-picker back
+   above the launch action, added a reference roster row ("Who's
+   available") so the choices are visible before any click, and
+   renamed the button honestly by state ("Have the Facilitator set
+   the table" with 0 seats chosen vs. "Launch the Table" once seats
+   are filled).
+4. **Mark: "let's make sure the code is simple and correct and not a
+   fix on fix."** Audited the whole file - every CSS class against
+   real usage, every JS variable against real reads - after three
+   fast revisions in one day. Found exactly two real leftovers (a
+   `status` lookup in `renderSeat()` that was never read; a
+   `.primary-actions` class name left over from when that section
+   held two buttons instead of the current one) plus a stale meta
+   description describing the old two-step flow. Fixed all three;
+   confirmed nothing else was orphaned. PR #115, merged once its 17
+   checks went green.
+5. **Mark then reported the actual launch was still landing on the
+   engine's own launch grid, not a live conversation**, first via a
+   screenshot of that grid, then later by pasting the exact URL our
+   own site built:
+   `.../talk?worlds=cappadocian-nicene-...,alexandria-catechetical,
+   post-apostolic-house-church&mode=table&from=table.html`.
+
+That URL is correct - it's exactly what `table.html` should hand
+`talk.html`. Chased the actual gap into `cic-poc/frontend/src/App.tsx`
+(not this thread's file): its `mode === 'table'` branch has a
+deliberate rule, credited in-code to "Mark's ruling, 2026-08-28," that
+a table deep link only pre-fills seats and waits for a manual
+"Convene the Table" click - unlike interview mode, which auto-starts.
+No website-side change could ever have closed this gap, since table
+auto-start was never gated on whether `worlds` was populated; said so
+plainly rather than shipping a third guess from this side.
+
+The engine track had already reached the same conclusion and opened
+PR #114 ("Table-mode deep links with 2+ seats auto-convene"): a deep
+link naming 2-3 valid seats now calls `table.convene()` directly and
+lands in the room, mirroring interview mode. Verified by that PR's
+own author live against `dev_server.py`, no Bedrock spend; all 17
+checks green. As of this entry it's still open, unmerged - poked that
+session to merge it, since it's now the one thing between Mark and a
+working Table launch in production.
+
+### Next action
+
+None from this thread on the Table launch itself - the fix is
+someone else's PR, verified and green, just waiting to merge. Watching
+for PR #114 to land; will confirm to Mark once it does. Nothing
+further planned against `table.html` unless the next live test
+surfaces something new.
+timing), or the Atlas thread (its own engine link).
