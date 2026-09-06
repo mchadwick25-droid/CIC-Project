@@ -60,3 +60,38 @@ def test_pressed_state_folds_from_escalation_pressed(tmp_path):
 
     state = project_fresh(sid, store)
     assert state.pressed == {"later_age": True, "other_tradition": False}
+
+
+def test_idle_close_reads_closed_until_real_activity_reopens_it(tmp_path):
+    """engine.m4.idle_close's own reporting-only contract, at the fold
+    level: an idle close reads exactly like any other close until a real
+    event follows it, at which point it reopens - unlike a cap/participant
+    close, which a resumed session should never be able to shake."""
+    store = Store(tmp_path / "events.db")
+    sid = str(uuid.uuid4())
+    _seed(store, sid)
+    store.append(session_id=sid, event_uuid=str(uuid.uuid4()), event_type="session_closed", payload={"reason": "idle"})
+
+    idle_state = project_fresh(sid, store)
+    assert idle_state.closed is True
+    assert idle_state.close_reason == "idle"
+
+    # A participant resumes: one more real event lands after the idle
+    # close.
+    store.append(session_id=sid, event_uuid=str(uuid.uuid4()), event_type="participant_message", payload={"text": "still there?", "client_msg_id": "m2"})
+
+    resumed_state = project_fresh(sid, store)
+    assert resumed_state.closed is False
+    assert resumed_state.close_reason is None
+
+
+def test_cap_close_never_reopens(tmp_path):
+    store = Store(tmp_path / "events.db")
+    sid = str(uuid.uuid4())
+    _seed(store, sid)
+    store.append(session_id=sid, event_uuid=str(uuid.uuid4()), event_type="session_closed", payload={"reason": "cap"})
+    store.append(session_id=sid, event_uuid=str(uuid.uuid4()), event_type="participant_message", payload={"text": "still there?", "client_msg_id": "m2"})
+
+    state = project_fresh(sid, store)
+    assert state.closed is True
+    assert state.close_reason == "cap"

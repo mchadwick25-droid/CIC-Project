@@ -74,6 +74,21 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
     state.exists = True
     for event in events:
         payload = event.payload
+        if state.closed and state.close_reason == "idle" and event.event_type != "session_closed":
+            # An idle close is reporting-only, not a hard stop like the
+            # turn/round cap (Mark's call, 2026-09-06, after the pilot-
+            # summary endpoint surfaced that every real session showed
+            # "open" forever since nothing ever wrote session_closed's own
+            # declared "idle" reason) - engine.m4.idle_close only marks a
+            # session idle once it's gone quiet, and any real activity
+            # after that (a participant resuming with their session code)
+            # un-marks it here, rather than a resumed session sticking
+            # "idle" forever in the projection everything else reads
+            # (the API's own closed-session gate, the admin summary, the
+            # participant-facing transcript). A cap or participant close
+            # is never reopened this way - only "idle" is reversible.
+            state.closed = False
+            state.close_reason = None
         if event.event_type == "session_started":
             state.mode = payload["mode"]
             state.frame = payload["frame"]

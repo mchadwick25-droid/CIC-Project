@@ -855,7 +855,9 @@ def _handle_table_message_unlocked(
     state = project_fresh(session_id, store)
     if not state.exists:
         raise SessionNotFound(session_id)
-    if state.closed:
+    # An idle close (engine.m4.idle_close) is reporting-only - see
+    # engine.api.wiring.handle_message's own identical comment.
+    if state.closed and state.close_reason != "idle":
         raise SessionClosed(session_id)
     if state.mode != "table":
         raise TableRoundNotOpen(f"session {session_id} is not a table session")
@@ -971,7 +973,9 @@ def _continue_table_round_unlocked(
     state = project_fresh(session_id, store)
     if not state.exists:
         raise SessionNotFound(session_id)
-    if state.closed:
+    # An idle close (engine.m4.idle_close) is reporting-only - see
+    # engine.api.wiring.handle_message's own identical comment.
+    if state.closed and state.close_reason != "idle":
         raise SessionClosed(session_id)
     if state.mode != "table" or not state.round_open:
         raise TableRoundNotOpen(session_id)

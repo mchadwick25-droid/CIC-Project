@@ -1895,3 +1895,62 @@ is invisible to this (and any other) summary.
 close writer built; `open_sessions` in this endpoint's output should
 be read as "never hit a cap," not "currently active," until this gap
 is closed.
+
+### Idle-close writer built, 2026-09-06
+
+Mark reversed the "leave it flagged" call: "build the idle-close
+writer." Before building, one real design question with participant-
+facing stakes, asked rather than assumed: `session_closed` is
+currently a HARD close everywhere it's checked (the turn/round cap's
+own 409-on-any-further-message) - reusing it as-is for "idle" would
+mean a participant returning after the idle threshold gets refused,
+directly contradicting the spec's own resumption promise ("holds the
+session code... granting resumption... without an account"). Mark's
+answer: idle-closing should be reporting-only (participants always
+resumable), 7 days of no activity.
+
+Built accordingly, not by reusing the cap's semantics with a flag
+bolted on, but by making "idle" itself the one reversible close
+reason:
+- `engine/m4/idle_close.py` (new) - `close_idle_sessions(store, now=,
+  idle_after=)` sweeps every session via `Store.list_session_ids`,
+  skips anything already closed (any reason - a cap/participant close
+  is never second-guessed), and appends `session_closed`/`reason:
+  "idle"` to whatever's left whose last event predates the cutoff.
+  `start_background_scheduler` runs it once daily as its own
+  background thread inside the cic-engine process - deliberately NOT
+  folded into `engine/m7/scheduler.py`'s existing daily thread, since
+  M7's own audit is read-only over the event log by explicit design
+  ("a scheduled run can never corrupt or affect a live conversation")
+  and this module's whole job is to write.
+- `engine/m4/projection.py`'s fold: an idle close now reopens the
+  moment any real event follows it (a participant resuming), while a
+  cap/participant close stays permanent - the one place "reversible"
+  actually gets implemented, since everything else (the API gate, the
+  admin summary) reads this same projected state.
+- `engine/api/wiring.py` and `engine/api/table_wiring.py` (both
+  message-handling gates, 3 call sites total): now check
+  `close_reason != "idle"` before refusing a message, not just
+  `closed` - the fold's reopen rule only takes effect on the NEXT
+  read, so the very message that resumes an idle session still needs
+  its own explicit pass here.
+- `engine/m7/session_reader.py`: has its OWN independent event fold
+  (the admin pilot-summary endpoint's reader) - caught before shipping
+  that it needed the identical reopen rule as projection.py's, or the
+  two readers would disagree about a resumed session (transcript:
+  open; admin summary: still "closed, idle").
+
+Tests: `engine/m4/tests/test_idle_close.py` (the sweep itself - closes
+what's stale, leaves what's recent, never re-touches an already-closed
+session, idempotent on repeat sweeps), `engine/m4/tests/
+test_projection.py` and `engine/m7/tests/test_session_reader.py`
+(both folds: idle reopens on real activity, cap never does),
+`engine/api/tests/test_wiring.py` (a resumed idle session gets a real
+answer, not a 409 - the existing cap-close 409 test stays passing
+unchanged), `engine/api/tests/test_admin.py` (the summary itself
+reads a resumed idle session as open). Full suite green (587 passed).
+
+Not yet measured: the sweep has never run against the 48 real pilot
+sessions - the oldest (2026-08-28) is past the 7-day threshold as of
+today and should get picked up the first time this deploys and the
+daily thread fires.

@@ -435,7 +435,12 @@ def handle_message(
     state = project_fresh(session_id, store)
     if not state.exists:
         raise SessionNotFound(session_id)
-    if state.closed:
+    # An idle close (engine.m4.idle_close) is reporting-only - a
+    # participant resuming with their session code is never refused for
+    # it, unlike a real (cap/participant) close. project_fresh's own fold
+    # already reopens state.closed once this message lands, so this is
+    # the one place that still needs to look past it before that happens.
+    if state.closed and state.close_reason != "idle":
         raise SessionClosed(session_id)
 
     # The world pinned at session creation, not the registry's current value -

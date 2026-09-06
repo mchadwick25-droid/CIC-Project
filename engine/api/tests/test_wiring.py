@@ -2,6 +2,7 @@
 translate a TurnResult into the right event-log/usage-log writes, in the
 right order, including the two branches run_turn() itself doesn't fully
 handle content for (crisis, unhandled routing)."""
+import uuid
 from pathlib import Path
 
 import pytest
@@ -488,6 +489,29 @@ def test_the_tenth_completed_turn_still_answers_and_the_eleventh_closes(store, u
             voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
             session_id=session_id, text="are you still there", client_msg_id="msg-after-close",
         )
+
+
+def test_an_idle_closed_session_still_answers_a_resuming_participant(store, usage_store, world_loader, registry):
+    """engine.m4.idle_close's reporting-only contract, from the API side:
+    unlike the cap close proven above, an idle close never raises
+    SessionClosed - a participant coming back with their session code
+    gets a real answer, not a 409."""
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="session_closed", payload={"reason": "idle"})
+
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    result = wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="still there?", client_msg_id="msg-after-idle",
+    )
+    assert result.voice is not None
+
+    state = wiring.get_transcript(store, session_id)
+    assert state.closed is False
 
 
 def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_loader, registry):
