@@ -271,3 +271,31 @@ rather than requiring a separate mechanism — steps 6 and 7 added to its standi
 prompt. Neither logs anything on a routine sweep unless there's something to report
 (M7: a real content-quality finding, surfaced to Mark, never judged by this thread;
 fleet watch: the one-time crossing of 15, then done).
+
+---
+
+## 2026-09-06 — A genuine GitHub Actions infra flake, root-caused and confirmed, no
+## code touched
+
+**All 13 CI jobs failed on `main`'s tip (`a942ea5a`, merging PR #110 "Build the
+idle-close writer, reporting-only")** — including jobs with nothing to do with that
+PR's diff (Docker build, `Validate world-census.json`, Prose primitives). Every job
+"failed" within 1-3 seconds.
+
+**Root-caused, not assumed.** Checked each job's own detail record before touching
+anything: `runner_id: 0`, no `steps` array, zero log content on every one of them
+(`get_job_logs` 404'd). That signature means these jobs never got a runner allocated
+at all — a GitHub Actions provisioning failure, not a repo problem. Confirmed the
+commit itself touched no CI/workflow config (just Python feature code across
+`engine/api` and `engine/m4`), ruling out a code-caused break before calling this
+infra.
+
+**Confirmed, not guessed, per this thread's own "a flake needs one re-run" rule:**
+triggered `rerun_workflow_run` on the same commit rather than assuming. The re-run got
+a real runner and came back clean (attempt 2, all 13 jobs green). No code change, no
+push — the fix was that GitHub's own infrastructure recovered, this repo was never
+broken.
+
+**Next action:** none. Recorded so a future sweep seeing this exact
+zero-runner/zero-log signature again recognizes it immediately rather than re-deriving
+the diagnosis from scratch.
