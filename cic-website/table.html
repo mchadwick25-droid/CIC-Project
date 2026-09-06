@@ -102,11 +102,15 @@ p{margin:0 0 1rem}
 
 .ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 auto 1.75rem;max-width:var(--measure);text-align:left}
 
-.convene{text-align:center;padding:0 1.25rem 1rem}
+.primary-actions{display:flex;flex-direction:column;align-items:center;gap:.9rem;margin:0 0 .5rem}
+.secondary-link{font-family:var(--sans);font-size:.9rem;color:var(--muted);text-decoration:underline;text-underline-offset:.2em}
+.secondary-link:hover,.secondary-link:focus-visible{color:var(--action)}
 .btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:1rem;line-height:1.2;padding:.75rem 1.5rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
 .btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
-.btn[aria-disabled="true"]{background:var(--surface);color:var(--muted);border-color:var(--rule);cursor:default;pointer-events:none}
-.convene .count{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:.75rem 0 0}
+
+.choose-table{text-align:center;padding:2.5rem 1.25rem 1rem;border-top:1px solid var(--rule)}
+.choose-heading{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 1.25rem}
+.count{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:.75rem 0 0}
 .caveat{font-family:var(--sans);font-size:.9rem;color:var(--muted);max-width:var(--measure);margin:1.5rem auto 0;text-align:center}
 .noscript-note{font-family:var(--sans);font-size:.9rem;color:var(--muted);max-width:var(--measure);margin:1rem auto;text-align:center;border:1px solid var(--rule);padding:.9rem 1.1rem;border-radius:3px}
 
@@ -127,7 +131,13 @@ p{margin:0 0 1rem}
 .choices .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
 .choices .name{font-family:var(--serif);font-weight:700;font-size:1rem;color:var(--text)}
 .choices .trad{font-family:var(--sans);font-size:.8125rem;color:var(--muted)}
+.choices .ctx{font-family:var(--sans);font-size:.75rem;color:var(--muted)}
 .choices .taken{font-family:var(--sans);font-size:.75rem;color:var(--muted);margin-left:auto}
+.tile-tip{position:fixed;z-index:40;max-width:280px;background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:.6rem .8rem;box-shadow:0 6px 20px rgba(0,0,0,.2);pointer-events:none}
+.tile-tip[hidden]{display:none}
+.tile-tip .tip-name{font-family:var(--serif);font-weight:700;font-size:.95rem;color:var(--text)}
+.tile-tip .tip-trad{font-family:var(--sans);font-size:.75rem;color:var(--muted);margin:0 0 .3rem}
+.tile-tip .tip-desc{font-family:var(--sans);font-size:.8125rem;line-height:1.4;color:var(--text)}
 .info{display:flex;flex-direction:column}
 .info[hidden]{display:none}
 .info .back{display:flex;width:100%;align-items:center;gap:.3rem;font:inherit;font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--action);background:none;border:0;padding:.8rem .1rem;margin:0 0 1rem;cursor:pointer;min-height:44px;text-align:left}
@@ -184,7 +194,16 @@ p{margin:0 0 1rem}
     <section class="hero" aria-labelledby="hook">
       <p class="eyebrow">The Table</p>
       <h1 id="hook">Set your own table</h1>
-      <p class="lede">You're already seated. Choose up to three traditions to join you — each speaks from its own record, in its own voice. No one at this table is the host.</p>
+      <p class="lede">Up to three traditions join you at once — each speaks from its own record, in its own voice. No one at this table is the host.</p>
+
+      <div class="primary-actions">
+        <a class="btn" id="convene-link" href="talk.html?mode=table&amp;from=table.html">Launch the Table →</a>
+        <a class="secondary-link" href="#chooseTable">Change who's at the table</a>
+      </div>
+    </section>
+
+    <section class="choose-table" id="chooseTable" aria-labelledby="chooseHeading">
+      <p class="choose-heading" id="chooseHeading">Change who's at the table</p>
 
       <div class="table-graphic play" id="tableGraphic" aria-hidden="true">
         <svg viewBox="0 0 280 280">
@@ -206,14 +225,11 @@ p{margin:0 0 1rem}
       </div>
 
       <p class="ai-line">Each voice you seat is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out.</p>
-    </section>
-
-    <div class="convene">
-      <a class="btn" id="convene-link" href="talk.html?mode=table&amp;from=table.html" aria-disabled="true">Choose at least two to open the conversation</a>
       <p class="count" id="convene-count" aria-live="polite">0 of 3 seats filled.</p>
       <noscript><p class="noscript-note">Choosing seats here needs JavaScript. You can still <a href="https://cic-engine.onrender.com/?mode=table">open an empty table and choose there →</a></p></noscript>
-      <p class="caveat">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
-    </div>
+    </section>
+
+    <p class="caveat">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
   </div>
 </main>
 
@@ -256,6 +272,25 @@ var WORLDS = [
   { id:'cappadocian-nicene-pastoral-monastic-tradition', name:'Chilo', trad:'The Cappadocian Churches', img:'assets/portraits/cappadocian.jpg', tint:'#A0522D', desc:'Cappadocia and Pontus, c. 325–394 CE — brotherhoods who fed the hungry and fought for one word.' },
   { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#9d174d', desc:'Rome and Bethlehem, c. 382–420 CE — scholars and ascetics testing Scripture against its own Hebrew.' }
 ];
+
+var tileTip = document.createElement('div');
+tileTip.className = 'tile-tip';
+tileTip.setAttribute('role', 'tooltip');
+tileTip.hidden = true;
+document.body.appendChild(tileTip);
+
+function showTileTip(target, w){
+  tileTip.innerHTML = '<div class="tip-name">' + w.name + '</div><div class="tip-trad">' + w.trad + '</div><div class="tip-desc">' + w.desc + '</div>';
+  tileTip.hidden = false;
+  var r = target.getBoundingClientRect();
+  var th = tileTip.offsetHeight;
+  var top = r.bottom + 6;
+  if (top + th > window.innerHeight - 8) top = r.top - th - 6;
+  if (top < 8) top = 8;
+  tileTip.style.left = Math.max(8, r.left) + 'px';
+  tileTip.style.top = top + 'px';
+}
+function hideTileTip(){ tileTip.hidden = true; }
 
 var seated = [null, null, null];
 var params = new URLSearchParams(window.location.search);
@@ -317,18 +352,11 @@ function renderSeat(i){
 
 function renderAll(){
   for (var i = 0; i < 3; i++) renderSeat(i);
-  var filled = seated.filter(Boolean).length;
-  conveneCount.textContent = filled + ' of 3 seats filled.';
-  if (filled >= 2) {
-    var url = 'talk.html?worlds=' + seated.filter(Boolean).join(',') + '&mode=table&from=table.html';
-    conveneLink.href = url;
-    conveneLink.removeAttribute('aria-disabled');
-    conveneLink.textContent = 'Open the conversation';
-  } else {
-    conveneLink.href = 'talk.html?mode=table&from=table.html';
-    conveneLink.setAttribute('aria-disabled', 'true');
-    conveneLink.textContent = 'Choose at least two to open the conversation';
-  }
+  var chosen = seated.filter(Boolean);
+  conveneCount.textContent = chosen.length + ' of 3 seats filled.';
+  conveneLink.href = chosen.length
+    ? 'talk.html?worlds=' + chosen.join(',') + '&mode=table&from=table.html'
+    : 'talk.html?mode=table&from=table.html';
 }
 
 function showList(){
@@ -364,11 +392,16 @@ function openChooser(seatIndex){
     btn.type = 'button';
     btn.disabled = takenElsewhere;
     btn.style.setProperty('--tint', w.tint);
+    var ctx = w.desc.split('—')[0].trim();
     btn.innerHTML = '<span class="portrait"><img src="' + w.img + '" alt="" loading="lazy" decoding="async"></span>' +
-      '<span><span class="name">' + w.name + '</span><br><span class="trad">' + w.trad + '</span></span>' +
+      '<span><span class="name">' + w.name + '</span><br><span class="trad">' + w.trad + '</span><br><span class="ctx">' + ctx + '</span></span>' +
       (takenElsewhere ? '<span class="taken">Already seated</span>' : '');
     if (!takenElsewhere) {
-      btn.addEventListener('click', function(w){ return function(){ showInfo(w); }; }(w));
+      btn.addEventListener('click', function(w){ return function(){ hideTileTip(); showInfo(w); }; }(w));
+      btn.addEventListener('mouseenter', function(w){ return function(e){ showTileTip(e.currentTarget, w); }; }(w));
+      btn.addEventListener('mouseleave', hideTileTip);
+      btn.addEventListener('focus', function(w){ return function(e){ showTileTip(e.currentTarget, w); }; }(w));
+      btn.addEventListener('blur', hideTileTip);
     }
     li.appendChild(btn);
     choicesList.appendChild(li);
@@ -383,6 +416,7 @@ function closeChooser(){
   if (activeSeat !== null) seatButtons[activeSeat].focus();
   activeSeat = null;
   viewedWorld = null;
+  hideTileTip();
 }
 function onPanelKey(e){ if (e.key === 'Escape') closeChooser(); }
 closeBtn.addEventListener('click', closeChooser);
