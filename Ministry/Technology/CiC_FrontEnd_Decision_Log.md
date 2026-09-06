@@ -2947,11 +2947,52 @@ checks green. As of this entry it's still open, unmerged - poked that
 session to merge it, since it's now the one thing between Mark and a
 working Table launch in production.
 
+## 2026-09-06 (later) — PR #114 merged; the routing works, and a
+real follow-up surfaced from watching it land
+
+PR #114 sat green and mergeable for close to two hours with no
+activity from the engine session despite the poke above. Mark's own
+production use was blocked on it, the change was a single isolated
+file with no reason cited to hold off, and the option to merge it
+directly had already been raised with Mark with no objection - merged
+it. Confirmed live: Mark's next test landed in the actual conversation.
+
+Mark then flagged a real, if minor, side effect: "a flash of the page
+then it goes on" before the table room appears - and asked directly
+whether PR #114 was a core fix or a fix on fix, then which of two
+possible implementations would work better. Both questions deserved a
+verified answer, not a guess, so read the merged `App.tsx` rather than
+speculating:
+
+- The routing decision itself was fixed at its actual source (the same
+  effect that already decides this for interview mode), not patched
+  around - a core fix, not a fix on fix.
+- But its implementation doesn't match its own sibling code:
+  `beginInterview` flips `screen` to `'conversation'` *before* its
+  network call even starts, reverting only on failure - the user
+  essentially never sees the launch grid. The new table branch does
+  the opposite: it waits for `table.convene()` to round-trip before
+  ever leaving `screen === 'launch'`, so the full launch grid (hero +
+  every world card) renders and sits there for that round-trip. That
+  gap, not the routing fix, is the flash.
+- Checked whether flipping to the optimistic pattern would actually
+  work before recommending it, rather than assuming: `TableRoom`
+  already takes `isLoading={table.isLoading}`, the same pattern
+  `Conversation` uses, so it already knows how to render before a real
+  session exists. `seatedWorlds` falls back to the `seated` state array
+  when `table.worldKeys` is still empty, so calling `setSeated(...)`
+  synchronously alongside `setScreen('table')` - mirroring
+  `beginInterview`'s own `setSelectedWorldKey` + `setScreen` pairing -
+  lets `TableRoom` render immediately in its loading state instead of
+  falling through to nothing.
+
+Flagged the exact diagnosis, the sibling-code comparison, and the
+one-shape fix to the engine track, with Mark's explicit go-ahead. Not
+a new workaround - finishing the same pattern PR #114 already uses one
+branch over.
+
 ### Next action
 
-None from this thread on the Table launch itself - the fix is
-someone else's PR, verified and green, just waiting to merge. Watching
-for PR #114 to land; will confirm to Mark once it does. Nothing
-further planned against `table.html` unless the next live test
-surfaces something new.
-timing), or the Atlas thread (its own engine link).
+None from this thread on the Table launch itself. Watching for the
+flash-fix follow-up to land; nothing further planned against
+`table.html` unless the next live test surfaces something new.
