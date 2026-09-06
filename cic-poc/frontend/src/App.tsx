@@ -126,17 +126,25 @@ function App() {
         if (uniqueLinked.length >= 2) {
           // 2026-09-06: auto-convene, same as interview's frictionless
           // arrival - Mark's reversal of the original "never auto-creates
-          // a session" rule. Falling back to the seat-and-focus path below
-          // if convene() itself fails keeps a broken table from stranding
-          // the participant with nothing on screen.
+          // a session" rule. Optimistic, mirroring beginInterview two
+          // lines below exactly: setScreen('table') fires before
+          // convene()'s round trip even starts, not inside its .then() -
+          // the first version set it only on success, which left the full
+          // Launch screen (hero, every world card) rendered and sitting
+          // there for the round trip, then swapped out - a visible flash
+          // (Mark, live test). TableRoom already renders sensibly on
+          // table.isLoading with seatedWorlds falling back to `seated`
+          // before table.worldKeys exists, same as Conversation does
+          // mid-beginInterview. Reverting to 'launch' below is still the
+          // failure path if convene() itself comes back empty.
           consumeDeepLink();
+          setSeated(uniqueLinked);
+          setScreen('table');
           table.convene(uniqueLinked).then((sessionId) => {
-            if (sessionId) {
-              setScreen('table');
-              return;
+            if (!sessionId) {
+              setScreen('launch');
+              setTableFocus(true);
             }
-            setSeated(uniqueLinked);
-            setTableFocus(true);
           });
           return;
         }
