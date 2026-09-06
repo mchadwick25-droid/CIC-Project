@@ -354,9 +354,17 @@ function renderAll(){
   for (var i = 0; i < 3; i++) renderSeat(i);
   var chosen = seated.filter(Boolean);
   conveneCount.textContent = chosen.length + ' of 3 seats filled.';
-  conveneLink.href = chosen.length
-    ? 'talk.html?worlds=' + chosen.join(',') + '&mode=table&from=table.html'
-    : 'talk.html?mode=table&from=table.html';
+  var launchWorlds = chosen.length ? chosen : randomTrio();
+  conveneLink.href = 'talk.html?worlds=' + launchWorlds.join(',') + '&mode=table&from=table.html';
+}
+
+function randomTrio(){
+  var pool = WORLDS.map(function(w){ return w.id; });
+  var picks = [];
+  while (picks.length < 3 && pool.length) {
+    picks.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+  }
+  return picks;
 }
 
 function showList(){
