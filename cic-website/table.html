@@ -102,14 +102,17 @@ p{margin:0 0 1rem}
 
 .ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 auto 1.75rem;max-width:var(--measure);text-align:left}
 
-.primary-actions{display:flex;flex-direction:column;align-items:center;gap:.9rem;margin:0 0 .5rem}
-.secondary-link{font-family:var(--sans);font-size:.9rem;color:var(--muted);text-decoration:underline;text-underline-offset:.2em}
-.secondary-link:hover,.secondary-link:focus-visible{color:var(--action)}
+.primary-actions{text-align:center;padding:0 1.25rem;margin:0 0 .5rem}
 .btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:1rem;line-height:1.2;padding:.75rem 1.5rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
 .btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
 
-.choose-table{text-align:center;padding:2.5rem 1.25rem 1rem;border-top:1px solid var(--rule)}
-.choose-heading{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 1.25rem}
+.choose-table{text-align:center;padding:0 1.25rem 1.5rem}
+.choose-heading{font-family:var(--sans);font-size:.9375rem;color:var(--text);font-weight:600;margin:0 0 1.25rem}
+.roster-label{font-family:var(--sans);font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .8rem}
+.roster{list-style:none;margin:0 auto 1.75rem;padding:0;max-width:34rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem .9rem}
+.roster li{display:flex;flex-direction:column;align-items:center;gap:.35rem;width:64px}
+.roster img{width:38px;height:38px;border-radius:50%;object-fit:cover;object-position:50% 22%;border:2px solid var(--tint,var(--control))}
+.roster span{font-family:var(--sans);font-size:.7rem;line-height:1.2;color:var(--muted);text-align:center}
 .count{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:.75rem 0 0}
 .caveat{font-family:var(--sans);font-size:.9rem;color:var(--muted);max-width:var(--measure);margin:1.5rem auto 0;text-align:center}
 .noscript-note{font-family:var(--sans);font-size:.9rem;color:var(--muted);max-width:var(--measure);margin:1rem auto;text-align:center;border:1px solid var(--rule);padding:.9rem 1.1rem;border-radius:3px}
@@ -195,15 +198,10 @@ p{margin:0 0 1rem}
       <p class="eyebrow">The Table</p>
       <h1 id="hook">Set your own table</h1>
       <p class="lede">Up to three traditions join you at once — each speaks from its own record, in its own voice. No one at this table is the host.</p>
-
-      <div class="primary-actions">
-        <a class="btn" id="convene-link" href="talk.html?mode=table&amp;from=table.html">Launch the Table →</a>
-        <a class="secondary-link" href="#chooseTable">Change who's at the table</a>
-      </div>
     </section>
 
-    <section class="choose-table" id="chooseTable" aria-labelledby="chooseHeading">
-      <p class="choose-heading" id="chooseHeading">Change who's at the table</p>
+    <section class="choose-table" aria-labelledby="chooseHeading">
+      <p class="choose-heading" id="chooseHeading">Click an open seat below to choose who joins you</p>
 
       <div class="table-graphic play" id="tableGraphic" aria-hidden="true">
         <svg viewBox="0 0 280 280">
@@ -224,10 +222,17 @@ p{margin:0 0 1rem}
         </button>
       </div>
 
+      <p class="roster-label">Who's available</p>
+      <ul class="roster" id="roster"></ul>
+
       <p class="ai-line">Each voice you seat is a representative voice, not a person who lived — built from that tradition's own letters and records, and honest about where they run out.</p>
       <p class="count" id="convene-count" aria-live="polite">0 of 3 seats filled.</p>
       <noscript><p class="noscript-note">Choosing seats here needs JavaScript. You can still <a href="https://cic-engine.onrender.com/?mode=table">open an empty table and choose there →</a></p></noscript>
     </section>
+
+    <div class="primary-actions">
+      <a class="btn" id="convene-link" href="talk.html?mode=table&amp;from=table.html">Have the Facilitator set the table →</a>
+    </div>
 
     <p class="caveat">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
   </div>
@@ -272,6 +277,13 @@ var WORLDS = [
   { id:'cappadocian-nicene-pastoral-monastic-tradition', name:'Chilo', trad:'The Cappadocian Churches', img:'assets/portraits/cappadocian.jpg', tint:'#A0522D', desc:'Cappadocia and Pontus, c. 325–394 CE — brotherhoods who fed the hungry and fought for one word.' },
   { id:'hieronymian-ascetic-literary', name:'Albina', trad:'The Bethlehem Circle', img:'assets/portraits/bethlehem.png', tint:'#9d174d', desc:'Rome and Bethlehem, c. 382–420 CE — scholars and ascetics testing Scripture against its own Hebrew.' }
 ];
+
+var roster = document.getElementById('roster');
+WORLDS.forEach(function(w){
+  var li = document.createElement('li');
+  li.innerHTML = '<img src="' + w.img + '" alt="" loading="lazy" decoding="async" style="--tint:' + w.tint + '"><span>' + w.name + '</span>';
+  roster.appendChild(li);
+});
 
 var tileTip = document.createElement('div');
 tileTip.className = 'tile-tip';
@@ -356,6 +368,7 @@ function renderAll(){
   conveneCount.textContent = chosen.length + ' of 3 seats filled.';
   var launchWorlds = chosen.length ? chosen : randomTrio();
   conveneLink.href = 'talk.html?worlds=' + launchWorlds.join(',') + '&mode=table&from=table.html';
+  conveneLink.textContent = chosen.length ? 'Launch the Table →' : 'Have the Facilitator set the table →';
 }
 
 function randomTrio(){
