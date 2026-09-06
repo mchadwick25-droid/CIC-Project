@@ -67,6 +67,16 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
             session.first_at = ev.created_at
         session.event_count += 1
         session.last_at = ev.created_at
+        if session.closed and session.close_reason == "idle" and ev.event_type != "session_closed":
+            # Mirrors engine.m4.projection._fold's identical reopen rule
+            # (2026-09-06): an idle close is reporting-only, and real
+            # activity after one un-marks it - this reader must agree with
+            # that fold, or a resumed session would read "closed (idle)"
+            # here (engine.api.wiring.get_pilot_summary's own source) while
+            # reading open everywhere a participant or the API actually
+            # looks. A cap/participant close is never reopened this way.
+            session.closed = False
+            session.close_reason = None
         if ev.event_type == "participant_message":
             session.participant_messages.append({"seq": ev.seq, "text": p.get("text", "")})
         elif ev.event_type == "gate_decision":

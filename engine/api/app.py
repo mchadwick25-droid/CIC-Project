@@ -23,7 +23,7 @@ from pydantic import BaseModel
 
 from engine.api import ratelimit, table_wiring, wiring
 from engine.api.config import REPO_ROOT, Settings
-from engine.m4 import session_code
+from engine.m4 import idle_close, session_code
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader, PackageRefused
@@ -473,6 +473,13 @@ def _build_real_app() -> FastAPI:
     m7_scheduler.start_background_scheduler(
         settings.events_db_path, Path(settings.events_db_path).parent / "m7-audits"
     )
+
+    # Idle-close sweep (2026-09-06): a separate daily background thread,
+    # deliberately not folded into M7's own scheduler above - M7 is
+    # read-only over the event log by design, and this sweep's whole job
+    # is to write session_closed/reason="idle" (engine.m4.idle_close's own
+    # docstring). Reporting-only: never blocks a participant resuming.
+    idle_close.start_background_scheduler(settings.events_db_path)
 
     return create_app(
         voice_client=client,
