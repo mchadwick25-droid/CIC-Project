@@ -299,3 +299,29 @@ broken.
 **Next action:** none. Recorded so a future sweep seeing this exact
 zero-runner/zero-log signature again recognizes it immediately rather than re-deriving
 the diagnosis from scratch.
+
+---
+
+## 2026-09-07 — `main` now requires PRs: this thread's direct-push convention changes
+
+**Found during routine push of the entry above.** `git push origin main` for the
+infra-flake log entry (`d998c5ae`) failed: `GH013: Repository rule violations...
+Changes must be made through a pull request... 11 of 11 required status checks are
+expected.` Every earlier push this thread made landed directly on `main` without this
+gate — this is a new branch-protection rule, not something previously missed.
+
+Pushed the pending commit to this thread's own branch instead (succeeded, confirming
+the block is `main`-specific, not a general push failure), then raised it to Mark
+rather than guessing at a workaround or unilaterally opening a PR. Mark's direction:
+**"go ahead and open a PR for it."**
+
+**Opened PR #119** (`claude/cic-system-health-ln97i3` → `main`), carrying just the
+`d998c5ae` tracking-doc entry — no code changes. Subscribed this thread to its
+activity; will drive it to green across the 11 required checks per this thread's
+normal PR-stewardship posture for PRs it creates.
+
+**Standing-practice note:** absent a stated exception from Mark, this thread's
+mechanical/non-judgmental fixes now go through a PR rather than a direct push to
+`main`. The underlying bar for *what* counts as a fix this thread can push (mechanical,
+non-judgmental, repo-wide) is unchanged — only the *mechanism* (PR instead of direct
+push) has changed.
