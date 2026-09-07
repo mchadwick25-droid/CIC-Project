@@ -325,3 +325,18 @@ mechanical/non-judgmental fixes now go through a PR rather than a direct push to
 `main`. The underlying bar for *what* counts as a fix this thread can push (mechanical,
 non-judgmental, repo-wide) is unchanged — only the *mechanism* (PR instead of direct
 push) has changed.
+
+**Closed out.** PR #119 landed green: all 13 CI jobs passed on its final commit
+(`f4e3f09d`) and GitHub reported `mergeable_state: clean`, no conflicts, no open
+review threads (only bot deploy-preview comments from Netlify/Cloudflare). Asked
+Mark directly whether this thread should merge its own green, mechanical-fix PRs
+going forward or leave merging to him — **Mark's answer: merge them, standing
+authorization, not just this one.** Merged #119 (`ac183ade`, merge commit — this
+repo has squash merges disabled, so `merge_method: "merge"` was used instead) and
+confirmed on `origin/main`. Unsubscribed from #119's activity and deleted the
+one-hour check-in trigger, both no longer needed once merged.
+
+**Standing-practice note, updated:** this thread now has authorization to both open
+*and merge* its own PRs for mechanical/non-judgmental fixes, once all required status
+checks are green and there's no merge conflict — no per-PR check-in with Mark needed
+for that merge step going forward.
