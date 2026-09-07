@@ -271,3 +271,57 @@ rather than requiring a separate mechanism — steps 6 and 7 added to its standi
 prompt. Neither logs anything on a routine sweep unless there's something to report
 (M7: a real content-quality finding, surfaced to Mark, never judged by this thread;
 fleet watch: the one-time crossing of 15, then done).
+
+---
+
+## 2026-09-06 — A genuine GitHub Actions infra flake, root-caused and confirmed, no
+## code touched
+
+**All 13 CI jobs failed on `main`'s tip (`a942ea5a`, merging PR #110 "Build the
+idle-close writer, reporting-only")** — including jobs with nothing to do with that
+PR's diff (Docker build, `Validate world-census.json`, Prose primitives). Every job
+"failed" within 1-3 seconds.
+
+**Root-caused, not assumed.** Checked each job's own detail record before touching
+anything: `runner_id: 0`, no `steps` array, zero log content on every one of them
+(`get_job_logs` 404'd). That signature means these jobs never got a runner allocated
+at all — a GitHub Actions provisioning failure, not a repo problem. Confirmed the
+commit itself touched no CI/workflow config (just Python feature code across
+`engine/api` and `engine/m4`), ruling out a code-caused break before calling this
+infra.
+
+**Confirmed, not guessed, per this thread's own "a flake needs one re-run" rule:**
+triggered `rerun_workflow_run` on the same commit rather than assuming. The re-run got
+a real runner and came back clean (attempt 2, all 13 jobs green). No code change, no
+push — the fix was that GitHub's own infrastructure recovered, this repo was never
+broken.
+
+**Next action:** none. Recorded so a future sweep seeing this exact
+zero-runner/zero-log signature again recognizes it immediately rather than re-deriving
+the diagnosis from scratch.
+
+---
+
+## 2026-09-07 — `main` now requires PRs: this thread's direct-push convention changes
+
+**Found during routine push of the entry above.** `git push origin main` for the
+infra-flake log entry (`d998c5ae`) failed: `GH013: Repository rule violations...
+Changes must be made through a pull request... 11 of 11 required status checks are
+expected.` Every earlier push this thread made landed directly on `main` without this
+gate — this is a new branch-protection rule, not something previously missed.
+
+Pushed the pending commit to this thread's own branch instead (succeeded, confirming
+the block is `main`-specific, not a general push failure), then raised it to Mark
+rather than guessing at a workaround or unilaterally opening a PR. Mark's direction:
+**"go ahead and open a PR for it."**
+
+**Opened PR #119** (`claude/cic-system-health-ln97i3` → `main`), carrying just the
+`d998c5ae` tracking-doc entry — no code changes. Subscribed this thread to its
+activity; will drive it to green across the 11 required checks per this thread's
+normal PR-stewardship posture for PRs it creates.
+
+**Standing-practice note:** absent a stated exception from Mark, this thread's
+mechanical/non-judgmental fixes now go through a PR rather than a direct push to
+`main`. The underlying bar for *what* counts as a fix this thread can push (mechanical,
+non-judgmental, repo-wide) is unchanged — only the *mechanism* (PR instead of direct
+push) has changed.
