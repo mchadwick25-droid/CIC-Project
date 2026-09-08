@@ -996,3 +996,43 @@
     cyprian_treatises-lat_hartel1868.txt (Pars I) and cyprian_epistulae-lat_hartel1871.txt (Pars II).
     This volume also contains genuinely spurious/pseudo-Cyprianic works (the "Opera Spuria" proper)
     and general indices for the whole edition - neither surveyed this pass.
+- filename: codex-ecclesiae-africanae-lat_bruns1839.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Hermann Theodor Bruns (ed.), Canones Apostolorum et Conciliorum Veterum Selecti (Berlin, 1839) -
+    target text is the Codex Ecclesiae Africanae (Council of Carthage 419 and antecedent African
+    councils back to 348), already assigned in the Latin Pastoral-Congregational corpus map from the
+    English NPNF214 translation only. Confirmed present: running header "CODEX ECCLESIAE AFRICANAE,"
+    the 419 session's own opening with the Roman legates present, and Concilium Carthaginense I-IV
+    (348-398) plus the Breviarium Hipponense (393). NOT present: the Sententiae LXXXVII Episcoporum
+    (Carthage 256), already covered by the vendored Cyprian CSEL 3. A companion item
+    (canonesapostolo01brungoog, "Pars Altera") was checked and found not to carry this material.
+- filename: possidius-vita-augustini-lat-en_weiskotten1919.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Herbert T. Weiskotten (ed. and trans.), Sancti Augustini Vita Scripta a Possidio Episcopo
+    (Princeton University Press, 1919), Latin text with parallel English translation. A NEW find, not
+    a gap-fill for an existing assignment - Possidius's Vita Augustini is absent from every NPNF
+    volume and was not in any corpus map prior to this pass (confirmed via direct grep of
+    cic/corpus-map/), though it was already named as a known hole in world-build-docs/_cross-world/
+    BRIEF-corpus-assignment-thread.md. Confirmed present: title page (Weiskotten, Princeton, 1919)
+    and Latin incipit ("Inspirante rerum omnium factore et gubernatore Deo..."). Contains the single
+    eyewitness primary account of Augustine's own death during the Vandal siege of Hippo (430),
+    chapters XXVIII-XXIX. Corpus-map assignment not yet made - a boundary question for this world's
+    own Doc_01.
+- filename: chronica-minora-liber-genealogus_mommsen1892.txt
+  supplied_by: Fable research agent for sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Theodor Mommsen (ed.), Chronica Minora Saec. IV-VII, Volumen I (MGH Auctores Antiquissimi IX,
+    Berlin, 1892) - same archive.org item and same filename as the Donatism world's own vendoring of
+    this file (2026-09-08, branch claude/record-native-world-build-v2-e2s0dt), deliberately reused
+    rather than renamed so the two branches reconcile on merge. For THIS world (Latin
+    Pastoral-Congregational), the target text is Prosperi Tironis Epitoma Chronicon (p. 341 on),
+    confirmed present with three entries read in full: Augustine's own death during the Vandal siege
+    of Hippo (a. 430, no. 1304), the persecution of Catholic bishops under Geiseric (a. 435, no.
+    1327), and the Vandal capture of Carthage (a. 439, no. 1339) - fixing this world's own terminus
+    with a second independent witness alongside Possidius's Vita Augustini. (For the Donatism
+    world's own use of this same file, see that world's Registry row 21 - the Liber Genealogus.)
