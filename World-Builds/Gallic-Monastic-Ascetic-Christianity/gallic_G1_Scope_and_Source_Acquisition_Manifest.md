@@ -74,27 +74,28 @@ which is actually the total with *Cassian* removed and *Hilary* still in — see
 under Part A above.) All of it already inside `cic/texts/`; zero new downloads, zero new rights
 determinations, zero licensing questions (NPNF is public domain throughout).
 
-**Honest gaps, not pursued now:** Prosper of Aquitaine's own writings (he is named throughout as the
-reporter and one of the two addressees, but has no separately vendored voice in this library — he is
-known only through Augustine's replies to him). **Faustus of Riez** — abbot of Lérins from 433 (inside
-this world's window) and later bishop of Riez, whose *De Gratia* (474) is the most direct surviving
-Gallic-monk answer to Augustine's own position, checked 2026-09-08 (sibling-flagged lead, verified
-independently): not vendored anywhere in this project's library (only passing footnote/apparatus
-mentions of Faustus turn up in other volumes' editorial matter, confirmed via full-text search); no
-public-domain English translation exists — the only English edition is a 2023 Brepols bilingual
-scholarly edition, licensed, not open-source. *De Gratia* itself was also written in 474, after
-Faustus became bishop, past this world's own proposed c. 450 close (§2.4) — a genuine double
-reason not to chase it now, not merely a rights blocker. Both gaps are worth a PRESS-style discovery
-check at B-1b, not a blocker for Phase A. No source in this world's citable window is known to be
-paywalled, physical-only, or otherwise genuinely inaccessible — nothing to escalate under V3's
-narrowed G1 exception.
+**Two gaps first logged as "not pursued now" have since been closed as located leads, not left open**
+(corrected 2026-09-08, after Doc_01's Round 2 review finding N6b, which found this file disposing of
+Faustus three incompatible ways): Prosper of Aquitaine's own writings and Faustus of Riez's *De
+Gratia* were both originally flagged here as unvendored gaps; both are now independently located,
+rights-checked, and carried in the single leads table below — **superseding, not duplicating, this
+paragraph's original framing.** Faustus's own English-translation and rights situation stands as
+first found (no public-domain English edition exists — only a licensed 2023 Brepols bilingual
+edition — so the Latin original is what the table below carries, second-witness rule); the treatise's
+own date is corrected to **c. 473–475** (matching Doc_01 §2.4's synod dating, not the single
+unlabelled "474" this file first carried). **One disposition, stated once:** both are Doc_02's own
+intake queue, not a G1-lane action ahead of it, and not a PRESS-style discovery item still to be
+found — the discovery is done; the intake is what remains. No source in this world's citable window
+is known to be paywalled, physical-only, or otherwise genuinely inaccessible — nothing to escalate
+under V3's narrowed G1 exception.
 
-**Further leads located and rights-checked (sibling session, 2026-09-08), not yet vendored — ready
-for Doc_02's own intake pass, not chased mid-Doc_01-review:**
+**Leads located and rights-checked (sibling session, 2026-09-08, this build thread's own
+verification noted per row), not yet vendored — ready for Doc_02's own intake pass, not chased
+mid-Doc_01-review:**
 
 | work | author | where | rights | note |
 |---|---|---|---|---|
-| *De Gratia* (2 books) | Faustus of Riez | archive.org `corpusscriptorum21fausuoft` (CSEL 21, Engelbrecht 1891) | public domain (`NOT_IN_COPYRIGHT`), independently re-verified by this build thread — see Doc_01 §2.4 | Latin only; second-witness rule applies |
+| *De gratia libri duo* | Faustus of Riez | archive.org `corpusscriptorum21fausuoft` — catalogued title *"Fausti Reiensis Praeter sermones pseudo-eusebianos opera: accedunt Ruricii epistulae"* (ed. Engelbrecht, CSEL 21, 1891) [title corrected 2026-09-08 per Doc_01 Round 2 finding N5 — an earlier note here gave an invented short title] | public domain (`NOT_IN_COPYRIGHT`), independently re-verified by this build thread — see Doc_01 §2.4 | Latin only; second-witness rule applies; written c. 473–475 at the request of the synods of Arles and Lyons |
 | *De Contemptu Mundi* | Eucherius of Lyon | `ccel.org/ccel/eucherius/contempt/contempt.i.html` (tr. Henry Vaughan, 1654) | public domain, CCEL's own page states so plainly | **English** — a genuine third Lérins-insider voice alongside Cassian and Vincent, different genre (epistolary renunciation essay); whether the CCEL page is complete or excerpted was not confirmed and should be checked at intake |
 | *De Laude Eremi* (to Hilary of Arles, c. 428) | Eucherius of Lyon | archive.org `patrologiae_cursus_completus_lat_vol_050` (Migne PL 50, 1846), line 57093 of the OCR text | public domain (CC Public Domain Mark, genuine Google Books scan, verified) | Latin only |
 | *Sermo de Vita Sancti Honorati* (Life of Honoratus, Lérins' founder) | Hilary of Arles | same Migne PL 50 volume, line 102068 (indexed at 101883) | same volume, same rights basis | Latin only; this world currently has **zero** Lérins-founding narrative in the primary corpus — this is the direct from-inside counterpart to Sulpitius's *Life of Martin*. Same volume carries further Hilary of Arles material near line 102186 worth mapping at intake |
@@ -129,7 +130,13 @@ imperial-juridical-christianity, latin-pastoral-congregational-christianity, or 
    Perseverance*** — the sibling-flagged item: already vendored via the Latin Pastoral-Congregational
    build, assigned to `pelagianism` and `latin-pastoral-congregational-christianity` only. Added to
    this world with a real distinction the case document's own summary had blurred: only the latter
-   two are actually addressed to Prosper and Hilary of Arles (`assigned`); *On Rebuke and Grace* was
+   two are actually addressed to Prosper and a correspondent named "Hilary" (`assigned`) — **corrected
+   2026-09-08, after Doc_01's Round 2 review (finding N6a): this correspondent's identity is
+   Contested, not Hilary of Arles.** This world's own vendored Commonitory introduction places Hilary
+   of Arles among the Massilian party itself, on the side being reported on, not among the reporters;
+   the standard reference identification favors an otherwise-unknown Gallic lay monk. This corrects
+   the same row this file itself first mis-stated two sections above the original fix (Round 1 finding
+   S6) — the earlier correction had not been propagated to this paragraph. *On Rebuke and Grace* was
    addressed to Hadrumetum in North Africa, not Gaul, and is included `provisional` — it is the text
    that provoked the Gallic objections the other two answer, not itself a Gallic-addressed work. The
    distinction is disclosed in each work's own corpus-map note, not smoothed over.
