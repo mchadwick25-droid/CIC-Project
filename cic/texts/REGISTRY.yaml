@@ -1091,7 +1091,16 @@
     baptismo), but the OCR text continues well past that title page's own stated contents into
     further distinct works confirmed by their own internal Explicit/Incipit markers - Contra
     Cresconium (four books, explicitly named in the text), De unico baptismo, and the short Contra
-    Fulgentium Donatistam - with no second title page captured in this OCR to announce them. The
+    Fulgentium Donatistam - with no second title page captured in this OCR to announce them.
+    UPDATE 2026-09-08 (sibling research session, session_01WLxhNbVhjkf1R2SAh8dxxT): this file
+    ALSO contains the complete text of Augustine's Contra Gaudentium Donatistarum Episcopum,
+    Libri II (c. 420) - both books, running roughly 12,000 lines - previously unnoticed and
+    unregistered in Source_Registry.md. This is Augustine's last anti-Donatist work, against
+    Gaudentius, the Donatist bishop of Thamugada; its own opening states Augustine's method of
+    quoting Gaudentius's own two letters verbatim throughout ("quando ponimus uerba Gaudentii...
+    'uerba epistulae'"), making it a further significant repository of preserved Donatist voice
+    alongside the Petilian material already relied on at rows 4/12. See Source_Registry.md row 56
+    for the specific citation. The
     consolidated errata section at the very end resolves this: it explicitly corrects both 'VOL. LI'
     and 'VOL. LIII' by name (CSEL's own numbers for Pars I and Pars III), confirming this is a
     library binding of Pars I AND Pars III together - Pars III's own title page evidently did not
@@ -1310,3 +1319,16 @@
     corpus's own standards for 19th-century Migne scans - dense character-substitution noise
     throughout; any quotation needs careful visual cross-check before being relied on for a verbatim
     claim - a numbered Act's own short 'dixit' lines were the most reliably legible passages found.
+- filename: chronica-minora-liber-genealogus_mommsen1892.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Theodor Mommsen (ed.), Chronica Minora Saec. IV-VII, Volumen I (MGH Auctores Antiquissimi IX,
+    Berlin: Weidmann, 1892), containing the Liber Genealogus as Additamentum II to the Chronographus
+    Anni CCCLIIII - Donatism world-build Source_Registry.md row 21, flagged since 2026-09-01 as "not
+    yet inventoried in the vendored corpus." Mommsen's own editorial introduction dates the
+    genealogies' composition to the start of the fifth century in Africa, with surviving manuscript
+    recensions internally dated to 427, 438, and (via a Geiseric regnal-year reference) 455 - within
+    or adjacent to this world's own 311-439 window. Only the Liber Genealogus heading and Mommsen's
+    own dating discussion have been read; the genealogical content itself and the rest of this
+    multi-text volume have not been surveyed for Donatism-specific claims.
