@@ -1824,7 +1824,7 @@ const DATA = {
    ],
    "floorNote": "These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it.",
    "relationsSummary": "Parent of nearly everything on the map",
-   "why": "This tradition has been fully built and is open for conversation now — Chloe is its voice at the table.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Chloe, a household leader, right now.",
    "entry": {
     "representativeId": "chloe",
     "representativeName": "Chloe",
@@ -2782,7 +2782,7 @@ const DATA = {
    ],
    "floorNote": "Nothing in this tradition's confession diverges from the doctrine the Nicene Creed later stated. Some of Origen's more speculative proposals — about the pre-existence of souls and the final restoration of all things — were disputed in his own lifetime and formally condemned by a church council three centuries after his death.",
    "relationsSummary": "Parent of Desert Monasticism; scholarship parent of the Bethlehem Circle",
-   "why": "This tradition has been fully built and is open for conversation now — Theon is its voice at the table.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Theon, a catechetical teacher, right now.",
    "entry": {
     "representativeId": "theon",
     "representativeName": "Theon",
@@ -3272,7 +3272,7 @@ const DATA = {
    ],
    "floorNote": "This tradition holds the doctrine the Nicene Creed states. One figure inside it, the philosopher-poet Bardaisan, taught cosmological ideas his own later tradition repudiated; exactly where he stands relative to that doctrine remains an open question.",
    "relationsSummary": "Parent of the Church of the East and Syriac Orthodox lines",
-   "why": "This tradition has been fully built and is open for conversation now — Mar Yausep is its voice at the table.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Mar Yausep, a teacher of the covenant order, right now.",
    "entry": {
     "representativeId": "mar-yausep",
     "representativeName": "Mar Yausep",
@@ -4708,7 +4708,7 @@ const DATA = {
    ],
    "floorNote": "The desert communities held the same Nicene faith as the churches they came out of — what set them apart was a way of life, not a different doctrine.",
    "relationsSummary": "Child of Alexandria's milieu; parent of all later monasticism",
-   "why": "This tradition has been fully built and is open for conversation now — Papnoute is its voice at the table.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Papnoute, an abba, right now.",
    "entry": {
     "representativeId": "papnoute",
     "representativeName": "Papnoute",
@@ -5415,7 +5415,7 @@ const DATA = {
    ],
    "floorNote": "These are among the people who wrote the creed. The language it uses for Father, Son, and Spirit is substantially theirs — though which of them wrote which formulation is not always as settled as the textbook story suggests.",
    "relationsSummary": "Trinitarian and pneumatological theology + charitable-ascetic pastoral practice; Jerome heard Gregory teach; argued directly against the Eunomians and the Spirit's deniers by name",
-   "why": "This tradition has been fully built and is open for conversation now — Chilo, an elder of the ascetic brotherhoods who keeps the guest-door, is its voice at the table.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Chilo, an elder of the ascetic brotherhoods who keeps the guest-door, right now.",
    "entry": {
     "representativeId": "chilo",
     "representativeName": "Chilo",
@@ -5955,7 +5955,7 @@ const DATA = {
    ],
    "floorNote": "This is the tradition that convened Nicaea and eventually made its creed imperial law, so its standing on the Creed is not in doubt. It is worth saying plainly, though, that this was never obvious to the people living through it: for long stretches of the fourth century the emperor's own church was Homoian rather than Nicene. The hard questions here are about power, not about doctrine.",
    "relationsSummary": "Three causally-linked phases merged into one tradition (on record); must depict Homoian rivals plainly",
-   "why": "This tradition has been fully built and is open for conversation now — Marius is its voice at the table.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Marius, a deacon of the letters, right now.",
    "entry": {
     "representativeId": "marius",
     "representativeName": "Marius",
@@ -6321,7 +6321,7 @@ const DATA = {
    ],
    "floorNote": "Nothing here is in question on the Creed. Jerome was a combative defender of Nicene orthodoxy, and the circle's controversies were about asceticism, Origen's legacy, and the right basis for translating Scripture.",
    "relationsSummary": "Built around the women's ascetic-patronage network (Paula, Marcella, Eustochium)",
-   "why": "This tradition has been fully built and is open for conversation now — Albina is its voice at the table.",
+   "why": "This Christian tradition is fully built, and you can have a conversation with Albina, a widow of the household, right now.",
    "entry": {
     "representativeId": "albina",
     "representativeName": "Albina",
@@ -41609,10 +41609,12 @@ function openPanel(m){
   // Very last, on purpose: this project's own plan for the tradition -- built,
   // chosen, deferred, excluded, or not yet assessed -- in plain participant
   // language, after everything the tradition's own record has said for itself.
-  if(m.why)h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
+  if(m.why){
+    h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
+    if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
+  }
   panelBody.innerHTML=h; showPanel(); hideTip();
-  const interviewBtn=panelBody.querySelector('[data-interview-id]');
-  if(interviewBtn)interviewBtn.addEventListener('click',()=>launchInterview(interviewBtn.dataset.interviewId));
+  panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
   syncWorldURL(m.id);
 }
 function openPanelStory(s){
