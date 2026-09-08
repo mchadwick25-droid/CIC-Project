@@ -37,8 +37,8 @@ worlds:
     state: admitted
     census_id: "alexandria-catechetical"
     package:
-      manifest_hash: "sha256:227518a14932c93ab7f8ed910c84068c9277cce983dece103fa6a54e7db0faf9"
-      location: "packages/alx/2026-09-04T16-41-49Z"
+      manifest_hash: "sha256:e000bfefc11a73cf4d0f3c10959f65442f6e1599a2cb7407dd8423d2e1e1b0a1"
+      location: "packages/alx/2026-09-08T19-25-20Z"
     thinness_statement: "Richest in teaching, argument, and the theology of formation; thinner on women's own words, ordinary believers, and rural Coptic Egypt."
     living_tradition_flag: true
   desert:
