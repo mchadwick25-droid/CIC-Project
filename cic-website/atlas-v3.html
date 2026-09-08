@@ -1781,6 +1781,11 @@ const DATA = {
      "url": "https://www.newadvent.org/fathers/0102.htm"
     },
     {
+     "work": "Polycarp, Epistle to the Philippians",
+     "type": "primary",
+     "note": "Polycarp's own letter, forwarding Ignatius's letters onward at another church's request and urging the Philippians toward the same practical, everyday faithfulness Ignatius wrote about."
+    },
+    {
      "work": "Justin Martyr, First Apology",
      "type": "primary",
      "note": "An open defense addressed to the Roman emperor and Senate; contains the earliest detailed outside description of what a Christian Sunday gathering actually looked like.",
@@ -1803,6 +1808,20 @@ const DATA = {
      "note": "A Roman governor's official report to the emperor Trajan on investigating Christians in Bithynia, including the torture of two enslaved women called ministrae — deaconesses."
     }
    ],
+   "storySources": [
+    "Ignatius of Antioch, Epistle to the Ephesians",
+    "The Didache (Teaching of the Twelve Apostles)",
+    "Justin Martyr, First Apology",
+    "The Martyrdom of Justin and Companions",
+    "Pliny the Younger, Letters, Book 10.96"
+   ],
+   "legacySources": [
+    "Clement of Rome, First Epistle to the Corinthians",
+    "Ignatius of Antioch, Epistle to the Ephesians",
+    "Polycarp, Epistle to the Philippians",
+    "Justin Martyr, First Apology",
+    "Shepherd of Hermas"
+   ],
    "floorNote": "These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it.",
    "relationsSummary": "Parent of nearly everything on the map",
    "why": "This tradition has been fully built and is open for conversation now — Chloe is its voice at the table.",
@@ -1824,7 +1843,7 @@ const DATA = {
     "Justin Martyr — a philosopher who kept teaching Christianity as a school in Rome and left the earliest detailed description of Christian Sunday worship",
     "Most of these communities' hosts and householders are unnamed in the record — the gatherings met in the homes of people history did not bother to write down"
    ],
-   "legacy": "Almost everything on this map descends from these gatherings. The basic shape of Christian worship — assembling on the first day of the week, reading Scripture aloud, a shared table — was set here, along with the offices of bishop, presbyter and deacon, and the habit of reading apostolic letters in public until they became Scripture by use rather than by ruling. Their networks of hospitality between cities became the nervous system of the ancient church, and their correspondence — Clement, Ignatius, Polycarp — has been read ever since. The Didache, by contrast, was lost for centuries and recovered from a single surviving manuscript only in the 1870s.",
+   "legacy": "Almost every Christian tradition descends from these early gatherings. The basic rhythm of Christian worship—assembling on the first day of the week, reading aloud from the prophets and the apostles' memoirs, and sharing the bread and the cup, whether in a full communal meal or the bread and wine alone—shows up earliest in these spaces.\n\nWith the apostles no longer there to consult, these communities had to work out how to live together: how to treat one another, how to pray, and how to forgive and restore those who fell into sin or caused division. The roles of bishop, presbyter, and deacon were already named in the apostolic writings, but trying to live out those instructions under local pressures gave the offices more concrete form.\n\nThe apostolic texts themselves gained authority in much the same way. Reading the apostles' letters aloud week after week became an enduring habit, and it was through this regular use in worship—not by an early decree—that these writings came to be heard alongside the ancient Jewish Scriptures. Carried by travelers from city to city, these letters bound scattered households together, and writings like those of Clement, Ignatius, and Polycarp were preserved and read for generations to come.",
    "experienceToday": [
     {
      "text": "The Dura-Europos house-church, Syria — an ordinary home converted for worship between about 233 and 256, the earliest identified Christian church building, preserved because a Roman defensive rampart buried it",
@@ -41487,6 +41506,15 @@ function launchInterview(id){location.href=LIVE_APP_URL+'/?worlds='+encodeURICom
 // broken/empty section, not a considered answer -- treat it the same as
 // genuinely absent.
 function hasContent(v){return !!v&&v.trim()!=='-';}
+// A small, scoped sources disclosure for one section of the panel (e.g. "The
+// Story", "Legacy") -- a flat list of the works that section draws on, not
+// mapped to individual sentences or claims. Separate from the panel's own
+// full "Sources" section (the curated list plus the verified registry),
+// which stays as the comprehensive record at the very end.
+function sectionSources(list){
+  if(!list||!list.length)return '';
+  return `<details class="sources-panel"><summary>Sources</summary><ul class="voices">${list.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></details>`;
+}
 function openPanel(m){
   const inbound=DATA.edges.filter(e=>e.to===m.id), outbound=DATA.edges.filter(e=>e.from===m.id);
   const entry=m.entry;
@@ -41507,7 +41535,7 @@ function openPanel(m){
   // for everything else -- is the hook every one of the 292 records was given.
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
-  if(m.longDescription)h+='<h3>The Story</h3>'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('');
+  if(m.longDescription)h+='<h3>The Story</h3>'+m.longDescription.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.storySources);
   // Documented stories: 1-3 real, individually sourced narrative episodes
   // belonging to this movement specifically (not the map's floating gap
   // stories, and not a restatement of longDescription above) -- a deeper
@@ -41536,7 +41564,7 @@ function openPanel(m){
   }
   if(m.voices&&m.voices.length)h+=`<h3>Voices</h3><ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
   if(m.floorNote)h+=`<h3>Doctrinal floor note</h3><p>${esc(m.floorNote)}</p>`;
-  if(m.legacy)h+=`<h3>Legacy</h3><p>${esc(m.legacy)}</p>`;
+  if(m.legacy)h+='<h3>Legacy</h3>'+m.legacy.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.legacySources);
   if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
   if(hasContent(m.relationsSummary))h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
   if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=byId[e.to];h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}</div>`;});}
