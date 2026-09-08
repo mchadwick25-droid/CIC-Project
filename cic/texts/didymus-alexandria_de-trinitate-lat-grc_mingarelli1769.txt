@@ -32,7 +32,7 @@ Source Collection: Internet Archive, FULL TEXT (OCR) of a Google
                   codex); this 1769 edition is its editio princeps.
                   The volume opens with Mingarelli's own extensive
                   Latin dissertation and prolegomena — including a
-                  "LIBER PRIMUS" heading of its own (line 418 of this
+                  "LIBER PRIMUS" heading of its own (line 435 of this
                   file), which is Mingarelli's prolegomena, NOT
                   Didymus's text: a survey of authenticity, manuscript
                   history, and Didymus's other attested works,
@@ -40,14 +40,14 @@ Source Collection: Internet Archive, FULL TEXT (OCR) of a Google
                   through Jerome's Latin translation and independently
                   cross-referenced here as securely Didymus's own.
                   Didymus's own Book I proper begins at a second,
-                  distinct "LIBER PRIMUS" heading (line 7002 of this
+                  distinct "LIBER PRIMUS" heading (line 7019 of this
                   file) — corrected 2026-09-08, Round 1 Opus review,
                   from this note's own original conflation of the two
                   headings.
                   **Corrected 2026-09-08, Round 1 Opus review, from
                   this note's own original claim, which was checked
                   and found false:** a full Unicode census of this
-                  file's 3.24 MB body found ZERO Greek characters
+                  file's 3.29 MB body found ZERO Greek characters
                   anywhere (1,990,740 Latin letters, 0 Greek; 52 stray
                   Cyrillic OCR artifacts) — the Greek column is not
                   "garbled in places," it is wholly unrecoverable as
