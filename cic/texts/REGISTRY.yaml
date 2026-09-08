@@ -1273,3 +1273,40 @@
     English-language Dudden footnote appears interleaved mid-paragraph near Ep. LXXXVI/LXXXVII).
     Any specific quotation needs visual cross-check against its own surrounding context before being
     relied on for a verbatim claim.
+- filename: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    J.-P. Migne (ed.), Patrologiae Cursus Completus, Series Latina, Tomus XI (Paris) - a bundled
+    volume containing Zeno of Verona's own works (cols. 9-751ish, not Donatism-related) followed by a
+    substantial Optatus/Donatism-material cluster from col. 759 on: Dupin's preface and testimonia on
+    Optatus, a 'Historia Donatistarum' (col. 771, not yet read), a SECOND edition of Optatus's own
+    Seven Books distinct from the two already-vendored editions (col. 883, not yet read or compared),
+    a 'Monumenta vetera ad Historiam Donatistarum pertinentia' section (col. 1170 - same title as the
+    already-vendored monumenta-vetera-donatistarum_migne-pl8.txt, NOT reconciled against it this
+    session, flagged as an open item), and the Gesta Collationis Carthaginensis itself (col. 1223,
+    the 411 Conference acts) followed by Balduin's own Historia Collationis and indices. THIS CLOSES
+    (OR SUBSTANTIALLY CLOSES) SOURCE_REGISTRY.MD ROW 14: that row had recorded the Gesta as
+    'confirmed unavailable in the public domain, recorded not requested' since 2026-09-01 - a
+    determination made via builder-prior-knowledge/WebSearch WITHOUT working network access to
+    actually check. This session had working direct network access (confirmed as its own first
+    action) and found this volume directly on archive.org. Fetched directly from archive.org's
+    download endpoint (item patrologiaecur11mign), no DOCX intermediate. CONTENT CONFIRMED THIS
+    SESSION: real, numbered conference acts are present in the Gesta section (e.g. '268. Emeritus
+    episcopus dixit... 269. Alypius episcopus Ecclesiae catholicae dixit... 270. Adeodatus episcopus
+    dixit'), with Marcellinus named throughout as the presiding imperial tribunus et notarius.
+    'Emeritus' (of Caesarea, this world's own most-desired Donatist voice at this event) occurs at
+    least 28 times, directly confirmed by search - genuine substantive content, not a table of
+    contents. RIGHTS: Migne's Patrologia Latina series was compiled and printed in the 1840s-1850s,
+    the same PD-by-date basis already accepted for the sibling PL vol. 8 file in this corpus; this
+    specific volume's own scan did not carry a clearly OCR-legible year, but its identity as a
+    standard Migne PL volume (title page: 'ACCURANTE J.-P. MIGNE... PATROLOGIAE TOMUS XI...
+    PARISIIS, APUD VRAYET') is unambiguous. NOT YET DONE: precise column-boundary excerpting of just
+    the Gesta from the rest of this 5MB volume (this scan's OCR'd column markers are not reliably
+    sequential enough for confident automated boundary-finding in the time available this session);
+    reading the Historia Donatistarum or the second Optatus edition for content; reconciling the
+    'Monumenta vetera' title-duplication against the already-vendored PL8 file. All are real open
+    items for a future Doc_02/Doc_04/Doc_09 revision pass. OCR QUALITY: notably poor even by this
+    corpus's own standards for 19th-century Migne scans - dense character-substitution noise
+    throughout; any quotation needs careful visual cross-check before being relied on for a verbatim
+    claim - a numbered Act's own short 'dixit' lines were the most reliably legible passages found.
