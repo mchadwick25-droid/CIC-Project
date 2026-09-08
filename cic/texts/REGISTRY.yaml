@@ -953,13 +953,19 @@
     project-wide maturity-gap audit
   date_added: '2026-09-08'
   notes: >-
-    Mingarelli's 1769 editio princeps of Didymus of Alexandria's "De Trinitate,"
-    Greek text (from the sole surviving witness, the Passionei codex) with facing
-    Latin translation and critical notes. Verified directly: title page confirms
-    1769 publication (public domain, independent of scan source); "LIBER PRIMUS"
-    heading located and confirmed to carry real Greek/Latin bilingual text, not
-    only front-matter discussion. Closes a real gap in the Alexandria Catechetical
-    School world: Didymus is discussed at length in that world's Doc_02 Source
-    Ecology (§3.4) as a major figure but previously contributed zero primary text
-    to the vendored corpus. Greek OCR layer is disclosed as significantly garbled
-    in places; the Latin translation and notes OCR cleanly.
+    Mingarelli's 1769 editio princeps of Didymus of Alexandria's "De Trinitate."
+    Title page confirms 1769 publication (public domain, independent of scan
+    source). There are two "LIBER PRIMUS" headings in this file: line 418 is
+    Mingarelli's own Latin prolegomena, not Didymus's text; Didymus's actual Book I
+    begins at line 7002. Corrected 2026-09-08, Round 1 Opus review, from this
+    note's own original claim (checked and found false): a full Unicode census
+    found ZERO Greek characters anywhere in the file's 3.24 MB body -- the Greek
+    layer is not "garbled in places," it is wholly unrecoverable as Greek text
+    throughout, OCR'd entirely into Latin-script noise. The Latin translation and
+    notes do not "OCR cleanly" either (~12.7% of tokens symbol/digit-contaminated;
+    long-s systematically misread as "f"), though they are usable by a Latinist.
+    What this file actually vendors is a degraded-but-legible OCR of Mingarelli's
+    18th-century LATIN translation and apparatus, not Didymus's Greek -- still
+    this world's first primary-text contribution from Didymus himself, closing a
+    real (if narrower-than-first-claimed) gap in the Alexandria Catechetical
+    School world's Doc_02 Source Ecology (§3.4).

@@ -31,29 +31,46 @@ Source Collection: Internet Archive, FULL TEXT (OCR) of a Google
                   this single manuscript witness (the Passionei
                   codex); this 1769 edition is its editio princeps.
                   The volume opens with Mingarelli's own extensive
-                  Latin dissertation and prolegomena (authenticity,
-                  manuscript history, and a survey of Didymus's other
-                  attested works, including "De Spiritu Sancto,"
-                  transmitted only through Jerome's Latin translation
-                  and independently cross-referenced here as securely
-                  Didymus's own — confirmed directly at this file's
-                  own "LIBER PRIMUS" heading, where Mingarelli's note
-                  cites it). Book I proper begins at the "LIBER
-                  PRIMUS" heading following the prolegomena; the OCR
-                  handles the fluent Latin translation and notes
-                  cleanly but renders the interspersed Greek text
-                  significantly garbled in many places — a known,
-                  disclosed OCR-quality limitation of this scan for
-                  the Greek layer specifically, not for the Latin.
+                  Latin dissertation and prolegomena — including a
+                  "LIBER PRIMUS" heading of its own (line 418 of this
+                  file), which is Mingarelli's prolegomena, NOT
+                  Didymus's text: a survey of authenticity, manuscript
+                  history, and Didymus's other attested works,
+                  including "De Spiritu Sancto," transmitted only
+                  through Jerome's Latin translation and independently
+                  cross-referenced here as securely Didymus's own.
+                  Didymus's own Book I proper begins at a second,
+                  distinct "LIBER PRIMUS" heading (line 7002 of this
+                  file) — corrected 2026-09-08, Round 1 Opus review,
+                  from this note's own original conflation of the two
+                  headings.
+                  **Corrected 2026-09-08, Round 1 Opus review, from
+                  this note's own original claim, which was checked
+                  and found false:** a full Unicode census of this
+                  file's 3.24 MB body found ZERO Greek characters
+                  anywhere (1,990,740 Latin letters, 0 Greek; 52 stray
+                  Cyrillic OCR artifacts) — the Greek column is not
+                  "garbled in places," it is wholly unrecoverable as
+                  Greek text everywhere in this file, OCR'd entirely
+                  into Latin-script noise (e.g. "iWoytpo^", "ei$xcuio<;"
+                  render ἐλλόγιμος, ἀξιόλογος). The Latin translation
+                  and notes do NOT "OCR cleanly" either: roughly 12.7%
+                  of tokens are symbol/digit-contaminated, and long-s
+                  is systematically misread as "f" (see, e.g., this
+                  file's own opening pages). What is actually usable
+                  here is a degraded-but-legible OCR of Mingarelli's
+                  18th-century LATIN translation and apparatus, not
+                  Didymus's Greek — a narrower gap-closure than
+                  originally claimed, though still a real one: this is
+                  this world's first primary-text contribution from
+                  Didymus himself, in Latin translation.
                   Vendored by a sibling research/integration session
                   (session_01WLxhNbVhjkf1R2SAh8dxxT), 2026-09-08, in
                   response to a project-wide maturity-gap audit that
                   found Didymus discussed at length across this
                   world's Doc_02 Source Ecology (§3.4) as a major
                   figure but contributing zero primary text to the
-                  vendored corpus — this closes that gap with his own
-                  dedicated theological treatise rather than a
-                  secondary account of him.
+                  vendored corpus.
      __________________________________________________________________
 
 DIDYMI 

@@ -3,8 +3,10 @@ source_file: didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt
 assignments:
   - work: "De Trinitate (On the Trinity, Three Books)"
     author: didymus-alexandria
-    locus: "Liber Primus onward, following Mingarelli's own Latin dissertation and
-      prolegomena"
+    locus: "Book I proper begins at line 7002 of the vendored file (the file's
+      second 'LIBER PRIMUS' heading) — corrected 2026-09-08, Round 1 Opus review:
+      line 418's 'LIBER PRIMUS' heading is Mingarelli's own prolegomena, not
+      Didymus's text, and is not this locus"
     atlas_ids:
       - alexandria-catechetical
     role: tradition
@@ -16,6 +18,12 @@ assignments:
       discussed at length as a major figure (head of the Alexandrian teaching
       tradition for roughly half a century) but previously contributed zero
       primary text to this world's vendored corpus. Mingarelli's own critical note
-      at the Liber Primus opening independently cross-references Didymus's other
-      attested work, "De Spiritu Sancto" (transmitted only via Jerome's Latin
-      translation, not itself vendored here), as securely his own.
+      at the prolegomena's own Liber Primus opening (line 418) independently
+      cross-references Didymus's other attested work, "De Spiritu Sancto"
+      (transmitted only via Jerome's Latin translation, not itself vendored here),
+      as securely his own. **Corrected 2026-09-08, Round 1 Opus review:** the
+      vendored file carries no recoverable Greek text anywhere (a full Unicode
+      census found zero Greek characters in the 3.24 MB body); what this entry
+      actually assigns is Mingarelli's Latin translation of Didymus, not the Greek
+      text itself, though the Greek is what the volume's own title page claims to
+      present.
