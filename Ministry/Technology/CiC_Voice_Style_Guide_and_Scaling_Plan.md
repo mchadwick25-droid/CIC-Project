@@ -222,6 +222,44 @@ shipped text's own measured shape. If the result reads like good
 documentary narration, that's confirmation the mechanics are right, not
 the goal itself.
 
+### The mistake this section exists to prevent: reviewing only the text you already suspect
+
+The first pass at Alexandria (`alexandria-catechetical` / Theon) applied
+the five-question review to every sentence flagged as a dash fragment or
+an obvious defect — and shipped several real tells anyway, because they
+lived in sentences nobody had flagged: a pre-existing "staggering body of
+commentary" (unearned intensifier, sitting in text that predated this
+whole review and so was never scrutinized); a `floorNote` whose own first
+sentence ("Nothing in this tradition's confession diverges...") flatly
+contradicted its second ("...formally condemned by a church council");
+a `legacy` claim ("became the dominant Christian approach for over a
+millennium, in the East and West alike") that overstated the record
+against a known counter-tradition; and — the most instructive failure —
+a brand-new tile rewrite, written specifically to *fix* a dash fragment,
+that introduced a stacked, overloaded metaphor ("the text's surface as a
+door onto a deeper meaning underneath") in the process of fixing the
+thing it was sent in to fix.
+
+**The rule this establishes: run the five-question pass, the truth pass,
+and the internal-consistency pass on every sentence in the entry — not
+just the ones that already look wrong, and not just the ones you just
+wrote.** A sentence that predates this review has never been checked
+against this bar. A sentence you just wrote to fix one defect is a fresh
+opportunity to introduce a different one, and needs the same scrutiny as
+the sentence it replaced, not less. Two failure modes to add to the
+watch list explicitly:
+
+- **Self-contradiction between adjacent sentences.** Not the same as an
+  unhedged absolute in one sentence (§1.6) — this is two true-sounding
+  claims next to each other that can't both be true as written. Read
+  every paragraph as a single claim, not as a sequence of independent
+  sentences, and ask whether sentence two is quietly reversing what
+  sentence one asserted.
+- **Stacked or mixed metaphor introduced while fixing something else.**
+  Cutting a dash fragment or rewriting a fact doesn't exempt the new
+  sentence from the imagery discipline — check what you just wrote with
+  the same suspicion you'd apply to someone else's draft.
+
 ---
 
 ## 1.2 The exemplar, and the one test that generates the rest
@@ -1173,6 +1211,20 @@ INPUTS
 3 STYLE      §1.1's five-question review pass, then §1.3-1.5, §1.9-1.12 against the
              pahc exemplar. Full sentences. Cut, don't
              re-adjective. Reuse established terms.
+             APPLY THIS TO EVERY SENTENCE IN EVERY FIELD, not just the ones
+             you already flagged as defective. Pre-existing, previously-
+             unedited text has never been checked against this bar and is
+             exactly as likely to fail it as anything you're about to
+             rewrite. AND: apply it again to every sentence you just wrote
+             to fix something else - a rewrite that fixes one defect is a
+             fresh chance to introduce a stacked metaphor, a redundant
+             phrase, or a claim that contradicts the sentence next to it.
+             Read each paragraph as one claim, not a sequence of
+             sentences, and check whether any two of them quietly
+             contradict each other (the Alexandria pass shipped a
+             floorNote whose own first sentence said "nothing diverges"
+             and second sentence said "formally condemned" - this class of
+             error will not show up if you check sentences one at a time).
 4 SOURCES    Every work named in prose has a row in `sources`. Add storySources /
              legacySources. Note anything cited on the tradition page but not here.
 5 SYNC       atlas-v3.html + data/world-census.json + index.html + table.html +
