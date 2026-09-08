@@ -40,7 +40,15 @@ only Mark can make and the fleet's own process treats it as such, not
 as a formality:**
 
 - **G2 — Representative identity.** Name and role. Grounded options, one
-  recommendation each, his actual choice recorded.
+  recommendation each, his actual choice recorded — every option checked
+  first against `Ministry/Technology/CiC_Representative_Naming_Role_Discipline_2026-09-08.md`'s
+  five tests (real-but-not-confusable, lands with a modern reader, role
+  spans the whole movement not a moment in it, name/image are the only
+  fabrications and neither may bias what gets represented, and — where
+  women were genuinely significant in the movement — a woman's name is a
+  real candidate, checked for the same whole-movement fidelity as any
+  other). Read that document in full before drafting G2 options for any
+  world.
 - **G4 — Article 29 (living-tradition) determination.** A policy call
   about presenting connection to a still-living denomination.
 - **G5 — Admission & freeze.** *"Only Mark assigns Frozen"* is V2's own
