@@ -41552,12 +41552,14 @@ function openPanel(m){
   // assessment OF. Neither implies the other -- some records carry one
   // without the other.
   if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){
-    h+='<h3>Sources</h3>';
+    const sourcesLabel=m.sources&&m.sources.length?`Sources (${m.sources.length})`:'Sources';
+    h+=`<details class="sources-panel"><summary>${sourcesLabel}</summary>`;
     if(hasContent(m.sourcing))h+=`<p>${esc(m.sourcing)}</p>`;
     if(m.sources&&m.sources.length)h+=m.sources.map(s=>{
       const work=s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.work)}</a>`:esc(s.work);
       return `<div class="edge"><span class="k">${esc(s.type)}</span><br><b>${work}</b>${s.note?`<br>${esc(s.note)}`:''}</div>`;
     }).join('');
+    h+='</details>';
   }
   // Full source registry (2026-09-03): distinct from the curated Sources
   // section above -- that's a hand-picked "read these first" list; this is
