@@ -94,12 +94,26 @@ p{margin:0 0 1rem}
 .hero h1{font-size:clamp(1.5rem,1.1rem + 1.75vw,2.125rem);font-weight:500;line-height:1.3;max-width:var(--measure);margin:0 auto 1rem}
 .welcome-back{font-family:var(--sans);font-size:.95rem;color:var(--muted);margin:1rem auto 0;max-width:30rem}
 .welcome-back a{color:var(--action)}
-.whats-new-banner{max-width:var(--wide);margin:1.5rem auto 0;padding:1rem 1.25rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;font-family:var(--sans)}
-.whats-new-banner .eyebrow{margin:0 0 .3rem}
-.whats-new-banner p:last-child{margin:0;font-size:.95rem;color:var(--text)}
-
-.story{max-width:var(--measure);margin:0 auto;padding:1.5rem 1.25rem 3rem}
-.story h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 1.3rem}
+.home-flow{max-width:var(--wide);margin:0 auto;padding:1.5rem 1.25rem 0;display:grid;gap:2rem;grid-template-columns:1fr;grid-template-areas:"story" "chairs" "table" "atlas"}
+@media (min-width:64rem){
+  .home-flow{grid-template-columns:1fr 1.6fr 1fr;align-items:start;grid-template-areas:"table story atlas" "chairs chairs chairs"}
+}
+.home-flow>*{min-width:0}
+.flow-story{grid-area:story;padding-top:.25rem}
+.flow-story h2{font-size:clamp(1.5rem,2.6vw,1.85rem);font-weight:500;line-height:1.35;margin:0 0 1rem}
+.flow-table{grid-area:table}
+.flow-atlas{grid-area:atlas}
+.flow-chairs{grid-area:chairs}
+.flow-card{display:flex;flex-direction:column;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.flow-card:hover,.flow-card:focus-visible{border-color:var(--action)}
+.flow-card img{width:100%;aspect-ratio:1200/655;object-fit:cover;display:block;background:var(--ground)}
+.flow-card .eyebrow{margin:1.1rem 1.2rem 0}
+.flow-card h2{font-size:1.2rem;margin:.5rem 1.2rem 0}
+.flow-card p{font-family:var(--sans);font-size:.9rem;color:var(--muted);line-height:1.55;margin:.5rem 1.2rem 0}
+.flow-card .cta-link{margin:.7rem 1.2rem 1.2rem}
+.cta-link{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem;text-decoration:none}
+.flow-card:hover .cta-link,.flow-card:focus-visible .cta-link{color:var(--action-hover)}
+.cta-link .arriving{width:20px;flex:0 0 20px;color:var(--mark-ink)}
 @media (max-width:640px){
   .hero{padding:2rem 1.25rem .5rem}
   .mark-line{margin-bottom:1.25rem}
@@ -109,7 +123,7 @@ p{margin:0 0 1rem}
 .ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.4rem}
 .how-line{font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:-.7rem 0 1.6rem}
 
-.who{max-width:var(--wide);margin:0 auto;padding:1.5rem 1.25rem 2rem}
+.who{padding:1.5rem 0 0}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .6rem;max-width:var(--measure)}
 .who .scope{color:var(--muted);max-width:var(--measure);margin:0 0 .6rem}
 .who-gallery{overflow-y:auto;overscroll-behavior-y:contain;padding-right:.3rem;margin:0 -.3rem 0 0}
@@ -134,17 +148,6 @@ p{margin:0 0 1rem}
 .pilot-note{font-size:.95rem}
 .pilot-caveat{font-size:.9rem;font-style:italic;margin:0 0 1.4rem}
 
-.portals{max-width:var(--wide);margin:0 auto;padding:2.2rem 1.25rem 0;border-top:1px solid var(--rule);display:grid;gap:2.5rem;grid-template-columns:1fr}
-.portal{display:flex;flex-direction:column;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
-.portal:hover,.portal:focus-visible{border-color:var(--action)}
-.portal img{width:100%;aspect-ratio:1200/655;object-fit:cover;display:block;background:var(--ground)}
-.portal-body{padding:1.3rem 1.4rem 1.5rem}
-.portal-body .eyebrow{margin:0 0 .4rem}
-.portal-title{font-size:1.35rem;margin:0 0 .5rem}
-.portal-text{font-family:var(--sans);font-size:.95rem;color:var(--muted);line-height:1.55;margin:0 0 .9rem}
-.portal-cta{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--sans);font-weight:600;color:var(--action);border-bottom:1px solid currentColor;padding-bottom:.15rem}
-.portal:hover .portal-cta,.portal:focus-visible .portal-cta{color:var(--action-hover)}
-.portal-cta .arriving{width:20px;flex:0 0 20px;color:var(--mark-ink)}
 .more-link{max-width:var(--wide);margin:0 auto;padding:1.1rem 1.25rem 0;font-family:var(--sans);font-size:.9rem}
 .more-link a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
 
@@ -181,7 +184,7 @@ p{margin:0 0 1rem}
       <a href="index.html" aria-current="page">Home</a>
       <a href="about.html">About</a>
       <a href="whats-next.html">What's Next</a>
-      <a href="atlas-v3.html">Map</a>
+      <a href="atlas-v3.html">Timeline</a>
       <a href="support.html">Get Involved</a>
       <a class="side-door" id="side-door" href="talk.html" hidden><span class="sd-long">Been here before? </span>Go straight to a conversation →</a>
     </nav>
@@ -200,20 +203,30 @@ p{margin:0 0 1rem}
     <p class="welcome-back" id="welcome-back" hidden>Welcome back. <a href="talk.html">Go straight to a conversation →</a></p>
   </section>
 
-  <section class="story" aria-labelledby="story-title">
-    <h2 id="story-title">The Unfolding Story</h2>
-    <p>For two thousand years, people have followed Jesus across vastly different worlds and cultures.</p>
-    <p>They gathered in modest homes and workshops, navigating the suspicion of their neighbors and the pressure of hostile rulers. They followed Him into mountain monasteries and remote deserts, along ancient trade routes across Asia, and into the cathedrals and university halls of Europe. They stood at the stake in Reformation squares, sang through forced labor in colonial fields, knelt in Latin American village chapels, and gathered inside modern churches across the world.</p>
-    <p>Like the ancient story of Israel, the story of the Church calls for honesty. It is not a tale of heroes who marched in lockstep and got everything right. It is a historically grounded record of real people: wrestling with political power, arguing over hard questions, fracturing, and failing often—proving at every turn that humanity cannot fix itself. Yet God never worked from a safe distance, nor did He wait for people to become perfect before meeting them. He stepped directly into their everyday lives, languages, and cultures, guiding them by His Spirit, shaping their human gifts for His purposes, and using their human hands to heal the fractured and restore His creation.</p>
-    <p>Through all those scattered eras and divergent paths, each community discovered distinct perspectives of who Jesus is and how to follow Him. You are invited to explore these stories. Trace forgotten routes across a living atlas, uncover the stories that shaped the Church, and pull up a chair with representative voices from across these traditions. In conversation with them, you can hear where they stand in deep agreement, listen as they wrestle with where they see things differently, and discover where your own story connects with theirs.</p>
-  </section>
+  <div class="home-flow">
+    <div class="flow-story">
+      <p class="eyebrow">The Unfolding Story</p>
+      <h2 id="story-title">For two thousand years, people have followed Jesus across vastly different worlds and cultures.</h2>
+      <a class="cta-link" href="story.html">Read the full story →</a>
+    </div>
 
-  <div class="whats-new-banner">
-    <p class="eyebrow">What's new</p>
-    <p>The Cappadocian tradition has joined the table, and Church in History has been completely rebuilt.</p>
-  </div>
+    <a class="flow-card flow-table" href="table.html">
+      <p class="eyebrow">The Table</p>
+      <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">
+      <h2>Set your own table</h2>
+      <p>Bring two or three of them to one table. No one seated there is the host — you're one of the four chairs. Choose who joins you, then start the conversation.</p>
+      <span class="cta-link"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Set your own table →</span>
+    </a>
 
-  <section class="who" id="who" aria-labelledby="who-title" tabindex="-1">
+    <a class="flow-card flow-atlas" href="atlas-v3.html">
+      <p class="eyebrow">Twenty centuries on one map, free to explore</p>
+      <img src="assets/atlas-preview.jpg" alt="Colored rivers of Christian movements winding and branching across the centuries, grouped by era" loading="lazy" decoding="async">
+      <h2>Church in History</h2>
+      <p>Two hundred and some Christian movements across the whole of Church history are on record here — how they connect, where they diverged, and the stories that don't belong to just one of them. Hover for a glimpse, click for depth.</p>
+      <span class="cta-link">Open Church in History →</span>
+    </a>
+
+    <section class="who flow-chairs" id="who" aria-labelledby="who-title" tabindex="-1">
     <p class="eyebrow">Who's at the table</p>
     <h2 id="who-title">Who would you like to have a conversation with?</h2>
     <p class="scope">Christian traditions from the Church's first four centuries, each with one voice that speaks for it. Ask any of them.</p>
@@ -307,27 +320,8 @@ p{margin:0 0 1rem}
     <p class="pilot-note">This is a pilot. We're intentionally looking for a limited number of participants across four perspectives — general, pastor or teacher, academic, and anyone re-examining their faith.</p>
     <p class="pilot-caveat">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
   </section>
+  </div>
 
-  <section class="portals" aria-label="More ways in">
-    <a class="portal" href="table.html">
-      <img src="assets/table-portrait.jpg" alt="A painted portrait of three representatives seated together at a round table, a scroll and open books before them" loading="lazy" decoding="async">
-      <div class="portal-body">
-        <p class="eyebrow">The Table</p>
-        <h2 class="portal-title">Set your own table</h2>
-        <p class="portal-text">Bring two or three of them to one table. No one seated there is the host — you're one of the four chairs. Choose who joins you, then start the conversation.</p>
-        <span class="portal-cta"><span class="arriving" id="table-cue" aria-hidden="true"><svg viewBox="0 0 100 100"><circle class="arriving-ring" cx="50" cy="50" r="31" pathLength="360"/><circle class="arriving-seat" cx="88.5" cy="50" r="6.5"/></svg></span>Set your own table →</span>
-      </div>
-    </a>
-    <a class="portal" href="atlas-v3.html">
-      <img src="assets/atlas-preview.jpg" alt="Colored rivers of Christian movements winding and branching across the centuries, grouped by era" loading="lazy" decoding="async">
-      <div class="portal-body">
-        <p class="eyebrow">Twenty centuries on one map, free to explore</p>
-        <h2 class="portal-title">Church in History</h2>
-        <p class="portal-text">Two hundred and some Christian movements across the whole of Church history are on record here — how they connect, where they diverged, and the stories that don't belong to just one of them. Hover for a glimpse, click for depth.</p>
-        <span class="portal-cta">Open Church in History →</span>
-      </div>
-    </a>
-  </section>
   <p class="more-link"><a href="whats-next.html">What's next →</a></p>
 
   <section class="support" aria-labelledby="support-title">
