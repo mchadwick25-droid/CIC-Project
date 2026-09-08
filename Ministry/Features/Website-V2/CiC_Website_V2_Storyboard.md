@@ -177,8 +177,10 @@ site to inherit, so none is added.
 ## 1. Home — `index.html`
 
 **Purpose.** Take what the visitor brought. Open with the hook; then who
-can carry it — the chairs, by era; then two picture-led portals (the map,
-the Table); then the ask.
+can carry it — the chairs, by era; then two picture-led portals (the
+Table, then the map, the map last as the closing door before the ask);
+then the ask. *(Order corrected 2026-09-08 — see §1.6's own amendment
+for the reasoning.)*
 
 **History, most recent first (Decision-Log has the full reasoning for
 each):**
@@ -354,8 +356,8 @@ same day, not left open.
 
 ### 1.6 Church in History — one link
 
-**2026-09-03 change order: merged with the Table teaser into two
-picture-led "portal" cards, full width, stacked (Atlas over Table).**
+~~**2026-09-03 change order: merged with the Table teaser into two
+picture-led "portal" cards, full width, stacked (Atlas over Table).**~~
 Each is one `<a>` wrapping an image, then an eyebrow, an H2, a short
 paragraph, and a CTA line — click anywhere on the card. Mark's own call
 after seeing both laid out: side by side at half-width, the Atlas image
@@ -363,6 +365,23 @@ read as a blurry smudge — full width was the only way the picture
 actually did its job. Ruling 23 ("no map band") was about not building
 a new interactive map widget into the homepage before the Atlas rework
 lands; a static image linking to the shipped Atlas isn't that.
+
+**Amendment, 2026-09-08 — stacking order reversed on newer research,
+not on the full-width call above (which stands).** The shipped page
+was actually built Table-then-Atlas, the opposite of the 2026-09-03
+ruling's stated "Atlas over Table" — an implementation gap this
+document never caught. Rather than silently conforming the code to the
+stale ruling, Mark asked to "follow the most current data and
+research": `Ministry/Features/Website-V2/Research/05-landing-page-
+structure-and-choice-flow.md` finds real precedent (guided-then-explore
+structures across museum and interactive-journalism sites, "generous
+interfaces" research) for free exploration as the closing *coda* to a
+guided path, not a competing option stacked earlier. Table stays the
+second, quieter door right after the chairs; the Atlas portal becomes
+the last thing before the ask. The struck ruling above is kept, not
+deleted, so the original reasoning (image legibility at full width)
+stays on record — only the stacking order it also specified is
+superseded, per newer evidence.
 
 **Portal 1's image is not a screenshot of the live `atlas-v3.html`.**
 It's a captured frame of `river-prototype.html`, the in-progress
@@ -437,7 +456,7 @@ four links.
 
 **Keyboard path.** skip link → wordmark → 5 nav links (→ side door) →
 [welcome-back link] → per era: each chair's portrait/record link (no
-toggle stop anymore) → the Church in History portal link → the Table
+toggle stop anymore) → the Table portal link → the Church in History
 portal link → What's next → give once → give monthly → Get Involved → 4
 footer links. Focus ring 2px madder, 3px offset. No positive `tabindex`;
 nothing hidden is a stop; nothing is sticky, so the focused element is
