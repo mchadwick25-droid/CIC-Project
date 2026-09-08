@@ -1160,3 +1160,116 @@
     worse than narrative prose - expect substantial garbling; any specific inscription number or
     reading needs visual cross-check against its own surrounding context, ideally against a standard
     CIL concordance, before being relied on for a verbatim claim.
+- filename: theodosianus-16_mommsen-meyer1905.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    Th. Mommsen and Paul M. Meyer (eds.), 'Theodosiani Libri XVI cum Constitutionibus Sirmondianis et
+    Leges Novellae ad Theodosianum Pertinentes,' Voluminis I Pars Posterior: Textus cum Apparatu
+    (Berlin: Weidmann, 1905) - the Donatism world-build's Manifest §1 request G3, the Mommsen &
+    Meyer critical edition itself. Five prior attempts (2026-09-01, by Mark's manual download/DOCX
+    channel) all returned a DIFFERENT archive.org item (theodosianilibri02code /
+    theodosianilibri00codeuoft), confirmed to be Mommsen's Prolegomena in Theodosianum (Vol. I Pars
+    Prior, the manuscript-tradition apparatus), not this text volume - see don_Decision_Log.md's
+    2026-09-01 G3 entries. This session had direct outbound network access (confirmed working before
+    any other action) and fetched the correct item, theodosianilibr01sirmgoog, directly from
+    archive.org's own download endpoint (no DOCX intermediate). RIGHTS: this is a Google Books scan
+    (via Internet Archive); its own inserted disclaimer page states Google's own public-domain
+    finding for this item directly, and the 1905 publication date alone independently confirms it.
+    CONTENT CONFIRMED THIS SESSION: all 16 Books present; Book XVI (LIBER DECIMVS SEXTVS) located.
+    Law XVI.5.52 (dated '412 Ian. 30' in its own heading) located and confirmed to contain the exact
+    phrase 'circumcelliones argenti pondo decem' - a graduated fine schedule by social rank for
+    Donatists refusing to return to the Catholic church, with Circumcellions assessed a silver
+    (not gold) fine - closing the gap Source_Acquisition_Manifest.md and Doc_02 §9 both flagged (the
+    16.5.52 citation previously unheld in any vendored text). This supplements, not replaces, the
+    Boyd 1905 substitute source already vendored for G3 (boyd_ecclesiastical-edicts-theodosian-code_1905.txt),
+    since Boyd's own essay does not quote 16.5.52 verbatim. The term 'agonistici' does NOT appear
+    anywhere in this file (checked directly, zero matches) - confirmed NOT to be Theodosian Code
+    vocabulary; its likely source is Augustine's own polemic, unverified this session and named as a
+    separate, smaller open item. OCR QUALITY: raw, uncorrected 1905 Latin critical-edition scan with
+    a dense apparatus; expect the same 'e'/'c' OCR-confusion pattern seen elsewhere in this corpus's
+    Google Books scans. Any specific quotation needs visual cross-check against its own surrounding
+    context before being relied on for a verbatim claim.
+- filename: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    Paul Monceaux (1859-1941), 'Histoire litteraire de l'Afrique chretienne depuis les origines
+    jusqu'a l'invasion arabe,' Tome Quatrieme: Le Donatisme (Paris: Ernest Leroux, 1912) - the
+    Donatism world-build's Manifest §1 request G6's remainder. Only Tome V (Saint Optat et les
+    premiers ecrivains donatistes, 1920, already vendored as
+    monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt) was previously acquired
+    (2026-09-01); this Tome IV is Monceaux's own first dedicated Donatism volume (Livre Huitieme,
+    'Le Donatisme, Documents sur l'histoire du schisme,' opens this tome) - more directly on-topic
+    than Tome V's own earlier-period focus. This session had direct outbound network access
+    (confirmed working before any other action) and fetched the item, histoirelitterai04monc,
+    directly from archive.org's own download endpoint (no DOCX intermediate). TITLE PAGE DATE
+    CAVEAT: archive.org's own catalog metadata field wrongly shows '1901' (the series' own
+    start year, misapplied uniformly to every tome); the volume's own title page states '1912'
+    directly and is the basis for this file's own date, per this session's direct inspection.
+    RIGHTS: pre-1929 publication (1912) alone places this well out of US copyright; independently,
+    the author's own death date (1941, stated on this item's own catalog record) is more than 95
+    years before this session (2026). French-language secondary scholarship (Type S), no
+    public-domain English translation exists - same situation already established for Tome V.
+    OCR QUALITY: raw, uncorrected OCR of a 1912 French text with extensive diacritics; expect
+    scattered character-substitution errors. Any specific quotation needs visual cross-check
+    against its own surrounding context before being relied on for a verbatim claim.
+- filename: monceaux_histoire-litteraire-afrique-chretienne-tome6_1922.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    Paul Monceaux (1859-1941), 'Histoire litteraire de l'Afrique chretienne depuis les origines
+    jusqu'a l'invasion arabe,' Tome Sixieme: La Litterature Donatiste (au temps de saint Augustin)
+    (Paris: Editions Ernest Leroux, 1922) - the Donatism world-build's Manifest §1 request G6's
+    remainder, companion to Tome IV (vendored alongside this file, same session - see that file's
+    own entry above for the fuller acquisition account). This tome covers the Donatist literature
+    contemporary with Augustine's own anti-Donatist campaign, later chronologically than Tome IV's
+    own material. Fetched directly from archive.org's own download endpoint (item
+    histoirelitterai06monc, no DOCX intermediate), this session's direct network access. TITLE PAGE
+    DATE CAVEAT: archive.org's own catalog metadata field wrongly shows '1901' (the series' own
+    start year, misapplied uniformly to every tome, same caveat as Tome IV above); the volume's own
+    title page states '1922' directly. RIGHTS: pre-1929 publication (1922) alone places this well
+    out of US copyright; independently, the author's own death date (1941) is more than 95 years
+    before this session (2026). French-language secondary scholarship (Type S), no public-domain
+    English translation exists - same situation already established for Tome V. OCR QUALITY: raw,
+    uncorrected OCR of a 1922 French text with extensive diacritics; expect scattered
+    character-substitution errors. Any specific quotation needs visual cross-check against its own
+    surrounding context before being relied on for a verbatim claim.
+- filename: gregory-great_epistolae-selectae_turchi1907.txt
+  supplied_by: Claude (direct network fetch)
+  date_added: '2026-09-07'
+  notes: >-
+    'Bibliotheca Sanctorum Patrum et Scriptorum Ecclesiasticorum, Series VII (Scriptores Medii Aevi),
+    Voluminis I Pars I: Sancti Gregorii Magni Epistolae Selectae,' curante Sac. Nicola Turchi (Rome:
+    Apud Directionem Bibliothecae Ss. Patrum, 1907) - a themed selection of Gregory the Great's
+    letters, addressing the Donatism world-build's own Registry row 32 open item (Gregory's Register
+    as the terminus of attestation for this world, Doc_02 Section 9). Two prior sessions searched
+    archive.org exhaustively for Mark's own target edition (Ewald and Hartmann, MGH Epistolae I-II,
+    Tomus I: Libri I-VII, Berlin 1891) without finding it; this session, with direct network access
+    confirmed working, found this different but directly useful edition instead via a Google Books
+    search. NOT the Ewald-Hartmann edition itself (that remains unvendored) - but its own front
+    matter states directly that its text and notes are taken FROM the Ewald-Hartmann edition, and
+    every included letter carries an explicit editorial concordance to that edition's own book/
+    epistle numbering. Fetched as a PDF directly from Google's own download endpoint (volume ID
+    KCRJAQAAMAAJ, confirmed via Google Books API metadata as public-domain/open-access/full-view),
+    converted to plain text via pdftotext -layout (reading the PDF's own embedded OCR text layer,
+    no re-OCR, no model-generated content). RIGHTS: 1907 publication date alone. CONTENT CONFIRMED
+    THIS SESSION: searched the whole file directly (not page-by-page) for 'Donatist' and its Latin
+    case forms. Four genuine Donatist-subject letters found, each independently verified in context
+    and each carrying the edition's own explicit Ewald/Hartmann concordance: this edition's Ep.
+    LXXXII = Ewald lib. II, ep. 46 (to Columbus of Numidia, re: Maximianus of Pudentiana corrupted
+    by the Donatists, 592 Jul); Ep. LXXXIV = Ewald lib. IV, ep. 32 (to Pantaleon, praetorian prefect
+    of Africa, urging suppression of the Donatists, 594 Jul); Ep. LXXXVI = Ewald lib. IV, ep. 35 (to
+    Victor and Columbus, bishops of Africa, urging a council against the Donatists, 594 Jul); Ep.
+    LXXXVII = Hartmann lib. V, ep. 3 (to Dominicus of Carthage, on heretic-coercion and a 594 council
+    at Carthage against the Donatists per a quoted Dudden 1905 footnote, 594 Sept). These are IN
+    ADDITION TO letters I.72 and I.75, already confirmed genuine elsewhere in this world's own build
+    record by a prior session's independent check; this file's own selection does not draw from Book
+    I at all, so it neither confirms nor contradicts those two. No letter numbered I.73 was found in
+    this selection. IMPORTANT CAVEAT: this is a SELECTION ('Epistolae Selectae'), not the complete
+    Register - its own title page states 'Pars I' and its own back matter confirms a Pars II exists,
+    not located or vendored this session. OCR QUALITY: Google's own embedded OCR layer, reasonably
+    clean, with occasional footnote-column/main-text bleed from the two-column apparatus layout (one
+    English-language Dudden footnote appears interleaved mid-paragraph near Ep. LXXXVI/LXXXVII).
+    Any specific quotation needs visual cross-check against its own surrounding context before being
+    relied on for a verbatim claim.
