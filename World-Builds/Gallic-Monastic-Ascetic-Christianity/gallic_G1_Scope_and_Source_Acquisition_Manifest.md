@@ -66,10 +66,18 @@ throughout).
 
 **Honest gaps, not pursued now:** Prosper of Aquitaine's own writings (he is named throughout as the
 reporter and one of the two addressees, but has no separately vendored voice in this library — he is
-known only through Augustine's replies to him). Worth a PRESS-style discovery check at B-1b, not a
-blocker for Phase A. No source in this world's citable window is known to be paywalled,
-physical-only, or otherwise genuinely inaccessible — nothing to escalate under V3's narrowed G1
-exception.
+known only through Augustine's replies to him). **Faustus of Riez** — abbot of Lérins from 433 (inside
+this world's window) and later bishop of Riez, whose *De Gratia* (474) is the most direct surviving
+Gallic-monk answer to Augustine's own position, checked 2026-09-08 (sibling-flagged lead, verified
+independently): not vendored anywhere in this project's library (only passing footnote/apparatus
+mentions of Faustus turn up in other volumes' editorial matter, confirmed via full-text search); no
+public-domain English translation exists — the only English edition is a 2023 Brepols bilingual
+scholarly edition, licensed, not open-source. *De Gratia* itself was also written in 474, after
+Faustus became bishop, past this world's own proposed c. 450 close (§2.4) — a genuine double
+reason not to chase it now, not merely a rights blocker. Both gaps are worth a PRESS-style discovery
+check at B-1b, not a blocker for Phase A. No source in this world's citable window is known to be
+paywalled, physical-only, or otherwise genuinely inaccessible — nothing to escalate under V3's
+narrowed G1 exception.
 
 ---
 
