@@ -981,9 +981,16 @@
     Hartel's critical edition of Cyprian's own corpus, CSEL 3 Pars I (treatises,
     1868) and Pars II (Epistulae I-LXXXI, 1871) -- supplied for the Latin
     Pastoral-Congregational Christianity world-build's own Registry row 39,
-    fulfilling most of that world's Source_Acquisition_Manifest G1 request. Pars
-    III (spuria and indices) is not included and remains unacquired; G1 stays
-    open for that part only. Public domain by date (1868/1871, both far past the
+    fulfilling part of that world's Source_Acquisition_Manifest G1 request.
+    Pars III (Cyprian's Opera Spuria, the Vita Caecilii Cypriani, the Acta
+    Proconsularia, and the volume's own indices and praefatio) is now also
+    vendored, as that world's Registry row 194 (2026-09-08), closing G1 in
+    full -- corrected here 2026-09-08, from an earlier draft's own present-
+    tense "is not included and remains unacquired; G1 stays open for that
+    part only," stale since that acquisition and left uncorrected through
+    twenty-two rounds of that world's own independent review, since no
+    sweep of that review had been scoped to this file. Public domain by
+    date (1868/1871, both far past the
     ~95-year US threshold); the 1965 Johnson Reprint Corporation printing this
     scan derives from is a photomechanical reprint of the same public-domain
     text, no new claim over it. Mechanically extracted from a docx Mark compiled
@@ -1012,11 +1019,17 @@
     ordinary English-language primary-evidence material, not a second-witness
     original-language file. Public domain by date (1919). Mechanically
     extracted from a docx Mark compiled from an archive.org "Full text" view
-    of a Google Books scan of the University of California, Berkeley's own
-    copy (exact item identifier not stated when supplied, not guessed);
-    site-navigation chrome, Google's PD usage notice, and a scanned UC
-    Berkeley circulation due-date slip bound into the back of the physical
-    volume were all stripped as scanning artifacts, doubled inter-word
+    of an Internet Archive scan of the University of California, Berkeley's
+    own copy -- corrected here from an earlier draft's own "a Google Books
+    scan" and "not guessed": the item (archive.org/details/
+    sanctiaugustiniv00possrich, identity confirmed by a byte-for-byte match
+    against the vendored file at both ends) carries sponsor MSN and
+    scanningcenter rich, the signature of an Internet Archive/Microsoft
+    Open Content Alliance scan, and its own full text contains the word
+    "Google" zero times; site-navigation chrome, a public-domain usage
+    notice, and a scanned UC Berkeley circulation due-date slip bound into
+    the back of the physical volume were all stripped as scanning
+    artifacts, doubled inter-word
     spacing normalized, nothing else altered. OCR quality: the English
     translation reads cleanly throughout, including its own closing lines;
     the Latin apparatus and manuscript-collation tables carry more noise,
@@ -1027,16 +1040,23 @@
   notes: >-
     Goldbacher's critical edition of Augustine's letters, CSEL 57, Pars IV
     only (Epistulae 185-270) -- supplied for the Latin Pastoral-Congregational
-    Christianity world-build's own Registry row 61, partially fulfilling
-    Source_Acquisition_Manifest G4. The remaining Goldbacher volumes (CSEL
-    34/1, 34/2, 44, 58) are not included and stay open. Public domain by
+    Christianity world-build's own Registry row 61. CSEL 34/1, 34/2, and 44
+    were also vendored (2026-09-08); only CSEL 58 (praefatio and indices, no
+    letter text of its own) remains unacquired, and Source_Acquisition_
+    Manifest G4 now stays open for that part alone -- corrected here
+    2026-09-08 from an earlier draft's own present-tense "are not included
+    and stay open," stale since that acquisition and left uncorrected
+    through twenty-two rounds of that world's own independent review, since
+    no sweep of that review had been scoped to this file. Public domain by
     date (1911). Mechanically extracted from a docx Mark compiled from an
-    archive.org "Full text" view of a Google Books scan (exact item
-    identifier not stated when supplied, not guessed, though very likely
-    the same item already noted in the shared download-queue-seed.yaml as
-    archive.org/details/CSEL57 -- not independently confirmed against this
-    specific file); site-navigation chrome and Google's PD usage notice
-    stripped, doubled inter-word spacing normalized, nothing else altered.
+    archive.org "Full text" view of an Internet Archive scan -- corrected
+    here from an earlier draft's own "a Google Books scan": the source
+    item (archive.org/details/CSEL57, identity confirmed by a byte-for-byte
+    match against the vendored file at both ends) carries no sponsor or
+    scanningcenter field pointing at Google, and its own full text contains
+    the word "Google" zero times; site-navigation chrome and a public-domain
+    usage notice stripped, doubled inter-word spacing normalized, nothing
+    else altered.
     Latin-only, no facing translation -- original-language witness,
     second-witness caveat applies per cic/texts/INTAKE.md. OCR quality
     measurably worse than this project's other recent Latin intakes: a
