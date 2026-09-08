@@ -221,15 +221,28 @@ svg#world{display:block;overflow:visible}
 #panel .panel-link{background:none;border:none;padding:0;font:inherit;
   color:var(--tyrian);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
 /* Documented stories: a movement's own real, sourced narrative episodes --
-   distinct from the map's floating gap stories -- collapsed by default so
-   the panel's own account of a movement isn't crowded by its detail. */
-#panel details.docstories,#panel details.sources-panel{margin:.8rem 0 .3rem;border-top:1px solid var(--rule);
+   distinct from the map's floating gap stories, but drawn with the exact
+   same open-book glyph so the two read as the same kind of object. One
+   button per story, icon only -- the title shows on hover/focus via the
+   shared #tip element (same structure tipForStory already uses for the
+   map's own floating stories), and again at the top once opened, rather
+   than repeating every title as permanent on-card text. */
+#panel details.sources-panel{margin:.8rem 0 .3rem;border-top:1px solid var(--rule);
   padding-top:.6rem}
-#panel details.docstories summary,#panel details.sources-panel summary{cursor:pointer;font-family:"Alegreya Sans",sans-serif;
+#panel details.sources-panel summary{cursor:pointer;font-family:"Alegreya Sans",sans-serif;
   font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-leaf)}
-#panel details.docstories summary:focus-visible,#panel details.sources-panel summary:focus-visible{outline:2px solid var(--gold-leaf);
+#panel details.sources-panel summary:focus-visible{outline:2px solid var(--gold-leaf);
   outline-offset:2px}
-#panel .docstory{margin:.7rem 0 1rem;padding-left:.6rem;border-left:2px solid var(--tyrian)}
+#panel .docstories-row{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0 .3rem}
+#panel details.docstory-item{margin:0}
+#panel details.docstory-item summary{cursor:pointer;list-style:none;display:inline-flex;
+  align-items:center;justify-content:center;width:2.3rem;height:2.1rem;
+  background:var(--tyrian-wash);border:1px solid var(--rule);border-radius:4px}
+#panel details.docstory-item summary::-webkit-details-marker{display:none}
+#panel details.docstory-item summary:hover,#panel details.docstory-item[open] summary{border-color:var(--tyrian)}
+#panel details.docstory-item summary:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
+#panel .docstories-row details.docstory-item[open]{flex:1 1 100%;order:99}
+#panel .docstory{margin:.5rem 0 1rem;padding-left:.6rem;border-left:2px solid var(--tyrian)}
 #panel .docstory h4{font-family:"Alegreya",serif;font-size:1rem;margin:0 0 .1rem}
 #panel .docstory .meta{margin:0 0 .4rem;font-size:.78rem}
 #panel .docstory .caveat{font-size:.85rem;color:var(--ink-faded);font-style:italic}
@@ -41440,6 +41453,16 @@ function tipForRiver(f,count,minYear,maxYear){
 function tipForStory(s){
   return `<div class="n">${esc(s.title)}</div><div class="m">${esc(String(s.year))} · ${esc(s.region||'')}</div><div class="s">Story — not its own movement</div>`;
 }
+// Same tip structure as tipForStory above, for a movement's own documented
+// stories (title / when / verification) rather than a floating gap story
+// (title / year+region / "not its own movement").
+function tipForDocStory(s){
+  return `<div class="n">${esc(s.title)}</div><div class="m">${esc(s.when)}</div><div class="s">${esc(s.verification)}</div>`;
+}
+// The exact open-book glyph the map draws for its own floating stories
+// (see the gStories build loop), reused here as an inline icon so a
+// movement's own documented stories read as the same kind of object.
+const DOCSTORY_BOOK_SVG='<svg width="17" height="15" viewBox="-8 -7 16 14" aria-hidden="true" focusable="false"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width="0.6" stroke-linejoin="round"/></svg>';
 
 /* ---- Tooltip (hover = short) ---- */
 const tip=document.getElementById('tip');
@@ -41537,20 +41560,17 @@ function openPanel(m){
   // both matter -- conflating them was exactly what an earlier pass on this
   // map got right and the first gap-stories draft did not.
   if(m.documentedStories&&m.documentedStories.length){
-    h+=`<details class="docstories"><summary>See documented stories (${m.documentedStories.length})</summary>`;
-    m.documentedStories.forEach(s=>{
-      h+=`<div class="docstory"><h4>${esc(s.title)}</h4>
-        <p class="meta">${esc(s.when)} · ${esc(s.verification)}</p>
-        ${s.teaser?`<p class="teaser">${esc(s.teaser)}</p>`:''}
-        <p>${esc(s.text)}</p>
-        ${s.caveat?`<p class="caveat">${esc(s.caveat)}</p>`:''}`;
-      if(s.sources&&s.sources.length)h+=s.sources.map(src=>{
+    h+='<h3>Documented stories</h3><div class="docstories-row">'+m.documentedStories.map((s,i)=>{
+      let body=`<p class="meta">${esc(s.when)} · ${esc(s.verification)}</p>`;
+      if(s.teaser)body+=`<p class="teaser">${esc(s.teaser)}</p>`;
+      body+=`<p>${esc(s.text)}</p>`;
+      if(s.caveat)body+=`<p class="caveat">${esc(s.caveat)}</p>`;
+      if(s.sources&&s.sources.length)body+=s.sources.map(src=>{
         const work=src.url?`<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.work)}</a>`:esc(src.work);
         return `<div class="edge"><span class="k">${esc(src.type)}</span><br><b>${work}</b>${src.note?`<br>${esc(src.note)}`:''}</div>`;
       }).join('');
-      h+='</div>';
-    });
-    h+='</details>';
+      return `<details class="docstory-item" data-story-idx="${i}"><summary aria-label="${esc(s.title)}">${DOCSTORY_BOOK_SVG}</summary><div class="docstory"><h4>${esc(s.title)}</h4>${body}</div></details>`;
+    }).join('')+'</div>';
   }
   if(m.voices&&m.voices.length)h+=`<h3>Voices</h3><ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
   if(m.floorNote)h+=`<h3>Doctrinal floor note</h3><p>${esc(m.floorNote)}</p>`;
@@ -41605,6 +41625,15 @@ function openPanel(m){
   }
   panelBody.innerHTML=h; showPanel(); hideTip();
   panelBody.querySelectorAll('[data-interview-id]').forEach(btn=>btn.addEventListener('click',()=>launchInterview(btn.dataset.interviewId)));
+  panelBody.querySelectorAll('.docstory-item').forEach(item=>{
+    const s=m.documentedStories[+item.dataset.storyIdx], summary=item.querySelector('summary'), tipHtml=tipForDocStory(s);
+    summary.addEventListener('mouseenter',ev=>showTip(ev,tipHtml));
+    summary.addEventListener('mousemove',positionTip);
+    summary.addEventListener('mouseleave',hideTip);
+    summary.addEventListener('focus',()=>{const r=summary.getBoundingClientRect();showTipAt(r.left+r.width/2,r.top,tipHtml);});
+    summary.addEventListener('blur',hideTip);
+    item.addEventListener('toggle',hideTip);
+  });
   syncWorldURL(m.id);
 }
 function openPanelStory(s){
