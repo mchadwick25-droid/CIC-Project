@@ -128,7 +128,7 @@ The canonical gravity record for this world, per Doc_04 §4's own Classification
 
 **Gravity type:** Supporting, scope-qualified — confirmed only for the Numidian regional sub-ecology, not ecology-wide
 
-**Confidence:** Divergent across three tiers, the sharpest confidence divergence in this world's record: bare existence is Documented (independent imperial legislation, currently unvendored); the *agonistici* self-designation term is Augustine-reported only, reliable reportage rather than independent attestation; character, scale, and conduct rise at most to Dominant Modern Reconstruction (the standard scholarly corrective to the older, fuller hostile portrait).
+**Confidence:** Divergent across three tiers, the sharpest confidence divergence in this world's record: bare existence is Documented (independent imperial legislation, vendored 2026-09-07 — corrected 2026-09-08); the *agonistici* self-designation term is Augustine-reported only, reliable reportage rather than independent attestation; character, scale, and conduct rise at most to Dominant Modern Reconstruction (the standard scholarly corrective to the older, fuller hostile portrait).
 
 **Cross-strand status:** Regionally concentrated in Numidia specifically — this candidate fails Dependency, Formation, Explanatory, and Persistence ecology-wide; regionally, it fully passes Formation and Persistence and only partially passes Dependency and Explanatory. The one candidate that most clearly fails a strict cross-voice standard for anything beyond bare existence and self-designation.
 
