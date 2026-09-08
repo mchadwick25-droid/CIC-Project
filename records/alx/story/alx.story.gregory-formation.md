@@ -34,7 +34,7 @@ narrative_tier_justification: 'Tier 1 (documented historical narrative) at the n
   testimony by the student himself, in a dated oration (c. 238, Nautin caveat carried on the source record).
   The epideictic genre idealizes but does not fabricate events.'
 tellable_as: the student Gregory's own account of how Origen taught him, told at his farewell
-text: 'Gregory came from Cappadocia to study law, and met Origen at Caesarea. He stayed eight years. He
+text: 'Gregory came from Neo-Caesarea, in Pontus, to study law, and met Origen at Caesarea. He stayed five years. He
   tells it himself: the teacher did not begin with doctrines. He began like a farmer testing soil - questioning,
   digging, watching what the young man''s mind did under pressure. Logic first, to make thinking honest.
   Then the natural world, geometry, the stars - until the students'' wonder was trained. Then ethics,
@@ -54,6 +54,27 @@ modern_contrast: >
   its friend and messenger, the formation-love vocabulary of paideia rather
   than a romantic attachment.
 ---
-Every element is in the Address (the soil-testing, the curriculum
-sequence in Arguments VII-IX, the spark passage, the paradise lament).
+Most elements are in the Address itself, within the stated VI-XVI locus
+(the soil-testing and curriculum sequence in Arguments VII-IX, the spark
+passage in Argument VI, the paradise lament in Argument XVI) - corrected
+2026-09-08, records/alx audit: this note previously claimed "every
+element is in the Address," which overstated the record's own citation.
+Two facts in the opening sentence are not from Arguments VI-XVI, or even
+from the Address's own body text, but from the vendored ANF06 volume's
+editorial introduction to Gregory (preceding the Address's own division
+at file line 2288): (1) "Cappadocia" was wrong - the introduction states
+Gregory "was a native of Neo-Cæsarea, the chief city of Pontus" (anf06
+line 631-632; restated line 796-797, "a native of Neo-Cæsareia... one of
+the most important towns of Pontus"), matching this world's own
+alx.figure.gregory-thaumaturgus ("Gregory Thaumaturgus of Neocaesarea");
+"Cappadocia" appears in the vendored file only as Firmilian's unrelated
+see. Corrected to Neo-Caesarea, in Pontus. (2) "Eight years" was also
+wrong for the time under Origen - the Address's only "eight years" is
+Argument I's separate claim about giving up oratory ("it is now eight
+years since I chanced myself to utter or compose any speech," anf06 line
+2319), not the span of study with Origen. The introduction's own figure
+for the residence with Origen is "some five years" (anf06 line ~817:
+"After a residence of some five years with the great Alexandrian, he
+returned to his native city"), matching alx.figure.gregory-thaumaturgus's
+"student under Origen at Caesarea c. 233-238." Corrected to five years.
 Companion quote: alx.quote.gregory-spark.

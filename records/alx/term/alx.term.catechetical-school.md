@@ -27,6 +27,15 @@ sources:
 - source_id: alx.source.gregory-address-to-origen
   locus: "(whole)"
   license: public-domain
+- source_id: alx.source.socrates-historia-ecclesiastica
+  locus: IV.25
+  license: public-domain
+- source_id: alx.source.palladius-lausiac-history
+  locus: "IV"
+  license: public-domain
+- source_id: alx.source.jerome-de-viris
+  locus: "109"
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
@@ -49,9 +58,14 @@ senses:
   informational: The community remembered a line of teachers - Pantaenus, Clement, Origen, on to Didymus
     - and valued that handing-on enough to keep the names. Whether a formal institution with an office
     and a succession stood behind that memory was not a question the community itself stopped to settle.
-  evidential: Eusebius, writing generations later, is the main source for an institutional succession and
+  evidential: 'Eusebius, writing generations later, is the main source for an institutional succession and
     carries real risk of over-reading his own sources; Clement and Gregory Thaumaturgus attest the
-    teaching relationship itself, independent of any institutional claim.
+    teaching relationship itself, independent of any institutional claim. Didymus''s own place in the
+    line is not attested in Eusebius''s vendored text itself (corrected 2026-09-08, records/alx audit -
+    every "Didymus" occurrence in the vendored npnf201 is either inside McGiffert''s own editorial note
+    apparatus, not ancient text, or refers to a different Didymus, the addressee of Dionysius''s letters
+    at HE VII.11/VII.20); Didymus is instead attested here by Socrates, HE IV.25, Palladius, Lausiac
+    History ch. IV, and Jerome, De Viris Illustribus 109.'
   personal: A student who found a teacher whose formed wisdom they could see, and read Scripture beside
     them, was genuinely being taught - whatever the answer to the institutional question turns out to be.
   translational: >-

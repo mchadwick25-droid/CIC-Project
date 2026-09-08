@@ -13,10 +13,15 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     A SECOND WITNESS TO A TEXT THIS WORLD ALREADY HOLDS, AND IT IS SHORTER. The Syriac Life runs
-    about 14,800 words against roughly 32,000 in the Greek-based English at npnf204
-    (alx.source.athanasius-vita-antonii). It is an abridgement, and no record may cite it as though
-    it were the same book at a different length: where the Syriac is silent that is a fact about
-    the Syriac, not about Athanasius.
+    about 14,800 words against roughly 24,600 for the Life proper in the Greek-based English at
+    npnf204 (alx.source.athanasius-vita-antonii) - a like-for-like ratio of about 60%, not "about
+    half." Corrected 2026-09-08, records/alx audit: this note previously compared the Syriac
+    against npnf204's whole entry (~32,000 words), which bundles in Robertson's editorial
+    Prolegomena (~4,900 words) preceding the actual Life (div1 xvi = whole entry incl. Prolegomena
+    at div2 xvi.i; div2 xvi.ii = "Life of Antony proper," ~24,600 words) - comparing the Syriac Life
+    against that larger figure overstated the abridgement. It is still an abridgement, and no record
+    may cite it as though it were the same book at a different length: where the Syriac is silent
+    that is a fact about the Syriac, not about Athanasius.
 sources: []
 relations:
 - type: associated-with
@@ -41,9 +46,12 @@ as Alexandria produced it. What it could not show was the book as anyone
 else received it, which for a text whose whole significance is its
 transport is a strange thing to be missing.
 
-Here it is in Syriac, at about half the length, in a manuscript copied at
-Mosul and read in a church that had its own monastic literature and its
-own reasons to want this one. The abridgement is the evidence: what a
+Here it is in Syriac, at about 60% the length of the Greek-based Life
+proper (corrected 2026-09-08, records/alx audit: the divergence_note field
+above previously compared against npnf204's whole entry including
+Robertson's Prolegomena, overstating this to "about half"), in a
+manuscript copied at Mosul and read in a church that had its own monastic
+literature and its own reasons to want this one. The abridgement is the evidence: what a
 different tradition kept and what it did not think it needed is a
 measurement of what the book was FOR outside the city that wrote it -
 and this world can now make that measurement rather than assert that the

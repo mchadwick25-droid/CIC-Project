@@ -20,6 +20,12 @@ sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
   locus: VII.25 (Dionysius's critical analysis of the Apocalypse)
   license: public-domain
+- source_id: alx.source.clement-quis-dives
+  locus: >-
+    ch. XLII (the John and the young robber story, "handed down" - added
+    2026-09-08, records/alx audit: this quotation was previously unsourced
+    in this file's sources block, even though the quote itself is accurate)
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when: []

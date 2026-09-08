@@ -18,9 +18,6 @@ sources:
 - source_id: alx.source.clement-paidagogos
   locus: I.6-7
   license: public-domain
-- source_id: alx.source.athanasius-de-incarnatione
-  locus: "8"
-  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -41,8 +38,13 @@ senses:
     nous being opened. The body goes under the water and the breath stops; the body is lifted out and
     breathes again. That bodily crossing is the soul's real sharing in Christ's death and resurrection,
     not a picture of it.
-  evidential: Clement calls baptism the washing that opens the soul to what follows; Athanasius reads it
-    as sharing in Christ's own victory over death, worked in the body of the one baptized.
+  evidential: 'Clement calls baptism the washing that opens the soul to what follows (Paed. I.6: "Being
+    baptized, we are illuminated; illuminated, we become sons; being made sons, we are made perfect;
+    being made perfect, we are made immortal"). The Athanasius attribution is removed here (corrected
+    2026-09-08, records/alx audit) - De Incarnatione contains zero occurrences of "bapti*" anywhere in
+    the vendored work, and §8 (the locus previously cited) concerns the Incarnation itself, not baptism;
+    no Athanasius locus connecting baptism to Christ''s victory over death was found in the vendored
+    corpus, so this claim now rests on Clement alone.'
   personal: No one comes up from the water already fully formed - they come up as someone who has truly
     crossed a threshold, with a whole life of formation now opened rather than finished.
   translational: >-

@@ -16,7 +16,9 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: VII.24 (npnf201 lines 41311-41320; Dionysius's own book On the Promises, quoted verbatim)
+  locus: 'VII.24 (npnf201 lines 41310-41318; Dionysius''s own book On the Promises, quoted
+    verbatim; corrected 2026-09-08, records/alx audit: locus range adjusted to
+    match the extended text field below)'
   license: public-domain
 retrieval:
   tier: 2
@@ -28,7 +30,7 @@ retrieval:
 relations:
 - type: associated-with
   target: alx.story.arsinoite-conference
-text: I approve and love Nepos, for his faith and industry and diligence in the Scriptures, and for his
+text: I confess that in many other respects I approve and love Nepos, for his faith and industry and diligence in the Scriptures, and for his
   extensive psalmody, with which many of the brethren are still delighted; and I hold him in the more
   reverence because he has gone to rest before us. But the truth should be loved and honored most of all.
 speaker_or_author: alx.figure.dionysius
@@ -42,8 +44,15 @@ modern_lens_note: >
 How this world disagreed inside the household: love the man, honor the
 truth more. Spoken about Nepos, the Egyptian bishop whose Refutation of
 Allegorists Dionysius answered (see alx.contested.allegory-from-within
-and alx.story.arsinoite-conference). The vendored translation opens the
-sentence with an editorially supplied clause ('in many other respects');
-this quote begins at the uncontested text. Serves F6-I (what troubled/
+and alx.story.arsinoite-conference). Serves F6-I (what troubled/
 never settled) and F1-E (who had the right to decide - and how it was
 actually done). Verified verbatim.
+
+corrected 2026-09-08, records/alx audit: text previously began mid-sentence
+at "I approve and love Nepos," dropping "I confess that in many other
+respects" on the claim that the clause was editorially supplied. Only "I
+confess that" carries that footnote (npnf201, endnote at line 41310: "not
+in the original... necessary to complete the sentence"); "in many other
+respects" (line 41312) is genuine vendored translation text - the
+qualifier by which Dionysius limits his approval - and is restored to the
+text field. Locus range adjusted to 41310-41318 to match.

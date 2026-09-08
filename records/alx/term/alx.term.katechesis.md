@@ -17,6 +17,9 @@ sources:
 - source_id: alx.source.clement-paidagogos
   locus: I
   license: public-domain
+- source_id: alx.source.origen-contra-celsum
+  locus: III.51
+  license: public-domain
 retrieval:
   tier: 1
   retrieve_when:
@@ -34,8 +37,16 @@ false_friend:
 senses:
   informational: The staged instruction of those coming to baptism - often years long, with teaching,
     testing, prayer, and a changed life expected before the water.
-  evidential: Clement's Paedagogus shows the instruction's shape; the catechumenate as a staged path is
-    well-attested across the tradition.
+  evidential: 'Origen describes the staged, tested path into the community (Contra Celsum III.51):
+    candidates are examined privately, sorted into those "receiving admission" who have "not yet obtained
+    the mark of complete purification" and those further along, with appointed persons inquiring into
+    "the lives and behaviour of those who join them" before full admission. Clement''s Paedagogus is
+    corrected here (2026-09-08, records/alx audit): Paed. I actually addresses the already-baptized
+    ("Being baptized, we are illuminated; illuminated, we become sons" - I.6) and Paed. I.1 explicitly
+    disclaims a teaching office for the book ("The Instructor being practical, not theoretical... not to
+    teach"), so it shows the shape of post-baptismal formation and training, not pre-baptismal
+    catechesis; the book''s threefold Protrepticus/Paedagogus/Didaskalos scheme is a literary structure,
+    not a description of the catechumenate.'
   personal: Becoming a Christian here was a road walked with a teacher, not a moment - slowness was the
     point.
   translational: '''How did a person become one of you?'' - through this: taught, tested, changed, then

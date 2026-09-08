@@ -45,10 +45,14 @@ text: 'Clement told this as a story handed down about John. In a city near Ephes
   died for us. Stop. Believe. Christ has sent me.'' The young man stopped, threw down his weapons, and
   wept. John led him back, prayed with him, wrestled beside him in fasting, and did not leave until he
   had restored him to the church.'
-absent_detail: The city is unnamed in the tradition ('a city not far off'); the bishop and the young man
-  are unnamed. Whether the events happened as told cannot be established - Clement's own framing ('a true
-  account... handed down') is the tier's basis, and the telling keeps his attribution rather than asserting
-  more.
+absent_detail: 'Clement does not name the city himself - he writes only ''one of the cities not far off''
+  - but his own aside does not exclude a name: the vendored text continues ''(the name of which some give,''
+  with the ANF editor noting ''Said to be Smyrna'' (corrected 2026-09-08, records/alx audit: this field
+  previously stated flatly that the city is unnamed in the tradition, citing only ''a city not far off''
+  and omitting Clement''s own following clause, which acknowledges that some sources do give it a name -
+  traditionally Smyrna, per the editor''s note). The bishop and the young man remain unnamed. Whether the
+  events happened as told cannot be established - Clement''s own framing (''a true account... handed down'')
+  is the tier''s basis, and the telling keeps his attribution rather than asserting more.'
 modern_contrast: >
   A modern reader may hear this as a simple crime-and-redemption arc (a
   reformed bandit chief, a feel-good ending) that skips past the harm the
@@ -62,7 +66,18 @@ The world's best story for restoration-after-falling: serves F4-I (when
 someone wronged the community, could they come back?) and F6-P ('if
 someone left your community for good, what would you have wanted them
 to know?'). Every narrative element above is in Clement's telling;
-the dialogue is condensed from the vendored translation, not invented.
+the dialogue is condensed and modernized in wording, not invented (corrected
+2026-09-08, records/alx audit: this note previously said the dialogue is
+"condensed, not invented," which is accurate as to invention but not as
+to wording. The vendored text (anf02, within div vi.v, lines 57244-57330)
+splits the bishop's speech and John's interjection into two separate
+speeches; renders "He is a robber on the mountain" as "now he has taken
+possession of the mountain in front of the church, along with a band
+like him"; and has John say "my son" (here "child"), "I will give
+account to Christ for thee" (here "I will answer for you to Christ"),
+and "Stand" (here "Stop"), while dropping "For thee I will surrender my
+life" entirely. See the vendored text at the cited lines for the
+original phrasing).
 
 CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
 and the five world read"; V1.2 birth condition applied to the existing

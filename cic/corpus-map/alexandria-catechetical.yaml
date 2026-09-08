@@ -761,14 +761,19 @@ works:
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Excerpts of Theodotus
-  author: theodotus
+  author: uncertain
   locus: div2 4.3
   role: tradition
   confidence: assigned
-  note: 'Excerpts from Theodotus of the Eastern Valentinian school, preserved with Clement
-    of Alexandria''s interlaced comments: actual Valentinian voice for the doctrinal-floor
-    entry (a built world may draw it only as etic), and a document of Clement''s working method
-    for Alexandria.
+  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md): despite
+    its title, this vendored text is the Eclogae Propheticae (Selections from the Prophetic
+    Scriptures), NOT the genuine Excerpta ex Theodoto. It carries no Valentinian technical
+    vocabulary (a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/
+    Ogdoad, and "Theodotus" only in the editorial title), and the ANF editor''s own headnote
+    disowns the Clement attribution ("corrupt or forged documents, for which Clement''s name has
+    been borrowed"), guessing an unknown Montanist compiler instead. It is NOT a Valentinian voice
+    and must not be cited as one; the genuine Excerpta ex Theodoto is not vendored anywhere in this
+    corpus.
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

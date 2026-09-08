@@ -36,6 +36,13 @@ bridge_line: the teacher-become-bishop who led the church through plague and per
 The mid-horizon witness in his own (mediated) words. The plague-conduct
 letters (Christians nursing the dying while others fled) are prime F5
 sickness/death material; the Arsinoite conference (HE VII.24, npnf201
-~line 41290, verified: Nepos's 'Refutation of Allegorists' answered by
-patient teaching) is the world's best story of disagreement handled
+lines 41343-41382, verified: Nepos's 'Refutation of Allegorists' answered
+by patient teaching) is the world's best story of disagreement handled
 inside the household - see alx.contested.allegory-from-within.
+
+corrected 2026-09-08, records/alx audit: line pointer previously read
+"~line 41290," which is the Nepos identification/introduction (Dionysius's
+Refutation of Allegorists is correctly placed at ~line 41293 elsewhere),
+not the conference narrative itself. The "three successive days" and
+Coracion material - the conference proper - runs at npnf201 lines
+41343-41382; the pointer now spans that range.

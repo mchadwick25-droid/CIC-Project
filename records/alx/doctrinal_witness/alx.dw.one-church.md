@@ -29,8 +29,8 @@ text: >-
   our own time we called ourselves part of the catholic church. The word
   meant the whole church, the one spread everywhere, as against the sects. It
   was a claim about wholeness, not the name of a later denomination. We
-  knew rival communities that also invoked Christ: Gnostic schools,
-  Manichaean missions, and after 318 the Arian churches. The boundary was
+  knew rival communities that also invoked Christ: Gnostic schools, and,
+  after 318, the Arian churches. The boundary was
   real to us - argument, exclusion from communion, and after Nicaea,
   harder tools. Is any present-day church 'our church'? That question
   reaches past what we can see. We speak from before the splits that made
@@ -51,3 +51,11 @@ window's edge and honestly no further; the heir question is doorway
 material (living_tradition flag), not voice material.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+
+CORRECTED 2026-09-08, records/alx audit: removed "Manichaean missions."
+Neither cited locus (Festal Letters, Dionysius's extant fragments) mentions
+Manichaeans. A vendored mention of Manichaean presence in Egypt does exist
+(ANF06's Introductory Notice to Archelaus, line ~17696), but anf06's
+Archelaus material has no source record in this registry and was not what
+this file cited. "Gnostic schools" and "after 318 the Arian churches" are
+retained, both supported.

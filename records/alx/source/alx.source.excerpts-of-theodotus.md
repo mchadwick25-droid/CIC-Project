@@ -11,43 +11,62 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: corroborating
   formation_confidence: Contested
-  divergence_note: 'Where Theodotus ends and Clement begins is genuinely disputed and this record does
-    not adjudicate it: the text is a notebook of extracts interleaved with the compiler''s own comment,
-    and scholars differ on the attribution of individual sections. Anything drawn from it must say
-    which of the two it is claiming to quote, or say that it cannot tell.'
+  divergence_note: 'Corrected 2026-09-08, records/alx audit: this record previously identified the
+    vendored text as the Excerpta ex Theodoto (genuine Valentinian-source material excerpted by
+    Clement). It is not. The vendored div is titled "Excerpts of Theodotus; or, Selections from the
+    Prophetic Scriptures" and its content is the Eclogae Propheticae - Clement''s (or an unknown
+    compiler''s) own notes on scriptural texts, not a transcript of Theodotus. A full-text vocabulary
+    scan of the vendored body (7,335 words) found zero occurrences of "Pleroma", "Sophia", "Achamoth",
+    "Demiurge", "Valentin*", "aeon", or "Ogdoad", and "Theodotus" occurs only in the editorial title -
+    none of the vocabulary a genuine Valentinian source would carry. The genuine Excerpta ex Theodoto
+    is not vendored anywhere in cic/texts/. Authorship of the vendored text is itself disputed by the
+    ANF editor''s own headnote (see below) - a second, independent uncertainty from the one this
+    record used to carry.'
 sources: []
-author: "Clement of Alexandria (compiler), excerpting the Valentinian teacher Theodotus"
-work: "Excerpta ex Theodoto (Excerpts of Theodotus) - Clement's working notebook of passages from a Valentinian teacher, with his own comments running alongside them"
-edition: "trans. from the Ante-Nicene Fathers vol. 8 (1886), vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml (div1 at line 3788)"
+author: "Uncertain. Traditionally bound as an appendix to Clement of Alexandria's works in this
+  edition, but the ANF editor's own headnote judges the ascription to Clement doubtful: 'these
+  excerpts... are alike corrupt or forged documents, for which Clement's name has been borrowed'; the
+  editor's own guess is a Montanist compiler, not Clement, and not Theodotus."
+work: "Eclogae Propheticae (Selections from the Prophetic Scriptures) - a set of notes on scriptural
+  texts, printed in this edition under the running title 'Excerpts of Theodotus; or, Selections from
+  the Prophetic Scriptures' and often cited as 'the Eclogues.' Corrected 2026-09-08, records/alx audit:
+  this is NOT the genuine Excerpta ex Theodoto (the real Valentinian-teaching notebook of that name,
+  which is not vendored in this corpus) - see divergence_note. Despite the shared title, the vendored
+  text carries no Valentinian technical vocabulary and does not present itself as a record of
+  Theodotus's teaching; 'our Pantænus' (one occurrence) is the only substantive link to Clement or to
+  Alexandria at all."
+edition: "trans. Rev. William Wilson, M.A., Ante-Nicene Fathers vol. 8 (1886), vendored as cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml (div1 at line 3788)"
 rights_status: public-domain
-attribution_status: "compiled by Clement; the excerpted material attributed to Theodotus, with the boundary between them disputed"
-discovery_channel: "found by the cross-world corpus assignment, which assigned it to this world; alx held four Clement sources and not this one, and had no source at all for the movement its own alx.force.gnostic-challenge is about"
+attribution_status: "disputed by the edition's own editor; not securely Clement's, not Theodotus's own words"
+discovery_channel: "found by the cross-world corpus assignment, which assigned it to this world; alx held four Clement sources and not this one, and had no source at all for the movement its own alx.force.gnostic-challenge is about (that gap is NOT closed by this record - see body)"
 external_ids: {ccel_volume: "anf08"}
 ---
 Rights verified 2026-08-27 from the file's own DC.Rights header (Public
 Domain); div1 "Excerpts of Theodotus" at line 3788.
 
-WHY IT MATTERS OUT OF PROPORTION TO ITS LENGTH. This world carries
-alx.force.gnostic-challenge - the pressure that Valentinian teaching put
-on the Alexandrian school - and had no source in which that teaching
-appears at all. It knew its opponents only through the people refuting
-them. This is Clement's own notebook, in which he wrote a Valentinian
-teacher's positions down at length, apparently to think with rather than
-only to refute.
+CORRECTED 2026-09-08, records/alx audit. This record formerly claimed the
+vendored text was Clement's own notebook of extracts from the Valentinian
+teacher Theodotus, and used that claim to argue this world holds one of
+only two genuine floor-movement voices in the whole corpus map. Direct
+inspection of the vendored body found no Valentinian vocabulary at all
+and confirmed the ANF editor's own headnote disowns the Clement
+attribution outright, prefering an unknown Montanist compiler. The two
+works only share a printed title in this 1886 edition; the actual
+Excerpta ex Theodoto is a different, real, not-vendored work.
 
-AND IT IS RARER THAN THAT. Across the nine doctrinal-floor entries in
-the corpus map, roughly seventy works are assigned and exactly TWO are a
-floor movement's own surviving voice rather than a refutation of it -
-this and Bardaisan's Book of the Laws. Nearly everything the church
-excluded reaches us through the people who excluded it. This is one of
-the two exceptions, and it survives because an Alexandrian teacher kept
-notes.
+WHAT THIS MEANS FOR alx.force.gnostic-challenge. The gap this record was
+recruited to close - this world having no source in which Valentinian
+teaching appears in anything like its own voice - is NOT closed. It
+remains open and undisclosed by any other record in this registry;
+alx.force.gnostic-challenge continues to rest on Clement's Stromateis and
+Origen's De Principiis, both of which know Valentinian teaching only
+through refutation of it.
 
-HOW IT MUST BE HANDLED. The confidence block carries the reason: the
-notebook interleaves Theodotus' words with Clement's own, and the seam
-is disputed section by section. A record drawing on this must say which
-of the two it claims to be quoting, or say plainly that it cannot tell.
-Assigned as this world's own material because the notebook is Clement's;
-Theodotus' own voice inside it belongs to
-valentinian-and-other-gnostic-christianities, where the corpus map also
-carries it.
+WHAT THE TEXT ACTUALLY IS, AND WHY IT IS STILL WORTH HOLDING A RECORD FOR.
+Whoever compiled it, the Eclogae are a working exegete's notes on
+individual scriptural passages (angelology, cosmology, textual questions)
+in the same register as - though not nearly as developed as - Clement's
+own Stromateis. It is legitimate corroborating material for how this
+tradition read Scripture verse by verse, but it is NOT evidence for what
+Valentinians taught, and no record may cite it as Theodotus's words or as
+a Valentinian source.

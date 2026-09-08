@@ -19,7 +19,12 @@ sources:
   locus: VII.22 (npnf201 lines 41084-41090; Dionysius's festal letter quoted verbatim by Eusebius)
   license: public-domain
 - source_id: alx.source.dionysius-extant-fragments
-  locus: the plague letter (same text in the collected fragments)
+  locus: 'the same letter, in a different translation, in the collected fragments
+    (corrected 2026-09-08, records/alx audit: not "the same text" - ANF06 Epistle
+    XII, lines 11396-11546, carries a differently worded translation of this
+    passage, e.g. "Certainly very many of our brethren... did not spare
+    themselves, but kept by each other, and visited the sick" vs. the npnf201
+    wording quoted in text)'
   license: public-domain
 retrieval:
   tier: 2
