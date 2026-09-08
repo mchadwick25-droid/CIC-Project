@@ -959,7 +959,9 @@
     Mingarelli's own Latin prolegomena, not Didymus's text; Didymus's actual Book I
     begins at line 7019 (corrected 2026-09-08, Round 2 Opus review, from a stale line reference the Round 1 header fix itself invalidated by adding 17 lines to the file). Corrected 2026-09-08, Round 1 Opus review, from this
     note's own original claim (checked and found false): a full Unicode census
-    found ZERO Greek characters anywhere in the file's 3.24 MB body -- the Greek
+    found ZERO Greek characters anywhere in the file's 3.29 MB body (corrected
+    2026-09-08, Round 3 Opus review, from this entry's own stale "3.24 MB" figure,
+    which had been fixed everywhere else but here) -- the Greek
     layer is not "garbled in places," it is wholly unrecoverable as Greek text
     throughout, OCR'd entirely into Latin-script noise. The Latin translation and
     notes do not "OCR cleanly" either (~12.7% of tokens symbol/digit-contaminated;
