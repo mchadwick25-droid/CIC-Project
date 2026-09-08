@@ -611,8 +611,10 @@ works:
     unacquired. Second-witness caveat applies per cic/texts/INTAKE.md: never primary evidence
     for a Representative on its own, only for cross-checking a specific reading against the
     vendored NPNF translation. OCR quality uneven - see the file''s own header for a quantified
-    apparatus-corruption assessment; apparatus- level claims specifically need independent
-    verification.
+    apparatus-corruption assessment; apparatus-level claims specifically need independent
+    verification (corrected here, independent review Round 25''s own C1 full-corpus sweep,
+    from an earlier draft''s own line fold, which split "apparatus-level" into "apparatus-
+    level" with an inserted space).
 
     '
   source_file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt

@@ -187,7 +187,7 @@ queue:
     verified_by: "lpc build thread, live web search + Cambridge Classical Review cross-citation, 2026-09-01; direct file inspection (OCR-quality sampled across the full document) 2026-09-05"
     status: downloaded
 
-  - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, remaining volume (CSEL 58 only -- 34/1, 34/2, and 44 downloaded 2026-09-08, see entries below)"
+  - title: "S. Aureli Augustini Hipponiensis episcopi Epistulae, remaining volume (CSEL 58 only -- 34/1, 34/2, and 44 downloaded 2026-09-08)"
     author: "Augustine of Hippo"
     translator: "Alois Goldbacher (ed.)"
     year: "1895 (34/1) / 1898 (34/2) / 1904 (44) / 1923 (58, preface and indices)"
@@ -200,11 +200,17 @@ queue:
       here for Augustine's letters. Would also help settle the
       letter-numbering confusion row 46 (Clarke, in-copyright) exists to answer by
       hand. Narrowed 2026-09-05, after CSEL 57 (Pars IV) was supplied and
-      vendored (see the entry below) - this entry then covered the four
-      still-unacquired volumes. Narrowed again 2026-09-08: 34/1, 34/2, and
-      44 are now also vendored (see the two new entries below) - this entry
-      now covers only CSEL 58 (praefatio and indices, no letter text of its
-      own). Volume 58 was identified 2026-09-01 at
+      vendored (queue[12] below, downloaded) - this entry then covered the
+      four still-unacquired volumes. Narrowed again 2026-09-08: 34/1, 34/2,
+      and 44 are now also vendored (queue[10] and queue[11] below, both
+      downloaded) - this entry now covers only CSEL 58 (praefatio and
+      indices, no letter text of its own) -- corrected here, independent
+      review Round 25's own C3, from an earlier draft whose own "see the
+      entry/entries below" pointers, and this entry's own title, resolved
+      only in this seed file and not in the generated
+      DOWNLOAD-QUEUE.md, which renders only not-yet-downloaded rows and so
+      never shows the downloaded entries these pointers named. Volume 58
+      was identified 2026-09-01 at
       archive.org/details/corpusscriptorum58auguuoft but not independently
       opened or fetched.
     url: "https://archive.org/details/corpusscriptorum58auguuoft"
@@ -253,8 +259,11 @@ queue:
       CSEL 44 entries -- for the one still-open volume). Mark supplied a
       compiled docx from an archive.org "Full text" view; the source
       item's identity is now independently confirmed rather than hedged
-      -- confirmed 2026-09-08, independent review Round 24's own L1 and
-      M3: archive.org/details/CSEL57, matched character for character
+      -- confirmed 2026-09-08, independent review Round 24's own L1
+      (corrected here, Round 25's own L3, from an earlier draft's own "L1
+      and M3," which cited a finding -- Round 24's M3, the Hartel file's
+      own identity confirmation -- unrelated to this identifier):
+      archive.org/details/CSEL57, matched character for character
       against the vendored file at both ends.
     url: "https://archive.org/details/CSEL57"
     rights_basis: pd-us-by-date
