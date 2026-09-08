@@ -2996,3 +2996,133 @@ branch over.
 None from this thread on the Table launch itself. Watching for the
 flash-fix follow-up to land; nothing further planned against
 `table.html` unless the next live test surfaces something new.
+
+## 2026-09-07/08 — Website-wide redesign opened: heart and story over
+speed and function; homepage hook rewritten in Mark's own words
+
+**The reframe.** Mark: the site's early speed-first design was correct
+*for that phase* - getting testers into real conversations fast was
+the right optimization while the open question was "does this engine
+work." A pilot tester's own comparison closed that question and opened
+a new one: the conversation itself didn't feel AI-lazy, the website's
+own words did. Mark: "we need to eliminate all ai content and manually
+go back and bring human (my) heart and vision... invitation and
+compelling story to draw people in with their hearts as well as their
+minds." Scope confirmed explicit: the site's own copy, not the
+conversation engine - the Representative voice is a separate, already-
+validated system this ruling doesn't touch.
+
+**My own role, stated plainly rather than assumed.** Generating
+polished "heartfelt"-sounding copy myself would just be AI content
+with better craft - the same hollowness dressed better. Structural and
+technical: help scope what each page needs to say, workshop what Mark
+writes (placement, pacing, structure, accuracy), build and ship it.
+The words have to be his. Held to this even under direct pressure -
+see the hook-line session below.
+
+**Sequencing question resolved: redesign now, subscription/limits
+later - unchanged from the 2026-09-04 deferral, reinforced rather than
+overridden.** Real usage data still hasn't arrived (funding log's own
+open item since 2026-09-03); the AWS credit's calculated runway
+(~2,857 conversations) was explicitly earmarked as the window to wait
+for that data, not a problem the redesign creates. Real technical
+dependency surfaced and worth remembering later: any actual per-
+participant limit or subscription requires knowing two conversations
+came from the same participant, which nothing in the system currently
+tracks (anonymous sessions, no cross-session identity) - "subscription
+and limits" is really "identity/accounts, then limits on top," a
+bigger lift than either of us had been treating it as. Mark's real
+worry, stated once directly: not wanting to rebuild the redesign when
+Phase 2 arrives. Resolved architecturally, not by pre-building
+anything now: keep every "start a conversation" action a single clean
+entry point (a future gate is a small change at a few doorways, not a
+rebuild of the surrounding content), and don't write copy that
+promises something a future constraint would have to walk back.
+
+**Research commissioned and shipped**: three parallel Fable-model
+research briefs (`Ministry/Features/Website-V2/Research/01-03`,
+PR #124) - narrative/invitation design patterns, craft/visual quality
+bar for a static site, and trust/honest-sourcing presentation. Headline
+findings actually used below: "open with the contract, not a claim"
+(state a plain fact, not an evocative image); the existing typeface
+(Alegreya) already validated as built "for literature, long texts";
+AI-generated imagery measurably distrusted, real artifacts with
+provenance preferred.
+
+**Homepage, first shipped step (PR #125):** Mark's own piece, "The
+Story We Are In," placed as its own full section directly beneath the
+existing hook, before the world-picker grid - not compressed into the
+hero, not pasted in without the redesign framework this whole entry
+records. One open item, not acted on without asking: the "what's new"
+banner now sits right after the piece's closing line, a tonal
+gear-shift Mark hasn't ruled on yet.
+
+**The homepage hook line, fully rewritten** - the old line ("Twenty
+centuries of the Church. One table. A chair pulled out for you.") was
+itself an unprompted example of the very problem this whole redesign
+exists to fix: a self-coined, quotable-sounding line that names
+nothing real, the exact thing O2's sixth register rule already forbids
+the Representative voice from doing. Rebuilt word by word with Mark
+across many rounds, not delivered as a finished draft:
+- Dropped "real" (Mark: "it doesn't serve a purpose") once "letters,
+  sermons, and records" already did that work concretely.
+- "Christian traditions" chosen over "the Church" as the scope noun -
+  already the site's own working unit elsewhere on the same page.
+- "Table" as a literal word rejected for the hook even though the
+  Table feature is real (up to 3 representatives in conversation with
+  each other and the participant, confirmed) - naming it in the very
+  first line would promise the wrong first click, since Interview
+  (cheaper, ~$0.35/hr vs Table's ~$0.75/hr, and per Mark "the true
+  potential" of the project's own name) stays the actual first path
+  below the hook. "Representative voices" (plural) kept anyway since
+  it's true either way and echoes Mark's own closing line in "The
+  Story We Are In" ("pull up a chair with representative voices").
+- My own drafted attempt to fold in "encounter" for the Atlas
+  (`"Encounter Christian traditions across history — in conversation
+  with representative voices, or through the letters, sermons, and
+  records themselves"`) was rejected outright: "no to ai" - the
+  em-dash-into-balanced-clause shape was exactly the crafted-sounding
+  rhetoric this redesign is against. Correctly read as a real
+  self-check, not just a preference call: stopped proposing finished
+  sentences after this, worked in plain substitutions and short option
+  lists only for the rest of the session.
+- Table/chair imagery itself examined at Mark's own prompt - found
+  repeated across the logo animation, the old hero, the world-grid's
+  own code and labeling, the Table feature copy, and now the story
+  piece's own close. Resolved: the image stays real and earned where
+  it's functional (the actual feature name, the actual seat-picker),
+  it does not become the site's organizing metaphor for what the
+  project *means* - that's O0 (revealing Christ through the church's
+  witness), not a table. Mark's own piece already gets this
+  proportion right without managing it: three paragraphs of substance,
+  one closing line of table imagery as a bridge to action.
+- Final line, assembled from Mark's own successive edits: "Encounter
+  representative voices and the two-thousand-year story, coming to
+  life from the actual letters, sermons, and records of distinct
+  Christian traditions." "Distinct" pulled from O4 ("Distinct worlds")
+  rather than coined fresh, once Mark named wanting a word in that
+  space and rejected "definable" himself.
+- Shipped with the heading's own CSS resized (`clamp(2rem,4.5vw,3rem)`
+  down to `clamp(1.375rem,2.6vw,1.75rem)`, weight 400, readable
+  measure) - the old giant-display-headline treatment was sized for a
+  twelve-word tagline, not a full sentence; at the old size the new
+  line ran 5-8 lines and visually outweighed "The Story We Are In"
+  directly beneath it, the opposite of the intended hierarchy. Wording
+  is Mark's; this sizing call is a technical/craft judgment within
+  scope, not a copy change.
+
+**Verified before shipping:** Playwright clean (zero overflow
+320-1440px, both themes, zero console errors) at both the old and new
+heading size; link-checker clean; visual screenshots confirmed the
+resized heading reads as a calm four-line orienting statement rather
+than competing with the story section for weight.
+
+### Next action
+
+None from this thread on the homepage hook - done, shipped. Open items
+carried forward: the what's-new banner's placement (Mark hasn't ruled
+on it), and the rest of the homepage's copy blocks (world-grid intro,
+Table and Atlas portal blurbs, support blurb) - flagged once, not
+touched, waiting on Mark's own pass or explicit direction. Support and
+About pages are next in Mark's stated order once he's ready to write
+their own "why."
