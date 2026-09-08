@@ -507,21 +507,12 @@ def run_turn(
     anachronistic_term_ids: set,
     track_b_accumulator: dict | None = None,
     track_a_last: dict | None = None,
-    force_empty_stream: bool = False,
     already_told_ids: set[str] | None = None,
     already_bridged_figure_ids: set[str] | None = None,
     already_bridged_gloss_ids: set[str] | None = None,
     history: list[dict] | None = None,
 ) -> TurnResult:
-    """force_empty_stream is a TEST/EVIDENCE HOOK ONLY - it lets the empty-
-    stream crisis-append case be exercised deterministically (a real model
-    returning genuinely zero tokens is a real but unforceable event) without
-    touching the append logic under test at all - see
-    crisis_resources.append_crisis_resources_turn, which is what actually
-    decides the append and takes no client. Must never be set true outside
-    a test or evidence run.
-
-    session_id attributes every real call this turn makes (M8: "zero
+    """session_id attributes every real call this turn makes (M8: "zero
     unattributed calls") - use engine.m8.usage.SYSTEM_SESSION_ID for a
     non-session evidence run, never a blank string.
 
@@ -623,33 +614,15 @@ def run_turn(
                 usage_records=usage_records + voice_usage_records,
             )
 
+        # Governed (CiC_System_Hub_Decision_Log.md, portfolio decision
+        # 2026-09-08): no voice speaks once ACUTE_DISTRESS fires, in the
+        # interview any more than at a table (engine.m4.round's own
+        # is_acute_crisis branch, Artifact-7 SS2) - the Representative
+        # never steps out of its world, full stop, and the crisis-resources
+        # append below never depended on a voice call's output anyway
+        # (crisis_resources' own stage-5 proof point).
         voice_event = None
         stream_text, stream_failed = None, True
-        if not force_empty_stream:
-            # The voice may still offer its world's empathy (Program-Spec SS8)
-            # while safety governs the turn - but the crisis-resources append
-            # below never depends on whether this call even produced text.
-            stream_outcome = stream_voice_turn(voice_client, voice_model_id, system_prompt=world.prompt_text, message=participant_message)
-            if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation_crisis", model_id=voice_model_id):
-                usage_records.append(rec)
-            if stream_outcome.status == "ok":
-                # The fleet preamble's citation contract is now always in
-                # the system prompt (every world, every call), so even this
-                # empathy-only call may emit [[id]] tags - the net still
-                # runs here, stripping tags a participant must never see
-                # and withholding anything that fails to ground, exactly
-                # as the ordinary path does. A turn the net empties out
-                # entirely is, correctly, functionally empty for the
-                # append-decision below (stream_failed stays False - the
-                # call itself succeeded - but empty_stream is judged on
-                # stream_text, same as always).
-                repository_records = evidence.repository_records_by_id(world.repository)
-                stream_text, _citations, _net_result = apply_net(
-                    stream_outcome.value.text, repository_records=repository_records, thin_topics=evidence.thin_topics_for(repository_records)
-                )
-                stream_failed = False
-                if stream_text.strip():
-                    voice_event = {"speaker": world.world_key, "text": stream_text, "citations": [], "glosses": [], "figures_used": [], "quote_offers": [], "attempts_meta": {"empty_stream_retries": 0}, "output_defects": check_output(stream_text, history=history, participant_message=participant_message)}
 
         facilitator_event = crisis_resources.append_crisis_resources_turn(
             signal=signal, stream_text=stream_text, stream_failed=stream_failed,
