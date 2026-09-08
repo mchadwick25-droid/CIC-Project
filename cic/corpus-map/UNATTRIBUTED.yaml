@@ -935,6 +935,21 @@ authors:
 
       '
     from_file: theodosianus-16_mommsen-meyer1905.txt
+  theodosian-code-compilers:
+    kind: anonymous
+    evidence: 'A compiled imperial law code spanning Constantine (312) through Theodosius
+      II (437), issued in Theodosius II''s own name (438) but authored, in the sense a corpus-map
+      author field means, by no single person — each constitution is its own emperor''s own
+      act, redacted into one code by the compiling commission Theodosius II convened (Nov.
+      Theod. 1, itself not part of this vendored file). "The Roman imperial chancery" is the
+      same collective/anonymous-act treatment already used for the one other legal-compilation
+      author-entity this corpus map has ruled on (a Julianic school law, Cappadocian''s own
+      cappadocian.source.codex-theodosianus-13-3-5-school-law.md record, independently — that
+      record cites the same work by content, not this vendored file, and needed no ruling
+      here).
+
+      '
+    from_file: codex-theodosianus_latinlibrary.txt
   theophilus-of-caesarea:
     kind: metadata-omission
     evidence: 'div2 10.12 ''Theophilus, Bishop of Caesarea in Palestine''. Kept distinct from

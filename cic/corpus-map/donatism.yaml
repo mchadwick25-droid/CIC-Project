@@ -415,6 +415,23 @@ works:
 
     '
   source_file: theodosianus-16_mommsen-meyer1905.txt
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+  author: theodosian-code-compilers
+  locus: whole text
+  role: context
+  confidence: needs-ruling
+  note: 'Not a claim this staging entry is positioned to argue well — flagged because Source_Registry.md
+    row 44 (lpc''s own Registry) records that the sibling Donatism build''s own Manifest carried
+    a live G3 request for exactly this edition (Mommsen-Meyer, referenced there but not acquired
+    after five attempts; that build settled for a substitute, Boyd''s 1905 translation of
+    the ecclesiastical edicts). Donatism''s own corpus-map bucket does not yet list this work
+    (checked before writing this entry). Whether it belongs there as context, antecedent,
+    or something narrower — CTh 16.5/16.6 carry the anti-Donatist and anti-heretic legislation
+    most likely relevant — is a call for that world''s own build thread, not asserted here
+    from outside.
+
+    '
+  source_file: codex-theodosianus_latinlibrary.txt
 - work: The Book of Rules (Liber Regularum)
   author: tyconius
   locus: whole work

@@ -591,3 +591,19 @@ works:
 
     '
   source_file: theodosianus-16_mommsen-meyer1905.txt
+- work: Codex Theodosianus (Imperatori Theodosiani Codex), full text, all 16 books
+  author: theodosian-code-compilers
+  locus: whole text
+  role: context
+  confidence: needs-ruling
+  note: 'Named on fit alone, not evidence — this world''s own name and evident subject (imperial
+    law and Christianity) make it an obvious candidate, but this staging entry was written
+    from lpc''s own build thread, which has not read that world''s own Doc_01/Doc_02 boundary
+    and cannot argue whether CTh is that entry''s own `context` (external legal apparatus
+    acting on a tradition) or `tradition` (the entry''s own native voice, if the entry''s
+    own subject IS the imperial legal apparatus itself). Flagged per corpus-map''s own non-exclusivity
+    principle — better named and left for a ruling than silently omitted because the assigning
+    thread lacked standing to decide it.
+
+    '
+  source_file: codex-theodosianus_latinlibrary.txt
