@@ -579,3 +579,15 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- work: Theodosiani Libri XVI (Book 16, critical Latin text)
+  author: theodosian-code
+  locus: as above
+  role: tradition
+  confidence: provisional
+  note: 'Same dual-assignment logic already applied to the Optatus Appendix of Documents for
+    this pair of entries: imperial legislation on the church is imperial-juridical-christianity''s
+    own subject matter, so tradition rather than context there. Provisional pending that entry''s
+    own confirmation, the same caveat the Appendix entry already carries.
+
+    '
+  source_file: theodosianus-16_mommsen-meyer1905.txt

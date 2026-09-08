@@ -1,0 +1,21 @@
+source_file: tyconius_liber-regularum_burkitt1894.txt
+
+assignments:
+  - work: "The Book of Rules (Liber Regularum)"
+    author: tyconius
+    locus: "whole work"
+    atlas_ids:
+      - donatism
+    role: tradition
+    confidence: assigned
+    note: >
+      Tyconius's own hermeneutical treatise — a major, independently
+      influential work (Augustine himself drew on it) by a figure of the
+      Donatist milieu, condemned by Parmenian and a Donatist council for
+      his own dissenting positions but never joining the Catholic church
+      (Doc_01 §4 deliberately leaves his formal communion status open
+      rather than assuming it). This is this entry's own strongest surviving
+      theological writing in the movement's own intellectual orbit, not a
+      hostile quotation or an outside description — weigh accordingly
+      against the corpus's otherwise heavily documentary/hostile-quotation
+      skew.

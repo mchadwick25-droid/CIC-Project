@@ -1,0 +1,17 @@
+source_file: monceaux_histoire-litteraire-afrique-chretienne-tome4_1912.txt
+
+assignments:
+  - work: "Histoire littéraire de l'Afrique chrétienne, Tome IV: Le
+      Donatisme"
+    author: monceaux
+    locus: "whole volume"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      Monceaux's own volume-length scholarly history of Donatism (1912,
+      French) — modern secondary scholarship, not a primary voice on either
+      side. The standard literary-historical survey of the movement,
+      pairing with Tomes V and VI (staged separately) as a three-volume
+      secondary-scholarship spine for this world.

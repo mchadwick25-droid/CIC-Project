@@ -1,0 +1,41 @@
+source_file: theodosianus-16_mommsen-meyer1905.txt
+
+authors_ruled:
+  theodosian-code:
+    kind: anonymous
+    evidence: >
+      Imperial legislation compiled by an appointed commission under
+      Theodosius II (438 CE) from earlier rescripts of multiple emperors —
+      a collective legislative-compilation entity, not a work with a single
+      author; Mommsen and Meyer are its modern editors, not its authors.
+
+assignments:
+  - work: "Theodosiani Libri XVI (Book 16, critical Latin text)"
+    author: theodosian-code
+    locus: "Book 16"
+    atlas_ids:
+      - donatism
+    role: context
+    confidence: assigned
+    note: >
+      Mommsen-Meyer's standard critical edition (1905) of the actual
+      imperial legislation naming and regulating the Donatists directly —
+      the authoritative Latin text behind Boyd's English study (staged
+      separately). Context: imperial legislation describing/regulating the
+      movement from outside, same footing as the Council acts and
+      Appendix of Documents already mapped for this entry.
+
+  - work: "Theodosiani Libri XVI (Book 16, critical Latin text)"
+    author: theodosian-code
+    locus: "as above"
+    atlas_ids:
+      - imperial-juridical-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      Same dual-assignment logic already applied to the Optatus Appendix of
+      Documents for this pair of entries: imperial legislation on the
+      church is imperial-juridical-christianity's own subject matter, so
+      tradition rather than context there. Provisional pending that
+      entry's own confirmation, the same caveat the Appendix entry already
+      carries.
