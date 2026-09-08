@@ -3126,3 +3126,53 @@ Table and Atlas portal blurbs, support blurb) - flagged once, not
 touched, waiting on Mark's own pass or explicit direction. Support and
 About pages are next in Mark's stated order once he's ready to write
 their own "why."
+
+## 2026-09-08 (later) — "The Story We Are In" section heading reworked
+to "The Unfolding Story"
+
+Mark's own second-guess, unprompted: "im not sure 'The story we are
+in' says anything or sets things up, it a cute saying but not
+relevent." Checked rather than just agreed or defended it: the title
+does real work in context (it answers the hook's own "two-thousand-
+year story," and "we are in" makes a real present-tense claim - a
+story still being lived, not one being reported on, which is what
+makes the piece's closing invitation work). Mark's sharper follow-up
+named the actual problem precisely: "it's not standing alone" - true
+regardless of whether it's doing real work in context, since a title
+that only makes sense after reading the hook and the piece's own
+ending is failing a real, separate test.
+
+Reworked through several rounds, each one a real correction:
+1. "Following Jesus" + "story" - Mark's own instinct, killed by his
+   own next thought: "too direct for some of our readers" - a real,
+   substantive read tied to O0's own "witness, never recruitment,"
+   not just a style preference.
+2. "Knowing the Whole Story" - gentler, kept "story," but Mark caught
+   his own overclaim before I did: "is whole a unfulfillable promise,
+   we never can know the whole story" - directly the same honesty
+   discipline O3 already runs on ("honest thinness beats invented
+   depth"), self-applied to his own section title.
+3. "Discovering the Wider/Deeper Story" - "discovering" fixed the verb
+   (a process, not a completed possession); "wider" recommended over
+   "deeper" since the piece is actually about breadth across eras and
+   places, not depth into one thing.
+4. Asked for one word capturing both scale and depth without listing
+   them; "storied" and "rich" offered, neither taken.
+5. **Landed, Mark's own word: "The Unfolding Story."** Solves three
+   things at once: makes no completeness claim (avoids #2's problem
+   entirely, without needing "discovering" to do it), implies both
+   scale and ongoing depth in one word (answers the #4 ask better than
+   either option offered), and preserves the one thing the original
+   title got right - present tense, a story still being lived - without
+   needing "we are in" or the hook above it to carry that meaning.
+
+Shipped: `cic-website/index.html`'s `#story-title` heading only;
+`<title>`, meta description, and body copy untouched.
+
+**Verified:** Playwright clean (zero overflow 320-1440px, both themes,
+no console errors); link-checker clean.
+
+### Next action
+
+None from this thread on the homepage section titles. Support and
+About remain next once Mark is ready to write their own material.
