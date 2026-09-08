@@ -92,7 +92,7 @@
 
 **Distortion Risk — Modern Hearing:** philanthropy as optional generosity of the rich; "charity" versus "justice" as rivals; social program versus spirituality. **World Hearing:** justice and liturgy in one act; the poor man as Christ's own claim; a virtue you can be damned for lacking, preached to your face in a famine.
 
-**Key Texts:** Basil, the famine and wealth homilies (on the rich fool's barns; in time of famine and drought; against usury — **not vendored**, `cappadocian_Source_Registry.md` row 16); Gregory of Nazianzus, On the Love of the Poor (**not vendored**, row 32); Gregory of Nyssa, On the Love of the Poor / on the lepers. **Key Sources:** the Basileias correspondence (work level). **Related Terms:** philanthrōpia, eikōn, pleonexia, koinōnia, Basileias (T2), eusebeia.
+**Key Texts:** Basil, the famine and wealth homilies (on the rich fool's barns; in time of famine and drought; against usury — **not vendored**, `cappadocian_Source_Registry.md` row 16); Gregory of Nazianzus, On the Love of the Poor (**not vendored**, row 32); Gregory of Nyssa, On the Love of the Poor / on the lepers (**not vendored**, row 55, corrected 2026-09-08, Round 4 Opus review). **Key Sources:** the Basileias correspondence (work level). **Related Terms:** philanthrōpia, eikōn, pleonexia, koinōnia, Basileias (T2), eusebeia.
 
 ## 8. eikōn (tou Theou) — Tags: [SC][DR][RT] — Tier 1
 

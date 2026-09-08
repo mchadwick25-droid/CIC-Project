@@ -215,7 +215,11 @@ NPNF208 = ("Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters a
            "Works), ed. Schaff, vendored as cic/texts/npnf208_basil-letters-select-works.xml")
 NPNF207 = ("Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (Cyril of Jerusalem, Gregory "
            "Nazianzen), ed. Schaff, vendored as cic/texts/npnf207_cyril-jerusalem-gregory-"
-           "nazianzen.xml (covers the Orations; among the ~245 letters, only Epp. 101, 102, 202)")
+           "nazianzen.xml (covers the Orations and 96 of the ~245 letters with actual body text "
+           "-- corrected 2026-09-08, Round 4 Opus review, from this constant's own stale 'only "
+           "Epp. 101, 102, 202' claim, superseded by Source_Registry.md row 31's own direct "
+           "census; De vita sua and the autobiographical poems are NOT within this edition as "
+           "continuous text -- no Poem-type div exists in the file, row 36)")
 NPNF205 = ("Nicene and Post-Nicene Fathers, 2nd series, vol. 5 (Gregory of Nyssa: Dogmatic, "
            "Ascetic, and Moral Treatises, Letters), ed. Schaff, vendored as "
            "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt")
@@ -598,20 +602,25 @@ def build_sources() -> dict[str, str]:
     # --- Part B: Gregory of Nazianzus (Registry rows 31-40) -----------------
     ids["gregory-nazianzus-orations-general-corpus"] = emit_source(
         31, "gregory-nazianzus-orations-general-corpus", "Gregory of Nazianzus (c. 329/30-c. 390)",
-        "Gregory of Nazianzus, Orations (general corpus; among ~245 letters, covers only "
-        "Epp. 101, 102, 202)", NPNF207, "v", "attributed",
+        "Gregory of Nazianzus, Orations (general corpus; carries 99 Letter divs, 96 with "
+        "actual body text, out of ~245 -- corrected 2026-09-08, Round 4 Opus review, from this "
+        "string's own stale 'covers only Epp. 101, 102, 202' claim)", NPNF207, "v", "attributed",
         "B", "named-not-rechecked", "load-bearing", "Widely Accepted", None,
         "Grounds the Trinitarian-confession gravity (the five Theological Orations) and the "
         "stillness-vs-office pull gravity candidate (Oration 2, next-but-three record) (row "
-        "31). Coverage gap named: the Sasima letters, Ep. 58, and Ep. 197 are gaps within this "
-        "same acquisition (rows 39, 40), not separately acquirable this session.")
+        "31). Coverage gap corrected 2026-09-08, Round 1-4 Opus review, from this record's own "
+        "stale claim: the Sasima letters, Ep. 58, and Ep. 197 are all CONFIRMED PRESENT (rows "
+        "39, 40, Confidence A), not gaps.")
     ids["gregory-nazianzus-oration-14-love-of-poor"] = emit_source(
         32, "gregory-nazianzus-oration-14-love-of-poor", "Gregory of Nazianzus",
-        "Gregory of Nazianzus, Oration 14, On the Love of the Poor", NPNF207, "v", "attributed",
-        "B", "verified-via-authority", "load-bearing", "Widely Accepted", None,
+        "Gregory of Nazianzus, Oration 14, On the Love of the Poor -- NOT within npnf207 "
+        "(corrected 2026-09-08, Round 1 Opus review: only a Prolegomena catalogue mention "
+        "exists, not the oration's own text)", "na", "na", "attributed",
+        "C", "named-not-rechecked", "corroborating", "Inferential-Thin", None,
         "The poor-institutionalized gravity candidate (row 32). Named specifically (bolded) by "
         "Doc_02 SS1.2 alongside the Theological Orations, the funeral orations, and Oration 2 "
-        "-- given its own record rather than folded silently into the general corpus.")
+        "-- given its own record rather than folded silently into the general corpus. Not "
+        "vendored: a real, currently unfilled acquisition gap, not assumed covered.")
     ids["gregory-nazianzus-invectives-against-julian"] = emit_source(
         33, "gregory-nazianzus-invectives-against-julian", "Gregory of Nazianzus",
         "Gregory of Nazianzus, Orations 4 and 5 (First and Second Invectives Against Julian)",
@@ -671,9 +680,11 @@ def build_sources() -> dict[str, str]:
     ids["gregory-nazianzus-epistle-197-theosebia"] = emit_source(
         39, "gregory-nazianzus-epistle-197-theosebia", "Gregory of Nazianzus",
         "Gregory of Nazianzus, Epistle 197 (consolation to Gregory of Nyssa, honoring "
-        "Theosebia)", "Not within the vendored npnf207 edition (which covers only Epp. 101, "
-        "102, 202) -- a named, currently unlocated acquisition gap", "na", "attributed",
-        "B", "named-not-rechecked", "corroborating", "Inferential-Thin", None,
+        "Theosebia)", "CONFIRMED PRESENT in the vendored npnf207 edition -- corrected "
+        "2026-09-08, Round 1 Opus review, from this record's own stale 'not within' claim: "
+        "Letter CXCVII, div4 id iv.iv.ii.viii, 'A Letter of Condolence on the Death of His "
+        "Sister Theosebia'", "v", "attributed",
+        "A", "verified-via-authority", "corroborating", "Widely Accepted", None,
         "SS6.1's Theosebia datum (row 39). Doc_02 SS6 itself cautions this praise is "
         "corroboration from within the same friendship network the world's whole record leans "
         "on, not independent of it in the stronger sense the word might suggest; whether "
@@ -681,13 +692,15 @@ def build_sources() -> dict[str, str]:
     ids["gregory-nazianzus-sasima-letters"] = emit_source(
         40, "gregory-nazianzus-sasima-letters", "Gregory of Nazianzus",
         "Gregory of Nazianzus, the Sasima letters (48-50) and Epistle 58",
-        "Not within the vendored npnf207 edition -- a named, currently unfilled acquisition "
-        "gap", "na", "attributed", "B", "named-not-rechecked", "corroborating", "Inferential-Thin",
-        None,
+        "CONFIRMED PRESENT in the vendored npnf207 edition -- corrected 2026-09-08, Round 1 "
+        "Opus review, from this record's own stale 'not within' claim: Letters XLVIII, XLIX "
+        "('To Basil. (The Praises of Quiet.)'), L, and LVIII all present, div3 ids "
+        "iv.iii.xviii-xxi", "v", "attributed", "A", "verified-via-authority", "load-bearing",
+        "Widely Accepted", None,
         "The Sasima-affair Tier 1 story candidate (Doc_02 SS8) (row 40). Doc_02 SS8's Sasima "
-        "story tier currently rests on Nazianzen's Orations and De vita sua (rows 31, 36), not "
-        "on these specific letters -- a real, currently unfilled gap, not silently assumed "
-        "covered.")
+        "story tier can now draw on these letters directly, not only on the Orations and De "
+        "vita sua (rows 31, 36) -- not yet done, a future revision-pass item, per row 40's own "
+        "note.")
 
     # --- Part B: Gregory of Nyssa (Registry rows 41-56) ----------------------
     ids["gregory-nyssa-general-dogmatic-ascetic-corpus"] = emit_source(
