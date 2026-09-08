@@ -985,18 +985,21 @@
     Pars III (Cyprian's Opera Spuria, the Vita Caecilii Cypriani, the Acta
     Proconsularia, and the volume's own indices and praefatio) is now also
     vendored, as that world's Registry row 194 (2026-09-08), closing G1 in
-    full -- corrected here 2026-09-08, from an earlier draft's own present-
-    tense "is not included and remains unacquired; G1 stays open for that
-    part only," stale since that acquisition and left uncorrected through
+    full -- corrected here 2026-09-08, from an earlier draft's own
+    present-tense "is not included and remains unacquired; G1 stays open
+    for that part only," stale since that acquisition and left uncorrected through
     twenty-two rounds of that world's own independent review, since no
     sweep of that review had been scoped to this file. Public domain by
     date (1868/1871, both far past the
     ~95-year US threshold); the 1965 Johnson Reprint Corporation printing this
     scan derives from is a photomechanical reprint of the same public-domain
     text, no new claim over it. Mechanically extracted from a docx Mark compiled
-    from an archive.org "Full text" view of a Google Books scan (exact item
-    identifier not stated when supplied, not guessed -- see the file's own
-    header); site-navigation chrome and Google's own standard PD usage notice
+    from an archive.org "Full text" view of a Google Books scan. The exact
+    item identifier, not stated when supplied, is now independently
+    confirmed rather than guessed -- confirmed here, independent review
+    Round 24's own M3: sthascicaecilic01hartgoog, matched character for
+    character against the vendored file at both ends -- see the file's own
+    header. Site-navigation chrome and Google's own standard PD usage notice
     stripped, doubled inter-word spacing normalized, nothing else altered.
     OCR quality is uneven: the running Latin text reads cleanly throughout
     (including right at the end, where Epistle 81 closes with no truncation),
@@ -1021,15 +1024,19 @@
     extracted from a docx Mark compiled from an archive.org "Full text" view
     of an Internet Archive scan of the University of California, Berkeley's
     own copy -- corrected here from an earlier draft's own "a Google Books
-    scan" and "not guessed": the item (archive.org/details/
-    sanctiaugustiniv00possrich, identity confirmed by a byte-for-byte match
-    against the vendored file at both ends) carries sponsor MSN and
+    scan" and "not guessed": the item
+    (archive.org/details/sanctiaugustiniv00possrich, identity confirmed by
+    a byte-for-byte match against the vendored file at both ends) carries
+    sponsor MSN and
     scanningcenter rich, the signature of an Internet Archive/Microsoft
     Open Content Alliance scan, and its own full text contains the word
-    "Google" zero times; site-navigation chrome, a public-domain usage
-    notice, and a scanned UC Berkeley circulation due-date slip bound into
-    the back of the physical volume were all stripped as scanning
-    artifacts, doubled inter-word
+    "Google" zero times; site-navigation chrome and a scanned UC Berkeley
+    circulation due-date slip bound into the back of the physical volume
+    were stripped as scanning artifacts -- the "public-domain usage
+    notice" an earlier draft also claimed was stripped here is corrected
+    away in the same pass, independent review Round 24's own L3: the
+    source item's own text carries no such notice, so its removal cannot
+    be verified from here and is not claimed. Doubled inter-word
     spacing normalized, nothing else altered. OCR quality: the English
     translation reads cleanly throughout, including its own closing lines;
     the Latin apparatus and manuscript-collation tables carry more noise,
@@ -1042,8 +1049,8 @@
     only (Epistulae 185-270) -- supplied for the Latin Pastoral-Congregational
     Christianity world-build's own Registry row 61. CSEL 34/1, 34/2, and 44
     were also vendored (2026-09-08); only CSEL 58 (praefatio and indices, no
-    letter text of its own) remains unacquired, and Source_Acquisition_
-    Manifest G4 now stays open for that part alone -- corrected here
+    letter text of its own) remains unacquired, and Source_Acquisition_Manifest
+    G4 now stays open for that part alone -- corrected here
     2026-09-08 from an earlier draft's own present-tense "are not included
     and stay open," stale since that acquisition and left uncorrected
     through twenty-two rounds of that world's own independent review, since
@@ -1054,9 +1061,12 @@
     item (archive.org/details/CSEL57, identity confirmed by a byte-for-byte
     match against the vendored file at both ends) carries no sponsor or
     scanningcenter field pointing at Google, and its own full text contains
-    the word "Google" zero times; site-navigation chrome and a public-domain
-    usage notice stripped, doubled inter-word spacing normalized, nothing
-    else altered.
+    the word "Google" zero times; site-navigation chrome stripped -- the
+    "public-domain usage notice" an earlier draft also claimed was stripped
+    here is corrected away in the same pass, independent review Round 24's
+    own L3: the source item's own text carries no such notice, so its
+    removal cannot be verified from here and is not claimed. Doubled
+    inter-word spacing normalized, nothing else altered.
     Latin-only, no facing translation -- original-language witness,
     second-witness caveat applies per cic/texts/INTAKE.md. OCR quality
     measurably worse than this project's other recent Latin intakes: a
@@ -1090,10 +1100,15 @@
   supplied_by: Claude (at Mark's direction)
   date_added: '2026-09-08'
   notes: >-
-    Goldbacher's CSEL 44 (1904): Augustine's Epistulae 124-184A, including Letter 185 (the
-    Correction of the Donatists, Registry row 12) at its Latin source. Partially closes
-    Source_Acquisition_Manifest G4 alongside the companion CSEL 34/1-2 entry; CSEL 58 remains open.
-    Fetched directly via archive.org item sanctiaureliaugu44augu.
+    Goldbacher's CSEL 44 (1904): Augustine's Epistulae 124-184A. Does NOT include Letter 185
+    (the Correction of the Donatists, Registry row 12) -- corrected here, independent review
+    Round 24's own H1, from an earlier draft's own self-contradicting "including Letter 185,"
+    which the file's own letter headings (running only to CLXXXIV A.) already disprove and
+    which this world's own Registry row 196 and the vendored file's own Content note already
+    corrected, at Round 16, without this entry being swept the same way. Letter 185 opens the
+    next part of Goldbacher's edition, CSEL 57 Pars IV, already vendored (Registry row 193).
+    Partially closes Source_Acquisition_Manifest G4 alongside the companion CSEL 34/1-2 entry;
+    CSEL 58 remains open. Fetched directly via archive.org item sanctiaureliaugu44augu.
 - filename: augustine_confessiones-lat_knoll-csel33.txt
   supplied_by: Claude (at Mark's direction)
   date_added: '2026-09-08'
@@ -1174,9 +1189,13 @@
     Latin/Greek text of both the Passio S. Perpetuae and, as its own stated Appendix, the Passio
     Sanctorum Scillitanorum. Not a Manifest G-item. Second-witness original-language file for the
     Scillitan Martyrs (already Excluded/Named Comparandum at Registry row 28, English-only via
-    ANF09) -- this file does not change that exclusion. The Passio S. Perpetuae is not yet assigned
-    to any world's own corpus map; flagged as a candidate, not assigned here. Fetched directly via
-    archive.org item MN5140ucmf_2.
+    ANF09) -- this file does not change that exclusion. The Passio S. Perpetuae is already assigned
+    -- to tertullian-s-voice, per Mark's own 2026-08-26 ruling -- corrected here, independent review
+    Round 24's own H1, from an earlier draft's own "not yet assigned to any world's own corpus map,"
+    which cic/corpus-map/tertullian-s-voice.yaml, this world's own Registry row 204, and the vendored
+    file's own Content note already corrected, at Round 17, without this entry being swept the same
+    way. This file's own vendoring adds a second entry to that same world's own corpus-map bucket,
+    role tradition, confidence assigned. Fetched directly via archive.org item MN5140ucmf_2.
 - filename: harnack_vita-cypriani-commentary-lat-deu_1913.txt
   supplied_by: Claude (at Mark's direction)
   date_added: '2026-09-08'
