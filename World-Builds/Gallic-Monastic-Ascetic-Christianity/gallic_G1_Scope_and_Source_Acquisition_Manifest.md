@@ -141,6 +141,20 @@ imperial-juridical-christianity, latin-pastoral-congregational-christianity, or 
    that provoked the Gallic objections the other two answer, not itself a Gallic-addressed work. The
    distinction is disclosed in each work's own corpus-map note, not smoothed over.
 
+   **Correction, 2026-09-08, after Doc_02's Round 1 review (finding S25):** the claim two paragraphs
+   above — "the distinction is disclosed in each work's own corpus-map note, not smoothed over" — was
+   itself false when written. The Round 2 (Doc_01) fix had landed in the generated corpus-map bucket's
+   then-current copy but had never actually been applied to `cic/corpus-map/_staging/npnf105_augustine-anti-pelagian-writings.yaml`,
+   the file that actually generates that bucket — so a later merge would have silently reverted it,
+   and in fact the bucket still read "Hilary of Arles" when Doc_02's reviewer checked it. Fixed at the
+   root in the staging file and re-merged (commit `188ebba`), verified clean. **This is the third
+   instance in this build's own history of a correction being announced in one file without being
+   propagated to the record it was actually about** (Doc_01 Round 2 finding N6 found the same shape of
+   defect in this file once already; this is a second, independent occurrence). Flagged here as a
+   standing pattern worth this fleet's coach-thread attention, not something this build thread can
+   fully guard against by more careful writing alone — the actual fix is to grep the target file
+   directly after any "corrected" claim, not to trust the claim.
+
 **Not done, and not needed:** no `cic/texts/INTAKE.md` run — nothing new entered `cic/texts/` this
 session, only corpus-map re-pointing of already-vendored, already-registered files.
 
