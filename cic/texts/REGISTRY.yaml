@@ -948,3 +948,39 @@
     1904 transcription is born-digital, not OCR, and every one of its 27 books' chapter
     counts was checked against its independently known canonical count before this
     file was written.
+- filename: cyprian_treatises-lat_hartel1868.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Guilelmus Hartel (ed.), S. Thasci Caecili Cypriani Opera Omnia, Vol. III Pars I (CSEL,
+    Vindobonae: Apud C. Geroldi Filium Bibliopolam Academiae, 1868) - the critical Latin text of
+    Cyprian's genuine treatises (Ad Donatum, Quod Idola Dii Non Sint, Ad Quirinum, De Habitu
+    Virginum, De Catholicae Ecclesiae Unitate, De Lapsis, De Dominica Oratione, De Mortalitate, Ad
+    Fortunatum, Ad Demetrianum, De Opere et Eleemosynis, De Bono Patientiae, De Zelo et Livore,
+    Sententiae Episcoporum). Sourced for the Latin Pastoral-Congregational Christianity world
+    (corpus map: cic/corpus-map/latin-pastoral-congregational-christianity.yaml), whose Cyprian
+    material had only the English ANF05 translation, no original-language witness. Only the title
+    page and opening treatise (Ad Donatum) confirmed present this pass; the remaining twelve
+    treatises expected present per CSEL's own documented contents but not individually verified.
+- filename: cyprian_epistulae-lat_hartel1871.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    Guilelmus Hartel (ed.), S. Thasci Caecili Cypriani Opera Omnia, Vol. III Pars II: Epistulae
+    (CSEL, Vindobonae, 1871) - companion volume to cyprian_treatises-lat_hartel1868.txt, the critical
+    Latin text of Cyprian's genuine letters. Same sourcing rationale (Latin Pastoral-Congregational
+    world, no prior original-language witness for Cyprian). Title page and "EPISTVLAE" heading
+    confirmed; word "epistula" occurs 78 times, consistent with the corpus's documented ~81 letters.
+    No specific letter's content read this pass.
+- filename: scillitan-martyrs-lat-grc_robinson1891.txt
+  supplied_by: sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), with Mark's authorization
+  date_added: '2026-09-08'
+  notes: >-
+    J. Armitage Robinson (ed.), The Passion of S. Perpetua, with an Appendix Containing the Original
+    Latin Text of the Scillitan Martyrdom (Texts and Studies I.2, Cambridge: University Press, 1891).
+    Target text is the Appendix, "The Acts of the Scillitan Martyrs" - the earliest dated Latin
+    Christian document (Carthage, 180 CE), already assigned in the Latin Pastoral-Congregational
+    corpus map from the English ANF translation only. Confirmed present this pass: Robinson's
+    manuscript-history discussion and the Latin dialogue text itself ("Speratus dixit..."). This file
+    also incidentally vendors Perpetua's own Latin and Greek Passion text, not itself requested for
+    this world and not yet assigned in any corpus map.
