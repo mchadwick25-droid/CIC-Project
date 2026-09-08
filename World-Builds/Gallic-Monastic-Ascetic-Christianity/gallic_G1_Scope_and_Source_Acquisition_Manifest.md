@@ -33,6 +33,15 @@ Cassian's/Vincent's Lérins–Marseilles (Vincent d. c. 445) are one continuous 
 lineage of two, two generations apart. The case document names this as a real six-test question, not
 an assumed answer either way.
 
+**Correction, 2026-09-08, after Doc_01's Round 1 review (finding S3):** the case document's own §4
+states that removing Hilary of Poitiers "drops the figure to 366,371 words." That arithmetic is
+wrong — 731,019 − 228,578 (Hilary) = **502,441**, not 366,371. **366,371 = 731,019 − 364,648
+(Cassian)** — the case document's own §4 and §5 use two different, inconsistent subtractions, and §4
+is the one in error (§5's "366k without him [Cassian]" is the figure's actual meaning). This document
+inherited the wrong figure without checking it; the total below is corrected accordingly. The case
+document itself is not this build thread's file to edit (it is a decision record, not a build
+artifact), so the error is flagged here and in Doc_01 rather than silently corrected at the source.
+
 ---
 
 ## Part B — Source Acquisition Manifest
@@ -44,8 +53,8 @@ what the case document had already counted, and it did not — three real gaps, 
 
 | source_id | work / edition | rights_status | where | destination | why this edition | alternatives | scope note |
 |---|---|---|---|---|---|---|---|
-| gal-src-01 | *The Conferences of John Cassian* (Conferences I–XXIV), NPNF Series II, Vol. 11 | public-domain [M] — NPNF, 19th-c. translation, CCEL text | already vendored, supplied by Mark 2026-08-15 | `cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml` | the standard English NPNF translation; already load-bearing for desert-monasticism (srcDES026, cited by 4 of that world's documents) | none sought — this is the only open-domain English Conferences translation in the project's library | all 24 conferences in scope; Conference XIII (the classic so-called semi-Pelagian text) in scope, no exclusion |
-| gal-src-02 | *The Twelve Books on the Institutes of the Coenobia*, same volume | public-domain [M] | same file | same file | same volume, same translator; written c. 420 for Gallic monasteries (dedicated to Castor of Apt), commended by Rule of Benedict ch. 73 | none sought | full text in scope |
+| gal-src-01 | *The Conferences of John Cassian* (Conferences I–XXIV), NPNF Series II, Vol. 11 | public-domain [M] — NPNF, 19th-c. translation, CCEL text | already vendored, supplied by Mark 2026-08-15 | `cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml` | the standard English NPNF translation; already load-bearing for desert-monasticism (srcDES026, cited by 4 of that world's documents) | none sought — this is the only open-domain English Conferences translation in the project's library | **corrected 2026-09-08 (Doc_01 review finding S17): only 22 of 24 conferences carry text in this edition** — Conference XII ("On Chastity") is marked "Not translated" and Conference XXII ("On Nocturnal Illusions") "is omitted" (verified directly in the XML, lines 37466–37475 and 46037–46045); both are sexuality/body material, a real edition-level gap worth naming alongside Doc_02's own Missing Voices work, not only a record-level one. Conference XIII (the *Protection of God* conference, central to this world's grace controversy) is in scope, no exclusion |
+| gal-src-02 | *The Twelve Books on the Institutes of the Coenobia*, same volume | public-domain [M] | same file | same file | same volume, same translator; commended by Rule of Benedict ch. 73 (and ch. 42, which prescribes the *Conferences* as daily reading — an equally strong, easily overlooked half of the same link) | none sought | full text in scope. **Corrected 2026-09-08 (Doc_01 review finding S12): not "for Gallic monasteries" broadly.** The Preface itself (verified directly in the XML) addresses one named bishop, Castor of Apta Julia in Gallia Narbonensis, whose own province is described as "at present without monasteries" — a single addressee in the far Mediterranean south, not a general Gallic dedication, and it says nothing about Tours or the Loire |
 | gal-src-03 | *On the Incarnation of the Lord, Against Nestorius (De Incarnatione)*, same volume | public-domain [M] | same file | same file | Cassian's own authored corpus (written from Marseilles); counted in the case document's 364,648-word Cassian figure but **not yet corpus-mapped to this world before this session** — closed today, see Part C | none sought | full seven books in scope |
 | gal-src-04 | *On the Life of St. Martin*, Sulpitius Severus, same volume | public-domain [M] | same file | same file | written c. 397 in Aquitaine while Martin still lived; the founding hagiography of the world's central figure | none sought | full text in scope; hagiographic-tier caution applies at Doc_09, not here |
 | gal-src-05 | *Dialogues of Sulpitius Severus*, same volume | public-domain [M] | same file | same file | continues the Martin material; Dialogue I also carries Postumianus' first-hand Egyptian-desert travel account | none sought | full text in scope |
@@ -53,16 +62,17 @@ what the case document had already counted, and it did not — three real gaps, 
 | gal-src-07 | *The Letters of Sulpitius Severus*, same volume | public-domain [M] | same file | same file | undisputed letters, distinct from the doubtful set above | none sought | full text in scope |
 | gal-src-08 | *The Sacred History (Chronica)*, Sulpitius Severus, same volume | public-domain [M] | same file | same file | Sulpitius' own historical corpus; counted in his 109,539-word case-document figure but **not yet corpus-mapped to this world before this session** — closed today, see Part C | none sought | in scope as author-tradition; its Priscillianist-affair narrative (Book II) is the sharper fit for imperial-juridical-christianity and stays cross-assigned there too |
 | gal-src-09 | *The Commonitory of Vincent of Lerins*, same volume | public-domain [M] | same file | same file | the classic rule for discerning catholic tradition ("quod ubique, quod semper, quod ab omnibus"), written 434 at Lérins — a genuine insider document of the school itself | none sought | full text in scope |
-| gal-src-10 | *On Rebuke and Grace (De correptione et gratia)*, Augustine, NPNF Series I, Vol. 5 | public-domain [M] | already vendored, supplied by Mark 2026-08-15 | `cic/texts/npnf105_augustine-anti-pelagian-writings.xml` | the opponent's-side text that provoked the Gallic monks' objections Prosper and Hilary of Arles reported to Augustine — provisional assignment, see Part C | none sought | addressed to Hadrumetum, not Gaul — in scope as context for the controversy this world holds under pressure, not as this world's own voice |
-| gal-src-11 | *On the Predestination of the Saints (De praedestinatione sanctorum)*, same volume | public-domain [M] | same file | same file | Augustine's direct reply to Prosper and Hilary of Arles, Gallic monks of the Marseilles/Lérins circle | none sought | full text in scope, opponent's-side witness |
-| gal-src-12 | *On the Gift of Perseverance (De dono perseverantiae)*, same volume | public-domain [M] | same file | same file | companion/continuation of gal-src-11, same audience | none sought | full text in scope, opponent's-side witness |
+| gal-src-10 | *On Rebuke and Grace (De correptione et gratia)*, Augustine, NPNF Series I, Vol. 5 | public-domain [M] | already vendored, supplied by Mark 2026-08-15 | `cic/texts/npnf105_augustine-anti-pelagian-writings.xml` | the opponent's-side text that provoked the Gallic monks' objections reported to Augustine — provisional assignment, see Part C | none sought | addressed to Hadrumetum, not Gaul — in scope as context for the controversy this world holds under pressure, not as this world's own voice |
+| gal-src-11 | *On the Predestination of the Saints (De praedestinatione sanctorum)*, same volume | public-domain [M] | same file | same file | Augustine's direct reply to Prosper of Aquitaine and a "Hilary" reporting the Gallic monks' objections — **corrected 2026-09-08 (Doc_01 review finding S6): this Hilary's identity is Contested, not Hilary of Arles.** This world's own vendored Commonitory introduction places Hilary of Arles among the Massilian party itself ("Honoratus and Hilary, afterwards successively bishops of Arles, and Faustus, afterwards bishop of Riez... opposed to St. Augustine's later teaching"), i.e. on the same side as the monks being reported on, not the reporter. The standard reference identification for Augustine's correspondent favors a Gallic lay monk over the bishop of Arles. Carried as Contested pending Doc_02's own resolution | none sought | full text in scope, opponent's-side witness |
+| gal-src-12 | *On the Gift of Perseverance (De dono perseverantiae)*, same volume | public-domain [M] | same file | same file | companion/continuation of gal-src-11, same audience and same identity caveat | none sought | full text in scope, opponent's-side witness |
 
-**Total citable material: ≈461,000 words** [M, summed from the case document's own per-author word
-counts] — Cassian ≈364,648w (Institutes, Conferences I–III, De Incarnatione), Sulpitius Severus
-≈109,539w minus what the case document's own table already excluded, Vincent ≈28,254w, plus
-Augustine's ≈95,295w opponent-side material. All of it already inside `cic/texts/`; zero new
-downloads, zero new rights determinations, zero licensing questions (NPNF is public domain
-throughout).
+**Total citable material: ≈597,700 words**, corrected 2026-09-08 (Doc_01 review finding S3) —
+Cassian + Sulpitius Severus + Vincent of Lérins, Hilary of Poitiers removed: 731,019 − 228,578 =
+**502,441w** [M, case document §3 table, arithmetic redone directly], plus Augustine's ≈95,295w
+opponent-side material = **597,736w**. (The case document's own §4 states this figure as "366,371,"
+which is actually the total with *Cassian* removed and *Hilary* still in — see the correction note
+under Part A above.) All of it already inside `cic/texts/`; zero new downloads, zero new rights
+determinations, zero licensing questions (NPNF is public domain throughout).
 
 **Honest gaps, not pursued now:** Prosper of Aquitaine's own writings (he is named throughout as the
 reporter and one of the two addressees, but has no separately vendored voice in this library — he is
